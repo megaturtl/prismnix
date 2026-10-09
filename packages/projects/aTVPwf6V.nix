@@ -26,21 +26,28 @@ let
             "file" = "afkzmotionblur-1.0-release+26.2.jar";
             "hash" = "sha512-/dq2wfoxSPgxWNv4aaZftiTHYjxkHt/BCH+KE0EokMJNwudYQeyzgXkfEb7Ujdcp0+9akPfylim9Agsczwo+qA==";
         };
+        _vU8JFq1g = {
+            "id" = "vU8JFq1g";
+            "file" = "afkzmotionblur-1.0+26.3.jar";
+            "hash" = "sha512-hEt5K34TdG/IdMAvcTSQe/Jl2sEfs9BzhQjiAQfslhgMi2Y4Sumy9ddHHFX+FP1JZ0hGiCmeHWUdnEZP1vGz3A==";
+        };
     in {
         "i2Nm2hCw" = _i2Nm2hCw;
         "zZhbZrWo" = _zZhbZrWo;
         "hkc7lSux" = _hkc7lSux;
         "iDUWxISE" = _iDUWxISE;
         "Aol1oeyX" = _Aol1oeyX;
+        "vU8JFq1g" = _vU8JFq1g;
         "fabric-1.21.11" = _zZhbZrWo;
         "fabric-26.1" = _hkc7lSux;
         "fabric-26.1.1" = _hkc7lSux;
         "fabric-26.1.2" = _iDUWxISE;
         "fabric-26.2" = _Aol1oeyX;
+        "fabric-26.3" = _vU8JFq1g;
         "pkg-1.0-beta" = _i2Nm2hCw;
         "pkg-1.0-Release" = _zZhbZrWo;
-        "pkg-1.0-release" = _Aol1oeyX;
-        "default" = _Aol1oeyX;
+        "pkg-1.0-release" = _vU8JFq1g;
+        "default" = _vU8JFq1g;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "afkz-motion-blur";

@@ -96,6 +96,16 @@ let
             "file" = "creategearsandtavern-1.1.8.jar";
             "hash" = "sha512-TjUh5YdF2DjJ3ok3xvY5Sh4GIWiG2jRz5sYY0otujrNyDF7MBRGe9Rll33BzFmTu8ljiAWBCSks3grKYP1rqGA==";
         };
+        _smqH5sEQ = {
+            "id" = "smqH5sEQ";
+            "file" = "creategearsandtavern-1.1.9-1.21.1.jar";
+            "hash" = "sha512-oy9p77yUagpLyOIpTXnDZ4VVUGqfmeQCejMjsmztOjrszcPDGQQsoO1L91whMpKGgyIY0PRqi0oa6Vtz9bD1iA==";
+        };
+        _EJ1YP5Ar = {
+            "id" = "EJ1YP5Ar";
+            "file" = "creategearsandtavern-1.1.9-1.20.1.jar";
+            "hash" = "sha512-9/HT3kgvLe6W6eOtR996g/+sPyCMpRf4zPZWuGG2r2qpRbDiLma1fjaL+Wrw5QpnYFx85eUcwQJAb74Cs3K5Mg==";
+        };
     in {
         "DiXZ81pC" = _DiXZ81pC;
         "QPAIc6XK" = _QPAIc6XK;
@@ -116,8 +126,10 @@ let
         "GgLkqT18" = _GgLkqT18;
         "PXPGcZMT" = _PXPGcZMT;
         "nCV9N6aB" = _nCV9N6aB;
-        "neoforge-1.21.1" = _PXPGcZMT;
-        "forge-1.20.1" = _nCV9N6aB;
+        "smqH5sEQ" = _smqH5sEQ;
+        "EJ1YP5Ar" = _EJ1YP5Ar;
+        "neoforge-1.21.1" = _smqH5sEQ;
+        "forge-1.20.1" = _EJ1YP5Ar;
         "pkg-1.0.0" = _DiXZ81pC;
         "pkg-1.1.0" = _UFGeu6ss;
         "pkg-1.1.1" = _228gCuUl;
@@ -128,7 +140,9 @@ let
         "pkg-1.1.6" = _necbq0mh;
         "pkg-1.1.7" = _GgLkqT18;
         "pkg-1.1.8" = _nCV9N6aB;
-        "default" = _nCV9N6aB;
+        "pkg-1.1.9-1.21.1" = _smqH5sEQ;
+        "pkg-1.1.9-1.20.1" = _EJ1YP5Ar;
+        "default" = _EJ1YP5Ar;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-gears-and-tavern";

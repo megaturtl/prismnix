@@ -211,6 +211,26 @@ let
             "file" = "UndergroundVillages-neoforge-26.2-12.0.0.jar";
             "hash" = "sha512-HqT0R2uaqFr6GtDLqlQ8I/jOZZHLTOpOfkQBQWHbivwXX7PrMyWedJdPSGlqUW0TCNi5MCP5RqKGud229fWe2w==";
         };
+        _1E6CWyR7 = {
+            "id" = "1E6CWyR7";
+            "file" = "UndergroundVillages-fabric-26.3-13.0.0.jar";
+            "hash" = "sha512-zYi7wZ5jZuchsxj7W1AC2nxZKGzHLWfcljXALA6+wzp4l9K+27BNcSw0w3Bah9YIaW2mEfCjRRC8Ic81X2bwrQ==";
+        };
+        _nnSmdvTl = {
+            "id" = "nnSmdvTl";
+            "file" = "UndergroundVillages-neoforge-26.3-13.0.0.jar";
+            "hash" = "sha512-7WFgCs4mGJrnk1Q5sD4MuRyhs3RUb8cOB65fD1W7wROAewzggh5oGk7FuY6236in/C8LmJqyZ9PptVt8p8jGyg==";
+        };
+        _pmfuwT4K = {
+            "id" = "pmfuwT4K";
+            "file" = "UndergroundVillages-fabric-26.3-13.0.1.jar";
+            "hash" = "sha512-FDWgIqXosH+5RLvtQShyYOoMpfhfV1cpZ0qd13klBv4JO0QIaGxaPnsElJpcpJpauDNyWcWfroeMRtTa7FdXMg==";
+        };
+        _42OohKQG = {
+            "id" = "42OohKQG";
+            "file" = "UndergroundVillages-neoforge-26.3-13.0.1.jar";
+            "hash" = "sha512-od9+DPhThRnoCD6sEEqjYMlDRYOs45wERDNdxEZXDcahBENBZF8AVL/p99vuu7aMDg+50hcpdqAYX4oilmORfw==";
+        };
     in {
         "Qo8SeLRP" = _Qo8SeLRP;
         "7dDtakeD" = _7dDtakeD;
@@ -254,6 +274,10 @@ let
         "IlDwbtDc" = _IlDwbtDc;
         "q6BgMjT7" = _q6BgMjT7;
         "VWxbLWOr" = _VWxbLWOr;
+        "1E6CWyR7" = _1E6CWyR7;
+        "nnSmdvTl" = _nnSmdvTl;
+        "pmfuwT4K" = _pmfuwT4K;
+        "42OohKQG" = _42OohKQG;
         "forge-1.18.2" = _2Cx86y5w;
         "forge-1.19" = _7dDtakeD;
         "forge-1.19.1" = _7dDtakeD;
@@ -274,6 +298,7 @@ let
         "neoforge-1.21.11" = _POUFenq5;
         "neoforge-26.1.2" = _IlDwbtDc;
         "neoforge-26.2" = _VWxbLWOr;
+        "neoforge-26.3" = _42OohKQG;
         "fabric-1.20.1" = _Xt5gPHu2;
         "fabric-1.20.4" = _BSu5przo;
         "fabric-1.21" = _MxvXCZXA;
@@ -286,6 +311,7 @@ let
         "fabric-1.21.11" = _ZF9jV5EZ;
         "fabric-26.1.2" = _ZG27xI3w;
         "fabric-26.2" = _q6BgMjT7;
+        "fabric-26.3" = _pmfuwT4K;
         "pkg-1.0.1" = _Qo8SeLRP;
         "pkg-1.1.1" = _7dDtakeD;
         "pkg-1.2.0" = _2Cx86y5w;
@@ -310,7 +336,9 @@ let
         "pkg-10.0.0" = _ZF9jV5EZ;
         "pkg-11.0.0" = _IlDwbtDc;
         "pkg-12.0.0" = _VWxbLWOr;
-        "default" = _VWxbLWOr;
+        "pkg-13.0.0" = _nnSmdvTl;
+        "pkg-13.0.1" = _42OohKQG;
+        "default" = _42OohKQG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "underground-villages";

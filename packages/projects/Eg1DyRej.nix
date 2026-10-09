@@ -141,6 +141,11 @@ let
             "file" = "eastersdelight-fabric-26.1-1.3.0.jar";
             "hash" = "sha512-+PBvr14S9xLXVpz/RZQqy1fDBCl22gz3IOxtN7frEEljtB59ipZ+FmzZ2NorA4As2pkqxodFlDhmoEm0hVGK6A==";
         };
+        _llCPGpxJ = {
+            "id" = "llCPGpxJ";
+            "file" = "eastersdelight-fabric-26.3-1.3.1.jar";
+            "hash" = "sha512-pbUOktpN2CtMLx9kmQAxgkKkSi2PYUMDbozrh0+88QnRmEadbRE2oXmBOfy/iA4DMTDHd4fGFV/1wPPL9I88yg==";
+        };
     in {
         "azxDUiJg" = _azxDUiJg;
         "NYLtMSAP" = _NYLtMSAP;
@@ -170,6 +175,7 @@ let
         "Cs8xdxut" = _Cs8xdxut;
         "rd7t1aJD" = _rd7t1aJD;
         "7B7g9vHS" = _7B7g9vHS;
+        "llCPGpxJ" = _llCPGpxJ;
         "neoforge-1.21" = _mbtSXQY9;
         "neoforge-1.21.1" = _mbtSXQY9;
         "neoforge-1.20.1" = _7Cu6hFkb;
@@ -188,6 +194,7 @@ let
         "fabric-26.1.1" = _7B7g9vHS;
         "fabric-26.1.2" = _7B7g9vHS;
         "fabric-26.2" = _rd7t1aJD;
+        "fabric-26.3" = _llCPGpxJ;
         "pkg-0.1.0" = _azxDUiJg;
         "pkg-0.2.0" = _3ECYLMvh;
         "pkg-0.2.1" = _vBxKqsjB;
@@ -198,8 +205,8 @@ let
         "pkg-1.2.0" = _ofnrUjf4;
         "pkg-1.2.1" = _mbtSXQY9;
         "pkg-1.3.0" = _7B7g9vHS;
-        "pkg-1.3.1" = _rd7t1aJD;
-        "default" = _7B7g9vHS;
+        "pkg-1.3.1" = _llCPGpxJ;
+        "default" = _llCPGpxJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "easters-delight";

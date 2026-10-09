@@ -11,14 +11,23 @@ let
             "file" = "§6§lNo Bedrock Leaks!!!.zip";
             "hash" = "sha512-wV/k+C+9LBhk+Xxmg9LsBNMogka805L3kLplvRcJEYUa4JWMkqK8bfU+UptuhLb0HMeYUXKCpCbAB2BJJNsp3Q==";
         };
+        _CsiNUE0D = {
+            "id" = "CsiNUE0D";
+            "file" = "No bedrock leaks!.zip";
+            "hash" = "sha512-BFH65dA+ENM7k6wrIGu7XApYRPERGLYTVbVYJVNgnPrpEYFbbhga2/xftD+DqS2mgO9DW18e9a35LUWJeaRmSQ==";
+        };
     in {
         "36CR9lJf" = _36CR9lJf;
         "9kUXeftx" = _9kUXeftx;
+        "CsiNUE0D" = _CsiNUE0D;
         "minecraft-1.21.11" = _36CR9lJf;
         "minecraft-26.1" = _9kUXeftx;
+        "minecraft-26.3" = _CsiNUE0D;
+        "datapack-26.3" = _CsiNUE0D;
         "pkg-0.1" = _36CR9lJf;
         "pkg-1.0" = _9kUXeftx;
-        "default" = _9kUXeftx;
+        "pkg-1.1" = _CsiNUE0D;
+        "default" = _CsiNUE0D;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "no-bedrock-leaks!";

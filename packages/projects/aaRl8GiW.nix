@@ -516,6 +516,16 @@ let
             "file" = "PrickleMC-fabric-MC26.2-26.2.0.3.jar";
             "hash" = "sha512-LHXGHTs2djb1xR+KCcRDIanabNL6FG0kcHO66cQIcGEwGcexf5VIe+UV2Rgnla6PY1zZ8lGgrre8NmSR63x8wQ==";
         };
+        _aPdekuq6 = {
+            "id" = "aPdekuq6";
+            "file" = "PrickleMC-fabric-MC26.3-26.3.0.2.jar";
+            "hash" = "sha512-isWNCdRB5siMObPh8GmuZ0lZyZE4njWyf6Hz46GOoUJNCVaXdR5WGN0pa06xIP5iKtp80iFP1rz7LK/jmPm/+w==";
+        };
+        _DeR1vFsN = {
+            "id" = "DeR1vFsN";
+            "file" = "PrickleMC-neoforge-MC26.3-26.3.0.2.jar";
+            "hash" = "sha512-iuldF5zlykPNC0S0rUxS1gCBk7xTkTgHdnpgleCwOX3Ln460VWNRUftypScWFMso8C/EY7fjfd0qnxYY00loYg==";
+        };
     in {
         "wa4144eQ" = _wa4144eQ;
         "QN71wzDR" = _QN71wzDR;
@@ -620,6 +630,8 @@ let
         "Sr3cVd3n" = _Sr3cVd3n;
         "txRctW4d" = _txRctW4d;
         "XdvtdRYJ" = _XdvtdRYJ;
+        "aPdekuq6" = _aPdekuq6;
+        "DeR1vFsN" = _DeR1vFsN;
         "fabric-1.21" = _FmTbvivp;
         "fabric-1.21.1" = _Ef7P6Rb7;
         "fabric-1.21.2" = _zb9UvElw;
@@ -636,6 +648,7 @@ let
         "fabric-26.1" = _Sr3cVd3n;
         "fabric-26.1.2" = _Sr3cVd3n;
         "fabric-26.2" = _XdvtdRYJ;
+        "fabric-26.3" = _aPdekuq6;
         "forge-1.21" = _KzvMibIm;
         "forge-1.21.1" = _jJsVYjnQ;
         "quilt-1.21" = _FmTbvivp;
@@ -666,6 +679,7 @@ let
         "neoforge-26.1" = _FzfKD3xX;
         "neoforge-26.1.2" = _FzfKD3xX;
         "neoforge-26.2" = _txRctW4d;
+        "neoforge-26.3" = _DeR1vFsN;
         "pkg-21.0.1" = _QN71wzDR;
         "pkg-21.0.3" = _w6vhofa4;
         "pkg-21.0.5" = _1BQoGgdg;
@@ -710,7 +724,8 @@ let
         "pkg-26.2.0.2" = _bszUzTDd;
         "pkg-26.1.2.6" = _Sr3cVd3n;
         "pkg-26.2.0.3" = _XdvtdRYJ;
-        "default" = _XdvtdRYJ;
+        "pkg-26.3.0.2" = _DeR1vFsN;
+        "default" = _DeR1vFsN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "prickle";

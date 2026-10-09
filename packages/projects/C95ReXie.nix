@@ -1151,6 +1151,11 @@ let
             "file" = "MysticalAgriculture-26.1.2-9.0.9.jar";
             "hash" = "sha512-lA/IAUmoJgF+N81r2fTwxiKoqAdwWXbUUHUB9R2cwsNgB1UBrpGwOW6ogWTthEQ9l+j5a4xHGF6XEF9dG//n6g==";
         };
+        _orXm92bk = {
+            "id" = "orXm92bk";
+            "file" = "MysticalAgriculture-26.1.2-9.0.10.jar";
+            "hash" = "sha512-mHXoNKYHkE8/W6MKKzc1v0JrS3VbSFCAR4oo7ViJHjMLkWPSHeicSER56/n91TGe/LcxEeqt+EIsLFCEyAAcYg==";
+        };
     in {
         "rT5qvA6E" = _rT5qvA6E;
         "y7sGlB3m" = _y7sGlB3m;
@@ -1382,6 +1387,7 @@ let
         "PLakgT6X" = _PLakgT6X;
         "ht0tHmbG" = _ht0tHmbG;
         "os4OXhWm" = _os4OXhWm;
+        "orXm92bk" = _orXm92bk;
         "forge-1.10" = _y7sGlB3m;
         "forge-1.10.2" = _lGUsZqaQ;
         "forge-1.11" = _1950P508;
@@ -1404,7 +1410,7 @@ let
         "forge-1.20.1" = _EEilTecF;
         "neoforge-1.21" = _PLakgT6X;
         "neoforge-1.21.1" = _PLakgT6X;
-        "neoforge-26.1.2" = _os4OXhWm;
+        "neoforge-26.1.2" = _orXm92bk;
         "pkg-1.0.0" = _rT5qvA6E;
         "pkg-1.0.1" = _y7sGlB3m;
         "pkg-1.0.2" = _4KlBTgPo;
@@ -1612,7 +1618,8 @@ let
         "pkg-8.0.28" = _PLakgT6X;
         "pkg-9.0.8" = _ht0tHmbG;
         "pkg-9.0.9" = _os4OXhWm;
-        "default" = _os4OXhWm;
+        "pkg-9.0.10" = _orXm92bk;
+        "default" = _orXm92bk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mystical-agriculture";

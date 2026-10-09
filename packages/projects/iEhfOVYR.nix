@@ -666,6 +666,71 @@ let
             "file" = "melancholic_hunger-2.0.6-26.3-fabric.jar";
             "hash" = "sha512-e+FZR5z5HqnScOApIwtf6LEhARcXLagLO/9rvXFNhDBRU64aib2w55FVtoSEenZ6mbZCb1Ubm0n87sq9+Uq/CA==";
         };
+        _OnvC1wRe = {
+            "id" = "OnvC1wRe";
+            "file" = "melancholic_hunger-1.5.7-1.21.4-fabric.jar";
+            "hash" = "sha512-0ylz4zWYKHBpjoGOZ6IxIsKIhxURcjAjLwC9lpqVQH236lQew2oVE6cUP/7IoVZ7xxsGYbPARP5UFCUBpEZR4A==";
+        };
+        _XzsphKku = {
+            "id" = "XzsphKku";
+            "file" = "melancholic_hunger-1.6.2-1.21.5-fabric.jar";
+            "hash" = "sha512-U3wwVdZRQ6J/RUSvDUL1gHUNLnMzuf4tsrATxd397ZoiHjpK9hYMytlKLxlMvCqGBmaPVxQyTgvlQJ5U1GD1EA==";
+        };
+        _gWsFN8ZO = {
+            "id" = "gWsFN8ZO";
+            "file" = "melancholic_hunger-1.8.7-1.21.8-fabric.jar";
+            "hash" = "sha512-PoxTkg0ySjkgs0YqopMsl8wP5BUc02sHhZi9J19Z5WWQaGA79KKr6lYDcK931eRih+VUAk79/xjJ0hzmPRzThA==";
+        };
+        _RTEY1z0K = {
+            "id" = "RTEY1z0K";
+            "file" = "melancholic_hunger-1.8.7-1.21.10-fabric.jar";
+            "hash" = "sha512-8sgPUKoWJ/PhYXYipqrdPcN5u8XyJAaMwzPIoSFBCGZ5wXa2pfi9FwA/bcLkV6OjeWDkZrBw+QHcP4RhZdD19Q==";
+        };
+        _7krV1mXr = {
+            "id" = "7krV1mXr";
+            "file" = "melancholic_hunger-1.8.7-1.21.11-fabric.jar";
+            "hash" = "sha512-llszkceNrNIsIBvTrYNmrywkv9/8ceOunPet3zGMwjnbqZfUtsUb8/pWYS5Vv7gUpPQqYvxALdOXNSb97Ob4aA==";
+        };
+        _ETMBn3jc = {
+            "id" = "ETMBn3jc";
+            "file" = "melancholic_hunger-2.0.7-1.21.1-fabric.jar";
+            "hash" = "sha512-icEVT8ZQWarqqC8io/eTa7H51FZu+mrhXNWbXREQCBJFLjYrn9IWAt1ok8RpmBf0eL8lHwyVzZouDWwwYQpzvg==";
+        };
+        _yabR7XEy = {
+            "id" = "yabR7XEy";
+            "file" = "melancholic_hunger-2.0.7-1.21.1-neoforge.jar";
+            "hash" = "sha512-1sfD6q8zBLFdv24PkBQOfUzMMGm1S8rAavJsaw31Ug0FdorITQCjy84A1J3XN/fLJa7kOQ+/Ot/KtT8IITPSNw==";
+        };
+        _fh5zsp4B = {
+            "id" = "fh5zsp4B";
+            "file" = "melancholic_hunger-2.0.7-26.1-fabric.jar";
+            "hash" = "sha512-xNLlTBZ+xFr/j+C12iuQh0IDdj6cIy3y4kimkh97cVeD40EQlXHFHVpFcK/1hMMrB7ouvQP+aBGnrVSOCdxYPQ==";
+        };
+        _1pdEmXju = {
+            "id" = "1pdEmXju";
+            "file" = "melancholic_hunger-2.0.7-26.1-neoforge.jar";
+            "hash" = "sha512-fjMMWZgYgNV16pfR0TG7X58q7AJaHEL5KxMJca8rkqVYkZPTwEUI4uD7/05DgV/C6F3hkyRPPy3r9vlxfc7efg==";
+        };
+        _O3p1rgpE = {
+            "id" = "O3p1rgpE";
+            "file" = "melancholic_hunger-2.0.7-26.3-fabric.jar";
+            "hash" = "sha512-BR53At+XYRGcpcUi7jIEpXtQ/nrunWRu9iaHC835Vr6M0L3E9xN1V6hosvpDD7t/zVbvgHqT1dAPMUOuh/emBw==";
+        };
+        _tPu2rYwS = {
+            "id" = "tPu2rYwS";
+            "file" = "melancholic_hunger-2.0.7-1.20.1-fabric.jar";
+            "hash" = "sha512-9L8g0m0BZ8RL7cNS1jbezg0r/+iI2wG9yLCOJ3pw/F+uJUk6iHqvo12m+VoW9paC/5P6sDG6jpZsR+kw7Sz34g==";
+        };
+        _2ZYWG25t = {
+            "id" = "2ZYWG25t";
+            "file" = "melancholic_hunger-2.0.7-1.20.1-forge.jar";
+            "hash" = "sha512-4et7C3eZNfeFxXq66+dcgMtlgWejJLIMuQlNPGLvXiVmGy9AYMaO7/4bry9Ga4RAOmP0SQVU9FQ6DUBlHH1cZg==";
+        };
+        _FbB1NuTc = {
+            "id" = "FbB1NuTc";
+            "file" = "melancholic_hunger-2.0.7-26.2-fabric.jar";
+            "hash" = "sha512-zz+vZunqm8FS71Jb8/QPQahncd+OSIXWQ3AEtA4G78g7yG+zJ7JzB5RSaUUKt/kDDINMm4LeplWFXME55OmMAQ==";
+        };
     in {
         "hpXOUk6P" = _hpXOUk6P;
         "idMmV79q" = _idMmV79q;
@@ -800,28 +865,41 @@ let
         "sOcMTqUc" = _sOcMTqUc;
         "np5tzbhB" = _np5tzbhB;
         "shlBmUuj" = _shlBmUuj;
+        "OnvC1wRe" = _OnvC1wRe;
+        "XzsphKku" = _XzsphKku;
+        "gWsFN8ZO" = _gWsFN8ZO;
+        "RTEY1z0K" = _RTEY1z0K;
+        "7krV1mXr" = _7krV1mXr;
+        "ETMBn3jc" = _ETMBn3jc;
+        "yabR7XEy" = _yabR7XEy;
+        "fh5zsp4B" = _fh5zsp4B;
+        "1pdEmXju" = _1pdEmXju;
+        "O3p1rgpE" = _O3p1rgpE;
+        "tPu2rYwS" = _tPu2rYwS;
+        "2ZYWG25t" = _2ZYWG25t;
+        "FbB1NuTc" = _FbB1NuTc;
         "fabric-1.21" = _STsDYwnB;
-        "fabric-1.21.1" = _Sv3098ml;
-        "fabric-1.21.4" = _lvyjKDTZ;
-        "fabric-1.21.5" = _MknRcf7p;
+        "fabric-1.21.1" = _ETMBn3jc;
+        "fabric-1.21.4" = _OnvC1wRe;
+        "fabric-1.21.5" = _XzsphKku;
         "fabric-1.21.6" = _J4PGrh9q;
         "fabric-1.21.7" = _J4PGrh9q;
-        "fabric-1.21.8" = _l1FhstpZ;
+        "fabric-1.21.8" = _gWsFN8ZO;
         "fabric-1.21.9" = _u808B1r9;
         "fabric-1.21.10-rc1" = _oq0QQF91;
-        "fabric-1.21.10" = _tvDbYhFc;
-        "fabric-1.21.11" = _doe5T45q;
-        "fabric-1.20.1" = _8tG2xkNU;
-        "fabric-26.1" = _OIBiRiFs;
-        "fabric-26.1.1" = _OIBiRiFs;
-        "fabric-26.1.2" = _OIBiRiFs;
-        "fabric-26.2" = _np5tzbhB;
-        "fabric-26.3" = _shlBmUuj;
-        "neoforge-1.21.1" = _nwlUlqxk;
-        "neoforge-26.1" = _UVf7pvxN;
-        "neoforge-26.1.1" = _UVf7pvxN;
-        "neoforge-26.1.2" = _UVf7pvxN;
-        "forge-1.20.1" = _sZctvd8U;
+        "fabric-1.21.10" = _RTEY1z0K;
+        "fabric-1.21.11" = _7krV1mXr;
+        "fabric-1.20.1" = _tPu2rYwS;
+        "fabric-26.1" = _fh5zsp4B;
+        "fabric-26.1.1" = _fh5zsp4B;
+        "fabric-26.1.2" = _fh5zsp4B;
+        "fabric-26.2" = _FbB1NuTc;
+        "fabric-26.3" = _O3p1rgpE;
+        "neoforge-1.21.1" = _yabR7XEy;
+        "neoforge-26.1" = _1pdEmXju;
+        "neoforge-26.1.1" = _1pdEmXju;
+        "neoforge-26.1.2" = _1pdEmXju;
+        "forge-1.20.1" = _2ZYWG25t;
         "pkg-1.0" = _f3YsPfhE;
         "pkg-1.1" = _Ugts3CGh;
         "pkg-1.2" = _Og5nrAHH;
@@ -857,7 +935,11 @@ let
         "pkg-1.8.6" = _doe5T45q;
         "pkg-2.0.5" = _sOcMTqUc;
         "pkg-2.0.6" = _shlBmUuj;
-        "default" = _shlBmUuj;
+        "pkg-1.5.7" = _OnvC1wRe;
+        "pkg-1.6.2" = _XzsphKku;
+        "pkg-1.8.7" = _7krV1mXr;
+        "pkg-2.0.7" = _FbB1NuTc;
+        "default" = _FbB1NuTc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "melancholic_hunger";

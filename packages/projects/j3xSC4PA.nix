@@ -301,6 +301,26 @@ let
             "file" = "homeostaticseasons-26.2-neoforge-1.2.0.3.jar";
             "hash" = "sha512-Y4YLSFD6kack25wSRAZ9m7K8GeBvELZt9ZM4IKS1E93Mzu6YQ0+ouaVLan+xrr0Vt3PUGbQhw9ai3Qu11stBeg==";
         };
+        _PMcS1gTj = {
+            "id" = "PMcS1gTj";
+            "file" = "homeostaticseasons-26.3-fabric-1.2.0.3.jar";
+            "hash" = "sha512-kiaZ5TxDn/VMDE3PrwmM4jRuCg7JmMJEdV7n7j7DgKHGJjnWCXq4zwYJl32Kc0CCnfEPXk3XLqUbkkmz6ujAoQ==";
+        };
+        _oBP1yViq = {
+            "id" = "oBP1yViq";
+            "file" = "homeostaticseasons-26.3-neoforge-1.2.0.3.jar";
+            "hash" = "sha512-wwve0pxtBVC6oQ+CW0jUOFFUV1hGlBLexWhp3mOwb4+gX6Y9qWv6bQ/r2hp+b86yLk3aLREdWGRDuCEl5YW8tg==";
+        };
+        _gF4f15qD = {
+            "id" = "gF4f15qD";
+            "file" = "homeostaticseasons-26.3-fabric-1.2.0.4.jar";
+            "hash" = "sha512-5vKcOij50bcJFXb+bmNYySak9Vh1zUiTNroKjd08qXSdYm8bKiPyhB+bSDOjgr6V3GlzX/56Xyp/zGGMXF6j+w==";
+        };
+        _MVN6aUV5 = {
+            "id" = "MVN6aUV5";
+            "file" = "homeostaticseasons-26.3-neoforge-1.2.0.4.jar";
+            "hash" = "sha512-L/vwDezF9P6Wa0smRVTUBH3aEPHBNxxw4BVSwALTDEfEU4H1F+7ViCbtfTz7Ijgmtf3z1PjxpbRBu6FHgp2dWQ==";
+        };
     in {
         "jDD873We" = _jDD873We;
         "q1hmraBp" = _q1hmraBp;
@@ -362,6 +382,10 @@ let
         "dwViMP1x" = _dwViMP1x;
         "1bSif4Rz" = _1bSif4Rz;
         "Gm4byhYU" = _Gm4byhYU;
+        "PMcS1gTj" = _PMcS1gTj;
+        "oBP1yViq" = _oBP1yViq;
+        "gF4f15qD" = _gF4f15qD;
+        "MVN6aUV5" = _MVN6aUV5;
         "fabric-1.21.1" = _tRYwLQ4a;
         "fabric-1.21.11" = _Ymi392ny;
         "fabric-1.21.10" = _8n07z082;
@@ -369,6 +393,7 @@ let
         "fabric-26.1.1" = _GONqsphu;
         "fabric-26.1.2" = _GONqsphu;
         "fabric-26.2" = _1bSif4Rz;
+        "fabric-26.3" = _gF4f15qD;
         "neoforge-1.21.1" = _BIzlu7FZ;
         "neoforge-1.21.11" = _YO6SGzRd;
         "neoforge-1.21.10" = _LpuksuHm;
@@ -376,6 +401,7 @@ let
         "neoforge-26.1.1" = _dwViMP1x;
         "neoforge-26.1.2" = _dwViMP1x;
         "neoforge-26.2" = _Gm4byhYU;
+        "neoforge-26.3" = _MVN6aUV5;
         "pkg-1.21.1-1.1.0.1" = _q1hmraBp;
         "pkg-1.21.11-1.1.0.1" = _9JeK2JNM;
         "pkg-1.21.10-1.1.0.2" = _5zhwN08z;
@@ -406,7 +432,9 @@ let
         "pkg-1.21.1-1.2.0.3" = _BIzlu7FZ;
         "pkg-26.1.2-1.2.0.3" = _dwViMP1x;
         "pkg-26.2-1.2.0.3" = _Gm4byhYU;
-        "default" = _Gm4byhYU;
+        "pkg-26.3-1.2.0.3" = _oBP1yViq;
+        "pkg-26.3-1.2.0.4" = _MVN6aUV5;
+        "default" = _MVN6aUV5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "homeostatic-seasons";

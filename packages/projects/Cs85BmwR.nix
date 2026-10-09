@@ -216,6 +216,11 @@ let
             "file" = "Various Starting Loot.zip";
             "hash" = "sha512-NsEiiBenlf8ZuChwuKE/lyTgaQnBJrDgd+tXy3O+RCaE0l/HQNpm7hDYSzeGYSpdm9D13H71SFygZJWIgEJb9Q==";
         };
+        _8HDZsMMw = {
+            "id" = "8HDZsMMw";
+            "file" = "various-starting-loot-5.3.jar";
+            "hash" = "sha512-rIV5bXAjW8e1HjQ+NhjQMoWuWE/oH5PShLk7cmKoULpCEUq8vw0A9mBSVlnfQn+RKlSHUGZnOYqtHxEGZp9v0Q==";
+        };
     in {
         "SCzhkfa2" = _SCzhkfa2;
         "TMxtZagN" = _TMxtZagN;
@@ -260,6 +265,7 @@ let
         "gJOcLM3d" = _gJOcLM3d;
         "e1ugN64o" = _e1ugN64o;
         "xSTqQCLX" = _xSTqQCLX;
+        "8HDZsMMw" = _8HDZsMMw;
         "datapack-1.19" = _s5NfWuPd;
         "datapack-1.19.1" = _s5NfWuPd;
         "datapack-1.19.2" = _s5NfWuPd;
@@ -317,6 +323,7 @@ let
         "fabric-1.21.5" = _CFROeDYW;
         "fabric-1.21.6" = _CFROeDYW;
         "fabric-26.2" = _e1ugN64o;
+        "fabric-26.3" = _8HDZsMMw;
         "forge-1.19" = _qz5ptGcP;
         "forge-1.19.1" = _qz5ptGcP;
         "forge-1.19.2" = _qz5ptGcP;
@@ -340,6 +347,7 @@ let
         "forge-1.21.5" = _CFROeDYW;
         "forge-1.21.6" = _CFROeDYW;
         "forge-26.2" = _e1ugN64o;
+        "forge-26.3" = _8HDZsMMw;
         "quilt-1.19" = _qz5ptGcP;
         "quilt-1.19.1" = _qz5ptGcP;
         "quilt-1.19.2" = _qz5ptGcP;
@@ -368,6 +376,7 @@ let
         "quilt-1.21.5" = _CFROeDYW;
         "quilt-1.21.6" = _CFROeDYW;
         "quilt-26.2" = _e1ugN64o;
+        "quilt-26.3" = _8HDZsMMw;
         "neoforge-1.21" = _uWNSYsRB;
         "neoforge-1.21.1" = _c23UqE0O;
         "neoforge-1.21.2" = _c23UqE0O;
@@ -384,6 +393,7 @@ let
         "neoforge-1.21.5" = _CFROeDYW;
         "neoforge-1.21.6" = _CFROeDYW;
         "neoforge-26.2" = _e1ugN64o;
+        "neoforge-26.3" = _8HDZsMMw;
         "pkg-1.0" = _SCzhkfa2;
         "pkg-1.0+mod" = _TMxtZagN;
         "pkg-1.1" = _s5NfWuPd;
@@ -427,7 +437,8 @@ let
         "pkg-5.2" = _gJOcLM3d;
         "pkg-5.2+mod" = _e1ugN64o;
         "pkg-5.3" = _xSTqQCLX;
-        "default" = _xSTqQCLX;
+        "pkg-5.3+mod" = _8HDZsMMw;
+        "default" = _8HDZsMMw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "various-starting-loot";

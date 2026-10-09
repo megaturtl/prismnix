@@ -241,6 +241,16 @@ let
             "file" = "simple-glowing-1.0.0.jar";
             "hash" = "sha512-DvkkhrKaR6x8yxsPA7dG0X0j3Zyx1HC2kviFaWRU2oHbp7uXecyywV+KjSzXy4DV9UrA75jq7kFxqgq976CK8w==";
         };
+        _yqOR93C9 = {
+            "id" = "yqOR93C9";
+            "file" = "simple-glowing 1.0.0 mc26.3.zip";
+            "hash" = "sha512-HSbhhC/N98GpLWMKN8/nmLLz8cTuIJf1vHm7mVouR1UW0oz61Vp1CeJ9mptuEjMDM+ZB8WyBEU66jowpZ+lAJA==";
+        };
+        _5FzTD0kz = {
+            "id" = "5FzTD0kz";
+            "file" = "simple-glowing-1.0.0.jar";
+            "hash" = "sha512-t1XaOVeJ4gNRujHGpxv3cJWJozAnQg8KYZ8egkwnZRV0KIasRWhkh+8MiXIjpz5BgSvLmbmg4oLx/Fy3V91Z0A==";
+        };
     in {
         "Zn5neD1w" = _Zn5neD1w;
         "PSO3vmOM" = _PSO3vmOM;
@@ -290,6 +300,8 @@ let
         "1raZMHjU" = _1raZMHjU;
         "EViqArgW" = _EViqArgW;
         "UZjCtVWW" = _UZjCtVWW;
+        "yqOR93C9" = _yqOR93C9;
+        "5FzTD0kz" = _5FzTD0kz;
         "datapack-1.13.1" = _Zn5neD1w;
         "datapack-1.13.2" = _Zn5neD1w;
         "datapack-1.14" = _Zn5neD1w;
@@ -338,6 +350,7 @@ let
         "datapack-26.1.1" = _pbU0MQqA;
         "datapack-26.1.2" = _zcjchs4i;
         "datapack-26.2" = _EViqArgW;
+        "datapack-26.3" = _yqOR93C9;
         "fabric-1.13.1" = _PSO3vmOM;
         "fabric-1.13.2" = _PSO3vmOM;
         "fabric-1.14" = _PSO3vmOM;
@@ -386,6 +399,7 @@ let
         "fabric-26.1.1" = _tLpwDMLE;
         "fabric-26.1.2" = _1raZMHjU;
         "fabric-26.2" = _UZjCtVWW;
+        "fabric-26.3" = _5FzTD0kz;
         "forge-1.13.1" = _PSO3vmOM;
         "forge-1.13.2" = _PSO3vmOM;
         "forge-1.14" = _PSO3vmOM;
@@ -434,6 +448,7 @@ let
         "forge-26.1.1" = _tLpwDMLE;
         "forge-26.1.2" = _1raZMHjU;
         "forge-26.2" = _UZjCtVWW;
+        "forge-26.3" = _5FzTD0kz;
         "neoforge-1.13.1" = _PSO3vmOM;
         "neoforge-1.13.2" = _PSO3vmOM;
         "neoforge-1.14" = _PSO3vmOM;
@@ -482,6 +497,7 @@ let
         "neoforge-26.1.1" = _tLpwDMLE;
         "neoforge-26.1.2" = _1raZMHjU;
         "neoforge-26.2" = _UZjCtVWW;
+        "neoforge-26.3" = _5FzTD0kz;
         "quilt-1.13.1" = _PSO3vmOM;
         "quilt-1.13.2" = _PSO3vmOM;
         "quilt-1.14" = _PSO3vmOM;
@@ -530,9 +546,10 @@ let
         "quilt-26.1.1" = _tLpwDMLE;
         "quilt-26.1.2" = _1raZMHjU;
         "quilt-26.2" = _UZjCtVWW;
-        "pkg-1.0.0" = _EViqArgW;
-        "pkg-1.0.0+mod" = _UZjCtVWW;
-        "default" = _UZjCtVWW;
+        "quilt-26.3" = _5FzTD0kz;
+        "pkg-1.0.0" = _yqOR93C9;
+        "pkg-1.0.0+mod" = _5FzTD0kz;
+        "default" = _5FzTD0kz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-glowing";

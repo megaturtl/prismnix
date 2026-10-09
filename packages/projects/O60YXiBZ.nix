@@ -626,6 +626,11 @@ let
             "file" = "MCRider-1.8.4.jar";
             "hash" = "sha512-gQbCJyQsSBRGwPcbF+B61crhywmdx8lcWInnzNQfkIlgYl5z6E0VakDXrn1153r4OWDll7kCnLmpoWqGoVrQ1Q==";
         };
+        _6ufeL4V3 = {
+            "id" = "6ufeL4V3";
+            "file" = "MCRider-1.9.0.jar";
+            "hash" = "sha512-ffme41C2SpNJx3bjKKQdII5d/LUBMtXYYSkOl4i7gU61p58zzcmS4pvxacQupBRs4mPvsQJU3n8JCyHm21PxeA==";
+        };
     in {
         "oROh84ev" = _oROh84ev;
         "sRHBB8Rh" = _sRHBB8Rh;
@@ -752,8 +757,9 @@ let
         "4vGzG6ND" = _4vGzG6ND;
         "3xdKBxCY" = _3xdKBxCY;
         "LWQDd4ZV" = _LWQDd4ZV;
+        "6ufeL4V3" = _6ufeL4V3;
         "fabric-1.21.4" = _qnsSZIkG;
-        "fabric-1.21.5" = _LWQDd4ZV;
+        "fabric-1.21.5" = _6ufeL4V3;
         "fabric-1.21.6" = _IUPufx2Q;
         "fabric-1.21.7" = _IUPufx2Q;
         "fabric-1.21.8" = _IUPufx2Q;
@@ -812,7 +818,8 @@ let
         "pkg-1.8.2" = _4vGzG6ND;
         "pkg-1.8.3" = _3xdKBxCY;
         "pkg-1.8.4" = _LWQDd4ZV;
-        "default" = _LWQDd4ZV;
+        "pkg-1.9.0" = _6ufeL4V3;
+        "default" = _6ufeL4V3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mcrider";

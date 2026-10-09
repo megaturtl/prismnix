@@ -61,6 +61,11 @@ let
             "file" = "ProjectilePreview-26.2+.jar";
             "hash" = "sha512-pHJjbvinjU6XOPnOxDi/HN+em/UE0MS7emOc1GJMye4jK6s4Pw74UInWEWHIzjTToYm6hJaoTLsuUVVeNyIS/Q==";
         };
+        _XF7YCpoV = {
+            "id" = "XF7YCpoV";
+            "file" = "ProjectilePreview-1.1.0+26.3.jar";
+            "hash" = "sha512-8W4pBIqLWVyfm6/pjkCNivVSOVIlOgCwmZ1tLInL3UEw75dm06OnEWQXmtWC8ggYwulFOSZGLxFI8FDjJIYIMg==";
+        };
     in {
         "gtEboCTi" = _gtEboCTi;
         "frf5aoa9" = _frf5aoa9;
@@ -74,6 +79,7 @@ let
         "XmjDCkAT" = _XmjDCkAT;
         "UnJgPsvo" = _UnJgPsvo;
         "4clhOu4Z" = _4clhOu4Z;
+        "XF7YCpoV" = _XF7YCpoV;
         "fabric-1.21.2" = _4mNLcsw6;
         "fabric-1.21.3" = _4mNLcsw6;
         "fabric-1.21.4" = _4mNLcsw6;
@@ -88,6 +94,7 @@ let
         "fabric-26.1.1" = _UnJgPsvo;
         "fabric-26.1.2" = _UnJgPsvo;
         "fabric-26.2" = _4clhOu4Z;
+        "fabric-26.3" = _XF7YCpoV;
         "pkg-v1.0" = _gtEboCTi;
         "pkg-v1.0.1" = _JZ7J2Gf8;
         "pkg-v1.01a" = _ZaKCk7du;
@@ -98,7 +105,8 @@ let
         "pkg-v1.1.3" = _XmjDCkAT;
         "pkg-v1.1.4" = _UnJgPsvo;
         "pkg-v1.1.5" = _4clhOu4Z;
-        "default" = _4clhOu4Z;
+        "pkg-v1.1.6" = _XF7YCpoV;
+        "default" = _XF7YCpoV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "projectile.preview";

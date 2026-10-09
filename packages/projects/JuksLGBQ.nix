@@ -451,6 +451,11 @@ let
             "file" = "optigui-2.3.0-beta.10+26.2.jar";
             "hash" = "sha512-QpEOtruuc13zcEGMOPAHoHXOp5zc61wNlaMMi+SdBpOEZv8QrjVOUQdVVUDBxJhzbaB0wCgIDERlbgKsKGomKw==";
         };
+        _wcSV1VD1 = {
+            "id" = "wcSV1VD1";
+            "file" = "optigui-2.3.0-beta.10+26.3.jar";
+            "hash" = "sha512-R/qwNoN7P90C+EWt6GXjZ6thwjEAND+Cc8RPc5luYc3yrzFtRTtntecw7qYjueia84DXH934adSHA1pn1uaKsw==";
+        };
     in {
         "LICx0kWh" = _LICx0kWh;
         "W7KZowlh" = _W7KZowlh;
@@ -542,6 +547,7 @@ let
         "sPNHfRj2" = _sPNHfRj2;
         "QM4pzEcr" = _QM4pzEcr;
         "FC0X8ap5" = _FC0X8ap5;
+        "wcSV1VD1" = _wcSV1VD1;
         "fabric-1.18.2" = _xpfegZsE;
         "fabric-1.19" = _xpfegZsE;
         "fabric-1.19.1" = _xpfegZsE;
@@ -573,6 +579,7 @@ let
         "fabric-26.1.1" = _sPNHfRj2;
         "fabric-26.1.2" = _sPNHfRj2;
         "fabric-26.2" = _FC0X8ap5;
+        "fabric-26.3" = _wcSV1VD1;
         "quilt-1.18" = _xpfegZsE;
         "quilt-1.18.1" = _xpfegZsE;
         "quilt-1.18.2" = _xpfegZsE;
@@ -604,6 +611,7 @@ let
         "quilt-26.1.1" = _sPNHfRj2;
         "quilt-26.1.2" = _sPNHfRj2;
         "quilt-26.2" = _FC0X8ap5;
+        "quilt-26.3" = _wcSV1VD1;
         "pkg-v0.1.0+1.18.2" = _LICx0kWh;
         "pkg-v0.2.0+1.18.2" = _W7KZowlh;
         "pkg-v1.0.0+1.18.2" = _GlXDrxTY;
@@ -694,7 +702,8 @@ let
         "pkg-2.3.0-beta.10+26.1" = _sPNHfRj2;
         "pkg-2.3.0-beta.10+1.21.9" = _QM4pzEcr;
         "pkg-2.3.0-beta.10+26.2" = _FC0X8ap5;
-        "default" = _FC0X8ap5;
+        "pkg-2.3.0-beta.10+26.3" = _wcSV1VD1;
+        "default" = _wcSV1VD1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "optigui";

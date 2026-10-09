@@ -1276,6 +1276,106 @@ let
             "file" = "litematica-server-paster-v1.3.13-mc26.1.2.jar";
             "hash" = "sha512-3XXrDcup8O6LkEWrs05pR71M0qIYRhlbUTvLtZz/DiD6+gK3Shrw+iMbMKcu9im5dl5cigsznEhQ6nQHPkuj7Q==";
         };
+        _16M7JZaF = {
+            "id" = "16M7JZaF";
+            "file" = "litematica-server-paster-v1.3.14-mc1.17.1.jar";
+            "hash" = "sha512-OCCK94lvAHxNV/ExLXSiUiIAVHFZmNyWRGvWagwWolGNgURCK/2raSmqA4qI/0mg71AxSNzCcyHEC6vBX5CoTA==";
+        };
+        _VSBeepH2 = {
+            "id" = "VSBeepH2";
+            "file" = "litematica-server-paster-v1.3.14-mc1.14.4.jar";
+            "hash" = "sha512-R/bgDwDVGGG0kwN/dmvAh/pjc3ohwa7kolYvBpMElrmvHH4KelDofvI0xeaGtSrm/1Ol6DBoPmeKFtgNW5MSag==";
+        };
+        _IbnxoiBZ = {
+            "id" = "IbnxoiBZ";
+            "file" = "litematica-server-paster-v1.3.14-mc1.15.2.jar";
+            "hash" = "sha512-jLfSUu6NlA83DC6C57VKuJY9Xg7+CaLqFv9+KNHqZVGiQBPnL4HFihNahAM/ZBKW3PSfmVXcQ3P7E4quXLG3/w==";
+        };
+        _751MAZbi = {
+            "id" = "751MAZbi";
+            "file" = "litematica-server-paster-v1.3.14-mc1.16.5.jar";
+            "hash" = "sha512-dZWHCGoBOreht3rZXCOJWvH/YpVL7Q5JsRI/7pYdNBQZxCDzuz6ee7RuuujT7vqxEAhEc+WxstOk5tWq6/32Gg==";
+        };
+        _LDIbDf1J = {
+            "id" = "LDIbDf1J";
+            "file" = "litematica-server-paster-v1.3.14-mc1.19.4.jar";
+            "hash" = "sha512-LhILEx72opqQ/TmYJ5IOz3rxsAHuWWz77pgl/hjIDRexZ79ZLjQa2OZEK8JjrwQEB5emPyRsLpotP751/Ra1fA==";
+        };
+        _w0yutTwv = {
+            "id" = "w0yutTwv";
+            "file" = "litematica-server-paster-v1.3.14-mc1.18.2.jar";
+            "hash" = "sha512-ydNW5+p9JbFfBhhesNAv/bOmZVkHGXzAIJh1vP0XjFdobMuMdWH08Gm+96kM8ZEfuGBKxOZLnkmODE6Cb5OjWg==";
+        };
+        _BQnv067A = {
+            "id" = "BQnv067A";
+            "file" = "litematica-server-paster-v1.3.14-mc1.20.4.jar";
+            "hash" = "sha512-va4u6zAf8oq/VeluQqd0nJ6gj2nQJTgpbBCRt/h/fmJpcKSYJNN85a6qqEKiQ1opsQYk240EVeX66kI0meGzcA==";
+        };
+        _JBory8e7 = {
+            "id" = "JBory8e7";
+            "file" = "litematica-server-paster-v1.3.14-mc1.20.2.jar";
+            "hash" = "sha512-yvrj5CGCZ1oKYNQ8LuQswpb/Vfl7O51O9t2Em+EVLAJ5GnndGlTN+jDmPu923AC9viYkZNgrUdYoDKHOTInBLw==";
+        };
+        _UH66zoGE = {
+            "id" = "UH66zoGE";
+            "file" = "litematica-server-paster-v1.3.14-mc1.21.1.jar";
+            "hash" = "sha512-AR8Yst+GLjShq13fnvknnxEBi8DFjcYixYGQVR0wpWvGYpKNKeD8lKiMJgxVdT4wXvvch9jgfAGOqZQpo1i1Kw==";
+        };
+        _UzZEaXay = {
+            "id" = "UzZEaXay";
+            "file" = "litematica-server-paster-v1.3.14-mc1.20.6.jar";
+            "hash" = "sha512-YRW6ZhbE2jrmLHZvZ62awjaox0Dc7mPCdtaJ0ODlOt4lSwFUfnZsYrPVXF/yaIJGEt9Xv7KXacIpOdZgj9InYQ==";
+        };
+        _XeNGczY0 = {
+            "id" = "XeNGczY0";
+            "file" = "litematica-server-paster-v1.3.14-mc1.21.3.jar";
+            "hash" = "sha512-DqX7IqoiiCcfnvk7FCuawE3ts4u9gI8N5ms/8qt07HyPiY97vGarGiO9s3F2ElOuSwrR9PI++lSVBv1VepMImA==";
+        };
+        _RkW4OUVS = {
+            "id" = "RkW4OUVS";
+            "file" = "litematica-server-paster-v1.3.14-mc1.21.4.jar";
+            "hash" = "sha512-Au0FjFs/Jp9hqO+eoT4uz8MTY61P9PFAEVCjcKyQCsLEkAe5m4EP6RPVPzNw7s51VmPM1cNF+xSM16P7jDVNtg==";
+        };
+        _B448EBTS = {
+            "id" = "B448EBTS";
+            "file" = "litematica-server-paster-v1.3.14-mc1.21.5.jar";
+            "hash" = "sha512-xREGlbt4IaPxr7+Y+h8QWGqwTPKI3/xAOf0Y9JmqFUwx8vBKNPp7JivUjp3Bq8t1Y9B9uwTaHHQgdFVQZtn49A==";
+        };
+        _CLZZrZkq = {
+            "id" = "CLZZrZkq";
+            "file" = "litematica-server-paster-v1.3.14-mc1.20.1.jar";
+            "hash" = "sha512-EbRVo/F66YfCSWtusltWYe7rUFTg+yX37JOZRR0mx2JeXqtj7i9M9V9SDQgVYdFGcDokibsosjUgXONPva81yQ==";
+        };
+        _kbHlWg9v = {
+            "id" = "kbHlWg9v";
+            "file" = "litematica-server-paster-v1.3.14-mc1.21.8.jar";
+            "hash" = "sha512-tKGfsTOFkZY+NKJprVDls1mgpdAJYFKnO0to8+9JZ4o9mp6nn16pRM8bAyTfaB3A7hozi2BjzKjsHEQmxaJTrA==";
+        };
+        _QbBYkYB7 = {
+            "id" = "QbBYkYB7";
+            "file" = "litematica-server-paster-v1.3.14-mc1.21.10.jar";
+            "hash" = "sha512-Evtd1WNJUEFXL5yuqsxZ9viPsS7ozc0MssbRDZRQrGfndQO62pv302F1XahrlXB1eWy/d09KrHy8pJ1YTNxZkQ==";
+        };
+        _Jc5wY5pm = {
+            "id" = "Jc5wY5pm";
+            "file" = "litematica-server-paster-v1.3.14-mc26.1.2.jar";
+            "hash" = "sha512-NBvgSRoav6NX2xE4BsBDQCZE+q2sIjb6/gLBbHbuCzueAgCD54h2SANskSYiahowtYj8Of2uUE0d8A4ouX1B2Q==";
+        };
+        _p26ED2uk = {
+            "id" = "p26ED2uk";
+            "file" = "litematica-server-paster-v1.3.14-mc26.2.jar";
+            "hash" = "sha512-BnVrx65R4Bya1TbG5FTxacoll7NhmNBnL3rwDk4G7N+G1N6ZAYnbkw3mlNhOEfmhC7sKc9Qu8VYcIjpawTnSiw==";
+        };
+        _BpoLlvPp = {
+            "id" = "BpoLlvPp";
+            "file" = "litematica-server-paster-v1.3.14-mc1.21.11.jar";
+            "hash" = "sha512-4Q2cE7bk61w2QLutcwAFj+8QIJOlffa5Z3cDS97RIFxmdktuPTGZ3/W1kO7wgwY+7mZYLZbKxrc3fgrk5DHmTQ==";
+        };
+        _766FLe1j = {
+            "id" = "766FLe1j";
+            "file" = "litematica-server-paster-v1.3.14-mc26.3.jar";
+            "hash" = "sha512-LII4Qhr3KdVxuL8QS5b4NH5c9GUWcdRMpGqAWq9/QAWAH/CME+ujgMHtmabXXL3l0Fd+nqsGfLPKpuUcbvcikA==";
+        };
     in {
         "AmHs2zV7" = _AmHs2zV7;
         "K7wlVSoF" = _K7wlVSoF;
@@ -1532,39 +1632,61 @@ let
         "ItSXaTkL" = _ItSXaTkL;
         "NxXeWjl7" = _NxXeWjl7;
         "NrFyDrD9" = _NrFyDrD9;
-        "fabric-1.15.2" = _fDoxU6Zr;
+        "16M7JZaF" = _16M7JZaF;
+        "VSBeepH2" = _VSBeepH2;
+        "IbnxoiBZ" = _IbnxoiBZ;
+        "751MAZbi" = _751MAZbi;
+        "LDIbDf1J" = _LDIbDf1J;
+        "w0yutTwv" = _w0yutTwv;
+        "BQnv067A" = _BQnv067A;
+        "JBory8e7" = _JBory8e7;
+        "UH66zoGE" = _UH66zoGE;
+        "UzZEaXay" = _UzZEaXay;
+        "XeNGczY0" = _XeNGczY0;
+        "RkW4OUVS" = _RkW4OUVS;
+        "B448EBTS" = _B448EBTS;
+        "CLZZrZkq" = _CLZZrZkq;
+        "kbHlWg9v" = _kbHlWg9v;
+        "QbBYkYB7" = _QbBYkYB7;
+        "Jc5wY5pm" = _Jc5wY5pm;
+        "p26ED2uk" = _p26ED2uk;
+        "BpoLlvPp" = _BpoLlvPp;
+        "766FLe1j" = _766FLe1j;
+        "fabric-1.15.2" = _IbnxoiBZ;
         "fabric-1.18.1" = _K7wlVSoF;
-        "fabric-1.14.4" = _xTcEEetZ;
-        "fabric-1.16.5" = _oPuxr69A;
-        "fabric-1.17.1" = _AK8xdVow;
-        "fabric-1.18.2" = _MO5RBHmN;
+        "fabric-1.14.4" = _VSBeepH2;
+        "fabric-1.16.5" = _751MAZbi;
+        "fabric-1.17.1" = _16M7JZaF;
+        "fabric-1.18.2" = _w0yutTwv;
         "fabric-1.19.1" = _XHoyelrK;
         "fabric-1.19.2" = _BsxMRbvx;
         "fabric-1.19.3" = _BsxMRbvx;
-        "fabric-1.16.4" = _oPuxr69A;
-        "fabric-1.19.4" = _H8E8OI3S;
-        "fabric-1.20" = _l0MNKRyA;
-        "fabric-1.20.1" = _l0MNKRyA;
-        "fabric-1.20.2" = _MXw7EX72;
-        "fabric-1.20.5" = _ROAAw3mA;
-        "fabric-1.20.6" = _ROAAw3mA;
-        "fabric-1.21" = _gxX1MrX0;
-        "fabric-1.20.3" = _ByjyYUER;
-        "fabric-1.20.4" = _ByjyYUER;
-        "fabric-1.21.1" = _gxX1MrX0;
-        "fabric-1.21.2" = _t0kjASmF;
-        "fabric-1.21.3" = _t0kjASmF;
-        "fabric-1.21.4" = _kTyV5rtf;
-        "fabric-1.21.5" = _HDwca3sN;
-        "fabric-1.21.6" = _LBlbQkmt;
-        "fabric-1.21.7" = _LBlbQkmt;
-        "fabric-1.21.8" = _LBlbQkmt;
-        "fabric-1.21.9" = _ItSXaTkL;
-        "fabric-1.21.11" = _NxXeWjl7;
-        "fabric-1.21.10" = _ItSXaTkL;
-        "fabric-26.1" = _NrFyDrD9;
-        "fabric-26.1.1" = _NrFyDrD9;
-        "fabric-26.1.2" = _NrFyDrD9;
+        "fabric-1.16.4" = _751MAZbi;
+        "fabric-1.19.4" = _LDIbDf1J;
+        "fabric-1.20" = _CLZZrZkq;
+        "fabric-1.20.1" = _CLZZrZkq;
+        "fabric-1.20.2" = _JBory8e7;
+        "fabric-1.20.5" = _UzZEaXay;
+        "fabric-1.20.6" = _UzZEaXay;
+        "fabric-1.21" = _UH66zoGE;
+        "fabric-1.20.3" = _BQnv067A;
+        "fabric-1.20.4" = _BQnv067A;
+        "fabric-1.21.1" = _UH66zoGE;
+        "fabric-1.21.2" = _XeNGczY0;
+        "fabric-1.21.3" = _XeNGczY0;
+        "fabric-1.21.4" = _RkW4OUVS;
+        "fabric-1.21.5" = _B448EBTS;
+        "fabric-1.21.6" = _kbHlWg9v;
+        "fabric-1.21.7" = _kbHlWg9v;
+        "fabric-1.21.8" = _kbHlWg9v;
+        "fabric-1.21.9" = _QbBYkYB7;
+        "fabric-1.21.11" = _BpoLlvPp;
+        "fabric-1.21.10" = _QbBYkYB7;
+        "fabric-26.1" = _Jc5wY5pm;
+        "fabric-26.1.1" = _Jc5wY5pm;
+        "fabric-26.1.2" = _Jc5wY5pm;
+        "fabric-26.2" = _p26ED2uk;
+        "fabric-26.3" = _766FLe1j;
         "pkg-mc1.15.2-v1.0.0" = _AmHs2zV7;
         "pkg-mc1.18.1-v1.0.0" = _K7wlVSoF;
         "pkg-mc1.15.2-v1.0.1" = _6QWJvhrf;
@@ -1812,7 +1934,27 @@ let
         "pkg-v1.3.13-mc1.21.10" = _ItSXaTkL;
         "pkg-v1.3.13-mc1.21.11" = _NxXeWjl7;
         "pkg-v1.3.13-mc26.1.2" = _NrFyDrD9;
-        "default" = _NrFyDrD9;
+        "pkg-v1.3.14-mc1.17.1" = _16M7JZaF;
+        "pkg-v1.3.14-mc1.14.4" = _VSBeepH2;
+        "pkg-v1.3.14-mc1.15.2" = _IbnxoiBZ;
+        "pkg-v1.3.14-mc1.16.5" = _751MAZbi;
+        "pkg-v1.3.14-mc1.19.4" = _LDIbDf1J;
+        "pkg-v1.3.14-mc1.18.2" = _w0yutTwv;
+        "pkg-v1.3.14-mc1.20.4" = _BQnv067A;
+        "pkg-v1.3.14-mc1.20.2" = _JBory8e7;
+        "pkg-v1.3.14-mc1.21.1" = _UH66zoGE;
+        "pkg-v1.3.14-mc1.20.6" = _UzZEaXay;
+        "pkg-v1.3.14-mc1.21.3" = _XeNGczY0;
+        "pkg-v1.3.14-mc1.21.4" = _RkW4OUVS;
+        "pkg-v1.3.14-mc1.21.5" = _B448EBTS;
+        "pkg-v1.3.14-mc1.20.1" = _CLZZrZkq;
+        "pkg-v1.3.14-mc1.21.8" = _kbHlWg9v;
+        "pkg-v1.3.14-mc1.21.10" = _QbBYkYB7;
+        "pkg-v1.3.14-mc26.1.2" = _Jc5wY5pm;
+        "pkg-v1.3.14-mc26.2" = _p26ED2uk;
+        "pkg-v1.3.14-mc1.21.11" = _BpoLlvPp;
+        "pkg-v1.3.14-mc26.3" = _766FLe1j;
+        "default" = _766FLe1j;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "litematica-server-paster";

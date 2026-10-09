@@ -491,6 +491,16 @@ let
             "file" = "misctweaks-fabric-1.4.4+26.3.jar";
             "hash" = "sha512-pki0C0hK3U5j7JEZgF0hhx87LJsKt3ReIlqB7RGRyzl/Ckf6pn+g9ybnzzSIArpYPt9MdpRdeZ+kSCDceYhpRQ==";
         };
+        _JZUg3WG4 = {
+            "id" = "JZUg3WG4";
+            "file" = "misctweaks-fabric-1.4.5+1.21.1.jar";
+            "hash" = "sha512-f+gr9XocDnJnUAWsPnLn/6vNzmGI7Z0jd3YvpVfJX2+k0IB/UTKmUUFi+rOBJtv4l4JIhv9UFcCDUCeAvPN9pA==";
+        };
+        _UfapaZb0 = {
+            "id" = "UfapaZb0";
+            "file" = "misctweaks-neoforge-1.4.5+1.21.1.jar";
+            "hash" = "sha512-8O2dTpTw7dUZwp8UyS3ZO7zaEVCVWjEfUcm8bzCGekczl0u0xKnsZBOaIRqZOypsC1lK/v8B7VPS0JwGENUbdg==";
+        };
     in {
         "uiieKd1F" = _uiieKd1F;
         "obcAM0UT" = _obcAM0UT;
@@ -590,7 +600,9 @@ let
         "juaT3mXf" = _juaT3mXf;
         "pi68OYRW" = _pi68OYRW;
         "c2JwxbVC" = _c2JwxbVC;
-        "fabric-1.21.1" = _3cL2qGhr;
+        "JZUg3WG4" = _JZUg3WG4;
+        "UfapaZb0" = _UfapaZb0;
+        "fabric-1.21.1" = _JZUg3WG4;
         "fabric-1.21.4" = _paCLdrtn;
         "fabric-1.20.1" = _tBPZHkqR;
         "fabric-1.21.5" = _6ftgIYMR;
@@ -602,9 +614,9 @@ let
         "fabric-26.1.1" = _HxHgV8h2;
         "fabric-26.1.2" = _HxHgV8h2;
         "fabric-26.2" = _33nKJJQH;
-        "fabric-1.21" = _3cL2qGhr;
+        "fabric-1.21" = _JZUg3WG4;
         "fabric-26.3" = _c2JwxbVC;
-        "neoforge-1.21.1" = _pi68OYRW;
+        "neoforge-1.21.1" = _UfapaZb0;
         "neoforge-1.21.4" = _dM148Ixj;
         "neoforge-1.21.5" = _Zl6DuWqJ;
         "neoforge-1.21.7" = _FNlBZPyI;
@@ -615,7 +627,7 @@ let
         "neoforge-26.1.1" = _P92dFsEN;
         "neoforge-26.1.2" = _P92dFsEN;
         "neoforge-26.2" = _kfEoAbya;
-        "neoforge-1.21" = _pi68OYRW;
+        "neoforge-1.21" = _UfapaZb0;
         "forge-1.20.1" = _5wBnIliX;
         "pkg-1.0.0+1.21.1" = _YTOmgcz0;
         "pkg-1.0.0+1.21.4" = _NlnVbPmo;
@@ -685,7 +697,8 @@ let
         "pkg-1.4.3+1.21.1" = _juaT3mXf;
         "pkg-1.4.4+1.21.1" = _pi68OYRW;
         "pkg-1.4.4+26.3" = _c2JwxbVC;
-        "default" = _c2JwxbVC;
+        "pkg-1.4.5+1.21.1" = _UfapaZb0;
+        "default" = _UfapaZb0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "misctweaks";

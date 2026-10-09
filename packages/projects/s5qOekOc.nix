@@ -211,6 +211,26 @@ let
             "file" = "electroblobs-wizardry-redux-0.8.7-forge.jar";
             "hash" = "sha512-v8jVJ2Tb/cUkJZdBMo5gsliyRmSkPthAHimuporSLGku23F9zTvINyHU5Rt/Gqye5qbapmLKPygYMm6zHlnSBQ==";
         };
+        _LS4HUe4o = {
+            "id" = "LS4HUe4o";
+            "file" = "electroblobs-wizardry-redux-0.8.8-fabric.jar";
+            "hash" = "sha512-U+JPBRqmLF0dPXmuSfiWK78e3Qnbbtyl8AHwVc7rF4hxefX0tiMx0pV7Gn1DEdCvbCX05p3rtgUXjGaUgbquCQ==";
+        };
+        _6gB7DIY2 = {
+            "id" = "6gB7DIY2";
+            "file" = "electroblobs-wizardry-redux-0.8.8-forge.jar";
+            "hash" = "sha512-54rvpVhIk9f5RI/KbegbvHZ2ecdKB/tgo0XNwQmA1wr2yvvXtqxwMiGHo9sQfhERCcZu8oztLajq89B2dbKSWQ==";
+        };
+        _rmt0hS0N = {
+            "id" = "rmt0hS0N";
+            "file" = "electroblobs-wizardry-redux-0.8.9-forge.jar";
+            "hash" = "sha512-QjsGpMts77GSoV/ZU/ZAsal2syeSW68MSjmYaQOBgJ8WbfhcPQ/egl3NbXGaO3loYxGWwibX95ezt6Py2eKg5Q==";
+        };
+        _hy7kW8NG = {
+            "id" = "hy7kW8NG";
+            "file" = "electroblobs-wizardry-redux-0.8.9-fabric.jar";
+            "hash" = "sha512-bnt/FWaaVesVBYsxfHg4pg6KDyzksY231lrT9+biLcAP4n1cNlMTHXQqZbXqfEZl9u7vtb7xa+6OCXkcaaHTZg==";
+        };
     in {
         "s6408zjy" = _s6408zjy;
         "HoVs68P8" = _HoVs68P8;
@@ -254,8 +274,12 @@ let
         "9HL8xXt7" = _9HL8xXt7;
         "bH5cysOr" = _bH5cysOr;
         "VZRaDN0t" = _VZRaDN0t;
-        "fabric-1.20.1" = _bH5cysOr;
-        "forge-1.20.1" = _VZRaDN0t;
+        "LS4HUe4o" = _LS4HUe4o;
+        "6gB7DIY2" = _6gB7DIY2;
+        "rmt0hS0N" = _rmt0hS0N;
+        "hy7kW8NG" = _hy7kW8NG;
+        "fabric-1.20.1" = _hy7kW8NG;
+        "forge-1.20.1" = _rmt0hS0N;
         "pkg-1.0.0-alpha.1.6.13" = _HoVs68P8;
         "pkg-1.0.0-alpha.1.6.15" = _E4qKRkDO;
         "pkg-1.0.0-alpha.1.6.16" = _oPD8nkb4;
@@ -289,7 +313,11 @@ let
         "pkg-0.8.6-fabric" = _9HL8xXt7;
         "pkg-0.8.7-fabric" = _bH5cysOr;
         "pkg-0.8.7-forge" = _VZRaDN0t;
-        "default" = _VZRaDN0t;
+        "pkg-0.8.8-fabric" = _LS4HUe4o;
+        "pkg-0.8.8-forge" = _6gB7DIY2;
+        "pkg-0.8.9-forge" = _rmt0hS0N;
+        "pkg-0.8.9-fabric" = _hy7kW8NG;
+        "default" = _hy7kW8NG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "electroblobs-wizardry-redux";

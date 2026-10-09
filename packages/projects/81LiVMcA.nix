@@ -51,6 +51,16 @@ let
             "file" = "swiftness-enchantment-v1.0.1.jar";
             "hash" = "sha512-2Y1eq25eM0w7Wbh94DLor22jmtQwGihTiVAYVXPJ+Nevc6SCLRkg0UHKxob6VXHWoWJ2wS68Eh1n/wRPdwR20g==";
         };
+        _gf1JkpKG = {
+            "id" = "gf1JkpKG";
+            "file" = "Swiftness Enchantment v1.0.1 [26.3].zip";
+            "hash" = "sha512-PpumafPxcXz1tQvofbhHlNPEQIY32SXIxdqmBoL0V8AOkintFUe7srN/jlAi2lF8GsoamDSEE4OnRO7KQzId6w==";
+        };
+        _GBVGAl0i = {
+            "id" = "GBVGAl0i";
+            "file" = "swiftness-enchantment-1.0.1.jar";
+            "hash" = "sha512-5fMZ2Iffd6M8Xv/FMTG/DYujfs7JglpwcXnY/24r48Z63yacjybzTw3PdLfsFa0d8vIp/+OiJmxYkz0THPnX4g==";
+        };
     in {
         "vG2dSFQY" = _vG2dSFQY;
         "IsIUufko" = _IsIUufko;
@@ -62,6 +72,8 @@ let
         "RQGA8ER4" = _RQGA8ER4;
         "tE97jaTk" = _tE97jaTk;
         "nJHaRlF4" = _nJHaRlF4;
+        "gf1JkpKG" = _gf1JkpKG;
+        "GBVGAl0i" = _GBVGAl0i;
         "datapack-1.21.2" = _tE97jaTk;
         "datapack-1.21.3" = _tE97jaTk;
         "datapack-1.21.4" = _tE97jaTk;
@@ -78,6 +90,7 @@ let
         "datapack-26.1.1" = _tE97jaTk;
         "datapack-26.1.2" = _tE97jaTk;
         "datapack-26.2" = _tE97jaTk;
+        "datapack-26.3" = _gf1JkpKG;
         "fabric-1.21.2" = _nJHaRlF4;
         "fabric-1.21.3" = _nJHaRlF4;
         "fabric-1.21.4" = _nJHaRlF4;
@@ -94,6 +107,7 @@ let
         "fabric-26.1.1" = _nJHaRlF4;
         "fabric-26.1.2" = _nJHaRlF4;
         "fabric-26.2" = _nJHaRlF4;
+        "fabric-26.3" = _GBVGAl0i;
         "forge-1.21.2" = _nJHaRlF4;
         "forge-1.21.3" = _nJHaRlF4;
         "forge-1.21.4" = _nJHaRlF4;
@@ -110,6 +124,7 @@ let
         "forge-26.1.1" = _nJHaRlF4;
         "forge-26.1.2" = _nJHaRlF4;
         "forge-26.2" = _nJHaRlF4;
+        "forge-26.3" = _GBVGAl0i;
         "neoforge-1.21.2" = _nJHaRlF4;
         "neoforge-1.21.3" = _nJHaRlF4;
         "neoforge-1.21.4" = _nJHaRlF4;
@@ -126,6 +141,7 @@ let
         "neoforge-26.1.1" = _nJHaRlF4;
         "neoforge-26.1.2" = _nJHaRlF4;
         "neoforge-26.2" = _nJHaRlF4;
+        "neoforge-26.3" = _GBVGAl0i;
         "quilt-1.21.2" = _nJHaRlF4;
         "quilt-1.21.3" = _nJHaRlF4;
         "quilt-1.21.4" = _nJHaRlF4;
@@ -142,13 +158,16 @@ let
         "quilt-26.1.1" = _nJHaRlF4;
         "quilt-26.1.2" = _nJHaRlF4;
         "quilt-26.2" = _nJHaRlF4;
+        "quilt-26.3" = _GBVGAl0i;
         "pkg-v1.0.0" = _RjnhUnUe;
         "pkg-v1.0.0+mod" = _DnAJ9VUj;
         "pkg-v1.0.0-1.21-1.21.1" = _3kgCe9Dh;
         "pkg-v1.0.0-1.21-1.21.1+mod" = _jWycbEAh;
         "pkg-v1.0.1" = _tE97jaTk;
         "pkg-v1.0.1+mod" = _nJHaRlF4;
-        "default" = _nJHaRlF4;
+        "pkg-1.0.1" = _gf1JkpKG;
+        "pkg-1.0.1+mod" = _GBVGAl0i;
+        "default" = _GBVGAl0i;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "swiftness-enchantment";

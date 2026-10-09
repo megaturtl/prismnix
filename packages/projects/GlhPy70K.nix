@@ -756,6 +756,201 @@ let
             "file" = "fire_extinguisher-forge-26.2-8.3.0.jar";
             "hash" = "sha512-4npc7SWowPaeYUx57UTK7CzipkpDFXFyDvG3FgzI15IQ543y3YVQHzLI2kS40/N6HmERXjj3sBVfydKfjKh5VQ==";
         };
+        _QXRcmVVV = {
+            "id" = "QXRcmVVV";
+            "file" = "fire_extinguisher-forge-1.20.1-9.1.0.jar";
+            "hash" = "sha512-TpYmWs7xz//8FUzPxfh6QAxr1qHLlVH6vd5Wjn7rt04a2Tb+AiAuVg7e6QaIGk2vcFYd/p70GaYG+GKNHvZ0bg==";
+        };
+        _8qg1Jpce = {
+            "id" = "8qg1Jpce";
+            "file" = "fire_extinguisher-fabric-1.20.1-9.1.0.jar";
+            "hash" = "sha512-RPlNeyHMRwe5b+v/4hG2LlchTnBYsvGtepB7eiZ3y9Z92G2rmMgm1uy4ppmkIPktFGnq9gshHiOZ9U3wcb7+/A==";
+        };
+        _iKvgWMnI = {
+            "id" = "iKvgWMnI";
+            "file" = "fire_extinguisher-forge-1.21.1-9.1.0.jar";
+            "hash" = "sha512-zkb6ZBDlMoj7IPb9YyZkMLo9ibxbxgOH7m/HPbK3bA64LqQhC0wiUU6BvxV8zJjtFbfjZX3j9Tf4SNUfVygaBg==";
+        };
+        _PHhwKssS = {
+            "id" = "PHhwKssS";
+            "file" = "fire_extinguisher-neoforge-1.21.1-9.1.0.jar";
+            "hash" = "sha512-T9+QMqyGzDAjIpGuMLnByIPvNDR4RFfeWaLzY7tJZO8vZHIju93CH+oIDQoxScS9saS9YosfL7PbsBE1TqEbDA==";
+        };
+        _UoTZZUSP = {
+            "id" = "UoTZZUSP";
+            "file" = "fire_extinguisher-fabric-1.21.1-9.1.0.jar";
+            "hash" = "sha512-CAb5r+EPp+MDeL1EnfVNoN2XJtCc77Giy7Dho0h6olX1bmzI5S2bt8Yf9ZfWIda1C/ZOi9PT0m7DicdzsmYjng==";
+        };
+        _cWsmW9sp = {
+            "id" = "cWsmW9sp";
+            "file" = "fire_extinguisher-forge-1.20.1-9.1.1.jar";
+            "hash" = "sha512-Zpq8CbA2tHdDvxB0/BYXRZKGjJjmr4u1z/DrMS+P3tbTkpX4b47jTGiKrMwVfumZpXO/ayY1+y8EePSjbU5iCg==";
+        };
+        _h0Gu3RM2 = {
+            "id" = "h0Gu3RM2";
+            "file" = "fire_extinguisher-fabric-1.20.1-9.1.1.jar";
+            "hash" = "sha512-FFf4CbIPPguyvjOSFVm1iqcWonf6hQqK4pawWpcuiUqGqkRHcJBXBy+/Ku27oNi8Fq3QMPihpucOGUHciqixZA==";
+        };
+        _yCKlO3mq = {
+            "id" = "yCKlO3mq";
+            "file" = "fire_extinguisher-forge-1.21.1-9.1.1.jar";
+            "hash" = "sha512-YUg0P/6vKU2m1b6H1WSDQ0MH4x3JMVRHQucw7JdBMqn6FPTX5t5toUtGlW2VKOLeU2IrJJ0jQISIPGn8f6G6Xg==";
+        };
+        _2xenvJoe = {
+            "id" = "2xenvJoe";
+            "file" = "fire_extinguisher-fabric-1.21.1-9.1.1.jar";
+            "hash" = "sha512-CASdUH/Ff+u8Ec5jJcgWcif/br123xEzp9i5X8j8/NtDIGRNstdXZ93p5hciUfLnstPeQMMKsAIqyp9CTxEeCw==";
+        };
+        _oDYZaolP = {
+            "id" = "oDYZaolP";
+            "file" = "fire_extinguisher-neoforge-1.21.1-9.1.1.jar";
+            "hash" = "sha512-7O0qeOD+lvcwivxIv4zP+9m7WlF/uMyYO0qQ0BvVEs9lzaLvDnOGhY75+92YH2FcX7lDgTE5s1kVWo4iz2rvyA==";
+        };
+        _6rUgP3pi = {
+            "id" = "6rUgP3pi";
+            "file" = "fire_extinguisher-forge-1.21.11-8.4.1.jar";
+            "hash" = "sha512-7eonFcQ87Zozf1LrsX6M9qRJLj/aWVIiQiGFXvKukYOQxyMcJ5stS57kklKudYHzQ+U0fNn3mTbLM8U0Jj4l1Q==";
+        };
+        _eIQ06N9d = {
+            "id" = "eIQ06N9d";
+            "file" = "fire_extinguisher-fabric-1.21.11-8.4.1.jar";
+            "hash" = "sha512-bcESEpwRbzEwsQ5FdkDp/nt8I5env6kIHR/Or0sTLKycsq82jO57mBeZLq4CC3p4S9SR8+qqibG+btklpr3uhw==";
+        };
+        _CqysX3z6 = {
+            "id" = "CqysX3z6";
+            "file" = "fire_extinguisher-neoforge-1.21.11-8.4.1.jar";
+            "hash" = "sha512-mILD7RvcAruE97feF9Icm4JjDeDmrtasLsEbJLNUsyIHCMp1fRjkTCYYjYma5O/xn9WicaBBoywEbTTu5mHK5g==";
+        };
+        _zN11LjfN = {
+            "id" = "zN11LjfN";
+            "file" = "fire_extinguisher-forge-26.1.2-8.4.1.jar";
+            "hash" = "sha512-t4YKUlEmjhpbiccTw+B+OuzdMOVv8H0rnVboaCqGbJMgA/B7I50ZxUXTdjpahjXvoi9hw4ZvkFsbYsAKR/0wig==";
+        };
+        _C3r5zLn2 = {
+            "id" = "C3r5zLn2";
+            "file" = "fire_extinguisher-neoforge-26.1.2-8.4.1.jar";
+            "hash" = "sha512-vkBvHMxGNX5VGgUtk4xrSgwiAtxePNVE6tq0+RHHzlyalHo++JC7EgciQReOVSrh7TvsUfSGKgV/4teqanqSgA==";
+        };
+        _4K2I75Zq = {
+            "id" = "4K2I75Zq";
+            "file" = "fire_extinguisher-fabric-26.1.2-8.4.1.jar";
+            "hash" = "sha512-ggpsfz8MHasJSdtTJzaJGD/RTgxWNeCNpgAEdl8qUDLFocpXmr63lx7UsnuwYVg2MtoZqjJnYjUbGpgfQ9ZSFA==";
+        };
+        _l60ys8AN = {
+            "id" = "l60ys8AN";
+            "file" = "fire_extinguisher-fabric-26.2-8.4.1.jar";
+            "hash" = "sha512-W3r2+Nxa/1kS+AcY3qf8Sj2kl6aCV2Z+GFoZH8vW/rQGpfqaQWEmQa5j0sN/mGyX+OwFay5AcpB2khZUU370ag==";
+        };
+        _7y2LBYfI = {
+            "id" = "7y2LBYfI";
+            "file" = "fire_extinguisher-neoforge-26.2-8.4.1.jar";
+            "hash" = "sha512-bcsvwDM2+MwFM2vGjtHWiqDgo+ChP/hpR7/3MMQagEQjjorUkU7quXFuRn9XL3B/eP9U3TPJ+UUklrb8WHXarA==";
+        };
+        _z000rXdh = {
+            "id" = "z000rXdh";
+            "file" = "fire_extinguisher-forge-26.2-8.4.1.jar";
+            "hash" = "sha512-H7jvjRAaEFctBdbdSfmUuRXNTCaisTSj1l4Hs8j5RBvLjLuOxYDGdwn5e1/MXsVnxH9CSsx7VukQV49l9jEQfA==";
+        };
+        _CV1ctxRc = {
+            "id" = "CV1ctxRc";
+            "file" = "fire_extinguisher-neoforge-26.3-8.4.1.jar";
+            "hash" = "sha512-7n5/z8JppiGlV/FocugNyuOh5f8t4FC4B3oVfrVXFZSpl4FO5LggFPWC6ZX/0aDvGCqVLct2jdSs+hykZZjUyg==";
+        };
+        _nsbKjHZY = {
+            "id" = "nsbKjHZY";
+            "file" = "fire_extinguisher-forge-26.3-8.4.1.jar";
+            "hash" = "sha512-j2QXg+h8k3giUy19B2+M2CHnVIwgDFyBHXky6z9z3Yp3FEoZfDv9uTXhOZ7YSsr+t62P0RICeKnBGwjfjdka0g==";
+        };
+        _pPLW7Akq = {
+            "id" = "pPLW7Akq";
+            "file" = "fire_extinguisher-fabric-26.3-8.4.1.jar";
+            "hash" = "sha512-umlpzmKd8lotPFWh+N0dyJNATL1B68GCSHJrOGQD7rl5unl4alVyN4HYqrSS9Sayy0q0lxsi0djbC0rn522A/w==";
+        };
+        _NWioDH7h = {
+            "id" = "NWioDH7h";
+            "file" = "fire_extinguisher-forge-1.20.1-9.1.1.jar";
+            "hash" = "sha512-V1GG745HO+/ozGJSY9bcqhWPMngv9Z8SDaLYJYmjxIK1FsYLBQDlsm6B5hKkO5amNRCaIocsz4os3ZrletuvLQ==";
+        };
+        _N9yZrjJs = {
+            "id" = "N9yZrjJs";
+            "file" = "fire_extinguisher-fabric-1.20.1-9.1.1.jar";
+            "hash" = "sha512-yKKnNPcb4VHbBoxCtFOuJsHiSF9CIWqPJMeOMuFORmIn9qPHKtS6s8iAOsAON2POjWjy6apUzKc7xvX12GU2Mw==";
+        };
+        _2inkX2fb = {
+            "id" = "2inkX2fb";
+            "file" = "fire_extinguisher-forge-1.21.1-9.1.1.jar";
+            "hash" = "sha512-9D/o8xIECr+LSaBsgRFIdoEThZkHjSqz/vR5guOeqPing5cN9MOzgVQA/cWIE6awgtD7Eec5fyrDwv8iVGAGcQ==";
+        };
+        _MMcvDAdf = {
+            "id" = "MMcvDAdf";
+            "file" = "fire_extinguisher-neoforge-1.21.1-9.1.1.jar";
+            "hash" = "sha512-HwrrxQc91hSubT7D+zFGWr6c1INW2aXTwkGySLP/Kt19GUHpJErstJNIe+LVIXmDk+GKIiylI9h1TANVTp/8rA==";
+        };
+        _Da2lEdID = {
+            "id" = "Da2lEdID";
+            "file" = "fire_extinguisher-fabric-1.21.1-9.1.1.jar";
+            "hash" = "sha512-qKFPtCOV5pkQfcS+icgPq8RP+hYDgGxxHE31nBT/2WlQQoC5tVFJVQJ3fLXFAuAFq+4QOmI9P9qg0k2SrqD+HA==";
+        };
+        _SBIH5i4A = {
+            "id" = "SBIH5i4A";
+            "file" = "fire_extinguisher-forge-1.21.11-9.1.1.jar";
+            "hash" = "sha512-WJqKrihkGW0qZjflcMI/U7jU0BZRrxvcXGoBfJEuPgA4iZElBNUwilrBfjKpLlA/sbsKOjZmIbUnSRjZdKQOJg==";
+        };
+        _kDtIps70 = {
+            "id" = "kDtIps70";
+            "file" = "fire_extinguisher-fabric-1.21.11-9.1.1.jar";
+            "hash" = "sha512-dlxI3WFwjLJM3k2CFyiPNAr83uOXL1/iMWqWAG8Bzkgr8BVXgzHYFUfMo8gjUvfB/UwjQAtx5i38BwHkmOq0pQ==";
+        };
+        _j9XOGA4x = {
+            "id" = "j9XOGA4x";
+            "file" = "fire_extinguisher-neoforge-1.21.11-9.1.1.jar";
+            "hash" = "sha512-UEH/sH3mDkZ2hz+KavVvMSNQYovtHp9NAMOdCnGq03wRinNh/74SLOAwdEatDQnNA+fT1C2BZ/QwQcfkYYCV9g==";
+        };
+        _ieWeAneg = {
+            "id" = "ieWeAneg";
+            "file" = "fire_extinguisher-fabric-26.1.2-9.1.1.jar";
+            "hash" = "sha512-ifED6z4xDA5FMhag/H+Fe54RDo/TVYa2sC5fe0SL/QHRdYdajuFMTBHsD++oWvoH0QjHKDzFFfKBJao9uY548Q==";
+        };
+        _kbMmQveC = {
+            "id" = "kbMmQveC";
+            "file" = "fire_extinguisher-forge-26.1.2-9.1.1.jar";
+            "hash" = "sha512-P8a5FeZoT9V7H1Wp03J0dTHVm0svGJttRexLrOQVWCfGrTTdLKNWc1J1REIiPGClObjVN4Sa9+8tfrDtc/sQzA==";
+        };
+        _Y1isDHmr = {
+            "id" = "Y1isDHmr";
+            "file" = "fire_extinguisher-neoforge-26.1.2-9.1.1.jar";
+            "hash" = "sha512-yzNae5X/MsvR6FDznkmkvwIXotiAm2Q+7NuHQD4XJ2emzpbVzyBI9spl+cH2vvEbGQA7D+GQhJfmxoCRQELT5g==";
+        };
+        _SU2bIMNR = {
+            "id" = "SU2bIMNR";
+            "file" = "fire_extinguisher-forge-26.2-9.1.1.jar";
+            "hash" = "sha512-M3OVy0C1qrGqzjNHiJTQr+cohZOXMxIzGe2XVHWTOAHl4EyTHevMatDjrAy0LWtFLZY5nDhAtRkbzJVXbPQ4aw==";
+        };
+        _hpD404d1 = {
+            "id" = "hpD404d1";
+            "file" = "fire_extinguisher-neoforge-26.2-9.1.1.jar";
+            "hash" = "sha512-WPuFrbWX4QWomBzS3K5vBMXnY6x5vMvH4qyl852UELmXON3hQejtwLXufQ3oXxZFZ5gan6E/NNeW2G73EPAjrg==";
+        };
+        _QxWkH01G = {
+            "id" = "QxWkH01G";
+            "file" = "fire_extinguisher-fabric-26.2-9.1.1.jar";
+            "hash" = "sha512-lhBPDW0gy8yKV76RFRehz5OmpGndhhdAf8kPFoJh1YtfRBTvPMxGnEJEucAfjM0daXG4RkgZmu4X3Sw7h6PEjA==";
+        };
+        _PuKxgqqK = {
+            "id" = "PuKxgqqK";
+            "file" = "fire_extinguisher-neoforge-26.3-8.4.1.jar";
+            "hash" = "sha512-lR2/Mo3fkso5PoqJ09ruDSaQL6an1PbB4or5i5ei2MYqLHtwmWN+7yZ22/uoYUEXQvbMfgwg6oRGd+yeccrQwg==";
+        };
+        _LisDq4Yn = {
+            "id" = "LisDq4Yn";
+            "file" = "fire_extinguisher-forge-26.3-8.4.1.jar";
+            "hash" = "sha512-+FcH/1bgNR8CcNBRErwlapCfLzWqy1iFzefpZcMFw9UBsiCv1g/Qdk+o63mMoHYCGvHG9DKIW8+H0/Ie4Mu6Cg==";
+        };
+        _Zrq4qLOP = {
+            "id" = "Zrq4qLOP";
+            "file" = "fire_extinguisher-fabric-26.3-8.4.1.jar";
+            "hash" = "sha512-Vr2tQdjU+n+5XflTHNj0LC4DtdSvj4QfadI5KmQKlV3pztWQJLhh14MM8wVdDoRSjl1eUYwjuzhFqNVmsWjucg==";
+        };
     in {
         "FuUleULk" = _FuUleULk;
         "UX9GUsNA" = _UX9GUsNA;
@@ -908,20 +1103,59 @@ let
         "VBFtGkX6" = _VBFtGkX6;
         "2cEeSWaN" = _2cEeSWaN;
         "Ks1o3XoL" = _Ks1o3XoL;
+        "QXRcmVVV" = _QXRcmVVV;
+        "8qg1Jpce" = _8qg1Jpce;
+        "iKvgWMnI" = _iKvgWMnI;
+        "PHhwKssS" = _PHhwKssS;
+        "UoTZZUSP" = _UoTZZUSP;
+        "cWsmW9sp" = _cWsmW9sp;
+        "h0Gu3RM2" = _h0Gu3RM2;
+        "yCKlO3mq" = _yCKlO3mq;
+        "2xenvJoe" = _2xenvJoe;
+        "oDYZaolP" = _oDYZaolP;
+        "6rUgP3pi" = _6rUgP3pi;
+        "eIQ06N9d" = _eIQ06N9d;
+        "CqysX3z6" = _CqysX3z6;
+        "zN11LjfN" = _zN11LjfN;
+        "C3r5zLn2" = _C3r5zLn2;
+        "4K2I75Zq" = _4K2I75Zq;
+        "l60ys8AN" = _l60ys8AN;
+        "7y2LBYfI" = _7y2LBYfI;
+        "z000rXdh" = _z000rXdh;
+        "CV1ctxRc" = _CV1ctxRc;
+        "nsbKjHZY" = _nsbKjHZY;
+        "pPLW7Akq" = _pPLW7Akq;
+        "NWioDH7h" = _NWioDH7h;
+        "N9yZrjJs" = _N9yZrjJs;
+        "2inkX2fb" = _2inkX2fb;
+        "MMcvDAdf" = _MMcvDAdf;
+        "Da2lEdID" = _Da2lEdID;
+        "SBIH5i4A" = _SBIH5i4A;
+        "kDtIps70" = _kDtIps70;
+        "j9XOGA4x" = _j9XOGA4x;
+        "ieWeAneg" = _ieWeAneg;
+        "kbMmQveC" = _kbMmQveC;
+        "Y1isDHmr" = _Y1isDHmr;
+        "SU2bIMNR" = _SU2bIMNR;
+        "hpD404d1" = _hpD404d1;
+        "QxWkH01G" = _QxWkH01G;
+        "PuKxgqqK" = _PuKxgqqK;
+        "LisDq4Yn" = _LisDq4Yn;
+        "Zrq4qLOP" = _Zrq4qLOP;
         "forge-1.16.5" = _FuUleULk;
         "forge-1.18.2" = _kn1t9cp4;
         "forge-1.19.2" = _C8Vytkgl;
         "forge-1.19.3" = _BzeVSwXj;
         "forge-1.19.4" = _rBMyAbR5;
         "forge-1.20" = _jkySeIhc;
-        "forge-1.20.1" = _lY2ixVcj;
+        "forge-1.20.1" = _NWioDH7h;
         "forge-1.19" = _ytQt8zKj;
         "forge-1.19.1" = _otj7ZonJ;
         "forge-1.20.2" = _wFAmXyDT;
         "forge-1.20.4" = _8q1qOl0U;
         "forge-1.20.6" = _SSxcoTLe;
         "forge-1.21" = _9dbn5nbV;
-        "forge-1.21.1" = _3VoT255X;
+        "forge-1.21.1" = _2inkX2fb;
         "forge-1.21.3" = _Hqizbekl;
         "forge-1.21.4" = _B5PXROiW;
         "forge-1.21.5" = _GA14SPlM;
@@ -929,9 +1163,10 @@ let
         "forge-1.21.7" = _vnr4R4Md;
         "forge-1.21.8" = _JsaIuMwq;
         "forge-1.21.10" = _qSlzUcMX;
-        "forge-1.21.11" = _4d4XTngS;
-        "forge-26.1.2" = _L4UEY560;
-        "forge-26.2" = _Ks1o3XoL;
+        "forge-1.21.11" = _SBIH5i4A;
+        "forge-26.1.2" = _kbMmQveC;
+        "forge-26.2" = _SU2bIMNR;
+        "forge-26.3" = _LisDq4Yn;
         "fabric-1.18.2" = _ivWHGluG;
         "fabric-1.19" = _BiSqSSOY;
         "fabric-1.19.1" = _2nqjmMlE;
@@ -939,12 +1174,12 @@ let
         "fabric-1.19.3" = _372MDuDN;
         "fabric-1.19.4" = _td4i3GUf;
         "fabric-1.20" = _hkdVbJaC;
-        "fabric-1.20.1" = _AwEmDBse;
+        "fabric-1.20.1" = _N9yZrjJs;
         "fabric-1.20.2" = _kGzCaU6A;
         "fabric-1.20.4" = _5VwKR9lk;
         "fabric-1.20.6" = _bqxZPSJi;
         "fabric-1.21" = _ULrln7Zg;
-        "fabric-1.21.1" = _siQWugPc;
+        "fabric-1.21.1" = _Da2lEdID;
         "fabric-1.21.3" = _GDcQxHCX;
         "fabric-1.21.4" = _cYoJ8GyE;
         "fabric-1.21.5" = _QF1GChoU;
@@ -952,9 +1187,10 @@ let
         "fabric-1.21.7" = _GQjIO2fj;
         "fabric-1.21.8" = _wId8UbOa;
         "fabric-1.21.10" = _92n1pk1N;
-        "fabric-1.21.11" = _Hegu7xTJ;
-        "fabric-26.1.2" = _EnCA59Iu;
-        "fabric-26.2" = _2cEeSWaN;
+        "fabric-1.21.11" = _kDtIps70;
+        "fabric-26.1.2" = _ieWeAneg;
+        "fabric-26.2" = _QxWkH01G;
+        "fabric-26.3" = _Zrq4qLOP;
         "quilt-1.18.2" = _ivWHGluG;
         "quilt-1.19" = _BiSqSSOY;
         "quilt-1.19.1" = _2nqjmMlE;
@@ -962,12 +1198,12 @@ let
         "quilt-1.19.3" = _372MDuDN;
         "quilt-1.19.4" = _td4i3GUf;
         "quilt-1.20" = _hkdVbJaC;
-        "quilt-1.20.1" = _AwEmDBse;
+        "quilt-1.20.1" = _N9yZrjJs;
         "quilt-1.20.2" = _kGzCaU6A;
         "quilt-1.20.4" = _5VwKR9lk;
         "quilt-1.20.6" = _bqxZPSJi;
         "quilt-1.21" = _ULrln7Zg;
-        "quilt-1.21.1" = _siQWugPc;
+        "quilt-1.21.1" = _Da2lEdID;
         "quilt-1.21.3" = _GDcQxHCX;
         "quilt-1.21.4" = _cYoJ8GyE;
         "quilt-1.21.5" = _QF1GChoU;
@@ -975,14 +1211,15 @@ let
         "quilt-1.21.7" = _GQjIO2fj;
         "quilt-1.21.8" = _wId8UbOa;
         "quilt-1.21.10" = _92n1pk1N;
-        "quilt-1.21.11" = _Hegu7xTJ;
-        "quilt-26.1.2" = _EnCA59Iu;
-        "quilt-26.2" = _2cEeSWaN;
-        "neoforge-1.20.1" = _lY2ixVcj;
+        "quilt-1.21.11" = _kDtIps70;
+        "quilt-26.1.2" = _ieWeAneg;
+        "quilt-26.2" = _QxWkH01G;
+        "quilt-26.3" = _Zrq4qLOP;
+        "neoforge-1.20.1" = _NWioDH7h;
         "neoforge-1.20.4" = _J8ec2OQf;
         "neoforge-1.20.6" = _pHVtcjFT;
         "neoforge-1.21" = _FlO0wqsY;
-        "neoforge-1.21.1" = _CeIpYf8r;
+        "neoforge-1.21.1" = _MMcvDAdf;
         "neoforge-1.21.3" = _tNUBkIom;
         "neoforge-1.21.4" = _Ba3d56nR;
         "neoforge-1.21.5" = _649XBQS0;
@@ -990,9 +1227,10 @@ let
         "neoforge-1.21.7" = _dLy9Vf96;
         "neoforge-1.21.8" = _kUhd2CP4;
         "neoforge-1.21.10" = _5IQ5ozT9;
-        "neoforge-1.21.11" = _eKNdyJoz;
-        "neoforge-26.1.2" = _iWKGAb7S;
-        "neoforge-26.2" = _VBFtGkX6;
+        "neoforge-1.21.11" = _j9XOGA4x;
+        "neoforge-26.1.2" = _Y1isDHmr;
+        "neoforge-26.2" = _hpD404d1;
+        "neoforge-26.3" = _PuKxgqqK;
         "pkg-1.8.1" = _FuUleULk;
         "pkg-1.9.0" = _UX9GUsNA;
         "pkg-4.2.1" = _yqVPYJ0t;
@@ -1011,7 +1249,10 @@ let
         "pkg-8.3.0" = _Ks1o3XoL;
         "pkg-8.3.1" = _GDcQxHCX;
         "pkg-9.0.0" = _kUhd2CP4;
-        "default" = _Ks1o3XoL;
+        "pkg-9.1.0" = _UoTZZUSP;
+        "pkg-9.1.1" = _QxWkH01G;
+        "pkg-8.4.1" = _Zrq4qLOP;
+        "default" = _Zrq4qLOP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fire-extinguisher";

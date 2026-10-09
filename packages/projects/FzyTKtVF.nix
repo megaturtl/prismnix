@@ -236,6 +236,26 @@ let
             "file" = "Stoneworks-v26.2.0-mc26.2.x-Fabric.jar";
             "hash" = "sha512-ZNwgwiQ85rBnzsfo0JgiBpMheujRLFD35KEi/r/58LGH5Zlva/zILT81hCzNfmgjvbZKC0ebScNgffBv3Tlf/w==";
         };
+        _OcfkASqC = {
+            "id" = "OcfkASqC";
+            "file" = "stoneworks-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-9r72ZbYTNuQAsosX4DCrE3tG3A0D0E04xg/X5dhIOWg89Meg5MKR7b5BmPjeyiq9JwBvGL0IWF9WIMs7zirhRg==";
+        };
+        _qXeyeoFh = {
+            "id" = "qXeyeoFh";
+            "file" = "stoneworks-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-/ldk8ZDv+aEJ1/pdKxO1X87s8d8CEUN/zK1uFDcg9VQoGkT/DdYqk4HRDot2ZW9fXclkwTiJQ/BhOF2YzxzC7g==";
+        };
+        _Kj7uDnDA = {
+            "id" = "Kj7uDnDA";
+            "file" = "stoneworks-v26.3.1-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-c0lTWYmJ1v0XXQUpONYNcWPrFidcr91WtDe3eAnIN/LVrtScsVhNtfdqk6/vLEvjsINurid6JxPXERKL3HSe5w==";
+        };
+        _blHWPVsk = {
+            "id" = "blHWPVsk";
+            "file" = "stoneworks-v26.3.1-mc26.3.x+fabric.jar";
+            "hash" = "sha512-DejhTsUKo0kXJEIJdkiwMiYspRKCJGxWUP4EfP0df+LHQVqE+yV17YE8FY8quhfM0IOOtf8e/Wjn+F3tYPKqQQ==";
+        };
     in {
         "gSykIFo8" = _gSykIFo8;
         "pgYGYeA3" = _pgYGYeA3;
@@ -284,6 +304,10 @@ let
         "yI3EuefP" = _yI3EuefP;
         "1S7DNXwa" = _1S7DNXwa;
         "c9YWwjPp" = _c9YWwjPp;
+        "OcfkASqC" = _OcfkASqC;
+        "qXeyeoFh" = _qXeyeoFh;
+        "Kj7uDnDA" = _Kj7uDnDA;
+        "blHWPVsk" = _blHWPVsk;
         "fabric-1.19.2" = _hoKFSyYm;
         "fabric-1.19.3" = _oERVEBxH;
         "fabric-1.19.4" = _FzMp34g3;
@@ -306,6 +330,7 @@ let
         "fabric-26.1.1" = _O5cB5AXO;
         "fabric-26.1.2" = _O5cB5AXO;
         "fabric-26.2" = _c9YWwjPp;
+        "fabric-26.3" = _blHWPVsk;
         "forge-1.19.2" = _phitYGlE;
         "forge-1.19.3" = _3q70hr5r;
         "forge-1.19.4" = _66WVSoxZ;
@@ -329,6 +354,7 @@ let
         "neoforge-26.1.1" = _yI3EuefP;
         "neoforge-26.1.2" = _yI3EuefP;
         "neoforge-26.2" = _1S7DNXwa;
+        "neoforge-26.3" = _Kj7uDnDA;
         "pkg-v4.0.0-1.19.2-Fabric" = _gSykIFo8;
         "pkg-v4.0.0-1.19.2-Forge" = _pgYGYeA3;
         "pkg-v4.0.1-1.19.2-Fabric" = _DdT1vZOS;
@@ -371,7 +397,9 @@ let
         "pkg-21.11.0" = _oeiYflxJ;
         "pkg-26.1.0" = _yI3EuefP;
         "pkg-26.2.0" = _c9YWwjPp;
-        "default" = _c9YWwjPp;
+        "pkg-26.3.0" = _qXeyeoFh;
+        "pkg-26.3.1" = _blHWPVsk;
+        "default" = _blHWPVsk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stoneworks";

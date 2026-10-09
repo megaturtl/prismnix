@@ -16,16 +16,23 @@ let
             "file" = "JR_East_E531_Series_V1.2.zip";
             "hash" = "sha512-AO+4cHLDGEMOM72aKA0FU4W5pyHRgaRhhe8WAXF+ldbe0oEPrvVbT2MGhTsa2kzqHCSlk3zl95+AhOEHu5I1+w==";
         };
+        _rCU9FOqd = {
+            "id" = "rCU9FOqd";
+            "file" = "JR_East_E531_Series_V1.2.1.zip";
+            "hash" = "sha512-X4aOg/iqhNpUSeER7czW97LZByyVYTGtqJyJzq79SlVRuAWe/Xyh3azmkdIqyIWZUXRElncMDOHhO7v0KxqboA==";
+        };
     in {
         "S5DBQJWe" = _S5DBQJWe;
         "nRrWK0lT" = _nRrWK0lT;
         "zKSFtVN9" = _zKSFtVN9;
-        "minecraft-1.20" = _zKSFtVN9;
-        "minecraft-1.20.1" = _zKSFtVN9;
+        "rCU9FOqd" = _rCU9FOqd;
+        "minecraft-1.20" = _rCU9FOqd;
+        "minecraft-1.20.1" = _rCU9FOqd;
         "pkg-1.0" = _S5DBQJWe;
         "pkg-1.1" = _nRrWK0lT;
         "pkg-1.2" = _zKSFtVN9;
-        "default" = _zKSFtVN9;
+        "pkg-1.2.1" = _rCU9FOqd;
+        "default" = _rCU9FOqd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mtr4-jr-east-e531-series-jre531";

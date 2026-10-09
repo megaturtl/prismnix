@@ -81,6 +81,16 @@ let
             "file" = "TheatricalExtraLights-fabric-1.4.1-release-mc1.20.1.jar";
             "hash" = "sha512-XWPCbBS9PrWKM4kNDo09AJ3sVQTtH3n0t6fJNcLWh5rNZLfvKyk2dm+i9QnpU6bSH37/XLpwMtcyOGED22sg5A==";
         };
+        _uNgIjCEE = {
+            "id" = "uNgIjCEE";
+            "file" = "TheatricalExtraLights-Beta-forge-1.4.13-mc1.20.1.jar";
+            "hash" = "sha512-oAS9UgdjbZJwBB2Nt5tEylWMWS6z2svmxRiLkrQKSj0TXd6g55iwp2T1Y7oBw0ZqC9/Fd4L4RROcclbCtEVGRg==";
+        };
+        _vRBqaKyL = {
+            "id" = "vRBqaKyL";
+            "file" = "TheatricalExtraLights-Beta-fabric-1.4.13-mc1.20.1.jar";
+            "hash" = "sha512-RQMCms1t3K6qqpbh0WHL0F2OUM74y7PtNaAer0MkHetb/BjjsiJZO8GkNver/Lei04MvkPPqJu2Za3hV9I1DpA==";
+        };
     in {
         "h3i7izVd" = _h3i7izVd;
         "r6fpYML5" = _r6fpYML5;
@@ -98,8 +108,10 @@ let
         "gL8D0v6b" = _gL8D0v6b;
         "aYigLZsm" = _aYigLZsm;
         "zWPZS1Kf" = _zWPZS1Kf;
-        "forge-1.20.1" = _aYigLZsm;
-        "fabric-1.20.1" = _zWPZS1Kf;
+        "uNgIjCEE" = _uNgIjCEE;
+        "vRBqaKyL" = _vRBqaKyL;
+        "forge-1.20.1" = _uNgIjCEE;
+        "fabric-1.20.1" = _vRBqaKyL;
         "pkg-1.0.0-alpha.1-build.0+mc1.20.1" = _r6fpYML5;
         "pkg-1.0.0-alpha.2-build.1+mc1.20.1" = _JjFa9Ynj;
         "pkg-1.1.0-release-mc1.20.1" = _3QAKIPlN;
@@ -108,7 +120,8 @@ let
         "pkg-1.3.0-release-mc1.20.1" = _snAwDOU5;
         "pkg-1.3.7-release-mc1.20.1" = _gL8D0v6b;
         "pkg-1.4.1-release-mc1.20.1" = _zWPZS1Kf;
-        "default" = _zWPZS1Kf;
+        "pkg-1.4.13-mc1.20.1" = _vRBqaKyL;
+        "default" = _vRBqaKyL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "theatrical-extra-lights";

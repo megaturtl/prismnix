@@ -16,17 +16,24 @@ let
             "file" = "confirmresetkeys-1.0.1+26.1.2-fabric.jar";
             "hash" = "sha512-SUwam2mbccQh3iJ/eFTY4AGFeUt2VQDiqbSD6AXmht6p2JGypJs308dMonSzOGUcw9JH6T7VzVAAdwXHX8IzNQ==";
         };
+        _aKh1E787 = {
+            "id" = "aKh1E787";
+            "file" = "confirmresetkeys-1.0.1+1.8.9-fabric.jar";
+            "hash" = "sha512-vA6ehxyg0W9jBe/EY5ixAvlsWhzNln1PDJLBPoTEWBBJrJCC4evCIw4cAy8WGsq+6iBKdomYdtCsh5CZyw5SuQ==";
+        };
     in {
         "PtFSJwH7" = _PtFSJwH7;
         "uVAcxmJS" = _uVAcxmJS;
         "SUQDEKfA" = _SUQDEKfA;
+        "aKh1E787" = _aKh1E787;
         "fabric-26.1" = _SUQDEKfA;
         "fabric-26.1.1" = _SUQDEKfA;
         "fabric-26.1.2" = _SUQDEKfA;
         "fabric-26.2" = _uVAcxmJS;
+        "ornithe-1.8.9" = _aKh1E787;
         "pkg-1.0.0" = _PtFSJwH7;
-        "pkg-1.0.1" = _SUQDEKfA;
-        "default" = _SUQDEKfA;
+        "pkg-1.0.1" = _aKh1E787;
+        "default" = _aKh1E787;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "confirmresetkeys";

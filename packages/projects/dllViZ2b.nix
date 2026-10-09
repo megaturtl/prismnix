@@ -21,11 +21,17 @@ let
             "file" = "dimensional_totems_v1.2.zip";
             "hash" = "sha512-qpqna6lOXgZgxriUxuHOHYFCkVnsnSrXB1u516Pyl3C0g1I9lK0z0X03h6SPrdXHMkJqFnI+ABsJANBBRmtfdQ==";
         };
+        _lIvHsoRY = {
+            "id" = "lIvHsoRY";
+            "file" = "dimensional_totems_v1.2_26.3.zip";
+            "hash" = "sha512-qpqna6lOXgZgxriUxuHOHYFCkVnsnSrXB1u516Pyl3C0g1I9lK0z0X03h6SPrdXHMkJqFnI+ABsJANBBRmtfdQ==";
+        };
     in {
         "QZYLDR0S" = _QZYLDR0S;
         "2wQAVSCL" = _2wQAVSCL;
         "q6yQkv9I" = _q6yQkv9I;
         "tqP1391h" = _tqP1391h;
+        "lIvHsoRY" = _lIvHsoRY;
         "minecraft-1.21.5" = _tqP1391h;
         "minecraft-1.21.9" = _tqP1391h;
         "minecraft-1.21.10" = _tqP1391h;
@@ -38,10 +44,12 @@ let
         "minecraft-26.1.1" = _tqP1391h;
         "minecraft-26.1.2" = _tqP1391h;
         "minecraft-26.2" = _tqP1391h;
+        "minecraft-26.3" = _lIvHsoRY;
         "pkg-1.0" = _QZYLDR0S;
         "pkg-1.1" = _q6yQkv9I;
         "pkg-1.2" = _tqP1391h;
-        "default" = _tqP1391h;
+        "pkg-v1.2" = _lIvHsoRY;
+        "default" = _lIvHsoRY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dimensional-totems";

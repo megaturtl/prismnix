@@ -51,6 +51,56 @@ let
             "file" = "irl-redactor-1.1.5+mc1.21.11.jar";
             "hash" = "sha512-6EYra34GUJ/R6IsXwDTKg4T9CR8mYB9ga3vl+2nH4/wXvIGIY5DQW4xGX9aLMi4P/q7/ELS1j1l1ct69KohmNQ==";
         };
+        _ZfkAM4C6 = {
+            "id" = "ZfkAM4C6";
+            "file" = "irl-redactor-1.1.7+mc1.20.1.jar";
+            "hash" = "sha512-s0Sv/R4/BYgaZZV55Romtp6IQmPImjvcrlTaGIuIQpg2pVU1qB8Eoa2fGH+sr9rsO8D+GCaoTWmFdZedBhryvA==";
+        };
+        _UvJWzfIp = {
+            "id" = "UvJWzfIp";
+            "file" = "irl-redactor-1.1.7+mc1.20.4.jar";
+            "hash" = "sha512-5RGUiIQjZ5E6J9nq8XHqtvA4m39jyS8Ku+Ja0dUypU+df22lxOMGxabg9uNFVNuXoUh8twBstJ0P6eBnAfx8og==";
+        };
+        _EGklAcIS = {
+            "id" = "EGklAcIS";
+            "file" = "irl-redactor-1.1.7+mc1.21.1.jar";
+            "hash" = "sha512-LqrPRl9UGytH2/eiZtH5K5PMxfRVy9Nyzox4emFHO8uNwbSDlGYWgaapTpL4DQ9OI4Gk+5YRMuzXOHl4Ca4ePA==";
+        };
+        _ziKtSJIZ = {
+            "id" = "ziKtSJIZ";
+            "file" = "irl-redactor-1.1.7+mc1.21.4.jar";
+            "hash" = "sha512-wRgWAb4oSF5aS6r9IzBdNTvEzZfDaeBlIwn2qpnskHP6KHnTru30uGkjOzrEaPBYU34v0AUt/zi793ODM4WUSA==";
+        };
+        _62IT4LLs = {
+            "id" = "62IT4LLs";
+            "file" = "irl-redactor-1.1.7+mc1.21.11.jar";
+            "hash" = "sha512-wKmAv8+5d4HnWbBTQma548MwrrdfYF/tR8t+9NxP4bnAvDZ7dkRFi6U3WLz0hRXOjx3LVud9vhX6oOR1QnIbTg==";
+        };
+        _vRGjVL9d = {
+            "id" = "vRGjVL9d";
+            "file" = "irl-redactor-1.1.8+mc1.20.1.jar";
+            "hash" = "sha512-bGfoLUFJJEOmh36dvuecd/ksAH3FEqPFONelSrX3SPcIXY3Nug3WC044tS4X3QzENxhWGRrf1IGSY7HqwLn+ng==";
+        };
+        _K6HvPcSU = {
+            "id" = "K6HvPcSU";
+            "file" = "irl-redactor-1.1.8+mc1.20.4.jar";
+            "hash" = "sha512-7JDMmLVj+a6MGuOeDAPGlirbIHJ7TMJmCJ//17h6uc96p6uhVCfiSBEeUjgOebBhHozPMrxbEDPaDuo6ceEpzA==";
+        };
+        _Xzmjf7Po = {
+            "id" = "Xzmjf7Po";
+            "file" = "irl-redactor-1.1.8+mc1.21.1.jar";
+            "hash" = "sha512-dwtr923NTWQwWaTDeu6CfHvtZF1mOU3EA9trGWsQTMgNHwKHpmxCTjPurzWuhtBCHmydk7utOuTAMEtmPzLSJQ==";
+        };
+        _iyH1JAR2 = {
+            "id" = "iyH1JAR2";
+            "file" = "irl-redactor-1.1.8+mc1.21.4.jar";
+            "hash" = "sha512-wXU0HfZbOUb8xIc6+QI0cvjHwlEvjKSVrOElroecOFtnT/Z3m7QCscVG0svXpAi3eFgwC/wrP5Sc1ZU8W5eDZQ==";
+        };
+        _o8YomQBL = {
+            "id" = "o8YomQBL";
+            "file" = "irl-redactor-1.1.8+mc1.21.11.jar";
+            "hash" = "sha512-gUUe+SfEnrdYg38y5EaV6JUIZmYIZCeaMQUjsMjRgh89cuvf5cYYpnZsdzIHkjIg/gmN1bKQk81Gehj+ho7kwg==";
+        };
     in {
         "QFfNBiij" = _QFfNBiij;
         "2rd6slR6" = _2rd6slR6;
@@ -62,13 +112,23 @@ let
         "6qhrhZlo" = _6qhrhZlo;
         "CVoC76av" = _CVoC76av;
         "eSU1cEbL" = _eSU1cEbL;
-        "fabric-1.20.1" = _sXM3eCWS;
-        "fabric-1.20.4" = _ibzEKRQL;
-        "fabric-1.21.1" = _6qhrhZlo;
-        "fabric-1.21.4" = _CVoC76av;
-        "fabric-1.21.11" = _eSU1cEbL;
-        "forge-1.20.1" = _sXM3eCWS;
-        "neoforge-1.21.1" = _6qhrhZlo;
+        "ZfkAM4C6" = _ZfkAM4C6;
+        "UvJWzfIp" = _UvJWzfIp;
+        "EGklAcIS" = _EGklAcIS;
+        "ziKtSJIZ" = _ziKtSJIZ;
+        "62IT4LLs" = _62IT4LLs;
+        "vRGjVL9d" = _vRGjVL9d;
+        "K6HvPcSU" = _K6HvPcSU;
+        "Xzmjf7Po" = _Xzmjf7Po;
+        "iyH1JAR2" = _iyH1JAR2;
+        "o8YomQBL" = _o8YomQBL;
+        "fabric-1.20.1" = _vRGjVL9d;
+        "fabric-1.20.4" = _K6HvPcSU;
+        "fabric-1.21.1" = _Xzmjf7Po;
+        "fabric-1.21.4" = _iyH1JAR2;
+        "fabric-1.21.11" = _o8YomQBL;
+        "forge-1.20.1" = _vRGjVL9d;
+        "neoforge-1.21.1" = _Xzmjf7Po;
         "pkg-1.1.4+mc1.20.1" = _QFfNBiij;
         "pkg-1.1.4+mc1.20.4" = _2rd6slR6;
         "pkg-1.1.4+mc1.21.1" = _hEXgBSju;
@@ -79,7 +139,17 @@ let
         "pkg-1.1.5+mc1.21.1" = _6qhrhZlo;
         "pkg-1.1.5+mc1.21.4" = _CVoC76av;
         "pkg-1.1.5+mc1.21.11" = _eSU1cEbL;
-        "default" = _eSU1cEbL;
+        "pkg-1.1.7+mc1.20.1" = _ZfkAM4C6;
+        "pkg-1.1.7+mc1.20.4" = _UvJWzfIp;
+        "pkg-1.1.7+mc1.21.1" = _EGklAcIS;
+        "pkg-1.1.7+mc1.21.4" = _ziKtSJIZ;
+        "pkg-1.1.7+mc1.21.11" = _62IT4LLs;
+        "pkg-1.1.8+mc1.20.1" = _vRGjVL9d;
+        "pkg-1.1.8+mc1.20.4" = _K6HvPcSU;
+        "pkg-1.1.8+mc1.21.1" = _Xzmjf7Po;
+        "pkg-1.1.8+mc1.21.4" = _iyH1JAR2;
+        "pkg-1.1.8+mc1.21.11" = _o8YomQBL;
+        "default" = _o8YomQBL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "irlights";

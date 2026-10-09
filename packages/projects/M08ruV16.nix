@@ -256,6 +256,11 @@ let
             "file" = "bobby-5.2.15+mc26.2.jar";
             "hash" = "sha512-JSYbArLbf5ad5ccBO34iNQip5gBdYfKHkRrzDA/s0GxA3x48tNb3txQJP2uOz/td+6JXJsNw7zoKdNzr93EWMQ==";
         };
+        _J7YnfCss = {
+            "id" = "J7YnfCss";
+            "file" = "bobby-5.2.16+mc26.3.jar";
+            "hash" = "sha512-+e2GxI6wlbDjX28Wq9N2rY3T0qXNM2/okH0FYsns0eDHrzX8Wv7RIeE4X8FOQcxfkVyphsPhlDT1wnjMBmS0RA==";
+        };
     in {
         "IHJWnuWV" = _IHJWnuWV;
         "LmUX0lM1" = _LmUX0lM1;
@@ -308,6 +313,7 @@ let
         "ZwOXWoVI" = _ZwOXWoVI;
         "ECf8PS1Q" = _ECf8PS1Q;
         "KLiFVFju" = _KLiFVFju;
+        "J7YnfCss" = _J7YnfCss;
         "fabric-1.16.2" = _IHJWnuWV;
         "fabric-1.16.3" = _IHJWnuWV;
         "fabric-1.16.4" = _ejSSU9Lm;
@@ -342,6 +348,7 @@ let
         "fabric-26.1.1" = _njaTBYvt;
         "fabric-26.1.2" = _njaTBYvt;
         "fabric-26.2" = _KLiFVFju;
+        "fabric-26.3" = _J7YnfCss;
         "pkg-0.2.0" = _IHJWnuWV;
         "pkg-1.0.0" = _LmUX0lM1;
         "pkg-1.1.0" = _MlOwMrcv;
@@ -393,7 +400,8 @@ let
         "pkg-5.2.11.1+mc1.21.11" = _ZwOXWoVI;
         "pkg-5.2.13.1+mc26.1" = _ECf8PS1Q;
         "pkg-5.2.15+mc26.2" = _KLiFVFju;
-        "default" = _KLiFVFju;
+        "pkg-5.2.16+mc26.3" = _J7YnfCss;
+        "default" = _J7YnfCss;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bobby";

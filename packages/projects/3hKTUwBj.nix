@@ -16,15 +16,22 @@ let
             "file" = "IC2CJadeAddon-1.19.2-2.0.5.jar";
             "hash" = "sha512-VYrYQ64CrfybfcOC/KbKr1/8Ra0S5ekBqbUU5U8/Bou7Tx84fO8g4a9ZCu4TBjF3QNJ5ch3gk0NcePuPyfTLbg==";
         };
+        _HN3AQqvE = {
+            "id" = "HN3AQqvE";
+            "file" = "ic2jadeplugin-1.19.2-2.0.7.jar";
+            "hash" = "sha512-JML3Fl/Sd4tDNRjE1GadVqaKAtT8nCgupvPc61ofh61LZWM7DcH5La5G3OotLYTcDAl0gmkbq06vBfCRDtC6OQ==";
+        };
     in {
         "UalfVsYe" = _UalfVsYe;
         "7nCUJ9hs" = _7nCUJ9hs;
         "YbMGeBgQ" = _YbMGeBgQ;
-        "forge-1.19.2" = _YbMGeBgQ;
+        "HN3AQqvE" = _HN3AQqvE;
+        "forge-1.19.2" = _HN3AQqvE;
         "pkg-1.19.2-2.0.4.1" = _UalfVsYe;
         "pkg-1.19.2-2.0.4.2" = _7nCUJ9hs;
         "pkg-1.19.2-2.0.5" = _YbMGeBgQ;
-        "default" = _YbMGeBgQ;
+        "pkg-1.19.2-2.0.7" = _HN3AQqvE;
+        "default" = _HN3AQqvE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ic2cjadeaddon";

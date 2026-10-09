@@ -301,6 +301,86 @@ let
             "file" = "saintsdragons-0.9.6+fabric-1.20.1.jar";
             "hash" = "sha512-f+LDvkvGoSIyCxeIuYsTFf1fwRS4ERsctNU2lTlcIvF4xmgtqLo9zmNB8taYrOEXNP1oH3OwdkU2ZJIuf+jR+g==";
         };
+        _1au2cgvK = {
+            "id" = "1au2cgvK";
+            "file" = "saintsdragons-0.9.7+forge-1.20.1.jar";
+            "hash" = "sha512-7T+tSZLDVfeE6udkMJiX6+ushIhXOdLyPam6R/qJ9Tk6BM63b1HelPRKiIDrj8iw9o/X3L5NP3cix/+2KKmvZQ==";
+        };
+        _ooIz8A14 = {
+            "id" = "ooIz8A14";
+            "file" = "saintsdragons-0.9.7+fabric-1.20.1.jar";
+            "hash" = "sha512-63LQBXcVeesvPBtgzzWCSnYWVabL9uzmC/ga6UGdoKudtsrK3v5eAm66zwZFr/C7m5lyty2tZy6dL5YaXC5sBA==";
+        };
+        _oU8CC1d4 = {
+            "id" = "oU8CC1d4";
+            "file" = "saintsdragons-0.9.71+forge-1.20.1.jar";
+            "hash" = "sha512-04Y9pnSSsUpXPNMIYltAMSmlIcm8pOS3Euw/v37+RLW5Czn2dfs/EUAKvp38+2+8Js/U3opuJZMokyFh8JTc4A==";
+        };
+        _zlrbBa4p = {
+            "id" = "zlrbBa4p";
+            "file" = "saintsdragons-0.9.71+fabric-1.20.1.jar";
+            "hash" = "sha512-8crSe3ZgvP6c73o9PePewXIuiBeLKZT9ESztzBUuuP/ygGMjhLl5Q6kAM2bYhabexafDn5bJg5kXFOD9H+FMfg==";
+        };
+        _IWwudCuv = {
+            "id" = "IWwudCuv";
+            "file" = "saintsdragons-0.9.72+forge-1.20.1.jar";
+            "hash" = "sha512-DCceUHo7UWmwEDLq/FNpXQ3l77XmBclj5txrC1nAQYOtDJ5SV25mPf8Z2W8volN2iLOIXu1DEOSpZG0uv6m/9g==";
+        };
+        _rQyR2HnV = {
+            "id" = "rQyR2HnV";
+            "file" = "saintsdragons-0.9.72+fabric-1.20.1.jar";
+            "hash" = "sha512-TsDRLfVB9i5OolhW3EewtUM2G/CEG6VkAnJHWZbvWiKAORT5occBWe4KD7jd2n4LZ++LiWGZ+U3Tt//yaZ41tQ==";
+        };
+        _FNN4iXug = {
+            "id" = "FNN4iXug";
+            "file" = "saintsdragons-0.9.75+forge-1.20.1.jar";
+            "hash" = "sha512-boZ+PHN7HGKRW7Ui0hGEVtS/C1FrLVpIv4wmwOvOHHa5rP500Q+Mdr2ZQsl+VLtz1OZHe7vk9MdtaBtTuEckpw==";
+        };
+        _mCbjzaUw = {
+            "id" = "mCbjzaUw";
+            "file" = "saintsdragons-0.9.75+fabric-1.20.1.jar";
+            "hash" = "sha512-VNmZlLss41gAuPn9v4wax26VL4V/pMV+pX59nvX706b94KwBrjDJxymafqRd39753UHya+X3Z8mIHthqLwvfFA==";
+        };
+        _Zn44yGbo = {
+            "id" = "Zn44yGbo";
+            "file" = "saintsdragons-0.9.76+fabric-1.20.1.jar";
+            "hash" = "sha512-jIJ/0QOFyzZpWo06xDOY/r57sbipkJ+24qvjdL2nN6z1OgF6Xj4nhW5JPp6Ml5cm4fPl3GnBB4hjiQ0voVhV9g==";
+        };
+        _V6fI7vj4 = {
+            "id" = "V6fI7vj4";
+            "file" = "saintsdragons-0.9.76+forge-1.20.1.jar";
+            "hash" = "sha512-rT/E8XvrjxiFM8g2kx2tiNBaJU+YrmvsKxGjKu0bckUrWHvQpSq/frZsu3jzw28Gomg3iUJbOMt3XqTBl+iQCQ==";
+        };
+        _Rg4n83Ys = {
+            "id" = "Rg4n83Ys";
+            "file" = "saintsdragons-0.9.8+forge-1.20.1.jar";
+            "hash" = "sha512-bAxfc8AxPz9mCQ/P82JpihOswv30jlHLz7ZOozv6af4Cv7qgNwWft7N0tZxW89qJo+Z58TPwJ9fW3sfaHoj7+A==";
+        };
+        _WkiBHM1a = {
+            "id" = "WkiBHM1a";
+            "file" = "saintsdragons-0.9.8+fabric-1.20.1.jar";
+            "hash" = "sha512-pVd1RmRkeWHm0tYgNPoh+l7z/YMqacXt7Cztkby8TjeN+0cIgNJRZIbHZFzG+qQzVf1rNAAJYRDTBdYpStc3rA==";
+        };
+        _e1pO2hho = {
+            "id" = "e1pO2hho";
+            "file" = "saintsdragons-0.9.85+forge-1.20.1.jar";
+            "hash" = "sha512-wqLCWBEBVWRe0M8hWdT1Bane16ICBsfXpJCKLB3L4WvL8Kx0+A6jwM7Nib+8lsMm3qmtmPLMMz9rgNa22IGuHg==";
+        };
+        _fe97xyOc = {
+            "id" = "fe97xyOc";
+            "file" = "saintsdragons-0.9.85+fabric-1.20.1.jar";
+            "hash" = "sha512-4YcR66mKJ82iy15drqvSUq3WKh9Yr620uByPbZtYXQW6xt9F8+ESBDgcN2luxaQPG5yXy3TsAp0DsPqlzrph1w==";
+        };
+        _GF1ycXQz = {
+            "id" = "GF1ycXQz";
+            "file" = "saintsdragons-0.9.88+forge-1.20.1.jar";
+            "hash" = "sha512-lOF9bWdeJ7vMI4U/q4Ty0kliHhG47ZDlKywhwbFW0QBm2UWhufuCqWX79MNJwJsYbhAuMOu0l9SabpeAd0Ag5w==";
+        };
+        _4LGtJIwV = {
+            "id" = "4LGtJIwV";
+            "file" = "saintsdragons-0.9.88+fabric-1.20.1.jar";
+            "hash" = "sha512-UF8r5wYXQVwciBHGhh5K/YAgAcru38Zwe3tdWj7LUb8+TftdubAE5ivxYJjFgBY71tAeim5zLyRnEzL282uOww==";
+        };
     in {
         "Lbs6xUnN" = _Lbs6xUnN;
         "XGWLMRqv" = _XGWLMRqv;
@@ -362,8 +442,24 @@ let
         "stNmafyL" = _stNmafyL;
         "wexgMG9d" = _wexgMG9d;
         "aA0kbLir" = _aA0kbLir;
-        "forge-1.20.1" = _wexgMG9d;
-        "fabric-1.20.1" = _aA0kbLir;
+        "1au2cgvK" = _1au2cgvK;
+        "ooIz8A14" = _ooIz8A14;
+        "oU8CC1d4" = _oU8CC1d4;
+        "zlrbBa4p" = _zlrbBa4p;
+        "IWwudCuv" = _IWwudCuv;
+        "rQyR2HnV" = _rQyR2HnV;
+        "FNN4iXug" = _FNN4iXug;
+        "mCbjzaUw" = _mCbjzaUw;
+        "Zn44yGbo" = _Zn44yGbo;
+        "V6fI7vj4" = _V6fI7vj4;
+        "Rg4n83Ys" = _Rg4n83Ys;
+        "WkiBHM1a" = _WkiBHM1a;
+        "e1pO2hho" = _e1pO2hho;
+        "fe97xyOc" = _fe97xyOc;
+        "GF1ycXQz" = _GF1ycXQz;
+        "4LGtJIwV" = _4LGtJIwV;
+        "forge-1.20.1" = _GF1ycXQz;
+        "fabric-1.20.1" = _4LGtJIwV;
         "pkg-0.0.51" = _Lbs6xUnN;
         "pkg-0.1.1" = _XGWLMRqv;
         "pkg-0.1.5" = _LeWwiTr2;
@@ -396,7 +492,15 @@ let
         "pkg-0.9.51" = _6U1aPgcI;
         "pkg-0.9.52" = _stNmafyL;
         "pkg-0.9.6" = _aA0kbLir;
-        "default" = _aA0kbLir;
+        "pkg-0.9.7" = _ooIz8A14;
+        "pkg-0.9.71" = _zlrbBa4p;
+        "pkg-0.9.72" = _rQyR2HnV;
+        "pkg-0.9.75" = _mCbjzaUw;
+        "pkg-0.9.76" = _V6fI7vj4;
+        "pkg-0.9.8" = _WkiBHM1a;
+        "pkg-0.9.85" = _fe97xyOc;
+        "pkg-0.9.88" = _4LGtJIwV;
+        "default" = _4LGtJIwV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "saints-dragons";

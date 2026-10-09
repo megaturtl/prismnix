@@ -46,6 +46,26 @@ let
             "file" = "SophUpgradeAddons-0.8.5.jar";
             "hash" = "sha512-GpDFfyAK+Gh+F2UPDFz51UU+vCTA245JuoPqtrXKZeWpjyL6PvuYiW6IpmDPkJdil3YpqbS2S599fitevYe6MA==";
         };
+        _3K18IrbG = {
+            "id" = "3K18IrbG";
+            "file" = "SophUpgradeAddons-0.9.1.jar";
+            "hash" = "sha512-PMavWhOX0+mzbQAQevLVgAJR561YOwZru8eCZUk+BRSeBTkfoAksNUvrgfyIrxWGu9iqnOo5IG+ZdTXLF6F1tQ==";
+        };
+        _dTowYtkJ = {
+            "id" = "dTowYtkJ";
+            "file" = "SophUpgradeAddons-1.21.1-0.9.1.jar";
+            "hash" = "sha512-C6obZuzJy8xdPx2bzzdjTXeaSmU4K0RohHIG9qFJW+cZwoQ5dC+fwLlaft3+Vr83N9yxt3YSGi99rqRmFXseYg==";
+        };
+        _pCF81hfk = {
+            "id" = "pCF81hfk";
+            "file" = "SophUpgradeAddons-1.21.1-0.9.2.jar";
+            "hash" = "sha512-zOakpj/HBENLtEm1wXDg+Am3Y+iT5PscjdIL1dZ5c2gbCFWLrBgJLKRwa45e4HzbVHUg3/bS3qXiCAmQQeUD4Q==";
+        };
+        _M7Ce8cmN = {
+            "id" = "M7Ce8cmN";
+            "file" = "SophUpgradeAddons-1.20.1-0.9.2.jar";
+            "hash" = "sha512-EFhioMigEGDOYAJZ78oKZCPmeZAmGnAOyYC1IdscxK7sKL8yGHlqBo/pQFIP+nxrpm2tuiMU4HvF3P0o+QxzmA==";
+        };
     in {
         "IFfOS7vC" = _IFfOS7vC;
         "CfD2C8Nm" = _CfD2C8Nm;
@@ -56,7 +76,12 @@ let
         "DwYvLReA" = _DwYvLReA;
         "6B2EXFxm" = _6B2EXFxm;
         "ncgVG12e" = _ncgVG12e;
-        "forge-1.20.1" = _ncgVG12e;
+        "3K18IrbG" = _3K18IrbG;
+        "dTowYtkJ" = _dTowYtkJ;
+        "pCF81hfk" = _pCF81hfk;
+        "M7Ce8cmN" = _M7Ce8cmN;
+        "forge-1.20.1" = _M7Ce8cmN;
+        "neoforge-1.21.1" = _pCF81hfk;
         "pkg-0.5.3" = _IFfOS7vC;
         "pkg-0.5.4" = _CfD2C8Nm;
         "pkg-0.7.0" = _6Tu2ARQn;
@@ -66,7 +91,9 @@ let
         "pkg-0.8.0" = _DwYvLReA;
         "pkg-0.8.2" = _6B2EXFxm;
         "pkg-0.8.5" = _ncgVG12e;
-        "default" = _ncgVG12e;
+        "pkg-0.9.1" = _dTowYtkJ;
+        "pkg-0.9.2" = _M7Ce8cmN;
+        "default" = _M7Ce8cmN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "soph-upgrade-addons";

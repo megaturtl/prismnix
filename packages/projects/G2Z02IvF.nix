@@ -46,6 +46,16 @@ let
             "file" = "trustedclients-0.6.0.jar";
             "hash" = "sha512-MEurTm5Z+iLrrfkW+3DTQWE53i5/d3hyrgrUaubVDDdJrz3FSMW72h6koFPlXVZeKe/WK9izQf/GDYH5T8Fciw==";
         };
+        _b1tMOboC = {
+            "id" = "b1tMOboC";
+            "file" = "trustedclients-0.6.1.jar";
+            "hash" = "sha512-b1rRgbPbk2vxqhFth+SsN0NyjGVVwZX2OiHpARuMzsB/3Fb+zB2hEf9v7OyMhdflkkIngRJ7JwBE0v7mJR2ioA==";
+        };
+        _8OK4XiWQ = {
+            "id" = "8OK4XiWQ";
+            "file" = "trustedclients-0.7.0.jar";
+            "hash" = "sha512-eF/iqotAdHXoBgThZCbQVOk+v1pZ51kxXyMh4ZZ7rT8nJRoxULqEDbMbE1dNDNy9MuMBNxe53BTwfDWlwmYAxg==";
+        };
     in {
         "P007kFir" = _P007kFir;
         "DfvjhbqN" = _DfvjhbqN;
@@ -56,6 +66,8 @@ let
         "KujotRnr" = _KujotRnr;
         "BipRizy0" = _BipRizy0;
         "90oYm7Nz" = _90oYm7Nz;
+        "b1tMOboC" = _b1tMOboC;
+        "8OK4XiWQ" = _8OK4XiWQ;
         "forge-1.20.1" = _dYyKLvaf;
         "forge-1.20.2" = _dYyKLvaf;
         "forge-1.20.3" = _dYyKLvaf;
@@ -64,7 +76,8 @@ let
         "forge-1.20.6" = _dYyKLvaf;
         "fabric-1.21.10" = _BipRizy0;
         "fabric-1.21.11" = _BipRizy0;
-        "fabric-26.2" = _90oYm7Nz;
+        "fabric-26.2" = _b1tMOboC;
+        "fabric-26.3" = _8OK4XiWQ;
         "pkg-0.1.0" = _P007kFir;
         "pkg-0.2.0" = _DfvjhbqN;
         "pkg-0.3.0" = _3sFoJR55;
@@ -74,7 +87,9 @@ let
         "pkg-0.4.1" = _KujotRnr;
         "pkg-0.5.0" = _BipRizy0;
         "pkg-0.6.0" = _90oYm7Nz;
-        "default" = _90oYm7Nz;
+        "pkg-0.6.1" = _b1tMOboC;
+        "pkg-0.7.0" = _8OK4XiWQ;
+        "default" = _8OK4XiWQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trustedclients";

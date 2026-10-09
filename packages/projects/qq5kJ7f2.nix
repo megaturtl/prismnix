@@ -111,6 +111,16 @@ let
             "file" = "alloy_smelter-neoforge-1.21.1-1.2.1.jar";
             "hash" = "sha512-hXL7zz+yqM0u3Ii4QD+66DMENRVJUowB5xRPCdbCdAGhaIC+1vIAB3/4fxtwTluEN7piEEZetTDajaPhWtKavA==";
         };
+        _21QAFbs2 = {
+            "id" = "21QAFbs2";
+            "file" = "alloy_smelter-forge-1.20.1-1.2.2.jar";
+            "hash" = "sha512-yrQ6LX4ij9cxWoNRo+4GbK84hIvf1FC3EUNWdNE5E0dJhE82b1FmGPaAcyjGHlLBayJIBnqfKSu+dknM0pgk4w==";
+        };
+        _dXXMtp5Y = {
+            "id" = "dXXMtp5Y";
+            "file" = "alloy_smelter-neoforge-1.21.1-1.2.2.jar";
+            "hash" = "sha512-PUr8VprBXxVwLbxmdgghlC5DykR5xZGtqiefLbjjqFbrSZie+KSfG0Fs3DeDyqV/9AaqKmCEKcaAY2X+kOywRQ==";
+        };
     in {
         "NvTTPRqx" = _NvTTPRqx;
         "6zw0dTB2" = _6zw0dTB2;
@@ -134,14 +144,16 @@ let
         "PaCaqUwq" = _PaCaqUwq;
         "CvPlKIFU" = _CvPlKIFU;
         "K4pYN5lU" = _K4pYN5lU;
-        "forge-1.20.1" = _CvPlKIFU;
+        "21QAFbs2" = _21QAFbs2;
+        "dXXMtp5Y" = _dXXMtp5Y;
+        "forge-1.20.1" = _21QAFbs2;
         "forge-1.20.2" = _dpqmMXNd;
         "forge-1.20.3" = _dpqmMXNd;
         "forge-1.20.4" = _dpqmMXNd;
         "forge-1.20.5" = _dpqmMXNd;
         "forge-1.20.6" = _dpqmMXNd;
         "neoforge-1.21" = _K4pYN5lU;
-        "neoforge-1.21.1" = _K4pYN5lU;
+        "neoforge-1.21.1" = _dXXMtp5Y;
         "neoforge-1.21.4" = _qt0B1xnj;
         "pkg-1.20.1-1.0.6" = _NvTTPRqx;
         "pkg-1.21.1-1.0.9" = _6zw0dTB2;
@@ -165,7 +177,9 @@ let
         "pkg-1.21.1-1.2.0" = _PaCaqUwq;
         "pkg-1.20.1-1.2.1" = _CvPlKIFU;
         "pkg-1.21.1-1.2.1" = _K4pYN5lU;
-        "default" = _K4pYN5lU;
+        "pkg-1.20.1-1.2.2" = _21QAFbs2;
+        "pkg-1.21.1-1.2.2" = _dXXMtp5Y;
+        "default" = _dXXMtp5Y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "alloy-smelter";

@@ -271,6 +271,46 @@ let
             "file" = "dungeons-and-taverns-ancient-city-overhaul-3.4.jar";
             "hash" = "sha512-xqY/j7Hd96PtlXKbDGjtgjjdq9m8FRe5Ved1ZfuHeiwIXPGFi7iyh/TtjUxJLTqrZfTeL3gN40/oN5x/nfsU2w==";
         };
+        _xf0BBE4f = {
+            "id" = "xf0BBE4f";
+            "file" = "DnT Ancient City Overhaul v3.5.zip";
+            "hash" = "sha512-z/6h2fP22k8HPTa4Hgja9tpsASIYoSA/qKsKtqX2Kd1Auk+1ucazpqR2pu0acU+iCTBaIKtNcBYUCqh5emovHg==";
+        };
+        _B9LLZxM0 = {
+            "id" = "B9LLZxM0";
+            "file" = "dungeons-and-taverns-ancient-city-overhaul-3.5.jar";
+            "hash" = "sha512-L3bnYGFHYqsJIRXyeKuTksJtrw2UjAUYnXOvwcI2NHowsXmk2x75IjDdX2SCL0ldtAF5MEdvfGefscYqlYS0Yg==";
+        };
+        _Kd6Bvznj = {
+            "id" = "Kd6Bvznj";
+            "file" = "dungeons-and-taverns-ancient-city-overhaul-3.5.jar";
+            "hash" = "sha512-q3AuQXWN25DBh82UnceNGYJjfGS7SYOXzxj40cerxQWLuluwekY6CaH/uSWe61tqbr/KXBT+TRe92VFPmTtBwQ==";
+        };
+        _tEzVpwrU = {
+            "id" = "tEzVpwrU";
+            "file" = "dungeons-and-taverns-ancient-city-overhaul-3.5.jar";
+            "hash" = "sha512-qF2dKziq2hx00Gho0eXIlzGyZ0tuhDddmXFIXqiuOEcHKNQdDildpFwuPb/ew/AWbTRQwXAsWsVSksNJ1dNPzQ==";
+        };
+        _syRnsesB = {
+            "id" = "syRnsesB";
+            "file" = "DnT Ancient City Overhaul 3.5.1.zip";
+            "hash" = "sha512-OnHXUk37bOtmYfM7rIS79u2VQt8SHB34/DMetfvHe6TXz00xc8Jk17egA/K4BXk+o9GtGG6P8x2BSTH6Rk7PEw==";
+        };
+        _HYt24jpu = {
+            "id" = "HYt24jpu";
+            "file" = "dungeons-and-taverns-ancient-city-overhaul-3.5.1.jar";
+            "hash" = "sha512-azghegX+82BKKkdakG8d0JZTjiHm1L3D35oTcSx6bW9dkbODQsj567TyQZ5zQpGtsvqQ4Jp7Nc1mJi8lDbMbig==";
+        };
+        _DmVSzeiG = {
+            "id" = "DmVSzeiG";
+            "file" = "dungeons-and-taverns-ancient-city-overhaul-3.5.1.jar";
+            "hash" = "sha512-yJ0lelwx6SlhJ/Hcg1HIWDPMsxfbcJZUGghsohlTu7oKI+NdGZR5jCmMIMBdmhg3np19zq5YB7vY3sPe9qPRJw==";
+        };
+        _E2wR6mnh = {
+            "id" = "E2wR6mnh";
+            "file" = "dungeons-and-taverns-ancient-city-overhaul-3.5.1.jar";
+            "hash" = "sha512-yyHElMMkWbXD2oTG5eGtP5mxF0ThSgop92Km4/mMSUBAXkOXu1V67rZMpjrRAyzvl4teDLZbNlpuRW8WZi2eQQ==";
+        };
     in {
         "f5Ud271w" = _f5Ud271w;
         "E9Fv5kp6" = _E9Fv5kp6;
@@ -326,6 +366,14 @@ let
         "LdVOQBQG" = _LdVOQBQG;
         "hxLkZZrZ" = _hxLkZZrZ;
         "rqmj1SPX" = _rqmj1SPX;
+        "xf0BBE4f" = _xf0BBE4f;
+        "B9LLZxM0" = _B9LLZxM0;
+        "Kd6Bvznj" = _Kd6Bvznj;
+        "tEzVpwrU" = _tEzVpwrU;
+        "syRnsesB" = _syRnsesB;
+        "HYt24jpu" = _HYt24jpu;
+        "DmVSzeiG" = _DmVSzeiG;
+        "E2wR6mnh" = _E2wR6mnh;
         "datapack-1.20" = _uJnNm1LG;
         "datapack-1.20.1" = _uJnNm1LG;
         "datapack-1.20.2" = _uJnNm1LG;
@@ -349,6 +397,7 @@ let
         "datapack-26.1.1" = _1AQICtEv;
         "datapack-26.1.2" = _1AQICtEv;
         "datapack-26.2" = _CaqYtto5;
+        "datapack-26.3" = _syRnsesB;
         "forge-1.20" = _E9Fv5kp6;
         "forge-1.20.1" = _E9Fv5kp6;
         "forge-1.20.2" = _E9Fv5kp6;
@@ -371,6 +420,7 @@ let
         "forge-26.1.1" = _fTB3igX5;
         "forge-26.1.2" = _fTB3igX5;
         "forge-26.2" = _hxLkZZrZ;
+        "forge-26.3" = _DmVSzeiG;
         "fabric-1.20" = _C8aSNQk1;
         "fabric-1.20.1" = _C8aSNQk1;
         "fabric-1.20.2" = _C8aSNQk1;
@@ -393,6 +443,7 @@ let
         "fabric-26.1.1" = _qlqjG40V;
         "fabric-26.1.2" = _qlqjG40V;
         "fabric-26.2" = _LdVOQBQG;
+        "fabric-26.3" = _HYt24jpu;
         "neoforge-1.21" = _sI52k2jg;
         "neoforge-1.21.1" = _sI52k2jg;
         "neoforge-1.21.2" = _7K9BSuMV;
@@ -409,6 +460,7 @@ let
         "neoforge-26.1.1" = _Ouzht90u;
         "neoforge-26.1.2" = _Ouzht90u;
         "neoforge-26.2" = _rqmj1SPX;
+        "neoforge-26.3" = _E2wR6mnh;
         "pkg-1" = _f5Ud271w;
         "pkg-1+mod" = _C8aSNQk1;
         "pkg-v1.1" = _uJnNm1LG;
@@ -438,7 +490,11 @@ let
         "pkg-3.3+mod" = _Ouzht90u;
         "pkg-3.4" = _CaqYtto5;
         "pkg-3.4+mod" = _rqmj1SPX;
-        "default" = _rqmj1SPX;
+        "pkg-3.5" = _xf0BBE4f;
+        "pkg-3.5+mod" = _tEzVpwrU;
+        "pkg-3.5.1" = _syRnsesB;
+        "pkg-3.5.1+mod" = _E2wR6mnh;
+        "default" = _E2wR6mnh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dungeons-and-taverns-ancient-city-overhaul";

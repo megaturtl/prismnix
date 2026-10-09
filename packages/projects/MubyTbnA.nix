@@ -176,6 +176,16 @@ let
             "file" = "FreedomChat-Paper-1.7.9.jar";
             "hash" = "sha512-lMl2KOSxN2LZugKfoRMDANzNY9MfFbXynpb8BYar1zkjFf7Y9Rx3K6fhT8RzijHXu9PIwQbZkp03gzT/5lyW0g==";
         };
+        _EK8liTKu = {
+            "id" = "EK8liTKu";
+            "file" = "FreedomChat-Fabric-1.7.10.jar";
+            "hash" = "sha512-QjvOomhNKLDkrp6D+fegy59zGjZ+/dbq0UqZbGVx06+p/iPWx/n0eISXkMLo+LziWsBqCReNVAPjhOd1ataTaQ==";
+        };
+        _EizopLcV = {
+            "id" = "EizopLcV";
+            "file" = "FreedomChat-Paper-1.7.10.jar";
+            "hash" = "sha512-VTKAj6TgipFWgy1URiQ1t/8FjQFZoU8XG78YmbFv+zXHTpjKnnyn/sQ9TntG+awYozhlM7jQsWy8FvsEipxH5A==";
+        };
     in {
         "RDmHucSV" = _RDmHucSV;
         "JABDSiKs" = _JABDSiKs;
@@ -212,6 +222,8 @@ let
         "Z5DpEe3q" = _Z5DpEe3q;
         "QcN3Oyi6" = _QcN3Oyi6;
         "Pqu2VLTB" = _Pqu2VLTB;
+        "EK8liTKu" = _EK8liTKu;
+        "EizopLcV" = _EizopLcV;
         "bukkit-1.19.1" = _mmbAVHjw;
         "bukkit-1.19.2" = _mmbAVHjw;
         "bukkit-1.19.3" = _vJDS5g3Y;
@@ -238,6 +250,7 @@ let
         "paper-26.1.1" = _Z5DpEe3q;
         "paper-26.1.2" = _Z5DpEe3q;
         "paper-26.2" = _Pqu2VLTB;
+        "paper-26.3" = _EizopLcV;
         "spigot-1.19.1" = _mmbAVHjw;
         "spigot-1.19.2" = _mmbAVHjw;
         "spigot-1.19.3" = _vJDS5g3Y;
@@ -261,6 +274,7 @@ let
         "folia-26.1.1" = _Z5DpEe3q;
         "folia-26.1.2" = _Z5DpEe3q;
         "folia-26.2" = _Pqu2VLTB;
+        "folia-26.3" = _EizopLcV;
         "fabric-1.20.6" = _CNwh4el8;
         "fabric-1.21" = _o6KnfyQg;
         "fabric-1.21.3" = _GzTwUtAN;
@@ -276,6 +290,7 @@ let
         "fabric-26.1.1" = _YWnnUxCi;
         "fabric-26.1.2" = _YWnnUxCi;
         "fabric-26.2" = _QcN3Oyi6;
+        "fabric-26.3" = _EK8liTKu;
         "pkg-1.1.0" = _RDmHucSV;
         "pkg-1.2.0" = _JABDSiKs;
         "pkg-1.2.1" = _mmbAVHjw;
@@ -299,7 +314,8 @@ let
         "pkg-1.7.7" = _NsY1L3hZ;
         "pkg-1.7.8" = _Z5DpEe3q;
         "pkg-1.7.9" = _Pqu2VLTB;
-        "default" = _Pqu2VLTB;
+        "pkg-1.7.10" = _EizopLcV;
+        "default" = _EizopLcV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "freedomchat";

@@ -76,6 +76,26 @@ let
             "file" = "soundboardplus-26.2-1.0.3.jar";
             "hash" = "sha512-AK5pJCNx/iKn1TJ3RQ400ZtuURIzkS4I3FYo3z72uKbp0QQ6UFJ4oUiAeecflgSSz8xo2QIqDw214TtNoAshjA==";
         };
+        _p1gr8ttJ = {
+            "id" = "p1gr8ttJ";
+            "file" = "soundboardplus-26.3-1.0.4.jar";
+            "hash" = "sha512-JDoOY1eLfl/3fLLCUTYVSjs8tKzCwriwFN7xvugaLNWUdSLQAlhXSeKQyrAKKLfD6aSQA181Z4Huert0ERMHHg==";
+        };
+        _dbXwRb0f = {
+            "id" = "dbXwRb0f";
+            "file" = "soundboardplus-26.2-1.0.4.jar";
+            "hash" = "sha512-7dzMeTUpad0dfsrxLfocjhu53zXZ/Lja3DXTFNrte3nBTBi22tXpF27ne3clXIlJ7uYkp9/lLMqQFP4UPxFsdg==";
+        };
+        _wTViAElp = {
+            "id" = "wTViAElp";
+            "file" = "soundboardplus-26.1.x-1.0.4.jar";
+            "hash" = "sha512-HKfUKTLHG5O1rNyZt/2omQujAryNi8CL4tsuoGFNvQnp5A7fUSRVa8at1Mk5n1fXiCDjn8MU5ogJkC7oLqlx6Q==";
+        };
+        _D6r5Qjks = {
+            "id" = "D6r5Qjks";
+            "file" = "soundboardplus-1.21.11-1.0.4.jar";
+            "hash" = "sha512-OxUr9zrfKy4fcb3nC6xeH8QnXpP9FJydCn0cxwGlH0fJm9Dp6F3qS6LxQ6QU7600kboEJ1c5D+xqv8Lf5HgSDg==";
+        };
     in {
         "YD6gnP3x" = _YD6gnP3x;
         "aU2bUInb" = _aU2bUInb;
@@ -92,11 +112,16 @@ let
         "6bl35J5B" = _6bl35J5B;
         "hvvOnXj4" = _hvvOnXj4;
         "VAt1EfAb" = _VAt1EfAb;
-        "fabric-1.21.11" = _d0luGmHL;
-        "fabric-26.1" = _OzWK3wQK;
-        "fabric-26.1.1" = _6bl35J5B;
-        "fabric-26.1.2" = _hvvOnXj4;
-        "fabric-26.2" = _VAt1EfAb;
+        "p1gr8ttJ" = _p1gr8ttJ;
+        "dbXwRb0f" = _dbXwRb0f;
+        "wTViAElp" = _wTViAElp;
+        "D6r5Qjks" = _D6r5Qjks;
+        "fabric-1.21.11" = _D6r5Qjks;
+        "fabric-26.1" = _wTViAElp;
+        "fabric-26.1.1" = _wTViAElp;
+        "fabric-26.1.2" = _wTViAElp;
+        "fabric-26.2" = _dbXwRb0f;
+        "fabric-26.3" = _p1gr8ttJ;
         "pkg-1.0-1.21.11" = _YD6gnP3x;
         "pkg-26.1-1.0.1" = _aU2bUInb;
         "pkg-26.1.1-1.0.1" = _cDkgSa7h;
@@ -112,7 +137,11 @@ let
         "pkg-26.1.1-1.0.3" = _6bl35J5B;
         "pkg-26.1.2-1.0.3" = _hvvOnXj4;
         "pkg-26.2-1.0.3" = _VAt1EfAb;
-        "default" = _VAt1EfAb;
+        "pkg-26.3-1.0.4" = _p1gr8ttJ;
+        "pkg-26.2-1.0.4" = _dbXwRb0f;
+        "pkg-26.1.x-1.0.4" = _wTViAElp;
+        "pkg-1.21.11-1.0.4" = _D6r5Qjks;
+        "default" = _D6r5Qjks;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "soundboardplus";

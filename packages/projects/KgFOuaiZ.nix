@@ -131,6 +131,51 @@ let
             "file" = "DustyDecorations_1.21.1Neoforge_V1.13.jar";
             "hash" = "sha512-pCSwC1rJsmIsYxDmWrdOmeg2B4hZGUIJX81sDnVP1lK11F6wJZndsCSdghpqYbeqJu33H3vSjCRGKqzkI7pcJQ==";
         };
+        _e5EvCfhI = {
+            "id" = "e5EvCfhI";
+            "file" = "dustydecorations-neoforge+1.21.1-2.0.0.jar";
+            "hash" = "sha512-5eG9E+ta61MdLnFtZdDWawh1tPf8xLVoiQhDoEgsYxzLYzYBLBNTAMbBKdb7MGCVazMRzwZkXwChfqess9O4Ew==";
+        };
+        _4ZftoIkv = {
+            "id" = "4ZftoIkv";
+            "file" = "dustydecorations-fabric+1.21.1-2.0.0.jar";
+            "hash" = "sha512-w6elzK63jsa96kvbjYCJM2e/RI9Cc5qb+TkZusCQmlwfRqZO+lqdVJBnjqkBXrA/+/VS1r3YEbyLtXvMBQf5jQ==";
+        };
+        _ISmJfv7H = {
+            "id" = "ISmJfv7H";
+            "file" = "dustydecorations-neoforge+1.21.1-2.0.1.jar";
+            "hash" = "sha512-XUKf/2k0snPiRW5ICQYBO+fcgEq0Nysvm/s7SIW5KjQZPt5lkjLNE2xvHW+A9P85tWMpt/GeZxcj2I/NLz6EiQ==";
+        };
+        _J70GaCbQ = {
+            "id" = "J70GaCbQ";
+            "file" = "dustydecorations-fabric+1.21.1-2.0.1.jar";
+            "hash" = "sha512-yJD/JM/Nr6VFIFxamK47JwMf55ErZXTWNePPrSz9xhl4K+HHChbiF8uU50Kyamhlu3qSXCTz9uUuK46bZmpqXQ==";
+        };
+        _KE4fsstc = {
+            "id" = "KE4fsstc";
+            "file" = "dustydecorations-fabric+1.21.1-2.1.0.jar";
+            "hash" = "sha512-E/9sXrxngEPSVTH6vegKR5c3UO0VyYO+O7MwtS3quwc4ytKniM+im7aiUghZTemMGyD0Gidyqgfbj4NdhyNwNQ==";
+        };
+        _oFYI76QH = {
+            "id" = "oFYI76QH";
+            "file" = "dustydecorations-neoforge+1.21.1-2.1.0.jar";
+            "hash" = "sha512-Ow5UKPCcaNB5Upn9K3vEfwxRaidc02E9R2QS9ZW4+CuBUd0llPKa07XiJfjz9hmAb7jqeBtyBW9U0riQBoUvhg==";
+        };
+        _zvNw0Rdv = {
+            "id" = "zvNw0Rdv";
+            "file" = "dustydecorations-fabric+1.21.1-2.1.1.jar";
+            "hash" = "sha512-YK0KkE97xDles0gvvU9GNSMflq6Z8UuNyA71OkAuKeUgZTHFhLJt44bWqhcTyoTFgdM1o1KKadlWh3QtGEvztQ==";
+        };
+        _apvDqPgE = {
+            "id" = "apvDqPgE";
+            "file" = "dustydecorations-fabric+1.21.1-2.2.0.jar";
+            "hash" = "sha512-CtW2V/WGm4TVwCqolDlgzeYsSDBd3B3Ir7TkNkLGuHekF7GN41doifzgP3R/s/h+LMeNuILgc3cHuWpZDwQjzA==";
+        };
+        _RNe51mjH = {
+            "id" = "RNe51mjH";
+            "file" = "dustydecorations-neoforge+1.21.1-2.2.0.jar";
+            "hash" = "sha512-VLcZ8Qwup0QQpoLoK6TOU8SpC3Mqi2cEPP/YrQstEALlTqiCKsPkw/5b80XIk8jRxm3ONtLsQfgH4IXfCpRTpA==";
+        };
     in {
         "exFm8dmN" = _exFm8dmN;
         "wZmmEm7k" = _wZmmEm7k;
@@ -158,6 +203,15 @@ let
         "sEG2m8ZC" = _sEG2m8ZC;
         "s8JOGf4d" = _s8JOGf4d;
         "vAhGaZOr" = _vAhGaZOr;
+        "e5EvCfhI" = _e5EvCfhI;
+        "4ZftoIkv" = _4ZftoIkv;
+        "ISmJfv7H" = _ISmJfv7H;
+        "J70GaCbQ" = _J70GaCbQ;
+        "KE4fsstc" = _KE4fsstc;
+        "oFYI76QH" = _oFYI76QH;
+        "zvNw0Rdv" = _zvNw0Rdv;
+        "apvDqPgE" = _apvDqPgE;
+        "RNe51mjH" = _RNe51mjH;
         "forge-1.19.2" = _nCQHL8yg;
         "forge-1.19.3" = _wZmmEm7k;
         "forge-1.20.1" = _s8JOGf4d;
@@ -165,14 +219,15 @@ let
         "fabric-1.20.2" = _5YYQCnC1;
         "fabric-1.20.3" = _DHsgxScD;
         "fabric-1.20.4" = _DHsgxScD;
-        "fabric-1.21" = _20jbTKAO;
-        "fabric-1.21.1" = _20jbTKAO;
+        "fabric-1.21" = _apvDqPgE;
+        "fabric-1.21.1" = _apvDqPgE;
         "fabric-1.21.2" = _GpGeJRXL;
         "fabric-1.21.3" = _GpGeJRXL;
-        "neoforge-1.21.1" = _vAhGaZOr;
+        "neoforge-1.21.1" = _RNe51mjH;
         "neoforge-1.21.2" = _lWiUvTXF;
         "neoforge-1.21.3" = _lWiUvTXF;
         "neoforge-1.21.4" = _lWiUvTXF;
+        "neoforge-1.21" = _RNe51mjH;
         "pkg-1.19.2-1.0.0" = _exFm8dmN;
         "pkg-1.19.3-1.0.0" = _wZmmEm7k;
         "pkg-1.19.2-1.1.0" = _nCQHL8yg;
@@ -187,7 +242,12 @@ let
         "pkg-1.11" = _RWcIYZNx;
         "pkg-1.12" = _sEG2m8ZC;
         "pkg-1.13" = _vAhGaZOr;
-        "default" = _vAhGaZOr;
+        "pkg-2.0.0" = _4ZftoIkv;
+        "pkg-2.0.1" = _J70GaCbQ;
+        "pkg-2.1.0" = _oFYI76QH;
+        "pkg-2.1.1" = _zvNw0Rdv;
+        "pkg-2.2.0" = _RNe51mjH;
+        "default" = _RNe51mjH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dusty-decorations";

@@ -1126,6 +1126,336 @@ let
             "file" = "vanilla-outsider-better-dogs-5.0.11+26.3.jar";
             "hash" = "sha512-8XhUrJs+DZxpJ+rIZxwTGjRvuygG7rAqQHUpktyt8c4jAiiXvojlweAuRKbGDmkghQSt1YJHrSnYQ+Z/LzIg1A==";
         };
+        _EUVEe632 = {
+            "id" = "EUVEe632";
+            "file" = "better-dogs-1.0.37+1.20.1.jar";
+            "hash" = "sha512-mxEVxKR0Qr1WZBeF5pAjH/YrFDvEM0W/rABA+Vja/lgySuiNjDCk4jLj76AQ8RMoiawNLpEce7VTlGJttg1PRw==";
+        };
+        _VCIJ13cq = {
+            "id" = "VCIJ13cq";
+            "file" = "better-dogs-1.0.35+1.21.1.jar";
+            "hash" = "sha512-4QCIZnjBY253MbS7X122s66jL9bU8tf3DtE63u9PjCjTbc5era1QxoXoVua4sm5pk7YCpS7LEqziAQ0SZWH/8A==";
+        };
+        _cdkNtsBb = {
+            "id" = "cdkNtsBb";
+            "file" = "better-dogs-1.0.37+1.21.11.jar";
+            "hash" = "sha512-hSDQE4VibOQCIEjMq3vPpJdfdFP0nghcDOgseEWLvbAjagmFVIrspt8/TMwMzDNWJ1+h5DdPk5JEPVHsJfxm+A==";
+        };
+        _WKSunym3 = {
+            "id" = "WKSunym3";
+            "file" = "vanilla-outsider-better-dogs-4.24.3+26.2.jar";
+            "hash" = "sha512-L9yaZuGQjJcHQRD5VbX8W+XFvQR0N52KAp141zyWe3xJys8Oc0c1Yh0G6XP64oQh1h5BkCUAJRnqx/gZubUTPQ==";
+        };
+        _nqANuJkV = {
+            "id" = "nqANuJkV";
+            "file" = "vanilla-outsider-better-dogs-5.0.12+26.3.jar";
+            "hash" = "sha512-VrzrWTO6kNZ6TL5t2HkErRoKrQfm+uVKh0hTY8kRMy5OlRcVXO99TtOvzkQczALNghapRwBhVSBLa00V7ai05g==";
+        };
+        _KWWXj24M = {
+            "id" = "KWWXj24M";
+            "file" = "better-dogs-1.0.38+1.20.1.jar";
+            "hash" = "sha512-gvCaSpAz38ePSxfhW1ZbzDiBxHQGNARWDQ/kkmpn6RlWC4JumRymqG5tV+obGaDx9ulWEm6COdFPECHxtkXr1w==";
+        };
+        _J2thWF5v = {
+            "id" = "J2thWF5v";
+            "file" = "better-dogs-1.0.36+1.21.1.jar";
+            "hash" = "sha512-QuqQzIDc/7QDln2uaTwEDFbY/YIALf7WVtWNktjW/EHYWueuhh8EZXTXDMg/07DL4bs9gViBeaUZS3jmzVvx7w==";
+        };
+        _vTPt1YCE = {
+            "id" = "vTPt1YCE";
+            "file" = "better-dogs-1.0.38+1.21.11.jar";
+            "hash" = "sha512-IV1zd5i51Y29ON+JCEkRfTW3UxLTkCkgTF4+SLCuuC3pXdASF5t+FHDe1HaSaY/ESkR2arrdYldKRced7aI4iA==";
+        };
+        _cmtrRKqc = {
+            "id" = "cmtrRKqc";
+            "file" = "vanilla-outsider-better-dogs-4.24.4+26.2.jar";
+            "hash" = "sha512-ahgnSZeD/Em/NHGFe/2Xd+c7BW6iYBLgDq3F9oU5Uys+XzPO5oyJckCKOTt73wfW0EBoHL0g/3f0ilCE3tcsdg==";
+        };
+        _pOsyfCdx = {
+            "id" = "pOsyfCdx";
+            "file" = "vanilla-outsider-better-dogs-5.0.13+26.3.jar";
+            "hash" = "sha512-4W/ztCK/5sAFSbjGjaNkj3zcjp/eDSq3yp5HQhEA0zrA4Q3IkdlWFGF0MMf9zs6HyTfl5Da0I1q4cQMv+XTL6g==";
+        };
+        _GRhguDs3 = {
+            "id" = "GRhguDs3";
+            "file" = "better-dogs-1.0.39+1.20.1.jar";
+            "hash" = "sha512-1lLAK1h15wcNwDudsw8efI02a2IJXKrm9yg9gKXuSvVikIW4BwhJBZgNj8uU7NTv3OCTp45laPYE1Ebit1fwyw==";
+        };
+        _QtAbzxBo = {
+            "id" = "QtAbzxBo";
+            "file" = "better-dogs-1.0.37+1.21.1.jar";
+            "hash" = "sha512-1QIE5fgjH8FzHxJOS11YVXVKjVlW/ff7dsuQw0EyVsPASBkKnxNedDqZm7WYSPuIO0LDOTb1QP7AvtZkdzDVRA==";
+        };
+        _3ji1upwG = {
+            "id" = "3ji1upwG";
+            "file" = "better-dogs-1.0.39+1.21.11.jar";
+            "hash" = "sha512-wfToWTVXgRI6DI5D8yRk/TF0Oqf15i+Q7Jk5VFUOccwqUTeSCQ+RepW/7+oPhbxVr0z+e9yAxdt3NljDTz0N0g==";
+        };
+        _lEIOrfgg = {
+            "id" = "lEIOrfgg";
+            "file" = "vanilla-outsider-better-dogs-4.24.5+26.2.jar";
+            "hash" = "sha512-ZAiL+pxrRpK1AZX1GvX8xTJ5K9FNOkZwB/jVST+aWl/ajOxQUdmSW+Xt8W+CJ+QYmxnpgayd5B/czoa1HoQBng==";
+        };
+        _eCLuEkws = {
+            "id" = "eCLuEkws";
+            "file" = "vanilla-outsider-better-dogs-5.0.14+26.3.jar";
+            "hash" = "sha512-d07xsg8JAx8MvkJSxP9ZxlC8BAcPxHFrpovG2VIfLBoI/f7BDLvqEzyTpjDdHL5X9cthG5rQcw4blWOzQ7wGeg==";
+        };
+        _h0JiTU5m = {
+            "id" = "h0JiTU5m";
+            "file" = "better-dogs-1.0.40+1.20.1.jar";
+            "hash" = "sha512-ww6y3wb3Kzn5KeHn3lDKU5emy3myhXdJxaxH8s0w1N+VTLIXHdbCIlKNV5MfrNOu3mFBeJ5zm2+FeLce8knOHQ==";
+        };
+        _exYCxWd0 = {
+            "id" = "exYCxWd0";
+            "file" = "better-dogs-1.0.38+1.21.1.jar";
+            "hash" = "sha512-EvfIGgop30t4mhCbugN7FgMXD5iWAbJCDU75SuT+Yp7fIRuVDq4gUFvo9/agzssptrIGDFFa4YaWWkVR1DLpZA==";
+        };
+        _QsvNPkbp = {
+            "id" = "QsvNPkbp";
+            "file" = "better-dogs-1.0.40+1.21.11.jar";
+            "hash" = "sha512-/HLN/BaAlPVTFwGZv4FwrQ2PgVIwkS1jq5NnUXbGo81BKEb9iaPE/Elx7+NiFMqc5fIx+nblM/A8GlFGyTQW9g==";
+        };
+        _8NS4DcbD = {
+            "id" = "8NS4DcbD";
+            "file" = "vanilla-outsider-better-dogs-4.24.6+26.2.jar";
+            "hash" = "sha512-5KgJDR8HglbxxVBnUV8sTL8NAbGA8IjvtNs5Z920j2vpuVEc0xpbRUp3BczbsLXsC+EkoY1mTIhbWOJubCZ4Ug==";
+        };
+        _6txsMJP3 = {
+            "id" = "6txsMJP3";
+            "file" = "vanilla-outsider-better-dogs-5.0.15+26.3.jar";
+            "hash" = "sha512-41IRY/3dtawb7TaQQ7WHexZEFhslHBBrt18u8uV3QigRmuwDWp/PnLbuv4gMeD4xhpNY+LAkRbgeuYq6HVPCdg==";
+        };
+        _uKUhR5UB = {
+            "id" = "uKUhR5UB";
+            "file" = "better-dogs-1.0.41+1.20.1.jar";
+            "hash" = "sha512-H9yWjbXzaZIFHK2Qm37Nskq0louKat3ukWgAdnm+xsxhbnsoXColh9bO8iEWted56Z04Xsh37EB4YbKNvJHuAA==";
+        };
+        _Do0yn3Ta = {
+            "id" = "Do0yn3Ta";
+            "file" = "better-dogs-1.0.39+1.21.1.jar";
+            "hash" = "sha512-VhxdT+bvKloEs/I1PWVa4YAR/pFojTmaaVAW5ek42eKf9cHMHHQBBWd7q4y6icw1sYNFf3k23yfYRt09HAZgOQ==";
+        };
+        _TlMP7Mb1 = {
+            "id" = "TlMP7Mb1";
+            "file" = "better-dogs-1.0.41+1.21.11.jar";
+            "hash" = "sha512-bL2g4jeK8rR+iYeAC1i2KXyAjf1TNccwPMOYlpPq/Fj4X9O1lcDk2FwPmkglT2rD1feQ2wHqz9UM8ScuO8NDqA==";
+        };
+        _gDd87GEE = {
+            "id" = "gDd87GEE";
+            "file" = "vanilla-outsider-better-dogs-4.24.7+26.2.jar";
+            "hash" = "sha512-JVY/gbd0WBcFKKLh1JkODRn+W8BYm2aB9rknitgXgtsaWkWC/+PgUqmBv/U/QAsR/2YQHmch5lSBOLUAdT9BoA==";
+        };
+        _kT91nIhm = {
+            "id" = "kT91nIhm";
+            "file" = "vanilla-outsider-better-dogs-5.0.16+26.3.jar";
+            "hash" = "sha512-cW1ixSGT3SFZzBXNh4p/cmI8MMQvT+O8UcfugHNm8zUC4iYqJlxg0AfQT2u32gYURMOu9Ar1y8ZqmqR10Twdhw==";
+        };
+        _RNeN8SEA = {
+            "id" = "RNeN8SEA";
+            "file" = "better-dogs-1.0.42+1.20.1.jar";
+            "hash" = "sha512-Ddwp/J0mYWpvA2TqYLEl83RReI7ecVUAvW9Xj5jYCcgJLPfn7DwZdwJYq6KtPIHleNk5EEjnJy71kNABJYKtXw==";
+        };
+        _BxXezvGc = {
+            "id" = "BxXezvGc";
+            "file" = "better-dogs-1.0.40+1.21.1.jar";
+            "hash" = "sha512-eqny5bps9RfxaPqqZMW4hHXtUPvM/usHwO+pdwhX54d0OLJ8ySRYWiKU5ylDr9OMtHt81zmWdhIS6wi4FPj9BQ==";
+        };
+        _NPqDvGiO = {
+            "id" = "NPqDvGiO";
+            "file" = "better-dogs-1.0.42+1.21.11.jar";
+            "hash" = "sha512-QCkG/v3jeMmy+yNTYaJ/00ERZbVUkFvu0T8RS5FSZB+8fjYK3Zp/poxXEs3kvyH8Jlf+wTFoycXBePCK5C4EMA==";
+        };
+        _kah0mCuu = {
+            "id" = "kah0mCuu";
+            "file" = "vanilla-outsider-better-dogs-4.24.8+26.2.jar";
+            "hash" = "sha512-OEcdZVWLuC2freAurCUrxbjC+mMCCHQenESSxkh6H6Wfeo/g1HgxdpQb09yv2Fs9pFwP7FzD5hJWQBURV4O5Kw==";
+        };
+        _2w5AIc1T = {
+            "id" = "2w5AIc1T";
+            "file" = "vanilla-outsider-better-dogs-5.0.17+26.3.jar";
+            "hash" = "sha512-04zvtsn4L3rlZ1pOkzuNKg9Ca2uOKeGqXqMguTOCVbIM6kaj2Hvbr9OkqhYuL6eNmnL+jhxYmE9i7UDM9XCZzg==";
+        };
+        _zzS0Xunh = {
+            "id" = "zzS0Xunh";
+            "file" = "better-dogs-1.0.43+1.20.1.jar";
+            "hash" = "sha512-1R/GP1uhwop2nRzet4spmeskMxQzoBTtomTgt8hgqBtMmlBSNDmnOvFIXvfuv8/oEv9SrizPorHB2RJHZ7Gu2A==";
+        };
+        _qkQ0fFJa = {
+            "id" = "qkQ0fFJa";
+            "file" = "better-dogs-1.0.41+1.21.1.jar";
+            "hash" = "sha512-1Zjk9P+wa8Hton0SRQzNSrPKFS1A0GVjdZGlAzhEWV/Wcrzd8SAQfKt0cAgbyAIQaALy8OaL/6qGaYbUxh8SlA==";
+        };
+        _UwYOw4MA = {
+            "id" = "UwYOw4MA";
+            "file" = "better-dogs-1.0.43+1.21.11.jar";
+            "hash" = "sha512-OB4GB+vMVEnChX2+BkmcewtQydGf2WpIpep0LrLXZoW+8a1eA86Av9btz1WaGqswIrOh7W9jd5ev/OHqUQW4GQ==";
+        };
+        _covYS193 = {
+            "id" = "covYS193";
+            "file" = "vanilla-outsider-better-dogs-4.24.36+26.2.jar";
+            "hash" = "sha512-AQDxptmUQGog/wGjcV4xYaWUssF6s9OhmBlwlqCuSzTb7mjoYGq04etaRsAxhx8RTIec8B6M68SmUabUiQ3q8A==";
+        };
+        _1Wj0wQ9j = {
+            "id" = "1Wj0wQ9j";
+            "file" = "vanilla-outsider-better-dogs-5.0.18+26.3.jar";
+            "hash" = "sha512-AEZruOLK38NRKZYYl0+2g+PPUcfTPI92eemttj2p5z7GHC3RyN2m4I8hQGJuqF+n12hhDp/OFlROKd/pzWPVuQ==";
+        };
+        _2umGa8Ab = {
+            "id" = "2umGa8Ab";
+            "file" = "better-dogs-1.0.44+1.20.1.jar";
+            "hash" = "sha512-BPoRKzFZ23AvmAdz4HaLJluOxZ4AYsKPfnE6wswEKhlmB/XRyXJegZHrWbr6p+GmocxUOiQF4HQN8M8xideIHw==";
+        };
+        _WxUVdYEJ = {
+            "id" = "WxUVdYEJ";
+            "file" = "better-dogs-1.0.42+1.21.1.jar";
+            "hash" = "sha512-Dz+euxw3+MJU65yn73egh37z5ELHlrTGA2e3Ug9a3dvcXvFwtTT9jxqrP+y2lLeOOn14fYj/fdZX5ZIJ+Q7KqQ==";
+        };
+        _NyLefaZb = {
+            "id" = "NyLefaZb";
+            "file" = "better-dogs-1.0.44+1.21.11.jar";
+            "hash" = "sha512-jcE9bk08jiCDuT4hwwG5MQZOy/hTGGFJT7QGhpiF4fHxDUn2W7/s3AV2GimT8MKZdBdc6Vz+LxnWMO2V+PjdhQ==";
+        };
+        _f925r1Xr = {
+            "id" = "f925r1Xr";
+            "file" = "vanilla-outsider-better-dogs-4.24.37+26.2.jar";
+            "hash" = "sha512-PyRLENnc0O2mWQhOMrkE7Dus0+3jN6peNlS2hHv+4IAkm3iEJB8yZ5Ypvg5eofoTcz/ZaTpSCFdk22x094X6hQ==";
+        };
+        _FQmJVjL2 = {
+            "id" = "FQmJVjL2";
+            "file" = "vanilla-outsider-better-dogs-5.0.19+26.3.jar";
+            "hash" = "sha512-Zq1m7uSZp+LUe1npT8B6NwccVP6oiZ307JVKcKHVml3hHv1M6ik5LeTcPzypofwxljjrnXCf3nWMblTrf0ervg==";
+        };
+        _fQMrULhe = {
+            "id" = "fQMrULhe";
+            "file" = "better-dogs-1.0.45+1.20.1.jar";
+            "hash" = "sha512-xbtvAGwW72nphFRQEsv33abxglZCHMJQkIK5d4KoVRsmnQrVJwxeSS7R3Xmuut/d6AZ0vh0gst1eh//mzFT5HA==";
+        };
+        _EgRy0O7e = {
+            "id" = "EgRy0O7e";
+            "file" = "better-dogs-1.0.43+1.21.1.jar";
+            "hash" = "sha512-cy5XMgjG6piG/QUoUi/MOL8Z6G1Y9B4JMZSXG6XEbsSgv25AilgP1Uz4svKT1zFmBopjVoCZC9D9NZvFHyQ4Iw==";
+        };
+        _jSSU9UN6 = {
+            "id" = "jSSU9UN6";
+            "file" = "better-dogs-1.0.45+1.21.11.jar";
+            "hash" = "sha512-0Ki4QRI6vJ7qSlVnORzEeb2HGS2DrZxPSjB3rQu+8Ng26ZnTT3Rp7zA9BVp391l3oBSyN4/tM/W+bn3Sd2kgBg==";
+        };
+        _jw9dirqS = {
+            "id" = "jw9dirqS";
+            "file" = "vanilla-outsider-better-dogs-4.24.53+26.2.jar";
+            "hash" = "sha512-ES8VY2Q/a95odn5YAekfAOB7PPFtqU0/+aDNkhDH0FlgIwngtkJHHNuEwWehDowW/UYFSLflCrby6EwBo+/fSg==";
+        };
+        _1x6Mcyez = {
+            "id" = "1x6Mcyez";
+            "file" = "vanilla-outsider-better-dogs-5.0.20+26.3.jar";
+            "hash" = "sha512-R3Dq2JmCo7KArXNVSHU/ggDV6wyLfi9/Znump0X23t5WLtmHGYKmzbpBoLFtfv/H6UNU76r/hgHnljWPhGuIfQ==";
+        };
+        _KtYfZ22h = {
+            "id" = "KtYfZ22h";
+            "file" = "better-dogs-1.0.46+1.20.1.jar";
+            "hash" = "sha512-1tGlRH7d8ILM69AmX4FhPmOngqy3AS9N1DX9yd10ga0b3pfEYIl/iFRVe1SjebIPcmywZHpJ9RMEXMCSIDRGLA==";
+        };
+        _SnLDgLDx = {
+            "id" = "SnLDgLDx";
+            "file" = "better-dogs-1.0.44+1.21.1.jar";
+            "hash" = "sha512-so1+nWVaN/7KdCShCn3YwVaBEzpT1gXwQ1dz337VNLGtzON5pnpcFo9OIZwMZxDjaKxyiBQf9zhpQHu2evdLCg==";
+        };
+        _TIAfZAjA = {
+            "id" = "TIAfZAjA";
+            "file" = "better-dogs-1.0.46+1.21.11.jar";
+            "hash" = "sha512-Bjr5PDhiS8awaRYKpznXtxsDwAFgumhA7ASYigfI+JyElZkiFVaxZdDetEDxccuFCMFMwln0NwnCa5G+6BT51Q==";
+        };
+        _kwwAn5ZK = {
+            "id" = "kwwAn5ZK";
+            "file" = "vanilla-outsider-better-dogs-5.0.21+26.3.jar";
+            "hash" = "sha512-AGo3yH4oQkilPquWJP7uGFrLdCpTOKKsZhS9KyO+iMItrX3Ds+AOxPQSqmcQoBbFCpCxQBV5bnzYEEDiThf7rA==";
+        };
+        _i5xAEcvk = {
+            "id" = "i5xAEcvk";
+            "file" = "vanilla-outsider-better-dogs-5.0.21+26.3.jar";
+            "hash" = "sha512-AGo3yH4oQkilPquWJP7uGFrLdCpTOKKsZhS9KyO+iMItrX3Ds+AOxPQSqmcQoBbFCpCxQBV5bnzYEEDiThf7rA==";
+        };
+        _M1oG4z85 = {
+            "id" = "M1oG4z85";
+            "file" = "better-dogs-1.0.47+1.20.1.jar";
+            "hash" = "sha512-MYSyySaUunD12cFMbAPlrgVwapCTpqe37k7TF85jsbFOORRqaKRd9OzDId/t1Uywlk/VlRA8t6bD6NDBh78l2w==";
+        };
+        _oxVK2ppC = {
+            "id" = "oxVK2ppC";
+            "file" = "better-dogs-1.0.45+1.21.1.jar";
+            "hash" = "sha512-gpU0k+dlKg84uT7N9RbTCu6JMHOoQbe8sYRQA7ArgM36IXxg741soPLyA+1VZqJGE/ZNBVMu42GHivX6Ga5I4Q==";
+        };
+        _dUyJ01bc = {
+            "id" = "dUyJ01bc";
+            "file" = "better-dogs-1.0.47+1.21.11.jar";
+            "hash" = "sha512-+wkr6j7vzeM4pnzSltXddSP0w2VgdSUelBrlx8JfaEZiHWDr6m8oIk0ywgQJqxpidM+60jtE7CKqZOoX3Fdp3g==";
+        };
+        _aYlXBnp8 = {
+            "id" = "aYlXBnp8";
+            "file" = "vanilla-outsider-better-dogs-5.0.22+26.3.jar";
+            "hash" = "sha512-0w6t5Fh131RUJlD/2LQ8FUNQ9YeQPMJSTbHAo1OiPUG3/5b5ZC1ogyGMg4zGAuNX6uLBhirivjgZDuman834ig==";
+        };
+        _yIWRvEqd = {
+            "id" = "yIWRvEqd";
+            "file" = "vanilla-outsider-better-dogs-5.0.22+26.3.jar";
+            "hash" = "sha512-0w6t5Fh131RUJlD/2LQ8FUNQ9YeQPMJSTbHAo1OiPUG3/5b5ZC1ogyGMg4zGAuNX6uLBhirivjgZDuman834ig==";
+        };
+        _pU0vJuR7 = {
+            "id" = "pU0vJuR7";
+            "file" = "vanilla-outsider-better-dogs-5.0.39+26.3.jar";
+            "hash" = "sha512-2fRd1u19IBqfOXkHIAzoXyCKuPuCwhq0sjwCitEDeArsoSts2jBgS+yjy9t2MiuBPz0Vb9YO2Y2ughUrudzo6A==";
+        };
+        _EWTDh2rk = {
+            "id" = "EWTDh2rk";
+            "file" = "vanilla-outsider-better-dogs-5.0.55+26.3.jar";
+            "hash" = "sha512-kMnlGQDuVlkf6WipXrxGe71Np9SI5A+eIB1V/lcQuSzAhwtVhXf/1LhS9ZLIZdrlwrZqY1quDVTfhUVlAmMthg==";
+        };
+        _cdPJm6W9 = {
+            "id" = "cdPJm6W9";
+            "file" = "better-dogs-1.0.48+1.20.1.jar";
+            "hash" = "sha512-Sox5OduX5LFF2cyFx7XSVPB7WuxyMmZIPfHUNVwjvu9Rom38JNABGQtmfkP61aldmO5bfmpspwbl1ojnOA2y3Q==";
+        };
+        _qGzM8sgy = {
+            "id" = "qGzM8sgy";
+            "file" = "better-dogs-1.0.46+1.21.1.jar";
+            "hash" = "sha512-3EuqDU6JMiJk9gevNMJ0wmivXyVRppMxmJMvlOyc9GfsdYaBp1sU4gVR1hf6hToO+rS7rFUBvExv6ZkuWHoFLA==";
+        };
+        _878hIFAD = {
+            "id" = "878hIFAD";
+            "file" = "better-dogs-1.0.48+1.21.11.jar";
+            "hash" = "sha512-kGndIW2SkMEkO+HxwAcwTrtfODwFDMrz/vUJUtm2bIGzXWdVmVomDRv0lZa7P1fkvs57ZS1lFkseaQ2mts2RKA==";
+        };
+        _CkTlw25V = {
+            "id" = "CkTlw25V";
+            "file" = "vanilla-outsider-better-dogs-5.0.94+26.1.2.jar";
+            "hash" = "sha512-UfiLjFgZt0xVMEDWVDKwvqSg/eT/tw0MKfCcpXMTiz9JOfehTE+m5sYtndbUDLJ2Llc9n9hDThJVADmQrwdUng==";
+        };
+        _XdZbRw4W = {
+            "id" = "XdZbRw4W";
+            "file" = "vanilla-outsider-better-dogs-4.24.54+26.2.jar";
+            "hash" = "sha512-cXm9mwu0BX7sDRVhEsEqH1tUR8B4gkCx699vkdffJVjqQ5QuZmINfyg0LdA7JkjuW4GAqxQ0q4h05/gt1Po6lA==";
+        };
+        _iDyfA2K6 = {
+            "id" = "iDyfA2K6";
+            "file" = "better-dogs-1.0.49+1.20.1.jar";
+            "hash" = "sha512-mGI3IVyTuzr0EbSk4fqIvpTL2sFNfFiTqHSFs3UsCcboE/rJXdzi4ClbUcBE4T+Ka8b77eb/E73TcSRzmaiVVw==";
+        };
+        _KacHDGu5 = {
+            "id" = "KacHDGu5";
+            "file" = "better-dogs-1.0.47+1.21.1.jar";
+            "hash" = "sha512-fpXOhpFNyA48MkEgrXfNsZ3uCFPgSsGIjIKdoIpDz3bAsGj2agdYC2sI6LfnhFw+4Fc1Z4uv7nd814C1S7vN8A==";
+        };
+        _RMUv4sIx = {
+            "id" = "RMUv4sIx";
+            "file" = "better-dogs-1.0.49+1.21.11.jar";
+            "hash" = "sha512-8GfTJ+9wFOdyOEWabYlF+nOZRLc1xaWu+qQiPMl+in9ZECLA3sowTl6qMWmS2ky5FXxvCAMt55sQFtjzt6QQhA==";
+        };
+        _uc5PC3Xq = {
+            "id" = "uc5PC3Xq";
+            "file" = "vanilla-outsider-better-dogs-5.1.0+26.1.2.jar";
+            "hash" = "sha512-m4ksE+RYqxePmHLvlUj9IBq3zn4rxUxaIOu1zaH+kJ/X0ijfBaTNC692zEn0ySRFzgzXqzG0iYgR14XWA+yInA==";
+        };
     in {
         "XhmOq1aJ" = _XhmOq1aJ;
         "bImKrldf" = _bImKrldf;
@@ -1352,6 +1682,72 @@ let
         "bSV65Fzj" = _bSV65Fzj;
         "QgR8ULra" = _QgR8ULra;
         "j2AXSIcA" = _j2AXSIcA;
+        "EUVEe632" = _EUVEe632;
+        "VCIJ13cq" = _VCIJ13cq;
+        "cdkNtsBb" = _cdkNtsBb;
+        "WKSunym3" = _WKSunym3;
+        "nqANuJkV" = _nqANuJkV;
+        "KWWXj24M" = _KWWXj24M;
+        "J2thWF5v" = _J2thWF5v;
+        "vTPt1YCE" = _vTPt1YCE;
+        "cmtrRKqc" = _cmtrRKqc;
+        "pOsyfCdx" = _pOsyfCdx;
+        "GRhguDs3" = _GRhguDs3;
+        "QtAbzxBo" = _QtAbzxBo;
+        "3ji1upwG" = _3ji1upwG;
+        "lEIOrfgg" = _lEIOrfgg;
+        "eCLuEkws" = _eCLuEkws;
+        "h0JiTU5m" = _h0JiTU5m;
+        "exYCxWd0" = _exYCxWd0;
+        "QsvNPkbp" = _QsvNPkbp;
+        "8NS4DcbD" = _8NS4DcbD;
+        "6txsMJP3" = _6txsMJP3;
+        "uKUhR5UB" = _uKUhR5UB;
+        "Do0yn3Ta" = _Do0yn3Ta;
+        "TlMP7Mb1" = _TlMP7Mb1;
+        "gDd87GEE" = _gDd87GEE;
+        "kT91nIhm" = _kT91nIhm;
+        "RNeN8SEA" = _RNeN8SEA;
+        "BxXezvGc" = _BxXezvGc;
+        "NPqDvGiO" = _NPqDvGiO;
+        "kah0mCuu" = _kah0mCuu;
+        "2w5AIc1T" = _2w5AIc1T;
+        "zzS0Xunh" = _zzS0Xunh;
+        "qkQ0fFJa" = _qkQ0fFJa;
+        "UwYOw4MA" = _UwYOw4MA;
+        "covYS193" = _covYS193;
+        "1Wj0wQ9j" = _1Wj0wQ9j;
+        "2umGa8Ab" = _2umGa8Ab;
+        "WxUVdYEJ" = _WxUVdYEJ;
+        "NyLefaZb" = _NyLefaZb;
+        "f925r1Xr" = _f925r1Xr;
+        "FQmJVjL2" = _FQmJVjL2;
+        "fQMrULhe" = _fQMrULhe;
+        "EgRy0O7e" = _EgRy0O7e;
+        "jSSU9UN6" = _jSSU9UN6;
+        "jw9dirqS" = _jw9dirqS;
+        "1x6Mcyez" = _1x6Mcyez;
+        "KtYfZ22h" = _KtYfZ22h;
+        "SnLDgLDx" = _SnLDgLDx;
+        "TIAfZAjA" = _TIAfZAjA;
+        "kwwAn5ZK" = _kwwAn5ZK;
+        "i5xAEcvk" = _i5xAEcvk;
+        "M1oG4z85" = _M1oG4z85;
+        "oxVK2ppC" = _oxVK2ppC;
+        "dUyJ01bc" = _dUyJ01bc;
+        "aYlXBnp8" = _aYlXBnp8;
+        "yIWRvEqd" = _yIWRvEqd;
+        "pU0vJuR7" = _pU0vJuR7;
+        "EWTDh2rk" = _EWTDh2rk;
+        "cdPJm6W9" = _cdPJm6W9;
+        "qGzM8sgy" = _qGzM8sgy;
+        "878hIFAD" = _878hIFAD;
+        "CkTlw25V" = _CkTlw25V;
+        "XdZbRw4W" = _XdZbRw4W;
+        "iDyfA2K6" = _iDyfA2K6;
+        "KacHDGu5" = _KacHDGu5;
+        "RMUv4sIx" = _RMUv4sIx;
+        "uc5PC3Xq" = _uc5PC3Xq;
         "fabric-26.1-snapshot-1" = _3EHRPCH5;
         "fabric-26.1-snapshot-2" = _3EHRPCH5;
         "fabric-26.1-snapshot-3" = _3EHRPCH5;
@@ -1371,30 +1767,26 @@ let
         "fabric-26.1-rc-3" = _3EHRPCH5;
         "fabric-26.1" = _h8vbMLF4;
         "fabric-26.1.1" = _jHDEVqKv;
-        "fabric-26.1.2" = _HBC5ElyN;
+        "fabric-26.1.2" = _uc5PC3Xq;
         "fabric-26.2-rc-2" = _9KXhZ5Ne;
-        "fabric-26.2" = _QgR8ULra;
-        "fabric-1.20.1" = _S9K1FumY;
-        "fabric-1.21.1" = _bf1Cy2i3;
+        "fabric-26.2" = _XdZbRw4W;
+        "fabric-1.20.1" = _iDyfA2K6;
+        "fabric-1.21.1" = _KacHDGu5;
         "fabric-1.21" = _N2dDuFW4;
-        "fabric-1.21.11" = _bSV65Fzj;
-        "fabric-26.3-snapshot-1" = _SYpME6Nx;
-        "fabric-26.3-snapshot-2" = _SYpME6Nx;
-        "fabric-26.3-snapshot-3" = _SYpME6Nx;
-        "fabric-26.3-snapshot-4" = _SYpME6Nx;
-        "fabric-26.3-snapshot-5" = _SYpME6Nx;
-        "fabric-26.3-snapshot-6" = _SYpME6Nx;
-        "fabric-26.3-snapshot-7" = _SYpME6Nx;
-        "fabric-26.3-snapshot-8" = _SYpME6Nx;
-        "fabric-26.3-snapshot-9" = _SYpME6Nx;
-        "fabric-26.3-snapshot-10" = _SYpME6Nx;
-        "fabric-26.3-pre-1" = _SYpME6Nx;
-        "fabric-26.3-pre-2" = _SYpME6Nx;
-        "fabric-26.3-pre-3" = _SYpME6Nx;
-        "fabric-26.3-rc-1" = _SYpME6Nx;
-        "fabric-26.3-rc-2" = _SYpME6Nx;
-        "fabric-26.3-rc-3" = _SYpME6Nx;
-        "fabric-26.3" = _j2AXSIcA;
+        "fabric-1.21.11" = _RMUv4sIx;
+        "fabric-26.3-snapshot-1" = _P62SGoWM;
+        "fabric-26.3-snapshot-2" = _P62SGoWM;
+        "fabric-26.3-snapshot-3" = _P62SGoWM;
+        "fabric-26.3-snapshot-4" = _P62SGoWM;
+        "fabric-26.3-snapshot-5" = _P62SGoWM;
+        "fabric-26.3-snapshot-6" = _P62SGoWM;
+        "fabric-26.3-snapshot-7" = _P62SGoWM;
+        "fabric-26.3-snapshot-8" = _P62SGoWM;
+        "fabric-26.3-snapshot-9" = _P62SGoWM;
+        "fabric-26.3-snapshot-10" = _P62SGoWM;
+        "fabric-26.3-pre-1" = _P62SGoWM;
+        "fabric-26.3-pre-2" = _P62SGoWM;
+        "fabric-26.3" = _EWTDh2rk;
         "pkg-1.7.6-26.1" = _XhmOq1aJ;
         "pkg-1.8.7-26.1" = _bImKrldf;
         "pkg-3.1.4" = _2Ru85Nzk;
@@ -1620,7 +2012,71 @@ let
         "pkg-1.0.36+1.21.11" = _bSV65Fzj;
         "pkg-4.24.2+26.2" = _QgR8ULra;
         "pkg-5.0.11+26.3" = _j2AXSIcA;
-        "default" = _j2AXSIcA;
+        "pkg-1.0.37+1.20.1" = _EUVEe632;
+        "pkg-1.0.35+1.21.1" = _VCIJ13cq;
+        "pkg-1.0.37+1.21.11" = _cdkNtsBb;
+        "pkg-4.24.3+26.2" = _WKSunym3;
+        "pkg-5.0.12+26.3" = _nqANuJkV;
+        "pkg-1.0.38+1.20.1" = _KWWXj24M;
+        "pkg-1.0.36+1.21.1" = _J2thWF5v;
+        "pkg-1.0.38+1.21.11" = _vTPt1YCE;
+        "pkg-4.24.4+26.2" = _cmtrRKqc;
+        "pkg-5.0.13+26.3" = _pOsyfCdx;
+        "pkg-1.0.39+1.20.1" = _GRhguDs3;
+        "pkg-1.0.37+1.21.1" = _QtAbzxBo;
+        "pkg-1.0.39+1.21.11" = _3ji1upwG;
+        "pkg-4.24.5+26.2" = _lEIOrfgg;
+        "pkg-5.0.14+26.3" = _eCLuEkws;
+        "pkg-1.0.40+1.20.1" = _h0JiTU5m;
+        "pkg-1.0.38+1.21.1" = _exYCxWd0;
+        "pkg-1.0.40+1.21.11" = _QsvNPkbp;
+        "pkg-4.24.6+26.2" = _8NS4DcbD;
+        "pkg-5.0.15+26.3" = _6txsMJP3;
+        "pkg-1.0.41+1.20.1" = _uKUhR5UB;
+        "pkg-1.0.39+1.21.1" = _Do0yn3Ta;
+        "pkg-1.0.41+1.21.11" = _TlMP7Mb1;
+        "pkg-4.24.7+26.2" = _gDd87GEE;
+        "pkg-5.0.16+26.3" = _kT91nIhm;
+        "pkg-1.0.42+1.20.1" = _RNeN8SEA;
+        "pkg-1.0.40+1.21.1" = _BxXezvGc;
+        "pkg-1.0.42+1.21.11" = _NPqDvGiO;
+        "pkg-4.24.8+26.2" = _kah0mCuu;
+        "pkg-5.0.17+26.3" = _2w5AIc1T;
+        "pkg-1.0.43+1.20.1" = _zzS0Xunh;
+        "pkg-1.0.41+1.21.1" = _qkQ0fFJa;
+        "pkg-1.0.43+1.21.11" = _UwYOw4MA;
+        "pkg-4.24.36+26.2" = _covYS193;
+        "pkg-5.0.18+26.3" = _1Wj0wQ9j;
+        "pkg-1.0.44+1.20.1" = _2umGa8Ab;
+        "pkg-1.0.42+1.21.1" = _WxUVdYEJ;
+        "pkg-1.0.44+1.21.11" = _NyLefaZb;
+        "pkg-4.24.37+26.2" = _f925r1Xr;
+        "pkg-5.0.19+26.3" = _FQmJVjL2;
+        "pkg-1.0.45+1.20.1" = _fQMrULhe;
+        "pkg-1.0.43+1.21.1" = _EgRy0O7e;
+        "pkg-1.0.45+1.21.11" = _jSSU9UN6;
+        "pkg-4.24.53+26.2" = _jw9dirqS;
+        "pkg-5.0.20+26.3" = _1x6Mcyez;
+        "pkg-1.0.46+1.20.1" = _KtYfZ22h;
+        "pkg-1.0.44+1.21.1" = _SnLDgLDx;
+        "pkg-1.0.46+1.21.11" = _TIAfZAjA;
+        "pkg-5.0.21+26.3" = _i5xAEcvk;
+        "pkg-1.0.47+1.20.1" = _M1oG4z85;
+        "pkg-1.0.45+1.21.1" = _oxVK2ppC;
+        "pkg-1.0.47+1.21.11" = _dUyJ01bc;
+        "pkg-5.0.22+26.3" = _yIWRvEqd;
+        "pkg-5.0.39+26.3" = _pU0vJuR7;
+        "pkg-5.0.55+26.3" = _EWTDh2rk;
+        "pkg-1.0.48+1.20.1" = _cdPJm6W9;
+        "pkg-1.0.46+1.21.1" = _qGzM8sgy;
+        "pkg-1.0.48+1.21.11" = _878hIFAD;
+        "pkg-5.0.94+26.1.2" = _CkTlw25V;
+        "pkg-4.24.54+26.2" = _XdZbRw4W;
+        "pkg-1.0.49+1.20.1" = _iDyfA2K6;
+        "pkg-1.0.47+1.21.1" = _KacHDGu5;
+        "pkg-1.0.49+1.21.11" = _RMUv4sIx;
+        "pkg-5.1.0+26.1.2" = _uc5PC3Xq;
+        "default" = _uc5PC3Xq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanilla-outsider-better-dogs";

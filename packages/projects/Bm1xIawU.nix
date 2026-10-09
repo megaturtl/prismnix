@@ -26,12 +26,18 @@ let
             "file" = "LeadPhysics-1.0.0.jar";
             "hash" = "sha512-5+GYObVDWnsTeCafYFPuk+xKBzsoeBntQkTVOZ4o0vkaXLtiex1TzV7P6YPTnprr849eC1FQyoxGpEr9ytQxoA==";
         };
+        _zCWkwMdG = {
+            "id" = "zCWkwMdG";
+            "file" = "LeadPhysics-1.0.0.jar";
+            "hash" = "sha512-8K2/h442oweJfboYUoZgCMJoexfz8fyo6u8AGUgt62G5CMmgtGCiTpRWvkq9tILTb3m0lxeoKwiEDfIdAcRxFg==";
+        };
     in {
         "7kIsslcs" = _7kIsslcs;
         "iODyWuC0" = _iODyWuC0;
         "dTOH4W1z" = _dTOH4W1z;
         "tWaKQJqU" = _tWaKQJqU;
         "xnsf59Ci" = _xnsf59Ci;
+        "zCWkwMdG" = _zCWkwMdG;
         "fabric-1.21.8" = _7kIsslcs;
         "fabric-1.21.9" = _iODyWuC0;
         "fabric-1.21.10" = _iODyWuC0;
@@ -40,8 +46,9 @@ let
         "fabric-26.1.1" = _tWaKQJqU;
         "fabric-26.1.2" = _tWaKQJqU;
         "fabric-26.2" = _xnsf59Ci;
-        "pkg-1.0.0" = _xnsf59Ci;
-        "default" = _xnsf59Ci;
+        "fabric-26.3" = _zCWkwMdG;
+        "pkg-1.0.0" = _zCWkwMdG;
+        "default" = _zCWkwMdG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "leadphysics";

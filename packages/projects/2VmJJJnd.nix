@@ -31,6 +31,16 @@ let
             "file" = "ly-life-steal-enchantment-v1.1.0.jar";
             "hash" = "sha512-fVkm13yf6nWKJJ+z6izNFp0O5XVoQ+UZ6rXNKv8qlpNwEfWk81iA353SUb6nhG3gPmDPcUJAZ3DPoexLjPpRvQ==";
         };
+        _sXoT2GLR = {
+            "id" = "sXoT2GLR";
+            "file" = "Life Steal Enchantment v1.1.0 [26.3].zip";
+            "hash" = "sha512-1FUowQwom8lTejwyu5IIHIWo9lpZkvdPIr+NF3dSl8YQV+N3mEM5UXqyqkKSfIfqP/lln3h4XjHEVM3qagOB2g==";
+        };
+        _m7wwcpdv = {
+            "id" = "m7wwcpdv";
+            "file" = "ly-life-steal-enchantment-1.1.0.jar";
+            "hash" = "sha512-1R8mmMrr/fryIz9nvd8wJ/l9v27bItft5MBt0ffBeJTKvuQlC9YZT5IkchP1qtSumH/jk+ZrSq04JaQNaDj90g==";
+        };
     in {
         "v0RQ7tw9" = _v0RQ7tw9;
         "AOUAXhvC" = _AOUAXhvC;
@@ -38,6 +48,8 @@ let
         "oDdQnoJJ" = _oDdQnoJJ;
         "QB6PD01G" = _QB6PD01G;
         "OCrpQgs8" = _OCrpQgs8;
+        "sXoT2GLR" = _sXoT2GLR;
+        "m7wwcpdv" = _m7wwcpdv;
         "datapack-1.21" = _QB6PD01G;
         "datapack-1.21.1" = _QB6PD01G;
         "datapack-1.21.2" = _QB6PD01G;
@@ -54,6 +66,7 @@ let
         "datapack-26.1.1" = _QB6PD01G;
         "datapack-26.1.2" = _QB6PD01G;
         "datapack-26.2" = _QB6PD01G;
+        "datapack-26.3" = _sXoT2GLR;
         "fabric-1.21" = _OCrpQgs8;
         "fabric-1.21.1" = _OCrpQgs8;
         "fabric-1.21.2" = _OCrpQgs8;
@@ -70,6 +83,7 @@ let
         "fabric-26.1.1" = _OCrpQgs8;
         "fabric-26.1.2" = _OCrpQgs8;
         "fabric-26.2" = _OCrpQgs8;
+        "fabric-26.3" = _m7wwcpdv;
         "forge-1.21" = _OCrpQgs8;
         "forge-1.21.1" = _OCrpQgs8;
         "forge-1.21.2" = _OCrpQgs8;
@@ -86,6 +100,7 @@ let
         "forge-26.1.1" = _OCrpQgs8;
         "forge-26.1.2" = _OCrpQgs8;
         "forge-26.2" = _OCrpQgs8;
+        "forge-26.3" = _m7wwcpdv;
         "neoforge-1.21" = _OCrpQgs8;
         "neoforge-1.21.1" = _OCrpQgs8;
         "neoforge-1.21.2" = _OCrpQgs8;
@@ -102,6 +117,7 @@ let
         "neoforge-26.1.1" = _OCrpQgs8;
         "neoforge-26.1.2" = _OCrpQgs8;
         "neoforge-26.2" = _OCrpQgs8;
+        "neoforge-26.3" = _m7wwcpdv;
         "quilt-1.21" = _OCrpQgs8;
         "quilt-1.21.1" = _OCrpQgs8;
         "quilt-1.21.2" = _OCrpQgs8;
@@ -118,13 +134,16 @@ let
         "quilt-26.1.1" = _OCrpQgs8;
         "quilt-26.1.2" = _OCrpQgs8;
         "quilt-26.2" = _OCrpQgs8;
+        "quilt-26.3" = _m7wwcpdv;
         "pkg-v1.0.0" = _v0RQ7tw9;
         "pkg-v1.0.0+mod" = _AOUAXhvC;
         "pkg-v1.0.1" = _mC3KI0Sh;
         "pkg-v1.0.1+mod" = _oDdQnoJJ;
         "pkg-v1.1.0" = _QB6PD01G;
         "pkg-v1.1.0+mod" = _OCrpQgs8;
-        "default" = _OCrpQgs8;
+        "pkg-1.1.0" = _sXoT2GLR;
+        "pkg-1.1.0+mod" = _m7wwcpdv;
+        "default" = _m7wwcpdv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ly-life-steal-enchantment";

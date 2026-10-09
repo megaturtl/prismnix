@@ -126,6 +126,11 @@ let
             "file" = "fpsoverlay-2.1-26.2.jar";
             "hash" = "sha512-aLVBsI04E4scL4nD4WJi46bAO3eXGOnDAd5CrsCnARIEmyiaGM+DPlhYs6kL1pKyqeW1gqSO0xvvaAKVDuElRg==";
         };
+        _5hOFZd0V = {
+            "id" = "5hOFZd0V";
+            "file" = "fpsoverlay-2.1-26.3.jar";
+            "hash" = "sha512-JizMN2vSeDgLwDBC9VT1vuOy+kfq9ocj/IvyluJOEfrI/xpACaUA1gOm0w8lTTXpTnqptN7jgqLi1rVKza0jFQ==";
+        };
     in {
         "5nMkGdZs" = _5nMkGdZs;
         "uImF3WOi" = _uImF3WOi;
@@ -152,6 +157,7 @@ let
         "SCm32Chr" = _SCm32Chr;
         "yD7NxiMY" = _yD7NxiMY;
         "9ufU8tJZ" = _9ufU8tJZ;
+        "5hOFZd0V" = _5hOFZd0V;
         "fabric-1.21" = _cYFA33iz;
         "fabric-1.20.6" = _TfkmkiWR;
         "fabric-1.20" = _TfkmkiWR;
@@ -175,6 +181,7 @@ let
         "fabric-26.1.1" = _yD7NxiMY;
         "fabric-26.1.2" = _yD7NxiMY;
         "fabric-26.2" = _9ufU8tJZ;
+        "fabric-26.3" = _5hOFZd0V;
         "quilt-1.21" = _cYFA33iz;
         "quilt-1.20.6" = _TfkmkiWR;
         "quilt-1.20" = _TfkmkiWR;
@@ -212,8 +219,8 @@ let
         "pkg-1.9" = _bAfHwOJH;
         "pkg-1.9.1" = _SCm32Chr;
         "pkg-2.0" = _yD7NxiMY;
-        "pkg-2.1" = _9ufU8tJZ;
-        "default" = _9ufU8tJZ;
+        "pkg-2.1" = _5hOFZd0V;
+        "default" = _5hOFZd0V;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fpsoverlay";

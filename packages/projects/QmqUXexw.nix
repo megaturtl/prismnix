@@ -31,6 +31,16 @@ let
             "file" = "sds_fabric-1.1.2.jar";
             "hash" = "sha512-KRnQAWQM2EVV1ZiF5dnnAfpCGzVeJOnd8xO8KDBNxALUFbucggsE/yGEaGDNDudndtTU7aLbVZlTytBzXaXmzg==";
         };
+        _1VsR89S8 = {
+            "id" = "1VsR89S8";
+            "file" = "sds_fabric-1.4.1+26.1.jar";
+            "hash" = "sha512-1LyR0HA7rMJ5DFwT1CTIt2g8EGy4PzwLSz2YFiWqa6BtV7DsS5MmToXks8XmaOP/OsQwCLvhgFC28xJqCyOjJQ==";
+        };
+        _4XDXvitT = {
+            "id" = "4XDXvitT";
+            "file" = "sds_fabric-1.4.1+26.3.jar";
+            "hash" = "sha512-GEk7sxIsu7eQh/rUSTFF5bKRMpo92CB7r136ZwMi8yYAfdDVBMV4fMCq1fdiOzlLqkvHfffNDiXyt3eyJUZxNQ==";
+        };
     in {
         "A9QIbqCV" = _A9QIbqCV;
         "B3lEZu1G" = _B3lEZu1G;
@@ -38,12 +48,18 @@ let
         "z0XY3NNK" = _z0XY3NNK;
         "WGWPtXrS" = _WGWPtXrS;
         "dGhSMFry" = _dGhSMFry;
+        "1VsR89S8" = _1VsR89S8;
+        "4XDXvitT" = _4XDXvitT;
         "fabric-1.21" = _nL6XQFkR;
         "fabric-1.21.1" = _dGhSMFry;
         "fabric-1.21.2" = _z0XY3NNK;
         "fabric-1.21.3" = _z0XY3NNK;
         "fabric-1.21.4" = _z0XY3NNK;
         "fabric-1.21.5" = _WGWPtXrS;
+        "fabric-26.1" = _1VsR89S8;
+        "fabric-26.1.1" = _1VsR89S8;
+        "fabric-26.1.2" = _1VsR89S8;
+        "fabric-26.3" = _4XDXvitT;
         "paper-1.19" = _B3lEZu1G;
         "paper-1.19.1" = _B3lEZu1G;
         "paper-1.19.2" = _B3lEZu1G;
@@ -81,7 +97,9 @@ let
         "pkg-1.1" = _nL6XQFkR;
         "pkg-1.3" = _WGWPtXrS;
         "pkg-1.1.2" = _dGhSMFry;
-        "default" = _dGhSMFry;
+        "pkg-1.4.1+26.1" = _1VsR89S8;
+        "pkg-1.4.1+26.3" = _4XDXvitT;
+        "default" = _4XDXvitT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sooperdooperscooper";

@@ -136,6 +136,21 @@ let
             "file" = "MoreDoors-forge-26.1.2-1.4.0.jar";
             "hash" = "sha512-4iXfN3fNgVxZGyd9IDRIGcvum5HzOvnYV6wMTe0FkmtxZ6ez26VLQ1EhvmjR0sA+GD28Ris1cX1c+IzmPtQiKw==";
         };
+        _Pdr4MZsN = {
+            "id" = "Pdr4MZsN";
+            "file" = "MoreDoors-fabric-26.1.2-1.4.0.jar";
+            "hash" = "sha512-JQHdBfcfZ1jBN+UmNs/AdzyRWn3+SsVCYHG2XTtRKJAqgtQhNuPDATJbzdQZTIfAg5sdc1j2wdGStr1Pk7Cbqg==";
+        };
+        _RP6qX24v = {
+            "id" = "RP6qX24v";
+            "file" = "MoreDoors-forge-26.1.2-1.4.0.1.jar";
+            "hash" = "sha512-fFD5TULNm9WZLOGdM7/ZDBsFNUKyxs28pCp/HpvspmrdIcGTU90iSNHVGwwdAtjsb2eoU62K+8cxO0/wAsTpVw==";
+        };
+        _OCEKvvMj = {
+            "id" = "OCEKvvMj";
+            "file" = "MoreDoors-neoforge-26.1.2-1.4.0.1.jar";
+            "hash" = "sha512-5q/drbmokDCwkn3p1alR60HWBAarFRhun8J6EgNgWXARvIWu/bC+fZ0+TRPLMOVVJFS3zGHqvEDV4XsxuRKQAw==";
+        };
     in {
         "CEMEj45R" = _CEMEj45R;
         "sareXEnx" = _sareXEnx;
@@ -164,6 +179,9 @@ let
         "qyMsPqqp" = _qyMsPqqp;
         "KHcKyCzo" = _KHcKyCzo;
         "liqwSiGn" = _liqwSiGn;
+        "Pdr4MZsN" = _Pdr4MZsN;
+        "RP6qX24v" = _RP6qX24v;
+        "OCEKvvMj" = _OCEKvvMj;
         "fabric-1.20.1" = _CEMEj45R;
         "fabric-1.20.2" = _clVXS29s;
         "fabric-1.20.4" = _EmLHyphY;
@@ -172,6 +190,7 @@ let
         "fabric-1.21.8" = _DJEbwIV4;
         "fabric-1.21.10" = _lR0M50L9;
         "fabric-1.21.11" = _1Ct3OvXa;
+        "fabric-26.1.2" = _Pdr4MZsN;
         "forge-1.20.1" = _sareXEnx;
         "forge-1.20.2" = _H3JC4vFT;
         "forge-1.20.4" = _H0uKPIfS;
@@ -181,14 +200,14 @@ let
         "forge-1.21.9" = _h5AQdY1r;
         "forge-1.21.10" = _dIuZSGzZ;
         "forge-1.21.11" = _1LWQuV9D;
-        "forge-26.1.2" = _liqwSiGn;
+        "forge-26.1.2" = _RP6qX24v;
         "neoforge-1.20.4" = _sMK2uQV3;
         "neoforge-1.21" = _Gwj3k6BY;
         "neoforge-1.21.1" = _ivIkZ36S;
         "neoforge-1.21.8" = _PKzt0xT3;
         "neoforge-1.21.10" = _jAgXmlJT;
         "neoforge-1.21.11" = _qyMsPqqp;
-        "neoforge-26.1.2" = _KHcKyCzo;
+        "neoforge-26.1.2" = _OCEKvvMj;
         "pkg-1.0.4" = _CEMEj45R;
         "pkg-1.2.1" = _sareXEnx;
         "pkg-1.2.2" = _FJIOsaYd;
@@ -210,8 +229,8 @@ let
         "pkg-1.3.0" = _jAgXmlJT;
         "pkg-1.3.4" = _1LWQuV9D;
         "pkg-1.21.11-1.1.4" = _1Ct3OvXa;
-        "pkg-1.4.0" = _liqwSiGn;
-        "default" = _liqwSiGn;
+        "pkg-1.4.0" = _OCEKvvMj;
+        "default" = _OCEKvvMj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-beautiful-doors";

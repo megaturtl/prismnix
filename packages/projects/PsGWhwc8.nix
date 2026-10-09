@@ -41,6 +41,11 @@ let
             "file" = "emf_compat_gliders_26.2_2.0.0.jar";
             "hash" = "sha512-iQBUR92LFOjbx4ucB4lFL8l3q9m/xBvgFaZPY761mzqmmNTzKrWg6D+bCh/fkFHeuDQil9oPTd0F5j81F9i6pg==";
         };
+        _Im1Mn1ez = {
+            "id" = "Im1Mn1ez";
+            "file" = "emf_compat_gliders_fabric_1.21.1_2.0.0.jar";
+            "hash" = "sha512-OLEaiBny8bdBmWcYdwXFARpEZCg3BAlMJ+Ng9hiNRuAYAzc9LI7GqRhgAO6RtFahcFlpuuquam+R1q0qpju2VA==";
+        };
     in {
         "VLwH6wMY" = _VLwH6wMY;
         "I54WgHq3" = _I54WgHq3;
@@ -50,13 +55,15 @@ let
         "cER4cs2Q" = _cER4cs2Q;
         "kGZXirMq" = _kGZXirMq;
         "yPq4DMja" = _yPq4DMja;
+        "Im1Mn1ez" = _Im1Mn1ez;
         "forge-1.20.1" = _oTdQNDtC;
         "neoforge-1.21.1" = _cER4cs2Q;
         "fabric-26.1.2" = _kGZXirMq;
         "fabric-26.2" = _yPq4DMja;
+        "fabric-1.21.1" = _Im1Mn1ez;
         "pkg-1.0.0" = _e6br3aJq;
-        "pkg-2.0.0" = _yPq4DMja;
-        "default" = _yPq4DMja;
+        "pkg-2.0.0" = _Im1Mn1ez;
+        "default" = _Im1Mn1ez;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "emf-compat-gliders";

@@ -41,6 +41,16 @@ let
             "file" = "old-pvp-swords-26.2.jar";
             "hash" = "sha512-erQ/rKSXR/u9dETk/OifMnQV0YZmw8V2T9HMrMeR+NbO8bpCnKMEp0IWOnR4dNQ+0BL2pG/pzcye+xUpSs9F4A==";
         };
+        _h735HyAg = {
+            "id" = "h735HyAg";
+            "file" = "old_pvp_swords_26.3.zip";
+            "hash" = "sha512-6GG5XHB0pvLhUUZz6L1y7HH2LKWJj9ocuoRQWT6hF/WnKO0vABBLODpbGioRUNn7cLqGBvYcpmbaeZSOVeqbeg==";
+        };
+        _TFlfz7Qp = {
+            "id" = "TFlfz7Qp";
+            "file" = "old-pvp-swords-26.3.jar";
+            "hash" = "sha512-hny8s8Or/USKqPBZcQH7h17Af1sETl+MC5ZmEajW8ebTl9JuAzv3qvyrW0W3laPxsCVl8O5jfFfHnHMwb6GDdQ==";
+        };
     in {
         "BJgYtRn8" = _BJgYtRn8;
         "VPGR1YXF" = _VPGR1YXF;
@@ -50,6 +60,8 @@ let
         "e3xrBEfH" = _e3xrBEfH;
         "RjeOxIQt" = _RjeOxIQt;
         "DE2qYTfy" = _DE2qYTfy;
+        "h735HyAg" = _h735HyAg;
+        "TFlfz7Qp" = _TFlfz7Qp;
         "datapack-1.21.9" = _BJgYtRn8;
         "datapack-1.21.10" = _BJgYtRn8;
         "datapack-1.21.11" = _pgodmSVM;
@@ -57,6 +69,7 @@ let
         "datapack-26.1.1" = _Xk3XGYPP;
         "datapack-26.1.2" = _Xk3XGYPP;
         "datapack-26.2" = _RjeOxIQt;
+        "datapack-26.3" = _h735HyAg;
         "fabric-1.21.9" = _VPGR1YXF;
         "fabric-1.21.10" = _VPGR1YXF;
         "fabric-1.21.11" = _aCsimw4k;
@@ -64,6 +77,7 @@ let
         "fabric-26.1.1" = _e3xrBEfH;
         "fabric-26.1.2" = _e3xrBEfH;
         "fabric-26.2" = _DE2qYTfy;
+        "fabric-26.3" = _TFlfz7Qp;
         "forge-1.21.9" = _VPGR1YXF;
         "forge-1.21.10" = _VPGR1YXF;
         "forge-1.21.11" = _aCsimw4k;
@@ -71,6 +85,7 @@ let
         "forge-26.1.1" = _e3xrBEfH;
         "forge-26.1.2" = _e3xrBEfH;
         "forge-26.2" = _DE2qYTfy;
+        "forge-26.3" = _TFlfz7Qp;
         "neoforge-1.21.9" = _VPGR1YXF;
         "neoforge-1.21.10" = _VPGR1YXF;
         "neoforge-1.21.11" = _aCsimw4k;
@@ -78,6 +93,7 @@ let
         "neoforge-26.1.1" = _e3xrBEfH;
         "neoforge-26.1.2" = _e3xrBEfH;
         "neoforge-26.2" = _DE2qYTfy;
+        "neoforge-26.3" = _TFlfz7Qp;
         "quilt-1.21.9" = _VPGR1YXF;
         "quilt-1.21.10" = _VPGR1YXF;
         "quilt-1.21.11" = _aCsimw4k;
@@ -85,6 +101,7 @@ let
         "quilt-26.1.1" = _e3xrBEfH;
         "quilt-26.1.2" = _e3xrBEfH;
         "quilt-26.2" = _DE2qYTfy;
+        "quilt-26.3" = _TFlfz7Qp;
         "pkg-old_pvp_swords_v1" = _BJgYtRn8;
         "pkg-old_pvp_swords_v1+mod" = _VPGR1YXF;
         "pkg-old-pvp-sword-1.21.11" = _pgodmSVM;
@@ -93,7 +110,9 @@ let
         "pkg-26.1+mod" = _e3xrBEfH;
         "pkg-26.2" = _RjeOxIQt;
         "pkg-26.2+mod" = _DE2qYTfy;
-        "default" = _DE2qYTfy;
+        "pkg-26.3" = _h735HyAg;
+        "pkg-26.3+mod" = _TFlfz7Qp;
+        "default" = _TFlfz7Qp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "old-pvp-swords";

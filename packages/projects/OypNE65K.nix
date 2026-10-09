@@ -96,6 +96,11 @@ let
             "file" = "tacz-neoforge-1.21.1-1.1.8-hotfix-r6.jar";
             "hash" = "sha512-zhTphc4W0FF+ex1BlpokSBj0bB5K6ThCwxSZY5kKpIhpLFNy7MS3H+VgqZeUo/hlJE2+9bGCvuxEERSLT4PFPA==";
         };
+        _62q6mB5Q = {
+            "id" = "62q6mB5Q";
+            "file" = "tacz-neoforge-1.21.1-1.1.8-hotfix-r7.jar";
+            "hash" = "sha512-dwDtmaCAcpw6oh+WGeAY++niMDz7yqRjF17lFwVToAC2krxM+i6M4HeHR+7TTcwBl/teQ0S7JYz/G6kK3IQmQg==";
+        };
     in {
         "y3PoZHK0" = _y3PoZHK0;
         "s01O94yG" = _s01O94yG;
@@ -116,7 +121,8 @@ let
         "QFzpV9bs" = _QFzpV9bs;
         "6BL939fK" = _6BL939fK;
         "wPvGWIj9" = _wPvGWIj9;
-        "neoforge-1.21.1" = _wPvGWIj9;
+        "62q6mB5Q" = _62q6mB5Q;
+        "neoforge-1.21.1" = _62q6mB5Q;
         "pkg-1.1.6-hotfix-r5" = _y3PoZHK0;
         "pkg-1.1.6-hotfix-r6" = _s01O94yG;
         "pkg-1.1.6-hotfix-r7" = _XKOMIg4a;
@@ -136,7 +142,8 @@ let
         "pkg-1.1.8-hotfix-r4" = _QFzpV9bs;
         "pkg-1.1.8-hotfix-r5" = _6BL939fK;
         "pkg-1.1.8-hotfix-r6" = _wPvGWIj9;
-        "default" = _wPvGWIj9;
+        "pkg-1.1.8-hotfix-r7" = _62q6mB5Q;
+        "default" = _62q6mB5Q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tacz-1.21.1";

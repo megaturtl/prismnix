@@ -91,6 +91,16 @@ let
             "file" = "catchondefeat-neoforge-1.6.1-1.5.2.jar";
             "hash" = "sha512-/pcI8ZZHrM0/toEsHALn7tTlLnnAmGeTWgnpeS7d2QY2bV6m7ttpdC/D2WOG47jAadrFbszZqwahMXf5h5nk1A==";
         };
+        _7SyOVtAO = {
+            "id" = "7SyOVtAO";
+            "file" = "catchondefeat-neoforge-1.8.1-1.6.0.jar";
+            "hash" = "sha512-/VmAaZ5ndMdMLW4ViIYI0awPeIjnTcKOTgYErb7+AS7GyVrWthr5icAL050L+/Ti+62v8zFKOGEGw52o3k3XNw==";
+        };
+        _s2CZJZAz = {
+            "id" = "s2CZJZAz";
+            "file" = "catchondefeat-fabric-1.8.1-1.6.0.jar";
+            "hash" = "sha512-54XF4xjbL7c8xu9+AtDkOqCmEXiElkLeEtd+ODOs7xRyGp8bKbdwu7bDMXICSg69YFk0r8zy+JIM5QHqU+RbTA==";
+        };
     in {
         "xHoU7YCU" = _xHoU7YCU;
         "XysGrGFO" = _XysGrGFO;
@@ -110,8 +120,10 @@ let
         "AmiBweoy" = _AmiBweoy;
         "kOCnOkHk" = _kOCnOkHk;
         "3KMWHm0F" = _3KMWHm0F;
-        "fabric-1.21.1" = _kOCnOkHk;
-        "neoforge-1.21.1" = _3KMWHm0F;
+        "7SyOVtAO" = _7SyOVtAO;
+        "s2CZJZAz" = _s2CZJZAz;
+        "fabric-1.21.1" = _s2CZJZAz;
+        "neoforge-1.21.1" = _7SyOVtAO;
         "pkg-1.6-fabric-0.0.0" = _xHoU7YCU;
         "pkg-1.6-fabric-1.1.0" = _XysGrGFO;
         "pkg-1.6-neoforge-1.1.0" = _44Zr188D;
@@ -130,7 +142,9 @@ let
         "pkg-1.6.1-fabric-1.5.1" = _AmiBweoy;
         "pkg-1.6.1-fabric-1.5.2" = _kOCnOkHk;
         "pkg-1.6.1-neoforge-1.5.2" = _3KMWHm0F;
-        "default" = _3KMWHm0F;
+        "pkg-1.8.1-neoforge-1.6.0" = _7SyOVtAO;
+        "pkg-1.8.1-fabric-1.6.0" = _s2CZJZAz;
+        "default" = _s2CZJZAz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-catch-on-defeat";

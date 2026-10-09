@@ -41,6 +41,11 @@ let
             "file" = "xpgui-fabric-mc26.3-1.0.2.jar";
             "hash" = "sha512-/5q6XW5iYB9GMmJxsUhtAtO5hEH6VK1iBFPAeIawioGAz/XAF3UF9wvBmqVm3jy8V+NNqyLFMoV9T3UT+WAQSQ==";
         };
+        _D4PK2AlU = {
+            "id" = "D4PK2AlU";
+            "file" = "xpgui-1.0.2+mc26.3-neoforge.jar";
+            "hash" = "sha512-7is7tYPf4aFSZmTHRRK39dbeW7rL4Sd3lmwLwKB9aFDs87nfALJoE3ChAS/JxID87YxvOPlFNLaQloRq2RU7Vg==";
+        };
     in {
         "cq02yGN6" = _cq02yGN6;
         "c4wY9Eaj" = _c4wY9Eaj;
@@ -50,6 +55,7 @@ let
         "Dt4GNqcV" = _Dt4GNqcV;
         "7oVOancZ" = _7oVOancZ;
         "tQSUCMWR" = _tQSUCMWR;
+        "D4PK2AlU" = _D4PK2AlU;
         "fabric-1.20.5" = _cq02yGN6;
         "fabric-1.20.6" = _cq02yGN6;
         "fabric-1.20.1" = _c4wY9Eaj;
@@ -61,10 +67,13 @@ let
         "fabric-26.1.1" = _Dt4GNqcV;
         "fabric-26.2" = _tQSUCMWR;
         "fabric-26.3" = _tQSUCMWR;
+        "neoforge-26.2" = _D4PK2AlU;
+        "neoforge-26.3" = _D4PK2AlU;
         "pkg-1.0.1" = _Dt4GNqcV;
         "pkg-1.0.1+mc26.2" = _7oVOancZ;
         "pkg-1.0.2" = _tQSUCMWR;
-        "default" = _tQSUCMWR;
+        "pkg-1.0.2+mc26.3-neoforge" = _D4PK2AlU;
+        "default" = _D4PK2AlU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "xpgui";

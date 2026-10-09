@@ -1646,6 +1646,61 @@ let
             "file" = "Oh-The-Biomes-Weve-Gone-NeoForge-4.4.0.jar";
             "hash" = "sha512-SJ2TJp1B4sgx1qaKjXx0q61j7FKkvridMxd8rSJbhq6Z+vpdLazqoULvbUvl+PuTH/iq/hSlv0R/EJNSritUuA==";
         };
+        _WFUTMyYk = {
+            "id" = "WFUTMyYk";
+            "file" = "Oh-The-Biomes-Weve-Gone-Fabric-2.6.1.jar";
+            "hash" = "sha512-TDk3gUtKvv7PVYxCqzRyuOM7oqczGatuKAgfLDcMkhew9j7rCiFlfpfbOhgLdYohVrWve3R2E9k4Ua7xCXlqBw==";
+        };
+        _vceR1wBM = {
+            "id" = "vceR1wBM";
+            "file" = "Oh-The-Biomes-Weve-Gone-Forge-2.6.1.jar";
+            "hash" = "sha512-yaePlAFFmip8ZvUtl1Q93WS1Dwbrkev+kLqlllJw4iAc0mOdveMlWFh06xwpbz818l5Btl2Pqq3DPN3LOlwjFw==";
+        };
+        _WYnJkYT1 = {
+            "id" = "WYnJkYT1";
+            "file" = "Oh-The-Biomes-Weve-Gone-NeoForge-2.6.1.jar";
+            "hash" = "sha512-7gZncUPmphyWh6HF9TEIJV89tEZpmSdVuVWT1j/hyFcjQNIjB4rJ5E957LhwItbUpyUS+qkil8du0ut7n/mcyA==";
+        };
+        _doMqwjwW = {
+            "id" = "doMqwjwW";
+            "file" = "Oh-The-Biomes-Weve-Gone-Fabric-1.8.1.jar";
+            "hash" = "sha512-aJp/zBOAGBWuj6+ZShDLuDO10/GF02PecKEW+taPi2IwtAoe/x42elr1Zs/bvlKcfEUrHCpyoA/8/QdB6c7wLw==";
+        };
+        _v0bVw0jU = {
+            "id" = "v0bVw0jU";
+            "file" = "Oh-The-Biomes-Weve-Gone-Forge-1.8.1.jar";
+            "hash" = "sha512-Z5yvgkR57BzpfVFwik+XpQ9FUHkfDUwCvn1PfCCRMflMMEKf023TI7VYswccC0biTvhr79FuKcj2L/kO6Y1E5A==";
+        };
+        _80A447mF = {
+            "id" = "80A447mF";
+            "file" = "Oh-The-Biomes-Weve-Gone-Fabric-2.6.2.jar";
+            "hash" = "sha512-QuwWCaW1xTtTeuCfbg0a0kv1aFglXnfCXlqdQaR9xd0gvYsqHNhg2afiD/RvBqLKvwtyI9y1CawNXgBXdayAhg==";
+        };
+        _BdqW0Ps6 = {
+            "id" = "BdqW0Ps6";
+            "file" = "Oh-The-Biomes-Weve-Gone-Forge-2.6.2.jar";
+            "hash" = "sha512-AzX3djiofRo3rD3JEbwtXmXl9q+8T6fQn2XfW0j3Ny1cx/SWL5WtB4Kp5UXFOojGpxCbhD2/CxRsBQ0+L+tvFw==";
+        };
+        _IaGaE5Tq = {
+            "id" = "IaGaE5Tq";
+            "file" = "Oh-The-Biomes-Weve-Gone-NeoForge-2.6.2.jar";
+            "hash" = "sha512-qJnrtvLIjpkVMoP5voZexiS4OSR7lCKgrG25K5QfmYGIBFi5OXmY1/rIdhFUPUx/3zeYxvVu+5YxGE/YoL4d2Q==";
+        };
+        _ps3ARZJd = {
+            "id" = "ps3ARZJd";
+            "file" = "Oh-The-Biomes-Weve-Gone-Fabric-4.4.1.jar";
+            "hash" = "sha512-FByeguNrzQsOaNuktnGAfP0kypwWMKafVtq9Xqm9l0r2loeuaT1TUind84euySI8FJm1HJNU0UdgKgmzolZlyA==";
+        };
+        _cTKRkjaI = {
+            "id" = "cTKRkjaI";
+            "file" = "Oh-The-Biomes-Weve-Gone-Forge-4.4.1.jar";
+            "hash" = "sha512-btT3gJoLbus/+pdXNqyDmymTfjYCor90euISA03AhrFyGZ+ATX/h1K0eQc4tBkTurHZXlb0aoiZAFho5lUlgeg==";
+        };
+        _fRskGluT = {
+            "id" = "fRskGluT";
+            "file" = "Oh-The-Biomes-Weve-Gone-NeoForge-4.4.1.jar";
+            "hash" = "sha512-WNGJZP0s6F7nDNFC9jORjNk7K8fO0wiaiTR/Ase/tkBY9DF49OqHtMaDhbMv4csTGEDjkubApS4L+0zpqPL1WA==";
+        };
     in {
         "GOMHoIEb" = _GOMHoIEb;
         "dor3hOko" = _dor3hOko;
@@ -1976,30 +2031,41 @@ let
         "pPdZsABE" = _pPdZsABE;
         "wQ3igSWA" = _wQ3igSWA;
         "TFrKwv7c" = _TFrKwv7c;
-        "fabric-1.20.1" = _9hf2l2Rq;
-        "fabric-1.21.1" = _ICd7oSmA;
+        "WFUTMyYk" = _WFUTMyYk;
+        "vceR1wBM" = _vceR1wBM;
+        "WYnJkYT1" = _WYnJkYT1;
+        "doMqwjwW" = _doMqwjwW;
+        "v0bVw0jU" = _v0bVw0jU;
+        "80A447mF" = _80A447mF;
+        "BdqW0Ps6" = _BdqW0Ps6;
+        "IaGaE5Tq" = _IaGaE5Tq;
+        "ps3ARZJd" = _ps3ARZJd;
+        "cTKRkjaI" = _cTKRkjaI;
+        "fRskGluT" = _fRskGluT;
+        "fabric-1.20.1" = _doMqwjwW;
+        "fabric-1.21.1" = _80A447mF;
         "fabric-1.21.4" = _NCZAogvP;
         "fabric-1.21.8" = _A0DMLFFg;
         "fabric-1.21.10" = _wpFIFApW;
-        "fabric-1.21.11" = _pPdZsABE;
-        "quilt-1.20.1" = _9hf2l2Rq;
-        "quilt-1.21.1" = _ICd7oSmA;
+        "fabric-1.21.11" = _ps3ARZJd;
+        "quilt-1.20.1" = _doMqwjwW;
+        "quilt-1.21.1" = _80A447mF;
         "quilt-1.21.4" = _NCZAogvP;
         "quilt-1.21.8" = _A0DMLFFg;
         "quilt-1.21.10" = _wpFIFApW;
-        "quilt-1.21.11" = _pPdZsABE;
-        "forge-1.20.1" = _8L5cwpjz;
-        "forge-1.21.1" = _iUBsVYnm;
+        "quilt-1.21.11" = _ps3ARZJd;
+        "forge-1.20.1" = _v0bVw0jU;
+        "forge-1.21.1" = _BdqW0Ps6;
         "forge-1.21.4" = _sgY3p3PH;
         "forge-1.21.8" = _hJOgEaAf;
         "forge-1.21.10" = _jZTihPGp;
-        "forge-1.21.11" = _wQ3igSWA;
+        "forge-1.21.11" = _cTKRkjaI;
         "neoforge-1.20.1" = _qj6FvHC7;
-        "neoforge-1.21.1" = _aPEcdSHb;
+        "neoforge-1.21.1" = _IaGaE5Tq;
         "neoforge-1.21.4" = _zHGiZEVy;
         "neoforge-1.21.8" = _HdcvE7ki;
         "neoforge-1.21.10" = _xEbxZQh1;
-        "neoforge-1.21.11" = _TFrKwv7c;
+        "neoforge-1.21.11" = _fRskGluT;
         "pkg-1.0.0-Beta-Fabric" = _GOMHoIEb;
         "pkg-1.0.0-Beta-Forge" = _dor3hOko;
         "pkg-1.0.1-Beta-Fabric" = _G5c7B5B8;
@@ -2329,7 +2395,18 @@ let
         "pkg-4.4.0-Fabric" = _pPdZsABE;
         "pkg-4.4.0-Forge" = _wQ3igSWA;
         "pkg-4.4.0-NeoForge" = _TFrKwv7c;
-        "default" = _TFrKwv7c;
+        "pkg-2.6.1-Fabric" = _WFUTMyYk;
+        "pkg-2.6.1-Forge" = _vceR1wBM;
+        "pkg-2.6.1-NeoForge" = _WYnJkYT1;
+        "pkg-1.8.1-Fabric" = _doMqwjwW;
+        "pkg-1.8.1-Forge" = _v0bVw0jU;
+        "pkg-2.6.2-Fabric" = _80A447mF;
+        "pkg-2.6.2-Forge" = _BdqW0Ps6;
+        "pkg-2.6.2-NeoForge" = _IaGaE5Tq;
+        "pkg-4.4.1-Fabric" = _ps3ARZJd;
+        "pkg-4.4.1-Forge" = _cTKRkjaI;
+        "pkg-4.4.1-NeoForge" = _fRskGluT;
+        "default" = _fRskGluT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "oh-the-biomes-weve-gone";

@@ -186,6 +186,26 @@ let
             "file" = "wilderflowers-1.1.1+26.1.2-neoforge.jar";
             "hash" = "sha512-9sgrbaBy4aUTaSzlNvEqAFkvSVyT4tTFni4idA/sutJGvIyWMC4xpVWeRsMOrjiEyrXBpUpJxgRq7LTNtWmO+Q==";
         };
+        _dP6U3aJ3 = {
+            "id" = "dP6U3aJ3";
+            "file" = "wilderflowers-1.2.0+26.1.2-fabric.jar";
+            "hash" = "sha512-XRcb0SE6fyStFhcCgRwAh95Mf+iAN4Uo15PT4wkkRyAcTVHwvbpZdN/v5BsgNfycBlsKe6swlzb8Vyxs0FibRw==";
+        };
+        _d6xHhmC2 = {
+            "id" = "d6xHhmC2";
+            "file" = "wilderflowers-1.2.0+26.1.2-neoforge.jar";
+            "hash" = "sha512-vLxnszs2XNxItv1jB7jVCTfBQ+JoiYPr3NW/UUGc/hwiQTeMtFsU01HekhcU26vAaa5rWBly1estOJURbiXkMw==";
+        };
+        _O0841ZHq = {
+            "id" = "O0841ZHq";
+            "file" = "wilderflowers-1.2.0+26.3-fabric.jar";
+            "hash" = "sha512-nsUoNyA2CiPhdBs3usyadqMxooj6ajtguOiAk/sx2KEfd/3l09TVcqZ73W+PBz5cA82t/drmdfcyE3/h7XOAxg==";
+        };
+        _O5dJEkAZ = {
+            "id" = "O5dJEkAZ";
+            "file" = "wilderflowers-1.2.0+26.3-neoforge.jar";
+            "hash" = "sha512-bRdVoIVKGMFvHoJ1ZsB8cEtRosDPqjyJgZdk2VB/UQFTug9ss1UQzNyNGQdGkvQmMq7DDXe6AiTJf0zaNg5wsw==";
+        };
     in {
         "yUWTwENz" = _yUWTwENz;
         "8aYgMj5g" = _8aYgMj5g;
@@ -224,6 +244,10 @@ let
         "phDXjyRx" = _phDXjyRx;
         "coR2UYtc" = _coR2UYtc;
         "HZHFbw3I" = _HZHFbw3I;
+        "dP6U3aJ3" = _dP6U3aJ3;
+        "d6xHhmC2" = _d6xHhmC2;
+        "O0841ZHq" = _O0841ZHq;
+        "O5dJEkAZ" = _O5dJEkAZ;
         "forge-1.20.1" = _ckMiX7UM;
         "forge-1.19.2" = _8aYgMj5g;
         "neoforge-1.20.1" = _ckMiX7UM;
@@ -234,7 +258,9 @@ let
         "neoforge-1.21.11" = _jlK15XQO;
         "neoforge-26.1" = _HZHFbw3I;
         "neoforge-26.1.1" = _HZHFbw3I;
-        "neoforge-26.1.2" = _HZHFbw3I;
+        "neoforge-26.1.2" = _d6xHhmC2;
+        "neoforge-26.2" = _d6xHhmC2;
+        "neoforge-26.3" = _O5dJEkAZ;
         "fabric-1.20.1" = _FKFRsvZF;
         "fabric-1.21" = _oZwwEqaj;
         "fabric-1.21.1" = _sVBmpMni;
@@ -261,10 +287,11 @@ let
         "fabric-26.1-rc-3" = _phDXjyRx;
         "fabric-26.1" = _coR2UYtc;
         "fabric-26.1.1" = _coR2UYtc;
-        "fabric-26.1.2" = _coR2UYtc;
+        "fabric-26.1.2" = _dP6U3aJ3;
         "fabric-26.2-rc-1" = _coR2UYtc;
         "fabric-26.2-rc-2" = _coR2UYtc;
-        "fabric-26.2" = _coR2UYtc;
+        "fabric-26.2" = _dP6U3aJ3;
+        "fabric-26.3" = _O0841ZHq;
         "pkg-1.0.0+1.20.1-forge" = _yUWTwENz;
         "pkg-1.0.0+1.19.2-forge" = _8aYgMj5g;
         "pkg-1.0.0+1.20.1-fabric" = _8LSeauEV;
@@ -302,7 +329,11 @@ let
         "pkg-1.1.0+26.1-rc-3-fabric" = _phDXjyRx;
         "pkg-1.1.1+26.1.2-fabric" = _coR2UYtc;
         "pkg-1.1.1+26.1.2-neoforge" = _HZHFbw3I;
-        "default" = _HZHFbw3I;
+        "pkg-1.2.0+26.1.2-fabric" = _dP6U3aJ3;
+        "pkg-1.2.0+26.1.2-neoforge" = _d6xHhmC2;
+        "pkg-1.2.0+26.3-fabric" = _O0841ZHq;
+        "pkg-1.2.0+26.3-neoforge" = _O5dJEkAZ;
+        "default" = _O5dJEkAZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wilder-flowers";

@@ -121,6 +121,11 @@ let
             "file" = "SmoothScrollingRefurbished+26.2-1.9.0.jar";
             "hash" = "sha512-xLKqlZ7etqyKMgoDO7K3l+romTjcHtBllD+x2OPWzG+TKApY5DNMOyhuzHmcftQteCwjd1E35AWkWKkEh/hFlA==";
         };
+        _6gjcFGvg = {
+            "id" = "6gjcFGvg";
+            "file" = "SmoothScrollingRefurbished+26.3-1.10.0.jar";
+            "hash" = "sha512-hEo4orDUKvIjI7CCIgD1LyK1XyD+uC8rRUgyBQIwkr/PFdn65GUnKblPgsdUJr6hX4W29b8q/2cntmLvwNDvAw==";
+        };
     in {
         "eq1eWGyu" = _eq1eWGyu;
         "Ss4X7ADW" = _Ss4X7ADW;
@@ -146,6 +151,7 @@ let
         "ux3vVAfn" = _ux3vVAfn;
         "Vu8K6zM6" = _Vu8K6zM6;
         "yVuBwfhm" = _yVuBwfhm;
+        "6gjcFGvg" = _6gjcFGvg;
         "fabric-1.20" = _dQJX1Zkv;
         "fabric-1.20.1" = _dQJX1Zkv;
         "fabric-1.20.2" = _sRTKQzz8;
@@ -169,6 +175,7 @@ let
         "fabric-26.1.1" = _Vu8K6zM6;
         "fabric-26.1.2" = _Vu8K6zM6;
         "fabric-26.2" = _yVuBwfhm;
+        "fabric-26.3" = _6gjcFGvg;
         "pkg-1.0.0" = _Ss4X7ADW;
         "pkg-1.1.0" = _JJBqOihE;
         "pkg-1.1.1" = _tjVxGNFl;
@@ -188,7 +195,8 @@ let
         "pkg-1.3.1" = _ux3vVAfn;
         "pkg-1.8.0" = _Vu8K6zM6;
         "pkg-1.9.0" = _yVuBwfhm;
-        "default" = _yVuBwfhm;
+        "pkg-1.10.0" = _6gjcFGvg;
+        "default" = _6gjcFGvg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "smooth-scrolling-refurbished";

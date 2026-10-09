@@ -156,6 +156,11 @@ let
             "file" = "RollingGate-neoforge-26.2-1.1.0+build.70.jar";
             "hash" = "sha512-XrA8Di9UXKnHGRW6z7gCQhsid8dzX0SU1vSZxkrHKQOORlEdSKhnGh2fEdqK4yEQQlYK6KBtKPgVKyTBMhddKA==";
         };
+        _giycESlu = {
+            "id" = "giycESlu";
+            "file" = "RollingGate-neoforge-26.3-1.1.0+build.72.jar";
+            "hash" = "sha512-+R4cN9z7pYSkpv5WjmUBKxE+YqDgma3gr6tTaUhhAJJfW1liKQlBijsolfXX8NQHu9vWo9zHjislFGjojeAjCw==";
+        };
     in {
         "8Ll65Jvp" = _8Ll65Jvp;
         "czZATQpv" = _czZATQpv;
@@ -188,11 +193,13 @@ let
         "lBAxYP0Z" = _lBAxYP0Z;
         "DzHYexPP" = _DzHYexPP;
         "Yx3dpmoS" = _Yx3dpmoS;
+        "giycESlu" = _giycESlu;
         "neoforge-1.21.1" = _LTcqijHi;
         "neoforge-1.21.8" = _5aYC4Nbl;
         "neoforge-1.21.10" = _lBAxYP0Z;
         "neoforge-26.1.2" = _DzHYexPP;
         "neoforge-26.2" = _Yx3dpmoS;
+        "neoforge-26.3" = _giycESlu;
         "pkg-1.0.0+build.30" = _8Ll65Jvp;
         "pkg-1.0.0+build.40" = _czZATQpv;
         "pkg-1.0.0+build.41" = _58aihfK6;
@@ -224,7 +231,8 @@ let
         "pkg-1.1.0+build.68" = _lBAxYP0Z;
         "pkg-1.1.0+build.69" = _DzHYexPP;
         "pkg-1.1.0+build.70" = _Yx3dpmoS;
-        "default" = _Yx3dpmoS;
+        "pkg-1.1.0+build.72" = _giycESlu;
+        "default" = _giycESlu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rolling-gate";

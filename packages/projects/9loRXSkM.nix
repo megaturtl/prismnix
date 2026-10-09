@@ -11,9 +11,15 @@ let
             "file" = "Invisible-Item-Frame.zip";
             "hash" = "sha512-UFctscTfMemC8I1h3nNGEYZBwQkAHZbizBCqcaflHY3b27GVrCzva7dXpC0orTyzSv81cjMlZgZst/v/04qmgg==";
         };
+        _EaTh500w = {
+            "id" = "EaTh500w";
+            "file" = "invisible-item-frame-26.3.zip";
+            "hash" = "sha512-NxvHHNg6/XNvTLwtyVbhS2nevtpfapNLXaCTGAgpd42aAP+jWMpXPdGhVfyGBOWEZ5DHi7RRVB58MoT4jaZrLw==";
+        };
     in {
         "BseseQG5" = _BseseQG5;
         "fbLiCIus" = _fbLiCIus;
+        "EaTh500w" = _EaTh500w;
         "minecraft-1.15.2" = _BseseQG5;
         "minecraft-1.16" = _BseseQG5;
         "minecraft-1.16.1" = _BseseQG5;
@@ -54,9 +60,11 @@ let
         "minecraft-26.1.1" = _fbLiCIus;
         "minecraft-26.1.2" = _fbLiCIus;
         "minecraft-26.2" = _fbLiCIus;
+        "minecraft-26.3" = _EaTh500w;
         "pkg-1.21.10" = _BseseQG5;
         "pkg-26.2" = _fbLiCIus;
-        "default" = _fbLiCIus;
+        "pkg-26.3" = _EaTh500w;
+        "default" = _EaTh500w;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "invisible_item_frame";

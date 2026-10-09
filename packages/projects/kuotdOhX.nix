@@ -56,6 +56,21 @@ let
             "file" = "soul-speed-fov-fix-1.1.0.jar";
             "hash" = "sha512-/pWelodzI7rwlQhUIBYjB7Mxu031aQRkTuPM9jiSoRbEgD1hZ118OQjNZRmMxgOR2kIopmzxtDyr4Bw6+lw+MQ==";
         };
+        _DZPjGFFx = {
+            "id" = "DZPjGFFx";
+            "file" = "ssfovfix-1.1.0-26.1.2.jar";
+            "hash" = "sha512-7mUMk+6+HXfxIl6hYfIkL+IxOOhB14TgOvc48F2y1ELuHUl9PL0hCFft3ycBWscRQDBh7G55rFtibKOXoRe7EQ==";
+        };
+        _cmOodpQ1 = {
+            "id" = "cmOodpQ1";
+            "file" = "ssfovfix-1.1.0-26.2.jar";
+            "hash" = "sha512-IRf2z/r8RQ++z8F5B0elj4YuWgqHr5DleTz2Yb73kb3/LKLzeJdXdUOcpDuROn5jVBpeZCT4urYaN5wDb5u1hg==";
+        };
+        _4RSsLhHk = {
+            "id" = "4RSsLhHk";
+            "file" = "ssfovfix-1.1.0-26.3.jar";
+            "hash" = "sha512-B6R1RcUogRRIiYA+nWaTq4CUBcvuEgTiAQgxt2aecAHpfp24JvT+xoL19en8ZjPao1U77aiZESYQ/r/LQUZe2Q==";
+        };
     in {
         "k2KGcZES" = _k2KGcZES;
         "af7bwi29" = _af7bwi29;
@@ -68,19 +83,28 @@ let
         "eKVuvhnB" = _eKVuvhnB;
         "mAVnzf7l" = _mAVnzf7l;
         "9ZJ1vd48" = _9ZJ1vd48;
+        "DZPjGFFx" = _DZPjGFFx;
+        "cmOodpQ1" = _cmOodpQ1;
+        "4RSsLhHk" = _4RSsLhHk;
         "fabric-1.20.1" = _k2KGcZES;
         "fabric-1.21.6" = _UFBdfVP0;
         "fabric-1.21.8" = _ozYSOsxT;
         "fabric-1.21.9" = _eKVuvhnB;
         "fabric-1.21.10" = _mAVnzf7l;
         "fabric-1.21.11" = _9ZJ1vd48;
+        "fabric-26.1.2" = _DZPjGFFx;
+        "fabric-26.2" = _cmOodpQ1;
+        "fabric-26.3" = _4RSsLhHk;
         "forge-1.20.1" = _af7bwi29;
         "forge-1.21" = _H7jkmLEt;
         "forge-1.21.5" = _EGb4n8SD;
         "forge-1.21.8" = _qXB4601n;
         "pkg-1.0.0" = _qXB4601n;
         "pkg-1.1.0" = _9ZJ1vd48;
-        "default" = _9ZJ1vd48;
+        "pkg-1.1.0-26.1.2" = _DZPjGFFx;
+        "pkg-1.1.0-26.2" = _cmOodpQ1;
+        "pkg-1.1.0-26.3" = _4RSsLhHk;
+        "default" = _4RSsLhHk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "soul-speed-fov-fix";

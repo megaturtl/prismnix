@@ -61,6 +61,16 @@ let
             "file" = "no-sky-limits-1.0.4-26.1.jar";
             "hash" = "sha512-J4Nu6hTCLFZbeVpGzUlsL/L5UhbZP2y1pR1Yi52Hvxwk0NH7EjK0HeJz6UPCU3B+o+GIvcr0A6kkhP87C3r+BA==";
         };
+        _M9KpYcum = {
+            "id" = "M9KpYcum";
+            "file" = "No_Sky_Limits-v1.0.5_26.3.zip";
+            "hash" = "sha512-0okUG3wFMrjorBf3HyLLkHqQU1yLaA/mORpiv/i3UTr3/3lmwCdJ2yhuG+OSlyvuk+MAUHIZudvIXdvxmD89mA==";
+        };
+        _V9N0NpOh = {
+            "id" = "V9N0NpOh";
+            "file" = "no-sky-limits-1.0.5-26.3.jar";
+            "hash" = "sha512-QL5E77HRYQC5AhpWepMnvL7mq2TJRhFrkgSjJcGqSsAQ3ZEt5yZ0TEVX0h3qci4T8DxMx0RTk1y9o3l50b9ADQ==";
+        };
     in {
         "mj2NtFLF" = _mj2NtFLF;
         "U9QgFDRk" = _U9QgFDRk;
@@ -74,6 +84,8 @@ let
         "XeTBtR85" = _XeTBtR85;
         "YKQ0ae9Z" = _YKQ0ae9Z;
         "BU0Q5Fmo" = _BU0Q5Fmo;
+        "M9KpYcum" = _M9KpYcum;
+        "V9N0NpOh" = _V9N0NpOh;
         "datapack-1.21" = _L2fe1KVF;
         "datapack-1.21.1" = _L2fe1KVF;
         "datapack-1.21.2" = _L2fe1KVF;
@@ -90,6 +102,7 @@ let
         "datapack-26.1.1" = _YKQ0ae9Z;
         "datapack-26.1.2" = _YKQ0ae9Z;
         "datapack-26.2" = _YKQ0ae9Z;
+        "datapack-26.3" = _M9KpYcum;
         "fabric-1.21" = _U1E2gBhB;
         "fabric-1.21.1" = _U1E2gBhB;
         "fabric-1.21.2" = _U1E2gBhB;
@@ -106,6 +119,7 @@ let
         "fabric-26.1.1" = _BU0Q5Fmo;
         "fabric-26.1.2" = _BU0Q5Fmo;
         "fabric-26.2" = _BU0Q5Fmo;
+        "fabric-26.3" = _V9N0NpOh;
         "forge-1.21" = _U1E2gBhB;
         "forge-1.21.1" = _U1E2gBhB;
         "forge-1.21.2" = _U1E2gBhB;
@@ -122,6 +136,7 @@ let
         "forge-26.1.1" = _BU0Q5Fmo;
         "forge-26.1.2" = _BU0Q5Fmo;
         "forge-26.2" = _BU0Q5Fmo;
+        "forge-26.3" = _V9N0NpOh;
         "neoforge-1.21" = _U1E2gBhB;
         "neoforge-1.21.1" = _U1E2gBhB;
         "neoforge-1.21.2" = _U1E2gBhB;
@@ -138,6 +153,7 @@ let
         "neoforge-26.1.1" = _BU0Q5Fmo;
         "neoforge-26.1.2" = _BU0Q5Fmo;
         "neoforge-26.2" = _BU0Q5Fmo;
+        "neoforge-26.3" = _V9N0NpOh;
         "quilt-1.21" = _U1E2gBhB;
         "quilt-1.21.1" = _U1E2gBhB;
         "quilt-1.21.2" = _U1E2gBhB;
@@ -154,6 +170,7 @@ let
         "quilt-26.1.1" = _BU0Q5Fmo;
         "quilt-26.1.2" = _BU0Q5Fmo;
         "quilt-26.2" = _BU0Q5Fmo;
+        "quilt-26.3" = _V9N0NpOh;
         "pkg-v1.0.0" = _mj2NtFLF;
         "pkg-v1.0.0+mod" = _U9QgFDRk;
         "pkg-v1.0.1" = _9YLUilVr;
@@ -166,7 +183,9 @@ let
         "pkg-1.0.4-1.21.11+mod" = _XeTBtR85;
         "pkg-1.0.4-26.1" = _YKQ0ae9Z;
         "pkg-1.0.4-26.1+mod" = _BU0Q5Fmo;
-        "default" = _BU0Q5Fmo;
+        "pkg-1.0.5-26.3" = _M9KpYcum;
+        "pkg-1.0.5-26.3+mod" = _V9N0NpOh;
+        "default" = _V9N0NpOh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "no-sky-limits";

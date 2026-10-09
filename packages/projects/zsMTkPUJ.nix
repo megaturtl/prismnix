@@ -26,18 +26,25 @@ let
             "file" = "Mcheli Overdrive v2.1.jar";
             "hash" = "sha512-ybiIrRO7mrvvNTrJIWBZTq9KQCBCTt+kXxK942WqI7V1Q7514UfxCxA0M7FtvsV11mpuIXev2kx8O0T3etNWNw==";
         };
+        _9eqsSfhR = {
+            "id" = "9eqsSfhR";
+            "file" = "mcheli-1ff6ded.jar";
+            "hash" = "sha512-cQCkz7Vl0zJatU3NWWDiC0JtuWbIZYFrgKLalyf34u5ECEiYd2h+EpNKefeDNnlflDd/uIRqxVD17O8RnrLfcg==";
+        };
     in {
         "CUppNu4I" = _CUppNu4I;
         "imNn9F4v" = _imNn9F4v;
         "soonV9BS" = _soonV9BS;
         "pQMQNFMd" = _pQMQNFMd;
         "UhyeEAmO" = _UhyeEAmO;
-        "forge-1.7.10" = _UhyeEAmO;
+        "9eqsSfhR" = _9eqsSfhR;
+        "forge-1.7.10" = _9eqsSfhR;
         "pkg-1.6.1" = _CUppNu4I;
         "pkg-1.7" = _imNn9F4v;
         "pkg-1.8.2" = _pQMQNFMd;
         "pkg-2.1" = _UhyeEAmO;
-        "default" = _UhyeEAmO;
+        "pkg-2.2" = _9eqsSfhR;
+        "default" = _9eqsSfhR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mcheli-o";

@@ -101,6 +101,16 @@ let
             "file" = "shinoyuki_betterautosave-neoforge-0.20.1.jar";
             "hash" = "sha512-um2EaWCuRy0odsPsT6sIOAS469fHk/O9/nQnQD4M9KVMMrbzKmhdiBPQn+VVHKtD7oNHDBnSDnkeUItuJKROxA==";
         };
+        _O7TbKoLJ = {
+            "id" = "O7TbKoLJ";
+            "file" = "shinoyuki_betterautosave-0.20.2-all.jar";
+            "hash" = "sha512-8WmbT9qjlUOR5+lHQT39XmGeFudbmQ1tK/r+YWjwx0gLdQHqwDJv2xE3B+9rw6+kpeiBEOFYou+AEGSGB+mbQw==";
+        };
+        _rFbPhzl4 = {
+            "id" = "rFbPhzl4";
+            "file" = "shinoyuki_betterautosave-neoforge-0.20.2.jar";
+            "hash" = "sha512-Ve4zWuQ/o95/XAUUQIH+lLtArJCB0/l4mxZfunLFBL94IlayZpaBKlpCcWkCHeJUTQvx8ftxogu1XqDmP7nVvw==";
+        };
     in {
         "rSKUOg9u" = _rSKUOg9u;
         "uFb6RTQV" = _uFb6RTQV;
@@ -122,8 +132,10 @@ let
         "KZLSHRfZ" = _KZLSHRfZ;
         "aGhwL34I" = _aGhwL34I;
         "ef2pFFqU" = _ef2pFFqU;
-        "forge-1.20.1" = _aGhwL34I;
-        "neoforge-1.21.1" = _ef2pFFqU;
+        "O7TbKoLJ" = _O7TbKoLJ;
+        "rFbPhzl4" = _rFbPhzl4;
+        "forge-1.20.1" = _O7TbKoLJ;
+        "neoforge-1.21.1" = _rFbPhzl4;
         "pkg-0.10.0" = _rSKUOg9u;
         "pkg-0.10.1" = _uFb6RTQV;
         "pkg-0.11.0" = _GAKmNyk1;
@@ -144,7 +156,9 @@ let
         "pkg-0.20.0-neoforge" = _KZLSHRfZ;
         "pkg-0.20.1-forge" = _aGhwL34I;
         "pkg-0.20.1-neoforge" = _ef2pFFqU;
-        "default" = _ef2pFFqU;
+        "pkg-0.20.2-forge" = _O7TbKoLJ;
+        "pkg-0.20.2-neoforge" = _rFbPhzl4;
+        "default" = _rFbPhzl4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shinoyuki-betterautosave";

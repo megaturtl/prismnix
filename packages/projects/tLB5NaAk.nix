@@ -146,6 +146,26 @@ let
             "file" = "HandmadeGunsOverdrive-4.0.1.3.jar";
             "hash" = "sha512-8vvlgeoprEXnEH+UcU8nTrB+9qPiusSuZgvE3S90uCYVINMNpLM26T6TA0nDO49M5wqRSFWdadjjG2ZIGa7mhA==";
         };
+        _7u82vocd = {
+            "id" = "7u82vocd";
+            "file" = "HandmadeGunsOverdrive-4.0.2.1.jar";
+            "hash" = "sha512-C6gb2IeLgnYRzD0fbg7V1hyBQZpFEEIpMbxZA/pbTtsGIZ9M+mPSxmBIGUZ1nDtgxtlEaVM0ZE/uSAv5gCj5aQ==";
+        };
+        _8d67r1hY = {
+            "id" = "8d67r1hY";
+            "file" = "HandmadeGunsOverdrive-4.0.3.1.jar";
+            "hash" = "sha512-fhtH7TZoM9e+6R5C6meSwqcJh58x0ahfvWOEOG42Oh08SUdnNnfbK45xlozh/MjMgBAvxP+guAl4rYwzw9srqA==";
+        };
+        _NzUBMExa = {
+            "id" = "NzUBMExa";
+            "file" = "HandmadeGunsOverdrive-4.0.4.2.jar";
+            "hash" = "sha512-5K7+1pqFGAJdpq1RYCoZSNJU7qdXTAEMwCEX1t5cbPk5LGZoADgq+l4X4xXqJAjMqvEuzWu2dFR9PQJS3/OHPQ==";
+        };
+        _186lPi17 = {
+            "id" = "186lPi17";
+            "file" = "HandmadeGunsOverdrive-4.0.5.1.jar";
+            "hash" = "sha512-DEdTCUXNot+4UI5lC+QrZgTG5MBQiGI+azbQLcJLRmNXv/7csolxf9YY7kVyk4P5O23PX2YUI/1VvZt2wQqzQw==";
+        };
     in {
         "2mmheXcU" = _2mmheXcU;
         "UI3WG8g7" = _UI3WG8g7;
@@ -176,7 +196,11 @@ let
         "4ezSn8Ah" = _4ezSn8Ah;
         "JMeS9uj6" = _JMeS9uj6;
         "U3PCLiNz" = _U3PCLiNz;
-        "forge-1.7.10" = _U3PCLiNz;
+        "7u82vocd" = _7u82vocd;
+        "8d67r1hY" = _8d67r1hY;
+        "NzUBMExa" = _NzUBMExa;
+        "186lPi17" = _186lPi17;
+        "forge-1.7.10" = _186lPi17;
         "pkg-1.0" = _2mmheXcU;
         "pkg-1.3" = _UI3WG8g7;
         "pkg-1.4" = _jwWgD3C9;
@@ -205,7 +229,11 @@ let
         "pkg-4.0.0.3" = _4ezSn8Ah;
         "pkg-4.0.1BETA" = _JMeS9uj6;
         "pkg-4.0.1.4" = _U3PCLiNz;
-        "default" = _U3PCLiNz;
+        "pkg-4.0.2.1" = _7u82vocd;
+        "pkg-4.0.3.1" = _8d67r1hY;
+        "pkg-4.0.4.2" = _NzUBMExa;
+        "pkg-4.0.5.1" = _186lPi17;
+        "default" = _186lPi17;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "handmade-guns-overdrive";

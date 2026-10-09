@@ -36,6 +36,16 @@ let
             "file" = "mcaquests-1.5.3.jar";
             "hash" = "sha512-IhGV8iqOTMmLbADvDVdJXicsQx4cBwL+8/KJK0sM4oGVviFhaXHTpACXKX/i8mGN1Xfiu2ABp8l6Us1VU8VC0g==";
         };
+        _YWVCBQGk = {
+            "id" = "YWVCBQGk";
+            "file" = "mcaquests-1.7.1.jar";
+            "hash" = "sha512-2IqQXLwHui37lQa9IlHkVjmobAgVYKspcyslFZ136mEWFPzW0RQaODicHO6VDfBuy3rzuevVoBw5DsedDbw94Q==";
+        };
+        _yJF5rCzP = {
+            "id" = "yJF5rCzP";
+            "file" = "mcaquests-1.7.1.jar";
+            "hash" = "sha512-algMePwwDQ0KU6ujh6VVCTDV1vjSX+xLaEuuj+oAB+R2Ial/LzPWYGqjtB8/U6ECA3HidvlKP7YN8nqBxNAmJQ==";
+        };
     in {
         "qeuBAbUu" = _qeuBAbUu;
         "g2dFEKgr" = _g2dFEKgr;
@@ -44,15 +54,18 @@ let
         "Oq978wYH" = _Oq978wYH;
         "LNRnmK5P" = _LNRnmK5P;
         "CyWyxrss" = _CyWyxrss;
-        "forge-1.20.1" = _CyWyxrss;
-        "neoforge-1.21.1" = _LNRnmK5P;
+        "YWVCBQGk" = _YWVCBQGk;
+        "yJF5rCzP" = _yJF5rCzP;
+        "forge-1.20.1" = _YWVCBQGk;
+        "neoforge-1.21.1" = _yJF5rCzP;
         "pkg-0.1.0" = _qeuBAbUu;
         "pkg-0.4.0" = _g2dFEKgr;
         "pkg-0.9.1" = _aqfuK4Ux;
         "pkg-1.2.0" = _K9gwN6U9;
         "pkg-1.4.2" = _Oq978wYH;
         "pkg-1.5.3" = _CyWyxrss;
-        "default" = _CyWyxrss;
+        "pkg-1.7.1" = _yJF5rCzP;
+        "default" = _yJF5rCzP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mca-quests";

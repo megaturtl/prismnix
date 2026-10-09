@@ -31,6 +31,16 @@ let
             "file" = "MickeyJoesFlowers.zip";
             "hash" = "sha512-QrBWD1nDLwdaNLqU7qYWcoUqeoQ7vve/UcxxJEBANaFlMsUn+/YH0JhzfzIuVfUoinMbK1fYEBahw1CYRQpBSA==";
         };
+        _55ULloIY = {
+            "id" = "55ULloIY";
+            "file" = "MickeyJoesFlowersV7.zip";
+            "hash" = "sha512-MCUAGB5dNfle9u/Nb739AouV5BN+ykc2ivdJZhhKZRF8daXUFt+Fx8xWvMrcBuV3IwqAoHuAAOaFX8gna9tIGA==";
+        };
+        _Cn0PkfKe = {
+            "id" = "Cn0PkfKe";
+            "file" = "MickeyJoesFlowersV7.zip";
+            "hash" = "sha512-MCUAGB5dNfle9u/Nb739AouV5BN+ykc2ivdJZhhKZRF8daXUFt+Fx8xWvMrcBuV3IwqAoHuAAOaFX8gna9tIGA==";
+        };
     in {
         "c0GeRO2A" = _c0GeRO2A;
         "ySoNjcET" = _ySoNjcET;
@@ -38,6 +48,8 @@ let
         "Ke0zCD74" = _Ke0zCD74;
         "YQ6AbYW7" = _YQ6AbYW7;
         "RShYK8Dz" = _RShYK8Dz;
+        "55ULloIY" = _55ULloIY;
+        "Cn0PkfKe" = _Cn0PkfKe;
         "minecraft-1.16" = _c0GeRO2A;
         "minecraft-1.16.1" = _c0GeRO2A;
         "minecraft-1.16.2" = _c0GeRO2A;
@@ -75,13 +87,15 @@ let
         "minecraft-26.2" = _RShYK8Dz;
         "minecraft-26.3-snapshot-1" = _Ke0zCD74;
         "minecraft-26.3-snapshot-2" = _Ke0zCD74;
+        "minecraft-26.3" = _Cn0PkfKe;
         "pkg-1" = _c0GeRO2A;
         "pkg-2" = _ySoNjcET;
         "pkg-3" = _d6r3I0gt;
         "pkg-4" = _Ke0zCD74;
         "pkg-5" = _YQ6AbYW7;
         "pkg-6" = _RShYK8Dz;
-        "default" = _RShYK8Dz;
+        "pkg-7" = _Cn0PkfKe;
+        "default" = _Cn0PkfKe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mickey-joes-flowers";

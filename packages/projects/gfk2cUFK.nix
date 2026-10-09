@@ -286,6 +286,26 @@ let
             "file" = "nemos-creatures-26.2-2.0.jar";
             "hash" = "sha512-ssH8BVk05QCUySjmZcpmU1oJkTR1PBy/OLDYNdoJWi8+nEjjoA/pF76fS+LcxPVvuKUeyp+4l/UlQIFnGOrm8g==";
         };
+        _e4mwWtz5 = {
+            "id" = "e4mwWtz5";
+            "file" = "nemos-creatures-26.2-2.0.1.jar";
+            "hash" = "sha512-pamG8kTNfIaWbcoIlRDAuzohMy7weD9SuUIzMX75fim2oeY7aQxxi0Y/kIzXVAfpT6VSvsB6C32wFd4WkL6YQw==";
+        };
+        _oACNc8bP = {
+            "id" = "oACNc8bP";
+            "file" = "nemos-creatures-26.3-2.0.1.jar";
+            "hash" = "sha512-7MEF5SP3+gCTc8tGHMMJDvglBOoueSqtdF0y8B6m6Cf4CH+0rnZKlK+ZjRb83e/Cst+feOZ9zBND7gw3/wiJzQ==";
+        };
+        _zLlawnd9 = {
+            "id" = "zLlawnd9";
+            "file" = "nemos-creatures-26.3-2.0.2.jar";
+            "hash" = "sha512-lBtbThr57r3A+yRkyEq8YAoAnT368LaV53hAUerKYfs+BAe5ZdHXCGp8QKjRnL7LxepYBgELZqvt7F+l1quIhg==";
+        };
+        _th8b227x = {
+            "id" = "th8b227x";
+            "file" = "nemos-creatures-26.3-2.0.3.jar";
+            "hash" = "sha512-5J9b9Wn9P7jm5m158moOiIhJnX2JT6d7HgKmpdTW+03q61VNSXgEgYYgRTPIKIJBiR4j4v1+SM3HpOKgBhKkBA==";
+        };
     in {
         "E0wWbHq7" = _E0wWbHq7;
         "C4Fdh97l" = _C4Fdh97l;
@@ -344,6 +364,10 @@ let
         "9urJ1gRV" = _9urJ1gRV;
         "5fr5wDWT" = _5fr5wDWT;
         "hBAQCvbq" = _hBAQCvbq;
+        "e4mwWtz5" = _e4mwWtz5;
+        "oACNc8bP" = _oACNc8bP;
+        "zLlawnd9" = _zLlawnd9;
+        "th8b227x" = _th8b227x;
         "fabric-1.20.2" = _C1fRmS1O;
         "fabric-1.20.4" = _7m9T4CrV;
         "fabric-1.20.1" = _bnMvMsnO;
@@ -359,7 +383,8 @@ let
         "fabric-1.21.10" = _YyunKFod;
         "fabric-1.21.11" = _9urJ1gRV;
         "fabric-26.1.2" = _5fr5wDWT;
-        "fabric-26.2" = _hBAQCvbq;
+        "fabric-26.2" = _e4mwWtz5;
+        "fabric-26.3" = _th8b227x;
         "pkg-1.0.0" = _E0wWbHq7;
         "pkg-1.1.0" = _C4Fdh97l;
         "pkg-1.2.0" = _5hEx5zLT;
@@ -413,7 +438,11 @@ let
         "pkg-1.21.11-2.0" = _9urJ1gRV;
         "pkg-26.1.2-2.0" = _5fr5wDWT;
         "pkg-26.2-2.0" = _hBAQCvbq;
-        "default" = _hBAQCvbq;
+        "pkg-26.2-2.0.1" = _e4mwWtz5;
+        "pkg-26.3-2.0.1" = _oACNc8bP;
+        "pkg-26.3-2.0.2" = _zLlawnd9;
+        "pkg-26.3-2.0.3" = _th8b227x;
+        "default" = _th8b227x;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nemos-creatures";

@@ -61,6 +61,11 @@ let
             "file" = "plane_advancements-1.6-mc26.1.jar";
             "hash" = "sha512-QxdRztj1/l+SnvKlcFzSuBUd0LioBPneZBAi5rGcNMF9MLFsVNHyiwf4N5pGNvjEhvNdqzkd6PWwZhAIkNGezQ==";
         };
+        _yAejuECi = {
+            "id" = "yAejuECi";
+            "file" = "plane_advancements-1.6-mc26.3.jar";
+            "hash" = "sha512-1quMx40bOto8T9ZHgjAmzltDWWTFvLzGeshX2FtX588SQlXYLt7+5iFh+FSzyjdhB2vVXMrMNMU3wlXiy9rZZg==";
+        };
     in {
         "WUqnF32r" = _WUqnF32r;
         "PBRA2Cwd" = _PBRA2Cwd;
@@ -74,6 +79,7 @@ let
         "FTNhrSfQ" = _FTNhrSfQ;
         "y9GFNvQf" = _y9GFNvQf;
         "tlzHQ25y" = _tlzHQ25y;
+        "yAejuECi" = _yAejuECi;
         "fabric-1.21.4" = _eYwYAgHr;
         "fabric-1.21.5" = _oD5TXMQB;
         "fabric-1.21.6" = _RW7xFbm4;
@@ -88,6 +94,7 @@ let
         "fabric-26.1.1" = _tlzHQ25y;
         "fabric-26.1.2" = _tlzHQ25y;
         "fabric-26.2" = _tlzHQ25y;
+        "fabric-26.3" = _yAejuECi;
         "pkg-1.0+mc1.21.4" = _WUqnF32r;
         "pkg-1.1+mc1.21.4" = _PBRA2Cwd;
         "pkg-1.2+mc1.21.4" = _eYwYAgHr;
@@ -100,7 +107,8 @@ let
         "pkg-1.21.11-1.4" = _FTNhrSfQ;
         "pkg-1.5-mc1.21.11" = _y9GFNvQf;
         "pkg-1.6-mc26.1" = _tlzHQ25y;
-        "default" = _tlzHQ25y;
+        "pkg-1.6-mc26.3" = _yAejuECi;
+        "default" = _yAejuECi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "plane-advancements";

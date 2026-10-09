@@ -411,6 +411,11 @@ let
             "file" = "cp_bop-3.5.6-fabric-26.2.jar";
             "hash" = "sha512-vS984oacq0Ap5em3vpgTTwp3KQB7i3n+T4wdOB2Exe7DDPsC0K+xXxrsyXB32OO15bVHCVx67L3JliQ13NDbJA==";
         };
+        _Jk9NfWOe = {
+            "id" = "Jk9NfWOe";
+            "file" = "cp_bop-3.5.6-neoforge-26.3.jar";
+            "hash" = "sha512-Li9GKgX2dA9rMvjyxYOCCJYogg1euOyBiiqoAdVDWZuhTEq7r5tAjm1rGyq4MZBXa8SfipRAfL9gYsdxwIvIng==";
+        };
     in {
         "CMd1h7U4" = _CMd1h7U4;
         "bfhzcylr" = _bfhzcylr;
@@ -494,6 +499,7 @@ let
         "168ZULnL" = _168ZULnL;
         "vmLQYnRx" = _vmLQYnRx;
         "CjJjadKU" = _CjJjadKU;
+        "Jk9NfWOe" = _Jk9NfWOe;
         "forge-1.20.1" = _RLe8HZIc;
         "forge-1.19.4" = _V6V61lt5;
         "forge-1.19.2" = _qt8AG6D1;
@@ -514,6 +520,7 @@ let
         "neoforge-26.1.2" = _168ZULnL;
         "neoforge-26.2" = _vmLQYnRx;
         "neoforge-1.20.1" = _AVR8hMZH;
+        "neoforge-26.3" = _Jk9NfWOe;
         "fabric-26.1" = _v2MKD4fg;
         "fabric-26.1.1" = _v2MKD4fg;
         "fabric-26.1.2" = _v2MKD4fg;
@@ -562,8 +569,8 @@ let
         "pkg-3.5.3-beta" = _JQkFId59;
         "pkg-3.5.4-beta" = _QUvY5sld;
         "pkg-3.5.5" = _PQbDwJEM;
-        "pkg-3.5.6" = _CjJjadKU;
-        "default" = _CjJjadKU;
+        "pkg-3.5.6" = _Jk9NfWOe;
+        "default" = _Jk9NfWOe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bop-legacy-reborn-croparium";

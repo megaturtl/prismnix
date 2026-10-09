@@ -121,6 +121,76 @@ let
             "file" = "TFC-Real-World-NeoForge-1.21.1-4.0.6.jar";
             "hash" = "sha512-wevwv7a3JGTRh+B40oLYjNBqd4oDbARPuy0EgzFOi5DQ053uy+4Bpg0KP1yGseHlNQCc8Z7KV7XG4r7GBH1x0A==";
         };
+        _waf2xstC = {
+            "id" = "waf2xstC";
+            "file" = "TFC-Real-World-NeoForge-1.21.1-4.1.0.jar";
+            "hash" = "sha512-qoL4OsfcbCSRKxCzrQTQjqgneK9WuZByK78AUQtpXF9RmP7N5EFrmEqwmyaLxUaec2+B9JW3vevi2BmC/FQP0w==";
+        };
+        _sshHLqOk = {
+            "id" = "sshHLqOk";
+            "file" = "TFC-Real-World-Forge-1.20.1-3.1.0.jar";
+            "hash" = "sha512-ArBF3Yheq6ke7D58bWAUt3bgV7/aw/SVfgQGFOHoRSVSPLB+7FElavFXHzUzmpTQ88Bo7pLeP5LJpxS0s7rzbw==";
+        };
+        _wb1zqHkq = {
+            "id" = "wb1zqHkq";
+            "file" = "TFC-Real-World-Forge-1.18.2-2.1.0.jar";
+            "hash" = "sha512-UztakyVpXrNk2cmgdvpTtvX4FZWDU95JZvlzIOFMAKFR3wrc50mrzmsugYYT1dz5F36U1jvsIWRcv2Ecv9KX5A==";
+        };
+        _dQSHw7ry = {
+            "id" = "dQSHw7ry";
+            "file" = "TFC-Real-World-Forge-1.18.2-2.1.1.jar";
+            "hash" = "sha512-LX6rbt0L2vK3fznP2KiWm9wvniqJz/Rl3CfqYqslMRIHwAnYJreWMD74WIhwae6b35ab2VqVw2EFPsjcKcXGGw==";
+        };
+        _mcrHq7u9 = {
+            "id" = "mcrHq7u9";
+            "file" = "TFC-Real-World-Forge-1.20.1-3.1.1.jar";
+            "hash" = "sha512-cwxvnUutNEjE6abzTtegImHCalhSMkt9fFAZ8xy6XEoLJ8TG0toMFhSh6I+prjplgvcTT+Jv/yI1XEzSQLxJ3g==";
+        };
+        _S9drbduk = {
+            "id" = "S9drbduk";
+            "file" = "TFC-Real-World-NeoForge-1.21.1-4.1.1.jar";
+            "hash" = "sha512-q6kXBxvjhKle/FNpwj/AxrmRyVTf4ojJLBjCILGYn/+P1eCBqE3VdQ+UG+B0+M22veKaAqFvkyR6DiouOh5fLA==";
+        };
+        _qYutaa3M = {
+            "id" = "qYutaa3M";
+            "file" = "TFC-Real-World-Forge-1.18.2-2.1.2.jar";
+            "hash" = "sha512-/AbgmORd+w/jIpP8VGZHgdiHU2JxBSCO43jabV8yLLsIJumyfkHnwK9YiRCx7YymVnVf3Ac1f49Ns5CxlFHRug==";
+        };
+        _k7bAPuyY = {
+            "id" = "k7bAPuyY";
+            "file" = "TFC-Real-World-Forge-1.20.1-3.1.2.jar";
+            "hash" = "sha512-CX55k5njvXDBBE6YqWidiv1l9az71saO4Std+BUd5UlFKGes0/mkKPm/+SfnsM5NFklpb5+yfhSMpnCHWPgL/w==";
+        };
+        _DFUuzfT3 = {
+            "id" = "DFUuzfT3";
+            "file" = "TFC-Real-World-NeoForge-1.21.1-4.1.2.jar";
+            "hash" = "sha512-U8h84RrqvvTKq+wZmBbzi0BAyPljXxJsruZnPgy5v8pRMWRsjsdvF8UlD2OOFhCgbkTxHzrocBy3N7Dgm20T7Q==";
+        };
+        _KFB4ALGr = {
+            "id" = "KFB4ALGr";
+            "file" = "TFC-Real-World-Forge-1.20.1-3.1.3.jar";
+            "hash" = "sha512-hsqbuJ4LEsHQZMOrXqj8uLwlwsGiSeJS2C3qHHK+9t1ucyPlimTH+ecDxGLvMjTYh/emTRTQbofh5IN4oK/gkQ==";
+        };
+        _F71XVckS = {
+            "id" = "F71XVckS";
+            "file" = "TFC-Real-World-NeoForge-1.21.1-4.1.3.jar";
+            "hash" = "sha512-DHgkZOUzHi3YjXu48r/n0te1VOIdg5/ZwIdmu3pi/YWlyz6uSHYLTbMOU0PbVcplU8nuINJiY8f1uXvD5kPmmA==";
+        };
+        _9oklewYG = {
+            "id" = "9oklewYG";
+            "file" = "TFC-Real-World-NeoForge-1.21.1-4.1.4.jar";
+            "hash" = "sha512-N4BUuBJTAATk3w3Fv4beqB3IzbgPE8UoO83DiGvNtq7WAqLVdWAbuDWYhuu0YAq57MX6l0Mhl+6YVWcoAAP3Rw==";
+        };
+        _qb6cK2EO = {
+            "id" = "qb6cK2EO";
+            "file" = "TFC-Real-World-NeoForge-1.21.1-4.1.5.jar";
+            "hash" = "sha512-cbb9V5VdJ2mCdWoe5DKADJKrnxzkkTQvduAJAlzhz3Ueks9sIbZpVHtdnAmop6/RfS4udRazK2PdRTKbi1omvg==";
+        };
+        _SmEE1gHn = {
+            "id" = "SmEE1gHn";
+            "file" = "TFC-Real-World-NeoForge-1.21.1-4.2.0.jar";
+            "hash" = "sha512-RaExIQTlxU8DRfs628QoykzZu6p655ph7PlB4h9FXcbhKH8LrrDALaF5auuFU4gmOJxfxVnwEXwj8dHr1ACF6Q==";
+        };
     in {
         "KVwoQgtP" = _KVwoQgtP;
         "ZLtL3lDw" = _ZLtL3lDw;
@@ -146,9 +216,23 @@ let
         "fh8eFx9j" = _fh8eFx9j;
         "NbFpjtfF" = _NbFpjtfF;
         "NGWP29Uk" = _NGWP29Uk;
-        "neoforge-1.21.1" = _NGWP29Uk;
-        "forge-1.20.1" = _NbFpjtfF;
-        "forge-1.18.2" = _OLTUwseG;
+        "waf2xstC" = _waf2xstC;
+        "sshHLqOk" = _sshHLqOk;
+        "wb1zqHkq" = _wb1zqHkq;
+        "dQSHw7ry" = _dQSHw7ry;
+        "mcrHq7u9" = _mcrHq7u9;
+        "S9drbduk" = _S9drbduk;
+        "qYutaa3M" = _qYutaa3M;
+        "k7bAPuyY" = _k7bAPuyY;
+        "DFUuzfT3" = _DFUuzfT3;
+        "KFB4ALGr" = _KFB4ALGr;
+        "F71XVckS" = _F71XVckS;
+        "9oklewYG" = _9oklewYG;
+        "qb6cK2EO" = _qb6cK2EO;
+        "SmEE1gHn" = _SmEE1gHn;
+        "neoforge-1.21.1" = _SmEE1gHn;
+        "forge-1.20.1" = _KFB4ALGr;
+        "forge-1.18.2" = _qYutaa3M;
         "pkg-1.0.0-beta" = _KVwoQgtP;
         "pkg-1.0.1-beta" = _ZLtL3lDw;
         "pkg-1.0.2-beta" = _FZ0gLYEZ;
@@ -173,7 +257,21 @@ let
         "pkg-4.0.5" = _fh8eFx9j;
         "pkg-3.0.6" = _NbFpjtfF;
         "pkg-4.0.6" = _NGWP29Uk;
-        "default" = _NGWP29Uk;
+        "pkg-4.1.0" = _waf2xstC;
+        "pkg-3.1.0" = _sshHLqOk;
+        "pkg-2.1.0" = _wb1zqHkq;
+        "pkg-2.1.1" = _dQSHw7ry;
+        "pkg-3.1.1" = _mcrHq7u9;
+        "pkg-4.1.1" = _S9drbduk;
+        "pkg-2.1.2" = _qYutaa3M;
+        "pkg-3.1.2" = _k7bAPuyY;
+        "pkg-4.1.2" = _DFUuzfT3;
+        "pkg-3.1.3" = _KFB4ALGr;
+        "pkg-4.1.3" = _F71XVckS;
+        "pkg-4.1.4" = _9oklewYG;
+        "pkg-4.1.5" = _qb6cK2EO;
+        "pkg-4.2.0" = _SmEE1gHn;
+        "default" = _SmEE1gHn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tfc-real-world";

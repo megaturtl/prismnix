@@ -196,6 +196,16 @@ let
             "file" = "vegan-recipes-2.1.jar";
             "hash" = "sha512-TjKKPLDjqT0b3+fTZmkQKb2WtgPBPUI3n6xXvHUruwD1hUdLmyerKYK7AD6sLWvqYwBvRw1GKgPI0iKs/fmTcw==";
         };
+        _9ewd5INh = {
+            "id" = "9ewd5INh";
+            "file" = "notblue's Vegan Recipes v2.3 (1.21.9-26.3).zip";
+            "hash" = "sha512-bHpwmcMMiMJ/4pOmPewOjrvuDK1YHIxu/VJtFh7WxzdAbLzaTbLfFVc/L83OGiAT5ryEU6AAaW/RZpfbdZXOcg==";
+        };
+        _twRgCuwx = {
+            "id" = "twRgCuwx";
+            "file" = "vegan-recipes-2.3.jar";
+            "hash" = "sha512-TYRHeHIYwvR2/Kr6AXAeDj7UXTh7Aa+DvtFaKbUhND+jRTW7KY6GiWXcODwBe7cTI3+PVjs+Jarm8U5Wmm94RA==";
+        };
     in {
         "b8HjVwDu" = _b8HjVwDu;
         "hRizZbSS" = _hRizZbSS;
@@ -236,6 +246,8 @@ let
         "yfmZQnQz" = _yfmZQnQz;
         "sCGoL66U" = _sCGoL66U;
         "jeH5VEcd" = _jeH5VEcd;
+        "9ewd5INh" = _9ewd5INh;
+        "twRgCuwx" = _twRgCuwx;
         "datapack-1.20" = _TRJY3JyR;
         "datapack-1.20.1" = _TRJY3JyR;
         "datapack-1.20.2" = _TRJY3JyR;
@@ -252,9 +264,14 @@ let
         "datapack-1.21.6" = _st30sQ8z;
         "datapack-1.21.7" = _st30sQ8z;
         "datapack-1.21.8" = _st30sQ8z;
-        "datapack-1.21.9" = _sCGoL66U;
-        "datapack-1.21.10" = _sCGoL66U;
-        "datapack-1.21.11" = _sCGoL66U;
+        "datapack-1.21.9" = _9ewd5INh;
+        "datapack-1.21.10" = _9ewd5INh;
+        "datapack-1.21.11" = _9ewd5INh;
+        "datapack-26.1" = _9ewd5INh;
+        "datapack-26.1.1" = _9ewd5INh;
+        "datapack-26.1.2" = _9ewd5INh;
+        "datapack-26.2" = _9ewd5INh;
+        "datapack-26.3" = _9ewd5INh;
         "fabric-1.20" = _cAjZ73oL;
         "fabric-1.20.1" = _cAjZ73oL;
         "fabric-1.20.2" = _cAjZ73oL;
@@ -271,9 +288,14 @@ let
         "fabric-1.21.6" = _BQu5uXKT;
         "fabric-1.21.7" = _BQu5uXKT;
         "fabric-1.21.8" = _BQu5uXKT;
-        "fabric-1.21.9" = _jeH5VEcd;
-        "fabric-1.21.10" = _jeH5VEcd;
-        "fabric-1.21.11" = _jeH5VEcd;
+        "fabric-1.21.9" = _twRgCuwx;
+        "fabric-1.21.10" = _twRgCuwx;
+        "fabric-1.21.11" = _twRgCuwx;
+        "fabric-26.1" = _twRgCuwx;
+        "fabric-26.1.1" = _twRgCuwx;
+        "fabric-26.1.2" = _twRgCuwx;
+        "fabric-26.2" = _twRgCuwx;
+        "fabric-26.3" = _twRgCuwx;
         "forge-1.20" = _cAjZ73oL;
         "forge-1.20.1" = _cAjZ73oL;
         "forge-1.20.2" = _cAjZ73oL;
@@ -290,9 +312,14 @@ let
         "forge-1.21.6" = _BQu5uXKT;
         "forge-1.21.7" = _BQu5uXKT;
         "forge-1.21.8" = _BQu5uXKT;
-        "forge-1.21.9" = _jeH5VEcd;
-        "forge-1.21.10" = _jeH5VEcd;
-        "forge-1.21.11" = _jeH5VEcd;
+        "forge-1.21.9" = _twRgCuwx;
+        "forge-1.21.10" = _twRgCuwx;
+        "forge-1.21.11" = _twRgCuwx;
+        "forge-26.1" = _twRgCuwx;
+        "forge-26.1.1" = _twRgCuwx;
+        "forge-26.1.2" = _twRgCuwx;
+        "forge-26.2" = _twRgCuwx;
+        "forge-26.3" = _twRgCuwx;
         "quilt-1.20" = _cAjZ73oL;
         "quilt-1.20.1" = _cAjZ73oL;
         "quilt-1.20.2" = _cAjZ73oL;
@@ -309,9 +336,14 @@ let
         "quilt-1.21.6" = _BQu5uXKT;
         "quilt-1.21.7" = _BQu5uXKT;
         "quilt-1.21.8" = _BQu5uXKT;
-        "quilt-1.21.9" = _jeH5VEcd;
-        "quilt-1.21.10" = _jeH5VEcd;
-        "quilt-1.21.11" = _jeH5VEcd;
+        "quilt-1.21.9" = _twRgCuwx;
+        "quilt-1.21.10" = _twRgCuwx;
+        "quilt-1.21.11" = _twRgCuwx;
+        "quilt-26.1" = _twRgCuwx;
+        "quilt-26.1.1" = _twRgCuwx;
+        "quilt-26.1.2" = _twRgCuwx;
+        "quilt-26.2" = _twRgCuwx;
+        "quilt-26.3" = _twRgCuwx;
         "neoforge-1.20" = _cAjZ73oL;
         "neoforge-1.20.1" = _cAjZ73oL;
         "neoforge-1.20.2" = _cAjZ73oL;
@@ -328,9 +360,14 @@ let
         "neoforge-1.21.6" = _BQu5uXKT;
         "neoforge-1.21.7" = _BQu5uXKT;
         "neoforge-1.21.8" = _BQu5uXKT;
-        "neoforge-1.21.9" = _jeH5VEcd;
-        "neoforge-1.21.10" = _jeH5VEcd;
-        "neoforge-1.21.11" = _jeH5VEcd;
+        "neoforge-1.21.9" = _twRgCuwx;
+        "neoforge-1.21.10" = _twRgCuwx;
+        "neoforge-1.21.11" = _twRgCuwx;
+        "neoforge-26.1" = _twRgCuwx;
+        "neoforge-26.1.1" = _twRgCuwx;
+        "neoforge-26.1.2" = _twRgCuwx;
+        "neoforge-26.2" = _twRgCuwx;
+        "neoforge-26.3" = _twRgCuwx;
         "pkg-1" = _b8HjVwDu;
         "pkg-1+mod" = _hRizZbSS;
         "pkg-1.1" = _IkffhVg8;
@@ -369,7 +406,9 @@ let
         "pkg-2.0.2+mod" = _yfmZQnQz;
         "pkg-2.1" = _sCGoL66U;
         "pkg-2.1+mod" = _jeH5VEcd;
-        "default" = _jeH5VEcd;
+        "pkg-2.3" = _9ewd5INh;
+        "pkg-2.3+mod" = _twRgCuwx;
+        "default" = _twRgCuwx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vegan-recipes";

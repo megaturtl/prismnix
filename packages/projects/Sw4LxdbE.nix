@@ -41,6 +41,16 @@ let
             "file" = "team_capes-fabric-1.1.1+1.21.jar";
             "hash" = "sha512-cBludJ0wKXG6WtjMZ24H5rvU//bN1FcEFbPyxMjtT4jMufvZoGOiyzoqqKnHdUECotuvjBiamsG6eMXe+z1qvA==";
         };
+        _kmuG9MOR = {
+            "id" = "kmuG9MOR";
+            "file" = "team_capes-neoforge-1.1.2+1.21.jar";
+            "hash" = "sha512-yG6DmzBRgpSRlncauj5fKGSv2sfIRUNydetWjjXNN3g4vnwnfjrAoR3zo/E27+964ag/tIFPNyVgZNf7rnW2fw==";
+        };
+        _Ds9pNqBK = {
+            "id" = "Ds9pNqBK";
+            "file" = "team_capes-fabric-1.1.2+1.21.jar";
+            "hash" = "sha512-CTJbueNvb5LUSa/yBjTQSRnw+RrRD0/04sboHGY93jz+dxCNApKDaFET/o1+uDaaI4HZj3Prwxd7EnalzFS2nw==";
+        };
     in {
         "F7sUJZcJ" = _F7sUJZcJ;
         "OJPCRE1u" = _OJPCRE1u;
@@ -50,6 +60,8 @@ let
         "kYqiQfAx" = _kYqiQfAx;
         "lKJr4Icc" = _lKJr4Icc;
         "7aDCzyJK" = _7aDCzyJK;
+        "kmuG9MOR" = _kmuG9MOR;
+        "Ds9pNqBK" = _Ds9pNqBK;
         "fabric-1.18.2" = _F7sUJZcJ;
         "fabric-1.19" = _F7sUJZcJ;
         "fabric-1.19.1" = _F7sUJZcJ;
@@ -61,7 +73,7 @@ let
         "fabric-1.20.2" = _F7sUJZcJ;
         "fabric-1.20.4" = _TZUGEtG7;
         "fabric-1.20.6" = _kYqiQfAx;
-        "fabric-1.21" = _7aDCzyJK;
+        "fabric-1.21" = _Ds9pNqBK;
         "forge-1.18.2" = _OJPCRE1u;
         "forge-1.19" = _OJPCRE1u;
         "forge-1.19.1" = _OJPCRE1u;
@@ -73,7 +85,7 @@ let
         "forge-1.20.2" = _OJPCRE1u;
         "neoforge-1.20.4" = _AKYJZ8CV;
         "neoforge-1.20.6" = _uXIGQID9;
-        "neoforge-1.21" = _lKJr4Icc;
+        "neoforge-1.21" = _kmuG9MOR;
         "pkg-1.0.0-fabric" = _F7sUJZcJ;
         "pkg-1.0.0-forge" = _OJPCRE1u;
         "pkg-1.1.0-neoforge" = _AKYJZ8CV;
@@ -82,7 +94,9 @@ let
         "pkg-1.1.0+1.20.6-fabric" = _kYqiQfAx;
         "pkg-1.1.1+1.21-neoforge" = _lKJr4Icc;
         "pkg-1.1.1+1.21-fabric" = _7aDCzyJK;
-        "default" = _7aDCzyJK;
+        "pkg-1.1.2+1.21-neoforge" = _kmuG9MOR;
+        "pkg-1.1.2+1.21-fabric" = _Ds9pNqBK;
+        "default" = _Ds9pNqBK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "team-capes";

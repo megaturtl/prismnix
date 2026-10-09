@@ -21,17 +21,24 @@ let
             "file" = "create_connected-fabric-1.1.13+patch.1-mc1.20.1.jar";
             "hash" = "sha512-uuW+HyvrrCHDFCAvKZ7UASefXYPYR31L+i2YfwbDRW/tc6NkK37zxaYCZ39+0jdtqXhBfKUmbu5ybqEvDPwNDQ==";
         };
+        _5oPcQah0 = {
+            "id" = "5oPcQah0";
+            "file" = "create_connected-fabric-1.2.3-mc1.20.1.jar";
+            "hash" = "sha512-ypzTVVW6lKTDmSqIyaG3y14F0pq3ehJQL1vMs2DBb1Dsod7Ur4qK+hbeiFLesv5tTZyGNi5WL869NOvdHGC3Jg==";
+        };
     in {
         "jHmrxolB" = _jHmrxolB;
         "S7xwyDWA" = _S7xwyDWA;
         "dmO5o3UP" = _dmO5o3UP;
         "qEZLHTNJ" = _qEZLHTNJ;
-        "fabric-1.20.1" = _qEZLHTNJ;
+        "5oPcQah0" = _5oPcQah0;
+        "fabric-1.20.1" = _5oPcQah0;
         "pkg-0.7.4-mc1.20.1+1.20.1" = _jHmrxolB;
         "pkg-0.7.4-mc1.20.1+1.20.1+HOTFIX" = _S7xwyDWA;
         "pkg-1.1.13-mc1.20.1" = _dmO5o3UP;
         "pkg-1.1.13+patch.1-mc1.20.1" = _qEZLHTNJ;
-        "default" = _qEZLHTNJ;
+        "pkg-1.2.3-mc1.20.1" = _5oPcQah0;
+        "default" = _5oPcQah0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-connected-fabric";

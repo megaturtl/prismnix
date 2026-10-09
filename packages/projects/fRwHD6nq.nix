@@ -61,6 +61,11 @@ let
             "file" = "catears-fabric-26.2-1.2.1.jar";
             "hash" = "sha512-pVqHSm28zY1Cm0jo0ZkagzO+A3L8cMwAXrH/k5Sq6GYG3hPtVhpiLr+39qJNqFwcmqEd3G4JCBGEX6vP3HJXvQ==";
         };
+        _su2KjuWk = {
+            "id" = "su2KjuWk";
+            "file" = "catears-fabric-26.2-1.3.0.jar";
+            "hash" = "sha512-6UDF80PPWHG1mhD0xppYAX70OaBgcwEnsjoKks5s038l1ITBVqBuEGwvVIIjZg/rDFaJZ8/0xYZF88xfVWo7LQ==";
+        };
     in {
         "wV6TA8Zp" = _wV6TA8Zp;
         "yrBJER3y" = _yrBJER3y;
@@ -74,15 +79,17 @@ let
         "EJgkJOpd" = _EJgkJOpd;
         "7e6KnX9o" = _7e6KnX9o;
         "UTthcIZ8" = _UTthcIZ8;
+        "su2KjuWk" = _su2KjuWk;
         "neoforge-1.21.1" = _wV6TA8Zp;
         "fabric-1.21.1" = _7e6KnX9o;
         "fabric-1.21.11" = _MtcXHp0i;
         "fabric-26.1.2" = _EJgkJOpd;
-        "fabric-26.2" = _UTthcIZ8;
+        "fabric-26.2" = _su2KjuWk;
         "pkg-1.0.0" = _mxmUlO7F;
         "pkg-1.1.0" = _5BVCjiVZ;
         "pkg-1.2.1" = _UTthcIZ8;
-        "default" = _UTthcIZ8;
+        "pkg-1.3.0" = _su2KjuWk;
+        "default" = _su2KjuWk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cat-ears-n-meows";

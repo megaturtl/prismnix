@@ -61,6 +61,11 @@ let
             "file" = "TaTesCustomArmorsAndElytrasV1_11.zip";
             "hash" = "sha512-39i3eVJcFYAfIrgvSDWo+ePkJvqw/oCenKqoh35wX30OhxK2d41t1M/XTCWMay08b52rDzVDQ7HZWqSY9QQJDA==";
         };
+        _VVj4U9aS = {
+            "id" = "VVj4U9aS";
+            "file" = "TaTesCustomArmorsAndElytrasV1_11.zip";
+            "hash" = "sha512-aKXY818blfx/WRONdG9jWqdjX8AKkRR98mzlVFgSB6eNSskzTFSE7gAcj49BbeDV3m+L9kQ1k87Ux+GYZqqT1w==";
+        };
     in {
         "TM1u9KEA" = _TM1u9KEA;
         "b8X1Ka7q" = _b8X1Ka7q;
@@ -74,6 +79,7 @@ let
         "Lsj9IstT" = _Lsj9IstT;
         "qvDF0SpV" = _qvDF0SpV;
         "UJjl3MYn" = _UJjl3MYn;
+        "VVj4U9aS" = _VVj4U9aS;
         "minecraft-1.18" = _Lsj9IstT;
         "minecraft-1.18.1" = _Lsj9IstT;
         "minecraft-1.18.2" = _Lsj9IstT;
@@ -96,7 +102,7 @@ let
         "minecraft-1.21.4" = _Lsj9IstT;
         "minecraft-1.21.9" = _qvDF0SpV;
         "minecraft-1.21.10" = _qvDF0SpV;
-        "minecraft-1.21.11" = _UJjl3MYn;
+        "minecraft-1.21.11" = _VVj4U9aS;
         "minecraft-1.16.1" = _Lsj9IstT;
         "minecraft-1.16.2" = _Lsj9IstT;
         "minecraft-1.16.3" = _Lsj9IstT;
@@ -104,7 +110,8 @@ let
         "minecraft-1.16.5" = _Lsj9IstT;
         "minecraft-1.17" = _Lsj9IstT;
         "minecraft-1.17.1" = _Lsj9IstT;
-        "minecraft-26.1.2" = _UJjl3MYn;
+        "minecraft-26.1.2" = _VVj4U9aS;
+        "minecraft-26.2" = _VVj4U9aS;
         "pkg-1.1" = _TM1u9KEA;
         "pkg-1.7" = _b8X1Ka7q;
         "pkg-1.8" = _CpiO1WKU;
@@ -117,7 +124,8 @@ let
         "pkg-1.9.2" = _Lsj9IstT;
         "pkg-1.10.2" = _qvDF0SpV;
         "pkg-1.11" = _UJjl3MYn;
-        "default" = _UJjl3MYn;
+        "pkg-1.11.01" = _VVj4U9aS;
+        "default" = _VVj4U9aS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tates-custom-armors-and-elytras";

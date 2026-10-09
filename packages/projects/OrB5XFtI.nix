@@ -781,6 +781,26 @@ let
             "file" = "CustomMachinery-neoforge-1.21.1-0.10.69.jar";
             "hash" = "sha512-ca1oSoj3BsuA2GUHK7iDLhak091QWJst6XKgoRl+qPD8XKjD071LW/VRF6J49XPA1qKrgf9uIgoEypRcvwbHqw==";
         };
+        _dig7FHZ1 = {
+            "id" = "dig7FHZ1";
+            "file" = "CustomMachinery-neoforge-1.21.1-0.10.70.jar";
+            "hash" = "sha512-nJBcNCjM44QKFxB/kgSYT5m03Bmm+Vpzjrcw8+rKvOUbH8Az0Y5MC/HAJORMRV1BlRmRKR9yJUVQF8DSPSI85Q==";
+        };
+        _vm9eDAuA = {
+            "id" = "vm9eDAuA";
+            "file" = "CustomMachinery-neoforge-1.21.1-0.10.71.jar";
+            "hash" = "sha512-LajLbaWl4Bc2C58w/sdfs/cP7wiezoLRAlz5lD0OxGSNg15VFUb9ssOSLHc/I2aFZwm9EQgK1zoYINBfWPMMRQ==";
+        };
+        _gL6Am0L0 = {
+            "id" = "gL6Am0L0";
+            "file" = "CustomMachinery-neoforge-1.21.1-0.10.72.jar";
+            "hash" = "sha512-P7WMcZWXsRRh+XISzMg4crdQN5kwFw0BdQPkatvCVwLls6fl3qdVVCtIJB2syQmOH8gVP3ncJ+8uv4oTTHVEgA==";
+        };
+        _cmGiAbeh = {
+            "id" = "cmGiAbeh";
+            "file" = "CustomMachinery-neoforge-1.21.1-0.10.73.jar";
+            "hash" = "sha512-7UTM/zVAAbXi8eiIVNUYCrBeox+yqOME62HUMwbs9q/RZieXMAubnqsHMRvaOGHhYlckjypB41SgM9ogRC23fQ==";
+        };
     in {
         "5Z9zNa5p" = _5Z9zNa5p;
         "UX3IQtLz" = _UX3IQtLz;
@@ -938,12 +958,16 @@ let
         "BcN7W1RW" = _BcN7W1RW;
         "cEkF1Sxn" = _cEkF1Sxn;
         "CK9aNyfU" = _CK9aNyfU;
+        "dig7FHZ1" = _dig7FHZ1;
+        "vm9eDAuA" = _vm9eDAuA;
+        "gL6Am0L0" = _gL6Am0L0;
+        "cmGiAbeh" = _cmGiAbeh;
         "forge-1.18.2" = _rMreUzEa;
         "forge-1.19.2" = _xyUH9p0p;
         "fabric-1.18.2" = _KFZamGKx;
         "fabric-1.19.2" = _Cnrk4fz0;
         "neoforge-1.21" = _CK9aNyfU;
-        "neoforge-1.21.1" = _CK9aNyfU;
+        "neoforge-1.21.1" = _cmGiAbeh;
         "pkg-0.6.4" = _5Z9zNa5p;
         "pkg-1.18.2-0.6.5" = _UX3IQtLz;
         "pkg-1.18.2-0.6.6" = _2O1tLbqk;
@@ -1061,7 +1085,11 @@ let
         "pkg-1.21.1-0.10.67" = _BcN7W1RW;
         "pkg-1.21.1-0.10.68" = _cEkF1Sxn;
         "pkg-1.21.1-0.10.69" = _CK9aNyfU;
-        "default" = _CK9aNyfU;
+        "pkg-1.21.1-0.10.70" = _dig7FHZ1;
+        "pkg-1.21.1-0.10.71" = _vm9eDAuA;
+        "pkg-1.21.1-0.10.72" = _gL6Am0L0;
+        "pkg-1.21.1-0.10.73" = _cmGiAbeh;
+        "default" = _cmGiAbeh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "custom-machinery";

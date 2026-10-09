@@ -241,6 +241,11 @@ let
             "file" = "toms_mobs-3.0.3+26.1.2.jar";
             "hash" = "sha512-jXXAtLqqGtrlGCG5BLRJ84y7FJGYSBlc5et1QCRGIBos8k0QYIQ8Vwk36e/Ot5ObU1UVwiXX3epceoH3MgqHpg==";
         };
+        _RVfpSO1w = {
+            "id" = "RVfpSO1w";
+            "file" = "toms_mobs-3.2.0+26.3.jar";
+            "hash" = "sha512-9tjixT2dLUErD2ymz2jSanbyw94zLIFrprAcd1/nSsW3V0wT97MJN2vp0VzRvzqgjsXC+hbELOSqKQoIeMsHAQ==";
+        };
     in {
         "OTG0YM6c" = _OTG0YM6c;
         "FJ1PwPFt" = _FJ1PwPFt;
@@ -290,6 +295,7 @@ let
         "qDSqZMXT" = _qDSqZMXT;
         "YLN4EPjs" = _YLN4EPjs;
         "aci9E1Ep" = _aci9E1Ep;
+        "RVfpSO1w" = _RVfpSO1w;
         "fabric-1.21" = _pDDnyIPS;
         "fabric-1.21.1" = _pDDnyIPS;
         "fabric-1.20.1" = _F9BVm2GC;
@@ -311,6 +317,7 @@ let
         "fabric-26.1.1" = _aci9E1Ep;
         "fabric-26.1.2" = _aci9E1Ep;
         "fabric-26.2" = _aci9E1Ep;
+        "fabric-26.3" = _RVfpSO1w;
         "pkg-2.1.0+1.21" = _OTG0YM6c;
         "pkg-2.1.0+1.20.1" = _FJ1PwPFt;
         "pkg-2.1.1+1.21" = _3CpUqUBD;
@@ -359,7 +366,8 @@ let
         "pkg-3.0.2+1.21.11" = _qDSqZMXT;
         "pkg-3.0.3+26.1" = _YLN4EPjs;
         "pkg-3.0.3+26.1.2" = _aci9E1Ep;
-        "default" = _aci9E1Ep;
+        "pkg-3.2.0+26.3" = _RVfpSO1w;
+        "default" = _RVfpSO1w;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "toms-mobs";

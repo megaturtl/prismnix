@@ -76,6 +76,16 @@ let
             "file" = "lasereyes-forge-1.3.2.jar";
             "hash" = "sha512-oDEJG3J+4rLyt6lVovY1ZE41595q17+6bwWD4ntx9+kEwNidx7HubDY035nPFu6mcozj2+AyOxdErbi0f/OsBg==";
         };
+        _rzAvm8B1 = {
+            "id" = "rzAvm8B1";
+            "file" = "lasereyes-1.3.3.jar";
+            "hash" = "sha512-SPskgAYsf0xWk5TNWyc1SUB8TrI+nOr6s1D6cEQ4pedZnaGKkuCOcVOdyrLZJZ9j4lW5Itg7oq7yB3nFoDqJaA==";
+        };
+        _1bz3ShQZ = {
+            "id" = "1bz3ShQZ";
+            "file" = "lasereyes-forge-1.3.3.jar";
+            "hash" = "sha512-N3TVKIWD0nGb4aSaZEITZol8TJDchAE5zBWWF2Eexn1YP/zlY8xlE6iiPFxbm2YfxCowjkNGZRWzirPwLdHvHw==";
+        };
     in {
         "4seKBv6j" = _4seKBv6j;
         "LmQ2bPNQ" = _LmQ2bPNQ;
@@ -92,8 +102,10 @@ let
         "ihbCXkdN" = _ihbCXkdN;
         "rMkoJcXn" = _rMkoJcXn;
         "H3izMxcI" = _H3izMxcI;
-        "fabric-1.20.1" = _rMkoJcXn;
-        "forge-1.20.1" = _H3izMxcI;
+        "rzAvm8B1" = _rzAvm8B1;
+        "1bz3ShQZ" = _1bz3ShQZ;
+        "fabric-1.20.1" = _rzAvm8B1;
+        "forge-1.20.1" = _1bz3ShQZ;
         "pkg-1.0.0" = _4seKBv6j;
         "pkg-1.0.1" = _LmQ2bPNQ;
         "pkg-1.1.0" = _SbqIu7lc;
@@ -104,7 +116,8 @@ let
         "pkg-1.3.0" = _cqJ5ejyC;
         "pkg-1.3.1" = _ihbCXkdN;
         "pkg-1.3.2" = _H3izMxcI;
-        "default" = _H3izMxcI;
+        "pkg-1.3.3" = _1bz3ShQZ;
+        "default" = _1bz3ShQZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "laser-eyes";

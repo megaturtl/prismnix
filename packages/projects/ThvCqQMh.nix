@@ -66,6 +66,11 @@ let
             "file" = "tinyredstone-26.2-8.0.1.jar";
             "hash" = "sha512-fGkCL0+s90YKvl9D3Ia/zgL0AJ2+BQYc7kP+rhOUtxBjBEjGK7fVXCeJIHRPFmTlzwcoKWdsm2e2HZ7ReOST4g==";
         };
+        _4uQERxfA = {
+            "id" = "4uQERxfA";
+            "file" = "tinyredstone-26.3-9.0.0.jar";
+            "hash" = "sha512-+kJ/2bW5hyTdWPqBBGLnDXRSf0I814ZrhhZX4SGdhWClIzzCkwBDXu3Vg5vjpGUZb1A2Wf+O20yUMFljOrp0gg==";
+        };
     in {
         "JLDUXwai" = _JLDUXwai;
         "imdueWC9" = _imdueWC9;
@@ -80,11 +85,13 @@ let
         "IEW4bAms" = _IEW4bAms;
         "WMiFY8q7" = _WMiFY8q7;
         "ckAeMHpD" = _ckAeMHpD;
+        "4uQERxfA" = _4uQERxfA;
         "neoforge-1.21.1" = _WMiFY8q7;
         "neoforge-26.1" = _O6mbzNsD;
         "neoforge-26.1.1" = _O6mbzNsD;
         "neoforge-26.1.2" = _O6mbzNsD;
         "neoforge-26.2" = _ckAeMHpD;
+        "neoforge-26.3" = _4uQERxfA;
         "forge-1.20" = _imdueWC9;
         "forge-1.20.1" = _imdueWC9;
         "pkg-1.21.1-6.1.0" = _JLDUXwai;
@@ -100,7 +107,8 @@ let
         "pkg-26.2-8.0.0" = _IEW4bAms;
         "pkg-1.21.1-6.1.6" = _WMiFY8q7;
         "pkg-26.2-8.0.1" = _ckAeMHpD;
-        "default" = _ckAeMHpD;
+        "pkg-26.3-9.0.0" = _4uQERxfA;
+        "default" = _4uQERxfA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tiny-redstone";

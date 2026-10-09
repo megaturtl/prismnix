@@ -306,6 +306,26 @@ let
             "file" = "kevs_attributes_panel-forge-1.3.4.jar";
             "hash" = "sha512-rPdCEpO1QBJwzvULEoQWcq2GMAuUBW0f9PCgAjmkhVSUyEuM5uuuTDeJF4jYZlE5VW3xFQuEb92JeqJ+gjW/3g==";
         };
+        _5IXuyRsJ = {
+            "id" = "5IXuyRsJ";
+            "file" = "kevs_attributes_panel-neoforge-1.3.5.jar";
+            "hash" = "sha512-+cYH95LwriMdB08vcrGv8UuAUQFNTdhD+/rdUcnKDuH5nXSEk6JmZHFPmvnF8D9+Nib/19HefSN1XYy5aexuWA==";
+        };
+        _F7gnVALW = {
+            "id" = "F7gnVALW";
+            "file" = "kevs_attributes_panel-fabric-1.3.5.jar";
+            "hash" = "sha512-JEjfpk0su0prBDCS3Xrqaug4G3XR4rsTCDO6rihWoUEOjHXHIL634AAZ/T617csZcvkHCVhPN2q7+k+MnIwtEg==";
+        };
+        _JfyZWFAc = {
+            "id" = "JfyZWFAc";
+            "file" = "kevs_attributes_panel-forge-1.3.5.jar";
+            "hash" = "sha512-UaiUqtCwDvOG4Drg7i6tWzOb3hMIjVMhjKao36x0BlwkLsDL/+/nVFbeuug7F14I4F2w8bYhDjpD4zwPVEjYfg==";
+        };
+        _sqyOPny3 = {
+            "id" = "sqyOPny3";
+            "file" = "kevs_attributes_panel-fabric-1.3.5.jar";
+            "hash" = "sha512-xuVIYX+KAWirnYcDdc21SnChKXZ9Oq67CLo02mgGHon7a2RFoHXJLu2okDFWi+At9E/naCaQCDehLj6QrB8/qw==";
+        };
     in {
         "ih7A4fhk" = _ih7A4fhk;
         "Pyq1TNUV" = _Pyq1TNUV;
@@ -368,10 +388,14 @@ let
         "dYgeAhYB" = _dYgeAhYB;
         "1mklcBxf" = _1mklcBxf;
         "UH2HeZoG" = _UH2HeZoG;
-        "fabric-1.21.1" = _dYgeAhYB;
-        "fabric-1.20.1" = _1mklcBxf;
-        "neoforge-1.21.1" = _zP6D00xI;
-        "forge-1.20.1" = _UH2HeZoG;
+        "5IXuyRsJ" = _5IXuyRsJ;
+        "F7gnVALW" = _F7gnVALW;
+        "JfyZWFAc" = _JfyZWFAc;
+        "sqyOPny3" = _sqyOPny3;
+        "fabric-1.21.1" = _F7gnVALW;
+        "fabric-1.20.1" = _sqyOPny3;
+        "neoforge-1.21.1" = _5IXuyRsJ;
+        "forge-1.20.1" = _JfyZWFAc;
         "pkg-1.0.0" = _ih7A4fhk;
         "pkg-1.0.5" = _Pyq1TNUV;
         "pkg-1.0.6" = _1jJodXwF;
@@ -414,7 +438,8 @@ let
         "pkg-1.3.2" = _i1igsNGC;
         "pkg-1.3.3" = _A8YYWnY8;
         "pkg-1.3.4" = _UH2HeZoG;
-        "default" = _UH2HeZoG;
+        "pkg-1.3.5" = _sqyOPny3;
+        "default" = _sqyOPny3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kevs-attributes-panel";

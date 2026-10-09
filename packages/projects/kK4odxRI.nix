@@ -51,6 +51,16 @@ let
             "file" = "air-jump-enchantment-2.0.0.jar";
             "hash" = "sha512-a8+yEDd1jMJi16+af68I6AXcHWialrqEtqrzdfO/sBZiexmtSuOuMJSQ+16rHkkfsEjipnIeI9HMSYRsBHvo1A==";
         };
+        _7xIViiqR = {
+            "id" = "7xIViiqR";
+            "file" = "Air Jump Enchantment v2.0.0 [26.3].zip";
+            "hash" = "sha512-I2FNqVr5meF/6f/iHQgwk6WxEu8Mez9pdIQ/br2Ls83U6A2OEgayQ4moB3jUIZMu+HpASxzLyfm4SGwK5T7vHg==";
+        };
+        _u255Z0Qr = {
+            "id" = "u255Z0Qr";
+            "file" = "air-jump-enchantment-2.0.0.jar";
+            "hash" = "sha512-bY43Qj/k9k6OBT/+EO9SdNnQzML2vT2S4yLtcOhUmGiqESRV4ixyI97eIuV9k8glYcI11P7Ju1ce6FUOzfadfw==";
+        };
     in {
         "wT7kcc5A" = _wT7kcc5A;
         "eS7Sjxwj" = _eS7Sjxwj;
@@ -62,6 +72,8 @@ let
         "Ks8OOSGw" = _Ks8OOSGw;
         "q2NtVrsQ" = _q2NtVrsQ;
         "FcEEjCxV" = _FcEEjCxV;
+        "7xIViiqR" = _7xIViiqR;
+        "u255Z0Qr" = _u255Z0Qr;
         "datapack-1.21.2" = _wT7kcc5A;
         "datapack-1.21.3" = _wT7kcc5A;
         "datapack-1.21.4" = _wT7kcc5A;
@@ -78,6 +90,7 @@ let
         "datapack-26.1.1" = _edxBJTu5;
         "datapack-26.1.2" = _edxBJTu5;
         "datapack-26.2" = _Ks8OOSGw;
+        "datapack-26.3" = _7xIViiqR;
         "fabric-1.21.2" = _eS7Sjxwj;
         "fabric-1.21.3" = _eS7Sjxwj;
         "fabric-1.21.4" = _eS7Sjxwj;
@@ -94,6 +107,7 @@ let
         "fabric-26.1.1" = _q2NtVrsQ;
         "fabric-26.1.2" = _q2NtVrsQ;
         "fabric-26.2" = _FcEEjCxV;
+        "fabric-26.3" = _u255Z0Qr;
         "forge-1.21.2" = _eS7Sjxwj;
         "forge-1.21.3" = _eS7Sjxwj;
         "forge-1.21.4" = _eS7Sjxwj;
@@ -110,6 +124,7 @@ let
         "forge-26.1.1" = _q2NtVrsQ;
         "forge-26.1.2" = _q2NtVrsQ;
         "forge-26.2" = _FcEEjCxV;
+        "forge-26.3" = _u255Z0Qr;
         "neoforge-1.21.2" = _eS7Sjxwj;
         "neoforge-1.21.3" = _eS7Sjxwj;
         "neoforge-1.21.4" = _eS7Sjxwj;
@@ -126,6 +141,7 @@ let
         "neoforge-26.1.1" = _q2NtVrsQ;
         "neoforge-26.1.2" = _q2NtVrsQ;
         "neoforge-26.2" = _FcEEjCxV;
+        "neoforge-26.3" = _u255Z0Qr;
         "quilt-1.21.2" = _eS7Sjxwj;
         "quilt-1.21.3" = _eS7Sjxwj;
         "quilt-1.21.4" = _eS7Sjxwj;
@@ -142,15 +158,16 @@ let
         "quilt-26.1.1" = _q2NtVrsQ;
         "quilt-26.1.2" = _q2NtVrsQ;
         "quilt-26.2" = _FcEEjCxV;
+        "quilt-26.3" = _u255Z0Qr;
         "pkg-v1.0.1" = _wT7kcc5A;
         "pkg-v1.0.1+mod" = _eS7Sjxwj;
         "pkg-v1.0.2" = _K5CcH2I7;
         "pkg-v1.0.2+mod" = _9F3QZPK4;
         "pkg-v2.0.0" = _edxBJTu5;
-        "pkg-2.0.0" = _Ks8OOSGw;
+        "pkg-2.0.0" = _7xIViiqR;
         "pkg-v2.0.0+mod" = _q2NtVrsQ;
-        "pkg-2.0.0+mod" = _FcEEjCxV;
-        "default" = _FcEEjCxV;
+        "pkg-2.0.0+mod" = _u255Z0Qr;
+        "default" = _u255Z0Qr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "air-jump-enchantment";

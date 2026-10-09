@@ -126,6 +126,11 @@ let
             "file" = "CottageCraft-2.1.1-1.26.2.jar";
             "hash" = "sha512-Oy8MgdjSJ5Rmu0JH5KmxqCQQ6MjSLCuahFDlHiT5f1MfS+xCae4hHO3HxkTN8ywlmY14cJ8sY+ldmhV5gq+x/w==";
         };
+        _9uwUjXV4 = {
+            "id" = "9uwUjXV4";
+            "file" = "CottageCraft-2.1.2-1.26.3.jar";
+            "hash" = "sha512-An5yqHlwosazllkz8P0JBEyms6V0b+5lN2tc+9DyjmgJka7IPInNHdCMQ50sgdOJ3jsnZhBGWOk4aqC4VN1slA==";
+        };
     in {
         "OnKqa7oV" = _OnKqa7oV;
         "YK7EyQvs" = _YK7EyQvs;
@@ -152,6 +157,7 @@ let
         "qGiDQJe3" = _qGiDQJe3;
         "L9IcUWYR" = _L9IcUWYR;
         "R2eZzVP9" = _R2eZzVP9;
+        "9uwUjXV4" = _9uwUjXV4;
         "fabric-1.20" = _ccY1pEax;
         "fabric-1.20.1" = _ccY1pEax;
         "fabric-1.20.2" = _GKOfr1kS;
@@ -175,6 +181,7 @@ let
         "fabric-26.1.1" = _qGiDQJe3;
         "fabric-26.1.2" = _qGiDQJe3;
         "fabric-26.2" = _R2eZzVP9;
+        "fabric-26.3" = _9uwUjXV4;
         "pkg-1.0.0-1.20+" = _OnKqa7oV;
         "pkg-1.2.0-1.20+" = _YK7EyQvs;
         "pkg-1.3.0-1.20+" = _7jPrd8lH;
@@ -200,7 +207,8 @@ let
         "pkg-2.0.0-1.26.1" = _qGiDQJe3;
         "pkg-2.1.0-1.26.2" = _L9IcUWYR;
         "pkg-2.1.1-1.26.2" = _R2eZzVP9;
-        "default" = _R2eZzVP9;
+        "pkg-2.1.2-1.26.3" = _9uwUjXV4;
+        "default" = _9uwUjXV4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cottagecraft-mod";

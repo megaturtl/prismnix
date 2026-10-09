@@ -46,6 +46,11 @@ let
             "file" = "Dripped PvP 26.2.zip";
             "hash" = "sha512-1F31vxswRqh9DH9WCdCURsGsEse3mHXG5swf9eAGIZUixVDayS2VQqqTe3rHUHiK5rllDxkF389MUrx9XyqeDA==";
         };
+        _ItSxlPK0 = {
+            "id" = "ItSxlPK0";
+            "file" = "Dripped 26.3.zip";
+            "hash" = "sha512-J0fQVITA1jYUa4/xJDWJbob5oV+LlDSUE9V2plYTvBQu+7pFNf36gL7HM6dv1AFnPRpSVZ65i6qtos9FJeiwGw==";
+        };
     in {
         "JzSoczoe" = _JzSoczoe;
         "LI51Nl9I" = _LI51Nl9I;
@@ -56,6 +61,7 @@ let
         "qVK6F9JG" = _qVK6F9JG;
         "kSIhfibO" = _kSIhfibO;
         "AuBxrGSW" = _AuBxrGSW;
+        "ItSxlPK0" = _ItSxlPK0;
         "minecraft-1.20" = _JzSoczoe;
         "minecraft-1.20.1" = _JzSoczoe;
         "minecraft-1.21" = _LI51Nl9I;
@@ -74,9 +80,11 @@ let
         "minecraft-26.1.1" = _kSIhfibO;
         "minecraft-26.1.2" = _kSIhfibO;
         "minecraft-26.2" = _AuBxrGSW;
+        "minecraft-26.3" = _ItSxlPK0;
         "pkg-1.0" = _kSIhfibO;
         "pkg-26.2" = _AuBxrGSW;
-        "default" = _AuBxrGSW;
+        "pkg-26.3" = _ItSxlPK0;
+        "default" = _ItSxlPK0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dripped-pvp";

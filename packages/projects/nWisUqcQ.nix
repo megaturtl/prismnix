@@ -66,6 +66,11 @@ let
             "file" = "Rethoughted GUI.zip";
             "hash" = "sha512-11S2GkwKdQ3sOOTRH3meNkyCGv5v2+uRYNubBjFOXHaiUFMyj+06eJNCwqtJFaTzuLxQxrHdGL1Rea8viePZiw==";
         };
+        _hZFg3Aid = {
+            "id" = "hZFg3Aid";
+            "file" = "Rethoughted GUI.zip";
+            "hash" = "sha512-EW6fcKOlNk8ASovv1gfzgDtAeU7Ouzha1S9u0Cq1ZVjTYybMAMNdf/M8bmUgsP1z4rOqRbZsaR4cMl8xENX3MQ==";
+        };
     in {
         "xrhnEieF" = _xrhnEieF;
         "rYGyD4eo" = _rYGyD4eo;
@@ -80,6 +85,7 @@ let
         "c92vkWYT" = _c92vkWYT;
         "Tv23piw4" = _Tv23piw4;
         "zlObsVVC" = _zlObsVVC;
+        "hZFg3Aid" = _hZFg3Aid;
         "minecraft-1.21.4" = _rYGyD4eo;
         "minecraft-1.21.5" = _nTIiCepR;
         "minecraft-1.21.6" = _hxTCK281;
@@ -92,6 +98,7 @@ let
         "minecraft-26.1.1" = _Tv23piw4;
         "minecraft-26.1.2" = _Tv23piw4;
         "minecraft-26.2" = _zlObsVVC;
+        "minecraft-26.3" = _hZFg3Aid;
         "pkg-0.1" = _xrhnEieF;
         "pkg-0.1.1" = _rYGyD4eo;
         "pkg-0.2" = _BaOGfd8c;
@@ -104,7 +111,8 @@ let
         "pkg-1.2.1" = _c92vkWYT;
         "pkg-1.2.2" = _Tv23piw4;
         "pkg-1.2.3" = _zlObsVVC;
-        "default" = _zlObsVVC;
+        "pkg-1.2.4" = _hZFg3Aid;
+        "default" = _hZFg3Aid;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rethoughted-gui";

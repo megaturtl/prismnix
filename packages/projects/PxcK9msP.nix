@@ -1331,6 +1331,11 @@ let
             "file" = "pas-0.10.1-FBR-26.2.jar";
             "hash" = "sha512-H0IrpQHkT0S6BncaZRlZ/hNMxRHkBKEYLBOSoc8GGG3gZ60zKKrzhwObOp2GzwmDSpw+gwkZJ+iNc5sXaZlBAQ==";
         };
+        _zRX5Wxpm = {
+            "id" = "zRX5Wxpm";
+            "file" = "pas-0.10.1-FBR-26.3.jar";
+            "hash" = "sha512-8DGLmOIyeCBmwdBJFT/eK9qzIJPCuWJccZ5OPWoA+tTtV/umZAOrO84yRqCJ7nfwSmLJ5Sm+UxjdwxYs21cTug==";
+        };
     in {
         "5Cqvt175" = _5Cqvt175;
         "4FsoDe2H" = _4FsoDe2H;
@@ -1598,6 +1603,7 @@ let
         "mnxMIV4n" = _mnxMIV4n;
         "KqOvlVs4" = _KqOvlVs4;
         "XImA1ohg" = _XImA1ohg;
+        "zRX5Wxpm" = _zRX5Wxpm;
         "fabric-1.21.4" = _UORwN1kh;
         "fabric-1.21" = _Vf3vZnst;
         "fabric-1.21.1" = _Vf3vZnst;
@@ -1629,6 +1635,7 @@ let
         "fabric-26.1.1" = _KqOvlVs4;
         "fabric-26.1.2" = _KqOvlVs4;
         "fabric-26.2" = _XImA1ohg;
+        "fabric-26.3" = _zRX5Wxpm;
         "neoforge-1.21.4" = _TUSmf70B;
         "neoforge-1.21" = _owePslaK;
         "neoforge-1.21.1" = _owePslaK;
@@ -1852,7 +1859,8 @@ let
         "pkg-0.10.0-FBR-26.2" = _mnxMIV4n;
         "pkg-0.10.1-FBR-26.1" = _KqOvlVs4;
         "pkg-0.10.1-FBR-26.2" = _XImA1ohg;
-        "default" = _XImA1ohg;
+        "pkg-0.10.1-FBR-26.3" = _zRX5Wxpm;
+        "default" = _zRX5Wxpm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "player-armor-stands";

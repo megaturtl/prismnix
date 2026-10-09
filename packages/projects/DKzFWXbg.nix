@@ -261,6 +261,16 @@ let
             "file" = "OverpoweredMending-26.2-25.jar";
             "hash" = "sha512-NGW12tik1C12XMJZxoTkIOCQwqoMLT+DGgr8dOTfpxRXvc6tllb2Iws9UPdB+2TwzJlgNaQPGOQ1OFWJK/C8QA==";
         };
+        _32N8i9vb = {
+            "id" = "32N8i9vb";
+            "file" = "OverpoweredMending-26.2-25.jar";
+            "hash" = "sha512-iMJzTcnKn9Jf2Y/vHCfW881TpwzyMWmdZdxJuW5K7eJCS3xnYbmKT3j90aJ/N6AHOVsVfRikT152RNhj0MTEfw==";
+        };
+        _sc1dp98d = {
+            "id" = "sc1dp98d";
+            "file" = "OverpoweredMending-26.3-25.jar";
+            "hash" = "sha512-g7qtWBTRpoRvj+P3Z/YnAUpDy8F35LaUyy+2tBAAoTzmp/9jQycIXWq0zE6uHL9/vPHrdDYzrI/dCpdBpYM2dQ==";
+        };
     in {
         "Ots4Ki7d" = _Ots4Ki7d;
         "lfPgjcbt" = _lfPgjcbt;
@@ -314,6 +324,8 @@ let
         "aeJTLRPN" = _aeJTLRPN;
         "duOul2SE" = _duOul2SE;
         "hSTKPQQe" = _hSTKPQQe;
+        "32N8i9vb" = _32N8i9vb;
+        "sc1dp98d" = _sc1dp98d;
         "fabric-1.16.5" = _Ots4Ki7d;
         "fabric-1.17" = _lfPgjcbt;
         "fabric-1.17.1" = _1Rbuydxb;
@@ -348,7 +360,8 @@ let
         "fabric-26.1" = _u22Iv2Cf;
         "fabric-26.1.1" = _aeJTLRPN;
         "fabric-26.1.2" = _duOul2SE;
-        "fabric-26.2" = _hSTKPQQe;
+        "fabric-26.2" = _32N8i9vb;
+        "fabric-26.3" = _sc1dp98d;
         "forge-1.16.5" = _Ots4Ki7d;
         "forge-1.17.1" = _1Rbuydxb;
         "forge-1.18" = _8Zn4Ne9V;
@@ -379,7 +392,8 @@ let
         "forge-26.1" = _u22Iv2Cf;
         "forge-26.1.1" = _aeJTLRPN;
         "forge-26.1.2" = _duOul2SE;
-        "forge-26.2" = _hSTKPQQe;
+        "forge-26.2" = _32N8i9vb;
+        "forge-26.3" = _sc1dp98d;
         "neoforge-1.20.6" = _4fC9oeXi;
         "neoforge-1.21" = _t2WzDf61;
         "neoforge-1.21.1" = _IazMYtZP;
@@ -396,7 +410,8 @@ let
         "neoforge-26.1" = _u22Iv2Cf;
         "neoforge-26.1.1" = _aeJTLRPN;
         "neoforge-26.1.2" = _duOul2SE;
-        "neoforge-26.2" = _hSTKPQQe;
+        "neoforge-26.2" = _32N8i9vb;
+        "neoforge-26.3" = _sc1dp98d;
         "pkg-1.16.5-2.2.3" = _Ots4Ki7d;
         "pkg-1.17-2.2.3" = _lfPgjcbt;
         "pkg-1.17.1-2.2.4" = _ZrM1DDGN;
@@ -449,7 +464,9 @@ let
         "pkg-26.1.1-26.1.1.1" = _aeJTLRPN;
         "pkg-26.1.2-26.1.2.1" = _duOul2SE;
         "pkg-26.2-26.2.0.1" = _hSTKPQQe;
-        "default" = _hSTKPQQe;
+        "pkg-26.2-26.2.0.2" = _32N8i9vb;
+        "pkg-26.3-26.3.0.1" = _sc1dp98d;
+        "default" = _sc1dp98d;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "overpoweredmending";

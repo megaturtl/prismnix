@@ -116,6 +116,36 @@ let
             "file" = "turbines-mc1.21.1-1.2.209.jar";
             "hash" = "sha512-Z2Bdf8UDBfJkbs0xvRHxwbj/Ey8T4fOhbTK0oBO6+o2S1raO8dWAnGaKJGM9GiV36b2+T4bueB8IoQVU3ALLaw==";
         };
+        _jTTHjXHx = {
+            "id" = "jTTHjXHx";
+            "file" = "turbines-mc1.21.1-1.2.212.jar";
+            "hash" = "sha512-8iMuq3PTokUHpgudXvCcGZaI7q1ezUA//ruuTL4zUQP3SdGA2ORowaWWgyQ8i96rB22Fg+1QFQKtHXzPcYb9jA==";
+        };
+        _tpLFvpx7 = {
+            "id" = "tpLFvpx7";
+            "file" = "turbines-mc1.21.1-1.2.214.jar";
+            "hash" = "sha512-DUrP7n0qAc87nXJmOCnWY81N5k1QUyTRWwV8ALTd9KVo3E4crRKJYnSnlLTzvMZOoC/Ev56S7XRXUux2M7csfA==";
+        };
+        _dgcihuWN = {
+            "id" = "dgcihuWN";
+            "file" = "turbines-mc1.21.1-1.2.222.jar";
+            "hash" = "sha512-07VoaFGvbLdITyzkFTH2tfvvRsy3aD0S0shX83DyqF2646RHc2rSsvj0YNYk7eXLkjPeSHS/LZ+scONqClWWZw==";
+        };
+        _lLqHmTSU = {
+            "id" = "lLqHmTSU";
+            "file" = "turbines-mc1.21.1-1.3.228.jar";
+            "hash" = "sha512-Ebq/e8aGEAEcsgd3IVe05Fryc5z3ohQ/J9D4WM7VlY8wb+cQ3ZMLDm0wbcYy0LwDPQfOcjjMNr6Zb/O0+j9A8Q==";
+        };
+        _jwGB5C8f = {
+            "id" = "jwGB5C8f";
+            "file" = "turbines-mc1.21.1-1.3.232.jar";
+            "hash" = "sha512-iAnD6UnuEaqHVZ6AjvDxFjsaLXonBornGZpS8b+i2OqXcEHBCDkp1QGhsrPv3+xT9e672YXli5fKEzjlgv7Dlg==";
+        };
+        _BRda4oJ0 = {
+            "id" = "BRda4oJ0";
+            "file" = "turbines-mc1.21.1-1.3.233.jar";
+            "hash" = "sha512-29znLZu/k5pNWfampa1k1AeeWel8vjUWCVPDR8BFkPPEP2GC5RovoehFRe5iUpzHPWkAk21iCg8EQbjdNk1Hrw==";
+        };
     in {
         "cQLlbpsA" = _cQLlbpsA;
         "SoTDnWRn" = _SoTDnWRn;
@@ -140,7 +170,13 @@ let
         "Dh9E0Leq" = _Dh9E0Leq;
         "DebzPzr3" = _DebzPzr3;
         "Yoy7jcec" = _Yoy7jcec;
-        "neoforge-1.21.1" = _Yoy7jcec;
+        "jTTHjXHx" = _jTTHjXHx;
+        "tpLFvpx7" = _tpLFvpx7;
+        "dgcihuWN" = _dgcihuWN;
+        "lLqHmTSU" = _lLqHmTSU;
+        "jwGB5C8f" = _jwGB5C8f;
+        "BRda4oJ0" = _BRda4oJ0;
+        "neoforge-1.21.1" = _BRda4oJ0;
         "pkg-1.21.1-1.0.127" = _cQLlbpsA;
         "pkg-1.21.1-1.0.128" = _SoTDnWRn;
         "pkg-1.21.1-1.0.129" = _QG7Pdaqz;
@@ -164,7 +200,13 @@ let
         "pkg-1.21.1-1.2.205" = _Dh9E0Leq;
         "pkg-1.21.1-1.2.208" = _DebzPzr3;
         "pkg-1.21.1-1.2.209" = _Yoy7jcec;
-        "default" = _Yoy7jcec;
+        "pkg-1.21.1-1.2.212" = _jTTHjXHx;
+        "pkg-1.21.1-1.2.214" = _tpLFvpx7;
+        "pkg-1.21.1-1.2.222" = _dgcihuWN;
+        "pkg-1.21.1-1.3.228-BETA" = _lLqHmTSU;
+        "pkg-1.21.1-1.3.232" = _jwGB5C8f;
+        "pkg-1.21.1-1.3.233" = _BRda4oJ0;
+        "default" = _BRda4oJ0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-turbines";

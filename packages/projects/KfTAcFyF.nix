@@ -91,6 +91,16 @@ let
             "file" = "taller-forests-v2.5.jar";
             "hash" = "sha512-kP5wC60Pp5yBCVt5nkHaAKlux68ik3vsqIgiadBdfTtmUd4gaTmO2u8/xGcRpVeIIFFL6QXVdr0FU/FFuSdxpQ==";
         };
+        _XCMyrU3Z = {
+            "id" = "XCMyrU3Z";
+            "file" = "taller_forests_v3.0_26.3.zip";
+            "hash" = "sha512-RwASz2HjdDIWfyX+KTzCIO6vsOfivTen1LFWCTsu1/PhZg6YZrPxMLozPnXFZ8haAOi1jzJQVJ3DoUJrDb9TGA==";
+        };
+        _opedeSPp = {
+            "id" = "opedeSPp";
+            "file" = "taller-forests-v3.0.jar";
+            "hash" = "sha512-9SzOWpjStmXNmc4mskNgdHjQVclxshX3DzBF6ol4hGtILLVle76BRy2edoSq6IRl+iQbBv9unyX5UUBCo9UOYA==";
+        };
     in {
         "MIGWVIdL" = _MIGWVIdL;
         "7HtmKzBh" = _7HtmKzBh;
@@ -110,6 +120,8 @@ let
         "afHSrwwa" = _afHSrwwa;
         "tTKoA0MB" = _tTKoA0MB;
         "n3L9p6SC" = _n3L9p6SC;
+        "XCMyrU3Z" = _XCMyrU3Z;
+        "opedeSPp" = _opedeSPp;
         "datapack-1.21.5" = _MA0NZyXo;
         "datapack-1.21.6" = _MA0NZyXo;
         "datapack-1.21.7" = _MA0NZyXo;
@@ -141,6 +153,7 @@ let
         "datapack-26.1.1" = _MA0NZyXo;
         "datapack-26.1.2" = _MA0NZyXo;
         "datapack-26.2" = _tTKoA0MB;
+        "datapack-26.3" = _XCMyrU3Z;
         "fabric-1.21.5" = _afHSrwwa;
         "fabric-1.21.6" = _afHSrwwa;
         "fabric-1.21.7" = _afHSrwwa;
@@ -172,6 +185,7 @@ let
         "fabric-26.1.1" = _afHSrwwa;
         "fabric-26.1.2" = _afHSrwwa;
         "fabric-26.2" = _n3L9p6SC;
+        "fabric-26.3" = _opedeSPp;
         "forge-1.21.5" = _afHSrwwa;
         "forge-1.21.6" = _afHSrwwa;
         "forge-1.21.7" = _afHSrwwa;
@@ -203,6 +217,7 @@ let
         "forge-26.1.1" = _afHSrwwa;
         "forge-26.1.2" = _afHSrwwa;
         "forge-26.2" = _n3L9p6SC;
+        "forge-26.3" = _opedeSPp;
         "neoforge-1.21.5" = _afHSrwwa;
         "neoforge-1.21.6" = _afHSrwwa;
         "neoforge-1.21.7" = _afHSrwwa;
@@ -234,6 +249,7 @@ let
         "neoforge-26.1.1" = _afHSrwwa;
         "neoforge-26.1.2" = _afHSrwwa;
         "neoforge-26.2" = _n3L9p6SC;
+        "neoforge-26.3" = _opedeSPp;
         "quilt-1.21.5" = _afHSrwwa;
         "quilt-1.21.6" = _afHSrwwa;
         "quilt-1.21.7" = _afHSrwwa;
@@ -265,6 +281,7 @@ let
         "quilt-26.1.1" = _afHSrwwa;
         "quilt-26.1.2" = _afHSrwwa;
         "quilt-26.2" = _n3L9p6SC;
+        "quilt-26.3" = _opedeSPp;
         "pkg-1.0" = _MIGWVIdL;
         "pkg-1.0+mod" = _7HtmKzBh;
         "pkg-2.0" = _Uh6prw0A;
@@ -279,7 +296,9 @@ let
         "pkg-v2.4+mod" = _afHSrwwa;
         "pkg-v2.5" = _tTKoA0MB;
         "pkg-v2.5+mod" = _n3L9p6SC;
-        "default" = _n3L9p6SC;
+        "pkg-v3.0" = _XCMyrU3Z;
+        "pkg-v3.0+mod" = _opedeSPp;
+        "default" = _opedeSPp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "taller-forests";

@@ -26,24 +26,40 @@ let
             "file" = "Painting Variant Sprites v1.1.0.zip";
             "hash" = "sha512-97MoWJCk9kiF6ZdiTDE8UHX7IAy1/ll92trSK2PHokqAdpQKWO/U0oBz4Lysu9hEoy8PUea76izyi0tH2h2x8Q==";
         };
+        _mYbhn9RO = {
+            "id" = "mYbhn9RO";
+            "file" = "Painting Variant Sprites v1.1.1.zip";
+            "hash" = "sha512-F4Fen9hzGwvQ9s8JMqVhaawtMXn1lqgfQSiCJwUBNtHl9L7MTeKfe5L+qBQJ1RVfKbE0iKh+lwYbQxnKdw57cg==";
+        };
     in {
         "5ORNJIyt" = _5ORNJIyt;
         "Q4mNXMZH" = _Q4mNXMZH;
         "xQvWUhxw" = _xQvWUhxw;
         "EljnQNkX" = _EljnQNkX;
         "yzHiqOn6" = _yzHiqOn6;
+        "mYbhn9RO" = _mYbhn9RO;
         "minecraft-25w04a" = _Q4mNXMZH;
         "minecraft-25w05a" = _Q4mNXMZH;
         "minecraft-25w06a" = _Q4mNXMZH;
-        "minecraft-1.21.5" = _yzHiqOn6;
-        "minecraft-1.21.6" = _yzHiqOn6;
-        "minecraft-1.21.7" = _yzHiqOn6;
+        "minecraft-1.21.5" = _mYbhn9RO;
+        "minecraft-1.21.6" = _mYbhn9RO;
+        "minecraft-1.21.7" = _mYbhn9RO;
+        "minecraft-1.21.8" = _mYbhn9RO;
+        "minecraft-1.21.9" = _mYbhn9RO;
+        "minecraft-1.21.10" = _mYbhn9RO;
+        "minecraft-1.21.11" = _mYbhn9RO;
+        "minecraft-26.1" = _mYbhn9RO;
+        "minecraft-26.1.1" = _mYbhn9RO;
+        "minecraft-26.1.2" = _mYbhn9RO;
+        "minecraft-26.2" = _mYbhn9RO;
+        "minecraft-26.3" = _mYbhn9RO;
         "pkg-1.0.0.1" = _5ORNJIyt;
         "pkg-1.0.0.2" = _Q4mNXMZH;
         "pkg-1.0.0" = _xQvWUhxw;
         "pkg-1.0.1" = _EljnQNkX;
         "pkg-1.1.0" = _yzHiqOn6;
-        "default" = _yzHiqOn6;
+        "pkg-1.1.1" = _mYbhn9RO;
+        "default" = _mYbhn9RO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "painting-variant-sprites";

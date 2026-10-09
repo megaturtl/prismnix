@@ -91,6 +91,21 @@ let
             "file" = "tradeoptimizer-fabric-1.4.0.jar";
             "hash" = "sha512-KnscPVPQn6Y7r7/CZmc0hrixwIyilF4eWsr9AFHchnYdPfFtQJCuNfHIHnVKsIoQtKUlPeLuOU3HnTodvl8kjw==";
         };
+        _PcC5TCXu = {
+            "id" = "PcC5TCXu";
+            "file" = "tradeoptimizer-fabric-1.5.1.jar";
+            "hash" = "sha512-vDN8Fn7q7nn1P3jWkQ/qaz4fJ6pdBpWp3JpAjOnbE2RJw0thttcsPRwoFnjwL2vEA7ABdxrlppx84+QaUlG8WA==";
+        };
+        _lsZItkCV = {
+            "id" = "lsZItkCV";
+            "file" = "tradeoptimizer-fabric-1.5.1+mc26.2.jar";
+            "hash" = "sha512-wBvrzjHbf1ea4S+XPojr+TdIOTLXRqN6um298xW+W+rcnU5xHp2ams77LqpRTGrW/5XmB+BqPIh3feIxWTW3Vg==";
+        };
+        _xC9hyNy5 = {
+            "id" = "xC9hyNy5";
+            "file" = "tradeoptimizer-fabric-1.5.1+mc26.1.jar";
+            "hash" = "sha512-AZ+YOUWFwoB1NHQayQMK3wIpW0sGK6DhmhrEH3UTqQGeWrk+Wf0Y429pLx3mK14wqnXqAxL53X7ZaQdnTSbkmg==";
+        };
     in {
         "JEAlohzE" = _JEAlohzE;
         "jgl8FeYL" = _jgl8FeYL;
@@ -110,13 +125,17 @@ let
         "ieD4xGFg" = _ieD4xGFg;
         "Q8NbzgnR" = _Q8NbzgnR;
         "HXY8GybW" = _HXY8GybW;
-        "fabric-26.1.2" = _ieD4xGFg;
-        "fabric-26.2" = _HXY8GybW;
-        "fabric-26.1" = _ieD4xGFg;
-        "fabric-26.1.1" = _ieD4xGFg;
+        "PcC5TCXu" = _PcC5TCXu;
+        "lsZItkCV" = _lsZItkCV;
+        "xC9hyNy5" = _xC9hyNy5;
+        "fabric-26.1.2" = _xC9hyNy5;
+        "fabric-26.2" = _lsZItkCV;
+        "fabric-26.1" = _xC9hyNy5;
+        "fabric-26.1.1" = _xC9hyNy5;
         "fabric-1.21.9" = _Q8NbzgnR;
         "fabric-1.21.10" = _Q8NbzgnR;
         "fabric-1.21.11" = _Q8NbzgnR;
+        "fabric-26.3" = _PcC5TCXu;
         "neoforge-26.1.2" = _YzCe6ECj;
         "neoforge-26.2" = _IMqZpPA3;
         "pkg-1.0.0" = _JEAlohzE;
@@ -134,7 +153,10 @@ let
         "pkg-1.3.1+mc26.1" = _ieD4xGFg;
         "pkg-1.3.2+mc1.21.9" = _Q8NbzgnR;
         "pkg-1.4.0" = _HXY8GybW;
-        "default" = _HXY8GybW;
+        "pkg-1.5.1" = _PcC5TCXu;
+        "pkg-1.5.1+mc26.2" = _lsZItkCV;
+        "pkg-1.5.1+mc26.1" = _xC9hyNy5;
+        "default" = _xC9hyNy5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trade-picker";

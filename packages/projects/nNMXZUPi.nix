@@ -286,6 +286,11 @@ let
             "file" = "Infinity-Water-Bucket-NeoForge-26.1-3.0.0.jar";
             "hash" = "sha512-z/lF8HrntEhLg8uESBgeUaotbJvZaduAspdBKQOlFeY3vc5a4VOVKGebX5QERAE3L82I8isi+mxFl52+GYx6Jw==";
         };
+        _vptwsxjV = {
+            "id" = "vptwsxjV";
+            "file" = "Infinity-Water-Bucket-NeoForge-26.3-3.0.0.jar";
+            "hash" = "sha512-GBwotb5hqd9bamrRDymKCoksWSndjcWvY0otqLcab/DT5FrdiVOx8l9Snz7BLsl+SxB92zJDoDYxyKI+gxHPqQ==";
+        };
     in {
         "SJdUYwxX" = _SJdUYwxX;
         "4gDKZEeW" = _4gDKZEeW;
@@ -344,6 +349,7 @@ let
         "LkV9VN2o" = _LkV9VN2o;
         "QpPDooWw" = _QpPDooWw;
         "WHjtwuRj" = _WHjtwuRj;
+        "vptwsxjV" = _vptwsxjV;
         "fabric-1.17" = _4gDKZEeW;
         "fabric-1.17.1" = _VPUKSdLD;
         "fabric-1.4.1" = _R8qRcuLy;
@@ -600,6 +606,7 @@ let
         "neoforge-26.1.1" = _WHjtwuRj;
         "neoforge-26.1.2" = _WHjtwuRj;
         "neoforge-26.2" = _WHjtwuRj;
+        "neoforge-26.3" = _vptwsxjV;
         "pkg-1.4-mc1.17-fabric" = _SJdUYwxX;
         "pkg-1.4.1-mc1.17-fabric" = _4gDKZEeW;
         "pkg-1.4.7-2.0.0-fabric" = _R8qRcuLy;
@@ -657,7 +664,8 @@ let
         "pkg-26.1-3.0.0-fabric" = _LkV9VN2o;
         "pkg-26.1-3.0.0-forge" = _QpPDooWw;
         "pkg-26.1-3.0.0-neoforge" = _WHjtwuRj;
-        "default" = _WHjtwuRj;
+        "pkg-26.3-3.0.0-neoforge" = _vptwsxjV;
+        "default" = _vptwsxjV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "infinity-water-bucket";

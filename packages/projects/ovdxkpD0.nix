@@ -131,6 +131,26 @@ let
             "file" = "Easy Netherite-forge-26.1.2-1.4.0.jar";
             "hash" = "sha512-ApFPo+bXl0HLkv185d3KxfIKIj5vlxaj9y1t7f58PWsGOgD2pTUTdK2p9kfibdkyg7GwND4JPsqwdhQupoat+g==";
         };
+        _ysE8QTQZ = {
+            "id" = "ysE8QTQZ";
+            "file" = "EasyNetherite-fabric-26.1.2-1.4.0.jar";
+            "hash" = "sha512-Y/MmrebgoJy2o13odIao4mJfX8hwXbOH6m6SQS4RzDDqgRaBChmUqGk8GEdt13ZLJKILa7GYt0P5PGtQI73FMQ==";
+        };
+        _hUeg0bJC = {
+            "id" = "hUeg0bJC";
+            "file" = "EasyNetherite-neoforge-26.3-1.4.1.jar";
+            "hash" = "sha512-NAA/E96kxR1h/gh1iVjXtJQYyhhA+He7lmwa33k/RSb96/YvftlVZF6DScO8MCLmcvOBQpj5tyLtZv7+s0+ISg==";
+        };
+        _iY6xXapU = {
+            "id" = "iY6xXapU";
+            "file" = "EasyNetherite-forge-26.3-1.4.1.jar";
+            "hash" = "sha512-YrICAWfR4CLV7jQwr/a949CFU878DsU5YBTXJZF9BbaajDvh9p3wJ9D/du7JsAUCSwbRp4ja/U5OSDYix6hgfA==";
+        };
+        _NTdiOudh = {
+            "id" = "NTdiOudh";
+            "file" = "EasyNetherite-fabric-26.3-1.4.1.jar";
+            "hash" = "sha512-0Zyw+LVI6tAGgMeYZOsYfEGyFKQfDSRSgofWsfopwy2ybq8znaQ1raErcTAe/URP2W2Z0a/z25olHpfYesW88Q==";
+        };
     in {
         "PxSuslYt" = _PxSuslYt;
         "b05aEv2x" = _b05aEv2x;
@@ -158,6 +178,10 @@ let
         "hhk0JIAB" = _hhk0JIAB;
         "D08OHqqg" = _D08OHqqg;
         "Ct6RM7rT" = _Ct6RM7rT;
+        "ysE8QTQZ" = _ysE8QTQZ;
+        "hUeg0bJC" = _hUeg0bJC;
+        "iY6xXapU" = _iY6xXapU;
+        "NTdiOudh" = _NTdiOudh;
         "forge-1.20.1" = _PxSuslYt;
         "forge-1.20.2" = _LFBmZvbo;
         "forge-1.20.4" = _KxfXPD7m;
@@ -168,6 +192,7 @@ let
         "forge-1.21.10" = _ktqj1aGC;
         "forge-1.21.11" = _1RdEbKzw;
         "forge-26.1.2" = _Ct6RM7rT;
+        "forge-26.3" = _iY6xXapU;
         "fabric-1.20.1" = _b05aEv2x;
         "fabric-1.20.2" = _UuUCMjzV;
         "fabric-1.20.4" = _dF9R6eWq;
@@ -177,6 +202,8 @@ let
         "fabric-1.21.8" = _cXm1PbhW;
         "fabric-1.21.10" = _b3gwb1Rx;
         "fabric-1.21.11" = _wagU0J9L;
+        "fabric-26.1.2" = _ysE8QTQZ;
+        "fabric-26.3" = _NTdiOudh;
         "neoforge-1.20.4" = _XmHNYKxK;
         "neoforge-1.21" = _nN8pqjRf;
         "neoforge-1.21.1" = _AH5SRJIJ;
@@ -184,6 +211,7 @@ let
         "neoforge-1.21.10" = _SPUN79H7;
         "neoforge-1.21.11" = _hhk0JIAB;
         "neoforge-26.1.2" = _D08OHqqg;
+        "neoforge-26.3" = _hUeg0bJC;
         "pkg-1.2.1" = _PxSuslYt;
         "pkg-1.1.4" = _b05aEv2x;
         "pkg-1.2.2" = _LFBmZvbo;
@@ -203,8 +231,9 @@ let
         "pkg-1.21.10-1.2.2" = _b3gwb1Rx;
         "pkg-1.3.3" = _1RdEbKzw;
         "pkg-1.21.11-1.2.3" = _wagU0J9L;
-        "pkg-1.4.0" = _Ct6RM7rT;
-        "default" = _Ct6RM7rT;
+        "pkg-1.4.0" = _ysE8QTQZ;
+        "pkg-1.4.1" = _NTdiOudh;
+        "default" = _NTdiOudh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "easy-netherite-ingot";

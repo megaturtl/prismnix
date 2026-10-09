@@ -261,6 +261,11 @@ let
             "file" = "danse-2.5.4+26.1.jar";
             "hash" = "sha512-lp1AEVbo2zhKhawDybuPgF8s6sipVAjD3hsUmtr8v5ob3k4r1nUSSMZcHFcSZ6Wa0nVOqtCV7JTBNIm6LdMK5g==";
         };
+        _bj1ilx5t = {
+            "id" = "bj1ilx5t";
+            "file" = "danse-2.6.0+26.3.jar";
+            "hash" = "sha512-u+FKB+AGQdQLjWaaDsiyqOTIn147o5+4TzgBY1D+QGAs02OnkhoRFAXo8By+2NaOIVg1tQ0XSgML92qKfVItQg==";
+        };
     in {
         "am7FMtmh" = _am7FMtmh;
         "6gkYUhGN" = _6gkYUhGN;
@@ -314,6 +319,7 @@ let
         "sXHujJ6q" = _sXHujJ6q;
         "liF5P4iO" = _liF5P4iO;
         "oWQsrJv1" = _oWQsrJv1;
+        "bj1ilx5t" = _bj1ilx5t;
         "fabric-1.20.4" = _9AaOzsWN;
         "fabric-1.20.6" = _uRRUY5hS;
         "fabric-1.21" = _LPrmEnPc;
@@ -335,6 +341,7 @@ let
         "fabric-26.1" = _oWQsrJv1;
         "fabric-26.1.1" = _oWQsrJv1;
         "fabric-26.1.2" = _oWQsrJv1;
+        "fabric-26.3" = _bj1ilx5t;
         "pkg-1.0+1.20.4" = _am7FMtmh;
         "pkg-1.0.1+1.20.4" = _6gkYUhGN;
         "pkg-1.0.2+1.20.4" = _BShteUHs;
@@ -387,7 +394,8 @@ let
         "pkg-2.4.1+1.21.11" = _sXHujJ6q;
         "pkg-2.4.2+1.21.11" = _liF5P4iO;
         "pkg-2.5.4+26.1" = _oWQsrJv1;
-        "default" = _oWQsrJv1;
+        "pkg-2.6.0+26.3" = _bj1ilx5t;
+        "default" = _bj1ilx5t;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "danse";

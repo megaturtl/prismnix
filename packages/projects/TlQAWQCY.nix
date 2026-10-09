@@ -1471,6 +1471,36 @@ let
             "file" = "CreateCyberGoggles-1.21.1-8.6.3-NeoForge.jar";
             "hash" = "sha512-Q9iO0B2R7qD6MWUt+PLlCKX5jZxwr3Pg3xHAX1EIohGXmCbEZ7N4+MEOgUicYbBepixkm4BbOybdjHLc9/rQ2w==";
         };
+        _hCiEUewq = {
+            "id" = "hCiEUewq";
+            "file" = "CreateCyberGoggles-1.21.1-8.6.4-NeoForge.jar";
+            "hash" = "sha512-SsTX2KpfEWMr6IOW1mvj70dJNghoqWeO5s0UFYxoJ4FzrOR/Gw3HWBjLYZilVvd/Vq/My8vzVM1u6tdHoA3SxA==";
+        };
+        _rK4DoUvM = {
+            "id" = "rK4DoUvM";
+            "file" = "CreateCyberGoggles-1.21.1-8.6.5-NeoForge.jar";
+            "hash" = "sha512-5sfSHYuq7lXCsLzeGAjV4THZ0Oy8+AIV/OMKkT3vmIOzKx1K8t3neCHMNON29SeL91D5W7TkayCKJIt0RqkE4Q==";
+        };
+        _TVqQUtUs = {
+            "id" = "TVqQUtUs";
+            "file" = "CreateCyberGoggles-1.21.1-8.6.6-NeoForge.jar";
+            "hash" = "sha512-av8zWBL9OFpPf1SknPn1Je68HeKeg7Q7kZX2lk6cGA2ZWOpTSggIu5tEqoQPG8qktEcyfCKcdQ4UIWdBBrmeIA==";
+        };
+        _ViGM0bdL = {
+            "id" = "ViGM0bdL";
+            "file" = "CreateCyberGoggles-1.21.1-8.6.7-NeoForge.jar";
+            "hash" = "sha512-PUXzraFrV5jzT216Q7FhiBBiT321DOgPLr8P9zpyXLJ8s91hry7D/7fKGGNDjE4102abZQemHk8/QgqY6OiXeg==";
+        };
+        _KiaLBnTA = {
+            "id" = "KiaLBnTA";
+            "file" = "CreateCyberGoggles-1.21.1-8.6.8-NeoForge.jar";
+            "hash" = "sha512-mDOMRa6J7zPRGJxy956vhhM0dAA/PW4Tj8J3eNWzd+TeIC58Pwbg/rR8q5GNd3oNRl/rD2gpflDOhtDsYoZvWQ==";
+        };
+        _8S36YIoy = {
+            "id" = "8S36YIoy";
+            "file" = "CreateCyberGoggles-1.21.1-8.6.9-NeoForge.jar";
+            "hash" = "sha512-6DoqhLFQNpugg1leKLGiRlUkGrNLg4KxIxsAR9Y5QFbeEkIYb9h1r9L0m167mrsdscuQ/s8jYH0dyFOBCWsT5g==";
+        };
     in {
         "sIWGkioR" = _sIWGkioR;
         "bHhd2rb6" = _bHhd2rb6;
@@ -1766,6 +1796,12 @@ let
         "r5vEpPIx" = _r5vEpPIx;
         "KMZFBO0l" = _KMZFBO0l;
         "9ixW0r0e" = _9ixW0r0e;
+        "hCiEUewq" = _hCiEUewq;
+        "rK4DoUvM" = _rK4DoUvM;
+        "TVqQUtUs" = _TVqQUtUs;
+        "ViGM0bdL" = _ViGM0bdL;
+        "KiaLBnTA" = _KiaLBnTA;
+        "8S36YIoy" = _8S36YIoy;
         "fabric-1.18.2" = _sIWGkioR;
         "fabric-1.19.2" = _sIWGkioR;
         "fabric-1.20.1" = _9sNUzRyC;
@@ -1786,7 +1822,7 @@ let
         "forge-1.19.2" = _JIOdNEPj;
         "forge-1.20.1" = _HaKiNUMI;
         "neoforge-1.20.1" = _HaKiNUMI;
-        "neoforge-1.21.1" = _9ixW0r0e;
+        "neoforge-1.21.1" = _8S36YIoy;
         "pkg-1.18.2-1.0+Fabric" = _sIWGkioR;
         "pkg-1.18.2-1.0+Forge" = _bHhd2rb6;
         "pkg-1.20.1-1.0+NeoForge" = _TP4mh1Ck;
@@ -2081,7 +2117,13 @@ let
         "pkg-1.21.1-8.6.1-NeoForge" = _r5vEpPIx;
         "pkg-1.21.1-8.6.2-NeoForge" = _KMZFBO0l;
         "pkg-1.21.1-8.6.3-NeoForge" = _9ixW0r0e;
-        "default" = _9ixW0r0e;
+        "pkg-1.21.1-8.6.4-NeoForge" = _hCiEUewq;
+        "pkg-1.21.1-8.6.5-NeoForge" = _rK4DoUvM;
+        "pkg-1.21.1-8.6.6-NeoForge" = _TVqQUtUs;
+        "pkg-1.21.1-8.6.7-NeoForge" = _ViGM0bdL;
+        "pkg-1.21.1-8.6.8-NeoForge" = _KiaLBnTA;
+        "pkg-1.21.1-8.6.9-NeoForge" = _8S36YIoy;
+        "default" = _8S36YIoy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-cyber-goggles";

@@ -141,6 +141,21 @@ let
             "file" = "taczaddon-1.1.8-fix2-1.21.1-neoforge.jar";
             "hash" = "sha512-4m5/KlJtp2kbOtWKClkOReKBH2MIXgGa73JQg3QffLTUVBZh+sNXYqpdicKsq/Dl7bPl3WnsWQjToaVmKT6rNQ==";
         };
+        _u3luODNG = {
+            "id" = "u3luODNG";
+            "file" = "taczaddon-1.1.8.2-fix-forge-1.20.1.jar";
+            "hash" = "sha512-K1Rzx4YOdMHlvA9OjBz7mJ4/vnwqZ7mO9oTSS2ybAAjen37xUzw/lUrJvWpIXVW+zE0VVoggw1oeLzuP32aa9A==";
+        };
+        _A361uNth = {
+            "id" = "A361uNth";
+            "file" = "taczaddon-1.1.8.3-forge-1.20.1.jar";
+            "hash" = "sha512-Yu8rEKZGXBcmO8RkLCesdbDNjTPI291iXRcOpy3PCF59e+STe5ZTys8Y7UwOuLXPGvcUljRh4mwO2L+aTQI4cQ==";
+        };
+        _QK3Z3Gsy = {
+            "id" = "QK3Z3Gsy";
+            "file" = "taczaddon-1.1.8.3-neoforge-1.21.1.jar";
+            "hash" = "sha512-nEYe1v7qG0FdlrrSJ0cxuAkDcDFTTUewstPM1nov9UPbzvwoI4X4Rr+g0rjSXWmzMlyKLTg3v20/WsaPLQWxUQ==";
+        };
     in {
         "3NIbKy25" = _3NIbKy25;
         "pM1iMYkx" = _pM1iMYkx;
@@ -170,14 +185,17 @@ let
         "BvgfP7Wq" = _BvgfP7Wq;
         "KRI9qZLg" = _KRI9qZLg;
         "mo66IMw3" = _mo66IMw3;
-        "forge-1.20.1" = _KRI9qZLg;
+        "u3luODNG" = _u3luODNG;
+        "A361uNth" = _A361uNth;
+        "QK3Z3Gsy" = _QK3Z3Gsy;
+        "forge-1.20.1" = _A361uNth;
         "forge-1.20" = _iHOljyTA;
         "forge-1.20.2" = _iHOljyTA;
         "forge-1.20.3" = _iHOljyTA;
         "forge-1.20.4" = _iHOljyTA;
         "forge-1.20.5" = _iHOljyTA;
         "forge-1.20.6" = _iHOljyTA;
-        "neoforge-1.21.1" = _mo66IMw3;
+        "neoforge-1.21.1" = _QK3Z3Gsy;
         "pkg-1.0.0" = _pM1iMYkx;
         "pkg-1.0.1" = _LMAN5lBr;
         "pkg-1.0.2" = _ADGf1qIb;
@@ -192,7 +210,9 @@ let
         "pkg-1.1.7" = _1qGGstzg;
         "pkg-1.1.8" = _mo66IMw3;
         "pkg-1.1.8.1" = _KRI9qZLg;
-        "default" = _mo66IMw3;
+        "pkg-1.1.8.2" = _u3luODNG;
+        "pkg-1.1.8.3" = _QK3Z3Gsy;
+        "default" = _QK3Z3Gsy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "taczaddon";

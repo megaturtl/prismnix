@@ -81,6 +81,26 @@ let
             "file" = "minedevice-neoforge-1.1.1.jar";
             "hash" = "sha512-kNIp8v4vzr0PzMwArP1zShNwCsBasRp4kV7rdujE+blc4GK5rleJfvTuduR6IArByQQhS3e85ra3NG+cCvtnfQ==";
         };
+        _fx64CPb8 = {
+            "id" = "fx64CPb8";
+            "file" = "minedevice-forge-2.0.0.jar";
+            "hash" = "sha512-xFVFJ6W8bb9r8Mi0RNJ6LmTkU1pEKengxpkiyQx+tgOiyaqvH9JOc6vhI1BstZE7CPPfkGiGa1nPlvHWDDK7AQ==";
+        };
+        _HeXqdxqb = {
+            "id" = "HeXqdxqb";
+            "file" = "minedevice-fabric-2.0.0.jar";
+            "hash" = "sha512-dUQqrEtcgzA0dW1qFfWlVrDTJtOqxckM/Y4jj832GwFnWRu4Fls6GGtm+8ek1WlFtLYHbKxoCl1ZSrZET2uNYw==";
+        };
+        _tJ4pzC8R = {
+            "id" = "tJ4pzC8R";
+            "file" = "minedevice-forge-2.0.1.jar";
+            "hash" = "sha512-5v9IujhKYBMG0m615q9+EVsN6sH2l045yawt9R7vSrMK3NQWdygfkc/LBYkOnNRarZdtlA1NNmWs759GaT130A==";
+        };
+        _DEHDI7qh = {
+            "id" = "DEHDI7qh";
+            "file" = "minedevice-fabric-2.0.1.jar";
+            "hash" = "sha512-g/cSB5wmNYCDQwLxJsJ14KTj8C52XKbnDXH7A6jOQq1Z01pAbGoidxkb/HaaZXH0DTqfb4JSfZss/K+KA6UeUA==";
+        };
     in {
         "REJMO61O" = _REJMO61O;
         "wPyxknni" = _wPyxknni;
@@ -98,10 +118,14 @@ let
         "t8ANNsSo" = _t8ANNsSo;
         "n3m50u2M" = _n3m50u2M;
         "o6esis3D" = _o6esis3D;
-        "forge-1.20.1" = _t8ANNsSo;
+        "fx64CPb8" = _fx64CPb8;
+        "HeXqdxqb" = _HeXqdxqb;
+        "tJ4pzC8R" = _tJ4pzC8R;
+        "DEHDI7qh" = _DEHDI7qh;
+        "forge-1.20.1" = _tJ4pzC8R;
         "neoforge-1.20.1" = _NlwrwmqV;
         "neoforge-1.21.1" = _o6esis3D;
-        "fabric-1.20.1" = _bVWBvaBp;
+        "fabric-1.20.1" = _DEHDI7qh;
         "fabric-1.21.1" = _n3m50u2M;
         "pkg-1.0" = _wPyxknni;
         "pkg-1.1.0-1.20.1-forge" = _NlwrwmqV;
@@ -117,7 +141,11 @@ let
         "pkg-1.20.1-1.1.3-pre_forge" = _t8ANNsSo;
         "pkg-1.21.1-1.1.3_fabric" = _n3m50u2M;
         "pkg-1.21.1-1.1.3_neoforge" = _o6esis3D;
-        "default" = _o6esis3D;
+        "pkg-1.20.1-2.0.0_forge" = _fx64CPb8;
+        "pkg-1.20.1-2.0.0_fabric" = _HeXqdxqb;
+        "pkg-1.20.1-2.0.1_forge" = _tJ4pzC8R;
+        "pkg-1.20.1-2.0.1_fabric" = _DEHDI7qh;
+        "default" = _DEHDI7qh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mc-device";

@@ -156,6 +156,16 @@ let
             "file" = "DoAFlip-neoforge-26.1.2-12.0.0.jar";
             "hash" = "sha512-Ef+wDRB3bo9q/UhkDoMNjyGXInTc4qp2s6Jetvyeayu8jGaiQJ8Z6Eko3JvBITyEJt3H97qpp7osXG6OjmXJfA==";
         };
+        _NEXBV3Uo = {
+            "id" = "NEXBV3Uo";
+            "file" = "DoAFlip-fabric-26.2-13.0.0.jar";
+            "hash" = "sha512-7ZZzWplsb6EIav2O5axv35GwtkmGlA9lxc2qEuPMnZmQx82Mckfw7M5gvJ6+bkfkeDKmvXmffrHyCeXIiOCHfQ==";
+        };
+        _p30lnm93 = {
+            "id" = "p30lnm93";
+            "file" = "DoAFlip-neoforge-26.2-13.0.0.jar";
+            "hash" = "sha512-k50GnhJ/ij5BaziOfd7LGJnv+C0eC8pthfp7FJQ8bpbw0H1y+bnu4vKlhtnMjo8bLYG9cbqC2TJbFzJYe0ugZA==";
+        };
     in {
         "oUiJZgWq" = _oUiJZgWq;
         "1GfofE30" = _1GfofE30;
@@ -188,6 +198,8 @@ let
         "2W4G680B" = _2W4G680B;
         "GVTsPfTL" = _GVTsPfTL;
         "g7UBbTZH" = _g7UBbTZH;
+        "NEXBV3Uo" = _NEXBV3Uo;
+        "p30lnm93" = _p30lnm93;
         "forge-1.20.1" = _VaNzDmkG;
         "neoforge-1.20.1" = _VaNzDmkG;
         "neoforge-1.20.4" = _NvPgDlin;
@@ -203,6 +215,7 @@ let
         "neoforge-1.21.10" = _hyq3AIs4;
         "neoforge-1.21.11" = _tro5q20f;
         "neoforge-26.1.2" = _g7UBbTZH;
+        "neoforge-26.2" = _p30lnm93;
         "fabric-1.20.1" = _nxEm6z4p;
         "fabric-1.20.4" = _ec7oQ0cb;
         "fabric-1.20.6" = _YNRHNxss;
@@ -217,6 +230,7 @@ let
         "fabric-1.21.10" = _BduYprls;
         "fabric-1.21.11" = _2W4G680B;
         "fabric-26.1.2" = _GVTsPfTL;
+        "fabric-26.2" = _NEXBV3Uo;
         "pkg-1.0.0" = _oUiJZgWq;
         "pkg-1.1.0" = _nxEm6z4p;
         "pkg-2.0.0" = _ec7oQ0cb;
@@ -233,7 +247,8 @@ let
         "pkg-10.0.0" = _BduYprls;
         "pkg-11.0.0" = _2W4G680B;
         "pkg-12.0.0" = _g7UBbTZH;
-        "default" = _g7UBbTZH;
+        "pkg-13.0.0" = _p30lnm93;
+        "default" = _p30lnm93;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "do-a-flip";

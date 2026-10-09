@@ -1011,6 +1011,71 @@ let
             "file" = "AmbientSounds_FABRIC_v6.3.6_mc26.2.jar";
             "hash" = "sha512-AhY97u5o5Ne4hN2Z76kCIKsxl2Fu29MFpvq7C/mwrGHHSvl9H6U0FVpxA0c23y2qPNOE0gfJZMe3ggWhaxaOBg==";
         };
+        _KjN9xx1f = {
+            "id" = "KjN9xx1f";
+            "file" = "AmbientSounds_NEOFORGE_v6.3.6_mc26.3.jar";
+            "hash" = "sha512-itw08LhrQukUI5vDrwX3ID8w6qpkrn+BfXODUjWIwePmGSaexN8Vfty5HTJnzUMdcaGg+5Smxei96vA5wE2HaQ==";
+        };
+        _Rpue6AYp = {
+            "id" = "Rpue6AYp";
+            "file" = "AmbientSounds_FABRIC_v6.3.6_mc26.3.jar";
+            "hash" = "sha512-BbQv4qhu9OgpWO6aBltmblpybFiv+w75K96oSiWYJA2+8twrg8R27OWojXNllz9Ww0kXXZCqoE/J2SQYVYVP6g==";
+        };
+        _EPxVyOnf = {
+            "id" = "EPxVyOnf";
+            "file" = "AmbientSounds_FORGE_v6.3.9_mc1.20.1.jar";
+            "hash" = "sha512-fXfn5mWNeVISTT/VcHus7aaiv8FP45SEHmIwtC3rhZrfoBe4LO3v0rzj1wvC7DBg99Ul5Vq4zn+iiHoq2Brc9A==";
+        };
+        _JSuve1tR = {
+            "id" = "JSuve1tR";
+            "file" = "AmbientSounds_FABRIC_v6.3.9_mc1.20.1.jar";
+            "hash" = "sha512-ovmlWODj4JP6YkgI4g0ojhyKXwaAW5mPO5WeOQPQLgkQym/hJC2J99IV5wV3H/RLNJEzw/2PXXfyOMohF9AVnw==";
+        };
+        _Q7ssSC2X = {
+            "id" = "Q7ssSC2X";
+            "file" = "AmbientSounds_NEOFORGE_v6.3.9_mc1.21.1.jar";
+            "hash" = "sha512-fp3EGeQH1XIsiESRpn0iOd0Fudy+tONlOEt8x9mmofstE3WaKkflmKyUSmIeKJ8kpWDZ7KsQQekxbBEs+f1m7w==";
+        };
+        _ndMpnJJz = {
+            "id" = "ndMpnJJz";
+            "file" = "AmbientSounds_FABRIC_v6.3.9_mc1.21.1.jar";
+            "hash" = "sha512-xyaYTKBSna4hirP4sgeiKZqXq6KR2ab3AsNnf4o1ABzln0ZmSMlMgrAPqewXMjYlRrsatn0OVjal6agxej1bHg==";
+        };
+        _ViiM66Of = {
+            "id" = "ViiM66Of";
+            "file" = "AmbientSounds_FABRIC_v6.3.6_mc26.3.jar";
+            "hash" = "sha512-BbQv4qhu9OgpWO6aBltmblpybFiv+w75K96oSiWYJA2+8twrg8R27OWojXNllz9Ww0kXXZCqoE/J2SQYVYVP6g==";
+        };
+        _P48d3fOf = {
+            "id" = "P48d3fOf";
+            "file" = "AmbientSounds_NEOFORGE_v6.3.10_mc1.21.1.jar";
+            "hash" = "sha512-TMjhCijzRs1NCIMalfAiVHPxN3d3y8SQMAMV2ZqM2zX0ITXDiNXQQcYz41T8G7qYXFn2rEpSy5wvlH+QQJDN2Q==";
+        };
+        _UvvzuMJN = {
+            "id" = "UvvzuMJN";
+            "file" = "AmbientSounds_FABRIC_v6.3.10_mc1.21.1.jar";
+            "hash" = "sha512-uJebp7A6c7VM1j62X6Fdw4RdzldJyF3FNqDBaj6AkWZIYkTLEHUEoMrlMD7xei9Bw2rsKJiRoLrrWdDKWbYW5w==";
+        };
+        _ApGAJplZ = {
+            "id" = "ApGAJplZ";
+            "file" = "AmbientSounds_FORGE_v6.3.10_mc1.20.1.jar";
+            "hash" = "sha512-eKizvzharrq2uruWI3GMFq10agA7vE42pihjvZauc7xsnuSci3xqbmxryjtByQIL1oaKWwJFhDk9Pjdi7vjRew==";
+        };
+        _qKf7ziok = {
+            "id" = "qKf7ziok";
+            "file" = "AmbientSounds_FABRIC_v6.3.10_mc1.20.1.jar";
+            "hash" = "sha512-oVsDozV6ibQb2M8RyNCVegtxXw/tEh3Cpv3XjjF2cy5wIdzzT6jMqE4u+jtMhC3z9EMm3CDgvW4E+v/KvgJcIA==";
+        };
+        _VbK0lAS7 = {
+            "id" = "VbK0lAS7";
+            "file" = "AmbientSounds_NEOFORGE_v6.3.10_mc26.3.jar";
+            "hash" = "sha512-O6iZ3qK9lLsJK3xNQt5G1nQK+C/h6lqBA0dF/IWMAigab5+RTsF3bxjngip/slrourdi4VzIE+iHz9FprJDRJQ==";
+        };
+        _T9Nl4OKj = {
+            "id" = "T9Nl4OKj";
+            "file" = "AmbientSounds_FABRIC_v6.3.10_mc26.3.jar";
+            "hash" = "sha512-u49H7mtJUvPM1xpOMO5FeQwNPH5BWahpCTytnLE4nMer8fMfBiXS5DhWQKyGYkELARUEnK3RzDC3ogDPuT83OQ==";
+        };
     in {
         "BkXARkwZ" = _BkXARkwZ;
         "gFA6rBRh" = _gFA6rBRh;
@@ -1214,6 +1279,19 @@ let
         "RZyxhsqY" = _RZyxhsqY;
         "odflTtI0" = _odflTtI0;
         "jGlT0HRa" = _jGlT0HRa;
+        "KjN9xx1f" = _KjN9xx1f;
+        "Rpue6AYp" = _Rpue6AYp;
+        "EPxVyOnf" = _EPxVyOnf;
+        "JSuve1tR" = _JSuve1tR;
+        "Q7ssSC2X" = _Q7ssSC2X;
+        "ndMpnJJz" = _ndMpnJJz;
+        "ViiM66Of" = _ViiM66Of;
+        "P48d3fOf" = _P48d3fOf;
+        "UvvzuMJN" = _UvvzuMJN;
+        "ApGAJplZ" = _ApGAJplZ;
+        "qKf7ziok" = _qKf7ziok;
+        "VbK0lAS7" = _VbK0lAS7;
+        "T9Nl4OKj" = _T9Nl4OKj;
         "forge-1.12.2" = _BkXARkwZ;
         "forge-1.16.5" = _gFA6rBRh;
         "forge-1.17.1" = _2GbdNWGc;
@@ -1226,7 +1304,7 @@ let
         "forge-1.19.3" = _eB8o9LJz;
         "forge-1.19.4" = _S9iWVbEo;
         "forge-1.20" = _UhavHRSW;
-        "forge-1.20.1" = _AuLdtrBY;
+        "forge-1.20.1" = _ApGAJplZ;
         "forge-1.20.2" = _UhavHRSW;
         "fabric-1.18.2" = _mDsLRr3N;
         "fabric-1.19" = _HzAe7PdZ;
@@ -1235,12 +1313,12 @@ let
         "fabric-1.19.3" = _D8qFUFSe;
         "fabric-1.19.4" = _uQ9ET7hv;
         "fabric-1.20" = _ohMKnW3z;
-        "fabric-1.20.1" = _cAyLWFYE;
+        "fabric-1.20.1" = _qKf7ziok;
         "fabric-1.20.2" = _Axhf30fN;
         "fabric-1.20.4" = _41K1ScgC;
         "fabric-1.20.6" = _eVwI6FD9;
         "fabric-1.21" = _TWIsleX6;
-        "fabric-1.21.1" = _wU311vqz;
+        "fabric-1.21.1" = _UvvzuMJN;
         "fabric-1.21.3" = _rO9xTtUr;
         "fabric-1.21.4" = _qqQs6YzG;
         "fabric-1.21.5" = _nnNIkaxO;
@@ -1253,6 +1331,7 @@ let
         "fabric-26.1" = _HqvKgb3J;
         "fabric-26.1.2" = _DKPRMIAu;
         "fabric-26.2" = _jGlT0HRa;
+        "fabric-26.3" = _T9Nl4OKj;
         "neoforge-1.20" = _UhavHRSW;
         "neoforge-1.20.1" = _AuLdtrBY;
         "neoforge-1.20.2" = _UhavHRSW;
@@ -1261,7 +1340,7 @@ let
         "neoforge-1.18.2" = _zFY28Q2o;
         "neoforge-1.21" = _Y5HfsfYu;
         "neoforge-1.19.2" = _2z5buLUy;
-        "neoforge-1.21.1" = _RZyxhsqY;
+        "neoforge-1.21.1" = _P48d3fOf;
         "neoforge-1.21.3" = _vn2xV8Q2;
         "neoforge-1.21.4" = _6cKHw6QR;
         "neoforge-1.21.5" = _90TvQ7aR;
@@ -1273,6 +1352,7 @@ let
         "neoforge-26.1" = _1v6mLlZy;
         "neoforge-26.1.2" = _8fcrHsji;
         "neoforge-26.2" = _odflTtI0;
+        "neoforge-26.3" = _VbK0lAS7;
         "pkg-3.1.5" = _BkXARkwZ;
         "pkg-3.1.9" = _gFA6rBRh;
         "pkg-4.0.0" = _2GbdNWGc;
@@ -1334,10 +1414,12 @@ let
         "pkg-6.3.3" = _iYzwKdCI;
         "pkg-6.3.4" = _Y8F6BpQg;
         "pkg-6.3.5" = _ugdHWc69;
-        "pkg-6.3.6" = _jGlT0HRa;
+        "pkg-6.3.6" = _ViiM66Of;
         "pkg-6.3.7" = _JltlfEQe;
         "pkg-6.3.8" = _RZyxhsqY;
-        "default" = _jGlT0HRa;
+        "pkg-6.3.9" = _ndMpnJJz;
+        "pkg-6.3.10" = _T9Nl4OKj;
+        "default" = _T9Nl4OKj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ambientsounds";

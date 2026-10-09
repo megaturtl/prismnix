@@ -251,6 +251,26 @@ let
             "file" = "cobweb-recipes-1.0.jar";
             "hash" = "sha512-waxydnTJZRlp2YEzaE0AsIhV+ETavDh73EwyjiNtMTfipoIeDgx1FrD6yFX8Rwk1s5OkW5j9yroxiTlrueSP0Q==";
         };
+        _p8UGRnm6 = {
+            "id" = "p8UGRnm6";
+            "file" = "cobweb-1.19-datapacks.zip";
+            "hash" = "sha512-r+KOAv6FvV3Odx93MmmFh4eQn+ckcVjEI+usiN/PlGlpHg6kYjnBj8dWfuLvlMfYxd8Z+yAZNjDiQ5tKe5/gsg==";
+        };
+        _ddpfbRXW = {
+            "id" = "ddpfbRXW";
+            "file" = "cobweb-recipes-1.0.jar";
+            "hash" = "sha512-1cOfdU8+Gd/WPkfx5DJg1A3y5w1VVSzZ5ptbVrd5EZvKo628Qp7yztY+fFIEy6nTi0N3IIpqKhAYKuRhNxryVQ==";
+        };
+        _cIOBNaHH = {
+            "id" = "cIOBNaHH";
+            "file" = "cobweb-26.3.zip";
+            "hash" = "sha512-hbC9OfZfksXaWjBvKz2ELqGBxr6HFNsk/zwLZG/LbpPjBeCewpRr5+Ll1nw4DnY0tKP0X7S2sszKUg43BHMfTA==";
+        };
+        _AY6DT7hg = {
+            "id" = "AY6DT7hg";
+            "file" = "cobweb-recipes-1.0.jar";
+            "hash" = "sha512-XBxK/ZHeoW9H3EdYwwPQo71aUj5JbEGE3awd9wj9k+Rbu3cA1je95J/5Kwm2pnICpJlAl1wsbRw+tfRny1O2mA==";
+        };
     in {
         "Xg6lIi9W" = _Xg6lIi9W;
         "R3D8UGOH" = _R3D8UGOH;
@@ -302,6 +322,10 @@ let
         "x3Eo88OJ" = _x3Eo88OJ;
         "lCDRjRMj" = _lCDRjRMj;
         "EbFUE67c" = _EbFUE67c;
+        "p8UGRnm6" = _p8UGRnm6;
+        "ddpfbRXW" = _ddpfbRXW;
+        "cIOBNaHH" = _cIOBNaHH;
+        "AY6DT7hg" = _AY6DT7hg;
         "datapack-1.13" = _Xg6lIi9W;
         "datapack-1.13.1" = _Xg6lIi9W;
         "datapack-1.13.2" = _Xg6lIi9W;
@@ -323,12 +347,12 @@ let
         "datapack-1.17.1" = _Ip6KbMFI;
         "datapack-1.18" = _9H1UxnK6;
         "datapack-1.18.1" = _9H1UxnK6;
-        "datapack-1.18.2" = _4hLYtZTp;
-        "datapack-1.19" = _4hLYtZTp;
-        "datapack-1.19.1" = _4hLYtZTp;
-        "datapack-1.19.2" = _4hLYtZTp;
-        "datapack-1.19.3" = _4hLYtZTp;
-        "datapack-1.19.4" = _b49SvSMT;
+        "datapack-1.18.2" = _p8UGRnm6;
+        "datapack-1.19" = _p8UGRnm6;
+        "datapack-1.19.1" = _p8UGRnm6;
+        "datapack-1.19.2" = _p8UGRnm6;
+        "datapack-1.19.3" = _p8UGRnm6;
+        "datapack-1.19.4" = _p8UGRnm6;
         "datapack-1.20" = _b49SvSMT;
         "datapack-1.20.1" = _b49SvSMT;
         "datapack-1.20.2" = _b49SvSMT;
@@ -371,6 +395,7 @@ let
         "datapack-26.2-snapshot-2" = _MXtsq87r;
         "datapack-26.2" = _lCDRjRMj;
         "datapack-26.3-snapshot-1" = _lCDRjRMj;
+        "datapack-26.3" = _cIOBNaHH;
         "fabric-1.13" = _2NhEOOWi;
         "fabric-1.13.1" = _2NhEOOWi;
         "fabric-1.13.2" = _2NhEOOWi;
@@ -392,12 +417,12 @@ let
         "fabric-1.17.1" = _qhJJE0Uq;
         "fabric-1.18" = _31HSy9TW;
         "fabric-1.18.1" = _31HSy9TW;
-        "fabric-1.18.2" = _2EcHkWHG;
-        "fabric-1.19" = _2EcHkWHG;
-        "fabric-1.19.1" = _2EcHkWHG;
-        "fabric-1.19.2" = _2EcHkWHG;
-        "fabric-1.19.3" = _2EcHkWHG;
-        "fabric-1.19.4" = _x3Eo88OJ;
+        "fabric-1.18.2" = _ddpfbRXW;
+        "fabric-1.19" = _ddpfbRXW;
+        "fabric-1.19.1" = _ddpfbRXW;
+        "fabric-1.19.2" = _ddpfbRXW;
+        "fabric-1.19.3" = _ddpfbRXW;
+        "fabric-1.19.4" = _ddpfbRXW;
         "fabric-1.20" = _x3Eo88OJ;
         "fabric-1.20.1" = _x3Eo88OJ;
         "fabric-1.20.2" = _x3Eo88OJ;
@@ -440,6 +465,7 @@ let
         "fabric-26.2-snapshot-2" = _Z4ltw7Ps;
         "fabric-26.2" = _EbFUE67c;
         "fabric-26.3-snapshot-1" = _EbFUE67c;
+        "fabric-26.3" = _AY6DT7hg;
         "forge-1.13" = _2NhEOOWi;
         "forge-1.13.1" = _2NhEOOWi;
         "forge-1.13.2" = _2NhEOOWi;
@@ -461,12 +487,12 @@ let
         "forge-1.17.1" = _qhJJE0Uq;
         "forge-1.18" = _31HSy9TW;
         "forge-1.18.1" = _31HSy9TW;
-        "forge-1.18.2" = _2EcHkWHG;
-        "forge-1.19" = _2EcHkWHG;
-        "forge-1.19.1" = _2EcHkWHG;
-        "forge-1.19.2" = _2EcHkWHG;
-        "forge-1.19.3" = _2EcHkWHG;
-        "forge-1.19.4" = _x3Eo88OJ;
+        "forge-1.18.2" = _ddpfbRXW;
+        "forge-1.19" = _ddpfbRXW;
+        "forge-1.19.1" = _ddpfbRXW;
+        "forge-1.19.2" = _ddpfbRXW;
+        "forge-1.19.3" = _ddpfbRXW;
+        "forge-1.19.4" = _ddpfbRXW;
         "forge-1.20" = _x3Eo88OJ;
         "forge-1.20.1" = _x3Eo88OJ;
         "forge-1.20.2" = _x3Eo88OJ;
@@ -509,6 +535,7 @@ let
         "forge-26.2-snapshot-2" = _Z4ltw7Ps;
         "forge-26.2" = _EbFUE67c;
         "forge-26.3-snapshot-1" = _EbFUE67c;
+        "forge-26.3" = _AY6DT7hg;
         "neoforge-1.13" = _2NhEOOWi;
         "neoforge-1.13.1" = _2NhEOOWi;
         "neoforge-1.13.2" = _2NhEOOWi;
@@ -530,12 +557,12 @@ let
         "neoforge-1.17.1" = _qhJJE0Uq;
         "neoforge-1.18" = _31HSy9TW;
         "neoforge-1.18.1" = _31HSy9TW;
-        "neoforge-1.18.2" = _2EcHkWHG;
-        "neoforge-1.19" = _2EcHkWHG;
-        "neoforge-1.19.1" = _2EcHkWHG;
-        "neoforge-1.19.2" = _2EcHkWHG;
-        "neoforge-1.19.3" = _2EcHkWHG;
-        "neoforge-1.19.4" = _x3Eo88OJ;
+        "neoforge-1.18.2" = _ddpfbRXW;
+        "neoforge-1.19" = _ddpfbRXW;
+        "neoforge-1.19.1" = _ddpfbRXW;
+        "neoforge-1.19.2" = _ddpfbRXW;
+        "neoforge-1.19.3" = _ddpfbRXW;
+        "neoforge-1.19.4" = _ddpfbRXW;
         "neoforge-1.20" = _x3Eo88OJ;
         "neoforge-1.20.1" = _x3Eo88OJ;
         "neoforge-1.20.2" = _x3Eo88OJ;
@@ -578,6 +605,7 @@ let
         "neoforge-26.2-snapshot-2" = _Z4ltw7Ps;
         "neoforge-26.2" = _EbFUE67c;
         "neoforge-26.3-snapshot-1" = _EbFUE67c;
+        "neoforge-26.3" = _AY6DT7hg;
         "quilt-1.13" = _2NhEOOWi;
         "quilt-1.13.1" = _2NhEOOWi;
         "quilt-1.13.2" = _2NhEOOWi;
@@ -599,12 +627,12 @@ let
         "quilt-1.17.1" = _qhJJE0Uq;
         "quilt-1.18" = _31HSy9TW;
         "quilt-1.18.1" = _31HSy9TW;
-        "quilt-1.18.2" = _2EcHkWHG;
-        "quilt-1.19" = _2EcHkWHG;
-        "quilt-1.19.1" = _2EcHkWHG;
-        "quilt-1.19.2" = _2EcHkWHG;
-        "quilt-1.19.3" = _2EcHkWHG;
-        "quilt-1.19.4" = _x3Eo88OJ;
+        "quilt-1.18.2" = _ddpfbRXW;
+        "quilt-1.19" = _ddpfbRXW;
+        "quilt-1.19.1" = _ddpfbRXW;
+        "quilt-1.19.2" = _ddpfbRXW;
+        "quilt-1.19.3" = _ddpfbRXW;
+        "quilt-1.19.4" = _ddpfbRXW;
         "quilt-1.20" = _x3Eo88OJ;
         "quilt-1.20.1" = _x3Eo88OJ;
         "quilt-1.20.2" = _x3Eo88OJ;
@@ -647,11 +675,12 @@ let
         "quilt-26.2-snapshot-2" = _Z4ltw7Ps;
         "quilt-26.2" = _EbFUE67c;
         "quilt-26.3-snapshot-1" = _EbFUE67c;
-        "pkg-1.0" = _lCDRjRMj;
-        "pkg-1.0+mod" = _EbFUE67c;
+        "quilt-26.3" = _AY6DT7hg;
+        "pkg-1.0" = _cIOBNaHH;
+        "pkg-1.0+mod" = _AY6DT7hg;
         "pkg-26.1" = _EXBjVSoj;
         "pkg-26.1+mod" = _DFPX0sZh;
-        "default" = _EbFUE67c;
+        "default" = _AY6DT7hg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobweb-recipes";

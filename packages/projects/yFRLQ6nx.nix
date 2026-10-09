@@ -11,14 +11,23 @@ let
             "file" = "RealisticLite_v1.8.zip";
             "hash" = "sha512-xMO+eQKqn//tvjWiO/wDyqiu3p56gqc0F+I+kEfUFhFwV34OguJbRrBOD3b9xB4muoCaxLWU/FAWIdrJspl9lg==";
         };
+        _uCHzeN48 = {
+            "id" = "uCHzeN48";
+            "file" = "RealisticLite_v1.9.zip";
+            "hash" = "sha512-/GaVddWvsvblidqG5Azt20Vyd58SLkwcj+35yEIajXW0+Z1s1fC477oL5ujrLPqgq6/730zoMWoHeUys5/26vw==";
+        };
     in {
         "BrBfrYXe" = _BrBfrYXe;
         "rFTySaN1" = _rFTySaN1;
-        "iris-26.2" = _rFTySaN1;
-        "optifine-26.2" = _rFTySaN1;
+        "uCHzeN48" = _uCHzeN48;
+        "iris-26.2" = _uCHzeN48;
+        "iris-26.3" = _uCHzeN48;
+        "optifine-26.2" = _uCHzeN48;
+        "optifine-26.3" = _uCHzeN48;
         "pkg-1.7" = _BrBfrYXe;
         "pkg-1.8" = _rFTySaN1;
-        "default" = _rFTySaN1;
+        "pkg-1.9" = _uCHzeN48;
+        "default" = _uCHzeN48;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "realisticlite-shader";

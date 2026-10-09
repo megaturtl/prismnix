@@ -131,6 +131,26 @@ let
             "file" = "CraftableChainmail-forge-26.1.2-3.4.0.jar";
             "hash" = "sha512-BFarakaLZPGOdlsUQXnxmKCGzpjjd4Loi/0AnWQoJFnamVOMSNSCamyFQpb5vk02TIXmHDz09Ii6+vnPjR165Q==";
         };
+        _nqtjrFNb = {
+            "id" = "nqtjrFNb";
+            "file" = "CraftableChainmailArmor-fabric-26.1.2-3.4.0.jar";
+            "hash" = "sha512-AATXG9jwle7CZ0V4G1jdDQwDYh9ucEsKH7Ge+xhtRDlmIYw6Zo2PjC/UcasrkBz+BTMR2fzWIw5ddwsIEUCtfw==";
+        };
+        _goBlcG0O = {
+            "id" = "goBlcG0O";
+            "file" = "CraftableChainmailArmor-neoforge-26.3-3.4.1.jar";
+            "hash" = "sha512-vViWxnWChBi5TaLfhXq/yvtKrkV0T+LaexQZWBRv2dyG/RWivR2z4KdI6TYqESjUR95TDdXJ6iVR2RJt2ld7GA==";
+        };
+        _soWW8Z9d = {
+            "id" = "soWW8Z9d";
+            "file" = "CraftableChainmailArmor-forge-26.3-3.4.1.jar";
+            "hash" = "sha512-zg5rhSCtCYwQ31GZp+OlGXa6Gahpx0HgfoyyUfhtqQbUoNBlUku9cOG/56m3CORuM3e4tVpcv7BS2VkTYZL1+g==";
+        };
+        _I75qXBzp = {
+            "id" = "I75qXBzp";
+            "file" = "CraftableChainmailArmor-fabric-26.3-3.4.1.jar";
+            "hash" = "sha512-J4o1cZ1whB1BK7T+3RlQygA3p5csGpzOYUbpCR4K28fQv0k9roaWWZKSdZbXDFOHaA8IEd2LV96jEsf2DJ3Qpg==";
+        };
     in {
         "zYscpoIM" = _zYscpoIM;
         "6dYy3vR6" = _6dYy3vR6;
@@ -158,6 +178,10 @@ let
         "xEqd7ee9" = _xEqd7ee9;
         "fVTPlIUr" = _fVTPlIUr;
         "YITvnHqS" = _YITvnHqS;
+        "nqtjrFNb" = _nqtjrFNb;
+        "goBlcG0O" = _goBlcG0O;
+        "soWW8Z9d" = _soWW8Z9d;
+        "I75qXBzp" = _I75qXBzp;
         "forge-1.20.1" = _zYscpoIM;
         "forge-1.20.2" = _hH0LIFxC;
         "forge-1.20.4" = _1g1uT1uV;
@@ -168,6 +192,7 @@ let
         "forge-1.21.10" = _vD2TyrXL;
         "forge-1.21.11" = _xWKCBPhx;
         "forge-26.1.2" = _YITvnHqS;
+        "forge-26.3" = _soWW8Z9d;
         "fabric-1.20.1" = _6dYy3vR6;
         "fabric-1.20.2" = _6o2idHmE;
         "fabric-1.20.4" = _oSt9hrY8;
@@ -177,6 +202,8 @@ let
         "fabric-1.21.8" = _6OgNnH91;
         "fabric-1.21.10" = _aivaPee4;
         "fabric-1.21.11" = _MM28eWti;
+        "fabric-26.1.2" = _nqtjrFNb;
+        "fabric-26.3" = _I75qXBzp;
         "neoforge-1.20.4" = _wGqEzXId;
         "neoforge-1.21" = _wsRfaoxh;
         "neoforge-1.21.1" = _GoZGuozP;
@@ -184,6 +211,7 @@ let
         "neoforge-1.21.10" = _gOPGeJL0;
         "neoforge-1.21.11" = _xEqd7ee9;
         "neoforge-26.1.2" = _fVTPlIUr;
+        "neoforge-26.3" = _goBlcG0O;
         "pkg-3.2.1" = _zYscpoIM;
         "pkg-1.6.4" = _6dYy3vR6;
         "pkg-3.2.2" = _hH0LIFxC;
@@ -203,8 +231,9 @@ let
         "pkg-1.21.10-1.7.2" = _aivaPee4;
         "pkg-3.3.3" = _xWKCBPhx;
         "pkg-1.21.11-1.7.3" = _MM28eWti;
-        "pkg-3.4.0" = _YITvnHqS;
-        "default" = _YITvnHqS;
+        "pkg-3.4.0" = _nqtjrFNb;
+        "pkg-3.4.1" = _I75qXBzp;
+        "default" = _I75qXBzp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "easy-craft-chainmail-armor";

@@ -31,6 +31,16 @@ let
             "file" = "cobblesafari_raiddencompat-neoforge-1.21.1-0.1.2.jar";
             "hash" = "sha512-TOQiu0GE40gAmh2+5g3cY3snj85IWaGt6Zb5Q4mNLvsbuCGPS7ad94XLolpj8mPK7rn3wwHSTkJZFvBf/yaHwA==";
         };
+        _F5lE91ku = {
+            "id" = "F5lE91ku";
+            "file" = "cobblesafari_raiddencompat-fabric-1.21.1-0.2.0.jar";
+            "hash" = "sha512-tw4EeaD6Qrr4Fo0kSy8vQPX0l1ANPOu+wd6s2y9STRC5el47xS8uoM+ysjxrAsVpSB5wCusQFKMWqyChtjzwsA==";
+        };
+        _HFweBbVp = {
+            "id" = "HFweBbVp";
+            "file" = "cobblesafari_raiddencompat-neoforge-1.21.1-0.2.0.jar";
+            "hash" = "sha512-wiZ3b7zUJLS1eN5atBDQWa98QaicZa4qQDNg+1wvZgJ4lP4xw/rJ/ZA3kRjq156og8IFTRoQ5SJ1hguOgldrzg==";
+        };
     in {
         "iti7m0SN" = _iti7m0SN;
         "OpntGk8r" = _OpntGk8r;
@@ -38,12 +48,15 @@ let
         "gsgD6vip" = _gsgD6vip;
         "xnyfLxTf" = _xnyfLxTf;
         "NoqkgFaN" = _NoqkgFaN;
-        "fabric-1.21.1" = _xnyfLxTf;
-        "neoforge-1.21.1" = _NoqkgFaN;
+        "F5lE91ku" = _F5lE91ku;
+        "HFweBbVp" = _HFweBbVp;
+        "fabric-1.21.1" = _F5lE91ku;
+        "neoforge-1.21.1" = _HFweBbVp;
         "pkg-0.1.0" = _OpntGk8r;
         "pkg-0.1.1" = _gsgD6vip;
         "pkg-0.1.2" = _NoqkgFaN;
-        "default" = _NoqkgFaN;
+        "pkg-0.2.0" = _HFweBbVp;
+        "default" = _HFweBbVp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblesafari-+-raid-den-compat";

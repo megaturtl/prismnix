@@ -1011,6 +1011,21 @@ let
             "file" = "mcw-bridges-3.1.2-mc26.2fabric.jar";
             "hash" = "sha512-4djDrrEsd+tzZ4gaPpQidbOWoV/+ceFyGIVGMNm3TbLQtiClHuNKSXUGya2lPoPR9nUPK0oSbelNLdzm2xMCpQ==";
         };
+        _XYmXzoYz = {
+            "id" = "XYmXzoYz";
+            "file" = "mcw-bridges-3.1.2-mc26.3neoforge.jar";
+            "hash" = "sha512-4v/eX2SgnYXvCzqAmYxBrmcpaN1wulWt0tTvzbXvifTshhHkUNUrmxWnf01R+3+vdw1z75SAJI80y392RCqeqQ==";
+        };
+        _oUabEHIq = {
+            "id" = "oUabEHIq";
+            "file" = "mcw-bridges-3.1.2-mc26.3forge.jar";
+            "hash" = "sha512-Oeg6dAXY2uRjwI6P81gzr0nqnORK3Gh8E/w1F0OdFmpx8jfyt1UgBjb/Q0mhtDIcbyuioWxqxAFNkpKo/FV/iA==";
+        };
+        _htICLqtu = {
+            "id" = "htICLqtu";
+            "file" = "mcw-bridges-3.1.2-mc26.3fabric.jar";
+            "hash" = "sha512-vXy4scVlGwQxcXy3yYH6neV03LYLBfZ14E6tgdFoVACfl8uW1xSJShwpdKRQL7rWf0xklK3mJDHTIlY4e1/syg==";
+        };
     in {
         "zLtgy2rG" = _zLtgy2rG;
         "HI6WJGQE" = _HI6WJGQE;
@@ -1214,6 +1229,9 @@ let
         "9EkALmVy" = _9EkALmVy;
         "VA1Q4KvP" = _VA1Q4KvP;
         "O570Yvic" = _O570Yvic;
+        "XYmXzoYz" = _XYmXzoYz;
+        "oUabEHIq" = _oUabEHIq;
+        "htICLqtu" = _htICLqtu;
         "fabric-1.18.2" = _9O9YDKGL;
         "fabric-1.19" = _DF20nJwP;
         "fabric-1.19.1" = _qPBSp7gG;
@@ -1241,6 +1259,7 @@ let
         "fabric-26.1.1" = _QLLyZd4W;
         "fabric-26.1.2" = _QLLyZd4W;
         "fabric-26.2" = _O570Yvic;
+        "fabric-26.3" = _htICLqtu;
         "forge-1.16.5" = _ieH8s19e;
         "forge-1.17.1" = _OsBqCtDU;
         "forge-1.18.1" = _n8ubVyxI;
@@ -1271,6 +1290,7 @@ let
         "forge-26.1.1" = _wruQNJ5v;
         "forge-26.1.2" = _wruQNJ5v;
         "forge-26.2" = _9EkALmVy;
+        "forge-26.3" = _oUabEHIq;
         "neoforge-1.20.4" = _WpPjeAKe;
         "neoforge-1.20.6" = _glBoua9A;
         "neoforge-1.21" = _o6PUnTcO;
@@ -1288,13 +1308,14 @@ let
         "neoforge-26.1.1" = _szkqDGRO;
         "neoforge-26.1.2" = _szkqDGRO;
         "neoforge-26.2" = _VA1Q4KvP;
+        "neoforge-26.3" = _XYmXzoYz;
         "pkg-2.1.0" = _GWftaLXd;
         "pkg-3.0.0" = _S9LF0lyC;
         "pkg-3.0.1" = _T0o3wej6;
         "pkg-3.1.0" = _a8mgrRdX;
         "pkg-3.1.1" = _zat3mTVY;
-        "pkg-3.1.2" = _O570Yvic;
-        "default" = _O570Yvic;
+        "pkg-3.1.2" = _htICLqtu;
+        "default" = _htICLqtu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "macaws-bridges";

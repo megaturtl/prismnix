@@ -281,6 +281,56 @@ let
             "file" = "thief-fabric-26.2-1.2.5.jar";
             "hash" = "sha512-9TpjsSvjbV8k9WOc9gj2oq85zuiU5wFAWNVlnrbm6NQcNBYX79dYlIkOF19K2w37bbmfThFaIo8gnIxr8UEj2w==";
         };
+        _F2vZq5sj = {
+            "id" = "F2vZq5sj";
+            "file" = "thief-neoforge-1.21.1-1.2.5.jar";
+            "hash" = "sha512-pljTf9XoMXvh8TnWANpTfhH6LV1A9iPiEHpvIMMi6jO4JMKlVAupKrPYrlkyvO+wBOeCR80rQko+NjAHjd8/jg==";
+        };
+        _nBJwljOR = {
+            "id" = "nBJwljOR";
+            "file" = "thief-fabric-1.21.1-1.2.5.jar";
+            "hash" = "sha512-dNT/Sm9vYaflAeOHLO1AsVkyXHxvFjiENaB75Zh12VNojqHzSpx1StWnx84KePZIC4qdmOOpXQ0fzMTYAT/Kdg==";
+        };
+        _CmidkxKZ = {
+            "id" = "CmidkxKZ";
+            "file" = "thief-neoforge-26.2-1.2.6.jar";
+            "hash" = "sha512-ni+xLFA6CgxgkGc+Q/XJ4T+bkyyEuuZvoPIPqELFC+GzwWBJBvUwqdDdwSjR7SAt+/r996z3HuxSVJR2ctZCbQ==";
+        };
+        _Oo4CDF3i = {
+            "id" = "Oo4CDF3i";
+            "file" = "thief-fabric-26.2-1.2.6.jar";
+            "hash" = "sha512-kKCPjOeHi68HjeiNupGbUIwvzvygksDjN+PzyKBBjS1oDjNBmg1VWfXtX9EaHzbfZQlUh2vfTIEGy9v9gyIRUg==";
+        };
+        _7F0mIm4c = {
+            "id" = "7F0mIm4c";
+            "file" = "thief-fabric-1.21.1-1.2.7.jar";
+            "hash" = "sha512-AgGvbmOIOH2/VFlJdxQr1oMuMg/UCT9j6HcbQvrabqwyBZ6H8NvUO0KFtlg6CIHrAy0C1aGphuDwgkF94QT3sw==";
+        };
+        _ktolTeGZ = {
+            "id" = "ktolTeGZ";
+            "file" = "thief-neoforge-1.21.1-1.2.7.jar";
+            "hash" = "sha512-enjYzvCM1PYsrbstTLO4Q8mjAZcZcIaBfRjOcnCfaRJX4lH1oQyHXSjCXpeqo8PhsEPk9RnU+6PpLkGACOgdMQ==";
+        };
+        _iXBHqiNr = {
+            "id" = "iXBHqiNr";
+            "file" = "thief-neoforge-26.2-1.2.7.jar";
+            "hash" = "sha512-aLuXb9ugvfnPzC7W3CVCpZ8y5Wh83SlqCk0eQUxpoCRLcmhcGAqOaGFQPCWCh/Rh9o/FZ/b88PuKRFkjRBYhxA==";
+        };
+        _wzKtGbI9 = {
+            "id" = "wzKtGbI9";
+            "file" = "thief-fabric-26.2-1.2.7.jar";
+            "hash" = "sha512-5+sRCpMiu98y6EiPmTc1URH9k7eklVthGn/nBRWpFt1huhyOJIWBagXRg5Oqn1meOBG5UbAwJ2kcxGYrSTqDXg==";
+        };
+        _LQmIWfeP = {
+            "id" = "LQmIWfeP";
+            "file" = "thief-neoforge-26.3-1.2.7.jar";
+            "hash" = "sha512-W0WpaYVgoYjsVIGYXa6s3kiWU13VpBwOH0LvgZl0gmW48TharxevZt3ywZVKn+BvXdhLQqZ5szjkYNxJAHDsLg==";
+        };
+        _X4QKUusu = {
+            "id" = "X4QKUusu";
+            "file" = "thief-fabric-26.3-1.2.7.jar";
+            "hash" = "sha512-Y1SOY/RGVEiy4QbWdq3mjOZmGp46ynUn8xA9NBh0cISJxomkVvK1i0XQrHFx4YY3M/GOPb/ai++sV7H33w0b0w==";
+        };
     in {
         "nGIkDTDE" = _nGIkDTDE;
         "w5xNhaYy" = _w5xNhaYy;
@@ -338,7 +388,17 @@ let
         "eOViVa8x" = _eOViVa8x;
         "KKBHi6Jj" = _KKBHi6Jj;
         "B0w9suL6" = _B0w9suL6;
-        "neoforge-1.21.1" = _Zhr0tVOO;
+        "F2vZq5sj" = _F2vZq5sj;
+        "nBJwljOR" = _nBJwljOR;
+        "CmidkxKZ" = _CmidkxKZ;
+        "Oo4CDF3i" = _Oo4CDF3i;
+        "7F0mIm4c" = _7F0mIm4c;
+        "ktolTeGZ" = _ktolTeGZ;
+        "iXBHqiNr" = _iXBHqiNr;
+        "wzKtGbI9" = _wzKtGbI9;
+        "LQmIWfeP" = _LQmIWfeP;
+        "X4QKUusu" = _X4QKUusu;
+        "neoforge-1.21.1" = _ktolTeGZ;
         "neoforge-1.21.4" = _rVEXzYbS;
         "neoforge-1.21.5" = _nManVBqi;
         "neoforge-1.21.8" = _mBpAgGms;
@@ -347,8 +407,9 @@ let
         "neoforge-26.1" = _1UkOVUrI;
         "neoforge-26.1.1" = _1UkOVUrI;
         "neoforge-26.1.2" = _4sVfc8OZ;
-        "neoforge-26.2" = _KKBHi6Jj;
-        "fabric-1.21.1" = _bBkp6gqP;
+        "neoforge-26.2" = _iXBHqiNr;
+        "neoforge-26.3" = _LQmIWfeP;
+        "fabric-1.21.1" = _7F0mIm4c;
         "fabric-1.20.1" = _FBFWMR4U;
         "fabric-1.21.4" = _ffia1xkc;
         "fabric-1.21.5" = _iiKOKZl7;
@@ -358,7 +419,8 @@ let
         "fabric-26.1" = _2JGQlK7G;
         "fabric-26.1.1" = _2JGQlK7G;
         "fabric-26.1.2" = _eOViVa8x;
-        "fabric-26.2" = _B0w9suL6;
+        "fabric-26.2" = _wzKtGbI9;
+        "fabric-26.3" = _X4QKUusu;
         "forge-1.20.1" = _pGdGIjkP;
         "quilt-1.20.1" = _FBFWMR4U;
         "pkg-1.0.0" = _vU8sgkRd;
@@ -373,8 +435,10 @@ let
         "pkg-1.2.2.1" = _G5M6yGL3;
         "pkg-1.2.3.1" = _ffia1xkc;
         "pkg-1.2.4" = _bBkp6gqP;
-        "pkg-1.2.5" = _B0w9suL6;
-        "default" = _B0w9suL6;
+        "pkg-1.2.5" = _nBJwljOR;
+        "pkg-1.2.6" = _Oo4CDF3i;
+        "pkg-1.2.7" = _X4QKUusu;
+        "default" = _X4QKUusu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "thief";

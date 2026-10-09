@@ -86,6 +86,11 @@ let
             "file" = "lightingfixtures-1.0.0-forge-1.20.1.jar";
             "hash" = "sha512-6RKHm8J5HIGnUywq/VRcd4eqXnK7F/lomD8o69gm49oDycWciga+ipD08aSqFhM34+GgJT0gRFZGLi+LsHcjcA==";
         };
+        _cJSWGmvt = {
+            "id" = "cJSWGmvt";
+            "file" = "lightingfixtures-1.0.1-forge-1.20.1.jar";
+            "hash" = "sha512-IbzsieKwQm7S48cqHi0C3gPBk7nj62yqMeB/EsYv34gcRJl4QQHq9S7xnN/09qDUF6q/vB6I5oonypJ8lxlokA==";
+        };
     in {
         "PzNsICLF" = _PzNsICLF;
         "UP1V6Gn2" = _UP1V6Gn2;
@@ -104,8 +109,9 @@ let
         "WVadXjkP" = _WVadXjkP;
         "a7WLcrrM" = _a7WLcrrM;
         "KHD9ostr" = _KHD9ostr;
+        "cJSWGmvt" = _cJSWGmvt;
         "neoforge-1.20.4" = _PzNsICLF;
-        "neoforge-1.20.1" = _KHD9ostr;
+        "neoforge-1.20.1" = _cJSWGmvt;
         "neoforge-1.21.1" = _a7WLcrrM;
         "neoforge-1.21.2" = _c3MbFCHA;
         "neoforge-1.21.3" = _eiopMHNZ;
@@ -116,10 +122,10 @@ let
         "neoforge-1.21.8" = _eiopMHNZ;
         "neoforge-1.21.9" = _eiopMHNZ;
         "neoforge-1.21.10" = _eiopMHNZ;
-        "neoforge-1.20" = _KHD9ostr;
+        "neoforge-1.20" = _cJSWGmvt;
         "neoforge-1.21" = _a7WLcrrM;
-        "forge-1.20.1" = _KHD9ostr;
-        "forge-1.20" = _KHD9ostr;
+        "forge-1.20.1" = _cJSWGmvt;
+        "forge-1.20" = _cJSWGmvt;
         "pkg-0.1.2" = _YGrqQwFe;
         "pkg-0.1.3" = _oMn4ZK2T;
         "pkg-0.2.0" = _c4i3Rs8k;
@@ -132,7 +138,8 @@ let
         "pkg-0.7.0" = _c3MbFCHA;
         "pkg-0.8.9" = _WVadXjkP;
         "pkg-1.0.0" = _KHD9ostr;
-        "default" = _KHD9ostr;
+        "pkg-1.0.1" = _cJSWGmvt;
+        "default" = _cJSWGmvt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "electrical_appliances_and_lamps";

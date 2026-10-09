@@ -66,6 +66,16 @@ let
             "file" = "brick_and_mortar-forge-1.20.1-1.2.2.jar";
             "hash" = "sha512-K0jDJBsJpaGF46rPCchYWKIsn5VZPNtpjX8VwHupbPWbIJ9gv8HFMpWFtx+YfvbEYyKcwsdDuUkNtHuoOnG4KQ==";
         };
+        _PJwo4SC6 = {
+            "id" = "PJwo4SC6";
+            "file" = "brick_and_mortar-fabric-1.21.1-1.2.2.jar";
+            "hash" = "sha512-xGi7RRpIVv+UrkFPE0o4k36jCtdA3BXbhcKwFGFQrtontZtRwhRoTMVWpxZzVndbRf3WB3CxRXRFf2HkNX8DfQ==";
+        };
+        _T2OzSG2U = {
+            "id" = "T2OzSG2U";
+            "file" = "brick_and_mortar-neoforge-1.21.1-1.2.2.jar";
+            "hash" = "sha512-5r3s09P33G2wxyJjvDwRNjvnmh86XZlxLydZfeFeJsH8qmdrmXibVLdBt2EoaNkJq8fhRBFlQjpLOYwNxf100w==";
+        };
     in {
         "5PcEjoC9" = _5PcEjoC9;
         "qERjLpyL" = _qERjLpyL;
@@ -80,9 +90,11 @@ let
         "rXsoc3aH" = _rXsoc3aH;
         "5NG3RuBt" = _5NG3RuBt;
         "im02EjYf" = _im02EjYf;
-        "fabric-1.21.1" = _pqAQP0LB;
+        "PJwo4SC6" = _PJwo4SC6;
+        "T2OzSG2U" = _T2OzSG2U;
+        "fabric-1.21.1" = _PJwo4SC6;
         "fabric-1.20.1" = _rXsoc3aH;
-        "neoforge-1.21.1" = _fqHXkmGF;
+        "neoforge-1.21.1" = _T2OzSG2U;
         "forge-1.20.1" = _im02EjYf;
         "pkg-1.0.0-1.21.1-fabric" = _5PcEjoC9;
         "pkg-1.0.0-1.21.1-neoforge" = _qERjLpyL;
@@ -97,7 +109,9 @@ let
         "pkg-1.2.1-1.20.1-fabric" = _rXsoc3aH;
         "pkg-1.2.1-1.20.1-forge" = _5NG3RuBt;
         "pkg-1.2.2-1.20.1-forge" = _im02EjYf;
-        "default" = _im02EjYf;
+        "pkg-1.2.2-1.21.1-fabric" = _PJwo4SC6;
+        "pkg-1.2.2-1.21.1-neoforge" = _T2OzSG2U;
+        "default" = _T2OzSG2U;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "brick-and-mortar";

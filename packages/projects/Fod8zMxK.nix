@@ -81,6 +81,31 @@ let
             "file" = "BridgeMaker-1.21.1-3.0.1.jar";
             "hash" = "sha512-O4CR+p+LP6+EklnddjzvU+TRnaxmBiK6/awjDi9AXK6UvkZsIoFLF2cevVcK9w1h3XW8W38elDXeBFFYU7mUYA==";
         };
+        _B5hnXkOU = {
+            "id" = "B5hnXkOU";
+            "file" = "BridgeMaker-1.21.2-3.0.1.jar";
+            "hash" = "sha512-MOsm8weFNO/5ftz0owX6qJgai3rpRBBP9ZoFqS40/mOJpnuN+VIMbIyhlkDfBshwbIPMoZklffqpNDPl7HgQMA==";
+        };
+        _TurPCXQ9 = {
+            "id" = "TurPCXQ9";
+            "file" = "BridgeMaker-1.21.5-3.0.1.jar";
+            "hash" = "sha512-n8N+l62amIjuVUm3+uoSs6xBoPSpuE0ZjzaDI3wnTf3X86FTl7GRWjVjePX/YIweR/BB7uYSQ1mZdw/Jo51Vrg==";
+        };
+        _xPQUDXgc = {
+            "id" = "xPQUDXgc";
+            "file" = "BridgeMaker-1.21.6-3.0.1.jar";
+            "hash" = "sha512-9TLg0cPaz6OcgXTzCEQZQkBOjS4NS8tsPZf1vz5LHA2wJPFoatY4YrQoolFik0yPDSGco/wpDIe/hjsDdTp9Qg==";
+        };
+        _o8Xp39Sq = {
+            "id" = "o8Xp39Sq";
+            "file" = "BridgeMaker-1.21.11-3.0.1.jar";
+            "hash" = "sha512-Ypd8VZtwy/sSst4FcgEI0fIApFi52cNd2NwUVQfVH8Aj5VTvMNlHtJjKV2YQOtSb5Qxlk1WwtuMMSAPo93j6jw==";
+        };
+        _bQLwQANG = {
+            "id" = "bQLwQANG";
+            "file" = "BridgeMaker-26.1-3.0.1.jar";
+            "hash" = "sha512-GwG/K9fkuWikIzEqETD5C8Id8BouOy6JCm6yxbrxOnrZXZGmQtifcmCxdZplW7/zpI9MrBETDKOr5Hks4EY4ew==";
+        };
     in {
         "bc4ykVAg" = _bc4ykVAg;
         "Qmknww7w" = _Qmknww7w;
@@ -98,6 +123,11 @@ let
         "yElTtBVv" = _yElTtBVv;
         "JZzLrejB" = _JZzLrejB;
         "wIPXgOND" = _wIPXgOND;
+        "B5hnXkOU" = _B5hnXkOU;
+        "TurPCXQ9" = _TurPCXQ9;
+        "xPQUDXgc" = _xPQUDXgc;
+        "o8Xp39Sq" = _o8Xp39Sq;
+        "bQLwQANG" = _bQLwQANG;
         "forge-1.17.1" = _bc4ykVAg;
         "forge-1.18.2" = _Qmknww7w;
         "forge-1.19.4" = _ZCbmwUyZ;
@@ -109,6 +139,21 @@ let
         "forge-1.21" = _I86XxhKl;
         "forge-1.21.1" = _yElTtBVv;
         "neoforge-1.21.1" = _wIPXgOND;
+        "neoforge-1.21.2" = _B5hnXkOU;
+        "neoforge-1.21.3" = _B5hnXkOU;
+        "neoforge-1.21.4" = _B5hnXkOU;
+        "neoforge-1.21.5" = _TurPCXQ9;
+        "neoforge-1.21.6" = _xPQUDXgc;
+        "neoforge-1.21.7" = _xPQUDXgc;
+        "neoforge-1.21.8" = _xPQUDXgc;
+        "neoforge-1.21.9" = _xPQUDXgc;
+        "neoforge-1.21.10" = _xPQUDXgc;
+        "neoforge-1.21.11" = _o8Xp39Sq;
+        "neoforge-26.1" = _bQLwQANG;
+        "neoforge-26.1.1" = _bQLwQANG;
+        "neoforge-26.1.2" = _bQLwQANG;
+        "neoforge-26.2" = _bQLwQANG;
+        "neoforge-26.3" = _bQLwQANG;
         "pkg-1.17.1-2.0.1" = _bc4ykVAg;
         "pkg-1.18.2-2.0.1" = _Qmknww7w;
         "pkg-1.19.4-2.0.2" = _Q4pSsEqf;
@@ -125,7 +170,12 @@ let
         "pkg-1.21.1-2.0.4" = _yElTtBVv;
         "pkg-1.21.1-3.0.0" = _JZzLrejB;
         "pkg-1.21.1-3.0.1" = _wIPXgOND;
-        "default" = _wIPXgOND;
+        "pkg-1.21.2-3.0.1" = _B5hnXkOU;
+        "pkg-1.21.5-3.0.1" = _TurPCXQ9;
+        "pkg-1.21.6-3.0.1" = _xPQUDXgc;
+        "pkg-1.21.11-3.0.1" = _o8Xp39Sq;
+        "pkg-26.1-3.0.1" = _bQLwQANG;
+        "default" = _bQLwQANG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bridge-maker";

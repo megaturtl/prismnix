@@ -101,6 +101,11 @@ let
             "file" = "tsa-stone-1.1.6+26.1.jar";
             "hash" = "sha512-Ondl64i4gx8alRHCOFCvq3caEzXFL1co67iRwBp8fKm6IXTtkT9AiN7ZR824UHyuya4gDfsxWvhVE+zpBo3Pvg==";
         };
+        _YVUdKF2G = {
+            "id" = "YVUdKF2G";
+            "file" = "tsa-stone-1.1.7+26.3.jar";
+            "hash" = "sha512-BaE6e3kN7vxhKR+FbykeBraE2/q26Em27zhH+w+PoEI0rta1EWLvNc0AgthPIRGuQYW82Aqlm/Y/emlV96yggw==";
+        };
     in {
         "Y9bKFSt0" = _Y9bKFSt0;
         "JL2ujaEx" = _JL2ujaEx;
@@ -122,6 +127,7 @@ let
         "bDIVSIKX" = _bDIVSIKX;
         "K7Ji5g4r" = _K7Ji5g4r;
         "wpQuyZiO" = _wpQuyZiO;
+        "YVUdKF2G" = _YVUdKF2G;
         "fabric-1.20.1" = _8ULOMT9z;
         "fabric-1.20.4" = _7wAghhb6;
         "fabric-1.20.6" = _aTDMoL6u;
@@ -144,6 +150,7 @@ let
         "fabric-26.1.1" = _wpQuyZiO;
         "fabric-26.1.2" = _wpQuyZiO;
         "fabric-26.2" = _wpQuyZiO;
+        "fabric-26.3" = _YVUdKF2G;
         "pkg-1.0+1.20.1" = _Y9bKFSt0;
         "pkg-1.0+1.20.4" = _JL2ujaEx;
         "pkg-1.0.1+1.20.1" = _wyWHPESR;
@@ -164,7 +171,8 @@ let
         "pkg-1.1.4" = _bDIVSIKX;
         "pkg-1.1.5" = _K7Ji5g4r;
         "pkg-1.1.6+26.1" = _wpQuyZiO;
-        "default" = _wpQuyZiO;
+        "pkg-1.1.7+26.3" = _YVUdKF2G;
+        "default" = _YVUdKF2G;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tsa-stone";

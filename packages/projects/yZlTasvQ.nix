@@ -146,6 +146,36 @@ let
             "file" = "MoreButtons-forge-26.1.2-2.9.0.jar";
             "hash" = "sha512-m4K6uNqZwlo54AN8osUnETR5zZWe86j6Ot55fkBy6o4h5nbjgk5byJKVDYgdvAy7RPiuLXIVAIbV1zvx/j9WxQ==";
         };
+        _4CO95pTs = {
+            "id" = "4CO95pTs";
+            "file" = "MoreButtons-fabric-26.1.2-2.9.0.jar";
+            "hash" = "sha512-Skbu4ugZcYwLKb9cGlgbQG1B3GJC5zy6RWZ8nj+QZljePIMI9jd8HGCm99Z+kwTg+OPBSjkY8pPayI9ZIEHBew==";
+        };
+        _wYVXr1Ml = {
+            "id" = "wYVXr1Ml";
+            "file" = "MoreButtons-forge-26.1.2-2.9.0.1.jar";
+            "hash" = "sha512-fnLltt9fBsMUS18JRcevVB9bMEjLkYJBgZme1cC6z7/ANTAX7p9T+gNbICC0+zBE6pRsYnWQHZPEEUGwMQz7Ww==";
+        };
+        _owx5bMH0 = {
+            "id" = "owx5bMH0";
+            "file" = "MoreButtons-neoforge-26.1.2-2.9.0.1.jar";
+            "hash" = "sha512-mudgjOATsMnrocUglTCcLtKkpRLZQkG/iRmXu4nQxLAle5KOQ5uwofCmmdOwg94XOIUdr7rJQ6aQ5E8IeEydng==";
+        };
+        _7foA89qP = {
+            "id" = "7foA89qP";
+            "file" = "MoreButtons-neoforge-26.3-2.10.0.jar";
+            "hash" = "sha512-7s8Tu+jRtUcj92KNj2H11vZledRA628tMa3DXJ3vmS7imrvKfBv1tIGJX0SFFCI4YcTT8mADhKUInyv3itevLA==";
+        };
+        _XMLgKm66 = {
+            "id" = "XMLgKm66";
+            "file" = "MoreButtons-forge-26.3-2.10.0.jar";
+            "hash" = "sha512-Hts0RyJXl7WHh+duKTp0NY+9byamKo34kA5eWOWOIMJGy7N3cHkiWl5c49xVC0uhAcock25pWjSi6QE6oYxsRw==";
+        };
+        _QdFBDXev = {
+            "id" = "QdFBDXev";
+            "file" = "MoreButtons-fabric-26.3-2.10.0.jar";
+            "hash" = "sha512-FfyVPvPZt7vdKD5D1fUzpYLSs9f38O0aN2xWLvJlk7KtqMCOWJ5O0uCYG7D0MaUXtDhc2ckwevtZe1enoJIqnQ==";
+        };
     in {
         "WefJqnau" = _WefJqnau;
         "OaI6k3zO" = _OaI6k3zO;
@@ -176,6 +206,12 @@ let
         "MWnipFgZ" = _MWnipFgZ;
         "TEQRyg3r" = _TEQRyg3r;
         "7pEukjWf" = _7pEukjWf;
+        "4CO95pTs" = _4CO95pTs;
+        "wYVXr1Ml" = _wYVXr1Ml;
+        "owx5bMH0" = _owx5bMH0;
+        "7foA89qP" = _7foA89qP;
+        "XMLgKm66" = _XMLgKm66;
+        "QdFBDXev" = _QdFBDXev;
         "fabric-1.20.1" = _WefJqnau;
         "fabric-1.20.2" = _A8WdjmXj;
         "fabric-1.20.4" = _plDrmbLb;
@@ -185,6 +221,8 @@ let
         "fabric-1.21.8" = _4AjEtR13;
         "fabric-1.21.10" = _eloV0LoP;
         "fabric-1.21.11" = _AM2fspEY;
+        "fabric-26.1.2" = _4CO95pTs;
+        "fabric-26.3" = _QdFBDXev;
         "forge-1.20.1" = _OaI6k3zO;
         "forge-1.20.2" = _HaSw6D4v;
         "forge-1.20.4" = _MDcGGYSh;
@@ -194,14 +232,16 @@ let
         "forge-1.21.9" = _LEquiwvQ;
         "forge-1.21.10" = _zkCM0tBB;
         "forge-1.21.11" = _wyMlTO2y;
-        "forge-26.1.2" = _7pEukjWf;
+        "forge-26.1.2" = _wYVXr1Ml;
+        "forge-26.3" = _XMLgKm66;
         "neoforge-1.20.4" = _W231Dl1Z;
         "neoforge-1.21" = _QS8oNM1X;
         "neoforge-1.21.1" = _XNBOcDpf;
         "neoforge-1.21.8" = _1aur9FfP;
         "neoforge-1.21.10" = _VBosvfCG;
         "neoforge-1.21.11" = _MWnipFgZ;
-        "neoforge-26.1.2" = _TEQRyg3r;
+        "neoforge-26.1.2" = _owx5bMH0;
+        "neoforge-26.3" = _7foA89qP;
         "pkg-1.0.3" = _WefJqnau;
         "pkg-2.7.1" = _OaI6k3zO;
         "pkg-2.7.2" = _FZ4DKgtD;
@@ -224,8 +264,9 @@ let
         "pkg-2.8.0" = _VBosvfCG;
         "pkg-2.8.4" = _wyMlTO2y;
         "pkg-1.21.11-1.1.3" = _AM2fspEY;
-        "pkg-2.9.0" = _7pEukjWf;
-        "default" = _7pEukjWf;
+        "pkg-2.9.0" = _owx5bMH0;
+        "pkg-2.10.0" = _QdFBDXev;
+        "default" = _QdFBDXev;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-buttons";

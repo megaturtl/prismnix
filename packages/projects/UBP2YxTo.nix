@@ -71,6 +71,16 @@ let
             "file" = "BetterHotbar+ Default Transparent 1.1.zip";
             "hash" = "sha512-pAUZWtxT8cw4a7mPW77arR+XWoK4DBv9unxF8Ld+xy8hy6I8VbGhQ7nkp3f++QkJUjPOnkWgiH4ck2v9+lWjmw==";
         };
+        _sERTUnfZ = {
+            "id" = "sERTUnfZ";
+            "file" = "BetterHotbar+ Dark Transparent 1.2.zip";
+            "hash" = "sha512-fuQjP0R/y/nLCBKACOdh/dhGewZjAq4YTSnkQqCOToQgP+G6PXqK5y+INAGmr5PtINM2z2GdhvJfKhOxrMlF8w==";
+        };
+        _CRRF8zkW = {
+            "id" = "CRRF8zkW";
+            "file" = "BetterHotbar+ Default Transparent 1.2.zip";
+            "hash" = "sha512-OpOqFC7pLYoGIHpgA0V7DOLuOrgyPwOlLAEh0NBJ8dBdD3IvWRzWTK3i76k0nZs7jpcNa9/qe1yLLIKWfvNRSA==";
+        };
     in {
         "Htr0chmO" = _Htr0chmO;
         "DIA8Q5YW" = _DIA8Q5YW;
@@ -86,11 +96,13 @@ let
         "bbPerXGr" = _bbPerXGr;
         "minjjjCN" = _minjjjCN;
         "mz327LVF" = _mz327LVF;
+        "sERTUnfZ" = _sERTUnfZ;
+        "CRRF8zkW" = _CRRF8zkW;
         "minecraft-1.20.2" = _mz327LVF;
         "minecraft-1.20.3" = _mz327LVF;
         "minecraft-1.20.4" = _mz327LVF;
         "minecraft-1.20.5" = _mz327LVF;
-        "minecraft-1.21" = _mz327LVF;
+        "minecraft-1.21" = _CRRF8zkW;
         "minecraft-1.20.6" = _mz327LVF;
         "minecraft-1.8.9" = _mz327LVF;
         "minecraft-1.9" = _mz327LVF;
@@ -136,7 +148,7 @@ let
         "minecraft-1.19.4" = _mz327LVF;
         "minecraft-1.20" = _mz327LVF;
         "minecraft-1.20.1" = _mz327LVF;
-        "minecraft-1.21.1" = _mz327LVF;
+        "minecraft-1.21.1" = _CRRF8zkW;
         "minecraft-24w33a" = _mz327LVF;
         "minecraft-24w34a" = _mz327LVF;
         "minecraft-1.21-rc1" = _tQhld5J2;
@@ -146,10 +158,10 @@ let
         "minecraft-24w37a" = _mz327LVF;
         "minecraft-24w38a" = _mz327LVF;
         "minecraft-24w39a" = _mz327LVF;
-        "minecraft-1.21.2" = _mz327LVF;
-        "minecraft-1.21.3" = _mz327LVF;
-        "minecraft-1.21.4" = _mz327LVF;
-        "minecraft-1.21.5" = _mz327LVF;
+        "minecraft-1.21.2" = _CRRF8zkW;
+        "minecraft-1.21.3" = _CRRF8zkW;
+        "minecraft-1.21.4" = _CRRF8zkW;
+        "minecraft-1.21.5" = _CRRF8zkW;
         "minecraft-1.6.1" = _mz327LVF;
         "minecraft-1.6.2" = _mz327LVF;
         "minecraft-1.6.4" = _mz327LVF;
@@ -214,12 +226,12 @@ let
         "minecraft-24w44a" = _mz327LVF;
         "minecraft-24w45a" = _mz327LVF;
         "minecraft-24w46a" = _mz327LVF;
-        "minecraft-1.21.6" = _mz327LVF;
-        "minecraft-1.21.7" = _mz327LVF;
-        "minecraft-1.21.8" = _mz327LVF;
-        "minecraft-1.21.9" = _mz327LVF;
-        "minecraft-1.21.10" = _mz327LVF;
-        "minecraft-1.21.11" = _mz327LVF;
+        "minecraft-1.21.6" = _CRRF8zkW;
+        "minecraft-1.21.7" = _CRRF8zkW;
+        "minecraft-1.21.8" = _CRRF8zkW;
+        "minecraft-1.21.9" = _CRRF8zkW;
+        "minecraft-1.21.10" = _CRRF8zkW;
+        "minecraft-1.21.11" = _CRRF8zkW;
         "minecraft-26.1-snapshot-1" = _bbPerXGr;
         "minecraft-26.1-snapshot-2" = _bbPerXGr;
         "minecraft-26.1-snapshot-3" = _bbPerXGr;
@@ -237,13 +249,13 @@ let
         "minecraft-26.1-rc-1" = _bbPerXGr;
         "minecraft-26.1-rc-2" = _bbPerXGr;
         "minecraft-26.1-rc-3" = _bbPerXGr;
-        "minecraft-26.1" = _mz327LVF;
+        "minecraft-26.1" = _CRRF8zkW;
         "minecraft-26.1.1-rc-1" = _bbPerXGr;
-        "minecraft-26.1.1" = _mz327LVF;
+        "minecraft-26.1.1" = _CRRF8zkW;
         "minecraft-26w14a" = _bbPerXGr;
         "minecraft-26.2-snapshot-1" = _bbPerXGr;
         "minecraft-26.1.2-rc-1" = _bbPerXGr;
-        "minecraft-26.1.2" = _mz327LVF;
+        "minecraft-26.1.2" = _CRRF8zkW;
         "minecraft-26.2-snapshot-2" = _bbPerXGr;
         "minecraft-26.2-snapshot-3" = _bbPerXGr;
         "minecraft-26.2-snapshot-4" = _bbPerXGr;
@@ -259,8 +271,11 @@ let
         "minecraft-26.2-pre-6" = _bbPerXGr;
         "minecraft-26.2-rc-1" = _bbPerXGr;
         "minecraft-26.2-rc-2" = _bbPerXGr;
-        "minecraft-26.2" = _mz327LVF;
-        "minecraft-26.3" = _mz327LVF;
+        "minecraft-26.2" = _CRRF8zkW;
+        "minecraft-26.3" = _CRRF8zkW;
+        "minecraft-26.4-snapshot-1" = _CRRF8zkW;
+        "minecraft-26.4-snapshot-2" = _CRRF8zkW;
+        "minecraft-26.4-snapshot-3" = _CRRF8zkW;
         "pkg-0.1.4+dark" = _Htr0chmO;
         "pkg-0.1.4+default" = _DIA8Q5YW;
         "pkg-0.1.8+dark" = _55sCGkah;
@@ -274,7 +289,9 @@ let
         "pkg-1.0" = _bbPerXGr;
         "pkg-1.1+dark_transparent" = _minjjjCN;
         "pkg-1.1+default_transparent" = _mz327LVF;
-        "default" = _mz327LVF;
+        "pkg-1.2+dark_transparent" = _sERTUnfZ;
+        "pkg-1.2+default_transparent" = _CRRF8zkW;
+        "default" = _CRRF8zkW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "betterhotbar+transparent";

@@ -121,6 +121,16 @@ let
             "file" = "VehicleUpgrade-v26.2.0-mc26.2.x-NeoForge.jar";
             "hash" = "sha512-F/Ts3csdUi5rwyV4tqMECHxm1qXfFnBIA5290kQyko/uuZQDKAFfYDPZIlQcXbrOSxozkvkoMUIn0ohaAtuElQ==";
         };
+        _5wSEzC2h = {
+            "id" = "5wSEzC2h";
+            "file" = "vehicleupgrade-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-NoAsgFIQTAnpCsQhpXXYlSdcv+bPGaB2pVui1eFeQ+fK5TknfFPJsvI56Qznm0eyiZY5ST1E1JOfh3jqMkABEg==";
+        };
+        _Cc0HpCf0 = {
+            "id" = "Cc0HpCf0";
+            "file" = "vehicleupgrade-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-CBdig5QDndSeh5FuQ2ECefiFZlAxnpaJaKyVdmuFtMjQc6655DMp2NukIGjMuXT8bk4o+Oow8/C1yun3iGzazw==";
+        };
     in {
         "3fwzdgYs" = _3fwzdgYs;
         "no0LDfFp" = _no0LDfFp;
@@ -146,6 +156,8 @@ let
         "mMtnnwMX" = _mMtnnwMX;
         "Rb4bgnhi" = _Rb4bgnhi;
         "tZsT42yC" = _tZsT42yC;
+        "5wSEzC2h" = _5wSEzC2h;
+        "Cc0HpCf0" = _Cc0HpCf0;
         "neoforge-1.21.10" = _BVPJczrC;
         "neoforge-1.21.8" = _VaPSjkV2;
         "neoforge-1.21.11" = _ElUh38mZ;
@@ -154,6 +166,7 @@ let
         "neoforge-26.1.2" = _HG6Or8Gz;
         "neoforge-1.21.1" = _mMtnnwMX;
         "neoforge-26.2" = _tZsT42yC;
+        "neoforge-26.3" = _Cc0HpCf0;
         "fabric-1.21.10" = _GKoKTEBe;
         "fabric-1.21.8" = _lw0zXBJb;
         "fabric-1.21.11" = _Ih7oa6na;
@@ -162,6 +175,7 @@ let
         "fabric-26.1.2" = _s55kXziC;
         "fabric-1.21.1" = _EO213Qot;
         "fabric-26.2" = _Rb4bgnhi;
+        "fabric-26.3" = _5wSEzC2h;
         "pkg-21.10.0" = _no0LDfFp;
         "pkg-v21.8.0-1.21.8-Fabric" = _Hku4mFny;
         "pkg-v21.8.0-1.21.8-NeoForge" = _DK7NTjA3;
@@ -176,7 +190,8 @@ let
         "pkg-26.1.2" = _s55kXziC;
         "pkg-21.1.0" = _mMtnnwMX;
         "pkg-26.2.0" = _tZsT42yC;
-        "default" = _tZsT42yC;
+        "pkg-26.3.0" = _Cc0HpCf0;
+        "default" = _Cc0HpCf0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vehicle-upgrade";

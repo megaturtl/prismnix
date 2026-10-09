@@ -71,6 +71,16 @@ let
             "file" = "thigh_highs_etc-forge-1.0.4.jar";
             "hash" = "sha512-ljKfdi3oMTqEYDHXJ0IeeC6PjCbaAGT3emP75axDnKIcQN5DCiC/om6RRD2t8eiWa3VVZUvaatoX64/a2TlJjw==";
         };
+        _j6mxQEWr = {
+            "id" = "j6mxQEWr";
+            "file" = "thigh_highs_etc-2.0.0-fabric.jar";
+            "hash" = "sha512-XtYBaJ3lQdBtmaZ+yxBNeBmdVkDn1T6uBdfuTIkFd9RTLqlqrhxgNFbiMpD4VcFrINmeis1y5RkqWWo9WGNDmQ==";
+        };
+        _LQ65Omxv = {
+            "id" = "LQ65Omxv";
+            "file" = "thigh_highs_etc-2.0.0-neoforge.jar";
+            "hash" = "sha512-op1C2hxVUDi2+PN4a5VvQ35b2+xRZMLt9cOkdrsuvEW/oNp8qzFlEMhaXjIMmCBabO/FGk+R6jYdxiC/CToC+w==";
+        };
     in {
         "Y9mVEZjL" = _Y9mVEZjL;
         "c1XJtv89" = _c1XJtv89;
@@ -86,8 +96,12 @@ let
         "P1znpTHF" = _P1znpTHF;
         "hCkvUNpi" = _hCkvUNpi;
         "Ba4bQ2D7" = _Ba4bQ2D7;
+        "j6mxQEWr" = _j6mxQEWr;
+        "LQ65Omxv" = _LQ65Omxv;
         "fabric-1.20.1" = _hCkvUNpi;
+        "fabric-1.21.1" = _j6mxQEWr;
         "forge-1.20.1" = _Ba4bQ2D7;
+        "neoforge-1.21.1" = _LQ65Omxv;
         "pkg-0.0.1" = _c1XJtv89;
         "pkg-0.0.2" = _rLA4RPa4;
         "pkg-1.0.0" = _zi398QJI;
@@ -95,7 +109,8 @@ let
         "pkg-1.0.2" = _I8hbljdS;
         "pkg-1.0.3" = _P1znpTHF;
         "pkg-1.0.4" = _Ba4bQ2D7;
-        "default" = _Ba4bQ2D7;
+        "pkg-2.0.0" = _LQ65Omxv;
+        "default" = _LQ65Omxv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "thigh-highs-etc";

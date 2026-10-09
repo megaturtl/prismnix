@@ -81,6 +81,11 @@ let
             "file" = "sulfurcubesplus-1.0.0.jar";
             "hash" = "sha512-fJ03nMI75qe9YzUcGP6wFwDUBKDFjWAWISOdbuLvi8y7Ly5yK2CsjXzjkBqEaYwKKomLpRhI3rDbbvnquNDocQ==";
         };
+        _LlF2m3LD = {
+            "id" = "LlF2m3LD";
+            "file" = "sulfurcubesplus-1.1.0.jar";
+            "hash" = "sha512-OQ+UA8dg0Kn9sePDccLEGDhgR+oXuNN7BwD6+C9k0gFKlRolWzO6zsaKUCZeam7TqU1959263AZGZhCIhLWiAg==";
+        };
     in {
         "rz36nCCM" = _rz36nCCM;
         "cMf7Ml7Y" = _cMf7Ml7Y;
@@ -98,6 +103,7 @@ let
         "Bx4hDBLx" = _Bx4hDBLx;
         "yO1LjayT" = _yO1LjayT;
         "ENNppdHB" = _ENNppdHB;
+        "LlF2m3LD" = _LlF2m3LD;
         "fabric-26.2-snapshot-1" = _ENNppdHB;
         "fabric-26.2-snapshot-2" = _ENNppdHB;
         "fabric-26.2-snapshot-3" = _ENNppdHB;
@@ -115,6 +121,8 @@ let
         "fabric-26.2-rc-1" = _ENNppdHB;
         "fabric-26.2-rc-2" = _ENNppdHB;
         "fabric-26.2" = _ENNppdHB;
+        "fabric-26.3" = _LlF2m3LD;
+        "fabric-26.4-snapshot-1" = _LlF2m3LD;
         "pkg-0.1.0" = _rz36nCCM;
         "pkg-0.2.0" = _cMf7Ml7Y;
         "pkg-0.3.0" = _9klMiAFP;
@@ -131,7 +139,8 @@ let
         "pkg-v.0.11.0" = _Bx4hDBLx;
         "pkg-0.12.0" = _yO1LjayT;
         "pkg-1.0.0" = _ENNppdHB;
-        "default" = _ENNppdHB;
+        "pkg-1.1.0" = _LlF2m3LD;
+        "default" = _LlF2m3LD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sulfurcubesplus";

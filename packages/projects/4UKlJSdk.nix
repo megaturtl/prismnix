@@ -206,6 +206,26 @@ let
             "file" = "playerex-directors-cut-4.0.5+1.20.1.jar";
             "hash" = "sha512-m7itbHaWXA/E8R50nVe1TF1mafBnkiHJmmpEkfMHk6aJdJXUZf16U8rJjyrhyZlDClWwXg6ewMKXW1d9jUCC4w==";
         };
+        _Nfnyb5TL = {
+            "id" = "Nfnyb5TL";
+            "file" = "PlayerEx-5.0.0-neoforge-1.21.1.jar";
+            "hash" = "sha512-3nVkiFkaCslmS6ewbBPdtKrOc8r6BwlkZyp/Ru6se8NND6scyHCs6TVw/Ksti5VCLWoMmSEG1sVochtWs1IhPw==";
+        };
+        _4AVvesa5 = {
+            "id" = "4AVvesa5";
+            "file" = "PlayerEx-5.0.0-fabric-1.21.1.jar";
+            "hash" = "sha512-Zrfa6tKFa6HLVSO2RJS4O5I5pLaDoSIUo4Ih1ZG98FEAIBthg0trqzXc/bUgbjzaa/BlBxdKMJkZNWw7xrao/Q==";
+        };
+        _sfcxsaJO = {
+            "id" = "sfcxsaJO";
+            "file" = "PlayerEx-5.0.1-fabric-1.21.1.jar";
+            "hash" = "sha512-qAeU5Z2s+bzlgkLn22a5ranpGjJIUhRoB52Wmh1/te6ZSzPZFYPAuLpO32LfbCikXj0T1SxhkJQ63ANovp2haw==";
+        };
+        _pN4c1KBx = {
+            "id" = "pN4c1KBx";
+            "file" = "PlayerEx-5.0.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-TpSTrsz34fxgYSMG5Q7wTHTGP7DesataegOS+lZo9sjn3evbglCIO9iCo16T4kvGPt9iXpD86CLHNGfpk4MxQw==";
+        };
     in {
         "Ye360SUE" = _Ye360SUE;
         "o4qIMLqC" = _o4qIMLqC;
@@ -248,8 +268,14 @@ let
         "aIA85pNe" = _aIA85pNe;
         "5fvAGCc9" = _5fvAGCc9;
         "vELn14ZA" = _vELn14ZA;
+        "Nfnyb5TL" = _Nfnyb5TL;
+        "4AVvesa5" = _4AVvesa5;
+        "sfcxsaJO" = _sfcxsaJO;
+        "pN4c1KBx" = _pN4c1KBx;
         "fabric-1.20.1" = _vELn14ZA;
+        "fabric-1.21.1" = _sfcxsaJO;
         "quilt-1.20.1" = _vELn14ZA;
+        "neoforge-1.21.1" = _pN4c1KBx;
         "pkg-3.6.0+1.20.1" = _Ye360SUE;
         "pkg-3.6.1+1.20.1" = _o4qIMLqC;
         "pkg-3.7.0+1.20.1" = _2Om9w7J4;
@@ -288,7 +314,11 @@ let
         "pkg-4.0.3+1.20.1" = _aIA85pNe;
         "pkg-4.0.4+1.20.1" = _5fvAGCc9;
         "pkg-4.0.5+1.20.1" = _vELn14ZA;
-        "default" = _vELn14ZA;
+        "pkg-5.0.0+1.21.1-neoforge" = _Nfnyb5TL;
+        "pkg-5.0.0+1.21.1-fabric" = _4AVvesa5;
+        "pkg-5.0.1+1.21.1-fabric" = _sfcxsaJO;
+        "pkg-5.0.1+1.21.1-neoforge" = _pN4c1KBx;
+        "default" = _pN4c1KBx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "playerex-directors-cut";

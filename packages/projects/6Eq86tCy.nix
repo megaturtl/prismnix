@@ -86,6 +86,16 @@ let
             "file" = "illager_arena-1.0.0 Neoforge 26.2.jar";
             "hash" = "sha512-5RI8qgVa5epd3gY53BcCJbTb7/6DVZU7US8NwCOKUPFr0CjyrE/HHbUAZTcXb8DPFDh/3lhME4Ao0xmoLMG/Xg==";
         };
+        _fVj7sO1D = {
+            "id" = "fVj7sO1D";
+            "file" = "illager_arena-1.0.0 Fabric 26.3.jar";
+            "hash" = "sha512-dr2TQa6dGWOP3+HaGYIuA9c/aP95waxz0/haqAy3KhxQKD0AB3F+b/JZCy8Ya+ZY2j0fQn+sBrUCJrch1PIFbg==";
+        };
+        _KdzwGGPa = {
+            "id" = "KdzwGGPa";
+            "file" = "illager_arena-1.0.0 Neoforge 26.3.jar";
+            "hash" = "sha512-WdkDCpJFPcvT5NMXhHeT46gj3jhC9DAYeExvPCy+YPTslgiuxZu21HZgCa63Kquf4kGYdRIk37kF4yKVwZKw9w==";
+        };
     in {
         "Txdho71A" = _Txdho71A;
         "KOEJpnYf" = _KOEJpnYf;
@@ -104,6 +114,8 @@ let
         "8BdfcEiB" = _8BdfcEiB;
         "U6chDeMA" = _U6chDeMA;
         "WTc6shYD" = _WTc6shYD;
+        "fVj7sO1D" = _fVj7sO1D;
+        "KdzwGGPa" = _KdzwGGPa;
         "fabric-1.20.1" = _Txdho71A;
         "fabric-1.21.8" = _Fjk6HTZ3;
         "fabric-1.21.10" = _8wFi9t53;
@@ -113,6 +125,7 @@ let
         "fabric-26.1.1" = _TSsokZjD;
         "fabric-26.1.2" = _TSsokZjD;
         "fabric-26.2" = _U6chDeMA;
+        "fabric-26.3" = _fVj7sO1D;
         "forge-1.20.1" = _KOEJpnYf;
         "neoforge-1.21.1" = _CdFirdAs;
         "neoforge-1.21.4" = _uz143WbD;
@@ -123,9 +136,10 @@ let
         "neoforge-26.1.1" = _x88z5CU6;
         "neoforge-26.1.2" = _8BdfcEiB;
         "neoforge-26.2" = _WTc6shYD;
-        "pkg-1.0.0" = _WTc6shYD;
+        "neoforge-26.3" = _KdzwGGPa;
+        "pkg-1.0.0" = _KdzwGGPa;
         "pkg-1.0.1" = _wrGYTACQ;
-        "default" = _WTc6shYD;
+        "default" = _KdzwGGPa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "illager-arena";

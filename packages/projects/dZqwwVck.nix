@@ -136,6 +136,31 @@ let
             "file" = "OneBlockServer_26.1+.zip";
             "hash" = "sha512-fDllLsbNTpn2HiT8n9eqlCCKJXukqw0Ripn+NH5Qr0yNQ6JD+qUq8ZXMl/eSojSH4UFD3F84WlGcISNf1mGQrg==";
         };
+        _4B7l8u2X = {
+            "id" = "4B7l8u2X";
+            "file" = "OneBlock_26.1+.zip";
+            "hash" = "sha512-ok31O4+lcgPYWMJkOrr6wMM4XxfnlXw9+cehZsWI2chhtkZN8HM7KG+W/dg/1N9VM4MNnH+U26F2mdn1ghLBWQ==";
+        };
+        _jJAFDTze = {
+            "id" = "jJAFDTze";
+            "file" = "OneBlock_26.3+.zip";
+            "hash" = "sha512-EFlVB9YbzsmmnWY/7Sx0qT+15VagUwGeOnfqnOl8p+pNmRrt7sLwNS/Eg28JSk+4NoIb9swrUxI8xVkcFcwifg==";
+        };
+        _hnodENSs = {
+            "id" = "hnodENSs";
+            "file" = "OneBlock_1.21.9+.zip";
+            "hash" = "sha512-v2aFAQmynQNVp1p6bFNfgeesP7HnO1WmVy2eh4wOGNra0M+F/HcjDa9Opxar6kTAHIqxGPprIgw7tF8TWx31sg==";
+        };
+        _6oUywJhp = {
+            "id" = "6oUywJhp";
+            "file" = "one-block-fabric-26.3.jar";
+            "hash" = "sha512-PMTspuJJHyleN6p1350bZOdidmKuIlkFwAgIt126ZqUu98FoOeLIf5DKgHzY8BrektVz6OvE3HehQDjqbEwpUA==";
+        };
+        _azDM7huf = {
+            "id" = "azDM7huf";
+            "file" = "one-block-neoforge-26.3.jar";
+            "hash" = "sha512-f8cPwXLV2aalKAlt+6G0nVN5Yvh3TNWWPIWr1j4gqZXsGmhw2LyLakwZ5WlY1+FhU5k7jYuMVvTnZWovXsXe4A==";
+        };
     in {
         "dR45713z" = _dR45713z;
         "pPkoC09u" = _pPkoC09u;
@@ -164,6 +189,11 @@ let
         "iR0cnHuB" = _iR0cnHuB;
         "wHEEL8vD" = _wHEEL8vD;
         "4FeeW9RC" = _4FeeW9RC;
+        "4B7l8u2X" = _4B7l8u2X;
+        "jJAFDTze" = _jJAFDTze;
+        "hnodENSs" = _hnodENSs;
+        "6oUywJhp" = _6oUywJhp;
+        "azDM7huf" = _azDM7huf;
         "datapack-1.18.2" = _dR45713z;
         "datapack-1.18" = _pPkoC09u;
         "datapack-1.18.1" = _pPkoC09u;
@@ -186,18 +216,22 @@ let
         "datapack-1.21.6" = _JOo3TJil;
         "datapack-1.21.7" = _Vw9rI2ZW;
         "datapack-1.21.8" = _Vw9rI2ZW;
-        "datapack-1.21.9" = _NHB0I3Va;
-        "datapack-1.21.10" = _NHB0I3Va;
-        "datapack-1.21.11" = _NHB0I3Va;
+        "datapack-1.21.9" = _hnodENSs;
+        "datapack-1.21.10" = _hnodENSs;
+        "datapack-1.21.11" = _hnodENSs;
         "datapack-1.21" = _iR0cnHuB;
         "datapack-1.21.1" = _iR0cnHuB;
-        "datapack-26.1" = _wHEEL8vD;
-        "datapack-26.1.1" = _wHEEL8vD;
-        "datapack-26.1.2" = _wHEEL8vD;
-        "datapack-26.2" = _wHEEL8vD;
-        "datapack-26.3-pre-1" = _4FeeW9RC;
-        "datapack-26.3-pre-2" = _4FeeW9RC;
-        "datapack-26.3-pre-3" = _4FeeW9RC;
+        "datapack-26.1" = _4B7l8u2X;
+        "datapack-26.1.1" = _4B7l8u2X;
+        "datapack-26.1.2" = _4B7l8u2X;
+        "datapack-26.2" = _4B7l8u2X;
+        "datapack-26.3-pre-1" = _jJAFDTze;
+        "datapack-26.3-pre-2" = _jJAFDTze;
+        "datapack-26.3-pre-3" = _jJAFDTze;
+        "datapack-26.3" = _jJAFDTze;
+        "datapack-26.4-snapshot-1" = _jJAFDTze;
+        "datapack-26.4-snapshot-2" = _jJAFDTze;
+        "datapack-26.4-snapshot-3" = _jJAFDTze;
         "fabric-26.1" = _wHEEL8vD;
         "fabric-26.1.1" = _wHEEL8vD;
         "fabric-26.1.2" = _wHEEL8vD;
@@ -205,6 +239,9 @@ let
         "fabric-26.3-pre-1" = _4FeeW9RC;
         "fabric-26.3-pre-2" = _4FeeW9RC;
         "fabric-26.3-pre-3" = _4FeeW9RC;
+        "fabric-26.3" = _6oUywJhp;
+        "fabric-26.4-snapshot-3" = _6oUywJhp;
+        "neoforge-26.3" = _azDM7huf;
         "pkg-1.18.2" = _dR45713z;
         "pkg-1.18.1" = _pPkoC09u;
         "pkg-1.19.4" = _8njFNJZy;
@@ -222,7 +259,12 @@ let
         "pkg-1.21.1" = _iR0cnHuB;
         "pkg-26.1+" = _wHEEL8vD;
         "pkg-26.3-pre" = _4FeeW9RC;
-        "default" = _4FeeW9RC;
+        "pkg-2.2.0+26.1" = _4B7l8u2X;
+        "pkg-2.2.0+26.3" = _jJAFDTze;
+        "pkg-2.2.0+1.21.9" = _hnodENSs;
+        "pkg-2.2.0+26.3-fabric" = _6oUywJhp;
+        "pkg-2.2.0+26.3-neoforge" = _azDM7huf;
+        "default" = _azDM7huf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "one-block-game";

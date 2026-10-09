@@ -3726,6 +3726,26 @@ let
             "file" = "wynntils-4.2.11-neoforge+MC-1.21.11.jar";
             "hash" = "sha512-B4EofyX4KfNwGH3ZaKk58Mer3+Uz+xeEY6XLXD22QyWZWpLEif5ZmxVlHxruJLX/vmll7oJL9Nr3qw1eul/xWQ==";
         };
+        _6TtTfLVg = {
+            "id" = "6TtTfLVg";
+            "file" = "wynntils-4.2.12-fabric+MC-1.21.11.jar";
+            "hash" = "sha512-KmNisgsgEclhmtukR5/QT+BHBv9sSY3aUXcu27igWPibTpAtZN8cVNvJDsayPCWr46fpAIUYSepXmRYuMsNdYQ==";
+        };
+        _VSK6jJWD = {
+            "id" = "VSK6jJWD";
+            "file" = "wynntils-4.2.12-neoforge+MC-1.21.11.jar";
+            "hash" = "sha512-dn4XH3ivK7L5YNjRkDGH7IGLnMUyz8jwsMN1V7u5JHPmSLlLBRpgcySTyDKOM6PSifbc3ZKzdGU14i7CE2VYig==";
+        };
+        _GWQZNLGZ = {
+            "id" = "GWQZNLGZ";
+            "file" = "wynntils-4.2.13-neoforge+MC-1.21.11.jar";
+            "hash" = "sha512-ERVCXLPsr6VURT899US9hPUdxv3lqKFWyDHNeGy7RXWzwu5tRYWpjnVIiw3TBc3zCKL0mhbJsvGCwdqyabbc7Q==";
+        };
+        _5CBj3ZB0 = {
+            "id" = "5CBj3ZB0";
+            "file" = "wynntils-4.2.13-fabric+MC-1.21.11.jar";
+            "hash" = "sha512-UKDgQ/CyjYCpjL2fwAum0Pd8mKO4x29xHtf6zbpIzHC8EYyTGxPA8BNgC2gQQtkdcSSiMG5NbsnfAxpcayyPQw==";
+        };
     in {
         "bqlWhLUY" = _bqlWhLUY;
         "EhyKGtAM" = _EhyKGtAM;
@@ -4472,17 +4492,21 @@ let
         "H306lilB" = _H306lilB;
         "c0EUB5Np" = _c0EUB5Np;
         "hUYN05IR" = _hUYN05IR;
+        "6TtTfLVg" = _6TtTfLVg;
+        "VSK6jJWD" = _VSK6jJWD;
+        "GWQZNLGZ" = _GWQZNLGZ;
+        "5CBj3ZB0" = _5CBj3ZB0;
         "forge-1.12.2" = _42Q2H4Qu;
         "forge-1.20.2" = _ww1waI8Y;
         "fabric-1.20.2" = _ihqDIGu8;
         "fabric-1.21" = _NcbIp00x;
         "fabric-1.21.1" = _NcbIp00x;
         "fabric-1.21.4" = _XJt5jHxs;
-        "fabric-1.21.11" = _c0EUB5Np;
+        "fabric-1.21.11" = _5CBj3ZB0;
         "neoforge-1.21" = _QJMkNR1I;
         "neoforge-1.21.1" = _QJMkNR1I;
         "neoforge-1.21.4" = _nLGKpG7x;
-        "neoforge-1.21.11" = _hUYN05IR;
+        "neoforge-1.21.11" = _GWQZNLGZ;
         "pkg-v1.12.0" = _bqlWhLUY;
         "pkg-v1.12.1-beta.0" = _EhyKGtAM;
         "pkg-v1.12.1-beta.1" = _7H5njc0f;
@@ -4883,7 +4907,9 @@ let
         "pkg-v4.2.9" = _DIGy6eRU;
         "pkg-v4.2.10" = _H306lilB;
         "pkg-v4.2.11" = _hUYN05IR;
-        "default" = _hUYN05IR;
+        "pkg-v4.2.12" = _VSK6jJWD;
+        "pkg-v4.2.13" = _5CBj3ZB0;
+        "default" = _5CBj3ZB0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wynntils";

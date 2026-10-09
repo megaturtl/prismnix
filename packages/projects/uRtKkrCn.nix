@@ -21,19 +21,27 @@ let
             "file" = "daycounter-1.2.0.jar";
             "hash" = "sha512-MmSAfAEdYmXX2gs7rZOp41FQF2HQ75KG6+0/qDPqesdT6/WWbu+bLFai1zBGeb3jaJsUJbCCfBlNaljTKVtFKw==";
         };
+        _dYZgLABN = {
+            "id" = "dYZgLABN";
+            "file" = "daycounter-1.3.0.jar";
+            "hash" = "sha512-2AtxhOgcWqg35hIg7ko+UeWktay39gMkDxTnmhMaITHrCPjkO17YL/vFvguE+A5dQhP+KeB1KUY8+b7jTif1Yg==";
+        };
     in {
         "qZsirVGo" = _qZsirVGo;
         "URUPc00A" = _URUPc00A;
         "WHjCGNys" = _WHjCGNys;
         "p2FrWwC1" = _p2FrWwC1;
+        "dYZgLABN" = _dYZgLABN;
         "fabric-1.21.11" = _URUPc00A;
         "fabric-26.1.2" = _WHjCGNys;
         "fabric-26.2" = _p2FrWwC1;
+        "fabric-26.3" = _dYZgLABN;
         "pkg-1.0.0-beta" = _qZsirVGo;
         "pkg-1.0.0" = _URUPc00A;
         "pkg-1.1.0" = _WHjCGNys;
         "pkg-1.2.0" = _p2FrWwC1;
-        "default" = _p2FrWwC1;
+        "pkg-1.3.0" = _dYZgLABN;
+        "default" = _dYZgLABN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "day-counter-v2";

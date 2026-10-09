@@ -126,6 +126,26 @@ let
             "file" = "Easy Diamond-forge-26.1.2-3.4.0.jar";
             "hash" = "sha512-Cav9q1xOIBHGwuOzqoCnGqEs1UP/LA2xs7CdoaeeKEAFIB0NaKoDd8rErmYi37jcsNexvaEKQq2iQkuii5AZLg==";
         };
+        _MQmMMyKn = {
+            "id" = "MQmMMyKn";
+            "file" = "EasyDiamond-fabric-26.1.2-3.4.0.jar";
+            "hash" = "sha512-/2nDKt/HAEQYVezXw+Q4xsJiAP001kDH19b6pwQ+tI+/kpkvKk/l+54kiiv6ATS/fh8GTn1akONQMOK1wuJsgw==";
+        };
+        _p0PvT7oT = {
+            "id" = "p0PvT7oT";
+            "file" = "EasyDiamond-neoforge-26.3-3.4.1.jar";
+            "hash" = "sha512-B01ynlJ7wgSQUOmoRulbh7k/mca/wa8dmW3KyLrLh/iksLFGmCDwnl56pdDQvohO1ufR4K1z6p0PYhX/dp/wXA==";
+        };
+        _3SFqoqe6 = {
+            "id" = "3SFqoqe6";
+            "file" = "EasyDiamond-forge-26.3-3.4.1.jar";
+            "hash" = "sha512-k1JGVro2C1E8DT0vcQG3rmkms56XhbpMAf14qhNhs/8wGB1esSIaA1NqWwxlqEdF/StBVpn9SpKZIUUmSLC6vA==";
+        };
+        _MQORSv8b = {
+            "id" = "MQORSv8b";
+            "file" = "EasyDiamond-fabric-26.3-3.4.1.jar";
+            "hash" = "sha512-ARmsImu2EZ576M/zCSSNpRWi62UCC/3YVkLR+n3HpAE0D7lmBS+QWij+NO1PyUuRxrWxUuBLC1XadTcwCVHuMQ==";
+        };
     in {
         "mB2xqSzQ" = _mB2xqSzQ;
         "Nq0n1WWK" = _Nq0n1WWK;
@@ -152,6 +172,10 @@ let
         "RvnzDXdF" = _RvnzDXdF;
         "lbsoaoNU" = _lbsoaoNU;
         "CDmu9SLX" = _CDmu9SLX;
+        "MQmMMyKn" = _MQmMMyKn;
+        "p0PvT7oT" = _p0PvT7oT;
+        "3SFqoqe6" = _3SFqoqe6;
+        "MQORSv8b" = _MQORSv8b;
         "forge-1.20.1" = _mB2xqSzQ;
         "forge-1.20.4" = _LA0IYo1N;
         "forge-1.21" = _Czz2ysY2;
@@ -161,6 +185,7 @@ let
         "forge-1.21.10" = _P8FbJrVm;
         "forge-1.21.11" = _Bj5c9mjm;
         "forge-26.1.2" = _CDmu9SLX;
+        "forge-26.3" = _3SFqoqe6;
         "fabric-1.20.1" = _Nq0n1WWK;
         "fabric-1.20.2" = _FOykekVk;
         "fabric-1.20.4" = _bFXMPF5X;
@@ -170,6 +195,8 @@ let
         "fabric-1.21.8" = _NuhysiLf;
         "fabric-1.21.10" = _Sp9NMh04;
         "fabric-1.21.11" = _NT6R1txc;
+        "fabric-26.1.2" = _MQmMMyKn;
+        "fabric-26.3" = _MQORSv8b;
         "neoforge-1.20.4" = _HdvszsBX;
         "neoforge-1.21" = _828E3SOW;
         "neoforge-1.21.1" = _qZ5V75Ev;
@@ -177,6 +204,7 @@ let
         "neoforge-1.21.10" = _SVM13rds;
         "neoforge-1.21.11" = _RvnzDXdF;
         "neoforge-26.1.2" = _lbsoaoNU;
+        "neoforge-26.3" = _p0PvT7oT;
         "pkg-3.4.2" = _mB2xqSzQ;
         "pkg-1.6.4" = _Nq0n1WWK;
         "pkg-1.6.5" = _FOykekVk;
@@ -201,8 +229,9 @@ let
         "pkg-1.21.11-1.7.3" = _NT6R1txc;
         "pkg-3.5.3" = _RvnzDXdF;
         "pkg-3.6.0" = _lbsoaoNU;
-        "pkg-3.4.0" = _CDmu9SLX;
-        "default" = _CDmu9SLX;
+        "pkg-3.4.0" = _MQmMMyKn;
+        "pkg-3.4.1" = _MQORSv8b;
+        "default" = _MQORSv8b;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "easy-diamond";

@@ -171,6 +171,11 @@ let
             "file" = "ticex-mc1.20.1-0.6.1-all.jar";
             "hash" = "sha512-2D7e/7ejvC5HDaia1AiA+FzIGTsJusUJD234TC+VzNa9prWpL9h5Ge4Kvythq3B4B/XiRKaFmvOkK2KzjmS7dQ==";
         };
+        _56hlZlpy = {
+            "id" = "56hlZlpy";
+            "file" = "ticex-mc1.20.1-0.7.0-hotfix-all.jar";
+            "hash" = "sha512-7QEYfqaj8JlSgCkDEOgTasd5gVTEAwkflHXtk50PGDeGgSI8ZpItrniaWdlk1B/WY0FlfZFDi4ukH2nNkrvwmw==";
+        };
     in {
         "HPSjRkO0" = _HPSjRkO0;
         "MmkaREwL" = _MmkaREwL;
@@ -206,7 +211,8 @@ let
         "mmmqhkjr" = _mmmqhkjr;
         "azGuLDVP" = _azGuLDVP;
         "TkzO0vOY" = _TkzO0vOY;
-        "forge-1.20.1" = _TkzO0vOY;
+        "56hlZlpy" = _56hlZlpy;
+        "forge-1.20.1" = _56hlZlpy;
         "pkg-0.0.2" = _HPSjRkO0;
         "pkg-0.0.2.1" = _MmkaREwL;
         "pkg-0.0.2.2" = _F1zfKuiQ;
@@ -241,7 +247,8 @@ let
         "pkg-0.5.1" = _mmmqhkjr;
         "pkg-0.6.0" = _azGuLDVP;
         "pkg-0.6.1" = _TkzO0vOY;
-        "default" = _TkzO0vOY;
+        "pkg-0.7.0-hotfix" = _56hlZlpy;
+        "default" = _56hlZlpy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ticex";

@@ -136,6 +136,21 @@ let
             "file" = "animalgarden-narwhal-1.0.1-fabric-26.2-0.152.2.jar";
             "hash" = "sha512-PUzlVVSvUFj1Cdd8IiT677BuwLZne7huWJ8Q/l2hPaZoQRdibmdzfvWFLA0ySJoOpyQCzkpE9YnDkcdrx05t9A==";
         };
+        _fTytkLix = {
+            "id" = "fTytkLix";
+            "file" = "animalgarden-narwhal-1.0.1-neoforge-26.3.0.7.jar";
+            "hash" = "sha512-pqPk0bwvUb81HKOr45DoX5gn/fwAFNzNzTK2nhOKHQ5CtQ9lYxvH0yJWuIqpBDCHz8zfmBx5SFuMXXWFW6pu8g==";
+        };
+        _ZxrAuGA1 = {
+            "id" = "ZxrAuGA1";
+            "file" = "animalgarden-narwhal-1.0.1-forge-26.3-66.0.2.jar";
+            "hash" = "sha512-KWJDkPsUl83txW9BELwLlHVLOAoyQztX7HCWPRq4ThDJIAApVscwdUd3f3NiztdQLmCNu54Eo2tWsNMk2DTNEw==";
+        };
+        _jWrbAR3n = {
+            "id" = "jWrbAR3n";
+            "file" = "animalgarden-narwhal-1.0.1-fabric-26.3-0.161.0.jar";
+            "hash" = "sha512-dahgzBNaG3SU+wBFIMK4QSMtSoMHkvGs1G7qe5MPT4IBF1kfX+etpfoOFNqw5fK0SD+j4RigzBRdhNVzYv2MZA==";
+        };
     in {
         "6woBjAx5" = _6woBjAx5;
         "Dc93BO2W" = _Dc93BO2W;
@@ -164,6 +179,9 @@ let
         "BYEJHCqe" = _BYEJHCqe;
         "szIyHujp" = _szIyHujp;
         "bG4TpEXn" = _bG4TpEXn;
+        "fTytkLix" = _fTytkLix;
+        "ZxrAuGA1" = _ZxrAuGA1;
+        "jWrbAR3n" = _jWrbAR3n;
         "forge-1.18.2" = _6woBjAx5;
         "forge-1.20.1" = _Dc93BO2W;
         "forge-1.21.1" = _XzIos961;
@@ -180,6 +198,7 @@ let
         "forge-26.1.1" = _3jh3qS9P;
         "forge-26.1.2" = _3jh3qS9P;
         "forge-26.2" = _BYEJHCqe;
+        "forge-26.3" = _ZxrAuGA1;
         "neoforge-1.21.1" = _DwyLYZD4;
         "neoforge-1.21.3" = _FAJwdIin;
         "neoforge-1.21.4" = _FAJwdIin;
@@ -194,6 +213,7 @@ let
         "neoforge-26.1.1" = _bIvSxMky;
         "neoforge-26.1.2" = _bIvSxMky;
         "neoforge-26.2" = _szIyHujp;
+        "neoforge-26.3" = _fTytkLix;
         "fabric-1.20.1" = _KOI0COcw;
         "fabric-1.21.1" = _nL0hTO1M;
         "fabric-1.21.3" = _hXAs1b23;
@@ -209,6 +229,7 @@ let
         "fabric-26.1.1" = _KYqLWsHK;
         "fabric-26.1.2" = _KYqLWsHK;
         "fabric-26.2" = _bG4TpEXn;
+        "fabric-26.3" = _jWrbAR3n;
         "pkg-1.0.0-forge-1.18.2-40.3.12" = _6woBjAx5;
         "pkg-1.0.0-forge-1.20.1-47.4.10" = _Dc93BO2W;
         "pkg-1.0.0-forge-1.21.1-52.1.8" = _XzIos961;
@@ -236,7 +257,10 @@ let
         "pkg-1.0.1-forge-26.2-65.0.0" = _BYEJHCqe;
         "pkg-1.0.1-neoforge-26.2.0.6" = _szIyHujp;
         "pkg-1.0.1-fabric-26.2-0.152.2" = _bG4TpEXn;
-        "default" = _bG4TpEXn;
+        "pkg-1.0.1-neoforge-26.3.0.7" = _fTytkLix;
+        "pkg-1.0.1-forge-26.3-66.0.2" = _ZxrAuGA1;
+        "pkg-1.0.1-fabric-26.3-0.161.0" = _jWrbAR3n;
+        "default" = _jWrbAR3n;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "animal-garden-narwhal";

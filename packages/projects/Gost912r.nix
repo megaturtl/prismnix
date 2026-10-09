@@ -26,24 +26,31 @@ let
             "file" = "autofish-addon-1.0.3-SDF-3.4-3.5.jar";
             "hash" = "sha512-VRwBx60hWT0f43EP9DpG85LttqFhh4+98RaFFN6Y4B0MxX5KJF1uqAul4+ONsg9JLshSvGA4DvJrvQkeDHDXQw==";
         };
+        _ZR9POUEK = {
+            "id" = "ZR9POUEK";
+            "file" = "sdautofish-addon-1.0.4.jar";
+            "hash" = "sha512-w5I5YnWOxZVzc7K++mavwg61ei+AyrnA+Y7QjnCNdVjVLf/w7W8iPjVVeWo2ys7a4kXox0ly1gN9dYHQWG/e3A==";
+        };
     in {
         "rxdxqUnl" = _rxdxqUnl;
         "ALpCxmK1" = _ALpCxmK1;
         "Ni7ZdZfH" = _Ni7ZdZfH;
         "nHbm4aGo" = _nHbm4aGo;
         "BwyeJmbK" = _BwyeJmbK;
-        "forge-1.20.1" = _BwyeJmbK;
-        "forge-1.20.2" = _BwyeJmbK;
-        "forge-1.20.3" = _BwyeJmbK;
-        "forge-1.20.4" = _BwyeJmbK;
-        "forge-1.20.5" = _BwyeJmbK;
-        "forge-1.20.6" = _BwyeJmbK;
+        "ZR9POUEK" = _ZR9POUEK;
+        "forge-1.20.1" = _ZR9POUEK;
+        "forge-1.20.2" = _ZR9POUEK;
+        "forge-1.20.3" = _ZR9POUEK;
+        "forge-1.20.4" = _ZR9POUEK;
+        "forge-1.20.5" = _ZR9POUEK;
+        "forge-1.20.6" = _ZR9POUEK;
         "pkg-1.0.0" = _rxdxqUnl;
         "pkg-1.0.1" = _ALpCxmK1;
         "pkg-1.0.2-SDF3.2-3.3" = _Ni7ZdZfH;
         "pkg-1.0.2-SDF-3.4-3.5" = _nHbm4aGo;
         "pkg-1.0.3" = _BwyeJmbK;
-        "default" = _BwyeJmbK;
+        "pkg-1.0.4" = _ZR9POUEK;
+        "default" = _ZR9POUEK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stardew-fishing-auto";

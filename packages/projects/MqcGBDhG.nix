@@ -41,6 +41,16 @@ let
             "file" = "CobblemonMoveInspector-fabric-1.3.0.jar";
             "hash" = "sha512-Ae8bIjKgR9sDS8B4UMDVIiudHoxqJVtivB8xqzqX1O+d2gOieWaVI52j7UfJwAkv85yruqw/qdRC0w8mhAwI1Q==";
         };
+        _g8ehlepQ = {
+            "id" = "g8ehlepQ";
+            "file" = "CobblemonMoveInspector-neoforge-1.3.1.jar";
+            "hash" = "sha512-PkEKr/A5oF1cc6RFHPZcVGsbTvV5aCQGnwIHRxfWz+EG9glALUxXCTPVQyG0d5Y1Avw3Dzku8MaalcCz41qD5g==";
+        };
+        _JQ2jAvum = {
+            "id" = "JQ2jAvum";
+            "file" = "CobblemonMoveInspector-fabric-1.3.1.jar";
+            "hash" = "sha512-46YMTUItcR3h8YMEtyoOznXZ+r1YaWicBkmnkIPds8UfSsGtKObMxXUmf8c3+Nma6Bwt8RC72boy5QdYxXf9Jw==";
+        };
     in {
         "q6diKVYT" = _q6diKVYT;
         "Sbyqk0H6" = _Sbyqk0H6;
@@ -50,16 +60,19 @@ let
         "NWXNcQfr" = _NWXNcQfr;
         "kzhF1fB9" = _kzhF1fB9;
         "s0MVfFey" = _s0MVfFey;
+        "g8ehlepQ" = _g8ehlepQ;
+        "JQ2jAvum" = _JQ2jAvum;
         "fabric-1.20.1" = _ytxwITk5;
-        "fabric-1.21.1" = _s0MVfFey;
-        "neoforge-1.21.1" = _kzhF1fB9;
+        "fabric-1.21.1" = _JQ2jAvum;
+        "neoforge-1.21.1" = _g8ehlepQ;
         "pkg-1.0.0" = _q6diKVYT;
         "pkg-1.0.1" = _Sbyqk0H6;
         "pkg-1.1.0" = _6WEwnyH5;
         "pkg-1.1.1" = _ytxwITk5;
         "pkg-1.2.0" = _NWXNcQfr;
         "pkg-1.3.0" = _s0MVfFey;
-        "default" = _s0MVfFey;
+        "pkg-1.3.1" = _JQ2jAvum;
+        "default" = _JQ2jAvum;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-move-inspector";

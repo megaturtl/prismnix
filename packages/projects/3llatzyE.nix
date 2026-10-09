@@ -181,6 +181,16 @@ let
             "file" = "litematica-printer-26.2-3.2.2.jar";
             "hash" = "sha512-h9nzJ+oKIOFsGFKjKlqkpYhxn5TB/X8x4Qwap/tJI36QmfOygCFB5wWAlHnmnW0ZFeow+ig5voRuK8d1/Smztg==";
         };
+        _puygNuXW = {
+            "id" = "puygNuXW";
+            "file" = "litematica-printer-26.3-3.2.2.jar";
+            "hash" = "sha512-+RYlCv3/XIfqve7M4t5TO+G61zH36ducURtph8T8GXYkLi/mKprEXrCpjhI5DVuPAQbnZIRa0Z9d2QiTUUEeiA==";
+        };
+        _gnQ8CGTG = {
+            "id" = "gnQ8CGTG";
+            "file" = "litematica-printer-26.3-3.2.3.jar";
+            "hash" = "sha512-y5O3Fk4SKd9LDSYvmENUpMlWpBlnxqAycxj1Y03Z7THmQzIPo+mT4dQs+sHQ4JGp+n6y9YQve3vzmfcZpleVug==";
+        };
     in {
         "x9MUxjhZ" = _x9MUxjhZ;
         "qtUmnZx6" = _qtUmnZx6;
@@ -218,6 +228,8 @@ let
         "3lN1VDiY" = _3lN1VDiY;
         "clpyvKQr" = _clpyvKQr;
         "7l7ihnI0" = _7l7ihnI0;
+        "puygNuXW" = _puygNuXW;
+        "gnQ8CGTG" = _gnQ8CGTG;
         "fabric-1.19.2" = _fvEboyZN;
         "fabric-1.17.1" = _qtUmnZx6;
         "fabric-1.18.2" = _O3vhaZM3;
@@ -248,6 +260,7 @@ let
         "fabric-26.1.1" = _clpyvKQr;
         "fabric-26.1.2" = _clpyvKQr;
         "fabric-26.2" = _7l7ihnI0;
+        "fabric-26.3" = _gnQ8CGTG;
         "pkg-2.5+1.19.2" = _x9MUxjhZ;
         "pkg-2.5+1.17.1" = _qtUmnZx6;
         "pkg-2.5+1.18.2" = _O3vhaZM3;
@@ -281,8 +294,9 @@ let
         "pkg-3.2.1+1.21.11" = _fJLXrlc0;
         "pkg-3.2.1+1.21.10" = _eATPpsEq;
         "pkg-3.2.1B+1.21.11" = _P4FcgXko;
-        "pkg-3.2.2" = _7l7ihnI0;
-        "default" = _7l7ihnI0;
+        "pkg-3.2.2" = _puygNuXW;
+        "pkg-3.2.3" = _gnQ8CGTG;
+        "default" = _gnQ8CGTG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "litematica-printer";

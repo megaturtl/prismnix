@@ -21,11 +21,17 @@ let
             "file" = "passionfruit_api-1.0.4-neoforge-1.21.4.jar";
             "hash" = "sha512-2MToNgOG/R3ABZbWkkaBjaVoWFexfpLPSpHyDpLU+HcmfPQcN19Q2Gcr4fDDGL+RSJP6B2ZM+q+PivNP/w29Ig==";
         };
+        _QAoIy13k = {
+            "id" = "QAoIy13k";
+            "file" = "passionfruit_api-1.0.5-neoforge-26.1.2.jar";
+            "hash" = "sha512-MPg0eHbGjJT32P6pXlaJ/uvqW8C1Cs8zkaRBnNy0qZRQq0wdYBJYBK5QE0B+SR9FK1v6/gP8bG/tnbnJSDyA+Q==";
+        };
     in {
         "5PHwo7kP" = _5PHwo7kP;
         "YI3u5D3H" = _YI3u5D3H;
         "vfRtRj1G" = _vfRtRj1G;
         "pwBBhdS6" = _pwBBhdS6;
+        "QAoIy13k" = _QAoIy13k;
         "forge-1.20.1" = _YI3u5D3H;
         "neoforge-1.20.1" = _YI3u5D3H;
         "neoforge-1.21.1" = _vfRtRj1G;
@@ -34,11 +40,13 @@ let
         "neoforge-1.21.6" = _pwBBhdS6;
         "neoforge-1.21.7" = _pwBBhdS6;
         "neoforge-1.21.8" = _pwBBhdS6;
+        "neoforge-26.1.2" = _QAoIy13k;
         "pkg-1.0.0" = _5PHwo7kP;
         "pkg-1.0.1" = _YI3u5D3H;
         "pkg-1.0.3" = _vfRtRj1G;
         "pkg-1.0.4" = _pwBBhdS6;
-        "default" = _pwBBhdS6;
+        "pkg-1.0.5" = _QAoIy13k;
+        "default" = _QAoIy13k;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "passionfruit-api";

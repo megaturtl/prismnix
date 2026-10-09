@@ -81,6 +81,16 @@ let
             "file" = "VibrantParrots-v26.1.2-mc26.1.x-NeoForge.jar";
             "hash" = "sha512-foaBFU+dMZJUkmwGPI7olFXVByuOQGw2FaVQxEn3g8xUsfO9yuJZmCImUtXhuDnCO7E480SMk6XSC/V2/yd3EQ==";
         };
+        _k9W38R7W = {
+            "id" = "k9W38R7W";
+            "file" = "vibrantparrots-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-eESj74NSkLkuorgGDFHdMsp1NGLKtfY/RfC+5VsV9yZJNniKqPCgKgBKf1yIjdlC6iP6nEmhddU5912ECS5ufw==";
+        };
+        _tUJ07NqJ = {
+            "id" = "tUJ07NqJ";
+            "file" = "vibrantparrots-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-m9LnxCy2pcTwKBRyI3pq+jeucUqYk7JIHP75EIuqXbWJFM8UzqJgmleT9Ae0Pu0TSHy2wxRpC/k1ShCMezPKeQ==";
+        };
     in {
         "XeKTVFJn" = _XeKTVFJn;
         "AgRHOIKM" = _AgRHOIKM;
@@ -98,18 +108,22 @@ let
         "hM3douvw" = _hM3douvw;
         "PmKdLc7N" = _PmKdLc7N;
         "s4ihVPaC" = _s4ihVPaC;
+        "k9W38R7W" = _k9W38R7W;
+        "tUJ07NqJ" = _tUJ07NqJ;
         "fabric-26.1" = _hM3douvw;
         "fabric-26.1.1" = _hM3douvw;
         "fabric-26.1.2" = _hM3douvw;
         "fabric-1.21.11" = _I5XfvLqJ;
         "fabric-26.2" = _PmKdLc7N;
         "fabric-1.21.1" = _zpnFtTEk;
+        "fabric-26.3" = _tUJ07NqJ;
         "neoforge-26.1" = _s4ihVPaC;
         "neoforge-26.1.1" = _s4ihVPaC;
         "neoforge-26.1.2" = _s4ihVPaC;
         "neoforge-1.21.11" = _CQTS9nDt;
         "neoforge-26.2" = _CTL4KBBf;
         "neoforge-1.21.1" = _aBt2aY81;
+        "neoforge-26.3" = _k9W38R7W;
         "pkg-26.1.0" = _AgRHOIKM;
         "pkg-21.11.0" = _I5XfvLqJ;
         "pkg-26.2.0" = _zLgn7fXM;
@@ -118,7 +132,8 @@ let
         "pkg-21.1.0" = _zpnFtTEk;
         "pkg-26.2.2" = _PmKdLc7N;
         "pkg-26.1.2" = _s4ihVPaC;
-        "default" = _s4ihVPaC;
+        "pkg-26.3.0" = _tUJ07NqJ;
+        "default" = _tUJ07NqJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vibrant-parrots";

@@ -46,6 +46,26 @@ let
             "file" = "create_parachute-1.1.1.jar";
             "hash" = "sha512-Ec3Lx9w53jfeEDqh/T2RUl1zm0wii3Daw+qtd3sb8qd8eJgmYCGGa1EypjbNfzjXftIf/yJ/7/kMtaZ7zM+PKg==";
         };
+        _cQanAv3M = {
+            "id" = "cQanAv3M";
+            "file" = "create_parachute-1.1.2.jar";
+            "hash" = "sha512-1AHNrfhFBNM9Nd074MNqB5d4Sjucuaj31Q85+6CDW4ydSft+w8G92K9r4O/LEN7xmQVPSjxuBfFcRIj5cQwtEA==";
+        };
+        _32XWszVU = {
+            "id" = "32XWszVU";
+            "file" = "create_parachute-1.1.3.jar";
+            "hash" = "sha512-13ACRjLdFHpxOBiBl3E3/fFd3zJfC8VK4eZZRdHRvreJGJ9U4o2kD5SXVjUJxl/4bxiI5VBnapM8WnbpTxxFSg==";
+        };
+        _zTsjbZUO = {
+            "id" = "zTsjbZUO";
+            "file" = "create_parachute-1.1.3b.jar";
+            "hash" = "sha512-Ey5UjIjq+rSNEATd7VHuehbNBvfxBRU20FPjOYx0g0pVDCXXzwXakTDxCzgFd5kPLnKAKh9Lsl6UnvZXxOhZdA==";
+        };
+        _AhotaoQp = {
+            "id" = "AhotaoQp";
+            "file" = "create_parachute-1.1.4.jar";
+            "hash" = "sha512-Xa0D/UgP8ffamAqLi8c+9dtK6reg7C/qC6LRxBvZXR+A1NGwkcGEP0VFBWzzreHmqJVnF7pG/d54XTaVvnDLpg==";
+        };
     in {
         "znzISlfD" = _znzISlfD;
         "jQF4BpCk" = _jQF4BpCk;
@@ -56,7 +76,11 @@ let
         "yVTzAs88" = _yVTzAs88;
         "1LXNlmXu" = _1LXNlmXu;
         "bBpUc8tk" = _bBpUc8tk;
-        "neoforge-1.21.1" = _bBpUc8tk;
+        "cQanAv3M" = _cQanAv3M;
+        "32XWszVU" = _32XWszVU;
+        "zTsjbZUO" = _zTsjbZUO;
+        "AhotaoQp" = _AhotaoQp;
+        "neoforge-1.21.1" = _AhotaoQp;
         "pkg-1.0.2" = _jQF4BpCk;
         "pkg-1.0.3" = _HcwEsFDe;
         "pkg-1.0.4" = _huWz6aCL;
@@ -65,7 +89,11 @@ let
         "pkg-1.1.0" = _yVTzAs88;
         "pkg-1.1.0a" = _1LXNlmXu;
         "pkg-1.1.1" = _bBpUc8tk;
-        "default" = _bBpUc8tk;
+        "pkg-1.1.2" = _cQanAv3M;
+        "pkg-1.1.3" = _32XWszVU;
+        "pkg-1.1.3b" = _zTsjbZUO;
+        "pkg-1.1.4" = _AhotaoQp;
+        "default" = _AhotaoQp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "createparachute";

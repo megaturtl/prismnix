@@ -421,6 +421,11 @@ let
             "file" = "florum-sporum-4.0.0+26.2.jar";
             "hash" = "sha512-x6yc3rmUq/TW4tOlIdL1tc/puD87nkCeT1ei8HdBdDIAH+KIAvHQrPkR6bigwpRRnrGjKQ4hmzywxBq22tFbCQ==";
         };
+        _2EIVm2td = {
+            "id" = "2EIVm2td";
+            "file" = "florum-sporum-4.0.1+26.3.jar";
+            "hash" = "sha512-6Drm3aHGvSj008ckUkmpFA5C2HaR/BPTVOvOqGwGM8k+MeibSvh8ZyzV2m7AeaCs1AdOszjthrO6zNpY8M50Ow==";
+        };
     in {
         "mhvCKv0n" = _mhvCKv0n;
         "nCU8sMYQ" = _nCU8sMYQ;
@@ -506,6 +511,7 @@ let
         "ouSPKqqP" = _ouSPKqqP;
         "a6uwPi8o" = _a6uwPi8o;
         "lPrvSjpo" = _lPrvSjpo;
+        "2EIVm2td" = _2EIVm2td;
         "fabric-1.17" = _EdG3dqzn;
         "fabric-1.17.1" = _EdG3dqzn;
         "fabric-1.18" = _nCU8sMYQ;
@@ -539,6 +545,7 @@ let
         "fabric-26.1.1" = _a6uwPi8o;
         "fabric-26.1.2" = _a6uwPi8o;
         "fabric-26.2" = _lPrvSjpo;
+        "fabric-26.3" = _2EIVm2td;
         "pkg-1.0.0+1.17.1" = _mhvCKv0n;
         "pkg-1.0.0+1.18.2" = _nCU8sMYQ;
         "pkg-1.0.0+1.19.2" = _iUrzzmdO;
@@ -592,7 +599,8 @@ let
         "pkg-2.0.0" = _ouSPKqqP;
         "pkg-3.0.0" = _a6uwPi8o;
         "pkg-4.0.0" = _lPrvSjpo;
-        "default" = _lPrvSjpo;
+        "pkg-4.0.1" = _2EIVm2td;
+        "default" = _2EIVm2td;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "florum-sporum";

@@ -86,6 +86,16 @@ let
             "file" = "skeleton_ghost_ship-1.0.0 Neoforge 26.2.jar";
             "hash" = "sha512-yCApkmr+kuN9rvesK5iGrZOMWrlPl5RJWMHzePuUwja42inFGNwuNhuyD+rbzqxBcENSHbds1Uuvsq0dki1WbA==";
         };
+        _dEHidtNT = {
+            "id" = "dEHidtNT";
+            "file" = "skeleton_ghost_ship-1.0.0 Fabric 26.3.jar";
+            "hash" = "sha512-D519CeYfYwHTBLh8TI3larim4pXmUF1zc7sLUgZM0Y7Eb5pVtpoZLJzcnSI8n9LXflTwX5bXMjnWIqJd4GA5WQ==";
+        };
+        _1LkZGQDo = {
+            "id" = "1LkZGQDo";
+            "file" = "skeleton_ghost_ship-1.0.0 Neoforge 26.3.jar";
+            "hash" = "sha512-FkKbdgqLtdC8UWTiK6ebkulZgOeHKvuVJJsSTY9/ytBYwqVbmNKxNCaYX5SbbZHgTkQNP0teojp6GAoQLT5Q9A==";
+        };
     in {
         "W7kOIEHK" = _W7kOIEHK;
         "7nGcVDFJ" = _7nGcVDFJ;
@@ -104,6 +114,8 @@ let
         "1DxNd0i0" = _1DxNd0i0;
         "CSWNjkNG" = _CSWNjkNG;
         "wwd0CjQM" = _wwd0CjQM;
+        "dEHidtNT" = _dEHidtNT;
+        "1LkZGQDo" = _1LkZGQDo;
         "fabric-1.20.1" = _W7kOIEHK;
         "fabric-1.21.1" = _GQUCkD8k;
         "fabric-1.21.8" = _8QV5Q0eX;
@@ -113,6 +125,7 @@ let
         "fabric-26.1.1" = _Lw38GDzl;
         "fabric-26.1.2" = _Lw38GDzl;
         "fabric-26.2" = _CSWNjkNG;
+        "fabric-26.3" = _dEHidtNT;
         "forge-1.20.1" = _7nGcVDFJ;
         "neoforge-1.21.1" = _wGxrB8at;
         "neoforge-1.21.4" = _k5zuFVzQ;
@@ -123,8 +136,9 @@ let
         "neoforge-26.1.1" = _gOPkQvpg;
         "neoforge-26.1.2" = _1DxNd0i0;
         "neoforge-26.2" = _wwd0CjQM;
-        "pkg-1.0.0" = _wwd0CjQM;
-        "default" = _wwd0CjQM;
+        "neoforge-26.3" = _1LkZGQDo;
+        "pkg-1.0.0" = _1LkZGQDo;
+        "default" = _1LkZGQDo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skeleton-ghost-ship";

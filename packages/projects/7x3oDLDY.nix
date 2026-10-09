@@ -281,6 +281,16 @@ let
             "file" = "dannys-aot-2.4.3.jar";
             "hash" = "sha512-eJim1xMZBbEKgfkZffLftHn1X0pdkHjLKNWhSwBuYU8mp3MlqE4eJtcPE4v3lYP043BAjF8r1M9IdqRef+O+fQ==";
         };
+        _oqpaZv5q = {
+            "id" = "oqpaZv5q";
+            "file" = "dannys-aot-2.5.0.jar";
+            "hash" = "sha512-jXtwtsesSCa4UPScyEzJk885rX7oxCRVlxF4vV7P67hcX81RjefX/5ZBtnyM+gxsu9Z81e+Ugog4ZILFdNn6wA==";
+        };
+        _9SdWfOZH = {
+            "id" = "9SdWfOZH";
+            "file" = "dannys-aot-2.5.1.1.jar";
+            "hash" = "sha512-UyxKPZxmmS71rkMGtyPlO/itkWbVj1uCA/PQtj41ivI80GYRdZIOgKEyw5wWqAtadbuahgJCmaAlgZ/kvTb1Iw==";
+        };
     in {
         "agv0ZiH1" = _agv0ZiH1;
         "VUD4bpjI" = _VUD4bpjI;
@@ -338,7 +348,9 @@ let
         "hGrF8Vq2" = _hGrF8Vq2;
         "getUiHuV" = _getUiHuV;
         "p2GQ0M4J" = _p2GQ0M4J;
-        "fabric-1.21.1" = _p2GQ0M4J;
+        "oqpaZv5q" = _oqpaZv5q;
+        "9SdWfOZH" = _9SdWfOZH;
+        "fabric-1.21.1" = _9SdWfOZH;
         "pkg-1.0.2" = _agv0ZiH1;
         "pkg-1.0.3" = _VUD4bpjI;
         "pkg-1.04" = _VWjFshd4;
@@ -395,7 +407,9 @@ let
         "pkg-2.4.1" = _hGrF8Vq2;
         "pkg-2.4.2" = _getUiHuV;
         "pkg-2.4.3" = _p2GQ0M4J;
-        "default" = _p2GQ0M4J;
+        "pkg-2.5.0" = _oqpaZv5q;
+        "pkg-2.5.1.1" = _9SdWfOZH;
+        "default" = _9SdWfOZH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dannys-aot";

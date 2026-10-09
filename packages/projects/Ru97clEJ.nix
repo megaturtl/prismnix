@@ -271,6 +271,11 @@ let
             "file" = "hardcore_torches-1.21.0-2.6.jar";
             "hash" = "sha512-wrq12mX+LYF23WZ0sapl2gukgYfjfvf3l3rw1KZ3lVebz1jIjvtjBtxqH8jg1/2Q8JGbwRqK165f+SGDnK/5XQ==";
         };
+        _nVvSqFGD = {
+            "id" = "nVvSqFGD";
+            "file" = "hardcore_torches-1.21.0-2.7.jar";
+            "hash" = "sha512-I9WcWXuxQ7iS4c8nJZEHZx2ZZHVQnz1gFzFKV/mwffX8YCgRiwVvys7fyw73QymQcjy2ROPItG3Cul0loiQE9A==";
+        };
     in {
         "oL2trBuM" = _oL2trBuM;
         "hIrT1tKH" = _hIrT1tKH;
@@ -326,6 +331,7 @@ let
         "uitlIOci" = _uitlIOci;
         "lVypnjaC" = _lVypnjaC;
         "e31g0a6T" = _e31g0a6T;
+        "nVvSqFGD" = _nVvSqFGD;
         "fabric-1.18" = _gFvXVGVw;
         "fabric-1.18.1" = _gFvXVGVw;
         "fabric-1.20.4" = _N0EVEFbX;
@@ -338,21 +344,21 @@ let
         "forge-1.20.3" = _nelN8ILF;
         "forge-1.20.5" = _nelN8ILF;
         "forge-1.20.6" = _nelN8ILF;
-        "neoforge-1.21.1" = _e31g0a6T;
-        "neoforge-1.21.2" = _e31g0a6T;
-        "neoforge-1.21.3" = _e31g0a6T;
-        "neoforge-1.21.4" = _e31g0a6T;
-        "neoforge-1.21.5" = _e31g0a6T;
-        "neoforge-1.21.6" = _e31g0a6T;
-        "neoforge-1.21.7" = _e31g0a6T;
-        "neoforge-1.21.8" = _e31g0a6T;
-        "neoforge-1.21.9" = _e31g0a6T;
-        "neoforge-1.21.10" = _e31g0a6T;
-        "neoforge-1.21.11" = _e31g0a6T;
+        "neoforge-1.21.1" = _nVvSqFGD;
+        "neoforge-1.21.2" = _nVvSqFGD;
+        "neoforge-1.21.3" = _nVvSqFGD;
+        "neoforge-1.21.4" = _nVvSqFGD;
+        "neoforge-1.21.5" = _nVvSqFGD;
+        "neoforge-1.21.6" = _nVvSqFGD;
+        "neoforge-1.21.7" = _nVvSqFGD;
+        "neoforge-1.21.8" = _nVvSqFGD;
+        "neoforge-1.21.9" = _nVvSqFGD;
+        "neoforge-1.21.10" = _nVvSqFGD;
+        "neoforge-1.21.11" = _nVvSqFGD;
         "neoforge-26.1" = _hi5e5lMx;
         "neoforge-26.1.1" = _hi5e5lMx;
         "neoforge-26.1.2" = _hi5e5lMx;
-        "neoforge-1.21" = _e31g0a6T;
+        "neoforge-1.21" = _nVvSqFGD;
         "pkg-1.0" = _oL2trBuM;
         "pkg-1.0.1" = _hIrT1tKH;
         "pkg-1.0.2" = _s70KnqGd;
@@ -404,7 +410,8 @@ let
         "pkg-1.21.0-2.4" = _uitlIOci;
         "pkg-1.21.0-2.5" = _lVypnjaC;
         "pkg-1.21.0-2.6" = _e31g0a6T;
-        "default" = _e31g0a6T;
+        "pkg-1.21.0-2.7" = _nVvSqFGD;
+        "default" = _nVvSqFGD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hardcore-torches";

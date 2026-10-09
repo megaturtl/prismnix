@@ -461,6 +461,16 @@ let
             "file" = "tinycoal-26.2-0.1.jar";
             "hash" = "sha512-Cw8uUVBCbd3gKmZ/exRZxcXEKfsQbHPUc2StHqVAuVsC89l8vv2mfdsTFrvbaNrZZfQORD6UErk6jtOUMn4xFQ==";
         };
+        _2y6SnsQm = {
+            "id" = "2y6SnsQm";
+            "file" = "tinycoal-26.3-0.1.jar";
+            "hash" = "sha512-NmDntaXeUwIyXp0KcM4ImXVsowVFhVZ2q9nEXdX3l3yzV0Omwf+rEY55KaKmSa9THUbZOa15fClbvjXkB5G1wg==";
+        };
+        _GwYCp2Ol = {
+            "id" = "GwYCp2Ol";
+            "file" = "tinycoal-26.3-0.1.jar";
+            "hash" = "sha512-IFa0mAlpNnRzgdnuOBZNT7mi1ult3NLUCl+jR6ytBDx+1xkacyZAHYQRos+NOfVzR4URckcXmi/Bn3qP3iYRMg==";
+        };
     in {
         "43PzT6FP" = _43PzT6FP;
         "R718g9QH" = _R718g9QH;
@@ -554,6 +564,8 @@ let
         "KNNKCDaz" = _KNNKCDaz;
         "l9FEX0Ut" = _l9FEX0Ut;
         "LfdF7Jg6" = _LfdF7Jg6;
+        "2y6SnsQm" = _2y6SnsQm;
+        "GwYCp2Ol" = _GwYCp2Ol;
         "fabric-1.21" = _bqgXizvG;
         "fabric-1.21.1" = _qREiFwZU;
         "fabric-1.21.3" = _HTo3ZZ7V;
@@ -569,6 +581,7 @@ let
         "fabric-26.1.1" = _Ra7Ec4tT;
         "fabric-26.1.2" = _KNNKCDaz;
         "fabric-26.2" = _LfdF7Jg6;
+        "fabric-26.3" = _2y6SnsQm;
         "forge-1.21" = _Jl9gH2B9;
         "forge-1.21.1" = _mLjh1f64;
         "forge-1.21.3" = _dqaUgLQd;
@@ -595,6 +608,7 @@ let
         "neoforge-26.1.1" = _aZMkUcAO;
         "neoforge-26.1" = _tJYw66R1;
         "neoforge-26.2" = _l9FEX0Ut;
+        "neoforge-26.3" = _GwYCp2Ol;
         "pkg-1.21-0.1" = _DCf6kCO9;
         "pkg-1.21.1-0.1" = _LeyS6W0v;
         "pkg-1.21.3-0.1" = _8sg6oZRg;
@@ -627,7 +641,8 @@ let
         "pkg-26.1.1-0.1" = _Ra7Ec4tT;
         "pkg-26.1-0.1" = _e40rh7pw;
         "pkg-26.2-0.1" = _LfdF7Jg6;
-        "default" = _LfdF7Jg6;
+        "pkg-26.3-0.1" = _GwYCp2Ol;
+        "default" = _GwYCp2Ol;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tinycoal";

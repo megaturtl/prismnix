@@ -6,11 +6,40 @@ let
             "file" = "Legends-Power-Rangers-1.18.2-ss0.3.4.jar";
             "hash" = "sha512-MpPdUEIBFQCq7CQPXBszJD8BZTqxVnr6kwwmZ/yarDNVfeFBLSpjPiFwN4SiZuVhI7+GV24eijZTHjy9GDmVEA==";
         };
+        _DPRU2rzq = {
+            "id" = "DPRU2rzq";
+            "file" = "Legends-PowerRangers-1.20.1-ss1.0.3.jar";
+            "hash" = "sha512-4be+g+W1QLhIQzhMG9oHDwPzzdv3hSPOuUP5fmlJMfVH4N4S+R1vcWElXfl3RjSTs/3PI9BHFGIOQoMb7MPk4g==";
+        };
+        _pP2A6LnB = {
+            "id" = "pP2A6LnB";
+            "file" = "Legends-PowerRangers-1.20.1-ss1.0.4.jar";
+            "hash" = "sha512-dVO+xp2ZnhBnfYaZCCvbwQwHobe9Dvgx0Bm7V5ews9xP7DpjVdAmf4idilAksgrVc/6objNL6nE15RPQ4bOGkw==";
+        };
+        _YMogHf58 = {
+            "id" = "YMogHf58";
+            "file" = "Legends-PowerRangers-1.20.1-ss1.0.5.jar";
+            "hash" = "sha512-DgmEKrjzW2M+kmx0lEGqkIdLQARxUYhPM2O7x8Iw5qt/r+eCO192JaAfB4JsG6245Y6kK6I9sZD5FJCr12HNqQ==";
+        };
+        _5wQjXQnQ = {
+            "id" = "5wQjXQnQ";
+            "file" = "Legends-PowerRangers-1.20.1-ss1.0.6.jar";
+            "hash" = "sha512-5nKGIvfrw9nnLjbq5bFPQWPRfUa/XNjR2jdJf1P91J8mjBBmneWb9Gw3Eafn7i7PYgO6FACjtG5nQdwk0sMw6Q==";
+        };
     in {
         "GBxB0nii" = _GBxB0nii;
+        "DPRU2rzq" = _DPRU2rzq;
+        "pP2A6LnB" = _pP2A6LnB;
+        "YMogHf58" = _YMogHf58;
+        "5wQjXQnQ" = _5wQjXQnQ;
         "forge-1.18.2" = _GBxB0nii;
+        "forge-1.20.1" = _5wQjXQnQ;
         "pkg-1.18.2-ss0.3.4" = _GBxB0nii;
-        "default" = _GBxB0nii;
+        "pkg-1.20.1-ss1.0.3" = _DPRU2rzq;
+        "pkg-1.20.1-ss1.0.4" = _pP2A6LnB;
+        "pkg-1.20.1-ss1.0.5" = _YMogHf58;
+        "pkg-1.20.1-ss1.0.6" = _5wQjXQnQ;
+        "default" = _5wQjXQnQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "legends-power-rangers";

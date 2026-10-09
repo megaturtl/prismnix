@@ -836,6 +836,21 @@ let
             "file" = "hunters_return-26.3-33.0.0.jar";
             "hash" = "sha512-0aE+ac7dyA0OLil9TeDb6WGMSoh+OsEiyvla0/dvJOebB2wZfjzxi4na5NIlvdpK18FadUNzRUCTLnUliphSQA==";
         };
+        _uPCLseJt = {
+            "id" = "uPCLseJt";
+            "file" = "hunters_return-26.3-33.1.0.jar";
+            "hash" = "sha512-3my5jsT1dx6oNvy4tFBQ6XaxhgcyGqQJN0NrL4OO6YA2JECxBZUKGHZWJdZA5f9OcHxppwr+VsVQrR07ar3bKQ==";
+        };
+        _gAxG2Xg7 = {
+            "id" = "gAxG2Xg7";
+            "file" = "hunters_return-26.3-33.2.0.jar";
+            "hash" = "sha512-vtpojPruM3qxnVJrpeJIyiRNG4Wu8CCS3Ri5TIEFFyVG+6mPsVUO8hspcfavGmVEnh3yxBTEjP8sR9oIqbC14Q==";
+        };
+        _cMp3adTs = {
+            "id" = "cMp3adTs";
+            "file" = "hunters_return-26.3-33.3.0.jar";
+            "hash" = "sha512-csOQi1bNn6+Z1hWADJ7YmstRrHfAS+6u962+fvnUlFAY49XbCSQnMQAlZp+PzvkNXi1cQsBSKqvPcbm31IOlWQ==";
+        };
     in {
         "hncuyDel" = _hncuyDel;
         "Tovn205X" = _Tovn205X;
@@ -1004,6 +1019,9 @@ let
         "M5EsqQRT" = _M5EsqQRT;
         "7Q9XCAuM" = _7Q9XCAuM;
         "5bOSGNrN" = _5bOSGNrN;
+        "uPCLseJt" = _uPCLseJt;
+        "gAxG2Xg7" = _gAxG2Xg7;
+        "cMp3adTs" = _cMp3adTs;
         "forge-1.19.2" = _F8TdjDfE;
         "forge-1.19.3" = _ttVTrWKy;
         "forge-1.19.4" = _bn0WO22Y;
@@ -1042,7 +1060,7 @@ let
         "neoforge-26.1.1" = _9ofAqaWC;
         "neoforge-26.1.2" = _M5EsqQRT;
         "neoforge-26.2" = _7Q9XCAuM;
-        "neoforge-26.3" = _5bOSGNrN;
+        "neoforge-26.3" = _cMp3adTs;
         "pkg-6.1.0" = _hncuyDel;
         "pkg-6.2.0" = _Tovn205X;
         "pkg-7.0.0" = _36RuiDRw;
@@ -1210,7 +1228,10 @@ let
         "pkg-26.1.2-31.8.0" = _M5EsqQRT;
         "pkg-26.2-32.6.0" = _7Q9XCAuM;
         "pkg-26.3-33.0.0" = _5bOSGNrN;
-        "default" = _5bOSGNrN;
+        "pkg-26.3-33.1.0" = _uPCLseJt;
+        "pkg-26.3-33.2.0" = _gAxG2Xg7;
+        "pkg-26.3-33.3.0" = _cMp3adTs;
+        "default" = _cMp3adTs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hunters-return";

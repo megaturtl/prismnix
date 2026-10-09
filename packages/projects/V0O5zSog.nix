@@ -91,6 +91,26 @@ let
             "file" = "Glowing-Netherite-1.21.9-1.21.10.zip";
             "hash" = "sha512-f7c9fUHUoYsY/2p5oeCNV1iWJk/xNIVYDIMQ7EF34hu9Dx3pF9z8XQLyvsniEqdEuxaNwfOCvldwn/ThXS5DYA==";
         };
+        _rE3t5aAo = {
+            "id" = "rE3t5aAo";
+            "file" = "Glowing-Netherite-1.21.11.zip";
+            "hash" = "sha512-AweDCFj+xRCHxPFEqHEEN0knyYXw/Rrz5LBfEkiOfdnm6/COgwtRtNOa0EKplWpECemHMCfRmQhIE6y1TdsfoA==";
+        };
+        _s1CN3z20 = {
+            "id" = "s1CN3z20";
+            "file" = "Glowing-Netherite-26.1.x.zip";
+            "hash" = "sha512-JcVIJQ/WXAU564BlPPjC50kvvCCdoa4fpNXu49hyg3kUrEYsha71ZVfHlrSOsr3vfmaVinle/atDGp/yzIPPgQ==";
+        };
+        _BrUV0gYx = {
+            "id" = "BrUV0gYx";
+            "file" = "Glowing-Netherite-26.2.zip";
+            "hash" = "sha512-OAgMMDyAC+aUIswCClR7MQkarFiquDJoJ+TqDvkjFbBiaVDxaItaHfZIwU8d4+wbZkIfvDEx27f0BLdDlPlB5Q==";
+        };
+        _xn9J2N4v = {
+            "id" = "xn9J2N4v";
+            "file" = "Glowing-Netherite-26.3.zip";
+            "hash" = "sha512-e88PGMCRl5Xuw7x6863mmxq8jCJAhyZ5mkfIKoXrkagK2yvdJhyWr9TPnZtc/624VHTphyn00WM4qwcWLnUK+g==";
+        };
     in {
         "XzA0QYAq" = _XzA0QYAq;
         "T9yGvpVS" = _T9yGvpVS;
@@ -110,6 +130,10 @@ let
         "4V5dUxuL" = _4V5dUxuL;
         "VO4sodp3" = _VO4sodp3;
         "zlWA6peW" = _zlWA6peW;
+        "rE3t5aAo" = _rE3t5aAo;
+        "s1CN3z20" = _s1CN3z20;
+        "BrUV0gYx" = _BrUV0gYx;
+        "xn9J2N4v" = _xn9J2N4v;
         "minecraft-1.16" = _XzA0QYAq;
         "minecraft-1.16.1" = _XzA0QYAq;
         "minecraft-1.16.2" = _T9yGvpVS;
@@ -144,8 +168,14 @@ let
         "minecraft-1.21.8" = _VO4sodp3;
         "minecraft-1.21.9" = _zlWA6peW;
         "minecraft-1.21.10" = _zlWA6peW;
-        "pkg-1.0" = _zlWA6peW;
-        "default" = _zlWA6peW;
+        "minecraft-1.21.11" = _rE3t5aAo;
+        "minecraft-26.1" = _s1CN3z20;
+        "minecraft-26.1.1" = _s1CN3z20;
+        "minecraft-26.1.2" = _s1CN3z20;
+        "minecraft-26.2" = _BrUV0gYx;
+        "minecraft-26.3" = _xn9J2N4v;
+        "pkg-1.0" = _xn9J2N4v;
+        "default" = _xn9J2N4v;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "glowing-netherite";

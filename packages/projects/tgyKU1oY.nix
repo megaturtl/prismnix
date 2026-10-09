@@ -546,6 +546,46 @@ let
             "file" = "caerula_arbor-0.12.5.4-forge-1.20.1.jar";
             "hash" = "sha512-AaycMvaEZ2F0laYU6xBh7N9f2/qn2LzadJ4oV0/IBoyHsGP22TC1QSFw77R6VK+K0NmK9xV9ndWOrqaP9uC9Bg==";
         };
+        _Lky0OrDD = {
+            "id" = "Lky0OrDD";
+            "file" = "caerula_arbor-0.12.5.5-forge-1.20.1.jar";
+            "hash" = "sha512-Z5v72OKx5bG68tB6MRCEHN2s/dC2QSvbIHlLMZ84uuDnBX0vKP3mbklqwJ3i94aSQjOA5okf2JfwL6kUUzA5vw==";
+        };
+        _P9eTXeTi = {
+            "id" = "P9eTXeTi";
+            "file" = "caerula_arbor-0.12.6-forge-1.20.1.jar";
+            "hash" = "sha512-iu5PMeAMsQ9xDnCwZZMbiJw1hgZNTli+X6nAHuvj7V+7uZSnUnr/fvflSt84pVjFLOsRBEr/3UCbKzEo0v8eTw==";
+        };
+        _Lq2dCw8r = {
+            "id" = "Lq2dCw8r";
+            "file" = "caerula_arbor-0.12.6.3-forge-1.20.1.jar";
+            "hash" = "sha512-7D1fR5oKrC20b/fp/XM3R3v8F50gstfT+JznQn0nBqkcbgrrl1z3rPLZA8KBtHkGo/6TH+frQx+BxpY4rGqg0g==";
+        };
+        _twBAOyWG = {
+            "id" = "twBAOyWG";
+            "file" = "caerula_arbor-0.12.6.4-forge-1.20.1.jar";
+            "hash" = "sha512-rtBSRu7hfYvSaBedvRheJSpKZG/oNIl6+CGItFvbTnYcxsOd5Fi316IkDHsLphiM3q4kDtVy6+ybrOofAHYvPg==";
+        };
+        _whSGs061 = {
+            "id" = "whSGs061";
+            "file" = "caerula_arbor-0.12.6.7-forge-1.20.1.jar";
+            "hash" = "sha512-73Nkj4d3LEb9ZpGDX9AYdgeMhsH6g1aoKs66owCeudopi6pH30uC/4B0dPVELldWXEZtTmVD4DJHzxCs+CjpJQ==";
+        };
+        _1wIY8DbM = {
+            "id" = "1wIY8DbM";
+            "file" = "caerula_arbor-0.12.7-forge-1.20.1.jar";
+            "hash" = "sha512-6+lwn5TJh/86HYh6HCOIi+qF2sa3tRI8GXiK24YnaJ5drEb1qczgc9GW/dOTOcNDIpa7q/AStRlr09/3fpSbXQ==";
+        };
+        _3S7B9deA = {
+            "id" = "3S7B9deA";
+            "file" = "caerula_arbor-0.12.7.1-forge-1.20.1.jar";
+            "hash" = "sha512-L5tD5+TplfLFfDHYhctedJoIFh+bXzSmoXGncTWn0iyqF5b2HLJc2o65BJl6KRMTwcvExp5gLUFdOr/zIHcwmQ==";
+        };
+        _X6TsiLEj = {
+            "id" = "X6TsiLEj";
+            "file" = "caerula_arbor-0.12.7.2-forge-1.20.1.jar";
+            "hash" = "sha512-/IBcRcupqJMnTctHQX1VE/DCTleFDiEwMEsXqXSE6bLMvtgdeEZr6Lds5c5XCCJDGKM/qa8k4D4xt5kmjoHK9Q==";
+        };
     in {
         "zPurswGt" = _zPurswGt;
         "ExHPUYdu" = _ExHPUYdu;
@@ -656,7 +696,15 @@ let
         "eBxMUQUs" = _eBxMUQUs;
         "MBDMsyiE" = _MBDMsyiE;
         "1dskvYu3" = _1dskvYu3;
-        "forge-1.20.1" = _1dskvYu3;
+        "Lky0OrDD" = _Lky0OrDD;
+        "P9eTXeTi" = _P9eTXeTi;
+        "Lq2dCw8r" = _Lq2dCw8r;
+        "twBAOyWG" = _twBAOyWG;
+        "whSGs061" = _whSGs061;
+        "1wIY8DbM" = _1wIY8DbM;
+        "3S7B9deA" = _3S7B9deA;
+        "X6TsiLEj" = _X6TsiLEj;
+        "forge-1.20.1" = _X6TsiLEj;
         "pkg-0.4Dev" = _zPurswGt;
         "pkg-0.5Dev" = _ExHPUYdu;
         "pkg-0.6Dev" = _GnvLCmNR;
@@ -765,7 +813,15 @@ let
         "pkg-0.12.5.1" = _eBxMUQUs;
         "pkg-0.12.5.2" = _MBDMsyiE;
         "pkg-0.12.5.4" = _1dskvYu3;
-        "default" = _1dskvYu3;
+        "pkg-0.12.5.5" = _Lky0OrDD;
+        "pkg-0.12.6" = _P9eTXeTi;
+        "pkg-0.12.6.3" = _Lq2dCw8r;
+        "pkg-0.12.6.4" = _twBAOyWG;
+        "pkg-0.12.6.7" = _whSGs061;
+        "pkg-0.12.7" = _1wIY8DbM;
+        "pkg-0.12.7.1" = _3S7B9deA;
+        "pkg-0.12.7.2" = _X6TsiLEj;
+        "default" = _X6TsiLEj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "caerula-arbor";

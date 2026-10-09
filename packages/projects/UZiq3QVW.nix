@@ -251,6 +251,21 @@ let
             "file" = "Northstar-0.6.5+1.21.1.jar";
             "hash" = "sha512-NvBU3YT7ACDL5LTh9GvRd/KRdQlwgckcuDGZylGiK2Szsfl7jyxA2Y1skMSEDOmpPRT8UOs4x48SQDq3/VxEeg==";
         };
+        _brgRPzPG = {
+            "id" = "brgRPzPG";
+            "file" = "Northstar-0.6.6+1.20.1-create5.jar";
+            "hash" = "sha512-4ruqhKC6c2sSHPnnxPVB2U+lcgouPc63uJur/6m85ZgBB9GGZj0yJhxtOYdCGcXgUNCLYRnWXrP4L1n7UP9DjA==";
+        };
+        _EdDubVYd = {
+            "id" = "EdDubVYd";
+            "file" = "Northstar-0.6.6+1.20.1.jar";
+            "hash" = "sha512-SzgnOZ2FP3weEf4Y5+Crh0e+CwiiqK0mon1Zhlo9+pd3luRoFuCIvTL5/GNcQoeWQ7uJ90MF8GdMz/0Uj2vLHw==";
+        };
+        _2xMVbJcV = {
+            "id" = "2xMVbJcV";
+            "file" = "Northstar-0.6.6+1.21.1.jar";
+            "hash" = "sha512-i6vKb91nMIzFzI9n0Ssf8bpCqVwmPMyox1cpJoa505DLaW0BbM1Ok7WE98GT8KBLcSkk4ilISb6IBmT65AdSBg==";
+        };
     in {
         "BDpx4E42" = _BDpx4E42;
         "5Cbj7hjh" = _5Cbj7hjh;
@@ -302,8 +317,11 @@ let
         "sV0ne4Eq" = _sV0ne4Eq;
         "jGEhOn9c" = _jGEhOn9c;
         "DnRbB3Dp" = _DnRbB3Dp;
-        "forge-1.20.1" = _jGEhOn9c;
-        "neoforge-1.21.1" = _DnRbB3Dp;
+        "brgRPzPG" = _brgRPzPG;
+        "EdDubVYd" = _EdDubVYd;
+        "2xMVbJcV" = _2xMVbJcV;
+        "forge-1.20.1" = _EdDubVYd;
+        "neoforge-1.21.1" = _2xMVbJcV;
         "pkg-0.2.0+1.20.1" = _BDpx4E42;
         "pkg-0.2.1+1.20.1" = _5Cbj7hjh;
         "pkg-0.2.2+1.20.1" = _NJKoWnVN;
@@ -354,7 +372,10 @@ let
         "pkg-0.6.5+1.20.1-create5" = _sV0ne4Eq;
         "pkg-0.6.5+1.20.1" = _jGEhOn9c;
         "pkg-0.6.5+1.21.1" = _DnRbB3Dp;
-        "default" = _DnRbB3Dp;
+        "pkg-0.6.6+1.20.1-create5" = _brgRPzPG;
+        "pkg-0.6.6+1.20.1" = _EdDubVYd;
+        "pkg-0.6.6+1.21.1" = _2xMVbJcV;
+        "default" = _2xMVbJcV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "northstar-redux";

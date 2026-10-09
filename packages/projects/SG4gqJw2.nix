@@ -121,6 +121,11 @@ let
             "file" = "shielded-zombies-mc26.2-1.0.7.jar";
             "hash" = "sha512-Kirtmt+F1fV5onNwBU9PlfWAAW340LSdTCDKLYo3SQWKJ7aykWU5hvA9ehNDDtAp+VZFnQtfCU4RA88pjEvyIA==";
         };
+        _z8UioGpM = {
+            "id" = "z8UioGpM";
+            "file" = "shielded-zombies-mc26.3-1.0.7.jar";
+            "hash" = "sha512-3G99pxxvK+ATXzyj0ZIHdYvn3iTr2aoK6IZK37VXfth1MYfj0HqXmFoqj9O2PV3pxxgLCa6l0MZbk42xly9HKA==";
+        };
     in {
         "uqtYC1br" = _uqtYC1br;
         "HC9AfYbt" = _HC9AfYbt;
@@ -146,6 +151,7 @@ let
         "GA4oNZ8m" = _GA4oNZ8m;
         "njhhENy0" = _njhhENy0;
         "UZimkhxc" = _UZimkhxc;
+        "z8UioGpM" = _z8UioGpM;
         "fabric-1.21.2" = _nSfjPzfK;
         "fabric-1.21.3" = _nSfjPzfK;
         "fabric-1.21.4" = _nSfjPzfK;
@@ -172,6 +178,7 @@ let
         "fabric-26.1.1" = _GA4oNZ8m;
         "fabric-26.1.2" = _njhhENy0;
         "fabric-26.2" = _UZimkhxc;
+        "fabric-26.3" = _z8UioGpM;
         "quilt-1.19.2" = _HC9AfYbt;
         "quilt-1.19.3" = _HC9AfYbt;
         "quilt-1.19.4" = _HC9AfYbt;
@@ -192,8 +199,8 @@ let
         "pkg-1.0.4" = _1a6VJDxS;
         "pkg-1.0.5" = _e6ywBJFc;
         "pkg-1.0.6" = _35QfVt2V;
-        "pkg-1.0.7" = _UZimkhxc;
-        "default" = _UZimkhxc;
+        "pkg-1.0.7" = _z8UioGpM;
+        "default" = _z8UioGpM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shieldedzombies";

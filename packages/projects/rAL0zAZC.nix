@@ -31,6 +31,16 @@ let
             "file" = "rpg-enchantments-1.1.2.jar";
             "hash" = "sha512-bZJjKYQc5id+zmjxY9IyW83Hkfuf7ltlbaextgE8Vk3H9kDXE2gaQ2nkS4VktDOxBwAN8HgX691diu6fpJ4piA==";
         };
+        _5op2ePRp = {
+            "id" = "5op2ePRp";
+            "file" = "RPG Enchantments v1.1.2 [26.3].zip";
+            "hash" = "sha512-7Gptdy30J7YWs21PDax08mnisfYd79Tfl08K1FFeGU9R2eVOD1ii2/sUG3P++eBF8iBecVxb9tV4tZ0LKJeTpQ==";
+        };
+        _HlYWudoo = {
+            "id" = "HlYWudoo";
+            "file" = "rpg-enchantments-1.1.2.jar";
+            "hash" = "sha512-Oc+PwHBmRBtpXl1YyZ9do9MsayPO8VZkLsoJ8Wq/jI54NgmVcIj/Z/QDqL32jIer/w3IqWianFJjtX4qT2RRMA==";
+        };
     in {
         "GLXUgrmi" = _GLXUgrmi;
         "nExxxShK" = _nExxxShK;
@@ -38,6 +48,8 @@ let
         "kBpRoIKe" = _kBpRoIKe;
         "Yv55dXE1" = _Yv55dXE1;
         "TMONkHyX" = _TMONkHyX;
+        "5op2ePRp" = _5op2ePRp;
+        "HlYWudoo" = _HlYWudoo;
         "datapack-1.21.2" = _PkvmDAUW;
         "datapack-1.21.3" = _PkvmDAUW;
         "datapack-1.21.4" = _PkvmDAUW;
@@ -52,6 +64,7 @@ let
         "datapack-26.1.1" = _PkvmDAUW;
         "datapack-26.1.2" = _PkvmDAUW;
         "datapack-26.2" = _Yv55dXE1;
+        "datapack-26.3" = _5op2ePRp;
         "fabric-1.21.2" = _kBpRoIKe;
         "fabric-1.21.3" = _kBpRoIKe;
         "fabric-1.21.4" = _kBpRoIKe;
@@ -66,6 +79,7 @@ let
         "fabric-26.1.1" = _kBpRoIKe;
         "fabric-26.1.2" = _kBpRoIKe;
         "fabric-26.2" = _TMONkHyX;
+        "fabric-26.3" = _HlYWudoo;
         "forge-1.21.2" = _kBpRoIKe;
         "forge-1.21.3" = _kBpRoIKe;
         "forge-1.21.4" = _kBpRoIKe;
@@ -80,6 +94,7 @@ let
         "forge-26.1.1" = _kBpRoIKe;
         "forge-26.1.2" = _kBpRoIKe;
         "forge-26.2" = _TMONkHyX;
+        "forge-26.3" = _HlYWudoo;
         "neoforge-1.21.2" = _kBpRoIKe;
         "neoforge-1.21.3" = _kBpRoIKe;
         "neoforge-1.21.4" = _kBpRoIKe;
@@ -94,6 +109,7 @@ let
         "neoforge-26.1.1" = _kBpRoIKe;
         "neoforge-26.1.2" = _kBpRoIKe;
         "neoforge-26.2" = _TMONkHyX;
+        "neoforge-26.3" = _HlYWudoo;
         "quilt-1.21.2" = _kBpRoIKe;
         "quilt-1.21.3" = _kBpRoIKe;
         "quilt-1.21.4" = _kBpRoIKe;
@@ -108,11 +124,12 @@ let
         "quilt-26.1.1" = _kBpRoIKe;
         "quilt-26.1.2" = _kBpRoIKe;
         "quilt-26.2" = _TMONkHyX;
+        "quilt-26.3" = _HlYWudoo;
         "pkg-1.0.0" = _GLXUgrmi;
         "pkg-1.0.0+mod" = _nExxxShK;
-        "pkg-1.1.2" = _Yv55dXE1;
-        "pkg-1.1.2+mod" = _TMONkHyX;
-        "default" = _TMONkHyX;
+        "pkg-1.1.2" = _5op2ePRp;
+        "pkg-1.1.2+mod" = _HlYWudoo;
+        "default" = _HlYWudoo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rpg-enchantments";

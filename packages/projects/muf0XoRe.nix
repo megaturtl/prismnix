@@ -1376,6 +1376,21 @@ let
             "file" = "repurposed_structures-7.7.6+26.2-fabric.jar";
             "hash" = "sha512-DAxt0e04SX8yy9RyAuf4WgaYTfUQZzqPfts1pBw2fJEFldFLCDf7hPIp40bclzOpi2uAFed/EAkjF4/D00m2wA==";
         };
+        _7w602DC5 = {
+            "id" = "7w602DC5";
+            "file" = "repurposed_structures-7.8.0+26.3-fabric.jar";
+            "hash" = "sha512-Ta/51dSqpktbdsIsmLVLXDqcDc4WyGIGjnfsQo9jWFXbbJpwC8IHgC0BmGHN6S7eWeWnMpjoFDj8eLgVJfI0KA==";
+        };
+        _KOlXtsJY = {
+            "id" = "KOlXtsJY";
+            "file" = "repurposed_structures-7.8.1+26.3-fabric.jar";
+            "hash" = "sha512-qtb9jKR+i6MqNjSR2NnpGwtVHbzfBcVfJY5uI21MCM3d9DXUfPJurZVK0b94p+cOZFZ+enVyhyC3ikqDn1fI6w==";
+        };
+        _fl0s2Ue2 = {
+            "id" = "fl0s2Ue2";
+            "file" = "repurposed_structures-7.8.2+26.3-fabric.jar";
+            "hash" = "sha512-toYscfgPOYmFmb9dFyo3OOpHftraBglsXnnrzPU8gs0jgR7paWbjomA7qy45VaXjzrMGbsrq4lR3WNLIQAeb6Q==";
+        };
     in {
         "35dtx51R" = _35dtx51R;
         "E2iWqSXl" = _E2iWqSXl;
@@ -1652,6 +1667,9 @@ let
         "JRMMCb1O" = _JRMMCb1O;
         "qcp0GuuQ" = _qcp0GuuQ;
         "CrmgMIJp" = _CrmgMIJp;
+        "7w602DC5" = _7w602DC5;
+        "KOlXtsJY" = _KOlXtsJY;
+        "fl0s2Ue2" = _fl0s2Ue2;
         "fabric-1.16.5" = _5yP9SNTr;
         "fabric-1.17" = _F70cRVpm;
         "fabric-1.17.1" = _F70cRVpm;
@@ -1685,6 +1703,7 @@ let
         "fabric-1.21.11" = _LgshXq1u;
         "fabric-26.1" = _qcp0GuuQ;
         "fabric-26.2" = _CrmgMIJp;
+        "fabric-26.3" = _fl0s2Ue2;
         "quilt-1.19" = _dgE3oMcH;
         "quilt-1.19.1" = _dgE3oMcH;
         "quilt-1.19.2" = _TajvjPIp;
@@ -1967,7 +1986,10 @@ let
         "pkg-7.5.22+1.21.1-fabric" = _JRMMCb1O;
         "pkg-7.7.6+26.1-fabric" = _qcp0GuuQ;
         "pkg-7.7.6+26.2-fabric" = _CrmgMIJp;
-        "default" = _CrmgMIJp;
+        "pkg-7.8.0+26.3-fabric" = _7w602DC5;
+        "pkg-7.8.1+26.3-fabric" = _KOlXtsJY;
+        "pkg-7.8.2+26.3-fabric" = _fl0s2Ue2;
+        "default" = _fl0s2Ue2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "repurposed-structures-fabric";

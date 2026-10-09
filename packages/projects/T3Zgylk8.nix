@@ -41,6 +41,16 @@ let
             "file" = "meteors-v1.1.0.jar";
             "hash" = "sha512-u4DnosK3UG3RDF3ES5FsvR8P/OP0yDHan59JdbUB6+SoqBnJHT8OdGvx7dKuL3Uj9jRT4p58EDILjMtd1FZ38g==";
         };
+        _lMNqh69u = {
+            "id" = "lMNqh69u";
+            "file" = "Meteors v1.1.0 [26.3].zip";
+            "hash" = "sha512-lezeTTVOAkH2TaDL3TmqVJh0HXu6i3ur9Lc8/YCKj/X9OH1/nrwyp88GWWE8S3fMV3cNiQFXkFj990lBj3iCKQ==";
+        };
+        _WDLpxvW1 = {
+            "id" = "WDLpxvW1";
+            "file" = "meteors-1.1.0.jar";
+            "hash" = "sha512-UHWulUCOKkQo593SxveI4EwACfEF6MtGmePKpudwMiykAK0qey9cL0Ew64xGY5guWPKrG2o+Vt4jzbAOevj2SA==";
+        };
     in {
         "ETLVNS0d" = _ETLVNS0d;
         "jogadZRd" = _jogadZRd;
@@ -50,6 +60,8 @@ let
         "mTeaZHIs" = _mTeaZHIs;
         "cGzSAqcz" = _cGzSAqcz;
         "aHYpxFDj" = _aHYpxFDj;
+        "lMNqh69u" = _lMNqh69u;
+        "WDLpxvW1" = _WDLpxvW1;
         "datapack-1.21" = _I7tbijav;
         "datapack-1.21.1" = _I7tbijav;
         "datapack-1.21.2" = _I7tbijav;
@@ -66,6 +78,7 @@ let
         "datapack-26.1.1" = _cGzSAqcz;
         "datapack-26.1.2" = _cGzSAqcz;
         "datapack-26.2" = _cGzSAqcz;
+        "datapack-26.3" = _lMNqh69u;
         "fabric-1.21" = _XZYF1opi;
         "fabric-1.21.1" = _XZYF1opi;
         "fabric-1.21.2" = _XZYF1opi;
@@ -82,6 +95,7 @@ let
         "fabric-26.1.1" = _aHYpxFDj;
         "fabric-26.1.2" = _aHYpxFDj;
         "fabric-26.2" = _aHYpxFDj;
+        "fabric-26.3" = _WDLpxvW1;
         "forge-1.21" = _XZYF1opi;
         "forge-1.21.1" = _XZYF1opi;
         "forge-1.21.2" = _XZYF1opi;
@@ -98,6 +112,7 @@ let
         "forge-26.1.1" = _aHYpxFDj;
         "forge-26.1.2" = _aHYpxFDj;
         "forge-26.2" = _aHYpxFDj;
+        "forge-26.3" = _WDLpxvW1;
         "neoforge-1.21" = _XZYF1opi;
         "neoforge-1.21.1" = _XZYF1opi;
         "neoforge-1.21.2" = _XZYF1opi;
@@ -114,6 +129,7 @@ let
         "neoforge-26.1.1" = _aHYpxFDj;
         "neoforge-26.1.2" = _aHYpxFDj;
         "neoforge-26.2" = _aHYpxFDj;
+        "neoforge-26.3" = _WDLpxvW1;
         "quilt-1.21" = _XZYF1opi;
         "quilt-1.21.1" = _XZYF1opi;
         "quilt-1.21.2" = _XZYF1opi;
@@ -130,11 +146,14 @@ let
         "quilt-26.1.1" = _aHYpxFDj;
         "quilt-26.1.2" = _aHYpxFDj;
         "quilt-26.2" = _aHYpxFDj;
+        "quilt-26.3" = _WDLpxvW1;
         "pkg-v1.0.0" = _I7tbijav;
         "pkg-v1.0.0+mod" = _XZYF1opi;
         "pkg-v1.1.0" = _cGzSAqcz;
         "pkg-v1.1.0+mod" = _aHYpxFDj;
-        "default" = _aHYpxFDj;
+        "pkg-1.1.0" = _lMNqh69u;
+        "pkg-1.1.0+mod" = _WDLpxvW1;
+        "default" = _WDLpxvW1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "meteors";

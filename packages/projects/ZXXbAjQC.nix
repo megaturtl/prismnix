@@ -231,6 +231,11 @@ let
             "file" = "survivorsdelight-3.3.2-neoforge.jar";
             "hash" = "sha512-cp50w25pf9sz94OW20F+52zmStjd6vlkBXFK22DaB1c7rbCLUic1Q3PxLCdyxMY5gq5n5tmQc1jenhVs2NiGtg==";
         };
+        _z9QMJ0eT = {
+            "id" = "z9QMJ0eT";
+            "file" = "survivorsdelight-3.3.4-neoforge.jar";
+            "hash" = "sha512-QXSTb4bW90HyUbhG45uFox/gAM4BQIunQJx9vngxQkBj+w+Ahgs4br6EUIGC1Cv3cT9xvIfT7D/LicH5t7gVag==";
+        };
     in {
         "GF6AK9Al" = _GF6AK9Al;
         "KG7OQBgB" = _KG7OQBgB;
@@ -278,9 +283,10 @@ let
         "GCHzePTP" = _GCHzePTP;
         "71wJjYHE" = _71wJjYHE;
         "bihGfIPT" = _bihGfIPT;
+        "z9QMJ0eT" = _z9QMJ0eT;
         "forge-1.20.1" = _71wJjYHE;
         "forge-1.21.1" = _GCHzePTP;
-        "neoforge-1.21.1" = _bihGfIPT;
+        "neoforge-1.21.1" = _z9QMJ0eT;
         "neoforge-1.21" = _jWkBjwjS;
         "pkg-1.4.0" = _GF6AK9Al;
         "pkg-1.4.1" = _KG7OQBgB;
@@ -328,7 +334,8 @@ let
         "pkg-3.3.1-neoforge" = _GCHzePTP;
         "pkg-3.3.2" = _71wJjYHE;
         "pkg-3.3.2-neoforge" = _bihGfIPT;
-        "default" = _bihGfIPT;
+        "pkg-3.3.4-neoforge" = _z9QMJ0eT;
+        "default" = _z9QMJ0eT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "survivors-delight";

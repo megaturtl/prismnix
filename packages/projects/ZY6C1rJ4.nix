@@ -261,6 +261,56 @@ let
             "file" = "toolpouch-1.1.8+26.1.2-fabric.jar";
             "hash" = "sha512-ulusFetlqFpQiSbrReuLr7mrhiik+D0TzCzH+8GCmP01un+tSl9GpAMNlT3zcIsWMQwQ7/smCZeWOmspQOgr8Q==";
         };
+        _49EkOAhL = {
+            "id" = "49EkOAhL";
+            "file" = "toolpouch-neoforge-1.1.9+26.1.2.jar";
+            "hash" = "sha512-i2QYp0DqYH4Jgiz3fsLvG5WYIj+uWNfJYIXJ1EL6pjN1QZVVhkYALrQerlfQlR/0qsKVmnOTu49+L9X+rlwR0A==";
+        };
+        _ELJN1s6x = {
+            "id" = "ELJN1s6x";
+            "file" = "toolpouch-fabric-1.1.9+26.3.jar";
+            "hash" = "sha512-GQFUC0bBq4PlAtfmxwIdSikPP/LbY/Uw8JxNCAnnA0DZ5LB/s/uW7V0J/x0cpZmiGlVBLnw+SpVqrdObi5MnIQ==";
+        };
+        _rWxm0RZT = {
+            "id" = "rWxm0RZT";
+            "file" = "toolpouch-neoforge-1.1.9+26.2.jar";
+            "hash" = "sha512-XOw4o+GuYejXM5HUF9sa5DSOul1ex1jU9BGQcIVuKo4QO/+FlxmJvuf6oCHILkKtxUPY5sALQPCNlGqz8dFFqQ==";
+        };
+        _QPyyvElP = {
+            "id" = "QPyyvElP";
+            "file" = "toolpouch-fabric-1.1.9+26.2.jar";
+            "hash" = "sha512-yeglrwozMx/XMCmrMVR1ArMF68IawC548wrOvLHbGEl5PcU8RVdYHmGiLrsao6I0Y92buO7x2U/uNXLDg9ssdQ==";
+        };
+        _eq0myoBf = {
+            "id" = "eq0myoBf";
+            "file" = "toolpouch-fabric-1.1.9+26.1.2.jar";
+            "hash" = "sha512-Xma1OSMuN1F9h+bhKmZxqbOIVrIvyvbqQEuqZ159TgFqfXux0z4DJRy8TQRT4A5pF0ZLDqX7A+1am8XPPMy5aQ==";
+        };
+        _jJa4bP17 = {
+            "id" = "jJa4bP17";
+            "file" = "toolpouch-neoforge-1.1.10+26.2.jar";
+            "hash" = "sha512-du9Mpi20Av6LwsoDCsNet8mklmxR8ZKtxZ1HWcUHiS0IFNNhpbEOQY5SnjtQ238+hgN2Zrph+N5w0Nk2pDhxqA==";
+        };
+        _Rc4ibweg = {
+            "id" = "Rc4ibweg";
+            "file" = "toolpouch-neoforge-1.1.10+26.1.2.jar";
+            "hash" = "sha512-U/WKeUP08oEWFyIAqmBqGpdHjJE9KNrNPp6yavw59Z0X6q1cGW+iOeTdXFFNZyfloIBEOnbWVgArCPANUS32+A==";
+        };
+        _2k7c1t3e = {
+            "id" = "2k7c1t3e";
+            "file" = "toolpouch-fabric-1.1.10+26.1.2.jar";
+            "hash" = "sha512-HzT9t6eBEjadRGbET4f2A9/YY009NqznrX4oo8r5T0SUFlZsIq+pXKcff9Ig6uKRjzt/j2lhs/plKypF9v4u0A==";
+        };
+        _X8f6PGFY = {
+            "id" = "X8f6PGFY";
+            "file" = "toolpouch-fabric-1.1.10+26.2.jar";
+            "hash" = "sha512-pg2X+fWbHseocREjQpiLNwACuFznj7/JhXE+IWanSQ9UO5ak1EdgMKW9RX1IXUpBUo3W7x4RxGxRJM7HMVUQsw==";
+        };
+        _6Z3zMyN8 = {
+            "id" = "6Z3zMyN8";
+            "file" = "toolpouch-fabric-1.1.10+26.3.jar";
+            "hash" = "sha512-tChMMcZJtUimNrzBKY7SuMaVws8Ljv1af78eqE/RgMyYg7B0zch8qNBEQOXStpsrp7YJt6zl+Hb+vDb2snu35A==";
+        };
     in {
         "2kb5vFPv" = _2kb5vFPv;
         "fW0DDihP" = _fW0DDihP;
@@ -314,15 +364,27 @@ let
         "aM22Q71q" = _aM22Q71q;
         "ziAJtdE8" = _ziAJtdE8;
         "jDJleN0I" = _jDJleN0I;
+        "49EkOAhL" = _49EkOAhL;
+        "ELJN1s6x" = _ELJN1s6x;
+        "rWxm0RZT" = _rWxm0RZT;
+        "QPyyvElP" = _QPyyvElP;
+        "eq0myoBf" = _eq0myoBf;
+        "jJa4bP17" = _jJa4bP17;
+        "Rc4ibweg" = _Rc4ibweg;
+        "2k7c1t3e" = _2k7c1t3e;
+        "X8f6PGFY" = _X8f6PGFY;
+        "6Z3zMyN8" = _6Z3zMyN8;
         "fabric-1.21.11" = _f6naDBnP;
-        "fabric-26.1" = _QzJEoMhe;
-        "fabric-26.1.1" = _QzJEoMhe;
-        "fabric-26.1.2" = _jDJleN0I;
-        "fabric-26.2" = _ziAJtdE8;
+        "fabric-26.1" = _2k7c1t3e;
+        "fabric-26.1.1" = _2k7c1t3e;
+        "fabric-26.1.2" = _2k7c1t3e;
+        "fabric-26.2" = _X8f6PGFY;
+        "fabric-26.3" = _6Z3zMyN8;
         "neoforge-1.21.11" = _9XNMX5ie;
-        "neoforge-26.1" = _5FjHIPTx;
-        "neoforge-26.1.1" = _5FjHIPTx;
-        "neoforge-26.1.2" = _aM22Q71q;
+        "neoforge-26.1" = _Rc4ibweg;
+        "neoforge-26.1.1" = _Rc4ibweg;
+        "neoforge-26.1.2" = _Rc4ibweg;
+        "neoforge-26.2" = _jJa4bP17;
         "pkg-21.11.0+1.21.11-fabric" = _2kb5vFPv;
         "pkg-21.11.0+1.21.11-neoforge" = _fW0DDihP;
         "pkg-21.11.1+1.21.11-neoforge" = _TtgHI8dn;
@@ -375,7 +437,13 @@ let
         "pkg-1.1.8+26.1.2-neoforge" = _aM22Q71q;
         "pkg-1.1.8+26.2-fabric" = _ziAJtdE8;
         "pkg-1.1.8+26.1.2-fabric" = _jDJleN0I;
-        "default" = _jDJleN0I;
+        "pkg-1.1.9+26.1.2" = _eq0myoBf;
+        "pkg-1.1.9+26.3" = _ELJN1s6x;
+        "pkg-1.1.9+26.2" = _QPyyvElP;
+        "pkg-1.1.10+26.2" = _X8f6PGFY;
+        "pkg-1.1.10+26.1.2" = _2k7c1t3e;
+        "pkg-1.1.10+26.3" = _6Z3zMyN8;
+        "default" = _6Z3zMyN8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tool-pouch";

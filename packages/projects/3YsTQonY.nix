@@ -191,6 +191,11 @@ let
             "file" = "explosionbreaksnoblock-26.1-0.3.2.jar";
             "hash" = "sha512-9mWMdWOr1/UtP8F2qCVhcreDRm02pwzk4N7Z/C9e3F0RixlP6uIyHcFiWIjfgl/srrKxrLAEvPTAZ7na7S4mrA==";
         };
+        _BEMVs7Ei = {
+            "id" = "BEMVs7Ei";
+            "file" = "explosionbreaksnoblock-26.3-0.3.2.jar";
+            "hash" = "sha512-k5rggXiEQG/7F/r7bAxmqZe2SEtIFvQUBevQGbY90ueBJVJHSVwRWHw0kJdXZWxIdMm+DT5xacF744NLPakt7A==";
+        };
     in {
         "eInpGyRE" = _eInpGyRE;
         "5oMHq5p2" = _5oMHq5p2;
@@ -230,6 +235,7 @@ let
         "TFuxebwO" = _TFuxebwO;
         "NpuCQnMK" = _NpuCQnMK;
         "Vmq1ypHg" = _Vmq1ypHg;
+        "BEMVs7Ei" = _BEMVs7Ei;
         "fabric-1.20" = _NsEYe4YY;
         "fabric-1.20.1" = _9WKUJagW;
         "fabric-1.20.4" = _5oMHq5p2;
@@ -247,7 +253,11 @@ let
         "fabric-1.21.10" = _xHNDsRFt;
         "fabric-1.21.11" = _Q2c3lVvr;
         "fabric-26.1-snapshot-1" = _NpuCQnMK;
-        "fabric-26.1" = _Vmq1ypHg;
+        "fabric-26.1" = _BEMVs7Ei;
+        "fabric-26.1.1" = _BEMVs7Ei;
+        "fabric-26.1.2" = _BEMVs7Ei;
+        "fabric-26.2" = _BEMVs7Ei;
+        "fabric-26.3" = _BEMVs7Ei;
         "neoforge-1.21" = _LBid9fPB;
         "neoforge-1.21.1" = _CjVuW2Eq;
         "neoforge-1.21.3" = _iZqQcQ5m;
@@ -261,7 +271,11 @@ let
         "neoforge-1.21.10" = _k16SelQU;
         "neoforge-1.21.11" = _TFuxebwO;
         "neoforge-26.1-snapshot-1" = _NpuCQnMK;
-        "neoforge-26.1" = _Vmq1ypHg;
+        "neoforge-26.1" = _BEMVs7Ei;
+        "neoforge-26.1.1" = _BEMVs7Ei;
+        "neoforge-26.1.2" = _BEMVs7Ei;
+        "neoforge-26.2" = _BEMVs7Ei;
+        "neoforge-26.3" = _BEMVs7Ei;
         "forge-1.20.1" = _jWE1CeYs;
         "pkg-0.1.0" = _7amLWM2Z;
         "pkg-0.2" = _l8AaglxZ;
@@ -270,10 +284,10 @@ let
         "pkg-0.2.3" = _9Hs1I4NH;
         "pkg-0.3" = _ovggSK2y;
         "pkg-0.3.1" = _bHDwrQoQ;
-        "pkg-0.3.2" = _Vmq1ypHg;
+        "pkg-0.3.2" = _BEMVs7Ei;
         "pkg-0.3.2+1.21.11-fabric" = _Q2c3lVvr;
         "pkg-0.3.2+1.21.11-neoforge" = _TFuxebwO;
-        "default" = _Vmq1ypHg;
+        "default" = _BEMVs7Ei;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "explosion-breaks-no-block";

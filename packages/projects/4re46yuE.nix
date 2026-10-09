@@ -136,6 +136,16 @@ let
             "file" = "cookieblock-fabric-26.2-1.4.jar";
             "hash" = "sha512-Frl1A9m0QFQyYyBG4nA6QUTJrugL2vJlNSo+eDaCt5PFlmpVgmJjecDAYwXQ8R/ItqZNJq96uudFQg+EZHCxQg==";
         };
+        _qGizzAnU = {
+            "id" = "qGizzAnU";
+            "file" = "cookieblock-neoforge-26.3-1.4.jar";
+            "hash" = "sha512-DXp4oF9xM05JSdDUqJAhs9y71q8d4lA7IkJAA/s3Tkulm7VD70m3ShmkR93kntyjSOecTcR2eZ9dljxduuTVJA==";
+        };
+        _oBNcn9mm = {
+            "id" = "oBNcn9mm";
+            "file" = "cookieblock-fabric-26.3-1.4.jar";
+            "hash" = "sha512-0tpHMZ8Pk4lYtip4U4qoOoBrofwyvq9hJx+SRkftzEyEVxia+W+pa1lWmBVfdTCAB/dH8mRrPZNsdzGRH/U7Sw==";
+        };
     in {
         "uunIuUZp" = _uunIuUZp;
         "eM8RTypF" = _eM8RTypF;
@@ -164,6 +174,8 @@ let
         "OwotyrJV" = _OwotyrJV;
         "fnsM36B5" = _fnsM36B5;
         "NsPoqRbV" = _NsPoqRbV;
+        "qGizzAnU" = _qGizzAnU;
+        "oBNcn9mm" = _oBNcn9mm;
         "forge-1.14.4" = _uunIuUZp;
         "forge-1.15.2" = _eM8RTypF;
         "forge-1.16.2" = _Uw6diD9h;
@@ -200,14 +212,17 @@ let
         "neoforge-26.1.1" = _zVz4vVbr;
         "neoforge-26.1.2" = _zVz4vVbr;
         "neoforge-26.2" = _fnsM36B5;
+        "neoforge-26.3" = _qGizzAnU;
         "fabric-26.1" = _OwotyrJV;
         "fabric-26.1.1" = _OwotyrJV;
         "fabric-26.1.2" = _OwotyrJV;
         "fabric-26.2" = _NsPoqRbV;
+        "fabric-26.3" = _oBNcn9mm;
         "quilt-26.1" = _OwotyrJV;
         "quilt-26.1.1" = _OwotyrJV;
         "quilt-26.1.2" = _OwotyrJV;
         "quilt-26.2" = _NsPoqRbV;
+        "quilt-26.3" = _oBNcn9mm;
         "pkg-v1.2" = _wnc5u2nS;
         "pkg-v1.2.1" = _15J9Ay8F;
         "pkg-v1.2.2" = _3rDuuPh7;
@@ -215,8 +230,8 @@ let
         "pkg-v1.3" = _hFMekC8p;
         "pkg-v1.6" = _AIHihpzx;
         "pkg-v1.3.1" = _QSdqK1hT;
-        "pkg-v1.4" = _NsPoqRbV;
-        "default" = _NsPoqRbV;
+        "pkg-v1.4" = _oBNcn9mm;
+        "default" = _oBNcn9mm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cookie-block";

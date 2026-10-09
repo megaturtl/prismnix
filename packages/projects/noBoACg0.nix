@@ -81,6 +81,16 @@ let
             "file" = "fallingwind-neoforge-1.0.3+26.2.jar";
             "hash" = "sha512-ODLCUOkEc1ciX0RkVaIVg9W2SUOsOS9fE126eEHds1oW3oL2RjTkR43oor4Bkp1TlnAnsrqz6wJDEhiUDxiYHw==";
         };
+        _t5AkQgxf = {
+            "id" = "t5AkQgxf";
+            "file" = "fallingwind-fabric-1.0.3+26.3.jar";
+            "hash" = "sha512-f9TOv90Uoo8IyjgSXSKRn+sHfHXHWAwBwpjjjWALkMHpeEmzy+2PrxKa6Y1lX7G3KdRATIgzVjb1V208Gq52gA==";
+        };
+        _T3amNQv0 = {
+            "id" = "T3amNQv0";
+            "file" = "fallingwind-neoforge-1.0.3+26.3.jar";
+            "hash" = "sha512-lmweVTQAOAipSfFwlzQpg+1lxy+LHrxAbCjz/4aTwfA9jRwxNXqIlEv14Gt6WVwXRynUO5f/iNgZN2rJwHHrdw==";
+        };
     in {
         "RNqEe9Hv" = _RNqEe9Hv;
         "zLI9sSnd" = _zLI9sSnd;
@@ -98,18 +108,22 @@ let
         "j1fPcYlM" = _j1fPcYlM;
         "dQYEILZq" = _dQYEILZq;
         "BWlwGLjD" = _BWlwGLjD;
+        "t5AkQgxf" = _t5AkQgxf;
+        "T3amNQv0" = _T3amNQv0;
         "fabric-1.21.11" = _xWyfV0sL;
         "fabric-26.1" = _5o3cWFDs;
         "fabric-26.1.1" = _svK6Tu7G;
         "fabric-26.1.2" = _39QHisq1;
         "fabric-1.21.1" = _JaBsG0hy;
         "fabric-26.2" = _xkeyOjFQ;
+        "fabric-26.3" = _t5AkQgxf;
         "neoforge-1.21.1" = _nOuxdJ7z;
         "neoforge-1.21.11" = _WVbIuZBx;
         "neoforge-26.1.1" = _mtSoXfPJ;
         "neoforge-26.1.2" = _j1fPcYlM;
         "neoforge-26.1" = _dQYEILZq;
         "neoforge-26.2" = _BWlwGLjD;
+        "neoforge-26.3" = _T3amNQv0;
         "pkg-1.0.0" = _RNqEe9Hv;
         "pkg-1.0.1" = _zLI9sSnd;
         "pkg-1.0.2" = _wIRD2ZZ0;
@@ -120,7 +134,8 @@ let
         "pkg-1.0.3+26.1.2" = _j1fPcYlM;
         "pkg-1.0.3+26.1" = _dQYEILZq;
         "pkg-1.0.3+26.2" = _BWlwGLjD;
-        "default" = _BWlwGLjD;
+        "pkg-1.0.3+26.3" = _T3amNQv0;
+        "default" = _T3amNQv0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "falling-wind";

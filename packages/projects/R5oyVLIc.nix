@@ -181,6 +181,16 @@ let
             "file" = "music-discs-1.1.jar";
             "hash" = "sha512-ApwIjsoAR5U9Vk9qrZVaA/oV6x7hiv2UMMvZrcQ845y0gIwidlROR/l1RCM1USmH4vE7RKRrFgcZPmNyGcifiw==";
         };
+        _A3ocs9tT = {
+            "id" = "A3ocs9tT";
+            "file" = "music_disc-26.3.zip";
+            "hash" = "sha512-fYoYNk1cpY3GGoFz9xaMEPtjGrrKzEpQC4J7eKH326CPXjQkP5pBRNV19c3RQUejoUy494xwZMGfJtrQZ4OR4w==";
+        };
+        _isfaYzNz = {
+            "id" = "isfaYzNz";
+            "file" = "music-discs-1.0.jar";
+            "hash" = "sha512-ZxHSe681/G5xBUMiLPb8km44FFu0lBKMejgr4qkm4XVQ+iSAdx1iLMYTifqoID2MKzpkh+QaMgxLcoCVj4TXvA==";
+        };
     in {
         "ffwxcwgl" = _ffwxcwgl;
         "FGhScImg" = _FGhScImg;
@@ -218,6 +228,8 @@ let
         "q3QjUXfN" = _q3QjUXfN;
         "t19XBX1e" = _t19XBX1e;
         "Md4O9SUA" = _Md4O9SUA;
+        "A3ocs9tT" = _A3ocs9tT;
+        "isfaYzNz" = _isfaYzNz;
         "datapack-1.21" = _ffwxcwgl;
         "datapack-1.21.1" = _ffwxcwgl;
         "datapack-1.21.2" = _FGhScImg;
@@ -265,6 +277,7 @@ let
         "datapack-26.3-snapshot-10" = _t19XBX1e;
         "datapack-26.3-pre-1" = _t19XBX1e;
         "datapack-26.3-pre-2" = _t19XBX1e;
+        "datapack-26.3" = _A3ocs9tT;
         "fabric-1.21" = _lNXthUZa;
         "fabric-1.21.1" = _lNXthUZa;
         "fabric-1.21.2" = _aiZZT1El;
@@ -312,6 +325,7 @@ let
         "fabric-26.3-snapshot-10" = _Md4O9SUA;
         "fabric-26.3-pre-1" = _Md4O9SUA;
         "fabric-26.3-pre-2" = _Md4O9SUA;
+        "fabric-26.3" = _isfaYzNz;
         "forge-1.21" = _lNXthUZa;
         "forge-1.21.1" = _lNXthUZa;
         "forge-1.21.2" = _aiZZT1El;
@@ -359,6 +373,7 @@ let
         "forge-26.3-snapshot-10" = _Md4O9SUA;
         "forge-26.3-pre-1" = _Md4O9SUA;
         "forge-26.3-pre-2" = _Md4O9SUA;
+        "forge-26.3" = _isfaYzNz;
         "neoforge-1.21" = _lNXthUZa;
         "neoforge-1.21.1" = _lNXthUZa;
         "neoforge-1.21.2" = _aiZZT1El;
@@ -406,6 +421,7 @@ let
         "neoforge-26.3-snapshot-10" = _Md4O9SUA;
         "neoforge-26.3-pre-1" = _Md4O9SUA;
         "neoforge-26.3-pre-2" = _Md4O9SUA;
+        "neoforge-26.3" = _isfaYzNz;
         "quilt-1.21" = _lNXthUZa;
         "quilt-1.21.1" = _lNXthUZa;
         "quilt-1.21.2" = _aiZZT1El;
@@ -453,11 +469,12 @@ let
         "quilt-26.3-snapshot-10" = _Md4O9SUA;
         "quilt-26.3-pre-1" = _Md4O9SUA;
         "quilt-26.3-pre-2" = _Md4O9SUA;
-        "pkg-1.0" = _Z8OxYa3I;
-        "pkg-1.0+mod" = _q3QjUXfN;
+        "quilt-26.3" = _isfaYzNz;
+        "pkg-1.0" = _A3ocs9tT;
+        "pkg-1.0+mod" = _isfaYzNz;
         "pkg-1.1" = _t19XBX1e;
         "pkg-1.1+mod" = _Md4O9SUA;
-        "default" = _Md4O9SUA;
+        "default" = _isfaYzNz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "music-discs";

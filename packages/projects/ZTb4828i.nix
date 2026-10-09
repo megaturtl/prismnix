@@ -51,6 +51,11 @@ let
             "file" = "Ax-Mace[26.2].zip";
             "hash" = "sha512-O0Ns/1C3BfSDBxSew8AyhVC5BFna2V/1XEeGi97el5+dYZdF6jZZuhdhH9l6IvQ5YXX1tHOG6+jWKGXhZ6HyRg==";
         };
+        _oIam6WUl = {
+            "id" = "oIam6WUl";
+            "file" = "Ax-Mace[26.3].zip";
+            "hash" = "sha512-qH04RzQy6Kyj82IMP39LMZlD/RLB/rSt6TN2KZLvQaa7ZpqiE6qnMLXDeCIPP6iimTkdcdf/npu0XWITJaaNyg==";
+        };
     in {
         "LQFLfX0l" = _LQFLfX0l;
         "2K0iv0Pg" = _2K0iv0Pg;
@@ -62,21 +67,22 @@ let
         "b2VmDhUq" = _b2VmDhUq;
         "HP99BqiZ" = _HP99BqiZ;
         "8Uf1d0L5" = _8Uf1d0L5;
-        "minecraft-1.21" = _8Uf1d0L5;
-        "minecraft-1.21.1" = _8Uf1d0L5;
-        "minecraft-1.21.2" = _8Uf1d0L5;
-        "minecraft-1.21.3" = _8Uf1d0L5;
-        "minecraft-1.21.4" = _8Uf1d0L5;
-        "minecraft-1.21.5" = _8Uf1d0L5;
-        "minecraft-1.21.6" = _8Uf1d0L5;
-        "minecraft-1.21.7" = _8Uf1d0L5;
-        "minecraft-1.21.8" = _8Uf1d0L5;
-        "minecraft-1.21.9" = _8Uf1d0L5;
-        "minecraft-1.21.10" = _8Uf1d0L5;
-        "minecraft-1.21.11" = _8Uf1d0L5;
-        "minecraft-26.1" = _8Uf1d0L5;
-        "minecraft-26.1.1" = _8Uf1d0L5;
-        "minecraft-26.1.2" = _8Uf1d0L5;
+        "oIam6WUl" = _oIam6WUl;
+        "minecraft-1.21" = _oIam6WUl;
+        "minecraft-1.21.1" = _oIam6WUl;
+        "minecraft-1.21.2" = _oIam6WUl;
+        "minecraft-1.21.3" = _oIam6WUl;
+        "minecraft-1.21.4" = _oIam6WUl;
+        "minecraft-1.21.5" = _oIam6WUl;
+        "minecraft-1.21.6" = _oIam6WUl;
+        "minecraft-1.21.7" = _oIam6WUl;
+        "minecraft-1.21.8" = _oIam6WUl;
+        "minecraft-1.21.9" = _oIam6WUl;
+        "minecraft-1.21.10" = _oIam6WUl;
+        "minecraft-1.21.11" = _oIam6WUl;
+        "minecraft-26.1" = _oIam6WUl;
+        "minecraft-26.1.1" = _oIam6WUl;
+        "minecraft-26.1.2" = _oIam6WUl;
         "minecraft-23w31a" = _8Uf1d0L5;
         "minecraft-23w32a" = _8Uf1d0L5;
         "minecraft-23w33a" = _8Uf1d0L5;
@@ -122,7 +128,8 @@ let
         "minecraft-24w44a" = _8Uf1d0L5;
         "minecraft-24w45a" = _8Uf1d0L5;
         "minecraft-24w46a" = _8Uf1d0L5;
-        "minecraft-26.2" = _8Uf1d0L5;
+        "minecraft-26.2" = _oIam6WUl;
+        "minecraft-26.3" = _oIam6WUl;
         "pkg-1" = _LQFLfX0l;
         "pkg-2" = _2K0iv0Pg;
         "pkg-3" = _3kmPBNmw;
@@ -133,7 +140,8 @@ let
         "pkg-8" = _b2VmDhUq;
         "pkg-9" = _HP99BqiZ;
         "pkg-10" = _8Uf1d0L5;
-        "default" = _8Uf1d0L5;
+        "pkg-11" = _oIam6WUl;
+        "default" = _oIam6WUl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ax-mace";

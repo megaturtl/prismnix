@@ -116,6 +116,11 @@ let
             "file" = "instrumentus-1.21.1-2.8.9.jar";
             "hash" = "sha512-xGmp/Jr8+JlNE5eBzBhZ+BHlIt61i15qYCpQIWNEi1DMCiAulhvygAur3sF+INcEr8IraM6leNNwX9G4tEXa1w==";
         };
+        _G8YLuEaW = {
+            "id" = "G8YLuEaW";
+            "file" = "instrumentus-1.21.4-2.8.9.jar";
+            "hash" = "sha512-oH9VfIJ5Aj+4SN9+hXcZSpiHqbJJS8xddQmX5GD31zAVgst851wDCyfrDvGQQ/lcuFTIKklpSa7f/7WkvXsRlA==";
+        };
     in {
         "ChiBsBmq" = _ChiBsBmq;
         "W8TzLTLK" = _W8TzLTLK;
@@ -140,9 +145,11 @@ let
         "1yv0VwOb" = _1yv0VwOb;
         "HG9DOVk3" = _HG9DOVk3;
         "JjcAQCwY" = _JjcAQCwY;
+        "G8YLuEaW" = _G8YLuEaW;
         "neoforge-1.20.6" = _ChiBsBmq;
         "neoforge-1.21" = _JjcAQCwY;
         "neoforge-1.21.1" = _JjcAQCwY;
+        "neoforge-1.21.4" = _G8YLuEaW;
         "forge-1.20.1" = _W8TzLTLK;
         "pkg-1.20.6-2.4.4" = _ChiBsBmq;
         "pkg-1.20.1-2.4.2" = _W8TzLTLK;
@@ -167,7 +174,8 @@ let
         "pkg-1.21.1-2.8.7.1" = _1yv0VwOb;
         "pkg-1.21.1-2.8.8" = _HG9DOVk3;
         "pkg-1.21.1-2.8.9" = _JjcAQCwY;
-        "default" = _JjcAQCwY;
+        "pkg-1.21.4-2.8.9" = _G8YLuEaW;
+        "default" = _G8YLuEaW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "instrumentus";

@@ -11,9 +11,15 @@ let
             "file" = "legacy-melodies-mc26.x-0.2.1.jar";
             "hash" = "sha512-bpTz2YZb/SGWRoMJu5755whuek2R4wroyitgM15leK4d+6IxtTRORw2+wlbqvIv7hKF9RSAYGGlz/JjmlYrurA==";
         };
+        _92pO22QS = {
+            "id" = "92pO22QS";
+            "file" = "legacy-melodies-mc26.3+0.2.1.jar";
+            "hash" = "sha512-vAkQ3guFS9cJT+lw8U8OB0ODBVhJ127KKWE65BeLhvOv2okpdqW5K4yN8UfI8fckqQc72ofBlLS3jXyIHqlVWw==";
+        };
     in {
         "Q4QXT62D" = _Q4QXT62D;
         "jDeQJgpi" = _jDeQJgpi;
+        "92pO22QS" = _92pO22QS;
         "fabric-1.21" = _Q4QXT62D;
         "fabric-1.21.1" = _Q4QXT62D;
         "fabric-1.21.2" = _Q4QXT62D;
@@ -30,8 +36,9 @@ let
         "fabric-26.1.1" = _jDeQJgpi;
         "fabric-26.1.2" = _jDeQJgpi;
         "fabric-26.2" = _jDeQJgpi;
-        "pkg-0.2.1" = _jDeQJgpi;
-        "default" = _jDeQJgpi;
+        "fabric-26.3" = _92pO22QS;
+        "pkg-0.2.1" = _92pO22QS;
+        "default" = _92pO22QS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "legacy-melodies";

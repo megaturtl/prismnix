@@ -1246,6 +1246,11 @@ let
             "file" = "simple_translate-26.2-neoforge-2.2.1.jar";
             "hash" = "sha512-rEbYh4l9vV9kvN9VQQlbyNJGvVL2G11wmjGGqtU73Orii8yyizOBsRL3MpUpbbYHgN0YojN8H9SPsfP6sL9E6g==";
         };
+        _mIEpSlGT = {
+            "id" = "mIEpSlGT";
+            "file" = "simple_translate-26.1.2-fabric-2.2.1.jar";
+            "hash" = "sha512-Mbp7VINVKvlOvpFcb3KYCl/Gty42TinLrhgK/MxEqEkNNgRq7j0WOb0Ebbocdw+OPsOlDGZ+uQsEQ4SpKTEdcA==";
+        };
     in {
         "vTihcku9" = _vTihcku9;
         "UQawarzy" = _UQawarzy;
@@ -1496,6 +1501,7 @@ let
         "iRC6w46C" = _iRC6w46C;
         "9VePUXYu" = _9VePUXYu;
         "81voMb1R" = _81voMb1R;
+        "mIEpSlGT" = _mIEpSlGT;
         "fabric-1.21.1" = _QjT9gCY9;
         "fabric-1.20.1" = _qhGXfUaq;
         "fabric-1.21.4" = _pkU2eIcW;
@@ -1520,7 +1526,7 @@ let
         "fabric-1.21.11" = _vfp5T1O3;
         "fabric-26.1" = _NgZaaSD3;
         "fabric-26.1.1" = _t8C5lnCo;
-        "fabric-26.1.2" = _FxAfURkp;
+        "fabric-26.1.2" = _mIEpSlGT;
         "fabric-26.2" = _8yrqm9mX;
         "fabric-1.12.2" = _uKwEeqTb;
         "fabric-1.16.5" = _YHg9DpXH;
@@ -1799,7 +1805,8 @@ let
         "pkg-2.2.1-neoforge-26.1.1" = _iRC6w46C;
         "pkg-2.2.1-neoforge-26.1.2" = _9VePUXYu;
         "pkg-2.2.1-neoforge-26.2" = _81voMb1R;
-        "default" = _81voMb1R;
+        "pkg-2.2.1-fabric-26.1.2" = _mIEpSlGT;
+        "default" = _mIEpSlGT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simpletranslation";

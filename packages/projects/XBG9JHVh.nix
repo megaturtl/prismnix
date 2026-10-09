@@ -61,6 +61,21 @@ let
             "file" = "Sophie's Enchants V2.1.0.zip";
             "hash" = "sha512-GlxCRvI8XyPdUreDPpj2YxtIxTAXyEfGT8zJvTMoVhP6yfsy00/FK2hKs9aqpagumtWsRRasAMIXHavIgwEqGA==";
         };
+        _L1uusfQk = {
+            "id" = "L1uusfQk";
+            "file" = "Sophie's Enchants B2.2.0.zip";
+            "hash" = "sha512-GFFfx3RsMmwAJmFE0w6WJ1EedADPGJzXae2N+n3tM/THJnPM1LYKHBBcOek6jdaLhxFAGhiuQ47hVaqt/q3XJQ==";
+        };
+        _FIgjSmQc = {
+            "id" = "FIgjSmQc";
+            "file" = "Sophie's Enchants 2.2.0 Beta 2.zip";
+            "hash" = "sha512-cGBWksGhqRbAle/SNxeNCvlFUXG5bu7cm4tx2SWLxEZ/QCFMgtcvN8iNKozJLKqjOenRLuFbi/MTiSCxLlU9uA==";
+        };
+        _MX6kKbGz = {
+            "id" = "MX6kKbGz";
+            "file" = "Sophie's Enchants V2.2.0.zip";
+            "hash" = "sha512-eDkucZcBTi+GEiW0LrasOVkWT2yAVQsSgFsaT4D4QIwVPYNc1G84e+ew/VcwwsFT9h1EJj2/HfEk/EhhydY/rQ==";
+        };
     in {
         "58aPgWCl" = _58aPgWCl;
         "QsVjoIL6" = _QsVjoIL6;
@@ -74,17 +89,21 @@ let
         "MGJKYFL9" = _MGJKYFL9;
         "dxLoMROG" = _dxLoMROG;
         "o7zygRqE" = _o7zygRqE;
+        "L1uusfQk" = _L1uusfQk;
+        "FIgjSmQc" = _FIgjSmQc;
+        "MX6kKbGz" = _MX6kKbGz;
         "minecraft-1.21.5" = _MGJKYFL9;
-        "minecraft-1.21.7" = _o7zygRqE;
-        "minecraft-1.21.8" = _o7zygRqE;
-        "minecraft-1.21.9" = _o7zygRqE;
-        "minecraft-1.21.10" = _o7zygRqE;
-        "minecraft-1.21.11" = _o7zygRqE;
+        "minecraft-1.21.7" = _FIgjSmQc;
+        "minecraft-1.21.8" = _FIgjSmQc;
+        "minecraft-1.21.9" = _FIgjSmQc;
+        "minecraft-1.21.10" = _FIgjSmQc;
+        "minecraft-1.21.11" = _FIgjSmQc;
         "minecraft-1.21.6" = _MGJKYFL9;
-        "minecraft-26.1" = _o7zygRqE;
-        "minecraft-26.1.1" = _o7zygRqE;
-        "minecraft-26.1.2" = _o7zygRqE;
-        "minecraft-26.2" = _o7zygRqE;
+        "minecraft-26.1" = _FIgjSmQc;
+        "minecraft-26.1.1" = _FIgjSmQc;
+        "minecraft-26.1.2" = _FIgjSmQc;
+        "minecraft-26.2" = _MX6kKbGz;
+        "minecraft-26.3" = _MX6kKbGz;
         "pkg-1.1" = _58aPgWCl;
         "pkg-1.2" = _QsVjoIL6;
         "pkg-1.3" = _Qtf9upsD;
@@ -97,7 +116,10 @@ let
         "pkg-2.0.1" = _MGJKYFL9;
         "pkg-2.0.2" = _dxLoMROG;
         "pkg-2.1.0" = _o7zygRqE;
-        "default" = _o7zygRqE;
+        "pkg-2.2.0b1" = _L1uusfQk;
+        "pkg-2.2.0b2" = _FIgjSmQc;
+        "pkg-2.2.0" = _MX6kKbGz;
+        "default" = _MX6kKbGz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sophies-enchants";

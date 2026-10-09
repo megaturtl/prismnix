@@ -76,6 +76,11 @@ let
             "file" = "Photon [3.1.2].zip";
             "hash" = "sha512-zLcuZDS/6HED/qvBVdJTb6OldgxlHuoo8xQQlGWT39XtLcWzB9D05d0EfcJ0STdUBzINalmAuKIKuqxD/lFDHQ==";
         };
+        _yhZ89ymj = {
+            "id" = "yhZ89ymj";
+            "file" = "Photon [3.1.3-DEV1] + 26.4 Development Cycle.zip";
+            "hash" = "sha512-ko6NeOHR/u6gkwA/W8quDGYAaT1sXgU5RLcfS/O7fz2qtOAK60+PQL+ib+ztwxCQUmNfXPdQ1eLDouUKOUqk4w==";
+        };
     in {
         "rpv7uuX1" = _rpv7uuX1;
         "etH2Bmmu" = _etH2Bmmu;
@@ -92,6 +97,7 @@ let
         "lxCodShD" = _lxCodShD;
         "acwYaW9U" = _acwYaW9U;
         "UbZFHtTn" = _UbZFHtTn;
+        "yhZ89ymj" = _yhZ89ymj;
         "minecraft-1.21.10" = _h63Dp91m;
         "minecraft-1.21.11" = _Ewo4ZOZD;
         "minecraft-1.6.1" = _etH2Bmmu;
@@ -249,6 +255,9 @@ let
         "minecraft-26.3-rc-2" = _acwYaW9U;
         "minecraft-26.3-rc-3" = _acwYaW9U;
         "minecraft-26.3" = _UbZFHtTn;
+        "minecraft-26.4-snapshot-1" = _yhZ89ymj;
+        "minecraft-26.4-snapshot-2" = _yhZ89ymj;
+        "minecraft-26.4-snapshot-3" = _yhZ89ymj;
         "pkg-Photon-1.0" = _rpv7uuX1;
         "pkg-Photon-2.0-Legacy" = _etH2Bmmu;
         "pkg-Photon-2.0-Legacy+" = _jSSp8J1F;
@@ -264,7 +273,8 @@ let
         "pkg-3.1.2-PREV1" = _lxCodShD;
         "pkg-3.1.2-PREV2" = _acwYaW9U;
         "pkg-3.1.2" = _UbZFHtTn;
-        "default" = _UbZFHtTn;
+        "pkg-3.1.3-DEV1" = _yhZ89ymj;
+        "default" = _yhZ89ymj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "photon-fullbright";

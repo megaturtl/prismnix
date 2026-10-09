@@ -131,6 +131,16 @@ let
             "file" = "autoharvest-neoforge-26.2-1.6.4.jar";
             "hash" = "sha512-k7+fgrnF7Fcp15CW7Iv6Y8f/6krBSQEzpxGQY+y2MjWLcGaf8KjNJkNdSBT9IdipCLsusqxjQ28z3jV51i56dw==";
         };
+        _bwvoktk9 = {
+            "id" = "bwvoktk9";
+            "file" = "autoharvest-fabric-26.3-1.6.5.jar";
+            "hash" = "sha512-MxjArXOtGzgdqEWAkA1WqjkKXdsxYzBIp1EMkV22E0UMovzTOW6Uqz5o3YwM/SCcRtPLedoZahCqtvwwp1FORg==";
+        };
+        _L5TmtDyx = {
+            "id" = "L5TmtDyx";
+            "file" = "autoharvest-neoforge-26.3-1.6.5.jar";
+            "hash" = "sha512-t0Hjvxz1CN4xnY33/+eZyTpF09FWE+dalrHSeoq9tjXf85uax1qwyyK6J4YTtmm9SuxMh7t7dGHfwpi3pOGRig==";
+        };
     in {
         "xaPwhnVs" = _xaPwhnVs;
         "VXVN8Iwf" = _VXVN8Iwf;
@@ -158,6 +168,8 @@ let
         "OW8PdFEl" = _OW8PdFEl;
         "eDSLWkPa" = _eDSLWkPa;
         "Ep8XXG0C" = _Ep8XXG0C;
+        "bwvoktk9" = _bwvoktk9;
+        "L5TmtDyx" = _L5TmtDyx;
         "fabric-1.20.4" = _xaPwhnVs;
         "fabric-1.21" = _EUzwZeEt;
         "fabric-1.21.1" = _z2lhtyCY;
@@ -172,7 +184,9 @@ let
         "fabric-26.1" = _aya9iK7w;
         "fabric-26.1.2" = _SsE9QbjC;
         "fabric-26.2" = _eDSLWkPa;
+        "fabric-26.3" = _bwvoktk9;
         "neoforge-26.2" = _Ep8XXG0C;
+        "neoforge-26.3" = _L5TmtDyx;
         "pkg-1.1" = _xaPwhnVs;
         "pkg-1.2" = _VXVN8Iwf;
         "pkg-1.3" = _VQnzWJ9t;
@@ -193,7 +207,8 @@ let
         "pkg-1.6.2" = _SsE9QbjC;
         "pkg-1.6.3" = _OW8PdFEl;
         "pkg-1.6.4" = _Ep8XXG0C;
-        "default" = _Ep8XXG0C;
+        "pkg-1.6.5" = _L5TmtDyx;
+        "default" = _L5TmtDyx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "autoharvest";

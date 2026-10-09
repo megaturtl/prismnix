@@ -36,6 +36,16 @@ let
             "file" = "g-tool-trims.jar";
             "hash" = "sha512-/5fTcES/jlmCc45if0wZ+hjMGSYXb+jhByOgnsU+lVdcuxW6X/qiHMci+kNaFh5EfMV40FMnhwOOiGX87C4O+g==";
         };
+        _6Jka7Me8 = {
+            "id" = "6Jka7Me8";
+            "file" = "goats_tool_trims.zip";
+            "hash" = "sha512-L0yVwBJ1yKwKbJK41Tr2F79HDprMQ6+bZlqlqpOndoJULYa7Xh21lCPdyyfNpA0IXrfKV0qMV7lbiuvzyLBaHw==";
+        };
+        _4MNmdk2k = {
+            "id" = "4MNmdk2k";
+            "file" = "goats_tool_trims.jar";
+            "hash" = "sha512-O/eXCQ9yF4TAA22qB7T++86OnAhsxL650T3+32KN4bWxG9CK2lX4/zz6HJQrcCsaDlfqXW84jmzNRtcI51hogQ==";
+        };
     in {
         "wSfQ9tzP" = _wSfQ9tzP;
         "FvglvESZ" = _FvglvESZ;
@@ -44,6 +54,8 @@ let
         "BiCX6kKR" = _BiCX6kKR;
         "BtbFbX7r" = _BtbFbX7r;
         "YTt2jQv2" = _YTt2jQv2;
+        "6Jka7Me8" = _6Jka7Me8;
+        "4MNmdk2k" = _4MNmdk2k;
         "datapack-1.21.5" = _BtbFbX7r;
         "datapack-1.21.6" = _BtbFbX7r;
         "datapack-1.21.7" = _BtbFbX7r;
@@ -60,6 +72,7 @@ let
         "datapack-26.1.1" = _BtbFbX7r;
         "datapack-26.1.2" = _BtbFbX7r;
         "datapack-26.2" = _BtbFbX7r;
+        "datapack-26.3" = _6Jka7Me8;
         "fabric-1.21.5" = _YTt2jQv2;
         "fabric-1.21.6" = _YTt2jQv2;
         "fabric-1.21.7" = _YTt2jQv2;
@@ -71,6 +84,7 @@ let
         "fabric-26.1.1" = _YTt2jQv2;
         "fabric-26.1.2" = _YTt2jQv2;
         "fabric-26.2" = _YTt2jQv2;
+        "fabric-26.3" = _4MNmdk2k;
         "forge-1.21.5" = _YTt2jQv2;
         "forge-1.21.6" = _YTt2jQv2;
         "forge-1.21.7" = _YTt2jQv2;
@@ -87,7 +101,8 @@ let
         "pkg-2.0.0" = _lrxehOP4;
         "pkg-2.0.1" = _BiCX6kKR;
         "pkg-2.0.2" = _YTt2jQv2;
-        "default" = _YTt2jQv2;
+        "pkg-2.0.3" = _4MNmdk2k;
+        "default" = _4MNmdk2k;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "goats-tool-trims";

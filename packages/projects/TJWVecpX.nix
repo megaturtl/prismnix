@@ -552,6 +552,8 @@ let
         "minecraft-26.3-rc-2" = _YRmEc4dd;
         "minecraft-26.3-rc-3" = _YRmEc4dd;
         "minecraft-26.3" = _YRmEc4dd;
+        "minecraft-26.4-snapshot-1" = _YRmEc4dd;
+        "minecraft-26.4-snapshot-2" = _YRmEc4dd;
         "pkg-v1.3" = _hSW6nisx;
         "pkg-v1.4" = _cgkAtQJn;
         "pkg-v1.5" = _HahfrOLV;

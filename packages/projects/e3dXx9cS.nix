@@ -61,6 +61,11 @@ let
             "file" = "LoomRemastered-2.1.0-1.26.2.jar";
             "hash" = "sha512-Vyom/IgckZBDzm6HsgQJ7T5MnYgrxkB50n/56FUyeN+MAQ84acMvtTnwbkBE9aPLACrj6WyU4aVW4AlbNbvZWQ==";
         };
+        _IxEOTRjD = {
+            "id" = "IxEOTRjD";
+            "file" = "LoomRemastered-2.1.1-1.26.3.jar";
+            "hash" = "sha512-qy+3Kkdq+3+/b9Yl2BveYgfsgBhYdf7IuugDkwGhKPLqywVbqsbdHASok0ojO4ukswcMRYB1msaMUsnDyCtkEg==";
+        };
     in {
         "yTPa4Urx" = _yTPa4Urx;
         "B5Bq0PgF" = _B5Bq0PgF;
@@ -74,6 +79,7 @@ let
         "OAjYlTyc" = _OAjYlTyc;
         "pzqNhtP3" = _pzqNhtP3;
         "MHTFbUwy" = _MHTFbUwy;
+        "IxEOTRjD" = _IxEOTRjD;
         "fabric-1.20" = _MX2VUl01;
         "fabric-1.20.1" = _MX2VUl01;
         "fabric-1.20.2" = _QTQEChPS;
@@ -97,6 +103,7 @@ let
         "fabric-26.1.1" = _pzqNhtP3;
         "fabric-26.1.2" = _pzqNhtP3;
         "fabric-26.2" = _MHTFbUwy;
+        "fabric-26.3" = _IxEOTRjD;
         "pkg-1.0.0-1.20" = _yTPa4Urx;
         "pkg-1.0.0-1.20.2" = _B5Bq0PgF;
         "pkg-1.0.0-1.20.5" = _EBEAxPQY;
@@ -109,7 +116,8 @@ let
         "pkg-1.2.0-1.21.9" = _OAjYlTyc;
         "pkg-2.0.0-1.26.1" = _pzqNhtP3;
         "pkg-2.1.0-1.26.2" = _MHTFbUwy;
-        "default" = _MHTFbUwy;
+        "pkg-2.1.1-1.26.3" = _IxEOTRjD;
+        "default" = _IxEOTRjD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "loom-gui-remastered";

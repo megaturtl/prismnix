@@ -61,6 +61,21 @@ let
             "file" = "waystonespetsaddon-fabric-0.0.7-1.20.1.jar";
             "hash" = "sha512-MKb9kLJv2eQhD0gFVzzHMN1qj0Bp+ohR8XKsGvqcnKx1/NS2jSTYyfk4qVIqsBCj/rtvSxRc56joCTW1fApUSg==";
         };
+        _aWu5BNct = {
+            "id" = "aWu5BNct";
+            "file" = "waystonespetsaddon-forge-0.1.0-1.20.2.jar";
+            "hash" = "sha512-3YVaSR0CpL/q+Nt+tXoPC1qFGTvbFuadvuUryRaJqWwOdbJzA7L6t12mmN2FfdqE2r/B8tGvyJJnTKDHe+Qlag==";
+        };
+        _JJdrOo5z = {
+            "id" = "JJdrOo5z";
+            "file" = "waystonespetsaddon-neoforge-0.1.0-1.20.2.jar";
+            "hash" = "sha512-ut82OgYGiZAkofKOQVsn3eImWNlYFI+XLIft9qAGtwdK/1hbdgij/KdJQqLpJofdQfkVQAJ5mchuFm8tL0WHlg==";
+        };
+        _F0Ujt7UQ = {
+            "id" = "F0Ujt7UQ";
+            "file" = "waystonespetsaddon-fabric-0.1.0-1.20.2.jar";
+            "hash" = "sha512-KJNSSd1VbhWJNDWq+B3HoUtV1+bZe2RQBswiGTLAu5ifMgzm+7bbNYm9oaA1JZwjacxLvlb7+daGnszybPAB6g==";
+        };
     in {
         "C66hvTfy" = _C66hvTfy;
         "bo57GFZj" = _bo57GFZj;
@@ -74,23 +89,30 @@ let
         "D8vcLNjU" = _D8vcLNjU;
         "8KK2uFzS" = _8KK2uFzS;
         "UeI5I3ct" = _UeI5I3ct;
+        "aWu5BNct" = _aWu5BNct;
+        "JJdrOo5z" = _JJdrOo5z;
+        "F0Ujt7UQ" = _F0Ujt7UQ;
         "fabric-1.19.2" = _eENrgexk;
         "fabric-1.19.3" = _yUsVQ4ad;
         "fabric-1.19.4" = _LewMFxh6;
         "fabric-1.20" = _D8vcLNjU;
         "fabric-1.20.1" = _UeI5I3ct;
+        "fabric-1.20.2" = _F0Ujt7UQ;
         "forge-1.19.2" = _XHedLpPt;
         "forge-1.19.3" = _eve0ml1W;
         "forge-1.19.4" = _46nYiBx6;
         "forge-1.20" = _V0OkOFxG;
         "forge-1.20.1" = _8KK2uFzS;
+        "forge-1.20.2" = _aWu5BNct;
+        "neoforge-1.20.2" = _JJdrOo5z;
         "pkg-0.0.2" = _bo57GFZj;
         "pkg-0.0.3" = _XHedLpPt;
         "pkg-0.0.4" = _yUsVQ4ad;
         "pkg-0.0.5" = _46nYiBx6;
         "pkg-0.0.6" = _D8vcLNjU;
         "pkg-0.0.7" = _UeI5I3ct;
-        "default" = _UeI5I3ct;
+        "pkg-0.1.0" = _F0Ujt7UQ;
+        "default" = _F0Ujt7UQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "waystones-pets-addon";

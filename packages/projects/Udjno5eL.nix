@@ -136,6 +136,11 @@ let
             "file" = "ice_boat_nerf-1.3.1+MC26.1-26.2.x.jar";
             "hash" = "sha512-f0dWbW8DtHO3Jlmauew1H1kt2g954i48YaNNm45JfN+shHIpyIv/yFUhzRQRklbTj3Rmnnv0qB2NdcQX8a49rg==";
         };
+        _zB6rx4O7 = {
+            "id" = "zB6rx4O7";
+            "file" = "ice_boat_nerf-1.3.2+MC26.1-26.3.x.jar";
+            "hash" = "sha512-TsVP2kThIw6Pz7HNcrL4tliBTsosYeAWjwhs1qydeTW1Lpk5X0h36RxVhP0Q12MvPxehh8pWpkSD3GZO7jFh9Q==";
+        };
     in {
         "1SSAV6v7" = _1SSAV6v7;
         "YN6Hwu8s" = _YN6Hwu8s;
@@ -164,6 +169,7 @@ let
         "pil43Syq" = _pil43Syq;
         "48v28EU2" = _48v28EU2;
         "wOM360Ot" = _wOM360Ot;
+        "zB6rx4O7" = _zB6rx4O7;
         "fabric-1.17" = _YN6Hwu8s;
         "fabric-1.17.1" = _YN6Hwu8s;
         "fabric-1.18" = _4VgCKuIa;
@@ -193,10 +199,11 @@ let
         "fabric-1.21.9" = _pil43Syq;
         "fabric-1.21.10" = _pil43Syq;
         "fabric-1.21.11" = _pil43Syq;
-        "fabric-26.1" = _48v28EU2;
-        "fabric-26.1.1" = _48v28EU2;
-        "fabric-26.1.2" = _48v28EU2;
-        "fabric-26.2" = _wOM360Ot;
+        "fabric-26.1" = _zB6rx4O7;
+        "fabric-26.1.1" = _zB6rx4O7;
+        "fabric-26.1.2" = _zB6rx4O7;
+        "fabric-26.2" = _zB6rx4O7;
+        "fabric-26.3" = _zB6rx4O7;
         "quilt-1.18" = _4VgCKuIa;
         "quilt-1.18.1" = _4VgCKuIa;
         "quilt-1.18.2" = _4VgCKuIa;
@@ -224,10 +231,11 @@ let
         "quilt-1.21.9" = _pil43Syq;
         "quilt-1.21.10" = _pil43Syq;
         "quilt-1.21.11" = _pil43Syq;
-        "quilt-26.1" = _48v28EU2;
-        "quilt-26.1.1" = _48v28EU2;
-        "quilt-26.1.2" = _48v28EU2;
-        "quilt-26.2" = _wOM360Ot;
+        "quilt-26.1" = _zB6rx4O7;
+        "quilt-26.1.1" = _zB6rx4O7;
+        "quilt-26.1.2" = _zB6rx4O7;
+        "quilt-26.2" = _zB6rx4O7;
+        "quilt-26.3" = _zB6rx4O7;
         "pkg-1.0.6+MC1.17" = _1SSAV6v7;
         "pkg-1.0.7+MC1.17-1.17.1" = _YN6Hwu8s;
         "pkg-1.0.8+MC1.18" = _cZfYCZNF;
@@ -255,7 +263,8 @@ let
         "pkg-1.2.7+MC1.21.2-1.21.11" = _pil43Syq;
         "pkg-1.3.0+MC26.1-26.1.x" = _48v28EU2;
         "pkg-1.3.1+MC26.1-26.2.x" = _wOM360Ot;
-        "default" = _wOM360Ot;
+        "pkg-1.3.2+MC26.1-26.3.x" = _zB6rx4O7;
+        "default" = _zB6rx4O7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ice-boat-nerf";

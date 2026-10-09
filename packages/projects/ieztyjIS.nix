@@ -56,6 +56,26 @@ let
             "file" = "ManyIdeasHalloween-1.21.1-2.0.1.jar";
             "hash" = "sha512-LVBGTPbSeA3CiC3pJNDmT1q/Kbcwm1JRe2QX4EU5YmkTAKGF040egmH1+iUtT3dLAlKZdEDyuXgN/P9xLeuf5w==";
         };
+        _FRPt8Yl3 = {
+            "id" = "FRPt8Yl3";
+            "file" = "ManyIdeasHalloween-1.21.1-2.0.2.jar";
+            "hash" = "sha512-y+C1vOcFtACLW++LYTVCipaFkcNUs9//RvLJpA0aqR7Dso9A0ktxS7/9pYeyr21tnjN8axKnnHMPJlyCrKimtQ==";
+        };
+        _xWvGM6C5 = {
+            "id" = "xWvGM6C5";
+            "file" = "ManyIdeasHalloween-1.21.2-2.0.2.jar";
+            "hash" = "sha512-C7ffJX0Zd/pfmBFWB7tANjG3m0IfoXzgs6P01l8BO8RLhPKUPgDxFVPgNn7ouCZQJSEG1PN9I/nZXMDDqdqgGQ==";
+        };
+        _mlvbQPAa = {
+            "id" = "mlvbQPAa";
+            "file" = "ManyIdeasHalloween-26.1-2.0.2.jar";
+            "hash" = "sha512-/iqkG00tj6a/uoA2s48TyaZF8lS6L1A4y/YnOHrHd2a+f6zhMMHdHtBiR9jOaYbXpInt8hUSzNOtXh6n4hROgw==";
+        };
+        _lYbHJxph = {
+            "id" = "lYbHJxph";
+            "file" = "ManyIdeasHalloween-26.3-2.0.2.jar";
+            "hash" = "sha512-YA5UJir8bTlUCdgF6MhdwhChG7ik2zGzTS5Rmua/G7FHbd7S1gtPIMEomd7LDMixK4E3d6yd9Vq/7mg1VDC1VA==";
+        };
     in {
         "EhMJzCTG" = _EhMJzCTG;
         "tLW8x9m0" = _tLW8x9m0;
@@ -68,6 +88,10 @@ let
         "wva4ccnZ" = _wva4ccnZ;
         "6KErRCNZ" = _6KErRCNZ;
         "yjjeYtZz" = _yjjeYtZz;
+        "FRPt8Yl3" = _FRPt8Yl3;
+        "xWvGM6C5" = _xWvGM6C5;
+        "mlvbQPAa" = _mlvbQPAa;
+        "lYbHJxph" = _lYbHJxph;
         "forge-1.18.2" = _EhMJzCTG;
         "forge-1.19.4" = _tLW8x9m0;
         "forge-1.20" = _wPR95V92;
@@ -77,16 +101,22 @@ let
         "forge-1.20.6" = _V96g784E;
         "forge-1.21" = _BidtaRnb;
         "forge-1.21.1" = _wva4ccnZ;
-        "neoforge-1.21.1" = _yjjeYtZz;
-        "neoforge-1.21.2" = _yjjeYtZz;
-        "neoforge-1.21.3" = _yjjeYtZz;
-        "neoforge-1.21.4" = _yjjeYtZz;
-        "neoforge-1.21.5" = _yjjeYtZz;
-        "neoforge-1.21.6" = _yjjeYtZz;
-        "neoforge-1.21.7" = _yjjeYtZz;
-        "neoforge-1.21.8" = _yjjeYtZz;
-        "neoforge-1.21.9" = _yjjeYtZz;
-        "neoforge-1.21.10" = _yjjeYtZz;
+        "neoforge-1.21.1" = _FRPt8Yl3;
+        "neoforge-1.21.2" = _xWvGM6C5;
+        "neoforge-1.21.3" = _xWvGM6C5;
+        "neoforge-1.21.4" = _xWvGM6C5;
+        "neoforge-1.21.5" = _xWvGM6C5;
+        "neoforge-1.21.6" = _xWvGM6C5;
+        "neoforge-1.21.7" = _xWvGM6C5;
+        "neoforge-1.21.8" = _xWvGM6C5;
+        "neoforge-1.21.9" = _xWvGM6C5;
+        "neoforge-1.21.10" = _xWvGM6C5;
+        "neoforge-1.21.11" = _xWvGM6C5;
+        "neoforge-26.1" = _mlvbQPAa;
+        "neoforge-26.1.1" = _mlvbQPAa;
+        "neoforge-26.1.2" = _mlvbQPAa;
+        "neoforge-26.2" = _mlvbQPAa;
+        "neoforge-26.3" = _lYbHJxph;
         "pkg-1.18.2-1.0.0" = _EhMJzCTG;
         "pkg-1.19.4-1.0.0" = _tLW8x9m0;
         "pkg-1.20-1.0.0" = _wPR95V92;
@@ -98,7 +128,11 @@ let
         "pkg-1.21.1-1.0.0" = _wva4ccnZ;
         "pkg-1.21.1-2.0.0" = _6KErRCNZ;
         "pkg-1.21.1-2.0.1" = _yjjeYtZz;
-        "default" = _yjjeYtZz;
+        "pkg-1.21.1-2.0.2" = _FRPt8Yl3;
+        "pkg-1.21.2-2.0.2" = _xWvGM6C5;
+        "pkg-26.1-2.0.2" = _mlvbQPAa;
+        "pkg-26.3-2.0.2" = _lYbHJxph;
+        "default" = _lYbHJxph;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "manyideas-halloween";

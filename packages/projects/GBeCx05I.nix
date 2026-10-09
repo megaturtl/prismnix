@@ -3406,6 +3406,11 @@ let
             "file" = "tweakermore-v3.33.2-mc26.1.2.jar";
             "hash" = "sha512-nXEes2CcKpErWQnlZ8DbXlS3DD8COt5vmNleg2/5Twi5F7CzzrxTQ/LJCJ2wDjB7nbXRLGN50SKM1Ea2gG4+nQ==";
         };
+        _ZcRpvVXe = {
+            "id" = "ZcRpvVXe";
+            "file" = "tweakermore-v3.33.3-beta.1-mc26.3.jar";
+            "hash" = "sha512-uAkyl1Y3GmbVMAf0nMkjNtIaHVJkOCTHVpkZZbCReNxM7Ad45JHlWN54BlYfgA3ih0qKbsDBJHKmfNZVsc0Baw==";
+        };
     in {
         "llyxs0Mq" = _llyxs0Mq;
         "mSQ6TVi4" = _mSQ6TVi4;
@@ -4088,6 +4093,7 @@ let
         "1dFjEymk" = _1dFjEymk;
         "KIBGE0Vv" = _KIBGE0Vv;
         "EqyGLwkd" = _EqyGLwkd;
+        "ZcRpvVXe" = _ZcRpvVXe;
         "fabric-1.17.1" = _A1jevI2O;
         "fabric-1.15.2" = _PPGnidVc;
         "fabric-1.16.4" = _NSVJKdjh;
@@ -4121,6 +4127,7 @@ let
         "fabric-26.1.1" = _EqyGLwkd;
         "fabric-26.1.2" = _EqyGLwkd;
         "fabric-26.2" = _KIBGE0Vv;
+        "fabric-26.3" = _ZcRpvVXe;
         "pkg-mc1.17.1-v2.2.1" = _llyxs0Mq;
         "pkg-mc1.15.2-v2.4.0" = _mSQ6TVi4;
         "pkg-mc1.16.5-v2.4.0" = _l7dT4pSY;
@@ -4802,7 +4809,8 @@ let
         "pkg-v3.33.2-mc1.21.11" = _1dFjEymk;
         "pkg-v3.33.2-mc26.2" = _KIBGE0Vv;
         "pkg-v3.33.2-mc26.1.2" = _EqyGLwkd;
-        "default" = _EqyGLwkd;
+        "pkg-v3.33.3-beta.1-mc26.3" = _ZcRpvVXe;
+        "default" = _ZcRpvVXe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tweakermore";

@@ -26,12 +26,18 @@ let
             "file" = "No-Miss-26.2.jar";
             "hash" = "sha512-IP473ZkwMUIqTO7led8uufJI7ftlEzSP5LdQJ+ka2cLZZOnNxGxxkS67mtbPeAeJaAI1SZTq5nOGS3wP1glXXg==";
         };
+        _Ev4aJmVc = {
+            "id" = "Ev4aJmVc";
+            "file" = "No-Miss-26.3.jar";
+            "hash" = "sha512-sMZdbX6QCqv9yYBP3FKgHvZo5zq8kkiUQYuNossUyAAqseD2tx7n1pMiSNAGuB7j9ZCAjXXdgzJvokzjKD8d+w==";
+        };
     in {
         "2N5913kh" = _2N5913kh;
         "bloBuYEj" = _bloBuYEj;
         "N3WJEFOx" = _N3WJEFOx;
         "fr3jMBY4" = _fr3jMBY4;
         "LZWGEh4I" = _LZWGEh4I;
+        "Ev4aJmVc" = _Ev4aJmVc;
         "fabric-1.21" = _2N5913kh;
         "fabric-1.21.1" = _2N5913kh;
         "fabric-1.21.2" = _2N5913kh;
@@ -55,9 +61,10 @@ let
         "fabric-26.1.1" = _fr3jMBY4;
         "fabric-26.1.2" = _fr3jMBY4;
         "fabric-26.2" = _LZWGEh4I;
+        "fabric-26.3" = _Ev4aJmVc;
         "pkg-1.0" = _bloBuYEj;
-        "pkg-1.1" = _LZWGEh4I;
-        "default" = _LZWGEh4I;
+        "pkg-1.1" = _Ev4aJmVc;
+        "default" = _Ev4aJmVc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "no-miss";

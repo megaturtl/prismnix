@@ -6,11 +6,18 @@ let
             "file" = "IronsArms-1.20.1-2.0.1.jar";
             "hash" = "sha512-rO7HU4hqO44qOM7XIjsXZ5aJMIxrUxyJlDRkFHTR7hy49KRj7gj3POWuVISF7xlFi4XJIlyPYYAbuG32AlYp2g==";
         };
+        _vCgTgKQC = {
+            "id" = "vCgTgKQC";
+            "file" = "IronsArms-1.20.1-3.0.6.jar";
+            "hash" = "sha512-WDkbv8Drxnz/ZE4bTum/fWaCeHnjpeB23LpbMTnQqvYX6VNTErtGPgAM6VROA8cewwBXcqRBqn6qcWD1kDcFpA==";
+        };
     in {
         "MQe7K67a" = _MQe7K67a;
-        "forge-1.20.1" = _MQe7K67a;
+        "vCgTgKQC" = _vCgTgKQC;
+        "forge-1.20.1" = _vCgTgKQC;
         "pkg-2.0.1" = _MQe7K67a;
-        "default" = _MQe7K67a;
+        "pkg-3.0.6" = _vCgTgKQC;
+        "default" = _vCgTgKQC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ironsarms";

@@ -121,6 +121,11 @@ let
             "file" = "structureexpansion-102.0.0.jar";
             "hash" = "sha512-7PC5dSW0f0LY5+zAOKzqCIypdoRrZ7Psn0nWUzL7UxqxztSmFPbdF7cne60OioHTpMPuFCIId0liUR6BvBNqyw==";
         };
+        _W46wvkEs = {
+            "id" = "W46wvkEs";
+            "file" = "structureexpansion-26.3.0.1.jar";
+            "hash" = "sha512-plqe1T3mI3i5g99BamRIY8kHZgGl4FDZpYlNkRDKIlziYMZ6c8571bPjbbzn7+/CYCkO0708id1eBxwH+hRr8g==";
+        };
     in {
         "SmODCpTW" = _SmODCpTW;
         "fpN5MPZ0" = _fpN5MPZ0;
@@ -146,6 +151,7 @@ let
         "n6du4tlO" = _n6du4tlO;
         "lUOmVWnH" = _lUOmVWnH;
         "eOkOjxVt" = _eOkOjxVt;
+        "W46wvkEs" = _W46wvkEs;
         "forge-1.16.5" = _LzMTZBQU;
         "forge-1.18.2" = _tFZ10H4j;
         "forge-1.19.1" = _7mTPgqjm;
@@ -165,6 +171,7 @@ let
         "neoforge-1.21.1" = _n6du4tlO;
         "neoforge-26.1" = _lUOmVWnH;
         "neoforge-26.2" = _eOkOjxVt;
+        "neoforge-26.3" = _W46wvkEs;
         "pkg-1.16.5-1.0.7" = _SmODCpTW;
         "pkg-1802.1.1-build.3" = _fpN5MPZ0;
         "pkg-1901.1.1-build.5" = _7mTPgqjm;
@@ -188,7 +195,8 @@ let
         "pkg-88.0.1" = _n6du4tlO;
         "pkg-99.0.0" = _lUOmVWnH;
         "pkg-102.0.0" = _eOkOjxVt;
-        "default" = _eOkOjxVt;
+        "pkg-26.3.0.1" = _W46wvkEs;
+        "default" = _W46wvkEs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "structure-expansion";

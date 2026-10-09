@@ -401,6 +401,21 @@ let
             "file" = "ctd-core-neo-26.2-2.9.6.jar";
             "hash" = "sha512-2HAdhbfjxjtr4lra+zQTEPDtPAGgeF8u/vvH5hKcyONAVEr7DHunVOoftEvri1KioIruvoDrdFp4bXW2qOg/OQ==";
         };
+        _5tdBeabs = {
+            "id" = "5tdBeabs";
+            "file" = "CTD-Core-26.3-2.9.6.jar";
+            "hash" = "sha512-oR8IDX1I9erJz4Xm38FJy19yD8f7IfBXSZQAbTvdg8EguOQikKgn0Z95K8O6TxQy6z8ade9T36P3j8epb12Llw==";
+        };
+        _ZS5xulVo = {
+            "id" = "ZS5xulVo";
+            "file" = "CTD-Core-26.3-2.9.6b.jar";
+            "hash" = "sha512-Upezx5MfpgjE0cyO52Zss+fyWwkjH4+mesBLR/8p/wyYixtxPLouOdmzNtEbnzy820o0WVs26HNKQ6V8iniPzQ==";
+        };
+        _sRIM7wHd = {
+            "id" = "sRIM7wHd";
+            "file" = "ctd-core-neo-26.2-2.9.6b.jar";
+            "hash" = "sha512-OSZFdsOHyu9K2axaisejR0y2WbhhqeZdFFklCOHBCBQo3ZkxSTvo+JZzXZ4KnpokGZuQzT1hb2aqNXTm/xg0AA==";
+        };
     in {
         "3oLGpgmw" = _3oLGpgmw;
         "Ueaw8w73" = _Ueaw8w73;
@@ -482,6 +497,9 @@ let
         "4V2WEbyF" = _4V2WEbyF;
         "q0Tk1QBn" = _q0Tk1QBn;
         "hxCwPThi" = _hxCwPThi;
+        "5tdBeabs" = _5tdBeabs;
+        "ZS5xulVo" = _ZS5xulVo;
+        "sRIM7wHd" = _sRIM7wHd;
         "forge-1.18.2" = _3oLGpgmw;
         "forge-1.19.3" = _Ueaw8w73;
         "forge-1.17.1" = _OqEdUjZy;
@@ -541,7 +559,8 @@ let
         "neoforge-26.1" = _4WgkX3FC;
         "neoforge-26.1.1" = _4V2WEbyF;
         "neoforge-26.1.2" = _q0Tk1QBn;
-        "neoforge-26.2" = _hxCwPThi;
+        "neoforge-26.2" = _sRIM7wHd;
+        "neoforge-26.3" = _ZS5xulVo;
         "pkg-2.1.3" = _3oLGpgmw;
         "pkg-2.2.2b" = _Ueaw8w73;
         "pkg-2.1.1b" = _LjPi6c7h;
@@ -594,7 +613,10 @@ let
         "pkg-26.1.1-2.9.6" = _4V2WEbyF;
         "pkg-26.1.2-2.9.6" = _q0Tk1QBn;
         "pkg-26.2-2.9.6" = _hxCwPThi;
-        "default" = _hxCwPThi;
+        "pkg-26.3-2.9.6" = _5tdBeabs;
+        "pkg-26.3-2.9.6b" = _ZS5xulVo;
+        "pkg-26.2-2.9.6b" = _sRIM7wHd;
+        "default" = _sRIM7wHd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ctd-core";

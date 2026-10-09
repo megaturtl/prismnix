@@ -26,25 +26,33 @@ let
             "file" = "IrisExtension-fabric-1.0.2-mc1.21.1.jar";
             "hash" = "sha512-EncbtHsIGuDozLmIQixZMxouqIqAa/I/aUBcgIVUd9m6ZMZNzLqGGTEfowAdyVLS9HRfIXlQ/XBTSEEdcRIKbg==";
         };
+        _lutVew4b = {
+            "id" = "lutVew4b";
+            "file" = "IrisExtension-fabric-1.0.3-mc26.3.jar";
+            "hash" = "sha512-ma+StUFf0hmPirbVGE8/lQqVBQ5x11JJjpJ9/gaoy6cszEyCdm4X+b2tVi+9SCe8S6BvOzPUA/JaLwZuAjcfWQ==";
+        };
     in {
         "vfmRdBZX" = _vfmRdBZX;
         "9iIe1X6U" = _9iIe1X6U;
         "Mn1qbGY6" = _Mn1qbGY6;
         "fxABOMOX" = _fxABOMOX;
         "SvQyLW8H" = _SvQyLW8H;
+        "lutVew4b" = _lutVew4b;
         "fabric-1.21.11" = _9iIe1X6U;
         "fabric-26.1" = _Mn1qbGY6;
         "fabric-26.1.1" = _Mn1qbGY6;
         "fabric-26.1.2" = _Mn1qbGY6;
         "fabric-26.2" = _fxABOMOX;
         "fabric-1.21.1" = _SvQyLW8H;
+        "fabric-26.3" = _lutVew4b;
         "neoforge-1.21.1" = _SvQyLW8H;
         "pkg-1.0.1+1.21.11" = _vfmRdBZX;
         "pkg-1.0.2+1.21.11" = _9iIe1X6U;
         "pkg-1.0.2+26.1" = _Mn1qbGY6;
         "pkg-1.0.2+26.2" = _fxABOMOX;
         "pkg-1.0.2+1.21.1-fabric-neoforge" = _SvQyLW8H;
-        "default" = _SvQyLW8H;
+        "pkg-1.0.3+26.3" = _lutVew4b;
+        "default" = _lutVew4b;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "iris-extension";

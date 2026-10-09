@@ -91,6 +91,21 @@ let
             "file" = "bettervanillaf3-2.0.2+26.2.jar";
             "hash" = "sha512-o7daryDV//PdeAZfbEOyvXh/4UmjyuPnuM3aT+hUGNWH7xyqvGtIa5eX9HQGPFhQwVdJ0O2uwIznoahH+80Pbw==";
         };
+        _bGqVVgRR = {
+            "id" = "bGqVVgRR";
+            "file" = "bettervanillaf3-2.0.3+1.21.10.jar";
+            "hash" = "sha512-bNYJlyLwAKDKsvtfMNAVui8v1SoU4JApyN+hQLyTHTWE6wKnVjtHJTL321pYx/JyOUhjXdGTCunipOY5SIyppw==";
+        };
+        _USG6RJzw = {
+            "id" = "USG6RJzw";
+            "file" = "bettervanillaf3-2.0.3+1.21.11.jar";
+            "hash" = "sha512-WgSrmw6rUI8VELY6m5I6XjOK+aLyOXM8STeYHHl1PzRgfFy2to+g9CJ+XYT1VhsJV33BUYpS7UoX2/SAI/D17A==";
+        };
+        _ngmXMaeG = {
+            "id" = "ngmXMaeG";
+            "file" = "bettervanillaf3-2.0.3+26.1.2.jar";
+            "hash" = "sha512-ZAycl68B+qvb8/FZgIIJS9LmUe5wzHx9mviL+N+qBaFaTKmUybRT6C2Uku5yuiYP1ClgK2GZ6KfcmCd3MYrvVw==";
+        };
     in {
         "WIEymWC7" = _WIEymWC7;
         "A3rqj0w2" = _A3rqj0w2;
@@ -110,12 +125,15 @@ let
         "LEtqvNpZ" = _LEtqvNpZ;
         "rLa6k8sA" = _rLa6k8sA;
         "zW1fd6a5" = _zW1fd6a5;
-        "fabric-1.21.11" = _LEtqvNpZ;
-        "fabric-1.21.9" = _IIHk6okF;
-        "fabric-1.21.10" = _IIHk6okF;
-        "fabric-26.1" = _rLa6k8sA;
-        "fabric-26.1.1" = _rLa6k8sA;
-        "fabric-26.1.2" = _rLa6k8sA;
+        "bGqVVgRR" = _bGqVVgRR;
+        "USG6RJzw" = _USG6RJzw;
+        "ngmXMaeG" = _ngmXMaeG;
+        "fabric-1.21.11" = _USG6RJzw;
+        "fabric-1.21.9" = _bGqVVgRR;
+        "fabric-1.21.10" = _bGqVVgRR;
+        "fabric-26.1" = _ngmXMaeG;
+        "fabric-26.1.1" = _ngmXMaeG;
+        "fabric-26.1.2" = _ngmXMaeG;
         "fabric-26.2" = _zW1fd6a5;
         "pkg-1.0.0-mc1.21.11" = _WIEymWC7;
         "pkg-1.0.0-mc1.21.9" = _A3rqj0w2;
@@ -126,7 +144,8 @@ let
         "pkg-2.0.0" = _xcAdiKoh;
         "pkg-2.0.1" = _8G6LVptM;
         "pkg-2.0.2" = _zW1fd6a5;
-        "default" = _zW1fd6a5;
+        "pkg-2.0.3" = _ngmXMaeG;
+        "default" = _ngmXMaeG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bettervanillaf3";

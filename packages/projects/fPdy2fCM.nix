@@ -151,6 +151,16 @@ let
             "file" = "baubley-heart-canisters-26.2-1.8.0.jar";
             "hash" = "sha512-/vZb6y0WQJAH0z178HjzG4TmjPGpaPgyVBPESNH+b8y/0zwdHP32QcY4+YjB+Kke8isW2qEGHPQk9wFwHjkBYA==";
         };
+        _C8wXuovY = {
+            "id" = "C8wXuovY";
+            "file" = "baubley-heart-canisters-1.21.1-1.4.2.jar";
+            "hash" = "sha512-Hdv0YwyfbdMk/R5bzhZ/h7EF7MYOMWG0a7y8XuLSCXe69uKybdIhwutL2kiNZX7zmDpGiAHumLHx4XcXFxPHsA==";
+        };
+        _Pmzqg7Jk = {
+            "id" = "Pmzqg7Jk";
+            "file" = "baubley-heart-canisters-26.3-1.9.0.jar";
+            "hash" = "sha512-oeXuo2oaDaMTS2hiuqndy0mfziNjXX07oABr03Kr/QjL0FY3IppgruhgXF8o80jrtjjsvql73PLEpFTN5vPw2A==";
+        };
     in {
         "RE8sebWp" = _RE8sebWp;
         "WMoNweFE" = _WMoNweFE;
@@ -182,6 +192,8 @@ let
         "h2Ip8yE1" = _h2Ip8yE1;
         "IUFCVcX3" = _IUFCVcX3;
         "4Wb169yJ" = _4Wb169yJ;
+        "C8wXuovY" = _C8wXuovY;
+        "Pmzqg7Jk" = _Pmzqg7Jk;
         "forge-1.19.2" = _DUmuom0I;
         "forge-1.20" = _mlJu40bw;
         "forge-1.20.1" = _DHWGsQDA;
@@ -191,7 +203,7 @@ let
         "forge-1.17.1" = _MSTKXcGw;
         "forge-1.18.2" = _edkAdYTq;
         "forge-1.19.3" = _TPVD4tWP;
-        "neoforge-1.21.1" = _IUFCVcX3;
+        "neoforge-1.21.1" = _C8wXuovY;
         "neoforge-1.20.1" = _DHWGsQDA;
         "neoforge-1.21.4" = _uKbJdMUr;
         "neoforge-1.21.5" = _oTRubSda;
@@ -200,6 +212,7 @@ let
         "neoforge-26.1.1" = _h2Ip8yE1;
         "neoforge-26.1.2" = _h2Ip8yE1;
         "neoforge-26.2" = _4Wb169yJ;
+        "neoforge-26.3" = _Pmzqg7Jk;
         "pkg-1.19.2-2.0.0" = _RE8sebWp;
         "pkg-1.20.1-1.0.2" = _WMoNweFE;
         "pkg-1.19.2-2.1.0" = _zcgLCGJK;
@@ -230,7 +243,9 @@ let
         "pkg-26.1.2-1.7.3" = _h2Ip8yE1;
         "pkg-1.21.1-1.4.1" = _IUFCVcX3;
         "pkg-26.2-1.8.0" = _4Wb169yJ;
-        "default" = _4Wb169yJ;
+        "pkg-1.21.1-1.4.2" = _C8wXuovY;
+        "pkg-26.3-1.9.0" = _Pmzqg7Jk;
+        "default" = _Pmzqg7Jk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "baubley-heart-canisters";

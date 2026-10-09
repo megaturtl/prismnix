@@ -56,6 +56,11 @@ let
             "file" = "mab-1.0.0.jar";
             "hash" = "sha512-abk+zJo0apnyCmQlNOOIMsU0UTOV9wFYRnlAt/KZOMIs7sHn2D3aEz1S2UwXz1ybw/JZL1+XehD9ZgaZkSnC9A==";
         };
+        _pagGhgnX = {
+            "id" = "pagGhgnX";
+            "file" = "mab-1.0.0.jar";
+            "hash" = "sha512-jjkhXakdHX7Ni1rDLNpDBuDZhZBVr3E1NmZvMAbTMq3IYkfTXywsg2kbb0HpHHuqyYeMLdwj3Q1faECHvraz6Q==";
+        };
     in {
         "1ddIC852" = _1ddIC852;
         "GSLf3Xih" = _GSLf3Xih;
@@ -68,10 +73,12 @@ let
         "k12i8XxW" = _k12i8XxW;
         "fgoSRhnm" = _fgoSRhnm;
         "dYePI5a9" = _dYePI5a9;
+        "pagGhgnX" = _pagGhgnX;
         "datapack-1.21" = _GSLf3Xih;
         "datapack-1.21.5" = _NqCorKXO;
         "fabric-1.21.1" = _TJo2inz4;
         "fabric-26.1.2" = _dYePI5a9;
+        "fabric-26.2" = _pagGhgnX;
         "pkg-1" = _1ddIC852;
         "pkg-1.01" = _GSLf3Xih;
         "pkg-1.1" = _eJQH3hqj;
@@ -83,7 +90,8 @@ let
         "pkg-4.01" = _k12i8XxW;
         "pkg-4.02" = _fgoSRhnm;
         "pkg-4.03" = _dYePI5a9;
-        "default" = _dYePI5a9;
+        "pkg-4.1" = _pagGhgnX;
+        "default" = _pagGhgnX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mobarmy-battle";

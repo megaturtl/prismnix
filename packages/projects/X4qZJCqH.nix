@@ -31,6 +31,11 @@ let
             "file" = "canvascontraptions-0.2.0.jar";
             "hash" = "sha512-VqPsD2AAUgeYNSPr2z6USLTjUQvmIHtQz1ynKoOw+422RD9ZmKh1eQHfi7vXCQGKSeJE6Lp2hGbXQ4Utl5xfTQ==";
         };
+        _QABMcgxY = {
+            "id" = "QABMcgxY";
+            "file" = "canvascontraptions-0.2.1.jar";
+            "hash" = "sha512-Lr48qozJwiGSL9jZuovrIYEzXhvG/N1bd+xh/8yC+XB9xAwOQHMye51xt+srg8aprK1ghLsy4H+OD8+DZmODPA==";
+        };
     in {
         "IAwPZNWA" = _IAwPZNWA;
         "ZVBX7BBN" = _ZVBX7BBN;
@@ -38,15 +43,17 @@ let
         "jGOEmujg" = _jGOEmujg;
         "ULjOoKt2" = _ULjOoKt2;
         "GVUFSt91" = _GVUFSt91;
+        "QABMcgxY" = _QABMcgxY;
         "forge-1.20.1" = _jGOEmujg;
-        "neoforge-1.21.1" = _GVUFSt91;
+        "neoforge-1.21.1" = _QABMcgxY;
         "pkg-1.20.1-0.1.0" = _IAwPZNWA;
         "pkg-1.20.1-0.1.1" = _ZVBX7BBN;
         "pkg-1.21.1-0.1.1" = _NSKLBJeG;
         "pkg-1.20.1-0.1.2" = _jGOEmujg;
         "pkg-1.21.1-0.1.2" = _ULjOoKt2;
         "pkg-1.21.1-0.2.0" = _GVUFSt91;
-        "default" = _GVUFSt91;
+        "pkg-1.21.1-0.2.1" = _QABMcgxY;
+        "default" = _QABMcgxY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-canvas-contraption";

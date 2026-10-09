@@ -21,19 +21,27 @@ let
             "file" = "invisplayer-see-1.2.1.jar";
             "hash" = "sha512-CiIV+BAS9KZfiMp00tgkp9r8mJsuNkKv1e7Kg8Yd430GaWhHy+fkQNgFUZevhrmfv+ErtknHcUGaaK1oNfmMzg==";
         };
+        _brLe96Hl = {
+            "id" = "brLe96Hl";
+            "file" = "invisplayer-see-1.3.0.jar";
+            "hash" = "sha512-wBcgbsBeA/pvnEboMNfTuXf+iG9As5jEKjJHIZ3eefEqAFqw2SPZAR4NGmnrTvXOUhuYFTX+9tSFXegiKF/CrA==";
+        };
     in {
         "ETPc8RvY" = _ETPc8RvY;
         "QBboiENH" = _QBboiENH;
         "7ltUGy7B" = _7ltUGy7B;
         "VHDF0GnP" = _VHDF0GnP;
+        "brLe96Hl" = _brLe96Hl;
         "fabric-1.21.11" = _ETPc8RvY;
         "fabric-26.1.2" = _7ltUGy7B;
         "fabric-26.2" = _VHDF0GnP;
+        "fabric-26.3" = _brLe96Hl;
         "pkg-1.0.0" = _ETPc8RvY;
         "pkg-1.1.0" = _QBboiENH;
         "pkg-1.2.0" = _7ltUGy7B;
         "pkg-1.2.1" = _VHDF0GnP;
-        "default" = _VHDF0GnP;
+        "pkg-1.3.0" = _brLe96Hl;
+        "default" = _brLe96Hl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "i-can-see-you!";

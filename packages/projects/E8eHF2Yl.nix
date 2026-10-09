@@ -36,6 +36,11 @@ let
             "file" = "tracks_plus-1.0.6b6.jar";
             "hash" = "sha512-M4MhVD2nnfAanTF+MniT9aa4xBsHRCu9xh05FsMii9pLGDGaVc4Kl8ov7DYjUuGg6pPn5d4BhoseLmIVCu14cw==";
         };
+        _qUDRhHla = {
+            "id" = "qUDRhHla";
+            "file" = "tracks_plus-1.0.6b7.jar";
+            "hash" = "sha512-slCiWnjen87q/Y0myF0bkZSNuQPqOeWN9q+2Ik5gJo9Z1CpAo0hc+qcFwvUB0Pc7bqolkFRXoGQ6SHOxKCTbIA==";
+        };
     in {
         "5ehOLbMg" = _5ehOLbMg;
         "yxdueJmo" = _yxdueJmo;
@@ -44,7 +49,8 @@ let
         "p1YNYmVE" = _p1YNYmVE;
         "aknIwLJT" = _aknIwLJT;
         "VjBtW3et" = _VjBtW3et;
-        "neoforge-1.21.1" = _VjBtW3et;
+        "qUDRhHla" = _qUDRhHla;
+        "neoforge-1.21.1" = _qUDRhHla;
         "pkg-1.0.0" = _5ehOLbMg;
         "pkg-1.0.3" = _yxdueJmo;
         "pkg-1.0.4" = _CGM0K9KX;
@@ -52,7 +58,8 @@ let
         "pkg-1.0.6b" = _p1YNYmVE;
         "pkg-1.0.6b2" = _aknIwLJT;
         "pkg-1.0.6b6" = _VjBtW3et;
-        "default" = _VjBtW3et;
+        "pkg-1.0.6b7" = _qUDRhHla;
+        "default" = _qUDRhHla;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-tracks+";

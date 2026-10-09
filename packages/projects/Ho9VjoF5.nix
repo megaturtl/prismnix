@@ -271,6 +271,71 @@ let
             "file" = "toastysmobs-2.5.2-neoforge-1.21.1.jar";
             "hash" = "sha512-5Qn7+OTGM51l1PdfRECh5QU2GxuyuZGRriNnvLN4xe71r7/7zTgq3Yz5KJcznjiVoZ5Xx3l4Ws1sK3aeEML71g==";
         };
+        _mGKOMFsx = {
+            "id" = "mGKOMFsx";
+            "file" = "toastysmobs-2.5.3-neoforge-1.21.1.jar";
+            "hash" = "sha512-Mt8eUuGkv76XusSxxNSp9LaTNGY3LCtO5kMZ1xlY4eZY//JyT7KzhYPaPFqGeMIaFvBXksvx8f50iGVjV2TS3w==";
+        };
+        _wjKRS9ME = {
+            "id" = "wjKRS9ME";
+            "file" = "toastysmobs-2.5.4-neoforge-1.21.1.jar";
+            "hash" = "sha512-d1DmLfTETUHTcU82Q0u5lBEgakSrq73zDeUJlA4xqhb8Z6BI90Edaai+/GuhPz3woyQpMqMYTBASVJNEjF+S1A==";
+        };
+        _rkxvo5W4 = {
+            "id" = "rkxvo5W4";
+            "file" = "toastysmobs-2.5.4-forge-1.20.1.jar";
+            "hash" = "sha512-4Oc4dR8/QZOobcpMG19KohH6f7Ks9XxpXYenDoa6zJUiwqsbjNhIsEmkfDF2+HtGvSxDoMPWSDmATKjww/qjPg==";
+        };
+        _yfXBaeEN = {
+            "id" = "yfXBaeEN";
+            "file" = "toastysmobs-2.5.4-neoforge-1.21.8.jar";
+            "hash" = "sha512-wxacCvv0cGvJV1WYLWZQzBtKp1FHFdLiOk2qnqY3+WXVgyBEbc0i87hwbjPaZ70ZlMqBFSXdPqkJwLwCuw8vJw==";
+        };
+        _Q0lF08cN = {
+            "id" = "Q0lF08cN";
+            "file" = "toastysmobs-2.5.4-neoforge-1.20.6.jar";
+            "hash" = "sha512-AHuCocoCtLCH+Yhl2sv9kl6ePpZ4KlaWgidOlV8ewXW+m/qXWehsF/kw+ODhFwTvNJHfqSzQ7OEwbpTA36LQeQ==";
+        };
+        _v7yMaF45 = {
+            "id" = "v7yMaF45";
+            "file" = "toastysmobs-2.5.4-neoforge-1.20.4.jar";
+            "hash" = "sha512-hdPchbGrfsCMUtDXfTCAFvZu6Qzd5ZAZ5oYktUQXkdxNlJnHrBt8l3SamPyxEreTZF5iCuctSp4N3IuYAdsOJA==";
+        };
+        _iCUmki6J = {
+            "id" = "iCUmki6J";
+            "file" = "toastysmobs-2.5.4-fabric-1.21.8.jar";
+            "hash" = "sha512-dMWMX2BcCc8+5ZTBNdqEGuB7wC/sBxIWhV9x+xMj9DY9gMV9z8YzvcikHvKeEOQYqlBArBllpv5Wh3cImYMcfQ==";
+        };
+        _QfIm6ki0 = {
+            "id" = "QfIm6ki0";
+            "file" = "toastysmobs-2.5.5-neoforge-1.21.1.jar";
+            "hash" = "sha512-SDc5YLpenBwppbPDEzoVhbfUFq51AF0j6KaAZO7I4BkSAGMMivKJD23k3hALaXzKKgecHJp9qJSCCdfLsglrrQ==";
+        };
+        _E7FAjJE3 = {
+            "id" = "E7FAjJE3";
+            "file" = "toastysmobs-2.5.5-neoforge-1.21.8.jar";
+            "hash" = "sha512-z91yqEMMwMtulQK8iGTPbQu+C1Xi/PFVUZuKF0tboUqUtYs9Llguwxk7wnyCiTsmBesC8AVV1QMmaMT0Z7ngRg==";
+        };
+        _YiennGRd = {
+            "id" = "YiennGRd";
+            "file" = "toastysmobs-2.5.5-neoforge-1.20.6.jar";
+            "hash" = "sha512-PXtPevLOysjj8J3jQuABHeAJen/qUdu7tZ+zAuqufXzHVL+CmqtZhcVBVbDDCSTo65Zlh6NNi/XqhWN7x/2rYA==";
+        };
+        _Yg1n4r1y = {
+            "id" = "Yg1n4r1y";
+            "file" = "toastysmobs-2.5.5-neoforge-1.20.4.jar";
+            "hash" = "sha512-bB53UFdVpGQkVAKDpA8gWEcdDj3iNIAgLfY0/wAMBSO4TwvvtRe2tT3eIfdj/hx8BDV37l6vjWGimtYvWlNTjg==";
+        };
+        _Uxf4qWqv = {
+            "id" = "Uxf4qWqv";
+            "file" = "toastysmobs-2.5.5-forge-1.20.1.jar";
+            "hash" = "sha512-Sh80z+/kfULfFlP0eJQq/v6zbgJmHNR/RFiWBe7qKmQ1xJ7mrLo8WBhpk6uwhh79ulTVJYEhjUJcCBqXivEQKQ==";
+        };
+        _JgcXVAqG = {
+            "id" = "JgcXVAqG";
+            "file" = "toastysmobs-2.5.5-fabric-1.21.8.jar";
+            "hash" = "sha512-l7/13ufl/jp5PaE5XgeKbAprCyQJdaClODAQOqYhE/bWydDPGjoeb15sPyu1Itvi+pq3ee+28WntDWsfkqRQLA==";
+        };
     in {
         "KStJifSw" = _KStJifSw;
         "j3wiXDua" = _j3wiXDua;
@@ -326,8 +391,26 @@ let
         "vstuMbH9" = _vstuMbH9;
         "S0XMdBbr" = _S0XMdBbr;
         "V3cA7L6k" = _V3cA7L6k;
+        "mGKOMFsx" = _mGKOMFsx;
+        "wjKRS9ME" = _wjKRS9ME;
+        "rkxvo5W4" = _rkxvo5W4;
+        "yfXBaeEN" = _yfXBaeEN;
+        "Q0lF08cN" = _Q0lF08cN;
+        "v7yMaF45" = _v7yMaF45;
+        "iCUmki6J" = _iCUmki6J;
+        "QfIm6ki0" = _QfIm6ki0;
+        "E7FAjJE3" = _E7FAjJE3;
+        "YiennGRd" = _YiennGRd;
+        "Yg1n4r1y" = _Yg1n4r1y;
+        "Uxf4qWqv" = _Uxf4qWqv;
+        "JgcXVAqG" = _JgcXVAqG;
         "neoforge-1.21.4" = _3bxtdoXL;
-        "neoforge-1.21.1" = _V3cA7L6k;
+        "neoforge-1.21.1" = _QfIm6ki0;
+        "neoforge-1.21.8" = _E7FAjJE3;
+        "neoforge-1.20.6" = _YiennGRd;
+        "neoforge-1.20.4" = _Yg1n4r1y;
+        "forge-1.20.1" = _Uxf4qWqv;
+        "fabric-1.21.8" = _JgcXVAqG;
         "pkg-2.1.0" = _j3wiXDua;
         "pkg-2.1.1" = _iSjURrHg;
         "pkg-2.1.2" = _pDg8LhCq;
@@ -363,7 +446,10 @@ let
         "pkg-2.5.0" = _vstuMbH9;
         "pkg-2.5.1" = _S0XMdBbr;
         "pkg-2.5.2" = _V3cA7L6k;
-        "default" = _V3cA7L6k;
+        "pkg-2.5.3" = _mGKOMFsx;
+        "pkg-2.5.4" = _iCUmki6J;
+        "pkg-2.5.5" = _JgcXVAqG;
+        "default" = _JgcXVAqG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "toastys-mobs";

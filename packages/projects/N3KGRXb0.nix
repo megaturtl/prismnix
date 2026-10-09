@@ -57,6 +57,7 @@ let
         "fabric-26.1.1" = _GfPhu2Oj;
         "fabric-26.1.2" = _GfPhu2Oj;
         "fabric-26.2" = _GfPhu2Oj;
+        "fabric-26.3" = _GfPhu2Oj;
         "pkg-1.0.0" = _Km7SZ8G0;
         "pkg-1.0.1" = _b5HPaRIq;
         "pkg-1.0.2" = _l3SNMAsv;

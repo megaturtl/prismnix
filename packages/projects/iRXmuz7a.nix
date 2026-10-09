@@ -101,6 +101,16 @@ let
             "file" = "BetterRenderDistance-1.2.1-beta+mc1.21.1.jar";
             "hash" = "sha512-wdE+ZRBuXYZnzC78B+vEi+jz2Ijqj1jprgjG1XVutlUjqVedXec1N7Nu1TwgEtR77l//BvfYh1JHhJ8AMzanFw==";
         };
+        _J46KSMDr = {
+            "id" = "J46KSMDr";
+            "file" = "BetterRenderDistance-1.2.1+mc26.2.jar";
+            "hash" = "sha512-sCiMpVo45o6YLHuG6OABoef+cdVG36xGeFii6qh3S871gtGChD/mh1xTziG4cRwuUtN3dfh1zY1awEyDDBMayA==";
+        };
+        _J3aafAmj = {
+            "id" = "J3aafAmj";
+            "file" = "BetterRenderDistance-1.2.2+mc26.3.jar";
+            "hash" = "sha512-BTF6qR8E57ifJF2UAktuWkkL6xHXDrWVMgEeb7v0QDOyxOHyebZRFnb2kIyVQfI6mUrPuCJehInnNead50IZ5Q==";
+        };
     in {
         "4el4pp6T" = _4el4pp6T;
         "CJeMP0KK" = _CJeMP0KK;
@@ -122,6 +132,8 @@ let
         "thmz5tTn" = _thmz5tTn;
         "d1GdCXiZ" = _d1GdCXiZ;
         "ZI7FceDv" = _ZI7FceDv;
+        "J46KSMDr" = _J46KSMDr;
+        "J3aafAmj" = _J3aafAmj;
         "fabric-1.21.11" = _WFE5XTP2;
         "fabric-1.21.9" = _OoyIrpp4;
         "fabric-1.21.10" = _OoyIrpp4;
@@ -137,13 +149,16 @@ let
         "fabric-26.1.1" = _d1GdCXiZ;
         "fabric-26.1.2" = _d1GdCXiZ;
         "fabric-1.21" = _RKjKl99o;
-        "fabric-26.2" = _thmz5tTn;
+        "fabric-26.2" = _J46KSMDr;
+        "fabric-26.3" = _J3aafAmj;
         "pkg-1.0.1" = _4el4pp6T;
         "pkg-1.1.0" = _CJeMP0KK;
         "pkg-1.2.0" = _xXrd4KBY;
         "pkg-1.2.1-beta" = _ZI7FceDv;
         "pkg-1.2.1-beta.2" = _thmz5tTn;
-        "default" = _ZI7FceDv;
+        "pkg-1.2.1" = _J46KSMDr;
+        "pkg-1.2.2" = _J3aafAmj;
+        "default" = _J3aafAmj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-render-distance";

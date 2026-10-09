@@ -136,6 +136,16 @@ let
             "file" = "Nyctography-fabric-MC26.2-26.2.0.1.jar";
             "hash" = "sha512-e5HUS4cNlEwzrzTCdQz9eHtuCOyk2McLeEAD4vtQqtWh8Kl0ZUrRGpqv7zVD54RDxRO+wUobMJBXKKYBn93Fnw==";
         };
+        _grDNnXOc = {
+            "id" = "grDNnXOc";
+            "file" = "Nyctography-fabric-MC26.3-26.3.0.1.jar";
+            "hash" = "sha512-zXmP3wOKCxh1IabmSklD48cSX0c4F+g0fLvUYnHCWrbrjgcIPdQYk0Fwg7IE14tGSUqGQ6AKbjWO3vfHb4Ud0g==";
+        };
+        _DFQEBcyJ = {
+            "id" = "DFQEBcyJ";
+            "file" = "Nyctography-neoforge-MC26.3-26.3.0.1.jar";
+            "hash" = "sha512-Dsda8CJqLM6kF+utxZj0+QFSx7fjGnASeEf+d0zLdTvZrqroEgHz+eQNarzD9a3QwgmZlMOBvR9bU93BMn3OgA==";
+        };
     in {
         "cJB2hpNp" = _cJB2hpNp;
         "BckkqjmC" = _BckkqjmC;
@@ -164,11 +174,14 @@ let
         "2FxzBWbL" = _2FxzBWbL;
         "dRv0fRtT" = _dRv0fRtT;
         "R8bTva6E" = _R8bTva6E;
+        "grDNnXOc" = _grDNnXOc;
+        "DFQEBcyJ" = _DFQEBcyJ;
         "fabric-1.21.1" = _mxYpJ48q;
         "fabric-26.1" = _2FxzBWbL;
         "fabric-26.1.1" = _2FxzBWbL;
         "fabric-26.1.2" = _2FxzBWbL;
         "fabric-26.2" = _R8bTva6E;
+        "fabric-26.3" = _grDNnXOc;
         "quilt-1.21.1" = _mxYpJ48q;
         "forge-1.21.1" = _VvdGc1OW;
         "neoforge-1.21.1" = _9wjJOAoA;
@@ -176,6 +189,7 @@ let
         "neoforge-26.1.1" = _WZSvnrn3;
         "neoforge-26.1.2" = _WZSvnrn3;
         "neoforge-26.2" = _dRv0fRtT;
+        "neoforge-26.3" = _DFQEBcyJ;
         "pkg-21.1.1" = _9yssMvwL;
         "pkg-21.1.2" = _6i5aPAj1;
         "pkg-21.1.3" = _o3CpDa8w;
@@ -188,7 +202,8 @@ let
         "pkg-26.1.2.2" = _S6AwJhuB;
         "pkg-26.1.2.3" = _2FxzBWbL;
         "pkg-26.2.0.1" = _R8bTva6E;
-        "default" = _R8bTva6E;
+        "pkg-26.3.0.1" = _DFQEBcyJ;
+        "default" = _DFQEBcyJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nyctography";

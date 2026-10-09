@@ -171,6 +171,11 @@ let
             "file" = "Alpha Piscium v1.10.0-Beta2.zip";
             "hash" = "sha512-uo31tDg822M3Tk76Mi9JcD5btygRWiTv+fFiMXiU8jwN0Y4oyoRayUQkKAahg3WZVB+QkJ0MEw0decnbd4tI6A==";
         };
+        _tB8N3ghY = {
+            "id" = "tB8N3ghY";
+            "file" = "Alpha Piscium v1.10.0.zip";
+            "hash" = "sha512-XNrszxK15CKHPAGPwKjO0k8Byo+zlpJaIQRr77I1mDiFjyRaqfytXkbnMwh8Wgt/Q37k5Ae/sQzyCoxalauhVg==";
+        };
     in {
         "USdIu4hL" = _USdIu4hL;
         "sNuINX2C" = _sNuINX2C;
@@ -206,23 +211,25 @@ let
         "hjVZuOry" = _hjVZuOry;
         "V98SvyfI" = _V98SvyfI;
         "TpMY3Gj3" = _TpMY3Gj3;
-        "iris-1.20.5" = _TpMY3Gj3;
-        "iris-1.20.6" = _TpMY3Gj3;
-        "iris-1.21.1" = _TpMY3Gj3;
-        "iris-1.21.2" = _TpMY3Gj3;
-        "iris-1.21.3" = _TpMY3Gj3;
-        "iris-1.21.4" = _TpMY3Gj3;
-        "iris-1.21.5" = _TpMY3Gj3;
-        "iris-1.21.6" = _TpMY3Gj3;
-        "iris-1.21.7" = _TpMY3Gj3;
-        "iris-1.21.8" = _TpMY3Gj3;
-        "iris-1.21.9" = _TpMY3Gj3;
-        "iris-1.21.10" = _TpMY3Gj3;
-        "iris-1.21.11" = _TpMY3Gj3;
-        "iris-26.1" = _TpMY3Gj3;
-        "iris-26.1.1" = _TpMY3Gj3;
-        "iris-26.1.2" = _TpMY3Gj3;
-        "iris-26.2" = _TpMY3Gj3;
+        "tB8N3ghY" = _tB8N3ghY;
+        "iris-1.20.5" = _tB8N3ghY;
+        "iris-1.20.6" = _tB8N3ghY;
+        "iris-1.21.1" = _tB8N3ghY;
+        "iris-1.21.2" = _tB8N3ghY;
+        "iris-1.21.3" = _tB8N3ghY;
+        "iris-1.21.4" = _tB8N3ghY;
+        "iris-1.21.5" = _tB8N3ghY;
+        "iris-1.21.6" = _tB8N3ghY;
+        "iris-1.21.7" = _tB8N3ghY;
+        "iris-1.21.8" = _tB8N3ghY;
+        "iris-1.21.9" = _tB8N3ghY;
+        "iris-1.21.10" = _tB8N3ghY;
+        "iris-1.21.11" = _tB8N3ghY;
+        "iris-26.1" = _tB8N3ghY;
+        "iris-26.1.1" = _tB8N3ghY;
+        "iris-26.1.2" = _tB8N3ghY;
+        "iris-26.2" = _tB8N3ghY;
+        "iris-26.3" = _tB8N3ghY;
         "pkg-1.6.1" = _USdIu4hL;
         "pkg-1.6.2" = _sNuINX2C;
         "pkg-1.6.3" = _ZGyjTLvL;
@@ -257,7 +264,8 @@ let
         "pkg-1.9.2" = _hjVZuOry;
         "pkg-1.10.0-Beta1" = _V98SvyfI;
         "pkg-1.10.0-Beta2" = _TpMY3Gj3;
-        "default" = _TpMY3Gj3;
+        "pkg-1.10.0" = _tB8N3ghY;
+        "default" = _tB8N3ghY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "alpha-piscium";

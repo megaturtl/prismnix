@@ -74,6 +74,7 @@ let
         "paper-26.1.1" = _2M2GlYJm;
         "paper-26.1.2" = _2M2GlYJm;
         "paper-26.2" = _2M2GlYJm;
+        "paper-26.3" = _2M2GlYJm;
         "purpur-1.21" = _2M2GlYJm;
         "purpur-1.21.1" = _2M2GlYJm;
         "purpur-1.21.2" = _2M2GlYJm;
@@ -98,6 +99,7 @@ let
         "purpur-26.1.1" = _2M2GlYJm;
         "purpur-26.1.2" = _2M2GlYJm;
         "purpur-26.2" = _2M2GlYJm;
+        "purpur-26.3" = _2M2GlYJm;
         "folia-1.19.4" = _2M2GlYJm;
         "folia-1.20" = _2M2GlYJm;
         "folia-1.20.1" = _2M2GlYJm;
@@ -122,6 +124,7 @@ let
         "folia-26.1.1" = _2M2GlYJm;
         "folia-26.1.2" = _2M2GlYJm;
         "folia-26.2" = _2M2GlYJm;
+        "folia-26.3" = _2M2GlYJm;
         "pkg-0.0.1" = _6vCSEyry;
         "pkg-0.0.2" = _7M1A26gF;
         "pkg-0.0.3" = _McdTq6SJ;

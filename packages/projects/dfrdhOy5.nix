@@ -26,19 +26,26 @@ let
             "file" = "dyeable_ropes-1.2.3.jar";
             "hash" = "sha512-gQbeFjhakrm1HQowklZiSkvREcJ4lyEk5+jIyBTGKw5ei8ubb+orBh6eNT/sDhWIFRcStm68irczrOU+hRQLXg==";
         };
+        _LzrpQ1uK = {
+            "id" = "LzrpQ1uK";
+            "file" = "dyeable_ropes-1.2.4.jar";
+            "hash" = "sha512-7HZaD42K4p+AX9yL6R0jlPejPS2Zsc7Vk+31J88CuNx7hBhYpKb5e8wgEDeC3CyZF4Mv7u5tMKKFqJMANqOXug==";
+        };
     in {
         "O5qAdFaj" = _O5qAdFaj;
         "WjsyzPd3" = _WjsyzPd3;
         "lJQN1scE" = _lJQN1scE;
         "bppcVT2K" = _bppcVT2K;
         "ZepWp1g8" = _ZepWp1g8;
-        "neoforge-1.21.1" = _ZepWp1g8;
+        "LzrpQ1uK" = _LzrpQ1uK;
+        "neoforge-1.21.1" = _LzrpQ1uK;
         "pkg-1.1.0" = _O5qAdFaj;
         "pkg-1.2.0" = _WjsyzPd3;
         "pkg-1.2.1" = _lJQN1scE;
         "pkg-1.2.2" = _bppcVT2K;
         "pkg-1.2.3" = _ZepWp1g8;
-        "default" = _ZepWp1g8;
+        "pkg-1.2.4" = _LzrpQ1uK;
+        "default" = _LzrpQ1uK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-aeronautics-dyeable-ropes";

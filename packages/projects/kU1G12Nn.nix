@@ -306,6 +306,11 @@ let
             "file" = "createaddition-1.7.1.jar";
             "hash" = "sha512-L4OSE/Q7MRN4ZZ7h1kO0RLPOKyzCw/piOcF2wX7jz1O59HHh0TRCgT5Wg9QODajKNglJjuFpDLh++yG97q6VmA==";
         };
+        _hsjVajlP = {
+            "id" = "hsjVajlP";
+            "file" = "createaddition-1.7.2.jar";
+            "hash" = "sha512-86PdtWABidqBj8ceplnRfw0Ql8WtZkQz7tQAs+zGfQ+TBbNI5bfF/Yctem5RMwxxWLMYHncZLFdsIFp03QKY/w==";
+        };
     in {
         "STJRMuTj" = _STJRMuTj;
         "xJD8lq0O" = _xJD8lq0O;
@@ -368,6 +373,7 @@ let
         "qPr8V4G2" = _qPr8V4G2;
         "zlC557Yg" = _zlC557Yg;
         "vD7sHwsm" = _vD7sHwsm;
+        "hsjVajlP" = _hsjVajlP;
         "forge-1.19.2" = _AjwN7Aq8;
         "forge-1.18.2" = _XNoZrlnx;
         "forge-1.20.1" = _9LgyB6Yb;
@@ -376,7 +382,7 @@ let
         "fabric-1.20.1" = _KIAYldwh;
         "quilt-1.19.2" = _sAZf2bij;
         "quilt-1.20.1" = _J3uh8pqe;
-        "neoforge-1.21.1" = _vD7sHwsm;
+        "neoforge-1.21.1" = _hsjVajlP;
         "pkg-forge-1.19.2-20230411a" = _STJRMuTj;
         "pkg-forge-1.18.2-20230411a" = _xJD8lq0O;
         "pkg-fabric-1.19.2-20230211a" = _wvzuaLOF;
@@ -437,7 +443,8 @@ let
         "pkg-neoforge-1.21.1-1.6.0" = _qPr8V4G2;
         "pkg-neoforge-1.21.1-1.7.0" = _zlC557Yg;
         "pkg-neoforge-1.21.1-1.7.1" = _vD7sHwsm;
-        "default" = _vD7sHwsm;
+        "pkg-neoforge-1.21.1-1.7.2" = _hsjVajlP;
+        "default" = _hsjVajlP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "createaddition";

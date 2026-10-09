@@ -771,6 +771,11 @@ let
             "file" = "SimpleBackups-26.3.0.jar";
             "hash" = "sha512-+VyywGPItctN7/rjJvuznGEcnuZGR8onPh/pzB9KE/MTqXmdrufeDEkEMHH4SmNizlK40m3pc4S2vbT15H6Mmg==";
         };
+        _AKMINm7t = {
+            "id" = "AKMINm7t";
+            "file" = "SimpleBackups-26.3.1.jar";
+            "hash" = "sha512-nvGa1X48W7So2revOrSDDKLvnE4q/uwxegStTyY8v5BfGQbzktbtagencA6bUBRlFI3V+Ut1r09ymV+3XN2RpA==";
+        };
     in {
         "mcGHjbMj" = _mcGHjbMj;
         "OHZPnbGO" = _OHZPnbGO;
@@ -926,6 +931,7 @@ let
         "CXxrVNUV" = _CXxrVNUV;
         "xx1uVJtd" = _xx1uVJtd;
         "pnyiaJxQ" = _pnyiaJxQ;
+        "AKMINm7t" = _AKMINm7t;
         "forge-1.18.1" = _OHZPnbGO;
         "forge-1.18.2" = _llBk56FN;
         "forge-1.19" = _APq7Smui;
@@ -951,7 +957,7 @@ let
         "neoforge-26.1.1" = _CXxrVNUV;
         "neoforge-26.1.2" = _CXxrVNUV;
         "neoforge-26.2" = _xx1uVJtd;
-        "neoforge-26.3" = _pnyiaJxQ;
+        "neoforge-26.3" = _AKMINm7t;
         "pkg-1.18.1-1.0.0" = _mcGHjbMj;
         "pkg-1.18.1-1.0.1" = _OHZPnbGO;
         "pkg-1.18.2-1.1.0" = _O9fXcoe9;
@@ -1106,7 +1112,8 @@ let
         "pkg-26.1.6" = _CXxrVNUV;
         "pkg-26.2.3" = _xx1uVJtd;
         "pkg-26.3.0" = _pnyiaJxQ;
-        "default" = _pnyiaJxQ;
+        "pkg-26.3.1" = _AKMINm7t;
+        "default" = _AKMINm7t;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-backups";

@@ -216,6 +216,21 @@ let
             "file" = "projectsentinel-FRAME_DROPPEDV21.2.0-forge-1.20.1.jar";
             "hash" = "sha512-wIwTiWBoUENtxxFBIx+W2rnUUGdr73OEPOmg/cUxMxWKIaSVWsKb617fOvz0kN9GmB+67/BHFM5Uo/K7QDMTsw==";
         };
+        _xzhEfPSx = {
+            "id" = "xzhEfPSx";
+            "file" = "projectsentinel-FRAME_DROPPEDV21.2.0-forge-1.20.1.jar";
+            "hash" = "sha512-wIwTiWBoUENtxxFBIx+W2rnUUGdr73OEPOmg/cUxMxWKIaSVWsKb617fOvz0kN9GmB+67/BHFM5Uo/K7QDMTsw==";
+        };
+        _vUVhkxQZ = {
+            "id" = "vUVhkxQZ";
+            "file" = "FRAME_DROPPED-2.2.0.0-forge-1.20.1.jar";
+            "hash" = "sha512-XFPXaiRHGLr1x9H/7Y4Rqz6RWUqy7E1G02BhAMswBH048KieROI0snGPjx96+3C6UJ1PpkrnzUhpcHCNuRKmPg==";
+        };
+        _uCs1jQPe = {
+            "id" = "uCs1jQPe";
+            "file" = "projectsentinel-v2-3.0.0-forge-1.20.1.jar";
+            "hash" = "sha512-6kROn9hTmA7lN89D06sPeVIPEmmHtn8w7AOHR3qFiS09EG5Xbuaoayn2ycbCpoRWdHGINvXBAU5HQWmKdWyeJQ==";
+        };
     in {
         "VYmi3GuO" = _VYmi3GuO;
         "NQOA3nCf" = _NQOA3nCf;
@@ -260,7 +275,10 @@ let
         "EKURqqyH" = _EKURqqyH;
         "FwMUIO5B" = _FwMUIO5B;
         "XhUwWcyJ" = _XhUwWcyJ;
-        "forge-1.20.1" = _XhUwWcyJ;
+        "xzhEfPSx" = _xzhEfPSx;
+        "vUVhkxQZ" = _vUVhkxQZ;
+        "uCs1jQPe" = _uCs1jQPe;
+        "forge-1.20.1" = _uCs1jQPe;
         "pkg-0.0.1" = _VYmi3GuO;
         "pkg-1.0.0" = _NQOA3nCf;
         "pkg-26.3" = _8n1n6pb2;
@@ -285,7 +303,7 @@ let
         "pkg-1.8.0" = _nUOhPalW;
         "pkg-1.8.1" = _cKgtyIAs;
         "pkg-1.8.2" = _jtxmDVDx;
-        "pkg-2.0.0" = _TBbSQw7V;
+        "pkg-2.0.0" = _xzhEfPSx;
         "pkg-2.0.0.1" = _UhC2EF3a;
         "pkg-2.0.0.3" = _ezYc4itf;
         "pkg-2.0.0.4" = _7uSAiSUc;
@@ -293,17 +311,17 @@ let
         "pkg-2.0.1" = _PepwXtfH;
         "pkg-2.1.0" = _8oauTn4L;
         "pkg-2.1.1" = _SIGrxEBH;
-        "pkg-2.2.0" = _FLj5q7p0;
+        "pkg-2.2.0" = _vUVhkxQZ;
         "pkg-2.2.1" = _pR3cGfy6;
         "pkg-2.3.0" = _29CdB2rt;
         "pkg-2.4.0" = _vymYZ1Yk;
-        "pkg-3.0.0" = _FnQ3fUsB;
+        "pkg-3.0.0" = _uCs1jQPe;
         "pkg-3.2.0" = _D5K2eQbs;
         "pkg-V2-1.0.0" = _om5TEzB9;
         "pkg-1.1.0.1" = _EKURqqyH;
         "pkg-1.1.1.0" = _FwMUIO5B;
         "pkg-1.2.1" = _XhUwWcyJ;
-        "default" = _XhUwWcyJ;
+        "default" = _uCs1jQPe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "frame_dropped";

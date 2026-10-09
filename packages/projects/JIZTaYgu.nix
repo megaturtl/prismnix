@@ -136,6 +136,16 @@ let
             "file" = "MultiBuilderTool-1.20.1-1.0.27.jar";
             "hash" = "sha512-NwTPacObTcxQpZpU0XIkAos1YuFlGCtKqG6JkM7VMoCRCy0TsLs7ZfnRk/QMuYE/pqkwwtP/RdLLq87LIXKTzA==";
         };
+        _eV5qajwu = {
+            "id" = "eV5qajwu";
+            "file" = "MultiBuilderTool-1.20.1-1.0.28.jar";
+            "hash" = "sha512-ob63N/k22dFAU+n2TfpLm+y+Ty44jl0+D0X7yd0pTZmVRWVN8s5LDrpKNkj1NcVcHLvltZUCLo3p0AOdRIiz4A==";
+        };
+        _HuOQNjU5 = {
+            "id" = "HuOQNjU5";
+            "file" = "MultiBuilderTool-1.21.1-1.1.29.jar";
+            "hash" = "sha512-Anx+9Jf7C6BCU+iudbPdAgnsrMLX/Qo5MePmbF+mbUOoOibZ/moASYJHX0YRr2Be39WEbtPDzyH3EG/mldclQA==";
+        };
     in {
         "jDD3sBQT" = _jDD3sBQT;
         "i89PKbLr" = _i89PKbLr;
@@ -164,10 +174,12 @@ let
         "QiTZsv1I" = _QiTZsv1I;
         "sQPhi44h" = _sQPhi44h;
         "pUYJFn1e" = _pUYJFn1e;
+        "eV5qajwu" = _eV5qajwu;
+        "HuOQNjU5" = _HuOQNjU5;
         "forge-1.12.2" = _i89PKbLr;
-        "forge-1.20.1" = _pUYJFn1e;
-        "neoforge-1.20.1" = _m4FvOWNK;
-        "neoforge-1.21.1" = _sQPhi44h;
+        "forge-1.20.1" = _eV5qajwu;
+        "neoforge-1.20.1" = _eV5qajwu;
+        "neoforge-1.21.1" = _HuOQNjU5;
         "neoforge-1.21" = _IoN0WykF;
         "neoforge-26.1.2" = _QiTZsv1I;
         "pkg-1.0.0" = _jDD3sBQT;
@@ -196,7 +208,9 @@ let
         "pkg-1.2.26" = _QiTZsv1I;
         "pkg-1.1.28" = _sQPhi44h;
         "pkg-1.0.27" = _pUYJFn1e;
-        "default" = _pUYJFn1e;
+        "pkg-1.0.28" = _eV5qajwu;
+        "pkg-1.1.29" = _HuOQNjU5;
+        "default" = _HuOQNjU5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "multi-builder-tool";

@@ -31,6 +31,11 @@ let
             "file" = "ModernConfig-1.4.jar";
             "hash" = "sha512-0+1OyA2pNOVj5/WfZTSd7VGsMnOEqmiyw5M0nfCIPzkoTXyBDFcipcPIBg8rMHmQwqFBNTXJHrTEdW4xwUTVhg==";
         };
+        _SVvg3H8a = {
+            "id" = "SVvg3H8a";
+            "file" = "ModernConfig-1.5.jar";
+            "hash" = "sha512-c346nbwGNCWO5SvEPhpo9zvLo4P+A/Lw8ZBiJFWHBA53cGaH4yQhRweUIR6MSu4nqNdQ1zuQYTObFSOJQIU70g==";
+        };
     in {
         "msAqWeZW" = _msAqWeZW;
         "z55aes7M" = _z55aes7M;
@@ -38,6 +43,7 @@ let
         "lzeXcFt2" = _lzeXcFt2;
         "OZP640AU" = _OZP640AU;
         "sCN1Cn9q" = _sCN1Cn9q;
+        "SVvg3H8a" = _SVvg3H8a;
         "fabric-1.21.6" = _D71sW0CR;
         "fabric-1.21.7" = _D71sW0CR;
         "fabric-1.21.8" = _D71sW0CR;
@@ -48,12 +54,14 @@ let
         "fabric-26.1.1" = _OZP640AU;
         "fabric-26.1.2" = _OZP640AU;
         "fabric-26.2" = _sCN1Cn9q;
+        "fabric-26.3" = _SVvg3H8a;
         "pkg-1.0" = _msAqWeZW;
         "pkg-1.1" = _z55aes7M;
         "pkg-1.2" = _lzeXcFt2;
         "pkg-1.3" = _OZP640AU;
         "pkg-1.4" = _sCN1Cn9q;
-        "default" = _sCN1Cn9q;
+        "pkg-1.5" = _SVvg3H8a;
+        "default" = _SVvg3H8a;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modernconfig";

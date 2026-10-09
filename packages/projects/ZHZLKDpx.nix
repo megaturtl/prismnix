@@ -151,6 +151,26 @@ let
             "file" = "two-shulker-shells-drop-v2.3.5.jar";
             "hash" = "sha512-l1CLnjObhRAs5IPkNi0MSUhDmfviw1DT25GLB2tC2Fp4/r+x2ekS9+N4430bZzv3U59IGWThVgoGbnxvT7oYYA==";
         };
+        _mBeMIxZr = {
+            "id" = "mBeMIxZr";
+            "file" = "shulker-drops-two-shells-v2.4.0.zip";
+            "hash" = "sha512-P1MYP8R1erAf5GFEQ6ZvXZzF9E71mtATgTzgYIzrEdfqhWL3vTqnZgsSVXmJJ2FAQrFT1dT7iIslHUBiyX9ErQ==";
+        };
+        _Nyopfenl = {
+            "id" = "Nyopfenl";
+            "file" = "two-shulker-shells-drop-v2.4.0.jar";
+            "hash" = "sha512-4dPtgFtbYrRFUkUzBc/k2Vm9tbz3/Bm1dR9IUNvWzSEtSigv/DCCTJrtPR0+gkuYzWzWWui11QzS4sQGXMJQXQ==";
+        };
+        _ZPmWCAJn = {
+            "id" = "ZPmWCAJn";
+            "file" = "shulker-drops-two-shells-v2.4.0.0.zip";
+            "hash" = "sha512-l5lKteL4rCYQ4zYsNMq7rNKIYmgL+j8P54AzYCmgavSfvsPe05hMS/s9OusBOpIyY52TqvmzD3u0J5nqsbCWww==";
+        };
+        _Qwc4Ru6r = {
+            "id" = "Qwc4Ru6r";
+            "file" = "two-shulker-shells-drop-v2.4.0.0.jar";
+            "hash" = "sha512-EJZqna0YqdY9IFdxXKF69q9zH8xJrqus9ozqAE3jmYG86Rozcn8nV8vEEgPoPEjI9sf670rKETAkgUXuxLgjIw==";
+        };
     in {
         "lEjEntsg" = _lEjEntsg;
         "ciCNRNV0" = _ciCNRNV0;
@@ -182,6 +202,10 @@ let
         "Apg91MJe" = _Apg91MJe;
         "lIMLd3YW" = _lIMLd3YW;
         "h4fLlZnC" = _h4fLlZnC;
+        "mBeMIxZr" = _mBeMIxZr;
+        "Nyopfenl" = _Nyopfenl;
+        "ZPmWCAJn" = _ZPmWCAJn;
+        "Qwc4Ru6r" = _Qwc4Ru6r;
         "datapack-1.20.4" = _lEjEntsg;
         "datapack-1.20.5" = _AaAxByh0;
         "datapack-1.20.6" = _AaAxByh0;
@@ -202,6 +226,7 @@ let
         "datapack-26.1.1" = _lIMLd3YW;
         "datapack-26.1.2" = _lIMLd3YW;
         "datapack-26.2" = _lIMLd3YW;
+        "datapack-26.3" = _ZPmWCAJn;
         "fabric-1.20.4" = _ciCNRNV0;
         "fabric-1.20.5" = _NG5XMFfE;
         "fabric-1.20.6" = _NG5XMFfE;
@@ -222,6 +247,7 @@ let
         "fabric-26.1.1" = _h4fLlZnC;
         "fabric-26.1.2" = _h4fLlZnC;
         "fabric-26.2" = _h4fLlZnC;
+        "fabric-26.3" = _Qwc4Ru6r;
         "forge-1.20.4" = _ciCNRNV0;
         "forge-1.20.5" = _NG5XMFfE;
         "forge-1.20.6" = _NG5XMFfE;
@@ -242,6 +268,7 @@ let
         "forge-26.1.1" = _h4fLlZnC;
         "forge-26.1.2" = _h4fLlZnC;
         "forge-26.2" = _h4fLlZnC;
+        "forge-26.3" = _Qwc4Ru6r;
         "quilt-1.20.4" = _ciCNRNV0;
         "quilt-1.20.5" = _NG5XMFfE;
         "quilt-1.20.6" = _NG5XMFfE;
@@ -262,6 +289,7 @@ let
         "quilt-26.1.1" = _h4fLlZnC;
         "quilt-26.1.2" = _h4fLlZnC;
         "quilt-26.2" = _h4fLlZnC;
+        "quilt-26.3" = _Qwc4Ru6r;
         "neoforge-1.21.5" = _E2PkNbZk;
         "neoforge-1.21.6" = _h4fLlZnC;
         "neoforge-1.21.7" = _h4fLlZnC;
@@ -273,6 +301,7 @@ let
         "neoforge-26.1.1" = _h4fLlZnC;
         "neoforge-26.1.2" = _h4fLlZnC;
         "neoforge-26.2" = _h4fLlZnC;
+        "neoforge-26.3" = _Qwc4Ru6r;
         "pkg-v.1.0.0" = _mJgy42VQ;
         "pkg-v.1.0.0+mod" = _qWvnrCcn;
         "pkg-v.2.0.0" = _f6d6Q07A;
@@ -297,7 +326,11 @@ let
         "pkg-v2.3.4.1+mod" = _Apg91MJe;
         "pkg-v2.3.5" = _lIMLd3YW;
         "pkg-v2.3.5+mod" = _h4fLlZnC;
-        "default" = _h4fLlZnC;
+        "pkg-v2.4.0" = _mBeMIxZr;
+        "pkg-v2.4.0+mod" = _Nyopfenl;
+        "pkg-v2.4.0.0" = _ZPmWCAJn;
+        "pkg-v2.4.0.0+mod" = _Qwc4Ru6r;
+        "default" = _Qwc4Ru6r;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "two-shulker-shells-drop";

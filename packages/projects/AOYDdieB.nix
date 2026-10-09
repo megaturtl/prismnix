@@ -256,6 +256,26 @@ let
             "file" = "aviator_dreams_reloaded-neoforge-1.3.3+1.21.11.jar";
             "hash" = "sha512-bLPQRpe0UHR0kdcKo44Drr77H4HacoEnN++47JA+6mMPHMpLq53WxNcfwraW+u6pSg8HbjcpwNgOQntyBcx5cg==";
         };
+        _Q6bCPgSr = {
+            "id" = "Q6bCPgSr";
+            "file" = "aviator_dreams_reloaded-fabric-1.3.4+26.1.2.jar";
+            "hash" = "sha512-CQhNlGgqJGl+jqijk88q/wy2pS5EN3PfLk0NP3xxARqtnz5BoktLRdp6B3xh/pw6MF5m2IAURWSbcMZpf8KLPg==";
+        };
+        _vkKZ0i58 = {
+            "id" = "vkKZ0i58";
+            "file" = "aviator_dreams_reloaded-neoforge-1.3.4+26.1.2.jar";
+            "hash" = "sha512-fIOrNJMDVrfVHMHWaFzYEaHYLy2ikU5wegBSgqsYcXc9Nnb0kMIxyu4j45QSi9q3juDY1dDA0H69zDODF6pJXw==";
+        };
+        _LyqVk6PP = {
+            "id" = "LyqVk6PP";
+            "file" = "aviator_dreams_reloaded-fabric-1.3.4+26.2.jar";
+            "hash" = "sha512-XksTSpT+MqarzQ+a9NzCWwCX1x2574kCPP1QUDr7DGVHX/HtLasqUQsy3LJGRhvfULVjBinjMtwBLBszBYYNog==";
+        };
+        _YEQB0NKo = {
+            "id" = "YEQB0NKo";
+            "file" = "aviator_dreams_reloaded-neoforge-1.3.4+26.2.jar";
+            "hash" = "sha512-JkPPWe6Yd7i9IX1Nq1pT+G4OZu8pSk6gtOhOIeCn8E+WiQIU0QajAyHL3s7Zuj1Z7rrj8fpy9PTD5W/+DRWq6A==";
+        };
     in {
         "DO2uG3ox" = _DO2uG3ox;
         "YuVNjEwX" = _YuVNjEwX;
@@ -308,11 +328,19 @@ let
         "4Aa8QEq9" = _4Aa8QEq9;
         "38tc87sq" = _38tc87sq;
         "bhBYYmNz" = _bhBYYmNz;
+        "Q6bCPgSr" = _Q6bCPgSr;
+        "vkKZ0i58" = _vkKZ0i58;
+        "LyqVk6PP" = _LyqVk6PP;
+        "YEQB0NKo" = _YEQB0NKo;
         "fabric-1.21.1" = _Xkkj6kJq;
         "fabric-1.20.1" = _R1NH3JM0;
         "fabric-1.21.11" = _38tc87sq;
+        "fabric-26.1.2" = _Q6bCPgSr;
+        "fabric-26.2" = _LyqVk6PP;
         "neoforge-1.21.1" = _4Aa8QEq9;
         "neoforge-1.21.11" = _bhBYYmNz;
+        "neoforge-26.1.2" = _vkKZ0i58;
+        "neoforge-26.2" = _YEQB0NKo;
         "forge-1.20.1" = _pYm67tx3;
         "pkg-1.0.0-1.21.1-fabric" = _DO2uG3ox;
         "pkg-1.0.0+1.21.1-neoforge" = _YuVNjEwX;
@@ -362,7 +390,11 @@ let
         "pkg-1.2.7+1.21.1-neoforge" = _4Aa8QEq9;
         "pkg-1.3.3+1.21.11-fabric" = _38tc87sq;
         "pkg-1.3.3+1.21.11-neoforge" = _bhBYYmNz;
-        "default" = _bhBYYmNz;
+        "pkg-1.3.4+26.1.2-fabric" = _Q6bCPgSr;
+        "pkg-1.3.4+26.1.2-neoforge" = _vkKZ0i58;
+        "pkg-1.3.4+26.2-fabric" = _LyqVk6PP;
+        "pkg-1.3.4+26.2-neoforge" = _YEQB0NKo;
+        "default" = _YEQB0NKo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "aviator-dreams-reloaded";

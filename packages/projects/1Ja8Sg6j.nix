@@ -76,6 +76,11 @@ let
             "file" = "Borderless Glass v1.0.1 - 26.2.zip";
             "hash" = "sha512-wOV5gIa5Awro9iokCclzIo4HMznC0NTpbtxATugFXlPSQsv8LY1EcLIbHV6KVleiZS4Q2Oc7fbBGO9AQ6+4KMw==";
         };
+        _q2NxaIFL = {
+            "id" = "q2NxaIFL";
+            "file" = "Borderless Glass v1.0.2 - 26.3.zip";
+            "hash" = "sha512-9pcLf+TN9VtdRQfPcNJbvf/0hmLqsLL+Ms9KA3XHAzVUsdIIuSNCst2CIehxuxY/4IzNsL2oyc/ItgWxLFRMtw==";
+        };
     in {
         "8CK4RPCD" = _8CK4RPCD;
         "8MUPdp61" = _8MUPdp61;
@@ -92,6 +97,7 @@ let
         "Qe8D0wfJ" = _Qe8D0wfJ;
         "pQWlIAbo" = _pQWlIAbo;
         "G9mLoGP6" = _G9mLoGP6;
+        "q2NxaIFL" = _q2NxaIFL;
         "minecraft-1.18" = _8CK4RPCD;
         "minecraft-1.18.1" = _8CK4RPCD;
         "minecraft-1.18.2" = _8CK4RPCD;
@@ -118,6 +124,7 @@ let
         "minecraft-26.1.1" = _pQWlIAbo;
         "minecraft-26.1.2" = _pQWlIAbo;
         "minecraft-26.2" = _G9mLoGP6;
+        "minecraft-26.3" = _q2NxaIFL;
         "pkg-1.0" = _91lyTuSs;
         "pkg-1.0+1.20.5" = _nVpvQAbL;
         "pkg-1.0+1.21" = _AaBDFaRI;
@@ -130,7 +137,8 @@ let
         "pkg-1.0.1-mc1.21.11" = _Qe8D0wfJ;
         "pkg-1.0.1-mc26.1" = _pQWlIAbo;
         "pkg-1.0.1-mc26.2" = _G9mLoGP6;
-        "default" = _G9mLoGP6;
+        "pkg-1.0.2-mc26.3" = _q2NxaIFL;
+        "default" = _q2NxaIFL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "borderless-glass";

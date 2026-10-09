@@ -171,6 +171,11 @@ let
             "file" = "BetterSkyblockDrops_v2.6.2.jar";
             "hash" = "sha512-Z5VLyWduQC0L479mlecfOsCuubOiXlsrn6b/dv35xSLz9hJIsP8WUPCglOUQMsDXups2h7O4kw0SsEBhOAS4ug==";
         };
+        _qeQrJECl = {
+            "id" = "qeQrJECl";
+            "file" = "BetterSkyblockDrops_v2.6.3.jar";
+            "hash" = "sha512-NNWtG2J/ty2iFE4HRfllfr15xB1KwCCeP3m9P7nAjVjdHfMrhR37u2epfALKruFF+0XLVqNsRlIxqb6A4ex5TQ==";
+        };
     in {
         "ocbJxIcP" = _ocbJxIcP;
         "RmOduSdD" = _RmOduSdD;
@@ -206,6 +211,7 @@ let
         "2dPuRZ9w" = _2dPuRZ9w;
         "O91DiuaQ" = _O91DiuaQ;
         "bwehxEw0" = _bwehxEw0;
+        "qeQrJECl" = _qeQrJECl;
         "bukkit-1.20" = _RmOduSdD;
         "bukkit-1.20.1" = _RmOduSdD;
         "bukkit-1.20.2" = _RmOduSdD;
@@ -280,6 +286,7 @@ let
         "bukkit-26.1.1" = _O91DiuaQ;
         "bukkit-26.1.2" = _O91DiuaQ;
         "bukkit-26.2" = _bwehxEw0;
+        "bukkit-26.3" = _qeQrJECl;
         "paper-1.20" = _RmOduSdD;
         "paper-1.20.1" = _RmOduSdD;
         "paper-1.20.2" = _RmOduSdD;
@@ -354,6 +361,7 @@ let
         "paper-26.1.1" = _O91DiuaQ;
         "paper-26.1.2" = _O91DiuaQ;
         "paper-26.2" = _bwehxEw0;
+        "paper-26.3" = _qeQrJECl;
         "spigot-1.20" = _RmOduSdD;
         "spigot-1.20.1" = _RmOduSdD;
         "spigot-1.20.2" = _RmOduSdD;
@@ -428,6 +436,7 @@ let
         "spigot-26.1.1" = _O91DiuaQ;
         "spigot-26.1.2" = _O91DiuaQ;
         "spigot-26.2" = _bwehxEw0;
+        "spigot-26.3" = _qeQrJECl;
         "folia-1.21" = _1R4nFCBR;
         "folia-1.21.1" = _1R4nFCBR;
         "folia-1.21.2" = _1R4nFCBR;
@@ -444,6 +453,7 @@ let
         "folia-26.1.1" = _O91DiuaQ;
         "folia-26.1.2" = _O91DiuaQ;
         "folia-26.2" = _bwehxEw0;
+        "folia-26.3" = _qeQrJECl;
         "pkg-v1.3" = _sFTQxJf0;
         "pkg-v2" = _FYWInosL;
         "pkg-v2.1" = _MSIOa2Mx;
@@ -463,7 +473,8 @@ let
         "pkg-v2.6" = _2dPuRZ9w;
         "pkg-v2.6.1" = _O91DiuaQ;
         "pkg-v2.6.2" = _bwehxEw0;
-        "default" = _bwehxEw0;
+        "pkg-v2.6.3" = _qeQrJECl;
+        "default" = _qeQrJECl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-skyblock-drops";

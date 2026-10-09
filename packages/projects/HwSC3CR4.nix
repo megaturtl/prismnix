@@ -191,6 +191,16 @@ let
             "file" = "artificers_armory-1.0.4-1.21.1-neoforge.jar";
             "hash" = "sha512-LEVkBIheirJRyKPng4aGr0PPuMSGYq7At3Z4C8ZGvKUARkVqTOCxV/1jVzZrYV3wVu5GWcXeamPjC/yHveoDCg==";
         };
+        _rlhdEifS = {
+            "id" = "rlhdEifS";
+            "file" = "artificers_armory-1.0.5-1.20.1-forge-neoforge.jar";
+            "hash" = "sha512-iBxmaZzHJVDS3QK6Er1u8HMURQaBJaCFM6q3VCEdNYi2UdIUDoJVQamSEbe+qmdLBO0xE0EqgBw7RN2Il8p8eA==";
+        };
+        _jCNbSNZv = {
+            "id" = "jCNbSNZv";
+            "file" = "artificers_armory-1.0.5-1.21.1-neoforge.jar";
+            "hash" = "sha512-iX2/Wdp//CH1eI/5zbOFapdM1kVzF8ukqAI6mVeshB8mxawqgGfHb6YuFKQGhFVMx2jzqNOU3atgh6AAf51H6Q==";
+        };
     in {
         "NlppNpHn" = _NlppNpHn;
         "K1G7zzul" = _K1G7zzul;
@@ -230,10 +240,12 @@ let
         "hiOJgqiF" = _hiOJgqiF;
         "IP3pGxbV" = _IP3pGxbV;
         "ksi3SubT" = _ksi3SubT;
-        "forge-1.20.1" = _IP3pGxbV;
-        "neoforge-1.20.1" = _IP3pGxbV;
-        "neoforge-1.21" = _ksi3SubT;
-        "neoforge-1.21.1" = _ksi3SubT;
+        "rlhdEifS" = _rlhdEifS;
+        "jCNbSNZv" = _jCNbSNZv;
+        "forge-1.20.1" = _rlhdEifS;
+        "neoforge-1.20.1" = _rlhdEifS;
+        "neoforge-1.21" = _jCNbSNZv;
+        "neoforge-1.21.1" = _jCNbSNZv;
         "pkg-0.0.1-forge-neoforge-1.20.1" = _NlppNpHn;
         "pkg-0.0.2-forge-neoforge-1.20.1" = _K1G7zzul;
         "pkg-0.0.2" = _T4Tkihxj;
@@ -255,7 +267,8 @@ let
         "pkg-1.0.2" = _I7pcZN1b;
         "pkg-1.0.3" = _hiOJgqiF;
         "pkg-1.0.4" = _ksi3SubT;
-        "default" = _ksi3SubT;
+        "pkg-1.0.5" = _jCNbSNZv;
+        "default" = _jCNbSNZv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "artificers-armory";

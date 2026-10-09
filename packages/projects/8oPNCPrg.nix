@@ -196,6 +196,16 @@ let
             "file" = "anything-in-sulfur-cubes-0.6.1.jar";
             "hash" = "sha512-Yuw5/S1iYj3lpsTptXZMDM6MPvEoeudVYJ9gSI2bjrlMMkT4ROcZMiVDl304quosGd651fxnG8RjiDcBFelKiA==";
         };
+        _we6oQt5M = {
+            "id" = "we6oQt5M";
+            "file" = "anything-in-sulfur-cubes-0.6.1+26.3.zip";
+            "hash" = "sha512-axFNVFaWc9b5iirkLqV8XJXI6Iwxfp+X7/Rxw2CF/0EJ77VQgNj/UI+Us4vXEQchvSzVmGrEfpT1lfy3PmBc5A==";
+        };
+        _psUoATcr = {
+            "id" = "psUoATcr";
+            "file" = "anything-in-sulfur-cubes-0.6.1.jar";
+            "hash" = "sha512-/iuxvgGiMkUOx7BrMXl5s3jZQ4th8lzIuPywXysUjV/O7VfKS1g5B6qxmVGq9z4tnTIe1TLuVTYHWClts+Rp5w==";
+        };
     in {
         "Tgms9P5a" = _Tgms9P5a;
         "EPA7D1lJ" = _EPA7D1lJ;
@@ -236,6 +246,8 @@ let
         "cB6NCNL1" = _cB6NCNL1;
         "LxSxtszU" = _LxSxtszU;
         "LyU6PliQ" = _LyU6PliQ;
+        "we6oQt5M" = _we6oQt5M;
+        "psUoATcr" = _psUoATcr;
         "datapack-26.2-snapshot-1" = _EPA7D1lJ;
         "datapack-26.2-snapshot-2" = _zdsVRPvU;
         "datapack-26.2-snapshot-3" = _rRweHBJT;
@@ -252,6 +264,7 @@ let
         "datapack-26.2-rc-1" = _n1ReKIoB;
         "datapack-26.2-rc-2" = _n1ReKIoB;
         "datapack-26.2" = _cB6NCNL1;
+        "datapack-26.3" = _we6oQt5M;
         "fabric-26.2-snapshot-1" = _79T1FkDP;
         "fabric-26.2-snapshot-2" = _v9k5GCO7;
         "fabric-26.2-snapshot-3" = _g5h8SBvT;
@@ -268,6 +281,7 @@ let
         "fabric-26.2-rc-1" = _cUcHGEA7;
         "fabric-26.2-rc-2" = _cUcHGEA7;
         "fabric-26.2" = _LyU6PliQ;
+        "fabric-26.3" = _psUoATcr;
         "forge-26.2-snapshot-1" = _79T1FkDP;
         "forge-26.2-snapshot-2" = _v9k5GCO7;
         "forge-26.2-snapshot-3" = _g5h8SBvT;
@@ -284,6 +298,7 @@ let
         "forge-26.2-rc-1" = _cUcHGEA7;
         "forge-26.2-rc-2" = _cUcHGEA7;
         "forge-26.2" = _LyU6PliQ;
+        "forge-26.3" = _psUoATcr;
         "neoforge-26.2-snapshot-1" = _79T1FkDP;
         "neoforge-26.2-snapshot-2" = _v9k5GCO7;
         "neoforge-26.2-snapshot-3" = _g5h8SBvT;
@@ -300,6 +315,7 @@ let
         "neoforge-26.2-rc-1" = _cUcHGEA7;
         "neoforge-26.2-rc-2" = _cUcHGEA7;
         "neoforge-26.2" = _LyU6PliQ;
+        "neoforge-26.3" = _psUoATcr;
         "quilt-26.2-snapshot-1" = _79T1FkDP;
         "quilt-26.2-snapshot-2" = _v9k5GCO7;
         "quilt-26.2-snapshot-3" = _g5h8SBvT;
@@ -316,6 +332,7 @@ let
         "quilt-26.2-rc-1" = _cUcHGEA7;
         "quilt-26.2-rc-2" = _cUcHGEA7;
         "quilt-26.2" = _LyU6PliQ;
+        "quilt-26.3" = _psUoATcr;
         "pkg-0.1.0" = _Tgms9P5a;
         "pkg-0.2.0" = _EPA7D1lJ;
         "pkg-0.2.0+mod" = _79T1FkDP;
@@ -329,9 +346,9 @@ let
         "pkg-0.5.0+mod" = _2xScHwrn;
         "pkg-0.6.0" = _wdIrXoC3;
         "pkg-0.6.0+mod" = _93bf3pdm;
-        "pkg-0.6.1" = _cB6NCNL1;
-        "pkg-0.6.1+mod" = _LyU6PliQ;
-        "default" = _LyU6PliQ;
+        "pkg-0.6.1" = _we6oQt5M;
+        "pkg-0.6.1+mod" = _psUoATcr;
+        "default" = _psUoATcr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "anything-in-sulfur-cubes";

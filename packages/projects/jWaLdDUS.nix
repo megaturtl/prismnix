@@ -41,6 +41,16 @@ let
             "file" = "JR_East_E131_Series_v1.5.zip";
             "hash" = "sha512-YrmlkVT5YLpVyAJ1fh3a6i6tBkiiwX/ACEUsNaP8KaIJ5Fuo7XeO1DGOfxTFJNsVlFoyIkUPwZffsRfwYl2k4w==";
         };
+        _K02827AO = {
+            "id" = "K02827AO";
+            "file" = "JR_East_E131_Series_v1.6.zip";
+            "hash" = "sha512-q7O15Pbj4N4DmY1zrGlcNLxaPCNm7Wi6FfcV1KKx2xn9pBwZ4xlLMoCLLIhh+br4h3J5cB9IXkJJgOQALz4wFg==";
+        };
+        _lATcsI5v = {
+            "id" = "lATcsI5v";
+            "file" = "JR_East_E131_Series_v1.6.1.zip";
+            "hash" = "sha512-WPVoigSYOQyIAKSVq/B/teNvo6nHClka952wsf2DUSNBbg2g4aFW//7Z/czlvMD4UtlDXVtLmNUfL0/2hVrzNg==";
+        };
     in {
         "QCWDrkFj" = _QCWDrkFj;
         "ZqIOsINC" = _ZqIOsINC;
@@ -50,20 +60,23 @@ let
         "NM6oCIh9" = _NM6oCIh9;
         "90KseMKq" = _90KseMKq;
         "3aaiPw2D" = _3aaiPw2D;
-        "minecraft-1.18.2" = _3aaiPw2D;
-        "minecraft-1.19.2" = _3aaiPw2D;
-        "minecraft-1.19.4" = _3aaiPw2D;
-        "minecraft-1.20.1" = _3aaiPw2D;
-        "minecraft-1.20.4" = _3aaiPw2D;
-        "minecraft-1.17.1" = _3aaiPw2D;
-        "minecraft-1.20" = _3aaiPw2D;
-        "minecraft-1.18" = _3aaiPw2D;
-        "minecraft-1.18.1" = _3aaiPw2D;
-        "minecraft-1.19" = _3aaiPw2D;
-        "minecraft-1.19.1" = _3aaiPw2D;
-        "minecraft-1.19.3" = _3aaiPw2D;
-        "minecraft-1.20.2" = _3aaiPw2D;
-        "minecraft-1.20.3" = _3aaiPw2D;
+        "K02827AO" = _K02827AO;
+        "lATcsI5v" = _lATcsI5v;
+        "minecraft-1.18.2" = _lATcsI5v;
+        "minecraft-1.19.2" = _lATcsI5v;
+        "minecraft-1.19.4" = _lATcsI5v;
+        "minecraft-1.20.1" = _lATcsI5v;
+        "minecraft-1.20.4" = _lATcsI5v;
+        "minecraft-1.17.1" = _lATcsI5v;
+        "minecraft-1.20" = _lATcsI5v;
+        "minecraft-1.18" = _lATcsI5v;
+        "minecraft-1.18.1" = _lATcsI5v;
+        "minecraft-1.19" = _lATcsI5v;
+        "minecraft-1.19.1" = _lATcsI5v;
+        "minecraft-1.19.3" = _lATcsI5v;
+        "minecraft-1.20.2" = _lATcsI5v;
+        "minecraft-1.20.3" = _lATcsI5v;
+        "minecraft-1.17" = _lATcsI5v;
         "pkg-1.0" = _QCWDrkFj;
         "pkg-1.1" = _ZqIOsINC;
         "pkg-1.2" = _GDK4hDTO;
@@ -72,7 +85,9 @@ let
         "pkg-1.4.1" = _NM6oCIh9;
         "pkg-1.4.2" = _90KseMKq;
         "pkg-1.5" = _3aaiPw2D;
-        "default" = _3aaiPw2D;
+        "pkg-1.6" = _K02827AO;
+        "pkg-1.6.1" = _lATcsI5v;
+        "default" = _lATcsI5v;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jr-east-e131-500";

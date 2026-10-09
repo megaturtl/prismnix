@@ -131,6 +131,11 @@ let
             "file" = "pvptoggle-1.6.1+26.2.jar";
             "hash" = "sha512-DDauRDY6Siire1rhmqTCHhzyeBHvLWZRwizjZQDwRaSn7KNefU0BygkJa+AlmpqXyi04hhUHPRiIsf3LCkvESg==";
         };
+        _lCTbzPH7 = {
+            "id" = "lCTbzPH7";
+            "file" = "pvptoggle-1.6.1+26.3.jar";
+            "hash" = "sha512-jWOVG2wE2WrJeTd+ZpL4fKtxqaKAO7kfR97q86Jht4H6AQ10EnZvLxwb5+E28OtT2v/PbfDgTHWiZNA6XLwpew==";
+        };
     in {
         "ruBUjaGe" = _ruBUjaGe;
         "ICz68XnZ" = _ICz68XnZ;
@@ -158,6 +163,7 @@ let
         "51449sv8" = _51449sv8;
         "9Ql1uFAh" = _9Ql1uFAh;
         "xldzDGQd" = _xldzDGQd;
+        "lCTbzPH7" = _lCTbzPH7;
         "fabric-1.21.5" = _oBFU3btl;
         "fabric-1.21.2" = _ICz68XnZ;
         "fabric-1.21" = _K7TVraXN;
@@ -174,6 +180,7 @@ let
         "fabric-26.1.1" = _6ehEDkiS;
         "fabric-26.1.2" = _51449sv8;
         "fabric-26.2" = _xldzDGQd;
+        "fabric-26.3" = _lCTbzPH7;
         "pkg-1.0.0+1.21.5" = _ruBUjaGe;
         "pkg-1.0.0+1.21.2" = _ICz68XnZ;
         "pkg-1.0.0+1.21" = _K7TVraXN;
@@ -200,7 +207,8 @@ let
         "pkg-1.6.0+26.1.2" = _51449sv8;
         "pkg-1.6.0+26.2" = _9Ql1uFAh;
         "pkg-1.6.1+26.2" = _xldzDGQd;
-        "default" = _xldzDGQd;
+        "pkg-1.6.1+26.3" = _lCTbzPH7;
+        "default" = _lCTbzPH7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pvp-toggle-mod";

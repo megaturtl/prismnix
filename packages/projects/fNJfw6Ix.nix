@@ -56,6 +56,11 @@ let
             "file" = "Tinker-Things-1.20.1-1.3.3.jar";
             "hash" = "sha512-65RQlAkCEimns/Aw3B+qU23X9CV+1dp+TPOdcjK+5zjn2v2kHAVVrr4jXbO1Q+NLbTzSleY5Pr7aCHj5oBKhHA==";
         };
+        _yEq3IZ85 = {
+            "id" = "yEq3IZ85";
+            "file" = "Tinker-Things-1.20.1-1.3.4.jar";
+            "hash" = "sha512-fwx6X2QRrxflBoiBCFdmdyaWEtwYIZcO/vGXdae5XmKMHW9MNujLWBRVWIul4Exr+ZqFYTddSGGFuTyYIzk40g==";
+        };
     in {
         "xR6kk4Pd" = _xR6kk4Pd;
         "Do6sXwQn" = _Do6sXwQn;
@@ -68,10 +73,11 @@ let
         "e87haXxN" = _e87haXxN;
         "DUDhDaAo" = _DUDhDaAo;
         "XdV0Jtbr" = _XdV0Jtbr;
+        "yEq3IZ85" = _yEq3IZ85;
         "forge-1.18.2" = _9dZRLdOx;
         "forge-1.19.2" = _REfzhrgb;
-        "forge-1.20.1" = _XdV0Jtbr;
-        "neoforge-1.20.1" = _XdV0Jtbr;
+        "forge-1.20.1" = _yEq3IZ85;
+        "neoforge-1.20.1" = _yEq3IZ85;
         "pkg-1.0.0" = _xR6kk4Pd;
         "pkg-1.0.1" = _Do6sXwQn;
         "pkg-1.0.2" = _yeCPGOnS;
@@ -83,7 +89,8 @@ let
         "pkg-1.3.1" = _e87haXxN;
         "pkg-1.3.2" = _DUDhDaAo;
         "pkg-1.3.3" = _XdV0Jtbr;
-        "default" = _XdV0Jtbr;
+        "pkg-1.3.4" = _yEq3IZ85;
+        "default" = _yEq3IZ85;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tinkers-things";

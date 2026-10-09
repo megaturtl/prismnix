@@ -56,6 +56,11 @@ let
             "file" = "BetterSpringToLife-1.3-Fabric.jar";
             "hash" = "sha512-TX61wdJSDtkewPm1iVIaakV4JpTAKsZN0YgreBObEqOGAoFTpDPYafwgDHnLFxdFP5FmP8o/eV6vSdsDARYm3w==";
         };
+        _MlxX4TVH = {
+            "id" = "MlxX4TVH";
+            "file" = "BetterSpringToLife-1.4-Fabric.jar";
+            "hash" = "sha512-VTjz9thDSSuxbwa6KOvlZ4e3byIqqqpKwy1DvhEtE1L+QrfHG8bRTw2IyINZhXcLJFB7Ekp/w0cEIriQwVJyDA==";
+        };
     in {
         "D0lrsLGp" = _D0lrsLGp;
         "jbgHi4AQ" = _jbgHi4AQ;
@@ -68,6 +73,7 @@ let
         "u7VmJvu6" = _u7VmJvu6;
         "e8eECHjk" = _e8eECHjk;
         "qZduVuQe" = _qZduVuQe;
+        "MlxX4TVH" = _MlxX4TVH;
         "fabric-1.21.5" = _txiABgnL;
         "fabric-1.21.6" = _oL9M16Hx;
         "fabric-1.21.7" = _gV8kxUGc;
@@ -77,6 +83,7 @@ let
         "fabric-1.21.11" = _u7VmJvu6;
         "fabric-26.1.2" = _e8eECHjk;
         "fabric-26.2" = _qZduVuQe;
+        "fabric-26.3" = _MlxX4TVH;
         "pkg-1.0.0-Fabric" = _D0lrsLGp;
         "pkg-1.0.1-Fabric" = _jbgHi4AQ;
         "pkg-1.0.2-Fabric" = _PdhRwUKt;
@@ -87,7 +94,8 @@ let
         "pkg-1.1-Fabric" = _u7VmJvu6;
         "pkg-1.2-Fabric" = _e8eECHjk;
         "pkg-1.3-Fabric" = _qZduVuQe;
-        "default" = _qZduVuQe;
+        "pkg-1.4-Fabric" = _MlxX4TVH;
+        "default" = _MlxX4TVH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hendrixs-better-spring-to-life";

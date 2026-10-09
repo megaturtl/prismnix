@@ -856,6 +856,21 @@ let
             "file" = "fcl-26.11.jar";
             "hash" = "sha512-qWJTn4eu+uX1Q8D34NTGA7M/qOo8Q/IEvFYv4NEc53MVGozu+M/jgVKmpSAkXYEn2irXNyr1eFG/Ht+NbmKFbA==";
         };
+        _za00g99c = {
+            "id" = "za00g99c";
+            "file" = "FCL-12.120.jar";
+            "hash" = "sha512-dDauf/YTpmlqHBVPxPie1TlguF5apUKuiWZUddff89Fvxr0BaJJa8XHV0BgIfwNrHLhDvHeZSvAx3u4JQXGw8A==";
+        };
+        _nbp86tyK = {
+            "id" = "nbp86tyK";
+            "file" = "fcl-20.47.jar";
+            "hash" = "sha512-RytxPFwf8lOkDFANAtoXGChTDv26Q4dWzG5H1sXSfaDwdwf6NXOsx6Akb9qTH5q/Pd0X1I6EAaRm51UYJPgpeQ==";
+        };
+        _wVNtsHeO = {
+            "id" = "wVNtsHeO";
+            "file" = "fcl-26.12.jar";
+            "hash" = "sha512-s59os4MoGU8hDpSIxde2jReEZzs84QpmzeoR0T7+VNHRZvNf14rnKdj3zpFoxfMLqh0n45gj0NP/mndXojk1ww==";
+        };
     in {
         "pRahLpz3" = _pRahLpz3;
         "ZL45qE3L" = _ZL45qE3L;
@@ -1028,15 +1043,18 @@ let
         "kd944jiI" = _kd944jiI;
         "BHpmo51B" = _BHpmo51B;
         "nNw1WhSQ" = _nNw1WhSQ;
-        "forge-1.12.2" = _kd944jiI;
-        "forge-1.20.1" = _BHpmo51B;
+        "za00g99c" = _za00g99c;
+        "nbp86tyK" = _nbp86tyK;
+        "wVNtsHeO" = _wVNtsHeO;
+        "forge-1.12.2" = _za00g99c;
+        "forge-1.20.1" = _nbp86tyK;
         "neoforge-1.20.4" = _q48Be9nW;
         "fabric-1.21.4" = _HLamHOq6;
         "fabric-1.21.5" = _TLWQKosf;
         "fabric-1.21.8" = _V4cqsBzK;
-        "fabric-26.1" = _nNw1WhSQ;
-        "fabric-26.1.1" = _nNw1WhSQ;
-        "fabric-26.1.2" = _nNw1WhSQ;
+        "fabric-26.1" = _wVNtsHeO;
+        "fabric-26.1.1" = _wVNtsHeO;
+        "fabric-26.1.2" = _wVNtsHeO;
         "pkg-1.12.70" = _pRahLpz3;
         "pkg-1.12.70c" = _ZL45qE3L;
         "pkg-1.12.71" = _YeUqsQR0;
@@ -1201,7 +1219,10 @@ let
         "pkg-12.119" = _kd944jiI;
         "pkg-20.46" = _BHpmo51B;
         "pkg-26.11" = _nNw1WhSQ;
-        "default" = _nNw1WhSQ;
+        "pkg-12.120" = _za00g99c;
+        "pkg-20.47" = _nbp86tyK;
+        "pkg-26.12" = _wVNtsHeO;
+        "default" = _wVNtsHeO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fcl";

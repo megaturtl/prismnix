@@ -16,18 +16,26 @@ let
             "file" = "villager-trade-reroller-1.0.0.jar";
             "hash" = "sha512-F7n+i0+3LB210oetMn9f+cvxxLkKMx9cFuLvwc04rIqNjn0J4P3rYSDHXCvpTD3YLIatfUk/rmRXWK2eb/mFLQ==";
         };
+        _QGLPlpsl = {
+            "id" = "QGLPlpsl";
+            "file" = "villager-trade-reroller-1.0.3.jar";
+            "hash" = "sha512-v2nhTliSiGEzmF0SyES0yEXEW746yjsc2rPWY/XUwvau3MziV9zjmbQMJbFbaGTPj12oIadDuS+HPgyFiXORLw==";
+        };
     in {
         "LTkQ6uez" = _LTkQ6uez;
         "8R2adXQJ" = _8R2adXQJ;
         "dXsIwmjr" = _dXsIwmjr;
+        "QGLPlpsl" = _QGLPlpsl;
         "fabric-1.21.11" = _LTkQ6uez;
         "fabric-26.1" = _8R2adXQJ;
         "fabric-26.1.1" = _8R2adXQJ;
         "fabric-26.2" = _dXsIwmjr;
+        "fabric-26.3" = _QGLPlpsl;
         "pkg-1.0.0" = _LTkQ6uez;
         "pkg-1.0.1" = _8R2adXQJ;
         "pkg-1.0.2" = _dXsIwmjr;
-        "default" = _dXsIwmjr;
+        "pkg-1.0.3" = _QGLPlpsl;
+        "default" = _QGLPlpsl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "villager-trade-reroller";

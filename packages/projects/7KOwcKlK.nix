@@ -121,6 +121,16 @@ let
             "file" = "Epic Witch Huts v1.3.1.jar";
             "hash" = "sha512-nu5aucvk0tpqaDFJxa4hNYsDk3KcTt5/LNFpJB9aixfJUg4Z/BkiIcsEQM4hTpTjsz/5b6nEnnZzEOL+1VVywQ==";
         };
+        _X30ax0e0 = {
+            "id" = "X30ax0e0";
+            "file" = "Epic Witch Huts v1.3.2 (26.3).zip";
+            "hash" = "sha512-u3DiIaGD2Td38ij8kxQMC+hgS3CVdy/RaZAxysBd97LDHkUJmo8RLhby/lJiyhz2O82usIF8pOypMKOSS1z3Zw==";
+        };
+        _4yucqO2B = {
+            "id" = "4yucqO2B";
+            "file" = "Epic Witch Huts v1.3.2 (26.3).jar";
+            "hash" = "sha512-TB905mZ4Vzvvc7NBji3K2mpUbc2k+dvDwi1hwm6lfa9tv8d24EMKajbv7MFgtRXb9+0Fjyb6HtcAyFmG583U0g==";
+        };
     in {
         "avRBQWx8" = _avRBQWx8;
         "tRkeGP5L" = _tRkeGP5L;
@@ -146,6 +156,8 @@ let
         "nRl1Bn5j" = _nRl1Bn5j;
         "CUnq3JFk" = _CUnq3JFk;
         "WAWShTQy" = _WAWShTQy;
+        "X30ax0e0" = _X30ax0e0;
+        "4yucqO2B" = _4yucqO2B;
         "datapack-1.19" = _CUnq3JFk;
         "datapack-1.19.1" = _CUnq3JFk;
         "datapack-1.19.2" = _CUnq3JFk;
@@ -174,6 +186,7 @@ let
         "datapack-26.1.1" = _CUnq3JFk;
         "datapack-26.1.2" = _CUnq3JFk;
         "datapack-26.2" = _CUnq3JFk;
+        "datapack-26.3" = _X30ax0e0;
         "fabric-1.19" = _WAWShTQy;
         "fabric-1.19.1" = _WAWShTQy;
         "fabric-1.19.2" = _WAWShTQy;
@@ -202,6 +215,7 @@ let
         "fabric-26.1.1" = _WAWShTQy;
         "fabric-26.1.2" = _WAWShTQy;
         "fabric-26.2" = _WAWShTQy;
+        "fabric-26.3" = _4yucqO2B;
         "forge-1.19" = _WAWShTQy;
         "forge-1.19.1" = _WAWShTQy;
         "forge-1.19.2" = _WAWShTQy;
@@ -230,6 +244,7 @@ let
         "forge-26.1.1" = _WAWShTQy;
         "forge-26.1.2" = _WAWShTQy;
         "forge-26.2" = _WAWShTQy;
+        "forge-26.3" = _4yucqO2B;
         "neoforge-1.19" = _WAWShTQy;
         "neoforge-1.19.1" = _WAWShTQy;
         "neoforge-1.19.2" = _WAWShTQy;
@@ -258,6 +273,7 @@ let
         "neoforge-26.1.1" = _WAWShTQy;
         "neoforge-26.1.2" = _WAWShTQy;
         "neoforge-26.2" = _WAWShTQy;
+        "neoforge-26.3" = _4yucqO2B;
         "quilt-1.21" = _WAWShTQy;
         "quilt-1.21.1" = _WAWShTQy;
         "quilt-1.21.2" = _WAWShTQy;
@@ -286,12 +302,14 @@ let
         "quilt-1.20.5" = _WAWShTQy;
         "quilt-1.20.6" = _WAWShTQy;
         "quilt-26.2" = _WAWShTQy;
+        "quilt-26.3" = _4yucqO2B;
         "pkg-1.0.0" = _7nIIgmbU;
         "pkg-1.1.0" = _y5uqLiq6;
         "pkg-1.2.0" = _leGotJLm;
         "pkg-1.3.0" = _nRl1Bn5j;
         "pkg-1.3.1" = _WAWShTQy;
-        "default" = _WAWShTQy;
+        "pkg-1.3.2" = _4yucqO2B;
+        "default" = _4yucqO2B;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "epic-structures-witch-huts";

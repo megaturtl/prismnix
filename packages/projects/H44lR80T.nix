@@ -61,6 +61,11 @@ let
             "file" = "No Tree Punching Modernized 1.20.1.zip";
             "hash" = "sha512-fO7282mRyZwJ0agFoF3477XApea7KT/6tqyPdqtEkW1y5e+t9Am8+HcBggVXywagn8QuLMep7OAtY19XeIOaag==";
         };
+        _qpgfsEDW = {
+            "id" = "qpgfsEDW";
+            "file" = "No Tree Punching Modernized 1.21.1.zip";
+            "hash" = "sha512-+xRzoY5sNZDUZXzK16tIHHlwxxw8Cfz8TIpIpO7RBZCSgDVuDvVZZQ5hOfuAqHtsgXY2Gv05wK6/j5GLPr1GHQ==";
+        };
     in {
         "9dQxbgsy" = _9dQxbgsy;
         "HtmNcwV7" = _HtmNcwV7;
@@ -74,6 +79,7 @@ let
         "VESECpaJ" = _VESECpaJ;
         "q8SOCQTD" = _q8SOCQTD;
         "Tz3gk3PG" = _Tz3gk3PG;
+        "qpgfsEDW" = _qpgfsEDW;
         "minecraft-1.12.2" = _qgwdagsP;
         "minecraft-1.15.2" = _NBAFraQe;
         "minecraft-1.16.5" = _PuzhUQQA;
@@ -81,14 +87,15 @@ let
         "minecraft-1.19.2" = _q8SOCQTD;
         "minecraft-1.20" = _Tz3gk3PG;
         "minecraft-1.20.1" = _Tz3gk3PG;
+        "minecraft-1.21" = _qpgfsEDW;
         "pkg-1.0" = _9dQxbgsy;
         "pkg-1.1" = _HtmNcwV7;
         "pkg-1.2" = _sJYf4K0X;
         "pkg-1.3" = _87xM3OKX;
         "pkg-1.4" = _FGpioPKr;
         "pkg-1.5" = _y0OVDz2j;
-        "pkg-1.6" = _Tz3gk3PG;
-        "default" = _Tz3gk3PG;
+        "pkg-1.6" = _qpgfsEDW;
+        "default" = _qpgfsEDW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "levviatas-no-tree-punching-modernized";

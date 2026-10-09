@@ -41,6 +41,11 @@ let
             "file" = "animon-fix-fabric-1.0.2.jar";
             "hash" = "sha512-1jR62QxjyBVz7jh9Esz5obnvoVO53WmE2RoQ6L9nbK2ayGvGhdkS4JY31H1gV4W6TIXqkgdiXWcrIGTfOs8syA==";
         };
+        _H5siUA6c = {
+            "id" = "H5siUA6c";
+            "file" = "animon-fix-neoforge-1.0.3.jar";
+            "hash" = "sha512-/31S6CdHEi4n0NnM6ia+v1Jz5Xnn+Div2PB9GZcBEXNX+P56grz/Q8g5EzbnGwMTJwdllkiZw+OMYPzNGYqh0A==";
+        };
     in {
         "LyHuF0ys" = _LyHuF0ys;
         "ZwaYRtYL" = _ZwaYRtYL;
@@ -50,6 +55,7 @@ let
         "aVTLeNHQ" = _aVTLeNHQ;
         "uzESIkTW" = _uzESIkTW;
         "HxbvLRzn" = _HxbvLRzn;
+        "H5siUA6c" = _H5siUA6c;
         "fabric-1.20.1" = _LyHuF0ys;
         "fabric-1.21.1" = _HxbvLRzn;
         "fabric-1.21.2" = _HxbvLRzn;
@@ -62,13 +68,14 @@ let
         "fabric-1.21.9" = _HxbvLRzn;
         "fabric-1.21.10" = _HxbvLRzn;
         "fabric-1.21.11" = _HxbvLRzn;
-        "neoforge-1.21.1" = _uzESIkTW;
+        "neoforge-1.21.1" = _H5siUA6c;
         "pkg-1.1" = _LyHuF0ys;
         "pkg-1.2" = _ZwaYRtYL;
         "pkg-1.0.0" = _45fuc0ew;
         "pkg-1.0.1" = _aVTLeNHQ;
         "pkg-1.0.2" = _HxbvLRzn;
-        "default" = _HxbvLRzn;
+        "pkg-1.0.3" = _H5siUA6c;
+        "default" = _H5siUA6c;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "animon-soundfix";

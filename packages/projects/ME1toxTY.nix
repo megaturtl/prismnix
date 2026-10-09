@@ -86,6 +86,26 @@ let
             "file" = "vertical-slabs-v2.1.1.jar";
             "hash" = "sha512-xIuU6acZjWXkp8YsVFrRe06rYZM4nG2QBgh0rj6DiJtSzSkb6vCbp7tWBtmBFHRYI1QYijk/hvNqQehZS5UatQ==";
         };
+        _iiihnBKr = {
+            "id" = "iiihnBKr";
+            "file" = "Vertical Slabs v2.1.1 - 26.3.zip";
+            "hash" = "sha512-BBFAIuDYdIm+s0TUG5Ys82Iwh8buTYgb6OltoVxCJ67WndgWbXJIOQ38/u9hBclUCSXbCqnxzaVxcNr08A+3Kg==";
+        };
+        _dtTgv9Pe = {
+            "id" = "dtTgv9Pe";
+            "file" = "vertical-slabs-v2.1.1.jar";
+            "hash" = "sha512-vowsL76z8IkinOqqdPFJEykFgPwaVDQ8XfLTyKifkPUOgxVdYmIgh5tvcE3q2CDBl5nk0zYBRuMWh5MqJJydMg==";
+        };
+        _OcKXl3In = {
+            "id" = "OcKXl3In";
+            "file" = "Vertical Slabs v2.1.2 - 26.3.zip";
+            "hash" = "sha512-kV6fgSWGOht0CppcU7pGMDefCW17YS0I3DUAXrsu2QXqzwXbxVwjHjb0NLul9raRNGVk3SH+YOi9lW2/tpUz2w==";
+        };
+        _j4fszMAy = {
+            "id" = "j4fszMAy";
+            "file" = "vertical-slabs-v2.1.2.jar";
+            "hash" = "sha512-ubbG8OhdNKBfirzKEUa/u9BUEbKwvh0p7E/uFyeNvRAGMqMfoa7zCZVjj+2KMRwu4TMrqn3z7XKYBTceEYVxjg==";
+        };
     in {
         "ObEX3aBb" = _ObEX3aBb;
         "3gRK0BKb" = _3gRK0BKb;
@@ -104,6 +124,10 @@ let
         "OguqXd9z" = _OguqXd9z;
         "Zwtj9KPF" = _Zwtj9KPF;
         "fixtJyH8" = _fixtJyH8;
+        "iiihnBKr" = _iiihnBKr;
+        "dtTgv9Pe" = _dtTgv9Pe;
+        "OcKXl3In" = _OcKXl3In;
+        "j4fszMAy" = _j4fszMAy;
         "datapack-1.20.2" = _ObEX3aBb;
         "datapack-1.20.3" = _ObEX3aBb;
         "datapack-1.20.4" = _ObEX3aBb;
@@ -121,6 +145,7 @@ let
         "datapack-26.1.1" = _8QqEjyt3;
         "datapack-26.1.2" = _8QqEjyt3;
         "datapack-26.2" = _Zwtj9KPF;
+        "datapack-26.3" = _OcKXl3In;
         "fabric-1.20.2" = _3gRK0BKb;
         "fabric-1.20.3" = _3gRK0BKb;
         "fabric-1.20.4" = _3gRK0BKb;
@@ -138,6 +163,7 @@ let
         "fabric-26.1.1" = _OguqXd9z;
         "fabric-26.1.2" = _OguqXd9z;
         "fabric-26.2" = _fixtJyH8;
+        "fabric-26.3" = _j4fszMAy;
         "forge-1.20.2" = _3gRK0BKb;
         "forge-1.20.3" = _3gRK0BKb;
         "forge-1.20.4" = _3gRK0BKb;
@@ -154,6 +180,7 @@ let
         "forge-26.1.1" = _OguqXd9z;
         "forge-26.1.2" = _OguqXd9z;
         "forge-26.2" = _fixtJyH8;
+        "forge-26.3" = _j4fszMAy;
         "quilt-1.20.2" = _3gRK0BKb;
         "quilt-1.20.3" = _3gRK0BKb;
         "quilt-1.20.4" = _3gRK0BKb;
@@ -170,6 +197,7 @@ let
         "quilt-26.1.1" = _OguqXd9z;
         "quilt-26.1.2" = _OguqXd9z;
         "quilt-26.2" = _fixtJyH8;
+        "quilt-26.3" = _j4fszMAy;
         "neoforge-1.21.3" = _IFZjuGu2;
         "neoforge-1.21.4" = _IFZjuGu2;
         "neoforge-1.21.5" = _W9GBFZY0;
@@ -183,14 +211,17 @@ let
         "neoforge-26.1.1" = _OguqXd9z;
         "neoforge-26.1.2" = _OguqXd9z;
         "neoforge-26.2" = _fixtJyH8;
+        "neoforge-26.3" = _j4fszMAy;
         "pkg-v1.0.0" = _ObEX3aBb;
         "pkg-v1.0.0+mod" = _3gRK0BKb;
         "pkg-v2.0.0" = _iUFZzbAw;
-        "pkg-v2.1.1" = _Zwtj9KPF;
-        "pkg-v2.1.1+mod" = _fixtJyH8;
+        "pkg-v2.1.1" = _iiihnBKr;
+        "pkg-v2.1.1+mod" = _dtTgv9Pe;
         "pkg-2.1.1" = _8QqEjyt3;
         "pkg-2.1.1+mod" = _OguqXd9z;
-        "default" = _fixtJyH8;
+        "pkg-v2.1.2" = _OcKXl3In;
+        "pkg-v2.1.2+mod" = _j4fszMAy;
+        "default" = _j4fszMAy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vertical-slabs";

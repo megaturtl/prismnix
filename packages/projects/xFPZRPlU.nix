@@ -141,6 +141,21 @@ let
             "file" = "animalgarden_spottedhyena-1.1.1-fabric-26.2-0.152.2.jar";
             "hash" = "sha512-1J1i7dkKqq8K3uONuk5DV9ZlzNWpU90SDm7uGhJTT0uwObYqJtUzglau/G7eI/6Plg4bgZ3jMwLFUPSvMLnuBw==";
         };
+        _lpQb9F3y = {
+            "id" = "lpQb9F3y";
+            "file" = "animalgarden-spottedhyena-1.1.1-forge-26.3-66.0.2.jar";
+            "hash" = "sha512-Bn1aDZg++xRTduxmwI43nzSrkqfjZH4DpjiFcKprT1aRdvZvrRahWuUYmSksD6e8i0xeRB/ll3RTqI/g6XrkZg==";
+        };
+        _gBdvy45G = {
+            "id" = "gBdvy45G";
+            "file" = "animalgarden-spottedhyena-1.1.1-neoforge-26.3.0.8.jar";
+            "hash" = "sha512-vlBPXmGP0dOB9rk4RhQccXTaUce8VIeZhABRFzM2AnwqC2WExY0r6t5KYlInQGPOvfNzZ4cDdzo7cEKR/4Pdig==";
+        };
+        _cXB1raot = {
+            "id" = "cXB1raot";
+            "file" = "animalgarden_spottedhyena-1.1.1-fabric-26.3-0.161.0.jar";
+            "hash" = "sha512-3dC7pBfKZOi8MJ7gr/VLZooq38MRbhIIaEt1ru/O8Rrlo0/J5nPMkOrC0CHSjC+jUeYwlO+zT1eGUaPm3eOU/g==";
+        };
     in {
         "FejFyIgx" = _FejFyIgx;
         "CB72rZcX" = _CB72rZcX;
@@ -170,6 +185,9 @@ let
         "faZSwYvO" = _faZSwYvO;
         "9Qb0GK40" = _9Qb0GK40;
         "LMyHVjol" = _LMyHVjol;
+        "lpQb9F3y" = _lpQb9F3y;
+        "gBdvy45G" = _gBdvy45G;
+        "cXB1raot" = _cXB1raot;
         "fabric-1.21.9" = _cTnhiMsK;
         "fabric-1.21.10" = _cTnhiMsK;
         "fabric-1.21.6" = _OBOdFJKv;
@@ -184,6 +202,7 @@ let
         "fabric-26.1.1" = _LMyHVjol;
         "fabric-26.1.2" = _LMyHVjol;
         "fabric-26.2" = _LMyHVjol;
+        "fabric-26.3" = _cXB1raot;
         "neoforge-1.21.9" = _CB72rZcX;
         "neoforge-1.21.10" = _CB72rZcX;
         "neoforge-1.21.6" = _wyuuKkHX;
@@ -196,6 +215,7 @@ let
         "neoforge-26.1.1" = _9Qb0GK40;
         "neoforge-26.1.2" = _9Qb0GK40;
         "neoforge-26.2" = _9Qb0GK40;
+        "neoforge-26.3" = _gBdvy45G;
         "forge-1.21.9" = _7Aa00e31;
         "forge-1.21.10" = _7Aa00e31;
         "forge-1.21.6" = _dtwTCJ8k;
@@ -209,6 +229,7 @@ let
         "forge-26.1.1" = _faZSwYvO;
         "forge-26.1.2" = _faZSwYvO;
         "forge-26.2" = _faZSwYvO;
+        "forge-26.3" = _lpQb9F3y;
         "pkg-1.0.0-fabric-1.21.10-0.135.0" = _FejFyIgx;
         "pkg-1.0.0-neoforge-1.21.10-21.10.19-" = _CB72rZcX;
         "pkg-1.0.0-forge-1.21.10-60.0.5" = _7Aa00e31;
@@ -237,7 +258,10 @@ let
         "pkg-1.1.1-forge-26.2-65.0.0" = _faZSwYvO;
         "pkg-1.1.1-neoforge-26.2.0.6" = _9Qb0GK40;
         "pkg-1.1.1-fabric-26.2-0.152.2" = _LMyHVjol;
-        "default" = _LMyHVjol;
+        "pkg-1.1.1-forge-26.3-66.0.2" = _lpQb9F3y;
+        "pkg-1.1.1-neoforge-26.3.0.8" = _gBdvy45G;
+        "pkg-1.1.1-fabric-26.3-0.161.0" = _cXB1raot;
+        "default" = _cXB1raot;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "animal-garden-spotted-hyena";

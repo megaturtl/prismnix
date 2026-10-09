@@ -76,6 +76,16 @@ let
             "file" = "guiscalekeys-neoforge-26.2-1.0.3.jar";
             "hash" = "sha512-pR/3mBM+u7WRfVzB62J3C/bmKDzYGso6XP+k33SDZqdQ/kYy6uO5s3dcpMQksMH+iLfkTLpKUjT2HB/sYM3y0g==";
         };
+        _HT54rMqD = {
+            "id" = "HT54rMqD";
+            "file" = "guiscalekeys-fabric-26.3-1.0.4.jar";
+            "hash" = "sha512-shD/k1b5TSkoD0CHoh6HuV3jjbSlI2qfJEJRbDH3VaH2D+2A4WN4KP6SHostnez69H0vYdF/6BOZnHJEsICYeA==";
+        };
+        _EU99Crkc = {
+            "id" = "EU99Crkc";
+            "file" = "guiscalekeys-neoforge-26.3-1.0.4.jar";
+            "hash" = "sha512-Iy78ijsXDWAf0acC8+ysHPctr70B7QU30OVIj8+rmJo8LSbwXm6VycTv3uWUD3vg/UZc4GfOe2c6i1PwVdrAPQ==";
+        };
     in {
         "FY6QavyV" = _FY6QavyV;
         "BCZ4p7Op" = _BCZ4p7Op;
@@ -92,6 +102,8 @@ let
         "dytn61iY" = _dytn61iY;
         "vyrZKk7J" = _vyrZKk7J;
         "45ilbImx" = _45ilbImx;
+        "HT54rMqD" = _HT54rMqD;
+        "EU99Crkc" = _EU99Crkc;
         "fabric-1.21.4" = _pZLfnpli;
         "fabric-1.21.5" = _pZLfnpli;
         "fabric-1.21.6" = _pZLfnpli;
@@ -108,6 +120,7 @@ let
         "fabric-1.21.2" = _pZLfnpli;
         "fabric-1.21.3" = _pZLfnpli;
         "fabric-26.2" = _vyrZKk7J;
+        "fabric-26.3" = _HT54rMqD;
         "forge-1.21.4" = _dytn61iY;
         "forge-1.21.5" = _dytn61iY;
         "forge-1.21.6" = _dytn61iY;
@@ -135,12 +148,14 @@ let
         "neoforge-1.21.2" = _4keqQyGB;
         "neoforge-1.21.3" = _4keqQyGB;
         "neoforge-26.2" = _45ilbImx;
+        "neoforge-26.3" = _EU99Crkc;
         "pkg-1.0.0" = _l88XpUsG;
         "pkg-1.0.1" = _nndKkrmN;
         "pkg-1.0.2" = _MSqVW0W0;
         "pkg-1.0.0.1" = _dytn61iY;
         "pkg-1.0.3" = _45ilbImx;
-        "default" = _45ilbImx;
+        "pkg-1.0.4" = _EU99Crkc;
+        "default" = _EU99Crkc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "guiscalekeys";

@@ -236,6 +236,16 @@ let
             "file" = "OverflowingBars-v26.2.0-mc26.2.x-Fabric.jar";
             "hash" = "sha512-t8BovndKqGtwW02JNl6C2+lyBrZg2G0AfHUkbnOG/xbFCtiBFFjA36D5UeY6ODvtlgNEWfp1EE9S0vXl49+exQ==";
         };
+        _ZHqDQjLH = {
+            "id" = "ZHqDQjLH";
+            "file" = "overflowingbars-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-r7NZekdhjHtzlUGDIiccBQDyxDj3/pfksQfHRfngNaGHATCd2/YSRPBy28g7QckPu36t9o2SGjVs2E6WVg/0jQ==";
+        };
+        _bM6ZtP4a = {
+            "id" = "bM6ZtP4a";
+            "file" = "overflowingbars-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-QA8IfMkb6dghg53Ghpdzq1vSK2AHBd55RSdgtFJMyNBdGFh9IqJvjt3uLuXz6o2JOgnlVLp5x4aXrkj1jFeHsA==";
+        };
     in {
         "mmLDnzD5" = _mmLDnzD5;
         "6Uy7Lavw" = _6Uy7Lavw;
@@ -284,6 +294,8 @@ let
         "lechTFMr" = _lechTFMr;
         "WZzzzt7w" = _WZzzzt7w;
         "deo5l2dq" = _deo5l2dq;
+        "ZHqDQjLH" = _ZHqDQjLH;
+        "bM6ZtP4a" = _bM6ZtP4a;
         "forge-1.19.2" = _H2znAbYq;
         "forge-1.19.3" = _HZvcjugr;
         "forge-1.19.4" = _ltgfTINx;
@@ -312,6 +324,7 @@ let
         "fabric-26.1.1" = _IxKzb0Hv;
         "fabric-26.1.2" = _IxKzb0Hv;
         "fabric-26.2" = _deo5l2dq;
+        "fabric-26.3" = _ZHqDQjLH;
         "neoforge-1.20.4" = _yUsCkozZ;
         "neoforge-1.21.1" = _PYRrjTaY;
         "neoforge-1.21.3" = _Diiv4t6s;
@@ -327,6 +340,7 @@ let
         "neoforge-26.1.1" = _lechTFMr;
         "neoforge-26.1.2" = _lechTFMr;
         "neoforge-26.2" = _WZzzzt7w;
+        "neoforge-26.3" = _bM6ZtP4a;
         "pkg-v4.0.0-1.19.2-Forge" = _mmLDnzD5;
         "pkg-v4.0.0-1.19.2-Fabric" = _6Uy7Lavw;
         "pkg-v4.0.1-1.19.2-Fabric" = _bIhOx8WK;
@@ -368,7 +382,8 @@ let
         "pkg-21.11.0" = _Wtc9Dvls;
         "pkg-26.1.0" = _lechTFMr;
         "pkg-26.2.0" = _deo5l2dq;
-        "default" = _deo5l2dq;
+        "pkg-26.3.0" = _bM6ZtP4a;
+        "default" = _bM6ZtP4a;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "overflowing-bars";

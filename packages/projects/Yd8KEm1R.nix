@@ -46,6 +46,11 @@ let
             "file" = "Bare Bones 3D Tools (v 1.4).zip";
             "hash" = "sha512-+Yg11FIPT3YKvCo+I7b2nAn0TUZxgstQV+d/Xuhsq35Bve0DhNF8p93aAfNnp+rv5ngHGx0FY7YT+k016ZUhEQ==";
         };
+        _FPs9AGtq = {
+            "id" = "FPs9AGtq";
+            "file" = "Bare Bones 3D Tools (v 1.4.1).zip";
+            "hash" = "sha512-PhSW2kDcWtCEJfZLRoI3A/+N5rThRv4hoCk9LxQiofJSdjeoEMie5TqWoTx1XoEDXRyuZw4bQCQJGKqx+NE5jw==";
+        };
     in {
         "12EbY84y" = _12EbY84y;
         "bPF72q0y" = _bPF72q0y;
@@ -56,17 +61,19 @@ let
         "67gufoa5" = _67gufoa5;
         "QUxVkaDn" = _QUxVkaDn;
         "gNMODD61" = _gNMODD61;
-        "minecraft-1.21.6" = _gNMODD61;
-        "minecraft-1.21.7" = _gNMODD61;
-        "minecraft-1.21.8" = _gNMODD61;
-        "minecraft-1.21.9" = _gNMODD61;
-        "minecraft-1.21.10" = _gNMODD61;
-        "minecraft-1.21.11" = _gNMODD61;
-        "minecraft-26.1" = _gNMODD61;
-        "minecraft-26.1.1" = _gNMODD61;
-        "minecraft-26.1.2" = _gNMODD61;
-        "minecraft-26.2" = _gNMODD61;
-        "minecraft-1.21.5" = _gNMODD61;
+        "FPs9AGtq" = _FPs9AGtq;
+        "minecraft-1.21.6" = _FPs9AGtq;
+        "minecraft-1.21.7" = _FPs9AGtq;
+        "minecraft-1.21.8" = _FPs9AGtq;
+        "minecraft-1.21.9" = _FPs9AGtq;
+        "minecraft-1.21.10" = _FPs9AGtq;
+        "minecraft-1.21.11" = _FPs9AGtq;
+        "minecraft-26.1" = _FPs9AGtq;
+        "minecraft-26.1.1" = _FPs9AGtq;
+        "minecraft-26.1.2" = _FPs9AGtq;
+        "minecraft-26.2" = _FPs9AGtq;
+        "minecraft-1.21.5" = _FPs9AGtq;
+        "minecraft-26.3" = _FPs9AGtq;
         "pkg-1.0" = _12EbY84y;
         "pkg-1.1.1" = _bPF72q0y;
         "pkg-1.1.2" = _FBS0NvyT;
@@ -76,7 +83,8 @@ let
         "pkg-1.3.2" = _67gufoa5;
         "pkg-1.3.3" = _QUxVkaDn;
         "pkg-1.4" = _gNMODD61;
-        "default" = _gNMODD61;
+        "pkg-1.4.1" = _FPs9AGtq;
+        "default" = _FPs9AGtq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bare-bones-3d-tools";

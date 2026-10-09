@@ -131,6 +131,26 @@ let
             "file" = "village_taverns-fabric-1.3.0+26.2.jar";
             "hash" = "sha512-6Z7rPc2LRJ6AUj45yyJj7uaUgBZ5pFn2mCUpzNuP+Sp3XsvAnkxWt3610G0pUzMIIVN1zqLu6NXhQZkcNSb53g==";
         };
+        _zAevqE5Q = {
+            "id" = "zAevqE5Q";
+            "file" = "village_taverns-fabric-1.3.0+26.3.jar";
+            "hash" = "sha512-m7V9S6wIlYhC5s98WDTJIfioLeOQbOrgek+W3NNSbOPpEwZ1+URDpi1LtEgXnSk+qBPJPyX4BE5aRLTQBGBitA==";
+        };
+        _U23hKmCT = {
+            "id" = "U23hKmCT";
+            "file" = "village_taverns-neoforge-1.3.0+26.3.jar";
+            "hash" = "sha512-4wT1g094Dq6iNA3P85fIuFNEptr/FaVHOioXzUTlENiHy7BzFwcijCmSGBcvsZ5DhLlzsn6Op1CM17XEJq4I8A==";
+        };
+        _Nz4cmKvg = {
+            "id" = "Nz4cmKvg";
+            "file" = "village_taverns-neoforge-1.3.1+26.3.jar";
+            "hash" = "sha512-oju8Hfx/qjwa/mQhPE/9OO46YAwP9GOyXZRrVz2QR647c30M2UvQh/UUKMxUVoSyuGY4G+RvzkulRtlzd1xrrw==";
+        };
+        _WXQWFg9W = {
+            "id" = "WXQWFg9W";
+            "file" = "village_taverns-fabric-1.3.1+26.3.jar";
+            "hash" = "sha512-evKcUFFCpbU93dK6FftJWkWY65gq+1GChXicoTqroM0qNYK3+0AKaLdTb1QiH6E4XpKAobhTpjvvonqClh/HAQ==";
+        };
     in {
         "CDK1D1Z9" = _CDK1D1Z9;
         "wgnl90Cm" = _wgnl90Cm;
@@ -158,18 +178,24 @@ let
         "Kw9mkt3L" = _Kw9mkt3L;
         "DEucIT52" = _DEucIT52;
         "ZWHi8JOM" = _ZWHi8JOM;
+        "zAevqE5Q" = _zAevqE5Q;
+        "U23hKmCT" = _U23hKmCT;
+        "Nz4cmKvg" = _Nz4cmKvg;
+        "WXQWFg9W" = _WXQWFg9W;
         "fabric-1.21" = _kBxjfCaP;
         "fabric-1.21.1" = _kBxjfCaP;
         "fabric-26.1" = _Kw9mkt3L;
         "fabric-26.1.1" = _Kw9mkt3L;
         "fabric-26.1.2" = _Kw9mkt3L;
         "fabric-26.2" = _ZWHi8JOM;
+        "fabric-26.3" = _WXQWFg9W;
         "neoforge-1.21" = _qhOcjQ6u;
         "neoforge-1.21.1" = _qhOcjQ6u;
         "neoforge-26.1" = _gafZ1nf0;
         "neoforge-26.1.1" = _gafZ1nf0;
         "neoforge-26.1.2" = _gafZ1nf0;
         "neoforge-26.2" = _DEucIT52;
+        "neoforge-26.3" = _Nz4cmKvg;
         "pkg-1.0.0+1.21.1" = _CDK1D1Z9;
         "pkg-1.0.1+1.21.1" = _wgnl90Cm;
         "pkg-1.0.2+1.21.1" = _p58TzxkZ;
@@ -196,7 +222,11 @@ let
         "pkg-1.3.0+26.1.2-fabric" = _Kw9mkt3L;
         "pkg-1.3.0+26.2-neoforge" = _DEucIT52;
         "pkg-1.3.0+26.2-fabric" = _ZWHi8JOM;
-        "default" = _ZWHi8JOM;
+        "pkg-1.3.0+26.3-fabric" = _zAevqE5Q;
+        "pkg-1.3.0+26.3-neoforge" = _U23hKmCT;
+        "pkg-1.3.1+26.3-neoforge" = _Nz4cmKvg;
+        "pkg-1.3.1+26.3-fabric" = _WXQWFg9W;
+        "default" = _WXQWFg9W;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "village-taverns";

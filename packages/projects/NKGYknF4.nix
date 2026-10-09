@@ -56,6 +56,11 @@ let
             "file" = "fastghast-1.8.jar";
             "hash" = "sha512-hh7kvLW/Vl7x3UrrpYFP3KDEZ0c2DPE3e/UgHRmvmpgQrQtbFXn+FJQT6Ar5aziL7/hMEp86aOEj2bRnqC34MQ==";
         };
+        _gNu47FhG = {
+            "id" = "gNu47FhG";
+            "file" = "fastghast-1.9.jar";
+            "hash" = "sha512-76J7IS7aoXX0ZSoaoW+I1hNR8rUKmzLnmTmsLJ88kS1n3WsFsNi9erlNeqbZ/KScM35U/e0XJO5oYcOQm91rAg==";
+        };
     in {
         "llQ1hCNP" = _llQ1hCNP;
         "7zHWXm7o" = _7zHWXm7o;
@@ -68,6 +73,7 @@ let
         "eYY1xYye" = _eYY1xYye;
         "L6jNy43S" = _L6jNy43S;
         "8vbFGzxk" = _8vbFGzxk;
+        "gNu47FhG" = _gNu47FhG;
         "bukkit-1.21" = _llQ1hCNP;
         "bukkit-1.21.1" = _llQ1hCNP;
         "bukkit-1.21.2" = _llQ1hCNP;
@@ -118,6 +124,7 @@ let
         "fabric-26.1.1" = _L6jNy43S;
         "fabric-26.1.2" = _L6jNy43S;
         "fabric-26.2" = _8vbFGzxk;
+        "fabric-26.3" = _gNu47FhG;
         "pkg-1.0" = _64EHOBKT;
         "pkg-1.1" = _HcGEqWHl;
         "pkg-1.2" = _GsmkILHd;
@@ -127,7 +134,8 @@ let
         "pkg-1.6" = _eYY1xYye;
         "pkg-1.7" = _L6jNy43S;
         "pkg-1.8" = _8vbFGzxk;
-        "default" = _8vbFGzxk;
+        "pkg-1.9" = _gNu47FhG;
+        "default" = _gNu47FhG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fastghast";

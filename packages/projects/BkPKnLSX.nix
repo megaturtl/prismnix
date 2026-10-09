@@ -26,19 +26,27 @@ let
             "file" = "AvaritiaSpear-1.21.1-neo-1.3.1.jar";
             "hash" = "sha512-n64BASFR+YJlofyq9NKFyPgrSynJsaxnKOQ/7QhYJAcnIIc4ccDHA8TpNKRcs3157/aaTAU9D7jiB0dwwl1Shw==";
         };
+        _2kaHsRQp = {
+            "id" = "2kaHsRQp";
+            "file" = "AvaritiaSpear-1.20.1-forge-1.3.2.jar";
+            "hash" = "sha512-yx1xBMNKMAUZuGITxgUtEW1wIIpQF4OJq39mbYBBIt5fxQIchdxbjjpdXdZ0Tn1ohBeuKReNyzuHFPXiAet/Sw==";
+        };
     in {
         "F0wT5e6s" = _F0wT5e6s;
         "SBSMNXgh" = _SBSMNXgh;
         "27I1WXmS" = _27I1WXmS;
         "ci0dJKya" = _ci0dJKya;
         "q860JfqZ" = _q860JfqZ;
+        "2kaHsRQp" = _2kaHsRQp;
         "neoforge-1.21.1" = _q860JfqZ;
+        "forge-1.20.1" = _2kaHsRQp;
         "pkg-1.0.0" = _F0wT5e6s;
         "pkg-1.1.0" = _SBSMNXgh;
         "pkg-1.2.0" = _27I1WXmS;
         "pkg-1.3.0" = _ci0dJKya;
         "pkg-1.3.1" = _q860JfqZ;
-        "default" = _q860JfqZ;
+        "pkg-1.3.2" = _2kaHsRQp;
+        "default" = _2kaHsRQp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "avaritia-spear";

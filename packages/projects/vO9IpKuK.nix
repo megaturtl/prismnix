@@ -171,6 +171,36 @@ let
             "file" = "FreshArmorBar-2.1-26.2.jar";
             "hash" = "sha512-tV3sjPhZEl/iJPM9BIU3Y4Znb8XNX619vgH+hmfPWOFB6XpRprhVkmhQ4mBLXNV33YZsmeArAH+SzyyX9hvCjQ==";
         };
+        _3KoGQI9B = {
+            "id" = "3KoGQI9B";
+            "file" = "FreshArmorBar-2.2-1.20.1.jar";
+            "hash" = "sha512-E/ahbRHZhRXschVsqK8VI9mzU3fJYlevJzymKqLOSeXlGwmJfdjCy6k4y1QskYVgkKS5xg0Wc3rblUrVkcznVw==";
+        };
+        _un3XzS1j = {
+            "id" = "un3XzS1j";
+            "file" = "FreshArmorBar-2.2-1.21.1.jar";
+            "hash" = "sha512-IuLax9GAikIWkkXRGns7K8o0xy7+iSE9Yks9jVDrlDk4vvBITtBFymLFMVzI8e3OBMBG7V1XReYir+LJTBjVTA==";
+        };
+        _Trv20dp7 = {
+            "id" = "Trv20dp7";
+            "file" = "FreshArmorBar-2.2-1.21.11.jar";
+            "hash" = "sha512-P+ANdo/Ss2YDBQk6LXVquN1RAtpVOs/2vkxindocQ+glpwI+SsBu5Wj1ZNo37kXMiTnyXrPJbYCo9SvVFPMz2Q==";
+        };
+        _iXwE4IFL = {
+            "id" = "iXwE4IFL";
+            "file" = "FreshArmorBar-2.2-26.1.2.jar";
+            "hash" = "sha512-J4UehYPm3b6YsbhHxP9aA7/LewjwgPty9ilEqS2CF8r7LSsPKn8vTCGUHl3SIY+E7y9gN8pF2SPaapXx8KR1ug==";
+        };
+        _DpRzmYxY = {
+            "id" = "DpRzmYxY";
+            "file" = "FreshArmorBar-2.2-26.2.jar";
+            "hash" = "sha512-IHMYBJ0DqUmUi3orR4bEzSZVengpdSCvyxtarU/xtQVARD8+HJ3oVFzU5J5UxK37hMNSXDeMhKmB2/ZBjKVMPg==";
+        };
+        _k3EuwXrT = {
+            "id" = "k3EuwXrT";
+            "file" = "FreshArmorBar-2.2-26.3.jar";
+            "hash" = "sha512-V56cktjdZfc0qPV6IxJYB7jykg+s/cG83bhz3c7WmYd/MXx/zzXXjauoKFQ2ePCUAA8KiVo5G2XqHrhzbug0cQ==";
+        };
     in {
         "103kTgYO" = _103kTgYO;
         "eMVYHSNO" = _eMVYHSNO;
@@ -206,10 +236,16 @@ let
         "gIhDDJpw" = _gIhDDJpw;
         "xue8Hsu9" = _xue8Hsu9;
         "piomIOQ7" = _piomIOQ7;
-        "fabric-1.20.1" = _FxmDWCdx;
+        "3KoGQI9B" = _3KoGQI9B;
+        "un3XzS1j" = _un3XzS1j;
+        "Trv20dp7" = _Trv20dp7;
+        "iXwE4IFL" = _iXwE4IFL;
+        "DpRzmYxY" = _DpRzmYxY;
+        "k3EuwXrT" = _k3EuwXrT;
+        "fabric-1.20.1" = _3KoGQI9B;
         "fabric-1.20" = _DEi0aslK;
         "fabric-1.21" = _rl8inu3N;
-        "fabric-1.21.1" = _YVEfMqOB;
+        "fabric-1.21.1" = _un3XzS1j;
         "fabric-1.21.2" = _ZeTnQq04;
         "fabric-1.21.3" = _H6CF0UD6;
         "fabric-1.21.4" = _BQkKdoKB;
@@ -219,11 +255,12 @@ let
         "fabric-1.21.8" = _IoQYjuiy;
         "fabric-1.21.9" = _9uMiK3BW;
         "fabric-1.21.10" = _Ce9s0YOu;
-        "fabric-1.21.11" = _gIhDDJpw;
+        "fabric-1.21.11" = _Trv20dp7;
         "fabric-26.1" = _FoDcKi17;
         "fabric-26.1.1" = _MVCemRPv;
-        "fabric-26.1.2" = _xue8Hsu9;
-        "fabric-26.2" = _piomIOQ7;
+        "fabric-26.1.2" = _iXwE4IFL;
+        "fabric-26.2" = _DpRzmYxY;
+        "fabric-26.3" = _k3EuwXrT;
         "pkg-1.1" = _103kTgYO;
         "pkg-1.2" = _eMVYHSNO;
         "pkg-1.3-1.20.1" = _vnIQvkWN;
@@ -258,7 +295,13 @@ let
         "pkg-2.1-1.21.11" = _gIhDDJpw;
         "pkg-2.1-26.1.2" = _xue8Hsu9;
         "pkg-2.1-26.2" = _piomIOQ7;
-        "default" = _piomIOQ7;
+        "pkg-2.2-1.20.1" = _3KoGQI9B;
+        "pkg-2.2-1.21.1" = _un3XzS1j;
+        "pkg-2.2-1.21.11" = _Trv20dp7;
+        "pkg-2.2-26.1.2" = _iXwE4IFL;
+        "pkg-2.2-26.2" = _DpRzmYxY;
+        "pkg-2.2-26.3" = _k3EuwXrT;
+        "default" = _k3EuwXrT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fresh-armor-bar";

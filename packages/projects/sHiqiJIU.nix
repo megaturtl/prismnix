@@ -41,6 +41,16 @@ let
             "file" = "letsdo-lilis_pottery-fabric-1.0.2.jar";
             "hash" = "sha512-Cxyzq1ffDyRgH35fcXgOby1icSAXYVzOclTcxn2U23//OIebblMtMpAdw/ry2iQhHSBHisKlzA1TGb5BcEEznA==";
         };
+        _vNj8tYW6 = {
+            "id" = "vNj8tYW6";
+            "file" = "letsdo-lilis_pottery-neoforge-1.0.3.jar";
+            "hash" = "sha512-sK2Y+wA58NS4uX8tDobFzZmoKvIkxj2XMr8P/rqJxI3fgYnyXYejPrRyCQr+HTdlTcCY1Vorqg9kkq31u/GT1Q==";
+        };
+        _rVL93Byz = {
+            "id" = "rVL93Byz";
+            "file" = "letsdo-lilis_pottery-fabric-1.0.3.jar";
+            "hash" = "sha512-S/hhP8JsiPSlxgzzD3rzqoj2gZXlXQMe4sFU1K9AvhJ92Sltj7Ianp227sQuqsPPkS7Ks3VCIVqaNMIlK5KQkA==";
+        };
     in {
         "S1diMIFb" = _S1diMIFb;
         "GsGPS4By" = _GsGPS4By;
@@ -50,13 +60,16 @@ let
         "agdxyGMn" = _agdxyGMn;
         "fpKTMvrT" = _fpKTMvrT;
         "nvuqS8jN" = _nvuqS8jN;
-        "neoforge-1.21.1" = _fpKTMvrT;
-        "fabric-1.21.1" = _nvuqS8jN;
+        "vNj8tYW6" = _vNj8tYW6;
+        "rVL93Byz" = _rVL93Byz;
+        "neoforge-1.21.1" = _vNj8tYW6;
+        "fabric-1.21.1" = _rVL93Byz;
         "pkg-1.0.0" = _GsGPS4By;
         "pkg-1.0.0+hotfix" = _nD2CbRJB;
         "pkg-1.0.1" = _agdxyGMn;
         "pkg-1.0.2" = _nvuqS8jN;
-        "default" = _nvuqS8jN;
+        "pkg-1.0.3" = _rVL93Byz;
+        "default" = _rVL93Byz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lets-do-lilis-pottery";

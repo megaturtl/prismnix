@@ -171,6 +171,16 @@ let
             "file" = "SneakyCurses-v26.1.2-mc26.1.x-Fabric.jar";
             "hash" = "sha512-s5vU1jWwCsX55DqdYZvhg2UcYlWU86U8kOrWx4eXbPpuzhm3CYA7uLsa1V/9GXxOoINjkaqP5UbJFh48wUEPCQ==";
         };
+        _f7efetrm = {
+            "id" = "f7efetrm";
+            "file" = "sneakycurses-v21.1.1-mc1.21.1+fabric.jar";
+            "hash" = "sha512-7YOCFFJ6n0gnqncsEigwqgKpIuOX2f6dlGYEWRokuBLC/u3J3cdOYUZesxbXHRO/6o/pd6TpqqNkt6FADZjS0g==";
+        };
+        _Ltc15szM = {
+            "id" = "Ltc15szM";
+            "file" = "sneakycurses-v21.1.1-mc1.21.1+neoforge.jar";
+            "hash" = "sha512-bw++3SnGJ6g1bl5GwitEnc2zRZQk/JLfZ9rLlBKZkVeTQwWed9rzUC1o098OhOD7lRDh38YHURv9KcvrV1Xubw==";
+        };
     in {
         "8FsxJ95h" = _8FsxJ95h;
         "em86xEM7" = _em86xEM7;
@@ -206,11 +216,13 @@ let
         "BNuxGMCT" = _BNuxGMCT;
         "1dNQSdVz" = _1dNQSdVz;
         "Vbiysya5" = _Vbiysya5;
+        "f7efetrm" = _f7efetrm;
+        "Ltc15szM" = _Ltc15szM;
         "forge-1.20.1" = _MgyWMXJy;
         "forge-1.20.4" = _WyZuYADu;
         "fabric-1.20.1" = _MuAWBqPq;
         "fabric-1.20.4" = _BRLx6eSk;
-        "fabric-1.21.1" = _nj5FPSk0;
+        "fabric-1.21.1" = _f7efetrm;
         "fabric-1.21.3" = _KYRQKxMD;
         "fabric-1.21.4" = _DDWPAcFt;
         "fabric-1.21.5" = _F5oYkvrN;
@@ -221,7 +233,7 @@ let
         "fabric-26.1.2" = _Vbiysya5;
         "fabric-26.2" = _JKxK27rC;
         "neoforge-1.20.4" = _hVeNh1bd;
-        "neoforge-1.21.1" = _aEKGv39p;
+        "neoforge-1.21.1" = _Ltc15szM;
         "neoforge-1.21.3" = _VKwDDVNi;
         "neoforge-1.21.4" = _9z30e3uI;
         "neoforge-1.21.5" = _EvP0ZN6s;
@@ -258,7 +270,8 @@ let
         "pkg-26.2.0" = _AkAWWP2D;
         "pkg-26.2.1" = _BNuxGMCT;
         "pkg-26.1.2" = _Vbiysya5;
-        "default" = _Vbiysya5;
+        "pkg-21.1.1" = _Ltc15szM;
+        "default" = _Ltc15szM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sneaky-curses";

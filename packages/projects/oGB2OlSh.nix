@@ -441,6 +441,11 @@ let
             "file" = "S.O.M.zip";
             "hash" = "sha512-JWzy/zaejNWjM/J2nU5+ZOh7ucH+EEcdq3Rj4bZ7lLxBmDYLLJDyYjOB16I3HmGFkqBWEW3jdc9J6QaKCp+1YA==";
         };
+        _jdjNUgRb = {
+            "id" = "jdjNUgRb";
+            "file" = "S.O.M.zip";
+            "hash" = "sha512-BJPDNvvn6L2mmdbC+zXY7rBBVsuQShQA/ekT6ocTv2HEXX21MgnW/z1mBGBB+dCJ/g7B6ibIM0K2FzHZVX1Trw==";
+        };
     in {
         "TNk4VC6b" = _TNk4VC6b;
         "ugF5QB2V" = _ugF5QB2V;
@@ -530,6 +535,7 @@ let
         "s9bsxzJP" = _s9bsxzJP;
         "NdDxMz8K" = _NdDxMz8K;
         "MA54xK9I" = _MA54xK9I;
+        "jdjNUgRb" = _jdjNUgRb;
         "minecraft-1.21" = _rADvSOWL;
         "minecraft-1.21.1" = _mFO01tLK;
         "minecraft-1.21.2" = _rADvSOWL;
@@ -584,7 +590,7 @@ let
         "minecraft-26.3-snapshot-4" = _Y2hpBUeD;
         "minecraft-26.3-snapshot-5" = _Y2hpBUeD;
         "minecraft-26.3-snapshot-6" = _Y2hpBUeD;
-        "minecraft-26.3" = _MA54xK9I;
+        "minecraft-26.3" = _jdjNUgRb;
         "pkg-1.0.0" = _TNk4VC6b;
         "pkg-1.0.1" = _ugF5QB2V;
         "pkg-1.1.0" = _qyVGpEvX;
@@ -671,7 +677,8 @@ let
         "pkg-26.2.3" = _Qmn0jYSu;
         "pkg-26.2.4" = _s9bsxzJP;
         "pkg-26.2.5" = _NdDxMz8K;
-        "default" = _MA54xK9I;
+        "pkg-26.3-BETA-2" = _jdjNUgRb;
+        "default" = _jdjNUgRb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "story-of-minecraft";

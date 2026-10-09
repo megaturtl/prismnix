@@ -156,6 +156,11 @@ let
             "file" = "tlotd-0.4.5+1.20.1.jar";
             "hash" = "sha512-vzto0W1C1HTap0+vftUnLWStpsPeRmDO6JWq6eOU9h7Joyhf9K9Gk+pb1lEaSRrxo8Wt4lPkeZ7bBYw3BSDzmQ==";
         };
+        _NOEJQY40 = {
+            "id" = "NOEJQY40";
+            "file" = "tlotd-0.0.8+8.0.1.jar";
+            "hash" = "sha512-bfRQrGVRirvoVB+C/2XsqcEVxRPyIvPO+kQI5kSpVf1gk9mZzyZpcsHZHIhKZSlUnBSzl6j+WUEBy4XGaSeC6A==";
+        };
     in {
         "LRCa25FS" = _LRCa25FS;
         "KpQO1n3O" = _KpQO1n3O;
@@ -188,11 +193,12 @@ let
         "82GHHm19" = _82GHHm19;
         "ag3e75hV" = _ag3e75hV;
         "shHFRlU3" = _shHFRlU3;
+        "NOEJQY40" = _NOEJQY40;
         "forge-1.20.1" = _shHFRlU3;
         "neoforge-1.20.1" = _shHFRlU3;
         "fabric-1.20.1" = _shHFRlU3;
         "quilt-1.20.1" = _shHFRlU3;
-        "bta-babric-b1.7.3" = _ag3e75hV;
+        "bta-babric-b1.7.3" = _NOEJQY40;
         "pkg-0.2.0" = _LRCa25FS;
         "pkg-0.2.3" = _KpQO1n3O;
         "pkg-0.2.4" = _6liPUED7;
@@ -224,7 +230,8 @@ let
         "pkg-0.0.6-BTA!-8.0" = _82GHHm19;
         "pkg-0.0.7-BTA!-8.0" = _ag3e75hV;
         "pkg-0.4.5+1.20.1" = _shHFRlU3;
-        "default" = _shHFRlU3;
+        "pkg-0.0.8-BTA!-8.0.1" = _NOEJQY40;
+        "default" = _NOEJQY40;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tlotd";

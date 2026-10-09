@@ -61,6 +61,21 @@ let
             "file" = "DimensionTeleport-1.21.1-3.0.1.jar";
             "hash" = "sha512-t/Ih3t9AwXvFFAAY8x5jWCHBCq6qjoK7VhAMvaHPr5k3vSxHOW1fu5ooJK62QeDv5EtQFsw1KcUxDZLWALcPRw==";
         };
+        _FzyEQtiM = {
+            "id" = "FzyEQtiM";
+            "file" = "DimensionTeleport-1.21.2-3.0.1.jar";
+            "hash" = "sha512-NFWAmsGJ0mBxZZkXrdG8ZXoG00eBtEm6S85nlq3W+Ii43QaPzu20aQZcapd1SRGb7UcoKAmtG8hF9j3Px95XlQ==";
+        };
+        _Af5H5FNX = {
+            "id" = "Af5H5FNX";
+            "file" = "DimensionTeleport-1.21.11-3.0.1.jar";
+            "hash" = "sha512-eDdVA77XpGXj5IEK0vn2s4ERrXCJUAqRMPtYcJdHGFuap97ICDibRkUGH5sgPgsOOwLQH+jNT8rU+X8eUcVTqA==";
+        };
+        _Aj0BbUnB = {
+            "id" = "Aj0BbUnB";
+            "file" = "DimensionTeleport-26.1-3.0.1.jar";
+            "hash" = "sha512-Ug2879AL4T8P6//36vGdchtC8THL071qSz9Qga52uFbdUcCQaTJ/b95KAgshrni424JAK69zhXwDpaPIHBk0nw==";
+        };
     in {
         "GZSFmv3R" = _GZSFmv3R;
         "UozgDye1" = _UozgDye1;
@@ -74,6 +89,9 @@ let
         "ZehhORQ2" = _ZehhORQ2;
         "7iQnYPe8" = _7iQnYPe8;
         "sccFZthX" = _sccFZthX;
+        "FzyEQtiM" = _FzyEQtiM;
+        "Af5H5FNX" = _Af5H5FNX;
+        "Aj0BbUnB" = _Aj0BbUnB;
         "forge-1.17.1" = _GZSFmv3R;
         "forge-1.18.2" = _UozgDye1;
         "forge-1.19.4" = _IheugdVV;
@@ -85,6 +103,21 @@ let
         "forge-1.21" = _ZyqtMhpX;
         "forge-1.21.1" = _ZehhORQ2;
         "neoforge-1.21.1" = _sccFZthX;
+        "neoforge-1.21.2" = _FzyEQtiM;
+        "neoforge-1.21.3" = _FzyEQtiM;
+        "neoforge-1.21.4" = _FzyEQtiM;
+        "neoforge-1.21.5" = _FzyEQtiM;
+        "neoforge-1.21.6" = _FzyEQtiM;
+        "neoforge-1.21.7" = _FzyEQtiM;
+        "neoforge-1.21.8" = _FzyEQtiM;
+        "neoforge-1.21.9" = _FzyEQtiM;
+        "neoforge-1.21.10" = _FzyEQtiM;
+        "neoforge-1.21.11" = _Af5H5FNX;
+        "neoforge-26.1" = _Aj0BbUnB;
+        "neoforge-26.1.1" = _Aj0BbUnB;
+        "neoforge-26.1.2" = _Aj0BbUnB;
+        "neoforge-26.2" = _Aj0BbUnB;
+        "neoforge-26.3" = _Aj0BbUnB;
         "pkg-1.17.1-2.0.1" = _GZSFmv3R;
         "pkg-1.18.2-2.0.1" = _UozgDye1;
         "pkg-1.19.4-2.0.1" = _IheugdVV;
@@ -97,7 +130,10 @@ let
         "pkg-1.21.1-2.0.1" = _ZehhORQ2;
         "pkg-1.21.1-3.0.0" = _7iQnYPe8;
         "pkg-1.21.1-3.0.1" = _sccFZthX;
-        "default" = _sccFZthX;
+        "pkg-1.21.2-3.0.1" = _FzyEQtiM;
+        "pkg-1.21.11-3.0.1" = _Af5H5FNX;
+        "pkg-26.1-3.0.1" = _Aj0BbUnB;
+        "default" = _Aj0BbUnB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dimension-teleport";

@@ -81,6 +81,11 @@ let
             "file" = "fishing_crates+26.2-1.3.1.jar";
             "hash" = "sha512-d7sJI3YIkPO4g/7DI0GSSFpXHqh4GXZw8ruFe3/pvKXd4CFtM2iiYn/4Yse+WjSZpUynMejZ/etpyVInpBvcvw==";
         };
+        _SJADzDUI = {
+            "id" = "SJADzDUI";
+            "file" = "fishing_crates+26.3-1.3.1.jar";
+            "hash" = "sha512-yv2AoX4ASqVosF7z8AmklkfCzz6dlSA9I8RrltZ/DmbNtfSDguaR5ypVSctYogO7fRRAF93xM7QGkzrFTl4F+A==";
+        };
     in {
         "UvFviCY0" = _UvFviCY0;
         "iURwqGyb" = _iURwqGyb;
@@ -98,6 +103,7 @@ let
         "P4yqxoNJ" = _P4yqxoNJ;
         "wHVBYDyB" = _wHVBYDyB;
         "r0KDv4aw" = _r0KDv4aw;
+        "SJADzDUI" = _SJADzDUI;
         "fabric-1.20.1" = _UvFviCY0;
         "fabric-1.21.1" = _AqM1gkP3;
         "fabric-1.21.11" = _DqpKRZ5f;
@@ -105,6 +111,7 @@ let
         "fabric-26.1.1" = _wHVBYDyB;
         "fabric-26.1.2" = _wHVBYDyB;
         "fabric-26.2" = _r0KDv4aw;
+        "fabric-26.3" = _SJADzDUI;
         "forge-1.20.1" = _hzNjCOFe;
         "pkg-1.0-1.20.1-fabric" = _UvFviCY0;
         "pkg-1.0-1.20.1-forge" = _iURwqGyb;
@@ -116,8 +123,8 @@ let
         "pkg-1.1" = _WAWI1S7v;
         "pkg-1.2" = _RS5aVdu3;
         "pkg-1.3" = _P4yqxoNJ;
-        "pkg-1.3.1" = _r0KDv4aw;
-        "default" = _r0KDv4aw;
+        "pkg-1.3.1" = _SJADzDUI;
+        "default" = _SJADzDUI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fishing-loot-crates";

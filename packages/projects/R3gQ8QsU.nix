@@ -81,6 +81,16 @@ let
             "file" = "guns,-gadgetery-mission-editor-1.7.2.jar";
             "hash" = "sha512-Bi6Z4aQ808PGFUL9r6gPj5vPFXsHGQYzIPdqVrANfduVTsoRZZvFH9g6gx+UipNKvAQ4/h2EPGZjj78JlFlt3A==";
         };
+        _hv4EB3V4 = {
+            "id" = "hv4EB3V4";
+            "file" = "Guns, Gadgetery & Mission Editor-datapack.zip";
+            "hash" = "sha512-UTHRWJsVwFm4G9+uUtJtdu0TqHj5JecmQS9YRlfdYqffVKtmbmR1R0LlQYhphKEO87GlaXl6l24bZqUAvVQPUA==";
+        };
+        _MJdMlaec = {
+            "id" = "MJdMlaec";
+            "file" = "guns,-gadgetery-mission-editor-1.7.3.jar";
+            "hash" = "sha512-0BkzKADElNqvq0cng9XULYuaL7ajHZBiHgY3znZelBmw14dC+fbhRYImGG9+rFpPHzDwpRY3NIPqiSZrQXQIZA==";
+        };
     in {
         "gSHQtMvk" = _gSHQtMvk;
         "Rww8Y3aC" = _Rww8Y3aC;
@@ -98,6 +108,8 @@ let
         "hs0UBhc4" = _hs0UBhc4;
         "qns7E7iW" = _qns7E7iW;
         "jQF6ge67" = _jQF6ge67;
+        "hv4EB3V4" = _hv4EB3V4;
+        "MJdMlaec" = _MJdMlaec;
         "datapack-1.21.4" = _gSHQtMvk;
         "datapack-1.21.5" = _BcHsGaNn;
         "datapack-1.21.7" = _T0DdtIuf;
@@ -108,6 +120,7 @@ let
         "datapack-26.1.1" = _ngEZRNLm;
         "datapack-26.1.2" = _ngEZRNLm;
         "datapack-26.2" = _qns7E7iW;
+        "datapack-26.3" = _hv4EB3V4;
         "fabric-1.21.4" = _Rww8Y3aC;
         "fabric-1.21.5" = _Vpu5QQC0;
         "fabric-1.21.7" = _LG6tiILo;
@@ -118,6 +131,7 @@ let
         "fabric-26.1.1" = _hs0UBhc4;
         "fabric-26.1.2" = _hs0UBhc4;
         "fabric-26.2" = _jQF6ge67;
+        "fabric-26.3" = _MJdMlaec;
         "forge-1.21.4" = _Rww8Y3aC;
         "forge-1.21.5" = _Vpu5QQC0;
         "forge-1.21.7" = _LG6tiILo;
@@ -128,6 +142,7 @@ let
         "forge-26.1.1" = _hs0UBhc4;
         "forge-26.1.2" = _hs0UBhc4;
         "forge-26.2" = _jQF6ge67;
+        "forge-26.3" = _MJdMlaec;
         "neoforge-1.21.4" = _Rww8Y3aC;
         "neoforge-1.21.5" = _Vpu5QQC0;
         "neoforge-1.21.7" = _LG6tiILo;
@@ -138,6 +153,7 @@ let
         "neoforge-26.1.1" = _hs0UBhc4;
         "neoforge-26.1.2" = _hs0UBhc4;
         "neoforge-26.2" = _jQF6ge67;
+        "neoforge-26.3" = _MJdMlaec;
         "quilt-1.21.4" = _Rww8Y3aC;
         "quilt-1.21.5" = _Vpu5QQC0;
         "quilt-1.21.7" = _LG6tiILo;
@@ -148,6 +164,7 @@ let
         "quilt-26.1.1" = _hs0UBhc4;
         "quilt-26.1.2" = _hs0UBhc4;
         "quilt-26.2" = _jQF6ge67;
+        "quilt-26.3" = _MJdMlaec;
         "pkg-v1.4.0" = _gSHQtMvk;
         "pkg-v1.4.0+mod" = _Rww8Y3aC;
         "pkg-v1.4.1" = _sWXmhGkZ;
@@ -164,7 +181,9 @@ let
         "pkg-v1.7.1+mod" = _hs0UBhc4;
         "pkg-1.7.2" = _qns7E7iW;
         "pkg-1.7.2+mod" = _jQF6ge67;
-        "default" = _jQF6ge67;
+        "pkg-1.7.3" = _hv4EB3V4;
+        "pkg-1.7.3+mod" = _MJdMlaec;
+        "default" = _MJdMlaec;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "guns,-gadgetery-mission-editor";

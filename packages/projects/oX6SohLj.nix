@@ -396,6 +396,16 @@ let
             "file" = "soulslike-weaponry-1.4.9-1.20.1-fabric.jar";
             "hash" = "sha512-AUqFx0fpWYYGYvUe9N7X68egDEeyO0cDF2vaNjiAJziqjV0UKwg8WWmif/C1KAUhko0sdx3t/jDfc6cjbuNQAw==";
         };
+        _LY1MhWN0 = {
+            "id" = "LY1MhWN0";
+            "file" = "soulslike-weaponry-1.4.10-1.20.1-fabric.jar";
+            "hash" = "sha512-L5IiyN+6mfWS7NY0+Rtd3gy53lot9oto7JFhhCPvO3fflJdM9o1E678oQTnImSR8hyefefCqM11rA3rxjM8P0A==";
+        };
+        _smKwvZlP = {
+            "id" = "smKwvZlP";
+            "file" = "soulslike-weaponry-1.4.10-1.20.1-forge.jar";
+            "hash" = "sha512-GY8NzTa0C/o5VO9d9FbQd0SYY9d2Hi5DrGzXVpmbpjah/cad396GWgKQL1v9K/KtQQzZMwD9rtMMNbfNlNsL/A==";
+        };
     in {
         "kC0tqpza" = _kC0tqpza;
         "PfIuVgK8" = _PfIuVgK8;
@@ -476,16 +486,18 @@ let
         "NIqPsfPm" = _NIqPsfPm;
         "pugWsECf" = _pugWsECf;
         "d1qmc8fd" = _d1qmc8fd;
+        "LY1MhWN0" = _LY1MhWN0;
+        "smKwvZlP" = _smKwvZlP;
         "fabric-1.18.2" = _eBOJI5QW;
         "fabric-1.19.2" = _PkifqEkV;
         "fabric-1.19.3" = _7h8LRaKG;
         "fabric-1.19.4" = _GGvxee8c;
         "fabric-1.20" = _EeDvXKwi;
-        "fabric-1.20.1" = _d1qmc8fd;
+        "fabric-1.20.1" = _LY1MhWN0;
         "fabric-1.20.4" = _eQZrn026;
         "fabric-1.21.1" = _pugWsECf;
         "forge-1.18.2" = _KSFkvGsU;
-        "forge-1.20.1" = _qGXBaWEo;
+        "forge-1.20.1" = _smKwvZlP;
         "pkg-0.9.8.3" = _BE8X9qmS;
         "pkg-0.9.9.1" = _WpYbwBb7;
         "pkg-0.9.9.2" = _RMoYysfr;
@@ -553,7 +565,9 @@ let
         "pkg-1.4.8-1.20.1-fabric" = _NIqPsfPm;
         "pkg-1.4.8-1.21.1-fabric" = _pugWsECf;
         "pkg-1.4.9-1.20.1-fabric" = _d1qmc8fd;
-        "default" = _d1qmc8fd;
+        "pkg-1.4.10-1.20.1-fabric" = _LY1MhWN0;
+        "pkg-1.4.10-1.20.1-forge" = _smKwvZlP;
+        "default" = _smKwvZlP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mariums-soulslike-weaponry";

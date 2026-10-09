@@ -116,6 +116,66 @@ let
             "file" = "[FABRIC] New Currencies 1.0.0 [1.21.6-1.21.8].jar";
             "hash" = "sha512-kQRybrt3r4EWmjxUo0oyaCs5WBu79msMKaEaM4Po/+QlYiAiA+qFqBidvahO3PGRLor6JDtruxMA5YJazY2aAA==";
         };
+        _GGrNLB9b = {
+            "id" = "GGrNLB9b";
+            "file" = "newcurrencies-1.0.0+26.3.jar";
+            "hash" = "sha512-c3OyR2MKa7vdoWeOlGJn1OYxfAd4cu33pOSF8Dce6Q3shMd7sPBS1CM6yjZAwI6+ZpxaPHX8HPnKlBrvSztqtg==";
+        };
+        _2aKWrJsf = {
+            "id" = "2aKWrJsf";
+            "file" = "newcurrencies-1.0.0+26.1.2.jar";
+            "hash" = "sha512-YHPoBColHOt/a+u1tyY8tt+R8Md5vGoyk+wFeYAWaxr9drBfQCCoDoq1dV7WeLEMgIR+H3BJwRz+nkgEEG+kxg==";
+        };
+        _JOrsWmPT = {
+            "id" = "JOrsWmPT";
+            "file" = "newcurrencies-1.0.0+26.2.jar";
+            "hash" = "sha512-FErvRo5De6LkCHIUzqKsQrJRHzYoSPPMDsseUeGidc+Qbh0wmVqYexQam5cSponeSVBOcfPRD0zoHGbcbVTNoA==";
+        };
+        _wgbeXbrI = {
+            "id" = "wgbeXbrI";
+            "file" = "newcurrencies-1.0.0+26.3.jar";
+            "hash" = "sha512-GviTCE5fEx0SGcjr9WfOA0X74PMGPqyuRSnnL993yWYNo3u/VPoAYkaL6X2a+8eiWORe1EG86OSXjcrF/e0QeA==";
+        };
+        _l9pTSV91 = {
+            "id" = "l9pTSV91";
+            "file" = "newcurrencies-1.0.0+26.1.2.jar";
+            "hash" = "sha512-J3ddUN0vXXLqVAnHfojbaHwate9hqwNPXxwSZ5s2R8j2BNu0UsEp/tV31wakpo7uf3I6w1gfmn/5oGKdsWHXSA==";
+        };
+        _H2dSftmz = {
+            "id" = "H2dSftmz";
+            "file" = "newcurrencies-1.0.0+26.2.jar";
+            "hash" = "sha512-rg+8PpSWon66LuOyba6Pnwq3zmss971omP6R+oeT/c3+bKrifiGDQBbwfelpApGQiUE09JUc4WbBLm8GM9cX2A==";
+        };
+        _fqDI0KJb = {
+            "id" = "fqDI0KJb";
+            "file" = "newcurrencies-1.1.0+26.1.2.jar";
+            "hash" = "sha512-xUQmpvmLo2JXNppJVQQ4scmgUOZnb7qPfyzHXinbCibOLnHPtN802S7oYKe2CTVd9+xNF+0vNVgUA3/41j/PQA==";
+        };
+        _Mh7vDpry = {
+            "id" = "Mh7vDpry";
+            "file" = "newcurrencies-1.1.0+26.3.jar";
+            "hash" = "sha512-LxaKNmTQASK7ApBRthBDaVIaaZA+4VcGGtmHllKYVNKWwGe5PI5WG0z1o2pxGcodDR0G14SxzMfvZXmOx5Cnpw==";
+        };
+        _EmmG6RAj = {
+            "id" = "EmmG6RAj";
+            "file" = "newcurrencies-1.1.0+26.2.jar";
+            "hash" = "sha512-riXnF4DLPnWlWxC7X7eQt2URucHEyisP9gn83rVL4IjLawQRHjKu+lJj9+adZPdZnsf9KxeOqEh0uIQLe4WBEQ==";
+        };
+        _OTsk3a92 = {
+            "id" = "OTsk3a92";
+            "file" = "newcurrencies-1.1.0+26.3.jar";
+            "hash" = "sha512-fgtOHlXhER9NlyrmAOB/zS8lK+YbuuB+FrSqYjRwvH8duzx1OsOv6Q/FM44GIp1GqS0FRaer/mfcCF+1y3i7cA==";
+        };
+        _ou6x0Vhi = {
+            "id" = "ou6x0Vhi";
+            "file" = "newcurrencies-1.1.0+26.1.2.jar";
+            "hash" = "sha512-s35lDggjy8mTiXVUA2NIht0uwOF2l+72TC5aDXc6h4MNT+Ybqt38a7OPBYIWlFMnCPB7q/yoITWamuY7cb5fqw==";
+        };
+        _sU8ptuAD = {
+            "id" = "sU8ptuAD";
+            "file" = "newcurrencies-1.1.0+26.2.jar";
+            "hash" = "sha512-ePDi41zE7OKwNLVqiyCv+ct01afKOlSyKslbo/mrtSs++0XDQJ9zAUR56HELnMrJhEVQjUM0yTiv50CoVV+R1g==";
+        };
     in {
         "3kvTSs3E" = _3kvTSs3E;
         "ZoMWCKef" = _ZoMWCKef;
@@ -140,10 +200,27 @@ let
         "qw3KUm9X" = _qw3KUm9X;
         "ulGWb5IB" = _ulGWb5IB;
         "urhAKvrA" = _urhAKvrA;
+        "GGrNLB9b" = _GGrNLB9b;
+        "2aKWrJsf" = _2aKWrJsf;
+        "JOrsWmPT" = _JOrsWmPT;
+        "wgbeXbrI" = _wgbeXbrI;
+        "l9pTSV91" = _l9pTSV91;
+        "H2dSftmz" = _H2dSftmz;
+        "fqDI0KJb" = _fqDI0KJb;
+        "Mh7vDpry" = _Mh7vDpry;
+        "EmmG6RAj" = _EmmG6RAj;
+        "OTsk3a92" = _OTsk3a92;
+        "ou6x0Vhi" = _ou6x0Vhi;
+        "sU8ptuAD" = _sU8ptuAD;
         "neoforge-1.21.4" = _3kvTSs3E;
         "neoforge-1.21.3" = _ZoMWCKef;
         "neoforge-1.21.1" = _vCcGvF2w;
         "neoforge-1.21.5" = _qGPFZCBJ;
+        "neoforge-26.3" = _OTsk3a92;
+        "neoforge-26.1" = _ou6x0Vhi;
+        "neoforge-26.1.1" = _ou6x0Vhi;
+        "neoforge-26.1.2" = _ou6x0Vhi;
+        "neoforge-26.2" = _sU8ptuAD;
         "fabric-1.21.2" = _p4WNOVd1;
         "fabric-1.21.3" = _p4WNOVd1;
         "fabric-1.21.4" = _p4WNOVd1;
@@ -170,6 +247,11 @@ let
         "fabric-1.21.6" = _urhAKvrA;
         "fabric-1.21.7" = _urhAKvrA;
         "fabric-1.21.8" = _urhAKvrA;
+        "fabric-26.3" = _Mh7vDpry;
+        "fabric-26.1" = _fqDI0KJb;
+        "fabric-26.1.1" = _fqDI0KJb;
+        "fabric-26.1.2" = _fqDI0KJb;
+        "fabric-26.2" = _EmmG6RAj;
         "forge-1.21.4" = _Z3rwH5ay;
         "forge-1.21.3" = _9OQQ1yJw;
         "forge-1.21.1" = _faJzlMyi;
@@ -180,7 +262,19 @@ let
         "forge-1.20.1" = _Xbdcq7In;
         "forge-1.21.5" = _RCUXEQ2v;
         "pkg-1.0.0" = _urhAKvrA;
-        "default" = _urhAKvrA;
+        "pkg-1.0.0+26.3" = _GGrNLB9b;
+        "pkg-1.0.0+26.1.2" = _2aKWrJsf;
+        "pkg-1.0.0+26.2" = _JOrsWmPT;
+        "pkg-1.0.0+26.3-neoforge" = _wgbeXbrI;
+        "pkg-1.0.0+26.1.2-neoforge" = _l9pTSV91;
+        "pkg-1.0.0+26.2-neoforge" = _H2dSftmz;
+        "pkg-1.1.0+26.1.2" = _fqDI0KJb;
+        "pkg-1.1.0+26.3" = _Mh7vDpry;
+        "pkg-1.1.0+26.2" = _EmmG6RAj;
+        "pkg-1.1.0+26.3-neoforge" = _OTsk3a92;
+        "pkg-1.1.0+26.1.2-neoforge" = _ou6x0Vhi;
+        "pkg-1.1.0+26.2-neoforge" = _sU8ptuAD;
+        "default" = _sU8ptuAD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "new-currencies";

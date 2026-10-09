@@ -2011,6 +2011,81 @@ let
             "file" = "GlitchCore-fabric-26.2-26.2.0.0.0.jar";
             "hash" = "sha512-s8ege9aytjbhJbDWVB1subPG+U2AMqULAhpOldbY0BR8V/tKN44S0NAJt+qFSZFxBAdwPv6SB6+RzT1YblD0cA==";
         };
+        _hDVflEXv = {
+            "id" = "hDVflEXv";
+            "file" = "GlitchCore-neoforge-26.3-26.2.0.0.1.jar";
+            "hash" = "sha512-kY/n+sKUpuA6SA41a7NudQLxFXYp4UqkmhP6IpojlozHXmkopvZ3YQXXs1sb5dLd5WX29wn7Uxec9R5e2lOImQ==";
+        };
+        _PS8j5Vgb = {
+            "id" = "PS8j5Vgb";
+            "file" = "GlitchCore-fabric-26.3-26.2.0.0.1.jar";
+            "hash" = "sha512-LqfN4yC40aFFp1kWyy+OIjP8crHj0zbXRdxLiaovovId/Nm8d85H5LLCHtfWy7uHhtFwpx+ghrOPWYI1KUko4A==";
+        };
+        _YRQS74za = {
+            "id" = "YRQS74za";
+            "file" = "GlitchCore-forge-26.3-26.2.0.0.1.jar";
+            "hash" = "sha512-QmyVhmvlgNQemf33VerVDAf9+N9rnzGoYnfN6CZYAZVuKZHbPvsiG+7hYUHyeYUvyMaalgNCqG7ieegCJk4w2w==";
+        };
+        _dcNtVPCi = {
+            "id" = "dcNtVPCi";
+            "file" = "GlitchCore-neoforge-26.3-26.3.0.0.0.jar";
+            "hash" = "sha512-TLzEbDOIYOuNd1tlbmJLIRHUTKRSWjk4UoImC6nIkB0B8RylzvNPkTe+s8Zf4NzDQSlZHy3rwQirtgv0x99VnA==";
+        };
+        _vgMpwtGI = {
+            "id" = "vgMpwtGI";
+            "file" = "GlitchCore-forge-26.3-26.3.0.0.0.jar";
+            "hash" = "sha512-jpuueG7VsObMp94JfKj7XTgBxOEbgG9XyQihv1PPaKNSA9p0d2BAjyUHFIWk+il3Lal4zZTiVtTFvNdkfapnYQ==";
+        };
+        _G7X9Ej46 = {
+            "id" = "G7X9Ej46";
+            "file" = "GlitchCore-fabric-26.3-26.3.0.0.0.jar";
+            "hash" = "sha512-+TQ+XeGpJqxaSnZHL8uz71gnGGZZZC4H/m/bXPTo9u1p+diUbZr4ExO9L9dAWgzVb9scQpMXX35wy1OYi5ZZcQ==";
+        };
+        _vVs35hKC = {
+            "id" = "vVs35hKC";
+            "file" = "GlitchCore-neoforge-26.3-26.3.0.0.1.jar";
+            "hash" = "sha512-lqRNIi/DIKZHPayqV1rS0UJ4c0kN37TvfNbcvChtcmG0icol9IKhEKn6lfQPvh/GpjFOYJm7Edwl43A4X50FIg==";
+        };
+        _cl6cSuE0 = {
+            "id" = "cl6cSuE0";
+            "file" = "GlitchCore-fabric-26.3-26.3.0.0.1.jar";
+            "hash" = "sha512-EyJLlkjh2WOxdsoxIJmcQY4OxRBwWXKs0TFGM01BKTmTm0UTNKbobD57VbVFmS9aA3z1gKFSMa/ug5GlroL8Jw==";
+        };
+        _dcJyf63B = {
+            "id" = "dcJyf63B";
+            "file" = "GlitchCore-forge-26.3-26.3.0.0.1.jar";
+            "hash" = "sha512-vdFOvq/bFpLnoPBf3dwQBshFUI97VFMyZvUF9jXkgLnNvOXaKYIVdrYSzZ1q3DERBECy0BTl6TeVBN9EbzTWsg==";
+        };
+        _oony3ZtX = {
+            "id" = "oony3ZtX";
+            "file" = "GlitchCore-neoforge-26.3-26.3.0.0.2.jar";
+            "hash" = "sha512-EpIPDZPO1SeTLcRkGfqm9115IPTANKhDirweDEs+FrO6im8Or95zPR9tSvC/JdaeuyhX5G8L7lU+ZuoqHjExmA==";
+        };
+        _Bs3RqaYs = {
+            "id" = "Bs3RqaYs";
+            "file" = "GlitchCore-forge-26.3-26.3.0.0.2.jar";
+            "hash" = "sha512-psJULsdczKIsprWHD9mj5ud+T3OLaj5Q39FXiDkV+RAz/LJAqyj+t0yV1ruoWAVV7+Qprwlqd3hLLneUucUB1g==";
+        };
+        _Kq5x0CfC = {
+            "id" = "Kq5x0CfC";
+            "file" = "GlitchCore-fabric-26.3-26.3.0.0.2.jar";
+            "hash" = "sha512-5fv3HoQ+VpkbMLabnHMTO3TMIHJ5qt5m1x4RFBBOOWBQln3PzxpLvXb2yQqiWYwj6oneY5HY14XXIHEXO3KCMQ==";
+        };
+        _5FMzBcg1 = {
+            "id" = "5FMzBcg1";
+            "file" = "GlitchCore-neoforge-26.3-26.3.0.0.3.jar";
+            "hash" = "sha512-/YtX9tI9W9ltGM7aXrzEQ79t8y24tcX3S2lnpOAU7yLde/czvdDEHTKuEMlVhqgJUcVgWKq6n2EPsMnkvXGyug==";
+        };
+        _elIqWDMx = {
+            "id" = "elIqWDMx";
+            "file" = "GlitchCore-forge-26.3-26.3.0.0.3.jar";
+            "hash" = "sha512-8HETJ78eogvyzdPEOjdmLrie6Jc5GcMla6/nurK/2X/pWTaBfGGL5e4y0q+u6HggYdPExZ3DqXMucubrwfXHfQ==";
+        };
+        _aaUghyGp = {
+            "id" = "aaUghyGp";
+            "file" = "GlitchCore-fabric-26.3-26.3.0.0.3.jar";
+            "hash" = "sha512-f7YGzz3hRj9uP8mgQaB+Eg7GUryR2W7b31XhO2JkEYQHcEaPPrD2WmnrEElLHvJZlicpfLvfG6hjuS7D85RbOQ==";
+        };
     in {
         "rAlH9UVU" = _rAlH9UVU;
         "9XbvDOb3" = _9XbvDOb3;
@@ -2414,6 +2489,21 @@ let
         "POAebwFo" = _POAebwFo;
         "mWgn5z5M" = _mWgn5z5M;
         "SDUCBYRU" = _SDUCBYRU;
+        "hDVflEXv" = _hDVflEXv;
+        "PS8j5Vgb" = _PS8j5Vgb;
+        "YRQS74za" = _YRQS74za;
+        "dcNtVPCi" = _dcNtVPCi;
+        "vgMpwtGI" = _vgMpwtGI;
+        "G7X9Ej46" = _G7X9Ej46;
+        "vVs35hKC" = _vVs35hKC;
+        "cl6cSuE0" = _cl6cSuE0;
+        "dcJyf63B" = _dcJyf63B;
+        "oony3ZtX" = _oony3ZtX;
+        "Bs3RqaYs" = _Bs3RqaYs;
+        "Kq5x0CfC" = _Kq5x0CfC;
+        "5FMzBcg1" = _5FMzBcg1;
+        "elIqWDMx" = _elIqWDMx;
+        "aaUghyGp" = _aaUghyGp;
         "forge-1.20.4" = _5dJo9vem;
         "forge-1.20.6" = _VgEdUrLh;
         "forge-1.21" = _gRojlSfz;
@@ -2433,6 +2523,7 @@ let
         "forge-26.1.1" = _PuZhTaE9;
         "forge-26.1.2" = _uyFrxu03;
         "forge-26.2" = _mWgn5z5M;
+        "forge-26.3" = _elIqWDMx;
         "fabric-1.20.4" = _OdIJPwzd;
         "fabric-1.20.6" = _MC3MbOsf;
         "fabric-1.21" = _2zGz6n4Q;
@@ -2451,6 +2542,7 @@ let
         "fabric-26.1.1" = _iO7e7eNb;
         "fabric-26.1.2" = _WNtSATXw;
         "fabric-26.2" = _SDUCBYRU;
+        "fabric-26.3" = _aaUghyGp;
         "neoforge-1.20.4" = _fjNK5lKo;
         "neoforge-1.20.6" = _nDPHpliv;
         "neoforge-1.21" = _wSIqxYU7;
@@ -2468,6 +2560,7 @@ let
         "neoforge-26.1.1" = _jUd6Y6PM;
         "neoforge-26.1.2" = _mYUbCfgT;
         "neoforge-26.2" = _POAebwFo;
+        "neoforge-26.3" = _5FMzBcg1;
         "pkg-1.0.0.3" = _u2Vbmcgy;
         "pkg-1.0.0.4" = _hUK79iFJ;
         "pkg-1.0.0.5" = _oyG0xasM;
@@ -2600,7 +2693,12 @@ let
         "pkg-2.1.0.2" = _sux8kYHe;
         "pkg-26.1.2.0.3" = _OtqwRWbw;
         "pkg-26.2.0.0.0" = _SDUCBYRU;
-        "default" = _SDUCBYRU;
+        "pkg-26.2.0.0.1" = _YRQS74za;
+        "pkg-26.3.0.0.0" = _G7X9Ej46;
+        "pkg-26.3.0.0.1" = _dcJyf63B;
+        "pkg-26.3.0.0.2" = _Kq5x0CfC;
+        "pkg-26.3.0.0.3" = _aaUghyGp;
+        "default" = _aaUghyGp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "glitchcore";

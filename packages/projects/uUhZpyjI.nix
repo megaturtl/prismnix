@@ -81,6 +81,11 @@ let
             "file" = "brassworksmissions-2.1.jar";
             "hash" = "sha512-Tg2LsyuUe/LsIdeJ0XjD3lh9bP6+hpXUsuqC02O327GsmqtbhI8Bzra5lRoCC3mpyxA8hcQ8+C7gKoEk4GsUXQ==";
         };
+        _gnSAwQ2A = {
+            "id" = "gnSAwQ2A";
+            "file" = "brassworksmissions-2.1-hotfix.jar";
+            "hash" = "sha512-Zf6O+skU+1lnUs9m59tVEKwbstNiPSZEk3QgTSh+3OAz7CvkIw3aX4O5nLDygOsXZmSaJwYQ1U+TdYNyg7GgaA==";
+        };
     in {
         "irpNUNIc" = _irpNUNIc;
         "evGX8e7M" = _evGX8e7M;
@@ -98,7 +103,8 @@ let
         "FTx6Sme7" = _FTx6Sme7;
         "SBTutykT" = _SBTutykT;
         "iKqrdQTR" = _iKqrdQTR;
-        "neoforge-1.21.1" = _iKqrdQTR;
+        "gnSAwQ2A" = _gnSAwQ2A;
+        "neoforge-1.21.1" = _gnSAwQ2A;
         "pkg-1.0" = _irpNUNIc;
         "pkg-1.1" = _evGX8e7M;
         "pkg-1.2" = _ZOVlIbqJ;
@@ -115,7 +121,8 @@ let
         "pkg-1.13" = _FTx6Sme7;
         "pkg-2.0" = _SBTutykT;
         "pkg-2.1" = _iKqrdQTR;
-        "default" = _iKqrdQTR;
+        "pkg-2.1-hotfix" = _gnSAwQ2A;
+        "default" = _gnSAwQ2A;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-brassworks-missions";

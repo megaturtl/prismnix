@@ -21,11 +21,17 @@ let
             "file" = "No Clouds 26.2.zip";
             "hash" = "sha512-G66RNAnP9yqgS9z63O3QnM7jaxEsn0N2yFyU8EMO/AIgHM9ri/hh0CNP2KX7Bznflxz0d24TOJOMTaY+RNgQQA==";
         };
+        _EDOrnS1v = {
+            "id" = "EDOrnS1v";
+            "file" = "No Clouds 26.3.zip";
+            "hash" = "sha512-0ZcGVix1uOKjl2y5sPtQsEetIvTGcZwBCfqERoJJUbNfKCRkayXf2I5/GycJBiiq7lrBIzmOdEK9dSWzrNg6lA==";
+        };
     in {
         "7Wjo8PpF" = _7Wjo8PpF;
         "fNjnQJoe" = _fNjnQJoe;
         "h2ZO8hRQ" = _h2ZO8hRQ;
         "tYr2O7Zd" = _tYr2O7Zd;
+        "EDOrnS1v" = _EDOrnS1v;
         "minecraft-1.14" = _7Wjo8PpF;
         "minecraft-1.14.1" = _7Wjo8PpF;
         "minecraft-1.14.2" = _7Wjo8PpF;
@@ -73,11 +79,13 @@ let
         "minecraft-26.1.1" = _h2ZO8hRQ;
         "minecraft-26.1.2" = _h2ZO8hRQ;
         "minecraft-26.2" = _tYr2O7Zd;
+        "minecraft-26.3" = _EDOrnS1v;
         "pkg-1.0" = _7Wjo8PpF;
         "pkg-1.21.11" = _fNjnQJoe;
         "pkg-1.3" = _h2ZO8hRQ;
         "pkg-26.2" = _tYr2O7Zd;
-        "default" = _tYr2O7Zd;
+        "pkg-26.3" = _EDOrnS1v;
+        "default" = _EDOrnS1v;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "no-clouds";

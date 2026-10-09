@@ -856,6 +856,51 @@ let
             "file" = "asteorbar-neoforge-1.21.11-1.5.3.jar";
             "hash" = "sha512-R5TyVWKCqSihK02+snCzQjNyfz9a8Y7mkfYuTRd/BuRxVSFtjCEgnrpkg1ZxAJNJRgDpfJ++TlmEApIgUUhFRQ==";
         };
+        _QBP6dASa = {
+            "id" = "QBP6dASa";
+            "file" = "asteorbar-forge-26.1-1.5.3.jar";
+            "hash" = "sha512-wosqAE/ZI9at+PEiQ2ATDB5ri4xTB1cCTbd7jT/P+omAlWnWVxRcIcpaXd/AnujipzB7bKW3TLwyFw/or/CvLg==";
+        };
+        _SykthCVe = {
+            "id" = "SykthCVe";
+            "file" = "asteorbar-fabric-26.1-1.5.3.jar";
+            "hash" = "sha512-ooARt1ENTprp2WErXObA+xJVdLfyRsHrw30/x6w94HfcQMJxEQHsBSx2c0gRO4zE65W4dGvbrjxzrOWx3cE+Iw==";
+        };
+        _7gZdbxAa = {
+            "id" = "7gZdbxAa";
+            "file" = "asteorbar-neoforge-26.1-1.5.3.jar";
+            "hash" = "sha512-nGM5aAFmvVpdOd6zIX0D+0cpArQ5Df/etf8QeVLTW9lTnzbu1Lizl5n3DYnfdGx3j5U+07huiDHMsJjE5g2hmA==";
+        };
+        _mqce2J5Y = {
+            "id" = "mqce2J5Y";
+            "file" = "asteorbar-forge-26.2-1.5.3.jar";
+            "hash" = "sha512-7kGtTsVnoc/BRC3kefxIvOoo7Qhm1beJMKSf4LAmEaVzrkClaYnFCqJNpoqoivPZ22gOzfIdOC3EwN++g7elVQ==";
+        };
+        _b6NPx2ia = {
+            "id" = "b6NPx2ia";
+            "file" = "asteorbar-fabric-26.2-1.5.3.jar";
+            "hash" = "sha512-m6VB6XO72fpJy1wkP54mRCo+lB91YMe4YzjeWwgqoLczWPB37jlVJdB0P8O1+Xwc46YAUzPKYOPSijAzBNhbrw==";
+        };
+        _TyAt1E9N = {
+            "id" = "TyAt1E9N";
+            "file" = "asteorbar-neoforge-26.2-1.5.3.jar";
+            "hash" = "sha512-tc1ZY4hOocsrLAxNl7wqJuEsP39bRTd8nbT4O2z+0OMxyem8F5MmoQDchlThzOxmW4yHn0MWXimb47oOh8KR7w==";
+        };
+        _Qn34LcUv = {
+            "id" = "Qn34LcUv";
+            "file" = "asteorbar-forge-26.3-1.5.3.jar";
+            "hash" = "sha512-H2dr0p9JbNSOiC7O/nXr1Ryk96BJTT/AwCEwXdiaCNqqlX4o6qo4jWNoFiVrQrxjQ1sKf/KFv3Muq5fhiyOIgw==";
+        };
+        _OettnmlS = {
+            "id" = "OettnmlS";
+            "file" = "asteorbar-fabric-26.3-1.5.3.jar";
+            "hash" = "sha512-ppE+Y474nDvLrcoeS40bdAgCnAshAg2de0DAIUUjmcvh25j8QJjlu4xyA+HShYE72ddQL1IHAEpFYi/sfK3BKw==";
+        };
+        _IS7Qa390 = {
+            "id" = "IS7Qa390";
+            "file" = "asteorbar-neoforge-26.3-1.5.3.jar";
+            "hash" = "sha512-0ZZ14rqLVNW6kPmnbdLVbhgx0FKOQ9GDedl3g13WeUEmDtufkZjyCHBHOwGWwFUsIcmPhA5HE9sahvhjV9U2dg==";
+        };
     in {
         "QSH2KrST" = _QSH2KrST;
         "DMJm0Sst" = _DMJm0Sst;
@@ -1028,6 +1073,15 @@ let
         "jSXh0uev" = _jSXh0uev;
         "UHyKeZpI" = _UHyKeZpI;
         "JMNdMcRS" = _JMNdMcRS;
+        "QBP6dASa" = _QBP6dASa;
+        "SykthCVe" = _SykthCVe;
+        "7gZdbxAa" = _7gZdbxAa;
+        "mqce2J5Y" = _mqce2J5Y;
+        "b6NPx2ia" = _b6NPx2ia;
+        "TyAt1E9N" = _TyAt1E9N;
+        "Qn34LcUv" = _Qn34LcUv;
+        "OettnmlS" = _OettnmlS;
+        "IS7Qa390" = _IS7Qa390;
         "forge-1.18.2" = _KHSunT3e;
         "forge-1.19.2" = _n2Wbqe3w;
         "forge-1.19.3" = _U9obsbva;
@@ -1047,6 +1101,11 @@ let
         "forge-1.21.9" = _MdemFrxN;
         "forge-1.21.10" = _MdemFrxN;
         "forge-1.21.11" = _jSXh0uev;
+        "forge-26.1" = _QBP6dASa;
+        "forge-26.1.1" = _QBP6dASa;
+        "forge-26.1.2" = _QBP6dASa;
+        "forge-26.2" = _mqce2J5Y;
+        "forge-26.3" = _Qn34LcUv;
         "fabric-1.18.2" = _Zpr1EDLj;
         "fabric-1.19.2" = _SLCMYLDY;
         "fabric-1.19.3" = _DybvJXVQ;
@@ -1066,6 +1125,11 @@ let
         "fabric-1.21.9" = _L07h98E5;
         "fabric-1.21.10" = _L07h98E5;
         "fabric-1.21.11" = _UHyKeZpI;
+        "fabric-26.1" = _SykthCVe;
+        "fabric-26.1.1" = _SykthCVe;
+        "fabric-26.1.2" = _SykthCVe;
+        "fabric-26.2" = _b6NPx2ia;
+        "fabric-26.3" = _OettnmlS;
         "neoforge-1.20.2" = _VmyEnr1u;
         "neoforge-1.20.4" = _QVJjWC1p;
         "neoforge-1.20.6" = _OAeaC4Z2;
@@ -1080,6 +1144,11 @@ let
         "neoforge-1.21.9" = _MgvE0tUq;
         "neoforge-1.21.10" = _MgvE0tUq;
         "neoforge-1.21.11" = _JMNdMcRS;
+        "neoforge-26.1" = _7gZdbxAa;
+        "neoforge-26.1.1" = _7gZdbxAa;
+        "neoforge-26.1.2" = _7gZdbxAa;
+        "neoforge-26.2" = _TyAt1E9N;
+        "neoforge-26.3" = _IS7Qa390;
         "pkg-1.3" = _655w7wyE;
         "pkg-1.4" = _GPTVgbVZ;
         "pkg-1.4.1" = _ZYAC88jd;
@@ -1091,8 +1160,8 @@ let
         "pkg-1.5" = _2jvh6Kr4;
         "pkg-1.5.1" = _zLptRpdN;
         "pkg-1.5.2" = _oFt9kdFa;
-        "pkg-1.5.3" = _JMNdMcRS;
-        "default" = _JMNdMcRS;
+        "pkg-1.5.3" = _IS7Qa390;
+        "default" = _IS7Qa390;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "asteorbar";

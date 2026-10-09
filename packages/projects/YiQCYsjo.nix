@@ -136,6 +136,16 @@ let
             "file" = "PartyCreepers-v26.2.0-mc26.2.x-NeoForge.jar";
             "hash" = "sha512-zpNCG3SjjVgld7H6nIgeSGVfPrM8UFXlaFpXNOl9rLcz7Q7vwZJbqfjammQZuXiibyPAEtSZH2KzqDVcgVx/CQ==";
         };
+        _nWqk4jBd = {
+            "id" = "nWqk4jBd";
+            "file" = "partycreepers-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-nO9jRtby71DjcfgF9QVMItVopyBHLFV0HfvJNiL1FDQBtstmklpAAImkmZ8+/c9EEx0so/vaPdKfhdrh2IoiyA==";
+        };
+        _Ihg0cQWR = {
+            "id" = "Ihg0cQWR";
+            "file" = "partycreepers-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-ZR6+eC0YHr9uxYWTNqpmQWUg8FaVKJeGA+Gjo6lYe1xrpgMLEdbxkIvcl/Ot5yj1eqN+hpQVB/Aefag9Typ1bQ==";
+        };
     in {
         "iJsDOlAC" = _iJsDOlAC;
         "p2ROxHet" = _p2ROxHet;
@@ -164,6 +174,8 @@ let
         "C9A7JIv8" = _C9A7JIv8;
         "nC4nDOCL" = _nC4nDOCL;
         "nqA4sYAH" = _nqA4sYAH;
+        "nWqk4jBd" = _nWqk4jBd;
+        "Ihg0cQWR" = _Ihg0cQWR;
         "neoforge-1.21.10" = _YmKkOln9;
         "neoforge-1.20.4" = _8aSIdj8G;
         "neoforge-1.21.1" = _27FVftjr;
@@ -176,6 +188,7 @@ let
         "neoforge-26.1.1" = _IYhPZl5v;
         "neoforge-26.1.2" = _IYhPZl5v;
         "neoforge-26.2" = _nqA4sYAH;
+        "neoforge-26.3" = _Ihg0cQWR;
         "fabric-1.21.10" = _jixRcSxF;
         "fabric-1.20.4" = _QVvjk2GT;
         "fabric-1.21.1" = _JOJ2mX2z;
@@ -189,6 +202,7 @@ let
         "fabric-26.1.2" = _xiAMDCZg;
         "fabric-1.20.1" = _WhxXwkUr;
         "fabric-26.2" = _nC4nDOCL;
+        "fabric-26.3" = _nWqk4jBd;
         "forge-1.20.4" = _6kk1Xwbm;
         "forge-1.20.1" = _C9A7JIv8;
         "pkg-21.10.0" = _p2ROxHet;
@@ -213,7 +227,8 @@ let
         "pkg-v20.1.0-1.20.1-Fabric" = _WhxXwkUr;
         "pkg-v20.1.0-1.20.1-Forge" = _C9A7JIv8;
         "pkg-26.2.0" = _nqA4sYAH;
-        "default" = _nqA4sYAH;
+        "pkg-26.3.0" = _Ihg0cQWR;
+        "default" = _Ihg0cQWR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "party-creepers";

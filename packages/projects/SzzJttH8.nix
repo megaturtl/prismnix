@@ -146,6 +146,11 @@ let
             "file" = "tacz-1.20.1-1.1.8-hotfix.jar";
             "hash" = "sha512-vzW9Ud/jn9/8P097ZpXoU0i2SAfil3vKgT3s375MLXzV4VxDfkKgEqqgZ+JxsCzZLz0y5PoI02/twUHmaKEVxg==";
         };
+        _AzCBJlex = {
+            "id" = "AzCBJlex";
+            "file" = "tacz-1.20.1-1.1.8-hotfix2.jar";
+            "hash" = "sha512-+otL1Kegg1CSvMuyihhGFkLU56L2/bdirEl41NvDHR8PYcaFNDphYH3OPRzYn0MUthqfiBGWC50GBGkqw//5bQ==";
+        };
     in {
         "ziN9m4CV" = _ziN9m4CV;
         "E6fkRpvN" = _E6fkRpvN;
@@ -176,8 +181,9 @@ let
         "3NpuJ7TJ" = _3NpuJ7TJ;
         "C2pCZ5ht" = _C2pCZ5ht;
         "yOVIzIJR" = _yOVIzIJR;
+        "AzCBJlex" = _AzCBJlex;
         "forge-1.20" = _CkNQpQcx;
-        "forge-1.20.1" = _yOVIzIJR;
+        "forge-1.20.1" = _AzCBJlex;
         "forge-1.18.2" = _XELsjBdz;
         "forge-1.19" = _zuX7UjoK;
         "forge-1.19.1" = _zuX7UjoK;
@@ -201,7 +207,8 @@ let
         "pkg-1.1.7-hotfix2" = _3NpuJ7TJ;
         "pkg-1.1.8" = _C2pCZ5ht;
         "pkg-1.1.8-hotfix" = _yOVIzIJR;
-        "default" = _yOVIzIJR;
+        "pkg-1.1.8-hotfix2" = _AzCBJlex;
+        "default" = _AzCBJlex;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "timeless-and-classics-zero";

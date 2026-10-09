@@ -21,11 +21,17 @@ let
             "file" = "§cChristmas §7_§aFeatures.zip";
             "hash" = "sha512-BKM+XYkHFEZK7eiKm9ikqmI3hpUuCtCwDFbD/p8ApP34UxP2N6VXfLcYum/rO7zViXyZShrXksvND/H4TM1Hkg==";
         };
+        _G1xenwUI = {
+            "id" = "G1xenwUI";
+            "file" = "§cChristmas §7_§aFeatures.zip";
+            "hash" = "sha512-MjDWxe8ArhCFh2Syy3Vt+h3+Sq1AmFJN6/e3EIH801AymfDUpJFQBlw9S1fCKvVjIFI0qABY0JZckMeIN+mDYg==";
+        };
     in {
         "E4QaJT34" = _E4QaJT34;
         "wP4RgL2U" = _wP4RgL2U;
         "rncwdObQ" = _rncwdObQ;
         "kSmRqxe1" = _kSmRqxe1;
+        "G1xenwUI" = _G1xenwUI;
         "minecraft-1.17.1" = _kSmRqxe1;
         "minecraft-1.18" = _kSmRqxe1;
         "minecraft-1.18.1" = _kSmRqxe1;
@@ -35,8 +41,8 @@ let
         "minecraft-1.19.2" = _kSmRqxe1;
         "minecraft-1.19.3" = _kSmRqxe1;
         "minecraft-1.19.4" = _kSmRqxe1;
-        "minecraft-1.20" = _kSmRqxe1;
-        "minecraft-1.20.1" = _kSmRqxe1;
+        "minecraft-1.20" = _G1xenwUI;
+        "minecraft-1.20.1" = _G1xenwUI;
         "minecraft-1.20.2" = _kSmRqxe1;
         "minecraft-1.20.3" = _kSmRqxe1;
         "minecraft-1.20.4" = _kSmRqxe1;
@@ -57,7 +63,8 @@ let
         "pkg-1.0.1" = _wP4RgL2U;
         "pkg-1.2.0" = _rncwdObQ;
         "pkg-1.4.0" = _kSmRqxe1;
-        "default" = _kSmRqxe1;
+        "pkg-1.4.1" = _G1xenwUI;
+        "default" = _G1xenwUI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "christmas-chests+leaves";

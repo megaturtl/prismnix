@@ -86,6 +86,16 @@ let
             "file" = "fireworkcapsules-neoforge-2.1.3+1.21.1.jar";
             "hash" = "sha512-fsKVCdF+ztOF11tezzxxZqHYg+4ByU5Drm+Bu7qicWA9FNwoe8CljgYTpEras1HUUZzHlDBTRsz13c9q13pviA==";
         };
+        _nuXJpPUr = {
+            "id" = "nuXJpPUr";
+            "file" = "fireworkcapsules-fabric-2.2.0+1.21.1.jar";
+            "hash" = "sha512-hFebSHrO3W2HYaRHu2/ZADTizvzVkfiGsi2sijfm4qeepfuuqPEV4gX6CG5gPcq1xD2H49ASciIoXXpa6i/Scw==";
+        };
+        _ZiubX7UC = {
+            "id" = "ZiubX7UC";
+            "file" = "fireworkcapsules-neoforge-2.2.0+1.21.1.jar";
+            "hash" = "sha512-au+KSxO/g/zJllA02EUobsKeXV36KG6NU57M/8Ml5rmcvzbeNNTCbonzobGAsNYallU75OMpkowhOnCzTKqOjw==";
+        };
     in {
         "SRFEjMPG" = _SRFEjMPG;
         "NNZgdkKV" = _NNZgdkKV;
@@ -104,8 +114,10 @@ let
         "IKIYJ5My" = _IKIYJ5My;
         "IehaaF1s" = _IehaaF1s;
         "X6tDdBcR" = _X6tDdBcR;
-        "fabric-1.21.1" = _IehaaF1s;
-        "neoforge-1.21.1" = _X6tDdBcR;
+        "nuXJpPUr" = _nuXJpPUr;
+        "ZiubX7UC" = _ZiubX7UC;
+        "fabric-1.21.1" = _nuXJpPUr;
+        "neoforge-1.21.1" = _ZiubX7UC;
         "pkg-1.0.0+1.21.1" = _NNZgdkKV;
         "pkg-1.0.0+1.21.1+hotfix" = _JOioyEws;
         "pkg-1.0.1+1.21.1" = _qNl7Q9nW;
@@ -116,7 +128,8 @@ let
         "pkg-2.1.1+1.21.1" = _mo2OrCvD;
         "pkg-2.1.2+1.21.1" = _IKIYJ5My;
         "pkg-2.1.3+1.21.1" = _X6tDdBcR;
-        "default" = _X6tDdBcR;
+        "pkg-2.2.0+1.21.1" = _ZiubX7UC;
+        "default" = _ZiubX7UC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-firework-capsules";

@@ -21,11 +21,23 @@ let
             "file" = "cobweb-enchantment-1.0.0.jar";
             "hash" = "sha512-5xW4BWhRbrMLBy4LzDN0Jx/GQs8c62u6oNg45asU31oYFT3hygdRxaon3y+1NgS+0Xx4Hs/KUde9+uHEigHIMg==";
         };
+        _IKrTUk1k = {
+            "id" = "IKrTUk1k";
+            "file" = "Cobweb Enchantment v1.0.0 [26.3].zip";
+            "hash" = "sha512-rO4L5YKVxKvF/3cqDd8GI4cOyLRe5ygajw+hxHMuhxvs1PYbNiD/GOYwVhhZ0Oc91PeMTSB3SxFJdRv31ZaYWA==";
+        };
+        _S2MdVVWS = {
+            "id" = "S2MdVVWS";
+            "file" = "cobweb-enchantment-1.0.0.jar";
+            "hash" = "sha512-P8FRUaTpXl17iumHsgC3xx2fkqu6p6UwXo7hrScJvTzvF5P1jHSNjoEumf6gsGaa+KZ/GkKU7WRoPMvw2u93iA==";
+        };
     in {
         "SVfr8sxo" = _SVfr8sxo;
         "rekxghuY" = _rekxghuY;
         "RoYYUJ4B" = _RoYYUJ4B;
         "H58u8o7p" = _H58u8o7p;
+        "IKrTUk1k" = _IKrTUk1k;
+        "S2MdVVWS" = _S2MdVVWS;
         "datapack-1.21" = _SVfr8sxo;
         "datapack-1.21.1" = _SVfr8sxo;
         "datapack-1.21.2" = _SVfr8sxo;
@@ -42,6 +54,7 @@ let
         "datapack-26.1.1" = _SVfr8sxo;
         "datapack-26.1.2" = _SVfr8sxo;
         "datapack-26.2" = _RoYYUJ4B;
+        "datapack-26.3" = _IKrTUk1k;
         "fabric-1.21" = _rekxghuY;
         "fabric-1.21.1" = _rekxghuY;
         "fabric-1.21.2" = _rekxghuY;
@@ -58,6 +71,7 @@ let
         "fabric-26.1.1" = _rekxghuY;
         "fabric-26.1.2" = _rekxghuY;
         "fabric-26.2" = _H58u8o7p;
+        "fabric-26.3" = _S2MdVVWS;
         "forge-1.21" = _rekxghuY;
         "forge-1.21.1" = _rekxghuY;
         "forge-1.21.2" = _rekxghuY;
@@ -74,6 +88,7 @@ let
         "forge-26.1.1" = _rekxghuY;
         "forge-26.1.2" = _rekxghuY;
         "forge-26.2" = _H58u8o7p;
+        "forge-26.3" = _S2MdVVWS;
         "neoforge-1.21" = _rekxghuY;
         "neoforge-1.21.1" = _rekxghuY;
         "neoforge-1.21.2" = _rekxghuY;
@@ -90,6 +105,7 @@ let
         "neoforge-26.1.1" = _rekxghuY;
         "neoforge-26.1.2" = _rekxghuY;
         "neoforge-26.2" = _H58u8o7p;
+        "neoforge-26.3" = _S2MdVVWS;
         "quilt-1.21" = _rekxghuY;
         "quilt-1.21.1" = _rekxghuY;
         "quilt-1.21.2" = _rekxghuY;
@@ -106,9 +122,10 @@ let
         "quilt-26.1.1" = _rekxghuY;
         "quilt-26.1.2" = _rekxghuY;
         "quilt-26.2" = _H58u8o7p;
-        "pkg-1.0.0" = _RoYYUJ4B;
-        "pkg-1.0.0+mod" = _H58u8o7p;
-        "default" = _H58u8o7p;
+        "quilt-26.3" = _S2MdVVWS;
+        "pkg-1.0.0" = _IKrTUk1k;
+        "pkg-1.0.0+mod" = _S2MdVVWS;
+        "default" = _S2MdVVWS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobweb-enchantment";

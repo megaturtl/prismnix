@@ -536,6 +536,16 @@ let
             "file" = "rpgmoblevelingsystem-neoforge-1.21.1-2.0.7.jar";
             "hash" = "sha512-YOwqyC3QLA69zUndIXXzUx2z51VynNddiAWdYgj+rAYwGASnzkExrE2l3uxKagJ2DFcvbt7nab2HFlATsS4blQ==";
         };
+        _DnW5f3IS = {
+            "id" = "DnW5f3IS";
+            "file" = "rpgmoblevelingsystem-fabric-26.3-2.0.7.jar";
+            "hash" = "sha512-jDq54YlG3hnz2yBOmfqGRbCLSSJfco25dpN/V4O4ah0ccTT+iP1+igtoOIGqrYXFlqrmMRaIgc3xWJn1zJAqhA==";
+        };
+        _rJgsna5d = {
+            "id" = "rJgsna5d";
+            "file" = "rpgmoblevelingsystem-neoforge-26.3-2.0.7.jar";
+            "hash" = "sha512-7UG8iXggylP1K0dU0YOsByXMc6WgPqt2ZA9x9l/FUbwh/vQLRJLab70CwoeSe855Ob6lWvtU/MWsN5ZrA6oGSg==";
+        };
     in {
         "wWd6YFec" = _wWd6YFec;
         "GFXumiKL" = _GFXumiKL;
@@ -644,6 +654,8 @@ let
         "FQR898DR" = _FQR898DR;
         "ysGVaW5Y" = _ysGVaW5Y;
         "Jotlloxu" = _Jotlloxu;
+        "DnW5f3IS" = _DnW5f3IS;
+        "rJgsna5d" = _rJgsna5d;
         "forge-1.20.1" = _ysGVaW5Y;
         "forge-1.19.2" = _ZKRsos5I;
         "forge-1.18.2" = _iPdp9SzW;
@@ -651,8 +663,10 @@ let
         "neoforge-1.20.6" = _9t87JUvS;
         "neoforge-1.21.1" = _Jotlloxu;
         "neoforge-1.20.1" = _tcIDS6Q6;
+        "neoforge-26.3" = _rJgsna5d;
         "fabric-1.20.1" = _Zj5zE4Kn;
         "fabric-1.21.1" = _FQR898DR;
+        "fabric-26.3" = _DnW5f3IS;
         "pkg-0.0.1" = _sOTDQjxL;
         "pkg-0.1.0" = _pjxuU3bT;
         "pkg-0.2.0" = _WsTgD7kb;
@@ -682,8 +696,8 @@ let
         "pkg-2.0.3" = _DZpGZDcB;
         "pkg-2.0.4" = _GEhZd5Ua;
         "pkg-2.0.5" = _q64jj3at;
-        "pkg-2.0.7" = _Jotlloxu;
-        "default" = _Jotlloxu;
+        "pkg-2.0.7" = _rJgsna5d;
+        "default" = _rJgsna5d;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rpg-mob-leveling-system";

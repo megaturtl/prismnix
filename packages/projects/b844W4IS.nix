@@ -91,6 +91,11 @@ let
             "file" = "savepoint-1.3.0+mc26.3.jar";
             "hash" = "sha512-ORfBU7IyRzpVsIZAMSIUQcsy2r1TeiG7fzCoBMelscZ0T0M0ntYpx44EzykEidU5TMVHQZpKd1sjBiXjwcjMeQ==";
         };
+        _V0A7fJDI = {
+            "id" = "V0A7fJDI";
+            "file" = "savepoint-1.3.1+mc26.3.jar";
+            "hash" = "sha512-PfO8FCGeqJ7UBw4TLGkHEu2AYJhLLKRlnkaPQEINuKaoHRPhSGnt7UXYDCkUk9r/uX+xXKPp84nVZ36zhBd6YQ==";
+        };
     in {
         "NJv4GKxb" = _NJv4GKxb;
         "sZnwdbGb" = _sZnwdbGb;
@@ -110,6 +115,7 @@ let
         "Lw7JgXBA" = _Lw7JgXBA;
         "UXbIeD1J" = _UXbIeD1J;
         "Ga0qqQvz" = _Ga0qqQvz;
+        "V0A7fJDI" = _V0A7fJDI;
         "fabric-1.21.1" = _g18iUDUD;
         "fabric-1.21.6" = _tIlx0lGN;
         "fabric-1.21.7" = _tIlx0lGN;
@@ -122,7 +128,7 @@ let
         "fabric-26.1.2" = _UXbIeD1J;
         "fabric-26.2" = _UXbIeD1J;
         "fabric-26.3-rc-3" = _Ga0qqQvz;
-        "fabric-26.3" = _Ga0qqQvz;
+        "fabric-26.3" = _V0A7fJDI;
         "pkg-1.0.0" = _NJv4GKxb;
         "pkg-1.0.1" = _sZnwdbGb;
         "pkg-1.0.1+mc1.21.8" = _T2kvyBzH;
@@ -141,7 +147,8 @@ let
         "pkg-1.2.5+mc26.1.2" = _Lw7JgXBA;
         "pkg-1.3.0+mc26.1.2" = _UXbIeD1J;
         "pkg-1.3.0+mc26.3" = _Ga0qqQvz;
-        "default" = _Ga0qqQvz;
+        "pkg-1.3.1+mc26.3" = _V0A7fJDI;
+        "default" = _V0A7fJDI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "save-point";

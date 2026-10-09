@@ -71,6 +71,16 @@ let
             "file" = "zetter-1.19.2-0.21.7.jar";
             "hash" = "sha512-mlefYwpwMIlGEz9GiGNvctyu1gY+s9jNUMTexM7qoL2nvrSKZSJ7WlvGkzOb8Rv64zFh7uZ7C6oGus9fOgu1gg==";
         };
+        _vs8wxHPC = {
+            "id" = "vs8wxHPC";
+            "file" = "zetter-1.21.1-0.21.7.jar";
+            "hash" = "sha512-skCt8xFnJVFkJxz4A4UawM9OP7xfSV35TFpHtram6RIR1Q6mbzqD+5G6pf95gEoV19/6ZSBi/6kFEfCLvXFyEQ==";
+        };
+        _Cg4lHz41 = {
+            "id" = "Cg4lHz41";
+            "file" = "zetter-1.20.1-0.22.0.jar";
+            "hash" = "sha512-qTHsMvSoaDiBie1ZmhOOxG/cNHGowUJokaAMCVOIrW4kI/Fte+1uNO0OYaPCuAg8SCONkRapBiJXGkun6r0ROA==";
+        };
     in {
         "8F9stw9s" = _8F9stw9s;
         "v1HmHgEx" = _v1HmHgEx;
@@ -86,11 +96,29 @@ let
         "S19fB0nn" = _S19fB0nn;
         "ISzdE6gG" = _ISzdE6gG;
         "gQezmYaj" = _gQezmYaj;
+        "vs8wxHPC" = _vs8wxHPC;
+        "Cg4lHz41" = _Cg4lHz41;
         "forge-1.19.2" = _gQezmYaj;
         "forge-1.16.5" = _CuEiG4TS;
         "forge-1.19.4" = _vfGCxswo;
-        "forge-1.20" = _ISzdE6gG;
-        "forge-1.20.1" = _ISzdE6gG;
+        "forge-1.20" = _Cg4lHz41;
+        "forge-1.20.1" = _Cg4lHz41;
+        "forge-1.20.2" = _Cg4lHz41;
+        "forge-1.20.3" = _Cg4lHz41;
+        "forge-1.20.4" = _Cg4lHz41;
+        "forge-1.20.5" = _Cg4lHz41;
+        "forge-1.20.6" = _Cg4lHz41;
+        "neoforge-1.21.1" = _vs8wxHPC;
+        "neoforge-1.21.2" = _vs8wxHPC;
+        "neoforge-1.21.3" = _vs8wxHPC;
+        "neoforge-1.21.4" = _vs8wxHPC;
+        "neoforge-1.21.5" = _vs8wxHPC;
+        "neoforge-1.21.6" = _vs8wxHPC;
+        "neoforge-1.21.7" = _vs8wxHPC;
+        "neoforge-1.21.8" = _vs8wxHPC;
+        "neoforge-1.21.9" = _vs8wxHPC;
+        "neoforge-1.21.10" = _vs8wxHPC;
+        "neoforge-1.21.11" = _vs8wxHPC;
         "pkg-0.20.2" = _v1HmHgEx;
         "pkg-0.20.3-1.16.5-rc" = _CuEiG4TS;
         "pkg-0.21.0-1.19.2-rc" = _idqODcsj;
@@ -101,8 +129,9 @@ let
         "pkg-0.21.4" = _vfGCxswo;
         "pkg-0.21.5" = _QsJrGLtX;
         "pkg-1.19.2-0.21.6-rc" = _S19fB0nn;
-        "pkg-0.21.7" = _gQezmYaj;
-        "default" = _gQezmYaj;
+        "pkg-0.21.7" = _vs8wxHPC;
+        "pkg-0.22.0" = _Cg4lHz41;
+        "default" = _Cg4lHz41;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zetter-painting-mod";

@@ -121,6 +121,11 @@ let
             "file" = "Rescale-1.1.0-1.21.10-neoforge.jar";
             "hash" = "sha512-qvEraKBnyRY+jpNIfczwrCxm9vCvHHgQM+W3/GO1E5KjlAh3CyB4pHRdO7sUliuMs0s/+DPvxS629sOdaO39jw==";
         };
+        _nHZUMntD = {
+            "id" = "nHZUMntD";
+            "file" = "Rescale-1.1.0-26.3-fabric.jar";
+            "hash" = "sha512-RaZWOt/BmAIC3h8zKxaYUW/oGUAfDm1o9okYFbiaeRp06Susu2EIXSyg06vXx53FXRQdP05VQ2u74KMzL7yMSQ==";
+        };
     in {
         "994YbbZS" = _994YbbZS;
         "W6gsp1CT" = _W6gsp1CT;
@@ -146,6 +151,7 @@ let
         "ljVhZwa1" = _ljVhZwa1;
         "akKSVKTC" = _akKSVKTC;
         "xz3FPfFK" = _xz3FPfFK;
+        "nHZUMntD" = _nHZUMntD;
         "fabric-1.20.1" = _1Nt10iWK;
         "fabric-1.21" = _QdvEE8Gi;
         "fabric-1.21.1" = _QdvEE8Gi;
@@ -159,6 +165,7 @@ let
         "fabric-26.1.1" = _2fc7LFm9;
         "fabric-26.1.2" = _2fc7LFm9;
         "fabric-26.2" = _EolzcWs6;
+        "fabric-26.3" = _nHZUMntD;
         "quilt-1.21.4" = _otDjyP6l;
         "quilt-1.21" = _QdvEE8Gi;
         "quilt-1.21.1" = _QdvEE8Gi;
@@ -186,8 +193,8 @@ let
         "pkg-1.0.0" = _W6gsp1CT;
         "pkg-1.0.1" = _2pOIOMLF;
         "pkg-1.0.2" = _Yshtc2b0;
-        "pkg-1.1.0" = _xz3FPfFK;
-        "default" = _xz3FPfFK;
+        "pkg-1.1.0" = _nHZUMntD;
+        "default" = _nHZUMntD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rescale";

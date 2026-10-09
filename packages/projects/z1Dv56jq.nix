@@ -681,6 +681,16 @@ let
             "file" = "boss_checklist-5.2.0-26.2.jar";
             "hash" = "sha512-k36KhBX3reOkXFWK0J9R8woRV6WWangjv9QEjIEzVgBrq9W6FzcdlN2Qqg/y3k6Cor1B2o1e78SrDVjqxgmahw==";
         };
+        _Jo0llFg1 = {
+            "id" = "Jo0llFg1";
+            "file" = "boss_checklist-5.3.0.jar";
+            "hash" = "sha512-umO7QFkHUq3yHEswN1vaxX9xcdgC9jdibkvsD7c9Nkpz5k6Eb1GaP4PAYGAPDszroZBLKJQ1ZPmcO8eHGPh7qw==";
+        };
+        _HHkbPPrr = {
+            "id" = "HHkbPPrr";
+            "file" = "boss_checklist-5.3.1.jar";
+            "hash" = "sha512-qOACP9AMOvtj4wnp7EpjGbSVL+buKScruMStkQyTUCmCmUGmiLZdy7Zp7O/W3G8ASjkDVywWQG3/jxI8gXcHFw==";
+        };
     in {
         "ZvWv49Oe" = _ZvWv49Oe;
         "fc8W1Mmr" = _fc8W1Mmr;
@@ -818,6 +828,8 @@ let
         "dNvGsGma" = _dNvGsGma;
         "PVVKLvqF" = _PVVKLvqF;
         "gxBMaQLs" = _gxBMaQLs;
+        "Jo0llFg1" = _Jo0llFg1;
+        "HHkbPPrr" = _HHkbPPrr;
         "neoforge-1.21.1" = _yUH4w1bO;
         "neoforge-1.20.4" = _NWcOHBLV;
         "neoforge-1.21.4" = _RNB44Q7s;
@@ -833,6 +845,7 @@ let
         "fabric-26.1.1" = _PVVKLvqF;
         "fabric-26.1.2" = _PVVKLvqF;
         "fabric-26.2" = _gxBMaQLs;
+        "fabric-26.3" = _HHkbPPrr;
         "pkg-1.1.0" = _ZvWv49Oe;
         "pkg-1.2.0" = _Yg2Xntkm;
         "pkg-1.3.0" = _WpFOKRH1;
@@ -875,7 +888,9 @@ let
         "pkg-5.1.0" = _POjOUyNs;
         "pkg-5.1.1" = _dKjDrwSZ;
         "pkg-5.2.0" = _gxBMaQLs;
-        "default" = _gxBMaQLs;
+        "pkg-5.3.0" = _Jo0llFg1;
+        "pkg-5.3.1" = _HHkbPPrr;
+        "default" = _HHkbPPrr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "boss-checklist";

@@ -136,6 +136,46 @@ let
             "file" = "NarutoDestinationMod-1.36.1.jar";
             "hash" = "sha512-snO9N1mpDS8SF9BxiyqJllY4fZcjb7sBWJ8uEepzbmexi4zC3UVU+Vod19z5A77oDh/sLIuJZx+HLm0659llpg==";
         };
+        _ICpGJDDW = {
+            "id" = "ICpGJDDW";
+            "file" = "NarutoDestination-2.0.0-BETA-1a.jar";
+            "hash" = "sha512-yqqSvlva0FM3grP/JJ//JzR2E+7h3sgwgkJ8TGhkTu4jbrRt/nzylxSfZC6z1hsQ6VAfGVd60mjeMqFbsQKSag==";
+        };
+        _DIDc78Xl = {
+            "id" = "DIDc78Xl";
+            "file" = "NarutoDestination-2.0.0-BETA-1b.jar";
+            "hash" = "sha512-GdmeYXvUzEHTuO01zsssTII3b6kYp63gmjTocaasRxykeTPJMZxIZK25Xq4+ua17MhS/gG07bx2QjpQBd0FevA==";
+        };
+        _xSIBGog9 = {
+            "id" = "xSIBGog9";
+            "file" = "NarutoDestination-2.0.0-BETA-1c.jar";
+            "hash" = "sha512-5SbWlL2FFRNhHoabkrzFu3BQ/mJH0nC93kgBOY4Cyo6+aS3Sa7rWk8OVtPDZgxz/0QzfNSQZ973dWIkGpRJBIg==";
+        };
+        _uUrVHAi4 = {
+            "id" = "uUrVHAi4";
+            "file" = "NarutoDestination-2.0.0-BETA-2a.jar";
+            "hash" = "sha512-g9q5HMMPhrC4itmqTmVYYQpaXUyZKRoPFB1QD3NNgsuYp/YH5QItdD372HQso2NbenLidOIFYoXTOynC7dsfuw==";
+        };
+        _TlVzHgz1 = {
+            "id" = "TlVzHgz1";
+            "file" = "NarutoDestination-2.0.0-BETA-3a.jar";
+            "hash" = "sha512-YF0chVRJLlIOyUVD//yCI11k2V0O8kgBqTZtmcjP+da6hyfVAw0cbb6+mR0NNENi660sDV3GLTUcYSci0ej1Tw==";
+        };
+        _FVKxXymQ = {
+            "id" = "FVKxXymQ";
+            "file" = "NarutoDestination-2.0.0-BETA-3b.jar";
+            "hash" = "sha512-He69zCTdhuewJSFY4kTlUzh9YXBq72EgeAZXDnuUIFBtZsQK8KoNhqcnVDUPsjUsiiRU4NTuoGNNl1y/rex+NA==";
+        };
+        _q7vlGLHn = {
+            "id" = "q7vlGLHn";
+            "file" = "NarutoDestination-2.0.0.jar";
+            "hash" = "sha512-O/89db26pwlVNtmD0Jr1Kb5R0JjJZcfcV53UzIQeZVCfHSCdM2P4tzxYkCb12WOKgrflpGReRYgRuVnV7JN1yw==";
+        };
+        _xfkNmIic = {
+            "id" = "xfkNmIic";
+            "file" = "NarutoDestination-2.0.1.jar";
+            "hash" = "sha512-MYN51a0cuUC4MV7Qw44o18gfHc3FWJrs69C4Yc4A7dhqHwXKiNkUfn56YdTGeoDGPxcHW5z16I/j7Y9V7bOOaA==";
+        };
     in {
         "bm1ht585" = _bm1ht585;
         "Yu5vrPQC" = _Yu5vrPQC;
@@ -164,7 +204,16 @@ let
         "4kjbZbuR" = _4kjbZbuR;
         "2ITFcXT1" = _2ITFcXT1;
         "ii1jZrab" = _ii1jZrab;
+        "ICpGJDDW" = _ICpGJDDW;
+        "DIDc78Xl" = _DIDc78Xl;
+        "xSIBGog9" = _xSIBGog9;
+        "uUrVHAi4" = _uUrVHAi4;
+        "TlVzHgz1" = _TlVzHgz1;
+        "FVKxXymQ" = _FVKxXymQ;
+        "q7vlGLHn" = _q7vlGLHn;
+        "xfkNmIic" = _xfkNmIic;
         "forge-1.7.10" = _ii1jZrab;
+        "neoforge-26.2" = _xfkNmIic;
         "pkg-1.0.0" = _bm1ht585;
         "pkg-1.1.0" = _Yu5vrPQC;
         "pkg-1.2.0" = _fhPKfYU1;
@@ -192,7 +241,15 @@ let
         "pkg-1.35.0" = _4kjbZbuR;
         "pkg-1.36.0" = _2ITFcXT1;
         "pkg-1.36.1" = _ii1jZrab;
-        "default" = _ii1jZrab;
+        "pkg-2.0.0-BETA-1a" = _ICpGJDDW;
+        "pkg-2.0.0-BETA-1b" = _DIDc78Xl;
+        "pkg-2.0.0-BETA-1c" = _xSIBGog9;
+        "pkg-2.0.0-BETA-2a" = _uUrVHAi4;
+        "pkg-2.0.0-BETA-3a" = _TlVzHgz1;
+        "pkg-2.0.0-BETA-3b" = _FVKxXymQ;
+        "pkg-2.0.0" = _q7vlGLHn;
+        "pkg-2.0.1" = _xfkNmIic;
+        "default" = _xfkNmIic;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "naruto-destination";

@@ -231,6 +231,16 @@ let
             "file" = "Notes-26.2-3.2.0-neoforge.jar";
             "hash" = "sha512-/29zDdiM5QSXYJHtTqBIFdBW3XX69p05M/qAAFkhRGGcc6z3qCZg4d5x6u+ZXD0wFbefXuRKWuje1nQ5/eHAOw==";
         };
+        _OxA4c16W = {
+            "id" = "OxA4c16W";
+            "file" = "Notes-26.3-2.3.0-fabric.jar";
+            "hash" = "sha512-YqTDGQQzlsnbNIyrwPNVRmhwfgVUuDX7edDIafhhw0Hfssv1BxrSZKpFwBhccFreoOuxWVXLh3Y+kCg7lTS1Xw==";
+        };
+        _kNRHARW0 = {
+            "id" = "kNRHARW0";
+            "file" = "Notes-26.3-3.2.0-neoforge.jar";
+            "hash" = "sha512-eLCwNAv+OFUmRv0LTwGz3zeIBE7/w8dIciv0FVa7J4UdjwDuuw8V6+DgQVgT7ivKtZvgDScBPGkVXAgzVVcqww==";
+        };
     in {
         "ZiekRMR7" = _ZiekRMR7;
         "5GTOkJhz" = _5GTOkJhz;
@@ -278,6 +288,8 @@ let
         "qVQ4WtsF" = _qVQ4WtsF;
         "lbQQP5M3" = _lbQQP5M3;
         "mxpc0f2e" = _mxpc0f2e;
+        "OxA4c16W" = _OxA4c16W;
+        "kNRHARW0" = _kNRHARW0;
         "forge-1.7.10" = _ZiekRMR7;
         "forge-1.12.2" = _5GTOkJhz;
         "forge-1.16.5" = _NeSfJogo;
@@ -315,6 +327,7 @@ let
         "fabric-26.1.1" = _TpU4GWvJ;
         "fabric-26.1.2" = _TpU4GWvJ;
         "fabric-26.2" = _lbQQP5M3;
+        "fabric-26.3" = _OxA4c16W;
         "neoforge-1.20.4" = _9q7sIX5a;
         "neoforge-1.20.6" = _LKqGPiuw;
         "neoforge-1.21" = _XxYelDNf;
@@ -331,6 +344,7 @@ let
         "neoforge-26.1.1" = _qVQ4WtsF;
         "neoforge-26.1.2" = _qVQ4WtsF;
         "neoforge-26.2" = _mxpc0f2e;
+        "neoforge-26.3" = _kNRHARW0;
         "pkg-1.7.10-1.1.1-forge" = _ZiekRMR7;
         "pkg-1.12.2-1.1.1-forge" = _5GTOkJhz;
         "pkg-1.16.5-1.2.3" = _NeSfJogo;
@@ -377,7 +391,9 @@ let
         "pkg-26.1-3.1.0-neoforge" = _qVQ4WtsF;
         "pkg-26.2-2.3.0-fabric" = _lbQQP5M3;
         "pkg-26.2-3.2.0-neoforge" = _mxpc0f2e;
-        "default" = _mxpc0f2e;
+        "pkg-26.3-2.3.0-fabric" = _OxA4c16W;
+        "pkg-26.3-3.2.0-neoforge" = _kNRHARW0;
+        "default" = _kNRHARW0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "notes";

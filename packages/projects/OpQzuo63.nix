@@ -51,6 +51,11 @@ let
             "file" = "blackbarconcealer-1.0.9.jar";
             "hash" = "sha512-TDxg69IZDMMer2L8qqQj1XhQlbRyj5ZWGbC0iecXz2GrDPqI4dDVlbc+qS/XPP9Jk4Cl8jt8Iywu+MBzbKsiQA==";
         };
+        _CyyzhA9e = {
+            "id" = "CyyzhA9e";
+            "file" = "blackbarconcealer-1.0.10.jar";
+            "hash" = "sha512-qTiO8fYN20Q0ZwsD2Smmlq8H/1coLDpoGLqYJVP0o9tBVQHZ5kVsOAP4aLVvt1m2+osSy5udCvRweHD+AzSV9A==";
+        };
     in {
         "fxmNH27P" = _fxmNH27P;
         "7i4DySOZ" = _7i4DySOZ;
@@ -62,6 +67,7 @@ let
         "beD4SpM1" = _beD4SpM1;
         "ZkW3WkjK" = _ZkW3WkjK;
         "41JYoZcj" = _41JYoZcj;
+        "CyyzhA9e" = _CyyzhA9e;
         "fabric-1.21" = _fxmNH27P;
         "fabric-1.21.3" = _7i4DySOZ;
         "fabric-1.21.4" = _eOUk83ry;
@@ -76,6 +82,7 @@ let
         "fabric-26.1.1" = _ZkW3WkjK;
         "fabric-26.1.2" = _ZkW3WkjK;
         "fabric-26.2" = _41JYoZcj;
+        "fabric-26.3" = _CyyzhA9e;
         "pkg-1.0.0" = _fxmNH27P;
         "pkg-1.0.1" = _7i4DySOZ;
         "pkg-1.0.2" = _eOUk83ry;
@@ -86,7 +93,8 @@ let
         "pkg-1.0.7" = _beD4SpM1;
         "pkg-1.0.8" = _ZkW3WkjK;
         "pkg-1.0.9" = _41JYoZcj;
-        "default" = _41JYoZcj;
+        "pkg-1.0.10" = _CyyzhA9e;
+        "default" = _CyyzhA9e;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "black-bar-concealer";

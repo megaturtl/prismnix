@@ -116,6 +116,16 @@ let
             "file" = "ep-language-translator-1.3.1.jar";
             "hash" = "sha512-jY83wp0MzncD/BMlsjVBNKlQMstYJ+YxAr/M0vBKHh4TZppJTUJ8Q6/3eYZfsOJ9cXR1B1/3VNs5H0zXXNQT6A==";
         };
+        _V6zxCgps = {
+            "id" = "V6zxCgps";
+            "file" = "ep-language-translator-1.3.2.jar";
+            "hash" = "sha512-MW0OwQsLOymVG/SYuYeh/xatZMCPqbQnQp11OTrNIa0P8FNTKN+8Y8MVr7rieSzahKDvN8gV9oyqceZDMpRp3g==";
+        };
+        _MUOMvUAI = {
+            "id" = "MUOMvUAI";
+            "file" = "ep-language-translator-1.3.2.jar";
+            "hash" = "sha512-yJHjW6roQZKiKFkioMF2g357d9j6xH6n2wV/2i96l5wCuBG9u2s7e4eipnC/Ko01RcwIeGhAoPW0lVhDskr9wQ==";
+        };
     in {
         "QgOFLoDD" = _QgOFLoDD;
         "I2qAHHWS" = _I2qAHHWS;
@@ -140,6 +150,8 @@ let
         "UTd5ZEXQ" = _UTd5ZEXQ;
         "IxSz7LJo" = _IxSz7LJo;
         "Cb6s8liI" = _Cb6s8liI;
+        "V6zxCgps" = _V6zxCgps;
+        "MUOMvUAI" = _MUOMvUAI;
         "fabric-1.20.1" = _5HJMsX3U;
         "fabric-1.20" = _5HJMsX3U;
         "fabric-1.20.2" = _N2xyzGG0;
@@ -162,6 +174,8 @@ let
         "fabric-26.1" = _Cb6s8liI;
         "fabric-26.1.1" = _Cb6s8liI;
         "fabric-26.1.2" = _Cb6s8liI;
+        "fabric-26.2" = _V6zxCgps;
+        "fabric-26.3" = _MUOMvUAI;
         "quilt-1.20.1" = _5HJMsX3U;
         "quilt-1.20" = _5HJMsX3U;
         "pkg-1.0.0" = _QgOFLoDD;
@@ -187,7 +201,9 @@ let
         "pkg-1.3.0+1.21.10" = _UTd5ZEXQ;
         "pkg-1.3.0+1.21.11" = _IxSz7LJo;
         "pkg-1.3.1+26.1" = _Cb6s8liI;
-        "default" = _Cb6s8liI;
+        "pkg-1.3.2+26.2" = _V6zxCgps;
+        "pkg-1.3.2+26.3" = _MUOMvUAI;
+        "default" = _MUOMvUAI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "language-translator";

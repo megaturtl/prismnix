@@ -26,20 +26,27 @@ let
             "file" = "World_Event_Tracker-2.0+1.21.11.jar";
             "hash" = "sha512-R/Hcaldtawq6ZFry4bvIDdQqt8KoMz1H9+iC1sHJeECMUx/GZiJH/1BM5Hg929yNPybFaVJn2fb9Fn5rqW954Q==";
         };
+        _xA2dr078 = {
+            "id" = "xA2dr078";
+            "file" = "World_Event_Tracker-2.1+1.21.11.jar";
+            "hash" = "sha512-q/jj2QHZskQiNeIMp0WpjCQ9g0L7gp1WG3BgWyhX2JvKqyGHpKL3+pxwqyicSwmuqeuTWZ9xMA2K5wbWW75BKw==";
+        };
     in {
         "kezNN8ae" = _kezNN8ae;
         "Py9PSXo2" = _Py9PSXo2;
         "VcixyuLD" = _VcixyuLD;
         "FBqzAuaw" = _FBqzAuaw;
         "9E0fksjv" = _9E0fksjv;
+        "xA2dr078" = _xA2dr078;
         "fabric-1.21.4" = _FBqzAuaw;
-        "fabric-1.21.11" = _9E0fksjv;
+        "fabric-1.21.11" = _xA2dr078;
         "pkg-1.0+1.21.4" = _kezNN8ae;
         "pkg-1.1+1.21.4" = _Py9PSXo2;
         "pkg-1.2+1.21.4" = _VcixyuLD;
         "pkg-1.3+1.21.4" = _FBqzAuaw;
         "pkg-2.0+1.21.11" = _9E0fksjv;
-        "default" = _9E0fksjv;
+        "pkg-2.1+1.21.11" = _xA2dr078;
+        "default" = _xA2dr078;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "world-event-tracker";

@@ -121,6 +121,11 @@ let
             "file" = "veinminer-enchant-2.11.2+1.21.1.jar";
             "hash" = "sha512-mtTZcrI6LKSOLC5YsfeU/T1CuYzI/zQWp47LB0HoI3lFalt86uapEvYpLHHqIOEf7cDw4sLiVwzi0+DqzRia+w==";
         };
+        _isvS7Giv = {
+            "id" = "isvS7Giv";
+            "file" = "veinminer-enchantment-1.3.6.zip";
+            "hash" = "sha512-dcKmy5Kur0mZgyLgUGgTWAlmoGh5nbvoDq6uDxx8aOXo9mrGDGyj+0x5YG11c/fFgd7zImieh9OdEdPRjuGSpA==";
+        };
     in {
         "3D1S0vgH" = _3D1S0vgH;
         "sHgrZFUh" = _sHgrZFUh;
@@ -146,6 +151,7 @@ let
         "9C8zH5YI" = _9C8zH5YI;
         "GZDd3hzy" = _GZDd3hzy;
         "ybkUAVuf" = _ybkUAVuf;
+        "isvS7Giv" = _isvS7Giv;
         "datapack-1.21" = _UJdB5992;
         "datapack-1.21.1" = _UJdB5992;
         "datapack-1.21.2" = _UJdB5992;
@@ -162,6 +168,7 @@ let
         "datapack-26.1.1" = _U2fwAJ7v;
         "datapack-26.1.2" = _U2fwAJ7v;
         "datapack-26.2" = _U2fwAJ7v;
+        "datapack-26.3" = _isvS7Giv;
         "fabric-1.21" = _h5oKcjvq;
         "fabric-1.21.1" = _ybkUAVuf;
         "fabric-1.21.2" = _h5oKcjvq;
@@ -265,7 +272,8 @@ let
         "pkg-2.10.1" = _Oe2vcObw;
         "pkg-2.10.3" = _OPuY0dFy;
         "pkg-2.11.2" = _ybkUAVuf;
-        "default" = _ybkUAVuf;
+        "pkg-1.3.6" = _isvS7Giv;
+        "default" = _isvS7Giv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "veinminer-enchantment";

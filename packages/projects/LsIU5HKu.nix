@@ -56,6 +56,36 @@ let
             "file" = "sleepanywhere-1.1-1.20.4.jar";
             "hash" = "sha512-Rk+j6ugbfihQVR0XdMsXTVgSxyrdMIuZpzEfGeLnv4RwevbcTDvd6txIZPr9INgDo8UrabFRjGBWxD1NkKJZJA==";
         };
+        _rfPdGWmZ = {
+            "id" = "rfPdGWmZ";
+            "file" = "sleepanywhere-1.1-1.21.1.jar";
+            "hash" = "sha512-PJOrgLBGnBMMxyQ1Wh69y0Lb8IEMH6czDSTvW2y0L3J+1QXt3hvdLTAZoqrRUTUo2AjCfMngFmHgF6AbNzhoNA==";
+        };
+        _IMPzVFQW = {
+            "id" = "IMPzVFQW";
+            "file" = "sleepanywhere-1.1-1.21.1-neoforge.jar";
+            "hash" = "sha512-vMaFOMyPe2YF2i3kWEGVRyiZR6z5trTVTYJ3/sGeN+JuXzVHzPFEdSZKexj2co1EhGn3PDyWUVT6RfweNS1u9Q==";
+        };
+        _jxT9uNAc = {
+            "id" = "jxT9uNAc";
+            "file" = "sleepanywhere-1.1-1.21.11.jar";
+            "hash" = "sha512-0I0rSd5agkCWh12rWJpvWdB/XcMC4u2ETPjFaxv6myPF8IoB+ynhqsV0uwLHg1gjoCIDgcOxzGckLoZGT2lP6g==";
+        };
+        _XAAlhJnY = {
+            "id" = "XAAlhJnY";
+            "file" = "sleepanywhere-1.1-1.21.11-neoforge.jar";
+            "hash" = "sha512-ojAjYuAYbVw8ZaCoecbYTFI9wOzyOjDdcPyLMX873i6qhsH1Q30XoeDu/Wcihh+k0k29CHeAKqDdan47+W82HA==";
+        };
+        _AE6cyQqN = {
+            "id" = "AE6cyQqN";
+            "file" = "sleepanywhere-1.1-26.3.jar";
+            "hash" = "sha512-IzQJVdRkuBUORWoFUWPW0RWMYXyUnTl/KbKV5PlWqsbOUFiX+u5MLSF35B8nvORlOkGUgR5psi7BtISorRz6Rg==";
+        };
+        _RAEAYaln = {
+            "id" = "RAEAYaln";
+            "file" = "sleepanywhere-1.1-26.3-neoforge.jar";
+            "hash" = "sha512-VsWFrDZUEzx3bEvV/XWjLW/4hAzv+HXCRG7qitTxC3K/7mQdo4vARkd1l509Ar9LHiwhPgBFamLp7oZMZCHc9g==";
+        };
     in {
         "ug5w5Hq7" = _ug5w5Hq7;
         "jAmX2TIq" = _jAmX2TIq;
@@ -68,17 +98,35 @@ let
         "xAGUBBoc" = _xAGUBBoc;
         "q5qisyd5" = _q5qisyd5;
         "yvSHrycu" = _yvSHrycu;
+        "rfPdGWmZ" = _rfPdGWmZ;
+        "IMPzVFQW" = _IMPzVFQW;
+        "jxT9uNAc" = _jxT9uNAc;
+        "XAAlhJnY" = _XAAlhJnY;
+        "AE6cyQqN" = _AE6cyQqN;
+        "RAEAYaln" = _RAEAYaln;
         "fabric-1.20.4" = _yvSHrycu;
         "fabric-1.20.3" = _q5qisyd5;
         "fabric-1.20.2" = _xAGUBBoc;
         "fabric-1.20.1" = _Aog3AwBN;
         "fabric-1.20" = _4WJTXSDZ;
+        "fabric-1.21.1" = _rfPdGWmZ;
+        "fabric-1.21.11" = _jxT9uNAc;
+        "fabric-26.3" = _AE6cyQqN;
         "forge-1.20" = _4N1LEmwN;
         "forge-1.20.1" = _4N1LEmwN;
+        "neoforge-1.21.1" = _IMPzVFQW;
+        "neoforge-1.21.11" = _XAAlhJnY;
+        "neoforge-26.3" = _RAEAYaln;
         "pkg-1.0" = _sDFiiKxG;
         "pkg-1.1-1.20,1.20.1" = _4N1LEmwN;
         "pkg-1.1" = _yvSHrycu;
-        "default" = _yvSHrycu;
+        "pkg-1.1-1.21.1" = _rfPdGWmZ;
+        "pkg-1.1-1.21.1-neoforge" = _IMPzVFQW;
+        "pkg-1.1-1.21.11" = _jxT9uNAc;
+        "pkg-1.1-1.21.11-neoforge" = _XAAlhJnY;
+        "pkg-1.1-26.3" = _AE6cyQqN;
+        "pkg-1.1-26.3-neoforge" = _RAEAYaln;
+        "default" = _RAEAYaln;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sleep-anywhere";

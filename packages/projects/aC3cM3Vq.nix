@@ -271,6 +271,11 @@ let
             "file" = "MouseTweaks-neoforge-mc26.3-2.31.jar";
             "hash" = "sha512-k+esNLvBXeY1BzciBUsR/tOYHg85lUKG6KVyFM5c4AflViiCy4HNIwyOpJlwlwyEVIz8WYMyxTl3eYYJCwkHmA==";
         };
+        _nDrx0Wkc = {
+            "id" = "nDrx0Wkc";
+            "file" = "MouseTweaks-forge-mc26.3-2.31.jar";
+            "hash" = "sha512-VI9u0I4AfrGmYVHxynVAMVxnMCAd8FWlOteubZprpK8koVO395M7tzo8jlaLligJjl6gni50oD4C78foc0k1eg==";
+        };
     in {
         "RNWLd5dh" = _RNWLd5dh;
         "VmXwwpoa" = _VmXwwpoa;
@@ -326,6 +331,7 @@ let
         "A88Ep3CF" = _A88Ep3CF;
         "LeMuMhLv" = _LeMuMhLv;
         "f4tPRGDq" = _f4tPRGDq;
+        "nDrx0Wkc" = _nDrx0Wkc;
         "forge-1.16.2" = _RNWLd5dh;
         "forge-1.16.3" = _RNWLd5dh;
         "forge-1.16.4" = _RNWLd5dh;
@@ -360,6 +366,7 @@ let
         "forge-26.1.1" = _aVJiOMeh;
         "forge-26.1.2" = _aVJiOMeh;
         "forge-26.2" = _A88Ep3CF;
+        "forge-26.3" = _nDrx0Wkc;
         "fabric-1.17.1" = _7F7mEY80;
         "fabric-1.18" = _475fj6e8;
         "fabric-1.16.5" = _ILp7UQip;
@@ -465,7 +472,8 @@ let
         "pkg-26.2-2.31-forge" = _A88Ep3CF;
         "pkg-26.3-2.31-fabric" = _LeMuMhLv;
         "pkg-26.3-2.31-neoforge" = _f4tPRGDq;
-        "default" = _f4tPRGDq;
+        "pkg-26.3-2.31-forge" = _nDrx0Wkc;
+        "default" = _nDrx0Wkc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mouse-tweaks";

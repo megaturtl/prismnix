@@ -536,6 +536,21 @@ let
             "file" = "createrailwaysnavigator-neoforge-1.21.1-beta-0.9.1-C6.jar";
             "hash" = "sha512-enUI9l+fKjA7iWTOREb8OBz3P0bZRNdNa3xi5o7GOLDLcsllQbvJEBJS2eAMrX12KpqodTAuvdGki3xdgE6NWQ==";
         };
+        _x0rIINJP = {
+            "id" = "x0rIINJP";
+            "file" = "createrailwaysnavigator-fabric-1.20.1-beta-0.10.0-C6.jar";
+            "hash" = "sha512-v1BWzZtrTOi5n7r7TZ4+LQ7CqMxAQ2dMEaFOu1YTpIX6AzW4jIA8fMXO5P4n6N6GbVYiB5CxWUh0ktokOejVtw==";
+        };
+        _clWHhbZY = {
+            "id" = "clWHhbZY";
+            "file" = "createrailwaysnavigator-forge-1.20.1-beta-0.10.0-C6.jar";
+            "hash" = "sha512-tOOXCRvS7WXypXdBzohvOBFgTNSrCkHdw8Pa8c/JvUpGUa1nZJFd1Z73zxH/dgEI30l1n72+mFXp9IyFQbSshw==";
+        };
+        _rlsRwxq3 = {
+            "id" = "rlsRwxq3";
+            "file" = "createrailwaysnavigator-neoforge-1.21.1-beta-0.10.0-C6.jar";
+            "hash" = "sha512-cKCJTeA5PJI1uHXC51fR6jGS5OZvtp2Z0ZEI+GcMOB0t+4XeU5PJ6LzM/lRxNHZcgbmhJhxXI97fHaUHhqxb0w==";
+        };
     in {
         "wYOJKdp0" = _wYOJKdp0;
         "iRbw2gtu" = _iRbw2gtu;
@@ -644,14 +659,17 @@ let
         "Byo7nLl9" = _Byo7nLl9;
         "r5q4MIYy" = _r5q4MIYy;
         "hjpv7klQ" = _hjpv7klQ;
+        "x0rIINJP" = _x0rIINJP;
+        "clWHhbZY" = _clWHhbZY;
+        "rlsRwxq3" = _rlsRwxq3;
         "forge-1.18.2" = _6HMbIJXI;
         "forge-1.19.2" = _Fdo0t46K;
-        "forge-1.20.1" = _r5q4MIYy;
-        "neoforge-1.20.1" = _r5q4MIYy;
-        "neoforge-1.21.1" = _hjpv7klQ;
+        "forge-1.20.1" = _clWHhbZY;
+        "neoforge-1.20.1" = _clWHhbZY;
+        "neoforge-1.21.1" = _rlsRwxq3;
         "fabric-1.18.2" = _fi7qmck9;
         "fabric-1.19.2" = _a8Np4pb9;
-        "fabric-1.20.1" = _Byo7nLl9;
+        "fabric-1.20.1" = _x0rIINJP;
         "pkg-0.1.0-beta-1.18.2" = _wYOJKdp0;
         "pkg-0.2.0-beta-1.18.2" = _iRbw2gtu;
         "pkg-0.3.0-beta-1.18.2" = _x70Kw5JD;
@@ -722,7 +740,9 @@ let
         "pkg-1.21.1-beta-0.9.0-C6" = _n4iiBI1w;
         "pkg-1.20.1-beta-0.9.1-C6" = _r5q4MIYy;
         "pkg-1.21.1-beta-0.9.1-C6" = _hjpv7klQ;
-        "default" = _hjpv7klQ;
+        "pkg-1.20.1-beta-0.10.0-C6" = _clWHhbZY;
+        "pkg-1.21.1-beta-0.10.0-C6" = _rlsRwxq3;
+        "default" = _rlsRwxq3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-railways-navigator";

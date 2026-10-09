@@ -136,6 +136,11 @@ let
             "file" = "txloader-1.9.jar";
             "hash" = "sha512-u+77Q37ERrgHPrZZTEaSa6J2mfPWl4n8VvvJYQOZ1aqe10jGute1xmrbPuFDeiMPHdzBuolNXuWvX1rzqW8VnA==";
         };
+        _CSpGmUC9 = {
+            "id" = "CSpGmUC9";
+            "file" = "txloader-1.9.1.jar";
+            "hash" = "sha512-AYqPgtRQsL49m6UTkp/RjwcnDViPnQHSRn9vntLlpwIsT68fPgcuUBpMZbORtz6/Jf1RzzT00sSICO1f5bh7Dg==";
+        };
     in {
         "PTdiEthA" = _PTdiEthA;
         "cCxsSzqY" = _cCxsSzqY;
@@ -164,7 +169,8 @@ let
         "PebXoMM1" = _PebXoMM1;
         "XOoqQiQ6" = _XOoqQiQ6;
         "YLoz75W7" = _YLoz75W7;
-        "forge-1.7.10" = _YLoz75W7;
+        "CSpGmUC9" = _CSpGmUC9;
+        "forge-1.7.10" = _CSpGmUC9;
         "forge-1.12.2" = _EbDCfhZA;
         "pkg-1.0" = _PTdiEthA;
         "pkg-1.1" = _cCxsSzqY;
@@ -193,7 +199,8 @@ let
         "pkg-1.8.11" = _PebXoMM1;
         "pkg-1.8.12" = _XOoqQiQ6;
         "pkg-1.9" = _YLoz75W7;
-        "default" = _YLoz75W7;
+        "pkg-1.9.1" = _CSpGmUC9;
+        "default" = _CSpGmUC9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tx-loader";

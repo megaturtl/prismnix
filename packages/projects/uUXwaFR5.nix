@@ -511,6 +511,16 @@ let
             "file" = "gildedarmor-26.2-0.1.jar";
             "hash" = "sha512-bw+9WeZ5SX8WIpWRkqGerf8DOm5LJXjvVlF0JxqHOmLzLBQfqNvGvM/yB4cAFA2VuIljFN5Cbaa4pELCRIzixQ==";
         };
+        _D7mgIM1q = {
+            "id" = "D7mgIM1q";
+            "file" = "gildedarmor-26.3-0.1.jar";
+            "hash" = "sha512-r5lhMtuIw2D+6ZZFRInr7YCtvPpIkypYLJSSWaj2HYM6iwHhXOpit9lgB8E2qKjQPX4wo9GXDMtfT9VW//zFjQ==";
+        };
+        _jUrGqPjw = {
+            "id" = "jUrGqPjw";
+            "file" = "gildedarmor-26.3-0.1.jar";
+            "hash" = "sha512-061WhMdHDA/qVtltXQ6ZWCHVzipIWfh2if22qdtEf5WsbaYztKCZKxHjzY+kXpfmd6jIc7Wt4EIXjPxTMXNF8Q==";
+        };
     in {
         "SnkeNVzm" = _SnkeNVzm;
         "WZf4huwU" = _WZf4huwU;
@@ -614,6 +624,8 @@ let
         "A4jjd5uC" = _A4jjd5uC;
         "KSrEQH8K" = _KSrEQH8K;
         "vorxkd7U" = _vorxkd7U;
+        "D7mgIM1q" = _D7mgIM1q;
+        "jUrGqPjw" = _jUrGqPjw;
         "forge-1.19" = _SnkeNVzm;
         "forge-1.19.2" = _WZf4huwU;
         "forge-1.19.3" = _FJNor5NP;
@@ -661,6 +673,7 @@ let
         "fabric-26.1.1" = _qBVoJDcl;
         "fabric-26.1.2" = _4XV1foCB;
         "fabric-26.2" = _vorxkd7U;
+        "fabric-26.3" = _D7mgIM1q;
         "neoforge-1.21" = _x2kXCZ7W;
         "neoforge-1.21.1" = _No9vVysi;
         "neoforge-1.21.3" = _fUar6YW7;
@@ -676,6 +689,7 @@ let
         "neoforge-26.1.1" = _7ErutD1d;
         "neoforge-26.1" = _A4jjd5uC;
         "neoforge-26.2" = _KSrEQH8K;
+        "neoforge-26.3" = _jUrGqPjw;
         "pkg-1.19-0.1" = _FbEbPJJJ;
         "pkg-1.19.2-0.1" = _Hn1b7RKA;
         "pkg-1.19.3-0.1" = _yv06gvjU;
@@ -717,7 +731,8 @@ let
         "pkg-26.1-0.1" = _A4jjd5uC;
         "pkg-26.1.1-0.1" = _7ErutD1d;
         "pkg-26.2-0.1" = _vorxkd7U;
-        "default" = _vorxkd7U;
+        "pkg-26.3-0.1" = _jUrGqPjw;
+        "default" = _jUrGqPjw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gilded-armor";

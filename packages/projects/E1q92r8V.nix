@@ -91,6 +91,11 @@ let
             "file" = "BetterSnowierSnow-1.6.1-26.2.jar";
             "hash" = "sha512-NsfNsB1AryIG02ELmJYlsf6itVlCu2YOZ7SuV2Cdmb8kqfqpoFMu9cn6Oe+jdlWdYjTg57YNDNsPvCQohBTwJw==";
         };
+        _MUX23wO8 = {
+            "id" = "MUX23wO8";
+            "file" = "BetterSnowierSnow-1.6.1-26.3.jar";
+            "hash" = "sha512-AWOK6pAylrPoY5MGut426aBDxJKjlAXzr1xoB6ZZnYnWY3CjJVgiZSCpj+gmou0dALyL7nLVwfq5OkajUaBo9w==";
+        };
     in {
         "D4D2z2Dm" = _D4D2z2Dm;
         "HIDH0Jae" = _HIDH0Jae;
@@ -110,6 +115,7 @@ let
         "EpAjOwbI" = _EpAjOwbI;
         "sMscVy0X" = _sMscVy0X;
         "CHHBuJzr" = _CHHBuJzr;
+        "MUX23wO8" = _MUX23wO8;
         "bukkit-1.16" = _D4D2z2Dm;
         "bukkit-1.19.1" = _HIDH0Jae;
         "bukkit-1.19.2" = _HIDH0Jae;
@@ -133,6 +139,7 @@ let
         "bukkit-1.21.11" = _EpAjOwbI;
         "bukkit-26.1.2" = _sMscVy0X;
         "bukkit-26.2" = _CHHBuJzr;
+        "bukkit-26.3" = _MUX23wO8;
         "spigot-1.16" = _D4D2z2Dm;
         "spigot-1.19.1" = _HIDH0Jae;
         "spigot-1.19.2" = _HIDH0Jae;
@@ -156,6 +163,7 @@ let
         "spigot-1.21.11" = _EpAjOwbI;
         "spigot-26.1.2" = _sMscVy0X;
         "spigot-26.2" = _CHHBuJzr;
+        "spigot-26.3" = _MUX23wO8;
         "pkg-1.0" = _D4D2z2Dm;
         "pkg-1.1" = _HIDH0Jae;
         "pkg-1.2" = _STzLBu7u;
@@ -174,7 +182,8 @@ let
         "pkg-1.5-1.21.11" = _EpAjOwbI;
         "pkg-1.6-26.1.2" = _sMscVy0X;
         "pkg-1.6.1-26.2" = _CHHBuJzr;
-        "default" = _CHHBuJzr;
+        "pkg-1.6.1-26.3" = _MUX23wO8;
+        "default" = _MUX23wO8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-snowier-snow";

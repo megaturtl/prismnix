@@ -616,6 +616,16 @@ let
             "file" = "Runelic-fabric-MC26.2-26.2.0.1.jar";
             "hash" = "sha512-uBL5WSr5eixoIgHddcfpg6L/kWAoaJWRMFiY6rDaSEPbPB4Zrurp3OQgt8f7iUv5jUW5WDC0c9RqK/ezOc0W9Q==";
         };
+        _95HQyd9x = {
+            "id" = "95HQyd9x";
+            "file" = "Runelic-fabric-MC26.3-26.3.0.1.jar";
+            "hash" = "sha512-9lqAxBOIcw3GBZdKHfywx6dPOEWLNs89HlS83vIUbshjmrgxRLX98tW2QHmeRDmyaS4PTtl1OAQ8dSGKN4vWuw==";
+        };
+        _mKs3m4Me = {
+            "id" = "mKs3m4Me";
+            "file" = "Runelic-neoforge-MC26.3-26.3.0.1.jar";
+            "hash" = "sha512-u+zJOJNVu99JlsDgl7S98vXCf708b3po0s9kedf72eVm5rByMe32WURsRpSCXqfwcGtrXscU6c/rGMVkw+j7nA==";
+        };
     in {
         "lCqkEgTn" = _lCqkEgTn;
         "5UdpY4dz" = _5UdpY4dz;
@@ -740,6 +750,8 @@ let
         "5edK7giY" = _5edK7giY;
         "3xH38LDN" = _3xH38LDN;
         "pWfq8W9r" = _pWfq8W9r;
+        "95HQyd9x" = _95HQyd9x;
+        "mKs3m4Me" = _mKs3m4Me;
         "forge-1.16.1" = _WV1khilU;
         "forge-1.16.2" = _TE7gv9Th;
         "forge-1.16.3" = _tdV1R9bo;
@@ -784,6 +796,7 @@ let
         "fabric-26.1.1" = _5edK7giY;
         "fabric-26.1.2" = _5edK7giY;
         "fabric-26.2" = _pWfq8W9r;
+        "fabric-26.3" = _95HQyd9x;
         "quilt-1.17.1" = _xprQ9DAC;
         "quilt-1.18" = _zS9LlSH7;
         "quilt-1.18.1" = _yqCPefuS;
@@ -802,6 +815,7 @@ let
         "neoforge-26.1.1" = _nJmcA6Sr;
         "neoforge-26.1.2" = _nJmcA6Sr;
         "neoforge-26.2" = _3xH38LDN;
+        "neoforge-26.3" = _mKs3m4Me;
         "pkg-1.0.2" = _UJMHI35w;
         "pkg-1.0.3" = _5UdpY4dz;
         "pkg-1.0.4" = _cPrItQAp;
@@ -866,7 +880,8 @@ let
         "pkg-26.1.2.2" = _IIkI6XtV;
         "pkg-26.1.2.3" = _5edK7giY;
         "pkg-26.2.0.1" = _pWfq8W9r;
-        "default" = _pWfq8W9r;
+        "pkg-26.3.0.1" = _mKs3m4Me;
+        "default" = _mKs3m4Me;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "runelic";

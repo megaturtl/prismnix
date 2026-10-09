@@ -36,6 +36,11 @@ let
             "file" = "Glowing 3D Totem.zip";
             "hash" = "sha512-7pn2//4x/pPexlVo128J3gAkgNXqvUsVz6mZ0LaN3TYi5y6HdjAFmb8uIJorPDIbNRcwV5R/zZKSsXXkMRPDow==";
         };
+        _wecQLOUJ = {
+            "id" = "wecQLOUJ";
+            "file" = "Glowing 3D Totem.zip";
+            "hash" = "sha512-VGYHcLVf+u/ZSEMuFsTU38CUUcl8loCI1OqGrT8r05WRDQO9WYU1xIH7Jsux8/TVf4agOEqah/It8o8Oyk857g==";
+        };
     in {
         "gZjB3Eq6" = _gZjB3Eq6;
         "4nrW85ZV" = _4nrW85ZV;
@@ -44,25 +49,27 @@ let
         "Ms0h3iSZ" = _Ms0h3iSZ;
         "gfEFIgf7" = _gfEFIgf7;
         "nXRYkgY5" = _nXRYkgY5;
-        "minecraft-1.21.6" = _nXRYkgY5;
-        "minecraft-1.21.7" = _nXRYkgY5;
-        "minecraft-1.21.8" = _nXRYkgY5;
-        "minecraft-1.21.9" = _nXRYkgY5;
-        "minecraft-1.21.4" = _R3Jx1C1U;
-        "minecraft-1.21.5" = _nXRYkgY5;
-        "minecraft-1.21.10" = _nXRYkgY5;
-        "minecraft-1.21.11" = _nXRYkgY5;
-        "minecraft-26.1" = _nXRYkgY5;
-        "minecraft-26.1.1" = _nXRYkgY5;
-        "minecraft-26.1.2" = _nXRYkgY5;
-        "minecraft-26.2" = _nXRYkgY5;
+        "wecQLOUJ" = _wecQLOUJ;
+        "minecraft-1.21.6" = _wecQLOUJ;
+        "minecraft-1.21.7" = _wecQLOUJ;
+        "minecraft-1.21.8" = _wecQLOUJ;
+        "minecraft-1.21.9" = _wecQLOUJ;
+        "minecraft-1.21.4" = _wecQLOUJ;
+        "minecraft-1.21.5" = _wecQLOUJ;
+        "minecraft-1.21.10" = _wecQLOUJ;
+        "minecraft-1.21.11" = _wecQLOUJ;
+        "minecraft-26.1" = _wecQLOUJ;
+        "minecraft-26.1.1" = _wecQLOUJ;
+        "minecraft-26.1.2" = _wecQLOUJ;
+        "minecraft-26.2" = _wecQLOUJ;
+        "minecraft-26.3" = _wecQLOUJ;
         "pkg-1.0" = _gZjB3Eq6;
         "pkg-1.1" = _4nrW85ZV;
         "pkg-1.2" = _R3Jx1C1U;
         "pkg-1.3" = _Ms0h3iSZ;
         "pkg-1.3.1" = _gfEFIgf7;
-        "pkg-1.3.2" = _nXRYkgY5;
-        "default" = _nXRYkgY5;
+        "pkg-1.3.2" = _wecQLOUJ;
+        "default" = _wecQLOUJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "glowing-3d-totem";

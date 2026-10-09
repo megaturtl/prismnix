@@ -81,6 +81,11 @@ let
             "file" = "VisibleSculk-1.3.3.26.2.zip";
             "hash" = "sha512-eUfEI+UrphqE5oCBhcEsPdxFXEZ0AjbDXIzxd8CBSxneAkuap282TK5YKdB1iMnDUoBcPscTVxdTg0sbxZm4vA==";
         };
+        _rUPWtNCu = {
+            "id" = "rUPWtNCu";
+            "file" = "VisibleSculk-1.3.3.26.3.zip";
+            "hash" = "sha512-DiVM1TC+7y3lBthDpDqAemE4y8TJpuqC4+Z4Xvc4Yl82L/M2UZTqn3Vb9fxqrpzZkdxRBINO9GHNRB93wRF/nw==";
+        };
     in {
         "J8K1pyfr" = _J8K1pyfr;
         "t7SO2NwB" = _t7SO2NwB;
@@ -98,6 +103,7 @@ let
         "9SSHhPKV" = _9SSHhPKV;
         "bl6Mm11r" = _bl6Mm11r;
         "43W7ouBK" = _43W7ouBK;
+        "rUPWtNCu" = _rUPWtNCu;
         "minecraft-1.19" = _PjtqiANS;
         "minecraft-1.19.1" = _PjtqiANS;
         "minecraft-1.19.2" = _PjtqiANS;
@@ -119,13 +125,14 @@ let
         "minecraft-1.21.6" = _uhjM5R7P;
         "minecraft-1.21.7" = _3kVtXWRP;
         "minecraft-1.21.8" = _YmB5SKJP;
-        "minecraft-1.21.9" = _43W7ouBK;
-        "minecraft-1.21.10" = _43W7ouBK;
-        "minecraft-1.21.11" = _43W7ouBK;
-        "minecraft-26.1" = _43W7ouBK;
-        "minecraft-26.1.1" = _43W7ouBK;
-        "minecraft-26.1.2" = _43W7ouBK;
-        "minecraft-26.2" = _43W7ouBK;
+        "minecraft-1.21.9" = _rUPWtNCu;
+        "minecraft-1.21.10" = _rUPWtNCu;
+        "minecraft-1.21.11" = _rUPWtNCu;
+        "minecraft-26.1" = _rUPWtNCu;
+        "minecraft-26.1.1" = _rUPWtNCu;
+        "minecraft-26.1.2" = _rUPWtNCu;
+        "minecraft-26.2" = _rUPWtNCu;
+        "minecraft-26.3" = _rUPWtNCu;
         "pkg-1.0" = _J8K1pyfr;
         "pkg-1.1" = _t7SO2NwB;
         "pkg-1.2" = _PjtqiANS;
@@ -142,7 +149,8 @@ let
         "pkg-1.3.2-26.1" = _9SSHhPKV;
         "pkg-1.3.2-26.2" = _bl6Mm11r;
         "pkg-1.3.3.26.2" = _43W7ouBK;
-        "default" = _43W7ouBK;
+        "pkg-1.3.3.26.3" = _rUPWtNCu;
+        "default" = _rUPWtNCu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "visible-sculk";

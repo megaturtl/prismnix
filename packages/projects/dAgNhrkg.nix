@@ -131,6 +131,16 @@ let
             "file" = "minetracer-fabric-26.1.2-1.13.1.jar";
             "hash" = "sha512-GGY7mV5DxFks20INP0+XOrv/PGieOqTtGBjEMj0B87R1DDmYE8k6IQHL0eds7B95YchSt8WEJJ0vTArrExcFJA==";
         };
+        _PsUp6vTX = {
+            "id" = "PsUp6vTX";
+            "file" = "minetracer-fabric-26.2-1.13.1.jar";
+            "hash" = "sha512-J8UdShxmJ/vxSW2HJGt7a3ejna2mzLgCZObFJQ0h1//OTLk1O4R2xOS+usv5dAKFqo9ARgNLj5gnAz6fYoqSlA==";
+        };
+        _UWaRYv0x = {
+            "id" = "UWaRYv0x";
+            "file" = "minetracer-fabric-26.3-1.13.1.jar";
+            "hash" = "sha512-/oHY4mmokZnXMEJF9JPaIwjLcG6EgZk3VgYdYGAir68S2zp/yzc4GZNjopDWlH/nWvzYcXdaXOxvtW+RWQN2RA==";
+        };
     in {
         "p7EKSSIS" = _p7EKSSIS;
         "vemj24gY" = _vemj24gY;
@@ -158,10 +168,14 @@ let
         "hpmVEwJW" = _hpmVEwJW;
         "wYqZwiO8" = _wYqZwiO8;
         "iIQ6FcD7" = _iIQ6FcD7;
+        "PsUp6vTX" = _PsUp6vTX;
+        "UWaRYv0x" = _UWaRYv0x;
         "fabric-1.20.1" = _wYqZwiO8;
         "fabric-1.21.1" = _Pmtqvevd;
         "fabric-1.21.11" = _hpmVEwJW;
         "fabric-26.1.2" = _iIQ6FcD7;
+        "fabric-26.2" = _PsUp6vTX;
+        "fabric-26.3" = _UWaRYv0x;
         "pkg-1.0.9" = _p7EKSSIS;
         "pkg-1.1.8" = _vemj24gY;
         "pkg-1.1.9" = _WGKCXpbr;
@@ -188,7 +202,9 @@ let
         "pkg-1.11.7" = _hpmVEwJW;
         "pkg-1.12.1" = _wYqZwiO8;
         "pkg-1.13.1" = _iIQ6FcD7;
-        "default" = _iIQ6FcD7;
+        "pkg-1.14.1" = _PsUp6vTX;
+        "pkg-1.15.1" = _UWaRYv0x;
+        "default" = _UWaRYv0x;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mine-tracer";

@@ -51,6 +51,16 @@ let
             "file" = "more_music_discs-railways.jar";
             "hash" = "sha512-cIFJb/v0LjLAZywiXRSgbuMSgrhfkZJlxsKGx6J9PnejY6YQtGeC347xdrVTzOiAozsEhjIP3Qd20lnBWSg3yw==";
         };
+        _hjlV86yw = {
+            "id" = "hjlV86yw";
+            "file" = "more_music_discs-2.1.1-forge-1.20.1.jar";
+            "hash" = "sha512-P4c0bcNNXa5ouFbABD8xZXhsBZdUqL1MuGU8sVFhG1BIfyKZfBBpu8aWrTotZuEmaMczVUiUsYMU+TtLlfg6fw==";
+        };
+        _oqmwgnJ4 = {
+            "id" = "oqmwgnJ4";
+            "file" = "more_music_discs-2.1.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-2Sv810h7BdMMnAJhAVJGL3nAZvxAcVRk2FBSAMet9BkiP4eW6RYERWmDK0K9HnxvKJPeuTsKxYPrH+TE7L708g==";
+        };
     in {
         "NzzlYtVu" = _NzzlYtVu;
         "NQmWMlj5" = _NQmWMlj5;
@@ -62,12 +72,15 @@ let
         "Bmq5QS3k" = _Bmq5QS3k;
         "CVsonJ9p" = _CVsonJ9p;
         "Wb2HOy6P" = _Wb2HOy6P;
+        "hjlV86yw" = _hjlV86yw;
+        "oqmwgnJ4" = _oqmwgnJ4;
         "forge-1.18.2" = _NzzlYtVu;
         "forge-1.16.5" = _NQmWMlj5;
         "forge-1.19.2" = _rXZHAv2o;
         "forge-1.19.4" = _ySSD2Dhc;
-        "forge-1.20.1" = _Wb2HOy6P;
-        "neoforge-1.20.1" = _Wb2HOy6P;
+        "forge-1.20.1" = _hjlV86yw;
+        "neoforge-1.20.1" = _hjlV86yw;
+        "neoforge-1.21.1" = _oqmwgnJ4;
         "pkg-1.0.0" = _NzzlYtVu;
         "pkg-2.0.0" = _NQmWMlj5;
         "pkg-3.0.0" = _rXZHAv2o;
@@ -78,7 +91,8 @@ let
         "pkg-5.3.0" = _Bmq5QS3k;
         "pkg-5.4.0" = _CVsonJ9p;
         "pkg-5.5" = _Wb2HOy6P;
-        "default" = _Wb2HOy6P;
+        "pkg-20.1.1" = _oqmwgnJ4;
+        "default" = _oqmwgnJ4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-music-discs-(records)";

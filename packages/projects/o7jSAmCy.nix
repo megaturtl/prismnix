@@ -111,6 +111,26 @@ let
             "file" = "withered-bone-meal-neoforge-26.1-3.1.1+neoforge+26.1.jar";
             "hash" = "sha512-KRG8QH44fCbXpVu8mEuOmPOJ7IBVID3CpfW+Ouhu7vy71CZJOOaGazSu3f1EHyiPb/RQi3emVH4rgdid5Ngbog==";
         };
+        _D91HrOIc = {
+            "id" = "D91HrOIc";
+            "file" = "withered-bone-meal-neoforge-26.1-3.1.2+neoforge+26.1.jar";
+            "hash" = "sha512-8Mo6n4VhXeDETn+lpPmePg49y3mW9LK7yD+5JVQM/qKXNjCJXaQvaUb8Grn0vvHuYOW4VCNpFLloj2I6vhSriw==";
+        };
+        _Sxh9hiOv = {
+            "id" = "Sxh9hiOv";
+            "file" = "withered-bone-meal-fabric-26.1-3.1.2+fabric+26.1.jar";
+            "hash" = "sha512-4vidrJS6hrYQlMjoEmbIj5CJxr0HZuk3DTBNAy6sPCAck0ijZeUDAagYIwXQDHnNxSKHEuzsDYM7OBmQy+zuFw==";
+        };
+        _Kofiq2jI = {
+            "id" = "Kofiq2jI";
+            "file" = "withered-bone-meal-fabric-26.3-3.1.2+fabric+26.3.jar";
+            "hash" = "sha512-rb+eBqzMPnqSxZOtZhGkFOKPUmqkx46PEbNyx5H2y64xY7c+DWvX52CP1Ddk1sGMqLnFErlyxO4k4eNT4M0vHg==";
+        };
+        _YGSuqniP = {
+            "id" = "YGSuqniP";
+            "file" = "withered-bone-meal-neoforge-26.3-3.1.2+neoforge+26.3.jar";
+            "hash" = "sha512-MbTFlLACRXZGFEah3v4nP9DpQswT0ZT4CUezMyFvUwThXz0FVPyYTYdw6F60ThtPop1Uj96/F6F+uy7zv87tRA==";
+        };
     in {
         "zZKmhwJm" = _zZKmhwJm;
         "oZPZ2tTe" = _oZPZ2tTe;
@@ -134,6 +154,10 @@ let
         "3RZolG7Y" = _3RZolG7Y;
         "eP3bY0AS" = _eP3bY0AS;
         "I93AgLY0" = _I93AgLY0;
+        "D91HrOIc" = _D91HrOIc;
+        "Sxh9hiOv" = _Sxh9hiOv;
+        "Kofiq2jI" = _Kofiq2jI;
+        "YGSuqniP" = _YGSuqniP;
         "fabric-1.19" = _zZKmhwJm;
         "fabric-1.19.2" = _Z9ns5lfs;
         "fabric-1.19.3" = _BqEXmTQd;
@@ -157,10 +181,11 @@ let
         "fabric-1.21.2" = _GuwZKobs;
         "fabric-1.21.3" = _GuwZKobs;
         "fabric-1.21.1" = _vAHKxQ4p;
-        "fabric-26.1" = _eP3bY0AS;
-        "fabric-26.1.1" = _eP3bY0AS;
-        "fabric-26.1.2" = _eP3bY0AS;
-        "fabric-26.2" = _eP3bY0AS;
+        "fabric-26.1" = _Sxh9hiOv;
+        "fabric-26.1.1" = _Sxh9hiOv;
+        "fabric-26.1.2" = _Sxh9hiOv;
+        "fabric-26.2" = _Sxh9hiOv;
+        "fabric-26.3" = _Kofiq2jI;
         "neoforge-1.21.2" = _HR0WGD3D;
         "neoforge-1.21.3" = _HR0WGD3D;
         "neoforge-1.21.4" = _cJFQAIWm;
@@ -172,10 +197,11 @@ let
         "neoforge-1.21.10" = _3RlwN4Yp;
         "neoforge-1.21.11" = _3RlwN4Yp;
         "neoforge-1.21.1" = _A8cbYXME;
-        "neoforge-26.1" = _I93AgLY0;
-        "neoforge-26.1.1" = _I93AgLY0;
-        "neoforge-26.1.2" = _I93AgLY0;
-        "neoforge-26.2" = _I93AgLY0;
+        "neoforge-26.1" = _D91HrOIc;
+        "neoforge-26.1.1" = _D91HrOIc;
+        "neoforge-26.1.2" = _D91HrOIc;
+        "neoforge-26.2" = _D91HrOIc;
+        "neoforge-26.3" = _YGSuqniP;
         "pkg-1.0.0-beta" = _zZKmhwJm;
         "pkg-2.0.0+1.19.2" = _oZPZ2tTe;
         "pkg-2.0.0+1.19.4" = _QzzprpLx;
@@ -197,7 +223,11 @@ let
         "pkg-3.1.0+fabric+26.1" = _3RZolG7Y;
         "pkg-3.1.1+fabric+26.1" = _eP3bY0AS;
         "pkg-3.1.1+neoforge+26.1" = _I93AgLY0;
-        "default" = _I93AgLY0;
+        "pkg-3.1.2+neoforge+26.1" = _D91HrOIc;
+        "pkg-3.1.2+fabric+26.1" = _Sxh9hiOv;
+        "pkg-3.1.2+fabric+26.3" = _Kofiq2jI;
+        "pkg-3.1.2+neoforge+26.3" = _YGSuqniP;
+        "default" = _YGSuqniP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "withered-bone-meal";

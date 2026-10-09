@@ -266,6 +266,41 @@ let
             "file" = "wirelessredstone-neoforge-1.2.2+1.20.4.jar";
             "hash" = "sha512-MEmjq1LpOOV4KO2H8VzxlMRff/UXpAqyf8sRBZZlzEZQ6OqCtaG6C8jSd2xnupx54XClzERR03pxNa/Gqfts/Q==";
         };
+        _YIMwcRXp = {
+            "id" = "YIMwcRXp";
+            "file" = "wirelessredstone-fabric-1.3.0+1.19.2.jar";
+            "hash" = "sha512-I5f8fUbvy4ffIEsVf16HvBDwUPG5yYPwi4rC9PwGig+sSbxp8PsoPDFOD34722D3P59mRdKoc4IENJB4B9x4nQ==";
+        };
+        _KshXkm6i = {
+            "id" = "KshXkm6i";
+            "file" = "wirelessredstone-forge-1.3.0+1.19.2.jar";
+            "hash" = "sha512-m+s8q0Y68Zl9l1/vtaZm9vmplbGw2v4he+raQsfa0/hg9fFJ3UcvhNldl9YyS565yfcd0uQwp4MsEGPd6fRfQg==";
+        };
+        _cEMogBT4 = {
+            "id" = "cEMogBT4";
+            "file" = "wirelessredstone-neoforge-1.3.0+1.20.4.jar";
+            "hash" = "sha512-QKPs163u1asEx4+QWOuS3dGDl/5tpty7QtZ4gHodFAYIb3QTnMGx+u+cm7jRGXGDwrVTaDkuAEL3zCsvHXpGPQ==";
+        };
+        _bV0jL7uy = {
+            "id" = "bV0jL7uy";
+            "file" = "wirelessredstone-fabric-1.3.0+1.20.4.jar";
+            "hash" = "sha512-e3ArmHltCLquwIMn0uD0G6/WzizbV5z2R6m8ML3fGH8hxiMH539mE6jFeWoLjK94CHQVfNXhxuY6zTb8rB7S9Q==";
+        };
+        _wSfY010g = {
+            "id" = "wSfY010g";
+            "file" = "wirelessredstone-forge-1.3.0+1.20.4.jar";
+            "hash" = "sha512-HGKw7lY+4NN0mCcqMsxj62usEZ267Sfi0fA8QFDouUB+JBOegxejPhzJ6hduk/eJk8wjRIa2aTrhYEMtOscXEg==";
+        };
+        _z3TYENar = {
+            "id" = "z3TYENar";
+            "file" = "wirelessredstone-fabric-1.3.0+1.20.1.jar";
+            "hash" = "sha512-DPYgiPn4duO4fDDRBGYOP5zFEpBQ2vsiwZSrlkAa1cy9Wlqo58M4Ia0cr/ZGFRpUvtCl79T6o8Vqg9/b1sRORw==";
+        };
+        _DPmNCn5n = {
+            "id" = "DPmNCn5n";
+            "file" = "wirelessredstone-forge-1.3.0+1.20.1.jar";
+            "hash" = "sha512-NiMuUavichKIDqv1IwYKsCeYvjOVl9JqQWXxBMxxNSAjSapmEEjmZ9IoazmRbZJVbdkXcBWF33KMN9zGNZJFeQ==";
+        };
     in {
         "vqCr10Em" = _vqCr10Em;
         "40VnqyND" = _40VnqyND;
@@ -320,23 +355,30 @@ let
         "8ZWA6ynE" = _8ZWA6ynE;
         "fgUwUN3e" = _fgUwUN3e;
         "9P0qcGl2" = _9P0qcGl2;
+        "YIMwcRXp" = _YIMwcRXp;
+        "KshXkm6i" = _KshXkm6i;
+        "cEMogBT4" = _cEMogBT4;
+        "bV0jL7uy" = _bV0jL7uy;
+        "wSfY010g" = _wSfY010g;
+        "z3TYENar" = _z3TYENar;
+        "DPmNCn5n" = _DPmNCn5n;
         "forge-1.17.1" = _vqCr10Em;
         "forge-1.15.2" = _40VnqyND;
         "forge-1.12.2" = _DLQolp7C;
         "forge-1.16.5" = _FhtRmvp2;
         "forge-1.18.2" = _RaTclmPT;
-        "forge-1.19.2" = _KhFjUY4W;
+        "forge-1.19.2" = _KshXkm6i;
         "forge-1.19.3" = _CnSKO1hR;
-        "forge-1.20.1" = _Pav6AGkG;
+        "forge-1.20.1" = _DPmNCn5n;
         "forge-1.19.4" = _1xbYh5OC;
-        "forge-1.20.4" = _8ZWA6ynE;
+        "forge-1.20.4" = _wSfY010g;
         "fabric-1.19.3" = _sfrJXHgy;
-        "fabric-1.20.1" = _V3kZkc60;
+        "fabric-1.20.1" = _z3TYENar;
         "fabric-1.19.4" = _JERBlCzh;
-        "fabric-1.19.2" = _Kvm3sEOC;
+        "fabric-1.19.2" = _YIMwcRXp;
         "fabric-1.18.2" = _VA1S4XAm;
-        "fabric-1.20.4" = _fgUwUN3e;
-        "neoforge-1.20.4" = _9P0qcGl2;
+        "fabric-1.20.4" = _bV0jL7uy;
+        "neoforge-1.20.4" = _cEMogBT4;
         "neoforge-1.20.1" = _Pav6AGkG;
         "pkg-1.17.1-1.0.0-beta-3" = _vqCr10Em;
         "pkg-1.15.2-1.0.1" = _40VnqyND;
@@ -391,7 +433,14 @@ let
         "pkg-1.2.2+1.20.4-forge" = _8ZWA6ynE;
         "pkg-1.2.2+1.20.4-fabric" = _fgUwUN3e;
         "pkg-1.2.2+1.20.4-neoforge" = _9P0qcGl2;
-        "default" = _9P0qcGl2;
+        "pkg-1.3.0+1.19.2-fabric" = _YIMwcRXp;
+        "pkg-1.3.0+1.19.2-forge" = _KshXkm6i;
+        "pkg-1.3.0+1.20.4-neoforge" = _cEMogBT4;
+        "pkg-1.3.0+1.20.4-fabric" = _bV0jL7uy;
+        "pkg-1.3.0+1.20.4-forge" = _wSfY010g;
+        "pkg-1.3.0+1.20.1-fabric" = _z3TYENar;
+        "pkg-1.3.0+1.20.1-forge" = _DPmNCn5n;
+        "default" = _DPmNCn5n;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wirelessredstone";

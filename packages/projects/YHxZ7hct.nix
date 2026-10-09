@@ -76,6 +76,11 @@ let
             "file" = "SplashChanger-1.4.0.jar";
             "hash" = "sha512-yIcNPE6bEp3ETmp8cBGGwUdQpS/G5tgZNWhUfueGA/jBbeTr7SyPXzSJxBuFjse4ZpnKUtlj0aQcrSdJ7M1Pkw==";
         };
+        _XH7lMhzZ = {
+            "id" = "XH7lMhzZ";
+            "file" = "SplashChanger-1.5.0.jar";
+            "hash" = "sha512-U/dnf2dm44Pw71ZrUZxi+U3X31ReC03lsuAMd0r3v7OP+cLhqzqogCSB0AIZzK8WWDPFNLu5UqKc36bLm3j5iQ==";
+        };
     in {
         "dBuvMxHe" = _dBuvMxHe;
         "8yodhFFr" = _8yodhFFr;
@@ -92,6 +97,7 @@ let
         "x6dpiXeG" = _x6dpiXeG;
         "h0yWa6uI" = _h0yWa6uI;
         "WHrtBPQb" = _WHrtBPQb;
+        "XH7lMhzZ" = _XH7lMhzZ;
         "fabric-1.19.4" = _HugkSY8x;
         "fabric-1.20.1" = _KV6QAbbJ;
         "fabric-1.18.2" = _OSns4vJZ;
@@ -104,6 +110,7 @@ let
         "fabric-26.1.1" = _h0yWa6uI;
         "fabric-26.1.2" = _h0yWa6uI;
         "fabric-26.2" = _WHrtBPQb;
+        "fabric-26.3" = _XH7lMhzZ;
         "pkg-1.0" = _dBuvMxHe;
         "pkg-1.1" = _8yodhFFr;
         "pkg-0.9" = _ZfeNddbJ;
@@ -119,7 +126,8 @@ let
         "pkg-1.3.0" = _x6dpiXeG;
         "pkg-1.3.1" = _h0yWa6uI;
         "pkg-1.4.0" = _WHrtBPQb;
-        "default" = _WHrtBPQb;
+        "pkg-1.5.0" = _XH7lMhzZ;
+        "default" = _XH7lMhzZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "splash-changer";

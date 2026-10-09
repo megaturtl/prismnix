@@ -201,6 +201,11 @@ let
             "file" = "piglinproliferation-1.21.1-2.0.15.jar";
             "hash" = "sha512-vBPjdwnYRm2jkquGmqNSFDtCyMkxB+C2uZaVzZkOpHTQIprM1KNqxyFQXwUgiY8U512JTxteYUdkj0+jh73mEA==";
         };
+        _ErOncGme = {
+            "id" = "ErOncGme";
+            "file" = "piglinproliferation-1.21.1-2.0.16.jar";
+            "hash" = "sha512-+N6u1Nam3wr5KU+gS20Uw087fCbn+AF570CKhE4IjZRz2OlSJovNM/HzKE/IpD/ar0u5Sskrol6LPV2QjvfN6w==";
+        };
     in {
         "w8PME4CY" = _w8PME4CY;
         "Rd6B3j61" = _Rd6B3j61;
@@ -242,6 +247,7 @@ let
         "35nRLWhN" = _35nRLWhN;
         "Xm2VFMY1" = _Xm2VFMY1;
         "NsVkx365" = _NsVkx365;
+        "ErOncGme" = _ErOncGme;
         "forge-1.19" = _w8PME4CY;
         "forge-1.19.1" = _w8PME4CY;
         "forge-1.19.2" = _4dfnMaGj;
@@ -255,7 +261,7 @@ let
         "neoforge-1.20.1" = _35nRLWhN;
         "neoforge-1.20" = _cJ6Kn4Di;
         "neoforge-1.21" = _Di6kw5mn;
-        "neoforge-1.21.1" = _NsVkx365;
+        "neoforge-1.21.1" = _ErOncGme;
         "pkg-1.19.2.1.0.0" = _w8PME4CY;
         "pkg-1.0.1" = _Rd6B3j61;
         "pkg-1.0.2" = _OsJmtZg0;
@@ -293,7 +299,8 @@ let
         "pkg-2.0.13" = _rdlzJhO9;
         "pkg-2.0.14" = _Xm2VFMY1;
         "pkg-2.0.15" = _NsVkx365;
-        "default" = _NsVkx365;
+        "pkg-2.0.16" = _ErOncGme;
+        "default" = _ErOncGme;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "piglin-proliferation";

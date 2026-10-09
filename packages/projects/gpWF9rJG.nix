@@ -16,17 +16,25 @@ let
             "file" = "chat-bubbles-1.0.1.jar";
             "hash" = "sha512-xC/XVwHAe3p2xl0Dg8qzaYQDydFN3dJ0Z4D/02WQOA6PudyncjO6pVQXdmUHQ/PDyRYbeGc55rUuZ7DbdO4PVw==";
         };
+        _Suwh88VV = {
+            "id" = "Suwh88VV";
+            "file" = "chat-bubbles-1.1.0.jar";
+            "hash" = "sha512-P0FswJJJ3VhkvVGRy5+V0vi43z/xi++FsUqjd2oe/2kn8M1j7BShSXpRC7So2zBcmZUYFt4JnZT3IZSbi4iVQQ==";
+        };
     in {
         "AoV0iOw9" = _AoV0iOw9;
         "tMXfEhSR" = _tMXfEhSR;
         "fpT34YLd" = _fpT34YLd;
+        "Suwh88VV" = _Suwh88VV;
         "fabric-1.21.9" = _AoV0iOw9;
         "fabric-1.21.10" = _AoV0iOw9;
         "fabric-1.21.11" = _tMXfEhSR;
         "fabric-26.1.1" = _fpT34YLd;
+        "fabric-26.3" = _Suwh88VV;
         "pkg-1.0.0" = _fpT34YLd;
         "pkg-1.0.1" = _tMXfEhSR;
-        "default" = _fpT34YLd;
+        "pkg-1.1.0" = _Suwh88VV;
+        "default" = _Suwh88VV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chat-bubbles";

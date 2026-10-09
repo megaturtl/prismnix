@@ -51,6 +51,11 @@ let
             "file" = "tab_player_highlighter-2.2.3-26.1.2.jar";
             "hash" = "sha512-UlSKdRznviEVXBf5Xidbk0SfLtd59Fad4c04Uhtj8ChkqycKIhjPMUDM8rSsWOGV01D0vlmMw3jQOIFmAmm1nQ==";
         };
+        _uJDVGBhQ = {
+            "id" = "uJDVGBhQ";
+            "file" = "tab_player_highlighter-2.2.4-26.2.jar";
+            "hash" = "sha512-QGx3Vklolk/EXqjCO9861DJXJSgopY2z5L1iARdHpV35BEU74nkkYQos3pzm/vsHQzZQqpgDW80NJNrY625z2g==";
+        };
     in {
         "piHvRmkI" = _piHvRmkI;
         "wa96JhxL" = _wa96JhxL;
@@ -62,6 +67,7 @@ let
         "9iyyLt3K" = _9iyyLt3K;
         "jr4H1hch" = _jr4H1hch;
         "189uUWcQ" = _189uUWcQ;
+        "uJDVGBhQ" = _uJDVGBhQ;
         "fabric-1.21" = _9iyyLt3K;
         "fabric-1.21.1" = _9iyyLt3K;
         "fabric-1.21.6" = _jrTeK4uS;
@@ -69,6 +75,7 @@ let
         "fabric-1.21.8" = _o6RyARGB;
         "fabric-1.21.11" = _jr4H1hch;
         "fabric-26.1.2" = _189uUWcQ;
+        "fabric-26.2" = _uJDVGBhQ;
         "pkg-1.0" = _piHvRmkI;
         "pkg-2.0" = _wa96JhxL;
         "pkg-2.1" = _D3HUruID;
@@ -79,7 +86,8 @@ let
         "pkg-2.2.1-1.21" = _9iyyLt3K;
         "pkg-2.2.2-1.21.11" = _jr4H1hch;
         "pkg-2.2.3-26.1.2" = _189uUWcQ;
-        "default" = _189uUWcQ;
+        "pkg-2.2.4-26.2" = _uJDVGBhQ;
+        "default" = _uJDVGBhQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tab-player-highlighter";

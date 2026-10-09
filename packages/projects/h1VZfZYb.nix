@@ -66,6 +66,11 @@ let
             "file" = "blue_depths DP v1.2.0 (1.21.11).zip";
             "hash" = "sha512-ImapDfbxKoL5Is80ASwi5UWfkjqrtp3b43szaf68QpcLtrirCmXUMdd5bth8pL0HbtheIvLTmK1eBj9Ogeo26A==";
         };
+        _Yum9XybN = {
+            "id" = "Yum9XybN";
+            "file" = "blue_depths DP v1.2.0 (26.3).zip";
+            "hash" = "sha512-XftAtBx3U/qMuq7mO4mNzW459pZJAKMOuAmCXqyqQ4FSRRXUodRSEs4U8TPYu9IR5oR4I5Ke8Mxrl/rW2wPiww==";
+        };
     in {
         "qo3zRDbY" = _qo3zRDbY;
         "Kj9OBqjp" = _Kj9OBqjp;
@@ -80,6 +85,7 @@ let
         "D04uAkID" = _D04uAkID;
         "cXbdELh1" = _cXbdELh1;
         "TzW9MfrW" = _TzW9MfrW;
+        "Yum9XybN" = _Yum9XybN;
         "datapack-1.21.9" = _h6RD8Kzl;
         "datapack-1.21.10" = _h6RD8Kzl;
         "datapack-1.21.11" = _TzW9MfrW;
@@ -87,6 +93,7 @@ let
         "datapack-26.1.1" = _D04uAkID;
         "datapack-26.1.2" = _D04uAkID;
         "datapack-26.2" = _cXbdELh1;
+        "datapack-26.3" = _Yum9XybN;
         "minecraft-1.21.9" = _h6RD8Kzl;
         "minecraft-1.21.10" = _h6RD8Kzl;
         "minecraft-1.21.11" = _TzW9MfrW;
@@ -94,14 +101,15 @@ let
         "minecraft-26.1.1" = _D04uAkID;
         "minecraft-26.1.2" = _D04uAkID;
         "minecraft-26.2" = _cXbdELh1;
+        "minecraft-26.3" = _Yum9XybN;
         "pkg-1.0.0" = _qo3zRDbY;
         "pkg-1.0.1" = _Kj9OBqjp;
         "pkg-1.0.2" = _qTeDjeKK;
         "pkg-1.0.3" = _sp6PbYyL;
         "pkg-1.1.0" = _PIxdbiYB;
         "pkg-1.1.1" = _g7dhNG0F;
-        "pkg-1.2.0" = _TzW9MfrW;
-        "default" = _TzW9MfrW;
+        "pkg-1.2.0" = _Yum9XybN;
+        "default" = _Yum9XybN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blue-depths-ocean-ecosystem-expansion-datapack";

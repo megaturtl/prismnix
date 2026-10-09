@@ -11,13 +11,20 @@ let
             "file" = "irisveil-0.3.0.jar";
             "hash" = "sha512-nYQIhxUMnKRZHUHYzHcHNdycvyuReHpCfjkfOc8DaieoFp5i8J3pyR2PwaQ2UcuZR7zNS7d83jWhmVkEq2wIFw==";
         };
+        _hWItkPzn = {
+            "id" = "hWItkPzn";
+            "file" = "irisveil-0.4.0.jar";
+            "hash" = "sha512-PtPtAjTqQqTFkcW9ZRrKT+t+JkHtC0i1wr0lNjg8maGPd5F9Ql0y4Ae/2j6xsuhMJqNUroNxNwjnE5LGCFQQuw==";
+        };
     in {
         "x3vxqNpo" = _x3vxqNpo;
         "5vFVK52d" = _5vFVK52d;
-        "neoforge-1.21.1" = _5vFVK52d;
+        "hWItkPzn" = _hWItkPzn;
+        "neoforge-1.21.1" = _hWItkPzn;
         "pkg-1.21.1+0.1.0-alpha" = _x3vxqNpo;
         "pkg-1.21.1+0.3.0-beta" = _5vFVK52d;
-        "default" = _5vFVK52d;
+        "pkg-1.21.1+0.4.0-alpha" = _hWItkPzn;
+        "default" = _hWItkPzn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "iris-veil-compat";

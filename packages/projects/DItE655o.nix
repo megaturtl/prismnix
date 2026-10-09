@@ -1836,6 +1836,26 @@ let
             "file" = "bucketlib-neoforge-1.21.9-4.6.1.1.jar";
             "hash" = "sha512-qz/4EmSn0CKy9sW5qE6vtnNdsx2FNNp1zCoB1OJiVrHMtLLkJyG+Vto5zaVAZA07VV+vNkEIHqOl7p43w0wU9Q==";
         };
+        _TjFHt8PM = {
+            "id" = "TjFHt8PM";
+            "file" = "bucketlib-fabric-26.3-5.3.0.0.jar";
+            "hash" = "sha512-8IfAMU4+KbpoC+4W/4fb4qvmmZWwEv5rL1hCz1UjgRieUYQZeSLGfFuevK+aO+LrK1/GrFK0JtqGStqP6W1mvQ==";
+        };
+        _WtIS8ion = {
+            "id" = "WtIS8ion";
+            "file" = "bucketlib-neoforge-26.3-5.3.0.0.jar";
+            "hash" = "sha512-trJ+WD85Gg//gFKRUpnUvIO4v24L1OnHZU6w7Ikm+6V8710BwHRLCc60mAepFi7VY+mtFuNrz3nBhhe7SFtAQQ==";
+        };
+        _118fAibi = {
+            "id" = "118fAibi";
+            "file" = "bucketlib-fabric-26.3-5.3.0.1.jar";
+            "hash" = "sha512-fdI0omChZpVawaAXm+aIaq8jFmpy/fK5sCBJm0tjX635zrhl6p2OZF31jNNVcxWMQFpRA0kep/1Z/FEi6xexlQ==";
+        };
+        _rvL4wXtL = {
+            "id" = "rvL4wXtL";
+            "file" = "bucketlib-neoforge-26.3-5.3.0.1.jar";
+            "hash" = "sha512-UtHVn70lQlFZCSILzJd5hCeleaQPdjzCbkJjMrhfwbeZotDfZejzu0RTcGaJKmWnhmP6EkpWuOUcIegG4nocPA==";
+        };
     in {
         "W7K8v1Ym" = _W7K8v1Ym;
         "GKwQ1o52" = _GKwQ1o52;
@@ -2204,6 +2224,10 @@ let
         "xEhW4I9o" = _xEhW4I9o;
         "zQ30sTA3" = _zQ30sTA3;
         "sH4euQbL" = _sH4euQbL;
+        "TjFHt8PM" = _TjFHt8PM;
+        "WtIS8ion" = _WtIS8ion;
+        "118fAibi" = _118fAibi;
+        "rvL4wXtL" = _rvL4wXtL;
         "forge-1.19" = _lrbQhTfz;
         "forge-1.19.1" = _lrbQhTfz;
         "forge-1.19.2" = _3pnkU0TB;
@@ -2233,6 +2257,7 @@ let
         "neoforge-26.1.2" = _kn0qu705;
         "neoforge-1.21.6" = _rsBdUMAJ;
         "neoforge-26.2" = _yP4IUf3T;
+        "neoforge-26.3" = _rvL4wXtL;
         "fabric-1.20.4" = _ctgxep2u;
         "fabric-1.20.6" = _wRxkM95M;
         "fabric-1.21" = _g9gIvUuz;
@@ -2250,6 +2275,7 @@ let
         "fabric-26.1.2" = _SLm2Zz4Z;
         "fabric-1.21.6" = _Vdo4bcqa;
         "fabric-26.2" = _rIjTrpMZ;
+        "fabric-26.3" = _118fAibi;
         "quilt-1.20.4" = _ctgxep2u;
         "quilt-1.20.6" = _wRxkM95M;
         "quilt-1.21" = _g9gIvUuz;
@@ -2267,6 +2293,7 @@ let
         "quilt-26.1.2" = _SLm2Zz4Z;
         "quilt-1.21.6" = _Vdo4bcqa;
         "quilt-26.2" = _rIjTrpMZ;
+        "quilt-26.3" = _118fAibi;
         "pkg-1.19-1.0.3.2" = _W7K8v1Ym;
         "pkg-1.18.2-0.5.3.9" = _GKwQ1o52;
         "pkg-1.19.3-1.1.0.0" = _sevCPmIz;
@@ -2471,7 +2498,9 @@ let
         "pkg-1.21.6-4.4.999.2" = _Vdo4bcqa;
         "pkg-1.21.7-4.5.0.4" = _xEhW4I9o;
         "pkg-1.21.9-4.6.1.1" = _sH4euQbL;
-        "default" = _sH4euQbL;
+        "pkg-26.3-5.3.0.0" = _WtIS8ion;
+        "pkg-26.3-5.3.0.1" = _rvL4wXtL;
+        "default" = _rvL4wXtL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bucketlib";

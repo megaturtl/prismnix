@@ -51,6 +51,11 @@ let
             "file" = "silly-goose-1.1.0-26.2.jar";
             "hash" = "sha512-1/eToOeXcuMISOo2NmNoqAlJ1uU+v9gkP1eBXxhyhfUkmCx91Hj8namlbwiUBcDzxfsy5puyRMcY0w9cj/mjMQ==";
         };
+        _ZS7Gdgbi = {
+            "id" = "ZS7Gdgbi";
+            "file" = "silly-goose-1.1.0-26.3.jar";
+            "hash" = "sha512-0cfMeypUA0YAatPLUeUbYEXpFI88Goy/aqIhd1T8oDQz+01AetGGF1aIriL51YIwilrMZDii2rw/HqYbMyp+zQ==";
+        };
     in {
         "YgXUKx6t" = _YgXUKx6t;
         "kwzoveTz" = _kwzoveTz;
@@ -62,20 +67,22 @@ let
         "BlfaWaDA" = _BlfaWaDA;
         "Sy56shGi" = _Sy56shGi;
         "yTVH7vdk" = _yTVH7vdk;
+        "ZS7Gdgbi" = _ZS7Gdgbi;
         "fabric-1.21.10" = _kwzoveTz;
         "fabric-1.21.11" = _v81H1WLR;
         "fabric-26.1" = _Sy56shGi;
         "fabric-26.1.1" = _Sy56shGi;
         "fabric-26.1.2" = _Sy56shGi;
         "fabric-26.2" = _yTVH7vdk;
+        "fabric-26.3" = _ZS7Gdgbi;
         "pkg-1.0.0" = _YgXUKx6t;
         "pkg-1.0.1" = _a9njvy74;
         "pkg-1.0.2" = _nQMTWWOB;
         "pkg-1.0.3" = _jSw1fzwv;
         "pkg-1.0.4" = _27o02gdU;
         "pkg-1.0.5" = _BlfaWaDA;
-        "pkg-1.1.0" = _yTVH7vdk;
-        "default" = _yTVH7vdk;
+        "pkg-1.1.0" = _ZS7Gdgbi;
+        "default" = _ZS7Gdgbi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "silly-goose";

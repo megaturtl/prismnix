@@ -66,6 +66,21 @@ let
             "file" = "WorldPreGenerator-1.21.1-5.0.1.jar";
             "hash" = "sha512-LbP2irYcm/Q8z3WpWLk6+amICeVAwHRd7eD2WcTd3UoNkqpXefgwVKYxGIeUyqbl0huvhOHjuEin3K+Zo3Sz5w==";
         };
+        _mD1upEHd = {
+            "id" = "mD1upEHd";
+            "file" = "WorldPreGenerator-1.21.1-5.0.2.jar";
+            "hash" = "sha512-x0sWGEi1ttu1jU1gC8BCKnNLoB2Tv9m/kBVgSyA6Nmk2MCdRJduo29wUW8/LAkQclgFkDL5BR0vQJdLPNX5N4A==";
+        };
+        _u3Jgh7f5 = {
+            "id" = "u3Jgh7f5";
+            "file" = "WorldPreGenerator-1.21.11-5.0.2.jar";
+            "hash" = "sha512-xjfsCxzeOqpuB7QfzEDBdI3LirOv2TrgrCGaUIoeJGJ3rzCSgo6NIv44eDlDjp2nt79WJnIN132u2hQv+GiWIQ==";
+        };
+        _tK1GDNrm = {
+            "id" = "tK1GDNrm";
+            "file" = "WorldPreGenerator-26.1-5.0.2.jar";
+            "hash" = "sha512-3oArR1cyq5VJYB29ANYBk6PJBsPNXYM6h8u2+X2xV7HAH88zOvw+2LBW0e1dWVF9pgPLYadKD7Z63kRl7w5Wwg==";
+        };
     in {
         "8H9lRMk6" = _8H9lRMk6;
         "iNYD7ET9" = _iNYD7ET9;
@@ -80,6 +95,9 @@ let
         "CBFNItrl" = _CBFNItrl;
         "daWi0yQx" = _daWi0yQx;
         "5fq1sfs5" = _5fq1sfs5;
+        "mD1upEHd" = _mD1upEHd;
+        "u3Jgh7f5" = _u3Jgh7f5;
+        "tK1GDNrm" = _tK1GDNrm;
         "forge-1.17.1" = _8H9lRMk6;
         "forge-1.18.2" = _iNYD7ET9;
         "forge-1.19.4" = _O9nz6a29;
@@ -90,16 +108,22 @@ let
         "forge-1.20.6" = _5ZFnyppI;
         "forge-1.21" = _B931Ko3X;
         "forge-1.21.1" = _CBFNItrl;
-        "neoforge-1.21.1" = _5fq1sfs5;
-        "neoforge-1.21.2" = _5fq1sfs5;
-        "neoforge-1.21.3" = _5fq1sfs5;
-        "neoforge-1.21.4" = _5fq1sfs5;
-        "neoforge-1.21.5" = _5fq1sfs5;
-        "neoforge-1.21.6" = _5fq1sfs5;
-        "neoforge-1.21.7" = _5fq1sfs5;
-        "neoforge-1.21.8" = _5fq1sfs5;
-        "neoforge-1.21.9" = _5fq1sfs5;
-        "neoforge-1.21.10" = _5fq1sfs5;
+        "neoforge-1.21.1" = _mD1upEHd;
+        "neoforge-1.21.2" = _mD1upEHd;
+        "neoforge-1.21.3" = _mD1upEHd;
+        "neoforge-1.21.4" = _mD1upEHd;
+        "neoforge-1.21.5" = _mD1upEHd;
+        "neoforge-1.21.6" = _mD1upEHd;
+        "neoforge-1.21.7" = _mD1upEHd;
+        "neoforge-1.21.8" = _mD1upEHd;
+        "neoforge-1.21.9" = _mD1upEHd;
+        "neoforge-1.21.10" = _mD1upEHd;
+        "neoforge-1.21.11" = _u3Jgh7f5;
+        "neoforge-26.1" = _tK1GDNrm;
+        "neoforge-26.1.1" = _tK1GDNrm;
+        "neoforge-26.1.2" = _tK1GDNrm;
+        "neoforge-26.2" = _tK1GDNrm;
+        "neoforge-26.3" = _tK1GDNrm;
         "pkg-1.17.1-2.0.0" = _8H9lRMk6;
         "pkg-1.18.2-3.0.1" = _iNYD7ET9;
         "pkg-1.19.4-3.0.1" = _O9nz6a29;
@@ -113,7 +137,10 @@ let
         "pkg-1.21.1-4.0.0" = _CBFNItrl;
         "pkg-1.21.1-5.0.0" = _daWi0yQx;
         "pkg-1.21.1-5.0.1" = _5fq1sfs5;
-        "default" = _5fq1sfs5;
+        "pkg-1.21.1-5.0.2" = _mD1upEHd;
+        "pkg-1.21.11-5.0.2" = _u3Jgh7f5;
+        "pkg-26.1-5.0.2" = _tK1GDNrm;
+        "default" = _tK1GDNrm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "world-pre-generator";

@@ -656,6 +656,46 @@ let
             "file" = "nemos-woodcutter-NeoForge-26.2-1.14.1.jar";
             "hash" = "sha512-B+xJOSk6K7mGjLJDZ4t8Fbo6ABV1h2qjjTQZ2hCoFVSobJd/7ucnTr3edEWQzEjI3q4svTQV3o3aRjqcuc107A==";
         };
+        _91MldqBX = {
+            "id" = "91MldqBX";
+            "file" = "nemos-woodcutter-Fabric-26.3-1.14.1.jar";
+            "hash" = "sha512-Ym4Jv54wae7t2f7z1W0JTuVYEk/dTYNNYwXVuDVggGOlh9wEmnf2ZlqucmEnUe0dUYf/yfuvATl6+PlFUcva9A==";
+        };
+        _q61pZLDi = {
+            "id" = "q61pZLDi";
+            "file" = "nemos-woodcutter-NeoForge-26.3-1.14.1.jar";
+            "hash" = "sha512-eFyk9OclY32eXndlQnb672lU8IuHaBB2h1q2BjjamCT3u08jkIFYyZFNkd/rsSlh6yBy+B0pGnbEZsWn+U0KXA==";
+        };
+        _hfIxf7Uc = {
+            "id" = "hfIxf7Uc";
+            "file" = "nemos-woodcutter-Fabric-26.3-1.14.2.jar";
+            "hash" = "sha512-O5C89qXZAFRu5juwx3MWFlyzNsEgjIMZIC8X1YEhdJzi3UXpFxsCJZLw6OSyg+1TMN9fhcPAQGRsxA+TyWSsOA==";
+        };
+        _FmdCBHjr = {
+            "id" = "FmdCBHjr";
+            "file" = "nemos-woodcutter-NeoForge-26.3-1.14.2.jar";
+            "hash" = "sha512-BYQZVEehCxHllhvOd9NUP7XGeOmMzUYrngaZ2TeyN1cnfX1KG8zaFkj4YfrUINPDZvNa6mwZ9NLCCzX8D7WzOw==";
+        };
+        _abw3TO4D = {
+            "id" = "abw3TO4D";
+            "file" = "nemos-woodcutter-Fabric-26.3-1.14.3.jar";
+            "hash" = "sha512-5nv05NxwErZLjQG0iJQ3/VI7tleiz9s7Zv4VV69nAOxzsc2+NL+IF37E4baDes0yB3dXRFxbu2FlrkgEFuK4/Q==";
+        };
+        _EtZq78VH = {
+            "id" = "EtZq78VH";
+            "file" = "nemos-woodcutter-NeoForge-26.3-1.14.3.jar";
+            "hash" = "sha512-ezJLf3LzvdXP6+/XuypKSuU7o0l45X258C9as5QWBIf0pQQ96a/PY5trMA03xxaDyM/4kTPF2WA87TIJq2cVVQ==";
+        };
+        _q2WRMmUL = {
+            "id" = "q2WRMmUL";
+            "file" = "nemos-woodcutter-Fabric-26.3-1.15.jar";
+            "hash" = "sha512-qib+52e2I1rFv10ReONdX2bzdcTB3Dl9T6iw6qFqEjP6EomiZm9eZNK6sblQKm6p1cpMnlne92riFY4MGYuOSw==";
+        };
+        _81k9G36i = {
+            "id" = "81k9G36i";
+            "file" = "nemos-woodcutter-NeoForge-26.3-1.15.jar";
+            "hash" = "sha512-cPxoEd3tgQTnuhSD1rvdJChF3MpEwXvXlYGvQUrJgYpOMvPQ6znHtkRhxN7tLZ2hUTGw8pyEhmy0SfZ4sei59w==";
+        };
     in {
         "EZtx2LkY" = _EZtx2LkY;
         "JjpCSHgT" = _JjpCSHgT;
@@ -788,6 +828,14 @@ let
         "tlIZ6NYD" = _tlIZ6NYD;
         "tMkoXyHV" = _tMkoXyHV;
         "MufQ25Uq" = _MufQ25Uq;
+        "91MldqBX" = _91MldqBX;
+        "q61pZLDi" = _q61pZLDi;
+        "hfIxf7Uc" = _hfIxf7Uc;
+        "FmdCBHjr" = _FmdCBHjr;
+        "abw3TO4D" = _abw3TO4D;
+        "EtZq78VH" = _EtZq78VH;
+        "q2WRMmUL" = _q2WRMmUL;
+        "81k9G36i" = _81k9G36i;
         "fabric-1.20.1" = _blsVX40z;
         "fabric-1.20.2" = _BhoXzV3s;
         "fabric-1.20" = _RVsdsvtX;
@@ -810,6 +858,7 @@ let
         "fabric-1.21.11" = _q7Myyhad;
         "fabric-26.1.2" = _LDuJoufW;
         "fabric-26.2" = _tMkoXyHV;
+        "fabric-26.3" = _q2WRMmUL;
         "neoforge-1.21.2" = _Tb2bRSbo;
         "neoforge-1.21.3" = _Tb2bRSbo;
         "neoforge-1.21.4" = _jgpL2CCy;
@@ -821,6 +870,7 @@ let
         "neoforge-1.21.11" = _rYIOWSol;
         "neoforge-26.1.2" = _tlIZ6NYD;
         "neoforge-26.2" = _MufQ25Uq;
+        "neoforge-26.3" = _81k9G36i;
         "forge-1.21.2" = _vNWEs0bc;
         "forge-1.21.3" = _vNWEs0bc;
         "forge-1.21.4" = _aefYbN7Z;
@@ -909,7 +959,11 @@ let
         "pkg-1.21.11-1.14.1" = _A20e0Zz8;
         "pkg-26.1.2-1.14.1" = _tlIZ6NYD;
         "pkg-26.2-1.14.1" = _MufQ25Uq;
-        "default" = _MufQ25Uq;
+        "pkg-26.3-1.14.1" = _q61pZLDi;
+        "pkg-26.3-1.14.2" = _FmdCBHjr;
+        "pkg-26.3-1.14.3" = _EtZq78VH;
+        "pkg-26.3-1.15" = _81k9G36i;
+        "default" = _81k9G36i;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nemos-woodcutter";

@@ -186,6 +186,11 @@ let
             "file" = "easeon.ss.core.teron.fabric-26.1.30.0+mc26.1.jar";
             "hash" = "sha512-SOzLHy2Y5pzGBT9Y995Z++Z5PB9/6VuS5Gow2uHA3rd2BdLakd6O3jI7XUD6FXenhsGE4n2gXcLtjlyE2pegDg==";
         };
+        _kIcpDovJ = {
+            "id" = "kIcpDovJ";
+            "file" = "easeon.ss.core.teron.fabric-26.3.30.0+mc26.3.jar";
+            "hash" = "sha512-s9M9lVXzuYoNbNE0JjIf72uxSK7Mup7iaZyl+XujUF4LBZ6quwZ+afIRpZQeHGRGBo5/gqDe3zeioYXuVd6hCQ==";
+        };
     in {
         "DRGXoJbR" = _DRGXoJbR;
         "aALplbnU" = _aALplbnU;
@@ -224,12 +229,14 @@ let
         "oG1iB6KP" = _oG1iB6KP;
         "dRR7zWnE" = _dRR7zWnE;
         "kCjZoyv4" = _kCjZoyv4;
+        "kIcpDovJ" = _kIcpDovJ;
         "fabric-1.21.9" = _oG1iB6KP;
         "fabric-1.21.10" = _oG1iB6KP;
         "fabric-1.21.11" = _dRR7zWnE;
         "fabric-26.1" = _kCjZoyv4;
         "fabric-26.1.1" = _kCjZoyv4;
         "fabric-26.1.2" = _kCjZoyv4;
+        "fabric-26.3" = _kIcpDovJ;
         "pkg-1.0.1+1.21.9-1.21.10" = _DRGXoJbR;
         "pkg-1.0.2+1.21.9-1.21.10" = _aALplbnU;
         "pkg-1.0.3+1.21.9-1.21.10" = _xC1idvXK;
@@ -267,7 +274,8 @@ let
         "pkg-1.0.30.4+1.21.9-1.21.10" = _oG1iB6KP;
         "pkg-1.1.30.0+1.21.11" = _dRR7zWnE;
         "pkg-26.1.30.0+mc26.1-26.1.2" = _kCjZoyv4;
-        "default" = _kCjZoyv4;
+        "pkg-26.3.30.0+mc26.3" = _kIcpDovJ;
+        "default" = _kIcpDovJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "easeon-ss-core";

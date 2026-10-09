@@ -86,6 +86,11 @@ let
             "file" = "auto-sprint-1.16.5.jar";
             "hash" = "sha512-cmjEK4EV9LCUfA7+P0FX5su8Eqo/y8EN2ERkHiTaXsNvEXVtHwTQi01YHIaiQwaMxpHWqiKhfPJ+bLufl9aFBw==";
         };
+        _I2h1uWbo = {
+            "id" = "I2h1uWbo";
+            "file" = "auto-sprint-1.0.17+26.3.jar";
+            "hash" = "sha512-Y99/cx/rfuxvm9na6wZ26cmaCUIJvfAv9Isih6zaaCRm+/0E8B88VdoPOe045UHKIuJz6B0ePCMfNmuW+VDuEg==";
+        };
     in {
         "fzeDWVgh" = _fzeDWVgh;
         "GA2lciMN" = _GA2lciMN;
@@ -104,6 +109,7 @@ let
         "uDwt0OUJ" = _uDwt0OUJ;
         "iXdpvqIY" = _iXdpvqIY;
         "Aq9wriTF" = _Aq9wriTF;
+        "I2h1uWbo" = _I2h1uWbo;
         "fabric-1.21" = _fzeDWVgh;
         "fabric-1.21.1" = _GA2lciMN;
         "fabric-1.21.2" = _MKwGCpzY;
@@ -121,6 +127,7 @@ let
         "fabric-26.1.2" = _uDwt0OUJ;
         "fabric-26.2" = _iXdpvqIY;
         "fabric-1.16.5" = _Aq9wriTF;
+        "fabric-26.3" = _I2h1uWbo;
         "quilt-1.21" = _fzeDWVgh;
         "quilt-1.21.1" = _GA2lciMN;
         "quilt-1.21.2" = _MKwGCpzY;
@@ -138,6 +145,7 @@ let
         "quilt-26.1.2" = _uDwt0OUJ;
         "quilt-26.2" = _iXdpvqIY;
         "quilt-1.16.5" = _Aq9wriTF;
+        "quilt-26.3" = _I2h1uWbo;
         "pkg-1.0.0" = _fzeDWVgh;
         "pkg-1.0.1" = _GA2lciMN;
         "pkg-1.0.2" = _MKwGCpzY;
@@ -155,7 +163,8 @@ let
         "pkg-1.0.14" = _uDwt0OUJ;
         "pkg-1.0.15" = _iXdpvqIY;
         "pkg-1.0.16" = _Aq9wriTF;
-        "default" = _Aq9wriTF;
+        "pkg-1.0.17" = _I2h1uWbo;
+        "default" = _I2h1uWbo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "auto-sprint-plus";

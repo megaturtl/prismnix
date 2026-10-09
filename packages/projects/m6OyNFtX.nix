@@ -156,6 +156,11 @@ let
             "file" = "fcitx5-enhancer-0.2.5+hotfix.6-all.jar";
             "hash" = "sha512-lTFSmsMcnf7Lhe34daay+UFR4rhY1Nzktkk21iXkBJofc8sdpKNXIngvAov0xrmeUAFZLH1TZTVAtxxEL4eu4g==";
         };
+        _NyIjgKCB = {
+            "id" = "NyIjgKCB";
+            "file" = "fcitx5-enhancer-0.2.14-all.jar";
+            "hash" = "sha512-vvNIFIYNMWPCO0VKNJe7pX/3gSSA3Mjp0qS3MX11XheXtD/QVDQLc2VqE5UXZhEPQe+VcrHG5psEVB4T06WMRg==";
+        };
     in {
         "SMnKcBTz" = _SMnKcBTz;
         "k8UFtZ7r" = _k8UFtZ7r;
@@ -188,6 +193,7 @@ let
         "lwDDi04d" = _lwDDi04d;
         "vAU0KhpS" = _vAU0KhpS;
         "cbz0LZYb" = _cbz0LZYb;
+        "NyIjgKCB" = _NyIjgKCB;
         "fabric-1.21.1" = _cbz0LZYb;
         "fabric-1.21.3" = _cbz0LZYb;
         "fabric-1.16.5" = _Lu5ReE59;
@@ -213,6 +219,7 @@ let
         "fabric-26.1.1" = _vAU0KhpS;
         "fabric-26.1.2" = _vAU0KhpS;
         "fabric-26.2" = _vAU0KhpS;
+        "fabric-26.3" = _NyIjgKCB;
         "pkg-0.0.1+alpha.1" = _SMnKcBTz;
         "pkg-0.0.2" = _YR2c3h6e;
         "pkg-0.1.0" = _XkdOsrQC;
@@ -243,7 +250,8 @@ let
         "pkg-0.2.5+hotfix.5" = _lwDDi04d;
         "pkg-0.2.13" = _vAU0KhpS;
         "pkg-0.2.5+hotfix.6" = _cbz0LZYb;
-        "default" = _cbz0LZYb;
+        "pkg-0.2.14" = _NyIjgKCB;
+        "default" = _NyIjgKCB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fcitx5-enhancer";

@@ -296,6 +296,16 @@ let
             "file" = "BetterAnimationsCollection-v26.2.0-mc26.2.x-NeoForge.jar";
             "hash" = "sha512-OfvuTE8tUDoFWq8YHWCDdnaOnovqF16WxeEUHdUSGaivzhBorbKY2EhVJSbYlH9iAE+1Gr3n2OOkfIofMDWmJQ==";
         };
+        _E801ZfV3 = {
+            "id" = "E801ZfV3";
+            "file" = "betteranimationscollection-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-o68B0WGbsNw2A4+RGANShdX32VKdBfDOOGu79ULAj3GeiYaLJiA2O1Rmzf422KLewQrHyoQqZ8AtdzrHwJVsTA==";
+        };
+        _8lTxJ3mR = {
+            "id" = "8lTxJ3mR";
+            "file" = "betteranimationscollection-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-8ZYBk8Jx9oEH+HUznYVKC443mT140kcJbF9JXFYjhpAuMytYrpEdP0li2S3E15Vn6q6DtaMKi5tlvKKeHj8k6g==";
+        };
     in {
         "eD22DTTC" = _eD22DTTC;
         "LCZWEmKu" = _LCZWEmKu;
@@ -356,6 +366,8 @@ let
         "OP9prFVJ" = _OP9prFVJ;
         "8j8HCP0X" = _8j8HCP0X;
         "DzpmIn6r" = _DzpmIn6r;
+        "E801ZfV3" = _E801ZfV3;
+        "8lTxJ3mR" = _8lTxJ3mR;
         "forge-1.19.2" = _Hf33v5Jd;
         "forge-1.19.3" = _4C4VggVc;
         "forge-1.19.4" = _cxuYKRSc;
@@ -385,6 +397,7 @@ let
         "fabric-26.1.1" = _OP9prFVJ;
         "fabric-26.1.2" = _OP9prFVJ;
         "fabric-26.2" = _8j8HCP0X;
+        "fabric-26.3" = _E801ZfV3;
         "neoforge-1.20.4" = _WzdlD1lh;
         "neoforge-1.21" = _TkBeLVd3;
         "neoforge-1.21.1" = _3sJ71XQz;
@@ -401,6 +414,7 @@ let
         "neoforge-26.1.1" = _uaOB5SeH;
         "neoforge-26.1.2" = _uaOB5SeH;
         "neoforge-26.2" = _DzpmIn6r;
+        "neoforge-26.3" = _8lTxJ3mR;
         "pkg-v4.0.0-1.19.2-Forge" = _eD22DTTC;
         "pkg-v4.0.0-1.19.2-Fabric" = _LCZWEmKu;
         "pkg-v4.0.1-1.19.2-Forge" = _xwaxrw7s;
@@ -454,7 +468,8 @@ let
         "pkg-21.11.1" = _WRnnVkPK;
         "pkg-26.1.0" = _OP9prFVJ;
         "pkg-26.2.0" = _DzpmIn6r;
-        "default" = _DzpmIn6r;
+        "pkg-26.3.0" = _8lTxJ3mR;
+        "default" = _8lTxJ3mR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-animations-collection";

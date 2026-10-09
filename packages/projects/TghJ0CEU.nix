@@ -751,6 +751,21 @@ let
             "file" = "Better_Animations.zip";
             "hash" = "sha512-WBAS5wMO0D+hOrLDgmG2VXyIYFcWozKZPhZIyA96WPA7L02Okifm8TLy0mjnimiwgsCM6aWyodcgT9R8CE1g+w==";
         };
+        _lR0Ul94E = {
+            "id" = "lR0Ul94E";
+            "file" = "Better_Animations.zip";
+            "hash" = "sha512-LKMHxdMJjALz2knuGcjCErhMHJK4YWyFtx5ZUmHttjd2war05Hc1trQO+Fs/QIjm65/Ob8o+d+QAa6fRt+EXtA==";
+        };
+        _iGuhRGT0 = {
+            "id" = "iGuhRGT0";
+            "file" = "Better_Animations.zip";
+            "hash" = "sha512-jPlMRXjBhLduCi/7dTxXD+CvCKielM66ilwca6EtRu6gTJ+uOHsgj7Az3YXrdnpewSAGjHQi/zC2rZiuzxuSvg==";
+        };
+        _8Ygkvqa5 = {
+            "id" = "8Ygkvqa5";
+            "file" = "Better_Animations.zip";
+            "hash" = "sha512-3eybFgw8AlfSl/QcgenYjOXpbAatdLAVudN71eeUxML7xIqMPzRx5Wb3IhDk+rv2Iq5xyrAmB337SdIKejv3Ug==";
+        };
     in {
         "391E0lWi" = _391E0lWi;
         "XJ3WvU86" = _XJ3WvU86;
@@ -902,6 +917,9 @@ let
         "au87omo3" = _au87omo3;
         "jdlJVEyN" = _jdlJVEyN;
         "nHJlWYAa" = _nHJlWYAa;
+        "lR0Ul94E" = _lR0Ul94E;
+        "iGuhRGT0" = _iGuhRGT0;
+        "8Ygkvqa5" = _8Ygkvqa5;
         "minecraft-1.20.4" = _hXMHVzN1;
         "minecraft-1.20.1" = _hXMHVzN1;
         "minecraft-1.16.2" = _jEUmSVcz;
@@ -923,23 +941,24 @@ let
         "minecraft-1.20.6" = _hXMHVzN1;
         "minecraft-1.21" = _au87omo3;
         "minecraft-1.21.1" = _au87omo3;
-        "minecraft-1.21.2" = _nHJlWYAa;
-        "minecraft-1.21.3" = _nHJlWYAa;
-        "minecraft-1.21.4" = _nHJlWYAa;
-        "minecraft-1.21.5" = _nHJlWYAa;
-        "minecraft-1.21.6" = _nHJlWYAa;
-        "minecraft-1.21.7" = _nHJlWYAa;
-        "minecraft-1.21.8" = _nHJlWYAa;
-        "minecraft-1.21.9" = _nHJlWYAa;
-        "minecraft-1.21.10" = _nHJlWYAa;
-        "minecraft-1.21.11" = _nHJlWYAa;
-        "minecraft-24w44a" = _nHJlWYAa;
-        "minecraft-24w45a" = _nHJlWYAa;
-        "minecraft-24w46a" = _nHJlWYAa;
-        "minecraft-26.1" = _nHJlWYAa;
-        "minecraft-26.1.1" = _nHJlWYAa;
-        "minecraft-26.1.2" = _nHJlWYAa;
-        "minecraft-26.2" = _nHJlWYAa;
+        "minecraft-1.21.2" = _8Ygkvqa5;
+        "minecraft-1.21.3" = _8Ygkvqa5;
+        "minecraft-1.21.4" = _8Ygkvqa5;
+        "minecraft-1.21.5" = _8Ygkvqa5;
+        "minecraft-1.21.6" = _8Ygkvqa5;
+        "minecraft-1.21.7" = _8Ygkvqa5;
+        "minecraft-1.21.8" = _8Ygkvqa5;
+        "minecraft-1.21.9" = _8Ygkvqa5;
+        "minecraft-1.21.10" = _8Ygkvqa5;
+        "minecraft-1.21.11" = _8Ygkvqa5;
+        "minecraft-24w44a" = _lR0Ul94E;
+        "minecraft-24w45a" = _lR0Ul94E;
+        "minecraft-24w46a" = _lR0Ul94E;
+        "minecraft-26.1" = _8Ygkvqa5;
+        "minecraft-26.1.1" = _8Ygkvqa5;
+        "minecraft-26.1.2" = _8Ygkvqa5;
+        "minecraft-26.2" = _8Ygkvqa5;
+        "minecraft-26.3" = _8Ygkvqa5;
         "pkg-1.0" = _3LoCOF4n;
         "pkg-1.1" = _mr7SuXDL;
         "pkg-1.2" = _Dy1MMloI;
@@ -1054,7 +1073,10 @@ let
         "pkg-49.0" = _au87omo3;
         "pkg-49.1" = _jdlJVEyN;
         "pkg-49.2" = _nHJlWYAa;
-        "default" = _nHJlWYAa;
+        "pkg-50.0" = _lR0Ul94E;
+        "pkg-51.0" = _iGuhRGT0;
+        "pkg-51.1" = _8Ygkvqa5;
+        "default" = _8Ygkvqa5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-animations";

@@ -41,6 +41,36 @@ let
             "file" = "wskinloader-1.6.1.jar";
             "hash" = "sha512-hDNH8svGDXuBVPvDTCmPcpSf3ppmlO5Gie+MJj1GLsUI0RpLrMjOw0tUauk1GKfJwUSbzMXjUh/+brMaoGAaTQ==";
         };
+        _VCeoxb6P = {
+            "id" = "VCeoxb6P";
+            "file" = "wskinloader-1.6.2.jar";
+            "hash" = "sha512-hMO06R+mt98VaZGcKUqwCk3D94LoISCAt8KTYKFGAVsqA65MAZrcyWSTjPER/ST+/a159Exl88fyKdlQ1sMRVQ==";
+        };
+        _VvZdM2dM = {
+            "id" = "VvZdM2dM";
+            "file" = "wskinloader-1.6.2.jar";
+            "hash" = "sha512-l5wa4xuAZlhiSzTG3mzEvyxzfPqgvEcUwPBV059fMxbYbKtffrrTPTm9aRwkGunSNuvQhCFfm+VwAp0G4NirkQ==";
+        };
+        _bU9JXLSv = {
+            "id" = "bU9JXLSv";
+            "file" = "wskinloader-1.6.2.jar";
+            "hash" = "sha512-zsWTct53/mfuEtojVfGNdPNuNOQQUb8It4zuT+hYCNgKn7D+rn0P5AAHoXUMLMx8z4/ARVUWYFwgQMHPKMObWw==";
+        };
+        _dIwrWXH9 = {
+            "id" = "dIwrWXH9";
+            "file" = "wskinloader-1.6.2.jar";
+            "hash" = "sha512-Wrs3hEI2eKlU30wO7SKiN9Ya3YEZk0oTRY8dZuBrEnMBsIeJzo6ccl54DDUA6kAihKMlS2EWljGjctWQcIGGeg==";
+        };
+        _p9x2r4mT = {
+            "id" = "p9x2r4mT";
+            "file" = "wskinloader-1.6.2.jar";
+            "hash" = "sha512-T29Zxw/wS9C5J/LMm65g3RZdQcfOwDmPJCnPOyfeiI7aSLHEZESnsE1sO0rk0DeonMinYbjKKmg8dS5h+tLh5w==";
+        };
+        _zemvouz4 = {
+            "id" = "zemvouz4";
+            "file" = "wskinloader-1.6.2.jar";
+            "hash" = "sha512-VBPXT9PqTsEuIJ5qbqv44GG8VhhdvuYQI6li98A4k0tZQiwl6hkMeLaCrVY0kH9UZrV0ZLrgTMREKu7XOSZwYQ==";
+        };
     in {
         "XjEgo9NR" = _XjEgo9NR;
         "rUtBNSj9" = _rUtBNSj9;
@@ -50,12 +80,23 @@ let
         "Sri3zCc5" = _Sri3zCc5;
         "ctLBk4r7" = _ctLBk4r7;
         "9ZuCA0SM" = _9ZuCA0SM;
+        "VCeoxb6P" = _VCeoxb6P;
+        "VvZdM2dM" = _VvZdM2dM;
+        "bU9JXLSv" = _bU9JXLSv;
+        "dIwrWXH9" = _dIwrWXH9;
+        "p9x2r4mT" = _p9x2r4mT;
+        "zemvouz4" = _zemvouz4;
         "fabric-26.1" = _Jazg8wuB;
         "fabric-26.1.1" = _Jazg8wuB;
         "fabric-1.21.11" = _rUtBNSj9;
         "fabric-26.1.2" = _Jazg8wuB;
         "fabric-26.2" = _Sri3zCc5;
-        "fabric-26.3" = _9ZuCA0SM;
+        "fabric-26.3" = _VCeoxb6P;
+        "fabric-1.16.5" = _VvZdM2dM;
+        "fabric-1.18.2" = _bU9JXLSv;
+        "fabric-1.19.4" = _dIwrWXH9;
+        "fabric-1.20.1" = _p9x2r4mT;
+        "fabric-1.20.6" = _zemvouz4;
         "pkg-1.1-SNAPSHOT" = _XjEgo9NR;
         "pkg-1.0-SNAPSHOT" = _rUtBNSj9;
         "pkg-1.2-SNAPSHOT" = _jxuJtsuj;
@@ -64,7 +105,8 @@ let
         "pkg-1.5.0" = _Sri3zCc5;
         "pkg-1.6.0" = _ctLBk4r7;
         "pkg-1.6.1" = _9ZuCA0SM;
-        "default" = _9ZuCA0SM;
+        "pkg-1.6.2" = _zemvouz4;
+        "default" = _zemvouz4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wskinloader";

@@ -81,6 +81,16 @@ let
             "file" = "craftable-spawneggs-1.5.jar";
             "hash" = "sha512-CzRJvHgeVUG58qDIxcmX/xfFX3ooiyExtEMBmmSd3Ijt+wQtO1t0yr509wxl1cRrZw1mEmRPK/hqVXS1aJRuMQ==";
         };
+        _wDhApQI8 = {
+            "id" = "wDhApQI8";
+            "file" = "craftablespawneggs26.3v1.5.1.zip";
+            "hash" = "sha512-GktY96wg2oLTBy8pDlLeHRbtuOtvsLnlBkXAFqF8iJHuUIY5qIiRTHKdUTww92/23lsX06H/XVG7tbE9AKHaog==";
+        };
+        _N17eW2fY = {
+            "id" = "N17eW2fY";
+            "file" = "craftable-spawneggs-1.5.1.jar";
+            "hash" = "sha512-0OLzOJoaEh8Xih8ec0U6yCSsG8jV/wpuKtAYRetPF1bK2d9pE6fEj1BN3ym2/vKBkjJuSJMPvGWGBVfrM9EzEg==";
+        };
     in {
         "a29KBm1O" = _a29KBm1O;
         "BH3Ep5im" = _BH3Ep5im;
@@ -98,36 +108,43 @@ let
         "ggyl5rqd" = _ggyl5rqd;
         "xwkT9Bn1" = _xwkT9Bn1;
         "221gfOxk" = _221gfOxk;
+        "wDhApQI8" = _wDhApQI8;
+        "N17eW2fY" = _N17eW2fY;
         "datapack-1.21.9" = _xTGKHZBq;
         "datapack-1.21.10" = _xTGKHZBq;
         "datapack-26.1" = _ggyl5rqd;
         "datapack-26.1.1" = _ggyl5rqd;
         "datapack-26.1.2" = _ggyl5rqd;
         "datapack-26.2" = _xwkT9Bn1;
+        "datapack-26.3" = _wDhApQI8;
         "fabric-1.21.9" = _aatXwjvq;
         "fabric-1.21.10" = _aatXwjvq;
         "fabric-26.1" = _HH8FBH7N;
         "fabric-26.1.1" = _HH8FBH7N;
         "fabric-26.1.2" = _HH8FBH7N;
         "fabric-26.2" = _221gfOxk;
+        "fabric-26.3" = _N17eW2fY;
         "forge-1.21.9" = _aatXwjvq;
         "forge-1.21.10" = _aatXwjvq;
         "forge-26.1" = _HH8FBH7N;
         "forge-26.1.1" = _HH8FBH7N;
         "forge-26.1.2" = _HH8FBH7N;
         "forge-26.2" = _221gfOxk;
+        "forge-26.3" = _N17eW2fY;
         "neoforge-1.21.9" = _aatXwjvq;
         "neoforge-1.21.10" = _aatXwjvq;
         "neoforge-26.1" = _HH8FBH7N;
         "neoforge-26.1.1" = _HH8FBH7N;
         "neoforge-26.1.2" = _HH8FBH7N;
         "neoforge-26.2" = _221gfOxk;
+        "neoforge-26.3" = _N17eW2fY;
         "quilt-1.21.9" = _aatXwjvq;
         "quilt-1.21.10" = _aatXwjvq;
         "quilt-26.1" = _HH8FBH7N;
         "quilt-26.1.1" = _HH8FBH7N;
         "quilt-26.1.2" = _HH8FBH7N;
         "quilt-26.2" = _221gfOxk;
+        "quilt-26.3" = _N17eW2fY;
         "pkg-1.0" = _a29KBm1O;
         "pkg-1.1" = _BH3Ep5im;
         "pkg-1.1+mod" = _a0F2129K;
@@ -144,7 +161,9 @@ let
         "pkg-1.4.1" = _ggyl5rqd;
         "pkg-1.5" = _xwkT9Bn1;
         "pkg-1.5+mod" = _221gfOxk;
-        "default" = _221gfOxk;
+        "pkg-1.5.1" = _wDhApQI8;
+        "pkg-1.5.1+mod" = _N17eW2fY;
+        "default" = _N17eW2fY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "craftable-spawneggs";

@@ -466,6 +466,16 @@ let
             "file" = "OnlyPaxel-26.2-0.1.jar";
             "hash" = "sha512-2N7ugl4CFA3hVyOIMQV2v4LqUTIdslC/aUjFuUncJ9paN34YgST+OhFqf2mng5gNIEHzxNiXS65QezSyIQKeHQ==";
         };
+        _CEAr0lLy = {
+            "id" = "CEAr0lLy";
+            "file" = "OnlyPaxel-26.3-0.1.jar";
+            "hash" = "sha512-UiR7yS8ZLLfeeB7Ri5tsciC9QUAwk2AuKmP9WkQtAwkYW/G3YGO9ELk5v7gMBoYAyG0A/jiR1le2NnZecLXwTw==";
+        };
+        _gT5vAqGF = {
+            "id" = "gT5vAqGF";
+            "file" = "onlypaxel-26.3-0.1.jar";
+            "hash" = "sha512-siob6cMc5rGvzA61O60eI3SfWcS3pX2skORihk/KZBWKcrPD3Uarxi8aS39OIBSyJK+u8jcsEAadMv56/NPWbw==";
+        };
     in {
         "fN90EkTP" = _fN90EkTP;
         "n4yAyIVM" = _n4yAyIVM;
@@ -560,6 +570,8 @@ let
         "UZGF3ZgC" = _UZGF3ZgC;
         "sKqesQ6X" = _sKqesQ6X;
         "eQxhB4gq" = _eQxhB4gq;
+        "CEAr0lLy" = _CEAr0lLy;
+        "gT5vAqGF" = _gT5vAqGF;
         "fabric-1.21.4" = _doAUD5Y3;
         "fabric-1.21.3" = _e5xNPewh;
         "fabric-1.21.1" = _TcpGhDhQ;
@@ -576,6 +588,7 @@ let
         "fabric-26.1.1" = _Sr3wCOvM;
         "fabric-26.1.2" = _JznTKIw5;
         "fabric-26.2" = _eQxhB4gq;
+        "fabric-26.3" = _CEAr0lLy;
         "forge-1.21" = _TnfyNAne;
         "forge-1.21.1" = _4owkgy3l;
         "forge-1.21.3" = _66q1Ckde;
@@ -603,6 +616,7 @@ let
         "neoforge-26.1.1" = _2xBLFraU;
         "neoforge-26.1" = _UZGF3ZgC;
         "neoforge-26.2" = _sKqesQ6X;
+        "neoforge-26.3" = _gT5vAqGF;
         "pkg-1.21.4-0.1" = _xkRGkdYE;
         "pkg-1.21.3-0.1" = _UgKit647;
         "pkg-1.21.1-0.1" = _EwpybkB7;
@@ -637,7 +651,8 @@ let
         "pkg-26.1-0.1" = _UZGF3ZgC;
         "pkg-26.1.1-0.1" = _2xBLFraU;
         "pkg-26.2-0.1" = _eQxhB4gq;
-        "default" = _eQxhB4gq;
+        "pkg-26.3-0.1" = _gT5vAqGF;
+        "default" = _gT5vAqGF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "only-paxels";

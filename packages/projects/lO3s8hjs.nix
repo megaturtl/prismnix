@@ -556,6 +556,16 @@ let
             "file" = "BridgingMod-2.7.0+26.2.neoforge-release.jar";
             "hash" = "sha512-QPBP2FWNeEVvlbkr+ySEHbKIirfFweldFU58J7muZWsyoa+dQmpDThUcEXRN5o0/pkJotYP1uKECrPFrUiUUQQ==";
         };
+        _qRuZJe5U = {
+            "id" = "qRuZJe5U";
+            "file" = "BridgingMod-2.7.0+26.3.fabric-release.jar";
+            "hash" = "sha512-qCQbXfFAL3RH5DplqZiA/3UXC6aDRTxACh4oiP9kdHRkWj7K3MgjwWrKKwCQBqtMxsfvUpniRAjdz1ULIyHe1w==";
+        };
+        _OFgF7aTl = {
+            "id" = "OFgF7aTl";
+            "file" = "BridgingMod-2.7.0+26.3.neoforge-release.jar";
+            "hash" = "sha512-9IbgqJHFzVvAysnqP/c2DXW0+BU5t9sCps1yxbVo/kxOZnkXlCbltWBLnq/KEJ1fIXS6dDUML9ws8QqQHRopxA==";
+        };
     in {
         "3elVGL7A" = _3elVGL7A;
         "coZVHAXq" = _coZVHAXq;
@@ -668,6 +678,8 @@ let
         "Zzz43Bx7" = _Zzz43Bx7;
         "biRCFte5" = _biRCFte5;
         "BmCtZyC4" = _BmCtZyC4;
+        "qRuZJe5U" = _qRuZJe5U;
+        "OFgF7aTl" = _OFgF7aTl;
         "fabric-1.17" = _3elVGL7A;
         "fabric-1.17.1" = _3elVGL7A;
         "fabric-1.18" = _coZVHAXq;
@@ -702,6 +714,7 @@ let
         "fabric-26.1.1" = _NvkT6Vw4;
         "fabric-26.1.2" = _NvkT6Vw4;
         "fabric-26.2" = _biRCFte5;
+        "fabric-26.3" = _qRuZJe5U;
         "quilt-1.19.2" = _zcozWtd3;
         "quilt-1.19.3" = _h3JqGSSb;
         "quilt-1.19.4" = _8DeNh2sh;
@@ -730,6 +743,7 @@ let
         "quilt-26.1.1" = _NvkT6Vw4;
         "quilt-26.1.2" = _NvkT6Vw4;
         "quilt-26.2" = _biRCFte5;
+        "quilt-26.3" = _qRuZJe5U;
         "forge-1.19.2" = _PJkOhs2H;
         "forge-1.19.4" = _xfHJfpl6;
         "forge-1.20" = _gzg9vbI3;
@@ -763,6 +777,7 @@ let
         "neoforge-26.1.1" = _Zzz43Bx7;
         "neoforge-26.1.2" = _Zzz43Bx7;
         "neoforge-26.2" = _BmCtZyC4;
+        "neoforge-26.3" = _OFgF7aTl;
         "pkg-1.0.0" = _coZVHAXq;
         "pkg-1.1.0" = _YqOppkSg;
         "pkg-1.2.0" = _h3JqGSSb;
@@ -869,7 +884,9 @@ let
         "pkg-2.6.6+26.1.neoforge" = _Zzz43Bx7;
         "pkg-2.7.0+26.2.fabric" = _biRCFte5;
         "pkg-2.7.0+26.2.neoforge" = _BmCtZyC4;
-        "default" = _BmCtZyC4;
+        "pkg-2.7.0+26.3.fabric" = _qRuZJe5U;
+        "pkg-2.7.0+26.3.neoforge" = _OFgF7aTl;
+        "default" = _OFgF7aTl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bridging-mod";

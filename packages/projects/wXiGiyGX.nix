@@ -181,6 +181,16 @@ let
             "file" = "Amplified_Nether_26.2_v1.2.16.jar";
             "hash" = "sha512-HXePDfEKl7ln3qIlt+MOJpmjzZBoL8wQNes4bGYgpoIQSsiKW8JOqHthuosAmKgkAIoqjE89O0L4CWZvWI+WeQ==";
         };
+        _IYaFP7y8 = {
+            "id" = "IYaFP7y8";
+            "file" = "Amplified_Nether_26.3_v1.3.0+26.3.jar";
+            "hash" = "sha512-C1ph+1JEla1jpkqqcUTvdJF1Buyf8ogdnTvt9LqxUzXyWVNuT81EhFhgpoQPk6uw5pkkNhnnrPE7+FKOSdGJFA==";
+        };
+        _sKKMLxcI = {
+            "id" = "sKKMLxcI";
+            "file" = "Amplified_Nether_v1.3.0+26.3.zip";
+            "hash" = "sha512-jQicSkHfeXwhmIzaCsh0DjXbgtV/P6GpR26keBdkjWOOYQUL8qu1HTlND6ApkrSDLQx4MqwsqZ0Ptz6/cB0Gjg==";
+        };
     in {
         "FBqJR2QM" = _FBqJR2QM;
         "sB14azEN" = _sB14azEN;
@@ -218,6 +228,8 @@ let
         "ctnhVAao" = _ctnhVAao;
         "xIayvf8F" = _xIayvf8F;
         "agiByWs3" = _agiByWs3;
+        "IYaFP7y8" = _IYaFP7y8;
+        "sKKMLxcI" = _sKKMLxcI;
         "fabric-1.19.2" = _sB14azEN;
         "fabric-1.19.3" = _sB14azEN;
         "fabric-1.19" = _sB14azEN;
@@ -247,6 +259,7 @@ let
         "fabric-26.1.1" = _agiByWs3;
         "fabric-26.1.2" = _agiByWs3;
         "fabric-26.2" = _agiByWs3;
+        "fabric-26.3" = _IYaFP7y8;
         "forge-1.19.2" = _sB14azEN;
         "forge-1.19.3" = _sB14azEN;
         "forge-1.19" = _sB14azEN;
@@ -276,6 +289,7 @@ let
         "forge-26.1.1" = _agiByWs3;
         "forge-26.1.2" = _agiByWs3;
         "forge-26.2" = _agiByWs3;
+        "forge-26.3" = _IYaFP7y8;
         "quilt-1.19.2" = _sB14azEN;
         "quilt-1.19.3" = _sB14azEN;
         "quilt-1.19" = _sB14azEN;
@@ -305,6 +319,7 @@ let
         "quilt-26.1.1" = _agiByWs3;
         "quilt-26.1.2" = _agiByWs3;
         "quilt-26.2" = _agiByWs3;
+        "quilt-26.3" = _IYaFP7y8;
         "neoforge-1.20" = _ctnhVAao;
         "neoforge-1.20.1" = _ctnhVAao;
         "neoforge-1.20.2" = _ctnhVAao;
@@ -328,6 +343,7 @@ let
         "neoforge-26.1.1" = _agiByWs3;
         "neoforge-26.1.2" = _agiByWs3;
         "neoforge-26.2" = _agiByWs3;
+        "neoforge-26.3" = _IYaFP7y8;
         "datapack-1.18.2" = _MOCbVEyb;
         "datapack-1.19" = _FbeBUd1u;
         "datapack-1.19.1" = _FbeBUd1u;
@@ -357,6 +373,7 @@ let
         "datapack-26.1.1" = _xIayvf8F;
         "datapack-26.1.2" = _xIayvf8F;
         "datapack-26.2" = _xIayvf8F;
+        "datapack-26.3" = _sKKMLxcI;
         "pkg-1.2" = _FBqJR2QM;
         "pkg-1.2.1" = _ouEK2wSc;
         "pkg-1.2.1a" = _DwobyjUi;
@@ -377,7 +394,8 @@ let
         "pkg-1.2.14" = _ThtCTy6X;
         "pkg-1.2.15" = _xIayvf8F;
         "pkg-1.2.16" = _agiByWs3;
-        "default" = _agiByWs3;
+        "pkg-1.3.0+26.3" = _sKKMLxcI;
+        "default" = _sKKMLxcI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "amplified-nether";

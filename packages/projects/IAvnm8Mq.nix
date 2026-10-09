@@ -666,6 +666,16 @@ let
             "file" = "villagerinabucket-neoforge-26.3-1.0.0.jar";
             "hash" = "sha512-eCZ2+UsLaAUDvI282w9A4ciMAhonwiohEBn4ogUEWeft8hEaaMYOef/0MMaGBoNLPxfHnDbOi+RYe8wI8BD7rw==";
         };
+        _2NLk28fZ = {
+            "id" = "2NLk28fZ";
+            "file" = "villagerinabucket-forge-26.3-1.0.0.jar";
+            "hash" = "sha512-GzutFJU0jddpgHKURiJ+TEIezqc7d2tcTULDQOLdt5fCbwDeZI4D3hiefWFMl/dNi5waMI5JkquMSkNzzwPzEQ==";
+        };
+        _f3KfjRWd = {
+            "id" = "f3KfjRWd";
+            "file" = "VillagerInABukkit-paper-1.6.2.jar";
+            "hash" = "sha512-jGpsERHQpMYjX8BO8Qx9xf88lWLS6U7PransMolh7PyI3BZ8QOxVKEyhzraKKadcr6dheh7qclKzq9m51dkJ1A==";
+        };
     in {
         "KNwvVTjF" = _KNwvVTjF;
         "TuR6tKJa" = _TuR6tKJa;
@@ -800,6 +810,8 @@ let
         "uvmGCMYA" = _uvmGCMYA;
         "mngShJl1" = _mngShJl1;
         "pwfOH8dS" = _pwfOH8dS;
+        "2NLk28fZ" = _2NLk28fZ;
+        "f3KfjRWd" = _f3KfjRWd;
         "fabric-1.20.1" = _qK6ACRka;
         "fabric-1.20.2" = _nMWS3HQE;
         "fabric-1.20.3" = _nMWS3HQE;
@@ -837,6 +849,7 @@ let
         "forge-1.21.11" = _CTfmRQdw;
         "forge-26.1.2" = _oDSsgyBL;
         "forge-26.2" = _SOaEu7BO;
+        "forge-26.3" = _2NLk28fZ;
         "neoforge-1.20" = _EJXhxfCQ;
         "neoforge-1.20.1" = _EJXhxfCQ;
         "neoforge-1.20.6" = _ubjXiPgz;
@@ -865,7 +878,8 @@ let
         "paper-26.1" = _qW6h0KBq;
         "paper-26.1.1" = _qW6h0KBq;
         "paper-26.1.2" = _QkQDboLB;
-        "paper-26.2" = _QkQDboLB;
+        "paper-26.2" = _f3KfjRWd;
+        "paper-26.3" = _f3KfjRWd;
         "purpur-1.21.4" = _bx0V8E2X;
         "purpur-1.21.5" = _bx0V8E2X;
         "purpur-1.21.6" = _bx0V8E2X;
@@ -877,9 +891,11 @@ let
         "purpur-26.1" = _qW6h0KBq;
         "purpur-26.1.1" = _qW6h0KBq;
         "purpur-26.1.2" = _QkQDboLB;
-        "purpur-26.2" = _QkQDboLB;
+        "purpur-26.2" = _f3KfjRWd;
+        "purpur-26.3" = _f3KfjRWd;
         "folia-26.1.2" = _QkQDboLB;
-        "folia-26.2" = _QkQDboLB;
+        "folia-26.2" = _f3KfjRWd;
+        "folia-26.3" = _f3KfjRWd;
         "pkg-1.20.1-1.0.0" = _TuR6tKJa;
         "pkg-1.20.1-1.0.1" = _v1qTVwJa;
         "pkg-1.20.1-1.0.2" = _hhuRWg0S;
@@ -937,8 +953,9 @@ let
         "pkg-1.21.3-1.2.1" = _esntGQTa;
         "pkg-1.21.5-1.1.0" = _AsQBc6Fu;
         "pkg-1.21.6-1.1.0" = _uvmGCMYA;
-        "pkg-26.3-1.0.0" = _pwfOH8dS;
-        "default" = _pwfOH8dS;
+        "pkg-26.3-1.0.0" = _2NLk28fZ;
+        "pkg-1.6.2" = _f3KfjRWd;
+        "default" = _f3KfjRWd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "villager-in-a-bucket";

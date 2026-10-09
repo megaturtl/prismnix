@@ -56,6 +56,16 @@ let
             "file" = "carrybabyanimals-neoforge-0.3.2+mc26.2.jar";
             "hash" = "sha512-VieCteeVgO4RMmVXO3yqa2iQVXJ/VMyM/g7lqi7Ifs2twIupJLfVWr2FK4DNRnsfbKOysi6ZtBZkKUvzrinO0w==";
         };
+        _KnAg76Fd = {
+            "id" = "KnAg76Fd";
+            "file" = "carrybabyanimals-fabric-0.3.3+mc26.3.jar";
+            "hash" = "sha512-YRg4QLqG6lsEzUnaM8BDRpn+8R4FoWLFoZqP+ulocC4HF/UQW1dJtpKlLn78CdS+AwrJKSVgCvTy4VyFQ4+1Zw==";
+        };
+        _zm5UoQaT = {
+            "id" = "zm5UoQaT";
+            "file" = "carrybabyanimals-neoforge-0.3.3+mc26.3.jar";
+            "hash" = "sha512-/keUYHBzq9bm5XtOhwoWtYgV2IOEU719M33W/AJAzIbA84RHmZY8uj2/HhT7mL7cKfUtu7PK93qTNJ4y7S6Oug==";
+        };
     in {
         "MxDCXmiU" = _MxDCXmiU;
         "SCrOtZYe" = _SCrOtZYe;
@@ -68,10 +78,14 @@ let
         "Uo4tjqv3" = _Uo4tjqv3;
         "7BBRumzT" = _7BBRumzT;
         "zmF3rRz5" = _zmF3rRz5;
+        "KnAg76Fd" = _KnAg76Fd;
+        "zm5UoQaT" = _zm5UoQaT;
         "fabric-26.1.2" = _m6V4jSUS;
         "fabric-26.2" = _7BBRumzT;
+        "fabric-26.3" = _KnAg76Fd;
         "neoforge-26.1.2" = _OGZyk4aZ;
         "neoforge-26.2" = _zmF3rRz5;
+        "neoforge-26.3" = _zm5UoQaT;
         "pkg-0.1.0" = _MxDCXmiU;
         "pkg-0.1.1" = _SCrOtZYe;
         "pkg-0.1.2" = _PL5N7Y9O;
@@ -82,7 +96,8 @@ let
         "pkg-0.3.1-fabric" = _3mf0e1Us;
         "pkg-0.3.1-neoforge" = _Uo4tjqv3;
         "pkg-0.3.2+mc26.2" = _zmF3rRz5;
-        "default" = _zmF3rRz5;
+        "pkg-0.3.3+mc26.3" = _zm5UoQaT;
+        "default" = _zm5UoQaT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "carrybabyanimals";

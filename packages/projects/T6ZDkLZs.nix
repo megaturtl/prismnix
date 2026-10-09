@@ -81,6 +81,26 @@ let
             "file" = "sleep-anytime-you-want-v1.0.4.jar";
             "hash" = "sha512-tMmjYAN80l6fcoRizDE7/eAlweYd1wrb/vY1SjXcs33IuP+MUthAvVIs6X9XXr0iePYiKt/m7K7s3MDRuKjrpQ==";
         };
+        _sOjeYvry = {
+            "id" = "sOjeYvry";
+            "file" = "sleep-anytime-you-want-v1.1.0.zip";
+            "hash" = "sha512-Dn9FpEmaTSRIE+Sb+Zv+MjLolwzeGKnhEMzcEjdSz9YoswOKoMN8EXV9Qet8QatS3rLSf/o90MuJlhBLSQSVsg==";
+        };
+        _tmpIkunw = {
+            "id" = "tmpIkunw";
+            "file" = "sleep-anytime-you-want-v1.1.0.jar";
+            "hash" = "sha512-IHxbwtJJo2AHnXMU4RxIGO43hxFfNXdXZhWRPNyuRizvdr2RBrOFbfPoWBmKPfzi4gYM3sMu0q8wgNrHKeX2Fg==";
+        };
+        _IiJeA4IR = {
+            "id" = "IiJeA4IR";
+            "file" = "sleep-anytime-you-want-v1.1.1.zip";
+            "hash" = "sha512-1NHiw52tMo4vccOspzLvEpcwCEcc+f8kL2rmXRRahrgMsDGGzv8ieO/E6D1bYL722aGYSLFwxrkRwCxvvNIxRQ==";
+        };
+        _UFH04thC = {
+            "id" = "UFH04thC";
+            "file" = "sleep-anytime-you-want-v1.1.1.jar";
+            "hash" = "sha512-B7IZ5dYrjqGtLp4huSGuO4IRJZjpMlhB9v/dbVVTYJeNdE+f4kRSIRpStbp7nuA226hoEYn7HZ6FHvlUFxeKNw==";
+        };
     in {
         "XvLU8W52" = _XvLU8W52;
         "Ils3VxfF" = _Ils3VxfF;
@@ -98,6 +118,10 @@ let
         "Bn0DsFH8" = _Bn0DsFH8;
         "bt6qoqAj" = _bt6qoqAj;
         "FeE8fATU" = _FeE8fATU;
+        "sOjeYvry" = _sOjeYvry;
+        "tmpIkunw" = _tmpIkunw;
+        "IiJeA4IR" = _IiJeA4IR;
+        "UFH04thC" = _UFH04thC;
         "datapack-1.21.11" = _bt6qoqAj;
         "datapack-26.1" = _bt6qoqAj;
         "datapack-1.21.6" = _bt6qoqAj;
@@ -108,6 +132,7 @@ let
         "datapack-26.1.1" = _bt6qoqAj;
         "datapack-26.1.2" = _bt6qoqAj;
         "datapack-26.2" = _bt6qoqAj;
+        "datapack-26.3" = _IiJeA4IR;
         "fabric-1.21.11" = _FeE8fATU;
         "fabric-26.1" = _FeE8fATU;
         "fabric-1.21.6" = _FeE8fATU;
@@ -118,6 +143,7 @@ let
         "fabric-26.1.1" = _FeE8fATU;
         "fabric-26.1.2" = _FeE8fATU;
         "fabric-26.2" = _FeE8fATU;
+        "fabric-26.3" = _UFH04thC;
         "forge-1.21.11" = _FeE8fATU;
         "forge-26.1" = _FeE8fATU;
         "forge-1.21.6" = _FeE8fATU;
@@ -128,6 +154,7 @@ let
         "forge-26.1.1" = _FeE8fATU;
         "forge-26.1.2" = _FeE8fATU;
         "forge-26.2" = _FeE8fATU;
+        "forge-26.3" = _UFH04thC;
         "neoforge-1.21.11" = _FeE8fATU;
         "neoforge-26.1" = _FeE8fATU;
         "neoforge-1.21.6" = _FeE8fATU;
@@ -138,6 +165,7 @@ let
         "neoforge-26.1.1" = _FeE8fATU;
         "neoforge-26.1.2" = _FeE8fATU;
         "neoforge-26.2" = _FeE8fATU;
+        "neoforge-26.3" = _UFH04thC;
         "quilt-1.21.11" = _FeE8fATU;
         "quilt-26.1" = _FeE8fATU;
         "quilt-1.21.6" = _FeE8fATU;
@@ -148,6 +176,7 @@ let
         "quilt-26.1.1" = _FeE8fATU;
         "quilt-26.1.2" = _FeE8fATU;
         "quilt-26.2" = _FeE8fATU;
+        "quilt-26.3" = _UFH04thC;
         "pkg-v1.0.0" = _HSEnq2eS;
         "pkg-v1.0.0+mod" = _GJRTjyu8;
         "pkg-v1.0.1" = _eUKeu2SE;
@@ -160,7 +189,11 @@ let
         "pkg-v1.0.3+mod" = _Bn0DsFH8;
         "pkg-v1.0.4" = _bt6qoqAj;
         "pkg-v1.0.4+mod" = _FeE8fATU;
-        "default" = _FeE8fATU;
+        "pkg-v1.1.0" = _sOjeYvry;
+        "pkg-v1.1.0+mod" = _tmpIkunw;
+        "pkg-v1.1.1" = _IiJeA4IR;
+        "pkg-v1.1.1+mod" = _UFH04thC;
+        "default" = _UFH04thC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sleep-anytime-you-want";

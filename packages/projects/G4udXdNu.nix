@@ -2236,6 +2236,141 @@ let
             "file" = "bedrock-miner-v1.6.1-mc1.21.5.jar";
             "hash" = "sha512-ZKLmpWvZEmyYP+2QvhRZVuR0qOAwWRazk28Ma41zZoxJAEjBFJsBsdnqpGYTH3fAENqhTjGbcq71HuNTB0R07Q==";
         };
+        _80u8yutE = {
+            "id" = "80u8yutE";
+            "file" = "bedrock-miner-v1.6.2-mc1.21.2.jar";
+            "hash" = "sha512-gUxHeEtfzFlHXNIiiyC1FGtUIm16+MifObD/qP8z+dpxbvWAgRDRv0qiL8OTMvAIO/6MsL9TFkXmt+gfE597hw==";
+        };
+        _auyr2hcJ = {
+            "id" = "auyr2hcJ";
+            "file" = "bedrock-miner-v1.6.2-mc1.20.jar";
+            "hash" = "sha512-WdctQ9ijAcRYrFPI1oiifXO83Q99ezwsxaukHwAOJdg44Frf+WhuQvdnvmdMQqYj82WbcCsGsLFgvoipmgtqHA==";
+        };
+        _y2OyobNk = {
+            "id" = "y2OyobNk";
+            "file" = "bedrock-miner-v1.6.2-mc1.20.2.jar";
+            "hash" = "sha512-WZBtYaz1lHPDiK3Yvq/ObylQX8Q2dtAO88ys5AR0i0GXWd0WoSjlr/hD1T6fga0qgua6LCKMz4ZtuVheebzyjg==";
+        };
+        _SPL2p3fJ = {
+            "id" = "SPL2p3fJ";
+            "file" = "bedrock-miner-v1.6.2-mc1.21.8.jar";
+            "hash" = "sha512-5nUqQm6QoAhj5zVtnTKp1bPtlj2Ioa1JaLQ65+Z2sgnGRuVAa56v5nYT1rANXgXs07ZGwp7taG5LKL6zNk0lBg==";
+        };
+        _xeu1AYP3 = {
+            "id" = "xeu1AYP3";
+            "file" = "bedrock-miner-v1.6.2-mc1.20.5.jar";
+            "hash" = "sha512-oJ/M/z2H7q95cEby4yg2KRwVRplu7OFxRektunLrr3Tz2mSngrj/TPOtLC4FPTIKKAYfWFqscFU1QNr4UrCrdA==";
+        };
+        _IM8mHgCz = {
+            "id" = "IM8mHgCz";
+            "file" = "bedrock-miner-v1.6.2-mc26.3.jar";
+            "hash" = "sha512-1dnz+PLiUYzdTcu6nsKGzPcRNo8mPJG5a9LP61uTI+hLb2UB9hxRJILUyD9re7+zc39p6VXn3H1dCY4g4/EpxQ==";
+        };
+        _CpDQgxeG = {
+            "id" = "CpDQgxeG";
+            "file" = "bedrock-miner-v1.6.2-mc1.20.6.jar";
+            "hash" = "sha512-t+GryZF+mhaYq9AIyrrezfaNLEPjpwUeMrQ53T7Hy7ll9vwLMsrud/s7F3FQxQsc4nOA4cooyYYWsP2WB8OFXA==";
+        };
+        _X4DfW9Ln = {
+            "id" = "X4DfW9Ln";
+            "file" = "bedrock-miner-v1.6.2-mc1.20.4.jar";
+            "hash" = "sha512-DAHKO53omvHL2W/E0L/4ppzHi0Wo7WSHVhQV/ME333IcMuZ5U7nYsZveV5SdazrhfDyJMIW18rNxNUX8VSkkgA==";
+        };
+        _dJ130UOE = {
+            "id" = "dJ130UOE";
+            "file" = "bedrock-miner-v1.6.2-mc1.21.4.jar";
+            "hash" = "sha512-j5SjkPevJQSeF7ixbiur3SlkFuWdyiUHjZmumFPrfjnQQ3CwVXLVFG3WUQkkZP/Z/aj/8XCnvyuSdSIBAJ4F3Q==";
+        };
+        _LN5J6mbv = {
+            "id" = "LN5J6mbv";
+            "file" = "bedrock-miner-v1.6.2-mc1.21.6.jar";
+            "hash" = "sha512-ooH2UqlR9/0jRtsjB/UpkoU6XhJtlZd6UFPNI7lKH7/ZhDcJTN8N8B7lr6jpBvG46Ub4rKNC4F0N50xucjd9ew==";
+        };
+        _ytinjzvt = {
+            "id" = "ytinjzvt";
+            "file" = "bedrock-miner-v1.6.2-mc1.20.3.jar";
+            "hash" = "sha512-2x7VOFok/4OJd/xeZOMFwy+9m+ta9z2IePa4a2zwo2rSNAGLKQ9gkD6JV23tTsUm5euZCI97RPl0F4Y98rnJbQ==";
+        };
+        _oUcb1Rmj = {
+            "id" = "oUcb1Rmj";
+            "file" = "bedrock-miner-v1.6.2-mc1.19.2.jar";
+            "hash" = "sha512-K+bzeZvZw4JDh5CQI/t8lZmne+nosgBTGpN4+0q2pmvIl3v2OE24xdpWXDdAK8Q6wkls9W2Ebmid9ff39HmAaQ==";
+        };
+        _2AUquufo = {
+            "id" = "2AUquufo";
+            "file" = "bedrock-miner-v1.6.2-mc1.19.4.jar";
+            "hash" = "sha512-4Fi7mGBdCpwVW4WwdIbAeNpApQRoPD01bo9kuJfFIDFl10c6PifWPnijj0HJ57I2qARZ6HGzJl2+JF6Utg7F8w==";
+        };
+        _iSNlm21S = {
+            "id" = "iSNlm21S";
+            "file" = "bedrock-miner-v1.6.2-mc1.21.7.jar";
+            "hash" = "sha512-AWT0pnlgmIKC6+hsgAFYPIk4CU+8MKlPsegHYCyx07mNipMlCYllfWMH3DZ9cM+KxKmbDwRxpmiOI9NJJZNfuQ==";
+        };
+        _uABcYza7 = {
+            "id" = "uABcYza7";
+            "file" = "bedrock-miner-v1.6.2-mc1.20.1.jar";
+            "hash" = "sha512-33Zg4N0HLAiAhNJppsT1Z1WVwqNpy1OlpOpt8FDElx3zGq5lJLEwZXfxPJ3EjKDzo+JW95XxVTg9tW2o/wWAGg==";
+        };
+        _axt7oI5r = {
+            "id" = "axt7oI5r";
+            "file" = "bedrock-miner-v1.6.2-mc1.21.9.jar";
+            "hash" = "sha512-jZHsR1XT3vZEKdznzCtYtoW8f5VzrzgjJNDkK0W1c+YtCBe+JO+xA9U4tDtDCEDU9+CKLvBy0u6Dts5oHvcV1g==";
+        };
+        _QAwbj4wA = {
+            "id" = "QAwbj4wA";
+            "file" = "bedrock-miner-v1.6.2-mc1.21.10.jar";
+            "hash" = "sha512-TbTQQIBw6L7LxHfpewEhD8Lf8M/YAlGyxsQ1VU1RMS5W9j1Yb3kNwMgIkaiifvSw7TNzCZf3AS1tsvXcABd/xw==";
+        };
+        _c6yWAyvo = {
+            "id" = "c6yWAyvo";
+            "file" = "bedrock-miner-v1.6.2-mc1.21.jar";
+            "hash" = "sha512-4cxZ/7SVSFQJoJHZTL+1iB1u0vJH79HJO88Dft3RKVSOMZqVGPZ4Ougv6duWpIyZTkClgAIBMtjmO6cFtQiRJg==";
+        };
+        _ImcHgNuv = {
+            "id" = "ImcHgNuv";
+            "file" = "bedrock-miner-v1.6.2-mc26.2.jar";
+            "hash" = "sha512-krRXSmo2nuxw5LjYjw6og9JTWitTsV6uvTHtekoQrVUpzzbPXMwKgWvWyEwQzjr+dzbFkgAJSFyzFCkkax0maQ==";
+        };
+        _h2zZnJ18 = {
+            "id" = "h2zZnJ18";
+            "file" = "bedrock-miner-v1.6.2-mc1.21.5.jar";
+            "hash" = "sha512-zym1hG3bYYKVxdCD7Pc+IpEGZ00XbisP+D4XjpYRmq0IdsDcLI5BlPglohpYV5xu3XOCkScWo7/rLZ94NMbdUw==";
+        };
+        _aYJzQbfa = {
+            "id" = "aYJzQbfa";
+            "file" = "bedrock-miner-v1.6.2-mc1.19.1.jar";
+            "hash" = "sha512-krvm2RDj6g6a3BuLpv/JQGrcTSnMhH22IbLdpa6P5hwXrJ62bXBjc2JrjlbbzoMwBKeH4g/duakX1RfVM/1eyg==";
+        };
+        _xTnkohG6 = {
+            "id" = "xTnkohG6";
+            "file" = "bedrock-miner-v1.6.2-mc1.21.1.jar";
+            "hash" = "sha512-bt6uSYykodXZWrl7UMweVYJ8DFgC+iZbigtxr5n6NufZENw3iNlp1n/o2SLorodRJT+2vTVZ7iC1trWe5BVWbw==";
+        };
+        _1LtJzTFS = {
+            "id" = "1LtJzTFS";
+            "file" = "bedrock-miner-v1.6.2-mc26.1.jar";
+            "hash" = "sha512-k+DBTUuyjBoxgP6yLfwODVhI2fJ8FxRX8DfKclJ0WWq6V97yGLtWNxyRNUN16JPm7BGmEgPeI4hs9yK2/gL6AA==";
+        };
+        _yt7slKHv = {
+            "id" = "yt7slKHv";
+            "file" = "bedrock-miner-v1.6.2-mc1.19.3.jar";
+            "hash" = "sha512-Z8/7yDCYjX+UsZ9k4HnfSGO6hka9pSXkK/R/hvO0NohBijqc1UPysTWQ1vst7HvulVJy3TjyzcmWkor7QJUMdw==";
+        };
+        _a7534Nxr = {
+            "id" = "a7534Nxr";
+            "file" = "bedrock-miner-v1.6.2-mc1.21.3.jar";
+            "hash" = "sha512-eOVILc57Illcph5n0ApFvZcVW1nDnfQvic+hIlO3/kLclkxebZdtpNJ1iUe147ADrbG8lswZ79qHZdsFjjvF2Q==";
+        };
+        _ScwprZfJ = {
+            "id" = "ScwprZfJ";
+            "file" = "bedrock-miner-v1.6.2-mc1.19.jar";
+            "hash" = "sha512-VIpNJi8DfBBFOkXNLedJbjCf+pt4F1rdt7JvB5Jl9CBKsnvjtBZ2G+/vkxC/d6088EnHpCfidJiMw4n8aqUDyQ==";
+        };
+        _VOZHl6ok = {
+            "id" = "VOZHl6ok";
+            "file" = "bedrock-miner-v1.6.2-mc1.21.11.jar";
+            "hash" = "sha512-zC4hmaepgljeZeSXwg1dYHcM0AqSWGI2jsebT7IA/H6qcQOVm38SN85UKUUD4Zi3bzOyH3OT3RbxCgJjtjbOBg==";
+        };
     in {
         "UTi5F6Bm" = _UTi5F6Bm;
         "ZmFZHjyw" = _ZmFZHjyw;
@@ -2684,34 +2819,62 @@ let
         "5xZHfryk" = _5xZHfryk;
         "pFPAQLRF" = _pFPAQLRF;
         "ouusjl3O" = _ouusjl3O;
-        "fabric-1.20" = _uwyPfHCL;
-        "fabric-1.20.1" = _DiMRNzoP;
-        "fabric-1.20.2" = _YAJbRX8x;
-        "fabric-1.20.5" = _qUulKrr1;
-        "fabric-1.20.6" = _hinXMfAe;
-        "fabric-1.21" = _Q2lVssdP;
-        "fabric-1.21.1" = _CeUgVvCW;
-        "fabric-1.21.2" = _G3tar26y;
-        "fabric-1.21.3" = _ER3NA06T;
-        "fabric-1.21.4" = _aYjgFgI8;
-        "fabric-1.21.5" = _ouusjl3O;
-        "fabric-1.21.6" = _xdSt2TZA;
-        "fabric-1.21.7" = _KUEDuW3x;
-        "fabric-1.21.8" = _kkyR6ljq;
-        "fabric-1.19.3" = _rLCVDZiS;
-        "fabric-1.19" = _k38rPH2x;
-        "fabric-1.21.9" = _az8dwNsd;
-        "fabric-1.19.4" = _IYE1sMRD;
-        "fabric-1.20.4" = _5xZHfryk;
-        "fabric-1.20.3" = _wpNjiKLj;
-        "fabric-1.19.2" = _V4EjG47Y;
-        "fabric-1.21.10" = _9TV7mZko;
-        "fabric-1.19.1" = _9JTe21EH;
-        "fabric-1.21.11" = _YtQYQfj5;
-        "fabric-26.1" = _xbKUGWVM;
-        "fabric-26.1.1" = _xbKUGWVM;
-        "fabric-26.1.2" = _xbKUGWVM;
-        "fabric-26.2" = _pFPAQLRF;
+        "80u8yutE" = _80u8yutE;
+        "auyr2hcJ" = _auyr2hcJ;
+        "y2OyobNk" = _y2OyobNk;
+        "SPL2p3fJ" = _SPL2p3fJ;
+        "xeu1AYP3" = _xeu1AYP3;
+        "IM8mHgCz" = _IM8mHgCz;
+        "CpDQgxeG" = _CpDQgxeG;
+        "X4DfW9Ln" = _X4DfW9Ln;
+        "dJ130UOE" = _dJ130UOE;
+        "LN5J6mbv" = _LN5J6mbv;
+        "ytinjzvt" = _ytinjzvt;
+        "oUcb1Rmj" = _oUcb1Rmj;
+        "2AUquufo" = _2AUquufo;
+        "iSNlm21S" = _iSNlm21S;
+        "uABcYza7" = _uABcYza7;
+        "axt7oI5r" = _axt7oI5r;
+        "QAwbj4wA" = _QAwbj4wA;
+        "c6yWAyvo" = _c6yWAyvo;
+        "ImcHgNuv" = _ImcHgNuv;
+        "h2zZnJ18" = _h2zZnJ18;
+        "aYJzQbfa" = _aYJzQbfa;
+        "xTnkohG6" = _xTnkohG6;
+        "1LtJzTFS" = _1LtJzTFS;
+        "yt7slKHv" = _yt7slKHv;
+        "a7534Nxr" = _a7534Nxr;
+        "ScwprZfJ" = _ScwprZfJ;
+        "VOZHl6ok" = _VOZHl6ok;
+        "fabric-1.20" = _auyr2hcJ;
+        "fabric-1.20.1" = _uABcYza7;
+        "fabric-1.20.2" = _y2OyobNk;
+        "fabric-1.20.5" = _xeu1AYP3;
+        "fabric-1.20.6" = _CpDQgxeG;
+        "fabric-1.21" = _c6yWAyvo;
+        "fabric-1.21.1" = _xTnkohG6;
+        "fabric-1.21.2" = _80u8yutE;
+        "fabric-1.21.3" = _a7534Nxr;
+        "fabric-1.21.4" = _dJ130UOE;
+        "fabric-1.21.5" = _h2zZnJ18;
+        "fabric-1.21.6" = _LN5J6mbv;
+        "fabric-1.21.7" = _iSNlm21S;
+        "fabric-1.21.8" = _SPL2p3fJ;
+        "fabric-1.19.3" = _yt7slKHv;
+        "fabric-1.19" = _ScwprZfJ;
+        "fabric-1.21.9" = _axt7oI5r;
+        "fabric-1.19.4" = _2AUquufo;
+        "fabric-1.20.4" = _X4DfW9Ln;
+        "fabric-1.20.3" = _ytinjzvt;
+        "fabric-1.19.2" = _oUcb1Rmj;
+        "fabric-1.21.10" = _QAwbj4wA;
+        "fabric-1.19.1" = _aYJzQbfa;
+        "fabric-1.21.11" = _VOZHl6ok;
+        "fabric-26.1" = _1LtJzTFS;
+        "fabric-26.1.1" = _1LtJzTFS;
+        "fabric-26.1.2" = _1LtJzTFS;
+        "fabric-26.2" = _ImcHgNuv;
+        "fabric-26.3" = _IM8mHgCz;
         "pkg-1.20-1.1.6" = _UTi5F6Bm;
         "pkg-1.20.1-1.1.7" = _ZmFZHjyw;
         "pkg-1.20.1-1.1.8" = _1QLHEBcY;
@@ -3142,7 +3305,34 @@ let
         "pkg-v1.6.1-mc1.20.4" = _5xZHfryk;
         "pkg-v1.6.1-mc26.2" = _pFPAQLRF;
         "pkg-v1.6.1-mc1.21.5" = _ouusjl3O;
-        "default" = _ouusjl3O;
+        "pkg-v1.6.2-mc1.21.2" = _80u8yutE;
+        "pkg-v1.6.2-mc1.20" = _auyr2hcJ;
+        "pkg-v1.6.2-mc1.20.2" = _y2OyobNk;
+        "pkg-v1.6.2-mc1.21.8" = _SPL2p3fJ;
+        "pkg-v1.6.2-mc1.20.5" = _xeu1AYP3;
+        "pkg-v1.6.2-mc26.3" = _IM8mHgCz;
+        "pkg-v1.6.2-mc1.20.6" = _CpDQgxeG;
+        "pkg-v1.6.2-mc1.20.4" = _X4DfW9Ln;
+        "pkg-v1.6.2-mc1.21.4" = _dJ130UOE;
+        "pkg-v1.6.2-mc1.21.6" = _LN5J6mbv;
+        "pkg-v1.6.2-mc1.20.3" = _ytinjzvt;
+        "pkg-v1.6.2-mc1.19.2" = _oUcb1Rmj;
+        "pkg-v1.6.2-mc1.19.4" = _2AUquufo;
+        "pkg-v1.6.2-mc1.21.7" = _iSNlm21S;
+        "pkg-v1.6.2-mc1.20.1" = _uABcYza7;
+        "pkg-v1.6.2-mc1.21.9" = _axt7oI5r;
+        "pkg-v1.6.2-mc1.21.10" = _QAwbj4wA;
+        "pkg-v1.6.2-mc1.21" = _c6yWAyvo;
+        "pkg-v1.6.2-mc26.2" = _ImcHgNuv;
+        "pkg-v1.6.2-mc1.21.5" = _h2zZnJ18;
+        "pkg-v1.6.2-mc1.19.1" = _aYJzQbfa;
+        "pkg-v1.6.2-mc1.21.1" = _xTnkohG6;
+        "pkg-v1.6.2-mc26.1" = _1LtJzTFS;
+        "pkg-v1.6.2-mc1.19.3" = _yt7slKHv;
+        "pkg-v1.6.2-mc1.21.3" = _a7534Nxr;
+        "pkg-v1.6.2-mc1.19" = _ScwprZfJ;
+        "pkg-v1.6.2-mc1.21.11" = _VOZHl6ok;
+        "default" = _VOZHl6ok;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "next-fabric-bedrock-miner";

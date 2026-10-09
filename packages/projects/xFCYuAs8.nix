@@ -401,6 +401,11 @@ let
             "file" = "eg_particle_interactions-0.10.3+26.3-fabric.jar";
             "hash" = "sha512-b6VXtVExJ8CVdC7P3ZmW7vzOyMB4BzWBd6HYAu4DaX7lbxL1lvIZmKCgEj/QUlL/w3mMmyttRKmtlIRAgr1geQ==";
         };
+        _i7jOadv4 = {
+            "id" = "i7jOadv4";
+            "file" = "eg_particle_interactions-0.10.4+26.3-fabric.jar";
+            "hash" = "sha512-K8u9MqhyQqS50OHBmoZE51kJf/FASPEdhK2HhVXtXLDTp+Phs59zDQmxPkvAPVRnoXw1oeDY1Gzj67vDVTunEw==";
+        };
     in {
         "37Dtm30W" = _37Dtm30W;
         "8hQzt6lr" = _8hQzt6lr;
@@ -482,6 +487,7 @@ let
         "dxxV3WRa" = _dxxV3WRa;
         "ZcRyDX6w" = _ZcRyDX6w;
         "votDlg8Q" = _votDlg8Q;
+        "i7jOadv4" = _i7jOadv4;
         "neoforge-1.21" = _Js4y2r4d;
         "neoforge-1.21.1" = _Js4y2r4d;
         "neoforge-1.21.2" = _npB6Lsyx;
@@ -516,7 +522,7 @@ let
         "fabric-26.1.1" = _uUlAZ0Od;
         "fabric-26.1.2" = _Iz5iGHbj;
         "fabric-26.2" = _dxxV3WRa;
-        "fabric-26.3" = _votDlg8Q;
+        "fabric-26.3" = _i7jOadv4;
         "quilt-1.21" = _DuNqZkaX;
         "quilt-1.21.1" = _DuNqZkaX;
         "quilt-1.21.2" = _pWyYwTwu;
@@ -574,7 +580,8 @@ let
         "pkg-0.10.2+26.2-fabric" = _dxxV3WRa;
         "pkg-0.10.2+26.2-neoforge" = _ZcRyDX6w;
         "pkg-0.10.3+26.3-fabric" = _votDlg8Q;
-        "default" = _votDlg8Q;
+        "pkg-0.10.4+26.3-fabric" = _i7jOadv4;
+        "default" = _i7jOadv4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "particle-interactions";

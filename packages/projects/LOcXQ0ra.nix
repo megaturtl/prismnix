@@ -131,6 +131,51 @@ let
             "file" = "xercatools-neoforge-1.21.1-1.2.2.jar";
             "hash" = "sha512-VlOX1vX3VhjIIy+ifEvRlHXiLmA+HzfSVS0nfsQFOG5p5ke7PKgqoMWbMOR17ifruFLxgt5FrIi5g9F7K0MIUA==";
         };
+        _krGkixFV = {
+            "id" = "krGkixFV";
+            "file" = "xercatools-1.21.3-1.0.3.jar";
+            "hash" = "sha512-T8p/4h6qtn4O+E/ySMQwKLJwmeqw+fLiWd2IWhhCZxu5jBiH53oeF6RzXaizbPNFfHJHrht/rZsLFkbgC/hRTg==";
+        };
+        _m3MzyMKE = {
+            "id" = "m3MzyMKE";
+            "file" = "xercatools-1.21.4-1.0.3.jar";
+            "hash" = "sha512-1XjyK7mWlowtF+htTp5i38IzCzfST0NJsKyocgE2D2jDILvm3Ds0Oybz4QpbnIOgeSAe5Pegqx1xnNws3tPq2w==";
+        };
+        _v3JfZhkb = {
+            "id" = "v3JfZhkb";
+            "file" = "xercatools-1.21.5-1.0.3.jar";
+            "hash" = "sha512-jgaqDIg5wv6gAh6RyxcDGy0XEiLcA6mr+jSjqRzvdrsTIef343C1OSG+pZEhQY1pe7iDFbS7U7IYwzeBFA3/wg==";
+        };
+        _SxHdIApO = {
+            "id" = "SxHdIApO";
+            "file" = "xercatools-1.21.8-1.0.2.jar";
+            "hash" = "sha512-I56WW8Hxhn8cldQog7QeZS3AcwwtMRB35ax+uQ0NzCaT9DBs6dHgJdS4QUdDpbanux4mO6W9hITlmntRRJl3Ug==";
+        };
+        _XSRYXwnx = {
+            "id" = "XSRYXwnx";
+            "file" = "xercatools-1.21.10-1.1.2.jar";
+            "hash" = "sha512-DXEPCAJu0eh+rFJATcX7O++meD2UFf77V6G7tnf8FgxN8ThP4gIrXwL6ndTzma4XLqaL9NlvsUr7TLIKgMBStA==";
+        };
+        _XRs3tWEi = {
+            "id" = "XRs3tWEi";
+            "file" = "xercatools-1.21.11-1.1.2.jar";
+            "hash" = "sha512-+TlR2i+ehjaQEqpXZWnU566FVUTAWbwwqR0xzApP0dPkgHbxkZ6nGFPD3q6g7EjASSaHRztUPmqt+uZoAJ/CsA==";
+        };
+        _ElNd1Duy = {
+            "id" = "ElNd1Duy";
+            "file" = "xercatools-neoforge-26.1.2-1.0.1.jar";
+            "hash" = "sha512-QOxZlfwPyhs/8nC+p4HLNJc16JQfE29PpBWhYjgq9QYS+dGfOXeenvVSOp+teqUdhco+kZjaQQAPppeOAnlHCw==";
+        };
+        _ZXQDoqr2 = {
+            "id" = "ZXQDoqr2";
+            "file" = "xercatools-26.1.2-1.1.2.jar";
+            "hash" = "sha512-isNUuXjqXeKdb2pRFhXscNAg5TPjX2mXeksW1jr0XLjH1qPbJsqxeqHU9+ZSAfPblCM7PO+8x4Fa3RVW1sC3PA==";
+        };
+        _ENh608Jj = {
+            "id" = "ENh608Jj";
+            "file" = "xercatools-26.2-1.1.2.jar";
+            "hash" = "sha512-jmAVOdu9wCI5tS1c0MCwEJtEI2a+xEF1VhKlVEL+GbibSwONGD9hfqQvVgG2X9CmMX1/luZ3rcBdh91r4LprIg==";
+        };
     in {
         "ZSxa0BFU" = _ZSxa0BFU;
         "ThZ7se4P" = _ThZ7se4P;
@@ -158,16 +203,25 @@ let
         "WkDW1EhL" = _WkDW1EhL;
         "QyVzVwL7" = _QyVzVwL7;
         "FBTp9DyR" = _FBTp9DyR;
+        "krGkixFV" = _krGkixFV;
+        "m3MzyMKE" = _m3MzyMKE;
+        "v3JfZhkb" = _v3JfZhkb;
+        "SxHdIApO" = _SxHdIApO;
+        "XSRYXwnx" = _XSRYXwnx;
+        "XRs3tWEi" = _XRs3tWEi;
+        "ElNd1Duy" = _ElNd1Duy;
+        "ZXQDoqr2" = _ZXQDoqr2;
+        "ENh608Jj" = _ENh608Jj;
         "fabric-1.21.1" = _WkDW1EhL;
-        "fabric-1.21.3" = _bwiqoLf1;
-        "fabric-1.21.4" = _6HFTFekG;
-        "fabric-1.21.5" = _SMJgnG1M;
-        "fabric-1.21.8" = _jObw3Uvb;
-        "fabric-1.21.10" = _kagE3bw1;
-        "fabric-1.21.11" = _9vVgW7JB;
-        "fabric-26.1.2" = _S44J6QbB;
-        "fabric-26.2" = _qfIwk01t;
-        "neoforge-26.1.2" = _QyVzVwL7;
+        "fabric-1.21.3" = _krGkixFV;
+        "fabric-1.21.4" = _m3MzyMKE;
+        "fabric-1.21.5" = _v3JfZhkb;
+        "fabric-1.21.8" = _SxHdIApO;
+        "fabric-1.21.10" = _XSRYXwnx;
+        "fabric-1.21.11" = _XRs3tWEi;
+        "fabric-26.1.2" = _ZXQDoqr2;
+        "fabric-26.2" = _ENh608Jj;
+        "neoforge-26.1.2" = _ElNd1Duy;
         "neoforge-1.21.1" = _FBTp9DyR;
         "pkg-1.21.1-1.2.0" = _ZSxa0BFU;
         "pkg-1.21.3-1.0.0" = _ThZ7se4P;
@@ -194,7 +248,16 @@ let
         "pkg-1.21.3-1.0.2" = _bwiqoLf1;
         "pkg-1.21.1-1.2.2" = _FBTp9DyR;
         "pkg-26.1.2-1.0.0" = _QyVzVwL7;
-        "default" = _FBTp9DyR;
+        "pkg-1.21.3-1.0.3" = _krGkixFV;
+        "pkg-1.21.4-1.0.3" = _m3MzyMKE;
+        "pkg-1.21.5-1.0.3" = _v3JfZhkb;
+        "pkg-1.21.8-1.0.2" = _SxHdIApO;
+        "pkg-1.21.10-1.1.2" = _XSRYXwnx;
+        "pkg-1.21.11-1.1.2" = _XRs3tWEi;
+        "pkg-26.1.2-1.0.1" = _ElNd1Duy;
+        "pkg-26.1.2-1.1.2" = _ZXQDoqr2;
+        "pkg-26.2-1.1.2" = _ENh608Jj;
+        "default" = _ENh608Jj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "xercas-tools";

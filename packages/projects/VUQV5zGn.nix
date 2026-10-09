@@ -96,6 +96,11 @@ let
             "file" = "kiss-a-friend-2.0.1+1.21.jar";
             "hash" = "sha512-d9F6BBJRfjFfoHLzPWr6aPaWvDRmOcwCt9AyXhXM30CMPdfAz2Ybw0IixD1T02w1pHuF+vMqfUy/c/631si9oA==";
         };
+        _csoRBvBZ = {
+            "id" = "csoRBvBZ";
+            "file" = "kiss-a-friend-2.0.1+26.3.jar";
+            "hash" = "sha512-R/WmqFvag2r5V+Q/+I60chLhpK9q+b8tTlitLGsD5nMSMbrJL4t892QraxmBvJHQ5xtBRx9SuNdAMQqi5KfAOg==";
+        };
     in {
         "tAtPbOg1" = _tAtPbOg1;
         "OGdfca8L" = _OGdfca8L;
@@ -116,6 +121,7 @@ let
         "4sEDnNmP" = _4sEDnNmP;
         "hM3Dammk" = _hM3Dammk;
         "IPDKLpnf" = _IPDKLpnf;
+        "csoRBvBZ" = _csoRBvBZ;
         "fabric-1.20.1" = _hM3Dammk;
         "fabric-1.20.2" = _hM3Dammk;
         "fabric-1.20.3" = _hM3Dammk;
@@ -131,6 +137,7 @@ let
         "fabric-26.2" = _M26Ey7qw;
         "fabric-1.20.5" = _hM3Dammk;
         "fabric-1.20.6" = _hM3Dammk;
+        "fabric-26.3" = _csoRBvBZ;
         "pkg-1.0.0+1.20.1" = _tAtPbOg1;
         "pkg-1.0.0+1.21.11" = _OGdfca8L;
         "pkg-1.0.0+1.21" = _xDfUep3x;
@@ -150,7 +157,8 @@ let
         "pkg-2.0.1+1.21.10" = _4sEDnNmP;
         "pkg-2.0.1+1.20.1" = _hM3Dammk;
         "pkg-2.0.1+1.21" = _IPDKLpnf;
-        "default" = _IPDKLpnf;
+        "pkg-2.0.1+26.3" = _csoRBvBZ;
+        "default" = _csoRBvBZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kiss-a-friend";

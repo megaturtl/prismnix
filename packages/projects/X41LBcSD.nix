@@ -101,6 +101,26 @@ let
             "file" = "embeddedcomputer-5.0.0.jar";
             "hash" = "sha512-He/A6mXzij7DCINrCFsliv0iAB0XtJwyrczQyb+Ee/WBMk3OjZuGNH6QrTiJMybAThtlTBcRak2bkKqNvBu2Vg==";
         };
+        _xs1goS8l = {
+            "id" = "xs1goS8l";
+            "file" = "embeddedcomputer-0.6.0.jar";
+            "hash" = "sha512-EIiRnjljOBXFDE5c07mWpUw9tqlqr89iE86Qp3riAS57jREqzVGMJiSIFR1pfbFWLjLUWciephxuzN70Av/lJw==";
+        };
+        _pnshnopK = {
+            "id" = "pnshnopK";
+            "file" = "embeddedcomputer-1.3.0.jar";
+            "hash" = "sha512-U/NbCZBpCHReSN+wL5Jgdj2SXvcUZBjY1m4U5ab7myF1MMIwVBPPyRte+UGdQP2hSeh1MLnPmVCsDtPKAQ0mqA==";
+        };
+        _fpMUwFDQ = {
+            "id" = "fpMUwFDQ";
+            "file" = "embeddedcomputer-5.1.0.jar";
+            "hash" = "sha512-TnoIU50/l+lMhUxFFMrhgzPqnYnrpqJnebeIdJoTlZO0FDvuOY/YFunJA8xBIxNZ0xAid+mDUhR9nbo5YPzb3g==";
+        };
+        _jluF7vaz = {
+            "id" = "jluF7vaz";
+            "file" = "embeddedcomputer-6.0.0.jar";
+            "hash" = "sha512-VyrIeYzKPrCgmYCq10yL/2/AKQuwXtx+a74XJ965YnfV+bLu/1wHGNzlUk9M2Rs1mLDt+ZosFbAfZW+7/OC+uQ==";
+        };
     in {
         "mja2AosW" = _mja2AosW;
         "Vr3X91Ms" = _Vr3X91Ms;
@@ -122,13 +142,18 @@ let
         "EuJxIOy3" = _EuJxIOy3;
         "5R7qGxUA" = _5R7qGxUA;
         "uRFNvAvP" = _uRFNvAvP;
-        "fabric-1.20.1" = _bypmz9TW;
-        "fabric-1.21.1" = _EuJxIOy3;
+        "xs1goS8l" = _xs1goS8l;
+        "pnshnopK" = _pnshnopK;
+        "fpMUwFDQ" = _fpMUwFDQ;
+        "jluF7vaz" = _jluF7vaz;
+        "fabric-1.20.1" = _xs1goS8l;
+        "fabric-1.21.1" = _pnshnopK;
         "fabric-1.21.7" = _HYBPHYSS;
         "fabric-1.21.8" = _HYBPHYSS;
         "fabric-1.21.11" = _t3bBLSmQ;
         "fabric-26.1.2" = _5R7qGxUA;
-        "fabric-26.2" = _uRFNvAvP;
+        "fabric-26.2" = _fpMUwFDQ;
+        "fabric-26.3" = _jluF7vaz;
         "pkg-0.2" = _mja2AosW;
         "pkg-0.2.1" = _Vr3X91Ms;
         "pkg-0.2.2" = _hYJrNyGT;
@@ -149,7 +174,11 @@ let
         "pkg-1.2.2" = _EuJxIOy3;
         "pkg-4.0.0" = _5R7qGxUA;
         "pkg-5.0.0" = _uRFNvAvP;
-        "default" = _uRFNvAvP;
+        "pkg-0.6.0" = _xs1goS8l;
+        "pkg-1.3.0" = _pnshnopK;
+        "pkg-5.1.0" = _fpMUwFDQ;
+        "pkg-6.0.0" = _jluF7vaz;
+        "default" = _jluF7vaz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "embeddedcomputer";

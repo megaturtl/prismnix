@@ -41,6 +41,11 @@ let
             "file" = "panda-tnt-fusion-1.0.0+26.2.jar";
             "hash" = "sha512-hY92rEdv8t5IZOUyyx0W0FhCySgckfWEqA70eHE/pWNBibK7uxRsTf/sw96951Sl2J5VWZc0m981TzCqUpNHrA==";
         };
+        _8gONJ7oR = {
+            "id" = "8gONJ7oR";
+            "file" = "panda-tnt-fusion-1.0.0+26.3.jar";
+            "hash" = "sha512-NjjXUQ8YKinZ1FWVOThJANdSmTZX0PSMMgPBLlfPBo3mSWFTirPDirP3tkOD7Cahpm7/JaXAhYI7902veGt3Rg==";
+        };
     in {
         "w3BLpAD5" = _w3BLpAD5;
         "zlq9aUHT" = _zlq9aUHT;
@@ -50,6 +55,7 @@ let
         "UEQpHdLK" = _UEQpHdLK;
         "2ZZDxl5L" = _2ZZDxl5L;
         "VhfVP1Zo" = _VhfVP1Zo;
+        "8gONJ7oR" = _8gONJ7oR;
         "fabric-1.21.4" = _w3BLpAD5;
         "fabric-1.21.5" = _zlq9aUHT;
         "fabric-1.21.6" = _i0dUuDPr;
@@ -62,6 +68,7 @@ let
         "fabric-26.1.1" = _2ZZDxl5L;
         "fabric-26.1.2" = _2ZZDxl5L;
         "fabric-26.2" = _VhfVP1Zo;
+        "fabric-26.3" = _8gONJ7oR;
         "pkg-1.0.0_1.21.4" = _w3BLpAD5;
         "pkg-1.0.0_1.21.5" = _zlq9aUHT;
         "pkg-1.0.0_1.21.6+1.21.7" = _i0dUuDPr;
@@ -70,7 +77,8 @@ let
         "pkg-1.0.0_1.21.11" = _UEQpHdLK;
         "pkg-1.0.0_26.1.1" = _2ZZDxl5L;
         "pkg-1.0.0+26.2" = _VhfVP1Zo;
-        "default" = _VhfVP1Zo;
+        "pkg-1.0.0+26.3" = _8gONJ7oR;
+        "default" = _8gONJ7oR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pandatntfusion";

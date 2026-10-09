@@ -396,6 +396,16 @@ let
             "file" = "ZombifiedPlayer-1.6.1-Fabric-mc26.2.jar";
             "hash" = "sha512-KUIkYqboink5BKjjH7OrTN+1vYPaFjEBWsfLVqyxSzcaZHPJf12oAiCwHrYsYod7wHYdPKsrS/CABoHuqfvHTA==";
         };
+        _ZReNYIKB = {
+            "id" = "ZReNYIKB";
+            "file" = "ZombifiedPlayer-1.6.1-Fabric-mc26.3.jar";
+            "hash" = "sha512-H7xSa/7IICZakzj888oNJ46246p1tW67ZoOeDfcBdz4xgONjRPwklRH8i3W1ZzwrrKyQNIJlUn0IryMRhooHHg==";
+        };
+        _fBoWmuGj = {
+            "id" = "fBoWmuGj";
+            "file" = "ZombifiedPlayer-1.6.0-NeoForge-mc26.3.jar";
+            "hash" = "sha512-o3fUMQG87og+Fw1McqGqZFx/LSBmcWNhEVKeJTFvjiznypiMSGk4jcjmgufaag8pCyGableBi7iEAyIIpGOQJA==";
+        };
     in {
         "dk55DMgF" = _dk55DMgF;
         "maYQUijY" = _maYQUijY;
@@ -476,6 +486,8 @@ let
         "B7ye63gM" = _B7ye63gM;
         "wIqf7w4I" = _wIqf7w4I;
         "qJuwnjJ7" = _qJuwnjJ7;
+        "ZReNYIKB" = _ZReNYIKB;
+        "fBoWmuGj" = _fBoWmuGj;
         "fabric-1.21" = _pux1cQyj;
         "fabric-1.21.1" = _lRG0prKr;
         "fabric-1.20" = _QsByh6Zz;
@@ -494,6 +506,7 @@ let
         "fabric-26.1.1" = _ehLLHEKo;
         "fabric-26.1.2" = _ehLLHEKo;
         "fabric-26.2" = _qJuwnjJ7;
+        "fabric-26.3" = _ZReNYIKB;
         "forge-1.20.1" = _B7ye63gM;
         "forge-1.19.2" = _zzQH692K;
         "neoforge-1.21" = _wIqf7w4I;
@@ -511,6 +524,7 @@ let
         "neoforge-26.1.1" = _Sd5IBzSM;
         "neoforge-26.1.2" = _Sd5IBzSM;
         "neoforge-26.2" = _Sd5IBzSM;
+        "neoforge-26.3" = _fBoWmuGj;
         "pkg-0.9.0-1.21" = _dk55DMgF;
         "pkg-0.9.1-1.21" = _maYQUijY;
         "pkg-0.9.2-1.21" = _2fPwbTcT;
@@ -590,7 +604,9 @@ let
         "pkg-1.7.0-Forge-mc1.20.1" = _B7ye63gM;
         "pkg-1.7.0-NeoForge-mc1.21" = _wIqf7w4I;
         "pkg-1.6.1-Fabric-mc26.2" = _qJuwnjJ7;
-        "default" = _qJuwnjJ7;
+        "pkg-1.6.1-Fabric-mc26.3" = _ZReNYIKB;
+        "pkg-1.6.0-NeoForge-mc26.3" = _fBoWmuGj;
+        "default" = _fBoWmuGj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zombified-player";

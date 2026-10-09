@@ -76,6 +76,11 @@ let
             "file" = "clientsidenoteblocks-2.13.jar";
             "hash" = "sha512-4VSDArzwS2kesSAp6r1+gcdc0cFtTHFpHuZtPuPV4srDAH6W3rzer2A6/dxWjDTGTMrLmuIV4YEx5lqnswGdjw==";
         };
+        _p13SIeky = {
+            "id" = "p13SIeky";
+            "file" = "clientsidenoteblocks-2.14.jar";
+            "hash" = "sha512-+0v3Iz7SGzj1PIpwz239rG0g1VJJJnpkPYYNOmjK1KBFZ8nm1rBvHUuOzaNiYSE/duk6i6VQHLSvz9LngxQPyQ==";
+        };
     in {
         "dSpijNtG" = _dSpijNtG;
         "JAIaNs9M" = _JAIaNs9M;
@@ -92,6 +97,7 @@ let
         "Q9tKl5L8" = _Q9tKl5L8;
         "ZxHOxpCI" = _ZxHOxpCI;
         "bMd2uoPm" = _bMd2uoPm;
+        "p13SIeky" = _p13SIeky;
         "fabric-1.18-pre5" = _dSpijNtG;
         "fabric-1.18-pre6" = _dSpijNtG;
         "fabric-1.18-pre7" = _dSpijNtG;
@@ -133,6 +139,7 @@ let
         "fabric-1.21.10" = _ZxHOxpCI;
         "fabric-1.21.11" = _ZxHOxpCI;
         "fabric-26.2" = _bMd2uoPm;
+        "fabric-26.3" = _p13SIeky;
         "pkg-2.0" = _btvSQbFP;
         "pkg-2.1" = _NtgOUyLO;
         "pkg-2.2+1.19" = _O38o1PYl;
@@ -146,7 +153,8 @@ let
         "pkg-2.11" = _Q9tKl5L8;
         "pkg-2.12" = _ZxHOxpCI;
         "pkg-2.13" = _bMd2uoPm;
-        "default" = _bMd2uoPm;
+        "pkg-2.14" = _p13SIeky;
+        "default" = _p13SIeky;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "clientsidenoteblocks";

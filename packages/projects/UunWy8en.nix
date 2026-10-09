@@ -81,6 +81,16 @@ let
             "file" = "cobblemon-where-does-it-spawn-neoforge-1.5.0.jar";
             "hash" = "sha512-gRfdE5bLSLnuNgVoWvBfyrlV7+NkFeHrA92o5VvJwHFwo6QAnQ8m484538+eSXZJ9d711PHynSIDWZ4FG5tXJw==";
         };
+        _XYMnnqja = {
+            "id" = "XYMnnqja";
+            "file" = "cobblemon-where-does-it-spawn-neoforge-1.6.0.jar";
+            "hash" = "sha512-FCADjmvrtXG1+OQoD+HVQ9gxoSl0tRoKeZVv4OFyBDdWV5h8kmIc85+xrfdxHipNS2t1COB3u3i0Vai7HbnTGw==";
+        };
+        _sLYdN1b8 = {
+            "id" = "sLYdN1b8";
+            "file" = "cobblemon-where-does-it-spawn-fabric-1.6.0.jar";
+            "hash" = "sha512-+d++0dzaaIyGPiuTV0FiizQAVfW0+YYdidIeE4FJcanp9mUeCuVNyQYUQKPhXwso38YfYyi5+sqRGn/R6MpQ6Q==";
+        };
     in {
         "Qn39AIjt" = _Qn39AIjt;
         "FlVTapb8" = _FlVTapb8;
@@ -98,8 +108,10 @@ let
         "G0MhKm6F" = _G0MhKm6F;
         "AjJNZQDU" = _AjJNZQDU;
         "IFO0HSsU" = _IFO0HSsU;
-        "fabric-1.21.1" = _AjJNZQDU;
-        "neoforge-1.21.1" = _IFO0HSsU;
+        "XYMnnqja" = _XYMnnqja;
+        "sLYdN1b8" = _sLYdN1b8;
+        "fabric-1.21.1" = _sLYdN1b8;
+        "neoforge-1.21.1" = _XYMnnqja;
         "pkg-1.0.0-SNAPSHOT" = _Qn39AIjt;
         "pkg-1.0.1-SNAPSHOT" = _FlVTapb8;
         "pkg-1.1.0-SNAPSHOT" = _Z7R2hgqg;
@@ -113,7 +125,9 @@ let
         "pkg-1.4.0-neoforge" = _G0MhKm6F;
         "pkg-1.5.0-fabric" = _AjJNZQDU;
         "pkg-1.5.0-neoforge" = _IFO0HSsU;
-        "default" = _IFO0HSsU;
+        "pkg-1.6.0-neofroge" = _XYMnnqja;
+        "pkg-1.6.0-fabric" = _sLYdN1b8;
+        "default" = _sLYdN1b8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-where-does-it-spawn";

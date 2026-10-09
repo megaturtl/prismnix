@@ -146,6 +146,56 @@ let
             "file" = "Tasty Vanilla-26.1.2-2.1.2.jar";
             "hash" = "sha512-BmSn+XHKMM8sYt6psrPnlnfP4mC9JeQd6RNBt6rRGlwYvR2I9GLp4BU+N2vScLulAwPt0i5NPrUhiG+4A374Pg==";
         };
+        _7RqDdtLc = {
+            "id" = "7RqDdtLc";
+            "file" = "Tasty Vanilla-2.2-26.1.jar";
+            "hash" = "sha512-tJ5FAt5X/iJkOOfHc39VHhnDOrMllRi4YaUFXNuicVaHvDH1Xsp/LvyNNvp+HuGPh1FCN0Mrk/Y0RWhsehex0g==";
+        };
+        _210qrZK9 = {
+            "id" = "210qrZK9";
+            "file" = "Tasty Vanilla-2.2-26.1.1.jar";
+            "hash" = "sha512-5JTzPPWOidsPwGYaNQK99IfB7IzVvfSMcroe66m7yq10Dxo1/NR5NOa/QEsd0ggQkUqchjxt32Cpz7itPjoVzg==";
+        };
+        _kNX5MHF4 = {
+            "id" = "kNX5MHF4";
+            "file" = "Tasty Vanilla-2.2-26.1.2.jar";
+            "hash" = "sha512-+Yee1mxggrpGrazKb5e5e9Xwsk/tEq1lO9CkYzE6Dij5txcqDrxaMtuALcq3QfIk0D5/fNaXkx1/RnpAz7v/4w==";
+        };
+        _CPk3ovkZ = {
+            "id" = "CPk3ovkZ";
+            "file" = "Tasty Vanilla-2.2-26.2.jar";
+            "hash" = "sha512-Ze4CuwqnucIrj6mw2hbA4H9GXhaazBjHgSCZqfG6PpudSvO2VIfL2iwp+p7CGZRy4HPUIgPA+33GX0+dWPE4Uw==";
+        };
+        _kgBf93vg = {
+            "id" = "kgBf93vg";
+            "file" = "Tasty Vanilla-2.2-26.3.jar";
+            "hash" = "sha512-Pct+6byXrOMZjyw+8/WVplgILnBVcjqnQasCj1EszmFVGSI8VMbDjj1h0Rpet6Faxyjc6+rxrxoZWUt+nHizeg==";
+        };
+        _4gRYnOWu = {
+            "id" = "4gRYnOWu";
+            "file" = "tastyvanilla-2.2-1.21.11.jar";
+            "hash" = "sha512-8i4S3u1OHk3PKnDtFCK39TsIUTLsfOSMvpxpnIByZuED5ZZ59o5yDIFRJ/v8lkjT/ohhbODPM4l05Jff2MuoLg==";
+        };
+        _mHk3HxuB = {
+            "id" = "mHk3HxuB";
+            "file" = "Tasty Vanilla-2.2-neoforge-1.21.11.jar";
+            "hash" = "sha512-0ndND+S7lZCJ8vOucRkF7xLlpUhid8gjxxMPbHy2mx/SaRLsxlCFx89HsaTYP+wPo//miTsAzA5ITnBGhLvxhA==";
+        };
+        _uUsNpPIU = {
+            "id" = "uUsNpPIU";
+            "file" = "Tasty Vanilla-2.2-neoforge-26.1.2.jar";
+            "hash" = "sha512-po65uVoZOzNsO0eQ2S4D8DKZtOzu1UECSuKl8bmJ+0k0Dx1pw+JhvCwrIH6Nwc+3MjPDJUvYHCbGA1ZJzZ6ADw==";
+        };
+        _MQjUuMeE = {
+            "id" = "MQjUuMeE";
+            "file" = "Tasty Vanilla-2.2-neoforge-26.2.jar";
+            "hash" = "sha512-HlzPQzVu1zbqXYU2QmEWptyqUO6cR82U66jyplJmL2K8L4sW4qBRRypQ7ZOzA2yuKIBd0B4rHkb+JdJd6qTEzw==";
+        };
+        _27j4jCPw = {
+            "id" = "27j4jCPw";
+            "file" = "Tasty Vanilla-2.2-neoforge-26.3.jar";
+            "hash" = "sha512-jdr1MxxBJkWvWHsZfnicQ+uSydXkQU2Kogb8qTUrpKZ28GTMKhHYk8VUAm2kVYBARO5oFb8PGqKHWlv7yglmeQ==";
+        };
     in {
         "CoaZyppY" = _CoaZyppY;
         "I0M7ZZ9O" = _I0M7ZZ9O;
@@ -176,6 +226,16 @@ let
         "VYM4wUTy" = _VYM4wUTy;
         "jRvcxEbp" = _jRvcxEbp;
         "A0hTTLEw" = _A0hTTLEw;
+        "7RqDdtLc" = _7RqDdtLc;
+        "210qrZK9" = _210qrZK9;
+        "kNX5MHF4" = _kNX5MHF4;
+        "CPk3ovkZ" = _CPk3ovkZ;
+        "kgBf93vg" = _kgBf93vg;
+        "4gRYnOWu" = _4gRYnOWu;
+        "mHk3HxuB" = _mHk3HxuB;
+        "uUsNpPIU" = _uUsNpPIU;
+        "MQjUuMeE" = _MQjUuMeE;
+        "27j4jCPw" = _27j4jCPw;
         "fabric-1.21.4" = _ZJW5qAQT;
         "fabric-1.21.5" = _wC5njH1C;
         "fabric-1.21.6" = _t2AOrWZ8;
@@ -183,10 +243,16 @@ let
         "fabric-1.21.8" = _VEv3mHPd;
         "fabric-1.21.9" = _joUvEecH;
         "fabric-1.21.10" = _CV4FI8Ku;
-        "fabric-1.21.11" = _l3zUrXBJ;
-        "fabric-26.1" = _VYM4wUTy;
-        "fabric-26.1.1" = _jRvcxEbp;
-        "fabric-26.1.2" = _A0hTTLEw;
+        "fabric-1.21.11" = _4gRYnOWu;
+        "fabric-26.1" = _7RqDdtLc;
+        "fabric-26.1.1" = _210qrZK9;
+        "fabric-26.1.2" = _kNX5MHF4;
+        "fabric-26.2" = _CPk3ovkZ;
+        "fabric-26.3" = _kgBf93vg;
+        "neoforge-1.21.11" = _mHk3HxuB;
+        "neoforge-26.1.2" = _uUsNpPIU;
+        "neoforge-26.2" = _MQjUuMeE;
+        "neoforge-26.3" = _27j4jCPw;
         "pkg-1.0_1.21.4" = _CoaZyppY;
         "pkg-1.1_1.21.4" = _I0M7ZZ9O;
         "pkg-1.2_1.21.4" = _y1xyKTyG;
@@ -213,7 +279,13 @@ let
         "pkg-2.1.2-26.1" = _VYM4wUTy;
         "pkg-2.1.2-26.1.1" = _jRvcxEbp;
         "pkg-2.1.2-26.1.2" = _A0hTTLEw;
-        "default" = _A0hTTLEw;
+        "pkg-2.2-26.1" = _7RqDdtLc;
+        "pkg-2.2-26.1.1" = _210qrZK9;
+        "pkg-2.2-26.1.2" = _uUsNpPIU;
+        "pkg-2.2-26.2" = _MQjUuMeE;
+        "pkg-2.2-26.3" = _27j4jCPw;
+        "pkg-2.2-1.21.11" = _mHk3HxuB;
+        "default" = _27j4jCPw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tasty-vanilla";

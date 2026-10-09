@@ -56,6 +56,16 @@ let
             "file" = "goetyominus-2.0.0-1.21.1.jar";
             "hash" = "sha512-ivuxHHVFsfFol8nfiAwZl5tEHXBU4s8Kw3hqKAQOOCLbdSZf5bFy27IDU4ckf5eSP6GZPgoBgGCm4fh8KWeawg==";
         };
+        _HuXeVsJe = {
+            "id" = "HuXeVsJe";
+            "file" = "goetyominous-3.0.0-1.20.1.jar";
+            "hash" = "sha512-oBswxM6vCy0qt41hBDGzuhlkRmMmH9LoSmDQ1/QAl/dlgspyG2QvRzuE9hz93GOTgl6S/2i6xTfU0YYQHbih5Q==";
+        };
+        _koasUJT3 = {
+            "id" = "koasUJT3";
+            "file" = "goetyominous-3.0.0.fix-1.20.1.jar";
+            "hash" = "sha512-boGFBHh1g25Lz4C+EHeAgYyrmX3OMhJHG+jluqJLEqIi3aVaQFMwGbumFWm2+qyIw8YB3WdIcCRiWQ08F2JXOw==";
+        };
     in {
         "SaVsIK6O" = _SaVsIK6O;
         "qMZSVDHJ" = _qMZSVDHJ;
@@ -68,7 +78,14 @@ let
         "qbbJQYYV" = _qbbJQYYV;
         "nTozi6hh" = _nTozi6hh;
         "ZyATV56A" = _ZyATV56A;
-        "forge-1.20.1" = _nTozi6hh;
+        "HuXeVsJe" = _HuXeVsJe;
+        "koasUJT3" = _koasUJT3;
+        "forge-1.20.1" = _koasUJT3;
+        "forge-1.20.2" = _koasUJT3;
+        "forge-1.20.3" = _koasUJT3;
+        "forge-1.20.4" = _koasUJT3;
+        "forge-1.20.5" = _koasUJT3;
+        "forge-1.20.6" = _koasUJT3;
         "neoforge-1.21.1" = _ZyATV56A;
         "pkg-1.2.3fix2" = _SaVsIK6O;
         "pkg-1.2.4.2fix" = _qMZSVDHJ;
@@ -81,7 +98,9 @@ let
         "pkg-1.3.0.6" = _qbbJQYYV;
         "pkg-2.0.0-1.20.1" = _nTozi6hh;
         "pkg-2.0.0-1.21.1" = _ZyATV56A;
-        "default" = _ZyATV56A;
+        "pkg-3.0.0-1.20.1" = _HuXeVsJe;
+        "pkg-3.0.0.fix-1.20.1" = _koasUJT3;
+        "default" = _koasUJT3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "goety-ominous";

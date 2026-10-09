@@ -71,6 +71,26 @@ let
             "file" = "leash-fences-v1.1.2.jar";
             "hash" = "sha512-zJutj8xIMal//omnRAQ56N278Lt+9P7+kAJD7Gvd7owIaRmN2NVbksen6KZA3p/YeP0hpwZnI4EcKvSTnESpYw==";
         };
+        _NvDfSyKg = {
+            "id" = "NvDfSyKg";
+            "file" = "leash-fences-v1.2.0.zip";
+            "hash" = "sha512-rgVwmh8EslOb/55TscGgvabbSMUfXP3BzPWE7rxZ5e7MZ3UJSHwNqkYHbzbuW6zlDzTWMeo9y3A/N6sWDY3HxQ==";
+        };
+        _drA5ILNb = {
+            "id" = "drA5ILNb";
+            "file" = "leash-fences-v1.2.0.jar";
+            "hash" = "sha512-WJPYN698QuTjTunU0Dd+6Yis9o0mq8zH2omtMvwgTZuTaWCoA+k7KIoeKeQhfby52EF2iKse3ay0lfZyYTTcfw==";
+        };
+        _EBayZI6C = {
+            "id" = "EBayZI6C";
+            "file" = "leash-fences-v1.2.0.0.zip";
+            "hash" = "sha512-RvRM7+pCQb1tc/pxh0GLRjR4V/vTr06lwj36jkdyGX9FoRf3sifnFh04peoL8RKysI0SIKumnyU3tjbWC7F99w==";
+        };
+        _3Bje8UY5 = {
+            "id" = "3Bje8UY5";
+            "file" = "leash-fences-v1.2.0.0.jar";
+            "hash" = "sha512-7uDtYI1TYg7c+ycAVJTnnXPH72PuQBbz88V+kYal4liTmepRoukxIy2IoZnOXMN1EkJrO6aPykKUxrsV+hVzhw==";
+        };
     in {
         "apJO4uhS" = _apJO4uhS;
         "U7e27dwA" = _U7e27dwA;
@@ -86,6 +106,10 @@ let
         "JM5iKc2V" = _JM5iKc2V;
         "TDvggLZT" = _TDvggLZT;
         "J8iDnp95" = _J8iDnp95;
+        "NvDfSyKg" = _NvDfSyKg;
+        "drA5ILNb" = _drA5ILNb;
+        "EBayZI6C" = _EBayZI6C;
+        "3Bje8UY5" = _3Bje8UY5;
         "datapack-1.21.8" = _TDvggLZT;
         "datapack-1.21.9" = _TDvggLZT;
         "datapack-1.21.10" = _TDvggLZT;
@@ -96,6 +120,7 @@ let
         "datapack-26.1.1" = _TDvggLZT;
         "datapack-26.1.2" = _TDvggLZT;
         "datapack-26.2" = _TDvggLZT;
+        "datapack-26.3" = _EBayZI6C;
         "fabric-1.21.8" = _J8iDnp95;
         "fabric-1.21.9" = _J8iDnp95;
         "fabric-1.21.10" = _J8iDnp95;
@@ -106,6 +131,7 @@ let
         "fabric-26.1.1" = _J8iDnp95;
         "fabric-26.1.2" = _J8iDnp95;
         "fabric-26.2" = _J8iDnp95;
+        "fabric-26.3" = _3Bje8UY5;
         "forge-1.21.8" = _J8iDnp95;
         "forge-1.21.9" = _J8iDnp95;
         "forge-1.21.10" = _J8iDnp95;
@@ -116,6 +142,7 @@ let
         "forge-26.1.1" = _J8iDnp95;
         "forge-26.1.2" = _J8iDnp95;
         "forge-26.2" = _J8iDnp95;
+        "forge-26.3" = _3Bje8UY5;
         "neoforge-1.21.8" = _J8iDnp95;
         "neoforge-1.21.9" = _J8iDnp95;
         "neoforge-1.21.10" = _J8iDnp95;
@@ -126,6 +153,7 @@ let
         "neoforge-26.1.1" = _J8iDnp95;
         "neoforge-26.1.2" = _J8iDnp95;
         "neoforge-26.2" = _J8iDnp95;
+        "neoforge-26.3" = _3Bje8UY5;
         "quilt-1.21.8" = _J8iDnp95;
         "quilt-1.21.9" = _J8iDnp95;
         "quilt-1.21.10" = _J8iDnp95;
@@ -136,6 +164,7 @@ let
         "quilt-26.1.1" = _J8iDnp95;
         "quilt-26.1.2" = _J8iDnp95;
         "quilt-26.2" = _J8iDnp95;
+        "quilt-26.3" = _3Bje8UY5;
         "pkg-v1.0.0" = _N9HA8tMl;
         "pkg-v1.0.0+mod" = _UP2USxEj;
         "pkg-v1.1.0-mc1.21.6+" = _mL5lOFzK;
@@ -146,7 +175,11 @@ let
         "pkg-v1.1.1.1+mod" = _JM5iKc2V;
         "pkg-v1.1.2" = _TDvggLZT;
         "pkg-v1.1.2+mod" = _J8iDnp95;
-        "default" = _J8iDnp95;
+        "pkg-v1.2.0" = _NvDfSyKg;
+        "pkg-v1.2.0+mod" = _drA5ILNb;
+        "pkg-v1.2.0.0" = _EBayZI6C;
+        "pkg-v1.2.0.0+mod" = _3Bje8UY5;
+        "default" = _3Bje8UY5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "leash-fences";

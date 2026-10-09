@@ -401,6 +401,16 @@ let
             "file" = "SlashBladeResharped-2.0.7-1.21.1.jar";
             "hash" = "sha512-zkbPko1kFNYMp7wiQ+BadQpo0TogOSTPbMPO256hCpRraW7kLiSphXnwSGvB82MkyYfyXb0y1+AS4/pskcgboQ==";
         };
+        _zTMJum3Z = {
+            "id" = "zTMJum3Z";
+            "file" = "SlashBladeResharped-2.0.8-1.21.1.jar";
+            "hash" = "sha512-ZZSXDUaM52miU/DJErfTLP7zsyiSpY81nAsSCvPw6/q3KrX6yBI5cfj0qJXjm5wuIgXPWcg46CN3nhCNw6TQAQ==";
+        };
+        _SA6IKdsb = {
+            "id" = "SA6IKdsb";
+            "file" = "SlashBladeResharped-2.1.9-1.21.1.jar";
+            "hash" = "sha512-2Qnv8BLTVpQurYnLesKjOo/VkwQgSMtXs87hF9Y7TG6tPk36aH+DleHI1UKjmzNEe0yVxIqyYi1HKMuPa01eQg==";
+        };
     in {
         "OsF4onGf" = _OsF4onGf;
         "MY1Yqylu" = _MY1Yqylu;
@@ -482,9 +492,11 @@ let
         "M24JqCJM" = _M24JqCJM;
         "cw0UX6eX" = _cw0UX6eX;
         "u02EDgAr" = _u02EDgAr;
+        "zTMJum3Z" = _zTMJum3Z;
+        "SA6IKdsb" = _SA6IKdsb;
         "forge-1.20.1" = _pdMMavGH;
         "neoforge-1.20.1" = _pdMMavGH;
-        "neoforge-1.21.1" = _u02EDgAr;
+        "neoforge-1.21.1" = _SA6IKdsb;
         "pkg-0.1.4" = _OsF4onGf;
         "pkg-0.4.7" = _MY1Yqylu;
         "pkg-0.5.8" = _Ec7BlYGY;
@@ -560,7 +572,9 @@ let
         "pkg-2.0.4-1.21.1" = _M24JqCJM;
         "pkg-2.0.5-1.21.1" = _cw0UX6eX;
         "pkg-2.0.7-1.21.1" = _u02EDgAr;
-        "default" = _u02EDgAr;
+        "pkg-2.0.8-1.21.1" = _zTMJum3Z;
+        "pkg-2.1.9-1.21.1" = _SA6IKdsb;
+        "default" = _SA6IKdsb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "slashblade-resharped";

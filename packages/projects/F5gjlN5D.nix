@@ -36,6 +36,16 @@ let
             "file" = "tacz_sewv-0.1.5a.jar";
             "hash" = "sha512-yoOp+tlfgOmBrj2btwdz+qYAxVG3DbjmemcerLlfcYfXIkw2fzejQJfm+rs5C8NbSrLt5+BAzEnubpv3N7kxiQ==";
         };
+        _XfNXBeI7 = {
+            "id" = "XfNXBeI7";
+            "file" = "tacz_sewv-0.1.6.jar";
+            "hash" = "sha512-4xuyzY2ytfsewbm5LAvEa9Cm1+wVvmcEao3u9ALsbCXKkciEMhBMPiQMbWLrdQ4rs4H2Mq7+YzShsBMPlGfjdQ==";
+        };
+        _JN2ci4V7 = {
+            "id" = "JN2ci4V7";
+            "file" = "tacz_sewv-0.1.6a.jar";
+            "hash" = "sha512-AOgOvoNWZiLKRRW4X/mtjcvso1Iy2Qym+5wWQyym3oLmdOkyDtSb1QcRbYgRdQRR+qLylnEGzlL7vaITQeremw==";
+        };
     in {
         "l0cZumDE" = _l0cZumDE;
         "SvgRAyVy" = _SvgRAyVy;
@@ -44,12 +54,14 @@ let
         "1ssryHal" = _1ssryHal;
         "CXnn9G1t" = _CXnn9G1t;
         "1YKHrVCm" = _1YKHrVCm;
-        "forge-1.20.1" = _1YKHrVCm;
-        "forge-1.20.2" = _1YKHrVCm;
-        "forge-1.20.3" = _1YKHrVCm;
-        "forge-1.20.4" = _1YKHrVCm;
-        "forge-1.20.5" = _1YKHrVCm;
-        "forge-1.20.6" = _1YKHrVCm;
+        "XfNXBeI7" = _XfNXBeI7;
+        "JN2ci4V7" = _JN2ci4V7;
+        "forge-1.20.1" = _JN2ci4V7;
+        "forge-1.20.2" = _JN2ci4V7;
+        "forge-1.20.3" = _JN2ci4V7;
+        "forge-1.20.4" = _JN2ci4V7;
+        "forge-1.20.5" = _JN2ci4V7;
+        "forge-1.20.6" = _JN2ci4V7;
         "pkg-0.0.3" = _l0cZumDE;
         "pkg-0.1.0" = _SvgRAyVy;
         "pkg-0.1.1" = _8Y3BPJal;
@@ -57,7 +69,9 @@ let
         "pkg-0.1.4" = _1ssryHal;
         "pkg-0.1.4a" = _CXnn9G1t;
         "pkg-0.1.5a" = _1YKHrVCm;
-        "default" = _1YKHrVCm;
+        "pkg-0.1.6" = _XfNXBeI7;
+        "pkg-0.1.6a" = _JN2ci4V7;
+        "default" = _JN2ci4V7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tacz-combined-arms";

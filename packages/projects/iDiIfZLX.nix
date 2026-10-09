@@ -3136,6 +3136,11 @@ let
             "file" = "seasonhud-fabric-26.2-2.0.10.jar";
             "hash" = "sha512-Xv032g8voaaDGvZEx+YVj4IPVTEqEFPOLFuKNI+Ph2rPd8oKPsOjlaSPZCFHsnfmxVbflMlR7xOOWwc4TX/8ew==";
         };
+        _BO2JrwfS = {
+            "id" = "BO2JrwfS";
+            "file" = "seasonhud-fabric-26.3-2.0.10.jar";
+            "hash" = "sha512-MrRirVByofE5Yz4vhrC4/zpe5rszEy4CtR8aXAk2a+S0AUVmLlcIbWO8v4oVT6GNPSgPwdDJbuXP1PbgMq76Xg==";
+        };
     in {
         "wmj2dzLV" = _wmj2dzLV;
         "sOqwxAoV" = _sOqwxAoV;
@@ -3764,6 +3769,7 @@ let
         "Nb3re6ER" = _Nb3re6ER;
         "HpY9q5jf" = _HpY9q5jf;
         "zyGn2zMx" = _zyGn2zMx;
+        "BO2JrwfS" = _BO2JrwfS;
         "fabric-1.19.2" = _ezmPd1mS;
         "fabric-1.19.4" = _ezmPd1mS;
         "fabric-1.20" = _hAxCCLfa;
@@ -3792,6 +3798,7 @@ let
         "fabric-26.1.1" = _HpY9q5jf;
         "fabric-26.1.2" = _HpY9q5jf;
         "fabric-26.2" = _zyGn2zMx;
+        "fabric-26.3" = _BO2JrwfS;
         "pkg-1.0.0" = _wmj2dzLV;
         "pkg-1.19.2-1.1.0" = _sOqwxAoV;
         "pkg-1.19.2-1.5.0" = _ROU2Iw1G;
@@ -4414,7 +4421,8 @@ let
         "pkg-1.21.1-2.0.10" = _Nb3re6ER;
         "pkg-26.1.2-2.0.10" = _HpY9q5jf;
         "pkg-26.2-2.0.10" = _zyGn2zMx;
-        "default" = _zyGn2zMx;
+        "pkg-26.3-2.0.10" = _BO2JrwfS;
+        "default" = _BO2JrwfS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "seasonhud-fabric";

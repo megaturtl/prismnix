@@ -46,6 +46,16 @@ let
             "file" = "DeathTotem-paper-1.6.0.jar";
             "hash" = "sha512-LFn5h+1LndY1LMsUwiewKgzoGR9c8cOBXDanIh+n7Uqtlqmvzrr0Pi6/xsUKE0T/5cwoeaSPgT6+y+Hl82jdnA==";
         };
+        _Goe3aXgt = {
+            "id" = "Goe3aXgt";
+            "file" = "DeathTotem-1.7.0.jar";
+            "hash" = "sha512-lIjyMt6Z6YR1cOMc3JMUPiwQZVwIYURJtP4HqodGbSsrA7n5CUaLG2Kb67u4RBg/B4N1sABTMvidt4EyxFDnJg==";
+        };
+        _O2efDtGY = {
+            "id" = "O2efDtGY";
+            "file" = "DeathTotem-paper-1.7.0.jar";
+            "hash" = "sha512-YEs8qVWvXvPKv5IObNBgvlGmtQvi0lKIWuBXsdjnKKfEXI9UJufCO5uImVd2fC4nDUpbLeDhX+SMYF28obhXWw==";
+        };
     in {
         "21LOWYFv" = _21LOWYFv;
         "3A2Q5MTg" = _3A2Q5MTg;
@@ -56,19 +66,24 @@ let
         "IVIGCSk5" = _IVIGCSk5;
         "TR9EMFhJ" = _TR9EMFhJ;
         "qV89hJjW" = _qV89hJjW;
+        "Goe3aXgt" = _Goe3aXgt;
+        "O2efDtGY" = _O2efDtGY;
         "fabric-1.21.11" = _21OuHSFz;
         "fabric-26.1" = _Pa2bNHd2;
         "fabric-26.1.1" = _Pa2bNHd2;
         "fabric-26.1.2" = _Pa2bNHd2;
         "fabric-26.2" = _TR9EMFhJ;
+        "fabric-26.3" = _Goe3aXgt;
         "paper-26.2" = _qV89hJjW;
+        "paper-26.3" = _O2efDtGY;
         "pkg-1.0.0" = _21LOWYFv;
         "pkg-1.2.0" = _3A2Q5MTg;
         "pkg-1.3.0" = _b9Lek7n4;
         "pkg-1.4.0" = _Pa2bNHd2;
         "pkg-1.5.0" = _IVIGCSk5;
         "pkg-1.6.0" = _qV89hJjW;
-        "default" = _qV89hJjW;
+        "pkg-1.7.0" = _O2efDtGY;
+        "default" = _O2efDtGY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "totem-in-barrel";

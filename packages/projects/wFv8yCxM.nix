@@ -46,6 +46,11 @@ let
             "file" = "AdaptiveTooltips-1.4.1+26.2-universal.jar";
             "hash" = "sha512-qGR5zxBZHiqpp2C2yNpSqXgXNBXwfNDVkD/jSG2Tq8tK7RBAgm/LBnXKzv0O0nGeGufgvVi5W5sHY39FGFKXmQ==";
         };
+        _KD5HuKpw = {
+            "id" = "KD5HuKpw";
+            "file" = "AdaptiveTooltips-1.4.2+26.3-universal.jar";
+            "hash" = "sha512-gAhgW7HxR2qNuAa6r41+CDcbk3Ue7gMeGnLE3bDr4vlPUxNLkfhogO+bBv4+WjlpkYZ+YswVYZl6hEXnAty9cA==";
+        };
     in {
         "IeYZcDkB" = _IeYZcDkB;
         "tO4SUCby" = _tO4SUCby;
@@ -56,6 +61,7 @@ let
         "MgbaLEPy" = _MgbaLEPy;
         "oN9bMKGo" = _oN9bMKGo;
         "RHdxeFtz" = _RHdxeFtz;
+        "KD5HuKpw" = _KD5HuKpw;
         "fabric-1.19" = _tO4SUCby;
         "fabric-1.19.1" = _tO4SUCby;
         "fabric-1.19.2" = _tO4SUCby;
@@ -67,6 +73,7 @@ let
         "fabric-26.1.1" = _oN9bMKGo;
         "fabric-26.1.2" = _oN9bMKGo;
         "fabric-26.2" = _RHdxeFtz;
+        "fabric-26.3" = _KD5HuKpw;
         "quilt-1.19" = _tO4SUCby;
         "quilt-1.19.1" = _tO4SUCby;
         "quilt-1.19.2" = _tO4SUCby;
@@ -78,6 +85,7 @@ let
         "neoforge-26.1.1" = _oN9bMKGo;
         "neoforge-26.1.2" = _oN9bMKGo;
         "neoforge-26.2" = _RHdxeFtz;
+        "neoforge-26.3" = _KD5HuKpw;
         "pkg-1.0.0" = _IeYZcDkB;
         "pkg-1.0.1" = _tO4SUCby;
         "pkg-1.1.0" = _XkETuyy7;
@@ -87,7 +95,8 @@ let
         "pkg-1.3.0" = _MgbaLEPy;
         "pkg-1.4.0+26.1.2" = _oN9bMKGo;
         "pkg-1.4.1+26.2" = _RHdxeFtz;
-        "default" = _RHdxeFtz;
+        "pkg-1.4.2+26.3" = _KD5HuKpw;
+        "default" = _KD5HuKpw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "adaptive-tooltips";

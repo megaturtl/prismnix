@@ -91,6 +91,16 @@ let
             "file" = "rotten-flesh-to-leather-1.0.8.jar";
             "hash" = "sha512-srGnGDMUdYHmOEFuW1p5xxbriQDY7K7fZfEotvvzzOxs+vPH+Bzw2XZSqIHKiK0TFm/M2yDn7Lfrky/oT6j+0g==";
         };
+        _HwuYx9Ki = {
+            "id" = "HwuYx9Ki";
+            "file" = "rotten-flesh-to-leather_26.3.zip";
+            "hash" = "sha512-3zlGrSN+la5KC7nW3cWlUecut6y6afT+HEWM6PLj75ovnl/C6e6PJPK2Svr5fziugdTQD+GL+cUi9F66zvcRWQ==";
+        };
+        _pA4KUq0X = {
+            "id" = "pA4KUq0X";
+            "file" = "rotten-flesh-to-leather-26.2-26.3.jar";
+            "hash" = "sha512-Py6fTNuG5DclOVD0+R+Uzc0HVDUvpKARSOTVTJzrazpF2UDrdvw0BVog6jTbranoRNPJGihzO+DGdFXUZUQQMA==";
+        };
     in {
         "HXVEZbRH" = _HXVEZbRH;
         "WFtR7nAp" = _WFtR7nAp;
@@ -110,6 +120,8 @@ let
         "jTYm1e68" = _jTYm1e68;
         "je16uMUu" = _je16uMUu;
         "iX4OvEKu" = _iX4OvEKu;
+        "HwuYx9Ki" = _HwuYx9Ki;
+        "pA4KUq0X" = _pA4KUq0X;
         "datapack-1.19" = _HXVEZbRH;
         "datapack-1.19.1" = _HXVEZbRH;
         "datapack-1.19.2" = _HXVEZbRH;
@@ -137,6 +149,8 @@ let
         "datapack-26.1" = _LBTKSXej;
         "datapack-26.1.1" = _LBTKSXej;
         "datapack-26.1.2" = _LBTKSXej;
+        "datapack-26.2" = _HwuYx9Ki;
+        "datapack-26.3" = _HwuYx9Ki;
         "fabric-1.19" = _WgAIwGAQ;
         "fabric-1.19.1" = _WgAIwGAQ;
         "fabric-1.19.2" = _WgAIwGAQ;
@@ -164,6 +178,8 @@ let
         "fabric-26.1" = _iX4OvEKu;
         "fabric-26.1.1" = _iX4OvEKu;
         "fabric-26.1.2" = _iX4OvEKu;
+        "fabric-26.2" = _pA4KUq0X;
+        "fabric-26.3" = _pA4KUq0X;
         "forge-1.19" = _WgAIwGAQ;
         "forge-1.19.1" = _WgAIwGAQ;
         "forge-1.19.2" = _WgAIwGAQ;
@@ -191,6 +207,8 @@ let
         "forge-26.1" = _iX4OvEKu;
         "forge-26.1.1" = _iX4OvEKu;
         "forge-26.1.2" = _iX4OvEKu;
+        "forge-26.2" = _pA4KUq0X;
+        "forge-26.3" = _pA4KUq0X;
         "neoforge-1.19" = _WgAIwGAQ;
         "neoforge-1.19.1" = _WgAIwGAQ;
         "neoforge-1.19.2" = _WgAIwGAQ;
@@ -218,6 +236,8 @@ let
         "neoforge-26.1" = _iX4OvEKu;
         "neoforge-26.1.1" = _iX4OvEKu;
         "neoforge-26.1.2" = _iX4OvEKu;
+        "neoforge-26.2" = _pA4KUq0X;
+        "neoforge-26.3" = _pA4KUq0X;
         "quilt-1.19" = _WgAIwGAQ;
         "quilt-1.19.1" = _WgAIwGAQ;
         "quilt-1.19.2" = _WgAIwGAQ;
@@ -245,6 +265,8 @@ let
         "quilt-26.1" = _iX4OvEKu;
         "quilt-26.1.1" = _iX4OvEKu;
         "quilt-26.1.2" = _iX4OvEKu;
+        "quilt-26.2" = _pA4KUq0X;
+        "quilt-26.3" = _pA4KUq0X;
         "pkg-1.0.0" = _HXVEZbRH;
         "pkg-1.0.1" = _WFtR7nAp;
         "pkg-1.0.2" = _BKGJVBnd;
@@ -263,7 +285,9 @@ let
         "pkg-1.0.6+mod" = _jTYm1e68;
         "pkg-1.0.7+mod" = _je16uMUu;
         "pkg-1.0.8+mod" = _iX4OvEKu;
-        "default" = _iX4OvEKu;
+        "pkg-26.2-26.3" = _HwuYx9Ki;
+        "pkg-26.2-26.3+mod" = _pA4KUq0X;
+        "default" = _pA4KUq0X;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rotten-flesh-to-leather";

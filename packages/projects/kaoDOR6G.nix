@@ -81,6 +81,21 @@ let
             "file" = "PortableCraftingTable-forge-26.1.2-3.4.0.jar";
             "hash" = "sha512-hqp0dvCm68qCm0k9KsbR5QqCndqTg7MUvbvFPP5czIkXtc8NkWk63RPmxAMW7d1qF4FiJGFZyuI+NKDZ+352cg==";
         };
+        _61II3qCx = {
+            "id" = "61II3qCx";
+            "file" = "PortableCraftingTable-neoforge-26.1.2-3.5.0.jar";
+            "hash" = "sha512-qdfHFaLMn5RSsaVZ8YW7HgAquRFFOTEqAGMFp7O6LTueSKvlA6wyasIAZWzd1WZLcXJhvXNDuevOlXIOoLJRng==";
+        };
+        _KRFUPKEa = {
+            "id" = "KRFUPKEa";
+            "file" = "PortableCraftingTable-forge-26.1.2-3.5.0.jar";
+            "hash" = "sha512-8UimbFaaaor/7GmT2cYCEhj6Y8Z9WWS/cfsBcUhvazHoB322mWDBbfxXWVMtoum95SnOJRVQADeKfzydpduxxw==";
+        };
+        _y0R1Ys7x = {
+            "id" = "y0R1Ys7x";
+            "file" = "PortableCraftingTable-fabric-26.1.2-3.5.0.jar";
+            "hash" = "sha512-emx2ZHBUWaMc3vWcOjILCSj1SmTJfCHr0DdPilATNiN5nvwIDJJ4Q2bGIdmoAvZqlhlj5SkRMBippWDAyFPFPQ==";
+        };
     in {
         "rCRvPs71" = _rCRvPs71;
         "4f7VgMgP" = _4f7VgMgP;
@@ -98,6 +113,9 @@ let
         "GgzlQeRg" = _GgzlQeRg;
         "vrOn0rQB" = _vrOn0rQB;
         "XSjQ6nhf" = _XSjQ6nhf;
+        "61II3qCx" = _61II3qCx;
+        "KRFUPKEa" = _KRFUPKEa;
+        "y0R1Ys7x" = _y0R1Ys7x;
         "forge-1.20.1" = _rCRvPs71;
         "forge-1.20.2" = _4f7VgMgP;
         "forge-1.20.4" = _iNR9wX4L;
@@ -106,14 +124,15 @@ let
         "forge-1.21.9" = _bzKPe7Kp;
         "forge-1.21.10" = _W2j1mEFd;
         "forge-1.21.11" = _44TgqhfV;
-        "forge-26.1.2" = _XSjQ6nhf;
+        "forge-26.1.2" = _KRFUPKEa;
         "neoforge-1.20.1" = _yNQrM6gy;
         "neoforge-1.20.4" = _IIVHZ2A7;
         "neoforge-1.21" = _cIa90oya;
         "neoforge-1.21.1" = _XwpyEErR;
         "neoforge-1.21.8" = _c6lligbh;
         "neoforge-1.21.11" = _GgzlQeRg;
-        "neoforge-26.1.2" = _vrOn0rQB;
+        "neoforge-26.1.2" = _61II3qCx;
+        "fabric-26.1.2" = _y0R1Ys7x;
         "pkg-3.2.2" = _rCRvPs71;
         "pkg-3.2.3" = _4f7VgMgP;
         "pkg-1.0.0" = _yNQrM6gy;
@@ -125,7 +144,8 @@ let
         "pkg-3.3.2" = _GgzlQeRg;
         "pkg-3.3.3" = _44TgqhfV;
         "pkg-3.4.0" = _XSjQ6nhf;
-        "default" = _XSjQ6nhf;
+        "pkg-3.5.0" = _y0R1Ys7x;
+        "default" = _y0R1Ys7x;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "portable-crafting-table";

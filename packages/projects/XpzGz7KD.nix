@@ -2201,6 +2201,36 @@ let
             "file" = "elytratrims-fabric-4.9.0+26.3.jar";
             "hash" = "sha512-BOGzd0OE9U44FGNaMYjYFcW+RCgV1GeusDt1eHFcowKAkH5AlNA/5sKiYi2zbD+/G3400523Ky+3lflz4wL8QQ==";
         };
+        _zLSAwh67 = {
+            "id" = "zLSAwh67";
+            "file" = "elytratrims-neoforge-4.9.1+26.1.2.jar";
+            "hash" = "sha512-TjMQ3Sh2VCCO4xmlazNL7h3W6B9uwcA6F3TtMDJkYr2eBLk1u4xC0ZyWhDlFav2qVZzWOK+4r6N/nzC6Hlabig==";
+        };
+        _yK8AOwnF = {
+            "id" = "yK8AOwnF";
+            "file" = "elytratrims-fabric-4.9.1+26.1.2.jar";
+            "hash" = "sha512-URGdj5owjRS013zfHb01fjgtGTe3BU8wWSTg0gXcZs1LerHWpYgaxwNl8wHA9IFYrPSx9sg38thXjTgZSAh6nw==";
+        };
+        _hOtyJCey = {
+            "id" = "hOtyJCey";
+            "file" = "elytratrims-neoforge-4.9.1+26.2.jar";
+            "hash" = "sha512-jRC+b4VAcNnUl2pzISZh4Vs7myVUBhK6zsbqHFQ90jvYxuKUPCK7NiM2CySwe1CZ2FtBgLnxskbooYMd+uhQxA==";
+        };
+        _fnd2JvcE = {
+            "id" = "fnd2JvcE";
+            "file" = "elytratrims-fabric-4.9.1+26.2.jar";
+            "hash" = "sha512-9yXNNrvSY+qRtbMfDy4FM7s8ugz1guiRxETiG+iYQ2ad9UZopYuMMucVfdWGWxQgePaFJuAQmXE/Z/0IRRanbA==";
+        };
+        _lSFduvPP = {
+            "id" = "lSFduvPP";
+            "file" = "elytratrims-neoforge-4.9.1+26.3.jar";
+            "hash" = "sha512-gpX8FBsjxNTgpt3kQ+wSnCfQ1tm8hqQS2za4XfByxeHHLpMt5UkA2/iZDygWveUT+xawSBRyIE6/3cOo5pgB3A==";
+        };
+        _KiDLWRiF = {
+            "id" = "KiDLWRiF";
+            "file" = "elytratrims-fabric-4.9.1+26.3.jar";
+            "hash" = "sha512-iohfn6+g+qWxGS69EO8urhwLArESlsz5+VLHRHEPSo0/SPT3cWkz4mijMKFz+V7WNNXetAVAErHwG3e8VK5pJQ==";
+        };
     in {
         "7va3yOBQ" = _7va3yOBQ;
         "9TQnMw0W" = _9TQnMw0W;
@@ -2642,6 +2672,12 @@ let
         "6vl1Qyl0" = _6vl1Qyl0;
         "ueVTWdRi" = _ueVTWdRi;
         "zox5ML8k" = _zox5ML8k;
+        "zLSAwh67" = _zLSAwh67;
+        "yK8AOwnF" = _yK8AOwnF;
+        "hOtyJCey" = _hOtyJCey;
+        "fnd2JvcE" = _fnd2JvcE;
+        "lSFduvPP" = _lSFduvPP;
+        "KiDLWRiF" = _KiDLWRiF;
         "fabric-1.19.4" = _dUDEzKit;
         "fabric-23w12a" = _9TQnMw0W;
         "fabric-23w13a" = _9TQnMw0W;
@@ -2671,13 +2707,13 @@ let
         "fabric-1.21.9" = _GuYLHDtX;
         "fabric-1.21.10" = _GuYLHDtX;
         "fabric-1.21.11" = _Nzd1iQCn;
-        "fabric-26.1" = _3xm94UbA;
-        "fabric-26.1.1" = _3xm94UbA;
-        "fabric-26.1.2" = _3xm94UbA;
+        "fabric-26.1" = _yK8AOwnF;
+        "fabric-26.1.1" = _yK8AOwnF;
+        "fabric-26.1.2" = _yK8AOwnF;
         "fabric-26.2-pre-2" = _zfXuuaop;
         "fabric-26.2-pre-3" = _zfXuuaop;
         "fabric-26.2-pre-4" = _zfXuuaop;
-        "fabric-26.2" = _6vl1Qyl0;
+        "fabric-26.2" = _fnd2JvcE;
         "fabric-26.3-snapshot-3" = _Nr402HuQ;
         "fabric-26.3-snapshot-4" = _Nr402HuQ;
         "fabric-26.3-snapshot-5" = _SLm95J8w;
@@ -2686,7 +2722,7 @@ let
         "fabric-26.3-snapshot-8" = _SLm95J8w;
         "fabric-26.3-snapshot-9" = _SLm95J8w;
         "fabric-26.3-snapshot-10" = _SLm95J8w;
-        "fabric-26.3" = _zox5ML8k;
+        "fabric-26.3" = _KiDLWRiF;
         "quilt-1.19.4" = _NHXd6aZk;
         "quilt-23w12a" = _9TQnMw0W;
         "quilt-23w13a" = _9TQnMw0W;
@@ -2721,9 +2757,9 @@ let
         "neoforge-1.21.11" = _u2w6bgX3;
         "neoforge-26.1" = _wgUBgHvL;
         "neoforge-26.1.1" = _wgUBgHvL;
-        "neoforge-26.1.2" = _6eusU1lF;
-        "neoforge-26.2" = _iBLfMta5;
-        "neoforge-26.3" = _ueVTWdRi;
+        "neoforge-26.1.2" = _zLSAwh67;
+        "neoforge-26.2" = _hOtyJCey;
+        "neoforge-26.3" = _lSFduvPP;
         "pkg-1.0.0+1.19.4" = _7va3yOBQ;
         "pkg-1.0.0+1.20" = _9TQnMw0W;
         "pkg-1.1.0+1.19.4" = _JtH7CecY;
@@ -2859,7 +2895,8 @@ let
         "pkg-4.9.0-beta.5" = _s51tXs9F;
         "pkg-4.9.0-beta.6" = _SLm95J8w;
         "pkg-4.9.0" = _zox5ML8k;
-        "default" = _zox5ML8k;
+        "pkg-4.9.1" = _KiDLWRiF;
+        "default" = _KiDLWRiF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elytra-trims";

@@ -41,6 +41,26 @@ let
             "file" = "tree-vein-miner-26.x.jar";
             "hash" = "sha512-iuXMCqyKHtpZod7y4eaNAFbLyeauxjc55gqt4lEhBeTdRu1wzqmsrzwEwVXCdpu9hS664gb36IXXfDeiKMIPJw==";
         };
+        _6U0jtF9j = {
+            "id" = "6U0jtF9j";
+            "file" = "TreeVeinMiner-4.3.0+26.3.zip";
+            "hash" = "sha512-l4YV1ULSRb3W5FbhpilS4T7L17moq3OdXNXzoyxUPUqwLH/6lPwytJL87jzzoUDS3YDPWMplLHegW7xmJnTVFg==";
+        };
+        _yr9WYW0d = {
+            "id" = "yr9WYW0d";
+            "file" = "tree-vein-miner-4.3.0.jar";
+            "hash" = "sha512-bXEYhfg+X8wf1jNbrSjhHwCkvRkz9W9PYCC3JoA/bieTflsfnghTajnIfpw3DFDnCppnp75/3gshyCvlJcnl4w==";
+        };
+        _N0Dcztkm = {
+            "id" = "N0Dcztkm";
+            "file" = "TreeVeinMiner-4.3.2+26.3.zip";
+            "hash" = "sha512-52Sn6h0YtdV0EprNOGT5Kxn2PvOCVoZ8UTyBrhyMsOwDh4B5YSwgDm9xId9Nxmsz97JBiH6yti0GYbb8s2XksQ==";
+        };
+        _dZmWRxVs = {
+            "id" = "dZmWRxVs";
+            "file" = "tree-vein-miner-4.3.2.jar";
+            "hash" = "sha512-BS7KJZ46bstlg5Hh3MjjEsVPp6vxAIO0hPb04hse4fv+9HhcNmthy6RIXBhBRUBLq0IqwvB1mhCFj4wzq8Kpww==";
+        };
     in {
         "Tmrl8RhM" = _Tmrl8RhM;
         "3oCO9lBN" = _3oCO9lBN;
@@ -50,6 +70,10 @@ let
         "g2CP4h49" = _g2CP4h49;
         "U6hDhBLy" = _U6hDhBLy;
         "lb8V6IZc" = _lb8V6IZc;
+        "6U0jtF9j" = _6U0jtF9j;
+        "yr9WYW0d" = _yr9WYW0d;
+        "N0Dcztkm" = _N0Dcztkm;
+        "dZmWRxVs" = _dZmWRxVs;
         "datapack-1.16" = _Tmrl8RhM;
         "datapack-1.16.1" = _Tmrl8RhM;
         "datapack-1.16.2" = _Tmrl8RhM;
@@ -127,6 +151,7 @@ let
         "datapack-26.2-rc-1" = _MHYpMBNS;
         "datapack-26.2-rc-2" = _MHYpMBNS;
         "datapack-26.2" = _MHYpMBNS;
+        "datapack-26.3" = _N0Dcztkm;
         "fabric-1.16" = _ebK66nQB;
         "fabric-1.16.1" = _ebK66nQB;
         "fabric-1.16.2" = _ebK66nQB;
@@ -204,6 +229,7 @@ let
         "fabric-26.2-rc-1" = _lb8V6IZc;
         "fabric-26.2-rc-2" = _lb8V6IZc;
         "fabric-26.2" = _lb8V6IZc;
+        "fabric-26.3" = _dZmWRxVs;
         "forge-1.16" = _ebK66nQB;
         "forge-1.16.1" = _ebK66nQB;
         "forge-1.16.2" = _ebK66nQB;
@@ -281,6 +307,7 @@ let
         "forge-26.2-rc-1" = _lb8V6IZc;
         "forge-26.2-rc-2" = _lb8V6IZc;
         "forge-26.2" = _lb8V6IZc;
+        "forge-26.3" = _dZmWRxVs;
         "neoforge-1.16" = _ebK66nQB;
         "neoforge-1.16.1" = _ebK66nQB;
         "neoforge-1.16.2" = _ebK66nQB;
@@ -358,6 +385,7 @@ let
         "neoforge-26.2-rc-1" = _lb8V6IZc;
         "neoforge-26.2-rc-2" = _lb8V6IZc;
         "neoforge-26.2" = _lb8V6IZc;
+        "neoforge-26.3" = _dZmWRxVs;
         "quilt-1.16" = _ebK66nQB;
         "quilt-1.16.1" = _ebK66nQB;
         "quilt-1.16.2" = _ebK66nQB;
@@ -435,6 +463,7 @@ let
         "quilt-26.2-rc-1" = _lb8V6IZc;
         "quilt-26.2-rc-2" = _lb8V6IZc;
         "quilt-26.2" = _lb8V6IZc;
+        "quilt-26.3" = _dZmWRxVs;
         "pkg-1.16.x" = _Tmrl8RhM;
         "pkg-7.01R" = _3oCO9lBN;
         "pkg-7.01R2" = _xJFnxzu2;
@@ -443,7 +472,11 @@ let
         "pkg-7.01R+mod" = _g2CP4h49;
         "pkg-7.01R2+mod" = _U6hDhBLy;
         "pkg-26.x+mod" = _lb8V6IZc;
-        "default" = _lb8V6IZc;
+        "pkg-4.3.0" = _6U0jtF9j;
+        "pkg-4.3.0+mod" = _yr9WYW0d;
+        "pkg-4.3.2" = _N0Dcztkm;
+        "pkg-4.3.2+mod" = _dZmWRxVs;
+        "default" = _dZmWRxVs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tree-vein-miner";

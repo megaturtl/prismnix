@@ -66,6 +66,51 @@ let
             "file" = "minecart-chain-neoforge-1.0.33.jar";
             "hash" = "sha512-UNHUbcSDc2yWS3ISWIZ3+UVgtu0awAQRmdHXWiEBDzu53KWPFp95qY6ajDPsSzSl6e75Tiidx01t376pMOtujg==";
         };
+        _GNar22uS = {
+            "id" = "GNar22uS";
+            "file" = "minecart-chain-1.0.34.jar";
+            "hash" = "sha512-TKqiRfP0v/KCXZTke2uOjn+9MorhZ8tCafOJbRwGWWqp2osBQ/g4oseL+/COee69z7v7rOJy0S4elZm0Sdyo4w==";
+        };
+        _Bz94Dppi = {
+            "id" = "Bz94Dppi";
+            "file" = "minecart-chain-1.1.0.jar";
+            "hash" = "sha512-sDu/QUhlHd7d8LxDrCf1ABMydZGOG4MBtNJtuXQUko0FuBButxjJf6ZAE6KIDu6TS1ikgFdgg5+kr+jSicMibg==";
+        };
+        _QnldqeG1 = {
+            "id" = "QnldqeG1";
+            "file" = "minecart-chain-1.1.1.jar";
+            "hash" = "sha512-K09o5Q8zol6XWGD5H8In3DbYFgJHSKNhDxO6pGZH/HDkupt7rpPWnAca/HHUzqV4sKKAPwGQpzw+rVGeBdG9YQ==";
+        };
+        _toIyKqbm = {
+            "id" = "toIyKqbm";
+            "file" = "minecart-chain-1.1.2.jar";
+            "hash" = "sha512-+jotUBMUL0f9FNWgpOhmDweNwcv1UZf2XksdW+qeH7p/K+p3c8zOLvNlEFcQBMBsuG/ku0z0A7kTO97G1Ypaxg==";
+        };
+        _P9aEXLm9 = {
+            "id" = "P9aEXLm9";
+            "file" = "minecart-chain-1.1.2+26.2.jar";
+            "hash" = "sha512-5Af6jrEOkouQkpBJrRkcFnuHNErOlCzQX5AorOWS7+AYtqM3zjalVo+VufDJRyEalRtUwr/e97pG0DolVreB4Q==";
+        };
+        _vP4QwokP = {
+            "id" = "vP4QwokP";
+            "file" = "minecart-chain-1.1.2+1.21.11.jar";
+            "hash" = "sha512-qZjjM4ltcV8SqJ9S9winfYN5M9bUF2UtJ94ifd/LUEhQMynX/wEbe7H0lqRC+N5dLtrtdv+TUkbIA5tTozJuPQ==";
+        };
+        _eBcFIMEp = {
+            "id" = "eBcFIMEp";
+            "file" = "minecart-chain-neoforge-1.1.2.jar";
+            "hash" = "sha512-Uq/0hyGy8M8Ch5PiALKffaVhCDCgaKKa1x353L3L5FOa0vXq87geKfdCFZbZJHBBpwh3ON3Wtu96+qHsfYcNMQ==";
+        };
+        _VqiTQ5sY = {
+            "id" = "VqiTQ5sY";
+            "file" = "minecart-chain-neoforge-1.1.2.jar";
+            "hash" = "sha512-I4XsUJ8kgsTJdJKul+iHS0brm45PyCHej1AAEZ5tXEVP64TVpsXq8s+uJFUvRvkgJoQHLu0m3zZ2v0LDc6er3g==";
+        };
+        _bK51uhZZ = {
+            "id" = "bK51uhZZ";
+            "file" = "minecart-chain-1.1.3.jar";
+            "hash" = "sha512-KjfhCd17hY5ih0t6tfzVSF4JulHVxZmKBt7dmxRkRs9KwKkBG0BPBU6raLt+PupLnBk3ZTZk/dQt0AJktaYdjw==";
+        };
     in {
         "lwEy2kdE" = _lwEy2kdE;
         "bZ88HTAS" = _bZ88HTAS;
@@ -80,24 +125,41 @@ let
         "cgWMEKGe" = _cgWMEKGe;
         "ojGS2ORm" = _ojGS2ORm;
         "NPPOZWDv" = _NPPOZWDv;
+        "GNar22uS" = _GNar22uS;
+        "Bz94Dppi" = _Bz94Dppi;
+        "QnldqeG1" = _QnldqeG1;
+        "toIyKqbm" = _toIyKqbm;
+        "P9aEXLm9" = _P9aEXLm9;
+        "vP4QwokP" = _vP4QwokP;
+        "eBcFIMEp" = _eBcFIMEp;
+        "VqiTQ5sY" = _VqiTQ5sY;
+        "bK51uhZZ" = _bK51uhZZ;
         "fabric-26.1.2" = _k6OHTiNH;
-        "fabric-26.2" = _cgWMEKGe;
-        "fabric-1.21.11" = _ojGS2ORm;
+        "fabric-26.2" = _P9aEXLm9;
+        "fabric-1.21.11" = _vP4QwokP;
+        "fabric-26.3" = _bK51uhZZ;
         "neoforge-26.1.2" = _HEhtsBYA;
-        "neoforge-26.2" = _NPPOZWDv;
+        "neoforge-26.2" = _eBcFIMEp;
+        "neoforge-1.21.11" = _VqiTQ5sY;
         "pkg-1.0.0" = _lwEy2kdE;
         "pkg-1.0.1" = _bZ88HTAS;
         "pkg-1.0.2" = _dLK23gIo;
         "pkg-1.0.3" = _OyP57iEA;
         "pkg-1.0.5" = _MFsEzVCg;
         "pkg-1.0.8" = _k6OHTiNH;
-        "pkg-1.1.0" = _HEhtsBYA;
+        "pkg-1.1.0" = _Bz94Dppi;
         "pkg-1.0.12" = _zDzvFPLK;
         "pkg-1.0.18" = _ZTC0Df1r;
         "pkg-1.0.19" = _W65ND9vD;
         "pkg-1.0.33" = _NPPOZWDv;
         "pkg-1.0.33+1.21.11" = _ojGS2ORm;
-        "default" = _NPPOZWDv;
+        "pkg-1.0.34" = _GNar22uS;
+        "pkg-1.1.1" = _QnldqeG1;
+        "pkg-1.1.2" = _VqiTQ5sY;
+        "pkg-1.1.2+26.2" = _P9aEXLm9;
+        "pkg-1.1.2+1.21.11" = _vP4QwokP;
+        "pkg-1.1.3" = _bK51uhZZ;
+        "default" = _bK51uhZZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "minecart-chain";

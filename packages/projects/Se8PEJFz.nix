@@ -121,6 +121,11 @@ let
             "file" = "Villager[2.22][26.2].zip";
             "hash" = "sha512-anSEcPfQV0GF20WCgpd/Prea4Io5prB0rnb9h/F7/o+fHgJo6t9brJs7F+LN8tuUhWkYYbuk9vZ4Cw7Xi34O4A==";
         };
+        _bKaeO0xZ = {
+            "id" = "bKaeO0xZ";
+            "file" = "Villager[2.22][26.3].zip";
+            "hash" = "sha512-3nuFCUpn7RHkqEhe37Ms9otk3Ot+n2qYtqKoHoP+UNG5E6+d26SaJHsSNBQK/mXu9n7WE12PQhuXX0PDzmRQBw==";
+        };
     in {
         "encyEtyV" = _encyEtyV;
         "9Yjk9MiI" = _9Yjk9MiI;
@@ -146,6 +151,7 @@ let
         "72evE8uR" = _72evE8uR;
         "ENpq2a3m" = _ENpq2a3m;
         "sGkD3ANn" = _sGkD3ANn;
+        "bKaeO0xZ" = _bKaeO0xZ;
         "minecraft-1.16" = _encyEtyV;
         "minecraft-1.16.1" = _encyEtyV;
         "minecraft-1.16.2" = _encyEtyV;
@@ -185,12 +191,14 @@ let
         "minecraft-26.1.1" = _ENpq2a3m;
         "minecraft-26.1.2" = _ENpq2a3m;
         "minecraft-26.2" = _sGkD3ANn;
+        "minecraft-26.3" = _bKaeO0xZ;
+        "minecraft-26.4-snapshot-1" = _bKaeO0xZ;
         "pkg-2.0" = _UXm2kBrQ;
         "pkg-2.1" = _6mpJa8Ee;
         "pkg-2.2" = _czUUPihR;
         "pkg-2.21" = _72evE8uR;
-        "pkg-2.22" = _sGkD3ANn;
-        "default" = _sGkD3ANn;
+        "pkg-2.22" = _bKaeO0xZ;
+        "default" = _bKaeO0xZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "villagers-male-and-female";

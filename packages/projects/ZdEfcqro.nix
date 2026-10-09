@@ -521,6 +521,11 @@ let
             "file" = "trickster-2.0.0-beta.55.jar";
             "hash" = "sha512-VcIMux79IwyB0+6ALrCiMqX6hZx1nnu5e/89KotRV09mELELscUX5fmpl5utAwkYbabReHBAmWi3Mxi0t9SA9A==";
         };
+        _t2OQES1M = {
+            "id" = "t2OQES1M";
+            "file" = "trickster-2.0.0-beta.56.jar";
+            "hash" = "sha512-LDUzJvZ5y0feF3aRmXnMbilg5eVdaAFaYiurHwqM4zy5mJ652RQbcOsGvYzG2pkpOSnCNUtdSgpl4MRJRYONZQ==";
+        };
     in {
         "wjNY96vv" = _wjNY96vv;
         "cdx0Z20M" = _cdx0Z20M;
@@ -626,8 +631,9 @@ let
         "IojjsIGb" = _IojjsIGb;
         "aYoyhNU6" = _aYoyhNU6;
         "KpLh3BQz" = _KpLh3BQz;
+        "t2OQES1M" = _t2OQES1M;
         "fabric-1.21" = _1u5hNXXD;
-        "fabric-1.21.1" = _KpLh3BQz;
+        "fabric-1.21.1" = _t2OQES1M;
         "pkg-1.0.0" = _wjNY96vv;
         "pkg-1.0.1" = _cdx0Z20M;
         "pkg-1.0.2" = _LD1wPpOq;
@@ -732,7 +738,8 @@ let
         "pkg-2.0.0-beta.53" = _IojjsIGb;
         "pkg-2.0.0-beta.54" = _aYoyhNU6;
         "pkg-2.0.0-beta.55" = _KpLh3BQz;
-        "default" = _KpLh3BQz;
+        "pkg-2.0.0-beta.56" = _t2OQES1M;
+        "default" = _t2OQES1M;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trickster";

@@ -31,6 +31,16 @@ let
             "file" = "epic-knights-antique-legacy-1.20.x-forge-1.13.jar";
             "hash" = "sha512-xaev3tmbcrzA/LzzengRjkOo3dLw8MGIRvEEqq26/ru8WW4uJED35iAVwcH/Vw0HQRsJnPPc53YLX/YLuUxsFA==";
         };
+        _BZwCNNdr = {
+            "id" = "BZwCNNdr";
+            "file" = "epic-knights-antique-legacy-1.21.1-fabric-1.14.jar";
+            "hash" = "sha512-5ekj1liUgWLSBWzsoVpMDIi33cOAPOJNJFqBCtA+oihEggsA5kfr0l8tY1z1dc1GFpzjT4Z6atbTm3jGx/6cXg==";
+        };
+        _OQOu8iBP = {
+            "id" = "OQOu8iBP";
+            "file" = "epic-knights-antique-legacy-1.21.1-neoforge-1.14.jar";
+            "hash" = "sha512-SJhfOXxuNlervw+Vq9Mn0bD+Tmh7ZWovKWB01pmB1GBWEit6uMl882QqEsrGXZIrEVOQjdwOvfvMH6k8+wXlsg==";
+        };
     in {
         "ZoK9THif" = _ZoK9THif;
         "LM6Y9v8q" = _LM6Y9v8q;
@@ -38,18 +48,21 @@ let
         "Q3cpKrlz" = _Q3cpKrlz;
         "wD7v8AUk" = _wD7v8AUk;
         "4DhbZFhg" = _4DhbZFhg;
+        "BZwCNNdr" = _BZwCNNdr;
+        "OQOu8iBP" = _OQOu8iBP;
         "fabric-1.20.1" = _wD7v8AUk;
         "fabric-1.20.2" = _ZoK9THif;
-        "fabric-1.21" = _7DmiYe0a;
-        "fabric-1.21.1" = _7DmiYe0a;
+        "fabric-1.21" = _BZwCNNdr;
+        "fabric-1.21.1" = _BZwCNNdr;
         "forge-1.20.1" = _4DhbZFhg;
         "forge-1.20.2" = _LM6Y9v8q;
-        "neoforge-1.21" = _Q3cpKrlz;
-        "neoforge-1.21.1" = _Q3cpKrlz;
+        "neoforge-1.21" = _OQOu8iBP;
+        "neoforge-1.21.1" = _OQOu8iBP;
         "pkg-1.8" = _LM6Y9v8q;
         "pkg-1.12" = _Q3cpKrlz;
         "pkg-1.13" = _4DhbZFhg;
-        "default" = _4DhbZFhg;
+        "pkg-1.14" = _OQOu8iBP;
+        "default" = _OQOu8iBP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "epic-knights-antique-legacy";

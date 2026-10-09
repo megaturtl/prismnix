@@ -91,6 +91,16 @@ let
             "file" = "NumFlux-1.0.5-26.1-26.1.2-Neo.jar";
             "hash" = "sha512-RDlCnzMwHgxa29w2xmgjY89Ds38Q89MFmTCy6FcVkwSFv7QvhrIi2Y8S2NxBrCVE7ATwgTDEzNukD42yoeU6gg==";
         };
+        _tfF1H7ns = {
+            "id" = "tfF1H7ns";
+            "file" = "NumFlux-1.0.6-26.3-fabric.jar";
+            "hash" = "sha512-K6NM9POfb/P2twx8rpB5bhXlX0WJnOelZihhxhYc1+xOZBdVnYbDoxmeFHn9nV/fUX/MwUkuuBvEhbdIArGa+A==";
+        };
+        _pbWl2B9A = {
+            "id" = "pbWl2B9A";
+            "file" = "NumFlux-1.0.6-26.3-neo.jar";
+            "hash" = "sha512-mxxLNR8z6dhPKtP0yLJlanzuLLwRBVwpnCcJ6hTbKxJ+Z2/6HsCYAsTrbkOZQTr8t/0qtRcPGVOG16flhQLcdw==";
+        };
     in {
         "OwPqIgNr" = _OwPqIgNr;
         "NhibZ3E3" = _NhibZ3E3;
@@ -110,6 +120,8 @@ let
         "eEcFmmcx" = _eEcFmmcx;
         "BrTtglOE" = _BrTtglOE;
         "5QIyx2Sh" = _5QIyx2Sh;
+        "tfF1H7ns" = _tfF1H7ns;
+        "pbWl2B9A" = _pbWl2B9A;
         "fabric-1.21" = _RX4c132E;
         "fabric-1.21.1" = _yDnDUAmQ;
         "fabric-1.20.5" = _GeiGRqGB;
@@ -124,6 +136,7 @@ let
         "fabric-26.1" = _BrTtglOE;
         "fabric-26.1.1" = _BrTtglOE;
         "fabric-26.1.2" = _BrTtglOE;
+        "fabric-26.3" = _tfF1H7ns;
         "quilt-1.21" = _RX4c132E;
         "quilt-1.21.1" = _yDnDUAmQ;
         "quilt-1.20.5" = _GeiGRqGB;
@@ -152,6 +165,7 @@ let
         "neoforge-26.1" = _5QIyx2Sh;
         "neoforge-26.1.1" = _5QIyx2Sh;
         "neoforge-26.1.2" = _5QIyx2Sh;
+        "neoforge-26.3" = _pbWl2B9A;
         "pkg-0.9.9b01-1.21-1.21.1-fabric" = _OwPqIgNr;
         "pkg-0.9.9b01-1.21-1.21.1-neo" = _NhibZ3E3;
         "pkg-1.0.0-1.21-1.21.1-fabric" = _jgUHpyga;
@@ -170,7 +184,9 @@ let
         "pkg-1.0.4.1-1.21.1-neo" = _eEcFmmcx;
         "pkg-1.0.5-26.1-26.1.2-fabric" = _BrTtglOE;
         "pkg-1.0.5-26.1-26.1.2-neo" = _5QIyx2Sh;
-        "default" = _5QIyx2Sh;
+        "pkg-1.0.6-26.3-fabric" = _tfF1H7ns;
+        "pkg-1.0.6-26.3-neo" = _pbWl2B9A;
+        "default" = _pbWl2B9A;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "numflux";

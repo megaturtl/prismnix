@@ -341,6 +341,16 @@ let
             "file" = "Enhanced-Celestials-2-Default-Lunar-Events-Fabric-26.2-4.0.0.6.jar";
             "hash" = "sha512-y4b2GvAiiyGBVZvwgZhB6DaMOANnov60+JQWVoCf0l229gdGcEO2h6ga6Krvz/ZSr3U5OCOECk3slAqZFDKHCw==";
         };
+        _JnJI3qdc = {
+            "id" = "JnJI3qdc";
+            "file" = "Enhanced-Celestials-2-Default-Lunar-Events-Fabric-26.3-5.0.0.0.jar";
+            "hash" = "sha512-Cm2VVZxQZNa3X96zwyodtEW0cXfEgHx6TB4RmVHaOqLzICyesAozqMfzQWu6kc1vRERP2Wa6HFjcIVTDhLJSBA==";
+        };
+        _Cj5O9uJ7 = {
+            "id" = "Cj5O9uJ7";
+            "file" = "Enhanced-Celestials-2-Default-Lunar-Events-NeoForge-26.3-5.0.0.0.jar";
+            "hash" = "sha512-yfYlGMg5Cu9KKoODxG5YROktHjtrK83GD26U16ogiZqpAO6HMu67wr857lyZeCSeYaxRsz3Cr959DUahaBeFMw==";
+        };
     in {
         "9c7vHezq" = _9c7vHezq;
         "HO8l3XvO" = _HO8l3XvO;
@@ -410,20 +420,25 @@ let
         "qSrRwpip" = _qSrRwpip;
         "qg5qqNDQ" = _qg5qqNDQ;
         "KDnQDQjQ" = _KDnQDQjQ;
+        "JnJI3qdc" = _JnJI3qdc;
+        "Cj5O9uJ7" = _Cj5O9uJ7;
         "fabric-1.21.1" = _nVgbZdUF;
         "fabric-1.20.1" = _2GDHrcQX;
         "fabric-26.1.2" = _qSrRwpip;
         "fabric-26.2" = _KDnQDQjQ;
+        "fabric-26.3" = _JnJI3qdc;
         "quilt-1.21.1" = _nVgbZdUF;
         "quilt-1.20.1" = _2GDHrcQX;
         "quilt-26.1.2" = _qSrRwpip;
         "quilt-26.2" = _KDnQDQjQ;
+        "quilt-26.3" = _JnJI3qdc;
         "forge-1.21.1" = _ni75xm3u;
         "forge-1.20.1" = _PGxD6JWg;
         "neoforge-1.21.1" = _N8kvtLDo;
         "neoforge-1.20.1" = _PGxD6JWg;
         "neoforge-26.1.2" = _Iu3pdFWS;
         "neoforge-26.2" = _qg5qqNDQ;
+        "neoforge-26.3" = _Cj5O9uJ7;
         "pkg-1.0.0.0-fabric" = _ohxkg6fo;
         "pkg-1.0.0.0-forge" = _yVx4jM2Y;
         "pkg-1.0.0.0-neoforge" = _YnZl1yT0;
@@ -484,7 +499,9 @@ let
         "pkg-3.0.0.6-fabric" = _qSrRwpip;
         "pkg-4.0.0.6-neoforge" = _qg5qqNDQ;
         "pkg-4.0.0.6-fabric" = _KDnQDQjQ;
-        "default" = _KDnQDQjQ;
+        "pkg-5.0.0.0-fabric" = _JnJI3qdc;
+        "pkg-5.0.0.0-neoforge" = _Cj5O9uJ7;
+        "default" = _Cj5O9uJ7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enhanced-celestials-2-default-lunar-events";

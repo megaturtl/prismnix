@@ -311,6 +311,36 @@ let
             "file" = "skillexpnotifier-fabric-1.21-8.1.7-HOTFIX.jar";
             "hash" = "sha512-X9A7Gwh2R7KGzkOm2qX6+oOa9e/YsZP6QMWtFD7QwOG2nhA9GKYB3+nG6VhHFNJzgvUOp+aH22rgw9vVZNg/hw==";
         };
+        _bIoAAZlL = {
+            "id" = "bIoAAZlL";
+            "file" = "skillexpnotifier-forge-26.1-9.0.0.jar";
+            "hash" = "sha512-T/knNpPpnVPxsLGmWwWrPsgiAoKtYe6NzophTbgjuLtiJjCpGAKakjkbMzhKPV1jX5XDOOFz5maojfSj9r1IEQ==";
+        };
+        _VcJ5rGAs = {
+            "id" = "VcJ5rGAs";
+            "file" = "skillexpnotifier-fabric-26.1-9.0.0.jar";
+            "hash" = "sha512-Rg3po3IzwYX7Ii4V9/2waWgdQHZEjjr8WD2ResxIvxp/2OAls2R+D9/j1aey5N9BTtQiUF6r8nA0vBPKdbbDcQ==";
+        };
+        _lYXoFItL = {
+            "id" = "lYXoFItL";
+            "file" = "skillexpnotifier-forge-26.2-9.0.0.jar";
+            "hash" = "sha512-0y9e9q+NQlLJkSJxWQf65lp+TXts+F4uzZyPRAaulYGzfqelN19DKddKu1AQz9CKo374f/thH7mFx4LPEN72xg==";
+        };
+        _MVGD3i3h = {
+            "id" = "MVGD3i3h";
+            "file" = "skillexpnotifier-fabric-26.2-9.0.0.jar";
+            "hash" = "sha512-7bRuLLfQnyX+ePA1WRVplS2lIGKWF8os3M8NASYjG6S54GjVRwShzOXwnk4cuuUObYxEd0OjSuVxhroqkhAmkQ==";
+        };
+        _7rlDeSgB = {
+            "id" = "7rlDeSgB";
+            "file" = "skillexpnotifier-forge-26.3-9.0.0.jar";
+            "hash" = "sha512-casDxJSNgP32aCWIkAXAgRsEp793ENiGWIXC8NuaMarhnSFiObqvCA0rGmSZbSJd6ahmI/E9gpliaOkT3xwHJw==";
+        };
+        _Ir2l5MzT = {
+            "id" = "Ir2l5MzT";
+            "file" = "skillexpnotifier-fabric-26.3-9.0.0.jar";
+            "hash" = "sha512-Xwoxc/ifPOmfOKDPDB1x44xS9KS89LduK9Btul5wWlbbiZ70VZl51fayizg6gg2yrMnBTX52zrDbLBkpnFo85w==";
+        };
     in {
         "IYB1K6tN" = _IYB1K6tN;
         "xMd8JfXZ" = _xMd8JfXZ;
@@ -374,6 +404,12 @@ let
         "NZuOwwcm" = _NZuOwwcm;
         "2aj55Z71" = _2aj55Z71;
         "oHgg046j" = _oHgg046j;
+        "bIoAAZlL" = _bIoAAZlL;
+        "VcJ5rGAs" = _VcJ5rGAs;
+        "lYXoFItL" = _lYXoFItL;
+        "MVGD3i3h" = _MVGD3i3h;
+        "7rlDeSgB" = _7rlDeSgB;
+        "Ir2l5MzT" = _Ir2l5MzT;
         "forge-1.20.1" = _hZgQBeux;
         "forge-1.20.2" = _iBaY9a7O;
         "forge-1.20" = _S3EqmdGH;
@@ -394,6 +430,11 @@ let
         "fabric-1.21.11" = _2aj55Z71;
         "fabric-1.20.3" = _uGV0CC8G;
         "fabric-1.20.5" = _uGV0CC8G;
+        "fabric-26.1" = _VcJ5rGAs;
+        "fabric-26.1.1" = _VcJ5rGAs;
+        "fabric-26.1.2" = _VcJ5rGAs;
+        "fabric-26.2" = _MVGD3i3h;
+        "fabric-26.3" = _Ir2l5MzT;
         "neoforge-1.20.4" = _8JzJWTmW;
         "neoforge-1.21" = _PBh4gX5Y;
         "neoforge-1.21.1" = _PBh4gX5Y;
@@ -406,6 +447,11 @@ let
         "neoforge-1.21.9" = _m0aqHCjj;
         "neoforge-1.21.10" = _ibSJDtXA;
         "neoforge-1.21.11" = _xo7EF9Wi;
+        "neoforge-26.1" = _bIoAAZlL;
+        "neoforge-26.1.1" = _bIoAAZlL;
+        "neoforge-26.1.2" = _bIoAAZlL;
+        "neoforge-26.2" = _lYXoFItL;
+        "neoforge-26.3" = _7rlDeSgB;
         "pkg-8.1.3-1.20.1" = _xMd8JfXZ;
         "pkg-8.1.3-1.20.2" = _1K90PNub;
         "pkg-8.1.3-1.20.4" = _VlXuv2Ho;
@@ -422,7 +468,8 @@ let
         "pkg-8.1.6" = _LrQFeJIi;
         "pkg-8.1.7" = _g6WfsPHA;
         "pkg-8.1.7-HOTFIX" = _oHgg046j;
-        "default" = _oHgg046j;
+        "pkg-9.0.0" = _Ir2l5MzT;
+        "default" = _Ir2l5MzT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skillexpnotifier";

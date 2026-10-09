@@ -186,6 +186,26 @@ let
             "file" = "ae2importexportcard-1.21.1-1.8.0.jar";
             "hash" = "sha512-UBjcdSZnJSzykcPzKsung3DcwO8hSKMk3jRfxxge01UOoPkLYBy2fU1O3glEwG9JrIDjZuEkzexDumYPvE2eRA==";
         };
+        _DMPhIJZQ = {
+            "id" = "DMPhIJZQ";
+            "file" = "ae2importexportcard-26.1.2-2.3.0.jar";
+            "hash" = "sha512-MS5BQrNICWBrHC/P2UFdUBvZk0gg7f/0IRBBwazxeepTWZHfR3lATsacqwzUA0ln9YDlb+g+H0xTklTc5b739g==";
+        };
+        _SnCFnDzn = {
+            "id" = "SnCFnDzn";
+            "file" = "ae2importexportcard-1.21.1-1.9.0.jar";
+            "hash" = "sha512-xJ7AXFMdyKpDZbKrPmcjL+a1TmZLBshcZVS7In1b8/ls5hx4UvEikrzb9DaHiu9L/YUhnQeDmSgpCVvno1DtVQ==";
+        };
+        _CuP91rXX = {
+            "id" = "CuP91rXX";
+            "file" = "ae2importexportcard-1.21.1-1.9.1.jar";
+            "hash" = "sha512-ESmwrlQ6GdG/7h7ViauGA/8ENQd+fCVmWF7bceLNR3XpCMtewHNsc4iN3/x5hKnt22kc5u2/HaR1bVa9fLD3KA==";
+        };
+        _PzoCyPgs = {
+            "id" = "PzoCyPgs";
+            "file" = "ae2importexportcard-26.1.2-2.3.1.jar";
+            "hash" = "sha512-gu2ZXAXDjwyQTzap8ouLjrCW4w7a4jdVzCpQcoBMfmwrCCY+KqZ6l1w9fIikGTnyVpF1H6jGeKGl1N/Ye2KTiA==";
+        };
     in {
         "zQYX6Da0" = _zQYX6Da0;
         "8acnk8IE" = _8acnk8IE;
@@ -224,6 +244,10 @@ let
         "wwM4NzLS" = _wwM4NzLS;
         "eUJvKXkJ" = _eUJvKXkJ;
         "xJ3k4Pvg" = _xJ3k4Pvg;
+        "DMPhIJZQ" = _DMPhIJZQ;
+        "SnCFnDzn" = _SnCFnDzn;
+        "CuP91rXX" = _CuP91rXX;
+        "PzoCyPgs" = _PzoCyPgs;
         "forge-1.20.1" = _v8c3El4q;
         "forge-1.19.2" = _h9A1XZdm;
         "forge-1.19.3" = _h9A1XZdm;
@@ -231,8 +255,8 @@ let
         "forge-1.18.2" = _5TBilHBj;
         "neoforge-1.20.1" = _EnkYbQ8X;
         "neoforge-1.21" = _UcKctWsx;
-        "neoforge-1.21.1" = _xJ3k4Pvg;
-        "neoforge-26.1.2" = _eUJvKXkJ;
+        "neoforge-1.21.1" = _CuP91rXX;
+        "neoforge-26.1.2" = _PzoCyPgs;
         "pkg-1.20.1-1.0" = _zQYX6Da0;
         "pkg-1.20.1-1.0.1" = _8acnk8IE;
         "pkg-1.20.1-1.0.2" = _mCwrrPGQ;
@@ -269,7 +293,11 @@ let
         "pkg-26.1.2-2.2.0" = _wwM4NzLS;
         "pkg-26.1.2-2.2.1" = _eUJvKXkJ;
         "pkg-1.21.1-1.8.0" = _xJ3k4Pvg;
-        "default" = _xJ3k4Pvg;
+        "pkg-26.1.2-2.3.0" = _DMPhIJZQ;
+        "pkg-1.21.1-1.9.0" = _SnCFnDzn;
+        "pkg-1.21.1-1.9.1" = _CuP91rXX;
+        "pkg-26.1.2-2.3.1" = _PzoCyPgs;
+        "default" = _PzoCyPgs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ae2-import-export-card";

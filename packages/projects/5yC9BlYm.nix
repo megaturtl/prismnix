@@ -121,6 +121,46 @@ let
             "file" = "ftbquestsentityvis-1.10.0-1.21.1-fabric.jar";
             "hash" = "sha512-yhK506ELNXIHYX2+DJmu3MqfuGxcYqfedexZ+6A4wFEzo3m1xhKylybFfkHE7Szc3I84WJ7vczpkoYYXgap2uQ==";
         };
+        _PeHs3esH = {
+            "id" = "PeHs3esH";
+            "file" = "ftbquestsentityvis-1.11.0-1.20.1-forge.jar";
+            "hash" = "sha512-oRSm8KFqEmHJfzmWlmuWiyqstnTlJuP+u2DrYV62yrbcfdM8KMjSyv3kL2KMPQr+kbYflY1Z7/fqN6mt+o5XSQ==";
+        };
+        _u9hIAPQu = {
+            "id" = "u9hIAPQu";
+            "file" = "ftbquestsentityvis-1.11.0-1.21.1-neoforge.jar";
+            "hash" = "sha512-ne6k5SkrSJDkSFoslv6DBhvscw8UvKeHFGHNrgKCq1tofljxo9IvqjEnvGXgdFCVIa6ZBcVuoJ3gucEaZF8oqw==";
+        };
+        _dAiFUPzf = {
+            "id" = "dAiFUPzf";
+            "file" = "ftbquestsentityvis-1.11.0-1.20.1-fabric.jar";
+            "hash" = "sha512-gv6Ojdx31AMpEU9tqaR4vbcJxRYEtb9HBl3kP3OpXoUYRJFZybC+O6PfGMRyIM/yS4PVJ66ogHN19Z6K8aN7iA==";
+        };
+        _COMGtx9N = {
+            "id" = "COMGtx9N";
+            "file" = "ftbquestsentityvis-1.11.0-1.21.1-fabric.jar";
+            "hash" = "sha512-DUmoP2HBp/YmyLy+2iTJAMlriMxgSPfgxOEkw5F9aWktAa7E4IiyUdNglARnjzQgvFnFKgg1A2OHlxTWxmqwZA==";
+        };
+        _aRBiCaHY = {
+            "id" = "aRBiCaHY";
+            "file" = "ftbquestsentityvis-1.12.0-1.21.1-neoforge.jar";
+            "hash" = "sha512-c7Dev0TAkVQrMPnIh2y75+i/bWNiUse7mUR3m1Pr6fXduBD/xeH7T3d2zReDBGquZDvxJEgsOjPvjQyXj8rgww==";
+        };
+        _Hq5kMkPy = {
+            "id" = "Hq5kMkPy";
+            "file" = "ftbquestsentityvis-1.12.0-1.20.1-forge.jar";
+            "hash" = "sha512-uCTJEQXf9fZu7VAiuwtP0zOfajE09JxBKyCkaWQW7qqNgCqGGz+Wj3Ih478GFW5TyMfEYNdBKcr2x4gcczywsw==";
+        };
+        _Tefh12PX = {
+            "id" = "Tefh12PX";
+            "file" = "ftbquestsentityvis-1.12.0-1.20.1-fabric.jar";
+            "hash" = "sha512-tWwkCMevGbklR98djQUSy7epwj6zrgLxvS/qFmRd5rFHexXM6XhEFm80bI/J7ad/yxJICufu4Q6Kr0JP39WGzg==";
+        };
+        _um5gBWSN = {
+            "id" = "um5gBWSN";
+            "file" = "ftbquestsentityvis-1.12.0-1.21.1-fabric.jar";
+            "hash" = "sha512-s9PUDnIUteTidt7UORdaABIw09pSuq68PdwpfJHB0UI6v8ysGJlbTVtz5NJlYwAkJxt40PEH9LtJUoqy91FU7g==";
+        };
     in {
         "y3mt2aVv" = _y3mt2aVv;
         "AQHAyRCr" = _AQHAyRCr;
@@ -146,17 +186,27 @@ let
         "T5jslljZ" = _T5jslljZ;
         "LC7HLMEy" = _LC7HLMEy;
         "nLZ9vnGu" = _nLZ9vnGu;
-        "forge-1.20.1" = _EpWyl8zu;
-        "neoforge-1.21.1" = _T5jslljZ;
-        "fabric-1.20.1" = _LC7HLMEy;
-        "fabric-1.21.1" = _nLZ9vnGu;
+        "PeHs3esH" = _PeHs3esH;
+        "u9hIAPQu" = _u9hIAPQu;
+        "dAiFUPzf" = _dAiFUPzf;
+        "COMGtx9N" = _COMGtx9N;
+        "aRBiCaHY" = _aRBiCaHY;
+        "Hq5kMkPy" = _Hq5kMkPy;
+        "Tefh12PX" = _Tefh12PX;
+        "um5gBWSN" = _um5gBWSN;
+        "forge-1.20.1" = _Hq5kMkPy;
+        "neoforge-1.21.1" = _aRBiCaHY;
+        "fabric-1.20.1" = _Tefh12PX;
+        "fabric-1.21.1" = _um5gBWSN;
         "pkg-1.5.0" = _CE37jz2p;
         "pkg-1.6.0" = _egL427Gj;
         "pkg-1.7.0" = _eSvupcfd;
         "pkg-1.8.0" = _DInCDbun;
         "pkg-1.9.0" = _K7UTXWn4;
         "pkg-1.10.0" = _nLZ9vnGu;
-        "default" = _nLZ9vnGu;
+        "pkg-1.11.0" = _COMGtx9N;
+        "pkg-1.12.0" = _um5gBWSN;
+        "default" = _um5gBWSN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ftb-quests-entity-visualization";

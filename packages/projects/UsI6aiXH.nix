@@ -61,6 +61,11 @@ let
             "file" = "Tiny Tools+ 26.2.zip";
             "hash" = "sha512-lS9aK5fFL+eB4sqaf1BYTIeyIi+4LE6xfq8Rgd5m+jLRLqD3yJd11Dsman2KeIo9u22kXkRgk74JfOxkv4szAA==";
         };
+        _PxIgQKWq = {
+            "id" = "PxIgQKWq";
+            "file" = "Tiny Tools+ 26.3.zip";
+            "hash" = "sha512-g2o50dvk4NUNpMAIIJkCYwhQ72qOVNkY2EquHcOf4xr8LrWoO7l40E1RiMaZkM+fg4h2aSN2rmT5p/QaZxh1Yg==";
+        };
     in {
         "giC0Itod" = _giC0Itod;
         "CfzXfHva" = _CfzXfHva;
@@ -74,6 +79,7 @@ let
         "sj6WvZ1G" = _sj6WvZ1G;
         "d7Hnbul3" = _d7Hnbul3;
         "4A62BaDT" = _4A62BaDT;
+        "PxIgQKWq" = _PxIgQKWq;
         "minecraft-1.21.5" = _giC0Itod;
         "minecraft-1.21.6" = _CfzXfHva;
         "minecraft-1.21.7" = _uum1sTZa;
@@ -105,6 +111,7 @@ let
         "minecraft-26.1" = _aAgfejWl;
         "minecraft-26.1.2" = _sj6WvZ1G;
         "minecraft-26.2" = _4A62BaDT;
+        "minecraft-26.3" = _PxIgQKWq;
         "pkg-1.0" = _giC0Itod;
         "pkg-1.1" = _CfzXfHva;
         "pkg-1.2" = _uum1sTZa;
@@ -117,7 +124,8 @@ let
         "pkg-1.5.2" = _sj6WvZ1G;
         "pkg-1.6" = _d7Hnbul3;
         "pkg-1.6.1" = _4A62BaDT;
-        "default" = _4A62BaDT;
+        "pkg-1.7" = _PxIgQKWq;
+        "default" = _PxIgQKWq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tiny-tools+";

@@ -341,6 +341,26 @@ let
             "file" = "hostile-mobs-improve-over-time-2.2.jar";
             "hash" = "sha512-9UHHso5QDQGbrWHC0Y0WpQod36fkJuROOrez+x771vtPgjkkcTCOvwp59H53e8tWa4H1Fved9TJW+3U3fybJ8g==";
         };
+        _ryhjFnOn = {
+            "id" = "ryhjFnOn";
+            "file" = "Hostile Mobs Improve Over Time.zip";
+            "hash" = "sha512-TrfDSKANvcS4clQpxW+25aWg5RkGPEMv0obEJ0PnAnp3+W7EsQeM7KrU8bFidQ0/LZ4Nw+qt1ZAD+72ZZt5Qzw==";
+        };
+        _4FPirKFN = {
+            "id" = "4FPirKFN";
+            "file" = "hostile-mobs-improve-over-time-2.3.jar";
+            "hash" = "sha512-aAJAa1fSbyRwW+AZrLVEaBLLEcXOBbHhghos7D48LREem1oUvImIIngD0ArPn4z6Zg/avPG+rSjzNgf89WY0hA==";
+        };
+        _BWF6fWgS = {
+            "id" = "BWF6fWgS";
+            "file" = "Hostile Mobs Improve Over Time.zip";
+            "hash" = "sha512-5WW5kLYZD4Nj6n/YVlOxgNUfCKJ0a4OQrvzega3WqfKVfcCuKrWwyPbxIMLL1ZrtAHRdAEb2G3kC4GFd0mMpEQ==";
+        };
+        _YoyM2GpX = {
+            "id" = "YoyM2GpX";
+            "file" = "hostile-mobs-improve-over-time-2.3.jar";
+            "hash" = "sha512-HhpTMLHW1QuqQC6nrthtKijbMlX83OXw1a52EvPutbZz8I0NwlV90p/kC0BerUi8LrYhiZC857VKQkp3hzOEMA==";
+        };
     in {
         "xqLcEWFQ" = _xqLcEWFQ;
         "D8WqfPXy" = _D8WqfPXy;
@@ -410,6 +430,10 @@ let
         "kTpd1Hdz" = _kTpd1Hdz;
         "LydcbKZE" = _LydcbKZE;
         "EfQTKuh2" = _EfQTKuh2;
+        "ryhjFnOn" = _ryhjFnOn;
+        "4FPirKFN" = _4FPirKFN;
+        "BWF6fWgS" = _BWF6fWgS;
+        "YoyM2GpX" = _YoyM2GpX;
         "datapack-1.19.4" = _2r1LV73r;
         "datapack-1.20" = _eOKXnqKD;
         "datapack-1.20.1" = _eOKXnqKD;
@@ -433,7 +457,8 @@ let
         "datapack-26.1" = _KGahYgX8;
         "datapack-26.1.1" = _KGahYgX8;
         "datapack-26.1.2" = _KGahYgX8;
-        "datapack-26.2" = _LydcbKZE;
+        "datapack-26.2" = _ryhjFnOn;
+        "datapack-26.3" = _BWF6fWgS;
         "fabric-1.20" = _Q8igQlBc;
         "fabric-1.20.1" = _Q8igQlBc;
         "fabric-1.20.2" = _Q8igQlBc;
@@ -456,7 +481,8 @@ let
         "fabric-26.1" = _kTpd1Hdz;
         "fabric-26.1.1" = _kTpd1Hdz;
         "fabric-26.1.2" = _kTpd1Hdz;
-        "fabric-26.2" = _EfQTKuh2;
+        "fabric-26.2" = _4FPirKFN;
+        "fabric-26.3" = _YoyM2GpX;
         "forge-1.20" = _Q8igQlBc;
         "forge-1.20.1" = _Q8igQlBc;
         "forge-1.20.2" = _Q8igQlBc;
@@ -479,7 +505,8 @@ let
         "forge-26.1" = _kTpd1Hdz;
         "forge-26.1.1" = _kTpd1Hdz;
         "forge-26.1.2" = _kTpd1Hdz;
-        "forge-26.2" = _EfQTKuh2;
+        "forge-26.2" = _4FPirKFN;
+        "forge-26.3" = _YoyM2GpX;
         "quilt-1.20" = _Q8igQlBc;
         "quilt-1.20.1" = _Q8igQlBc;
         "quilt-1.20.2" = _Q8igQlBc;
@@ -502,7 +529,8 @@ let
         "quilt-26.1" = _kTpd1Hdz;
         "quilt-26.1.1" = _kTpd1Hdz;
         "quilt-26.1.2" = _kTpd1Hdz;
-        "quilt-26.2" = _EfQTKuh2;
+        "quilt-26.2" = _4FPirKFN;
+        "quilt-26.3" = _YoyM2GpX;
         "neoforge-1.21" = _Zlc5Ede5;
         "neoforge-1.21.1" = _Zlc5Ede5;
         "neoforge-1.21.2" = _uxLJfX25;
@@ -518,7 +546,8 @@ let
         "neoforge-26.1" = _kTpd1Hdz;
         "neoforge-26.1.1" = _kTpd1Hdz;
         "neoforge-26.1.2" = _kTpd1Hdz;
-        "neoforge-26.2" = _EfQTKuh2;
+        "neoforge-26.2" = _4FPirKFN;
+        "neoforge-26.3" = _YoyM2GpX;
         "pkg-1.0" = _xqLcEWFQ;
         "pkg-1.1" = _D8WqfPXy;
         "pkg-1.2" = _2r1LV73r;
@@ -583,7 +612,9 @@ let
         "pkg-V2.1+mod" = _kTpd1Hdz;
         "pkg-2.2" = _LydcbKZE;
         "pkg-2.2+mod" = _EfQTKuh2;
-        "default" = _EfQTKuh2;
+        "pkg-2.3" = _BWF6fWgS;
+        "pkg-2.3+mod" = _YoyM2GpX;
+        "default" = _YoyM2GpX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hostile-mobs-improve-over-time";

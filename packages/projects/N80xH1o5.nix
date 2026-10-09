@@ -21,11 +21,23 @@ let
             "file" = "vision-enchantment-v1.0.0.jar";
             "hash" = "sha512-OkOaiYa5Olqg6URTTWdchH2cGxpLN1AVckIfulkWZ/jbOXf5W4Hi9dnkvnqimTFHyhmlTAko/AgMiVfoSLPjzg==";
         };
+        _7nfuDZKl = {
+            "id" = "7nfuDZKl";
+            "file" = "Vision Enchantment v1.0.0 [26.3].zip";
+            "hash" = "sha512-SakJ+KhOBicGOCeMLv/cmnPx76ILpFbTrX0SNvJsFp57cXHKpI6qHHc9jhefJAcDO3dRcrlWENfvuAaTGBAMSA==";
+        };
+        _Ess7s4kI = {
+            "id" = "Ess7s4kI";
+            "file" = "vision-enchantment-1.0.0.jar";
+            "hash" = "sha512-pD/1uXpBv+OpyoaCPiFyhnZOA8QBaZFm5UeT3Ty2D0fhhX2HCSFGG0/h6M+jhMDY/gnpBxuOtv1P1Sz4cMPxuQ==";
+        };
     in {
         "cl01ENbQ" = _cl01ENbQ;
         "l0jxhtco" = _l0jxhtco;
         "zVFNq3oY" = _zVFNq3oY;
         "LuygpCRn" = _LuygpCRn;
+        "7nfuDZKl" = _7nfuDZKl;
+        "Ess7s4kI" = _Ess7s4kI;
         "datapack-1.21" = _zVFNq3oY;
         "datapack-1.21.1" = _zVFNq3oY;
         "datapack-1.21.2" = _zVFNq3oY;
@@ -42,6 +54,7 @@ let
         "datapack-26.1.1" = _zVFNq3oY;
         "datapack-26.1.2" = _zVFNq3oY;
         "datapack-26.2" = _zVFNq3oY;
+        "datapack-26.3" = _7nfuDZKl;
         "fabric-1.21" = _LuygpCRn;
         "fabric-1.21.1" = _LuygpCRn;
         "fabric-1.21.2" = _LuygpCRn;
@@ -58,6 +71,7 @@ let
         "fabric-26.1.1" = _LuygpCRn;
         "fabric-26.1.2" = _LuygpCRn;
         "fabric-26.2" = _LuygpCRn;
+        "fabric-26.3" = _Ess7s4kI;
         "forge-1.21" = _LuygpCRn;
         "forge-1.21.1" = _LuygpCRn;
         "forge-1.21.2" = _LuygpCRn;
@@ -74,6 +88,7 @@ let
         "forge-26.1.1" = _LuygpCRn;
         "forge-26.1.2" = _LuygpCRn;
         "forge-26.2" = _LuygpCRn;
+        "forge-26.3" = _Ess7s4kI;
         "neoforge-1.21" = _LuygpCRn;
         "neoforge-1.21.1" = _LuygpCRn;
         "neoforge-1.21.2" = _LuygpCRn;
@@ -90,6 +105,7 @@ let
         "neoforge-26.1.1" = _LuygpCRn;
         "neoforge-26.1.2" = _LuygpCRn;
         "neoforge-26.2" = _LuygpCRn;
+        "neoforge-26.3" = _Ess7s4kI;
         "quilt-1.21" = _LuygpCRn;
         "quilt-1.21.1" = _LuygpCRn;
         "quilt-1.21.2" = _LuygpCRn;
@@ -106,9 +122,12 @@ let
         "quilt-26.1.1" = _LuygpCRn;
         "quilt-26.1.2" = _LuygpCRn;
         "quilt-26.2" = _LuygpCRn;
+        "quilt-26.3" = _Ess7s4kI;
         "pkg-v1.0.0" = _zVFNq3oY;
         "pkg-v1.0.0+mod" = _LuygpCRn;
-        "default" = _LuygpCRn;
+        "pkg-1.0.0" = _7nfuDZKl;
+        "pkg-1.0.0+mod" = _Ess7s4kI;
+        "default" = _Ess7s4kI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vision-enchantment";

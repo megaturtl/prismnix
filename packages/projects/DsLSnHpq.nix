@@ -156,6 +156,46 @@ let
             "file" = "colorfulanvils-2.7.0+26.2.jar";
             "hash" = "sha512-6ntkOhyhVgoOef2ldPr4bOzg9hRZUwvcLoeS5uu7x2xNze+RA3c1SL/J1W7YI3fjWDpoQRh1R7IguSPFds4d5g==";
         };
+        _mTpnAoTQ = {
+            "id" = "mTpnAoTQ";
+            "file" = "colorfulanvils-2.8.0+1.21.8-1.21.11.jar";
+            "hash" = "sha512-iEnSij9V86+vhGlob+llXhMPplfoG5hjMtThR6fl/T9ClnFXvI4ynQv/RNLb4P6bqrasdrN9RljfYUTB01sNEA==";
+        };
+        _17IqA2rO = {
+            "id" = "17IqA2rO";
+            "file" = "colorfulanvils-2.8.0+26.1-26.1.2.jar";
+            "hash" = "sha512-6baWJQprq3XneZ/or3UQLptM/QpbvcKSZT7RBb03dMXSKX9sGZxcb88qAjyc7rv/p9zaYygxNXAChNtYot93Lw==";
+        };
+        _nktt13Gb = {
+            "id" = "nktt13Gb";
+            "file" = "colorfulanvils-2.8.0+26.2.jar";
+            "hash" = "sha512-mvbLtmmz9318Ia+2lAnkHmzZLWA+6hdZQkoZKjqdUWlqpbTDwjrme5TcqzUzVigSUt7lvMDhzemPvtssZXX6bg==";
+        };
+        _PHGKluI6 = {
+            "id" = "PHGKluI6";
+            "file" = "colorfulanvils-2.8.0+26.3.jar";
+            "hash" = "sha512-06IdQ6KQpkeUajqEoeNqNWCb4kLKIM5r05cXvimGenjKSG1XMA8EKCw2EoDUDs5NAeYWJZfptg125f9KBYEUVg==";
+        };
+        _U5wKqb3R = {
+            "id" = "U5wKqb3R";
+            "file" = "colorfulanvils-2.9.0+1.21.8-1.21.11.jar";
+            "hash" = "sha512-wFgzoqcjMatfA0f1+xqgOzdRCmqtxyxoYSG8iXj7WotApbuLwd/5lYTzUOiSZZfuCuB+XUv3pk2etqI6K1S9uA==";
+        };
+        _8zfCHRgJ = {
+            "id" = "8zfCHRgJ";
+            "file" = "colorfulanvils-2.9.0+26.1-26.1.2.jar";
+            "hash" = "sha512-DHZXsQZTtBqR3REXzHK17F8qSVAg9Qv2jHcDNQ6Axi/IiiFW7/ImwsCoG0PHG+U9wYVZSY7PgY/T2C9DQclclw==";
+        };
+        _IDstgZ8A = {
+            "id" = "IDstgZ8A";
+            "file" = "colorfulanvils-2.9.0+26.2.jar";
+            "hash" = "sha512-mJiJVvYEPTt5xwgMzEdEwqrCPae3d0TBMmvY4ocJK8g0bGW66JX9G2rigIlsQDa2kXBFGEnR1pFtk3iNvaxZ8A==";
+        };
+        _3h8mE5d7 = {
+            "id" = "3h8mE5d7";
+            "file" = "colorfulanvils-2.9.0+26.3.jar";
+            "hash" = "sha512-p94DUcrNHlEdY6D/HTjEpOB6aFVFgbH6U841skBpChh63KBLhRvqWuxIFrHP328FEN3OoXQ0QDL/HUZ2GjrqVA==";
+        };
     in {
         "Xfp0pxLh" = _Xfp0pxLh;
         "r7FwGNgq" = _r7FwGNgq;
@@ -188,14 +228,23 @@ let
         "UEp41ug8" = _UEp41ug8;
         "W7w2tlrM" = _W7w2tlrM;
         "BWTkQhwq" = _BWTkQhwq;
-        "fabric-1.21.8" = _UEp41ug8;
-        "fabric-1.21.9" = _UEp41ug8;
-        "fabric-1.21.10" = _UEp41ug8;
-        "fabric-1.21.11" = _UEp41ug8;
-        "fabric-26.1" = _W7w2tlrM;
-        "fabric-26.1.1" = _W7w2tlrM;
-        "fabric-26.1.2" = _W7w2tlrM;
-        "fabric-26.2" = _BWTkQhwq;
+        "mTpnAoTQ" = _mTpnAoTQ;
+        "17IqA2rO" = _17IqA2rO;
+        "nktt13Gb" = _nktt13Gb;
+        "PHGKluI6" = _PHGKluI6;
+        "U5wKqb3R" = _U5wKqb3R;
+        "8zfCHRgJ" = _8zfCHRgJ;
+        "IDstgZ8A" = _IDstgZ8A;
+        "3h8mE5d7" = _3h8mE5d7;
+        "fabric-1.21.8" = _U5wKqb3R;
+        "fabric-1.21.9" = _U5wKqb3R;
+        "fabric-1.21.10" = _U5wKqb3R;
+        "fabric-1.21.11" = _U5wKqb3R;
+        "fabric-26.1" = _8zfCHRgJ;
+        "fabric-26.1.1" = _8zfCHRgJ;
+        "fabric-26.1.2" = _8zfCHRgJ;
+        "fabric-26.2" = _IDstgZ8A;
+        "fabric-26.3" = _3h8mE5d7;
         "pkg-1.3.0+1.21.8" = _Xfp0pxLh;
         "pkg-1.4.0+1.21.8-1.21.11" = _r7FwGNgq;
         "pkg-1.5.0+1.21.8-1.21.11" = _mlWN02uM;
@@ -227,7 +276,15 @@ let
         "pkg-2.7.0+1.21.8-1.21.11" = _UEp41ug8;
         "pkg-2.7.0+26.1-26.1.2" = _W7w2tlrM;
         "pkg-2.7.0+26.2" = _BWTkQhwq;
-        "default" = _BWTkQhwq;
+        "pkg-2.8.0+1.21.8-1.21.11" = _mTpnAoTQ;
+        "pkg-2.8.0+26.1-26.1.2" = _17IqA2rO;
+        "pkg-2.8.0+26.2" = _nktt13Gb;
+        "pkg-2.8.0+26.3" = _PHGKluI6;
+        "pkg-2.9.0+1.21.8-1.21.11" = _U5wKqb3R;
+        "pkg-2.9.0+26.1-26.1.2" = _8zfCHRgJ;
+        "pkg-2.9.0+26.2" = _IDstgZ8A;
+        "pkg-2.9.0+26.3" = _3h8mE5d7;
+        "default" = _3h8mE5d7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "colorful-anvils-unoffical-port";

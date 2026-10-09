@@ -176,6 +176,56 @@ let
             "file" = "MetalFences-FABRIC-26.2-1.0.2.jar";
             "hash" = "sha512-E6mZ5EnUZpbwPtoSs3RPVe9KqmtnWf+wQucq4cO//qzAdv38bnG3DSlSAa6B4ktJ7wyoqu1N3cQoc1ofoe9wqw==";
         };
+        _UCsCGWia = {
+            "id" = "UCsCGWia";
+            "file" = "MetalFences-NEOFORGE-1.21.1-1.0.3.jar";
+            "hash" = "sha512-TO10D+tRN2qHovnk55MGbNRk98OEoHyDx5KGji6WCmlZKz3tiiEGsKn8U/NTZChPlV5jGcpJNLHylEARphb4NQ==";
+        };
+        _fj1FbPRr = {
+            "id" = "fj1FbPRr";
+            "file" = "MetalFences-FABRIC-1.21.1-1.0.3.jar";
+            "hash" = "sha512-gLRD3APOVdOLuMAka5PhZHPgdB+5PPQOxzqZPFimcJbMUMioe5vlSJ7Ghi77aX1GYNDU45blW9L/rfxA80ot8g==";
+        };
+        _22apzjyv = {
+            "id" = "22apzjyv";
+            "file" = "MetalFences-NEOFORGE-1.21.11-1.0.3.jar";
+            "hash" = "sha512-yYjgtMHolgimz99w9ttS95Z8cXppk81ikO+BadR5TfRNI7flenMXIEgizIoR1d1C1k57OrCzIl2s1JS9Y6Yf2g==";
+        };
+        _ZDY4srG1 = {
+            "id" = "ZDY4srG1";
+            "file" = "MetalFences-FABRIC-1.21.11-1.0.3.jar";
+            "hash" = "sha512-pD+N7sAgF7DP/32P7cSwUhmG1w0R9RAbml2J2n1Wg/EbUO9aGtZOaY76xqdk3+5m7lBJarRX47TGft0VWhHklg==";
+        };
+        _T6fI4pDt = {
+            "id" = "T6fI4pDt";
+            "file" = "MetalFences-NEOFORGE-26.1.2-1.0.3.jar";
+            "hash" = "sha512-0eRU4itVSJiB98XLPoSWXFHxOFcaIqxGVZKYQ27jWlscyw+fy+ZdJbuGSUVrUSI6yiousX4N6bGqOLO5Z8czlA==";
+        };
+        _qISCwX5j = {
+            "id" = "qISCwX5j";
+            "file" = "MetalFences-FABRIC-26.1.2-1.0.3.jar";
+            "hash" = "sha512-/oFL07Cs2kSAg/l4h4Ngvag6rg99oy74/mLcG1wweMu8LngCsUzZvSzZO341zaJdKTLP06SkBV7+TiEfnFMomw==";
+        };
+        _H5TsQmUD = {
+            "id" = "H5TsQmUD";
+            "file" = "MetalFences-NEOFORGE-26.2-1.0.3.jar";
+            "hash" = "sha512-A8xGHNFkFLUNnZK2rdBXDP1NpRwR+uv2uHW6nG4jelCjJ+Xh0UJGbOIK2uFAR95QZWs7/VuKRWEYCDbyQW4Sfg==";
+        };
+        _fZWUuegS = {
+            "id" = "fZWUuegS";
+            "file" = "MetalFences-FABRIC-26.2-1.0.3.jar";
+            "hash" = "sha512-B0/EKFejwEUozbhy1QurKAzDS9G9vpC7Ip5o9dn54eTjI15i7JyRDoHxXTtRi0kMgqcCAvobcxJIbUsn++WJOw==";
+        };
+        _FSjSBzNH = {
+            "id" = "FSjSBzNH";
+            "file" = "MetalFences-NEOFORGE-26.3-1.0.3.jar";
+            "hash" = "sha512-K4GGAPzpNqv9Rg989w/T69+F6guGeP4QRwg4Y5HL80Jr03/4xOaUmrBXc42AHcfw+YtEtOQXRC43NujOe+V8sg==";
+        };
+        _7NswRGH9 = {
+            "id" = "7NswRGH9";
+            "file" = "MetalFences-FABRIC-26.3-1.0.3.jar";
+            "hash" = "sha512-StXWrI5YZZo+t0q1uF2kU+zEuN3RKab/hTBa9yNOYPwTy78vAGOf6klVxyGRwoQXTTfmJQYZYnv3+BqFEzBgjQ==";
+        };
     in {
         "ZxZCKcBd" = _ZxZCKcBd;
         "2fa5rYVf" = _2fa5rYVf;
@@ -212,6 +262,16 @@ let
         "EW1u52sH" = _EW1u52sH;
         "Bax7O9mk" = _Bax7O9mk;
         "j46qyCkn" = _j46qyCkn;
+        "UCsCGWia" = _UCsCGWia;
+        "fj1FbPRr" = _fj1FbPRr;
+        "22apzjyv" = _22apzjyv;
+        "ZDY4srG1" = _ZDY4srG1;
+        "T6fI4pDt" = _T6fI4pDt;
+        "qISCwX5j" = _qISCwX5j;
+        "H5TsQmUD" = _H5TsQmUD;
+        "fZWUuegS" = _fZWUuegS;
+        "FSjSBzNH" = _FSjSBzNH;
+        "7NswRGH9" = _7NswRGH9;
         "forge-1.19.2" = _vDc4FLmQ;
         "forge-1.20" = _1w4vgThf;
         "forge-1.20.1" = _1w4vgThf;
@@ -223,8 +283,8 @@ let
         "fabric-1.19.2" = _2fa5rYVf;
         "fabric-1.20" = _AvJxNQZj;
         "fabric-1.20.1" = _AvJxNQZj;
-        "fabric-1.21" = _jdz9XkDu;
-        "fabric-1.21.1" = _jdz9XkDu;
+        "fabric-1.21" = _fj1FbPRr;
+        "fabric-1.21.1" = _fj1FbPRr;
         "fabric-1.20.3" = _mjgZ7x8O;
         "fabric-1.20.4" = _mjgZ7x8O;
         "fabric-1.21.2" = _ATDa1lvz;
@@ -236,13 +296,14 @@ let
         "fabric-1.21.8" = _j3h6jzm0;
         "fabric-1.21.9" = _wqSg2NZp;
         "fabric-1.21.10" = _wqSg2NZp;
-        "fabric-1.21.11" = _tqqOU2uC;
-        "fabric-26.1" = _EW1u52sH;
-        "fabric-26.1.1" = _EW1u52sH;
-        "fabric-26.1.2" = _EW1u52sH;
-        "fabric-26.2" = _j46qyCkn;
-        "neoforge-1.21.1" = _wJfzUsuk;
-        "neoforge-1.21" = _wJfzUsuk;
+        "fabric-1.21.11" = _ZDY4srG1;
+        "fabric-26.1" = _qISCwX5j;
+        "fabric-26.1.1" = _qISCwX5j;
+        "fabric-26.1.2" = _qISCwX5j;
+        "fabric-26.2" = _fZWUuegS;
+        "fabric-26.3" = _7NswRGH9;
+        "neoforge-1.21.1" = _UCsCGWia;
+        "neoforge-1.21" = _UCsCGWia;
         "neoforge-1.21.2" = _wugqbxDc;
         "neoforge-1.21.3" = _wugqbxDc;
         "neoforge-1.21.4" = _fSh7Xz6T;
@@ -252,11 +313,12 @@ let
         "neoforge-1.21.8" = _gKfUsG9f;
         "neoforge-1.21.9" = _CUWASh38;
         "neoforge-1.21.10" = _CUWASh38;
-        "neoforge-1.21.11" = _Ildl6qtn;
-        "neoforge-26.1" = _GVPnCrQe;
-        "neoforge-26.1.1" = _GVPnCrQe;
-        "neoforge-26.1.2" = _GVPnCrQe;
-        "neoforge-26.2" = _Bax7O9mk;
+        "neoforge-1.21.11" = _22apzjyv;
+        "neoforge-26.1" = _T6fI4pDt;
+        "neoforge-26.1.1" = _T6fI4pDt;
+        "neoforge-26.1.2" = _T6fI4pDt;
+        "neoforge-26.2" = _H5TsQmUD;
+        "neoforge-26.3" = _FSjSBzNH;
         "pkg-1.0" = _pk9xoxHG;
         "pkg-1.0.1" = _ZXSdfeRy;
         "pkg-1.0.2" = _j3h6jzm0;
@@ -268,7 +330,17 @@ let
         "pkg-1.0.2-fabric-26.1" = _EW1u52sH;
         "pkg-1.0.2-neoforge-26.2" = _Bax7O9mk;
         "pkg-1.0.2-fabric-26.2" = _j46qyCkn;
-        "default" = _j46qyCkn;
+        "pkg-1.0.3-neoforge-1.21.1" = _UCsCGWia;
+        "pkg-1.0.3-fabric-1.21.1" = _fj1FbPRr;
+        "pkg-1.0.3-neoforge-1.21.11" = _22apzjyv;
+        "pkg-1.0.3-fabric-1.21.11" = _ZDY4srG1;
+        "pkg-1.0.3-neoforge-26.1.2" = _T6fI4pDt;
+        "pkg-1.0.3-fabric-26.1.2" = _qISCwX5j;
+        "pkg-1.0.3-neoforge-26.2" = _H5TsQmUD;
+        "pkg-1.0.3-fabric-26.2" = _fZWUuegS;
+        "pkg-1.0.3-neoforge-26.3" = _FSjSBzNH;
+        "pkg-1.0.3-fabric-26.3" = _7NswRGH9;
+        "default" = _7NswRGH9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "metal-fences";

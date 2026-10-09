@@ -131,6 +131,21 @@ let
             "file" = "animalgarden-manatee-1.0.1-forge-1.20.1-47.4.9.jar";
             "hash" = "sha512-V8wtNsjVU30Y4QmX7X5QMOxZvSDPjCizY2k/zcuTUK0dXhHlt2D1DDIi/dh7jk/vVMcKw0viHkAYnVgniFcekQ==";
         };
+        _N0r9Xbgz = {
+            "id" = "N0r9Xbgz";
+            "file" = "animalgarden-manatee-1.0.2-fabric-26.3-0.161.0.jar";
+            "hash" = "sha512-pI8L1BbuLCtiGReCFe/6sQ7o6oQ17OobZwR+dCd3jK5NVtevS5uvBz5Swuc41HlqCtq6mLAD53//r48tB1TIjQ==";
+        };
+        _YmX7K8OA = {
+            "id" = "YmX7K8OA";
+            "file" = "animalgarden-manatee-1.0.2-neoforge-26.3.0.10.jar";
+            "hash" = "sha512-KgRIsbxtH/t14y55YRjNRrcpnE0ietQyhiBzosggPPyUxnHQWZg4xY0o/ScTPLwGmJQaHLoOvTsU7PwYvHPBeQ==";
+        };
+        _LPJFQFGL = {
+            "id" = "LPJFQFGL";
+            "file" = "animalgarden-manatee-1.0.2-forge-26.3-66.0.2.jar";
+            "hash" = "sha512-Ta4AvIgQ9jTab5whfbBaMd6zhbv5REzGM9aDD7N0W9Zeofoku/bWdN3vHEA2lK+ML6lG3Tz1KMMF/K2s5CK4vg==";
+        };
     in {
         "gNv5A1FD" = _gNv5A1FD;
         "qzADQkU8" = _qzADQkU8;
@@ -158,6 +173,9 @@ let
         "O1Aiuajx" = _O1Aiuajx;
         "ZmyMgRN8" = _ZmyMgRN8;
         "993AVg0L" = _993AVg0L;
+        "N0r9Xbgz" = _N0r9Xbgz;
+        "YmX7K8OA" = _YmX7K8OA;
+        "LPJFQFGL" = _LPJFQFGL;
         "fabric-1.21.6" = _gNv5A1FD;
         "fabric-1.21.7" = _gNv5A1FD;
         "fabric-1.21.8" = _gNv5A1FD;
@@ -172,6 +190,7 @@ let
         "fabric-26.1.1" = _ZmyMgRN8;
         "fabric-26.1.2" = _ZmyMgRN8;
         "fabric-26.2" = _ZmyMgRN8;
+        "fabric-26.3" = _N0r9Xbgz;
         "forge-1.21.6" = _qzADQkU8;
         "forge-1.21.7" = _qzADQkU8;
         "forge-1.21.8" = _qzADQkU8;
@@ -188,6 +207,7 @@ let
         "forge-26.1.1" = _T2tdIMbE;
         "forge-26.1.2" = _T2tdIMbE;
         "forge-26.2" = _T2tdIMbE;
+        "forge-26.3" = _LPJFQFGL;
         "neoforge-1.21.6" = _7yOg0ZXj;
         "neoforge-1.21.7" = _7yOg0ZXj;
         "neoforge-1.21.8" = _7yOg0ZXj;
@@ -200,6 +220,7 @@ let
         "neoforge-26.1.1" = _O1Aiuajx;
         "neoforge-26.1.2" = _O1Aiuajx;
         "neoforge-26.2" = _O1Aiuajx;
+        "neoforge-26.3" = _YmX7K8OA;
         "pkg-1.0.0-fabric-1.21.8-0.133.4" = _gNv5A1FD;
         "pkg-1.0.0-forge-1.21.8-58.1.4" = _qzADQkU8;
         "pkg-1.0.0-neoforge-1.21.8-21.8.47" = _7yOg0ZXj;
@@ -226,7 +247,10 @@ let
         "pkg-1.0.2-neoforge-26.1.2.2" = _O1Aiuajx;
         "pkg-1.0.2-fabric-26.1.2-0.145.4" = _ZmyMgRN8;
         "pkg-1.0.1-forge-1.20.1-47.4.9" = _993AVg0L;
-        "default" = _993AVg0L;
+        "pkg-1.0.2-fabric-26.3-0.161.0" = _N0r9Xbgz;
+        "pkg-1.0.2-neoforge-26.3.0.10" = _YmX7K8OA;
+        "pkg-1.0.2-forge-26.3-66.0.2" = _LPJFQFGL;
+        "default" = _LPJFQFGL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "animal-garden-manatee";

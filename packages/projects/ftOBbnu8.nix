@@ -261,6 +261,16 @@ let
             "file" = "MobLassos-v26.2.1-mc26.2.x-Fabric.jar";
             "hash" = "sha512-jxXONr88BqL+dMAqdUxGgx8iphdaBq19+zbKVL8+u6sY8mi2CbB6++rYwu+RtJzISElmcjIqg75m3cwWj1gT9w==";
         };
+        _ZmE0KjD2 = {
+            "id" = "ZmE0KjD2";
+            "file" = "moblassos-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-L6oyHJT2IlrLtmzlnudnABEQU3ZFUynRp/2l8kn22jp2U3T5Nb1Dd1ncDxmXk9MeTwoKaycGzFB1A6wPW0FvQg==";
+        };
+        _YBQ6sT2C = {
+            "id" = "YBQ6sT2C";
+            "file" = "moblassos-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-ygatLn3mdT6DsZp1GesLttf7yn7tXXWDvW/cOrtlp3UHFl3az7fOITjz0YSNrolhRh7ctmNtNFFKFN4UOq/b6g==";
+        };
     in {
         "bI7XhoOv" = _bI7XhoOv;
         "pxYM3MjB" = _pxYM3MjB;
@@ -314,6 +324,8 @@ let
         "9DpsmaCN" = _9DpsmaCN;
         "hPDJZStZ" = _hPDJZStZ;
         "I33HI2mn" = _I33HI2mn;
+        "ZmE0KjD2" = _ZmE0KjD2;
+        "YBQ6sT2C" = _YBQ6sT2C;
         "forge-1.19.2" = _bI7XhoOv;
         "forge-1.19.3" = _ZHNPzz2x;
         "forge-1.19.4" = _qWmRaIrT;
@@ -342,6 +354,7 @@ let
         "fabric-26.1.1" = _9DpsmaCN;
         "fabric-26.1.2" = _9DpsmaCN;
         "fabric-26.2" = _I33HI2mn;
+        "fabric-26.3" = _ZmE0KjD2;
         "neoforge-1.20.4" = _lTOvxBBA;
         "neoforge-1.21.1" = _Qsj3YEUS;
         "neoforge-1.21.3" = _aIqUS2B5;
@@ -357,6 +370,7 @@ let
         "neoforge-26.1.1" = _QfWRTT8M;
         "neoforge-26.1.2" = _QfWRTT8M;
         "neoforge-26.2" = _hPDJZStZ;
+        "neoforge-26.3" = _YBQ6sT2C;
         "pkg-v4.0.0-1.19.2-Forge" = _bI7XhoOv;
         "pkg-v4.0.0-1.19.2-Fabric" = _pxYM3MjB;
         "pkg-v5.0.0-1.19.3-Forge" = _ZHNPzz2x;
@@ -402,7 +416,8 @@ let
         "pkg-26.2.0" = _jYJfBYEa;
         "pkg-26.1.1" = _9DpsmaCN;
         "pkg-26.2.1" = _I33HI2mn;
-        "default" = _I33HI2mn;
+        "pkg-26.3.0" = _YBQ6sT2C;
+        "default" = _YBQ6sT2C;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mob-lassos";

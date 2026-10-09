@@ -101,6 +101,11 @@ let
             "file" = "DeluxeHub-3.8.5.jar";
             "hash" = "sha512-rAOaKskzeOGiFwJdRTmbQz4evV96moOHpV7eRw3+wIe8wzw4id36xd/S1QUVvbR+XjiKjk+sTrYAL0CAEmiSwQ==";
         };
+        _Vr053u0W = {
+            "id" = "Vr053u0W";
+            "file" = "DeluxeHub-3.8.6.jar";
+            "hash" = "sha512-3d3c2OYD2Apl16ZnyvcpSiu+DiwN6b8bmjxaChy8nEuz+IqaTpElmcS+Kxuicd2BSJoH44d2f8dPj+CQ6sqcpQ==";
+        };
     in {
         "4bJbgtWN" = _4bJbgtWN;
         "JInpoGuh" = _JInpoGuh;
@@ -122,14 +127,15 @@ let
         "WwiBWl0B" = _WwiBWl0B;
         "pm2ODsZs" = _pm2ODsZs;
         "4C6cQWcf" = _4C6cQWcf;
-        "paper-1.19" = _4C6cQWcf;
+        "Vr053u0W" = _Vr053u0W;
+        "paper-1.19" = _Vr053u0W;
         "paper-1.20" = _4C6cQWcf;
         "paper-1.20.1" = _4C6cQWcf;
         "paper-1.20.2" = _4C6cQWcf;
-        "paper-1.19.1" = _4C6cQWcf;
-        "paper-1.19.2" = _4C6cQWcf;
-        "paper-1.19.3" = _4C6cQWcf;
-        "paper-1.19.4" = _4C6cQWcf;
+        "paper-1.19.1" = _Vr053u0W;
+        "paper-1.19.2" = _Vr053u0W;
+        "paper-1.19.3" = _Vr053u0W;
+        "paper-1.19.4" = _Vr053u0W;
         "paper-1.21.6" = _4C6cQWcf;
         "paper-1.20.3" = _4C6cQWcf;
         "paper-1.20.4" = _4C6cQWcf;
@@ -196,11 +202,11 @@ let
         "bukkit-1.21.6" = _35fSr7ue;
         "bukkit-1.21.1" = _3Y14aQeT;
         "bukkit-1.21.10" = _3Y14aQeT;
-        "folia-1.19" = _4C6cQWcf;
-        "folia-1.19.1" = _4C6cQWcf;
-        "folia-1.19.2" = _4C6cQWcf;
-        "folia-1.19.3" = _4C6cQWcf;
-        "folia-1.19.4" = _4C6cQWcf;
+        "folia-1.19" = _Vr053u0W;
+        "folia-1.19.1" = _Vr053u0W;
+        "folia-1.19.2" = _Vr053u0W;
+        "folia-1.19.3" = _Vr053u0W;
+        "folia-1.19.4" = _Vr053u0W;
         "folia-1.20" = _4C6cQWcf;
         "folia-1.20.1" = _4C6cQWcf;
         "folia-1.20.2" = _4C6cQWcf;
@@ -249,7 +255,8 @@ let
         "pkg-3.8.3" = _WwiBWl0B;
         "pkg-3.8.4" = _pm2ODsZs;
         "pkg-3.8.5" = _4C6cQWcf;
-        "default" = _4C6cQWcf;
+        "pkg-3.8.6" = _Vr053u0W;
+        "default" = _Vr053u0W;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "deluxehub";

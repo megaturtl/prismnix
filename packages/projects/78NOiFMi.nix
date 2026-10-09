@@ -21,11 +21,17 @@ let
             "file" = "Black Villager 26.2+.zip";
             "hash" = "sha512-WHBbdo5SgqN+jeOh6H0NXXDOV6g3/RAnNIb+zZaIj51s0IA5a2HC7DhkEyCsGYfif9Yd1N79161aGM0+myc9BQ==";
         };
+        _Cv4SXOcr = {
+            "id" = "Cv4SXOcr";
+            "file" = "Black Villager 26.3+.zip";
+            "hash" = "sha512-1/8bwGS6Dtgdtko3JsZwb1rGxg7G0uF8yj2VK1VXTz5HGZ0kbpsQkVA9pF9tyEbgGrKJHuyNfg7/RTY/jaREiw==";
+        };
     in {
         "huMUkZV1" = _huMUkZV1;
         "oVtZsXJ5" = _oVtZsXJ5;
         "b0l2FSkN" = _b0l2FSkN;
         "BO8vPeA5" = _BO8vPeA5;
+        "Cv4SXOcr" = _Cv4SXOcr;
         "minecraft-1.20" = _huMUkZV1;
         "minecraft-1.20.1" = _huMUkZV1;
         "minecraft-1.20.2" = _huMUkZV1;
@@ -49,11 +55,13 @@ let
         "minecraft-26.1.1" = _b0l2FSkN;
         "minecraft-26.1.2" = _b0l2FSkN;
         "minecraft-26.2" = _BO8vPeA5;
+        "minecraft-26.3" = _Cv4SXOcr;
         "pkg-1.0" = _huMUkZV1;
         "pkg-1.1" = _oVtZsXJ5;
         "pkg-1.2" = _b0l2FSkN;
         "pkg-1.3" = _BO8vPeA5;
-        "default" = _BO8vPeA5;
+        "pkg-1.4" = _Cv4SXOcr;
+        "default" = _Cv4SXOcr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "black-villager";

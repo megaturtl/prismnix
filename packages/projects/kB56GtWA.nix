@@ -256,6 +256,16 @@ let
             "file" = "JustEnoughProfessions-neoforge-26.2-12.0.0.jar";
             "hash" = "sha512-OLWoiMdT+cz4dHcMJEQAaaGyKLJeSiMXX+cOz/5z9eYZGcba9bOtvXoufWsvALR+KQjtvDRRS5xp9RVOG6S4Xg==";
         };
+        _846p7ETu = {
+            "id" = "846p7ETu";
+            "file" = "JustEnoughProfessions-fabric-26.3-130.0.jar";
+            "hash" = "sha512-sfKVEDbPPEnVU+eQvgWYDWyTfTYVlJx2y0ZyoYdbTtiyouq1l4VS+q9MsGOlZTqjA6THu9FNZA7DNk+9N0SQSQ==";
+        };
+        _Hb1THZGR = {
+            "id" = "Hb1THZGR";
+            "file" = "JustEnoughProfessions-neoforge-26.3-130.0.jar";
+            "hash" = "sha512-gUp6KkVE9wa7/tdiVfLhiCSK7EPm0Fl57qT+jutK5hs73iOMoq5at2msMSzeP/v91ZK5dekeROgBLL0IjgumHQ==";
+        };
     in {
         "OnLlkOCY" = _OnLlkOCY;
         "vA6s0bNJ" = _vA6s0bNJ;
@@ -308,6 +318,8 @@ let
         "aTSBRr3o" = _aTSBRr3o;
         "G7JNaL0M" = _G7JNaL0M;
         "bAUsW5Dv" = _bAUsW5Dv;
+        "846p7ETu" = _846p7ETu;
+        "Hb1THZGR" = _Hb1THZGR;
         "forge-1.18.2" = _EorQAPnD;
         "forge-1.17.1" = _vA6s0bNJ;
         "forge-1.16.5" = _mtyuNJXV;
@@ -337,6 +349,7 @@ let
         "fabric-26.1.1" = _h5xycz6j;
         "fabric-26.1.2" = _ue6fHHJQ;
         "fabric-26.2" = _G7JNaL0M;
+        "fabric-26.3" = _846p7ETu;
         "neoforge-1.20.4" = _GqiJ8BmU;
         "neoforge-1.20.6" = _lqMg4Tgr;
         "neoforge-1.21" = _3HEGknDa;
@@ -350,6 +363,7 @@ let
         "neoforge-26.1.1" = _lJaTVM5G;
         "neoforge-26.1.2" = _aTSBRr3o;
         "neoforge-26.2" = _bAUsW5Dv;
+        "neoforge-26.3" = _Hb1THZGR;
         "pkg-1.2.2.3" = _OnLlkOCY;
         "pkg-1.2.2.2" = _vA6s0bNJ;
         "pkg-1.2.2.1" = _mtyuNJXV;
@@ -379,7 +393,8 @@ let
         "pkg-4.0.5" = _qYA1sbDb;
         "pkg-11.0.2" = _aTSBRr3o;
         "pkg-12.0.0" = _bAUsW5Dv;
-        "default" = _bAUsW5Dv;
+        "pkg-130.0" = _Hb1THZGR;
+        "default" = _Hb1THZGR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "just-enough-professions-jep";

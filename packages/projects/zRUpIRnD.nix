@@ -66,6 +66,11 @@ let
             "file" = "noresourcepack-1.3.0.jar";
             "hash" = "sha512-pd45ktQtItHjPyCMTFnH3W8YD2rBTOmdM4p8l6ZVMrKHaarzoV+rpHn5EkwPp9etoVaSA1/7WLDB3PFJ3r/NiA==";
         };
+        _FATz5YqG = {
+            "id" = "FATz5YqG";
+            "file" = "noresourcepack-1.3.0.jar";
+            "hash" = "sha512-w2ZZL2/H7ID4X7x2/zKvHVhSc62TO7T23e4yWHHezU4PKx4WPLRd9Xx7pg9F+6YxZnETj/iDkOjVFkkBLjw6nA==";
+        };
     in {
         "DCMbpQRa" = _DCMbpQRa;
         "1VPD9yKg" = _1VPD9yKg;
@@ -80,11 +85,13 @@ let
         "du6yPpeI" = _du6yPpeI;
         "DVUsEkWt" = _DVUsEkWt;
         "SWt7A1RU" = _SWt7A1RU;
+        "FATz5YqG" = _FATz5YqG;
         "fabric-26.2" = _du6yPpeI;
         "fabric-26.1" = _DVUsEkWt;
         "fabric-26.1.1" = _DVUsEkWt;
         "fabric-26.1.2" = _DVUsEkWt;
         "fabric-1.21.11" = _SWt7A1RU;
+        "fabric-26.3" = _FATz5YqG;
         "pkg-v1.0.0" = _DCMbpQRa;
         "pkg-v1.0.0-26.2" = _1VPD9yKg;
         "pkg-v1.0.0-26.1" = _JaB9fIU2;
@@ -98,7 +105,8 @@ let
         "pkg-v1.3.0-26.2" = _du6yPpeI;
         "pkg-v1.3.0-26.1" = _DVUsEkWt;
         "pkg-v1.3.0-1.21.11" = _SWt7A1RU;
-        "default" = _SWt7A1RU;
+        "pkg-v1.3.0-26.3" = _FATz5YqG;
+        "default" = _FATz5YqG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "noresourcepack";

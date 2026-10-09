@@ -51,6 +51,16 @@ let
             "file" = "toughness-enchantment-v1.0.2.jar";
             "hash" = "sha512-mAILpqjJ7sDJHm99Dc7ZgBJj53BL2Aeg8fgEkmKC9KRLUA5w+vl7C2dXpMkrZ3g81BU2PZm/Kx6V0XCs8zmPbA==";
         };
+        _Ljasli6A = {
+            "id" = "Ljasli6A";
+            "file" = "Toughness Enchantment v1.0.2 [26.3].zip";
+            "hash" = "sha512-gDDnVZh/QWUTwgEyvycBZB51D+2CgegPCqwSFVxMNljlzOY/2GE6qunbiDYdcNvzPKJTAYML8rZxcTC2of7oNg==";
+        };
+        _7L72yUGS = {
+            "id" = "7L72yUGS";
+            "file" = "toughness-enchantment-1.0.2.jar";
+            "hash" = "sha512-VABpsIeXQ0sl8P5K1y1zSHuJ1Cnfg3Ms3WngcPMIsThmKkWBqI1Pp90ib588kF+FsiIxOEfaSlw4ITJeqP2crw==";
+        };
     in {
         "Gh87c9ZK" = _Gh87c9ZK;
         "bBOFtqD5" = _bBOFtqD5;
@@ -62,6 +72,8 @@ let
         "IfyOtk2R" = _IfyOtk2R;
         "D1ULoqOV" = _D1ULoqOV;
         "MQkh9wrq" = _MQkh9wrq;
+        "Ljasli6A" = _Ljasli6A;
+        "7L72yUGS" = _7L72yUGS;
         "datapack-1.21.2" = _D1ULoqOV;
         "datapack-1.21.3" = _D1ULoqOV;
         "datapack-1.21.4" = _D1ULoqOV;
@@ -78,6 +90,7 @@ let
         "datapack-26.1.1" = _D1ULoqOV;
         "datapack-26.1.2" = _D1ULoqOV;
         "datapack-26.2" = _D1ULoqOV;
+        "datapack-26.3" = _Ljasli6A;
         "fabric-1.21.2" = _MQkh9wrq;
         "fabric-1.21.3" = _MQkh9wrq;
         "fabric-1.21.4" = _MQkh9wrq;
@@ -94,6 +107,7 @@ let
         "fabric-26.1.1" = _MQkh9wrq;
         "fabric-26.1.2" = _MQkh9wrq;
         "fabric-26.2" = _MQkh9wrq;
+        "fabric-26.3" = _7L72yUGS;
         "forge-1.21.2" = _MQkh9wrq;
         "forge-1.21.3" = _MQkh9wrq;
         "forge-1.21.4" = _MQkh9wrq;
@@ -110,6 +124,7 @@ let
         "forge-26.1.1" = _MQkh9wrq;
         "forge-26.1.2" = _MQkh9wrq;
         "forge-26.2" = _MQkh9wrq;
+        "forge-26.3" = _7L72yUGS;
         "neoforge-1.21.2" = _MQkh9wrq;
         "neoforge-1.21.3" = _MQkh9wrq;
         "neoforge-1.21.4" = _MQkh9wrq;
@@ -126,6 +141,7 @@ let
         "neoforge-26.1.1" = _MQkh9wrq;
         "neoforge-26.1.2" = _MQkh9wrq;
         "neoforge-26.2" = _MQkh9wrq;
+        "neoforge-26.3" = _7L72yUGS;
         "quilt-1.21.2" = _MQkh9wrq;
         "quilt-1.21.3" = _MQkh9wrq;
         "quilt-1.21.4" = _MQkh9wrq;
@@ -142,13 +158,16 @@ let
         "quilt-26.1.1" = _MQkh9wrq;
         "quilt-26.1.2" = _MQkh9wrq;
         "quilt-26.2" = _MQkh9wrq;
+        "quilt-26.3" = _7L72yUGS;
         "pkg-v1.0.1" = _Gh87c9ZK;
         "pkg-v1.0.1+mod" = _bBOFtqD5;
         "pkg-v1.0.0-1.21-1.21.1" = _SmxIPHjc;
         "pkg-v1.0.0-1.21-1.21.1+mod" = _52etvAH0;
         "pkg-v1.0.2" = _D1ULoqOV;
         "pkg-v1.0.2+mod" = _MQkh9wrq;
-        "default" = _MQkh9wrq;
+        "pkg-1.0.2" = _Ljasli6A;
+        "pkg-1.0.2+mod" = _7L72yUGS;
+        "default" = _7L72yUGS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "toughness-enchantment";

@@ -36,6 +36,11 @@ let
             "file" = "Paddy's_Hand-Drawn_Textures_26.1_v0.10wip.zip";
             "hash" = "sha512-eAfFxV9wlAOfw4VULWYGVB1pSrCiFYkYFkvU/Vn2/4RH+HaqWwjdULUxpLYQ+CmFYX+A9NuknIytmn2jGJqgFA==";
         };
+        _QbC9cQ1C = {
+            "id" = "QbC9cQ1C";
+            "file" = "Paddy's_Hand-Drawn_Textures_26.1_v0.11wip.zip";
+            "hash" = "sha512-ayLYJItbDQZFwupknOzpe0UMi1Rh2LTBbpA/pMUnr1IVhH0/4yzKmrWC5HbO074HQ0OhQbFooXF8bs/qoFTVVw==";
+        };
     in {
         "9P1NVyYM" = _9P1NVyYM;
         "ES8wogdC" = _ES8wogdC;
@@ -44,11 +49,12 @@ let
         "kGf6MA3r" = _kGf6MA3r;
         "6gIh92W7" = _6gIh92W7;
         "I6FzTV7X" = _I6FzTV7X;
+        "QbC9cQ1C" = _QbC9cQ1C;
         "minecraft-1.21.5" = _kGf6MA3r;
-        "minecraft-1.21.11" = _I6FzTV7X;
-        "minecraft-26.1" = _I6FzTV7X;
-        "minecraft-26.1.1" = _I6FzTV7X;
-        "minecraft-26.1.2" = _I6FzTV7X;
+        "minecraft-1.21.11" = _QbC9cQ1C;
+        "minecraft-26.1" = _QbC9cQ1C;
+        "minecraft-26.1.1" = _QbC9cQ1C;
+        "minecraft-26.1.2" = _QbC9cQ1C;
         "pkg-0.4" = _9P1NVyYM;
         "pkg-0.5" = _ES8wogdC;
         "pkg-0.6" = _bH79AmuP;
@@ -56,7 +62,8 @@ let
         "pkg-0.8" = _kGf6MA3r;
         "pkg-0.9" = _6gIh92W7;
         "pkg-0.10" = _I6FzTV7X;
-        "default" = _I6FzTV7X;
+        "pkg-0.11" = _QbC9cQ1C;
+        "default" = _QbC9cQ1C;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "paddys-handdrawn-textures";

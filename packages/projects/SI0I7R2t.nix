@@ -216,6 +216,16 @@ let
             "file" = "MoreNuggets-26.2-0.1.jar";
             "hash" = "sha512-Kdlt/ujj9UpN6dbWRzvWHGzZNRYhQMdvFMWKOCYr6a0JySatN7Yv8qi61ok8+aYBCDEaggvidtZdFpYpMbJp3w==";
         };
+        _Yycv3N2x = {
+            "id" = "Yycv3N2x";
+            "file" = "MoreNuggets-26.3-0.1.jar";
+            "hash" = "sha512-2O/UbipyJIpydDDL3smjDdWsd3kscC20Itv1bdgkyvxk20JBt9uhQrggjS9R3YULBrSu51gKDrax2kHFtcoJEw==";
+        };
+        _48Wcv7PC = {
+            "id" = "48Wcv7PC";
+            "file" = "morenuggets-26.3-0.1.jar";
+            "hash" = "sha512-rWMuxc9r6k8Enm0ESAgsAkxKlEfgTxiArekkPMB9QiBN0TsLMfyfJjWPzV6/qRSCCL4ACIQiQFAfh1CMt6P23Q==";
+        };
     in {
         "onXNtfcC" = _onXNtfcC;
         "dtSJze43" = _dtSJze43;
@@ -260,6 +270,8 @@ let
         "ZBbXVVZz" = _ZBbXVVZz;
         "Y4pUpOai" = _Y4pUpOai;
         "woolKB0T" = _woolKB0T;
+        "Yycv3N2x" = _Yycv3N2x;
+        "48Wcv7PC" = _48Wcv7PC;
         "fabric-1.21.1" = _qvDnsktx;
         "fabric-1.21" = _ogEy23U7;
         "fabric-1.21.3" = _SBVy850S;
@@ -275,6 +287,7 @@ let
         "fabric-26.1.1" = _ETrK8hRD;
         "fabric-26.1.2" = _SxFNBbZa;
         "fabric-26.2" = _woolKB0T;
+        "fabric-26.3" = _Yycv3N2x;
         "forge-1.21" = _dtSJze43;
         "forge-1.21.1" = _iYmZfpe7;
         "forge-1.21.3" = _6xtObaD3;
@@ -301,6 +314,7 @@ let
         "neoforge-26.1.1" = _iE3SWGKZ;
         "neoforge-26.1.2" = _ZBbXVVZz;
         "neoforge-26.2" = _Y4pUpOai;
+        "neoforge-26.3" = _48Wcv7PC;
         "pkg-1.21.1-0.1" = _NPf0EFGR;
         "pkg-1.21-0.1" = _ogEy23U7;
         "pkg-1.21.3-0.1" = _Ag1VrlTq;
@@ -318,7 +332,8 @@ let
         "pkg-26.1.1-0.1" = _iE3SWGKZ;
         "pkg-26.1.2-0.1" = _ZBbXVVZz;
         "pkg-26.2-0.1" = _woolKB0T;
-        "default" = _woolKB0T;
+        "pkg-26.3-0.1" = _48Wcv7PC;
+        "default" = _48Wcv7PC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-nuggets";

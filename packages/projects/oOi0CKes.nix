@@ -331,6 +331,16 @@ let
             "file" = "DiagonalWindows-v26.2.0-mc26.2.x-NeoForge.jar";
             "hash" = "sha512-YnTpHvTVxMknS3jq4FAOTAiaIBYr4StFXYaSiANa9V2Sxtu/xgfakkQNKpviDscFS1f8fL5pxdbOMPmU07Mw9g==";
         };
+        _orlnUKLD = {
+            "id" = "orlnUKLD";
+            "file" = "diagonalwindows-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-XUACZ+QL2V6H4TKdfYwhJmN/Vk8yTg8caQpZJGz2UsWzSoBenJIUiqwYEx1R93t4p/sXI6LB/CQtnSPj4DriMQ==";
+        };
+        _gDyYJAQT = {
+            "id" = "gDyYJAQT";
+            "file" = "diagonalwindows-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-r8c0XuoAwOcech8J+VYaeBEXZmkQHGroBe0gcDDYafQVD288QfDuFfbrw5HMNCuX0wMokpeoXmYZ+uh9tPD7aA==";
+        };
     in {
         "WguEOROv" = _WguEOROv;
         "4GtyI3OY" = _4GtyI3OY;
@@ -398,6 +408,8 @@ let
         "7nHKJfYC" = _7nHKJfYC;
         "6dcXwYY3" = _6dcXwYY3;
         "AJqzp9Ve" = _AJqzp9Ve;
+        "orlnUKLD" = _orlnUKLD;
+        "gDyYJAQT" = _gDyYJAQT;
         "forge-1.20.1" = _IpxUHCn0;
         "forge-1.18.2" = _mZfzmsao;
         "forge-1.19.2" = _RB86wqXd;
@@ -421,6 +433,7 @@ let
         "fabric-26.1.1" = _7nHKJfYC;
         "fabric-26.1.2" = _7nHKJfYC;
         "fabric-26.2" = _6dcXwYY3;
+        "fabric-26.3" = _orlnUKLD;
         "neoforge-1.20.4" = _D3Majojm;
         "neoforge-1.21" = _tojstCyI;
         "neoforge-1.21.1" = _IwUmOLxe;
@@ -437,6 +450,7 @@ let
         "neoforge-26.1.1" = _VbwbzTrn;
         "neoforge-26.1.2" = _VbwbzTrn;
         "neoforge-26.2" = _AJqzp9Ve;
+        "neoforge-26.3" = _gDyYJAQT;
         "pkg-v8.0.0-1.20.1-Forge" = _WguEOROv;
         "pkg-v8.0.0-1.20.1-Fabric" = _4GtyI3OY;
         "pkg-v3.0.0-1.18.2-Fabric" = _d94QREs8;
@@ -497,7 +511,8 @@ let
         "pkg-21.11.1" = _ho1J3cSF;
         "pkg-26.1.0" = _7nHKJfYC;
         "pkg-26.2.0" = _AJqzp9Ve;
-        "default" = _AJqzp9Ve;
+        "pkg-26.3.0" = _gDyYJAQT;
+        "default" = _gDyYJAQT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "diagonal-windows";

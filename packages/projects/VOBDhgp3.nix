@@ -46,6 +46,11 @@ let
             "file" = "blinking-totem_26.1.2.zip";
             "hash" = "sha512-F2pFOrAQxrYUESMAZd0janK9v89eJ01weXBoDq9ERP3oGDgWZE5Otf5x1T6JIvku9wmIfRxk8ttZbys14i4R4g==";
         };
+        _wdLOz7U5 = {
+            "id" = "wdLOz7U5";
+            "file" = "blinking-totem_26.3.zip";
+            "hash" = "sha512-Umtq4BjcqzkvQZqvv8DE7PPQwO3wor3WZ0PLyVgCGZNUqAfhUml85aIi7ZfICBmV2S3Laav5j3Fpj0CyifJpCg==";
+        };
     in {
         "za5MQewQ" = _za5MQewQ;
         "XG7ogq82" = _XG7ogq82;
@@ -56,6 +61,7 @@ let
         "JIxX8XgI" = _JIxX8XgI;
         "elpJFBFY" = _elpJFBFY;
         "UAQUwbds" = _UAQUwbds;
+        "wdLOz7U5" = _wdLOz7U5;
         "minecraft-1.19" = _za5MQewQ;
         "minecraft-1.19.1" = _za5MQewQ;
         "minecraft-1.19.2" = _za5MQewQ;
@@ -83,6 +89,8 @@ let
         "minecraft-26.1" = _UAQUwbds;
         "minecraft-26.1.1" = _UAQUwbds;
         "minecraft-26.1.2" = _UAQUwbds;
+        "minecraft-26.2" = _wdLOz7U5;
+        "minecraft-26.3" = _wdLOz7U5;
         "pkg-1.0.0" = _za5MQewQ;
         "pkg-1.0.1" = _XG7ogq82;
         "pkg-1.0.2" = _75thwzlo;
@@ -92,7 +100,8 @@ let
         "pkg-1.0.6" = _JIxX8XgI;
         "pkg-1.0.7" = _elpJFBFY;
         "pkg-1.0.8" = _UAQUwbds;
-        "default" = _UAQUwbds;
+        "pkg-26.2-26.3" = _wdLOz7U5;
+        "default" = _wdLOz7U5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blinking-totem";

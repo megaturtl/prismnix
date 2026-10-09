@@ -131,6 +131,11 @@ let
             "file" = "boiled_reimagined-1.0.12-forge-1.20.1.jar";
             "hash" = "sha512-cfr+RJqR8JB5dNj8ow9MOS2xfsSORaixW2W26gpuLLJLtCjon8nhIvUG3GWc8MS+XCOm5NVd9Rz5HWjMjYMUyQ==";
         };
+        _jm9FcOEx = {
+            "id" = "jm9FcOEx";
+            "file" = "boiled_reimagined-1.0.12-neoforge-1.21.1.jar";
+            "hash" = "sha512-jo/Dlzp+IeByslUcQuiCCr9LOZjX/pUesBVx6CzAQWf6xGy+Isukk8pucrm8r/gAPaz5z+3WtAEtupnY6y75SQ==";
+        };
     in {
         "ZYW35Gt0" = _ZYW35Gt0;
         "SLWQSI73" = _SLWQSI73;
@@ -158,8 +163,10 @@ let
         "edYUZyr6" = _edYUZyr6;
         "NQUCrD7n" = _NQUCrD7n;
         "ZQ9TvLGM" = _ZQ9TvLGM;
+        "jm9FcOEx" = _jm9FcOEx;
         "forge-1.19.2" = _NQUCrD7n;
         "forge-1.20.1" = _ZQ9TvLGM;
+        "neoforge-1.21.1" = _jm9FcOEx;
         "pkg-1.0.0" = _SLWQSI73;
         "pkg-1.0.1" = _hvVFDvwE;
         "pkg-1.0.2" = _cFucCseY;
@@ -172,8 +179,8 @@ let
         "pkg-1.0.9" = _CthJVzV5;
         "pkg-1.0.10" = _Zj6vQYR8;
         "pkg-1.0.11" = _edYUZyr6;
-        "pkg-1.0.12" = _ZQ9TvLGM;
-        "default" = _ZQ9TvLGM;
+        "pkg-1.0.12" = _jm9FcOEx;
+        "default" = _jm9FcOEx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-boiled-one-reimagined";

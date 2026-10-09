@@ -31,6 +31,21 @@ let
             "file" = "Skeleton Physics.zip";
             "hash" = "sha512-7s8IGfTVWDRh/M8Qk0yk2osarUX/L6EOtiDIV8F49BbtMlQJ0/zVV+3cKlq9FcLcKB0rHpW+4cdYvIfMYOuS5w==";
         };
+        _YHcC1CHl = {
+            "id" = "YHcC1CHl";
+            "file" = "Skeleton Physics.zip";
+            "hash" = "sha512-2xBmEgQYRjGqx8H1I7m26WzTI83rolftTw6GOlfsHXxsvdZt6ipgN+tfY9uwoTEZiYfZA1fBSMqigaSa4xJqCg==";
+        };
+        _lzVuYSxJ = {
+            "id" = "lzVuYSxJ";
+            "file" = "Skeleton Physics.zip";
+            "hash" = "sha512-r56ZuMZZKXMHguub2NObO3ZZBAxohTNg8bXIRE+UBs1TlI9L7LiQNwIcw/2UZyBkDk8ZvFuNvCKW8GQOaaUCcA==";
+        };
+        _P7ZhUm36 = {
+            "id" = "P7ZhUm36";
+            "file" = "Skeleton Physics.zip";
+            "hash" = "sha512-m+LmEhzJlN3ZgSReBRJwwdyzUlIJix7w5TttS2tkSNWgihrqO6akfsm8BfdvMEsmWt9GFoqWzsAcJLgSEoLDOw==";
+        };
     in {
         "4fznnwg6" = _4fznnwg6;
         "cpKEn896" = _cpKEn896;
@@ -38,6 +53,9 @@ let
         "qXqnXmev" = _qXqnXmev;
         "E0lB38zT" = _E0lB38zT;
         "zZqrn78F" = _zZqrn78F;
+        "YHcC1CHl" = _YHcC1CHl;
+        "lzVuYSxJ" = _lzVuYSxJ;
+        "P7ZhUm36" = _P7ZhUm36;
         "minecraft-1.20" = _4fznnwg6;
         "minecraft-1.20.1" = _4fznnwg6;
         "minecraft-1.20.2" = _J1nTfMKa;
@@ -54,16 +72,24 @@ let
         "minecraft-1.21.6" = _J1nTfMKa;
         "minecraft-1.21.7" = _J1nTfMKa;
         "minecraft-1.21.8" = _J1nTfMKa;
-        "minecraft-1.21.9" = _zZqrn78F;
-        "minecraft-1.21.10" = _zZqrn78F;
-        "minecraft-1.21.11" = _zZqrn78F;
+        "minecraft-1.21.9" = _P7ZhUm36;
+        "minecraft-1.21.10" = _P7ZhUm36;
+        "minecraft-1.21.11" = _P7ZhUm36;
+        "minecraft-26.1" = _P7ZhUm36;
+        "minecraft-26.1.1" = _P7ZhUm36;
+        "minecraft-26.1.2" = _P7ZhUm36;
+        "minecraft-26.2" = _P7ZhUm36;
+        "minecraft-26.3" = _P7ZhUm36;
         "pkg-1.0.1" = _4fznnwg6;
         "pkg-1.0.2" = _cpKEn896;
         "pkg-1.1.0" = _J1nTfMKa;
         "pkg-1.2.0" = _qXqnXmev;
         "pkg-1.3.0" = _E0lB38zT;
         "pkg-1.4.0" = _zZqrn78F;
-        "default" = _zZqrn78F;
+        "pkg-1.7.0" = _YHcC1CHl;
+        "pkg-1.7.1" = _lzVuYSxJ;
+        "pkg-1.7.2" = _P7ZhUm36;
+        "default" = _P7ZhUm36;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skeleton-physics";

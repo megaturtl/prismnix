@@ -701,6 +701,21 @@ let
             "file" = "lavasand-26.2-neoforge-2.2.jar";
             "hash" = "sha512-+mooMDlXHYOSx+ihgAIM/54FlQYTIvX3XnO36wZmQzhF1wFNXuyT/4jzBPwyziiNly2s/ICZahygFaMwKoF2Jw==";
         };
+        _B9vnzYbR = {
+            "id" = "B9vnzYbR";
+            "file" = "lavasand-26.3-fabric-2.2.jar";
+            "hash" = "sha512-F5coXSx6TRKcRy/9hjOId3A1Gyi/1ZzFGlxqrKN5JRr/GGHkYZwtRUeEXqNsOQtqITJZRdLsaDT3rNAH7tl2jw==";
+        };
+        _xayjZJ4m = {
+            "id" = "xayjZJ4m";
+            "file" = "lavasand-26.3-forge-2.2.jar";
+            "hash" = "sha512-NKVZZ9vfXYYqNl288I7Nf2pRDcEdQo5cf0KfGhtj9AWBIiny8ig9A6fspWqO4reckFRxFqSaG/hFYtWG2NzmBA==";
+        };
+        _rmwDlwmL = {
+            "id" = "rmwDlwmL";
+            "file" = "lavasand-26.3-neoforge-2.2.jar";
+            "hash" = "sha512-TLiaeZvnMH0YT5lf8hYVXduDgY05pg/sgUOpLDxUXZaV2m+v2s+u5Kn9CaPWkY6uFU/W3oBVqkd6rWfarUdvGA==";
+        };
     in {
         "HNSrHlvY" = _HNSrHlvY;
         "qQXQlyml" = _qQXQlyml;
@@ -842,6 +857,9 @@ let
         "e2gkGSCr" = _e2gkGSCr;
         "A9F5hFmo" = _A9F5hFmo;
         "5qufCSat" = _5qufCSat;
+        "B9vnzYbR" = _B9vnzYbR;
+        "xayjZJ4m" = _xayjZJ4m;
+        "rmwDlwmL" = _rmwDlwmL;
         "forge-1.16.5" = _HNSrHlvY;
         "forge-1.18.2" = _vuPgkVhA;
         "forge-1.19" = _7jVeglzP;
@@ -874,6 +892,7 @@ let
         "forge-26.1.1" = _OIRXb21J;
         "forge-26.1.2" = _OIRXb21J;
         "forge-26.2" = _A9F5hFmo;
+        "forge-26.3" = _xayjZJ4m;
         "fabric-1.16.5" = _AhW1ENEh;
         "fabric-1.18.2" = _iDQL0GqJ;
         "fabric-1.19" = _hSamkcW2;
@@ -906,6 +925,7 @@ let
         "fabric-26.1.1" = _4C5Ggj2H;
         "fabric-26.1.2" = _4C5Ggj2H;
         "fabric-26.2" = _e2gkGSCr;
+        "fabric-26.3" = _B9vnzYbR;
         "quilt-1.16.5" = _AhW1ENEh;
         "quilt-1.18.2" = _iDQL0GqJ;
         "quilt-1.19" = _hSamkcW2;
@@ -938,6 +958,7 @@ let
         "quilt-26.1.1" = _4C5Ggj2H;
         "quilt-26.1.2" = _4C5Ggj2H;
         "quilt-26.2" = _e2gkGSCr;
+        "quilt-26.3" = _B9vnzYbR;
         "neoforge-1.20.4" = _kSHAzIEv;
         "neoforge-1.20.6" = _BMW246Q1;
         "neoforge-1.21" = _OW1cg4XB;
@@ -959,6 +980,7 @@ let
         "neoforge-26.1.1" = _ZOs2g48R;
         "neoforge-26.1.2" = _ZOs2g48R;
         "neoforge-26.2" = _5qufCSat;
+        "neoforge-26.3" = _rmwDlwmL;
         "pkg-1.16.5-0-forge" = _HNSrHlvY;
         "pkg-1.18.2-0-forge" = _qQXQlyml;
         "pkg-1.19-0-forge" = _nw1NBjKo;
@@ -1098,7 +1120,10 @@ let
         "pkg-26.2-fabric-2.2" = _e2gkGSCr;
         "pkg-26.2-forge-2.2" = _A9F5hFmo;
         "pkg-26.2-neoforge-2.2" = _5qufCSat;
-        "default" = _5qufCSat;
+        "pkg-26.3-fabric-2.2" = _B9vnzYbR;
+        "pkg-26.3-forge-2.2" = _xayjZJ4m;
+        "pkg-26.3-neoforge-2.2" = _rmwDlwmL;
+        "default" = _rmwDlwmL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lava-turns-sand-into-glass";

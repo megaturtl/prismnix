@@ -301,6 +301,16 @@ let
             "file" = "Skysoft-0.1.29-mc26.2.jar";
             "hash" = "sha512-zK64C1BIhh3O0D9NrVNmOpzD+MzvhBPR8pKPrwNAAVIqCYCutLdACMbw+QVwQtwhzzCpoTuzNSUiws7miwb/nA==";
         };
+        _CIvIaQ83 = {
+            "id" = "CIvIaQ83";
+            "file" = "Skysoft-0.1.30-mc26.2.jar";
+            "hash" = "sha512-Tppf65nJCbEd51GmpnAaQUYfBXG2JEksQut/iL7c5vOfEpZ2iaUR/zCBfv/EI8uwCLAzMyImuU4DXpVTq3Qy+A==";
+        };
+        _Wp8TuLsW = {
+            "id" = "Wp8TuLsW";
+            "file" = "Skysoft-0.1.30-mc26.1.jar";
+            "hash" = "sha512-kIqyqX4AkFKx2a4I5+S9K/kGIFifUFtM5f3FzPtudhFAUW3VaiD+WGkcmxUDXm49gWBPbovdhTgqWu6EsObRFA==";
+        };
     in {
         "8fTqahgC" = _8fTqahgC;
         "WnZNYpKT" = _WnZNYpKT;
@@ -362,10 +372,12 @@ let
         "IpjzH6Q9" = _IpjzH6Q9;
         "AeS6L7ac" = _AeS6L7ac;
         "dMBqt78p" = _dMBqt78p;
-        "fabric-26.1" = _AeS6L7ac;
-        "fabric-26.1.1" = _AeS6L7ac;
-        "fabric-26.1.2" = _AeS6L7ac;
-        "fabric-26.2" = _dMBqt78p;
+        "CIvIaQ83" = _CIvIaQ83;
+        "Wp8TuLsW" = _Wp8TuLsW;
+        "fabric-26.1" = _Wp8TuLsW;
+        "fabric-26.1.1" = _Wp8TuLsW;
+        "fabric-26.1.2" = _Wp8TuLsW;
+        "fabric-26.2" = _CIvIaQ83;
         "pkg-0.1.0" = _WnZNYpKT;
         "pkg-0.1.1" = _tKNpKqpA;
         "pkg-0.1.2" = _RjXNLDZJ;
@@ -396,7 +408,8 @@ let
         "pkg-0.1.27" = _HQe5JGcE;
         "pkg-0.1.28" = _IpjzH6Q9;
         "pkg-0.1.29" = _dMBqt78p;
-        "default" = _dMBqt78p;
+        "pkg-0.1.30" = _Wp8TuLsW;
+        "default" = _Wp8TuLsW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skysoft";

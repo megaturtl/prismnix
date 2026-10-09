@@ -21,11 +21,17 @@ let
             "file" = "paint-brush-1.0.3+26.1.jar";
             "hash" = "sha512-lIJUsT/WKtcdF1oHe76bCFYEiB0JJhAWl3BIp1nKWNIMKhCQttLhKfzi5Tpf7djE9a/Z04ipltWlnIvvkIgmug==";
         };
+        _Wx1vItlY = {
+            "id" = "Wx1vItlY";
+            "file" = "paint-brush-1.0.5+26.3.jar";
+            "hash" = "sha512-tbl6SSkmB58WQPaajLpnuM3y4RRQfv74yxnQYhc+urUXkElfXuVkB+C5aPW49UKSDcBf3EgymOQRr0rvmUg7Jw==";
+        };
     in {
         "s7OgtTwv" = _s7OgtTwv;
         "rHw4vTiW" = _rHw4vTiW;
         "EgvyZlBO" = _EgvyZlBO;
         "ldwzC9hW" = _ldwzC9hW;
+        "Wx1vItlY" = _Wx1vItlY;
         "fabric-1.21.8" = _rHw4vTiW;
         "fabric-1.21.9-rc1" = _EgvyZlBO;
         "fabric-1.21.9" = _EgvyZlBO;
@@ -33,11 +39,13 @@ let
         "fabric-26.1" = _ldwzC9hW;
         "fabric-26.1.1" = _ldwzC9hW;
         "fabric-26.1.2" = _ldwzC9hW;
+        "fabric-26.3" = _Wx1vItlY;
         "pkg-1.0.0" = _s7OgtTwv;
         "pkg-1.0.1" = _rHw4vTiW;
         "pkg-1.0.2+1.21.9-rc1" = _EgvyZlBO;
         "pkg-1.0.3+26.1" = _ldwzC9hW;
-        "default" = _ldwzC9hW;
+        "pkg-1.0.5+26.3" = _Wx1vItlY;
+        "default" = _Wx1vItlY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "paintbrush-mod";

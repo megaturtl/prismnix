@@ -371,6 +371,21 @@ let
             "file" = "fixedminecraft-1.6.2-1.21.11.jar";
             "hash" = "sha512-86CKJxJduWTsc1q/e9G3c4T7hxuQn1tHacFKuVjfbD42QJxiZAu5FSFkW/3CTZMAn/yFzEdSJom4XvBHjb4xMg==";
         };
+        _k6buGeRL = {
+            "id" = "k6buGeRL";
+            "file" = "fixedminecraft-26.1.2-v1.jar";
+            "hash" = "sha512-mQDnd1S0ohTsXXcUxrAvk6EZuD/IzIEtQh5d8HSidYhZBw/zJGqqOg/bO07d/X3HjoxRtsiBUoKKbN2lKt2zGA==";
+        };
+        _hhmA02WF = {
+            "id" = "hhmA02WF";
+            "file" = "fixedminecraft-26.2-v1.jar";
+            "hash" = "sha512-m0LMa2KQPZhLlPtBDLR2LATg1yHB049l395VoTAF54X2YyBIU/uQP3GCKMozAkLQBFBhxmzKWd6xCmBe8AO2VA==";
+        };
+        _T8pBYoyy = {
+            "id" = "T8pBYoyy";
+            "file" = "fixedminecraft-26.3-v1.jar";
+            "hash" = "sha512-fnsUHOXTCwgx4+4js/2eXPWTNfUvyD9HX6B81bvv2gvp+9tnKOeCO6VbDJx1AEDw6CUa6Q9AeEJ0KTFBoTZPgw==";
+        };
     in {
         "3vj9wuVA" = _3vj9wuVA;
         "QKXrocFK" = _QKXrocFK;
@@ -446,6 +461,9 @@ let
         "LDmMZtrS" = _LDmMZtrS;
         "5sJ453H5" = _5sJ453H5;
         "RHjdv42K" = _RHjdv42K;
+        "k6buGeRL" = _k6buGeRL;
+        "hhmA02WF" = _hhmA02WF;
+        "T8pBYoyy" = _T8pBYoyy;
         "fabric-1.20.4" = _kUzkPsYt;
         "fabric-1.21.4" = _EU3SREeo;
         "fabric-1.21.5" = _IQaLnK55;
@@ -456,6 +474,9 @@ let
         "fabric-1.21.9" = _bhhc9oZB;
         "fabric-1.21.10" = _mxZvUCbo;
         "fabric-1.21.11" = _RHjdv42K;
+        "fabric-26.1.2" = _k6buGeRL;
+        "fabric-26.2" = _hhmA02WF;
+        "fabric-26.3" = _T8pBYoyy;
         "pkg-1.0.0-1.20.4" = _3vj9wuVA;
         "pkg-1.0.1-1.20.4" = _QKXrocFK;
         "pkg-1.0.2-1.20.4" = _3WQVfWah;
@@ -530,7 +551,10 @@ let
         "pkg-1.6.1-1.21.11" = _LDmMZtrS;
         "pkg-1.6.1a-1.21.11" = _5sJ453H5;
         "pkg-1.6.2-1.21.11" = _RHjdv42K;
-        "default" = _RHjdv42K;
+        "pkg-26.1.2-v1" = _k6buGeRL;
+        "pkg-26.2-v1" = _hhmA02WF;
+        "pkg-26.3-v1" = _T8pBYoyy;
+        "default" = _T8pBYoyy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fixed";

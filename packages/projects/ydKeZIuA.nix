@@ -106,6 +106,11 @@ let
             "file" = "Veltium-0.1.21+26.2.jar";
             "hash" = "sha512-9KCXh11m9qnfa8hkCj9CCfKPe0dmCyOqyyvQblrNm5ifBUEKnGPTo4ZlN3hnPKcKWua5/GjSguqeVuMhkCvtDg==";
         };
+        _auMPGzZy = {
+            "id" = "auMPGzZy";
+            "file" = "Veltium-0.1.22+26.3.jar";
+            "hash" = "sha512-vo3B2MS1NQRosbiMdBOtgPemuqEuhd8gLcyN6PDXrx0nKXxAm3/W1uWXAgu8a8eMQJG3qDsoPZydg3is42nliw==";
+        };
     in {
         "W3EuXSRh" = _W3EuXSRh;
         "xIyqvOCP" = _xIyqvOCP;
@@ -128,6 +133,7 @@ let
         "gM6R8bD7" = _gM6R8bD7;
         "1Sc05CEI" = _1Sc05CEI;
         "oJA6zZGA" = _oJA6zZGA;
+        "auMPGzZy" = _auMPGzZy;
         "fabric-1.21.6" = _QXxLcrAf;
         "fabric-1.21.7" = _QXxLcrAf;
         "fabric-1.21.5" = _2H47PEBd;
@@ -144,6 +150,7 @@ let
         "fabric-26.1.1" = _1Sc05CEI;
         "fabric-26.1.2" = _1Sc05CEI;
         "fabric-26.2" = _oJA6zZGA;
+        "fabric-26.3" = _auMPGzZy;
         "quilt-1.21" = _w2SeppbZ;
         "quilt-1.21.1" = _w2SeppbZ;
         "quilt-1.21.2" = _w2SeppbZ;
@@ -160,6 +167,7 @@ let
         "quilt-26.1.1" = _1Sc05CEI;
         "quilt-26.1.2" = _1Sc05CEI;
         "quilt-26.2" = _oJA6zZGA;
+        "quilt-26.3" = _auMPGzZy;
         "pkg-0.1.5+1.21.7" = _W3EuXSRh;
         "pkg-0.1.5+1.21.5" = _xIyqvOCP;
         "pkg-0.1.6+1.21.8" = _hNSr2bAL;
@@ -181,7 +189,8 @@ let
         "pkg-0.1.19+26.1.2" = _gM6R8bD7;
         "pkg-0.1.20+26.1.2" = _1Sc05CEI;
         "pkg-0.1.21+26.2" = _oJA6zZGA;
-        "default" = _oJA6zZGA;
+        "pkg-0.1.22+26.3" = _auMPGzZy;
+        "default" = _auMPGzZy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "veltium";

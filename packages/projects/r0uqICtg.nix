@@ -161,6 +161,21 @@ let
             "file" = "ep-msg-encryption-fabric-2.1.0-1.21.11.jar";
             "hash" = "sha512-+A9U1eF/33Ubi0n1OR0tCBDi7EJ2wbGb2yOolgN8Ya/CCYo1xnGab2afCdZ52P58lUk2fKC4ZF+G7rabNxd40w==";
         };
+        _JcfgUgjD = {
+            "id" = "JcfgUgjD";
+            "file" = "ep-msg-encryption-fabric-2.1.0-26.1.jar";
+            "hash" = "sha512-fq+c3xHbzFzmx7lqJRPJq4NtcQD3sS+ecwWYKwgY1Fhmjp2bVgLKWCYFxd53b2hgGUJLDdb/7/wnJgREUrjf4Q==";
+        };
+        _Hjl2qPnh = {
+            "id" = "Hjl2qPnh";
+            "file" = "ep-msg-encryption-fabric-2.1.0-26.2.jar";
+            "hash" = "sha512-Usr7OcyINPrNmOvoLu2DPwGFR2Iqr+gW60xv/ayWRr1vRm7fWJcXbv3k0MU33i4FhxGlxBKriA5farGMGSYj9w==";
+        };
+        _WUq0j37W = {
+            "id" = "WUq0j37W";
+            "file" = "ep-msg-encryption-fabric-2.1.0-26.3.jar";
+            "hash" = "sha512-STDM5Gb2vNukGFurEYv1AUVJp9CljZ4/C0x++zGFFXQCnTfyXxOAS0ThxFLAz7TrTiq7cT/J17+rQpLlOHBCfQ==";
+        };
     in {
         "Ffj3kJH7" = _Ffj3kJH7;
         "EA3wkhiS" = _EA3wkhiS;
@@ -194,6 +209,9 @@ let
         "wPllqTCP" = _wPllqTCP;
         "quEWB3Oi" = _quEWB3Oi;
         "SEi5q5lF" = _SEi5q5lF;
+        "JcfgUgjD" = _JcfgUgjD;
+        "Hjl2qPnh" = _Hjl2qPnh;
+        "WUq0j37W" = _WUq0j37W;
         "fabric-1.20.1" = _tM9oqRQv;
         "fabric-1.20.2" = _nUHRBFUw;
         "fabric-1.20.4" = _t8OTjNZJ;
@@ -213,6 +231,11 @@ let
         "fabric-1.21.9" = _quEWB3Oi;
         "fabric-1.21.10" = _quEWB3Oi;
         "fabric-1.21.11" = _SEi5q5lF;
+        "fabric-26.1" = _JcfgUgjD;
+        "fabric-26.1.1" = _JcfgUgjD;
+        "fabric-26.1.2" = _JcfgUgjD;
+        "fabric-26.2" = _Hjl2qPnh;
+        "fabric-26.3" = _WUq0j37W;
         "quilt-1.20.1" = _tM9oqRQv;
         "quilt-1.20.2" = _nUHRBFUw;
         "quilt-1.20.4" = _t8OTjNZJ;
@@ -254,7 +277,10 @@ let
         "pkg-2.1.0+1.21.6" = _wPllqTCP;
         "pkg-2.1.0+1.21.9" = _quEWB3Oi;
         "pkg-2.1.0+1.21.11" = _SEi5q5lF;
-        "default" = _SEi5q5lF;
+        "pkg-2.1.0+26.1" = _JcfgUgjD;
+        "pkg-2.1.0+26.2" = _Hjl2qPnh;
+        "pkg-2.1.0+26.3" = _WUq0j37W;
+        "default" = _WUq0j37W;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "message-encryption";

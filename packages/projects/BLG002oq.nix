@@ -1106,6 +1106,16 @@ let
             "file" = "BetterCraftables_v8.0.0+mod_mc26.3.jar";
             "hash" = "sha512-dpusIbaNdGr9dbvZPybgzvw3WOKnvML4wQWdzNKWkbse+RZZFYELFqZcUJfqAX4+P7i+k12nLemolSZL9hmmwg==";
         };
+        _5qqidH6z = {
+            "id" = "5qqidH6z";
+            "file" = "BetterCraftables_v8.1.0-beta.1_mc26.3-26.4snap1.zip";
+            "hash" = "sha512-uv3LTVHRHP/VEC2cxWCVoscpy0xvxwAMr70LTcs8fBR/BVG/nUkP+i/5hLLnI0CqZ0QT3bMM8ksb9slpXcX+4Q==";
+        };
+        _QZKbqvmr = {
+            "id" = "QZKbqvmr";
+            "file" = "BetterCraftables_v8.1.0-beta.2_mc26.3-26.4snap3.zip";
+            "hash" = "sha512-KJpL39ST/cKoIUSO3rIHlFiI6mmwLy5p6+W8/TR46M5l7qlVTZmSAhI8S99FqDrNegyvc47jKxrIqfW35Hedzg==";
+        };
     in {
         "8dyWXSld" = _8dyWXSld;
         "zp2cl57n" = _zp2cl57n;
@@ -1328,6 +1338,8 @@ let
         "ENalpFwf" = _ENalpFwf;
         "8cqDG4py" = _8cqDG4py;
         "2UkGDTXL" = _2UkGDTXL;
+        "5qqidH6z" = _5qqidH6z;
+        "QZKbqvmr" = _QZKbqvmr;
         "datapack-1.19" = _8dyWXSld;
         "datapack-1.19.1" = _8dyWXSld;
         "datapack-1.19.2" = _8dyWXSld;
@@ -1559,7 +1571,10 @@ let
         "datapack-26.3-rc-1" = _ENalpFwf;
         "datapack-26.3-rc-2" = _ENalpFwf;
         "datapack-26.3-rc-3" = _ENalpFwf;
-        "datapack-26.3" = _8cqDG4py;
+        "datapack-26.3" = _QZKbqvmr;
+        "datapack-26.4-snapshot-1" = _QZKbqvmr;
+        "datapack-26.4-snapshot-2" = _QZKbqvmr;
+        "datapack-26.4-snapshot-3" = _QZKbqvmr;
         "fabric-1.20" = _gzNwrXUg;
         "fabric-1.20.1" = _gzNwrXUg;
         "fabric-1.20.2" = _52SzIfTy;
@@ -1855,7 +1870,9 @@ let
         "pkg-v8.0.0-rc.1" = _ENalpFwf;
         "pkg-v8.0.0" = _8cqDG4py;
         "pkg-v8.0.0+mod" = _2UkGDTXL;
-        "default" = _2UkGDTXL;
+        "pkg-v8.1.0-beta.1" = _5qqidH6z;
+        "pkg-v8.1.0-beta.2" = _QZKbqvmr;
+        "default" = _QZKbqvmr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-craftables";

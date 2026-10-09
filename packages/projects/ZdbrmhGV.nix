@@ -121,6 +121,26 @@ let
             "file" = "smart_tooltip_scroll-forge-2.3.1+1.20.1.jar";
             "hash" = "sha512-sNof8AdBLtHeUy5RYy6HydsBi1T2zRt0Sjo5yps+4R6w8n58g9gSn7H+gtDi3aRhPgW5jevGEqCOn8UdxG0xtA==";
         };
+        _hK769YiP = {
+            "id" = "hK769YiP";
+            "file" = "smart_tooltip_scroll-forge-2.3.2+1.20.1.jar";
+            "hash" = "sha512-ejvMZRNZCfo0pONDsyDn2OfYGfBjx2XYQ1SJA3n1DBVxIuePGpKEbkgpc3nhCyRm8vevHQjzqUQex5ZZVuIcfA==";
+        };
+        _opc3jlNa = {
+            "id" = "opc3jlNa";
+            "file" = "smart_tooltip_scroll-fabric-2.3.2+1.20.1.jar";
+            "hash" = "sha512-tgUR38Jxm2YRcOfXUBIobCOmd5ksVrsEdrw0xL0Y/Mfid74+SBUpH1VfqYfToaFiKpgUKBkCy6UnmQDj2ppChg==";
+        };
+        _ODQAf9Vs = {
+            "id" = "ODQAf9Vs";
+            "file" = "smart_tooltip_scroll-forge-2.4.0+1.20.1.jar";
+            "hash" = "sha512-cfvVwuCWVb8J89t5GBlafjWRwtliXSdvic7+JcukL6h3c7Kj5ko/+QPx+EN9kyQ1YqEutZ8ze6mdshmxGrnWnQ==";
+        };
+        _hlSa3XOX = {
+            "id" = "hlSa3XOX";
+            "file" = "smart_tooltip_scroll-fabric-2.4.0+1.20.1.jar";
+            "hash" = "sha512-9XKQroPZIqWWdyNh2QR9OTs/pthpxWoNEJvv96dUoSDGk8kXeqCCJ5bwsPz+w+VTVgPlDcUROAbUzBoH6FwbWw==";
+        };
     in {
         "igQB5K0L" = _igQB5K0L;
         "p78K2JM5" = _p78K2JM5;
@@ -146,9 +166,13 @@ let
         "SJ69Mumf" = _SJ69Mumf;
         "Po8Heaq1" = _Po8Heaq1;
         "fLia9RzX" = _fLia9RzX;
-        "fabric-1.20.1" = _Po8Heaq1;
+        "hK769YiP" = _hK769YiP;
+        "opc3jlNa" = _opc3jlNa;
+        "ODQAf9Vs" = _ODQAf9Vs;
+        "hlSa3XOX" = _hlSa3XOX;
+        "fabric-1.20.1" = _hlSa3XOX;
         "fabric-1.21.1" = _Wg0G76pt;
-        "forge-1.20.1" = _fLia9RzX;
+        "forge-1.20.1" = _ODQAf9Vs;
         "neoforge-1.21.1" = _5yxY9Gl4;
         "pkg-1.0.0" = _p78K2JM5;
         "pkg-1.1.0" = _1N6iDw9h;
@@ -162,7 +186,9 @@ let
         "pkg-2.2.0+1.20.1" = _USEUK08v;
         "pkg-2.3.0+1.20.1" = _SJ69Mumf;
         "pkg-2.3.1+1.20.1" = _fLia9RzX;
-        "default" = _fLia9RzX;
+        "pkg-2.3.2+1.20.1" = _opc3jlNa;
+        "pkg-2.4.0+1.20.1" = _hlSa3XOX;
+        "default" = _hlSa3XOX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "smart-tooltip-scroll";

@@ -51,6 +51,31 @@ let
             "file" = "simple_trash_slot-1.0.4+26.1.2-fabric.jar";
             "hash" = "sha512-i75xvOd9J83BRj9DQsxWEJRjoQzfcL6jQxEDpAvj/lAkiJ8IbQ7xkmAeaCsNBYHpHFbsUBPR2eBHJyNgSjkw7w==";
         };
+        _DYSiQ9nE = {
+            "id" = "DYSiQ9nE";
+            "file" = "simple_trash_slot-neoforge-1.0.5+26.1.2.jar";
+            "hash" = "sha512-toBFVRKalSfM3dsBnATfnzEf+RpydX750a77kFCeNvhW2dOr0aZhcM6wjK74FH+g33kncsXOVURYz+iyavMTcA==";
+        };
+        _PgiSv1YN = {
+            "id" = "PgiSv1YN";
+            "file" = "simple_trash_slot-neoforge-1.0.5+26.2.jar";
+            "hash" = "sha512-vYZAHBl0QOSoRBQChlcdfAkymmohnmumg/qovciGFHN9ySulPCmJpG53v2X7/VU2F5imZvTmsX/n7GbTSK/zHw==";
+        };
+        _4qdtSfmZ = {
+            "id" = "4qdtSfmZ";
+            "file" = "simple_trash_slot-fabric-1.0.5+26.3.jar";
+            "hash" = "sha512-Ae7C9Ly8gDZqT6FRdnASGbkXQjFkVxkstEfAumy7RnNKWYPHvapoukYcAAZtpqTosTSenpxAHPYDA4tx5HzJlQ==";
+        };
+        _4Nl3HkrG = {
+            "id" = "4Nl3HkrG";
+            "file" = "simple_trash_slot-fabric-1.0.5+26.2.jar";
+            "hash" = "sha512-0dudk2dI/fiqjaV00CToLbp3Z2LPiKdYQ2HjoN23RNtBF3Uxl1QmzYdGRgkRENoTEHxt2fMVRr0ij6lePu8oog==";
+        };
+        _6xctpQhh = {
+            "id" = "6xctpQhh";
+            "file" = "simple_trash_slot-fabric-1.0.5+26.1.2.jar";
+            "hash" = "sha512-LTMeF9MMK4lXDvsd2mYgmh3jSHNOF5YFsfbNduLer+I1CtxIqsO4L226kVYwx3IJBdld9xzWNMUV/crfVWzWPQ==";
+        };
     in {
         "kW1Fnl5f" = _kW1Fnl5f;
         "fjQf3RtI" = _fjQf3RtI;
@@ -62,13 +87,20 @@ let
         "i7r5a8GK" = _i7r5a8GK;
         "39A3CgcC" = _39A3CgcC;
         "7DPySwsd" = _7DPySwsd;
-        "neoforge-26.1" = _3ZCHbk80;
-        "neoforge-26.1.1" = _3ZCHbk80;
-        "neoforge-26.1.2" = _39A3CgcC;
-        "fabric-26.1" = _i7r5a8GK;
-        "fabric-26.1.1" = _i7r5a8GK;
-        "fabric-26.1.2" = _7DPySwsd;
-        "fabric-26.2" = _7DPySwsd;
+        "DYSiQ9nE" = _DYSiQ9nE;
+        "PgiSv1YN" = _PgiSv1YN;
+        "4qdtSfmZ" = _4qdtSfmZ;
+        "4Nl3HkrG" = _4Nl3HkrG;
+        "6xctpQhh" = _6xctpQhh;
+        "neoforge-26.1" = _DYSiQ9nE;
+        "neoforge-26.1.1" = _DYSiQ9nE;
+        "neoforge-26.1.2" = _DYSiQ9nE;
+        "neoforge-26.2" = _PgiSv1YN;
+        "fabric-26.1" = _6xctpQhh;
+        "fabric-26.1.1" = _6xctpQhh;
+        "fabric-26.1.2" = _6xctpQhh;
+        "fabric-26.2" = _4Nl3HkrG;
+        "fabric-26.3" = _4qdtSfmZ;
         "pkg-1.0.0+26.1.1-neoforge" = _kW1Fnl5f;
         "pkg-1.0.0+26.1.1-fabric" = _fjQf3RtI;
         "pkg-1.0.1+26.1.1-neoforge" = _A0WCOHI9;
@@ -79,7 +111,10 @@ let
         "pkg-1.0.3+26.1.2-fabric" = _i7r5a8GK;
         "pkg-1.0.4+26.1.2-neoforge" = _39A3CgcC;
         "pkg-1.0.4+26.1.2-fabric" = _7DPySwsd;
-        "default" = _7DPySwsd;
+        "pkg-1.0.5+26.1.2" = _6xctpQhh;
+        "pkg-1.0.5+26.2" = _4Nl3HkrG;
+        "pkg-1.0.5+26.3" = _4qdtSfmZ;
+        "default" = _6xctpQhh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-trash-slot";

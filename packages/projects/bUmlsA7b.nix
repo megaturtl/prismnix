@@ -616,6 +616,16 @@ let
             "file" = "BetterUnpackables_v5.0.0+mod_mc26.3.jar";
             "hash" = "sha512-QzAkKIe/JBiLN6iMQ+Z9uE5VF9kKnginnAcDB5zXtxrKfpaSKvc/yH4WblBh9Ol+uQbrZ4QPUWdgKqYnOk6LeA==";
         };
+        _aQrhaFqt = {
+            "id" = "aQrhaFqt";
+            "file" = "BetterUnpackables_v5.1.0-beta.1_mc26.3-26.4snap1.zip";
+            "hash" = "sha512-nmhjngQsy7HdMDHfn/f5O16/YreUD8WCxslmPXT2YQeJN38XPCd+HRzaazdAggOLtXFIYwDkAF3KX6eqIm5cZQ==";
+        };
+        _bNaKdScT = {
+            "id" = "bNaKdScT";
+            "file" = "BetterUnpackables_v5.1.0-beta.2_mc26.3-26.4snap3.zip";
+            "hash" = "sha512-ksqjr3nrk68NNs/wPmMsqPLvcD6DLX1itzIDGZr9bSKRBmfs/Vr4ZYvSXPWklu45aw8HXVx8ZoPTvAnDDR5ggQ==";
+        };
     in {
         "niaxbXcl" = _niaxbXcl;
         "2N9ex882" = _2N9ex882;
@@ -740,6 +750,8 @@ let
         "Bw1AAKEE" = _Bw1AAKEE;
         "cGcvIweT" = _cGcvIweT;
         "zHgv5ukG" = _zHgv5ukG;
+        "aQrhaFqt" = _aQrhaFqt;
+        "bNaKdScT" = _bNaKdScT;
         "datapack-1.21.2-pre1" = _niaxbXcl;
         "datapack-1.21.2-pre2" = _niaxbXcl;
         "datapack-1.21.2-pre3" = _niaxbXcl;
@@ -877,7 +889,10 @@ let
         "datapack-26.3-rc-1" = _Bw1AAKEE;
         "datapack-26.3-rc-2" = _Bw1AAKEE;
         "datapack-26.3-rc-3" = _Bw1AAKEE;
-        "datapack-26.3" = _cGcvIweT;
+        "datapack-26.3" = _bNaKdScT;
+        "datapack-26.4-snapshot-1" = _bNaKdScT;
+        "datapack-26.4-snapshot-2" = _bNaKdScT;
+        "datapack-26.4-snapshot-3" = _bNaKdScT;
         "fabric-1.21.2-pre1" = _2N9ex882;
         "fabric-1.21.2-pre2" = _2N9ex882;
         "fabric-1.21.2-pre3" = _2N9ex882;
@@ -1062,7 +1077,9 @@ let
         "pkg-v5.0.0-rc.1" = _Bw1AAKEE;
         "pkg-v5.0.0" = _cGcvIweT;
         "pkg-v5.0.0+mod" = _zHgv5ukG;
-        "default" = _zHgv5ukG;
+        "pkg-v5.1.0-beta.1" = _aQrhaFqt;
+        "pkg-v5.1.0-beta.2" = _bNaKdScT;
+        "default" = _bNaKdScT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-unpackables";

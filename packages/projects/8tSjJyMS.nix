@@ -296,6 +296,16 @@ let
             "file" = "StrongerSnowballs-fabric-MC26.2-26.2.0.1.jar";
             "hash" = "sha512-Qi8pR0Ah2QoLFcg9kbqaR0TsUw1+Ph8yUx+3BGJk8CBYLecWulNkZkcLTV3co4mHeAjr/o48Ca5Fk+pN0b1VjQ==";
         };
+        _kvCSQglx = {
+            "id" = "kvCSQglx";
+            "file" = "StrongerSnowballs-fabric-MC26.3-26.3.0.1.jar";
+            "hash" = "sha512-ZuFqIyUAI1wITkAEKyff+VOf+eg0AiTKyQrQH6lh8X4BMiaGkIKGMa+4UMqg8rkmnrEzhJ4jZHqnPQQ+XAVs/A==";
+        };
+        _aDcA1REl = {
+            "id" = "aDcA1REl";
+            "file" = "StrongerSnowballs-neoforge-MC26.3-26.3.0.1.jar";
+            "hash" = "sha512-OhN48o/xNwqvE/HpD7iYGFpj7xWVO4025LypeY9VT41a8W+3qkwPXsj6exyQgMC330vRyYmRrmkPQeIY4KvnTw==";
+        };
     in {
         "c6CO1Az2" = _c6CO1Az2;
         "2nrn8suf" = _2nrn8suf;
@@ -356,6 +366,8 @@ let
         "DvEcc6zq" = _DvEcc6zq;
         "cIaaaTrd" = _cIaaaTrd;
         "9oiVUj4W" = _9oiVUj4W;
+        "kvCSQglx" = _kvCSQglx;
+        "aDcA1REl" = _aDcA1REl;
         "forge-1.15.2" = _c6CO1Az2;
         "forge-1.16.1" = _2nrn8suf;
         "forge-1.16.3" = _Qn57DQ6d;
@@ -387,6 +399,7 @@ let
         "fabric-26.1.1" = _DvEcc6zq;
         "fabric-26.1.2" = _DvEcc6zq;
         "fabric-26.2" = _9oiVUj4W;
+        "fabric-26.3" = _kvCSQglx;
         "quilt-1.18.2" = _nlikYGfq;
         "quilt-1.19" = _cK2RjhOM;
         "quilt-1.19.1" = _arO9OyYe;
@@ -400,6 +413,7 @@ let
         "neoforge-26.1.1" = _5wV7H7Ey;
         "neoforge-26.1.2" = _5wV7H7Ey;
         "neoforge-26.2" = _cIaaaTrd;
+        "neoforge-26.3" = _aDcA1REl;
         "pkg-1.0.1" = _c6CO1Az2;
         "pkg-2.0.1" = _2nrn8suf;
         "pkg-3.0.1" = _Qou9QZ8Y;
@@ -431,7 +445,8 @@ let
         "pkg-26.1.2.1" = _16X6G58m;
         "pkg-26.1.2.3" = _DvEcc6zq;
         "pkg-26.2.0.1" = _9oiVUj4W;
-        "default" = _9oiVUj4W;
+        "pkg-26.3.0.1" = _aDcA1REl;
+        "default" = _aDcA1REl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stronger-snowballs";

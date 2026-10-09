@@ -531,6 +531,11 @@ let
             "file" = "AdvancedPeripherals-1.21.1-0.8.1a.jar";
             "hash" = "sha512-QPMK6Y4g0KkmcOaG/A7ySa7r98lqnPU/WFQuM880y3XI4pwL0wtBVeI1BGD35kxDfvw5m/rNVAuwVoT35t7Irg==";
         };
+        _fxjzpAbL = {
+            "id" = "fxjzpAbL";
+            "file" = "AdvancedPeripherals-1.21.1-0.8.2a.jar";
+            "hash" = "sha512-wlpsp61/CcP2u5HPMZ4KKmcBsbHp/Sxh5Ln3cNbMZJB/a3kZVAQy2967ZZm410XnCftNkgDPKLAvJGyHm85ejg==";
+        };
     in {
         "BR0rs2Jo" = _BR0rs2Jo;
         "NPzNn3iE" = _NPzNn3iE;
@@ -638,6 +643,7 @@ let
         "G45Z1XQB" = _G45Z1XQB;
         "Awt8eCuo" = _Awt8eCuo;
         "1rbqTjbS" = _1rbqTjbS;
+        "fxjzpAbL" = _fxjzpAbL;
         "forge-1.17.1" = _IT66x7qg;
         "forge-1.16" = _NPzNn3iE;
         "forge-1.16.5" = _neYxvc4A;
@@ -650,7 +656,7 @@ let
         "neoforge-1.20.1" = _mIP0ApJY;
         "neoforge-1.19.2" = _tyq5TAqM;
         "neoforge-1.20.4" = _y560A8Ti;
-        "neoforge-1.21.1" = _1rbqTjbS;
+        "neoforge-1.21.1" = _fxjzpAbL;
         "pkg-0.7.1r" = _NPzNn3iE;
         "pkg-0.7.2r" = _RuC8nNSf;
         "pkg-1.17.1-0.7.2r" = _IkYuv6BR;
@@ -756,7 +762,8 @@ let
         "pkg-1.21.1-0.7.62b" = _G45Z1XQB;
         "pkg-1.21.1-0.8.0a" = _Awt8eCuo;
         "pkg-1.21.1-0.8.1a" = _1rbqTjbS;
-        "default" = _1rbqTjbS;
+        "pkg-1.21.1-0.8.2a" = _fxjzpAbL;
+        "default" = _fxjzpAbL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "advancedperipherals";

@@ -61,6 +61,16 @@ let
             "file" = "(FORGE)Simpletpa26.2.jar";
             "hash" = "sha512-SdGXAtnwPrApZSTbumobRfOQdl61sBa2HA7jZCK1nmaib30Gh1cEoLKJg1bo5dWj70okIuStE6L4+/YOGkSAFA==";
         };
+        _eZgvW2iJ = {
+            "id" = "eZgvW2iJ";
+            "file" = "(FORGE) Simpletpa 26.3.jar";
+            "hash" = "sha512-M/IB/ovptsYefc9DfqmwVs2Pi6iW4xq1o93PnThakiuI35vDqTZMkxNlmBfqjA1/Ystr5Oniwe8mZNq1aUIElQ==";
+        };
+        _ba9VwJp2 = {
+            "id" = "ba9VwJp2";
+            "file" = "(FABRIC) Simpletpa 26.3.jar";
+            "hash" = "sha512-eiEPoflzvlZeCLQHQrRXnYTrE/u4XOongmWvu/kWH5hQebzorFpmAYdcLDMmCIE9QVTi7fqmVpMfCfde5wJ7kQ==";
+        };
     in {
         "LMY13UiL" = _LMY13UiL;
         "B7Mf5VFt" = _B7Mf5VFt;
@@ -74,22 +84,27 @@ let
         "gFzi2qXt" = _gFzi2qXt;
         "3ZSUb5uD" = _3ZSUb5uD;
         "4IKQIBA7" = _4IKQIBA7;
+        "eZgvW2iJ" = _eZgvW2iJ;
+        "ba9VwJp2" = _ba9VwJp2;
         "forge-1.21.11" = _LMY13UiL;
         "forge-26.1" = _pkIlSpse;
         "forge-26.1.1" = _Yukub2Up;
         "forge-26.1.2" = _8zDhQllv;
         "forge-26.2" = _4IKQIBA7;
+        "forge-26.3" = _eZgvW2iJ;
         "fabric-1.21.11" = _B7Mf5VFt;
         "fabric-26.1" = _Nrw1NHf4;
         "fabric-26.1.1" = _s3HdMaf0;
         "fabric-26.1.2" = _gFzi2qXt;
         "fabric-26.2" = _3ZSUb5uD;
+        "fabric-26.3" = _ba9VwJp2;
         "pkg-1.21.11" = _B7Mf5VFt;
         "pkg-26.1" = _Nrw1NHf4;
         "pkg-26.1.1" = _Yukub2Up;
         "pkg-26.1.2" = _gFzi2qXt;
         "pkg-26.2" = _4IKQIBA7;
-        "default" = _4IKQIBA7;
+        "pkg-26.3" = _ba9VwJp2;
+        "default" = _ba9VwJp2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simpletpa+";

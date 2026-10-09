@@ -161,6 +161,11 @@ let
             "file" = "SimplyHarvesting-26.3.0.jar";
             "hash" = "sha512-5krdY2OnIZHJnrbZY7qLm+PWffNk8ZI+BS/clRJWRtW+mP9EmvV+PWclrMmoPySjEC/22Egk+KsgcVbc7qYqnQ==";
         };
+        _BGX7SMs9 = {
+            "id" = "BGX7SMs9";
+            "file" = "SimplyHarvesting-26.3.1.jar";
+            "hash" = "sha512-w4roBR3QMJ5OLFVkeHDSmyujCxrKYcyZA4k3jcmHbyGZnKFIn8eTdbd1ErkOTHG0KyoXpO8+cm6icbFiFg3Ixg==";
+        };
     in {
         "b749g8Gv" = _b749g8Gv;
         "vCWafsF3" = _vCWafsF3;
@@ -194,6 +199,7 @@ let
         "1AcSBTHb" = _1AcSBTHb;
         "JbNkTXzd" = _JbNkTXzd;
         "b9rIg0ON" = _b9rIg0ON;
+        "BGX7SMs9" = _BGX7SMs9;
         "forge-1.19.2" = _b749g8Gv;
         "forge-1.19.3" = _b749g8Gv;
         "forge-1.19.4" = _VYEi9zXZ;
@@ -216,7 +222,7 @@ let
         "neoforge-26.1.1" = _EzMKHh7a;
         "neoforge-26.1.2" = _EzMKHh7a;
         "neoforge-26.2" = _JbNkTXzd;
-        "neoforge-26.3" = _b9rIg0ON;
+        "neoforge-26.3" = _BGX7SMs9;
         "pkg-1.19.2-1.0.0" = _b749g8Gv;
         "pkg-1.19.4-1.1.0" = _vCWafsF3;
         "pkg-1.20-2.0.0" = _15TdMZ4r;
@@ -249,7 +255,8 @@ let
         "pkg-1.20.1-2.1.4" = _1AcSBTHb;
         "pkg-26.2.2" = _JbNkTXzd;
         "pkg-26.3.0" = _b9rIg0ON;
-        "default" = _b9rIg0ON;
+        "pkg-26.3.1" = _BGX7SMs9;
+        "default" = _BGX7SMs9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simply-harvesting";

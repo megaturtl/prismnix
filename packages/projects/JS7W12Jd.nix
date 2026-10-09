@@ -126,6 +126,11 @@ let
             "file" = "civil-war-1.2.0-mc26.2.jar";
             "hash" = "sha512-9akCOFtl0zOjuLVmmw3TZIL640vR7n2Nuc051Q71L7E7iwoQcWz+PcJdMO7bseg2KZMYkxVKgi6fnsWTufklOg==";
         };
+        _chkAWCaE = {
+            "id" = "chkAWCaE";
+            "file" = "civil-war-1.2.1-mc26.3.jar";
+            "hash" = "sha512-ovWvT/eIMkVrSGaH2NA+4OBU4/H7MSyffo70pr4SZonuoj/yVXBlDL9lJfm6zgGhdAAxCtVmWniAAgGMPyc3zw==";
+        };
     in {
         "caCdCidv" = _caCdCidv;
         "VNveZe3A" = _VNveZe3A;
@@ -152,6 +157,7 @@ let
         "CzOnrekX" = _CzOnrekX;
         "w3CZ3CxQ" = _w3CZ3CxQ;
         "Q2goCIWW" = _Q2goCIWW;
+        "chkAWCaE" = _chkAWCaE;
         "fabric-1.21.1" = _i3a5HJL5;
         "fabric-1.21.10" = _dEkiyUpX;
         "fabric-1.21.11" = _mpVVvN7u;
@@ -165,6 +171,7 @@ let
         "fabric-26.1" = _w3CZ3CxQ;
         "fabric-26.1.2" = _CzOnrekX;
         "fabric-26.2" = _Q2goCIWW;
+        "fabric-26.3" = _chkAWCaE;
         "pkg-1.1.0+mc1.21.1" = _caCdCidv;
         "pkg-1.1.0+mc1.21.10" = _VNveZe3A;
         "pkg-1.1.0+mc1.21.11" = _HAJTxLuQ;
@@ -190,7 +197,8 @@ let
         "pkg-1.2.0+mc26.1.2" = _CzOnrekX;
         "pkg-1.2.0+mc26.1" = _w3CZ3CxQ;
         "pkg-1.2.0+mc26.2" = _Q2goCIWW;
-        "default" = _Q2goCIWW;
+        "pkg-1.2.1+mc26.3" = _chkAWCaE;
+        "default" = _chkAWCaE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mob-civil-war";

@@ -66,6 +66,11 @@ let
             "file" = "The Titans Mod-1.21.4-NeoForge-1.0.0.4-fix.jar";
             "hash" = "sha512-Kd7S4oJ81PKR9etzhTmdhTeALUMZxv/a0LrmMG0K+e/9F+xNp0kjmWsJvj5n97rE/YZrNhrN/oHEt45Xw1kNuw==";
         };
+        _vO3e6KPt = {
+            "id" = "vO3e6KPt";
+            "file" = "The Titans Mod-1.21.4-NeoForge-1.0.0.5.jar";
+            "hash" = "sha512-t6Wc+eOXdSZb7C60pveicjih9x8brIfquH9Sms13EXR/ZIKDGAAkbK7xRug2ZwR8N36PYirPEMtWv+eCYsh8rA==";
+        };
     in {
         "xV68Eyyz" = _xV68Eyyz;
         "EyXCQ0QQ" = _EyXCQ0QQ;
@@ -80,7 +85,8 @@ let
         "qBUGBtz9" = _qBUGBtz9;
         "dCPORo7e" = _dCPORo7e;
         "LrrCVtyl" = _LrrCVtyl;
-        "neoforge-1.21.4" = _LrrCVtyl;
+        "vO3e6KPt" = _vO3e6KPt;
+        "neoforge-1.21.4" = _vO3e6KPt;
         "pkg-7M16D" = _xV68Eyyz;
         "pkg-7M24D" = _EyXCQ0QQ;
         "pkg-8M15D" = _56wXedp5;
@@ -94,7 +100,8 @@ let
         "pkg-1.0.0.3" = _qBUGBtz9;
         "pkg-1.0.0.4" = _dCPORo7e;
         "pkg-1.0.0.4-fix" = _LrrCVtyl;
-        "default" = _LrrCVtyl;
+        "pkg-1.0.0.5" = _vO3e6KPt;
+        "default" = _vO3e6KPt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "neo-the-titans";

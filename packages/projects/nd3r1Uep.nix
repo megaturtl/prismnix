@@ -186,6 +186,16 @@ let
             "file" = "TimberReplant-5.0.0.jar";
             "hash" = "sha512-WwgxnRBN8DmYpF8T8Z9tb4LJIWpsPZby1rQnoZPUrT7h3wE05XTFKMiS3mtnXmgxberO4YJTp/mkMsDRZHx19A==";
         };
+        _MA4td645 = {
+            "id" = "MA4td645";
+            "file" = "TimberReplant-5.1.0.jar";
+            "hash" = "sha512-h1wM6xrmfKT4kP02zK6PcBeEZYeTK/pABMNGqTwcVnNmoCkLddF2YYwBMxUVAQLmrU777Hx7neuuYTJ1/OtE6g==";
+        };
+        _UkpGQ7yh = {
+            "id" = "UkpGQ7yh";
+            "file" = "TimberReplant-5.2.0.jar";
+            "hash" = "sha512-poP2C8Qq/dzhZBJPXdSCYUw3V+Oycdf4fjhjLdby2XCLXt574tS6K6D4R9gevvPpMMTm6VWBVoSFqcRTAwMcKQ==";
+        };
     in {
         "mKL4HPe3" = _mKL4HPe3;
         "8vHOCu9W" = _8vHOCu9W;
@@ -224,6 +234,8 @@ let
         "87vcwepU" = _87vcwepU;
         "LPEzKIfk" = _LPEzKIfk;
         "xnG307Fk" = _xnG307Fk;
+        "MA4td645" = _MA4td645;
+        "UkpGQ7yh" = _UkpGQ7yh;
         "forge-1.21" = _mKL4HPe3;
         "forge-1.20.1" = _87vcwepU;
         "forge-1.20.2" = _8vHOCu9W;
@@ -241,6 +253,7 @@ let
         "forge-26.2" = _2HLSFKgV;
         "forge-1.16.5" = _LPEzKIfk;
         "forge-1.12.2" = _xnG307Fk;
+        "forge-26.3" = _UkpGQ7yh;
         "fabric-1.21" = _khZPNRxt;
         "fabric-1.21.1" = _93RSoe3a;
         "fabric-1.21.2" = _93RSoe3a;
@@ -260,6 +273,7 @@ let
         "fabric-26.1.1" = _86oPSLxR;
         "fabric-26.1.2" = _86oPSLxR;
         "fabric-26.2" = _QUcbnHQX;
+        "fabric-26.3" = _MA4td645;
         "quilt-1.21.1" = _93RSoe3a;
         "quilt-1.21.2" = _93RSoe3a;
         "quilt-1.21.3" = _93RSoe3a;
@@ -274,6 +288,7 @@ let
         "quilt-1.19.3" = _J7A0wxJl;
         "quilt-1.19.4" = _J7A0wxJl;
         "quilt-1.21.11" = _Kx4qq8mm;
+        "quilt-26.3" = _MA4td645;
         "bukkit-1.20" = _FZBrpvMO;
         "bukkit-1.20.1" = _FZBrpvMO;
         "bukkit-1.20.2" = _FZBrpvMO;
@@ -412,7 +427,9 @@ let
         "pkg-4.8.0" = _87vcwepU;
         "pkg-4.9.0" = _LPEzKIfk;
         "pkg-5.0.0" = _xnG307Fk;
-        "default" = _xnG307Fk;
+        "pkg-5.1.0" = _MA4td645;
+        "pkg-5.2.0" = _UkpGQ7yh;
+        "default" = _UkpGQ7yh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "timberreplant";

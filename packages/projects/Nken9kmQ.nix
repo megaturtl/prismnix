@@ -21,11 +21,17 @@ let
             "file" = "leash-villager-1.0.0+mc26.2.jar";
             "hash" = "sha512-ONr6JDOX0G6sPtZPUFewVe2TqJeTGalV+7lQAELEZR/8uT3lFpPjkPWxux7J5/d8AWWiVT4EDg8CE3hxOT2+tQ==";
         };
+        _OyKWmsnA = {
+            "id" = "OyKWmsnA";
+            "file" = "leash-villager-1.0.1+mc26.3.jar";
+            "hash" = "sha512-hFwytNraHiquzdsA3F3u4Fco0msPP35qV8WNdrRlr5O1G84IWhVO0oZRSHJeKxRwCiHY5m0OsmNfk5K/jNgRgA==";
+        };
     in {
         "TTOnRdmD" = _TTOnRdmD;
         "jI5OQJlK" = _jI5OQJlK;
         "e5g5rm48" = _e5g5rm48;
         "ffXenVVO" = _ffXenVVO;
+        "OyKWmsnA" = _OyKWmsnA;
         "fabric-1.21.9" = _TTOnRdmD;
         "fabric-1.21.10" = _TTOnRdmD;
         "fabric-1.21.11" = _jI5OQJlK;
@@ -33,11 +39,13 @@ let
         "fabric-26.1.1" = _e5g5rm48;
         "fabric-26.1.2" = _e5g5rm48;
         "fabric-26.2" = _ffXenVVO;
+        "fabric-26.3" = _OyKWmsnA;
         "pkg-1.0.0+mc1.21.9" = _TTOnRdmD;
         "pkg-1.0.0+mc1.21.11" = _jI5OQJlK;
         "pkg-1.0.0+mc26.1" = _e5g5rm48;
         "pkg-1.0.0+mc26.2" = _ffXenVVO;
-        "default" = _ffXenVVO;
+        "pkg-1.0.1+mc26.3" = _OyKWmsnA;
+        "default" = _OyKWmsnA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "leash-villager";

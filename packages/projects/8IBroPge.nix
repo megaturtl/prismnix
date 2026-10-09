@@ -161,6 +161,11 @@ let
             "file" = "mcquake3-0.8.0.jar";
             "hash" = "sha512-Ls66VoqFLsa89QZwElHqPOEKG9frxwqHhPwQTUACWl5lpXcLjq9ic+E/fw23Sb59PPe9MDlhA3Xi9myMXNYJMw==";
         };
+        _CRrWNbeR = {
+            "id" = "CRrWNbeR";
+            "file" = "mcquake3-0.9.0.jar";
+            "hash" = "sha512-bvU/rfajLC0oybVknkEHj9dzrnafboUPOhbVPP/AkLeXJ8xVS2lipos90FQoRBe6uZX4mn3YCNKtVbQnk/+fmw==";
+        };
     in {
         "HDBobZfF" = _HDBobZfF;
         "ysZivWvL" = _ysZivWvL;
@@ -194,11 +199,12 @@ let
         "WZh1ObIe" = _WZh1ObIe;
         "UBk2rDI9" = _UBk2rDI9;
         "Km1xYO6G" = _Km1xYO6G;
+        "CRrWNbeR" = _CRrWNbeR;
         "fabric-1.19.3" = _HDBobZfF;
         "fabric-1.19.4" = _ERDJ0vbH;
         "fabric-1.20.4" = _WZh1ObIe;
         "fabric-1.20.1" = _RQNu1nIJ;
-        "fabric-1.21.1" = _Km1xYO6G;
+        "fabric-1.21.1" = _CRrWNbeR;
         "pkg-0.1.1a" = _HDBobZfF;
         "pkg-0.2.0" = _ysZivWvL;
         "pkg-0.2.0a" = _xUQuPzCV;
@@ -217,7 +223,8 @@ let
         "pkg-0.6.0" = _mT79RbYu;
         "pkg-0.7.0" = _UBk2rDI9;
         "pkg-0.8.0" = _Km1xYO6G;
-        "default" = _Km1xYO6G;
+        "pkg-0.9.0" = _CRrWNbeR;
+        "default" = _CRrWNbeR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mcquake3";

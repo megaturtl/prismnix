@@ -236,6 +236,11 @@ let
             "file" = "noxesium-fabric-3.2.5.jar";
             "hash" = "sha512-l9WwGaXt7ecGOXowHaa+lbYXJorF6LFMvz2/H8afH+wDDvvDkQs2fYu3l3lDxsogIf7/1NepuCy49rlN88G2jw==";
         };
+        _ImLtknzg = {
+            "id" = "ImLtknzg";
+            "file" = "noxesium-fabric-3.3.0.jar";
+            "hash" = "sha512-8fSWrOwYl3cSzVqKnJ2U2eWHMIOONipY2bqlpCnmZwIOjfcnNWxkRMgB2jD6Po58LlYsELFdR7iMldw2Fh7FFA==";
+        };
     in {
         "Yhri7Tfr" = _Yhri7Tfr;
         "R0JdAAny" = _R0JdAAny;
@@ -284,6 +289,7 @@ let
         "mixUBb3Y" = _mixUBb3Y;
         "5koMmPI1" = _5koMmPI1;
         "PcrMax4F" = _PcrMax4F;
+        "ImLtknzg" = _ImLtknzg;
         "fabric-1.19" = _Yhri7Tfr;
         "fabric-1.19.1" = _Yhri7Tfr;
         "fabric-1.19.2" = _WhRq6Q4n;
@@ -312,6 +318,7 @@ let
         "fabric-26.1.1" = _c5eIvbqY;
         "fabric-26.1.2" = _mixUBb3Y;
         "fabric-26.2" = _PcrMax4F;
+        "fabric-26.3" = _ImLtknzg;
         "pkg-0.1.0" = _Yhri7Tfr;
         "pkg-0.1.1" = _R0JdAAny;
         "pkg-0.1.2" = _yD5EMMEa;
@@ -359,7 +366,8 @@ let
         "pkg-3.1.1" = _mixUBb3Y;
         "pkg-3.2.4" = _5koMmPI1;
         "pkg-3.2.5" = _PcrMax4F;
-        "default" = _PcrMax4F;
+        "pkg-3.3.0" = _ImLtknzg;
+        "default" = _ImLtknzg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "noxesium";

@@ -26,23 +26,37 @@ let
             "file" = "Stil_life_Cobblemon_Compatibility_1.2.jar";
             "hash" = "sha512-5DWz2n5abn9bgxYjSOONEz0jvgSvlaad2fgK5/Qq2XiQAPTf/tM3ObXDQ1hhA62Yn9ASAlQYi3GtjBYaCpzY9w==";
         };
+        _mCo3iBbM = {
+            "id" = "mCo3iBbM";
+            "file" = "Stil_life_Cobblemon_Compatibility_1.3.zip";
+            "hash" = "sha512-6x5yzqtvcArLUxwKQ3oMH13ZblA9nlJNLRWoV240uoi9vQA3kdrzY1qEkB54LggTUEiVNM05fmhmnE4bHLqV5g==";
+        };
+        _ohYlCYO8 = {
+            "id" = "ohYlCYO8";
+            "file" = "Stil_life_Cobblemon_Compatibility_1.3.jar";
+            "hash" = "sha512-LnErEKST4MwCNKNPCWXXfUHv2r2nyqAk4BhWerE8LfNidCh4ceEVNLJOG1aIHV9RF6lLdOPAb1GudSEHoSGIYQ==";
+        };
     in {
         "ghD8K68b" = _ghD8K68b;
         "FhrWDfuE" = _FhrWDfuE;
         "V5oFtOIL" = _V5oFtOIL;
         "N0lvUf9f" = _N0lvUf9f;
         "I0bYnigX" = _I0bYnigX;
+        "mCo3iBbM" = _mCo3iBbM;
+        "ohYlCYO8" = _ohYlCYO8;
         "datapack-1.20.1" = _FhrWDfuE;
-        "datapack-1.21.1" = _N0lvUf9f;
+        "datapack-1.21.1" = _mCo3iBbM;
         "datapack-1.21" = _N0lvUf9f;
-        "fabric-1.21.1" = _I0bYnigX;
-        "neoforge-1.21.1" = _I0bYnigX;
+        "fabric-1.21.1" = _ohYlCYO8;
+        "neoforge-1.21.1" = _ohYlCYO8;
         "pkg-1.0" = _ghD8K68b;
         "pkg-1.1" = _FhrWDfuE;
         "pkg-1.1_Mod_Version" = _V5oFtOIL;
         "pkg-1.2" = _N0lvUf9f;
         "pkg-1.2_Mod_Version" = _I0bYnigX;
-        "default" = _I0bYnigX;
+        "pkg-1.3_Datapack" = _mCo3iBbM;
+        "pkg-1.3_Mod_Version" = _ohYlCYO8;
+        "default" = _ohYlCYO8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-x-still-life-compatibility";

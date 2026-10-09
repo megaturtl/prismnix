@@ -26,21 +26,29 @@ let
             "file" = "Glowing-Trims-Fabric-1.0.0+26.2.jar";
             "hash" = "sha512-4rIEwZozr7fieQdfCkx45Jkb0nEzjTVQjYrEP0VyxUqTStlqhvIMxf8OSzgH9SAixMbUqLOp1O5Ct+uzcGuR0Q==";
         };
+        _Hzq5jwsK = {
+            "id" = "Hzq5jwsK";
+            "file" = "Glowing-Trims-Fabric-1.0.0+26.3.jar";
+            "hash" = "sha512-+OIN2cO0lbGqQXzZRkktzdqZSG+HM3Oa8sDUNHfIa4cRJB9F6QN9Pm7F76E6krvTSAJNe8tYtf7yOSoriZ5KeQ==";
+        };
     in {
         "RQkLq4pV" = _RQkLq4pV;
         "N2p0R9hn" = _N2p0R9hn;
         "yxUGWfl5" = _yxUGWfl5;
         "cPV4T4Z1" = _cPV4T4Z1;
         "D5jrRvqu" = _D5jrRvqu;
+        "Hzq5jwsK" = _Hzq5jwsK;
         "forge-1.20.1" = _RQkLq4pV;
         "neoforge-1.21.1" = _N2p0R9hn;
         "neoforge-26.2" = _cPV4T4Z1;
         "fabric-1.21.1" = _yxUGWfl5;
         "fabric-26.2" = _D5jrRvqu;
+        "fabric-26.3" = _Hzq5jwsK;
         "pkg-1.0.0+1.20.1" = _RQkLq4pV;
         "pkg-1.0.0+1.21.1" = _yxUGWfl5;
         "pkg-1.0.0+26.2" = _D5jrRvqu;
-        "default" = _D5jrRvqu;
+        "pkg-1.0.0+26.3" = _Hzq5jwsK;
+        "default" = _Hzq5jwsK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "glowingtrims";

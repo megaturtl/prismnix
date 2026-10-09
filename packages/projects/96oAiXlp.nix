@@ -56,6 +56,11 @@ let
             "file" = "tdwcm-0.2.1.jar";
             "hash" = "sha512-aLPeIbfT9qW8jY44aoqA5Wgo64xzNb6ZlIdVMxIAUsDGidUk7BQP7IUM8sE8QMbarD9vPNO/8N98CtKrGIiikg==";
         };
+        _hhpA8CIv = {
+            "id" = "hhpA8CIv";
+            "file" = "tdwcm-0.2.2.jar";
+            "hash" = "sha512-G6pNSiuuy7MNNh++bKJletgC+/ZD/+enRE30QEWS6W5mcJ2Rexolez8R8FtpsxmN83sIh0xQuogTi/jYqNYhrQ==";
+        };
     in {
         "lx4nbTep" = _lx4nbTep;
         "KXeO02uD" = _KXeO02uD;
@@ -68,7 +73,8 @@ let
         "mb8r9fZ0" = _mb8r9fZ0;
         "KgJuIFK5" = _KgJuIFK5;
         "xpTvgljr" = _xpTvgljr;
-        "neoforge-1.21.1" = _xpTvgljr;
+        "hhpA8CIv" = _hhpA8CIv;
+        "neoforge-1.21.1" = _hhpA8CIv;
         "pkg-0.1.0-Christmas-Alpha" = _lx4nbTep;
         "pkg-0.1.1" = _KXeO02uD;
         "pkg-0.1.2" = _8wwSKVbc;
@@ -80,7 +86,8 @@ let
         "pkg-0.1.8" = _mb8r9fZ0;
         "pkg-0.2.0" = _KgJuIFK5;
         "pkg-0.2.1" = _xpTvgljr;
-        "default" = _xpTvgljr;
+        "pkg-0.2.2" = _hhpA8CIv;
+        "default" = _hhpA8CIv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-doctor-who-client-mod";

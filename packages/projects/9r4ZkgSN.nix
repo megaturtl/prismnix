@@ -591,6 +591,26 @@ let
             "file" = "SimpleCopperPipes-mc26.2-2.1.7.jar";
             "hash" = "sha512-wdFIv5OUaSnx20BI18RsRX/p8vTqQvePI7Y4K6A/uTBuCMW/vrUhVGke80sOGVgkdHSOO2kUvVKm0sp4HQ9UxA==";
         };
+        _E0nIunSG = {
+            "id" = "E0nIunSG";
+            "file" = "SimpleCopperPipes-2.2-mc26.2-fabric.jar";
+            "hash" = "sha512-GKa2mwdilcUrCo1v3oVPW9Fl2ElxOnwQWPBl5+y1mtB6L+KSvdriS8UktZ/YXmI9imTDEuhjae5wY0Zfx6m7GA==";
+        };
+        _pvbF22k5 = {
+            "id" = "pvbF22k5";
+            "file" = "SimpleCopperPipes-2.2-mc26.2-neoforge.jar";
+            "hash" = "sha512-LZilmdpj4O/2IqedjUBR8rwxqmpTYiNxa30w9lrPfLls4FBnoCjlMGFJLMMsmaL3a6gKVB5s9WHI9UXR13V7Vw==";
+        };
+        _L7DCDHvX = {
+            "id" = "L7DCDHvX";
+            "file" = "SimpleCopperPipes-2.2-mc26.3-neoforge.jar";
+            "hash" = "sha512-WMjaFaOf0EQj24/0YuFgG2H1HcxgGLQvRuFWaxri/4dxIyOcx3srS6p+Be3RowUEG+uYpqNUpgZlM5MK+KmPsQ==";
+        };
+        _IKgKTKOE = {
+            "id" = "IKgKTKOE";
+            "file" = "SimpleCopperPipes-2.2-mc26.3-fabric.jar";
+            "hash" = "sha512-IdihfLrPAdJrEtl/2SNZRuCHC4e4tjny0Jn7rJmuVyGLtjOyWkxaywfXu3FdI7hot2eoDjZV3mRVNoV+vL3U0Q==";
+        };
     in {
         "AQBkrhtl" = _AQBkrhtl;
         "Sx9X49lI" = _Sx9X49lI;
@@ -710,6 +730,10 @@ let
         "XohetPQu" = _XohetPQu;
         "bqQeamhf" = _bqQeamhf;
         "CEH3bXSV" = _CEH3bXSV;
+        "E0nIunSG" = _E0nIunSG;
+        "pvbF22k5" = _pvbF22k5;
+        "L7DCDHvX" = _L7DCDHvX;
+        "IKgKTKOE" = _IKgKTKOE;
         "fabric-1.18.1" = _gtuWYWeg;
         "fabric-1.18.2" = _f8hsWFFR;
         "fabric-1.19" = _Dv34ewqS;
@@ -754,7 +778,8 @@ let
         "fabric-26.1" = _bqQeamhf;
         "fabric-26.1.1" = _bqQeamhf;
         "fabric-26.1.2" = _bqQeamhf;
-        "fabric-26.2" = _CEH3bXSV;
+        "fabric-26.2" = _E0nIunSG;
+        "fabric-26.3" = _IKgKTKOE;
         "quilt-1.19" = _Dv34ewqS;
         "quilt-1.19.1" = _Dv34ewqS;
         "quilt-1.19.2" = _Dv34ewqS;
@@ -800,6 +825,8 @@ let
         "forge-1.19" = _mZjDvoCa;
         "forge-1.19.1" = _mZjDvoCa;
         "forge-1.19.2" = _mZjDvoCa;
+        "neoforge-26.2" = _pvbF22k5;
+        "neoforge-26.3" = _L7DCDHvX;
         "pkg-r1.0" = _AQBkrhtl;
         "pkg-r1.1" = _Sx9X49lI;
         "pkg-r1.2" = _3qmJSzdh;
@@ -916,7 +943,11 @@ let
         "pkg-2.1.5-mc26.1" = _XohetPQu;
         "pkg-2.1.6-mc26.1" = _bqQeamhf;
         "pkg-2.1.7-mc26.2" = _CEH3bXSV;
-        "default" = _CEH3bXSV;
+        "pkg-2.2-mc26.2-fabric" = _E0nIunSG;
+        "pkg-2.2-mc26.2-neoforge" = _pvbF22k5;
+        "pkg-2.2-mc26.3-neoforge" = _L7DCDHvX;
+        "pkg-2.2-mc26.3-fabric" = _IKgKTKOE;
+        "default" = _IKgKTKOE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-copper-pipes";

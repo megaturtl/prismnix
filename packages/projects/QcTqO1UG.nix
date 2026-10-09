@@ -41,6 +41,11 @@ let
             "file" = "nobrokenarmor-mc26.3-2.0.jar";
             "hash" = "sha512-I15eIt53xLaeuyMvgqKi3f2tsBDbENmhy7rff/99WpH87Zwj2evXKW9yuwuV7rnWQ9bUWRPNXZGfU0jVaV3oEw==";
         };
+        _lsiMfDri = {
+            "id" = "lsiMfDri";
+            "file" = "nobrokenarmor-2.0+mc26.3-neoforge.jar";
+            "hash" = "sha512-BR6Zd2qnh3PsyLbjsBe2EbrzCfhXNh6WMJtcdXFR12a/F3b8hVJT2hF0ir2Z/SX0vUSeciy59WUh6z77JYU2oQ==";
+        };
     in {
         "adLIw9Lw" = _adLIw9Lw;
         "yMACqzif" = _yMACqzif;
@@ -50,6 +55,7 @@ let
         "BdUrvLUh" = _BdUrvLUh;
         "9vvRHRaz" = _9vvRHRaz;
         "D0d9bgUI" = _D0d9bgUI;
+        "lsiMfDri" = _lsiMfDri;
         "fabric-1.19.2" = _adLIw9Lw;
         "fabric-1.20.1" = _yMACqzif;
         "fabric-1.20.5" = _LBLqC08J;
@@ -62,10 +68,12 @@ let
         "fabric-26.1.2" = _9vvRHRaz;
         "fabric-26.2" = _9vvRHRaz;
         "fabric-26.3-snapshot-9" = _D0d9bgUI;
+        "neoforge-26.3" = _lsiMfDri;
         "pkg-1.0.0" = _BdUrvLUh;
         "pkg-1.0.1+mc26.2" = _9vvRHRaz;
         "pkg-2.0" = _D0d9bgUI;
-        "default" = _D0d9bgUI;
+        "pkg-2.0+mc26.3-neoforge" = _lsiMfDri;
+        "default" = _lsiMfDri;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "no-broken-armor";

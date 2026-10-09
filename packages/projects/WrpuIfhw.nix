@@ -496,6 +496,16 @@ let
             "file" = "corpse-neoforge-1.1.19+26.2.jar";
             "hash" = "sha512-gbMsC4JvkA7IDaqrfa7wOg+AUHrs6MrK5ZeEMKaGn96xjg/CLXBpAB/V1/evdKApLVTT/p4bPjOFTPrxnxmDiQ==";
         };
+        _ascfhEE7 = {
+            "id" = "ascfhEE7";
+            "file" = "corpse-neoforge-1.1.19+26.3.jar";
+            "hash" = "sha512-Y/hWqhb95nmmsb6KHwM5PwBNuH3Lx+ySgxPT64tVm8MMZT+RGa/sF6RoSIizU/EVv2IqErowzoU6jWyfKE5rYg==";
+        };
+        _2Nizhd20 = {
+            "id" = "2Nizhd20";
+            "file" = "corpse-neoforge-1.1.20+26.3.jar";
+            "hash" = "sha512-k0qC4NTT9izVwLEwIH+2flywqHgNsLuBwbYnOkQ1Y18s5cHHSihQ9OFw4ZuG+VPy9zp1g3QqW2YtSIc0yizvlw==";
+        };
     in {
         "cZeceLay" = _cZeceLay;
         "Qot9n1S3" = _Qot9n1S3;
@@ -596,6 +606,8 @@ let
         "IGHX4l0H" = _IGHX4l0H;
         "eiYLFdIl" = _eiYLFdIl;
         "uQVfT7hx" = _uQVfT7hx;
+        "ascfhEE7" = _ascfhEE7;
+        "2Nizhd20" = _2Nizhd20;
         "forge-1.19" = _NYOrEfQj;
         "forge-1.19.1" = _SpHi7GwE;
         "forge-1.19.2" = _ofDmBZke;
@@ -626,6 +638,7 @@ let
         "neoforge-26.1.1" = _MUaCEklx;
         "neoforge-26.1.2" = _MUaCEklx;
         "neoforge-26.2" = _uQVfT7hx;
+        "neoforge-26.3" = _2Nizhd20;
         "pkg-forge-1.19-1.0.4" = _cZeceLay;
         "pkg-forge-1.19-1.0.5" = _Qot9n1S3;
         "pkg-forge-1.19-1.0.6" = _VQcUhDFQ;
@@ -725,7 +738,9 @@ let
         "pkg-neoforge-1.1.17+26.2" = _IGHX4l0H;
         "pkg-neoforge-1.1.18+26.2" = _eiYLFdIl;
         "pkg-neoforge-1.1.19+26.2" = _uQVfT7hx;
-        "default" = _uQVfT7hx;
+        "pkg-neoforge-1.1.19+26.3" = _ascfhEE7;
+        "pkg-neoforge-1.1.20+26.3" = _2Nizhd20;
+        "default" = _2Nizhd20;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "corpse";

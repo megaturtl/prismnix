@@ -76,6 +76,21 @@ let
             "file" = "tornado7mod-6.2.1.jar";
             "hash" = "sha512-oYzAAY8714YKXI4V+zj7JayViqGNR150Y+D2xj8dzeUpiHuUzw7df0CXqnvQi9CV1vMNo5TQQAhsYNQTzeMlzQ==";
         };
+        _aYokig7p = {
+            "id" = "aYokig7p";
+            "file" = "tornado7mod-6.3.0.jar";
+            "hash" = "sha512-gyaW+6O/GSKBFbR6JLKHq9rZciZvp4z4F1LgSMVNA2sNUYdcALAypumqHP6Z7oGoFEJ97Ix4WkoMqnS6UYTtKw==";
+        };
+        _AykMHfQz = {
+            "id" = "AykMHfQz";
+            "file" = "tornado7mod-6.3.0.jar";
+            "hash" = "sha512-TsX+H6qEbe5BCYElZgQrOlm6RqQ6+68Q8tKLzj4dp897LVAbD66GqxBhDPtfCvv0I3p20A+WbeKGzht3EUgD5A==";
+        };
+        _AZYHIJU6 = {
+            "id" = "AZYHIJU6";
+            "file" = "tornado7mod-6.3.1.jar";
+            "hash" = "sha512-gPwZtYf7DqBZou8OXDjnqWWHZjREpcT/qbeWqb7gVsdZqY8VTk7R2j08gwQ9olflSpUrO/4G5Hfcp6pbWtpIaQ==";
+        };
     in {
         "i6cgYEGs" = _i6cgYEGs;
         "9mDKpljM" = _9mDKpljM;
@@ -92,7 +107,11 @@ let
         "w0gdi2hf" = _w0gdi2hf;
         "u798XIr2" = _u798XIr2;
         "qF00seQS" = _qF00seQS;
+        "aYokig7p" = _aYokig7p;
+        "AykMHfQz" = _AykMHfQz;
+        "AZYHIJU6" = _AZYHIJU6;
         "forge-1.20.1" = _qF00seQS;
+        "neoforge-1.21.1" = _AZYHIJU6;
         "pkg-1.0.0" = _i6cgYEGs;
         "pkg-2.0.0" = _9mDKpljM;
         "pkg-3.0.0" = _QICnUA9I;
@@ -108,7 +127,9 @@ let
         "pkg-6.1.2" = _w0gdi2hf;
         "pkg-6.2.0" = _u798XIr2;
         "pkg-6.2.1" = _qF00seQS;
-        "default" = _qF00seQS;
+        "pkg-6.3.0" = _AykMHfQz;
+        "pkg-6.3.1" = _AZYHIJU6;
+        "default" = _AZYHIJU6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tornado7";

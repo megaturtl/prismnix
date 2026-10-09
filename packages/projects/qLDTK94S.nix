@@ -321,6 +321,11 @@ let
             "file" = "plane-neoforge-1.5.8+26.3.jar";
             "hash" = "sha512-my7MJMYFaFM6yo/xUTJJcCbjzHz4IxYTyHosra1Rvq+9quY/KuYhMp0kVkmC8Dj6C9Z10TdGBS1Qaxp99SqHcA==";
         };
+        _35Ay8N7l = {
+            "id" = "35Ay8N7l";
+            "file" = "plane-neoforge-1.5.9+26.3.jar";
+            "hash" = "sha512-5LuFI4+U4y530rqYqRjhpx2te6shKAFMs409AGkElokOLdkfAcXHcZ5WuPY76v4QDDiQGOBNfhfLASJaHrjUxA==";
+        };
     in {
         "fFh1bBu8" = _fFh1bBu8;
         "rET0kXga" = _rET0kXga;
@@ -386,6 +391,7 @@ let
         "WZJQKjwx" = _WZJQKjwx;
         "UceULyyK" = _UceULyyK;
         "g0DTZ73d" = _g0DTZ73d;
+        "35Ay8N7l" = _35Ay8N7l;
         "forge-1.19" = _SR00FNy1;
         "forge-1.19.1" = _jhNzlZbj;
         "forge-1.19.2" = _kZTOPQPY;
@@ -415,7 +421,7 @@ let
         "neoforge-26.1.1" = _WZJQKjwx;
         "neoforge-26.1.2" = _WZJQKjwx;
         "neoforge-26.2" = _UceULyyK;
-        "neoforge-26.3" = _g0DTZ73d;
+        "neoforge-26.3" = _35Ay8N7l;
         "pkg-forge-1.19-1.0.1" = _fFh1bBu8;
         "pkg-forge-1.19-1.0.2" = _rET0kXga;
         "pkg-forge-1.19-1.0.3" = _SR00FNy1;
@@ -479,7 +485,8 @@ let
         "pkg-neoforge-1.5.8+26.1.2" = _WZJQKjwx;
         "pkg-neoforge-1.5.8+26.2" = _UceULyyK;
         "pkg-neoforge-1.5.8+26.3" = _g0DTZ73d;
-        "default" = _g0DTZ73d;
+        "pkg-neoforge-1.5.9+26.3" = _35Ay8N7l;
+        "default" = _35Ay8N7l;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ultimate-plane-mod";

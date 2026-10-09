@@ -236,6 +236,26 @@ let
             "file" = "hexFlow-neoforge-1.21.1-0.6.0.pre53.jar";
             "hash" = "sha512-SrbaPQw9Ar7XZMeHR98z7+SBbg25S5Cf3wBPaT94rx6fobcJ7NtVTaPQyglcYjah3Pv20g+hX5W8c4eJSKC/wA==";
         };
+        _b6xlBiM7 = {
+            "id" = "b6xlBiM7";
+            "file" = "hexFlow-fabric-1.20.1-0.7.0.jar";
+            "hash" = "sha512-n4yDvEbkbprqIIuBOXO/iipHZhbgNcnbvL3qksnfUzAp22mLLUMDuy8QeI66kebFJwYTBSo6yrqAIrwWA9HL8w==";
+        };
+        _g67lIjI5 = {
+            "id" = "g67lIjI5";
+            "file" = "hexFlow-forge-1.20.1-0.7.0.jar";
+            "hash" = "sha512-KAFrZ52MxE98yqFVeR4YcPfgaaoBhfhKeHZmAvqvHtG4mdJSIsstHY/9A94f2LOh/wSBmMCdfGAfZYCXE3HZpg==";
+        };
+        _GOb4o0eB = {
+            "id" = "GOb4o0eB";
+            "file" = "hexFlow-fabric-1.21.1-0.7.0.pre53.jar";
+            "hash" = "sha512-oLq1qLcDQZr6gvP7jFEdpjLYfFByFUFqAzdJQV40U64mGvZsodUExXq3Mm2Ko4ttQt9CwQLQ0Y+sNt9nAZQB1w==";
+        };
+        _3btq2b2q = {
+            "id" = "3btq2b2q";
+            "file" = "hexFlow-neoforge-1.21.1-0.7.0.pre53.jar";
+            "hash" = "sha512-GxVyjCCOL/4IHfI/C66s7cvntrLc1Imxwy6WqSLLn8D/6UoC1CiJBP9QBpr8f0MFD2AevWdBnJNsL1ZlR6MSEA==";
+        };
     in {
         "IFVxAoYi" = _IFVxAoYi;
         "LDZoyIuc" = _LDZoyIuc;
@@ -284,10 +304,14 @@ let
         "TSCR1pIb" = _TSCR1pIb;
         "9CRu8oGi" = _9CRu8oGi;
         "GuP9mx8Y" = _GuP9mx8Y;
-        "forge-1.20.1" = _b17m9xMc;
-        "fabric-1.20.1" = _IYbFPWIL;
-        "fabric-1.21.1" = _9CRu8oGi;
-        "neoforge-1.21.1" = _GuP9mx8Y;
+        "b6xlBiM7" = _b6xlBiM7;
+        "g67lIjI5" = _g67lIjI5;
+        "GOb4o0eB" = _GOb4o0eB;
+        "3btq2b2q" = _3btq2b2q;
+        "forge-1.20.1" = _g67lIjI5;
+        "fabric-1.20.1" = _b6xlBiM7;
+        "fabric-1.21.1" = _GOb4o0eB;
+        "neoforge-1.21.1" = _3btq2b2q;
         "pkg-1.20.1-0.1.0" = _LDZoyIuc;
         "pkg-1.20.1-0.2.0" = _QsHgh85q;
         "pkg-1.20.1-0.2.1" = _jJfxP292;
@@ -306,7 +330,9 @@ let
         "pkg-1.20.1-0.6.0" = _b17m9xMc;
         "pkg-1.21.1-0.6.0" = _TSCR1pIb;
         "pkg-1.21.1-0.6.0.pre53" = _GuP9mx8Y;
-        "default" = _GuP9mx8Y;
+        "pkg-1.20.1-0.7.0" = _g67lIjI5;
+        "pkg-1.21.1-0.7.0.pre53" = _3btq2b2q;
+        "default" = _3btq2b2q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hexflow";

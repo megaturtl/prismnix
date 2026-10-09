@@ -31,6 +31,16 @@ let
             "file" = "ly-backrooms-1.1.1.jar";
             "hash" = "sha512-mgTP/RwT4hpP0WMREEwlDO+zi8Vbk7Fl1C2uvbBbQqALdDSymePVPb+vw+FMJ8p1tuD/kaPDhbdoLxeXfT3dZg==";
         };
+        _cIx8LsZH = {
+            "id" = "cIx8LsZH";
+            "file" = "Backrooms v1.1.1 [26.3].zip";
+            "hash" = "sha512-RmKAhhk34frb2h5bP0UDJWC0I1szVgbidbTqm8sTizlS2gTLEeVdx+5cK38IWT7T2cHCy4kSrY9lBeqh4JowVw==";
+        };
+        _Ogmwwn1e = {
+            "id" = "Ogmwwn1e";
+            "file" = "ly-backrooms-1.1.1.jar";
+            "hash" = "sha512-WBkJf9HJDremBE9CUtmDq19zT3H6jsjXhbt+Vp/FpdJfFQV8mvJ+39aY1vCf5EAjzDQdmEBFQkuZJicpL4ZbAg==";
+        };
     in {
         "nG3dXEqw" = _nG3dXEqw;
         "RHue9fi8" = _RHue9fi8;
@@ -38,39 +48,46 @@ let
         "WbLQPMGh" = _WbLQPMGh;
         "s4iVUTUN" = _s4iVUTUN;
         "4Ymeuncl" = _4Ymeuncl;
+        "cIx8LsZH" = _cIx8LsZH;
+        "Ogmwwn1e" = _Ogmwwn1e;
         "datapack-1.21" = _nG3dXEqw;
         "datapack-1.21.1" = _nG3dXEqw;
         "datapack-26.1" = _nuWu3rrO;
         "datapack-26.1.1" = _nuWu3rrO;
         "datapack-26.1.2" = _nuWu3rrO;
         "datapack-26.2" = _s4iVUTUN;
+        "datapack-26.3" = _cIx8LsZH;
         "fabric-1.21" = _RHue9fi8;
         "fabric-1.21.1" = _RHue9fi8;
         "fabric-26.1" = _WbLQPMGh;
         "fabric-26.1.1" = _WbLQPMGh;
         "fabric-26.1.2" = _WbLQPMGh;
         "fabric-26.2" = _4Ymeuncl;
+        "fabric-26.3" = _Ogmwwn1e;
         "forge-1.21" = _RHue9fi8;
         "forge-1.21.1" = _RHue9fi8;
         "forge-26.1" = _WbLQPMGh;
         "forge-26.1.1" = _WbLQPMGh;
         "forge-26.1.2" = _WbLQPMGh;
         "forge-26.2" = _4Ymeuncl;
+        "forge-26.3" = _Ogmwwn1e;
         "neoforge-1.21" = _RHue9fi8;
         "neoforge-1.21.1" = _RHue9fi8;
         "neoforge-26.1" = _WbLQPMGh;
         "neoforge-26.1.1" = _WbLQPMGh;
         "neoforge-26.1.2" = _WbLQPMGh;
         "neoforge-26.2" = _4Ymeuncl;
+        "neoforge-26.3" = _Ogmwwn1e;
         "quilt-1.21" = _RHue9fi8;
         "quilt-1.21.1" = _RHue9fi8;
         "quilt-26.1" = _WbLQPMGh;
         "quilt-26.1.1" = _WbLQPMGh;
         "quilt-26.1.2" = _WbLQPMGh;
         "quilt-26.2" = _4Ymeuncl;
-        "pkg-1.1.1" = _s4iVUTUN;
-        "pkg-1.1.1+mod" = _4Ymeuncl;
-        "default" = _4Ymeuncl;
+        "quilt-26.3" = _Ogmwwn1e;
+        "pkg-1.1.1" = _cIx8LsZH;
+        "pkg-1.1.1+mod" = _Ogmwwn1e;
+        "default" = _Ogmwwn1e;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ly-backrooms";

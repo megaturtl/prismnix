@@ -76,6 +76,21 @@ let
             "file" = "xiaoxiang_cultivation-0.1.1480.jar";
             "hash" = "sha512-T0f6cYeaM800bbKaHIq0hzkxrZijzL5jyHI53/5GfsRBVh56fbx5am1V6cbh77u+M1L+hKGB6s5bmmGbfLpRdQ==";
         };
+        _Obxc80v8 = {
+            "id" = "Obxc80v8";
+            "file" = "xiaoxiang_cultivation-0.1.1532_server.jar";
+            "hash" = "sha512-HFslUBQLI5x86x9HGKF+rDJd/tNPTJlrwuZeTeMvn0si13B4/uxY7dx4wZjwxbldNaGbStqQJ4UvmjXWBSxRzA==";
+        };
+        _i245aiGC = {
+            "id" = "i245aiGC";
+            "file" = "xiaoxiang_cultivation-0.2.0.jar";
+            "hash" = "sha512-2Nq5Hz76cvbP570qaIH/PGGkNPmOdh6HJBWBv0FWWRrMKvMAUHEbu8oSzXiSJmem6VzgQdPey1bOZ4I/kj/G4w==";
+        };
+        _nnmIf8DW = {
+            "id" = "nnmIf8DW";
+            "file" = "xiaoxiang_cultivation-0.2.3.jar";
+            "hash" = "sha512-OfnWInKwwo7piM68a5lDbbXVR1jngB3BtDGKBwDKrOJJrcmxS6wD/I36x56V4zLZRaNVa4E3PDjB/49wvyphzg==";
+        };
     in {
         "D6odtMeI" = _D6odtMeI;
         "ugwNV42W" = _ugwNV42W;
@@ -92,7 +107,10 @@ let
         "CubS5PZ6" = _CubS5PZ6;
         "Wr8BkNna" = _Wr8BkNna;
         "YaprpE8G" = _YaprpE8G;
-        "forge-1.20.1" = _YaprpE8G;
+        "Obxc80v8" = _Obxc80v8;
+        "i245aiGC" = _i245aiGC;
+        "nnmIf8DW" = _nnmIf8DW;
+        "forge-1.20.1" = _nnmIf8DW;
         "pkg-0.1.49" = _D6odtMeI;
         "pkg-0.1.57" = _ugwNV42W;
         "pkg-0.1.119" = _PvdWJcKy;
@@ -108,7 +126,10 @@ let
         "pkg-0.1.1302" = _CubS5PZ6;
         "pkg-0.1.1479" = _Wr8BkNna;
         "pkg-0.1.1480" = _YaprpE8G;
-        "default" = _YaprpE8G;
+        "pkg-0.1.1532" = _Obxc80v8;
+        "pkg-0.2.0" = _i245aiGC;
+        "pkg-0.2.3" = _nnmIf8DW;
+        "default" = _nnmIf8DW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "xiaoxiang-cultivation-world";

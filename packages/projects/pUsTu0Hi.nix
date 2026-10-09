@@ -171,6 +171,11 @@ let
             "file" = "Weskerson's 3D Items.zip";
             "hash" = "sha512-Lm/YepKn53dSebHxq2P0w3wjFMEMK6igwGmVqnuXwavc1oslDMSMAKj/tNjMW7gjThcnMIMBypic0lk7HdN7fQ==";
         };
+        _Y7lmVtnz = {
+            "id" = "Y7lmVtnz";
+            "file" = "Weskerson's 3D Items.zip";
+            "hash" = "sha512-mEuKEY0Zcjh5YyK4MSS1By7BzIsSgz7GJdUqOFqRhhA9kJly15PzbaP3yewTQ5cwXKO52slBlH2JEGXZBCsYyQ==";
+        };
     in {
         "vBJrMi6L" = _vBJrMi6L;
         "1YHXGLiY" = _1YHXGLiY;
@@ -206,19 +211,21 @@ let
         "ErHl2t11" = _ErHl2t11;
         "igK5lpoh" = _igK5lpoh;
         "YT79F9pj" = _YT79F9pj;
-        "minecraft-1.21.4" = _YT79F9pj;
-        "minecraft-1.21.5" = _YT79F9pj;
-        "minecraft-1.21.6" = _YT79F9pj;
-        "minecraft-1.21.7" = _YT79F9pj;
-        "minecraft-1.21.8" = _YT79F9pj;
+        "Y7lmVtnz" = _Y7lmVtnz;
+        "minecraft-1.21.4" = _Y7lmVtnz;
+        "minecraft-1.21.5" = _Y7lmVtnz;
+        "minecraft-1.21.6" = _Y7lmVtnz;
+        "minecraft-1.21.7" = _Y7lmVtnz;
+        "minecraft-1.21.8" = _Y7lmVtnz;
         "minecraft-25w36b" = _T7QMkMna;
-        "minecraft-1.21.9" = _YT79F9pj;
-        "minecraft-1.21.10" = _YT79F9pj;
-        "minecraft-1.21.11" = _YT79F9pj;
-        "minecraft-26.1" = _YT79F9pj;
-        "minecraft-26.1.1" = _YT79F9pj;
-        "minecraft-26.1.2" = _YT79F9pj;
-        "minecraft-26.2" = _YT79F9pj;
+        "minecraft-1.21.9" = _Y7lmVtnz;
+        "minecraft-1.21.10" = _Y7lmVtnz;
+        "minecraft-1.21.11" = _Y7lmVtnz;
+        "minecraft-26.1" = _Y7lmVtnz;
+        "minecraft-26.1.1" = _Y7lmVtnz;
+        "minecraft-26.1.2" = _Y7lmVtnz;
+        "minecraft-26.2" = _Y7lmVtnz;
+        "minecraft-26.3" = _Y7lmVtnz;
         "pkg-1.0" = _Kexr3JXR;
         "pkg-1.1" = _1YHXGLiY;
         "pkg-1.2" = _rGWNpTGd;
@@ -247,7 +254,8 @@ let
         "pkg-2.4.2" = _ErHl2t11;
         "pkg-2.4.3" = _igK5lpoh;
         "pkg-2.5" = _YT79F9pj;
-        "default" = _YT79F9pj;
+        "pkg-2.5.5" = _Y7lmVtnz;
+        "default" = _Y7lmVtnz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tools-and-utils";

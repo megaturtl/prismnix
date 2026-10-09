@@ -141,6 +141,16 @@ let
             "file" = "Structory_Towers_v1.0.17.zip";
             "hash" = "sha512-HDAGFvD1x92Rn5TVEHc+RQGU7P7rjhpB+wyz07iK247lG7AbVFdWUk0sbRCYOCuSa8UAvs7DCXnMa+JnADR3/g==";
         };
+        _5ntmnN83 = {
+            "id" = "5ntmnN83";
+            "file" = "Structory_Towers_26.3_v1.0.19+26.3.jar";
+            "hash" = "sha512-0+Pd65pPk+GzDr/gdW3cwqqHzqJFaBBN+Q/GUnTcxeuhklWgOFt9kOIBGRrkEFNo1713MHpQv9c801bw+LXhWg==";
+        };
+        _4ahPGAsT = {
+            "id" = "4ahPGAsT";
+            "file" = "Structory_Towers_v1.0.19+26.3.zip";
+            "hash" = "sha512-vet/+gcPQxxxAgHipx5/qUkOK6vOlgLmvX1W7D+v8x/8D48xc69iTpCnLKi4ceuzqg2CyUJTGelSfU5NG+xvNg==";
+        };
     in {
         "fTl6NfPL" = _fTl6NfPL;
         "y8aY8cLb" = _y8aY8cLb;
@@ -170,6 +180,8 @@ let
         "HJOT6z3q" = _HJOT6z3q;
         "ziO4YIv1" = _ziO4YIv1;
         "uxUF2h4B" = _uxUF2h4B;
+        "5ntmnN83" = _5ntmnN83;
+        "4ahPGAsT" = _4ahPGAsT;
         "fabric-1.20" = _fTl6NfPL;
         "fabric-1.20.1" = _fTl6NfPL;
         "fabric-1.20.2" = _fTl6NfPL;
@@ -198,6 +210,7 @@ let
         "fabric-26.1.1" = _ziO4YIv1;
         "fabric-26.1.2" = _ziO4YIv1;
         "fabric-26.2" = _ziO4YIv1;
+        "fabric-26.3" = _5ntmnN83;
         "forge-1.20" = _fTl6NfPL;
         "forge-1.20.1" = _fTl6NfPL;
         "forge-1.20.2" = _fTl6NfPL;
@@ -226,6 +239,7 @@ let
         "forge-26.1.1" = _ziO4YIv1;
         "forge-26.1.2" = _ziO4YIv1;
         "forge-26.2" = _ziO4YIv1;
+        "forge-26.3" = _5ntmnN83;
         "neoforge-1.20" = _fTl6NfPL;
         "neoforge-1.20.1" = _fTl6NfPL;
         "neoforge-1.20.2" = _fTl6NfPL;
@@ -249,6 +263,7 @@ let
         "neoforge-26.1.1" = _ziO4YIv1;
         "neoforge-26.1.2" = _ziO4YIv1;
         "neoforge-26.2" = _ziO4YIv1;
+        "neoforge-26.3" = _5ntmnN83;
         "quilt-1.20" = _fTl6NfPL;
         "quilt-1.20.1" = _fTl6NfPL;
         "quilt-1.20.2" = _fTl6NfPL;
@@ -277,6 +292,7 @@ let
         "quilt-26.1.1" = _ziO4YIv1;
         "quilt-26.1.2" = _ziO4YIv1;
         "quilt-26.2" = _ziO4YIv1;
+        "quilt-26.3" = _5ntmnN83;
         "datapack-1.19" = _6Go4OS8r;
         "datapack-1.19.1" = _6Go4OS8r;
         "datapack-1.19.2" = _6Go4OS8r;
@@ -305,6 +321,7 @@ let
         "datapack-26.1.1" = _uxUF2h4B;
         "datapack-26.1.2" = _uxUF2h4B;
         "datapack-26.2" = _uxUF2h4B;
+        "datapack-26.3" = _4ahPGAsT;
         "pkg-1.0.7" = _NduM3ke2;
         "pkg-1.0.2" = _Q0LDZzLv;
         "pkg-1.0.8" = _VG8EwLZB;
@@ -317,7 +334,8 @@ let
         "pkg-1.0.15" = _RaKH6dLr;
         "pkg-1.0.16" = _HJOT6z3q;
         "pkg-1.0.17" = _uxUF2h4B;
-        "default" = _uxUF2h4B;
+        "pkg-1.0.19+26.3" = _4ahPGAsT;
+        "default" = _4ahPGAsT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "structory-towers";

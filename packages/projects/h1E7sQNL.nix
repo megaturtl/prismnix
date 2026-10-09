@@ -6941,6 +6941,16 @@ let
             "file" = "CustomPlayerModels-Fabric-26.3-0.6.27d.jar";
             "hash" = "sha512-c7VHsTNLzGgoR7cX1ulG2FUp0PFbv1UQrZ5OLppDtdUC9IuBlPvgdfgzgoIBTdXOXb57aVGIa58aB3348uEEQw==";
         };
+        _bl0g58z6 = {
+            "id" = "bl0g58z6";
+            "file" = "CustomPlayerModels-26.3-0.6.27b.jar";
+            "hash" = "sha512-d5oWu1q1rvSOCyKVL7OF1UBfZNymIouFnHVZPcLdkKavapcLR5UVoA6sJgWVAbWzpBN5+rOjfb2/ifP90BN6Ug==";
+        };
+        _y57itTtd = {
+            "id" = "y57itTtd";
+            "file" = "CustomPlayerModels-Fabric-26.3-0.6.27e.jar";
+            "hash" = "sha512-rDiLhy7ngYs/DNwlgSV/+IBiTOAWjl4bU9J3R7ylWaaFIGKEW56E+2OrZxwylqlHffN+51Rwfa0Ad4qWl0Lehw==";
+        };
     in {
         "LDgeoshL" = _LDgeoshL;
         "m0d8zTzm" = _m0d8zTzm;
@@ -8330,6 +8340,8 @@ let
         "tnRp2CPp" = _tnRp2CPp;
         "AmQDozJj" = _AmQDozJj;
         "PlpYva18" = _PlpYva18;
+        "bl0g58z6" = _bl0g58z6;
+        "y57itTtd" = _y57itTtd;
         "forge-1.18" = _hE4XOIae;
         "forge-1.18.1" = _hE4XOIae;
         "forge-1.18.2" = _4bkbA2gc;
@@ -8455,7 +8467,7 @@ let
         "fabric-26.3-snapshot-2" = _FBz4Ftol;
         "fabric-26.3-snapshot-5" = _P7qEIiqV;
         "fabric-26.3-pre-1" = _tnRp2CPp;
-        "fabric-26.3" = _PlpYva18;
+        "fabric-26.3" = _y57itTtd;
         "bukkit-1.8" = _QeHHlE26;
         "bukkit-1.9" = _QeHHlE26;
         "bukkit-1.10" = _QeHHlE26;
@@ -8688,7 +8700,7 @@ let
         "neoforge-26.1.1" = _fFHN1j51;
         "neoforge-26.1.2" = _fFHN1j51;
         "neoforge-26.2" = _boNjhV6Y;
-        "neoforge-26.3" = _AmQDozJj;
+        "neoforge-26.3" = _bl0g58z6;
         "babric-b1.7.3" = _Lam1mD8D;
         "java-agent-1.2.5" = _kFFl5RRA;
         "bta-babric-b1.7.3" = _VUlMbtwy;
@@ -10094,7 +10106,9 @@ let
         "pkg-26.3v0.6.27c-fabric" = _tnRp2CPp;
         "pkg-26.3v0.6.27a-neoforge" = _AmQDozJj;
         "pkg-26.3v0.6.27d-fabric" = _PlpYva18;
-        "default" = _PlpYva18;
+        "pkg-26.3v0.6.27b-neoforge" = _bl0g58z6;
+        "pkg-26.3v0.6.27e-fabric" = _y57itTtd;
+        "default" = _y57itTtd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "custom-player-models";

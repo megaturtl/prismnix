@@ -31,6 +31,11 @@ let
             "file" = "Low Fire 2 26.1-26.1.2.zip";
             "hash" = "sha512-8rquS4wBoV3q4kRWt7h/22RcYjTMha3Z+XhJr5D9adSWgTX57AcZCTWBkZ50XcluyqXobHITIo5ieLldSDS5ng==";
         };
+        _8iGvHt8u = {
+            "id" = "8iGvHt8u";
+            "file" = "Low Fire 2 26.3.zip";
+            "hash" = "sha512-9Cmf7fRCLsnIABQFNaDy2ycM0uQgD9WeaqoMsaso5JUGkuVOkZEEPSahdfSWTVUxTLAq7NsbFfgS6Cr21afLUA==";
+        };
     in {
         "e8pWJQAh" = _e8pWJQAh;
         "YxCZ9wki" = _YxCZ9wki;
@@ -38,6 +43,7 @@ let
         "ND8N8Flu" = _ND8N8Flu;
         "2aE5ySa5" = _2aE5ySa5;
         "AQEXkiNW" = _AQEXkiNW;
+        "8iGvHt8u" = _8iGvHt8u;
         "minecraft-1.19" = _e8pWJQAh;
         "minecraft-1.19.1" = _e8pWJQAh;
         "minecraft-1.19.2" = _e8pWJQAh;
@@ -52,8 +58,10 @@ let
         "minecraft-26.1" = _AQEXkiNW;
         "minecraft-26.1.1" = _AQEXkiNW;
         "minecraft-26.1.2" = _AQEXkiNW;
+        "minecraft-26.3" = _8iGvHt8u;
         "pkg-1.0" = _AQEXkiNW;
-        "default" = _AQEXkiNW;
+        "pkg-26.3" = _8iGvHt8u;
+        "default" = _8iGvHt8u;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "low-fire-2";

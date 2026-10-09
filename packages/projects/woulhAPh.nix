@@ -41,6 +41,11 @@ let
             "file" = "BetterTab-neoforge-26.2-1.0.0+build.21.jar";
             "hash" = "sha512-1WW9lvmh2huT75y5EJdjHEVYQ+Xe2UqemKfr+VPnmzwv+ZHLlAKWYQZZ30JigsLUK8M9FrabpVVLIYeDzE2lpw==";
         };
+        _YdQIJWsk = {
+            "id" = "YdQIJWsk";
+            "file" = "BetterTab-neoforge-26.3-1.0.0+build.25.jar";
+            "hash" = "sha512-1brIVjylHwbp8Uui7aEXjvm6gEKeFoc/QAR+0vxmn3juHla/Fddi0R6wXh0nS22a6PodGwkbsXyUSS1JJ4tJIQ==";
+        };
     in {
         "Uds3fNLE" = _Uds3fNLE;
         "Oqi7zXS9" = _Oqi7zXS9;
@@ -50,11 +55,13 @@ let
         "gPIKSQs1" = _gPIKSQs1;
         "9YloZxQu" = _9YloZxQu;
         "k6hgQ6oJ" = _k6hgQ6oJ;
+        "YdQIJWsk" = _YdQIJWsk;
         "neoforge-1.21.1" = _VVw4TROM;
         "neoforge-1.21.8" = _lGzem3Vy;
         "neoforge-1.21.10" = _gPIKSQs1;
         "neoforge-26.1.2" = _9YloZxQu;
         "neoforge-26.2" = _k6hgQ6oJ;
+        "neoforge-26.3" = _YdQIJWsk;
         "pkg-1.0.0+build.2" = _Uds3fNLE;
         "pkg-1.0.0+build.10" = _Oqi7zXS9;
         "pkg-1.0.0+build.11" = _VVw4TROM;
@@ -63,7 +70,8 @@ let
         "pkg-1.0.0+build.16" = _gPIKSQs1;
         "pkg-1.0.0+build.20" = _9YloZxQu;
         "pkg-1.0.0+build.21" = _k6hgQ6oJ;
-        "default" = _k6hgQ6oJ;
+        "pkg-1.0.0+build.25" = _YdQIJWsk;
+        "default" = _YdQIJWsk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-tab";

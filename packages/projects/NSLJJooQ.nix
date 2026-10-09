@@ -126,6 +126,16 @@ let
             "file" = "WorldEditCUI-26.2+02.jar";
             "hash" = "sha512-n2guAXDai1b/R1Pqcbv1sznopStD4HiFH4ZCcJeFPCCMkfyU49tYAcVSuYnv1z+feZS27mybi8wT6Yq8eXsvkw==";
         };
+        _4mgnmSBN = {
+            "id" = "4mgnmSBN";
+            "file" = "WorldEditCUI-26.2+03.jar";
+            "hash" = "sha512-a6sAqkbkoXFa0a5Upl2Mx5kc0bAKgSjoZEHMu5uwckhNW48DP/+QO77WeE64u9sfz44OBGHz3+Eg91ifpcNgaw==";
+        };
+        _JqjhE0fW = {
+            "id" = "JqjhE0fW";
+            "file" = "WorldEditCUI-26.3+01.jar";
+            "hash" = "sha512-Jy74mqMyste5FSDD7rSZC80CyAR0qcUpQ7pQC1YyfFSeMaThHoW2wqA+Pb4iQoi4UTR0YN8bRNa5W86rA2zsEA==";
+        };
     in {
         "3vT3odiy" = _3vT3odiy;
         "txotsMuM" = _txotsMuM;
@@ -152,6 +162,8 @@ let
         "ATxdcInV" = _ATxdcInV;
         "VrYRgB1B" = _VrYRgB1B;
         "DXW8m2gO" = _DXW8m2gO;
+        "4mgnmSBN" = _4mgnmSBN;
+        "JqjhE0fW" = _JqjhE0fW;
         "fabric-1.16.2" = _dy1Nk0ab;
         "fabric-1.16.3" = _dy1Nk0ab;
         "fabric-1.16.4" = _dstHJwW8;
@@ -184,7 +196,8 @@ let
         "fabric-1.21.11" = _SD1ZtHLA;
         "fabric-26.1.1" = _ATxdcInV;
         "fabric-26.1.2" = _ATxdcInV;
-        "fabric-26.2" = _DXW8m2gO;
+        "fabric-26.2" = _4mgnmSBN;
+        "fabric-26.3" = _JqjhE0fW;
         "quilt-1.19" = _5kdnAu2N;
         "quilt-1.19.1" = _5kdnAu2N;
         "quilt-1.19.2" = _firuKLWB;
@@ -215,7 +228,9 @@ let
         "pkg-26.1.1+01" = _ATxdcInV;
         "pkg-26.2+01" = _VrYRgB1B;
         "pkg-26.2+02" = _DXW8m2gO;
-        "default" = _DXW8m2gO;
+        "pkg-26.2+03" = _4mgnmSBN;
+        "pkg-26.3+01" = _JqjhE0fW;
+        "default" = _JqjhE0fW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "worldedit-cui";

@@ -26,17 +26,24 @@ let
             "file" = "orbital_wolf_cannon-1.0.0.jar";
             "hash" = "sha512-A4KoRMlj765qHKFrstc5iJFEOU7aEwviJ8mAgdsqI87NvhfD2XRRlAfiBmSrJilVRpJrooSmFNCJr5kjc9qavg==";
         };
+        _NnXUI5jz = {
+            "id" = "NnXUI5jz";
+            "file" = "orbital-wolf-cannon-1.0.0.jar";
+            "hash" = "sha512-5TpYz1KKV5NdwYkhbWiPVCZV686lU3FFFWy6BqGEgKeUZ7T4SjblZ5r1AVFxHn1jjA4CEASRaUNTgxR1ob1JeA==";
+        };
     in {
         "Q0zZxCmL" = _Q0zZxCmL;
         "LFNLLwVq" = _LFNLLwVq;
         "yqEZvUpV" = _yqEZvUpV;
         "BSb9Kl79" = _BSb9Kl79;
         "GR09RoPN" = _GR09RoPN;
+        "NnXUI5jz" = _NnXUI5jz;
         "fabric-1.21.11" = _Q0zZxCmL;
         "fabric-26.1" = _LFNLLwVq;
         "fabric-26.1.1" = _LFNLLwVq;
         "fabric-26.1.2" = _BSb9Kl79;
         "fabric-26.2" = _BSb9Kl79;
+        "fabric-26.3" = _NnXUI5jz;
         "neoforge-26.1" = _yqEZvUpV;
         "neoforge-26.1.1" = _yqEZvUpV;
         "neoforge-26.1.2" = _yqEZvUpV;
@@ -45,7 +52,8 @@ let
         "pkg-2.0.0" = _LFNLLwVq;
         "pkg-2.0" = _yqEZvUpV;
         "pkg-3.0" = _GR09RoPN;
-        "default" = _GR09RoPN;
+        "pkg-4.0.0" = _NnXUI5jz;
+        "default" = _NnXUI5jz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "orbitalwolfcannon";

@@ -861,6 +861,31 @@ let
             "file" = "Nova-0.24.0+MC-26.2.jar";
             "hash" = "sha512-2Fskum32mK6HARRfGFdiOkuxotIjZRFUSR2NqMl7AgxaLuNifZnMhvUjG/qHlSqviye+klxggjPHmqcNcHGiVw==";
         };
+        _YycbzgTD = {
+            "id" = "YycbzgTD";
+            "file" = "Nova-0.25.0-alpha.1+MC-26.3.jar";
+            "hash" = "sha512-ei7Y/D/cSYTXoiQSBWybX/Ixf7kePAY6At9E9ziXM3D5Z+sW5QzEX3ssJxkR54+ySjbWQrYomdfLBE9hq0EDOw==";
+        };
+        _7D4gnEGP = {
+            "id" = "7D4gnEGP";
+            "file" = "Nova-0.25.0-alpha.2+MC-26.3.jar";
+            "hash" = "sha512-zJUO31A9187vB76KPtYnWEtLsvQ4aE0Eyuh5KZDt4Z7hcPrhHmfO5DlCIt3bzqVu1ONJqPkazbhyAN/b0Mf2aQ==";
+        };
+        _7XxNqhb3 = {
+            "id" = "7XxNqhb3";
+            "file" = "Nova-0.25.0-alpha.3+MC-26.3.jar";
+            "hash" = "sha512-kv4BR7Iirh+C64e1q4PK7R3v1xIcL9TQ9EWVSz5HfCRilF/DwuwTvG7P3xVAqjsplQS+kie3M/XjUEpk1gDFmQ==";
+        };
+        _k0eGtB0c = {
+            "id" = "k0eGtB0c";
+            "file" = "Nova-0.25.0-alpha.4+MC-26.3.jar";
+            "hash" = "sha512-DU7rVYeylvf6jPsyiTD97C94UjQUh48WV9kZYgQ2vHFYJLpqLa81ZYX+VrL0mqdRbjWO9Pq8VDUk+j5MUoRJtA==";
+        };
+        _KL74PEBk = {
+            "id" = "KL74PEBk";
+            "file" = "Nova-0.25.0-alpha.5+MC-26.3.jar";
+            "hash" = "sha512-Dd2GS1EhsUMTTaRwX8T/3xYznZ8GZBDVqXqpoa8HUvO1sS2ZS3MWiaIRPbjqAiDhLcSYEbPm5R65MkNcCseV8A==";
+        };
     in {
         "XQUzOp1N" = _XQUzOp1N;
         "quYhJv5u" = _quYhJv5u;
@@ -1034,6 +1059,11 @@ let
         "yZRfILpl" = _yZRfILpl;
         "QkjylJbD" = _QkjylJbD;
         "I0MMDtD5" = _I0MMDtD5;
+        "YycbzgTD" = _YycbzgTD;
+        "7D4gnEGP" = _7D4gnEGP;
+        "7XxNqhb3" = _7XxNqhb3;
+        "k0eGtB0c" = _k0eGtB0c;
+        "KL74PEBk" = _KL74PEBk;
         "paper-1.19.3" = _XQUzOp1N;
         "paper-1.19.4" = _oqVN6JSD;
         "paper-1.20" = _YJsDfOn9;
@@ -1053,6 +1083,7 @@ let
         "paper-26.1.2" = _5GcXzCBb;
         "paper-26.2-rc-2" = _yZRfILpl;
         "paper-26.2" = _I0MMDtD5;
+        "paper-26.3" = _KL74PEBk;
         "purpur-1.19.3" = _XQUzOp1N;
         "purpur-1.19.4" = _oqVN6JSD;
         "purpur-1.20" = _YJsDfOn9;
@@ -1072,6 +1103,7 @@ let
         "purpur-26.1.2" = _5GcXzCBb;
         "purpur-26.2-rc-2" = _yZRfILpl;
         "purpur-26.2" = _I0MMDtD5;
+        "purpur-26.3" = _KL74PEBk;
         "spigot-1.19.3" = _XQUzOp1N;
         "spigot-1.19.4" = _oqVN6JSD;
         "spigot-1.20" = _YJsDfOn9;
@@ -1248,7 +1280,12 @@ let
         "pkg-0.24.0-alpha.2" = _yZRfILpl;
         "pkg-0.24.0-RC.1" = _QkjylJbD;
         "pkg-0.24.0" = _I0MMDtD5;
-        "default" = _I0MMDtD5;
+        "pkg-0.25.0-alpha.1" = _YycbzgTD;
+        "pkg-0.25.0-alpha.2" = _7D4gnEGP;
+        "pkg-0.25.0-alpha.3" = _7XxNqhb3;
+        "pkg-0.25.0-alpha.4" = _k0eGtB0c;
+        "pkg-0.25.0-alpha.5" = _KL74PEBk;
+        "default" = _KL74PEBk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nova-framework";

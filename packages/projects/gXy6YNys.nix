@@ -161,6 +161,11 @@ let
             "file" = "nourished-0.2.7-beta.1-Hotfix.jar";
             "hash" = "sha512-IChIUJMsJzKdMt0HSV8Oszd4i19+8ZmOeHCaTmW3t7tXBuRWpJec48yahjDrkH+qu/+iSNEXBMxElcxbju+6iQ==";
         };
+        _kPb8CpJZ = {
+            "id" = "kPb8CpJZ";
+            "file" = "nourished-0.2.7-beta.2.jar";
+            "hash" = "sha512-JZNCzMNsfI0+DlG7OiymL2I3XkI6Z35PdsJ+A7CzfJXq/NN3DLch2urOU8kmne30WXZ1Hf+evi8ig5s3tKZTjw==";
+        };
     in {
         "TYx0Gp8O" = _TYx0Gp8O;
         "Gj1ByouI" = _Gj1ByouI;
@@ -194,7 +199,8 @@ let
         "XZWOU6NJ" = _XZWOU6NJ;
         "Up0yYRnJ" = _Up0yYRnJ;
         "i4sxTnr9" = _i4sxTnr9;
-        "neoforge-1.21.1" = _i4sxTnr9;
+        "kPb8CpJZ" = _kPb8CpJZ;
+        "neoforge-1.21.1" = _kPb8CpJZ;
         "pkg-0.1.1-alpha" = _TYx0Gp8O;
         "pkg-Nourished-0.1.2-alpha" = _Gj1ByouI;
         "pkg-0.1.1-beta" = _YcQox6ff;
@@ -227,7 +233,8 @@ let
         "pkg-0.2.7-beta" = _XZWOU6NJ;
         "pkg-0.2.7-beta.1" = _Up0yYRnJ;
         "pkg-0.2.7-beta.1-Hotfix" = _i4sxTnr9;
-        "default" = _i4sxTnr9;
+        "pkg-0.2.7-beta.2" = _kPb8CpJZ;
+        "default" = _kPb8CpJZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nourished";

@@ -361,6 +361,11 @@ let
             "file" = "spyglass-only-hud-1.3.1-26.3.jar";
             "hash" = "sha512-erZA+73G1nttctCkOxMvDOYso4FyhDGhPR4x8crAdNXLNpi66rzOqXR+H1Tt61wPaQ7Myb499S3eqz8Y13SrJw==";
         };
+        _cP1YlwzG = {
+            "id" = "cP1YlwzG";
+            "file" = "spyglass-only-hud-1.3.1-26.4-snapshot-1+.jar";
+            "hash" = "sha512-rk9vT+9Qiw0b1nzfs28dz/KtcwbPy3QMeeJWneYdBITjKawyiS4GKTHa09/ptGgsi0ipS3xlG5IBssK6t8YwTQ==";
+        };
     in {
         "PT2wb0NU" = _PT2wb0NU;
         "zIQxBgBG" = _zIQxBgBG;
@@ -434,6 +439,7 @@ let
         "pcLODuTb" = _pcLODuTb;
         "SJKQAIG0" = _SJKQAIG0;
         "zvasXwL6" = _zvasXwL6;
+        "cP1YlwzG" = _cP1YlwzG;
         "fabric-26.1-snapshot-1" = _PT2wb0NU;
         "fabric-26.1-snapshot-2" = _PT2wb0NU;
         "fabric-26.1-snapshot-3" = _PT2wb0NU;
@@ -498,6 +504,9 @@ let
         "fabric-26.3-snapshot-10" = _SJKQAIG0;
         "fabric-26.3-pre-1" = _SJKQAIG0;
         "fabric-26.3" = _zvasXwL6;
+        "fabric-26.4-snapshot-1" = _cP1YlwzG;
+        "fabric-26.4-snapshot-2" = _cP1YlwzG;
+        "fabric-26.4-snapshot-3" = _cP1YlwzG;
         "pkg-1.0.0" = _AULwrjkh;
         "pkg-0.1.0+1.21.11" = _zIQxBgBG;
         "pkg-0.2.0+1.21.10" = _Hagq32My;
@@ -519,8 +528,8 @@ let
         "pkg-1.2.0" = _ovs3I4Kr;
         "pkg-1.2.1" = _GWcrTxGO;
         "pkg-1.3.0" = _SJKQAIG0;
-        "pkg-1.3.1" = _zvasXwL6;
-        "default" = _zvasXwL6;
+        "pkg-1.3.1" = _cP1YlwzG;
+        "default" = _cP1YlwzG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spyglass-only-hud";

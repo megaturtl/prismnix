@@ -86,6 +86,16 @@ let
             "file" = "celestia-forge-1.20.1-1.2.4.jar";
             "hash" = "sha512-jy3hdLfjbwjpUF2hfRjiQHHaY5x5GwuSbSWYEOsHGmy5bX1dx4N2Q7QRUueiOYW/vtaSNID32wpYZPp3KdWCLA==";
         };
+        _ADQvU5Ra = {
+            "id" = "ADQvU5Ra";
+            "file" = "celestia-fabric-1.2.4-26.3.jar";
+            "hash" = "sha512-gQOxHEKRAMEaKh1v2o42Dxm+7lB9VU0X5AIBCMVQ5JkiIZd4llNhN9lnCB0v2Y3c0WIIdIwb7qREq6o6ir2Z9A==";
+        };
+        _GQQuN0hB = {
+            "id" = "GQQuN0hB";
+            "file" = "celestia-forge-1.2.4-26.3.jar";
+            "hash" = "sha512-PKqLudBPGWXVnd4+vRl3v3wLUhNLkYiMMJJploVuyxKi4tiCF/9U9M1apXpJ1ijQssx/upTVkuryO7eMZkGdxA==";
+        };
     in {
         "1M3kv3Xv" = _1M3kv3Xv;
         "8BhMFMwM" = _8BhMFMwM;
@@ -104,18 +114,22 @@ let
         "1FDmpHXg" = _1FDmpHXg;
         "gm3ZGFCI" = _gm3ZGFCI;
         "gDBu9Ll1" = _gDBu9Ll1;
+        "ADQvU5Ra" = _ADQvU5Ra;
+        "GQQuN0hB" = _GQQuN0hB;
         "fabric-26.1" = _DwQO1hEv;
         "fabric-26.1.1" = _DwQO1hEv;
         "fabric-26.1.2" = _DwQO1hEv;
         "fabric-26.2" = _URf0zDrY;
         "fabric-1.21.1" = _Ru89DaIV;
         "fabric-1.20.1" = _gm3ZGFCI;
+        "fabric-26.3" = _ADQvU5Ra;
         "forge-26.1" = _QDDrBLW7;
         "forge-26.1.1" = _QDDrBLW7;
         "forge-26.1.2" = _QDDrBLW7;
         "forge-26.2" = _n6J9Np79;
         "forge-1.21.1" = _FQiiBy5A;
         "forge-1.20.1" = _gDBu9Ll1;
+        "forge-26.3" = _GQQuN0hB;
         "neoforge-1.21.1" = _1FDmpHXg;
         "pkg-celestia-fabric-1.0.0" = _1M3kv3Xv;
         "pkg-celestia-forge-1.0.0" = _8BhMFMwM;
@@ -134,7 +148,9 @@ let
         "pkg-celestia-neoforge-1.21.1-1.2.4" = _1FDmpHXg;
         "pkg-celestia-fabric-1.20.1-1.2.4" = _gm3ZGFCI;
         "pkg-celestia-forge-1.20.1-1.2.4" = _gDBu9Ll1;
-        "default" = _gDBu9Ll1;
+        "pkg-celestia-fabric-1.2.4-26.3" = _ADQvU5Ra;
+        "pkg-celestia-forge-1.2.4-26.3" = _GQQuN0hB;
+        "default" = _GQQuN0hB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "celestia-sky";

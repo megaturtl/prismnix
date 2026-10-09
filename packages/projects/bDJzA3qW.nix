@@ -61,6 +61,11 @@ let
             "file" = "viper-vein-miner-1.0.0.jar";
             "hash" = "sha512-KgA2a6jWZGYSRdjdyO++uu+WwNWTilr7GX4dNeQHF8MytxAAzMpo073/DGDhJzr6oFD50wjLMkbVQhb7NirWaA==";
         };
+        _YKKLAX9T = {
+            "id" = "YKKLAX9T";
+            "file" = "viper-vein-miner-1.0.0.jar";
+            "hash" = "sha512-kgIvY6P7CKsQf8fo01yEZMfHbN0wXZzr4p9y0EVDjJa4r80ZQk60O5UtVluOut4GoVIhmvg5zmEc4n4oWQZqbw==";
+        };
     in {
         "tNFPrv5w" = _tNFPrv5w;
         "j9SoMgRO" = _j9SoMgRO;
@@ -74,6 +79,7 @@ let
         "X7AzXqgu" = _X7AzXqgu;
         "MCWMKEFC" = _MCWMKEFC;
         "BoClSOGR" = _BoClSOGR;
+        "YKKLAX9T" = _YKKLAX9T;
         "fabric-1.21" = _X7AzXqgu;
         "fabric-1.21.1" = _X7AzXqgu;
         "fabric-1.21.2" = _X7AzXqgu;
@@ -90,11 +96,12 @@ let
         "fabric-26.1" = _MCWMKEFC;
         "fabric-26.1.1" = _MCWMKEFC;
         "fabric-26.1.2" = _MCWMKEFC;
-        "pkg-1.0.0" = _Awn8YcX5;
+        "fabric-26.3" = _YKKLAX9T;
+        "pkg-1.0.0" = _YKKLAX9T;
         "pkg-1.0.1" = _nbIcuXzF;
         "pkg-1.0.2" = _uWF6E00D;
         "pkg-1.0.3" = _BoClSOGR;
-        "default" = _BoClSOGR;
+        "default" = _YKKLAX9T;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "viper-vein-miner";

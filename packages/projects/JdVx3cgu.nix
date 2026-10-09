@@ -251,6 +251,51 @@ let
             "file" = "ridebattlelib-1.2.7-26.1.2.jar";
             "hash" = "sha512-CFlZXHFWX1q2JjZaDjXfQoKUDQP8fhJWEJ8wKgX3iXkxnVifSC7we4cCWIaWKyOVIZwxcBnef7hfjRyQ1uoYpQ==";
         };
+        _mvtBYSG7 = {
+            "id" = "mvtBYSG7";
+            "file" = "ridebattlelib-1.3.1.jar";
+            "hash" = "sha512-pbMXbU6vE0StLfXBguFzdNfgeGkOIxs3O5UYx7eE7/nDLZqGUj+VDO6SEoJNoQqqg7DpdotTNgNGyRfyxX2t0Q==";
+        };
+        _wly2k208 = {
+            "id" = "wly2k208";
+            "file" = "ridebattlelib-1.3.1-1.21.11.jar";
+            "hash" = "sha512-3/1pKiEiZfMveocYCODBcHsopNuGsQQkpwVkJHCZIAq3rUXKvqHtwup0K90PPiynRD9x5iBfaQzGoVbaocJczg==";
+        };
+        _fny6hgQ2 = {
+            "id" = "fny6hgQ2";
+            "file" = "ridebattlelib-1.3.1-26.1.2.jar";
+            "hash" = "sha512-mVYtLly8L0bYHUECz7iM/i4iWFBptox5axztQ0Ow1R4F3O7E3K6kklQLlBK2J8bjGrapsORQp8HY30s/VHossA==";
+        };
+        _15C8l2na = {
+            "id" = "15C8l2na";
+            "file" = "ridebattlelib-1.3.2.jar";
+            "hash" = "sha512-uJtdo+mSa8GKB9D2QbLRiw0N8Fj7qGqL/I7C/KZWmp1NKNoc8dYQFoZGDKNvXVC2Lp89HfbRUYs2wSR3Za21ug==";
+        };
+        _Kuyzp4Q9 = {
+            "id" = "Kuyzp4Q9";
+            "file" = "ridebattlelib-1.3.2-1.21.11.jar";
+            "hash" = "sha512-azcdPR6A2kb25UhFamiGozQMKf6NfqG5SAr3n3IoXgI4uvpcgc+JE+4MzDsfTKjJ/I3wsO8//j1FXiao7MmLTg==";
+        };
+        _hW9q3YSF = {
+            "id" = "hW9q3YSF";
+            "file" = "ridebattlelib-1.3.2-26.1.2.jar";
+            "hash" = "sha512-trkIc7kpPv+grjE4kjaU0evk5kbqu7UGlpcWwnFTO0YrYkoq+ip/dPwp3Wg0XZNa94ZfsnwUg/RIr+cF7ERMsg==";
+        };
+        _5OMUqQbc = {
+            "id" = "5OMUqQbc";
+            "file" = "ridebattlelib-1.3.3.jar";
+            "hash" = "sha512-Dop99urx06qJNdTtlIGkgDFT8JHoGFVp7cSiBl8ZybaCmOsMsLnnrNt2kEFWUf9Vaiu0hVaj+ilz3VFzWa5GSQ==";
+        };
+        _Iq97VlaS = {
+            "id" = "Iq97VlaS";
+            "file" = "ridebattlelib-1.3.3-1.21.11.jar";
+            "hash" = "sha512-zMx0qz4L1PEO9r4A/pglo4jIFjPB5JjWB3k0SIhEDMJHPAK9wv91Hjz3J1ITtwHO9Y5OO38EMrH4mJKQSGww9g==";
+        };
+        _7xxz9vYD = {
+            "id" = "7xxz9vYD";
+            "file" = "ridebattlelib-1.3.3-26.1.2.jar";
+            "hash" = "sha512-J7h3laS0TqzR3nRvYt8YxmqzUxKpJxs7MmgieeLrQPhUIcayER9oTlHsHWbfQUs2Ocs2SDkV38MG9KmSFAmBMw==";
+        };
     in {
         "XzGfYI0n" = _XzGfYI0n;
         "e4UCKFNY" = _e4UCKFNY;
@@ -302,9 +347,18 @@ let
         "tYVpzh1J" = _tYVpzh1J;
         "A86mOiIL" = _A86mOiIL;
         "IRsTVkU7" = _IRsTVkU7;
-        "neoforge-1.21.1" = _tYVpzh1J;
-        "neoforge-1.21.11" = _A86mOiIL;
-        "neoforge-26.1.2" = _IRsTVkU7;
+        "mvtBYSG7" = _mvtBYSG7;
+        "wly2k208" = _wly2k208;
+        "fny6hgQ2" = _fny6hgQ2;
+        "15C8l2na" = _15C8l2na;
+        "Kuyzp4Q9" = _Kuyzp4Q9;
+        "hW9q3YSF" = _hW9q3YSF;
+        "5OMUqQbc" = _5OMUqQbc;
+        "Iq97VlaS" = _Iq97VlaS;
+        "7xxz9vYD" = _7xxz9vYD;
+        "neoforge-1.21.1" = _5OMUqQbc;
+        "neoforge-1.21.11" = _Iq97VlaS;
+        "neoforge-26.1.2" = _7xxz9vYD;
         "pkg-0.9.2" = _e4UCKFNY;
         "pkg-0.9.3" = _6QhwLT77;
         "pkg-0.9.4" = _rRpDsdjz;
@@ -353,7 +407,16 @@ let
         "pkg-1.2.7" = _tYVpzh1J;
         "pkg-1.2.7-1.21.11" = _A86mOiIL;
         "pkg-1.2.7-26.1.2" = _IRsTVkU7;
-        "default" = _IRsTVkU7;
+        "pkg-1.3.1" = _mvtBYSG7;
+        "pkg-1.3.1-1.21.11" = _wly2k208;
+        "pkg-1.3.1-26.1.2" = _fny6hgQ2;
+        "pkg-1.3.2" = _15C8l2na;
+        "pkg-1.3.2-1.21.11" = _Kuyzp4Q9;
+        "pkg-1.3.2-26.1.2" = _hW9q3YSF;
+        "pkg-1.3.3" = _5OMUqQbc;
+        "pkg-1.3.3-1.21.11" = _Iq97VlaS;
+        "pkg-1.3.3-26.1.2" = _7xxz9vYD;
+        "default" = _7xxz9vYD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ridebattlelib";

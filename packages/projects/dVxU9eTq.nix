@@ -66,6 +66,26 @@ let
             "file" = "dungeons_content_two-1.0.2-alpha-neoforge-1.21.8.jar";
             "hash" = "sha512-RnAkwdBFNpRYd/ZlDeGo5KDQjSGM4OhTFwK4DbCUweUDsCcJ+7il11IMCia5J9ii1J/6KPy6dClHD2TcIO4BFA==";
         };
+        _ymu3gXvt = {
+            "id" = "ymu3gXvt";
+            "file" = "dungeons_content_two-1.0.4-alpha-neoforge-1.21.1.jar";
+            "hash" = "sha512-Kww1o6WoY7KLNWTRaNbhWQ85fqiine6kPYOeK5rkwB8PMGLoj8EhUxotlL8wGRxGA6PpXUg/CaP96bJ3RCurfA==";
+        };
+        _mNt7EPLq = {
+            "id" = "mNt7EPLq";
+            "file" = "dungeons_content_two-1.0.4-alpha-forge-1.20.1.jar";
+            "hash" = "sha512-uGsf+QTrJ7jg6GMiMXIKVItkv7YUrnmUekKEaRG5wk8Tz2Zk/aPH9+PSLNLYzrpwiiszjL7CoKaTvTxQnxUivQ==";
+        };
+        _EP0DP419 = {
+            "id" = "EP0DP419";
+            "file" = "dungeons_content_two-1.0.5-alpha-neoforge-1.21.1.jar";
+            "hash" = "sha512-5q3ssp+p7CIujtaoHEJ6fkYHtLA402CRXEa7hojyWiN6xQ4zjqrx1Xfw/Gj5FYe9SiIxRdW8BwZT0WZEoEhsuQ==";
+        };
+        _qkmLVU9b = {
+            "id" = "qkmLVU9b";
+            "file" = "dungeons_content_two-1.0.5-alpha-forge-1.20.1.jar";
+            "hash" = "sha512-ywnteSvuNbF5K4nbc+yWX2Gfhns42O9oMIfDAjV4OrYrtMfSGTtxc6j6n2VXfl1vRme9FyU8Zse8WcB6b/owog==";
+        };
     in {
         "DcdCqvH3" = _DcdCqvH3;
         "GbOzXGkm" = _GbOzXGkm;
@@ -80,16 +100,22 @@ let
         "o97IEL9y" = _o97IEL9y;
         "3XmimT7F" = _3XmimT7F;
         "psa5Jnwk" = _psa5Jnwk;
-        "forge-1.20.1" = _o97IEL9y;
+        "ymu3gXvt" = _ymu3gXvt;
+        "mNt7EPLq" = _mNt7EPLq;
+        "EP0DP419" = _EP0DP419;
+        "qkmLVU9b" = _qkmLVU9b;
+        "forge-1.20.1" = _qkmLVU9b;
         "forge-1.19.4" = _BR8a0iSp;
         "forge-1.19.2" = _AhdIJU3l;
-        "neoforge-1.21.1" = _3XmimT7F;
+        "neoforge-1.21.1" = _EP0DP419;
         "neoforge-1.21.8" = _psa5Jnwk;
         "pkg-1.0" = _GbOzXGkm;
         "pkg-1.1" = _AhdIJU3l;
         "pkg-1.0.1-alpha" = _vn4JdXBI;
         "pkg-1.0.2-alpha" = _psa5Jnwk;
-        "default" = _psa5Jnwk;
+        "pkg-1.0.4-alpha" = _mNt7EPLq;
+        "pkg-1.0.5-alpha" = _qkmLVU9b;
+        "default" = _qkmLVU9b;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spice-wood-content";

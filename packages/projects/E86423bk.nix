@@ -31,6 +31,16 @@ let
             "file" = "flyspeed-2.0.1.jar";
             "hash" = "sha512-Q6cu0QYA1okgHUOCd9E7dAynM9jxh65DMoE0tviWW4L0NeucfNniG/eWrmLiPzw9eTPvQYAdM6r4hRxP42GtvA==";
         };
+        _zcL8xXnL = {
+            "id" = "zcL8xXnL";
+            "file" = "flyspeed-2.0.1-26.2.jar";
+            "hash" = "sha512-j6yKwxsGO1Tpc++CKD0hYzDDUB/5jpGm2ur+kiAmmpc281JJOWkpqWyNBgU4FR007347Duv03pQxwaqnszY4Xg==";
+        };
+        _VuplhhSO = {
+            "id" = "VuplhhSO";
+            "file" = "flyspeed-2.0.1-26.1.jar";
+            "hash" = "sha512-5o8WXZroKS7d0U6BcuJo05j07oGt/AFpiBVELLAQOxeNCMOgYGRW0azYqHc+bffklzUSXsibnSUYUBbqRw+MRw==";
+        };
     in {
         "ASnWCw3R" = _ASnWCw3R;
         "vwlkhH1x" = _vwlkhH1x;
@@ -38,6 +48,8 @@ let
         "TMwZ8yFg" = _TMwZ8yFg;
         "S9ySbeM2" = _S9ySbeM2;
         "X6soBJlK" = _X6soBJlK;
+        "zcL8xXnL" = _zcL8xXnL;
+        "VuplhhSO" = _VuplhhSO;
         "fabric-1.20" = _TMwZ8yFg;
         "fabric-1.20.1" = _TMwZ8yFg;
         "fabric-1.20.2" = _TMwZ8yFg;
@@ -58,13 +70,19 @@ let
         "fabric-1.21.10" = _TMwZ8yFg;
         "fabric-1.21.11" = _TMwZ8yFg;
         "fabric-26.3" = _X6soBJlK;
+        "fabric-26.2" = _zcL8xXnL;
+        "fabric-26.1" = _VuplhhSO;
+        "fabric-26.1.1" = _VuplhhSO;
+        "fabric-26.1.2" = _VuplhhSO;
         "pkg-1.0.0" = _ASnWCw3R;
         "pkg-1.0.1" = _vwlkhH1x;
         "pkg-1.0.2" = _AA3sZI8j;
         "pkg-1.0.3" = _TMwZ8yFg;
-        "pkg-2.0.0" = _S9ySbeM2;
-        "pkg-2.0.1" = _X6soBJlK;
-        "default" = _X6soBJlK;
+        "pkg-2.0.0-26.3" = _S9ySbeM2;
+        "pkg-2.0.1-26.3" = _X6soBJlK;
+        "pkg-2.0.1-26.2" = _zcL8xXnL;
+        "pkg-2.0.1-26.1" = _VuplhhSO;
+        "default" = _VuplhhSO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "flightspeed";

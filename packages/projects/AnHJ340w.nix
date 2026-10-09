@@ -61,6 +61,16 @@ let
             "file" = "(FORGE) 26.2 v1.1 AutoTool Switcher.jar";
             "hash" = "sha512-RiAo+StCtHlB9AC3SADC8Yrclx+xMeiMZYSTZxHi8AeJaqxmAxwq+BmUM4BfBUuCAL8szmtSQOJm6Tw2Pe+mXg==";
         };
+        _1zeOwb1r = {
+            "id" = "1zeOwb1r";
+            "file" = "(FORGE) 26.3 AutoTool Switcher.jar";
+            "hash" = "sha512-HgIEXe30iX7sBGQMCk4DPCOjNcLVCHsS2cblj2Of40iIAOaIOFds5lT1t+9JNjVYqxiuNJeyeOKdp5dFxfuv/A==";
+        };
+        _clHsZFcX = {
+            "id" = "clHsZFcX";
+            "file" = "(FABRIC) 26.3 AutoTool Switcher.jar";
+            "hash" = "sha512-E7DCk/p/6/Vv2/ILUHs0WD9vHxosYY2DDU4eMSAOBMmMWeOH0n9bSn24h3mbW/ZErcHaIVKAL8nd9p9nAMDgug==";
+        };
     in {
         "pf6pKR6Z" = _pf6pKR6Z;
         "UjgQQdyA" = _UjgQQdyA;
@@ -74,22 +84,27 @@ let
         "n9C9H1wP" = _n9C9H1wP;
         "mu114RSt" = _mu114RSt;
         "yGZ3vtWN" = _yGZ3vtWN;
+        "1zeOwb1r" = _1zeOwb1r;
+        "clHsZFcX" = _clHsZFcX;
         "forge-1.21.11" = _pf6pKR6Z;
         "forge-26.1" = _rcBdQGpc;
         "forge-26.1.1" = _4sKnWUuL;
         "forge-26.1.2" = _uLZ5jb1n;
         "forge-26.2" = _yGZ3vtWN;
+        "forge-26.3" = _1zeOwb1r;
         "fabric-1.21.11" = _UjgQQdyA;
         "fabric-26.1" = _Fu2ZPsHc;
         "fabric-26.1.1" = _Fu2ZPsHc;
         "fabric-26.1.2" = _Fu2ZPsHc;
         "fabric-26.2" = _mu114RSt;
+        "fabric-26.3" = _clHsZFcX;
         "pkg-1.21.11" = _UjgQQdyA;
         "pkg-26.1" = _rcBdQGpc;
         "pkg-26.1.1" = _4sKnWUuL;
         "pkg-26.1.2" = _uLZ5jb1n;
         "pkg-26.2" = _yGZ3vtWN;
-        "default" = _yGZ3vtWN;
+        "pkg-26.3" = _clHsZFcX;
+        "default" = _clHsZFcX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "autotool-switcher";

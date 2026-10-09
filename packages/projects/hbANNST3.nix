@@ -21,11 +21,17 @@ let
             "file" = "Villager Language - Extension 26.2+.zip";
             "hash" = "sha512-wih5VHv5m7nB/27/VOvIhTmr2y45c8BXC+b5HRFbdIfzTr7MskeobZomMFMb7evidb361u9cfpzAp3xuZ8GX8A==";
         };
+        _nIMJqKiG = {
+            "id" = "nIMJqKiG";
+            "file" = "Villager Language - Extension 26.3+.zip";
+            "hash" = "sha512-vC1P7B5hZKhgqWl6klKDYhGvKcHIvV5vnm4YSJmcLga7vVvgi3Vjx4Ulm9CygOB0VQxQkmbR8S7iRFXT3lvccg==";
+        };
     in {
         "GRFcFkvR" = _GRFcFkvR;
         "fviHNO5k" = _fviHNO5k;
         "tQx3pL1W" = _tQx3pL1W;
         "GJ2ZQE0a" = _GJ2ZQE0a;
+        "nIMJqKiG" = _nIMJqKiG;
         "minecraft-1.20" = _GRFcFkvR;
         "minecraft-1.20.1" = _GRFcFkvR;
         "minecraft-1.20.2" = _GRFcFkvR;
@@ -49,11 +55,13 @@ let
         "minecraft-26.1.1" = _tQx3pL1W;
         "minecraft-26.1.2" = _tQx3pL1W;
         "minecraft-26.2" = _GJ2ZQE0a;
+        "minecraft-26.3" = _nIMJqKiG;
         "pkg-1.0" = _GRFcFkvR;
         "pkg-1.1" = _fviHNO5k;
         "pkg-1.2" = _tQx3pL1W;
         "pkg-1.3" = _GJ2ZQE0a;
-        "default" = _GJ2ZQE0a;
+        "pkg-1.4" = _nIMJqKiG;
+        "default" = _nIMJqKiG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "villager-language-extension";

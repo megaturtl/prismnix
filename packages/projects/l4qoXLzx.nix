@@ -51,6 +51,21 @@ let
             "file" = "horse-stats-vanilla-4.3.0.jar";
             "hash" = "sha512-3aIAUgUxhoOjK6bjmuLedWHEh0aAPipv/om/MRErjJZmYjemk35jQ8RYRLX7qpPipIc8OCtzSUzA0f+7bn6CEA==";
         };
+        _buEGMSPM = {
+            "id" = "buEGMSPM";
+            "file" = "horse-stats-vanilla-4.5.1+1.20.2.jar";
+            "hash" = "sha512-sBMwqPU15x1sTLmfWSGyYd7qh1ilof6nE8nszzyDv+6F8gtrtYP0LDYXzPlh0Y8TLMDtn6duTO3XDUQ7l+kr2g==";
+        };
+        _24GeNJ5j = {
+            "id" = "24GeNJ5j";
+            "file" = "horse-stats-vanilla-4.5.1+1.20.4.jar";
+            "hash" = "sha512-0gNe11VACvhiDvylHVc6b9Vh/K2UO0J8+pawonFeFQ3phCQvDL/GMTiuhZunpbAX+PSdfYVCQU704Uo19Lf5xw==";
+        };
+        _zp5zIeNM = {
+            "id" = "zp5zIeNM";
+            "file" = "horse-stats-vanilla-4.5.1+1.20.6.jar";
+            "hash" = "sha512-c7BVZRzY36owlJBw7ltDW64n0TnsFD/xmj9cJVCYp/gyRPgB19RcRMIxeFiMmhJwvTOfQRoveku5NmlznTqWBQ==";
+        };
     in {
         "dNynywS2" = _dNynywS2;
         "JyM5Tqxc" = _JyM5Tqxc;
@@ -62,6 +77,9 @@ let
         "W1Cr0hgK" = _W1Cr0hgK;
         "q3xjK0vf" = _q3xjK0vf;
         "ukzeedx3" = _ukzeedx3;
+        "buEGMSPM" = _buEGMSPM;
+        "24GeNJ5j" = _24GeNJ5j;
+        "zp5zIeNM" = _zp5zIeNM;
         "fabric-1.16.5" = _JyM5Tqxc;
         "fabric-1.17-pre1" = _JNU6xXEr;
         "fabric-1.17-pre2" = _JNU6xXEr;
@@ -93,7 +111,15 @@ let
         "fabric-1.19.4" = _q3xjK0vf;
         "fabric-1.20" = _ukzeedx3;
         "fabric-1.20.1" = _ukzeedx3;
+        "fabric-1.20.2" = _buEGMSPM;
+        "fabric-1.20.3" = _24GeNJ5j;
+        "fabric-1.20.4" = _24GeNJ5j;
+        "fabric-1.20.6" = _zp5zIeNM;
         "quilt-1.19.3" = _oM0TwEzG;
+        "quilt-1.20.2" = _buEGMSPM;
+        "quilt-1.20.3" = _24GeNJ5j;
+        "quilt-1.20.4" = _24GeNJ5j;
+        "quilt-1.20.6" = _zp5zIeNM;
         "pkg-4.1.6" = _dNynywS2;
         "pkg-4.1.7" = _JyM5Tqxc;
         "pkg-4.1.8" = _JNU6xXEr;
@@ -104,7 +130,10 @@ let
         "pkg-4.2.3" = _W1Cr0hgK;
         "pkg-4.3.0" = _q3xjK0vf;
         "pkg-4.4.0" = _ukzeedx3;
-        "default" = _ukzeedx3;
+        "pkg-4.5.1+1.20.2" = _buEGMSPM;
+        "pkg-4.5.1+1.20.4" = _24GeNJ5j;
+        "pkg-4.5.1+1.20.6" = _zp5zIeNM;
+        "default" = _zp5zIeNM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "horsestatsvanilla";

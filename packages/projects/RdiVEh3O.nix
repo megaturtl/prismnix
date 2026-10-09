@@ -356,6 +356,16 @@ let
             "file" = "creeperfireworks-26.2-neoforge-1.0.2.2-NEOFORGE.jar";
             "hash" = "sha512-cwEIEgUjF4UZ+qj78fAMfCw3cHnom0YZBEYQNBFDY+4V/5qdbATJQ1Je0iDxQq/AcPKmBgwiQYtAN2wivtHyCg==";
         };
+        _9ZQTwZ71 = {
+            "id" = "9ZQTwZ71";
+            "file" = "creeperfireworks-26.3-fabric-1.0.2.2-FABRIC.jar";
+            "hash" = "sha512-y9YJ+gprDvcD3hDjbYRY72iD5o0hStJI4XaBkPb5p7Rh0x6DlhWD9Zqn+RlzWtwidi/zu8KztXsxFStAbRQm5g==";
+        };
+        _4GoDQmcG = {
+            "id" = "4GoDQmcG";
+            "file" = "creeperfireworks-26.3-neoforge-1.0.2.2-NEOFORGE.jar";
+            "hash" = "sha512-xr+FBnKrGRKUYQEIhkoMWqgDKmTvaBGD328VuXy+AiSLFfAyRa2QPzJMKI0Xdt0mXN/CY4eOTkuy43ZWQukqeQ==";
+        };
     in {
         "FKSSLTN8" = _FKSSLTN8;
         "nmNyjRdJ" = _nmNyjRdJ;
@@ -428,6 +438,8 @@ let
         "VTN9DutU" = _VTN9DutU;
         "pLNt7zJr" = _pLNt7zJr;
         "inj4Hssc" = _inj4Hssc;
+        "9ZQTwZ71" = _9ZQTwZ71;
+        "4GoDQmcG" = _4GoDQmcG;
         "fabric-1.20" = _gS3kNKMz;
         "fabric-1.20.1" = _QV3EwM2O;
         "fabric-1.20.4" = _vb9A8R2T;
@@ -444,6 +456,7 @@ let
         "fabric-26.1.1" = _3E8Watqi;
         "fabric-26.1.2" = _3E8Watqi;
         "fabric-26.2" = _pLNt7zJr;
+        "fabric-26.3" = _9ZQTwZ71;
         "forge-1.20" = _pqVAKhG6;
         "forge-1.20.1" = _kB55PEKf;
         "neoforge-1.20" = _pqVAKhG6;
@@ -462,6 +475,7 @@ let
         "neoforge-26.1.1" = _VTN9DutU;
         "neoforge-26.1.2" = _VTN9DutU;
         "neoforge-26.2" = _inj4Hssc;
+        "neoforge-26.3" = _4GoDQmcG;
         "pkg-1.20.1-1.0.0.0-FABRIC" = _FKSSLTN8;
         "pkg-1.20.1-1.0.0.0-FORGE" = _nmNyjRdJ;
         "pkg-1.20.4-1.0.0.0-FABRIC" = _vUZu6fQt;
@@ -533,7 +547,9 @@ let
         "pkg-26.1.2-1.0.2.2-NEOFORGE" = _VTN9DutU;
         "pkg-26.2-1.0.2.2-FABRIC" = _pLNt7zJr;
         "pkg-26.2-1.0.2.2-NEOFORGE" = _inj4Hssc;
-        "default" = _inj4Hssc;
+        "pkg-26.3-1.0.2.2-FABRIC" = _9ZQTwZ71;
+        "pkg-26.3-1.0.2.2-NEOFORGE" = _4GoDQmcG;
+        "default" = _4GoDQmcG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "creeper-fireworks-mod";

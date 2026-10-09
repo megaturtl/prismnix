@@ -71,6 +71,11 @@ let
             "file" = "BlockEntityRenderDistance (v1.0.0) - 26.2 (Fabric).jar";
             "hash" = "sha512-uH/D3EQ31rb8tamjb4fEt7ThaOr0g5dFRaWzv6vPNO05rSXQm4+e/6N2+J0Dk7VR0syh8vfyXrN8uh2uYIeCow==";
         };
+        _qKcVXICs = {
+            "id" = "qKcVXICs";
+            "file" = "BlockEntityRD (v1.0.0) - 26.3 (Fabric).jar";
+            "hash" = "sha512-8lmHDIpkmU304K5+dBbALMi8arLgtYcgbi/dYAJIeDn3Q+OdbrJ0zX9+0LZo9QHs6nBtABm/R5NasziM6bzbJA==";
+        };
     in {
         "ygBGCYer" = _ygBGCYer;
         "FA2MCavW" = _FA2MCavW;
@@ -86,6 +91,7 @@ let
         "AH8LmCwu" = _AH8LmCwu;
         "tXKB03I7" = _tXKB03I7;
         "bUpL4Pbe" = _bUpL4Pbe;
+        "qKcVXICs" = _qKcVXICs;
         "fabric-1.21.8" = _ygBGCYer;
         "fabric-1.21.7" = _FA2MCavW;
         "fabric-1.21.6" = _NFyXeWej;
@@ -99,6 +105,7 @@ let
         "fabric-1.21.11" = _AH8LmCwu;
         "fabric-26.1.2" = _tXKB03I7;
         "fabric-26.2" = _bUpL4Pbe;
+        "fabric-26.3" = _qKcVXICs;
         "quilt-1.21.8" = _ygBGCYer;
         "quilt-1.21.7" = _FA2MCavW;
         "quilt-1.21.6" = _NFyXeWej;
@@ -122,7 +129,8 @@ let
         "pkg-1.21.11" = _AH8LmCwu;
         "pkg-26.1.2" = _tXKB03I7;
         "pkg-26.2" = _bUpL4Pbe;
-        "default" = _bUpL4Pbe;
+        "pkg-1.0.0" = _qKcVXICs;
+        "default" = _qKcVXICs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "block-entity-rd";

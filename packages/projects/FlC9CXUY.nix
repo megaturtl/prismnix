@@ -331,6 +331,11 @@ let
             "file" = "armorstands-fabric-3.0.4+26.3.jar";
             "hash" = "sha512-SgrgGBDyDzqLDDARU3/No07mFtOq3lJLy5rlZoF2GB3v4Wf3yqCvmrkU3GXbKxnbE0BX4+WPSerEaVarbpMOsg==";
         };
+        _VV181gPk = {
+            "id" = "VV181gPk";
+            "file" = "armorstands-forge-3.0.4+26.3.jar";
+            "hash" = "sha512-dujIz7TQb7We3K+qe8S+DurDtzvlwAA3og/Zkb6xnuZeP0znJWZsu/hTbJ+RorYckQ8Qi8hSd8WYWnDuFoi8KA==";
+        };
     in {
         "SnHGYgdy" = _SnHGYgdy;
         "sjLBNYku" = _sjLBNYku;
@@ -398,6 +403,7 @@ let
         "lV6sGGrC" = _lV6sGGrC;
         "RMOrrGZ7" = _RMOrrGZ7;
         "hEN85qop" = _hEN85qop;
+        "VV181gPk" = _VV181gPk;
         "fabric-1.19" = _Ep3Jsoy3;
         "fabric-1.19.1" = _Ep3Jsoy3;
         "fabric-1.19.2" = _Ep3Jsoy3;
@@ -460,6 +466,7 @@ let
         "forge-26.1.1" = _gXBgebGo;
         "forge-26.1.2" = _gXBgebGo;
         "forge-26.2" = _yqtvxcsx;
+        "forge-26.3" = _VV181gPk;
         "neoforge-26.1" = _XeVG2GLJ;
         "neoforge-26.1.1" = _XeVG2GLJ;
         "neoforge-26.1.2" = _XeVG2GLJ;
@@ -531,7 +538,8 @@ let
         "pkg-3.0.4+26.2-fabric" = _lV6sGGrC;
         "pkg-3.0.4+26.3-neoforge" = _RMOrrGZ7;
         "pkg-3.0.4+26.3-fabric" = _hEN85qop;
-        "default" = _hEN85qop;
+        "pkg-3.0.4+26.3-forge" = _VV181gPk;
+        "default" = _VV181gPk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "armor-stands";

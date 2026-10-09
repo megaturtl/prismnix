@@ -266,6 +266,26 @@ let
             "file" = "HangGlider-v26.2.0-mc26.2.x-NeoForge.jar";
             "hash" = "sha512-qd5rQ71GNVPKKOJVw3lG7xI/+Hfc35bmXpoyNsT448+xas19KL1NsEPolJ3Y1VBJ3EQWMWugK3fjWhmFdrSUiw==";
         };
+        _jn3J2sm4 = {
+            "id" = "jn3J2sm4";
+            "file" = "hangglider-v26.1.2-mc26.1.x+fabric.jar";
+            "hash" = "sha512-ovVYdZanp0MJcx4wEP3UKKy2MBTa/MJOO72i8biQ9FF+3V2yv5wqN+OtN59qdQ3qB/U6nE3gtLWoweajAg7ryw==";
+        };
+        _WLgiXncl = {
+            "id" = "WLgiXncl";
+            "file" = "hangglider-v26.1.2-mc26.1.x+neoforge.jar";
+            "hash" = "sha512-eSQGQupUvU/w0/UDXyWmdzgRZI77G6o/VwYVvSPT9jgq2tSlE9Qqsj/j/+Z3tVnUVfwyU1oFcq0bPpkJ1ZoiCA==";
+        };
+        _tlquk5j3 = {
+            "id" = "tlquk5j3";
+            "file" = "hangglider-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-OLr8Enm5cGVqC9YBQb+4sgLtIrVdOoZ+3cmuEdQtCQ8ZPK7Cu3tMuEHWSaKrc/b6EIbJxlZigkZVbRfrV3MrHg==";
+        };
+        _Ifsdm9rf = {
+            "id" = "Ifsdm9rf";
+            "file" = "hangglider-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-6KJVld3nZZuVCihz9SqleQlc1ftBoTh1FYD3oGIIRY8d18YUsX7J/J6N3GxOwjgdCpJnvxEyRbAoAjEXQlquiA==";
+        };
     in {
         "Lo4J96hz" = _Lo4J96hz;
         "e484GMjn" = _e484GMjn;
@@ -320,6 +340,10 @@ let
         "bXZnVrSu" = _bXZnVrSu;
         "NAuB0ejr" = _NAuB0ejr;
         "ck5ec2q2" = _ck5ec2q2;
+        "jn3J2sm4" = _jn3J2sm4;
+        "WLgiXncl" = _WLgiXncl;
+        "tlquk5j3" = _tlquk5j3;
+        "Ifsdm9rf" = _Ifsdm9rf;
         "forge-1.19.2" = _Lo4J96hz;
         "forge-1.19.3" = _j1cpJGIi;
         "forge-1.19.4" = _8TFP8LUx;
@@ -345,10 +369,11 @@ let
         "fabric-1.21.9" = _f9ES7EhC;
         "fabric-1.21.10" = _fCpxTh1H;
         "fabric-1.21.11" = _BBsEHKRf;
-        "fabric-26.1" = _bXZnVrSu;
-        "fabric-26.1.1" = _bXZnVrSu;
-        "fabric-26.1.2" = _bXZnVrSu;
+        "fabric-26.1" = _jn3J2sm4;
+        "fabric-26.1.1" = _jn3J2sm4;
+        "fabric-26.1.2" = _jn3J2sm4;
         "fabric-26.2" = _NAuB0ejr;
+        "fabric-26.3" = _tlquk5j3;
         "neoforge-1.20.4" = _Yrhc5WNJ;
         "neoforge-1.21" = _dSJ8cTtF;
         "neoforge-1.21.1" = _nLff2PaZ;
@@ -361,10 +386,11 @@ let
         "neoforge-1.21.9" = _AX73XMyg;
         "neoforge-1.21.10" = _T7D1NG7z;
         "neoforge-1.21.11" = _mIs5VE3j;
-        "neoforge-26.1" = _NLToxleg;
-        "neoforge-26.1.1" = _NLToxleg;
-        "neoforge-26.1.2" = _NLToxleg;
+        "neoforge-26.1" = _WLgiXncl;
+        "neoforge-26.1.1" = _WLgiXncl;
+        "neoforge-26.1.2" = _WLgiXncl;
         "neoforge-26.2" = _ck5ec2q2;
+        "neoforge-26.3" = _Ifsdm9rf;
         "pkg-v4.0.0-1.19.2-Forge" = _Lo4J96hz;
         "pkg-v4.0.0-1.19.2-Fabric" = _e484GMjn;
         "pkg-v5.0.0-1.19.3-Fabric" = _dI13Mmxz;
@@ -412,7 +438,9 @@ let
         "pkg-26.1.0" = _6iLB9dQh;
         "pkg-26.1.1" = _bXZnVrSu;
         "pkg-26.2.0" = _ck5ec2q2;
-        "default" = _ck5ec2q2;
+        "pkg-26.1.2" = _WLgiXncl;
+        "pkg-26.3.0" = _Ifsdm9rf;
+        "default" = _Ifsdm9rf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hang-glider";

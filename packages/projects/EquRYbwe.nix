@@ -306,6 +306,21 @@ let
             "file" = "essgui-2.4.0+26.2.jar";
             "hash" = "sha512-oK1h0Yq53xh0HKTytZZxgTQL2MBAu3aysN76E4lsb5AGZuSO1sbClENscik9F93BNm8Ze7XreUo7lkICbmGmSA==";
         };
+        _K6euAjmd = {
+            "id" = "K6euAjmd";
+            "file" = "essgui-2.4.1+26.2.jar";
+            "hash" = "sha512-UchvSeg7vY2vDOx/Ix/1bH7KVqmvt684yXe7rxO94tg481qWEcvUXeHmxHlYTU4IAp+SvyPqJeDw/XK8fS7Omg==";
+        };
+        _kM9nkLCh = {
+            "id" = "kM9nkLCh";
+            "file" = "essgui-2.4.2+26.2.jar";
+            "hash" = "sha512-BOTejf3bffxKVvFC2yRYQoO+saA3X5EGVKI+faulfvHea85VyAQOAe3SLXcuc89J+NCxD26yk+RquUIb/ILuzQ==";
+        };
+        _aWiZQUUZ = {
+            "id" = "aWiZQUUZ";
+            "file" = "essgui-2.5.0+26.3.jar";
+            "hash" = "sha512-k53GIhHWEufAIDoodCM8VS3pXSw0n77TBSX2NhSqgY6VTqRwFlB6Ur8aOpG3rBmf3X466OH+9LxvedsVbGxW8w==";
+        };
     in {
         "VhXKGBrs" = _VhXKGBrs;
         "5A8iDpe2" = _5A8iDpe2;
@@ -368,6 +383,9 @@ let
         "dDe9ItbC" = _dDe9ItbC;
         "tXfF4KFL" = _tXfF4KFL;
         "HWSIqzq5" = _HWSIqzq5;
+        "K6euAjmd" = _K6euAjmd;
+        "kM9nkLCh" = _kM9nkLCh;
+        "aWiZQUUZ" = _aWiZQUUZ;
         "fabric-1.19.3" = _VhXKGBrs;
         "fabric-1.19.2" = _DskGHcKe;
         "fabric-1.19.4" = _lck7k1um;
@@ -391,7 +409,8 @@ let
         "fabric-26.1" = _tXfF4KFL;
         "fabric-26.1.1" = _tXfF4KFL;
         "fabric-26.1.2" = _tXfF4KFL;
-        "fabric-26.2" = _HWSIqzq5;
+        "fabric-26.2" = _kM9nkLCh;
+        "fabric-26.3" = _aWiZQUUZ;
         "pkg-1.8.4+1.19.3" = _VhXKGBrs;
         "pkg-1.8.2+1.19.2" = _5A8iDpe2;
         "pkg-1.8.5+1.19.4" = _Gkm0DomV;
@@ -452,7 +471,10 @@ let
         "pkg-2.2.4+1.21.11" = _dDe9ItbC;
         "pkg-2.3.1+26.1" = _tXfF4KFL;
         "pkg-2.4.0+26.2" = _HWSIqzq5;
-        "default" = _HWSIqzq5;
+        "pkg-2.4.1" = _K6euAjmd;
+        "pkg-2.4.2" = _kM9nkLCh;
+        "pkg-2.5.0" = _aWiZQUUZ;
+        "default" = _aWiZQUUZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "essentialgui";

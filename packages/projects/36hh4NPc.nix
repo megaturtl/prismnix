@@ -456,6 +456,31 @@ let
             "file" = "kkremind-1.21.1-8.26.3e.jar";
             "hash" = "sha512-qVmz2IT0GEPTYLAuBlJwLcHBQ6Vrp/+mdcR6dLy21wSDyA91ktcn/5FApZsmnVIvxPLnLMpi11uzvm2UHOCXcg==";
         };
+        _bSspUzoM = {
+            "id" = "bSspUzoM";
+            "file" = "kkremind-1.21.1-9.26.1.jar";
+            "hash" = "sha512-u+GqjnD79dwoYakMtfKY8RkeTTmwmq2LIjrki9VBQxLEm6u9j4bn8n0fr0e/zPMpk/6JMhn2epczzBjCYtPpiQ==";
+        };
+        _g2DvM1Q6 = {
+            "id" = "g2DvM1Q6";
+            "file" = "kkremind-1.21.1-9.26.1.jar";
+            "hash" = "sha512-kXAFSiJF2HgrcA3g31pjZBOkSK1mqAiZ5Q4AsiRu36GEo5RRLP1+Rte49SnaPAlA3B+uvS8sU5HkbJ36Qe7SVg==";
+        };
+        _SZnCGACY = {
+            "id" = "SZnCGACY";
+            "file" = "kkremind-1.21.1-10.26.1a.jar";
+            "hash" = "sha512-7dGJ+YEpJJrw+pDsW8iymJyRi24zRWhFQ2KbUli85xmX1APtmPUckqLbWZwXsv8S58gjfG7n0rKETLsc/5svAQ==";
+        };
+        _lUoKilHR = {
+            "id" = "lUoKilHR";
+            "file" = "kkremind-1.21.1-10.26.2.jar";
+            "hash" = "sha512-F3OlJ0pVHT2IZI6YUiVYdPp1qCTEH0OosSb1/RtFR601qQVrLDFgngkMozoLA3jtd0GN5u3+ChzjYJRGwSAJOQ==";
+        };
+        _m6C8XgBt = {
+            "id" = "m6C8XgBt";
+            "file" = "kkremind-1.21.1-10.26.2a.jar";
+            "hash" = "sha512-7CzXy8eGShWyeqzM/pza8c0W7IiyqPIgylziAimIUJ2ZTF53J3dHeeyfYVjXe6SwVE6G9o/5JZR6BTxyGEbdVQ==";
+        };
     in {
         "cRPzrmZA" = _cRPzrmZA;
         "2cB7TdWO" = _2cB7TdWO;
@@ -548,8 +573,13 @@ let
         "ck5cFgXV" = _ck5cFgXV;
         "RVXyOUMu" = _RVXyOUMu;
         "N2jeMnFN" = _N2jeMnFN;
+        "bSspUzoM" = _bSspUzoM;
+        "g2DvM1Q6" = _g2DvM1Q6;
+        "SZnCGACY" = _SZnCGACY;
+        "lUoKilHR" = _lUoKilHR;
+        "m6C8XgBt" = _m6C8XgBt;
         "forge-1.20.1" = _gERDuSQk;
-        "neoforge-1.21.1" = _N2jeMnFN;
+        "neoforge-1.21.1" = _m6C8XgBt;
         "neoforge-1.21.2" = _wsnWrNSd;
         "neoforge-1.21.3" = _wsnWrNSd;
         "neoforge-1.21.4" = _wsnWrNSd;
@@ -653,7 +683,11 @@ let
         "pkg-8.26.3c-1.21.1" = _ck5cFgXV;
         "pkg-8.26.3d-1.21.1" = _RVXyOUMu;
         "pkg-8.26.3e-1.21.1" = _N2jeMnFN;
-        "default" = _N2jeMnFN;
+        "pkg-9.26.1-1.21.1" = _g2DvM1Q6;
+        "pkg-10.26.1a-1.21.1" = _SZnCGACY;
+        "pkg-10.26.2-1.21.1" = _lUoKilHR;
+        "pkg-10.26.2a-1.21.1" = _m6C8XgBt;
+        "default" = _m6C8XgBt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kingdom-keys-remind";

@@ -121,6 +121,26 @@ let
             "file" = "crystals-fabric-1.2.3p.jar";
             "hash" = "sha512-ZcfDa5j8K6onR9g7TLeUVPHv8SM5PGNeY753yInM1l2dcznNDi6o7X8ymnKadfIhb6RzcdM2gY+LTXV3jYRgYg==";
         };
+        _ntF2vAr9 = {
+            "id" = "ntF2vAr9";
+            "file" = "crystals-neoforge-1.4.0.jar";
+            "hash" = "sha512-l90gpQRjDi5Gctb+aoBsatIKLb2nzFLt6R0CI/ZtfO0AtxJcrAotJ7FZnDaM4PIvXkELTY6sJz7jVLRGy8OLug==";
+        };
+        _8CpjNXJN = {
+            "id" = "8CpjNXJN";
+            "file" = "crystals-fabric-1.4.0.jar";
+            "hash" = "sha512-d1DBSWJCU58e2Sj7Lvo8eFsEa5UXoNAPDL4+CDArxiVxNAt0shZLYJ/iZel7MeqsGulRleKsr5PCFierS3CPNg==";
+        };
+        _4bOjuUaf = {
+            "id" = "4bOjuUaf";
+            "file" = "crystals-neoforge-1.4.1.jar";
+            "hash" = "sha512-16xGJowagZDszqAxt5wF/wVDRuZfSxagpFYjMZgblscBti9Z8U8OOszVcavKcdX+PvEJpaZ9//fAvGFqTCyxZQ==";
+        };
+        _3zfrGSKP = {
+            "id" = "3zfrGSKP";
+            "file" = "crystals-fabric-1.4.1.jar";
+            "hash" = "sha512-WW4XD4vw3Rnlsn9twUA+uybsCMjy1SK5b8h5FW/h4E6semr1NAa9WHKtqbgN+/ELUSHdgKpj3CSbkIO9QL6L1A==";
+        };
     in {
         "XXhb73LE" = _XXhb73LE;
         "rsrluQa7" = _rsrluQa7;
@@ -146,6 +166,10 @@ let
         "T5sV8oak" = _T5sV8oak;
         "mutuZBZx" = _mutuZBZx;
         "o7rYxqE3" = _o7rYxqE3;
+        "ntF2vAr9" = _ntF2vAr9;
+        "8CpjNXJN" = _8CpjNXJN;
+        "4bOjuUaf" = _4bOjuUaf;
+        "3zfrGSKP" = _3zfrGSKP;
         "fabric-1.20.4" = _sGZT7NJt;
         "fabric-1.20.1" = _sGZT7NJt;
         "fabric-1.20.2" = _sGZT7NJt;
@@ -157,12 +181,12 @@ let
         "fabric-1.21.3" = _hze7UNWZ;
         "fabric-1.21.4" = _DGunVx90;
         "fabric-1.21.5" = _DGunVx90;
-        "fabric-1.21.6" = _T5sV8oak;
-        "fabric-1.21.7" = _T5sV8oak;
-        "fabric-1.21.8" = _T5sV8oak;
-        "fabric-1.21.9" = _T5sV8oak;
-        "fabric-1.21.10" = _T5sV8oak;
-        "fabric-1.21.11" = _T5sV8oak;
+        "fabric-1.21.6" = _8CpjNXJN;
+        "fabric-1.21.7" = _8CpjNXJN;
+        "fabric-1.21.8" = _8CpjNXJN;
+        "fabric-1.21.9" = _8CpjNXJN;
+        "fabric-1.21.10" = _8CpjNXJN;
+        "fabric-1.21.11" = _3zfrGSKP;
         "quilt-1.20.4" = _sGZT7NJt;
         "quilt-1.20.1" = _sGZT7NJt;
         "quilt-1.20.2" = _sGZT7NJt;
@@ -174,12 +198,12 @@ let
         "quilt-1.21.3" = _hze7UNWZ;
         "quilt-1.21.4" = _DGunVx90;
         "quilt-1.21.5" = _DGunVx90;
-        "quilt-1.21.6" = _T5sV8oak;
-        "quilt-1.21.7" = _T5sV8oak;
-        "quilt-1.21.8" = _T5sV8oak;
-        "quilt-1.21.9" = _T5sV8oak;
-        "quilt-1.21.10" = _T5sV8oak;
-        "quilt-1.21.11" = _T5sV8oak;
+        "quilt-1.21.6" = _8CpjNXJN;
+        "quilt-1.21.7" = _8CpjNXJN;
+        "quilt-1.21.8" = _8CpjNXJN;
+        "quilt-1.21.9" = _8CpjNXJN;
+        "quilt-1.21.10" = _8CpjNXJN;
+        "quilt-1.21.11" = _3zfrGSKP;
         "forge-1.20.4" = _JlPg1dRr;
         "forge-1.20.1" = _JlPg1dRr;
         "forge-1.20.2" = _JlPg1dRr;
@@ -195,12 +219,12 @@ let
         "neoforge-1.21.3" = _tIZfiX4k;
         "neoforge-1.21.4" = _oPEBR7fD;
         "neoforge-1.21.5" = _oPEBR7fD;
-        "neoforge-1.21.6" = _3q7bB0Ee;
-        "neoforge-1.21.7" = _3q7bB0Ee;
-        "neoforge-1.21.8" = _3q7bB0Ee;
-        "neoforge-1.21.9" = _3q7bB0Ee;
-        "neoforge-1.21.10" = _3q7bB0Ee;
-        "neoforge-1.21.11" = _3q7bB0Ee;
+        "neoforge-1.21.6" = _ntF2vAr9;
+        "neoforge-1.21.7" = _ntF2vAr9;
+        "neoforge-1.21.8" = _ntF2vAr9;
+        "neoforge-1.21.9" = _ntF2vAr9;
+        "neoforge-1.21.10" = _ntF2vAr9;
+        "neoforge-1.21.11" = _4bOjuUaf;
         "pkg-1.0.0" = _rsrluQa7;
         "pkg-1.1.0" = _esEYa16Q;
         "pkg-1.1.1" = _i6wj8yBU;
@@ -213,7 +237,9 @@ let
         "pkg-1.3.0" = _DGunVx90;
         "pkg-1.3.1" = _T5sV8oak;
         "pkg-1.2.3p" = _o7rYxqE3;
-        "default" = _o7rYxqE3;
+        "pkg-1.4.0" = _8CpjNXJN;
+        "pkg-1.4.1" = _3zfrGSKP;
+        "default" = _3zfrGSKP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crystals";

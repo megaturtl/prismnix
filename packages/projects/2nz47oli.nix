@@ -126,6 +126,21 @@ let
             "file" = "AE2 Backport Integration.zip";
             "hash" = "sha512-zmuLb25Q3fkbx8Agj3tmmNN9eTHlPCXf9M2h1XN3vXwW4rArl8H7CL5+mP30yEXpAIyMI+RVrAHKvoacjIcGZA==";
         };
+        _mzKIchTK = {
+            "id" = "mzKIchTK";
+            "file" = "AE2 Backport Integration.zip";
+            "hash" = "sha512-FWbEPiFU+3Zodb04FcQf2AlD5UbJFZmwcCkQKUD0yYgbK7sKbKt/s4EC1lPqR8xjRMbd0F7Pc88dIbpohVVuMw==";
+        };
+        _JnnHqwTN = {
+            "id" = "JnnHqwTN";
+            "file" = "AE2 Backport Integration.zip";
+            "hash" = "sha512-yORZ7RNKGbu3r+h206Q0VTYQWay1hec3eP+lS55GZGCg8ToVRBSNeCUKroC4Whyil23KAdeMlh5u9IKHlolixg==";
+        };
+        _Bp29OZIR = {
+            "id" = "Bp29OZIR";
+            "file" = "AE2 Backport Integration.zip";
+            "hash" = "sha512-A5336RJEq1Go3TqNn1fP69S2ElSKI/lMzyUn5ow7lg0UiG0rwUPoBx4l5Eu6DoDrkbt87Dq60hHLRrFSDZ1vXw==";
+        };
     in {
         "uHZnafrr" = _uHZnafrr;
         "ClIuRxdr" = _ClIuRxdr;
@@ -152,8 +167,11 @@ let
         "Bl36Xu3w" = _Bl36Xu3w;
         "1FrbqFJH" = _1FrbqFJH;
         "yCO8aX8u" = _yCO8aX8u;
-        "minecraft-1.20" = _yCO8aX8u;
-        "minecraft-1.20.1" = _yCO8aX8u;
+        "mzKIchTK" = _mzKIchTK;
+        "JnnHqwTN" = _JnnHqwTN;
+        "Bp29OZIR" = _Bp29OZIR;
+        "minecraft-1.20" = _Bp29OZIR;
+        "minecraft-1.20.1" = _Bp29OZIR;
         "pkg-ae2-1.0.0" = _uHZnafrr;
         "pkg-ae2wtlib-1.0.0" = _ClIuRxdr;
         "pkg-extended-ae-1.0.0" = _wBJbANCk;
@@ -179,7 +197,10 @@ let
         "pkg-ae2-integration-2.4.0" = _Bl36Xu3w;
         "pkg-ae2-integration-2.4.1" = _1FrbqFJH;
         "pkg-ae2-integration-2.5.0" = _yCO8aX8u;
-        "default" = _yCO8aX8u;
+        "pkg-ae2-integration-2.6.0" = _mzKIchTK;
+        "pkg-ae2-integration-2.6.1" = _JnnHqwTN;
+        "pkg-ae2-integration-2.6.2" = _Bp29OZIR;
+        "default" = _Bp29OZIR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "perfect-ae2-backport";

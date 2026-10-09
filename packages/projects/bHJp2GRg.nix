@@ -361,6 +361,16 @@ let
             "file" = "NetherChested-v26.2.0-mc26.2.x-Fabric.jar";
             "hash" = "sha512-dfKUrrfiqwkU5XDWUpEP2sUMEp60bd5VsZqdKJywL+EXZakyvTNsyczzmLwhoJpzr/BaVTb6t2IYR6RQgVlXjw==";
         };
+        _WesJu2AZ = {
+            "id" = "WesJu2AZ";
+            "file" = "netherchested-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-+aSXXcrItspaHG+UEd4vmbCziIHk5x8a89Or92I91uYK05S7XPIYKBrrjABI7RvfXrIR6tYX8gJyBqZdGvps4w==";
+        };
+        _2TZfPf82 = {
+            "id" = "2TZfPf82";
+            "file" = "netherchested-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-3Y1Kq4qIDvzODVw9GCabZLmZhxxrzCclsK0o2MRO6MTq+VyS5TcFE5kTNx5ci/ajN6F7emz5MeU+NOwbaKSndA==";
+        };
     in {
         "OoTpwAJr" = _OoTpwAJr;
         "6Ir9s5n8" = _6Ir9s5n8;
@@ -434,6 +444,8 @@ let
         "M6rwmJpG" = _M6rwmJpG;
         "9XxkB1Q4" = _9XxkB1Q4;
         "FM8m2ljh" = _FM8m2ljh;
+        "WesJu2AZ" = _WesJu2AZ;
+        "2TZfPf82" = _2TZfPf82;
         "forge-1.19.2" = _vpkeaYKc;
         "forge-1.19.3" = _3BEgs0vi;
         "forge-1.19.4" = _G64kJHgK;
@@ -461,6 +473,7 @@ let
         "fabric-26.1.1" = _M6rwmJpG;
         "fabric-26.1.2" = _M6rwmJpG;
         "fabric-26.2" = _FM8m2ljh;
+        "fabric-26.3" = _2TZfPf82;
         "neoforge-1.20.4" = _kJZNMPJT;
         "neoforge-1.21" = _kc7wDJgF;
         "neoforge-1.21.1" = _fII2Ezk6;
@@ -477,6 +490,7 @@ let
         "neoforge-26.1.1" = _e0ZYUkvT;
         "neoforge-26.1.2" = _e0ZYUkvT;
         "neoforge-26.2" = _9XxkB1Q4;
+        "neoforge-26.3" = _WesJu2AZ;
         "pkg-v4.0.0-1.19.2-Forge" = _OoTpwAJr;
         "pkg-v4.0.0-1.19.2-Fabric" = _6Ir9s5n8;
         "pkg-v4.0.1-1.19.2-Fabric" = _3zNIiK0y;
@@ -542,7 +556,8 @@ let
         "pkg-26.1.0" = _28ShUD24;
         "pkg-26.1.1" = _M6rwmJpG;
         "pkg-26.2.0" = _FM8m2ljh;
-        "default" = _FM8m2ljh;
+        "pkg-26.3.0" = _2TZfPf82;
+        "default" = _2TZfPf82;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nether-chested";

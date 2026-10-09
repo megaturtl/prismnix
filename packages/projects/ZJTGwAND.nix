@@ -206,6 +206,26 @@ let
             "file" = "endrem-neoforge-1.21.1-6.3.0.jar";
             "hash" = "sha512-w3j3rhfhtKlcxZfTZa06r6wBg2BCu3BzhIb5TILuw0euRNVBgs3Wn7SV3WWJH6Sxp6VV4vtje99vyDDj+bnX7g==";
         };
+        _eE7yPJF8 = {
+            "id" = "eE7yPJF8";
+            "file" = "endrem-fabric-26.2-6.2.1.jar";
+            "hash" = "sha512-dWlB34/Cr/gsrs6VaC4FfvH7+VKMDlJGQ2KR1jsU9okm2zNmP21Ge0rTeTi70AlQ+daIEctiCexK6bsu0pYXoA==";
+        };
+        _d9rEYYXf = {
+            "id" = "d9rEYYXf";
+            "file" = "endrem-neoforge-26.2-6.2.1.jar";
+            "hash" = "sha512-4KUWdCFe4QO5iXDjmJSP/WVI89FgFEU5joURtSM69APQX9unheDNCTgW1bS9K6CiStKC4+aJ5oq83Y/uQ4++LQ==";
+        };
+        _lw9DN2jy = {
+            "id" = "lw9DN2jy";
+            "file" = "endrem-fabric-26.3-6.2.2.jar";
+            "hash" = "sha512-pvj1eifzRUGcuQuBm3fITzs3xEUH9K3PqtRVCca1p8cc+oZKH6vHBqzZarRiyh8676PFMBnGBA87+hR8BrWURg==";
+        };
+        _Cn5TLUip = {
+            "id" = "Cn5TLUip";
+            "file" = "endrem-neoforge-26.3-6.2.2.jar";
+            "hash" = "sha512-Ya6iCjbhLF4JQUoEDsWtd+68bO39f3f63vTu0pByW/0slc+bRLktrXXmibn5jumkieN6Mk1mmFHHv21OKHGkXA==";
+        };
     in {
         "OTVFe6yb" = _OTVFe6yb;
         "wAg3uLaS" = _wAg3uLaS;
@@ -248,6 +268,10 @@ let
         "UnTCBuco" = _UnTCBuco;
         "XdJ5l8XO" = _XdJ5l8XO;
         "Xzg42PX9" = _Xzg42PX9;
+        "eE7yPJF8" = _eE7yPJF8;
+        "d9rEYYXf" = _d9rEYYXf;
+        "lw9DN2jy" = _lw9DN2jy;
+        "Cn5TLUip" = _Cn5TLUip;
         "forge-1.17.1" = _OTVFe6yb;
         "forge-1.16.3" = _jcNTvfUz;
         "forge-1.16.4" = _jcNTvfUz;
@@ -286,6 +310,8 @@ let
         "fabric-26.1" = _XdJ5l8XO;
         "fabric-26.1.1" = _XdJ5l8XO;
         "fabric-26.1.2" = _XdJ5l8XO;
+        "fabric-26.2" = _eE7yPJF8;
+        "fabric-26.3" = _lw9DN2jy;
         "neoforge-1.21" = _Xzg42PX9;
         "neoforge-1.21.1" = _Xzg42PX9;
         "neoforge-1.21.5" = _wAzVI0hr;
@@ -298,6 +324,8 @@ let
         "neoforge-26.1" = _UnTCBuco;
         "neoforge-26.1.1" = _UnTCBuco;
         "neoforge-26.1.2" = _UnTCBuco;
+        "neoforge-26.2" = _d9rEYYXf;
+        "neoforge-26.3" = _Cn5TLUip;
         "pkg-R4.1.2" = _OTVFe6yb;
         "pkg-R4.1.1" = _wAg3uLaS;
         "pkg-R4.1.0" = _JUEJKAmI;
@@ -325,7 +353,9 @@ let
         "pkg-6.1.6" = _zmMuZ8tT;
         "pkg-6.2.0" = _XdJ5l8XO;
         "pkg-6.3.0" = _Xzg42PX9;
-        "default" = _Xzg42PX9;
+        "pkg-6.2.1" = _d9rEYYXf;
+        "pkg-6.2.2" = _Cn5TLUip;
+        "default" = _Cn5TLUip;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "endrem";

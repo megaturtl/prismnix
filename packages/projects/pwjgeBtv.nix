@@ -676,6 +676,11 @@ let
             "file" = "cobblemon-trainer-battle-1.11.13+1.5.2.jar";
             "hash" = "sha512-bwq7u1hMB9rsZtHsQgj7kdawxU6t86U3C7oLQdSeLNa3aVWGDYZJIahecZDJgkWondh9toMwugKGFhwfsYzyvQ==";
         };
+        _moJdeWVe = {
+            "id" = "moJdeWVe";
+            "file" = "cobblemon-trainer-battle-1.11.13+1.8.1.jar";
+            "hash" = "sha512-bnM3gMtKYw9qOr3XyQhIp5Hb3FrvKNelJBGVlLMYUcloJNwhw3+DKnNVtX32uTE13YdViAlM3YJFM3IhsqOEjw==";
+        };
     in {
         "vuNzZ65D" = _vuNzZ65D;
         "yPEzQEgF" = _yPEzQEgF;
@@ -812,8 +817,9 @@ let
         "BY72Jydi" = _BY72Jydi;
         "H3lvv2L0" = _H3lvv2L0;
         "AZndsqSB" = _AZndsqSB;
+        "moJdeWVe" = _moJdeWVe;
         "fabric-1.20.1" = _AZndsqSB;
-        "fabric-1.21.1" = _H3lvv2L0;
+        "fabric-1.21.1" = _moJdeWVe;
         "pkg-1.1.0" = _vuNzZ65D;
         "pkg-1.1.1" = _yPEzQEgF;
         "pkg-1.2.0" = _MpCw2NhE;
@@ -949,7 +955,8 @@ let
         "pkg-1.11.13+1.7.3" = _BY72Jydi;
         "pkg-1.11.13+1.8.0" = _H3lvv2L0;
         "pkg-1.11.13+1.5.2" = _AZndsqSB;
-        "default" = _AZndsqSB;
+        "pkg-1.11.13+1.8.1" = _moJdeWVe;
+        "default" = _moJdeWVe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-trainer-battle";

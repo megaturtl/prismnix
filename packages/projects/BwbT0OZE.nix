@@ -161,6 +161,21 @@ let
             "file" = "arsdelight-2.2.2.jar";
             "hash" = "sha512-dEh+4KJ+RCnKAX3txW1DGVu3Jg0wKBUXCM9MIqBERy/oV+fm2l8R+ri8G66NX0lFxZGv7SDeCk2MBYqUflsWqA==";
         };
+        _3eWmAU9u = {
+            "id" = "3eWmAU9u";
+            "file" = "arsdelight-2.2.3.jar";
+            "hash" = "sha512-Ktkt+qY/ldT89mf5IyalCbgEHBrLE+Bbjg15lwvv2NZOw+OxhWVRkvKECulb5eSsdH5lTPSi3QZNTA3jYjAbSQ==";
+        };
+        _7HhIIr1m = {
+            "id" = "7HhIIr1m";
+            "file" = "arsdelight-2.2.4.jar";
+            "hash" = "sha512-Upd3kvAHxGDuPzFvKDXBFRTMaw5IRrypDvMpSLX6ilObn769u7n3NVtZr5JOKlJ8I2nk8s48wZMQAf/wVhfEDg==";
+        };
+        _JtS0qjOn = {
+            "id" = "JtS0qjOn";
+            "file" = "arsdelight-2.2.5.jar";
+            "hash" = "sha512-mxN2CEQ9ZZrgXG6conjpIehSHJ3qUlZSYooEbA7ryESlju7HQHDbligBLeI3XTMdN8eN7WdT49bICMOWAcpxwQ==";
+        };
     in {
         "73gT9rVr" = _73gT9rVr;
         "WjoEhoEX" = _WjoEhoEX;
@@ -194,9 +209,12 @@ let
         "5NvPM941" = _5NvPM941;
         "N0FGjRxv" = _N0FGjRxv;
         "a4qrRbNs" = _a4qrRbNs;
+        "3eWmAU9u" = _3eWmAU9u;
+        "7HhIIr1m" = _7HhIIr1m;
+        "JtS0qjOn" = _JtS0qjOn;
         "forge-1.20.1" = _N0FGjRxv;
         "neoforge-1.20.1" = _N0FGjRxv;
-        "neoforge-1.21.1" = _a4qrRbNs;
+        "neoforge-1.21.1" = _JtS0qjOn;
         "pkg-1.0.3" = _WjoEhoEX;
         "pkg-1.0.4" = _n4jjDTfL;
         "pkg-2.0.2" = _mboHzR1G;
@@ -228,7 +246,10 @@ let
         "pkg-1.2.1" = _5NvPM941;
         "pkg-1.2.2" = _N0FGjRxv;
         "pkg-2.2.2" = _a4qrRbNs;
-        "default" = _a4qrRbNs;
+        "pkg-2.2.3" = _3eWmAU9u;
+        "pkg-2.2.4" = _7HhIIr1m;
+        "pkg-2.2.5" = _JtS0qjOn;
+        "default" = _JtS0qjOn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "arsdelight";

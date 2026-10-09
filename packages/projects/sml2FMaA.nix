@@ -601,6 +601,16 @@ let
             "file" = "antixray-neoforge-1.4.8+1.21.1.jar";
             "hash" = "sha512-f1mYtbBvWCR6/HDpUCTzWhYslsXYrVN/jaRNpwnfrk4GTz6ilVQGGaadqK+iVtImizGsu8R6EjkqY8rktijHJQ==";
         };
+        _8CvHIf1r = {
+            "id" = "8CvHIf1r";
+            "file" = "antixray-fabric-1.4.16+26.3.jar";
+            "hash" = "sha512-5FR8gClYxqdxKe7Bk4ImkeJRFXok8WAvCrUhObnxW/1z44bl6Vu+TBv/AZaXXqpCt11QPBdHnoWR2rdvMgL95g==";
+        };
+        _ETqF9yGq = {
+            "id" = "ETqF9yGq";
+            "file" = "antixray-neoforge-1.4.16+26.3-all.jar";
+            "hash" = "sha512-ckRpDVjVWfVyypDw6BNZr270hDpTXRB260UTac+LfAVGOfaZZtvMP5k2839QGE2ByN8zo7Geo5eQSHVdCQk4ZQ==";
+        };
     in {
         "sDpRud8H" = _sDpRud8H;
         "rbkHv5Pp" = _rbkHv5Pp;
@@ -722,6 +732,8 @@ let
         "AK313N9m" = _AK313N9m;
         "KlJq0gHr" = _KlJq0gHr;
         "XUpyMp6c" = _XUpyMp6c;
+        "8CvHIf1r" = _8CvHIf1r;
+        "ETqF9yGq" = _ETqF9yGq;
         "fabric-1.17" = _EQCo3Df0;
         "fabric-1.17.1" = _EQCo3Df0;
         "fabric-1.16.5" = _RI3CvrQa;
@@ -778,6 +790,7 @@ let
         "fabric-26.1.2" = _AK313N9m;
         "fabric-26.2-rc-2" = _AK313N9m;
         "fabric-26.2" = _AK313N9m;
+        "fabric-26.3" = _8CvHIf1r;
         "forge-1.18" = _BXWR3yn8;
         "forge-1.18.1" = _BXWR3yn8;
         "forge-1.18.2" = _tR9T8qrt;
@@ -827,6 +840,7 @@ let
         "quilt-26.1.2" = _AK313N9m;
         "quilt-26.2-rc-2" = _AK313N9m;
         "quilt-26.2" = _AK313N9m;
+        "quilt-26.3" = _8CvHIf1r;
         "neoforge-1.20.6" = _rMeoWwJK;
         "neoforge-1.20.4" = _IVxZW0NC;
         "neoforge-1.21" = _XgQWQ2Hj;
@@ -846,6 +860,7 @@ let
         "neoforge-26.1.2" = _mn60kEiS;
         "neoforge-26.2-rc-2" = _mn60kEiS;
         "neoforge-26.2" = _mn60kEiS;
+        "neoforge-26.3" = _ETqF9yGq;
         "pkg-1.0.0+1.17.1" = _sDpRud8H;
         "pkg-1.0.1+1.16.5" = _rbkHv5Pp;
         "pkg-1.0.1+1.17.1" = _S6rjqRoC;
@@ -931,7 +946,9 @@ let
         "pkg-neoforge-1.4.15+26.1" = _mn60kEiS;
         "pkg-fabric-1.4.16+26.1" = _AK313N9m;
         "pkg-1.4.8+1.21.1" = _XUpyMp6c;
-        "default" = _XUpyMp6c;
+        "pkg-fabric-1.4.16+26.3" = _8CvHIf1r;
+        "pkg-neoforge-1.4.16+26.3" = _ETqF9yGq;
+        "default" = _ETqF9yGq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "anti-xray";

@@ -241,6 +241,26 @@ let
             "file" = "fishnostuck-mc26.2-v26.2.0-neoforge.jar";
             "hash" = "sha512-VfVIv3I3+NNumxsdyWiq3ijoiWi7I9UJN7+1Ws0RarSt4hkpXZIXra6lcC2Q705G4slJgJDwyyhio1adYV4m9A==";
         };
+        _1vOlR6KK = {
+            "id" = "1vOlR6KK";
+            "file" = "fishnostuck-mc26.3-v26.3.0-fabric.jar";
+            "hash" = "sha512-y5pNSMiA+FLvWgQsNF3vZNxB2MDKh0LFkRI+119gqmXxf8XXZfGRvtLbpdbbV0gTAAj1HUBYzvd7WzUtAv9RVQ==";
+        };
+        _nQDCKgv4 = {
+            "id" = "nQDCKgv4";
+            "file" = "fishnostuck-mc26.3-v26.3.0-neoforge.jar";
+            "hash" = "sha512-Aix+vFWUzCRJvompZjpSrLs5uJdOkyuTID+gqb9uBK08ogUSKOB+8nD6Yhs3EmBrntEXcEr2hIS4LOTASNo92g==";
+        };
+        _6i4wEj6C = {
+            "id" = "6i4wEj6C";
+            "file" = "fishnostuck-mc26.3-v26.3.1-neoforge.jar";
+            "hash" = "sha512-iGP2DXAdk8+7M26YP1SdSKpRX/CG8HTrwncNSC6C2odQHpdbP8wZsR8usVe8dshn40813XS6FNro3Z0of8AicA==";
+        };
+        _hTcGr808 = {
+            "id" = "hTcGr808";
+            "file" = "fishnostuck-mc26.3-v26.3.1-fabric.jar";
+            "hash" = "sha512-nJe7YT2uch6SXVREthFQNGQlS1eJkCWOp4wsKefGiMzHwBboBN2kxfvqvex4ve6/2X5BWL9ajQJoxcBi87Dy3w==";
+        };
     in {
         "OnSxrlIX" = _OnSxrlIX;
         "JVbLPj4m" = _JVbLPj4m;
@@ -290,6 +310,10 @@ let
         "zYBO1Vfx" = _zYBO1Vfx;
         "dkq3ikgj" = _dkq3ikgj;
         "UBlToN5f" = _UBlToN5f;
+        "1vOlR6KK" = _1vOlR6KK;
+        "nQDCKgv4" = _nQDCKgv4;
+        "6i4wEj6C" = _6i4wEj6C;
+        "hTcGr808" = _hTcGr808;
         "forge-1.17.1" = _spzZNbcP;
         "forge-1.18.2" = _1mY7wBXa;
         "forge-1.19.2" = _B0sYibCQ;
@@ -321,6 +345,7 @@ let
         "neoforge-26.1.1" = _FmVQVhaT;
         "neoforge-26.1.2" = _FmVQVhaT;
         "neoforge-26.2" = _UBlToN5f;
+        "neoforge-26.3" = _6i4wEj6C;
         "fabric-1.17.1" = _BVXTDzh2;
         "fabric-1.18.2" = _ZoNDxTXk;
         "fabric-1.19.2" = _jcbCw5SM;
@@ -345,6 +370,7 @@ let
         "fabric-26.1.1" = _zYBO1Vfx;
         "fabric-26.1.2" = _zYBO1Vfx;
         "fabric-26.2" = _dkq3ikgj;
+        "fabric-26.3" = _hTcGr808;
         "quilt-1.17.1" = _BVXTDzh2;
         "quilt-1.18.2" = _ZoNDxTXk;
         "quilt-1.19.2" = _jcbCw5SM;
@@ -387,7 +413,11 @@ let
         "pkg-0.0.2-fabric" = _zYBO1Vfx;
         "pkg-26.2.0-fabric" = _dkq3ikgj;
         "pkg-26.2.0-neoforge" = _UBlToN5f;
-        "default" = _UBlToN5f;
+        "pkg-26.3.0-fabric" = _1vOlR6KK;
+        "pkg-26.3.0-neoforge" = _nQDCKgv4;
+        "pkg-26.3.1-neoforge" = _6i4wEj6C;
+        "pkg-26.3.1-fabric" = _hTcGr808;
+        "default" = _hTcGr808;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fish-no-stuck";

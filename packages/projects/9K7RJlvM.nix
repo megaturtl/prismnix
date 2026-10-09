@@ -301,6 +301,11 @@ let
             "file" = "Unicopia-1.3.12+1.20.1.jar";
             "hash" = "sha512-yB+gjtjF7z7Jm394+qGenhXWT/83HZK8a+zvGIg2e5Iq7oCRIitgQMTOyedHHNZYzTKZlek/eXMOWZpdaDhiJg==";
         };
+        _NmNsX3Ct = {
+            "id" = "NmNsX3Ct";
+            "file" = "unicopia-1.3.20+1.21.jar";
+            "hash" = "sha512-FcrzjClGjew1iPhdQ43LeGjTkGEf+2IgA2oplLU5PbvaofpGtu+bhom93k+2IvnXj0C/MiAX9FC73ibeAnKpow==";
+        };
     in {
         "QD88T9ro" = _QD88T9ro;
         "Iw1RTKqh" = _Iw1RTKqh;
@@ -362,6 +367,7 @@ let
         "LDn1okdN" = _LDn1okdN;
         "Jea6htXI" = _Jea6htXI;
         "ZpRdKW3L" = _ZpRdKW3L;
+        "NmNsX3Ct" = _NmNsX3Ct;
         "fabric-1.19.3" = _501C57yS;
         "fabric-1.19.2" = _Iw1RTKqh;
         "fabric-1.19.4" = _pzzF3wbs;
@@ -374,20 +380,20 @@ let
         "fabric-1.20.2" = _HhmmQdSY;
         "fabric-1.20.4" = _K9C1asMQ;
         "fabric-1.20.3" = _HhmmQdSY;
-        "fabric-1.21" = _LDn1okdN;
-        "fabric-1.21.1" = _LDn1okdN;
+        "fabric-1.21" = _NmNsX3Ct;
+        "fabric-1.21.1" = _NmNsX3Ct;
         "fabric-1.20.5" = _K9C1asMQ;
         "fabric-1.20.6" = _K9C1asMQ;
-        "fabric-1.21.2" = _LDn1okdN;
+        "fabric-1.21.2" = _NmNsX3Ct;
         "quilt-1.20.1" = _3cQ06w06;
         "quilt-1.20.2" = _HhmmQdSY;
         "quilt-1.20.4" = _K9C1asMQ;
         "quilt-1.20.3" = _HhmmQdSY;
-        "quilt-1.21" = _LDn1okdN;
-        "quilt-1.21.1" = _LDn1okdN;
+        "quilt-1.21" = _NmNsX3Ct;
+        "quilt-1.21.1" = _NmNsX3Ct;
         "quilt-1.20.5" = _K9C1asMQ;
         "quilt-1.20.6" = _K9C1asMQ;
-        "quilt-1.21.2" = _LDn1okdN;
+        "quilt-1.21.2" = _NmNsX3Ct;
         "pkg-1.0.0" = _QD88T9ro;
         "pkg-1.0.0+lts" = _Iw1RTKqh;
         "pkg-1.1.0" = _uLYWipnu;
@@ -445,7 +451,8 @@ let
         "pkg-1.3.18+1.21" = _NkxfpmXQ;
         "pkg-1.3.19+1.21" = _LDn1okdN;
         "pkg-1.3.12+1.20.1" = _ZpRdKW3L;
-        "default" = _ZpRdKW3L;
+        "pkg-1.3.20+1.21" = _NmNsX3Ct;
+        "default" = _NmNsX3Ct;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "unicopia";

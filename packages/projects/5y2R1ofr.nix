@@ -491,6 +491,16 @@ let
             "file" = "mine-treasure-1.6.4.jar";
             "hash" = "sha512-07oUROb60VB8MIUlxLYpWt+Xxk4gJ084StdX+CRl19F0Rsqr/TGYws6ZQ/iUexRaXtd75AA1hj1TzkCXAwjCvA==";
         };
+        _gmXStium = {
+            "id" = "gmXStium";
+            "file" = "mine-treasure-1.6.5.zip";
+            "hash" = "sha512-pPSYhPQEWfEMq/uctZrZQ8tLusV3eCEo4mdxcOiyMl0dyl702+uTv0NUngFsyEqHhaCOthlw/75c9VBGFCuAQg==";
+        };
+        _mkW3jjKe = {
+            "id" = "mkW3jjKe";
+            "file" = "mine-treasure-1.6.5.jar";
+            "hash" = "sha512-ORoLnE/ySietRBRCYSov8taoJQW9Ky8MaJOgi67Xjg84do2x7068Fs+1k9KFV1X0z28/HuRwJ7UbLk/sGAIm2g==";
+        };
     in {
         "SXIO0BdD" = _SXIO0BdD;
         "yi1eF7DG" = _yi1eF7DG;
@@ -590,6 +600,8 @@ let
         "FoXF7dXg" = _FoXF7dXg;
         "RrJfWPw6" = _RrJfWPw6;
         "W9z1MH3f" = _W9z1MH3f;
+        "gmXStium" = _gmXStium;
+        "mkW3jjKe" = _mkW3jjKe;
         "datapack-1.19" = _WPUgOpru;
         "datapack-1.19.1" = _WPUgOpru;
         "datapack-1.19.2" = _WPUgOpru;
@@ -619,6 +631,7 @@ let
         "datapack-26.1.1" = _MWHewG07;
         "datapack-26.1.2" = _MWHewG07;
         "datapack-26.2" = _RrJfWPw6;
+        "datapack-26.3" = _gmXStium;
         "fabric-1.19" = _Pxhzw1iN;
         "fabric-1.19.1" = _Pxhzw1iN;
         "fabric-1.19.2" = _Pxhzw1iN;
@@ -648,6 +661,7 @@ let
         "fabric-26.1.1" = _FoXF7dXg;
         "fabric-26.1.2" = _FoXF7dXg;
         "fabric-26.2" = _W9z1MH3f;
+        "fabric-26.3" = _mkW3jjKe;
         "forge-1.19" = _Pxhzw1iN;
         "forge-1.19.1" = _Pxhzw1iN;
         "forge-1.19.2" = _Pxhzw1iN;
@@ -677,6 +691,7 @@ let
         "forge-26.1.1" = _FoXF7dXg;
         "forge-26.1.2" = _FoXF7dXg;
         "forge-26.2" = _W9z1MH3f;
+        "forge-26.3" = _mkW3jjKe;
         "quilt-1.19" = _Pxhzw1iN;
         "quilt-1.19.1" = _Pxhzw1iN;
         "quilt-1.19.2" = _Pxhzw1iN;
@@ -706,6 +721,7 @@ let
         "quilt-26.1.1" = _FoXF7dXg;
         "quilt-26.1.2" = _FoXF7dXg;
         "quilt-26.2" = _W9z1MH3f;
+        "quilt-26.3" = _mkW3jjKe;
         "neoforge-1.21.2" = _ELgY1zsZ;
         "neoforge-1.21.3" = _lVGQwFo2;
         "neoforge-1.21.4" = _lVGQwFo2;
@@ -720,6 +736,7 @@ let
         "neoforge-26.1.1" = _FoXF7dXg;
         "neoforge-26.1.2" = _FoXF7dXg;
         "neoforge-26.2" = _W9z1MH3f;
+        "neoforge-26.3" = _mkW3jjKe;
         "pkg-1.0.2" = _SXIO0BdD;
         "pkg-0.0.91" = _yi1eF7DG;
         "pkg-1.0.3+dp" = _eKopxRBm;
@@ -818,7 +835,9 @@ let
         "pkg-1.6.3+mod" = _FoXF7dXg;
         "pkg-1.6.4" = _RrJfWPw6;
         "pkg-1.6.4+mod" = _W9z1MH3f;
-        "default" = _W9z1MH3f;
+        "pkg-1.6.5" = _gmXStium;
+        "pkg-1.6.5+mod" = _mkW3jjKe;
+        "default" = _mkW3jjKe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mine-treasure";

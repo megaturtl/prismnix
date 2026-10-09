@@ -221,6 +221,26 @@ let
             "file" = "nether-star-recipe-1.0.jar";
             "hash" = "sha512-b2gx/GxYyBd0PKfBKowMpG2/lwTHyG1S4IxNrx6NmcXN95vYXYAlIjPwOLlrZQtx0X2hAPeyDW/+SdAC6YS+Aw==";
         };
+        _1ajrz6wI = {
+            "id" = "1ajrz6wI";
+            "file" = "nether_star-1.19-datapack.zip";
+            "hash" = "sha512-9ed/r2OtzJ1Ba8VAx5LmOVJaGItlzNImNprqVB7DuxhgP53KZH3LJC9ud1QoWTeVvgrG/biOSADaUvVOjZKDXA==";
+        };
+        _8o8qerqv = {
+            "id" = "8o8qerqv";
+            "file" = "nether-star-recipe-1.0.jar";
+            "hash" = "sha512-ZDq5CPV2zgEl2tT/fzODoT1XLLFoDeFJSMUjvOHWghHVAnOlrzf4Fw8EBEa/YV8Aa+JH2K3yPFz4WFO5oaIRqQ==";
+        };
+        _jcXAkgkR = {
+            "id" = "jcXAkgkR";
+            "file" = "nether_star-26.3.zip";
+            "hash" = "sha512-5KiWIqbDlZiIBjZuo+bqmBELgeJKkooF+CjBMCjD+TPhHkLABj0bqrYsaz2lh4PVzsOOLA4Z6fCR2wsxvyvPFQ==";
+        };
+        _VcRDhU1L = {
+            "id" = "VcRDhU1L";
+            "file" = "nether-star-recipe-1.0.jar";
+            "hash" = "sha512-I8YeM78UkHlXeNHeFsE0pHWdnACi+3W8EmfTO+HCZ07Ki8bwGmfwZysd47MnDGyGbfiA2pgKm3Eyn55ApurC4w==";
+        };
     in {
         "Ogow6sKp" = _Ogow6sKp;
         "LMIoj3Ri" = _LMIoj3Ri;
@@ -266,6 +286,10 @@ let
         "rx2krPIl" = _rx2krPIl;
         "ZPxHdphB" = _ZPxHdphB;
         "exftOanU" = _exftOanU;
+        "1ajrz6wI" = _1ajrz6wI;
+        "8o8qerqv" = _8o8qerqv;
+        "jcXAkgkR" = _jcXAkgkR;
+        "VcRDhU1L" = _VcRDhU1L;
         "datapack-1.16" = _Ogow6sKp;
         "datapack-1.16.1" = _Ogow6sKp;
         "datapack-1.16.2" = _Ogow6sKp;
@@ -276,12 +300,12 @@ let
         "datapack-1.17.1" = _T5gOHosa;
         "datapack-1.18" = _nCkxbiF7;
         "datapack-1.18.1" = _nCkxbiF7;
-        "datapack-1.18.2" = _GuDFKn0F;
-        "datapack-1.19" = _GuDFKn0F;
-        "datapack-1.19.1" = _GuDFKn0F;
-        "datapack-1.19.2" = _GuDFKn0F;
-        "datapack-1.19.3" = _GuDFKn0F;
-        "datapack-1.19.4" = _dds7fh7m;
+        "datapack-1.18.2" = _1ajrz6wI;
+        "datapack-1.19" = _1ajrz6wI;
+        "datapack-1.19.1" = _1ajrz6wI;
+        "datapack-1.19.2" = _1ajrz6wI;
+        "datapack-1.19.3" = _1ajrz6wI;
+        "datapack-1.19.4" = _1ajrz6wI;
         "datapack-1.20" = _dds7fh7m;
         "datapack-1.20.1" = _dds7fh7m;
         "datapack-1.20.2" = _dds7fh7m;
@@ -324,6 +348,7 @@ let
         "datapack-26.2-snapshot-2" = _TB7c3fHZ;
         "datapack-26.2" = _ZPxHdphB;
         "datapack-26.3-snapshot-1" = _ZPxHdphB;
+        "datapack-26.3" = _jcXAkgkR;
         "fabric-1.16" = _LMIoj3Ri;
         "fabric-1.16.1" = _LMIoj3Ri;
         "fabric-1.16.2" = _LMIoj3Ri;
@@ -334,12 +359,12 @@ let
         "fabric-1.17.1" = _VGmaf8An;
         "fabric-1.18" = _ZIexJ0ie;
         "fabric-1.18.1" = _ZIexJ0ie;
-        "fabric-1.18.2" = _EQhk5F5X;
-        "fabric-1.19" = _EQhk5F5X;
-        "fabric-1.19.1" = _EQhk5F5X;
-        "fabric-1.19.2" = _EQhk5F5X;
-        "fabric-1.19.3" = _EQhk5F5X;
-        "fabric-1.19.4" = _rx2krPIl;
+        "fabric-1.18.2" = _8o8qerqv;
+        "fabric-1.19" = _8o8qerqv;
+        "fabric-1.19.1" = _8o8qerqv;
+        "fabric-1.19.2" = _8o8qerqv;
+        "fabric-1.19.3" = _8o8qerqv;
+        "fabric-1.19.4" = _8o8qerqv;
         "fabric-1.20" = _rx2krPIl;
         "fabric-1.20.1" = _rx2krPIl;
         "fabric-1.20.2" = _rx2krPIl;
@@ -382,6 +407,7 @@ let
         "fabric-26.2-snapshot-2" = _d4BSxfsR;
         "fabric-26.2" = _exftOanU;
         "fabric-26.3-snapshot-1" = _exftOanU;
+        "fabric-26.3" = _VcRDhU1L;
         "forge-1.16" = _LMIoj3Ri;
         "forge-1.16.1" = _LMIoj3Ri;
         "forge-1.16.2" = _LMIoj3Ri;
@@ -392,12 +418,12 @@ let
         "forge-1.17.1" = _VGmaf8An;
         "forge-1.18" = _ZIexJ0ie;
         "forge-1.18.1" = _ZIexJ0ie;
-        "forge-1.18.2" = _EQhk5F5X;
-        "forge-1.19" = _EQhk5F5X;
-        "forge-1.19.1" = _EQhk5F5X;
-        "forge-1.19.2" = _EQhk5F5X;
-        "forge-1.19.3" = _EQhk5F5X;
-        "forge-1.19.4" = _rx2krPIl;
+        "forge-1.18.2" = _8o8qerqv;
+        "forge-1.19" = _8o8qerqv;
+        "forge-1.19.1" = _8o8qerqv;
+        "forge-1.19.2" = _8o8qerqv;
+        "forge-1.19.3" = _8o8qerqv;
+        "forge-1.19.4" = _8o8qerqv;
         "forge-1.20" = _rx2krPIl;
         "forge-1.20.1" = _rx2krPIl;
         "forge-1.20.2" = _rx2krPIl;
@@ -440,6 +466,7 @@ let
         "forge-26.2-snapshot-2" = _d4BSxfsR;
         "forge-26.2" = _exftOanU;
         "forge-26.3-snapshot-1" = _exftOanU;
+        "forge-26.3" = _VcRDhU1L;
         "neoforge-1.16" = _LMIoj3Ri;
         "neoforge-1.16.1" = _LMIoj3Ri;
         "neoforge-1.16.2" = _LMIoj3Ri;
@@ -450,12 +477,12 @@ let
         "neoforge-1.17.1" = _VGmaf8An;
         "neoforge-1.18" = _ZIexJ0ie;
         "neoforge-1.18.1" = _ZIexJ0ie;
-        "neoforge-1.18.2" = _EQhk5F5X;
-        "neoforge-1.19" = _EQhk5F5X;
-        "neoforge-1.19.1" = _EQhk5F5X;
-        "neoforge-1.19.2" = _EQhk5F5X;
-        "neoforge-1.19.3" = _EQhk5F5X;
-        "neoforge-1.19.4" = _rx2krPIl;
+        "neoforge-1.18.2" = _8o8qerqv;
+        "neoforge-1.19" = _8o8qerqv;
+        "neoforge-1.19.1" = _8o8qerqv;
+        "neoforge-1.19.2" = _8o8qerqv;
+        "neoforge-1.19.3" = _8o8qerqv;
+        "neoforge-1.19.4" = _8o8qerqv;
         "neoforge-1.20" = _rx2krPIl;
         "neoforge-1.20.1" = _rx2krPIl;
         "neoforge-1.20.2" = _rx2krPIl;
@@ -498,6 +525,7 @@ let
         "neoforge-26.2-snapshot-2" = _d4BSxfsR;
         "neoforge-26.2" = _exftOanU;
         "neoforge-26.3-snapshot-1" = _exftOanU;
+        "neoforge-26.3" = _VcRDhU1L;
         "quilt-1.16" = _LMIoj3Ri;
         "quilt-1.16.1" = _LMIoj3Ri;
         "quilt-1.16.2" = _LMIoj3Ri;
@@ -508,12 +536,12 @@ let
         "quilt-1.17.1" = _VGmaf8An;
         "quilt-1.18" = _ZIexJ0ie;
         "quilt-1.18.1" = _ZIexJ0ie;
-        "quilt-1.18.2" = _EQhk5F5X;
-        "quilt-1.19" = _EQhk5F5X;
-        "quilt-1.19.1" = _EQhk5F5X;
-        "quilt-1.19.2" = _EQhk5F5X;
-        "quilt-1.19.3" = _EQhk5F5X;
-        "quilt-1.19.4" = _rx2krPIl;
+        "quilt-1.18.2" = _8o8qerqv;
+        "quilt-1.19" = _8o8qerqv;
+        "quilt-1.19.1" = _8o8qerqv;
+        "quilt-1.19.2" = _8o8qerqv;
+        "quilt-1.19.3" = _8o8qerqv;
+        "quilt-1.19.4" = _8o8qerqv;
         "quilt-1.20" = _rx2krPIl;
         "quilt-1.20.1" = _rx2krPIl;
         "quilt-1.20.2" = _rx2krPIl;
@@ -556,9 +584,10 @@ let
         "quilt-26.2-snapshot-2" = _d4BSxfsR;
         "quilt-26.2" = _exftOanU;
         "quilt-26.3-snapshot-1" = _exftOanU;
-        "pkg-1.0" = _ZPxHdphB;
-        "pkg-1.0+mod" = _exftOanU;
-        "default" = _exftOanU;
+        "quilt-26.3" = _VcRDhU1L;
+        "pkg-1.0" = _jcXAkgkR;
+        "pkg-1.0+mod" = _VcRDhU1L;
+        "default" = _VcRDhU1L;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nether-star-recipe";

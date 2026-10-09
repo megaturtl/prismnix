@@ -56,6 +56,11 @@ let
             "file" = "ItemRenameNeo-1.0.3+26.2.jar";
             "hash" = "sha512-R9wpIl10cRH5Fdtz1+ntMnfrqnrHrO4l0oy10jE3SgNN87/hpfjaHZB82dpHD5v1ftqeIs6wk672vqe1x4kZ+A==";
         };
+        _c8FzdxSr = {
+            "id" = "c8FzdxSr";
+            "file" = "ItemRenameNeo-1.0.3+26.3.jar";
+            "hash" = "sha512-I+4mNZLvY7E3/FC7yCZJFZXp412vK+3xJdq0dQcPzXazONZO4IPFG2lBCTFeJI971OMzklBKYEo3/NvzaoTobA==";
+        };
     in {
         "obVOjaZj" = _obVOjaZj;
         "4dbhclLL" = _4dbhclLL;
@@ -68,6 +73,7 @@ let
         "ginYSycT" = _ginYSycT;
         "fcbKsrhc" = _fcbKsrhc;
         "7PxtJBDT" = _7PxtJBDT;
+        "c8FzdxSr" = _c8FzdxSr;
         "fabric-1.19.2" = _7n9XJJMY;
         "fabric-1.19.3" = _7n9XJJMY;
         "fabric-1.19.4" = _7n9XJJMY;
@@ -83,6 +89,7 @@ let
         "fabric-1.21.11" = _ginYSycT;
         "fabric-26.1.2" = _fcbKsrhc;
         "fabric-26.2" = _7PxtJBDT;
+        "fabric-26.3" = _c8FzdxSr;
         "quilt-1.19.3" = _7n9XJJMY;
         "quilt-1.19.2" = _7n9XJJMY;
         "quilt-1.19.4" = _7n9XJJMY;
@@ -106,7 +113,8 @@ let
         "pkg-1.0.3+1.21.11" = _ginYSycT;
         "pkg-1.0.3+26.1.2" = _fcbKsrhc;
         "pkg-1.0.3+26.2" = _7PxtJBDT;
-        "default" = _7PxtJBDT;
+        "pkg-1.0.3+26.3" = _c8FzdxSr;
+        "default" = _c8FzdxSr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "itemrename";

@@ -71,6 +71,26 @@ let
             "file" = "MTR-fabric-1.20.1-3.6.2.2.jar";
             "hash" = "sha512-hz523GxO9Xj6DUodTo/OFFysf/9WT5Ad+2DjrZLFspWbHWfkzke4IKj1OHwSIaK2EDdAS3TVblymBcr89ErR5Q==";
         };
+        _MhSlBOh2 = {
+            "id" = "MhSlBOh2";
+            "file" = "MTR-forge-1.20.1-3.6.3.jar";
+            "hash" = "sha512-YoKSBenq/Rq2l0UDECXl2T57/Jk8wg42pxSdeE03No9x6HLuh9JsdZlpiEwzIp/hnl/bIFYlphJibGkl80SxHQ==";
+        };
+        _tW2FT3tx = {
+            "id" = "tW2FT3tx";
+            "file" = "MTR-fabric-1.20.1-3.6.3.jar";
+            "hash" = "sha512-eYdJ7C6qcOvOEBRs0OGbYuwfVLt9P/R12kG66gCV9C5YkZibVxAKEu9OZgvoay2VO6Ll+cniOSNzsoF8nEpZiw==";
+        };
+        _cO4kjL98 = {
+            "id" = "cO4kjL98";
+            "file" = "MTR-forge-1.19.2-3.6.2.jar";
+            "hash" = "sha512-Rihu/uFnbVnbxNJMHbUDpvtOgeNO+P9FuKlxpdjv1yjXAtyRCWZVeXUAA8pWEoO2qRNvJQGEcknYKT6jwiyyeg==";
+        };
+        _kQm0q7X7 = {
+            "id" = "kQm0q7X7";
+            "file" = "MTR-fabric-1.19.2-3.6.2.jar";
+            "hash" = "sha512-p0XKWxGzf5Npj4UDu2cl6uQkL8dyDufIJCEQlrXCtvkNsj8Opp72ZL29oLwYEzbvKIf5Mt3MAcbDZoApIruf5g==";
+        };
     in {
         "uBEwHm0O" = _uBEwHm0O;
         "gECqM9EJ" = _gECqM9EJ;
@@ -86,11 +106,16 @@ let
         "ttQ1PRVE" = _ttQ1PRVE;
         "kxb9v541" = _kxb9v541;
         "S9M2g0jl" = _S9M2g0jl;
-        "fabric-1.20" = _S9M2g0jl;
-        "fabric-1.20.1" = _S9M2g0jl;
-        "fabric-1.19.2" = _ttQ1PRVE;
-        "forge-1.20" = _kxb9v541;
-        "forge-1.20.1" = _kxb9v541;
+        "MhSlBOh2" = _MhSlBOh2;
+        "tW2FT3tx" = _tW2FT3tx;
+        "cO4kjL98" = _cO4kjL98;
+        "kQm0q7X7" = _kQm0q7X7;
+        "fabric-1.20" = _tW2FT3tx;
+        "fabric-1.20.1" = _tW2FT3tx;
+        "fabric-1.19.2" = _kQm0q7X7;
+        "forge-1.20" = _MhSlBOh2;
+        "forge-1.20.1" = _MhSlBOh2;
+        "forge-1.19.2" = _cO4kjL98;
         "pkg-1.20.1-3.4.4" = _gECqM9EJ;
         "pkg-1.20.1-3.4.8" = _lOg3vG1U;
         "pkg-1.20.1-3.5.2" = _8oiOIGy0;
@@ -99,7 +124,9 @@ let
         "pkg-1.20.1-3.6.1.2" = _vPwBPkfJ;
         "pkg-1.19.2-3.6.1.2" = _ttQ1PRVE;
         "pkg-1.20.1-3.6.2.2" = _S9M2g0jl;
-        "default" = _S9M2g0jl;
+        "pkg-1.20.1-3.6.3" = _tW2FT3tx;
+        "pkg-1.19.2-3.6.2" = _kQm0q7X7;
+        "default" = _kQm0q7X7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ymtr";

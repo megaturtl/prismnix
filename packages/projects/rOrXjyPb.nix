@@ -526,6 +526,11 @@ let
             "file" = "bookshelfinspector-neoforge-2.4+26.3.jar";
             "hash" = "sha512-ObBpUT8IbxzNa/m7MFci9Rcl2FpjpsMMelep2/ZhCZTS+nAjvPKozpSDh25AbsTHGvQeJiHCP3M5i5S5xnIjAQ==";
         };
+        _Dsl6Vw85 = {
+            "id" = "Dsl6Vw85";
+            "file" = "bookshelfinspector-fabric-2.4+26.4-snapshot-1.jar";
+            "hash" = "sha512-9Rz1ffd+BrceOBxqC3/PyIg3ik0sTxjyNj5VNJciWv4ky4aDJUWJvxWfRe8ooGVMX3efpR6XCvZELq34sRP/AQ==";
+        };
     in {
         "g0RluwB9" = _g0RluwB9;
         "cd1JD4kg" = _cd1JD4kg;
@@ -632,6 +637,7 @@ let
         "G10JEVJn" = _G10JEVJn;
         "ShIoLf04" = _ShIoLf04;
         "Srqa0lzO" = _Srqa0lzO;
+        "Dsl6Vw85" = _Dsl6Vw85;
         "fabric-1.21" = _uWX4fFmd;
         "fabric-1.21.1" = _aSnswRrg;
         "fabric-1.21.2-pre5" = _sNM4NylR;
@@ -690,6 +696,7 @@ let
         "fabric-26.3-snapshot-5" = _vq3HyRZz;
         "fabric-26.3-pre-1" = _G10JEVJn;
         "fabric-26.3" = _ShIoLf04;
+        "fabric-26.4-snapshot-1" = _Dsl6Vw85;
         "neoforge-1.21.5" = _niKgFQK1;
         "neoforge-1.21.6" = _YFfm7fAN;
         "neoforge-1.21.8" = _kR3s7YQJ;
@@ -783,7 +790,8 @@ let
         "pkg-2.4+26.3-snapshot-5" = _vq3HyRZz;
         "pkg-2.4+26.3-pre-1" = _G10JEVJn;
         "pkg-2.4+26.3" = _Srqa0lzO;
-        "default" = _Srqa0lzO;
+        "pkg-2.4+26.4-snapshot-1" = _Dsl6Vw85;
+        "default" = _Dsl6Vw85;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bookshelf-inspector";

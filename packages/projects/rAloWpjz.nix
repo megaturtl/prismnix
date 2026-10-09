@@ -36,6 +36,16 @@ let
             "file" = "jaams_weaponry-1.1.2-forge-1.20.1.jar";
             "hash" = "sha512-IskhcIK5cbFj0pqpYmeQ6ByhzHc8VVhjZMPFqvdmowV1vhoflctd/f54uykKpj7mPrI6eW+Baz1jX5dXgVFNRA==";
         };
+        _Zi9dbHZ1 = {
+            "id" = "Zi9dbHZ1";
+            "file" = "jaams_weaponry-1.1.3-neoforge-1.21.1.jar";
+            "hash" = "sha512-vvC0BYHXgjWE+3grEPzicelwWyRIgWjhJfBUFvh21/mFry63C3rOxMSrIV/RXwDANe+mSSf2+jRGiO9hyScMJw==";
+        };
+        _ohLpqU9G = {
+            "id" = "ohLpqU9G";
+            "file" = "jaams_weaponry-1.1.3-forge-1.20.1.jar";
+            "hash" = "sha512-C4w/F5ed3VKLpuZLs1Ib8JBSxiVkHNFJrq4gPBdbxvc481neczt13iz6hAkngIPxoUIUQsbQvDsJ9mjn9WPQzg==";
+        };
     in {
         "EPnQ8Gi2" = _EPnQ8Gi2;
         "wtfIZF2t" = _wtfIZF2t;
@@ -44,14 +54,17 @@ let
         "Xf4U7exF" = _Xf4U7exF;
         "tknyYuGm" = _tknyYuGm;
         "gfIFoUAY" = _gfIFoUAY;
-        "forge-1.20.1" = _gfIFoUAY;
-        "neoforge-1.21.1" = _tknyYuGm;
+        "Zi9dbHZ1" = _Zi9dbHZ1;
+        "ohLpqU9G" = _ohLpqU9G;
+        "forge-1.20.1" = _ohLpqU9G;
+        "neoforge-1.21.1" = _Zi9dbHZ1;
         "pkg-1.0.0" = _EPnQ8Gi2;
         "pkg-1.0.1" = _wtfIZF2t;
         "pkg-1.1.0" = _midvCvnK;
         "pkg-1.1.1" = _Xf4U7exF;
         "pkg-1.1.2" = _gfIFoUAY;
-        "default" = _gfIFoUAY;
+        "pkg-1.1.3" = _ohLpqU9G;
+        "default" = _ohLpqU9G;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jaams-weaponry";

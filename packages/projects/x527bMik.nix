@@ -41,6 +41,11 @@ let
             "file" = "epictntmod-beta-0.4.jar";
             "hash" = "sha512-36hMajHGjNj/vh99M9MPpECWHHsHXb5jLXbA36m7s2wRVsXwhb+0HdfY2baihlnUIU2LdOeTMChsLyrbtoEX7w==";
         };
+        _PFS2vNGm = {
+            "id" = "PFS2vNGm";
+            "file" = "epictntmod-beta-0.5.jar";
+            "hash" = "sha512-8xOWCqsfubOSduZjOvIFhrC9XxUd4vioPiX8RLGFs3gCgpaz8GtkpEOdRJhnijGToxVConUOQ3/jBgPjuM7dbg==";
+        };
     in {
         "5hK9WxH2" = _5hK9WxH2;
         "XG8V6s1c" = _XG8V6s1c;
@@ -50,7 +55,8 @@ let
         "fbYa0sIL" = _fbYa0sIL;
         "VhR9p8F9" = _VhR9p8F9;
         "aZsM1y43" = _aZsM1y43;
-        "forge-1.20.1" = _aZsM1y43;
+        "PFS2vNGm" = _PFS2vNGm;
+        "forge-1.20.1" = _PFS2vNGm;
         "pkg-0.0.0" = _5hK9WxH2;
         "pkg-0.0.1" = _XG8V6s1c;
         "pkg-0.0.2" = _jxbRCJ61;
@@ -59,7 +65,8 @@ let
         "pkg-0.2.1" = _fbYa0sIL;
         "pkg-0.3" = _VhR9p8F9;
         "pkg-0.4" = _aZsM1y43;
-        "default" = _aZsM1y43;
+        "pkg-0.5" = _PFS2vNGm;
+        "default" = _PFS2vNGm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "epic-tnt-mod";

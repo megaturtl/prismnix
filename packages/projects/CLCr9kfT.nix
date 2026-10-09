@@ -46,6 +46,11 @@ let
             "file" = "HitParticles-1.4.3-SNAPSHOT.jar";
             "hash" = "sha512-rwdQ3R4UPc8v+fYsT85N3clsu1yLVUABnCSIlQmQs2y9zVqFWNT7INNGsLMxWUmTRienihOXDmfQHN22gcCnzw==";
         };
+        _ehxipu5H = {
+            "id" = "ehxipu5H";
+            "file" = "HitParticles-1.4.4-SNAPSHOT.jar";
+            "hash" = "sha512-UTPRjL3I7NDWoo85p+PB8DkA0EGNbNd+gypzIJhwBIVcIh7uW0V0nOUTbH0rSUpHK3stdlPSbvwgOX/b7m/xsw==";
+        };
     in {
         "D5Xt16zS" = _D5Xt16zS;
         "4pb0UYV2" = _4pb0UYV2;
@@ -56,6 +61,7 @@ let
         "Pbrov5xn" = _Pbrov5xn;
         "2TRrRENA" = _2TRrRENA;
         "zWUVHWUD" = _zWUVHWUD;
+        "ehxipu5H" = _ehxipu5H;
         "fabric-1.19.4" = _4pb0UYV2;
         "fabric-1.19" = _4pb0UYV2;
         "fabric-1.19.1" = _4pb0UYV2;
@@ -81,6 +87,7 @@ let
         "fabric-26.1.1" = _Pbrov5xn;
         "fabric-26.1.2" = _Pbrov5xn;
         "fabric-26.2" = _zWUVHWUD;
+        "fabric-26.3" = _ehxipu5H;
         "pkg-1.0-SNAPSHOT" = _D5Xt16zS;
         "pkg-1.1-SNAPSHOT" = _4pb0UYV2;
         "pkg-1.2-SNAPSHOT" = _XqM782Xk;
@@ -90,7 +97,8 @@ let
         "pkg-1.4.1-SNAPSHOT" = _Pbrov5xn;
         "pkg-1.4.2-SNAPSHOT" = _2TRrRENA;
         "pkg-1.4.3-SNAPSHOT" = _zWUVHWUD;
-        "default" = _zWUVHWUD;
+        "pkg-1.4.4-SNAPSHOT" = _ehxipu5H;
+        "default" = _ehxipu5H;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hit_particles";

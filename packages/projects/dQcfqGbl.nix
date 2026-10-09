@@ -1126,6 +1126,16 @@ let
             "file" = "cobweb-neoforge-26.1-1.4.0.jar";
             "hash" = "sha512-FB+PjxZ9YP2VDgjopNS5amGELlj0FZC4plEqH6JTCUI79dyptx6nW+i1HcHyEHNRaomyXOwrfQi7VZNpsYt57A==";
         };
+        _IPHT5hIY = {
+            "id" = "IPHT5hIY";
+            "file" = "cobweb-fabric-26.2-1.4.0.jar";
+            "hash" = "sha512-r6dFOgThXFSECHfdHC4qN7Cx96+zgKFIdeIm+clExfjQu4n9GDcWBSvgRSLDocMQxqsnFMQzL3fsYaA8A9BnsQ==";
+        };
+        _6FSSctpt = {
+            "id" = "6FSSctpt";
+            "file" = "cobweb-neoforge-26.2-1.4.0.jar";
+            "hash" = "sha512-bLBGnbI5YZsLAZVTJ1WXOsZVKDAiNmOi+E9iWmtBt9Zn0LkYN7FZn14yYTGdhLVjCkGAvyh6TwWjAoFE//HVxQ==";
+        };
     in {
         "vrNDEK4Z" = _vrNDEK4Z;
         "1sO9wpKM" = _1sO9wpKM;
@@ -1352,6 +1362,8 @@ let
         "v2MQTYeF" = _v2MQTYeF;
         "vv7kxY52" = _vv7kxY52;
         "ZaMjT9X9" = _ZaMjT9X9;
+        "IPHT5hIY" = _IPHT5hIY;
+        "6FSSctpt" = _6FSSctpt;
         "forge-1.20.4" = _SAJvfTgI;
         "forge-1.20.2" = _pTROWFjL;
         "forge-1.19.4" = _3mcZNUbD;
@@ -1373,6 +1385,7 @@ let
         "neoforge-26.1" = _ZaMjT9X9;
         "neoforge-26.1.1" = _ZaMjT9X9;
         "neoforge-26.1.2" = _ZaMjT9X9;
+        "neoforge-26.2" = _6FSSctpt;
         "fabric-1.20.4" = _ufUqvrLu;
         "fabric-1.20.2" = _ih3tq9OA;
         "fabric-1.19.4" = _6VfNmiX8;
@@ -1392,6 +1405,7 @@ let
         "fabric-26.1" = _vv7kxY52;
         "fabric-26.1.1" = _vv7kxY52;
         "fabric-26.1.2" = _vv7kxY52;
+        "fabric-26.2" = _IPHT5hIY;
         "pkg-0.0.1.0-alpha" = _h64XB9oR;
         "pkg-0.0.1.1-alpha" = _uVVljX3S;
         "pkg-0.0.2.0-alpha" = _eK984SFt;
@@ -1440,8 +1454,8 @@ let
         "pkg-1.3.2" = _zkgLpmbp;
         "pkg-1.3.3" = _EOoPYWHA;
         "pkg-1.3.4" = _Sc3de6sI;
-        "pkg-1.4.0" = _ZaMjT9X9;
-        "default" = _ZaMjT9X9;
+        "pkg-1.4.0" = _6FSSctpt;
+        "default" = _6FSSctpt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobweb";

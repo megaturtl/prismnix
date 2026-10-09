@@ -421,6 +421,21 @@ let
             "file" = "speedrunnermod-1.13_fabric-mc26.3.jar";
             "hash" = "sha512-CJRzvNQ6iV1xEhRMUfREQ1gpAtfhU1SrSwmoJAT/jYvzvaBq+vqYEKlutcphG7AuQgZUxYDBt1nQhKlg4pikeA==";
         };
+        _HjAnhrDb = {
+            "id" = "HjAnhrDb";
+            "file" = "speedrunnermod-1.13.1_fabric-mc26.3.jar";
+            "hash" = "sha512-yyFnoM3IhFDsQrfS7e6bWiim9Doh3J4ghGV4qO3gE1YmvO0x6aOAeK+5eLDVk692FWMqc5EtIbmdfA7QvBr1KQ==";
+        };
+        _EXp3xS63 = {
+            "id" = "EXp3xS63";
+            "file" = "speedrunnermod-1.13.2_fabric-mc26.3.jar";
+            "hash" = "sha512-cO4QWRBCguwVNosnJT88IEBOu+sE7F/DE6UVuyHe1Cb7qNkXP4TeTFi6V5hFNBL8n2Vl2/vbWN3VMuHQXmfpJw==";
+        };
+        _7YRatnnw = {
+            "id" = "7YRatnnw";
+            "file" = "speedrunnermod-1.13.3_fabric-mc26.3.jar";
+            "hash" = "sha512-6xodnWn9ztrNZhhytKozJ1qDkbKnFsFqDD27GD56zh/9A9UCkYq0RGEwouHSr1kV649ojVVmDaBx4ZIuDspCjg==";
+        };
     in {
         "Lf7RYHng" = _Lf7RYHng;
         "nc1yy7BE" = _nc1yy7BE;
@@ -506,6 +521,9 @@ let
         "bIKBx4N5" = _bIKBx4N5;
         "bJCQbjbu" = _bJCQbjbu;
         "GU3wmJ5z" = _GU3wmJ5z;
+        "HjAnhrDb" = _HjAnhrDb;
+        "EXp3xS63" = _EXp3xS63;
+        "7YRatnnw" = _7YRatnnw;
         "fabric-1.16.3" = _Lf7RYHng;
         "fabric-1.16.5" = _pzWqFust;
         "fabric-1.17" = _YOmKUXqv;
@@ -535,7 +553,7 @@ let
         "fabric-1.21.11" = _j7lnPldo;
         "fabric-26.1.2" = _32yn0j3A;
         "fabric-26.2" = _bJCQbjbu;
-        "fabric-26.3" = _GU3wmJ5z;
+        "fabric-26.3" = _7YRatnnw;
         "pkg-initial-release" = _Lf7RYHng;
         "pkg-1.0" = _YOmKUXqv;
         "pkg-1.1" = _qoehZcIq;
@@ -608,7 +626,10 @@ let
         "pkg-1.12.6" = _bIKBx4N5;
         "pkg-1.12.7" = _bJCQbjbu;
         "pkg-1.13" = _GU3wmJ5z;
-        "default" = _GU3wmJ5z;
+        "pkg-1.13.1" = _HjAnhrDb;
+        "pkg-1.13.2" = _EXp3xS63;
+        "pkg-1.13.3" = _7YRatnnw;
+        "default" = _7YRatnnw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "speedrunner-mod";

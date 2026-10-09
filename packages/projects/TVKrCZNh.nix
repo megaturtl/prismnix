@@ -91,6 +91,16 @@ let
             "file" = "ResourceTrimmer-fabric-MC26.2-26.2.0.1.jar";
             "hash" = "sha512-8zPkAM8LxABTHR1to1SfHeZpnP2qjFbj8x/PjLDEqyF0FhaRLft7NHrXeDnAsZ5NWfIUavEGjM0jt0cSgYUI5A==";
         };
+        _bFK7cyu4 = {
+            "id" = "bFK7cyu4";
+            "file" = "ResourceTrimmer-fabric-MC26.3-26.3.0.1.jar";
+            "hash" = "sha512-C7x/sQXFZGf8rMx32d0DpTl7TqaHjlyl73A07Wo6cusptrvtX3AOaTvi7JVrQ7vbED3KNf61C4Pr18VhpiZTeg==";
+        };
+        _d1OLgefa = {
+            "id" = "d1OLgefa";
+            "file" = "ResourceTrimmer-neoforge-MC26.3-26.3.0.1.jar";
+            "hash" = "sha512-fVF5C/xrZnRPut8MGEFYb7FPpRTTAabnBeZ6E78Qz7DUfcI4Z2jHe+XXKV+oLA9oy7oh5AySgwuxFlqh/LhG4A==";
+        };
     in {
         "qicZUu7Q" = _qicZUu7Q;
         "XqMnlVXg" = _XqMnlVXg;
@@ -110,11 +120,14 @@ let
         "9XJYrbyE" = _9XJYrbyE;
         "6y3iNrW6" = _6y3iNrW6;
         "f14DSWpp" = _f14DSWpp;
+        "bFK7cyu4" = _bFK7cyu4;
+        "d1OLgefa" = _d1OLgefa;
         "fabric-1.21.1" = _JUxwl8w6;
         "fabric-26.1" = _9XJYrbyE;
         "fabric-26.1.1" = _9XJYrbyE;
         "fabric-26.1.2" = _9XJYrbyE;
         "fabric-26.2" = _f14DSWpp;
+        "fabric-26.3" = _bFK7cyu4;
         "quilt-1.21.1" = _JUxwl8w6;
         "forge-1.21.1" = _vFQsRS6o;
         "neoforge-1.21.1" = _nExH8OVD;
@@ -122,6 +135,7 @@ let
         "neoforge-26.1.1" = _kuwebbC6;
         "neoforge-26.1.2" = _kuwebbC6;
         "neoforge-26.2" = _6y3iNrW6;
+        "neoforge-26.3" = _d1OLgefa;
         "pkg-21.1.2" = _iz7FvvaN;
         "pkg-21.1.3" = _MJheD6nB;
         "pkg-21.1.4" = _YXwOKuvO;
@@ -129,7 +143,8 @@ let
         "pkg-26.1.2.1" = _lj3OpCZa;
         "pkg-26.1.2.2" = _9XJYrbyE;
         "pkg-26.2.0.1" = _f14DSWpp;
-        "default" = _f14DSWpp;
+        "pkg-26.3.0.1" = _d1OLgefa;
+        "default" = _d1OLgefa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "resource-trimmer";

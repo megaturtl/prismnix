@@ -16,10 +16,16 @@ let
             "file" = "Rainbow XP Bar.zip";
             "hash" = "sha512-e9Zw7FkPhJGAybAaf+uH5BcLTGD8VYBhHeLBHn09KjAw2tvGQ2LiV9vEFDowUnBUkcjs1Tl14ANRVYyI3X43jg==";
         };
+        _Y95q8ZAe = {
+            "id" = "Y95q8ZAe";
+            "file" = "Rainbow XP Bar.zip";
+            "hash" = "sha512-RR/BaNGeFc/ehDstBShL6vE6BFgUB3fItQzH8Um01xcuhxzGDvacbyfEFYFdr1csuwushXEWkUg28y55o24YeA==";
+        };
     in {
         "iLkbagzQ" = _iLkbagzQ;
         "8NXOqPQ2" = _8NXOqPQ2;
         "8hqF3meh" = _8hqF3meh;
+        "Y95q8ZAe" = _Y95q8ZAe;
         "minecraft-1.21" = _iLkbagzQ;
         "minecraft-1.21.1" = _iLkbagzQ;
         "minecraft-1.21.2" = _iLkbagzQ;
@@ -36,10 +42,12 @@ let
         "minecraft-26.1.1" = _8hqF3meh;
         "minecraft-26.1.2" = _8hqF3meh;
         "minecraft-26.2" = _8hqF3meh;
+        "minecraft-26.3" = _Y95q8ZAe;
         "pkg-1.0" = _iLkbagzQ;
         "pkg-2.0" = _8NXOqPQ2;
         "pkg-3.0" = _8hqF3meh;
-        "default" = _8hqF3meh;
+        "pkg-4.0" = _Y95q8ZAe;
+        "default" = _Y95q8ZAe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rainbow-xp-bars";

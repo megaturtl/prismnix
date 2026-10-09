@@ -111,6 +111,11 @@ let
             "file" = "McOverTor-1.9.1.jar";
             "hash" = "sha512-6fPaWSTRzmZQ3mfk4EDC2H66jXAEaHjg7bWs/gE7ryJUxvmWgjE13uMnqYJ1dty0vKXsU2iqiEUlmOLzLHNoMg==";
         };
+        _yFgeHmVA = {
+            "id" = "yFgeHmVA";
+            "file" = "McOverTor-1.9.2.jar";
+            "hash" = "sha512-bZHGq8U1/SLKUGsw7zR8yvHKAbSanb6bna3ngAf/zWw0r7vuHaanPhepsKhYWsj1tCKHe7D7qhaGz/QYVlImEw==";
+        };
     in {
         "4hID2h0j" = _4hID2h0j;
         "TC7Uo7nY" = _TC7Uo7nY;
@@ -134,6 +139,7 @@ let
         "KQG36MhL" = _KQG36MhL;
         "gjpA1Svz" = _gjpA1Svz;
         "l1urUO2c" = _l1urUO2c;
+        "yFgeHmVA" = _yFgeHmVA;
         "fabric-1.20.2" = _jJiNdtb7;
         "fabric-1.20.3" = _jJiNdtb7;
         "fabric-1.20.4" = _jJiNdtb7;
@@ -155,6 +161,7 @@ let
         "fabric-26.1.1" = _gjpA1Svz;
         "fabric-26.1.2" = _gjpA1Svz;
         "fabric-26.2" = _KQG36MhL;
+        "fabric-26.3" = _yFgeHmVA;
         "pkg-1.0" = _4hID2h0j;
         "pkg-1.3.0" = _TC7Uo7nY;
         "pkg-1.3.5-LINUX" = _hKmBvADl;
@@ -172,7 +179,8 @@ let
         "pkg-1.8" = _gTjYVoQo;
         "pkg-1.9" = _Zhxv3vxU;
         "pkg-1.9.1" = _l1urUO2c;
-        "default" = _l1urUO2c;
+        "pkg-1.9.2" = _yFgeHmVA;
+        "default" = _yFgeHmVA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mcovertor";

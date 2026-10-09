@@ -456,6 +456,16 @@ let
             "file" = "wynnventory-2.2.4-fabric-1.21.11.jar";
             "hash" = "sha512-sfsBQ919vJGvVINUEO2vwdEdMiVUZtk8+W4dMtRnyrnXbOBUNwKvX09tU7neSBxw5TzbZU1BBVmnK1asYrkIwQ==";
         };
+        _cwE8FIWm = {
+            "id" = "cwE8FIWm";
+            "file" = "wynnventory-2.2.5-neoforge-1.21.11.jar";
+            "hash" = "sha512-fQ2+mIKzHu6MWhbPqF3PQQ2NkRIbITiLpscP7zR4l+74ZvT9fh+02lonfpmYGhAmeIkACM7UGiK9Jt5Qeq1lOg==";
+        };
+        _GpSuTLIT = {
+            "id" = "GpSuTLIT";
+            "file" = "wynnventory-2.2.5-fabric-1.21.11.jar";
+            "hash" = "sha512-DCtrdABIJ2JCobSPZoLAAwN9owok7sKO0QTRCPj1IwGwug8zRyupCyrWRG11edb88TO0gLVvU7/fKKBwcskzMQ==";
+        };
     in {
         "5G4fcEye" = _5G4fcEye;
         "GnZJjDWh" = _GnZJjDWh;
@@ -548,11 +558,13 @@ let
         "BL4mMoK4" = _BL4mMoK4;
         "n8Bz7ijz" = _n8Bz7ijz;
         "pOBUOPAI" = _pOBUOPAI;
+        "cwE8FIWm" = _cwE8FIWm;
+        "GpSuTLIT" = _GpSuTLIT;
         "fabric-1.21" = _OPU8Xq3i;
         "fabric-1.21.1" = _OPU8Xq3i;
         "fabric-1.21.4" = _F6rD46G5;
-        "fabric-1.21.11" = _pOBUOPAI;
-        "neoforge-1.21.11" = _n8Bz7ijz;
+        "fabric-1.21.11" = _GpSuTLIT;
+        "neoforge-1.21.11" = _cwE8FIWm;
         "neoforge-1.21.4" = _FbVXqdlJ;
         "pkg-0.2.2" = _5G4fcEye;
         "pkg-0.2.3" = _GnZJjDWh;
@@ -627,7 +639,8 @@ let
         "pkg-v2.2.2" = _L02cnksZ;
         "pkg-v2.2.3" = _BL4mMoK4;
         "pkg-v2.2.4" = _pOBUOPAI;
-        "default" = _pOBUOPAI;
+        "pkg-v2.2.5" = _GpSuTLIT;
+        "default" = _GpSuTLIT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wynnventory";

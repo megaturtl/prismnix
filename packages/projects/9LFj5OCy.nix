@@ -56,6 +56,16 @@ let
             "file" = "TensuraEpScaling-neoforge-1.1.1.jar";
             "hash" = "sha512-XoIRNNHVbdxeqPdNWA1bhQrA1KSEVeHpakge+9RKA8VqAmQqPILwa9Y/xsOy9VsQ0hNOC4oe2MBAOQUqN59iXQ==";
         };
+        _vINSQajK = {
+            "id" = "vINSQajK";
+            "file" = "TensuraEpScaling-fabric-1.2.0.jar";
+            "hash" = "sha512-K8JOTcOkEWqfw40SAanaohReCxLGWYNwjh3584myvH/BxQWv3SrC6H7kKbX0bV3HS0/7AA66Bls3CuhH5gcJzQ==";
+        };
+        _UWOnSPc3 = {
+            "id" = "UWOnSPc3";
+            "file" = "TensuraEpScaling-neoforge-1.2.0.jar";
+            "hash" = "sha512-aCzrZxVGrJblCzZTtvOXclT68KYAG21gQOPUaxkc12rHdKqdrFTTjFIW/zbFbmQVIwEDDHzmMSIlb4p+MqZn3g==";
+        };
     in {
         "PmsBaDtR" = _PmsBaDtR;
         "gkrelXIX" = _gkrelXIX;
@@ -68,15 +78,18 @@ let
         "mUCX101I" = _mUCX101I;
         "SfM4LYIN" = _SfM4LYIN;
         "36lVoGDh" = _36lVoGDh;
-        "neoforge-1.21.1" = _36lVoGDh;
-        "fabric-1.21.1" = _SfM4LYIN;
+        "vINSQajK" = _vINSQajK;
+        "UWOnSPc3" = _UWOnSPc3;
+        "neoforge-1.21.1" = _UWOnSPc3;
+        "fabric-1.21.1" = _vINSQajK;
         "pkg-1.0.0" = _gkrelXIX;
         "pkg-1.0.1" = _NamgLKfZ;
         "pkg-1.0.2" = _2csDu8qf;
         "pkg-1.0.3" = _VXjbIskI;
         "pkg-1.1.0" = _mUCX101I;
         "pkg-1.1.1" = _36lVoGDh;
-        "default" = _36lVoGDh;
+        "pkg-1.2.0" = _UWOnSPc3;
+        "default" = _UWOnSPc3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tensuraepscaling";

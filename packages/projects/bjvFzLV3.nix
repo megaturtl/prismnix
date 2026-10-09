@@ -201,6 +201,26 @@ let
             "file" = "mysticism-fabric-2.1.2.1.jar";
             "hash" = "sha512-d0xhLX/0YAjgwb8Ldyf3E3MBzta6ZVsqb3/c1mU8TTv6oxfFom+TLsVgbaoUJc90/+9cZheJaepaUPkRbpN5sg==";
         };
+        _5bp6eFhV = {
+            "id" = "5bp6eFhV";
+            "file" = "mysticism-fabric-2.2.0.jar";
+            "hash" = "sha512-2xPaYJYQNhSyg8Nj5srlNh62GU+NVPLu2oyDBKBD2O6IIKikPzlFpIVVR1xodUM+30UFEcjNpoaGV4xjwATpkg==";
+        };
+        _hpYqt286 = {
+            "id" = "hpYqt286";
+            "file" = "mysticism-neoforge-2.2.0.jar";
+            "hash" = "sha512-V2SI1Avg3KinBq/eMdgJSfB/v1ZXiGCK1DXllYuADGp2jqVrh7YJXwm6iI+JF0Jg9eZKlu4WsEjPDkv7JeeHIg==";
+        };
+        _3NYcVNlG = {
+            "id" = "3NYcVNlG";
+            "file" = "mysticism-fabric-2.2.1.jar";
+            "hash" = "sha512-yxUrauNdNWbpGP/VuOoV9xyWaCHA0R58Zo8HXzLCoJlyqIi0YnS6LAFTaYCXGrXpcG6pYP9mzyRaxSiPmfr2eg==";
+        };
+        _q4YA4Wke = {
+            "id" = "q4YA4Wke";
+            "file" = "mysticism-neoforge-2.2.1.jar";
+            "hash" = "sha512-A0UO6OJxeXEAjVaIZ6I0mxM+77W2HQWTcKu5AC86lZSNZ68zRqrltpRkJYchpCB32zu0gVdGbXqmfWJLaUnsFg==";
+        };
     in {
         "ulh1bSsn" = _ulh1bSsn;
         "ln9j90De" = _ln9j90De;
@@ -242,9 +262,13 @@ let
         "FuZwNIyc" = _FuZwNIyc;
         "w3PBrxEq" = _w3PBrxEq;
         "CiVC5KXb" = _CiVC5KXb;
+        "5bp6eFhV" = _5bp6eFhV;
+        "hpYqt286" = _hpYqt286;
+        "3NYcVNlG" = _3NYcVNlG;
+        "q4YA4Wke" = _q4YA4Wke;
         "forge-1.19.2" = _BpxhPy2q;
-        "fabric-1.21.1" = _CiVC5KXb;
-        "neoforge-1.21.1" = _FuZwNIyc;
+        "fabric-1.21.1" = _3NYcVNlG;
+        "neoforge-1.21.1" = _q4YA4Wke;
         "pkg-1.0.0.1" = _ulh1bSsn;
         "pkg-1.0.0.2" = _ln9j90De;
         "pkg-1.0.0.3" = _YM167Zzu;
@@ -285,7 +309,11 @@ let
         "pkg-2.1.2-neoforge" = _FuZwNIyc;
         "pkg-2.1.2-fabric" = _w3PBrxEq;
         "pkg-2.1.2.1-fabric" = _CiVC5KXb;
-        "default" = _CiVC5KXb;
+        "pkg-2.2.0-fabric" = _5bp6eFhV;
+        "pkg-2.2.0-neoforge" = _hpYqt286;
+        "pkg-2.2.1-fabric" = _3NYcVNlG;
+        "pkg-2.2.1-neoforge" = _q4YA4Wke;
+        "default" = _q4YA4Wke;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tensura-mysticism";

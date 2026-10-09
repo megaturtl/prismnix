@@ -46,6 +46,21 @@ let
             "file" = "betterblocktooltip-neoforge-26.1.2-1.0.3.jar";
             "hash" = "sha512-T/nqwVfjJ+GyPGcPzOWs+XN4yc7i7XkUAXmjA8vIblh9DIPQyLOFriA42sKaHctnm7MwTa/vIxLOszHDZESJJA==";
         };
+        _ADw3Pw5r = {
+            "id" = "ADw3Pw5r";
+            "file" = "betterblocktooltip-forge-26.3-1.0.3.jar";
+            "hash" = "sha512-cJaV5skx8oZ6y3wGn2IWHek4ioqwy+WLkuA3QxKpwRE+LofgB4ffYxp0JRQY9MKw33Fvff3iRgMOXqj4lNY8xQ==";
+        };
+        _6a1sw6l5 = {
+            "id" = "6a1sw6l5";
+            "file" = "betterblocktooltip-neoforge-26.3-1.0.3.jar";
+            "hash" = "sha512-RxH6vJnY/JFr8hyC8UuuOPxpL45mISW16XaKgY48MVtdeXaqwJP/UNDSqvhuOcRzeGJSHddZY4hNr1ayH2ttcg==";
+        };
+        _EgERwGqi = {
+            "id" = "EgERwGqi";
+            "file" = "betterblocktooltip-fabric-26.3-1.0.3.jar";
+            "hash" = "sha512-CjHtV0PMOBViVWDxGpFPX+/9b0BKMieZr7UrCOQWuzgA0EyRqdm2B4SBmhDoCRpi6Xi7qOu0V2opBTngVouWCg==";
+        };
     in {
         "f2uAcV5D" = _f2uAcV5D;
         "ecxfXjHP" = _ecxfXjHP;
@@ -56,6 +71,9 @@ let
         "EmkoQDpw" = _EmkoQDpw;
         "Aj1SQ8T0" = _Aj1SQ8T0;
         "lnMD3rjC" = _lnMD3rjC;
+        "ADw3Pw5r" = _ADw3Pw5r;
+        "6a1sw6l5" = _6a1sw6l5;
+        "EgERwGqi" = _EgERwGqi;
         "fabric-1.20" = _f2uAcV5D;
         "fabric-1.20.1" = _f2uAcV5D;
         "fabric-1.20.2" = _f2uAcV5D;
@@ -79,19 +97,22 @@ let
         "fabric-26.1.1" = _EmkoQDpw;
         "fabric-26.1.2" = _EmkoQDpw;
         "fabric-26.2" = _EmkoQDpw;
+        "fabric-26.3" = _EgERwGqi;
         "forge-26.1" = _Aj1SQ8T0;
         "forge-26.1.1" = _Aj1SQ8T0;
         "forge-26.1.2" = _Aj1SQ8T0;
         "forge-26.2" = _Aj1SQ8T0;
+        "forge-26.3" = _ADw3Pw5r;
         "neoforge-26.1" = _lnMD3rjC;
         "neoforge-26.1.1" = _lnMD3rjC;
         "neoforge-26.1.2" = _lnMD3rjC;
         "neoforge-26.2" = _lnMD3rjC;
+        "neoforge-26.3" = _6a1sw6l5;
         "pkg-1.0.0" = _xJ4hQlIR;
         "pkg-1.0.1" = _vSaJyyxg;
         "pkg-1.0.2" = _EmkoQDpw;
-        "pkg-1.0.3" = _lnMD3rjC;
-        "default" = _lnMD3rjC;
+        "pkg-1.0.3" = _EgERwGqi;
+        "default" = _EgERwGqi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-block-tooltip";

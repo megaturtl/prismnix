@@ -46,6 +46,11 @@ let
             "file" = "Pretty Dark UI(1.21.11-26.2).zip";
             "hash" = "sha512-kI5eGbot8px3vRVag9YyLAEzdoneRvzTMuqJ0j7zFXQ84dyiVNC7pda75n6ORskezhlwJJiSLFt+5ofxrHYZqQ==";
         };
+        _eux89YaW = {
+            "id" = "eux89YaW";
+            "file" = "Pretty Dark UI(26.3).zip";
+            "hash" = "sha512-w2f1RhmabgQlKrQSny0ORwx9PD64d7qdXWPR09ZtwXU+aOeCe6QY/f8nn7JWtl0kjEOejX9v7Z5Cu+hsonFSyQ==";
+        };
     in {
         "Wy5f7arf" = _Wy5f7arf;
         "AUsZqL1v" = _AUsZqL1v;
@@ -56,6 +61,7 @@ let
         "LE5TkWz0" = _LE5TkWz0;
         "EvSIBTCh" = _EvSIBTCh;
         "xkTS3Ker" = _xkTS3Ker;
+        "eux89YaW" = _eux89YaW;
         "minecraft-1.21.10" = _5qq0pFP2;
         "minecraft-1.21.9" = _5qq0pFP2;
         "minecraft-1.21" = _5qq0pFP2;
@@ -124,6 +130,7 @@ let
         "minecraft-26.1.1" = _xkTS3Ker;
         "minecraft-26.1.2" = _xkTS3Ker;
         "minecraft-26.2" = _xkTS3Ker;
+        "minecraft-26.3" = _eux89YaW;
         "pkg-1.0" = _Wy5f7arf;
         "pkg-1.1" = _AUsZqL1v;
         "pkg-1.2" = _j00ccOgF;
@@ -133,7 +140,8 @@ let
         "pkg-26.1-26.1.1" = _LE5TkWz0;
         "pkg-1.21.11-26.1.2" = _EvSIBTCh;
         "pkg-1.21.11-26.2" = _xkTS3Ker;
-        "default" = _xkTS3Ker;
+        "pkg-26.3" = _eux89YaW;
+        "default" = _eux89YaW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pretty-dark-ui";

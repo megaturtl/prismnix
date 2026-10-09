@@ -61,6 +61,11 @@ let
             "file" = "ae2utility-1.7.9.jar";
             "hash" = "sha512-BhnBtR0Vk/RAniQ1OAf0ohmI1VBWjqZH2SDJFshzUL0A9XjrKZF4KOlDl05qPlp/oaFDUBHgRYSu3+f6TkgBDA==";
         };
+        _cipTSARa = {
+            "id" = "cipTSARa";
+            "file" = "ae2utility-1.8.0.jar";
+            "hash" = "sha512-pCtagImxxrGtTOaAHu8ZSJhMgYue+foXyTGqS16xpCz9Z6TlD/9RKZ1F1DrTFkXmn6N+nx3p5cfau906IkS7Gg==";
+        };
     in {
         "vdL0Rd8R" = _vdL0Rd8R;
         "E0dgy1Ch" = _E0dgy1Ch;
@@ -74,7 +79,8 @@ let
         "Cl1HYN2g" = _Cl1HYN2g;
         "tnuuYbOw" = _tnuuYbOw;
         "V4fJGV6M" = _V4fJGV6M;
-        "neoforge-1.21.1" = _V4fJGV6M;
+        "cipTSARa" = _cipTSARa;
+        "neoforge-1.21.1" = _cipTSARa;
         "forge-1.20.1" = _S4rlvXU2;
         "pkg-1.6.0" = _vdL0Rd8R;
         "pkg-1.7.0" = _E0dgy1Ch;
@@ -88,7 +94,8 @@ let
         "pkg-1.7.7" = _Cl1HYN2g;
         "pkg-1.7.8" = _tnuuYbOw;
         "pkg-1.7.9" = _V4fJGV6M;
-        "default" = _V4fJGV6M;
+        "pkg-1.8.0" = _cipTSARa;
+        "default" = _cipTSARa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ae2utility";

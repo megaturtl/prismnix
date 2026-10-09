@@ -311,6 +311,26 @@ let
             "file" = "topper-fabric-4.7.1+26.2.jar";
             "hash" = "sha512-j1QDR39zhfN3ifa8Ai4PLM7bmvotdbHrfULsqxAXvJiwzkpu9m5rRyg7AwtUUiCP6cLog+0nqjcuL1EVFhx/cA==";
         };
+        _k9q023ui = {
+            "id" = "k9q023ui";
+            "file" = "topper-fabric-4.7.2+1.21.11.jar";
+            "hash" = "sha512-ObDEHynIp8k6xwVaWxgSbz5JIM2wdg6Eoh+6UmxeVGPpPgObLkeD619x2FNAWKXBUnTkdBFnKk1CDr4lTQfi1A==";
+        };
+        _jkD87FgV = {
+            "id" = "jkD87FgV";
+            "file" = "topper-fabric-4.7.2+26.1.2.jar";
+            "hash" = "sha512-AU4s26gffokhQcUWBj2u7QEtfOVNt8CQ0XPwXgU6M/5t5azogyVZdvvxOZq+hYNRITlkGGUr+Jpu/n+HxEptbA==";
+        };
+        _HTRMw9Sq = {
+            "id" = "HTRMw9Sq";
+            "file" = "topper-fabric-4.7.2+26.2.jar";
+            "hash" = "sha512-wJNyhhdokt+DC2nLcz2ywk7XXR3mSdJTjEglGhkViHNEqq9VanzK92/Vw8hjLMB+mkDHD1/5maWDXok4oZ2MtQ==";
+        };
+        _4e0mGtzd = {
+            "id" = "4e0mGtzd";
+            "file" = "topper-fabric-4.7.2+26.3.jar";
+            "hash" = "sha512-W5IMXuSO/JPEQjBWRt62ngY3M5WQrmidb7e659GTkbIKTbjErmoAmUrG+yuIwBTt/f0AfxtDn4gO3HFD1n4GEA==";
+        };
     in {
         "HHsdQV7C" = _HHsdQV7C;
         "DWkdw7n9" = _DWkdw7n9;
@@ -374,6 +394,10 @@ let
         "7GypkNeu" = _7GypkNeu;
         "oCdJGEw7" = _oCdJGEw7;
         "UJOIaLm2" = _UJOIaLm2;
+        "k9q023ui" = _k9q023ui;
+        "jkD87FgV" = _jkD87FgV;
+        "HTRMw9Sq" = _HTRMw9Sq;
+        "4e0mGtzd" = _4e0mGtzd;
         "bukkit-1.8" = _maqOJreU;
         "bukkit-1.8.1" = _maqOJreU;
         "bukkit-1.8.2" = _maqOJreU;
@@ -749,11 +773,12 @@ let
         "fabric-1.21.8" = _Tx1QunSG;
         "fabric-1.21.9" = _XCHWytTq;
         "fabric-1.21.10" = _XCHWytTq;
-        "fabric-1.21.11" = _7GypkNeu;
-        "fabric-26.1" = _oCdJGEw7;
-        "fabric-26.1.1" = _oCdJGEw7;
-        "fabric-26.1.2" = _oCdJGEw7;
-        "fabric-26.2" = _UJOIaLm2;
+        "fabric-1.21.11" = _k9q023ui;
+        "fabric-26.1" = _jkD87FgV;
+        "fabric-26.1.1" = _jkD87FgV;
+        "fabric-26.1.2" = _jkD87FgV;
+        "fabric-26.2" = _HTRMw9Sq;
+        "fabric-26.3" = _4e0mGtzd;
         "pkg-2.5.0" = _HHsdQV7C;
         "pkg-2.5.1" = _DWkdw7n9;
         "pkg-2.5.2" = _kA0Tziay;
@@ -794,7 +819,8 @@ let
         "pkg-4.6.1" = _OmPSGdgZ;
         "pkg-4.7.0" = _pBIIk1LQ;
         "pkg-4.7.1" = _UJOIaLm2;
-        "default" = _UJOIaLm2;
+        "pkg-4.7.2" = _4e0mGtzd;
+        "default" = _4e0mGtzd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "topper-lb";

@@ -46,6 +46,11 @@ let
             "file" = "visual_armor_trims_4.2.zip";
             "hash" = "sha512-VUF7NHX1veR1Hy9bl5eajbjDZ2uQS8AWMjEs4dJfhvP4j+wBTN9uyOSFxtxvZfkVCVWwqAWw72g33+1jVj150w==";
         };
+        _fMircvox = {
+            "id" = "fMircvox";
+            "file" = "visual_armor_trims_4.3.zip";
+            "hash" = "sha512-d/egbomevV96HbQNj3fK/TUoXqlSsByDQ/E6ULJYLFHxql07HblzaL0wKtMQ5Pl4MjaCMV4b5UKENYfTA0wTIQ==";
+        };
     in {
         "jMVwGTIZ" = _jMVwGTIZ;
         "EgW0bmI7" = _EgW0bmI7;
@@ -56,6 +61,7 @@ let
         "G6ZoMPyA" = _G6ZoMPyA;
         "w7MCM1Bk" = _w7MCM1Bk;
         "Qt949MJE" = _Qt949MJE;
+        "fMircvox" = _fMircvox;
         "minecraft-1.20" = _EgW0bmI7;
         "minecraft-1.20.1" = _EgW0bmI7;
         "minecraft-1.20.2" = _EgW0bmI7;
@@ -75,6 +81,7 @@ let
         "minecraft-26.1.1" = _Qt949MJE;
         "minecraft-26.1.2" = _Qt949MJE;
         "minecraft-26.2" = _Qt949MJE;
+        "minecraft-26.3" = _fMircvox;
         "pkg-v1.0" = _jMVwGTIZ;
         "pkg-v1.1" = _EgW0bmI7;
         "pkg-v2.0" = _Qs9Gdrk1;
@@ -84,7 +91,8 @@ let
         "pkg-4.0" = _G6ZoMPyA;
         "pkg-4.1" = _w7MCM1Bk;
         "pkg-4.2" = _Qt949MJE;
-        "default" = _Qt949MJE;
+        "pkg-4.3" = _fMircvox;
+        "default" = _fMircvox;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "visual-armor-trims";

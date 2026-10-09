@@ -381,6 +381,16 @@ let
             "file" = "Stellarity-5.5.5.jar";
             "hash" = "sha512-b1vNjHaozfGiDuWAWTrdAIfioh3JTqOrwGIWgR4bbh4qJO7s7I6nFYP2IFvu7XMIlhTiNT9jTt7/duTz+JeYkQ==";
         };
+        _Ty3gI3Su = {
+            "id" = "Ty3gI3Su";
+            "file" = "Stellarity-6.0.0.zip";
+            "hash" = "sha512-6wqWYS5GUQse7i//qUmvug9peY/vsT/Jhdfeft7qkjQ6IJq+4BLbNMEoLbmO9a5mUfxk4KXw9hOsm5n1zZfcxg==";
+        };
+        _ocbGGokV = {
+            "id" = "ocbGGokV";
+            "file" = "Stellarity-6.0.0.jar";
+            "hash" = "sha512-so4fnWn1irMvDSYPuXQkzsmOyW3NtIFjv4KszKjvXr96G0YRGIJQMwQiwZKDnQe42lMUwTkwJNdLZclZVOKmWQ==";
+        };
     in {
         "E4Hj3dev" = _E4Hj3dev;
         "iiib2S9v" = _iiib2S9v;
@@ -458,6 +468,8 @@ let
         "e7wFdNOX" = _e7wFdNOX;
         "NwAEovmC" = _NwAEovmC;
         "8oEVzHYJ" = _8oEVzHYJ;
+        "Ty3gI3Su" = _Ty3gI3Su;
+        "ocbGGokV" = _ocbGGokV;
         "datapack-1.20" = _RPPPTt19;
         "datapack-1.20.1" = _RPPPTt19;
         "datapack-1.20.2" = _sjy5fy3J;
@@ -472,11 +484,12 @@ let
         "datapack-1.21.8" = _kLORMoLn;
         "datapack-1.21.9" = _zudQ7s97;
         "datapack-1.21.10" = _zudQ7s97;
-        "datapack-1.21.11" = _NwAEovmC;
-        "datapack-26.1" = _NwAEovmC;
-        "datapack-26.1.1" = _NwAEovmC;
-        "datapack-26.1.2" = _NwAEovmC;
-        "datapack-26.2" = _NwAEovmC;
+        "datapack-1.21.11" = _Ty3gI3Su;
+        "datapack-26.1" = _Ty3gI3Su;
+        "datapack-26.1.1" = _Ty3gI3Su;
+        "datapack-26.1.2" = _Ty3gI3Su;
+        "datapack-26.2" = _Ty3gI3Su;
+        "datapack-26.3" = _Ty3gI3Su;
         "fabric-1.20" = _RKcXZAPf;
         "fabric-1.20.1" = _RKcXZAPf;
         "fabric-1.20.2" = _KVE2J5Ss;
@@ -491,11 +504,12 @@ let
         "fabric-1.21.8" = _hx2PYwoE;
         "fabric-1.21.9" = _QuS8aRj8;
         "fabric-1.21.10" = _QuS8aRj8;
-        "fabric-1.21.11" = _8oEVzHYJ;
-        "fabric-26.1" = _8oEVzHYJ;
-        "fabric-26.1.1" = _8oEVzHYJ;
-        "fabric-26.1.2" = _8oEVzHYJ;
-        "fabric-26.2" = _8oEVzHYJ;
+        "fabric-1.21.11" = _ocbGGokV;
+        "fabric-26.1" = _ocbGGokV;
+        "fabric-26.1.1" = _ocbGGokV;
+        "fabric-26.1.2" = _ocbGGokV;
+        "fabric-26.2" = _ocbGGokV;
+        "fabric-26.3" = _ocbGGokV;
         "forge-1.20" = _RKcXZAPf;
         "forge-1.20.1" = _RKcXZAPf;
         "forge-1.20.2" = _KVE2J5Ss;
@@ -510,11 +524,12 @@ let
         "forge-1.21.8" = _hx2PYwoE;
         "forge-1.21.9" = _QuS8aRj8;
         "forge-1.21.10" = _QuS8aRj8;
-        "forge-1.21.11" = _8oEVzHYJ;
-        "forge-26.1" = _8oEVzHYJ;
-        "forge-26.1.1" = _8oEVzHYJ;
-        "forge-26.1.2" = _8oEVzHYJ;
-        "forge-26.2" = _8oEVzHYJ;
+        "forge-1.21.11" = _ocbGGokV;
+        "forge-26.1" = _ocbGGokV;
+        "forge-26.1.1" = _ocbGGokV;
+        "forge-26.1.2" = _ocbGGokV;
+        "forge-26.2" = _ocbGGokV;
+        "forge-26.3" = _ocbGGokV;
         "quilt-1.20" = _RKcXZAPf;
         "quilt-1.20.1" = _RKcXZAPf;
         "quilt-1.20.2" = _KVE2J5Ss;
@@ -529,11 +544,12 @@ let
         "quilt-1.21.8" = _hx2PYwoE;
         "quilt-1.21.9" = _QuS8aRj8;
         "quilt-1.21.10" = _QuS8aRj8;
-        "quilt-1.21.11" = _8oEVzHYJ;
-        "quilt-26.1" = _8oEVzHYJ;
-        "quilt-26.1.1" = _8oEVzHYJ;
-        "quilt-26.1.2" = _8oEVzHYJ;
-        "quilt-26.2" = _8oEVzHYJ;
+        "quilt-1.21.11" = _ocbGGokV;
+        "quilt-26.1" = _ocbGGokV;
+        "quilt-26.1.1" = _ocbGGokV;
+        "quilt-26.1.2" = _ocbGGokV;
+        "quilt-26.2" = _ocbGGokV;
+        "quilt-26.3" = _ocbGGokV;
         "neoforge-1.21" = _csfOSC32;
         "neoforge-1.21.1" = _csfOSC32;
         "neoforge-1.21.6" = _hx2PYwoE;
@@ -543,11 +559,12 @@ let
         "neoforge-1.21.8" = _hx2PYwoE;
         "neoforge-1.21.9" = _QuS8aRj8;
         "neoforge-1.21.10" = _QuS8aRj8;
-        "neoforge-1.21.11" = _8oEVzHYJ;
-        "neoforge-26.1" = _8oEVzHYJ;
-        "neoforge-26.1.1" = _8oEVzHYJ;
-        "neoforge-26.1.2" = _8oEVzHYJ;
-        "neoforge-26.2" = _8oEVzHYJ;
+        "neoforge-1.21.11" = _ocbGGokV;
+        "neoforge-26.1" = _ocbGGokV;
+        "neoforge-26.1.1" = _ocbGGokV;
+        "neoforge-26.1.2" = _ocbGGokV;
+        "neoforge-26.2" = _ocbGGokV;
+        "neoforge-26.3" = _ocbGGokV;
         "pkg-2.0a" = _E4Hj3dev;
         "pkg-2.0b" = _iiib2S9v;
         "pkg-2.0b+mod" = _3VFnfWDA;
@@ -623,7 +640,9 @@ let
         "pkg-5.5.4+mod" = _e7wFdNOX;
         "pkg-5.5.5" = _NwAEovmC;
         "pkg-5.5.5+mod" = _8oEVzHYJ;
-        "default" = _8oEVzHYJ;
+        "pkg-6.0.0" = _Ty3gI3Su;
+        "pkg-6.0.0+mod" = _ocbGGokV;
+        "default" = _ocbGGokV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stellarity";

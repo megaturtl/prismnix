@@ -228,6 +228,7 @@ let
         "datapack-26.1.1" = _NJ8yat4P;
         "datapack-26.1.2" = _NJ8yat4P;
         "datapack-26.2" = _NJ8yat4P;
+        "datapack-26.3" = _NJ8yat4P;
         "fabric-1.21" = _hCRa4eFr;
         "fabric-1.21.1" = _hCRa4eFr;
         "fabric-1.21.2" = _hCRa4eFr;
@@ -256,6 +257,7 @@ let
         "fabric-26.1.1" = _hCRa4eFr;
         "fabric-26.1.2" = _hCRa4eFr;
         "fabric-26.2" = _hCRa4eFr;
+        "fabric-26.3" = _hCRa4eFr;
         "forge-1.21" = _hCRa4eFr;
         "forge-1.21.1" = _hCRa4eFr;
         "forge-1.21.2" = _hCRa4eFr;
@@ -284,6 +286,7 @@ let
         "forge-26.1.1" = _hCRa4eFr;
         "forge-26.1.2" = _hCRa4eFr;
         "forge-26.2" = _hCRa4eFr;
+        "forge-26.3" = _hCRa4eFr;
         "neoforge-1.21" = _hCRa4eFr;
         "neoforge-1.21.1" = _hCRa4eFr;
         "neoforge-1.21.2" = _hCRa4eFr;
@@ -312,6 +315,7 @@ let
         "neoforge-26.1.1" = _hCRa4eFr;
         "neoforge-26.1.2" = _hCRa4eFr;
         "neoforge-26.2" = _hCRa4eFr;
+        "neoforge-26.3" = _hCRa4eFr;
         "quilt-1.21" = _hCRa4eFr;
         "quilt-1.21.1" = _hCRa4eFr;
         "quilt-1.21.2" = _hCRa4eFr;
@@ -340,6 +344,7 @@ let
         "quilt-26.1.1" = _hCRa4eFr;
         "quilt-26.1.2" = _hCRa4eFr;
         "quilt-26.2" = _hCRa4eFr;
+        "quilt-26.3" = _hCRa4eFr;
         "pkg-1.0.0" = _vyCvgPyZ;
         "pkg-1.0.1" = _dGziRHvO;
         "pkg-1.0.2" = _P9tJwJH2;

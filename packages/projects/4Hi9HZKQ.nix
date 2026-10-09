@@ -76,6 +76,26 @@ let
             "file" = "snaplook-1.2.jar";
             "hash" = "sha512-0YJVbRFC3lU86WZycseZ2V/yJ1wtIBHK0PM9Rx9mkjlTZaDUxFp84C5O9B6dqBfrAp8ikTkv2to5x51D+XmP5g==";
         };
+        _aSkczIjG = {
+            "id" = "aSkczIjG";
+            "file" = "snaplook-1.2.jar";
+            "hash" = "sha512-N/USGG/ApsKqhMBrK8nZcK3mraswOHKTKbMKHNt7e4OB7rk7UDm7V7jjhiHMRnRdL0FUWqZ6sST1l0ArMh1y8w==";
+        };
+        _btYIuB7w = {
+            "id" = "btYIuB7w";
+            "file" = "snaplook-1.3.jar";
+            "hash" = "sha512-SDf+sO0lP2xHnBEc7IDAa0T0izKuTIzTxNL60q68yzPBMjkqRaKOimGIZohyk9FKRPa6TkMWkyWSJHJb03b6Gw==";
+        };
+        _pZEkZ6tG = {
+            "id" = "pZEkZ6tG";
+            "file" = "snaplook-1.3.jar";
+            "hash" = "sha512-yiEU5N5FPZhzGCvAoOnYbsjWs4gAA7wu/EDXSNT1CYiUJAkek8XJ5KN1C2p9gvq8TKamGLsW5ucSV99zttQMSQ==";
+        };
+        _eeZ9RcSV = {
+            "id" = "eeZ9RcSV";
+            "file" = "snaplook-1.3.jar";
+            "hash" = "sha512-uwxVfriihkuccymAR1j/Mvchxqc8NfGesC0sgG2qkTeatxkTwCDQJ7I97PuYv+Qo3pCxQyOoCLjtUeiYv1QYIw==";
+        };
     in {
         "bydijVEd" = _bydijVEd;
         "22qSNGJB" = _22qSNGJB;
@@ -92,6 +112,10 @@ let
         "jo1lLdCk" = _jo1lLdCk;
         "puCUxkLM" = _puCUxkLM;
         "7eCGVBt5" = _7eCGVBt5;
+        "aSkczIjG" = _aSkczIjG;
+        "btYIuB7w" = _btYIuB7w;
+        "pZEkZ6tG" = _pZEkZ6tG;
+        "eeZ9RcSV" = _eeZ9RcSV;
         "fabric-1.21.11" = _bydijVEd;
         "fabric-1.21.10" = _22qSNGJB;
         "fabric-1.21.9" = _OBCyKZmI;
@@ -104,10 +128,11 @@ let
         "fabric-1.21.2" = _mKdMpMaq;
         "fabric-1.21.1" = _nVoGWmoZ;
         "fabric-1.21" = _wYFRcKOo;
-        "fabric-26.1" = _puCUxkLM;
-        "fabric-26.1.1" = _puCUxkLM;
-        "fabric-26.1.2" = _puCUxkLM;
-        "fabric-26.2" = _7eCGVBt5;
+        "fabric-26.1" = _pZEkZ6tG;
+        "fabric-26.1.1" = _pZEkZ6tG;
+        "fabric-26.1.2" = _pZEkZ6tG;
+        "fabric-26.2" = _eeZ9RcSV;
+        "fabric-26.3" = _btYIuB7w;
         "pkg-Snaplook-1.0-1.21.11" = _bydijVEd;
         "pkg-Snaplook-1.0-1.21.10" = _22qSNGJB;
         "pkg-Snaplook-1.0-1.21.9" = _OBCyKZmI;
@@ -123,7 +148,11 @@ let
         "pkg-Snaplook-1.1-26.1-26.1.2" = _jo1lLdCk;
         "pkg-Snaplook-1.2-26.1-26.1.2" = _puCUxkLM;
         "pkg-Snaplook-1.2-26.2" = _7eCGVBt5;
-        "default" = _7eCGVBt5;
+        "pkg-Snaplook-1.2-26.3" = _aSkczIjG;
+        "pkg-Snaplook-1.3-26.3" = _btYIuB7w;
+        "pkg-Snaplook-1.3-26.1-26.1.2" = _pZEkZ6tG;
+        "pkg-Snaplook-1.3-26.2" = _eeZ9RcSV;
+        "default" = _eeZ9RcSV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simplesnaplook";

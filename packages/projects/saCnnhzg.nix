@@ -81,6 +81,16 @@ let
             "file" = "bettercrosshairindicator-1.2.jar";
             "hash" = "sha512-KWed5C3wGTfaDoYjz1sdWJJjO5lGDJxZHzYTTsPv+8AUuB96t71qB9Kk85HFR4cMGs2rEutbqXgtK1DPA/gBBA==";
         };
+        _vzMg7SKH = {
+            "id" = "vzMg7SKH";
+            "file" = "bettercrosshairindicator-1.2.jar";
+            "hash" = "sha512-22Hpeq0YXasyW+RL1HhoXaFvEOXRicZdUpPXbsXsyojG+7fwEuKeX2KCKSZS9W5dQdirXjYrK1NWu+Qk4L9NlQ==";
+        };
+        _nw8WRWYj = {
+            "id" = "nw8WRWYj";
+            "file" = "bettercrosshairindicator-1.2.jar";
+            "hash" = "sha512-8IbZ8KAFtWN0iOdZLP5jD6BDnxwxnXd3x0NVq/sMG+qufR0XY/k7C6oN5hAzXbEps8BPQe7RpjqD5O1vsDZeTA==";
+        };
     in {
         "vOl8tVu4" = _vOl8tVu4;
         "DT1L8myO" = _DT1L8myO;
@@ -98,6 +108,8 @@ let
         "M7gWhO99" = _M7gWhO99;
         "Q2FMP481" = _Q2FMP481;
         "7uFfLqEd" = _7uFfLqEd;
+        "vzMg7SKH" = _vzMg7SKH;
+        "nw8WRWYj" = _nw8WRWYj;
         "fabric-1.21.4" = _vOl8tVu4;
         "fabric-1.21.3" = _DT1L8myO;
         "fabric-1.21.1" = _7f828BZr;
@@ -112,10 +124,12 @@ let
         "fabric-1.21.10" = _XPNvogHe;
         "fabric-1.21.11" = _7uFfLqEd;
         "fabric-26.1.2" = _Q2FMP481;
+        "fabric-26.2" = _vzMg7SKH;
+        "fabric-26.3" = _nw8WRWYj;
         "pkg-1.0" = _PD50v2yG;
         "pkg-1.1" = _Q2FMP481;
-        "pkg-1.2" = _7uFfLqEd;
-        "default" = _7uFfLqEd;
+        "pkg-1.2" = _nw8WRWYj;
+        "default" = _nw8WRWYj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bettercrosshairindicator";

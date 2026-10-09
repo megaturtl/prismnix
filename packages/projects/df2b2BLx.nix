@@ -101,6 +101,11 @@ let
             "file" = "betterbattletowers-5.0.5+8.0.1.jar";
             "hash" = "sha512-I0mWkSq79demBqAG7I2MSq694SosRpkiQnMqQwPJVzzFatBDYHfQ2olV34dR+vAwh13IrIuG4UIhDzPgsCGOTw==";
         };
+        _iVru8Y3G = {
+            "id" = "iVru8Y3G";
+            "file" = "betterbattletowers-5.0.6+8.0.1.jar";
+            "hash" = "sha512-UJYvt9VAP/v72b3sMtGZfPcNSHLPGkjI0ICcuaOkg7IMQGjbiokXD41P5gd5yK0ay5iWrBLCJwNktMkpk/fXow==";
+        };
     in {
         "O0EvyFXt" = _O0EvyFXt;
         "m89kDa0r" = _m89kDa0r;
@@ -122,7 +127,8 @@ let
         "cyt1jR7A" = _cyt1jR7A;
         "gQj21HER" = _gQj21HER;
         "xxLqXZaU" = _xxLqXZaU;
-        "bta-babric-b1.7.3" = _xxLqXZaU;
+        "iVru8Y3G" = _iVru8Y3G;
+        "bta-babric-b1.7.3" = _iVru8Y3G;
         "pkg-1.2.0" = _O0EvyFXt;
         "pkg-1.2.1" = _m89kDa0r;
         "pkg-1.2.2" = _o8cgHyDK;
@@ -143,7 +149,8 @@ let
         "pkg-5.0.3+8.0.1" = _cyt1jR7A;
         "pkg-5.0.4+8.0.1" = _gQj21HER;
         "pkg-5.0.5+8.0.1" = _xxLqXZaU;
-        "default" = _xxLqXZaU;
+        "pkg-5.0.6+8.0.1" = _iVru8Y3G;
+        "default" = _iVru8Y3G;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-than-battle-towers";

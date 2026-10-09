@@ -61,6 +61,11 @@ let
             "file" = "WhoIsIt-1.2.jar";
             "hash" = "sha512-thXpZWTNfD6lhfsganTn1cTvuIsAya0DjDAah8KH3PVQVlNSmSJpcDSthflbuNif1WNRkdozIKp0PJqVjwR5hg==";
         };
+        _gnfEyjl5 = {
+            "id" = "gnfEyjl5";
+            "file" = "WhoIsIt-1.2-26.3.jar";
+            "hash" = "sha512-iSKn6AAd4imCJtP0fV46MsndjQKCwPypbqDyphNv3148ujIe65E043HGxKjujM3sDs48xxGScR5YLxJSI4z3Xg==";
+        };
     in {
         "bv9zihyq" = _bv9zihyq;
         "phqztsnQ" = _phqztsnQ;
@@ -74,6 +79,7 @@ let
         "6B6rz3XJ" = _6B6rz3XJ;
         "wJgHkbaj" = _wJgHkbaj;
         "1npLEg7j" = _1npLEg7j;
+        "gnfEyjl5" = _gnfEyjl5;
         "fabric-1.21" = _LnWEOULX;
         "fabric-1.21.1" = _LnWEOULX;
         "fabric-1.21.2" = _OBji0L5M;
@@ -90,10 +96,11 @@ let
         "fabric-26.1.1" = _wJgHkbaj;
         "fabric-26.1.2" = _wJgHkbaj;
         "fabric-26.2" = _1npLEg7j;
+        "fabric-26.3" = _gnfEyjl5;
         "pkg-1.0" = _x318ZbYY;
         "pkg-1.1" = _lEnicw2e;
-        "pkg-1.2" = _1npLEg7j;
-        "default" = _1npLEg7j;
+        "pkg-1.2" = _gnfEyjl5;
+        "default" = _gnfEyjl5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "whoisit";

@@ -21,17 +21,38 @@ let
             "file" = "ae2ltpp-1.2.0-beta.1.jar";
             "hash" = "sha512-7pA3009K4a2Zshsnjj13VuDuYbiBNACBuuWb3/nei77elcvGLy0BzxrJk6ev86s78GiZ6lYoXMjyZ1Z6bHCjAg==";
         };
+        _mQDIRbam = {
+            "id" = "mQDIRbam";
+            "file" = "ae2ltpp-1.2.0.jar";
+            "hash" = "sha512-si3spSpfns801qkFhwEOfxvFrHQ3el3X0579HHnYwY0EHooyoWzSbChNnfjaShNRmwP7hTThT65TZgbJJAPDVw==";
+        };
+        _RwoioKC9 = {
+            "id" = "RwoioKC9";
+            "file" = "ae2ltpp-1.2.1.jar";
+            "hash" = "sha512-VYW5Rz7uyZNbvxjHsA5OoPubo28GHWz0JER8rCExT7G3Ia8X3jA5nj31SkXFgf+tsODWJbUE1G9sNiZdLUm82g==";
+        };
+        _gpNiszro = {
+            "id" = "gpNiszro";
+            "file" = "ae2ltpp-1.2.2-beta.jar";
+            "hash" = "sha512-HBlvuBZs+BFCSUPIssujjpVHMHIIZZ7aLzZZ/MDIGoLYp7SV3G82xXfx7mcZN4z9aDExhqCJH9MkbjnP/4nRCA==";
+        };
     in {
         "sHCYUdOr" = _sHCYUdOr;
         "iTehfd8X" = _iTehfd8X;
         "lwX4Hpyv" = _lwX4Hpyv;
         "tJc6NrFV" = _tJc6NrFV;
-        "neoforge-1.21.1" = _tJc6NrFV;
+        "mQDIRbam" = _mQDIRbam;
+        "RwoioKC9" = _RwoioKC9;
+        "gpNiszro" = _gpNiszro;
+        "neoforge-1.21.1" = _gpNiszro;
         "pkg-1.0.0" = _sHCYUdOr;
         "pkg-1.0.1" = _iTehfd8X;
         "pkg-1.1.1" = _lwX4Hpyv;
         "pkg-1.2.0-beta.1" = _tJc6NrFV;
-        "default" = _tJc6NrFV;
+        "pkg-1.2.0" = _mQDIRbam;
+        "pkg-1.2.1" = _RwoioKC9;
+        "pkg-1.2.2-beta" = _gpNiszro;
+        "default" = _gpNiszro;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ae2lt-packaged-pattern-provider";

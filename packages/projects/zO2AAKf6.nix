@@ -96,6 +96,16 @@ let
             "file" = "spooky-paintings-1.0.0 Fabric 1.21.1.jar";
             "hash" = "sha512-l9vmkML199UKkmmv6KLfiXamYeH86yNR3gwq5jLH0QlDbrG+NZFBRby4lHFgRILpnIe9fkjdBz8oyKBwolacHw==";
         };
+        _2AEauQKy = {
+            "id" = "2AEauQKy";
+            "file" = "spookypaintingsleonnf-1.0.0 Fabric 26.3.jar";
+            "hash" = "sha512-diXfwbXhJ8qlentnCFiwyI2Tekwdxi7a5PqU82u9VGz/oUp10ATOK1fVR8m0JaTNcPxRkAfree36xZJ0pdic5w==";
+        };
+        _4pSqeHj0 = {
+            "id" = "4pSqeHj0";
+            "file" = "spookypaintingsleonnf-1.0.0 Neoforge 26.3.jar";
+            "hash" = "sha512-yXkpCBSP4CkQv3qEaXYoVklWBsEZzDCeRt5MVp5jg9sBBzNaVmPOCLcWSujXY4abqjrbNplI7zY8j2pFNluIcw==";
+        };
     in {
         "ZV8OANQJ" = _ZV8OANQJ;
         "JtvXDwKZ" = _JtvXDwKZ;
@@ -116,6 +126,8 @@ let
         "8W1RzncJ" = _8W1RzncJ;
         "OKDvNm1O" = _OKDvNm1O;
         "tt7HMnyT" = _tt7HMnyT;
+        "2AEauQKy" = _2AEauQKy;
+        "4pSqeHj0" = _4pSqeHj0;
         "forge-1.19.4" = _JtvXDwKZ;
         "forge-1.20.1" = _FApjbC5m;
         "forge-1.19.2" = _X7ceRybI;
@@ -128,6 +140,7 @@ let
         "neoforge-26.1" = _SIMNvlgv;
         "neoforge-26.1.2" = _56s0IMhP;
         "neoforge-26.2" = _OKDvNm1O;
+        "neoforge-26.3" = _4pSqeHj0;
         "fabric-1.21.8" = _SDSZXToC;
         "fabric-1.21.10" = _houDpBPX;
         "fabric-1.21.11" = _oLGREZ8J;
@@ -136,11 +149,12 @@ let
         "fabric-26.1.2" = _qJGXcc9R;
         "fabric-26.2" = _8W1RzncJ;
         "fabric-1.21.1" = _tt7HMnyT;
-        "pkg-1.0.0" = _tt7HMnyT;
+        "fabric-26.3" = _2AEauQKy;
+        "pkg-1.0.0" = _4pSqeHj0;
         "pkg-2.0.0" = _hn6D6Pwl;
         "pkg-2.1.1" = _HuTH6xjY;
         "pkg-2.1.0" = _SIMNvlgv;
-        "default" = _tt7HMnyT;
+        "default" = _4pSqeHj0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "leons-spooky-paintings";

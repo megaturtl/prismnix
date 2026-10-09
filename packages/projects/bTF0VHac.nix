@@ -31,6 +31,11 @@ let
             "file" = "undertale-healthbars-2.0+mc26.2.jar";
             "hash" = "sha512-9v4aEr1P/v8zVZLP0s0Nkm4KD6JEUWu63KgbtXVw71tA+MPSAeTy9qJNvJu9rUFvMEmIv4iYXyY+dTi66zwXqA==";
         };
+        _9l7rQuQj = {
+            "id" = "9l7rQuQj";
+            "file" = "undertale-healthbars-2.0+mc26.3.jar";
+            "hash" = "sha512-6lURQOib1h3DYHiFN/beTBd88Npwx4w+SA1r5O1JdnhT7axWmwe3z/DFDbY20XYdcnyfeDZ1j/Q1a39qKgEQqA==";
+        };
     in {
         "Y86PhiBq" = _Y86PhiBq;
         "yNBpFdVL" = _yNBpFdVL;
@@ -38,6 +43,7 @@ let
         "dEV7UGfp" = _dEV7UGfp;
         "nPw6kAci" = _nPw6kAci;
         "ScUg49tz" = _ScUg49tz;
+        "9l7rQuQj" = _9l7rQuQj;
         "fabric-1.21" = _Y86PhiBq;
         "fabric-1.21.1" = _Y86PhiBq;
         "fabric-1.21.4" = _yNBpFdVL;
@@ -47,13 +53,15 @@ let
         "fabric-26.1.1" = _nPw6kAci;
         "fabric-26.1.2" = _nPw6kAci;
         "fabric-26.2" = _ScUg49tz;
+        "fabric-26.3" = _9l7rQuQj;
         "pkg-1.0+mc1.21-1.21.1" = _Y86PhiBq;
         "pkg-1.0+mc1.21.4" = _yNBpFdVL;
         "pkg-1.1+mc1.21.10" = _OkxbCqRf;
         "pkg-1.2+mc1.21.11" = _dEV7UGfp;
         "pkg-2.0+mc26.1" = _nPw6kAci;
         "pkg-2.0+mc26.2" = _ScUg49tz;
-        "default" = _ScUg49tz;
+        "pkg-2.0+mc26.3" = _9l7rQuQj;
+        "default" = _9l7rQuQj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "undertale-healthbars";

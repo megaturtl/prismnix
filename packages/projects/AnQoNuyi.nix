@@ -381,6 +381,16 @@ let
             "file" = "onlyscythe-neoforge-26.2-26.2-0.1.jar";
             "hash" = "sha512-nFp3sL9mX6cVGDjxDHFSOkFLENU349IaTv4/XNjGU9uMqhVurWHyDpO6fS1kAsagffpROtlpehEz7EbuMXZ38A==";
         };
+        _Dv6SB48Q = {
+            "id" = "Dv6SB48Q";
+            "file" = "onlyscythe-neoforge-26.3-26.3-0.1.jar";
+            "hash" = "sha512-Kc0lVFJ6i+ZRzBI2lWtnU7fI3FjxqHFvKTGjCdmo+xkzDbDIj3aeuuvQhDgXSML3z34UCSofOTHe0cFCqqythA==";
+        };
+        _8dskgWKb = {
+            "id" = "8dskgWKb";
+            "file" = "onlyscythe-fabric-26.3-26.3-0.1.jar";
+            "hash" = "sha512-lSgPM+8Wnttxm+jROsxJyjXxr3D0Qn6AHMd2jDOEieF9wwl9mCqSudKdvPO36inTC/EQQRr9P2vC1cN0Kwphmg==";
+        };
     in {
         "jcyH9BgI" = _jcyH9BgI;
         "B2SPOAdC" = _B2SPOAdC;
@@ -458,6 +468,8 @@ let
         "SjtBiCrh" = _SjtBiCrh;
         "XAMht3xf" = _XAMht3xf;
         "xNEDv4Uo" = _xNEDv4Uo;
+        "Dv6SB48Q" = _Dv6SB48Q;
+        "8dskgWKb" = _8dskgWKb;
         "fabric-1.21" = _VB0lsoFM;
         "fabric-1.21.1" = _Nhkdp0QE;
         "fabric-1.21.3" = _bLGegZoh;
@@ -474,6 +486,7 @@ let
         "fabric-26.1.1" = _tq6Lguzm;
         "fabric-26.1" = _ns0x3hAy;
         "fabric-26.2" = _XAMht3xf;
+        "fabric-26.3" = _8dskgWKb;
         "forge-1.21" = _GAUfaJTR;
         "forge-1.21.1" = _Tgp8Epk3;
         "forge-1.21.3" = _5XfhCjNt;
@@ -501,6 +514,7 @@ let
         "neoforge-26.1.1" = _Hkajq74o;
         "neoforge-26.1" = _SjtBiCrh;
         "neoforge-26.2" = _xNEDv4Uo;
+        "neoforge-26.3" = _Dv6SB48Q;
         "pkg-1.21-0.1" = _wFpC8gvB;
         "pkg-1.21.1-0.1" = _WiEc6aE5;
         "pkg-1.21.3-0.1" = _LewqV9jJ;
@@ -528,7 +542,8 @@ let
         "pkg-26.1.1-0.1" = _Hkajq74o;
         "pkg-26.1-0.1" = _SjtBiCrh;
         "pkg-26.2-0.1" = _xNEDv4Uo;
-        "default" = _xNEDv4Uo;
+        "pkg-26.3-0.1" = _8dskgWKb;
+        "default" = _8dskgWKb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "only-scythe";

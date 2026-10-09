@@ -61,6 +61,26 @@ let
             "file" = "farmers-spell-n-spellbook-1.0.5.1-1.21.1.jar";
             "hash" = "sha512-pYt693tqdaHivTweCePTF6aFBUNDPZ+kpJdt1UlyGb9lQh1nIGmoPSsQAVYK79YTknSpk+RpT9PqPpoam7r6XQ==";
         };
+        _mW79CIc7 = {
+            "id" = "mW79CIc7";
+            "file" = "farmers_spell-1.0.6-1.20.1.jar";
+            "hash" = "sha512-virkMLBF1+svlNc64rUPYKw+XFsOZocz+h0W3KqamLIxu6DhAogLKOhl3OeDhnuG28rz6HbO26gHJdhWFlO33A==";
+        };
+        _Io8BKioJ = {
+            "id" = "Io8BKioJ";
+            "file" = "farmers-spell-n-spellbook-1.0.6.0-1.21.1.jar";
+            "hash" = "sha512-Nc1qhisS3k0KnKtEkCXHU8ZMSOvw5zlakitFtP/mfWQP+Pt09FDif3GmcmV7b+52LfYSPyc6WvtjSTSxh/CjRA==";
+        };
+        _nSiPBw2j = {
+            "id" = "nSiPBw2j";
+            "file" = "farmers_spell-1.0.6_1-1.20.1.jar";
+            "hash" = "sha512-WUmqQSeItzVQQq9uBxMEQgFN5XHlNgldneuLtMaCpX7ewoTbSMyHzKfOtdLNCYvBl+zWTtfn0nMZftQ2CYQcPA==";
+        };
+        _O6ZK8XcV = {
+            "id" = "O6ZK8XcV";
+            "file" = "farmers_spell-1.0.6_2-1.20.1.jar";
+            "hash" = "sha512-ikTj3YdYGnaeimbCXOLVuhmSbfhH9JObWxR2VQAbpC1xyB4ZwrJm/5ZGCpXkzQOrdWZEre8qnmyg5d4heuvu1A==";
+        };
     in {
         "Hk7wI38B" = _Hk7wI38B;
         "VFQQMFnH" = _VFQQMFnH;
@@ -74,8 +94,12 @@ let
         "ofVH94gY" = _ofVH94gY;
         "Rhnw4mhm" = _Rhnw4mhm;
         "7jjDdU1S" = _7jjDdU1S;
-        "forge-1.20.1" = _ofVH94gY;
-        "neoforge-1.21.1" = _7jjDdU1S;
+        "mW79CIc7" = _mW79CIc7;
+        "Io8BKioJ" = _Io8BKioJ;
+        "nSiPBw2j" = _nSiPBw2j;
+        "O6ZK8XcV" = _O6ZK8XcV;
+        "forge-1.20.1" = _O6ZK8XcV;
+        "neoforge-1.21.1" = _Io8BKioJ;
         "neoforge-1.21.2" = _NDixh5Ak;
         "neoforge-1.21.3" = _NDixh5Ak;
         "neoforge-1.21.4" = _NDixh5Ak;
@@ -98,7 +122,11 @@ let
         "pkg-1.0.5-1.20.1" = _ofVH94gY;
         "pkg-1.0.5.0-1.21.1" = _Rhnw4mhm;
         "pkg-1.0.5.1-1.21.1" = _7jjDdU1S;
-        "default" = _7jjDdU1S;
+        "pkg-1.0.6-1.20.1" = _mW79CIc7;
+        "pkg-1.0.6.0-1.21.1" = _Io8BKioJ;
+        "pkg-1.0.6_1-1.20.1" = _nSiPBw2j;
+        "pkg-1.0.6_2-1.20.1" = _O6ZK8XcV;
+        "default" = _O6ZK8XcV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "farmers-spell";

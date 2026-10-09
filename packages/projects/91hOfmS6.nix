@@ -41,6 +41,11 @@ let
             "file" = "bundle-backportish-1.1.5+mc1.21.1.jar";
             "hash" = "sha512-3BKZ5GdgyrQdwRiivUEXcgBsn1jXntTlYt2yJznWhVB2DwJen+dkzTnVYjzfd0SIWawV3EMhOMfG7LPXTWQHqw==";
         };
+        _m6kJCGHR = {
+            "id" = "m6kJCGHR";
+            "file" = "bundle-backportish-1.1.6+mc1.21.1.jar";
+            "hash" = "sha512-L8p5krt1yenyMtrMT4Fs35yy8Zvnq0b/q2qVSXyLJV9c2ZlixZEuFNlfzXdJyGLcmqvBU65hk/+1L0AnyuVCUw==";
+        };
     in {
         "IAdJLbeX" = _IAdJLbeX;
         "ybm9Qkrh" = _ybm9Qkrh;
@@ -50,9 +55,10 @@ let
         "bAPQfJaW" = _bAPQfJaW;
         "2iBt19LI" = _2iBt19LI;
         "YoDcA59K" = _YoDcA59K;
+        "m6kJCGHR" = _m6kJCGHR;
         "fabric-1.20.1" = _bAPQfJaW;
-        "fabric-1.21" = _YoDcA59K;
-        "fabric-1.21.1" = _YoDcA59K;
+        "fabric-1.21" = _m6kJCGHR;
+        "fabric-1.21.1" = _m6kJCGHR;
         "quilt-1.20.1" = _bAPQfJaW;
         "quilt-1.21" = _WrpTDRhP;
         "quilt-1.21.1" = _WrpTDRhP;
@@ -64,7 +70,8 @@ let
         "pkg-1.0.1+mc1.20.1" = _bAPQfJaW;
         "pkg-1.1.4+mc1.21.1" = _2iBt19LI;
         "pkg-1.1.5+mc1.21.1" = _YoDcA59K;
-        "default" = _YoDcA59K;
+        "pkg-1.1.6+mc1.21.1" = _m6kJCGHR;
+        "default" = _m6kJCGHR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bundle-backportish";

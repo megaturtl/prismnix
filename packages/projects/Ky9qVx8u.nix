@@ -11,9 +11,21 @@ let
             "file" = "larger-biomes-1.0.jar";
             "hash" = "sha512-95SrPS91jO52na8UT8rutoA/vd+4/M499x1pENcK0OF0LbFlmPfBmRB69sIKGx1nbBPzU1R5T5FSDrJDHBIFZg==";
         };
+        _lBz3vHcd = {
+            "id" = "lBz3vHcd";
+            "file" = "larger-biomes-1.0+26.3.zip";
+            "hash" = "sha512-W9GT85Myf2qoa1aZVt/I0vBzATdQ+2KOgFOyhiabTCFZMIgiMQt6mS1XWTwnRf5Ep/2AgkRFuj9kSndzPybk0Q==";
+        };
+        _JHRKVd7P = {
+            "id" = "JHRKVd7P";
+            "file" = "larger-biomes-1.0.jar";
+            "hash" = "sha512-N6P5FqddoiU/B9lb9QvdTXanx7sMPqomG8TUA5anWPP5LmRAod0rqivuKGxi6gQvs/KajDBog3SW4J99LSN3fw==";
+        };
     in {
         "srm816gi" = _srm816gi;
         "aggQncMa" = _aggQncMa;
+        "lBz3vHcd" = _lBz3vHcd;
+        "JHRKVd7P" = _JHRKVd7P;
         "datapack-1.18" = _srm816gi;
         "datapack-1.18.1" = _srm816gi;
         "datapack-1.18.2" = _srm816gi;
@@ -45,6 +57,7 @@ let
         "datapack-26.1.1" = _srm816gi;
         "datapack-26.1.2" = _srm816gi;
         "datapack-26.2" = _srm816gi;
+        "datapack-26.3" = _lBz3vHcd;
         "fabric-1.18" = _aggQncMa;
         "fabric-1.18.1" = _aggQncMa;
         "fabric-1.18.2" = _aggQncMa;
@@ -76,6 +89,7 @@ let
         "fabric-26.1.1" = _aggQncMa;
         "fabric-26.1.2" = _aggQncMa;
         "fabric-26.2" = _aggQncMa;
+        "fabric-26.3" = _JHRKVd7P;
         "forge-1.18" = _aggQncMa;
         "forge-1.18.1" = _aggQncMa;
         "forge-1.18.2" = _aggQncMa;
@@ -107,6 +121,7 @@ let
         "forge-26.1.1" = _aggQncMa;
         "forge-26.1.2" = _aggQncMa;
         "forge-26.2" = _aggQncMa;
+        "forge-26.3" = _JHRKVd7P;
         "neoforge-1.18" = _aggQncMa;
         "neoforge-1.18.1" = _aggQncMa;
         "neoforge-1.18.2" = _aggQncMa;
@@ -138,6 +153,7 @@ let
         "neoforge-26.1.1" = _aggQncMa;
         "neoforge-26.1.2" = _aggQncMa;
         "neoforge-26.2" = _aggQncMa;
+        "neoforge-26.3" = _JHRKVd7P;
         "quilt-1.18" = _aggQncMa;
         "quilt-1.18.1" = _aggQncMa;
         "quilt-1.18.2" = _aggQncMa;
@@ -169,8 +185,11 @@ let
         "quilt-26.1.1" = _aggQncMa;
         "quilt-26.1.2" = _aggQncMa;
         "quilt-26.2" = _aggQncMa;
+        "quilt-26.3" = _JHRKVd7P;
         "pkg-1.0" = _aggQncMa;
-        "default" = _aggQncMa;
+        "pkg-1.0+26.3" = _lBz3vHcd;
+        "pkg-1.0+26.3+mod" = _JHRKVd7P;
+        "default" = _JHRKVd7P;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "larger-biomes";

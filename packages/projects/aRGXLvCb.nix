@@ -131,6 +131,11 @@ let
             "file" = "TripWireDuper-1.0.3.jar";
             "hash" = "sha512-l5GM9CMh785NIKwmXTWmWSUPKDH3KIJG7F2VWvHze7M8LzJm6+y5XTpG9hcWmCaeb1PK7dgNjmnShh0cI/XHWQ==";
         };
+        _59WnVVSr = {
+            "id" = "59WnVVSr";
+            "file" = "TripWireDuper-1.0.3.jar";
+            "hash" = "sha512-xeVlnNRZO37fGXonpFc0Db7pPYW8lmgWuCCAKxGpXG1TkdDF1/tfkoW63IaOovGJ8BS9bZj2KkakpxjkK0FQ6A==";
+        };
     in {
         "4k575jUi" = _4k575jUi;
         "f4lw7hBZ" = _f4lw7hBZ;
@@ -158,6 +163,7 @@ let
         "7d6hvZAa" = _7d6hvZAa;
         "c3hncJzG" = _c3hncJzG;
         "vBVE6Rzm" = _vBVE6Rzm;
+        "59WnVVSr" = _59WnVVSr;
         "forge-1.21.11" = _i1bOIVg8;
         "forge-26.1" = _DKl7kMGG;
         "forge-26.1.1" = _DKl7kMGG;
@@ -174,6 +180,7 @@ let
         "forge-1.21.8" = _i1bOIVg8;
         "forge-1.21.9" = _i1bOIVg8;
         "forge-1.21.10" = _i1bOIVg8;
+        "forge-26.3" = _59WnVVSr;
         "paper-1.21" = _7d6hvZAa;
         "paper-1.21.1" = _7d6hvZAa;
         "paper-1.21.2" = _7d6hvZAa;
@@ -252,8 +259,8 @@ let
         "pkg-1.0.0" = _7d6hvZAa;
         "pkg-1.0.1" = _OXPwONlj;
         "pkg-1.0.2" = _nItImt2O;
-        "pkg-1.0.3" = _vBVE6Rzm;
-        "default" = _vBVE6Rzm;
+        "pkg-1.0.3" = _59WnVVSr;
+        "default" = _59WnVVSr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tripwire-duper";

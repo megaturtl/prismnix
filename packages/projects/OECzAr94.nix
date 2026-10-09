@@ -36,6 +36,11 @@ let
             "file" = "nutritionalbalance-26.2-9.0.1.jar";
             "hash" = "sha512-nN5N/gRM91b7JM9m1uhTv9kxDvYuj8sGNGLqz0xxN7NHHwkAi0Nt1dQSylzcgoQpLdyLwWxVvmJX8UqhSghbNg==";
         };
+        _cva52F2G = {
+            "id" = "cva52F2G";
+            "file" = "nutritionalbalance-26.3-10.0.0.jar";
+            "hash" = "sha512-Q7MefzotzVHp1PrC/RpFXsHsDXLZjDHQA3nmN0xX8iFmfjP9EoG3nJcpwWvHr6eDym8I9p5ONMDs7tGWc07P8Q==";
+        };
     in {
         "B5fEN0yU" = _B5fEN0yU;
         "tNUgaOzG" = _tNUgaOzG;
@@ -44,11 +49,13 @@ let
         "Sjl3mj3B" = _Sjl3mj3B;
         "Ef1r7FhU" = _Ef1r7FhU;
         "LYbBySCd" = _LYbBySCd;
+        "cva52F2G" = _cva52F2G;
         "neoforge-1.21.1" = _Sjl3mj3B;
         "neoforge-26.1" = _Ef1r7FhU;
         "neoforge-26.1.1" = _Ef1r7FhU;
         "neoforge-26.1.2" = _Ef1r7FhU;
         "neoforge-26.2" = _LYbBySCd;
+        "neoforge-26.3" = _cva52F2G;
         "pkg-1.21.1-7.0.0" = _B5fEN0yU;
         "pkg-1.21.1-7.0.1" = _tNUgaOzG;
         "pkg-1.21.1-7.0.2" = _EYjFGEXs;
@@ -56,7 +63,8 @@ let
         "pkg-1.21.1-7.0.3" = _Sjl3mj3B;
         "pkg-26.1-8.0.1" = _Ef1r7FhU;
         "pkg-26.2-9.0.1" = _LYbBySCd;
-        "default" = _LYbBySCd;
+        "pkg-26.3-10.0.0" = _cva52F2G;
+        "default" = _cva52F2G;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nutritional-balance";

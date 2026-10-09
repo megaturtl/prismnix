@@ -21,17 +21,32 @@ let
             "file" = "mcaconversations-1.4.4.jar";
             "hash" = "sha512-j1BhLJINvgDP+N/0SqLtWZlstNJkrQRpxN29GeSMI3D2LizpiqoSyitgPtuHAt0YsTthI5x+m3+xwuItFEVw4g==";
         };
+        _hkPYzB3t = {
+            "id" = "hkPYzB3t";
+            "file" = "mcaconversations-1.8.0.jar";
+            "hash" = "sha512-o9uu3JpxrKNU0qRJ+sbREC/XqcE9unbjAPu0iYSNkwZ6nD/Mi9DjEcRuGl0yVFMoi5txqO/cyIZncgW23KgbLw==";
+        };
+        _QPRaiELD = {
+            "id" = "QPRaiELD";
+            "file" = "mcaconversations-neoforge-1.8.0+1.21.1.jar";
+            "hash" = "sha512-CGMfUeXcgWTda+95SXc7bWnO3OMK9fdlMgmJzMLbOmi8hp/mzT7dngl8J0C92aqjDf5C2q6O2ee1fuVQezfMgw==";
+        };
     in {
         "6ZpeQYe7" = _6ZpeQYe7;
         "9ngfJHkg" = _9ngfJHkg;
         "SQIHn65x" = _SQIHn65x;
         "SAA2H1iC" = _SAA2H1iC;
-        "forge-1.20.1" = _SAA2H1iC;
+        "hkPYzB3t" = _hkPYzB3t;
+        "QPRaiELD" = _QPRaiELD;
+        "forge-1.20.1" = _hkPYzB3t;
+        "neoforge-1.21.1" = _QPRaiELD;
         "pkg-0.7.1" = _6ZpeQYe7;
         "pkg-1.2.0" = _9ngfJHkg;
         "pkg-1.4.2" = _SQIHn65x;
         "pkg-1.4.4" = _SAA2H1iC;
-        "default" = _SAA2H1iC;
+        "pkg-1.8.0" = _hkPYzB3t;
+        "pkg-1.8.0+1.21.1" = _QPRaiELD;
+        "default" = _QPRaiELD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mca-conversations";

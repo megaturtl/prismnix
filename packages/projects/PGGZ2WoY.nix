@@ -116,6 +116,16 @@ let
             "file" = "command-crafter-0.8.0+26.3.jar";
             "hash" = "sha512-tuthaH7MuqXWWZy12oOiHIP3MhL9Ey7ngtWoFUzSrEPMEGdDpgBu6IoVBsyqddWGXG0zFAmyOJqyfM5llRmZsg==";
         };
+        _RYmmO7Oc = {
+            "id" = "RYmmO7Oc";
+            "file" = "command-crafter-0.8.1+26.3.jar";
+            "hash" = "sha512-KWurh310timcijhiGw9h+qk3VowlQsKjej4+I9PFKlEUnH6TRVhXBik0kX6C8HZiqzzE68whJZDuhcugahNjfw==";
+        };
+        _ymaeAbuS = {
+            "id" = "ymaeAbuS";
+            "file" = "command-crafter-0.8.2+26.3.jar";
+            "hash" = "sha512-AchhLxhCH8YXqYz9HWcBH3aWuUoQqJsN6D13XmR5vDTgsSuNAxwPFovXArBk5+G7Q+u+0qmDDpzrCt5WhirO1g==";
+        };
     in {
         "YjlaTcvC" = _YjlaTcvC;
         "ipxFVsgc" = _ipxFVsgc;
@@ -140,6 +150,8 @@ let
         "VHVwXRx9" = _VHVwXRx9;
         "XXJ28DIR" = _XXJ28DIR;
         "XsuoDdyS" = _XsuoDdyS;
+        "RYmmO7Oc" = _RYmmO7Oc;
+        "ymaeAbuS" = _ymaeAbuS;
         "fabric-1.21.1" = _YjlaTcvC;
         "fabric-1.21.2" = _ipxFVsgc;
         "fabric-1.21.3" = _ipxFVsgc;
@@ -155,7 +167,7 @@ let
         "fabric-26.1.1" = _rlMtHjIF;
         "fabric-26.1.2" = _rlMtHjIF;
         "fabric-26.2" = _XXJ28DIR;
-        "fabric-26.3" = _XsuoDdyS;
+        "fabric-26.3" = _ymaeAbuS;
         "pkg-1.21.1-0.1.0" = _YjlaTcvC;
         "pkg-0.1.1" = _ipxFVsgc;
         "pkg-1.21.4-0.1.1" = _fMPvTfPj;
@@ -179,7 +191,9 @@ let
         "pkg-0.6.6+26.2" = _VHVwXRx9;
         "pkg-0.7.0+26.2" = _XXJ28DIR;
         "pkg-0.8.0+26.3" = _XsuoDdyS;
-        "default" = _XsuoDdyS;
+        "pkg-0.8.1+26.3" = _RYmmO7Oc;
+        "pkg-0.8.2+26.3" = _ymaeAbuS;
+        "default" = _ymaeAbuS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "commandcrafter";

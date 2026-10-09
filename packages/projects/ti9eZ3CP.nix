@@ -91,6 +91,11 @@ let
             "file" = "§l3D§f Ladders v1.2.1 - 26.2.zip";
             "hash" = "sha512-xfh5aiwPUd8a4JtHk7qzvk2f5/qweop3hSErPa/JtGT9HdoiFbYZzkqkyJEFZ3a3eAEI6W94NbnE5YJ4MVMJSA==";
         };
+        _2FzklfBI = {
+            "id" = "2FzklfBI";
+            "file" = "§l3D§f Ladders v1.2.2 - 26.3.zip";
+            "hash" = "sha512-dbJ1Pu4cazeTb2Ut6+Z2rdo7coFOcyCxWaK5sZ8vp4Fk+Yat5+hGbzpZi22+Aw6N16cwNgVxRgWDgqg6piWamw==";
+        };
     in {
         "WzJVmoOx" = _WzJVmoOx;
         "BUrrKJue" = _BUrrKJue;
@@ -110,6 +115,7 @@ let
         "iUoPzfpq" = _iUoPzfpq;
         "r3metbar" = _r3metbar;
         "2stdriya" = _2stdriya;
+        "2FzklfBI" = _2FzklfBI;
         "minecraft-1.19" = _WzJVmoOx;
         "minecraft-1.19.1" = _WzJVmoOx;
         "minecraft-1.19.2" = _WzJVmoOx;
@@ -141,6 +147,7 @@ let
         "minecraft-26.1.1" = _r3metbar;
         "minecraft-26.1.2" = _r3metbar;
         "minecraft-26.2" = _2stdriya;
+        "minecraft-26.3" = _2FzklfBI;
         "pkg-1.0" = _Qp541mJZ;
         "pkg-1.1" = _4t6UmIZn;
         "pkg-1.2" = _DUdOkand;
@@ -155,7 +162,8 @@ let
         "pkg-1.2.1-mc1.21.11" = _iUoPzfpq;
         "pkg-1.2.1-mc26.1" = _r3metbar;
         "pkg-1.2.1-mc26.2" = _2stdriya;
-        "default" = _2stdriya;
+        "pkg-1.2.2-mc26.3" = _2FzklfBI;
+        "default" = _2FzklfBI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "3d-ladders";

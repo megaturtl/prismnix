@@ -171,6 +171,11 @@ let
             "file" = "simpleautofishing-1.8.1.jar";
             "hash" = "sha512-jAfLadqFdqQHbfdoDnPw0fcGX3BWHB7r2KRX2ZQ+qIjE/hlxqtQ2nsqS4iKK+lKFhPLPNNPaVvAsX1+jUbZOhQ==";
         };
+        _Mlb66KoS = {
+            "id" = "Mlb66KoS";
+            "file" = "simpleautofishing-1.8.1.jar";
+            "hash" = "sha512-gLetYj4NtVvO6+Za0kNLjU2nyvhaThGAwPSGLHGDbdxGE47fDQyCmlNWPiB3mABgapUZ2zB40VnHFup+i7vPfQ==";
+        };
     in {
         "n3vmcSOK" = _n3vmcSOK;
         "OcsMSH3u" = _OcsMSH3u;
@@ -206,6 +211,7 @@ let
         "dtt3TeP3" = _dtt3TeP3;
         "xfdMQvi4" = _xfdMQvi4;
         "R12WQ4mI" = _R12WQ4mI;
+        "Mlb66KoS" = _Mlb66KoS;
         "fabric-1.21.3" = _n3vmcSOK;
         "fabric-1.21.4" = _EwUEEJGR;
         "fabric-1.21.5" = _sRelkLeR;
@@ -242,6 +248,7 @@ let
         "forge-1.21.11" = _oUeVDQq2;
         "forge-26.1.1" = _OajR0cVv;
         "forge-26.1.2" = _RldmUVj5;
+        "forge-26.3" = _Mlb66KoS;
         "pkg-Fabric-1.6.4" = _n3vmcSOK;
         "pkg-NeoForge-1.6.4" = _OcsMSH3u;
         "pkg-Forge-1.6.4" = _p9G8RUAG;
@@ -276,7 +283,8 @@ let
         "pkg-Fabric-1.8.0" = _dtt3TeP3;
         "pkg-Fabric-1.8.1" = _xfdMQvi4;
         "pkg-NeoForge-1.8.1" = _R12WQ4mI;
-        "default" = _R12WQ4mI;
+        "pkg-Forge-1.8.1" = _Mlb66KoS;
+        "default" = _Mlb66KoS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-auto-fishing";

@@ -371,6 +371,21 @@ let
             "file" = "Saros-Fruit-Trees-NeoForge-26.2-1.0.4.jar";
             "hash" = "sha512-R3e+5yXZWh4rQ47cAehDXJBXGxXH/n7PZYYIl+Y6u8wMooA4WRmN5FFURmUaGLGlT+ojdO/1Ga9A4n2MZgF38Q==";
         };
+        _7uzxHgL1 = {
+            "id" = "7uzxHgL1";
+            "file" = "Saros-Fruit-Trees-Fabric-26.3-3.2.5.jar";
+            "hash" = "sha512-VyHEk2Xb2ukxb+5vpAWANkt2oRvKlxEYC1h7WWQR+jggOV14WImgQaLJ7nwQIddZvevXbgouclDD8ucNxiZX7A==";
+        };
+        _bZnvaT4n = {
+            "id" = "bZnvaT4n";
+            "file" = "Saros-Fruit-Trees-NeoForge-26.3-3.2.6.jar";
+            "hash" = "sha512-3BuovA1W9kJ8MGCv3MS2Mtkf1eNQQ4mtG+1/fC5/8flKfZ6Avo0Oq+X4324ou+A3OF/Fl3cmcZ3re87jlDiicQ==";
+        };
+        _I0wdwqfS = {
+            "id" = "I0wdwqfS";
+            "file" = "Saros-Fruit-Trees-Forge-26.3-3.2.7.jar";
+            "hash" = "sha512-JH+h6raK4+YdA99RslRF62B4niWRc1kLgEMdioSj8wZ9nvhGcNC4bKhcBJ3cXSejPJ3e0MVs9HHMa0uFOfmgyQ==";
+        };
     in {
         "Tbptdk0V" = _Tbptdk0V;
         "aJX46Roe" = _aJX46Roe;
@@ -446,6 +461,9 @@ let
         "SU0HO1xJ" = _SU0HO1xJ;
         "z04TIkwn" = _z04TIkwn;
         "cYqI7e3t" = _cYqI7e3t;
+        "7uzxHgL1" = _7uzxHgL1;
+        "bZnvaT4n" = _bZnvaT4n;
+        "I0wdwqfS" = _I0wdwqfS;
         "forge-1.16.5" = _Tbptdk0V;
         "forge-1.18.2" = _aJX46Roe;
         "forge-1.19.2" = _JeVA1hrt;
@@ -467,12 +485,14 @@ let
         "forge-26.1.1" = _LMMpf0WT;
         "forge-26.1.2" = _LMMpf0WT;
         "forge-26.2" = _fPmaid8i;
+        "forge-26.3" = _I0wdwqfS;
         "fabric-1.19.2" = _46lsz6Wt;
         "fabric-1.20.1" = _MGVFJgGx;
         "fabric-26.1" = _oEAqMkKK;
         "fabric-26.1.1" = _ggLLQx4P;
         "fabric-26.1.2" = _ggLLQx4P;
         "fabric-26.2" = _k6DemuZJ;
+        "fabric-26.3" = _7uzxHgL1;
         "quilt-1.19.2" = _46lsz6Wt;
         "quilt-1.20.1" = _VbOpe8qP;
         "neoforge-1.20.1" = _1VLJoWdM;
@@ -482,6 +502,7 @@ let
         "neoforge-26.1.1" = _tvDJxwke;
         "neoforge-26.1.2" = _tvDJxwke;
         "neoforge-26.2" = _cYqI7e3t;
+        "neoforge-26.3" = _bZnvaT4n;
         "pkg-2.1" = _vftFYeGG;
         "pkg-2.0" = _46lsz6Wt;
         "pkg-1.1" = _VbOpe8qP;
@@ -504,7 +525,10 @@ let
         "pkg-1.0.2" = _z04TIkwn;
         "pkg-3.3" = _SU0HO1xJ;
         "pkg-1.0.4" = _cYqI7e3t;
-        "default" = _cYqI7e3t;
+        "pkg-3.2.5" = _7uzxHgL1;
+        "pkg-3.2.6" = _bZnvaT4n;
+        "pkg-3.2.7-forge-26.3" = _I0wdwqfS;
+        "default" = _I0wdwqfS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "saros-fruit-trees";

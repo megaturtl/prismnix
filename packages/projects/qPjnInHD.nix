@@ -181,6 +181,16 @@ let
             "file" = "claims-2.1.4.jar";
             "hash" = "sha512-yEt00G29WC/pr9UDgo0INkHdjEjCmmJ7BnmSy0twtJvjmhRGspavyJ9dLTVrrmNSop4Y1RyRlcuDPurgKpDZ1Q==";
         };
+        _dVF2wfhV = {
+            "id" = "dVF2wfhV";
+            "file" = "Claims v2.1.4 [26.3].zip";
+            "hash" = "sha512-GCcWTNos6ThfXoy5JCU9ZEXUOuyrST2U1/bl773jDCPpcCZ6b4CU2GZbZlv7X4m2KDj5pWkIemztq4IUhjQySg==";
+        };
+        _5tStzEZj = {
+            "id" = "5tStzEZj";
+            "file" = "claims-2.1.4.jar";
+            "hash" = "sha512-G1tRZIXo/HNdAV0Nb54jPIliEFNNMsUfhO0kppembBeRme3f/wqWZj/0Wmfx1e7m58UmZ9i2NshSf+1Z/THAiQ==";
+        };
     in {
         "JPko7OYD" = _JPko7OYD;
         "jG1eSC3H" = _jG1eSC3H;
@@ -218,6 +228,8 @@ let
         "hIsqnQWq" = _hIsqnQWq;
         "tQDUWf9H" = _tQDUWf9H;
         "Fc2mDMga" = _Fc2mDMga;
+        "dVF2wfhV" = _dVF2wfhV;
+        "5tStzEZj" = _5tStzEZj;
         "datapack-1.21.2" = _Yd51gCU4;
         "datapack-1.21.3" = _Yd51gCU4;
         "datapack-1.21.4" = _Yd51gCU4;
@@ -234,6 +246,7 @@ let
         "datapack-26.1.1" = _tQDUWf9H;
         "datapack-26.1.2" = _tQDUWf9H;
         "datapack-26.2" = _tQDUWf9H;
+        "datapack-26.3" = _dVF2wfhV;
         "fabric-1.21.2" = _D7CXxAXN;
         "fabric-1.21.3" = _D7CXxAXN;
         "fabric-1.21.4" = _D7CXxAXN;
@@ -250,6 +263,7 @@ let
         "fabric-26.1.1" = _Fc2mDMga;
         "fabric-26.1.2" = _Fc2mDMga;
         "fabric-26.2" = _Fc2mDMga;
+        "fabric-26.3" = _5tStzEZj;
         "forge-1.21.2" = _D7CXxAXN;
         "forge-1.21.3" = _D7CXxAXN;
         "forge-1.21.4" = _D7CXxAXN;
@@ -266,6 +280,7 @@ let
         "forge-26.1.1" = _Fc2mDMga;
         "forge-26.1.2" = _Fc2mDMga;
         "forge-26.2" = _Fc2mDMga;
+        "forge-26.3" = _5tStzEZj;
         "neoforge-1.21.2" = _D7CXxAXN;
         "neoforge-1.21.3" = _D7CXxAXN;
         "neoforge-1.21.4" = _D7CXxAXN;
@@ -282,6 +297,7 @@ let
         "neoforge-26.1.1" = _Fc2mDMga;
         "neoforge-26.1.2" = _Fc2mDMga;
         "neoforge-26.2" = _Fc2mDMga;
+        "neoforge-26.3" = _5tStzEZj;
         "quilt-1.21.2" = _D7CXxAXN;
         "quilt-1.21.3" = _D7CXxAXN;
         "quilt-1.21.4" = _D7CXxAXN;
@@ -298,6 +314,7 @@ let
         "quilt-26.1.1" = _Fc2mDMga;
         "quilt-26.1.2" = _Fc2mDMga;
         "quilt-26.2" = _Fc2mDMga;
+        "quilt-26.3" = _5tStzEZj;
         "pkg-v1.0.0" = _JPko7OYD;
         "pkg-v1.1.0" = _jG1eSC3H;
         "pkg-v1.2.0" = _wO8HYEDL;
@@ -325,9 +342,9 @@ let
         "pkg-v2.1.2+mod" = _nvKCzr8e;
         "pkg-2.1.3" = _sXv9S2wU;
         "pkg-2.1.3+mod" = _WlFZoFjN;
-        "pkg-2.1.4" = _tQDUWf9H;
-        "pkg-2.1.4+mod" = _Fc2mDMga;
-        "default" = _Fc2mDMga;
+        "pkg-2.1.4" = _dVF2wfhV;
+        "pkg-2.1.4+mod" = _5tStzEZj;
+        "default" = _5tStzEZj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "claims";

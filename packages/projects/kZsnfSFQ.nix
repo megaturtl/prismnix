@@ -191,6 +191,21 @@ let
             "file" = "old_netherite_crafts-neoforge-26.2-2.0.0.jar";
             "hash" = "sha512-zjq485aPQWQ51M59E5qU5yjdhlxsSy7Tna+QQTmtv0HCFaC31NKzVCPZC7g9/Q2QNVhHyrXjeVsrnbr0Iy6uNQ==";
         };
+        _II7q2Mqe = {
+            "id" = "II7q2Mqe";
+            "file" = "old_netherite_crafts-forge-26.3-2.0.0.jar";
+            "hash" = "sha512-zTJtrQBO7YiFV+MDct1vUCZr69gSSc1DEBe6FDZLu+uzZl9yvd84KaNG+5Ry/PIo2ShdJCXw9oa4sltSbN65sg==";
+        };
+        _w2zX9Vwx = {
+            "id" = "w2zX9Vwx";
+            "file" = "old_netherite_crafts-fabric-26.3-2.0.0.jar";
+            "hash" = "sha512-5V9OFeAU1FEBp4XKyBBTt6ByYFIFYJrJ9J7/FAcVPa6CPpOVvlW1J/3GSEz+9iGnOZUeedOVIpCzWXZjYvl/6A==";
+        };
+        _502ZyMiO = {
+            "id" = "502ZyMiO";
+            "file" = "old_netherite_crafts-neoforge-26.3-2.0.0.jar";
+            "hash" = "sha512-nS6h2kOih0UR8EEahGGJd30fi5abwURD1HGrIvkpuvtRT2u8HSPM9g5CBtMZF8lTUStmdY6emg+kgyE0QLAOIQ==";
+        };
     in {
         "qN24bQob" = _qN24bQob;
         "58xKpwap" = _58xKpwap;
@@ -230,6 +245,9 @@ let
         "8RnYmOgo" = _8RnYmOgo;
         "2uAuePuk" = _2uAuePuk;
         "dsLN2AX8" = _dsLN2AX8;
+        "II7q2Mqe" = _II7q2Mqe;
+        "w2zX9Vwx" = _w2zX9Vwx;
+        "502ZyMiO" = _502ZyMiO;
         "forge-1.20.1" = _qN24bQob;
         "forge-1.20" = _BMumWbhF;
         "forge-1.20.2" = _6gtVIwlx;
@@ -252,6 +270,7 @@ let
         "forge-26.1.2" = _8RnYmOgo;
         "forge-26.2" = _8RnYmOgo;
         "forge-1.21.2" = _EYZ0k5CB;
+        "forge-26.3" = _II7q2Mqe;
         "fabric-1.20" = _58xKpwap;
         "fabric-1.20.1" = _58xKpwap;
         "fabric-1.20.2" = _58xKpwap;
@@ -275,6 +294,7 @@ let
         "fabric-26.1.1" = _2uAuePuk;
         "fabric-26.1.2" = _2uAuePuk;
         "fabric-26.2" = _2uAuePuk;
+        "fabric-26.3" = _w2zX9Vwx;
         "neoforge-1.21.2" = _LORf8J16;
         "neoforge-1.21.3" = _LORf8J16;
         "neoforge-1.21.4" = _LORf8J16;
@@ -291,6 +311,7 @@ let
         "neoforge-26.2" = _dsLN2AX8;
         "neoforge-1.21" = _PcWo5H1C;
         "neoforge-1.21.1" = _PcWo5H1C;
+        "neoforge-26.3" = _502ZyMiO;
         "pkg-1.20.1(Forge)" = _qN24bQob;
         "pkg-1.20-1.20.4(Fabric)" = _58xKpwap;
         "pkg-1.20(Forge)" = _BMumWbhF;
@@ -329,7 +350,10 @@ let
         "pkg-2.0.0_1.21.11-26.2(Forge)" = _8RnYmOgo;
         "pkg-2.0.0_1.21.11-26.2(Fabric)" = _2uAuePuk;
         "pkg-2.0.0_1.21.11-26.2(NeoForge)" = _dsLN2AX8;
-        "default" = _dsLN2AX8;
+        "pkg-2.0.0_26.3(Forge)" = _II7q2Mqe;
+        "pkg-2.0.0_26.3(Fabric)" = _w2zX9Vwx;
+        "pkg-2.0.0_26.3(NeoForge)" = _502ZyMiO;
+        "default" = _502ZyMiO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "old-netherite-crafts";

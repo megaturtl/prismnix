@@ -406,6 +406,21 @@ let
             "file" = "voicechat-names-neoforge-26.2-1.0.0.jar";
             "hash" = "sha512-iPSP8SQaUeIn3Er2/GSBVkR+G9cGKYwG6Ptlxk96jdV2D7KW8JLQjTb1vnKnS1p+iAoeGdVjWRiKpCp6rcuavQ==";
         };
+        _RBx2IvyE = {
+            "id" = "RBx2IvyE";
+            "file" = "voicechat-names-26.3-1.0.0.jar";
+            "hash" = "sha512-y0RwALaIm5S0+UarGFQlf8LNgvHzC7zj3sq3iNmzFB3y8F1euzCurQUHIVHTdN9xewiIlzciUTh+o7qkVZVu1A==";
+        };
+        _m5qfPaYC = {
+            "id" = "m5qfPaYC";
+            "file" = "voicechat-names-26.3-1.0.1.jar";
+            "hash" = "sha512-jSV6PIQR5dG9a4VCNgoUTLZYaBFylLYW4bE7SCkuEdRDEAKpZKs+RLf6WY6TSO2K1jmVIRistBsBWvaqrQlOvg==";
+        };
+        _nCgCmgzo = {
+            "id" = "nCgCmgzo";
+            "file" = "voicechat-names-26.3-1.0.2.jar";
+            "hash" = "sha512-zT3hwa19ysS3LbAHI2SQZEFd4zdvqwHJBg6a7R5/HWSss2FYS40j74UYYjE1XwzoQENwyioa1l0wXFZsDA61Ew==";
+        };
     in {
         "XBKKdM6D" = _XBKKdM6D;
         "qAXeN8vj" = _qAXeN8vj;
@@ -488,6 +503,9 @@ let
         "17dvGBDU" = _17dvGBDU;
         "apB4TSxZ" = _apB4TSxZ;
         "ZY1AfRhu" = _ZY1AfRhu;
+        "RBx2IvyE" = _RBx2IvyE;
+        "m5qfPaYC" = _m5qfPaYC;
+        "nCgCmgzo" = _nCgCmgzo;
         "fabric-1.21.8" = _aGUOY6Kv;
         "fabric-1.21.9" = _aGUOY6Kv;
         "fabric-1.21.10" = _aGUOY6Kv;
@@ -503,6 +521,7 @@ let
         "fabric-1.21.2" = _EGy4ffhV;
         "fabric-1.21.3" = _6CYM5Io6;
         "fabric-26.2" = _cffMh017;
+        "fabric-26.3" = _nCgCmgzo;
         "neoforge-1.21.6" = _O1eqbLKr;
         "neoforge-1.21.7" = _O1eqbLKr;
         "neoforge-1.21.4" = _17dvGBDU;
@@ -593,7 +612,10 @@ let
         "pkg-v1.0.0-neoforge-1.21.4" = _17dvGBDU;
         "pkg-v1.0.0-neoforge-26.1" = _apB4TSxZ;
         "pkg-v1.0.0-neoforge-26.2" = _ZY1AfRhu;
-        "default" = _ZY1AfRhu;
+        "pkg-v1.0.0-26.3" = _RBx2IvyE;
+        "pkg-v1.0.1-26.3" = _m5qfPaYC;
+        "pkg-v1.0.2-26.3" = _nCgCmgzo;
+        "default" = _nCgCmgzo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "voicechat-names";

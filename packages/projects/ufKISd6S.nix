@@ -501,6 +501,11 @@ let
             "file" = "Minetorio-FREE-1.0.3.jar";
             "hash" = "sha512-NNcP8I8PNkA9PdmdwfGklOOfncIYlCc7pdE5KBj2kc/TVx0nRcGBIxPjVRWxaVjqUomxGW7NONfbcB2YS5jvQQ==";
         };
+        _pMao2brK = {
+            "id" = "pMao2brK";
+            "file" = "Minetorio-FREE-1.0.4.jar";
+            "hash" = "sha512-HYDE/smhX4DMb0NjL1zX1lWb/GdtkUZYvPD69Um+h6+X43GjDAoyN4fdXgNBMaDvIMZCUktqUyPhsjvmEmV0dw==";
+        };
     in {
         "ovRQcaXG" = _ovRQcaXG;
         "V8bADd4B" = _V8bADd4B;
@@ -602,6 +607,7 @@ let
         "RZtZtIJE" = _RZtZtIJE;
         "A2TUXx4r" = _A2TUXx4r;
         "yBM4f4aD" = _yBM4f4aD;
+        "pMao2brK" = _pMao2brK;
         "bukkit-1.20" = _GZNvFW8I;
         "bukkit-1.20.1" = _GZNvFW8I;
         "bukkit-1.20.3" = _GZNvFW8I;
@@ -639,10 +645,11 @@ let
         "purpur-1.21.9" = _pM0fe6kL;
         "purpur-1.21.10" = _viouJQap;
         "purpur-1.21.11" = _RZtZtIJE;
-        "purpur-26.1" = _yBM4f4aD;
-        "purpur-26.1.1" = _yBM4f4aD;
-        "purpur-26.1.2" = _yBM4f4aD;
-        "purpur-26.2" = _yBM4f4aD;
+        "purpur-26.1" = _pMao2brK;
+        "purpur-26.1.1" = _pMao2brK;
+        "purpur-26.1.2" = _pMao2brK;
+        "purpur-26.2" = _pMao2brK;
+        "purpur-26.3" = _pMao2brK;
         "spigot-1.20" = _GZNvFW8I;
         "spigot-1.20.1" = _GZNvFW8I;
         "spigot-1.20.3" = _GZNvFW8I;
@@ -662,10 +669,11 @@ let
         "spigot-1.21.9" = _pM0fe6kL;
         "spigot-1.21.10" = _viouJQap;
         "spigot-1.21.11" = _RZtZtIJE;
-        "spigot-26.1" = _yBM4f4aD;
-        "spigot-26.1.1" = _yBM4f4aD;
-        "spigot-26.1.2" = _yBM4f4aD;
-        "spigot-26.2" = _yBM4f4aD;
+        "spigot-26.1" = _pMao2brK;
+        "spigot-26.1.1" = _pMao2brK;
+        "spigot-26.1.2" = _pMao2brK;
+        "spigot-26.2" = _pMao2brK;
+        "spigot-26.3" = _pMao2brK;
         "paper-1.20" = _GZNvFW8I;
         "paper-1.20.1" = _GZNvFW8I;
         "paper-1.20.2" = _GZNvFW8I;
@@ -685,10 +693,11 @@ let
         "paper-1.21.9" = _pM0fe6kL;
         "paper-1.21.10" = _viouJQap;
         "paper-1.21.11" = _RZtZtIJE;
-        "paper-26.1" = _yBM4f4aD;
-        "paper-26.1.1" = _yBM4f4aD;
-        "paper-26.1.2" = _yBM4f4aD;
-        "paper-26.2" = _yBM4f4aD;
+        "paper-26.1" = _pMao2brK;
+        "paper-26.1.1" = _pMao2brK;
+        "paper-26.1.2" = _pMao2brK;
+        "paper-26.2" = _pMao2brK;
+        "paper-26.3" = _pMao2brK;
         "pkg-0.42" = _ovRQcaXG;
         "pkg-V0.57" = _V8bADd4B;
         "pkg-0.67" = _GZNvFW8I;
@@ -718,7 +727,8 @@ let
         "pkg-1.0.1" = _RZtZtIJE;
         "pkg-1.0.2" = _A2TUXx4r;
         "pkg-1.0.3" = _yBM4f4aD;
-        "default" = _yBM4f4aD;
+        "pkg-1.0.4" = _pMao2brK;
+        "default" = _pMao2brK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "minetorio";

@@ -46,6 +46,11 @@ let
             "file" = "horseinfo-1.0.2.jar";
             "hash" = "sha512-VbLJsOmnC+D82u0ELb4Uzlv0bhcXR3TZjPYM4upbeGcz1KXt6OGii1jdp+CQh8IluEEwMLr1EZEJq/0Ir+jCuw==";
         };
+        _9fhmUPQU = {
+            "id" = "9fhmUPQU";
+            "file" = "horseinfo-1.0.2.jar";
+            "hash" = "sha512-8I/TcfwV9CgxDQJGonfmifoODouk8tDSuP7UqwyUWvYBGImYIy0eGXlQI7WAytqRiMdeiNiJKdmOYysUuS5aeA==";
+        };
     in {
         "RcqBBNKk" = _RcqBBNKk;
         "S2W4YNL6" = _S2W4YNL6;
@@ -56,6 +61,7 @@ let
         "4vafUMWd" = _4vafUMWd;
         "1pXb6APm" = _1pXb6APm;
         "QMfnSIm1" = _QMfnSIm1;
+        "9fhmUPQU" = _9fhmUPQU;
         "fabric-1.21.10" = _RcqBBNKk;
         "fabric-1.21.11" = _S2W4YNL6;
         "fabric-26.1" = _WrQOrAwr;
@@ -66,10 +72,11 @@ let
         "neoforge-26.1" = _N3x6X0yc;
         "neoforge-26.1.1" = _4vafUMWd;
         "neoforge-26.1.2" = _4vafUMWd;
-        "neoforge-26.2" = _QMfnSIm1;
+        "neoforge-26.2" = _9fhmUPQU;
+        "neoforge-26.3" = _9fhmUPQU;
         "pkg-1.0.1" = _2nU8ilSV;
-        "pkg-1.0.2" = _QMfnSIm1;
-        "default" = _QMfnSIm1;
+        "pkg-1.0.2" = _9fhmUPQU;
+        "default" = _9fhmUPQU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "horseinfo";

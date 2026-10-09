@@ -1,0 +1,124 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _utbVmicK = {
+            "id" = "utbVmicK";
+            "file" = "PixelShades_V1.zip";
+            "hash" = "sha512-KkMmKGrx3bkQRgK3OSZRVZxnJZ54KXiI+aXlb6kNw3sM47qPg+XfswkRi+gAnT0IRib9JOCVsjOWY0NMNhFmGA==";
+        };
+        _C4XfTfIb = {
+            "id" = "C4XfTfIb";
+            "file" = "PixelShades_V2_0.zip";
+            "hash" = "sha512-JGEvAfWYhzqfAm5pnvkyi6r6yWZlKbUlosu8LX/Y0EeP0LQpb7bTsxWm011+fM+dW0ijLg8vRHv83Vr/AxMEWg==";
+        };
+        _VwOKReW7 = {
+            "id" = "VwOKReW7";
+            "file" = "PixelShades_V2_1.zip";
+            "hash" = "sha512-KSjXpEvVi6H9cZBw0Xv+dlQupRhgDT8ehuOfwuIykWZpdtCJZz9DV4/9zliYg3RhmR941GLq3HlmfGrHqNMiPg==";
+        };
+    in {
+        "utbVmicK" = _utbVmicK;
+        "C4XfTfIb" = _C4XfTfIb;
+        "VwOKReW7" = _VwOKReW7;
+        "iris-1.20" = _VwOKReW7;
+        "iris-1.20.1" = _VwOKReW7;
+        "iris-1.20.2" = _VwOKReW7;
+        "iris-1.20.3" = _VwOKReW7;
+        "iris-1.20.4" = _VwOKReW7;
+        "iris-1.20.5" = _VwOKReW7;
+        "iris-1.20.6" = _VwOKReW7;
+        "iris-1.21" = _VwOKReW7;
+        "iris-1.21.1" = _C4XfTfIb;
+        "iris-1.21.2" = _C4XfTfIb;
+        "iris-1.21.3" = _C4XfTfIb;
+        "iris-1.21.4" = _C4XfTfIb;
+        "iris-1.21.5" = _VwOKReW7;
+        "iris-1.21.6" = _VwOKReW7;
+        "iris-1.21.7" = _VwOKReW7;
+        "iris-1.21.8" = _VwOKReW7;
+        "iris-1.21.9" = _VwOKReW7;
+        "iris-1.21.10" = _VwOKReW7;
+        "iris-1.21.11" = _VwOKReW7;
+        "iris-26.1" = _VwOKReW7;
+        "iris-26.1.1" = _VwOKReW7;
+        "iris-26.1.2" = _VwOKReW7;
+        "iris-1.16" = _C4XfTfIb;
+        "iris-1.16.1" = _C4XfTfIb;
+        "iris-1.16.2" = _C4XfTfIb;
+        "iris-1.16.3" = _C4XfTfIb;
+        "iris-1.16.4" = _C4XfTfIb;
+        "iris-1.16.5" = _C4XfTfIb;
+        "iris-1.17" = _C4XfTfIb;
+        "iris-1.17.1" = _C4XfTfIb;
+        "iris-1.18" = _C4XfTfIb;
+        "iris-1.18.1" = _C4XfTfIb;
+        "iris-1.18.2" = _C4XfTfIb;
+        "iris-1.19" = _C4XfTfIb;
+        "iris-1.19.1" = _C4XfTfIb;
+        "iris-1.19.2" = _C4XfTfIb;
+        "iris-1.19.3" = _C4XfTfIb;
+        "iris-1.19.4" = _C4XfTfIb;
+        "iris-26.2" = _VwOKReW7;
+        "iris-26.3" = _VwOKReW7;
+        "optifine-1.20" = _VwOKReW7;
+        "optifine-1.20.1" = _VwOKReW7;
+        "optifine-1.20.2" = _VwOKReW7;
+        "optifine-1.20.3" = _VwOKReW7;
+        "optifine-1.20.4" = _VwOKReW7;
+        "optifine-1.20.5" = _VwOKReW7;
+        "optifine-1.20.6" = _VwOKReW7;
+        "optifine-1.21" = _VwOKReW7;
+        "optifine-1.21.1" = _C4XfTfIb;
+        "optifine-1.21.2" = _C4XfTfIb;
+        "optifine-1.21.3" = _C4XfTfIb;
+        "optifine-1.21.4" = _C4XfTfIb;
+        "optifine-1.21.5" = _VwOKReW7;
+        "optifine-1.21.6" = _VwOKReW7;
+        "optifine-1.21.7" = _VwOKReW7;
+        "optifine-1.21.8" = _VwOKReW7;
+        "optifine-1.21.9" = _VwOKReW7;
+        "optifine-1.21.10" = _VwOKReW7;
+        "optifine-1.21.11" = _VwOKReW7;
+        "optifine-26.1" = _VwOKReW7;
+        "optifine-26.1.1" = _VwOKReW7;
+        "optifine-26.1.2" = _VwOKReW7;
+        "optifine-1.16" = _C4XfTfIb;
+        "optifine-1.16.1" = _C4XfTfIb;
+        "optifine-1.16.2" = _C4XfTfIb;
+        "optifine-1.16.3" = _C4XfTfIb;
+        "optifine-1.16.4" = _C4XfTfIb;
+        "optifine-1.16.5" = _C4XfTfIb;
+        "optifine-1.17" = _C4XfTfIb;
+        "optifine-1.17.1" = _C4XfTfIb;
+        "optifine-1.18" = _C4XfTfIb;
+        "optifine-1.18.1" = _C4XfTfIb;
+        "optifine-1.18.2" = _C4XfTfIb;
+        "optifine-1.19" = _C4XfTfIb;
+        "optifine-1.19.1" = _C4XfTfIb;
+        "optifine-1.19.2" = _C4XfTfIb;
+        "optifine-1.19.3" = _C4XfTfIb;
+        "optifine-1.19.4" = _C4XfTfIb;
+        "optifine-26.2" = _VwOKReW7;
+        "optifine-26.3" = _VwOKReW7;
+        "pkg-1" = _utbVmicK;
+        "pkg-2" = _C4XfTfIb;
+        "pkg-2.1" = _VwOKReW7;
+        "default" = _VwOKReW7;
+    });
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "pixel-shades";
+        id = "ikGRnJq1";
+        type = "shader";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-All-Rights-Reserved";
+                shortName = "LicenseRef-All-Rights-Reserved";
+                url = null;
+            };
+        };
+    };
+in callPackage fn {}

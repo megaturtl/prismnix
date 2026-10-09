@@ -101,6 +101,36 @@ let
             "file" = "mine-glass-without-silk-touch-v1.1.4.jar";
             "hash" = "sha512-XbHh+T571VcbxcpJoGe4j4r1XkhXdw4BKQCR3eFLufPP9msDkBesgsxOuqNCekmWZy4zX/Gcs1KbYpMa+ltPyA==";
         };
+        _jwfEMM1w = {
+            "id" = "jwfEMM1w";
+            "file" = "mine-glass-without-silk-touch-v1.2.0.zip";
+            "hash" = "sha512-cHljWwNNk/cgFR3r4QsuK4e5ffSYhGUz/+PcObA7wI1h4w4cbufjfsxbDOh/tM8+itpyDpI00pkKwWjKKjnFuA==";
+        };
+        _ZsZGD4fx = {
+            "id" = "ZsZGD4fx";
+            "file" = "mine-glass-without-silk-touch-v1.2.0.jar";
+            "hash" = "sha512-WaD5nZYTHx5K5wmSgklasFw39oKvwYWV+TDqS2bADbMrqstTavBi5EEbjyXw3eGZtOUqUhW8DD3au5PzjNUeoA==";
+        };
+        _EnmVVKY6 = {
+            "id" = "EnmVVKY6";
+            "file" = "mine-glass-without-silk-touch-v1.2.0.0.zip";
+            "hash" = "sha512-XQ/7xvuNrD+S48nXx66AAvhe4vkK4SUVN2MRqRVQ+SYxDITuS8VGyIJ27DyR0rx9iEBrmyErsHPDTn/lrgusEA==";
+        };
+        _tB3fx57S = {
+            "id" = "tB3fx57S";
+            "file" = "mine-glass-without-silk-touch-v1.2.0.0.jar";
+            "hash" = "sha512-bphFW9ZzW09yLYRWCvUmSrcXWrIUY4JNnY++YQ3kJv4HFfsmQPHcC/TsacE/142FZer4fVOwsFbNOU8K6IfPBQ==";
+        };
+        _OpFieYFj = {
+            "id" = "OpFieYFj";
+            "file" = "mine-glass-without-silk-touch-v1.2.1.zip";
+            "hash" = "sha512-elx5GgChY5+5HMcuw8QJsYbJp0ss/kP0+7ykw//fxEslTa83Ef6fOiKTpUjvZwt0pb6WkdX1ib3i9wiFdKUdwA==";
+        };
+        _90OZimft = {
+            "id" = "90OZimft";
+            "file" = "mine-glass-without-silk-touch-v1.2.1.jar";
+            "hash" = "sha512-siwp1smlSFn4+/K5Q3vrhJ20eWTgnyg0PiwnyHdb7I0iVfDicjCUZzBrN+xR+ASnIASc0gu/OY6oAFBMAGSU5g==";
+        };
     in {
         "ORkuyPfX" = _ORkuyPfX;
         "PPUgIi5a" = _PPUgIi5a;
@@ -122,6 +152,12 @@ let
         "D8YaoHoY" = _D8YaoHoY;
         "hKCku2jr" = _hKCku2jr;
         "w4NIPHvo" = _w4NIPHvo;
+        "jwfEMM1w" = _jwfEMM1w;
+        "ZsZGD4fx" = _ZsZGD4fx;
+        "EnmVVKY6" = _EnmVVKY6;
+        "tB3fx57S" = _tB3fx57S;
+        "OpFieYFj" = _OpFieYFj;
+        "90OZimft" = _90OZimft;
         "datapack-1.20.5" = _ORkuyPfX;
         "datapack-1.20.6" = _ORkuyPfX;
         "datapack-1.21" = _RxcSyxb7;
@@ -140,6 +176,7 @@ let
         "datapack-26.1.1" = _hKCku2jr;
         "datapack-26.1.2" = _hKCku2jr;
         "datapack-26.2" = _hKCku2jr;
+        "datapack-26.3" = _OpFieYFj;
         "fabric-1.20.5" = _PPUgIi5a;
         "fabric-1.20.6" = _PPUgIi5a;
         "fabric-1.21" = _GuE2WHXK;
@@ -158,6 +195,7 @@ let
         "fabric-26.1.1" = _w4NIPHvo;
         "fabric-26.1.2" = _w4NIPHvo;
         "fabric-26.2" = _w4NIPHvo;
+        "fabric-26.3" = _90OZimft;
         "forge-1.20.5" = _PPUgIi5a;
         "forge-1.20.6" = _PPUgIi5a;
         "forge-1.21" = _GuE2WHXK;
@@ -176,6 +214,7 @@ let
         "forge-26.1.1" = _w4NIPHvo;
         "forge-26.1.2" = _w4NIPHvo;
         "forge-26.2" = _w4NIPHvo;
+        "forge-26.3" = _90OZimft;
         "quilt-1.20.5" = _PPUgIi5a;
         "quilt-1.20.6" = _PPUgIi5a;
         "quilt-1.21" = _GuE2WHXK;
@@ -194,6 +233,7 @@ let
         "quilt-26.1.1" = _w4NIPHvo;
         "quilt-26.1.2" = _w4NIPHvo;
         "quilt-26.2" = _w4NIPHvo;
+        "quilt-26.3" = _90OZimft;
         "neoforge-1.21.5" = _qliWTAq9;
         "neoforge-1.21.6" = _w4NIPHvo;
         "neoforge-1.21.7" = _w4NIPHvo;
@@ -205,6 +245,7 @@ let
         "neoforge-26.1.1" = _w4NIPHvo;
         "neoforge-26.1.2" = _w4NIPHvo;
         "neoforge-26.2" = _w4NIPHvo;
+        "neoforge-26.3" = _90OZimft;
         "pkg-v.1.0.0" = _8SkOZ8w7;
         "pkg-v.1.0.0+mod" = _qliWTAq9;
         "pkg-v.1.1.0" = _RxcSyxb7;
@@ -219,7 +260,13 @@ let
         "pkg-v1.1.3.1+mod" = _D8YaoHoY;
         "pkg-v1.1.4" = _hKCku2jr;
         "pkg-v1.1.4+mod" = _w4NIPHvo;
-        "default" = _w4NIPHvo;
+        "pkg-v1.2.0" = _jwfEMM1w;
+        "pkg-v1.2.0+mod" = _ZsZGD4fx;
+        "pkg-v1.2.0.0" = _EnmVVKY6;
+        "pkg-v1.2.0.0+mod" = _tB3fx57S;
+        "pkg-v1.2.1" = _OpFieYFj;
+        "pkg-v1.2.1+mod" = _90OZimft;
+        "default" = _90OZimft;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mine-glass-without-silk-touch";

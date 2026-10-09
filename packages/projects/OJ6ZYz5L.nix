@@ -136,6 +136,26 @@ let
             "file" = "loot_journal-forge-1.20.1-6.2.1.jar";
             "hash" = "sha512-2izDaBKkC0LcqUQ8P2ltvqxbKDlf+b/qIlhO+HSSgkwDMf2XDpEUqi5wZMBOgYz7dSAzDU+UmCy9fOHj2+hIVA==";
         };
+        _4odXN4Xt = {
+            "id" = "4odXN4Xt";
+            "file" = "loot_journal-fabric-1.20.1-6.2.2.jar";
+            "hash" = "sha512-w434iUn6s4F6iUU169xozWNVMbixYNSXLKFuryQLpktrdHdLPgCIo/EKTKskpRg7j6ZCuydfU/ZDGqaMBBV++g==";
+        };
+        _DNQSB9mM = {
+            "id" = "DNQSB9mM";
+            "file" = "loot_journal-forge-1.20.1-6.2.2.jar";
+            "hash" = "sha512-PIh6Wrhqlj6LgZ8wF+dwhKewyLwy+eTBFMARuIBWlgh0ugC+XtAsdcCzA/rvbqRJly1NvjfUoV7j6tjcZ8N2IA==";
+        };
+        _CFr3cEbB = {
+            "id" = "CFr3cEbB";
+            "file" = "loot_journal-fabric-1.21.1-6.2.2.jar";
+            "hash" = "sha512-0xLHTYOJwJBjYxNvHTpnuLUsepDjfB9D4QTNCWkBQtPbja0bpG68jqaRVMPCf5M+JM4c+5FUYj3KLJE8jf7hVA==";
+        };
+        _zyIMDDzM = {
+            "id" = "zyIMDDzM";
+            "file" = "loot_journal-neoforge-1.21.1-6.2.2.jar";
+            "hash" = "sha512-2mvge+vh8vOCQlaKSeEwIMTL6tjlY9AtUQYRDOO8NFJcI4jOR9NrR3243MdmGvw4+p6yQ8xCxTc3xTHgtRicdw==";
+        };
     in {
         "syV3TvuC" = _syV3TvuC;
         "AUvLs2Ti" = _AUvLs2Ti;
@@ -164,24 +184,28 @@ let
         "eZiU4EaV" = _eZiU4EaV;
         "xfzMgONF" = _xfzMgONF;
         "tkx0bPOi" = _tkx0bPOi;
-        "fabric-1.20.1" = _xfzMgONF;
+        "4odXN4Xt" = _4odXN4Xt;
+        "DNQSB9mM" = _DNQSB9mM;
+        "CFr3cEbB" = _CFr3cEbB;
+        "zyIMDDzM" = _zyIMDDzM;
+        "fabric-1.20.1" = _4odXN4Xt;
         "fabric-1.21.11" = _XshmkVOh;
         "fabric-26.1" = _IU2OucKD;
         "fabric-26.1.1" = _IU2OucKD;
         "fabric-26.1.2" = _IU2OucKD;
-        "fabric-1.21.1" = _eZiU4EaV;
-        "forge-1.20.1" = _tkx0bPOi;
-        "neoforge-1.21.1" = _4Jtboo51;
+        "fabric-1.21.1" = _CFr3cEbB;
+        "forge-1.20.1" = _DNQSB9mM;
+        "neoforge-1.21.1" = _zyIMDDzM;
         "neoforge-1.21.11" = _v7HPd1yZ;
         "neoforge-26.1" = _WGDhm1uj;
         "neoforge-26.1.1" = _WGDhm1uj;
         "neoforge-26.1.2" = _WGDhm1uj;
-        "quilt-1.20.1" = _xfzMgONF;
+        "quilt-1.20.1" = _4odXN4Xt;
         "quilt-1.21.11" = _XshmkVOh;
         "quilt-26.1" = _IU2OucKD;
         "quilt-26.1.1" = _IU2OucKD;
         "quilt-26.1.2" = _IU2OucKD;
-        "quilt-1.21.1" = _eZiU4EaV;
+        "quilt-1.21.1" = _CFr3cEbB;
         "pkg-4.0.2" = _AUvLs2Ti;
         "pkg-4.0.1" = _vnC2WTix;
         "pkg-5.0.0" = _UgREvShC;
@@ -193,7 +217,8 @@ let
         "pkg-6.1.2" = _PYwRoCaZ;
         "pkg-6.2.0" = _pq4DDknp;
         "pkg-6.2.1" = _tkx0bPOi;
-        "default" = _tkx0bPOi;
+        "pkg-6.2.2" = _zyIMDDzM;
+        "default" = _zyIMDDzM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "loot-journal";

@@ -146,6 +146,51 @@ let
             "file" = "kaleidoscope_chinesefood-1.1.11-1.20.1.jar";
             "hash" = "sha512-NCmGtBWSRBVG7230U3/M1DzrE3Arp7h/nltVuqHkWrNf4qm0TAEnDqo941bIm8tYgyajP4I4TfNlOmCXRVn/QQ==";
         };
+        _jEJ81rgw = {
+            "id" = "jEJ81rgw";
+            "file" = "kaleidoscope_chinesefood-1.1.12-1.20.1-all.jar";
+            "hash" = "sha512-Nk4Brdmm6JKkSjKdKgVWGr2jtsSOKzAFneH8YxtoUgQ7wdADXBPX1ytCs/zU4ER61A+TCnRDwu1Q4+V/r0u56w==";
+        };
+        _lB3xHdMw = {
+            "id" = "lB3xHdMw";
+            "file" = "kaleidoscope_chinesefood-1.1.12-1.20.1-fix-all.jar";
+            "hash" = "sha512-uyn172xFIfh0RxtPzCOIFaeI3qQmYgHyqaSDBUpBhreVEaTeiThIhN5fOVB6gIeJD+uCkwAaIQWjzbYk1xEAag==";
+        };
+        _sv0ZnEzT = {
+            "id" = "sv0ZnEzT";
+            "file" = "kaleidoscope_chinesefood-1.1.12-neoforge+1.21.1.jar";
+            "hash" = "sha512-8EEH9xL9xs1IA8NZus/gxWnC6FGUccPzzfwCyzBctqmURskRv4vKAxwD4ZIJz5Mj4q3a9CatyICm2+A6llIDEA==";
+        };
+        _sZnQMMjI = {
+            "id" = "sZnQMMjI";
+            "file" = "kaleidoscope_chinesefood-1.1.13-1.20.1-all.jar";
+            "hash" = "sha512-jx1VkHhHKy+7H5W0WEJiz/Wwx315xv2ZHIuFmObKqDpTJNH1BsYfg5Rj78tJHd0PQYHBx13GM+nisO/rY6+QYA==";
+        };
+        _DAwZBnDN = {
+            "id" = "DAwZBnDN";
+            "file" = "kaleidoscope_chinesefood-1.1.13-neoforge+1.21.1.jar";
+            "hash" = "sha512-kW0MW6c9qJOyXGqChaB5TLW4CYgAPMMzAGkc5d7YKhVLCk+jX0nkgowhZ/vJddRxOIaVPNNkPCT+fTN5HvEHOw==";
+        };
+        _9CclxgVk = {
+            "id" = "9CclxgVk";
+            "file" = "kaleidoscope_chinesefood-1.1.14-neoforge+1.21.1.jar";
+            "hash" = "sha512-eD2ZBQGyUpQjrIIsylC+ORF4Z79SmS5DgHsfzyc6Am2JdmDoxNBdLtkZp1ekzOrbdHlccmG7sv/SJPWtoJZooA==";
+        };
+        _IxG4BNHD = {
+            "id" = "IxG4BNHD";
+            "file" = "kaleidoscope_chinesefood-1.1.14-1.20.1-all.jar";
+            "hash" = "sha512-zqnZpwpoQf/c5ncyPl5waAF1ZGlPxAFqIjyq3CFl44zSXK3Fym3RxY9BdqFgOaOY+pJhOrRT6YNqVrvNQL2TQg==";
+        };
+        _yyn9XqgV = {
+            "id" = "yyn9XqgV";
+            "file" = "kaleidoscope_chinesefood-1.1.14-neoforge+1.21.1-feature.jar";
+            "hash" = "sha512-jw3CEzkn94/raJj+h6Va18B2JKnPKD2mmGeaZoIgEKkoz/2KakFGVbTkt1v//l0jCLbp1umVUsTMi0C2VtsTUQ==";
+        };
+        _8eQnNETS = {
+            "id" = "8eQnNETS";
+            "file" = "kaleidoscope_chinesefood-1.1.14-1.20.1-feature-all.jar";
+            "hash" = "sha512-9TfWcm/KGti6Lt3ow+d/EPZkt8q2eLvmTO+fNfNEkNh1gr2LubzYDjiHth+8pu1qiykt3QBOlgtLLxlUo9vlfg==";
+        };
     in {
         "LEBtFHIZ" = _LEBtFHIZ;
         "7NKxcMWF" = _7NKxcMWF;
@@ -176,8 +221,17 @@ let
         "7E95Xl5j" = _7E95Xl5j;
         "5E0W9vYa" = _5E0W9vYa;
         "jTHzqaCN" = _jTHzqaCN;
-        "forge-1.20.1" = _jTHzqaCN;
-        "neoforge-1.21.1" = _5E0W9vYa;
+        "jEJ81rgw" = _jEJ81rgw;
+        "lB3xHdMw" = _lB3xHdMw;
+        "sv0ZnEzT" = _sv0ZnEzT;
+        "sZnQMMjI" = _sZnQMMjI;
+        "DAwZBnDN" = _DAwZBnDN;
+        "9CclxgVk" = _9CclxgVk;
+        "IxG4BNHD" = _IxG4BNHD;
+        "yyn9XqgV" = _yyn9XqgV;
+        "8eQnNETS" = _8eQnNETS;
+        "forge-1.20.1" = _8eQnNETS;
+        "neoforge-1.21.1" = _yyn9XqgV;
         "pkg-1.0.1-BETA-1.20.1" = _LEBtFHIZ;
         "pkg-1.0.2-BETA-1.20.1" = _7NKxcMWF;
         "pkg-1.0.1-BETA-neoforge+1.21.1" = _SUYOBtIU;
@@ -207,7 +261,16 @@ let
         "pkg-1.1.10-neoforge+1.21.1" = _7E95Xl5j;
         "pkg-1.1.11-neoforge+1.21.1" = _5E0W9vYa;
         "pkg-1.1.11-1.20.1" = _jTHzqaCN;
-        "default" = _jTHzqaCN;
+        "pkg-1.1.12-1.20.1" = _jEJ81rgw;
+        "pkg-1.1.12-1.20.1-fix" = _lB3xHdMw;
+        "pkg-1.1.12-neoforge+1.21.1" = _sv0ZnEzT;
+        "pkg-1.1.13-1.20.1" = _sZnQMMjI;
+        "pkg-1.1.13-neoforge+1.21.1" = _DAwZBnDN;
+        "pkg-1.1.14-neoforge+1.21.1" = _9CclxgVk;
+        "pkg-1.1.14-1.20.1" = _IxG4BNHD;
+        "pkg-1.1.14-neoforge+1.21.1-feature" = _yyn9XqgV;
+        "pkg-1.1.14-1.20.1-feature" = _8eQnNETS;
+        "default" = _8eQnNETS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kaleidoscopechinesefood";

@@ -171,6 +171,11 @@ let
             "file" = "fastershadowmapper+26.3-rc-3-1.0.5.jar";
             "hash" = "sha512-tGefxLWeOIS8bjI+e4CX8ZyNsMUzmOktfbGpM4KSZTvRAG01zB8z57oZtVmm3inVgYh17rJtY2gdrXIRZCo/Tg==";
         };
+        _GXckg72l = {
+            "id" = "GXckg72l";
+            "file" = "fastershadowmapper+26.3-1.0.7.jar";
+            "hash" = "sha512-6J1zNVmkKapRHrJrUhRozu9BHOJOvrXasD/myG0e7VHweSWxsD4orap2MzVfSm3CzXqLxUun+vJFyIEqpHo8rw==";
+        };
     in {
         "I95ib1E3" = _I95ib1E3;
         "eKgNyVT3" = _eKgNyVT3;
@@ -206,6 +211,7 @@ let
         "JZF3sYNu" = _JZF3sYNu;
         "sQXgelDq" = _sQXgelDq;
         "cEcu5dxk" = _cEcu5dxk;
+        "GXckg72l" = _GXckg72l;
         "fabric-26.1" = _CXReVtWb;
         "fabric-26.1.1" = _CXReVtWb;
         "fabric-26.1.2" = _CXReVtWb;
@@ -223,7 +229,7 @@ let
         "fabric-1.21.1" = _c8OUXP89;
         "fabric-1.20.1" = _JZF3sYNu;
         "fabric-26.2" = _4HgtdJ7f;
-        "fabric-26.3" = _cEcu5dxk;
+        "fabric-26.3" = _GXckg72l;
         "quilt-26.1" = _CXReVtWb;
         "quilt-26.1.1" = _CXReVtWb;
         "quilt-26.1.2" = _CXReVtWb;
@@ -241,7 +247,7 @@ let
         "quilt-1.21.1" = _c8OUXP89;
         "quilt-1.20.1" = _JZF3sYNu;
         "quilt-26.2" = _4HgtdJ7f;
-        "quilt-26.3" = _cEcu5dxk;
+        "quilt-26.3" = _GXckg72l;
         "neoforge-26.1" = _dYZ8M1W3;
         "neoforge-26.1.1" = _dYZ8M1W3;
         "neoforge-26.1.2" = _dYZ8M1W3;
@@ -256,7 +262,8 @@ let
         "pkg-1.0.4" = _4HgtdJ7f;
         "pkg-1.0.5" = _cEcu5dxk;
         "pkg-1.0.6" = _JZF3sYNu;
-        "default" = _cEcu5dxk;
+        "pkg-1.0.7" = _GXckg72l;
+        "default" = _GXckg72l;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fism";

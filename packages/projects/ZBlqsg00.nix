@@ -76,6 +76,16 @@ let
             "file" = "Blades-of-War-2_v1.9.zip";
             "hash" = "sha512-banFKh90fd4rB1edsemebXfnTML39XUW+TG8CdClP/xdaz1x3SpoVgy7m5tUWrpUbXbQHm4aJVdc8qRjN3QYbQ==";
         };
+        _bJvJLoS1 = {
+            "id" = "bJvJLoS1";
+            "file" = "Blades_of_War_2_v2.0.zip";
+            "hash" = "sha512-K/K7mnYroHcsHuAXmE0c77fLgFSYoT0zBhct3R0xV0K+8tPZ1v+CxhPmzle3vPL49Qm4Z2+ZiaOnb+oNK80kcQ==";
+        };
+        _Pjxr4WW5 = {
+            "id" = "Pjxr4WW5";
+            "file" = "Blades_of_War_2_v2.1.zip";
+            "hash" = "sha512-ZFsyWC5aXHuJk3w+SRIi1J7u/JuV015yejdzBnoTnzyzumMcKgkA5tG86AkGtgUc42RWqZvJAakgV9ZdrnrWkg==";
+        };
     in {
         "mdTYIXYE" = _mdTYIXYE;
         "KR1k4oLx" = _KR1k4oLx;
@@ -92,6 +102,8 @@ let
         "K9neFcpG" = _K9neFcpG;
         "F0CVmAOv" = _F0CVmAOv;
         "bjSXhkWv" = _bjSXhkWv;
+        "bJvJLoS1" = _bJvJLoS1;
+        "Pjxr4WW5" = _Pjxr4WW5;
         "minecraft-1.16" = _bjSXhkWv;
         "minecraft-1.16.1" = _bjSXhkWv;
         "minecraft-1.16.2" = _bjSXhkWv;
@@ -127,7 +139,18 @@ let
         "minecraft-25w06a" = _K9neFcpG;
         "minecraft-25w07a" = _K9neFcpG;
         "minecraft-25w08a" = _K9neFcpG;
-        "minecraft-1.21.5" = _F0CVmAOv;
+        "minecraft-1.21.5" = _Pjxr4WW5;
+        "minecraft-1.21.6" = _Pjxr4WW5;
+        "minecraft-1.21.7" = _Pjxr4WW5;
+        "minecraft-1.21.8" = _Pjxr4WW5;
+        "minecraft-1.21.9" = _Pjxr4WW5;
+        "minecraft-1.21.10" = _Pjxr4WW5;
+        "minecraft-1.21.11" = _Pjxr4WW5;
+        "minecraft-26.1" = _Pjxr4WW5;
+        "minecraft-26.1.1" = _Pjxr4WW5;
+        "minecraft-26.1.2" = _Pjxr4WW5;
+        "minecraft-26.2" = _Pjxr4WW5;
+        "minecraft-26.3" = _Pjxr4WW5;
         "pkg-1.0" = _mdTYIXYE;
         "pkg-1.1" = _KR1k4oLx;
         "pkg-1.2" = _96KhRLj3;
@@ -143,7 +166,9 @@ let
         "pkg-1.8-vanilla" = _K9neFcpG;
         "pkg-1.9-vanilla" = _F0CVmAOv;
         "pkg-1.9" = _bjSXhkWv;
-        "default" = _bjSXhkWv;
+        "pkg-2.0-Main" = _bJvJLoS1;
+        "pkg-2.1-Main" = _Pjxr4WW5;
+        "default" = _Pjxr4WW5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zerotekzs-blades-of-war-2";

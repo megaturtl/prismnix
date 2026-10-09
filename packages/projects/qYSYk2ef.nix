@@ -31,6 +31,16 @@ let
             "file" = "wandering_ribbit-4.0-forge.jar";
             "hash" = "sha512-rbLnxjeX1ji0qZyatDGlUttcYjbk7zsYSyaG/ZY/GIoPmcPQrqgbR+9gT+ch1MmMaGmc4ro3SyazUCkFnsCj5g==";
         };
+        _tg8ZJSHj = {
+            "id" = "tg8ZJSHj";
+            "file" = "wandering_ribbit-1.20.1-forge-4.1.0.jar";
+            "hash" = "sha512-qKbmASHA05NfnXpJ4D/4u/ZsX/NuGyUe4c7ZxOWgJjbW42o0ipqku4hJrcmIidp1MIZza669olU080LZd+PhBg==";
+        };
+        _5UAFxKiu = {
+            "id" = "5UAFxKiu";
+            "file" = "wandering_ribbit-1.21.1-neoforge-4.1.0.jar";
+            "hash" = "sha512-MYTbk+Qw+WIuiDbJeGb8L00ezBAw8V8jLOcu1Xn0uWQ9SywsqlS7k+t3Yw5Ss7z4xu7S8v1C/22m1ERZ5/+yzA==";
+        };
     in {
         "1mMT7g3P" = _1mMT7g3P;
         "cw2FEEXO" = _cw2FEEXO;
@@ -38,13 +48,16 @@ let
         "TmuLuAFp" = _TmuLuAFp;
         "bApJTSYs" = _bApJTSYs;
         "G0oeDzIe" = _G0oeDzIe;
-        "neoforge-1.21.1" = _bApJTSYs;
-        "forge-1.20.1" = _G0oeDzIe;
+        "tg8ZJSHj" = _tg8ZJSHj;
+        "5UAFxKiu" = _5UAFxKiu;
+        "neoforge-1.21.1" = _5UAFxKiu;
+        "forge-1.20.1" = _tg8ZJSHj;
         "pkg-1.0.0" = _1mMT7g3P;
         "pkg-2.0.0" = _dSQyRy85;
         "pkg-3.0.0" = _bApJTSYs;
         "pkg-4.0" = _G0oeDzIe;
-        "default" = _G0oeDzIe;
+        "pkg-4.1.0" = _5UAFxKiu;
+        "default" = _5UAFxKiu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wandering-ribbit";

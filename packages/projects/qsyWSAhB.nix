@@ -186,6 +186,21 @@ let
             "file" = "scarecrows-fabric-26.2-1.2.jar";
             "hash" = "sha512-KD8Qrvk+ITLol3B7qFWol+f20OHHM9RjM8+nO8JIY6SjnGmds+LRjnHoc4crzyOc7FDhUKfQvnYvqZFS9iQ7yQ==";
         };
+        _NZzIhOdV = {
+            "id" = "NZzIhOdV";
+            "file" = "scarecrows-neoforge-26.3-1.2.jar";
+            "hash" = "sha512-krU9fSghtPF4NMKJCahhSUeQ+mj7tQpGgptDkFc2+55aTVZdhnC2jczQDI9t8QrW1SD2shRoI2nBOilQIf524g==";
+        };
+        _JpCA8Ou5 = {
+            "id" = "JpCA8Ou5";
+            "file" = "scarecrows-fabric-26.3-1.2.jar";
+            "hash" = "sha512-2hBhhvoHCxHAssKH6nITBgW4lamoOjBOauEXiesKK7NdwN6O6+7mljPaS4AWQhlcjCkMCqLWiefnXzrUj54Elw==";
+        };
+        _sTdu8Z7p = {
+            "id" = "sTdu8Z7p";
+            "file" = "scarecrows-neoforge-26.3-1.2.1.jar";
+            "hash" = "sha512-SO3WdvJL8wYA2pU7UaYigFrC/nJJJkgCF1qcbkCYbNSsK0Q/zbJbQkGnciUL35Sln+uoKQ4v4k8uY2D2N1R/dw==";
+        };
     in {
         "fSj4EWTH" = _fSj4EWTH;
         "hbfI9tGy" = _hbfI9tGy;
@@ -224,6 +239,9 @@ let
         "k5t4qdQy" = _k5t4qdQy;
         "jhAf4idb" = _jhAf4idb;
         "sMM7SWVs" = _sMM7SWVs;
+        "NZzIhOdV" = _NZzIhOdV;
+        "JpCA8Ou5" = _JpCA8Ou5;
+        "sTdu8Z7p" = _sTdu8Z7p;
         "forge-1.12.2" = _fSj4EWTH;
         "forge-1.13.2" = _hbfI9tGy;
         "forge-1.14.4" = _LgMBx8V7;
@@ -260,14 +278,17 @@ let
         "neoforge-26.1.1" = _KgSzeDoD;
         "neoforge-26.1.2" = _KgSzeDoD;
         "neoforge-26.2" = _jhAf4idb;
+        "neoforge-26.3" = _sTdu8Z7p;
         "fabric-26.1" = _k5t4qdQy;
         "fabric-26.1.1" = _k5t4qdQy;
         "fabric-26.1.2" = _k5t4qdQy;
         "fabric-26.2" = _sMM7SWVs;
+        "fabric-26.3" = _JpCA8Ou5;
         "quilt-26.1" = _k5t4qdQy;
         "quilt-26.1.1" = _k5t4qdQy;
         "quilt-26.1.2" = _k5t4qdQy;
         "quilt-26.2" = _sMM7SWVs;
+        "quilt-26.3" = _JpCA8Ou5;
         "pkg-v1.0.8" = _xbkk11bf;
         "pkg-v1.0.6" = _hbfI9tGy;
         "pkg-v1.0.9" = _QvtooI54;
@@ -280,8 +301,9 @@ let
         "pkg-v1.0.18" = _AMxkSb9f;
         "pkg-v1.0.19" = _EdTEqVl0;
         "pkg-v1.1" = _Pbzw6PQ9;
-        "pkg-v1.2" = _sMM7SWVs;
-        "default" = _sMM7SWVs;
+        "pkg-v1.2" = _JpCA8Ou5;
+        "pkg-v1.2.1" = _sTdu8Z7p;
+        "default" = _sTdu8Z7p;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "scarecrows";

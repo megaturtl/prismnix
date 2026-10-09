@@ -16,15 +16,22 @@ let
             "file" = "citresewn_neopatcher-1.2.0-1.2.2.jar";
             "hash" = "sha512-Np/oApCvPhIFNSRhJ3ehJPNgqmzm1FdrnJtr5GY6aEg48JyL9ViJvqLyd2pBDQhl+/7/a9Xt6/hTMCYYezJuyQ==";
         };
+        _me9WAzwe = {
+            "id" = "me9WAzwe";
+            "file" = "citresewn_neopatcher-1.3.0-1.2.2.jar";
+            "hash" = "sha512-uqoRfwQzzVD+QBXSjheDNzdZ0vodsk7c9APlaoqf2HtUdYmFoGIJiwcQBaNd+W65UTQ5WXSIhB95xMJkZLjo6Q==";
+        };
     in {
         "jmXuPrG1" = _jmXuPrG1;
         "9M6IhSgw" = _9M6IhSgw;
         "WvFwXguE" = _WvFwXguE;
-        "neoforge-1.21.1" = _WvFwXguE;
+        "me9WAzwe" = _me9WAzwe;
+        "neoforge-1.21.1" = _me9WAzwe;
         "pkg-1.0.0" = _jmXuPrG1;
         "pkg-1.1.0" = _9M6IhSgw;
         "pkg-1.2.0" = _WvFwXguE;
-        "default" = _WvFwXguE;
+        "pkg-1.3.0" = _me9WAzwe;
+        "default" = _me9WAzwe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cit-resewn-neopatcher";

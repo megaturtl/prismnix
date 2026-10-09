@@ -126,6 +126,26 @@ let
             "file" = "fateubw-1.21.1-2.2.0-fabric.jar";
             "hash" = "sha512-kNMagw6w0kQJGSndpBj0XHXYZbCkOP3ojBw8zKhrtPvZYqvtJPmI8pgodJoGlokCyF/ScV8Yi8Z4Pg37aO3dHA==";
         };
+        _ySn2N1g8 = {
+            "id" = "ySn2N1g8";
+            "file" = "fateubw-1.21.1-2.3.0-neoforge.jar";
+            "hash" = "sha512-wRCC2ufEdt9RqQj2U+r+exlR3PWI6HORkb1kK21RaE79z+1W2S6e75VfeYSffZp9lJhuHweO/w2JrKH465rV7w==";
+        };
+        _4tc4jOZ7 = {
+            "id" = "4tc4jOZ7";
+            "file" = "fateubw-1.21.1-2.3.0-fabric.jar";
+            "hash" = "sha512-tIyiuGBUJBWUNsHnEXFufcbkUeD5/fAT3icszvsWxX/oPCgLLcnTfBLpZ14q0mva98Gnjf3+NbhTAcHSGPL/IA==";
+        };
+        _BCkAJ73U = {
+            "id" = "BCkAJ73U";
+            "file" = "fateubw-1.21.1-2.3.1-neoforge.jar";
+            "hash" = "sha512-HrwzeuVr3/DG5MXsMIfEhe2wQQM6RniCGzRTd8sW1mGt8NE8I5EnMlxUxEWeNv/5YLUghW4KUMWIam0Y2XvZHg==";
+        };
+        _81BCPZ0J = {
+            "id" = "81BCPZ0J";
+            "file" = "fateubw-1.21.1-2.3.1-fabric.jar";
+            "hash" = "sha512-xBGANg0euD0ZJ8I++gp7xRHOyOZaQ3tCuIfpqq8t6sptcQgcRVkpcGrEgoqUCBsxvxBAU9mZISbR00rTY8DiOQ==";
+        };
     in {
         "8y0fLPUu" = _8y0fLPUu;
         "2OZiIrUZ" = _2OZiIrUZ;
@@ -152,10 +172,14 @@ let
         "XVfrNZhk" = _XVfrNZhk;
         "uosDaE61" = _uosDaE61;
         "F7K0IomV" = _F7K0IomV;
+        "ySn2N1g8" = _ySn2N1g8;
+        "4tc4jOZ7" = _4tc4jOZ7;
+        "BCkAJ73U" = _BCkAJ73U;
+        "81BCPZ0J" = _81BCPZ0J;
         "forge-1.18.2" = _fYs8aMCN;
         "fabric-1.18.2" = _SJ09yX8m;
-        "fabric-1.21.1" = _F7K0IomV;
-        "neoforge-1.21.1" = _uosDaE61;
+        "fabric-1.21.1" = _81BCPZ0J;
+        "neoforge-1.21.1" = _BCkAJ73U;
         "pkg-1.18.2-1.0.4" = _8y0fLPUu;
         "pkg-1.18.2-1.0.3" = _2OZiIrUZ;
         "pkg-1.18.2-1.1.0" = _e3tzzQAh;
@@ -179,7 +203,11 @@ let
         "pkg-1.21.1-2.1.3.b-fabric" = _XVfrNZhk;
         "pkg-1.21.1-2.2.0-neoforge" = _uosDaE61;
         "pkg-1.21.1-2.2.0-fabric" = _F7K0IomV;
-        "default" = _F7K0IomV;
+        "pkg-1.21.1-2.3.0-neoforge" = _ySn2N1g8;
+        "pkg-1.21.1-2.3.0-fabric" = _4tc4jOZ7;
+        "pkg-1.21.1-2.3.1-neoforge" = _BCkAJ73U;
+        "pkg-1.21.1-2.3.1-fabric" = _81BCPZ0J;
+        "default" = _81BCPZ0J;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fate-ubw";

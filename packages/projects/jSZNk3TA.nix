@@ -21,11 +21,17 @@ let
             "file" = "AutoBackup-1.3.1.jar";
             "hash" = "sha512-oUikC0/srZfiP6IkHhmNaFrHvdSxyAnRj87lQjFGeCHwtl44+Rk2X8AFQDifJWRz5MG0LNaZ770bGuSiu7HvZA==";
         };
+        _d56ZBrvo = {
+            "id" = "d56ZBrvo";
+            "file" = "AutoBackup-1.3.2-ce3334e.jar";
+            "hash" = "sha512-HAMlP+/7CjG/vHZoe7XOg5EDQTIyapEqA0uNS8KRAuMgO3/DQhJ8EuFE7ATbn2e1fcUMbh0EFJYW+vn+FH0zgA==";
+        };
     in {
         "AuTQIUjM" = _AuTQIUjM;
         "VOFoahK5" = _VOFoahK5;
         "UiWhLHvL" = _UiWhLHvL;
         "RQM6vkP0" = _RQM6vkP0;
+        "d56ZBrvo" = _d56ZBrvo;
         "bukkit-1.21" = _AuTQIUjM;
         "bukkit-1.21.1" = _AuTQIUjM;
         "bukkit-1.21.2" = _AuTQIUjM;
@@ -41,6 +47,7 @@ let
         "paper-1.21.10" = _VOFoahK5;
         "paper-26.1.2" = _UiWhLHvL;
         "paper-26.2" = _RQM6vkP0;
+        "paper-26.3" = _d56ZBrvo;
         "purpur-1.21" = _AuTQIUjM;
         "purpur-1.21.1" = _AuTQIUjM;
         "purpur-1.21.2" = _AuTQIUjM;
@@ -49,6 +56,7 @@ let
         "purpur-1.21.10" = _VOFoahK5;
         "purpur-26.1.2" = _UiWhLHvL;
         "purpur-26.2" = _RQM6vkP0;
+        "purpur-26.3" = _d56ZBrvo;
         "spigot-1.21" = _AuTQIUjM;
         "spigot-1.21.1" = _AuTQIUjM;
         "spigot-1.21.2" = _AuTQIUjM;
@@ -57,11 +65,13 @@ let
         "spigot-1.21.10" = _VOFoahK5;
         "spigot-26.1.2" = _UiWhLHvL;
         "spigot-26.2" = _RQM6vkP0;
+        "spigot-26.3" = _d56ZBrvo;
         "pkg-1.1" = _AuTQIUjM;
         "pkg-1.2" = _VOFoahK5;
         "pkg-1.3" = _UiWhLHvL;
         "pkg-1.3.1" = _RQM6vkP0;
-        "default" = _RQM6vkP0;
+        "pkg-1.3.2-ce3334e" = _d56ZBrvo;
+        "default" = _d56ZBrvo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "autobackup";

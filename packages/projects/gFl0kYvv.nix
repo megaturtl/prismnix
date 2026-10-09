@@ -61,6 +61,11 @@ let
             "file" = "fsr-reloaded-2.0.1.jar";
             "hash" = "sha512-E39SydaIz36s6txtkFvfgka350u0xiUTSCz5zagPQzAToOIU2U6X+iawsymDtgdUWvSwY+PTdVhmZGahwO14jw==";
         };
+        _2rB1njKT = {
+            "id" = "2rB1njKT";
+            "file" = "fsr-reloaded-2.1.0.jar";
+            "hash" = "sha512-P+48Gt4XvLLHZpevgPS1HiXkm3wQnb40CaE/3jV0C84y4YiYVMgyZYTgT4WNK0m/8OocfmiLkYIaTli7eOt9Gw==";
+        };
     in {
         "FSy0T7BY" = _FSy0T7BY;
         "o31b5RNE" = _o31b5RNE;
@@ -74,8 +79,10 @@ let
         "ZWl3HkTe" = _ZWl3HkTe;
         "PXEfS6ms" = _PXEfS6ms;
         "rKKEeoGq" = _rKKEeoGq;
+        "2rB1njKT" = _2rB1njKT;
         "fabric-1.21.11" = _rKKEeoGq;
         "fabric-26.1.2" = _PXEfS6ms;
+        "fabric-26.2" = _2rB1njKT;
         "pkg-1.0.0" = _FSy0T7BY;
         "pkg-1.2.0" = _o31b5RNE;
         "pkg-1.3.0" = _sNNwWeXL;
@@ -87,7 +94,8 @@ let
         "pkg-1.9.0" = _Fv4zYrkj;
         "pkg-2.0.0" = _ZWl3HkTe;
         "pkg-2.0.1" = _rKKEeoGq;
-        "default" = _rKKEeoGq;
+        "pkg-2.1.0" = _2rB1njKT;
+        "default" = _2rB1njKT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fsr-reloaded";

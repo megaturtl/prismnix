@@ -106,6 +106,16 @@ let
             "file" = "wrenchest-fabric-26.1.2-1.1.jar";
             "hash" = "sha512-bwEpCvG+7ty2fJf0Doxps7A9/EB5y16ivpkVM7POtSkLD8GP3Jc+RLOXGeExtGehDfJPkW152BNOmUgeginokg==";
         };
+        _IMZk4OrU = {
+            "id" = "IMZk4OrU";
+            "file" = "wrenchest-neoforge-26.3-1.1.jar";
+            "hash" = "sha512-Y4K0V5EtUA1JMLIW8C+Ns+PLAp/GTJJuUmMdMhDbNslaP8wL1kpUGHqmHjQHzL2lsIRsalePWy00bd5xrBG55Q==";
+        };
+        _ihmum46w = {
+            "id" = "ihmum46w";
+            "file" = "wrenchest-fabric-26.3-1.1.jar";
+            "hash" = "sha512-tgL7qS3fiO+Hy13dE3WgW+PfpyvQqDOvJ4NnPJdrwbvql83k5pKS9TtrJK6rAjzgPqMPaNgfBrrHqa5nQQHPnw==";
+        };
     in {
         "7FauI9gq" = _7FauI9gq;
         "acy1aAjx" = _acy1aAjx;
@@ -128,6 +138,8 @@ let
         "xAyVb4OW" = _xAyVb4OW;
         "gdUkRwhw" = _gdUkRwhw;
         "PR17yjmQ" = _PR17yjmQ;
+        "IMZk4OrU" = _IMZk4OrU;
+        "ihmum46w" = _ihmum46w;
         "forge-1.13.2" = _7FauI9gq;
         "forge-1.14.4" = _acy1aAjx;
         "forge-1.15.1" = _ppvo3V8H;
@@ -165,21 +177,24 @@ let
         "neoforge-26.1.1" = _gdUkRwhw;
         "neoforge-26.1.2" = _gdUkRwhw;
         "neoforge-26.2" = _gdUkRwhw;
+        "neoforge-26.3" = _IMZk4OrU;
         "fabric-26.1" = _PR17yjmQ;
         "fabric-26.1.1" = _PR17yjmQ;
         "fabric-26.1.2" = _PR17yjmQ;
         "fabric-26.2" = _PR17yjmQ;
+        "fabric-26.3" = _ihmum46w;
         "quilt-26.1" = _PR17yjmQ;
         "quilt-26.1.1" = _PR17yjmQ;
         "quilt-26.1.2" = _PR17yjmQ;
         "quilt-26.2" = _PR17yjmQ;
+        "quilt-26.3" = _ihmum46w;
         "pkg-v1.0" = _7FauI9gq;
         "pkg-v1.0.1" = _DNO3Xevi;
         "pkg-v1.0.2" = _u54jRNPw;
         "pkg-v1.0.3" = _YfpPClL8;
         "pkg-v1.0.4" = _xAyVb4OW;
-        "pkg-v1.1" = _PR17yjmQ;
-        "default" = _PR17yjmQ;
+        "pkg-v1.1" = _ihmum46w;
+        "default" = _ihmum46w;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wrenchest";

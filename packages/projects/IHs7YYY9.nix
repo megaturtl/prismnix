@@ -61,6 +61,11 @@ let
             "file" = "runic-1.21.1-neo-5.1.jar";
             "hash" = "sha512-oktx7mjiU4P8mIWoq4AOJybzhzYP5pcG5/AMR3FUapvpW4/K1/AuC0l8fq7BG2AAodC2rrKHYBUzA7vkAudOuQ==";
         };
+        _KooaNbGO = {
+            "id" = "KooaNbGO";
+            "file" = "runic-1.21.1-neo-5.1.jar";
+            "hash" = "sha512-Sr9hnysvW42bl5meH7GOKacKbWfBRquSYl5mCdv/3zePIb9taZORfTN20kFW4PoMWdAzG2TR83T+Bi5dtjIzvw==";
+        };
     in {
         "frtY9V52" = _frtY9V52;
         "NeNCUQuY" = _NeNCUQuY;
@@ -74,9 +79,10 @@ let
         "hOL8bjap" = _hOL8bjap;
         "JxHBMI3J" = _JxHBMI3J;
         "oJ5vuzN2" = _oJ5vuzN2;
+        "KooaNbGO" = _KooaNbGO;
         "forge-1.21.1" = _z331yoL3;
         "forge-1.21.2" = _z331yoL3;
-        "neoforge-1.21.1" = _oJ5vuzN2;
+        "neoforge-1.21.1" = _KooaNbGO;
         "neoforge-1.21.2" = _v2xAwas1;
         "neoforge-1.21.3" = _2StqEfdv;
         "neoforge-1.21.4" = _2StqEfdv;
@@ -94,8 +100,8 @@ let
         "pkg-4" = _x8cwaMy0;
         "pkg-4.2" = _hOL8bjap;
         "pkg-1.21.1-neo-5" = _JxHBMI3J;
-        "pkg-1.21.1-neo-5.1" = _oJ5vuzN2;
-        "default" = _oJ5vuzN2;
+        "pkg-1.21.1-neo-5.1" = _KooaNbGO;
+        "default" = _KooaNbGO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "runic-enhancements";

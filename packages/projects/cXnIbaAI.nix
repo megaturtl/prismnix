@@ -66,6 +66,16 @@ let
             "file" = "unstable-smp-orbital-strike-cannon-1.6.jar";
             "hash" = "sha512-tqdTYloFt4wShMAwLavpzXECrWVS7eKvCjTWjwWcEWQJ51hJ+pT1szDB8EmuCFI4wCuMZrAB1KI4RHWb2UoJhg==";
         };
+        _ZogfAc4t = {
+            "id" = "ZogfAc4t";
+            "file" = "Orbital Strike Datapack v1.6 26.3+.zip";
+            "hash" = "sha512-CutQ5vr1Z96W2HpyGAZ2gdFrzK/n3emdNfvMlgbwp3tNCXrO7Fy2XTyYrZUtTcO8Ro5K1ZfRfZ6ywFHAjVp4Hg==";
+        };
+        _zLkOzIJm = {
+            "id" = "zLkOzIJm";
+            "file" = "unstable-smp-orbital-strike-cannon-1.6.jar";
+            "hash" = "sha512-W8VZzgZU4OcR7DopbZZWkB+jEn6xAAokQXednhWlx95zPOcpZV9qpiSbWCX2FqyyPWnG8eKF3r+4yvBeaD5GLA==";
+        };
     in {
         "J9xwm7qU" = _J9xwm7qU;
         "6rj3a1BJ" = _6rj3a1BJ;
@@ -80,6 +90,8 @@ let
         "tfvqvZtc" = _tfvqvZtc;
         "45eo5Br2" = _45eo5Br2;
         "CU441H3V" = _CU441H3V;
+        "ZogfAc4t" = _ZogfAc4t;
+        "zLkOzIJm" = _zLkOzIJm;
         "datapack-1.21.6" = _TwAYUp1h;
         "datapack-1.21.7" = _TwAYUp1h;
         "datapack-1.21.8" = _45eo5Br2;
@@ -161,6 +173,7 @@ let
         "datapack-26.3-snapshot-8" = _45eo5Br2;
         "datapack-26.3-snapshot-9" = _45eo5Br2;
         "datapack-26.3-snapshot-10" = _45eo5Br2;
+        "datapack-26.3" = _ZogfAc4t;
         "paper-1.21" = _RrKVSY5w;
         "paper-1.21.1" = _RrKVSY5w;
         "paper-1.21.2" = _RrKVSY5w;
@@ -260,6 +273,7 @@ let
         "fabric-26.3-snapshot-8" = _CU441H3V;
         "fabric-26.3-snapshot-9" = _CU441H3V;
         "fabric-26.3-snapshot-10" = _CU441H3V;
+        "fabric-26.3" = _zLkOzIJm;
         "forge-1.21" = _tfvqvZtc;
         "forge-1.21.1" = _tfvqvZtc;
         "forge-24w33a" = _CU441H3V;
@@ -335,6 +349,7 @@ let
         "forge-26.3-snapshot-8" = _CU441H3V;
         "forge-26.3-snapshot-9" = _CU441H3V;
         "forge-26.3-snapshot-10" = _CU441H3V;
+        "forge-26.3" = _zLkOzIJm;
         "neoforge-1.21" = _tfvqvZtc;
         "neoforge-1.21.1" = _tfvqvZtc;
         "neoforge-24w33a" = _CU441H3V;
@@ -410,6 +425,7 @@ let
         "neoforge-26.3-snapshot-8" = _CU441H3V;
         "neoforge-26.3-snapshot-9" = _CU441H3V;
         "neoforge-26.3-snapshot-10" = _CU441H3V;
+        "neoforge-26.3" = _zLkOzIJm;
         "quilt-1.21" = _tfvqvZtc;
         "quilt-1.21.1" = _tfvqvZtc;
         "quilt-24w33a" = _CU441H3V;
@@ -485,6 +501,7 @@ let
         "quilt-26.3-snapshot-8" = _CU441H3V;
         "quilt-26.3-snapshot-9" = _CU441H3V;
         "quilt-26.3-snapshot-10" = _CU441H3V;
+        "quilt-26.3" = _zLkOzIJm;
         "pkg-1.0" = _J9xwm7qU;
         "pkg-1.1" = _6rj3a1BJ;
         "pkg-1.2" = _fNNlZ7LX;
@@ -493,9 +510,9 @@ let
         "pkg-1.4" = _oseukwAf;
         "pkg-1.5" = _TwAYUp1h;
         "pkg-1.5mod" = _tfvqvZtc;
-        "pkg-1.6" = _45eo5Br2;
-        "pkg-1.6mod" = _CU441H3V;
-        "default" = _CU441H3V;
+        "pkg-1.6" = _ZogfAc4t;
+        "pkg-1.6mod" = _zLkOzIJm;
+        "default" = _zLkOzIJm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "unstable-smp-orbital-strike-cannon";

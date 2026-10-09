@@ -226,6 +226,11 @@ let
             "file" = "elytrapitch-1.4.6.jar";
             "hash" = "sha512-blap+/bjlbAD8jHRQZqRZMclfqZiLyvStTN1qmA8QTGix8KeKpcnlVWp0gm/xW/GZBIEchLT5r7Yix4pyHBmEQ==";
         };
+        _vUWf7sga = {
+            "id" = "vUWf7sga";
+            "file" = "elytrapitch-1.4.6.jar";
+            "hash" = "sha512-mv7h7+JQWg0wfLedQ4lJK80K6+49dp2jrlH3x5f1BbiptwDqCZ1AjB5LknjJCOWOe4AMQ5f8X18KKQYANRRFgw==";
+        };
     in {
         "AtyojauA" = _AtyojauA;
         "vmeVnXhY" = _vmeVnXhY;
@@ -272,6 +277,7 @@ let
         "R6jWgYEl" = _R6jWgYEl;
         "BtLey5n2" = _BtLey5n2;
         "11uOLu5h" = _11uOLu5h;
+        "vUWf7sga" = _vUWf7sga;
         "fabric-1.20.1" = _9CwAJUw1;
         "fabric-1.20.2" = _5UsmcLkA;
         "fabric-1.20.3" = _gVZu9cEK;
@@ -294,6 +300,7 @@ let
         "fabric-26.1.1" = _BtLey5n2;
         "fabric-26.1.2" = _BtLey5n2;
         "fabric-26.2" = _11uOLu5h;
+        "fabric-26.3" = _vUWf7sga;
         "pkg-1.0.0" = _AtyojauA;
         "pkg-1.1.0" = _vmeVnXhY;
         "pkg-1.2.0" = _tB2HWqgw;
@@ -305,8 +312,8 @@ let
         "pkg-1.4.3" = _efyxLvOW;
         "pkg-1.4.4" = _rj3fivHQ;
         "pkg-1.4.5" = _R6jWgYEl;
-        "pkg-1.4.6" = _11uOLu5h;
-        "default" = _11uOLu5h;
+        "pkg-1.4.6" = _vUWf7sga;
+        "default" = _vUWf7sga;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elytrapitch";

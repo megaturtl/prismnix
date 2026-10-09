@@ -46,6 +46,11 @@ let
             "file" = "scarcity-1.1.5.jar";
             "hash" = "sha512-XP9Ules6M5WbosaD6Vi/rL0BjMAVDjVWMCa46/jqbQcKeXbJ7YXkP3+N0YLXQ7DUx7vMDkIywVyrZtnKyCvREg==";
         };
+        _CHpfuUsQ = {
+            "id" = "CHpfuUsQ";
+            "file" = "scarcity-1.2.0.jar";
+            "hash" = "sha512-zoQgFh2PAkTmjLtqpurf+lZA/QILFJKRm8C4Mzs7yEfGKNXfBhMGmzviMBC16isaktpvK8NL50cSflaf28lbSg==";
+        };
     in {
         "xiKRPaH1" = _xiKRPaH1;
         "uwJxGbOS" = _uwJxGbOS;
@@ -56,8 +61,9 @@ let
         "JXeu8rIT" = _JXeu8rIT;
         "GBvWklGD" = _GBvWklGD;
         "A0l1gT6q" = _A0l1gT6q;
-        "forge-1.20" = _A0l1gT6q;
-        "forge-1.20.1" = _A0l1gT6q;
+        "CHpfuUsQ" = _CHpfuUsQ;
+        "forge-1.20" = _CHpfuUsQ;
+        "forge-1.20.1" = _CHpfuUsQ;
         "pkg-1.0.0" = _xiKRPaH1;
         "pkg-1.0.1" = _uwJxGbOS;
         "pkg-1.0.2" = _CzZ5nv11;
@@ -67,7 +73,8 @@ let
         "pkg-1.1.3" = _JXeu8rIT;
         "pkg-1.1.4" = _GBvWklGD;
         "pkg-1.1.5" = _A0l1gT6q;
-        "default" = _A0l1gT6q;
+        "pkg-1.2.0" = _CHpfuUsQ;
+        "default" = _CHpfuUsQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "scarcity";

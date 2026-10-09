@@ -96,6 +96,11 @@ let
             "file" = "clean-keystrokes-1.1.2+mc26.2.jar";
             "hash" = "sha512-ib+MN9SRENuvSS3xyRBUgC/Oyw9D0+pWEBYXdg5oK2e0WNr1JIkgjWUUkc6kB/49at5GiSsFws95vGVK87ecSw==";
         };
+        _NgijAfYM = {
+            "id" = "NgijAfYM";
+            "file" = "clean-keystrokes-1.1.2+mc26.3.jar";
+            "hash" = "sha512-K9QTOakutrvCW8frzOLkL4Fd/SIQDaJzKLi7cFlyfajo2oHm/StsijtAKh+hXZA/dIyRfWmpwVAh8QbjLYwAEg==";
+        };
     in {
         "llgQBuXT" = _llgQBuXT;
         "k1cl3uDV" = _k1cl3uDV;
@@ -116,6 +121,7 @@ let
         "qshBe3DG" = _qshBe3DG;
         "IWKDGA4h" = _IWKDGA4h;
         "JU6dCOTi" = _JU6dCOTi;
+        "NgijAfYM" = _NgijAfYM;
         "fabric-1.21.11" = _qshBe3DG;
         "fabric-26.1" = _IWKDGA4h;
         "fabric-26.1.1" = _IWKDGA4h;
@@ -138,11 +144,12 @@ let
         "fabric-1.21.9" = _qshBe3DG;
         "fabric-1.21.10" = _qshBe3DG;
         "fabric-26.2" = _JU6dCOTi;
+        "fabric-26.3" = _NgijAfYM;
         "pkg-1.0.0" = _k1cl3uDV;
         "pkg-1.1.0" = _VqGQZRY2;
         "pkg-1.1.1" = _nObUzTXK;
-        "pkg-1.1.2" = _JU6dCOTi;
-        "default" = _JU6dCOTi;
+        "pkg-1.1.2" = _NgijAfYM;
+        "default" = _NgijAfYM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "clean-keystrokes";

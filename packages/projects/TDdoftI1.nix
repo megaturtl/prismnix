@@ -316,6 +316,21 @@ let
             "file" = "enhancedai-4.2.3.0.jar";
             "hash" = "sha512-i3GZCZ4gQn+5mOpOD2QKnA4zrXPCD8DbQsfGjbRlhvRpY5e8zreaL0m+l58RgcWmS7IbyNBcBMjb4QFEcjw1Ng==";
         };
+        _zINcveZF = {
+            "id" = "zINcveZF";
+            "file" = "enhancedai-3.3.7.4.jar";
+            "hash" = "sha512-QfTmCVSuJGODq6dtjgtu69bBQI5hPBCZ8lakYbMHFTRb16QRxS8Uzap6uAZOcmLSoAR+MBEX/siRlWbqkzZONQ==";
+        };
+        _FNZd08F4 = {
+            "id" = "FNZd08F4";
+            "file" = "enhancedai-3.3.7.5.jar";
+            "hash" = "sha512-AtH2LU4F+S+z97vRjBlbZt94SfDN9guqtRvdJJl4Op2k8VGyAg6Z3Q3YzYMBdCWhQwj+wZEbUHrxoqUurdI7LQ==";
+        };
+        _hhprRtJq = {
+            "id" = "hhprRtJq";
+            "file" = "enhancedai-4.2.4.0.jar";
+            "hash" = "sha512-3qrPA4Kr2f1L8vs5a/BjsqvsZ2/9ZAgGPHN3giwZ8dM9SbZE5SJTAALyuHL48+sJrYjB0aS9FmSULXEb8vL41A==";
+        };
     in {
         "zRP6PBHS" = _zRP6PBHS;
         "yoUplQnB" = _yoUplQnB;
@@ -380,13 +395,16 @@ let
         "lRALoRPY" = _lRALoRPY;
         "e1H8zmnW" = _e1H8zmnW;
         "T3tKLzQP" = _T3tKLzQP;
+        "zINcveZF" = _zINcveZF;
+        "FNZd08F4" = _FNZd08F4;
+        "hhprRtJq" = _hhprRtJq;
         "forge-1.18.2" = _zRP6PBHS;
         "forge-1.19.2" = _yoUplQnB;
-        "forge-1.20.1" = _JTMTbZMb;
+        "forge-1.20.1" = _FNZd08F4;
         "forge-1.20" = _X6qXUJQf;
         "neoforge-1.20" = _X6qXUJQf;
         "neoforge-1.20.1" = _IkY3PBuf;
-        "neoforge-1.21.1" = _T3tKLzQP;
+        "neoforge-1.21.1" = _hhprRtJq;
         "pkg-1.6.10" = _zRP6PBHS;
         "pkg-1.8.5" = _yoUplQnB;
         "pkg-2.0.5" = _Swy0t5Wq;
@@ -449,7 +467,10 @@ let
         "pkg-4.2.2.4" = _lRALoRPY;
         "pkg-4.2.2.5" = _e1H8zmnW;
         "pkg-4.2.3.0" = _T3tKLzQP;
-        "default" = _T3tKLzQP;
+        "pkg-3.3.7.4" = _zINcveZF;
+        "pkg-3.3.7.5" = _FNZd08F4;
+        "pkg-4.2.4.0" = _hhprRtJq;
+        "default" = _hhprRtJq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enhanced-ai";

@@ -201,6 +201,16 @@ let
             "file" = "SwordBlockingMechanics-v26.2.0-mc26.2.x-NeoForge.jar";
             "hash" = "sha512-KnjicF7i8KjQr/PU9tNyew4TqzYVX+xKUB2+uweTaCA9ogr0jDNjEy7Mtk6Nc99Wp2IlGe8IJ/SirHIU73v/Ug==";
         };
+        _SlQDmol2 = {
+            "id" = "SlQDmol2";
+            "file" = "swordblockingmechanics-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-oVAEaNWBQzVsKebLr1KRd/OIia570Crtak8fBihICmB6dkLIevgAvb8SkYLi+QoItP8pIsmbwWWCjTlN4Idssg==";
+        };
+        _lRYJ6dNL = {
+            "id" = "lRYJ6dNL";
+            "file" = "swordblockingmechanics-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-d2vE7vj358qaVXRHiIoN2MvKE8VG0VU6/0TJRo2TKS2A4fxqbj3IgFbYbG8zqHOxaejrc+SkfTy+QVT5vuMpOg==";
+        };
     in {
         "gFW27ydR" = _gFW27ydR;
         "iupZeO0F" = _iupZeO0F;
@@ -242,6 +252,8 @@ let
         "qyRLA20B" = _qyRLA20B;
         "noXAa8wq" = _noXAa8wq;
         "DU253UUI" = _DU253UUI;
+        "SlQDmol2" = _SlQDmol2;
+        "lRYJ6dNL" = _lRYJ6dNL;
         "forge-1.20.1" = _yd8QMVU1;
         "forge-1.18.2" = _acpkAqa5;
         "forge-1.20.4" = _FOPniu9M;
@@ -261,6 +273,7 @@ let
         "fabric-26.1.1" = _qyRLA20B;
         "fabric-26.1.2" = _qyRLA20B;
         "fabric-26.2" = _noXAa8wq;
+        "fabric-26.3" = _SlQDmol2;
         "neoforge-1.20.4" = _1WXPi8Hp;
         "neoforge-1.21.1" = _JwYLe1Y0;
         "neoforge-1.21.3" = _ZJGW8o18;
@@ -275,6 +288,7 @@ let
         "neoforge-26.1.1" = _IhOnJvWN;
         "neoforge-26.1.2" = _IhOnJvWN;
         "neoforge-26.2" = _DU253UUI;
+        "neoforge-26.3" = _lRYJ6dNL;
         "pkg-v8.0.0-1.20.1-Forge" = _gFW27ydR;
         "pkg-v8.0.0-1.20.1-Fabric" = _iupZeO0F;
         "pkg-v3.0.1-1.18.2-Forge" = _acpkAqa5;
@@ -310,7 +324,8 @@ let
         "pkg-21.11.0" = _BjZ7dV7R;
         "pkg-26.1.0" = _qyRLA20B;
         "pkg-26.2.0" = _DU253UUI;
-        "default" = _DU253UUI;
+        "pkg-26.3.0" = _lRYJ6dNL;
+        "default" = _lRYJ6dNL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sword-blocking-mechanics";

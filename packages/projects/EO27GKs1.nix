@@ -686,6 +686,46 @@ let
             "file" = "jeed-26.1.2-2.5.0-neoforge.jar";
             "hash" = "sha512-Qi1LV2bto95628nCzfR01Rai1UGDvBwU7e5oOaLg4osJHrn9JN4IXo5CWfg0/1Wj2eWWHdFyW6fxWspxWFV1Lw==";
         };
+        _Rm5m1ASj = {
+            "id" = "Rm5m1ASj";
+            "file" = "jeed-1.21-2.3.4-neoforge.jar";
+            "hash" = "sha512-8l0drH+bQ+ve5QVXwJCq03q5a0QojLU7bXbSWZTH6svGh/uBXFlGnVCVjLIYiTCiz9PGEuO+i0QSOAGo47JWyw==";
+        };
+        _pf1UB5Xz = {
+            "id" = "pf1UB5Xz";
+            "file" = "jeed-1.21-2.3.4-fabric.jar";
+            "hash" = "sha512-I2uVea3ozFa2i1gtjp9vR4aFTz7SOs4WsSbsAPLl54rBl+vzwBhq1Nl2YIkmqI6kAtqjWQY+5YS2cBbBlJbqXQ==";
+        };
+        _g8C0wK9T = {
+            "id" = "g8C0wK9T";
+            "file" = "jeed-26.1.2-2.5.2-neoforge.jar";
+            "hash" = "sha512-JaKW7Scqdd9k5JLE9isz13DV7cLKc9kyaegU1xyYJTLmgCVwMefybfG3xfGDwOJq7SNjhkp2o2ShmHFoWBJVQQ==";
+        };
+        _yJ7sQKlW = {
+            "id" = "yJ7sQKlW";
+            "file" = "jeed-26.1.2-2.5.2-fabric.jar";
+            "hash" = "sha512-QOtz/VaFhGlBeM9Ne4eUv5khLi03U/hYnQYhGV8K/3Oz+6kQyE3Y5v+UmBcoIRMrsg+jzQgJGldNGR6gJEbyTQ==";
+        };
+        _ALSowR1k = {
+            "id" = "ALSowR1k";
+            "file" = "jeed-26.1.2-2.5.3-fabric.jar";
+            "hash" = "sha512-w+RRQbjT7rIzAKwmQV9vTqE0iDh3SP/6K5vzL4zEuB5ByTwnQ+GLuU1qF8Bxl0zhC1yC+o9hbIEH4nAHXggFpg==";
+        };
+        _MxLBsDB4 = {
+            "id" = "MxLBsDB4";
+            "file" = "jeed-26.1.2-2.5.3-neoforge.jar";
+            "hash" = "sha512-aDJbAkOfDu3I1chMBQYBoDSsxi6x/4H/Wxfvc38SQ55wqzA+0PkYpgR+i4SW0PcPkBOcFhDAtcIBQCbJ8wN+8A==";
+        };
+        _marVXS5n = {
+            "id" = "marVXS5n";
+            "file" = "jeed-1.21-2.3.5-fabric.jar";
+            "hash" = "sha512-+PJaPePxz5/cd/DVoaKuY8QNl8cMlDTefkybZotZkxuPyeiOeradqdvbE7DaI3JwqhBTO6qYXQ6t9/nuIJUvgw==";
+        };
+        _3dTukOBl = {
+            "id" = "3dTukOBl";
+            "file" = "jeed-1.21-2.3.5-neoforge.jar";
+            "hash" = "sha512-QUbYP5gBFC2auzaqQdCpE3yTRI8Bqy00hvTfrX/06DWB2Sn6FV3pb2nVYVIW5vfZKtitBmLeuYNfu/hB+OnPCw==";
+        };
     in {
         "saqVW096" = _saqVW096;
         "yKUowb8l" = _yKUowb8l;
@@ -824,6 +864,14 @@ let
         "uo8mpHMe" = _uo8mpHMe;
         "wovtJlcb" = _wovtJlcb;
         "psqZH9Jj" = _psqZH9Jj;
+        "Rm5m1ASj" = _Rm5m1ASj;
+        "pf1UB5Xz" = _pf1UB5Xz;
+        "g8C0wK9T" = _g8C0wK9T;
+        "yJ7sQKlW" = _yJ7sQKlW;
+        "ALSowR1k" = _ALSowR1k;
+        "MxLBsDB4" = _MxLBsDB4;
+        "marVXS5n" = _marVXS5n;
+        "3dTukOBl" = _3dTukOBl;
         "forge-1.16.3" = _dgUYUeqF;
         "forge-1.16.4" = _dgUYUeqF;
         "forge-1.16.5" = _dgUYUeqF;
@@ -840,16 +888,16 @@ let
         "fabric-1.19.4" = _RrddfUM7;
         "fabric-1.20.1" = _kRjsKEYr;
         "fabric-1.21" = _yfyTcGmb;
-        "fabric-1.21.1" = _yfyTcGmb;
-        "fabric-26.1" = _wovtJlcb;
-        "fabric-26.1.1" = _wovtJlcb;
-        "fabric-26.1.2" = _wovtJlcb;
+        "fabric-1.21.1" = _marVXS5n;
+        "fabric-26.1" = _ALSowR1k;
+        "fabric-26.1.1" = _ALSowR1k;
+        "fabric-26.1.2" = _ALSowR1k;
         "fabric-1.21.11" = _uo8mpHMe;
         "neoforge-1.21" = _4V5Ugwuo;
-        "neoforge-1.21.1" = _4V5Ugwuo;
-        "neoforge-26.1" = _psqZH9Jj;
-        "neoforge-26.1.1" = _psqZH9Jj;
-        "neoforge-26.1.2" = _psqZH9Jj;
+        "neoforge-1.21.1" = _3dTukOBl;
+        "neoforge-26.1" = _MxLBsDB4;
+        "neoforge-26.1.1" = _MxLBsDB4;
+        "neoforge-26.1.2" = _MxLBsDB4;
         "neoforge-1.21.11" = _FfzAeQjb;
         "pkg-0" = _saqVW096;
         "pkg-1" = _yKUowb8l;
@@ -931,7 +979,11 @@ let
         "pkg-1.20-2.2.6" = _6zbEptBe;
         "pkg-1.21.11-2.5.0" = _uo8mpHMe;
         "pkg-26.1.2-2.5.0" = _psqZH9Jj;
-        "default" = _psqZH9Jj;
+        "pkg-1.21-2.3.4" = _pf1UB5Xz;
+        "pkg-26.1.2-2.5.2" = _yJ7sQKlW;
+        "pkg-26.1.2-2.5.3" = _MxLBsDB4;
+        "pkg-1.21-2.3.5" = _3dTukOBl;
+        "default" = _3dTukOBl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "just-enough-effect-descriptions-jeed";

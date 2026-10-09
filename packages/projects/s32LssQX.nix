@@ -101,6 +101,11 @@ let
             "file" = "UniversalTweaks-1.12.2-1.20.1.jar";
             "hash" = "sha512-Gq5BLGH4azVL/W/kQvG13oAHQACNCDRcu7NDDsDjiBcCr8pXLFAG32m1GN+Taoa+P8PKZ3sUQ6NHHUYeFEb5QA==";
         };
+        _eGtvVjBI = {
+            "id" = "eGtvVjBI";
+            "file" = "UniversalTweaks-1.12.2-1.21.0.jar";
+            "hash" = "sha512-JYO6vuzL8yNf4Kpo2ZbTSA+rDMed1YVVvr0I5/Ubc//xVI7YMRi2/ybMW1YuvPdR6GvstKdaITbjhsm2ubMpag==";
+        };
     in {
         "aPZh6B3A" = _aPZh6B3A;
         "UUiyQKvL" = _UUiyQKvL;
@@ -122,7 +127,8 @@ let
         "YYeCz4t4" = _YYeCz4t4;
         "iVbBavWd" = _iVbBavWd;
         "AQqRQW6a" = _AQqRQW6a;
-        "forge-1.12.2" = _AQqRQW6a;
+        "eGtvVjBI" = _eGtvVjBI;
+        "forge-1.12.2" = _eGtvVjBI;
         "pkg-1.7.0" = _aPZh6B3A;
         "pkg-1.7.1" = _UUiyQKvL;
         "pkg-1.8.0" = _Skw50Rxx;
@@ -143,7 +149,8 @@ let
         "pkg-1.19.1" = _YYeCz4t4;
         "pkg-1.20.0" = _iVbBavWd;
         "pkg-1.20.1" = _AQqRQW6a;
-        "default" = _AQqRQW6a;
+        "pkg-1.21.0" = _eGtvVjBI;
+        "default" = _eGtvVjBI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "universal-tweaks";

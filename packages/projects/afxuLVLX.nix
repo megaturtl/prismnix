@@ -151,6 +151,21 @@ let
             "file" = "hard_pity-2.0.2-neoforge-26.2.jar";
             "hash" = "sha512-7w3VijR2jaQlqe06S/ZhgyupReH19W0qtrmqJLhqwcLr5W6HiMdmolxtlovHFPQe2Brvjms3kT+bc5mH2w4Hmw==";
         };
+        _NTy8Nshw = {
+            "id" = "NTy8Nshw";
+            "file" = "hard_pity-2.0.3-neoforge-26.1.2.jar";
+            "hash" = "sha512-WMbbxlKBQaEMHIhqgObE2PlP49207C8sDA2sNOt1M/fsdrfKbu/VUnzByJec7+TbxVaFC0/x7HEPrh+PuU1Nfg==";
+        };
+        _EiGgspnk = {
+            "id" = "EiGgspnk";
+            "file" = "hard_pity-2.0.3-neoforge-26.2.jar";
+            "hash" = "sha512-HK8saog7FBQVbywJMi+kmIECMmeXiioArrUsaNdZEiNmq8oZOdsnIlGKvoqnmnNIT/XVZOkhZsWw63/aF4JvLg==";
+        };
+        _RkN488Ok = {
+            "id" = "RkN488Ok";
+            "file" = "hard_pity-2.0.3-neoforge-26.3.jar";
+            "hash" = "sha512-P8N15zLSDWzqtoa/vA+F1PDFmAlmZAfArCRt6NeRSrlVGJRRd+h+E5V+59zu+eeHQ1+g3QwAvCN1y8KgFrdTTQ==";
+        };
     in {
         "Y8b7ssxZ" = _Y8b7ssxZ;
         "sMuT0z51" = _sMuT0z51;
@@ -182,6 +197,9 @@ let
         "Cv38xHC5" = _Cv38xHC5;
         "Sg2Fw4Jb" = _Sg2Fw4Jb;
         "bs04wagF" = _bs04wagF;
+        "NTy8Nshw" = _NTy8Nshw;
+        "EiGgspnk" = _EiGgspnk;
+        "RkN488Ok" = _RkN488Ok;
         "neoforge-1.21.5" = _mmWj07J3;
         "neoforge-1.21" = _UI3JjMiX;
         "neoforge-1.21.1" = _wP9tUbpV;
@@ -195,10 +213,11 @@ let
         "neoforge-1.21.10" = _IIrsEszd;
         "neoforge-1.20.4" = _BW0uG9Hg;
         "neoforge-1.20.6" = _TVE3PmpL;
-        "neoforge-26.1.2" = _bs04wagF;
+        "neoforge-26.1.2" = _NTy8Nshw;
         "neoforge-26.1" = _bs04wagF;
         "neoforge-26.1.1" = _bs04wagF;
-        "neoforge-26.2" = _bs04wagF;
+        "neoforge-26.2" = _EiGgspnk;
+        "neoforge-26.3" = _RkN488Ok;
         "forge-1.20.1" = _c37S6rXI;
         "forge-1.19.4" = _Jqx6jbUS;
         "fabric-1.21.8" = _MQyEG6Lf;
@@ -225,7 +244,8 @@ let
         "pkg-2.0.0-beta" = _xpS77t77;
         "pkg-2.0.1" = _Sg2Fw4Jb;
         "pkg-2.0.2" = _bs04wagF;
-        "default" = _bs04wagF;
+        "pkg-2.0.3" = _RkN488Ok;
+        "default" = _RkN488Ok;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hard-pity";

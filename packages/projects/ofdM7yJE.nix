@@ -1391,6 +1391,161 @@ let
             "file" = "EclipticSeasons-1.21.1-neoforge-0.15.0-rc-3-1.jar";
             "hash" = "sha512-O79xZxDpvrKz7qT64tPYE1DnC60ZA2XI53GBh84DUV90MRDCJlYlVozK4XgIT4yL64tKGk50aYKbJQdQETZsXw==";
         };
+        _XGxNucaG = {
+            "id" = "XGxNucaG";
+            "file" = "EclipticSeasons-26.3-neoforge-0.15.0-rc-4-1.jar";
+            "hash" = "sha512-EKfXnL6FIADYw11L4mBTSoNWb9I0fvpo28b6oclCgzmvLBHGRJYjXT8QNlkcA7wV1BdfoWEfQsiTBcJcOiv1yw==";
+        };
+        _PAETNgyR = {
+            "id" = "PAETNgyR";
+            "file" = "EclipticSeasons-1.21.1-neoforge-0.15.1.jar";
+            "hash" = "sha512-rulMbzwWuBQzpdO8tbAfGONs+QQkNLN4VJ/n83l7+q8WYCDcyib0IOPqBwIEon8+YIhAUMudB41E+/BRrfPy7Q==";
+        };
+        _plz6ik8A = {
+            "id" = "plz6ik8A";
+            "file" = "Ecliptic-Seasons-1.20.1-forge-0.15.1-all.jar";
+            "hash" = "sha512-qnoWetCD2oCXvfvjkylCv2UlXBsMNugw90kYtgMrONqijl8Lt47Mq59NMpQKUrnyEI8B2gyj0+7w8TdQWA4GKw==";
+        };
+        _bb5Ma92S = {
+            "id" = "bb5Ma92S";
+            "file" = "EclipticSeasons-26.2-neoforge-0.15.1.jar";
+            "hash" = "sha512-jh2XCrrQl9Yh2/5UfgONF4efAK9vp1P/ofp9ZKpBSHj3sYR9II8IcaG+Qg1+sxReXy52iMfj1IWLnULbJiOudg==";
+        };
+        _4iNtZvBS = {
+            "id" = "4iNtZvBS";
+            "file" = "EclipticSeasons-26.3-neoforge-0.15.1.jar";
+            "hash" = "sha512-yEiTF8xj/XhrakWn6o8o/hYQzmn5ZiXRxQ1RotdnZVvxVGpAvyxXw5nxb0110lY+kl3fw2faM5TAsHjEWFrs4w==";
+        };
+        _icd5nl4c = {
+            "id" = "icd5nl4c";
+            "file" = "EclipticSeasons-26.1.2-neoforge-0.15.1.jar";
+            "hash" = "sha512-cQftgRs6llQ5H08YVmEkcCZJW4YcUoepuBi7sA2voxaeRk5OL1pflGI1vOMYxH57HYfzmP6OEBA9bM29Hk3jGw==";
+        };
+        _Yu0VEfTg = {
+            "id" = "Yu0VEfTg";
+            "file" = "EclipticSeasons-1.21.1-neoforge-0.15.2.jar";
+            "hash" = "sha512-xy4R2jLA08iH4Tl7YPWjrGkjHOkTl01zDB5nBvkG3HMJEwczqYNxMS+5cDyvPceTzz6qmQ9Jc4xGYVFp9gt94A==";
+        };
+        _fI6ZkV4A = {
+            "id" = "fI6ZkV4A";
+            "file" = "EclipticSeasons-26.2-neoforge-0.15.2.jar";
+            "hash" = "sha512-TNg5VNedsK3ruZHepzrSL8wCjeURKBrrH7QcDKzNCJukBMlsfSaGghuI1jYSEyQdAPfBoQcdMfCjbxbjPPlNKA==";
+        };
+        _v0hwSYmF = {
+            "id" = "v0hwSYmF";
+            "file" = "Ecliptic-Seasons-1.20.1-forge-0.15.2-all.jar";
+            "hash" = "sha512-WahDmNyTeRqZICdP5rFSaGD8oOfQeJQdifbvBf3vZZ/UpCIDH60aFZDkFqNXXo/+hobTio+pjRPtNhRnl9GOTw==";
+        };
+        _Kh83OFdT = {
+            "id" = "Kh83OFdT";
+            "file" = "EclipticSeasons-26.1.2-neoforge-0.15.2.jar";
+            "hash" = "sha512-qpqsPwZJke49u7BX+Z/3TEjeQbwSjAFJvbexkdDCI4nV4F5v3bIHoHjrw+W3r0JmWMCpT6VpajKtov1debENZg==";
+        };
+        _6xO1dubI = {
+            "id" = "6xO1dubI";
+            "file" = "EclipticSeasons-26.3-neoforge-0.15.2.jar";
+            "hash" = "sha512-pOwTy+B3jbn6mPXHCDxSSL7qV4u1gvUysQTZK0l+8ZYAcNhzVsGCYNStSvlAfaxLXK++2ZsPQ8JTwT7jBvAehA==";
+        };
+        _uhqlUX2e = {
+            "id" = "uhqlUX2e";
+            "file" = "EclipticSeasons-1.21.1-neoforge-0.15.2.1.jar";
+            "hash" = "sha512-gT2IYLHBY9EFIlbjvVOqLAf3r2gJ6HeLrRS4PoklMWTi9KD/301ZH44AX6aN3+u6MUCMNTk5A3QEfaCA7/ZXlQ==";
+        };
+        _jNbUWp8H = {
+            "id" = "jNbUWp8H";
+            "file" = "EclipticSeasons-26.1.2-neoforge-0.15.2.1.jar";
+            "hash" = "sha512-D9QcdBUNAHw5IFQlMqRz0Hh46C4Wt6HhJr2ZLKHM6/Z6J/YQKJa5TkB8Zwafy/i5WoTl0zsNPivoLqeOYE/3hw==";
+        };
+        _dIm8w3FW = {
+            "id" = "dIm8w3FW";
+            "file" = "EclipticSeasons-26.3-neoforge-0.15.2.1.jar";
+            "hash" = "sha512-gASw01AmluflqyvvH3hgpmkzD1Bs0Zqoa9q1qFEzywdTqOPfgUWSaD15Dnp5JvKf/diHH9p06mgeerlv95p0Hw==";
+        };
+        _KuNdgSPX = {
+            "id" = "KuNdgSPX";
+            "file" = "Ecliptic-Seasons-1.20.1-forge-0.15.2.1-all.jar";
+            "hash" = "sha512-agraAoNEzXofrEdRckHSgNNjkn69IedBOSmE7HKJPP+LQrazcNj1Q9JzAlkLlExlb1qNQZZVOyfTRnUs6FCbjA==";
+        };
+        _nvgICujY = {
+            "id" = "nvgICujY";
+            "file" = "EclipticSeasons-26.2-neoforge-0.15.2.1.jar";
+            "hash" = "sha512-kejp0H35E6AI+1QUK5kzxwgAkYJHvGc4DFrwxAF+f+3d+mJX+kg6Uuu1LV8UXZffUBVq+Ykx0HiaNzqtYlCHNQ==";
+        };
+        _vpBlfO6t = {
+            "id" = "vpBlfO6t";
+            "file" = "EclipticSeasons-26.2-neoforge-0.15.2.2.jar";
+            "hash" = "sha512-ViyY2Z49UtQis6hs8EZSLdLSD3N5NPRPVFwF0XMnA1a42SbWIu32WTvp2lB0UdR5qeB9YQg6ybYvhdponBvTRQ==";
+        };
+        _czaDOI7g = {
+            "id" = "czaDOI7g";
+            "file" = "EclipticSeasons-26.1.2-neoforge-0.15.2.2.jar";
+            "hash" = "sha512-rp1qkJQjcjp+aICGKlS/0jF802p93UQ4Xb4pnP+83MRcijwBz8NCuZjFcnSfgH4xrh6lA0W/3+C1vELiyZCXYA==";
+        };
+        _Uhvk3tRP = {
+            "id" = "Uhvk3tRP";
+            "file" = "EclipticSeasons-1.21.1-neoforge-0.15.2.2.jar";
+            "hash" = "sha512-rmnR38N7AhVAwV3LL5OzAWl/JEh4YoIc6Kr9YfBtXplvl2lgamC4mQNLQj1iTnObsTVuM9lyZLAYyFZTifVbag==";
+        };
+        _eyeyVtjm = {
+            "id" = "eyeyVtjm";
+            "file" = "EclipticSeasons-26.3-neoforge-0.15.2.2.jar";
+            "hash" = "sha512-pjztUcIQfHnOeGfRkUG6rTysDt2/Lfg1b15HXk9ACY3RyDetUoVotRKpyG8LqHMS1b/v7cTxJvimmcjwmdGU5Q==";
+        };
+        _CCJx7gFr = {
+            "id" = "CCJx7gFr";
+            "file" = "Ecliptic-Seasons-1.20.1-forge-0.15.2.2-all.jar";
+            "hash" = "sha512-oZF762ZCXjIIBkZ5p6lN55rofNC3uC/ZY8w0CNuf1s+EtqG2F3ojbBpeqxuaJbptxoqLV/62p33ATHQWJDGpaA==";
+        };
+        _mkkA8Gv8 = {
+            "id" = "mkkA8Gv8";
+            "file" = "EclipticSeasons-26.3-neoforge-0.15.3.jar";
+            "hash" = "sha512-YqGVwsv9A894VhOqwVH9Aae7bLauuMnWtphSkKPiL/BXiudUu/LUyXHqCua4xmHpgL0aLqlXFTX8X/GOVd9CAg==";
+        };
+        _lOLtD4rc = {
+            "id" = "lOLtD4rc";
+            "file" = "Ecliptic-Seasons-1.20.1-forge-0.15.3-all.jar";
+            "hash" = "sha512-WDK5H32gB6MLDLDckhoAcUVJcyw6syNW5SZ19kJn+U6ZQTEXsr9ncq6d6D/f65mevO1ZaPQxFms/DnnXGbQBbA==";
+        };
+        _82BXU2NN = {
+            "id" = "82BXU2NN";
+            "file" = "EclipticSeasons-1.21.1-neoforge-0.15.3.jar";
+            "hash" = "sha512-jAf97bmnRsZDiJddq5JCq10g7hxbQpJEDHU9wS8PRfjsAFFO9z2f1HikM1EF5O6j51LItXaBOEC/fv8zL8eZ8Q==";
+        };
+        _uyV7WRCi = {
+            "id" = "uyV7WRCi";
+            "file" = "EclipticSeasons-26.2-neoforge-0.15.3.jar";
+            "hash" = "sha512-TOQj7RdHP2G6I++VM0RsErFUXS8rtE1vR+2OE6TG926IgsWfO2veByt2UCboRcmqNleyZyCXfbvcWkJ2ihJGjQ==";
+        };
+        _2VYn36qC = {
+            "id" = "2VYn36qC";
+            "file" = "EclipticSeasons-26.1.2-neoforge-0.15.3.jar";
+            "hash" = "sha512-dHOQpmzhdmcMUlA+DZMIBnr24tf7pk0qPgAf2J9P+XXrsxBUQtsSellosavXfYos+aFfb9eWUpmrST/Rl8MDXQ==";
+        };
+        _9Xoqf7p5 = {
+            "id" = "9Xoqf7p5";
+            "file" = "EclipticSeasons-26.3-neoforge-0.15.3.1.jar";
+            "hash" = "sha512-OutQliXpxoiiCcRMrPjn2AlHFULcpFWEUZuuV4XbMOmJRto/Bw0JDnj1vcmuz/FXwkptbevcWEkYzy87/AygLg==";
+        };
+        _397Vgt3P = {
+            "id" = "397Vgt3P";
+            "file" = "EclipticSeasons-1.21.1-neoforge-0.15.3.1.jar";
+            "hash" = "sha512-R2/nAcvQ8bgu9Sijx1SnJkRPgndPBfvSojTun1F0wfpdtvis5H177zqn7vCEOhc9eT1i9FPTM3OmNnzcXFZpgA==";
+        };
+        _AvohAFqz = {
+            "id" = "AvohAFqz";
+            "file" = "EclipticSeasons-26.1.2-neoforge-0.15.3.1.jar";
+            "hash" = "sha512-saQVvrDhrop63rg4mlZQ/XpK1S0kLMb7wENcH2Xj0qiGbDBPCs0RF2tGudLOLw8LtSrEDichtKpTN8873UhRoA==";
+        };
+        _V1MXeVGm = {
+            "id" = "V1MXeVGm";
+            "file" = "EclipticSeasons-26.2-neoforge-0.15.3.1.jar";
+            "hash" = "sha512-n2tzCoRkyI8YQqP3D47RHAkmJ/Ce86DUkVAboVvsH4Y0drz6kN25uFm4BUBvemN3hM8n3aX5qdFwiV+PZQ80CQ==";
+        };
+        _WPGLIHbF = {
+            "id" = "WPGLIHbF";
+            "file" = "Ecliptic-Seasons-1.20.1-forge-0.15.3.1-all.jar";
+            "hash" = "sha512-gtQ95Qt54Wg0eZ5TtN/vZtbz9TOwFzqbjx7BR+O3Dn0HYtrAkhIiKg/Z6id7XNX5UWhc8Yblkvc/ngBpqQDh3A==";
+        };
     in {
         "eNDTi1Uc" = _eNDTi1Uc;
         "68Dkgrmp" = _68Dkgrmp;
@@ -1670,12 +1825,44 @@ let
         "vv6cGPNg" = _vv6cGPNg;
         "z8ii4NtF" = _z8ii4NtF;
         "p7byuyzM" = _p7byuyzM;
+        "XGxNucaG" = _XGxNucaG;
+        "PAETNgyR" = _PAETNgyR;
+        "plz6ik8A" = _plz6ik8A;
+        "bb5Ma92S" = _bb5Ma92S;
+        "4iNtZvBS" = _4iNtZvBS;
+        "icd5nl4c" = _icd5nl4c;
+        "Yu0VEfTg" = _Yu0VEfTg;
+        "fI6ZkV4A" = _fI6ZkV4A;
+        "v0hwSYmF" = _v0hwSYmF;
+        "Kh83OFdT" = _Kh83OFdT;
+        "6xO1dubI" = _6xO1dubI;
+        "uhqlUX2e" = _uhqlUX2e;
+        "jNbUWp8H" = _jNbUWp8H;
+        "dIm8w3FW" = _dIm8w3FW;
+        "KuNdgSPX" = _KuNdgSPX;
+        "nvgICujY" = _nvgICujY;
+        "vpBlfO6t" = _vpBlfO6t;
+        "czaDOI7g" = _czaDOI7g;
+        "Uhvk3tRP" = _Uhvk3tRP;
+        "eyeyVtjm" = _eyeyVtjm;
+        "CCJx7gFr" = _CCJx7gFr;
+        "mkkA8Gv8" = _mkkA8Gv8;
+        "lOLtD4rc" = _lOLtD4rc;
+        "82BXU2NN" = _82BXU2NN;
+        "uyV7WRCi" = _uyV7WRCi;
+        "2VYn36qC" = _2VYn36qC;
+        "9Xoqf7p5" = _9Xoqf7p5;
+        "397Vgt3P" = _397Vgt3P;
+        "AvohAFqz" = _AvohAFqz;
+        "V1MXeVGm" = _V1MXeVGm;
+        "WPGLIHbF" = _WPGLIHbF;
         "neoforge-26.1" = _M60AKc2f;
-        "neoforge-1.21.1" = _p7byuyzM;
+        "neoforge-1.21.1" = _397Vgt3P;
         "neoforge-26.1.1" = _8yGqVA39;
-        "neoforge-26.1.2" = _z8ii4NtF;
-        "neoforge-26.2" = _vv6cGPNg;
-        "forge-1.20.1" = _xO4vsPui;
+        "neoforge-26.1.2" = _AvohAFqz;
+        "neoforge-26.2" = _V1MXeVGm;
+        "neoforge-26.3" = _9Xoqf7p5;
+        "forge-1.20.1" = _WPGLIHbF;
         "pkg-0.12.99-alpha-2" = _eNDTi1Uc;
         "pkg-0.12.18.7" = _G4OHOTAz;
         "pkg-0.13.0-beta-1" = _WUqdB61p;
@@ -1806,9 +1993,15 @@ let
         "pkg-0.15.0-rc-2-1" = _ngRhSwzE;
         "pkg-0.15.0-rc-3" = _xO4vsPui;
         "pkg-0.15.0-rc-4" = _VzQPpT22;
-        "pkg-0.15.0-rc-4-1" = _z8ii4NtF;
+        "pkg-0.15.0-rc-4-1" = _XGxNucaG;
         "pkg-0.15.0-rc-3-1" = _p7byuyzM;
-        "default" = _p7byuyzM;
+        "pkg-0.15.1" = _icd5nl4c;
+        "pkg-0.15.2" = _6xO1dubI;
+        "pkg-0.15.2.1" = _nvgICujY;
+        "pkg-0.15.2.2" = _CCJx7gFr;
+        "pkg-0.15.3" = _2VYn36qC;
+        "pkg-0.15.3.1" = _WPGLIHbF;
+        "default" = _WPGLIHbF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ecliptic-seasons";

@@ -136,6 +136,16 @@ let
             "file" = "fantasyfurniture_venthyr-26.2.4.jar";
             "hash" = "sha512-XUCiqLp+foIAiobAJ3g/7gW8DK2jf3YD/meidEFh/owct2zvr4Qex+qIo7as81kCTaj5HMl2nqrsk74H7wQEyw==";
         };
+        _B5KkgttI = {
+            "id" = "B5KkgttI";
+            "file" = "fantasyfurniture_venthyr-26.3.0.jar";
+            "hash" = "sha512-DtirbpclA8883QxBODCDe3D0AIMpLgED7rfsQy3GBlhStqmZFpc4GLCCulLRwMamLS/V8XKk/7AfhAsIPIpV0Q==";
+        };
+        _WR4WCawH = {
+            "id" = "WR4WCawH";
+            "file" = "fantasyfurniture_venthyr-26.3.1.jar";
+            "hash" = "sha512-60qwA7A1lsyBN6A71AzlXOFzxUDVN9aZyw4EnhdULu6SE/MsOsvogK2pqrWGD3Uwp+QAMtJv5h46zSgbNATtlg==";
+        };
     in {
         "JwE4WtQD" = _JwE4WtQD;
         "D4ANCeoC" = _D4ANCeoC;
@@ -164,6 +174,8 @@ let
         "KYLFv32w" = _KYLFv32w;
         "Sn0qKiu9" = _Sn0qKiu9;
         "WEeOUzo6" = _WEeOUzo6;
+        "B5KkgttI" = _B5KkgttI;
+        "WR4WCawH" = _WR4WCawH;
         "neoforge-1.21.4" = _4wdGg2pK;
         "neoforge-1.21.5" = _Zjc9nXMc;
         "neoforge-1.21.6" = _hn8UUb6K;
@@ -174,6 +186,7 @@ let
         "neoforge-26.1.1" = _KYLFv32w;
         "neoforge-26.1.2" = _KYLFv32w;
         "neoforge-26.2" = _WEeOUzo6;
+        "neoforge-26.3" = _WR4WCawH;
         "pkg-21.4.69" = _JwE4WtQD;
         "pkg-21.4.86" = _D4ANCeoC;
         "pkg-21.4.91" = _iQqLYahX;
@@ -201,7 +214,9 @@ let
         "pkg-26.1.7" = _KYLFv32w;
         "pkg-26.2.0" = _Sn0qKiu9;
         "pkg-26.2.4" = _WEeOUzo6;
-        "default" = _WEeOUzo6;
+        "pkg-26.3.0" = _B5KkgttI;
+        "pkg-26.3.1" = _WR4WCawH;
+        "default" = _WR4WCawH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fantasys-furniture-venthyr";

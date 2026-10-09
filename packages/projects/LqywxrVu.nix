@@ -76,6 +76,11 @@ let
             "file" = "realmsfix-3.0.0.jar";
             "hash" = "sha512-BDPvJb0D9fJmzUykamYs3jAvOhoyVwB/nHtPF1ay6Yt9Th2IKy7pFC2dr9jDllLNoOUdALm9c9OtYFbL2CRpMA==";
         };
+        _6hnmNHqz = {
+            "id" = "6hnmNHqz";
+            "file" = "realmsfix-3.0.2.jar";
+            "hash" = "sha512-yaXjPpR1CXyWvj0ZGiHyx3HcAkFqu4XsSewANvuBQ5GzSvl0EQ26c4OrO5eUOI9sGuprx6S2BqCNxQ6ri4k0OA==";
+        };
     in {
         "v3zMTMMz" = _v3zMTMMz;
         "jgmqHHyw" = _jgmqHHyw;
@@ -92,6 +97,7 @@ let
         "Ohiwr9cx" = _Ohiwr9cx;
         "zWO0bVBJ" = _zWO0bVBJ;
         "XKgCogSE" = _XKgCogSE;
+        "6hnmNHqz" = _6hnmNHqz;
         "fabric-1.7.10" = _Ohiwr9cx;
         "fabric-1.8.9" = _Ohiwr9cx;
         "fabric-1.9.4" = _Ohiwr9cx;
@@ -167,6 +173,7 @@ let
         "fabric-26.1" = _XKgCogSE;
         "fabric-26.1.1" = _XKgCogSE;
         "fabric-26.1.2" = _XKgCogSE;
+        "fabric-26.3" = _6hnmNHqz;
         "pkg-1.0.2" = _KyMi9ent;
         "pkg-2.0.0" = _9Nq9C4Fz;
         "pkg-2.0.2" = _55cbt32V;
@@ -178,7 +185,8 @@ let
         "pkg-2.0.8" = _Ohiwr9cx;
         "pkg-3.0.1" = _zWO0bVBJ;
         "pkg-3.0.0" = _XKgCogSE;
-        "default" = _XKgCogSE;
+        "pkg-3.0.2" = _6hnmNHqz;
+        "default" = _6hnmNHqz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "realms-button-remover";

@@ -31,6 +31,16 @@ let
             "file" = "brays-better-banners-1.2.jar";
             "hash" = "sha512-Qa+o5301J6QguzuPjyW4dRzUTps36Odrbcni7GzkuGzgWWSWROAz88yalGugzXFxnrRqRkdhGkQ3TSyITOtMCw==";
         };
+        _4TnvmIjD = {
+            "id" = "4TnvmIjD";
+            "file" = "Better Banners v1.2.1.zip";
+            "hash" = "sha512-2FB6ufYZSbkrQ/nNl9J7b2W1v1ZQsq+0mL+zqimtJYXy1PmmF7uG0oQuxcRTuXeOSyILB+rkqmQ1vMfQ7YvfEg==";
+        };
+        _thv2xNsv = {
+            "id" = "thv2xNsv";
+            "file" = "brays-better-banners-1.2.1.jar";
+            "hash" = "sha512-I63n4Gg0sReKlO5Meo3ntDpNBTI0stVyrAjktAJbDElTLrOpTBmwU3tXzWL4AgbKO3qtt3flNvYtoO0zDCN1Cg==";
+        };
     in {
         "b4L92jW3" = _b4L92jW3;
         "sel402OT" = _sel402OT;
@@ -38,6 +48,8 @@ let
         "p3pzOElu" = _p3pzOElu;
         "EQkYIWB2" = _EQkYIWB2;
         "CJOk8Nsk" = _CJOk8Nsk;
+        "4TnvmIjD" = _4TnvmIjD;
+        "thv2xNsv" = _thv2xNsv;
         "datapack-1.20.5" = _b4L92jW3;
         "datapack-1.20.6" = _b4L92jW3;
         "datapack-1.21" = _EQkYIWB2;
@@ -55,6 +67,7 @@ let
         "datapack-26.1" = _EQkYIWB2;
         "datapack-26.1.1" = _EQkYIWB2;
         "datapack-26.1.2" = _EQkYIWB2;
+        "datapack-26.3" = _4TnvmIjD;
         "fabric-1.20.5" = _sel402OT;
         "fabric-1.20.6" = _sel402OT;
         "fabric-1.21" = _CJOk8Nsk;
@@ -72,6 +85,7 @@ let
         "fabric-26.1" = _CJOk8Nsk;
         "fabric-26.1.1" = _CJOk8Nsk;
         "fabric-26.1.2" = _CJOk8Nsk;
+        "fabric-26.3" = _thv2xNsv;
         "forge-1.20.5" = _sel402OT;
         "forge-1.20.6" = _sel402OT;
         "forge-1.21" = _CJOk8Nsk;
@@ -89,6 +103,7 @@ let
         "forge-26.1" = _CJOk8Nsk;
         "forge-26.1.1" = _CJOk8Nsk;
         "forge-26.1.2" = _CJOk8Nsk;
+        "forge-26.3" = _thv2xNsv;
         "neoforge-1.20.5" = _sel402OT;
         "neoforge-1.20.6" = _sel402OT;
         "neoforge-1.21" = _CJOk8Nsk;
@@ -106,6 +121,7 @@ let
         "neoforge-26.1" = _CJOk8Nsk;
         "neoforge-26.1.1" = _CJOk8Nsk;
         "neoforge-26.1.2" = _CJOk8Nsk;
+        "neoforge-26.3" = _thv2xNsv;
         "quilt-1.20.5" = _sel402OT;
         "quilt-1.20.6" = _sel402OT;
         "quilt-1.21" = _CJOk8Nsk;
@@ -123,13 +139,16 @@ let
         "quilt-26.1" = _CJOk8Nsk;
         "quilt-26.1.1" = _CJOk8Nsk;
         "quilt-26.1.2" = _CJOk8Nsk;
+        "quilt-26.3" = _thv2xNsv;
         "pkg-1.0" = _b4L92jW3;
         "pkg-1.0+mod" = _sel402OT;
         "pkg-1.1" = _fddIQaQx;
         "pkg-1.1+mod" = _p3pzOElu;
         "pkg-1.2" = _EQkYIWB2;
         "pkg-1.2+mod" = _CJOk8Nsk;
-        "default" = _CJOk8Nsk;
+        "pkg-1.2.1" = _4TnvmIjD;
+        "pkg-1.2.1+mod" = _thv2xNsv;
+        "default" = _thv2xNsv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "brays-better-banners";

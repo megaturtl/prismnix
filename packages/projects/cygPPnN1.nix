@@ -31,6 +31,11 @@ let
             "file" = "NoCC-1.3.1.jar";
             "hash" = "sha512-KCFPLRdb5NgoOekSnvxoVndSyMs+JhFhoSL90Gq5LLT6F4f+tDhg9UX32h5mcsAHTzQ91QJaJp8c0671bDiN7g==";
         };
+        _yQZ9Yml6 = {
+            "id" = "yQZ9Yml6";
+            "file" = "NoCC-1.4.1.jar";
+            "hash" = "sha512-9x/kzAEexxqycO7PcFJk6QR5utYvoxWxNCb2N9OjL378vP1zm9Bs0CZRy00xUO7a0AIr+00GnFxwfQBKME+jGw==";
+        };
     in {
         "7Kvz60Ss" = _7Kvz60Ss;
         "qRcYKvf4" = _qRcYKvf4;
@@ -38,6 +43,7 @@ let
         "fKeisY64" = _fKeisY64;
         "YH9puNVX" = _YH9puNVX;
         "hAtoGuKE" = _hAtoGuKE;
+        "yQZ9Yml6" = _yQZ9Yml6;
         "fabric-1.21.8" = _qRcYKvf4;
         "fabric-1.21.9" = _qRcYKvf4;
         "fabric-1.21.10" = _qRcYKvf4;
@@ -45,13 +51,15 @@ let
         "fabric-26.1.1" = _fKeisY64;
         "fabric-26.1.2" = _fKeisY64;
         "fabric-26.2" = _hAtoGuKE;
+        "fabric-26.3" = _yQZ9Yml6;
         "pkg-1.0-SNAPSHOT" = _7Kvz60Ss;
         "pkg-1.0.0" = _qRcYKvf4;
         "pkg-1.1.0" = _A4qd4OeA;
         "pkg-1.2.0" = _fKeisY64;
         "pkg-1.3.0" = _YH9puNVX;
         "pkg-1.3.1" = _hAtoGuKE;
-        "default" = _hAtoGuKE;
+        "pkg-1.4.1" = _yQZ9Yml6;
+        "default" = _yQZ9Yml6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nocc";

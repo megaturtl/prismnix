@@ -86,6 +86,26 @@ let
             "file" = "superbwarfare-1.20.1-0.8.9.1-dcd21d9fc.jar";
             "hash" = "sha512-dmuekrMJs8vllNB7lWpuYDXxUqtLXjV6NLDH+SBEM99qiqR4zU5D0ALG/KKF3S3fhoTXykFfpMv8UjNoA9EP3g==";
         };
+        _VSQMXla9 = {
+            "id" = "VSQMXla9";
+            "file" = "superbwarfare-1.20.1-0.8.9.1-hotfix.jar";
+            "hash" = "sha512-ftzbyQauax3u7bLm6Z/pBOVodUQwjIeyySnK/r5/ZFa65LI/QpRnSkvJAqjqQ0hiEFZ/9D2zh3LA43oYnjyD0A==";
+        };
+        _1RftMPyw = {
+            "id" = "1RftMPyw";
+            "file" = "superbwarfare-1.21.1-0.8.9.1-hotfix.jar";
+            "hash" = "sha512-8DN/Hzj9iVyT7Tf2zv5SpcA8ZcB0ADbhmFjHVW+CkYq40irBKGQsGVc0r27zSZ5A9YALhCWTrfBCBpa73I5uFw==";
+        };
+        _c53ASf7G = {
+            "id" = "c53ASf7G";
+            "file" = "superbwarfare-1.20.1-0.8.9.2-3512a4d58c.jar";
+            "hash" = "sha512-BiQipEsaGdV3HZlmmd1L8SjErhwI5EopxKXIbB9ZxtXW2GDFN1TihReA+Pqw1oxX6X901Yt1lbmfw4fGexAVIw==";
+        };
+        _OsEZFHcH = {
+            "id" = "OsEZFHcH";
+            "file" = "superbwarfare-1.21.1-0.8.9.2.jar";
+            "hash" = "sha512-6Hd1woJyv57T8sbq7CdAWAwmsaui0D/Sdkp+CJE7NvsxReKEt7kTct4UXuIUNl/DA0SWXQ3Jl/X00WXdRnAdAg==";
+        };
     in {
         "HoCLN0XL" = _HoCLN0XL;
         "uQHhrRQG" = _uQHhrRQG;
@@ -104,8 +124,12 @@ let
         "3lmAD6vo" = _3lmAD6vo;
         "DYr0WKbg" = _DYr0WKbg;
         "Yzygeeqa" = _Yzygeeqa;
-        "fabric-1.21.1" = _DYr0WKbg;
-        "fabric-1.20.1" = _Yzygeeqa;
+        "VSQMXla9" = _VSQMXla9;
+        "1RftMPyw" = _1RftMPyw;
+        "c53ASf7G" = _c53ASf7G;
+        "OsEZFHcH" = _OsEZFHcH;
+        "fabric-1.21.1" = _OsEZFHcH;
+        "fabric-1.20.1" = _c53ASf7G;
         "pkg-1.21.1-0.8.8-alfa1" = _HoCLN0XL;
         "pkg-1.21.1-0.8.8-alfa2" = _uQHhrRQG;
         "pkg-1.21.1-0.8.8-alfa3" = _KNIHlQid;
@@ -123,7 +147,11 @@ let
         "pkg-1.21.1-0.8.9-final" = _3lmAD6vo;
         "pkg-1.21.1-0.8.9.1" = _DYr0WKbg;
         "pkg-1.20.1-0.8.9.1" = _Yzygeeqa;
-        "default" = _Yzygeeqa;
+        "pkg-1.20.1-0.8.9.1-hotfix" = _VSQMXla9;
+        "pkg-1.21.1-0.8.9.1-hotfix" = _1RftMPyw;
+        "pkg-1.20-0.8.9.2" = _c53ASf7G;
+        "pkg-1.21.1-0.8.9.2" = _OsEZFHcH;
+        "default" = _OsEZFHcH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "superb-warfare-refabricated";

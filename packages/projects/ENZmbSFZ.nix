@@ -421,6 +421,26 @@ let
             "file" = "dungeon_difficulty-fabric-3.8.0+1.20.1.jar";
             "hash" = "sha512-USv+vhOXgX6dJLuxbzVpWdNbAKiBtnl0hNYxEUPoDK10n3Xb+qx0mw7XJc6K2I38+0HL5SLmPpNc2XIDvmdnmA==";
         };
+        _g7OZwWZE = {
+            "id" = "g7OZwWZE";
+            "file" = "dungeon_difficulty-fabric-3.9.0+1.21.1.jar";
+            "hash" = "sha512-YMu/QGY+kIyRf/QEdJLbXtKGuy9mhni1UtJwZux48GIEBY9nIu1VKjl++unqBaNJMxeopSBAHdLWd5DwCIU21w==";
+        };
+        _XHim1FrL = {
+            "id" = "XHim1FrL";
+            "file" = "dungeon_difficulty-neoforge-3.9.0+1.21.1.jar";
+            "hash" = "sha512-JiflO0IUKOz4nwpp4ajgePpPcU7XLlj3KWDMP7JAsmpINQaxWhHqSmSxQg4G956cq0jcaKRiD2L2jb2CFhcC0w==";
+        };
+        _BxaVNq9N = {
+            "id" = "BxaVNq9N";
+            "file" = "dungeon_difficulty-fabric-3.9.1+1.21.1.jar";
+            "hash" = "sha512-LGG4YAn3kA5ZBPzi8S2yoxYnZuV3s0xkv7XqxpF/m75uD3VPI3X7WjgHH6+EuxzK/ZCsEtLiA99UNgoJGHMlKw==";
+        };
+        _9nrvhiZw = {
+            "id" = "9nrvhiZw";
+            "file" = "dungeon_difficulty-neoforge-3.9.1+1.21.1.jar";
+            "hash" = "sha512-A9V3utzfe/fGQkUCoXSpb5vOvJ/pIcZWqDJ/F7G2Wgj67B6ORL1xDOHy8kRT24aNkhfFR1UuMzVKoNqprTWDKQ==";
+        };
     in {
         "pdMFGWFb" = _pdMFGWFb;
         "ZB1rP0Gg" = _ZB1rP0Gg;
@@ -506,6 +526,10 @@ let
         "qeA1pS5C" = _qeA1pS5C;
         "d56YXb7G" = _d56YXb7G;
         "Ideb2ajw" = _Ideb2ajw;
+        "g7OZwWZE" = _g7OZwWZE;
+        "XHim1FrL" = _XHim1FrL;
+        "BxaVNq9N" = _BxaVNq9N;
+        "9nrvhiZw" = _9nrvhiZw;
         "fabric-1.18.2" = _ymAJ3UJx;
         "fabric-1.19" = _HMmYxIPw;
         "fabric-1.19.1" = _HMmYxIPw;
@@ -514,10 +538,10 @@ let
         "fabric-1.19.4" = _AmSBNxgE;
         "fabric-1.20.1" = _Ideb2ajw;
         "fabric-1.20.2" = _LzGqjsdM;
-        "fabric-1.21" = _M4hLs4aU;
-        "fabric-1.21.1" = _M4hLs4aU;
-        "neoforge-1.21" = _qeA1pS5C;
-        "neoforge-1.21.1" = _qeA1pS5C;
+        "fabric-1.21" = _BxaVNq9N;
+        "fabric-1.21.1" = _BxaVNq9N;
+        "neoforge-1.21" = _9nrvhiZw;
+        "neoforge-1.21.1" = _9nrvhiZw;
         "neoforge-1.20.1" = _d56YXb7G;
         "forge-1.20.1" = _d56YXb7G;
         "pkg-1.0.0" = _pdMFGWFb;
@@ -599,7 +623,11 @@ let
         "pkg-3.8.0+1.21.1-neoforge" = _qeA1pS5C;
         "pkg-3.8.0+1.20.1-forge" = _d56YXb7G;
         "pkg-3.8.0+1.20.1-fabric" = _Ideb2ajw;
-        "default" = _Ideb2ajw;
+        "pkg-3.9.0+1.21.1-fabric" = _g7OZwWZE;
+        "pkg-3.9.0+1.21.1-neoforge" = _XHim1FrL;
+        "pkg-3.9.1+1.21.1-fabric" = _BxaVNq9N;
+        "pkg-3.9.1+1.21.1-neoforge" = _9nrvhiZw;
+        "default" = _9nrvhiZw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dungeon-difficulty";

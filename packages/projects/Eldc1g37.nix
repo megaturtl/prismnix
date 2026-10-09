@@ -831,6 +831,16 @@ let
             "file" = "tcdcommons-5.5.6+fn-26.1.jar";
             "hash" = "sha512-YbtdTCL+ncLTaMcNoTr2d9J8pekUsPgTF+VW3Egrxq1dVjmh/NMhengZxXi8Fcl/PExWLGTD8R5wFW7OsPwBvw==";
         };
+        _WukH01sC = {
+            "id" = "WukH01sC";
+            "file" = "tcdcommons-5.6.0-beta.1+fn-26.3.jar";
+            "hash" = "sha512-0jjt4cHGV5k7FJ4kqcL0GREX8R7+nVZjfgKsM2anh8BAg7HDSIUWGSpJzIkzsdkZkMcEF3ycdCJWfrQuBh52gg==";
+        };
+        _FwE7UAgA = {
+            "id" = "FwE7UAgA";
+            "file" = "tcdcommons-5.6.0-beta.2+fn-26.3.jar";
+            "hash" = "sha512-Oa2xVkH3rI5tVLyywe4TXkAyZvOUL1HQMJSbYS8fbFpWBS0w+cMK4zwJFHH+TJTXro2GE9YamGQXJZqaUCmFTQ==";
+        };
     in {
         "LTzuOBR9" = _LTzuOBR9;
         "zqYM256z" = _zqYM256z;
@@ -998,6 +1008,8 @@ let
         "FAYSwrZc" = _FAYSwrZc;
         "NM3aWYRR" = _NM3aWYRR;
         "uSpV2sxA" = _uSpV2sxA;
+        "WukH01sC" = _WukH01sC;
+        "FwE7UAgA" = _FwE7UAgA;
         "fabric-1.18.2" = _3ozJR9Wg;
         "fabric-1.19.2" = _TDJYcvSZ;
         "fabric-1.19.3" = _o6Y39pqg;
@@ -1026,6 +1038,7 @@ let
         "fabric-26w14a" = _uSpV2sxA;
         "fabric-26.1.2" = _uSpV2sxA;
         "fabric-26.2" = _NM3aWYRR;
+        "fabric-26.3" = _FwE7UAgA;
         "forge-1.18.2" = _Jf38xzKF;
         "forge-1.19.2" = _ziv1qJtR;
         "quilt-1.20" = _2mfYVOhd;
@@ -1055,6 +1068,7 @@ let
         "neoforge-26w14a" = _uSpV2sxA;
         "neoforge-26.1.2" = _uSpV2sxA;
         "neoforge-26.2" = _NM3aWYRR;
+        "neoforge-26.3" = _FwE7UAgA;
         "pkg-v1.0+1.18.2" = _LTzuOBR9;
         "pkg-v1.0+1.19.2" = _zqYM256z;
         "pkg-v2.0+1.18.2" = _CqxoRbpQ;
@@ -1220,7 +1234,9 @@ let
         "pkg-5.5.5+fn-26.1" = _FAYSwrZc;
         "pkg-5.5.6+fn-26.2" = _NM3aWYRR;
         "pkg-5.5.6+fn-26.1" = _uSpV2sxA;
-        "default" = _uSpV2sxA;
+        "pkg-5.6.0-beta.1+fn-26.3" = _WukH01sC;
+        "pkg-5.6.0-beta.2+fn-26.3" = _FwE7UAgA;
+        "default" = _FwE7UAgA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tcdcommons";

@@ -51,6 +51,11 @@ let
             "file" = "§9 §kFL§r §bSnow FLAKE§9 §kFL.zip";
             "hash" = "sha512-dXkf4Z+freCYAjoGBdBqbmuVNUdrCPKJ8pWZvc3zhwpFuxRan2hRsHsDIuMM5jdw+capNgrw6i3XZ96cUPj+JQ==";
         };
+        _IPToq8dp = {
+            "id" = "IPToq8dp";
+            "file" = "Snowflake.zip";
+            "hash" = "sha512-4QM8KC0sYBPSq5LyTscfJwltFVmTxtGsOdaZgbUBNHqdu18mWBtrL0Y8ZLrgkaswpljmhg5n9nDvQgba9e896Q==";
+        };
     in {
         "jkY61PqL" = _jkY61PqL;
         "fxltwfh9" = _fxltwfh9;
@@ -62,6 +67,7 @@ let
         "gyo00EN3" = _gyo00EN3;
         "2pqmRtYm" = _2pqmRtYm;
         "giX2q9Xg" = _giX2q9Xg;
+        "IPToq8dp" = _IPToq8dp;
         "minecraft-1.21.1" = _2pqmRtYm;
         "minecraft-1.21.4" = _2pqmRtYm;
         "minecraft-1.21.5" = _2pqmRtYm;
@@ -79,6 +85,7 @@ let
         "minecraft-1.20.5" = _2pqmRtYm;
         "minecraft-1.20.6" = _2pqmRtYm;
         "minecraft-1.19.4" = _2pqmRtYm;
+        "minecraft-26.2" = _IPToq8dp;
         "pkg-1.0" = _jkY61PqL;
         "pkg-1" = _fxltwfh9;
         "pkg-1.1" = _BQra9ji8;
@@ -87,7 +94,8 @@ let
         "pkg-1.4" = _tAYdRiWW;
         "pkg-1.5" = _MdDiAHLj;
         "pkg-1.6" = _giX2q9Xg;
-        "default" = _giX2q9Xg;
+        "pkg-1.7" = _IPToq8dp;
+        "default" = _IPToq8dp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "snowflake";

@@ -91,6 +91,11 @@ let
             "file" = "PlayerKits-26.2.jar";
             "hash" = "sha512-7jVu24aNIxv0IVZ9ECDIeFka8U3xKWzt9Ik5f7PqFXrBWK94hdZa6icAZPaF1zr6VtiZbiLdaRyM7oToP79aXw==";
         };
+        _AKw2e52I = {
+            "id" = "AKw2e52I";
+            "file" = "PlayerKits-26.3.jar";
+            "hash" = "sha512-0+R02228/i7hCUJuM5cRHDCpoZjts4EhsqgvXrmSttKr4tzPugMOdX7sA1QSHmoCucLdPjKw7EZLlS7cYJvHMw==";
+        };
     in {
         "EqEw8b2n" = _EqEw8b2n;
         "uP3mchxU" = _uP3mchxU;
@@ -110,6 +115,7 @@ let
         "lzJqIbaA" = _lzJqIbaA;
         "EgjqWd5s" = _EgjqWd5s;
         "3VJZGcOf" = _3VJZGcOf;
+        "AKw2e52I" = _AKw2e52I;
         "fabric-1.21" = _EqEw8b2n;
         "fabric-1.21.5" = _XSY3AY7m;
         "fabric-1.21.1" = _QnjJzw4q;
@@ -126,6 +132,7 @@ let
         "fabric-26.1.1" = _EgjqWd5s;
         "fabric-26.1.2" = _EgjqWd5s;
         "fabric-26.2" = _3VJZGcOf;
+        "fabric-26.3" = _AKw2e52I;
         "pkg-1.21" = _EqEw8b2n;
         "pkg-1.21.5.0" = _uP3mchxU;
         "pkg-1.21.5" = _XSY3AY7m;
@@ -142,7 +149,8 @@ let
         "pkg-26.1" = _lzJqIbaA;
         "pkg-26.1.1" = _EgjqWd5s;
         "pkg-26.2" = _3VJZGcOf;
-        "default" = _3VJZGcOf;
+        "pkg-26.3" = _AKw2e52I;
+        "default" = _AKw2e52I;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "player-kits";

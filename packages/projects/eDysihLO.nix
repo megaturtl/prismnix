@@ -1706,6 +1706,21 @@ let
             "file" = "critterarmory-26.2-0.6.5-neoforge.jar";
             "hash" = "sha512-OVLsCpGR/cIn5aVzbzC24EWS/lJ8zZAMpytE2oz6vumzgd6wi5m9Xt3QlLKNtZFZZZseTMDzWmtxBQsEocW7Jw==";
         };
+        _Qcu5lZ5g = {
+            "id" = "Qcu5lZ5g";
+            "file" = "critterarmory-26.3-0.6.5-fabric.jar";
+            "hash" = "sha512-MgGEuTfjwaKwQpX9u9lKbPOk0peSzvdQHeU9L9ymyFZ9h/AVZRqc4nEmInxKwrv2hQRFe2EbtVlkK1Uyv/TQVw==";
+        };
+        _hIjum6NY = {
+            "id" = "hIjum6NY";
+            "file" = "critterarmory-26.3-0.6.5-neoforge.jar";
+            "hash" = "sha512-uDIc0vyNznsMbkSjpLPde19OaOluJKHt1KHUghuqGs5s1R5vinNRH4Mrc3gYdj/lt1a29U5i0UsFwvCb9Y4Eag==";
+        };
+        _FN5q9Ctj = {
+            "id" = "FN5q9Ctj";
+            "file" = "critterarmory-26.3-0.6.5-forge.jar";
+            "hash" = "sha512-PHiY4OjOKTlOiTAAwhT1EZMeD9V2kM877JJylELpFYh1WqwYV2nUdADVeS93NWvTvp4/Zb2ey+ii8B+R36lqpQ==";
+        };
     in {
         "Nb64smST" = _Nb64smST;
         "g3xxrNdp" = _g3xxrNdp;
@@ -2048,6 +2063,9 @@ let
         "9YdQnzUw" = _9YdQnzUw;
         "9o7mBY6n" = _9o7mBY6n;
         "T83KrVyQ" = _T83KrVyQ;
+        "Qcu5lZ5g" = _Qcu5lZ5g;
+        "hIjum6NY" = _hIjum6NY;
+        "FN5q9Ctj" = _FN5q9Ctj;
         "fabric-1.21.4" = _GVr4vfGm;
         "fabric-1.21.2" = _3ZdwrYWL;
         "fabric-1.21.3" = _3ZdwrYWL;
@@ -2075,6 +2093,7 @@ let
         "fabric-26.1.1" = _Y5AigU8I;
         "fabric-26.1.2" = _Y5AigU8I;
         "fabric-26.2" = _9YdQnzUw;
+        "fabric-26.3" = _Qcu5lZ5g;
         "quilt-1.21.4" = _GVr4vfGm;
         "quilt-1.21.2" = _3ZdwrYWL;
         "quilt-1.21.3" = _3ZdwrYWL;
@@ -2102,6 +2121,7 @@ let
         "quilt-26.1.1" = _Y5AigU8I;
         "quilt-26.1.2" = _Y5AigU8I;
         "quilt-26.2" = _9YdQnzUw;
+        "quilt-26.3" = _Qcu5lZ5g;
         "forge-1.21.4" = _6WNYh7aV;
         "forge-1.21.3" = _JN8RlLGV;
         "forge-1.21.1" = _xCpraSMc;
@@ -2126,6 +2146,7 @@ let
         "forge-26.1.1" = _dZIy4k2R;
         "forge-26.1.2" = _dZIy4k2R;
         "forge-26.2" = _9o7mBY6n;
+        "forge-26.3" = _FN5q9Ctj;
         "neoforge-1.21.4" = _EFodpkjq;
         "neoforge-1.21.3" = _5u2zFrLK;
         "neoforge-1.21" = _r6dnL61T;
@@ -2147,6 +2168,7 @@ let
         "neoforge-26.1.1" = _kCItBkwf;
         "neoforge-26.1.2" = _kCItBkwf;
         "neoforge-26.2" = _T83KrVyQ;
+        "neoforge-26.3" = _hIjum6NY;
         "pkg-1.21.4-0.1.0-fabric" = _Nb64smST;
         "pkg-1.21.4-0.1.0-forge" = _g3xxrNdp;
         "pkg-1.21.4-0.1.0-neoforge" = _M9NT2GUI;
@@ -2488,7 +2510,10 @@ let
         "pkg-26.2-0.6.5-fabric" = _9YdQnzUw;
         "pkg-26.2-0.6.5-forge" = _9o7mBY6n;
         "pkg-26.2-0.6.5-neoforge" = _T83KrVyQ;
-        "default" = _T83KrVyQ;
+        "pkg-26.3-0.6.5-fabric" = _Qcu5lZ5g;
+        "pkg-26.3-0.6.5-neoforge" = _hIjum6NY;
+        "pkg-26.3-0.6.5-forge" = _FN5q9Ctj;
+        "default" = _FN5q9Ctj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "critter-armory";

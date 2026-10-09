@@ -66,6 +66,26 @@ let
             "file" = "MumbleIntegration-1.21.1-3.0.1.jar";
             "hash" = "sha512-2hapr6G3OXSgxpsF+SNhEK1fyvC/UGt1ygJxJr9dAhyT0UIelf3zVrdOlkS498HG6MICk2iVi3ikuGFZDDPU+w==";
         };
+        _W1Zvbart = {
+            "id" = "W1Zvbart";
+            "file" = "MumbleIntegration-1.21.1-3.0.2.jar";
+            "hash" = "sha512-f6ODh+GJSDR+XP5OqVt8Na9c/tjBK2QhCdUKVnSh7ZWCoJlprsYmrnB4ZctFbDpCOWapWM7TGldfhQaAF8ugKQ==";
+        };
+        _JrKg0Rnn = {
+            "id" = "JrKg0Rnn";
+            "file" = "MumbleIntegration-1.21.11-3.0.2.jar";
+            "hash" = "sha512-Uay7r6dnY8NHn8XJJQOSPG+ud2hApmBgZLIb/s1QhcnEzbqKwJ7R43dfMz3SfNmQ7t0whHzeoHlmoka8gA6klA==";
+        };
+        _LTV6YYw3 = {
+            "id" = "LTV6YYw3";
+            "file" = "MumbleIntegration-26.1-3.0.2.jar";
+            "hash" = "sha512-26VdWgXcyo/y6RI1kSrmpTn6g2GNNM2G6Fq9b0PUFpab7WLdUdfNgEY55s0hQ5+VOwN//dy9kkBTdVyehi4stw==";
+        };
+        _VOGT8fz8 = {
+            "id" = "VOGT8fz8";
+            "file" = "MumbleIntegration-26.2-3.0.2.jar";
+            "hash" = "sha512-JZSUNXkhucto6+pX3xwVE7UjVkjsnW+VMOAgEeiT44DuPciqjNC4tLoddm1iP5MCm2PgTFfhJlDpOFgFdxM7NA==";
+        };
     in {
         "HCxE5I1A" = _HCxE5I1A;
         "ErgE6Rzv" = _ErgE6Rzv;
@@ -80,6 +100,10 @@ let
         "usR23F8Y" = _usR23F8Y;
         "CCrI0XXT" = _CCrI0XXT;
         "VODcnXdJ" = _VODcnXdJ;
+        "W1Zvbart" = _W1Zvbart;
+        "JrKg0Rnn" = _JrKg0Rnn;
+        "LTV6YYw3" = _LTV6YYw3;
+        "VOGT8fz8" = _VOGT8fz8;
         "forge-1.17.1" = _HCxE5I1A;
         "forge-1.18.2" = _ErgE6Rzv;
         "forge-1.19.4" = _4vpJCKEE;
@@ -90,16 +114,22 @@ let
         "forge-1.20.6" = _76YewDDV;
         "forge-1.21" = _SF8PkBEz;
         "forge-1.21.1" = _usR23F8Y;
-        "neoforge-1.21.1" = _VODcnXdJ;
-        "neoforge-1.21.2" = _VODcnXdJ;
-        "neoforge-1.21.3" = _VODcnXdJ;
-        "neoforge-1.21.4" = _VODcnXdJ;
-        "neoforge-1.21.5" = _VODcnXdJ;
-        "neoforge-1.21.6" = _VODcnXdJ;
-        "neoforge-1.21.7" = _VODcnXdJ;
-        "neoforge-1.21.8" = _VODcnXdJ;
-        "neoforge-1.21.9" = _VODcnXdJ;
-        "neoforge-1.21.10" = _VODcnXdJ;
+        "neoforge-1.21.1" = _W1Zvbart;
+        "neoforge-1.21.2" = _W1Zvbart;
+        "neoforge-1.21.3" = _W1Zvbart;
+        "neoforge-1.21.4" = _W1Zvbart;
+        "neoforge-1.21.5" = _W1Zvbart;
+        "neoforge-1.21.6" = _W1Zvbart;
+        "neoforge-1.21.7" = _W1Zvbart;
+        "neoforge-1.21.8" = _W1Zvbart;
+        "neoforge-1.21.9" = _W1Zvbart;
+        "neoforge-1.21.10" = _W1Zvbart;
+        "neoforge-1.21.11" = _JrKg0Rnn;
+        "neoforge-26.1" = _LTV6YYw3;
+        "neoforge-26.1.1" = _LTV6YYw3;
+        "neoforge-26.1.2" = _LTV6YYw3;
+        "neoforge-26.2" = _VOGT8fz8;
+        "neoforge-26.3" = _VOGT8fz8;
         "pkg-1.17.1-2.0.1" = _HCxE5I1A;
         "pkg-1.18.2-2.0.1" = _ErgE6Rzv;
         "pkg-1.19.4-2.0.2" = _4vpJCKEE;
@@ -113,7 +143,11 @@ let
         "pkg-1.21.1-2.0.3" = _usR23F8Y;
         "pkg-1.21.1-3.0.0" = _CCrI0XXT;
         "pkg-1.21.1-3.0.1" = _VODcnXdJ;
-        "default" = _VODcnXdJ;
+        "pkg-1.21.1-3.0.2" = _W1Zvbart;
+        "pkg-1.21.11-3.0.2" = _JrKg0Rnn;
+        "pkg-26.1-3.0.2" = _LTV6YYw3;
+        "pkg-26.2-3.0.2" = _VOGT8fz8;
+        "default" = _VOGT8fz8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mumble-integration";

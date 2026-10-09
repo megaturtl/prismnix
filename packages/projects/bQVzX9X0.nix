@@ -21,11 +21,17 @@ let
             "file" = "Whimscape Better Elytra Color 1.3.zip";
             "hash" = "sha512-GKpWW3RrL0OH6lCn2y+s+PWB1UMX6cp/JGNyyKCxcPmR6lumRskFrYaymUE+QKqos++KYgjzAXXEOHgjFk533A==";
         };
+        _QJ51UrJ8 = {
+            "id" = "QJ51UrJ8";
+            "file" = "Whimscape Better Elytra Color 1.4.zip";
+            "hash" = "sha512-ChoVq0yoQADjrehymTEIVr00YhWcNVWjI0VH1bS9sTPuMsjrlOY2BdLdt2DY0IcopAF4RkZdqgldl31s/XOB0A==";
+        };
     in {
         "TNwNdkcc" = _TNwNdkcc;
         "JhZs1Nh6" = _JhZs1Nh6;
         "Py7RLiQL" = _Py7RLiQL;
         "l46fObTa" = _l46fObTa;
+        "QJ51UrJ8" = _QJ51UrJ8;
         "minecraft-1.21" = _l46fObTa;
         "minecraft-1.21.1" = _l46fObTa;
         "minecraft-1.21.8" = _l46fObTa;
@@ -38,15 +44,17 @@ let
         "minecraft-1.21.9" = _l46fObTa;
         "minecraft-1.21.10" = _l46fObTa;
         "minecraft-1.21.11" = _l46fObTa;
-        "minecraft-26.1" = _l46fObTa;
-        "minecraft-26.1.1" = _l46fObTa;
-        "minecraft-26.1.2" = _l46fObTa;
-        "minecraft-26.2" = _l46fObTa;
+        "minecraft-26.1" = _QJ51UrJ8;
+        "minecraft-26.1.1" = _QJ51UrJ8;
+        "minecraft-26.1.2" = _QJ51UrJ8;
+        "minecraft-26.2" = _QJ51UrJ8;
+        "minecraft-26.3" = _QJ51UrJ8;
         "pkg-1.0" = _TNwNdkcc;
         "pkg-1.1" = _JhZs1Nh6;
         "pkg-1.2" = _Py7RLiQL;
         "pkg-1.3" = _l46fObTa;
-        "default" = _l46fObTa;
+        "pkg-1.4" = _QJ51UrJ8;
+        "default" = _QJ51UrJ8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "whimscape-better-elytra-color";

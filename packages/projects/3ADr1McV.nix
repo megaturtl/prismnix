@@ -76,6 +76,11 @@ let
             "file" = "colorful_catalysts-2.1.0.jar";
             "hash" = "sha512-XGHCYpwygM6z6V2zWNYuvHDt7sKwL7Vy6AqcgDebZ+HHMpj7+pmb5YVCF1M5Loi2An1mjcdFMii8IImcDfEQoA==";
         };
+        _zzwouLn5 = {
+            "id" = "zzwouLn5";
+            "file" = "colorful_catalysts-2.2.0.jar";
+            "hash" = "sha512-rt5S+u6ubM2K3L9rnc7hvX52+EYazBVT1MpCAulZUL8mXYRh7cnyyGtOqcK9s/y1KkbUAHhunHD5C3996OTqQw==";
+        };
     in {
         "sunSFYa6" = _sunSFYa6;
         "Qs57l4uI" = _Qs57l4uI;
@@ -92,7 +97,8 @@ let
         "XyrWUlJ7" = _XyrWUlJ7;
         "VI6UtgO6" = _VI6UtgO6;
         "iKHXs3Gb" = _iKHXs3Gb;
-        "neoforge-1.21.1" = _iKHXs3Gb;
+        "zzwouLn5" = _zzwouLn5;
+        "neoforge-1.21.1" = _zzwouLn5;
         "pkg-1.0.0" = _sunSFYa6;
         "pkg-1.0.1" = _Qs57l4uI;
         "pkg-1.0.2" = _8WO2cA6j;
@@ -108,7 +114,8 @@ let
         "pkg-2.0.1" = _XyrWUlJ7;
         "pkg-2.0.3" = _VI6UtgO6;
         "pkg-2.1.0" = _iKHXs3Gb;
-        "default" = _iKHXs3Gb;
+        "pkg-2.2.0" = _zzwouLn5;
+        "default" = _zzwouLn5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "colorful-catalysts";

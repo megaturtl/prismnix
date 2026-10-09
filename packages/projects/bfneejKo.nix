@@ -236,6 +236,11 @@ let
             "file" = "syncmatica-fabric-26.2-0.3.20.jar";
             "hash" = "sha512-z0n5h//cYm4Zh++BzfVMnHL448kGs1NQE7VooiJSopkeOxrW2SIbrY+Z6ahn7poS9vHDV9ZPR2gHCStNGADqFg==";
         };
+        _uT7TJ2Wp = {
+            "id" = "uT7TJ2Wp";
+            "file" = "syncmatica-fabric-26.3-0.3.20.jar";
+            "hash" = "sha512-frBntFcSOiIb4n8aQeokgLg4CsB9OrpNljNDQFuDzPuib4wpLGgOSLjVK5fds3/KTr2OV+hsWria9Y89Ip+vqg==";
+        };
     in {
         "ZJm4UbPV" = _ZJm4UbPV;
         "8kQVaVYx" = _8kQVaVYx;
@@ -284,6 +289,7 @@ let
         "jMRygmU0" = _jMRygmU0;
         "wsFbuMkX" = _wsFbuMkX;
         "POv0nHxV" = _POv0nHxV;
+        "uT7TJ2Wp" = _uT7TJ2Wp;
         "fabric-1.19.1" = _4GaJKJoH;
         "fabric-1.16.5" = _YCpraFCt;
         "fabric-1.17.1" = _YCpraFCt;
@@ -323,6 +329,7 @@ let
         "fabric-26.1.1" = _wsFbuMkX;
         "fabric-26.1.2" = _wsFbuMkX;
         "fabric-26.2" = _POv0nHxV;
+        "fabric-26.3" = _uT7TJ2Wp;
         "quilt-1.18" = _4GaJKJoH;
         "quilt-1.18.1" = _4GaJKJoH;
         "quilt-1.18.2" = _4GaJKJoH;
@@ -370,8 +377,8 @@ let
         "pkg-0.3.17" = _a3qv3pRT;
         "pkg-0.3.18" = _qeU4LUwM;
         "pkg-0.3.19" = _f74T22XS;
-        "pkg-0.3.20" = _POv0nHxV;
-        "default" = _POv0nHxV;
+        "pkg-0.3.20" = _uT7TJ2Wp;
+        "default" = _uT7TJ2Wp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "syncmatica";

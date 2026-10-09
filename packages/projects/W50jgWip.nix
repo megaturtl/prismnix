@@ -211,6 +211,16 @@ let
             "file" = "Jujutsucraft-Improve-1.9.1.jar";
             "hash" = "sha512-Jtqc1SfKjmasNycxItiWb0oKH1iPkkCLCXCqFPJ6WNkTSj9uWfaMMtjhZWFaogKeCStg6V5LGmU3knlhEme+jg==";
         };
+        _fB7yCo3A = {
+            "id" = "fB7yCo3A";
+            "file" = "Jujutsucraft-Improve-1.9.1.1.jar";
+            "hash" = "sha512-mdX2wLSRlOSvLRxR9U0wnOftMWDPkAhfwkYg6S9gPJe6dk9dV60kGqjLgV2yi5yfsa36kouZZrq/VGtY/uzCSw==";
+        };
+        _XvC7ay27 = {
+            "id" = "XvC7ay27";
+            "file" = "Jujutsucraft-Improve-1.9.1.2.jar";
+            "hash" = "sha512-NWYyN9xHXNM6pu5Eo3D1+fsSKGBgjzhZKdhJhC8i3rUuyvfIYAVds7260XMWC2dUOTqvcX5zQi/AUFYBBJXZCA==";
+        };
     in {
         "Y4VVzJuZ" = _Y4VVzJuZ;
         "quVkBVmp" = _quVkBVmp;
@@ -254,7 +264,9 @@ let
         "xMpL7nyI" = _xMpL7nyI;
         "zernhwjl" = _zernhwjl;
         "W2YQ2AUy" = _W2YQ2AUy;
-        "forge-1.20.1" = _W2YQ2AUy;
+        "fB7yCo3A" = _fB7yCo3A;
+        "XvC7ay27" = _XvC7ay27;
+        "forge-1.20.1" = _XvC7ay27;
         "pkg-1.5" = _Y4VVzJuZ;
         "pkg-1.5all" = _quVkBVmp;
         "pkg-1.5.2all" = _WUYCjPRa;
@@ -297,7 +309,9 @@ let
         "pkg-1.8.9.2" = _xMpL7nyI;
         "pkg-1.9.0" = _zernhwjl;
         "pkg-1.9.1" = _W2YQ2AUy;
-        "default" = _W2YQ2AUy;
+        "pkg-1.9.1.1" = _fB7yCo3A;
+        "pkg-1.9.1.2" = _XvC7ay27;
+        "default" = _XvC7ay27;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jujutsucraft-improve";

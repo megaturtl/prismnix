@@ -196,6 +196,26 @@ let
             "file" = "letsdo-candlelight-fabric-2.1.12.jar";
             "hash" = "sha512-Zpf5gWP9dNbA1/5EYbqAEdH9IUOFcMgHPODQg/aO4Kzz/HarBeDGF3gQkSDqUhrzCekOD9Qnti7KysmDlOM98g==";
         };
+        _Cxu0FvZB = {
+            "id" = "Cxu0FvZB";
+            "file" = "letsdo-candlelight-neoforge-2.1.13.jar";
+            "hash" = "sha512-gFoLihPGAkpo64IQso3Ds35FHSsjQdjaya6lhs01XdqoZ8P8qbOKSqWHszKBEyOFg34QSJ9PCeMxJGuvIZRxnA==";
+        };
+        _DEKqjSw9 = {
+            "id" = "DEKqjSw9";
+            "file" = "letsdo-candlelight-fabric-2.1.13.jar";
+            "hash" = "sha512-7MeZSWw1GmSiWTho+ujgrFzxGP85samrPohjfRe4CeCLlsJ0WLxPV4RKn5hOPSQlYKcpRkrDTXQm/nJFlUk0xA==";
+        };
+        _aa3WioYe = {
+            "id" = "aa3WioYe";
+            "file" = "letsdo-candlelight-neoforge-2.1.14.jar";
+            "hash" = "sha512-IceL6RZwel5St8mmYP+WkMzeh/OWCFm0LmcycbabPynfMil8gAMDSsBj4RWNbDKokHWMN5qMHvRyNAQFeAdIDA==";
+        };
+        _tdvaSxlF = {
+            "id" = "tdvaSxlF";
+            "file" = "letsdo-candlelight-fabric-2.1.14.jar";
+            "hash" = "sha512-1gtmqRt+WFfvtt7DJzJjheMjXQUekQnnHlDjMhsyPdnhtS2QJdx/uKCH/bbj6L0nwaD5dvMe6CvF+ayc/mov0Q==";
+        };
     in {
         "mEISW07u" = _mEISW07u;
         "B9iuo4HQ" = _B9iuo4HQ;
@@ -236,11 +256,15 @@ let
         "fGN6WS3I" = _fGN6WS3I;
         "cLNC7p0T" = _cLNC7p0T;
         "d67ufvNS" = _d67ufvNS;
+        "Cxu0FvZB" = _Cxu0FvZB;
+        "DEKqjSw9" = _DEKqjSw9;
+        "aa3WioYe" = _aa3WioYe;
+        "tdvaSxlF" = _tdvaSxlF;
         "forge-1.20.1" = _MAbMsxdU;
         "neoforge-1.20.1" = _MAbMsxdU;
-        "neoforge-1.21.1" = _cLNC7p0T;
+        "neoforge-1.21.1" = _aa3WioYe;
         "fabric-1.20.1" = _RUk2PHO1;
-        "fabric-1.21.1" = _d67ufvNS;
+        "fabric-1.21.1" = _tdvaSxlF;
         "quilt-1.20.1" = _RUk2PHO1;
         "pkg-2.0.0" = _B9iuo4HQ;
         "pkg-2.0.1" = _fyYt9JrN;
@@ -262,7 +286,9 @@ let
         "pkg-2.1.10" = _tEDCgUN4;
         "pkg-2.1.11" = _fGN6WS3I;
         "pkg-2.1.12" = _d67ufvNS;
-        "default" = _d67ufvNS;
+        "pkg-2.1.13" = _DEKqjSw9;
+        "pkg-2.1.14" = _tdvaSxlF;
+        "default" = _tdvaSxlF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lets-do-candlelight-farmcharm-compat";

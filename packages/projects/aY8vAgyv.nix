@@ -1061,6 +1061,16 @@ let
             "file" = "simpletextoverlay-26.2-neoforge-5.2.6.4-NEOFORGE.jar";
             "hash" = "sha512-bFaCwNwhmM+C8DVOU9rqxDyphe+i9fTn4HI7aWck/rKp3DcZSAlPnfBDx0LPF3TXtTewKbekFECeNlD2gSn3+g==";
         };
+        _IZHf88Mr = {
+            "id" = "IZHf88Mr";
+            "file" = "simpletextoverlay-26.3-fabric-5.2.6.4-FABRIC.jar";
+            "hash" = "sha512-Fet95HP361B+wYuvm6aeWu6CPLMabmYO/9axhR1DEelWj4bJ2FVFT01y3dbN6Kfz7B4J+JkWuOh5C9sTVKSDnA==";
+        };
+        _KUm1BXv4 = {
+            "id" = "KUm1BXv4";
+            "file" = "simpletextoverlay-26.3-neoforge-5.2.6.4-NEOFORGE.jar";
+            "hash" = "sha512-QK7UIW7apnX7kM808m5EDRbCJR+TK71Po5Hs3G/umADqmkZSnoKjNdQ5W8rw6ABnK5XJJg8UEpNDKTGLNOvxkA==";
+        };
     in {
         "gexFgrgo" = _gexFgrgo;
         "2qjsarN2" = _2qjsarN2;
@@ -1274,6 +1284,8 @@ let
         "IIAkCnaj" = _IIAkCnaj;
         "LcefC2Mv" = _LcefC2Mv;
         "r5oMMj86" = _r5oMMj86;
+        "IZHf88Mr" = _IZHf88Mr;
+        "KUm1BXv4" = _KUm1BXv4;
         "forge-1.18.2" = _L7WnNA0z;
         "forge-1.19" = _KTwdLzOY;
         "forge-1.19.1" = _KTwdLzOY;
@@ -1299,6 +1311,7 @@ let
         "fabric-26.1.1" = _XQ5YCP4W;
         "fabric-26.1.2" = _XQ5YCP4W;
         "fabric-26.2" = _LcefC2Mv;
+        "fabric-26.3" = _IZHf88Mr;
         "neoforge-1.20.1" = _sfmfJwlL;
         "neoforge-1.20.4" = _JHziKFgE;
         "neoforge-1.20.6" = _fab6lSYH;
@@ -1312,6 +1325,7 @@ let
         "neoforge-26.1.1" = _IIAkCnaj;
         "neoforge-26.1.2" = _IIAkCnaj;
         "neoforge-26.2" = _r5oMMj86;
+        "neoforge-26.3" = _KUm1BXv4;
         "pkg-1.18.2-3.4.0.3" = _gexFgrgo;
         "pkg-1.19-1.19.2-4.4.0.4" = _2qjsarN2;
         "pkg-1.19.3-4.5.0.1" = _ff6zhcei;
@@ -1524,7 +1538,9 @@ let
         "pkg-26.1.2-5.2.6.4-NEOFORGE" = _IIAkCnaj;
         "pkg-26.2-5.2.6.4-FABRIC" = _LcefC2Mv;
         "pkg-26.2-5.2.6.4-NEOFORGE" = _r5oMMj86;
-        "default" = _r5oMMj86;
+        "pkg-26.3-5.2.6.4-FABRIC" = _IZHf88Mr;
+        "pkg-26.3-5.2.6.4-NEOFORGE" = _KUm1BXv4;
+        "default" = _KUm1BXv4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simpletextoverlay";

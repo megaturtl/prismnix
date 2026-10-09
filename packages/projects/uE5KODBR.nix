@@ -81,6 +81,11 @@ let
             "file" = "Friendermite_NEOFORGE_v1.0.6_mc26.2.jar";
             "hash" = "sha512-eIs50xVNNchRygHuwa/7/QoCoXxuwgoFBwYBA0mPx+TA4XsJVVGnUalb1qHULPCWGJsjxjExsRy2JyOzA8ZBfw==";
         };
+        _L1uVEyxo = {
+            "id" = "L1uVEyxo";
+            "file" = "Friendermite_NEOFORGE_v1.0.6_mc26.3.jar";
+            "hash" = "sha512-b2dBF4jsVPq4bZMpcdZZhf3Q/YonLtl3+DSM38U4llPaiPatqGlOcqvPlpHhuu/3SIU09MSzHd4FJ3XOMLXNHw==";
+        };
     in {
         "679wB1yE" = _679wB1yE;
         "kKJkPL2v" = _kKJkPL2v;
@@ -98,6 +103,7 @@ let
         "nPZb1eVP" = _nPZb1eVP;
         "qkHqfyes" = _qkHqfyes;
         "nBcl4MjG" = _nBcl4MjG;
+        "L1uVEyxo" = _L1uVEyxo;
         "forge-1.18.2" = _679wB1yE;
         "forge-1.19.2" = _kKJkPL2v;
         "forge-1.19.3" = _uWmL7OBQ;
@@ -117,9 +123,10 @@ let
         "neoforge-26.1" = _nPZb1eVP;
         "neoforge-26.1.2" = _qkHqfyes;
         "neoforge-26.2" = _nBcl4MjG;
+        "neoforge-26.3" = _L1uVEyxo;
         "pkg-1.0.4" = _679wB1yE;
-        "pkg-1.0.6" = _nBcl4MjG;
-        "default" = _nBcl4MjG;
+        "pkg-1.0.6" = _L1uVEyxo;
+        "default" = _L1uVEyxo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "friendermite";

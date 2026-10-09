@@ -26,19 +26,34 @@ let
             "file" = "shieldnparry-1.1.1.jar";
             "hash" = "sha512-A6uq3DueslsiXPr7DNS3jL5TgPpbyjy9PE3IkNDwRdHChPLzWS8qhOVQPjqGYg5OeH2MiRDdkAdbIDTdNzNenA==";
         };
+        _vz6Yf6Dj = {
+            "id" = "vz6Yf6Dj";
+            "file" = "shieldnparry-1.2.B.jar";
+            "hash" = "sha512-VVMiVS8j+jOehB/M00g9j6mOfXQf6b9MWF1H0a0CBvkIE1YRU4BfrFqy6dS8N70r4zWfMkkwc+O1jMwJadRe2Q==";
+        };
+        _5t5cTCVi = {
+            "id" = "5t5cTCVi";
+            "file" = "shieldnparry-1.2.A.jar";
+            "hash" = "sha512-erzczVUrvZphNpGTqflGIVnnD21woNLBuRIrMvT8+8w7e4kZ869MizhbpGUnV3BOAfEGQxGz2bABDeatNc3NIw==";
+        };
     in {
         "pQ0Vmxhz" = _pQ0Vmxhz;
         "SFIRtmkF" = _SFIRtmkF;
         "wnXXkWYH" = _wnXXkWYH;
         "680XTl5V" = _680XTl5V;
         "2ZFDDkS1" = _2ZFDDkS1;
-        "neoforge-1.21.1" = _2ZFDDkS1;
+        "vz6Yf6Dj" = _vz6Yf6Dj;
+        "5t5cTCVi" = _5t5cTCVi;
+        "neoforge-1.21.1" = _5t5cTCVi;
+        "neoforge-26.1.2" = _vz6Yf6Dj;
         "pkg-0.9.5" = _pQ0Vmxhz;
         "pkg-1.0.0" = _SFIRtmkF;
         "pkg-1.0.1" = _wnXXkWYH;
         "pkg-1.1.0" = _680XTl5V;
         "pkg-1.1.1" = _2ZFDDkS1;
-        "default" = _2ZFDDkS1;
+        "pkg-1.2.B" = _vz6Yf6Dj;
+        "pkg-1.2.A" = _5t5cTCVi;
+        "default" = _5t5cTCVi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shield-n-parry";

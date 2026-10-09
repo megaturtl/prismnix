@@ -111,6 +111,16 @@ let
             "file" = "mobs-equipment-2.0.4.jar";
             "hash" = "sha512-KZ+gzag+zjlkY5ArP9hG63JZSk8OSjod+jAv+mz2jYXRqGMDcfEIOQyLUf9Z6t9hqf+0dGMJe4hj+NI5NglJXg==";
         };
+        _lDaN61TN = {
+            "id" = "lDaN61TN";
+            "file" = "Mobs Equipment v2.0.4 [26.3].zip";
+            "hash" = "sha512-7WUtmwy+d5Y0s2Af0M8ggh8/YefqVy5stqZXQDdp815lASnznNuq9NP+K26zcvXMLa228kuMjvodxGn2NamLCg==";
+        };
+        _fzuXNsqo = {
+            "id" = "fzuXNsqo";
+            "file" = "mobs-equipment-2.0.4.jar";
+            "hash" = "sha512-NisxWusYAaJXu2DnAtil1uMp7xXMbxsNvOOIccZPFNUOC9M7oE48iY+zn+rWnpIGWzjM04Uns00wmH0WrlCN8w==";
+        };
     in {
         "VTWl9x1z" = _VTWl9x1z;
         "P4fZoY8j" = _P4fZoY8j;
@@ -134,6 +144,8 @@ let
         "nxWhsy7U" = _nxWhsy7U;
         "kjbu6ENq" = _kjbu6ENq;
         "xfudQ6Yr" = _xfudQ6Yr;
+        "lDaN61TN" = _lDaN61TN;
+        "fzuXNsqo" = _fzuXNsqo;
         "datapack-1.21.9" = _EmRiRUr5;
         "datapack-1.21.10" = _EmRiRUr5;
         "datapack-1.21.11" = _kjbu6ENq;
@@ -145,6 +157,7 @@ let
         "datapack-26.1.1" = _kjbu6ENq;
         "datapack-26.1.2" = _kjbu6ENq;
         "datapack-26.2" = _kjbu6ENq;
+        "datapack-26.3" = _lDaN61TN;
         "fabric-1.21.9" = _kl7YQNsU;
         "fabric-1.21.10" = _kl7YQNsU;
         "fabric-1.21.11" = _xfudQ6Yr;
@@ -156,6 +169,7 @@ let
         "fabric-26.1.1" = _xfudQ6Yr;
         "fabric-26.1.2" = _xfudQ6Yr;
         "fabric-26.2" = _xfudQ6Yr;
+        "fabric-26.3" = _fzuXNsqo;
         "forge-1.21.9" = _kl7YQNsU;
         "forge-1.21.10" = _kl7YQNsU;
         "forge-1.21.11" = _xfudQ6Yr;
@@ -167,6 +181,7 @@ let
         "forge-26.1.1" = _xfudQ6Yr;
         "forge-26.1.2" = _xfudQ6Yr;
         "forge-26.2" = _xfudQ6Yr;
+        "forge-26.3" = _fzuXNsqo;
         "neoforge-1.21.9" = _kl7YQNsU;
         "neoforge-1.21.10" = _kl7YQNsU;
         "neoforge-1.21.11" = _xfudQ6Yr;
@@ -178,6 +193,7 @@ let
         "neoforge-26.1.1" = _xfudQ6Yr;
         "neoforge-26.1.2" = _xfudQ6Yr;
         "neoforge-26.2" = _xfudQ6Yr;
+        "neoforge-26.3" = _fzuXNsqo;
         "quilt-1.21.9" = _kl7YQNsU;
         "quilt-1.21.10" = _kl7YQNsU;
         "quilt-1.21.11" = _xfudQ6Yr;
@@ -189,6 +205,7 @@ let
         "quilt-26.1.1" = _xfudQ6Yr;
         "quilt-26.1.2" = _xfudQ6Yr;
         "quilt-26.2" = _xfudQ6Yr;
+        "quilt-26.3" = _fzuXNsqo;
         "pkg-1.0.0" = _VTWl9x1z;
         "pkg-1.0.0+mod" = _P4fZoY8j;
         "pkg-2.0.0" = _QHzP5jtb;
@@ -197,9 +214,9 @@ let
         "pkg-2.0.1+mod" = _RgTofCNo;
         "pkg-2.0.2" = _Qln599bY;
         "pkg-2.0.2+mod" = _nxWhsy7U;
-        "pkg-2.0.4" = _kjbu6ENq;
-        "pkg-2.0.4+mod" = _xfudQ6Yr;
-        "default" = _xfudQ6Yr;
+        "pkg-2.0.4" = _lDaN61TN;
+        "pkg-2.0.4+mod" = _fzuXNsqo;
+        "default" = _fzuXNsqo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mobs-equipment";

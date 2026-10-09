@@ -206,6 +206,51 @@ let
             "file" = "beekeeperhut-fabric-3.0.3+mc26.2.jar";
             "hash" = "sha512-93Ux427yAHqo8oRIFtMjKl9M7hdD7GxQzwZHgMVhNzELroHNp2mTfOsdkAJ+jNzcOyMWXx+ReQYhc65jGiY9DA==";
         };
+        _MgPp1vZ2 = {
+            "id" = "MgPp1vZ2";
+            "file" = "beekeeperhut-fabric-3.0.4+mc1.21.1.jar";
+            "hash" = "sha512-SWOc6mWkV9GOZjTaK2dT7Q72t3dfxyd+SafRhbCA/MKmMqplxs1m7gUTlIaVUwwByX0+SyPWOM4QYPjKBVA7KQ==";
+        };
+        _Eu7h6mmq = {
+            "id" = "Eu7h6mmq";
+            "file" = "beekeeperhut-fabric-3.0.4+mc1.21.5.jar";
+            "hash" = "sha512-blunXDFD0J9F9xeQpRTmfZ74wd5zl2G/7zXR6Cuwc6/AS6HBzxFZHoy9ZsCq9I9WszjP/5svpN7m88fOkkpy2Q==";
+        };
+        _UGPspd9L = {
+            "id" = "UGPspd9L";
+            "file" = "beekeeperhut-fabric-3.0.4+mc1.21.8.jar";
+            "hash" = "sha512-e2JmsYQaYEtViERu50qBg9mkuPAb3jFAEozpDfYIZYbIS6KaL/b1WoDMd6Mv9QyQaZ9cXuvm5ZquYXXHshXhSw==";
+        };
+        _dFW6FpVp = {
+            "id" = "dFW6FpVp";
+            "file" = "beekeeperhut-fabric-3.0.4+mc1.21.4.jar";
+            "hash" = "sha512-7ZUMDINhQqp5MxZ2f9LSWYM5ko0W74UpK/qw4754Xq8KtmHNyIWlDquTRxdCtRKHUdMwNz2DWA6ffNwNXA3yUg==";
+        };
+        _e1hxwKxl = {
+            "id" = "e1hxwKxl";
+            "file" = "beekeeperhut-fabric-3.0.4+mc26.1.2.jar";
+            "hash" = "sha512-lCXWoCi+db7x50WHWBRJYFqQQFjxJNoD4IRM5cCAc/8PSiOkwquXLpxel7h5HP6wOBln3N8gX3XOmRkTtJoYcA==";
+        };
+        _jdvNIo6K = {
+            "id" = "jdvNIo6K";
+            "file" = "beekeeperhut-fabric-3.0.4+mc1.21.10.jar";
+            "hash" = "sha512-7a18Q95OVOtRXDbDbLetbKukA12U3mD/GCRbwXuPtjNhzYqKivKcVSQkqAhuaHcxtdrLHFPuHWQiyc8S9m5XgQ==";
+        };
+        _wCJevsCf = {
+            "id" = "wCJevsCf";
+            "file" = "beekeeperhut-fabric-3.0.4+mc1.21.11.jar";
+            "hash" = "sha512-kS8LBrcIEB6/J8GbD+BKGsJ88rTPT3i4gpC62iS3tTWjmNiiQwJHamfAtvvNUbccdEDOFAc7veF/3RLEUnj8jg==";
+        };
+        _CRDHnH6Z = {
+            "id" = "CRDHnH6Z";
+            "file" = "beekeeperhut-fabric-3.0.4+mc26.2.jar";
+            "hash" = "sha512-PnK1jnIHuAd19H3ZIpNp1r92ngUNX2BY3TEb84xEUmh0p8A1OhM3jFp9CFW97FzFqAKRWer6MXtvyaDlp1sDUQ==";
+        };
+        _PI41XYB4 = {
+            "id" = "PI41XYB4";
+            "file" = "beekeeperhut-fabric-3.0.4+mc26.3.jar";
+            "hash" = "sha512-QkUhTQ16aZQ4vkEWS/ex/QkElx5OeSvdxd8Bzdz5IWQDgh4F9YlZHiT9SE/dLR+w6Sl2RpOgH2R2IZEXHwNuhg==";
+        };
     in {
         "hqOD9ho4" = _hqOD9ho4;
         "m9JuxcTp" = _m9JuxcTp;
@@ -248,6 +293,15 @@ let
         "I3w5gVza" = _I3w5gVza;
         "RpvbKPEJ" = _RpvbKPEJ;
         "6LxHoKnK" = _6LxHoKnK;
+        "MgPp1vZ2" = _MgPp1vZ2;
+        "Eu7h6mmq" = _Eu7h6mmq;
+        "UGPspd9L" = _UGPspd9L;
+        "dFW6FpVp" = _dFW6FpVp;
+        "e1hxwKxl" = _e1hxwKxl;
+        "jdvNIo6K" = _jdvNIo6K;
+        "wCJevsCf" = _wCJevsCf;
+        "CRDHnH6Z" = _CRDHnH6Z;
+        "PI41XYB4" = _PI41XYB4;
         "fabric-1.19" = _8tkUqpmp;
         "fabric-1.19.1" = _8tkUqpmp;
         "fabric-1.19.2" = _Er8wXYv6;
@@ -259,20 +313,21 @@ let
         "fabric-1.20.3" = _jZy55Iis;
         "fabric-1.20.4" = _ePDBld1C;
         "fabric-1.20.6" = _1o87glRI;
-        "fabric-1.21" = _fP4awrdC;
-        "fabric-1.21.1" = _fP4awrdC;
-        "fabric-1.21.5" = _U6BZoRel;
-        "fabric-1.21.4" = _CuxmmFTt;
-        "fabric-1.21.6" = _ccpEPRT6;
-        "fabric-1.21.7" = _ccpEPRT6;
-        "fabric-1.21.8" = _ccpEPRT6;
-        "fabric-1.21.9" = _I3w5gVza;
-        "fabric-1.21.10" = _I3w5gVza;
-        "fabric-1.21.11" = _IUhK7gB9;
-        "fabric-26.1" = _RpvbKPEJ;
-        "fabric-26.1.1" = _RpvbKPEJ;
-        "fabric-26.1.2" = _RpvbKPEJ;
-        "fabric-26.2" = _6LxHoKnK;
+        "fabric-1.21" = _MgPp1vZ2;
+        "fabric-1.21.1" = _MgPp1vZ2;
+        "fabric-1.21.5" = _Eu7h6mmq;
+        "fabric-1.21.4" = _dFW6FpVp;
+        "fabric-1.21.6" = _UGPspd9L;
+        "fabric-1.21.7" = _UGPspd9L;
+        "fabric-1.21.8" = _UGPspd9L;
+        "fabric-1.21.9" = _jdvNIo6K;
+        "fabric-1.21.10" = _jdvNIo6K;
+        "fabric-1.21.11" = _wCJevsCf;
+        "fabric-26.1" = _e1hxwKxl;
+        "fabric-26.1.1" = _e1hxwKxl;
+        "fabric-26.1.2" = _e1hxwKxl;
+        "fabric-26.2" = _CRDHnH6Z;
+        "fabric-26.3" = _PI41XYB4;
         "quilt-1.19.2" = _Er8wXYv6;
         "quilt-1.19.3" = _1KYeUSUz;
         "quilt-1.19.4" = _b8oxiTJ3;
@@ -282,20 +337,21 @@ let
         "quilt-1.20.3" = _jZy55Iis;
         "quilt-1.20.4" = _ePDBld1C;
         "quilt-1.20.6" = _1o87glRI;
-        "quilt-1.21" = _fP4awrdC;
-        "quilt-1.21.1" = _fP4awrdC;
-        "quilt-1.21.5" = _U6BZoRel;
-        "quilt-1.21.4" = _CuxmmFTt;
-        "quilt-1.21.6" = _ccpEPRT6;
-        "quilt-1.21.7" = _ccpEPRT6;
-        "quilt-1.21.8" = _ccpEPRT6;
-        "quilt-1.21.9" = _I3w5gVza;
-        "quilt-1.21.10" = _I3w5gVza;
-        "quilt-1.21.11" = _IUhK7gB9;
-        "quilt-26.1" = _RpvbKPEJ;
-        "quilt-26.1.1" = _RpvbKPEJ;
-        "quilt-26.1.2" = _RpvbKPEJ;
-        "quilt-26.2" = _6LxHoKnK;
+        "quilt-1.21" = _MgPp1vZ2;
+        "quilt-1.21.1" = _MgPp1vZ2;
+        "quilt-1.21.5" = _Eu7h6mmq;
+        "quilt-1.21.4" = _dFW6FpVp;
+        "quilt-1.21.6" = _UGPspd9L;
+        "quilt-1.21.7" = _UGPspd9L;
+        "quilt-1.21.8" = _UGPspd9L;
+        "quilt-1.21.9" = _jdvNIo6K;
+        "quilt-1.21.10" = _jdvNIo6K;
+        "quilt-1.21.11" = _wCJevsCf;
+        "quilt-26.1" = _e1hxwKxl;
+        "quilt-26.1.1" = _e1hxwKxl;
+        "quilt-26.1.2" = _e1hxwKxl;
+        "quilt-26.2" = _CRDHnH6Z;
+        "quilt-26.3" = _PI41XYB4;
         "pkg-fabric-mc1.19.2-1.0.0" = _hqOD9ho4;
         "pkg-fabric-mc1.19.3-1.1.0" = _m9JuxcTp;
         "pkg-fabric-mc1.19.2-1.2.0" = _8tkUqpmp;
@@ -337,7 +393,16 @@ let
         "pkg-fabric-3.0.3+mc1.21.10" = _I3w5gVza;
         "pkg-fabric-3.0.3+mc26.1.2" = _RpvbKPEJ;
         "pkg-fabric-3.0.3+mc26.2" = _6LxHoKnK;
-        "default" = _6LxHoKnK;
+        "pkg-fabric-3.0.4+mc1.21.1" = _MgPp1vZ2;
+        "pkg-fabric-3.0.4+mc1.21.5" = _Eu7h6mmq;
+        "pkg-fabric-3.0.4+mc1.21.8" = _UGPspd9L;
+        "pkg-fabric-3.0.4+mc1.21.4" = _dFW6FpVp;
+        "pkg-fabric-3.0.4+mc26.1.2" = _e1hxwKxl;
+        "pkg-fabric-3.0.4+mc1.21.10" = _jdvNIo6K;
+        "pkg-fabric-3.0.4+mc1.21.11" = _wCJevsCf;
+        "pkg-fabric-3.0.4+mc26.2" = _CRDHnH6Z;
+        "pkg-fabric-3.0.4+mc26.3" = _PI41XYB4;
+        "default" = _PI41XYB4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "friends-and-foes-beekeeper-hut-fabric";

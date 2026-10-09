@@ -176,6 +176,11 @@ let
             "file" = "divein-0.1.17-26.2.jar";
             "hash" = "sha512-SEg3oEDnB5BG1/LZYYDljQsqncIs+t8GVG5H+cOhnTQ/E0g4eYNgeF2147fbysOq5y+Ux0cCJOjotsWFIvVpfA==";
         };
+        _FuI32V89 = {
+            "id" = "FuI32V89";
+            "file" = "divein-0.1.18-26.3.jar";
+            "hash" = "sha512-TDK1rWdmwKuBBnKQZZQvjzrePldQ2q5jkFFYHbX1RaxjRPBJfljFKcSjR557zIhqDxOTPevj3WPpFsUATRPg1A==";
+        };
     in {
         "EREdi3pN" = _EREdi3pN;
         "E6nfbF4m" = _E6nfbF4m;
@@ -212,6 +217,7 @@ let
         "MifVq0kQ" = _MifVq0kQ;
         "GpsuaAgm" = _GpsuaAgm;
         "aUP8pCrL" = _aUP8pCrL;
+        "FuI32V89" = _FuI32V89;
         "fabric-1.21.1" = _npgBinn5;
         "fabric-1.20.1" = _bEfbGNZf;
         "fabric-1.21.10" = _HpMdvi4P;
@@ -221,6 +227,7 @@ let
         "fabric-26.1.1" = _GpsuaAgm;
         "fabric-26.1.2" = _GpsuaAgm;
         "fabric-26.2" = _aUP8pCrL;
+        "fabric-26.3" = _FuI32V89;
         "neoforge-1.21.1" = _BKUQLHXm;
         "forge-1.20.1" = _tjx45pLC;
         "pkg-0.1.2-beta-1.21.1" = _EREdi3pN;
@@ -258,7 +265,8 @@ let
         "pkg-0.1.15-1.21.11" = _MifVq0kQ;
         "pkg-0.1.16-26.1" = _GpsuaAgm;
         "pkg-0.1.17-26.2" = _aUP8pCrL;
-        "default" = _aUP8pCrL;
+        "pkg-0.1.18-26.3" = _FuI32V89;
+        "default" = _FuI32V89;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dive-in";

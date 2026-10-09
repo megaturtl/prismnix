@@ -26,19 +26,26 @@ let
             "file" = "armorscaling-0.5.4-customgun-neoforge-1.21.1.jar";
             "hash" = "sha512-apMNPB/V9yIAwN1nnGovCQS2DJWDewNECq+ymtyvxfrVu2CkX5vCd/j1870lAOuA+YI3tsjSpzqtAuCKnosDAA==";
         };
+        _pLviHpp5 = {
+            "id" = "pLviHpp5";
+            "file" = "armorscaling-0.5.4-customgun-neoforge-26.3.jar";
+            "hash" = "sha512-ovPM6nkVE4DMOkZrB3vynbAve0Wurajndl95KgwB4b5lhmM6Rt27L/TfU4gjT571XFbMLTSKvQRXheKn5asNHQ==";
+        };
     in {
         "yRyCbaZ9" = _yRyCbaZ9;
         "fZkPNb9C" = _fZkPNb9C;
         "ONc4dLoz" = _ONc4dLoz;
         "odHMTv3H" = _odHMTv3H;
         "yuJXBJB4" = _yuJXBJB4;
+        "pLviHpp5" = _pLviHpp5;
         "forge-1.20" = _ONc4dLoz;
         "forge-1.20.1" = _ONc4dLoz;
         "neoforge-1.21.1" = _yuJXBJB4;
+        "neoforge-26.3" = _pLviHpp5;
         "pkg-0.5.1" = _fZkPNb9C;
         "pkg-0.5.4" = _odHMTv3H;
-        "pkg-0.5.4-customgun" = _yuJXBJB4;
-        "default" = _yuJXBJB4;
+        "pkg-0.5.4-customgun" = _pLviHpp5;
+        "default" = _pLviHpp5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tacz-armor-scaling";

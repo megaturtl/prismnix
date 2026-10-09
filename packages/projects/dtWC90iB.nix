@@ -1071,6 +1071,21 @@ let
             "file" = "mcw-furniture-3.4.2-mc26.2fabric.jar";
             "hash" = "sha512-7TmxMmCesxrXIF1mf4RAl+8E1mpEmC8mAhbKsEn0LryUWP/SfyUc1nKUqja6hOqrm6t2Ph5tuS9kXFG3dqwx1Q==";
         };
+        _uozKZar1 = {
+            "id" = "uozKZar1";
+            "file" = "mcw-furniture-3.4.2-mc26.3neoforge.jar";
+            "hash" = "sha512-C9SB8cKeyGqCo2b83GMRjqzZUmOGNxQvYtmK+hvmXO+QOHiq2475n9G5OwSko7CvM+Y5W2+pxRCxdXSEnFIPpQ==";
+        };
+        _A95vOnzh = {
+            "id" = "A95vOnzh";
+            "file" = "mcw-furniture-3.4.2-mc26.3forge.jar";
+            "hash" = "sha512-ez+Gxqz15EflL70droyFtUs/gdJHcvrG6GBSCkN8xXeYGDoSIE46JkVeltE3kaQBtUtCLo9KeP3nBvlM2zR1Qg==";
+        };
+        _8Z6HSCVW = {
+            "id" = "8Z6HSCVW";
+            "file" = "mcw-furniture-3.4.2-mc26.3fabric.jar";
+            "hash" = "sha512-kAMKn2QsJU6pVFiLZseK5MZSRqjBQUiyPN4UTQMdJN/wn04UJxyp3nivkhAWVTbVGzBhRPRC11wu+idRegg+Dg==";
+        };
     in {
         "5ahMUdR3" = _5ahMUdR3;
         "r6NzPonX" = _r6NzPonX;
@@ -1286,6 +1301,9 @@ let
         "4GuUAc24" = _4GuUAc24;
         "4F7cXrbM" = _4F7cXrbM;
         "ptL25rVF" = _ptL25rVF;
+        "uozKZar1" = _uozKZar1;
+        "A95vOnzh" = _A95vOnzh;
+        "8Z6HSCVW" = _8Z6HSCVW;
         "fabric-1.18.2" = _qTIOaHcf;
         "fabric-1.19" = _jDBHAj0B;
         "fabric-1.19.1" = _6nhZUXvI;
@@ -1313,6 +1331,7 @@ let
         "fabric-26.1.1" = _RZnGeGr0;
         "fabric-26.1.2" = _RZnGeGr0;
         "fabric-26.2" = _ptL25rVF;
+        "fabric-26.3" = _8Z6HSCVW;
         "forge-1.16.5" = _vugCAdky;
         "forge-1.17.1" = _KvIF2CNq;
         "forge-1.18.1" = _Ou8TskfN;
@@ -1343,6 +1362,7 @@ let
         "forge-26.1.1" = _UeKpVX2G;
         "forge-26.1.2" = _UeKpVX2G;
         "forge-26.2" = _4GuUAc24;
+        "forge-26.3" = _A95vOnzh;
         "neoforge-1.20.4" = _gpcaLCZc;
         "neoforge-1.20.6" = _4XAqyu51;
         "neoforge-1.21" = _7d7X5XdJ;
@@ -1360,13 +1380,14 @@ let
         "neoforge-26.1.1" = _u023zH3J;
         "neoforge-26.1.2" = _u023zH3J;
         "neoforge-26.2" = _4F7cXrbM;
+        "neoforge-26.3" = _uozKZar1;
         "pkg-3.2.1" = _d5kFP5eV;
         "pkg-3.2.2" = _QfOSFoP6;
         "pkg-3.3.0" = _79UcQb4L;
         "pkg-3.4.0" = _nLNvMU73;
         "pkg-3.4.1" = _ptL25rVF;
-        "pkg-3.4.2" = _4F7cXrbM;
-        "default" = _ptL25rVF;
+        "pkg-3.4.2" = _8Z6HSCVW;
+        "default" = _8Z6HSCVW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "macaws-furniture";

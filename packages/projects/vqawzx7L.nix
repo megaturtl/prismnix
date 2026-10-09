@@ -71,6 +71,11 @@ let
             "file" = "thematic-fabric-1.20.1-1.6.7.jar";
             "hash" = "sha512-Yiuy8zPzWH1WdSY4IAbEThHUV13kcWhsCcTnjOT0Q/uJg7qXbAJjFBRllJBmqeQoZXTjrj41m2NtLoavgR6iPw==";
         };
+        _fLaJsnBq = {
+            "id" = "fLaJsnBq";
+            "file" = "thematic-fabric-1.20.1-1.6.8.jar";
+            "hash" = "sha512-f3O8d4KouzCWUh7JaXeYBU03o5T+P1+CgKtIQuEBDl6M0d9Ct60zYDa/MD8alK/cgxhQvklzdhHjChhl9p5Rag==";
+        };
     in {
         "5EfO5Vv6" = _5EfO5Vv6;
         "o859vzlR" = _o859vzlR;
@@ -86,8 +91,9 @@ let
         "PjST7Ss9" = _PjST7Ss9;
         "qpGEUmLO" = _qpGEUmLO;
         "Y9GvWHok" = _Y9GvWHok;
-        "fabric-1.20.1" = _Y9GvWHok;
-        "fabric-1.20" = _Y9GvWHok;
+        "fLaJsnBq" = _fLaJsnBq;
+        "fabric-1.20.1" = _fLaJsnBq;
+        "fabric-1.20" = _fLaJsnBq;
         "pkg-1.5.4" = _5EfO5Vv6;
         "pkg-1.5.5" = _o859vzlR;
         "pkg-1.5.7" = _gF2AlGoM;
@@ -102,7 +108,8 @@ let
         "pkg-1.6.5" = _PjST7Ss9;
         "pkg-1.6.6" = _qpGEUmLO;
         "pkg-1.6.7" = _Y9GvWHok;
-        "default" = _Y9GvWHok;
+        "pkg-1.6.8" = _fLaJsnBq;
+        "default" = _fLaJsnBq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "thematic-api";

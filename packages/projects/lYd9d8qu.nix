@@ -221,6 +221,26 @@ let
             "file" = "evo-plus-3.2.1.jar";
             "hash" = "sha512-BYO3ou5Eh5ZHhpDHE5ygX8XqnV92a3bQZDEO6gt3oMxmfSetyOwm29qMTiX7RSSqOL+8fqU5im7dVvjwY7np8Q==";
         };
+        _RnnRQkjA = {
+            "id" = "RnnRQkjA";
+            "file" = "evo-plus-3.3.0.jar";
+            "hash" = "sha512-WLRNZhlzfAMYzyipQwzicxVF04mKS1X5VlkNV4ePTvyvcZ0e+BhFLvBjCaeIXZTx4DpObjxlDK8g2nCS6YNvHQ==";
+        };
+        _xI17mhFp = {
+            "id" = "xI17mhFp";
+            "file" = "evo-plus-3.3.1.jar";
+            "hash" = "sha512-a4qJ4/eyOOSfktF/Wr9tN40N7D7KI5B88lxdHu1avwaYw9zjTGxvUKfQbdWXwhoiN2L+2ySKBev6h7Qa7xKuWg==";
+        };
+        _alhROBLQ = {
+            "id" = "alhROBLQ";
+            "file" = "evo-plus-3.3.2.jar";
+            "hash" = "sha512-oPFrRTlJ8qQbd/Y4hKYk55MQMEV9bKQbM5l3/QBDr5NDrPEAnIO6d38R4rMJTK0/cq8bMphmtSzK9T7ToMVzGA==";
+        };
+        _oPM9Ojqg = {
+            "id" = "oPM9Ojqg";
+            "file" = "evo-plus-3.3.3.jar";
+            "hash" = "sha512-z2pIaZOvlxE8fTFFi69cuEyHE59xVnKLG88PNg9ZVu6qFfIxQuB3usqR0DfjXjsWbrk6iTV6ZooD02ud5d+R/g==";
+        };
     in {
         "SSN82BiY" = _SSN82BiY;
         "g628Bvnz" = _g628Bvnz;
@@ -266,9 +286,14 @@ let
         "ir3othq2" = _ir3othq2;
         "og9651Ma" = _og9651Ma;
         "AtJsEnb7" = _AtJsEnb7;
+        "RnnRQkjA" = _RnnRQkjA;
+        "xI17mhFp" = _xI17mhFp;
+        "alhROBLQ" = _alhROBLQ;
+        "oPM9Ojqg" = _oPM9Ojqg;
         "fabric-1.19.4" = _diKFirCR;
         "fabric-1.21.3" = _TkJidjJV;
         "fabric-1.21.4" = _AtJsEnb7;
+        "fabric-26.2" = _oPM9Ojqg;
         "pkg-2.0.2" = _SSN82BiY;
         "pkg-2.0.3" = _g628Bvnz;
         "pkg-2.0.7" = _7E251d3U;
@@ -312,7 +337,11 @@ let
         "pkg-3.1.9" = _ir3othq2;
         "pkg-3.2.0" = _og9651Ma;
         "pkg-3.2.1" = _AtJsEnb7;
-        "default" = _AtJsEnb7;
+        "pkg-3.3.0" = _RnnRQkjA;
+        "pkg-3.3.1" = _xI17mhFp;
+        "pkg-3.3.2" = _alhROBLQ;
+        "pkg-3.3.3" = _oPM9Ojqg;
+        "default" = _oPM9Ojqg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "evoplus";

@@ -46,6 +46,11 @@ let
             "file" = "DawnGuiReader-1.3.0+mc1.21.4.jar";
             "hash" = "sha512-pIgjZ6ELeU4hZK9YHBq2apFT08Tgg7FlSI8yruOwz+SDrslMlVnzDecoXFXsBmljSedi8TxgIEgoQe1RFbd8eg==";
         };
+        _mMKOTzYd = {
+            "id" = "mMKOTzYd";
+            "file" = "DawnGuiReader-1.3.0+mc26.3.jar";
+            "hash" = "sha512-udAJxrUDRawPqXqF5O2Pp3EIgSHY/NaHQK6yEkQu9A21qEtsx5hCKQbXvrr+AgVIPPjCqYHqaHMM8+Hk83pjfQ==";
+        };
     in {
         "f8yPAl83" = _f8yPAl83;
         "d3R48q55" = _d3R48q55;
@@ -56,6 +61,7 @@ let
         "L5nXqZeI" = _L5nXqZeI;
         "1A4cpgRb" = _1A4cpgRb;
         "1cbn1Pxd" = _1cbn1Pxd;
+        "mMKOTzYd" = _mMKOTzYd;
         "fabric-26.1" = _49xOOAEh;
         "fabric-26.1.1" = _49xOOAEh;
         "fabric-26.1.2" = _49xOOAEh;
@@ -65,6 +71,7 @@ let
         "fabric-1.21" = _1A4cpgRb;
         "fabric-1.21.1" = _1A4cpgRb;
         "fabric-1.21.4" = _1cbn1Pxd;
+        "fabric-26.3" = _mMKOTzYd;
         "pkg-1.0.0" = _f8yPAl83;
         "pkg-1.1.0" = _d3R48q55;
         "pkg-1.1.2" = _hvPyQ272;
@@ -74,7 +81,8 @@ let
         "pkg-1.3.0+mc1.20.1" = _L5nXqZeI;
         "pkg-1.3.0+mc1.21.1" = _1A4cpgRb;
         "pkg-1.3.0+mc1.21.4" = _1cbn1Pxd;
-        "default" = _1cbn1Pxd;
+        "pkg-1.3.0+mc26.3" = _mMKOTzYd;
+        "default" = _mMKOTzYd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dawnguireader";

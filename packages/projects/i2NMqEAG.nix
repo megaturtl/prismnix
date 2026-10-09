@@ -61,6 +61,26 @@ let
             "file" = "sailsandairships-1.0.4+26.2.jar";
             "hash" = "sha512-mjAGWItsebspAqEmf+ZYzRqb0x8+mEeP01/ji3uzfit6vi/zXL/csogqxutvItHfJYdc0tb/vCLyh6KSkT+69A==";
         };
+        _PT7rFqPn = {
+            "id" = "PT7rFqPn";
+            "file" = "sailsandairships-1.0.5+1.21.11.jar";
+            "hash" = "sha512-MpSyh3CiAaP0UAK3QhipPE/N0qg7OPy70lUEuQkdHB48KyIwd5kztteUh2F/9NJHrE+XlKkZMhKVlymMzkLdtA==";
+        };
+        _7te7y39M = {
+            "id" = "7te7y39M";
+            "file" = "sailsandairships-1.0.5+26.1.2.jar";
+            "hash" = "sha512-2a3+kLXYWdTtVU89fvoI2YEtdhn1eK0oe4mzLbFvh/SkPFSpBXdUvdjgGM0/P0kXDNjv3jhTt45jMVCCSvRzcQ==";
+        };
+        _keJXTFyK = {
+            "id" = "keJXTFyK";
+            "file" = "sailsandairships-1.0.5+26.2.jar";
+            "hash" = "sha512-S9el6u+iR37+O9f9ZyVCe4OZlKddOpFZrCWgaC5RUbzpwfZn9n6RXnvPoO00ct3+6ZWhpWlqHC2XEJ/Mpv1lDA==";
+        };
+        _uljTEUoW = {
+            "id" = "uljTEUoW";
+            "file" = "sailsandairships-1.0.5+26.3.jar";
+            "hash" = "sha512-0ctNJFFly8FvHeJiuwdO7CGDc98KGaCcJ/Y7kz3u7+wi3y6SxhYaDTnCctlNXqPAl8c0YVYfg8wTYYkuTq+NeQ==";
+        };
     in {
         "NaaTOuov" = _NaaTOuov;
         "Cfpx4wOx" = _Cfpx4wOx;
@@ -74,11 +94,16 @@ let
         "tCT8NDkt" = _tCT8NDkt;
         "8wjgMGUb" = _8wjgMGUb;
         "2x5HpsgW" = _2x5HpsgW;
-        "fabric-1.21.11" = _tCT8NDkt;
-        "fabric-26.1" = _8wjgMGUb;
-        "fabric-26.1.1" = _8wjgMGUb;
-        "fabric-26.1.2" = _8wjgMGUb;
-        "fabric-26.2" = _2x5HpsgW;
+        "PT7rFqPn" = _PT7rFqPn;
+        "7te7y39M" = _7te7y39M;
+        "keJXTFyK" = _keJXTFyK;
+        "uljTEUoW" = _uljTEUoW;
+        "fabric-1.21.11" = _PT7rFqPn;
+        "fabric-26.1" = _7te7y39M;
+        "fabric-26.1.1" = _7te7y39M;
+        "fabric-26.1.2" = _7te7y39M;
+        "fabric-26.2" = _keJXTFyK;
+        "fabric-26.3" = _uljTEUoW;
         "pkg-1.0.0" = _NaaTOuov;
         "pkg-1.0.1+1.21.11" = _Cfpx4wOx;
         "pkg-1.0.1+26.1.2" = _Ai2A8BTw;
@@ -91,7 +116,11 @@ let
         "pkg-1.0.4+1.21.11" = _tCT8NDkt;
         "pkg-1.0.4+26.1.2" = _8wjgMGUb;
         "pkg-1.0.4+26.2" = _2x5HpsgW;
-        "default" = _2x5HpsgW;
+        "pkg-1.0.5+1.21.11" = _PT7rFqPn;
+        "pkg-1.0.5+26.1.2" = _7te7y39M;
+        "pkg-1.0.5+26.2" = _keJXTFyK;
+        "pkg-1.0.5+26.3" = _uljTEUoW;
+        "default" = _uljTEUoW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sails-and-airships";

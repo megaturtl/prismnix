@@ -86,6 +86,41 @@ let
             "file" = "changedextras-1.1.4-beta3b.jar";
             "hash" = "sha512-SviBPQ6f1uOTQe+9POmdEhvOHrf8WFHkvs4xu04j5h7TYCPGNF55UpgL9xVXR3XcF3pzP6Noo4mTvhVx+0GfNw==";
         };
+        _VXy2ondN = {
+            "id" = "VXy2ondN";
+            "file" = "changedextras-1.1.5.jar";
+            "hash" = "sha512-AWNaA5x1YfZmhilHzoarV+Jstvd/erbLFV3sb3SfPVMdl8Sthyh3HmDbQVr3Jijf1aTZ6Css5SN7EkCawMI2Hw==";
+        };
+        _xx3SvopN = {
+            "id" = "xx3SvopN";
+            "file" = "changedextras-1.1.5b.jar";
+            "hash" = "sha512-nqDvqYKsRPVvzYc/zUy/09U2hQ6Ink/XTRdk0z3kxdnF7Zwwu+FDTWh6DGRIHk7HJxs0hBguz7c27rF1bnZnFw==";
+        };
+        _WzWLzBV4 = {
+            "id" = "WzWLzBV4";
+            "file" = "changedextras-1.1.5c.jar";
+            "hash" = "sha512-g41rpfg2ZDwh255XKNWReeQDiEoxqcQ+CzD3P42g6R9W35QuPWg4M1m1R/qrVlw9pO3iVb1uYMHbCiTrvlWATA==";
+        };
+        _NZcmXwEe = {
+            "id" = "NZcmXwEe";
+            "file" = "changedextras-1.1.6.jar";
+            "hash" = "sha512-ZMNJ30reo5pn3WEr1Uef1NuMmvjhfj+PGBm/JQ2t+Efy33G3Q+5x54Fh8s1qIIxfXjowGAfjjAauxLIEuGStMw==";
+        };
+        _ozFXpXSM = {
+            "id" = "ozFXpXSM";
+            "file" = "changedextras-1.1.6b.jar";
+            "hash" = "sha512-jjWcPGVBVTAR3JNzk2qPjjVWdzRi1DF5SgJ/+Fj21sqbUsznQy8jkGexHpT4sNfXMfAYvQccaQ4IK19zkb50tA==";
+        };
+        _GBMLT0or = {
+            "id" = "GBMLT0or";
+            "file" = "changedextras-1.1.6c.jar";
+            "hash" = "sha512-K7Eb1VJ8XdmKGUl92FKU0hfrXFAPAiv9gcQuQXxydcxb8KDkW88f4s9RzDvAbkDUCRv5vK/EC03FH1HPwIt9AA==";
+        };
+        _mGAuyahN = {
+            "id" = "mGAuyahN";
+            "file" = "changedextras-1.1.7.jar";
+            "hash" = "sha512-4LL9WkzkfxZ1v7KdhEObacTH27RNze64+ixn6DI7Y0jBnCScKcLaE/YjratEUf1GhLjRVgvTsQ5Yn5p4piZH1Q==";
+        };
     in {
         "MJbjSshk" = _MJbjSshk;
         "WNCj33wK" = _WNCj33wK;
@@ -104,7 +139,14 @@ let
         "emelEamf" = _emelEamf;
         "Wo4OF56D" = _Wo4OF56D;
         "17CBVPhV" = _17CBVPhV;
-        "forge-1.20.1" = _17CBVPhV;
+        "VXy2ondN" = _VXy2ondN;
+        "xx3SvopN" = _xx3SvopN;
+        "WzWLzBV4" = _WzWLzBV4;
+        "NZcmXwEe" = _NZcmXwEe;
+        "ozFXpXSM" = _ozFXpXSM;
+        "GBMLT0or" = _GBMLT0or;
+        "mGAuyahN" = _mGAuyahN;
+        "forge-1.20.1" = _mGAuyahN;
         "pkg-1.0.3b" = _MJbjSshk;
         "pkg-1.0.5" = _WNCj33wK;
         "pkg-1.0.5_newicon" = _Ci2HvMgd;
@@ -122,7 +164,14 @@ let
         "pkg-1.1.4-beta2" = _emelEamf;
         "pkg-1.1.4-beta3" = _Wo4OF56D;
         "pkg-1.1.4-beta3b" = _17CBVPhV;
-        "default" = _17CBVPhV;
+        "pkg-1.1.5" = _VXy2ondN;
+        "pkg-1.1.5b" = _xx3SvopN;
+        "pkg-1.1.5c" = _WzWLzBV4;
+        "pkg-1.1.6" = _NZcmXwEe;
+        "pkg-1.1.6b" = _ozFXpXSM;
+        "pkg-1.1.6c" = _GBMLT0or;
+        "pkg-1.1.7" = _mGAuyahN;
+        "default" = _mGAuyahN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "changedextras";

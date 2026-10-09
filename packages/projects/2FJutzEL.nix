@@ -191,6 +191,11 @@ let
             "file" = "Oreganized 1.21.1-5.2.1.jar";
             "hash" = "sha512-lU3FdJp21TcoHNcAjkjc71vfD8X9N6RAssAVFN6aU0XOjSpDPnDksoKUETJN13Mfugi9nFXALeY7n93xZQOLmw==";
         };
+        _4LJyawKL = {
+            "id" = "4LJyawKL";
+            "file" = "Oreganized 1.21.1-5.3.0+mc1.21.1.jar";
+            "hash" = "sha512-AsaYl4uT6+rO2ojG4cwlN+XjfGtukBFtV6G1bJnF8GqDa51c7ssROSyYttUqvqLRO7oEa7crUmlu1hP9ThXHpg==";
+        };
     in {
         "Vmi2uxmr" = _Vmi2uxmr;
         "bdCZi0ca" = _bdCZi0ca;
@@ -230,6 +235,7 @@ let
         "HH0XNDyF" = _HH0XNDyF;
         "cbWojTbw" = _cbWojTbw;
         "wmlOifL1" = _wmlOifL1;
+        "4LJyawKL" = _4LJyawKL;
         "forge-1.18.2" = _xgburf97;
         "forge-1.19.2" = _8mxk6Cye;
         "forge-1.20" = _lkBhpYKn;
@@ -241,7 +247,7 @@ let
         "forge-1.20.6" = _lkBhpYKn;
         "fabric-1.20.1" = _9KLOnNlG;
         "quilt-1.20.1" = _9KLOnNlG;
-        "neoforge-1.21.1" = _wmlOifL1;
+        "neoforge-1.21.1" = _4LJyawKL;
         "pkg-2.0.0-1.18.2" = _Vmi2uxmr;
         "pkg-2.0.0" = _bdCZi0ca;
         "pkg-2.0.1-1.19.2" = _xQV5lcRV;
@@ -279,7 +285,8 @@ let
         "pkg-4.3.2" = _HH0XNDyF;
         "pkg-5.2.0" = _cbWojTbw;
         "pkg-5.2.1" = _wmlOifL1;
-        "default" = _wmlOifL1;
+        "pkg-5.3.0" = _4LJyawKL;
+        "default" = _4LJyawKL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "oreganized";

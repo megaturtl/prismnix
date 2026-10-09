@@ -581,6 +581,16 @@ let
             "file" = "terrestria-8.1.0-alpha.1.jar";
             "hash" = "sha512-uNBum4mi94c6ipjvOCReSb+78hMlwtSDhReJ2dGpANdHi+ZDZF2Z9TX7juregKcSA7ZV3jbAnPbBMoldPV6bcQ==";
         };
+        _6Mgferyz = {
+            "id" = "6Mgferyz";
+            "file" = "terrestria-8.1.0-beta.1.jar";
+            "hash" = "sha512-wxm7aPADdaucxYNCK+TcHudgIz5BsUXA6YkHYyVOZOyfOesR1lowxpLsBOofr0MoFsbzlHv77n0AQfhqpcxBDA==";
+        };
+        _u43c9EQl = {
+            "id" = "u43c9EQl";
+            "file" = "terrestria-8.1.0-beta.2.jar";
+            "hash" = "sha512-AgVNAJWPPPJtcO4L2CdBG4+F9pY6MSJY1AyMphmykmJ/0JxmXO+slDJyTGm0ZMvbSbOrvjGDlNit4xSj3GCDUw==";
+        };
     in {
         "ZJTSqMN8" = _ZJTSqMN8;
         "wcrWk9Aw" = _wcrWk9Aw;
@@ -698,6 +708,8 @@ let
         "aHg0M1Hm" = _aHg0M1Hm;
         "pScb8xmV" = _pScb8xmV;
         "QcV0YfAP" = _QcV0YfAP;
+        "6Mgferyz" = _6Mgferyz;
+        "u43c9EQl" = _u43c9EQl;
         "fabric-1.16.5" = _PRtO7FA6;
         "fabric-1.17" = _3duqOSDX;
         "fabric-1.17.1" = _3duqOSDX;
@@ -768,7 +780,7 @@ let
         "fabric-26.1" = _pScb8xmV;
         "fabric-26.1.1" = _pScb8xmV;
         "fabric-26.1.2" = _pScb8xmV;
-        "fabric-26.2" = _QcV0YfAP;
+        "fabric-26.2" = _u43c9EQl;
         "quilt-1.20-pre5" = _qspEdRNm;
         "quilt-1.20-pre6" = _qspEdRNm;
         "quilt-1.20-pre7" = _qspEdRNm;
@@ -822,7 +834,7 @@ let
         "quilt-26.1" = _pScb8xmV;
         "quilt-26.1.1" = _pScb8xmV;
         "quilt-26.1.2" = _pScb8xmV;
-        "quilt-26.2" = _QcV0YfAP;
+        "quilt-26.2" = _u43c9EQl;
         "pkg-2.1.6" = _ZJTSqMN8;
         "pkg-2.1.7" = _wcrWk9Aw;
         "pkg-2.2.0" = _PRtO7FA6;
@@ -939,7 +951,9 @@ let
         "pkg-8.0.0" = _aHg0M1Hm;
         "pkg-8.0.1" = _pScb8xmV;
         "pkg-8.1.0-alpha.1" = _QcV0YfAP;
-        "default" = _QcV0YfAP;
+        "pkg-8.1.0-beta.1" = _6Mgferyz;
+        "pkg-8.1.0-beta.2" = _u43c9EQl;
+        "default" = _u43c9EQl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "terrestria";

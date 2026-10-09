@@ -26,18 +26,32 @@ let
             "file" = "sporeadd-2.1.0.jar";
             "hash" = "sha512-o5801rIaSFWJf+llCwfxgNGKBXXIgQc17MCqPGY2BvDvuCFxG9wwJbG025QiTF2EwLzxqZpkXb+oRZDGb3bBNw==";
         };
+        _DNTHrYC6 = {
+            "id" = "DNTHrYC6";
+            "file" = "sporeadd-2.2.0.jar";
+            "hash" = "sha512-a9XzXWZ7o/W7YAIj/Y8xzVv18NCnsnfyVHn7MBqMo9IXjyslA3fF90iBaXOCxHFlZqOOe8tjVQokrjrmfsf67g==";
+        };
+        _MttaKsMQ = {
+            "id" = "MttaKsMQ";
+            "file" = "sporeadd-2.2.1.jar";
+            "hash" = "sha512-RokStXKp14RAs79W7xxPpv496GtX6eGXOXba35JTeh6Yb4UaBlO87WcRYzRjwEdiWolXp+VsuX3QR+zsO+1CqQ==";
+        };
     in {
         "3jgSDWos" = _3jgSDWos;
         "eXqidWsV" = _eXqidWsV;
         "QNkGFUKt" = _QNkGFUKt;
         "2bY8xDbR" = _2bY8xDbR;
         "WR1TFXnR" = _WR1TFXnR;
-        "forge-1.20.1" = _WR1TFXnR;
+        "DNTHrYC6" = _DNTHrYC6;
+        "MttaKsMQ" = _MttaKsMQ;
+        "forge-1.20.1" = _MttaKsMQ;
         "pkg-1.0.0" = _3jgSDWos;
         "pkg-1.1.0" = _QNkGFUKt;
         "pkg-2.0.0" = _2bY8xDbR;
         "pkg-2.1.0" = _WR1TFXnR;
-        "default" = _WR1TFXnR;
+        "pkg-2.2.0" = _DNTHrYC6;
+        "pkg-2.2.1" = _MttaKsMQ;
+        "default" = _MttaKsMQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sporeadds";

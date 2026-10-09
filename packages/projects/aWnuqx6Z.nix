@@ -31,6 +31,16 @@ let
             "file" = "Mizuno's Chicken Variant 1.3.zip";
             "hash" = "sha512-AbsyrS+41SgQr96FpCZoU8O/X2ZtJPkX7fqXe3izk7yjE4fKWEDdEQsLA8niKm5da/7igpjGNo5GLm62cRXOnw==";
         };
+        _esaM7hzG = {
+            "id" = "esaM7hzG";
+            "file" = "Mizuno's Chicken Variant 1.4.zip";
+            "hash" = "sha512-Lb+Kr+qD+j8iVor9ixlmR5u6bwauQhnYibW9cNfc593c0Ztzmk/ryUQ3WzCX15z7wYipbLBWDWOnux1JVA/bAA==";
+        };
+        _IRcXY0ze = {
+            "id" = "IRcXY0ze";
+            "file" = "Mizuno's Chicken Variant 1.4.zip";
+            "hash" = "sha512-h5LoXege4kMHbaPOTw+SEhqE4C6c27u8ahRaTxRksU8aZg3ylUEX9AyBGkniuO2ypEIw27la35JFY/d6zBND+w==";
+        };
     in {
         "s2asmfRz" = _s2asmfRz;
         "9feSjqQQ" = _9feSjqQQ;
@@ -38,13 +48,15 @@ let
         "POENZepU" = _POENZepU;
         "fkQ8jUfb" = _fkQ8jUfb;
         "YnWnv43S" = _YnWnv43S;
-        "minecraft-1.21.5" = _fkQ8jUfb;
-        "minecraft-1.21.6" = _fkQ8jUfb;
-        "minecraft-1.21.7" = _fkQ8jUfb;
-        "minecraft-1.21.8" = _fkQ8jUfb;
-        "minecraft-1.21.9" = _fkQ8jUfb;
-        "minecraft-1.21.10" = _fkQ8jUfb;
-        "minecraft-1.21.11" = _fkQ8jUfb;
+        "esaM7hzG" = _esaM7hzG;
+        "IRcXY0ze" = _IRcXY0ze;
+        "minecraft-1.21.5" = _esaM7hzG;
+        "minecraft-1.21.6" = _esaM7hzG;
+        "minecraft-1.21.7" = _esaM7hzG;
+        "minecraft-1.21.8" = _esaM7hzG;
+        "minecraft-1.21.9" = _esaM7hzG;
+        "minecraft-1.21.10" = _esaM7hzG;
+        "minecraft-1.21.11" = _esaM7hzG;
         "minecraft-1.20" = _cRbAoEcF;
         "minecraft-1.20.1" = _cRbAoEcF;
         "minecraft-1.20.2" = _cRbAoEcF;
@@ -56,16 +68,18 @@ let
         "minecraft-1.21.1" = _cRbAoEcF;
         "minecraft-1.21.2" = _cRbAoEcF;
         "minecraft-1.21.3" = _cRbAoEcF;
-        "minecraft-1.21.4" = _fkQ8jUfb;
-        "minecraft-26.1" = _YnWnv43S;
-        "minecraft-26.1.1" = _YnWnv43S;
-        "minecraft-26.1.2" = _YnWnv43S;
-        "minecraft-26.2" = _YnWnv43S;
+        "minecraft-1.21.4" = _esaM7hzG;
+        "minecraft-26.1" = _IRcXY0ze;
+        "minecraft-26.1.1" = _IRcXY0ze;
+        "minecraft-26.1.2" = _IRcXY0ze;
+        "minecraft-26.2" = _IRcXY0ze;
+        "minecraft-26.3" = _IRcXY0ze;
         "pkg-1" = _9feSjqQQ;
         "pkg-1.1" = _cRbAoEcF;
         "pkg-1.2" = _fkQ8jUfb;
         "pkg-1.3" = _YnWnv43S;
-        "default" = _YnWnv43S;
+        "pkg-1.4" = _IRcXY0ze;
+        "default" = _IRcXY0ze;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mizunos-chicken-variants";

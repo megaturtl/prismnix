@@ -96,6 +96,16 @@ let
             "file" = "ShieldBannerFix-fabric-MC26.2-26.2.0.1.jar";
             "hash" = "sha512-zALah+zeqPLrBtcVQe+3rr4WulSd0fVGpnGbhWZzF+aMyE0Zpvtb10XteZaOQ6y+ts4trnJ8l0IgEtRs15WCCQ==";
         };
+        _VBFGIAqF = {
+            "id" = "VBFGIAqF";
+            "file" = "ShieldBannerFix-fabric-MC26.3-26.3.0.1.jar";
+            "hash" = "sha512-Gzv30GS6DcT8oi+1DS192iF5N3Q2eghzwhVGqb5L5g3hEGL84dRMhkRNgZgwWdyK236dpMO466+QB428QP0ZZQ==";
+        };
+        _9UHxr5gp = {
+            "id" = "9UHxr5gp";
+            "file" = "ShieldBannerFix-neoforge-MC26.3-26.3.0.1.jar";
+            "hash" = "sha512-Jj368IuwHFUGl/TRnyH2Ro718UObixTfU2S34+SZSOhNywmLhJNqgHpEJ3AoRur6dxfjPQUdy/Z+CmbLZFS5XQ==";
+        };
     in {
         "kKnWhXxo" = _kKnWhXxo;
         "pDLIPEot" = _pDLIPEot;
@@ -116,6 +126,8 @@ let
         "opWat4mz" = _opWat4mz;
         "NyLAq9t8" = _NyLAq9t8;
         "tyVroQHB" = _tyVroQHB;
+        "VBFGIAqF" = _VBFGIAqF;
+        "9UHxr5gp" = _9UHxr5gp;
         "forge-1.16.5" = _kKnWhXxo;
         "forge-1.18.2" = _pDLIPEot;
         "forge-1.19.2" = _a9IPr4gq;
@@ -133,12 +145,14 @@ let
         "fabric-26.1.1" = _opWat4mz;
         "fabric-26.1.2" = _opWat4mz;
         "fabric-26.2" = _tyVroQHB;
+        "fabric-26.3" = _VBFGIAqF;
         "neoforge-1.20.2" = _aDbE1svd;
         "neoforge-1.20.4" = _ur9fQNii;
         "neoforge-26.1" = _QsO26eo1;
         "neoforge-26.1.1" = _QsO26eo1;
         "neoforge-26.1.2" = _QsO26eo1;
         "neoforge-26.2" = _NyLAq9t8;
+        "neoforge-26.3" = _9UHxr5gp;
         "pkg-1.0.1" = _kKnWhXxo;
         "pkg-2.0.1" = _g4zzNw7o;
         "pkg-3.0.1" = _a9IPr4gq;
@@ -148,7 +162,8 @@ let
         "pkg-7.0.1" = _1ae8lV8r;
         "pkg-26.1.2.1" = _opWat4mz;
         "pkg-26.2.0.1" = _tyVroQHB;
-        "default" = _tyVroQHB;
+        "pkg-26.3.0.1" = _9UHxr5gp;
+        "default" = _9UHxr5gp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shield-banner-fix";

@@ -646,6 +646,11 @@ let
             "file" = "Floral Enchantment-neoforge-26.2-1.2.0.jar";
             "hash" = "sha512-gqzLAsyz2IGhYH3n9jZm6gjBI75BLIyWzWTY1hqrwj98oLLt5tdpBkNAp3JSGZ3R9P1FUXjeNPkiHrJ/jxn0lQ==";
         };
+        _lOxq8Vkx = {
+            "id" = "lOxq8Vkx";
+            "file" = "Floral Enchantment-fabric-1.20.1-1.1.4.jar";
+            "hash" = "sha512-KPbt9426PGomxfq0cvMteTmTLMeEUZcpxJfMx+ouVnx2sm/tb+QTC87xwWYCuUaUtfJcBVfcPTmVaV2X9aXdBw==";
+        };
     in {
         "de0eNSNt" = _de0eNSNt;
         "18EzMA6o" = _18EzMA6o;
@@ -776,6 +781,7 @@ let
         "sLyuHhXK" = _sLyuHhXK;
         "dH5rdpiB" = _dH5rdpiB;
         "VybtvqbE" = _VybtvqbE;
+        "lOxq8Vkx" = _lOxq8Vkx;
         "forge-1.18.2" = _de0eNSNt;
         "forge-1.19.2" = _18EzMA6o;
         "forge-1.19.3" = _Batxzn9u;
@@ -800,7 +806,7 @@ let
         "fabric-1.19.2" = _Tpty0dTs;
         "fabric-1.19.3" = _CyujhZtE;
         "fabric-1.20" = _k0JiqoLk;
-        "fabric-1.20.1" = _HmkGfjU0;
+        "fabric-1.20.1" = _lOxq8Vkx;
         "fabric-1.19.4" = _gI63LtE3;
         "fabric-1.20.2" = _zgqfgKI8;
         "fabric-1.20.3" = _lxGgnAI0;
@@ -842,7 +848,7 @@ let
         "pkg-1.1.2" = _5yFJw2ZS;
         "pkg-1.19.3-1.4.2" = _Batxzn9u;
         "pkg-1.1.3" = _F2ZSYj9c;
-        "pkg-1.1.4" = _z8MjDv4O;
+        "pkg-1.1.4" = _lOxq8Vkx;
         "pkg-1.4.4" = _KmirjSgE;
         "pkg-1.0.0" = _5bIDmvGo;
         "pkg-1.1.5" = _zwM7C3Jo;
@@ -859,7 +865,7 @@ let
         "pkg-1.2.3" = _dIDOWUVY;
         "pkg-1.3.0" = _sLyuHhXK;
         "pkg-1.6.0" = _dH5rdpiB;
-        "default" = _VybtvqbE;
+        "default" = _lOxq8Vkx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "floral-enchantment";

@@ -116,6 +116,16 @@ let
             "file" = "buddycards-1.21.1-5.1.1.jar";
             "hash" = "sha512-jPCXmgxaXUezlU3sRwhsml6x+KoGptmcDhUsNCh+zSRLwpB0Lz9GasmDwYfFhz87fFqRmY26QqAfpWaerZXmLA==";
         };
+        _d0jn9afV = {
+            "id" = "d0jn9afV";
+            "file" = "buddycards-1.21.1-5.2.0.jar";
+            "hash" = "sha512-QHqi6gsNf898VlKMm+sCbp9qsjCQeo2FNHbRoVsUCG4j3Pg1Oiful7DrnJ9G9IsCmwWGQHTg8xAGFjscuLsIPQ==";
+        };
+        _2ZjItK3A = {
+            "id" = "2ZjItK3A";
+            "file" = "buddycards-1.21.1-5.2.1.jar";
+            "hash" = "sha512-9R7SijJ8P4px/WYqyyNFl4WBAxl9vkjyJnJxezVN230NinvU2jAzeTlSQzS2TwqluyQTQVr0txWXdZQTFQsfAQ==";
+        };
     in {
         "rCGuEz0m" = _rCGuEz0m;
         "AGnjDghZ" = _AGnjDghZ;
@@ -140,9 +150,11 @@ let
         "58fUHDvy" = _58fUHDvy;
         "9eQGGZ3L" = _9eQGGZ3L;
         "9AP7T4Kt" = _9AP7T4Kt;
+        "d0jn9afV" = _d0jn9afV;
+        "2ZjItK3A" = _2ZjItK3A;
         "forge-1.18.2" = _rgqOKcma;
         "forge-1.20.1" = _lrc00XyF;
-        "neoforge-1.21.1" = _9AP7T4Kt;
+        "neoforge-1.21.1" = _2ZjItK3A;
         "pkg-1.18.2-3.2.1" = _rCGuEz0m;
         "pkg-1.18.2-3.3.0" = _AGnjDghZ;
         "pkg-1.18.2-3.3.1" = _dTqGW4AJ;
@@ -166,7 +178,9 @@ let
         "pkg-1.21.1-5.0.4" = _58fUHDvy;
         "pkg-1.21.1-5.1.0" = _9eQGGZ3L;
         "pkg-1.21.1-5.1.1" = _9AP7T4Kt;
-        "default" = _9AP7T4Kt;
+        "pkg-1.21.1-5.2.0" = _d0jn9afV;
+        "pkg-1.21.1-5.2.1" = _2ZjItK3A;
+        "default" = _2ZjItK3A;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "buddycards";

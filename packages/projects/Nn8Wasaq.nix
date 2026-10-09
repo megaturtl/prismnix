@@ -1786,6 +1786,21 @@ let
             "file" = "CraterLib-Neoforge-26.2-3.1.3.jar";
             "hash" = "sha512-HthnOgzPHR5TuLmEbNPVVcOXTKuMbTjqroFjX5h145fQrMm2Ng1cMQUYUh3aUP6k6Hj2znfX2c0LGNxbNhsOvw==";
         };
+        _KQhU1DQ2 = {
+            "id" = "KQhU1DQ2";
+            "file" = "CraterLib-Fabric-26.3-3.1.3.jar";
+            "hash" = "sha512-2HUognV7LgFLGJKiDfKLApn1MzS7trhUNrnGZRKfkKHFTjc49pqSgt1rXosM+5Wehm5B7szWQTo261wPGn19kw==";
+        };
+        _bslpScaI = {
+            "id" = "bslpScaI";
+            "file" = "CraterLib-Forge-26.3-3.1.3.jar";
+            "hash" = "sha512-YUbIUSlx94pBUJEHEBsdopdVX1u5rDksaxYkKTJ07Pwl3uFi88b/Ziy3dU42vJJfeWRWALVSZDLckggaDgynXw==";
+        };
+        _4Ln4UzIs = {
+            "id" = "4Ln4UzIs";
+            "file" = "CraterLib-Neoforge-26.3-3.1.3.jar";
+            "hash" = "sha512-zkHMnjbqqDDOaRH8z5/rrEXizibF5/NCdjkIU7nmAqs1n5+QGkH0619oEwa5uz/JogKoMgxky0AeTCthJcB/OA==";
+        };
     in {
         "5Tb1a93E" = _5Tb1a93E;
         "4mbr1adc" = _4mbr1adc;
@@ -2144,6 +2159,9 @@ let
         "dHUgonju" = _dHUgonju;
         "ibDDhTCM" = _ibDDhTCM;
         "sYBvU89b" = _sYBvU89b;
+        "KQhU1DQ2" = _KQhU1DQ2;
+        "bslpScaI" = _bslpScaI;
+        "4Ln4UzIs" = _4Ln4UzIs;
         "fabric-1.20" = _hNb7qBWi;
         "fabric-1.20.1" = _hNb7qBWi;
         "fabric-1.20.2" = _8jGBiDZt;
@@ -2167,6 +2185,7 @@ let
         "fabric-26.1" = _h0AGyN83;
         "fabric-26.1.2" = _uIONZ9pV;
         "fabric-26.2" = _dHUgonju;
+        "fabric-26.3" = _KQhU1DQ2;
         "quilt-1.20" = _hNb7qBWi;
         "quilt-1.20.1" = _hNb7qBWi;
         "quilt-1.20.2" = _8jGBiDZt;
@@ -2190,6 +2209,7 @@ let
         "quilt-26.1" = _h0AGyN83;
         "quilt-26.1.2" = _uIONZ9pV;
         "quilt-26.2" = _dHUgonju;
+        "quilt-26.3" = _KQhU1DQ2;
         "forge-1.20" = _186tYWh8;
         "forge-1.20.1" = _186tYWh8;
         "forge-1.20.2" = _DdP5Zmyy;
@@ -2211,6 +2231,7 @@ let
         "forge-1.21.11" = _LTvKdU5b;
         "forge-26.1.2" = _VfJtYcCb;
         "forge-26.2" = _ibDDhTCM;
+        "forge-26.3" = _bslpScaI;
         "neoforge-1.20.4" = _v7M6W4ka;
         "neoforge-1.21" = _e962b1SA;
         "neoforge-1.21.1" = _e962b1SA;
@@ -2227,6 +2248,7 @@ let
         "neoforge-26.1" = _DBOET0HP;
         "neoforge-26.1.2" = _mYLFBVQA;
         "neoforge-26.2" = _sYBvU89b;
+        "neoforge-26.3" = _4Ln4UzIs;
         "pkg-1.20-1.0.0" = _4mbr1adc;
         "pkg-1.20-1.0.1" = _5eAUnJO5;
         "pkg-1.20-1.0.2" = _Ml4m8ilJ;
@@ -2394,7 +2416,8 @@ let
         "pkg-1.21.11-3.1.3" = _Yd8dM9sY;
         "pkg-26.1.2-3.1.3" = _mYLFBVQA;
         "pkg-26.2-3.1.3" = _sYBvU89b;
-        "default" = _sYBvU89b;
+        "pkg-26.3-3.1.3" = _4Ln4UzIs;
+        "default" = _4Ln4UzIs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "craterlib";

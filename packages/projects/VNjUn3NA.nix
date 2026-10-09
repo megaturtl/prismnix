@@ -4121,6 +4121,11 @@ let
             "file" = "seasonhud-neoforge-26.2-2.0.10.jar";
             "hash" = "sha512-ETq+JK5RdIxr5sHgXqHV4weqACPgIHEF2j6zUM7SFR+YhpvX14mnlTNlWjkqnLydLyxbZzIqXjc8LMpyIKZ8gA==";
         };
+        _IaPmTLS7 = {
+            "id" = "IaPmTLS7";
+            "file" = "seasonhud-neoforge-26.3-2.0.10.jar";
+            "hash" = "sha512-TiqCHNPBEMsIERQDFRVvDbQpszLN87aRAB3tvOEkH3mUP1ub+xRbMiD72Qtzs5TnA0tUHnp2iTINwVsb6y6eJg==";
+        };
     in {
         "QfkDo63N" = _QfkDo63N;
         "iDJlSLj1" = _iDJlSLj1;
@@ -4946,6 +4951,7 @@ let
         "2vmfujjt" = _2vmfujjt;
         "CiXxtoOU" = _CiXxtoOU;
         "Ul8LQLSQ" = _Ul8LQLSQ;
+        "IaPmTLS7" = _IaPmTLS7;
         "forge-1.16.5" = _x4E7l7Kc;
         "forge-1.18.2" = _QgVZvIOA;
         "forge-1.19.2" = _XKOn80oE;
@@ -4993,6 +4999,7 @@ let
         "neoforge-26.1.1" = _CiXxtoOU;
         "neoforge-26.1.2" = _CiXxtoOU;
         "neoforge-26.2" = _Ul8LQLSQ;
+        "neoforge-26.3" = _IaPmTLS7;
         "pkg-1.16.5-1.4.9" = _QfkDo63N;
         "pkg-1.18.2-1.4.9" = _iDJlSLj1;
         "pkg-1.19.2-1.4.9" = _icUvJKnf;
@@ -5668,7 +5675,8 @@ let
         "pkg-1.21.1-2.0.10" = _2vmfujjt;
         "pkg-26.1.2-2.0.10" = _CiXxtoOU;
         "pkg-26.2-2.0.10" = _Ul8LQLSQ;
-        "default" = _Ul8LQLSQ;
+        "pkg-26.3-2.0.10" = _IaPmTLS7;
+        "default" = _IaPmTLS7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "seasonhud";

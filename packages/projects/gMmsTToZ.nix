@@ -66,6 +66,11 @@ let
             "file" = "zombified-piglin-restore-anger-loot-1.3.2.jar";
             "hash" = "sha512-prM6NAt5FZaudIpOtlt6ps2PxL0xf+tGkdifYKfoI0GJI9PR63PVsKqfnDYM0Nv7a6in4g6p0gGjkQptgo5qnw==";
         };
+        _y1I8W44j = {
+            "id" = "y1I8W44j";
+            "file" = "zombified-piglin-restore-anger-loot-1.4.0.jar";
+            "hash" = "sha512-ybZ/elkgoiDMk5NQQF7ANWJwSGbxVmQgm2tA6JIP0/IHzhxDcgy+3kwyixWoo2scikbQdLIWkHuUriQ3cn0Eug==";
+        };
     in {
         "uMEg0TVN" = _uMEg0TVN;
         "GwpUpNtQ" = _GwpUpNtQ;
@@ -80,6 +85,7 @@ let
         "cfYP0Mqi" = _cfYP0Mqi;
         "Yz7YjLbH" = _Yz7YjLbH;
         "hfPtRvuY" = _hfPtRvuY;
+        "y1I8W44j" = _y1I8W44j;
         "fabric-25w02a" = _GwpUpNtQ;
         "fabric-25w03a" = _ozhN7OF1;
         "fabric-25w05a" = _hPnv2mzi;
@@ -95,6 +101,7 @@ let
         "fabric-26.1.1" = _NOSGrSzs;
         "fabric-26.1.2" = _cfYP0Mqi;
         "fabric-26.2" = _hfPtRvuY;
+        "fabric-26.3" = _y1I8W44j;
         "pkg-0.0.1" = _uMEg0TVN;
         "pkg-0.0.2" = _GwpUpNtQ;
         "pkg-0.0.3" = _ozhN7OF1;
@@ -108,7 +115,8 @@ let
         "pkg-1.3.1" = _cfYP0Mqi;
         "pkg-1.3.1.0-legacy+1.21.11" = _Yz7YjLbH;
         "pkg-1.3.2" = _hfPtRvuY;
-        "default" = _hfPtRvuY;
+        "pkg-1.4.0" = _y1I8W44j;
+        "default" = _y1I8W44j;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zombified-piglin-restore-anger-loot";

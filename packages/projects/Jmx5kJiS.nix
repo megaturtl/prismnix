@@ -266,6 +266,16 @@ let
             "file" = "hybrid-beta-1.0.7.jar";
             "hash" = "sha512-HzQEB7Zw80FDyfdF+3tO3FMxh0FHjiDErk7iRNRkd/zIcVCall3jfBZy1A+fxLbfaSkdAGuWqZbL4R2ZJ3xWqw==";
         };
+        _lY1huex4 = {
+            "id" = "lY1huex4";
+            "file" = "cascades-v1.0.7-26.3.zip";
+            "hash" = "sha512-vc1VVUbvZ8+K2EFl3V6HOxt5zpWoj/7h0I9Du/UYhRQ4vk4MJ6Dfh180brCzeJZnv7X4b71gxkwZ25Ifbf1skQ==";
+        };
+        _IcUbu1Rm = {
+            "id" = "IcUbu1Rm";
+            "file" = "hybrid-beta-1.0.7.jar";
+            "hash" = "sha512-lD6Ujt3qs9II6UzVwlVbT06H30ntrIXZ7OSfozEIJhx87DABEcez8yWH19UfYBCqlGuBIlSvvgc+UK04njkpIg==";
+        };
     in {
         "8q1vpFT4" = _8q1vpFT4;
         "TXriww2y" = _TXriww2y;
@@ -320,6 +330,8 @@ let
         "qkzsPm3L" = _qkzsPm3L;
         "VQNypM9k" = _VQNypM9k;
         "EBgDeYbA" = _EBgDeYbA;
+        "lY1huex4" = _lY1huex4;
+        "IcUbu1Rm" = _IcUbu1Rm;
         "datapack-1.19" = _H8oCEk9E;
         "datapack-1.19.1" = _H8oCEk9E;
         "datapack-1.19.2" = _H8oCEk9E;
@@ -346,6 +358,7 @@ let
         "datapack-26.1.1" = _RVBI5AA6;
         "datapack-26.1.2" = _RVBI5AA6;
         "datapack-26.2" = _VQNypM9k;
+        "datapack-26.3" = _lY1huex4;
         "fabric-1.19" = _hQGodd4S;
         "fabric-1.19.1" = _hQGodd4S;
         "fabric-1.19.2" = _hQGodd4S;
@@ -372,6 +385,7 @@ let
         "fabric-26.1.1" = _JbaOD4hZ;
         "fabric-26.1.2" = _JbaOD4hZ;
         "fabric-26.2" = _EBgDeYbA;
+        "fabric-26.3" = _IcUbu1Rm;
         "forge-1.19" = _hQGodd4S;
         "forge-1.19.1" = _hQGodd4S;
         "forge-1.19.2" = _hQGodd4S;
@@ -398,6 +412,7 @@ let
         "forge-26.1.1" = _JbaOD4hZ;
         "forge-26.1.2" = _JbaOD4hZ;
         "forge-26.2" = _EBgDeYbA;
+        "forge-26.3" = _IcUbu1Rm;
         "quilt-1.19" = _hQGodd4S;
         "quilt-1.19.1" = _hQGodd4S;
         "quilt-1.19.2" = _hQGodd4S;
@@ -424,6 +439,7 @@ let
         "quilt-26.1.1" = _JbaOD4hZ;
         "quilt-26.1.2" = _JbaOD4hZ;
         "quilt-26.2" = _EBgDeYbA;
+        "quilt-26.3" = _IcUbu1Rm;
         "neoforge-1.20" = _CbXjARnR;
         "neoforge-1.20.1" = _CbXjARnR;
         "neoforge-1.20.2" = _CbXjARnR;
@@ -444,6 +460,7 @@ let
         "neoforge-26.1.1" = _JbaOD4hZ;
         "neoforge-26.1.2" = _JbaOD4hZ;
         "neoforge-26.2" = _EBgDeYbA;
+        "neoforge-26.3" = _IcUbu1Rm;
         "pkg-0.10.1" = _gTAFE0w3;
         "pkg-v0.8.3" = _TXriww2y;
         "pkg-0.10.1+mod" = _uu3b0cET;
@@ -466,9 +483,9 @@ let
         "pkg-1.0.5.1+mod" = _IaMNVvNJ;
         "pkg-1.0.6" = _AEi28823;
         "pkg-1.0.6+mod" = _qkzsPm3L;
-        "pkg-1.0.7" = _VQNypM9k;
-        "pkg-1.0.7+mod" = _EBgDeYbA;
-        "default" = _EBgDeYbA;
+        "pkg-1.0.7" = _lY1huex4;
+        "pkg-1.0.7+mod" = _IcUbu1Rm;
+        "default" = _IcUbu1Rm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hybrid-beta";

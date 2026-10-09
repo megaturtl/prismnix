@@ -66,6 +66,11 @@ let
             "file" = "tconevo-1.12.2-1.1.7.jar";
             "hash" = "sha512-ij7/9ACMlD07j5PxY6Tc/eaZGQ0FBvWKH0XaIQ07wM9+AkPkKDAuA+fEEO74a7r6J1sfdT3GsyweR12Fj6z0VA==";
         };
+        _hQzawfYl = {
+            "id" = "hQzawfYl";
+            "file" = "tconevo-1.12.2-1.1.8.jar";
+            "hash" = "sha512-HZ5gcquMSfYAr2hYpr+PQ95CeUgq+6tjClZPHtNUBL7+jF+SyeIy06QRDAkmeZ9ckYdD9Z6GCc+49LHSAdA3zQ==";
+        };
     in {
         "n4TIfnIq" = _n4TIfnIq;
         "o5s699G2" = _o5s699G2;
@@ -80,7 +85,8 @@ let
         "187trsMu" = _187trsMu;
         "kfbQJ4Jx" = _kfbQJ4Jx;
         "tcFm3f8c" = _tcFm3f8c;
-        "forge-1.12.2" = _tcFm3f8c;
+        "hQzawfYl" = _hQzawfYl;
+        "forge-1.12.2" = _hQzawfYl;
         "pkg-1.0.45" = _n4TIfnIq;
         "pkg-1.0.46" = _o5s699G2;
         "pkg-1.0.47" = _dEY6eir0;
@@ -94,7 +100,8 @@ let
         "pkg-1.1.5" = _187trsMu;
         "pkg-1.1.6" = _kfbQJ4Jx;
         "pkg-1.1.7" = _tcFm3f8c;
-        "default" = _tcFm3f8c;
+        "pkg-1.1.8" = _hQzawfYl;
+        "default" = _hQzawfYl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tinkers-evolution";

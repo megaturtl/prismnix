@@ -251,6 +251,16 @@ let
             "file" = "authme-neoforge-9.3.0+26.2.jar";
             "hash" = "sha512-eKIspYKO1YmXM/nM0XR2DLP/SMo9CxNr0vK0SH9Et0F5bx/aQME8aL4IRziFaLYdlM50iQeW2t0+wLr4JZYGWQ==";
         };
+        _IruchRZE = {
+            "id" = "IruchRZE";
+            "file" = "authme-fabric-9.3.0+26.3.jar";
+            "hash" = "sha512-fqj98f9bv2TPXeDyvJ0u8Ney/eziMK/ROJ/HnARg4ifqJvcNqjF0SyjaheacGhgnZZxjYygOWCql52RC1c4iDA==";
+        };
+        _5dT3oeRO = {
+            "id" = "5dT3oeRO";
+            "file" = "authme-neoforge-9.3.0+26.3.jar";
+            "hash" = "sha512-lW/cU6OIoqtdXnqvgz7kqEL3Nwdgog0Uio359nlbCS0r+vGa4AyZ5rsyC8vV/4qxDFJu2x0/q8l39EVa2//rqQ==";
+        };
     in {
         "lVXY2WkW" = _lVXY2WkW;
         "RGjNxamM" = _RGjNxamM;
@@ -302,6 +312,8 @@ let
         "sgiODmNN" = _sgiODmNN;
         "KKsXwobI" = _KKsXwobI;
         "BjjVbGKD" = _BjjVbGKD;
+        "IruchRZE" = _IruchRZE;
+        "5dT3oeRO" = _5dT3oeRO;
         "fabric-1.16.2" = _8TsSYo1O;
         "fabric-1.16.3" = _8TsSYo1O;
         "fabric-1.16.4" = _8TsSYo1O;
@@ -339,6 +351,7 @@ let
         "fabric-26.1.1" = _VrkZE6Rv;
         "fabric-26.1.2" = _VrkZE6Rv;
         "fabric-26.2" = _KKsXwobI;
+        "fabric-26.3" = _IruchRZE;
         "quilt-1.21.1" = _D0QqKqZn;
         "quilt-1.21.3" = _2qf2Udvd;
         "quilt-1.21.4" = _DfEuMvQ6;
@@ -353,6 +366,7 @@ let
         "quilt-26.1.1" = _VrkZE6Rv;
         "quilt-26.1.2" = _VrkZE6Rv;
         "quilt-26.2" = _KKsXwobI;
+        "quilt-26.3" = _IruchRZE;
         "neoforge-1.21.1" = _NinhKHNO;
         "neoforge-1.21.3" = _3FHqBDEc;
         "neoforge-1.21.4" = _1jWoapyO;
@@ -367,6 +381,7 @@ let
         "neoforge-26.1.1" = _sgiODmNN;
         "neoforge-26.1.2" = _sgiODmNN;
         "neoforge-26.2" = _BjjVbGKD;
+        "neoforge-26.3" = _5dT3oeRO;
         "pkg-1.4.0" = _lVXY2WkW;
         "pkg-v1.5.0" = _RGjNxamM;
         "pkg-2.0.0-beta.1" = _eOuwYZD7;
@@ -405,7 +420,8 @@ let
         "pkg-v9.2.0+26.1" = _yZo783aN;
         "pkg-v9.2.1+26.1" = _sgiODmNN;
         "pkg-v9.3.0+26.2" = _BjjVbGKD;
-        "default" = _BjjVbGKD;
+        "pkg-v9.3.0+26.3" = _5dT3oeRO;
+        "default" = _5dT3oeRO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "auth-me";

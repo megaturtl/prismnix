@@ -136,6 +136,21 @@ let
             "file" = "MoreWalls-forge-26.1.2-1.4.0.jar";
             "hash" = "sha512-jJUPooCbvPMQLdcNN/TEvB7WHfEbtM/jrOyv/CtxA1q0bCCpBggz343jJXJtly1l2SNSDdGPvSS4Pd1LSd69IA==";
         };
+        _KusstPoA = {
+            "id" = "KusstPoA";
+            "file" = "MoreWalls-fabric-26.1.2-1.4.0.jar";
+            "hash" = "sha512-otyo52mga3Ol43YshLNjbyGg7glTr/wf2QjlXNjMB4HqRZhVk/PhMLrfCbrOk7FFUFz9XOW1p0KBkJD9VCh5BA==";
+        };
+        _cv4fo8ao = {
+            "id" = "cv4fo8ao";
+            "file" = "MoreWalls-neoforge-26.1.2-1.4.0.jar";
+            "hash" = "sha512-XbkqNlOYNvdNbwcsoqeXPi2lCLIBSFOTrRKbg5WDnZM+1fBhE3FbsR6CCguJg8He0H3wMqfOEu1tvgJNuvETOw==";
+        };
+        _NLdisafv = {
+            "id" = "NLdisafv";
+            "file" = "MoreWalls-forge-26.1.2-1.4.0.1.jar";
+            "hash" = "sha512-29OpLwz79W0GCqhCqwIxBg8/4U/57T6ytJ5G+hVeimuhvXACFb0ZaTYQ7cI0uOCzEJ+vSoBMD706GeY3q0p9yw==";
+        };
     in {
         "qoVsn1x4" = _qoVsn1x4;
         "EjHzZAOL" = _EjHzZAOL;
@@ -164,6 +179,9 @@ let
         "6Zy46haL" = _6Zy46haL;
         "HU9KYAbl" = _HU9KYAbl;
         "xsAMqbcm" = _xsAMqbcm;
+        "KusstPoA" = _KusstPoA;
+        "cv4fo8ao" = _cv4fo8ao;
+        "NLdisafv" = _NLdisafv;
         "fabric-1.20.1" = _qoVsn1x4;
         "fabric-1.20.2" = _8c6ssZo1;
         "fabric-1.20.4" = _PxMRwtL0;
@@ -172,6 +190,7 @@ let
         "fabric-1.21.8" = _KSrkecrQ;
         "fabric-1.21.10" = _kWb2pjUT;
         "fabric-1.21.11" = _6Zy46haL;
+        "fabric-26.1.2" = _KusstPoA;
         "forge-1.20.1" = _EjHzZAOL;
         "forge-1.20.2" = _56sCeR2S;
         "forge-1.20.4" = _5j9jJAgd;
@@ -181,13 +200,14 @@ let
         "forge-1.21.9" = _LAsVRFxb;
         "forge-1.21.10" = _4N2E3rfR;
         "forge-1.21.11" = _5CLfW5Kq;
-        "forge-26.1.2" = _xsAMqbcm;
+        "forge-26.1.2" = _NLdisafv;
         "neoforge-1.20.4" = _mAeRmvdf;
         "neoforge-1.21" = _T3LdMt1W;
         "neoforge-1.21.1" = _UJTvZI0n;
         "neoforge-1.21.8" = _QorySdvr;
         "neoforge-1.21.10" = _NJkWozNF;
         "neoforge-1.21.11" = _HU9KYAbl;
+        "neoforge-26.1.2" = _cv4fo8ao;
         "pkg-1.0.4" = _qoVsn1x4;
         "pkg-1.1.8" = _EjHzZAOL;
         "pkg-1.1.9" = _PiJ8a7jA;
@@ -209,8 +229,9 @@ let
         "pkg-1.2.3.1" = _UJTvZI0n;
         "pkg-1.3.0" = _5CLfW5Kq;
         "pkg-1.21.11-1.1.4" = _6Zy46haL;
-        "pkg-1.4.0" = _xsAMqbcm;
-        "default" = _xsAMqbcm;
+        "pkg-1.4.0" = _cv4fo8ao;
+        "pkg-1.4.0.1" = _NLdisafv;
+        "default" = _NLdisafv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-beautiful-walls";

@@ -266,6 +266,16 @@ let
             "file" = "ThirstyBottles-fabric-MC26.2-26.2.0.1.jar";
             "hash" = "sha512-cEzPiWDknEL2K7XhxYqzP5aq6kzrCUub+5I5Fhm3BLA9+IborvACKdcZxPlm9NnODNxeC2AaxGHbH45U9PFebQ==";
         };
+        _KYrS8t6q = {
+            "id" = "KYrS8t6q";
+            "file" = "ThirstyBottles-fabric-MC26.3-26.3.0.1.jar";
+            "hash" = "sha512-172xev7Di5efwMZPiN5F6WdUgz7zDy7ti4e0PMx09xN4JTJOGIQ1LxdWq7cDHNfc0/EMinf4ujS8+wHOphEUkA==";
+        };
+        _z9s3AFy2 = {
+            "id" = "z9s3AFy2";
+            "file" = "ThirstyBottles-neoforge-MC26.3-26.3.0.1.jar";
+            "hash" = "sha512-LlGIdJqhXiiGZ3vUtxCoFVNsGukGoUE7rziE31BoBGmI0ngzF5YdrLDpk0kzKIMoisM/SkEB+QpxmvyWgVcnug==";
+        };
     in {
         "zOCbiuUV" = _zOCbiuUV;
         "VjaafIwG" = _VjaafIwG;
@@ -320,6 +330,8 @@ let
         "pXq0a0Ug" = _pXq0a0Ug;
         "4Id5RbBL" = _4Id5RbBL;
         "fCuBztwA" = _fCuBztwA;
+        "KYrS8t6q" = _KYrS8t6q;
+        "z9s3AFy2" = _z9s3AFy2;
         "forge-1.10.2" = _VjaafIwG;
         "forge-1.11.2" = _lxObgDhj;
         "forge-1.12" = _p4wGaDtu;
@@ -345,6 +357,7 @@ let
         "fabric-26.1.1" = _pXq0a0Ug;
         "fabric-26.1.2" = _pXq0a0Ug;
         "fabric-26.2" = _fCuBztwA;
+        "fabric-26.3" = _KYrS8t6q;
         "quilt-1.18.2" = _PON0gjrx;
         "quilt-1.19.2" = _WvB3jOUZ;
         "quilt-1.19.4" = _fBUPSIpx;
@@ -355,6 +368,7 @@ let
         "neoforge-26.1.1" = _2adDzhhM;
         "neoforge-26.1.2" = _2adDzhhM;
         "neoforge-26.2" = _4Id5RbBL;
+        "neoforge-26.3" = _z9s3AFy2;
         "pkg-1.0.0.0" = _zOCbiuUV;
         "pkg-1.0.1.0" = _VjaafIwG;
         "pkg-1.0.0" = _lxObgDhj;
@@ -384,7 +398,8 @@ let
         "pkg-7.0.3" = _GZOiNWp1;
         "pkg-26.1.2.1" = _pXq0a0Ug;
         "pkg-26.2.0.1" = _fCuBztwA;
-        "default" = _fCuBztwA;
+        "pkg-26.3.0.1" = _z9s3AFy2;
+        "default" = _z9s3AFy2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "thirsty-bottles";

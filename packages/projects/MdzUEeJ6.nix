@@ -36,6 +36,11 @@ let
             "file" = "CLaW v.1.2 1.21.11+.zip";
             "hash" = "sha512-CGYMu2upYJhlrcyRWXkzO4ucmpd2Z8993Uv8jPduv9IO6h3hyhm8ycaIf3QStCBerVQ8S/z4fvIo1fuOndk9AA==";
         };
+        _mJvpwhq8 = {
+            "id" = "mJvpwhq8";
+            "file" = "CLaW v.1.2 26.3.zip";
+            "hash" = "sha512-jcD8OHM/UIaU3uS9Xi2L82BGcc9hHoBggBhn7bA89mHb5LXp7eZ43x9wgWdnYjbckTub7Yz0pWPbbxBSJDKimA==";
+        };
     in {
         "ImPYvR7w" = _ImPYvR7w;
         "8MGJdOcQ" = _8MGJdOcQ;
@@ -44,6 +49,7 @@ let
         "FmXnAjo1" = _FmXnAjo1;
         "pULnDPGp" = _pULnDPGp;
         "bMq7Ri54" = _bMq7Ri54;
+        "mJvpwhq8" = _mJvpwhq8;
         "minecraft-1.17" = _eYsrzECR;
         "minecraft-1.17.1" = _eYsrzECR;
         "minecraft-1.18" = _eYsrzECR;
@@ -77,9 +83,10 @@ let
         "minecraft-26.1.1" = _bMq7Ri54;
         "minecraft-26.1.2" = _bMq7Ri54;
         "minecraft-26.2" = _bMq7Ri54;
+        "minecraft-26.3" = _mJvpwhq8;
         "pkg-1.1" = _dxzr0pWK;
-        "pkg-1.2" = _bMq7Ri54;
-        "default" = _bMq7Ri54;
+        "pkg-1.2" = _mJvpwhq8;
+        "default" = _mJvpwhq8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "clear-lava-and-water";

@@ -116,6 +116,36 @@ let
             "file" = "touhou-maid-affection-1.7.2.2.jar";
             "hash" = "sha512-P2LE4A7jSfGIAD4LDpy/WqjBeWusGDrxzSalVfe1h2+Tb3FDNDF7TISc0a2xmHFklFyTx09h3zsFRlsKcjF61g==";
         };
+        _YY9lXq59 = {
+            "id" = "YY9lXq59";
+            "file" = "touhou-maid-affection-1.7.5.0.jar";
+            "hash" = "sha512-zGseabEn5qu6Mha1ZHfzIL3nQhYPfvSzJGNVValUFle1IBn3OUeUrfKsb7K7hRgLn5HN1y5FV9flWc1s/nJHGw==";
+        };
+        _DElC9Mch = {
+            "id" = "DElC9Mch";
+            "file" = "touhou-maid-affection-1.7.5.0.jar";
+            "hash" = "sha512-jPk4Kt+leb2JqEuDBJv57MHC/Ou5ZPNgahqXuAGT3sDf0cfOojbAM/Z36ae3o6UwmOxCC031vx0OLthLP8zC2g==";
+        };
+        _x4Csgsb8 = {
+            "id" = "x4Csgsb8";
+            "file" = "touhou-maid-affection-1.7.5.1.jar";
+            "hash" = "sha512-o7n9IcXPr6E7Ok+uaKn8X3H84Xh4CTMhg9JtwaXefg9Jrw/k6jDMGJUEIFnsGMx4Hi9f0Vo6Uz1G/+gOjc8xKA==";
+        };
+        _B6scC7Cs = {
+            "id" = "B6scC7Cs";
+            "file" = "touhou-maid-affection-1.7.5.1.jar";
+            "hash" = "sha512-Z/11Lk/fdWGzZUwdTAKWG5TMVFXeZrhtEk849ZlVeX/6i4CUo4MGFbldLHeLo2MvoiTKLJE8xwCg1AAFjKhx0w==";
+        };
+        _X0n8FKmu = {
+            "id" = "X0n8FKmu";
+            "file" = "touhou-maid-affection-1.7.5.2.jar";
+            "hash" = "sha512-rMD/etw3odKZegxCRH+SxsJkbpip8ljnF9sP+P6dX/CGgOAMSX9B/TgtI8aX4+pOYXTt7VZIErd7rNqZDn2mTA==";
+        };
+        _hpRdLySN = {
+            "id" = "hpRdLySN";
+            "file" = "touhou-maid-affection-1.7.5.2.jar";
+            "hash" = "sha512-H6wj6UUAPIMk+EeLvwWx5pnG/B52NidRKE6Ir+eJhdElExqRBmFJW2hvot7muN1Mz1bfJtdk7o7w3J++OclS2Q==";
+        };
     in {
         "wZ2DivE6" = _wZ2DivE6;
         "INLGQoai" = _INLGQoai;
@@ -140,8 +170,14 @@ let
         "PvPKdIWk" = _PvPKdIWk;
         "QcScEn80" = _QcScEn80;
         "ib1EhqZY" = _ib1EhqZY;
+        "YY9lXq59" = _YY9lXq59;
+        "DElC9Mch" = _DElC9Mch;
+        "x4Csgsb8" = _x4Csgsb8;
+        "B6scC7Cs" = _B6scC7Cs;
+        "X0n8FKmu" = _X0n8FKmu;
+        "hpRdLySN" = _hpRdLySN;
         "neoforge-1.21" = _INLGQoai;
-        "neoforge-1.21.1" = _ib1EhqZY;
+        "neoforge-1.21.1" = _X0n8FKmu;
         "neoforge-1.21.2" = _INLGQoai;
         "neoforge-1.21.3" = _INLGQoai;
         "neoforge-1.21.4" = _INLGQoai;
@@ -152,7 +188,7 @@ let
         "neoforge-1.21.9" = _INLGQoai;
         "neoforge-1.21.10" = _INLGQoai;
         "neoforge-1.21.11" = _INLGQoai;
-        "forge-1.20.1" = _QcScEn80;
+        "forge-1.20.1" = _hpRdLySN;
         "pkg-1.1.0" = _wZ2DivE6;
         "pkg-1.2.0" = _INLGQoai;
         "pkg-1.3.0" = _dML6b4wC;
@@ -176,7 +212,13 @@ let
         "pkg-1.7.2.1" = _PvPKdIWk;
         "pkg-1.7.2.2+forge1.20.1" = _QcScEn80;
         "pkg-1.7.2.2" = _ib1EhqZY;
-        "default" = _ib1EhqZY;
+        "pkg-1.7.5.0" = _YY9lXq59;
+        "pkg-1.7.5.0+forge1.20.1" = _DElC9Mch;
+        "pkg-1.7.5.1" = _x4Csgsb8;
+        "pkg-1.7.5.1+forge1.20.1" = _B6scC7Cs;
+        "pkg-1.7.5.2" = _X0n8FKmu;
+        "pkg-1.7.5.2+forge1.20.1" = _hpRdLySN;
+        "default" = _hpRdLySN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "touhou-maid-affection";

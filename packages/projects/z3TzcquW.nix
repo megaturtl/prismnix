@@ -326,6 +326,16 @@ let
             "file" = "fastpaintings-26.1.2-1.4.0-neoforge.jar";
             "hash" = "sha512-I6VR1998kmc/iNDvTjtwPCx4M24EnvfpAeDTldwwUBrJoPLSgcGJMx03Z9C02adhGtMhYhwXfb70ZoIDDpj73A==";
         };
+        _rmMrheaC = {
+            "id" = "rmMrheaC";
+            "file" = "fastpaintings-1.21-1.3.1-neoforge.jar";
+            "hash" = "sha512-UwNYrApF44kkdkR+zJLNwlwfxBoOi47PIiFItc92JERzK9oCafW9UgKVLV5aqSjtl7NV+DUCOcTvZNIcDvYRpQ==";
+        };
+        _8xe5ZhgX = {
+            "id" = "8xe5ZhgX";
+            "file" = "fastpaintings-1.21-1.3.1-fabric.jar";
+            "hash" = "sha512-Q0UpVeFjm/bmguTFzs3oHSY0+u/VcUFlfSFSunnlOj9AKwNpwsufSAcomwVBijpRiFVRdDmvyKjQK9X7BLfeJQ==";
+        };
     in {
         "sTRDOChA" = _sTRDOChA;
         "1EGRhg4c" = _1EGRhg4c;
@@ -392,17 +402,19 @@ let
         "gv8Py8iO" = _gv8Py8iO;
         "fSD3NMbQ" = _fSD3NMbQ;
         "ihQqImL4" = _ihQqImL4;
+        "rmMrheaC" = _rmMrheaC;
+        "8xe5ZhgX" = _8xe5ZhgX;
         "fabric-1.19.2" = _2iNtjCau;
         "fabric-1.20.1" = _1SN7K6ZX;
         "fabric-1.20.4" = _VxB8EM3v;
         "fabric-1.21" = _gv8Py8iO;
-        "fabric-1.21.1" = _gv8Py8iO;
+        "fabric-1.21.1" = _8xe5ZhgX;
         "fabric-26.1.2" = _fSD3NMbQ;
         "forge-1.19.2" = _6yTegMt6;
         "forge-1.20.1" = _Bvjyyy1T;
         "neoforge-1.20.4" = _RQlm3hnA;
         "neoforge-1.21" = _PQ155hbf;
-        "neoforge-1.21.1" = _PQ155hbf;
+        "neoforge-1.21.1" = _rmMrheaC;
         "neoforge-26.1.2" = _ihQqImL4;
         "pkg-1.19-1.0.0" = _1EGRhg4c;
         "pkg-1.19-1.0.1" = _Ii6F2cbz;
@@ -439,7 +451,8 @@ let
         "pkg-neoforge_1.21-1.3.0" = _PQ155hbf;
         "pkg-fabric_1.21-1.3.0" = _gv8Py8iO;
         "pkg-26.1.2-1.4.0" = _ihQqImL4;
-        "default" = _ihQqImL4;
+        "pkg-1.21-1.3.1" = _8xe5ZhgX;
+        "default" = _8xe5ZhgX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fast-paintings";

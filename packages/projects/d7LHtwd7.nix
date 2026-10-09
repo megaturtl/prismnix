@@ -101,6 +101,46 @@ let
             "file" = "NameTagUpgrade-v26.2.3-mc26.2.x-Fabric.jar";
             "hash" = "sha512-0+PAkWE644UZzQEhC4UkxNIVbZVxJFo7SsbpZl1r3IDyFdrhUCA2+Nc00sNSp7DvTPLodbIOu4Z/X0XkC1eb9Q==";
         };
+        _LqT0U0Tc = {
+            "id" = "LqT0U0Tc";
+            "file" = "nametagupgrade-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-8+jLbjQLKqDBiSWGyY9cv4ZzrrmEk3l8I45885sTs12v5d8d771KGiJ9j88UnGhtF93WAebYcpVKcLjR08S8PA==";
+        };
+        _xDkqPsS3 = {
+            "id" = "xDkqPsS3";
+            "file" = "nametagupgrade-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-MaTBFgS2Guygho/LMikE+JuCG/9+7pZRjMYsqHJA0WWzb5bCBSslceEK8HrdiiOfxOwDOHyKRiHf4bMi7pa23Q==";
+        };
+        _sotanU5t = {
+            "id" = "sotanU5t";
+            "file" = "nametagupgrade-v26.3.1-mc26.3.x+fabric.jar";
+            "hash" = "sha512-zBhV7StpZzjbkf/7iizokJu1vo6ytQFh9b/D3kSPXi6Rt1KKnfcvAqmIeWEH7lUcbE+iRCrVWx45u7Z5q0c5Lg==";
+        };
+        _QJVJz3pc = {
+            "id" = "QJVJz3pc";
+            "file" = "nametagupgrade-v26.3.1-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-ZB6ZoF9dWeMujzcu/AiRJblB6mL9e6c4SDN2WqbidGXhRwKasb5VIe1m7VB+h+/lJDoitcNtVGZTYmHtKu7KGg==";
+        };
+        _eFMCCdPn = {
+            "id" = "eFMCCdPn";
+            "file" = "nametagupgrade-v26.1.4-mc26.1.x+fabric.jar";
+            "hash" = "sha512-qvPDu9m4XBW4grPA784o0X80MYvLq/SN1JrB3MwzbbGcWSV6eTyxL/iPTz/jt1/kGlZHEWmvrFDSd1LGqy7Gug==";
+        };
+        _63isJuza = {
+            "id" = "63isJuza";
+            "file" = "nametagupgrade-v26.1.4-mc26.1.x+neoforge.jar";
+            "hash" = "sha512-gHVKKEgZRwWQYM/t+jlCQpyTX0Oz78TeT+tVvm6Kl38H5PiYzfMmetjMAbznMYnJywR89BYY4WzvBp7mGhSq+Q==";
+        };
+        _ShSpUk1B = {
+            "id" = "ShSpUk1B";
+            "file" = "nametagupgrade-v21.1.1-mc1.21.1+neoforge.jar";
+            "hash" = "sha512-aeGXiB39znCoRx87JYOnJAjVFfLyhSt2wb+fLjaNXHHTvGygWEjpjf3rRKsAit2SXtQl8HwduXPIL8m5xs9wGQ==";
+        };
+        _eVBOPbR3 = {
+            "id" = "eVBOPbR3";
+            "file" = "nametagupgrade-v21.1.1-mc1.21.1+fabric.jar";
+            "hash" = "sha512-JsKBYjfINaXRjy0aNstjrckudKqNjyk0V5YL4gf7RYdnfpvgFRO1/VWoNr32FipAbCy9CSFjAX53B/Go4oGovA==";
+        };
     in {
         "lGDEQtbz" = _lGDEQtbz;
         "86V8hJAl" = _86V8hJAl;
@@ -122,18 +162,28 @@ let
         "BwETZ13f" = _BwETZ13f;
         "9cgljfnO" = _9cgljfnO;
         "N1FHbvAe" = _N1FHbvAe;
+        "LqT0U0Tc" = _LqT0U0Tc;
+        "xDkqPsS3" = _xDkqPsS3;
+        "sotanU5t" = _sotanU5t;
+        "QJVJz3pc" = _QJVJz3pc;
+        "eFMCCdPn" = _eFMCCdPn;
+        "63isJuza" = _63isJuza;
+        "ShSpUk1B" = _ShSpUk1B;
+        "eVBOPbR3" = _eVBOPbR3;
         "neoforge-1.21.11" = _lGDEQtbz;
-        "neoforge-26.1" = _N8WIqhkD;
-        "neoforge-26.1.1" = _N8WIqhkD;
-        "neoforge-26.1.2" = _N8WIqhkD;
+        "neoforge-26.1" = _63isJuza;
+        "neoforge-26.1.1" = _63isJuza;
+        "neoforge-26.1.2" = _63isJuza;
         "neoforge-26.2" = _9cgljfnO;
-        "neoforge-1.21.1" = _nnGVw1po;
+        "neoforge-1.21.1" = _ShSpUk1B;
+        "neoforge-26.3" = _QJVJz3pc;
         "fabric-1.21.11" = _86V8hJAl;
-        "fabric-26.1" = _BwETZ13f;
-        "fabric-26.1.1" = _BwETZ13f;
-        "fabric-26.1.2" = _BwETZ13f;
+        "fabric-26.1" = _eFMCCdPn;
+        "fabric-26.1.1" = _eFMCCdPn;
+        "fabric-26.1.2" = _eFMCCdPn;
         "fabric-26.2" = _N1FHbvAe;
-        "fabric-1.21.1" = _93XaJ0hj;
+        "fabric-1.21.1" = _eVBOPbR3;
+        "fabric-26.3" = _sotanU5t;
         "pkg-21.11.0" = _86V8hJAl;
         "pkg-26.1.0" = _eX2APCAm;
         "pkg-26.2.0" = _ulea9tea;
@@ -144,7 +194,11 @@ let
         "pkg-21.1.0" = _93XaJ0hj;
         "pkg-26.1.3" = _BwETZ13f;
         "pkg-26.2.3" = _N1FHbvAe;
-        "default" = _N1FHbvAe;
+        "pkg-26.3.0" = _xDkqPsS3;
+        "pkg-26.3.1" = _QJVJz3pc;
+        "pkg-26.1.4" = _63isJuza;
+        "pkg-21.1.1" = _eVBOPbR3;
+        "default" = _eVBOPbR3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "name-tag-upgrade";

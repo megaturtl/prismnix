@@ -146,6 +146,11 @@ let
             "file" = "spanishdelight-26.2-1.0.11.jar";
             "hash" = "sha512-zH8p4O6RDZcAFxfxrNcgBrL71jV7J/Z8bMmHGn9sZKjUKHUzYBoKuWRfpYazmfqyTvejpA3/depBx9BCb482Yw==";
         };
+        _FGGGJ0bS = {
+            "id" = "FGGGJ0bS";
+            "file" = "spanishdelight-26.3-1.0.12.jar";
+            "hash" = "sha512-p2PABCTZfdXcstksVZFFsWYs4J/uZXwX5HntNlJEv0Rp0YVtFMrFl6Cc3L624eV0spgBmvMAXZ/cXPDiTsIX8w==";
+        };
     in {
         "weENUffS" = _weENUffS;
         "NqqSQRdi" = _NqqSQRdi;
@@ -176,6 +181,7 @@ let
         "GdHtiyeL" = _GdHtiyeL;
         "PoAm1rBj" = _PoAm1rBj;
         "Eo49hUEj" = _Eo49hUEj;
+        "FGGGJ0bS" = _FGGGJ0bS;
         "fabric-1.20.1" = _poubiwle;
         "fabric-1.21.1" = _XleCs4Bu;
         "fabric-1.21.5" = _Jlys9eOC;
@@ -189,6 +195,7 @@ let
         "fabric-26.1.1" = _PoAm1rBj;
         "fabric-26.1.2" = _PoAm1rBj;
         "fabric-26.2" = _Eo49hUEj;
+        "fabric-26.3" = _FGGGJ0bS;
         "quilt-1.20.1" = _poubiwle;
         "quilt-1.21.1" = _XleCs4Bu;
         "quilt-1.21.5" = _Jlys9eOC;
@@ -202,6 +209,7 @@ let
         "quilt-26.1.1" = _PoAm1rBj;
         "quilt-26.1.2" = _PoAm1rBj;
         "quilt-26.2" = _Eo49hUEj;
+        "quilt-26.3" = _FGGGJ0bS;
         "pkg-1.0.0" = _weENUffS;
         "pkg-1.0.1" = _NqqSQRdi;
         "pkg-1.0.2" = _VSOkIh8g;
@@ -230,7 +238,8 @@ let
         "pkg-26.1.2-1.0.9" = _GdHtiyeL;
         "pkg-26.1.2-1.0.10" = _PoAm1rBj;
         "pkg-26.2-1.0.11" = _Eo49hUEj;
-        "default" = _Eo49hUEj;
+        "pkg-26.3-1.0.12" = _FGGGJ0bS;
+        "default" = _FGGGJ0bS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spanish-delight-refabricated";

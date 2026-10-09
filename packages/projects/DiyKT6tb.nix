@@ -41,6 +41,11 @@ let
             "file" = "ropefix-1.5.0.jar";
             "hash" = "sha512-lHf1Y7xg1krhjayFOyYpw20WYSGTXNFSKISQDCt7GgQ+7cGGQGsVefhChyctMIDTLekRHBsnt3C7rrEXDr9erQ==";
         };
+        _C7d6T0sq = {
+            "id" = "C7d6T0sq";
+            "file" = "constraintfix-1.6.0.jar";
+            "hash" = "sha512-S8UA3XBR5sx1LEqT1qEbPUSovaM+a7A0FDfCFEJeVTyMz65vz36uNDVKIZhxhjSxmmx23bX/QJmcoTApEpho6A==";
+        };
     in {
         "TiW7KgDm" = _TiW7KgDm;
         "CEau3cuJ" = _CEau3cuJ;
@@ -50,7 +55,8 @@ let
         "yLg7s8ku" = _yLg7s8ku;
         "j0f25GpB" = _j0f25GpB;
         "UvG3RnjD" = _UvG3RnjD;
-        "neoforge-1.21.1" = _UvG3RnjD;
+        "C7d6T0sq" = _C7d6T0sq;
+        "neoforge-1.21.1" = _C7d6T0sq;
         "pkg-1.0.0" = _TiW7KgDm;
         "pkg-1.1.0" = _CEau3cuJ;
         "pkg-1.2.0" = _Vqo5NxE4;
@@ -59,7 +65,8 @@ let
         "pkg-1.3.0" = _yLg7s8ku;
         "pkg-1.4.0" = _j0f25GpB;
         "pkg-1.5.0" = _UvG3RnjD;
-        "default" = _UvG3RnjD;
+        "pkg-1.6.0" = _C7d6T0sq;
+        "default" = _C7d6T0sq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-aeronautics-rope-fix";

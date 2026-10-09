@@ -361,6 +361,11 @@ let
             "file" = "blocky-bubbles-4.1.0+26.2.jar";
             "hash" = "sha512-WyZrpNz4kmbDTAT4yr+kQ7KD5wkT4aa/b7nr0puzHm6g2Qn3OBb15AmxGs5SKvi8vHEv4Xi4WdpSo3ZixgPwsw==";
         };
+        _VyAII2HG = {
+            "id" = "VyAII2HG";
+            "file" = "blocky-bubbles-4.1.0+26.3.jar";
+            "hash" = "sha512-uuCuu/+aVvdgAyW0VsBekTYMjyxKki6wtDLX6VoRIBMUsE/A15sYqhUpsaeDA44oOnlu3hrZA03bPSU6YgrgfQ==";
+        };
     in {
         "AvADRRpa" = _AvADRRpa;
         "BsVoE9CR" = _BsVoE9CR;
@@ -434,6 +439,7 @@ let
         "KqBzh8yn" = _KqBzh8yn;
         "5YL3yUNt" = _5YL3yUNt;
         "CWpfwXEu" = _CWpfwXEu;
+        "VyAII2HG" = _VyAII2HG;
         "fabric-1.20.1" = _C4HGH7dk;
         "fabric-1.20.2" = _t8b7qxdb;
         "fabric-1.20.3" = _9S3HKHYG;
@@ -464,6 +470,7 @@ let
         "fabric-26.1.1" = _KqBzh8yn;
         "fabric-26.1.2" = _KqBzh8yn;
         "fabric-26.2" = _CWpfwXEu;
+        "fabric-26.3" = _VyAII2HG;
         "pkg-1.0.0" = _AvADRRpa;
         "pkg-1.0.1" = _BsVoE9CR;
         "pkg-1.1.0+1.17.1" = _yv6IvN0c;
@@ -516,7 +523,8 @@ let
         "pkg-3.0.1" = _KqBzh8yn;
         "pkg-4.0.0" = _5YL3yUNt;
         "pkg-4.1.0" = _CWpfwXEu;
-        "default" = _CWpfwXEu;
+        "pkg-4.1.0+26.3" = _VyAII2HG;
+        "default" = _VyAII2HG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blocky-bubbles";

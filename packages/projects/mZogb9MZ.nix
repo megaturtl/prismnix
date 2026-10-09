@@ -16,18 +16,26 @@ let
             "file" = "afk-bot-mod-1.2.1.jar";
             "hash" = "sha512-KFIvRyCOLfknF8lpOSaYfuA91HxKnqoApIpMYXfRqv39YRx1806SFeiAId2D7r+5Bn8l6A8MFy4gtgio9L+yww==";
         };
+        _2h92bE9z = {
+            "id" = "2h92bE9z";
+            "file" = "afk-bot-mod-1.3.0.jar";
+            "hash" = "sha512-HTkmSTw5njcWyhd5v0r3BpIQtiuWizpXa4w/q2eFknEGC39q0QQkO47oD2XMgjXWyBtYiSMy+Hbb9eq8Jq5F5g==";
+        };
     in {
         "LBesCdwH" = _LBesCdwH;
         "kOLPaBav" = _kOLPaBav;
         "QKanei6y" = _QKanei6y;
+        "2h92bE9z" = _2h92bE9z;
         "fabric-26.1" = _kOLPaBav;
         "fabric-26.1.1" = _kOLPaBav;
         "fabric-26.1.2" = _kOLPaBav;
         "fabric-26.2" = _QKanei6y;
+        "fabric-26.3" = _2h92bE9z;
         "pkg-1.0.0" = _LBesCdwH;
         "pkg-1.0.1" = _kOLPaBav;
         "pkg-1.2.1" = _QKanei6y;
-        "default" = _QKanei6y;
+        "pkg-1.3.0" = _2h92bE9z;
+        "default" = _2h92bE9z;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simpleafkbot";

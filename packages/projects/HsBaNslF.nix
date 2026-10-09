@@ -86,6 +86,21 @@ let
             "file" = "visitingvillagers-1.0.2-mc1.21.11.jar";
             "hash" = "sha512-EYZBct1s/FGC8J1c3fCndhy/thIy14RZGfHI7gbSUcanowsjWgQ/VxDHJDx9CirKZnaYNdC9tfAeTfpjnjCOng==";
         };
+        _d7SwHxeZ = {
+            "id" = "d7SwHxeZ";
+            "file" = "visitingvillagers-1.0.3-fa-26.2.jar";
+            "hash" = "sha512-gT7ok+SQPbsEEp5FNPtlgqjY1VQ5Q+8ElU0XBsbQL1WhUZuqbRHpHR+EDIrkoi9n1tQH1ZH/LbYFZGCdkZ2wUA==";
+        };
+        _2dlztGE7 = {
+            "id" = "2dlztGE7";
+            "file" = "visitingvillagers-1.0.3-nf-26.2.jar";
+            "hash" = "sha512-SjRzELrk1yytc4iOnzS1cMv0oqVVtQIBDuwRelH83V9Dt4SVxfoFw/1E7W2mGHMXjKMElgHgqkrPoqo0yLDYgA==";
+        };
+        _WvlMc0fg = {
+            "id" = "WvlMc0fg";
+            "file" = "visitingvillagers-1.0.3-nf-1.21.1.jar";
+            "hash" = "sha512-yXc0DuPiYC+pephFIl94KV1EAZJSvihA/Kyz6Uay9pRBEszI8jUiS5kUSYN3Ky9XVDG708JXFC/A+5n8UQdxpw==";
+        };
     in {
         "zY21gxJV" = _zY21gxJV;
         "JB5wyxTm" = _JB5wyxTm;
@@ -104,6 +119,9 @@ let
         "dz2zI9Wb" = _dz2zI9Wb;
         "PxMMhTz5" = _PxMMhTz5;
         "MvDLnoUS" = _MvDLnoUS;
+        "d7SwHxeZ" = _d7SwHxeZ;
+        "2dlztGE7" = _2dlztGE7;
+        "WvlMc0fg" = _WvlMc0fg;
         "forge-1.20.1" = _4EmZvR3w;
         "forge-1.21" = _WHMMtyZD;
         "forge-1.21.1" = _rXD4C7Yo;
@@ -111,9 +129,11 @@ let
         "fabric-1.21" = _keJZCy7t;
         "fabric-1.21.1" = _7uqw5DYU;
         "fabric-1.21.11" = _PxMMhTz5;
+        "fabric-26.2" = _d7SwHxeZ;
         "neoforge-1.21" = _R9GNkOEY;
-        "neoforge-1.21.1" = _dz2zI9Wb;
+        "neoforge-1.21.1" = _WvlMc0fg;
         "neoforge-1.21.11" = _MvDLnoUS;
+        "neoforge-26.2" = _2dlztGE7;
         "pkg-1.0.0-mc1.20.1" = _zY21gxJV;
         "pkg-1.0.0-mc-1.20.1" = _JB5wyxTm;
         "pkg-1.0.0-mc1.21.1" = _mGskZHG8;
@@ -122,7 +142,10 @@ let
         "pkg-1.0.2-mc1.20.1" = _x3CH55Xk;
         "pkg-1.0.2-mc1.21.1" = _dz2zI9Wb;
         "pkg-1.0.2-mc1.21.11" = _MvDLnoUS;
-        "default" = _MvDLnoUS;
+        "pkg-1.0.3-fa-26.2" = _d7SwHxeZ;
+        "pkg-1.0.3-nf-26.2" = _2dlztGE7;
+        "pkg-1.0.3-nf-1.21.1" = _WvlMc0fg;
+        "default" = _WvlMc0fg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "visiting-villagers";

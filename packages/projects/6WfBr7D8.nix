@@ -76,6 +76,11 @@ let
             "file" = "SmoothJoin-NeoForge-1.0.3-NeoForge.jar";
             "hash" = "sha512-PIh+7pMBYfQ9nZQaMQ8YJSS7tXIxyFZnwMK0mXru6GEleA947tMarIizQkZGwBPi3b8OV1ug7BR8fVVXoXE9NQ==";
         };
+        _2bLZ6FBM = {
+            "id" = "2bLZ6FBM";
+            "file" = "smoothjoin-fabric-26.3-1.3.2.jar";
+            "hash" = "sha512-J1/xzqIsPgTkztLjZBYbCbyEBLmzULzr+cvgmBPGc3nFIp4RjdX2mR+vvoHWWWQEjV9JfuCIe6XL89D8t/DQcg==";
+        };
     in {
         "QhJD17Zo" = _QhJD17Zo;
         "pyFGUUfe" = _pyFGUUfe;
@@ -92,6 +97,7 @@ let
         "ctJzU3DC" = _ctJzU3DC;
         "J4TjUD8v" = _J4TjUD8v;
         "dO1padLX" = _dO1padLX;
+        "2bLZ6FBM" = _2bLZ6FBM;
         "fabric-1.21" = _cz33kCJ8;
         "fabric-1.21.1" = _cz33kCJ8;
         "fabric-1.21.2" = _cz33kCJ8;
@@ -120,6 +126,7 @@ let
         "fabric-26.1.1" = _H54DEYXt;
         "fabric-26.1.2" = _rI3hfMCy;
         "fabric-26.2" = _ctJzU3DC;
+        "fabric-26.3" = _2bLZ6FBM;
         "neoforge-26.2" = _J4TjUD8v;
         "neoforge-1.21" = _dO1padLX;
         "neoforge-1.21.1" = _dO1padLX;
@@ -142,7 +149,8 @@ let
         "pkg-1.3.1" = _ctJzU3DC;
         "pkg-1.3.1-NeoForge" = _J4TjUD8v;
         "pkg-1.0.3-NeoForge" = _dO1padLX;
-        "default" = _dO1padLX;
+        "pkg-1.3.2" = _2bLZ6FBM;
+        "default" = _2bLZ6FBM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "smooth-join";

@@ -46,6 +46,56 @@ let
             "file" = "bunnyhop-1.16.5.jar";
             "hash" = "sha512-6IT+NJ84+2RWZN4ivETHbc9QKB32Atq3TdR9IbR69oKPtM+KQ+0dDn+5OanrPWA082FJuRwcCj1Ku2EkxiyePg==";
         };
+        _wwvlzWB5 = {
+            "id" = "wwvlzWB5";
+            "file" = "bunnyhop-1.0.2+mc1.16.5.jar";
+            "hash" = "sha512-Fx/UJKcaghuaR2fW8wDF6bki+Xc+wdsg1+t5ySt8k4wVxj/8fycThDI7MED4W6NmbF8qjNHLFEirt/k+pKwmOA==";
+        };
+        _qkaKHqk4 = {
+            "id" = "qkaKHqk4";
+            "file" = "bunnyhop-1.0.2+mc1.18.2.jar";
+            "hash" = "sha512-NMRsnEYs2b4L4INRQ8RPlonJLd/Mm3EHDoxxvdBpUafpROznWrtp3oZI2Xdf/ITWBZxk/cdlKWtXg8PVY48m0Q==";
+        };
+        _ml8XTnml = {
+            "id" = "ml8XTnml";
+            "file" = "bunnyhop-1.0.2+mc1.19.4.jar";
+            "hash" = "sha512-X4mWt/yi3N2Ghq5PtzDekeDw2eA8NxQZNdqiNkiM8tH95d6nClnX9qmtO3zwapWpk5S7NbwEsxu6I9EpfUCONA==";
+        };
+        _G0i3FBkc = {
+            "id" = "G0i3FBkc";
+            "file" = "bunnyhop-1.0.2+mc1.20.1.jar";
+            "hash" = "sha512-s0bT8TyoBT02spEgVYyLpwOoSAjEFjwyg0Q6GChCM5Gkwr25F7Fl/C0xspccQaRDAj0FYsNWER1L8YN46zlnmQ==";
+        };
+        _SrLryNv6 = {
+            "id" = "SrLryNv6";
+            "file" = "bunnyhop-1.0.2+mc1.20.4.jar";
+            "hash" = "sha512-e/2uEpuMwNSO1H5v6fzgCk+OAvSZM1LmqzXeqoZkZdCOB5w1iXN3T6LrDv66eV8lgOTwCiURGhH+WbABaJS7DQ==";
+        };
+        _kzWAjX20 = {
+            "id" = "kzWAjX20";
+            "file" = "bunnyhop-1.0.2+mc1.20.6.jar";
+            "hash" = "sha512-KzbZp9TsZ+tG2ZoE4rUXKngYWB2nI8GL6koHGn+8rgPVCxbc+PnEx1i+I2Jmw/ZBQCl/BiLp06RarESlqOgQFg==";
+        };
+        _BfxnPIve = {
+            "id" = "BfxnPIve";
+            "file" = "bunnyhop-1.0.2+mc1.21.1.jar";
+            "hash" = "sha512-wmdDjGPwCbXjy0UCSUu6IzUT6unMrKNZSpn3ih/RGYeBvnag0SpFWNnfEP8wFulaY3JHZxC306HI2JfKT/biGw==";
+        };
+        _wy5PvMgA = {
+            "id" = "wy5PvMgA";
+            "file" = "bunnyhop-1.0.2+mc1.21.4.jar";
+            "hash" = "sha512-ry58qxj8yiP2eg7IvNppFinpNFVDQCueMHUHfade18T2WUaCEykXeTYFnvjPHZyiW1aZqZmFZxUGSfP3HtZ+hg==";
+        };
+        _Pi8kx8ID = {
+            "id" = "Pi8kx8ID";
+            "file" = "bunnyhop-1.0.2+mc1.21.8.jar";
+            "hash" = "sha512-u3DAp+Etw3NB91eNNCSFy3lweC67DUyclAPML2cev7NdnPsXV537rlQ6br6xA5rYnG8oy2fxOCq4Xkx5LKd+5g==";
+        };
+        _rIIqMTxq = {
+            "id" = "rIIqMTxq";
+            "file" = "bunnyhop-1.0.2+mc1.21.jar";
+            "hash" = "sha512-51UXCQH/RU/fovKAvwJFcaO7ksEnUyJ+Ka1Z1bE5cfdgo5PrVkv5Gj6pwmF454WiwIhRZi1MtLqhRGLG6Sdhbw==";
+        };
     in {
         "AEIbBpZr" = _AEIbBpZr;
         "lY1h1OxL" = _lY1h1OxL;
@@ -56,17 +106,38 @@ let
         "ccgqHfFg" = _ccgqHfFg;
         "oQ0oAA4R" = _oQ0oAA4R;
         "fMHG1D0J" = _fMHG1D0J;
-        "fabric-1.21.8" = _AEIbBpZr;
-        "fabric-1.21.4" = _lY1h1OxL;
-        "fabric-1.21.1" = _gfTlu8uQ;
-        "fabric-1.20.6" = _vapkRUs0;
-        "fabric-1.20.4" = _fjtw7lw3;
-        "fabric-1.20.1" = _3yJ3E0Q3;
-        "fabric-1.19.4" = _ccgqHfFg;
-        "fabric-1.18.2" = _oQ0oAA4R;
-        "fabric-1.16.5" = _fMHG1D0J;
+        "wwvlzWB5" = _wwvlzWB5;
+        "qkaKHqk4" = _qkaKHqk4;
+        "ml8XTnml" = _ml8XTnml;
+        "G0i3FBkc" = _G0i3FBkc;
+        "SrLryNv6" = _SrLryNv6;
+        "kzWAjX20" = _kzWAjX20;
+        "BfxnPIve" = _BfxnPIve;
+        "wy5PvMgA" = _wy5PvMgA;
+        "Pi8kx8ID" = _Pi8kx8ID;
+        "rIIqMTxq" = _rIIqMTxq;
+        "fabric-1.21.8" = _Pi8kx8ID;
+        "fabric-1.21.4" = _wy5PvMgA;
+        "fabric-1.21.1" = _BfxnPIve;
+        "fabric-1.20.6" = _kzWAjX20;
+        "fabric-1.20.4" = _SrLryNv6;
+        "fabric-1.20.1" = _G0i3FBkc;
+        "fabric-1.19.4" = _ml8XTnml;
+        "fabric-1.18.2" = _qkaKHqk4;
+        "fabric-1.16.5" = _wwvlzWB5;
+        "fabric-1.21" = _rIIqMTxq;
         "pkg-1.0.0" = _fMHG1D0J;
-        "default" = _fMHG1D0J;
+        "pkg-1.0.2+mc1.16.5" = _wwvlzWB5;
+        "pkg-1.0.2+mc1.18.2" = _qkaKHqk4;
+        "pkg-1.0.2+mc1.19.4" = _ml8XTnml;
+        "pkg-1.0.2+mc1.20.1" = _G0i3FBkc;
+        "pkg-1.0.2+mc1.20.4" = _SrLryNv6;
+        "pkg-1.0.2+mc1.20.6" = _kzWAjX20;
+        "pkg-1.0.2+mc1.21.1" = _BfxnPIve;
+        "pkg-1.0.2+mc1.21.4" = _wy5PvMgA;
+        "pkg-1.0.2+mc1.21.8" = _Pi8kx8ID;
+        "pkg-1.0.2+mc1.21" = _rIIqMTxq;
+        "default" = _rIIqMTxq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bunnyhop+";

@@ -31,6 +31,11 @@ let
             "file" = "unks_unifies-1.2.1-forge-1.20.1.jar";
             "hash" = "sha512-Nr+8z7gQQKVo0eykNMBg/+klG7qYCu09Lu8wK1AAm6LI3i7bR55MFZrr0mzBL22MtrV9xhnYRhp0wdkGnYf7yw==";
         };
+        _SOVe0jyN = {
+            "id" = "SOVe0jyN";
+            "file" = "unks_unifies-1.2.2-forge-1.20.1.jar";
+            "hash" = "sha512-K3XR8EQvJ+u29iz2pnEMd8/QbJqdbzA97IcDS68EpI58O/CntqWBwCbNEAb28NpI+S50/E4w74JY0054d6NcDA==";
+        };
     in {
         "ARBZ1Gd4" = _ARBZ1Gd4;
         "YXm5XYZ7" = _YXm5XYZ7;
@@ -38,14 +43,16 @@ let
         "dCuxgGuB" = _dCuxgGuB;
         "jlAILJBc" = _jlAILJBc;
         "lOh2jDdw" = _lOh2jDdw;
-        "forge-1.20.1" = _lOh2jDdw;
+        "SOVe0jyN" = _SOVe0jyN;
+        "forge-1.20.1" = _SOVe0jyN;
         "pkg-1.0.0" = _ARBZ1Gd4;
         "pkg-1.1.0" = _YXm5XYZ7;
         "pkg-1.1.1" = _DlDW3PVx;
         "pkg-1.1.9" = _dCuxgGuB;
         "pkg-1.2" = _jlAILJBc;
         "pkg-1.2.1" = _lOh2jDdw;
-        "default" = _lOh2jDdw;
+        "pkg-1.2.2" = _SOVe0jyN;
+        "default" = _SOVe0jyN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "unks-unifies";

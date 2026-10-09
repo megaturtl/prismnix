@@ -56,6 +56,16 @@ let
             "file" = "ColorTooltips-1211.3.5.jar";
             "hash" = "sha512-BVsIfEiKZP/PlZ/eGdkiI6Pjd5DxO+0P7Vs5rYYRen2URUbBfps3jeQPaSVkOjkfLA8s4qvOQNmZyshoVtmTZw==";
         };
+        _oS1xLxJZ = {
+            "id" = "oS1xLxJZ";
+            "file" = "colortooltips-1201.3.3.jar";
+            "hash" = "sha512-JyyUVUmumcf5KN+N20dTCK7s5h/HLWTuGW9OVxH86y6VVInhQoz25DiRSMIhmb/Xs8Qls9GZEvdCKjxaPuEQVg==";
+        };
+        _I48Edv34 = {
+            "id" = "I48Edv34";
+            "file" = "colortooltips-1211.3.6.jar";
+            "hash" = "sha512-7C+a4PqP2kwYh9ZYkDZNTIb34uldmRdXTTNhDy46JCdoJ+lS1YuNxu8oiLK+8ZvZt6Hyimf6RcdwQBisUpdr6g==";
+        };
     in {
         "OBFPYAmk" = _OBFPYAmk;
         "tCmjv11g" = _tCmjv11g;
@@ -68,8 +78,10 @@ let
         "xVk7dZd2" = _xVk7dZd2;
         "1C2PQuYT" = _1C2PQuYT;
         "sibWORtP" = _sibWORtP;
-        "forge-1.20.1" = _1C2PQuYT;
-        "neoforge-1.21.1" = _sibWORtP;
+        "oS1xLxJZ" = _oS1xLxJZ;
+        "I48Edv34" = _I48Edv34;
+        "forge-1.20.1" = _oS1xLxJZ;
+        "neoforge-1.21.1" = _I48Edv34;
         "pkg-1201.1.0" = _OBFPYAmk;
         "pkg-1201.2.0" = _tCmjv11g;
         "pkg-1201.2.1" = _xOrQylmB;
@@ -81,7 +93,9 @@ let
         "pkg-1211.3.4" = _xVk7dZd2;
         "pkg-1201.3.2" = _1C2PQuYT;
         "pkg-1211.3.5" = _sibWORtP;
-        "default" = _sibWORtP;
+        "pkg-1201.3.3" = _oS1xLxJZ;
+        "pkg-1211.3.6" = _I48Edv34;
+        "default" = _I48Edv34;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "colortooltips";

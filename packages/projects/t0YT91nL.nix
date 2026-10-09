@@ -131,6 +131,21 @@ let
             "file" = "epic-structures-dungeons-1.2.5.jar";
             "hash" = "sha512-9aKUSytkjuFhGAvO5hmTAtXi+/k07H728IOfEnezI+ahk4fHy2HIdWlHTyJMtBCn9jlFtfYQhWr49HqShyFtBQ==";
         };
+        _x6Bnx4tV = {
+            "id" = "x6Bnx4tV";
+            "file" = "Epic Dungeons v1.2.6 (26.3).zip";
+            "hash" = "sha512-em7KHiJMf3HF9T8lS74W1E2bTwah7h3wt6//gC8ayvRuNMod3Lk1ncZjuLeXk3hFo+OdxcW2fnnep2W14+LA6Q==";
+        };
+        _NK6Uptyi = {
+            "id" = "NK6Uptyi";
+            "file" = "Epic Dungeons v1.2.6 (26.3).jar";
+            "hash" = "sha512-qv78vqLU/qIuFa+Vq2F9Pl5KIFJPROs2hhJi1D8hgyBfK9q6G7E/BVyji7nFTLu3vqhSJArSM2n1rB5Md9Chlw==";
+        };
+        _VeKiSZzY = {
+            "id" = "VeKiSZzY";
+            "file" = "Epic Dungeons v1.2.7 (26.3).zip";
+            "hash" = "sha512-41zuSXXvmALSsn1CHIefQGAF1Px9e4fUEmQ7cLFN22ELtl3sWAnG14PClmSM8TIx7oFDSOCbSytpeuT1PhwuFg==";
+        };
     in {
         "JmxKEuAX" = _JmxKEuAX;
         "DEFq2kcP" = _DEFq2kcP;
@@ -158,6 +173,9 @@ let
         "xR2jWhmr" = _xR2jWhmr;
         "HCt01kO4" = _HCt01kO4;
         "tcsK0UPh" = _tcsK0UPh;
+        "x6Bnx4tV" = _x6Bnx4tV;
+        "NK6Uptyi" = _NK6Uptyi;
+        "VeKiSZzY" = _VeKiSZzY;
         "datapack-1.19" = _HCt01kO4;
         "datapack-1.19.1" = _HCt01kO4;
         "datapack-1.19.2" = _HCt01kO4;
@@ -186,6 +204,7 @@ let
         "datapack-1.20.5" = _F43MNnAG;
         "datapack-1.20.6" = _F43MNnAG;
         "datapack-26.2" = _HCt01kO4;
+        "datapack-26.3" = _VeKiSZzY;
         "fabric-1.19" = _tcsK0UPh;
         "fabric-1.19.1" = _tcsK0UPh;
         "fabric-1.19.2" = _tcsK0UPh;
@@ -214,6 +233,7 @@ let
         "fabric-1.20.5" = _xR2jWhmr;
         "fabric-1.20.6" = _xR2jWhmr;
         "fabric-26.2" = _tcsK0UPh;
+        "fabric-26.3" = _NK6Uptyi;
         "forge-1.19" = _tcsK0UPh;
         "forge-1.19.1" = _tcsK0UPh;
         "forge-1.19.2" = _tcsK0UPh;
@@ -242,6 +262,7 @@ let
         "forge-1.20.5" = _xR2jWhmr;
         "forge-1.20.6" = _xR2jWhmr;
         "forge-26.2" = _tcsK0UPh;
+        "forge-26.3" = _NK6Uptyi;
         "neoforge-1.19" = _tcsK0UPh;
         "neoforge-1.19.1" = _tcsK0UPh;
         "neoforge-1.19.2" = _tcsK0UPh;
@@ -270,6 +291,7 @@ let
         "neoforge-1.20.5" = _xR2jWhmr;
         "neoforge-1.20.6" = _xR2jWhmr;
         "neoforge-26.2" = _tcsK0UPh;
+        "neoforge-26.3" = _NK6Uptyi;
         "quilt-1.19" = _tcsK0UPh;
         "quilt-1.19.1" = _tcsK0UPh;
         "quilt-1.19.2" = _tcsK0UPh;
@@ -298,6 +320,7 @@ let
         "quilt-1.20.5" = _xR2jWhmr;
         "quilt-1.20.6" = _xR2jWhmr;
         "quilt-26.2" = _tcsK0UPh;
+        "quilt-26.3" = _NK6Uptyi;
         "pkg-1.0" = _334H7Aat;
         "pkg-1.1" = _P1JABddb;
         "pkg-1.2.0" = _59vSrRUg;
@@ -307,7 +330,9 @@ let
         "pkg-1.2.4+mod" = _xR2jWhmr;
         "pkg-1.2.5" = _HCt01kO4;
         "pkg-1.2.5+mod" = _tcsK0UPh;
-        "default" = _tcsK0UPh;
+        "pkg-1.2.6" = _NK6Uptyi;
+        "pkg-1.2.7" = _VeKiSZzY;
+        "default" = _VeKiSZzY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "epic-structures-dungeons";

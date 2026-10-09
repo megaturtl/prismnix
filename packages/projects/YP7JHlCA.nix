@@ -161,6 +161,16 @@ let
             "file" = "flowermap-fabric-26.2-2.0.10.jar";
             "hash" = "sha512-ocWlOHDd9C6k+heukB1cz0jrNCsSD54hoz2wKDjgAk167tm3LvusVEaKgBTUhKb2UjeEoblRcefPoXm+x2Sr0A==";
         };
+        _6ingaYIZ = {
+            "id" = "6ingaYIZ";
+            "file" = "flowermap-neoforge-26.3-2.0.11.jar";
+            "hash" = "sha512-k+XSDEuTZlx3IkWGgx3YbiQ0Cxhr7cypzLGSuUik73SCLSc7UMM3yvvX4o5QXwXEAo6pqW+xYsMixOogkZzczA==";
+        };
+        _ECodYg1I = {
+            "id" = "ECodYg1I";
+            "file" = "flowermap-fabric-26.3-2.0.11.jar";
+            "hash" = "sha512-uoP62rb5xVOJj3R2Br04UahJ6rSPHn3Urx9/qvNGy9tH416sVj9BJSPj0kExubY4tc3uN8pMC/eVuZjXqINK9A==";
+        };
     in {
         "cz8iKFIi" = _cz8iKFIi;
         "IfatiDpH" = _IfatiDpH;
@@ -194,6 +204,8 @@ let
         "uMBCUdBQ" = _uMBCUdBQ;
         "ILLGp1D5" = _ILLGp1D5;
         "Q2CzRsvN" = _Q2CzRsvN;
+        "6ingaYIZ" = _6ingaYIZ;
+        "ECodYg1I" = _ECodYg1I;
         "fabric-1.18.2" = _IfatiDpH;
         "fabric-1.19" = _WpOCKZaU;
         "fabric-1.19.1" = _WpOCKZaU;
@@ -221,6 +233,7 @@ let
         "fabric-26.1.1" = _uMBCUdBQ;
         "fabric-26.1.2" = _uMBCUdBQ;
         "fabric-26.2" = _Q2CzRsvN;
+        "fabric-26.3" = _ECodYg1I;
         "quilt-1.18.2" = _IfatiDpH;
         "quilt-1.19" = _WpOCKZaU;
         "quilt-1.19.1" = _WpOCKZaU;
@@ -252,6 +265,7 @@ let
         "neoforge-26.1.1" = _QKiQhMrC;
         "neoforge-26.1.2" = _QKiQhMrC;
         "neoforge-26.2" = _ILLGp1D5;
+        "neoforge-26.3" = _6ingaYIZ;
         "pkg-v1.0.0" = _cz8iKFIi;
         "pkg-v1.1.0" = _IfatiDpH;
         "pkg-v1.2.0" = _WAG7g6JR;
@@ -274,7 +288,8 @@ let
         "pkg-2.0.8" = _mILZpIp9;
         "pkg-2.0.9" = _uMBCUdBQ;
         "pkg-2.0.10" = _Q2CzRsvN;
-        "default" = _Q2CzRsvN;
+        "pkg-2.0.11" = _ECodYg1I;
+        "default" = _ECodYg1I;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "flowermap";

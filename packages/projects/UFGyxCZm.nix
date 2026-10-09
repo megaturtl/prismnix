@@ -551,6 +551,86 @@ let
             "file" = "colonypathingedition-1.21.1-1.0.5-ALPHA-13.2.jar";
             "hash" = "sha512-+/TyRLE5YuXZebgyYELQyEDItvkcmU5EHpoS75C97C4XdyxksfaarcGq72p+Vq1BGXUiMSmiiq28GT4fiPIChA==";
         };
+        _cyUBpYno = {
+            "id" = "cyUBpYno";
+            "file" = "colonypathingedition-1.0.5-ALPHA-14.jar";
+            "hash" = "sha512-C5Lx4CUedNWKP+s3nYiTU92nccHtoQ7G5vYdy932IZBFZWQsY+DNQ7vR4/yD6jfrtrcZJYZFk1AQIxLvReD1iw==";
+        };
+        _8uTbapyo = {
+            "id" = "8uTbapyo";
+            "file" = "colonypathingedition-1.21.1-1.0.5-ALPHA-14.jar";
+            "hash" = "sha512-RWpSpUDZj5/AbM1Q4e+KdNox1tp/+W+aKWNkDaoa4L3z2h7O8KLCNWWHXdt637o7EK5K4jQRDV95yY3ocXv6ww==";
+        };
+        _khNpBijP = {
+            "id" = "khNpBijP";
+            "file" = "colonypathingedition-1.21.1-1.0.5-BETA-14.1.jar";
+            "hash" = "sha512-izCthlCCvFJWqVbc/i1KZFFgQ0t8EsXhTLwAZFDReacmZCRK1pKFfI2fd6cVliw5k7nyi1Ecv8A9E9DCh1f/8Q==";
+        };
+        _7mXeqKsS = {
+            "id" = "7mXeqKsS";
+            "file" = "colonypathingedition-1.0.5-ALPHA-14.1.jar";
+            "hash" = "sha512-iofSdzKiTLyw0rXkDWVQkZKy0eo+ZIuZ50FbygyjqItXVJi1rbJa4bZZmMg7OURoW4n1kvoeLV0Ea2FXQCX4OA==";
+        };
+        _LzhlRGqO = {
+            "id" = "LzhlRGqO";
+            "file" = "colonypathingedition-1.0.5-BETA-14.2.jar";
+            "hash" = "sha512-gEmrKkue2ggSaqUgdgkoz4knPAQwbZakCjv+dE6ow2aGaRGadiTmjxwO1s5mdB/DH/JeuZ9b8FfBkwvNoKS56g==";
+        };
+        _wALl9AZZ = {
+            "id" = "wALl9AZZ";
+            "file" = "colonypathingedition-1.0.5-BETA-14.3.jar";
+            "hash" = "sha512-v1IOTTIsOVsYJZJFoN85KQB+2SSiVr772aaBWlYxHp/e8GTVl4W+uDahoA5LJ68USrp0mfaQmAyTPNAIu0CD6g==";
+        };
+        _odnlWqqA = {
+            "id" = "odnlWqqA";
+            "file" = "colonypathingedition-1.21.1-1.0.5-BETA-14.2.jar";
+            "hash" = "sha512-JAbKquGYieQDKjk65vFXj2y0+TbUb0PhMIA6m3BU0+9mUyIGZ/nmh7hTkYyi69nRGTkgn6iKj/uilwLttRjvCQ==";
+        };
+        _RGQncLHr = {
+            "id" = "RGQncLHr";
+            "file" = "colonypathingedition-1.21.1-1.0.5-BETA-14.4.jar";
+            "hash" = "sha512-A5A3CfA1tvwEG1fShbF9AXGajlVccrkIJfCVELUAKc+83Wn8S1tvEQ8CEmCK3g4L1tfTc7gQvkL0W367SrZpcg==";
+        };
+        _utpI7k6d = {
+            "id" = "utpI7k6d";
+            "file" = "colonypathingedition-1.0.5-BETA-14.4.jar";
+            "hash" = "sha512-S3gE6CVhbMJUOF7QA/iEEOdNMLCuk9bMsGH5YX0z3aI44fCenCNSQC2tDOHQV+iPrg2elKFpjiNCdL2rZ1woCg==";
+        };
+        _PBe8d5Jn = {
+            "id" = "PBe8d5Jn";
+            "file" = "colonypathingedition-1.0.5.jar";
+            "hash" = "sha512-+gRYNHv7eDmWaEQDm3O/DBypxr2u9i+5rYQNhYP/hpT9XsGNARJXDUbRyUKXIo8hB7saqqQFXekvZWHqp3kt5g==";
+        };
+        _t9YbYiFC = {
+            "id" = "t9YbYiFC";
+            "file" = "colonypathingedition-1.21.1-1.0.5.jar";
+            "hash" = "sha512-SriKTFUKTgFY83CiwPLBCrRnmGxioBsDtdS7OTp2LncOTlBQr1C1quIbnQH204FeFYLqHy4BW7FVG0Vk4YUAHA==";
+        };
+        _X3zrUIEz = {
+            "id" = "X3zrUIEz";
+            "file" = "colonypathingedition-1.0.5-fix-1.jar";
+            "hash" = "sha512-Egm/kkELg6X3QEWeNEqdviHZRIgENuCBKaxP1HWGKt2UHVdJ9vFTvfv1pE9b97aZf4IIChEgRDCKWH5p8c1p2A==";
+        };
+        _SmYHyPkC = {
+            "id" = "SmYHyPkC";
+            "file" = "colonypathingedition-1.0.5-fix-2.jar";
+            "hash" = "sha512-Uh4yfTV+rHMrGyT2KAazXvrfFsGdLmFhLyE/7p+NvNImVw11GMErjmxA5MYVWUUR7Nhls0yHZyOxwIei5nCGzg==";
+        };
+        _xHGcsM42 = {
+            "id" = "xHGcsM42";
+            "file" = "colonypathingedition-1.21.1-1.0.5-fix-2.jar";
+            "hash" = "sha512-ZUZnqrC9o+0XXgeVXjqCMML9x5B9LOwBwBfhgq5t3Y7zOeV53U2kkth04rUWHQ+wbljhchewt6+pcDwhAgsj7Q==";
+        };
+        _9fJHMS1y = {
+            "id" = "9fJHMS1y";
+            "file" = "colonypathingedition-1.21.1-1.0.5-fix-3.jar";
+            "hash" = "sha512-HyfJgHynXMvSnJrYeRtzcKI2cf1LOD+fJJUT0ONy9CUbsf3bXbr4PFUwJZiAo/IZcIueMIr9aH0TZbMv2ha7Cg==";
+        };
+        _Lc5feUin = {
+            "id" = "Lc5feUin";
+            "file" = "colonypathingedition-1.0.5-fix-3.jar";
+            "hash" = "sha512-A6FWyvSlC45ijFgsQw1/j3Y8d22AfvLYVCWhw9ax0xy3Kude9oU3v9sW1OvDQYPi+yh9m5wAQXo7MS2tpgmMNQ==";
+        };
     in {
         "KDxwq6vc" = _KDxwq6vc;
         "1doQqotj" = _1doQqotj;
@@ -662,8 +742,24 @@ let
         "2j4m325E" = _2j4m325E;
         "WtMG9bn8" = _WtMG9bn8;
         "X9RRmVkt" = _X9RRmVkt;
-        "forge-1.20.1" = _WtMG9bn8;
-        "neoforge-1.21.1" = _X9RRmVkt;
+        "cyUBpYno" = _cyUBpYno;
+        "8uTbapyo" = _8uTbapyo;
+        "khNpBijP" = _khNpBijP;
+        "7mXeqKsS" = _7mXeqKsS;
+        "LzhlRGqO" = _LzhlRGqO;
+        "wALl9AZZ" = _wALl9AZZ;
+        "odnlWqqA" = _odnlWqqA;
+        "RGQncLHr" = _RGQncLHr;
+        "utpI7k6d" = _utpI7k6d;
+        "PBe8d5Jn" = _PBe8d5Jn;
+        "t9YbYiFC" = _t9YbYiFC;
+        "X3zrUIEz" = _X3zrUIEz;
+        "SmYHyPkC" = _SmYHyPkC;
+        "xHGcsM42" = _xHGcsM42;
+        "9fJHMS1y" = _9fJHMS1y;
+        "Lc5feUin" = _Lc5feUin;
+        "forge-1.20.1" = _Lc5feUin;
+        "neoforge-1.21.1" = _9fJHMS1y;
         "pkg-1.0.2" = _KDxwq6vc;
         "pkg-1.0.3" = _1doQqotj;
         "pkg-1.0.4-ALPHA-2.2" = _NN47vWvp;
@@ -733,7 +829,17 @@ let
         "pkg-1.0.5-ALPHA-13" = _YB8qcBq8;
         "pkg-1.0.5-ALPHA-13.1" = _2j4m325E;
         "pkg-1.0.5-ALPHA-13.2" = _X9RRmVkt;
-        "default" = _X9RRmVkt;
+        "pkg-1.0.5-ALPHA-14" = _8uTbapyo;
+        "pkg-1.0.5-BETA-14.1" = _khNpBijP;
+        "pkg-1.0.5-ALPHA-14.1" = _7mXeqKsS;
+        "pkg-1.0.5-BETA-14.2" = _odnlWqqA;
+        "pkg-1.0.5-BETA-14.3" = _wALl9AZZ;
+        "pkg-1.0.5-BETA-14.4" = _utpI7k6d;
+        "pkg-1.0.5" = _t9YbYiFC;
+        "pkg-1.0.5-fix-1" = _X3zrUIEz;
+        "pkg-1.0.5-fix-2" = _xHGcsM42;
+        "pkg-1.0.5-fix-3" = _Lc5feUin;
+        "default" = _Lc5feUin;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pathfinding-edition-for-minecolonies";

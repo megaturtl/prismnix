@@ -61,6 +61,11 @@ let
             "file" = "elytra-infinite-1.5.2.jar";
             "hash" = "sha512-Buqyp1+HfGjuIp61GgPMrxUtd4sA80zY8wgeFyMqsneMGwqptFQne1XhRwbmJkGtSmQQ239ZHOdFUPQTVQ9WvA==";
         };
+        _GY7HbtBk = {
+            "id" = "GY7HbtBk";
+            "file" = "elytra-infinite-1.5.3.jar";
+            "hash" = "sha512-QsaVM7sI78DrQ9zB481lp7vfxbDsXCG9buvLb712SspUKw0yc4MGB3HCBiq+CTIPPkemWWCbVTmBQmrCxn5wdw==";
+        };
     in {
         "n6TUf4L0" = _n6TUf4L0;
         "jtStJnYB" = _jtStJnYB;
@@ -74,6 +79,7 @@ let
         "Si7Tl37C" = _Si7Tl37C;
         "UlfLFh9t" = _UlfLFh9t;
         "JroCQjjw" = _JroCQjjw;
+        "GY7HbtBk" = _GY7HbtBk;
         "fabric-1.21.8" = _seqPupFq;
         "fabric-1.21.9" = _PTzR1OZU;
         "fabric-1.21.10" = _v9xE7pY1;
@@ -83,6 +89,7 @@ let
         "fabric-26.1.1" = _UlfLFh9t;
         "fabric-26.1.2" = _UlfLFh9t;
         "fabric-26.2" = _JroCQjjw;
+        "fabric-26.3" = _GY7HbtBk;
         "pkg-0.1.0" = _n6TUf4L0;
         "pkg-0.1.1" = _jtStJnYB;
         "pkg-0.2.0" = _mjFLFVme;
@@ -95,7 +102,8 @@ let
         "pkg-1.5.0" = _Si7Tl37C;
         "pkg-1.5.1" = _UlfLFh9t;
         "pkg-1.5.2" = _JroCQjjw;
-        "default" = _JroCQjjw;
+        "pkg-1.5.3" = _GY7HbtBk;
+        "default" = _GY7HbtBk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elytra-infinite";

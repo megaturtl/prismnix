@@ -111,6 +111,11 @@ let
             "file" = "dotf-0.5.2-R-1.20.1.jar";
             "hash" = "sha512-w37ebDdO0eCdm5kMAd5az4ClEqMAdYFJTDhI4QnwMLnXo3Ju6jQDyEIaqDJhzstveX+6vTGc/kPQs4Xx54t3Iw==";
         };
+        _1qXyeDvq = {
+            "id" = "1qXyeDvq";
+            "file" = "dotf-0.6.3-R-1.20.1.jar";
+            "hash" = "sha512-ZM78MCJoRPRkHxDaULXtCrx1sEOHA/t5BgJjkU79TTi7u5y9YSrghMgHBMIqGzaMhzkzcbvw+01tKEqnimzYWQ==";
+        };
     in {
         "8c7sSfFI" = _8c7sSfFI;
         "XSqBzbqc" = _XSqBzbqc;
@@ -134,8 +139,9 @@ let
         "84vy2sFg" = _84vy2sFg;
         "8CjTl2x2" = _8CjTl2x2;
         "RL5vSNwo" = _RL5vSNwo;
-        "forge-1.20.1" = _RL5vSNwo;
-        "neoforge-1.20.1" = _RL5vSNwo;
+        "1qXyeDvq" = _1qXyeDvq;
+        "forge-1.20.1" = _1qXyeDvq;
+        "neoforge-1.20.1" = _1qXyeDvq;
         "pkg-1.20.1_1.0.0" = _8c7sSfFI;
         "pkg-1.20.1_1.0.1" = _XSqBzbqc;
         "pkg-1.20.1_1.1.1" = _wq7zTXaj;
@@ -158,7 +164,8 @@ let
         "pkg-0.5.0-R-1.20.1" = _84vy2sFg;
         "pkg-0.5.1-R-1.20.1" = _8CjTl2x2;
         "pkg-0.5.2-R-1.20.1" = _RL5vSNwo;
-        "default" = _RL5vSNwo;
+        "pkg-0.6.3-R-1.20.1" = _1qXyeDvq;
+        "default" = _1qXyeDvq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dawn-of-the-flood";

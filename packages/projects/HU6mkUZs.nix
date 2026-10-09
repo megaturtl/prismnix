@@ -311,6 +311,11 @@ let
             "file" = "tmcraft-1.4.19+1.8.0.jar";
             "hash" = "sha512-4nnLUjP8x9YX4VrCpSBhWxABTrDF8emfJLx0onF4ttE2x6pZOKeSM2LO5gtlMKxvYZw4SDKGQtsMLtwc8tuV/w==";
         };
+        _cP1BvBXr = {
+            "id" = "cP1BvBXr";
+            "file" = "tmcraft-1.4.19+1.8.1.jar";
+            "hash" = "sha512-1ZaRuL5hrSouFofWSfGApta/ZYaLOUgKDWIpz+n7peoj0lHZ9bBkDqJVYVAbaaQUDhmi0Wt/SVjclm6gLWkMBw==";
+        };
     in {
         "L2vUfxWn" = _L2vUfxWn;
         "oVJM1wcN" = _oVJM1wcN;
@@ -374,8 +379,9 @@ let
         "PY8MJ8AA" = _PY8MJ8AA;
         "XAsmlreW" = _XAsmlreW;
         "ixxKJV1J" = _ixxKJV1J;
+        "cP1BvBXr" = _cP1BvBXr;
         "fabric-1.20.1" = _PY8MJ8AA;
-        "fabric-1.21.1" = _ixxKJV1J;
+        "fabric-1.21.1" = _cP1BvBXr;
         "pkg-1.0.0" = _L2vUfxWn;
         "pkg-1.0.1" = _oVJM1wcN;
         "pkg-1.0.2" = _5dd9gccU;
@@ -438,7 +444,8 @@ let
         "pkg-1.4.19+1.5.2" = _PY8MJ8AA;
         "pkg-1.4.19+1.7.3" = _XAsmlreW;
         "pkg-1.4.19+1.8.0" = _ixxKJV1J;
-        "default" = _ixxKJV1J;
+        "pkg-1.4.19+1.8.1" = _cP1BvBXr;
+        "default" = _cP1BvBXr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tmcraft";

@@ -596,6 +596,16 @@ let
             "file" = "elytrahud3-1.2.11+26.3-fabric.jar";
             "hash" = "sha512-FRv+mP+zoav9MfkVw0rnlaGzY/QrSLF3zeBFAN3DOlshIsbo6hI426JZTX5IooG/qSJbcvbh4lE+Gnz/D6XvQA==";
         };
+        _4KHNYy2K = {
+            "id" = "4KHNYy2K";
+            "file" = "elytrahud3-1.3.0+26.3-fabric.jar";
+            "hash" = "sha512-zYiugNPFa2nurOFc0uLH1kUNHCesjaTTZiSIzjCX8NakKWHvUI8Pwv+aQ8Z3Son/les/4w8S2QTZinEksvfF3g==";
+        };
+        _KEyxrbfi = {
+            "id" = "KEyxrbfi";
+            "file" = "elytrahud3-1.3.0+26.3-neoforge.jar";
+            "hash" = "sha512-r4OOmfslozjSLpMlTj3VcAQgmEJniuEEvzcfHGHwyvPqhwShQSCuZoqaF7CqeTUhY2uC0dLgsBLcLCRhinV51w==";
+        };
     in {
         "omxmGb64" = _omxmGb64;
         "vxaGqviD" = _vxaGqviD;
@@ -716,6 +726,8 @@ let
         "HvQHUw6f" = _HvQHUw6f;
         "U9c28Hq2" = _U9c28Hq2;
         "FAaROoTq" = _FAaROoTq;
+        "4KHNYy2K" = _4KHNYy2K;
+        "KEyxrbfi" = _KEyxrbfi;
         "fabric-26.1" = _5qIAAThD;
         "fabric-26.1.1" = _5qIAAThD;
         "fabric-26.1.2" = _5qIAAThD;
@@ -751,6 +763,7 @@ let
         "fabric-26.3-snapshot-5" = _MLS8UwYp;
         "fabric-26.3-snapshot-6" = _jUbjcAh6;
         "fabric-26.3-snapshot-7" = _FAaROoTq;
+        "fabric-26.3" = _4KHNYy2K;
         "neoforge-26.1.2" = _U9c28Hq2;
         "neoforge-26.2-pre-1" = _OzP5sJoP;
         "neoforge-26.2-pre-2" = _OzP5sJoP;
@@ -782,6 +795,7 @@ let
         "neoforge-26.1" = _U9c28Hq2;
         "neoforge-26.1.1" = _U9c28Hq2;
         "neoforge-1.20" = _1ZbcBMcJ;
+        "neoforge-26.3" = _KEyxrbfi;
         "quilt-1.20.1" = _Qiwuno6x;
         "quilt-1.20.2" = _Qiwuno6x;
         "quilt-1.20.3" = _Qiwuno6x;
@@ -938,7 +952,9 @@ let
         "pkg-1.2.10+1.21.8-forge" = _HvQHUw6f;
         "pkg-1.2.10+26.1-neoforge" = _U9c28Hq2;
         "pkg-1.2.11+26.3" = _FAaROoTq;
-        "default" = _FAaROoTq;
+        "pkg-1.3.0+26.3" = _4KHNYy2K;
+        "pkg-1.3.0+26.3-neoforge" = _KEyxrbfi;
+        "default" = _KEyxrbfi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elytrahud3";

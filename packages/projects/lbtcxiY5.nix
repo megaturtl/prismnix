@@ -3736,6 +3736,11 @@ let
             "file" = "All-White Textures! (Hard) 648.0.zip";
             "hash" = "sha512-6WcrI5us71rJyV7vGJWAuWrpZ+Cp/DdXlp7VO++USwWe6mLJsUfQvAfYRsPnOvXJbVQE7fY1IEWDg4E8Od1S7Q==";
         };
+        _AjypoLwi = {
+            "id" = "AjypoLwi";
+            "file" = "All-White Textures! (Hard) 649.0.zip";
+            "hash" = "sha512-DHpSTP+kJYGYYAaWfpsnvKlOqVKx4B6pZLKT3h85tuAUBYaU4dhVXlWkf9OBdu6fVkm0bdctrqcZmbf5a0qXcg==";
+        };
     in {
         "jQpL1Qgg" = _jQpL1Qgg;
         "9viZjyaZ" = _9viZjyaZ;
@@ -4484,6 +4489,7 @@ let
         "S940Ib2n" = _S940Ib2n;
         "h9ASPIrO" = _h9ASPIrO;
         "i5CYSM2D" = _i5CYSM2D;
+        "AjypoLwi" = _AjypoLwi;
         "minecraft-rd-132211" = _jQpL1Qgg;
         "minecraft-rd-132328" = _9viZjyaZ;
         "minecraft-rd-160052" = _r3NJ4IaK;
@@ -5399,6 +5405,7 @@ let
         "minecraft-26.3-rc-2" = _i5CYSM2D;
         "minecraft-26.3-rc-3" = _i5CYSM2D;
         "minecraft-26.3" = _i5CYSM2D;
+        "minecraft-26.4-snapshot-1" = _AjypoLwi;
         "pkg-v0.1.0_hard" = _jQpL1Qgg;
         "pkg-v0.2.0_hard" = _9viZjyaZ;
         "pkg-v0.3.0_hard" = _r3NJ4IaK;
@@ -6146,7 +6153,8 @@ let
         "pkg-v646.0_hard" = _S940Ib2n;
         "pkg-v647.0_hard" = _h9ASPIrO;
         "pkg-v648.0_hard" = _i5CYSM2D;
-        "default" = _i5CYSM2D;
+        "pkg-v649.0_hard" = _AjypoLwi;
+        "default" = _AjypoLwi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "all-white-2022-joel-challenge-pack-hard";

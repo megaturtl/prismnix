@@ -401,6 +401,11 @@ let
             "file" = "BetterSnowball-1.2.3-26.3-NeoForge.jar";
             "hash" = "sha512-+9rducom65wJCTRFDDeKFn6xZyJ170zU7Z+xKaD6OO78IuZdl5dEvt516vZniNNgnevGbYcjUnNHrkRgV19khw==";
         };
+        _zqkA85OC = {
+            "id" = "zqkA85OC";
+            "file" = "BetterSnowball-1.2.3-26.3-Forge.jar";
+            "hash" = "sha512-vwMZ9YazsuRlVx9TLGpCKWVqtlYOnQQdu6UDidVOB/lMGyeU8zJm5/K7Bv6xpS+UlwnyG/9eqO3QXp8tZCJA8g==";
+        };
     in {
         "KWFc59Nk" = _KWFc59Nk;
         "aVd8N5iv" = _aVd8N5iv;
@@ -482,6 +487,7 @@ let
         "PTtFpUw8" = _PTtFpUw8;
         "DHZLFP0O" = _DHZLFP0O;
         "a8IIqk0L" = _a8IIqk0L;
+        "zqkA85OC" = _zqkA85OC;
         "fabric-1.20" = _m6dGga6c;
         "fabric-1.20.1" = _fAuCF4X3;
         "fabric-1.20.2" = _x9G74r2W;
@@ -525,6 +531,7 @@ let
         "forge-26.1.1" = _RGcyc3AH;
         "forge-26.1.2" = _RGcyc3AH;
         "forge-26.2" = _UMWMBiRA;
+        "forge-26.3" = _zqkA85OC;
         "neoforge-1.20" = _aVd8N5iv;
         "neoforge-1.20.1" = _aVd8N5iv;
         "neoforge-1.21" = _R0B4GEGN;
@@ -617,7 +624,8 @@ let
         "pkg-1.2.3-26.2-NeoForge" = _PTtFpUw8;
         "pkg-1.2.3-26.3-Fabric" = _DHZLFP0O;
         "pkg-1.2.3-26.3-NeoForge" = _a8IIqk0L;
-        "default" = _a8IIqk0L;
+        "pkg-1.2.3-26.3-Forge" = _zqkA85OC;
+        "default" = _zqkA85OC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-snowball";

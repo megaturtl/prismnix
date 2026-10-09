@@ -46,6 +46,11 @@ let
             "file" = "Realistic mace 3D 1.21.X-26.X.zip";
             "hash" = "sha512-2ohY8O8zyubBh9d4RgGMh+QgEV6gr5IEZTeMcldkf+SM7L+F5wB4mkogMLU3ehX0mK3//+zIRSVn0AnIR9ErLg==";
         };
+        _o4pXvJnS = {
+            "id" = "o4pXvJnS";
+            "file" = "Realistic mace 3D 1.21.X-26.X.zip";
+            "hash" = "sha512-2ohY8O8zyubBh9d4RgGMh+QgEV6gr5IEZTeMcldkf+SM7L+F5wB4mkogMLU3ehX0mK3//+zIRSVn0AnIR9ErLg==";
+        };
     in {
         "C8bV1Mnk" = _C8bV1Mnk;
         "bGIMkVUr" = _bGIMkVUr;
@@ -56,22 +61,24 @@ let
         "2gncz46y" = _2gncz46y;
         "O2sepAXM" = _O2sepAXM;
         "eXlaDI5u" = _eXlaDI5u;
-        "minecraft-1.21" = _eXlaDI5u;
-        "minecraft-1.21.4" = _eXlaDI5u;
-        "minecraft-1.21.1" = _eXlaDI5u;
-        "minecraft-1.21.2" = _eXlaDI5u;
-        "minecraft-1.21.3" = _eXlaDI5u;
-        "minecraft-1.21.5" = _eXlaDI5u;
-        "minecraft-1.21.6" = _eXlaDI5u;
-        "minecraft-1.21.7" = _eXlaDI5u;
-        "minecraft-1.21.8" = _eXlaDI5u;
-        "minecraft-1.21.9" = _eXlaDI5u;
-        "minecraft-1.21.10" = _eXlaDI5u;
-        "minecraft-1.21.11" = _eXlaDI5u;
-        "minecraft-26.1" = _eXlaDI5u;
-        "minecraft-26.1.1" = _eXlaDI5u;
-        "minecraft-26.1.2" = _eXlaDI5u;
-        "minecraft-26.2" = _eXlaDI5u;
+        "o4pXvJnS" = _o4pXvJnS;
+        "minecraft-1.21" = _o4pXvJnS;
+        "minecraft-1.21.4" = _o4pXvJnS;
+        "minecraft-1.21.1" = _o4pXvJnS;
+        "minecraft-1.21.2" = _o4pXvJnS;
+        "minecraft-1.21.3" = _o4pXvJnS;
+        "minecraft-1.21.5" = _o4pXvJnS;
+        "minecraft-1.21.6" = _o4pXvJnS;
+        "minecraft-1.21.7" = _o4pXvJnS;
+        "minecraft-1.21.8" = _o4pXvJnS;
+        "minecraft-1.21.9" = _o4pXvJnS;
+        "minecraft-1.21.10" = _o4pXvJnS;
+        "minecraft-1.21.11" = _o4pXvJnS;
+        "minecraft-26.1" = _o4pXvJnS;
+        "minecraft-26.1.1" = _o4pXvJnS;
+        "minecraft-26.1.2" = _o4pXvJnS;
+        "minecraft-26.2" = _o4pXvJnS;
+        "minecraft-26.3" = _o4pXvJnS;
         "pkg-1.0_1.21" = _C8bV1Mnk;
         "pkg-1.0_1.21.4" = _bGIMkVUr;
         "pkg-2.0_1.21.X" = _CdGYO2KX;
@@ -81,7 +88,8 @@ let
         "pkg-2.4_1.21.X" = _2gncz46y;
         "pkg-2.5_1.21.X-26.1" = _O2sepAXM;
         "pkg-2.6_1.21.X-26.X" = _eXlaDI5u;
-        "default" = _eXlaDI5u;
+        "pkg-2.7_1.21.X-26.X" = _o4pXvJnS;
+        "default" = _o4pXvJnS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "real-mace";

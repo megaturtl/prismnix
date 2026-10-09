@@ -41,6 +41,11 @@ let
             "file" = "customnickname-1.4.4+26.2.jar";
             "hash" = "sha512-EBRXfyhVEyUzNcC3VurWXYftM7E4cIgRNjWJ5ydXasyW+NAcGS87R3GVpNKRM6nvWbHOiFea9GlASFDO8uIgrg==";
         };
+        _9FNk6NhZ = {
+            "id" = "9FNk6NhZ";
+            "file" = "customnickname-1.4.4+26.3.jar";
+            "hash" = "sha512-jN2/zOryWfVdwJiGHAyXE/tUHKm7tpsZ89cwSZTRbfBMCPypl5ShjsHffyBl9ONEbrtCg+/Yu9Y4PUJrKtOAFQ==";
+        };
     in {
         "OfX2lFCz" = _OfX2lFCz;
         "yYUNhkoH" = _yYUNhkoH;
@@ -50,11 +55,13 @@ let
         "ysWsTM3u" = _ysWsTM3u;
         "iQKClMw4" = _iQKClMw4;
         "KHwIHL6v" = _KHwIHL6v;
+        "9FNk6NhZ" = _9FNk6NhZ;
         "fabric-1.21.11" = _oyvE3edx;
         "fabric-26.1.1" = _ysWsTM3u;
         "fabric-26.1" = _ysWsTM3u;
         "fabric-26.1.2" = _ysWsTM3u;
         "fabric-26.2" = _KHwIHL6v;
+        "fabric-26.3" = _9FNk6NhZ;
         "pkg-1.4.0+1.21.11" = _OfX2lFCz;
         "pkg-1.4.1+1.21.11" = _yYUNhkoH;
         "pkg-1.4.2+1.21.11" = _d4i7eAXG;
@@ -63,7 +70,8 @@ let
         "pkg-1.4.3+26.1.x" = _ysWsTM3u;
         "pkg-1.4.3+26.2" = _iQKClMw4;
         "pkg-1.4.4+26.2" = _KHwIHL6v;
-        "default" = _KHwIHL6v;
+        "pkg-1.4.4+26.3" = _9FNk6NhZ;
+        "default" = _9FNk6NhZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "custom-nickname";

@@ -626,6 +626,11 @@ let
             "file" = "custom-mob-attributes-26.2-3.0.9.jar";
             "hash" = "sha512-ZTSiNo15mh6ulCOjMc8aKHAIrfkCgdVAjMLK6lnK+QHQ/6k9l5rk/svaJDc50TpGpu021dIuhzKcSOaRZ6NfzQ==";
         };
+        _XYV2Hvk1 = {
+            "id" = "XYV2Hvk1";
+            "file" = "custom_mob_attributes-forge-1.20.1-3.0.10.jar";
+            "hash" = "sha512-FgqGPF1Nxek+2aJjqfLwWfO1VLNxOAI74I8l0LqY/I3eqPJapXmE+7kpSSeb0yA8rZmvXrLfbeKcU7S8MgRFnQ==";
+        };
     in {
         "LYJL7fh1" = _LYJL7fh1;
         "OEehZBST" = _OEehZBST;
@@ -752,6 +757,7 @@ let
         "Y0fhetfA" = _Y0fhetfA;
         "7kSvPF7c" = _7kSvPF7c;
         "YYcPM2EQ" = _YYcPM2EQ;
+        "XYV2Hvk1" = _XYV2Hvk1;
         "fabric-1.21" = _nZ7ofns8;
         "fabric-1.21.1" = _nZ7ofns8;
         "fabric-1.21.2" = _UQDYgvQh;
@@ -799,7 +805,7 @@ let
         "quilt-26.1.2" = _WFJRwWbr;
         "quilt-26.2" = _YYcPM2EQ;
         "forge-1.21.1" = _ZxSC6q16;
-        "forge-1.20.1" = _sqFbVTb4;
+        "forge-1.20.1" = _XYV2Hvk1;
         "paper-1.21" = _bP6Mf6Oz;
         "paper-1.21.1" = _bP6Mf6Oz;
         "paper-1.21.2" = _m4DdOBgH;
@@ -859,7 +865,8 @@ let
         "pkg-3.0.8" = _aFDA2Bt3;
         "pkg-1.0.0-paper" = _Y0fhetfA;
         "pkg-3.0.9" = _YYcPM2EQ;
-        "default" = _YYcPM2EQ;
+        "pkg-3.0.10" = _XYV2Hvk1;
+        "default" = _XYV2Hvk1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "custom-mob-attributes";

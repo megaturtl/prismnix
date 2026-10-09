@@ -1106,6 +1106,16 @@ let
             "file" = "connectedglass-1.1.14-neoforge-mc26.3.jar";
             "hash" = "sha512-WXn4JtwZh3eoltwzl+WOLz8wQpJYNNNNFzhQr8Fk0y5K3rjar4Uw0Rc++ip7em713Vp4h7B9qvyqXOjD1kGaKg==";
         };
+        _FEoFFio6 = {
+            "id" = "FEoFFio6";
+            "file" = "connectedglass-1.1.14a-fabric-mc26.3.jar";
+            "hash" = "sha512-3ZNG28LNhA2PC7fyribXzSLZ6wnVDLqV9YF2RHDJqKCrpI+fC9Nashfdiv0A+jx0vKyPjoiPJs4VKNuJXmq2UA==";
+        };
+        _Jma7Hl2O = {
+            "id" = "Jma7Hl2O";
+            "file" = "connectedglass-1.1.14a-neoforge-mc26.3.jar";
+            "hash" = "sha512-gEJNWcTSns4m5uW+3jPG8lXqhaZc3OJAIXAq75jPcKgEuXvlPy6X5hOfDS7y/DmJhl+eXReaJd37z/5vwZ3Y/A==";
+        };
     in {
         "SQk7B6aT" = _SQk7B6aT;
         "LP0JgZ2W" = _LP0JgZ2W;
@@ -1328,6 +1338,8 @@ let
         "inqXx1Ea" = _inqXx1Ea;
         "IUpMvVcJ" = _IUpMvVcJ;
         "JdomGZFW" = _JdomGZFW;
+        "FEoFFio6" = _FEoFFio6;
+        "Jma7Hl2O" = _Jma7Hl2O;
         "forge-1.12" = _WrqzgdUP;
         "forge-1.12.1" = _WrqzgdUP;
         "forge-1.12.2" = _WrqzgdUP;
@@ -1406,7 +1418,7 @@ let
         "fabric-26.1.1" = _5jrI1NuL;
         "fabric-26.1.2" = _5jrI1NuL;
         "fabric-26.2" = _fHGQZw8c;
-        "fabric-26.3" = _IUpMvVcJ;
+        "fabric-26.3" = _FEoFFio6;
         "neoforge-1.12" = _maYOFF5s;
         "neoforge-1.12.1" = _maYOFF5s;
         "neoforge-1.12.2" = _maYOFF5s;
@@ -1455,7 +1467,7 @@ let
         "neoforge-26.1.1" = _TVXgEaL7;
         "neoforge-26.1.2" = _TVXgEaL7;
         "neoforge-26.2" = _inqXx1Ea;
-        "neoforge-26.3" = _JdomGZFW;
+        "neoforge-26.3" = _Jma7Hl2O;
         "quilt-1.18" = _t3prliqo;
         "quilt-1.18.1" = _t3prliqo;
         "quilt-1.18.2" = _t3prliqo;
@@ -1484,7 +1496,7 @@ let
         "quilt-26.1.1" = _5jrI1NuL;
         "quilt-26.1.2" = _5jrI1NuL;
         "quilt-26.2" = _fHGQZw8c;
-        "quilt-26.3" = _IUpMvVcJ;
+        "quilt-26.3" = _FEoFFio6;
         "pkg-1.1.4-forge-mc1.12" = _SQk7B6aT;
         "pkg-1.1.4-forge-mc1.14" = _LP0JgZ2W;
         "pkg-1.1.4-forge-mc1.15" = _p3ZfaadV;
@@ -1706,7 +1718,9 @@ let
         "pkg-1.1.14a-neoforge-mc26.2" = _inqXx1Ea;
         "pkg-1.1.14-fabric-mc26.3" = _IUpMvVcJ;
         "pkg-1.1.14-neoforge-mc26.3" = _JdomGZFW;
-        "default" = _JdomGZFW;
+        "pkg-1.1.14a-fabric-mc26.3" = _FEoFFio6;
+        "pkg-1.1.14a-neoforge-mc26.3" = _Jma7Hl2O;
+        "default" = _Jma7Hl2O;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "connected-glass";

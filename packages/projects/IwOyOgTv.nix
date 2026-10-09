@@ -61,6 +61,16 @@ let
             "file" = "compass-coordinates-1.3.0+26.1.jar";
             "hash" = "sha512-6L3YbRifYZBNTansmXnN39IccqcQOLeGkZeM8DfiXvolHLZJF83sF2uvHNXQ4qHWlwR2LAW6UKauxdPFs6QPzQ==";
         };
+        _9pzgIiIQ = {
+            "id" = "9pzgIiIQ";
+            "file" = "compass_coordinates.zip";
+            "hash" = "sha512-7Z1d7QbPW6SBJ7MMC12KZmQrvmRahG6eZaWvLmUqJyBwv1Mrvt+4+nWOjG+K/tRPEawhvN5z22LrmFMVxT4Chw==";
+        };
+        _mBOEc7zC = {
+            "id" = "mBOEc7zC";
+            "file" = "compass-coordinates-1.3.0+26.3.jar";
+            "hash" = "sha512-Jwcz99wog8qgMqzbyPZpNYDgvxj71S5LIEH/DWTutAsAcpWtiBj4Y4ETNtpkNY1NVso4VBw6BP5lcVN3v2IbZg==";
+        };
     in {
         "QfS3IvoH" = _QfS3IvoH;
         "GpIOGMvj" = _GpIOGMvj;
@@ -74,6 +84,8 @@ let
         "qUTbdzOB" = _qUTbdzOB;
         "b1Q8ztCa" = _b1Q8ztCa;
         "nJN2cMnp" = _nJN2cMnp;
+        "9pzgIiIQ" = _9pzgIiIQ;
+        "mBOEc7zC" = _mBOEc7zC;
         "datapack-1.21" = _J9RHOe7C;
         "datapack-1.21.1" = _J9RHOe7C;
         "datapack-1.21.2" = _J9RHOe7C;
@@ -90,6 +102,7 @@ let
         "datapack-26.1.1" = _b1Q8ztCa;
         "datapack-26.1.2" = _b1Q8ztCa;
         "datapack-26.2" = _b1Q8ztCa;
+        "datapack-26.3" = _9pzgIiIQ;
         "fabric-1.21.6" = _qYrygVPx;
         "fabric-1.21.7" = _qYrygVPx;
         "fabric-1.21.8" = _qYrygVPx;
@@ -106,6 +119,7 @@ let
         "fabric-26.1.1" = _nJN2cMnp;
         "fabric-26.1.2" = _nJN2cMnp;
         "fabric-26.2" = _nJN2cMnp;
+        "fabric-26.3" = _mBOEc7zC;
         "forge-1.21.6" = _qYrygVPx;
         "forge-1.21.7" = _qYrygVPx;
         "forge-1.21.8" = _qYrygVPx;
@@ -122,6 +136,7 @@ let
         "forge-26.1.1" = _nJN2cMnp;
         "forge-26.1.2" = _nJN2cMnp;
         "forge-26.2" = _nJN2cMnp;
+        "forge-26.3" = _mBOEc7zC;
         "neoforge-1.21.6" = _qYrygVPx;
         "neoforge-1.21.7" = _qYrygVPx;
         "neoforge-1.21.8" = _qYrygVPx;
@@ -138,6 +153,7 @@ let
         "neoforge-26.1.1" = _nJN2cMnp;
         "neoforge-26.1.2" = _nJN2cMnp;
         "neoforge-26.2" = _nJN2cMnp;
+        "neoforge-26.3" = _mBOEc7zC;
         "quilt-1.21.6" = _qYrygVPx;
         "quilt-1.21.7" = _qYrygVPx;
         "quilt-1.21.8" = _qYrygVPx;
@@ -154,6 +170,7 @@ let
         "quilt-26.1.1" = _nJN2cMnp;
         "quilt-26.1.2" = _nJN2cMnp;
         "quilt-26.2" = _nJN2cMnp;
+        "quilt-26.3" = _mBOEc7zC;
         "pkg-1.0.0" = _QfS3IvoH;
         "pkg-1.1.0" = _GpIOGMvj;
         "pkg-1.2.0" = _lkIjzXeV;
@@ -166,7 +183,9 @@ let
         "pkg-1.3.0+1.21.9+mod" = _qUTbdzOB;
         "pkg-1.3.0+26.1" = _b1Q8ztCa;
         "pkg-1.3.0+26.1+mod" = _nJN2cMnp;
-        "default" = _nJN2cMnp;
+        "pkg-1.3.0+26.3" = _9pzgIiIQ;
+        "pkg-1.3.0+26.3+mod" = _mBOEc7zC;
+        "default" = _mBOEc7zC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "compass-coordinates";

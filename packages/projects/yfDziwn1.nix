@@ -876,6 +876,21 @@ let
             "file" = "SodiumTranslations.zip";
             "hash" = "sha512-Lg0esrhOkyDUBnBPT+difu1QWXC9rLsO7vWNSwS30eK0S7pvtSu5gNch0ek30gTQKJvAiupDKeP/ghjYi2Sefw==";
         };
+        _qOoVT7kG = {
+            "id" = "qOoVT7kG";
+            "file" = "SodiumTranslations.zip";
+            "hash" = "sha512-rHE8V8Is9ZpB6Ygci+PcCIBSVqWtZeQ0CajOZ4exiCn7SZminxCEH2jZgZA33PcRNSiU2afcd8TdBY2zScrx1A==";
+        };
+        _iUzQEWA3 = {
+            "id" = "iUzQEWA3";
+            "file" = "SodiumTranslations.zip";
+            "hash" = "sha512-sR3Mrsrg0FZvxR1sev+bpLP2Ao2MSq05Ycl9QCY6SefypMlm3r6hinYK5dN/jiMQDdxuZuVpMWXsaGWuJJ8Cvg==";
+        };
+        _ZJKZpEl8 = {
+            "id" = "ZJKZpEl8";
+            "file" = "SodiumTranslations.zip";
+            "hash" = "sha512-95KTISAU+wj7jfvVteBs9Bi3wNK2oUFTZFA79j+VLmwr0GYZg7NUc1FN5Z4/AYt8HW4kjIk11m4XBDD48v50IQ==";
+        };
     in {
         "qS9Lv7vO" = _qS9Lv7vO;
         "AT4kckgH" = _AT4kckgH;
@@ -1052,6 +1067,9 @@ let
         "yJaqpR9F" = _yJaqpR9F;
         "Hhc7wgKA" = _Hhc7wgKA;
         "PWltlBcZ" = _PWltlBcZ;
+        "qOoVT7kG" = _qOoVT7kG;
+        "iUzQEWA3" = _iUzQEWA3;
+        "ZJKZpEl8" = _ZJKZpEl8;
         "minecraft-1.17.1" = _AT4kckgH;
         "minecraft-1.18" = _AT4kckgH;
         "minecraft-1.18.1" = _AT4kckgH;
@@ -1061,30 +1079,30 @@ let
         "minecraft-1.19.2" = _AT4kckgH;
         "minecraft-1.19.3" = _AT4kckgH;
         "minecraft-1.19.4" = _AT4kckgH;
-        "minecraft-1.20" = _PWltlBcZ;
-        "minecraft-1.20.1" = _PWltlBcZ;
-        "minecraft-1.20.2" = _PWltlBcZ;
-        "minecraft-1.20.3" = _PWltlBcZ;
-        "minecraft-1.20.4" = _PWltlBcZ;
-        "minecraft-1.20.5" = _PWltlBcZ;
-        "minecraft-1.20.6" = _PWltlBcZ;
-        "minecraft-1.21" = _PWltlBcZ;
-        "minecraft-1.21.1" = _PWltlBcZ;
-        "minecraft-1.21.2" = _PWltlBcZ;
-        "minecraft-1.21.3" = _PWltlBcZ;
-        "minecraft-1.21.4" = _PWltlBcZ;
-        "minecraft-1.21.5" = _PWltlBcZ;
-        "minecraft-1.21.6" = _PWltlBcZ;
-        "minecraft-1.21.7" = _PWltlBcZ;
-        "minecraft-1.21.8" = _PWltlBcZ;
-        "minecraft-1.21.9" = _PWltlBcZ;
-        "minecraft-1.21.10" = _PWltlBcZ;
-        "minecraft-1.21.11" = _PWltlBcZ;
-        "minecraft-26.1" = _PWltlBcZ;
-        "minecraft-26.1.1" = _PWltlBcZ;
-        "minecraft-26.1.2" = _PWltlBcZ;
-        "minecraft-26.2" = _PWltlBcZ;
-        "minecraft-26.3" = _PWltlBcZ;
+        "minecraft-1.20" = _ZJKZpEl8;
+        "minecraft-1.20.1" = _ZJKZpEl8;
+        "minecraft-1.20.2" = _ZJKZpEl8;
+        "minecraft-1.20.3" = _ZJKZpEl8;
+        "minecraft-1.20.4" = _ZJKZpEl8;
+        "minecraft-1.20.5" = _ZJKZpEl8;
+        "minecraft-1.20.6" = _ZJKZpEl8;
+        "minecraft-1.21" = _ZJKZpEl8;
+        "minecraft-1.21.1" = _ZJKZpEl8;
+        "minecraft-1.21.2" = _ZJKZpEl8;
+        "minecraft-1.21.3" = _ZJKZpEl8;
+        "minecraft-1.21.4" = _ZJKZpEl8;
+        "minecraft-1.21.5" = _ZJKZpEl8;
+        "minecraft-1.21.6" = _ZJKZpEl8;
+        "minecraft-1.21.7" = _ZJKZpEl8;
+        "minecraft-1.21.8" = _ZJKZpEl8;
+        "minecraft-1.21.9" = _ZJKZpEl8;
+        "minecraft-1.21.10" = _ZJKZpEl8;
+        "minecraft-1.21.11" = _ZJKZpEl8;
+        "minecraft-26.1" = _ZJKZpEl8;
+        "minecraft-26.1.1" = _ZJKZpEl8;
+        "minecraft-26.1.2" = _ZJKZpEl8;
+        "minecraft-26.2" = _ZJKZpEl8;
+        "minecraft-26.3" = _ZJKZpEl8;
         "pkg-v1.10.0" = _qS9Lv7vO;
         "pkg-v1.11.0" = _AT4kckgH;
         "pkg-v2.0.0" = _hsgHZ6wQ;
@@ -1258,7 +1276,10 @@ let
         "pkg-v8.13.0" = _yJaqpR9F;
         "pkg-v8.14.0" = _Hhc7wgKA;
         "pkg-v8.15.0" = _PWltlBcZ;
-        "default" = _PWltlBcZ;
+        "pkg-v8.16.0" = _qOoVT7kG;
+        "pkg-v8.17.0" = _iUzQEWA3;
+        "pkg-v8.18.0" = _ZJKZpEl8;
+        "default" = _ZJKZpEl8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "translations-for-sodium";

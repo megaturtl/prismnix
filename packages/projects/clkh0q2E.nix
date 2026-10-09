@@ -51,6 +51,16 @@ let
             "file" = "beter-ultra-hardcore-1.5.jar";
             "hash" = "sha512-6LFNpB4HtON5vgsGmfMEqXSSoEfUi4vCVoN8XNX71W8evOw9Jd3P9N00ly7de3izT8MQhW7knvzeOyK8inEncQ==";
         };
+        _AnWdoBEl = {
+            "id" = "AnWdoBEl";
+            "file" = "UHK-1.5_MC1.21.2-26.3.zip";
+            "hash" = "sha512-ZSLyVq7ydIbmp6LRiUxfRAC20+GfV53QqJ/QE20Nutya8czNVCIrC/LgeCDsRugS9V4DANRX/M+sm9VFZhGucQ==";
+        };
+        _phAK3tBq = {
+            "id" = "phAK3tBq";
+            "file" = "beter-ultra-hardcore-1.5+26.3.jar";
+            "hash" = "sha512-wAhavtWLRX2XQQvW2dwF19gVHzdZDd3UqzP1sD9o35FWmoKc/7yBNtEdL0LBTVdiXD6xJylCDbgwK4gdmXASow==";
+        };
     in {
         "MD95sxeY" = _MD95sxeY;
         "lSAYS5fX" = _lSAYS5fX;
@@ -62,6 +72,8 @@ let
         "HQ2dYMqV" = _HQ2dYMqV;
         "3s5CN5q6" = _3s5CN5q6;
         "KzXx5iO8" = _KzXx5iO8;
+        "AnWdoBEl" = _AnWdoBEl;
+        "phAK3tBq" = _phAK3tBq;
         "datapack-1.20" = _l891zPKz;
         "datapack-1.20.1" = _l891zPKz;
         "datapack-1.20.2" = _l891zPKz;
@@ -87,6 +99,7 @@ let
         "datapack-26.1.1" = _3s5CN5q6;
         "datapack-26.1.2" = _3s5CN5q6;
         "datapack-26.2" = _3s5CN5q6;
+        "datapack-26.3" = _AnWdoBEl;
         "fabric-1.20" = _g9iw3sjC;
         "fabric-1.20.1" = _g9iw3sjC;
         "fabric-1.20.2" = _g9iw3sjC;
@@ -112,6 +125,7 @@ let
         "fabric-26.1.1" = _KzXx5iO8;
         "fabric-26.1.2" = _KzXx5iO8;
         "fabric-26.2" = _KzXx5iO8;
+        "fabric-26.3" = _phAK3tBq;
         "forge-1.20" = _g9iw3sjC;
         "forge-1.20.1" = _g9iw3sjC;
         "forge-1.20.2" = _g9iw3sjC;
@@ -137,6 +151,7 @@ let
         "forge-26.1.1" = _KzXx5iO8;
         "forge-26.1.2" = _KzXx5iO8;
         "forge-26.2" = _KzXx5iO8;
+        "forge-26.3" = _phAK3tBq;
         "quilt-1.20" = _g9iw3sjC;
         "quilt-1.20.1" = _g9iw3sjC;
         "quilt-1.20.2" = _g9iw3sjC;
@@ -162,6 +177,7 @@ let
         "quilt-26.1.1" = _KzXx5iO8;
         "quilt-26.1.2" = _KzXx5iO8;
         "quilt-26.2" = _KzXx5iO8;
+        "quilt-26.3" = _phAK3tBq;
         "neoforge-1.21" = _FCVScBlT;
         "neoforge-1.21.1" = _FCVScBlT;
         "neoforge-1.21.2" = _KzXx5iO8;
@@ -181,6 +197,7 @@ let
         "neoforge-26.1.1" = _KzXx5iO8;
         "neoforge-26.1.2" = _KzXx5iO8;
         "neoforge-26.2" = _KzXx5iO8;
+        "neoforge-26.3" = _phAK3tBq;
         "pkg-1.1" = _MD95sxeY;
         "pkg-1.1+mod" = _lSAYS5fX;
         "pkg-1.2" = _l891zPKz;
@@ -191,7 +208,9 @@ let
         "pkg-1.4+mod" = _HQ2dYMqV;
         "pkg-1.5" = _3s5CN5q6;
         "pkg-1.5+mod" = _KzXx5iO8;
-        "default" = _KzXx5iO8;
+        "pkg-1.5+26.3" = _AnWdoBEl;
+        "pkg-1.5+26.3+mod" = _phAK3tBq;
+        "default" = _phAK3tBq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "beter-ultra-hardcore";

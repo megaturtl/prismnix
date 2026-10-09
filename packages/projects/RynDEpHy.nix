@@ -51,6 +51,11 @@ let
             "file" = "Mini Totem 26.2.zip";
             "hash" = "sha512-jhEsywA/Xl8lULBYlTazWadBqCSVtO3ph27ttqAMd6qrEkrV7ZLiBqgFFYTj7w6D330MmjfBp9R6jopITx3UYA==";
         };
+        _j3BKxOjq = {
+            "id" = "j3BKxOjq";
+            "file" = "Mini Totem 26.3.zip";
+            "hash" = "sha512-/iF+Y77XDsLUu6tgIpt3KIWdVo+netQKGr0bL9dYs2Imte4opSaRzjNYLyEtIsE1tLjzgJ/l25vTJAUeYRlq1A==";
+        };
     in {
         "Fxzshu6c" = _Fxzshu6c;
         "xPpq4Srn" = _xPpq4Srn;
@@ -62,6 +67,7 @@ let
         "VUJs8cZX" = _VUJs8cZX;
         "WCwSdA4e" = _WCwSdA4e;
         "vQi7Tx4k" = _vQi7Tx4k;
+        "j3BKxOjq" = _j3BKxOjq;
         "minecraft-1.20.1" = _7v9SbkXo;
         "minecraft-1.20.2" = _7v9SbkXo;
         "minecraft-1.20.3" = _7v9SbkXo;
@@ -83,10 +89,12 @@ let
         "minecraft-26.1.1" = _WCwSdA4e;
         "minecraft-26.1.2" = _WCwSdA4e;
         "minecraft-26.2" = _vQi7Tx4k;
+        "minecraft-26.3" = _j3BKxOjq;
         "pkg-1.0" = _WCwSdA4e;
         "pkg-2.0" = _Ew7Hi5dZ;
         "pkg-26.2" = _vQi7Tx4k;
-        "default" = _vQi7Tx4k;
+        "pkg-26.3" = _j3BKxOjq;
+        "default" = _j3BKxOjq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mini-totem";

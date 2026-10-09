@@ -461,6 +461,11 @@ let
             "file" = "No Block Break Particles 26.2.zip";
             "hash" = "sha512-w83GdC2QJ+87JMJO2HgZXch7kobMZqKGbcsLkGxiCNvjTo5NwnDydmTM5ngz2HzgpFGy25l7/yfA44hhq/80AA==";
         };
+        _fW8M4yzx = {
+            "id" = "fW8M4yzx";
+            "file" = "No Block Break Particles 26.3.zip";
+            "hash" = "sha512-K5qZ9VlQseQVnrNcubwO+pEtiJjCNf0GsFP03xtfjHI71TwUGDeNbsFUmMME46phUy2cRVgUqS+1VNJb0QMnrA==";
+        };
     in {
         "dE9MTLak" = _dE9MTLak;
         "3YCis71w" = _3YCis71w;
@@ -554,6 +559,7 @@ let
         "AyzR6x4o" = _AyzR6x4o;
         "qnJRb0oD" = _qnJRb0oD;
         "Sb1phOeJ" = _Sb1phOeJ;
+        "fW8M4yzx" = _fW8M4yzx;
         "minecraft-1.8" = _aCxxZD7I;
         "minecraft-1.8.1" = _VWkBS7hY;
         "minecraft-1.8.2" = _32pumX0E;
@@ -628,6 +634,7 @@ let
         "minecraft-26.1.1" = _AyzR6x4o;
         "minecraft-26.1.2" = _qnJRb0oD;
         "minecraft-26.2" = _Sb1phOeJ;
+        "minecraft-26.3" = _fW8M4yzx;
         "pkg-1.0" = _ETKs1yBk;
         "pkg-1.1" = _D3VLZyxR;
         "pkg-1.8" = _aCxxZD7I;
@@ -704,7 +711,8 @@ let
         "pkg-26.1.1" = _AyzR6x4o;
         "pkg-26.1.2" = _qnJRb0oD;
         "pkg-26.2" = _Sb1phOeJ;
-        "default" = _Sb1phOeJ;
+        "pkg-26.3" = _fW8M4yzx;
+        "default" = _fW8M4yzx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "no-block-break-particles";

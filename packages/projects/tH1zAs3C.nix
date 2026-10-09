@@ -136,6 +136,26 @@ let
             "file" = "stickyenchantinglapis-26.2.0-1.5.jar";
             "hash" = "sha512-vMcGQ5DlIYu1K27yjyZ9MO1tEEyGeTTpRgsLvnWtbfPPH2mHeHqQm0PABD33Gd73rdalGwUPykuMbljSpRu4iA==";
         };
+        _lAt3a6PK = {
+            "id" = "lAt3a6PK";
+            "file" = "stickyenchantinglapis-26.3.0-1.5.jar";
+            "hash" = "sha512-21Wljj7SNQI8umdyA+hx0b5fzbgffre7N8yNnzDt3LHOjb3KFrbU5sCqxdW/dexE96j+SWj48sgmElY30V95Ww==";
+        };
+        _UY3wLKk0 = {
+            "id" = "UY3wLKk0";
+            "file" = "stickyenchantinglapis-1.21.1-1.6.jar";
+            "hash" = "sha512-Da9cdcesMqmv8aatwu+MuwFNI09QOAw+vAL4NZTIXhFj/KjHPnogCSTCZOrCyxYTDw0k4m1e2ghVGLXt1pNEdQ==";
+        };
+        _zczpp128 = {
+            "id" = "zczpp128";
+            "file" = "stickyenchantinglapis-26.2.0-1.6.jar";
+            "hash" = "sha512-+IOv38xfr4Bl76bPpJ7UcUOD1QvTK2mvfbwGJ3y6O9gvFqITS7McCBp2OLlnJunQzmm2/Yn+44H8xKxJbpwvNw==";
+        };
+        _nY1SuMft = {
+            "id" = "nY1SuMft";
+            "file" = "stickyenchantinglapis-26.3.0-1.6.jar";
+            "hash" = "sha512-8YF1y08Z/4EozoNjW+iPzNkcQeua+kNczi+ijgf0XWErKSVf3fllm1HI+CCkaBpw9MPceEVCwxVU2oBxY3gbDA==";
+        };
     in {
         "d94li3Ay" = _d94li3Ay;
         "T22hUjK6" = _T22hUjK6;
@@ -164,9 +184,13 @@ let
         "l7NQCyiK" = _l7NQCyiK;
         "cBlKA94S" = _cBlKA94S;
         "TEkro6aB" = _TEkro6aB;
+        "lAt3a6PK" = _lAt3a6PK;
+        "UY3wLKk0" = _UY3wLKk0;
+        "zczpp128" = _zczpp128;
+        "nY1SuMft" = _nY1SuMft;
         "fabric-1.20.6" = _eKflKv7U;
-        "fabric-1.21" = _XRcikRVs;
-        "fabric-1.21.1" = _XRcikRVs;
+        "fabric-1.21" = _UY3wLKk0;
+        "fabric-1.21.1" = _UY3wLKk0;
         "fabric-1.21.2" = _qV2l5wX2;
         "fabric-1.21.3" = _yYshoQA0;
         "fabric-1.21.4" = _IPLU2H7C;
@@ -180,10 +204,11 @@ let
         "fabric-26.1" = _px5S8XlJ;
         "fabric-26.1.1" = _l7NQCyiK;
         "fabric-26.1.2" = _cBlKA94S;
-        "fabric-26.2" = _TEkro6aB;
+        "fabric-26.2" = _zczpp128;
+        "fabric-26.3" = _nY1SuMft;
         "forge-1.20.6" = _eKflKv7U;
-        "forge-1.21" = _XRcikRVs;
-        "forge-1.21.1" = _XRcikRVs;
+        "forge-1.21" = _UY3wLKk0;
+        "forge-1.21.1" = _UY3wLKk0;
         "forge-1.21.3" = _yYshoQA0;
         "forge-1.21.4" = _IPLU2H7C;
         "forge-1.21.5" = _ycyYVrCt;
@@ -196,10 +221,11 @@ let
         "forge-26.1" = _px5S8XlJ;
         "forge-26.1.1" = _l7NQCyiK;
         "forge-26.1.2" = _cBlKA94S;
-        "forge-26.2" = _TEkro6aB;
+        "forge-26.2" = _zczpp128;
+        "forge-26.3" = _nY1SuMft;
         "neoforge-1.20.6" = _eKflKv7U;
-        "neoforge-1.21" = _XRcikRVs;
-        "neoforge-1.21.1" = _XRcikRVs;
+        "neoforge-1.21" = _UY3wLKk0;
+        "neoforge-1.21.1" = _UY3wLKk0;
         "neoforge-1.21.2" = _qV2l5wX2;
         "neoforge-1.21.3" = _yYshoQA0;
         "neoforge-1.21.4" = _IPLU2H7C;
@@ -213,10 +239,11 @@ let
         "neoforge-26.1" = _px5S8XlJ;
         "neoforge-26.1.1" = _l7NQCyiK;
         "neoforge-26.1.2" = _cBlKA94S;
-        "neoforge-26.2" = _TEkro6aB;
+        "neoforge-26.2" = _zczpp128;
+        "neoforge-26.3" = _nY1SuMft;
         "quilt-1.20.6" = _eKflKv7U;
-        "quilt-1.21" = _XRcikRVs;
-        "quilt-1.21.1" = _XRcikRVs;
+        "quilt-1.21" = _UY3wLKk0;
+        "quilt-1.21.1" = _UY3wLKk0;
         "quilt-1.21.2" = _qV2l5wX2;
         "quilt-1.21.3" = _yYshoQA0;
         "quilt-1.21.4" = _IPLU2H7C;
@@ -230,7 +257,8 @@ let
         "quilt-26.1" = _px5S8XlJ;
         "quilt-26.1.1" = _l7NQCyiK;
         "quilt-26.1.2" = _cBlKA94S;
-        "quilt-26.2" = _TEkro6aB;
+        "quilt-26.2" = _zczpp128;
+        "quilt-26.3" = _nY1SuMft;
         "pkg-1.20.6-1.0-fabric+forge+neo" = _d94li3Ay;
         "pkg-1.21.0-1.0-fabric+forge+neo" = _T22hUjK6;
         "pkg-1.20.6-1.1-fabric+forge+neo" = _TraQ2avp;
@@ -258,7 +286,11 @@ let
         "pkg-26.1.1-1.5-fabric+forge+neo" = _l7NQCyiK;
         "pkg-26.1.2-1.5-fabric+forge+neo" = _cBlKA94S;
         "pkg-26.2.0-1.5-fabric+forge+neo" = _TEkro6aB;
-        "default" = _TEkro6aB;
+        "pkg-26.3.0-1.5-fabric+forge+neo" = _lAt3a6PK;
+        "pkg-1.21.1-1.6-fabric+forge+neo" = _UY3wLKk0;
+        "pkg-26.2.0-1.6-fabric+forge+neo" = _zczpp128;
+        "pkg-26.3.0-1.6-fabric+forge+neo" = _nY1SuMft;
+        "default" = _nY1SuMft;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sticky-enchanting-lapis";

@@ -71,6 +71,16 @@ let
             "file" = "FIX (FORGE) EssentialHomes 26.2.jar";
             "hash" = "sha512-L/J3Vp/Kq6W/K1kPP6I9uE8ETJtcPQY0U8vhW826HU6+SmfB2L/DnITfC6B5sZjvASf+XwKUgaACem/7wStQIg==";
         };
+        _lieMbKvx = {
+            "id" = "lieMbKvx";
+            "file" = "(FORGE) EssentialHomes 26.3.jar";
+            "hash" = "sha512-DWcOsfBfvbtswlZGbLVyJRnuv5Njav+eg3VmxA6HlPcnaqWMhlNBdsxeOvhWUB1aJR74izAJd5Nrz4Ok0Bl0dg==";
+        };
+        _ifLXkNEA = {
+            "id" = "ifLXkNEA";
+            "file" = "(FABRIC) EssentialHomes 26.3.jar";
+            "hash" = "sha512-Og3d7L1AaDdVkfeFKStEjwk+awuQpwMv5JaqQv8MlwhWnO/R8tnuh7XFXEK3piPbq9acIvdcxdmoNMEAUtsACQ==";
+        };
     in {
         "X7TNerVp" = _X7TNerVp;
         "ZKmpyu74" = _ZKmpyu74;
@@ -86,22 +96,27 @@ let
         "8O33BV21" = _8O33BV21;
         "NzJGFc4M" = _NzJGFc4M;
         "EMByBSoo" = _EMByBSoo;
+        "lieMbKvx" = _lieMbKvx;
+        "ifLXkNEA" = _ifLXkNEA;
         "fabric-1.21.11" = _X7TNerVp;
         "fabric-26.1" = _9D2ptEys;
         "fabric-26.1.1" = _i46LIYvX;
         "fabric-26.1.2" = _XkEyJgdd;
         "fabric-26.2" = _NzJGFc4M;
+        "fabric-26.3" = _ifLXkNEA;
         "forge-1.21.11" = _ZKmpyu74;
         "forge-26.1" = _wzcHtQOe;
         "forge-26.1.1" = _rm8dSyX1;
         "forge-26.1.2" = _OdMqfpMc;
         "forge-26.2" = _EMByBSoo;
+        "forge-26.3" = _lieMbKvx;
         "pkg-1.21.11" = _ZKmpyu74;
         "pkg-26.1" = _9D2ptEys;
         "pkg-26.1.1" = _rm8dSyX1;
         "pkg-26.1.2" = _OdMqfpMc;
         "pkg-26.2" = _EMByBSoo;
-        "default" = _EMByBSoo;
+        "pkg-26.3" = _ifLXkNEA;
+        "default" = _ifLXkNEA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "essentialhomes";

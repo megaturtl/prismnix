@@ -86,6 +86,11 @@ let
             "file" = "CreativeFly-2.0.0-26.2-fabric.jar";
             "hash" = "sha512-6IWVlvHkrE582bGbPAkAo+Y7JOGwMfDamSwsogYLy2+3VBTqRdYlbUeqoTa2FhLzjGeFMuSk/LdpNkaphBRXaQ==";
         };
+        _j39HVzu4 = {
+            "id" = "j39HVzu4";
+            "file" = "evilcreativefly-2.0.0-26.3-fabric.jar";
+            "hash" = "sha512-mqwkulJ1kibyEqBt70rPZdilRJozYxzcbBZdOl1z3J01Ljw4X3klZMdsCMxvQvBbZM90i3cyoAYH8tKW4Nc2HA==";
+        };
     in {
         "VGTMHg7L" = _VGTMHg7L;
         "Dxke4AT1" = _Dxke4AT1;
@@ -104,6 +109,7 @@ let
         "kzgxvrmq" = _kzgxvrmq;
         "hG8hisBi" = _hG8hisBi;
         "IgI6wFfN" = _IgI6wFfN;
+        "j39HVzu4" = _j39HVzu4;
         "fabric-1.19.2" = _VGTMHg7L;
         "fabric-1.19.4" = _Dxke4AT1;
         "fabric-1.20" = _zlZ2lHQ7;
@@ -123,6 +129,7 @@ let
         "fabric-1.21.8" = _kzgxvrmq;
         "fabric-1.21.11" = _hG8hisBi;
         "fabric-26.2" = _IgI6wFfN;
+        "fabric-26.3" = _j39HVzu4;
         "pkg-1.0.2-1.19.2-fabric" = _VGTMHg7L;
         "pkg-1.0.3-1.19.4-fabric" = _Dxke4AT1;
         "pkg-1.1.0-1.20-fabric" = _tfCeRMNl;
@@ -140,7 +147,8 @@ let
         "pkg-1.9.6-1.21.7-fabric" = _kzgxvrmq;
         "pkg-1.10.6-1.21.11-fabric" = _hG8hisBi;
         "pkg-2.0.0-26.2-fabric" = _IgI6wFfN;
-        "default" = _IgI6wFfN;
+        "pkg-2.0.0-26.3-fabric" = _j39HVzu4;
+        "default" = _j39HVzu4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "creative-fly";

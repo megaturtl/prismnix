@@ -161,6 +161,16 @@ let
             "file" = "ominous-potion-recipe-1.0.jar";
             "hash" = "sha512-oA8IrCgnHphEpyjpAPIH+OOqlCgrbN/bCdp+CQ5ddEqrAZ5Xz6sA9D0v3O1G6g/2acuvmMsmvU7B1GdJ36XCeQ==";
         };
+        _tel8T2B1 = {
+            "id" = "tel8T2B1";
+            "file" = "ominous_potion-26.3.zip";
+            "hash" = "sha512-ooqaSclICh3ckhREfv4A/KEx7nGhY6Xf6f9hzWAGiuhUX9IsvoHUMoj7WkeJM91P78B9aVE+RF6i4sI8pm/U0g==";
+        };
+        _gPtlFw6s = {
+            "id" = "gPtlFw6s";
+            "file" = "ominous-potion-recipe-1.0.jar";
+            "hash" = "sha512-Fg2ntnagQqwYuLvECizHSCtZDnLS8FvXysg/gX9bra7ZvC7ikyppL9bh6YNi5ipgGh+Mt4oKnaFJerFL0r+bHg==";
+        };
     in {
         "lTkPrjD6" = _lTkPrjD6;
         "aaqMAyXR" = _aaqMAyXR;
@@ -194,6 +204,8 @@ let
         "XMPEZsf8" = _XMPEZsf8;
         "sKmjrDeL" = _sKmjrDeL;
         "JicozDB0" = _JicozDB0;
+        "tel8T2B1" = _tel8T2B1;
+        "gPtlFw6s" = _gPtlFw6s;
         "datapack-1.21" = _y1mYChgm;
         "datapack-1.21.1" = _y1mYChgm;
         "datapack-1.21.2" = _DM5YDKEb;
@@ -229,6 +241,7 @@ let
         "datapack-26.2-snapshot-2" = _CMGrkn9E;
         "datapack-26.2" = _sKmjrDeL;
         "datapack-26.3-snapshot-1" = _sKmjrDeL;
+        "datapack-26.3" = _tel8T2B1;
         "fabric-1.21" = _i6i8C3e5;
         "fabric-1.21.1" = _i6i8C3e5;
         "fabric-1.21.2" = _xJMANjm7;
@@ -264,6 +277,7 @@ let
         "fabric-26.2-snapshot-2" = _XMPEZsf8;
         "fabric-26.2" = _JicozDB0;
         "fabric-26.3-snapshot-1" = _JicozDB0;
+        "fabric-26.3" = _gPtlFw6s;
         "forge-1.21" = _i6i8C3e5;
         "forge-1.21.1" = _i6i8C3e5;
         "forge-1.21.2" = _xJMANjm7;
@@ -299,6 +313,7 @@ let
         "forge-26.2-snapshot-2" = _XMPEZsf8;
         "forge-26.2" = _JicozDB0;
         "forge-26.3-snapshot-1" = _JicozDB0;
+        "forge-26.3" = _gPtlFw6s;
         "neoforge-1.21" = _i6i8C3e5;
         "neoforge-1.21.1" = _i6i8C3e5;
         "neoforge-1.21.2" = _xJMANjm7;
@@ -334,6 +349,7 @@ let
         "neoforge-26.2-snapshot-2" = _XMPEZsf8;
         "neoforge-26.2" = _JicozDB0;
         "neoforge-26.3-snapshot-1" = _JicozDB0;
+        "neoforge-26.3" = _gPtlFw6s;
         "quilt-1.21" = _i6i8C3e5;
         "quilt-1.21.1" = _i6i8C3e5;
         "quilt-1.21.2" = _xJMANjm7;
@@ -369,9 +385,10 @@ let
         "quilt-26.2-snapshot-2" = _XMPEZsf8;
         "quilt-26.2" = _JicozDB0;
         "quilt-26.3-snapshot-1" = _JicozDB0;
-        "pkg-1.0" = _sKmjrDeL;
-        "pkg-1.0+mod" = _JicozDB0;
-        "default" = _JicozDB0;
+        "quilt-26.3" = _gPtlFw6s;
+        "pkg-1.0" = _tel8T2B1;
+        "pkg-1.0+mod" = _gPtlFw6s;
+        "default" = _gPtlFw6s;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ominous-potion-recipe";

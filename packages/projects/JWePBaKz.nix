@@ -31,6 +31,11 @@ let
             "file" = "autoreconnector-fabric-1.1.1-1.21.jar";
             "hash" = "sha512-sb2ND+jzcFyYRyCyVlJpb7JlQ2bBC9t4duYB/WhsecQHijA8A/gsIJe2sfeXkMp9ClfCHHmLhvEkq7S30iELnQ==";
         };
+        _HDTBDWpC = {
+            "id" = "HDTBDWpC";
+            "file" = "autoreconnector-fabric-1.1.3.jar";
+            "hash" = "sha512-lp5r4ymovWNcAlC70DqnTSmPF1iYUGmEHJGYk58P9vC5XcvklzicngHzA9eP0byAJeEENowZUUIi+IXelOzCyg==";
+        };
     in {
         "NcmMtNr7" = _NcmMtNr7;
         "6Yvq4f74" = _6Yvq4f74;
@@ -38,6 +43,7 @@ let
         "oUwWKS0t" = _oUwWKS0t;
         "Em6AhX9j" = _Em6AhX9j;
         "FvMfUZ76" = _FvMfUZ76;
+        "HDTBDWpC" = _HDTBDWpC;
         "fabric-1.16.4" = _NcmMtNr7;
         "fabric-1.16.5" = _NcmMtNr7;
         "fabric-1.17.1" = _6Yvq4f74;
@@ -47,10 +53,12 @@ let
         "fabric-1.20.4" = _Em6AhX9j;
         "fabric-1.21" = _FvMfUZ76;
         "fabric-1.21.1" = _FvMfUZ76;
+        "fabric-26.2" = _HDTBDWpC;
         "pkg-1.0.0" = _NcmMtNr7;
         "pkg-1.1.0" = _zm88dhx9;
         "pkg-1.1.1" = _FvMfUZ76;
-        "default" = _FvMfUZ76;
+        "pkg-1.1.3" = _HDTBDWpC;
+        "default" = _HDTBDWpC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "autoreconnector-fabric";

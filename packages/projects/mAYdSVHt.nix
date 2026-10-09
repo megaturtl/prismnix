@@ -11,9 +11,15 @@ let
             "file" = "Whimscape  X Fresh Animations Spiders v1.1.zip";
             "hash" = "sha512-cip5gJw165zr1sAIkzj9UcCoussZoClSIBXMtWbwS7msYO1DwMNp8C8XimCOWC1uWgaNpTZNye/9oFi8LQkMAQ==";
         };
+        _38K6Dy4V = {
+            "id" = "38K6Dy4V";
+            "file" = "Whimscape  X Fresh Animations Spiders v1.2.zip";
+            "hash" = "sha512-t1EavteVKWgCwGnAX38mkrUnLre9K9tuRa3cPt2A58JABYd7e8JZuflW7ZDkfdLufusYq4W5T7NUZB4S3gIuGA==";
+        };
     in {
         "AoNJGO0Y" = _AoNJGO0Y;
         "Bivo7MMb" = _Bivo7MMb;
+        "38K6Dy4V" = _38K6Dy4V;
         "minecraft-1.21.8" = _AoNJGO0Y;
         "minecraft-1.21.9" = _AoNJGO0Y;
         "minecraft-1.21.10" = _AoNJGO0Y;
@@ -21,9 +27,11 @@ let
         "minecraft-26.1.1" = _Bivo7MMb;
         "minecraft-26.1.2" = _Bivo7MMb;
         "minecraft-26.2" = _Bivo7MMb;
+        "minecraft-26.3" = _38K6Dy4V;
         "pkg-1.0" = _AoNJGO0Y;
         "pkg-1.1" = _Bivo7MMb;
-        "default" = _Bivo7MMb;
+        "pkg-1.2" = _38K6Dy4V;
+        "default" = _38K6Dy4V;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "whimscape-x-fresh-animations-spiders";

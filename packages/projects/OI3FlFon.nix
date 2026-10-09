@@ -106,6 +106,16 @@ let
             "file" = "BendableCuboidsMerged-2.0.4+mc.26.2.jar";
             "hash" = "sha512-mZ4McGC501AZlYgyn4NlxIIwGmya/+SFsPhqa+OGWpRg5vHgoeL9d+XGbv/4egnT1x7sePBwowfD6edMAed8Kg==";
         };
+        _T4G9qBzf = {
+            "id" = "T4G9qBzf";
+            "file" = "BendableCuboidsMerged-2.0.4+mc.26.3.jar";
+            "hash" = "sha512-6hDnHvHx1wS8mzwu6yOPTP80/T2amLnPuFIH9BvTrXyGLdOmPMLuAOdbL74OuKjISI92dOCSYMfbz+Kt9PCT9g==";
+        };
+        _DbUl93Sa = {
+            "id" = "DbUl93Sa";
+            "file" = "BendableCuboidsMerged-2.1.0+mc.26.3.jar";
+            "hash" = "sha512-WUKKfiFrCw/vc+CdiFmmCDhmQzCUcJF/EbaoBile6daXrfgfrlDX9VQ6ZYfpI5FcLkcsFEPyajWIoSchCjCWFg==";
+        };
     in {
         "4Gw2KIBi" = _4Gw2KIBi;
         "HkbobQ3Q" = _HkbobQ3Q;
@@ -128,6 +138,8 @@ let
         "beAwFUUC" = _beAwFUUC;
         "SAr3rgEW" = _SAr3rgEW;
         "giI64d4E" = _giI64d4E;
+        "T4G9qBzf" = _T4G9qBzf;
+        "DbUl93Sa" = _DbUl93Sa;
         "fabric-1.21.7" = _mqKPHO6f;
         "fabric-1.21.8" = _mqKPHO6f;
         "fabric-1.21.9" = _6ACHA4y0;
@@ -137,6 +149,7 @@ let
         "fabric-26.1.1" = _giI64d4E;
         "fabric-26.1.2" = _beAwFUUC;
         "fabric-26.2" = _giI64d4E;
+        "fabric-26.3" = _DbUl93Sa;
         "neoforge-1.21.7" = _q5MgeEv6;
         "neoforge-1.21.8" = _q5MgeEv6;
         "neoforge-1.21.9" = _wKWG9nrm;
@@ -146,6 +159,7 @@ let
         "neoforge-26.1.1" = _giI64d4E;
         "neoforge-26.1.2" = _beAwFUUC;
         "neoforge-26.2" = _giI64d4E;
+        "neoforge-26.3" = _DbUl93Sa;
         "pkg-1.0.0" = _HkbobQ3Q;
         "pkg-1.0.2" = _VmqIOBNF;
         "pkg-1.0.3" = _aIucNPVH;
@@ -157,8 +171,9 @@ let
         "pkg-2.0.1" = _Kq5emZI9;
         "pkg-2.0.2" = _beAwFUUC;
         "pkg-2.0.3" = _SAr3rgEW;
-        "pkg-2.0.4" = _giI64d4E;
-        "default" = _giI64d4E;
+        "pkg-2.0.4" = _T4G9qBzf;
+        "pkg-2.1.0" = _DbUl93Sa;
+        "default" = _DbUl93Sa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bendable-cuboids";

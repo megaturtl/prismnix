@@ -132,6 +132,9 @@ let
         "minecraft-26.3-rc-2" = _8AfEBcxG;
         "minecraft-26.3-rc-3" = _8AfEBcxG;
         "minecraft-26.3" = _8AfEBcxG;
+        "minecraft-26.4-snapshot-1" = _8AfEBcxG;
+        "minecraft-26.4-snapshot-2" = _8AfEBcxG;
+        "minecraft-26.4-snapshot-3" = _8AfEBcxG;
         "pkg-1.0.1" = _Cku6Gd2G;
         "pkg-1.0.2" = _yDpxAzwG;
         "pkg-1.0.3" = _mchuteOu;

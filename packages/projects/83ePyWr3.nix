@@ -51,6 +51,16 @@ let
             "file" = "enchant_enhancement-1.0.6.jar";
             "hash" = "sha512-cYFNV9lmPx7AOh9o3DqWK7SVYdhf+R9JtySTNBSa7msajA/uSUN7pKa8DxQY9SiSB0IcrC0bMazcrCrQug8ybA==";
         };
+        _v4oswp8G = {
+            "id" = "v4oswp8G";
+            "file" = "enchant-enhancement-1.1.0.jar";
+            "hash" = "sha512-mtHefqyMAQARa0wpiSEkWK2BdadH3mFpcX2m54c4QDV6+YsTuEnbizn8yGmT3MfzGj3bQEJml778/LwjRwgz+g==";
+        };
+        _vZb9Ooq4 = {
+            "id" = "vZb9Ooq4";
+            "file" = "enchant_enhancement-1.1.0.jar";
+            "hash" = "sha512-QjeQiMAz9Y0g9/dfH+RSXTvcLNa4YZnXEfsy+DYKj/sBTBoiBB+yLFU9VMYaSjB7FMO25BjvZxEnhxBXWYDrkA==";
+        };
     in {
         "xSPsd5ia" = _xSPsd5ia;
         "SbREAaJv" = _SbREAaJv;
@@ -62,15 +72,17 @@ let
         "lurhWpmO" = _lurhWpmO;
         "hm8jYrrx" = _hm8jYrrx;
         "g7iWouIl" = _g7iWouIl;
-        "fabric-1.21" = _hm8jYrrx;
-        "fabric-1.21.1" = _hm8jYrrx;
-        "fabric-1.21.2" = _hm8jYrrx;
-        "fabric-1.21.3" = _hm8jYrrx;
+        "v4oswp8G" = _v4oswp8G;
+        "vZb9Ooq4" = _vZb9Ooq4;
+        "fabric-1.21" = _v4oswp8G;
+        "fabric-1.21.1" = _v4oswp8G;
+        "fabric-1.21.2" = _v4oswp8G;
+        "fabric-1.21.3" = _v4oswp8G;
         "fabric-1.20.1" = _lurhWpmO;
         "fabric-1.20.2" = _lurhWpmO;
         "fabric-1.20.3" = _lurhWpmO;
         "fabric-1.20.4" = _lurhWpmO;
-        "neoforge-1.21.1" = _g7iWouIl;
+        "neoforge-1.21.1" = _vZb9Ooq4;
         "pkg-1.0.0" = _xSPsd5ia;
         "pkg-1.0.1" = _SbREAaJv;
         "pkg-1.0.2" = _an61A6ba;
@@ -78,7 +90,8 @@ let
         "pkg-1.0.4" = _XuLaQ50A;
         "pkg-1.0.5" = _lurhWpmO;
         "pkg-1.0.6" = _g7iWouIl;
-        "default" = _g7iWouIl;
+        "pkg-1.1.0" = _vZb9Ooq4;
+        "default" = _vZb9Ooq4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchant-enhancemen";

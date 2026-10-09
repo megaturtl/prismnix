@@ -76,6 +76,11 @@ let
             "file" = "zoomx-26.2.jar";
             "hash" = "sha512-VTFzgc8BI0B9Mj87K97se4JRhs/gAdgXepOeOrc2AeC64ioJ9i+gI6aGQu65D9El6gNmG2YRSvjViX06atvk4w==";
         };
+        _3hD3gVhy = {
+            "id" = "3hD3gVhy";
+            "file" = "zoomx-26.3.jar";
+            "hash" = "sha512-v28X9wULo1Q40l4PpnSWOden2j9QkQ2qUGDlMvq5DbY8HZWgKuSYIg1qLqj/05uW7AdEje+yXM6YJexJXOhFnA==";
+        };
     in {
         "HzIqlzsC" = _HzIqlzsC;
         "keKNoAqb" = _keKNoAqb;
@@ -92,6 +97,7 @@ let
         "h3MOiaR7" = _h3MOiaR7;
         "IObeQ9nK" = _IObeQ9nK;
         "BWPAgSKC" = _BWPAgSKC;
+        "3hD3gVhy" = _3hD3gVhy;
         "fabric-1.21" = _HzIqlzsC;
         "fabric-1.21.1" = _keKNoAqb;
         "fabric-1.21.4" = _g8WS76Af;
@@ -106,6 +112,7 @@ let
         "fabric-26.1.1" = _h3MOiaR7;
         "fabric-26.1.2" = _IObeQ9nK;
         "fabric-26.2" = _BWPAgSKC;
+        "fabric-26.3" = _3hD3gVhy;
         "forge-1.21.11" = _HAcHUzQB;
         "pkg-1.21" = _HzIqlzsC;
         "pkg-1.21.1" = _keKNoAqb;
@@ -122,7 +129,8 @@ let
         "pkg-26.1.1" = _h3MOiaR7;
         "pkg-26.1.2" = _IObeQ9nK;
         "pkg-26.2" = _BWPAgSKC;
-        "default" = _BWPAgSKC;
+        "pkg-26.3" = _3hD3gVhy;
+        "default" = _3hD3gVhy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zoomx";

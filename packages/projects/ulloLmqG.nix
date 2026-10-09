@@ -136,6 +136,11 @@ let
             "file" = "another_furniture-fabric-1.20.1-3.0.5.jar";
             "hash" = "sha512-CYPULukghtJElmwJh/lXUgFJEEBhQ42Lgy1ytHoNArF7ow2e7Zu0l0CuSbLbHWG2vIh593CEMNS6jvWOhx47qw==";
         };
+        _cugGiMKt = {
+            "id" = "cugGiMKt";
+            "file" = "another_furniture-neoforge-4.0.3.jar";
+            "hash" = "sha512-eQoHw1S05ylVMVDNyOcSnKerEmDV21tGzthS7fKEeJq2nhJQcb94oyFNBcCZCb6kp4CltbR3WYr3jso3xMbAMw==";
+        };
     in {
         "mn9nkgsF" = _mn9nkgsF;
         "aSil9usc" = _aSil9usc;
@@ -164,6 +169,7 @@ let
         "8xUs6Teu" = _8xUs6Teu;
         "Q29JlZfU" = _Q29JlZfU;
         "1vh8oWy3" = _1vh8oWy3;
+        "cugGiMKt" = _cugGiMKt;
         "forge-1.18.2" = _R1FEJUJp;
         "forge-1.18.1" = _9faTODEN;
         "forge-1.19" = _t371n1Da;
@@ -174,7 +180,7 @@ let
         "fabric-1.19.2" = _9bA8xobS;
         "fabric-1.20.1" = _1vh8oWy3;
         "fabric-1.21.1" = _8xUs6Teu;
-        "neoforge-1.21.1" = _Q29JlZfU;
+        "neoforge-1.21.1" = _cugGiMKt;
         "pkg-1.0" = _mn9nkgsF;
         "pkg-1.0.1" = _aSil9usc;
         "pkg-1.0.0" = _uFs34DTj;
@@ -197,7 +203,8 @@ let
         "pkg-3.0.4" = _78cQDrFi;
         "pkg-4.0.2" = _Q29JlZfU;
         "pkg-3.0.5" = _1vh8oWy3;
-        "default" = _1vh8oWy3;
+        "pkg-4.0.3" = _cugGiMKt;
+        "default" = _cugGiMKt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "another-furniture";

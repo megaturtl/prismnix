@@ -216,6 +216,11 @@ let
             "file" = "gen_assets.zip";
             "hash" = "sha512-mbl+9t+ur9oQ4/+NFSTNbe2l+iXqmsggSOTTqjUO5sncjihizIZHOExSDo+RTHMK9OXQP1PmebGxjWiX18c0Tw==";
         };
+        _LRELaY0z = {
+            "id" = "LRELaY0z";
+            "file" = "gen_assets.zip";
+            "hash" = "sha512-jEkLIIjOB4qZ2y7O803T4TU0h553y7J9c+F0BTfNUuWW0xFtfXeszFbQyb1GnQocnTTjngaW+0zkJQgBzAQYeA==";
+        };
     in {
         "NsxLzL3P" = _NsxLzL3P;
         "299z91wM" = _299z91wM;
@@ -260,6 +265,7 @@ let
         "nb7wZJC4" = _nb7wZJC4;
         "b2W93KuX" = _b2W93KuX;
         "84xDBIRU" = _84xDBIRU;
+        "LRELaY0z" = _LRELaY0z;
         "minecraft-1.16" = _uV8CCoIh;
         "minecraft-1.16.1" = _uV8CCoIh;
         "minecraft-1.16.2" = _uV8CCoIh;
@@ -453,23 +459,23 @@ let
         "minecraft-1.15" = _uV8CCoIh;
         "minecraft-1.15.1" = _uV8CCoIh;
         "minecraft-1.15.2" = _uV8CCoIh;
-        "minecraft-1.21.2" = _84xDBIRU;
-        "minecraft-1.21.3" = _84xDBIRU;
-        "minecraft-1.21.4" = _84xDBIRU;
-        "minecraft-1.21.5" = _84xDBIRU;
-        "minecraft-1.21.6" = _84xDBIRU;
-        "minecraft-1.21.7" = _84xDBIRU;
-        "minecraft-1.21.8" = _84xDBIRU;
-        "minecraft-1.21.9" = _84xDBIRU;
-        "minecraft-1.21.10" = _84xDBIRU;
-        "minecraft-1.21.11" = _84xDBIRU;
-        "minecraft-24w44a" = _8KJ8USKc;
-        "minecraft-24w45a" = _8KJ8USKc;
-        "minecraft-24w46a" = _8KJ8USKc;
-        "minecraft-26.1" = _84xDBIRU;
-        "minecraft-26.1.1" = _84xDBIRU;
-        "minecraft-26.1.2" = _84xDBIRU;
-        "minecraft-26.2" = _84xDBIRU;
+        "minecraft-1.21.2" = _LRELaY0z;
+        "minecraft-1.21.3" = _LRELaY0z;
+        "minecraft-1.21.4" = _LRELaY0z;
+        "minecraft-1.21.5" = _LRELaY0z;
+        "minecraft-1.21.6" = _LRELaY0z;
+        "minecraft-1.21.7" = _LRELaY0z;
+        "minecraft-1.21.8" = _LRELaY0z;
+        "minecraft-1.21.9" = _LRELaY0z;
+        "minecraft-1.21.10" = _LRELaY0z;
+        "minecraft-1.21.11" = _LRELaY0z;
+        "minecraft-24w44a" = _LRELaY0z;
+        "minecraft-24w45a" = _LRELaY0z;
+        "minecraft-24w46a" = _LRELaY0z;
+        "minecraft-26.1" = _LRELaY0z;
+        "minecraft-26.1.1" = _LRELaY0z;
+        "minecraft-26.1.2" = _LRELaY0z;
+        "minecraft-26.2" = _LRELaY0z;
         "minecraft-26.3-snapshot-1" = _84xDBIRU;
         "minecraft-26.3-snapshot-2" = _84xDBIRU;
         "minecraft-26.3-snapshot-3" = _84xDBIRU;
@@ -482,6 +488,10 @@ let
         "minecraft-26.3-snapshot-10" = _84xDBIRU;
         "minecraft-26.3-pre-1" = _84xDBIRU;
         "minecraft-26.3-pre-2" = _84xDBIRU;
+        "minecraft-26.3" = _LRELaY0z;
+        "minecraft-26.4-snapshot-1" = _LRELaY0z;
+        "minecraft-26.4-snapshot-2" = _LRELaY0z;
+        "minecraft-26.4-snapshot-3" = _LRELaY0z;
         "pkg-2.7" = _NsxLzL3P;
         "pkg-0.2.8" = _299z91wM;
         "pkg-0.2.9" = _BBrp3RXs;
@@ -525,7 +535,8 @@ let
         "pkg-0.5.2" = _nb7wZJC4;
         "pkg-0.5.3" = _b2W93KuX;
         "pkg-0.6.0" = _84xDBIRU;
-        "default" = _84xDBIRU;
+        "pkg-0.6.1" = _LRELaY0z;
+        "default" = _LRELaY0z;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gen-assets";

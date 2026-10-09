@@ -21,20 +21,28 @@ let
             "file" = "fullbrightutils-1.2.0.jar";
             "hash" = "sha512-m6yk/0xVHfH2RjpzllX2cTkvg9DzfP0LThHS4KQMoRU+dRB+646orlky+lrA/rypqCjwyj1oc43WW90x0NF4Jw==";
         };
+        _Qn8eSLZt = {
+            "id" = "Qn8eSLZt";
+            "file" = "fullbrightutils-1.3.0.jar";
+            "hash" = "sha512-7dJSy1cs4vpamskTu2EOwCGoAZiaTig2IbGPnGw030CxcR9MNMRgRpUgoLCYa7jwz/0Ogevi7nrQ/ug/EIxpmg==";
+        };
     in {
         "Iat3bBLP" = _Iat3bBLP;
         "nJcv2uKp" = _nJcv2uKp;
         "9daDcZW9" = _9daDcZW9;
         "qBvVVSCk" = _qBvVVSCk;
+        "Qn8eSLZt" = _Qn8eSLZt;
         "fabric-26.1" = _9daDcZW9;
         "fabric-26.1.1" = _9daDcZW9;
         "fabric-26.1.2" = _9daDcZW9;
         "fabric-26.2" = _qBvVVSCk;
+        "fabric-26.3" = _Qn8eSLZt;
         "pkg-1.0.0" = _Iat3bBLP;
         "pkg-1.0.1" = _nJcv2uKp;
         "pkg-1.1.0" = _9daDcZW9;
         "pkg-1.2.0" = _qBvVVSCk;
-        "default" = _qBvVVSCk;
+        "pkg-1.3.0" = _Qn8eSLZt;
+        "default" = _Qn8eSLZt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fullbrightutils";

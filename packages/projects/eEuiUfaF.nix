@@ -171,6 +171,26 @@ let
             "file" = "DerexMaceMod-1.19.4-8.1.8.0.jar";
             "hash" = "sha512-DRik5Qo/dE7gOFduyLLZaTFsPl4btHGLdwrYWyvNiJ+ZXBjlk8Qisru4u1ACmf5H7SMu9lIvae+OnEpoHH4oCA==";
         };
+        _NubVKOUq = {
+            "id" = "NubVKOUq";
+            "file" = "DerexMaceMod-fabric-1.19.2-8.1.8.2.jar";
+            "hash" = "sha512-6ZW1LkpNV3vwnHe/ajh9RS3lcpbg/jWs2Jw90Nk/saWLlRTX364ozQ1j6Gvd8vvY5K/NTsayB0r9N85OF7ip7Q==";
+        };
+        _Q24IQJIN = {
+            "id" = "Q24IQJIN";
+            "file" = "DerexMaceMod-fabric-1.20.1-8.1.8.3.jar";
+            "hash" = "sha512-0ETEcR1cC8QmuUvGuJM4Nyb4MOCXa0fZwnKmE43W/Pgp/sOSpsmFSejNqpJWtYthDmLXefglcgi1kSbtw91PPA==";
+        };
+        _EburmUG1 = {
+            "id" = "EburmUG1";
+            "file" = "DerexMaceMod-fabric-1.19.2-8.1.8.3.jar";
+            "hash" = "sha512-P3morSbXJ3syjRReDEzV1iYJMtlvw63MoNqjjVdpCTMHFQ0n81lcNFAWoYr9p5d9UPYbP9jSr21Lq4Z1T+wO0A==";
+        };
+        _9ML4qCFe = {
+            "id" = "9ML4qCFe";
+            "file" = "DerexMaceMod-fabric-1.20.4-8.1.8.3.jar";
+            "hash" = "sha512-28HX0ZRoKcLSn9R+YNs2pUuRRp765xgwe+ggkVU63/T2t0hAhzouppEdOHzx6DkvK8w2VGqg6V9IHFYenCzO4Q==";
+        };
     in {
         "mug32OR4" = _mug32OR4;
         "oaktrdAp" = _oaktrdAp;
@@ -206,6 +226,10 @@ let
         "rHTkX3YP" = _rHTkX3YP;
         "rzguJgif" = _rzguJgif;
         "bEWm4PVa" = _bEWm4PVa;
+        "NubVKOUq" = _NubVKOUq;
+        "Q24IQJIN" = _Q24IQJIN;
+        "EburmUG1" = _EburmUG1;
+        "9ML4qCFe" = _9ML4qCFe;
         "forge-1.15.2" = _lHMNl1WN;
         "forge-1.17.1" = _ekmWxsLy;
         "forge-1.16.5" = _BfSumxhq;
@@ -227,9 +251,11 @@ let
         "neoforge-1.21.1" = _PzLXHMYi;
         "fabric-1.19" = _C1YpqcIT;
         "fabric-1.19.1" = _C1YpqcIT;
-        "fabric-1.19.2" = _C1YpqcIT;
-        "fabric-1.19.3" = _C1YpqcIT;
-        "fabric-1.19.4" = _C1YpqcIT;
+        "fabric-1.19.2" = _EburmUG1;
+        "fabric-1.19.3" = _EburmUG1;
+        "fabric-1.19.4" = _EburmUG1;
+        "fabric-1.20.1" = _Q24IQJIN;
+        "fabric-1.20.4" = _9ML4qCFe;
         "pkg-1.0.0.0" = _mug32OR4;
         "pkg-1.0.1.0" = _oaktrdAp;
         "pkg-1.0.3.0" = _lHMNl1WN;
@@ -251,8 +277,9 @@ let
         "pkg-8.1.7.1" = _j7UFotQl;
         "pkg-8.1.7.2+balanced" = _eh1ksLsE;
         "pkg-8.1.8.0" = _rzguJgif;
-        "pkg-8.1.8.2" = _bEWm4PVa;
-        "default" = _bEWm4PVa;
+        "pkg-8.1.8.2" = _NubVKOUq;
+        "pkg-8.1.8.3" = _9ML4qCFe;
+        "default" = _9ML4qCFe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mace-backport-mod";

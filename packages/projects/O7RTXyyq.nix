@@ -56,6 +56,16 @@ let
             "file" = "create_marketplace-0.5.0.jar";
             "hash" = "sha512-Aiaceuwsx44Htz+d78R2HJ+t3eRInM56pRhaR9ZdY/W3TYrj9q2zC9GlEEymzLykqEUQQE2H8Ry/tFacgvzyUQ==";
         };
+        _6HwPYhPv = {
+            "id" = "6HwPYhPv";
+            "file" = "create_marketplace-0.5.1.jar";
+            "hash" = "sha512-DYuvglaabId7HVqraQjkbaaVDK6fwJQc8r0B3zz4t/3iT0/ciLSEsZRdvTOlI53w1J4xcBoFFDJ4zE/QWk1HVA==";
+        };
+        _7HQSeSmx = {
+            "id" = "7HQSeSmx";
+            "file" = "create_marketplace-0.5.2.jar";
+            "hash" = "sha512-Q6Gyqs/yOWZXuzxDPFj8islMjMEAuO2F0sNmopkmD+a4YHvNQW6JN2/yX4FdrLd1P9SDOzYDChOTprsYl9ywUA==";
+        };
     in {
         "FIQXsGnj" = _FIQXsGnj;
         "EM7AI1Pj" = _EM7AI1Pj;
@@ -68,7 +78,9 @@ let
         "IxMHMYSw" = _IxMHMYSw;
         "GYpGhY8M" = _GYpGhY8M;
         "PJAwbBur" = _PJAwbBur;
-        "neoforge-1.21.1" = _PJAwbBur;
+        "6HwPYhPv" = _6HwPYhPv;
+        "7HQSeSmx" = _7HQSeSmx;
+        "neoforge-1.21.1" = _7HQSeSmx;
         "neoforge-1.21.2" = _EPrhTGdu;
         "neoforge-1.21.3" = _EPrhTGdu;
         "neoforge-1.21.4" = _EPrhTGdu;
@@ -90,7 +102,9 @@ let
         "pkg-0.4.1" = _bsJvpVIh;
         "pkg-0.4.2" = _IxMHMYSw;
         "pkg-0.5.0" = _PJAwbBur;
-        "default" = _PJAwbBur;
+        "pkg-0.5.1" = _6HwPYhPv;
+        "pkg-0.5.2-hotfix" = _7HQSeSmx;
+        "default" = _7HQSeSmx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-marketplace";

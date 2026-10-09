@@ -61,6 +61,11 @@ let
             "file" = "SJ Heart Indicator 26.2.jar";
             "hash" = "sha512-ewBeKmvNdF7TvAz8HZLj1uLXvZHFjB1GNbaofPUmRK78Fw+IfocP40FnRcj5GWsNri00GV4km2I+++CiXVNECQ==";
         };
+        _xTENDdpP = {
+            "id" = "xTENDdpP";
+            "file" = "SJ Heart Indicator 26.3.jar";
+            "hash" = "sha512-FrkfBR3QwKgzSzlM6ZsxJmYJmHNWfI04GfNFyCJRbsTP0rd64UxHxLvzFo8UPxKqEYi5WtQ80owAmO9PUSZ/0w==";
+        };
     in {
         "iVQgKDyF" = _iVQgKDyF;
         "6TgDo9Eo" = _6TgDo9Eo;
@@ -74,6 +79,7 @@ let
         "YexYtXdj" = _YexYtXdj;
         "PrDikSg3" = _PrDikSg3;
         "YNbyIvxG" = _YNbyIvxG;
+        "xTENDdpP" = _xTENDdpP;
         "fabric-1.21.4" = _iVQgKDyF;
         "fabric-1.21.5" = _6TgDo9Eo;
         "fabric-1.21.6" = _D8iNYa7p;
@@ -86,6 +92,7 @@ let
         "fabric-26.1.1" = _YexYtXdj;
         "fabric-26.1.2" = _PrDikSg3;
         "fabric-26.2" = _YNbyIvxG;
+        "fabric-26.3" = _xTENDdpP;
         "pkg-1.21.4" = _iVQgKDyF;
         "pkg-1.21.5" = _6TgDo9Eo;
         "pkg-1.21.6" = _D8iNYa7p;
@@ -98,7 +105,8 @@ let
         "pkg-1.0.0+26.1.1" = _YexYtXdj;
         "pkg-26.1.2" = _PrDikSg3;
         "pkg-26.2" = _YNbyIvxG;
-        "default" = _YNbyIvxG;
+        "pkg-26.3" = _xTENDdpP;
+        "default" = _xTENDdpP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sjheartindicator";

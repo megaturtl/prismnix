@@ -231,6 +231,11 @@ let
             "file" = "Chaos PvP Pack [3.2][26.2].zip";
             "hash" = "sha512-MiQACPPAKUVwte6NV7zTeBhTpKAw7YU6u/qRntAeF4vvYpwiqzhyaVqq7I7eNnVri/KZnR5u/qdzBVkj7y+KpA==";
         };
+        _VZTqCeUP = {
+            "id" = "VZTqCeUP";
+            "file" = "Chaos PvP Pack [3.2][26.3].zip";
+            "hash" = "sha512-nYbtbYcnSnTqzKPSMvp2Xz6/XGZygOWECb//oEVAZ34KN6C70GE83DXDZQTJRkQD4ZNqgctrpo0abhTk3MFTtg==";
+        };
     in {
         "9ZTT1K5g" = _9ZTT1K5g;
         "qaNFSCQW" = _qaNFSCQW;
@@ -278,6 +283,7 @@ let
         "5K2OKQyR" = _5K2OKQyR;
         "TQpmD5GA" = _TQpmD5GA;
         "a7uVVPJ3" = _a7uVVPJ3;
+        "VZTqCeUP" = _VZTqCeUP;
         "minecraft-1.16.2" = _M903kEeP;
         "minecraft-1.16.3" = _M903kEeP;
         "minecraft-1.16.4" = _M903kEeP;
@@ -317,6 +323,9 @@ let
         "minecraft-26.1.1" = _TQpmD5GA;
         "minecraft-26.1.2" = _TQpmD5GA;
         "minecraft-26.2" = _a7uVVPJ3;
+        "minecraft-26.3" = _VZTqCeUP;
+        "minecraft-26.4-snapshot-1" = _VZTqCeUP;
+        "minecraft-26.4-snapshot-2" = _VZTqCeUP;
         "pkg-1.16-1.16.5" = _p2wothmI;
         "pkg-1.17-1.17.1" = _wHXkjgiT;
         "pkg-1.18-1.18.2" = _eQVJFYhp;
@@ -335,8 +344,8 @@ let
         "pkg-1.21.6" = _vth8FUZO;
         "pkg-3.0" = _J2gQw6wM;
         "pkg-3.1" = _5K2OKQyR;
-        "pkg-3.2" = _a7uVVPJ3;
-        "default" = _a7uVVPJ3;
+        "pkg-3.2" = _VZTqCeUP;
+        "default" = _VZTqCeUP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chaos-pvp-pack";

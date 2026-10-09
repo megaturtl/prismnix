@@ -96,6 +96,11 @@ let
             "file" = "Small Hand Tools.zip";
             "hash" = "sha512-7zqpWOqLJDaomstS8uYTsvErneld4J2+S4qqFaklSLuiqy1YKvvaLnljjhozIwKCTLflB16jlSJLGZRb/r1aBQ==";
         };
+        _eF3MY3qJ = {
+            "id" = "eF3MY3qJ";
+            "file" = "Small Hand Tools 26.3.zip";
+            "hash" = "sha512-sXE/SMzo0s7RP//vQJlb5fIqHunNZe/4PP7kkZ9LB+9AZtbkHaphgNeTwz8HkW76Ai8kdLaBxdvm0adxXb87vQ==";
+        };
     in {
         "peXDf2QK" = _peXDf2QK;
         "S00VADfQ" = _S00VADfQ;
@@ -116,6 +121,7 @@ let
         "hpoal5Y7" = _hpoal5Y7;
         "9Mxns8eh" = _9Mxns8eh;
         "EvIho2NY" = _EvIho2NY;
+        "eF3MY3qJ" = _eF3MY3qJ;
         "minecraft-1.19" = _peXDf2QK;
         "minecraft-1.19.1" = _S00VADfQ;
         "minecraft-1.19.2" = _S00VADfQ;
@@ -144,6 +150,7 @@ let
         "minecraft-26.1.1" = _H9krVIYN;
         "minecraft-26.1.2" = _hpoal5Y7;
         "minecraft-26.2" = _9Mxns8eh;
+        "minecraft-26.3" = _eF3MY3qJ;
         "pkg-1.19" = _peXDf2QK;
         "pkg-1.19.1-1.19.2" = _S00VADfQ;
         "pkg-1.19.3-1.19.4" = _SIwzZJQz;
@@ -162,7 +169,8 @@ let
         "pkg-26.1.2" = _hpoal5Y7;
         "pkg-26.2" = _9Mxns8eh;
         "pkg-1.21-1.21.11" = _EvIho2NY;
-        "default" = _EvIho2NY;
+        "pkg-26.3" = _eF3MY3qJ;
+        "default" = _eF3MY3qJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "small-hand-tools";

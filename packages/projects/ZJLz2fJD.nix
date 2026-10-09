@@ -131,6 +131,11 @@ let
             "file" = "Simple Outlined Ores 26.2.zip";
             "hash" = "sha512-SZd4PEpko/u4nTlNUdmFnFp/B/Rg1Vn4R6HeHZPRW9Bp8Rwiu2x446YllMJibFa7g03nrpB0HY/yjn5ohKIeAA==";
         };
+        _dQBRCD9u = {
+            "id" = "dQBRCD9u";
+            "file" = "Simple Outlined Ores 26.3.zip";
+            "hash" = "sha512-1sbPPjKHGt/UskYAgGb7LM1GJKy7/1hs0OtSAsSS+DWyis1UB/TgdhJ0YVwPuhwptimHFc5OI6YgtclpSlzrhA==";
+        };
     in {
         "eaDTs4Zr" = _eaDTs4Zr;
         "eatonTru" = _eatonTru;
@@ -158,6 +163,7 @@ let
         "9SlCFRnZ" = _9SlCFRnZ;
         "Z7hRBRVf" = _Z7hRBRVf;
         "AoHOAl1B" = _AoHOAl1B;
+        "dQBRCD9u" = _dQBRCD9u;
         "minecraft-1.9" = _eaDTs4Zr;
         "minecraft-1.9.1" = _eaDTs4Zr;
         "minecraft-1.9.2" = _eaDTs4Zr;
@@ -219,10 +225,11 @@ let
         "minecraft-26.1.1" = _Z7hRBRVf;
         "minecraft-26.1.2" = _Z7hRBRVf;
         "minecraft-26.2" = _AoHOAl1B;
+        "minecraft-26.3" = _dQBRCD9u;
         "pkg-1.0" = _KcczO63G;
         "pkg-3.0" = _eQZpFlG8;
-        "pkg-4.0" = _AoHOAl1B;
-        "default" = _AoHOAl1B;
+        "pkg-4.0" = _dQBRCD9u;
+        "default" = _dQBRCD9u;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-outlined-ores";

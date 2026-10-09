@@ -101,6 +101,26 @@ let
             "file" = "AnimalHusbandry-fabric-0.4.1.jar";
             "hash" = "sha512-s3XW9X5GVjBtIe+nRrYhQ3bTLWjmsXjwn363MotShTVguU0MsL02WnWvV0chnFxE+wAv/u0BpTr4mRNqmVD0Eg==";
         };
+        _ciOU3Trl = {
+            "id" = "ciOU3Trl";
+            "file" = "AnimalHusbandry-neoforge-0.4.2.jar";
+            "hash" = "sha512-JNTQjfLcsrEQnJl+eq8998I/7DBwwsU3H5MIwnEpt64EsaTbg3DbqVzbeXJKhkgVzveK4pmiZJbXB7X4Idgwbw==";
+        };
+        _ionAhR7m = {
+            "id" = "ionAhR7m";
+            "file" = "AnimalHusbandry-fabric-0.4.2.jar";
+            "hash" = "sha512-pZvINeGDGIjI5KffWaCeiZ2GakeCiuorLS5RQjVlnGXc0MV2zZb9XwGrUSoahPU48lttVQj4GG1xXp7iu5Qt3w==";
+        };
+        _4lRl6E38 = {
+            "id" = "4lRl6E38";
+            "file" = "AnimalHusbandry-neoforge-0.5.0.jar";
+            "hash" = "sha512-c2l3Em63DqFa3MrcJ44aWPOi/yIKzWFZwNC4DBNI/EC5SmLPIdIzUq7me3q2SgblF0l80X57QntY8hn0gAnwGw==";
+        };
+        _ZXPRmEF6 = {
+            "id" = "ZXPRmEF6";
+            "file" = "AnimalHusbandry-fabric-0.5.0.jar";
+            "hash" = "sha512-6qUOBoJTuueBiK3pP0p3V2nccYY3Ja/RSlnyiwqvj7fUT1wgcHVZfe8O8O4n0EqaDXb8KZH4ZJDo542xjG2fLA==";
+        };
     in {
         "C1ufbYGW" = _C1ufbYGW;
         "3rTtGQyz" = _3rTtGQyz;
@@ -122,8 +142,12 @@ let
         "jPGg52x0" = _jPGg52x0;
         "ti76ix5I" = _ti76ix5I;
         "m5NEcIYu" = _m5NEcIYu;
-        "neoforge-1.21.1" = _ti76ix5I;
-        "fabric-1.21.1" = _m5NEcIYu;
+        "ciOU3Trl" = _ciOU3Trl;
+        "ionAhR7m" = _ionAhR7m;
+        "4lRl6E38" = _4lRl6E38;
+        "ZXPRmEF6" = _ZXPRmEF6;
+        "neoforge-1.21.1" = _4lRl6E38;
+        "fabric-1.21.1" = _ZXPRmEF6;
         "pkg-0.1" = _3rTtGQyz;
         "pkg-0.1.1" = _tXo2zXiz;
         "pkg-0.1.5" = _Y8jbn3dr;
@@ -134,7 +158,9 @@ let
         "pkg-0.3.0" = _PYLs781a;
         "pkg-0.4.0" = _jPGg52x0;
         "pkg-0.4.1" = _m5NEcIYu;
-        "default" = _m5NEcIYu;
+        "pkg-0.4.2" = _ionAhR7m;
+        "pkg-0.5.0" = _ZXPRmEF6;
+        "default" = _ZXPRmEF6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "animalhusbandry";

@@ -141,6 +141,21 @@ let
             "file" = "pvp-tweaks-1.9.4-mc1.21.11.jar";
             "hash" = "sha512-dhBMMrFlGxQydKBct2d7KVINZQMHF5pdtxHlk3lt+gatauatQflqfgtTcULETE5b8Ua4HUX0TqfYkftnB0ic9g==";
         };
+        _v4bqksXk = {
+            "id" = "v4bqksXk";
+            "file" = "pvp-tweaks-1.9.4-mc26.3.jar";
+            "hash" = "sha512-GVzzOxl5zvgmtJXvu8jS7mTAQPYOmZa4NWf7DQidyAHAXCoSsfhpnqT+vlNWGNIGeDNN16YTDo1EVZlD7MZXtg==";
+        };
+        _QDu6T34G = {
+            "id" = "QDu6T34G";
+            "file" = "pvp-tweaks-1.9.4-mc26.3.jar";
+            "hash" = "sha512-FnIwQrMjzMStKV7JjJWfhJwpbnv1Lu05Laf4xtG85Q4lH0AmjLdi2PIK4q1Lv7b6S437kA6swD9OuSNm3wteEg==";
+        };
+        _xwzl1EsV = {
+            "id" = "xwzl1EsV";
+            "file" = "pvp-tweaks-1.9.4-mc1.21.11.jar";
+            "hash" = "sha512-IZXMvq4tRqpAghBL6NFsTzZWQRRfGNihIIlD3dRyRGDkSkiB2Z87RuoMJ0mjPkHPpPCkUYrAgg0h0Ner6ld4RA==";
+        };
     in {
         "tTsodOqE" = _tTsodOqE;
         "8vxW7sbh" = _8vxW7sbh;
@@ -170,7 +185,10 @@ let
         "dG80Rd6I" = _dG80Rd6I;
         "6kpIZGCP" = _6kpIZGCP;
         "en8wVXhN" = _en8wVXhN;
-        "fabric-1.21.11" = _en8wVXhN;
+        "v4bqksXk" = _v4bqksXk;
+        "QDu6T34G" = _QDu6T34G;
+        "xwzl1EsV" = _xwzl1EsV;
+        "fabric-1.21.11" = _xwzl1EsV;
         "fabric-1.21.4" = _InHZB8Aw;
         "fabric-1.21.5" = _1FgI8q6I;
         "fabric-1.21.6" = _W6RWHKmz;
@@ -182,6 +200,7 @@ let
         "fabric-26.1" = _6kpIZGCP;
         "fabric-26.1.1" = _6kpIZGCP;
         "fabric-26.1.2" = _6kpIZGCP;
+        "fabric-26.3" = _QDu6T34G;
         "pkg-1.0.0-1.21.11" = _8vxW7sbh;
         "pkg-1.2.0-beta-1.21.11" = _B9HxB3a4;
         "pkg-1.4.0-1.21.11" = _UJefg2Ym;
@@ -208,8 +227,9 @@ let
         "pkg-1.9.3-mc26.1.x-beta" = _xJNxk9Cg;
         "pkg-1.9.4-mc26.2" = _dG80Rd6I;
         "pkg-1.9.4-mc26.1.x" = _6kpIZGCP;
-        "pkg-1.9.4-mc1.21.11" = _en8wVXhN;
-        "default" = _en8wVXhN;
+        "pkg-1.9.4-mc1.21.11" = _xwzl1EsV;
+        "pkg-1.9.4-mc26.3" = _QDu6T34G;
+        "default" = _xwzl1EsV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pvptweak";

@@ -266,6 +266,46 @@ let
             "file" = "football-1.5.3-fabric-1.21.8.jar";
             "hash" = "sha512-HWQdCi2DDr39I6cs67QPEFDi6L5Kk0dNsNSZF4CkAJquiZmNI7jmHgkrmEVbkMt7EKzSo2eERF5aacdLtw/Q/g==";
         };
+        _UL2umjBx = {
+            "id" = "UL2umjBx";
+            "file" = "football-1.5.4-forge-1.20.1.jar";
+            "hash" = "sha512-u8+EE21MAGWPBAN9qPbhZxCbmHpLi8T4uGTjZEcl6QRiYbUvHetGrTjtlivSxbnJMWlQSsNeMaxOfCwhT3lQTw==";
+        };
+        _X9fMOK4c = {
+            "id" = "X9fMOK4c";
+            "file" = "football-1.5.4-forge-1.19.4.jar";
+            "hash" = "sha512-YlHz7uyCxIBGQMB5S8OPVSyf5BtK4VpulooeonqBLzzakv46K6XoyHlBLk+ekw6B4fKt5mGNaIIX89Fb0VBTNw==";
+        };
+        _vMDvkxCf = {
+            "id" = "vMDvkxCf";
+            "file" = "football-1.5.4-forge-1.19.2.jar";
+            "hash" = "sha512-cz0J98fQHRgv+SAciiteDggFaDFqNdhdUrxqTEZ/9/l4M4urYGRwvdJK5V3nYU3jncIRb3WnvaKBzaeCW8F3/w==";
+        };
+        _AlcMitle = {
+            "id" = "AlcMitle";
+            "file" = "football-1.5.4-neoforge-1.21.1.jar";
+            "hash" = "sha512-pMJ/s6bKVDcgZdrY/P+mjODAUjNhp9o87jk8tm+RiUAsBn9X295IscrEZmccqOFSeQNkGkEkRuPESwimuHEEbw==";
+        };
+        _pGi9B68o = {
+            "id" = "pGi9B68o";
+            "file" = "football-1.5.4-neoforge-26.1.2.jar";
+            "hash" = "sha512-yKWbmwJzeqWllx/fZfWACl/BXMYggV690rqusnqsUpcIsRw5xMNbAmBf6xsK2S22Ln3MrBLsPKLXeAoFNRnNjg==";
+        };
+        _EagDLEyu = {
+            "id" = "EagDLEyu";
+            "file" = "football-1.5.4-fabric-26.1.2.jar";
+            "hash" = "sha512-nhC4rioSGx6Bt5K/WeBgNcFUTtphMhhj8HczKEmBoCYd5K9ujtToyLhCRjbZTLYAvqeI3eOQv5pqkL9RQfH4tA==";
+        };
+        _zzoYU8ZK = {
+            "id" = "zzoYU8ZK";
+            "file" = "football-1.5.4-neoforge-26.2.jar";
+            "hash" = "sha512-fDGyeqxF1HTmY504SHcuCg0vLs6uixh4x070SiqfjY7LICdswk5fTRSoLtNnuSLEoR7EOm9xvxNbXwzbWVpO1Q==";
+        };
+        _QxpDAshl = {
+            "id" = "QxpDAshl";
+            "file" = "football-1.5.4-fabric-26.2.jar";
+            "hash" = "sha512-bFikFRkpbFhJex8tlPHeFqOKZ4OPMrzjsW3JwnLhMqY/ONXSqGxKkT4Tx5v22+Q2aWvn3dcVpU/hSZWelLrvFA==";
+        };
     in {
         "KiDAHZoO" = _KiDAHZoO;
         "67FYbFDT" = _67FYbFDT;
@@ -320,19 +360,31 @@ let
         "CS4FYTq6" = _CS4FYTq6;
         "VSHVpejh" = _VSHVpejh;
         "ojEL3zU6" = _ojEL3zU6;
-        "forge-1.20.1" = _3qe6Fswq;
-        "forge-1.19.2" = _L86I129E;
-        "forge-1.19.4" = _TIITOUG5;
+        "UL2umjBx" = _UL2umjBx;
+        "X9fMOK4c" = _X9fMOK4c;
+        "vMDvkxCf" = _vMDvkxCf;
+        "AlcMitle" = _AlcMitle;
+        "pGi9B68o" = _pGi9B68o;
+        "EagDLEyu" = _EagDLEyu;
+        "zzoYU8ZK" = _zzoYU8ZK;
+        "QxpDAshl" = _QxpDAshl;
+        "forge-1.20.1" = _UL2umjBx;
+        "forge-1.19.2" = _vMDvkxCf;
+        "forge-1.19.4" = _X9fMOK4c;
         "forge-1.17.1" = _VSHVpejh;
         "forge-1.20.4" = _U0uVEewH;
         "forge-1.18.2" = _CS4FYTq6;
-        "neoforge-1.21.1" = _2LSlKFgK;
+        "neoforge-1.21.1" = _AlcMitle;
         "neoforge-1.20.4" = _L5iyNq2m;
         "neoforge-1.20.6" = _DyXkOqw3;
         "neoforge-1.21.4" = _yctgzUlO;
         "neoforge-1.21.5" = _9w4q0hRQ;
         "neoforge-1.21.8" = _D3OVogeI;
+        "neoforge-26.1.2" = _pGi9B68o;
+        "neoforge-26.2" = _zzoYU8ZK;
         "fabric-1.21.8" = _ojEL3zU6;
+        "fabric-26.1.2" = _EagDLEyu;
+        "fabric-26.2" = _QxpDAshl;
         "pkg-1.3.2" = _KiDAHZoO;
         "pkg-1.3.21" = _67FYbFDT;
         "pkg-1.3.3" = _SXvyDIsh;
@@ -353,7 +405,9 @@ let
         "pkg-1.5.3" = _CS4FYTq6;
         "pkg-1.5.31" = _VSHVpejh;
         "pkg-1.5.32" = _ojEL3zU6;
-        "default" = _ojEL3zU6;
+        "pkg-1.5.4" = _zzoYU8ZK;
+        "pkg-1.5.41" = _QxpDAshl;
+        "default" = _QxpDAshl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-football";

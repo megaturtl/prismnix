@@ -236,6 +236,16 @@ let
             "file" = "DistractingTrims-fabric-MC26.2-26.2.0.2.jar";
             "hash" = "sha512-OX+uQn0rQ7qlNkepEocIRbZ62hsaBVLKZounn4cfSIgKnCg3oDuJ+j59Qv9FuTNQGcIH8oYgsTHWlD70wKa2UA==";
         };
+        _4cT5Ryn4 = {
+            "id" = "4cT5Ryn4";
+            "file" = "DistractingTrims-fabric-MC26.3-26.3.0.1.jar";
+            "hash" = "sha512-yJr6qdqlaoC8nwuu5+0KCCTzePO80I6f10BeRqPnsQoLyfU3Mni13oC4qUg4N5CZmaRfTc1I0NIr7e4q9OwTDw==";
+        };
+        _RhOAwPbn = {
+            "id" = "RhOAwPbn";
+            "file" = "DistractingTrims-neoforge-MC26.3-26.3.0.1.jar";
+            "hash" = "sha512-EgP1G4UXxJ8VMYUoppA70zGZnflwVfrTFLIOTKB/DmExAKti4b1NSaXh5ifxl2nV/9rjResCm6Rp+7/lY2sOGA==";
+        };
     in {
         "26iyzvIG" = _26iyzvIG;
         "8Uwt8agS" = _8Uwt8agS;
@@ -284,6 +294,8 @@ let
         "YdEHrq01" = _YdEHrq01;
         "QpuV2i2z" = _QpuV2i2z;
         "xgGcAu6c" = _xgGcAu6c;
+        "4cT5Ryn4" = _4cT5Ryn4;
+        "RhOAwPbn" = _RhOAwPbn;
         "fabric-1.20-pre1" = _26iyzvIG;
         "fabric-1.20-pre2" = _8Uwt8agS;
         "fabric-1.20" = _JcV33uZH;
@@ -296,6 +308,7 @@ let
         "fabric-26.1.1" = _YdEHrq01;
         "fabric-26.1.2" = _YdEHrq01;
         "fabric-26.2" = _xgGcAu6c;
+        "fabric-26.3" = _4cT5Ryn4;
         "forge-1.20" = _aV7O9omB;
         "forge-1.20.1" = _K6YvoEmD;
         "forge-1.20.2" = _hwaSz9gj;
@@ -310,6 +323,7 @@ let
         "neoforge-26.1.1" = _PGw8MZln;
         "neoforge-26.1.2" = _PGw8MZln;
         "neoforge-26.2" = _QpuV2i2z;
+        "neoforge-26.3" = _RhOAwPbn;
         "quilt-1.21.1" = _Ec8SZtTM;
         "pkg-0.0.0" = _26iyzvIG;
         "pkg-0.1.0" = _8Uwt8agS;
@@ -332,7 +346,8 @@ let
         "pkg-26.2.0.1" = _vXQLyKXf;
         "pkg-26.1.2.4" = _YdEHrq01;
         "pkg-26.2.0.2" = _xgGcAu6c;
-        "default" = _xgGcAu6c;
+        "pkg-26.3.0.1" = _RhOAwPbn;
+        "default" = _RhOAwPbn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "distracting-trims";

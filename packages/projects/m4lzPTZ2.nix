@@ -236,6 +236,11 @@ let
             "file" = "BetterMod-3.1.0.jar";
             "hash" = "sha512-9pBu06bF0QXBO2P/F8VhQN7D6++uLmAOKASLrKG9pVjRMh1UMdnQv6BaAqtDm8K+Do06LIFCBQoMRsnjMdVGlw==";
         };
+        _LKsFHVIq = {
+            "id" = "LKsFHVIq";
+            "file" = "BetterMod-3.2.0.jar";
+            "hash" = "sha512-h2KkPWHGplOnlXRvdhrSVdLsDmYOj6LDxUMugmJDfkWn1m+rbxX6UFDkyrjQrdOPLYOqBIqePNcaq1fbU/vwPQ==";
+        };
     in {
         "bCnsimLl" = _bCnsimLl;
         "7oY9dJvh" = _7oY9dJvh;
@@ -284,6 +289,7 @@ let
         "9GM3Xynl" = _9GM3Xynl;
         "fvOc2nzA" = _fvOc2nzA;
         "uXLx0edD" = _uXLx0edD;
+        "LKsFHVIq" = _LKsFHVIq;
         "fabric-1.19" = _xmrfS7RF;
         "fabric-1.19.2" = _H5ZlMsMB;
         "fabric-1.19.3" = _qdM8aOXm;
@@ -302,6 +308,7 @@ let
         "fabric-26.1.2" = _2kTTv9i5;
         "fabric-26.1.1" = _1szPbfal;
         "fabric-26.2" = _uXLx0edD;
+        "fabric-26.3" = _LKsFHVIq;
         "quilt-1.21" = _suxOT2kI;
         "quilt-1.21.1" = _J3lTXpUa;
         "quilt-1.21.4" = _yq9tXg3O;
@@ -315,6 +322,7 @@ let
         "quilt-26.1.2" = _2kTTv9i5;
         "quilt-26.1.1" = _1szPbfal;
         "quilt-26.2" = _uXLx0edD;
+        "quilt-26.3" = _LKsFHVIq;
         "pkg-1.1.0" = _bCnsimLl;
         "pkg-1.1.1" = _7oY9dJvh;
         "pkg-1.2.0" = _bWy0LzEd;
@@ -362,7 +370,8 @@ let
         "pkg-3.0.1" = _9GM3Xynl;
         "pkg-3.0.2" = _fvOc2nzA;
         "pkg-3.1.0" = _uXLx0edD;
-        "default" = _uXLx0edD;
+        "pkg-3.2.0" = _LKsFHVIq;
+        "default" = _LKsFHVIq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bettermod";

@@ -151,6 +151,51 @@ let
             "file" = "uncraftablenomore-fabric-26.2-1.0.7.jar";
             "hash" = "sha512-DFFUdNJ4cPMLwVIhQb4/H0Zevn0DdGjYF1bDBqgZUL2oSboohdqYlInURVwzoFKtlk1okkmUEMUfU2BScon0yQ==";
         };
+        _Ki3ID3De = {
+            "id" = "Ki3ID3De";
+            "file" = "uncraftablenomore-forge-26.3-1.0.7.jar";
+            "hash" = "sha512-86k1qEibSZHKJniR61vNY/m9WFujDCbwYuvnp93b6dhJkw7UtaGKVuwof2uA1t/BBs3I7c9OHrqSud6/0Zkwkg==";
+        };
+        _VoQlL7d4 = {
+            "id" = "VoQlL7d4";
+            "file" = "uncraftablenomore-neoforge-26.3-1.0.7.jar";
+            "hash" = "sha512-uPxgDhoS5ISGe3KvQv0DFitsMylNsjJAJ1MqITvxga0K6IEehF5tR16qIlyck2e3UofOFZACbJbi4oo/s8H+uA==";
+        };
+        _HY8AZi1j = {
+            "id" = "HY8AZi1j";
+            "file" = "uncraftablenomore-fabric-26.3-1.0.7.jar";
+            "hash" = "sha512-U28zvpbgWo+BSzblBhzngV8urowv+OicbJ1IYdLhRXRBlVja57fm0tP5p3wL1FtqWaT9+SzsLA4wufYBrlZlzg==";
+        };
+        _gy6rVflx = {
+            "id" = "gy6rVflx";
+            "file" = "uncraftablenomore-forge-26.1.2-1.0.8.jar";
+            "hash" = "sha512-hfONKInYuE/dhXswTbH39t1Xz5jLQYxd6+U2a1HL96+d16DJCJCpng6zUcn/n3FWiU3m02NhXcUgPPi5npZAEQ==";
+        };
+        _3dMj34oh = {
+            "id" = "3dMj34oh";
+            "file" = "uncraftablenomore-forge-26.2-1.0.8.jar";
+            "hash" = "sha512-55iIWdlmNelmm3CR7kiRF6Ppn0ZJb1UyyuoV+c2POAQNsFfDvN/83310mVg6b7Uy+OGEGnb6ZVfJs2r5pJgjMw==";
+        };
+        _8ZXUYHk1 = {
+            "id" = "8ZXUYHk1";
+            "file" = "uncraftablenomore-neoforge-26.1.2-1.0.8.jar";
+            "hash" = "sha512-7rMw48XWt6EC8AuFXtgnFKNpU9IdF0y9hovTNqYLti7fqKjpf3o3HdNPzoIY4FTVPlVmiU//Gn6+mGl4N21+Yw==";
+        };
+        _GDMdCy0h = {
+            "id" = "GDMdCy0h";
+            "file" = "uncraftablenomore-neoforge-26.2-1.0.8.jar";
+            "hash" = "sha512-ynLbIlZZGreG9wMabzerUyZO/G//kGe7I7xYkiGrJ7FbzErOSfmJI8e89T2gJJLGcT39xeAE9eSu6uaa7qKJwg==";
+        };
+        _6xtuAn0y = {
+            "id" = "6xtuAn0y";
+            "file" = "uncraftablenomore-fabric-26.1.2-1.0.8.jar";
+            "hash" = "sha512-MLGiS/IfAluM+6SjUHfUDgkTmGOcR8VdZRxS6zltp7cTqQn2TW2nNUbbK5wBKwsWW6dRS8OuTdR6Bh2y7a6Bhw==";
+        };
+        _5FDHGN7G = {
+            "id" = "5FDHGN7G";
+            "file" = "uncraftablenomore-fabric-26.2-1.0.8.jar";
+            "hash" = "sha512-k5QH+oNp/EZvA55zMkNRHfI3P7eJ1UOoRrVJBDkkbpby+NDvbhksDxoylZDcrO5/FANHEoYVjmuCOA71P3qEEg==";
+        };
     in {
         "rQO7lkHj" = _rQO7lkHj;
         "NjccOA87" = _NjccOA87;
@@ -182,17 +227,29 @@ let
         "xGLhtwxO" = _xGLhtwxO;
         "tOFwVykR" = _tOFwVykR;
         "l4krcHZv" = _l4krcHZv;
+        "Ki3ID3De" = _Ki3ID3De;
+        "VoQlL7d4" = _VoQlL7d4;
+        "HY8AZi1j" = _HY8AZi1j;
+        "gy6rVflx" = _gy6rVflx;
+        "3dMj34oh" = _3dMj34oh;
+        "8ZXUYHk1" = _8ZXUYHk1;
+        "GDMdCy0h" = _GDMdCy0h;
+        "6xtuAn0y" = _6xtuAn0y;
+        "5FDHGN7G" = _5FDHGN7G;
         "forge-1.20.1" = _jKtNA77C;
         "forge-1.21.1" = _UcgY9cRK;
-        "forge-26.1.2" = _rJ6Nsnp5;
-        "forge-26.2" = _oZrYGja2;
+        "forge-26.1.2" = _gy6rVflx;
+        "forge-26.2" = _3dMj34oh;
+        "forge-26.3" = _Ki3ID3De;
         "neoforge-1.21.1" = _ZlZhMKou;
-        "neoforge-26.1.2" = _UdoYj3Uo;
-        "neoforge-26.2" = _DSat9y5X;
+        "neoforge-26.1.2" = _8ZXUYHk1;
+        "neoforge-26.2" = _GDMdCy0h;
+        "neoforge-26.3" = _VoQlL7d4;
         "fabric-1.20.1" = _6iD5USjx;
         "fabric-1.21.1" = _xGLhtwxO;
-        "fabric-26.1.2" = _tOFwVykR;
-        "fabric-26.2" = _l4krcHZv;
+        "fabric-26.1.2" = _6xtuAn0y;
+        "fabric-26.2" = _5FDHGN7G;
+        "fabric-26.3" = _HY8AZi1j;
         "pkg-v1.0.0" = _rQO7lkHj;
         "pkg-v1.0.1" = _NjccOA87;
         "pkg-v1.0.2" = _Cn2dhrhn;
@@ -200,8 +257,9 @@ let
         "pkg-v1.0.4" = _783Tp7jt;
         "pkg-v1.0.5" = _ugV1lKA8;
         "pkg-v1.0.6" = _OIeIn4FP;
-        "pkg-v1.0.7" = _l4krcHZv;
-        "default" = _l4krcHZv;
+        "pkg-v1.0.7" = _HY8AZi1j;
+        "pkg-v1.0.8" = _5FDHGN7G;
+        "default" = _5FDHGN7G;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "uncraftable-no-more";

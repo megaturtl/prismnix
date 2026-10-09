@@ -101,6 +101,11 @@ let
             "file" = "mob_explosion_griefing-2.1.1+26.1-26.2.jar";
             "hash" = "sha512-dw/4m2bXssgHXR+pkkBZyKE7xiM1UeFRAroSWfjuurmtrv/9cxhVomRwhw6HRM2j+j8V1kHsDHMvaN+7LdK1Vg==";
         };
+        _jmz3ZO8r = {
+            "id" = "jmz3ZO8r";
+            "file" = "mob_explosion_griefing-2.1.2+26.1-26.3.jar";
+            "hash" = "sha512-mtFzXGKb6At+pSQKnFHejC9wY0b0lfWiJPJJp2UI3EGdwbpO7r6mrjaldoTpVhNvlI+QyEPTYUhptWaWnhnZpQ==";
+        };
     in {
         "opP6vnmJ" = _opP6vnmJ;
         "VH92vo7b" = _VH92vo7b;
@@ -122,6 +127,7 @@ let
         "FgxgRIlb" = _FgxgRIlb;
         "K3Z5JUpF" = _K3Z5JUpF;
         "vaVhmS4L" = _vaVhmS4L;
+        "jmz3ZO8r" = _jmz3ZO8r;
         "fabric-1.19" = _opP6vnmJ;
         "fabric-1.19.1" = _opP6vnmJ;
         "fabric-1.19.2" = _opP6vnmJ;
@@ -155,10 +161,11 @@ let
         "fabric-1.21.9" = _2c2I3O3B;
         "fabric-1.21.10" = _2c2I3O3B;
         "fabric-1.21.11" = _Nke6FVKQ;
-        "fabric-26.1" = _vaVhmS4L;
-        "fabric-26.1.1" = _vaVhmS4L;
-        "fabric-26.1.2" = _vaVhmS4L;
-        "fabric-26.2" = _vaVhmS4L;
+        "fabric-26.1" = _jmz3ZO8r;
+        "fabric-26.1.1" = _jmz3ZO8r;
+        "fabric-26.1.2" = _jmz3ZO8r;
+        "fabric-26.2" = _jmz3ZO8r;
+        "fabric-26.3" = _jmz3ZO8r;
         "quilt-1.20" = _K3Z5JUpF;
         "quilt-1.20.1" = _K3Z5JUpF;
         "quilt-1.20.2" = _K3Z5JUpF;
@@ -178,10 +185,11 @@ let
         "quilt-1.21.9" = _2c2I3O3B;
         "quilt-1.21.10" = _2c2I3O3B;
         "quilt-1.21.11" = _Nke6FVKQ;
-        "quilt-26.1" = _vaVhmS4L;
-        "quilt-26.1.1" = _vaVhmS4L;
-        "quilt-26.1.2" = _vaVhmS4L;
-        "quilt-26.2" = _vaVhmS4L;
+        "quilt-26.1" = _jmz3ZO8r;
+        "quilt-26.1.1" = _jmz3ZO8r;
+        "quilt-26.1.2" = _jmz3ZO8r;
+        "quilt-26.2" = _jmz3ZO8r;
+        "quilt-26.3" = _jmz3ZO8r;
         "pkg-1.0.0" = _nzTPuNXl;
         "pkg-1.1.0" = _O8n8WMAF;
         "pkg-1.1.0+1.20.3-1.20.4" = _pHQVYqBN;
@@ -198,7 +206,8 @@ let
         "pkg-2.1.0+26.1.x" = _FgxgRIlb;
         "pkg-2.1.0+1.20-1.20.2" = _K3Z5JUpF;
         "pkg-2.1.1+26.1-26.2" = _vaVhmS4L;
-        "default" = _vaVhmS4L;
+        "pkg-2.1.2+26.1-26.3" = _jmz3ZO8r;
+        "default" = _jmz3ZO8r;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mobexplosiongriefinggamerule";

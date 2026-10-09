@@ -166,6 +166,26 @@ let
             "file" = "er-1.1.11-forge-1.20.1.jar";
             "hash" = "sha512-IElaZ+tDCbqFTTcPRzuyY/N/4Ih8tLayG44UYdV3ZepZxwXfTcL0bSQQm0JZUGZytjQbpNjHwM01IkVgHjz1nA==";
         };
+        _TTaRqIQP = {
+            "id" = "TTaRqIQP";
+            "file" = "er-1.2.0-neoforge-1.21.1.jar";
+            "hash" = "sha512-lxRbHHnjQQjlZyn8c5swvoOu+/spIOcKXwtar+ivAiFFmRrLbGHP3/QPke61P3IY9I/iySOusiJ5v62b9uD2ew==";
+        };
+        _LESk0VIy = {
+            "id" = "LESk0VIy";
+            "file" = "er-1.2.0-forge-1.20.1.jar";
+            "hash" = "sha512-esjwCpEI/1MfPutiEbwJO6m30lUfohtg0ZuE1NQaCO5grQSo6a56SDJCJBqmg4ZFw/HguPFw4oJnWgRduXOjsQ==";
+        };
+        _gXvwaVmj = {
+            "id" = "gXvwaVmj";
+            "file" = "er-1.2.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-Xp7ithO5GLg3xSPRfGFOcTWywDpWRnlRurIG633pB0LDO8+VHranHORAj3m2FpuRQZvzdHzYYXjkMhWzwUzb4Q==";
+        };
+        _ZoZ19v1n = {
+            "id" = "ZoZ19v1n";
+            "file" = "er-1.2.1-forge-1.20.1.jar";
+            "hash" = "sha512-8I/17h7xx2CBY9Il4VuUO6No8zB+hr/KEH/JkKMCC1Dm65B9JNuHbqQBt4jJflAtXchhToEbsXqALa09se+msg==";
+        };
     in {
         "66qOAzoV" = _66qOAzoV;
         "VTNGC3bQ" = _VTNGC3bQ;
@@ -200,8 +220,12 @@ let
         "fhFdeguL" = _fhFdeguL;
         "sjb39v1b" = _sjb39v1b;
         "iIiMW2ku" = _iIiMW2ku;
-        "neoforge-1.21.1" = _sjb39v1b;
-        "forge-1.20.1" = _iIiMW2ku;
+        "TTaRqIQP" = _TTaRqIQP;
+        "LESk0VIy" = _LESk0VIy;
+        "gXvwaVmj" = _gXvwaVmj;
+        "ZoZ19v1n" = _ZoZ19v1n;
+        "neoforge-1.21.1" = _gXvwaVmj;
+        "forge-1.20.1" = _ZoZ19v1n;
         "pkg-1.0.17" = _66qOAzoV;
         "pkg-1.0.18" = _VTNGC3bQ;
         "pkg-1.0.19" = _pjcztaLu;
@@ -220,7 +244,9 @@ let
         "pkg-1.1.9" = _v1O9VuHN;
         "pkg-1.1.10" = _fhFdeguL;
         "pkg-1.1.11" = _iIiMW2ku;
-        "default" = _iIiMW2ku;
+        "pkg-1.2.0" = _LESk0VIy;
+        "pkg-1.2.1" = _ZoZ19v1n;
+        "default" = _ZoZ19v1n;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elemental-reaction";

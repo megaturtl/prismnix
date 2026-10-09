@@ -46,6 +46,11 @@ let
             "file" = "libz-1.1.0.jar";
             "hash" = "sha512-Q7560gtOnq4QIEwyIfRTm1dtojm0mU3nXbq7PiQkaNsvXMKYfNTxMLWKqXNAEIxO0iGZ46NVPTW6nci1E1ywyg==";
         };
+        _hPy38OJT = {
+            "id" = "hPy38OJT";
+            "file" = "libz-1.2.0.jar";
+            "hash" = "sha512-VAgK1Y418iQwyy88cGVGa7YQctqldXbSUx0KDQtNdrKz3nQhDDseYYrHRIz7SHto7xNzrunACGguDK2vUBjuUw==";
+        };
     in {
         "HbCwlPRA" = _HbCwlPRA;
         "HOECobmO" = _HOECobmO;
@@ -56,11 +61,12 @@ let
         "wBIAaCvH" = _wBIAaCvH;
         "z4ieRJO8" = _z4ieRJO8;
         "tvtFvW21" = _tvtFvW21;
+        "hPy38OJT" = _hPy38OJT;
         "fabric-1.19.2" = _HbCwlPRA;
         "fabric-1.20" = _AMqL6VaC;
         "fabric-1.20.1" = _BEPAjfEE;
         "fabric-1.21" = _wBIAaCvH;
-        "fabric-1.21.1" = _tvtFvW21;
+        "fabric-1.21.1" = _hPy38OJT;
         "pkg-1.0.0" = _HbCwlPRA;
         "pkg-1.0.0+1.20" = _HOECobmO;
         "pkg-1.0.1+1.20" = _AMqL6VaC;
@@ -70,7 +76,8 @@ let
         "pkg-1.0.3+1.21" = _wBIAaCvH;
         "pkg-1.0.3+1.21.1" = _z4ieRJO8;
         "pkg-1.1.0+1.21.1" = _tvtFvW21;
-        "default" = _tvtFvW21;
+        "pkg-1.2.0+1.21.1" = _hPy38OJT;
+        "default" = _hPy38OJT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "libz";

@@ -76,6 +76,11 @@ let
             "file" = "extravaganza-0.4.0-beta+26.2.jar";
             "hash" = "sha512-evxjciBgJ1nBF7IKHy0qRUXrLmyaDWZ3uhlii/TFuYQIM5dMDxbkzpNSEh880d7ECj9tY+fzcwX8kSUy3fmPUA==";
         };
+        _B57SwbR0 = {
+            "id" = "B57SwbR0";
+            "file" = "extravaganza-0.5.0-beta+26.3.jar";
+            "hash" = "sha512-qRHonA1KryCqMiVSetljbkhhOxkgKCoKjudTByW5Or3bh4SuMxa7xFa2pB/v8Q0tKw89nTB9UZVBPVQTfbX9ZQ==";
+        };
     in {
         "fWKWtl7k" = _fWKWtl7k;
         "OtQRqPHT" = _OtQRqPHT;
@@ -92,12 +97,15 @@ let
         "uXfKCdzg" = _uXfKCdzg;
         "UbLfCVsi" = _UbLfCVsi;
         "Q76zHRsG" = _Q76zHRsG;
+        "B57SwbR0" = _B57SwbR0;
         "fabric-1.21" = _kaKubkJz;
         "fabric-1.21.1" = _UbLfCVsi;
         "fabric-26.2" = _Q76zHRsG;
+        "fabric-26.3" = _B57SwbR0;
         "quilt-1.21" = _kaKubkJz;
         "quilt-1.21.1" = _UbLfCVsi;
         "quilt-26.2" = _Q76zHRsG;
+        "quilt-26.3" = _B57SwbR0;
         "pkg-0.1.0-beta" = _fWKWtl7k;
         "pkg-0.1.1-beta" = _OtQRqPHT;
         "pkg-0.1.2-beta" = _5TFSo945;
@@ -113,7 +121,8 @@ let
         "pkg-0.3.0-beta" = _uXfKCdzg;
         "pkg-0.3.1-beta" = _UbLfCVsi;
         "pkg-0.4.0-beta+26.2" = _Q76zHRsG;
-        "default" = _Q76zHRsG;
+        "pkg-0.5.0-beta+26.3" = _B57SwbR0;
+        "default" = _B57SwbR0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "extravaganza";

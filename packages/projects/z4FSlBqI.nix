@@ -26,18 +26,25 @@ let
             "file" = "emf_compat_supplementaries_1.21.1_1.1.0.jar";
             "hash" = "sha512-yftuyx0s3hq90NHe6HEDQBjFsnEWf3QSdt4J2htpOIi2gMDj3AZDWhopV+uhQqXBlwEGzONNXfo+PtUAueS6VA==";
         };
+        _vHTUJomI = {
+            "id" = "vHTUJomI";
+            "file" = "emf_compat_supplementaries_fabric_1.21.1_1.1.0.jar";
+            "hash" = "sha512-SFK/uA8Ff2Qbb/cQmd8IgDXUxKZn8sSwC9osxP4sGkifRYbCr12Jt8ANmlsrP9s17/kz52PzY9IrifWXQ3T7RQ==";
+        };
     in {
         "ae6ARxTU" = _ae6ARxTU;
         "ar2YDmgC" = _ar2YDmgC;
         "xP7aUiua" = _xP7aUiua;
         "29is9vwA" = _29is9vwA;
         "OugZtbdb" = _OugZtbdb;
+        "vHTUJomI" = _vHTUJomI;
         "forge-1.20.1" = _29is9vwA;
         "neoforge-1.21.1" = _OugZtbdb;
+        "fabric-1.21.1" = _vHTUJomI;
         "pkg-1.0.0" = _ar2YDmgC;
         "pkg-1.0.1" = _xP7aUiua;
-        "pkg-1.1.0" = _OugZtbdb;
-        "default" = _OugZtbdb;
+        "pkg-1.1.0" = _vHTUJomI;
+        "default" = _vHTUJomI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "emf-compat-supplementaries";

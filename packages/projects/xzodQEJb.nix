@@ -451,6 +451,36 @@ let
             "file" = "underground_rooms-2.3.0-1.21.jar";
             "hash" = "sha512-e1flKb+GYnDjpsQUbgxBRWee7seUcP/BIRy8oMc3bxLsJ3JIEnPpMZuqGDbTf1g40yuunUnSY1pLN7js9iZVJA==";
         };
+        _jDMeaYWW = {
+            "id" = "jDMeaYWW";
+            "file" = "underground_rooms-2.3.2.jar";
+            "hash" = "sha512-vn498J8jWOd1F01oUyyRTvHqfck5V7umW+GaI1aEthYg0k3WBUP5RFVvmgGp0P/etnNi01bdmZPfsSc+k9vgTA==";
+        };
+        _KkYqHdDy = {
+            "id" = "KkYqHdDy";
+            "file" = "underground_rooms-2.3.2-1.20.1.jar";
+            "hash" = "sha512-niJQzAB2jPzJChNcIGf2713SsiluGFGKXexpUbq5chmhhxYV2vi/N3RDZAWOojytIjgyCP3ev9i3Vh0eioFGrw==";
+        };
+        _VnK5rWu6 = {
+            "id" = "VnK5rWu6";
+            "file" = "underground_rooms-2.3.2-1.21.jar";
+            "hash" = "sha512-7IfsSbhbmMy8o5lmXDTK6lYOyGeSWRju3jRoeza/ncuB4V4tg0SOQjYmvilDM4Dmc6sWnWG5L53R9uoNf3fLLg==";
+        };
+        _y3cOHRnd = {
+            "id" = "y3cOHRnd";
+            "file" = "underground_rooms-2.3.2-26.1.2.jar";
+            "hash" = "sha512-+wq6/i2+BMUa8tc9Q6fSIJ+gin0PMg2ZZ2gf2NFwr4WlWscvHDvVgdIv1HbJ4Q0z1tFK/GmRYKb/pLdEbqtdEw==";
+        };
+        _ofPcRpmA = {
+            "id" = "ofPcRpmA";
+            "file" = "underground_rooms-2.3.2-neoforge.jar";
+            "hash" = "sha512-TXeEHqoTc4fJ5is03tl7IZrgLHT3Ot48ahBMk9xH8l8GG68UW+YNXjP7UVU3/byqAvcnw/ReBBKgiKA2WRf0fA==";
+        };
+        _3WrX68Te = {
+            "id" = "3WrX68Te";
+            "file" = "underground_rooms-2.3.2-fabric.jar";
+            "hash" = "sha512-cwWMIzt8CpdAN+jGmxWjc1rcGs/XyvvZGZXG7FlgFGBPGo6Fa/Lvqp/KwTJ0KXR1RA5OaaEWOw1DuFQLzUMPgw==";
+        };
     in {
         "p8WVJ2Rg" = _p8WVJ2Rg;
         "TGdKGKoL" = _TGdKGKoL;
@@ -542,16 +572,22 @@ let
         "5jvemAvg" = _5jvemAvg;
         "fJTqc6Gz" = _fJTqc6Gz;
         "ocEJIzfz" = _ocEJIzfz;
-        "forge-1.20.1" = _63EBugn0;
-        "forge-1.20.2" = _FAftPiU3;
-        "forge-1.20.3" = _FAftPiU3;
-        "forge-1.20.4" = _FAftPiU3;
-        "forge-1.20.5" = _FAftPiU3;
-        "forge-1.20.6" = _FAftPiU3;
-        "forge-1.21.1" = _ocEJIzfz;
-        "forge-1.21.2" = _ocEJIzfz;
-        "forge-1.21.3" = _ocEJIzfz;
-        "forge-1.21.4" = _ocEJIzfz;
+        "jDMeaYWW" = _jDMeaYWW;
+        "KkYqHdDy" = _KkYqHdDy;
+        "VnK5rWu6" = _VnK5rWu6;
+        "y3cOHRnd" = _y3cOHRnd;
+        "ofPcRpmA" = _ofPcRpmA;
+        "3WrX68Te" = _3WrX68Te;
+        "forge-1.20.1" = _KkYqHdDy;
+        "forge-1.20.2" = _jDMeaYWW;
+        "forge-1.20.3" = _jDMeaYWW;
+        "forge-1.20.4" = _jDMeaYWW;
+        "forge-1.20.5" = _jDMeaYWW;
+        "forge-1.20.6" = _jDMeaYWW;
+        "forge-1.21.1" = _VnK5rWu6;
+        "forge-1.21.2" = _VnK5rWu6;
+        "forge-1.21.3" = _VnK5rWu6;
+        "forge-1.21.4" = _VnK5rWu6;
         "forge-1.21.5" = _IkttXpBE;
         "forge-1.21.6" = _IkttXpBE;
         "forge-1.21.7" = _IkttXpBE;
@@ -559,13 +595,14 @@ let
         "forge-1.21.9" = _IkttXpBE;
         "forge-1.21.10" = _IkttXpBE;
         "forge-1.20" = _EY5vWmht;
-        "fabric-1.20.1" = _5jvemAvg;
-        "fabric-1.20.2" = _5jvemAvg;
-        "fabric-1.20.3" = _5jvemAvg;
-        "fabric-1.20.4" = _5jvemAvg;
-        "fabric-1.20.5" = _5jvemAvg;
-        "fabric-1.20.6" = _5jvemAvg;
-        "neoforge-1.21.1" = _fJTqc6Gz;
+        "fabric-1.20.1" = _3WrX68Te;
+        "fabric-1.20.2" = _3WrX68Te;
+        "fabric-1.20.3" = _3WrX68Te;
+        "fabric-1.20.4" = _3WrX68Te;
+        "fabric-1.20.5" = _3WrX68Te;
+        "fabric-1.20.6" = _3WrX68Te;
+        "neoforge-1.21.1" = _ofPcRpmA;
+        "neoforge-26.1.2" = _y3cOHRnd;
         "pkg-1.7.3" = _p8WVJ2Rg;
         "pkg-1.8" = _TGdKGKoL;
         "pkg-1.9" = _uW0OSmJF;
@@ -653,7 +690,13 @@ let
         "pkg-fabric-2.3.0" = _5jvemAvg;
         "pkg-2.3.0-neoforge" = _fJTqc6Gz;
         "pkg-2.3.0-1.21" = _ocEJIzfz;
-        "default" = _ocEJIzfz;
+        "pkg-2.3.2" = _jDMeaYWW;
+        "pkg-2.3.2-1.20.1" = _KkYqHdDy;
+        "pkg-2.3.2-1.21" = _VnK5rWu6;
+        "pkg-2.3.2-26.1.2" = _y3cOHRnd;
+        "pkg-2.3.2-neoforge" = _ofPcRpmA;
+        "pkg-fabric-2.3.2" = _3WrX68Te;
+        "default" = _3WrX68Te;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "embers-underground-rooms";

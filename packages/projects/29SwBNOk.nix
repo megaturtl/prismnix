@@ -176,6 +176,26 @@ let
             "file" = "LunaSlimes-1.9.2-Fabric+26.2.jar";
             "hash" = "sha512-ApjffSrczNEF/ML3ayOv3Wlv50LvJUqnLmM2PzZ4D6eGrt/8zYeUrP4dEU2ZHxBcAQNONwRIu5YtAzaDVDil6A==";
         };
+        _s0E3Efwx = {
+            "id" = "s0E3Efwx";
+            "file" = "LunaSlimes-1.10-mc26.2-fabric.jar";
+            "hash" = "sha512-/S53VhntvnpNy4HvrM+Daa0g9av1sZ1yRPGIGbnv0X/ceIOXzBQ2Xgktaqu6YtGkRa+xo22rTjEoBRqQba8o4g==";
+        };
+        _e2AnKuiI = {
+            "id" = "e2AnKuiI";
+            "file" = "LunaSlimes-1.10-mc26.2-neoforge.jar";
+            "hash" = "sha512-um3JjVgyczeAd2psL+RODJbPvjwtHMzKZhTCNES9jNsXtYoRnvpARiLp7InHmGaqMYmQu5vMqO3RlEpO459vyA==";
+        };
+        _wYLQWrfn = {
+            "id" = "wYLQWrfn";
+            "file" = "LunaSlimes-1.10-mc26.3-neoforge.jar";
+            "hash" = "sha512-tJ5/2Tcvzm8JJU+ZPiwQftKallA4lqMWZ0cppVZp3IupeqD/kFIPD/oOq2gmhtaqRr+I3CP+FXcx5pGNv710fA==";
+        };
+        _z3yWfsEY = {
+            "id" = "z3yWfsEY";
+            "file" = "LunaSlimes-1.10-mc26.3-fabric.jar";
+            "hash" = "sha512-dVm3p1JnN+oz8iPlJrW83hG1B5dNfwab11CGn6UZYgFdOf85NdhQlI/r0Ovhn2JJ1vMm65F0Pl1YrGnkmwK6Dg==";
+        };
     in {
         "ku3ZYNzR" = _ku3ZYNzR;
         "jCzLwzhB" = _jCzLwzhB;
@@ -212,6 +232,10 @@ let
         "816Eb0bU" = _816Eb0bU;
         "e2VJfInz" = _e2VJfInz;
         "NBP1eswT" = _NBP1eswT;
+        "s0E3Efwx" = _s0E3Efwx;
+        "e2AnKuiI" = _e2AnKuiI;
+        "wYLQWrfn" = _wYLQWrfn;
+        "z3yWfsEY" = _z3yWfsEY;
         "fabric-1.19.3" = _akFW8bD4;
         "fabric-1.19.2" = _K0foksYu;
         "fabric-1.19.4" = _cRg2YT6e;
@@ -245,7 +269,8 @@ let
         "fabric-26.1" = _e2VJfInz;
         "fabric-26.1.1" = _e2VJfInz;
         "fabric-26.1.2" = _e2VJfInz;
-        "fabric-26.2" = _NBP1eswT;
+        "fabric-26.2" = _s0E3Efwx;
+        "fabric-26.3" = _z3yWfsEY;
         "quilt-1.19.3" = _akFW8bD4;
         "quilt-1.19.2" = _K0foksYu;
         "quilt-1.19.4" = _cRg2YT6e;
@@ -279,6 +304,8 @@ let
         "quilt-26.1.1" = _e2VJfInz;
         "quilt-26.1.2" = _e2VJfInz;
         "quilt-26.2" = _NBP1eswT;
+        "neoforge-26.2" = _e2AnKuiI;
+        "neoforge-26.3" = _wYLQWrfn;
         "pkg-1" = _ku3ZYNzR;
         "pkg-1-1.19.2" = _jCzLwzhB;
         "pkg-1.1-1.19.2" = _t3bpFoTM;
@@ -314,7 +341,11 @@ let
         "pkg-1.9-mc26.1" = _816Eb0bU;
         "pkg-1.9.1-mc26.1" = _e2VJfInz;
         "pkg-1.9.2-mc26.2" = _NBP1eswT;
-        "default" = _NBP1eswT;
+        "pkg-1.10-mc26.2-fabric" = _s0E3Efwx;
+        "pkg-1.10-mc26.2-neoforge" = _e2AnKuiI;
+        "pkg-1.10-mc26.3-neoforge" = _wYLQWrfn;
+        "pkg-1.10-mc26.3-fabric" = _z3yWfsEY;
+        "default" = _z3yWfsEY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "luna-slimes";

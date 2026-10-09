@@ -21,20 +21,27 @@ let
             "file" = "Cat-Ears Armor 26.1.2.zip";
             "hash" = "sha512-sowIu/rM3EYqgmPTWhAU9sPUBcq4HFDG30jf+isqf9sDKBjXrnGXLOJVPAeXXoXNS6YDs3I3yCLmVyVukBC5HA==";
         };
+        _1ZqVH7sS = {
+            "id" = "1ZqVH7sS";
+            "file" = "Cat-Ears Armor.zip";
+            "hash" = "sha512-AhT/zmGw37UWw/F+M+nbOCYkDevx9jyYmJ0e+rTa4PFJV3F8y6FK0ht8GGGIprttmnioxsCvFqRrcOAzETBI9Q==";
+        };
     in {
         "uZIbue23" = _uZIbue23;
         "a78fGfJO" = _a78fGfJO;
         "EwCliyUc" = _EwCliyUc;
         "sLSPFHcf" = _sLSPFHcf;
+        "1ZqVH7sS" = _1ZqVH7sS;
         "minecraft-1.21.5" = _uZIbue23;
         "minecraft-1.21.10" = _EwCliyUc;
         "minecraft-1.21.9" = _EwCliyUc;
         "minecraft-1.21.11" = _EwCliyUc;
         "minecraft-26.1.1" = _sLSPFHcf;
         "minecraft-26.1.2" = _sLSPFHcf;
-        "pkg-1.0" = _sLSPFHcf;
+        "minecraft-26.3" = _1ZqVH7sS;
+        "pkg-1.0" = _1ZqVH7sS;
         "pkg-OLD-1.0" = _a78fGfJO;
-        "default" = _sLSPFHcf;
+        "default" = _1ZqVH7sS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stans-cat-helmets";

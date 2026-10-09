@@ -31,6 +31,16 @@ let
             "file" = "underwater_village-1.0.0 Neoforge 26.1.2.jar";
             "hash" = "sha512-jI246Myr2TTW/yk+N6qLSR6QEAv92hcqUjNBWlk9DIeGMO5JcjGnoqYQNSAUWuc1YiTo0LWwq3199k1YXWzS+A==";
         };
+        _VuuTqAIF = {
+            "id" = "VuuTqAIF";
+            "file" = "underwater_village-1.0.0 Fabric 26.3.jar";
+            "hash" = "sha512-qWXvesBpFaIEtYtgAJ6WqQ6ob5tORmNsXV8Yx66io1IZqvYbjStxXDyKiyrx/hAA5mf1RBrBhzRKLQqqBDuc5w==";
+        };
+        _oQxLwuFJ = {
+            "id" = "oQxLwuFJ";
+            "file" = "underwater_village-1.0.0 Neoforge 26.3.jar";
+            "hash" = "sha512-cL7prqF9zUOosh1pTrUIGNzSUAiIZ+Q9Zmf4rVMwH4WtDmvG8VWOA0sp0NIx58blIeWWc6gLyyemkrSI9Ou7fg==";
+        };
     in {
         "Ja3g37bT" = _Ja3g37bT;
         "ZCmcmtOR" = _ZCmcmtOR;
@@ -38,17 +48,21 @@ let
         "Bs46nTht" = _Bs46nTht;
         "9pHe1ZVF" = _9pHe1ZVF;
         "72Xe49gm" = _72Xe49gm;
+        "VuuTqAIF" = _VuuTqAIF;
+        "oQxLwuFJ" = _oQxLwuFJ;
         "forge-1.20.1" = _Ja3g37bT;
         "neoforge-1.21.1" = _ZCmcmtOR;
         "neoforge-1.21.4" = _Ltv1xbQ0;
         "neoforge-26.1" = _9pHe1ZVF;
         "neoforge-26.1.2" = _72Xe49gm;
+        "neoforge-26.3" = _oQxLwuFJ;
         "fabric-26.1" = _Bs46nTht;
         "fabric-26.1.1" = _Bs46nTht;
         "fabric-26.1.2" = _Bs46nTht;
+        "fabric-26.3" = _VuuTqAIF;
         "pkg-1.0.2" = _Ltv1xbQ0;
-        "pkg-1.0.0" = _72Xe49gm;
-        "default" = _72Xe49gm;
+        "pkg-1.0.0" = _oQxLwuFJ;
+        "default" = _oQxLwuFJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "underwater-village";

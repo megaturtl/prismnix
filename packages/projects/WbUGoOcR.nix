@@ -311,6 +311,16 @@ let
             "file" = "youtubers-1.6.0-neoforge-1.21.1.jar";
             "hash" = "sha512-PQRDJKHP7AacNkAvA9mRU5UeypzjAkdiZ8NLeDWQR0rwRVKYo5B+7WX4B4rUrHzosjGdwLM9DPfgIZPCKitMBA==";
         };
+        _P0kawbw9 = {
+            "id" = "P0kawbw9";
+            "file" = "youtubers-1.6.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-YbFP41IeZjYDuUN5EoUz3O9zFi6jL+UKL+lq1IWG7fk1Bae+xRwFIpOZS29Wbn4+1zcDj5vGvdlI/fsUjKfKDg==";
+        };
+        _Dy6LSnZk = {
+            "id" = "Dy6LSnZk";
+            "file" = "youtubers-1.6.2-neoforge-1.21.1.jar";
+            "hash" = "sha512-4Gnp0+HwF6BhuvQrVTHlXlvGwt0kwgyLf2hm4xhOlU2XFNkhV+YCMWS3RVU0OS2OBdRUAx5IyW6+riS2SyXWzg==";
+        };
     in {
         "1gvSmSzS" = _1gvSmSzS;
         "M4wVU8kn" = _M4wVU8kn;
@@ -374,12 +384,14 @@ let
         "7wUTuUNu" = _7wUTuUNu;
         "6QVthcF0" = _6QVthcF0;
         "WxQtfxU7" = _WxQtfxU7;
+        "P0kawbw9" = _P0kawbw9;
+        "Dy6LSnZk" = _Dy6LSnZk;
         "neoforge-1.21.4" = _wWkCxZQw;
         "neoforge-1.21.5" = _wWkCxZQw;
         "neoforge-1.21.6" = _wWkCxZQw;
         "neoforge-1.21.7" = _wWkCxZQw;
         "neoforge-1.21.8" = _wWkCxZQw;
-        "neoforge-1.21.1" = _WxQtfxU7;
+        "neoforge-1.21.1" = _Dy6LSnZk;
         "neoforge-1.21.2" = _wWkCxZQw;
         "neoforge-1.21.3" = _wWkCxZQw;
         "neoforge-1.21.9" = _wWkCxZQw;
@@ -440,7 +452,9 @@ let
         "pkg-1.5.8" = _7wUTuUNu;
         "pkg-1.5.9" = _6QVthcF0;
         "pkg-1.6.0" = _WxQtfxU7;
-        "default" = _WxQtfxU7;
+        "pkg-1.6.1" = _P0kawbw9;
+        "pkg-1.6.2" = _Dy6LSnZk;
+        "default" = _Dy6LSnZk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "knarfy,-system-zee,-and-fundy";

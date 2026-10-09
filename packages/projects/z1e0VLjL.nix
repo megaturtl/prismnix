@@ -386,6 +386,121 @@ let
             "file" = "ZombiesBreak&Build-fabric-26.2-1.6.3.jar";
             "hash" = "sha512-t3EOlbD/LTO9Jsy28vAZuM78K2QxLyW43qIXFlI7YeYedPW15GsJRtY5qwgRJzHBIqFPSwpB5gkN4dPqN2ujzA==";
         };
+        _QHBqoQTd = {
+            "id" = "QHBqoQTd";
+            "file" = "ZombiesBreak&Build-forge-1.20.1-1.7.0.jar";
+            "hash" = "sha512-MLlw+Jli3JAdq+iCGs79umjZSD1xDUN2nbB/s4R+XzMbKxvSOWvxmX1E/VlQIdAzU/0Aio23OeTMYpua2aHY+g==";
+        };
+        _LBrptZS1 = {
+            "id" = "LBrptZS1";
+            "file" = "ZombiesBreak&Build-fabric-1.20.1-1.7.0.jar";
+            "hash" = "sha512-cULQKJpyPnSEUCf0PHcDM5CPdHeZY6gaGjHut8jEpEszN+jB5i4x3cx+n3fcHXy4CAyZxs4RbQxWX8drrfRFPw==";
+        };
+        _X39XAqhR = {
+            "id" = "X39XAqhR";
+            "file" = "ZombiesBreak&Build-forge-1.21.1-1.7.0.jar";
+            "hash" = "sha512-emNWN8h6zWKkZKyjlwWWyo3eXEd8kTYhICbsrxm+BJfmQ0RFfQnVjtMmZhvZ+cFUEhg9xyxJeB9aFf7cTOustQ==";
+        };
+        _DswbY0PI = {
+            "id" = "DswbY0PI";
+            "file" = "ZombiesBreak&Build-fabric-1.21.1-1.7.0.jar";
+            "hash" = "sha512-H4odmtVI7FRmOewr1P1Nes+w/vjjVazuCsOggtrDr0v0ACxvV2aECE9/K/wNLdOWQl/BEoEZ6yCPl/QLSay01w==";
+        };
+        _OyzwivCD = {
+            "id" = "OyzwivCD";
+            "file" = "ZombiesBreak&Build-neoforge-1.21.1-1.7.0.jar";
+            "hash" = "sha512-2U8lKs8j/bQ1vPMSr+xBlk4oFoudnhHGWtMr+8p8L0Ch0DNGrZeRujEqkfxs+1wwEaghkGbkdnkmeoLD6Ek46g==";
+        };
+        _hd9Qg7v1 = {
+            "id" = "hd9Qg7v1";
+            "file" = "ZombiesBreak&Build-forge-1.21.11-1.7.0.jar";
+            "hash" = "sha512-dufxhd1/2rLBvEP4Peddh/rAlNwZ0t7P9aqXulsZuR9YamCZGgHB6iRz6a6uvuLcRxpLSDyHKKfTU4ajDvks1A==";
+        };
+        _R6WJx4eu = {
+            "id" = "R6WJx4eu";
+            "file" = "ZombiesBreak&Build-fabric-1.21.11-1.7.0.jar";
+            "hash" = "sha512-xxbzVaMCZU6dDl9hIz0Fs90DRzp04EQqpw7tPCCvV4ghktbmRA/cCb5SUvrl+Y+G+uAHAHHamLgjXPxQzlhxGQ==";
+        };
+        _VM02kUzJ = {
+            "id" = "VM02kUzJ";
+            "file" = "ZombiesBreak&Build-neoforge-1.21.11-1.7.0.jar";
+            "hash" = "sha512-LAr6JZj+9FssmhGqhPCFyAdxJI6QHP5j2fSGRCVJaQl3d4tlO+BJVJePUCNhLRY4d1J7JdHcBl/qLyzxw9KHPQ==";
+        };
+        _xBHER2Ht = {
+            "id" = "xBHER2Ht";
+            "file" = "ZombiesBreak&Build-forge-26.1-1.7.0.jar";
+            "hash" = "sha512-g6sIA9niMacxNq1wnlE8KZXinkIp4Vmva3SMCV2USFfSJvzrKqhSEXFVcZk1bh6xXqgHbrm+RGZqykird7/Mdw==";
+        };
+        _nNv15W27 = {
+            "id" = "nNv15W27";
+            "file" = "ZombiesBreak&Build-fabric-26.1-1.7.0.jar";
+            "hash" = "sha512-m+8TpQPSAOey9H7OdYmVCmUhJ2isR1hZqeNURZ+4tR5BNvoaEAC6+FKTu4OQNTzg1OVDXCFOrryTRxyDaMomSA==";
+        };
+        _y0a2US18 = {
+            "id" = "y0a2US18";
+            "file" = "ZombiesBreak&Build-neoforge-26.1-1.7.0.jar";
+            "hash" = "sha512-uLYuJcz0CjYXC2cnPxn506Dh/7HUh8m9qu+qYEcB9ilk+WeJC3T/hChYmK3euE4UhaIRgU6d59Jhu0IpaaFuGQ==";
+        };
+        _ChZHNwBQ = {
+            "id" = "ChZHNwBQ";
+            "file" = "ZombiesBreak&Build-forge-26.1.1-1.7.0.jar";
+            "hash" = "sha512-1Shv/hsnrMeVvfLKO6R1wDfblSlBXf0p5oByX0m4SHnTqZGacUGab3cZ5OmOSjnVHFGMwzxvKxhbmin8cvrboQ==";
+        };
+        _dUEBWqB5 = {
+            "id" = "dUEBWqB5";
+            "file" = "ZombiesBreak&Build-fabric-26.1.1-1.7.0.jar";
+            "hash" = "sha512-fGWxa6+v/hAeO5C5H0bwIzWgko9wqKM4NNfqKAZl9qmNwEG487oqS5cNTvVkyukqhIuH2J5cfj5jYgkgvRMkXQ==";
+        };
+        _mNFSmDAu = {
+            "id" = "mNFSmDAu";
+            "file" = "ZombiesBreak&Build-neoforge-26.1.1-1.7.0.jar";
+            "hash" = "sha512-gJdu3CyONuafGg+DAwEwc6ArI5OmrGHesBPhF4SrWdRmo5ytYH0VD2mWyRnGh8IhvIL4GWjKXxxO2xe5MEe6kA==";
+        };
+        _lVNyilpS = {
+            "id" = "lVNyilpS";
+            "file" = "ZombiesBreak&Build-forge-26.1.2-1.7.0.jar";
+            "hash" = "sha512-iJbh6999Ro0/3UbxlgbTb4Dx73ORxgg3vWkPmrRYA+E/TR1OXL6mE78nhWoaokw5HBZyD9m5xgqq2hp9u5XqsQ==";
+        };
+        _3rcLE0QA = {
+            "id" = "3rcLE0QA";
+            "file" = "ZombiesBreak&Build-fabric-26.1.2-1.7.0.jar";
+            "hash" = "sha512-UBJcFRzHbg6guxAdhGe4Y/C+kFmQLe44rA0N35/+uC/yjkCMU+YdDUIg9kqy1Rbt/S6G/fnpmA6V2kvbIbZQTg==";
+        };
+        _Io4oj2Bb = {
+            "id" = "Io4oj2Bb";
+            "file" = "ZombiesBreak&Build-neoforge-26.1.2-1.7.0.jar";
+            "hash" = "sha512-y6xd4hNqSSZJtzPLEAk5EZcMjbcvdXsI2XhLYCD33O/mSgP71454qq3sKoDg09GPmpNXQKRkiewJihAmburTOg==";
+        };
+        _825bWYQf = {
+            "id" = "825bWYQf";
+            "file" = "ZombiesBreak&Build-forge-26.2-1.7.0.jar";
+            "hash" = "sha512-OPvs6i8dzlmhTtR7+S+FsNFlt6HTQ7Qz5j9SUX2jrmoV50povgNgiwISb/u9jUGEWXEkAC17gT0vqTEfY55tPg==";
+        };
+        _a3zUJlVu = {
+            "id" = "a3zUJlVu";
+            "file" = "ZombiesBreak&Build-fabric-26.2-1.7.0.jar";
+            "hash" = "sha512-VkoVj1e0CwoIMSb+edCZCNOo3m6al+cMT2MH75oGCM44ELT7MoMhk6EqXIh1SFCQnVPT7EawgtZpRyS93gKZiA==";
+        };
+        _VOS5qBZp = {
+            "id" = "VOS5qBZp";
+            "file" = "ZombiesBreak&Build-neoforge-26.2-1.7.0.jar";
+            "hash" = "sha512-zDL7PixqfY1EaZ5wHMbvJ98wFfW8HJGEnQaEFsvoeG5rjnyONYRH9/xjry9Rf9CoBINTXgRLZx42St/ZdW17DQ==";
+        };
+        _tmfGkW8y = {
+            "id" = "tmfGkW8y";
+            "file" = "ZombiesBreak&Build-forge-26.3-1.7.0.jar";
+            "hash" = "sha512-XJKY03vRCrwFNaySFmhdQ3pSA3w4MgkIHSb7VIfe0JdP7+/D+DhZd0RAW+1+tUvdNeIMeU+w8CwxsKB3gB17Uw==";
+        };
+        _9eCq1eqL = {
+            "id" = "9eCq1eqL";
+            "file" = "ZombiesBreak&Build-fabric-26.3-1.7.0.jar";
+            "hash" = "sha512-J2mlsTNbuGbWdVxdgmg1Ms0gmp/B4z7gOGT6XtWaMF6AbYfWdD5beG0qXAX4gLd+hmr4oH6KEssAN6BPDE5PYQ==";
+        };
+        _GcbJS7qN = {
+            "id" = "GcbJS7qN";
+            "file" = "ZombiesBreak&Build-neoforge-26.3-1.7.0.jar";
+            "hash" = "sha512-2H1RlKV1M7DBVsfwKbGLY4SK/7MxCDUDcblwX5cYmKdJzEWC4k1XOmIKLIKcDuxZp9bOwXGjUaIRyOgKUNdF9w==";
+        };
     in {
         "6uDhNTFp" = _6uDhNTFp;
         "KgQnLljm" = _KgQnLljm;
@@ -464,26 +579,52 @@ let
         "HLzTrVnI" = _HLzTrVnI;
         "2mC3AxFK" = _2mC3AxFK;
         "i3ytuOlm" = _i3ytuOlm;
-        "forge-1.20.1" = _AGK0Eqq9;
-        "forge-1.21.1" = _jN0EwQNR;
-        "forge-1.21.11" = _RoaEwDlo;
-        "forge-26.1" = _ksfCRvbh;
-        "forge-26.1.1" = _skdAOOe6;
-        "forge-26.1.2" = _uhUAzaGo;
-        "forge-26.2" = _HLzTrVnI;
-        "fabric-1.20.1" = _rHxXhwaS;
-        "fabric-1.21.1" = _kxjnjXEQ;
-        "fabric-1.21.11" = _fp7V7Lcj;
-        "fabric-26.1" = _u5ojRqiP;
-        "fabric-26.1.1" = _EDX4Tuoh;
-        "fabric-26.1.2" = _xCYodP2I;
-        "fabric-26.2" = _i3ytuOlm;
-        "neoforge-1.21.1" = _ofzozig5;
-        "neoforge-1.21.11" = _FTBby2F4;
-        "neoforge-26.1" = _PxzMCOGs;
-        "neoforge-26.1.1" = _oyxV5avr;
-        "neoforge-26.1.2" = _2MZsfP9X;
-        "neoforge-26.2" = _2mC3AxFK;
+        "QHBqoQTd" = _QHBqoQTd;
+        "LBrptZS1" = _LBrptZS1;
+        "X39XAqhR" = _X39XAqhR;
+        "DswbY0PI" = _DswbY0PI;
+        "OyzwivCD" = _OyzwivCD;
+        "hd9Qg7v1" = _hd9Qg7v1;
+        "R6WJx4eu" = _R6WJx4eu;
+        "VM02kUzJ" = _VM02kUzJ;
+        "xBHER2Ht" = _xBHER2Ht;
+        "nNv15W27" = _nNv15W27;
+        "y0a2US18" = _y0a2US18;
+        "ChZHNwBQ" = _ChZHNwBQ;
+        "dUEBWqB5" = _dUEBWqB5;
+        "mNFSmDAu" = _mNFSmDAu;
+        "lVNyilpS" = _lVNyilpS;
+        "3rcLE0QA" = _3rcLE0QA;
+        "Io4oj2Bb" = _Io4oj2Bb;
+        "825bWYQf" = _825bWYQf;
+        "a3zUJlVu" = _a3zUJlVu;
+        "VOS5qBZp" = _VOS5qBZp;
+        "tmfGkW8y" = _tmfGkW8y;
+        "9eCq1eqL" = _9eCq1eqL;
+        "GcbJS7qN" = _GcbJS7qN;
+        "forge-1.20.1" = _QHBqoQTd;
+        "forge-1.21.1" = _X39XAqhR;
+        "forge-1.21.11" = _hd9Qg7v1;
+        "forge-26.1" = _xBHER2Ht;
+        "forge-26.1.1" = _ChZHNwBQ;
+        "forge-26.1.2" = _lVNyilpS;
+        "forge-26.2" = _825bWYQf;
+        "forge-26.3" = _tmfGkW8y;
+        "fabric-1.20.1" = _LBrptZS1;
+        "fabric-1.21.1" = _DswbY0PI;
+        "fabric-1.21.11" = _R6WJx4eu;
+        "fabric-26.1" = _nNv15W27;
+        "fabric-26.1.1" = _dUEBWqB5;
+        "fabric-26.1.2" = _3rcLE0QA;
+        "fabric-26.2" = _a3zUJlVu;
+        "fabric-26.3" = _9eCq1eqL;
+        "neoforge-1.21.1" = _OyzwivCD;
+        "neoforge-1.21.11" = _VM02kUzJ;
+        "neoforge-26.1" = _y0a2US18;
+        "neoforge-26.1.1" = _mNFSmDAu;
+        "neoforge-26.1.2" = _Io4oj2Bb;
+        "neoforge-26.2" = _VOS5qBZp;
+        "neoforge-26.3" = _GcbJS7qN;
         "pkg-1.20.1-1.4.0-forge" = _6uDhNTFp;
         "pkg-1.20.1-1.4.0-fabric" = _KgQnLljm;
         "pkg-1.21.1-1.4.0-forge" = _UryGQH9S;
@@ -561,7 +702,30 @@ let
         "pkg-26.2-1.6.3-forge" = _HLzTrVnI;
         "pkg-26.2-1.6.3-neoforge" = _2mC3AxFK;
         "pkg-26.2-1.6.3-fabric" = _i3ytuOlm;
-        "default" = _i3ytuOlm;
+        "pkg-1.20.1-1.7.0-forge" = _QHBqoQTd;
+        "pkg-1.20.1-1.7.0-fabric" = _LBrptZS1;
+        "pkg-1.21.1-1.7.0-forge" = _X39XAqhR;
+        "pkg-1.21.1-1.7.0-fabric" = _DswbY0PI;
+        "pkg-1.21.1-1.7.0-neoforge" = _OyzwivCD;
+        "pkg-1.21.11-1.7.0-forge" = _hd9Qg7v1;
+        "pkg-1.21.11-1.7.0-fabric" = _R6WJx4eu;
+        "pkg-1.21.11-1.7.0-neoforge" = _VM02kUzJ;
+        "pkg-26.1-1.7.0-forge" = _xBHER2Ht;
+        "pkg-26.1-1.7.0-fabric" = _nNv15W27;
+        "pkg-26.1-1.7.0-neoforge" = _y0a2US18;
+        "pkg-26.1.1-1.7.0-forge" = _ChZHNwBQ;
+        "pkg-26.1.1-1.7.0-fabric" = _dUEBWqB5;
+        "pkg-26.1.1-1.7.0-neoforge" = _mNFSmDAu;
+        "pkg-26.1.2-1.7.0-forge" = _lVNyilpS;
+        "pkg-26.1.2-1.7.0-fabric" = _3rcLE0QA;
+        "pkg-26.1.2-1.7.0-neoforge" = _Io4oj2Bb;
+        "pkg-26.2-1.7.0-forge" = _825bWYQf;
+        "pkg-26.2-1.7.0-fabric" = _a3zUJlVu;
+        "pkg-26.2-1.7.0-neoforge" = _VOS5qBZp;
+        "pkg-26.3-1.7.0-forge" = _tmfGkW8y;
+        "pkg-26.3-1.7.0-fabric" = _9eCq1eqL;
+        "pkg-26.3-1.7.0-neoforge" = _GcbJS7qN;
+        "default" = _GcbJS7qN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zombies-break-and-build";

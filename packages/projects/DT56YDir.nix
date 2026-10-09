@@ -571,6 +571,26 @@ let
             "file" = "UniversalEnchants-v21.1.8-mc1.21.1-Fabric.jar";
             "hash" = "sha512-KQIjEiIMwQsmQ6r3G187shVg23uwEaCqtzQRDlUgXB3WmsaDLhrU9we9/jWeFw7yV2j23YDXVb58/m0wm6286g==";
         };
+        _CInnnv70 = {
+            "id" = "CInnnv70";
+            "file" = "universalenchants-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-G9mNeCtq+UI4nGGFAfnPmGvX4ljPAdwdjR+wTZzt2hiGeLZ0ItX/B3Ah06L63lHj+JrGA1/bSTiDr0fODy3lgA==";
+        };
+        _GxYG6sJy = {
+            "id" = "GxYG6sJy";
+            "file" = "universalenchants-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-qYhEuwOYHUgHOTziMXHwatYufewxdaHVwRQ2TlGPjnGNEUMun49A9r16uhDGMyo7FbSvjPFK8EOreDeIRw8cng==";
+        };
+        _Amz3PLlk = {
+            "id" = "Amz3PLlk";
+            "file" = "universalenchants-v26.3.1-mc26.3.x+fabric.jar";
+            "hash" = "sha512-ybXkRhpDg9zsY1dFeeivfcLiI31TTNpw/QFImCQ0niIwc+XB9WMVRJt1U62ZwXhUsMf9wEsEE40jpUH+Zv967Q==";
+        };
+        _PbhWSE8o = {
+            "id" = "PbhWSE8o";
+            "file" = "universalenchants-v26.3.1-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-kIco1ggzjKd7q1sruVsaIE3VBJG8bPQqoWva75lBKA4SkzistzbR1Oft/ybbxdgrSPSf+BNMMrJ7PoudpBRAAA==";
+        };
     in {
         "Psenknkv" = _Psenknkv;
         "jW5bYxcp" = _jW5bYxcp;
@@ -686,6 +706,10 @@ let
         "NRxE4wRz" = _NRxE4wRz;
         "SgwDfoS4" = _SgwDfoS4;
         "57hrhCaq" = _57hrhCaq;
+        "CInnnv70" = _CInnnv70;
+        "GxYG6sJy" = _GxYG6sJy;
+        "Amz3PLlk" = _Amz3PLlk;
+        "PbhWSE8o" = _PbhWSE8o;
         "forge-1.19.1" = _26Tz7Yq6;
         "forge-1.19.2" = _N4CkR58u;
         "forge-1.19.3" = _X8afYDno;
@@ -714,6 +738,7 @@ let
         "fabric-26.1.1" = _QSHuBExL;
         "fabric-26.1.2" = _QSHuBExL;
         "fabric-26.2" = _XzonZ9kl;
+        "fabric-26.3" = _Amz3PLlk;
         "neoforge-1.21.1" = _SgwDfoS4;
         "neoforge-1.21.3" = _JbsZFdg7;
         "neoforge-1.21.4" = _NJ4eET3Q;
@@ -728,6 +753,7 @@ let
         "neoforge-26.1.1" = _WpamBAy8;
         "neoforge-26.1.2" = _WpamBAy8;
         "neoforge-26.2" = _NRxE4wRz;
+        "neoforge-26.3" = _PbhWSE8o;
         "pkg-v4.0.0-1.19.1-Forge" = _Psenknkv;
         "pkg-v4.0.0-1.19.1-Fabric" = _jW5bYxcp;
         "pkg-v4.1.0-1.19.1-Forge" = _M7siuL8d;
@@ -827,7 +853,9 @@ let
         "pkg-26.1.2" = _QSHuBExL;
         "pkg-26.2.1" = _NRxE4wRz;
         "pkg-21.1.8" = _57hrhCaq;
-        "default" = _57hrhCaq;
+        "pkg-26.3.0" = _GxYG6sJy;
+        "pkg-26.3.1" = _PbhWSE8o;
+        "default" = _PbhWSE8o;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "universal-enchants";

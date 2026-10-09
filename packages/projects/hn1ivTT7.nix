@@ -61,6 +61,11 @@ let
             "file" = "AA4 Structure Markers 1.8.0.zip";
             "hash" = "sha512-251L8bzV/aDtk9FTVNJKSqgndQHt9rLLSkEzXTiStvWuMpvnX1U7Ly3CjoD78hzbNefyk28gc3ZZUAxLPJkfow==";
         };
+        _2AzZ0r56 = {
+            "id" = "2AzZ0r56";
+            "file" = "AA4 Structure Markers 1.8.1.zip";
+            "hash" = "sha512-b0+VCkbVtT2WSgi51g2wNn7lfbjzVF10RrKYBrbyub4h4Gx5hb1fITqHaoLVKfHr43Ti2baPx6xL9GOwmdixzQ==";
+        };
     in {
         "UJbd105Y" = _UJbd105Y;
         "cSMgwfia" = _cSMgwfia;
@@ -74,9 +79,10 @@ let
         "ybfHV4XN" = _ybfHV4XN;
         "zdb74Rkt" = _zdb74Rkt;
         "ihQ2TwXG" = _ihQ2TwXG;
-        "minecraft-1.20.1" = _ihQ2TwXG;
-        "minecraft-1.21.1" = _ihQ2TwXG;
-        "minecraft-1.19.2" = _zdb74Rkt;
+        "2AzZ0r56" = _2AzZ0r56;
+        "minecraft-1.20.1" = _2AzZ0r56;
+        "minecraft-1.21.1" = _2AzZ0r56;
+        "minecraft-1.19.2" = _2AzZ0r56;
         "minecraft-1.20" = _ihQ2TwXG;
         "minecraft-23w31a" = _ihQ2TwXG;
         "minecraft-23w32a" = _ihQ2TwXG;
@@ -128,7 +134,8 @@ let
         "pkg-1.7.1" = _ybfHV4XN;
         "pkg-1.7.2" = _zdb74Rkt;
         "pkg-1.8.0" = _ihQ2TwXG;
-        "default" = _ihQ2TwXG;
+        "pkg-1.8.1" = _2AzZ0r56;
+        "default" = _2AzZ0r56;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "aa4-structure-markers";

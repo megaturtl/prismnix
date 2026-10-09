@@ -61,6 +61,21 @@ let
             "file" = "expandedweather2dynamics-neoforge-1.21.1-1.05.2.jar";
             "hash" = "sha512-pkc/2rwud9i4KiZPiePDIKBu51ut0KAjuUA/FuJuXpXjbx22de246ijtnoyaA8fdbjuiq+XBQfvXD/dy703o5w==";
         };
+        _uQgf8UzU = {
+            "id" = "uQgf8UzU";
+            "file" = "expandedweather2dynamics-neoforge-1.21.1-1.06.jar";
+            "hash" = "sha512-2NGusgyXctF5KSynaboTTBrFveEqVdYqtRCus+fo89psCXtsEjOSkBm0YpiCEVDP/7ctl3jxftJ9W50wYfyqFg==";
+        };
+        _gtIJFkBd = {
+            "id" = "gtIJFkBd";
+            "file" = "expandedweather2dynamics-neoforge-1.21.1-1.06.1.jar";
+            "hash" = "sha512-FmbGw8p4WIJx3UtYN9PO1Mxj92mrhZa5I40mDN+dnAjjiObsgu5o/fkTmvNPf6hkJmcW+nM78EMRHYmdwJWYig==";
+        };
+        _azlK5GxO = {
+            "id" = "azlK5GxO";
+            "file" = "expandedweather2dynamics-neoforge-1.21.1-1.06.2.jar";
+            "hash" = "sha512-WC+ex2rOjGNF1S8yLirqVr/Csfya3Hcn6ulDnzIgq5IwIUknDXxg+cr1aWPcFEDjn96rpVpD1JFQU+jIPHWefA==";
+        };
     in {
         "irCbQ1Al" = _irCbQ1Al;
         "nveYQS1Y" = _nveYQS1Y;
@@ -74,7 +89,10 @@ let
         "xHsQCWuv" = _xHsQCWuv;
         "aDvMfhoO" = _aDvMfhoO;
         "Iz9tRyMa" = _Iz9tRyMa;
-        "neoforge-1.21.1" = _Iz9tRyMa;
+        "uQgf8UzU" = _uQgf8UzU;
+        "gtIJFkBd" = _gtIJFkBd;
+        "azlK5GxO" = _azlK5GxO;
+        "neoforge-1.21.1" = _azlK5GxO;
         "forge-1.20.1" = _2X39YkHQ;
         "pkg-1.0.0" = _irCbQ1Al;
         "pkg-1.0.1" = _vLabqfol;
@@ -84,7 +102,10 @@ let
         "pkg-1.05" = _xHsQCWuv;
         "pkg-1.05.1" = _aDvMfhoO;
         "pkg-1.05.2" = _Iz9tRyMa;
-        "default" = _Iz9tRyMa;
+        "pkg-1.06" = _uQgf8UzU;
+        "pkg-1.06.1" = _gtIJFkBd;
+        "pkg-1.06.2" = _azlK5GxO;
+        "default" = _azlK5GxO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "expanded-weather2-dynamics";

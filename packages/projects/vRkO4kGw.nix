@@ -1381,6 +1381,201 @@ let
             "file" = "Saros-Money-Mod-Forge-1.16.5-3.9.jar";
             "hash" = "sha512-ShAFpI3F7YeYVh2S8njYWevTPGXQV6KRQCQAe778VYEsVdwbFzlcIh2WnhyxQ2NzPSws8bWmdq0GngmOa00XNA==";
         };
+        _2CbkPBql = {
+            "id" = "2CbkPBql";
+            "file" = "Saros-Money-Mod-Fabric-26.3-4.4.7.jar";
+            "hash" = "sha512-TFyu4TzGaJEuCfk3Joenz69LSPSQ80J2A8W3yiI/ZoOUix7jzoGAxR78y+5pOBZFPVHVU59uJB7UTILxsIO1uw==";
+        };
+        _otraxaZb = {
+            "id" = "otraxaZb";
+            "file" = "Saros-Money-Mod-NeoForge-26.3-4.4.8.jar";
+            "hash" = "sha512-BECJUs2PAyQZVWNBh17D9ktoE3HMC+V3RLuB5IaBixvT1mcyzz534silgTiFcfGwc2lfnZ2dwxXk5nRSsVdjrw==";
+        };
+        _zLcW37eK = {
+            "id" = "zLcW37eK";
+            "file" = "Saros-Money-Mod-Forge-26.3-4.4.9.jar";
+            "hash" = "sha512-SXQKbfZjXPtBWmUon7yyClhsA4FGV0haKJmDOJElDChoryFhlBvslI7C1mu1hj6L0VbTe9MqJ9rNgqA6AToleg==";
+        };
+        _ReQ12j9W = {
+            "id" = "ReQ12j9W";
+            "file" = "Saros-Money-Mod-Forge-1.16.5-3.9.1.jar";
+            "hash" = "sha512-1WJPj2C3l8bqsIosKK82ZmfyiergYgi2gCz6e2uwclWkmmIRJUs059GKJLRYsXtwbRfTcBTjr6NOezuqWLfmWA==";
+        };
+        _jhXzgLdr = {
+            "id" = "jhXzgLdr";
+            "file" = "Saros-Money-Mod-Forge-1.18.2-3.8.1.jar";
+            "hash" = "sha512-UQCyC+bOmSsvfo0F+ROETR8C3xwkzogJjHxWuqekI/iMeNKNrvzd/tBZfgPax7W1wDTxd67sFZlKvegLueU8uw==";
+        };
+        _RwhbKMUH = {
+            "id" = "RwhbKMUH";
+            "file" = "Saros-Money-Mod-Forge-1.19.2-3.8.1.jar";
+            "hash" = "sha512-gU6VWBEN6eBBfGLi3x13SnOV5OL6elr+PSv1ZNF2SIGt8F2g+sz4W4DSqt1cSoSTynEzJGMlPNHodYj2oq8fFw==";
+        };
+        _aBxX5tQL = {
+            "id" = "aBxX5tQL";
+            "file" = "Saros-Money-Mod-Forge-1.20.1-3.5.9.jar";
+            "hash" = "sha512-tTTn4S7VJ62+0c81oXSiIgdXTeQUc/vQTG/sCXrDA3TOTj0CgWA0z+YBoQ+5ZEYJvlizduMMK9NKNAJ9S0PZCw==";
+        };
+        _61UDCytn = {
+            "id" = "61UDCytn";
+            "file" = "Saros-Money-Mod-Forge-1.20.4-3.8.1.jar";
+            "hash" = "sha512-8J8HU6LVJaK5/Q6k6WamuqC2iFC1rzwtr8MBeSv+nJtn0cCCm5LFjz48pywoV5QE3wwXa6DsOaltrPAqdzvxdg==";
+        };
+        _qtPqb43C = {
+            "id" = "qtPqb43C";
+            "file" = "Saros-Money-Mod-Forge-1.20.6-3.5.7.jar";
+            "hash" = "sha512-vtnLK1OE+tUeG7Bmm6jGclg+i5lls3fSodp0fraLwMIkktO/RCnHI6BHr7T/QnucUnAOoHsyMRJqmcd7XzaodQ==";
+        };
+        _fYSf9M3i = {
+            "id" = "fYSf9M3i";
+            "file" = "Saros-Money-Mod-Forge-1.21.1-3.6.3.jar";
+            "hash" = "sha512-YzLmBIzeBTzHaS6WETGzhDD8ylNp/TZF3lXDualtwg6XKQ6CvOa8TiammzPKST6tdyy8ogM55WuupyMhVMRx5w==";
+        };
+        _Dj0NfDxK = {
+            "id" = "Dj0NfDxK";
+            "file" = "Saros-Money-Mod-Forge-1.21.10-3.10.1.jar";
+            "hash" = "sha512-5l+eHhU8+NcYuu0MNNXxjtADPXQDk3elf/j5YM2eHqO6A1IqpSMo2If8Sao57u2VcmKkJrz5e9w9nKgheYWShg==";
+        };
+        _7D3WMQT6 = {
+            "id" = "7D3WMQT6";
+            "file" = "Saros-Money-Mod-Forge-1.21.11-3.5.4.jar";
+            "hash" = "sha512-3VVatA4DkX/Oda1nM8yfA8MR2wkV0bu5T+Txg/NRdXjh2kpMO/Bo/g//eXCYf5X4bHI0QQDL7Wb1dkuFDERZtA==";
+        };
+        _v7pD6gO5 = {
+            "id" = "v7pD6gO5";
+            "file" = "Saros-Money-Mod-Forge-1.21.3-3.6.1.jar";
+            "hash" = "sha512-+G4VeH3IuHm+SYH3lYrzxyhlr6gSZ/vaWAfn3lp5JbrBYrEKK4U/Vifq44HAUCJemkpgIIfPK63vIBt24ICIwQ==";
+        };
+        _MCqiuVcr = {
+            "id" = "MCqiuVcr";
+            "file" = "Saros-Money-Mod-Forge-1.21.5-3.8.1.jar";
+            "hash" = "sha512-JFz3cChIeKRJNSSTorz1B31r+jzodlhZvtlQFawFnc2EAQxHJcHoJf+Nxuc0m3zNDcBXp8QgVxyImG+K1YhcxQ==";
+        };
+        _d38YwDER = {
+            "id" = "d38YwDER";
+            "file" = "Saros-Money-Mod-Forge-1.21.6-3.6.1.jar";
+            "hash" = "sha512-EUH8HiNIyPXQQ919Jo0TDAFmqNtet7EbzUNohl5TjjYDAbN9D5eQ8qljOuLOYgmgKfvIExQ21VR+92zHwlDiaQ==";
+        };
+        _Qii7VjjN = {
+            "id" = "Qii7VjjN";
+            "file" = "Saros-Money-Mod-Forge-1.21.7-3.6.1.jar";
+            "hash" = "sha512-B9Z3kOExzLm104zYKU3BUMsUkxpl12B6JqBNcf8e5cVgxef84CfNbt55/C2ij8N6bFx61QGlo/OxLYiBSCyjng==";
+        };
+        _yRt0C2ic = {
+            "id" = "yRt0C2ic";
+            "file" = "Saros-Money-Mod-Forge-1.21.8-3.6.1.jar";
+            "hash" = "sha512-OQ6g7+dGgTxSMRqCiwjrlrqQVAYqNO7OzG/e/VNgXlZvWm21A4jg7qA+RRoRKJScWL8pjx5KnzDOATJ+HKYLMA==";
+        };
+        _Q8hDnl13 = {
+            "id" = "Q8hDnl13";
+            "file" = "Saros-Money-Mod-Forge-1.21.9-3.6.1.jar";
+            "hash" = "sha512-te1cNfj4jPhZNdpyDZPo+BGMwcN5Z/xVWTYodiJ9af6+jPLwVXDcuiEGU7/pye/+3vkqXSTLapdo5z8+qqhs5A==";
+        };
+        _7c9mQaMH = {
+            "id" = "7c9mQaMH";
+            "file" = "Saros-Money-Mod-Forge-26.1-3.5.9.jar";
+            "hash" = "sha512-/+kKfbl6eCgY2DNMFpfTXslwS3neUf3EJGj98LJGfzbEAmfxvlmgyh+kW+CUWX6ukp7jKTU2Il5PrLLO27SOAw==";
+        };
+        _6CdLXZBm = {
+            "id" = "6CdLXZBm";
+            "file" = "Saros-Money-Mod-Forge-26.1.1-3.5.9.jar";
+            "hash" = "sha512-A4IL/G1VfjGLrzAPgWj5hNLMv53hFF3CU4B7c+RGwh9PvKvUXCrXIHHl2SAl5MhczFK4bNvyUGdzgMqc5Ov9sw==";
+        };
+        _fBBPvFaF = {
+            "id" = "fBBPvFaF";
+            "file" = "Saros-Money-Mod-Forge-26.1.2-3.5.9.jar";
+            "hash" = "sha512-QeCfuxEaOxDzU2JI7JKsKK4z+xmYtiVdmLj99UKjPjEDUNNttky2y2i26L7SoI62tclTXgl5a0KQnGMHy9/2ow==";
+        };
+        _M5Sg97ZV = {
+            "id" = "M5Sg97ZV";
+            "file" = "Saros-Money-Mod-Forge-26.2-3.5.11.jar";
+            "hash" = "sha512-Jop7HRvdheAh6vmt49atomokOFO9luwSCZ1K8qwlgoT1Eq7d/VUwvGj5Q2Ovl6khzQfCObGEoOxnbcExhIBC/Q==";
+        };
+        _ZnVaN2Ll = {
+            "id" = "ZnVaN2Ll";
+            "file" = "Saros-Money-Mod-Forge-26.3-4.4.10.jar";
+            "hash" = "sha512-9MenMXXGhI6MqpvrNVP558jVi2Br5ojlGTtAC49X1wk80+lIhkpxTQPyG11qwFw4zXs7Lg7bIBmqBKnLPTmEvA==";
+        };
+        _wq9p2WgI = {
+            "id" = "wq9p2WgI";
+            "file" = "Saros-Money-Mod-NeoForge-1.21.1-3.8.6.jar";
+            "hash" = "sha512-lmz9Uovr10diMbPLkC5kCODzHCky9HhrJJNEfVZ2NkOGEV4D2r1y9iVWkX1t48N7f6nhtW9AYQM3kxQc05s1vw==";
+        };
+        _sarOnexQ = {
+            "id" = "sarOnexQ";
+            "file" = "Saros-Money-Mod-NeoForge-26.1-3.6.6.jar";
+            "hash" = "sha512-7B+bUbE3Siu+7Zcr2uIgBRTU5MV3keO6nncGmV7C9zevGAPuUlVsior6fmJC6Ekmv8lbMYEq3bZXqJZnKEYB9w==";
+        };
+        _bjmwpAPP = {
+            "id" = "bjmwpAPP";
+            "file" = "Saros-Money-Mod-NeoForge-26.1.1-3.6.6.jar";
+            "hash" = "sha512-nwmYUFS+xcGnahcYCs8RvgzkuaroHme51V5eq4HD3woHRK3QcBIVJFzlxpRKgUr8LvX9Z2/jWB49kbtOdzWy9g==";
+        };
+        _HdC2nGd6 = {
+            "id" = "HdC2nGd6";
+            "file" = "Saros-Money-Mod-NeoForge-26.1.2-3.6.6.jar";
+            "hash" = "sha512-6or33oQCaSm8reNVsN8U7yKKsvJSrHUjyB1KB+1vkeqWvc/qaLaEuTPAtnvuCOLhFLUig80hSYPnJiMWZxTyHQ==";
+        };
+        _rhgpnjFu = {
+            "id" = "rhgpnjFu";
+            "file" = "Saros-Money-Mod-NeoForge-26.2-3.8.7.jar";
+            "hash" = "sha512-CYA3AN0Dr7mbqhkADKCEpPeBWWMngHN8PPtpuiTAoKMyzx1S8x+k45Zgz1wSWmjYvnslJDPxh/jmWyTfIoyg+Q==";
+        };
+        _mnWjWOXv = {
+            "id" = "mnWjWOXv";
+            "file" = "Saros-Money-Mod-NeoForge-26.3-4.4.9.jar";
+            "hash" = "sha512-SvEdOmN6DVm050pwKv+B5Ond8D2/5oHFvaO1OplJq8J4C/AEVbVXl+dh6/XDv8shqSTf2lrlxSwFWP+DbwZZ3w==";
+        };
+        _sSDU9Yya = {
+            "id" = "sSDU9Yya";
+            "file" = "Saros-Money-Mod-Fabric-1.20.1-3.8.1.jar";
+            "hash" = "sha512-qGLnfAtACfA+o5aIR5hbH/UGeX4dzuvTEIN3VeU06vp/8cRyKEqVEh5s4qAf8nHhLyPfcQM0CbQIsIrAoZnbyg==";
+        };
+        _7jXC7xU9 = {
+            "id" = "7jXC7xU9";
+            "file" = "Saros-Money-Mod-Fabric-1.20.4-3.8.1.jar";
+            "hash" = "sha512-RjM63HOJOhGjo1Le5H2ag/nc2GnIF9K2cuIFppyQ9+4hMko8Moxoy3o0CBE5AohIrBqafJk7vENVIBiGBFdP+g==";
+        };
+        _Sk6i43OQ = {
+            "id" = "Sk6i43OQ";
+            "file" = "Saros-Money-Mod-Fabric-1.21.1-4.1.6.jar";
+            "hash" = "sha512-AguL5vdZFCe0yVq4OQ0x4YsBbZeiLGVtxtrx4rkuOYcP8acuqhI9rJJAnldJB+aVr+z2V8w/z3ec1AdPBW49Kg==";
+        };
+        _CZi2Faw7 = {
+            "id" = "CZi2Faw7";
+            "file" = "Saros-Money-Mod-Fabric-1.21.10-3.8.6.jar";
+            "hash" = "sha512-8TmtILDanXx1FcFF+4BOL7jxX5p6zJj2N82+oaWe2nrdwj6Ul1xw1B6DGDL0ngbH5n+SfP81IkC6Wu2UXe/3Pw==";
+        };
+        _8kYr8wna = {
+            "id" = "8kYr8wna";
+            "file" = "Saros-Money-Mod-Fabric-1.21.11-3.12.10.jar";
+            "hash" = "sha512-YFcMc5w6LpPm+604nnO0w8OXu1uEUCG7RrrzbVMEChFQVWqYkl5vljV8f4YUYazopovtgmHDNniKy27cMIzRmA==";
+        };
+        _SuCQQPqD = {
+            "id" = "SuCQQPqD";
+            "file" = "Saros-Money-Mod-Fabric-26.1-4.7.1.jar";
+            "hash" = "sha512-dE0SpYElH0ElrgRQRbLVNz5iKKcupJwKqMsIUxwufeeRA8PgjVON8ZyUS+ciTqMt2GD1NKkfkbIJQbrMqutxsA==";
+        };
+        _1zxPzKCb = {
+            "id" = "1zxPzKCb";
+            "file" = "Saros-Money-Mod-Fabric-26.1.1-4.1.6.jar";
+            "hash" = "sha512-2FCeZ8xHUnLHOkzj6EaH/a9hluvP+hFSMsDxVX/84iSFyBdQf44Bwt5OvHNLW02jLJANLl7IgS6bK7Ax6PWjBQ==";
+        };
+        _ImhGBcpm = {
+            "id" = "ImhGBcpm";
+            "file" = "Saros-Money-Mod-Fabric-26.1.2-4.4.1.jar";
+            "hash" = "sha512-W89BX1dAAYwIdLFJ04nWXUnBbMwEms8Exvl+U4kK8VBJ0Y1ncv0XAfApu/PdGBGLv48pLihv8Kmn8HyBPFNQkw==";
+        };
+        _8vrq6NpO = {
+            "id" = "8vrq6NpO";
+            "file" = "Saros-Money-Mod-Fabric-26.2-4.4.7.jar";
+            "hash" = "sha512-RuEaGQpICM+m7txJ4S0k3jrNmY67658AvfmayeQAy5Pp0EFRprWevyERC58DWtn/xiSQMM+HoyiDnh/rYChnMw==";
+        };
+        _yuimXaCt = {
+            "id" = "yuimXaCt";
+            "file" = "Saros-Money-Mod-Fabric-26.3-4.4.8.jar";
+            "hash" = "sha512-fDBY3JPJti63KSFKaIiOzGhQb0hqYFSLQj7WwB31fWVeoOGQpip6YTjs7Gsvc+agbAP1USpkXDoXNj6+936iSg==";
+        };
     in {
         "NyoxzR7E" = _NyoxzR7E;
         "7XWyr56E" = _7XWyr56E;
@@ -1658,48 +1853,90 @@ let
         "azGBTL7s" = _azGBTL7s;
         "Xjpq4SXN" = _Xjpq4SXN;
         "soex6nsM" = _soex6nsM;
+        "2CbkPBql" = _2CbkPBql;
+        "otraxaZb" = _otraxaZb;
+        "zLcW37eK" = _zLcW37eK;
+        "ReQ12j9W" = _ReQ12j9W;
+        "jhXzgLdr" = _jhXzgLdr;
+        "RwhbKMUH" = _RwhbKMUH;
+        "aBxX5tQL" = _aBxX5tQL;
+        "61UDCytn" = _61UDCytn;
+        "qtPqb43C" = _qtPqb43C;
+        "fYSf9M3i" = _fYSf9M3i;
+        "Dj0NfDxK" = _Dj0NfDxK;
+        "7D3WMQT6" = _7D3WMQT6;
+        "v7pD6gO5" = _v7pD6gO5;
+        "MCqiuVcr" = _MCqiuVcr;
+        "d38YwDER" = _d38YwDER;
+        "Qii7VjjN" = _Qii7VjjN;
+        "yRt0C2ic" = _yRt0C2ic;
+        "Q8hDnl13" = _Q8hDnl13;
+        "7c9mQaMH" = _7c9mQaMH;
+        "6CdLXZBm" = _6CdLXZBm;
+        "fBBPvFaF" = _fBBPvFaF;
+        "M5Sg97ZV" = _M5Sg97ZV;
+        "ZnVaN2Ll" = _ZnVaN2Ll;
+        "wq9p2WgI" = _wq9p2WgI;
+        "sarOnexQ" = _sarOnexQ;
+        "bjmwpAPP" = _bjmwpAPP;
+        "HdC2nGd6" = _HdC2nGd6;
+        "rhgpnjFu" = _rhgpnjFu;
+        "mnWjWOXv" = _mnWjWOXv;
+        "sSDU9Yya" = _sSDU9Yya;
+        "7jXC7xU9" = _7jXC7xU9;
+        "Sk6i43OQ" = _Sk6i43OQ;
+        "CZi2Faw7" = _CZi2Faw7;
+        "8kYr8wna" = _8kYr8wna;
+        "SuCQQPqD" = _SuCQQPqD;
+        "1zxPzKCb" = _1zxPzKCb;
+        "ImhGBcpm" = _ImhGBcpm;
+        "8vrq6NpO" = _8vrq6NpO;
+        "yuimXaCt" = _yuimXaCt;
         "forge-1.12.2" = _6bjSCCl8;
-        "forge-1.16.5" = _soex6nsM;
-        "forge-1.18.2" = _Xjpq4SXN;
-        "forge-1.19.2" = _azGBTL7s;
+        "forge-1.16.5" = _ReQ12j9W;
+        "forge-1.18.2" = _jhXzgLdr;
+        "forge-1.19.2" = _RwhbKMUH;
         "forge-1.19.4" = _WZCDdLuv;
-        "forge-1.20.1" = _CszfkMng;
-        "forge-1.20.4" = _4p05PYOL;
-        "forge-1.20.6" = _YUfiWT13;
+        "forge-1.20.1" = _aBxX5tQL;
+        "forge-1.20.4" = _61UDCytn;
+        "forge-1.20.6" = _qtPqb43C;
         "forge-1.21" = _DQtL3KHT;
-        "forge-1.21.1" = _SVQnj7rM;
-        "forge-1.21.3" = _5vy0txT9;
-        "forge-1.21.5" = _UPTanvkL;
-        "forge-1.21.6" = _zvWuo4yc;
-        "forge-1.21.7" = _nLHe6Bch;
-        "forge-1.21.8" = _ywDOM3Eb;
-        "forge-1.21.9" = _eKVDENyN;
-        "forge-1.21.10" = _u3bKVNrX;
-        "forge-1.21.11" = _ov8yD3q0;
-        "forge-26.1" = _Ysc4rmxA;
-        "forge-26.1.1" = _2jPZS2kn;
-        "forge-26.1.2" = _OkKh1Gp1;
-        "forge-26.2" = _QWvShakY;
+        "forge-1.21.1" = _fYSf9M3i;
+        "forge-1.21.3" = _v7pD6gO5;
+        "forge-1.21.5" = _MCqiuVcr;
+        "forge-1.21.6" = _d38YwDER;
+        "forge-1.21.7" = _Qii7VjjN;
+        "forge-1.21.8" = _yRt0C2ic;
+        "forge-1.21.9" = _Q8hDnl13;
+        "forge-1.21.10" = _Dj0NfDxK;
+        "forge-1.21.11" = _7D3WMQT6;
+        "forge-26.1" = _7c9mQaMH;
+        "forge-26.1.1" = _6CdLXZBm;
+        "forge-26.1.2" = _fBBPvFaF;
+        "forge-26.2" = _M5Sg97ZV;
+        "forge-26.3" = _ZnVaN2Ll;
         "fabric-1.19.2" = _DajLf8uq;
-        "fabric-1.20.1" = _hLzmgW6s;
+        "fabric-1.20.1" = _sSDU9Yya;
         "fabric-1.21" = _zLpr4p58;
-        "fabric-1.21.1" = _QeusOQet;
-        "fabric-1.21.10" = _lSqnNZyz;
-        "fabric-1.21.11" = _s3ASHOtt;
-        "fabric-26.1" = _pIgwOTRG;
-        "fabric-26.1.1" = _gNLw3Z8y;
-        "fabric-26.1.2" = _2zbpp4Qm;
-        "fabric-26.2" = _TF0bJJhN;
-        "fabric-1.20.4" = _qFIupkMk;
+        "fabric-1.21.1" = _Sk6i43OQ;
+        "fabric-1.21.10" = _CZi2Faw7;
+        "fabric-1.21.11" = _8kYr8wna;
+        "fabric-26.1" = _SuCQQPqD;
+        "fabric-26.1.1" = _1zxPzKCb;
+        "fabric-26.1.2" = _ImhGBcpm;
+        "fabric-26.2" = _8vrq6NpO;
+        "fabric-1.20.4" = _7jXC7xU9;
+        "fabric-26.3" = _yuimXaCt;
         "quilt-1.19.2" = _DajLf8uq;
         "quilt-1.20.1" = _Fwq51PWg;
-        "neoforge-1.20.1" = _CszfkMng;
-        "neoforge-1.21.1" = _KhAeufS1;
-        "neoforge-26.1" = _i7c5ST2j;
+        "neoforge-1.20.1" = _aBxX5tQL;
+        "neoforge-1.21.1" = _wq9p2WgI;
+        "neoforge-26.1" = _sarOnexQ;
         "neoforge-1.21" = _Rn9JkaYn;
-        "neoforge-26.1.1" = _9b3JJGTB;
-        "neoforge-26.1.2" = _IN6iIbuH;
-        "neoforge-26.2" = _2QQHoXfg;
+        "neoforge-26.1.1" = _bjmwpAPP;
+        "neoforge-26.1.2" = _HdC2nGd6;
+        "neoforge-26.2" = _rhgpnjFu;
+        "neoforge-26.3" = _mnWjWOXv;
         "pkg-1.0" = _CYoUICNH;
         "pkg-2.1" = _Q0KBJR6I;
         "pkg-2.4" = _aJidpBPl;
@@ -1725,9 +1962,9 @@ let
         "pkg-3.5.3" = _ov8yD3q0;
         "pkg-3.6" = _5vy0txT9;
         "pkg-3.7" = _AlTDBYq0;
-        "pkg-3.5.4" = _16bmgYWl;
+        "pkg-3.5.4" = _7D3WMQT6;
         "pkg-3.5.5" = _lksSKjOI;
-        "pkg-3.6.1" = _DQtL3KHT;
+        "pkg-3.6.1" = _Q8hDnl13;
         "pkg-3.9" = _soex6nsM;
         "pkg-3.10" = _u3bKVNrX;
         "pkg-3.11" = _qYeDtmVX;
@@ -1740,7 +1977,7 @@ let
         "pkg-3.12" = _Mc3a3GeX;
         "pkg-1.0.1" = _HMHLGrhs;
         "pkg-4.1.1" = _r1ZrC4DI;
-        "pkg-3.8.1" = _QG4sXE6h;
+        "pkg-3.8.1" = _7jXC7xU9;
         "pkg-3.12.1" = _PmdhrY84;
         "pkg-4.4" = _2zbpp4Qm;
         "pkg-3.8.3" = _j31aIXqA;
@@ -1772,7 +2009,7 @@ let
         "pkg-4.2.4" = _FFfNa3gr;
         "pkg-4.4.4" = _43xgu3Hb;
         "pkg-3.12.8" = _FUQbCfil;
-        "pkg-3.6.3" = _nLBT2xof;
+        "pkg-3.6.3" = _fYSf9M3i;
         "pkg-3.5.8" = _Ysc4rmxA;
         "pkg-1.0.2" = _xdBkieeD;
         "pkg-1.0.3" = _FgqjG3hG;
@@ -1782,19 +2019,33 @@ let
         "pkg-1.0.5" = _68XUVEel;
         "pkg-4.6" = _goqFvYpH;
         "pkg-3.6.4" = _d38B4NEq;
-        "pkg-3.5.7" = _IkTx4iRn;
+        "pkg-3.5.7" = _qtPqb43C;
         "pkg-4.2.5" = _5hoTqnBL;
         "pkg-4.4.5" = _gqTWbvaQ;
-        "pkg-3.5.9" = _NYymAfgo;
+        "pkg-3.5.9" = _fBBPvFaF;
         "pkg-3.8.5" = _KhAeufS1;
-        "pkg-3.8.6" = _2QQHoXfg;
+        "pkg-3.8.6" = _CZi2Faw7;
         "pkg-3.5.10" = _QWvShakY;
         "pkg-4.4.6" = _TF0bJJhN;
         "pkg-3.6.5" = _i7c5ST2j;
         "pkg-4.1.5" = _QeusOQet;
         "pkg-4.7" = _pIgwOTRG;
         "pkg-3.12.9" = _s3ASHOtt;
-        "default" = _soex6nsM;
+        "pkg-4.4.7" = _8vrq6NpO;
+        "pkg-4.4.8" = _yuimXaCt;
+        "pkg-4.4.9-forge-26.3" = _zLcW37eK;
+        "pkg-3.9.1" = _ReQ12j9W;
+        "pkg-3.10.1" = _Dj0NfDxK;
+        "pkg-3.5.11" = _M5Sg97ZV;
+        "pkg-4.4.10" = _ZnVaN2Ll;
+        "pkg-3.6.6" = _HdC2nGd6;
+        "pkg-3.8.7" = _rhgpnjFu;
+        "pkg-4.4.9" = _mnWjWOXv;
+        "pkg-4.1.6" = _1zxPzKCb;
+        "pkg-3.12.10" = _8kYr8wna;
+        "pkg-4.7.1" = _SuCQQPqD;
+        "pkg-4.4.1" = _ImhGBcpm;
+        "default" = _yuimXaCt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "saros-money";

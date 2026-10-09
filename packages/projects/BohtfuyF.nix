@@ -21,23 +21,44 @@ let
             "file" = "bobo_lib-1.2.1-1.21.1-neoforge.jar";
             "hash" = "sha512-DLICLYM4pQGlssEqgMDtQmMFHVaA8kTGMRMfIsc+Ndl3XU5L2eUtA12bf0XwzTBxmNhk70Y/LbTdA9LNlXnhvw==";
         };
+        _19mvqLgj = {
+            "id" = "19mvqLgj";
+            "file" = "bobo_lib-1.2.2-1.21.1-neoforge.jar";
+            "hash" = "sha512-by7rd37s6C/0Nqb9odC9WAlfHBUt5RYDDEkGLpYnQraRyzaGJUj3agG9VKjFACXQdgUoS6LN+gu1goV8X59bBA==";
+        };
+        _lMtmho4B = {
+            "id" = "lMtmho4B";
+            "file" = "bobo_lib-1.3-1.21.1-neoforge.jar";
+            "hash" = "sha512-n9/uIXaBawqLtzrLF0SKXnlmggNqQNS3KqXGP4pG80ZnOXFfeu9kJk8Ayx+Yx0A/lX6Q4wJtdX1iB03UjDo46g==";
+        };
+        _hwDpsChW = {
+            "id" = "hwDpsChW";
+            "file" = "bobo_lib-1.3-1.20.1-forge.jar";
+            "hash" = "sha512-lRIAg9puX88QonZSZ1jAxOvW/5GEyYXjlDFTfQeSMVGQAK/RuGiqYRuwaIrCaCGf57hbFHHNSW8kvM+HT43oyw==";
+        };
     in {
         "F4svFIUc" = _F4svFIUc;
         "G9ZoSaOd" = _G9ZoSaOd;
         "rLITzt4V" = _rLITzt4V;
         "jprQ3eeg" = _jprQ3eeg;
-        "forge-1.20" = _G9ZoSaOd;
-        "forge-1.20.1" = _G9ZoSaOd;
-        "forge-1.20.2" = _G9ZoSaOd;
-        "forge-1.20.3" = _G9ZoSaOd;
-        "forge-1.20.4" = _G9ZoSaOd;
-        "forge-1.20.6" = _G9ZoSaOd;
-        "neoforge-1.21.1" = _jprQ3eeg;
+        "19mvqLgj" = _19mvqLgj;
+        "lMtmho4B" = _lMtmho4B;
+        "hwDpsChW" = _hwDpsChW;
+        "forge-1.20" = _hwDpsChW;
+        "forge-1.20.1" = _hwDpsChW;
+        "forge-1.20.2" = _hwDpsChW;
+        "forge-1.20.3" = _hwDpsChW;
+        "forge-1.20.4" = _hwDpsChW;
+        "forge-1.20.6" = _hwDpsChW;
+        "neoforge-1.21.1" = _lMtmho4B;
         "pkg-1.0-1.20.1" = _F4svFIUc;
         "pkg-1.1-1.20.1" = _G9ZoSaOd;
         "pkg-1.1-1.21.1" = _rLITzt4V;
         "pkg-1.2.1-1.21.1" = _jprQ3eeg;
-        "default" = _jprQ3eeg;
+        "pkg-1.2.2-1.21.1" = _19mvqLgj;
+        "pkg-1.3-1.21.1" = _lMtmho4B;
+        "pkg-1.3-1.20.1" = _hwDpsChW;
+        "default" = _hwDpsChW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bobo-lib";

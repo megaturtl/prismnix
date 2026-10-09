@@ -56,6 +56,11 @@ let
             "file" = "Mizuno's Pig Variant 3.2.zip";
             "hash" = "sha512-91MNGnbqt5l3kbeAbenqNFnnHEzvnyr/CArE36G4iSxfcIkaRlxZgYXwl/YGLVVQjDDKPkrDoyYjSKnYWVtdAw==";
         };
+        _iPGGpmeX = {
+            "id" = "iPGGpmeX";
+            "file" = "Mizuno's Pig Variant 3.3 (26.1+).zip";
+            "hash" = "sha512-2vrO2v7P6joTe9VWHgN1McMp7+a84DauNjCZutFzYokzT16CaGpZDVHMoCLmSsX9o2SAZWhFf05CZm+jxOX76g==";
+        };
     in {
         "iNSD3HWc" = _iNSD3HWc;
         "8GxM107I" = _8GxM107I;
@@ -68,6 +73,7 @@ let
         "dP0f6pRY" = _dP0f6pRY;
         "G11Kn4K1" = _G11Kn4K1;
         "Df2yvr5D" = _Df2yvr5D;
+        "iPGGpmeX" = _iPGGpmeX;
         "minecraft-1.19" = _iNSD3HWc;
         "minecraft-1.19.1" = _iNSD3HWc;
         "minecraft-1.19.2" = _iNSD3HWc;
@@ -92,17 +98,19 @@ let
         "minecraft-1.21.9" = _dP0f6pRY;
         "minecraft-1.21.10" = _dP0f6pRY;
         "minecraft-1.21.11" = _dP0f6pRY;
-        "minecraft-26.1" = _Df2yvr5D;
-        "minecraft-26.1.1" = _Df2yvr5D;
-        "minecraft-26.1.2" = _Df2yvr5D;
-        "minecraft-26.2" = _Df2yvr5D;
+        "minecraft-26.1" = _iPGGpmeX;
+        "minecraft-26.1.1" = _iPGGpmeX;
+        "minecraft-26.1.2" = _iPGGpmeX;
+        "minecraft-26.2" = _iPGGpmeX;
+        "minecraft-26.3" = _iPGGpmeX;
         "pkg-1" = _j10zzV06;
         "pkg-2.0" = _AAatCXYR;
         "pkg-2.1" = _VuGv65mi;
         "pkg-2.2" = _pvrM56d7;
         "pkg-3.1" = _G11Kn4K1;
         "pkg-3.2" = _Df2yvr5D;
-        "default" = _Df2yvr5D;
+        "pkg-3.3" = _iPGGpmeX;
+        "default" = _iPGGpmeX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mizunos-pig-variants";

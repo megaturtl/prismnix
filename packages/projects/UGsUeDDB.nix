@@ -91,6 +91,16 @@ let
             "file" = "copper-cutting-2.1.jar";
             "hash" = "sha512-B3cIk2um55DanmXW4LurKOqnoavL4unKfcAK3BYTVvKaqipJNmOqOdXuSdlgh6uLWpPCVlGtiZxHzkq16yQrIA==";
         };
+        _Ypvaiirh = {
+            "id" = "Ypvaiirh";
+            "file" = "Copper Cutting v2.2 (1.21.9-26.3).zip";
+            "hash" = "sha512-W98ZvzQ7G0m2g/euvSpaJjMfWLBRzvtYjLURxgjIQmzkqhwk+ssAaNWlHxiomb1zdvkuTdy3W8cU5jXG3+bcjQ==";
+        };
+        _q8O0eXbe = {
+            "id" = "q8O0eXbe";
+            "file" = "copper-cutting-2.2.jar";
+            "hash" = "sha512-3O5mf1boVqTigoQoyPUKnGinhCmtrstYmy1SnNT/ihp9TzLvE8AJh1hxGT+kJ3MIlzhTfhbwkjJSerhm2PymKg==";
+        };
     in {
         "RsfAUKFD" = _RsfAUKFD;
         "ifHKrob1" = _ifHKrob1;
@@ -110,6 +120,8 @@ let
         "Agl2DCZ2" = _Agl2DCZ2;
         "yEM0ONqI" = _yEM0ONqI;
         "PD2m7N2D" = _PD2m7N2D;
+        "Ypvaiirh" = _Ypvaiirh;
+        "q8O0eXbe" = _q8O0eXbe;
         "datapack-1.21-pre1" = _RsfAUKFD;
         "datapack-1.21-pre2" = _RsfAUKFD;
         "datapack-1.21-pre3" = _RsfAUKFD;
@@ -123,9 +135,14 @@ let
         "datapack-1.21.6" = _kGlwf0wV;
         "datapack-1.21.7" = _kGlwf0wV;
         "datapack-1.21.8" = _kGlwf0wV;
-        "datapack-1.21.9" = _yEM0ONqI;
-        "datapack-1.21.10" = _yEM0ONqI;
-        "datapack-1.21.11" = _yEM0ONqI;
+        "datapack-1.21.9" = _Ypvaiirh;
+        "datapack-1.21.10" = _Ypvaiirh;
+        "datapack-1.21.11" = _Ypvaiirh;
+        "datapack-26.1" = _Ypvaiirh;
+        "datapack-26.1.1" = _Ypvaiirh;
+        "datapack-26.1.2" = _Ypvaiirh;
+        "datapack-26.2" = _Ypvaiirh;
+        "datapack-26.3" = _Ypvaiirh;
         "fabric-1.21" = _tnMCCAGr;
         "fabric-1.21.1" = _tnMCCAGr;
         "fabric-1.21.2" = _tnMCCAGr;
@@ -135,9 +152,14 @@ let
         "fabric-1.21.6" = _tnMCCAGr;
         "fabric-1.21.7" = _tnMCCAGr;
         "fabric-1.21.8" = _tnMCCAGr;
-        "fabric-1.21.9" = _PD2m7N2D;
-        "fabric-1.21.10" = _PD2m7N2D;
-        "fabric-1.21.11" = _PD2m7N2D;
+        "fabric-1.21.9" = _q8O0eXbe;
+        "fabric-1.21.10" = _q8O0eXbe;
+        "fabric-1.21.11" = _q8O0eXbe;
+        "fabric-26.1" = _q8O0eXbe;
+        "fabric-26.1.1" = _q8O0eXbe;
+        "fabric-26.1.2" = _q8O0eXbe;
+        "fabric-26.2" = _q8O0eXbe;
+        "fabric-26.3" = _q8O0eXbe;
         "forge-1.21" = _tnMCCAGr;
         "forge-1.21.1" = _tnMCCAGr;
         "forge-1.21.2" = _tnMCCAGr;
@@ -147,9 +169,14 @@ let
         "forge-1.21.6" = _tnMCCAGr;
         "forge-1.21.7" = _tnMCCAGr;
         "forge-1.21.8" = _tnMCCAGr;
-        "forge-1.21.9" = _PD2m7N2D;
-        "forge-1.21.10" = _PD2m7N2D;
-        "forge-1.21.11" = _PD2m7N2D;
+        "forge-1.21.9" = _q8O0eXbe;
+        "forge-1.21.10" = _q8O0eXbe;
+        "forge-1.21.11" = _q8O0eXbe;
+        "forge-26.1" = _q8O0eXbe;
+        "forge-26.1.1" = _q8O0eXbe;
+        "forge-26.1.2" = _q8O0eXbe;
+        "forge-26.2" = _q8O0eXbe;
+        "forge-26.3" = _q8O0eXbe;
         "quilt-1.21" = _tnMCCAGr;
         "quilt-1.21.1" = _tnMCCAGr;
         "quilt-1.21.2" = _tnMCCAGr;
@@ -159,9 +186,14 @@ let
         "quilt-1.21.6" = _tnMCCAGr;
         "quilt-1.21.7" = _tnMCCAGr;
         "quilt-1.21.8" = _tnMCCAGr;
-        "quilt-1.21.9" = _PD2m7N2D;
-        "quilt-1.21.10" = _PD2m7N2D;
-        "quilt-1.21.11" = _PD2m7N2D;
+        "quilt-1.21.9" = _q8O0eXbe;
+        "quilt-1.21.10" = _q8O0eXbe;
+        "quilt-1.21.11" = _q8O0eXbe;
+        "quilt-26.1" = _q8O0eXbe;
+        "quilt-26.1.1" = _q8O0eXbe;
+        "quilt-26.1.2" = _q8O0eXbe;
+        "quilt-26.2" = _q8O0eXbe;
+        "quilt-26.3" = _q8O0eXbe;
         "neoforge-1.21" = _tnMCCAGr;
         "neoforge-1.21.1" = _tnMCCAGr;
         "neoforge-1.21.2" = _tnMCCAGr;
@@ -171,9 +203,14 @@ let
         "neoforge-1.21.6" = _tnMCCAGr;
         "neoforge-1.21.7" = _tnMCCAGr;
         "neoforge-1.21.8" = _tnMCCAGr;
-        "neoforge-1.21.9" = _PD2m7N2D;
-        "neoforge-1.21.10" = _PD2m7N2D;
-        "neoforge-1.21.11" = _PD2m7N2D;
+        "neoforge-1.21.9" = _q8O0eXbe;
+        "neoforge-1.21.10" = _q8O0eXbe;
+        "neoforge-1.21.11" = _q8O0eXbe;
+        "neoforge-26.1" = _q8O0eXbe;
+        "neoforge-26.1.1" = _q8O0eXbe;
+        "neoforge-26.1.2" = _q8O0eXbe;
+        "neoforge-26.2" = _q8O0eXbe;
+        "neoforge-26.3" = _q8O0eXbe;
         "pkg-1" = _RsfAUKFD;
         "pkg-1.1" = _ifHKrob1;
         "pkg-1.1+mod" = _Gljgper7;
@@ -191,7 +228,9 @@ let
         "pkg-2.0+mod" = _Agl2DCZ2;
         "pkg-2.1" = _yEM0ONqI;
         "pkg-2.1+mod" = _PD2m7N2D;
-        "default" = _PD2m7N2D;
+        "pkg-2.2" = _Ypvaiirh;
+        "pkg-2.2+mod" = _q8O0eXbe;
+        "default" = _q8O0eXbe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "copper-cutting";

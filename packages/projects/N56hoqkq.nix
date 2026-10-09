@@ -2211,6 +2211,21 @@ let
             "file" = "healthindicatortxf-26.2-1.3.12-neoforge.jar";
             "hash" = "sha512-mN5Kbloafc80AVDedUDtiVdZrKj6qvNTiXooqWvBATc573bGLmet01+oQmdPOGbJYKFch/860dfvLq9bl2crHA==";
         };
+        _5o0uW2YG = {
+            "id" = "5o0uW2YG";
+            "file" = "healthindicatortxf-26.3-1.3.12-fabric.jar";
+            "hash" = "sha512-2BJPvMR61LaOHsTGl5YLv5LdoOc/lpKlgfmz3sB5H270+pijKoCBW43NneiHLxxxXujR87jetaVXCiOue3lZqA==";
+        };
+        _r8y8j5DJ = {
+            "id" = "r8y8j5DJ";
+            "file" = "healthindicatortxf-26.3-1.3.12-neoforge.jar";
+            "hash" = "sha512-NbBaeQyQ8ysmKNmVGWH1+DdHcISOkVOK7zJa8NNZAAIDmA+8wEsdeMzF+0HWHlOLha9xouTQD/4rvPNA3TM8Cw==";
+        };
+        _wCUngFnz = {
+            "id" = "wCUngFnz";
+            "file" = "healthindicatortxf-26.3-1.3.12-forge.jar";
+            "hash" = "sha512-m4PozqMmaWL9iUzd8FspkMjJwkoYXYyUQ964P8Inq4OiBsvTSJSoQeHp+YzfvF56ugOj5jwMrE1emB9mOCZl+g==";
+        };
     in {
         "6dE2tUSl" = _6dE2tUSl;
         "rcYQlAqe" = _rcYQlAqe;
@@ -2654,6 +2669,9 @@ let
         "N8zn6Nyt" = _N8zn6Nyt;
         "LUWGQsYV" = _LUWGQsYV;
         "B1qNSmIw" = _B1qNSmIw;
+        "5o0uW2YG" = _5o0uW2YG;
+        "r8y8j5DJ" = _r8y8j5DJ;
+        "wCUngFnz" = _wCUngFnz;
         "forge-1.18.2" = _StINFdgI;
         "forge-1.19" = _Y4vxw6ZM;
         "forge-1.19.1" = _Y4vxw6ZM;
@@ -2680,6 +2698,7 @@ let
         "forge-26.1.1" = _RWlF6H2C;
         "forge-26.1.2" = _RWlF6H2C;
         "forge-26.2" = _LUWGQsYV;
+        "forge-26.3" = _wCUngFnz;
         "neoforge-1.20" = _2WnUYKf5;
         "neoforge-1.20.1" = _2WnUYKf5;
         "neoforge-1.20.2" = _o3TNwXBT;
@@ -2703,6 +2722,7 @@ let
         "neoforge-26.1.1" = _p25jQCEz;
         "neoforge-26.1.2" = _p25jQCEz;
         "neoforge-26.2" = _B1qNSmIw;
+        "neoforge-26.3" = _r8y8j5DJ;
         "fabric-1.18.2" = _ot3cXzgh;
         "fabric-1.19" = _Sk1GqX4s;
         "fabric-1.19.1" = _Sk1GqX4s;
@@ -2731,6 +2751,7 @@ let
         "fabric-26.1.1" = _NkDa97u0;
         "fabric-26.1.2" = _NkDa97u0;
         "fabric-26.2" = _N8zn6Nyt;
+        "fabric-26.3" = _5o0uW2YG;
         "quilt-1.18.2" = _ot3cXzgh;
         "quilt-1.19" = _Sk1GqX4s;
         "quilt-1.19.1" = _Sk1GqX4s;
@@ -2759,6 +2780,7 @@ let
         "quilt-26.1.1" = _NkDa97u0;
         "quilt-26.1.2" = _NkDa97u0;
         "quilt-26.2" = _N8zn6Nyt;
+        "quilt-26.3" = _5o0uW2YG;
         "pkg-1.18.2-1.0.0-forge" = _6dE2tUSl;
         "pkg-1.19.2-1.0.0-forge" = _rcYQlAqe;
         "pkg-1.19.4-1.0.0-forge" = _cvm6HLOA;
@@ -3201,7 +3223,10 @@ let
         "pkg-26.2-1.3.12-fabric" = _N8zn6Nyt;
         "pkg-26.2-1.3.12-forge" = _LUWGQsYV;
         "pkg-26.2-1.3.12-neoforge" = _B1qNSmIw;
-        "default" = _B1qNSmIw;
+        "pkg-26.3-1.3.12-fabric" = _5o0uW2YG;
+        "pkg-26.3-1.3.12-neoforge" = _r8y8j5DJ;
+        "pkg-26.3-1.3.12-forge" = _wCUngFnz;
+        "default" = _wCUngFnz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "health-indicator-txf";

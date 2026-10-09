@@ -116,6 +116,16 @@ let
             "file" = "better-trees-1.9.3.jar";
             "hash" = "sha512-LHRn5RwD5FqgALOAOES+jhkj/N+euSsZMMKn0EeBpwDId5S2C/zMBIuohM17uaRzhTjWiNTIqZPK9FRMDdDOBQ==";
         };
+        _XPftmTyc = {
+            "id" = "XPftmTyc";
+            "file" = "Better Trees 2.0.0.zip";
+            "hash" = "sha512-AWA8TkAH7caUnSB9y6auoDZXaND5oRHfaP5MtCn0wUD456UT3+maQzkHnFaN7HuDImt3aiyFQKxzf9WzKuenLg==";
+        };
+        _xoBqxOVe = {
+            "id" = "xoBqxOVe";
+            "file" = "better-trees-2.0.0.jar";
+            "hash" = "sha512-hXdwF2hGqvEBOQrUfxzupY6ie2kvq4j0BRPj/NRUOakrsMrRRf35xzYuwaDraVAXihZ70qu5uz58aYIULZgY6Q==";
+        };
     in {
         "UTpOTOBY" = _UTpOTOBY;
         "9QhlB20G" = _9QhlB20G;
@@ -140,6 +150,8 @@ let
         "Q27NJIcZ" = _Q27NJIcZ;
         "CbRWdyjk" = _CbRWdyjk;
         "cxeCnM3T" = _cxeCnM3T;
+        "XPftmTyc" = _XPftmTyc;
+        "xoBqxOVe" = _xoBqxOVe;
         "datapack-1.17" = _UTpOTOBY;
         "datapack-1.17.1" = _UTpOTOBY;
         "datapack-1.18" = _UTpOTOBY;
@@ -194,6 +206,7 @@ let
         "datapack-26.1.1" = _CbRWdyjk;
         "datapack-26.1.2" = _CbRWdyjk;
         "datapack-26.2" = _CbRWdyjk;
+        "datapack-26.3" = _XPftmTyc;
         "fabric-1.19.4" = _dlPiLHSd;
         "fabric-1.20" = _ga4b1Zzn;
         "fabric-1.20.1" = _ga4b1Zzn;
@@ -248,6 +261,7 @@ let
         "fabric-26.1.1" = _cxeCnM3T;
         "fabric-26.1.2" = _cxeCnM3T;
         "fabric-26.2" = _cxeCnM3T;
+        "fabric-26.3" = _xoBqxOVe;
         "forge-1.19.4" = _dlPiLHSd;
         "forge-1.20" = _ga4b1Zzn;
         "forge-1.20.1" = _ga4b1Zzn;
@@ -302,6 +316,7 @@ let
         "forge-26.1.1" = _cxeCnM3T;
         "forge-26.1.2" = _cxeCnM3T;
         "forge-26.2" = _cxeCnM3T;
+        "forge-26.3" = _xoBqxOVe;
         "quilt-1.19.4" = _dlPiLHSd;
         "quilt-1.20" = _ga4b1Zzn;
         "quilt-1.20.1" = _ga4b1Zzn;
@@ -356,6 +371,7 @@ let
         "quilt-26.1.1" = _cxeCnM3T;
         "quilt-26.1.2" = _cxeCnM3T;
         "quilt-26.2" = _cxeCnM3T;
+        "quilt-26.3" = _xoBqxOVe;
         "neoforge-1.21" = _cxeCnM3T;
         "neoforge-1.21.1" = _cxeCnM3T;
         "neoforge-1.21.2" = _cxeCnM3T;
@@ -398,6 +414,7 @@ let
         "neoforge-26.1.1" = _cxeCnM3T;
         "neoforge-26.1.2" = _cxeCnM3T;
         "neoforge-26.2" = _cxeCnM3T;
+        "neoforge-26.3" = _xoBqxOVe;
         "pkg-1.5.1" = _UTpOTOBY;
         "pkg-1.5.1.1" = _9QhlB20G;
         "pkg-1.6" = _lPkKmwsN;
@@ -421,7 +438,9 @@ let
         "pkg-1.9.2+mod" = _Q27NJIcZ;
         "pkg-1.9.3" = _CbRWdyjk;
         "pkg-1.9.3+mod" = _cxeCnM3T;
-        "default" = _cxeCnM3T;
+        "pkg-2.0.0" = _XPftmTyc;
+        "pkg-2.0.0+mod" = _xoBqxOVe;
+        "default" = _xoBqxOVe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-trees";

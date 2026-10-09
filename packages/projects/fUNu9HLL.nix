@@ -66,6 +66,11 @@ let
             "file" = "wandering_orc-1.2.6-1.20.1.jar";
             "hash" = "sha512-psi/yTDIRf+CdEAP8+dwXy2RYaD1HyKzWIT3CjluMBJs8sQIuBIWqxgR7yFGqYv6erMaTGlo8399jBHg5kRUyg==";
         };
+        _lCEDVwpb = {
+            "id" = "lCEDVwpb";
+            "file" = "wandering_orc-1.2.7-1.20.1.jar";
+            "hash" = "sha512-85TGqYxa1ZUvI0IZytAuDoiRvaWzlnZsv/g67NJc+Mhxbp5Ar0A6JLZF8dzLyClvaAEWrPw4Yrw6x2kXKGosRA==";
+        };
     in {
         "RCwmn0Xa" = _RCwmn0Xa;
         "FtlMMTPB" = _FtlMMTPB;
@@ -80,8 +85,9 @@ let
         "gPSatGKZ" = _gPSatGKZ;
         "RHawNhpN" = _RHawNhpN;
         "6UTkAR74" = _6UTkAR74;
-        "fabric-1.20.1" = _6UTkAR74;
-        "forge-1.20.1" = _6UTkAR74;
+        "lCEDVwpb" = _lCEDVwpb;
+        "fabric-1.20.1" = _lCEDVwpb;
+        "forge-1.20.1" = _lCEDVwpb;
         "pkg-1.0.0-1.20.1" = _FtlMMTPB;
         "pkg-1.0.1-1.20.1" = _JSgWTm00;
         "pkg-1.1.0-1.20.1" = _25hvFiUs;
@@ -94,7 +100,8 @@ let
         "pkg-1.2.4-1.20.1" = _gPSatGKZ;
         "pkg-1.2.5-1.20.1" = _RHawNhpN;
         "pkg-1.2.6-1.20.1" = _6UTkAR74;
-        "default" = _6UTkAR74;
+        "pkg-1.2.7-1.20.1" = _lCEDVwpb;
+        "default" = _lCEDVwpb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wandering-orc";

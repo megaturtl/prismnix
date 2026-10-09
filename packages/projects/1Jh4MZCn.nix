@@ -131,6 +131,16 @@ let
             "file" = "cheaper-clocks-2.6.jar";
             "hash" = "sha512-7OvRD3PKsl6/qhyitk6VbaU7TfGlrQ0a7pvwyR044mK2Rj8UwlKuFWsG7fspKebSMcrPXskL8G8Z9CrdRGWLdA==";
         };
+        _KnkkMERJ = {
+            "id" = "KnkkMERJ";
+            "file" = "Cheaper Clocks v3.0 (26.1-26.3).zip";
+            "hash" = "sha512-/S//i/Gnnvh6I6YrID+Km+5CVvjgIafcouB2VGfXadd/HkWnBLcQwTMofYzGI4V2rPJm80G8NGXElT3yrWoAMA==";
+        };
+        _Dz3ROHea = {
+            "id" = "Dz3ROHea";
+            "file" = "cheaper-clocks-3.0.jar";
+            "hash" = "sha512-Ljk4RZaWasNqXAgJLjTnsTHExzPGr+QIFJzXbi/7fct9vpHqqUeu9SbrXUAShszRtdvUPQ3k8P+2POcnioAzLw==";
+        };
     in {
         "c1ggawPa" = _c1ggawPa;
         "sN1Js4Ew" = _sN1Js4Ew;
@@ -158,6 +168,8 @@ let
         "r86D4dcM" = _r86D4dcM;
         "aqqp0Cip" = _aqqp0Cip;
         "58OwvASq" = _58OwvASq;
+        "KnkkMERJ" = _KnkkMERJ;
+        "Dz3ROHea" = _Dz3ROHea;
         "datapack-1.20" = _aqqp0Cip;
         "datapack-1.20.1" = _aqqp0Cip;
         "datapack-1.20.2" = _aqqp0Cip;
@@ -179,6 +191,11 @@ let
         "datapack-1.21.9" = _aqqp0Cip;
         "datapack-1.21.10" = _aqqp0Cip;
         "datapack-1.21.11" = _aqqp0Cip;
+        "datapack-26.1" = _KnkkMERJ;
+        "datapack-26.1.1" = _KnkkMERJ;
+        "datapack-26.1.2" = _KnkkMERJ;
+        "datapack-26.2" = _KnkkMERJ;
+        "datapack-26.3" = _KnkkMERJ;
         "fabric-1.20" = _58OwvASq;
         "fabric-1.20.1" = _58OwvASq;
         "fabric-1.20.2" = _58OwvASq;
@@ -198,6 +215,11 @@ let
         "fabric-1.21.9" = _58OwvASq;
         "fabric-1.21.10" = _58OwvASq;
         "fabric-1.21.11" = _58OwvASq;
+        "fabric-26.1" = _Dz3ROHea;
+        "fabric-26.1.1" = _Dz3ROHea;
+        "fabric-26.1.2" = _Dz3ROHea;
+        "fabric-26.2" = _Dz3ROHea;
+        "fabric-26.3" = _Dz3ROHea;
         "forge-1.20" = _58OwvASq;
         "forge-1.20.1" = _58OwvASq;
         "forge-1.20.2" = _58OwvASq;
@@ -217,6 +239,11 @@ let
         "forge-1.21.9" = _58OwvASq;
         "forge-1.21.10" = _58OwvASq;
         "forge-1.21.11" = _58OwvASq;
+        "forge-26.1" = _Dz3ROHea;
+        "forge-26.1.1" = _Dz3ROHea;
+        "forge-26.1.2" = _Dz3ROHea;
+        "forge-26.2" = _Dz3ROHea;
+        "forge-26.3" = _Dz3ROHea;
         "quilt-1.20" = _58OwvASq;
         "quilt-1.20.1" = _58OwvASq;
         "quilt-1.20.2" = _58OwvASq;
@@ -236,6 +263,11 @@ let
         "quilt-1.21.9" = _58OwvASq;
         "quilt-1.21.10" = _58OwvASq;
         "quilt-1.21.11" = _58OwvASq;
+        "quilt-26.1" = _Dz3ROHea;
+        "quilt-26.1.1" = _Dz3ROHea;
+        "quilt-26.1.2" = _Dz3ROHea;
+        "quilt-26.2" = _Dz3ROHea;
+        "quilt-26.3" = _Dz3ROHea;
         "neoforge-1.20" = _58OwvASq;
         "neoforge-1.20.1" = _58OwvASq;
         "neoforge-1.20.2" = _58OwvASq;
@@ -255,6 +287,11 @@ let
         "neoforge-1.21.9" = _58OwvASq;
         "neoforge-1.21.10" = _58OwvASq;
         "neoforge-1.21.11" = _58OwvASq;
+        "neoforge-26.1" = _Dz3ROHea;
+        "neoforge-26.1.1" = _Dz3ROHea;
+        "neoforge-26.1.2" = _Dz3ROHea;
+        "neoforge-26.2" = _Dz3ROHea;
+        "neoforge-26.3" = _Dz3ROHea;
         "pkg-1" = _sN1Js4Ew;
         "pkg-1+mod" = _pyqFwzxr;
         "pkg-1.1" = _jqFRBSm5;
@@ -276,7 +313,9 @@ let
         "pkg-2.5+mod" = _r86D4dcM;
         "pkg-2.6" = _aqqp0Cip;
         "pkg-2.6+mod" = _58OwvASq;
-        "default" = _58OwvASq;
+        "pkg-3.0" = _KnkkMERJ;
+        "pkg-3.0+mod" = _Dz3ROHea;
+        "default" = _Dz3ROHea;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cheaper-clocks";

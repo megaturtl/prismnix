@@ -71,6 +71,21 @@ let
             "file" = "MoreMobGriefingOptions-1.21.1-3.0.1.jar";
             "hash" = "sha512-iK+Zz1P8IEJtoXEEtqRSQ16LsF/rfts/F2V78wAhvTW3UYisclDk1RISvubybwzPZ+3Zb31QU/HZQVEWgsmOQw==";
         };
+        _ElBlQzD1 = {
+            "id" = "ElBlQzD1";
+            "file" = "MoreMobGriefingOptions-1.21.1-3.0.2.jar";
+            "hash" = "sha512-8Gh2t4bGnUNaIRhUkK7lbl3TLfOyWTH5a3Iwr+leHTRoyI21X26Y562/3U9IItp9g8bx3WTWFcpAYvGeHJIRFQ==";
+        };
+        _ouR2voEB = {
+            "id" = "ouR2voEB";
+            "file" = "MoreMobGriefingOptions-1.21.11-3.0.2.jar";
+            "hash" = "sha512-LVojIK766X0/0/hG65zuuJPwhpy0YFhzROyVAPZr3ktZu0NwJWpm7ob951HXvXNfutI3jI3L6sEzHG89xoidLQ==";
+        };
+        _gCJqjeOa = {
+            "id" = "gCJqjeOa";
+            "file" = "MoreMobGriefingOptions-26.1-3.0.2.jar";
+            "hash" = "sha512-olXGtboF5LWQ74xhNVEvJJzqiJfy8xV+gzSQiNW8PW0+0Acom0XTgw/mKHbG8nWlp1oqIjbPeAoalogQuQzLXw==";
+        };
     in {
         "70GTJI28" = _70GTJI28;
         "n1NhdD9X" = _n1NhdD9X;
@@ -86,6 +101,9 @@ let
         "2HzsDkvU" = _2HzsDkvU;
         "ZvnugX6w" = _ZvnugX6w;
         "9zpMmDoj" = _9zpMmDoj;
+        "ElBlQzD1" = _ElBlQzD1;
+        "ouR2voEB" = _ouR2voEB;
+        "gCJqjeOa" = _gCJqjeOa;
         "forge-1.17.1" = _70GTJI28;
         "forge-1.18.2" = _n1NhdD9X;
         "forge-1.19.4" = _uFRUbOx5;
@@ -96,16 +114,22 @@ let
         "forge-1.20.6" = _PrG0tyLP;
         "forge-1.21" = _Cq7RrwRe;
         "forge-1.21.1" = _2HzsDkvU;
-        "neoforge-1.21.1" = _9zpMmDoj;
-        "neoforge-1.21.2" = _9zpMmDoj;
-        "neoforge-1.21.3" = _9zpMmDoj;
-        "neoforge-1.21.4" = _9zpMmDoj;
-        "neoforge-1.21.5" = _9zpMmDoj;
-        "neoforge-1.21.6" = _9zpMmDoj;
-        "neoforge-1.21.7" = _9zpMmDoj;
-        "neoforge-1.21.8" = _9zpMmDoj;
-        "neoforge-1.21.9" = _9zpMmDoj;
-        "neoforge-1.21.10" = _9zpMmDoj;
+        "neoforge-1.21.1" = _ElBlQzD1;
+        "neoforge-1.21.2" = _ElBlQzD1;
+        "neoforge-1.21.3" = _ElBlQzD1;
+        "neoforge-1.21.4" = _ElBlQzD1;
+        "neoforge-1.21.5" = _ElBlQzD1;
+        "neoforge-1.21.6" = _ElBlQzD1;
+        "neoforge-1.21.7" = _ElBlQzD1;
+        "neoforge-1.21.8" = _ElBlQzD1;
+        "neoforge-1.21.9" = _ElBlQzD1;
+        "neoforge-1.21.10" = _ElBlQzD1;
+        "neoforge-1.21.11" = _ouR2voEB;
+        "neoforge-26.1" = _gCJqjeOa;
+        "neoforge-26.1.1" = _gCJqjeOa;
+        "neoforge-26.1.2" = _gCJqjeOa;
+        "neoforge-26.2" = _gCJqjeOa;
+        "neoforge-26.3" = _gCJqjeOa;
         "pkg-1.17.1-2.0.1" = _70GTJI28;
         "pkg-1.18.2-2.0.1" = _n1NhdD9X;
         "pkg-1.19.4-2.0.3" = _uFRUbOx5;
@@ -120,7 +144,10 @@ let
         "pkg-1.21.1-2.0.4" = _2HzsDkvU;
         "pkg-1.21.1-3.0.0" = _ZvnugX6w;
         "pkg-1.21.1-3.0.1" = _9zpMmDoj;
-        "default" = _9zpMmDoj;
+        "pkg-1.21.1-3.0.2" = _ElBlQzD1;
+        "pkg-1.21.11-3.0.2" = _ouR2voEB;
+        "pkg-26.1-3.0.2" = _gCJqjeOa;
+        "default" = _gCJqjeOa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-mobgriefing-options";

@@ -806,6 +806,11 @@ let
             "file" = "inventive-inventory-1.3.5.jar";
             "hash" = "sha512-fhb6/HjDsnglyCKca5E/VlWmKXd/yuhp2sN0EuqokdA6rnjCmlIM5FMUSSm534UxdwUm1/L8mAaynrLjJeL+SQ==";
         };
+        _BjTVHsnc = {
+            "id" = "BjTVHsnc";
+            "file" = "inventive-inventory-1.3.5.jar";
+            "hash" = "sha512-9g7mDpxstCBoQ5OQhK4ZlcB+b369UVC+gzOW35tdpy+Q5Pz0Uu4pol+ePCq/JSSwC81v44mA58Ic1mPUcQAeBA==";
+        };
     in {
         "ZuJyz0KU" = _ZuJyz0KU;
         "j9mtlwqL" = _j9mtlwqL;
@@ -968,6 +973,7 @@ let
         "ruFzSbYS" = _ruFzSbYS;
         "YjjFqI0l" = _YjjFqI0l;
         "gQmj87V2" = _gQmj87V2;
+        "BjTVHsnc" = _BjTVHsnc;
         "fabric-1.20.4" = _E3ORkk7h;
         "fabric-1.20.1" = _ruFzSbYS;
         "fabric-1.20.2" = _D2R35mLt;
@@ -990,6 +996,7 @@ let
         "fabric-26.1.1" = _YjjFqI0l;
         "fabric-26.1.2" = _YjjFqI0l;
         "fabric-26.2" = _gQmj87V2;
+        "fabric-26.3" = _BjTVHsnc;
         "neoforge-1.21.6" = _PoyE24hm;
         "neoforge-1.21.7" = _PoyE24hm;
         "neoforge-1.21.8" = _PoyE24hm;
@@ -1022,8 +1029,8 @@ let
         "pkg-1.3.2" = _eVLUmO7c;
         "pkg-1.3.3" = _5D4IeuvL;
         "pkg-1.3.4" = _bpiffyFh;
-        "pkg-1.3.5" = _gQmj87V2;
-        "default" = _gQmj87V2;
+        "pkg-1.3.5" = _BjTVHsnc;
+        "default" = _BjTVHsnc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "inventive-inventory";

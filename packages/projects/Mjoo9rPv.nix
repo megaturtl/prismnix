@@ -91,6 +91,16 @@ let
             "file" = "randomoptimization-1.7.4-all.jar";
             "hash" = "sha512-WI+xcVPNgwm7LXkepCgzc33pENUW0X5O1uQjsqQEGl1RYjRjFwcUjfMAxz1T0R+eSFDmOGhcx2xkjSAyOqUXrg==";
         };
+        _5PJPRZQ2 = {
+            "id" = "5PJPRZQ2";
+            "file" = "randomoptimization-1.7.5-all-1.21.1.jar";
+            "hash" = "sha512-IZJ232akygU9tYd0VJTmlzVppS69SV334VHWNwC6mt1L1v86eDqnEb1AoVxyUze9HsADaRG58QXmV9AhhC45Cg==";
+        };
+        _YmpNHpoQ = {
+            "id" = "YmpNHpoQ";
+            "file" = "randomoptimization-1.7.5-all-1.20.1.jar";
+            "hash" = "sha512-pyaEq9W7JQkGlGDS6hvmTdDvUsfoyPtrQXSZOo4I1GVGz1tyY3vBklKQEF1ITcMgCMSlHOzlyXe+xQOsqXvUgA==";
+        };
     in {
         "ZPWllHCQ" = _ZPWllHCQ;
         "kJrXz4Px" = _kJrXz4Px;
@@ -110,13 +120,15 @@ let
         "RdnqJjER" = _RdnqJjER;
         "uSUMqdE3" = _uSUMqdE3;
         "hNTChHCI" = _hNTChHCI;
-        "forge-1.20.1" = _uSUMqdE3;
-        "forge-1.20.2" = _uSUMqdE3;
-        "forge-1.20.3" = _uSUMqdE3;
-        "forge-1.20.4" = _uSUMqdE3;
-        "forge-1.20.5" = _uSUMqdE3;
-        "forge-1.20.6" = _uSUMqdE3;
-        "neoforge-1.21.1" = _hNTChHCI;
+        "5PJPRZQ2" = _5PJPRZQ2;
+        "YmpNHpoQ" = _YmpNHpoQ;
+        "forge-1.20.1" = _YmpNHpoQ;
+        "forge-1.20.2" = _YmpNHpoQ;
+        "forge-1.20.3" = _YmpNHpoQ;
+        "forge-1.20.4" = _YmpNHpoQ;
+        "forge-1.20.5" = _YmpNHpoQ;
+        "forge-1.20.6" = _YmpNHpoQ;
+        "neoforge-1.21.1" = _5PJPRZQ2;
         "pkg-1.0.0" = _ZPWllHCQ;
         "pkg-1.1.0" = _kJrXz4Px;
         "pkg-1.2.0" = _AzitvNsx;
@@ -130,7 +142,8 @@ let
         "pkg-1.7.2" = _PscwPMtl;
         "pkg-1.7.3" = _RdnqJjER;
         "pkg-1.7.4" = _hNTChHCI;
-        "default" = _hNTChHCI;
+        "pkg-1.7.5" = _YmpNHpoQ;
+        "default" = _YmpNHpoQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "random-optimization";

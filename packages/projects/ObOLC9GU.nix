@@ -21,11 +21,17 @@ let
             "file" = "Spatial Cross Models (1.21.9-26.1).zip";
             "hash" = "sha512-TeHDVrV8xxvWnfO/SbtMAwgANss615idFAj97vR0Ug0JQ29E97e8C3Byy70okvPSAxp/DpAYz24vPWw5+pmMzg==";
         };
+        _r221LvSu = {
+            "id" = "r221LvSu";
+            "file" = "Spatial Cross Models (26.3).zip";
+            "hash" = "sha512-sq87nOOHTYFsAgqkNxWElMtrf/VtNoE7bBVx3ObQooyXWdeY/1N8MuITQnDyqviiRG25e/2QeqyR/lzwJs6ZpA==";
+        };
     in {
         "p1o48YTf" = _p1o48YTf;
         "Qfr79jZN" = _Qfr79jZN;
         "3X7Zpp4K" = _3X7Zpp4K;
         "V1u7gMcn" = _V1u7gMcn;
+        "r221LvSu" = _r221LvSu;
         "minecraft-1.20" = _Qfr79jZN;
         "minecraft-1.20.1" = _Qfr79jZN;
         "minecraft-1.20.2" = _Qfr79jZN;
@@ -48,11 +54,13 @@ let
         "minecraft-26.1" = _V1u7gMcn;
         "minecraft-26.1.1" = _V1u7gMcn;
         "minecraft-26.1.2" = _V1u7gMcn;
+        "minecraft-26.3" = _r221LvSu;
         "pkg-1.0" = _p1o48YTf;
         "pkg-1.01" = _Qfr79jZN;
         "pkg-1.02" = _3X7Zpp4K;
         "pkg-v1.03" = _V1u7gMcn;
-        "default" = _V1u7gMcn;
+        "pkg-1.0.4" = _r221LvSu;
+        "default" = _r221LvSu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spatial-cross-models";

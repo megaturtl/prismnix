@@ -41,6 +41,11 @@ let
             "file" = "timberella-paper-1.2.2.jar";
             "hash" = "sha512-jOfIOB0CTEpxFZKq8eVZ5QLNbDO68UDaBhE43xIs7eprLyEN6N/2BHmBTjXN704TrsB1DhJoQdwy61GIS44Z3w==";
         };
+        _ubeGx8M9 = {
+            "id" = "ubeGx8M9";
+            "file" = "timberella-paper-2.0.0.jar";
+            "hash" = "sha512-/8SFCu+NYzFF2BJs+L96HQUy48nJNBNTQrMbYrIo7Qq+Cl/c1sPPS0t4u4gbNgN1NJjBCBpGjrs6fTT2Pl3F0A==";
+        };
     in {
         "UQ0oZpR1" = _UQ0oZpR1;
         "UwUHxJ4j" = _UwUHxJ4j;
@@ -50,6 +55,7 @@ let
         "qYzgakW8" = _qYzgakW8;
         "7Zi6dCLS" = _7Zi6dCLS;
         "qA6Fn7Fc" = _qA6Fn7Fc;
+        "ubeGx8M9" = _ubeGx8M9;
         "paper-1.21" = _95qGKpxc;
         "paper-1.21.1" = _95qGKpxc;
         "paper-1.21.2" = _95qGKpxc;
@@ -66,6 +72,7 @@ let
         "paper-26.1.1" = _7Zi6dCLS;
         "paper-26.1.2" = _7Zi6dCLS;
         "paper-26.2" = _qA6Fn7Fc;
+        "paper-26.3" = _ubeGx8M9;
         "pkg-1.0" = _UQ0oZpR1;
         "pkg-1.0.1" = _UwUHxJ4j;
         "pkg-1.1.0" = _fn7XXqyO;
@@ -74,7 +81,8 @@ let
         "pkg-1.2.0" = _qYzgakW8;
         "pkg-1.2.1" = _7Zi6dCLS;
         "pkg-1.2.2" = _qA6Fn7Fc;
-        "default" = _qA6Fn7Fc;
+        "pkg-2.0.0" = _ubeGx8M9;
+        "default" = _ubeGx8M9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "timberella";

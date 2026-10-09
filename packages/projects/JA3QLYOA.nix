@@ -216,6 +216,16 @@ let
             "file" = "OpticManager_FABRIC_v1.3.6_mc26.2.jar";
             "hash" = "sha512-TnNA32bkN4E6s3OlJEgG381a+r7BG+W3ST5tejLadrSm7KZDNDWsmEMwZ2TIBlRW1NNeK9vYjR5XI+OxPjwopQ==";
         };
+        _pNJFmYat = {
+            "id" = "pNJFmYat";
+            "file" = "OpticManager_NEOFORGE_v1.3.6_mc26.3.jar";
+            "hash" = "sha512-qmSM5Wb94buOc5qh0oC5nBiw/l7qCLbQ22IOkzkISs2Cem+AJXXOSFdmACYXk2prPMSXWCU4YMJYArzzeU7j8Q==";
+        };
+        _oHa9dXqZ = {
+            "id" = "oHa9dXqZ";
+            "file" = "OpticManager_FABRIC_v1.3.6_mc26.3.jar";
+            "hash" = "sha512-8yMUuNG0E7hpXCnOeeIrkVYtiY96cf5ue0jGRIFznojO3kpRg6Yzq0EhzYl9A1qqnqGTKtvUnR7AXpjkeiATXQ==";
+        };
     in {
         "sZNtPQlE" = _sZNtPQlE;
         "VXD4cK1p" = _VXD4cK1p;
@@ -260,6 +270,8 @@ let
         "DVMstctu" = _DVMstctu;
         "BaM0r8lC" = _BaM0r8lC;
         "ek4uvnSp" = _ek4uvnSp;
+        "pNJFmYat" = _pNJFmYat;
+        "oHa9dXqZ" = _oHa9dXqZ;
         "forge-1.18" = _sZNtPQlE;
         "forge-1.18.1" = _sZNtPQlE;
         "forge-1.18.2" = _29PcDWjW;
@@ -289,6 +301,7 @@ let
         "fabric-26.1" = _oePNciR4;
         "fabric-26.1.2" = _ob5Ez91M;
         "fabric-26.2" = _ek4uvnSp;
+        "fabric-26.3" = _oHa9dXqZ;
         "neoforge-1.20.4" = _H4voyzU9;
         "neoforge-1.20.6" = _pJ93gDa3;
         "neoforge-1.18.2" = _29PcDWjW;
@@ -304,6 +317,7 @@ let
         "neoforge-26.1" = _U3uZyn2P;
         "neoforge-26.1.2" = _DVMstctu;
         "neoforge-26.2" = _BaM0r8lC;
+        "neoforge-26.3" = _pNJFmYat;
         "pkg-1.2.1" = _sZNtPQlE;
         "pkg-1.3.0" = _IZoNMq8T;
         "pkg-1.3.1" = _gRyGZGvc;
@@ -312,8 +326,8 @@ let
         "pkg-1.3.3" = _x63R74Of;
         "pkg-1.3.4" = _6FM908si;
         "pkg-1.3.5" = _nWQeRuQr;
-        "pkg-1.3.6" = _ek4uvnSp;
-        "default" = _ek4uvnSp;
+        "pkg-1.3.6" = _oHa9dXqZ;
+        "default" = _oHa9dXqZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "opticmanager";

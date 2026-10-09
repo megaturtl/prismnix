@@ -56,6 +56,11 @@ let
             "file" = "better-highlighting-0.3.jar";
             "hash" = "sha512-YrRz4DZ6WISCE50W0iZ5HV4//P82Ied002m5dxmLUHvcE0ohTDBOGDqLoegMZ5LhQsBW6LYQHmPq/QZbqYMUDw==";
         };
+        _VBbA9856 = {
+            "id" = "VBbA9856";
+            "file" = "better-highlighting-0.3.1.jar";
+            "hash" = "sha512-5xf9UuzA0HSuX7ttBu/DzS3mPrQY/1WVkp9nWMvnuHnhhf/3wtGJEFxi8izyJDEc5roZoYBQDf2qk8fgP0/uzg==";
+        };
     in {
         "MvaOqtpw" = _MvaOqtpw;
         "HVtcEH1Y" = _HVtcEH1Y;
@@ -68,6 +73,7 @@ let
         "pj2WRzQL" = _pj2WRzQL;
         "b9RmO1gn" = _b9RmO1gn;
         "l7yMJxdQ" = _l7yMJxdQ;
+        "VBbA9856" = _VBbA9856;
         "fabric-1.20.5" = _b9RmO1gn;
         "fabric-1.20.6" = _b9RmO1gn;
         "fabric-1.21" = _b9RmO1gn;
@@ -86,10 +92,11 @@ let
         "fabric-1.21.9" = _b9RmO1gn;
         "fabric-1.21.10" = _b9RmO1gn;
         "fabric-1.21.11" = _b9RmO1gn;
-        "fabric-26.1" = _l7yMJxdQ;
-        "fabric-26.1.1" = _l7yMJxdQ;
-        "fabric-26.1.2" = _l7yMJxdQ;
-        "fabric-26.2" = _l7yMJxdQ;
+        "fabric-26.1" = _VBbA9856;
+        "fabric-26.1.1" = _VBbA9856;
+        "fabric-26.1.2" = _VBbA9856;
+        "fabric-26.2" = _VBbA9856;
+        "fabric-26.3" = _VBbA9856;
         "pkg-1.20.6-0.1.0" = _MvaOqtpw;
         "pkg-1.21-0.1.1" = _HVtcEH1Y;
         "pkg-1.21-0.1.2" = _743NTUEz;
@@ -101,7 +108,8 @@ let
         "pkg-0.2.1" = _pj2WRzQL;
         "pkg-0.2.2" = _b9RmO1gn;
         "pkg-0.3" = _l7yMJxdQ;
-        "default" = _l7yMJxdQ;
+        "pkg-0.3.1" = _VBbA9856;
+        "default" = _VBbA9856;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-highlighting";

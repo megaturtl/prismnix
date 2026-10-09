@@ -416,6 +416,16 @@ let
             "file" = "VisualWorkbench-v21.1.2-1.21.1-Fabric.jar";
             "hash" = "sha512-PEnotmQEX0C5RnBVxviN788/PS4BIJYhTVcfpEBgodoBryJcFIUNJcIFzHYks5t1Zv4LQ9RDy48yPCC0OHtO/g==";
         };
+        _tnYzaEz0 = {
+            "id" = "tnYzaEz0";
+            "file" = "visualworkbench-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-ESKuvUOH74CyVZ3xQD9conZ+QI7ntbyZ0AqlU+ThlqYoInyjGNPwqJ+jIwlb+iGWcinxYvzEnFIhwDHM+qjmWQ==";
+        };
+        _rcsB2H1O = {
+            "id" = "rcsB2H1O";
+            "file" = "visualworkbench-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-UgBuqlcFOi9sunWgAyqB0XnxpHzEmC45HqWjgBebm3qvNJr81awzRNzQXhsOIk+Rz2saETVpinaF8TIUcJZq0A==";
+        };
     in {
         "zvuYDbCv" = _zvuYDbCv;
         "SEQAgUZC" = _SEQAgUZC;
@@ -500,6 +510,8 @@ let
         "zoLCpqp3" = _zoLCpqp3;
         "3646RfLS" = _3646RfLS;
         "HyTKHqxd" = _HyTKHqxd;
+        "tnYzaEz0" = _tnYzaEz0;
+        "rcsB2H1O" = _rcsB2H1O;
         "forge-1.19" = _zvuYDbCv;
         "forge-1.19.1" = _1u457HoS;
         "forge-1.19.2" = _1u457HoS;
@@ -531,6 +543,7 @@ let
         "fabric-26.1.1" = _SI9NMZCE;
         "fabric-26.1.2" = _SI9NMZCE;
         "fabric-26.2" = _m2UkOgBN;
+        "fabric-26.3" = _rcsB2H1O;
         "neoforge-1.20.4" = _fndrNbOK;
         "neoforge-1.21" = _4yCmKA9D;
         "neoforge-1.21.1" = _3646RfLS;
@@ -547,6 +560,7 @@ let
         "neoforge-26.1.1" = _cIEtLn9n;
         "neoforge-26.1.2" = _cIEtLn9n;
         "neoforge-26.2" = _zoLCpqp3;
+        "neoforge-26.3" = _tnYzaEz0;
         "pkg-v4.0.0-1.19-Forge" = _zvuYDbCv;
         "pkg-v4.0.0-1.19-Fabric" = _SEQAgUZC;
         "pkg-v4.1.0-1.19.1-Forge" = _NpKQH5Pq;
@@ -622,7 +636,8 @@ let
         "pkg-26.2.0" = _qd9v1y5w;
         "pkg-26.2.1" = _zoLCpqp3;
         "pkg-21.1.2" = _HyTKHqxd;
-        "default" = _HyTKHqxd;
+        "pkg-26.3.0" = _rcsB2H1O;
+        "default" = _rcsB2H1O;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "visual-workbench";

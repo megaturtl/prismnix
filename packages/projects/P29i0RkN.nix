@@ -226,6 +226,26 @@ let
             "file" = "bygone-neoforge-1.21.1-2.1b.jar";
             "hash" = "sha512-ieBaV69c5d3jU/ZCOc3kU8lWDfuixsZ1EWegcYdA2BbbvphH8btxyPvLKrjSrPaTbSUo4zpemcQguQJcY/nXcQ==";
         };
+        _urwGrMA0 = {
+            "id" = "urwGrMA0";
+            "file" = "bygone-fabric-1.21.1-3.0.jar";
+            "hash" = "sha512-XFoZSLfGdoQkaHksn3HzLHZnhey0Hi+5JmnOdVU0EzqpQK7+PlwHDtWy1Lff88aji4V1R3Y4kYOhJLaQanR8lA==";
+        };
+        _NwnefbCe = {
+            "id" = "NwnefbCe";
+            "file" = "bygone-neoforge-1.21.1-3.0.jar";
+            "hash" = "sha512-P6Qdq/d8uz1/7mztKJ7k5xIGtwBJKPZXh8C4xy8pVCQyyHQcLZ9b+EBuXi4ualIp+Pfm9lfnFLIDV6qneznUnA==";
+        };
+        _DFXC1hwj = {
+            "id" = "DFXC1hwj";
+            "file" = "bygone-neoforge-1.21.1-3.1.jar";
+            "hash" = "sha512-iwXIuAYo72Lg6U4V0TKMq/AxTRIhe2wpogWfTprVQVPrTMmXcvgLvGSxFQ5WhvzFC/UQ3j80iiEqf01Eoh1QzA==";
+        };
+        _szd22zc7 = {
+            "id" = "szd22zc7";
+            "file" = "bygone-fabric-1.21.1-3.1.jar";
+            "hash" = "sha512-VGWYPAaHzId02fl4W0DcCqRVNabHOz/iWMzPfvnwO6JJM2TpiChgNXMAMrH13nZcpkAQGqVtch2Ydp8FnSOszw==";
+        };
     in {
         "XGmVbKQQ" = _XGmVbKQQ;
         "7k818ZXd" = _7k818ZXd;
@@ -272,10 +292,14 @@ let
         "EHtLhWOA" = _EHtLhWOA;
         "Ut344j6r" = _Ut344j6r;
         "ABlJX4EH" = _ABlJX4EH;
-        "fabric-1.21.1" = _Ut344j6r;
+        "urwGrMA0" = _urwGrMA0;
+        "NwnefbCe" = _NwnefbCe;
+        "DFXC1hwj" = _DFXC1hwj;
+        "szd22zc7" = _szd22zc7;
+        "fabric-1.21.1" = _szd22zc7;
         "fabric-1.21" = _pTlslh1e;
         "neoforge-1.21" = _pLEd1VTY;
-        "neoforge-1.21.1" = _ABlJX4EH;
+        "neoforge-1.21.1" = _DFXC1hwj;
         "pkg-0.0.3a" = _XGmVbKQQ;
         "pkg-0.0.3d" = _7k818ZXd;
         "pkg-0.0.4a" = _QGpvfQxE;
@@ -308,7 +332,9 @@ let
         "pkg-2.0" = _iAgjhPh9;
         "pkg-2.1" = _EHtLhWOA;
         "pkg-2.1b" = _ABlJX4EH;
-        "default" = _ABlJX4EH;
+        "pkg-3.0" = _NwnefbCe;
+        "pkg-3.1" = _szd22zc7;
+        "default" = _szd22zc7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bygone";

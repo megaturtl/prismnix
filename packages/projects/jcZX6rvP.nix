@@ -91,6 +91,26 @@ let
             "file" = "maestro-neoforge-1.21.11-5.0.0.jar";
             "hash" = "sha512-EB1TVSc+byNdLox4myKMgwC3I47kOVgo0iF3R6bOdrcpRQN74o70WcvSZheyQ5dyNYMW8uxjWQKBc3iRS4tnmg==";
         };
+        _kXOWNpro = {
+            "id" = "kXOWNpro";
+            "file" = "maestro-fabric-1.20.1-3.0.1.jar";
+            "hash" = "sha512-DMrjqYRKBe2Ey2lRZv6Q2fT0vO2lhWrCEkBs9SQdRNd6Even/UP3tggR4ELDxltkLEIzJQ/TDfCeUHeZ9LGAbw==";
+        };
+        _SltV3mX1 = {
+            "id" = "SltV3mX1";
+            "file" = "maestro-forge-1.20.1-3.0.1.jar";
+            "hash" = "sha512-w1NHPdoSHM6Et/U8eTAbw3eQNcu18ZNUlxstcOJINyCnysOU2pP7CXiMQyPFCeGKs0NAsyMxsSC0PB/ZnzIB8Q==";
+        };
+        _BuYiMV9P = {
+            "id" = "BuYiMV9P";
+            "file" = "maestro-fabric-1.21.1-4.0.1.jar";
+            "hash" = "sha512-pTjAsz7bq0e0ib+ciNww81nYrLjBORbFxFhQesVqIqQ5+Vw5PmK/U98iARg8L6KaYHPWQuFtpzeWzvqitkFTng==";
+        };
+        _85LSJqgv = {
+            "id" = "85LSJqgv";
+            "file" = "maestro-neoforge-1.21.1-4.0.1.jar";
+            "hash" = "sha512-ndghsWsfMJtPGifBxTcdGcuw1gLty93cBVC74VN5SRwldsNnET/SzV0z0uTXVyoznE9w2bX/9C21okkwlgg53w==";
+        };
     in {
         "PHK4gepq" = _PHK4gepq;
         "rdBspxQ6" = _rdBspxQ6;
@@ -110,14 +130,18 @@ let
         "zI6nkjfn" = _zI6nkjfn;
         "ADOaaXm8" = _ADOaaXm8;
         "WDYCFBRw" = _WDYCFBRw;
-        "fabric-1.20.1" = _PrCp2DEx;
-        "fabric-1.21.1" = _crjsHtW2;
+        "kXOWNpro" = _kXOWNpro;
+        "SltV3mX1" = _SltV3mX1;
+        "BuYiMV9P" = _BuYiMV9P;
+        "85LSJqgv" = _85LSJqgv;
+        "fabric-1.20.1" = _kXOWNpro;
+        "fabric-1.21.1" = _BuYiMV9P;
         "fabric-1.21.11" = _ADOaaXm8;
-        "quilt-1.20.1" = _PrCp2DEx;
-        "quilt-1.21.1" = _crjsHtW2;
+        "quilt-1.20.1" = _kXOWNpro;
+        "quilt-1.21.1" = _BuYiMV9P;
         "quilt-1.21.11" = _ADOaaXm8;
-        "forge-1.20.1" = _V6pwCIem;
-        "neoforge-1.21.1" = _zI6nkjfn;
+        "forge-1.20.1" = _SltV3mX1;
+        "neoforge-1.21.1" = _85LSJqgv;
         "neoforge-1.21.11" = _WDYCFBRw;
         "pkg-0.0.1" = _rdBspxQ6;
         "pkg-1.0.0" = _fFP3dZra;
@@ -128,7 +152,9 @@ let
         "pkg-3.0.0" = _V6pwCIem;
         "pkg-4.0.0" = _zI6nkjfn;
         "pkg-5.0.0" = _WDYCFBRw;
-        "default" = _WDYCFBRw;
+        "pkg-3.0.1" = _SltV3mX1;
+        "pkg-4.0.1" = _85LSJqgv;
+        "default" = _85LSJqgv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "maestro-music";

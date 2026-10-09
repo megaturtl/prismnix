@@ -71,6 +71,11 @@ let
             "file" = "centered-crosshair+26.2-1.5.1.jar";
             "hash" = "sha512-HyknuwzhY6L95zjQvBoP8vTrtofoZcAgOALHE7Z7jQM3vgMbNsO9koinHz2qqMgaI4QqmUkNyetsESYwViwEzw==";
         };
+        _lK8Z56fv = {
+            "id" = "lK8Z56fv";
+            "file" = "centered-crosshair+26.3-1.6.0.jar";
+            "hash" = "sha512-olo8kiUTGKEAq8R/lx6Wdu/LlBxC3HgQs9KFAHdrUHSYpf9yNbgDHCzltAk0hQWm20elReEYMlWWZLF9JNcUYA==";
+        };
     in {
         "lpbamBOW" = _lpbamBOW;
         "vSu3aj8F" = _vSu3aj8F;
@@ -86,6 +91,7 @@ let
         "H8mmxAzQ" = _H8mmxAzQ;
         "iSy7n8UE" = _iSy7n8UE;
         "2CgJiaPp" = _2CgJiaPp;
+        "lK8Z56fv" = _lK8Z56fv;
         "fabric-1.20" = _hiA1LsOR;
         "fabric-1.20.1" = _hiA1LsOR;
         "fabric-1.20.2" = _WLJhzxxG;
@@ -109,6 +115,7 @@ let
         "fabric-26.1.1" = _iSy7n8UE;
         "fabric-26.1.2" = _iSy7n8UE;
         "fabric-26.2" = _2CgJiaPp;
+        "fabric-26.3" = _lK8Z56fv;
         "pkg-1.0.0" = _lpbamBOW;
         "pkg-1.0.1" = _vSu3aj8F;
         "pkg-1.0.3" = _FwQAI5al;
@@ -123,7 +130,8 @@ let
         "pkg-1.4.0" = _H8mmxAzQ;
         "pkg-1.5.0" = _iSy7n8UE;
         "pkg-1.5.1" = _2CgJiaPp;
-        "default" = _2CgJiaPp;
+        "pkg-1.6.0" = _lK8Z56fv;
+        "default" = _lK8Z56fv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "centered-crosshair";

@@ -26,14 +26,20 @@ let
             "file" = "tidalcommission-neoforge-1.21.1-1.6.0.jar";
             "hash" = "sha512-oBjG6JXdDki987fbKaA34Kql1PqshW2fZdYqDZ6eOJgygpAScheexGTGquuBwJ3tfHw92ZAWStS6rT55QL5WEw==";
         };
+        _dzuyvD21 = {
+            "id" = "dzuyvD21";
+            "file" = "tidalcommission-neoforge-1.21.1-1.7.0.jar";
+            "hash" = "sha512-ItSiObwSSHSU9MOrHtYnxtL/qgJz9tn6GzjKJlxWJgrmCCMG643hmbyJEVTWM1lyHunreAR4+msl5E1jPgY2YA==";
+        };
     in {
         "LT1HSkTG" = _LT1HSkTG;
         "9qSE6OU6" = _9qSE6OU6;
         "BeJwfzZV" = _BeJwfzZV;
         "x1r0ZUJQ" = _x1r0ZUJQ;
         "FZngc1ly" = _FZngc1ly;
-        "neoforge-1.21" = _FZngc1ly;
-        "neoforge-1.21.1" = _FZngc1ly;
+        "dzuyvD21" = _dzuyvD21;
+        "neoforge-1.21" = _dzuyvD21;
+        "neoforge-1.21.1" = _dzuyvD21;
         "neoforge-1.21.2" = _FZngc1ly;
         "neoforge-1.21.3" = _FZngc1ly;
         "neoforge-1.21.4" = _FZngc1ly;
@@ -49,7 +55,8 @@ let
         "pkg-1.4.0" = _BeJwfzZV;
         "pkg-1.5.0" = _x1r0ZUJQ;
         "pkg-1.6.0" = _FZngc1ly;
-        "default" = _FZngc1ly;
+        "pkg-1.7.0" = _dzuyvD21;
+        "default" = _dzuyvD21;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tidal-commission";

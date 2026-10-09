@@ -101,6 +101,16 @@ let
             "file" = "tab_organizer-2.4.0-neoforge.jar";
             "hash" = "sha512-HuZH95wCzUvzZ8ID5eHkirqoGWt9U9aTWBCyQtrc1tgSQDKHKbpec0oX9yP20fAQsIYvAOVlAQWhI6oxGxR68A==";
         };
+        _Bm8xWT4i = {
+            "id" = "Bm8xWT4i";
+            "file" = "tab_organizer-2.4.1-neoforge.jar";
+            "hash" = "sha512-xgzwU3kOUF0vTQaUlTdYbPQS2rBPNvBxkmX7gJQ376hO8y6BeRcanDjWr5zEEmQ39+xE+wQvN3Wv2d5usL4Ajg==";
+        };
+        _4ZtsmJPF = {
+            "id" = "4ZtsmJPF";
+            "file" = "tab_organizer-2.4.0-forge.jar";
+            "hash" = "sha512-/uTAKE9C8H7raU4v/2RU31VktY5K9g9hLVGS0VkDBH35rYrU2nt1kVVefXuTtqeIBmuLj3vhZy198stCPq9RhQ==";
+        };
     in {
         "Z7a4htx1" = _Z7a4htx1;
         "K5bbMWpf" = _K5bbMWpf;
@@ -122,8 +132,10 @@ let
         "EDQYxUPa" = _EDQYxUPa;
         "2fBbwA9K" = _2fBbwA9K;
         "sBvcWigN" = _sBvcWigN;
-        "neoforge-1.21.1" = _sBvcWigN;
-        "forge-1.20.1" = _2fBbwA9K;
+        "Bm8xWT4i" = _Bm8xWT4i;
+        "4ZtsmJPF" = _4ZtsmJPF;
+        "neoforge-1.21.1" = _Bm8xWT4i;
+        "forge-1.20.1" = _4ZtsmJPF;
         "pkg-Tab_Organizer-1.0.0" = _Z7a4htx1;
         "pkg-Tab_Organizer-1.1.0" = _K5bbMWpf;
         "pkg-Tab_Organizer-1.1.1" = _waxVc95L;
@@ -135,8 +147,9 @@ let
         "pkg-Tab_Organizer-2.1.0" = _ldgllKGQ;
         "pkg-Tab_Organizer-2.2.0" = _4PO5AUWm;
         "pkg-Tab_Organizer-2.3.0" = _2fBbwA9K;
-        "pkg-Tab_Organizer-2.4.0" = _sBvcWigN;
-        "default" = _sBvcWigN;
+        "pkg-Tab_Organizer-2.4.0" = _4ZtsmJPF;
+        "pkg-Tab_Organizer-2.4.1" = _Bm8xWT4i;
+        "default" = _4ZtsmJPF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "creative-tab-organizer";

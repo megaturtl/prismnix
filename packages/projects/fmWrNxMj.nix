@@ -51,6 +51,26 @@ let
             "file" = "FreezeFrame-1.1-mc26.2.jar";
             "hash" = "sha512-melmLZ/Y/ulv/DFUoY4lHuy0V7DTYinFhHcxPQNrV2KxyCuqztvyuv+rTDYgcqxzwh/s1ThaGeQtS/KnkjhY9A==";
         };
+        _UIfxpbQX = {
+            "id" = "UIfxpbQX";
+            "file" = "FreezeFrame-1.2-mc26.2-neoforge.jar";
+            "hash" = "sha512-8A48BlgqOMhfq63rCG578qhE8s+M7pa7Kh9j78iP6vmI7lvuokM3y5hh8Q39b4AiQ6d1ym/cI06UGUxGR5TNUg==";
+        };
+        _Z8BC8SFn = {
+            "id" = "Z8BC8SFn";
+            "file" = "FreezeFrame-1.2-mc26.2-fabric.jar";
+            "hash" = "sha512-w1MDlnbd7NsmSaHnB2iV/UsN+4qKJheFgJHqYyKNDGalKKaH0aWGFWfjUw2B/A/nHIPyJ3/JFh+b1M5f8h2cpQ==";
+        };
+        _7w6ibUpZ = {
+            "id" = "7w6ibUpZ";
+            "file" = "FreezeFrame-1.2-mc26.3-fabric.jar";
+            "hash" = "sha512-0RhE/rtnmzjUbMcCRcjSONmJaIMKa4PCbuPkFH8oSQwbtydpgxmz/6jpYmmBZMc8xsMjI1r1EpizIUDzFOQk0g==";
+        };
+        _6pNm8cpO = {
+            "id" = "6pNm8cpO";
+            "file" = "FreezeFrame-1.2-mc26.3-neoforge.jar";
+            "hash" = "sha512-0u/ILBpSmtOVNw42iLqeOhoDy4uEaLSD+TIiUGCIBzWiaeunvNO3391IkvQOKTg/NJ8k8WVUT+qPcsafgEejgQ==";
+        };
     in {
         "wEOqTUEZ" = _wEOqTUEZ;
         "Qu7OOiab" = _Qu7OOiab;
@@ -62,6 +82,10 @@ let
         "sP347sur" = _sP347sur;
         "vwrOaYWe" = _vwrOaYWe;
         "zUSCE2og" = _zUSCE2og;
+        "UIfxpbQX" = _UIfxpbQX;
+        "Z8BC8SFn" = _Z8BC8SFn;
+        "7w6ibUpZ" = _7w6ibUpZ;
+        "6pNm8cpO" = _6pNm8cpO;
         "fabric-1.20.3" = _wEOqTUEZ;
         "fabric-1.20.4" = _wEOqTUEZ;
         "fabric-1.20.2" = _Qu7OOiab;
@@ -71,11 +95,14 @@ let
         "fabric-26.1" = _vwrOaYWe;
         "fabric-26.1.1" = _vwrOaYWe;
         "fabric-26.1.2" = _vwrOaYWe;
-        "fabric-26.2" = _zUSCE2og;
+        "fabric-26.2" = _Z8BC8SFn;
+        "fabric-26.3" = _7w6ibUpZ;
         "quilt-26.1" = _vwrOaYWe;
         "quilt-26.1.1" = _vwrOaYWe;
         "quilt-26.1.2" = _vwrOaYWe;
         "quilt-26.2" = _zUSCE2og;
+        "neoforge-26.2" = _UIfxpbQX;
+        "neoforge-26.3" = _6pNm8cpO;
         "pkg-1.0" = _wEOqTUEZ;
         "pkg-1.0-1.20.2" = _Qu7OOiab;
         "pkg-2.0-1.20.6" = _h50WoLEq;
@@ -86,7 +113,11 @@ let
         "pkg-1.0.1-mc26.1" = _sP347sur;
         "pkg-1.1-mc26.1" = _vwrOaYWe;
         "pkg-1.1-mc26.2" = _zUSCE2og;
-        "default" = _zUSCE2og;
+        "pkg-1.2-mc26.2-neoforge" = _UIfxpbQX;
+        "pkg-1.2-mc26.2-fabric" = _Z8BC8SFn;
+        "pkg-1.2-mc26.3-fabric" = _7w6ibUpZ;
+        "pkg-1.2-mc26.3-neoforge" = _6pNm8cpO;
+        "default" = _6pNm8cpO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "freeze-frame";

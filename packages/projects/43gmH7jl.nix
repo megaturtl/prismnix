@@ -71,6 +71,11 @@ let
             "file" = "brokenarray-1.4.92.jar";
             "hash" = "sha512-Q/G0aXu/tlO0Ojdl7G4cgUBnd23PzHnCog0GhLN9iSIxHaFmLYSeD29JG2J/fuT8+d6z2r8rDOEwsMlL2u440A==";
         };
+        _DfyjCbzJ = {
+            "id" = "DfyjCbzJ";
+            "file" = "brokenarray-1.4.93.jar";
+            "hash" = "sha512-cc1l0i58miX4w886QtVkrszbmJSLlaactZwkQ/5271KEUNV0FkuFIDHRx51eVGjI+EszOWFiOuEQxf1tXZWgCQ==";
+        };
     in {
         "WAuAHb4G" = _WAuAHb4G;
         "16Uq7XyB" = _16Uq7XyB;
@@ -86,7 +91,8 @@ let
         "Axf9a3HU" = _Axf9a3HU;
         "7H8sv5dS" = _7H8sv5dS;
         "1eAEdDYJ" = _1eAEdDYJ;
-        "neoforge-1.21.1" = _1eAEdDYJ;
+        "DfyjCbzJ" = _DfyjCbzJ;
+        "neoforge-1.21.1" = _DfyjCbzJ;
         "pkg-1.4.0" = _WAuAHb4G;
         "pkg-1.4.6" = _16Uq7XyB;
         "pkg-1.4.61" = _gZA4xNuH;
@@ -101,7 +107,8 @@ let
         "pkg-1.4.9" = _Axf9a3HU;
         "pkg-1.4.91" = _7H8sv5dS;
         "pkg-1.4.92" = _1eAEdDYJ;
-        "default" = _1eAEdDYJ;
+        "pkg-1.4.93" = _DfyjCbzJ;
+        "default" = _DfyjCbzJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-broken-array";

@@ -341,6 +341,46 @@ let
             "file" = "mythicupgrades-neoforge-26.2-5.1.0.jar";
             "hash" = "sha512-t1TE4OmpCuo47zb68ZPyobPWvFxmKCj6HlOdzYfbhsgEQuUFXbsokmx8EOBv/q0p+BcbHnd6BxXDl9J6qxPKKQ==";
         };
+        _OafxMWji = {
+            "id" = "OafxMWji";
+            "file" = "mythicupgrades-forge-1.20.1-5.1.1.jar";
+            "hash" = "sha512-lztvSWmUcRncy/iSEN5nX/rp7Gx7e6WXTYz5Heg3CTnhhjEb7UFDA2b58MvyE3tyWT22UZFTmhrrZgZquT+lUg==";
+        };
+        _aEqbbi2R = {
+            "id" = "aEqbbi2R";
+            "file" = "mythicupgrades-fabric-1.20.1-5.1.1.jar";
+            "hash" = "sha512-2vN7v14S+uniAJZgSizIaVZ0uWI04UofvDH1cF85vAj0R/fIEmVGKpJIbEfLbIxnGFn17HjkC90S/TNCjZzePA==";
+        };
+        _VBEYC2jr = {
+            "id" = "VBEYC2jr";
+            "file" = "mythicupgrades-neoforge-1.21.1-5.1.1.jar";
+            "hash" = "sha512-ZWiiHwH6GETVjcYo+19qVLxR47O6Jf6Dz0Fyp4ytp+szzNp1JmEAUg7HFN8UxHpyRzoDNpa2AW/rV0DfmCBwCA==";
+        };
+        _xESO5gq0 = {
+            "id" = "xESO5gq0";
+            "file" = "mythicupgrades-fabric-1.21.1-5.1.1.jar";
+            "hash" = "sha512-mlvA3HUIgfR/dSzV8rCb5Qq8xhlH1Lvv3RqioHJ38ih7r+xOzOdscJtvZaJO7okbkDfd9OybGHoJkzkaj+f6Tg==";
+        };
+        _h7xekRcY = {
+            "id" = "h7xekRcY";
+            "file" = "mythicupgrades-neoforge-26.2-5.1.1.jar";
+            "hash" = "sha512-M5chfQMDELeubqG4423Hbef3Laiaq+veFt9G4Y/ZhFgAp2z9ru1wOvhGHRrIQajFYLGyAErzAdd7aOvqfesrIA==";
+        };
+        _wXpiq0fe = {
+            "id" = "wXpiq0fe";
+            "file" = "mythicupgrades-fabric-26.2-5.1.1.jar";
+            "hash" = "sha512-Ah9urZ6VEyRmChIdem57ra3FGH8FwGNc9PSWVLa5ciXGRawFxuzcE3OBJGP3vAm++u9x9hZZcGgNPn0y2ho9/g==";
+        };
+        _ePzOD3Oc = {
+            "id" = "ePzOD3Oc";
+            "file" = "mythicupgrades-neoforge-26.3-5.1.1.jar";
+            "hash" = "sha512-yOEGDIJ28upbyvBM4s7k8T57AOxZAb46Z8BY1o9ctSblCTLYtMxcBsWRYHg/zXvU881rmEnKKWCGHdl+Pc+9KQ==";
+        };
+        _QE0FfpB5 = {
+            "id" = "QE0FfpB5";
+            "file" = "mythicupgrades-fabric-26.3-5.1.1.jar";
+            "hash" = "sha512-m7F9G5I9rit3+o8THJqvTY8xlv9jP0hHt6ZXK1wvR6qdu6gyyMUdQSsONxIRJXsYob7n4vi8NqXUKQMitQvx2A==";
+        };
     in {
         "xGAGPuFO" = _xGAGPuFO;
         "Ye8kBNTs" = _Ye8kBNTs;
@@ -410,16 +450,25 @@ let
         "UQvrrZMy" = _UQvrrZMy;
         "MRmmS3dd" = _MRmmS3dd;
         "VU3LckQo" = _VU3LckQo;
+        "OafxMWji" = _OafxMWji;
+        "aEqbbi2R" = _aEqbbi2R;
+        "VBEYC2jr" = _VBEYC2jr;
+        "xESO5gq0" = _xESO5gq0;
+        "h7xekRcY" = _h7xekRcY;
+        "wXpiq0fe" = _wXpiq0fe;
+        "ePzOD3Oc" = _ePzOD3Oc;
+        "QE0FfpB5" = _QE0FfpB5;
         "fabric-1.19.2" = _BpnnQpkq;
         "fabric-1.19.3" = _bvj5lBDH;
         "fabric-1.20" = _zJAuidYK;
-        "fabric-1.20.1" = _QduEsvY9;
+        "fabric-1.20.1" = _aEqbbi2R;
         "fabric-1.20.2" = _QngIDLwP;
         "fabric-1.20.3" = _KqpOSqHC;
         "fabric-1.20.4" = _KqpOSqHC;
         "fabric-1.21" = _taHiJ6AB;
-        "fabric-1.21.1" = _v0Asz1bK;
-        "fabric-26.2" = _MRmmS3dd;
+        "fabric-1.21.1" = _xESO5gq0;
+        "fabric-26.2" = _wXpiq0fe;
+        "fabric-26.3" = _QE0FfpB5;
         "quilt-1.20.1" = _cD4zn9kb;
         "quilt-1.20.2" = _QngIDLwP;
         "quilt-1.20.3" = _A2AAH7Aq;
@@ -427,9 +476,10 @@ let
         "quilt-1.20" = _zJAuidYK;
         "quilt-1.21" = _taHiJ6AB;
         "quilt-1.21.1" = _taHiJ6AB;
-        "forge-1.20.1" = _i30N18fD;
-        "neoforge-1.21.1" = _UQvrrZMy;
-        "neoforge-26.2" = _VU3LckQo;
+        "forge-1.20.1" = _OafxMWji;
+        "neoforge-1.21.1" = _VBEYC2jr;
+        "neoforge-26.2" = _h7xekRcY;
+        "neoforge-26.3" = _ePzOD3Oc;
         "pkg-1.3" = _xGAGPuFO;
         "pkg-1.4.1" = _Ye8kBNTs;
         "pkg-1.5" = _WkIXGKWr;
@@ -480,7 +530,8 @@ let
         "pkg-5.0.1" = _PhIJprg7;
         "pkg-5.0.2" = _BO1Ahiew;
         "pkg-5.1.0" = _VU3LckQo;
-        "default" = _VU3LckQo;
+        "pkg-5.1.1" = _QE0FfpB5;
+        "default" = _QE0FfpB5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mythic-upgrades";

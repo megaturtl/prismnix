@@ -16,15 +16,22 @@ let
             "file" = "create_frequency-0.7.0+mc1.21.1-neoforge.jar";
             "hash" = "sha512-ROn+rVDJZevNcR8Nm9FI/W8OMeqmCT6viTiwGLxfOmIXa36LEIX7ehv0QG7FcgQfyTZE3ZgjvHq+xzsxdJQqyA==";
         };
+        _X7J14WZ3 = {
+            "id" = "X7J14WZ3";
+            "file" = "create_frequency-0.7.1+mc1.21.1-neoforge.jar";
+            "hash" = "sha512-NCfEkYwxfO7fHwrFkF3kd3QYDHTIN++XYkXmJs+H/KhZRG/QFGovo6TAYm1NSrn9vDJwXg8m+MHME9VEWtGK1Q==";
+        };
     in {
         "Sqx7YWKv" = _Sqx7YWKv;
         "iPG4EgnV" = _iPG4EgnV;
         "5fmCO7JQ" = _5fmCO7JQ;
-        "neoforge-1.21.1" = _5fmCO7JQ;
+        "X7J14WZ3" = _X7J14WZ3;
+        "neoforge-1.21.1" = _X7J14WZ3;
         "pkg-0.5.0" = _Sqx7YWKv;
         "pkg-0.6.5" = _iPG4EgnV;
         "pkg-0.7.0+mc1.21.1-neoforge" = _5fmCO7JQ;
-        "default" = _5fmCO7JQ;
+        "pkg-0.7.1+mc1.21.1-neoforge" = _X7J14WZ3;
+        "default" = _X7J14WZ3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-frequency";

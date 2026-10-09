@@ -151,6 +151,41 @@ let
             "file" = "soaring_phantoms-1.2.8+26.1.2-fabric.jar";
             "hash" = "sha512-QaBnTVuaxEwGrjgo6WXvtx4EIYGtV6fFWyILqsJGegl63/CqiHy8RgtQYSHZWKP2tAJx910HWrC3gVcQhJuqrg==";
         };
+        _NBESbJqi = {
+            "id" = "NBESbJqi";
+            "file" = "soaring_phantoms-neoforge-1.2.9+1.21.1.jar";
+            "hash" = "sha512-L7ZUuRqMGdpQmoKs5ZzIPeT4t3Hz7fMMmbqkZ04yhBsUZ8urVjdcO1PP3ApYR6nRQZf+c9ZY2nn1fC80UGHcUQ==";
+        };
+        _yVg3yLrk = {
+            "id" = "yVg3yLrk";
+            "file" = "soaring_phantoms-neoforge-1.2.9+26.2.jar";
+            "hash" = "sha512-e4hhG5OIlZBhVMHETMRPJJ6Q5X0SRSiDZ3IdLADepQNM38BlR6wkMxFRFMgfiotZ2PEo+2A6cshrlHMTmSVJfQ==";
+        };
+        _DfGCINkX = {
+            "id" = "DfGCINkX";
+            "file" = "soaring_phantoms-neoforge-1.2.9+26.1.2.jar";
+            "hash" = "sha512-3QlJGdqfC2Lvd/jlq8OcgPA3/bnr94pkR3h3+nzB+dYUU9drzItGWM1pNzxO6QdCtr2fYzsrUTclBNTO7ni/RA==";
+        };
+        _gQe80zYD = {
+            "id" = "gQe80zYD";
+            "file" = "soaring_phantoms-fabric-1.2.9+26.2.jar";
+            "hash" = "sha512-FauP8XCEwMUSUa0frz3iSq4BeDg5LIwRoT3jSNoNdYqepSjvLVtWYhDXhjAJy4my/2belj38UQ157JbbPfUhcA==";
+        };
+        _QhHSiu34 = {
+            "id" = "QhHSiu34";
+            "file" = "soaring_phantoms-fabric-1.2.9+1.21.1.jar";
+            "hash" = "sha512-iRPiIBNeDVHVuHU6zr0cd6O5hwhIwiqCeD3QOTv4qwt2i+ItFXq9n8i3gANwTWUkGCHgD11FHeREhwcgoY+qEw==";
+        };
+        _M0VO7ZJ7 = {
+            "id" = "M0VO7ZJ7";
+            "file" = "soaring_phantoms-fabric-1.2.9+26.1.2.jar";
+            "hash" = "sha512-JN7gH1Z+78kTqmO9pUNaJyshh85KRc3A3HmD+ddLaU70ngBapeYUAJdiu2tGU32GCX70xRwmDFAeQwes9ajvug==";
+        };
+        _1ldoziSA = {
+            "id" = "1ldoziSA";
+            "file" = "soaring_phantoms-fabric-1.2.9+26.3.jar";
+            "hash" = "sha512-2jHZLTKeQlt6Y+mf3ww1A50nS2949BRWUn/NUqB6q8JmwKUfc8jGJN87VPv64RraE2A7HkikQaTp8Iv4NaB3BA==";
+        };
     in {
         "Bs9taRUt" = _Bs9taRUt;
         "wqE31303" = _wqE31303;
@@ -182,6 +217,13 @@ let
         "VREXtB84" = _VREXtB84;
         "IFcNkbmW" = _IFcNkbmW;
         "AyzGeUoa" = _AyzGeUoa;
+        "NBESbJqi" = _NBESbJqi;
+        "yVg3yLrk" = _yVg3yLrk;
+        "DfGCINkX" = _DfGCINkX;
+        "gQe80zYD" = _gQe80zYD;
+        "QhHSiu34" = _QhHSiu34;
+        "M0VO7ZJ7" = _M0VO7ZJ7;
+        "1ldoziSA" = _1ldoziSA;
         "fabric-1.20" = _Bs9taRUt;
         "fabric-1.20.1" = _Bs9taRUt;
         "fabric-1.20.2" = _Bs9taRUt;
@@ -189,8 +231,8 @@ let
         "fabric-1.20.4" = _Bs9taRUt;
         "fabric-1.20.5" = _Bs9taRUt;
         "fabric-1.20.6" = _Bs9taRUt;
-        "fabric-1.21" = _wqE31303;
-        "fabric-1.21.1" = _X6so5AqL;
+        "fabric-1.21" = _QhHSiu34;
+        "fabric-1.21.1" = _QhHSiu34;
         "fabric-1.21.2" = _Kt5iWb17;
         "fabric-1.21.3" = _Kt5iWb17;
         "fabric-1.21.4" = _Kt5iWb17;
@@ -200,20 +242,22 @@ let
         "fabric-1.21.8" = _eYPAq3tN;
         "fabric-1.21.10" = _tUCICTLp;
         "fabric-1.21.11" = _qByAdiES;
-        "fabric-26.1" = _d9DcvbHh;
-        "fabric-26.1.1" = _d9DcvbHh;
-        "fabric-26.1.2" = _AyzGeUoa;
-        "fabric-26.2" = _AyzGeUoa;
-        "neoforge-1.21" = _CuxpcWKc;
-        "neoforge-1.21.1" = _tahkrknC;
+        "fabric-26.1" = _M0VO7ZJ7;
+        "fabric-26.1.1" = _M0VO7ZJ7;
+        "fabric-26.1.2" = _M0VO7ZJ7;
+        "fabric-26.2" = _gQe80zYD;
+        "fabric-26.3" = _1ldoziSA;
+        "neoforge-1.21" = _NBESbJqi;
+        "neoforge-1.21.1" = _NBESbJqi;
         "neoforge-1.21.2" = _7Yxhcyxl;
         "neoforge-1.21.3" = _7Yxhcyxl;
         "neoforge-1.21.4" = _7Yxhcyxl;
         "neoforge-1.21.10" = _p45n106x;
         "neoforge-1.21.11" = _bBOI3Pj4;
-        "neoforge-26.1" = _jo4raI15;
-        "neoforge-26.1.1" = _jo4raI15;
-        "neoforge-26.1.2" = _IFcNkbmW;
+        "neoforge-26.1" = _DfGCINkX;
+        "neoforge-26.1.1" = _DfGCINkX;
+        "neoforge-26.1.2" = _DfGCINkX;
+        "neoforge-26.2" = _yVg3yLrk;
         "pkg-1.0.0+1.20" = _Bs9taRUt;
         "pkg-1.0.0+1.21.1" = _wqE31303;
         "pkg-1.0.1+1.21.1" = _CuxpcWKc;
@@ -244,7 +288,11 @@ let
         "pkg-1.2.7+26.1.2-fabric" = _VREXtB84;
         "pkg-1.2.8+26.1.2-neoforge" = _IFcNkbmW;
         "pkg-1.2.8+26.1.2-fabric" = _AyzGeUoa;
-        "default" = _AyzGeUoa;
+        "pkg-1.2.9+1.21.1" = _QhHSiu34;
+        "pkg-1.2.9+26.2" = _gQe80zYD;
+        "pkg-1.2.9+26.1.2" = _M0VO7ZJ7;
+        "pkg-1.2.9+26.3" = _1ldoziSA;
+        "default" = _1ldoziSA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "soaring-phantoms";

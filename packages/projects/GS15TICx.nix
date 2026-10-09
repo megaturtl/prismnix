@@ -26,12 +26,18 @@ let
             "file" = "darkfear-fabric-mc26.3-1.1.0.jar";
             "hash" = "sha512-pWMnbKgRIUuZezRknN4xxAb6OsRu4ywcL3FaWdWA5V/SCVh8/Eja+gd3yAsbd93mwcurrVvcGBtw6N5PVWa0Xw==";
         };
+        _MnxzntBB = {
+            "id" = "MnxzntBB";
+            "file" = "darkfear-1.1+mc26.3-neoforge.jar";
+            "hash" = "sha512-CRdV48U50TxsSs6jizDfKwSa70XXpbwbXUv1p7OJgQHX30bLIl2OXl5j13CIo0oN3KSwKXmtQN/wi4SPCrhfqw==";
+        };
     in {
         "UjfX27ji" = _UjfX27ji;
         "C09yekX4" = _C09yekX4;
         "nquvmKr7" = _nquvmKr7;
         "y7WQ4jAc" = _y7WQ4jAc;
         "SbRlMT4P" = _SbRlMT4P;
+        "MnxzntBB" = _MnxzntBB;
         "fabric-1.19.2" = _UjfX27ji;
         "fabric-1.20.1" = _C09yekX4;
         "fabric-1.20.2" = _C09yekX4;
@@ -43,9 +49,15 @@ let
         "fabric-26.1.2" = _SbRlMT4P;
         "fabric-26.2" = _SbRlMT4P;
         "fabric-26.3" = _SbRlMT4P;
+        "neoforge-26.1" = _MnxzntBB;
+        "neoforge-26.1.1" = _MnxzntBB;
+        "neoforge-26.1.2" = _MnxzntBB;
+        "neoforge-26.2" = _MnxzntBB;
+        "neoforge-26.3" = _MnxzntBB;
         "pkg-1.0.3" = _y7WQ4jAc;
-        "pkg-1.1.0" = _SbRlMT4P;
-        "default" = _SbRlMT4P;
+        "pkg-1.1+mc26.3-fabric" = _SbRlMT4P;
+        "pkg-1.1+mc26.3-neoforge" = _MnxzntBB;
+        "default" = _MnxzntBB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "darkfear";

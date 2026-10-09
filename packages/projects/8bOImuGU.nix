@@ -116,6 +116,11 @@ let
             "file" = "logical_zoom-0.0.36.jar";
             "hash" = "sha512-FV+tL3cSw6J7SegrgjTvKdMYoBdXOOaDiiwaVdsVIG6MyARRDRizQQ2bCf3kQfW5VQ+UvUwbPCQiJeL5dToHFw==";
         };
+        _NG757h5m = {
+            "id" = "NG757h5m";
+            "file" = "logical_zoom-0.0.37.jar";
+            "hash" = "sha512-GyfZGPe1xvbZ6ALZm3t3k6LvaKcxxomy5xKwEM6b6+ZsQBnZ5796rI4SuKsTHot5ps3uiTQRwnAbpeAWkTPkFQ==";
+        };
     in {
         "yyhzpPCz" = _yyhzpPCz;
         "jyYfoJ8b" = _jyYfoJ8b;
@@ -140,6 +145,7 @@ let
         "BZnk4yTe" = _BZnk4yTe;
         "LK7npJtc" = _LK7npJtc;
         "DCo1Y5Qa" = _DCo1Y5Qa;
+        "NG757h5m" = _NG757h5m;
         "fabric-1.18.2" = _yyhzpPCz;
         "fabric-1.19" = _jyYfoJ8b;
         "fabric-1.19.1" = _yN8Mcyj2;
@@ -166,6 +172,7 @@ let
         "fabric-26.1.1" = _LK7npJtc;
         "fabric-26.1.2" = _LK7npJtc;
         "fabric-26.2" = _DCo1Y5Qa;
+        "fabric-26.3" = _NG757h5m;
         "pkg-0.0.14" = _yyhzpPCz;
         "pkg-0.0.15" = _jyYfoJ8b;
         "pkg-0.0.16" = _yN8Mcyj2;
@@ -189,7 +196,8 @@ let
         "pkg-0.0.34" = _BZnk4yTe;
         "pkg-0.0.35" = _LK7npJtc;
         "pkg-0.0.36" = _DCo1Y5Qa;
-        "default" = _DCo1Y5Qa;
+        "pkg-0.0.37" = _NG757h5m;
+        "default" = _NG757h5m;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "logical-zoom";

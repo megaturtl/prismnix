@@ -51,6 +51,16 @@ let
             "file" = "Ripple-1.2.3-1.21.11.jar";
             "hash" = "sha512-HD8tLLp/bS2HHI3Mst9LBwpUnEj7YvOAJKrUFvBHwf34GYk4CWPmOFfNhORvjg/kKbtgqeFFt1R3Zjragign0A==";
         };
+        _dJK0i3JK = {
+            "id" = "dJK0i3JK";
+            "file" = "Ripple-1.2.4-26.3.jar";
+            "hash" = "sha512-eFDmwRzHbEUMLg9vL1s9MdersJT+tlzY3AWpB4CorwBIixsFs2BoHeZJrXzdPPHLv6jmPSHL48UI0cUIAkrkFw==";
+        };
+        _qYDERndO = {
+            "id" = "qYDERndO";
+            "file" = "Ripple-1.2.5-26.3.jar";
+            "hash" = "sha512-1GyNMc3lHMynrT9xsNlGobYkRNIRs2liXViJuzy3EgMfVw/a0UUI/E6NsljAucWR97YiTg8OhcH3IRk/dcbs9A==";
+        };
     in {
         "sCnKRHmh" = _sCnKRHmh;
         "EhEn5kG8" = _EhEn5kG8;
@@ -62,6 +72,8 @@ let
         "VqmLKAjX" = _VqmLKAjX;
         "FUG1A2Eh" = _FUG1A2Eh;
         "KzBjhn8E" = _KzBjhn8E;
+        "dJK0i3JK" = _dJK0i3JK;
+        "qYDERndO" = _qYDERndO;
         "fabric-1.21.11" = _KzBjhn8E;
         "fabric-26.1" = _f6u2oIOg;
         "fabric-26.1.1" = _f6u2oIOg;
@@ -78,12 +90,15 @@ let
         "fabric-1.21.9" = _VqmLKAjX;
         "fabric-1.21.10" = _VqmLKAjX;
         "fabric-26.2" = _FUG1A2Eh;
+        "fabric-26.3" = _qYDERndO;
         "pkg-1.0.0" = _sCnKRHmh;
         "pkg-1.1.0" = _8i90iddt;
         "pkg-1.2.0" = _8NCU2f5e;
         "pkg-1.2.1" = _VqmLKAjX;
         "pkg-1.2.3" = _KzBjhn8E;
-        "default" = _KzBjhn8E;
+        "pkg-1.2.4" = _dJK0i3JK;
+        "pkg-1.2.5" = _qYDERndO;
+        "default" = _qYDERndO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ripple";

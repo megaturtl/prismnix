@@ -61,6 +61,26 @@ let
             "file" = "AutoTune FPS v0.2.2-26.1-26.2.jar";
             "hash" = "sha512-GLfGKgag7I4MhE2W19fRYTv9NeeD4hy1DVGqUD/OcJ7nhTTBCNRve0+bcGukHRfhzKchl/G0eQ1wk4ZYaWuU+Q==";
         };
+        _cmcBWRS3 = {
+            "id" = "cmcBWRS3";
+            "file" = "AutoTune FPS v0.2.3-Fabric-1.21-1.21.11.jar";
+            "hash" = "sha512-wOEVYekmk4Dwp9XdVZw2+PKK0JyD4WNM0eB0LtlUGpe7h3l66iB3zPq8VW19IGXgGXQwzOAh94rDlhCds8L8bw==";
+        };
+        _g5rmOJBv = {
+            "id" = "g5rmOJBv";
+            "file" = "AutoTune FPS v0.2.3-Fabric-26.1-26.2.jar";
+            "hash" = "sha512-HVI7B1d67vP8VNiNc69/qV7gpjbpXm/cdlC1KurK+EtqBKbMC5LMsC8jRJVWCcpsaK52aFfThmnHIdqfAK3qLA==";
+        };
+        _7g6ALirw = {
+            "id" = "7g6ALirw";
+            "file" = "AutoTune FPS v0.2.3-NeoForge-1.21-1.21.11.jar";
+            "hash" = "sha512-eJNBW3G+UCBqxXInqALHhTqSxe0LFIuPRZrPqc6woLOSm2LDRwlse4j1WJzdxpItXxY1EImJwulHd/4JZffP5w==";
+        };
+        _MAF6yKio = {
+            "id" = "MAF6yKio";
+            "file" = "AutoTune FPS v0.2.3-NeoForge-26.1-26.2.jar";
+            "hash" = "sha512-cAyBCavhh6+hFiYAayf21bRj3OrweJIBLwYOUABrsLEfr849ob+WiEBnPxA5jbLbZNivHkLc72lbeuR/5azaaw==";
+        };
     in {
         "Mzjg7uuS" = _Mzjg7uuS;
         "TlpQpX9F" = _TlpQpX9F;
@@ -74,22 +94,42 @@ let
         "rFv2ORVG" = _rFv2ORVG;
         "vrKJ55YM" = _vrKJ55YM;
         "Mp8Bjqvy" = _Mp8Bjqvy;
-        "fabric-1.21.1" = _vrKJ55YM;
-        "fabric-1.21.2" = _vrKJ55YM;
-        "fabric-1.21.3" = _vrKJ55YM;
-        "fabric-1.21.4" = _vrKJ55YM;
-        "fabric-1.21.5" = _vrKJ55YM;
-        "fabric-1.21.6" = _vrKJ55YM;
-        "fabric-1.21.7" = _vrKJ55YM;
-        "fabric-1.21.8" = _vrKJ55YM;
-        "fabric-1.21.9" = _vrKJ55YM;
-        "fabric-1.21.10" = _vrKJ55YM;
-        "fabric-1.21.11" = _vrKJ55YM;
-        "fabric-1.21" = _vrKJ55YM;
-        "fabric-26.1" = _Mp8Bjqvy;
-        "fabric-26.1.1" = _Mp8Bjqvy;
-        "fabric-26.1.2" = _Mp8Bjqvy;
-        "fabric-26.2" = _Mp8Bjqvy;
+        "cmcBWRS3" = _cmcBWRS3;
+        "g5rmOJBv" = _g5rmOJBv;
+        "7g6ALirw" = _7g6ALirw;
+        "MAF6yKio" = _MAF6yKio;
+        "fabric-1.21.1" = _cmcBWRS3;
+        "fabric-1.21.2" = _cmcBWRS3;
+        "fabric-1.21.3" = _cmcBWRS3;
+        "fabric-1.21.4" = _cmcBWRS3;
+        "fabric-1.21.5" = _cmcBWRS3;
+        "fabric-1.21.6" = _cmcBWRS3;
+        "fabric-1.21.7" = _cmcBWRS3;
+        "fabric-1.21.8" = _cmcBWRS3;
+        "fabric-1.21.9" = _cmcBWRS3;
+        "fabric-1.21.10" = _cmcBWRS3;
+        "fabric-1.21.11" = _cmcBWRS3;
+        "fabric-1.21" = _cmcBWRS3;
+        "fabric-26.1" = _g5rmOJBv;
+        "fabric-26.1.1" = _g5rmOJBv;
+        "fabric-26.1.2" = _g5rmOJBv;
+        "fabric-26.2" = _g5rmOJBv;
+        "neoforge-1.21" = _7g6ALirw;
+        "neoforge-1.21.1" = _7g6ALirw;
+        "neoforge-1.21.2" = _7g6ALirw;
+        "neoforge-1.21.3" = _7g6ALirw;
+        "neoforge-1.21.4" = _7g6ALirw;
+        "neoforge-1.21.5" = _7g6ALirw;
+        "neoforge-1.21.6" = _7g6ALirw;
+        "neoforge-1.21.7" = _7g6ALirw;
+        "neoforge-1.21.8" = _7g6ALirw;
+        "neoforge-1.21.9" = _7g6ALirw;
+        "neoforge-1.21.10" = _7g6ALirw;
+        "neoforge-1.21.11" = _7g6ALirw;
+        "neoforge-26.1" = _MAF6yKio;
+        "neoforge-26.1.1" = _MAF6yKio;
+        "neoforge-26.1.2" = _MAF6yKio;
+        "neoforge-26.2" = _MAF6yKio;
         "pkg-0.1.0" = _Mzjg7uuS;
         "pkg-0.1.1" = _TlpQpX9F;
         "pkg-0.1.2" = _CmIiJbgd;
@@ -98,7 +138,8 @@ let
         "pkg-0.2.0" = _wCHzZM0s;
         "pkg-0.2.1" = _rFv2ORVG;
         "pkg-0.2.2" = _Mp8Bjqvy;
-        "default" = _Mp8Bjqvy;
+        "pkg-0.2.3" = _MAF6yKio;
+        "default" = _MAF6yKio;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "autotune-fps";

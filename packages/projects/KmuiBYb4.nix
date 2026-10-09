@@ -504,8 +504,8 @@ let
         "pkg-1.8.0" = _4Gm9ssxc;
         "pkg-1.8.1" = _CCZNFPeM;
         "pkg-1.8.2" = _4DCUBMUv;
-        "pkg-1.8.3" = _hWiVR7TV;
-        "pkg-1.8.4" = _ZdmjMzBx;
+        "pkg-1.8.3" = _bTBwLUlS;
+        "pkg-1.8.4" = _hWiVR7TV;
         "default" = _hWiVR7TV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

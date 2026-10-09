@@ -31,6 +31,16 @@ let
             "file" = "pokebelt-0.1.0.jar";
             "hash" = "sha512-n3PTcEKANGSKY6Ki3rmqQHw6sE1HJFSkPiZNLBjpED0ih5qB3YmNfGkCK/l8LzJZBXGBd6nPJ1qp9wiTpjcoWA==";
         };
+        _3a2Heekj = {
+            "id" = "3a2Heekj";
+            "file" = "pokebelt-0.1.2.jar";
+            "hash" = "sha512-+l7eh/jYo346tC76z7X0Qp3LicLgTqRZo5VjXuqfqVfKkSFau2O14XNcUQIRTaXp9XF/fuW/0hUVnjWyc8xnsw==";
+        };
+        _BMZo4p01 = {
+            "id" = "BMZo4p01";
+            "file" = "pokebelt-0.1.2.jar";
+            "hash" = "sha512-+l7eh/jYo346tC76z7X0Qp3LicLgTqRZo5VjXuqfqVfKkSFau2O14XNcUQIRTaXp9XF/fuW/0hUVnjWyc8xnsw==";
+        };
     in {
         "CEKBgeEn" = _CEKBgeEn;
         "lFUzP91v" = _lFUzP91v;
@@ -38,14 +48,18 @@ let
         "oJJGFTd6" = _oJJGFTd6;
         "2BXwfDRn" = _2BXwfDRn;
         "6BCT9c6x" = _6BCT9c6x;
-        "fabric-1.21.1" = _6BCT9c6x;
+        "3a2Heekj" = _3a2Heekj;
+        "BMZo4p01" = _BMZo4p01;
+        "fabric-1.21.1" = _3a2Heekj;
+        "neoforge-1.21.1" = _BMZo4p01;
         "pkg-Pokebelt-0.0.1" = _CEKBgeEn;
         "pkg-0.0.7" = _lFUzP91v;
         "pkg-0.0.8" = _boTKs3Ma;
         "pkg-0.0.9" = _oJJGFTd6;
         "pkg-0.0.91" = _2BXwfDRn;
         "pkg-0.1.0" = _6BCT9c6x;
-        "default" = _6BCT9c6x;
+        "pkg-0.1.2" = _BMZo4p01;
+        "default" = _BMZo4p01;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pokebelt-cobblemon";

@@ -1281,6 +1281,16 @@ let
             "file" = "homeostatic-26.1.2-fabric-2.13.0.2.jar";
             "hash" = "sha512-z7Yorn5nalq06szsktm6Yyllo5Z9xGX5pJelSpv524EtLNYkWIRQtW8cCR+UfIgGiFHtVx+U95HbgnpP3XDvag==";
         };
+        _i7U8qPES = {
+            "id" = "i7U8qPES";
+            "file" = "homeostatic-26.3-fabric-2.13.0.1.jar";
+            "hash" = "sha512-LYrsaT8ciqtD17byGzRJkYrwOaSw0OYzwi8pOToqRWhXPLPl35P7kJ6wdQUnve9v81/5N80I9dvvbL4p4tiWwA==";
+        };
+        _XeoVnxau = {
+            "id" = "XeoVnxau";
+            "file" = "homeostatic-26.3-neoforge-2.13.0.1.jar";
+            "hash" = "sha512-JRtzl6AC22KyKx9R2f/u/NC/JkabhufrS4rOrIsUNMxSsjb1vZDintR8CbEeBduxlLpt3hrJXWwFMmXWEbmytQ==";
+        };
     in {
         "Fk8UnOqF" = _Fk8UnOqF;
         "a7HanbDk" = _a7HanbDk;
@@ -1538,6 +1548,8 @@ let
         "RbRpgZ93" = _RbRpgZ93;
         "xeD4gf5D" = _xeD4gf5D;
         "7NDY9TiZ" = _7NDY9TiZ;
+        "i7U8qPES" = _i7U8qPES;
+        "XeoVnxau" = _XeoVnxau;
         "forge-1.18.2" = _PPaAdeqy;
         "forge-1.19.2" = _UGcT9nsS;
         "forge-1.19.4" = _I9k0VNay;
@@ -1556,6 +1568,7 @@ let
         "neoforge-26.1.1" = _xeD4gf5D;
         "neoforge-26.1.2" = _xeD4gf5D;
         "neoforge-26.2" = _RbRpgZ93;
+        "neoforge-26.3" = _XeoVnxau;
         "fabric-1.20" = _AKQhL38b;
         "fabric-1.20.1" = _pzJh0p9r;
         "fabric-1.20.4" = _Ql64fDQD;
@@ -1569,6 +1582,7 @@ let
         "fabric-26.1.1" = _7NDY9TiZ;
         "fabric-26.1.2" = _7NDY9TiZ;
         "fabric-26.2" = _IQrivzqu;
+        "fabric-26.3" = _i7U8qPES;
         "pkg-1.18.2-1.3.5.8" = _Fk8UnOqF;
         "pkg-1.19.2-2.6.8.2" = _a7HanbDk;
         "pkg-1.19.4-2.8.4.2" = _VwyXu43S;
@@ -1802,7 +1816,8 @@ let
         "pkg-26.1.2-2.13.0.1" = _xeD4gf5D;
         "pkg-26.2-2.13.0.1" = _RbRpgZ93;
         "pkg-26.1.2-2.13.0.2" = _7NDY9TiZ;
-        "default" = _7NDY9TiZ;
+        "pkg-26.3-2.13.0.1" = _XeoVnxau;
+        "default" = _XeoVnxau;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "homeostatic";

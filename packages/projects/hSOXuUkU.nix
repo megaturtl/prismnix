@@ -291,6 +291,26 @@ let
             "file" = "enchantd-golden-apple-recipe-1.0.jar";
             "hash" = "sha512-KEiWsxnCrt5ekFfcQeau+x/svi34EGqBFXSeB6Q/pgzlgz/k3oBwpMTjsQgFcQkrtKMchcKKoJbjVTcCf7DZ2Q==";
         };
+        _ZTt5xHpx = {
+            "id" = "ZTt5xHpx";
+            "file" = "enchanted_golden_apple-26.3.zip";
+            "hash" = "sha512-DsL35+GVywtL6lkqcK4oe3490Q1XRgagsZWb3EmmDzpn0Z4t9LigSskwgMsICetNM/J5fCq20HB8CyAHX5GLRw==";
+        };
+        _4rIDf2d7 = {
+            "id" = "4rIDf2d7";
+            "file" = "enchantd-golden-apple-recipe-1.0.jar";
+            "hash" = "sha512-Y/yktUr3zj5qpauA/kzHC3c1gSW1m9EjHGNqVzg5Pqbaim/0d8/G8CJTxjERdWq/6P623QuA96DIRNyvlLm76Q==";
+        };
+        _M3Wrf3Ah = {
+            "id" = "M3Wrf3Ah";
+            "file" = "enchanted_golden_apple-1.19-1.19.3-datapack.zip";
+            "hash" = "sha512-6zDZcg91J8QxA5DtWSCL+eUH7pvnVQwuOxYPc+kl90cUdtiXQN4oqK3X8w5dVBjGbmD0JlBozzcEYqMcgZUAdw==";
+        };
+        _kP9kdRI4 = {
+            "id" = "kP9kdRI4";
+            "file" = "enchantd-golden-apple-recipe-1.0.jar";
+            "hash" = "sha512-IaQc4RexinjWd000NKYZrAjg20GrMoAC9F1PKX9m51Mqt8OE85In/mmaGqFgn5mhUA2+7BvdtwO8590EVKSlXw==";
+        };
     in {
         "CiQoU7mE" = _CiQoU7mE;
         "nynS0pHx" = _nynS0pHx;
@@ -350,6 +370,10 @@ let
         "tjDO9gl7" = _tjDO9gl7;
         "K7dAEShg" = _K7dAEShg;
         "mfsBtbJ2" = _mfsBtbJ2;
+        "ZTt5xHpx" = _ZTt5xHpx;
+        "4rIDf2d7" = _4rIDf2d7;
+        "M3Wrf3Ah" = _M3Wrf3Ah;
+        "kP9kdRI4" = _kP9kdRI4;
         "datapack-1.21.2" = _nlLb2HKF;
         "datapack-1.21.3" = _nlLb2HKF;
         "datapack-1.21.4" = _nlLb2HKF;
@@ -375,10 +399,10 @@ let
         "datapack-1.17.1" = _W9BVXjls;
         "datapack-1.18" = _Roi98D52;
         "datapack-1.18.1" = _Roi98D52;
-        "datapack-1.19" = _WoeDRgE2;
-        "datapack-1.19.1" = _WoeDRgE2;
-        "datapack-1.19.2" = _WoeDRgE2;
-        "datapack-1.19.3" = _WoeDRgE2;
+        "datapack-1.19" = _M3Wrf3Ah;
+        "datapack-1.19.1" = _M3Wrf3Ah;
+        "datapack-1.19.2" = _M3Wrf3Ah;
+        "datapack-1.19.3" = _M3Wrf3Ah;
         "datapack-1.19.4" = _P7TGdBdy;
         "datapack-1.20" = _P7TGdBdy;
         "datapack-1.20.1" = _P7TGdBdy;
@@ -413,6 +437,7 @@ let
         "datapack-1.20.5" = _P7TGdBdy;
         "datapack-26.2" = _K7dAEShg;
         "datapack-26.3-snapshot-1" = _K7dAEShg;
+        "datapack-26.3" = _ZTt5xHpx;
         "fabric-1.21.2" = _js8W7CTs;
         "fabric-1.21.3" = _js8W7CTs;
         "fabric-1.21.4" = _js8W7CTs;
@@ -438,10 +463,10 @@ let
         "fabric-1.17.1" = _9FLMzs4M;
         "fabric-1.18" = _OB0VVFy6;
         "fabric-1.18.1" = _OB0VVFy6;
-        "fabric-1.19" = _PumFAq6o;
-        "fabric-1.19.1" = _PumFAq6o;
-        "fabric-1.19.2" = _PumFAq6o;
-        "fabric-1.19.3" = _PumFAq6o;
+        "fabric-1.19" = _kP9kdRI4;
+        "fabric-1.19.1" = _kP9kdRI4;
+        "fabric-1.19.2" = _kP9kdRI4;
+        "fabric-1.19.3" = _kP9kdRI4;
         "fabric-1.19.4" = _tjDO9gl7;
         "fabric-1.20" = _tjDO9gl7;
         "fabric-1.20.1" = _tjDO9gl7;
@@ -476,6 +501,7 @@ let
         "fabric-1.20.5" = _tjDO9gl7;
         "fabric-26.2" = _mfsBtbJ2;
         "fabric-26.3-snapshot-1" = _mfsBtbJ2;
+        "fabric-26.3" = _4rIDf2d7;
         "forge-1.21.2" = _js8W7CTs;
         "forge-1.21.3" = _js8W7CTs;
         "forge-1.21.4" = _js8W7CTs;
@@ -501,10 +527,10 @@ let
         "forge-1.17.1" = _9FLMzs4M;
         "forge-1.18" = _OB0VVFy6;
         "forge-1.18.1" = _OB0VVFy6;
-        "forge-1.19" = _PumFAq6o;
-        "forge-1.19.1" = _PumFAq6o;
-        "forge-1.19.2" = _PumFAq6o;
-        "forge-1.19.3" = _PumFAq6o;
+        "forge-1.19" = _kP9kdRI4;
+        "forge-1.19.1" = _kP9kdRI4;
+        "forge-1.19.2" = _kP9kdRI4;
+        "forge-1.19.3" = _kP9kdRI4;
         "forge-1.19.4" = _tjDO9gl7;
         "forge-1.20" = _tjDO9gl7;
         "forge-1.20.1" = _tjDO9gl7;
@@ -539,6 +565,7 @@ let
         "forge-1.20.5" = _tjDO9gl7;
         "forge-26.2" = _mfsBtbJ2;
         "forge-26.3-snapshot-1" = _mfsBtbJ2;
+        "forge-26.3" = _4rIDf2d7;
         "neoforge-1.21.2" = _js8W7CTs;
         "neoforge-1.21.3" = _js8W7CTs;
         "neoforge-1.21.4" = _js8W7CTs;
@@ -564,10 +591,10 @@ let
         "neoforge-1.17.1" = _9FLMzs4M;
         "neoforge-1.18" = _OB0VVFy6;
         "neoforge-1.18.1" = _OB0VVFy6;
-        "neoforge-1.19" = _PumFAq6o;
-        "neoforge-1.19.1" = _PumFAq6o;
-        "neoforge-1.19.2" = _PumFAq6o;
-        "neoforge-1.19.3" = _PumFAq6o;
+        "neoforge-1.19" = _kP9kdRI4;
+        "neoforge-1.19.1" = _kP9kdRI4;
+        "neoforge-1.19.2" = _kP9kdRI4;
+        "neoforge-1.19.3" = _kP9kdRI4;
         "neoforge-1.19.4" = _tjDO9gl7;
         "neoforge-1.20" = _tjDO9gl7;
         "neoforge-1.20.1" = _tjDO9gl7;
@@ -602,6 +629,7 @@ let
         "neoforge-1.20.5" = _tjDO9gl7;
         "neoforge-26.2" = _mfsBtbJ2;
         "neoforge-26.3-snapshot-1" = _mfsBtbJ2;
+        "neoforge-26.3" = _4rIDf2d7;
         "quilt-1.21.2" = _js8W7CTs;
         "quilt-1.21.3" = _js8W7CTs;
         "quilt-1.21.4" = _js8W7CTs;
@@ -627,10 +655,10 @@ let
         "quilt-1.17.1" = _9FLMzs4M;
         "quilt-1.18" = _OB0VVFy6;
         "quilt-1.18.1" = _OB0VVFy6;
-        "quilt-1.19" = _PumFAq6o;
-        "quilt-1.19.1" = _PumFAq6o;
-        "quilt-1.19.2" = _PumFAq6o;
-        "quilt-1.19.3" = _PumFAq6o;
+        "quilt-1.19" = _kP9kdRI4;
+        "quilt-1.19.1" = _kP9kdRI4;
+        "quilt-1.19.2" = _kP9kdRI4;
+        "quilt-1.19.3" = _kP9kdRI4;
         "quilt-1.19.4" = _tjDO9gl7;
         "quilt-1.20" = _tjDO9gl7;
         "quilt-1.20.1" = _tjDO9gl7;
@@ -665,9 +693,10 @@ let
         "quilt-1.20.5" = _tjDO9gl7;
         "quilt-26.2" = _mfsBtbJ2;
         "quilt-26.3-snapshot-1" = _mfsBtbJ2;
-        "pkg-1.0" = _K7dAEShg;
-        "pkg-1.0+mod" = _mfsBtbJ2;
-        "default" = _mfsBtbJ2;
+        "quilt-26.3" = _4rIDf2d7;
+        "pkg-1.0" = _M3Wrf3Ah;
+        "pkg-1.0+mod" = _kP9kdRI4;
+        "default" = _kP9kdRI4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchantd-golden-apple-recipe";

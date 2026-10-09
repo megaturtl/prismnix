@@ -401,6 +401,21 @@ let
             "file" = "Terralith_26.2_v2.6.4.zip";
             "hash" = "sha512-9Sg1SDIxSezT8hi4774DwcWC3z9Atrs7CVup5MrAyHEIuYravW69OoA37COXc6JT91uL7n21Lm9WY7+dxjwuow==";
         };
+        _aGE3hYAA = {
+            "id" = "aGE3hYAA";
+            "file" = "Terralith_26.3_v2.6.5+26.3.jar";
+            "hash" = "sha512-kYsjLfeoVbronH+oWv+1zhNOI2xHJvoUpb2qF56x4BDwQKn6mB8Aag4m5CGiqWG8KademaRQD9GDYai6gUeAcQ==";
+        };
+        _GpiePbRq = {
+            "id" = "GpiePbRq";
+            "file" = "Terralith_v2.6.5+26.3-neoforge.jar";
+            "hash" = "sha512-nZJ24B/9l80ngw0S4j2h9oYjZbG6v1x6kv8qJkya9p6cg5JsLcIR7O8u+NOIBGQe5aFERLI75VFjUIMTqKO3HA==";
+        };
+        _fqnsIp6d = {
+            "id" = "fqnsIp6d";
+            "file" = "Terralith_v2.6.5+26.3.zip";
+            "hash" = "sha512-7cdfsL5dAJWQ0W0Nlu9z/C6Hw+3TxbTYBYkHCmNr7q9OogLuPP+qBq1ophW7sD6STNPhc8vWSftHtexvx0wkgg==";
+        };
     in {
         "Q9qUUqA7" = _Q9qUUqA7;
         "Wd3Co0mZ" = _Wd3Co0mZ;
@@ -482,6 +497,9 @@ let
         "OxfI2n80" = _OxfI2n80;
         "lqrGyTjO" = _lqrGyTjO;
         "CzijfXJQ" = _CzijfXJQ;
+        "aGE3hYAA" = _aGE3hYAA;
+        "GpiePbRq" = _GpiePbRq;
+        "fqnsIp6d" = _fqnsIp6d;
         "fabric-1.18.2" = _6DoFR4md;
         "fabric-1.19" = _FOe2l0tx;
         "fabric-1.19.1" = _FOe2l0tx;
@@ -511,6 +529,7 @@ let
         "fabric-26.1.1" = _FCzSjHeG;
         "fabric-26.1.2" = _FCzSjHeG;
         "fabric-26.2" = _OxfI2n80;
+        "fabric-26.3" = _aGE3hYAA;
         "forge-1.18.2" = _6DoFR4md;
         "forge-1.19" = _FOe2l0tx;
         "forge-1.19.1" = _FOe2l0tx;
@@ -582,6 +601,7 @@ let
         "neoforge-26.1.1" = _4xxRkKvw;
         "neoforge-26.1.2" = _4xxRkKvw;
         "neoforge-26.2" = _lqrGyTjO;
+        "neoforge-26.3" = _GpiePbRq;
         "datapack-1.19" = _GufHTWz8;
         "datapack-1.19.1" = _GufHTWz8;
         "datapack-1.19.2" = _GufHTWz8;
@@ -610,6 +630,7 @@ let
         "datapack-26.1.1" = _f1lDwn23;
         "datapack-26.1.2" = _f1lDwn23;
         "datapack-26.2" = _CzijfXJQ;
+        "datapack-26.3" = _fqnsIp6d;
         "pkg-2.2.3" = _Q9qUUqA7;
         "pkg-2.3.5" = _Wd3Co0mZ;
         "pkg-2.3.7" = _Xf5mFGCS;
@@ -655,7 +676,8 @@ let
         "pkg-2.6.2" = _IY93YaEe;
         "pkg-2.6.3" = _eihdCshF;
         "pkg-2.6.4" = _CzijfXJQ;
-        "default" = _CzijfXJQ;
+        "pkg-2.6.5+26.3" = _fqnsIp6d;
+        "default" = _fqnsIp6d;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "terralith";

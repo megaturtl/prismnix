@@ -131,6 +131,61 @@ let
             "file" = "immersive_pillagers-neoforge-0.1.4+26.2.jar";
             "hash" = "sha512-Cj9ODW6ofQvlFARqWivrg7LQB1bpjVCEzlaFS9vWLMZqi4usrj5Fp2J5bo/M+gJqPkObvTw7adoFkJsiz319uQ==";
         };
+        _Wp41YAvK = {
+            "id" = "Wp41YAvK";
+            "file" = "immersive_pillagers-fabric-0.1.5+26.2.jar";
+            "hash" = "sha512-c2vsm6Mhof7URedPq6QsKyIPtAoQb3NUaLOkUN3ooDKWr2J9MULD8MBEMCpW0boUhlTr2PNOwZL94HuBipNj9Q==";
+        };
+        _yYSKoB6R = {
+            "id" = "yYSKoB6R";
+            "file" = "immersive_pillagers-neoforge-0.1.5+26.2.jar";
+            "hash" = "sha512-ENvcmS2n1x9ukFXJW9JwCzIBgUJ4G0QsAEQfkI412Is/ky/QCP7tnghFGjR6/JrPNtOe0Q3gNHMISk/AUxuMYg==";
+        };
+        _5UnvIyJc = {
+            "id" = "5UnvIyJc";
+            "file" = "immersive_pillagers-fabric-0.1.5+26.1.2.jar";
+            "hash" = "sha512-2UDpjjD/sY8vUIeBfsr2ptEnsPw9G4I0uo7kFuQAqVGyXTLeXD5Mj8Hwi9P5jZlGMBr4XvI9B7f+1QVyvqGK+w==";
+        };
+        _m3dENK4X = {
+            "id" = "m3dENK4X";
+            "file" = "immersive_pillagers-neoforge-0.1.5+26.1.2.jar";
+            "hash" = "sha512-iUqz/8amk6JZpyPSCf7UimXFynoIJwAJhhpUYKSqUvQl4W90ReLG6Lir4wslPXzLzpQLH5wJey1gDbfrlW9fHQ==";
+        };
+        _nRyWIQjT = {
+            "id" = "nRyWIQjT";
+            "file" = "immersive_pillagers-fabric-0.1.5+1.20.1.jar";
+            "hash" = "sha512-zjW7L5pIkp80RkfHCCnRZa6F92DKJSGr6Gu8GhXnJV6UpB2R7HPV98QY1NSnxsUFk9EsAMvVQ2hlQwqVu4e2dQ==";
+        };
+        _me4mNeFM = {
+            "id" = "me4mNeFM";
+            "file" = "immersive_pillagers-forge-0.1.5+1.20.1.jar";
+            "hash" = "sha512-m+NPn8niDx0o8uAXzp7ERaMIbfSV9WlKM2m99ow9of0Ku7CLuXXxUfG72Gz/6vv/CsnUWB5oQmshwmN6GuB48w==";
+        };
+        _qnafsFnb = {
+            "id" = "qnafsFnb";
+            "file" = "immersive_pillagers-fabric-0.1.5+1.21.1.jar";
+            "hash" = "sha512-GkoZJhdRiET6a5Fg0/f6nh/Yueg4PKlewxcyGC3yZL6heO7Nq3nW4Yb+b751M++TjOzooTVaNesKiROjvdI2vg==";
+        };
+        _VDZhFNm9 = {
+            "id" = "VDZhFNm9";
+            "file" = "immersive_pillagers-fabric-0.1.5+1.21.11.jar";
+            "hash" = "sha512-f8ek42I1/l/s6o+Uu3DQJ004DruXrnKcxNdKc/VQt4BK1mcUluv/JCSYO9bRzuxkd6JuyMQ17vksVlWl2m8N8A==";
+        };
+        _aTmFzy9X = {
+            "id" = "aTmFzy9X";
+            "file" = "immersive_pillagers-neoforge-0.1.5+1.21.11.jar";
+            "hash" = "sha512-U4bcrszc/9bBBrswqSF03yNwPWxrNMtW/X8GH/sqlc6SULyDE8iX6OVzcDFvbH0e0V9Assm6ZWel09TG1JJX3w==";
+        };
+        _q5iI8Of0 = {
+            "id" = "q5iI8Of0";
+            "file" = "immersive_pillagers-fabric-0.1.5+1.21.1.jar";
+            "hash" = "sha512-GkoZJhdRiET6a5Fg0/f6nh/Yueg4PKlewxcyGC3yZL6heO7Nq3nW4Yb+b751M++TjOzooTVaNesKiROjvdI2vg==";
+        };
+        _9EZu4C0P = {
+            "id" = "9EZu4C0P";
+            "file" = "immersive_pillagers-neoforge-0.1.5+1.21.1.jar";
+            "hash" = "sha512-teu24WsYR6AStl5l98JaOM2EsjD53Z6Ps8UjZe9Rpeko73dymcznPm66cCKARIoQKXY3kXLhDNtw18EP3pXjTA==";
+        };
     in {
         "rETMh3dB" = _rETMh3dB;
         "5GNOHbFQ" = _5GNOHbFQ;
@@ -158,16 +213,27 @@ let
         "27p75IBN" = _27p75IBN;
         "fgkTNBYc" = _fgkTNBYc;
         "2e7ht6TZ" = _2e7ht6TZ;
-        "fabric-1.20.1" = _IN9OhQxk;
-        "fabric-1.21.1" = _TmkbhXlT;
-        "fabric-26.1.2" = _2r2D8rxk;
-        "fabric-1.21.11" = _syiDbXZc;
-        "fabric-26.2" = _fgkTNBYc;
-        "forge-1.20.1" = _1Jbvlxr3;
-        "neoforge-1.21.1" = _wREqmJDn;
-        "neoforge-26.1.2" = _I0hcYEGv;
-        "neoforge-1.21.11" = _27p75IBN;
-        "neoforge-26.2" = _2e7ht6TZ;
+        "Wp41YAvK" = _Wp41YAvK;
+        "yYSKoB6R" = _yYSKoB6R;
+        "5UnvIyJc" = _5UnvIyJc;
+        "m3dENK4X" = _m3dENK4X;
+        "nRyWIQjT" = _nRyWIQjT;
+        "me4mNeFM" = _me4mNeFM;
+        "qnafsFnb" = _qnafsFnb;
+        "VDZhFNm9" = _VDZhFNm9;
+        "aTmFzy9X" = _aTmFzy9X;
+        "q5iI8Of0" = _q5iI8Of0;
+        "9EZu4C0P" = _9EZu4C0P;
+        "fabric-1.20.1" = _nRyWIQjT;
+        "fabric-1.21.1" = _q5iI8Of0;
+        "fabric-26.1.2" = _5UnvIyJc;
+        "fabric-1.21.11" = _VDZhFNm9;
+        "fabric-26.2" = _Wp41YAvK;
+        "forge-1.20.1" = _me4mNeFM;
+        "neoforge-1.21.1" = _9EZu4C0P;
+        "neoforge-26.1.2" = _m3dENK4X;
+        "neoforge-1.21.11" = _aTmFzy9X;
+        "neoforge-26.2" = _yYSKoB6R;
         "pkg-0.1.0+1.20.1" = _5GNOHbFQ;
         "pkg-0.1.1+1.20.1" = _QTxjLvUh;
         "pkg-0.1.2+1.20.1" = _jeYqUQAy;
@@ -181,7 +247,12 @@ let
         "pkg-0.1.4+26.1.2" = _I0hcYEGv;
         "pkg-0.1.4+1.21.11" = _27p75IBN;
         "pkg-0.1.4+26.2" = _2e7ht6TZ;
-        "default" = _2e7ht6TZ;
+        "pkg-0.1.5+26.2" = _yYSKoB6R;
+        "pkg-0.1.5+26.1.2" = _m3dENK4X;
+        "pkg-0.1.5+1.20.1" = _me4mNeFM;
+        "pkg-0.1.5+1.21.1" = _9EZu4C0P;
+        "pkg-0.1.5+1.21.11" = _aTmFzy9X;
+        "default" = _9EZu4C0P;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immersive-pillagers";

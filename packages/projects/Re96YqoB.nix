@@ -51,6 +51,16 @@ let
             "file" = "ly-knowledge-book-v1.1.2.jar";
             "hash" = "sha512-Wecp2UV71Kuqm1Tu25GlEdZ/oAkM/N3ahL/qh9cwGluq9UfxZ9jtxDHaU9kysJgdfcxHexklw+0YCGGVQWmHUw==";
         };
+        _ANK1uvDk = {
+            "id" = "ANK1uvDk";
+            "file" = "Knowledge Book v1.1.2 [26.3].zip";
+            "hash" = "sha512-wUYVRvnMWftS/MRmCCq/rJP036FD3YmLqIfY8bMBm/QZGMJqL5J2t2PU6Gol+tIkdfVzxkUfHbT5dbYvXvShVg==";
+        };
+        _SBjJe1XO = {
+            "id" = "SBjJe1XO";
+            "file" = "ly-knowledge-book-1.1.2.jar";
+            "hash" = "sha512-x+SoqZUKAY+MsusuXgz7rNpSnTYTDkXSlzREi+lbh/OohngBQhc9mZlIE6FbGehyvLH0DXcyjAKPCte93EwoAA==";
+        };
     in {
         "3v0XhENP" = _3v0XhENP;
         "QwOb8Lnd" = _QwOb8Lnd;
@@ -62,6 +72,8 @@ let
         "ft1GWCuB" = _ft1GWCuB;
         "On1KHzIz" = _On1KHzIz;
         "HAUEzCad" = _HAUEzCad;
+        "ANK1uvDk" = _ANK1uvDk;
+        "SBjJe1XO" = _SBjJe1XO;
         "datapack-1.21.4" = _fUCMtROe;
         "datapack-1.21.5" = _On1KHzIz;
         "datapack-1.21.6" = _On1KHzIz;
@@ -74,6 +86,7 @@ let
         "datapack-26.1.1" = _On1KHzIz;
         "datapack-26.1.2" = _On1KHzIz;
         "datapack-26.2" = _On1KHzIz;
+        "datapack-26.3" = _ANK1uvDk;
         "fabric-1.21.4" = _vEBJcmpI;
         "fabric-1.21.5" = _HAUEzCad;
         "fabric-1.21.6" = _HAUEzCad;
@@ -86,6 +99,7 @@ let
         "fabric-26.1.1" = _HAUEzCad;
         "fabric-26.1.2" = _HAUEzCad;
         "fabric-26.2" = _HAUEzCad;
+        "fabric-26.3" = _SBjJe1XO;
         "forge-1.21.4" = _vEBJcmpI;
         "forge-1.21.5" = _HAUEzCad;
         "forge-1.21.6" = _HAUEzCad;
@@ -98,6 +112,7 @@ let
         "forge-26.1.1" = _HAUEzCad;
         "forge-26.1.2" = _HAUEzCad;
         "forge-26.2" = _HAUEzCad;
+        "forge-26.3" = _SBjJe1XO;
         "neoforge-1.21.4" = _vEBJcmpI;
         "neoforge-1.21.5" = _HAUEzCad;
         "neoforge-1.21.6" = _HAUEzCad;
@@ -110,6 +125,7 @@ let
         "neoforge-26.1.1" = _HAUEzCad;
         "neoforge-26.1.2" = _HAUEzCad;
         "neoforge-26.2" = _HAUEzCad;
+        "neoforge-26.3" = _SBjJe1XO;
         "quilt-1.21.4" = _vEBJcmpI;
         "quilt-1.21.5" = _HAUEzCad;
         "quilt-1.21.6" = _HAUEzCad;
@@ -122,6 +138,7 @@ let
         "quilt-26.1.1" = _HAUEzCad;
         "quilt-26.1.2" = _HAUEzCad;
         "quilt-26.2" = _HAUEzCad;
+        "quilt-26.3" = _SBjJe1XO;
         "pkg-v1.0.0" = _3v0XhENP;
         "pkg-v1.0.0+mod" = _QwOb8Lnd;
         "pkg-v1.1.0" = _fUCMtROe;
@@ -130,7 +147,9 @@ let
         "pkg-v1.1.1+mod" = _ft1GWCuB;
         "pkg-v1.1.2" = _On1KHzIz;
         "pkg-v1.1.2+mod" = _HAUEzCad;
-        "default" = _HAUEzCad;
+        "pkg-1.1.2" = _ANK1uvDk;
+        "pkg-1.1.2+mod" = _SBjJe1XO;
+        "default" = _SBjJe1XO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ly-knowledge-book";

@@ -91,6 +91,11 @@ let
             "file" = "itempeek-mc1.20.1-1.2.0.jar";
             "hash" = "sha512-EpwFW9tN689cSJ3GuFcfoKuvJXm7Gv6lGqXByTNeCQ4jPOkjPlmnSmSSA3GV3R5rd1xv/Z4qPNq7tHYbCUD25w==";
         };
+        _aQNvNjxC = {
+            "id" = "aQNvNjxC";
+            "file" = "itempeek-mc26.3-1.2.0.jar";
+            "hash" = "sha512-EJFPZm+WfkidrCYvJ7cVC4X1s9c0fzcbtNkv8leXV39kmo96tcxKp9v3mVEv43VEvRLVfd1mhvXlA4algISbWg==";
+        };
     in {
         "osXkhXNL" = _osXkhXNL;
         "XgUD5MBN" = _XgUD5MBN;
@@ -110,19 +115,21 @@ let
         "aH3MuGFc" = _aH3MuGFc;
         "1OWCDitI" = _1OWCDitI;
         "7nxsyrsX" = _7nxsyrsX;
+        "aQNvNjxC" = _aQNvNjxC;
         "neoforge-1.21.1" = _661CpDr9;
         "neoforge-1.21.5" = _fl3ZlBeR;
         "neoforge-1.21.11" = _T4LKKSB8;
         "neoforge-26.1.2" = _aH3MuGFc;
         "neoforge-26.2" = _1OWCDitI;
+        "neoforge-26.3" = _aQNvNjxC;
         "forge-1.20.1" = _7nxsyrsX;
         "pkg-1.0.0" = _XgUD5MBN;
         "pkg-1.0.1" = _mwzfszIa;
         "pkg-1.1.1" = _qVEDasF0;
         "pkg-1.1.2" = _rPFlLVe5;
         "pkg-1.1.3" = _rV4rPeGd;
-        "pkg-1.2.0" = _7nxsyrsX;
-        "default" = _7nxsyrsX;
+        "pkg-1.2.0" = _aQNvNjxC;
+        "default" = _aQNvNjxC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "itempeek";

@@ -71,6 +71,11 @@ let
             "file" = "create_expression-1.1.4-neoforge-1.21.1.jar";
             "hash" = "sha512-CWcpvH0iCnPFYfSVUhiDGpvD4/Xb1Nuab728q2Vp2Wndu5JyvTjvTDWptkhqYqFzK3kyw6RbBBrpyfVPxrDzxA==";
         };
+        _pfZ1GAHs = {
+            "id" = "pfZ1GAHs";
+            "file" = "create_expression-1.1.5-neoforge-1.21.1.jar";
+            "hash" = "sha512-SL1hBOuChzQ6Rjyy1HD+8+2rGg7DDFh7vwjamltGFUGEw2C9VXUYQlXkol18Llno/F8ucyEzXDTzRliP9RaWJg==";
+        };
     in {
         "L4foMbxp" = _L4foMbxp;
         "5bSNxuCY" = _5bSNxuCY;
@@ -86,7 +91,8 @@ let
         "mXojVbsp" = _mXojVbsp;
         "VqQ7rDbi" = _VqQ7rDbi;
         "DgHRY2eC" = _DgHRY2eC;
-        "neoforge-1.21.1" = _DgHRY2eC;
+        "pfZ1GAHs" = _pfZ1GAHs;
+        "neoforge-1.21.1" = _pfZ1GAHs;
         "pkg-1.0.0" = _L4foMbxp;
         "pkg-1.0.1" = _5bSNxuCY;
         "pkg-1.0.2" = _YUZJYU3L;
@@ -101,7 +107,8 @@ let
         "pkg-1.1.2" = _mXojVbsp;
         "pkg-1.1.3" = _VqQ7rDbi;
         "pkg-1.1.4" = _DgHRY2eC;
-        "default" = _DgHRY2eC;
+        "pkg-1.1.5" = _pfZ1GAHs;
+        "default" = _pfZ1GAHs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "reestrogen-additions";

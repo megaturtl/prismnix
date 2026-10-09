@@ -161,6 +161,16 @@ let
             "file" = "SkeletonAIFix-v26.2.0-mc26.2.x-NeoForge.jar";
             "hash" = "sha512-gnA4xVJI+nrgm26PCjK9/nm7+qjOFbgR4LfQpScYwYvkqUxejfwo4YQ/Xw+6gO9qUiuFE6GWISYNOE2o4sjpTQ==";
         };
+        _NPwALHEv = {
+            "id" = "NPwALHEv";
+            "file" = "skeletonaifix-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-QxVuqInP2P1weZQmm/zz3EA41s5X6MyeQUgqTEXRZHfwgDrsocv+QpzdeAgKdKm5qoKlSZqC4Uh4RSbHSUNj1g==";
+        };
+        _ojeEps8f = {
+            "id" = "ojeEps8f";
+            "file" = "skeletonaifix-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-shlGO5dAVXl9wiQND1bDdfKPEMXyZ9FYzABcIq0IJ55iYip96h0wU/l58Ag4jqXHEQNTXhT0NVjKlx2fNY2yJw==";
+        };
     in {
         "Xgbwm5cs" = _Xgbwm5cs;
         "N09g6CIS" = _N09g6CIS;
@@ -194,6 +204,8 @@ let
         "LtSqON3b" = _LtSqON3b;
         "v3akWq27" = _v3akWq27;
         "7zsl5HWe" = _7zsl5HWe;
+        "NPwALHEv" = _NPwALHEv;
+        "ojeEps8f" = _ojeEps8f;
         "fabric-1.21.4" = _Xgbwm5cs;
         "fabric-1.21.5" = _lOf1wsDI;
         "fabric-1.21.1" = _5NhTkmKD;
@@ -208,6 +220,7 @@ let
         "fabric-26.1.1" = _LtSqON3b;
         "fabric-26.1.2" = _LtSqON3b;
         "fabric-26.2" = _v3akWq27;
+        "fabric-26.3" = _NPwALHEv;
         "neoforge-1.21.4" = _N09g6CIS;
         "neoforge-1.21.5" = _gahNixe8;
         "neoforge-1.21.1" = _WXSwXmEX;
@@ -221,6 +234,7 @@ let
         "neoforge-26.1.1" = _FXL2p7Kq;
         "neoforge-26.1.2" = _FXL2p7Kq;
         "neoforge-26.2" = _7zsl5HWe;
+        "neoforge-26.3" = _ojeEps8f;
         "forge-1.20.1" = _VMGmo5Si;
         "pkg-v21.4.0-1.21.4-Fabric" = _Xgbwm5cs;
         "pkg-v21.4.0-1.21.4-NeoForge" = _N09g6CIS;
@@ -247,7 +261,8 @@ let
         "pkg-21.11.0" = _kf7gMwfX;
         "pkg-26.1.0" = _LtSqON3b;
         "pkg-26.2.0" = _7zsl5HWe;
-        "default" = _7zsl5HWe;
+        "pkg-26.3.0" = _ojeEps8f;
+        "default" = _ojeEps8f;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skeleton-ai-fix";

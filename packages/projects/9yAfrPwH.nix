@@ -41,6 +41,11 @@ let
             "file" = "waylandcraft-v2.0.3.jar";
             "hash" = "sha512-6FgNgxnMuD+AoYXGWI3K8CnMI98uOWzv2nefoW3VTaY60H2UQZeA+2n/oxNUnCL13SZxwe8Wmr6x7cg6suq8Xg==";
         };
+        _8DOHTueH = {
+            "id" = "8DOHTueH";
+            "file" = "waylandcraft-v2.1.0.jar";
+            "hash" = "sha512-IZX1KUv1Ny6z0pkT9UgHAM5kaXTfYiuV2/w/+szWrB/oo/k3c88I+xAZcpWANpBbn3PFVodXEQ1qvzT5RcahZA==";
+        };
     in {
         "sfc42VwF" = _sfc42VwF;
         "EuKmUsll" = _EuKmUsll;
@@ -50,7 +55,8 @@ let
         "d70kF84O" = _d70kF84O;
         "I165G2ii" = _I165G2ii;
         "gYBb2qtQ" = _gYBb2qtQ;
-        "fabric-26.1.2" = _gYBb2qtQ;
+        "8DOHTueH" = _8DOHTueH;
+        "fabric-26.1.2" = _8DOHTueH;
         "pkg-1.0.0" = _sfc42VwF;
         "pkg-1.0.1" = _EuKmUsll;
         "pkg-1.1.0" = _mvfuEzOI;
@@ -59,7 +65,8 @@ let
         "pkg-2.0.1" = _d70kF84O;
         "pkg-2.0.2" = _I165G2ii;
         "pkg-2.0.3" = _gYBb2qtQ;
-        "default" = _gYBb2qtQ;
+        "pkg-2.1.0" = _8DOHTueH;
+        "default" = _8DOHTueH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "waylandcraft";

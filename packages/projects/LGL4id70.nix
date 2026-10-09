@@ -61,6 +61,21 @@ let
             "file" = "The_Cursed_Smile-RandomUpdate-1.19.2-1.2.2.jar";
             "hash" = "sha512-fB6uX+eoW4VlQG8aPVZEfozGV6K2S5Oxkq6LZx9Xde4tuUMHp4aqUZ25qidOR4D8+i/5GwgnCibEEyqQZo9h+A==";
         };
+        _cvhNXoIF = {
+            "id" = "cvhNXoIF";
+            "file" = "The_Cursed_Smile-NEWUPDATE-1.20.1-1.2.3.jar";
+            "hash" = "sha512-dnMIms/tX2G6ewBtqga0ZLfNT4LrNjQMcD9X/hXhd2NLD1iT2Y4sUAY/uR0xj2SJBSxO+PXFBnnF4JbY5t2Ghg==";
+        };
+        _Y9J0xtTj = {
+            "id" = "Y9J0xtTj";
+            "file" = "The_Cursed_Smile-NEWUPDATE-1.19.4-1.2.3.jar";
+            "hash" = "sha512-nxFvqjNeYm01GNCSHxs+1eJTYJ09/jjGULjqlRPy3WJ/t3UTArXBM7cIDTVIdMyPETewYpdgfpDGrcGu5KMv+g==";
+        };
+        _lGIl5OIx = {
+            "id" = "lGIl5OIx";
+            "file" = "The_Cursed_Smile-NEWUPDATE-1.19.2-1.2.3.jar";
+            "hash" = "sha512-s6AS6Ic9i+g8sHMdiY4jHTQIadJiOqBE0HwUmuBY9ix34pOIHCf0f7c3cyFgpjEl7PL8ZQu1RVhMHh58ZqTLmQ==";
+        };
     in {
         "ewp4IpRe" = _ewp4IpRe;
         "7ZbSHAlw" = _7ZbSHAlw;
@@ -74,16 +89,20 @@ let
         "OdSuot6F" = _OdSuot6F;
         "V4SBbtYf" = _V4SBbtYf;
         "KKLYZ6EO" = _KKLYZ6EO;
-        "forge-1.19.2" = _KKLYZ6EO;
-        "forge-1.20.1" = _OdSuot6F;
-        "forge-1.19.4" = _V4SBbtYf;
+        "cvhNXoIF" = _cvhNXoIF;
+        "Y9J0xtTj" = _Y9J0xtTj;
+        "lGIl5OIx" = _lGIl5OIx;
+        "forge-1.19.2" = _lGIl5OIx;
+        "forge-1.20.1" = _cvhNXoIF;
+        "forge-1.19.4" = _Y9J0xtTj;
         "pkg-1.0.0" = _Uan5KaYA;
         "pkg-1.1.0" = _a0rWcSYv;
         "pkg-1.1.1" = _7smONsW4;
         "pkg-2.0.0" = _nAUJv9wX;
         "pkg-1.2.1" = _UmUWEpVv;
         "pkg-1.2.2" = _KKLYZ6EO;
-        "default" = _KKLYZ6EO;
+        "pkg-1.2.3" = _lGIl5OIx;
+        "default" = _lGIl5OIx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-cursed-smile-horror";

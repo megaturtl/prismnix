@@ -111,6 +111,26 @@ let
             "file" = "atmospherics-2.6.6-mc-26.2.jar";
             "hash" = "sha512-Nppoyt99oixea3kFr0g6uCHEp4Sete0pSuV8WMcOn8TiEFOICqqIZT/ATJx4GZpVi7SixJ/jueooQsaTYG7aIQ==";
         };
+        _yJJkB7Qc = {
+            "id" = "yJJkB7Qc";
+            "file" = "atmospherics-2.6.5-mc-1.21.1.jar";
+            "hash" = "sha512-4BFz9XmpMDXyePU/zyU60Gm2QTqi2KrOd33NTAI5cbpkNavEOn/YCHZuJzSrDbch6TzMoVWuGy39tC0qVTlzwQ==";
+        };
+        _36CJxKFF = {
+            "id" = "36CJxKFF";
+            "file" = "atmospherics-2.6.6-mc-1.21.11.jar";
+            "hash" = "sha512-Bfuifk1yNm52l9ixTKamnzbP7eKLvUYaiErqnxkLk7Y3cbsJX+MX//DUTfEvjkw/58WOUkd2Gtf9FUIHSLU0rw==";
+        };
+        _wJSd2gZD = {
+            "id" = "wJSd2gZD";
+            "file" = "atmospherics-2.6.6-mc-26.2.jar";
+            "hash" = "sha512-mLtVMh9P3vK5x1hViV39c3b5uvkDKTJ1ctyoO0FTBGlBI4v7J92AGF37LKokuaMXpAvr/94oHtt1+cLtGbo3nA==";
+        };
+        _ypMUWkFh = {
+            "id" = "ypMUWkFh";
+            "file" = "atmospherics-2.6.6-mc-26.3.jar";
+            "hash" = "sha512-t8QQ1ieSd8ivc+oIlRZPGsAtT919Vvyyq2hi39A6xuGNJuEU8Bp2yBLS2lOv4pwOlYgSSZ59clQ9Xl5aZ1xM4Q==";
+        };
     in {
         "c5otEUSQ" = _c5otEUSQ;
         "kd0xVsBU" = _kd0xVsBU;
@@ -134,12 +154,17 @@ let
         "poByZmI7" = _poByZmI7;
         "LeQKXuNM" = _LeQKXuNM;
         "dKZiIjXj" = _dKZiIjXj;
-        "fabric-1.21.11" = _poByZmI7;
+        "yJJkB7Qc" = _yJJkB7Qc;
+        "36CJxKFF" = _36CJxKFF;
+        "wJSd2gZD" = _wJSd2gZD;
+        "ypMUWkFh" = _ypMUWkFh;
+        "fabric-1.21.11" = _36CJxKFF;
         "fabric-26.1" = _LeQKXuNM;
         "fabric-26.1.1" = _LeQKXuNM;
         "fabric-26.1.2" = _LeQKXuNM;
-        "fabric-26.2" = _dKZiIjXj;
-        "neoforge-1.21.1" = _e3AdhSXi;
+        "fabric-26.2" = _wJSd2gZD;
+        "fabric-26.3" = _ypMUWkFh;
+        "neoforge-1.21.1" = _yJJkB7Qc;
         "pkg-1.0" = _5Z6JuGV7;
         "pkg-2.0" = _NeP3efi0;
         "pkg-2.2" = _bSiXiMG9;
@@ -152,7 +177,9 @@ let
         "pkg-2.6.5" = _SQB8oHWT;
         "pkg-2.6.5.1" = _e3AdhSXi;
         "pkg-2.6.6" = _dKZiIjXj;
-        "default" = _dKZiIjXj;
+        "pkg-2.6.5.2" = _yJJkB7Qc;
+        "pkg-2.6.6.1" = _ypMUWkFh;
+        "default" = _ypMUWkFh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "atmospherics";

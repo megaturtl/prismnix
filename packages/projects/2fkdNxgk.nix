@@ -46,6 +46,11 @@ let
             "file" = "tenite-anchor-optimizer-2.0.0+mc26.2.jar";
             "hash" = "sha512-Gavqq2cDD8/y++Lp4KkZg9roZecKnwxKOYbwZHanTo3KjnLL0HLSKRukMdX/GT4NBWAXh1VpLlW7pRAMoAFQPw==";
         };
+        _iB2gS1y7 = {
+            "id" = "iB2gS1y7";
+            "file" = "anchor-optimizer-2.0.1+mc26.3.jar";
+            "hash" = "sha512-pV/jeq6649RsFcN7QGc4YHUhQL1gZGIa+MbjITyLhGyl+sXhYlkdXM7yoaezP34A3oai9jc1ei6Y3v81j0EKBg==";
+        };
     in {
         "x6bbdgN7" = _x6bbdgN7;
         "sOqZeCiB" = _sOqZeCiB;
@@ -56,6 +61,7 @@ let
         "W8K6ONu7" = _W8K6ONu7;
         "bwf5mndP" = _bwf5mndP;
         "cjUcE2gs" = _cjUcE2gs;
+        "iB2gS1y7" = _iB2gS1y7;
         "fabric-1.21.4" = _l5ym0quL;
         "fabric-1.21" = _sOqZeCiB;
         "fabric-1.21.1" = _sOqZeCiB;
@@ -72,6 +78,7 @@ let
         "fabric-26.1.1" = _bwf5mndP;
         "fabric-26.1.2" = _bwf5mndP;
         "fabric-26.2" = _cjUcE2gs;
+        "fabric-26.3" = _iB2gS1y7;
         "pkg-1.0.0" = _x6bbdgN7;
         "pkg-2.0.0+mc1.21.1" = _sOqZeCiB;
         "pkg-2.0.0+mc1.21.3" = _mYkRRs1v;
@@ -81,7 +88,8 @@ let
         "pkg-2.0.0+mc1.21.11" = _W8K6ONu7;
         "pkg-2.0.0+mc26.1.2" = _bwf5mndP;
         "pkg-2.0.0+mc26.2" = _cjUcE2gs;
-        "default" = _cjUcE2gs;
+        "pkg-2.0.1+mc26.3" = _iB2gS1y7;
+        "default" = _iB2gS1y7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tenites-anchor-optimizer";

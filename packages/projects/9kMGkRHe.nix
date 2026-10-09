@@ -111,6 +111,11 @@ let
             "file" = "undead_unleashed-2.0.6-forge-1.20.1.jar";
             "hash" = "sha512-9GJZ1RWUKmL9ItLxwaEuuC444bhNBSdDAmk9SHVTZI83idpaX7F+5VJtK8++uUXw/sJu9QznR0tyEr2KkmvvPQ==";
         };
+        _Y7ldRTTu = {
+            "id" = "Y7ldRTTu";
+            "file" = "undead_unleashed-2.0.6-hotfix-neoforge-1.21.1.jar";
+            "hash" = "sha512-UiQvF6i8d8cLLmDj4ERs6A0hIgQCT6+q1kdetnvzQE6TWIRgeaf49+cWvoLC8IEn6hxYSoaZC4N0y1KZVqkdwg==";
+        };
     in {
         "i4W9gomb" = _i4W9gomb;
         "yy1BDSKr" = _yy1BDSKr;
@@ -134,9 +139,10 @@ let
         "o46ndLsS" = _o46ndLsS;
         "j6jWAdPA" = _j6jWAdPA;
         "RKiilUGg" = _RKiilUGg;
+        "Y7ldRTTu" = _Y7ldRTTu;
         "forge-1.19.2" = _yy1BDSKr;
         "forge-1.20.1" = _RKiilUGg;
-        "neoforge-1.21.1" = _j6jWAdPA;
+        "neoforge-1.21.1" = _Y7ldRTTu;
         "pkg-1.1.0" = _i4W9gomb;
         "pkg-1.1.1" = _yy1BDSKr;
         "pkg-1.2.0" = _3L0rwAhe;
@@ -150,7 +156,8 @@ let
         "pkg-2.0.5" = _Ru74P54t;
         "pkg-2.0.5-hotfix" = _o46ndLsS;
         "pkg-2.0.6" = _RKiilUGg;
-        "default" = _RKiilUGg;
+        "pkg-2.0.6-hotfix" = _Y7ldRTTu;
+        "default" = _Y7ldRTTu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "undead-unleashed";

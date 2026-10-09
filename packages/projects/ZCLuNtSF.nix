@@ -61,6 +61,26 @@ let
             "file" = "StonecuttingUpgrade-v21.1.0-mc1.21.1-NeoForge.jar";
             "hash" = "sha512-zBhyecDI8TxjUeKtgTHSrMCFHeW3cotYl+84QkOM1lvmLFHpttCe8oAuRDP7C6zmm4yOM9bPj883Ys8OJMbPrA==";
         };
+        _JdfPAebL = {
+            "id" = "JdfPAebL";
+            "file" = "stonecuttingupgrade-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-NICXCeMDwrhe5MQRVPGKuZUVmXxwX2qbG7GfPN6atddfjSDhW+reM3PbHxwkRusUYZIgPA9W4CXDrDJBJfO8VQ==";
+        };
+        _LAjbljLO = {
+            "id" = "LAjbljLO";
+            "file" = "stonecuttingupgrade-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-WmadJrBZjCw1FfGBEd2dauoamuSNk2gehebZWkBoYN3Ep7J8JSo1S5e7mGqij8nTQy+avXwHFsjeHwSPsQjgtA==";
+        };
+        _hMJyDZjP = {
+            "id" = "hMJyDZjP";
+            "file" = "stonecuttingupgrade-v26.3.1-mc26.3.x+fabric.jar";
+            "hash" = "sha512-154f4oJzi6gXwRV8aXzB2cWrC09JH6pADBNZKzcu33pHLaFgkun5kS+218YN7gU8+e02pudWKkrSBzptqDEekQ==";
+        };
+        _OsWDyYuU = {
+            "id" = "OsWDyYuU";
+            "file" = "stonecuttingupgrade-v26.3.1-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-zsATMA762eB+1FJkBi2Vpe6uKNbzg4scJ9rzdAotuYIoovx2eRQx/RuEznOvrCH1VAXuDwaTDL6UdYv5lvLV3Q==";
+        };
     in {
         "7D8L3BP9" = _7D8L3BP9;
         "qup2px4D" = _qup2px4D;
@@ -74,25 +94,33 @@ let
         "OosIyG2K" = _OosIyG2K;
         "oiwUyEC6" = _oiwUyEC6;
         "4bT8M2ti" = _4bT8M2ti;
+        "JdfPAebL" = _JdfPAebL;
+        "LAjbljLO" = _LAjbljLO;
+        "hMJyDZjP" = _hMJyDZjP;
+        "OsWDyYuU" = _OsWDyYuU;
         "neoforge-1.21.11" = _rqTsXnxY;
         "neoforge-26.1" = _RAVuh7wv;
         "neoforge-26.1.1" = _RAVuh7wv;
         "neoforge-26.1.2" = _RAVuh7wv;
         "neoforge-26.2" = _OosIyG2K;
         "neoforge-1.21.1" = _4bT8M2ti;
+        "neoforge-26.3" = _OsWDyYuU;
         "fabric-1.21.11" = _Q3gsNwn9;
         "fabric-26.1" = _hvhTRRqT;
         "fabric-26.1.1" = _hvhTRRqT;
         "fabric-26.1.2" = _hvhTRRqT;
         "fabric-26.2" = _qHenKuWz;
         "fabric-1.21.1" = _oiwUyEC6;
+        "fabric-26.3" = _hMJyDZjP;
         "pkg-21.11.0" = _qup2px4D;
         "pkg-26.1.0" = _XGnRHv6b;
         "pkg-21.11.1" = _Q3gsNwn9;
         "pkg-26.1.1" = _hvhTRRqT;
         "pkg-26.2.0" = _OosIyG2K;
         "pkg-21.1.0" = _4bT8M2ti;
-        "default" = _4bT8M2ti;
+        "pkg-26.3.0" = _LAjbljLO;
+        "pkg-26.3.1" = _OsWDyYuU;
+        "default" = _OsWDyYuU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stonecutting-upgrade";

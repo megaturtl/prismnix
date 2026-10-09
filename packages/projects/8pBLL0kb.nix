@@ -556,6 +556,36 @@ let
             "file" = "weaponsexpanded_26.3_2.0_fabric.jar";
             "hash" = "sha512-ANLcIijknm4E0sqxt1+UANMf/NTY5wrR7zypzkQAj42akQwUcf5TPdxZI38/7pOGxp6075jwdnGtT6+TvLDzTA==";
         };
+        _EBYwNtDg = {
+            "id" = "EBYwNtDg";
+            "file" = "weaponsexpanded_26.3_2.1.0_fabric.jar";
+            "hash" = "sha512-LbBtQ3eGD2V54zw+oaTKV5wfL7C7R4JSydxc5ZVxh/XMEhWjdHVij7JHuH7eYolqVaGnU50X7c1t7tiEURbBEA==";
+        };
+        _ekHhhi5g = {
+            "id" = "ekHhhi5g";
+            "file" = "weaponsexpanded_26.2_2.1.0_fabric.jar";
+            "hash" = "sha512-pM4cXY3N24+oH/gDCnApuduSZjR0jXMdLcKNVX7U0p1HFn5oua6e6deWDho1A8fr8wxxcZeDwXYq7R9seScWiQ==";
+        };
+        _OY3OzyMT = {
+            "id" = "OY3OzyMT";
+            "file" = "weaponsexpanded_26.3_2.1.1_fabric.jar";
+            "hash" = "sha512-sSq7NWXE6CmZOpM0lrkIUfSa0rhmAJ7wPRyP2a5LrYIcKMT748rAvLHfxdBueWgjx6GJh5VQ010zfd+xKD4AuA==";
+        };
+        _s0VUQsFx = {
+            "id" = "s0VUQsFx";
+            "file" = "weaponsexpanded_26.3_2.1.2_fabric.jar";
+            "hash" = "sha512-UST9m5Jz3MhnzyFD3NaK5bZPv4+uw5LHPw2KS44TX7UtbKetlxq8zZWzHP7DC4lwTN8x6dOjVs5IllCfwlObtQ==";
+        };
+        _e6V8ZX1T = {
+            "id" = "e6V8ZX1T";
+            "file" = "weaponsexpanded_26.2_2.1.2_fabric.jar";
+            "hash" = "sha512-N4nTt2b53gP3X2uLDDWM6xij4HFYYKVflfr+lbT6AWCxT/vAYYrA7mJGsseIBbC0DQDVcqas01cTjgEYu0umiw==";
+        };
+        _eR3ipqEY = {
+            "id" = "eR3ipqEY";
+            "file" = "weaponsexpanded_26.1_2.1.2_fabric.jar";
+            "hash" = "sha512-iOZyBn9ZeFV0eFaVjl+XIlAzrSakPDVO0j5lELq7kXEhDE3C7SKwW6ILXzLybSyd+PJSgxAeeiG9b+g2cl3RXg==";
+        };
     in {
         "cAr6T7RL" = _cAr6T7RL;
         "UoYuxe5K" = _UoYuxe5K;
@@ -668,6 +698,12 @@ let
         "gmlq9w1L" = _gmlq9w1L;
         "mzSWwcbQ" = _mzSWwcbQ;
         "bRW2TBuX" = _bRW2TBuX;
+        "EBYwNtDg" = _EBYwNtDg;
+        "ekHhhi5g" = _ekHhhi5g;
+        "OY3OzyMT" = _OY3OzyMT;
+        "s0VUQsFx" = _s0VUQsFx;
+        "e6V8ZX1T" = _e6V8ZX1T;
+        "eR3ipqEY" = _eR3ipqEY;
         "fabric-1.20.1" = _v0JAcGtw;
         "fabric-1.21.4" = _loC4JZ4Z;
         "fabric-1.21.5" = _VspbQQSu;
@@ -681,24 +717,24 @@ let
         "fabric-1.21" = _w7nZRlgc;
         "fabric-1.21.1" = _w7nZRlgc;
         "fabric-1.21.11" = _YbBlMo0T;
-        "fabric-26.1" = _MVCR2k0R;
-        "fabric-26.1.1" = _MVCR2k0R;
-        "fabric-26.1.2" = _MVCR2k0R;
-        "fabric-26.2" = _mzSWwcbQ;
+        "fabric-26.1" = _eR3ipqEY;
+        "fabric-26.1.1" = _eR3ipqEY;
+        "fabric-26.1.2" = _eR3ipqEY;
+        "fabric-26.2" = _e6V8ZX1T;
         "fabric-1.20.2" = _v0JAcGtw;
         "fabric-1.20.3" = _v0JAcGtw;
         "fabric-1.20.4" = _v0JAcGtw;
-        "fabric-26.3" = _bRW2TBuX;
+        "fabric-26.3" = _s0VUQsFx;
         "forge-1.20.1" = _PKsmwcip;
         "forge-26.1" = _jRwGwsfT;
         "forge-26.1.1" = _jRwGwsfT;
         "forge-26.1.2" = _jRwGwsfT;
         "forge-26.2" = _XBSEtcv8;
         "quilt-1.21.11" = _YbBlMo0T;
-        "quilt-26.1" = _MVCR2k0R;
-        "quilt-26.1.1" = _MVCR2k0R;
-        "quilt-26.1.2" = _MVCR2k0R;
-        "quilt-26.2" = _mzSWwcbQ;
+        "quilt-26.1" = _eR3ipqEY;
+        "quilt-26.1.1" = _eR3ipqEY;
+        "quilt-26.1.2" = _eR3ipqEY;
+        "quilt-26.2" = _e6V8ZX1T;
         "quilt-1.21" = _w7nZRlgc;
         "quilt-1.21.1" = _w7nZRlgc;
         "quilt-1.21.2" = _lKXMCXol;
@@ -710,7 +746,7 @@ let
         "quilt-1.21.8" = _DGZBYnr3;
         "quilt-1.21.9" = _5dOEEyfL;
         "quilt-1.21.10" = _5dOEEyfL;
-        "quilt-26.3" = _bRW2TBuX;
+        "quilt-26.3" = _s0VUQsFx;
         "neoforge-26.1" = _trbLsOMv;
         "neoforge-26.1.1" = _trbLsOMv;
         "neoforge-26.1.2" = _trbLsOMv;
@@ -762,7 +798,10 @@ let
         "pkg-1.9.3.2" = _ZTAkN0iN;
         "pkg-1.9.4" = _gmlq9w1L;
         "pkg-2.0" = _bRW2TBuX;
-        "default" = _bRW2TBuX;
+        "pkg-2.1.0" = _EBYwNtDg;
+        "pkg-2.1.1" = _OY3OzyMT;
+        "pkg-2.1.2" = _eR3ipqEY;
+        "default" = _eR3ipqEY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "weaponsexpanded";

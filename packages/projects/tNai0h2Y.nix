@@ -796,6 +796,26 @@ let
             "file" = "sleep_tight-1.20-1.5.8.jar";
             "hash" = "sha512-U0oJ7DuvmMtzpxyEtSAIvVPzBw36pzPzRloeLl0rRK5Wh9egOmYMc+yyGizNMnsT6C4BjmXiUXF8fklSu7cchQ==";
         };
+        _lHe4eJvh = {
+            "id" = "lHe4eJvh";
+            "file" = "sleep_tight-1.21-1.6.1-fabric.jar";
+            "hash" = "sha512-RMxV34tNoTQpDwE22sSfro9ys6bSzeHh7/T+KLV2mR9oMb4xEXd6jIHc9dB4wCFoo294jIMKCQDTir/2i+6SoA==";
+        };
+        _7PhSqeWL = {
+            "id" = "7PhSqeWL";
+            "file" = "sleep_tight-1.21-1.6.1-neoforge.jar";
+            "hash" = "sha512-NBCWXupLgkjGY7+cENGZ2OTi9532yPaT0fE9+OYFQ4tg9V+yDkqxOUiOruJD2y5tq3UtDOQcOaxG5JzhhDQV5A==";
+        };
+        _lZXumOcA = {
+            "id" = "lZXumOcA";
+            "file" = "sleep_tight-1.21-1.6.2-neoforge.jar";
+            "hash" = "sha512-evzv9wnupqdHTaici0z1wLkqMir1eiU8rYs384169burZHsht1ZgrRAL0clA3WLjtl058L46IMJawa4IqByfeg==";
+        };
+        _rz21kNjU = {
+            "id" = "rz21kNjU";
+            "file" = "sleep_tight-1.21-1.6.2-fabric.jar";
+            "hash" = "sha512-uQQJkj1/DuaB6ub4D04zqUkl9jIjZVPpIHFBhS6zsEU3FWFzPaMvm79/zZF5sd1jPhvkkQoXkf1Gk32OkTpdIQ==";
+        };
     in {
         "M8OoOeiD" = _M8OoOeiD;
         "srZ20WkM" = _srZ20WkM;
@@ -956,6 +976,10 @@ let
         "WJEvBCah" = _WJEvBCah;
         "uYAVb9Nu" = _uYAVb9Nu;
         "LhYJ43ll" = _LhYJ43ll;
+        "lHe4eJvh" = _lHe4eJvh;
+        "7PhSqeWL" = _7PhSqeWL;
+        "lZXumOcA" = _lZXumOcA;
+        "rz21kNjU" = _rz21kNjU;
         "forge-1.19.2" = _nnXUHGWk;
         "forge-1.19.4" = _FEu4tcML;
         "forge-1.20" = _iBTTQBfH;
@@ -967,11 +991,11 @@ let
         "fabric-1.20.1" = _uYAVb9Nu;
         "fabric-1.20.4" = _jZyEv2vX;
         "fabric-1.21" = _hvJv2JwH;
-        "fabric-1.21.1" = _y5cw963q;
+        "fabric-1.21.1" = _rz21kNjU;
         "neoforge-1.20.4" = _omDqfmVB;
         "neoforge-1.20.1" = _LhYJ43ll;
         "neoforge-1.21" = _P5nUbXht;
-        "neoforge-1.21.1" = _eaAxOO7D;
+        "neoforge-1.21.1" = _lZXumOcA;
         "pkg-0" = _M8OoOeiD;
         "pkg-1" = _srZ20WkM;
         "pkg-2" = _CeFXWpWV;
@@ -1069,7 +1093,9 @@ let
         "pkg-1.21-1.5.2" = _y5cw963q;
         "pkg-1.20-1.5.7" = _WJEvBCah;
         "pkg-1.20-1.5.8" = _LhYJ43ll;
-        "default" = _LhYJ43ll;
+        "pkg-1.21-1.6.1" = _7PhSqeWL;
+        "pkg-1.21-1.6.2" = _rz21kNjU;
+        "default" = _rz21kNjU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sleep-tight";

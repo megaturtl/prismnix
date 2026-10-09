@@ -361,6 +361,16 @@ let
             "file" = "skinshifter-neoforge-3.2.0.jar";
             "hash" = "sha512-rEI7cdhjCrelB1aGQxLuBiY4sPI5uztqBh2UFmkgecgm44igBVv14u0ImLFEs5OZv7GggX03B6Pgx8ZSfGxTsA==";
         };
+        _EwJlYPCf = {
+            "id" = "EwJlYPCf";
+            "file" = "skinshifter-fabric-3.3.0.jar";
+            "hash" = "sha512-3R29r8jvl5fZaXg7jaZYqCERpM12Z+iyXTZLjxR6eNFqWiieo/Wt38+EGxEoFq5MNtmRykgmMQYVh8W5WL8zCg==";
+        };
+        _v3p1FSJB = {
+            "id" = "v3p1FSJB";
+            "file" = "skinshifter-neoforge-3.3.0.jar";
+            "hash" = "sha512-nazVSezuMH02a8SpxMT+k03JPuzuZqYEhcI0n99clY/j7+NsIiqtVOb9pXkXzng1s0QKVsqwEwzkWrkeeflgWQ==";
+        };
     in {
         "lrqSyIIy" = _lrqSyIIy;
         "Pk10XEXF" = _Pk10XEXF;
@@ -434,6 +444,8 @@ let
         "rVk2W58l" = _rVk2W58l;
         "z9oRg02v" = _z9oRg02v;
         "PFHEUR5G" = _PFHEUR5G;
+        "EwJlYPCf" = _EwJlYPCf;
+        "v3p1FSJB" = _v3p1FSJB;
         "fabric-1.18.2" = _Z3Qdl7Kb;
         "fabric-1.19.4" = _atCSuEJ5;
         "fabric-1.20.2" = _4UjZCos4;
@@ -453,6 +465,7 @@ let
         "fabric-1.21.10" = _FYes7mXX;
         "fabric-26.1.2" = _uJ85AZh9;
         "fabric-26.2" = _z9oRg02v;
+        "fabric-26.3" = _EwJlYPCf;
         "quilt-1.18.2" = _Z3Qdl7Kb;
         "quilt-1.19.4" = _atCSuEJ5;
         "quilt-1.20.2" = _4UjZCos4;
@@ -472,6 +485,7 @@ let
         "quilt-1.21.10" = _FYes7mXX;
         "quilt-26.1.2" = _uJ85AZh9;
         "quilt-26.2" = _z9oRg02v;
+        "quilt-26.3" = _EwJlYPCf;
         "forge-1.18.2" = _Wj1wsSTm;
         "forge-1.19.4" = _romKqcL4;
         "forge-1.20.2" = _EI4YaXM6;
@@ -494,6 +508,7 @@ let
         "neoforge-1.21.10" = _LfKuYDqo;
         "neoforge-26.1.2" = _rVk2W58l;
         "neoforge-26.2" = _PFHEUR5G;
+        "neoforge-26.3" = _v3p1FSJB;
         "pkg-1.18.2-fabric-1.0" = _lrqSyIIy;
         "pkg-1.18.2-forge-1.0" = _Pk10XEXF;
         "pkg-1.19.4-fabric-1.0" = _EIqj1Tcl;
@@ -566,7 +581,9 @@ let
         "pkg-neoforge-3.1.0" = _rVk2W58l;
         "pkg-fabric-3.2.0" = _z9oRg02v;
         "pkg-neoforge-3.2.0" = _PFHEUR5G;
-        "default" = _PFHEUR5G;
+        "pkg-fabric-3.3.0" = _EwJlYPCf;
+        "pkg-neoforge-3.3.0" = _v3p1FSJB;
+        "default" = _v3p1FSJB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skinshifter";

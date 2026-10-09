@@ -51,6 +51,11 @@ let
             "file" = "truefullbright-2.0.2.jar";
             "hash" = "sha512-FLUyhaxJEbzY2wbG99KVXU5lKBaqEjvYR0bvM4gy1jAWqAiJ/WzvL4u8TypDrVn7UTveegObN6YVmYE5ClZBbQ==";
         };
+        _YrSI4DsA = {
+            "id" = "YrSI4DsA";
+            "file" = "truefullbright-2.0.3.jar";
+            "hash" = "sha512-Oyg3jKrad8uU6vghq0VF7GdKtGzN3hAihkfKQ9+ZGUu8dcCATqKVAiYVI0pEeNVXfyIhzBfKjA8bNIUjKFTc/Q==";
+        };
     in {
         "wUDHDwWU" = _wUDHDwWU;
         "Qsq1hn13" = _Qsq1hn13;
@@ -62,6 +67,7 @@ let
         "icPjgQ5j" = _icPjgQ5j;
         "BhhVxkec" = _BhhVxkec;
         "D8rjgqMl" = _D8rjgqMl;
+        "YrSI4DsA" = _YrSI4DsA;
         "fabric-1.20" = _MWOeeBGl;
         "fabric-1.20.1" = _MWOeeBGl;
         "fabric-1.20.2" = _MWOeeBGl;
@@ -85,6 +91,7 @@ let
         "fabric-26.1.1" = _BhhVxkec;
         "fabric-26.1.2" = _BhhVxkec;
         "fabric-26.2" = _D8rjgqMl;
+        "fabric-26.3" = _YrSI4DsA;
         "pkg-1.0.0-beta" = _wUDHDwWU;
         "pkg-1.0.0-pre1" = _Qsq1hn13;
         "pkg-1.0.0" = _Qx3uo7K5;
@@ -95,7 +102,8 @@ let
         "pkg-2.0.0" = _icPjgQ5j;
         "pkg-2.0.1" = _BhhVxkec;
         "pkg-2.0.2" = _D8rjgqMl;
-        "default" = _D8rjgqMl;
+        "pkg-2.0.3" = _YrSI4DsA;
+        "default" = _YrSI4DsA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "true-fullbright";

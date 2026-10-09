@@ -166,6 +166,26 @@ let
             "file" = "LocatorColors-1.21.11-1.1.1-fabric.jar";
             "hash" = "sha512-HvVhrdl0mRqHQT3hO7UsZRLIXRpWjoG8ChGhl2aCXXAjhNzAJgWw33m0UVyU+BkupP6lAXx/6aExPSYYHm1HCQ==";
         };
+        _KsqM39Uf = {
+            "id" = "KsqM39Uf";
+            "file" = "LocatorColors-1.21.11-1.1.2.jar";
+            "hash" = "sha512-Gg5U0uRkm1y8J9bM9aIPlu2VX4aP3KWV7aR32PQUfuDwlMgsMqvmGQK+ezZbJlVMm6TN7d5TAqLMlnIVIwtXqA==";
+        };
+        _NJz5Wjqq = {
+            "id" = "NJz5Wjqq";
+            "file" = "LocatorColors-26.2-1.1.2.jar";
+            "hash" = "sha512-Pvd+sss2NuCLEOYkm2FnlNmDfJTl7IXNT5A7Kpet1aWurXdtbHggu7CEcIJVVT0aISde3YGduVZlaMpW0B9vTw==";
+        };
+        _u9nveCVi = {
+            "id" = "u9nveCVi";
+            "file" = "LocatorColors-26.1-1.1.2.jar";
+            "hash" = "sha512-J8DQ43cDvjjMTqpZuYbXanoiTE/buMmFWsIsKoyvirdBAi7N4zq2AcJe3oEIT4JF4tKUHPZ9eTaC96gHExBUjQ==";
+        };
+        _abRE6yqO = {
+            "id" = "abRE6yqO";
+            "file" = "LocatorColors-26.3-1.1.2.jar";
+            "hash" = "sha512-HJEnhc1yck92M3UjOCDOjQkzPt3rx5K7aMZ0mORdbi6Wv7JWzJzISg2ieprTtfhXPwiL9ZB50d27kkb8cXyW9Q==";
+        };
     in {
         "v5qlTbeh" = _v5qlTbeh;
         "n1qNI8XQ" = _n1qNI8XQ;
@@ -200,17 +220,22 @@ let
         "vxVVut1z" = _vxVVut1z;
         "IogbBu13" = _IogbBu13;
         "eVMLNzwY" = _eVMLNzwY;
-        "neoforge-1.21.11" = _vxVVut1z;
-        "neoforge-26.1" = _HJKzXBPk;
-        "neoforge-26.1.1" = _HJKzXBPk;
-        "neoforge-26.1.2" = _TIR2OTCC;
-        "neoforge-26.2" = _IogbBu13;
-        "fabric-26.1" = _rFBUf2Dg;
-        "fabric-1.21.11" = _eVMLNzwY;
-        "fabric-26.1.1" = _rFBUf2Dg;
-        "fabric-26.1.2" = _vXqNoIZ5;
-        "fabric-26.2" = _uNIAKox1;
-        "fabric-26.3" = _D0GWVtIY;
+        "KsqM39Uf" = _KsqM39Uf;
+        "NJz5Wjqq" = _NJz5Wjqq;
+        "u9nveCVi" = _u9nveCVi;
+        "abRE6yqO" = _abRE6yqO;
+        "neoforge-1.21.11" = _KsqM39Uf;
+        "neoforge-26.1" = _u9nveCVi;
+        "neoforge-26.1.1" = _u9nveCVi;
+        "neoforge-26.1.2" = _u9nveCVi;
+        "neoforge-26.2" = _NJz5Wjqq;
+        "neoforge-26.3" = _abRE6yqO;
+        "fabric-26.1" = _u9nveCVi;
+        "fabric-1.21.11" = _KsqM39Uf;
+        "fabric-26.1.1" = _u9nveCVi;
+        "fabric-26.1.2" = _u9nveCVi;
+        "fabric-26.2" = _NJz5Wjqq;
+        "fabric-26.3" = _abRE6yqO;
         "quilt-26.1" = _rFBUf2Dg;
         "quilt-1.21.11" = _eVMLNzwY;
         "quilt-26.1.1" = _rFBUf2Dg;
@@ -248,7 +273,11 @@ let
         "pkg-1.21.11-1.1.1+neoforge" = _vxVVut1z;
         "pkg-26.2-1.1.1+neoforge" = _IogbBu13;
         "pkg-1.21.11-1.1.1+fabric" = _eVMLNzwY;
-        "default" = _eVMLNzwY;
+        "pkg-1.21.11-1.1.2+fabric+neoforge" = _KsqM39Uf;
+        "pkg-26.2-1.1.2+fabric+neoforge" = _NJz5Wjqq;
+        "pkg-26.1-1.1.2+fabric+neoforge" = _u9nveCVi;
+        "pkg-26.3-1.1.2+fabric+neoforge" = _abRE6yqO;
+        "default" = _abRE6yqO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "locator-colors";

@@ -271,6 +271,31 @@ let
             "file" = "phases-discord-rich-presence-2.8.0-26.3.jar";
             "hash" = "sha512-812DctC8+fRkW1mr6P8wrnWF/ZLpnOf0pBRDImzwgDYVgUDxb2pBfX3VVBNB/jCkZp3aDbTZAeyJ+c+4aK9img==";
         };
+        _CoNiq2VM = {
+            "id" = "CoNiq2VM";
+            "file" = "phases-discord-rich-presence-2.8.1-1.21.1.jar";
+            "hash" = "sha512-g5cAG6akUhF9j9DxbKsRiQ9Pp0rY4pI0irCmDf7VUxQkSPqX2taKaNMu7Dygu1pQB6iJ2Z+ujDJ8Geql4vERQw==";
+        };
+        _T0bo8Zfw = {
+            "id" = "T0bo8Zfw";
+            "file" = "phases-discord-rich-presence-2.8.1-1.21.11.jar";
+            "hash" = "sha512-VJWqiQdBbPu4Krog+LyLKfCexd+j5TnEowSRKo9I1wJueF1w3S4hrJ+PImve1xo4Fo97lf6tiBnxMmYSUUoPXA==";
+        };
+        _Lc3V607a = {
+            "id" = "Lc3V607a";
+            "file" = "phases-discord-rich-presence-2.8.1-26.1.jar";
+            "hash" = "sha512-c08MpoQ1gypR75AHppBkEJObW/+x5Q3u8yvFsEnoylC6fjjYHOvfl5goVOYqDhE2f22Z2TJVmH0pd7pCuJMTFw==";
+        };
+        _1Gjmtm4c = {
+            "id" = "1Gjmtm4c";
+            "file" = "phases-discord-rich-presence-2.8.1-26.2.jar";
+            "hash" = "sha512-THXB3U2EPplf9cZt12IPdku7Wvy2jYTpwQ7Wr6rtwcZzAlWnMnzyc0gqOoqMvO8Wh0+YzRw5OSrdHfSyICcofA==";
+        };
+        _HkVFfgF6 = {
+            "id" = "HkVFfgF6";
+            "file" = "phases-discord-rich-presence-2.8.1-26.3.jar";
+            "hash" = "sha512-BokLkLgc7Km9GdwEOY3ZBKgW9J4Fm2N65IRq+8JIuDQ4EzeB6h+Yz9yJpioaKmhvceaMlOqT1MpPGp3vnVwnmw==";
+        };
     in {
         "Fh3gQOnL" = _Fh3gQOnL;
         "n3jxR6T9" = _n3jxR6T9;
@@ -326,12 +351,17 @@ let
         "uYcuEmpp" = _uYcuEmpp;
         "R6ZR4GiX" = _R6ZR4GiX;
         "kE6BHtDU" = _kE6BHtDU;
+        "CoNiq2VM" = _CoNiq2VM;
+        "T0bo8Zfw" = _T0bo8Zfw;
+        "Lc3V607a" = _Lc3V607a;
+        "1Gjmtm4c" = _1Gjmtm4c;
+        "HkVFfgF6" = _HkVFfgF6;
         "fabric-1.20.2" = _Fh3gQOnL;
         "fabric-1.20.4" = _Wgq75RlU;
         "fabric-1.20.5" = _Wgq75RlU;
         "fabric-1.20.6" = _Wgq75RlU;
         "fabric-1.21" = _tK14MLTG;
-        "fabric-1.21.1" = _nNzEEWld;
+        "fabric-1.21.1" = _CoNiq2VM;
         "fabric-1.21.2" = _tK14MLTG;
         "fabric-1.21.3" = _tK14MLTG;
         "fabric-1.21.4" = _VBB2LLGK;
@@ -341,12 +371,12 @@ let
         "fabric-1.21.8" = _YVBxOuVp;
         "fabric-1.21.9" = _9jcLNy55;
         "fabric-1.21.10" = _9jcLNy55;
-        "fabric-1.21.11" = _qdm4EHQY;
-        "fabric-26.1" = _uYcuEmpp;
-        "fabric-26.1.1" = _uYcuEmpp;
-        "fabric-26.1.2" = _uYcuEmpp;
-        "fabric-26.2" = _R6ZR4GiX;
-        "fabric-26.3" = _kE6BHtDU;
+        "fabric-1.21.11" = _T0bo8Zfw;
+        "fabric-26.1" = _Lc3V607a;
+        "fabric-26.1.1" = _Lc3V607a;
+        "fabric-26.1.2" = _Lc3V607a;
+        "fabric-26.2" = _1Gjmtm4c;
+        "fabric-26.3" = _HkVFfgF6;
         "pkg-1.0.0" = _Fh3gQOnL;
         "pkg-1.0.1" = _n3jxR6T9;
         "pkg-1.1.0" = _6kfXhsQb;
@@ -401,7 +431,12 @@ let
         "pkg-2.8.0-26.1" = _uYcuEmpp;
         "pkg-2.8.0-26.2" = _R6ZR4GiX;
         "pkg-2.8.0-26.3" = _kE6BHtDU;
-        "default" = _kE6BHtDU;
+        "pkg-2.8.1-1.21.1" = _CoNiq2VM;
+        "pkg-2.8.1-1.21.11" = _T0bo8Zfw;
+        "pkg-2.8.1-26.1" = _Lc3V607a;
+        "pkg-2.8.1-26.2" = _1Gjmtm4c;
+        "pkg-2.8.1-26.3" = _HkVFfgF6;
+        "default" = _HkVFfgF6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "phases-discord-rich-presence";

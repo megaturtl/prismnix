@@ -26,12 +26,18 @@ let
             "file" = "audiothrottle-1.0.1-1.21.11.jar";
             "hash" = "sha512-/2PxP0NZkaL6N5/dVJfASLe2W75Gi9s8IQ1m7PHDgKiprcjTnoF4n00UVCXShrW+5fRYMkov3wdOtF8T7HeAbA==";
         };
+        _sbCf0q16 = {
+            "id" = "sbCf0q16";
+            "file" = "audiothrottle-1.0.1-26.3.jar";
+            "hash" = "sha512-U7U5Qqh61zKxlHkP593KsdQ6W3MgJ6G+CBnOKdXk7JC8zORZs5bNnk/Efz22m51rBHt9KPfJ5bJNN5W9/KAu2Q==";
+        };
     in {
         "2eoj8BDk" = _2eoj8BDk;
         "TAjApLha" = _TAjApLha;
         "HWsmHmL5" = _HWsmHmL5;
         "yDLii6gM" = _yDLii6gM;
         "28CxkZX9" = _28CxkZX9;
+        "sbCf0q16" = _sbCf0q16;
         "fabric-26.1" = _2eoj8BDk;
         "fabric-26.1.1" = _2eoj8BDk;
         "fabric-26.1.2" = _2eoj8BDk;
@@ -48,9 +54,10 @@ let
         "fabric-1.21.10" = _yDLii6gM;
         "fabric-26.2" = _HWsmHmL5;
         "fabric-1.21.11" = _28CxkZX9;
+        "fabric-26.3" = _sbCf0q16;
         "pkg-1.0.0" = _HWsmHmL5;
-        "pkg-1.0.1" = _28CxkZX9;
-        "default" = _28CxkZX9;
+        "pkg-1.0.1" = _sbCf0q16;
+        "default" = _sbCf0q16;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "audiothrottle";

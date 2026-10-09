@@ -211,6 +211,16 @@ let
             "file" = "villagertrades-26.2-1.0.8-fabric.jar";
             "hash" = "sha512-jYXmGZESsEUsdszs7I+tZSHuonu+3oH+Z6sJJqVFHQ/+STo4HU7U1ivR50NFLdIfAX9/wK1XDiAVvmUQY+akTw==";
         };
+        _nYuPvFb1 = {
+            "id" = "nYuPvFb1";
+            "file" = "villagertrades-26.3-1.0.8-fabric.jar";
+            "hash" = "sha512-6FrFAuHMLBOrQOejevx08Tu4zQ3NgAoMz4E0004yf41tWdgl4L5OeOlUXTNSm9iAOjNLbRUqItycRapC4jrqog==";
+        };
+        _jZtwMX72 = {
+            "id" = "jZtwMX72";
+            "file" = "villagertrades-26.3-1.0.8-neoforge.jar";
+            "hash" = "sha512-xJz2FlvzE2hpk/UqcsUUBolltAuSgR3CImNYfsZzrW/G+2pgSfNtIoX03LWznTCTnke2+PCqG54AVQlhAlnWlA==";
+        };
     in {
         "yCxYh3jp" = _yCxYh3jp;
         "S9eFT2bG" = _S9eFT2bG;
@@ -254,6 +264,8 @@ let
         "zQmccKT9" = _zQmccKT9;
         "wz8hMV5B" = _wz8hMV5B;
         "UyHWDFJE" = _UyHWDFJE;
+        "nYuPvFb1" = _nYuPvFb1;
+        "jZtwMX72" = _jZtwMX72;
         "fabric-1.20.2" = _yCxYh3jp;
         "fabric-1.20.6" = _Uwt1htOX;
         "fabric-1.21" = _JuRyV8D8;
@@ -262,6 +274,7 @@ let
         "fabric-1.21.8" = _BmhzkCs1;
         "fabric-26.1.2" = _zQmccKT9;
         "fabric-26.2" = _UyHWDFJE;
+        "fabric-26.3" = _nYuPvFb1;
         "neoforge-1.20.2" = _S9eFT2bG;
         "neoforge-1.20.6" = _NAygVaKF;
         "neoforge-1.21" = _BwFeVsZO;
@@ -270,6 +283,7 @@ let
         "neoforge-1.21.8" = _uFWeCQa6;
         "neoforge-26.1.2" = _xDZLJDCk;
         "neoforge-26.2" = _wz8hMV5B;
+        "neoforge-26.3" = _jZtwMX72;
         "pkg-1.20.2-1.0.0" = _S9eFT2bG;
         "pkg-1.20.6-1.0.0" = _X83qarLG;
         "pkg-1.21-1.0.0" = _ZRUjsWtw;
@@ -304,7 +318,9 @@ let
         "pkg-26.1.2-1.0.8-fabric" = _zQmccKT9;
         "pkg-26.2-1.0.8-neoforge" = _wz8hMV5B;
         "pkg-26.2-1.0.8-fabric" = _UyHWDFJE;
-        "default" = _UyHWDFJE;
+        "pkg-26.3-1.0.8-fabric" = _nYuPvFb1;
+        "pkg-26.3-1.0.8-neoforge" = _jZtwMX72;
+        "default" = _jZtwMX72;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "villagertradesedit";

@@ -286,6 +286,26 @@ let
             "file" = "elytratrails-1.6.4-26.3.jar";
             "hash" = "sha512-CcB1noA3e+uXv/zPMJdUTBLTZQHn4G79ChXgHRm23EFUIePbFD/AAPdc9NDIbiPYj4alJuAallF4+YvjY/NxDQ==";
         };
+        _LIZkmA2k = {
+            "id" = "LIZkmA2k";
+            "file" = "elytratrails-1.6.5-26.3.jar";
+            "hash" = "sha512-PpwPg6wawlfCu3F+J6WEFPF6rdwObTju1FKCz5cXChJYyhU3B3ODZLu4T0X831E7vUjzb/q2Zfy8nIIYhIq0MA==";
+        };
+        _VWvtBt3R = {
+            "id" = "VWvtBt3R";
+            "file" = "elytratrails-1.6.6-26.3.jar";
+            "hash" = "sha512-OS8vnhyZUhmnknKBkd76HZLK2Kf9yviZA4TnOyeyflGeOaVk8YKeY5sqigZXDYrWDc3RWPMPL4EnO59cMxowEA==";
+        };
+        _PgCvLele = {
+            "id" = "PgCvLele";
+            "file" = "elytratrails-1.6.7-26.2.jar";
+            "hash" = "sha512-RceA0GID0dFvJ1ipcRdLWO6doUeod5LDkIu4H2IKBrT08mNTMQLbOjnj/7XvcYzdD4KZS3XVCSyzj8jef0sZwA==";
+        };
+        _4si44k97 = {
+            "id" = "4si44k97";
+            "file" = "elytratrails-1.6.7-26.3.jar";
+            "hash" = "sha512-tLvutUbRsnAB0UJvbrMzcAF3FNlB7yxAtjAaqLHo/KF3ntZKnYR/UC0CinNML3XayadH6RXu8BveHFs7AvslNw==";
+        };
     in {
         "CfFozPOO" = _CfFozPOO;
         "LnF8d50s" = _LnF8d50s;
@@ -344,6 +364,10 @@ let
         "JAa0fuT7" = _JAa0fuT7;
         "WEGvx2fH" = _WEGvx2fH;
         "G6rKtQbm" = _G6rKtQbm;
+        "LIZkmA2k" = _LIZkmA2k;
+        "VWvtBt3R" = _VWvtBt3R;
+        "PgCvLele" = _PgCvLele;
+        "4si44k97" = _4si44k97;
         "fabric-1.21.11" = _9KJRbgAa;
         "fabric-26.1" = _5we4VeeY;
         "fabric-26.1.1" = _5we4VeeY;
@@ -351,13 +375,13 @@ let
         "fabric-26.2-snapshot-1" = _ENnaF6A8;
         "fabric-1.20.1" = _c63ONIoI;
         "fabric-1.21.1" = _26ZE7cvJ;
-        "fabric-26.2" = _5VAxvNFC;
+        "fabric-26.2" = _PgCvLele;
         "fabric-26.3-snapshot-3" = _YOG6Rv6C;
         "fabric-26.3-snapshot-7" = _cv91Gfrw;
         "fabric-26.3-pre-1" = _dyN3AzLm;
         "fabric-26.3-pre-2" = _JAa0fuT7;
         "fabric-26.3-rc-3" = _WEGvx2fH;
-        "fabric-26.3" = _G6rKtQbm;
+        "fabric-26.3" = _4si44k97;
         "pkg-1.0.0" = _CfFozPOO;
         "pkg-1.0.1" = _LnF8d50s;
         "pkg-1.1.0" = _lhUP0Wa9;
@@ -415,7 +439,11 @@ let
         "pkg-1.6.3-26.3-pre-2" = _JAa0fuT7;
         "pkg-1.6.4-26.3-rc-3" = _WEGvx2fH;
         "pkg-1.6.4-26.3" = _G6rKtQbm;
-        "default" = _G6rKtQbm;
+        "pkg-1.6.5-26.3" = _LIZkmA2k;
+        "pkg-1.6.6-26.3" = _VWvtBt3R;
+        "pkg-1.6.7-26.2" = _PgCvLele;
+        "pkg-1.6.7-26.3" = _4si44k97;
+        "default" = _4si44k97;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elytra-contrails-mod";

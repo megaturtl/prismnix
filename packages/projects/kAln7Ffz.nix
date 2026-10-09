@@ -41,6 +41,11 @@ let
             "file" = "treevamped-1.3.0.jar";
             "hash" = "sha512-BA0iFk8U3Zo7pppouP0IC1Ad8eqOQGQymxsMQaoI0IGPgROloaJuavHL5Me/clZY44TPS1Agc/5QpABuPlLdtA==";
         };
+        _YjXI41Gu = {
+            "id" = "YjXI41Gu";
+            "file" = "treevamped-1.4.0.jar";
+            "hash" = "sha512-0RkdJxUsAeeEZRSsgkfJL0XyENVt5L5oPVHSaoOcsWrQFyn295B+NaGN3gLKtJTiV2GUJVSaZvJUBhGInqqCeA==";
+        };
     in {
         "YxcY755g" = _YxcY755g;
         "R6rnZRDf" = _R6rnZRDf;
@@ -50,7 +55,8 @@ let
         "g8MnuEzy" = _g8MnuEzy;
         "yws57aCY" = _yws57aCY;
         "xHLKBNHf" = _xHLKBNHf;
-        "fabric-1.21.11" = _xHLKBNHf;
+        "YjXI41Gu" = _YjXI41Gu;
+        "fabric-1.21.11" = _YjXI41Gu;
         "pkg-1.0.0" = _YxcY755g;
         "pkg-1.1.0" = _R6rnZRDf;
         "pkg-1.1.1" = _IByt3DcC;
@@ -59,7 +65,8 @@ let
         "pkg-1.2.1" = _g8MnuEzy;
         "pkg-1.2.2" = _yws57aCY;
         "pkg-1.3.0" = _xHLKBNHf;
-        "default" = _xHLKBNHf;
+        "pkg-1.4.0" = _YjXI41Gu;
+        "default" = _YjXI41Gu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "treevamped";

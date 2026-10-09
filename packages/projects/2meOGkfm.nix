@@ -56,6 +56,11 @@ let
             "file" = "Bountiful-Critters-1.20.1-1.5.0.jar";
             "hash" = "sha512-jao2DvfI+SnTJPyqRhPPrIrF09Rn1hW3KYPyFiXq9i9FG8mAB1P2Dj2+D5oeUzwJ/dVM9Geppgzjfrv8E8qq1A==";
         };
+        _QcRpBiPj = {
+            "id" = "QcRpBiPj";
+            "file" = "Bountiful-Critters-1.20.1-1.5.1.jar";
+            "hash" = "sha512-a85Kodpv3Z+WKb/vWQhFdFoxd529nueNltwHxOQrEg9WmOPaQfVVdQLPPKtb6TTbeQtmOh0oOUR5bSVAZxw3Lg==";
+        };
     in {
         "8yCVIdAd" = _8yCVIdAd;
         "OIhesrRG" = _OIhesrRG;
@@ -68,7 +73,8 @@ let
         "7wrCwLYY" = _7wrCwLYY;
         "hQCm41sk" = _hQCm41sk;
         "R7mGGHCD" = _R7mGGHCD;
-        "forge-1.20.1" = _R7mGGHCD;
+        "QcRpBiPj" = _QcRpBiPj;
+        "forge-1.20.1" = _QcRpBiPj;
         "pkg-1.2.2" = _8yCVIdAd;
         "pkg-1.3.0" = _OIhesrRG;
         "pkg-1.3.1" = _TNNbN2va;
@@ -79,7 +85,8 @@ let
         "pkg-1.4.3" = _7wrCwLYY;
         "pkg-1.4.4" = _hQCm41sk;
         "pkg-1.5.0" = _R7mGGHCD;
-        "default" = _R7mGGHCD;
+        "pkg-1.5.1" = _QcRpBiPj;
+        "default" = _QcRpBiPj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bountiful-critters";

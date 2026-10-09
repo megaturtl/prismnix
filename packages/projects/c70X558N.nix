@@ -91,6 +91,11 @@ let
             "file" = "mystcraft_datapack_v1.7.11.zip";
             "hash" = "sha512-si7RKjXAPchlgAaiBKI4ujGBTyfGtwRxpYDyvuFIWVdBt9Q6pYkatCjSBOUERcHdqwQv9wjyWRpi50NiC8LeKA==";
         };
+        _d74FlK5K = {
+            "id" = "d74FlK5K";
+            "file" = "mystcraft_datapack_v1.7.12.zip";
+            "hash" = "sha512-RFnABv99pPLbe7KCLyr0v6sAvuYhK7NMJHYkCbE1JpgXDhnjGx5ZSH4CyS4vVZsNTEdmKMPTzAm0MDZbFvWvDw==";
+        };
     in {
         "BlEteemh" = _BlEteemh;
         "lvJkLGE2" = _lvJkLGE2;
@@ -110,6 +115,7 @@ let
         "KXOif9s4" = _KXOif9s4;
         "NMjPHqrN" = _NMjPHqrN;
         "dWXZjNjj" = _dWXZjNjj;
+        "d74FlK5K" = _d74FlK5K;
         "datapack-1.21.4" = _hzdbuKYT;
         "datapack-1.21.5" = _Yz046td8;
         "datapack-1.21.6" = _U3Z0EOWE;
@@ -122,6 +128,7 @@ let
         "datapack-26.1.1" = _NMjPHqrN;
         "datapack-26.1.2" = _NMjPHqrN;
         "datapack-26.2" = _dWXZjNjj;
+        "datapack-26.3" = _d74FlK5K;
         "fabric-1.21.4" = _jaoHLlM6;
         "fabric-1.21.6" = _icJJ5Sq9;
         "fabric-1.21.7" = _TWdFJq0d;
@@ -152,7 +159,8 @@ let
         "pkg-1.7.9" = _KXOif9s4;
         "pkg-1.7.10" = _NMjPHqrN;
         "pkg-1.7.11" = _dWXZjNjj;
-        "default" = _dWXZjNjj;
+        "pkg-1.7.12" = _d74FlK5K;
+        "default" = _d74FlK5K;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mystcraft-data-pack";

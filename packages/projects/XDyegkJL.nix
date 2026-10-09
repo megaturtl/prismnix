@@ -251,6 +251,11 @@ let
             "file" = "itemresistance-26.2.3.jar";
             "hash" = "sha512-e6sm68Fxzg+oxdbgc8iS8H5qrDu514XorvX1y/55uje3MeMhHysoW/dft5R/211KEPlr5KVtpg0b66yLuowvTA==";
         };
+        _W2xDq3Ah = {
+            "id" = "W2xDq3Ah";
+            "file" = "itemresistance-26.3.0.jar";
+            "hash" = "sha512-p28HrOS8Jm41G74ZamCMy16rCiAGmSlWNOW82/FaLroTsK19fAuZ35eVKxj69ArgeVjZ+tgd1MV7C8ZRnVvGwQ==";
+        };
     in {
         "Qf6JHPTr" = _Qf6JHPTr;
         "EX1292Rx" = _EX1292Rx;
@@ -302,6 +307,7 @@ let
         "Zo4PJvyi" = _Zo4PJvyi;
         "SQffKoKO" = _SQffKoKO;
         "ooBSMNBY" = _ooBSMNBY;
+        "W2xDq3Ah" = _W2xDq3Ah;
         "forge-1.16.5" = _lKi76Jmv;
         "forge-1.18.1" = _epa5ta2k;
         "forge-1.18.2" = _RTsvom9f;
@@ -324,6 +330,7 @@ let
         "neoforge-26.1" = _Zo4PJvyi;
         "neoforge-26.1.1" = _Zo4PJvyi;
         "neoforge-26.2" = _ooBSMNBY;
+        "neoforge-26.3" = _W2xDq3Ah;
         "pkg-4.0.2" = _Qf6JHPTr;
         "pkg-7.0.0" = _EX1292Rx;
         "pkg-4.0.3" = _Lsfp37F8;
@@ -373,7 +380,8 @@ let
         "pkg-26.1.2" = _Zo4PJvyi;
         "pkg-26.2.0" = _SQffKoKO;
         "pkg-26.2.3" = _ooBSMNBY;
-        "default" = _ooBSMNBY;
+        "pkg-26.3.0" = _W2xDq3Ah;
+        "default" = _W2xDq3Ah;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "itemresistance";

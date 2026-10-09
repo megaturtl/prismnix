@@ -11,9 +11,21 @@ let
             "file" = "downfall-enchantment-1.0.0.jar";
             "hash" = "sha512-9YbwxWDeD1RJyovVYy46xOJ9NxTXS6DD47ILpLWTe9jAo6S7OkFFid/q+QltuFYI4LPCbnKWpF8Nl1Q77IRswA==";
         };
+        _EUAskEnD = {
+            "id" = "EUAskEnD";
+            "file" = "Downfall Enchantment v1.0.0 [26.3].zip";
+            "hash" = "sha512-DfkaIQF0aHE7WCI810xuBHjyywDoDf5lycMTJpul1ZQv08KRZkUh2X3SyApyL2Zogv0YUwl1AebJtzJ15uWEzg==";
+        };
+        _cePieuAb = {
+            "id" = "cePieuAb";
+            "file" = "downfall-enchantment-1.0.0.jar";
+            "hash" = "sha512-UxADZh4hBffx5xxZmDEZvQdZ4DtdsKeUbo8Go2QToxXftazZDQ751ptIERHJAVNyj58oi8mCQktp420mE7beJQ==";
+        };
     in {
         "Tt3fObOh" = _Tt3fObOh;
         "K24wgA8a" = _K24wgA8a;
+        "EUAskEnD" = _EUAskEnD;
+        "cePieuAb" = _cePieuAb;
         "datapack-1.21" = _Tt3fObOh;
         "datapack-1.21.1" = _Tt3fObOh;
         "datapack-1.21.2" = _Tt3fObOh;
@@ -30,6 +42,7 @@ let
         "datapack-26.1.1" = _Tt3fObOh;
         "datapack-26.1.2" = _Tt3fObOh;
         "datapack-26.2" = _Tt3fObOh;
+        "datapack-26.3" = _EUAskEnD;
         "fabric-1.21" = _K24wgA8a;
         "fabric-1.21.1" = _K24wgA8a;
         "fabric-1.21.2" = _K24wgA8a;
@@ -46,6 +59,7 @@ let
         "fabric-26.1.1" = _K24wgA8a;
         "fabric-26.1.2" = _K24wgA8a;
         "fabric-26.2" = _K24wgA8a;
+        "fabric-26.3" = _cePieuAb;
         "forge-1.21" = _K24wgA8a;
         "forge-1.21.1" = _K24wgA8a;
         "forge-1.21.2" = _K24wgA8a;
@@ -62,6 +76,7 @@ let
         "forge-26.1.1" = _K24wgA8a;
         "forge-26.1.2" = _K24wgA8a;
         "forge-26.2" = _K24wgA8a;
+        "forge-26.3" = _cePieuAb;
         "neoforge-1.21" = _K24wgA8a;
         "neoforge-1.21.1" = _K24wgA8a;
         "neoforge-1.21.2" = _K24wgA8a;
@@ -78,6 +93,7 @@ let
         "neoforge-26.1.1" = _K24wgA8a;
         "neoforge-26.1.2" = _K24wgA8a;
         "neoforge-26.2" = _K24wgA8a;
+        "neoforge-26.3" = _cePieuAb;
         "quilt-1.21" = _K24wgA8a;
         "quilt-1.21.1" = _K24wgA8a;
         "quilt-1.21.2" = _K24wgA8a;
@@ -94,9 +110,10 @@ let
         "quilt-26.1.1" = _K24wgA8a;
         "quilt-26.1.2" = _K24wgA8a;
         "quilt-26.2" = _K24wgA8a;
-        "pkg-1.0.0" = _Tt3fObOh;
-        "pkg-1.0.0+mod" = _K24wgA8a;
-        "default" = _K24wgA8a;
+        "quilt-26.3" = _cePieuAb;
+        "pkg-1.0.0" = _EUAskEnD;
+        "pkg-1.0.0+mod" = _cePieuAb;
+        "default" = _cePieuAb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "downfall-enchantment";

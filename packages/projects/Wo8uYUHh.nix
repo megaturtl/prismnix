@@ -151,6 +151,111 @@ let
             "file" = "clientsidecosmetics-26.2-2.7.0+mc26.2.jar";
             "hash" = "sha512-WmXPN70ZP5fG/oDoiUXTMFFSVGkgTmeycjhoLNUoGpV+QVvFoHZSMcYdSIVvScMvb4T3cTqobz50ePyt6Wv6Aw==";
         };
+        _cRQOqAoI = {
+            "id" = "cRQOqAoI";
+            "file" = "clientsidecosmetics-1.21.4-2.7.5+mc1.21.4.jar";
+            "hash" = "sha512-sIULTu81Xc7hg/9SKnO70oGFAVc5njQ8G1gVi+I8RadGjfTUZpEht9sTmhLx9ZJMb1m5BY3+kcL61yJU0v4j4Q==";
+        };
+        _4BHjSBxh = {
+            "id" = "4BHjSBxh";
+            "file" = "clientsidecosmetics-1.21.8-2.7.5+mc1.21.8.jar";
+            "hash" = "sha512-HdmoWfks8/xw5Q5Kdwpa2tK3Jvi8y9sJkKYtmS3SDNYMh8i12NA4zBKFRinhw3Pd99ZUk1y5Hs64zSOoP12QPw==";
+        };
+        _bc0yCUOH = {
+            "id" = "bc0yCUOH";
+            "file" = "clientsidecosmetics-1.21.11-2.7.5+mc1.21.11.jar";
+            "hash" = "sha512-wKF1qfmbJGaT+UjIDFfWCbhmf4WY4oIN7d+WBfATG2rpU/K1zyF4XXectlL6FJeU+qpfv+ZXY8fW3FgIP7Gwcg==";
+        };
+        _TiyAimnW = {
+            "id" = "TiyAimnW";
+            "file" = "clientsidecosmetics-26.1.1-2.7.5+mc26.1.1.jar";
+            "hash" = "sha512-K5UW3siPmX2dALcXZjYYI3PY1torQ7+suZBYS+hEqYPUaQikBKhEsFHV4YG1jyyf3DnyQKjEporOhsAct89kxg==";
+        };
+        _bjOAZBx4 = {
+            "id" = "bjOAZBx4";
+            "file" = "clientsidecosmetics-26.2-2.7.5+mc26.2.jar";
+            "hash" = "sha512-9t6Jnsgp5690jo2lst/qjsJkxqyhXvKpOGsQEAKvED6FFCShubRmclBGJQxaOiH5C4AcQdp6augn/lwpLojElg==";
+        };
+        _XuOhQ55n = {
+            "id" = "XuOhQ55n";
+            "file" = "clientsidecosmetics-26.3-2.7.5+mc26.3.jar";
+            "hash" = "sha512-S7V8y88DI4aHM98k0yDXHpzewVK7dxGSjyZkqCq8trKLCTZheVRAE1S/QaXUAJec8gkMYGUYN0gphS54UX96pg==";
+        };
+        _vTwtCLw7 = {
+            "id" = "vTwtCLw7";
+            "file" = "clientsidecosmetics-26.1.2-2.7.5+mc26.1.2.jar";
+            "hash" = "sha512-Gf+9FkY+Dq46wy+eEd+neF07Zx4X+y08qG+j3Y/hfkpo/FJ4uyXyz0mAf907HKWLrD0uAoNSnkE6nKz6Fma2Dw==";
+        };
+        _ybEWxovB = {
+            "id" = "ybEWxovB";
+            "file" = "clientsidecosmetics-1.21.4-3.0.0+mc1.21.4.jar";
+            "hash" = "sha512-i9yhykVVv1SyC4PWdvm6q5pNK/IMXJTTeLDij94zoRqaxZ0RddhVyrmn2/j11AiQ9V+AXpxhgUE6fqxQFroHHw==";
+        };
+        _ciCH1l6R = {
+            "id" = "ciCH1l6R";
+            "file" = "clientsidecosmetics-1.21.8-3.0.0+mc1.21.8.jar";
+            "hash" = "sha512-6x59PkBllFRoOHObfa+drutCGMDhClrIjESRuQAl6r6EcR4ijtOpXYDmKVl1U2B+hXpHqMO0rDTYu5wGcKpVSA==";
+        };
+        _COD24rAL = {
+            "id" = "COD24rAL";
+            "file" = "clientsidecosmetics-1.21.11-3.0.0+mc1.21.11.jar";
+            "hash" = "sha512-nPQYBEXXHo01BgnLZvYUFKOAFlPEdBGEBn1nhN9MwItVDpcqqgiW2REOxHJ4BZ+l5JLTSV+qD+VTzeh361UG7g==";
+        };
+        _4XF7b8dK = {
+            "id" = "4XF7b8dK";
+            "file" = "clientsidecosmetics-26.1.1-3.0.0+mc26.1.1.jar";
+            "hash" = "sha512-NW631Qm3Fl4lIZPVV6KRxO/nSA5Q4IiuMGV1vLWJTyKXIUhGTurlw4yTN1wd2ws7NBVoqYVa+RDfVhOaXsNqfg==";
+        };
+        _RiLcJI3R = {
+            "id" = "RiLcJI3R";
+            "file" = "clientsidecosmetics-26.1.2-3.0.0+mc26.1.2.jar";
+            "hash" = "sha512-Xfgb1Thq8fYTrA8iWepQj3udMYTRjWJgCJYRiXZxClsaxXfxxmOsGEWA6IndrnT2AFmAflO26YZTUiXOF5+j+A==";
+        };
+        _FRRavGrO = {
+            "id" = "FRRavGrO";
+            "file" = "clientsidecosmetics-26.2-3.0.0+mc26.2.jar";
+            "hash" = "sha512-ImF2X5nyhSib3qpYGyQV5LfkIJ639aykRA7To/56GglnCG+nae1Zb33gFhMkS7v23Y2aJ+3ZrFk+0hsBVYaQcA==";
+        };
+        _cM3TJ5zN = {
+            "id" = "cM3TJ5zN";
+            "file" = "clientsidecosmetics-26.3-3.0.0+mc26.3.jar";
+            "hash" = "sha512-TKcPRF5IumCLFhS1gfhkoojnh0nWIi8gwh5y28i+Tu3YCohhgOi7D1yJBYpnyT+GU5G44G3H+XcE1pe6+llGDg==";
+        };
+        _3oYvuFhf = {
+            "id" = "3oYvuFhf";
+            "file" = "clientsidecosmetics-1.21.4-3.1.0+mc1.21.4.jar";
+            "hash" = "sha512-qSvITMbRG3RwJE/N/75+aCxHczDU4nHaQDZ8JihCldcSyeriB/Tl6X692XNyqygFePaUsnBV9bsL2E3hst4yIg==";
+        };
+        _VkpgaIYx = {
+            "id" = "VkpgaIYx";
+            "file" = "clientsidecosmetics-1.21.8-3.1.0+mc1.21.8.jar";
+            "hash" = "sha512-dDDzflsGKs1Prsr//2Oj+0B0SRg3m7LRyQocMM1LND8+6OeHMAIJf51rWlPNT5Kory9+n10SMcQnCnHT6gcQDQ==";
+        };
+        _GZxdIXWB = {
+            "id" = "GZxdIXWB";
+            "file" = "clientsidecosmetics-1.21.11-3.1.0+mc1.21.11.jar";
+            "hash" = "sha512-W49wp5ye5i495jUagRfv9n5A5dCEcUzXND6ZjjR4mk8GR61GJDkTIGkWCekGTHIaqEC3uycUVgMPGZVtpwoAAw==";
+        };
+        _i1aImwva = {
+            "id" = "i1aImwva";
+            "file" = "clientsidecosmetics-26.1.2-3.1.0+mc26.1.2.jar";
+            "hash" = "sha512-l/cLXuQr/PVbjY30TiEJhfzVFEcNACddDE4Ir1InSPZxccZNpWWrGxN/J71SBZqfbpINtv9ZRQa/Wyl1zFZbcg==";
+        };
+        _4P2YiRgI = {
+            "id" = "4P2YiRgI";
+            "file" = "clientsidecosmetics-26.2-3.1.0+mc26.2.jar";
+            "hash" = "sha512-aUmw43jB8eu7hqfFM9F2kflqGH1z9VTPgqUHqj7LGH3uhUd/AlUSfcbyn5qmhjjRmO9I3gBHLe+2jGo+DQB77A==";
+        };
+        _v5BTk4ut = {
+            "id" = "v5BTk4ut";
+            "file" = "clientsidecosmetics-26.3-3.1.0+mc26.3.jar";
+            "hash" = "sha512-PimRP77bB2N8cYdO4uSvlNWu3KkDA1h7mVeZHYwQUhZ1LU5F27bB0J5c7kdMNYxV7H9lhT8O0r9BjkOjQrrusQ==";
+        };
+        _vWGqc7UW = {
+            "id" = "vWGqc7UW";
+            "file" = "clientsidecosmetics-26.1.1-3.1.0+mc26.1.1.jar";
+            "hash" = "sha512-OReE9lORHJ3XIvynPfzz8Y4qfMA8QghoYoLdk39V93cXrQSpQ9NCQBSq/01lafZ3qpV2H9pLfZ2VWcrP5RGnFA==";
+        };
     in {
         "JEcqpMFU" = _JEcqpMFU;
         "YVRFKezE" = _YVRFKezE;
@@ -182,13 +287,35 @@ let
         "Mcuo9vVm" = _Mcuo9vVm;
         "gnExzMGO" = _gnExzMGO;
         "SxlLFBiR" = _SxlLFBiR;
-        "fabric-1.21.11" = _4crjDxWS;
-        "fabric-1.21.8" = _cMxWHYNd;
-        "fabric-1.21.4" = _w1JKL4Dv;
+        "cRQOqAoI" = _cRQOqAoI;
+        "4BHjSBxh" = _4BHjSBxh;
+        "bc0yCUOH" = _bc0yCUOH;
+        "TiyAimnW" = _TiyAimnW;
+        "bjOAZBx4" = _bjOAZBx4;
+        "XuOhQ55n" = _XuOhQ55n;
+        "vTwtCLw7" = _vTwtCLw7;
+        "ybEWxovB" = _ybEWxovB;
+        "ciCH1l6R" = _ciCH1l6R;
+        "COD24rAL" = _COD24rAL;
+        "4XF7b8dK" = _4XF7b8dK;
+        "RiLcJI3R" = _RiLcJI3R;
+        "FRRavGrO" = _FRRavGrO;
+        "cM3TJ5zN" = _cM3TJ5zN;
+        "3oYvuFhf" = _3oYvuFhf;
+        "VkpgaIYx" = _VkpgaIYx;
+        "GZxdIXWB" = _GZxdIXWB;
+        "i1aImwva" = _i1aImwva;
+        "4P2YiRgI" = _4P2YiRgI;
+        "v5BTk4ut" = _v5BTk4ut;
+        "vWGqc7UW" = _vWGqc7UW;
+        "fabric-1.21.11" = _GZxdIXWB;
+        "fabric-1.21.8" = _VkpgaIYx;
+        "fabric-1.21.4" = _3oYvuFhf;
         "fabric-1.21.1" = _Rd6gczG5;
-        "fabric-26.1.1" = _Mcuo9vVm;
-        "fabric-26.1.2" = _gnExzMGO;
-        "fabric-26.2" = _SxlLFBiR;
+        "fabric-26.1.1" = _vWGqc7UW;
+        "fabric-26.1.2" = _i1aImwva;
+        "fabric-26.2" = _4P2YiRgI;
+        "fabric-26.3" = _v5BTk4ut;
         "pkg-1.0.0" = _JEcqpMFU;
         "pkg-1.0.1" = _YVRFKezE;
         "pkg-1.0.2" = _GxeO3PiB;
@@ -217,7 +344,28 @@ let
         "pkg-2.7.0+mc26.1.1" = _Mcuo9vVm;
         "pkg-2.7.0+mc26.1.2" = _gnExzMGO;
         "pkg-2.7.0+mc26.2" = _SxlLFBiR;
-        "default" = _SxlLFBiR;
+        "pkg-2.7.5+mc1.21.4" = _cRQOqAoI;
+        "pkg-2.7.5+mc1.21.8" = _4BHjSBxh;
+        "pkg-2.7.5+mc1.21.11" = _bc0yCUOH;
+        "pkg-2.7.5+mc26.1.1" = _TiyAimnW;
+        "pkg-2.7.5+mc26.2" = _bjOAZBx4;
+        "pkg-2.7.5+mc26.3" = _XuOhQ55n;
+        "pkg-2.7.5+mc26.1.2" = _vTwtCLw7;
+        "pkg-3.0.0+mc1.21.4" = _ybEWxovB;
+        "pkg-3.0.0+mc1.21.8" = _ciCH1l6R;
+        "pkg-3.0.0+mc1.21.11" = _COD24rAL;
+        "pkg-3.0.0+mc26.1.1" = _4XF7b8dK;
+        "pkg-3.0.0+mc26.1.2" = _RiLcJI3R;
+        "pkg-3.0.0+mc26.2" = _FRRavGrO;
+        "pkg-3.0.0+mc26.3" = _cM3TJ5zN;
+        "pkg-3.1.0+mc1.21.4" = _3oYvuFhf;
+        "pkg-3.1.0+mc1.21.8" = _VkpgaIYx;
+        "pkg-3.1.0+mc1.21.11" = _GZxdIXWB;
+        "pkg-3.1.0+mc26.1.2" = _i1aImwva;
+        "pkg-3.1.0+mc26.2" = _4P2YiRgI;
+        "pkg-3.1.0+mc26.3" = _v5BTk4ut;
+        "pkg-3.1.0+mc26.1.1" = _vWGqc7UW;
+        "default" = _vWGqc7UW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "client-side-cosmetics";

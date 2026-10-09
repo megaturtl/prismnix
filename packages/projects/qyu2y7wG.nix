@@ -196,6 +196,26 @@ let
             "file" = "confirmdisconnect-1.1.8+26.1.2-fabric.jar";
             "hash" = "sha512-HdFr4azUhW/To7MXqRA6bN8xovWigjwCHNdJ1ttK5IP/9+M3f2ifs87KIdd0XOMTtpEsXkMYHIJgLYdc8+vRgA==";
         };
+        _oFUKTFxZ = {
+            "id" = "oFUKTFxZ";
+            "file" = "confirmdisconnect-1.1.9+26.1-fabric.jar";
+            "hash" = "sha512-7dtIgLb1Wk6cXXSR5qZXyGCtQnC23eLtwM9FKp6tvdskiIk69IsHLkdoNKIwnIxvn7tZIWN0VcsbPSs6EwQFZg==";
+        };
+        _sNOlI9Yl = {
+            "id" = "sNOlI9Yl";
+            "file" = "confirmdisconnect-1.1.9+26.2-fabric.jar";
+            "hash" = "sha512-7IHwSQVSvWSe6hf55E9LP44PeRy533qonlzfKCbApuWgplaQBgYLQsBEfodz7I7cNSdfHAyafXXwLVI5hcPhMg==";
+        };
+        _n54Q2c1y = {
+            "id" = "n54Q2c1y";
+            "file" = "confirmdisconnect-1.1.9+26.3-fabric.jar";
+            "hash" = "sha512-ednZjTEBaacaulrONIOCvOMe5lXzRv1ALOi2LvgKp3QA8wwuZAoz0filuRL+u9OgxUB8/1fwEQCLLaoBGtm/Cg==";
+        };
+        _FcHLLU4p = {
+            "id" = "FcHLLU4p";
+            "file" = "confirmdisconnect-1.1.9+1.8.9-fabric.jar";
+            "hash" = "sha512-KaHPcv8v1BKonSZEd+jtRCV86rWNwlmB9Fk9rae7KNuaM5RMPW2DXRENMEEGVdqHoNpxT2IG78rjIvEF1c27FA==";
+        };
     in {
         "poKbQWEH" = _poKbQWEH;
         "y9l8GlcH" = _y9l8GlcH;
@@ -236,6 +256,10 @@ let
         "Ntvitw7A" = _Ntvitw7A;
         "He6ehOzI" = _He6ehOzI;
         "kZPJxCMz" = _kZPJxCMz;
+        "oFUKTFxZ" = _oFUKTFxZ;
+        "sNOlI9Yl" = _sNOlI9Yl;
+        "n54Q2c1y" = _n54Q2c1y;
+        "FcHLLU4p" = _FcHLLU4p;
         "neoforge-1.21.4" = _XgCgQix8;
         "neoforge-1.21.5" = _XgCgQix8;
         "neoforge-1.21.6" = _wJlrppqq;
@@ -259,10 +283,12 @@ let
         "fabric-1.21.8" = _8YnsJSaj;
         "fabric-1.21.10" = _nnX0WSow;
         "fabric-1.21.11" = _nnX0WSow;
-        "fabric-26.1" = _kZPJxCMz;
-        "fabric-26.1.1" = _kZPJxCMz;
-        "fabric-26.1.2" = _kZPJxCMz;
-        "fabric-26.2" = _He6ehOzI;
+        "fabric-26.1" = _oFUKTFxZ;
+        "fabric-26.1.1" = _oFUKTFxZ;
+        "fabric-26.1.2" = _oFUKTFxZ;
+        "fabric-26.2" = _sNOlI9Yl;
+        "fabric-26.3" = _n54Q2c1y;
+        "ornithe-1.8.9" = _FcHLLU4p;
         "pkg-1.0.0" = _y9l8GlcH;
         "pkg-1.0.1" = _whCcV6UJ;
         "pkg-1.0.2" = _SSMWcDMB;
@@ -275,7 +301,8 @@ let
         "pkg-1.1.6" = _ojRFh4ri;
         "pkg-1.1.7" = _Ntvitw7A;
         "pkg-1.1.8" = _kZPJxCMz;
-        "default" = _kZPJxCMz;
+        "pkg-1.1.9" = _FcHLLU4p;
+        "default" = _FcHLLU4p;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "confirm-disconnect";

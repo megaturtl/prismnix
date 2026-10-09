@@ -51,6 +51,16 @@ let
             "file" = "ly-recall-potion-v1.0.1.jar";
             "hash" = "sha512-qlcIjZZGVLLMTM/DQ7NW8zZsPeYBCqXz3ZKP3NvV6Z9z8sdPMy0VO7ds5E5Edoy1DCZVYRLpbwKvY5vJXPV/pg==";
         };
+        _AO8MNasn = {
+            "id" = "AO8MNasn";
+            "file" = "Recall Potion v1.0.1 [26.3].zip";
+            "hash" = "sha512-JI5HEqZPQzZ9bis4zn/nRWOs2o9+Q6A7ELAMoumSzt6TghTPofGSouBz9Dg/pVhdHnNrflSXgNO+hkIkJ8p1yg==";
+        };
+        _AHnfAwG2 = {
+            "id" = "AHnfAwG2";
+            "file" = "ly-recall-potion-1.0.1.jar";
+            "hash" = "sha512-5raihP4EmNqAeXyDtum4j02PvUnJ1Div3ZrdksybLvwPSHJvnmAYgMBgtrpYuvEM2ta7lGUhWx0xmVUUgsZ1iw==";
+        };
     in {
         "xpGX7sQp" = _xpGX7sQp;
         "uS9eYUJ8" = _uS9eYUJ8;
@@ -62,6 +72,8 @@ let
         "KP4lYsiV" = _KP4lYsiV;
         "ZiqEKErf" = _ZiqEKErf;
         "5liYiwnb" = _5liYiwnb;
+        "AO8MNasn" = _AO8MNasn;
+        "AHnfAwG2" = _AHnfAwG2;
         "datapack-1.21.2" = _jH4PT9Cs;
         "datapack-1.21.3" = _jH4PT9Cs;
         "datapack-1.21.4" = _jH4PT9Cs;
@@ -76,6 +88,7 @@ let
         "datapack-26.1.1" = _ZiqEKErf;
         "datapack-26.1.2" = _ZiqEKErf;
         "datapack-26.2" = _ZiqEKErf;
+        "datapack-26.3" = _AO8MNasn;
         "fabric-1.21.2" = _KP4lYsiV;
         "fabric-1.21.3" = _KP4lYsiV;
         "fabric-1.21.4" = _KP4lYsiV;
@@ -90,6 +103,7 @@ let
         "fabric-26.1.1" = _5liYiwnb;
         "fabric-26.1.2" = _5liYiwnb;
         "fabric-26.2" = _5liYiwnb;
+        "fabric-26.3" = _AHnfAwG2;
         "forge-1.21.2" = _KP4lYsiV;
         "forge-1.21.3" = _KP4lYsiV;
         "forge-1.21.4" = _KP4lYsiV;
@@ -104,6 +118,7 @@ let
         "forge-26.1.1" = _5liYiwnb;
         "forge-26.1.2" = _5liYiwnb;
         "forge-26.2" = _5liYiwnb;
+        "forge-26.3" = _AHnfAwG2;
         "neoforge-1.21.2" = _KP4lYsiV;
         "neoforge-1.21.3" = _KP4lYsiV;
         "neoforge-1.21.4" = _KP4lYsiV;
@@ -118,6 +133,7 @@ let
         "neoforge-26.1.1" = _5liYiwnb;
         "neoforge-26.1.2" = _5liYiwnb;
         "neoforge-26.2" = _5liYiwnb;
+        "neoforge-26.3" = _AHnfAwG2;
         "quilt-1.21.2" = _KP4lYsiV;
         "quilt-1.21.3" = _KP4lYsiV;
         "quilt-1.21.4" = _KP4lYsiV;
@@ -132,11 +148,14 @@ let
         "quilt-26.1.1" = _5liYiwnb;
         "quilt-26.1.2" = _5liYiwnb;
         "quilt-26.2" = _5liYiwnb;
+        "quilt-26.3" = _AHnfAwG2;
         "pkg-v1.0.0" = _hDgblnAw;
         "pkg-v1.0.0+mod" = _ytK1hjqF;
         "pkg-v1.0.1" = _ZiqEKErf;
         "pkg-v1.0.1+mod" = _5liYiwnb;
-        "default" = _5liYiwnb;
+        "pkg-1.0.1" = _AO8MNasn;
+        "pkg-1.0.1+mod" = _AHnfAwG2;
+        "default" = _AHnfAwG2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ly-recall-potion";

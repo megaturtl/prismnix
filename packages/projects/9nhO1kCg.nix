@@ -106,6 +106,16 @@ let
             "file" = "netherite-recycling-2.1.jar";
             "hash" = "sha512-370i4XHzxjZqRhugyBe9RvYR8UUTE5eVG+0aQcRcPe604an+4BVuloyW6fcASjUyryl52T5gSvuo3MU5A8P5ig==";
         };
+        _nKMwXb6w = {
+            "id" = "nKMwXb6w";
+            "file" = "Netherite Recycling v2.2 (1.21.9-26.3).zip";
+            "hash" = "sha512-/hGPGelMUnD4N8hjRKejO22NvPNvtLLajr2l5Cq3hzjJnuPlRlRwIVrglIJDAYnOtiSQqPFW0uBTYV7a8ggqaA==";
+        };
+        _nOYxlpf0 = {
+            "id" = "nOYxlpf0";
+            "file" = "netherite-recycling-2.2.jar";
+            "hash" = "sha512-sEJ8hpdoTLOT7fAfVnxUuSeuiTTe0XWDNR2+H7Zbk6YLEvNpLSYOiW6lHafRmEB4pDfo53WJcO7DjwQp5d18jg==";
+        };
     in {
         "cyrJ90nl" = _cyrJ90nl;
         "to4rdMWI" = _to4rdMWI;
@@ -128,6 +138,8 @@ let
         "aFBA6giL" = _aFBA6giL;
         "3K26n1Et" = _3K26n1Et;
         "oCpW8eXv" = _oCpW8eXv;
+        "nKMwXb6w" = _nKMwXb6w;
+        "nOYxlpf0" = _nOYxlpf0;
         "datapack-1.20" = _gTnBIavz;
         "datapack-1.20.1" = _gTnBIavz;
         "datapack-1.20.2" = _gTnBIavz;
@@ -144,9 +156,14 @@ let
         "datapack-1.21.6" = _i4wFjPru;
         "datapack-1.21.7" = _i4wFjPru;
         "datapack-1.21.8" = _i4wFjPru;
-        "datapack-1.21.9" = _3K26n1Et;
-        "datapack-1.21.10" = _3K26n1Et;
-        "datapack-1.21.11" = _3K26n1Et;
+        "datapack-1.21.9" = _nKMwXb6w;
+        "datapack-1.21.10" = _nKMwXb6w;
+        "datapack-1.21.11" = _nKMwXb6w;
+        "datapack-26.1" = _nKMwXb6w;
+        "datapack-26.1.1" = _nKMwXb6w;
+        "datapack-26.1.2" = _nKMwXb6w;
+        "datapack-26.2" = _nKMwXb6w;
+        "datapack-26.3" = _nKMwXb6w;
         "fabric-1.20" = _ntKEJRmx;
         "fabric-1.20.1" = _ntKEJRmx;
         "fabric-1.20.2" = _ntKEJRmx;
@@ -163,9 +180,14 @@ let
         "fabric-1.21.6" = _WgyiCKtM;
         "fabric-1.21.7" = _WgyiCKtM;
         "fabric-1.21.8" = _WgyiCKtM;
-        "fabric-1.21.9" = _oCpW8eXv;
-        "fabric-1.21.10" = _oCpW8eXv;
-        "fabric-1.21.11" = _oCpW8eXv;
+        "fabric-1.21.9" = _nOYxlpf0;
+        "fabric-1.21.10" = _nOYxlpf0;
+        "fabric-1.21.11" = _nOYxlpf0;
+        "fabric-26.1" = _nOYxlpf0;
+        "fabric-26.1.1" = _nOYxlpf0;
+        "fabric-26.1.2" = _nOYxlpf0;
+        "fabric-26.2" = _nOYxlpf0;
+        "fabric-26.3" = _nOYxlpf0;
         "forge-1.20" = _ntKEJRmx;
         "forge-1.20.1" = _ntKEJRmx;
         "forge-1.20.2" = _ntKEJRmx;
@@ -182,9 +204,14 @@ let
         "forge-1.21.6" = _WgyiCKtM;
         "forge-1.21.7" = _WgyiCKtM;
         "forge-1.21.8" = _WgyiCKtM;
-        "forge-1.21.9" = _oCpW8eXv;
-        "forge-1.21.10" = _oCpW8eXv;
-        "forge-1.21.11" = _oCpW8eXv;
+        "forge-1.21.9" = _nOYxlpf0;
+        "forge-1.21.10" = _nOYxlpf0;
+        "forge-1.21.11" = _nOYxlpf0;
+        "forge-26.1" = _nOYxlpf0;
+        "forge-26.1.1" = _nOYxlpf0;
+        "forge-26.1.2" = _nOYxlpf0;
+        "forge-26.2" = _nOYxlpf0;
+        "forge-26.3" = _nOYxlpf0;
         "quilt-1.20" = _ntKEJRmx;
         "quilt-1.20.1" = _ntKEJRmx;
         "quilt-1.20.2" = _ntKEJRmx;
@@ -201,9 +228,14 @@ let
         "quilt-1.21.6" = _WgyiCKtM;
         "quilt-1.21.7" = _WgyiCKtM;
         "quilt-1.21.8" = _WgyiCKtM;
-        "quilt-1.21.9" = _oCpW8eXv;
-        "quilt-1.21.10" = _oCpW8eXv;
-        "quilt-1.21.11" = _oCpW8eXv;
+        "quilt-1.21.9" = _nOYxlpf0;
+        "quilt-1.21.10" = _nOYxlpf0;
+        "quilt-1.21.11" = _nOYxlpf0;
+        "quilt-26.1" = _nOYxlpf0;
+        "quilt-26.1.1" = _nOYxlpf0;
+        "quilt-26.1.2" = _nOYxlpf0;
+        "quilt-26.2" = _nOYxlpf0;
+        "quilt-26.3" = _nOYxlpf0;
         "neoforge-1.20" = _ntKEJRmx;
         "neoforge-1.20.1" = _ntKEJRmx;
         "neoforge-1.20.2" = _ntKEJRmx;
@@ -220,9 +252,14 @@ let
         "neoforge-1.21.6" = _WgyiCKtM;
         "neoforge-1.21.7" = _WgyiCKtM;
         "neoforge-1.21.8" = _WgyiCKtM;
-        "neoforge-1.21.9" = _oCpW8eXv;
-        "neoforge-1.21.10" = _oCpW8eXv;
-        "neoforge-1.21.11" = _oCpW8eXv;
+        "neoforge-1.21.9" = _nOYxlpf0;
+        "neoforge-1.21.10" = _nOYxlpf0;
+        "neoforge-1.21.11" = _nOYxlpf0;
+        "neoforge-26.1" = _nOYxlpf0;
+        "neoforge-26.1.1" = _nOYxlpf0;
+        "neoforge-26.1.2" = _nOYxlpf0;
+        "neoforge-26.2" = _nOYxlpf0;
+        "neoforge-26.3" = _nOYxlpf0;
         "pkg-1" = _cyrJ90nl;
         "pkg-1+mod" = _pajGdi5P;
         "pkg-1.1.1" = _mINHOVww;
@@ -243,7 +280,9 @@ let
         "pkg-2.0+mod" = _aFBA6giL;
         "pkg-2.1" = _3K26n1Et;
         "pkg-2.1+mod" = _oCpW8eXv;
-        "default" = _oCpW8eXv;
+        "pkg-2.2" = _nKMwXb6w;
+        "pkg-2.2+mod" = _nOYxlpf0;
+        "default" = _nOYxlpf0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "netherite-recycling";

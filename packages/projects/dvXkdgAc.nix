@@ -71,6 +71,11 @@ let
             "file" = "optimalAim-1.1.6.jar";
             "hash" = "sha512-YO5ZqAkxKvzFnP+QuRt56uVfLS+kDyvPSSg4TWWF7rBfUe5mjAjU1wmcWEX0OF71zjxc3GM9dSamYUuGXS1ujg==";
         };
+        _PNtplZhQ = {
+            "id" = "PNtplZhQ";
+            "file" = "optimalAim-1.1.7.jar";
+            "hash" = "sha512-6fBj6s2Jc2Hh7McKoCfVJ9+UcAbegJiyxHQl8FG8jUjPcYeCDF0N5+LBowMkw5tX04cbg78ZGl2FUZDPpwDm7w==";
+        };
     in {
         "OuPsiLOb" = _OuPsiLOb;
         "6gvwI9Zo" = _6gvwI9Zo;
@@ -86,6 +91,7 @@ let
         "hFlZeUH4" = _hFlZeUH4;
         "C67QlXcE" = _C67QlXcE;
         "TD5HcY8W" = _TD5HcY8W;
+        "PNtplZhQ" = _PNtplZhQ;
         "fabric-1.19.3" = _22hJw3k9;
         "fabric-1.19.4" = _22hJw3k9;
         "fabric-1.20" = _22hJw3k9;
@@ -111,6 +117,7 @@ let
         "fabric-26.1.1" = _C67QlXcE;
         "fabric-26.1.2" = _C67QlXcE;
         "fabric-26.2" = _TD5HcY8W;
+        "fabric-26.3" = _PNtplZhQ;
         "pkg-1.0" = _OuPsiLOb;
         "pkg-1.0.1" = _6gvwI9Zo;
         "pkg-1.0.2" = _HewglnZv;
@@ -125,7 +132,8 @@ let
         "pkg-1.1.4" = _hFlZeUH4;
         "pkg-1.1.5" = _C67QlXcE;
         "pkg-1.1.6" = _TD5HcY8W;
-        "default" = _TD5HcY8W;
+        "pkg-1.1.7" = _PNtplZhQ;
+        "default" = _PNtplZhQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "optimal-aim";

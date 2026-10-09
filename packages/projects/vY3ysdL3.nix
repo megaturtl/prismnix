@@ -106,6 +106,11 @@ let
             "file" = "worldfinder-fabric-1.21.11-0.2.1-1.jar";
             "hash" = "sha512-3I4HO6pr9aNIh1nFhyB6fYOS1TqsME3F/fSOKgEIKVTDc3D9lcmX5N0BcCZXO33KqrUqPsSwvcIweb3R4eNtWw==";
         };
+        _n4R6nTEd = {
+            "id" = "n4R6nTEd";
+            "file" = "worldfinder-fabric-26.2-0.2.1-1.jar";
+            "hash" = "sha512-DYqNY4ZMXfzBQcpxztqUiV5FiLDa+93EUCZBYK7gsWzmq5opZEEBRYG5dESCJwYQVFf3puLs69hN/D/JVzE5cA==";
+        };
     in {
         "Lz0HIpU3" = _Lz0HIpU3;
         "arhxxd7H" = _arhxxd7H;
@@ -128,13 +133,14 @@ let
         "k4nhm37X" = _k4nhm37X;
         "lRxOLl2P" = _lRxOLl2P;
         "kOhscg20" = _kOhscg20;
+        "n4R6nTEd" = _n4R6nTEd;
         "fabric-1.21.1" = _XeFodtTM;
         "fabric-1.21.5" = _nIo5reFi;
         "fabric-1.21.11" = _kOhscg20;
         "fabric-26.1" = _sAH1kWvj;
         "fabric-26.1.1" = _sAH1kWvj;
         "fabric-26.1.2" = _sAH1kWvj;
-        "fabric-26.2" = _sinL3Ah6;
+        "fabric-26.2" = _n4R6nTEd;
         "neoforge-1.21.1" = _wz4Ahrns;
         "neoforge-1.21.5" = _51ZjI2bz;
         "neoforge-1.21.11" = _z4iCfkSV;
@@ -144,8 +150,8 @@ let
         "neoforge-26.2" = _lRxOLl2P;
         "pkg-0.2.0" = _voJ47IFc;
         "pkg-0.2.1" = _lRxOLl2P;
-        "pkg-0.2.1-1" = _kOhscg20;
-        "default" = _kOhscg20;
+        "pkg-0.2.1-1" = _n4R6nTEd;
+        "default" = _n4R6nTEd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "world-finder";

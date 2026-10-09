@@ -181,6 +181,11 @@ let
             "file" = "smoke_suppression-1.5.0+MC26.2.x.jar";
             "hash" = "sha512-STabgGdRiqotSM6DD+LTZ+NnvW4qUQ4Tj49Hsoz79lYDpDRQq51BnXxrQdR9GCJitGvuCtM9hH8a7gww0z3Zxg==";
         };
+        _yZuAkddB = {
+            "id" = "yZuAkddB";
+            "file" = "smoke_suppression-1.5.1+MC26.2-26.3.x.jar";
+            "hash" = "sha512-GbxmtY7aJ7ZnONZmAZljQ1FlPDKSc/gAVuMgonq+itpxXcBrncWREB0yuiEOfBH5YFFpeinlEkj7pVaFaYTm1w==";
+        };
     in {
         "l6TImehX" = _l6TImehX;
         "ww2UCuXQ" = _ww2UCuXQ;
@@ -218,6 +223,7 @@ let
         "hbbuA6VW" = _hbbuA6VW;
         "PAwUdZh7" = _PAwUdZh7;
         "DoapPg8t" = _DoapPg8t;
+        "yZuAkddB" = _yZuAkddB;
         "fabric-1.17" = _77Zd2SeA;
         "fabric-1.17.1" = _77Zd2SeA;
         "fabric-1.16.5" = _9rUHuSH0;
@@ -251,7 +257,8 @@ let
         "fabric-26.1" = _PAwUdZh7;
         "fabric-26.1.1" = _PAwUdZh7;
         "fabric-26.1.2" = _PAwUdZh7;
-        "fabric-26.2" = _DoapPg8t;
+        "fabric-26.2" = _yZuAkddB;
+        "fabric-26.3" = _yZuAkddB;
         "quilt-1.19" = _7y4OhMYn;
         "quilt-1.19.1" = _7y4OhMYn;
         "quilt-1.19.2" = _7y4OhMYn;
@@ -279,7 +286,8 @@ let
         "quilt-26.1" = _PAwUdZh7;
         "quilt-26.1.1" = _PAwUdZh7;
         "quilt-26.1.2" = _PAwUdZh7;
-        "quilt-26.2" = _DoapPg8t;
+        "quilt-26.2" = _yZuAkddB;
+        "quilt-26.3" = _yZuAkddB;
         "pkg-1.0.1+MC1.17" = _l6TImehX;
         "pkg-1.0.2+MC1.17-1.17.1" = _ww2UCuXQ;
         "pkg-1.0.3+MC1.17-1.17.1" = _ULKXShy8;
@@ -316,7 +324,8 @@ let
         "pkg-1.3.1+MC1.21.11" = _hbbuA6VW;
         "pkg-1.4.0+MC26.1-26.1.x" = _PAwUdZh7;
         "pkg-1.5.0+MC26.2.x" = _DoapPg8t;
-        "default" = _DoapPg8t;
+        "pkg-1.5.1+MC26.2-26.3.x" = _yZuAkddB;
+        "default" = _yZuAkddB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "smoke-suppression";

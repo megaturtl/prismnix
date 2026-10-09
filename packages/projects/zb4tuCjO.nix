@@ -106,6 +106,41 @@ let
             "file" = "Saturation.zip";
             "hash" = "sha512-dO7vX1TczYQYJRMThMODLPAOWCf1MxpAaqo9bjiyGt41puanwtm4VTogOvLMFirfLG8zBATMeeZoZKuADd87Iw==";
         };
+        _KLBze1HP = {
+            "id" = "KLBze1HP";
+            "file" = "Saturation.zip";
+            "hash" = "sha512-P4mGoMLQJ+oJtVBdhKnigK0iLGoAbzUyAZzN++A/pF6SBqo4vF/+GwcxOrgWqsCdBYEWxjcWbxakshJ3okft/A==";
+        };
+        _vq1Du59M = {
+            "id" = "vq1Du59M";
+            "file" = "Saturation.zip";
+            "hash" = "sha512-e0fVP0Ia52Gcm5j7OlwLHjFnWMVjljkPCHGEyieCQ5IRwMBPsZ25veTKKMKSiJzUDANblJV/iKxldwRs5xR8cg==";
+        };
+        _s17jYyVS = {
+            "id" = "s17jYyVS";
+            "file" = "Saturation.zip";
+            "hash" = "sha512-iTzH2M0sdZkV+QNVB87ymEpZzW2U+KxHQ+JblQiwDC4JgUkYVztwJvTVdSkhcnzlMXWPEy2s952189ThIx8j8w==";
+        };
+        _PbA2u1hZ = {
+            "id" = "PbA2u1hZ";
+            "file" = "Saturation.zip";
+            "hash" = "sha512-3nUoeR+6S19W5g71xVh9C9/yKa4HlpmLrQWuZ4O3SB7Cj6kIrePRwENWFrE4I8nBbZ9/yw7rSzEtXPXiTCNrgQ==";
+        };
+        _RCen2EdF = {
+            "id" = "RCen2EdF";
+            "file" = "Saturation.zip";
+            "hash" = "sha512-56TJPzMHItDTZB0FME7SKelhL5RzKwcnyHdAUeIfYliSFf9UimdyodVBrLZGOn5LOLDTM9XkrwPWUIIx0wQ+jw==";
+        };
+        _dxrYY16p = {
+            "id" = "dxrYY16p";
+            "file" = "Saturation.zip";
+            "hash" = "sha512-hZD88MD2O/Yl/Tq9/4MDFIoaepqIvbJpvUgBupX70PZwjvsx+kFQBNyEzDTDHC6c42fkRDSUvlxPrtyyTkUTKQ==";
+        };
+        _KWUzKlpx = {
+            "id" = "KWUzKlpx";
+            "file" = "Saturation.zip";
+            "hash" = "sha512-9MfVrc4d1rtIEL0DBN/L2HVkMOFD+bQ8zmQnKNCcPffQ+aSkAE0l3QF5a4OB8kkgzPaMdJEF6TEUWhKOF5EDWA==";
+        };
     in {
         "MSwTpFDS" = _MSwTpFDS;
         "5sIfMhh2" = _5sIfMhh2;
@@ -128,6 +163,13 @@ let
         "WPBWi1uu" = _WPBWi1uu;
         "JUTIUQry" = _JUTIUQry;
         "SWDZtdEX" = _SWDZtdEX;
+        "KLBze1HP" = _KLBze1HP;
+        "vq1Du59M" = _vq1Du59M;
+        "s17jYyVS" = _s17jYyVS;
+        "PbA2u1hZ" = _PbA2u1hZ;
+        "RCen2EdF" = _RCen2EdF;
+        "dxrYY16p" = _dxrYY16p;
+        "KWUzKlpx" = _KWUzKlpx;
         "minecraft-1.12" = _wXAiPh5x;
         "minecraft-1.12.1" = _wXAiPh5x;
         "minecraft-1.12.2" = _wXAiPh5x;
@@ -191,6 +233,13 @@ let
         "minecraft-26.3-snapshot-10" = _WPBWi1uu;
         "minecraft-26.3-pre-1" = _JUTIUQry;
         "minecraft-26.3-pre-2" = _SWDZtdEX;
+        "minecraft-26.3-rc-1" = _KLBze1HP;
+        "minecraft-26.3-rc-2" = _vq1Du59M;
+        "minecraft-26.3-rc-3" = _s17jYyVS;
+        "minecraft-26.3" = _PbA2u1hZ;
+        "minecraft-26.4-snapshot-1" = _RCen2EdF;
+        "minecraft-26.4-snapshot-2" = _dxrYY16p;
+        "minecraft-26.4-snapshot-3" = _KWUzKlpx;
         "pkg-1.0" = _MSwTpFDS;
         "pkg-1.1" = _5sIfMhh2;
         "pkg-1.2" = _5KARh8Wg;
@@ -212,7 +261,14 @@ let
         "pkg-26.3-snapshot-10" = _WPBWi1uu;
         "pkg-26.3-pre-1" = _JUTIUQry;
         "pkg-26.3-pre-2" = _SWDZtdEX;
-        "default" = _SWDZtdEX;
+        "pkg-26.3-rc-1" = _KLBze1HP;
+        "pkg-26.3-rc-2" = _vq1Du59M;
+        "pkg-26.3-rc-3" = _s17jYyVS;
+        "pkg-26.3" = _PbA2u1hZ;
+        "pkg-26.4-snapshot-1" = _RCen2EdF;
+        "pkg-26.4-snapshot-2" = _dxrYY16p;
+        "pkg-26.4-snapshot-3" = _KWUzKlpx;
+        "default" = _KWUzKlpx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "saturation++";

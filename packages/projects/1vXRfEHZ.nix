@@ -231,6 +231,11 @@ let
             "file" = "create_mobile_packages-1.21.1-0.7.7.jar";
             "hash" = "sha512-EL574P6pXmNZk97fdGfzolfPaIetGQYNmaGioJJHG/cgIJnzJvCavxo6rsUmzY1RMpzqVAH+LHgMd1vdva8bmQ==";
         };
+        _xSPt2JXH = {
+            "id" = "xSPt2JXH";
+            "file" = "create_mobile_packages-1.21.1-0.7.8.jar";
+            "hash" = "sha512-+ZzNZ2KsieAAyNR50721tvyFw3HwMnLCiGwfupwrhWt/LKrz4qhCga+IwmSCOvHXTcAyP2DzZwq2xeHDv13A8A==";
+        };
     in {
         "72ysNBPh" = _72ysNBPh;
         "MHJsgrD8" = _MHJsgrD8;
@@ -278,8 +283,9 @@ let
         "EpecHXdd" = _EpecHXdd;
         "2rAbaFXC" = _2rAbaFXC;
         "DFi1qAly" = _DFi1qAly;
+        "xSPt2JXH" = _xSPt2JXH;
         "forge-1.20.1" = _5KlbqQtT;
-        "neoforge-1.21.1" = _DFi1qAly;
+        "neoforge-1.21.1" = _xSPt2JXH;
         "pkg-0.1.0" = _72ysNBPh;
         "pkg-0.1.1" = _MHJsgrD8;
         "pkg-0.1.2" = _oiEaUTX1;
@@ -326,7 +332,8 @@ let
         "pkg-1.21.1-0.7.5" = _EpecHXdd;
         "pkg-1.21.1-0.7.6" = _2rAbaFXC;
         "pkg-1.21.1-0.7.7" = _DFi1qAly;
-        "default" = _DFi1qAly;
+        "pkg-1.21.1-0.7.8" = _xSPt2JXH;
+        "default" = _xSPt2JXH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-mobile-packages";

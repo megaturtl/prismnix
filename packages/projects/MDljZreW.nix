@@ -61,6 +61,16 @@ let
             "file" = "ReachBehind-v26.2.1-mc26.2.x-Fabric.jar";
             "hash" = "sha512-0TtV0JpjIp4Hux+MihpYywv3OYcSkYVk26INauQ3WHtQ2iQAzt89tqX+EaWSWUsIaOG8NZGnLOzpMPbuvmNaoQ==";
         };
+        _VUy5rYnv = {
+            "id" = "VUy5rYnv";
+            "file" = "reachbehind-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-/yHu0hHojzKrENSttAXveqsxsImIl4HEtVu6NGcGJ1ZfdMMZ9amB00EHhtIa3LzskT5wuYQeA+KXD1/KTWyT8g==";
+        };
+        _bXmtRkSU = {
+            "id" = "bXmtRkSU";
+            "file" = "reachbehind-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-3Fe0j0lWEIC2D6uPFi/E/zGBYDEob4LPUXSj91JBA90Y6cgJlryKwkyaLxgEh7Oy8+u67fXLvcvQcJ0fmx40Lw==";
+        };
     in {
         "ZJV8RtzI" = _ZJV8RtzI;
         "pRl2Sc4A" = _pRl2Sc4A;
@@ -74,25 +84,30 @@ let
         "1n4IGS2X" = _1n4IGS2X;
         "yy8RXzw2" = _yy8RXzw2;
         "HUGCrpc6" = _HUGCrpc6;
+        "VUy5rYnv" = _VUy5rYnv;
+        "bXmtRkSU" = _bXmtRkSU;
         "fabric-26.1" = _1n4IGS2X;
         "fabric-26.1.1" = _1n4IGS2X;
         "fabric-26.1.2" = _1n4IGS2X;
         "fabric-1.21.11" = _7TGmRtN7;
         "fabric-1.21.1" = _Ej1TTIaV;
         "fabric-26.2" = _HUGCrpc6;
+        "fabric-26.3" = _bXmtRkSU;
         "neoforge-26.1" = _FT91icX8;
         "neoforge-26.1.1" = _FT91icX8;
         "neoforge-26.1.2" = _FT91icX8;
         "neoforge-1.21.11" = _AbhVdLlo;
         "neoforge-1.21.1" = _Gqwyhx4G;
         "neoforge-26.2" = _yy8RXzw2;
+        "neoforge-26.3" = _VUy5rYnv;
         "pkg-26.1.0" = _pRl2Sc4A;
         "pkg-21.11.0" = _7TGmRtN7;
         "pkg-21.1.0" = _Ej1TTIaV;
         "pkg-26.2.0" = _oc0Gn8uj;
         "pkg-26.1.1" = _1n4IGS2X;
         "pkg-26.2.1" = _HUGCrpc6;
-        "default" = _HUGCrpc6;
+        "pkg-26.3.0" = _bXmtRkSU;
+        "default" = _bXmtRkSU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "reach-behind";

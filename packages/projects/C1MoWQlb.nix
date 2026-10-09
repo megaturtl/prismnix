@@ -291,6 +291,46 @@ let
             "file" = "zipline-fabric-1.21.1-1.5.2.jar";
             "hash" = "sha512-LYj7fjCgbR4bZhGIK1Z0IBUyV1IiQE595hd8EAuIqT0c2lpp1przFeadX1B/641XyxInIdgpsHSVTwiHFuEYhw==";
         };
+        _aoJSybb5 = {
+            "id" = "aoJSybb5";
+            "file" = "zipline-1.5.3+1.21.1-neoforge.jar";
+            "hash" = "sha512-R9uDQJZbGK78PYCa+f7Mng4KBaAdpZ5Av2bMoTXJHtGC+7Ru4kloLlb/tGwicjSRtIgno07nXQHdejyARc7jNA==";
+        };
+        _kfZBaPj0 = {
+            "id" = "kfZBaPj0";
+            "file" = "zipline-1.5.3+26.2-fabric.jar";
+            "hash" = "sha512-Qkbk98v+Dvp1yH+nACYasCv7sh6GxLB5izWzW+D9GFPooxF6Gd6qi+tOe25At1fB3dH0N6GU2rBFCpVJjVCz0Q==";
+        };
+        _Vp7yC44O = {
+            "id" = "Vp7yC44O";
+            "file" = "zipline-1.5.3+1.21.1-fabric.jar";
+            "hash" = "sha512-qFkDWd8qMnFfBvD/fb60ChYOJ+5FarCGAEoITvkD8yG5NvpeN+mHpWSA+CqrLSfbN5j9svvSp1cAekb5qrmb1w==";
+        };
+        _R4X0Gybd = {
+            "id" = "R4X0Gybd";
+            "file" = "zipline-1.5.3+26.1.2-fabric.jar";
+            "hash" = "sha512-JUQ6moDo3thq4u6JAyjnJlPe1SwQjYE2otzS2kaQx8Dm54XgsMpx4uInY7Rb3OXEMyDCzmCEsqvKhkS4GFhXew==";
+        };
+        _2ICCGA46 = {
+            "id" = "2ICCGA46";
+            "file" = "zipline-1.5.3+26.1.2-neoforge.jar";
+            "hash" = "sha512-mqU8WtAz6Y4jrEGk7rYzqdMS5eTPdC2krMRMXKObsFh5L3hFfGT/yz4YpcpI7QscKVFmpWFdayVnLO3ZBJUuWQ==";
+        };
+        _ia6pgWTi = {
+            "id" = "ia6pgWTi";
+            "file" = "zipline-1.5.3+26.2-neoforge.jar";
+            "hash" = "sha512-8CT2MaSqQ9kIf2XW6730/4pBwP6Wp5OlZcmJuGGIsZkKTgjXlT8xpq/Dw7MkamU5FeUchpG+cT0ZFMURLQ5gvA==";
+        };
+        _5491cTU9 = {
+            "id" = "5491cTU9";
+            "file" = "zipline-1.5.3+26.3-fabric.jar";
+            "hash" = "sha512-ATW0mHPnct0zSnLxM5CFwMba4cW0J54YKRyXUX3iaU9KjhSfcMW9eRLjCYLARMHuNLkLdIST0GIKJTnF07zCgg==";
+        };
+        _8tBCwiE3 = {
+            "id" = "8tBCwiE3";
+            "file" = "zipline-1.5.3+26.3-neoforge.jar";
+            "hash" = "sha512-dXefkgqwvUKVDCYFKojXXyywWep6Mg2Bv8q3onWuPBAQt+qEQuSBxmL6CJTOlbAg1JFnNs5KNSdXXvfyybjzkQ==";
+        };
     in {
         "s5qS50pE" = _s5qS50pE;
         "vqjUfoXD" = _vqjUfoXD;
@@ -350,17 +390,29 @@ let
         "PpntSdsm" = _PpntSdsm;
         "4aA41064" = _4aA41064;
         "PTa48tUi" = _PTa48tUi;
-        "neoforge-1.21.1" = _4aA41064;
-        "neoforge-26.1" = _VZHu7Qe1;
-        "neoforge-26.1.1" = _VZHu7Qe1;
-        "neoforge-26.1.2" = _VZHu7Qe1;
-        "neoforge-26.2" = _V6N34h0b;
-        "fabric-1.21.1" = _PTa48tUi;
+        "aoJSybb5" = _aoJSybb5;
+        "kfZBaPj0" = _kfZBaPj0;
+        "Vp7yC44O" = _Vp7yC44O;
+        "R4X0Gybd" = _R4X0Gybd;
+        "2ICCGA46" = _2ICCGA46;
+        "ia6pgWTi" = _ia6pgWTi;
+        "5491cTU9" = _5491cTU9;
+        "8tBCwiE3" = _8tBCwiE3;
+        "neoforge-1.21.1" = _aoJSybb5;
+        "neoforge-26.1" = _2ICCGA46;
+        "neoforge-26.1.1" = _2ICCGA46;
+        "neoforge-26.1.2" = _2ICCGA46;
+        "neoforge-26.2" = _ia6pgWTi;
+        "neoforge-1.21" = _aoJSybb5;
+        "neoforge-26.3" = _8tBCwiE3;
+        "fabric-1.21.1" = _Vp7yC44O;
         "fabric-1.20.1" = _jqVbgM73;
-        "fabric-26.1" = _wKfk6j5v;
-        "fabric-26.1.1" = _wKfk6j5v;
-        "fabric-26.1.2" = _wKfk6j5v;
-        "fabric-26.2" = _PgqTlL3O;
+        "fabric-26.1" = _R4X0Gybd;
+        "fabric-26.1.1" = _R4X0Gybd;
+        "fabric-26.1.2" = _R4X0Gybd;
+        "fabric-26.2" = _kfZBaPj0;
+        "fabric-1.21" = _Vp7yC44O;
+        "fabric-26.3" = _5491cTU9;
         "forge-1.20.1" = _AZLF926r;
         "pkg-1.0.0" = _tjEdvJIG;
         "pkg-1.0.1" = _pUAJcoJ4;
@@ -408,7 +460,15 @@ let
         "pkg-1.5.1-1.21.1-neoforge" = _PpntSdsm;
         "pkg-1.5.2-1.21.1-neoforge" = _4aA41064;
         "pkg-1.5.2-1.21.1-fabric" = _PTa48tUi;
-        "default" = _PTa48tUi;
+        "pkg-1.5.3+1.21.1-neoforge" = _aoJSybb5;
+        "pkg-1.5.3+26.2-fabric" = _kfZBaPj0;
+        "pkg-1.5.3+1.21.1-fabric" = _Vp7yC44O;
+        "pkg-1.5.3+26.1.2-fabric" = _R4X0Gybd;
+        "pkg-1.5.3+26.1.2-neoforge" = _2ICCGA46;
+        "pkg-1.5.3+26.2-neoforge" = _ia6pgWTi;
+        "pkg-1.5.3+26.3-fabric" = _5491cTU9;
+        "pkg-1.5.3+26.3-neoforge" = _8tBCwiE3;
+        "default" = _8tBCwiE3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ziplines-rezipped";

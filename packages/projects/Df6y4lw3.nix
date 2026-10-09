@@ -11,9 +11,21 @@ let
             "file" = "longevity-enchantment-1.0.0.jar";
             "hash" = "sha512-+c6A6z7OnK+E/H0onMCdO6BFKNw0WsBF9VeTRfEgc4KNN7/n+IYLw36n90o5mtqXAlQvLQXm85lsRx7pCTqbFg==";
         };
+        _XwXFJOuc = {
+            "id" = "XwXFJOuc";
+            "file" = "Longevity Enchantment v1.0.0 [26.3].zip";
+            "hash" = "sha512-M+HoGa57lWIw+gwXCRh7QF8bDDwkpvQi5c4VLbAzWl5eCJx1ZKQGPxTCjbgBsBjY6B0rzfnj97G0BauzixR01Q==";
+        };
+        _nGXeL9ni = {
+            "id" = "nGXeL9ni";
+            "file" = "longevity-enchantment-1.0.0.jar";
+            "hash" = "sha512-UYsUGxRwp/OqYVr96dYO+C5JPkCklo23WivHsiFdmM1/+ZdWJLkCfrvvXcoIzSEe5Wm8x8LIK727V/vGokUicQ==";
+        };
     in {
         "WPAsugyC" = _WPAsugyC;
         "HTy6rKHB" = _HTy6rKHB;
+        "XwXFJOuc" = _XwXFJOuc;
+        "nGXeL9ni" = _nGXeL9ni;
         "datapack-1.21" = _WPAsugyC;
         "datapack-1.21.1" = _WPAsugyC;
         "datapack-1.21.2" = _WPAsugyC;
@@ -30,6 +42,7 @@ let
         "datapack-26.1.1" = _WPAsugyC;
         "datapack-26.1.2" = _WPAsugyC;
         "datapack-26.2" = _WPAsugyC;
+        "datapack-26.3" = _XwXFJOuc;
         "fabric-1.21" = _HTy6rKHB;
         "fabric-1.21.1" = _HTy6rKHB;
         "fabric-1.21.2" = _HTy6rKHB;
@@ -46,6 +59,7 @@ let
         "fabric-26.1.1" = _HTy6rKHB;
         "fabric-26.1.2" = _HTy6rKHB;
         "fabric-26.2" = _HTy6rKHB;
+        "fabric-26.3" = _nGXeL9ni;
         "forge-1.21" = _HTy6rKHB;
         "forge-1.21.1" = _HTy6rKHB;
         "forge-1.21.2" = _HTy6rKHB;
@@ -62,6 +76,7 @@ let
         "forge-26.1.1" = _HTy6rKHB;
         "forge-26.1.2" = _HTy6rKHB;
         "forge-26.2" = _HTy6rKHB;
+        "forge-26.3" = _nGXeL9ni;
         "neoforge-1.21" = _HTy6rKHB;
         "neoforge-1.21.1" = _HTy6rKHB;
         "neoforge-1.21.2" = _HTy6rKHB;
@@ -78,6 +93,7 @@ let
         "neoforge-26.1.1" = _HTy6rKHB;
         "neoforge-26.1.2" = _HTy6rKHB;
         "neoforge-26.2" = _HTy6rKHB;
+        "neoforge-26.3" = _nGXeL9ni;
         "quilt-1.21" = _HTy6rKHB;
         "quilt-1.21.1" = _HTy6rKHB;
         "quilt-1.21.2" = _HTy6rKHB;
@@ -94,9 +110,10 @@ let
         "quilt-26.1.1" = _HTy6rKHB;
         "quilt-26.1.2" = _HTy6rKHB;
         "quilt-26.2" = _HTy6rKHB;
-        "pkg-1.0.0" = _WPAsugyC;
-        "pkg-1.0.0+mod" = _HTy6rKHB;
-        "default" = _HTy6rKHB;
+        "quilt-26.3" = _nGXeL9ni;
+        "pkg-1.0.0" = _XwXFJOuc;
+        "pkg-1.0.0+mod" = _nGXeL9ni;
+        "default" = _nGXeL9ni;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "longevity-enchantment";

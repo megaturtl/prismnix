@@ -101,6 +101,11 @@ let
             "file" = "Glowing Trim Shield[MG-5.0][26.2].zip";
             "hash" = "sha512-CtnPSuYlotkNq/YKhVC1LmdKNqYZk9ubLeeUM0pqrZ8dfdxQUACP5XkQyJZ28vc8TzQ4YORMYR55P0GQT+EV+Q==";
         };
+        _qYSfkSME = {
+            "id" = "qYSfkSME";
+            "file" = "Glowing Trim Shield[MG-5.0][26.3].zip";
+            "hash" = "sha512-4GnQckDTRS014PNfKs2dtWk6rEfOqNqIcJ+O+scWlrYLpzZtmU8vCeBTp5j8VkisaCDw0zy+3UCbG4uubNqCYQ==";
+        };
     in {
         "2FKKhjhT" = _2FKKhjhT;
         "VL1h7aM6" = _VL1h7aM6;
@@ -122,6 +127,7 @@ let
         "ROOoosrX" = _ROOoosrX;
         "bUpgesAt" = _bUpgesAt;
         "L2LO9fhz" = _L2LO9fhz;
+        "qYSfkSME" = _qYSfkSME;
         "minecraft-1.16" = _2FKKhjhT;
         "minecraft-1.16.1" = _2FKKhjhT;
         "minecraft-1.16.2" = _2FKKhjhT;
@@ -161,8 +167,10 @@ let
         "minecraft-26.1.1" = _bUpgesAt;
         "minecraft-26.1.2" = _bUpgesAt;
         "minecraft-26.2" = _L2LO9fhz;
-        "pkg-MG-5.0" = _L2LO9fhz;
-        "default" = _L2LO9fhz;
+        "minecraft-26.3" = _qYSfkSME;
+        "minecraft-26.4-snapshot-1" = _qYSfkSME;
+        "pkg-MG-5.0" = _qYSfkSME;
+        "default" = _qYSfkSME;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "glowing-trim-shield";

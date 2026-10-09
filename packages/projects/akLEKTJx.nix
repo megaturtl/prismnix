@@ -136,6 +136,46 @@ let
             "file" = "rpg_health_overhaul-1.5-neoforge-1.21.4.jar";
             "hash" = "sha512-5+RPyaFRSM6zXCTtDzw3+sGuNGRsu/9T4HNRIvYwjFwiTuyO720SLkrgL3PWJDauLWlD1ezdtP4W3VIQBdC7HA==";
         };
+        _iU0gVgp1 = {
+            "id" = "iU0gVgp1";
+            "file" = "rpg-health-overhaul-1.6.jar";
+            "hash" = "sha512-zxDBMplSUoS63yMHHrZp+UFzPU1vVUB4xiBy8VZuFXp5wEBsnGrQe5A4tv9geI1ed70K2vwrIQ6WVZKv4FrHJw==";
+        };
+        _JzUH34YS = {
+            "id" = "JzUH34YS";
+            "file" = "rpg-health-overhaul-1.6.jar";
+            "hash" = "sha512-XemGfNRWlE8Obakst5QNBo+FQ350cAWiKW1het0A8yN9OlUV26n8XNLE9yFdq9Is5+W88B5NkSb5bb7Bn0iCJw==";
+        };
+        _XGuyuu6R = {
+            "id" = "XGuyuu6R";
+            "file" = "rpg-health-overhaul-1.6.jar";
+            "hash" = "sha512-pmYsA6NsdjAN5pQ/IAt6rrw/dUxhr08f9glk285y+ChVvvy6hW/yoIXr6HCVKpX8LCSjOrEZxXFgtjXeBqZoGw==";
+        };
+        _VbOYb2BY = {
+            "id" = "VbOYb2BY";
+            "file" = "rpg-health-overhaul-1.6.jar";
+            "hash" = "sha512-Em4RcwFmOItDulmmAwiDVx9r7K0ANcwvjKtgxYDQR4NhBqfqN9P03+azPRxCktVBkshfxXZ3stt0h4VlKao2Zw==";
+        };
+        _sxnXhDNg = {
+            "id" = "sxnXhDNg";
+            "file" = "rpg-health-overhaul-1.6.jar";
+            "hash" = "sha512-rxnm4Q9Ytd0jsejxjJnQk2tNPiMHDrIttmYPQWQrl4RrCIoomJ/C/P84wDq30AjGqTb7ebi0XQKlqzZ1xrymng==";
+        };
+        _PzpdJg8o = {
+            "id" = "PzpdJg8o";
+            "file" = "rpg-health-overhaul-1.7.jar";
+            "hash" = "sha512-b6+EWOfOJtdVXQMbcwO6Fcodu7Co1XL0KyzKXfnMp5waLV/dDEY/9X/FJsJJxomEJQCovVQaAA41jcD61hEnfw==";
+        };
+        _7LMs8olv = {
+            "id" = "7LMs8olv";
+            "file" = "rpg-health-overhaul-1.7.jar";
+            "hash" = "sha512-JLjXBbMXy5sZ/ig3nBidSuum9qDDAb1w0tGBlEQKwNtnzYEcBGAJBAo959TblLshrL9pzRL7G/Zn5w2xSZabzg==";
+        };
+        _i2VsvBjk = {
+            "id" = "i2VsvBjk";
+            "file" = "rpg-health-overhaul-1.7.jar";
+            "hash" = "sha512-STD9CG7uocA+opTtUTbExUVerWGa7/Ea+D3QJPmQHeF8txEMKLC5PHgn8HbSkoA5DzJMfsMQbK7cDyhHAnJIcg==";
+        };
     in {
         "pfbBvu38" = _pfbBvu38;
         "ZPO5TzEe" = _ZPO5TzEe;
@@ -164,6 +204,14 @@ let
         "ZRn1XkbT" = _ZRn1XkbT;
         "qoAQbtwJ" = _qoAQbtwJ;
         "xOrnUmK5" = _xOrnUmK5;
+        "iU0gVgp1" = _iU0gVgp1;
+        "JzUH34YS" = _JzUH34YS;
+        "XGuyuu6R" = _XGuyuu6R;
+        "VbOYb2BY" = _VbOYb2BY;
+        "sxnXhDNg" = _sxnXhDNg;
+        "PzpdJg8o" = _PzpdJg8o;
+        "7LMs8olv" = _7LMs8olv;
+        "i2VsvBjk" = _i2VsvBjk;
         "forge-1.19.2" = _j0yWcVzW;
         "forge-1.18.2" = _1cv8CWAW;
         "forge-1.19.4" = _EAeJqeAN;
@@ -175,13 +223,20 @@ let
         "neoforge-1.20.1" = _qp8rWntr;
         "neoforge-1.21.1" = _qoAQbtwJ;
         "neoforge-1.21.4" = _xOrnUmK5;
+        "fabric-26.1" = _PzpdJg8o;
+        "fabric-26.1.1" = _PzpdJg8o;
+        "fabric-26.1.2" = _PzpdJg8o;
+        "fabric-26.2" = _7LMs8olv;
+        "fabric-26.3" = _i2VsvBjk;
         "pkg-1.0" = _pfbBvu38;
         "pkg-1.1" = _XgcjUyPW;
         "pkg-1.2" = _LFzmDv0S;
         "pkg-1.3" = _Rbk9pErl;
         "pkg-1.4" = _yPuuS5uF;
         "pkg-1.5" = _xOrnUmK5;
-        "default" = _xOrnUmK5;
+        "pkg-1.6" = _sxnXhDNg;
+        "pkg-1.7" = _i2VsvBjk;
+        "default" = _i2VsvBjk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rpg-health-overhaul";

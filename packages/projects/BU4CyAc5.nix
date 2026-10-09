@@ -81,6 +81,11 @@ let
             "file" = "autosprint-1.2.jar";
             "hash" = "sha512-LbYaGt7ZAofqtKO318pq/2z00xB4D1ZQUvg1zfffMV7gTlU6T+Ybl86H5lQGrYvgy0pz6KWxzirtFid406SpQw==";
         };
+        _Gl8QjZOR = {
+            "id" = "Gl8QjZOR";
+            "file" = "autosprint-1.2.jar";
+            "hash" = "sha512-jnHchHUvXzxdqM1TPxaHlGYqAYUrc5P6Yui4ZwcMzNah4YU6foLfAOmgTEBkXx3P67ExuhXE3fcfccBrsYdbdQ==";
+        };
     in {
         "EHX0nwTC" = _EHX0nwTC;
         "wJsFoEwi" = _wJsFoEwi;
@@ -98,6 +103,7 @@ let
         "mGU4ji12" = _mGU4ji12;
         "Po2U5HHB" = _Po2U5HHB;
         "VUZqXi9D" = _VUZqXi9D;
+        "Gl8QjZOR" = _Gl8QjZOR;
         "fabric-1.21.11" = _EHX0nwTC;
         "fabric-1.21.10" = _wJsFoEwi;
         "fabric-1.21.9" = _tLVaVs4o;
@@ -114,6 +120,7 @@ let
         "fabric-26.1.1" = _VUZqXi9D;
         "fabric-26.1.2" = _VUZqXi9D;
         "fabric-26.2" = _Po2U5HHB;
+        "fabric-26.3" = _Gl8QjZOR;
         "pkg-autosprint-1.21.11-1.0" = _EHX0nwTC;
         "pkg-autosprint-1.21.10-1.0" = _wJsFoEwi;
         "pkg-autosprint-1.0-1.21.9" = _tLVaVs4o;
@@ -130,7 +137,8 @@ let
         "pkg-autosprint-1.1-26.2" = _mGU4ji12;
         "pkg-autosprint-1.2-26.2" = _Po2U5HHB;
         "pkg-autosprint-1.2-26.1-26.1.2" = _VUZqXi9D;
-        "default" = _VUZqXi9D;
+        "pkg-autosprint-1.2-26.3" = _Gl8QjZOR;
+        "default" = _Gl8QjZOR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simpleautosprint";

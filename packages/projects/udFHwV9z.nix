@@ -86,6 +86,16 @@ let
             "file" = "Mariposa-neoforge-1.3.2-26.1.jar";
             "hash" = "sha512-JAUPubHqJy9N3XtEQbWQ8QUpFs8xPzntG21OBmQ3PzUK5sa/19ccAfLWpC+lRJHyGfekTCYIaSzKeuWAjT0MMQ==";
         };
+        _VMf7IFMl = {
+            "id" = "VMf7IFMl";
+            "file" = "Mariposa-fabric-1.3.2-26.3.jar";
+            "hash" = "sha512-DMjvieoDWN8QcKo7Og3+pBMU459P2E7wytuwVLArwQ+gE/acXE4HgAGK0ocpJL0Um3K/3IpYt/mBj46L8InBgg==";
+        };
+        _JbW4Kfjh = {
+            "id" = "JbW4Kfjh";
+            "file" = "Mariposa-fabric-1.3.3-26.3.jar";
+            "hash" = "sha512-jhJs3KiUzrn6WZ1eSUNW2IZ0ucvyYyyXFykQUGhC45ihRVB1wz7fmKdVOM7fcWmpCQOqGj2n9qzZworU4FWGnQ==";
+        };
     in {
         "ceKg4EJb" = _ceKg4EJb;
         "bAtqh1dN" = _bAtqh1dN;
@@ -104,6 +114,8 @@ let
         "9Y7oe4dl" = _9Y7oe4dl;
         "yws9K1z0" = _yws9K1z0;
         "cDz5wEOq" = _cDz5wEOq;
+        "VMf7IFMl" = _VMf7IFMl;
+        "JbW4Kfjh" = _JbW4Kfjh;
         "fabric-1.21.1" = _bAtqh1dN;
         "fabric-1.21.4" = _pa854C0j;
         "fabric-1.21.5" = _fg0ibJq9;
@@ -117,6 +129,7 @@ let
         "fabric-26.1.1" = _yws9K1z0;
         "fabric-26.1.2" = _yws9K1z0;
         "fabric-26.2" = _9Y7oe4dl;
+        "fabric-26.3" = _JbW4Kfjh;
         "quilt-1.21.1" = _bAtqh1dN;
         "quilt-1.21.4" = _pa854C0j;
         "quilt-1.21.5" = _fg0ibJq9;
@@ -148,7 +161,9 @@ let
         "pkg-1.3.1-26.1" = _rVrp0nVJ;
         "pkg-1.3.2-26.2" = _9Y7oe4dl;
         "pkg-1.3.2-26.1" = _cDz5wEOq;
-        "default" = _cDz5wEOq;
+        "pkg-1.3.2-26.3" = _VMf7IFMl;
+        "pkg-1.3.3-26.3" = _JbW4Kfjh;
+        "default" = _JbW4Kfjh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mariposa";

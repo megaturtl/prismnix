@@ -126,6 +126,11 @@ let
             "file" = "GlowUp-1.4.2+26.2.jar";
             "hash" = "sha512-M56SnI8MxguzgwYh3Jrn1Hr9EfVfxZ1VwpFdyE6M2GKotDsCcS3U32w9FebNfG1eDgwzjx5b9F3g0J0SebusPw==";
         };
+        _TWRxGqUa = {
+            "id" = "TWRxGqUa";
+            "file" = "GlowUp-1.4.2+26.3.jar";
+            "hash" = "sha512-N+I48dXgezZIKvd2D03MjEkM9Gf9kowEDW1yeswB/hQ4cLHqhjbyHKmFaRWgeQhbugiaNp9s+M/GLD7m1HvZqQ==";
+        };
     in {
         "vMdjsOmL" = _vMdjsOmL;
         "3GX33tZv" = _3GX33tZv;
@@ -152,6 +157,7 @@ let
         "dJmbhMRK" = _dJmbhMRK;
         "T7fLnqJJ" = _T7fLnqJJ;
         "tCIeQpvb" = _tCIeQpvb;
+        "TWRxGqUa" = _TWRxGqUa;
         "fabric-1.21.1" = _ETujDcDh;
         "fabric-1.21.3" = _kduyyyZe;
         "fabric-1.21.4" = _yOMGGwCk;
@@ -167,6 +173,7 @@ let
         "fabric-26.1.1" = _dJmbhMRK;
         "fabric-26.1.2" = _T7fLnqJJ;
         "fabric-26.2" = _tCIeQpvb;
+        "fabric-26.3" = _TWRxGqUa;
         "pkg-1.0+1.21.1" = _vMdjsOmL;
         "pkg-1.1.0+1.21.1" = _3GX33tZv;
         "pkg-1.1.1+1.21.1" = _IVA1LIPg;
@@ -192,7 +199,8 @@ let
         "pkg-1.4.2+26.1.1" = _dJmbhMRK;
         "pkg-1.4.2+26.1.2" = _T7fLnqJJ;
         "pkg-1.4.2+26.2" = _tCIeQpvb;
-        "default" = _tCIeQpvb;
+        "pkg-1.4.2+26.3" = _TWRxGqUa;
+        "default" = _TWRxGqUa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "glowup";

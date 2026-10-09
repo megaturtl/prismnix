@@ -171,6 +171,21 @@ let
             "file" = "more_lights-1.3-fabric-26.2.jar";
             "hash" = "sha512-6Wm72g7o0eAKyifW2/HUPzJu0MDQ04pMoLMrSJjZExBOk/LpsZheZSHiduMKQOEYZ+fFXS9ZkjtBlLysxC0H8Q==";
         };
+        _sVUyQ9Bp = {
+            "id" = "sVUyQ9Bp";
+            "file" = "more_lights-1.4-fabric-26.2.jar";
+            "hash" = "sha512-xC65mJZ5280xICOJVUCZaMZIk8Mf4ekrJvBL8ROj3nCVGkZEIBlJAgu3g7A33BOnRh/Q5IT/9gURr1lVbO7lLQ==";
+        };
+        _SwKwx6UB = {
+            "id" = "SwKwx6UB";
+            "file" = "more_lights-1.4-fabric-26.3.jar";
+            "hash" = "sha512-e2zyImQHT8yeIjMbKliM6dUckPxa+FgWfWLfZA8tiw0zpZ9ctYujEph7LUfBr2LJlMIyXNmHBp89WxZ4ATWkhg==";
+        };
+        _ieE4RX0f = {
+            "id" = "ieE4RX0f";
+            "file" = "more_lights-1.4-neoforge-26.2.jar";
+            "hash" = "sha512-A0CiZUQTzmdyYIhYApfLwVhK7E+7zba2cHuNL771T13VV35jYo3p8sJOvB0u7DMKduU1Pi78c09UA1hdHOw9CQ==";
+        };
     in {
         "vhh6uCS6" = _vhh6uCS6;
         "Nj33yiOL" = _Nj33yiOL;
@@ -206,6 +221,9 @@ let
         "YQf7PgbG" = _YQf7PgbG;
         "LokJ1MIc" = _LokJ1MIc;
         "OU6Ljw5v" = _OU6Ljw5v;
+        "sVUyQ9Bp" = _sVUyQ9Bp;
+        "SwKwx6UB" = _SwKwx6UB;
+        "ieE4RX0f" = _ieE4RX0f;
         "neoforge-1.21.1" = _HU2TMzK1;
         "neoforge-1.21.3" = _GfDpGxP7;
         "neoforge-1.21.4" = _aVDlbaij;
@@ -215,8 +233,10 @@ let
         "neoforge-1.21.8" = _MCfrxcnC;
         "neoforge-1.21.10" = _twmropOp;
         "neoforge-1.21.11" = _bFNLBRdw;
-        "neoforge-26.1.2" = _YQf7PgbG;
-        "neoforge-26.2" = _YQf7PgbG;
+        "neoforge-26.1.2" = _ieE4RX0f;
+        "neoforge-26.2" = _ieE4RX0f;
+        "neoforge-26.1" = _ieE4RX0f;
+        "neoforge-26.1.1" = _ieE4RX0f;
         "fabric-1.21" = _1OLeHhQM;
         "fabric-1.21.1" = _1OLeHhQM;
         "fabric-1.21.2" = _NtQTd1Io;
@@ -232,7 +252,8 @@ let
         "fabric-26.1" = _LokJ1MIc;
         "fabric-26.1.1" = _LokJ1MIc;
         "fabric-26.1.2" = _LokJ1MIc;
-        "fabric-26.2" = _OU6Ljw5v;
+        "fabric-26.2" = _sVUyQ9Bp;
+        "fabric-26.3" = _SwKwx6UB;
         "pkg-0.1" = _vhh6uCS6;
         "pkg-0.2" = _Nj33yiOL;
         "pkg-0.3" = _H0YLTLvn;
@@ -244,7 +265,8 @@ let
         "pkg-1.1" = _eOTqfoq7;
         "pkg-1.2" = _BHDfS2Ew;
         "pkg-1.3" = _OU6Ljw5v;
-        "default" = _OU6Ljw5v;
+        "pkg-1.4" = _ieE4RX0f;
+        "default" = _ieE4RX0f;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-lights";

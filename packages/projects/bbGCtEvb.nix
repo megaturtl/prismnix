@@ -371,6 +371,16 @@ let
             "file" = "ArmorStatues-v26.2.0-mc26.2.x-NeoForge.jar";
             "hash" = "sha512-nzkKWwRY/MpEVauIoYEi15L2fFRS+vQglPcNbpgqIWvmO3kGEVR3+zkb7Manstvgx3Tr5exaaOK8Z+S7h4tAPA==";
         };
+        _9Yhd6zJ9 = {
+            "id" = "9Yhd6zJ9";
+            "file" = "armorstatues-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-LoHIPaFzr8jSDOi0LwDIAPuey9nmBXEiDxbJs2maXCf0zYDw81BeH7J6rLpaRcZkH4r2EazrgS8lMOnByQqTpg==";
+        };
+        _RVyryuxi = {
+            "id" = "RVyryuxi";
+            "file" = "armorstatues-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-P/DnkNptMKrpOOekk4ZvStfZhiwtDkgIhdsrf7p8g8Y92cbKnyense+s2xQNHalBdAkU1NeSuX7EeirTK8ejCA==";
+        };
     in {
         "pFjsdj0w" = _pFjsdj0w;
         "wCjS2nPm" = _wCjS2nPm;
@@ -446,6 +456,8 @@ let
         "IP75msWr" = _IP75msWr;
         "OTrTFyqZ" = _OTrTFyqZ;
         "7p70dAw6" = _7p70dAw6;
+        "9Yhd6zJ9" = _9Yhd6zJ9;
+        "RVyryuxi" = _RVyryuxi;
         "forge-1.19.2" = _ASuYpCVK;
         "forge-1.20.1" = _Oa75lUzE;
         "forge-1.20.4" = _xXaJqRLu;
@@ -466,6 +478,7 @@ let
         "fabric-26.1.1" = _yLTFQpRr;
         "fabric-26.1.2" = _yLTFQpRr;
         "fabric-26.2" = _OTrTFyqZ;
+        "fabric-26.3" = _9Yhd6zJ9;
         "neoforge-1.20.4" = _nR13iWhg;
         "neoforge-1.21" = _hTrGF0fo;
         "neoforge-1.21.1" = _SGpwIu7v;
@@ -481,6 +494,7 @@ let
         "neoforge-26.1.1" = _IP75msWr;
         "neoforge-26.1.2" = _IP75msWr;
         "neoforge-26.2" = _7p70dAw6;
+        "neoforge-26.3" = _RVyryuxi;
         "pkg-v4.0.0-1.19.2-Forge" = _pFjsdj0w;
         "pkg-v4.0.0-1.19.2-Fabric" = _wCjS2nPm;
         "pkg-v4.0.1-1.19.2-Fabric" = _d9TIPZeE;
@@ -549,7 +563,8 @@ let
         "pkg-21.11.1" = _1a9zykFO;
         "pkg-26.1.0" = _IP75msWr;
         "pkg-26.2.0" = _7p70dAw6;
-        "default" = _7p70dAw6;
+        "pkg-26.3.0" = _RVyryuxi;
+        "default" = _RVyryuxi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "armor-statues";

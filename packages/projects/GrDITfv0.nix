@@ -51,6 +51,16 @@ let
             "file" = "mooncake_delight-1.6.3-mc1.21.1-neoforge.jar";
             "hash" = "sha512-NOn6tmKeKgql3h5fdTCrEkUl6dP/HMgB9VJK1t76I4m6ZfcyQI0RQMfOAO3x2yWZis1IF5zfsnc+G5wnnSuiuA==";
         };
+        _IANMQEI5 = {
+            "id" = "IANMQEI5";
+            "file" = "mooncake_delight-1.6.4-mc1.21.1-neoforge.jar";
+            "hash" = "sha512-01Zvbw34426JBuqWnCMM4ouZC03KUy1/E6AMqx+lKG/OcAqPr2Qs1DCiA7ZiQ99upuvI+SctubBeIUT59K6Idw==";
+        };
+        _Yu7jUrpi = {
+            "id" = "Yu7jUrpi";
+            "file" = "mooncake_delight-1.2.4-mc1.20.1-forge.jar";
+            "hash" = "sha512-6vNzj6iR5oZuqJ/ljfquaXiNhJ9coTZvilFLEnTbiNi9EoiAFiRjSWCfRgcR3Q/5BYk+L9bPmfsuCXEi4XrfQA==";
+        };
     in {
         "dEbttedN" = _dEbttedN;
         "TyJ88A7B" = _TyJ88A7B;
@@ -62,8 +72,10 @@ let
         "3ArOeryO" = _3ArOeryO;
         "KDq8atOs" = _KDq8atOs;
         "hVqTFPOc" = _hVqTFPOc;
-        "forge-1.20.1" = _KDq8atOs;
-        "neoforge-1.21.1" = _hVqTFPOc;
+        "IANMQEI5" = _IANMQEI5;
+        "Yu7jUrpi" = _Yu7jUrpi;
+        "forge-1.20.1" = _Yu7jUrpi;
+        "neoforge-1.21.1" = _IANMQEI5;
         "pkg-1.1.0-mc1.20.1-forge" = _dEbttedN;
         "pkg-1.5.0-mc1.21.1-neoforge" = _TyJ88A7B;
         "pkg-1.6.0-mc1.21.1-neoforge" = _o2FThzNL;
@@ -74,7 +86,9 @@ let
         "pkg-1.2.2-mc1.20.1-forge" = _3ArOeryO;
         "pkg-1.2.3-mc1.20.1-forge" = _KDq8atOs;
         "pkg-1.6.3-mc1.21.1-neoforge" = _hVqTFPOc;
-        "default" = _hVqTFPOc;
+        "pkg-1.6.4-mc1.21.1-neoforge" = _IANMQEI5;
+        "pkg-1.2.4-mc1.20.1-forge" = _Yu7jUrpi;
+        "default" = _Yu7jUrpi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mooncake-delight";

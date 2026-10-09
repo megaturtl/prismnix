@@ -871,6 +871,26 @@ let
             "file" = "polylib-fabric-26.3-2.0.14.jar";
             "hash" = "sha512-QV1Dp16hD6fHzOh26KE+PL8iYggIXdu26/HSbrT8HZmzIe5tBSvT+8ozY6ZkkWJzJ2LCpNTY4PoCI8GVmSX73Q==";
         };
+        _kC4t5nG0 = {
+            "id" = "kC4t5nG0";
+            "file" = "polylib-neoforge-26.3-2.0.15.jar";
+            "hash" = "sha512-kCkVe/biS3vCn1oDbXjBIsT7qHo8qqYqC0EXyn6IqCtcz3cDGyVV6XdjchfSiwuGavY5rFCck1hLfIyjFPgs/Q==";
+        };
+        _9zaNfTib = {
+            "id" = "9zaNfTib";
+            "file" = "polylib-fabric-26.3-2.0.15.jar";
+            "hash" = "sha512-KO0WWs+DRoZCriIVo8rP9jTHTnP7YCPxc+LMDnEZVrVPk49R8DXv9ySnd7z2qEDtfGfSef4KcNV8JUHRvGwiew==";
+        };
+        _3HhyLbie = {
+            "id" = "3HhyLbie";
+            "file" = "polylib-fabric-26.3-2.0.16.jar";
+            "hash" = "sha512-iHUBDXFj9UBtdQUNkiIqiHAoS0T0Pf7ZoTrTGO4CvaiCxIFXVv6qRjeFjf4I0Ym9jNOt/oZmd5USaKoTEh3vZQ==";
+        };
+        _PTV2GZvt = {
+            "id" = "PTV2GZvt";
+            "file" = "polylib-neoforge-26.3-2.0.16.jar";
+            "hash" = "sha512-zR3J11SQO4LBRmmgV6F18r7QuDUFtjgc/3oEMF01U0drtxx1ho2RQ6Ld7ANqi7Qc5G5UHOgE0zHX0BSAVFo3yg==";
+        };
     in {
         "UGvhRkjP" = _UGvhRkjP;
         "pXI4LsTl" = _pXI4LsTl;
@@ -1046,6 +1066,10 @@ let
         "EdLH2l23" = _EdLH2l23;
         "ZTAdPhyJ" = _ZTAdPhyJ;
         "mYwmDHmO" = _mYwmDHmO;
+        "kC4t5nG0" = _kC4t5nG0;
+        "9zaNfTib" = _9zaNfTib;
+        "3HhyLbie" = _3HhyLbie;
+        "PTV2GZvt" = _PTV2GZvt;
         "forge-1.18.2" = _lCcL0Wsh;
         "forge-1.19" = _VA2Tq5QL;
         "forge-1.19.1" = _VA2Tq5QL;
@@ -1076,7 +1100,7 @@ let
         "fabric-1.21.6" = _bzLuEGJr;
         "fabric-26.1.2" = _kxzFvIVp;
         "fabric-26.2" = _ogrDSeAS;
-        "fabric-26.3" = _mYwmDHmO;
+        "fabric-26.3" = _3HhyLbie;
         "neoforge-1.20" = _boXcy1fH;
         "neoforge-1.20.1" = _boXcy1fH;
         "neoforge-1.20.2" = _z3XcwYka;
@@ -1091,7 +1115,7 @@ let
         "neoforge-1.21.6" = _TI0sSpJB;
         "neoforge-26.1.2" = _PBpjCLyz;
         "neoforge-26.2" = _fE2TyO3X;
-        "neoforge-26.3" = _ZTAdPhyJ;
+        "neoforge-26.3" = _PTV2GZvt;
         "pkg-1801.0.2-build.13" = _pXI4LsTl;
         "pkg-1900.0.2-build.19" = _cbQ0avmB;
         "pkg-1900.0.2-build.26" = _USqmz5cb;
@@ -1162,7 +1186,9 @@ let
         "pkg-2.0.12" = _eZHvd53u;
         "pkg-2.0.13" = _EdLH2l23;
         "pkg-2.0.14" = _mYwmDHmO;
-        "default" = _mYwmDHmO;
+        "pkg-2.0.15" = _9zaNfTib;
+        "pkg-2.0.16" = _PTV2GZvt;
+        "default" = _PTV2GZvt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "polylib";

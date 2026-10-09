@@ -196,6 +196,11 @@ let
             "file" = "windmeter-0.0.36.jar";
             "hash" = "sha512-89uxKYNdl8nkAo9DvtTpDxM9ygenml9KtSLBz4MQT4X/5bj6tKUIoeu0rQfwal4lgPnHYP87n2opYNIIo3oY0A==";
         };
+        _Jk5H5dkt = {
+            "id" = "Jk5H5dkt";
+            "file" = "windmeter-0.0.37.jar";
+            "hash" = "sha512-cBBnYU8LcJMEYS8+KPR6W711b9N2E6J1k1iYYJXPMrEvXRDod6jQ3VYIHbmLMRIC/yWdOgpCUQiLTZJJeE7yTw==";
+        };
     in {
         "hWshmzIi" = _hWshmzIi;
         "ESAQs4wP" = _ESAQs4wP;
@@ -236,7 +241,8 @@ let
         "FpQAXMQ2" = _FpQAXMQ2;
         "E8yFvS0j" = _E8yFvS0j;
         "tLzjQ6sT" = _tLzjQ6sT;
-        "neoforge-1.21.1" = _tLzjQ6sT;
+        "Jk5H5dkt" = _Jk5H5dkt;
+        "neoforge-1.21.1" = _Jk5H5dkt;
         "forge-1.20.1" = _oriO90aZ;
         "pkg-0.0.11t" = _hWshmzIi;
         "pkg-0.0.12t" = _ESAQs4wP;
@@ -276,7 +282,8 @@ let
         "pkg-0.0.34" = _FpQAXMQ2;
         "pkg-0.0.35" = _E8yFvS0j;
         "pkg-0.0.36" = _tLzjQ6sT;
-        "default" = _tLzjQ6sT;
+        "pkg-0.0.37" = _Jk5H5dkt;
+        "default" = _Jk5H5dkt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wind-meter";

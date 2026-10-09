@@ -16,19 +16,27 @@ let
             "file" = "shulkeropener-1.0-26.1.2.jar";
             "hash" = "sha512-BujzDQQfjnQ+DjcLbmHMmX0Zu6tuIoi2qGsBDQT3MV60fhlAmp3HH3Z+tOaD41JgYEeBt8RGSHNiaRoMQE4xqg==";
         };
+        _RMJEBHmy = {
+            "id" = "RMJEBHmy";
+            "file" = "shulkeropener-1.0-26.2.jar";
+            "hash" = "sha512-zdyQyw2gufrp67TT3TW8Tdf6Q5fvu5vbRSb5q/J/u1iHfyhxDrcbKoB0ok+AKHSgYUbWBLshb9kXAQb8R21B9w==";
+        };
     in {
         "fgH5LTj9" = _fgH5LTj9;
         "UtXiq4zo" = _UtXiq4zo;
         "4aVCK6EK" = _4aVCK6EK;
+        "RMJEBHmy" = _RMJEBHmy;
         "fabric-1.21.10" = _fgH5LTj9;
         "fabric-1.21.11" = _UtXiq4zo;
         "fabric-26.1" = _4aVCK6EK;
         "fabric-26.1.1" = _4aVCK6EK;
         "fabric-26.1.2" = _4aVCK6EK;
+        "fabric-26.2" = _RMJEBHmy;
         "pkg-1.0-1.21.10" = _fgH5LTj9;
         "pkg-1.0-1.21.11" = _UtXiq4zo;
         "pkg-1.0-26.1.2" = _4aVCK6EK;
-        "default" = _4aVCK6EK;
+        "pkg-1.0-26.2" = _RMJEBHmy;
+        "default" = _RMJEBHmy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shulkeropener";

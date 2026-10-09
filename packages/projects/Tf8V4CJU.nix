@@ -126,6 +126,11 @@ let
             "file" = "GlassCarpet-2.0.0-1.26.2.jar";
             "hash" = "sha512-jiP2H6o1RCO3Dy8H2VZq6UV7flQ4dcNrE/0+DZYpYICguKu72DDoiCuqpCqmfyOHp7XqtoIIwvFdzsNVe4+RSA==";
         };
+        _2byUVl2I = {
+            "id" = "2byUVl2I";
+            "file" = "GlassCarpet-2.0.1-1.26.3.jar";
+            "hash" = "sha512-03yh79i4InmYxv5/UX6M8tirdIzYL4KyMseY7FRpPAJTLa4d4Vs/BHJcpfV0oHfhwiZQTC+NAd+YkDnF/qSxWg==";
+        };
     in {
         "hCvxKX39" = _hCvxKX39;
         "qUoi88JM" = _qUoi88JM;
@@ -152,6 +157,7 @@ let
         "Pa1wkCZj" = _Pa1wkCZj;
         "NNxjdiXI" = _NNxjdiXI;
         "iICfi19v" = _iICfi19v;
+        "2byUVl2I" = _2byUVl2I;
         "fabric-1.20.1" = _vzDBC3Ku;
         "fabric-1.20" = _vzDBC3Ku;
         "fabric-1.20.2" = _1YuV7Xr7;
@@ -175,6 +181,7 @@ let
         "fabric-26.1.1" = _NNxjdiXI;
         "fabric-26.1.2" = _NNxjdiXI;
         "fabric-26.2" = _iICfi19v;
+        "fabric-26.3" = _2byUVl2I;
         "pkg-1.0.0-1.20.1" = _hCvxKX39;
         "pkg-1.1.0-1.20" = _qUoi88JM;
         "pkg-1.1.0-1.20.2" = _YU590s4d;
@@ -200,7 +207,8 @@ let
         "pkg-1.3.1-1.21.11" = _Pa1wkCZj;
         "pkg-2.0.0-1.26.1" = _NNxjdiXI;
         "pkg-2.0.0-1.26.2" = _iICfi19v;
-        "default" = _iICfi19v;
+        "pkg-2.0.1-1.26.3" = _2byUVl2I;
+        "default" = _2byUVl2I;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "glass-carpet";

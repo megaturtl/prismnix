@@ -286,6 +286,16 @@ let
             "file" = "map_atlases-1.21-6.7.3-fabric.jar";
             "hash" = "sha512-oja3GcgVH8XFXqsfvAmc3LKAXTFTyhSYYUmjNsjvPNnBzVVtOz7IOqM5x0k0koWEOGZM1FNZJc5ZLPa3n3wAbA==";
         };
+        _sG1olwBl = {
+            "id" = "sG1olwBl";
+            "file" = "map_atlases-1.21-7.0.1-fabric.jar";
+            "hash" = "sha512-Nd5Furp4bwhKRhJnd/Us0e+S8csKMBEpDiclouaHoahU3uNz6RHAAGOaz3JA35nf9rZ4QdKNu5CUo3rkhcDuZQ==";
+        };
+        _IvQaTGDa = {
+            "id" = "IvQaTGDa";
+            "file" = "map_atlases-26.1.2-8.0.0-fabric.jar";
+            "hash" = "sha512-YwvwIuJGcmxTBDSskhETTz81GGDPUVn6DVX5RzdtgmFq6hWCFtIBpgmp0xtlV/vzN9c2FqvxQfS8N3YBNuyvSA==";
+        };
     in {
         "iDcqJ7M9" = _iDcqJ7M9;
         "bcdzezHN" = _bcdzezHN;
@@ -344,6 +354,8 @@ let
         "PSYRoPcO" = _PSYRoPcO;
         "f51OQTVz" = _f51OQTVz;
         "dDBq7m8w" = _dDBq7m8w;
+        "sG1olwBl" = _sG1olwBl;
+        "IvQaTGDa" = _IvQaTGDa;
         "fabric-1.16.2" = _bcdzezHN;
         "fabric-1.16.3" = _bcdzezHN;
         "fabric-1.16.4" = _bcdzezHN;
@@ -360,7 +372,8 @@ let
         "fabric-1.20.1" = _vVuqrskW;
         "fabric-1.20.4" = _Cm1VPyWo;
         "fabric-1.21" = _gMYXmWb8;
-        "fabric-1.21.1" = _dDBq7m8w;
+        "fabric-1.21.1" = _sG1olwBl;
+        "fabric-26.1.2" = _IvQaTGDa;
         "pkg-V1.2.3" = _iDcqJ7M9;
         "pkg-1.2.5" = _bcdzezHN;
         "pkg-2.0.1+1.19" = _K3mpZWDs;
@@ -412,7 +425,9 @@ let
         "pkg-1.21-6.7.1" = _PSYRoPcO;
         "pkg-1.21-6.7.2" = _f51OQTVz;
         "pkg-1.21-6.7.3" = _dDBq7m8w;
-        "default" = _dDBq7m8w;
+        "pkg-1.21-7.0.1" = _sG1olwBl;
+        "pkg-26.1.2-8.0.0" = _IvQaTGDa;
+        "default" = _IvQaTGDa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "map-atlases";

@@ -21,11 +21,17 @@ let
             "file" = "darkout.zip";
             "hash" = "sha512-MF5udcDND/akluWr1YQYLMd4OBbMp0oK/xy3Pxvx6Wyc6X1CMg1vXyrNoDXDDUeO4XRQ7ODVfLnBxkipGYqSfQ==";
         };
+        _YNCff01p = {
+            "id" = "YNCff01p";
+            "file" = "Darkout.zip";
+            "hash" = "sha512-0E47Y78HbIsLYpQoQa/3Wf7/e4cxL8vheZ/lUWTOah4q2tOJyT5XRl3mqm0O6nb+1Ne4Kg8rm6thfXh8NiL0pg==";
+        };
     in {
         "yVh6HDVY" = _yVh6HDVY;
         "7iwhD9j1" = _7iwhD9j1;
         "SL2xrdX0" = _SL2xrdX0;
         "5xqt8Sz4" = _5xqt8Sz4;
+        "YNCff01p" = _YNCff01p;
         "minecraft-1.20" = _yVh6HDVY;
         "minecraft-1.20.1" = _yVh6HDVY;
         "minecraft-1.20.2" = _yVh6HDVY;
@@ -40,10 +46,12 @@ let
         "minecraft-1.21.4" = _SL2xrdX0;
         "minecraft-1.21.5" = _SL2xrdX0;
         "minecraft-1.21.8" = _5xqt8Sz4;
+        "minecraft-26.2" = _YNCff01p;
         "pkg-1" = _yVh6HDVY;
         "pkg-1.1" = _7iwhD9j1;
         "pkg-1.2" = _5xqt8Sz4;
-        "default" = _5xqt8Sz4;
+        "pkg-1.5" = _YNCff01p;
+        "default" = _YNCff01p;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "darkout";

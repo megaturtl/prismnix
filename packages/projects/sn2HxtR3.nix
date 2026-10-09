@@ -71,6 +71,16 @@ let
             "file" = "Crystal Vanilla Tweaks 26.2.zip";
             "hash" = "sha512-7p2JYLGx94Us0ffd68p/GJjM95hLZd8qlEfkUy+6Ok+1ISKuSNDLlzi6Rngx/FlpKncvv957hRZZlEeyGnsrbA==";
         };
+        _kaCPXRW0 = {
+            "id" = "kaCPXRW0";
+            "file" = "Crystal Vanilla Tweaks 26.3.zip";
+            "hash" = "sha512-GkJ+49K6F25UrbnZSkleRVMfwawdkyrpiLs2Z/8MgRWdFoR6nLmiSuqJhesR+5bTuoYu/nobCsp2cyB+C/OKaA==";
+        };
+        _8QBpHAxy = {
+            "id" = "8QBpHAxy";
+            "file" = "Crystal Vanilla Tweaks 26.3 1.3.zip";
+            "hash" = "sha512-OH1gD2MdgbO3avsPtOcunXwD98hzfeUTD1aD2RcdG1qTSPPfgdMAU0THZnzeJ0yhdQDaBuw0w9KUSDSVGl9GdA==";
+        };
     in {
         "smNskYzq" = _smNskYzq;
         "90PC9Gds" = _90PC9Gds;
@@ -86,6 +96,8 @@ let
         "UQUtn6zI" = _UQUtn6zI;
         "pUGGifrL" = _pUGGifrL;
         "41MlOqSZ" = _41MlOqSZ;
+        "kaCPXRW0" = _kaCPXRW0;
+        "8QBpHAxy" = _8QBpHAxy;
         "minecraft-1.20" = _smNskYzq;
         "minecraft-1.20.1" = _smNskYzq;
         "minecraft-1.20.2" = _90PC9Gds;
@@ -105,12 +117,15 @@ let
         "minecraft-26.1.1" = _pUGGifrL;
         "minecraft-26.1.2" = _pUGGifrL;
         "minecraft-26.2" = _41MlOqSZ;
+        "minecraft-26.3" = _8QBpHAxy;
         "pkg-1.0" = _UQUtn6zI;
         "pkg-1.2" = _IqrVlL5Z;
         "pkg-1.1" = _lhVeaYpc;
         "pkg-26.1" = _pUGGifrL;
         "pkg-26.2" = _41MlOqSZ;
-        "default" = _41MlOqSZ;
+        "pkg-26.3" = _kaCPXRW0;
+        "pkg-1.3" = _8QBpHAxy;
+        "default" = _8QBpHAxy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crystal-vanilla-tweaks";

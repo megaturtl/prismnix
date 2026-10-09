@@ -126,6 +126,11 @@ let
             "file" = "Mahi's Connected Grass V1.2.0 (26.2).zip";
             "hash" = "sha512-EWPYERTPU1PXfZc+k0Ay99Fg0iIgovOegQAaAVParBSM8CGU583zouxCZCyjQ+D6IUQgg5LTmMNqp5IUmtDimA==";
         };
+        _7efKXL3m = {
+            "id" = "7efKXL3m";
+            "file" = "Mahi's Connected Grass V1.2.0 (26.3).zip";
+            "hash" = "sha512-QQewfhhyqESmhl/PbecAPQU5DnVQmPIdJXEgukkrhGH4xiybMjpUNIh+SBlpzd5W8JeefFOqZSFkBA6pIX5gcw==";
+        };
     in {
         "kCNpKBJg" = _kCNpKBJg;
         "WwzI74cU" = _WwzI74cU;
@@ -152,6 +157,7 @@ let
         "oO4zANRv" = _oO4zANRv;
         "kZyoKBbF" = _kZyoKBbF;
         "fzorGKkU" = _fzorGKkU;
+        "7efKXL3m" = _7efKXL3m;
         "minecraft-1.21.11" = _kCNpKBJg;
         "minecraft-1.21.10" = _WwzI74cU;
         "minecraft-1.21.7" = _KzoqcUkq;
@@ -237,8 +243,9 @@ let
         "minecraft-26.1.1" = _kZyoKBbF;
         "minecraft-26.1.2" = _kZyoKBbF;
         "minecraft-26.2" = _fzorGKkU;
-        "pkg-1.2.0" = _fzorGKkU;
-        "default" = _fzorGKkU;
+        "minecraft-26.3" = _7efKXL3m;
+        "pkg-1.2.0" = _7efKXL3m;
+        "default" = _7efKXL3m;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mahis-connected-grass";

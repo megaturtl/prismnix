@@ -846,6 +846,21 @@ let
             "file" = "create-enchantment-industry-2.5.4.jar";
             "hash" = "sha512-j38C6Bh4B6G7xKhiqRGsQHiNzLcMXwpupbz45D3BQU15Z6gojhruCrBwVvCFGkR30mLPfAMeQ90eAREZdXrOog==";
         };
+        _HM5htsU7 = {
+            "id" = "HM5htsU7";
+            "file" = "create-enchantment-industry-2.5.4.jar";
+            "hash" = "sha512-JBHBoleIHmSN3nPnWbUof3fKaRAcV5vombbEXpVfb2p7a4k01YyQO6/ahOTlDr7ixhLEQqT9MrvFNFasT9uiqw==";
+        };
+        _L6VSDdC4 = {
+            "id" = "L6VSDdC4";
+            "file" = "create-enchantment-industry-2.5.4b.jar";
+            "hash" = "sha512-w9hRH17sWk7HJA9pz2lSA41y1OMrSKCs57ENcppAc8EYHm28svGhhBSA5fx7x9o4M7jtR5PdDDzAV+uKxIjrPQ==";
+        };
+        _fs3kihCQ = {
+            "id" = "fs3kihCQ";
+            "file" = "create-enchantment-industry-2.5.4b.jar";
+            "hash" = "sha512-+BktpIzPgYIbtcZmYgHghGEah3/D6hiAMaoVxm7ucKTF5khOWiC63eg7zjAJHlB+zoEWihGYT0BqaD9AevD3Wg==";
+        };
     in {
         "zewHKrfA" = _zewHKrfA;
         "WKK6qhS3" = _WKK6qhS3;
@@ -1016,11 +1031,14 @@ let
         "Or9rfT7c" = _Or9rfT7c;
         "ASyjJTVL" = _ASyjJTVL;
         "WJ2VPWAG" = _WJ2VPWAG;
+        "HM5htsU7" = _HM5htsU7;
+        "L6VSDdC4" = _L6VSDdC4;
+        "fs3kihCQ" = _fs3kihCQ;
         "forge-1.18.2" = _tEKYosCi;
         "forge-1.19.2" = _KA5Gf4rg;
-        "forge-1.20.1" = _lELIyDyi;
+        "forge-1.20.1" = _fs3kihCQ;
         "neoforge-1.20.1" = _rYvEK00i;
-        "neoforge-1.21.1" = _WJ2VPWAG;
+        "neoforge-1.21.1" = _L6VSDdC4;
         "fabric-1.20.1" = _Or9rfT7c;
         "fabric-1.21.11" = _QXhX9xZw;
         "fabric-26.1.2" = _na3558i9;
@@ -1134,8 +1152,9 @@ let
         "pkg-2.5.2-f" = _cDJ7EbT5;
         "pkg-2.5.2-g" = _Or9rfT7c;
         "pkg-2.5.3b" = _ASyjJTVL;
-        "pkg-2.5.4" = _WJ2VPWAG;
-        "default" = _WJ2VPWAG;
+        "pkg-2.5.4" = _HM5htsU7;
+        "pkg-2.5.4b" = _fs3kihCQ;
+        "default" = _fs3kihCQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-enchantment-industry";

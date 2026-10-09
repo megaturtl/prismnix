@@ -286,6 +286,21 @@ let
             "file" = "O.F.Device-forge-26.2-14.0.0.jar";
             "hash" = "sha512-MeVMdisZXbD/NioqDj7RhcId0jOHkpLpZb2MvNuHxoN3ZExkvQ8S2+Xs/2QEB8vWRPxu6f6WneFaRG7H6cmPkQ==";
         };
+        _Kj7rROUl = {
+            "id" = "Kj7rROUl";
+            "file" = "O.F.Device-neoforge-26.3-15.0.0.jar";
+            "hash" = "sha512-W7Ti2mNe6/5ArKP7QGxoFJz1tkD1h4+FpggQAnzcO2sCHrkps44zSJxDeUxoBkNNw3bO1S/QIdQA8gTD5OEYgA==";
+        };
+        _K4l6kPyK = {
+            "id" = "K4l6kPyK";
+            "file" = "O.F.Device-forge-26.3-15.0.0.jar";
+            "hash" = "sha512-PmtN/8+zS3PmbtOULfj9VX+RYxZ1zb4/i2ONos92W/BwtWwfVEcymutgMrU80lsZ92AL0U/ylDTnC+I5lpjGDQ==";
+        };
+        _C4y0eItg = {
+            "id" = "C4y0eItg";
+            "file" = "O.F.Device-neoforge-26.3-15.0.1.jar";
+            "hash" = "sha512-NEe8Xjv+G0c4vmJovk+w+jkqgXKeXYqgfNUS8/iAkOoJiEwid3eAz+nvghNWXClK/xC7Q+bYdN+rPnouGEWo4w==";
+        };
     in {
         "N39Ev6Zg" = _N39Ev6Zg;
         "NrHdF0VQ" = _NrHdF0VQ;
@@ -344,6 +359,9 @@ let
         "WUZVuGY5" = _WUZVuGY5;
         "G4AU6EWq" = _G4AU6EWq;
         "MWyALByl" = _MWyALByl;
+        "Kj7rROUl" = _Kj7rROUl;
+        "K4l6kPyK" = _K4l6kPyK;
+        "C4y0eItg" = _C4y0eItg;
         "forge-1.16.5" = _D28xP7Rg;
         "forge-1.18.2" = _UyU6cEF3;
         "forge-1.20.2" = _teYFpv8o;
@@ -367,6 +385,7 @@ let
         "forge-26.1.1" = _WUZVuGY5;
         "forge-26.1.2" = _WUZVuGY5;
         "forge-26.2" = _MWyALByl;
+        "forge-26.3" = _K4l6kPyK;
         "neoforge-1.20.4" = _nt5HVcWt;
         "neoforge-1.20.6" = _leRgbPPS;
         "neoforge-1.21" = _dCbX210J;
@@ -384,6 +403,7 @@ let
         "neoforge-26.1.1" = _gJIZFCvD;
         "neoforge-26.1.2" = _gJIZFCvD;
         "neoforge-26.2" = _G4AU6EWq;
+        "neoforge-26.3" = _C4y0eItg;
         "pkg-1.0.0-beta.1" = _N39Ev6Zg;
         "pkg-2.0.0-beta.1" = _NrHdF0VQ;
         "pkg-4.0.0-beta.3" = _IhwfE7N9;
@@ -440,7 +460,10 @@ let
         "pkg-13.1.0-forge" = _WUZVuGY5;
         "pkg-14.0.0-neoforge" = _G4AU6EWq;
         "pkg-14.0.0-forge" = _MWyALByl;
-        "default" = _MWyALByl;
+        "pkg-15.0.0-neoforge" = _Kj7rROUl;
+        "pkg-15.0.0-forge" = _K4l6kPyK;
+        "pkg-15.0.1-neoforge" = _C4y0eItg;
+        "default" = _C4y0eItg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "o-f-device";

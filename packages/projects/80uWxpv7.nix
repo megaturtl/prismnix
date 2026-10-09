@@ -141,6 +141,46 @@ let
             "file" = "Chiselmon-fabric-1.3.3-beta-hotfix1+1.21.1.jar";
             "hash" = "sha512-A+l2+KQsqvhBqrhHUFi/nYuugyN3WyV2Uv6SRR7QbbM3GRqxx5+5IucPiActDJDoyAQBM8zAYM2SKzLCpvKDhw==";
         };
+        _9cLMNFFk = {
+            "id" = "9cLMNFFk";
+            "file" = "Chiselmon-neoforge-1.4.0+cobblemon-1.7.3.jar";
+            "hash" = "sha512-7dytuSmatFseMHUgYtqCd7n3mshujiwYOZiLGTaPF5baMuJO/uS8kne2sdZpaBwPJriM3pnTWAueuD6aGqlo9g==";
+        };
+        _LqFe6dmV = {
+            "id" = "LqFe6dmV";
+            "file" = "Chiselmon-fabric-1.4.0+cobblemon-1.7.3.jar";
+            "hash" = "sha512-BmpJkkhuwyzCCe2E2XbzLc7KK0+2oFfvmOj8/rfWzGP4iTJlD8fMR8PUmn9xCFAc8eHMvLNkzzD/QAzyDVMMIg==";
+        };
+        _CkiRL0iM = {
+            "id" = "CkiRL0iM";
+            "file" = "Chiselmon-neoforge-1.4.0+cobblemon-1.8.0.jar";
+            "hash" = "sha512-1cwLkcep2vFSZVP5DrheqQqNj5x3hqIftCHU0gzfl2AAoAkbKY6ILTQnZ5u8FvxUdCqU6fJJ7c//oX5U82kD7g==";
+        };
+        _tA3BlZhr = {
+            "id" = "tA3BlZhr";
+            "file" = "Chiselmon-fabric-1.4.0+cobblemon-1.8.0.jar";
+            "hash" = "sha512-QffeyOKhnH76kx9+z1lcuSIsI3tsnDpx+kRKj6ZlkEn8reVn7Od7ZHmTExRb3ccplqp0nq6dQprRFPxLomJr3Q==";
+        };
+        _LTGr4nVG = {
+            "id" = "LTGr4nVG";
+            "file" = "Chiselmon-neoforge-1.4.1+cobblemon-1.8.0.jar";
+            "hash" = "sha512-cSPndIe0PZBHgaBnWYxB59sEfuIScexsZIS9h6LDOf7d/R/Bul9BReERL9njAtmyxYz68Xpm8Fg9PVh8zSu2zw==";
+        };
+        _xuhWYXkr = {
+            "id" = "xuhWYXkr";
+            "file" = "Chiselmon-fabric-1.4.1+cobblemon-1.8.0.jar";
+            "hash" = "sha512-BGrmNr1vLQT6Cn/SeacwbU63km379wMxkXyP7rn+x1DvDsH9sHCfV9e7uM6UYOj83ojTGR1JWUndUU0uOktLLQ==";
+        };
+        _MnkHnYrW = {
+            "id" = "MnkHnYrW";
+            "file" = "Chiselmon-neoforge-1.4.2+cobblemon-1.8.0.jar";
+            "hash" = "sha512-ORLUz33YeGINkyqeKXOFN0JmENK+9G2ieNfORcJGZX7kXloZ7lFTz+UNYzbIkkAjMns+4yz7/k9roOXOnzQA+A==";
+        };
+        _xhKm1SUd = {
+            "id" = "xhKm1SUd";
+            "file" = "Chiselmon-fabric-1.4.2+cobblemon-1.8.0.jar";
+            "hash" = "sha512-rnxt8Lgqd5x1J1xU7SB+sLCKaW9Oa6Ufz+/E67xGQmM98LoKPbidDHQbO7V0sIWqyYnOG1YUzaotcOC4GVCL5A==";
+        };
     in {
         "OtSMtC7G" = _OtSMtC7G;
         "kSr0TZYc" = _kSr0TZYc;
@@ -170,8 +210,16 @@ let
         "XXO8zxZb" = _XXO8zxZb;
         "H1S4hV9G" = _H1S4hV9G;
         "masaCQOA" = _masaCQOA;
-        "fabric-1.21.1" = _masaCQOA;
-        "neoforge-1.21.1" = _H1S4hV9G;
+        "9cLMNFFk" = _9cLMNFFk;
+        "LqFe6dmV" = _LqFe6dmV;
+        "CkiRL0iM" = _CkiRL0iM;
+        "tA3BlZhr" = _tA3BlZhr;
+        "LTGr4nVG" = _LTGr4nVG;
+        "xuhWYXkr" = _xuhWYXkr;
+        "MnkHnYrW" = _MnkHnYrW;
+        "xhKm1SUd" = _xhKm1SUd;
+        "fabric-1.21.1" = _xhKm1SUd;
+        "neoforge-1.21.1" = _MnkHnYrW;
         "pkg-1.1.0-alpha-snapshot1" = _kSr0TZYc;
         "pkg-1.1.0-alpha-snapshot2" = _1Sgu0yRn;
         "pkg-1.1.0-alpha-snapshot4" = _VvWt9eDG;
@@ -187,7 +235,11 @@ let
         "pkg-1.3.2-beta+1.21.1" = _Levwzu7I;
         "pkg-1.3.3-beta+1.21.1" = _XXO8zxZb;
         "pkg-1.3.3-beta-hotfix1+1.21.1" = _masaCQOA;
-        "default" = _masaCQOA;
+        "pkg-1.4.0+cobblemon-1.7.3" = _LqFe6dmV;
+        "pkg-1.4.0+cobblemon-1.8.0" = _tA3BlZhr;
+        "pkg-1.4.1+cobblemon-1.8.0" = _xuhWYXkr;
+        "pkg-1.4.2+cobblemon-1.8.0" = _xhKm1SUd;
+        "default" = _xhKm1SUd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chiselmon";

@@ -401,6 +401,36 @@ let
             "file" = "witcher-class-mod-neoforge-3.1.3+1.21.1.jar";
             "hash" = "sha512-yF6u1ISwT7A0J6l360jLuauq6RJjp29ld7JS7etUsJNKNlSEwKgpMurYdscE32R03LVKjBA2nfZsnw6HDP4/KQ==";
         };
+        _Ey3DPj1H = {
+            "id" = "Ey3DPj1H";
+            "file" = "witcher-class-mod-fabric-3.1.3+1.20.1.jar";
+            "hash" = "sha512-AXHldlbUmy6qYzzkT03AV/ZoO1ldoBeRuYS5Pnm0I4sOiQQ1BigwQqENN7EFw8GB5aehaW2X2K2Hs+sR7+W6/Q==";
+        };
+        _OSnzvcuY = {
+            "id" = "OSnzvcuY";
+            "file" = "witcher-class-mod-forge-3.1.3+1.20.1.jar";
+            "hash" = "sha512-9EOT7SrKuycR1cvvzydaSyX9ah5TYlcvVAKQnBbtG0EsGBq3OUQN/IpReUcxqWw7kAyE8rRxVYvpkwwU9ErL2g==";
+        };
+        _NnmMoYJb = {
+            "id" = "NnmMoYJb";
+            "file" = "witcher-class-mod-fabric-3.1.4+1.21.1.jar";
+            "hash" = "sha512-MS4tmdwuGVTXmth7ugn508uJGsWfE8G0yL7+raPJj/0IVoq+k1caWINNEQtejMp79XrG01seJAEbzOvpwVPYaw==";
+        };
+        _QF76fKlN = {
+            "id" = "QF76fKlN";
+            "file" = "witcher-class-mod-neoforge-3.1.4+1.21.1.jar";
+            "hash" = "sha512-beEyqEQirRzOxd3VkSeag2571lpNm9PRAQfa1px8FrTGTl7+VOkEouS0O/aTQPhpeMDBrsUIa2423sZ8ehV3Jg==";
+        };
+        _Aduovtc1 = {
+            "id" = "Aduovtc1";
+            "file" = "witcher-class-mod-forge-3.1.4+1.20.1.jar";
+            "hash" = "sha512-gmdUnD5DKjD1xhpto88TGRytxgEJ7LkHfrxRHZzKdME0CxfSptbjwW1EQzY+ImMtwee3dcbuYfywfiDL1l8Edw==";
+        };
+        _Mkzda9rM = {
+            "id" = "Mkzda9rM";
+            "file" = "witcher-class-mod-fabric-3.1.4+1.20.1.jar";
+            "hash" = "sha512-atjLQ0i2PnMm+2AiClyXSpoLVKrM+J0jVmeyhct5soKWGsDVYUlDv/I1laY+uLd6dX724ud3YtWrvs3d+6Mg8w==";
+        };
     in {
         "F2SCKGhY" = _F2SCKGhY;
         "L8d1o3MR" = _L8d1o3MR;
@@ -482,10 +512,18 @@ let
         "kKeWwRSD" = _kKeWwRSD;
         "fFullL9s" = _fFullL9s;
         "3xWL1flc" = _3xWL1flc;
-        "fabric-1.20.1" = _OPuPacOd;
+        "Ey3DPj1H" = _Ey3DPj1H;
+        "OSnzvcuY" = _OSnzvcuY;
+        "NnmMoYJb" = _NnmMoYJb;
+        "QF76fKlN" = _QF76fKlN;
+        "Aduovtc1" = _Aduovtc1;
+        "Mkzda9rM" = _Mkzda9rM;
+        "fabric-1.20.1" = _Mkzda9rM;
         "fabric-1.21" = _1ekqs6RW;
-        "fabric-1.21.1" = _fFullL9s;
-        "neoforge-1.21.1" = _3xWL1flc;
+        "fabric-1.21.1" = _NnmMoYJb;
+        "neoforge-1.21.1" = _QF76fKlN;
+        "neoforge-1.20.1" = _Aduovtc1;
+        "forge-1.20.1" = _Aduovtc1;
         "pkg-1.0.0" = _F2SCKGhY;
         "pkg-1.0.1" = _L8d1o3MR;
         "pkg-1.0.2" = _vamOk5xk;
@@ -566,7 +604,13 @@ let
         "pkg-3.1.2+1.21.1-neoforge" = _kKeWwRSD;
         "pkg-3.1.3+1.21.1-fabric" = _fFullL9s;
         "pkg-3.1.3+1.21.1-neoforge" = _3xWL1flc;
-        "default" = _3xWL1flc;
+        "pkg-3.1.3+1.20.1-fabric" = _Ey3DPj1H;
+        "pkg-3.1.3+1.20.1-forge" = _OSnzvcuY;
+        "pkg-3.1.4+1.21.1-fabric" = _NnmMoYJb;
+        "pkg-3.1.4+1.21.1-neoforge" = _QF76fKlN;
+        "pkg-3.1.4+1.20.1-forge" = _Aduovtc1;
+        "pkg-3.1.4+1.20.1-fabric" = _Mkzda9rM;
+        "default" = _Mkzda9rM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "witcher-rpg-class";

@@ -281,6 +281,16 @@ let
             "file" = "BetterCommandBlockUI-0.5.3-26.2.jar";
             "hash" = "sha512-5ol5rwzlHkMQdlzY1IgOQo7QtQtFnqn/IhgD+LyWLIKVDrZ9bdZJqasIXkGXUis587EGTCPH4YHxtbhp3JS2sg==";
         };
+        _x4WLQOnc = {
+            "id" = "x4WLQOnc";
+            "file" = "BetterCommandBlockUI-0.5.4-26.3.jar";
+            "hash" = "sha512-Db/6dBlX7xAG9UFTYlb5Uhlmme+SDldPqu54AfrJgOhVw9FuyHX7DufMPU6oWGEAtT6KCdTP2aeC40YPDUXYEQ==";
+        };
+        _Ef6gXFj3 = {
+            "id" = "Ef6gXFj3";
+            "file" = "BetterCommandBlockUI-0.5.4a-26.3.jar";
+            "hash" = "sha512-z8mHYa5IRxh82HFK+n3pfuyEyRA2dDO1fTDGFk7vBL7ELI6hUYzKzdKMDYarnizmJrE5akvZBiPBvNUPYfYCUg==";
+        };
     in {
         "bqUxr2Sg" = _bqUxr2Sg;
         "R7XOD0de" = _R7XOD0de;
@@ -338,6 +348,8 @@ let
         "koQ1zDbw" = _koQ1zDbw;
         "hZzJb0zx" = _hZzJb0zx;
         "r9j5QnhO" = _r9j5QnhO;
+        "x4WLQOnc" = _x4WLQOnc;
+        "Ef6gXFj3" = _Ef6gXFj3;
         "fabric-1.19.2" = _mWPhUDC6;
         "fabric-1.18.2" = _CLhsxVEz;
         "fabric-1.19" = _mWPhUDC6;
@@ -366,6 +378,7 @@ let
         "fabric-1.21.11" = _koQ1zDbw;
         "fabric-26.1" = _hZzJb0zx;
         "fabric-26.2" = _r9j5QnhO;
+        "fabric-26.3" = _Ef6gXFj3;
         "quilt-1.19.4-pre2" = _iH8httP8;
         "quilt-1.19.4-pre3" = _iH8httP8;
         "quilt-1.19.4" = _Fd2fux9v;
@@ -394,6 +407,7 @@ let
         "quilt-1.21.11" = _koQ1zDbw;
         "quilt-26.1" = _hZzJb0zx;
         "quilt-26.2" = _r9j5QnhO;
+        "quilt-26.3" = _Ef6gXFj3;
         "pkg-0.1.0" = _R7XOD0de;
         "pkg-0.2.0" = _HFxmGYK7;
         "pkg-0.3.0" = _74Rynlcw;
@@ -411,7 +425,9 @@ let
         "pkg-0.5.2" = _XCUcnTCS;
         "pkg-0.5.2a" = _HkltAat3;
         "pkg-0.5.3" = _r9j5QnhO;
-        "default" = _r9j5QnhO;
+        "pkg-0.5.4" = _x4WLQOnc;
+        "pkg-0.5.4a" = _Ef6gXFj3;
+        "default" = _Ef6gXFj3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bettercommandblockui";

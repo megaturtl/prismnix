@@ -71,6 +71,16 @@ let
             "file" = "dg_js-1.21.1-1.2.4.jar";
             "hash" = "sha512-Aen9wAj9/1K+B8qj2Ks04hDeW7/U+uCILkRXk41noFw52TpExkv0S5DdFdFWSJIAdpFZVR6GdYHfq/LcC6F+1g==";
         };
+        _qGdsOmYM = {
+            "id" = "qGdsOmYM";
+            "file" = "dg_js-1.21.1-1.2.8.jar";
+            "hash" = "sha512-zSVGJsq2qqXTM2CPjZYSLsl4L0UuarobDGbrZLcJ1eHNKzBD/rZCgL8StsxIbL6+gkzNkwh1/05zi2EFOqUtiA==";
+        };
+        _PXnsHEdn = {
+            "id" = "PXnsHEdn";
+            "file" = "dg_js-1.20.1-1.2.8.jar";
+            "hash" = "sha512-r5CBDQBoua0XMSYkZUp5lAnqh5h82g/2fLWMV9SSxAZSP1lbYs4LjTVrKHCWrvnzXp1DH03a/adi1+q7gOxtcw==";
+        };
     in {
         "deRCNNof" = _deRCNNof;
         "SJWCFXHk" = _SJWCFXHk;
@@ -86,10 +96,12 @@ let
         "pMqB5m7O" = _pMqB5m7O;
         "QnpXNcWf" = _QnpXNcWf;
         "gIjWAdme" = _gIjWAdme;
+        "qGdsOmYM" = _qGdsOmYM;
+        "PXnsHEdn" = _PXnsHEdn;
         "forge-1.19.2" = _deRCNNof;
-        "forge-1.20.1" = _pMqB5m7O;
+        "forge-1.20.1" = _PXnsHEdn;
         "forge-1.18.2" = _Pw51TqNY;
-        "neoforge-1.21.1" = _gIjWAdme;
+        "neoforge-1.21.1" = _qGdsOmYM;
         "pkg-1.19.2-1.1.1" = _deRCNNof;
         "pkg-1.20.1-1.1.1" = _SJWCFXHk;
         "pkg-1.20.1-1.2.1" = _3nBiRXYm;
@@ -104,7 +116,9 @@ let
         "pkg-1.20.1-1.2.6" = _pMqB5m7O;
         "pkg-1.21.1-1.2.3" = _QnpXNcWf;
         "pkg-1.21.1-1.2.4" = _gIjWAdme;
-        "default" = _gIjWAdme;
+        "pkg-1.21.1-1.2.8" = _qGdsOmYM;
+        "pkg-1.20.1-1.2.8" = _PXnsHEdn;
+        "default" = _PXnsHEdn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kubejs-diesel-generators";

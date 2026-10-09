@@ -16,18 +16,26 @@ let
             "file" = "wynnbubbles-0.4.0.jar";
             "hash" = "sha512-ch4NJgvCLbUc7qnlExYlM6RXkgcwyKFCEWUuZ6v9tvqD3Dnhk6Ht5VNJelPIvvqIC8rNS9tp7M5jU8NmcCnSAg==";
         };
+        _gdyzL7Kq = {
+            "id" = "gdyzL7Kq";
+            "file" = "wynnbubbles-1.0.0.jar";
+            "hash" = "sha512-gjKEbKYIAGGAUqwTJI+EFBu72/zWNLxD6DNRoHHKALMZkgQEcf8AvhIpPqapohsVhNI30wOF5GFC8EaiJXfjzw==";
+        };
     in {
         "FsuIJfdL" = _FsuIJfdL;
         "FGWUW2ws" = _FGWUW2ws;
         "BXL5tStn" = _BXL5tStn;
+        "gdyzL7Kq" = _gdyzL7Kq;
         "fabric-1.21" = _FsuIJfdL;
         "fabric-1.21.1" = _FGWUW2ws;
         "fabric-1.21.4" = _BXL5tStn;
         "fabric-1.21.5" = _BXL5tStn;
+        "fabric-1.21.11" = _gdyzL7Kq;
         "pkg-0.3.2" = _FsuIJfdL;
         "pkg-0.3.3" = _FGWUW2ws;
         "pkg-0.4.0" = _BXL5tStn;
-        "default" = _BXL5tStn;
+        "pkg-1.0.0" = _gdyzL7Kq;
+        "default" = _gdyzL7Kq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wynnbubbles";

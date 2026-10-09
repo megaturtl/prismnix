@@ -166,6 +166,11 @@ let
             "file" = "colors-26.1.2-3.4.3.jar";
             "hash" = "sha512-nxGpqUuCyxB6BMbiHwpZzbsDfQ8qlzh6SwVwLro4kGBDemHG5v+NJQi1jhgH8o2/gFss7wpCdKe4S8uiM/0cMg==";
         };
+        _k0QWY2FI = {
+            "id" = "k0QWY2FI";
+            "file" = "colors-26.1.2-3.4.5.jar";
+            "hash" = "sha512-vIC3CC0IJ7Fow4YMNI7tofUqkc8MZlJCgTGrpXM82RdsGX87uwFmS1v6OD4YBowPX/rn7bYWufBoGhG5v+nqsQ==";
+        };
     in {
         "qFrAUlsQ" = _qFrAUlsQ;
         "Le6e3NAr" = _Le6e3NAr;
@@ -200,6 +205,7 @@ let
         "IbK0Jjmn" = _IbK0Jjmn;
         "QT1zeVf2" = _QT1zeVf2;
         "9CJfE6Eo" = _9CJfE6Eo;
+        "k0QWY2FI" = _k0QWY2FI;
         "neoforge-1.21.1" = _EnG0KNUm;
         "neoforge-1.21.2" = _qFrAUlsQ;
         "neoforge-1.21.3" = _qFrAUlsQ;
@@ -208,7 +214,7 @@ let
         "neoforge-1.21.11" = _hN9aeD11;
         "neoforge-26.1" = _W3fISmcv;
         "neoforge-26.1.1" = _W3fISmcv;
-        "neoforge-26.1.2" = _9CJfE6Eo;
+        "neoforge-26.1.2" = _k0QWY2FI;
         "pkg-1.0.1" = _qFrAUlsQ;
         "pkg-1.21.1-1.0.2" = _Le6e3NAr;
         "pkg-1.21.1-1.0.3" = _iJ6koADt;
@@ -239,7 +245,8 @@ let
         "pkg-26.1.2-3.4.1" = _IbK0Jjmn;
         "pkg-26.1.2-3.4.2" = _QT1zeVf2;
         "pkg-26.1.2-3.4.3" = _9CJfE6Eo;
-        "default" = _9CJfE6Eo;
+        "pkg-26.1.2-3.4.5" = _k0QWY2FI;
+        "default" = _k0QWY2FI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bbl-colors";

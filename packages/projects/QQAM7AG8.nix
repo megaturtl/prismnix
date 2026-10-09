@@ -101,6 +101,16 @@ let
             "file" = "MoAnimals-fabric-1.21.1-0.2.0-SNAPSHOT1.jar";
             "hash" = "sha512-rb+ZWj8dSeRUoMAiadOVEUFoZyr60Y+3P6CyccNLxBkUbpYetzEk62RkC4zE7uI4CoKqeV8EqY7M9xRmM+dZaQ==";
         };
+        _NyegTMrf = {
+            "id" = "NyegTMrf";
+            "file" = "MoAnimals-neoforge-1.21.1-0.2.0.jar";
+            "hash" = "sha512-XTKcsjWzE5aEbwmdoDJojI8KkPkf2bA9QqkgMnzn0Toq2LxLHnKwIlG0JPbLF8ideK4/GOErrftVKyy6FORlOA==";
+        };
+        _jAjreI8K = {
+            "id" = "jAjreI8K";
+            "file" = "MoAnimals-fabric-1.21.1-0.2.0.jar";
+            "hash" = "sha512-N7cz3p5SWsiZ9hU7sKbJtsrAiu5aWuAbNuyNri6V1q8GtXUPu03B1uYF6AiIKlmvLCEsuYxs060jEMofLk+1ow==";
+        };
     in {
         "AYdflZ7k" = _AYdflZ7k;
         "FmlTcobg" = _FmlTcobg;
@@ -122,12 +132,14 @@ let
         "FW5mlWLf" = _FW5mlWLf;
         "eVd5Q8eH" = _eVd5Q8eH;
         "1hspoK4F" = _1hspoK4F;
+        "NyegTMrf" = _NyegTMrf;
+        "jAjreI8K" = _jAjreI8K;
         "fabric-1.21.3" = _B3jprQie;
-        "fabric-1.21.1" = _1hspoK4F;
+        "fabric-1.21.1" = _jAjreI8K;
         "fabric-1.21.4" = _z6Eci5DC;
         "fabric-1.21.5" = _T0HH7zfw;
         "neoforge-1.21.3" = _TVgjhBSI;
-        "neoforge-1.21.1" = _eVd5Q8eH;
+        "neoforge-1.21.1" = _NyegTMrf;
         "neoforge-1.21.4" = _HkqkzMYH;
         "neoforge-1.21.5" = _ZFWoP3NC;
         "pkg-0.1.0-BETA" = _D33uixvu;
@@ -135,7 +147,8 @@ let
         "pkg-0.1.2-BETA" = _ZFWoP3NC;
         "pkg-0.1.3-BETA" = _FW5mlWLf;
         "pkg-0.2.0-SNAPSHOT1" = _1hspoK4F;
-        "default" = _1hspoK4F;
+        "pkg-0.2.0" = _jAjreI8K;
+        "default" = _jAjreI8K;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "moanimals";

@@ -21,11 +21,17 @@ let
             "file" = "numericalenchantments-1.0.2+26.1.1-fabric.jar";
             "hash" = "sha512-D+HIPkCK9fN9kIOH54XUjAt7AvmNubOJ+ZfG9No/SzYXSrpEK/PTG4Nv8PJA9XQ8llYw4Rsglz0kqd4BuvSftQ==";
         };
+        _RsOSfP2Y = {
+            "id" = "RsOSfP2Y";
+            "file" = "numericalenchantments-1.0.2+1.8.9-fabric.jar";
+            "hash" = "sha512-mZuKhqVKbn78IMuLYxNHYzKI4cL33FgDA1tqIkOxKwDK4b5BdZbx+N7gWHIE7SyqeOznqFMaF9F0pQ8O0gzTnA==";
+        };
     in {
         "n1e5XEFd" = _n1e5XEFd;
         "tm4fKTFu" = _tm4fKTFu;
         "uoMdRvnS" = _uoMdRvnS;
         "y81LDaKG" = _y81LDaKG;
+        "RsOSfP2Y" = _RsOSfP2Y;
         "fabric-1.20.1" = _n1e5XEFd;
         "fabric-1.20.3" = _n1e5XEFd;
         "fabric-1.20.4" = _n1e5XEFd;
@@ -41,10 +47,11 @@ let
         "fabric-26.1.1" = _y81LDaKG;
         "fabric-26.1.2" = _y81LDaKG;
         "fabric-26.2" = _y81LDaKG;
+        "ornithe-1.8.9" = _RsOSfP2Y;
         "pkg-1.0.0" = _tm4fKTFu;
         "pkg-1.0.1" = _uoMdRvnS;
-        "pkg-1.0.2" = _y81LDaKG;
-        "default" = _y81LDaKG;
+        "pkg-1.0.2" = _RsOSfP2Y;
+        "default" = _RsOSfP2Y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "numerical-enchantments";

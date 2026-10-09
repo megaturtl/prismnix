@@ -2371,6 +2371,16 @@ let
             "file" = "onlyexcavators-26.1.2-0.3.jar";
             "hash" = "sha512-pBt0IC6X2v8newhf0aGL8sabLySrm3CYQhwVdIh8RBLYm0zp+0oJopjkFqhEpyWxdUhv3ImWD8/aGZ4VLGffoA==";
         };
+        _OYu0HD0L = {
+            "id" = "OYu0HD0L";
+            "file" = "OnlyExcavators-26.3-0.1.jar";
+            "hash" = "sha512-ODzDargqhZthY0LISB1WRYc513RjgDX1Ya4YQznoa/P5jR96NsDqX5H3CQkJE7YqonMRIqSdfiv6+N5EahWdPQ==";
+        };
+        _bPWyCy3c = {
+            "id" = "bPWyCy3c";
+            "file" = "onlyexcavators-26.3-0.1.jar";
+            "hash" = "sha512-NNimfMcqRmUm61OU8a+ZynZcrgYwdbilK/pDq/ovN3xYeE+adI2YiyAcOi/w48y3OtsrEkUpjGO7XeJn3NNl4g==";
+        };
     in {
         "QqyH6g55" = _QqyH6g55;
         "bWPCk7UN" = _bWPCk7UN;
@@ -2846,6 +2856,8 @@ let
         "6Dch4UNg" = _6Dch4UNg;
         "rioj5Qw7" = _rioj5Qw7;
         "MvlKBnCY" = _MvlKBnCY;
+        "OYu0HD0L" = _OYu0HD0L;
+        "bPWyCy3c" = _bPWyCy3c;
         "forge-1.19" = _D4JdsVff;
         "forge-1.19.1" = _EP52HbD8;
         "forge-1.19.2" = _sg2CKG0f;
@@ -2892,6 +2904,7 @@ let
         "fabric-26.1.1" = _mI9JbBuX;
         "fabric-26.1.2" = _F2RjzMeO;
         "fabric-26.2" = _hQmVxe0x;
+        "fabric-26.3" = _OYu0HD0L;
         "neoforge-1.21" = _3EagdQ6z;
         "neoforge-1.21.1" = _gUixiyMG;
         "neoforge-1.21.3" = _tQ1Ny1al;
@@ -2907,6 +2920,7 @@ let
         "neoforge-26.1.1" = _eRc2GyDW;
         "neoforge-26.1" = _GSbFA8Hz;
         "neoforge-26.2" = _DqHciLv0;
+        "neoforge-26.3" = _bPWyCy3c;
         "pkg-1.19-0.1" = _zezTiQa8;
         "pkg-1.19.1-0.1" = _bfZAod85;
         "pkg-1.19.2-0.1" = _xEv8UPxj;
@@ -3108,7 +3122,8 @@ let
         "pkg-1.21.11-0.9" = _FUe4RRfn;
         "pkg-26.1.2-0.3" = _MvlKBnCY;
         "pkg-26.2-0.4" = _hQmVxe0x;
-        "default" = _MvlKBnCY;
+        "pkg-26.3-0.1" = _bPWyCy3c;
+        "default" = _bPWyCy3c;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "only-excavators";

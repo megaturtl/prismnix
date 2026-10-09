@@ -71,6 +71,11 @@ let
             "file" = "friends-and-foes-patch-4.0.26-0+26.2.jar";
             "hash" = "sha512-Kf6Ej6Vrg3/7uXbbeYyqS1tHDk+04LWGfXml/h6F7BatXy4j25eztJ/PTFa7atZ9wGndY64R+xONOTDLpC0I8g==";
         };
+        _hHx5E9AQ = {
+            "id" = "hHx5E9AQ";
+            "file" = "friends-and-foes-patch-5.0.1-0+26.3.jar";
+            "hash" = "sha512-/KjZdzO0XnGzZ11SgC/KLc6cmsB1AXhZEpAmFyPrm0SomQfzXi0gaJ9fGbugyVhMsvcVyPza8Xs7jw0YzCo+Cw==";
+        };
     in {
         "61rZxeMv" = _61rZxeMv;
         "dDahZhRL" = _dDahZhRL;
@@ -86,6 +91,7 @@ let
         "cMYySzHQ" = _cMYySzHQ;
         "RWUKVifE" = _RWUKVifE;
         "y8QEg0TR" = _y8QEg0TR;
+        "hHx5E9AQ" = _hHx5E9AQ;
         "fabric-1.21.6" = _GpFZKJus;
         "fabric-1.21.7" = _GpFZKJus;
         "fabric-1.21.8" = _zDHm4zAi;
@@ -96,6 +102,7 @@ let
         "fabric-26.1.1" = _RWUKVifE;
         "fabric-26.1.2" = _RWUKVifE;
         "fabric-26.2" = _y8QEg0TR;
+        "fabric-26.3" = _hHx5E9AQ;
         "quilt-1.21.6" = _GpFZKJus;
         "quilt-1.21.7" = _GpFZKJus;
         "quilt-1.21.8" = _zDHm4zAi;
@@ -106,6 +113,7 @@ let
         "quilt-26.1.1" = _RWUKVifE;
         "quilt-26.1.2" = _RWUKVifE;
         "quilt-26.2" = _y8QEg0TR;
+        "quilt-26.3" = _hHx5E9AQ;
         "pkg-4.0.7-0+1.21.6" = _61rZxeMv;
         "pkg-4.0.7-1+1.21.6" = _dDahZhRL;
         "pkg-4.0.7-2+1.21.6" = _yOM2CFLv;
@@ -120,7 +128,8 @@ let
         "pkg-4.0.19-0+1.21.11" = _cMYySzHQ;
         "pkg-4.0.25-0+26.1.2" = _RWUKVifE;
         "pkg-4.0.26-0+26.2" = _y8QEg0TR;
-        "default" = _y8QEg0TR;
+        "pkg-5.0.1-0+26.3" = _hHx5E9AQ;
+        "default" = _hHx5E9AQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "friends-and-foes-polymer";

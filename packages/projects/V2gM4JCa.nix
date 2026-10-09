@@ -271,6 +271,11 @@ let
             "file" = "金合欢的masa全家桶翻译_1.21+.zip";
             "hash" = "sha512-PyQGfLeeq6mgSwwoxlsF4SEkdrwib8+5HqVriOZEqjzDRh2VoZESN5+cVHrIyC5jq2fyHv4OUwmFal+KnsfUyA==";
         };
+        _PLXbRTCW = {
+            "id" = "PLXbRTCW";
+            "file" = "金合欢的masa全家桶翻译_1.21+.zip";
+            "hash" = "sha512-nRgQVnCFxFIzgf3IjUmRoFQEFv7Gizs+It86VVAGfurzTqH5LLr6aIl4JBBYpJ5TUTZc2S8icGVu2pc8QaTZlw==";
+        };
     in {
         "zDaZ4iw2" = _zDaZ4iw2;
         "UJ09b1Sn" = _UJ09b1Sn;
@@ -326,22 +331,24 @@ let
         "RkAaqUrc" = _RkAaqUrc;
         "UPZwUCMK" = _UPZwUCMK;
         "eF10uaDB" = _eF10uaDB;
-        "minecraft-1.21" = _eF10uaDB;
-        "minecraft-1.21.1" = _eF10uaDB;
-        "minecraft-1.21.2" = _eF10uaDB;
-        "minecraft-1.21.3" = _eF10uaDB;
-        "minecraft-1.21.4" = _eF10uaDB;
-        "minecraft-1.21.5" = _eF10uaDB;
-        "minecraft-1.21.6" = _eF10uaDB;
-        "minecraft-1.21.7" = _eF10uaDB;
-        "minecraft-1.21.8" = _eF10uaDB;
-        "minecraft-1.21.9" = _eF10uaDB;
-        "minecraft-1.21.10" = _eF10uaDB;
-        "minecraft-1.21.11" = _eF10uaDB;
-        "minecraft-26.1" = _eF10uaDB;
-        "minecraft-26.1.1" = _eF10uaDB;
-        "minecraft-26.1.2" = _eF10uaDB;
-        "minecraft-26.2" = _eF10uaDB;
+        "PLXbRTCW" = _PLXbRTCW;
+        "minecraft-1.21" = _PLXbRTCW;
+        "minecraft-1.21.1" = _PLXbRTCW;
+        "minecraft-1.21.2" = _PLXbRTCW;
+        "minecraft-1.21.3" = _PLXbRTCW;
+        "minecraft-1.21.4" = _PLXbRTCW;
+        "minecraft-1.21.5" = _PLXbRTCW;
+        "minecraft-1.21.6" = _PLXbRTCW;
+        "minecraft-1.21.7" = _PLXbRTCW;
+        "minecraft-1.21.8" = _PLXbRTCW;
+        "minecraft-1.21.9" = _PLXbRTCW;
+        "minecraft-1.21.10" = _PLXbRTCW;
+        "minecraft-1.21.11" = _PLXbRTCW;
+        "minecraft-26.1" = _PLXbRTCW;
+        "minecraft-26.1.1" = _PLXbRTCW;
+        "minecraft-26.1.2" = _PLXbRTCW;
+        "minecraft-26.2" = _PLXbRTCW;
+        "minecraft-26.3" = _PLXbRTCW;
         "pkg-v1" = _zDaZ4iw2;
         "pkg-v2" = _UJ09b1Sn;
         "pkg-v3" = _PHBo1iDG;
@@ -396,7 +403,8 @@ let
         "pkg-v52" = _RkAaqUrc;
         "pkg-v53" = _UPZwUCMK;
         "pkg-v54" = _eF10uaDB;
-        "default" = _eF10uaDB;
+        "pkg-v55" = _PLXbRTCW;
+        "default" = _PLXbRTCW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "masa-mod-translation";

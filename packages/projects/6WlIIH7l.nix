@@ -51,6 +51,16 @@ let
             "file" = "true-shot-enchantment-v1.0.3.jar";
             "hash" = "sha512-FYPZgrTFgfFV80/fcbZKnRHwcdoNQ1N1dL5kQBN/SHs+3BZcbvt0so3r3NvmhXL4X/YsVK0DknmZSqzsZjOJFg==";
         };
+        _lpfCRGLP = {
+            "id" = "lpfCRGLP";
+            "file" = "True Shot Enchantment v1.0.3 [26.3].zip";
+            "hash" = "sha512-WCH/wjX9gXOzisi9mSu5kQj+PvImBjfAora8NQqoSe+QFAdwUbIjzF73ZmfKUyvreUa8JTFt/TJt+/jWez1PFg==";
+        };
+        _co62Zb6y = {
+            "id" = "co62Zb6y";
+            "file" = "true-shot-enchantment-1.0.3.jar";
+            "hash" = "sha512-Bw1tQWLjjIyA6f1C0F/rQ08rdxii66GyRVtH36ebVW3Es8gXD7aUyGWJdGyePvoJmjd5+64h62BQjg/Cx1V+kw==";
+        };
     in {
         "g8t4s3HF" = _g8t4s3HF;
         "zA7HW2DD" = _zA7HW2DD;
@@ -62,6 +72,8 @@ let
         "DO90PQKq" = _DO90PQKq;
         "bZ6MVvWJ" = _bZ6MVvWJ;
         "O1EuA7KX" = _O1EuA7KX;
+        "lpfCRGLP" = _lpfCRGLP;
+        "co62Zb6y" = _co62Zb6y;
         "datapack-1.21" = _bZ6MVvWJ;
         "datapack-1.21.1" = _bZ6MVvWJ;
         "datapack-1.21.2" = _bZ6MVvWJ;
@@ -78,6 +90,7 @@ let
         "datapack-26.1.1" = _bZ6MVvWJ;
         "datapack-26.1.2" = _bZ6MVvWJ;
         "datapack-26.2" = _bZ6MVvWJ;
+        "datapack-26.3" = _lpfCRGLP;
         "fabric-1.21" = _O1EuA7KX;
         "fabric-1.21.1" = _O1EuA7KX;
         "fabric-1.21.2" = _O1EuA7KX;
@@ -94,6 +107,7 @@ let
         "fabric-26.1.1" = _O1EuA7KX;
         "fabric-26.1.2" = _O1EuA7KX;
         "fabric-26.2" = _O1EuA7KX;
+        "fabric-26.3" = _co62Zb6y;
         "forge-1.21" = _O1EuA7KX;
         "forge-1.21.1" = _O1EuA7KX;
         "forge-1.21.2" = _O1EuA7KX;
@@ -110,6 +124,7 @@ let
         "forge-26.1.1" = _O1EuA7KX;
         "forge-26.1.2" = _O1EuA7KX;
         "forge-26.2" = _O1EuA7KX;
+        "forge-26.3" = _co62Zb6y;
         "neoforge-1.21" = _O1EuA7KX;
         "neoforge-1.21.1" = _O1EuA7KX;
         "neoforge-1.21.2" = _O1EuA7KX;
@@ -126,6 +141,7 @@ let
         "neoforge-26.1.1" = _O1EuA7KX;
         "neoforge-26.1.2" = _O1EuA7KX;
         "neoforge-26.2" = _O1EuA7KX;
+        "neoforge-26.3" = _co62Zb6y;
         "quilt-1.21" = _O1EuA7KX;
         "quilt-1.21.1" = _O1EuA7KX;
         "quilt-1.21.2" = _O1EuA7KX;
@@ -142,6 +158,7 @@ let
         "quilt-26.1.1" = _O1EuA7KX;
         "quilt-26.1.2" = _O1EuA7KX;
         "quilt-26.2" = _O1EuA7KX;
+        "quilt-26.3" = _co62Zb6y;
         "pkg-v1.0.0" = _g8t4s3HF;
         "pkg-v1.0.0+mod" = _zA7HW2DD;
         "pkg-v1.0.1" = _RjxShJEi;
@@ -150,7 +167,9 @@ let
         "pkg-v1.0.2+mod" = _XwQr264J;
         "pkg-v1.0.3" = _bZ6MVvWJ;
         "pkg-v1.0.3+mod" = _O1EuA7KX;
-        "default" = _O1EuA7KX;
+        "pkg-1.0.3" = _lpfCRGLP;
+        "pkg-1.0.3+mod" = _co62Zb6y;
+        "default" = _co62Zb6y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "true-shot-enchantment";

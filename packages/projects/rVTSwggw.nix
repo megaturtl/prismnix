@@ -81,6 +81,21 @@ let
             "file" = "classicandsimplestatusbars-Forge-1.1.jar";
             "hash" = "sha512-Wqi8nqg9WhK1jdeg9d966xOxu4XUxFyQcemF0l5BN/W4H9aUbUQpxm5ogcIV2jjUGeecwAgCm4MphV4BipVkKA==";
         };
+        _4pBIRfpL = {
+            "id" = "4pBIRfpL";
+            "file" = "classicandsimplestatusbars-Forge-26.09.30.2.jar";
+            "hash" = "sha512-84pEzZ1itCM8VjFz11V2QzHbxnl4VY3vGwp4Xu+WbV4HdRpB/cLMhoY/YTXav5D1WuBf7QsMzfn3OKQO4vMPBg==";
+        };
+        _QewmaZik = {
+            "id" = "QewmaZik";
+            "file" = "classicandsimplestatusbars-NeoForge-26.10.03.1.jar";
+            "hash" = "sha512-nhTSmVtbfyZTjLNjp+LFlyvTKrhq0bjl7w7lpv5gzs8IvRrXtF6bCxVzPF8/8wxjqWjTsSiAXl9hufFc1y9bvg==";
+        };
+        _bYYfEWvi = {
+            "id" = "bYYfEWvi";
+            "file" = "classicandsimplestatusbars-Forge-26.10.04.1.jar";
+            "hash" = "sha512-u8FJ4oIq+NPbzPBo8U5cTzyOMwlUGdDhI0agOgI7IMEXuiUngkQa+7W19RSQxLxvBXhH7PyQ+G7AzJQfqv0L3Q==";
+        };
     in {
         "OQPr1F5v" = _OQPr1F5v;
         "owCCUb06" = _owCCUb06;
@@ -98,10 +113,14 @@ let
         "erSqWKqP" = _erSqWKqP;
         "6CugI4cs" = _6CugI4cs;
         "CO33qNoa" = _CO33qNoa;
-        "forge-1.20" = _CO33qNoa;
-        "forge-1.20.1" = _CO33qNoa;
-        "neoforge-1.20" = _CO33qNoa;
-        "neoforge-1.20.1" = _CO33qNoa;
+        "4pBIRfpL" = _4pBIRfpL;
+        "QewmaZik" = _QewmaZik;
+        "bYYfEWvi" = _bYYfEWvi;
+        "forge-1.20" = _bYYfEWvi;
+        "forge-1.20.1" = _bYYfEWvi;
+        "neoforge-1.20" = _bYYfEWvi;
+        "neoforge-1.20.1" = _bYYfEWvi;
+        "neoforge-1.21.1" = _QewmaZik;
         "fabric-1.20.1" = _qHBkbMUu;
         "fabric-1.20" = _qHBkbMUu;
         "fabric-1.20.2" = _qHBkbMUu;
@@ -117,7 +136,10 @@ let
         "pkg-1.0.12" = _erSqWKqP;
         "pkg-1.0.13" = _6CugI4cs;
         "pkg-1.1" = _CO33qNoa;
-        "default" = _CO33qNoa;
+        "pkg-26.09.30.2" = _4pBIRfpL;
+        "pkg-26.10.03.1" = _QewmaZik;
+        "pkg-26.10.04.1" = _bYYfEWvi;
+        "default" = _bYYfEWvi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cssb";

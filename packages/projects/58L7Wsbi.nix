@@ -76,6 +76,11 @@ let
             "file" = "golden_dandelion-1.0.6.1.jar";
             "hash" = "sha512-Mhscrt8lhTmcuG5l+difo3y6pGdOTgeoHi/0ioMj6lpF/6Zt6GF/5NWVJbMS4Peky0oSjpS0+B0Inopo+E13wg==";
         };
+        _5I5Py1BT = {
+            "id" = "5I5Py1BT";
+            "file" = "GoldenDandelionBackport-1.12.2-1.0.6.3.jar";
+            "hash" = "sha512-v+PkhQd5fRAS+ctzxgpBO8/u8XmrcM7Acaji7eEHKEg83IRff/CEfYPR6S6/Idznfmd+3+6QwoXJsAOtRUSvKw==";
+        };
     in {
         "IDYjMSkS" = _IDYjMSkS;
         "wsoCnKtb" = _wsoCnKtb;
@@ -92,6 +97,7 @@ let
         "n8G0MlKB" = _n8G0MlKB;
         "AcTdcxYc" = _AcTdcxYc;
         "MJb8ABfl" = _MJb8ABfl;
+        "5I5Py1BT" = _5I5Py1BT;
         "forge-1.14" = _IDYjMSkS;
         "forge-1.14.1" = _IDYjMSkS;
         "forge-1.14.2" = _IDYjMSkS;
@@ -104,7 +110,7 @@ let
         "forge-1.16.5" = _3XTMA5Hi;
         "forge-1.12" = _AcTdcxYc;
         "forge-1.12.1" = _AcTdcxYc;
-        "forge-1.12.2" = _MJb8ABfl;
+        "forge-1.12.2" = _5I5Py1BT;
         "neoforge-1.21.8" = _iOhPHNAI;
         "neoforge-1.21.9" = _iOhPHNAI;
         "neoforge-1.21.10" = _iOhPHNAI;
@@ -143,7 +149,8 @@ let
         "pkg-1.12.2-1.0.6.0" = _n8G0MlKB;
         "pkg-1.12.2-1.0.6.1" = _AcTdcxYc;
         "pkg-1.12.2-1.0.6.2" = _MJb8ABfl;
-        "default" = _MJb8ABfl;
+        "pkg-1.0.6.3" = _5I5Py1BT;
+        "default" = _5I5Py1BT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "golden-dandelion-port";

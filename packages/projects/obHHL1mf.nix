@@ -41,6 +41,11 @@ let
             "file" = "themurk-1.0.2+1.20.1.jar";
             "hash" = "sha512-WDO0Uc/1VyvFSuqQVB8ftwIT4S9/O7z1hPRJZg2cSPKJ9cGZo5mldzw1E0ps10UYVd6OeIo2G+cWvprrwmjYHg==";
         };
+        _qi1Kv7rX = {
+            "id" = "qi1Kv7rX";
+            "file" = "themurk-1.0.2+26.3.jar";
+            "hash" = "sha512-/LVx/EWsqqu4bk8+0gcDyJj106mNT29quAWOyEOP/71TLx4Q0hHpSkJf7Pm7C4as1XPDiO0vV8hdqAlaG7eeqA==";
+        };
     in {
         "TiKZVXFN" = _TiKZVXFN;
         "cYpUHdOf" = _cYpUHdOf;
@@ -50,12 +55,14 @@ let
         "qY9th6KI" = _qY9th6KI;
         "aQJRhWD8" = _aQJRhWD8;
         "WW2oHsGA" = _WW2oHsGA;
+        "qi1Kv7rX" = _qi1Kv7rX;
         "fabric-1.20.1" = _WW2oHsGA;
         "fabric-1.21.1" = _7crpFl9k;
         "fabric-1.21.4" = _DxWswhIW;
         "fabric-1.21.6" = _6NrybTHt;
         "fabric-1.21.11" = _qY9th6KI;
         "fabric-26.2" = _aQJRhWD8;
+        "fabric-26.3" = _qi1Kv7rX;
         "pkg-1.0.0" = _TiKZVXFN;
         "pkg-1.0.1" = _cYpUHdOf;
         "pkg-1.0.2+1.21.1" = _7crpFl9k;
@@ -64,7 +71,8 @@ let
         "pkg-1.0.2+1.21.11" = _qY9th6KI;
         "pkg-1.0.2+26.2" = _aQJRhWD8;
         "pkg-1.0.2+1.20.1" = _WW2oHsGA;
-        "default" = _WW2oHsGA;
+        "pkg-1.0.2+26.3" = _qi1Kv7rX;
+        "default" = _qi1Kv7rX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "murk";

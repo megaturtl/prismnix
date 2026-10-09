@@ -405,6 +405,7 @@ let
         "fabric-26.3-snapshot-1" = _PhZNivvB;
         "fabric-26.3-snapshot-2" = _8wTLhEo5;
         "fabric-26.3" = _m6rtt4IW;
+        "fabric-26.4-snapshot-1" = _m6rtt4IW;
         "pkg-2.0.1" = _K03a6DRh;
         "pkg-2.0.2" = _Hym2nSiE;
         "pkg-2.0.3" = _pp9RKU72;

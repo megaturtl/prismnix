@@ -46,6 +46,11 @@ let
             "file" = "enchantment-shifter-1.2-mc26.2.jar";
             "hash" = "sha512-WZudbtYr2WzmKifa1rObWoE3b30urbdlURVTgiJt4IeNvvlCD062GYapLXrjPXEIrDynjem735jFtvtF45Metg==";
         };
+        _vE41ahYE = {
+            "id" = "vE41ahYE";
+            "file" = "enchantment-shifter-1.2(26.3).jar";
+            "hash" = "sha512-pHdNnTXo4xAlmrNKutEW4XFN2oSzlhSmJFNYLzJrKoGx5sT9DYQ8xVubrnxr/x/gqMYyvaKKjl3CDh2UQuI2yQ==";
+        };
     in {
         "pLTlTEaA" = _pLTlTEaA;
         "GrdX99GE" = _GrdX99GE;
@@ -56,6 +61,7 @@ let
         "n4RVmS1z" = _n4RVmS1z;
         "G6GaxrpC" = _G6GaxrpC;
         "T2D0ihuW" = _T2D0ihuW;
+        "vE41ahYE" = _vE41ahYE;
         "fabric-1.20" = _pLTlTEaA;
         "fabric-1.20.1" = _pLTlTEaA;
         "fabric-1.20.2" = _pLTlTEaA;
@@ -77,9 +83,10 @@ let
         "fabric-26.1.1" = _G6GaxrpC;
         "fabric-26.1.2" = _G6GaxrpC;
         "fabric-26.2" = _T2D0ihuW;
+        "fabric-26.3" = _vE41ahYE;
         "pkg-1.0.0" = _vyXPhHnv;
-        "pkg-1.2" = _T2D0ihuW;
-        "default" = _T2D0ihuW;
+        "pkg-1.2" = _vE41ahYE;
+        "default" = _vE41ahYE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchantment-shifter";

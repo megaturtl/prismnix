@@ -21,11 +21,17 @@ let
             "file" = "PurpurBars-2.0-SNAPSHOT.jar";
             "hash" = "sha512-7l3vRAik591/Xc4Tg8a9t1WDYRtwXMLrDAf1VrP8BKoRB/xicWG46SoGi2J+sm80617MTDm54RxJLq6DRx/SWA==";
         };
+        _gKGmzDgR = {
+            "id" = "gKGmzDgR";
+            "file" = "PurpurBars-3.0-SNAPSHOT.jar";
+            "hash" = "sha512-OuNpJcNO0NbKaLuhA7bB5B8m1Hykt6XF01AMwjdW1axUt32xqNOsdOYYCLdaTYfgDZC9axK3e0vFBqVTcjWzdQ==";
+        };
     in {
         "e5h6Qr76" = _e5h6Qr76;
         "x1lng0cF" = _x1lng0cF;
         "SMN3FOW8" = _SMN3FOW8;
         "klPo1s3H" = _klPo1s3H;
+        "gKGmzDgR" = _gKGmzDgR;
         "paper-1.19.4" = _klPo1s3H;
         "paper-1.20" = _klPo1s3H;
         "paper-1.20.1" = _klPo1s3H;
@@ -49,16 +55,24 @@ let
         "paper-1.21.8" = _klPo1s3H;
         "paper-1.21.9" = _klPo1s3H;
         "paper-1.21.10" = _klPo1s3H;
-        "paper-1.21.11" = _klPo1s3H;
-        "paper-26.1" = _klPo1s3H;
-        "paper-26.1.1" = _klPo1s3H;
-        "paper-26.1.2" = _klPo1s3H;
-        "paper-26.2" = _klPo1s3H;
+        "paper-1.21.11" = _gKGmzDgR;
+        "paper-26.1" = _gKGmzDgR;
+        "paper-26.1.1" = _gKGmzDgR;
+        "paper-26.1.2" = _gKGmzDgR;
+        "paper-26.2" = _gKGmzDgR;
+        "paper-26.3" = _gKGmzDgR;
+        "folia-1.21.11" = _gKGmzDgR;
+        "folia-26.1" = _gKGmzDgR;
+        "folia-26.1.1" = _gKGmzDgR;
+        "folia-26.1.2" = _gKGmzDgR;
+        "folia-26.2" = _gKGmzDgR;
+        "folia-26.3" = _gKGmzDgR;
         "pkg-1.0-SNAPSHOT" = _e5h6Qr76;
         "pkg-1.1-SNAPSHOT" = _x1lng0cF;
         "pkg-1.2-SNAPSHOT" = _SMN3FOW8;
         "pkg-2.0-SNAPSHOT" = _klPo1s3H;
-        "default" = _klPo1s3H;
+        "pkg-3.0-SNAPSHOT" = _gKGmzDgR;
+        "default" = _gKGmzDgR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "purpur-bars";

@@ -2641,6 +2641,21 @@ let
             "file" = "foodtxf-26.2-1.8.8-neoforge.jar";
             "hash" = "sha512-HUdCDYgNrbtSl7FiVkkXw6BUIrdEiWqshgcVogwQ2vPsiOfUxV0+lz5Jnh5yiBQgjT8Xe9rhM6TqBaOoxj1wZA==";
         };
+        _40oeZSGm = {
+            "id" = "40oeZSGm";
+            "file" = "foodtxf-26.3-1.8.8-fabric.jar";
+            "hash" = "sha512-UL7FukGc0EUNWhSVQxmGI4IPOUkVLlenoz90qsirR6C4W8/hjWCCDVg9eq1bApgrN5lVN8cLZcnoxfIKdZdAwQ==";
+        };
+        _TZtIkTPU = {
+            "id" = "TZtIkTPU";
+            "file" = "foodtxf-26.3-1.8.8-neoforge.jar";
+            "hash" = "sha512-vibHHHLtGFX+IbeadgtSVKOhLPMe1nJrw6k5im1lKl1B1UJvGdCOUWqZgGKpLs3937md5h29kzHdl7LAbpU6uw==";
+        };
+        _HAo2QJpJ = {
+            "id" = "HAo2QJpJ";
+            "file" = "foodtxf-26.3-1.8.8-forge.jar";
+            "hash" = "sha512-qelcKwzQoghlUypsfEuJicS74Mqre0jNxZAbPsz+HpVZnHG4p9qPLOy/NVPa7O/TCxbAQbYEvm4Onk/ZjKXzFA==";
+        };
     in {
         "GsDWV8jd" = _GsDWV8jd;
         "ZZ1VycwC" = _ZZ1VycwC;
@@ -3170,6 +3185,9 @@ let
         "784t6m85" = _784t6m85;
         "X0HRhMze" = _X0HRhMze;
         "uT2qrry7" = _uT2qrry7;
+        "40oeZSGm" = _40oeZSGm;
+        "TZtIkTPU" = _TZtIkTPU;
+        "HAo2QJpJ" = _HAo2QJpJ;
         "forge-1.17.1" = _Un5uijvV;
         "forge-1.16.5" = _ihoQ9gXS;
         "forge-1.18.2" = _wLQWPZ6q;
@@ -3200,6 +3218,7 @@ let
         "forge-26.1.2" = _MskU0BBq;
         "forge-1.21.11" = _xCulxiou;
         "forge-26.2" = _X0HRhMze;
+        "forge-26.3" = _HAo2QJpJ;
         "neoforge-1.20" = _wsEa45ds;
         "neoforge-1.20.1" = _wsEa45ds;
         "neoforge-1.20.2" = _WGjShbDs;
@@ -3222,6 +3241,7 @@ let
         "neoforge-26.1.2" = _Bxp1x7Ga;
         "neoforge-1.21.11" = _fmezeYzT;
         "neoforge-26.2" = _uT2qrry7;
+        "neoforge-26.3" = _TZtIkTPU;
         "fabric-1.19" = _Tdo9w01U;
         "fabric-1.19.1" = _Tdo9w01U;
         "fabric-1.19.2" = _Tdo9w01U;
@@ -3251,6 +3271,7 @@ let
         "fabric-26.1.1" = _aSnfbwW3;
         "fabric-26.1.2" = _aSnfbwW3;
         "fabric-26.2" = _784t6m85;
+        "fabric-26.3" = _40oeZSGm;
         "quilt-1.19" = _Tdo9w01U;
         "quilt-1.19.1" = _Tdo9w01U;
         "quilt-1.19.2" = _Tdo9w01U;
@@ -3280,6 +3301,7 @@ let
         "quilt-26.1.1" = _aSnfbwW3;
         "quilt-26.1.2" = _aSnfbwW3;
         "quilt-26.2" = _784t6m85;
+        "quilt-26.3" = _40oeZSGm;
         "pkg-1.17.1-1.3.6" = _GsDWV8jd;
         "pkg-1.16.5-1.4.2" = _ZZ1VycwC;
         "pkg-1.18.2-1.4.4-forge" = _rLdOKLtd;
@@ -3808,7 +3830,10 @@ let
         "pkg-26.2-1.8.8-fabric" = _784t6m85;
         "pkg-26.2-1.8.8-forge" = _X0HRhMze;
         "pkg-26.2-1.8.8-neoforge" = _uT2qrry7;
-        "default" = _uT2qrry7;
+        "pkg-26.3-1.8.8-fabric" = _40oeZSGm;
+        "pkg-26.3-1.8.8-neoforge" = _TZtIkTPU;
+        "pkg-26.3-1.8.8-forge" = _HAo2QJpJ;
+        "default" = _HAo2QJpJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "food-txf";

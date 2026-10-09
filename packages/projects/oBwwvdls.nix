@@ -16,18 +16,26 @@ let
             "file" = "CompassCoords-1.6.0-mc1.20.jar";
             "hash" = "sha512-QfglZgzvjn2cYdgxGpDsyckdjsb/Vz0jwA54m6ZtAPFzza4aL2sTnh0F2VxYkUQdXN9Vu5V2/le/jPFP6KcVfQ==";
         };
+        _MFWIIMVF = {
+            "id" = "MFWIIMVF";
+            "file" = "compasscoords-2.0.0.0.jar";
+            "hash" = "sha512-AJLy9W7thfn4kI+pyfy0xt2WTfpnP5OB9yoh5L85l83WHQQIbRlS01cnSkX5YrkRDqZ+qEJkn5traIyx3/qTuA==";
+        };
     in {
         "GY3EwZgK" = _GY3EwZgK;
         "vTUWy6o9" = _vTUWy6o9;
         "8eMhg5YL" = _8eMhg5YL;
+        "MFWIIMVF" = _MFWIIMVF;
         "forge-1.18.2" = _GY3EwZgK;
         "forge-1.19.2" = _vTUWy6o9;
         "forge-1.19.4" = _vTUWy6o9;
         "forge-1.20.1" = _8eMhg5YL;
+        "neoforge-1.21.1" = _MFWIIMVF;
         "pkg-1.4.0" = _GY3EwZgK;
         "pkg-1.5.0" = _vTUWy6o9;
         "pkg-1.6.0" = _8eMhg5YL;
-        "default" = _8eMhg5YL;
+        "pkg-2.0.0.0" = _MFWIIMVF;
+        "default" = _MFWIIMVF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "compass-coords";

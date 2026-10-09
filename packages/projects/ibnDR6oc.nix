@@ -226,6 +226,16 @@ let
             "file" = "qraftyfied-12.0.0.jar";
             "hash" = "sha512-rujulNmBcBie97VDEvmT6lvr9jeZufOWfXEt63il0/V0qmtjZaND+mowwRqkcUCYmLeq/hrHr6rlsF/4191e3Q==";
         };
+        _9HZg5dVu = {
+            "id" = "9HZg5dVu";
+            "file" = "v13qraftyfied-1.zip";
+            "hash" = "sha512-kLMqLShcO0SJf4ZC2ZsGrW6VgmoX7R8pGbm0R2OmD/Ykyjv06gb2NiBcXjpMIY1frZYyQijJpyV4IwOQ2gFjOA==";
+        };
+        _cpRes8NL = {
+            "id" = "cpRes8NL";
+            "file" = "qraftyfied-13.0.0-26.3.jar";
+            "hash" = "sha512-vDEbeiNVzRleOlxvW/37OHJ1foFLrpyNungDBtq1OtmTMtrVX5NBEzqiFGtinVuieA8Xyj5cK3RnoruJlmuw1Q==";
+        };
     in {
         "JC8hIOU0" = _JC8hIOU0;
         "NE5zMRoE" = _NE5zMRoE;
@@ -272,6 +282,8 @@ let
         "pjmQ2rVP" = _pjmQ2rVP;
         "AsmokbIw" = _AsmokbIw;
         "JWktWBsT" = _JWktWBsT;
+        "9HZg5dVu" = _9HZg5dVu;
+        "cpRes8NL" = _cpRes8NL;
         "datapack-1.19" = _JC8hIOU0;
         "datapack-1.19.1" = _JC8hIOU0;
         "datapack-1.19.2" = _JC8hIOU0;
@@ -297,6 +309,7 @@ let
         "datapack-1.21.10" = _O95ZlKJH;
         "datapack-1.21.11" = _HdUw53Yk;
         "datapack-26.2" = _AsmokbIw;
+        "datapack-26.3" = _9HZg5dVu;
         "fabric-1.20" = _rwUF19Pe;
         "fabric-1.20.1" = _rwUF19Pe;
         "fabric-1.20.2" = _rwUF19Pe;
@@ -317,6 +330,7 @@ let
         "fabric-1.21.10" = _sAIMT47F;
         "fabric-1.21.11" = _pjmQ2rVP;
         "fabric-26.2" = _JWktWBsT;
+        "fabric-26.3" = _cpRes8NL;
         "forge-1.20" = _rwUF19Pe;
         "forge-1.20.1" = _rwUF19Pe;
         "forge-1.20.2" = _rwUF19Pe;
@@ -337,6 +351,7 @@ let
         "forge-1.21.10" = _sAIMT47F;
         "forge-1.21.11" = _pjmQ2rVP;
         "forge-26.2" = _JWktWBsT;
+        "forge-26.3" = _cpRes8NL;
         "quilt-1.20" = _rwUF19Pe;
         "quilt-1.20.1" = _rwUF19Pe;
         "quilt-1.20.2" = _rwUF19Pe;
@@ -357,6 +372,7 @@ let
         "quilt-1.21.10" = _sAIMT47F;
         "quilt-1.21.11" = _pjmQ2rVP;
         "quilt-26.2" = _JWktWBsT;
+        "quilt-26.3" = _cpRes8NL;
         "neoforge-1.21" = _Jsozd95o;
         "neoforge-1.21.1" = _Jsozd95o;
         "neoforge-1.21.2" = _8DRVaR4j;
@@ -370,6 +386,7 @@ let
         "neoforge-1.21.10" = _sAIMT47F;
         "neoforge-1.21.11" = _pjmQ2rVP;
         "neoforge-26.2" = _JWktWBsT;
+        "neoforge-26.3" = _cpRes8NL;
         "pkg-v5" = _JC8hIOU0;
         "pkg-6" = _xNDiGY6k;
         "pkg-6+mod" = _bVfsE6u9;
@@ -413,7 +430,9 @@ let
         "pkg-11.0.0+mod" = _pjmQ2rVP;
         "pkg-12.0.0" = _AsmokbIw;
         "pkg-12.0.0+mod" = _JWktWBsT;
-        "default" = _JWktWBsT;
+        "pkg-13.0.0-26.3" = _9HZg5dVu;
+        "pkg-13.0.0-26.3+mod" = _cpRes8NL;
+        "default" = _cpRes8NL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "qraftyfied";

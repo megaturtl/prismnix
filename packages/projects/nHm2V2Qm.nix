@@ -186,6 +186,16 @@ let
             "file" = "Cyberpunk_2077_Guns_Pack_1.19.zip";
             "hash" = "sha512-eurnFQCot7gBOUjIp92SXqB3luP+vo3NRSByE6a63FznI2zu0/7II7RBLHgHQcSpV4N3l5sLFAct2BlMN2BK5w==";
         };
+        _SUUsaujW = {
+            "id" = "SUUsaujW";
+            "file" = "Cyberpunk_2077_Guns_Pack_1.20.zip";
+            "hash" = "sha512-OQpgSS7Oz6th8vP+ZJ0yXW7QmdgY3MzlMGL6tNLeH9cqFLNcTxxEFFRLvnlowYev7rnKkaowerk9PDLZfK25yQ==";
+        };
+        _FvJHLbRC = {
+            "id" = "FvJHLbRC";
+            "file" = "Cyberpunk_2077_Guns_Pack_1.20.1.zip";
+            "hash" = "sha512-72ly1mIrrFHQBa2VjRgMTcMdihM01uI34aeie3PQJp5wn96rRSEJ75YOgdNoXQ5iZe05ui0/DRKAU/YJRxwxcA==";
+        };
     in {
         "pJnD8IJY" = _pJnD8IJY;
         "6FXCJFny" = _6FXCJFny;
@@ -224,17 +234,24 @@ let
         "oOjdQKy1" = _oOjdQKy1;
         "1WkMJOLe" = _1WkMJOLe;
         "oUBaGF5s" = _oUBaGF5s;
-        "datapack-1.20.1" = _oUBaGF5s;
-        "datapack-1.21" = _oUBaGF5s;
-        "datapack-1.21.1" = _oUBaGF5s;
+        "SUUsaujW" = _SUUsaujW;
+        "FvJHLbRC" = _FvJHLbRC;
+        "datapack-1.20.1" = _FvJHLbRC;
+        "datapack-1.21" = _FvJHLbRC;
+        "datapack-1.21.1" = _FvJHLbRC;
         "datapack-1.20" = _oOjdQKy1;
-        "datapack-1.21.11" = _oUBaGF5s;
-        "fabric-1.21" = _CbxC7nkf;
-        "fabric-1.21.1" = _CbxC7nkf;
-        "fabric-1.20.1" = _CbxC7nkf;
-        "neoforge-1.21" = _CbxC7nkf;
-        "neoforge-1.21.1" = _CbxC7nkf;
-        "neoforge-1.20.1" = _CbxC7nkf;
+        "datapack-1.21.11" = _FvJHLbRC;
+        "datapack-26.1.2" = _FvJHLbRC;
+        "fabric-1.21" = _FvJHLbRC;
+        "fabric-1.21.1" = _FvJHLbRC;
+        "fabric-1.20.1" = _FvJHLbRC;
+        "fabric-1.21.11" = _FvJHLbRC;
+        "fabric-26.1.2" = _FvJHLbRC;
+        "neoforge-1.21" = _FvJHLbRC;
+        "neoforge-1.21.1" = _FvJHLbRC;
+        "neoforge-1.20.1" = _FvJHLbRC;
+        "neoforge-1.21.11" = _FvJHLbRC;
+        "neoforge-26.1.2" = _FvJHLbRC;
         "pkg-1.5" = _pJnD8IJY;
         "pkg-1.6" = _6FXCJFny;
         "pkg-1.6.1" = _OASq0jPD;
@@ -270,7 +287,9 @@ let
         "pkg-2b.0" = _oOjdQKy1;
         "pkg-1.18.1" = _1WkMJOLe;
         "pkg-1.19" = _oUBaGF5s;
-        "default" = _oUBaGF5s;
+        "pkg-1.20" = _SUUsaujW;
+        "pkg-1.20.1" = _FvJHLbRC;
+        "default" = _FvJHLbRC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cyberpunk-2077-guns-for-vics-point-blank";

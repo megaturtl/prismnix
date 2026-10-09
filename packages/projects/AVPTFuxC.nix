@@ -726,6 +726,16 @@ let
             "file" = "AdditionalBanners-fabric-MC26.2-26.2.0.1.jar";
             "hash" = "sha512-kb2E82z7ZfooMa+eQ6qCwOoGZd8JFiHIrKK9Aw5LZaiqd8LswAFDGxZYwsDqOMBLGYJmGOeqNmepLxTonfQfGA==";
         };
+        _HSy0z50n = {
+            "id" = "HSy0z50n";
+            "file" = "AdditionalBanners-fabric-MC26.3-26.3.0.1.jar";
+            "hash" = "sha512-flKwIRIKSmUMhb9fKrGwwA1uiZHtFg5l1qUYDg+Tnje4YTmxSAJJ8UGsijdYK11uOuSrjjvMSIQGPX8+O53rGg==";
+        };
+        _ASz3X6MP = {
+            "id" = "ASz3X6MP";
+            "file" = "AdditionalBanners-neoforge-MC26.3-26.3.0.1.jar";
+            "hash" = "sha512-/du0KMSA+6Fq1UTCkPRFCrbrTNNEeMqKNrAnpiqoJ58XtVstwneHtzbT1Fj/5D31lhgZwKdmDpUo5kv8Sbg5+Q==";
+        };
     in {
         "O7w2gz5K" = _O7w2gz5K;
         "kLSNacSp" = _kLSNacSp;
@@ -872,6 +882,8 @@ let
         "kmxXQFQg" = _kmxXQFQg;
         "DqJ7Qq18" = _DqJ7Qq18;
         "RY6IOQGD" = _RY6IOQGD;
+        "HSy0z50n" = _HSy0z50n;
+        "ASz3X6MP" = _ASz3X6MP;
         "forge-1.8" = _wzNRXice;
         "forge-1.8.1" = _wzNRXice;
         "forge-1.8.2" = _wzNRXice;
@@ -920,6 +932,7 @@ let
         "fabric-26.1.1" = _kmxXQFQg;
         "fabric-26.1.2" = _kmxXQFQg;
         "fabric-26.2" = _RY6IOQGD;
+        "fabric-26.3" = _HSy0z50n;
         "quilt-1.18.2" = _8O7YijZE;
         "quilt-1.19" = _pQzjHV3C;
         "quilt-1.19.1" = _Z4AjMGNA;
@@ -933,6 +946,7 @@ let
         "neoforge-26.1.1" = _289TQu2v;
         "neoforge-26.1.2" = _289TQu2v;
         "neoforge-26.2" = _DqJ7Qq18;
+        "neoforge-26.3" = _ASz3X6MP;
         "pkg-1.0.0_1.8.0" = _O7w2gz5K;
         "pkg-1.8.9" = _wzNRXice;
         "pkg-1.1.0.7" = _FlOQrkdb;
@@ -1030,7 +1044,8 @@ let
         "pkg-26.1.2.1" = _a3kNsDCJ;
         "pkg-26.1.2.2" = _kmxXQFQg;
         "pkg-26.2.0.1" = _RY6IOQGD;
-        "default" = _RY6IOQGD;
+        "pkg-26.3.0.1" = _ASz3X6MP;
+        "default" = _ASz3X6MP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "additional-banners";

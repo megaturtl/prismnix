@@ -31,6 +31,21 @@ let
             "file" = "opac-warfare-1.6.7.jar";
             "hash" = "sha512-/M3q6h4im0r9jNm4W3krO17szn2wLEEZVgSgx4V0SilbBxZIS1UMDI8I012ZLWhnJZfT28tMlf4l0w+U8Dnakw==";
         };
+        _oZ4osA9w = {
+            "id" = "oZ4osA9w";
+            "file" = "opac-warfare-1.6.7.1.jar";
+            "hash" = "sha512-5q0ZyjZNZo0+Vf0eynDWlPQQYJJkLizSOM0NC6MR6jz/0Gbfr/YgNo7+Jut+vj3rAiFxygJGLeaKVNReoP3C8w==";
+        };
+        _7x92ZOor = {
+            "id" = "7x92ZOor";
+            "file" = "opac-warfare-1.6.7.2.jar";
+            "hash" = "sha512-dT8Hi2PuZllTxtkTkcUEkxoPmfezanda4qe6KsrJEZMo1zU7FosbALlR/fsWT1hbuY+JBcASPIY5PhARVm8RAQ==";
+        };
+        _nYGDalpH = {
+            "id" = "nYGDalpH";
+            "file" = "opac-warfare-1.6.7.2.jar";
+            "hash" = "sha512-TyWXh2hMre2vqjqdUAreBe8V3CmWNjBtKMmBo5aSWXhAMGE/gBt89X8+pqh3EJy+zl7t2R9iH41NR7OHyY6sTw==";
+        };
     in {
         "wJ2DYPnQ" = _wJ2DYPnQ;
         "qadrgdpr" = _qadrgdpr;
@@ -38,28 +53,33 @@ let
         "ogn6rW31" = _ogn6rW31;
         "huf0vwbj" = _huf0vwbj;
         "zBsXDGsy" = _zBsXDGsy;
-        "neoforge-1.21.1" = _zBsXDGsy;
-        "neoforge-1.21.2" = _zBsXDGsy;
-        "neoforge-1.21.3" = _zBsXDGsy;
-        "neoforge-1.21.4" = _zBsXDGsy;
-        "neoforge-1.21.5" = _zBsXDGsy;
-        "neoforge-1.21.6" = _zBsXDGsy;
-        "neoforge-1.21.7" = _zBsXDGsy;
-        "neoforge-1.21.8" = _zBsXDGsy;
-        "neoforge-1.21.9" = _zBsXDGsy;
-        "neoforge-1.21.10" = _zBsXDGsy;
-        "neoforge-1.21.11" = _zBsXDGsy;
-        "neoforge-26.1" = _zBsXDGsy;
-        "neoforge-26.1.1" = _zBsXDGsy;
-        "neoforge-26.1.2" = _zBsXDGsy;
-        "neoforge-26.2" = _zBsXDGsy;
+        "oZ4osA9w" = _oZ4osA9w;
+        "7x92ZOor" = _7x92ZOor;
+        "nYGDalpH" = _nYGDalpH;
+        "neoforge-1.21.1" = _7x92ZOor;
+        "neoforge-1.21.2" = _7x92ZOor;
+        "neoforge-1.21.3" = _7x92ZOor;
+        "neoforge-1.21.4" = _7x92ZOor;
+        "neoforge-1.21.5" = _7x92ZOor;
+        "neoforge-1.21.6" = _7x92ZOor;
+        "neoforge-1.21.7" = _7x92ZOor;
+        "neoforge-1.21.8" = _7x92ZOor;
+        "neoforge-1.21.9" = _7x92ZOor;
+        "neoforge-1.21.10" = _7x92ZOor;
+        "neoforge-1.21.11" = _7x92ZOor;
+        "neoforge-26.1" = _nYGDalpH;
+        "neoforge-26.1.1" = _nYGDalpH;
+        "neoforge-26.1.2" = _nYGDalpH;
+        "neoforge-26.2" = _nYGDalpH;
         "pkg-1.6.1" = _wJ2DYPnQ;
         "pkg-1.6.2" = _qadrgdpr;
         "pkg-1.6.3" = _WfxJsEG9;
         "pkg-1.6.4" = _ogn6rW31;
         "pkg-1.6.6" = _huf0vwbj;
         "pkg-1.6.7" = _zBsXDGsy;
-        "default" = _zBsXDGsy;
+        "pkg-1.6.7.1" = _oZ4osA9w;
+        "pkg-1.6.7.2" = _nYGDalpH;
+        "default" = _nYGDalpH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "open-parties-and-claims-warfare";

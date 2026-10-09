@@ -116,6 +116,11 @@ let
             "file" = "vtps-2.8.4.2.jar";
             "hash" = "sha512-TH/0xQz6kbpINj+abqIbkuHPyswrq5ORoAmZeFFtV8l1FumFKCBAUSu2FiP1vHINQW1H38wVw2iGYYmcrVe9Ag==";
         };
+        _NLdTeV6s = {
+            "id" = "NLdTeV6s";
+            "file" = "vtps-2.8.4.3.jar";
+            "hash" = "sha512-bUoalt6WcjtYYijvgiIArnTb490ujCnPsl2k0v0+XN3ThfFe9oO5DKUGANi4JFBS+jJPaRls1+2JAtOLZRogYQ==";
+        };
     in {
         "CZm4hTy4" = _CZm4hTy4;
         "g1NPzciY" = _g1NPzciY;
@@ -140,6 +145,7 @@ let
         "nG3WpOgp" = _nG3WpOgp;
         "LMJgKpDp" = _LMJgKpDp;
         "mvJxKcKA" = _mvJxKcKA;
+        "NLdTeV6s" = _NLdTeV6s;
         "fabric-1.21.4" = _pC8U6orR;
         "fabric-1.21.5-pre2" = _Nr50f20w;
         "fabric-1.20.2" = _pC8U6orR;
@@ -319,6 +325,7 @@ let
         "fabric-1.20" = _LMJgKpDp;
         "fabric-1.20.1" = _LMJgKpDp;
         "fabric-26.2" = _mvJxKcKA;
+        "fabric-26.3" = _NLdTeV6s;
         "pkg-0.5" = _CZm4hTy4;
         "pkg-0.7.5" = _g1NPzciY;
         "pkg-1.7.8" = _Xm6crjZI;
@@ -341,7 +348,8 @@ let
         "pkg-2.8.4.1-OLD_VERSION_FIX" = _LMJgKpDp;
         "pkg-2.8.4.1" = _nG3WpOgp;
         "pkg-2.8.4.2" = _mvJxKcKA;
-        "default" = _mvJxKcKA;
+        "pkg-2.8.4.3" = _NLdTeV6s;
+        "default" = _NLdTeV6s;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vtps";

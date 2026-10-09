@@ -151,6 +151,26 @@ let
             "file" = "kaleidoscope_dim_wine-1.5.6-mc1.21.1-neoforge.jar";
             "hash" = "sha512-vszWcUrBfvZ98Av46AT+pDi9UcGoJnt7CTD7mOlnY5Pu6GpoMalOWilfii8vafjWGVr5jxtBTaXyOc26S8yNnA==";
         };
+        _KyTD8CTZ = {
+            "id" = "KyTD8CTZ";
+            "file" = "kaleidoscope_dim_wine-1.5.7-mc1.21.1-neoforge.jar";
+            "hash" = "sha512-XuQ4fxG2O/aTqfzmU+ocNw8ezjUtn3uDx/M3sRHwBSmL0pBR6VSAU2MZAJipY+CFzPx/GnDJC+L9IHgxx36niA==";
+        };
+        _JDLbCoNO = {
+            "id" = "JDLbCoNO";
+            "file" = "kaleidoscope_dim_wine-1.1.8-mc1.20.1-forge.jar";
+            "hash" = "sha512-DFgLK/6s5dqreIChx09GfRz8jaqX6v/qZ+Cg6FR2LVUE1EaLqMY8nKa7OYK1PpteyRyiIg+TFL7/bwCVbqt5jA==";
+        };
+        _3FCUxJkx = {
+            "id" = "3FCUxJkx";
+            "file" = "kaleidoscope_dim_wine-1.5.8-mc1.21.1-neoforge.jar";
+            "hash" = "sha512-ACMBwO70nE+gvwXyWDiFThTJC2hz6uJL7H8WLOme4F0Gs8yiLQf9TrarQsN22l+Q2MTUlDL53uUijcVI60lDkg==";
+        };
+        _LzsjIFzR = {
+            "id" = "LzsjIFzR";
+            "file" = "kaleidoscope_dim_wine-1.1.9-mc1.20.1-forge.jar";
+            "hash" = "sha512-oX/ZsbZbUU+KvBf9aw8F8g1a4qVTjzYXHZz28LbEhP/PF5oR2iO4LSdHYPiTRPgrEtNsnAJRzfMweDUR9bs/kQ==";
+        };
     in {
         "nmu9Pafz" = _nmu9Pafz;
         "CL7lSbwI" = _CL7lSbwI;
@@ -182,8 +202,12 @@ let
         "JsVCHXQK" = _JsVCHXQK;
         "yFZEYebv" = _yFZEYebv;
         "O10jZ2b3" = _O10jZ2b3;
-        "neoforge-1.21.1" = _O10jZ2b3;
-        "forge-1.20.1" = _yFZEYebv;
+        "KyTD8CTZ" = _KyTD8CTZ;
+        "JDLbCoNO" = _JDLbCoNO;
+        "3FCUxJkx" = _3FCUxJkx;
+        "LzsjIFzR" = _LzsjIFzR;
+        "neoforge-1.21.1" = _3FCUxJkx;
+        "forge-1.20.1" = _LzsjIFzR;
         "pkg-1.0.1-mc1.21.1-neoforge" = _nmu9Pafz;
         "pkg-1.1.0-mc1.21.1-neoforge" = _CL7lSbwI;
         "pkg-1.2.0-mc1.21.1-neoforge" = _jhvg7tL2;
@@ -214,7 +238,11 @@ let
         "pkg-1.1.6-mc1.20.1-forge" = _JsVCHXQK;
         "pkg-1.1.7-mc1.20.1-forge" = _yFZEYebv;
         "pkg-1.5.6-mc1.21.1-neoforge" = _O10jZ2b3;
-        "default" = _O10jZ2b3;
+        "pkg-1.5.7-mc1.21.1-neoforge" = _KyTD8CTZ;
+        "pkg-1.1.8-mc1.20.1-forge" = _JDLbCoNO;
+        "pkg-1.5.8-mc1.21.1-neoforge" = _3FCUxJkx;
+        "pkg-1.1.9-mc1.20.1-forge" = _LzsjIFzR;
+        "default" = _LzsjIFzR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kaleidoscopedimensions-wine";

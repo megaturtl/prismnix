@@ -61,6 +61,11 @@ let
             "file" = "netherdungeons-1.1.0-snapshot4.jar";
             "hash" = "sha512-se2Hy4kxoFpzb7PEM3f36V3JXIQKPsLLJMEByDTj79921NqLBun9mFYuENIzSgQcrZlgz3mI2OptxFlFFa2IcA==";
         };
+        _HxvXbPiT = {
+            "id" = "HxvXbPiT";
+            "file" = "netherdungeons-1.1.0-snapshot5.jar";
+            "hash" = "sha512-E4v1sYllqC6Qk6Ee3hqBwcNDdFRDm+69vw5LKOt+At6qdI1ggyYFR7WpDFjWtO60zaNo9EPDUy5C15v0QVmXlA==";
+        };
     in {
         "kez4OF2L" = _kez4OF2L;
         "aOUNgKUW" = _aOUNgKUW;
@@ -74,10 +79,12 @@ let
         "VZUdfStL" = _VZUdfStL;
         "Ej6eMXhK" = _Ej6eMXhK;
         "d2OC02xw" = _d2OC02xw;
+        "HxvXbPiT" = _HxvXbPiT;
         "forge-1.19.2" = _kez4OF2L;
         "forge-1.19.3" = _uiJSzXm3;
         "forge-1.19.4" = _6pjmGYyu;
         "forge-1.20.1" = _d2OC02xw;
+        "neoforge-1.21.1" = _HxvXbPiT;
         "pkg-1.0" = _kez4OF2L;
         "pkg-1.0.1" = _aOUNgKUW;
         "pkg-1.0.2" = _uiJSzXm3;
@@ -90,7 +97,8 @@ let
         "pkg-1.1.0-snapshot3" = _VZUdfStL;
         "pkg-1.1.0-snapshot3a" = _Ej6eMXhK;
         "pkg-1.1.0-snapshot4" = _d2OC02xw;
-        "default" = _d2OC02xw;
+        "pkg-1.1.0-snapshot5" = _HxvXbPiT;
+        "default" = _HxvXbPiT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nether-dungeons";

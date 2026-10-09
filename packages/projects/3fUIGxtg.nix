@@ -101,10 +101,35 @@ let
             "file" = "Simple Structures Caves 26.2.jar";
             "hash" = "sha512-9gVMrV2iB6ruMoUnyxPESSg1cz/ZMqKEH3ccgGWa67kSUtwehIo4dp1Vby0eKrYm6um74Yp8QoGnB01r9EusBw==";
         };
-        _klW3aToY = {
-            "id" = "klW3aToY";
-            "file" = "Simple Structures Desert 26.3.jar";
-            "hash" = "sha512-8eHn8cjO22j6kqV4R7tfYngNJHyacoI/oJ9g9cSKrA1S2/X+qCBX0pn4enZ5UuWvuVmcfGVHPO7Ggg8N1/qiBw==";
+        _ZRZ09APa = {
+            "id" = "ZRZ09APa";
+            "file" = "Simple Structures Caves 1.20.1.jar";
+            "hash" = "sha512-A8gvNbOMw/wC+OL5z0oSqs5Iw+rbgN6gnNF8/GBYKtnosBjKt3Z4pJJ+stzb1ZBnOTnEra21Kt0iYX8tmKxjgQ==";
+        };
+        _4Yzstq1S = {
+            "id" = "4Yzstq1S";
+            "file" = "Simple Structures Caves 1.21.1.jar";
+            "hash" = "sha512-9b9sfTiUgB8YXd9DmvFVZAtjFyJi2/yq+hUwFQDO79AFduZwxuNXA8YG3FMC45/gYqf2B1I17VgKvSZZmj1Spg==";
+        };
+        _NRrglCXr = {
+            "id" = "NRrglCXr";
+            "file" = "Simple Structures Caves 1.21.1x.jar";
+            "hash" = "sha512-gHHwmS+6tzTVOsdf2Xp6rA8qaB9d5Bo544TaV4E62AhG2UBLh29NkqOQYyfIko/bj+vfHM+NjJGAJQakYKupJg==";
+        };
+        _2vny5MNs = {
+            "id" = "2vny5MNs";
+            "file" = "Simple Structures Caves 26.1.jar";
+            "hash" = "sha512-RgAUDsFaE49p0ghfPX00nV9qZV8HlhOLP+4cVf0jzTTajaWyug62UR6nrcy5nF2yM0mhtKtKBOs/rF6zbuC6ug==";
+        };
+        _2GujgA8Q = {
+            "id" = "2GujgA8Q";
+            "file" = "Simple Structures Caves 26.2.jar";
+            "hash" = "sha512-ZAFk8grIOOsJB8iKBGwKZDvSVb8Df/GZflFgm2b/g9q3ZJz6UOuCgFtV4AiuAKfWUVuXyVtRXOHLiIDKDnxykA==";
+        };
+        _RaIthDjG = {
+            "id" = "RaIthDjG";
+            "file" = "Simple Structures Caves 26.3.jar";
+            "hash" = "sha512-Stex0xtNVWRmt/xhwEyZ7Wyscw82Un9Hy+B0xbmPmfBQ+nWXM8tW4IOXwWZs02Z4W/8UTBH95j7nbx9B4ae+zg==";
         };
     in {
         "l9vmLWWa" = _l9vmLWWa;
@@ -127,16 +152,21 @@ let
         "r6Zgcmwi" = _r6Zgcmwi;
         "pxPZ5a2K" = _pxPZ5a2K;
         "b65caZzc" = _b65caZzc;
-        "klW3aToY" = _klW3aToY;
+        "ZRZ09APa" = _ZRZ09APa;
+        "4Yzstq1S" = _4Yzstq1S;
+        "NRrglCXr" = _NRrglCXr;
+        "2vny5MNs" = _2vny5MNs;
+        "2GujgA8Q" = _2GujgA8Q;
+        "RaIthDjG" = _RaIthDjG;
         "fabric-1.19.2" = _l9vmLWWa;
         "fabric-1.20" = _U6qEve0D;
-        "fabric-1.20.1" = _u9csKs1h;
-        "fabric-1.21.1" = _xLa7s7cF;
-        "fabric-1.21.10" = _r6Zgcmwi;
-        "fabric-1.21.11" = _r6Zgcmwi;
-        "fabric-26.1" = _pxPZ5a2K;
-        "fabric-26.1.1" = _pxPZ5a2K;
-        "fabric-26.1.2" = _pxPZ5a2K;
+        "fabric-1.20.1" = _ZRZ09APa;
+        "fabric-1.21.1" = _4Yzstq1S;
+        "fabric-1.21.10" = _NRrglCXr;
+        "fabric-1.21.11" = _NRrglCXr;
+        "fabric-26.1" = _2vny5MNs;
+        "fabric-26.1.1" = _2vny5MNs;
+        "fabric-26.1.2" = _2vny5MNs;
         "fabric-26.2-snapshot-2" = _zui4FJBZ;
         "fabric-26.2-snapshot-3" = _zui4FJBZ;
         "fabric-26.2-snapshot-4" = _zui4FJBZ;
@@ -150,17 +180,17 @@ let
         "fabric-26.2-pre-4" = _zui4FJBZ;
         "fabric-26.2-pre-5" = _zui4FJBZ;
         "fabric-26.2-pre-6" = _zui4FJBZ;
-        "fabric-26.2" = _b65caZzc;
-        "fabric-26.3" = _klW3aToY;
+        "fabric-26.2" = _2GujgA8Q;
+        "fabric-26.3" = _RaIthDjG;
         "forge-1.19.2" = _l9vmLWWa;
         "forge-1.20" = _U6qEve0D;
-        "forge-1.20.1" = _u9csKs1h;
-        "forge-1.21.1" = _xLa7s7cF;
-        "forge-1.21.10" = _r6Zgcmwi;
-        "forge-1.21.11" = _r6Zgcmwi;
-        "forge-26.1" = _pxPZ5a2K;
-        "forge-26.1.1" = _pxPZ5a2K;
-        "forge-26.1.2" = _pxPZ5a2K;
+        "forge-1.20.1" = _ZRZ09APa;
+        "forge-1.21.1" = _4Yzstq1S;
+        "forge-1.21.10" = _NRrglCXr;
+        "forge-1.21.11" = _NRrglCXr;
+        "forge-26.1" = _2vny5MNs;
+        "forge-26.1.1" = _2vny5MNs;
+        "forge-26.1.2" = _2vny5MNs;
         "forge-26.2-snapshot-2" = _zui4FJBZ;
         "forge-26.2-snapshot-3" = _zui4FJBZ;
         "forge-26.2-snapshot-4" = _zui4FJBZ;
@@ -174,8 +204,8 @@ let
         "forge-26.2-pre-4" = _zui4FJBZ;
         "forge-26.2-pre-5" = _zui4FJBZ;
         "forge-26.2-pre-6" = _zui4FJBZ;
-        "forge-26.2" = _b65caZzc;
-        "forge-26.3" = _klW3aToY;
+        "forge-26.2" = _2GujgA8Q;
+        "forge-26.3" = _RaIthDjG;
         "datapack-1.19.2" = _VpdjullE;
         "datapack-1.20" = _FDziEY87;
         "datapack-1.20.1" = _FDziEY87;
@@ -188,10 +218,10 @@ let
         "datapack-26.1-rc-1" = _ZWzB9Tjt;
         "datapack-26.1" = _wUotjjt4;
         "datapack-26.1.1" = _wUotjjt4;
-        "neoforge-1.20.1" = _u9csKs1h;
-        "neoforge-26.1" = _pxPZ5a2K;
-        "neoforge-26.1.1" = _pxPZ5a2K;
-        "neoforge-26.1.2" = _pxPZ5a2K;
+        "neoforge-1.20.1" = _ZRZ09APa;
+        "neoforge-26.1" = _2vny5MNs;
+        "neoforge-26.1.1" = _2vny5MNs;
+        "neoforge-26.1.2" = _2vny5MNs;
         "neoforge-26.2-snapshot-2" = _zui4FJBZ;
         "neoforge-26.2-snapshot-3" = _zui4FJBZ;
         "neoforge-26.2-snapshot-4" = _zui4FJBZ;
@@ -205,18 +235,18 @@ let
         "neoforge-26.2-pre-4" = _zui4FJBZ;
         "neoforge-26.2-pre-5" = _zui4FJBZ;
         "neoforge-26.2-pre-6" = _zui4FJBZ;
-        "neoforge-26.2" = _b65caZzc;
-        "neoforge-1.21.1" = _xLa7s7cF;
-        "neoforge-1.21.10" = _r6Zgcmwi;
-        "neoforge-1.21.11" = _r6Zgcmwi;
-        "neoforge-26.3" = _klW3aToY;
-        "quilt-1.20.1" = _u9csKs1h;
+        "neoforge-26.2" = _2GujgA8Q;
+        "neoforge-1.21.1" = _4Yzstq1S;
+        "neoforge-1.21.10" = _NRrglCXr;
+        "neoforge-1.21.11" = _NRrglCXr;
+        "neoforge-26.3" = _RaIthDjG;
+        "quilt-1.20.1" = _ZRZ09APa;
         "pkg-1.0" = _ZWzB9Tjt;
         "pkg-1.0.1" = _zui4FJBZ;
         "pkg-1.1" = _PPYdQc4B;
         "pkg-1.2" = _b65caZzc;
-        "pkg-1.2.1" = _klW3aToY;
-        "default" = _klW3aToY;
+        "pkg-1.3" = _RaIthDjG;
+        "default" = _RaIthDjG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-structures-caves";

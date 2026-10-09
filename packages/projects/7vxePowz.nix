@@ -836,6 +836,41 @@ let
             "file" = "FarmersDelight-26.3-3.6.25+refabricated.jar";
             "hash" = "sha512-jO9/w02HjvsDwNaUFuIUvpVDopjza/KskJq5LTsxbPYFA+/DnHk6bsCGVUeRu9t0dA/GzAAicUOwh29wIp33Xg==";
         };
+        _WgtdZQuc = {
+            "id" = "WgtdZQuc";
+            "file" = "FarmersDelight-26.1-3.6.26+refabricated.jar";
+            "hash" = "sha512-tL3OCfSQP5VYBuKXk7g8sn82WHVIYrm/LJ65z/Q7rvgfFr/LjFXuxxufiQ1FL3IrfZo7p36gfZlBsZ2HYT8QgA==";
+        };
+        _RvMf1qzl = {
+            "id" = "RvMf1qzl";
+            "file" = "FarmersDelight-26.2-3.6.26+refabricated.jar";
+            "hash" = "sha512-hqlMNuAggdbCT0fVPhA8gOkV5QCp+SU2zq9q+RasCD5UWKSPyL/y6/tE1Em1HRoy0qfCyOPQV/mX3pkUes47xg==";
+        };
+        _y1Zetz29 = {
+            "id" = "y1Zetz29";
+            "file" = "FarmersDelight-26.3-3.6.26+refabricated.jar";
+            "hash" = "sha512-1cqeAzk6xeS+F7ymk/HuE7rLVmCjzdgbG7AKhHLU6wpQY0jKUqnjhfCAcAwFnWiEirOoCC+EZQJnwgku8vZFbQ==";
+        };
+        _hTNvMewX = {
+            "id" = "hTNvMewX";
+            "file" = "FarmersDelight-26.3-3.6.27+refabricated.jar";
+            "hash" = "sha512-18ZriD48kApVObL+yRyKgdc61DhDcVEBmEO5WFhPTEW8spWBhGBW/4N4fv6lP+DNJEEGtIVqmXnXCI7rulTaRA==";
+        };
+        _DDCRIV2Z = {
+            "id" = "DDCRIV2Z";
+            "file" = "FarmersDelight-26.1-3.6.28+refabricated.jar";
+            "hash" = "sha512-f5zlgnL3GwLc8BuwccefxH1Z5FI/tPzejDljQAb1mBTuP5ZJWH18MGUagv9TVIWMDy1XLFNd0ZW55V32vC15tw==";
+        };
+        _4j5QzcRp = {
+            "id" = "4j5QzcRp";
+            "file" = "FarmersDelight-26.2-3.6.28+refabricated.jar";
+            "hash" = "sha512-YWm5XUhpWyPHZVS/D78dyjq/79kMiyp2Wo3mvlEWy1RnS3jrWjql6lX4UPsyw7VONMO1ed8siVgO8POZuf3Fbw==";
+        };
+        _Zdr0cHIz = {
+            "id" = "Zdr0cHIz";
+            "file" = "FarmersDelight-26.3-3.6.28+refabricated.jar";
+            "hash" = "sha512-M37mt+9utLxzBFMbd9kclCunWK30euH+q19otGlHghyTLE+b5mLRiiGKnW1KjEHjHLI50InawJQQG372dHA/Yg==";
+        };
     in {
         "M8bp9Dk5" = _M8bp9Dk5;
         "J5zT5dIA" = _J5zT5dIA;
@@ -1004,6 +1039,13 @@ let
         "CRBex59s" = _CRBex59s;
         "35H2kGP9" = _35H2kGP9;
         "F6GDKwtk" = _F6GDKwtk;
+        "WgtdZQuc" = _WgtdZQuc;
+        "RvMf1qzl" = _RvMf1qzl;
+        "y1Zetz29" = _y1Zetz29;
+        "hTNvMewX" = _hTNvMewX;
+        "DDCRIV2Z" = _DDCRIV2Z;
+        "4j5QzcRp" = _4j5QzcRp;
+        "Zdr0cHIz" = _Zdr0cHIz;
         "fabric-1.20.1" = _7H1g1o5h;
         "fabric-1.21.1" = _wbVXT4Ua;
         "fabric-1.21" = _sQbPKvBC;
@@ -1023,11 +1065,11 @@ let
         "fabric-1.21.11-rc2" = _LXqNUdMO;
         "fabric-1.21.11-rc3" = _LXqNUdMO;
         "fabric-1.21.11" = _z70iEKnH;
-        "fabric-26.1" = _CRBex59s;
-        "fabric-26.1.1" = _CRBex59s;
-        "fabric-26.1.2" = _CRBex59s;
-        "fabric-26.2" = _35H2kGP9;
-        "fabric-26.3" = _F6GDKwtk;
+        "fabric-26.1" = _DDCRIV2Z;
+        "fabric-26.1.1" = _DDCRIV2Z;
+        "fabric-26.1.2" = _DDCRIV2Z;
+        "fabric-26.2" = _4j5QzcRp;
+        "fabric-26.3" = _Zdr0cHIz;
         "pkg-1.20.1-2.0.8" = _M8bp9Dk5;
         "pkg-1.20.1-2.0.9" = _J5zT5dIA;
         "pkg-1.20.1-2.0.10" = _UFctor0l;
@@ -1192,7 +1234,14 @@ let
         "pkg-26.1-3.6.25" = _CRBex59s;
         "pkg-26.2-3.6.25" = _35H2kGP9;
         "pkg-26.3-3.6.25" = _F6GDKwtk;
-        "default" = _F6GDKwtk;
+        "pkg-26.1-3.6.26" = _WgtdZQuc;
+        "pkg-26.2-3.6.26" = _RvMf1qzl;
+        "pkg-26.3-3.6.26" = _y1Zetz29;
+        "pkg-26.3-3.6.27" = _hTNvMewX;
+        "pkg-26.1-3.6.28" = _DDCRIV2Z;
+        "pkg-26.2-3.6.28" = _4j5QzcRp;
+        "pkg-26.3-3.6.28" = _Zdr0cHIz;
+        "default" = _Zdr0cHIz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "farmers-delight-refabricated";

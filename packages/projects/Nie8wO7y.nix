@@ -231,6 +231,46 @@ let
             "file" = "Endless Inventory-fabric-1.21.1-1.1.4.jar";
             "hash" = "sha512-AwO/2SuMNnTs8mNjU3dkTg0//0Ej7SibTPulhkzEHFBk1MWnf3CuNj0ivzDHYwJyylAxC4tfStLXsbpkBdRISQ==";
         };
+        _99ZoMLj5 = {
+            "id" = "99ZoMLj5";
+            "file" = "Endless Inventory-forge-1.20.2-1.1.2.jar";
+            "hash" = "sha512-v64dRJliIsAKk2ItwGgw+HHwwGO3V5zCLbLrgt/PtU+X6vmgyTAA1MKmYz/tNXPVUHQRRVpDOk0exFNbKgf0yg==";
+        };
+        _6BfpIfgi = {
+            "id" = "6BfpIfgi";
+            "file" = "Endless Inventory-fabric-1.20.2-1.1.2.jar";
+            "hash" = "sha512-/7CRLue+i1VEzBEyd5N4ujtNM3IKRnTZrtvUsCLxoCNTorTjBhGtfzme0/vPNIBR77Y4XcZCQv4qHCe/1heZXA==";
+        };
+        _pxA3WMKI = {
+            "id" = "pxA3WMKI";
+            "file" = "Endless Inventory-fabric-26.1-1.1.4.jar";
+            "hash" = "sha512-Jbh8XTEFyIgGopFvVSDaoWZh0UvBep/IR1bXytVsNjhhIgo/Jy6AvmvYZfUyLW7ExLulbkDoYEXgTR1XjeF1mQ==";
+        };
+        _pJ55oefZ = {
+            "id" = "pJ55oefZ";
+            "file" = "Endless Inventory-neoforge-26.1-1.1.4.jar";
+            "hash" = "sha512-tnbLqmRD30fjYxktgZArcnbIjNdhx0j5U9A37PAZwjTon0cOSvuPWaQGjM8bo2mGvoN0EECwqJ+c9nBM/BbJVQ==";
+        };
+        _8WbwfJHG = {
+            "id" = "8WbwfJHG";
+            "file" = "Endless Inventory-fabric-26.2-1.1.4.1.jar";
+            "hash" = "sha512-qznWPazsMQqAMu5AIjLqXIRFvtvJQex8jL8yfNHmYnmH6J1VDO5gW38jl7zePeNSpGQIkQgWidCDnOvPGtPgKw==";
+        };
+        _1XoocgnW = {
+            "id" = "1XoocgnW";
+            "file" = "Endless Inventory-neoforge-26.2-1.1.4.1.jar";
+            "hash" = "sha512-rFTuc94tx5gTKMWbyZmGcREbYzWghfuxbmMbvkO0JlN2HUiNuIhEpL9jZbLNoRixxTcdsCwp8tIE1Ax3tceSRQ==";
+        };
+        _XCPIvvs9 = {
+            "id" = "XCPIvvs9";
+            "file" = "Endless Inventory-neoforge-26.3-1.1.4.1.jar";
+            "hash" = "sha512-9pTjurPwpPDM8iO9LEATw5ziKChcI20xmpt8TGdvl9dtS+8oqUhuvHjXoS7hglDVWG4TSsvLNeAQo6ewmo+NDQ==";
+        };
+        _V2wqB9iZ = {
+            "id" = "V2wqB9iZ";
+            "file" = "Endless Inventory-fabric-26.3-1.1.4.1.jar";
+            "hash" = "sha512-fK5fIWg1iq/0BhveWM5Ll/L7nIWm9EdWfh62q/FpZwF8yRTa5eiIvEml8y6pPfcu2AZmcsDfYNxLjXTEN5UnHQ==";
+        };
     in {
         "YJJtcddQ" = _YJJtcddQ;
         "HN11XFRk" = _HN11XFRk;
@@ -278,25 +318,36 @@ let
         "ccHd109Z" = _ccHd109Z;
         "FKTrUh5F" = _FKTrUh5F;
         "T4x7zrfH" = _T4x7zrfH;
+        "99ZoMLj5" = _99ZoMLj5;
+        "6BfpIfgi" = _6BfpIfgi;
+        "pxA3WMKI" = _pxA3WMKI;
+        "pJ55oefZ" = _pJ55oefZ;
+        "8WbwfJHG" = _8WbwfJHG;
+        "1XoocgnW" = _1XoocgnW;
+        "XCPIvvs9" = _XCPIvvs9;
+        "V2wqB9iZ" = _V2wqB9iZ;
         "neoforge-1.21.1" = _FKTrUh5F;
         "neoforge-1.21.2" = _YJJtcddQ;
         "neoforge-1.21" = _FKTrUh5F;
         "neoforge-1.21.4" = _1wuiRqdw;
         "neoforge-1.21.8" = _DTTX6uC3;
         "neoforge-1.21.11" = _xQMqIMBR;
-        "neoforge-26.1" = _M7fOSMxG;
+        "neoforge-26.1" = _pJ55oefZ;
         "neoforge-26.1.1" = _M7fOSMxG;
         "neoforge-26.1.2" = _M7fOSMxG;
+        "neoforge-26.2" = _1XoocgnW;
+        "neoforge-26.3" = _XCPIvvs9;
         "forge-1.20.1" = _gH8oK7TL;
         "forge-1.20" = _gH8oK7TL;
         "forge-1.21.1" = _8XbxxDHA;
+        "forge-1.20.2" = _99ZoMLj5;
         "fabric-1.20.1" = _s71ZOFlu;
         "fabric-1.20" = _s71ZOFlu;
         "fabric-1.21" = _T4x7zrfH;
         "fabric-1.21.1" = _T4x7zrfH;
         "fabric-1.21.8" = _aD2hUV0a;
         "fabric-1.21.11" = _hnyhaxBZ;
-        "fabric-26.1" = _ccHd109Z;
+        "fabric-26.1" = _pxA3WMKI;
         "fabric-26.1.1-rc-1" = _ccHd109Z;
         "fabric-26.1.1" = _ccHd109Z;
         "fabric-26w14a" = _ccHd109Z;
@@ -306,6 +357,9 @@ let
         "fabric-26.2-snapshot-2" = _ccHd109Z;
         "fabric-26.2-snapshot-3" = _ccHd109Z;
         "fabric-26.2-snapshot-4" = _ccHd109Z;
+        "fabric-1.20.2" = _6BfpIfgi;
+        "fabric-26.2" = _8WbwfJHG;
+        "fabric-26.3" = _V2wqB9iZ;
         "pkg-1.0.1" = _YJJtcddQ;
         "pkg-1.21-1.0.2-neoforge" = _HN11XFRk;
         "pkg-1.0.10" = _g4giYsmu;
@@ -324,7 +378,7 @@ let
         "pkg-1.1.0.4" = _dg8g9zgy;
         "pkg-1.1.2-snapshot-1" = _slGSeZyy;
         "pkg-1.1.2-snapshot-2" = _vKiEaHmW;
-        "pkg-1.1.2" = _gH8oK7TL;
+        "pkg-1.1.2" = _6BfpIfgi;
         "pkg-fabric-1.21.8_1.1.2-snapshot" = _AVWN84aX;
         "pkg-1.1.2.1" = _PubbSfOA;
         "pkg-1.1.3" = _GF749JUG;
@@ -334,8 +388,9 @@ let
         "pkg-1.1.3.3" = _mEJOidCB;
         "pkg-1.1.3.4" = _B3blXURq;
         "pkg-1.1.3.5" = _ccHd109Z;
-        "pkg-1.1.4" = _T4x7zrfH;
-        "default" = _T4x7zrfH;
+        "pkg-1.1.4" = _pJ55oefZ;
+        "pkg-1.1.4.1" = _V2wqB9iZ;
+        "default" = _V2wqB9iZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "endless-inventory";

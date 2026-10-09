@@ -91,6 +91,11 @@ let
             "file" = "autorun-mc26.2-v2.0.0.jar";
             "hash" = "sha512-stfn0mobs1mABb9yVhV4N6MQT/0FVbJXhxwsQ9yUgirzexjpcPUb9GWSDoq542LVEY3jSZlcV8GG3ilo4YhmDA==";
         };
+        _Vzth8nEI = {
+            "id" = "Vzth8nEI";
+            "file" = "autorun-mc26.3-v2.1.0.jar";
+            "hash" = "sha512-9jDR5HIwbilDHZSkXERUJrcLucTUN8B165qiKU+p4S6dgB7A4xuuMgVCi9WZ4T6a6HiKxCpZYVQaU701azr7yw==";
+        };
     in {
         "qkGugbYG" = _qkGugbYG;
         "rVc6250s" = _rVc6250s;
@@ -110,6 +115,7 @@ let
         "INAo7pKI" = _INAo7pKI;
         "h67XNzRg" = _h67XNzRg;
         "TSZ0XkU4" = _TSZ0XkU4;
+        "Vzth8nEI" = _Vzth8nEI;
         "fabric-1.14" = _qkGugbYG;
         "fabric-1.14.1" = _qkGugbYG;
         "fabric-1.14.2" = _qkGugbYG;
@@ -157,6 +163,7 @@ let
         "fabric-26.1.1" = _INAo7pKI;
         "fabric-26.1.2" = _INAo7pKI;
         "fabric-26.2" = _TSZ0XkU4;
+        "fabric-26.3" = _Vzth8nEI;
         "pkg-1.14.X-0.2.1" = _qkGugbYG;
         "pkg-1.15.X-0.2.1" = _rVc6250s;
         "pkg-1.16.X-0.2.1" = _rWFuOLyT;
@@ -175,7 +182,8 @@ let
         "pkg-mc26.1-v1.5.0" = _INAo7pKI;
         "pkg-mc26.2-v1.6.0" = _h67XNzRg;
         "pkg-mc26.2-v2.0.0" = _TSZ0XkU4;
-        "default" = _TSZ0XkU4;
+        "pkg-mc26.3-v2.1.0" = _Vzth8nEI;
+        "default" = _Vzth8nEI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "autorun";

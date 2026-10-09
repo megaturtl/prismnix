@@ -176,6 +176,16 @@ let
             "file" = "customtimecycle-neoforge-0.2.1-26.2.jar";
             "hash" = "sha512-9xqV0ZnZpLizo+z51YJiqI9Df9EwDZCv2cZ3+cBvmT01zHFf10JGqPfxTOC2PQPb5w1NbLsglp8/knetlGIQIQ==";
         };
+        _khMSrNdV = {
+            "id" = "khMSrNdV";
+            "file" = "customtimecycle-neoforge-0.2.1-26.3.jar";
+            "hash" = "sha512-56NpwMxoP5nZcebvauDiMpS5KLlFEFMhJdqVve5dNmGo+DwymWWDC5D0xWmCrTGnbxobYki/KHtHZQ5rmyAWXQ==";
+        };
+        _XgUtGbk6 = {
+            "id" = "XgUtGbk6";
+            "file" = "customtimecycle-fabric-0.2.1-26.3.jar";
+            "hash" = "sha512-ELoMKjQoKm3W4jrgAbSZJ+Osk9iSRUMOTR6EWBLlVxMO26OIn30wBEc9HAog7YrimAw85PVFtq+BNwxgsnQcpg==";
+        };
     in {
         "19jWk5lB" = _19jWk5lB;
         "PUS6I48f" = _PUS6I48f;
@@ -212,6 +222,8 @@ let
         "KPDmdaP3" = _KPDmdaP3;
         "5iRNQJnp" = _5iRNQJnp;
         "YSIkqACL" = _YSIkqACL;
+        "khMSrNdV" = _khMSrNdV;
+        "XgUtGbk6" = _XgUtGbk6;
         "fabric-1.20.4" = _19jWk5lB;
         "fabric-1.20.5" = _PUS6I48f;
         "fabric-1.20.6" = _PUS6I48f;
@@ -236,6 +248,7 @@ let
         "fabric-26.1.1" = _dtuLqxzl;
         "fabric-26.1.2" = _dtuLqxzl;
         "fabric-26.2" = _5iRNQJnp;
+        "fabric-26.3" = _XgUtGbk6;
         "neoforge-1.21" = _13EE9lsB;
         "neoforge-1.21.1" = _13EE9lsB;
         "neoforge-1.21.9" = _fzt9H8Ci;
@@ -245,6 +258,7 @@ let
         "neoforge-26.1.1" = _yzgNghUy;
         "neoforge-26.1.2" = _yzgNghUy;
         "neoforge-26.2" = _YSIkqACL;
+        "neoforge-26.3" = _khMSrNdV;
         "pkg-0.1.0-1.20.4" = _19jWk5lB;
         "pkg-0.1.0-1.20.5+6" = _PUS6I48f;
         "pkg-0.1.1-1.21" = _VLERbdE0;
@@ -272,7 +286,8 @@ let
         "pkg-0.2.0-26.1.1" = _dtuLqxzl;
         "pkg-0.2.0-26.2" = _KPDmdaP3;
         "pkg-0.2.1-26.2" = _YSIkqACL;
-        "default" = _YSIkqACL;
+        "pkg-0.2.1-26.3" = _XgUtGbk6;
+        "default" = _XgUtGbk6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "customtimecycle";

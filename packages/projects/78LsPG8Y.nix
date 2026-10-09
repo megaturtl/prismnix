@@ -166,6 +166,16 @@ let
             "file" = "genshincraft-3.1.3.jar";
             "hash" = "sha512-6xpPHFKs4w78kRzwh54075z7Nvotz+vKUsf8IM5dcVidAcLmBuqTP6TUNXoXlHetysTEgEA58R7AL/41TTNiXQ==";
         };
+        _cTvcfw9m = {
+            "id" = "cTvcfw9m";
+            "file" = "genshincraft-3.2.0.jar";
+            "hash" = "sha512-bqEY+iALm8DRH5bWmhRGD+tUroMt0eb+liU1CAs8tXBcOXz7D+9PzA68UOyLE/BSN2h4pYIuq5Jxe/zyI46i/Q==";
+        };
+        _CdP0jsET = {
+            "id" = "CdP0jsET";
+            "file" = "genshincraft-3.2.1.jar";
+            "hash" = "sha512-lWOOMQ/saNop0IbsMK6mCU5gOJruNiFx2O7noC/RMbHkqUA+cTUcHCf3ELhSEJME82QtfekQALApXozarU4DKA==";
+        };
     in {
         "ngzsWMiu" = _ngzsWMiu;
         "kANosO4j" = _kANosO4j;
@@ -200,10 +210,12 @@ let
         "fCu4lvvh" = _fCu4lvvh;
         "ATt5sXQY" = _ATt5sXQY;
         "hlJMT72e" = _hlJMT72e;
+        "cTvcfw9m" = _cTvcfw9m;
+        "CdP0jsET" = _CdP0jsET;
         "fabric-1.20.1" = _nPY7663O;
         "fabric-1.21.1" = _xnWrg9ky;
         "forge-1.20.1" = _nPY7663O;
-        "neoforge-1.21.1" = _hlJMT72e;
+        "neoforge-1.21.1" = _CdP0jsET;
         "pkg-1.0.0" = _ngzsWMiu;
         "pkg-1.0.1" = _kANosO4j;
         "pkg-1.1.0" = _6NrSDn0b;
@@ -237,7 +249,9 @@ let
         "pkg-3.1.1" = _fCu4lvvh;
         "pkg-3.1.2" = _ATt5sXQY;
         "pkg-3.1.3" = _hlJMT72e;
-        "default" = _hlJMT72e;
+        "pkg-3.2.0" = _cTvcfw9m;
+        "pkg-3.2.1" = _CdP0jsET;
+        "default" = _CdP0jsET;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "genshincraft";

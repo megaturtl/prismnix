@@ -211,6 +211,21 @@ let
             "file" = "MoveLearner-1.6.0-1.21.1-Cobblemon-Fabric.jar";
             "hash" = "sha512-XbAuT1PwRLCM+Ty9gdwaCIfSzpgD7h3pomjsZ09o4aAj6xeZpzoIbkuwycjaagVyaEKwSs4vLdJpiNg55gVUaQ==";
         };
+        _Hl0peFzQ = {
+            "id" = "Hl0peFzQ";
+            "file" = "MoveLearner-1.6.1-1.21.1-Pixelmon-NeoForge.jar";
+            "hash" = "sha512-kfThZ6vEnPIHloGYbM1JuS28Nxta+GGzD1/g7TDFm+iGyVeCuJzwz1o0d3/db1yySOi/xqVA95y/ygHi5lQ1XA==";
+        };
+        _BS1rOvM7 = {
+            "id" = "BS1rOvM7";
+            "file" = "MoveLearner-1.6.1-1.21.1-Cobblemon-NeoForge.jar";
+            "hash" = "sha512-Ayhc87Vjip4cnQcleL51ffRs+vTSnJCKRrJWo3NAxeJdXxgbrO1SPBMthQ2DncAhxAMaR8apDp3LQ0t+rKW0zA==";
+        };
+        _F5aiX1O9 = {
+            "id" = "F5aiX1O9";
+            "file" = "MoveLearner-1.6.1-1.21.1-Cobblemon-Fabric.jar";
+            "hash" = "sha512-Pde6fzXVysuRkHaP480Kus9d2Zi8nbv85/9RP30FaWWRwDFlKH+4vZHp6hvOqfBp2AtWgsPazyWTFxs/QvmPeg==";
+        };
     in {
         "zeVdmaam" = _zeVdmaam;
         "UwP2hVdm" = _UwP2hVdm;
@@ -254,9 +269,12 @@ let
         "tpDRU1Oa" = _tpDRU1Oa;
         "tyQWuWm4" = _tyQWuWm4;
         "s9LMWstn" = _s9LMWstn;
+        "Hl0peFzQ" = _Hl0peFzQ;
+        "BS1rOvM7" = _BS1rOvM7;
+        "F5aiX1O9" = _F5aiX1O9;
         "forge-1.16.5" = _G7yaQksE;
-        "neoforge-1.21.1" = _tyQWuWm4;
-        "fabric-1.21.1" = _s9LMWstn;
+        "neoforge-1.21.1" = _BS1rOvM7;
+        "fabric-1.21.1" = _F5aiX1O9;
         "pkg-1.0.0" = _zeVdmaam;
         "pkg-1.1.0" = _UwP2hVdm;
         "pkg-1.1.1" = _RDTQdT4o;
@@ -281,7 +299,8 @@ let
         "pkg-1.5.1" = _QuDRoMfL;
         "pkg-1.5.2" = _UzCUwf0c;
         "pkg-1.6.0" = _s9LMWstn;
-        "default" = _s9LMWstn;
+        "pkg-1.6.1" = _F5aiX1O9;
+        "default" = _F5aiX1O9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "movelearner";
