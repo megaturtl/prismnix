@@ -1,0 +1,81 @@
+name: Regenerate Modrinth packages after manual db update
+
+on:
+  push:
+    paths:
+      - packages/database/database.json
+  workflow_dispatch:
+
+permissions: {}
+
+defaults:
+  run:
+    shell: bash
+
+concurrency:
+  group: update-modrinth-packages
+  cancel-in-progress: false
+
+jobs:
+  regenerate:
+    # only regenerate if the action is manually started or if database.json was pushed to the main branch
+    if: github.event_name == 'workflow_dispatch' || github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout default branch
+        uses: actions/checkout@v7.0.1
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          lfs: true
+          persist-credentials: false
+
+      - name: Install Nix
+        uses: DeterminateSystems/determinate-nix-action@v3.23.1
+
+      - name: Regenerate Modrinth packages from the stored database
+        run: |
+          nix run --no-write-lock-file .#prismgen -- \
+            nix packages/database/database.json packages/projects \
+            --template packages/database/template
+
+      - name: Stage changes
+        id: changes
+        run: |
+          git add -- packages/projects
+          updated=$(git diff --cached --no-renames --name-only --diff-filter=M -- 'packages/projects/????????.nix' | wc -l)
+          added=$(git diff --cached --no-renames --name-only --diff-filter=A -- 'packages/projects/????????.nix' | wc -l)
+          removed=$(git diff --cached --no-renames --name-only --diff-filter=D -- 'packages/projects/????????.nix' | wc -l)
+          {
+            echo "updated=$updated"
+            echo "added=$added"
+            echo "removed=$removed"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Check the generated flake
+        env:
+          NIXPKGS_ALLOW_UNFREE: "1"
+        run: nix flake check --impure --no-write-lock-file
+
+      - name: Create or update the pull request
+        uses: peter-evans/create-pull-request@v8.1.1
+        with:
+          base: ${{ github.event.repository.default_branch }}
+          branch: auto/update-packages
+          delete-branch: true
+          add-paths: packages/projects
+          commit-message: "auto: regenerate Modrinth packages"
+          author: "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
+          title: "auto: regenerate Modrinth packages"
+          body: |
+            Triggered by a manual update to `packages/database/database.json` on the default branch.
+
+            - Updated projects: ${{ steps.changes.outputs.updated }}
+            - Added projects: ${{ steps.changes.outputs.added }}
+            - Removed projects: ${{ steps.changes.outputs.removed }}
+
+            The updated project catalogue has passed `nix flake check`.
