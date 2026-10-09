@@ -53,10 +53,25 @@ jobs:
             nix packages/database/database.json packages/projects \
             --template packages/database/template
 
+      - name: Update loaders
+        env:
+          PRISMGEN_USER_AGENT: "github:${{ github.repository }}/prismgen"
+        run: |
+          nix run --no-write-lock-file .#prismgen -- \
+            prismmeta \
+            -p "net.fabricmc.fabric-loader=fabric" \
+            -p "org.quiltmc.quilt-loader=quilt" \
+            -p "net.minecraftforge=forge" \
+            -p "net.neoforged=neoforge" \
+            -p "com.mumfrey.liteloader=liteloader" \
+            --session-user-agent "$PRISMGEN_USER_AGENT" \
+            --session-limit 10 \
+            lib/components/loaders.nix
+
       - name: Stage changes
         id: changes
         run: |
-          git add -- packages/projects
+          git add -- packages/projects lib/components/loaders.nix
           updated=$(git diff --cached --no-renames --name-only --diff-filter=M -- 'packages/projects/????????.nix' | wc -l)
           added=$(git diff --cached --no-renames --name-only --diff-filter=A -- 'packages/projects/????????.nix' | wc -l)
           removed=$(git diff --cached --no-renames --name-only --diff-filter=D -- 'packages/projects/????????.nix' | wc -l)
@@ -80,6 +95,7 @@ jobs:
           add-paths: |
             packages/database/database.json
             packages/projects
+            lib/components/loaders.nix
           commit-message: |
             auto: update Modrinth packages
           author: "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
@@ -90,5 +106,6 @@ jobs:
             - Updated projects: ${{ steps.changes.outputs.updated }}
             - Added projects: ${{ steps.changes.outputs.added }}
             - Removed projects: ${{ steps.changes.outputs.removed }}
+            - Updated component loader versions
 
             The updated project catalogue has passed `nix flake check`.
