@@ -41,6 +41,16 @@ let
             "file" = "warden-anger-indicator-2.6.jar";
             "hash" = "sha512-b2jz9h8+KJL6iYjhLd17mkU7aWO48y3/lOtWjvmivJoUpMzVnpN+TtbhUvSj5nydERIzgawM+OkT9Zvjg81dNA==";
         };
+        _ZuHRaomc = {
+            "id" = "ZuHRaomc";
+            "file" = "Warden Anger Indicator 26.3.zip";
+            "hash" = "sha512-yM1RSNQPFYoYIleGcGPIBT9sp1psUPlmyFm1kVr7U+DYOwHf4fxAj7D8iaYR2Remg9VM0+I4QlL3S9ualIwI5Q==";
+        };
+        _T7pWKl5V = {
+            "id" = "T7pWKl5V";
+            "file" = "warden-anger-indicator-2.6.jar";
+            "hash" = "sha512-VP2Wq5KGJ3Ctu+VWMRv4VX4xbVCXRR69FBmWtuqgQpCXqQwHTgwgWrI8t/68J2fw8m7Lc24WHQNk1Ukx2CUTTQ==";
+        };
     in {
         "YRVJTFlA" = _YRVJTFlA;
         "XQv6moF6" = _XQv6moF6;
@@ -50,6 +60,8 @@ let
         "WcKqqV9m" = _WcKqqV9m;
         "hYslhk6r" = _hYslhk6r;
         "3O70w2yP" = _3O70w2yP;
+        "ZuHRaomc" = _ZuHRaomc;
+        "T7pWKl5V" = _T7pWKl5V;
         "datapack-1.20" = _YRVJTFlA;
         "datapack-1.20.1" = _YRVJTFlA;
         "datapack-1.20.2" = _YRVJTFlA;
@@ -73,6 +85,7 @@ let
         "datapack-26.1.1" = _hYslhk6r;
         "datapack-26.1.2" = _hYslhk6r;
         "datapack-26.2" = _hYslhk6r;
+        "datapack-26.3" = _ZuHRaomc;
         "fabric-1.20" = _XQv6moF6;
         "fabric-1.20.1" = _XQv6moF6;
         "fabric-1.20.2" = _XQv6moF6;
@@ -96,6 +109,7 @@ let
         "fabric-26.1.1" = _3O70w2yP;
         "fabric-26.1.2" = _3O70w2yP;
         "fabric-26.2" = _3O70w2yP;
+        "fabric-26.3" = _T7pWKl5V;
         "forge-1.20" = _XQv6moF6;
         "forge-1.20.1" = _XQv6moF6;
         "forge-1.20.2" = _XQv6moF6;
@@ -119,6 +133,7 @@ let
         "forge-26.1.1" = _3O70w2yP;
         "forge-26.1.2" = _3O70w2yP;
         "forge-26.2" = _3O70w2yP;
+        "forge-26.3" = _T7pWKl5V;
         "quilt-1.20" = _XQv6moF6;
         "quilt-1.20.1" = _XQv6moF6;
         "quilt-1.20.2" = _XQv6moF6;
@@ -142,6 +157,7 @@ let
         "quilt-26.1.1" = _3O70w2yP;
         "quilt-26.1.2" = _3O70w2yP;
         "quilt-26.2" = _3O70w2yP;
+        "quilt-26.3" = _T7pWKl5V;
         "neoforge-1.21.5" = _3O70w2yP;
         "neoforge-1.21.6" = _3O70w2yP;
         "neoforge-1.21.7" = _3O70w2yP;
@@ -153,15 +169,16 @@ let
         "neoforge-26.1.1" = _3O70w2yP;
         "neoforge-26.1.2" = _3O70w2yP;
         "neoforge-26.2" = _3O70w2yP;
+        "neoforge-26.3" = _T7pWKl5V;
         "pkg-1" = _YRVJTFlA;
         "pkg-1+mod" = _XQv6moF6;
         "pkg-2" = _BQHwrbu2;
         "pkg-2+mod" = _UQquFKKx;
         "pkg-2.5" = _pgYqpt0c;
         "pkg-2.5+mod" = _WcKqqV9m;
-        "pkg-2.6" = _hYslhk6r;
-        "pkg-2.6+mod" = _3O70w2yP;
-        "default" = _3O70w2yP;
+        "pkg-2.6" = _ZuHRaomc;
+        "pkg-2.6+mod" = _T7pWKl5V;
+        "default" = _T7pWKl5V;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "warden-anger-indicator";

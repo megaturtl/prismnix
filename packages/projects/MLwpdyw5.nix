@@ -111,6 +111,11 @@ let
             "file" = "simpleshulkerpreview-2.5.0-mc26.1.jar";
             "hash" = "sha512-1IEMsBG9LwH9bb8V6ocL1r03HOT51idPS6B8MmV/gYHI3I1FQif8L1bES5+aYFBNaR0q85p1lf41/Ov293UehA==";
         };
+        _GjXndeAt = {
+            "id" = "GjXndeAt";
+            "file" = "simpleshulkerpreview-2.6.0-mc26.3.jar";
+            "hash" = "sha512-W9scGj2tN2OryFsbOmmRxrvWmtLeiByh7pvXtN9kgQ+y+UFbxj6HzfJo6VKOi9iYjTxtz4bS6zXDBbXKzkB6Qg==";
+        };
     in {
         "rF6wEYyf" = _rF6wEYyf;
         "rx6mkCc7" = _rx6mkCc7;
@@ -134,6 +139,7 @@ let
         "VP4Q2I0j" = _VP4Q2I0j;
         "fNFUUH3e" = _fNFUUH3e;
         "i6tHSfQC" = _i6tHSfQC;
+        "GjXndeAt" = _GjXndeAt;
         "fabric-1.19" = _Tiq7I8ZI;
         "fabric-1.19.1-pre1" = _rF6wEYyf;
         "fabric-1.19.1-rc1" = _rF6wEYyf;
@@ -173,6 +179,7 @@ let
         "fabric-26.1.1" = _i6tHSfQC;
         "fabric-26.1.2" = _i6tHSfQC;
         "fabric-26.2" = _i6tHSfQC;
+        "fabric-26.3" = _GjXndeAt;
         "pkg-1.19-v1.1" = _rF6wEYyf;
         "pkg-1.19-v1.2" = _rx6mkCc7;
         "pkg-1.19-v1.3" = _2c7KzFVR;
@@ -194,7 +201,8 @@ let
         "pkg-2.4.10-mc1.21.9" = _VP4Q2I0j;
         "pkg-2.4.11-mc1.21.11" = _fNFUUH3e;
         "pkg-2.5.0" = _i6tHSfQC;
-        "default" = _i6tHSfQC;
+        "pkg-2.6.0-mc26.3" = _GjXndeAt;
+        "default" = _GjXndeAt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-shulker-preview";

@@ -66,6 +66,11 @@ let
             "file" = "tacz_refit-1.21.1-v005.jar";
             "hash" = "sha512-UuXoMbH7y9jxd8Yu5nu1AITb7vtcJ5gY/jQTQ+1Tio5C62+WcPf1OBRPMnZvrFobPSJnHjXuWDGJ+cAndwGjhA==";
         };
+        _AWsy8JX0 = {
+            "id" = "AWsy8JX0";
+            "file" = "tacz_refit-1.20.1-v.0.05.1-HOTFIX.jar";
+            "hash" = "sha512-uUqQEjAxcFArq5s5dIhGk/O/pUtQbAG1U2PawsAqBfxJOT9sz1nn9EaZRfgj4pc36e+OVgZVjTGm90DKOHtq7g==";
+        };
     in {
         "6eAYAdKu" = _6eAYAdKu;
         "qxj6MWPl" = _qxj6MWPl;
@@ -80,12 +85,13 @@ let
         "ZbySW9fj" = _ZbySW9fj;
         "XFJros54" = _XFJros54;
         "YrZki4Qw" = _YrZki4Qw;
-        "forge-1.20.1" = _XFJros54;
-        "forge-1.20.2" = _XFJros54;
-        "forge-1.20.3" = _XFJros54;
-        "forge-1.20.4" = _XFJros54;
-        "forge-1.20.5" = _XFJros54;
-        "forge-1.20.6" = _XFJros54;
+        "AWsy8JX0" = _AWsy8JX0;
+        "forge-1.20.1" = _AWsy8JX0;
+        "forge-1.20.2" = _AWsy8JX0;
+        "forge-1.20.3" = _AWsy8JX0;
+        "forge-1.20.4" = _AWsy8JX0;
+        "forge-1.20.5" = _AWsy8JX0;
+        "forge-1.20.6" = _AWsy8JX0;
         "forge-1.19.2" = _ZbySW9fj;
         "forge-1.19.3" = _ZbySW9fj;
         "forge-1.19.4" = _ZbySW9fj;
@@ -97,7 +103,8 @@ let
         "pkg-0.0.4" = _ihmsQ1A3;
         "pkg-0.4.1-hotfix" = _mTqs1q0W;
         "pkg-0.0.5" = _YrZki4Qw;
-        "default" = _YrZki4Qw;
+        "pkg-0.05.1-HOTFIX" = _AWsy8JX0;
+        "default" = _AWsy8JX0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tacz-refit";

@@ -216,6 +216,11 @@ let
             "file" = "moretools-1.10.1+26.2.jar";
             "hash" = "sha512-L51AgkBFi5wAvBtKrpiQ2voEA9KqvmdNwTpgMlXclaeyzNw8eZXqz2kwyhV0x+hAWSaaMnj4q+SF08nJcDl/5A==";
         };
+        _NCh8MgPy = {
+            "id" = "NCh8MgPy";
+            "file" = "moretools-1.10.1+26.3.jar";
+            "hash" = "sha512-lINtLA+4Ed3DWViOWmRrtQ4Vq/iKIOG4i/Or57HVtlXsU2gYiBFU9hkwImjKcosNH3Omzj011f5fPHwl9BCAqQ==";
+        };
     in {
         "XCJLB2Gx" = _XCJLB2Gx;
         "Wr8xdOs9" = _Wr8xdOs9;
@@ -260,6 +265,7 @@ let
         "uvasQKd2" = _uvasQKd2;
         "6DHXc9ut" = _6DHXc9ut;
         "6ojWj0nm" = _6ojWj0nm;
+        "NCh8MgPy" = _NCh8MgPy;
         "fabric-1.20.1" = _mBPNBRSN;
         "fabric-1.20.4" = _ZtPpakjj;
         "fabric-1.20.2" = _OEWFSv3h;
@@ -283,6 +289,7 @@ let
         "fabric-26.1.1" = _uvasQKd2;
         "fabric-26.1.2" = _uvasQKd2;
         "fabric-26.2" = _6ojWj0nm;
+        "fabric-26.3" = _NCh8MgPy;
         "pkg-1.0.0" = _XCJLB2Gx;
         "pkg-1.1.0" = _Wr8xdOs9;
         "pkg-1.2.0" = _Ek8XTsMc;
@@ -326,7 +333,8 @@ let
         "pkg-1.10.0+26.1.1" = _uvasQKd2;
         "pkg-1.10.0+26.2" = _6DHXc9ut;
         "pkg-1.10.1+26.2" = _6ojWj0nm;
-        "default" = _6ojWj0nm;
+        "pkg-1.10.1+26.3" = _NCh8MgPy;
+        "default" = _NCh8MgPy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-tools";

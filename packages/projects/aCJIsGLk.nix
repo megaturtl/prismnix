@@ -76,6 +76,16 @@ let
             "file" = "UnownFont-fabric-MC26.2-26.2.0.1.jar";
             "hash" = "sha512-cOLQKpO3hLHk62B9iYBO5p9ea+WWutvFpMTCmzmZTe4ognU0z2uINoOcK5CD/UMnKuoDPhuxaJmWhOO8kdOiWw==";
         };
+        _o2STZMvg = {
+            "id" = "o2STZMvg";
+            "file" = "UnownFont-fabric-MC26.3-26.3.0.1.jar";
+            "hash" = "sha512-wJ1WaFixS98Um9KkUrGb9K6JxXqBJCZJjmgo72IrRvibk5JNiReCJTPDeFPWzqN41N8K8jTuwcCwx2Xdgve9WQ==";
+        };
+        _vFH3WUeU = {
+            "id" = "vFH3WUeU";
+            "file" = "UnownFont-neoforge-MC26.3-26.3.0.1.jar";
+            "hash" = "sha512-TRzrQjGkEiGGn+AJrbbsLCYoovTnJ6VQvXrGAfzAAEXH7J409ttz9mRv3MOPi409rVqJMZDCGzDZ5mhdE6/OXw==";
+        };
     in {
         "ghUkXGaB" = _ghUkXGaB;
         "JhzPgLxq" = _JhzPgLxq;
@@ -92,6 +102,8 @@ let
         "Ojf3XU7V" = _Ojf3XU7V;
         "zMnaltWK" = _zMnaltWK;
         "UuSYGR1q" = _UuSYGR1q;
+        "o2STZMvg" = _o2STZMvg;
+        "vFH3WUeU" = _vFH3WUeU;
         "forge-1.16.5" = _ghUkXGaB;
         "forge-1.19.2" = _5NdxblhR;
         "forge-1.20.1" = _XpoNHIGR;
@@ -101,10 +113,12 @@ let
         "fabric-26.1.1" = _Ojf3XU7V;
         "fabric-26.1.2" = _Ojf3XU7V;
         "fabric-26.2" = _UuSYGR1q;
+        "fabric-26.3" = _o2STZMvg;
         "neoforge-26.1" = _WfYcmnva;
         "neoforge-26.1.1" = _WfYcmnva;
         "neoforge-26.1.2" = _WfYcmnva;
         "neoforge-26.2" = _zMnaltWK;
+        "neoforge-26.3" = _vFH3WUeU;
         "pkg-1.0.1" = _ghUkXGaB;
         "pkg-2.0.1" = _5NdxblhR;
         "pkg-2.0.2" = _3CHTBsgZ;
@@ -113,7 +127,8 @@ let
         "pkg-26.1.2.1" = _hmqynQwU;
         "pkg-26.1.2.2" = _Ojf3XU7V;
         "pkg-26.2.0.1" = _UuSYGR1q;
-        "default" = _UuSYGR1q;
+        "pkg-26.3.0.1" = _vFH3WUeU;
+        "default" = _vFH3WUeU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "unown-font";

@@ -2466,6 +2466,56 @@ let
             "file" = "emotecraft-for-MC26.3-3.5.0-a.build.167.jar";
             "hash" = "sha512-qDAbfi/Qa2ViKdICzXKRhlEDIWmFtivH7xPLQAW65m3i9KSCDfH89jDA1yfWpOQqVhqZDmGwQ7b7DAWrcZcDjw==";
         };
+        _uvWLDNyj = {
+            "id" = "uvWLDNyj";
+            "file" = "emotecraft-paper-for-MC26.2-3.4.0-b.build.168.jar";
+            "hash" = "sha512-2i/iV4i3Bt0cCixFRvubnnwjWSYYlZc98gC7hbb8l/Yu0ZMoViPapF6fTn6tQ0D3mI2eFwXzn7TZIvPvU15PWw==";
+        };
+        _AT1LY7QN = {
+            "id" = "AT1LY7QN";
+            "file" = "emotecraft-for-MC26.2-3.4.0-b.build.168.jar";
+            "hash" = "sha512-6Qbuy8w2yot6JgpmtGbHt+8hbEea1/mwtvXY+OwzWcaBkZdWNzkPnTKPZD3tgEdutz2eksZTaejunqZZX2Q5Hg==";
+        };
+        _XyRwLqon = {
+            "id" = "XyRwLqon";
+            "file" = "emotecraft-paper-for-MC26.3-3.5.0-a.build.169.jar";
+            "hash" = "sha512-fBx3sH2PQODezp3QOMVsPSHs9jxnwKnPTMef6MyPQS+eGcJwTBwCkR2gTRVwhAolYh+5hsFILZNjwv7TMhBYUw==";
+        };
+        _EwNB7i1D = {
+            "id" = "EwNB7i1D";
+            "file" = "emotecraft-geyser-for-MC26.3-3.5.0-a.build.169.jar";
+            "hash" = "sha512-EVFOg1yDO5qj73Nl9kmg1soWksJ+gYpuRHrs3GOPd+3ZzxMgvt3Y1Z/og3Uak+DropWZYfGBItWpQ5WgKgRXag==";
+        };
+        _y5qOKnGD = {
+            "id" = "y5qOKnGD";
+            "file" = "emotecraft-for-MC26.3-3.5.0-a.build.169.jar";
+            "hash" = "sha512-mSsCLFKEMUg0psWKMMKk5uWADNgBQgLwgwj4PGlq9Gpx4hp6MfCDIorReIYT1rpSCVhVNbX6jeNxlFR0v46QPg==";
+        };
+        _D5rY4opZ = {
+            "id" = "D5rY4opZ";
+            "file" = "emotecraft-paper-for-MC26.2-3.4.0-b.build.170.jar";
+            "hash" = "sha512-McM/C+5qDxqx52chHsB1zu7YyhgwdgN5Za2AtrtlkzvDKgyHW43VS4NhCQ1uKSHctkN2prdR2PdLPMG0D3+dOg==";
+        };
+        _Cd1WwA6f = {
+            "id" = "Cd1WwA6f";
+            "file" = "emotecraft-for-MC26.2-3.4.0-b.build.170.jar";
+            "hash" = "sha512-gUyM0lHB1t4AmCCAp3buLoW5Rw+s4POR3/rVPuywIyHNyUkpe0pylKqcHLrR50tId4hU4XVeAs33KGnuh3WwLw==";
+        };
+        _c6FIjPqt = {
+            "id" = "c6FIjPqt";
+            "file" = "emotecraft-paper-for-MC26.3-3.5.0-a.build.171.jar";
+            "hash" = "sha512-Vn4p8InC74JjkxiCQfXnr7G+YY//MklW/zFP3zSsivh9JbH3jaFh0+U1HyEMwahI/z4yEWiNrw1qz6/dwA3flw==";
+        };
+        _nYbcPpMs = {
+            "id" = "nYbcPpMs";
+            "file" = "emotecraft-geyser-for-MC26.3-3.5.0-a.build.171.jar";
+            "hash" = "sha512-whojXc/cOp9aT2rY7XyiAyAlJAF1jMRMOI6MlKDZWkYIDg/uoBDJFGFrlE5+4u7dEAF05fGGwYrq+uleThVucw==";
+        };
+        _M17ZQBUj = {
+            "id" = "M17ZQBUj";
+            "file" = "emotecraft-for-MC26.3-3.5.0-a.build.171.jar";
+            "hash" = "sha512-5GQuEtPj626PYL/B/RIvCTeUOCxiGjD30H+3QVZpnvZA0qn5rWPfiQ96gyxYZeCjChI/4UHt22Y/Kws63Mo/Zw==";
+        };
     in {
         "qCJdHFBu" = _qCJdHFBu;
         "WzOyhCoN" = _WzOyhCoN;
@@ -2960,6 +3010,16 @@ let
         "7swXh3Fo" = _7swXh3Fo;
         "HbF9UFdP" = _HbF9UFdP;
         "tkC33xHd" = _tkC33xHd;
+        "uvWLDNyj" = _uvWLDNyj;
+        "AT1LY7QN" = _AT1LY7QN;
+        "XyRwLqon" = _XyRwLqon;
+        "EwNB7i1D" = _EwNB7i1D;
+        "y5qOKnGD" = _y5qOKnGD;
+        "D5rY4opZ" = _D5rY4opZ;
+        "Cd1WwA6f" = _Cd1WwA6f;
+        "c6FIjPqt" = _c6FIjPqt;
+        "nYbcPpMs" = _nYbcPpMs;
+        "M17ZQBUj" = _M17ZQBUj;
         "fabric-1.16.5" = _CwHBNRDB;
         "fabric-1.17-rc2" = _sFwcIuk2;
         "fabric-1.17" = _uo6QM4ts;
@@ -2989,8 +3049,8 @@ let
         "fabric-26.1" = _N3M6FTa2;
         "fabric-26.1.1" = _N3M6FTa2;
         "fabric-26.1.2" = _N3M6FTa2;
-        "fabric-26.2" = _wbOdORs5;
-        "fabric-26.3" = _tkC33xHd;
+        "fabric-26.2" = _Cd1WwA6f;
+        "fabric-26.3" = _M17ZQBUj;
         "forge-1.16.5" = _OU1kdZya;
         "forge-1.17" = _zCMGFBBB;
         "forge-1.17.1" = _EcyGB5zh;
@@ -3033,8 +3093,8 @@ let
         "neoforge-26.1" = _N3M6FTa2;
         "neoforge-26.1.1" = _N3M6FTa2;
         "neoforge-26.1.2" = _N3M6FTa2;
-        "neoforge-26.2" = _wbOdORs5;
-        "neoforge-26.3" = _tkC33xHd;
+        "neoforge-26.2" = _Cd1WwA6f;
+        "neoforge-26.3" = _M17ZQBUj;
         "bukkit-1.21.1" = _DVp3FUqR;
         "folia-1.21.4" = _nyMO0fCO;
         "folia-1.21.5" = _ny9tWdHq;
@@ -3047,8 +3107,8 @@ let
         "folia-26.1" = _HeWPsF8V;
         "folia-26.1.1" = _HeWPsF8V;
         "folia-26.1.2" = _HeWPsF8V;
-        "folia-26.2" = _SGqvzAHz;
-        "folia-26.3" = _HbF9UFdP;
+        "folia-26.2" = _D5rY4opZ;
+        "folia-26.3" = _c6FIjPqt;
         "paper-1.21.4" = _nyMO0fCO;
         "paper-1.21.5" = _ny9tWdHq;
         "paper-1.21.7" = _XUadKUAv;
@@ -3060,14 +3120,14 @@ let
         "paper-26.1" = _HeWPsF8V;
         "paper-26.1.1" = _HeWPsF8V;
         "paper-26.1.2" = _HeWPsF8V;
-        "paper-26.2" = _SGqvzAHz;
-        "paper-26.3" = _HbF9UFdP;
-        "geyser-1.21.11" = _7swXh3Fo;
-        "geyser-26.1" = _7swXh3Fo;
-        "geyser-26.1.1" = _7swXh3Fo;
-        "geyser-26.1.2" = _7swXh3Fo;
-        "geyser-26.2" = _7swXh3Fo;
-        "geyser-26.3" = _7swXh3Fo;
+        "paper-26.2" = _D5rY4opZ;
+        "paper-26.3" = _c6FIjPqt;
+        "geyser-1.21.11" = _nYbcPpMs;
+        "geyser-26.1" = _nYbcPpMs;
+        "geyser-26.1.1" = _nYbcPpMs;
+        "geyser-26.1.2" = _nYbcPpMs;
+        "geyser-26.2" = _nYbcPpMs;
+        "geyser-26.3" = _nYbcPpMs;
         "pkg-1.3.0" = _qCJdHFBu;
         "pkg-1.3.1" = _WzOyhCoN;
         "pkg-1.4.0" = _LTUWpL7U;
@@ -3559,7 +3619,17 @@ let
         "pkg-3.5.0-a.build.167-geyser" = _7swXh3Fo;
         "pkg-3.5.0-a.build.167-paper" = _HbF9UFdP;
         "pkg-3.5.0-a.build.167" = _tkC33xHd;
-        "default" = _tkC33xHd;
+        "pkg-3.4.0-b.build.168-paper" = _uvWLDNyj;
+        "pkg-3.4.0-b.build.168" = _AT1LY7QN;
+        "pkg-3.5.0-a.build.169-paper" = _XyRwLqon;
+        "pkg-3.5.0-a.build.169-geyser" = _EwNB7i1D;
+        "pkg-3.5.0-a.build.169" = _y5qOKnGD;
+        "pkg-3.4.0-b.build.170-paper" = _D5rY4opZ;
+        "pkg-3.4.0-b.build.170" = _Cd1WwA6f;
+        "pkg-3.5.0-a.build.171-paper" = _c6FIjPqt;
+        "pkg-3.5.0-a.build.171-geyser" = _nYbcPpMs;
+        "pkg-3.5.0-a.build.171" = _M17ZQBUj;
+        "default" = _M17ZQBUj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "emotecraft";

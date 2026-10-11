@@ -106,6 +106,11 @@ let
             "file" = "thebrokenscript-neoforge-2.0.4-hotfix+mc1.21.1-build.3291.jar";
             "hash" = "sha512-CKaZsjomC4YGP+bs+CebGE5vFuXz5vgmoq/2qgdXvjCwk4YRCqppijpZWGXQXXCOLeTbYtSVAdbY22uNbnouZw==";
         };
+        _aD9cfKVd = {
+            "id" = "aD9cfKVd";
+            "file" = "thebrokenscript-neoforge-2.0.5+mc1.21.1-build.3658.jar";
+            "hash" = "sha512-Qt+prgDL5tyZiThOI0yhEZ+gE+EZfxMFOkfYbodrLuMX12VC+El28uSjQVt9mgSnt1psrXg6fGfzJPp34GtbQg==";
+        };
     in {
         "QnSnDZob" = _QnSnDZob;
         "OkGS7Zuk" = _OkGS7Zuk;
@@ -128,7 +133,8 @@ let
         "dxvW8zwQ" = _dxvW8zwQ;
         "GgQs5pPJ" = _GgQs5pPJ;
         "pRPkmb7S" = _pRPkmb7S;
-        "neoforge-1.21.1" = _pRPkmb7S;
+        "aD9cfKVd" = _aD9cfKVd;
+        "neoforge-1.21.1" = _aD9cfKVd;
         "pkg-1.9.3+mc1.21.1-alpha.2" = _QnSnDZob;
         "pkg-1.9.3+mc1.21.1-alpha.3" = _OkGS7Zuk;
         "pkg-1.9.3+mc1.21.1-alpha.4" = _dvQJHPUC;
@@ -150,7 +156,8 @@ let
         "pkg-2.0.3" = _dxvW8zwQ;
         "pkg-2.0.4" = _GgQs5pPJ;
         "pkg-2.0.4-hotfix" = _pRPkmb7S;
-        "default" = _pRPkmb7S;
+        "pkg-2.0.5" = _aD9cfKVd;
+        "default" = _aD9cfKVd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-broken-script";

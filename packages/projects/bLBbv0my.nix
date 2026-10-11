@@ -91,6 +91,16 @@ let
             "file" = "decapitator-1.0.8.jar";
             "hash" = "sha512-+8eH5FH+orogD1UsgOHS0nOCluYrpBcsJFD4Blvy5nSIlNtWLbzxpjR/X1kO55E0c/c/qefyZfCpgF97K+4GpQ==";
         };
+        _xBtgT9Ry = {
+            "id" = "xBtgT9Ry";
+            "file" = "decapitator_26.3.zip";
+            "hash" = "sha512-oJ7wvjTghccWVnv6oGbg49vlrJ0ZzgQSj2QM8b1yWkiuJ6hisOJvIHyg/bekyvLz2mY5l3zNkSIaKA82WEjGRg==";
+        };
+        _S12romJZ = {
+            "id" = "S12romJZ";
+            "file" = "decapitator-26.2-26.3.jar";
+            "hash" = "sha512-uLRBSNeYMaExgCXgH/nPcQkbM7ovCE8w05vImMcRo10Rmno0vUERpHudUnKWbFZLs36CgceRneoDYdYIbA+nKA==";
+        };
     in {
         "8LMdEjH0" = _8LMdEjH0;
         "RMc7ZDhT" = _RMc7ZDhT;
@@ -110,6 +120,8 @@ let
         "Wt4RfYKW" = _Wt4RfYKW;
         "gCcrLANf" = _gCcrLANf;
         "Zs6SYhbh" = _Zs6SYhbh;
+        "xBtgT9Ry" = _xBtgT9Ry;
+        "S12romJZ" = _S12romJZ;
         "datapack-1.19" = _8LMdEjH0;
         "datapack-1.19.1" = _8LMdEjH0;
         "datapack-1.19.2" = _8LMdEjH0;
@@ -137,6 +149,8 @@ let
         "datapack-26.1" = _fXBB1dBA;
         "datapack-26.1.1" = _fXBB1dBA;
         "datapack-26.1.2" = _fXBB1dBA;
+        "datapack-26.2" = _xBtgT9Ry;
+        "datapack-26.3" = _xBtgT9Ry;
         "fabric-1.19" = _Nh8YyP6q;
         "fabric-1.19.1" = _Nh8YyP6q;
         "fabric-1.19.2" = _Nh8YyP6q;
@@ -164,6 +178,8 @@ let
         "fabric-26.1" = _Zs6SYhbh;
         "fabric-26.1.1" = _Zs6SYhbh;
         "fabric-26.1.2" = _Zs6SYhbh;
+        "fabric-26.2" = _S12romJZ;
+        "fabric-26.3" = _S12romJZ;
         "forge-1.19" = _Nh8YyP6q;
         "forge-1.19.1" = _Nh8YyP6q;
         "forge-1.19.2" = _Nh8YyP6q;
@@ -191,6 +207,8 @@ let
         "forge-26.1" = _Zs6SYhbh;
         "forge-26.1.1" = _Zs6SYhbh;
         "forge-26.1.2" = _Zs6SYhbh;
+        "forge-26.2" = _S12romJZ;
+        "forge-26.3" = _S12romJZ;
         "neoforge-1.19" = _Nh8YyP6q;
         "neoforge-1.19.1" = _Nh8YyP6q;
         "neoforge-1.19.2" = _Nh8YyP6q;
@@ -218,6 +236,8 @@ let
         "neoforge-26.1" = _Zs6SYhbh;
         "neoforge-26.1.1" = _Zs6SYhbh;
         "neoforge-26.1.2" = _Zs6SYhbh;
+        "neoforge-26.2" = _S12romJZ;
+        "neoforge-26.3" = _S12romJZ;
         "quilt-1.19" = _Nh8YyP6q;
         "quilt-1.19.1" = _Nh8YyP6q;
         "quilt-1.19.2" = _Nh8YyP6q;
@@ -245,6 +265,8 @@ let
         "quilt-26.1" = _Zs6SYhbh;
         "quilt-26.1.1" = _Zs6SYhbh;
         "quilt-26.1.2" = _Zs6SYhbh;
+        "quilt-26.2" = _S12romJZ;
+        "quilt-26.3" = _S12romJZ;
         "pkg-1.0.0" = _8LMdEjH0;
         "pkg-1.0.1" = _RMc7ZDhT;
         "pkg-1.0.2" = _hLn6IkTe;
@@ -263,7 +285,9 @@ let
         "pkg-1.0.6+mod" = _Wt4RfYKW;
         "pkg-1.0.7+mod" = _gCcrLANf;
         "pkg-1.0.8+mod" = _Zs6SYhbh;
-        "default" = _Zs6SYhbh;
+        "pkg-26.2-26.3" = _xBtgT9Ry;
+        "pkg-26.2-26.3+mod" = _S12romJZ;
+        "default" = _S12romJZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "decapitator";

@@ -51,6 +51,36 @@ let
             "file" = "carvedpumpkins-fabric-1.2.1-1.21.1.jar";
             "hash" = "sha512-r76UlnRFQ0uuPXeLZbJBKymIZ+KeB2xvPKxuMMMnr0avwP7TMRoDGtkgV1AcjwugXAOz9gSUu62ykHH0ZtbDhg==";
         };
+        _b0aILzrM = {
+            "id" = "b0aILzrM";
+            "file" = "carvedpumpkins-fabric-1.3-26.1.2.jar";
+            "hash" = "sha512-EvSPv2Brnr1CKBy8HJYDtRFMRlGTDkTs3Sa5nuIreko2Jaz6zcfvAwRvqW5KobztBB49oCCGtowqXqqHt+l6Kg==";
+        };
+        _ypWaPWVY = {
+            "id" = "ypWaPWVY";
+            "file" = "carvedpumpkins-fabric-1.3-26.2.jar";
+            "hash" = "sha512-RwfAuu5Ay3N6x5h6kpAjtIO/LfO+fZjo+xkjU66TdeyuqYBOmslTh9foldAeP456LfLVLy2cp3tJmtmdzTg3iw==";
+        };
+        _xuDGQloD = {
+            "id" = "xuDGQloD";
+            "file" = "carvedpumpkins-fabric-1.3-26.3.jar";
+            "hash" = "sha512-RwWmOgwnkKtbE77FNY6r4lC814h4X0zf9C4aEBU75pI7wsBHRZi33WTUdERw5tTg9CeQVci15tA/qskbNqs3Jw==";
+        };
+        _FA2Q4fyy = {
+            "id" = "FA2Q4fyy";
+            "file" = "carvedpumpkins-neoforge-1.3-26.1.2.jar";
+            "hash" = "sha512-PS8Guy2jdrQXnkK620LsTcyUmlKzWRZqT2csfq0jlgcybTyHdoD3yi4qXjoE1XOIF7YYeYvSylSheSeN72aFvw==";
+        };
+        _lxYeBUmG = {
+            "id" = "lxYeBUmG";
+            "file" = "carvedpumpkins-neoforge-1.3-26.2.jar";
+            "hash" = "sha512-vxwqN35WJo9zzqPrcU778vaMo9trwiFG8l3Dwq7Ua/OmCuheGtatX6dv+p4/nBeFFWfNIAte4xjg3EWzxmFIzA==";
+        };
+        _LOk6z1ZC = {
+            "id" = "LOk6z1ZC";
+            "file" = "carvedpumpkins-neoforge-1.3-26.3.jar";
+            "hash" = "sha512-LntsoKtM6w6TGllAc+8BwSeTZv/Ez8vSFF514XzvDnchCzPrGRpW+pf7N0xCAaNfzdIItJfzX9LHAwfMKlbiSQ==";
+        };
     in {
         "kStsYVXh" = _kStsYVXh;
         "iuHiVALu" = _iuHiVALu;
@@ -62,17 +92,29 @@ let
         "iHMvB7bl" = _iHMvB7bl;
         "NBcdj90t" = _NBcdj90t;
         "ajRpMwNu" = _ajRpMwNu;
+        "b0aILzrM" = _b0aILzrM;
+        "ypWaPWVY" = _ypWaPWVY;
+        "xuDGQloD" = _xuDGQloD;
+        "FA2Q4fyy" = _FA2Q4fyy;
+        "lxYeBUmG" = _lxYeBUmG;
+        "LOk6z1ZC" = _LOk6z1ZC;
         "fabric-1.20.1" = _oXybY84O;
         "fabric-1.20.2" = _kStsYVXh;
         "fabric-1.21.2" = _enGB1TRC;
         "fabric-1.21.3" = _enGB1TRC;
         "fabric-1.21" = _ajRpMwNu;
         "fabric-1.21.1" = _ajRpMwNu;
+        "fabric-26.1.2" = _b0aILzrM;
+        "fabric-26.2" = _ypWaPWVY;
+        "fabric-26.3" = _xuDGQloD;
         "neoforge-1.20.2" = _iuHiVALu;
         "neoforge-1.20.1" = _ZxemoDeA;
         "neoforge-1.21.1" = _CTIwyiRK;
         "neoforge-1.21.2" = _iHMvB7bl;
         "neoforge-1.21.3" = _iHMvB7bl;
+        "neoforge-26.1.2" = _FA2Q4fyy;
+        "neoforge-26.2" = _lxYeBUmG;
+        "neoforge-26.3" = _LOk6z1ZC;
         "forge-1.20.1" = _ZxemoDeA;
         "forge-1.21.1" = _PPFBV0a0;
         "pkg-1.0-1.20.1" = _ZxemoDeA;
@@ -81,7 +123,10 @@ let
         "pkg-1.1-1.21.3" = _iHMvB7bl;
         "pkg-1.2-1.21.1" = _NBcdj90t;
         "pkg-1.2.1-1.21.1" = _ajRpMwNu;
-        "default" = _ajRpMwNu;
+        "pkg-1.3-26.1.2" = _FA2Q4fyy;
+        "pkg-1.3-26.2" = _lxYeBUmG;
+        "pkg-1.3-26.3" = _LOk6z1ZC;
+        "default" = _LOk6z1ZC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kaupens-carved-pumpkins";

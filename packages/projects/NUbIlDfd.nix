@@ -66,6 +66,26 @@ let
             "file" = "eclipse-core-client-2.13.1+1.8.jar";
             "hash" = "sha512-RoW+4Tgq8TsypGnrwjfmMDNUcaf5frzkwrqzhYcmR281WblmH8i3TBVmsjh/WTv/hQ1eQEiwY+Htlmssf/qJpA==";
         };
+        _su4nm0g6 = {
+            "id" = "su4nm0g6";
+            "file" = "eclipse-core-client-2.18.0+1.8.jar";
+            "hash" = "sha512-eUK5tc7PJ1VJUCebtlSQ4nj+vH9Lyw6uwVuWw5kZTpZe1Cu0JfgaIrVNRhMH9D7gV5Y2R6Yxw0ZmDe1jZQeyJw==";
+        };
+        _2gU7st1C = {
+            "id" = "2gU7st1C";
+            "file" = "eclipse-core-client-2.19.0+1.8.jar";
+            "hash" = "sha512-piuVv0Rv+F1Ec8jpCMUPp0PR1BrXD9m9viCu7FoZujGEKl3j+woubJLmqoCXlD8vPjNSvjjKEMU47nxEUN5iYQ==";
+        };
+        _GZJO7iqt = {
+            "id" = "GZJO7iqt";
+            "file" = "eclipse-core-client-2.22.0+1.8.jar";
+            "hash" = "sha512-6S5rkR5MXhEXoUi+LDX5XV6/NJSv6Hk3O3swh/xRX/kT0jDRvp8f0YlCB6fp5AbHnlGBAGxMkgQl/76FZhhEsQ==";
+        };
+        _x1ZqJHAJ = {
+            "id" = "x1ZqJHAJ";
+            "file" = "eclipse-core-client-2.23.1+1.8.jar";
+            "hash" = "sha512-8Ty10XswW8wDt+x1/sAkpM9ngzxvH7iTyHkNUuZRdgWqfzn2aqh4qRI8Rsj7q0TEQ6ThCTs9Ijwb0TmyoKMlRg==";
+        };
     in {
         "AuTg7BcI" = _AuTg7BcI;
         "9vAFHTce" = _9vAFHTce;
@@ -80,7 +100,11 @@ let
         "jrP0Tmyo" = _jrP0Tmyo;
         "CakCm7fG" = _CakCm7fG;
         "7W7zFbMq" = _7W7zFbMq;
-        "fabric-1.21.1" = _7W7zFbMq;
+        "su4nm0g6" = _su4nm0g6;
+        "2gU7st1C" = _2gU7st1C;
+        "GZJO7iqt" = _GZJO7iqt;
+        "x1ZqJHAJ" = _x1ZqJHAJ;
+        "fabric-1.21.1" = _x1ZqJHAJ;
         "pkg-1.6.2" = _AuTg7BcI;
         "pkg-1.6.5" = _9vAFHTce;
         "pkg-1.8.3" = _WFIz6Fix;
@@ -94,7 +118,11 @@ let
         "pkg-2.12.1+1.8" = _jrP0Tmyo;
         "pkg-2.13.0+1.8" = _CakCm7fG;
         "pkg-2.13.1+1.8" = _7W7zFbMq;
-        "default" = _7W7zFbMq;
+        "pkg-2.18.0" = _su4nm0g6;
+        "pkg-2.19.0" = _2gU7st1C;
+        "pkg-2.22.0" = _GZJO7iqt;
+        "pkg-2.23.1" = _x1ZqJHAJ;
+        "default" = _x1ZqJHAJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "eclipse-core-client";

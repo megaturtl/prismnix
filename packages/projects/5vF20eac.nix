@@ -36,6 +36,11 @@ let
             "file" = "NoteBlockTuner-2.0.1-1.26.2.jar";
             "hash" = "sha512-egSC2Er7zQCE2W9/lQTlNS34MSAC684sXsXyiYOFqHrdvMgNO8pshZmh80n0vGSQei2FuVq7dnXDDZsGY3E8TQ==";
         };
+        _B8qu7myq = {
+            "id" = "B8qu7myq";
+            "file" = "NoteBlockTuner-2.0.2-1.26.3.jar";
+            "hash" = "sha512-w7nC4rlBAhqC1yqIKUBL4L30NDvUAD4B9rrLW04th8RLe2B3JdHJZnZ422yOf+kSJpZ/PgNcSH5qvxKzua6yGg==";
+        };
     in {
         "NubMIAv0" = _NubMIAv0;
         "ZnW1SUrz" = _ZnW1SUrz;
@@ -44,6 +49,7 @@ let
         "jR4Y358J" = _jR4Y358J;
         "NcIQqwOG" = _NcIQqwOG;
         "o7VlakNZ" = _o7VlakNZ;
+        "B8qu7myq" = _B8qu7myq;
         "fabric-1.21.8" = _Zikro2bV;
         "fabric-1.21" = _ZnW1SUrz;
         "fabric-1.21.1" = _ZnW1SUrz;
@@ -60,6 +66,7 @@ let
         "fabric-26.1.1" = _NcIQqwOG;
         "fabric-26.1.2" = _NcIQqwOG;
         "fabric-26.2" = _o7VlakNZ;
+        "fabric-26.3" = _B8qu7myq;
         "pkg-1.0.0-1.21.8" = _NubMIAv0;
         "pkg-1.0.0-1.21.0" = _ZnW1SUrz;
         "pkg-1.0.0-1.21.2" = _Zikro2bV;
@@ -67,7 +74,8 @@ let
         "pkg-2.0.0-1.26.1" = _jR4Y358J;
         "pkg-2.0.1-1.26.1" = _NcIQqwOG;
         "pkg-2.0.1-1.26.2" = _o7VlakNZ;
-        "default" = _o7VlakNZ;
+        "pkg-2.0.2-1.26.3" = _B8qu7myq;
+        "default" = _B8qu7myq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "note-block-tuner";

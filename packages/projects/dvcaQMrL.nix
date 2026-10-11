@@ -96,6 +96,11 @@ let
             "file" = "morpher-1.1.4.jar";
             "hash" = "sha512-5kCY9RLzd7jAE6CwfqtxoneEfffuQHBM8NhatK27kD93GrCg/mtE4spWS/6z+TiELO5hh4NkbMMmN2UJ4g0Txg==";
         };
+        _HI07AGXj = {
+            "id" = "HI07AGXj";
+            "file" = "morpher-1.1.5.jar";
+            "hash" = "sha512-es4zPjpGlr/Rd39gciLo8joLADWNcKGol1Ku0LZk4UWtDcnBoiOLoarn3mA4ZkorDjqOrg4ujXThzedZS3brIg==";
+        };
     in {
         "dZzsKyee" = _dZzsKyee;
         "oyNvLPco" = _oyNvLPco;
@@ -116,8 +121,9 @@ let
         "CVokQei9" = _CVokQei9;
         "6y5Jp8V3" = _6y5Jp8V3;
         "WGLmRXpl" = _WGLmRXpl;
+        "HI07AGXj" = _HI07AGXj;
         "fabric-1.20.4" = _coZ2G2BM;
-        "fabric-1.21.1" = _WGLmRXpl;
+        "fabric-1.21.1" = _HI07AGXj;
         "forge-1.20.1" = _6y5Jp8V3;
         "pkg-1.0.0" = _Mw0zwH4c;
         "pkg-1.0.1" = _Jy4EYUZM;
@@ -133,7 +139,8 @@ let
         "pkg-1.1.3" = _CVokQei9;
         "pkg-1.0.8" = _6y5Jp8V3;
         "pkg-1.1.4" = _WGLmRXpl;
-        "default" = _WGLmRXpl;
+        "pkg-1.1.5" = _HI07AGXj;
+        "default" = _HI07AGXj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "morpher";

@@ -21,11 +21,17 @@ let
             "file" = "better_experience-0.3.5.jar";
             "hash" = "sha512-Kcvv57dQJDJ/KGGymg0ztrYhnk8h/wDE5Ygtr2AXT3O2eSNtJFzkMQHxa8p5MGi4XlBkAKD22t0fcBp6vXqsVA==";
         };
+        _GeDMeHt2 = {
+            "id" = "GeDMeHt2";
+            "file" = "better_experience-0.3.5.jar";
+            "hash" = "sha512-a7HfteqC5K4jwpgf2ZT6JYxeoqLw1SEdYrVfU2JlzgdrVCM+MehtZtUV0ZIvQ48cn9TogeuTAqNmzSyIWSPf3g==";
+        };
     in {
         "Fs759eRU" = _Fs759eRU;
         "9tjnXW4x" = _9tjnXW4x;
         "bopKE5X5" = _bopKE5X5;
         "66PTt5ca" = _66PTt5ca;
+        "GeDMeHt2" = _GeDMeHt2;
         "fabric-1.21.6" = _66PTt5ca;
         "fabric-1.21" = _66PTt5ca;
         "fabric-1.21.1" = _66PTt5ca;
@@ -35,11 +41,12 @@ let
         "fabric-1.21.5" = _66PTt5ca;
         "fabric-1.21.7" = _66PTt5ca;
         "fabric-1.21.8" = _66PTt5ca;
+        "fabric-26.3" = _GeDMeHt2;
         "pkg-0.2.0" = _Fs759eRU;
         "pkg-0.3.3" = _9tjnXW4x;
         "pkg-0.3.4" = _bopKE5X5;
-        "pkg-0.3.5" = _66PTt5ca;
-        "default" = _66PTt5ca;
+        "pkg-0.3.5" = _GeDMeHt2;
+        "default" = _GeDMeHt2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "betterexperience";

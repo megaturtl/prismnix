@@ -111,6 +111,11 @@ let
             "file" = "Voices-of-Wynn-fabric-2.2.1-fabric+MC-1.21.11.jar";
             "hash" = "sha512-X5lQwx85iiyb8FqScaXUhm+rIWMsR6NnyXA9GWp6Kdsj5W3wiCS8lvWx0dn5wArENbGmdqnniINRO7o/0INnXw==";
         };
+        _3UP2Zs16 = {
+            "id" = "3UP2Zs16";
+            "file" = "Voices-of-Wynn-fabric-3.0.0-fabric+MC-1.21.11.jar";
+            "hash" = "sha512-v8mEtlg2b1WMSxsu28eblT9xtyolLJ8A3VnJnHRS1qnoym7eZnPc5XB7WLFHh1IK2TSMrN4OEHfvOFJF6c+/7w==";
+        };
     in {
         "DdEZd6km" = _DdEZd6km;
         "VDXnovcz" = _VDXnovcz;
@@ -134,8 +139,9 @@ let
         "1FMd57cr" = _1FMd57cr;
         "IVETU5XN" = _IVETU5XN;
         "Zo7Hx5lx" = _Zo7Hx5lx;
+        "3UP2Zs16" = _3UP2Zs16;
         "fabric-1.21.4" = _YxXlYQyB;
-        "fabric-1.21.11" = _Zo7Hx5lx;
+        "fabric-1.21.11" = _3UP2Zs16;
         "pkg-1.10.2" = _DdEZd6km;
         "pkg-v1.10.3" = _VDXnovcz;
         "pkg-v1.10.4" = _btvbrZPX;
@@ -158,7 +164,8 @@ let
         "pkg-v2.1.0" = _1FMd57cr;
         "pkg-v2.2.0" = _IVETU5XN;
         "pkg-v2.2.1" = _Zo7Hx5lx;
-        "default" = _Zo7Hx5lx;
+        "pkg-v3.0.0" = _3UP2Zs16;
+        "default" = _3UP2Zs16;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vow";

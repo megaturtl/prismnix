@@ -921,6 +921,21 @@ let
             "file" = "tooltipstxf-26.2-1.0.8-neoforge.jar";
             "hash" = "sha512-K++Kbdb0Pmm8BT8CCX6a96G5Zsp0MLTOe7xNPQcT00wCylrN2MrtKkZnif+8X9pj884XImDpQikV7g+5Age4tA==";
         };
+        _kaF6Sdn3 = {
+            "id" = "kaF6Sdn3";
+            "file" = "tooltipstxf-26.3-1.0.8-fabric.jar";
+            "hash" = "sha512-t9qyfT5qb1Bp1g0ZEOv4bi8c/n5qOwkVNNwZXXTEjrkJXV5vwyHyZ0bmkQcuRHRPyk+nK7aYT98JSipdHrQEdQ==";
+        };
+        _P7WModWO = {
+            "id" = "P7WModWO";
+            "file" = "tooltipstxf-26.3-1.0.8-neoforge.jar";
+            "hash" = "sha512-62dkk3+cnVGPvBFwd7EfEONyvf8nunNqx5QiyBXaDa0FEQAFcicWWq3hULJGZ1VA6apfztjFW/RudEtGfTefug==";
+        };
+        _ATVD3GD5 = {
+            "id" = "ATVD3GD5";
+            "file" = "tooltipstxf-26.3-1.0.8-forge.jar";
+            "hash" = "sha512-Hpp9M2mvgyQ/R7IDK1Tk6Uv7vkRTqdtHICKrKRAsbaDMqB13hb48myIw0uIkJud8Pq5cmukSfTnAczcD82nVQQ==";
+        };
     in {
         "EHGJMwcI" = _EHGJMwcI;
         "yLRLIxLp" = _yLRLIxLp;
@@ -1106,6 +1121,9 @@ let
         "2lzau1WE" = _2lzau1WE;
         "gSjaJSmR" = _gSjaJSmR;
         "7XMpARMt" = _7XMpARMt;
+        "kaF6Sdn3" = _kaF6Sdn3;
+        "P7WModWO" = _P7WModWO;
+        "ATVD3GD5" = _ATVD3GD5;
         "fabric-1.18.2" = _1bcPFFcz;
         "fabric-1.19" = _mPmeAcgw;
         "fabric-1.19.1" = _mPmeAcgw;
@@ -1133,6 +1151,7 @@ let
         "fabric-26.1.1" = _rvT04wYS;
         "fabric-26.1.2" = _rvT04wYS;
         "fabric-26.2" = _2lzau1WE;
+        "fabric-26.3" = _kaF6Sdn3;
         "quilt-1.18.2" = _1bcPFFcz;
         "quilt-1.19" = _mPmeAcgw;
         "quilt-1.19.1" = _mPmeAcgw;
@@ -1160,6 +1179,7 @@ let
         "quilt-26.1.1" = _rvT04wYS;
         "quilt-26.1.2" = _rvT04wYS;
         "quilt-26.2" = _2lzau1WE;
+        "quilt-26.3" = _kaF6Sdn3;
         "forge-1.18.2" = _FGGhLVIb;
         "forge-1.19" = _UtRtk1WD;
         "forge-1.19.1" = _UtRtk1WD;
@@ -1185,6 +1205,7 @@ let
         "forge-26.1.1" = _SMvrD1aU;
         "forge-26.1.2" = _SMvrD1aU;
         "forge-26.2" = _gSjaJSmR;
+        "forge-26.3" = _ATVD3GD5;
         "neoforge-1.20" = _nCXMBKPG;
         "neoforge-1.20.1" = _nCXMBKPG;
         "neoforge-1.20.3" = _QZ5ySE1Q;
@@ -1207,6 +1228,7 @@ let
         "neoforge-26.1.1" = _7Z1dNugz;
         "neoforge-26.1.2" = _7Z1dNugz;
         "neoforge-26.2" = _7XMpARMt;
+        "neoforge-26.3" = _P7WModWO;
         "pkg-1.18.2-1.0.0-fabric" = _EHGJMwcI;
         "pkg-1.18.2-1.0.0-forge" = _yLRLIxLp;
         "pkg-1.19.2-1.0.0-fabric" = _WcZeJY4v;
@@ -1391,7 +1413,10 @@ let
         "pkg-26.2-1.0.8-fabric" = _2lzau1WE;
         "pkg-26.2-1.0.8-forge" = _gSjaJSmR;
         "pkg-26.2-1.0.8-neoforge" = _7XMpARMt;
-        "default" = _7XMpARMt;
+        "pkg-26.3-1.0.8-fabric" = _kaF6Sdn3;
+        "pkg-26.3-1.0.8-neoforge" = _P7WModWO;
+        "pkg-26.3-1.0.8-forge" = _ATVD3GD5;
+        "default" = _ATVD3GD5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tooltips-txf";

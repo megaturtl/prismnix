@@ -121,6 +121,16 @@ let
             "file" = "haul-data-pack-v1.3.4.jar";
             "hash" = "sha512-2cKh0FLgTQ22GlzP1GRE/oc1NFquh3ELgnxBddxwSq8e4IWD4vq1U5QIOGhVRNYsn/sQScLh21k1VSj4ltoMig==";
         };
+        _Dib5bmYC = {
+            "id" = "Dib5bmYC";
+            "file" = "Haul-v2.0.0.zip";
+            "hash" = "sha512-COSGBWxOAfMdr7IqF36ive6nKz/wSY91m7sDM4uZoa7kRPVVN2UUtz5lParvtCq9rUzuP7FazN5uz/T+wef/zg==";
+        };
+        _qDEq3QHR = {
+            "id" = "qDEq3QHR";
+            "file" = "haul-data-pack-v2.0.0.jar";
+            "hash" = "sha512-GvhaN5Pd+zv35Vvbapr9LqxqLWOs9A0CttG7BNJi3m+zEJ7vdtFccK8xdJP3JZdM13irVhExIffle/o6ivpIaw==";
+        };
     in {
         "kdhzwwgF" = _kdhzwwgF;
         "a0eVHUXv" = _a0eVHUXv;
@@ -146,6 +156,8 @@ let
         "mAPc8ZYK" = _mAPc8ZYK;
         "M4yyUPmh" = _M4yyUPmh;
         "e3YbPb3o" = _e3YbPb3o;
+        "Dib5bmYC" = _Dib5bmYC;
+        "qDEq3QHR" = _qDEq3QHR;
         "datapack-1.21.4" = _nYglZjRZ;
         "datapack-1.21.5" = _LhojwKJR;
         "datapack-1.21.6" = _LhojwKJR;
@@ -158,6 +170,7 @@ let
         "datapack-26.1.1" = _M4yyUPmh;
         "datapack-26.1.2" = _M4yyUPmh;
         "datapack-26.2" = _M4yyUPmh;
+        "datapack-26.3" = _Dib5bmYC;
         "fabric-1.21.4" = _B7rvYnrT;
         "fabric-1.21.5" = _mAPc8ZYK;
         "fabric-1.21.6" = _mAPc8ZYK;
@@ -170,6 +183,7 @@ let
         "fabric-26.1.1" = _e3YbPb3o;
         "fabric-26.1.2" = _e3YbPb3o;
         "fabric-26.2" = _e3YbPb3o;
+        "fabric-26.3" = _qDEq3QHR;
         "forge-1.21.4" = _B7rvYnrT;
         "forge-1.21.5" = _mAPc8ZYK;
         "forge-1.21.6" = _mAPc8ZYK;
@@ -182,6 +196,7 @@ let
         "forge-26.1.1" = _e3YbPb3o;
         "forge-26.1.2" = _e3YbPb3o;
         "forge-26.2" = _e3YbPb3o;
+        "forge-26.3" = _qDEq3QHR;
         "neoforge-1.21.4" = _B7rvYnrT;
         "neoforge-1.21.5" = _mAPc8ZYK;
         "neoforge-1.21.6" = _mAPc8ZYK;
@@ -194,6 +209,7 @@ let
         "neoforge-26.1.1" = _e3YbPb3o;
         "neoforge-26.1.2" = _e3YbPb3o;
         "neoforge-26.2" = _e3YbPb3o;
+        "neoforge-26.3" = _qDEq3QHR;
         "quilt-1.21.4" = _B7rvYnrT;
         "quilt-1.21.5" = _mAPc8ZYK;
         "quilt-1.21.6" = _mAPc8ZYK;
@@ -206,6 +222,7 @@ let
         "quilt-26.1.1" = _e3YbPb3o;
         "quilt-26.1.2" = _e3YbPb3o;
         "quilt-26.2" = _e3YbPb3o;
+        "quilt-26.3" = _qDEq3QHR;
         "pkg-1.0" = _kdhzwwgF;
         "pkg-1.0+mod" = _a0eVHUXv;
         "pkg-1.1" = _rK6DmUaV;
@@ -230,7 +247,9 @@ let
         "pkg-1.3.3+mod" = _mAPc8ZYK;
         "pkg-v1.3.4" = _M4yyUPmh;
         "pkg-v1.3.4+mod" = _e3YbPb3o;
-        "default" = _e3YbPb3o;
+        "pkg-v2.0.0" = _Dib5bmYC;
+        "pkg-v2.0.0+mod" = _qDEq3QHR;
+        "default" = _qDEq3QHR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "haul-data-pack";

@@ -11,9 +11,21 @@ let
             "file" = "gravity-enchantment-v1.0.0.jar";
             "hash" = "sha512-hG/nXNdn8Ctnv/+DPCfA4lW3/XLI6sL/MomLUnwu87mFegdwZ/xgxqD4JdagbRcb9xW1t/UWuFf0cvmcFLxy3Q==";
         };
+        _OqsjHMw5 = {
+            "id" = "OqsjHMw5";
+            "file" = "Gravity Enchantment v1.0.0 [26.3].zip";
+            "hash" = "sha512-5rr4EjOssSobU7DSsEKI0c1KgX03j2zWWERH6H9jLw0iH1Y55GIdrh+gDSPOGzf90OFOocqztEvL0ecOhJLc0A==";
+        };
+        _UFybHRaE = {
+            "id" = "UFybHRaE";
+            "file" = "gravity-enchantment-1.0.0.jar";
+            "hash" = "sha512-sfwgP90l2Vepl7Q/oBZ3Qu5aDK07H9KCtt6AnhSUiV/lf5myTxIq9Hm/HP7Es8esSUpT2DgTQ7P6hpNiUoa4YA==";
+        };
     in {
         "FaUrwaJ4" = _FaUrwaJ4;
         "owoEWmOJ" = _owoEWmOJ;
+        "OqsjHMw5" = _OqsjHMw5;
+        "UFybHRaE" = _UFybHRaE;
         "datapack-1.21" = _FaUrwaJ4;
         "datapack-1.21.1" = _FaUrwaJ4;
         "datapack-1.21.2" = _FaUrwaJ4;
@@ -30,6 +42,7 @@ let
         "datapack-26.1.1" = _FaUrwaJ4;
         "datapack-26.1.2" = _FaUrwaJ4;
         "datapack-26.2" = _FaUrwaJ4;
+        "datapack-26.3" = _OqsjHMw5;
         "fabric-1.21" = _owoEWmOJ;
         "fabric-1.21.1" = _owoEWmOJ;
         "fabric-1.21.2" = _owoEWmOJ;
@@ -46,6 +59,7 @@ let
         "fabric-26.1.1" = _owoEWmOJ;
         "fabric-26.1.2" = _owoEWmOJ;
         "fabric-26.2" = _owoEWmOJ;
+        "fabric-26.3" = _UFybHRaE;
         "forge-1.21" = _owoEWmOJ;
         "forge-1.21.1" = _owoEWmOJ;
         "forge-1.21.2" = _owoEWmOJ;
@@ -62,6 +76,7 @@ let
         "forge-26.1.1" = _owoEWmOJ;
         "forge-26.1.2" = _owoEWmOJ;
         "forge-26.2" = _owoEWmOJ;
+        "forge-26.3" = _UFybHRaE;
         "neoforge-1.21" = _owoEWmOJ;
         "neoforge-1.21.1" = _owoEWmOJ;
         "neoforge-1.21.2" = _owoEWmOJ;
@@ -78,6 +93,7 @@ let
         "neoforge-26.1.1" = _owoEWmOJ;
         "neoforge-26.1.2" = _owoEWmOJ;
         "neoforge-26.2" = _owoEWmOJ;
+        "neoforge-26.3" = _UFybHRaE;
         "quilt-1.21" = _owoEWmOJ;
         "quilt-1.21.1" = _owoEWmOJ;
         "quilt-1.21.2" = _owoEWmOJ;
@@ -94,9 +110,12 @@ let
         "quilt-26.1.1" = _owoEWmOJ;
         "quilt-26.1.2" = _owoEWmOJ;
         "quilt-26.2" = _owoEWmOJ;
+        "quilt-26.3" = _UFybHRaE;
         "pkg-v1.0.0" = _FaUrwaJ4;
         "pkg-v1.0.0+mod" = _owoEWmOJ;
-        "default" = _owoEWmOJ;
+        "pkg-1.0.0" = _OqsjHMw5;
+        "pkg-1.0.0+mod" = _UFybHRaE;
+        "default" = _UFybHRaE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gravity-enchantment";

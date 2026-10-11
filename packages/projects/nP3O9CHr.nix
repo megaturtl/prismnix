@@ -31,6 +31,11 @@ let
             "file" = "eventjar-1.0.jar";
             "hash" = "sha512-c9VGNaACuKJTJbVmrVxq4T4C4vlkPoScJhAuaUvc4+irG+bCT0k2vnikf4GrIzIwewAmfFt8r1QbU2opGsqK3Q==";
         };
+        _Jpu6iIfb = {
+            "id" = "Jpu6iIfb";
+            "file" = "eventjar-2.0-all.jar";
+            "hash" = "sha512-1QudR3RuFaY3P41i7pxx4PDZY92C1X9qmk54N7SMtKTt1YwZdTheKBGR4Mq8hqb9FYCO52cc6q4CR9QxjLIpTw==";
+        };
     in {
         "r04y9xj2" = _r04y9xj2;
         "EfgaQEF8" = _EfgaQEF8;
@@ -38,13 +43,15 @@ let
         "Te0SI3wZ" = _Te0SI3wZ;
         "UPCHmlaM" = _UPCHmlaM;
         "N8hirlYZ" = _N8hirlYZ;
-        "forge-1.20.1" = _N8hirlYZ;
+        "Jpu6iIfb" = _Jpu6iIfb;
+        "forge-1.20.1" = _Jpu6iIfb;
         "pkg-1.0.0" = _EfgaQEF8;
         "pkg-1.2.0" = _SRt0YESb;
         "pkg-1.2.1" = _Te0SI3wZ;
         "pkg-1.2.2" = _UPCHmlaM;
         "pkg-1.2.3" = _N8hirlYZ;
-        "default" = _N8hirlYZ;
+        "pkg-2.0.0" = _Jpu6iIfb;
+        "default" = _Jpu6iIfb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "event.jar";

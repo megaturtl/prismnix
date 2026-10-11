@@ -431,6 +431,16 @@ let
             "file" = "PigPen-fabric-MC26.2-26.2.0.1.jar";
             "hash" = "sha512-9QFTl3MqhGX3BHOi0uAyFxhaqdIWBO8JxOeniv9ZQfQqQ4wtbcwG+HwbDR8r/0e4RbXwA/9qLCe2QJnkMWIAow==";
         };
+        _MmM21n1t = {
+            "id" = "MmM21n1t";
+            "file" = "PigPen-fabric-MC26.3-26.3.0.1.jar";
+            "hash" = "sha512-KhHowzgqYIDeuP62XpJ+RaqtG1mcw5H5BwCmcMUaLIKwdGzYKXA98McSV/XswVX43kEBpMt5zGHolZC++nXsQA==";
+        };
+        _vPjDeDz7 = {
+            "id" = "vPjDeDz7";
+            "file" = "PigPen-neoforge-MC26.3-26.3.0.1.jar";
+            "hash" = "sha512-sGRhCo410bJmWFcxYrOjHo862N09uKRtpK1ShF/FUJ6PVUbrvaIDLTZvKzAtqfp90NfPT9BwL3NF3/nEt6ZGag==";
+        };
     in {
         "Wija88m5" = _Wija88m5;
         "Rxaotkhk" = _Rxaotkhk;
@@ -518,6 +528,8 @@ let
         "nIdjpn0M" = _nIdjpn0M;
         "sRF6cq83" = _sRF6cq83;
         "4XPBDpal" = _4XPBDpal;
+        "MmM21n1t" = _MmM21n1t;
+        "vPjDeDz7" = _vPjDeDz7;
         "forge-1.16.1" = _Wija88m5;
         "forge-1.16.2" = _cDXe3J18;
         "forge-1.16.3" = _2tHj0zbf;
@@ -556,6 +568,7 @@ let
         "fabric-26.1.1" = _nIdjpn0M;
         "fabric-26.1.2" = _nIdjpn0M;
         "fabric-26.2" = _4XPBDpal;
+        "fabric-26.3" = _MmM21n1t;
         "quilt-1.17.1" = _TE3OyPhi;
         "quilt-1.18.1" = _Upw7t1Gd;
         "quilt-1.18.2" = _fU3i2s28;
@@ -573,6 +586,7 @@ let
         "neoforge-26.1.1" = _WwdQ7LIM;
         "neoforge-26.1.2" = _WwdQ7LIM;
         "neoforge-26.2" = _sRF6cq83;
+        "neoforge-26.3" = _vPjDeDz7;
         "pkg-1.0.1" = _Wija88m5;
         "pkg-2.0.1" = _Rxaotkhk;
         "pkg-2.0.2" = _aofu7LWM;
@@ -612,7 +626,8 @@ let
         "pkg-26.1.2.3" = _SxRA3LJh;
         "pkg-26.1.2.4" = _nIdjpn0M;
         "pkg-26.2.0.1" = _4XPBDpal;
-        "default" = _4XPBDpal;
+        "pkg-26.3.0.1" = _vPjDeDz7;
+        "default" = _vPjDeDz7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pig-pen-cipher";

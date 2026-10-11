@@ -126,6 +126,21 @@ let
             "file" = "gamerulesmod-fabric-2.0.0+26.2.jar";
             "hash" = "sha512-dgt16xLNliEvd1Zk2wj5gRcObR0/Eq6otfmRxog2wKb1UmT4oJJEOUwozhxf71aLUQSNOkU8BgUOemsH+RxwEw==";
         };
+        _vZq5hbK3 = {
+            "id" = "vZq5hbK3";
+            "file" = "gamerulesmod-neoforge-2.0.1+26.3.jar";
+            "hash" = "sha512-6azOIs3+bnEEqXGVUnuPwEU+4r8wnSefjigCYam4bIZtAqemtDDjIQKrhYCH3tZZtIPFnoN6yeBPWoFqjDCDaA==";
+        };
+        _UwL8391S = {
+            "id" = "UwL8391S";
+            "file" = "gamerulesmod-fabric-2.0.1+26.3.jar";
+            "hash" = "sha512-3HQSDVNClP94gKoIqkvoDHdg4jJOCxvjkj8DI2pjw7+CaL5rFNH56OfBPh1Y0X+sFzVJTyShBWnG0goTuW8ilA==";
+        };
+        _oBj6fYzX = {
+            "id" = "oBj6fYzX";
+            "file" = "gamerulesmod-forge-2.0.1+26.3.jar";
+            "hash" = "sha512-ndwZzAsMGbfchlngVky5UvahqxU7MQSOQrQIvZVqjzVjlajuWahZUWoya4hUG2eGH+961PjhkVZgU3G0CLtS7A==";
+        };
     in {
         "JRoPJaPB" = _JRoPJaPB;
         "mHCCG1qe" = _mHCCG1qe;
@@ -152,6 +167,9 @@ let
         "XlNI6zB4" = _XlNI6zB4;
         "rlKKXVOi" = _rlKKXVOi;
         "MU2l3b9n" = _MU2l3b9n;
+        "vZq5hbK3" = _vZq5hbK3;
+        "UwL8391S" = _UwL8391S;
+        "oBj6fYzX" = _oBj6fYzX;
         "fabric-1.21" = _OANFVNk0;
         "fabric-1.21.1" = _OANFVNk0;
         "fabric-1.21.2" = _9jtBEBH7;
@@ -168,6 +186,7 @@ let
         "fabric-26.1.1" = _Gx1pgcu7;
         "fabric-26.1.2" = _Gx1pgcu7;
         "fabric-26.2" = _MU2l3b9n;
+        "fabric-26.3" = _UwL8391S;
         "quilt-1.21" = _OANFVNk0;
         "quilt-1.21.1" = _OANFVNk0;
         "quilt-1.21.2" = _9jtBEBH7;
@@ -183,14 +202,17 @@ let
         "quilt-26.1" = _Gx1pgcu7;
         "quilt-26.1.1" = _Gx1pgcu7;
         "quilt-26.1.2" = _Gx1pgcu7;
+        "quilt-26.3" = _UwL8391S;
         "forge-26.1" = _eGkJDPHx;
         "forge-26.1.1" = _eGkJDPHx;
         "forge-26.1.2" = _eGkJDPHx;
         "forge-26.2" = _XlNI6zB4;
+        "forge-26.3" = _oBj6fYzX;
         "neoforge-26.1" = _isOn9EK9;
         "neoforge-26.1.1" = _isOn9EK9;
         "neoforge-26.1.2" = _isOn9EK9;
         "neoforge-26.2" = _rlKKXVOi;
+        "neoforge-26.3" = _vZq5hbK3;
         "pkg-1.0.0+1.21-technical" = _JRoPJaPB;
         "pkg-1.0.0+1.21-hardcore" = _mHCCG1qe;
         "pkg-1.0.0+1.21" = _OANFVNk0;
@@ -216,7 +238,10 @@ let
         "pkg-2.0.0+26.2-forge" = _XlNI6zB4;
         "pkg-2.0.0+26.2-neoforge" = _rlKKXVOi;
         "pkg-2.0.0+26.2-fabric" = _MU2l3b9n;
-        "default" = _MU2l3b9n;
+        "pkg-2.0.1+26.3-neoforge" = _vZq5hbK3;
+        "pkg-2.0.1+26.3-fabric" = _UwL8391S;
+        "pkg-2.0.1+26.3-forge" = _oBj6fYzX;
+        "default" = _oBj6fYzX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "game-rules";

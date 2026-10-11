@@ -71,6 +71,16 @@ let
             "file" = "AzaleaGrowthControl-v26.2.0-mc26.2.x-NeoForge.jar";
             "hash" = "sha512-3rs4PszDvSRzMepMGVGDiODNOovjMYTxP0/4jWMcHwcdJ/0i3PJf6alYY7gxgO43jiPQsO2I/E9aKl8qqTWLZg==";
         };
+        _k1vaujAv = {
+            "id" = "k1vaujAv";
+            "file" = "azaleagrowthcontrol-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-96r/wWFR3TmLv1Kfto8vmra81+Dsz4nL8DIO7OQ248tQaGz//nwQdeddg+izC8X+7tS03ZhcG5mmwv0zw8a6sw==";
+        };
+        _xcWpYpjh = {
+            "id" = "xcWpYpjh";
+            "file" = "azaleagrowthcontrol-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-K+pVZoK2gr0p9UVj3LqaPGltNDyWeEWgPp3i6RNKSmIit+b73zO+BqptMDQxf0NV1Gi1c0OHAOirQvm5sf0/hg==";
+        };
     in {
         "AmrutNNu" = _AmrutNNu;
         "wooJwmiS" = _wooJwmiS;
@@ -86,6 +96,8 @@ let
         "G37yqOMd" = _G37yqOMd;
         "sceicd0S" = _sceicd0S;
         "4uWvl73h" = _4uWvl73h;
+        "k1vaujAv" = _k1vaujAv;
+        "xcWpYpjh" = _xcWpYpjh;
         "fabric-1.21.10" = _AmrutNNu;
         "fabric-1.21.5" = _uCojuyZF;
         "fabric-1.21.8" = _bKaWQgFw;
@@ -95,6 +107,7 @@ let
         "fabric-26.1.2" = _kiwTI7Pi;
         "fabric-1.21.1" = _G37yqOMd;
         "fabric-26.2" = _sceicd0S;
+        "fabric-26.3" = _xcWpYpjh;
         "neoforge-1.21.10" = _wooJwmiS;
         "neoforge-1.21.5" = _KItJwP5O;
         "neoforge-1.21.8" = _rutWXgG4;
@@ -104,6 +117,7 @@ let
         "neoforge-26.1.2" = _YRphQBxs;
         "neoforge-1.21.1" = _vYDrJny9;
         "neoforge-26.2" = _4uWvl73h;
+        "neoforge-26.3" = _k1vaujAv;
         "pkg-21.10.0" = _wooJwmiS;
         "pkg-v21.5.0-1.21.5-Fabric" = _uCojuyZF;
         "pkg-v21.5.0-1.21.5-NeoForge" = _KItJwP5O;
@@ -113,7 +127,8 @@ let
         "pkg-26.1.0" = _YRphQBxs;
         "pkg-21.1.0" = _G37yqOMd;
         "pkg-26.2.0" = _4uWvl73h;
-        "default" = _4uWvl73h;
+        "pkg-26.3.0" = _xcWpYpjh;
+        "default" = _xcWpYpjh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "azalea-growth-control";

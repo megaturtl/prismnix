@@ -161,6 +161,16 @@ let
             "file" = "spawn-egg-recipe-1.0.jar";
             "hash" = "sha512-C19X+uE/zM0onJYYLMrL97vgg2lqeV/qkmCmB4duGgxnYCKP7GYestOR2MnIcLYulVFYPNmlXlCMlkpxz9GYJg==";
         };
+        _m8DW6QYI = {
+            "id" = "m8DW6QYI";
+            "file" = "spawn_egg-26.3.zip";
+            "hash" = "sha512-1GlPQgS6MQ+o4X7HLtOkq8A3qqfq5pvYDHaPYzh55rOmZvAciusSHqNKQg6nAch7yuKUWqymXD5Vc6ukMdbWog==";
+        };
+        _L9n9jyyE = {
+            "id" = "L9n9jyyE";
+            "file" = "spawn-egg-recipe-1.0.jar";
+            "hash" = "sha512-bQ1dZDiw43+R4eRwnCcm8mhQvuwVYSavJH0V5IiyHWn6wbFnOGRJfPtbomkfyZbAeY2k94h/gmZxGOGENEJPCA==";
+        };
     in {
         "3qYIHZXq" = _3qYIHZXq;
         "OMxgryfz" = _OMxgryfz;
@@ -194,6 +204,8 @@ let
         "du2M0J6o" = _du2M0J6o;
         "HwSUmyYL" = _HwSUmyYL;
         "2HrgWhyV" = _2HrgWhyV;
+        "m8DW6QYI" = _m8DW6QYI;
+        "L9n9jyyE" = _L9n9jyyE;
         "datapack-1.21.2" = _No4VJBov;
         "datapack-1.21.3" = _No4VJBov;
         "datapack-1.21.4" = _No4VJBov;
@@ -229,6 +241,7 @@ let
         "datapack-26.2-snapshot-2" = _6U9GIkTp;
         "datapack-26.2" = _HwSUmyYL;
         "datapack-26.3-snapshot-1" = _HwSUmyYL;
+        "datapack-26.3" = _m8DW6QYI;
         "fabric-1.21.2" = _iTGAJAdo;
         "fabric-1.21.3" = _iTGAJAdo;
         "fabric-1.21.4" = _iTGAJAdo;
@@ -264,6 +277,7 @@ let
         "fabric-26.2-snapshot-2" = _du2M0J6o;
         "fabric-26.2" = _2HrgWhyV;
         "fabric-26.3-snapshot-1" = _2HrgWhyV;
+        "fabric-26.3" = _L9n9jyyE;
         "forge-1.21.2" = _iTGAJAdo;
         "forge-1.21.3" = _iTGAJAdo;
         "forge-1.21.4" = _iTGAJAdo;
@@ -299,6 +313,7 @@ let
         "forge-26.2-snapshot-2" = _du2M0J6o;
         "forge-26.2" = _2HrgWhyV;
         "forge-26.3-snapshot-1" = _2HrgWhyV;
+        "forge-26.3" = _L9n9jyyE;
         "neoforge-1.21.2" = _iTGAJAdo;
         "neoforge-1.21.3" = _iTGAJAdo;
         "neoforge-1.21.4" = _iTGAJAdo;
@@ -334,6 +349,7 @@ let
         "neoforge-26.2-snapshot-2" = _du2M0J6o;
         "neoforge-26.2" = _2HrgWhyV;
         "neoforge-26.3-snapshot-1" = _2HrgWhyV;
+        "neoforge-26.3" = _L9n9jyyE;
         "quilt-1.21.2" = _iTGAJAdo;
         "quilt-1.21.3" = _iTGAJAdo;
         "quilt-1.21.4" = _iTGAJAdo;
@@ -369,15 +385,16 @@ let
         "quilt-26.2-snapshot-2" = _du2M0J6o;
         "quilt-26.2" = _2HrgWhyV;
         "quilt-26.3-snapshot-1" = _2HrgWhyV;
-        "pkg-1.0" = _5Ecd7NZV;
-        "pkg-1.0+mod" = _kKBEG5Og;
+        "quilt-26.3" = _L9n9jyyE;
+        "pkg-1.0" = _m8DW6QYI;
+        "pkg-1.0+mod" = _L9n9jyyE;
         "pkg-1.1" = _rIBycXRY;
         "pkg-1.1+mod" = _CzgZTC8H;
         "pkg-1.2" = _No4VJBov;
         "pkg-1.2+mod" = _iTGAJAdo;
         "pkg-1.3" = _HwSUmyYL;
         "pkg-1.3+mod" = _2HrgWhyV;
-        "default" = _2HrgWhyV;
+        "default" = _L9n9jyyE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spawn-egg-recipe";

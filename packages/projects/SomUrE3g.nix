@@ -161,6 +161,16 @@ let
             "file" = "pyrotechnic-elytra-neoforge-1.21.11-1.0.1.jar";
             "hash" = "sha512-5JfZEIgHBj8Tk7h88WW0QEUzvzGnXgJfcAeZI1yIw1G69BhjaMKd3hvEgOBp7hevWHAiUMF0sUa3o4rjKdjwsA==";
         };
+        _U9HCzXIS = {
+            "id" = "U9HCzXIS";
+            "file" = "pyrotechnic-elytra-fabric-26.1-1.0.1.jar";
+            "hash" = "sha512-ZQ0ryiRqvA6eJS64N8x89GXRdrVY9zYPBty1tkIkj4RhoWzIJwZBm4VdXSYlJpMjqakACWp66lGXbYEez8Sf6g==";
+        };
+        _5NlHbwgH = {
+            "id" = "5NlHbwgH";
+            "file" = "pyrotechnic-elytra-neoforge-26.1-1.0.1.jar";
+            "hash" = "sha512-yQ3HZOzx8yF2vdV72HCqjo2h37yxCF837pY6ezQqZER8zp1wEOCvBkE0OldRQL2D0iA/oR0z9MNLUwok8e7U+w==";
+        };
     in {
         "GrBCa2D0" = _GrBCa2D0;
         "V7wyLf9S" = _V7wyLf9S;
@@ -194,6 +204,8 @@ let
         "JkYoaDaX" = _JkYoaDaX;
         "JBNZXWE7" = _JBNZXWE7;
         "UtNQPLjX" = _UtNQPLjX;
+        "U9HCzXIS" = _U9HCzXIS;
+        "5NlHbwgH" = _5NlHbwgH;
         "forge-1.18.2" = _GrBCa2D0;
         "forge-1.19.2" = _fRYn8BXl;
         "forge-1.19.4" = _NKOf0fMq;
@@ -216,6 +228,8 @@ let
         "fabric-1.21.8" = _exZRA6Tw;
         "fabric-1.21.10" = _VjZXW7ST;
         "fabric-1.21.11" = _JBNZXWE7;
+        "fabric-26.1" = _U9HCzXIS;
+        "fabric-26.1.1" = _U9HCzXIS;
         "neoforge-1.20.2" = _Vj0eQaIV;
         "neoforge-1.20.4" = _fzjUgWjD;
         "neoforge-1.21" = _FItrTwaf;
@@ -228,9 +242,11 @@ let
         "neoforge-1.21.8" = _FHKotvKW;
         "neoforge-1.21.10" = _JkYoaDaX;
         "neoforge-1.21.11" = _UtNQPLjX;
+        "neoforge-26.1" = _5NlHbwgH;
+        "neoforge-26.1.1" = _5NlHbwgH;
         "pkg-1.0.0" = _r7ojJwH4;
-        "pkg-1.0.1" = _UtNQPLjX;
-        "default" = _UtNQPLjX;
+        "pkg-1.0.1" = _5NlHbwgH;
+        "default" = _5NlHbwgH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pyrotechnic-elytra";

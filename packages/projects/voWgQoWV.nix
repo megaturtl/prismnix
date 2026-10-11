@@ -106,6 +106,26 @@ let
             "file" = "launchpad-1.9.2+26.1.2-full.jar";
             "hash" = "sha512-GD1fHtB0ayyU8xlElF9Mc5bINt6UK0FtU/7vfj2+fQW90zpqthmeOBR6cxaoFBf0TpzudwSUwFGp040tTSuSpQ==";
         };
+        _pJThJE0y = {
+            "id" = "pJThJE0y";
+            "file" = "launchpad-1.10.0+26.1.2-full.jar";
+            "hash" = "sha512-wueHK015ySOf8TqmO2K4ex21cWPcLGHsJzShSk5AF5Vslm891IsDiCdWaRYBDl1un0+93Y/DjTMaABiINYvwfA==";
+        };
+        _Pv4RSdw3 = {
+            "id" = "Pv4RSdw3";
+            "file" = "launchpad-1.10.0+26.2-full.jar";
+            "hash" = "sha512-IdDj6s9Q1+dwE+sm+fhklD4O9o8t1bb9EI5CNdX7pN3K/UEv1kpZDvrH9rV5w9iSahZJU2Lb1YAklEoycFnTCw==";
+        };
+        _SmoKhFsl = {
+            "id" = "SmoKhFsl";
+            "file" = "launchpad-1.10.1+26.1.2-full.jar";
+            "hash" = "sha512-upcM1Ip37ZklGFownQZdb6BcKHWd/maTUjJspqGNp+OC91zKuEU6+OLKUe0RX4CPqRotgLsCEuZyQ5rPSTRktQ==";
+        };
+        _fS4WGZ2B = {
+            "id" = "fS4WGZ2B";
+            "file" = "launchpad-1.10.1+26.2-full.jar";
+            "hash" = "sha512-kyAnJS+JKwd6TVi8hKPFAq+f4qqlKJxhaWQ2t5S38JD0mvqvM0ntSI3esGAVnmRFOCRrVh6UnfkSvN0uJiVMXg==";
+        };
     in {
         "ybGNkI98" = _ybGNkI98;
         "c4WbtA7M" = _c4WbtA7M;
@@ -128,9 +148,14 @@ let
         "DVHAu4EU" = _DVHAu4EU;
         "BF1qprAs" = _BF1qprAs;
         "VtoPSyMI" = _VtoPSyMI;
-        "neoforge-26.1" = _VtoPSyMI;
-        "neoforge-26.1.1" = _VtoPSyMI;
-        "neoforge-26.1.2" = _VtoPSyMI;
+        "pJThJE0y" = _pJThJE0y;
+        "Pv4RSdw3" = _Pv4RSdw3;
+        "SmoKhFsl" = _SmoKhFsl;
+        "fS4WGZ2B" = _fS4WGZ2B;
+        "neoforge-26.1" = _SmoKhFsl;
+        "neoforge-26.1.1" = _SmoKhFsl;
+        "neoforge-26.1.2" = _SmoKhFsl;
+        "neoforge-26.2" = _fS4WGZ2B;
         "pkg-1.0.0+26.1.2" = _ybGNkI98;
         "pkg-1.1.0+26.1.2" = _c4WbtA7M;
         "pkg-1.2.0+26.1.2" = _lnWg2zHI;
@@ -152,7 +177,11 @@ let
         "pkg-1.9.0+26.1.2" = _DVHAu4EU;
         "pkg-1.9.1+26.1.2" = _BF1qprAs;
         "pkg-1.9.2+26.1.2" = _VtoPSyMI;
-        "default" = _VtoPSyMI;
+        "pkg-1.10.0+26.1.2" = _pJThJE0y;
+        "pkg-1.10.0+26.2" = _Pv4RSdw3;
+        "pkg-1.10.1+26.1.2" = _SmoKhFsl;
+        "pkg-1.10.1+26.2" = _fS4WGZ2B;
+        "default" = _fS4WGZ2B;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "launchpad";

@@ -26,19 +26,25 @@ let
             "file" = "Excalibur Jei Support 1.4.zip";
             "hash" = "sha512-KJDcaaeKKxXv2COmQBoAcLuF5dHtOZVmtMR0esC1af/SLuEx/5anXZaTg2tbAItA984S35mwxcep8zAJHaIfFQ==";
         };
+        _NTnJ134B = {
+            "id" = "NTnJ134B";
+            "file" = "Excalibur Jei Support 1.4_Hotfix1.zip";
+            "hash" = "sha512-yTonZPCyEnLWc03TtXFyqlcpxSACaNjfRaRKHg6+h3RdutdQj8tViQg/FA9VivZ28LnY/Pvw0msyDG5DjUuayw==";
+        };
     in {
         "GPYQQ17E" = _GPYQQ17E;
         "63ImXotK" = _63ImXotK;
         "one2PeLK" = _one2PeLK;
         "uDIX7D0c" = _uDIX7D0c;
         "eDDMnZL6" = _eDDMnZL6;
+        "NTnJ134B" = _NTnJ134B;
         "minecraft-1.20" = _63ImXotK;
         "minecraft-1.20.1" = _one2PeLK;
         "minecraft-1.20.2" = _63ImXotK;
         "minecraft-1.20.4" = _63ImXotK;
         "minecraft-1.20.6" = _63ImXotK;
-        "minecraft-1.21" = _eDDMnZL6;
-        "minecraft-1.21.1" = _eDDMnZL6;
+        "minecraft-1.21" = _NTnJ134B;
+        "minecraft-1.21.1" = _NTnJ134B;
         "minecraft-1.21.4" = _eDDMnZL6;
         "minecraft-1.21.5" = _eDDMnZL6;
         "minecraft-1.20.3" = _63ImXotK;
@@ -59,7 +65,8 @@ let
         "pkg-1.2" = _63ImXotK;
         "pkg-1.3" = _one2PeLK;
         "pkg-1.4" = _eDDMnZL6;
-        "default" = _eDDMnZL6;
+        "pkg-1.4.1" = _NTnJ134B;
+        "default" = _NTnJ134B;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "excal-jei-support";

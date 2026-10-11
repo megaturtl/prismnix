@@ -156,6 +156,11 @@ let
             "file" = "economical_villager_trading-1.9.0+MC26.2.x.jar";
             "hash" = "sha512-fkhmpgFQoQmR0KBeo8y3gj4qjlIyV7xAVn49etJlY4u8bWJ8HEQeycexkW4mxHd0sO063SG+3Wu1Hzemo4MBDw==";
         };
+        _HPA8wnX9 = {
+            "id" = "HPA8wnX9";
+            "file" = "economical_villager_trading-1.10.0+MC26.3.x.jar";
+            "hash" = "sha512-TtLJM4pbDREywbQPOs1EI/2/1+vazSzGoVy4x4H4Cp7IQ2i9K8dUDe/8kGyyNxYJ6LT9fTeWrX1EgBMIfT6UAQ==";
+        };
     in {
         "UZwtvawg" = _UZwtvawg;
         "2uR1w814" = _2uR1w814;
@@ -188,6 +193,7 @@ let
         "Q7GVUjSh" = _Q7GVUjSh;
         "nn2qWDsd" = _nn2qWDsd;
         "6Lor6DDc" = _6Lor6DDc;
+        "HPA8wnX9" = _HPA8wnX9;
         "fabric-1.17" = _UZwtvawg;
         "fabric-1.17.1" = _UZwtvawg;
         "fabric-1.18" = _M1nTNCXp;
@@ -221,6 +227,7 @@ let
         "fabric-26.1.1" = _nn2qWDsd;
         "fabric-26.1.2" = _nn2qWDsd;
         "fabric-26.2" = _6Lor6DDc;
+        "fabric-26.3" = _HPA8wnX9;
         "quilt-1.19" = _xr3oiUKt;
         "quilt-1.19.1" = _xr3oiUKt;
         "quilt-1.19.2" = _xr3oiUKt;
@@ -249,6 +256,7 @@ let
         "quilt-26.1.1" = _nn2qWDsd;
         "quilt-26.1.2" = _nn2qWDsd;
         "quilt-26.2" = _6Lor6DDc;
+        "quilt-26.3" = _HPA8wnX9;
         "pkg-1.2.1" = _UZwtvawg;
         "pkg-1.2.2+MC1.18" = _2uR1w814;
         "pkg-1.2.3+MC1.18-1.18.1" = _GbfOtHZx;
@@ -280,7 +288,8 @@ let
         "pkg-1.7.0+MC1.21.11" = _Q7GVUjSh;
         "pkg-1.8.0+MC26.1-26.1.x" = _nn2qWDsd;
         "pkg-1.9.0+MC26.2.x" = _6Lor6DDc;
-        "default" = _6Lor6DDc;
+        "pkg-1.10.0+MC26.3.x" = _HPA8wnX9;
+        "default" = _HPA8wnX9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "economical-villager-trading";

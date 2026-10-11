@@ -26,23 +26,31 @@ let
             "file" = "BedWars+ 26.2.zip";
             "hash" = "sha512-ZYMM8ADoJZUr/I9eFyGswZnqzueMPKaXcYrpTV3e3IWRjqnxp7oxbXbPp8TQxhe3dBT8RgeIJZieE+LZ5fjnaQ==";
         };
+        _iuKZ8ZlP = {
+            "id" = "iuKZ8ZlP";
+            "file" = "BedWars+ 26.3.zip";
+            "hash" = "sha512-XEiwRIetv1hVzhSjfW/ii85M4ba652Zzrr2IyoNiqhk/2L3Zh5/3exmvChosaafntmebB2V9/WuNxasZtVIVTA==";
+        };
     in {
         "qnwCrV8X" = _qnwCrV8X;
         "ghH5re6D" = _ghH5re6D;
         "1YI6jOG5" = _1YI6jOG5;
         "dvZcWjrF" = _dvZcWjrF;
         "i6KSS2C8" = _i6KSS2C8;
+        "iuKZ8ZlP" = _iuKZ8ZlP;
         "minecraft-1.8.9" = _1YI6jOG5;
         "minecraft-26.1" = _i6KSS2C8;
         "minecraft-26.1.1" = _i6KSS2C8;
         "minecraft-26.1.2" = _i6KSS2C8;
         "minecraft-26.2" = _i6KSS2C8;
+        "minecraft-26.3" = _iuKZ8ZlP;
         "pkg-1.8.9-Release-1" = _qnwCrV8X;
         "pkg-1.8.9-Release-2" = _ghH5re6D;
         "pkg-1.8.9-Release-3" = _1YI6jOG5;
         "pkg-26.1.2-Modern-Release-1" = _dvZcWjrF;
         "pkg-26.2-Modern-Release-2" = _i6KSS2C8;
-        "default" = _i6KSS2C8;
+        "pkg-26.3-Modern-Release-2" = _iuKZ8ZlP;
+        "default" = _iuKZ8ZlP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bedwars+";

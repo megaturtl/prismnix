@@ -171,6 +171,16 @@ let
             "file" = "mo-glowstone-lamps-neo-26.2-1.7.4.jar";
             "hash" = "sha512-yrfkCo06MxNn8S/5t1i52aBwqDZkV5ulImN7pmVQgBOG3YZv84Rsh/CHJlWkD7c/t+g+/xn+qn8OHDBGs3NCdg==";
         };
+        _Rc5afdyi = {
+            "id" = "Rc5afdyi";
+            "file" = "Mo-Glowstone-Lamps-26.3-1.7.4.jar";
+            "hash" = "sha512-rDprCj+z04crDYtI5Z4Yqtwu6K6ovBmk/uyZ3WsKwh5Ww8zv7U/n+jvDMGM5Ez9asrvSm68uonRF2m1u06wLHQ==";
+        };
+        _7cWSgk1H = {
+            "id" = "7cWSgk1H";
+            "file" = "mo-glowstone-lamps-neo-26.2-1.7.4b.jar";
+            "hash" = "sha512-KLxpYCbJhr59NR/4rYTlN3iiv7GRU6QrY/DpS9g1AzH+g2pGQ43JTVl067ncTF3trc2ZtgpJipvHwA6r6sZMrA==";
+        };
     in {
         "apiDe6TE" = _apiDe6TE;
         "XdPG9GrM" = _XdPG9GrM;
@@ -206,6 +216,8 @@ let
         "kUh7DLBx" = _kUh7DLBx;
         "z4edlxtY" = _z4edlxtY;
         "djgChgzi" = _djgChgzi;
+        "Rc5afdyi" = _Rc5afdyi;
+        "7cWSgk1H" = _7cWSgk1H;
         "forge-1.16.4" = _apiDe6TE;
         "forge-1.16.5" = _XdPG9GrM;
         "forge-1.17.1" = _Cmu0QeIA;
@@ -230,7 +242,8 @@ let
         "neoforge-1.21.1" = _FRg5IkHl;
         "neoforge-26.1.1" = _3K7iN7Ok;
         "neoforge-26.1.2" = _z4edlxtY;
-        "neoforge-26.2" = _djgChgzi;
+        "neoforge-26.2" = _7cWSgk1H;
+        "neoforge-26.3" = _Rc5afdyi;
         "pkg-1.1.0" = _apiDe6TE;
         "pkg-1.1.2" = _XdPG9GrM;
         "pkg-1.1.3" = _7odsqo9C;
@@ -254,7 +267,9 @@ let
         "pkg-26.1.2-1.7.3" = _kUh7DLBx;
         "pkg-26.1.2-1.7.4" = _z4edlxtY;
         "pkg-26.2-1.7.4" = _djgChgzi;
-        "default" = _djgChgzi;
+        "pkg-26.3-1.7.4" = _Rc5afdyi;
+        "pkg-26.2-1.7.4b" = _7cWSgk1H;
+        "default" = _7cWSgk1H;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mo-glowstone-lamps";

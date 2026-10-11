@@ -106,6 +106,16 @@ let
             "file" = "lightweight-inventory-sorting-1.1.7+26.2.jar";
             "hash" = "sha512-/GScQiMUVcveWmQX/rUHADagVQVNhHiDpwLXaImNab2WAxDdgZgKt2UvTH08rdSd9SyD4syWxDtq/nHRM/xBpA==";
         };
+        _k5ycjiXU = {
+            "id" = "k5ycjiXU";
+            "file" = "lightweight-inventory-sorting-1.1.7+26.1.jar";
+            "hash" = "sha512-5iNBpo64rGZmaW4j9iwOBMaYXmszkHtldUzYJ1VgFmoZiXMX3bePGH1+FnsZY5P4E6TkrJ4yCd3aoG2Cpjy/Pg==";
+        };
+        _QaSD97DN = {
+            "id" = "QaSD97DN";
+            "file" = "lightweight-inventory-sorting-1.1.7+26.3.jar";
+            "hash" = "sha512-QRUqsTemDIDA+UlVP81sc4jbFHAt+xguMVJiYdwruVbo2d6ddDbyHzoEBmBmflZV/L3NuJT+gvtM8GOrgOetCA==";
+        };
     in {
         "1ohCxuck" = _1ohCxuck;
         "FtQqG4pz" = _FtQqG4pz;
@@ -128,6 +138,8 @@ let
         "P7zSmILF" = _P7zSmILF;
         "WkYKzRVX" = _WkYKzRVX;
         "S5aBpz21" = _S5aBpz21;
+        "k5ycjiXU" = _k5ycjiXU;
+        "QaSD97DN" = _QaSD97DN;
         "fabric-1.21" = _wiAtX0Et;
         "fabric-1.20.6" = _DxeVy7hk;
         "fabric-1.21.1" = _wiAtX0Et;
@@ -141,10 +153,11 @@ let
         "fabric-1.21.9" = _QZg4AXMU;
         "fabric-1.21.10" = _8toLB26v;
         "fabric-1.21.11" = _b38kOruP;
-        "fabric-26.1" = _3qu6qAyb;
-        "fabric-26.1.1" = _3qu6qAyb;
-        "fabric-26.1.2" = _3qu6qAyb;
+        "fabric-26.1" = _k5ycjiXU;
+        "fabric-26.1.1" = _k5ycjiXU;
+        "fabric-26.1.2" = _k5ycjiXU;
         "fabric-26.2" = _S5aBpz21;
+        "fabric-26.3" = _QaSD97DN;
         "pkg-1.0.0" = _1ohCxuck;
         "pkg-1.0.1" = _FtQqG4pz;
         "pkg-1.1.0" = _RlDliOEw;
@@ -166,7 +179,9 @@ let
         "pkg-1.1.6+26.2-beta" = _P7zSmILF;
         "pkg-1.1.6+26.2" = _WkYKzRVX;
         "pkg-1.1.7+26.2" = _S5aBpz21;
-        "default" = _S5aBpz21;
+        "pkg-1.1.7+26.1" = _k5ycjiXU;
+        "pkg-1.1.7+26.3" = _QaSD97DN;
+        "default" = _QaSD97DN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lightweight-inventory-sorting";

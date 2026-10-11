@@ -21,11 +21,17 @@ let
             "file" = "§6§lTransparent Lava.zip";
             "hash" = "sha512-YCP3EKb3qehqAwsONQcVisN5nckKSSEzwkYRQduzwAC9kLdjQJOe2oGRjSTUasfoxuBEliTxJ4ZteA9nsi/O4w==";
         };
+        _sbdUGZRB = {
+            "id" = "sbdUGZRB";
+            "file" = "§6§lTransparent Lava.zip";
+            "hash" = "sha512-YCP3EKb3qehqAwsONQcVisN5nckKSSEzwkYRQduzwAC9kLdjQJOe2oGRjSTUasfoxuBEliTxJ4ZteA9nsi/O4w==";
+        };
     in {
         "IUhphh38" = _IUhphh38;
         "tvOvR0w0" = _tvOvR0w0;
         "u7Op35yl" = _u7Op35yl;
         "Jh8Saqmt" = _Jh8Saqmt;
+        "sbdUGZRB" = _sbdUGZRB;
         "minecraft-26.2" = _Jh8Saqmt;
         "minecraft-1.20" = _Jh8Saqmt;
         "minecraft-1.20.1" = _Jh8Saqmt;
@@ -49,11 +55,12 @@ let
         "minecraft-26.1" = _Jh8Saqmt;
         "minecraft-26.1.1" = _Jh8Saqmt;
         "minecraft-26.1.2" = _Jh8Saqmt;
+        "minecraft-26.3" = _sbdUGZRB;
         "pkg-1.0" = _IUhphh38;
         "pkg-1.1" = _tvOvR0w0;
         "pkg-1.2" = _u7Op35yl;
-        "pkg-1.3" = _Jh8Saqmt;
-        "default" = _Jh8Saqmt;
+        "pkg-1.3" = _sbdUGZRB;
+        "default" = _sbdUGZRB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "transparent-lava";

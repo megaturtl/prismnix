@@ -176,6 +176,16 @@ let
             "file" = "GildedSherds-fabric-MC26.2-26.2.0.1.jar";
             "hash" = "sha512-4dLjSbWE+QVhflWGfv+9dLsrfP02vL6HvS6YyryhKBfLtROXeeAhBfYW3KdSv9vJejbeNJyFPV4fnWNr9RDEAQ==";
         };
+        _9hVKXLYH = {
+            "id" = "9hVKXLYH";
+            "file" = "GildedSherds-fabric-MC26.3-26.3.0.1.jar";
+            "hash" = "sha512-s9BbUlibcAbqqYK4Tz9jPDVX0quk29lq9mbUzoGCOmWKX+e/LMMUs0ONRtMVs+JZ/m0h7U75SHC4hhsAcLhBEg==";
+        };
+        _4labkQbS = {
+            "id" = "4labkQbS";
+            "file" = "GildedSherds-neoforge-MC26.3-26.3.0.1.jar";
+            "hash" = "sha512-uzd8B/whnb15OtjBtVxyIZ4Js48s7MpDVxWk5EZmFTBwm3TzJU4nJ/aPl0OJsFCYcjxwfp4bVEM7U6I4JMVxJw==";
+        };
     in {
         "Q5wshlT0" = _Q5wshlT0;
         "74pWngS7" = _74pWngS7;
@@ -212,6 +222,8 @@ let
         "Kd5gq2Lr" = _Kd5gq2Lr;
         "89HG5s6k" = _89HG5s6k;
         "sqVqmc5V" = _sqVqmc5V;
+        "9hVKXLYH" = _9hVKXLYH;
+        "4labkQbS" = _4labkQbS;
         "fabric-1.20.1" = _SCWrKTZx;
         "fabric-1.20.2" = _pOBvtGF5;
         "fabric-1.20.3" = _Z47yVkbM;
@@ -221,6 +233,7 @@ let
         "fabric-26.1.1" = _Kd5gq2Lr;
         "fabric-26.1.2" = _Kd5gq2Lr;
         "fabric-26.2" = _sqVqmc5V;
+        "fabric-26.3" = _9hVKXLYH;
         "forge-1.20.1" = _x5rz31ow;
         "forge-1.20.2" = _NNrFeNx0;
         "forge-1.20.3" = _Iw3AIk6p;
@@ -234,6 +247,7 @@ let
         "neoforge-26.1.1" = _jI1YrIGQ;
         "neoforge-26.1.2" = _jI1YrIGQ;
         "neoforge-26.2" = _89HG5s6k;
+        "neoforge-26.3" = _4labkQbS;
         "quilt-1.21.1" = _GNEEOYKm;
         "pkg-1.0.1" = _74pWngS7;
         "pkg-1.0.2" = _zDHTyTxd;
@@ -250,7 +264,8 @@ let
         "pkg-26.1.2.2" = _b3CM8Pgl;
         "pkg-26.1.2.3" = _Kd5gq2Lr;
         "pkg-26.2.0.1" = _sqVqmc5V;
-        "default" = _sqVqmc5V;
+        "pkg-26.3.0.1" = _4labkQbS;
+        "default" = _4labkQbS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gilded-sherds";

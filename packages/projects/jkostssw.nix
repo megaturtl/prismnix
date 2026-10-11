@@ -51,6 +51,11 @@ let
             "file" = "Black Gui[26.2].zip";
             "hash" = "sha512-6NuWCzhDtwAl5ZOS3lkA/QO3qFhzPyani37dHrSHTrI2NjVhrg0/TX+83W/0CvdEtOojAy2STFgTwE3pAH+Mbw==";
         };
+        _HTrV21xf = {
+            "id" = "HTrV21xf";
+            "file" = "Black Gui[26.3].zip";
+            "hash" = "sha512-eB23xGOAcmZ2taLN1P6/TpNZiTEhpfC+iqDg2OW+6y8K0qQB8UX2R9E85e1vphg036jxt17gbw5p58i36XzoFg==";
+        };
     in {
         "STcTasDC" = _STcTasDC;
         "n7plcZDh" = _n7plcZDh;
@@ -62,21 +67,22 @@ let
         "MlkZmLgq" = _MlkZmLgq;
         "JP1bSZ1V" = _JP1bSZ1V;
         "3P1JG8kP" = _3P1JG8kP;
-        "minecraft-1.21" = _3P1JG8kP;
-        "minecraft-1.21.1" = _3P1JG8kP;
-        "minecraft-1.21.2" = _3P1JG8kP;
-        "minecraft-1.21.3" = _3P1JG8kP;
-        "minecraft-1.21.4" = _3P1JG8kP;
-        "minecraft-1.21.5" = _3P1JG8kP;
-        "minecraft-1.21.6" = _3P1JG8kP;
-        "minecraft-1.21.7" = _3P1JG8kP;
-        "minecraft-1.21.8" = _3P1JG8kP;
-        "minecraft-1.21.9" = _3P1JG8kP;
-        "minecraft-1.21.10" = _3P1JG8kP;
-        "minecraft-1.21.11" = _3P1JG8kP;
-        "minecraft-26.1" = _3P1JG8kP;
-        "minecraft-26.1.1" = _3P1JG8kP;
-        "minecraft-26.1.2" = _3P1JG8kP;
+        "HTrV21xf" = _HTrV21xf;
+        "minecraft-1.21" = _HTrV21xf;
+        "minecraft-1.21.1" = _HTrV21xf;
+        "minecraft-1.21.2" = _HTrV21xf;
+        "minecraft-1.21.3" = _HTrV21xf;
+        "minecraft-1.21.4" = _HTrV21xf;
+        "minecraft-1.21.5" = _HTrV21xf;
+        "minecraft-1.21.6" = _HTrV21xf;
+        "minecraft-1.21.7" = _HTrV21xf;
+        "minecraft-1.21.8" = _HTrV21xf;
+        "minecraft-1.21.9" = _HTrV21xf;
+        "minecraft-1.21.10" = _HTrV21xf;
+        "minecraft-1.21.11" = _HTrV21xf;
+        "minecraft-26.1" = _HTrV21xf;
+        "minecraft-26.1.1" = _HTrV21xf;
+        "minecraft-26.1.2" = _HTrV21xf;
         "minecraft-23w31a" = _3P1JG8kP;
         "minecraft-23w32a" = _3P1JG8kP;
         "minecraft-23w33a" = _3P1JG8kP;
@@ -122,7 +128,8 @@ let
         "minecraft-24w44a" = _3P1JG8kP;
         "minecraft-24w45a" = _3P1JG8kP;
         "minecraft-24w46a" = _3P1JG8kP;
-        "minecraft-26.2" = _3P1JG8kP;
+        "minecraft-26.2" = _HTrV21xf;
+        "minecraft-26.3" = _HTrV21xf;
         "pkg-1" = _STcTasDC;
         "pkg-2" = _n7plcZDh;
         "pkg-3" = _fITnu0O5;
@@ -133,7 +140,8 @@ let
         "pkg-8" = _MlkZmLgq;
         "pkg-9" = _JP1bSZ1V;
         "pkg-10" = _3P1JG8kP;
-        "default" = _3P1JG8kP;
+        "pkg-11" = _HTrV21xf;
+        "default" = _HTrV21xf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "black-gui";

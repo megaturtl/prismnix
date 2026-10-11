@@ -326,6 +326,21 @@ let
             "file" = "LegendaryTooltips-26.2-fabric-1.6.2.1.jar";
             "hash" = "sha512-ab/hModi+4IUrrUgWdhp0w8E4EiDtru1zQZjf930OMR+gt2ZpwjIxuX/R1b9ImGzbarkQZrpUAosufVDjuzSFA==";
         };
+        _Yqi0k5XH = {
+            "id" = "Yqi0k5XH";
+            "file" = "LegendaryTooltips-26.3-fabric-1.6.3.jar";
+            "hash" = "sha512-HBGuCf7ZdLYdDk/5FWJfy295kvGWzYf7SLzvWDVZMuaLGdMZqDc2YK+lZe8sKrAVetA8ULIlUtHtHD63iEzMsQ==";
+        };
+        _xCAAlTwR = {
+            "id" = "xCAAlTwR";
+            "file" = "LegendaryTooltips-26.3-neoforge-1.6.3.jar";
+            "hash" = "sha512-TC2y0wuwmfFaGNAi25SJ/0SR0bopszlFf8n9BlLWv7kll3oRKR45wyLDcqJ6Z1rifh7waeuFR9YdKXawC/FBDw==";
+        };
+        _5rr6Hb2e = {
+            "id" = "5rr6Hb2e";
+            "file" = "LegendaryTooltips-26.3-forge-1.6.3.jar";
+            "hash" = "sha512-Df5n0u7Bej26HaSKyf1OprWyedoHeUksy02dYYzW3ZwnaUMxsTIOOMk3AVEWQiH6bWxNRt0plH/ozHShV5ZtAw==";
+        };
     in {
         "FE9VHeSA" = _FE9VHeSA;
         "CjEZnKLB" = _CjEZnKLB;
@@ -392,6 +407,9 @@ let
         "nsPLQdW4" = _nsPLQdW4;
         "f02TIUcN" = _f02TIUcN;
         "HWLtBiDe" = _HWLtBiDe;
+        "Yqi0k5XH" = _Yqi0k5XH;
+        "xCAAlTwR" = _xCAAlTwR;
+        "5rr6Hb2e" = _5rr6Hb2e;
         "forge-1.19" = _FE9VHeSA;
         "forge-1.19.1" = _FE9VHeSA;
         "forge-1.19.2" = _FE9VHeSA;
@@ -414,6 +432,7 @@ let
         "forge-26.1.1" = _RovDA3IH;
         "forge-26.1.2" = _RovDA3IH;
         "forge-26.2" = _OphfAQuP;
+        "forge-26.3" = _5rr6Hb2e;
         "fabric-1.19" = _QqAHVnpI;
         "fabric-1.19.1" = _QqAHVnpI;
         "fabric-1.19.2" = _Nd6c9LMM;
@@ -435,6 +454,7 @@ let
         "fabric-26.1.1" = _f02TIUcN;
         "fabric-26.1.2" = _f02TIUcN;
         "fabric-26.2" = _HWLtBiDe;
+        "fabric-26.3" = _Yqi0k5XH;
         "neoforge-1.21" = _mETd5tfg;
         "neoforge-1.21.1" = _BabRJO04;
         "neoforge-1.21.3" = _VwRnalTb;
@@ -444,6 +464,7 @@ let
         "neoforge-26.1.1" = _ZaJ1nyhV;
         "neoforge-26.1.2" = _ZaJ1nyhV;
         "neoforge-26.2" = _Sdm37JVS;
+        "neoforge-26.3" = _xCAAlTwR;
         "pkg-1.3.1" = _Stq0nmhy;
         "pkg-1.3.3" = _qAjH3bHL;
         "pkg-1.4.0" = _5P7LJDXQ;
@@ -472,7 +493,8 @@ let
         "pkg-1.6.0.1" = _nsPLQdW4;
         "pkg-1.6.1.1" = _f02TIUcN;
         "pkg-1.6.2.1" = _HWLtBiDe;
-        "default" = _HWLtBiDe;
+        "pkg-1.6.3" = _5rr6Hb2e;
+        "default" = _5rr6Hb2e;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "legendary-tooltips";

@@ -71,6 +71,16 @@ let
             "file" = "player-highlighter-1.1.3.jar";
             "hash" = "sha512-dJeu8iWcfaWfqUZ9z8Q+aNU2YPl7Ca5zZqsBPBi5Jx/bT0Dp3Aw72CuyBMXMQ/THOcKTYjAe/MZCQDH3Z9YOdg==";
         };
+        _o4f3ik0v = {
+            "id" = "o4f3ik0v";
+            "file" = "player-highlighter-1.2.0.jar";
+            "hash" = "sha512-0GUTDs03vSBVgm97qvmcIYAthm7clZPGVjrf5RVRpFBiIcvT7a18vBAyMpeMH1YwXvtlwGD8EUbSTR02JG6NhA==";
+        };
+        _vYklCdAh = {
+            "id" = "vYklCdAh";
+            "file" = "player-highlighter-1.2.1.jar";
+            "hash" = "sha512-k+aOmNnG84gaRPB4TAA2EDTnzsdvPprl3sq5NMbMgOSq0K3zNUzCTlH/UO1SX3PYaEmcishA+Cf4FRsYKQ7LcA==";
+        };
     in {
         "FG2PAC9e" = _FG2PAC9e;
         "mHpjviBC" = _mHpjviBC;
@@ -86,9 +96,12 @@ let
         "mTr3ZiqZ" = _mTr3ZiqZ;
         "CSD0a4JG" = _CSD0a4JG;
         "Xk6jZEPT" = _Xk6jZEPT;
+        "o4f3ik0v" = _o4f3ik0v;
+        "vYklCdAh" = _vYklCdAh;
         "fabric-1.21.11" = _71ef1enE;
         "fabric-26.1.2" = _CSD0a4JG;
         "fabric-26.2" = _Xk6jZEPT;
+        "fabric-26.3" = _vYklCdAh;
         "pkg-1.0.0" = _FG2PAC9e;
         "pkg-1.0.1" = _mHpjviBC;
         "pkg-1.0.2" = _k4enG0ul;
@@ -102,7 +115,9 @@ let
         "pkg-1.1.1" = _NQ8mzQw2;
         "pkg-1.1.2" = _mTr3ZiqZ;
         "pkg-1.1.3" = _Xk6jZEPT;
-        "default" = _Xk6jZEPT;
+        "pkg-1.2.0" = _o4f3ik0v;
+        "pkg-1.2.1" = _vYklCdAh;
+        "default" = _vYklCdAh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "player-highlighter-mod";

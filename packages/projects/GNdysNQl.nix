@@ -706,6 +706,21 @@ let
             "file" = "kuromaterials-26.2-1.0.5-neoforge.jar";
             "hash" = "sha512-yg1pZvFIaHUH2rOOFpWRKAGxnENinM4JZluIXeOWlnibJs/uLtsKjZE0hv7qfcR+0i5s5lDzIJCQfO6TD/rCMQ==";
         };
+        _ZeFRKMKu = {
+            "id" = "ZeFRKMKu";
+            "file" = "kuromaterials-26.3-1.0.5-fabric.jar";
+            "hash" = "sha512-q7Awx54iva0BYXR+ieFbnroycZoPc+lBxL4Tw53XmqS0uoNuMqW4W/PaHgbWcblUFEiKfgkhRhQQXd6IiNG+ww==";
+        };
+        _1KFRZpMs = {
+            "id" = "1KFRZpMs";
+            "file" = "kuromaterials-26.3-1.0.5-neoforge.jar";
+            "hash" = "sha512-1fkgQcWC5RXPpz0WWyirEXsZdLV9e6Uh6S2tY9z6g+J5VKwsBo2HNfbQABcglAHqL7txjkD5L9UAmprnGscZ1w==";
+        };
+        _9vdFlMAD = {
+            "id" = "9vdFlMAD";
+            "file" = "kuromaterials-26.3-1.0.5-forge.jar";
+            "hash" = "sha512-ZqO5VTwRzLzndcbMvsVU3F8qHRDDUCYntbKLVWLZZOL6daVkFIM8nvUveqEpdWG8wQrpE4FlCG7yo9wrtQ6qCg==";
+        };
     in {
         "53bMS3aa" = _53bMS3aa;
         "qYvlJbgT" = _qYvlJbgT;
@@ -848,6 +863,9 @@ let
         "Z53B1WyP" = _Z53B1WyP;
         "usiTaFZ0" = _usiTaFZ0;
         "SPtGmyKw" = _SPtGmyKw;
+        "ZeFRKMKu" = _ZeFRKMKu;
+        "1KFRZpMs" = _1KFRZpMs;
+        "9vdFlMAD" = _9vdFlMAD;
         "fabric-1.18.2" = _thu4s1NO;
         "fabric-1.19" = _maZQj7CY;
         "fabric-1.19.1" = _maZQj7CY;
@@ -875,6 +893,7 @@ let
         "fabric-26.1.1" = _r6gPtLxf;
         "fabric-26.1.2" = _r6gPtLxf;
         "fabric-26.2" = _Z53B1WyP;
+        "fabric-26.3" = _ZeFRKMKu;
         "quilt-1.18.2" = _thu4s1NO;
         "quilt-1.19" = _maZQj7CY;
         "quilt-1.19.1" = _maZQj7CY;
@@ -902,6 +921,7 @@ let
         "quilt-26.1.1" = _r6gPtLxf;
         "quilt-26.1.2" = _r6gPtLxf;
         "quilt-26.2" = _Z53B1WyP;
+        "quilt-26.3" = _ZeFRKMKu;
         "forge-1.18.2" = _C7yKJI2a;
         "forge-1.19" = _Vyyhly2b;
         "forge-1.19.1" = _Vyyhly2b;
@@ -926,6 +946,7 @@ let
         "forge-26.1.1" = _6RXcjvcS;
         "forge-26.1.2" = _6RXcjvcS;
         "forge-26.2" = _usiTaFZ0;
+        "forge-26.3" = _9vdFlMAD;
         "neoforge-1.20" = _RuDRP3if;
         "neoforge-1.20.1" = _RuDRP3if;
         "neoforge-1.20.3" = _HTTGRUb9;
@@ -947,6 +968,7 @@ let
         "neoforge-26.1.1" = _ZotZFELu;
         "neoforge-26.1.2" = _ZotZFELu;
         "neoforge-26.2" = _SPtGmyKw;
+        "neoforge-26.3" = _1KFRZpMs;
         "pkg-1.18.2-1.0.0-fabric" = _53bMS3aa;
         "pkg-1.18.2-1.0.0-forge" = _qYvlJbgT;
         "pkg-1.19.2-1.0.0-fabric" = _Dl0DLyRa;
@@ -1088,7 +1110,10 @@ let
         "pkg-26.2-1.0.5-fabric" = _Z53B1WyP;
         "pkg-26.2-1.0.5-forge" = _usiTaFZ0;
         "pkg-26.2-1.0.5-neoforge" = _SPtGmyKw;
-        "default" = _SPtGmyKw;
+        "pkg-26.3-1.0.5-fabric" = _ZeFRKMKu;
+        "pkg-26.3-1.0.5-neoforge" = _1KFRZpMs;
+        "pkg-26.3-1.0.5-forge" = _9vdFlMAD;
+        "default" = _9vdFlMAD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kuro-materials";

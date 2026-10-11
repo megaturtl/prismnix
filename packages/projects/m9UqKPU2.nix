@@ -231,6 +231,11 @@ let
             "file" = "Myriad 1.6.5 Data Pack.zip";
             "hash" = "sha512-9uzlbL5Vlvhiryn0cs3cv+Vp3YrnjgJmhN7iVZjy7+JHDHPKPwzfdJUgYojz6EbOKBBJhnz2W099WN8/G2T8mA==";
         };
+        _RSCgSSpF = {
+            "id" = "RSCgSSpF";
+            "file" = "Myriad 1.6.6 Data Pack.zip";
+            "hash" = "sha512-FdItPymeClEI8JPtyIWcykRN/jAt22HGdAo+W1M9OJjwe64XF7htgyEBDnIjLXVKo4G/PUnM/Y4EasBGkewLgw==";
+        };
     in {
         "EwV61hnu" = _EwV61hnu;
         "eiAqBZn0" = _eiAqBZn0;
@@ -278,6 +283,7 @@ let
         "zi85NBV0" = _zi85NBV0;
         "cuGA20IH" = _cuGA20IH;
         "lZS48PGE" = _lZS48PGE;
+        "RSCgSSpF" = _RSCgSSpF;
         "datapack-1.20.3" = _6kKI7LXk;
         "datapack-1.20.4" = _6kKI7LXk;
         "datapack-1.20" = _eiAqBZn0;
@@ -314,7 +320,7 @@ let
         "datapack-26.2-pre-2" = _PUN7TnZg;
         "datapack-26.2" = _zi85NBV0;
         "datapack-26.3-rc-2" = _cuGA20IH;
-        "datapack-26.3" = _lZS48PGE;
+        "datapack-26.3" = _RSCgSSpF;
         "fabric-1.21.7" = _QguPuNoR;
         "fabric-1.21.8" = _609gH36o;
         "fabric-1.21.9-rc1" = _BQRRCCu7;
@@ -385,7 +391,8 @@ let
         "pkg-1.6.4" = _zi85NBV0;
         "pkg-1.6.5-beta-1" = _cuGA20IH;
         "pkg-1.6.5" = _lZS48PGE;
-        "default" = _lZS48PGE;
+        "pkg-1.6.6" = _RSCgSSpF;
+        "default" = _RSCgSSpF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "myriad";

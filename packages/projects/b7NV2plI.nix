@@ -151,6 +151,36 @@ let
             "file" = "letsdo-brewery-fabric-2.1.9.jar";
             "hash" = "sha512-WVXmM25eLFQ3+PuFFcxJG08p9LSua49VKwZGJWkIegK9VALvKd6HQ3qyqU4EKgx9l6Ebw09owb5IeIRL4c6yGQ==";
         };
+        _pQnOhZuI = {
+            "id" = "pQnOhZuI";
+            "file" = "letsdo-brewery-neoforge-2.1.10.jar";
+            "hash" = "sha512-zJFbv/NRQdn4ZOkr2knTw2EP3LCW9wJNzEfCNlVvBVNoVJxOjaz//yN0K5XpkxBrxwoIFJI+7t/Z9XJ3MuUfHg==";
+        };
+        _t5mZWlqT = {
+            "id" = "t5mZWlqT";
+            "file" = "letsdo-brewery-fabric-2.1.10.jar";
+            "hash" = "sha512-DeU4XZOCPgIazqZsBT4+n3f5KpoRaXp/GBFjrudVDkLBxBal3F82U269TmNKwWKeY1LQnIs+sbypZW+AVBcSMA==";
+        };
+        _4TjPSAN6 = {
+            "id" = "4TjPSAN6";
+            "file" = "letsdo-brewery-neoforge-2.1.11.jar";
+            "hash" = "sha512-s98NMBCLjqlmJLGYr4W07jIL1YT/HNEtCp8V14AnHtMfhyWL4rcYuGRAlIW4seyJIJViDynrtnnCHYleXhJJdw==";
+        };
+        _tBiYgwXR = {
+            "id" = "tBiYgwXR";
+            "file" = "letsdo-brewery-fabric-2.1.11.jar";
+            "hash" = "sha512-DFtEeXOUFvdhlPff8hmOK24goh4kqwLSs4fn7/Cyg29512m/XtBt5pvQhNzJDVukL97OYoSefJkg7LlE5zlwNA==";
+        };
+        _y9ZpG5jE = {
+            "id" = "y9ZpG5jE";
+            "file" = "letsdo-brewery-neoforge-2.1.12.jar";
+            "hash" = "sha512-xPax4v0aGCzZyvjKTjl+sjKcKHkYmiDNMNcWRgmkp5dmWfXHm5cQlJe2pZTiwm84RJRSK6XkB8IUGyyal33Ydw==";
+        };
+        _DnJ9s7lm = {
+            "id" = "DnJ9s7lm";
+            "file" = "letsdo-brewery-fabric-2.1.12.jar";
+            "hash" = "sha512-aLxM3YpoYNpuVVuqW3CX9vS+prI9s43BmjSwsWZON1KmPIqQcp+B4XVUp71rOaOXregq59gp1vVQWPFYhYDb4g==";
+        };
     in {
         "sehNQjcK" = _sehNQjcK;
         "yQKqP7Cp" = _yQKqP7Cp;
@@ -182,11 +212,17 @@ let
         "1tQUJCLT" = _1tQUJCLT;
         "vzXZ4Pak" = _vzXZ4Pak;
         "8YKO4bsZ" = _8YKO4bsZ;
+        "pQnOhZuI" = _pQnOhZuI;
+        "t5mZWlqT" = _t5mZWlqT;
+        "4TjPSAN6" = _4TjPSAN6;
+        "tBiYgwXR" = _tBiYgwXR;
+        "y9ZpG5jE" = _y9ZpG5jE;
+        "DnJ9s7lm" = _DnJ9s7lm;
         "forge-1.20.1" = _CC0M409e;
         "neoforge-1.20.1" = _CC0M409e;
-        "neoforge-1.21.1" = _vzXZ4Pak;
+        "neoforge-1.21.1" = _y9ZpG5jE;
         "fabric-1.20.1" = _W2QrBsrL;
-        "fabric-1.21.1" = _8YKO4bsZ;
+        "fabric-1.21.1" = _DnJ9s7lm;
         "quilt-1.20.1" = _W2QrBsrL;
         "pkg-2.0.0-release" = _yQKqP7Cp;
         "pkg-2.0.1" = _fV4FVA9H;
@@ -203,7 +239,10 @@ let
         "pkg-2.1.7" = _brXBu8Tf;
         "pkg-2.1.8" = _1tQUJCLT;
         "pkg-2.1.9" = _8YKO4bsZ;
-        "default" = _8YKO4bsZ;
+        "pkg-2.1.10" = _t5mZWlqT;
+        "pkg-2.1.11" = _tBiYgwXR;
+        "pkg-2.1.12" = _DnJ9s7lm;
+        "default" = _DnJ9s7lm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lets-do-brewery-farmcharm-compat";

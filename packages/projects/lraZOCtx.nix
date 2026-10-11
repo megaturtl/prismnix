@@ -191,6 +191,31 @@ let
             "file" = "plantsvszombies-1.9.6-neoforge-1.21.1.jar";
             "hash" = "sha512-xnMuJFDQ9b1CSYLH/HmqCgQz3Tz18psXRag5yUg4wA0mZf4zeV3N3F04uRLlTkEO8JCxwWPZv5Tb+LJJTAqrtA==";
         };
+        _M26RuayR = {
+            "id" = "M26RuayR";
+            "file" = "plantsvszombies-1.9.7-neoforge-1.21.1.jar";
+            "hash" = "sha512-/4lveC9JLsL5BWrK1KUjjBHQRYbj6qzAorzHtfdLu+PHvJvVJFQfSUWxC7PkFuZqGrm8SquRZ+8wluNEEyX8cQ==";
+        };
+        _VZcyjEE9 = {
+            "id" = "VZcyjEE9";
+            "file" = "plantsvszombies-1.9.8a-neoforge-1.21.1.jar";
+            "hash" = "sha512-GZfEYjcH+Kk7xpD8TEJ++U3No+WjUYIzl+9uscsCGSSv9G1AqOt0UyiMH1hLyDVW4UC7yNYigH7gI0gAa3Jwpw==";
+        };
+        _9s4r4xbD = {
+            "id" = "9s4r4xbD";
+            "file" = "plantsvszombies-1.9.8p-neoforge-1.21.1.jar";
+            "hash" = "sha512-YhVU/sAK+zPWsFx0/Untg6s4fqWMlx56FjCkw6MDrX1C+b0IvvxScWCejMbeSwjhXV0PioXVpHImmiAwVAtSTw==";
+        };
+        _AqS4tYfv = {
+            "id" = "AqS4tYfv";
+            "file" = "plantsvszombies-1.9.9-neoforge-1.21.1.jar";
+            "hash" = "sha512-0jdh7KNmsvL2AjiW7QzgxCpjiS8ZjTSmH7nMQUKV1rx24gnqGuuPjCIMCdJJl5QOUgfVUaRbNwFen7OjBlnJYg==";
+        };
+        _CtWSblj2 = {
+            "id" = "CtWSblj2";
+            "file" = "plantsvszombies-1.10.0-neoforge-1.21.1.jar";
+            "hash" = "sha512-W8VvZPOsySF3y2eiZhoO+qk1Gu6q0c+YOCMeFj9YuoUIhRsYkystsA/IiNWNr5ikKAlcwYRMqoziASQDW4JDjg==";
+        };
     in {
         "kAHLJQ5t" = _kAHLJQ5t;
         "zpztllqi" = _zpztllqi;
@@ -230,7 +255,12 @@ let
         "JAPM2DbG" = _JAPM2DbG;
         "bJAMtOwS" = _bJAMtOwS;
         "okmsODpQ" = _okmsODpQ;
-        "neoforge-1.21.1" = _okmsODpQ;
+        "M26RuayR" = _M26RuayR;
+        "VZcyjEE9" = _VZcyjEE9;
+        "9s4r4xbD" = _9s4r4xbD;
+        "AqS4tYfv" = _AqS4tYfv;
+        "CtWSblj2" = _CtWSblj2;
+        "neoforge-1.21.1" = _CtWSblj2;
         "pkg-1.3.3" = _kAHLJQ5t;
         "pkg-1.4.1" = _zpztllqi;
         "pkg-1.4.4" = _amp9us5f;
@@ -267,7 +297,12 @@ let
         "pkg-1.9.3" = _JAPM2DbG;
         "pkg-1.9.4" = _bJAMtOwS;
         "pkg-1.9.6" = _okmsODpQ;
-        "default" = _okmsODpQ;
+        "pkg-1.9.7" = _M26RuayR;
+        "pkg-1.9.8.Alpha" = _VZcyjEE9;
+        "pkg-1.9.8p" = _9s4r4xbD;
+        "pkg-1.9.9" = _AqS4tYfv;
+        "pkg-1.10.0" = _CtWSblj2;
+        "default" = _CtWSblj2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "plants-vs-zombies-mythling";

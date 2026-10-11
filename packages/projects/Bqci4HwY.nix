@@ -31,6 +31,16 @@ let
             "file" = "YAHA-0.4.0.jar";
             "hash" = "sha512-Q0+2f9EvizxWvmWnqATYFPVPV53VeERIfc8NwBRIz60ABwChjN1CG8f76rgoS3W8l6T/kjpe39p3lu9M4Kdojg==";
         };
+        _o9AImYHg = {
+            "id" = "o9AImYHg";
+            "file" = "YAHA-0.4.1.jar";
+            "hash" = "sha512-vt+wL5fsjxx+VgOoN1YSA0lKUeRuyu8k/6Bw0G6av3o7O43pJombcPyajCOse+ZG4ldpBLB4hGn3RhP1jogpbQ==";
+        };
+        _Y3drbKYA = {
+            "id" = "Y3drbKYA";
+            "file" = "YAHA-0.4.2.jar";
+            "hash" = "sha512-ohONI8OUQpQXobw0H+S74XcL4U3tE/Agf0glfead4RoCbq1fePmw6sY4fDWqUJX2Q9wSIOJdIRAArI7PEVstWA==";
+        };
     in {
         "XcyAW47x" = _XcyAW47x;
         "vf7Uoahq" = _vf7Uoahq;
@@ -38,14 +48,18 @@ let
         "FleGofHc" = _FleGofHc;
         "rHES4NIB" = _rHES4NIB;
         "rfBIwZYX" = _rfBIwZYX;
-        "fabric-1.20.1" = _rfBIwZYX;
+        "o9AImYHg" = _o9AImYHg;
+        "Y3drbKYA" = _Y3drbKYA;
+        "fabric-1.20.1" = _Y3drbKYA;
         "pkg-0.1.0" = _XcyAW47x;
         "pkg-0.2.0" = _vf7Uoahq;
         "pkg-0.2.1" = _xenuIOgs;
         "pkg-0.3.0" = _FleGofHc;
         "pkg-0.3.1" = _rHES4NIB;
         "pkg-0.4.0" = _rfBIwZYX;
-        "default" = _rfBIwZYX;
+        "pkg-0.4.1" = _o9AImYHg;
+        "pkg-0.4.2" = _Y3drbKYA;
+        "default" = _Y3drbKYA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "yaha";

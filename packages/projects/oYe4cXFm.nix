@@ -91,6 +91,16 @@ let
             "file" = "elixirum-forge-1.20.1-0.12.0.jar";
             "hash" = "sha512-s72AbXFCdyLxAy2KROXuD9/OSbT9Drr5MC8iw3513qYN90PtNYLGl3vvjC5xxl537GzJaQIEHcgm5sGphoZpYQ==";
         };
+        _iIWhqsEB = {
+            "id" = "iIWhqsEB";
+            "file" = "elixirum-fabric-1.20.1-0.12.1.jar";
+            "hash" = "sha512-OMfZvIDjoFyIgoWgmTUS7U0kUMmYEo0rvuTS7BqZZMjHdMtK/O4RuEqDjahdBGZ2TEttYsh/dMqjg8nSVB/JsA==";
+        };
+        _Pa200rTy = {
+            "id" = "Pa200rTy";
+            "file" = "elixirum-forge-1.20.1-0.12.1.jar";
+            "hash" = "sha512-SexrnVppgAYPudFVHJwgldft8ijj/28LUqMhaS4xuZE88wUqmc9wD/3dH03K6OBxp0sheMrK9HBoPQh27g1cNg==";
+        };
     in {
         "T92NIjdR" = _T92NIjdR;
         "2dMpDOWi" = _2dMpDOWi;
@@ -110,12 +120,14 @@ let
         "jiXiT02E" = _jiXiT02E;
         "ewJ0ALKz" = _ewJ0ALKz;
         "jVkzNhMS" = _jVkzNhMS;
+        "iIWhqsEB" = _iIWhqsEB;
+        "Pa200rTy" = _Pa200rTy;
         "fabric-1.21.1" = _2dMpDOWi;
-        "fabric-1.20.1" = _ewJ0ALKz;
+        "fabric-1.20.1" = _iIWhqsEB;
         "quilt-1.21.1" = _2dMpDOWi;
-        "quilt-1.20.1" = _ewJ0ALKz;
+        "quilt-1.20.1" = _iIWhqsEB;
         "forge-1.21.1" = _eIOdc8ag;
-        "forge-1.20.1" = _jVkzNhMS;
+        "forge-1.20.1" = _Pa200rTy;
         "neoforge-1.21.1" = _BWFdlSBY;
         "pkg-0.1.1" = _T92NIjdR;
         "pkg-0.2.2" = _BWFdlSBY;
@@ -126,7 +138,8 @@ let
         "pkg-0.11.1" = _u9cLY0gb;
         "pkg-0.11.2" = _jiXiT02E;
         "pkg-0.12.0" = _jVkzNhMS;
-        "default" = _jVkzNhMS;
+        "pkg-0.12.1" = _Pa200rTy;
+        "default" = _Pa200rTy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ars-elixirum";

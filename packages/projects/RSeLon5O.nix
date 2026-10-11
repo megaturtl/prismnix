@@ -526,6 +526,16 @@ let
             "file" = "particle_core-0.3.3+26.2.jar";
             "hash" = "sha512-dUZ3kbZpuMsEULMXZq/Q6/tzTAzf8CDA8fnpVJFEAmCCP6UH01FfNHy5ExQ+RgD+uIQAF0/D2EsJjuMSb7kfSA==";
         };
+        _zrlSv2ot = {
+            "id" = "zrlSv2ot";
+            "file" = "particle_core-0.3.3+fix1+26.2+neoforge.jar";
+            "hash" = "sha512-JUp1U0dGDImqqUMZ67f6mFZbm0wOnBH8RFMn+z8b1pkumi2Qchit9y8KNQGcBQuRHafxghV/FrlQpCyl4A3F+Q==";
+        };
+        _NPLw1nMG = {
+            "id" = "NPLw1nMG";
+            "file" = "particle_core-0.3.3+fix1+26.2.jar";
+            "hash" = "sha512-eBgiciGRPCvpL37yiCq/qFYp4Sb92GxXFXct8nM0wXdKowqH6IzTc9fWXOvd4ldlkrEHZ6xi/LXeLPVNQai8pQ==";
+        };
     in {
         "9z36MA5Z" = _9z36MA5Z;
         "efRnEmNA" = _efRnEmNA;
@@ -632,6 +642,8 @@ let
         "lNjQ3lSE" = _lNjQ3lSE;
         "Z4o2owWN" = _Z4o2owWN;
         "VFv6uQKM" = _VFv6uQKM;
+        "zrlSv2ot" = _zrlSv2ot;
+        "NPLw1nMG" = _NPLw1nMG;
         "fabric-1.20" = _cOoFD9Pm;
         "fabric-1.20.1" = _6es9W10B;
         "fabric-1.20.2" = _UztNGcmd;
@@ -654,7 +666,8 @@ let
         "fabric-26.1" = _EkGqhJyz;
         "fabric-26.1.1" = _EkGqhJyz;
         "fabric-26.1.2" = _EkGqhJyz;
-        "fabric-26.2" = _VFv6uQKM;
+        "fabric-26.2" = _NPLw1nMG;
+        "fabric-26.3" = _NPLw1nMG;
         "quilt-1.20" = _cOoFD9Pm;
         "quilt-1.20.1" = _6es9W10B;
         "quilt-1.20.2" = _efRnEmNA;
@@ -695,7 +708,8 @@ let
         "neoforge-26.1" = _lNjQ3lSE;
         "neoforge-26.1.1" = _lNjQ3lSE;
         "neoforge-26.1.2" = _lNjQ3lSE;
-        "neoforge-26.2" = _Z4o2owWN;
+        "neoforge-26.2" = _zrlSv2ot;
+        "neoforge-26.3" = _zrlSv2ot;
         "pkg-0.1.0+1.20" = _9z36MA5Z;
         "pkg-0.1.1+1.20" = _efRnEmNA;
         "pkg-0.1.2+1.20" = _UztNGcmd;
@@ -797,7 +811,9 @@ let
         "pkg-0.3.2+26.1+neoforge" = _lNjQ3lSE;
         "pkg-0.3.3+26.2+neoforge" = _Z4o2owWN;
         "pkg-0.3.3+26.2" = _VFv6uQKM;
-        "default" = _VFv6uQKM;
+        "pkg-0.3.3+fix1+26.2+neoforge" = _zrlSv2ot;
+        "pkg-0.3.3+fix1+26.2" = _NPLw1nMG;
+        "default" = _NPLw1nMG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "particle-core";

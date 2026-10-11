@@ -86,6 +86,11 @@ let
             "file" = "betternightvision-1.0.5+26.1.2-fabric.jar";
             "hash" = "sha512-8rKsevqohNwpsFPICDLm63dMkNO/ii0pDymB8DogEboWLnm+yaAa7yqNHHJw9oicSazLUN4E40mJ8GhY5gbVsw==";
         };
+        _o6Zw4Wkl = {
+            "id" = "o6Zw4Wkl";
+            "file" = "betternightvision-1.0.5+1.8.9-fabric.jar";
+            "hash" = "sha512-0iDZFYjiPUfiXCYUDQrohHVdNJbqPP7DLpxWGvZ7CBcV2rRamNFcstEmVl0GyK12qum0K2LAlFuTFcINzhytKQ==";
+        };
     in {
         "rx58K8Ee" = _rx58K8Ee;
         "WLMNCbk8" = _WLMNCbk8;
@@ -104,6 +109,7 @@ let
         "aUL0OTkN" = _aUL0OTkN;
         "99kKznDa" = _99kKznDa;
         "RwUPIoL8" = _RwUPIoL8;
+        "o6Zw4Wkl" = _o6Zw4Wkl;
         "forge-1.8.9" = _rx58K8Ee;
         "forge-1.12.2" = _CnhrijR9;
         "fabric-1.19.4" = _xt84Crgt;
@@ -128,13 +134,14 @@ let
         "neoforge-1.21.4" = _TPxKzpQw;
         "neoforge-1.21.5" = _TPxKzpQw;
         "neoforge-1.21.8" = _TPxKzpQw;
+        "ornithe-1.8.9" = _o6Zw4Wkl;
         "pkg-1.0.0" = _CnhrijR9;
         "pkg-1.0.1" = _2BYQq0qB;
         "pkg-1.0.2" = _JGzMjtby;
         "pkg-1.0.3" = _RSlSr0Zc;
         "pkg-1.0.4" = _aUL0OTkN;
-        "pkg-1.0.5" = _RwUPIoL8;
-        "default" = _RwUPIoL8;
+        "pkg-1.0.5" = _o6Zw4Wkl;
+        "default" = _o6Zw4Wkl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "betternightvision";

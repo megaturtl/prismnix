@@ -656,6 +656,31 @@ let
             "file" = "voxelmap-neoforge-26.3-1.16.11.jar";
             "hash" = "sha512-GA3L8vJ9ti5k++6prytI81lYJvFg/S7q9GVGE/D2Ghqtkg+wR3V5cMqTa/bPmjPyo/0lzZY31FYPhJ5M6GaBPQ==";
         };
+        _P7ACNDsj = {
+            "id" = "P7ACNDsj";
+            "file" = "voxelmap-neoforge-26.3-1.16.12.jar";
+            "hash" = "sha512-T+BXgtk7DVHqYI7emIA+7PB+El1LMklkw79OecovxYFRko6g6BhSr0k/mulqwFkBXeQmckBarmQxR3St9LXL7A==";
+        };
+        _v1UlBIk4 = {
+            "id" = "v1UlBIk4";
+            "file" = "voxelmap-fabric-26.3-1.16.12.jar";
+            "hash" = "sha512-liqtuLL0ORT9Rv3ZWWnKY0Dvk0I+nlC96qglT9Pu/bGYvb1LKyrNZpgTK4dPVHleHxCT4fZwGKmev8VlsiJlhw==";
+        };
+        _hvGMwAAg = {
+            "id" = "hvGMwAAg";
+            "file" = "voxelmap-forge-26.3-1.16.13.jar";
+            "hash" = "sha512-6oh1JwwmFhghgC9AKs08pcCEk91wtPc7ZTHYXxtZ6va0H16tkD2BCMpHZVkdVoJ/Pi1+UbpBxedRlGyIK36+nw==";
+        };
+        _uY5ysfSO = {
+            "id" = "uY5ysfSO";
+            "file" = "voxelmap-neoforge-26.3-1.16.13.jar";
+            "hash" = "sha512-Wv3mElbHgQDKirgfMk6zrwFcv7OSJDonC6T0D0Yka/eczvg8OjohS0hAoHduGyKdAPQ8yjnmtzo0NGCGe6lN+Q==";
+        };
+        _u1l1hMzs = {
+            "id" = "u1l1hMzs";
+            "file" = "voxelmap-fabric-26.3-1.16.13.jar";
+            "hash" = "sha512-CzCfXrY6kZlze1J+2YtBi/7YhMqx2dnusOaufn/axZvDy6/RFoT6GJHKBOiyNGu+EGBznKxLpfOOfU1TLjs9SQ==";
+        };
     in {
         "YGYMnNRA" = _YGYMnNRA;
         "ZIM5SbqI" = _ZIM5SbqI;
@@ -788,6 +813,11 @@ let
         "BjsGekii" = _BjsGekii;
         "dKmMnCMN" = _dKmMnCMN;
         "7DDE6gaB" = _7DDE6gaB;
+        "P7ACNDsj" = _P7ACNDsj;
+        "v1UlBIk4" = _v1UlBIk4;
+        "hvGMwAAg" = _hvGMwAAg;
+        "uY5ysfSO" = _uY5ysfSO;
+        "u1l1hMzs" = _u1l1hMzs;
         "fabric-1.19.3" = _vQC7KfEO;
         "fabric-1.19.1" = _ZIM5SbqI;
         "fabric-1.19.2" = _ZIM5SbqI;
@@ -845,7 +875,7 @@ let
         "fabric-26.1.2" = _NfOUNBHc;
         "fabric-26w14a" = _9lq50ztM;
         "fabric-26.2" = _BjsGekii;
-        "fabric-26.3" = _dKmMnCMN;
+        "fabric-26.3" = _u1l1hMzs;
         "quilt-1.21.2-rc2" = _URApHxUE;
         "quilt-1.21.2" = _GSnx2ui0;
         "quilt-1.21.3" = _GSnx2ui0;
@@ -857,12 +887,13 @@ let
         "neoforge-26.1.1" = _HOwAYwIt;
         "neoforge-26.1.2" = _HOwAYwIt;
         "neoforge-26.2" = _yZoJT8l2;
-        "neoforge-26.3" = _7DDE6gaB;
+        "neoforge-26.3" = _uY5ysfSO;
         "forge-1.21.11" = _dmqPnWux;
         "forge-26.1" = _BIg5fFNJ;
         "forge-26.1.1" = _BIg5fFNJ;
         "forge-26.1.2" = _BIg5fFNJ;
         "forge-26.2" = _NLswCC00;
+        "forge-26.3" = _hvGMwAAg;
         "paper-26.2" = _JRajURYy;
         "purpur-26.2" = _JRajURYy;
         "spigot-26.2" = _JRajURYy;
@@ -961,7 +992,9 @@ let
         "pkg-26.2-1.16.9" = _8JgngETk;
         "pkg-26.2-1.16.10" = _BjsGekii;
         "pkg-26.3-1.16.11" = _7DDE6gaB;
-        "default" = _7DDE6gaB;
+        "pkg-26.3-1.16.12" = _uY5ysfSO;
+        "pkg-26.3-1.16.13" = _u1l1hMzs;
+        "default" = _u1l1hMzs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "voxelmap-updated";

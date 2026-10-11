@@ -61,6 +61,11 @@ let
             "file" = "CottageCraftEggs-2.0.0-1.26.2.jar";
             "hash" = "sha512-7Wv6zuvAr0wrJvMMvu6FF84hUZO8dSBL8BksM6C8DSO7yFIFlRL8mzWvMMyzjWaLFCo3ukHDkW/EvynNG5s6QQ==";
         };
+        _igWF4ftq = {
+            "id" = "igWF4ftq";
+            "file" = "CottageCraftEggs-2.0.1-1.26.3.jar";
+            "hash" = "sha512-AjTys6cy3DDdFnSF9OYvDjfNH0XTW2Ttwl8sCWtUYqTQKDm/mM/1k6tgPqcdPggDbUCbbMnu6eMLlNY958miFw==";
+        };
     in {
         "lQhMc2nC" = _lQhMc2nC;
         "weLH42In" = _weLH42In;
@@ -74,6 +79,7 @@ let
         "187EuZTk" = _187EuZTk;
         "5bcSRKC9" = _5bcSRKC9;
         "ncbZbw8J" = _ncbZbw8J;
+        "igWF4ftq" = _igWF4ftq;
         "fabric-1.20" = _weLH42In;
         "fabric-1.20.1" = _weLH42In;
         "fabric-1.20.2" = _weLH42In;
@@ -97,6 +103,7 @@ let
         "fabric-26.1.1" = _5bcSRKC9;
         "fabric-26.1.2" = _5bcSRKC9;
         "fabric-26.2" = _ncbZbw8J;
+        "fabric-26.3" = _igWF4ftq;
         "pkg-1.0.0" = _lQhMc2nC;
         "pkg-1.1.0" = _weLH42In;
         "pkg-1.1.0-1.20.5" = _3mrMS2ZI;
@@ -109,7 +116,8 @@ let
         "pkg-1.2.1-1.21.11" = _187EuZTk;
         "pkg-2.0.0-1.26.1" = _5bcSRKC9;
         "pkg-2.0.0-1.26.2" = _ncbZbw8J;
-        "default" = _ncbZbw8J;
+        "pkg-2.0.1-1.26.3" = _igWF4ftq;
+        "default" = _igWF4ftq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cottagecraft-festive-eggs";

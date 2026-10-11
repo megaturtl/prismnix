@@ -81,6 +81,46 @@ let
             "file" = "sakuraupdater-0.3.2-1.20.1.jar";
             "hash" = "sha512-2l7Ikp1spd/Xp5/ltDJ8nwIWWtyF2UdA4YZzjVKUOhdoDapAzz+rLP2+x1nHsVx8YGK1D/FFrljfyOvrWzmhZQ==";
         };
+        _a2sJsrrI = {
+            "id" = "a2sJsrrI";
+            "file" = "sakuraupdater-0.3.3-1.20.1.jar";
+            "hash" = "sha512-24hIBvPuW5E5NmvPkqT9ipR32YJZoXi1ojbZCYBXC19H+VPK53N/0SXlNHWj8uHDji5AzoHtkvbmSYML0S2cBg==";
+        };
+        _3MfDlgCJ = {
+            "id" = "3MfDlgCJ";
+            "file" = "sakuraupdater-0.3.3-1.21.1.jar";
+            "hash" = "sha512-6y+icdESVHow06OVI1EWvv1qBuRiVTUI0eUW36o81Ud/IchkZcs2dJGX8uN6w2YXseBknoivhJZm2joclGvDaA==";
+        };
+        _kL7cya6j = {
+            "id" = "kL7cya6j";
+            "file" = "sakuraupdater-0.3.4-1.21.1.jar";
+            "hash" = "sha512-zzIZPCFcdNAtVSD0qjv8zlY+iEEuY42QhHMz6k3WcMGpsMJfon/ELtxuVakdUiHO2pFgufo/Y+SIxEmwxGBhPg==";
+        };
+        _5FZeUN5R = {
+            "id" = "5FZeUN5R";
+            "file" = "sakuraupdater-0.3.4-1.20.1.jar";
+            "hash" = "sha512-/ie2Dw3lU19dLeF9Vn/D1gr7TZ1UwYmf59Rnzx7eQn3IJvByRhf/RNThAV9WQvAxKTJz+Q5DwIy50KutPVNUTA==";
+        };
+        _ec3C19sr = {
+            "id" = "ec3C19sr";
+            "file" = "sakuraupdater-0.3.5-1.20.1.jar";
+            "hash" = "sha512-6sHYaY1vuI13l4zxiiJyMM/a7h9cvdwmJLn22SzurSiuwsQpb3hXBl4sQyVwBtYepLos/Fnq1Mx+vxmdfmkz3Q==";
+        };
+        _sXl7D6Gp = {
+            "id" = "sXl7D6Gp";
+            "file" = "sakuraupdater-0.3.5-1.21.1.jar";
+            "hash" = "sha512-4Q5Rj3ZBgwSlLCpRJjxVkRuoDWvmJsM92W/z/y5g/2YhLlAQhwTmxG8fju4NAoSzCqVt/ijKsPamlhRdX98Vbg==";
+        };
+        _K71kPvzz = {
+            "id" = "K71kPvzz";
+            "file" = "sakuraupdater-0.3.6-1.21.1.jar";
+            "hash" = "sha512-bQhQlOn4mEANCrUDKAOQTlPwr30EqEi/WkrhxKugoWtjANujcTNBm1dtSI06QgHQ/LtIdy4GLzxeZEG5EDMrIQ==";
+        };
+        _dA5mrr4e = {
+            "id" = "dA5mrr4e";
+            "file" = "sakuraupdater-0.3.6-1.20.1.jar";
+            "hash" = "sha512-599yRidqmH+t3YVyLk2qSnuCr/NQqKQJft0EIPtz2maQRzG4hbBGBM3KHbaBOiTNVkg18DUDNwjE+0eK6xMR6g==";
+        };
     in {
         "g092yueY" = _g092yueY;
         "T3VdxBiv" = _T3VdxBiv;
@@ -98,29 +138,37 @@ let
         "nYH4pSwH" = _nYH4pSwH;
         "AYjQNStc" = _AYjQNStc;
         "OCLNGMm0" = _OCLNGMm0;
-        "neoforge-1.21.1" = _AYjQNStc;
-        "neoforge-1.21.2" = _AYjQNStc;
-        "neoforge-1.21.3" = _AYjQNStc;
-        "neoforge-1.21.4" = _AYjQNStc;
-        "neoforge-1.21.5" = _AYjQNStc;
-        "neoforge-1.21.6" = _AYjQNStc;
-        "neoforge-1.21.7" = _AYjQNStc;
-        "neoforge-1.21.8" = _AYjQNStc;
-        "neoforge-1.21.9" = _AYjQNStc;
-        "neoforge-1.21.10" = _AYjQNStc;
+        "a2sJsrrI" = _a2sJsrrI;
+        "3MfDlgCJ" = _3MfDlgCJ;
+        "kL7cya6j" = _kL7cya6j;
+        "5FZeUN5R" = _5FZeUN5R;
+        "ec3C19sr" = _ec3C19sr;
+        "sXl7D6Gp" = _sXl7D6Gp;
+        "K71kPvzz" = _K71kPvzz;
+        "dA5mrr4e" = _dA5mrr4e;
+        "neoforge-1.21.1" = _K71kPvzz;
+        "neoforge-1.21.2" = _K71kPvzz;
+        "neoforge-1.21.3" = _K71kPvzz;
+        "neoforge-1.21.4" = _K71kPvzz;
+        "neoforge-1.21.5" = _K71kPvzz;
+        "neoforge-1.21.6" = _K71kPvzz;
+        "neoforge-1.21.7" = _K71kPvzz;
+        "neoforge-1.21.8" = _K71kPvzz;
+        "neoforge-1.21.9" = _K71kPvzz;
+        "neoforge-1.21.10" = _K71kPvzz;
         "neoforge-1.20.1" = _CZConW73;
         "neoforge-1.20.2" = _CZConW73;
         "neoforge-1.20.3" = _CZConW73;
         "neoforge-1.20.4" = _CZConW73;
         "neoforge-1.20.5" = _CZConW73;
         "neoforge-1.20.6" = _CZConW73;
-        "neoforge-1.21.11" = _AYjQNStc;
-        "forge-1.20.1" = _OCLNGMm0;
-        "forge-1.20.2" = _OCLNGMm0;
-        "forge-1.20.3" = _OCLNGMm0;
-        "forge-1.20.4" = _OCLNGMm0;
-        "forge-1.20.5" = _OCLNGMm0;
-        "forge-1.20.6" = _OCLNGMm0;
+        "neoforge-1.21.11" = _K71kPvzz;
+        "forge-1.20.1" = _dA5mrr4e;
+        "forge-1.20.2" = _dA5mrr4e;
+        "forge-1.20.3" = _dA5mrr4e;
+        "forge-1.20.4" = _dA5mrr4e;
+        "forge-1.20.5" = _dA5mrr4e;
+        "forge-1.20.6" = _dA5mrr4e;
         "pkg-0.1.3" = _T3VdxBiv;
         "pkg-0.1.4" = _8qBPbLxs;
         "pkg-0.2.0" = _P9klkP8k;
@@ -132,7 +180,15 @@ let
         "pkg-v0.3.1-1.20.1" = _nYH4pSwH;
         "pkg-v0.3.2-1.21.1" = _AYjQNStc;
         "pkg-v0.3.2-1.20.1" = _OCLNGMm0;
-        "default" = _OCLNGMm0;
+        "pkg-v0.3.3-1.20.1" = _a2sJsrrI;
+        "pkg-v0.3.3-1.21.1" = _3MfDlgCJ;
+        "pkg-v0.3.4-1.21.1" = _kL7cya6j;
+        "pkg-v0.3.4-1.20.1" = _5FZeUN5R;
+        "pkg-v0.3.5-1.20.1" = _ec3C19sr;
+        "pkg-v0.3.5-1.21.1" = _sXl7D6Gp;
+        "pkg-v0.3.6-1.21.1" = _K71kPvzz;
+        "pkg-v0.3.6-1.20.1" = _dA5mrr4e;
+        "default" = _dA5mrr4e;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sakuraupdater";

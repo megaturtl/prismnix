@@ -61,6 +61,21 @@ let
             "file" = "portalitems-2.6-neoforge-1.21.1.jar";
             "hash" = "sha512-UrJv6z9bEBbwRx9x0GJQJvYLHVG2QNcIneY45IFwMJmS7w8iNHK9pREWTn/8sp3sGLFG+NRxvFpo4TCPqaQC6Q==";
         };
+        _6lfIown9 = {
+            "id" = "6lfIown9";
+            "file" = "portalitems-2.7-forge-1.20.1.jar";
+            "hash" = "sha512-3AlOW+3h/tHsmHgmn/wQv+zJQdCLvHeYu/SRfKSckwn05/+epmWayBOZr5iMdwNoP2rRix2aeNujUgJfiTi3Yw==";
+        };
+        _s99mK2B3 = {
+            "id" = "s99mK2B3";
+            "file" = "portalitems-2.7-neoforge-1.21.1.jar";
+            "hash" = "sha512-d0EUV7Zwam2lJHyhX6J+ho/AV9xGvLADv2bzsS4a2zdydMBvp0rc4eB0j8/7DvoYmksvJWD7EoJ3nnUplPM/2w==";
+        };
+        _6SxRrj5k = {
+            "id" = "6SxRrj5k";
+            "file" = "portalitems-2.7-neoforge-26.1.2.jar";
+            "hash" = "sha512-yk7P0nS2jTeCYdbbToHjn1USSK2MY+u7RCMU2prs9Xg2ubjDlnhyImjApLas6j2qch3dnyahiqIkJa+43O1n1Q==";
+        };
     in {
         "GUW3JNXl" = _GUW3JNXl;
         "PjQjFOS9" = _PjQjFOS9;
@@ -74,8 +89,12 @@ let
         "o8aTB2Ux" = _o8aTB2Ux;
         "5djvFK58" = _5djvFK58;
         "2lvAYtv3" = _2lvAYtv3;
-        "forge-1.20.1" = _5djvFK58;
-        "neoforge-1.21.1" = _2lvAYtv3;
+        "6lfIown9" = _6lfIown9;
+        "s99mK2B3" = _s99mK2B3;
+        "6SxRrj5k" = _6SxRrj5k;
+        "forge-1.20.1" = _6lfIown9;
+        "neoforge-1.21.1" = _s99mK2B3;
+        "neoforge-26.1.2" = _6SxRrj5k;
         "pkg-1.0.0" = _GUW3JNXl;
         "pkg-2.0.0" = _PjQjFOS9;
         "pkg-2.1.0" = _AKyhdgqz;
@@ -85,7 +104,8 @@ let
         "pkg-2.4.1" = _YvEiQgXN;
         "pkg-2.5" = _o8aTB2Ux;
         "pkg-2.6" = _2lvAYtv3;
-        "default" = _2lvAYtv3;
+        "pkg-2.7" = _6SxRrj5k;
+        "default" = _6SxRrj5k;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nether-portal-item";

@@ -476,6 +476,51 @@ let
             "file" = "holodisplays-0.5.1+26.2.jar";
             "hash" = "sha512-WJv25EywsWgbq34KB65ZXNbJdysN6OydgUlJDwOESY7EQ1peKP3Eeqmw1f5AhKJD8D4mDZkKGbsvdecyqg+amQ==";
         };
+        _YX0tM7mf = {
+            "id" = "YX0tM7mf";
+            "file" = "holodisplays-0.5.2+1.21.2-1.21.5.jar";
+            "hash" = "sha512-xM6o+Rc0vpVhh5Yj6cHYTm9MCv9GAMm/dTNG9LU2zG1tQHUqDELHiYGWm+/3bgx2+GpQECKeXpEmP5YmCSy8Ug==";
+        };
+        _9qWYnJdS = {
+            "id" = "9qWYnJdS";
+            "file" = "holodisplays-0.5.2+1.20.5-1.20.6.jar";
+            "hash" = "sha512-4wilqgcLqE3UaHIdaim2MJ3WOcNG/aaOIWmM1iuQNrtKOKy1zPCbAByI78O95aZB6EbC1SQsH9VBQ90viH1AnQ==";
+        };
+        _LssgUxVW = {
+            "id" = "LssgUxVW";
+            "file" = "holodisplays-0.5.2+1.21-1.21.1.jar";
+            "hash" = "sha512-VNqvgoLt+m+iDqsy1PouP6/E5BV9nNtu9czwQ0x14pY2ljnZpu4VBzX25HtOT2++eEkHwu/LKFISVbbZggyStg==";
+        };
+        _689PwAYX = {
+            "id" = "689PwAYX";
+            "file" = "holodisplays-0.5.2+1.21.6-1.21.8.jar";
+            "hash" = "sha512-tKxP8+2VwowdjRghW6sTkxVVtT4pcXGh2CyiWwrnx7Oybed+qXh0D/aLxxnJVvQuzWu/yQ21LMm/7+rIRJ8g2A==";
+        };
+        _Nx73kRWq = {
+            "id" = "Nx73kRWq";
+            "file" = "holodisplays-0.5.2+1.21.9-1.21.10.jar";
+            "hash" = "sha512-73oFqOh6fxUZ1LodWqmZrJ2TbBCfkpIW7gyhNPHvKlsWV0HDOu9TTDmD47rLkZrqcpt4scyqMlGDHCDZg/FylQ==";
+        };
+        _BpIJ5vez = {
+            "id" = "BpIJ5vez";
+            "file" = "holodisplays-0.5.2+1.21.11.jar";
+            "hash" = "sha512-D34ROb3GyUAEtTAjy+Kdhg6ELbrupFyCTFauL3+MFxSN08qyaenN1KPi4bh0Yi3iYYS8y32lUe6AGUYUB9mUmQ==";
+        };
+        _fKzlCnDd = {
+            "id" = "fKzlCnDd";
+            "file" = "holodisplays-0.5.2+26.1-26.1.2.jar";
+            "hash" = "sha512-TzGfexnWc62OoBiVhLyZa0e4RB4RL4xBQM2RKVmPNA1txSvA8GI1R07/W9IHSdUWQPzAKp3sZJVS72zqH38GXw==";
+        };
+        _5i0WZbRu = {
+            "id" = "5i0WZbRu";
+            "file" = "holodisplays-0.5.2+26.2.jar";
+            "hash" = "sha512-0n4BprguPYzuAjUaga71+sSeKAfHN8NtiDygvnmEtU0alsgO5uWEUZIp2CI/kHXtHL8oKLIsnGxBfo/0vzAzyQ==";
+        };
+        _9HwnX3iL = {
+            "id" = "9HwnX3iL";
+            "file" = "holodisplays-0.5.2+26.3.jar";
+            "hash" = "sha512-7WQ8VPnEhlbvROtgffL97Sa7nuppC3mpAO+9wRFgZ5w96bx9cnpq3jOZvFR9lHxXq02yYJZGxFYwylutZQYjHg==";
+        };
     in {
         "vErVu0RQ" = _vErVu0RQ;
         "h0r0KIga" = _h0r0KIga;
@@ -572,24 +617,34 @@ let
         "J0DyWmRs" = _J0DyWmRs;
         "QU3whtp7" = _QU3whtp7;
         "45KW22om" = _45KW22om;
-        "fabric-1.20.5" = _IUhqLGa6;
-        "fabric-1.20.6" = _IUhqLGa6;
-        "fabric-1.21" = _5qeleyqN;
-        "fabric-1.21.1" = _5qeleyqN;
-        "fabric-1.21.2" = _gmR8Rewr;
-        "fabric-1.21.3" = _gmR8Rewr;
-        "fabric-1.21.4" = _gmR8Rewr;
-        "fabric-1.21.5" = _gmR8Rewr;
-        "fabric-1.21.6" = _O3Xn9SOx;
-        "fabric-1.21.7" = _O3Xn9SOx;
-        "fabric-1.21.8" = _O3Xn9SOx;
-        "fabric-1.21.9" = _hnTjxSRN;
-        "fabric-1.21.10" = _hnTjxSRN;
-        "fabric-1.21.11" = _J0DyWmRs;
-        "fabric-26.1" = _QU3whtp7;
-        "fabric-26.1.1" = _QU3whtp7;
-        "fabric-26.1.2" = _QU3whtp7;
-        "fabric-26.2" = _45KW22om;
+        "YX0tM7mf" = _YX0tM7mf;
+        "9qWYnJdS" = _9qWYnJdS;
+        "LssgUxVW" = _LssgUxVW;
+        "689PwAYX" = _689PwAYX;
+        "Nx73kRWq" = _Nx73kRWq;
+        "BpIJ5vez" = _BpIJ5vez;
+        "fKzlCnDd" = _fKzlCnDd;
+        "5i0WZbRu" = _5i0WZbRu;
+        "9HwnX3iL" = _9HwnX3iL;
+        "fabric-1.20.5" = _9qWYnJdS;
+        "fabric-1.20.6" = _9qWYnJdS;
+        "fabric-1.21" = _LssgUxVW;
+        "fabric-1.21.1" = _LssgUxVW;
+        "fabric-1.21.2" = _YX0tM7mf;
+        "fabric-1.21.3" = _YX0tM7mf;
+        "fabric-1.21.4" = _YX0tM7mf;
+        "fabric-1.21.5" = _YX0tM7mf;
+        "fabric-1.21.6" = _689PwAYX;
+        "fabric-1.21.7" = _689PwAYX;
+        "fabric-1.21.8" = _689PwAYX;
+        "fabric-1.21.9" = _Nx73kRWq;
+        "fabric-1.21.10" = _Nx73kRWq;
+        "fabric-1.21.11" = _BpIJ5vez;
+        "fabric-26.1" = _fKzlCnDd;
+        "fabric-26.1.1" = _fKzlCnDd;
+        "fabric-26.1.2" = _fKzlCnDd;
+        "fabric-26.2" = _5i0WZbRu;
+        "fabric-26.3" = _9HwnX3iL;
         "pkg-0.1.5" = _h0r0KIga;
         "pkg-0.1.6" = _HQkCfxJl;
         "pkg-0.2.0" = _hKZz28aw;
@@ -614,7 +669,8 @@ let
         "pkg-0.4.8" = _86ZkfDCS;
         "pkg-0.5.0" = _q2Wbk3vR;
         "pkg-0.5.1" = _45KW22om;
-        "default" = _45KW22om;
+        "pkg-0.5.2" = _9HwnX3iL;
+        "default" = _9HwnX3iL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "holodisplays";

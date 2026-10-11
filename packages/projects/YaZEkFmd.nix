@@ -111,6 +111,16 @@ let
             "file" = "VS-Sable-HoseConnectors-0.1.8-1.21.1.jar";
             "hash" = "sha512-p89BQndYikffhwaB1el4/nA8G5Fwt8jpviZGEj/uFO04HGM2+h3cwHO9b4VC99TMAU3amZK9rCCqvYLyXq+/7g==";
         };
+        _70VhtBeY = {
+            "id" = "70VhtBeY";
+            "file" = "vsHoseConnectors-0.1.9-1.20.1.jar";
+            "hash" = "sha512-rfKb7FWrXtwL/42nklvCTUdBxh99FunVFDdJh6wTHvyFOb4gPgSyMad7y4o1c1TsQ/fVN7Fyx4C5DutcXmQuNQ==";
+        };
+        _MXkbKYIF = {
+            "id" = "MXkbKYIF";
+            "file" = "VS-Sable-HoseConnectors-0.1.9-1.21.1.jar";
+            "hash" = "sha512-x5DsF2UIr2rsqF2HtWDnhje+v0ZH9LUiwpdZ6bhvfSOw9zx/b261T7iwVKkoGXSRJWwzrMAY5SIj7E7feNvB8g==";
+        };
     in {
         "e1SeCrAb" = _e1SeCrAb;
         "X0JYuoXN" = _X0JYuoXN;
@@ -134,8 +144,10 @@ let
         "MCVX5oYb" = _MCVX5oYb;
         "ICd6uDYT" = _ICd6uDYT;
         "vz6TdXa7" = _vz6TdXa7;
-        "forge-1.20.1" = _ICd6uDYT;
-        "neoforge-1.21.1" = _vz6TdXa7;
+        "70VhtBeY" = _70VhtBeY;
+        "MXkbKYIF" = _MXkbKYIF;
+        "forge-1.20.1" = _70VhtBeY;
+        "neoforge-1.21.1" = _MXkbKYIF;
         "pkg-0.0.1" = _e1SeCrAb;
         "pkg-0.0.2" = _X0JYuoXN;
         "pkg-0.0.3" = _jJ4FiiQZ;
@@ -154,7 +166,8 @@ let
         "pkg-0.1.6" = _AJSmuGAV;
         "pkg-0.1.7" = _MCVX5oYb;
         "pkg-0.1.8" = _vz6TdXa7;
-        "default" = _vz6TdXa7;
+        "pkg-0.1.9" = _MXkbKYIF;
+        "default" = _MXkbKYIF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vs-hose-connectors";

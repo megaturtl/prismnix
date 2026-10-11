@@ -346,6 +346,11 @@ let
             "file" = "FpsReducer2-neoforge-26.3-2.18.jar";
             "hash" = "sha512-Vb2KGzM0olcM3yqDkKDRaSbo+75h35tfP8NZZF4ChvjUWxcEuzz3MtQjnANkpslPIyGOj2d+LqIqq6zwmWvDjg==";
         };
+        _FKyHwlCe = {
+            "id" = "FKyHwlCe";
+            "file" = "FpsReducer2-forge-26.3-2.18.jar";
+            "hash" = "sha512-bqyeX+xzOXIliu+lF+th54UMPaiq3HQIDqVpKpZU1VBcKzz4Ht1ft1qFyYzKaO56H3rGM5pZH5YyaoLNd6E59w==";
+        };
     in {
         "KkQ36LBj" = _KkQ36LBj;
         "zbiYRGSH" = _zbiYRGSH;
@@ -416,6 +421,7 @@ let
         "cD8GnvUZ" = _cD8GnvUZ;
         "fY8E5FjE" = _fY8E5FjE;
         "mJBGVGao" = _mJBGVGao;
+        "FKyHwlCe" = _FKyHwlCe;
         "forge-1.7.10" = _KkQ36LBj;
         "forge-1.8.9" = _zbiYRGSH;
         "forge-1.9.4" = _ipev7TSy;
@@ -454,6 +460,7 @@ let
         "forge-26.1.1" = _KJOBdtFZ;
         "forge-26.1.2" = _KJOBdtFZ;
         "forge-26.2" = _cD8GnvUZ;
+        "forge-26.3" = _FKyHwlCe;
         "fabric-1.16.5" = _OXfcKJ36;
         "fabric-1.17.1" = _weEcLV93;
         "fabric-1.18.1" = _NC42KeY2;
@@ -575,8 +582,8 @@ let
         "pkg-26.1-2.16" = _KJOBdtFZ;
         "pkg-26.1.1-2.16" = _aKVsbp3W;
         "pkg-26.2-2.17" = _cD8GnvUZ;
-        "pkg-26.3-2.18" = _mJBGVGao;
-        "default" = _mJBGVGao;
+        "pkg-26.3-2.18" = _FKyHwlCe;
+        "default" = _FKyHwlCe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fps-reducer";

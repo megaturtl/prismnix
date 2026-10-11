@@ -151,6 +151,11 @@ let
             "file" = "BrewinAndChewin-Fly-4.5.4-fly+1.21.11.jar";
             "hash" = "sha512-jan/3mSx35EVY6yMsfdaq19I3EGzkghAqvSkL7Ve53WD1SZokkNVNUqqewBtkT4ToSTqRKA6cUZC0VnUn+Anug==";
         };
+        _CUu2Fyye = {
+            "id" = "CUu2Fyye";
+            "file" = "BrewinAndChewin-Fly-4.5.5-fly+26.3.jar";
+            "hash" = "sha512-4OAdBHS5bxnsq8gXGdUzAfCyG67rIl3nniQeO6kSTLxQnK/e5SEdwK4gNJnvSnwr1Ufpq5MLkJmgRylybnr7/w==";
+        };
     in {
         "eEjqqRuT" = _eEjqqRuT;
         "EULpukgw" = _EULpukgw;
@@ -182,10 +187,12 @@ let
         "4Kgm4nF1" = _4Kgm4nF1;
         "fZgU84SA" = _fZgU84SA;
         "cihFocvV" = _cihFocvV;
+        "CUu2Fyye" = _CUu2Fyye;
         "fabric-1.21.10" = _fZgU84SA;
         "fabric-1.21.11" = _cihFocvV;
         "fabric-26.1.2" = _uU0SuxrZ;
         "fabric-26.2" = _4Kgm4nF1;
+        "fabric-26.3" = _CUu2Fyye;
         "pkg-4.4.2-fly+1.21.10-fabric" = _eEjqqRuT;
         "pkg-4.4.3-fly+1.21.10-fabric" = _EULpukgw;
         "pkg-4.4.5-fly+1.21.10-fabric" = _BekZBS1k;
@@ -216,7 +223,8 @@ let
         "pkg-4.5.4-fly+26.2-fabric" = _4Kgm4nF1;
         "pkg-4.5.4-fly+1.21.10-fabric" = _fZgU84SA;
         "pkg-4.5.4-fly+1.21.11-fabric" = _cihFocvV;
-        "default" = _cihFocvV;
+        "pkg-4.5.5-fly+26.3-fabric" = _CUu2Fyye;
+        "default" = _CUu2Fyye;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "brewin-and-chewin-fly";

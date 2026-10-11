@@ -21,12 +21,18 @@ let
             "file" = "opac_fixes-1.1.4.jar";
             "hash" = "sha512-eK1Lxiy0EPWfl6it/TFJsuRE8sKCLiWS6l90ivqUY58i5exGQOMX0yFBDcW8LR0ckhBdQCbaapEleTGdG9n5gQ==";
         };
+        _Q4wq0x2w = {
+            "id" = "Q4wq0x2w";
+            "file" = "opac_fixes-1.1.5.jar";
+            "hash" = "sha512-xPWuoj7ZtlIOyTEqlgfJjQ528mW6guDIpcHGMXz0swHxkLeoyfFh2Ycm4RAXufIEYTOEytg+1bBANcHtiDj5Rw==";
+        };
     in {
         "pbDflUTd" = _pbDflUTd;
         "pwcQzpco" = _pwcQzpco;
         "5f6tTWbQ" = _5f6tTWbQ;
         "7PlOUGlC" = _7PlOUGlC;
-        "fabric-1.20.1" = _7PlOUGlC;
+        "Q4wq0x2w" = _Q4wq0x2w;
+        "fabric-1.20.1" = _Q4wq0x2w;
         "fabric-1.20.2" = _5f6tTWbQ;
         "fabric-1.20.3" = _5f6tTWbQ;
         "fabric-1.20.4" = _5f6tTWbQ;
@@ -36,7 +42,8 @@ let
         "pkg-1.1.2" = _pwcQzpco;
         "pkg-1.1.3" = _5f6tTWbQ;
         "pkg-1.1.4" = _7PlOUGlC;
-        "default" = _7PlOUGlC;
+        "pkg-1.1.5" = _Q4wq0x2w;
+        "default" = _Q4wq0x2w;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "opac-fixes";

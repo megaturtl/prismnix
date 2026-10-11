@@ -506,6 +506,16 @@ let
             "file" = "Coins-fabric-MC26.1.2-26.1.2.7.jar";
             "hash" = "sha512-wSiyYvvJN+vNobYnzMF/7ddIeUDvobUj42UJeRC5uQlPA0BkFLBBhByeheWTvAr2aY0I5YN16Z7STksuRCEWNg==";
         };
+        _bVomzeVH = {
+            "id" = "bVomzeVH";
+            "file" = "Coins-fabric-MC26.3-26.3.0.1.jar";
+            "hash" = "sha512-NCLw5lqKPP25dGf2K6fXYzt6tJ7qYTJBdCdTuVMAAOt3Y39k8I+BlG8MOp6TlC+9UE83E8HiGJ2fncnCgIfzyw==";
+        };
+        _sGUjCgGe = {
+            "id" = "sGUjCgGe";
+            "file" = "Coins-neoforge-MC26.3-26.3.0.1.jar";
+            "hash" = "sha512-ZEEoppOujjQRS2aCgyUXvtRgI6tb/LB5sn1gt5t+7k0bm7lupLADTmnOAt22K45oaou82ekG3teP/0W/HJQ33w==";
+        };
     in {
         "3XDhrsaZ" = _3XDhrsaZ;
         "7dulMQLv" = _7dulMQLv;
@@ -608,6 +618,8 @@ let
         "gQel8qC7" = _gQel8qC7;
         "qdlGgbEV" = _qdlGgbEV;
         "Zcgtv6zh" = _Zcgtv6zh;
+        "bVomzeVH" = _bVomzeVH;
+        "sGUjCgGe" = _sGUjCgGe;
         "forge-1.15.2" = _iQWL2mjR;
         "forge-1.14.4" = _7dulMQLv;
         "forge-1.16.1" = _PaTVjc31;
@@ -642,6 +654,7 @@ let
         "fabric-26.1.1" = _Zcgtv6zh;
         "fabric-26.1.2" = _Zcgtv6zh;
         "fabric-26.2" = _gQel8qC7;
+        "fabric-26.3" = _bVomzeVH;
         "quilt-1.18.2" = _qtAjMNqa;
         "quilt-1.19" = _6ziZPEME;
         "quilt-1.19.1" = _p5RL6zX4;
@@ -657,6 +670,7 @@ let
         "neoforge-26.1.1" = _qdlGgbEV;
         "neoforge-26.1.2" = _qdlGgbEV;
         "neoforge-26.2" = _EepLQgtR;
+        "neoforge-26.3" = _sGUjCgGe;
         "pkg-1.0.1" = _3XDhrsaZ;
         "pkg-0.9.2" = _7dulMQLv;
         "pkg-1.0.2" = _iQWL2mjR;
@@ -709,7 +723,8 @@ let
         "pkg-26.2.0.1" = _EPR2w48T;
         "pkg-26.2.0.6" = _gQel8qC7;
         "pkg-26.1.2.7" = _Zcgtv6zh;
-        "default" = _Zcgtv6zh;
+        "pkg-26.3.0.1" = _sGUjCgGe;
+        "default" = _sGUjCgGe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "coins-je";

@@ -86,6 +86,16 @@ let
             "file" = "zfastsurface-1.0.0-beta.5+26.3.jar";
             "hash" = "sha512-buJblEZAW45d2vdktPqjMpkcqJaqfHn8OlSTWxc5flI4Sq7aQxMijWaJPzOWhyAOMW91L/eKJN3wcURRokVNlQ==";
         };
+        _yOBmJfgG = {
+            "id" = "yOBmJfgG";
+            "file" = "zfastsurface-1.0.0+26.3.jar";
+            "hash" = "sha512-eo8rcry5A2JbtSHW+ZGGdB5/wuY7rFdHFOP1+kxgb+qSSRBPR1bnOEuQckXedFZMHFM5ff6VHLKS2Eyw/JdH5A==";
+        };
+        _j79zOW02 = {
+            "id" = "j79zOW02";
+            "file" = "zfastsurface-1.0.0+26.2.jar";
+            "hash" = "sha512-kMCY3MWyhmlKteuwVkMTXwMH5gMY1v6EII9x3uQq5WpGic2E2aCWk5BGYPSL863NSaRXSDfE78bTYGR13Uzf1Q==";
+        };
     in {
         "WHGDMLki" = _WHGDMLki;
         "twQ8t3PP" = _twQ8t3PP;
@@ -104,26 +114,28 @@ let
         "x9kjpBQ5" = _x9kjpBQ5;
         "jX39WwtA" = _jX39WwtA;
         "EhSo6zkN" = _EhSo6zkN;
+        "yOBmJfgG" = _yOBmJfgG;
+        "j79zOW02" = _j79zOW02;
         "fabric-26.3-snapshot-7" = _WHGDMLki;
         "fabric-26.3-snapshot-10" = _twQ8t3PP;
         "fabric-26.3-pre-1" = _ueehnU0G;
-        "fabric-26.2" = _jX39WwtA;
+        "fabric-26.2" = _j79zOW02;
         "fabric-26.3-pre-2" = _uSQ8FaXR;
         "fabric-26.3-pre-3" = _ZW9i2UUe;
         "fabric-26.3-rc-1" = _9IFuM9JM;
         "fabric-26.3-rc-2" = _xRMoVPuH;
         "fabric-26.3-rc-3" = _x9kjpBQ5;
-        "fabric-26.3" = _EhSo6zkN;
+        "fabric-26.3" = _yOBmJfgG;
         "quilt-26.3-snapshot-7" = _WHGDMLki;
         "quilt-26.3-snapshot-10" = _twQ8t3PP;
         "quilt-26.3-pre-1" = _ueehnU0G;
-        "quilt-26.2" = _jX39WwtA;
+        "quilt-26.2" = _j79zOW02;
         "quilt-26.3-pre-2" = _uSQ8FaXR;
         "quilt-26.3-pre-3" = _ZW9i2UUe;
         "quilt-26.3-rc-1" = _9IFuM9JM;
         "quilt-26.3-rc-2" = _xRMoVPuH;
         "quilt-26.3-rc-3" = _x9kjpBQ5;
-        "quilt-26.3" = _EhSo6zkN;
+        "quilt-26.3" = _yOBmJfgG;
         "pkg-1.0.0-beta.1+26.3-snapshot-7" = _WHGDMLki;
         "pkg-1.0.0-beta.1+26.3-snapshot-10" = _twQ8t3PP;
         "pkg-1.0.0-beta.1+26.3-pre-1" = _xh1Cv5Nr;
@@ -141,7 +153,9 @@ let
         "pkg-1.0.0-beta.5+26.3-rc-3" = _x9kjpBQ5;
         "pkg-1.0.0-beta.5+26.2" = _jX39WwtA;
         "pkg-1.0.0-beta.5+26.3" = _EhSo6zkN;
-        "default" = _EhSo6zkN;
+        "pkg-1.0.0+26.3" = _yOBmJfgG;
+        "pkg-1.0.0+26.2" = _j79zOW02;
+        "default" = _j79zOW02;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zfastsurface";

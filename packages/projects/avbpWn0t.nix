@@ -266,6 +266,66 @@ let
             "file" = "athen-0.3.3+26.3.jar";
             "hash" = "sha512-peFUJFngLfzJesBe8l3Wlz2hxJl630K//iMlGneAUGAdY7iMvuCkf3g3dM1ry4ERpDjAvlvMeoesRSOCWShiZQ==";
         };
+        _POqgz8Xk = {
+            "id" = "POqgz8Xk";
+            "file" = "athen-0.3.4+26.1.jar";
+            "hash" = "sha512-SP07hzT71OEJJnakrITFleu1jnbip6rxs/9DyA1CdUDGtXLPAaCxGucLnOjS1VlRxx6MvSS/q9FT6byKt86g+A==";
+        };
+        _deqANDNa = {
+            "id" = "deqANDNa";
+            "file" = "athen-0.3.4+26.2.jar";
+            "hash" = "sha512-wNEtqg6x3Ic/LnSTHSZCxk/63SzbJy5jLAO+6VhhHNMuqB8Xv0oprzIQ4zWGsGn84uumT5QpQDeZJvWg9Yblkg==";
+        };
+        _wQa3ujq6 = {
+            "id" = "wQa3ujq6";
+            "file" = "athen-0.3.4+26.3.jar";
+            "hash" = "sha512-CoNmT3r0nRxiqtEoLHSWl+bzLCiPev8WCgrlBfNx0P3EhHOcmXi40nhv8GI63lhLF0fn//IfmhDvEu6x/RZLBw==";
+        };
+        _iURokW0i = {
+            "id" = "iURokW0i";
+            "file" = "athen-0.3.5+26.1.jar";
+            "hash" = "sha512-zx2RL2aSxSJg525Em+w6Yek27HtM5MGN8ncV6lWhX72N/vUVifCIM05mcgvmF2p/HPO6qC+5bWNP2vno9x1JdA==";
+        };
+        _VBysQWLJ = {
+            "id" = "VBysQWLJ";
+            "file" = "athen-0.3.5+26.2.jar";
+            "hash" = "sha512-urLV0DXqG3OJENuhH0bLUJS4fXB7WEz7C/e1U2H5MuUae3c/n1Y0nhjhkUkLiTTOhVuJ3Ktv/csCnC2hmiBfmQ==";
+        };
+        _YJz7przR = {
+            "id" = "YJz7przR";
+            "file" = "athen-0.3.5+26.3.jar";
+            "hash" = "sha512-6JeN5D5pif0PSES8rAuRLYr+6H6nLP666E/VrmgUABsaxwsmkMMdXEFtm7YakP4Oji+YIDcksnRE81nNAgt3WQ==";
+        };
+        _nCNbTj0c = {
+            "id" = "nCNbTj0c";
+            "file" = "athen-0.3.6+26.1.jar";
+            "hash" = "sha512-oiOL2jmvDB/NrRMcH6ai9ox/Z2fuxFWq+oXb+atORxGAj3Cqa+3T0rpXSWqQ159iOoZ/jqa0yDm+G6hOnPIJnA==";
+        };
+        _lgNAhNuQ = {
+            "id" = "lgNAhNuQ";
+            "file" = "athen-0.3.6+26.2.jar";
+            "hash" = "sha512-D8lO3fzDsFqdqCM3kMuJie0mo8AJ/7ui8iBcBgjz1y3qyLVWorHFM+BS7KzCxvH5ERBb8vjuaAv/23lwmKA2zg==";
+        };
+        _eP7noEE8 = {
+            "id" = "eP7noEE8";
+            "file" = "athen-0.3.6+26.3.jar";
+            "hash" = "sha512-f8eNqRqDXRi+EeC3C/sYHeka7KzEdAwwarxpOLAaGf363mlhgjfAlVEfXGRN6Fe6U/hJbk7idNpvu6+kgeC9rA==";
+        };
+        _q7L8idH8 = {
+            "id" = "q7L8idH8";
+            "file" = "athen-0.3.7+26.1.jar";
+            "hash" = "sha512-z0/dJ5rLV0pQG6A4vh12Q3ydtozmpvLwL6PyA9vvzthDB8n4GX4A1w4ldcHOxK+x20esiVrf8scIfQjmzf6OEw==";
+        };
+        _VsJsQsn5 = {
+            "id" = "VsJsQsn5";
+            "file" = "athen-0.3.7+26.2.jar";
+            "hash" = "sha512-8TwBZ3+Ak9+B3sdpdFs7OvFcuzF0+p2bAfDeu4cUCTDpuD6prb2JCMB0+u14wI6Gm8Bc4Es80+8rGjSqrkDWjg==";
+        };
+        _nWtOj3wI = {
+            "id" = "nWtOj3wI";
+            "file" = "athen-0.3.7+26.3.jar";
+            "hash" = "sha512-N8bw1qZOKp6xaIjDAqsWdOcUkgNBmw3bM5HwXW9D3R8BoMD51ft36id/x1Csua+vZhX85UGe2Bq/bRMFdL9YIQ==";
+        };
     in {
         "QLTdoTzb" = _QLTdoTzb;
         "5vguU7Nv" = _5vguU7Nv;
@@ -320,14 +380,26 @@ let
         "YLzXwjKB" = _YLzXwjKB;
         "zSD1AtNT" = _zSD1AtNT;
         "AGWMnyMd" = _AGWMnyMd;
+        "POqgz8Xk" = _POqgz8Xk;
+        "deqANDNa" = _deqANDNa;
+        "wQa3ujq6" = _wQa3ujq6;
+        "iURokW0i" = _iURokW0i;
+        "VBysQWLJ" = _VBysQWLJ;
+        "YJz7przR" = _YJz7przR;
+        "nCNbTj0c" = _nCNbTj0c;
+        "lgNAhNuQ" = _lgNAhNuQ;
+        "eP7noEE8" = _eP7noEE8;
+        "q7L8idH8" = _q7L8idH8;
+        "VsJsQsn5" = _VsJsQsn5;
+        "nWtOj3wI" = _nWtOj3wI;
         "fabric-1.21.9" = _jmaoMXwW;
         "fabric-1.21.10" = _jmaoMXwW;
         "fabric-1.21.11" = _NlVvtoTz;
-        "fabric-26.1" = _YLzXwjKB;
-        "fabric-26.1.1" = _YLzXwjKB;
-        "fabric-26.1.2" = _YLzXwjKB;
-        "fabric-26.2" = _zSD1AtNT;
-        "fabric-26.3" = _AGWMnyMd;
+        "fabric-26.1" = _q7L8idH8;
+        "fabric-26.1.1" = _q7L8idH8;
+        "fabric-26.1.2" = _q7L8idH8;
+        "fabric-26.2" = _VsJsQsn5;
+        "fabric-26.3" = _nWtOj3wI;
         "pkg-0.0.1" = _5vguU7Nv;
         "pkg-0.0.2" = _fSxFOAzH;
         "pkg-0.0.3" = _ahqpVM0m;
@@ -353,7 +425,11 @@ let
         "pkg-0.3.1" = _LRsdWVHR;
         "pkg-0.3.2" = _3jCSgEN8;
         "pkg-0.3.3" = _AGWMnyMd;
-        "default" = _AGWMnyMd;
+        "pkg-0.3.4" = _wQa3ujq6;
+        "pkg-0.3.5" = _YJz7przR;
+        "pkg-0.3.6" = _eP7noEE8;
+        "pkg-0.3.7" = _nWtOj3wI;
+        "default" = _nWtOj3wI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "athen";

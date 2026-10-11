@@ -236,6 +236,46 @@ let
             "file" = "easyautocycler-fabric-1.20.1-3.1.1.jar";
             "hash" = "sha512-1G5oeuvqSxjh3JnX0i0qv4ednoeTbwWrOHUI7Q7+KE8BGtM7r5Ss8J4HsR1QTELhfIjAhO4txvMMfpXKs4iPcQ==";
         };
+        _DeCtpZD4 = {
+            "id" = "DeCtpZD4";
+            "file" = "easyautocycler-fabric-26.1.2-3.1.2.jar";
+            "hash" = "sha512-erDMXAmOnuyQNnmTho2AC65dy1rxp9Mf9d6jERa9C9pB1IErwnx1YDCJ3952hEfTsH2pQ5xXUR36PY0/dcXtcw==";
+        };
+        _GvQfo3Hu = {
+            "id" = "GvQfo3Hu";
+            "file" = "easyautocycler-fabric-1.21.11-3.1.2.jar";
+            "hash" = "sha512-81QupBR5/cTo5jlARclnn5yLhyTNNnTlh6IJGOQplwrPq08gN9aZfWlw71nuyh5d3Syg5OdlG/wijahNZ7D2Aw==";
+        };
+        _TNYPPMuh = {
+            "id" = "TNYPPMuh";
+            "file" = "easyautocycler-fabric-26.2-3.1.2.jar";
+            "hash" = "sha512-VLZScz5YsgN1QB+jT5JODhEEzx95TksPR3ir3rn5zxaCSDL2f12IIHCGfMvfm9s+MpoiGHdXmz45T5Qnaz+2Sg==";
+        };
+        _k608q0Po = {
+            "id" = "k608q0Po";
+            "file" = "easyautocycler-fabric-26.3-3.1.2.jar";
+            "hash" = "sha512-BA7kjOXEWKa2SYRiZbH8oPSKvRH6HzbVq+ch3YNGfmojIFbC0/fR/teTi/viKIDYSxOYvO9/s7O5YZ9oKhGPDQ==";
+        };
+        _OmzdJpR2 = {
+            "id" = "OmzdJpR2";
+            "file" = "easyautocycler-neoforge-26.1.2-3.1.2.jar";
+            "hash" = "sha512-AxnpXzkqpyGn3GIKktwjTOLsirLoC5SLOaEFEw+OslkMcQUjjsAyRji5LHS5qG8pKJiMBzbsERsvsitop6vELA==";
+        };
+        _MmLYwo5L = {
+            "id" = "MmLYwo5L";
+            "file" = "easyautocycler-neoforge-26.2-3.1.2.jar";
+            "hash" = "sha512-NZRlzMgRhWwau63CxODmmM5TFeSQBzqDlRfzqGYiJMDkDB3uqL/KeOnokq6EonFttvdS/mILZ7jsvnx3cK7jXw==";
+        };
+        _9aCVSik1 = {
+            "id" = "9aCVSik1";
+            "file" = "easyautocycler-neoforge-26.3-3.1.2.jar";
+            "hash" = "sha512-ZQMUv1KNQ0UaMVPz/jEUmZQ3dLgfqyy7ycbNfIiC07GUn7v6y2xVOAJM0hJMlL2Me2xYu1wKul25i0qkOvXGBQ==";
+        };
+        _C6aIB32R = {
+            "id" = "C6aIB32R";
+            "file" = "easyautocycler-neoforge-1.21.11-3.1.2.jar";
+            "hash" = "sha512-8BbdJt27oxn/oOIUKNV8lquPjC6pOtaEvzpud6RH3eBcEVbGW+AAuAonImK4oaLk2SdiQltEGOZxLoKcbdAc7A==";
+        };
     in {
         "ySi8iy58" = _ySi8iy58;
         "RuWh62DE" = _RuWh62DE;
@@ -284,17 +324,27 @@ let
         "5Kqczssq" = _5Kqczssq;
         "SPrk0IUa" = _SPrk0IUa;
         "dtPBqGzK" = _dtPBqGzK;
+        "DeCtpZD4" = _DeCtpZD4;
+        "GvQfo3Hu" = _GvQfo3Hu;
+        "TNYPPMuh" = _TNYPPMuh;
+        "k608q0Po" = _k608q0Po;
+        "OmzdJpR2" = _OmzdJpR2;
+        "MmLYwo5L" = _MmLYwo5L;
+        "9aCVSik1" = _9aCVSik1;
+        "C6aIB32R" = _C6aIB32R;
         "neoforge-1.21.1" = _Gys4Swa7;
         "neoforge-1.21" = _I0QXylIk;
-        "neoforge-26.1.2" = _5Kqczssq;
-        "neoforge-1.21.11" = _lzAan55W;
-        "neoforge-26.2" = _SPrk0IUa;
+        "neoforge-26.1.2" = _OmzdJpR2;
+        "neoforge-1.21.11" = _C6aIB32R;
+        "neoforge-26.2" = _MmLYwo5L;
+        "neoforge-26.3" = _9aCVSik1;
         "forge-1.20.1" = _7EpEiifX;
         "fabric-1.20.1" = _dtPBqGzK;
         "fabric-1.21.1" = _i0MM1Q8o;
-        "fabric-26.1.2" = _p9uL6TsH;
-        "fabric-1.21.11" = _yG3GjRjn;
-        "fabric-26.2" = _r19NKUK1;
+        "fabric-26.1.2" = _DeCtpZD4;
+        "fabric-1.21.11" = _GvQfo3Hu;
+        "fabric-26.2" = _TNYPPMuh;
+        "fabric-26.3" = _k608q0Po;
         "pkg-1.1.0" = _RuWh62DE;
         "pkg-1.2.0" = _IVvnhs0s;
         "pkg-1.2.1" = _RVdez6gQ;
@@ -307,7 +357,8 @@ let
         "pkg-3.0.0" = _HLw17GJ9;
         "pkg-3.1.0" = _SPrk0IUa;
         "pkg-3.1.1" = _dtPBqGzK;
-        "default" = _dtPBqGzK;
+        "pkg-3.1.2" = _C6aIB32R;
+        "default" = _C6aIB32R;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "easy-auto-cycler";

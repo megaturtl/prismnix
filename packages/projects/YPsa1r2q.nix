@@ -26,24 +26,32 @@ let
             "file" = "unjank-0.1.5.jar";
             "hash" = "sha512-JrB6HwoXYR4WkvURC1Addlx3wBpgamMWhT4ZciF8ZY4NlZ8rp8h9/8T8gb/5+TfjYBuApoqCwEb37TP//4ql+Q==";
         };
+        _T3xJVGUj = {
+            "id" = "T3xJVGUj";
+            "file" = "unjank-0.1.6.jar";
+            "hash" = "sha512-S8LFouJqMm+lOE++HVTV7Y3WDDCZFPMMqwZoA/hMyjwTPBnZRXfcyLC6J4N8J1gqwwtoHXZv7ohITE9iYxgCbw==";
+        };
     in {
         "pFoFYuCg" = _pFoFYuCg;
         "M641GhqM" = _M641GhqM;
         "CPh1AevX" = _CPh1AevX;
         "UxxJb51D" = _UxxJb51D;
         "G4CRVEZX" = _G4CRVEZX;
+        "T3xJVGUj" = _T3xJVGUj;
         "fabric-1.21.8" = _pFoFYuCg;
         "fabric-1.21.9" = _CPh1AevX;
         "fabric-1.21.10" = _CPh1AevX;
         "fabric-26.1" = _UxxJb51D;
         "fabric-26.1.1" = _UxxJb51D;
-        "fabric-26.2" = _G4CRVEZX;
+        "fabric-26.2" = _T3xJVGUj;
+        "fabric-26.3" = _T3xJVGUj;
         "pkg-0.1.0" = _pFoFYuCg;
         "pkg-0.1.1" = _M641GhqM;
         "pkg-0.1.2" = _CPh1AevX;
         "pkg-0.1.3" = _UxxJb51D;
         "pkg-0.1.5" = _G4CRVEZX;
-        "default" = _G4CRVEZX;
+        "pkg-0.1.6" = _T3xJVGUj;
+        "default" = _T3xJVGUj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "unjank";

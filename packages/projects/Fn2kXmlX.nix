@@ -36,6 +36,11 @@ let
             "file" = "Eggs N Eyes 1.0.6.zip";
             "hash" = "sha512-EYvxCSZfMksOSbeK0RPFZknVScAdXEOnqqymyiHj7BQ/Ffgpnx4sv4ae+cl+OUqBAtBO57MhQIi68wYvCK4O8w==";
         };
+        _do1KTHuW = {
+            "id" = "do1KTHuW";
+            "file" = "Eggs N Eyes 1.0.7.zip";
+            "hash" = "sha512-FXTs9Flmc7S4bdOVjtTk3tdvv5GzWEC8ut7JX7b1RgtQcrGlhQc3MHgjdu/97YxjN6vbjQgRv+VQDiYfiZAe0w==";
+        };
     in {
         "xiCadc3c" = _xiCadc3c;
         "mArE31kh" = _mArE31kh;
@@ -44,6 +49,7 @@ let
         "Smy1ezU2" = _Smy1ezU2;
         "RLtyECwQ" = _RLtyECwQ;
         "cIgxHxKr" = _cIgxHxKr;
+        "do1KTHuW" = _do1KTHuW;
         "minecraft-25w08a" = _mArE31kh;
         "minecraft-25w09a" = _mArE31kh;
         "minecraft-25w09b" = _mArE31kh;
@@ -51,17 +57,18 @@ let
         "minecraft-1.21.5-pre1" = _mArE31kh;
         "minecraft-1.21.5-pre2" = _mArE31kh;
         "minecraft-1.21.5-pre3" = _mArE31kh;
-        "minecraft-1.21.5" = _cIgxHxKr;
-        "minecraft-1.21.6" = _cIgxHxKr;
-        "minecraft-1.21.7" = _cIgxHxKr;
-        "minecraft-1.21.8" = _cIgxHxKr;
-        "minecraft-1.21.9" = _cIgxHxKr;
-        "minecraft-1.21.10" = _cIgxHxKr;
-        "minecraft-1.21.11" = _cIgxHxKr;
-        "minecraft-26.1" = _cIgxHxKr;
-        "minecraft-26.1.1" = _cIgxHxKr;
-        "minecraft-26.1.2" = _cIgxHxKr;
-        "minecraft-26.2" = _cIgxHxKr;
+        "minecraft-1.21.5" = _do1KTHuW;
+        "minecraft-1.21.6" = _do1KTHuW;
+        "minecraft-1.21.7" = _do1KTHuW;
+        "minecraft-1.21.8" = _do1KTHuW;
+        "minecraft-1.21.9" = _do1KTHuW;
+        "minecraft-1.21.10" = _do1KTHuW;
+        "minecraft-1.21.11" = _do1KTHuW;
+        "minecraft-26.1" = _do1KTHuW;
+        "minecraft-26.1.1" = _do1KTHuW;
+        "minecraft-26.1.2" = _do1KTHuW;
+        "minecraft-26.2" = _do1KTHuW;
+        "minecraft-26.3" = _do1KTHuW;
         "pkg-1.0" = _xiCadc3c;
         "pkg-1.0.1" = _mArE31kh;
         "pkg-1.0.2" = _Wt7deRcg;
@@ -69,7 +76,8 @@ let
         "pkg-1.0.4" = _Smy1ezU2;
         "pkg-1.0.5" = _RLtyECwQ;
         "pkg-1.0.6" = _cIgxHxKr;
-        "default" = _cIgxHxKr;
+        "pkg-1.0.7" = _do1KTHuW;
+        "default" = _do1KTHuW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "eggs-n-eyes";

@@ -186,6 +186,21 @@ let
             "file" = "animalgarden-seaotter-1.1.1-fabric-26.2-0.152.2.jar";
             "hash" = "sha512-aDlfj+vl8rwSzZsyi2fOi816z+8vX1hk3GoaOqcg6gBFzYg7E47gQHjuY6Jjv+lrj9efKpddi6fbArkbCxjICw==";
         };
+        _pgWym68y = {
+            "id" = "pgWym68y";
+            "file" = "animalgarden-seaotter-1.1.1-fabric-26.3-0.161.0.jar";
+            "hash" = "sha512-vcSBthSUBlJ/Gu2PoqSzemC4kbXOrRp0b8ka8xP3ib8bbNapTRcUJqKjm+1qKcWm1zhkkwL4blW/eAGsQmezKA==";
+        };
+        _wnRHF0ta = {
+            "id" = "wnRHF0ta";
+            "file" = "animalgarden-seaotter-1.1.1-forge-26.3-66.0.2.jar";
+            "hash" = "sha512-TcgW+AtyzcStiuFL6NlkuZjcDq7xnYVqeBbB/dHVrZZBPXE1Hpv9tu1C1cZ+Yzr7WMfaXBWkNUV4cDf2M8NTDA==";
+        };
+        _JjOpwQBd = {
+            "id" = "JjOpwQBd";
+            "file" = "animalgarden-seaotter-1.1.1-neoforge-26.3.0.8.jar";
+            "hash" = "sha512-O8TXmb2JtrazcNQqcDeOgxQYO/j6uPYlvIhBv66KIGkxEEK3jNwSU6U0HfuB5wu/KCllh7thXFngo0uOtZS6Lg==";
+        };
     in {
         "zgID8utS" = _zgID8utS;
         "EfyCLynJ" = _EfyCLynJ;
@@ -224,6 +239,9 @@ let
         "s8W57sqR" = _s8W57sqR;
         "haekpNc7" = _haekpNc7;
         "QrsDzawD" = _QrsDzawD;
+        "pgWym68y" = _pgWym68y;
+        "wnRHF0ta" = _wnRHF0ta;
+        "JjOpwQBd" = _JjOpwQBd;
         "forge-1.20.1" = _fPMpAPzZ;
         "forge-1.21.1" = _51J1zNHt;
         "forge-1.21.4" = _3JF1kxeZ;
@@ -237,6 +255,7 @@ let
         "forge-26.1.1" = _s8W57sqR;
         "forge-26.1.2" = _s8W57sqR;
         "forge-26.2" = _s8W57sqR;
+        "forge-26.3" = _wnRHF0ta;
         "fabric-1.21.1" = _fPihijLn;
         "fabric-1.21.4" = _hf30EEk0;
         "fabric-1.21.6" = _kJ4S1hZi;
@@ -250,6 +269,7 @@ let
         "fabric-26.1.1" = _QrsDzawD;
         "fabric-26.1.2" = _QrsDzawD;
         "fabric-26.2" = _QrsDzawD;
+        "fabric-26.3" = _pgWym68y;
         "neoforge-1.21.1" = _Oo6zhzrW;
         "neoforge-1.21.4" = _82Y21613;
         "neoforge-1.21.6" = _Z3JAhlOh;
@@ -262,6 +282,7 @@ let
         "neoforge-26.1.1" = _haekpNc7;
         "neoforge-26.1.2" = _haekpNc7;
         "neoforge-26.2" = _haekpNc7;
+        "neoforge-26.3" = _JjOpwQBd;
         "pkg-1.0.0-forge-1.20.1-47.4.10" = _zgID8utS;
         "pkg-1.0.0-fabric-1.21.1-0.116.7" = _EfyCLynJ;
         "pkg-1.0.0-forge-1.21.1-52.1.5" = _oDlhnkRh;
@@ -299,7 +320,10 @@ let
         "pkg-1.1.1-forge-26.2-65.0.0" = _s8W57sqR;
         "pkg-1.1.1-neoforge-26.2.0.6" = _haekpNc7;
         "pkg-1.1.1-fabric-26.2-0.152.2" = _QrsDzawD;
-        "default" = _QrsDzawD;
+        "pkg-1.1.1-fabric-26.3-0.161.0" = _pgWym68y;
+        "pkg-1.1.1-forge-26.3-66.0.2" = _wnRHF0ta;
+        "pkg-1.1.1-neoforge-26.3.0.8" = _JjOpwQBd;
+        "default" = _JjOpwQBd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "animal-garden-sea-otter";

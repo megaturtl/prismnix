@@ -1346,6 +1346,16 @@ let
             "file" = "harvest-with-ease-neoforge-26.1.2-9.4.0.jar";
             "hash" = "sha512-hQSfDbjYtW5rCeyEyMd5zkoBK25hzVIN4mlzMeX38fup1LioQJ6n6M9HhpCYzw6U9yBaOfwPLexvYgTG65gh/w==";
         };
+        _qLOznAe7 = {
+            "id" = "qLOznAe7";
+            "file" = "harvest-with-ease-fabric-26.2-9.4.0.jar";
+            "hash" = "sha512-mEFe+2/MB45rHb4pwUIrlSvVIGpeApOsnyh+fE0mhQCx7wpaksBiBY1UmNqwfQNLLJT3ZnTrUCHkd5bJEXtUAg==";
+        };
+        _bFzEK48u = {
+            "id" = "bFzEK48u";
+            "file" = "harvest-with-ease-neoforge-26.2-9.4.0.jar";
+            "hash" = "sha512-gYQxie++GZpk+uyzS5dUJwUaMhXgvweSV+ysf1L+gVYwki55aqqRD5mbYpAFj5zBJdGW5AkNcEDEF+nyWxOCDA==";
+        };
     in {
         "c2uAkhIJ" = _c2uAkhIJ;
         "fOxr6O9D" = _fOxr6O9D;
@@ -1616,6 +1626,8 @@ let
         "VgJiTC7s" = _VgJiTC7s;
         "wIpH441W" = _wIpH441W;
         "syHrjDJ0" = _syHrjDJ0;
+        "qLOznAe7" = _qLOznAe7;
+        "bFzEK48u" = _bFzEK48u;
         "fabric-1.18.2" = _2gg2yGf8;
         "fabric-1.19.2" = _IbnmRZIC;
         "fabric-1.19.3" = _11upnhQ1;
@@ -1637,6 +1649,7 @@ let
         "fabric-26.1" = _gGDH3bO3;
         "fabric-26.1.1" = _gGDH3bO3;
         "fabric-26.1.2" = _wIpH441W;
+        "fabric-26.2" = _qLOznAe7;
         "forge-1.18.2" = _4oCEWsmY;
         "forge-1.19.2" = _C4qXmdf4;
         "forge-1.19.3" = _tsIqko6K;
@@ -1664,6 +1677,7 @@ let
         "neoforge-26.1" = _VgJiTC7s;
         "neoforge-26.1.1" = _VgJiTC7s;
         "neoforge-26.1.2" = _syHrjDJ0;
+        "neoforge-26.2" = _bFzEK48u;
         "pkg-6.0.0.0" = _o3s4MBkn;
         "pkg-6.0.0.0-final" = _JIL3dgci;
         "pkg-6.0.1.0" = _HF6sIFOg;
@@ -1703,8 +1717,8 @@ let
         "pkg-9.2.0" = _BnHrKTNY;
         "pkg-9.2.1" = _TrGQmh2k;
         "pkg-9.3.0" = _elkWrSYC;
-        "pkg-9.4.0" = _syHrjDJ0;
-        "default" = _syHrjDJ0;
+        "pkg-9.4.0" = _bFzEK48u;
+        "default" = _bFzEK48u;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "harvest-with-ease";

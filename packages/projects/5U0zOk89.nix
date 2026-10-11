@@ -16,10 +16,16 @@ let
             "file" = "Void 32x.zip";
             "hash" = "sha512-tnvdu0qhanCkFnLyQ2/zHrtS6D5Vsi2ZjVQ4y0sbY8ZIU0D3NbtB/dsJyomXEnk2uaDlJN0DsQqLzqUnGi07uA==";
         };
+        _ikM3j1ns = {
+            "id" = "ikM3j1ns";
+            "file" = "Void 32x.zip";
+            "hash" = "sha512-AcRSgAv+HD0NzS1eYZm5a2KVNxhTDsMcgt7ePH6ARVGr8GYg9oUk95Ql3TgglKqaNn3h2WqMrNakNfD3WFXfOw==";
+        };
     in {
         "A0TeZW4y" = _A0TeZW4y;
         "EgTWkyga" = _EgTWkyga;
         "dGCJ3xg3" = _dGCJ3xg3;
+        "ikM3j1ns" = _ikM3j1ns;
         "minecraft-1.21" = _EgTWkyga;
         "minecraft-1.21.1" = _EgTWkyga;
         "minecraft-1.21.2" = _EgTWkyga;
@@ -29,10 +35,12 @@ let
         "minecraft-1.21.6" = _EgTWkyga;
         "minecraft-1.21.7" = _EgTWkyga;
         "minecraft-1.21.8" = _dGCJ3xg3;
+        "minecraft-26.2" = _ikM3j1ns;
         "pkg-1.1" = _A0TeZW4y;
         "pkg-1.2" = _EgTWkyga;
         "pkg-1.3" = _dGCJ3xg3;
-        "default" = _dGCJ3xg3;
+        "pkg-1.4" = _ikM3j1ns;
+        "default" = _ikM3j1ns;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "void-32x";

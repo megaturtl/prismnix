@@ -21,11 +21,17 @@ let
             "file" = "Dark Gui.zip";
             "hash" = "sha512-RZkR6l7A7MO0emL17ZcoGARUax5st9hDTlB1/8QLy0bKONNNz6cKi6/5LDhuNkFhP/0PVJTZEnM+llUW78DE9g==";
         };
+        _omm8P79J = {
+            "id" = "omm8P79J";
+            "file" = "Dark GUI.zip";
+            "hash" = "sha512-zhsW8w3Gz3HV/40frbGT++cu+HSbdxC/gYQRyCpqHaukG2DELiSF7gTj6QvljfMg37jJyoWeooz8tEZxqTcIaw==";
+        };
     in {
         "sZinh2ds" = _sZinh2ds;
         "2vEvxuPp" = _2vEvxuPp;
         "bFBdhg0V" = _bFBdhg0V;
         "kvkYNGvp" = _kvkYNGvp;
+        "omm8P79J" = _omm8P79J;
         "minecraft-1.21.4" = _kvkYNGvp;
         "minecraft-1.21.5" = _kvkYNGvp;
         "minecraft-1.21" = _kvkYNGvp;
@@ -90,10 +96,12 @@ let
         "minecraft-24w44a" = _kvkYNGvp;
         "minecraft-24w45a" = _kvkYNGvp;
         "minecraft-24w46a" = _kvkYNGvp;
+        "minecraft-26.2" = _omm8P79J;
         "pkg-1" = _sZinh2ds;
         "pkg-1.1" = _2vEvxuPp;
         "pkg-1.3" = _kvkYNGvp;
-        "default" = _kvkYNGvp;
+        "pkg-1.4" = _omm8P79J;
+        "default" = _omm8P79J;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gui!";

@@ -196,6 +196,11 @@ let
             "file" = "noixmodapi-1.4.4.jar";
             "hash" = "sha512-uq260m9rj+nBUfWIarSHGaU07dy2sWKYctNQRisa8KKX5pmEIv0oc4NVHrvCi5I3ZkDZDL9AD3VNaXgQAnKbig==";
         };
+        _8Z6h9kBE = {
+            "id" = "8Z6h9kBE";
+            "file" = "noixmodapi-1.4.5-pre6.jar";
+            "hash" = "sha512-r0c6JlvGqrsWQLGOrHringj/fH1EsmZyAy4STLZGYI1TmTY/VXT8t8+J7i+VaUBI0HEzlxBVRcQfm1zsg0xFOg==";
+        };
     in {
         "w7wUtwbB" = _w7wUtwbB;
         "oljXHoTF" = _oljXHoTF;
@@ -236,8 +241,9 @@ let
         "pabcmOwc" = _pabcmOwc;
         "W2SZKUR8" = _W2SZKUR8;
         "Y1QB9rft" = _Y1QB9rft;
-        "forge-1.20.1" = _Y1QB9rft;
-        "neoforge-1.20.1" = _Y1QB9rft;
+        "8Z6h9kBE" = _8Z6h9kBE;
+        "forge-1.20.1" = _8Z6h9kBE;
+        "neoforge-1.20.1" = _8Z6h9kBE;
         "pkg-1.2.1-8" = _w7wUtwbB;
         "pkg-1.2.5" = _oljXHoTF;
         "pkg-1.2.6-1" = _Tvz2VClz;
@@ -277,7 +283,8 @@ let
         "pkg-1.4.1" = _pabcmOwc;
         "pkg-1.4.4-preview" = _W2SZKUR8;
         "pkg-1.4.4" = _Y1QB9rft;
-        "default" = _Y1QB9rft;
+        "pkg-1.4.5-pre6" = _8Z6h9kBE;
+        "default" = _8Z6h9kBE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "no.ixmodapi";

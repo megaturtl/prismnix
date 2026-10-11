@@ -1136,6 +1136,11 @@ let
             "file" = "BetterCapes-1.6.2+26.2.jar";
             "hash" = "sha512-E2Esk9NlVnxjgk0tcKUGuYfesTf43+rME7bwCTU1O0MU77qq4LiJIHh3y5GC5yq+sBA+0J99O6xXGG0sI5LDcg==";
         };
+        _cysyXQj7 = {
+            "id" = "cysyXQj7";
+            "file" = "BetterCapes-1.6.2+26.3.jar";
+            "hash" = "sha512-mPKdh3ugsWjKqStJUyNmasU9HJNJZVOm3vfPjV7w1m9bCSmzH4gJ7XJ65ehKt2SS5asLsrSCBvylOJDRAkYlSw==";
+        };
     in {
         "nPkit8B3" = _nPkit8B3;
         "GQzmhfho" = _GQzmhfho;
@@ -1364,6 +1369,7 @@ let
         "LTzpuuyn" = _LTzpuuyn;
         "WluWEa7J" = _WluWEa7J;
         "9MuGWMmd" = _9MuGWMmd;
+        "cysyXQj7" = _cysyXQj7;
         "fabric-1.20" = _3DNkczYm;
         "fabric-1.20.1" = _r04pgqeF;
         "fabric-1.20.2" = _3sEV6igb;
@@ -1387,6 +1393,7 @@ let
         "fabric-26.1.1" = _LTzpuuyn;
         "fabric-26.1.2" = _WluWEa7J;
         "fabric-26.2" = _9MuGWMmd;
+        "fabric-26.3" = _cysyXQj7;
         "pkg-1.2" = _KfiigOcH;
         "pkg-1.3" = _xwOBVTFo;
         "pkg-1.4" = _DLIlbTW5;
@@ -1398,8 +1405,8 @@ let
         "pkg-1.5.1.1" = _vt7PtmOj;
         "pkg-1.6" = _VpX0SOpm;
         "pkg-1.6.1" = _u5gQp0AM;
-        "pkg-1.6.2" = _9MuGWMmd;
-        "default" = _9MuGWMmd;
+        "pkg-1.6.2" = _cysyXQj7;
+        "default" = _cysyXQj7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-capes";

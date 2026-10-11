@@ -736,6 +736,16 @@ let
             "file" = "curios-neoforge-16.0.0+26.2.jar";
             "hash" = "sha512-5NwQqqpbpftUqbSK91BwVcYvxRWBlXixwbla3nhkSebO7acqPPA3UGCwe5L03tGn87eEYIpXF3yj9ImcYbhx5g==";
         };
+        _QZcvrMJc = {
+            "id" = "QZcvrMJc";
+            "file" = "curios-neoforge-17.0.0-beta+26.3.jar";
+            "hash" = "sha512-bVhHn1MVDmBObqyDnSUSmaREhvpOYdRZiUDoXgszKL8cCscZGQdqrO+Ela8Kw3Fx/ID0xpwnSjzmp89MNJTlVw==";
+        };
+        _LeVAnMq4 = {
+            "id" = "LeVAnMq4";
+            "file" = "curios-neoforge-17.0.0-beta.2+26.3.jar";
+            "hash" = "sha512-TspATSb+4deNFI/lY8bWsifagx2pPkivwtx55oZ86P9xkG/BvxCH1arYCflYFX4A0HgIhj12AYyfXd45LwV6Hw==";
+        };
     in {
         "ZOlETE5v" = _ZOlETE5v;
         "RcA3vNIJ" = _RcA3vNIJ;
@@ -884,6 +894,8 @@ let
         "68gxflop" = _68gxflop;
         "dRnRThvD" = _dRnRThvD;
         "BI7D0sbK" = _BI7D0sbK;
+        "QZcvrMJc" = _QZcvrMJc;
+        "LeVAnMq4" = _LeVAnMq4;
         "forge-1.13.2" = _ZOlETE5v;
         "forge-1.14.4" = _RcA3vNIJ;
         "forge-1.15.2" = _oxBwmsHU;
@@ -921,6 +933,7 @@ let
         "neoforge-26.1.1" = _dRnRThvD;
         "neoforge-26.1.2" = _dRnRThvD;
         "neoforge-26.2" = _BI7D0sbK;
+        "neoforge-26.3" = _LeVAnMq4;
         "pkg-1.13.2-0.12" = _ZOlETE5v;
         "pkg-FORGE-1.14.4-1.0.6.1" = _RcA3vNIJ;
         "pkg-FORGE-1.15.2-2.0.2.7" = _oxBwmsHU;
@@ -1050,7 +1063,9 @@ let
         "pkg-15.0.0-beta.2+26.1.2" = _68gxflop;
         "pkg-15.0.0+26.1.2" = _dRnRThvD;
         "pkg-16.0.0+26.2" = _BI7D0sbK;
-        "default" = _BI7D0sbK;
+        "pkg-17.0.0-beta+26.3" = _QZcvrMJc;
+        "pkg-17.0.0-beta.2+26.3" = _LeVAnMq4;
+        "default" = _LeVAnMq4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "curios";

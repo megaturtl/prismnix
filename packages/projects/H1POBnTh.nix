@@ -421,6 +421,21 @@ let
             "file" = "deadly-deadly-dungeon-1.0.6.jar";
             "hash" = "sha512-K2/+JjAD5S3dTWbXd9U74QnkwpyzLuLlIM+gyI2Xcj3s8C5FghSEfMik6SlnWHaC9kY7UA9zv31hQqkkZKtw8Q==";
         };
+        _fcTXK4Js = {
+            "id" = "fcTXK4Js";
+            "file" = "ddd-v.1.0.6-MC-26.3.zip";
+            "hash" = "sha512-AuRP8Z6ruW3VTb9uINQf7x4X8S4xIlzKCyh7Ny1AJs5khU5lONU3agOzRQcUUN4ED0vNAGlc2ssPjGxfKuguKw==";
+        };
+        _8XiD5sMp = {
+            "id" = "8XiD5sMp";
+            "file" = "ddd-v.1.0.6-MC-26.3-experimetal.zip";
+            "hash" = "sha512-RpSyqUI1Vs+w7Ea4cZHhnM+Ms78iMrQbjWn5qnoZxNQITAZyt2X9s2O02GGhV4HOC9CIR/T259dHuGUP+59GUQ==";
+        };
+        _RBo0UYF5 = {
+            "id" = "RBo0UYF5";
+            "file" = "deadly-deadly-dungeon-1.0.6.jar";
+            "hash" = "sha512-M8HC8i6Gfb3ZZb0cjDJAgK3Va5iXnJ/NPTKGOiEJq5auLhZWhQ7uosCQdDo712DFXlSbonFNoaGdZnvDvaN0hw==";
+        };
     in {
         "DVZHHeMj" = _DVZHHeMj;
         "kXpbsA8l" = _kXpbsA8l;
@@ -506,6 +521,9 @@ let
         "rCNUZRdq" = _rCNUZRdq;
         "22CvFs4x" = _22CvFs4x;
         "V2HcfXx4" = _V2HcfXx4;
+        "fcTXK4Js" = _fcTXK4Js;
+        "8XiD5sMp" = _8XiD5sMp;
+        "RBo0UYF5" = _RBo0UYF5;
         "datapack-1.20.6" = _nfG3XEUr;
         "datapack-1.21" = _UjbfHymr;
         "datapack-1.21.1" = _UjbfHymr;
@@ -523,6 +541,7 @@ let
         "datapack-26.1.1" = _pCFrCxoz;
         "datapack-26.1.2" = _pCFrCxoz;
         "datapack-26.2" = _pCFrCxoz;
+        "datapack-26.3" = _8XiD5sMp;
         "fabric-1.20.6" = _QPS7lJnX;
         "fabric-1.21" = _MlHPA0g5;
         "fabric-1.21.1" = _MlHPA0g5;
@@ -540,6 +559,7 @@ let
         "fabric-26.1.1" = _V2HcfXx4;
         "fabric-26.1.2" = _V2HcfXx4;
         "fabric-26.2" = _V2HcfXx4;
+        "fabric-26.3" = _RBo0UYF5;
         "forge-1.20.6" = _QPS7lJnX;
         "forge-1.21" = _MlHPA0g5;
         "forge-1.21.1" = _MlHPA0g5;
@@ -557,6 +577,7 @@ let
         "forge-26.1.1" = _V2HcfXx4;
         "forge-26.1.2" = _V2HcfXx4;
         "forge-26.2" = _V2HcfXx4;
+        "forge-26.3" = _RBo0UYF5;
         "quilt-1.20.6" = _QPS7lJnX;
         "quilt-1.21" = _MlHPA0g5;
         "quilt-1.21.1" = _MlHPA0g5;
@@ -574,6 +595,7 @@ let
         "quilt-26.1.1" = _V2HcfXx4;
         "quilt-26.1.2" = _V2HcfXx4;
         "quilt-26.2" = _V2HcfXx4;
+        "quilt-26.3" = _RBo0UYF5;
         "neoforge-1.21" = _MlHPA0g5;
         "neoforge-1.21.1" = _MlHPA0g5;
         "neoforge-1.21.2" = _jvFD4xmd;
@@ -590,6 +612,7 @@ let
         "neoforge-26.1.1" = _V2HcfXx4;
         "neoforge-26.1.2" = _V2HcfXx4;
         "neoforge-26.2" = _V2HcfXx4;
+        "neoforge-26.3" = _RBo0UYF5;
         "pkg-1.0.0" = _kXpbsA8l;
         "pkg-1.0.1" = _a8bLAc2d;
         "pkg-1.0.1+mod" = _MQJBTUK0;
@@ -622,9 +645,9 @@ let
         "pkg-1.0.5.3+mod" = _ieA3pwgf;
         "pkg-1.0.5.4" = _aCuRJmpI;
         "pkg-1.0.5.4+mod" = _PqVSYQW2;
-        "pkg-1.0.6" = _pCFrCxoz;
-        "pkg-1.0.6+mod" = _V2HcfXx4;
-        "default" = _V2HcfXx4;
+        "pkg-1.0.6" = _8XiD5sMp;
+        "pkg-1.0.6+mod" = _RBo0UYF5;
+        "default" = _RBo0UYF5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "deadly-deadly-dungeon";

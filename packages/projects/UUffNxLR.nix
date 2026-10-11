@@ -86,6 +86,11 @@ let
             "file" = "amethystequipment-v1.0.4-fabric-1.21.jar";
             "hash" = "sha512-HksBjqf8b5e//Fm53rMGVys5ZDp2CFwyNqHZGVhOSbc3C1xk4331cnwiZgoykosj6RD6dG7kA5f49I77qUYwyA==";
         };
+        _MouxDVV9 = {
+            "id" = "MouxDVV9";
+            "file" = "amethystequipment-v1.0.0-neoforge+26.3.jar";
+            "hash" = "sha512-AUeOKSldQ1Gfbw/nybQ3pZxtiOi6YaHyO/G7P0LogLlCmewuOsSG39uclK2XV5I/6I37lhCp4Ubheht91anhoA==";
+        };
     in {
         "XXFtYLlt" = _XXFtYLlt;
         "n6VsBb07" = _n6VsBb07;
@@ -104,6 +109,7 @@ let
         "jh1hzFqr" = _jh1hzFqr;
         "9TAYkj44" = _9TAYkj44;
         "M2Z9wtPf" = _M2Z9wtPf;
+        "MouxDVV9" = _MouxDVV9;
         "fabric-1.19.4" = _XXFtYLlt;
         "fabric-1.20.1" = _yqCIhhfw;
         "fabric-1.20.2" = _yqCIhhfw;
@@ -118,6 +124,7 @@ let
         "forge-1.20" = _uqfK6kTG;
         "neoforge-1.20.2" = _jh1hzFqr;
         "neoforge-1.20.4" = _jh1hzFqr;
+        "neoforge-26.3" = _MouxDVV9;
         "pkg-1.0.8" = _XXFtYLlt;
         "pkg-1.0.10" = _n6VsBb07;
         "pkg-1.1.0" = _uqfK6kTG;
@@ -126,12 +133,12 @@ let
         "pkg-2.0.2" = _J9QnDbrN;
         "pkg-1.2.0" = _LiUarcCV;
         "pkg-2.2.0" = _yqCIhhfw;
-        "pkg-1.0.0" = _18wiEpYU;
+        "pkg-1.0.0" = _MouxDVV9;
         "pkg-1.0.1" = _jh1hzFqr;
         "pkg-1.0.2" = _IExmVBYf;
         "pkg-1.0.3" = _9TAYkj44;
         "pkg-1.0.4" = _M2Z9wtPf;
-        "default" = _M2Z9wtPf;
+        "default" = _MouxDVV9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "amethyst-equipment";

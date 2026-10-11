@@ -161,6 +161,11 @@ let
             "file" = "PumpkinPieHungerBar26.2.zip";
             "hash" = "sha512-oeqk76VMOQVzHxrifVPidCSiKxyjFlZ0fPkAMfyo3NwPTfYry0XBENt7MZcO09ScwbgkMHNpV6ydob83w+VENA==";
         };
+        _DfVuhs8J = {
+            "id" = "DfVuhs8J";
+            "file" = "PumpkinPieHungerBar26.3.zip";
+            "hash" = "sha512-tquR54wxEeu0Ptgu54sxAA4gI5lze2cwxv9tjVBvKoWeJ7Pdev0BNHy2Wbi5aC62Xx98srMa5U7J/aHQrv58jQ==";
+        };
     in {
         "rMYdMOeo" = _rMYdMOeo;
         "jhkgpOxp" = _jhkgpOxp;
@@ -194,6 +199,7 @@ let
         "u18S31ls" = _u18S31ls;
         "TsPaj0KE" = _TsPaj0KE;
         "VbVpuJxS" = _VbVpuJxS;
+        "DfVuhs8J" = _DfVuhs8J;
         "minecraft-1.0" = _rMYdMOeo;
         "minecraft-1.1" = _rMYdMOeo;
         "minecraft-1.2.1" = _rMYdMOeo;
@@ -301,6 +307,7 @@ let
         "minecraft-26.1.1" = _TsPaj0KE;
         "minecraft-26.1.2" = _TsPaj0KE;
         "minecraft-26.2" = _VbVpuJxS;
+        "minecraft-26.3" = _DfVuhs8J;
         "pkg-0.0.0" = _rMYdMOeo;
         "pkg-1.0.0" = _jhkgpOxp;
         "pkg-1.1.0" = _4lzSXSVd;
@@ -333,7 +340,8 @@ let
         "pkg-75.0.0" = _u18S31ls;
         "pkg-84.0.0" = _TsPaj0KE;
         "pkg-88.0.0" = _VbVpuJxS;
-        "default" = _VbVpuJxS;
+        "pkg-97.0.0" = _DfVuhs8J;
+        "default" = _DfVuhs8J;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pumpkin-pie-hunger-bar";

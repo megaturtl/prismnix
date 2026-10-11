@@ -321,6 +321,46 @@ let
             "file" = "armoroftheages-neoforge-1.21.1-1.5.10.jar";
             "hash" = "sha512-dhfiPV1g5sHXBVOyIn2t2Pydv2hmK7P2l68MbxaTWCY8XknR0td32UuYWLNFMeNW1uL6wwDUDnh/dVc4o6jzeg==";
         };
+        _Bc9cFnLg = {
+            "id" = "Bc9cFnLg";
+            "file" = "Armor of the Ages-forge-1.20.1-1.3.16.jar";
+            "hash" = "sha512-eHQ3Wssx5qlYAc5B8lXV7dKoZTOLNki/GCKEu0bbzjZshWztU+0E8dotwuYemedWaL77IPpkzlJtG26GPYmRMA==";
+        };
+        _S0y1uFau = {
+            "id" = "S0y1uFau";
+            "file" = "Armor of the Ages-fabric-1.20.1-1.3.16.jar";
+            "hash" = "sha512-owP5EEWqCDWn6FN8+v9m628TjjoFU2UyzQseg4LERL4xTif1ht96wj2Kk+hG3egScJV5QEJeCamZWnyu2bAqxg==";
+        };
+        _EvVBQ12Y = {
+            "id" = "EvVBQ12Y";
+            "file" = "armoroftheages-neoforge-1.21.1-1.5.11.jar";
+            "hash" = "sha512-LFhEiZAapUQlfs5s+04gx3jqzbVr6aqHkSDS0bMt0yiVwdlAsLcQ/zhIaOES5UghqKpLapci888K6D757NKlag==";
+        };
+        _diY1l81b = {
+            "id" = "diY1l81b";
+            "file" = "armoroftheages-fabric-1.21.1-1.5.11.jar";
+            "hash" = "sha512-3yErckYuh0Tqk7gNQIhNbMAKsjfp3Q8BYEy+Ki0oc+9kvPYsNqaUS2lBO9zexo+ms5mf4ZbLzOMLQ8AaL0mivA==";
+        };
+        _qDK1wh1o = {
+            "id" = "qDK1wh1o";
+            "file" = "armoroftheages-fabric-1.21.11-1.6.0.jar";
+            "hash" = "sha512-BNGtvQZB32gYoaH2BKehqv8Ahk3fNSOXRgo2iWrSmN68sbmEJu3soYOnTQ/a8oHwOnHWo4E58rJ6xicbHO5hyQ==";
+        };
+        _qfrUfbaf = {
+            "id" = "qfrUfbaf";
+            "file" = "armoroftheages-neoforge-1.21.11-1.6.0.jar";
+            "hash" = "sha512-JIfgUcWqzwte596ymwEyCWqrpDgBoB2ZWn4Fwr4ikxQm/tCuWgxVqNoJQyioxIFhz/F/ka6iOLr1W1AE+zI/iQ==";
+        };
+        _QEBj9oGC = {
+            "id" = "QEBj9oGC";
+            "file" = "armoroftheages-fabric-26.1.2-1.7.0.jar";
+            "hash" = "sha512-DdbK7qZ8+QXc7hrpDxUg1FgzDBxw/4Hu/LbPH/uP8hSC6sl3evi8xiUkzu8BQcOsFezXCw94gHBQ3XiYEtMwqQ==";
+        };
+        _Xqexlxy8 = {
+            "id" = "Xqexlxy8";
+            "file" = "armoroftheages-neoforge-26.1.2-1.7.0.jar";
+            "hash" = "sha512-pp19JHmtTz4Gr/jdkiJXf1LP5ktN/9oJRyQ5eHUrHhBK7Ke2L29tKAW0xVMuDQk81X+WB0Fl0I3CcyOXCRx5cg==";
+        };
     in {
         "yNnrTm23" = _yNnrTm23;
         "ntlF9e8n" = _ntlF9e8n;
@@ -386,17 +426,29 @@ let
         "94UHpvJD" = _94UHpvJD;
         "mz3psYSO" = _mz3psYSO;
         "p8G3gWwF" = _p8G3gWwF;
+        "Bc9cFnLg" = _Bc9cFnLg;
+        "S0y1uFau" = _S0y1uFau;
+        "EvVBQ12Y" = _EvVBQ12Y;
+        "diY1l81b" = _diY1l81b;
+        "qDK1wh1o" = _qDK1wh1o;
+        "qfrUfbaf" = _qfrUfbaf;
+        "QEBj9oGC" = _QEBj9oGC;
+        "Xqexlxy8" = _Xqexlxy8;
         "forge-1.16.5" = _ntlF9e8n;
-        "forge-1.20.1" = _UudIo7ec;
+        "forge-1.20.1" = _Bc9cFnLg;
         "forge-1.19.2" = _UACNyijJ;
-        "fabric-1.20.1" = _6dtjJNeM;
+        "fabric-1.20.1" = _S0y1uFau;
         "fabric-1.20.6" = _iqSw8O5R;
         "fabric-1.21" = _eRGKagZq;
         "fabric-1.19.2" = _gkYyCGBU;
-        "fabric-1.21.1" = _mz3psYSO;
+        "fabric-1.21.1" = _diY1l81b;
+        "fabric-1.21.11" = _qDK1wh1o;
+        "fabric-26.1.2" = _QEBj9oGC;
         "neoforge-1.20.6" = _cjPkNGhE;
         "neoforge-1.21" = _U6bphMlc;
-        "neoforge-1.21.1" = _p8G3gWwF;
+        "neoforge-1.21.1" = _EvVBQ12Y;
+        "neoforge-1.21.11" = _qfrUfbaf;
+        "neoforge-26.1.2" = _Xqexlxy8;
         "pkg-1.16.5-1.0.0" = _yNnrTm23;
         "pkg-1.0.1" = _ntlF9e8n;
         "pkg-1.2.0" = _D5tQ4Pby;
@@ -432,7 +484,11 @@ let
         "pkg-1.3.15" = _6dtjJNeM;
         "pkg-1.5.9" = _94UHpvJD;
         "pkg-1.5.10" = _p8G3gWwF;
-        "default" = _p8G3gWwF;
+        "pkg-1.3.16" = _S0y1uFau;
+        "pkg-1.5.11" = _diY1l81b;
+        "pkg-1.6.0" = _qfrUfbaf;
+        "pkg-1.7.0" = _Xqexlxy8;
+        "default" = _Xqexlxy8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "armor-of-the-ages";

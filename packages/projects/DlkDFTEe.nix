@@ -131,6 +131,11 @@ let
             "file" = "simplegrinder-26_2.2.jar";
             "hash" = "sha512-G00rrLP6OYB6PGl5AgELlhe2onHaT7KRWX83/3QSJANnjMe9t1ty0l87C1aHDEqwjqzn99+AlXHCgwxXtX7ebA==";
         };
+        _fcYHj1n9 = {
+            "id" = "fcYHj1n9";
+            "file" = "simplegrinder-26_3.2.jar";
+            "hash" = "sha512-iKjFHC1DJC3nd2PylWSyZnwtzOpas+TqaMU7Rp1EoONGs20Y0BRdzErVHpKDgge1mQlg/fJNaCLPx9rGXrwolw==";
+        };
     in {
         "lvA7GdqJ" = _lvA7GdqJ;
         "HWhaVjAq" = _HWhaVjAq;
@@ -158,6 +163,7 @@ let
         "UVd9CIIz" = _UVd9CIIz;
         "gutQSLPX" = _gutQSLPX;
         "UeGdEWZM" = _UeGdEWZM;
+        "fcYHj1n9" = _fcYHj1n9;
         "forge-1.18.2" = _lvA7GdqJ;
         "forge-1.19.4" = _HWhaVjAq;
         "forge-1.20" = _3MBklAKk;
@@ -179,6 +185,7 @@ let
         "neoforge-1.21.11" = _UVd9CIIz;
         "neoforge-26.1.2" = _gutQSLPX;
         "neoforge-26.2" = _UeGdEWZM;
+        "neoforge-26.3" = _fcYHj1n9;
         "pkg-0.2" = _lvA7GdqJ;
         "pkg-2.0" = _HWhaVjAq;
         "pkg-1.0.0" = _UVd9CIIz;
@@ -187,7 +194,8 @@ let
         "pkg-1.0.2" = _O0sZ0KRN;
         "pkg-0.3" = _QIOAZjrr;
         "pkg-26_1.4" = _UeGdEWZM;
-        "default" = _UeGdEWZM;
+        "pkg-26_3" = _fcYHj1n9;
+        "default" = _fcYHj1n9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simplegrinder";

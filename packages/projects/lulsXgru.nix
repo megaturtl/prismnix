@@ -1,0 +1,136 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _OVceguvq = {
+            "id" = "OVceguvq";
+            "file" = "LongerStrength2Pots.zip";
+            "hash" = "sha512-BFOcHUVM8st9w7f130kxg8DplIMCtUdqjbkcdH4owdjrQneqKJJL1Tjm3PBcGSoqQS7GAQsn4VMTJ/027NgvMg==";
+        };
+        _ypf3OCkH = {
+            "id" = "ypf3OCkH";
+            "file" = "longer-strength-potions-1.0.jar";
+            "hash" = "sha512-+TLLA1opivDzqUCWwgTFjPH00+pzsvinN+iYDsrTVw+OmNvHXvQgJgamoI1hl5ljw5NeG52SGCb4FfOexhRrUQ==";
+        };
+        _W8DXHzCX = {
+            "id" = "W8DXHzCX";
+            "file" = "LongerStrength2Potions.zip";
+            "hash" = "sha512-nqzaPhi3aJSolLeqpVpj7GBrP2RiQgM/J+tdNs6nDf/w3IAIpfuBr+Z6tR2H1Pfyw1IjUXDc4hezn8vgPaNV7g==";
+        };
+        _4NVixD6L = {
+            "id" = "4NVixD6L";
+            "file" = "longer-strength-potions-1.1.jar";
+            "hash" = "sha512-m+K8WlwVo1SRIEdYJo5JluhwBk0Hlohjb6/5umgy23hdHkfZYQ1wYMmt45LogYzn5M98OYY1V+0Y5IwlkdqkxQ==";
+        };
+    in {
+        "OVceguvq" = _OVceguvq;
+        "ypf3OCkH" = _ypf3OCkH;
+        "W8DXHzCX" = _W8DXHzCX;
+        "4NVixD6L" = _4NVixD6L;
+        "datapack-1.21" = _W8DXHzCX;
+        "datapack-1.21.1" = _W8DXHzCX;
+        "datapack-1.21.2" = _W8DXHzCX;
+        "datapack-1.21.3" = _W8DXHzCX;
+        "datapack-1.21.4" = _W8DXHzCX;
+        "datapack-1.21.5" = _W8DXHzCX;
+        "datapack-1.21.6" = _W8DXHzCX;
+        "datapack-1.21.7" = _W8DXHzCX;
+        "datapack-1.21.8" = _W8DXHzCX;
+        "datapack-1.21.9" = _W8DXHzCX;
+        "datapack-1.21.10" = _W8DXHzCX;
+        "datapack-1.21.11" = _W8DXHzCX;
+        "datapack-26.1" = _W8DXHzCX;
+        "datapack-26.1.1" = _W8DXHzCX;
+        "datapack-26.1.2" = _W8DXHzCX;
+        "datapack-26.2" = _W8DXHzCX;
+        "datapack-26.3" = _W8DXHzCX;
+        "fabric-1.21" = _4NVixD6L;
+        "fabric-1.21.1" = _4NVixD6L;
+        "fabric-1.21.2" = _4NVixD6L;
+        "fabric-1.21.3" = _4NVixD6L;
+        "fabric-1.21.4" = _4NVixD6L;
+        "fabric-1.21.5" = _4NVixD6L;
+        "fabric-1.21.6" = _4NVixD6L;
+        "fabric-1.21.7" = _4NVixD6L;
+        "fabric-1.21.8" = _4NVixD6L;
+        "fabric-1.21.9" = _4NVixD6L;
+        "fabric-1.21.10" = _4NVixD6L;
+        "fabric-1.21.11" = _4NVixD6L;
+        "fabric-26.1" = _4NVixD6L;
+        "fabric-26.1.1" = _4NVixD6L;
+        "fabric-26.1.2" = _4NVixD6L;
+        "fabric-26.2" = _4NVixD6L;
+        "fabric-26.3" = _4NVixD6L;
+        "forge-1.21" = _4NVixD6L;
+        "forge-1.21.1" = _4NVixD6L;
+        "forge-1.21.2" = _4NVixD6L;
+        "forge-1.21.3" = _4NVixD6L;
+        "forge-1.21.4" = _4NVixD6L;
+        "forge-1.21.5" = _4NVixD6L;
+        "forge-1.21.6" = _4NVixD6L;
+        "forge-1.21.7" = _4NVixD6L;
+        "forge-1.21.8" = _4NVixD6L;
+        "forge-1.21.9" = _4NVixD6L;
+        "forge-1.21.10" = _4NVixD6L;
+        "forge-1.21.11" = _4NVixD6L;
+        "forge-26.1" = _4NVixD6L;
+        "forge-26.1.1" = _4NVixD6L;
+        "forge-26.1.2" = _4NVixD6L;
+        "forge-26.2" = _4NVixD6L;
+        "forge-26.3" = _4NVixD6L;
+        "neoforge-1.21" = _4NVixD6L;
+        "neoforge-1.21.1" = _4NVixD6L;
+        "neoforge-1.21.2" = _4NVixD6L;
+        "neoforge-1.21.3" = _4NVixD6L;
+        "neoforge-1.21.4" = _4NVixD6L;
+        "neoforge-1.21.5" = _4NVixD6L;
+        "neoforge-1.21.6" = _4NVixD6L;
+        "neoforge-1.21.7" = _4NVixD6L;
+        "neoforge-1.21.8" = _4NVixD6L;
+        "neoforge-1.21.9" = _4NVixD6L;
+        "neoforge-1.21.10" = _4NVixD6L;
+        "neoforge-1.21.11" = _4NVixD6L;
+        "neoforge-26.1" = _4NVixD6L;
+        "neoforge-26.1.1" = _4NVixD6L;
+        "neoforge-26.1.2" = _4NVixD6L;
+        "neoforge-26.2" = _4NVixD6L;
+        "neoforge-26.3" = _4NVixD6L;
+        "quilt-1.21" = _4NVixD6L;
+        "quilt-1.21.1" = _4NVixD6L;
+        "quilt-1.21.2" = _4NVixD6L;
+        "quilt-1.21.3" = _4NVixD6L;
+        "quilt-1.21.4" = _4NVixD6L;
+        "quilt-1.21.5" = _4NVixD6L;
+        "quilt-1.21.6" = _4NVixD6L;
+        "quilt-1.21.7" = _4NVixD6L;
+        "quilt-1.21.8" = _4NVixD6L;
+        "quilt-1.21.9" = _4NVixD6L;
+        "quilt-1.21.10" = _4NVixD6L;
+        "quilt-1.21.11" = _4NVixD6L;
+        "quilt-26.1" = _4NVixD6L;
+        "quilt-26.1.1" = _4NVixD6L;
+        "quilt-26.1.2" = _4NVixD6L;
+        "quilt-26.2" = _4NVixD6L;
+        "quilt-26.3" = _4NVixD6L;
+        "pkg-1.0" = _OVceguvq;
+        "pkg-1.0+mod" = _ypf3OCkH;
+        "pkg-1.1" = _W8DXHzCX;
+        "pkg-1.1+mod" = _4NVixD6L;
+        "default" = _4NVixD6L;
+    });
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "longer-strength-potions";
+        id = "lulsXgru";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-only" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU Lesser General Public License v3.0 only";
+                shortName = "LGPL-3.0-only";
+                url = null;
+            };
+        };
+    };
+in callPackage fn {}

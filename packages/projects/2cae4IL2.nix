@@ -76,6 +76,11 @@ let
             "file" = "Endermen become a little quieter1.26.2.zip";
             "hash" = "sha512-kTWYBIQwwLnxBm1nmP4+6Rb0bj9QDizjnx1fEVNsZw4MdqLoT0XySTNl6VbOgOj/wktRj8E1eGrJhSL8XYkW9g==";
         };
+        _bXEPpwwN = {
+            "id" = "bXEPpwwN";
+            "file" = "Endermen become a little quieter1.26.3.zip";
+            "hash" = "sha512-goBlHqMj4viPgwboiPUMam+v491EFX7ZknkTd95/+Sz/67UeiIB7aCQTXgu62RiX7ANSCcIRAQTa3fpZbRS/rA==";
+        };
     in {
         "9Hd1oYXi" = _9Hd1oYXi;
         "bfacT7Tm" = _bfacT7Tm;
@@ -92,6 +97,7 @@ let
         "DU77bWMW" = _DU77bWMW;
         "6JWPFZBX" = _6JWPFZBX;
         "82aGsTWS" = _82aGsTWS;
+        "bXEPpwwN" = _bXEPpwwN;
         "minecraft-1.19.4" = _9Hd1oYXi;
         "minecraft-1.20" = _bfacT7Tm;
         "minecraft-1.20.2" = _ujy1O0YL;
@@ -100,19 +106,20 @@ let
         "minecraft-1.20.5" = _vHM8I3Qp;
         "minecraft-1.21" = _LMgARcct;
         "minecraft-1.21.3" = _jWJjZIS7;
-        "minecraft-1.21.4" = _82aGsTWS;
-        "minecraft-1.21.5" = _82aGsTWS;
-        "minecraft-1.21.6" = _82aGsTWS;
-        "minecraft-1.21.7" = _82aGsTWS;
-        "minecraft-1.21.10" = _82aGsTWS;
-        "minecraft-1.21.11" = _82aGsTWS;
-        "minecraft-24w44a" = _82aGsTWS;
-        "minecraft-24w45a" = _82aGsTWS;
-        "minecraft-24w46a" = _82aGsTWS;
+        "minecraft-1.21.4" = _bXEPpwwN;
+        "minecraft-1.21.5" = _bXEPpwwN;
+        "minecraft-1.21.6" = _bXEPpwwN;
+        "minecraft-1.21.7" = _bXEPpwwN;
+        "minecraft-1.21.10" = _bXEPpwwN;
+        "minecraft-1.21.11" = _bXEPpwwN;
+        "minecraft-24w44a" = _bXEPpwwN;
+        "minecraft-24w45a" = _bXEPpwwN;
+        "minecraft-24w46a" = _bXEPpwwN;
         "minecraft-26.1" = _6JWPFZBX;
-        "minecraft-1.21.8" = _82aGsTWS;
-        "minecraft-1.21.9" = _82aGsTWS;
+        "minecraft-1.21.8" = _bXEPpwwN;
+        "minecraft-1.21.9" = _bXEPpwwN;
         "minecraft-26.2" = _82aGsTWS;
+        "minecraft-26.3" = _bXEPpwwN;
         "pkg-1.19.4" = _9Hd1oYXi;
         "pkg-1.20" = _bfacT7Tm;
         "pkg-1.20.2" = _ujy1O0YL;
@@ -128,7 +135,8 @@ let
         "pkg-1.12.11" = _DU77bWMW;
         "pkg-1.26.1" = _6JWPFZBX;
         "pkg-1.26.2" = _82aGsTWS;
-        "default" = _82aGsTWS;
+        "pkg-1.26.3" = _bXEPpwwN;
+        "default" = _bXEPpwwN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "endermen-become-a-little-quieter";

@@ -41,6 +41,16 @@ let
             "file" = "pickaxe-trims-26.2.jar";
             "hash" = "sha512-dDpxT+CqIR2hk1U60uvvgP15kNKtAktriAjU4QTYwtiQ2hmB7bR9R6oRTvJhr4lq/sPkqGOX9ndkzMl4JCmG8Q==";
         };
+        _OLLZP7hJ = {
+            "id" = "OLLZP7hJ";
+            "file" = "pickaxe_trims_26.3.zip";
+            "hash" = "sha512-zohYWWgQyLAPS0Plytzb0QiHCQ/wNeh7oZqUekRSr2OQRR2PPAByY+BAsImt4lCKv625trw2AvAkMeiiLTAHgw==";
+        };
+        _vIylH2Ql = {
+            "id" = "vIylH2Ql";
+            "file" = "pickaxe-trims-26.3.jar";
+            "hash" = "sha512-sG37N/i7T1PZavXUfJoo0fRhguyETyzyp19W6rwVyexXwWszTvEc2CdALsObTKq5QvD1g0t+npt8pc8zODhIow==";
+        };
     in {
         "BBkOhA44" = _BBkOhA44;
         "NairSjmE" = _NairSjmE;
@@ -50,31 +60,38 @@ let
         "XfrbUopq" = _XfrbUopq;
         "KY3BeN4z" = _KY3BeN4z;
         "L08kHOnS" = _L08kHOnS;
+        "OLLZP7hJ" = _OLLZP7hJ;
+        "vIylH2Ql" = _vIylH2Ql;
         "datapack-1.21.11" = _BBkOhA44;
         "datapack-26.1" = _cuChB6v0;
         "datapack-26.1.1" = _cuChB6v0;
         "datapack-26.1.2" = _cuChB6v0;
         "datapack-26.2" = _KY3BeN4z;
+        "datapack-26.3" = _OLLZP7hJ;
         "fabric-1.21.11" = _NairSjmE;
         "fabric-26.1" = _XfrbUopq;
         "fabric-26.1.1" = _XfrbUopq;
         "fabric-26.1.2" = _XfrbUopq;
         "fabric-26.2" = _L08kHOnS;
+        "fabric-26.3" = _vIylH2Ql;
         "forge-1.21.11" = _NairSjmE;
         "forge-26.1" = _XfrbUopq;
         "forge-26.1.1" = _XfrbUopq;
         "forge-26.1.2" = _XfrbUopq;
         "forge-26.2" = _L08kHOnS;
+        "forge-26.3" = _vIylH2Ql;
         "neoforge-1.21.11" = _NairSjmE;
         "neoforge-26.1" = _XfrbUopq;
         "neoforge-26.1.1" = _XfrbUopq;
         "neoforge-26.1.2" = _XfrbUopq;
         "neoforge-26.2" = _L08kHOnS;
+        "neoforge-26.3" = _vIylH2Ql;
         "quilt-1.21.11" = _NairSjmE;
         "quilt-26.1" = _XfrbUopq;
         "quilt-26.1.1" = _XfrbUopq;
         "quilt-26.1.2" = _XfrbUopq;
         "quilt-26.2" = _L08kHOnS;
+        "quilt-26.3" = _vIylH2Ql;
         "pkg-1.21.11" = _BBkOhA44;
         "pkg-1.21.11+mod" = _NairSjmE;
         "pkg-26.1" = _d86shT0n;
@@ -83,7 +100,9 @@ let
         "pkg-26.1.x-1+mod" = _XfrbUopq;
         "pkg-26.2" = _KY3BeN4z;
         "pkg-26.2+mod" = _L08kHOnS;
-        "default" = _L08kHOnS;
+        "pkg-26.3" = _OLLZP7hJ;
+        "pkg-26.3+mod" = _vIylH2Ql;
+        "default" = _vIylH2Ql;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pickaxe-trims";

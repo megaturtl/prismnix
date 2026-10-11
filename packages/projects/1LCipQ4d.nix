@@ -31,6 +31,16 @@ let
             "file" = "Fairytale-Origins-1.1.0-fabric-1.21.jar";
             "hash" = "sha512-GFSVAores0lxnu4BHTsTF55ihJL6OCVIUkX8rF73u5RZyeAoQ5upRmT5FsFdHyi0x2vlrI5TTS+9YyJsdrun+Q==";
         };
+        _C7AN6Jsw = {
+            "id" = "C7AN6Jsw";
+            "file" = "Fairytale-Origins-1.2.0-fabric-1.21.jar";
+            "hash" = "sha512-/0vFIZcpXhq8iYjsnCARk4bmsuID7DWGqM5c/8fVYGrI673Er0MF+iAw5hBHigpDgRjVc+SM0JFYL7cOdz2ryw==";
+        };
+        _UxuOKneY = {
+            "id" = "UxuOKneY";
+            "file" = "Fairytale-Origins-1.2.0-neoforge-1.21.jar";
+            "hash" = "sha512-CRRut+zHhr8tJ/XRjKPbrhiXE8CBJaFOem7wHQ/T8ZUWg4FhFvnSex8X+DGAC6PiglScv8flLnr1M93xfJlRYw==";
+        };
     in {
         "LUs8BnRt" = _LUs8BnRt;
         "6Uy6YQGt" = _6Uy6YQGt;
@@ -38,6 +48,8 @@ let
         "21RqE8T9" = _21RqE8T9;
         "aRs5L7be" = _aRs5L7be;
         "XX0G2sTV" = _XX0G2sTV;
+        "C7AN6Jsw" = _C7AN6Jsw;
+        "UxuOKneY" = _UxuOKneY;
         "fabric-1.19" = _21RqE8T9;
         "fabric-1.19.1" = _21RqE8T9;
         "fabric-1.19.2" = _21RqE8T9;
@@ -51,17 +63,17 @@ let
         "fabric-1.20.5" = _21RqE8T9;
         "fabric-1.20.6" = _21RqE8T9;
         "fabric-1.21" = _21RqE8T9;
-        "fabric-1.21.1" = _XX0G2sTV;
-        "fabric-1.21.2" = _XX0G2sTV;
-        "fabric-1.21.3" = _XX0G2sTV;
-        "fabric-1.21.4" = _XX0G2sTV;
-        "fabric-1.21.5" = _XX0G2sTV;
-        "fabric-1.21.6" = _XX0G2sTV;
-        "fabric-1.21.7" = _XX0G2sTV;
-        "fabric-1.21.8" = _XX0G2sTV;
-        "fabric-1.21.9" = _XX0G2sTV;
-        "fabric-1.21.10" = _XX0G2sTV;
-        "fabric-1.21.11" = _XX0G2sTV;
+        "fabric-1.21.1" = _C7AN6Jsw;
+        "fabric-1.21.2" = _C7AN6Jsw;
+        "fabric-1.21.3" = _C7AN6Jsw;
+        "fabric-1.21.4" = _C7AN6Jsw;
+        "fabric-1.21.5" = _C7AN6Jsw;
+        "fabric-1.21.6" = _C7AN6Jsw;
+        "fabric-1.21.7" = _C7AN6Jsw;
+        "fabric-1.21.8" = _C7AN6Jsw;
+        "fabric-1.21.9" = _C7AN6Jsw;
+        "fabric-1.21.10" = _C7AN6Jsw;
+        "fabric-1.21.11" = _C7AN6Jsw;
         "forge-1.19" = _21RqE8T9;
         "forge-1.19.1" = _21RqE8T9;
         "forge-1.19.2" = _21RqE8T9;
@@ -92,7 +104,7 @@ let
         "neoforge-1.20.5" = _21RqE8T9;
         "neoforge-1.20.6" = _21RqE8T9;
         "neoforge-1.21" = _21RqE8T9;
-        "neoforge-1.21.1" = _aRs5L7be;
+        "neoforge-1.21.1" = _UxuOKneY;
         "neoforge-1.21.2" = _21RqE8T9;
         "neoforge-1.21.3" = _21RqE8T9;
         "neoforge-1.21.4" = _21RqE8T9;
@@ -117,7 +129,8 @@ let
         "pkg-1.0.1" = _2e60NjK2;
         "pkg-1.0.2" = _21RqE8T9;
         "pkg-1.1.0" = _XX0G2sTV;
-        "default" = _XX0G2sTV;
+        "pkg-1.2.0" = _UxuOKneY;
+        "default" = _UxuOKneY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fairytale-origins";

@@ -91,6 +91,11 @@ let
             "file" = "codpattern-0.6.13b.jar";
             "hash" = "sha512-KeQKKRw/DO+n1eT2BpHAzFLMkB+7XKvN5Hmy5Hxs7jZuu/v8+HbEWaXZ8CdwTgTE6i1r+YYA+Iz5cRB4zfYmQQ==";
         };
+        _zh5dnopt = {
+            "id" = "zh5dnopt";
+            "file" = "codpattern-0.8.8b.jar";
+            "hash" = "sha512-gZjQpqXPlLumyx1f1/ADmxlCkKQ01Y+x1TeoeFcrLeXRQBSCTSvraOFysxib+j0OePQNxFVkFGDDLjBl97vISQ==";
+        };
     in {
         "u4N2evJS" = _u4N2evJS;
         "o2GinZZf" = _o2GinZZf;
@@ -110,7 +115,8 @@ let
         "1vAuD7UW" = _1vAuD7UW;
         "ipbiXnN2" = _ipbiXnN2;
         "trdGzQbZ" = _trdGzQbZ;
-        "forge-1.20.1" = _trdGzQbZ;
+        "zh5dnopt" = _zh5dnopt;
+        "forge-1.20.1" = _zh5dnopt;
         "pkg-0.2.0b_lite" = _u4N2evJS;
         "pkg-0.2.6_lite" = _o2GinZZf;
         "pkg-0.2.6-hotfix_lite" = _iFbPaq3P;
@@ -129,7 +135,8 @@ let
         "pkg-0.6.10b" = _1vAuD7UW;
         "pkg-0.6.12b" = _ipbiXnN2;
         "pkg-0.6.13b" = _trdGzQbZ;
-        "default" = _trdGzQbZ;
+        "pkg-0.8.8b" = _zh5dnopt;
+        "default" = _zh5dnopt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cod-pattern";

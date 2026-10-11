@@ -241,6 +241,26 @@ let
             "file" = "ArcaneLanterns-v26.1.1-mc26.1.x-NeoForge.jar";
             "hash" = "sha512-ToOmAOyKA+eHiWAeH4XiSgjBns4JdOe3dNp2SoSLd4VImH6Ge5U6LAfuS1Yg6cKoEk+GWeK+aclYIs+URp7RCA==";
         };
+        _DuzhoLpg = {
+            "id" = "DuzhoLpg";
+            "file" = "arcanelanterns-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-c4Mwe/HJLXmZ/CxxlD6L9q5VTJFER1LwYwxCbkFlyNhxxdeYvRaPFD8XB3IBl1WFHRNexEGqge7wUZN0RSGlow==";
+        };
+        _CaMkYKXT = {
+            "id" = "CaMkYKXT";
+            "file" = "arcanelanterns-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-0CnRXuTAknAOsKGHoAt6T2kTtlu3jDdd87bQUlstx+8ZI0Fy4NCP8rA4QprYS6kFZqpcDpqdzS7ab9lZRt7HsQ==";
+        };
+        _o6pca8ky = {
+            "id" = "o6pca8ky";
+            "file" = "arcanelanterns-v26.3.1-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-Kuk3sbMDYwnwaDVAGr6xGzq/BeTZQTQB2E9fntmvmtfxlEN3iuqDF3kUtyfe3tqKcxsAP8SKSiEEBRv8l+FRxw==";
+        };
+        _Pq8SSaU0 = {
+            "id" = "Pq8SSaU0";
+            "file" = "arcanelanterns-v26.3.1-mc26.3.x+fabric.jar";
+            "hash" = "sha512-qXIN3sm0v42MIe8qpIF1TyxOGg8Zyp+sHe13A3idf5zki4c1crlqxCm6Brw401f3X0SjFcM+ozY0A3Q1A3SyEw==";
+        };
     in {
         "b9MU8EMD" = _b9MU8EMD;
         "9vQ96dri" = _9vQ96dri;
@@ -290,6 +310,10 @@ let
         "j6polruZ" = _j6polruZ;
         "LElAN5fG" = _LElAN5fG;
         "guv2ye9z" = _guv2ye9z;
+        "DuzhoLpg" = _DuzhoLpg;
+        "CaMkYKXT" = _CaMkYKXT;
+        "o6pca8ky" = _o6pca8ky;
+        "Pq8SSaU0" = _Pq8SSaU0;
         "forge-1.19.2" = _b9MU8EMD;
         "forge-1.19.3" = _7ZgAqAeV;
         "forge-1.19.4" = _MMn2uXQe;
@@ -315,6 +339,7 @@ let
         "fabric-26.1.1" = _LElAN5fG;
         "fabric-26.1.2" = _LElAN5fG;
         "fabric-26.2" = _j6polruZ;
+        "fabric-26.3" = _Pq8SSaU0;
         "neoforge-1.20.4" = _Y1TZTEDB;
         "neoforge-1.21.1" = _NRXn1TLg;
         "neoforge-1.21.3" = _QvKGf0j0;
@@ -329,6 +354,7 @@ let
         "neoforge-26.1.1" = _guv2ye9z;
         "neoforge-26.1.2" = _guv2ye9z;
         "neoforge-26.2" = _K9ZIcuE6;
+        "neoforge-26.3" = _o6pca8ky;
         "pkg-v4.0.0-1.19.2-Forge" = _b9MU8EMD;
         "pkg-v4.0.0-1.19.2-Fabric" = _9vQ96dri;
         "pkg-v5.0.0-1.19.3-Fabric" = _HDzYIADk;
@@ -368,7 +394,9 @@ let
         "pkg-26.2.0" = _DUnZVMIX;
         "pkg-26.2.1" = _j6polruZ;
         "pkg-26.1.1" = _guv2ye9z;
-        "default" = _guv2ye9z;
+        "pkg-26.3.0" = _CaMkYKXT;
+        "pkg-26.3.1" = _Pq8SSaU0;
+        "default" = _Pq8SSaU0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "arcane-lanterns";

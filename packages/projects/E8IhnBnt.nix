@@ -41,6 +41,11 @@ let
             "file" = "timechanger-26.2-v1.0.jar";
             "hash" = "sha512-H1Bmr6saVroZI0m1BJthmWW7H5HSQQno5W8jjnDKa0hjZpsXiWFkNBGkkS9e3wpIqU3l0zmalOYDGPAIUvtndg==";
         };
+        _yMWL91ik = {
+            "id" = "yMWL91ik";
+            "file" = "timechanger-26.3-v1.0.jar";
+            "hash" = "sha512-yjLiUaFPhGM4I5XJF8Judo4QflFVgzwn/YLGYCA8zsFbNtfkgws/K6cLVT+7jS37SBA0FVFFRkesE4DFKAqeJA==";
+        };
     in {
         "jW6szO55" = _jW6szO55;
         "37gDDI8J" = _37gDDI8J;
@@ -50,6 +55,7 @@ let
         "eJ5e2nU3" = _eJ5e2nU3;
         "pzy6XRQc" = _pzy6XRQc;
         "SOl9A73j" = _SOl9A73j;
+        "yMWL91ik" = _yMWL91ik;
         "fabric-26.1" = _jW6szO55;
         "fabric-26.1.1" = _jW6szO55;
         "fabric-26.1.2" = _jW6szO55;
@@ -64,8 +70,9 @@ let
         "fabric-1.21.2" = _pzy6XRQc;
         "fabric-1.21.3" = _pzy6XRQc;
         "fabric-26.2" = _SOl9A73j;
-        "pkg-v1.0" = _SOl9A73j;
-        "default" = _SOl9A73j;
+        "fabric-26.3" = _yMWL91ik;
+        "pkg-v1.0" = _yMWL91ik;
+        "default" = _yMWL91ik;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "change-time";

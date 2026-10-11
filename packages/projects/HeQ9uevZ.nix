@@ -41,6 +41,11 @@ let
             "file" = "CleanView-26.2-1.2.3.jar";
             "hash" = "sha512-npIOdMKPU4iBycp6n6MQa0kR4N8G/vNRSqHjYCXbEJpuN0imoR9R4S5mDBa5t+WmzKaJH2pJ26bLPUDb9mnLLg==";
         };
+        _TvOpdyyf = {
+            "id" = "TvOpdyyf";
+            "file" = "cleanview-26.3-1.0.9.jar";
+            "hash" = "sha512-TQg5nz/LCxzshc5npG0zL5c9ITT2Z8irtVgVXBwJ4bquyJFAVxZOCSIvQSjnZtV7REFBuCxlfjBEqAvTPKqTkw==";
+        };
     in {
         "sqzer43a" = _sqzer43a;
         "bvOSxgZN" = _bvOSxgZN;
@@ -50,6 +55,7 @@ let
         "8YCGGnLE" = _8YCGGnLE;
         "gWqb5lrS" = _gWqb5lrS;
         "Tcwk9GAw" = _Tcwk9GAw;
+        "TvOpdyyf" = _TvOpdyyf;
         "fabric-1.21.5" = _8YCGGnLE;
         "fabric-1.21.6" = _8YCGGnLE;
         "fabric-1.21.7" = _8YCGGnLE;
@@ -66,12 +72,14 @@ let
         "fabric-26.1.1" = _gWqb5lrS;
         "fabric-26.1.2" = _gWqb5lrS;
         "fabric-26.2" = _Tcwk9GAw;
+        "fabric-26.3" = _TvOpdyyf;
         "pkg-1.0.0" = _sqzer43a;
         "pkg-1.2.0" = _bvOSxgZN;
         "pkg-1.2.1" = _QNYQr4Ng;
         "pkg-1.2.2" = _v8cTR14k;
         "pkg-1.2.3" = _Tcwk9GAw;
-        "default" = _Tcwk9GAw;
+        "pkg-1.0.9" = _TvOpdyyf;
+        "default" = _TvOpdyyf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cleanview-2.0";

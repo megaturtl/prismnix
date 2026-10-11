@@ -181,6 +181,11 @@ let
             "file" = "Night Vision Shaders [Java] v. 1.0.36.zip";
             "hash" = "sha512-Vf6dVE/40DbH4PnnEBOen9a5up0azRBp2cJqOgimCat1SV80adFlk2w5m93skZXMumq1m145ja/NA48OBJsBQw==";
         };
+        _c6SviNsR = {
+            "id" = "c6SviNsR";
+            "file" = "Night Vision Shaders [Java] v. 1.0.37.zip";
+            "hash" = "sha512-aHXC0bZXUn5pMK9fXF6q8I/XGcUqVpiV6y1FmN9WO4VKcE+3QiPuHAaDugG1VX+bAXRh1GklzVmznIyaaM8o7Q==";
+        };
     in {
         "qMuukFcr" = _qMuukFcr;
         "dGVfNhGf" = _dGVfNhGf;
@@ -218,6 +223,7 @@ let
         "uKrx0LIc" = _uKrx0LIc;
         "NtPbUuWd" = _NtPbUuWd;
         "CNEYYN42" = _CNEYYN42;
+        "c6SviNsR" = _c6SviNsR;
         "vanilla-1.20.1" = _qMuukFcr;
         "vanilla-1.20.2" = _qMuukFcr;
         "vanilla-1.20.3" = _qMuukFcr;
@@ -244,6 +250,7 @@ let
         "vanilla-26.1.1" = _NtPbUuWd;
         "vanilla-26.1.2" = _NtPbUuWd;
         "vanilla-26.2" = _CNEYYN42;
+        "vanilla-26.3" = _c6SviNsR;
         "pkg-1.0.0" = _qMuukFcr;
         "pkg-1.0.2" = _dGVfNhGf;
         "pkg-1.0.3" = _ms3qF3Os;
@@ -280,7 +287,8 @@ let
         "pkg-1.0.34" = _uKrx0LIc;
         "pkg-1.0.35" = _NtPbUuWd;
         "pkg-1.0.36" = _CNEYYN42;
-        "default" = _CNEYYN42;
+        "pkg-1.0.37" = _c6SviNsR;
+        "default" = _c6SviNsR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "night-vision-shaders";

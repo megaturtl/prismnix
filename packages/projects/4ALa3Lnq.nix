@@ -46,6 +46,11 @@ let
             "file" = "§eStrings & Things 1.21.5-26.3.zip";
             "hash" = "sha512-IR6KEFTW4wcEyEKcGklkjqyOu6ipdmrAnTC5nEw7DV9O6q5YmRf/iBAachLOFBjb2L1gtSFtbPxdx1vZEVBTJQ==";
         };
+        _dNqLrpzg = {
+            "id" = "dNqLrpzg";
+            "file" = "§eStrings & Things 26.3.zip";
+            "hash" = "sha512-2yx8rgHQoyzzFh/dbuYRKwvSwzrlK8ph/LEE/dCDmKEBT1KGIk2VNHGSjdyzlTCRMIqmnpLdaQOsyihM1QZBQw==";
+        };
     in {
         "XFJJdwjq" = _XFJJdwjq;
         "PjQaaDQK" = _PjQaaDQK;
@@ -56,19 +61,20 @@ let
         "ho8MOiq7" = _ho8MOiq7;
         "wiMOG7sD" = _wiMOG7sD;
         "6h02WkHw" = _6h02WkHw;
-        "minecraft-1.21.5" = _6h02WkHw;
-        "minecraft-1.21.6" = _6h02WkHw;
-        "minecraft-1.21.7" = _6h02WkHw;
-        "minecraft-1.21.8" = _6h02WkHw;
-        "minecraft-1.21.9" = _6h02WkHw;
-        "minecraft-1.21.10" = _6h02WkHw;
-        "minecraft-1.21.11" = _6h02WkHw;
+        "dNqLrpzg" = _dNqLrpzg;
+        "minecraft-1.21.5" = _dNqLrpzg;
+        "minecraft-1.21.6" = _dNqLrpzg;
+        "minecraft-1.21.7" = _dNqLrpzg;
+        "minecraft-1.21.8" = _dNqLrpzg;
+        "minecraft-1.21.9" = _dNqLrpzg;
+        "minecraft-1.21.10" = _dNqLrpzg;
+        "minecraft-1.21.11" = _dNqLrpzg;
         "minecraft-26.1-snapshot-1" = _qfHhVyI1;
-        "minecraft-26.1" = _6h02WkHw;
-        "minecraft-26.1.1" = _6h02WkHw;
-        "minecraft-26.1.2" = _6h02WkHw;
-        "minecraft-26.2" = _6h02WkHw;
-        "minecraft-26.3" = _6h02WkHw;
+        "minecraft-26.1" = _dNqLrpzg;
+        "minecraft-26.1.1" = _dNqLrpzg;
+        "minecraft-26.1.2" = _dNqLrpzg;
+        "minecraft-26.2" = _dNqLrpzg;
+        "minecraft-26.3" = _dNqLrpzg;
         "pkg-1a" = _XFJJdwjq;
         "pkg-2a" = _PjQaaDQK;
         "pkg-2b" = _N8XOfzkA;
@@ -78,7 +84,8 @@ let
         "pkg-6a" = _ho8MOiq7;
         "pkg-6b" = _wiMOG7sD;
         "pkg-7a" = _6h02WkHw;
-        "default" = _6h02WkHw;
+        "pkg-7b" = _dNqLrpzg;
+        "default" = _dNqLrpzg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "strings-and-things";

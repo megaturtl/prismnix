@@ -1116,6 +1116,21 @@ let
             "file" = "incontrol-1.21-10.3.0.jar";
             "hash" = "sha512-CueOpxD46IZoyI0xfYtbfQeNxpSQcH1fLX3MCS3uRy4FAESz/LOD72Vcpqk6zAGSQ0YNJAyGQ6ybHoBI/S/uTA==";
         };
+        _v14kljRE = {
+            "id" = "v14kljRE";
+            "file" = "incontrol-1.21.1-10.3.0-fabric.jar";
+            "hash" = "sha512-W8rct8didHMecNISlj9r1j7wwy1EQgLnLYWeLd7zN8HhT4zSU/H1s0zeXGJQx6TTn4NwK84XDWGQhzxWZf3+oA==";
+        };
+        _c1VqC0n2 = {
+            "id" = "c1VqC0n2";
+            "file" = "incontrol-26.2-11.0.0.jar";
+            "hash" = "sha512-fr3BMli11JGRI31XK9NK60zMGh/U+4pmaZEMuH2rhnIQnKf4QQfgHjPlamJw+ksdto2L0G+/jUJYBFGzWZ4eXg==";
+        };
+        _uBMuIy6o = {
+            "id" = "uBMuIy6o";
+            "file" = "incontrol-26.2-11.0.0-fabric.jar";
+            "hash" = "sha512-JILCcmuEVqiJQJAJhXu5xjbMfgoUTmBrupyYoGTbgG5y6q/L+pBtVZ7sHLVU1prYJHBeu/k9aPVPNSIkutOdLw==";
+        };
     in {
         "5kTN0p4b" = _5kTN0p4b;
         "lx7DmfrR" = _lx7DmfrR;
@@ -1340,6 +1355,9 @@ let
         "gsy3YqYj" = _gsy3YqYj;
         "crohXlsU" = _crohXlsU;
         "L0dof2WQ" = _L0dof2WQ;
+        "v14kljRE" = _v14kljRE;
+        "c1VqC0n2" = _c1VqC0n2;
+        "uBMuIy6o" = _uBMuIy6o;
         "forge-1.10.2" = _3f0UfRO8;
         "forge-1.11" = _qQz4YbsF;
         "forge-1.11.2" = _3f0UfRO8;
@@ -1358,6 +1376,9 @@ let
         "forge-1.20.1" = _crohXlsU;
         "neoforge-1.21" = _LOLHrUSr;
         "neoforge-1.21.1" = _L0dof2WQ;
+        "neoforge-26.2" = _c1VqC0n2;
+        "fabric-1.21.1" = _v14kljRE;
+        "fabric-26.2" = _uBMuIy6o;
         "pkg-1.0.0" = _5kTN0p4b;
         "pkg-2.0.0" = _lx7DmfrR;
         "pkg-3.0.0" = _7Mid5pgC;
@@ -1581,7 +1602,10 @@ let
         "pkg-1.21-10.2.7" = _gsy3YqYj;
         "pkg-1.20-9.5.0" = _crohXlsU;
         "pkg-1.21-10.3.0" = _L0dof2WQ;
-        "default" = _L0dof2WQ;
+        "pkg-1.21.1-10.3.0-fabric" = _v14kljRE;
+        "pkg-26.2-11.0.0" = _c1VqC0n2;
+        "pkg-26.2-11.0.0-fabric" = _uBMuIy6o;
+        "default" = _uBMuIy6o;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "in-control";

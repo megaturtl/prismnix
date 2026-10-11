@@ -36,6 +36,11 @@ let
             "file" = "Vervada-s-enhanced-plants.zip";
             "hash" = "sha512-F9vf6+hOLDyrS3Rwdyba0rw9nvzysqFLJEhQ/m1CLOzW6UasLOf+idb9F2f/5x9ufXMDGOmgqSb4n1MB9Le3cw==";
         };
+        _DuTTaTUz = {
+            "id" = "DuTTaTUz";
+            "file" = "Vervada-s-enhanced-plants.zip";
+            "hash" = "sha512-l0nXBOxtqrZLg6ANR5FV7+/J2s70taLt2gbCrZLsAH0K7F1lE6BoyXVRUbNsF394km3oRskQQEJQWP1wmc37sQ==";
+        };
     in {
         "cuxpghjE" = _cuxpghjE;
         "pm2leIDD" = _pm2leIDD;
@@ -44,6 +49,7 @@ let
         "SEuNEXFK" = _SEuNEXFK;
         "wqdcFbUE" = _wqdcFbUE;
         "xQ41qLei" = _xQ41qLei;
+        "DuTTaTUz" = _DuTTaTUz;
         "minecraft-1.19.4" = _pm2leIDD;
         "minecraft-1.20.6" = _xQ41qLei;
         "minecraft-1.21" = _xQ41qLei;
@@ -51,22 +57,24 @@ let
         "minecraft-1.21.4" = _xQ41qLei;
         "minecraft-1.21.2" = _xQ41qLei;
         "minecraft-1.21.3" = _xQ41qLei;
-        "minecraft-1.21.5" = _xQ41qLei;
-        "minecraft-1.21.6" = _xQ41qLei;
-        "minecraft-1.21.7" = _xQ41qLei;
-        "minecraft-1.21.8" = _xQ41qLei;
+        "minecraft-1.21.5" = _DuTTaTUz;
+        "minecraft-1.21.6" = _DuTTaTUz;
+        "minecraft-1.21.7" = _DuTTaTUz;
+        "minecraft-1.21.8" = _DuTTaTUz;
         "minecraft-1.20" = _xQ41qLei;
         "minecraft-1.20.1" = _xQ41qLei;
         "minecraft-1.20.2" = _xQ41qLei;
         "minecraft-1.20.3" = _xQ41qLei;
         "minecraft-1.20.4" = _xQ41qLei;
         "minecraft-1.20.5" = _xQ41qLei;
-        "minecraft-1.21.9" = _xQ41qLei;
-        "minecraft-1.21.10" = _xQ41qLei;
-        "minecraft-1.21.11" = _xQ41qLei;
-        "minecraft-26.1" = _xQ41qLei;
-        "minecraft-26.1.1" = _xQ41qLei;
-        "minecraft-26.1.2" = _xQ41qLei;
+        "minecraft-1.21.9" = _DuTTaTUz;
+        "minecraft-1.21.10" = _DuTTaTUz;
+        "minecraft-1.21.11" = _DuTTaTUz;
+        "minecraft-26.1" = _DuTTaTUz;
+        "minecraft-26.1.1" = _DuTTaTUz;
+        "minecraft-26.1.2" = _DuTTaTUz;
+        "minecraft-26.2" = _DuTTaTUz;
+        "minecraft-26.3" = _DuTTaTUz;
         "pkg-1.0" = _cuxpghjE;
         "pkg-1.0.1" = _pm2leIDD;
         "pkg-1.0.2" = _Xj6KGeuG;
@@ -74,7 +82,8 @@ let
         "pkg-1.0.4" = _SEuNEXFK;
         "pkg-1.0.5" = _wqdcFbUE;
         "pkg-1.0.6" = _xQ41qLei;
-        "default" = _xQ41qLei;
+        "pkg-1.0.7" = _DuTTaTUz;
+        "default" = _DuTTaTUz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "3d-plants";

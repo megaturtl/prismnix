@@ -36,6 +36,11 @@ let
             "file" = "Viking Armory.zip";
             "hash" = "sha512-c9lkff/veIPpnW6tgzhfq1aWw1QOvffYXta6vN4mELTAZFHRcpYBc+q4awsIakcI6/QGMIGuoKCUldsj4iT3ew==";
         };
+        _oMHV7tgk = {
+            "id" = "oMHV7tgk";
+            "file" = "Viking Armory.zip";
+            "hash" = "sha512-/2W48NaEA/qqEpDnxwfrAEA5GbQiiR2pMfpkMPATvicQsuiOQeIrBF+pXseRgmlD7NjQv/ybgVtEmyjJAuOjLg==";
+        };
     in {
         "V9jzLJJZ" = _V9jzLJJZ;
         "EZqRtTLD" = _EZqRtTLD;
@@ -44,6 +49,7 @@ let
         "FnF1qXbV" = _FnF1qXbV;
         "d1vg4ald" = _d1vg4ald;
         "rMwt4xhD" = _rMwt4xhD;
+        "oMHV7tgk" = _oMHV7tgk;
         "minecraft-1.21" = _hiZDZxfP;
         "minecraft-1.21.1" = _hiZDZxfP;
         "minecraft-1.21.9" = _d1vg4ald;
@@ -52,13 +58,14 @@ let
         "minecraft-26.1" = _rMwt4xhD;
         "minecraft-26.1.1" = _rMwt4xhD;
         "minecraft-26.1.2" = _rMwt4xhD;
+        "minecraft-26.3" = _oMHV7tgk;
         "pkg-1.0" = _V9jzLJJZ;
         "pkg-1.0.1" = _EZqRtTLD;
         "pkg-1.0.2" = _UB0mu8dN;
         "pkg-1.0.3" = _hiZDZxfP;
         "pkg-OLD-1.1" = _FnF1qXbV;
-        "pkg-1.1" = _rMwt4xhD;
-        "default" = _rMwt4xhD;
+        "pkg-1.1" = _oMHV7tgk;
+        "default" = _oMHV7tgk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "viking-armory";

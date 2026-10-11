@@ -31,6 +31,16 @@ let
             "file" = "ZW RP.zip";
             "hash" = "sha512-z9xWCgFQ4ffZFmV2rfhlZZeb+okSaD0TRCxYvQl+g3roM8sIip2/nxfH/0FpI1hv7iglGivGr4aOZHlLIhAbVA==";
         };
+        _3i6ZgFkt = {
+            "id" = "3i6ZgFkt";
+            "file" = "ZW RP.zip";
+            "hash" = "sha512-VcM4TPd76iufELaQfqbLM+NGPd/81vH458Osu8YGx3xjh7a5/b6xjo4m6orcOuD1nAzwkGYx8UkJbX2gKxC5Ng==";
+        };
+        _lfwF9ni3 = {
+            "id" = "lfwF9ni3";
+            "file" = "ZW RP .zip";
+            "hash" = "sha512-wou+hiyJyLW7FVGb665kwLgVzGG9bD+X5bnhqcfO0PZp8IknrLzeqfpWS1D/kM+6ngOjbjyLK3Hqm9CyE9d0ag==";
+        };
     in {
         "c7DAdyy2" = _c7DAdyy2;
         "Ma6i8KWw" = _Ma6i8KWw;
@@ -38,6 +48,8 @@ let
         "pviFnSLc" = _pviFnSLc;
         "YZKMze1R" = _YZKMze1R;
         "D7EnDiCB" = _D7EnDiCB;
+        "3i6ZgFkt" = _3i6ZgFkt;
+        "lfwF9ni3" = _lfwF9ni3;
         "minecraft-1.20.1" = _c7DAdyy2;
         "minecraft-1.20.2" = _Ma6i8KWw;
         "minecraft-1.20.3" = _c7DAdyy2;
@@ -48,16 +60,21 @@ let
         "minecraft-1.21.2" = _Ma6i8KWw;
         "minecraft-1.21.3" = _Ma6i8KWw;
         "minecraft-1.21.4" = _Ma6i8KWw;
-        "minecraft-1.21.5" = _Ma6i8KWw;
-        "minecraft-1.21.9" = _D7EnDiCB;
-        "minecraft-1.21.10" = _D7EnDiCB;
-        "minecraft-1.21.11" = _D7EnDiCB;
+        "minecraft-1.21.5" = _lfwF9ni3;
+        "minecraft-1.21.9" = _lfwF9ni3;
+        "minecraft-1.21.10" = _lfwF9ni3;
+        "minecraft-1.21.11" = _lfwF9ni3;
+        "minecraft-1.21.6" = _lfwF9ni3;
+        "minecraft-1.21.7" = _lfwF9ni3;
+        "minecraft-1.21.8" = _lfwF9ni3;
         "pkg-2.3" = _c7DAdyy2;
         "pkg-3.0" = _kxGHov2r;
         "pkg-3.1" = _pviFnSLc;
         "pkg-4.0-alpha1" = _YZKMze1R;
         "pkg-4.0-beta1" = _D7EnDiCB;
-        "default" = _D7EnDiCB;
+        "pkg-4.0-beta2" = _3i6ZgFkt;
+        "pkg-4.1" = _lfwF9ni3;
+        "default" = _lfwF9ni3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zeroworlds-resoursepack";

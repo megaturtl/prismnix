@@ -31,6 +31,11 @@ let
             "file" = "fweigel-util-lib-1.5.0.jar";
             "hash" = "sha512-flUvlMGOfmjkkFwJ58DvJY4PqbSiEPxNpmcwNupp0HwWaQEKydk+dU+4CZnwjvz/r4dLEs3zK5Gzc3mws/h5kg==";
         };
+        _6Q1vTTqK = {
+            "id" = "6Q1vTTqK";
+            "file" = "fweigel-util-lib-1.6.0.jar";
+            "hash" = "sha512-GRx9Fu2Fg2Uto8TBywGevN8SN/BLQ8XWRyRpt3hAYISJGV4uhyvyy32PxNUZpKT/bdAohnTQ39BMhLfJ6WoTSQ==";
+        };
     in {
         "28CkVsSf" = _28CkVsSf;
         "vNEaLZKd" = _vNEaLZKd;
@@ -38,18 +43,21 @@ let
         "UA3pKdie" = _UA3pKdie;
         "m5Tt8frt" = _m5Tt8frt;
         "fw1X2Hs3" = _fw1X2Hs3;
+        "6Q1vTTqK" = _6Q1vTTqK;
         "fabric-1.21.11" = _28CkVsSf;
         "fabric-26.1" = _m5Tt8frt;
         "fabric-26.1.1" = _m5Tt8frt;
         "fabric-26.1.2" = _m5Tt8frt;
         "fabric-26.2" = _fw1X2Hs3;
+        "fabric-26.3" = _6Q1vTTqK;
         "pkg-1.0.0" = _28CkVsSf;
         "pkg-1.1.0" = _vNEaLZKd;
         "pkg-1.2.0" = _79OoSdl8;
         "pkg-1.3.0" = _UA3pKdie;
         "pkg-1.4.0" = _m5Tt8frt;
         "pkg-1.5.0" = _fw1X2Hs3;
-        "default" = _fw1X2Hs3;
+        "pkg-1.6.0" = _6Q1vTTqK;
+        "default" = _6Q1vTTqK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fweigel-util-lib";

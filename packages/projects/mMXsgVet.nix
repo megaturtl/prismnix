@@ -121,6 +121,11 @@ let
             "file" = "False Hardcore Heart[26.2].zip";
             "hash" = "sha512-x13doyAa+9u0oDQUr0sb3zoD5CFwmG1PJv9W0G8cZJB7WL54R5BLrZ10M9BiRAVs1E7BSV5w7PCgRvoyfaGqng==";
         };
+        _4yNoGAd0 = {
+            "id" = "4yNoGAd0";
+            "file" = "False Hardcore Heart[26.3].zip";
+            "hash" = "sha512-uX6OYYOcVvDcsCm+0fqjY5CkirJWUzrNmPdBoW0iNbBvasIBFw/LfK7dVgRD4sIP0zBmoo+7lOLIRl1M2AAy+g==";
+        };
     in {
         "Q8o2Ukws" = _Q8o2Ukws;
         "glnNwJRz" = _glnNwJRz;
@@ -146,6 +151,7 @@ let
         "PENd6Fhc" = _PENd6Fhc;
         "nGlLBZ3S" = _nGlLBZ3S;
         "mcKjpYtm" = _mcKjpYtm;
+        "4yNoGAd0" = _4yNoGAd0;
         "minecraft-1.16" = _Q8o2Ukws;
         "minecraft-1.16.1" = _Q8o2Ukws;
         "minecraft-1.16.2" = _Q8o2Ukws;
@@ -186,6 +192,8 @@ let
         "minecraft-26.1.1" = _nGlLBZ3S;
         "minecraft-26.1.2" = _nGlLBZ3S;
         "minecraft-26.2" = _mcKjpYtm;
+        "minecraft-26.3" = _4yNoGAd0;
+        "minecraft-26.4-snapshot-1" = _4yNoGAd0;
         "pkg-1.16" = _Q8o2Ukws;
         "pkg-1.17" = _glnNwJRz;
         "pkg-1.18" = _ZCFrUkmP;
@@ -206,7 +214,8 @@ let
         "pkg-1.1" = _ST5gRPoj;
         "pkg-2.1" = _PENd6Fhc;
         "pkg-2.2" = _mcKjpYtm;
-        "default" = _mcKjpYtm;
+        "pkg-26.3" = _4yNoGAd0;
+        "default" = _4yNoGAd0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "false-hardcore-heart";

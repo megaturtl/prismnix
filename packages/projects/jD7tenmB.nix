@@ -161,6 +161,11 @@ let
             "file" = "shifting-wares-4.0.0+26.2.jar";
             "hash" = "sha512-TJaTCKfIsM5KN+PY3cjF2kUnkgcYDRkZS7TpOoevZ9Hl7qpPj7fq/OQ/R75gOda24ETTp6Mt6yME3WVhMO7UnA==";
         };
+        _itzUzrlX = {
+            "id" = "itzUzrlX";
+            "file" = "shifting-wares-4.0.0+26.3.jar";
+            "hash" = "sha512-l3yHctMQ89eQlY3de829+VQe0LQGT1ccF6I/3KXFfsT/L3MTXKHsF4BgcGk3Y4kvoKkjQKXdEkC9jE3A1nN7ww==";
+        };
     in {
         "zmF1FheZ" = _zmF1FheZ;
         "vehRwXWl" = _vehRwXWl;
@@ -194,6 +199,7 @@ let
         "7KaP9416" = _7KaP9416;
         "ZkgUB5IG" = _ZkgUB5IG;
         "27kP7YsY" = _27kP7YsY;
+        "itzUzrlX" = _itzUzrlX;
         "fabric-1.20" = _FDCm5zcS;
         "fabric-1.20.1" = _FDCm5zcS;
         "fabric-1.20.2" = _FDCm5zcS;
@@ -218,6 +224,7 @@ let
         "fabric-26.1.1" = _ZkgUB5IG;
         "fabric-26.1.2" = _ZkgUB5IG;
         "fabric-26.2" = _27kP7YsY;
+        "fabric-26.3" = _itzUzrlX;
         "pkg-1.0.0+1.20.1" = _zmF1FheZ;
         "pkg-1.0.1+1.20.1" = _vehRwXWl;
         "pkg-1.0.4+1.20.1" = _Z4dC07OM;
@@ -250,7 +257,8 @@ let
         "pkg-3.2.1+1.21.11" = _7KaP9416;
         "pkg-4.0.0+26.1.2" = _ZkgUB5IG;
         "pkg-4.0.0+26.2" = _27kP7YsY;
-        "default" = _27kP7YsY;
+        "pkg-4.0.0+26.3" = _itzUzrlX;
+        "default" = _itzUzrlX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shifting-wares";

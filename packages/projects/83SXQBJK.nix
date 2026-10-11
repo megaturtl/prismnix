@@ -106,6 +106,16 @@ let
             "file" = "ly-fishing-expansion-1.3.2.jar";
             "hash" = "sha512-2+09V4JYIt1ZPrzEmgrP26rbpn73AvvpQiO7fPGRCamRnGEfYWTVOMDs0CYDheuXRzdtI+ZJaXkmO4zAPI4uVQ==";
         };
+        _G5P1lKgQ = {
+            "id" = "G5P1lKgQ";
+            "file" = "Fishing Expansion v1.3.2 [26.3].zip";
+            "hash" = "sha512-n4Hdbkc6Aug1vFd/gmt+nO4HcGzuSUSpUAHt6s1sn17GPYEZZHeBPo3MWhRL5KZ4JURPfAtZC/EnX8UKEXYefQ==";
+        };
+        _viV7ZxDR = {
+            "id" = "viV7ZxDR";
+            "file" = "ly-fishing-expansion-1.3.2.jar";
+            "hash" = "sha512-XOAGbdYu2p7OyDdldsI6RwQFHEk9qRaF4VzMVXwpfLpkAziEqMEV2VvQ8kmsuri6PjT36g/2DSjp7I4OdFnd3g==";
+        };
     in {
         "m4u0BGDT" = _m4u0BGDT;
         "c8TLnuge" = _c8TLnuge;
@@ -128,6 +138,8 @@ let
         "fwnvNLGs" = _fwnvNLGs;
         "oyQd0ybI" = _oyQd0ybI;
         "iqqCFBJV" = _iqqCFBJV;
+        "G5P1lKgQ" = _G5P1lKgQ;
+        "viV7ZxDR" = _viV7ZxDR;
         "datapack-1.21" = _7jdRmUO6;
         "datapack-1.21.1" = _7jdRmUO6;
         "datapack-1.21.5" = _rh4l8Y1J;
@@ -144,6 +156,7 @@ let
         "datapack-26.1.1" = _UzgRS1ht;
         "datapack-26.1.2" = _UzgRS1ht;
         "datapack-26.2" = _fwnvNLGs;
+        "datapack-26.3" = _G5P1lKgQ;
         "fabric-1.21" = _mpR6gpE0;
         "fabric-1.21.1" = _mpR6gpE0;
         "fabric-1.21.5" = _s6QK3RuZ;
@@ -160,6 +173,7 @@ let
         "fabric-26.1.1" = _TDj8IuOk;
         "fabric-26.1.2" = _TDj8IuOk;
         "fabric-26.2" = _iqqCFBJV;
+        "fabric-26.3" = _viV7ZxDR;
         "forge-1.21" = _mpR6gpE0;
         "forge-1.21.1" = _mpR6gpE0;
         "forge-1.21.5" = _s6QK3RuZ;
@@ -176,6 +190,7 @@ let
         "forge-26.1.1" = _TDj8IuOk;
         "forge-26.1.2" = _TDj8IuOk;
         "forge-26.2" = _iqqCFBJV;
+        "forge-26.3" = _viV7ZxDR;
         "neoforge-1.21" = _mpR6gpE0;
         "neoforge-1.21.1" = _mpR6gpE0;
         "neoforge-1.21.5" = _s6QK3RuZ;
@@ -192,6 +207,7 @@ let
         "neoforge-26.1.1" = _TDj8IuOk;
         "neoforge-26.1.2" = _TDj8IuOk;
         "neoforge-26.2" = _iqqCFBJV;
+        "neoforge-26.3" = _viV7ZxDR;
         "quilt-1.21" = _mpR6gpE0;
         "quilt-1.21.1" = _mpR6gpE0;
         "quilt-1.21.5" = _s6QK3RuZ;
@@ -208,6 +224,7 @@ let
         "quilt-26.1.1" = _TDj8IuOk;
         "quilt-26.1.2" = _TDj8IuOk;
         "quilt-26.2" = _iqqCFBJV;
+        "quilt-26.3" = _viV7ZxDR;
         "pkg-v1.1.0" = _Kpo21nuj;
         "pkg-v1.1.0+mod" = _eUrstTIx;
         "pkg-v1.2.0" = _CCsebGyK;
@@ -216,9 +233,9 @@ let
         "pkg-v1.3.0+mod" = _mImPbwru;
         "pkg-v1.3.1" = _rh4l8Y1J;
         "pkg-v1.3.1+mod" = _s6QK3RuZ;
-        "pkg-1.3.2" = _fwnvNLGs;
-        "pkg-1.3.2+mod" = _iqqCFBJV;
-        "default" = _iqqCFBJV;
+        "pkg-1.3.2" = _G5P1lKgQ;
+        "pkg-1.3.2+mod" = _viV7ZxDR;
+        "default" = _viV7ZxDR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ly-fishing-expansion";

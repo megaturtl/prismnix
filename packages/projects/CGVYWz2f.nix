@@ -136,6 +136,16 @@ let
             "file" = "librarian-filter-neoforge-1.21.1-1.0.1.jar";
             "hash" = "sha512-a+cgZlrr0Zrf0JoZymRjvYCZCtKqrx+1R0uPOXH3QPbb42+udwDIj6YS9oKH8IEOKef+ZRme4QVyqHQtBM3SSw==";
         };
+        _6MwACY5I = {
+            "id" = "6MwACY5I";
+            "file" = "librarian-filter-fabric-26.2-1.0.4.jar";
+            "hash" = "sha512-0a4zIgUmN4Ezds9vq5ZkUXlikVhkHbRFdIqVN1RLOUKivX0AWRpS68493d7B6+1T1K08zBnUiOaSDhP+7DC0mw==";
+        };
+        _yERnReav = {
+            "id" = "yERnReav";
+            "file" = "librarian-filter-neoforge-26.2-1.0.4.jar";
+            "hash" = "sha512-NHZTz0o4oDjb9xpgNVckQy+hKpbJDMl8Fe2KM0VIesXmAsIwBvO15Q5qmm8h8zvCwkk8wbeifj7msmMjx/yWEQ==";
+        };
     in {
         "lFo8RvN7" = _lFo8RvN7;
         "9OJgNkES" = _9OJgNkES;
@@ -164,6 +174,8 @@ let
         "vIYDZW03" = _vIYDZW03;
         "MUeuteMf" = _MUeuteMf;
         "CxGoUfC7" = _CxGoUfC7;
+        "6MwACY5I" = _6MwACY5I;
+        "yERnReav" = _yERnReav;
         "fabric-1.20.1" = _U7FKcIjS;
         "fabric-1.20.2" = _lFo8RvN7;
         "fabric-1.21.5" = _9OJgNkES;
@@ -173,7 +185,7 @@ let
         "fabric-26.1" = _whIjkp22;
         "fabric-26.1.1" = _whIjkp22;
         "fabric-26.1.2" = _whIjkp22;
-        "fabric-26.2" = _8bRyAKzH;
+        "fabric-26.2" = _6MwACY5I;
         "fabric-1.21.1" = _MUeuteMf;
         "forge-26.1" = _pst2O8Qx;
         "forge-26.1.1" = _pst2O8Qx;
@@ -181,14 +193,15 @@ let
         "neoforge-26.1" = _WXW2B05Z;
         "neoforge-26.1.1" = _WXW2B05Z;
         "neoforge-26.1.2" = _WXW2B05Z;
-        "neoforge-26.2" = _78FdHpat;
+        "neoforge-26.2" = _yERnReav;
         "neoforge-1.21.11" = _vIYDZW03;
         "neoforge-1.21.1" = _CxGoUfC7;
         "pkg-1.0.0" = _zmPcOgf7;
         "pkg-1.0.1" = _CxGoUfC7;
         "pkg-1.0.2" = _L96BGjdJ;
         "pkg-1.0.3" = _vIYDZW03;
-        "default" = _CxGoUfC7;
+        "pkg-1.0.4" = _yERnReav;
+        "default" = _yERnReav;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "easylibrariantrade";

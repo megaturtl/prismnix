@@ -21,11 +21,17 @@ let
             "file" = "fovtoggle-2.0.0-1.26.2.jar";
             "hash" = "sha512-vYO5kUyNX6ZQKzXQJgy6JvtpverftQJuKOMTqMcR460H1yHy2KnhkN13jVeTiDZjT9pIEFryxhAEmy4l6kTYCg==";
         };
+        _scRXfZzw = {
+            "id" = "scRXfZzw";
+            "file" = "fovtoggle-2.0.1-1.26.3.jar";
+            "hash" = "sha512-pUEDC3wQCQYAXVpY2jAMpZ8VPSB5Kvajh8w3zajJHIv1wG0ByD5VzTvFTTM42Jj5IyCKrur6x4qL4qq+Eex9Yw==";
+        };
     in {
         "gcz9wGKM" = _gcz9wGKM;
         "gRo98Al7" = _gRo98Al7;
         "attIpft3" = _attIpft3;
         "3vuwtkmX" = _3vuwtkmX;
+        "scRXfZzw" = _scRXfZzw;
         "fabric-1.21" = _gcz9wGKM;
         "fabric-1.21.1" = _gcz9wGKM;
         "fabric-1.21.2" = _gcz9wGKM;
@@ -42,11 +48,13 @@ let
         "fabric-26.1.1" = _attIpft3;
         "fabric-26.1.2" = _attIpft3;
         "fabric-26.2" = _3vuwtkmX;
+        "fabric-26.3" = _scRXfZzw;
         "pkg-1.0.0" = _gcz9wGKM;
         "pkg-1.0.0-1.21.9" = _gRo98Al7;
         "pkg-2.0.0-1.26.1" = _attIpft3;
         "pkg-2.0.0-1.26.2" = _3vuwtkmX;
-        "default" = _3vuwtkmX;
+        "pkg-2.0.1-1.26.3" = _scRXfZzw;
+        "default" = _scRXfZzw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fov-toggle";

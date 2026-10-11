@@ -121,6 +121,21 @@ let
             "file" = "§bVisible Powdered Snow 26.X.zip";
             "hash" = "sha512-lUvYiTX78xny5qdpg2K+/PMkFp1m7bH+DNqXX7hiR6Wm8XsxlLNgIN+wFV5jpM5ycE1iNG3sLyNzFAWms5TUAg==";
         };
+        _BKvR1S8l = {
+            "id" = "BKvR1S8l";
+            "file" = "§bVisible Powdered Snow 26.1-26.1.2.zip";
+            "hash" = "sha512-O9w44df5VFN+4S4Am4Csup8tAmqcZUzM48+whNioGAfwqrM2P6te/guc63KtqvMo8KZiX7grJD+w6YJHaJDJVw==";
+        };
+        _ihEhkkdW = {
+            "id" = "ihEhkkdW";
+            "file" = "§bVisible Powdered Snow 26.2.zip";
+            "hash" = "sha512-4qZdnrRpE3k8fxU6DAB3i4EkKYdXWR8nIOIDomSYyTjQgi0/RHRGoukla39S2NZLnV5Kw9DLuLMoLxbvDq/8Xg==";
+        };
+        _IdbZt1eG = {
+            "id" = "IdbZt1eG";
+            "file" = "§bVisible Powdered Snow 26.3.zip";
+            "hash" = "sha512-SYgTZ52dcDAh7rIKdhDTcp+6EMdP5Icfmg7vby4mQAxAPMQrE1T7ttqy4M9zYqRGznbre14UZeHNJ+TuL9KWDA==";
+        };
     in {
         "6XtkyIP4" = _6XtkyIP4;
         "YrqxlmCW" = _YrqxlmCW;
@@ -146,6 +161,9 @@ let
         "mXebFXm8" = _mXebFXm8;
         "GiJk6cQs" = _GiJk6cQs;
         "mvvuBvWD" = _mvvuBvWD;
+        "BKvR1S8l" = _BKvR1S8l;
+        "ihEhkkdW" = _ihEhkkdW;
+        "IdbZt1eG" = _IdbZt1eG;
         "minecraft-1.21.8" = _RyyhgyRY;
         "minecraft-1.21.9" = _deKo1trA;
         "minecraft-1.21.10" = _deKo1trA;
@@ -175,15 +193,17 @@ let
         "minecraft-1.17" = _NXa1G2Yr;
         "minecraft-1.17.1" = _NXa1G2Yr;
         "minecraft-1.21.11" = _mXebFXm8;
-        "minecraft-26.1" = _mvvuBvWD;
-        "minecraft-26.1.1" = _mvvuBvWD;
-        "minecraft-26.1.2" = _mvvuBvWD;
-        "minecraft-26.2" = _mvvuBvWD;
+        "minecraft-26.1" = _BKvR1S8l;
+        "minecraft-26.1.1" = _BKvR1S8l;
+        "minecraft-26.1.2" = _BKvR1S8l;
+        "minecraft-26.2" = _ihEhkkdW;
+        "minecraft-26.3" = _IdbZt1eG;
         "pkg-0.99" = _6XtkyIP4;
         "pkg-1.0" = _y6t0etG5;
         "pkg-1.01" = _GiJk6cQs;
         "pkg-1.02" = _mvvuBvWD;
-        "default" = _mvvuBvWD;
+        "pkg-1.03" = _IdbZt1eG;
+        "default" = _IdbZt1eG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "visible-blue-powdered-snow";

@@ -46,6 +46,11 @@ let
             "file" = "better_leads-1.2.2+26.2.jar";
             "hash" = "sha512-9SeZJcCBApK2eLPuI2v1hFTO23aVaX4jaWxNnLetNlolPUuSwRyV2IONs1yNcAOe9P34nEJcqcrfw3h3/FaiMg==";
         };
+        _hcqyUOI7 = {
+            "id" = "hcqyUOI7";
+            "file" = "better_leads-1.2.2+26.3.jar";
+            "hash" = "sha512-3b9RNSB0vcMvrPpQx5SJ8aw2e2430zqrDKxWXuuS9cxWth+L83aC6qKQsuCt2y06ADh8xl2mZAfAJ2vfuvA7gg==";
+        };
     in {
         "QgJVTiGi" = _QgJVTiGi;
         "PR87fLGD" = _PR87fLGD;
@@ -56,6 +61,7 @@ let
         "2mSTxSNo" = _2mSTxSNo;
         "9c51u4hX" = _9c51u4hX;
         "YjsrxhE7" = _YjsrxhE7;
+        "hcqyUOI7" = _hcqyUOI7;
         "fabric-1.21.8" = _QgJVTiGi;
         "fabric-1.21.9" = _PR87fLGD;
         "fabric-1.21.10" = _ZJXZHmhC;
@@ -64,11 +70,12 @@ let
         "fabric-26.1.1" = _9c51u4hX;
         "fabric-26.1.2" = _9c51u4hX;
         "fabric-26.2" = _YjsrxhE7;
+        "fabric-26.3" = _hcqyUOI7;
         "pkg-1.0.0" = _yCiPDXQt;
         "pkg-1.1.1" = _QdAbrrc5;
         "pkg-1.2.1" = _2mSTxSNo;
-        "pkg-1.2.2" = _YjsrxhE7;
-        "default" = _YjsrxhE7;
+        "pkg-1.2.2" = _hcqyUOI7;
+        "default" = _hcqyUOI7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lead-fences";

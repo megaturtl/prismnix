@@ -36,6 +36,11 @@ let
             "file" = "mixson-2.2.0-multiloader.jar";
             "hash" = "sha512-Ct0e/jLMBz6CLkBpr9Sy0s2ecXU2JRnaT5VONrogEqz0aq5oFYLanpBd8kD48uJq4jzBsT2jEH5b8cMchupjgQ==";
         };
+        _yWpBBcpq = {
+            "id" = "yWpBBcpq";
+            "file" = "mixson-2.2.1-multiloader.jar";
+            "hash" = "sha512-ZTSXpjNy1Bt+xIAbD2t7QEICB3mXesIzq2Vbty7kataPAHGchxhlX/Y8vSazXAm/6QVqlNreaJ5Kln2fgztM8g==";
+        };
     in {
         "g0a6qzzo" = _g0a6qzzo;
         "IDcbZQAk" = _IDcbZQAk;
@@ -44,6 +49,7 @@ let
         "rh5BqkhK" = _rh5BqkhK;
         "XNoL7Djj" = _XNoL7Djj;
         "76WpeR5z" = _76WpeR5z;
+        "yWpBBcpq" = _yWpBBcpq;
         "fabric-1.21" = _CdodrxH1;
         "fabric-1.21.1" = _CdodrxH1;
         "fabric-1.21.2" = _CdodrxH1;
@@ -58,6 +64,7 @@ let
         "fabric-26.1.1" = _76WpeR5z;
         "fabric-26.1.2" = _76WpeR5z;
         "fabric-26.2" = _76WpeR5z;
+        "fabric-26.3" = _yWpBBcpq;
         "quilt-1.20" = _IDcbZQAk;
         "quilt-1.20.1" = _IDcbZQAk;
         "quilt-1.20.2" = _IDcbZQAk;
@@ -86,12 +93,14 @@ let
         "neoforge-26.1.1" = _76WpeR5z;
         "neoforge-26.1.2" = _76WpeR5z;
         "neoforge-26.2" = _76WpeR5z;
+        "neoforge-26.3" = _yWpBBcpq;
         "pkg-1.3.1" = _topnnKOd;
         "pkg-1.4.0" = _CdodrxH1;
         "pkg-2.0.2" = _rh5BqkhK;
         "pkg-2.0.1" = _XNoL7Djj;
         "pkg-2.2.0" = _76WpeR5z;
-        "default" = _76WpeR5z;
+        "pkg-2.2.1" = _yWpBBcpq;
+        "default" = _yWpBBcpq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mixson";

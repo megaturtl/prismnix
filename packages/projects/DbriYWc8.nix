@@ -446,6 +446,16 @@ let
             "file" = "MoreSnifferFlowers-1.21.1-neo-6.7.2.jar";
             "hash" = "sha512-hp0OlfN+/9YKMRC+KANFw1wzMuEvSwOK+5ZHqQ9ceq5UVBo15+nllkytz/U8/6Ky2tCUfrJUHYGYeaSlvHf68g==";
         };
+        _JpDG6i20 = {
+            "id" = "JpDG6i20";
+            "file" = "MoreSnifferFlowers-26.1.2-neo-6.8.jar";
+            "hash" = "sha512-XEJ9kjYSuzCzsT8aNUxa5LJJR9iwVouBokb++i1zmpWnBnGMlcnA/Y7gF1JO/YQoYAKuvm14SPZWmDruTxRyxA==";
+        };
+        _2AXIJhdb = {
+            "id" = "2AXIJhdb";
+            "file" = "MoreSnifferFlowers-26.1.2-neo-6.8.1.jar";
+            "hash" = "sha512-jxyL6GlXDYwcnosarBLopt+Td2X1DrO90qdLSzIv58q/opy71DIEPN8Dqsj1L18wR+JWfBfjkims4RnKbEfklQ==";
+        };
     in {
         "yIhBQsKw" = _yIhBQsKw;
         "w5ztDsSe" = _w5ztDsSe;
@@ -536,6 +546,8 @@ let
         "IglzyqSB" = _IglzyqSB;
         "maaN7Pr3" = _maaN7Pr3;
         "mULgzS3g" = _mULgzS3g;
+        "JpDG6i20" = _JpDG6i20;
+        "2AXIJhdb" = _2AXIJhdb;
         "forge-1.20.1" = _maaN7Pr3;
         "forge-1.20" = _elsNuX86;
         "neoforge-1.20.4" = _oakUlyuY;
@@ -544,6 +556,7 @@ let
         "neoforge-1.21.1" = _mULgzS3g;
         "neoforge-1.20" = _elsNuX86;
         "neoforge-1.21.4" = _fVJdJr0N;
+        "neoforge-26.1.2" = _2AXIJhdb;
         "fabric-1.20" = _VnyXFNiz;
         "fabric-1.20.1" = _skD0D3t2;
         "pkg-1.0" = _yIhBQsKw;
@@ -597,7 +610,9 @@ let
         "pkg-6.7" = _5kX6k0ct;
         "pkg-6.7.1" = _IglzyqSB;
         "pkg-6.7.2" = _mULgzS3g;
-        "default" = _mULgzS3g;
+        "pkg-6.8" = _JpDG6i20;
+        "pkg-6.8.1" = _2AXIJhdb;
+        "default" = _2AXIJhdb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-sniffer-flowers";

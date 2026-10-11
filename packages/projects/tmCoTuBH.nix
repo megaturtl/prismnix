@@ -46,6 +46,11 @@ let
             "file" = "AutoSprintMod-1.0.9.jar";
             "hash" = "sha512-JkE/kdtSm63B9b9726RVVIQMDDtnGo046RYKJ5B6gIoqM8USjWQ+ziqKNZtIOMyFgkBprYk9HJenNctqnX1ERw==";
         };
+        _uaVpLIOM = {
+            "id" = "uaVpLIOM";
+            "file" = "AutoSprintMod-1.0.10.jar";
+            "hash" = "sha512-XZtSclg3rOQBWDm78fhaTSGDbrQct4dtgbs/3lrIhlnPWSt7eLxXWHLeC65N5vL/D5URtamTfvrzmUAlmn5JLA==";
+        };
     in {
         "haNHe1R5" = _haNHe1R5;
         "PtNT0cct" = _PtNT0cct;
@@ -56,6 +61,7 @@ let
         "pKrvf2qd" = _pKrvf2qd;
         "ctfLEX16" = _ctfLEX16;
         "OLfSPTuI" = _OLfSPTuI;
+        "uaVpLIOM" = _uaVpLIOM;
         "fabric-1.21" = _haNHe1R5;
         "fabric-1.21.1" = _haNHe1R5;
         "fabric-1.21.2" = _PtNT0cct;
@@ -68,6 +74,7 @@ let
         "fabric-1.21.11" = _pKrvf2qd;
         "fabric-26.1.2" = _ctfLEX16;
         "fabric-26.2" = _OLfSPTuI;
+        "fabric-26.3" = _uaVpLIOM;
         "pkg-1.0.0" = _haNHe1R5;
         "pkg-1.0.1" = _PtNT0cct;
         "pkg-1.0.3" = _U9rXA0m3;
@@ -77,7 +84,8 @@ let
         "pkg-1.0.7" = _pKrvf2qd;
         "pkg-1.0.8" = _ctfLEX16;
         "pkg-1.0.9" = _OLfSPTuI;
-        "default" = _OLfSPTuI;
+        "pkg-1.0.10" = _uaVpLIOM;
+        "default" = _uaVpLIOM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "autosprintmod";

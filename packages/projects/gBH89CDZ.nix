@@ -21,11 +21,23 @@ let
             "file" = "undying-enchantment-v1.0.1.jar";
             "hash" = "sha512-oLTZn20KQ9P3wwm3JW23Urwgzw/07qO1ZDPxH+X4rTCMj47d80BERajfxaBnTLEkfIDMQSRk3stEPbu0K/kZRQ==";
         };
+        _XNOFPJoq = {
+            "id" = "XNOFPJoq";
+            "file" = "Undying Enchantment v1.0.1 [26.3].zip";
+            "hash" = "sha512-saC6BvlTRHcBTC8SMDz/k0m9OPdQ5bXbVkmO8fWlX1SCohyzuP/4d3DLMb/05nD1p/p3HvFa1ghpEkRnh3HOdg==";
+        };
+        _6whtCgjj = {
+            "id" = "6whtCgjj";
+            "file" = "undying-enchantment-1.0.1.jar";
+            "hash" = "sha512-2G9ViHLCjtcEmD3M06Z6vWH8c7VTSUfbFDnt0QnBKOKWS3i7gDeqeYO5nDBxkW5xIeMKCmlSiQypRzgYbjdMMA==";
+        };
     in {
         "GYzmH2Ah" = _GYzmH2Ah;
         "UpEvmKkM" = _UpEvmKkM;
         "XRrvlWsl" = _XRrvlWsl;
         "vAAMs8SJ" = _vAAMs8SJ;
+        "XNOFPJoq" = _XNOFPJoq;
+        "6whtCgjj" = _6whtCgjj;
         "datapack-1.21.2" = _XRrvlWsl;
         "datapack-1.21.3" = _XRrvlWsl;
         "datapack-1.21.4" = _XRrvlWsl;
@@ -40,6 +52,7 @@ let
         "datapack-26.1.1" = _XRrvlWsl;
         "datapack-26.1.2" = _XRrvlWsl;
         "datapack-26.2" = _XRrvlWsl;
+        "datapack-26.3" = _XNOFPJoq;
         "fabric-1.21.2" = _vAAMs8SJ;
         "fabric-1.21.3" = _vAAMs8SJ;
         "fabric-1.21.4" = _vAAMs8SJ;
@@ -54,6 +67,7 @@ let
         "fabric-26.1.1" = _vAAMs8SJ;
         "fabric-26.1.2" = _vAAMs8SJ;
         "fabric-26.2" = _vAAMs8SJ;
+        "fabric-26.3" = _6whtCgjj;
         "forge-1.21.2" = _vAAMs8SJ;
         "forge-1.21.3" = _vAAMs8SJ;
         "forge-1.21.4" = _vAAMs8SJ;
@@ -68,6 +82,7 @@ let
         "forge-26.1.1" = _vAAMs8SJ;
         "forge-26.1.2" = _vAAMs8SJ;
         "forge-26.2" = _vAAMs8SJ;
+        "forge-26.3" = _6whtCgjj;
         "neoforge-1.21.2" = _vAAMs8SJ;
         "neoforge-1.21.3" = _vAAMs8SJ;
         "neoforge-1.21.4" = _vAAMs8SJ;
@@ -82,6 +97,7 @@ let
         "neoforge-26.1.1" = _vAAMs8SJ;
         "neoforge-26.1.2" = _vAAMs8SJ;
         "neoforge-26.2" = _vAAMs8SJ;
+        "neoforge-26.3" = _6whtCgjj;
         "quilt-1.21.2" = _vAAMs8SJ;
         "quilt-1.21.3" = _vAAMs8SJ;
         "quilt-1.21.4" = _vAAMs8SJ;
@@ -96,11 +112,14 @@ let
         "quilt-26.1.1" = _vAAMs8SJ;
         "quilt-26.1.2" = _vAAMs8SJ;
         "quilt-26.2" = _vAAMs8SJ;
+        "quilt-26.3" = _6whtCgjj;
         "pkg-v1.0.0" = _GYzmH2Ah;
         "pkg-v1.0.0+mod" = _UpEvmKkM;
         "pkg-v1.0.1" = _XRrvlWsl;
         "pkg-v1.0.1+mod" = _vAAMs8SJ;
-        "default" = _vAAMs8SJ;
+        "pkg-1.0.1" = _XNOFPJoq;
+        "pkg-1.0.1+mod" = _6whtCgjj;
+        "default" = _6whtCgjj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "undying-enchantment";

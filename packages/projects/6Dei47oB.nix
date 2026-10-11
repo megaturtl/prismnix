@@ -6,8 +6,14 @@ let
             "file" = "Blue_Netherite-Menby.zip";
             "hash" = "sha512-5ZMyvX5lyz01aMLbBiyjEd0zkP42IJ5cyOlIXlRJz4CTdDhWVdu2GlvXsAfX2KzXmM+pceHvyC+ruA1K3YSF4Q==";
         };
+        _HlfH3TSB = {
+            "id" = "HlfH3TSB";
+            "file" = "Blue_Netherite-Menby.zip";
+            "hash" = "sha512-5ZMyvX5lyz01aMLbBiyjEd0zkP42IJ5cyOlIXlRJz4CTdDhWVdu2GlvXsAfX2KzXmM+pceHvyC+ruA1K3YSF4Q==";
+        };
     in {
         "YaqAyOak" = _YaqAyOak;
+        "HlfH3TSB" = _HlfH3TSB;
         "minecraft-1.20" = _YaqAyOak;
         "minecraft-1.20.1" = _YaqAyOak;
         "minecraft-1.20.2" = _YaqAyOak;
@@ -27,11 +33,14 @@ let
         "minecraft-1.21.9" = _YaqAyOak;
         "minecraft-1.21.10" = _YaqAyOak;
         "minecraft-1.21.11" = _YaqAyOak;
-        "minecraft-26.1" = _YaqAyOak;
-        "minecraft-26.1.1" = _YaqAyOak;
-        "minecraft-26.1.2" = _YaqAyOak;
+        "minecraft-26.1" = _HlfH3TSB;
+        "minecraft-26.1.1" = _HlfH3TSB;
+        "minecraft-26.1.2" = _HlfH3TSB;
+        "minecraft-26.2" = _HlfH3TSB;
+        "minecraft-26.3" = _HlfH3TSB;
         "pkg-1" = _YaqAyOak;
-        "default" = _YaqAyOak;
+        "pkg-1.1" = _HlfH3TSB;
+        "default" = _HlfH3TSB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blue-netherite-menby";

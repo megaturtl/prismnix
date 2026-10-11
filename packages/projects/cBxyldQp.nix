@@ -16,10 +16,16 @@ let
             "file" = "Hunger-Preview.zip";
             "hash" = "sha512-vwteMFqmTzhF9Rs0wPhO20Zf2hJbJByd1FiHbHrRUqgBEsJCIy7D7UL/IkmvINLVe69zw6LCVl7W6Bhf6FqgRw==";
         };
+        _ePNOIDZO = {
+            "id" = "ePNOIDZO";
+            "file" = "hunger-preview-26.3.zip";
+            "hash" = "sha512-RssmPiTRNkugcisLdTG/NwREzcVXucmrfFbW2FmLLRjNuQKFYs36alMypsWREedGx2ERyP5h1FnTjJuoS0QPTw==";
+        };
     in {
         "gf86McCQ" = _gf86McCQ;
         "WG3vJOdJ" = _WG3vJOdJ;
         "suJCD0hD" = _suJCD0hD;
+        "ePNOIDZO" = _ePNOIDZO;
         "minecraft-1.20" = _WG3vJOdJ;
         "minecraft-1.20.1" = _WG3vJOdJ;
         "minecraft-1.20.2" = _WG3vJOdJ;
@@ -54,10 +60,12 @@ let
         "minecraft-26.1.1" = _suJCD0hD;
         "minecraft-26.1.2" = _suJCD0hD;
         "minecraft-26.2" = _suJCD0hD;
+        "minecraft-26.3" = _ePNOIDZO;
         "pkg-1.20.4" = _gf86McCQ;
         "pkg-1.21.10" = _WG3vJOdJ;
         "pkg-26.2" = _suJCD0hD;
-        "default" = _suJCD0hD;
+        "pkg-26.3" = _ePNOIDZO;
+        "default" = _ePNOIDZO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hunger-preview";

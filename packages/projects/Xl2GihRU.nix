@@ -41,6 +41,16 @@ let
             "file" = "ore-vein-miner-26.x.jar";
             "hash" = "sha512-ohJ5lJXkurFQ0sF/EkKqsP9hRON4O2uDsHIW+TJtR0WXVYGggbrUiKLWGlfUhImdWh+rB3rWPJcIamrrONUoLQ==";
         };
+        _78suV529 = {
+            "id" = "78suV529";
+            "file" = "OreVeinMiner-3.2.0+26.3.zip";
+            "hash" = "sha512-wR+xrBGNFNcrJ8KIBdCdr2OMpsnauhsXfbeycEsBB6uATulJ7NzFQKah1i9TyzgtJz+Lo7sjLlmTBjAyjYBPCQ==";
+        };
+        _a5M26JUo = {
+            "id" = "a5M26JUo";
+            "file" = "ore-vein-miner-3.2.0.jar";
+            "hash" = "sha512-EobFYskJaTq6v3b4QBHCJNabIiOqu18K1eKVfdD0fsDkpdsv4UGpc+0mZIcpAvafhWHmD3Td2ryw9odqVTckJA==";
+        };
     in {
         "XR7sQrfB" = _XR7sQrfB;
         "j2ZdNHeW" = _j2ZdNHeW;
@@ -50,6 +60,8 @@ let
         "UuKGO3oW" = _UuKGO3oW;
         "DGYptgDM" = _DGYptgDM;
         "AD37jHuG" = _AD37jHuG;
+        "78suV529" = _78suV529;
+        "a5M26JUo" = _a5M26JUo;
         "datapack-1.16" = _XR7sQrfB;
         "datapack-1.16.1" = _XR7sQrfB;
         "datapack-1.16.2" = _XR7sQrfB;
@@ -108,6 +120,7 @@ let
         "datapack-26.2-rc-1" = _qBkPSAEs;
         "datapack-26.2-rc-2" = _qBkPSAEs;
         "datapack-26.2" = _qBkPSAEs;
+        "datapack-26.3" = _78suV529;
         "fabric-1.16" = _X8xXf5lO;
         "fabric-1.16.1" = _X8xXf5lO;
         "fabric-1.16.2" = _X8xXf5lO;
@@ -166,6 +179,7 @@ let
         "fabric-26.2-rc-1" = _AD37jHuG;
         "fabric-26.2-rc-2" = _AD37jHuG;
         "fabric-26.2" = _AD37jHuG;
+        "fabric-26.3" = _a5M26JUo;
         "forge-1.16" = _X8xXf5lO;
         "forge-1.16.1" = _X8xXf5lO;
         "forge-1.16.2" = _X8xXf5lO;
@@ -224,6 +238,7 @@ let
         "forge-26.2-rc-1" = _AD37jHuG;
         "forge-26.2-rc-2" = _AD37jHuG;
         "forge-26.2" = _AD37jHuG;
+        "forge-26.3" = _a5M26JUo;
         "neoforge-1.16" = _X8xXf5lO;
         "neoforge-1.16.1" = _X8xXf5lO;
         "neoforge-1.16.2" = _X8xXf5lO;
@@ -282,6 +297,7 @@ let
         "neoforge-26.2-rc-1" = _AD37jHuG;
         "neoforge-26.2-rc-2" = _AD37jHuG;
         "neoforge-26.2" = _AD37jHuG;
+        "neoforge-26.3" = _a5M26JUo;
         "quilt-1.16" = _X8xXf5lO;
         "quilt-1.16.1" = _X8xXf5lO;
         "quilt-1.16.2" = _X8xXf5lO;
@@ -340,13 +356,16 @@ let
         "quilt-26.2-rc-1" = _AD37jHuG;
         "quilt-26.2-rc-2" = _AD37jHuG;
         "quilt-26.2" = _AD37jHuG;
+        "quilt-26.3" = _a5M26JUo;
         "pkg-1.16.5" = _XR7sQrfB;
         "pkg-7.01R" = _WoB0ApFU;
         "pkg-26.x" = _qBkPSAEs;
         "pkg-1.16.5+mod" = _X8xXf5lO;
         "pkg-7.01R+mod" = _DGYptgDM;
         "pkg-26.x+mod" = _AD37jHuG;
-        "default" = _AD37jHuG;
+        "pkg-3.2.0" = _78suV529;
+        "pkg-3.2.0+mod" = _a5M26JUo;
+        "default" = _a5M26JUo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ore-vein-miner";

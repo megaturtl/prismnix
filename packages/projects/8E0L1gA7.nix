@@ -91,6 +91,16 @@ let
             "file" = "guide_shelf-1.3.5.jar";
             "hash" = "sha512-eSUIOCfjmUPEu6K6AAg2hCE6Vat4rkRUUw3HAiR36JZ6Xpl7SDpsLFPLz23n4f7hn6kBCQ7rZVT6XdykanTKxg==";
         };
+        _fDshwkXY = {
+            "id" = "fDshwkXY";
+            "file" = "guide_shelf-1.3.6.jar";
+            "hash" = "sha512-MG5yTItSqNNlK54lo5DxczCO63BVJzO4Ar5MZkxx4dixMyrYRfSM4PPUX9qmifyo0jlq0nFa8AwMsb/c6bxQIA==";
+        };
+        _rfpYVBCq = {
+            "id" = "rfpYVBCq";
+            "file" = "guide_shelf-1.3.6.jar";
+            "hash" = "sha512-wkeU/ye4pXvLqp90um04pW9AmpVQEBnHyrWxmwH2b34thVwTimOC365qERVwFzG+P/KT7nKxY5mGJBXiCtsOEQ==";
+        };
     in {
         "Ao0hYow2" = _Ao0hYow2;
         "6rgBeunJ" = _6rgBeunJ;
@@ -110,8 +120,10 @@ let
         "AgTEMJQF" = _AgTEMJQF;
         "zdGFvqlX" = _zdGFvqlX;
         "sDKEMIMr" = _sDKEMIMr;
-        "forge-1.20.1" = _zdGFvqlX;
-        "neoforge-1.21.1" = _sDKEMIMr;
+        "fDshwkXY" = _fDshwkXY;
+        "rfpYVBCq" = _rfpYVBCq;
+        "forge-1.20.1" = _fDshwkXY;
+        "neoforge-1.21.1" = _rfpYVBCq;
         "pkg-1.0.2" = _6rgBeunJ;
         "pkg-1.1.0" = _ZIQEqLJ3;
         "pkg-1.2.0" = _Qzd9qY8Z;
@@ -121,7 +133,8 @@ let
         "pkg-1.3.3" = _l486Kj7W;
         "pkg-1.3.4" = _AgTEMJQF;
         "pkg-1.3.5" = _sDKEMIMr;
-        "default" = _sDKEMIMr;
+        "pkg-1.3.6" = _rfpYVBCq;
+        "default" = _rfpYVBCq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "guide-shelf";

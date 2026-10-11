@@ -176,6 +176,61 @@ let
             "file" = "inventorymanagement-fabric-2.0.1+26.2.jar";
             "hash" = "sha512-1w09uFKUBTKQM/8GyFQbLGJy4d1KDDBpMELzxhTkMo1cfpPEfFU8VNw0stCvkXI0TR+VYTwkVB3d7oRZO5lT6w==";
         };
+        _n4ThDM17 = {
+            "id" = "n4ThDM17";
+            "file" = "inventorymanagement-forge-2.0.2+26.1.jar";
+            "hash" = "sha512-w5XXg6s30iZQvg/TepwZG+b+/yvS66QdYT4FdYII/w7tEQ4othGRo4cU8gADpa9NgJVVTicxijRq+05dRbyx0A==";
+        };
+        _tOtAR2U4 = {
+            "id" = "tOtAR2U4";
+            "file" = "inventorymanagement-neoforge-2.0.2+26.1.jar";
+            "hash" = "sha512-zN1LVwKgUGltbRZWqXTbcIyY094hyqmJL7pl/9rUmsHGOYpYs0n3teNqzZrsC+kuAsd+iUXXhIl9S0ixW4IYMw==";
+        };
+        _DYaQQBiQ = {
+            "id" = "DYaQQBiQ";
+            "file" = "inventorymanagement-fabric-2.0.2+26.1.jar";
+            "hash" = "sha512-hT0Xv8Fe7zddms03/igwD/l7vOIbiDR0LHLnO6+a1XBgXluK9RLNSn0hHqjsQ9Vruu66cBEH/1C/klcM7m8KUQ==";
+        };
+        _tsHm7gkG = {
+            "id" = "tsHm7gkG";
+            "file" = "inventorymanagement-forge-2.0.2+26.2.jar";
+            "hash" = "sha512-BbxGUxTrZKyAzDr9uirJ6lkwh+w0Ims50zYec90oE8IOAW5Edkc7q42jPdSyFfvwZBHLp9nVMY/YfF/JV17kVQ==";
+        };
+        _kQe0oimy = {
+            "id" = "kQe0oimy";
+            "file" = "inventorymanagement-neoforge-2.0.2+26.2.jar";
+            "hash" = "sha512-E6u0wug5dhQR7AujqsvsevdZ+DQUAqibtJ2z0LGun53mAIeH5Wo2rs2TAbzFxxhYGT8RRyZfMl8gWGk8RgxNJg==";
+        };
+        _PxZPDukH = {
+            "id" = "PxZPDukH";
+            "file" = "inventorymanagement-fabric-2.0.2+26.2.jar";
+            "hash" = "sha512-JpziRp56+GxgN0C24O6lBMWP/OGflyYvKpEWVIndnV27tOCLGx7/imZ03NzPxLQ3rBFPLkTX9oE7mqKsI86Jew==";
+        };
+        _vYgSNpEY = {
+            "id" = "vYgSNpEY";
+            "file" = "inventorymanagement-neoforge-2.0.2+26.3.jar";
+            "hash" = "sha512-dPOzT769U1v9Bq9k1MGq0Nw8aM8xii8DuVjkMGeCRp2WGN1EjbY762EzP7zHkFKVHCo/e7fRBM7x9K9evzPXkg==";
+        };
+        _5ltmMuRF = {
+            "id" = "5ltmMuRF";
+            "file" = "inventorymanagement-fabric-2.0.2+26.3.jar";
+            "hash" = "sha512-Xf0HWxYvny4U2de9CiIdPNjUc8TbLsvJxAinUVm44qpfBkomHaVOH+OkjXFzLUXPEbJ5bihzvXCsgYdonEQPXQ==";
+        };
+        _Oea858bg = {
+            "id" = "Oea858bg";
+            "file" = "inventorymanagement-neoforge-2.0.3+26.3.jar";
+            "hash" = "sha512-CiViRbkV4N1rXR4U9E/t57SvZCznAjoIWqsoF5qX1sspdeBl5qh7nSWQuIqwYWrfV+SSXdV3+vL7ojGJffmmzg==";
+        };
+        _OAkbMO3w = {
+            "id" = "OAkbMO3w";
+            "file" = "inventorymanagement-fabric-2.0.3+26.3.jar";
+            "hash" = "sha512-zwUZYlZbNH9qzr4KYKl2i1KDkusj5IFxxiyU3UqwnHRPHlbHtL4nnlYXxdtxtmdKDd+lhfm74fTfInG+gVIxqQ==";
+        };
+        _K3c65DM8 = {
+            "id" = "K3c65DM8";
+            "file" = "inventorymanagement-forge-2.0.3+26.3.jar";
+            "hash" = "sha512-Ir+vYYSG0C8LehF4GaRGl14oOIT3g9NtHss/T4BEQBFuwysCnLAWXPlnkxZXAKTnC08ignjemwSr9lOrA9arsw==";
+        };
     in {
         "2Aap97V6" = _2Aap97V6;
         "FAyOlqbz" = _FAyOlqbz;
@@ -212,6 +267,17 @@ let
         "LGwie5zZ" = _LGwie5zZ;
         "oXA0U8oD" = _oXA0U8oD;
         "9XHUi1Hu" = _9XHUi1Hu;
+        "n4ThDM17" = _n4ThDM17;
+        "tOtAR2U4" = _tOtAR2U4;
+        "DYaQQBiQ" = _DYaQQBiQ;
+        "tsHm7gkG" = _tsHm7gkG;
+        "kQe0oimy" = _kQe0oimy;
+        "PxZPDukH" = _PxZPDukH;
+        "vYgSNpEY" = _vYgSNpEY;
+        "5ltmMuRF" = _5ltmMuRF;
+        "Oea858bg" = _Oea858bg;
+        "OAkbMO3w" = _OAkbMO3w;
+        "K3c65DM8" = _K3c65DM8;
         "fabric-1.18.2" = _3MKlFwlL;
         "fabric-1.19" = _r4z4a5NO;
         "fabric-1.19.1" = _r4z4a5NO;
@@ -237,10 +303,11 @@ let
         "fabric-1.21.9" = _gXENH8Ec;
         "fabric-1.21.10" = _gXENH8Ec;
         "fabric-1.21.11" = _j6rPwIOk;
-        "fabric-26.1" = _5RtcjDmI;
-        "fabric-26.1.1" = _5RtcjDmI;
-        "fabric-26.1.2" = _5RtcjDmI;
-        "fabric-26.2" = _9XHUi1Hu;
+        "fabric-26.1" = _DYaQQBiQ;
+        "fabric-26.1.1" = _DYaQQBiQ;
+        "fabric-26.1.2" = _DYaQQBiQ;
+        "fabric-26.2" = _PxZPDukH;
+        "fabric-26.3" = _OAkbMO3w;
         "quilt-1.18.2" = _3MKlFwlL;
         "quilt-1.19" = _r4z4a5NO;
         "quilt-1.19.1" = _r4z4a5NO;
@@ -266,18 +333,21 @@ let
         "quilt-1.21.9" = _gXENH8Ec;
         "quilt-1.21.10" = _gXENH8Ec;
         "quilt-1.21.11" = _j6rPwIOk;
-        "quilt-26.1" = _5RtcjDmI;
-        "quilt-26.1.1" = _5RtcjDmI;
-        "quilt-26.1.2" = _5RtcjDmI;
-        "quilt-26.2" = _9XHUi1Hu;
-        "forge-26.1" = _3mOEv1Hd;
-        "forge-26.1.1" = _3mOEv1Hd;
-        "forge-26.1.2" = _3mOEv1Hd;
-        "forge-26.2" = _LGwie5zZ;
-        "neoforge-26.1" = _Cse6INtK;
-        "neoforge-26.1.1" = _Cse6INtK;
-        "neoforge-26.1.2" = _Cse6INtK;
-        "neoforge-26.2" = _oXA0U8oD;
+        "quilt-26.1" = _DYaQQBiQ;
+        "quilt-26.1.1" = _DYaQQBiQ;
+        "quilt-26.1.2" = _DYaQQBiQ;
+        "quilt-26.2" = _PxZPDukH;
+        "quilt-26.3" = _OAkbMO3w;
+        "forge-26.1" = _n4ThDM17;
+        "forge-26.1.1" = _n4ThDM17;
+        "forge-26.1.2" = _n4ThDM17;
+        "forge-26.2" = _tsHm7gkG;
+        "forge-26.3" = _K3c65DM8;
+        "neoforge-26.1" = _tOtAR2U4;
+        "neoforge-26.1.1" = _tOtAR2U4;
+        "neoforge-26.1.2" = _tOtAR2U4;
+        "neoforge-26.2" = _kQe0oimy;
+        "neoforge-26.3" = _Oea858bg;
         "pkg-1.0.0" = _2Aap97V6;
         "pkg-1.0.1" = _FAyOlqbz;
         "pkg-1.0.2+1.19" = _MqpshoGZ;
@@ -313,7 +383,18 @@ let
         "pkg-2.0.1+26.2-forge" = _LGwie5zZ;
         "pkg-2.0.1+26.2-neoforge" = _oXA0U8oD;
         "pkg-2.0.1+26.2-fabric" = _9XHUi1Hu;
-        "default" = _9XHUi1Hu;
+        "pkg-2.0.2+26.1-forge" = _n4ThDM17;
+        "pkg-2.0.2+26.1-neoforge" = _tOtAR2U4;
+        "pkg-2.0.2+26.1-fabric" = _DYaQQBiQ;
+        "pkg-2.0.2+26.2-forge" = _tsHm7gkG;
+        "pkg-2.0.2+26.2-neoforge" = _kQe0oimy;
+        "pkg-2.0.2+26.2-fabric" = _PxZPDukH;
+        "pkg-2.0.2+26.3-neoforge" = _vYgSNpEY;
+        "pkg-2.0.2+26.3-fabric" = _5ltmMuRF;
+        "pkg-2.0.3+26.3-neoforge" = _Oea858bg;
+        "pkg-2.0.3+26.3-fabric" = _OAkbMO3w;
+        "pkg-2.0.3+26.3-forge" = _K3c65DM8;
+        "default" = _K3c65DM8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "inventory-management";

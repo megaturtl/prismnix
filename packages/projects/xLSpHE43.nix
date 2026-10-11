@@ -201,6 +201,16 @@ let
             "file" = "EnchantmentInsights-v26.2.3-mc26.2.x-NeoForge.jar";
             "hash" = "sha512-QCoZKteWjyRVWgTSUzmnnasGHgr+20ERNnofmjgHpF3j3XChX41UUCDemp1JtEM+43wQxXCJfsuFNUx2ywV+Pg==";
         };
+        _YnU4wYuF = {
+            "id" = "YnU4wYuF";
+            "file" = "enchantmentinsights-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-XkzhwJ0a1vdp+LgPCBaKokImVTs9aML84M31civygVpXdg4ZA1eDuRkgXiETGN51SkLmlZUIku258o7+ddet3g==";
+        };
+        _y8IuwWv2 = {
+            "id" = "y8IuwWv2";
+            "file" = "enchantmentinsights-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-xB/OHDRROvAw3vpMauX5F6EKIEHih1P+vxVE/lrDPLY0xa3Txs0a1egdqGfDHQLT1+b4tG4Q5NG6iGjxxffw+w==";
+        };
     in {
         "mIpPKNvC" = _mIpPKNvC;
         "EpYkaKqE" = _EpYkaKqE;
@@ -242,6 +252,8 @@ let
         "UsP8KcZq" = _UsP8KcZq;
         "P8CPaUO3" = _P8CPaUO3;
         "Rx7r3kk9" = _Rx7r3kk9;
+        "YnU4wYuF" = _YnU4wYuF;
+        "y8IuwWv2" = _y8IuwWv2;
         "fabric-1.21.8" = _mIpPKNvC;
         "fabric-1.21.10" = _NcBeg5HX;
         "fabric-1.21.11" = _RDTXBhBP;
@@ -250,6 +262,7 @@ let
         "fabric-26.1.2" = _UsP8KcZq;
         "fabric-1.21.1" = _D7bxQmgQ;
         "fabric-26.2" = _P8CPaUO3;
+        "fabric-26.3" = _y8IuwWv2;
         "neoforge-1.21.8" = _EpYkaKqE;
         "neoforge-1.21.10" = _BBcd8lID;
         "neoforge-1.21.11" = _gsbJS9Ds;
@@ -258,6 +271,7 @@ let
         "neoforge-26.1.2" = _D2yTItg6;
         "neoforge-1.21.1" = _WpxqM4fh;
         "neoforge-26.2" = _Rx7r3kk9;
+        "neoforge-26.3" = _YnU4wYuF;
         "pkg-v21.8.1-1.21.8-Fabric" = _mIpPKNvC;
         "pkg-v21.8.1-1.21.8-NeoForge" = _EpYkaKqE;
         "pkg-21.10.0" = _UfM1JDe5;
@@ -279,7 +293,8 @@ let
         "pkg-21.1.5" = _D7bxQmgQ;
         "pkg-26.1.3" = _UsP8KcZq;
         "pkg-26.2.3" = _Rx7r3kk9;
-        "default" = _Rx7r3kk9;
+        "pkg-26.3.0" = _y8IuwWv2;
+        "default" = _y8IuwWv2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchantment-insights";

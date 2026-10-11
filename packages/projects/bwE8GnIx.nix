@@ -26,21 +26,29 @@ let
             "file" = "girlfriend-mod-2.1.0.jar";
             "hash" = "sha512-x/3KOqty/NYOiot1sA9i7RfkrMdj6AbuFjr4wtM7EQbUsUXtcwenBDcY9Dil/uhxwyVlyo2/ljJoZq2qC2+9JA==";
         };
+        _C8CFBYi0 = {
+            "id" = "C8CFBYi0";
+            "file" = "girlfriend-mod-2.2.0.jar";
+            "hash" = "sha512-ucEWazq8DofCKBiUEqQHyWzA/R4NDMYM/ODxwg2aG6q6C334EM81Ho6DWQXxSICJ7YQhqpaiMOZfZNoXcM02eQ==";
+        };
     in {
         "HdKc1tgJ" = _HdKc1tgJ;
         "occ7hxwl" = _occ7hxwl;
         "ftcch82j" = _ftcch82j;
         "b8wBJHCf" = _b8wBJHCf;
         "XYUt8wpc" = _XYUt8wpc;
+        "C8CFBYi0" = _C8CFBYi0;
         "fabric-1.21.9" = _HdKc1tgJ;
         "fabric-1.21.10" = _HdKc1tgJ;
         "fabric-1.21.11" = _ftcch82j;
         "fabric-26.1.1" = _XYUt8wpc;
         "fabric-26.1.2" = _XYUt8wpc;
+        "fabric-26.3" = _C8CFBYi0;
         "pkg-1.0.0" = _XYUt8wpc;
         "pkg-1.0.1" = _occ7hxwl;
         "pkg-2.0.0" = _ftcch82j;
-        "default" = _XYUt8wpc;
+        "pkg-2.2.0" = _C8CFBYi0;
+        "default" = _C8CFBYi0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "girlfriend";

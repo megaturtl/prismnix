@@ -171,6 +171,16 @@ let
             "file" = "light-overlay-2.12.0+26.2.jar";
             "hash" = "sha512-lnPzTTVvW+LvH91OhExf8tDt9z5vy9XkYxNpCaxk5sSbCE76zjtreMUO09aDR2xAcfMuBYYj+MBmY0POVUvWYg==";
         };
+        _miOvpon4 = {
+            "id" = "miOvpon4";
+            "file" = "light-overlay-2.12.0+26.3.jar";
+            "hash" = "sha512-AjJ47IdNN5ogrqHWx72EAn4rayJbWN23MNTxazzFK0X2RCVe39LWQzgxCqRGZKF6/6iHQTQ4W2d2OO1G2cIQiw==";
+        };
+        _AmDFFQBg = {
+            "id" = "AmDFFQBg";
+            "file" = "light-overlay-2.13.0+26.3.jar";
+            "hash" = "sha512-KCIsnxAF8xBleELX5hQO/PWjaWjPIZsgpHBX1ak1UXfaLY450Sk8HMyYwHgHpTk+PkrVWS1nCjqEd7btSM2XdA==";
+        };
     in {
         "D56GKsHd" = _D56GKsHd;
         "OsX6wHWd" = _OsX6wHWd;
@@ -206,6 +216,8 @@ let
         "gm415N8d" = _gm415N8d;
         "2H2mtn8q" = _2H2mtn8q;
         "AT01Q5uN" = _AT01Q5uN;
+        "miOvpon4" = _miOvpon4;
+        "AmDFFQBg" = _AmDFFQBg;
         "fabric-1.21.9" = _i5M1dSjM;
         "fabric-1.21.6" = _AXJyclVl;
         "fabric-1.21.7" = _AXJyclVl;
@@ -217,6 +229,7 @@ let
         "fabric-26.1.1" = _Nh5BO6yG;
         "fabric-26.1.2" = _Nh5BO6yG;
         "fabric-26.2" = _AT01Q5uN;
+        "fabric-26.3" = _AmDFFQBg;
         "pkg-1.0.0-1.21.9" = _D56GKsHd;
         "pkg-1.0.0-1.21.6-1.21.8" = _OsX6wHWd;
         "pkg-1.1.0-1.21.9" = _hu1ozhzZ;
@@ -251,7 +264,9 @@ let
         "pkg-2.11.0+26.2" = _gm415N8d;
         "pkg-2.11.1+26.2" = _2H2mtn8q;
         "pkg-2.12.0+26.2" = _AT01Q5uN;
-        "default" = _AT01Q5uN;
+        "pkg-2.12.0+26.3" = _miOvpon4;
+        "pkg-2.13.0+26.3" = _AmDFFQBg;
+        "default" = _AmDFFQBg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lightoverlay";

@@ -41,6 +41,16 @@ let
             "file" = "scplockdown-1.20.1-3.0.0-alpha.26w06a.jar";
             "hash" = "sha512-eOV++lPI1GoB4MBaXf00j7BYrP+AHgcLhfnTKCGIeCn1qW3NL5ob07tlxg75is9DLhjeexLNbWXL5qAzIBU4GQ==";
         };
+        _L3tkHEx0 = {
+            "id" = "L3tkHEx0";
+            "file" = "scplockdown-1.20.1-3.0.0-alpha.26w41a.jar";
+            "hash" = "sha512-/S+TU99S4vm/u5cxKmu9viW7VBlqHihGXczfTO1aXWsnabdutgkQ64ID8DqOh5Y+mAYmgI7fsZ+aCcM94fzofA==";
+        };
+        _AMs29ehq = {
+            "id" = "AMs29ehq";
+            "file" = "scplockdown-1.20.1-3.0.0-alpha.26w41b.jar";
+            "hash" = "sha512-bgrWvSORHXuabgOxhO01DZQvSG8EBgqiXuqoxC0CGoE50yQRr2SZJfHt6YUYv+Tk0ygzecPVRwGdE2ZhDcMebA==";
+        };
     in {
         "8JZ9wwqn" = _8JZ9wwqn;
         "jXgoEbu3" = _jXgoEbu3;
@@ -50,9 +60,11 @@ let
         "Jm8viCHu" = _Jm8viCHu;
         "qdvq5Wfp" = _qdvq5Wfp;
         "EWb8UFr4" = _EWb8UFr4;
+        "L3tkHEx0" = _L3tkHEx0;
+        "AMs29ehq" = _AMs29ehq;
         "forge-1.12.2" = _8JZ9wwqn;
         "forge-1.16.5" = _nxHEru7I;
-        "forge-1.20.1" = _EWb8UFr4;
+        "forge-1.20.1" = _AMs29ehq;
         "pkg-2.4.3" = _8JZ9wwqn;
         "pkg-3.0.0-alpha.25w23a" = _jXgoEbu3;
         "pkg-3.0.0-alpha.25w25a" = _nxHEru7I;
@@ -61,7 +73,9 @@ let
         "pkg-3.0.0-alpha.26w02a" = _Jm8viCHu;
         "pkg-3.0.0-alpha.26w04a" = _qdvq5Wfp;
         "pkg-3.0.0-alpha.26w06a" = _EWb8UFr4;
-        "default" = _EWb8UFr4;
+        "pkg-1.20.1-3.0.0-alpha.26w41a" = _L3tkHEx0;
+        "pkg-1.20.1-3.0.0-alpha.26w41b" = _AMs29ehq;
+        "default" = _AMs29ehq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "scp-lockdown";

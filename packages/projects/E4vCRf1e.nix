@@ -86,6 +86,16 @@ let
             "file" = "dinobriks-rum-2.2.jar";
             "hash" = "sha512-b8wWAfEg8N9K5yzrYmcYYiI/A6AraZDZnEWG0I8SFnpClTYk5iX6a012RCFUOHlxndwNITxSbYjWX0YutG0ZVg==";
         };
+        _PoB9tjlo = {
+            "id" = "PoB9tjlo";
+            "file" = "DinoBriks Rum - DP V 2.2.1 (26.3).zip";
+            "hash" = "sha512-6jlZF6IMeu0ER8eD0c6Hc4Yawo3UkPR32bRDayKbE6GB8s8HaMyop8gfr3CxwdL0Vljk6sJ0QAP3C5gdq0AS9w==";
+        };
+        _QjG8moto = {
+            "id" = "QjG8moto";
+            "file" = "dinobriks-rum-2.2.1.jar";
+            "hash" = "sha512-klx/y5tZcRlkjusZl5NY/IxJQjYrTfzVv7QkpY1mHM0z3ALzWEehKvl0j4wQRDmCVM54T13dCd5xhs9xiLn2bA==";
+        };
     in {
         "MwmP2TaV" = _MwmP2TaV;
         "c786dGL5" = _c786dGL5;
@@ -104,6 +114,8 @@ let
         "yDmmN7Mz" = _yDmmN7Mz;
         "VjgVnjOT" = _VjgVnjOT;
         "URAa7vCz" = _URAa7vCz;
+        "PoB9tjlo" = _PoB9tjlo;
+        "QjG8moto" = _QjG8moto;
         "datapack-1.21" = _yrAj3kQo;
         "datapack-1.21.1" = _yrAj3kQo;
         "datapack-1.21.2" = _y0C25752;
@@ -120,6 +132,7 @@ let
         "datapack-26.1.1" = _VjgVnjOT;
         "datapack-26.1.2" = _VjgVnjOT;
         "datapack-26.2" = _VjgVnjOT;
+        "datapack-26.3" = _PoB9tjlo;
         "fabric-1.21" = _c786dGL5;
         "fabric-1.21.1" = _c786dGL5;
         "fabric-1.21.2" = _UF3kKS0o;
@@ -130,6 +143,7 @@ let
         "fabric-26.1.1" = _URAa7vCz;
         "fabric-26.1.2" = _URAa7vCz;
         "fabric-26.2" = _URAa7vCz;
+        "fabric-26.3" = _QjG8moto;
         "forge-1.21" = _c786dGL5;
         "forge-1.21.1" = _c786dGL5;
         "forge-1.21.2" = _UF3kKS0o;
@@ -140,6 +154,7 @@ let
         "forge-26.1.1" = _URAa7vCz;
         "forge-26.1.2" = _URAa7vCz;
         "forge-26.2" = _URAa7vCz;
+        "forge-26.3" = _QjG8moto;
         "neoforge-1.21" = _c786dGL5;
         "neoforge-1.21.1" = _c786dGL5;
         "neoforge-1.21.2" = _UF3kKS0o;
@@ -150,6 +165,7 @@ let
         "neoforge-26.1.1" = _URAa7vCz;
         "neoforge-26.1.2" = _URAa7vCz;
         "neoforge-26.2" = _URAa7vCz;
+        "neoforge-26.3" = _QjG8moto;
         "quilt-1.21" = _c786dGL5;
         "quilt-1.21.1" = _c786dGL5;
         "quilt-1.21.2" = _UF3kKS0o;
@@ -160,6 +176,7 @@ let
         "quilt-26.1.1" = _URAa7vCz;
         "quilt-26.1.2" = _URAa7vCz;
         "quilt-26.2" = _URAa7vCz;
+        "quilt-26.3" = _QjG8moto;
         "pkg-2.0" = _MwmP2TaV;
         "pkg-2.0+mod" = _c786dGL5;
         "pkg-2.0.2" = _yrAj3kQo;
@@ -177,7 +194,9 @@ let
         "pkg-2.1.1.1+mod" = _yDmmN7Mz;
         "pkg-2.2" = _VjgVnjOT;
         "pkg-2.2+mod" = _URAa7vCz;
-        "default" = _URAa7vCz;
+        "pkg-2.2.1" = _PoB9tjlo;
+        "pkg-2.2.1+mod" = _QjG8moto;
+        "default" = _QjG8moto;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dinobriks-rum";

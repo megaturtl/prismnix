@@ -81,6 +81,11 @@ let
             "file" = "azmine-endpoint-bukkit-modern.jar";
             "hash" = "sha512-xzkLfDIS/pnRfpYbA7jBWfrEE6/kyL6AaBNNkGC/QG3MPXFqfOYxzB/1eaJRf27S2fkWgtxoQOffjeX+gcSh0g==";
         };
+        _k7JcZJW8 = {
+            "id" = "k7JcZJW8";
+            "file" = "azmine-2.2.2+mc1.12.2-forge.jar";
+            "hash" = "sha512-z+L1LXXLgldSw6/Pyq+xr/bu6864yk/AToGjMwmlHO3nraIPoxmkJHr46fLr/a1oP6g/RP01/yc1DAk4FRBEVA==";
+        };
     in {
         "nCDbttyK" = _nCDbttyK;
         "NAuXxVuF" = _NAuXxVuF;
@@ -98,8 +103,9 @@ let
         "HCO6sy2o" = _HCO6sy2o;
         "eMQmAGIQ" = _eMQmAGIQ;
         "5L9AKMmw" = _5L9AKMmw;
+        "k7JcZJW8" = _k7JcZJW8;
         "forge-1.20.1" = _HCO6sy2o;
-        "forge-1.12.2" = _MPyZPOEc;
+        "forge-1.12.2" = _k7JcZJW8;
         "neoforge-1.21.1" = _FatSy6Ok;
         "fabric-1.20.1" = _2vv6oTPz;
         "fabric-1.21.1" = _8hoNdcRV;
@@ -185,7 +191,8 @@ let
         "pkg-2.1.1" = _HShdSFwa;
         "pkg-2.2.1" = _HCO6sy2o;
         "pkg-1.0.0" = _5L9AKMmw;
-        "default" = _5L9AKMmw;
+        "pkg-2.2.2" = _k7JcZJW8;
+        "default" = _k7JcZJW8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "azmine";

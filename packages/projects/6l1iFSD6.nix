@@ -46,6 +46,16 @@ let
             "file" = "light-it-up-atlasplays-1.4.0.jar";
             "hash" = "sha512-6syuM+mq985JaczDTKHZX4sYNlvd1w0WRnUeYpYVfjdmqrK7XxPmmtG3DtVTuDYH1oZE8/1A5GhRbEeKY/4+tg==";
         };
+        _wAK5NBoq = {
+            "id" = "wAK5NBoq";
+            "file" = "Light It Up v1.5.0.zip";
+            "hash" = "sha512-E9NIJdGt4NVXYZKOAEvN5WlM9+iQPefxoYFTg2JxD9Ghf9lbQdZoPi5pvgKN9GEVxZhnzu9CaauJhfuDxGBX3w==";
+        };
+        _SthJSFI8 = {
+            "id" = "SthJSFI8";
+            "file" = "light-it-up-atlasplays-1.5.0.jar";
+            "hash" = "sha512-sqp/V/xTwU+QS8PY+k6kZc2h1FDnIYepLneXEAv1CupmPZn3WKIvkobGfOmgy10NK+blvGjOOtSnjlCHv/ZyDg==";
+        };
     in {
         "AfuHRTf9" = _AfuHRTf9;
         "Pu0kEDLL" = _Pu0kEDLL;
@@ -56,6 +66,8 @@ let
         "bPuODpYE" = _bPuODpYE;
         "be92mLOa" = _be92mLOa;
         "sdB5nI0c" = _sdB5nI0c;
+        "wAK5NBoq" = _wAK5NBoq;
+        "SthJSFI8" = _SthJSFI8;
         "datapack-1.19.4" = _AfuHRTf9;
         "datapack-1.20" = _AfuHRTf9;
         "datapack-1.20.1" = _AfuHRTf9;
@@ -70,6 +82,7 @@ let
         "datapack-1.21.7" = _be92mLOa;
         "datapack-1.21.8" = _be92mLOa;
         "datapack-1.21.9" = _be92mLOa;
+        "datapack-26.3" = _wAK5NBoq;
         "fabric-1.21" = _VtsCIcZN;
         "fabric-1.21.1" = _hHei3PLE;
         "fabric-1.21.4" = _hHei3PLE;
@@ -78,6 +91,7 @@ let
         "fabric-1.21.7" = _sdB5nI0c;
         "fabric-1.21.8" = _sdB5nI0c;
         "fabric-1.21.9" = _sdB5nI0c;
+        "fabric-26.3" = _SthJSFI8;
         "forge-1.21" = _VtsCIcZN;
         "forge-1.21.1" = _hHei3PLE;
         "forge-1.21.4" = _hHei3PLE;
@@ -86,6 +100,7 @@ let
         "forge-1.21.7" = _sdB5nI0c;
         "forge-1.21.8" = _sdB5nI0c;
         "forge-1.21.9" = _sdB5nI0c;
+        "forge-26.3" = _SthJSFI8;
         "neoforge-1.21" = _VtsCIcZN;
         "neoforge-1.21.1" = _hHei3PLE;
         "neoforge-1.21.4" = _hHei3PLE;
@@ -94,6 +109,7 @@ let
         "neoforge-1.21.7" = _sdB5nI0c;
         "neoforge-1.21.8" = _sdB5nI0c;
         "neoforge-1.21.9" = _sdB5nI0c;
+        "neoforge-26.3" = _SthJSFI8;
         "quilt-1.21" = _VtsCIcZN;
         "quilt-1.21.1" = _hHei3PLE;
         "quilt-1.21.4" = _hHei3PLE;
@@ -102,6 +118,7 @@ let
         "quilt-1.21.7" = _sdB5nI0c;
         "quilt-1.21.8" = _sdB5nI0c;
         "quilt-1.21.9" = _sdB5nI0c;
+        "quilt-26.3" = _SthJSFI8;
         "pkg-1.0.0" = _AfuHRTf9;
         "pkg-1.1.0" = _Pu0kEDLL;
         "pkg-1.1.0+mod" = _VtsCIcZN;
@@ -111,7 +128,9 @@ let
         "pkg-1.3.0+mod" = _bPuODpYE;
         "pkg-1.4.0" = _be92mLOa;
         "pkg-1.4.0+mod" = _sdB5nI0c;
-        "default" = _sdB5nI0c;
+        "pkg-1.5.0" = _wAK5NBoq;
+        "pkg-1.5.0+mod" = _SthJSFI8;
+        "default" = _SthJSFI8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "light-it-up-atlasplays";

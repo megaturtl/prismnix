@@ -36,6 +36,11 @@ let
             "file" = "ferrite-0.7.3-alpha+26.2.jar";
             "hash" = "sha512-4kslXA/smnlp9G95TqiQD9Ab54T2ME69Yr4CV3ZMNKbWSBaIn4s2e3+r51QNk7ahaI/QIuwpQ0UN2AK/xOrJkA==";
         };
+        _UhO60CKq = {
+            "id" = "UhO60CKq";
+            "file" = "ferrite-0.7.4-alpha+26.3.jar";
+            "hash" = "sha512-0hG0EpS5m0B3qaiCcvkALDDgNR0gygl4Dcwxt7qftmxzxUJouo4YHW7aRkI3Hpo33h+KPBx4YPwyHLtvgrI67g==";
+        };
     in {
         "hn4RMsUI" = _hn4RMsUI;
         "7IPSC6tn" = _7IPSC6tn;
@@ -44,9 +49,11 @@ let
         "PTsR1ac6" = _PTsR1ac6;
         "dJAkJVrU" = _dJAkJVrU;
         "bnfACxd6" = _bnfACxd6;
+        "UhO60CKq" = _UhO60CKq;
         "fabric-26.1.2" = _LUgqYseL;
         "fabric-26.1.1" = _LUgqYseL;
         "fabric-26.2" = _bnfACxd6;
+        "fabric-26.3" = _UhO60CKq;
         "pkg-0.6.3-alpha" = _hn4RMsUI;
         "pkg-0.6.4-alpha+26.1.2" = _7IPSC6tn;
         "pkg-0.6.5-alpha+26.1.2" = _ziBh6Uje;
@@ -54,7 +61,8 @@ let
         "pkg-0.7.1-alpha+26.2" = _PTsR1ac6;
         "pkg-0.7.2-alpha+26.2" = _dJAkJVrU;
         "pkg-0.7.3-alpha+26.2" = _bnfACxd6;
-        "default" = _bnfACxd6;
+        "pkg-0.7.4-alpha+26.3" = _UhO60CKq;
+        "default" = _UhO60CKq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ferrite";

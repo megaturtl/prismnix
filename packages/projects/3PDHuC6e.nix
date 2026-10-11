@@ -71,6 +71,16 @@ let
             "file" = "chunk-pregenerator-1.1.jar";
             "hash" = "sha512-HSHRyhsUM+C+SsSTBhhXuatUVOB6ZMkL+q2O8VuM4xUvGvLxg2bqPAF/aCE4kVTFGS3UhD2FkZnGnnWqvgNJQw==";
         };
+        _4V1Jwqn5 = {
+            "id" = "4V1Jwqn5";
+            "file" = "Chunk Pregenerator DP (v1.1) [26.3].zip";
+            "hash" = "sha512-I26vd2HlP1Eaj5NIJm+akLmMvwu+l1SwEmJOjgYn4Pe0mWk9hO1DZue5plGTx9ocQkN8oX0JSxltvnIp2Wegeg==";
+        };
+        _72nJQHtR = {
+            "id" = "72nJQHtR";
+            "file" = "chunk-pregenerator-1.1-26.3.jar";
+            "hash" = "sha512-/hKXpWHFmSt0FyqKptHSSendurQvHhWiLJI/6i9QQKD+Hb/TMb8mzqv1DlsHHyl381JZFaPrOwgv0xwwrTPxsA==";
+        };
     in {
         "dzYiUZYl" = _dzYiUZYl;
         "FzOfV9GD" = _FzOfV9GD;
@@ -86,6 +96,8 @@ let
         "ck8YFs8s" = _ck8YFs8s;
         "6vpypqJn" = _6vpypqJn;
         "d0MgHvpm" = _d0MgHvpm;
+        "4V1Jwqn5" = _4V1Jwqn5;
+        "72nJQHtR" = _72nJQHtR;
         "datapack-1.21.5" = _cu6mSLoD;
         "datapack-1.21.6" = _cu6mSLoD;
         "datapack-1.21.7" = _cu6mSLoD;
@@ -97,6 +109,7 @@ let
         "datapack-26.1.1" = _6vpypqJn;
         "datapack-26.1.2" = _6vpypqJn;
         "datapack-26.2" = _6vpypqJn;
+        "datapack-26.3" = _4V1Jwqn5;
         "fabric-1.21.9" = _d0MgHvpm;
         "fabric-1.21.5" = _UZSHvZVD;
         "fabric-1.21.6" = _UZSHvZVD;
@@ -108,6 +121,7 @@ let
         "fabric-26.1.1" = _d0MgHvpm;
         "fabric-26.1.2" = _d0MgHvpm;
         "fabric-26.2" = _d0MgHvpm;
+        "fabric-26.3" = _72nJQHtR;
         "forge-1.21.9" = _d0MgHvpm;
         "forge-1.21.5" = _UZSHvZVD;
         "forge-1.21.6" = _UZSHvZVD;
@@ -119,6 +133,7 @@ let
         "forge-26.1.1" = _d0MgHvpm;
         "forge-26.1.2" = _d0MgHvpm;
         "forge-26.2" = _d0MgHvpm;
+        "forge-26.3" = _72nJQHtR;
         "neoforge-1.21.9" = _d0MgHvpm;
         "neoforge-1.21.5" = _UZSHvZVD;
         "neoforge-1.21.6" = _UZSHvZVD;
@@ -130,6 +145,7 @@ let
         "neoforge-26.1.1" = _d0MgHvpm;
         "neoforge-26.1.2" = _d0MgHvpm;
         "neoforge-26.2" = _d0MgHvpm;
+        "neoforge-26.3" = _72nJQHtR;
         "quilt-1.21.9" = _d0MgHvpm;
         "quilt-1.21.5" = _UZSHvZVD;
         "quilt-1.21.6" = _UZSHvZVD;
@@ -141,11 +157,13 @@ let
         "quilt-26.1.1" = _d0MgHvpm;
         "quilt-26.1.2" = _d0MgHvpm;
         "quilt-26.2" = _d0MgHvpm;
+        "quilt-26.3" = _72nJQHtR;
         "pkg-1.0" = _OA5f3fUi;
         "pkg-1.0+mod" = _yRKYV1C9;
-        "pkg-1.1" = _6vpypqJn;
+        "pkg-1.1" = _4V1Jwqn5;
         "pkg-1.1+mod" = _d0MgHvpm;
-        "default" = _d0MgHvpm;
+        "pkg-1.1-mod" = _72nJQHtR;
+        "default" = _72nJQHtR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chunk-pregenerator";

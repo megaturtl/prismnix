@@ -26,12 +26,18 @@ let
             "file" = "smallhands-26.+.jar";
             "hash" = "sha512-b2i+bUxyJQoucTX9v+8RmY147/aZe/kwRPVioiIK3whZ3GMNWrscBjaE8qeULQpQ9RJlloiLKgNe2YSB8OU/7g==";
         };
+        _ZyAyICrM = {
+            "id" = "ZyAyICrM";
+            "file" = "smallhands-26.3.jar";
+            "hash" = "sha512-FQ3Dirfv5zycVhSYf5+55Kh9VEoVWhv2a445eHc1hjJ/sX5l+jylE3BAmR72QHKUJw9i8znh6ngfq9KzCSP7Sg==";
+        };
     in {
         "SeWF7JWQ" = _SeWF7JWQ;
         "n3JiwLQP" = _n3JiwLQP;
         "u1xDOxVs" = _u1xDOxVs;
         "oO030Ff9" = _oO030Ff9;
         "DpoWAciN" = _DpoWAciN;
+        "ZyAyICrM" = _ZyAyICrM;
         "fabric-1.21.8" = _SeWF7JWQ;
         "fabric-1.21.9" = _n3JiwLQP;
         "fabric-1.21.10" = _u1xDOxVs;
@@ -40,12 +46,14 @@ let
         "fabric-26.1.1" = _DpoWAciN;
         "fabric-26.1.2" = _DpoWAciN;
         "fabric-26.2" = _DpoWAciN;
+        "fabric-26.3" = _ZyAyICrM;
         "pkg-1.21.8" = _SeWF7JWQ;
         "pkg-1.21.9" = _n3JiwLQP;
         "pkg-1.21.10" = _u1xDOxVs;
         "pkg-1.21.11" = _oO030Ff9;
         "pkg-26.+" = _DpoWAciN;
-        "default" = _DpoWAciN;
+        "pkg-26.3" = _ZyAyICrM;
+        "default" = _ZyAyICrM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "small-items-mod";

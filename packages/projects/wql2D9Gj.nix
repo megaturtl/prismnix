@@ -551,6 +551,16 @@ let
             "file" = "overlaytweaks-2.0.0+26.2-fabric.jar";
             "hash" = "sha512-Qulfl/9JmfyE3mzS+yzct9cAzIE2pnAdiIwuPbiFcqAOjZNo2kltAXskvKrArUWMi1NAGE/77Qvc+eNGAqP3Mw==";
         };
+        _IRltw5NB = {
+            "id" = "IRltw5NB";
+            "file" = "overlaytweaks-2.0.1+26.3-fabric.jar";
+            "hash" = "sha512-bIFnJAlU2MVap1dqoM6Nz01YgSDL6W3n5VHJ7VvBOjeVDnI3bEp8WqW4FZWYr9Sd7X85H9ge1aj/tw3rKdmxQA==";
+        };
+        _Ux9YRGsA = {
+            "id" = "Ux9YRGsA";
+            "file" = "overlaytweaks-2.0.1+1.8.9-fabric.jar";
+            "hash" = "sha512-oT2GKT8/AHI40z66Ujepnfw4weGsbO2z8vlsSY2YDZLkP73cCfrPLFUP8Ge/JgIA2toZ1cYUpYVAXkdx5/nsjQ==";
+        };
     in {
         "L7w9qQAM" = _L7w9qQAM;
         "flV2OfCE" = _flV2OfCE;
@@ -662,6 +672,8 @@ let
         "WcQvgPKt" = _WcQvgPKt;
         "xbF41DAX" = _xbF41DAX;
         "MUjUnbvD" = _MUjUnbvD;
+        "IRltw5NB" = _IRltw5NB;
+        "Ux9YRGsA" = _Ux9YRGsA;
         "fabric-1.20" = _Ji1T2nDr;
         "fabric-1.20.1" = _Ji1T2nDr;
         "fabric-1.19.4" = _BABL65wU;
@@ -683,11 +695,13 @@ let
         "fabric-26.1.1" = _WcQvgPKt;
         "fabric-26.1.2" = _WcQvgPKt;
         "fabric-26.2" = _MUjUnbvD;
+        "fabric-26.3" = _IRltw5NB;
         "neoforge-1.21.2" = _6jlNZxKJ;
         "neoforge-1.21.3" = _6jlNZxKJ;
         "neoforge-1.21.4" = _esjQ7lUT;
         "neoforge-1.21.5" = _FgAlVDDT;
         "neoforge-1.21.8" = _gVGvHh3S;
+        "ornithe-1.8.9" = _Ux9YRGsA;
         "pkg-1.0.0" = _flV2OfCE;
         "pkg-1.0.1" = _Qv7dGmAe;
         "pkg-1.0.2" = _ALW83T3R;
@@ -751,7 +765,8 @@ let
         "pkg-1.12.14" = _WcQvgPKt;
         "pkg-1.12.15" = _xbF41DAX;
         "pkg-2.0.0" = _MUjUnbvD;
-        "default" = _MUjUnbvD;
+        "pkg-2.0.1" = _Ux9YRGsA;
+        "default" = _Ux9YRGsA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "overlaytweaks";

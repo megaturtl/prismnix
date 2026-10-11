@@ -191,6 +191,11 @@ let
             "file" = "SMART PVP PACK[2.11][26.2].zip";
             "hash" = "sha512-khzdVDmQzh7GA/yw+5X0HjQSGY3SzRZLMHQFSDLlvgwz9cm4l5eanx7OjLIuETjJsBZkuM3lcbILK+2ARPXwGg==";
         };
+        _ajlECHB1 = {
+            "id" = "ajlECHB1";
+            "file" = "SMART PVP PACK[2.11][26.3].zip";
+            "hash" = "sha512-TnwswiCTooZD+QHHO+CHWMo2jNNzJAA2PJG+W/cRVmnH7fIQInejGTwpQnYfJJNZAmQuXQIP+LQBbG5Nx5gT8g==";
+        };
     in {
         "3nzDRr29" = _3nzDRr29;
         "R1fMxtyR" = _R1fMxtyR;
@@ -230,6 +235,7 @@ let
         "IIuI2uUf" = _IIuI2uUf;
         "NyGMo64b" = _NyGMo64b;
         "UDKBDQVo" = _UDKBDQVo;
+        "ajlECHB1" = _ajlECHB1;
         "minecraft-1.16.2" = _YP0xPqYP;
         "minecraft-1.16.3" = _YP0xPqYP;
         "minecraft-1.16.4" = _YP0xPqYP;
@@ -269,6 +275,10 @@ let
         "minecraft-26.1.1" = _NyGMo64b;
         "minecraft-26.1.2" = _NyGMo64b;
         "minecraft-26.2" = _UDKBDQVo;
+        "minecraft-26.3" = _ajlECHB1;
+        "minecraft-26.4-snapshot-1" = _ajlECHB1;
+        "minecraft-26.4-snapshot-2" = _ajlECHB1;
+        "minecraft-26.4-snapshot-3" = _ajlECHB1;
         "pkg-1.16-1.16.5" = _3nzDRr29;
         "pkg-1.17-1.17.1" = _R1fMxtyR;
         "pkg-1.18-1.18.2" = _ChXOZN7D;
@@ -288,8 +298,8 @@ let
         "pkg-1.21.6" = _ooamcy9Q;
         "pkg-2.0" = _S7mXM0ko;
         "pkg-2.1" = _IIuI2uUf;
-        "pkg-2.11" = _UDKBDQVo;
-        "default" = _UDKBDQVo;
+        "pkg-2.11" = _ajlECHB1;
+        "default" = _ajlECHB1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "smart-pvp-pack";

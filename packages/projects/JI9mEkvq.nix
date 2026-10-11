@@ -411,6 +411,26 @@ let
             "file" = "arts_and_crafts-fabric-1.20.1-1.5.4.jar";
             "hash" = "sha512-N5nJ3GOM7UxtNTBZVe1dL+f7qzFgKISzLXXkhJV94oIuL0zb/yvGZyrCBmCy4OsHi/L9AqORY4fNlgpb1llpHg==";
         };
+        _PGhVo13l = {
+            "id" = "PGhVo13l";
+            "file" = "arts_and_crafts-fabric-1.21.11-1.6.0-beta.jar";
+            "hash" = "sha512-25eeHJ8dB4SKqGTflibyuTOKvRhwSz0kB7CIuIK7Vo5JldU45lPYt1hy6CncyMkc+c5luseHyp+NEn3uZdfU3g==";
+        };
+        _O9u5ZcQh = {
+            "id" = "O9u5ZcQh";
+            "file" = "arts_and_crafts-neoforge-1.21.11-1.6.0-beta.jar";
+            "hash" = "sha512-G1lggtk/vPl24V5ba9HIk9CA/77fhWf40BdFWNVvtfXYE95I56Q6FcnLAEd2twwrUVgMHu7mc09KMUfGRt7oLw==";
+        };
+        _R9LhGHlU = {
+            "id" = "R9LhGHlU";
+            "file" = "arts_and_crafts-neoforge-26.1.2-1.6.0-beta.jar";
+            "hash" = "sha512-LYQByXVTTP7ryxYIPrDl4Hexf6eQ3CVUQ/8bd9CKQS5XHGGQhsa/7Hyu2PrcL7uNY+A6qNh+4HJmvdsCsKGuQw==";
+        };
+        _lyexkio8 = {
+            "id" = "lyexkio8";
+            "file" = "arts_and_crafts-fabric-26.1.2-1.6.0-beta.jar";
+            "hash" = "sha512-BxsYC20tfShTSGBrMqZHfOcoEGNOoXACYIvhEgqux8w0PtzvFeihAqiUbu4dZte2M6gh+mxnLGWcfVB/bChzuQ==";
+        };
     in {
         "FN4ITpvV" = _FN4ITpvV;
         "lhVs3UF0" = _lhVs3UF0;
@@ -494,16 +514,26 @@ let
         "9uKP9W23" = _9uKP9W23;
         "BhWxJI1t" = _BhWxJI1t;
         "7XVwJ4Ps" = _7XVwJ4Ps;
+        "PGhVo13l" = _PGhVo13l;
+        "O9u5ZcQh" = _O9u5ZcQh;
+        "R9LhGHlU" = _R9LhGHlU;
+        "lyexkio8" = _lyexkio8;
         "fabric-1.20.1" = _7XVwJ4Ps;
         "fabric-1.21" = _K9F1Ihn0;
         "fabric-1.21.1" = _9uKP9W23;
+        "fabric-1.21.11" = _PGhVo13l;
+        "fabric-26.1.2" = _lyexkio8;
         "quilt-1.20.1" = _7XVwJ4Ps;
         "quilt-1.21" = _K9F1Ihn0;
         "quilt-1.21.1" = _9uKP9W23;
+        "quilt-1.21.11" = _PGhVo13l;
+        "quilt-26.1.2" = _lyexkio8;
         "forge-1.20.1" = _BhWxJI1t;
         "neoforge-1.20.1" = _BhWxJI1t;
         "neoforge-1.21" = _jAKL8DlH;
         "neoforge-1.21.1" = _Aq4HVonr;
+        "neoforge-1.21.11" = _O9u5ZcQh;
+        "neoforge-26.1.2" = _R9LhGHlU;
         "pkg-1.0.0" = _lhVs3UF0;
         "pkg-1.0.1" = _d9VooUrL;
         "pkg-1.0.2" = _kNILl88O;
@@ -531,7 +561,8 @@ let
         "pkg-1.5.2" = _HKIfSd1i;
         "pkg-1.5.3" = _61y93vG7;
         "pkg-1.5.4" = _7XVwJ4Ps;
-        "default" = _7XVwJ4Ps;
+        "pkg-1.6.0-beta" = _lyexkio8;
+        "default" = _lyexkio8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "artsandcrafts";

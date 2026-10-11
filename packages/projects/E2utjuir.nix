@@ -61,6 +61,26 @@ let
             "file" = "nlcmc-0.0.4-neoforge-1.21.1.jar";
             "hash" = "sha512-Eo0RVX6TLr02vKiSrg9AAzSobjpLX+w3fcKAY17VPv+KlF/Ft/JRpIjk09YXw8rinpyXs40GrofzsmPLsDbsHg==";
         };
+        _6lEdvZpH = {
+            "id" = "6lEdvZpH";
+            "file" = "nlcmc-0.0.5.jar";
+            "hash" = "sha512-ncVDTiHCjOeeDgewpUZo/yq2kMob2vl1if/zos4RciGetic3jp5gs0dIjAHs74seOx8rR3J9Vz6gCqca4LypDQ==";
+        };
+        _Z64oX43X = {
+            "id" = "Z64oX43X";
+            "file" = "nlcmc-0.0.5.jar";
+            "hash" = "sha512-B2H6Zu6J8iKEq919ArkU62yk3GscwCLOAzBvUmTlZXZKlmb9NdxICawuPUOrLnWX5C3oZvW2+JHJ6zsLs8kiRw==";
+        };
+        _7rOxMuy2 = {
+            "id" = "7rOxMuy2";
+            "file" = "nlcmc-0.0.6.jar";
+            "hash" = "sha512-wB8Z3wYy6BBY09KayWpp0GMoe0LkN+7mkZSyMFfHa+/6jlrlj/8qymtnJy1QUtFRiGgyJyPwO+2GpbXmFhWmdQ==";
+        };
+        _7KjfDbEF = {
+            "id" = "7KjfDbEF";
+            "file" = "nlcmc-0.0.6.jar";
+            "hash" = "sha512-SaDSIIUU9qpzAY7Cwu/Tqemcm+tyiIZCB9gPLORL5yju48DVfBoOwJDMMSQSqDswx6ZNhm17vEDcf9f/MVgb9Q==";
+        };
     in {
         "6IhaV067" = _6IhaV067;
         "WjSBNhd5" = _WjSBNhd5;
@@ -74,9 +94,14 @@ let
         "xKVnwLfd" = _xKVnwLfd;
         "lzqsUdZ2" = _lzqsUdZ2;
         "lUryZE9I" = _lUryZE9I;
+        "6lEdvZpH" = _6lEdvZpH;
+        "Z64oX43X" = _Z64oX43X;
+        "7rOxMuy2" = _7rOxMuy2;
+        "7KjfDbEF" = _7KjfDbEF;
         "forge-1.20.1" = _c3RaccI0;
         "neoforge-26.1.2" = _lzqsUdZ2;
-        "neoforge-1.21.1" = _lUryZE9I;
+        "neoforge-1.21.1" = _7KjfDbEF;
+        "neoforge-26.2" = _7rOxMuy2;
         "pkg-0.3.0" = _6IhaV067;
         "pkg-0.3.1" = _WjSBNhd5;
         "pkg-0.3.2" = _YMntuZKE;
@@ -87,7 +112,9 @@ let
         "pkg-0.0.2" = _KHz4ghko;
         "pkg-0.0.3" = _xKVnwLfd;
         "pkg-0.0.4" = _lUryZE9I;
-        "default" = _lUryZE9I;
+        "pkg-0.0.5" = _Z64oX43X;
+        "pkg-0.0.6" = _7KjfDbEF;
+        "default" = _7KjfDbEF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lcmc";

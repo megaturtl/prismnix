@@ -256,6 +256,16 @@ let
             "file" = "SherdDuplication-fabric-MC26.2-26.2.0.1.jar";
             "hash" = "sha512-VvCQoS8j6WlEsV8z3z8+uAfnlS1HVS51cpdQmiqtBOnVx7Iwc7FG1BdaMrQRva/JhSM6L3szKrpkOAThF5yyUA==";
         };
+        _xByg2ChC = {
+            "id" = "xByg2ChC";
+            "file" = "SherdDuplication-fabric-MC26.3-26.3.0.1.jar";
+            "hash" = "sha512-4pp0K5xlc6t+TsTLmHr/iEMx+MugHeNz/XLUaqwxpMy6Dr5CqNeGkNT1OUnAG1cCabHgwTOrlD2DsY/tSZWyXA==";
+        };
+        _sRb4FgTW = {
+            "id" = "sRb4FgTW";
+            "file" = "SherdDuplication-neoforge-MC26.3-26.3.0.1.jar";
+            "hash" = "sha512-vjnxhnxGkJRf6pvIV5dOH7RSk0uhMs4CvODNMBjYY7/fDfN5+qS2o2u5t4plxZp3o3gLsADKHvgh5abwSF1vew==";
+        };
     in {
         "JMH3BXwr" = _JMH3BXwr;
         "7VjC080K" = _7VjC080K;
@@ -308,6 +318,8 @@ let
         "TodTsxsH" = _TodTsxsH;
         "a61trjWW" = _a61trjWW;
         "VGRdPJ9g" = _VGRdPJ9g;
+        "xByg2ChC" = _xByg2ChC;
+        "sRb4FgTW" = _sRb4FgTW;
         "fabric-1.20-pre1" = _JMH3BXwr;
         "fabric-1.20" = _7VjC080K;
         "fabric-1.20.1" = _doaBnzUn;
@@ -319,6 +331,7 @@ let
         "fabric-26.1.1" = _TodTsxsH;
         "fabric-26.1.2" = _TodTsxsH;
         "fabric-26.2" = _VGRdPJ9g;
+        "fabric-26.3" = _xByg2ChC;
         "forge-1.20" = _F8CECTpH;
         "forge-1.20.1" = _HOViBBEe;
         "forge-1.20.2" = _Y1a2A6kl;
@@ -333,6 +346,7 @@ let
         "neoforge-26.1.1" = _RHpFiEvz;
         "neoforge-26.1.2" = _RHpFiEvz;
         "neoforge-26.2" = _a61trjWW;
+        "neoforge-26.3" = _sRb4FgTW;
         "quilt-1.21.1" = _FbPYDBoo;
         "pkg-0.0.0" = _JMH3BXwr;
         "pkg-1.0.1" = _F8CECTpH;
@@ -357,7 +371,8 @@ let
         "pkg-26.1.2.1" = _3U3YNAue;
         "pkg-26.1.2.3" = _TodTsxsH;
         "pkg-26.2.0.1" = _VGRdPJ9g;
-        "default" = _VGRdPJ9g;
+        "pkg-26.3.0.1" = _sRb4FgTW;
+        "default" = _sRb4FgTW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sherd-duplication";

@@ -76,6 +76,61 @@ let
             "file" = "automobility-0.5.0-unofficial.30+26.1.2-fabric.jar";
             "hash" = "sha512-/l2HbNfBjKJvPZAtYxU2vvxlFD8UbkgopQ8HpvCOfyXtXC0QYhksZDH0PGLgtwTtzUM6rJB9ZcvQgfvkdBBP5Q==";
         };
+        _X8JzLZr8 = {
+            "id" = "X8JzLZr8";
+            "file" = "automobility-0.5.0-unofficial.34+26.1.2-fabric.jar";
+            "hash" = "sha512-8cIw54E5jYLltlNS/QI7Hv+rBiDYcnPfiLXulUSuxZFVkqcTWogFE3OTpsJTpMrtBGT81WUr5hSn7gacxzCpZA==";
+        };
+        _NwM5Z0cU = {
+            "id" = "NwM5Z0cU";
+            "file" = "automobility-0.5.0-unofficial.34+26.2-fabric.jar";
+            "hash" = "sha512-yZ+baMQufuBLRnHGBlIKHg58si+sdP9DxUFFuEvWUUN8dqCJcF8knsQDGLNf6Qo0ZmVOO80SYVBOCVWWcHI9fA==";
+        };
+        _WgNM3r8h = {
+            "id" = "WgNM3r8h";
+            "file" = "automobility-0.5.0-unofficial.34+26.3-fabric.jar";
+            "hash" = "sha512-wCD+W25Ej0in5P6kZgWN4dNm9xVr0qtsC/Qdn1OW4XCVJ1+I5hwr+VbTw0q6fEntsKGyK6TqAfkvRlJAPk7PNw==";
+        };
+        _BlluSTtp = {
+            "id" = "BlluSTtp";
+            "file" = "automobility-0.5.0-unofficial.35+26.1.2-fabric.jar";
+            "hash" = "sha512-UEwZzBc5fK7dJXbNOFeWwSiyeJaPXvBRTP4kaCzkuOWoMlWq50Ksc9YHXcSe/KhrXebMJnNqfFwhNz++p64a8w==";
+        };
+        _FQjdppQu = {
+            "id" = "FQjdppQu";
+            "file" = "automobility-0.5.0-unofficial.35+26.2-fabric.jar";
+            "hash" = "sha512-QhPOpN4PRbm6iz1DaypG66m3sXK5nnDXSjv/6WH75oORPYfEmR+xcjIxi+MZKXV0AS9fTQpmhunTxHcwA8odIw==";
+        };
+        _x3KzLznK = {
+            "id" = "x3KzLznK";
+            "file" = "automobility-0.5.0-unofficial.36+26.2-fabric.jar";
+            "hash" = "sha512-Ffe7pMVcAC6UGs8vacEUirrTtWErDazpPKM4Egi9y7AauwpwLen/veCiWaNViYVb9PfMA6fBiKbFVrlidNckNA==";
+        };
+        _8qn3OqtD = {
+            "id" = "8qn3OqtD";
+            "file" = "automobility-0.5.0-unofficial.36+26.1.2-fabric.jar";
+            "hash" = "sha512-EIrqGwI7EzMgMVaAs4PZYp8M24vR3LT7fxU4/pHfdGF24ZoYEnj2drvV8gZrDGOGlPHkrzP3PflGvccxQdaEBw==";
+        };
+        _yPZ9P5d8 = {
+            "id" = "yPZ9P5d8";
+            "file" = "automobility-0.5.0-unofficial.36+26.3-fabric.jar";
+            "hash" = "sha512-4qx5IeyCkYSv4wMGNIsg17CG3kq8BnFsoQpJ9dP82PdAVy7s9TiBZ7k8saZwtdd6aqGe7mLiFvRc/6DbZl4LWg==";
+        };
+        _aaEhqJ6l = {
+            "id" = "aaEhqJ6l";
+            "file" = "automobility-1.0.0-beta.1+26.1.2-fabric.jar";
+            "hash" = "sha512-Xcl2GT74Y9PQZiGlPrS/abv8tzDHqUcdVYEGnMHQABtYQFcl85tjPPAcT8YNohbxdFMP5JIVNIJzW4lKKOlBvw==";
+        };
+        _Bf9dpNtl = {
+            "id" = "Bf9dpNtl";
+            "file" = "automobility-1.0.0-beta.1+26.2-fabric.jar";
+            "hash" = "sha512-oPzaRw2ZM462fZKcxYdbxJohvFrkW9oECtVKi7+Ml0wVV60z5cEGgAw5a9szriCXQMCZYVg+13bhHT8eFUpmUw==";
+        };
+        _ORcg5phe = {
+            "id" = "ORcg5phe";
+            "file" = "automobility-1.0.0-beta.1+26.3-fabric.jar";
+            "hash" = "sha512-oanBZHMcD3las47v+JxqVGKrLYACjQ3yp4n/x+PaYVFt0YDy7fcQb1ay9dWsYZBQaedAdJSzyn6eAhrYNjt+JA==";
+        };
     in {
         "hLtsCYTw" = _hLtsCYTw;
         "PM380Ozo" = _PM380Ozo;
@@ -92,10 +147,22 @@ let
         "LRK6PwC8" = _LRK6PwC8;
         "bojmH8iU" = _bojmH8iU;
         "rBrA14TK" = _rBrA14TK;
-        "fabric-26.1" = _rBrA14TK;
-        "fabric-26.1.1" = _rBrA14TK;
-        "fabric-26.1.2" = _rBrA14TK;
-        "fabric-26.2" = _bojmH8iU;
+        "X8JzLZr8" = _X8JzLZr8;
+        "NwM5Z0cU" = _NwM5Z0cU;
+        "WgNM3r8h" = _WgNM3r8h;
+        "BlluSTtp" = _BlluSTtp;
+        "FQjdppQu" = _FQjdppQu;
+        "x3KzLznK" = _x3KzLznK;
+        "8qn3OqtD" = _8qn3OqtD;
+        "yPZ9P5d8" = _yPZ9P5d8;
+        "aaEhqJ6l" = _aaEhqJ6l;
+        "Bf9dpNtl" = _Bf9dpNtl;
+        "ORcg5phe" = _ORcg5phe;
+        "fabric-26.1" = _8qn3OqtD;
+        "fabric-26.1.1" = _8qn3OqtD;
+        "fabric-26.1.2" = _aaEhqJ6l;
+        "fabric-26.2" = _Bf9dpNtl;
+        "fabric-26.3" = _ORcg5phe;
         "pkg-0.5.0-unofficial.1+26.1.2" = _hLtsCYTw;
         "pkg-0.5.0-unofficial.2+26.1.2" = _PM380Ozo;
         "pkg-0.5.0-unofficial.24+26.1.2" = _TKECyKkz;
@@ -111,7 +178,18 @@ let
         "pkg-0.5.0-unofficial.29+26.2" = _LRK6PwC8;
         "pkg-0.5.0-unofficial.30+26.2" = _bojmH8iU;
         "pkg-0.5.0-unofficial.30+26.1.2" = _rBrA14TK;
-        "default" = _rBrA14TK;
+        "pkg-0.5.0-unofficial.34+26.1.2" = _X8JzLZr8;
+        "pkg-0.5.0-unofficial.34+26.2" = _NwM5Z0cU;
+        "pkg-0.5.0-unofficial.34+26.3" = _WgNM3r8h;
+        "pkg-0.5.0-unofficial.35+26.1.2" = _BlluSTtp;
+        "pkg-0.5.0-unofficial.35+26.2" = _FQjdppQu;
+        "pkg-0.5.0-unofficial.36+26.2" = _x3KzLznK;
+        "pkg-0.5.0-unofficial.36+26.1.2" = _8qn3OqtD;
+        "pkg-0.5.0-unofficial.36+26.3" = _yPZ9P5d8;
+        "pkg-1.0.0-beta.1+26.1.2" = _aaEhqJ6l;
+        "pkg-1.0.0-beta.1+26.2" = _Bf9dpNtl;
+        "pkg-1.0.0-beta.1+26.3" = _ORcg5phe;
+        "default" = _ORcg5phe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "automobility-unofficial-port";

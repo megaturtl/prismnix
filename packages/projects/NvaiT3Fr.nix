@@ -131,6 +131,21 @@ let
             "file" = "animalgarden-harpseal-1.0.1-fabric-26.2-0.152.2.jar";
             "hash" = "sha512-NEwP7/Y4fT20xhAu0QO9KKaMgNpEu+UrMkSruYdlVJOqDiyFiwm5Wa4eMz0k65oX1Kp8Gj/OyYQsuuUxhzNLRw==";
         };
+        _cSxK4gLn = {
+            "id" = "cSxK4gLn";
+            "file" = "animalgarden-harpseal-1.0.1-forge-26.3-66.0.2.jar";
+            "hash" = "sha512-a6pYW+9sJkNFF8rpO03V1/1v2lQhFqFK5avGV1MlVUbVZ/Oh/mHJFv77JQ/5wZAnZJ+BBBFDCpPJvsK7FK72Yw==";
+        };
+        _PkjJp0Jq = {
+            "id" = "PkjJp0Jq";
+            "file" = "animalgarden-harpseal-1.0.1-neoforge-26.3.0.7.jar";
+            "hash" = "sha512-OFz4Vnt/WL+aC64GdqKyHwGSf0f0GwVCa0wKKjHjAefMqDljY8E7fIy9zdd3OMpSbmfdxAJzTvw5To7yRfqE9g==";
+        };
+        _O0BqksfF = {
+            "id" = "O0BqksfF";
+            "file" = "animalgarden-harpseal-1.0.1-fabric-26.3-0.161.0.jar";
+            "hash" = "sha512-ZhMJ91M5uYXZhcSluaHSrGgpJopxKhgo0m8pdyAMY8I2QWPstoz4O4mhEZyJkzN++4HyK7lqU0Nmpkcj3qhDOw==";
+        };
     in {
         "BkACRzKO" = _BkACRzKO;
         "WpJVMKgI" = _WpJVMKgI;
@@ -158,6 +173,9 @@ let
         "zOjQAMCQ" = _zOjQAMCQ;
         "yLG5p8pK" = _yLG5p8pK;
         "HUtIz5xk" = _HUtIz5xk;
+        "cSxK4gLn" = _cSxK4gLn;
+        "PkjJp0Jq" = _PkjJp0Jq;
+        "O0BqksfF" = _O0BqksfF;
         "forge-1.20.1" = _BkACRzKO;
         "forge-1.21.1" = _WpJVMKgI;
         "forge-1.21.3" = _gL6dhqmO;
@@ -173,6 +191,7 @@ let
         "forge-26.1.1" = _3qewh9Nu;
         "forge-26.1.2" = _3qewh9Nu;
         "forge-26.2" = _zOjQAMCQ;
+        "forge-26.3" = _cSxK4gLn;
         "neoforge-1.21.1" = _xpZ6BIIW;
         "neoforge-1.21.3" = _6DgLOFN8;
         "neoforge-1.21.4" = _6DgLOFN8;
@@ -187,6 +206,7 @@ let
         "neoforge-26.1.1" = _6PaYumu9;
         "neoforge-26.1.2" = _6PaYumu9;
         "neoforge-26.2" = _yLG5p8pK;
+        "neoforge-26.3" = _PkjJp0Jq;
         "fabric-1.21.11" = _xruP7HjL;
         "fabric-1.21.9" = _J4ePMYg9;
         "fabric-1.21.10" = _J4ePMYg9;
@@ -202,6 +222,7 @@ let
         "fabric-26.1.1" = _sCkeeAwH;
         "fabric-26.1.2" = _sCkeeAwH;
         "fabric-26.2" = _HUtIz5xk;
+        "fabric-26.3" = _O0BqksfF;
         "pkg-1.0.0-forge-1.20.1-47.4.10" = _BkACRzKO;
         "pkg-1.0.0-forge-1.21.1-52.1.8" = _WpJVMKgI;
         "pkg-1.0.0-forge-1.21.4-54.1.11" = _gL6dhqmO;
@@ -228,7 +249,10 @@ let
         "pkg-1.0.1-forge-26.2-65.0.0" = _zOjQAMCQ;
         "pkg-1.0.1-neoforge-26.2.0.6" = _yLG5p8pK;
         "pkg-1.0.1-fabric-26.2-0.152.2" = _HUtIz5xk;
-        "default" = _HUtIz5xk;
+        "pkg-1.0.1-forge-26.3-66.0.2" = _cSxK4gLn;
+        "pkg-1.0.1-neoforge-26.3.0.7" = _PkjJp0Jq;
+        "pkg-1.0.1-fabric-26.3-0.161.0" = _O0BqksfF;
+        "default" = _O0BqksfF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "animal-garden-harp-seal";

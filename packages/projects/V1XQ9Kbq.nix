@@ -286,6 +286,11 @@ let
             "file" = "ceilingtorch-26.2-1.34.jar";
             "hash" = "sha512-P9YpHlDd0zDM/gt53YRB/ETdPEvXDphqIzs9oulk2lVJdaV10Jkce7ruMfsJCD/NGladAcKcfTYCOOc4oeBjyw==";
         };
+        _sqmtt4Bi = {
+            "id" = "sqmtt4Bi";
+            "file" = "ceilingtorch-26.3-1.34.jar";
+            "hash" = "sha512-M/49vEK7C1CkngcG0XUPtrcp78+zFSykrqKf1F+ZSZGtjXyPx77JWgUvjIvwOLlJS5M+No7qooqAtjKdNInOfw==";
+        };
     in {
         "n3inKVA8" = _n3inKVA8;
         "hjQnV7R6" = _hjQnV7R6;
@@ -344,6 +349,7 @@ let
         "nLr2IdZq" = _nLr2IdZq;
         "G1u0SEIm" = _G1u0SEIm;
         "r9zIFR6y" = _r9zIFR6y;
+        "sqmtt4Bi" = _sqmtt4Bi;
         "forge-1.12.2" = _n3inKVA8;
         "forge-1.14.4" = _hjQnV7R6;
         "forge-1.15.2" = _1Mm9wxgh;
@@ -374,6 +380,7 @@ let
         "neoforge-26.1.1" = _jbVD7OdB;
         "neoforge-26.1.2" = _G1u0SEIm;
         "neoforge-26.2" = _r9zIFR6y;
+        "neoforge-26.3" = _sqmtt4Bi;
         "pkg-v1.3.1" = _n3inKVA8;
         "pkg-v1.8" = _hjQnV7R6;
         "pkg-v1.13" = _1Mm9wxgh;
@@ -393,8 +400,8 @@ let
         "pkg-v1.32" = _3oQeD4oe;
         "pkg-v1.32.1" = _5g6JI9wo;
         "pkg-v1.33" = _jbVD7OdB;
-        "pkg-v1.34" = _r9zIFR6y;
-        "default" = _r9zIFR6y;
+        "pkg-v1.34" = _sqmtt4Bi;
+        "default" = _sqmtt4Bi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ceiling-torch";

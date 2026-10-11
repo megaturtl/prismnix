@@ -246,6 +246,26 @@ let
             "file" = "easy_homes-21.9.0-fabric.jar";
             "hash" = "sha512-Wp4AvAetn0WLLz7eHgg7HhgwYNY4mudo4DDbpDLdul+cqROOXUEoC2qIrRQ1Fz5UyUQD7UTcY2l58TsKwkrKlg==";
         };
+        _AYWDbAjM = {
+            "id" = "AYWDbAjM";
+            "file" = "easy_homes-fabric-1.0.1+1.18.2.jar";
+            "hash" = "sha512-NorSXeS9kO93hYv9sJPp+VV6Id8NyB8G1Fsrf1E0jc8D11H+wKm99pzgUG1SaIbyI2LrdS5ByOpxLyyX/7A8bA==";
+        };
+        _LVvV6Qtr = {
+            "id" = "LVvV6Qtr";
+            "file" = "easy_homes-fabric-1.0.1+1.19.2.jar";
+            "hash" = "sha512-RjuROhdTr3cuQjHEgiyCdTwo60IpQaXgQQExJj9gfdX1dJzhTyBgGN2N9YuP22I+TNK+6Y/i3I9lvP3nbahZXQ==";
+        };
+        _PEFxtm9Y = {
+            "id" = "PEFxtm9Y";
+            "file" = "easy_homes-fabric-1.0.1+1.19.4.jar";
+            "hash" = "sha512-/W9MTi7d2KWTatmOTKGgy0hDyMHyX141aiTbmtkhiZ9JSn8YMzV5zNHgoVVoglkaBqqBrXaryOy6gr6LkoSlqQ==";
+        };
+        _jf1FEo7D = {
+            "id" = "jf1FEo7D";
+            "file" = "easy_homes-fabric-1.0.1+1.20.1.jar";
+            "hash" = "sha512-UYXGh4M08QIvApzGMN8VKJwFVWRhywiJUWd+la3YaK0HlZfAMtcLdr7DuUXwJFmzLLpkjXsBhSHdSkZugn9FqA==";
+        };
     in {
         "Qze45Qje" = _Qze45Qje;
         "HlwKN1TK" = _HlwKN1TK;
@@ -296,6 +316,10 @@ let
         "isWIp2cK" = _isWIp2cK;
         "gyZBih5X" = _gyZBih5X;
         "wYC9YQpz" = _wYC9YQpz;
+        "AYWDbAjM" = _AYWDbAjM;
+        "LVvV6Qtr" = _LVvV6Qtr;
+        "PEFxtm9Y" = _PEFxtm9Y;
+        "jf1FEo7D" = _jf1FEo7D;
         "neoforge-1.21.1" = _yVvbEiux;
         "neoforge-1.21.2" = _ITFXsWMa;
         "neoforge-1.21.3" = _KKPdvux1;
@@ -316,10 +340,14 @@ let
         "fabric-1.20.5" = _iSkidgXj;
         "fabric-1.20.4" = _1hfbp9Ek;
         "fabric-1.20.3" = _Da9uztf1;
-        "fabric-1.19.4" = _LFFoL3es;
+        "fabric-1.19.4" = _PEFxtm9Y;
         "fabric-1.21.11" = _C8vgsICq;
         "fabric-1.21.5" = _FN5PEceT;
         "fabric-1.21.9" = _wYC9YQpz;
+        "fabric-1.18.2" = _AYWDbAjM;
+        "fabric-1.19.2" = _LVvV6Qtr;
+        "fabric-1.20" = _jf1FEo7D;
+        "fabric-1.20.1" = _jf1FEo7D;
         "forge-1.19.4" = _6wAPr55u;
         "pkg-21.1.0-neoforge" = _Qze45Qje;
         "pkg-21.1.0-fabric" = _HlwKN1TK;
@@ -370,7 +398,11 @@ let
         "pkg-21.4.7-neoforge" = _isWIp2cK;
         "pkg-21.9.0-neoforge" = _gyZBih5X;
         "pkg-21.9.0-fabric" = _wYC9YQpz;
-        "default" = _wYC9YQpz;
+        "pkg-1.0.1+1.18.2" = _AYWDbAjM;
+        "pkg-1.0.1+1.19.2" = _LVvV6Qtr;
+        "pkg-1.0.1+1.19.4" = _PEFxtm9Y;
+        "pkg-1.0.1+1.20.1" = _jf1FEo7D;
+        "default" = _jf1FEo7D;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "easy-homes";

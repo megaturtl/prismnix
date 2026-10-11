@@ -21,11 +21,23 @@ let
             "file" = "spectral-enchantment-v1.0.0.jar";
             "hash" = "sha512-1T9ILhGsEpuTPsNCEdEnGdpTxD/Zhs5E9O+17MSbw0GukM9XG0ZN/Uz+ULfNngXZZUOPDPdIeX1GuC3v6cqqSQ==";
         };
+        _9EMHHyDR = {
+            "id" = "9EMHHyDR";
+            "file" = "Spectral Enchantment v1.0.0 [26.3].zip";
+            "hash" = "sha512-6ual6yygDB8RYmuTmKNV0dfeBhFQrgURtF4QCrATA9GKL5l5Xfw8R58zkNk+dDeyz6KVY0qZSRcTT8ZH87oXOA==";
+        };
+        _FGPnH4eb = {
+            "id" = "FGPnH4eb";
+            "file" = "spectral-enchantment-1.0.0.jar";
+            "hash" = "sha512-Oilkoe3zCVVoNNOM3UfkYO2kJ9AwZO+HMNEz/Zv57FvL6ENL85sYAoJ9IycLfwW6xQDa6JKRVaoBZc5nj4vN7g==";
+        };
     in {
         "R0ZYgrMH" = _R0ZYgrMH;
         "X8hUZhhp" = _X8hUZhhp;
         "yducMee6" = _yducMee6;
         "8Os8G6b7" = _8Os8G6b7;
+        "9EMHHyDR" = _9EMHHyDR;
+        "FGPnH4eb" = _FGPnH4eb;
         "datapack-1.21" = _yducMee6;
         "datapack-1.21.1" = _yducMee6;
         "datapack-1.21.2" = _yducMee6;
@@ -42,6 +54,7 @@ let
         "datapack-26.1.1" = _yducMee6;
         "datapack-26.1.2" = _yducMee6;
         "datapack-26.2" = _yducMee6;
+        "datapack-26.3" = _9EMHHyDR;
         "fabric-1.21" = _8Os8G6b7;
         "fabric-1.21.1" = _8Os8G6b7;
         "fabric-1.21.2" = _8Os8G6b7;
@@ -58,6 +71,7 @@ let
         "fabric-26.1.1" = _8Os8G6b7;
         "fabric-26.1.2" = _8Os8G6b7;
         "fabric-26.2" = _8Os8G6b7;
+        "fabric-26.3" = _FGPnH4eb;
         "forge-1.21" = _8Os8G6b7;
         "forge-1.21.1" = _8Os8G6b7;
         "forge-1.21.2" = _8Os8G6b7;
@@ -74,6 +88,7 @@ let
         "forge-26.1.1" = _8Os8G6b7;
         "forge-26.1.2" = _8Os8G6b7;
         "forge-26.2" = _8Os8G6b7;
+        "forge-26.3" = _FGPnH4eb;
         "neoforge-1.21" = _8Os8G6b7;
         "neoforge-1.21.1" = _8Os8G6b7;
         "neoforge-1.21.2" = _8Os8G6b7;
@@ -90,6 +105,7 @@ let
         "neoforge-26.1.1" = _8Os8G6b7;
         "neoforge-26.1.2" = _8Os8G6b7;
         "neoforge-26.2" = _8Os8G6b7;
+        "neoforge-26.3" = _FGPnH4eb;
         "quilt-1.21" = _8Os8G6b7;
         "quilt-1.21.1" = _8Os8G6b7;
         "quilt-1.21.2" = _8Os8G6b7;
@@ -106,9 +122,12 @@ let
         "quilt-26.1.1" = _8Os8G6b7;
         "quilt-26.1.2" = _8Os8G6b7;
         "quilt-26.2" = _8Os8G6b7;
+        "quilt-26.3" = _FGPnH4eb;
         "pkg-v1.0.0" = _yducMee6;
         "pkg-v1.0.0+mod" = _8Os8G6b7;
-        "default" = _8Os8G6b7;
+        "pkg-1.0.0" = _9EMHHyDR;
+        "pkg-1.0.0+mod" = _FGPnH4eb;
+        "default" = _FGPnH4eb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spectral-enchantment";

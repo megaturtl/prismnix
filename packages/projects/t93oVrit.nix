@@ -81,6 +81,11 @@ let
             "file" = "26.1-26.1.1 shield.zip";
             "hash" = "sha512-f04DOP0pgGEk2rSIRwDTpY3/Yprm+M6Fa6PX479MYZ5i6AvtrWQGAhjHfFu8MSHxjDEJs3+0zQnrcnbBRaOC4A==";
         };
+        _LvlWjdSM = {
+            "id" = "LvlWjdSM";
+            "file" = "Lower shield.zip";
+            "hash" = "sha512-f04DOP0pgGEk2rSIRwDTpY3/Yprm+M6Fa6PX479MYZ5i6AvtrWQGAhjHfFu8MSHxjDEJs3+0zQnrcnbBRaOC4A==";
+        };
     in {
         "gFtR3qLS" = _gFtR3qLS;
         "qML3lVL9" = _qML3lVL9;
@@ -98,6 +103,7 @@ let
         "T0kumjvT" = _T0kumjvT;
         "4DfkzgZc" = _4DfkzgZc;
         "3tU9ff0r" = _3tU9ff0r;
+        "LvlWjdSM" = _LvlWjdSM;
         "minecraft-1.20.5" = _gFtR3qLS;
         "minecraft-1.20.6" = _qML3lVL9;
         "minecraft-1.21" = _YQGENPrs;
@@ -116,6 +122,7 @@ let
         "minecraft-26.1.1" = _3tU9ff0r;
         "minecraft-26.1.2" = _3tU9ff0r;
         "minecraft-26.2" = _3tU9ff0r;
+        "minecraft-26.3" = _LvlWjdSM;
         "pkg-1.0" = _gFtR3qLS;
         "pkg-1.1" = _qML3lVL9;
         "pkg-2.0" = _YQGENPrs;
@@ -132,7 +139,8 @@ let
         "pkg-2.11" = _T0kumjvT;
         "pkg-3.0" = _4DfkzgZc;
         "pkg-3.1" = _3tU9ff0r;
-        "default" = _3tU9ff0r;
+        "pkg-4.0" = _LvlWjdSM;
+        "default" = _LvlWjdSM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "low-shields";

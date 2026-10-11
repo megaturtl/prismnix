@@ -76,10 +76,10 @@ let
             "file" = "x_x-1.0.0.jar";
             "hash" = "sha512-HUm6lbZBJvgb3EYkDmv0OOULqeKRNiWmRIezBH78hRQvqN3JSQJRMMXaYXSxLnyvoEkN87h2wel+EwUFL1ZFzw==";
         };
-        _F5EOACEJ = {
-            "id" = "F5EOACEJ";
+        _fgcDKvsO = {
+            "id" = "fgcDKvsO";
             "file" = "x_x-1.0.0.jar";
-            "hash" = "sha512-/tgTTVRDrTkU54jPtuTJhuf5trKkMSLjaJtRP5r8tsTWC9Im2xJiAvxN7sAROlmF5lkNsDsH9GYAs+HZyhUOAA==";
+            "hash" = "sha512-hsvVotXMA7DA0TBIOi4T8P2uHQ2QCa983ceWeWuE6KVnRtWwv2TGnPZUZ5al9KEvE3Tzi0qlugiW5hwKuxqXNA==";
         };
     in {
         "IPxgCci0" = _IPxgCci0;
@@ -97,13 +97,13 @@ let
         "YuIVRByc" = _YuIVRByc;
         "vhh7mJsW" = _vhh7mJsW;
         "L0Wst275" = _L0Wst275;
-        "F5EOACEJ" = _F5EOACEJ;
+        "fgcDKvsO" = _fgcDKvsO;
         "fabric-1.21" = _L0Wst275;
-        "fabric-1.20.1" = _F5EOACEJ;
+        "fabric-1.20.1" = _fgcDKvsO;
         "fabric-1.21.4" = _s2osZRdG;
         "pkg-2.0.0" = _s2osZRdG;
-        "pkg-1.0.0" = _F5EOACEJ;
-        "default" = _F5EOACEJ;
+        "pkg-1.0.0" = _fgcDKvsO;
+        "default" = _fgcDKvsO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crittpvp";

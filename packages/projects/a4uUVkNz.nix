@@ -176,6 +176,36 @@ let
             "file" = "stargate-1.8.12+26.3.jar";
             "hash" = "sha512-4mA3NkMr0nBABEm0eXrvZIYWnZCywuoF22oeHOnBPbi1OU38xQpUF1FAaV0c7yFz812d4+NASguvP/DxfBgNFQ==";
         };
+        _2SsX3eUW = {
+            "id" = "2SsX3eUW";
+            "file" = "stargate-1.9.0+26.3.jar";
+            "hash" = "sha512-2wNIAexSc7m+pMnQa76FeJWg3jURZSxHSJEZdNAwBH889mZ/u4z0kuET/QvKhduzIjCJzPOy4F9POsQfDUAfgw==";
+        };
+        _Mjiconif = {
+            "id" = "Mjiconif";
+            "file" = "stargate-1.9.1+26.3.jar";
+            "hash" = "sha512-m+Zv+vd8B3JL5V0thgrsdCsGa7fcGaGipWVIk1sJTCwje3A+ax7a8kqAkuZN4ayKXi8vmecF/VVyQbe+9ObLqQ==";
+        };
+        _K22EV0h2 = {
+            "id" = "K22EV0h2";
+            "file" = "stargate-1.9.2+26.3.jar";
+            "hash" = "sha512-kTrLWEbbxu9Tm9EFNfv2gIHX/EZJhEy7ppPpZkMjOhzWRitFVJDkU+iru3eKD+AE6O59p4NlvxJdr9eSkGZp2g==";
+        };
+        _DB7EZDos = {
+            "id" = "DB7EZDos";
+            "file" = "stargate-1.9.3+26.3.jar";
+            "hash" = "sha512-mZWDRslD31ubbV4akl95C37Aq7Qm0xNnl/kUHTQpZAqKv509o1XWikHDpawTwPcxe4bYXF9mb+rhtBv1fau3ig==";
+        };
+        _ADSMyezV = {
+            "id" = "ADSMyezV";
+            "file" = "stargate-1.10.0+26.3.jar";
+            "hash" = "sha512-5jEb6XNF2+3gGlu82T7v/ITHqtQ8NDpJD7IMHg72eFcDPuXQbCbI9Vr3VemlL00mwSWuf0744/a4Hg00YR+JcQ==";
+        };
+        _t1MT5QeH = {
+            "id" = "t1MT5QeH";
+            "file" = "stargate-1.10.1+26.3.jar";
+            "hash" = "sha512-1pNkkpTbpChw/Pk+N8+kW8VjZ261r8lrjTvVGzJniZXcVtH9doVqYpO8Y1SA2F+ALaofbLRwHdjWVKySR/XyPw==";
+        };
     in {
         "V66FI8ps" = _V66FI8ps;
         "5fIqDjZB" = _5fIqDjZB;
@@ -212,6 +242,12 @@ let
         "Tk03atTF" = _Tk03atTF;
         "MZ5M8jFQ" = _MZ5M8jFQ;
         "380yZENN" = _380yZENN;
+        "2SsX3eUW" = _2SsX3eUW;
+        "Mjiconif" = _Mjiconif;
+        "K22EV0h2" = _K22EV0h2;
+        "DB7EZDos" = _DB7EZDos;
+        "ADSMyezV" = _ADSMyezV;
+        "t1MT5QeH" = _t1MT5QeH;
         "fabric-1.21.8" = _5fIqDjZB;
         "fabric-1.21.9-rc1" = _T1gWAozQ;
         "fabric-1.21.9" = _jco43iwM;
@@ -233,7 +269,7 @@ let
         "fabric-26.3-rc-1" = _beelTuYc;
         "fabric-26.3-rc-2" = _Tk03atTF;
         "fabric-26.3-rc-3" = _MZ5M8jFQ;
-        "fabric-26.3" = _380yZENN;
+        "fabric-26.3" = _t1MT5QeH;
         "quilt-1.21.9-rc1" = _T1gWAozQ;
         "quilt-1.21.9" = _jco43iwM;
         "quilt-1.21.10" = _iboSKm0N;
@@ -253,7 +289,7 @@ let
         "quilt-26.3-rc-1" = _beelTuYc;
         "quilt-26.3-rc-2" = _Tk03atTF;
         "quilt-26.3-rc-3" = _MZ5M8jFQ;
-        "quilt-26.3" = _380yZENN;
+        "quilt-26.3" = _t1MT5QeH;
         "pkg-1.0.0+1.21.8" = _5fIqDjZB;
         "pkg-1.2.0+1.21.9-rc1" = _T1gWAozQ;
         "pkg-1.2.1+1.21.9" = _9mBtyfrP;
@@ -288,7 +324,13 @@ let
         "pkg-1.8.10+26.3-rc-2" = _Tk03atTF;
         "pkg-1.8.11+26.3-rc-3" = _MZ5M8jFQ;
         "pkg-1.8.12+26.3" = _380yZENN;
-        "default" = _380yZENN;
+        "pkg-1.9.0+26.3" = _2SsX3eUW;
+        "pkg-1.9.1+26.3" = _Mjiconif;
+        "pkg-1.9.2+26.3" = _K22EV0h2;
+        "pkg-1.9.3+26.3" = _DB7EZDos;
+        "pkg-1.10.0+26.3" = _ADSMyezV;
+        "pkg-1.10.1+26.3" = _t1MT5QeH;
+        "default" = _t1MT5QeH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mc-stargate";

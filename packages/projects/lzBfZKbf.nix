@@ -51,6 +51,66 @@ let
             "file" = "intelligentvillagers-0.5.0.jar";
             "hash" = "sha512-HLEgtKwSmPLl4FzJ3/AdXsdY53xToEG0hNH0k90MmbbESrvjQjME5XRRN+Gm1MMQsg0AmWU500edHdZYpRfKBA==";
         };
+        _XnTLgMNy = {
+            "id" = "XnTLgMNy";
+            "file" = "intelligentvillagers-0.5.0.jar";
+            "hash" = "sha512-JUhYN/7uAznsxB2jHzOaIbFDEfGm+FJa23uAX923kw/tF1Rz+8e6akUMAJZyOZGwbq9Q7WIMScubobLlfW1K3g==";
+        };
+        _iuPkav0a = {
+            "id" = "iuPkav0a";
+            "file" = "intelligentvillagers-0.5.0.jar";
+            "hash" = "sha512-RaULlBVjB7PP7yAZEgNeSjo5+6x5umaV8Myl3VDL5JAbORaEzUXmgqhhDWmHIGwCVl1CKIZR7HA16QbbrN42Rw==";
+        };
+        _hW3b3Xz4 = {
+            "id" = "hW3b3Xz4";
+            "file" = "intelligentvillagers-0.5.0.jar";
+            "hash" = "sha512-2nJtCpjtvqDR7f1Dov7Sw9MNri0rwfSUzw4p1VZ7uAq/6DitMa7hgaMqbif7WBI+nmnBh8F31dc+9Lj2uUHnOQ==";
+        };
+        _wdjLgPg8 = {
+            "id" = "wdjLgPg8";
+            "file" = "intelligentvillagers-0.5.0.jar";
+            "hash" = "sha512-7K1Kr8gB420Rmi2oukvumw96G8cK//RyHVHsPg17Yzw7TUr1LAP3iJ7MmeTB0p04/byHPbZvlmUYV+GBv1jRkw==";
+        };
+        _hrnNBC5r = {
+            "id" = "hrnNBC5r";
+            "file" = "intelligentvillagers-0.5.0.jar";
+            "hash" = "sha512-EewmH9NM2Q1RHzMvIWZNvEBqf1qYJDCP1RG+54n+CN/pWRJ9zACvud8GfuEpxnEl0xxpZxK5mgzhZ4LRFTVKdg==";
+        };
+        _EmuHpuRS = {
+            "id" = "EmuHpuRS";
+            "file" = "intelligentvillagers-0.5.0.jar";
+            "hash" = "sha512-FjU8xFNP1fDUu9XKsryQE01biK7y4KZmyCcqOrXX/3s/wU72yaP0mL1YZKzmSsTZdt1Q0R75rXRtvFj5FnIGnw==";
+        };
+        _MYBBRTiP = {
+            "id" = "MYBBRTiP";
+            "file" = "intelligentvillagers-0.5.0.jar";
+            "hash" = "sha512-FkZWoQaWjvNRBuM5YBcXAEJoQG09bHhXvhkLDZl8hgANi051ZbFDkzvUHVMni63k+lu+52hoNh0m2inTB1ZW/w==";
+        };
+        _1ye0F0VC = {
+            "id" = "1ye0F0VC";
+            "file" = "intelligentvillagers-0.5.0.jar";
+            "hash" = "sha512-rknM81Y8l7o3GRC9XF8zggGWGRqbJ5Vrp04acFwExa1Q2WuGhRRy68+DdXl0gW5Vjyga0/78oQpyzyCm8FqbDg==";
+        };
+        _5uB8qXdx = {
+            "id" = "5uB8qXdx";
+            "file" = "intelligentvillagers-0.5.0.jar";
+            "hash" = "sha512-+LspSatAubMCGviy0IhUN2Lj3Y0GsMt80ADIOwMhoAUpwQtjI8UKThrfKy8te5zJ8Sh2mi5/419kYZdH7kzokg==";
+        };
+        _4IqB857q = {
+            "id" = "4IqB857q";
+            "file" = "intelligentvillagers-0.5.0.jar";
+            "hash" = "sha512-mFVo3uk3LAyqteU8k0jTD15mdC/uDWy8QJ3vRlmTilq4VF398FFC9M9NPdOhDns1Joqz6Ng933ulIxiOsKZ/AQ==";
+        };
+        _Qh2N9yGR = {
+            "id" = "Qh2N9yGR";
+            "file" = "intelligentvillagers-0.5.0.jar";
+            "hash" = "sha512-dxC+9tArt8WnvVRAse+SIniIhHy78F5pf+k0ShcTaLTa1Fr/9Mmm9zKp7jEf5jTwRWw8jKShKmNRSEZnOKWkiA==";
+        };
+        _dx8Qa6vc = {
+            "id" = "dx8Qa6vc";
+            "file" = "intelligentvillagers-0.5.0.jar";
+            "hash" = "sha512-QxBCV99YxNhLLcSzRGyCjmuOQJiACRxditKWFA3iGeoW+HTT20fegX3Uh75NI9BYmlHu1S1J4HqzFb8oXBbirg==";
+        };
     in {
         "6w46s4kp" = _6w46s4kp;
         "uVss2DmQ" = _uVss2DmQ;
@@ -62,7 +122,19 @@ let
         "EAcJPVyn" = _EAcJPVyn;
         "fepitzln" = _fepitzln;
         "ZtbNx1jG" = _ZtbNx1jG;
-        "neoforge-1.21.1" = _ZtbNx1jG;
+        "XnTLgMNy" = _XnTLgMNy;
+        "iuPkav0a" = _iuPkav0a;
+        "hW3b3Xz4" = _hW3b3Xz4;
+        "wdjLgPg8" = _wdjLgPg8;
+        "hrnNBC5r" = _hrnNBC5r;
+        "EmuHpuRS" = _EmuHpuRS;
+        "MYBBRTiP" = _MYBBRTiP;
+        "1ye0F0VC" = _1ye0F0VC;
+        "5uB8qXdx" = _5uB8qXdx;
+        "4IqB857q" = _4IqB857q;
+        "Qh2N9yGR" = _Qh2N9yGR;
+        "dx8Qa6vc" = _dx8Qa6vc;
+        "neoforge-1.21.1" = _dx8Qa6vc;
         "pkg-6.0.0" = _6w46s4kp;
         "pkg-6.0.1" = _uVss2DmQ;
         "pkg-6.0.2" = _VSiJBvx0;
@@ -73,7 +145,19 @@ let
         "pkg-6.0.8" = _EAcJPVyn;
         "pkg-6.0.9" = _fepitzln;
         "pkg-6.0.10" = _ZtbNx1jG;
-        "default" = _ZtbNx1jG;
+        "pkg-7.0.0" = _XnTLgMNy;
+        "pkg-7.0.1" = _iuPkav0a;
+        "pkg-7.0.2" = _hW3b3Xz4;
+        "pkg-7.0.3" = _wdjLgPg8;
+        "pkg-7.0.4" = _hrnNBC5r;
+        "pkg-7.0.5" = _EmuHpuRS;
+        "pkg-7.0.6" = _MYBBRTiP;
+        "pkg-7.0.7" = _1ye0F0VC;
+        "pkg-7.0.8" = _5uB8qXdx;
+        "pkg-7.0.9" = _4IqB857q;
+        "pkg-7.0.10" = _Qh2N9yGR;
+        "pkg-7.0.11" = _dx8Qa6vc;
+        "default" = _dx8Qa6vc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nations-villagers-ai-reborn";

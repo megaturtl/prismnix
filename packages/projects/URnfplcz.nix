@@ -131,15 +131,15 @@ let
             "file" = "bedrock-voice-chat-1.0.0-beta.20.jar";
             "hash" = "sha512-bRif5l6LitFK+/CXGqz7OX60mq67NxoFLY1vlsAkP/oYC4jZVksotFee9mfuxAUCrZUOO0C58gGPVey1Xphgfw==";
         };
-        _gP7jZOnW = {
-            "id" = "gP7jZOnW";
-            "file" = "bedrock-voice-chat-paper-1.0.0-beta.21-bundled.jar";
-            "hash" = "sha512-jxLgWxxWU7bjAedAe2b/h/WKmubAq8icNrEen1iv/q4GS7/wLbSD1ZY1x/tCmg2UWglNdotDaqNiCaw0lNqlrg==";
-        };
-        _e273pozg = {
-            "id" = "e273pozg";
+        _FQGCjJ6A = {
+            "id" = "FQGCjJ6A";
             "file" = "bedrock-voice-chat-1.0.0-beta.21-bundled.jar";
-            "hash" = "sha512-xc0+1ecAIAxxRcaAdtjg7fIFfwuCQP09C9kp1Rko8fVI68VlC4QJevM9p881vmxtnYZLD7JWBEabUnpOAdk4rg==";
+            "hash" = "sha512-jIMvjP55zJ/AKgE27dDOSzNixRhvcwmVFJmptKBtie6Zvy9cCKDR6Rn3XFdHXETaZhiAV33kDBvvA70xAevaGg==";
+        };
+        _PL2yQTkg = {
+            "id" = "PL2yQTkg";
+            "file" = "bedrock-voice-chat-paper-1.0.0-beta.21-bundled.jar";
+            "hash" = "sha512-bFWSu2sKR/FuJ8mLRHVnrDrc9CNBiXoJ3OMplCakSK4HqqBINxIG8fRsTDQWLFIsEJPv2N27MCN54cPNxfwg2Q==";
         };
     in {
         "tf2zHTSm" = _tf2zHTSm;
@@ -168,8 +168,8 @@ let
         "uSq3wz6O" = _uSq3wz6O;
         "RZtzRtAu" = _RZtzRtAu;
         "mTP5m8Xh" = _mTP5m8Xh;
-        "gP7jZOnW" = _gP7jZOnW;
-        "e273pozg" = _e273pozg;
+        "FQGCjJ6A" = _FQGCjJ6A;
+        "PL2yQTkg" = _PL2yQTkg;
         "bukkit-1.21.11" = _bbBcy5zX;
         "bukkit-1.21" = _7dkFmG7Z;
         "bukkit-1.21.1" = _7dkFmG7Z;
@@ -182,7 +182,7 @@ let
         "bukkit-1.21.8" = _7dkFmG7Z;
         "bukkit-1.21.9" = _7dkFmG7Z;
         "bukkit-1.21.10" = _7dkFmG7Z;
-        "bukkit-26.2" = _gP7jZOnW;
+        "bukkit-26.2" = _PL2yQTkg;
         "paper-1.21.11" = _bbBcy5zX;
         "paper-1.21" = _7dkFmG7Z;
         "paper-1.21.1" = _7dkFmG7Z;
@@ -195,7 +195,7 @@ let
         "paper-1.21.8" = _7dkFmG7Z;
         "paper-1.21.9" = _7dkFmG7Z;
         "paper-1.21.10" = _7dkFmG7Z;
-        "paper-26.2" = _gP7jZOnW;
+        "paper-26.2" = _PL2yQTkg;
         "spigot-1.21.11" = _bbBcy5zX;
         "spigot-1.21" = _7dkFmG7Z;
         "spigot-1.21.1" = _7dkFmG7Z;
@@ -208,7 +208,7 @@ let
         "spigot-1.21.8" = _7dkFmG7Z;
         "spigot-1.21.9" = _7dkFmG7Z;
         "spigot-1.21.10" = _7dkFmG7Z;
-        "spigot-26.2" = _gP7jZOnW;
+        "spigot-26.2" = _PL2yQTkg;
         "fabric-1.21.11" = _n3SjFpDA;
         "fabric-1.21" = _H6pONzl4;
         "fabric-1.21.1" = _H6pONzl4;
@@ -221,7 +221,7 @@ let
         "fabric-1.21.8" = _H6pONzl4;
         "fabric-1.21.9" = _H6pONzl4;
         "fabric-1.21.10" = _H6pONzl4;
-        "fabric-26.2" = _e273pozg;
+        "fabric-26.2" = _FQGCjJ6A;
         "pkg-1.0.0-beta.1-paper" = _tf2zHTSm;
         "pkg-1.0.0-beta.1" = _lwWaxgbw;
         "pkg-1.0.0-beta.2-paper" = _1GqEqg4R;
@@ -247,9 +247,8 @@ let
         "pkg-1.0.0-beta.19-paper" = _uSq3wz6O;
         "pkg-1.0.0-beta.20-paper" = _RZtzRtAu;
         "pkg-1.0.0-beta.20" = _mTP5m8Xh;
-        "pkg-1.0.0-beta.21-paper" = _gP7jZOnW;
-        "pkg-1.0.0-beta.21" = _e273pozg;
-        "default" = _e273pozg;
+        "pkg-1.0.0-beta.21.1" = _PL2yQTkg;
+        "default" = _PL2yQTkg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bedrock-voice-chat";

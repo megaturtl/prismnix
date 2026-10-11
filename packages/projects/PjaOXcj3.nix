@@ -131,6 +131,41 @@ let
             "file" = "mini_mob_trophy-1.6.4-neoforge-26.2.jar";
             "hash" = "sha512-PG38RFfRjO2b2SFDuvJ8IX9ImFvf997CSrGLYSwD5GWvHHaTK2bvw1jzFfApAwLnDGocUV2V4WL/9BM/LKoQig==";
         };
+        _x2KTJWdc = {
+            "id" = "x2KTJWdc";
+            "file" = "mini_mob_trophy-1.6.5-neoforge-26.3.jar";
+            "hash" = "sha512-TYrDVZv6GrZUyQoUtiESKBmKxg7Xn4UPulv5Nt34LF5OWHV+5470r0aGLrVZE/i2yZ5D4SIs/BsqVOB1bEOTog==";
+        };
+        _lzuIbkqK = {
+            "id" = "lzuIbkqK";
+            "file" = "mini_mob_trophy-1.6.6-neoforge-26.3.jar";
+            "hash" = "sha512-/f5NHKeMEo5KH/w8b60ZPmEoYr/adPN4nKEtFA3QrBKaqS3J8t5WVnPf/Ou11cddnC+Hs6XbIOnolqwmvIZ8ag==";
+        };
+        _2QvAT183 = {
+            "id" = "2QvAT183";
+            "file" = "mini_mob_trophy-1.6.7-neoforge-26.3.jar";
+            "hash" = "sha512-6TBE+L0Yc7OlsENJbgjtJtPdkoG95QD1yjzjtmfrVuAuQkjnOTQ0Xv3h/C4OjgwHCsqzIUTFKgmspGtR6gPY2w==";
+        };
+        _2LHV7RZf = {
+            "id" = "2LHV7RZf";
+            "file" = "mini_mob_trophy-1.6.8-neoforge-26.3.jar";
+            "hash" = "sha512-MVTsMdOpdoKtU1Ycko3SI98aU71zJPro4ys+IUCelCYx7+qb8ykXxhQFqM8ERsaBa7sGyrxZzrAnZqNcBGK3Ig==";
+        };
+        _PVbWsCJG = {
+            "id" = "PVbWsCJG";
+            "file" = "mini_mob_trophy-1.6.9-neoforge-26.3.jar";
+            "hash" = "sha512-Tb78pxGP+fgx1cQCQz6C0XyrEkdMcHReKGI3kglIfWJ/gq57nHq2m9v/hY3c7vPUkeMrtnihuz1/+u3v/M6FTQ==";
+        };
+        _bgUc5LFf = {
+            "id" = "bgUc5LFf";
+            "file" = "mini_mob_trophy-1.6.10-neoforge-26.3.jar";
+            "hash" = "sha512-q7oLDWGBEyRbcbPpqHhZ2J4YUDUg7JWeKsC32ECXQRVf28NLkl5efRyaWBI8+/dESbsqM3sKxQH0VcxHVt74QA==";
+        };
+        _V0WbvEi7 = {
+            "id" = "V0WbvEi7";
+            "file" = "mini_mob_trophy-1.7.0-neoforge-26.3.jar";
+            "hash" = "sha512-B5O+RpdKiH9311ejpKMsqd4/kAqJTV1j8S8+wMRExYA7Ohmghx4wWNn341RpFyhv7NmXAR8UcJUia0bAzWeTZw==";
+        };
     in {
         "KUS8uslC" = _KUS8uslC;
         "txINVTxN" = _txINVTxN;
@@ -158,11 +193,19 @@ let
         "nnGXrphP" = _nnGXrphP;
         "XLv580k1" = _XLv580k1;
         "uxu9u67r" = _uxu9u67r;
+        "x2KTJWdc" = _x2KTJWdc;
+        "lzuIbkqK" = _lzuIbkqK;
+        "2QvAT183" = _2QvAT183;
+        "2LHV7RZf" = _2LHV7RZf;
+        "PVbWsCJG" = _PVbWsCJG;
+        "bgUc5LFf" = _bgUc5LFf;
+        "V0WbvEi7" = _V0WbvEi7;
         "neoforge-1.20.6" = _jCOsEtnj;
         "neoforge-1.21.1" = _mrNOuP2n;
         "neoforge-1.21.4" = _Dx6sHZES;
         "neoforge-1.21.11" = _f6nNmb3A;
         "neoforge-26.2" = _uxu9u67r;
+        "neoforge-26.3" = _V0WbvEi7;
         "pkg-1.0.0" = _KUS8uslC;
         "pkg-1.0.1" = _txINVTxN;
         "pkg-1.0.2" = _RdexMi5O;
@@ -189,7 +232,14 @@ let
         "pkg-1.6.2" = _nnGXrphP;
         "pkg-1.6.3" = _XLv580k1;
         "pkg-1.6.4" = _uxu9u67r;
-        "default" = _uxu9u67r;
+        "pkg-1.6.5" = _x2KTJWdc;
+        "pkg-1.6.6" = _lzuIbkqK;
+        "pkg-1.6.7" = _2QvAT183;
+        "pkg-1.6.8" = _2LHV7RZf;
+        "pkg-1.6.9" = _PVbWsCJG;
+        "pkg-1.6.10" = _bgUc5LFf;
+        "pkg-1.7.0" = _V0WbvEi7;
+        "default" = _V0WbvEi7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mini-mob-trophy";

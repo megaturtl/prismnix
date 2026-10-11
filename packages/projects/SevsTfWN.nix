@@ -31,6 +31,11 @@ let
             "file" = "GlintColorizer-1.8.9-forge-2.0.1.jar";
             "hash" = "sha512-hj+3JNn3eYgGLliCKdY7THBOD4Qfkjity+BRr5M5Hsu7QySMjokELht7p+CPz8inr8iZqHnbcK+moceiFeuhjQ==";
         };
+        _zr9pqvBL = {
+            "id" = "zr9pqvBL";
+            "file" = "glintcolorizer-3.0.0+1.8.9.jar";
+            "hash" = "sha512-vc5bqs2/VgInkWcVWsjCLXCVtxZck0wtBzEYQUjylNfarLBJy4nAeFTXnHwV4Lj/SvmNdsO7vJ/6zqYvAd6c0w==";
+        };
     in {
         "Vhepxcqj" = _Vhepxcqj;
         "DnXdUxSe" = _DnXdUxSe;
@@ -38,13 +43,16 @@ let
         "h6we3nZT" = _h6we3nZT;
         "UkWDIZMQ" = _UkWDIZMQ;
         "i2vyXyRv" = _i2vyXyRv;
+        "zr9pqvBL" = _zr9pqvBL;
         "forge-1.8.9" = _i2vyXyRv;
         "forge-1.12.2" = _h6we3nZT;
+        "ornithe-1.8.9" = _zr9pqvBL;
         "pkg-v1.0.1" = _DnXdUxSe;
         "pkg-v1.0.2" = _h6we3nZT;
         "pkg-v2.0.0" = _UkWDIZMQ;
         "pkg-v2.0.1" = _i2vyXyRv;
-        "default" = _i2vyXyRv;
+        "pkg-v3.0.0" = _zr9pqvBL;
+        "default" = _zr9pqvBL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "glintcolorizer";

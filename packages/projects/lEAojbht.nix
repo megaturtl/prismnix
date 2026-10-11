@@ -36,6 +36,11 @@ let
             "file" = "npc-lib-mod.jar";
             "hash" = "sha512-+V1mria7xbkPtbGTFoZlnlYMLQJe/G69nBxnfy8XA1f8mDYx/zeuW7lnClhRuI2g+QnTgGFATlR4vXS/2TcvAQ==";
         };
+        _6TF8q52F = {
+            "id" = "6TF8q52F";
+            "file" = "npc-lib-fabric-3.0.0-beta.18.jar";
+            "hash" = "sha512-8KhtOmUhYEvqE6BYJl7YgJv6xJeC7xVSiDGW337RIOpg6AZ1ocQxJmTPljOwz5FerJ3c38cmY0kKXh/jzW2BYA==";
+        };
     in {
         "KHQWMkxl" = _KHQWMkxl;
         "QfO9WX9r" = _QfO9WX9r;
@@ -44,6 +49,7 @@ let
         "Xb6VwJat" = _Xb6VwJat;
         "aHTmGKnB" = _aHTmGKnB;
         "wOGZNA1H" = _wOGZNA1H;
+        "6TF8q52F" = _6TF8q52F;
         "fabric-1.21.4" = _KHQWMkxl;
         "fabric-1.21.5" = _QfO9WX9r;
         "fabric-1.21.6" = _FhI72t4T;
@@ -53,6 +59,7 @@ let
         "fabric-1.21.10" = _Xb6VwJat;
         "fabric-1.21.11" = _aHTmGKnB;
         "fabric-26.2" = _wOGZNA1H;
+        "fabric-26.3" = _6TF8q52F;
         "pkg-3.0.0-beta11" = _KHQWMkxl;
         "pkg-3.0.0-beta12" = _QfO9WX9r;
         "pkg-3.0.0-beta13" = _FhI72t4T;
@@ -60,7 +67,8 @@ let
         "pkg-3.0.0-beta.15" = _Xb6VwJat;
         "pkg-3.0.0-beta.16" = _aHTmGKnB;
         "pkg-3.0.0-beta.17" = _wOGZNA1H;
-        "default" = _wOGZNA1H;
+        "pkg-3.0.0-beta.18" = _6TF8q52F;
+        "default" = _6TF8q52F;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "npc-lib";

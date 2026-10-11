@@ -306,6 +306,26 @@ let
             "file" = "GoldenAgeCombat-v26.2.0-mc26.2.x-NeoForge.jar";
             "hash" = "sha512-tk0OtsnlRDy/ZqMKy1c6T2tyX46Abpq8XyR6l29UOeQPDenjJmvan6oYzwYpFBSszhzKz1zrkvBWNSQB5bKiKw==";
         };
+        _vG4apnCL = {
+            "id" = "vG4apnCL";
+            "file" = "goldenagecombat-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-h2eq78QrOizUgRhji1732C8zz8ktCSjnmiAXtU3WZhA8hZb7qBgEXpgDR4tGaQyQr90w8BOLiubCKcIBnoxmXg==";
+        };
+        _oobYxqRH = {
+            "id" = "oobYxqRH";
+            "file" = "goldenagecombat-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-VJWY1yGWQlFtvwxMqLEZsI0x32FVhHLO53T0NlyUb114LWx8cRqvyy1Pj6QfVBVDXyKMddoSLsaSMNy0CWSokg==";
+        };
+        _xeWVjQkt = {
+            "id" = "xeWVjQkt";
+            "file" = "goldenagecombat-v26.3.1-mc26.3.x+fabric.jar";
+            "hash" = "sha512-Cx2YKbLdT228tpSkTcxovQV8oUZWUfpfRg60zMxx7hHfndj+ocLdDYZt8UpSUVzQbpTXUfCXykkPk8FNfNunpQ==";
+        };
+        _EQFAjeNa = {
+            "id" = "EQFAjeNa";
+            "file" = "goldenagecombat-v26.3.1-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-lhuZL/uTdvwth0hIb0xWheI3ju/JpaJAgcxZtHneUiRzPtbp21yKowTFVSoTCiNfNyqXQNO895SXSdXAccJpQg==";
+        };
     in {
         "t5hBOMV3" = _t5hBOMV3;
         "G5ewuiFG" = _G5ewuiFG;
@@ -368,6 +388,10 @@ let
         "hGTJ7NO1" = _hGTJ7NO1;
         "weSmuBWh" = _weSmuBWh;
         "a6uSPHaY" = _a6uSPHaY;
+        "vG4apnCL" = _vG4apnCL;
+        "oobYxqRH" = _oobYxqRH;
+        "xeWVjQkt" = _xeWVjQkt;
+        "EQFAjeNa" = _EQFAjeNa;
         "forge-1.11.2" = _t5hBOMV3;
         "forge-1.12" = _t5hBOMV3;
         "forge-1.12.1" = _t5hBOMV3;
@@ -398,6 +422,7 @@ let
         "fabric-26.1.1" = _ybUCDgDK;
         "fabric-26.1.2" = _ybUCDgDK;
         "fabric-26.2" = _weSmuBWh;
+        "fabric-26.3" = _xeWVjQkt;
         "neoforge-1.20.4" = _4egyAA1F;
         "neoforge-1.21.1" = _xkWAUBub;
         "neoforge-1.21.3" = _cOxXYjML;
@@ -412,6 +437,7 @@ let
         "neoforge-26.1.1" = _hGTJ7NO1;
         "neoforge-26.1.2" = _hGTJ7NO1;
         "neoforge-26.2" = _a6uSPHaY;
+        "neoforge-26.3" = _EQFAjeNa;
         "pkg-v1.0.2-1.12.2" = _t5hBOMV3;
         "pkg-v1.2.3-1.12.2" = _G5ewuiFG;
         "pkg-v1.0.2-1.13.2" = _jV4CIAAG;
@@ -468,7 +494,9 @@ let
         "pkg-v21.1.3-1.21.1-NeoForge" = _xkWAUBub;
         "pkg-26.1.0" = _hGTJ7NO1;
         "pkg-26.2.0" = _a6uSPHaY;
-        "default" = _a6uSPHaY;
+        "pkg-26.3.0" = _oobYxqRH;
+        "pkg-26.3.1" = _EQFAjeNa;
+        "default" = _EQFAjeNa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "golden-age-combat";

@@ -86,6 +86,11 @@ let
             "file" = "SpawnElytra-2.6.1.jar";
             "hash" = "sha512-nFhrOwwfnuW1GoWSOwth6vuTbYvNZnEhbp82Md108UfxEEJl5yks53ydonAcHkJn/0JHCcyXOnSukD3w+dWhGQ==";
         };
+        _DJzvkLJR = {
+            "id" = "DJzvkLJR";
+            "file" = "SpawnElytra-Fabric-1.2.2.jar";
+            "hash" = "sha512-iIuBxrZWdymLrQykJ/988i1r8VmOnvsACeVH+HvmIMgA4NwQp07F4Lwaadu+LKqCW4TEIewqIUidNXLp/IAjEQ==";
+        };
     in {
         "EdskfBtM" = _EdskfBtM;
         "kVSYTUJE" = _kVSYTUJE;
@@ -104,6 +109,7 @@ let
         "jjFGGk9V" = _jjFGGk9V;
         "cAGwt7Qk" = _cAGwt7Qk;
         "h4gBR38x" = _h4gBR38x;
+        "DJzvkLJR" = _DJzvkLJR;
         "bukkit-1.21" = _h4gBR38x;
         "bukkit-1.21.1" = _h4gBR38x;
         "bukkit-1.21.2" = _h4gBR38x;
@@ -127,6 +133,7 @@ let
         "bukkit-26.1.1" = _h4gBR38x;
         "bukkit-26.1.2" = _h4gBR38x;
         "bukkit-26.2" = _h4gBR38x;
+        "bukkit-26.3" = _h4gBR38x;
         "paper-1.21" = _h4gBR38x;
         "paper-1.21.1" = _h4gBR38x;
         "paper-1.21.2" = _h4gBR38x;
@@ -150,6 +157,7 @@ let
         "paper-26.1.1" = _h4gBR38x;
         "paper-26.1.2" = _h4gBR38x;
         "paper-26.2" = _h4gBR38x;
+        "paper-26.3" = _h4gBR38x;
         "purpur-1.21" = _h4gBR38x;
         "purpur-1.21.1" = _h4gBR38x;
         "purpur-1.21.2" = _h4gBR38x;
@@ -173,6 +181,7 @@ let
         "purpur-26.1.1" = _h4gBR38x;
         "purpur-26.1.2" = _h4gBR38x;
         "purpur-26.2" = _h4gBR38x;
+        "purpur-26.3" = _h4gBR38x;
         "spigot-1.21" = _h4gBR38x;
         "spigot-1.21.1" = _h4gBR38x;
         "spigot-1.21.2" = _h4gBR38x;
@@ -196,6 +205,7 @@ let
         "spigot-26.1.1" = _h4gBR38x;
         "spigot-26.1.2" = _h4gBR38x;
         "spigot-26.2" = _h4gBR38x;
+        "spigot-26.3" = _h4gBR38x;
         "fabric-1.20" = _GraJI7NJ;
         "fabric-1.20.1" = _GraJI7NJ;
         "fabric-1.20.2" = _GraJI7NJ;
@@ -215,8 +225,9 @@ let
         "fabric-1.21.9" = _GraJI7NJ;
         "fabric-1.21.10" = _GraJI7NJ;
         "fabric-1.21.11" = _GraJI7NJ;
-        "fabric-26.1.2" = _jjFGGk9V;
-        "fabric-26.2" = _jjFGGk9V;
+        "fabric-26.1.2" = _DJzvkLJR;
+        "fabric-26.2" = _DJzvkLJR;
+        "fabric-26.3" = _DJzvkLJR;
         "pkg-2.0.0" = _EdskfBtM;
         "pkg-2.1.0" = _kVSYTUJE;
         "pkg-2.2.0" = _sGj7Zuk7;
@@ -234,7 +245,8 @@ let
         "pkg-1.2.1" = _jjFGGk9V;
         "pkg-2.6.0" = _cAGwt7Qk;
         "pkg-2.6.1" = _h4gBR38x;
-        "default" = _h4gBR38x;
+        "pkg-1.2.2" = _DJzvkLJR;
+        "default" = _DJzvkLJR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spawnelytra";

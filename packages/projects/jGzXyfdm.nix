@@ -366,6 +366,11 @@ let
             "file" = "minecraft-access-1.12.0.jar";
             "hash" = "sha512-Bs5BKYwkCK0FmpzexgHR2zHqtBj0oLKGFqMlM3GRxh1MZ+oHaRmzbK3R7xyDOH2OOgVzyQbpEPZHw/HcATGZVg==";
         };
+        _AcOb5iRO = {
+            "id" = "AcOb5iRO";
+            "file" = "minecraft-access-1.12.1.jar";
+            "hash" = "sha512-Gn2D7sZ8wO/fVILWTY8it+FV0Z/LovMc2zGbTDPFQBmwUT5gCsziqPK5/N6EFKzzYqxgbUw3Yo512yELQLnPuw==";
+        };
     in {
         "2cPt6OJm" = _2cPt6OJm;
         "FujZJG8D" = _FujZJG8D;
@@ -440,6 +445,7 @@ let
         "24EeKfcR" = _24EeKfcR;
         "9DZ5T0PK" = _9DZ5T0PK;
         "nEan6YDz" = _nEan6YDz;
+        "AcOb5iRO" = _AcOb5iRO;
         "fabric-1.19.3" = _eRvjWsUp;
         "fabric-1.20.1" = _P6bG9Yy3;
         "fabric-1.20.4" = _Y98o1wRl;
@@ -453,6 +459,7 @@ let
         "fabric-1.21.10" = _KFvXVlRV;
         "fabric-1.21.11" = _24EeKfcR;
         "fabric-26.2" = _nEan6YDz;
+        "fabric-26.3" = _AcOb5iRO;
         "forge-1.19.3" = _uLUTt8wD;
         "forge-1.20.1" = _7AHybrra;
         "forge-1.20.4" = _NLM6nTOE;
@@ -465,6 +472,7 @@ let
         "neoforge-1.21.10" = _ccKXuI1W;
         "neoforge-1.21.11" = _B0P9TIjV;
         "neoforge-26.2" = _nEan6YDz;
+        "neoforge-26.3" = _AcOb5iRO;
         "pkg-1.0.0+fabric" = _2cPt6OJm;
         "pkg-1.0.0+forge" = _FujZJG8D;
         "pkg-1.0.1-beta.1" = _lpX5bgrW;
@@ -536,7 +544,8 @@ let
         "pkg-1.12.0-alpha.2+fabric" = _24EeKfcR;
         "pkg-1.12.0-beta.1" = _9DZ5T0PK;
         "pkg-1.12.0" = _nEan6YDz;
-        "default" = _nEan6YDz;
+        "pkg-1.12.1" = _AcOb5iRO;
+        "default" = _AcOb5iRO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "minecraft-access";

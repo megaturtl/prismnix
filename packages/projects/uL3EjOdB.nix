@@ -96,6 +96,21 @@ let
             "file" = "TextTunnels-1.3.5+1.26.2.jar";
             "hash" = "sha512-njqVRqgU6eKRtS8EfPHrY2SR9dB+JIUDIOxaidYYn9jue0iyRaYMpcOQ1JWvTfn2LZ93VwycOYfE9VdCt9Hzlg==";
         };
+        _FIc7zs9c = {
+            "id" = "FIc7zs9c";
+            "file" = "TextTunnels-1.3.5+26.3.jar";
+            "hash" = "sha512-Y6dY0492FaAdps0lvvaX6CbPJK4G7JmeAB1FzPF/xPG0v8rNsaU0dJUFGOpSUEn1XQ5R7DzWpXBcIRPGXEoh8A==";
+        };
+        _UTIXiaZN = {
+            "id" = "UTIXiaZN";
+            "file" = "TextTunnels-1.4.0+26.3.jar";
+            "hash" = "sha512-NE0uVzALSiXJtJchZfp2M9+JD6GL0QqSPzsJv1SFIpEHyD+/t2E+pCwBreyDohIS4iSvj8aL83Pc8fZbIHVSSQ==";
+        };
+        _7Wj5y9jK = {
+            "id" = "7Wj5y9jK";
+            "file" = "TextTunnels-1.4.0+1.21.11.jar";
+            "hash" = "sha512-xV5LwvzXBZuuE5WtsrlnH0OMmoXKdyMlciW8+GoNE1lzc9T6/mRYWFI6UWEb9xNXPZ1WkI9XMBjiATooiPaX4Q==";
+        };
     in {
         "ik5fw6jy" = _ik5fw6jy;
         "S6Wnv3du" = _S6Wnv3du;
@@ -116,6 +131,9 @@ let
         "7fwrWZA8" = _7fwrWZA8;
         "9dNqOlwH" = _9dNqOlwH;
         "oUMejNDy" = _oUMejNDy;
+        "FIc7zs9c" = _FIc7zs9c;
+        "UTIXiaZN" = _UTIXiaZN;
+        "7Wj5y9jK" = _7Wj5y9jK;
         "fabric-1.21.3" = _zKs8NewY;
         "fabric-1.21" = _zKs8NewY;
         "fabric-1.21.1" = _zKs8NewY;
@@ -127,11 +145,12 @@ let
         "fabric-1.21.8" = _3l63ewZ6;
         "fabric-1.21.9" = _od31ewRH;
         "fabric-1.21.10" = _od31ewRH;
-        "fabric-1.21.11" = _NkI0v4Ab;
+        "fabric-1.21.11" = _7Wj5y9jK;
         "fabric-26.1" = _YswR72ze;
         "fabric-26.1.1" = _YswR72ze;
         "fabric-26.1.2" = _YswR72ze;
         "fabric-26.2" = _oUMejNDy;
+        "fabric-26.3" = _UTIXiaZN;
         "pkg-1.0.0" = _S6Wnv3du;
         "pkg-1.0.1" = _X6oAh7cb;
         "pkg-1.0.2" = _6tig6CF5;
@@ -149,7 +168,10 @@ let
         "pkg-1.3.3+1.26.2" = _7fwrWZA8;
         "pkg-1.3.4+1.26.2" = _9dNqOlwH;
         "pkg-1.3.5+1.26.2" = _oUMejNDy;
-        "default" = _oUMejNDy;
+        "pkg-1.3.5+26.3" = _FIc7zs9c;
+        "pkg-1.4.0+26.3" = _UTIXiaZN;
+        "pkg-1.4.0+1.21.11" = _7Wj5y9jK;
+        "default" = _7Wj5y9jK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "text-tunnels";

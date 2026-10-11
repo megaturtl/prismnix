@@ -836,6 +836,26 @@ let
             "file" = "advancednetherite-neoforge-2.4.2-26.2.jar";
             "hash" = "sha512-0csPV+d668yjWOWEwM/Y7bDSBTqTrxPj2u8II/rJcbT4RO5nYe1qUVKBCmulMjhBuz15DGdvDIXrx/BqET3rog==";
         };
+        _Qxv1ndf9 = {
+            "id" = "Qxv1ndf9";
+            "file" = "advancednetherite-fabric-2.4.3-26.3.jar";
+            "hash" = "sha512-/PXwtYtMh5/UwFw6M9Xp3wAuF3Yfah0JqNOb790X3sbXrHT186R9DrAcIIImB/6EKqCPz7upV6CEermMVgUh5A==";
+        };
+        _m1kiL86O = {
+            "id" = "m1kiL86O";
+            "file" = "advancednetherite-neoforge-2.4.3-26.3.jar";
+            "hash" = "sha512-GzqYe14ls95zcFpySwWssu/i2WkRCUsa8Q9jCX5zNLMfL5mNrGm0MfqzElP3HgP1jOSrE+kaY7RAYXSqUw4xkA==";
+        };
+        _B1BwWD6L = {
+            "id" = "B1BwWD6L";
+            "file" = "advancednetherite-fabric-2.4.4-26.3.jar";
+            "hash" = "sha512-keDT2RYh2uDcfergQe00GKTbgFgAGbFS2VIrZDHqy0snzSN1Pk1ryXWqnYJafvmRFsY2PrGRdGzKoMjknRdVJA==";
+        };
+        _oTOE7dCV = {
+            "id" = "oTOE7dCV";
+            "file" = "advancednetherite-neoforge-2.4.4-26.3.jar";
+            "hash" = "sha512-BtgA7SzDvMH/zq6FmPEZJx7rAhrIJsCt33Mz8WIONCnRMapH49gbkejBFmiXaffYSoMODJcQgdj8dusjJcsA9w==";
+        };
     in {
         "CAiwvwIU" = _CAiwvwIU;
         "nH7AsqWn" = _nH7AsqWn;
@@ -1004,6 +1024,10 @@ let
         "yvbzX6CA" = _yvbzX6CA;
         "5lXHbz4w" = _5lXHbz4w;
         "JBg5bHJd" = _JBg5bHJd;
+        "Qxv1ndf9" = _Qxv1ndf9;
+        "m1kiL86O" = _m1kiL86O;
+        "B1BwWD6L" = _B1BwWD6L;
+        "oTOE7dCV" = _oTOE7dCV;
         "forge-1.17.1" = _CAiwvwIU;
         "forge-1.18.1" = _nH7AsqWn;
         "forge-1.16.5" = _Bi7nYNRv;
@@ -1059,6 +1083,7 @@ let
         "fabric-1.21.11" = _i62tulJa;
         "fabric-26.1.2" = _vudH2Rjv;
         "fabric-26.2" = _5lXHbz4w;
+        "fabric-26.3" = _B1BwWD6L;
         "neoforge-1.20.4" = _Nu8sDOz7;
         "neoforge-1.20.5" = _Pc9NoX06;
         "neoforge-1.20.6" = _Pc9NoX06;
@@ -1075,6 +1100,7 @@ let
         "neoforge-1.21.11" = _1hr3mBSY;
         "neoforge-26.1.2" = _yvbzX6CA;
         "neoforge-26.2" = _JBg5bHJd;
+        "neoforge-26.3" = _oTOE7dCV;
         "pkg-forge-1.10.2-1.17.1" = _CAiwvwIU;
         "pkg-forge-1.10.2-1.18.1" = _nH7AsqWn;
         "pkg-fabric-1.4.1-1.18.x" = _eYDOmycK;
@@ -1242,7 +1268,11 @@ let
         "pkg-neoforge-2.4.1-mc26.1.2" = _yvbzX6CA;
         "pkg-fabric-2.4.2-mc26.2" = _5lXHbz4w;
         "pkg-neoforge-2.4.2-mc26.2" = _JBg5bHJd;
-        "default" = _JBg5bHJd;
+        "pkg-fabric-2.4.3-mc26.3" = _Qxv1ndf9;
+        "pkg-neoforge-2.4.3-mc26.3" = _m1kiL86O;
+        "pkg-fabric-2.4.4-mc26.3" = _B1BwWD6L;
+        "pkg-neoforge-2.4.4-mc26.3" = _oTOE7dCV;
+        "default" = _oTOE7dCV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "advanced-netherite";

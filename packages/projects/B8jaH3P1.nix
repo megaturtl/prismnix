@@ -756,6 +756,21 @@ let
             "file" = "mcw-roofs-2.3.3-mc26.2fabric.jar";
             "hash" = "sha512-u0pm6Mfe+FQ23pkED2vkRpiHTGqsenCLTDm6T8cPl9C/omRSARjWzFoiH3FC5BnGUvGrKINLg39KSWhmX3ktIQ==";
         };
+        _yNXIY14C = {
+            "id" = "yNXIY14C";
+            "file" = "mcw-roofs-2.3.3-mc26.3fabric.jar";
+            "hash" = "sha512-AWzLqSIAF7YFHWsgOJKtunF8nPYupbsLsgH24/pJkDbt0CJwGx5WNvuW7fZr8n5pUdyWl7CGgz+ZBsK0B41Kgg==";
+        };
+        _lmUmMs9j = {
+            "id" = "lmUmMs9j";
+            "file" = "mcw-roofs-2.3.3-mc26.3forge.jar";
+            "hash" = "sha512-vfZGI3fKxYS1ki3FSl6loDz+f2gXYWBRy8nC2hSp9Kd5W/lnguldp7Ch1u0BB1EUa1+kc186OzLqKQDY7caWDw==";
+        };
+        _BvcpY8hI = {
+            "id" = "BvcpY8hI";
+            "file" = "mcw-roofs-2.3.3-mc26.3neoforge.jar";
+            "hash" = "sha512-5gevSiPSNXCMIX8vbp1hnHjlkA6D8b/JdeuiEgtckONELe1dTtrwQfrLCoQGJZ5RpH8YIk/Q+pFbnKGPYu5xwA==";
+        };
     in {
         "V3wQgjB8" = _V3wQgjB8;
         "r1D4KGAK" = _r1D4KGAK;
@@ -908,6 +923,9 @@ let
         "6CPeMKMV" = _6CPeMKMV;
         "8LrM6fk1" = _8LrM6fk1;
         "2NEmd2hl" = _2NEmd2hl;
+        "yNXIY14C" = _yNXIY14C;
+        "lmUmMs9j" = _lmUmMs9j;
+        "BvcpY8hI" = _BvcpY8hI;
         "fabric-1.18.2" = _V3BCBIn9;
         "fabric-1.19" = _Vt1sDE7O;
         "fabric-1.19.1" = _ACPQqoWe;
@@ -935,6 +953,7 @@ let
         "fabric-26.1.1" = _nOoMKDXX;
         "fabric-26.1.2" = _nOoMKDXX;
         "fabric-26.2" = _2NEmd2hl;
+        "fabric-26.3" = _yNXIY14C;
         "forge-1.16.5" = _CXKSEWRa;
         "forge-1.17.1" = _d8fLLPzV;
         "forge-1.18.1" = _TkSLdF61;
@@ -965,6 +984,7 @@ let
         "forge-26.1.1" = _2nGY5lbQ;
         "forge-26.1.2" = _2nGY5lbQ;
         "forge-26.2" = _6CPeMKMV;
+        "forge-26.3" = _lmUmMs9j;
         "neoforge-1.20.4" = _CWBXNj3Z;
         "neoforge-1.20.6" = _6K0eVeLx;
         "neoforge-1.21" = _WC7Aygiw;
@@ -982,13 +1002,14 @@ let
         "neoforge-26.1.1" = _ZtZ8Uqps;
         "neoforge-26.1.2" = _ZtZ8Uqps;
         "neoforge-26.2" = _8LrM6fk1;
+        "neoforge-26.3" = _BvcpY8hI;
         "pkg-2.2.4" = _UxqQQgSF;
         "pkg-2.2.4b" = _oftyo1bU;
         "pkg-2.3.0" = _QkkWyPgl;
         "pkg-2.3.1" = _lTu5OeI0;
-        "pkg-2.3.2" = _2NEmd2hl;
+        "pkg-2.3.2" = _BvcpY8hI;
         "pkg-2.3.3" = _6CPeMKMV;
-        "default" = _2NEmd2hl;
+        "default" = _BvcpY8hI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "macaws-roofs";

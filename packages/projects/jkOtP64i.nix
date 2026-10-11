@@ -101,6 +101,16 @@ let
             "file" = "bookcopy-fabric-0.2.0-26.2.jar";
             "hash" = "sha512-ddeC89Y3otEUHwV+D6z+nLBHC8pZ69o9zfRzs2WATAyhIW1jgBErhC6CZguBBz1B+HfbDyaX6rcWiLLFWkPkrg==";
         };
+        _NAXS8hL6 = {
+            "id" = "NAXS8hL6";
+            "file" = "bookcopy-fabric-0.2.0-26.3.jar";
+            "hash" = "sha512-PrEoHZAFHJXqdzClgN6Gs0vpUwBpvTrcaTMyA8wTAQEjDlQKVjjKpcv9Ioa0RotadeDFAiN0+Lcu7p4xzADexQ==";
+        };
+        _r8ynORqN = {
+            "id" = "r8ynORqN";
+            "file" = "bookcopy-neoforge-0.2.0-26.3.jar";
+            "hash" = "sha512-iqq/H1oqWl882JVCtiWAepYO+CCE5bN1FH49cGfpyo38CLnGqjWAACmY292bJSu4mZHMqOmDPFh4M5o7iJcZig==";
+        };
     in {
         "r0FkJERZ" = _r0FkJERZ;
         "cLk827py" = _cLk827py;
@@ -122,6 +132,8 @@ let
         "HSCc6R4y" = _HSCc6R4y;
         "FfQF0Pc9" = _FfQF0Pc9;
         "g41VILvD" = _g41VILvD;
+        "NAXS8hL6" = _NAXS8hL6;
+        "r8ynORqN" = _r8ynORqN;
         "fabric-1.20.4" = _oU73Qwhz;
         "fabric-1.20.1" = _cLk827py;
         "fabric-1.20.5" = _JblRcoEW;
@@ -142,10 +154,12 @@ let
         "fabric-26.1.1" = _HSCc6R4y;
         "fabric-26.1.2" = _HSCc6R4y;
         "fabric-26.2" = _g41VILvD;
+        "fabric-26.3" = _NAXS8hL6;
         "neoforge-26.1" = _njx2LBI8;
         "neoforge-26.1.1" = _njx2LBI8;
         "neoforge-26.1.2" = _njx2LBI8;
         "neoforge-26.2" = _FfQF0Pc9;
+        "neoforge-26.3" = _r8ynORqN;
         "pkg-0.1.0-1.20.4" = _r0FkJERZ;
         "pkg-0.1.1-1.20.1" = _cLk827py;
         "pkg-0.1.1-1.20.4" = _oU73Qwhz;
@@ -164,7 +178,8 @@ let
         "pkg-0.1.2-1.21.11" = _nAJpaoEH;
         "pkg-0.2.0-26.1.1" = _HSCc6R4y;
         "pkg-0.2.0-26.2" = _g41VILvD;
-        "default" = _g41VILvD;
+        "pkg-0.2.0-26.3" = _r8ynORqN;
+        "default" = _r8ynORqN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "book-copy";

@@ -91,6 +91,16 @@ let
             "file" = "elytra-chestplate-swapper-2.1.0-MC26.3-fabric.jar";
             "hash" = "sha512-+Y7Rvq7v68SZAWbLb3EI3zDIcpigDc1SphYkOpSL4Cvz7JbbwZVHiZdkFruXskMnH7wSHZOLrGGeXzR6k1xXPg==";
         };
+        _ufpfEvoe = {
+            "id" = "ufpfEvoe";
+            "file" = "elytra-chestplate-swapper-2.1.0-MC26.3-forge.jar";
+            "hash" = "sha512-64gGUlI/0a13HUjc20AjGlNuI97xmEPMwZGAbw52lAQbCbuTaqXpLUT2X4ex788LaCfTCRH5OdU8QTMx/D5fPw==";
+        };
+        _wv9gqWjG = {
+            "id" = "wv9gqWjG";
+            "file" = "elytra-chestplate-swapper-2.1.0-MC26.3-neoforge.jar";
+            "hash" = "sha512-zWJLjFonzgtPwhGhlqlbwapiqxUFOiQUS6W2BRawzWUvSst4LxaB61w/qEHimk93PICiZOcgI8peUYBBo64YnA==";
+        };
     in {
         "8gPVRPn4" = _8gPVRPn4;
         "KNIJoUBe" = _KNIJoUBe;
@@ -110,6 +120,8 @@ let
         "c8TmPqq2" = _c8TmPqq2;
         "JYyvfr52" = _JYyvfr52;
         "aeL0Bu90" = _aeL0Bu90;
+        "ufpfEvoe" = _ufpfEvoe;
+        "wv9gqWjG" = _wv9gqWjG;
         "fabric-1.21.7" = _8gPVRPn4;
         "fabric-1.21.6" = _KNIJoUBe;
         "fabric-1.21.5" = _s8aFahyN;
@@ -133,7 +145,9 @@ let
         "quilt-26.2" = _a7RbMiZ3;
         "quilt-26.3" = _aeL0Bu90;
         "neoforge-26.2" = _c8TmPqq2;
+        "neoforge-26.3" = _wv9gqWjG;
         "forge-26.2" = _JYyvfr52;
+        "forge-26.3" = _ufpfEvoe;
         "pkg-2.0.0+1.21.7" = _8gPVRPn4;
         "pkg-2.0.0+1.21.6" = _KNIJoUBe;
         "pkg-2.0.0+1.21.5" = _s8aFahyN;
@@ -152,7 +166,9 @@ let
         "pkg-2.1.0+26.2-neoforge" = _c8TmPqq2;
         "pkg-2.1.0+26.2-forge" = _JYyvfr52;
         "pkg-2.1.0+26.3-fabric" = _aeL0Bu90;
-        "default" = _aeL0Bu90;
+        "pkg-2.1.0+26.3-forge" = _ufpfEvoe;
+        "pkg-2.1.0+26.3-neoforge" = _wv9gqWjG;
+        "default" = _wv9gqWjG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elytra-chestplate-swapper";

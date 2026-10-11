@@ -231,6 +231,16 @@ let
             "file" = "nekoui-26.2-2.1.0-26083000-Neo-all.jar";
             "hash" = "sha512-Ajkq4JUaKc/3O49GM4eIaa6GXBSLZ+0mEzhk2cuBSkQT5FDAk5vCFhvI2OLDMIaFnRu7EcCGjSrsZRYW5xsncQ==";
         };
+        _3NDPBM53 = {
+            "id" = "3NDPBM53";
+            "file" = "nekoui-26.3-2.1.0-26100100-Neo-all.jar";
+            "hash" = "sha512-GQlE2ePSFnv566m37tknY2HHUeL+LhG4JgRPdMBq1oGpnjz7hUs3grbOno6hfJMmYYbG2i196Heev8HvOCZJYA==";
+        };
+        _rBWhqPCs = {
+            "id" = "rBWhqPCs";
+            "file" = "nekoui-26.3-2.1.0-26100600-all.jar";
+            "hash" = "sha512-fuGTeYWYwPPiR2qCgJGfNg14tr9Ra4aL336zK9Tja+jlbMRE9Okz6iJNz59NEZK5wCfgv+Pg2coytwN+SQ4QHg==";
+        };
     in {
         "GzrqGwOG" = _GzrqGwOG;
         "fxxMwucR" = _fxxMwucR;
@@ -278,6 +288,8 @@ let
         "50yfPB1v" = _50yfPB1v;
         "ffIqE0xX" = _ffIqE0xX;
         "XektIgGi" = _XektIgGi;
+        "3NDPBM53" = _3NDPBM53;
+        "rBWhqPCs" = _rBWhqPCs;
         "neoforge-1.21" = _jeyV8WAP;
         "neoforge-1.20.1" = _5NNHQ7NR;
         "neoforge-1.21.1" = _2oFdjyMV;
@@ -291,6 +303,7 @@ let
         "neoforge-26.1.1" = _ffIqE0xX;
         "neoforge-26.1.2" = _mtVhxi1j;
         "neoforge-26.2" = _XektIgGi;
+        "neoforge-26.3" = _3NDPBM53;
         "forge-1.21" = _fxxMwucR;
         "forge-1.20.1" = _50yfPB1v;
         "forge-1.21.1" = _FzLsFeLA;
@@ -300,6 +313,7 @@ let
         "forge-26.1.1" = _OD9Cj3xr;
         "forge-26.1.2" = _OD9Cj3xr;
         "forge-26.2" = _WB74LzHR;
+        "forge-26.3" = _rBWhqPCs;
         "pkg-0.0.18" = _GzrqGwOG;
         "pkg-1.21-0.0.21" = _fxxMwucR;
         "pkg-1.21-0.0.21-neoforge" = _8Xru0Tg8;
@@ -346,7 +360,9 @@ let
         "pkg-1.20.1-2.0.0-26072400" = _50yfPB1v;
         "pkg-26.1.1-2.1.0-26082800-Neo" = _ffIqE0xX;
         "pkg-26.2-2.1.0-26083000-Neo" = _XektIgGi;
-        "default" = _XektIgGi;
+        "pkg-26.3-2.1.0-26100100-Neo" = _3NDPBM53;
+        "pkg-26.3-2.1.0-26100600" = _rBWhqPCs;
+        "default" = _rBWhqPCs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "neko-ui";

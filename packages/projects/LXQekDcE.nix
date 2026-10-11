@@ -191,6 +191,26 @@ let
             "file" = "celeritasextra-0.7.1.jar";
             "hash" = "sha512-I186dbM09myJbnaDkVxBu06CIGM+DF3WdmtQar07aIAmptU918EPUL5ie4gzl+BJRZ9zs4mQJAPGntofL3sDwg==";
         };
+        _chDXcLjd = {
+            "id" = "chDXcLjd";
+            "file" = "celeritasextra-0.8.0.jar";
+            "hash" = "sha512-vB8hU8DyI5Wn9tfhwag8zYDLM0HTiQcj5ddDRmVyN9OVpYdFJ8P2ZTYQ0XPMREzo49U5XkOSHpeU/tTQ9nxPwQ==";
+        };
+        _8cxFDyuz = {
+            "id" = "8cxFDyuz";
+            "file" = "celeritasextra-0.9.0.jar";
+            "hash" = "sha512-n1XYHcIHz1tf75DyqHRG6uF+YBndQ07iLP3M3eBULk3tAhwNkZ1iNK2zyy234032ui5zB+ReD0WIacKLRUwgGg==";
+        };
+        _HioeVvRo = {
+            "id" = "HioeVvRo";
+            "file" = "celeritasextra-0.9.1.jar";
+            "hash" = "sha512-raoaj2ZaXkCI24EfIO2IFX+bXLcqXcazB30//CwBqGh66LSmXn4JqaRlgHfi35gO2kbKJuL0uOuFFJrDGXPqeA==";
+        };
+        _3BLUqUxg = {
+            "id" = "3BLUqUxg";
+            "file" = "celeritasextra-0.9.2.jar";
+            "hash" = "sha512-1jVwGtxNqux805AymCpG42QuLMhb9F3K3YqMyHszJcDyFhiuIz1Xwpn+4L1AfP9sqoO4wvs4lao5JyiWyJdkuQ==";
+        };
     in {
         "INpuMbav" = _INpuMbav;
         "3OEozHAA" = _3OEozHAA;
@@ -230,7 +250,11 @@ let
         "dhCK19Uk" = _dhCK19Uk;
         "Wj8NVUJT" = _Wj8NVUJT;
         "pvAJGBXK" = _pvAJGBXK;
-        "forge-1.12.2" = _pvAJGBXK;
+        "chDXcLjd" = _chDXcLjd;
+        "8cxFDyuz" = _8cxFDyuz;
+        "HioeVvRo" = _HioeVvRo;
+        "3BLUqUxg" = _3BLUqUxg;
+        "forge-1.12.2" = _3BLUqUxg;
         "pkg-0.1.0" = _INpuMbav;
         "pkg-0.1.1" = _3OEozHAA;
         "pkg-0.1.2" = _ESia4gCX;
@@ -269,7 +293,11 @@ let
         "pkg-0.6.3" = _dhCK19Uk;
         "pkg-0.7.0" = _Wj8NVUJT;
         "pkg-0.7.1" = _pvAJGBXK;
-        "default" = _pvAJGBXK;
+        "pkg-0.8.0" = _chDXcLjd;
+        "pkg-0.9.0" = _8cxFDyuz;
+        "pkg-0.9.1" = _HioeVvRo;
+        "pkg-0.9.2" = _3BLUqUxg;
+        "default" = _3BLUqUxg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "celeritas-extra";

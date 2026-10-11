@@ -36,6 +36,11 @@ let
             "file" = "8x8.zip";
             "hash" = "sha512-aU4FXi4RX20Zl8oOE8+6L2ssddx9pmrcznLlSfe1Tko7PnGF1MAH3WV0MvksoiKgmdbPwP/pidZYWmlrhAfZEg==";
         };
+        _cFMoNjBn = {
+            "id" = "cFMoNjBn";
+            "file" = "8x8.zip";
+            "hash" = "sha512-s6FfjruOLCzjIx/BxX9oWlx5L0C/G9DtUWV6Ai3q8NSrJVNayTXgq/+mDyyggFUMmFGuiWBW3QU77Sbb5Tjc4g==";
+        };
     in {
         "WTK7CY7k" = _WTK7CY7k;
         "qFdsCtpU" = _qFdsCtpU;
@@ -44,6 +49,7 @@ let
         "naTBOISn" = _naTBOISn;
         "Jei4kTDm" = _Jei4kTDm;
         "FDTvlWKd" = _FDTvlWKd;
+        "cFMoNjBn" = _cFMoNjBn;
         "minecraft-1.21" = _FDTvlWKd;
         "minecraft-1.21.1" = _FDTvlWKd;
         "minecraft-1.21.2" = _FDTvlWKd;
@@ -55,7 +61,7 @@ let
         "minecraft-1.21.8" = _FDTvlWKd;
         "minecraft-1.21.9" = _FDTvlWKd;
         "minecraft-1.21.10" = _FDTvlWKd;
-        "minecraft-1.21.11" = _FDTvlWKd;
+        "minecraft-1.21.11" = _cFMoNjBn;
         "minecraft-1.20" = _naTBOISn;
         "minecraft-1.20.1" = _naTBOISn;
         "minecraft-1.20.2" = _naTBOISn;
@@ -79,10 +85,11 @@ let
         "minecraft-1.16.3" = _naTBOISn;
         "minecraft-1.16.4" = _naTBOISn;
         "minecraft-1.16.5" = _naTBOISn;
-        "minecraft-26.1" = _FDTvlWKd;
-        "minecraft-26.1.1" = _FDTvlWKd;
-        "minecraft-26.1.2" = _FDTvlWKd;
-        "minecraft-26.2" = _FDTvlWKd;
+        "minecraft-26.1" = _cFMoNjBn;
+        "minecraft-26.1.1" = _cFMoNjBn;
+        "minecraft-26.1.2" = _cFMoNjBn;
+        "minecraft-26.2" = _cFMoNjBn;
+        "minecraft-26.3" = _cFMoNjBn;
         "pkg-1.0-beta" = _WTK7CY7k;
         "pkg-1.1-beta" = _qFdsCtpU;
         "pkg-1.0-release" = _NrfTIdN3;
@@ -90,7 +97,8 @@ let
         "pkg-1.0.2-release" = _naTBOISn;
         "pkg-26.2" = _Jei4kTDm;
         "pkg-26.2.1" = _FDTvlWKd;
-        "default" = _FDTvlWKd;
+        "pkg-26.3.0" = _cFMoNjBn;
+        "default" = _cFMoNjBn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "8x8-textures";

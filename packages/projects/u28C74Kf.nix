@@ -106,6 +106,26 @@ let
             "file" = "BetterEquipment-1.1.1-26.1-NeoForge.jar";
             "hash" = "sha512-l4f4bZcy7u9cAuY/ALMADpIFQAR7SR9nPuDrpA4iZ2H9TkNXRkC7fsFywokEtgJJzoQVDe9usawl18Zmzzktdw==";
         };
+        _jVVaxx3M = {
+            "id" = "jVVaxx3M";
+            "file" = "BetterEquipment-common-26.3-unspecified.zip";
+            "hash" = "sha512-+CzrhImjIeDTpmlzmaW+0EH1gUV7Uxla5Qucho6dbu4+EjAOR15k9traFeSFZl+Aj6RjqfA+V7FC6Et1OpoWHA==";
+        };
+        _LGjHLkka = {
+            "id" = "LGjHLkka";
+            "file" = "BetterEquipment-1.1.1-26.3-Fabric.jar";
+            "hash" = "sha512-tbBKuRDBMMlkPY2GuqlE0bV8crzZ3O8+Vog0T6q3jnD5fNAK/II4zjYmPVwjC792gSgph0S/fcqWK4XcH6GrYg==";
+        };
+        _UdaPh3RL = {
+            "id" = "UdaPh3RL";
+            "file" = "BetterEquipment-1.1.1-26.3-NeoForge.jar";
+            "hash" = "sha512-NRYawuIFCF68ayvKZeaMNpdcvMyu+suH6gjZSGFbnFZ39o8o2PfKJYMYtFodm2mGdgYFZDwxejGsfQmi2gBc3w==";
+        };
+        _v65BAr9c = {
+            "id" = "v65BAr9c";
+            "file" = "BetterEquipment-1.1.1-26.3-Forge.jar";
+            "hash" = "sha512-rfoEpi9dVeSg8rzkB5hLFDo1jxCzNeZuvfiOLUkXj/2f/02/FV74nOHToVmXUFUodreOMW3egRXe3NPG4HTXNg==";
+        };
     in {
         "8hsxVoeP" = _8hsxVoeP;
         "srq8iFio" = _srq8iFio;
@@ -128,6 +148,10 @@ let
         "IEdrm4Xv" = _IEdrm4Xv;
         "6prT64dP" = _6prT64dP;
         "TROElHor" = _TROElHor;
+        "jVVaxx3M" = _jVVaxx3M;
+        "LGjHLkka" = _LGjHLkka;
+        "UdaPh3RL" = _UdaPh3RL;
+        "v65BAr9c" = _v65BAr9c;
         "fabric-1.16" = _8hsxVoeP;
         "fabric-1.16.1" = _8hsxVoeP;
         "fabric-1.16.2" = _8hsxVoeP;
@@ -162,6 +186,7 @@ let
         "fabric-26.1.1" = _4gFyTY5T;
         "fabric-26.1.2" = _4gFyTY5T;
         "fabric-26.2" = _4gFyTY5T;
+        "fabric-26.3" = _LGjHLkka;
         "quilt-1.16" = _8hsxVoeP;
         "quilt-1.16.1" = _8hsxVoeP;
         "quilt-1.16.2" = _8hsxVoeP;
@@ -215,6 +240,7 @@ let
         "forge-26.1.1" = _6prT64dP;
         "forge-26.1.2" = _6prT64dP;
         "forge-26.2" = _6prT64dP;
+        "forge-26.3" = _v65BAr9c;
         "neoforge-1.21" = _dRFm5qTc;
         "neoforge-1.21.1" = _dRFm5qTc;
         "neoforge-1.21.2" = _86BOX6Mt;
@@ -231,6 +257,7 @@ let
         "neoforge-26.1.1" = _TROElHor;
         "neoforge-26.1.2" = _TROElHor;
         "neoforge-26.2" = _TROElHor;
+        "neoforge-26.3" = _UdaPh3RL;
         "datapack-1.20" = _uIsX4wfv;
         "datapack-1.20.1" = _uIsX4wfv;
         "datapack-1.20.2" = _uIsX4wfv;
@@ -252,6 +279,7 @@ let
         "datapack-26.1.1" = _bL6179Lt;
         "datapack-26.1.2" = _bL6179Lt;
         "datapack-26.2" = _bL6179Lt;
+        "datapack-26.3" = _jVVaxx3M;
         "pkg-1.0.0-1.16-1.19.4" = _8hsxVoeP;
         "pkg-1.0.0-1.20.1" = _srq8iFio;
         "pkg-1.0.0-1.17-1.19.4" = _8LO7wvIR;
@@ -273,7 +301,11 @@ let
         "pkg-1.1.0-26.1-Forge" = _IEdrm4Xv;
         "pkg-1.1.1-26.1-Forge" = _6prT64dP;
         "pkg-1.1.1-26.1-NeoForge" = _TROElHor;
-        "default" = _TROElHor;
+        "pkg-26.3" = _jVVaxx3M;
+        "pkg-1.1.1-26.3-Fabric" = _LGjHLkka;
+        "pkg-1.1.1-26.3-NeoForge" = _UdaPh3RL;
+        "pkg-1.1.1-26.3-Forge" = _v65BAr9c;
+        "default" = _v65BAr9c;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-equipment-smithing";

@@ -96,6 +96,11 @@ let
             "file" = "trashslotblacklist-neoforge-26.2-1.1.0.jar";
             "hash" = "sha512-HHFJuiNL6T7oH+3w+BvbBCaAGI25I3SOteLoOD7WutWOJZTt6715nFqu8W5wa2e2lZZI3r9DxI0EREn+d1refA==";
         };
+        _j2myIp4n = {
+            "id" = "j2myIp4n";
+            "file" = "trashslotblacklist-forge-1.20.1-1.1.0.jar";
+            "hash" = "sha512-AlCCLVeiZ35TDLLYsPPAkS/7TWfEC/SrSQQiyzfXL2gd5D3yC7y/1+0MelR+isZcLTH+KYiq6MJLvA5sOLP1nA==";
+        };
     in {
         "KwfKrSm6" = _KwfKrSm6;
         "dbMPn8Rh" = _dbMPn8Rh;
@@ -116,10 +121,11 @@ let
         "QScodPMi" = _QScodPMi;
         "wCf8pkwl" = _wCf8pkwl;
         "eWEJqP4h" = _eWEJqP4h;
+        "j2myIp4n" = _j2myIp4n;
         "fabric-1.20.1" = _K2NjzGKP;
         "fabric-1.21.1" = _CGtEow31;
         "fabric-26.2" = _wCf8pkwl;
-        "forge-1.20.1" = _Gv5K9Dmo;
+        "forge-1.20.1" = _j2myIp4n;
         "neoforge-1.21.1" = _QScodPMi;
         "neoforge-26.2" = _eWEJqP4h;
         "pkg-0.8+1.20.1" = _KwfKrSm6;
@@ -133,7 +139,8 @@ let
         "pkg-1.0.2" = _Bm2Lxyr4;
         "pkg-1.0.3" = _CbkbAmag;
         "pkg-1.1.0" = _eWEJqP4h;
-        "default" = _eWEJqP4h;
+        "pkg-1.1.0-HOTFIX" = _j2myIp4n;
+        "default" = _j2myIp4n;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trashslot-blacklist";

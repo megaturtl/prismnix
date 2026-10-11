@@ -31,6 +31,11 @@ let
             "file" = "NotEnoughBandwidth-26.1.2-1+alpha.jar";
             "hash" = "sha512-UG6uZJGBb4jzOOQlE+W9jpFRFuRulxmCtbEXPnaAsxX51OSgMNHIgxkg1Ze7Yk/jJgoUmq5VV4gkNnBER/kYmA==";
         };
+        _nD8fsk2v = {
+            "id" = "nD8fsk2v";
+            "file" = "NotEnoughBandwidth-26.2-0+beta.jar";
+            "hash" = "sha512-3L0Xyk2jU/EpNFsQDKxk/3c6oFOyrH6ACgQOTf8I2xzFFTyYGry+NdqXzAVtP0PNaSgVlKPzHYnUPIUtov/l7g==";
+        };
     in {
         "E8GDai4J" = _E8GDai4J;
         "tbBqTIJY" = _tbBqTIJY;
@@ -38,17 +43,20 @@ let
         "K8qbEhXN" = _K8qbEhXN;
         "gOgGNjqI" = _gOgGNjqI;
         "WECo8BSU" = _WECo8BSU;
+        "nD8fsk2v" = _nD8fsk2v;
         "neoforge-26.1" = _WECo8BSU;
         "neoforge-1.21.1" = _tbBqTIJY;
         "neoforge-26.1.1" = _WECo8BSU;
         "neoforge-26.1.2" = _WECo8BSU;
+        "neoforge-26.2" = _nD8fsk2v;
         "pkg-26.1-0+alpha" = _E8GDai4J;
         "pkg-0.3.18" = _tbBqTIJY;
         "pkg-26.1-1+alpha" = _Fj7Du8Xe;
         "pkg-26.1-2+alpha" = _K8qbEhXN;
         "pkg-26.1.2-0+alpha" = _gOgGNjqI;
         "pkg-26.1.2-1+alpha" = _WECo8BSU;
-        "default" = _WECo8BSU;
+        "pkg-26.2-0+beta" = _nD8fsk2v;
+        "default" = _nD8fsk2v;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "not-enough-bandwidth";

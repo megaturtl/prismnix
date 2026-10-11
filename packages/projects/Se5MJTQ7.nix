@@ -16,10 +16,16 @@ let
             "file" = "disable-lighting-1.1.0.jar";
             "hash" = "sha512-sf/vcpXkHt6sOYtqP/0VqunI9AlyU5Wtnhs6K4dg7P8hu6WNNyy+fUr0pVPbPrC6Wc1UsCbDHefJviGqkMf7aw==";
         };
+        _wN9GjQes = {
+            "id" = "wN9GjQes";
+            "file" = "disable-lighting-1.3.0.jar";
+            "hash" = "sha512-/r5aTwHs+elaC7znrdWfW1OM8vGsX8cts5RP3g4pOST3idPWw5Wiwg5kWIoFFETuOIf1gjRvkMallfxbUN6TZQ==";
+        };
     in {
         "8mjgEDDs" = _8mjgEDDs;
         "idlYd0An" = _idlYd0An;
         "QbcNoYS3" = _QbcNoYS3;
+        "wN9GjQes" = _wN9GjQes;
         "fabric-1.21" = _8mjgEDDs;
         "fabric-1.21.1" = _8mjgEDDs;
         "fabric-1.21.2" = _8mjgEDDs;
@@ -32,13 +38,15 @@ let
         "fabric-1.21.9" = _8mjgEDDs;
         "fabric-1.21.10" = _8mjgEDDs;
         "fabric-1.21.11" = _8mjgEDDs;
-        "fabric-26.1" = _idlYd0An;
-        "fabric-26.1.1" = _idlYd0An;
-        "fabric-26.1.2" = _idlYd0An;
-        "fabric-26.2" = _QbcNoYS3;
+        "fabric-26.1" = _wN9GjQes;
+        "fabric-26.1.1" = _wN9GjQes;
+        "fabric-26.1.2" = _wN9GjQes;
+        "fabric-26.2" = _wN9GjQes;
+        "fabric-26.3" = _wN9GjQes;
         "pkg-1.0.0" = _8mjgEDDs;
         "pkg-1.1.0" = _QbcNoYS3;
-        "default" = _QbcNoYS3;
+        "pkg-1.3.0" = _wN9GjQes;
+        "default" = _wN9GjQes;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "disable-lighting";

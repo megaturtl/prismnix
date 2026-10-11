@@ -1216,6 +1216,56 @@ let
             "file" = "immersiveoverlays-1.8.4+26.3-snapshot-7-fabric.jar";
             "hash" = "sha512-ZPXKs0K/qmf0oKXHtCuRL8YlCqDGpk/53LqRbs5rx95xvIRE2w6rOZ5cvngZVwb2dWTBkMYzAHxKfpnArahShg==";
         };
+        _gLPtFVJL = {
+            "id" = "gLPtFVJL";
+            "file" = "immersiveoverlays-1.8.5+1.20.1-fabric.jar";
+            "hash" = "sha512-izt6IaUGzM1sDdLUuIcCTN1T7BD/LN9DlD5Y7joptcd4ztbdKmlN/C9Kra1oULbQOenih4g2Lmy17tkZzKXQqA==";
+        };
+        _zko9MKS6 = {
+            "id" = "zko9MKS6";
+            "file" = "immersiveoverlays-1.8.5+1.21.1-fabric.jar";
+            "hash" = "sha512-6+wfuWYsjEs7gEQ+TgUVA+5j9JpEDEtBRAzdLCDDNAihSZmZW56uSluY1gVkEanGUA4cMwzqdwcacTWhOYhegA==";
+        };
+        _2JipaJqR = {
+            "id" = "2JipaJqR";
+            "file" = "immersiveoverlays-1.8.5+1.20.1-forge.jar";
+            "hash" = "sha512-8UifwB7PP6BiPEZEyZGMCRVJkJVadccbI2FdTEaaZbgeqyUYTtLBLeGzrfV9f72kNQAsKYdkqIGwtOjCx3c2ug==";
+        };
+        _vdussz4L = {
+            "id" = "vdussz4L";
+            "file" = "immersiveoverlays-1.8.5+1.21.1-neoforge.jar";
+            "hash" = "sha512-zwFJHzzOhzPvTJNyvOOaYpBAqOKHcEwJqr36wTHo0H+HUFpOMJrjWQjDCR+bkhNzmqb+gNaqKT9YFK/linjV2A==";
+        };
+        _Xjvxm1n0 = {
+            "id" = "Xjvxm1n0";
+            "file" = "immersiveoverlays-1.8.5+26.1.2-fabric.jar";
+            "hash" = "sha512-NlJKFrIXhiEYEJSVvgwlVSwM46U74KIjrmy3dXqG4kAjh8FIIRjN3uMuhvECEAdhUOcUhCdzo+hejp0bIXuZug==";
+        };
+        _GrLu2OGX = {
+            "id" = "GrLu2OGX";
+            "file" = "immersiveoverlays-1.8.5+26.1.2-neoforge.jar";
+            "hash" = "sha512-85ETn1fagehTYwBSxDPGKSapDcPq391AXaInlNcggqdw2Qf3ovKNFZ/pP5rEfBd6iZ9hwArCkuPNMAMQN670Gw==";
+        };
+        _f9LUzDuj = {
+            "id" = "f9LUzDuj";
+            "file" = "immersiveoverlays-1.8.5+26.2-fabric.jar";
+            "hash" = "sha512-0vSf2d/oxUrcQeNXBzTZ/ezcq46VV8tm9++veHd/RT3fE5/u3yVFC6xY05nE8P88QB7pyhyAQso4LNlALJOVKw==";
+        };
+        _9YLww67m = {
+            "id" = "9YLww67m";
+            "file" = "immersiveoverlays-1.8.5+26.2-neoforge.jar";
+            "hash" = "sha512-LFKzoWkI6cZTX27TCSs1N9FWzn9STizIdPDOnvLj1EgiXHkm4KedpuUNq78Jl8zbzfNMiZiQxPP/xqrqtZ4OlA==";
+        };
+        _4kNndntn = {
+            "id" = "4kNndntn";
+            "file" = "immersiveoverlays-1.8.5+26.3-fabric.jar";
+            "hash" = "sha512-ivU10/nJQxRLD6uT6OiLVwhxMx304Fbn/OhHOnl1yTHjrH2Km14XdMaZokD4bKYR3QA4z+wkn/Yu4wbIdsQBJw==";
+        };
+        _Lq6GH1MW = {
+            "id" = "Lq6GH1MW";
+            "file" = "immersiveoverlays-1.8.5+26.3-neoforge.jar";
+            "hash" = "sha512-g9ztkvveRhNY11wIXYVqQ0tI4MmGz5gTgmnMfcJjzG/2eBnVq3tJjQCc2VdUdj6N896QoDfAnJ/hicaL6VqpZg==";
+        };
     in {
         "2ZCfdfUq" = _2ZCfdfUq;
         "4YmsVJYX" = _4YmsVJYX;
@@ -1460,15 +1510,25 @@ let
         "GVF2zIGA" = _GVF2zIGA;
         "Y2Hp7n0q" = _Y2Hp7n0q;
         "ybLaDKxw" = _ybLaDKxw;
+        "gLPtFVJL" = _gLPtFVJL;
+        "zko9MKS6" = _zko9MKS6;
+        "2JipaJqR" = _2JipaJqR;
+        "vdussz4L" = _vdussz4L;
+        "Xjvxm1n0" = _Xjvxm1n0;
+        "GrLu2OGX" = _GrLu2OGX;
+        "f9LUzDuj" = _f9LUzDuj;
+        "9YLww67m" = _9YLww67m;
+        "4kNndntn" = _4kNndntn;
+        "Lq6GH1MW" = _Lq6GH1MW;
         "fabric-1.19" = _uXbKqvYx;
         "fabric-1.19.1" = _uXbKqvYx;
         "fabric-1.19.2" = _FHvhWF0j;
         "fabric-1.19.3" = _uXbKqvYx;
         "fabric-1.19.4" = _uXbKqvYx;
         "fabric-1.20" = _IDz0maur;
-        "fabric-1.20.1" = _o8cFe3mL;
+        "fabric-1.20.1" = _gLPtFVJL;
         "fabric-1.21" = _RoRfr0Dk;
-        "fabric-1.21.1" = _MXZAMfGF;
+        "fabric-1.21.1" = _zko9MKS6;
         "fabric-1.21.4" = _zPXC8R3J;
         "fabric-1.21.5" = _aIpMZuSi;
         "fabric-1.21.6-pre3" = _mREP6rVy;
@@ -1517,29 +1577,30 @@ let
         "fabric-26.1-snapshot-10" = _zrUu7eQ2;
         "fabric-26.1-rc-1" = _H5YfYlui;
         "fabric-26.1-rc-2" = _H5YfYlui;
-        "fabric-26.1" = _8P03Cgvy;
-        "fabric-26.1.1" = _8P03Cgvy;
+        "fabric-26.1" = _Xjvxm1n0;
+        "fabric-26.1.1" = _Xjvxm1n0;
         "fabric-26w14a" = _wVyvFnR2;
         "fabric-26.1.2-rc-1" = _wVyvFnR2;
-        "fabric-26.1.2" = _8P03Cgvy;
+        "fabric-26.1.2" = _Xjvxm1n0;
         "fabric-26.2-snapshot-6" = _LWQBKBtC;
         "fabric-26.2-snapshot-8" = _2nhOLzSV;
         "fabric-26.2-pre-1" = _2nhOLzSV;
         "fabric-26.2-pre-3" = _B5dnHh1W;
         "fabric-26.2-rc-1" = _B5dnHh1W;
         "fabric-26.2-rc-2" = _B5dnHh1W;
-        "fabric-26.2" = _GVF2zIGA;
+        "fabric-26.2" = _f9LUzDuj;
         "fabric-26.3-snapshot-7" = _ybLaDKxw;
         "fabric-26.3-snapshot-8" = _ybLaDKxw;
         "fabric-26.3-snapshot-9" = _ybLaDKxw;
         "fabric-26.3-snapshot-10" = _ybLaDKxw;
+        "fabric-26.3" = _4kNndntn;
         "forge-1.19.2" = _pXwTvpq6;
         "forge-1.19.3" = _2N9dLoXm;
         "forge-1.19.4" = _2N9dLoXm;
         "forge-1.20" = _QYvaNfng;
-        "forge-1.20.1" = _UBua8IuG;
+        "forge-1.20.1" = _2JipaJqR;
         "neoforge-1.21" = _mWBmKP7A;
-        "neoforge-1.21.1" = _3opB9x3S;
+        "neoforge-1.21.1" = _vdussz4L;
         "neoforge-1.21.4" = _7gaXSnLk;
         "neoforge-1.21.5" = _baIzQ8h4;
         "neoforge-1.20.1" = _hvZNKtD1;
@@ -1551,10 +1612,11 @@ let
         "neoforge-1.21.11" = _ZmR7DmWO;
         "neoforge-26.1-snapshot-1" = _OzLAZ6po;
         "neoforge-26.1-snapshot-2" = _OzLAZ6po;
-        "neoforge-26.1" = _VgRq6FH6;
-        "neoforge-26.1.1" = _VgRq6FH6;
-        "neoforge-26.1.2" = _VgRq6FH6;
-        "neoforge-26.2" = _Y2Hp7n0q;
+        "neoforge-26.1" = _GrLu2OGX;
+        "neoforge-26.1.1" = _GrLu2OGX;
+        "neoforge-26.1.2" = _GrLu2OGX;
+        "neoforge-26.2" = _9YLww67m;
+        "neoforge-26.3" = _Lq6GH1MW;
         "pkg-1.0+1.19.2-fabric" = _2ZCfdfUq;
         "pkg-1.0+1.20.1-fabric" = _4YmsVJYX;
         "pkg-1.0+1.21.1-fabric" = _QG4YzuWZ;
@@ -1793,7 +1855,17 @@ let
         "pkg-1.8.4+26.2-fabric" = _GVF2zIGA;
         "pkg-1.8.4+26.2-neoforge" = _Y2Hp7n0q;
         "pkg-1.8.4+26.3-snapshot-7-fabric" = _ybLaDKxw;
-        "default" = _ybLaDKxw;
+        "pkg-1.8.5+1.20.1-fabric" = _gLPtFVJL;
+        "pkg-1.8.5+1.21.1-fabric" = _zko9MKS6;
+        "pkg-1.8.5+1.20.1-forge" = _2JipaJqR;
+        "pkg-1.8.5+1.21.1-neoforge" = _vdussz4L;
+        "pkg-1.8.5+26.1.2-fabric" = _Xjvxm1n0;
+        "pkg-1.8.5+26.1.2-neoforge" = _GrLu2OGX;
+        "pkg-1.8.5+26.2-fabric" = _f9LUzDuj;
+        "pkg-1.8.5+26.2-neoforge" = _9YLww67m;
+        "pkg-1.8.5+26.3-fabric" = _4kNndntn;
+        "pkg-1.8.5+26.3-neoforge" = _Lq6GH1MW;
+        "default" = _Lq6GH1MW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immersive-overlays";

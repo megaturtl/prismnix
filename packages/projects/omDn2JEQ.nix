@@ -196,6 +196,11 @@ let
             "file" = "chopt-1.0.10+mc26.3-pre-3.jar";
             "hash" = "sha512-UgmC/BrsZ9jRuLjcXVpuatXPHAdaqqrnB9ysf0iOIqDZMJezwuwS32gDywfHdIuoUBmkSiFCCMeqeCWrCXxvJg==";
         };
+        _EefpN74x = {
+            "id" = "EefpN74x";
+            "file" = "chopt-1.0.10+mc26.3.jar";
+            "hash" = "sha512-1dPBBQ1Qpey2nG7Cy/8UlrB8qy9BmcZhBdO1CpVGDA3RaMQPbkKy6VkjW8WEHz2bWb+Lo4XQjWNTmwz99KeVfg==";
+        };
     in {
         "XULANURZ" = _XULANURZ;
         "QHJYW4MC" = _QHJYW4MC;
@@ -236,6 +241,7 @@ let
         "L5dAtMXo" = _L5dAtMXo;
         "z7sJuuqg" = _z7sJuuqg;
         "XUdQ3ScD" = _XUdQ3ScD;
+        "EefpN74x" = _EefpN74x;
         "fabric-1.21.10" = _K7bPnkQt;
         "fabric-1.21.11-rc3" = _E8rSrGqJ;
         "fabric-1.21.11" = _JNebgaXY;
@@ -253,6 +259,7 @@ let
         "fabric-26.3-snapshot-10" = _L5dAtMXo;
         "fabric-26.3-pre-2" = _z7sJuuqg;
         "fabric-26.3-pre-3" = _XUdQ3ScD;
+        "fabric-26.3" = _EefpN74x;
         "pkg-1.0.0" = _XULANURZ;
         "pkg-1.0.2" = _QHJYW4MC;
         "pkg-1.0.3" = _Cks4dY6f;
@@ -265,8 +272,8 @@ let
         "pkg-1.0.7" = _d09tA6Ax;
         "pkg-1.0.8" = _ZVU3lV4c;
         "pkg-1.0.9" = _lPortcaj;
-        "pkg-1.0.10" = _XUdQ3ScD;
-        "default" = _XUdQ3ScD;
+        "pkg-1.0.10" = _EefpN74x;
+        "default" = _EefpN74x;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chopt";

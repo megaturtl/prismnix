@@ -2006,6 +2006,21 @@ let
             "file" = "Ping-Wheel-1.12.1-fabric-26.2.jar";
             "hash" = "sha512-T9Mof2ciEmejm5TMU0du4y4MkUs2sKcpvdxIH1MTww6E9LFUncXCa7He6lkU2JBZT441HSwFtAoHjAE8PL9Mew==";
         };
+        _vD9wdhgD = {
+            "id" = "vD9wdhgD";
+            "file" = "Ping-Wheel-1.12.2-forge-26.3.jar";
+            "hash" = "sha512-evcLAXvO7o8JLko9pY8FiyDSRHVt5RRgiz5a90Q/CZ/bMCPVpnfc1PayJ4db2XRDOSjpWJ70d7SVwb6Wd7Vg5Q==";
+        };
+        _cuksLtI4 = {
+            "id" = "cuksLtI4";
+            "file" = "Ping-Wheel-1.12.2-neoforge-26.3.jar";
+            "hash" = "sha512-g3uMDt4skSACNz3UF8TkZ6HVG1cVKnN9W0LidfeisdCBrYi5boqGX9Apn5cNaDamVKD2Ts7wJmIW5YBCZRm1pQ==";
+        };
+        _3o7Yk0qP = {
+            "id" = "3o7Yk0qP";
+            "file" = "Ping-Wheel-1.12.2-fabric-26.3.jar";
+            "hash" = "sha512-cZXSg6b9oV2lycPAnCpoe7fsrJ+0d5idOOR0x/2IYLcqOdB5ZELamxuQc+JSftQzldRrK2kAhrUSqSLfcm2eHA==";
+        };
     in {
         "GoaYrJtq" = _GoaYrJtq;
         "la76KSVr" = _la76KSVr;
@@ -2408,6 +2423,9 @@ let
         "3IWWPPZR" = _3IWWPPZR;
         "GpkuKrbi" = _GpkuKrbi;
         "lsH1el9E" = _lsH1el9E;
+        "vD9wdhgD" = _vD9wdhgD;
+        "cuksLtI4" = _cuksLtI4;
+        "3o7Yk0qP" = _3o7Yk0qP;
         "fabric-1.19.2" = _YZq9qCKW;
         "fabric-1.18" = _r6boRKMS;
         "fabric-1.18.1" = _r6boRKMS;
@@ -2439,6 +2457,7 @@ let
         "fabric-26.1.1" = _J96qMveQ;
         "fabric-26.1.2" = _J96qMveQ;
         "fabric-26.2" = _lsH1el9E;
+        "fabric-26.3" = _3o7Yk0qP;
         "forge-1.18" = _fskCFJer;
         "forge-1.18.1" = _fskCFJer;
         "forge-1.18.2" = _fskCFJer;
@@ -2468,6 +2487,7 @@ let
         "forge-26.1.1" = _AKq7AxKu;
         "forge-26.1.2" = _AKq7AxKu;
         "forge-26.2" = _3IWWPPZR;
+        "forge-26.3" = _vD9wdhgD;
         "neoforge-1.21.1" = _Zrh2Fmn9;
         "neoforge-1.21.3" = _Mbn8rUwq;
         "neoforge-1.21.4" = _eSTRYtah;
@@ -2484,6 +2504,7 @@ let
         "neoforge-26.1.1" = _8m8a3CmD;
         "neoforge-26.1.2" = _8m8a3CmD;
         "neoforge-26.2" = _GpkuKrbi;
+        "neoforge-26.3" = _cuksLtI4;
         "pkg-1.1.0" = _la76KSVr;
         "pkg-1.1.1" = _LyWcobRx;
         "pkg-1.2.0" = _GEBuWKXt;
@@ -2508,8 +2529,8 @@ let
         "pkg-1.11.1" = _qGBUbFtb;
         "pkg-1.12.0" = _Cews9c21;
         "pkg-1.12.1" = _lsH1el9E;
-        "pkg-1.12.2" = _S05ir9dj;
-        "default" = _lsH1el9E;
+        "pkg-1.12.2" = _3o7Yk0qP;
+        "default" = _3o7Yk0qP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ping-wheel";

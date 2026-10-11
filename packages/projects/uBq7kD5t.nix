@@ -111,6 +111,11 @@ let
             "file" = "Simple Outlined Ores 26.2 BN.zip";
             "hash" = "sha512-6pKPi/2xVgHONBDfQ87gqxn9BelWxCVyf0PpBfVh16SbQWVYWBYM4P2I/3qrl4NVtqphquHkGzchBS3B1ta74w==";
         };
+        _RiMy5lUL = {
+            "id" = "RiMy5lUL";
+            "file" = "Simple Outlined Ores 26.3 BN.zip";
+            "hash" = "sha512-MFkAvyz655IXYqFcXbyRMHPcPlYsMHNcA07DbelO1bIAzbrjSTeOtoI+d10G79Wg+AFKSNswtsvv7Uea74AKWA==";
+        };
     in {
         "OeiJ72py" = _OeiJ72py;
         "uIvF8pux" = _uIvF8pux;
@@ -134,6 +139,7 @@ let
         "UFGvCBgf" = _UFGvCBgf;
         "Vdlf0bia" = _Vdlf0bia;
         "kUA1JeNe" = _kUA1JeNe;
+        "RiMy5lUL" = _RiMy5lUL;
         "minecraft-1.16" = _OeiJ72py;
         "minecraft-1.16.1" = _OeiJ72py;
         "minecraft-1.16.2" = _uIvF8pux;
@@ -173,9 +179,10 @@ let
         "minecraft-26.1.1" = _Vdlf0bia;
         "minecraft-26.1.2" = _Vdlf0bia;
         "minecraft-26.2" = _kUA1JeNe;
+        "minecraft-26.3" = _RiMy5lUL;
         "pkg-1.0" = _E7XZ6ubD;
-        "pkg-2.0" = _kUA1JeNe;
-        "default" = _kUA1JeNe;
+        "pkg-2.0" = _RiMy5lUL;
+        "default" = _RiMy5lUL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-outlined-ores-blue-netherite-edition";

@@ -76,6 +76,11 @@ let
             "file" = "enchanting-reimagined-1.1.12.jar";
             "hash" = "sha512-seJRV6RLzuOwxnapbggawE2fBGMscZgMSg7TWvOuUzXZRmfk/IfOsskVJQXt1GJPqzCOmjb8vtf0ywM7SI3Y3A==";
         };
+        _cVQSPyjC = {
+            "id" = "cVQSPyjC";
+            "file" = "enchanting-reimagined-1.1.13.jar";
+            "hash" = "sha512-sRzbZw0Sam7k894H2JPRMKUgva7Kgp5sduV56eO8IF++2i06pzcJ5zgUfBxQB9nTJ7Ev/3SQuPCrjAVkeHwRng==";
+        };
     in {
         "cbQl7Re8" = _cbQl7Re8;
         "XWPoCQvM" = _XWPoCQvM;
@@ -92,6 +97,7 @@ let
         "KGxJMhlE" = _KGxJMhlE;
         "nMBAeg2l" = _nMBAeg2l;
         "SbtqLmjT" = _SbtqLmjT;
+        "cVQSPyjC" = _cVQSPyjC;
         "fabric-1.21" = _cbQl7Re8;
         "fabric-1.21.1" = _bQdqIYEs;
         "fabric-1.21.2" = _kkYL5lKW;
@@ -108,6 +114,7 @@ let
         "fabric-26.1.1" = _nMBAeg2l;
         "fabric-26.1.2" = _nMBAeg2l;
         "fabric-26.2" = _SbtqLmjT;
+        "fabric-26.3" = _cVQSPyjC;
         "pkg-1.0.0" = _cbQl7Re8;
         "pkg-1.1.0" = _XWPoCQvM;
         "pkg-1.1.1" = _bQdqIYEs;
@@ -122,7 +129,8 @@ let
         "pkg-1.1.10" = _KGxJMhlE;
         "pkg-1.1.11" = _nMBAeg2l;
         "pkg-1.1.12" = _SbtqLmjT;
-        "default" = _SbtqLmjT;
+        "pkg-1.1.13" = _cVQSPyjC;
+        "default" = _cVQSPyjC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchanting-reimagined";

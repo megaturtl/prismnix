@@ -1,0 +1,134 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _1tprna3x = {
+            "id" = "1tprna3x";
+            "file" = "Silvers DDL.zip";
+            "hash" = "sha512-wnmZgbp5HSAzbAa8hazrI56tLMNokpF9zQIPLc9SRlBoxXit5mvsqGIAumaEtjnD5NHj5a3oODV3yuk8wI3avQ==";
+        };
+        _XK7KNn5a = {
+            "id" = "XK7KNn5a";
+            "file" = "Silvers DDL.zip";
+            "hash" = "sha512-lkBGRPGo/tKfsbVQRTsRpE7lutaVGiRFntT07Gs8oPN0RWRCgbgbRah0DDM/XE5LCjinv9shDk0D+H+qqCdtbA==";
+        };
+        _MtTDSRhT = {
+            "id" = "MtTDSRhT";
+            "file" = "Silvers DDL.zip";
+            "hash" = "sha512-Nrtl8ISFlD+VjKJgIpmNK04TILiOFTGITOb+HKMOjeoqeTo/SZTDNJ7mQrloDkoA2G1OOYGy7g1vXhuMC/F+TQ==";
+        };
+        _waLHO3Nl = {
+            "id" = "waLHO3Nl";
+            "file" = "silvers_dynamic_durations_lib-ddl.jar";
+            "hash" = "sha512-c7ZeF12S0DrM5ys6MkB9Ks9aWo5LishhohBzAcjavp2mk4upniO1BmKKgzlzD/DLRIjwUVjKwepi2tGEcNBDtQ==";
+        };
+    in {
+        "1tprna3x" = _1tprna3x;
+        "XK7KNn5a" = _XK7KNn5a;
+        "MtTDSRhT" = _MtTDSRhT;
+        "waLHO3Nl" = _waLHO3Nl;
+        "datapack-1.21" = _MtTDSRhT;
+        "datapack-1.21.1" = _MtTDSRhT;
+        "datapack-1.21.2" = _MtTDSRhT;
+        "datapack-1.21.3" = _MtTDSRhT;
+        "datapack-1.21.4" = _MtTDSRhT;
+        "datapack-1.21.5" = _MtTDSRhT;
+        "datapack-1.21.6" = _MtTDSRhT;
+        "datapack-1.21.7" = _MtTDSRhT;
+        "datapack-1.21.8" = _MtTDSRhT;
+        "datapack-1.21.9" = _MtTDSRhT;
+        "datapack-1.21.10" = _MtTDSRhT;
+        "datapack-1.21.11" = _MtTDSRhT;
+        "datapack-26.1" = _MtTDSRhT;
+        "datapack-26.1.1" = _MtTDSRhT;
+        "datapack-26.1.2" = _MtTDSRhT;
+        "datapack-26.2" = _MtTDSRhT;
+        "datapack-26.3" = _MtTDSRhT;
+        "fabric-1.21" = _waLHO3Nl;
+        "fabric-1.21.1" = _waLHO3Nl;
+        "fabric-1.21.2" = _waLHO3Nl;
+        "fabric-1.21.3" = _waLHO3Nl;
+        "fabric-1.21.4" = _waLHO3Nl;
+        "fabric-1.21.5" = _waLHO3Nl;
+        "fabric-1.21.6" = _waLHO3Nl;
+        "fabric-1.21.7" = _waLHO3Nl;
+        "fabric-1.21.8" = _waLHO3Nl;
+        "fabric-1.21.9" = _waLHO3Nl;
+        "fabric-1.21.10" = _waLHO3Nl;
+        "fabric-1.21.11" = _waLHO3Nl;
+        "fabric-26.1" = _waLHO3Nl;
+        "fabric-26.1.1" = _waLHO3Nl;
+        "fabric-26.1.2" = _waLHO3Nl;
+        "fabric-26.2" = _waLHO3Nl;
+        "fabric-26.3" = _waLHO3Nl;
+        "forge-1.21" = _waLHO3Nl;
+        "forge-1.21.1" = _waLHO3Nl;
+        "forge-1.21.2" = _waLHO3Nl;
+        "forge-1.21.3" = _waLHO3Nl;
+        "forge-1.21.4" = _waLHO3Nl;
+        "forge-1.21.5" = _waLHO3Nl;
+        "forge-1.21.6" = _waLHO3Nl;
+        "forge-1.21.7" = _waLHO3Nl;
+        "forge-1.21.8" = _waLHO3Nl;
+        "forge-1.21.9" = _waLHO3Nl;
+        "forge-1.21.10" = _waLHO3Nl;
+        "forge-1.21.11" = _waLHO3Nl;
+        "forge-26.1" = _waLHO3Nl;
+        "forge-26.1.1" = _waLHO3Nl;
+        "forge-26.1.2" = _waLHO3Nl;
+        "forge-26.2" = _waLHO3Nl;
+        "forge-26.3" = _waLHO3Nl;
+        "neoforge-1.21" = _waLHO3Nl;
+        "neoforge-1.21.1" = _waLHO3Nl;
+        "neoforge-1.21.2" = _waLHO3Nl;
+        "neoforge-1.21.3" = _waLHO3Nl;
+        "neoforge-1.21.4" = _waLHO3Nl;
+        "neoforge-1.21.5" = _waLHO3Nl;
+        "neoforge-1.21.6" = _waLHO3Nl;
+        "neoforge-1.21.7" = _waLHO3Nl;
+        "neoforge-1.21.8" = _waLHO3Nl;
+        "neoforge-1.21.9" = _waLHO3Nl;
+        "neoforge-1.21.10" = _waLHO3Nl;
+        "neoforge-1.21.11" = _waLHO3Nl;
+        "neoforge-26.1" = _waLHO3Nl;
+        "neoforge-26.1.1" = _waLHO3Nl;
+        "neoforge-26.1.2" = _waLHO3Nl;
+        "neoforge-26.2" = _waLHO3Nl;
+        "neoforge-26.3" = _waLHO3Nl;
+        "quilt-1.21" = _waLHO3Nl;
+        "quilt-1.21.1" = _waLHO3Nl;
+        "quilt-1.21.2" = _waLHO3Nl;
+        "quilt-1.21.3" = _waLHO3Nl;
+        "quilt-1.21.4" = _waLHO3Nl;
+        "quilt-1.21.5" = _waLHO3Nl;
+        "quilt-1.21.6" = _waLHO3Nl;
+        "quilt-1.21.7" = _waLHO3Nl;
+        "quilt-1.21.8" = _waLHO3Nl;
+        "quilt-1.21.9" = _waLHO3Nl;
+        "quilt-1.21.10" = _waLHO3Nl;
+        "quilt-1.21.11" = _waLHO3Nl;
+        "quilt-26.1" = _waLHO3Nl;
+        "quilt-26.1.1" = _waLHO3Nl;
+        "quilt-26.1.2" = _waLHO3Nl;
+        "quilt-26.2" = _waLHO3Nl;
+        "quilt-26.3" = _waLHO3Nl;
+        "pkg-ddl" = _MtTDSRhT;
+        "pkg-ddl+mod" = _waLHO3Nl;
+        "default" = _waLHO3Nl;
+    });
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "silvers_dynamic_durations_lib";
+        id = "I18dxWso";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-All-Rights-Reserved";
+                shortName = "LicenseRef-All-Rights-Reserved";
+                url = null;
+            };
+        };
+    };
+in callPackage fn {}

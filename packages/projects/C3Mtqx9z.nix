@@ -191,6 +191,11 @@ let
             "file" = "Programmed Circuit Card-1.20.1-1.4.1.jar";
             "hash" = "sha512-3k2ijqcEKTIMWUj6Ad02wj/nF4dvZoRwt5UQ0JaeQmybsgP78tDyOHFEGsz+8ZFRoy0qkWYuaDxcd/KXOeW74w==";
         };
+        _q4Zs70ZE = {
+            "id" = "q4Zs70ZE";
+            "file" = "Programmed Circuit Card-1.20.1-1.4.2.jar";
+            "hash" = "sha512-R2HKpkLMLmB9ozmEKcpxHKblqkYcnHMsV6PKrGN6mzcJQNIfUBpTmATNP7ZgGQfik9oZYf7iQtrjT3O9fGFcpw==";
+        };
     in {
         "NMzjeyL3" = _NMzjeyL3;
         "DWw5oc4E" = _DWw5oc4E;
@@ -230,8 +235,9 @@ let
         "PIkfp6q9" = _PIkfp6q9;
         "uy7QtFUX" = _uy7QtFUX;
         "dMgr0QTi" = _dMgr0QTi;
-        "forge-1.20.1" = _dMgr0QTi;
-        "neoforge-1.20.1" = _dMgr0QTi;
+        "q4Zs70ZE" = _q4Zs70ZE;
+        "forge-1.20.1" = _q4Zs70ZE;
+        "neoforge-1.20.1" = _q4Zs70ZE;
         "pkg-1.0.0" = _NMzjeyL3;
         "pkg-1.0.1" = _DWw5oc4E;
         "pkg-1.20.1-1.0.2" = _tK4Kv79c;
@@ -269,7 +275,8 @@ let
         "pkg-1.3.2" = _PIkfp6q9;
         "pkg-1.4.0" = _uy7QtFUX;
         "pkg-1.4.1" = _dMgr0QTi;
-        "default" = _dMgr0QTi;
+        "pkg-1.4.2" = _q4Zs70ZE;
+        "default" = _q4Zs70ZE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "programmed-circuit-card";

@@ -121,6 +121,16 @@ let
             "file" = "smooth-hover-fabric-1.4.jar";
             "hash" = "sha512-5rQkII+ipoZXdFfCGndI1vRrnb+c43gEZT1D9SK54SSb9y+Z1H7yHItGIeyNASWmIRZFHIuwC/Cm39gWM07erg==";
         };
+        _NWtrwLed = {
+            "id" = "NWtrwLed";
+            "file" = "smooth-hover-fabric-1.5.jar";
+            "hash" = "sha512-qQJnhro3EEKBqdPJNXD8s/7u8jaHZKg8M9MMFRvQN9IJJJz/uI2IuvoVJqv6MylRsxHIKcgQQ8a7XPqarBJ3uw==";
+        };
+        _657kB8Te = {
+            "id" = "657kB8Te";
+            "file" = "smooth-hover-neoforge-1.5.jar";
+            "hash" = "sha512-nemN7C1fuCikOPFxI8C40nhhoSHbcQJLaqUWyrHl/k9jm7z4PP4kjBZ7h3IfPMwH8Tfq+JBxO7RoTc37+tD5Tw==";
+        };
     in {
         "swoyRmMj" = _swoyRmMj;
         "jEeBcK87" = _jEeBcK87;
@@ -146,6 +156,8 @@ let
         "YjjDgrn2" = _YjjDgrn2;
         "dKddADN8" = _dKddADN8;
         "XNhOL8BI" = _XNhOL8BI;
+        "NWtrwLed" = _NWtrwLed;
+        "657kB8Te" = _657kB8Te;
         "fabric-1.21" = _swoyRmMj;
         "fabric-1.21.1" = _swoyRmMj;
         "fabric-1.21.2" = _yJhbfZT9;
@@ -162,6 +174,7 @@ let
         "fabric-26.1.1" = _XNhOL8BI;
         "fabric-26.1.2" = _XNhOL8BI;
         "fabric-26.2" = _XNhOL8BI;
+        "fabric-26.3" = _NWtrwLed;
         "neoforge-1.21" = _jEeBcK87;
         "neoforge-1.21.1" = _jEeBcK87;
         "neoforge-1.21.2" = _PNiyK7SN;
@@ -178,13 +191,15 @@ let
         "neoforge-26.1.1" = _dKddADN8;
         "neoforge-26.1.2" = _dKddADN8;
         "neoforge-26.2" = _dKddADN8;
+        "neoforge-26.3" = _657kB8Te;
         "pkg-1.0" = _jEeBcK87;
         "pkg-1.0.1" = _gxztc2oi;
         "pkg-1.1" = _ItW4j34j;
         "pkg-1.2" = _4YoL6TKr;
         "pkg-1.3" = _YjjDgrn2;
         "pkg-1.4" = _XNhOL8BI;
-        "default" = _XNhOL8BI;
+        "pkg-1.5" = _657kB8Te;
+        "default" = _657kB8Te;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "smooth-hover";

@@ -121,6 +121,16 @@ let
             "file" = "sawmillhouse-1.0.0 Neoforge 26.2.jar";
             "hash" = "sha512-r6KYZVA/BPeRZGaPPlrjKeIL6YrR68NCYF6jbcWeTBbJmc2spz9jCGVz8bcQWEHnc+iOddjgn3LRu7qEX4z0ew==";
         };
+        _6L1Fd2zH = {
+            "id" = "6L1Fd2zH";
+            "file" = "sawmillhouse-1.0.0 Fabric 26.3.jar";
+            "hash" = "sha512-HqFXQTzyJUhLy2+buWpQbnnXHmktFZ14rxu9fthBALPjekljcRUAxqI/siwf8MAXprCGtUPwpdhGe/ySw4eIjQ==";
+        };
+        _yTfSmXeX = {
+            "id" = "yTfSmXeX";
+            "file" = "sawmillhouse-1.0.0 Neoforge 26.3.jar";
+            "hash" = "sha512-Z7ekLxWf4+ZSMYd14u6LVmL/HM6sRy2vjyXKyzGJDIlNnwTeZPeS0WVXdC/YUyn9N7MwZPVXujLTjE3RQJKkgA==";
+        };
     in {
         "QRzCVSeI" = _QRzCVSeI;
         "GcbL2Vbk" = _GcbL2Vbk;
@@ -146,6 +156,8 @@ let
         "8lmBj0Pl" = _8lmBj0Pl;
         "LuPvD6RT" = _LuPvD6RT;
         "RlqKJVPR" = _RlqKJVPR;
+        "6L1Fd2zH" = _6L1Fd2zH;
+        "yTfSmXeX" = _yTfSmXeX;
         "fabric-1.19.2" = _QRzCVSeI;
         "fabric-1.20.1" = _GcbL2Vbk;
         "fabric-1.21.8" = _S80Dj93S;
@@ -155,6 +167,7 @@ let
         "fabric-1.21.1" = _qNkeyLgD;
         "fabric-26.1.2" = _ywDe4j0O;
         "fabric-26.2" = _LuPvD6RT;
+        "fabric-26.3" = _6L1Fd2zH;
         "forge-1.19.2" = _wC4ooHhy;
         "forge-1.19.4" = _j45n6slz;
         "forge-1.20.1" = _xie7KNnj;
@@ -166,11 +179,12 @@ let
         "neoforge-1.21.11" = _E2aw8HBc;
         "neoforge-26.1.2" = _8lmBj0Pl;
         "neoforge-26.2" = _RlqKJVPR;
+        "neoforge-26.3" = _yTfSmXeX;
         "pkg-1.3.0" = _AGastp8w;
         "pkg-2.0.1" = _DrYg9DXC;
         "pkg-2.0.2" = _q63PaUc1;
-        "pkg-1.0.0" = _RlqKJVPR;
-        "default" = _RlqKJVPR;
+        "pkg-1.0.0" = _yTfSmXeX;
+        "default" = _yTfSmXeX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sawmill-house";

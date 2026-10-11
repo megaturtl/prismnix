@@ -2156,6 +2156,21 @@ let
             "file" = "walljump-26.2-1.3.8-neoforge.jar";
             "hash" = "sha512-BmY43/Z0POsqqtiJNWwXdyPmlEym2sP8CkD1rdjMMIyqk94D/Fm9Ig9DvJVgs/2fFXfH3iKa8fGlS9ftQDFrtQ==";
         };
+        _ezUc5tZk = {
+            "id" = "ezUc5tZk";
+            "file" = "walljump-26.3-1.3.8-fabric.jar";
+            "hash" = "sha512-NPiIkwMny5fkaLrJrreJMkbarZuGCsTc1NYD4s7lFvPcZXBn9qACQ6vG7mnvANQpkga7pC9fv5VsOi//h7skaA==";
+        };
+        _EtZru8Mv = {
+            "id" = "EtZru8Mv";
+            "file" = "walljump-26.3-1.3.8-neoforge.jar";
+            "hash" = "sha512-PTzLEDMTr2Rugi0Nn3VxRWCoLp+U09sEK+zHyMIHGwC5u6x00s7On9X7RG+GW9KC7mLe5tuP4wznc6qeHiusLg==";
+        };
+        _wRXLIha6 = {
+            "id" = "wRXLIha6";
+            "file" = "walljump-26.3-1.3.8-forge.jar";
+            "hash" = "sha512-jcvf/aDUhJIbQMhzTXax3nukdZkIbL1qBIaJRjFlfPMZh8mmDS100DSffOmbaIUupxoRxsrqJS5NbVTOiACTNw==";
+        };
     in {
         "h9ycsAAH" = _h9ycsAAH;
         "CgOhVbcz" = _CgOhVbcz;
@@ -2588,6 +2603,9 @@ let
         "USvdhBa1" = _USvdhBa1;
         "wE2wfJ1G" = _wE2wfJ1G;
         "rgBTFiNv" = _rgBTFiNv;
+        "ezUc5tZk" = _ezUc5tZk;
+        "EtZru8Mv" = _EtZru8Mv;
+        "wRXLIha6" = _wRXLIha6;
         "forge-1.18" = _SiOgKcwD;
         "forge-1.18.1" = _SiOgKcwD;
         "forge-1.18.2" = _kVGEtsxB;
@@ -2617,6 +2635,7 @@ let
         "forge-26.1" = _hzSeN8qw;
         "forge-26.1.2" = _hzSeN8qw;
         "forge-26.2" = _wE2wfJ1G;
+        "forge-26.3" = _wRXLIha6;
         "neoforge-1.20" = _o8mmZj04;
         "neoforge-1.20.1" = _o8mmZj04;
         "neoforge-1.20.2" = _zMKBCONX;
@@ -2640,6 +2659,7 @@ let
         "neoforge-26.1" = _jaqjw5wT;
         "neoforge-26.1.2" = _jaqjw5wT;
         "neoforge-26.2" = _rgBTFiNv;
+        "neoforge-26.3" = _EtZru8Mv;
         "fabric-1.18" = _qBCmtB2U;
         "fabric-1.18.1" = _qBCmtB2U;
         "fabric-1.18.2" = _o0M6vFmE;
@@ -2670,6 +2690,7 @@ let
         "fabric-26.1" = _UI1cPzAb;
         "fabric-26.1.2" = _UI1cPzAb;
         "fabric-26.2" = _USvdhBa1;
+        "fabric-26.3" = _ezUc5tZk;
         "quilt-1.18" = _qBCmtB2U;
         "quilt-1.18.1" = _qBCmtB2U;
         "quilt-1.18.2" = _o0M6vFmE;
@@ -2700,6 +2721,7 @@ let
         "quilt-26.1" = _UI1cPzAb;
         "quilt-26.1.2" = _UI1cPzAb;
         "quilt-26.2" = _USvdhBa1;
+        "quilt-26.3" = _ezUc5tZk;
         "pkg-1.18.2-1.0.0-forge" = _h9ycsAAH;
         "pkg-1.19.2-1.0.0-forge" = _CgOhVbcz;
         "pkg-1.19.4-1.0.0-forge" = _BsM4a7pu;
@@ -3131,7 +3153,10 @@ let
         "pkg-26.2-1.3.8-fabric" = _USvdhBa1;
         "pkg-26.2-1.3.8-forge" = _wE2wfJ1G;
         "pkg-26.2-1.3.8-neoforge" = _rgBTFiNv;
-        "default" = _rgBTFiNv;
+        "pkg-26.3-1.3.8-fabric" = _ezUc5tZk;
+        "pkg-26.3-1.3.8-neoforge" = _EtZru8Mv;
+        "pkg-26.3-1.3.8-forge" = _wRXLIha6;
+        "default" = _wRXLIha6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wall-jump-txf";

@@ -71,6 +71,11 @@ let
             "file" = "stupid-block-animations-0.1.3+26.2-fabric.jar";
             "hash" = "sha512-+Jrh7xU+n1LFEDDickCx+tLllZSg+LqTufzSXPmM8w/TBz4hescQj8lAATeP/vpIE1aM2xSinLqQVpPP4ML3qw==";
         };
+        _6JJXDxg7 = {
+            "id" = "6JJXDxg7";
+            "file" = "stupid-block-animations-0.1.3+26.3-fabric.jar";
+            "hash" = "sha512-Rl0yypD2HyINj5PthqTq02j/Eo/fYh5BrUe+zyF2VIDaYhksLHOILX43J0Nwze4opZ3u6CcH9ioZ73Q0eWCGUg==";
+        };
     in {
         "X9s71ggX" = _X9s71ggX;
         "r05zmgaD" = _r05zmgaD;
@@ -86,6 +91,7 @@ let
         "84INGf8J" = _84INGf8J;
         "pmdiLIgL" = _pmdiLIgL;
         "E6ZEjKpV" = _E6ZEjKpV;
+        "6JJXDxg7" = _6JJXDxg7;
         "fabric-1.21.10" = _rmEdiEMZ;
         "fabric-1.21.11" = _rmEdiEMZ;
         "fabric-1.20.1" = _2ZiDJUtS;
@@ -106,13 +112,15 @@ let
         "fabric-26.1.1" = _pmdiLIgL;
         "fabric-26.1.2" = _pmdiLIgL;
         "fabric-26.2" = _E6ZEjKpV;
+        "fabric-26.3" = _6JJXDxg7;
         "pkg-0.1.3+1.21.11-fabric" = _rmEdiEMZ;
         "pkg-0.1.3+1.20.1-fabric" = _2ZiDJUtS;
         "pkg-0.1.3+1.21.1-fabric" = _84INGf8J;
         "pkg-0.1.3+1.21.5-fabric" = _TzhOPZvN;
         "pkg-0.1.3+26.1-fabric" = _pmdiLIgL;
         "pkg-0.1.3+26.2-fabric" = _E6ZEjKpV;
-        "default" = _E6ZEjKpV;
+        "pkg-0.1.3+26.3-fabric" = _6JJXDxg7;
+        "default" = _6JJXDxg7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stupid-block-animations";

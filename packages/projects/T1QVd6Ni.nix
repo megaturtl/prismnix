@@ -61,6 +61,21 @@ let
             "file" = "Better Nature-26.3-1.4.4.jar";
             "hash" = "sha512-4JCUweFC0YaYoTV+M3iWXVzQw3HdoK1e6NaN9MwoS+nr3Q8XAuiSu1dCibcx9R1DaojLDmrJs78vSUKMYPHIew==";
         };
+        _MtNJcv23 = {
+            "id" = "MtNJcv23";
+            "file" = "Better Nature-26.3-1.4.4.1.jar";
+            "hash" = "sha512-8t4SwW27/wWydpF7h+3J3dDzHjff3a6fB5dPupuVlAdugIPihOWcgF5EQfEROohuwkX+7OTNlaIZcV44ISw6zQ==";
+        };
+        _7QrdjJKo = {
+            "id" = "7QrdjJKo";
+            "file" = "Better Nature-26.3-1.4.4.2.jar";
+            "hash" = "sha512-O+NDr8s0V3e5sFHogDoV4xGFPmH5fd03O2iqB5DAT3uBo1aklELsMwXpGRRwh5U+kx7b8dYDjW4bp8Pv3Mto8g==";
+        };
+        _q112Qahq = {
+            "id" = "q112Qahq";
+            "file" = "Better Nature-26.3-1.4.4.3.jar";
+            "hash" = "sha512-TvsJWt4kkQqrl1ctUFbLiV/v8Wvgf6QkHwoxnaVXjN73ViRwOScF0MSNA/bax8lJzbbIpeVRbtggVlhZNN5Vag==";
+        };
     in {
         "W3KCJr0D" = _W3KCJr0D;
         "KsgkxYCq" = _KsgkxYCq;
@@ -74,6 +89,9 @@ let
         "DOcXxNlw" = _DOcXxNlw;
         "MIo2gq0t" = _MIo2gq0t;
         "yI26ZMUL" = _yI26ZMUL;
+        "MtNJcv23" = _MtNJcv23;
+        "7QrdjJKo" = _7QrdjJKo;
+        "q112Qahq" = _q112Qahq;
         "fabric-1.21.6" = _Ety7Uy0u;
         "fabric-1.21.7" = _Ety7Uy0u;
         "fabric-1.21.8" = _Ety7Uy0u;
@@ -111,6 +129,7 @@ let
         "fabric-26.1.2" = _MIo2gq0t;
         "fabric-26.2" = _MIo2gq0t;
         "fabric-26.3-pre-2" = _yI26ZMUL;
+        "fabric-26.3" = _q112Qahq;
         "forge-1.21.6" = _Ety7Uy0u;
         "forge-1.21.7" = _Ety7Uy0u;
         "forge-1.21.8" = _Ety7Uy0u;
@@ -148,6 +167,7 @@ let
         "forge-26.1.2" = _MIo2gq0t;
         "forge-26.2" = _MIo2gq0t;
         "forge-26.3-pre-2" = _yI26ZMUL;
+        "forge-26.3" = _q112Qahq;
         "neoforge-1.21.6" = _Ety7Uy0u;
         "neoforge-1.21.7" = _Ety7Uy0u;
         "neoforge-1.21.8" = _Ety7Uy0u;
@@ -185,6 +205,7 @@ let
         "neoforge-26.1.2" = _MIo2gq0t;
         "neoforge-26.2" = _MIo2gq0t;
         "neoforge-26.3-pre-2" = _yI26ZMUL;
+        "neoforge-26.3" = _q112Qahq;
         "quilt-1.21.6" = _Ety7Uy0u;
         "quilt-1.21.7" = _Ety7Uy0u;
         "quilt-1.21.8" = _Ety7Uy0u;
@@ -222,6 +243,7 @@ let
         "quilt-26.1.2" = _MIo2gq0t;
         "quilt-26.2" = _MIo2gq0t;
         "quilt-26.3-pre-2" = _yI26ZMUL;
+        "quilt-26.3" = _q112Qahq;
         "pkg-1.0" = _W3KCJr0D;
         "pkg-1.0.1" = _KsgkxYCq;
         "pkg-1.1" = _iWSWKDF5;
@@ -233,7 +255,10 @@ let
         "pkg-1.4.2" = _idYC00EV;
         "pkg-1.4.3" = _DOcXxNlw;
         "pkg-1.4.4" = _yI26ZMUL;
-        "default" = _yI26ZMUL;
+        "pkg-1.4.4.1" = _MtNJcv23;
+        "pkg-1.4.4.2" = _7QrdjJKo;
+        "pkg-1.4.4.3" = _q112Qahq;
+        "default" = _q112Qahq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-nature";

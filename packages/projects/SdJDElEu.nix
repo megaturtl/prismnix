@@ -76,6 +76,16 @@ let
             "file" = "immersive-storms-1.8.0+26.1.x.jar";
             "hash" = "sha512-Mc4+hAPdk69KsvBkjwOitDJZodShIsQDZwn/Zbr29hO0Hi2ctiBvR6Pst7XBONjxzoPJkHrzP5bKqtaLb+GCBw==";
         };
+        _H52O6tyT = {
+            "id" = "H52O6tyT";
+            "file" = "immersive-storms-1.8.0+26.2.jar";
+            "hash" = "sha512-iePPxImfIp+Ug+slXZTOp9TvRj5tZwFp6YVxEIhBb3YRYbr/03a8qSQaU57XTmWzvSfkWfUFiqrxdm8McE5hlw==";
+        };
+        _iArYgr87 = {
+            "id" = "iArYgr87";
+            "file" = "immersive-storms-1.8.0+26.3.jar";
+            "hash" = "sha512-JQ2Op0X6t5hPmpxC+CowlW0byXb9MiERyUDA6aDl1h9pKt7GJUHraeYQ2PD1n07AXMdJi1Dl7wWt8kxlVQhx/g==";
+        };
     in {
         "VKsOam42" = _VKsOam42;
         "5MCkiSQZ" = _5MCkiSQZ;
@@ -92,6 +102,8 @@ let
         "s57Ur2Qw" = _s57Ur2Qw;
         "3Box8PS5" = _3Box8PS5;
         "jaUkT61M" = _jaUkT61M;
+        "H52O6tyT" = _H52O6tyT;
+        "iArYgr87" = _iArYgr87;
         "fabric-1.21.5" = _VKsOam42;
         "fabric-1.21.6" = _7ER9eIwK;
         "fabric-1.21.7" = _7ER9eIwK;
@@ -102,7 +114,8 @@ let
         "fabric-26.1" = _jaUkT61M;
         "fabric-26.1.1" = _s57Ur2Qw;
         "fabric-26.1.2" = _s57Ur2Qw;
-        "fabric-26.2" = _3Box8PS5;
+        "fabric-26.2" = _H52O6tyT;
+        "fabric-26.3" = _iArYgr87;
         "quilt-1.21.5" = _VKsOam42;
         "quilt-1.21.6" = _7ER9eIwK;
         "quilt-1.21.7" = _7ER9eIwK;
@@ -113,7 +126,8 @@ let
         "quilt-26.1" = _jaUkT61M;
         "quilt-26.1.1" = _s57Ur2Qw;
         "quilt-26.1.2" = _s57Ur2Qw;
-        "quilt-26.2" = _3Box8PS5;
+        "quilt-26.2" = _H52O6tyT;
+        "quilt-26.3" = _iArYgr87;
         "pkg-1.0.0" = _VKsOam42;
         "pkg-1.1.0" = _5MCkiSQZ;
         "pkg-1.1.1" = _6YcdwejQ;
@@ -129,7 +143,9 @@ let
         "pkg-1.7.1" = _s57Ur2Qw;
         "pkg-1.7.3+26.2" = _3Box8PS5;
         "pkg-1.8.0+26.1.x" = _jaUkT61M;
-        "default" = _jaUkT61M;
+        "pkg-1.8.0+26.2" = _H52O6tyT;
+        "pkg-1.8.0+26.3" = _iArYgr87;
+        "default" = _iArYgr87;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immersive-storms";

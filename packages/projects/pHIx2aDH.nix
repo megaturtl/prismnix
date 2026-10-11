@@ -31,6 +31,11 @@ let
             "file" = "Spiders-2.0-1.0.4+26.1.jar";
             "hash" = "sha512-1wrf1Uob06KMfzxQGO1z1n5dCAc2b3qnjyZ+664AsFZxrhHqL7svhyt9m9rpxWdyAHq0VBnoRcGgXYiuioqbTA==";
         };
+        _Clm9xJ9O = {
+            "id" = "Clm9xJ9O";
+            "file" = "Spiders-2.0-1.1.1+26.3.jar";
+            "hash" = "sha512-3JE02z+3xCSY31bfJGVh/H3ZExKoStsATRQOz/RV8M6IWAJVZ7zfeB52YlNlgJydz2kG4hUnPl73JvVZvl3JGQ==";
+        };
     in {
         "ERWlEdKL" = _ERWlEdKL;
         "orqg48oO" = _orqg48oO;
@@ -38,18 +43,21 @@ let
         "4CxTOrwQ" = _4CxTOrwQ;
         "vYVwUFEy" = _vYVwUFEy;
         "Z9DwxcjW" = _Z9DwxcjW;
+        "Clm9xJ9O" = _Clm9xJ9O;
         "fabric-1.21.5" = _ERWlEdKL;
         "fabric-1.21.6" = _vYVwUFEy;
         "fabric-1.21.7" = _vYVwUFEy;
         "fabric-1.21.8" = _vYVwUFEy;
         "fabric-26.1" = _Z9DwxcjW;
+        "fabric-26.3" = _Clm9xJ9O;
         "pkg-1.0.0" = _ERWlEdKL;
         "pkg-1.0.0+1.21.6" = _orqg48oO;
         "pkg-1.0.1+1.21.6" = _WBzgHIuF;
         "pkg-1.0.2+1.21.6" = _4CxTOrwQ;
         "pkg-1.0.3+1.21.6" = _vYVwUFEy;
         "pkg-1.0.4+26.1" = _Z9DwxcjW;
-        "default" = _Z9DwxcjW;
+        "pkg-1.1.1+26.3" = _Clm9xJ9O;
+        "default" = _Clm9xJ9O;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spiders-2.0-polymer";

@@ -121,6 +121,11 @@ let
             "file" = "armourbundles-1.9.0+26.2.jar";
             "hash" = "sha512-xqyQ6hBLsNN4Et1HmtHPmxzGPfBpuFa7q9dYeV0lgNYdUOoCQzMD9DBeD6uHkVdi922nDG3xord1m+kVgU2XeA==";
         };
+        _3n0dsqXm = {
+            "id" = "3n0dsqXm";
+            "file" = "armourbundles-1.10.0+26.3.jar";
+            "hash" = "sha512-FesWPDjeG3olbmyDYfG6h9UvOgHB2R+5o4q7iEeibLFnd3LDVWRAUHmvxJIJatEZ342bZWzQSWOzFLhVewajUA==";
+        };
     in {
         "yLvP23vh" = _yLvP23vh;
         "goQXCmr7" = _goQXCmr7;
@@ -146,6 +151,7 @@ let
         "5KpL2hzE" = _5KpL2hzE;
         "jZR1je6x" = _jZR1je6x;
         "3FpQYzkT" = _3FpQYzkT;
+        "3n0dsqXm" = _3n0dsqXm;
         "fabric-1.19" = _yLvP23vh;
         "fabric-1.19.1" = _yLvP23vh;
         "fabric-1.19.2" = _85yfCHqt;
@@ -166,6 +172,7 @@ let
         "fabric-26.1.1" = _jZR1je6x;
         "fabric-26.1.2" = _jZR1je6x;
         "fabric-26.2" = _3FpQYzkT;
+        "fabric-26.3" = _3n0dsqXm;
         "pkg-1.0.0" = _yLvP23vh;
         "pkg-1.1.0" = _goQXCmr7;
         "pkg-1.1.1" = _loAh7Q6N;
@@ -190,7 +197,8 @@ let
         "pkg-1.7.2+1.21.11" = _5KpL2hzE;
         "pkg-1.8.1+26.1" = _jZR1je6x;
         "pkg-1.9.0+26.2" = _3FpQYzkT;
-        "default" = _3FpQYzkT;
+        "pkg-1.10.0+26.3" = _3n0dsqXm;
+        "default" = _3n0dsqXm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "armour-bundles";

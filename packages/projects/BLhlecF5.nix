@@ -66,6 +66,31 @@ let
             "file" = "NoammAddons-1.2.7-26.1.2-legit.jar";
             "hash" = "sha512-jKPb6VElfWdcQopdYSyQgybJy+By9w/WjP16JNe+rmlExfh1NzGagJwejUJ0XefBkOk2bdDoWFU+juMAFVOx4A==";
         };
+        _qj4UTOQB = {
+            "id" = "qj4UTOQB";
+            "file" = "NoammAddons-1.2.8-26.1.2-legit.jar";
+            "hash" = "sha512-TBXGdDnk/pfKfG2ydLv+O6z1sEHrUjiqzgP2XyVAiAIA7h2/xHIVzqtLYXjr+88AMuk9jVyus0sEu8jgGs86jA==";
+        };
+        _RpaUtKLR = {
+            "id" = "RpaUtKLR";
+            "file" = "NoammAddons-1.2.8-26.3-legit.jar";
+            "hash" = "sha512-NiIQUysMSK79d2dlu4Pr7bUfEziTFVBdDIh6qfqPXPC9M3p2Y+Z8K+V2pw8id588esqJmycK/U/fqAcU+PaCJQ==";
+        };
+        _MuAzcYTx = {
+            "id" = "MuAzcYTx";
+            "file" = "NoammAddons-1.2.9-26.1.2-legit.jar";
+            "hash" = "sha512-dNXJqrJCQE6AkcmGxaF6GSqiuZVXokR/8uu/QQflAc3IEm8U5DD3twnbpslQs3vLhDNx8CZ19f0H2szlUTcTWg==";
+        };
+        _PTy332Xv = {
+            "id" = "PTy332Xv";
+            "file" = "NoammAddons-1.2.9-26.3-legit.jar";
+            "hash" = "sha512-5F1z2UgQFxWiI/ypW0zqATYdPHaXvs1RFEUp+MiY+UMN2XcZOlLpg9rRy3K0GZKKRf+eYQsjb4fR3bHg1+iiGw==";
+        };
+        _lOXXJxia = {
+            "id" = "lOXXJxia";
+            "file" = "NoammAddons-1.2.9-26.2-legit.jar";
+            "hash" = "sha512-3w3qB6q4z9n+dYHVPTVUfxE0d9jcml19oJpgfineNygC9iXH2+XZM/4HxfPcTnMovy+WS7uDIC52jZZEz5kJ8Q==";
+        };
     in {
         "a1F3PTi7" = _a1F3PTi7;
         "dJj5RMSO" = _dJj5RMSO;
@@ -80,9 +105,16 @@ let
         "DaYvQq1N" = _DaYvQq1N;
         "RO0gbkny" = _RO0gbkny;
         "LsDi1bUg" = _LsDi1bUg;
+        "qj4UTOQB" = _qj4UTOQB;
+        "RpaUtKLR" = _RpaUtKLR;
+        "MuAzcYTx" = _MuAzcYTx;
+        "PTy332Xv" = _PTy332Xv;
+        "lOXXJxia" = _lOXXJxia;
         "fabric-1.21.11" = _y6jxjjUW;
         "fabric-1.21.10" = _KPk8mQPj;
-        "fabric-26.1.2" = _LsDi1bUg;
+        "fabric-26.1.2" = _MuAzcYTx;
+        "fabric-26.3" = _PTy332Xv;
+        "fabric-26.2" = _lOXXJxia;
         "pkg-1.1.8" = _dJj5RMSO;
         "pkg-1.1.9" = _z6IsvErm;
         "pkg-1.2.0" = _y6jxjjUW;
@@ -93,7 +125,9 @@ let
         "pkg-1.2.5" = _DaYvQq1N;
         "pkg-1.2.6" = _RO0gbkny;
         "pkg-1.2.7" = _LsDi1bUg;
-        "default" = _LsDi1bUg;
+        "pkg-1.2.8" = _RpaUtKLR;
+        "pkg-1.2.9" = _lOXXJxia;
+        "default" = _lOXXJxia;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "noammaddons";

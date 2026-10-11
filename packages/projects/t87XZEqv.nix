@@ -171,6 +171,26 @@ let
             "file" = "Kilt-20.1.20.jar";
             "hash" = "sha512-6VW8zdlIHWWKt98Qx4195wpnSBZ7wGgeXL7MylsWh9oikZ9Ju7N4EWCPphrtAoA/OgBoAnzVas58T805RKq6xQ==";
         };
+        _ZuseJZSH = {
+            "id" = "ZuseJZSH";
+            "file" = "Kilt-20.1.21.jar";
+            "hash" = "sha512-NXsrGd7K1GFqsIN84410ZD0kENZYnAf7+Ye9I0wM65+8wjNCJAFK9H/X0VgYO3CicUVD40DEvGwrCebqzBKyAg==";
+        };
+        _1Z2VE3M8 = {
+            "id" = "1Z2VE3M8";
+            "file" = "Kilt-21.1.13.jar";
+            "hash" = "sha512-+R/8Kh1ke9Z+t0f1Yc8oNr/FZ1tB3oYiBxdu/GAFd620Dn4h8aqtkD3QQTbfF0DXQwFvGRKKIEua9wYOerJtOw==";
+        };
+        _tWFRgVHV = {
+            "id" = "tWFRgVHV";
+            "file" = "Kilt-21.1.14.jar";
+            "hash" = "sha512-4TsdX0cubPAoYoriXQeA6o3bY1Tw86gVevt3U9KYQOQG5Mq4wNvEvj8siBibfwVX7eliqDTXeZbDX/uY4gN/HA==";
+        };
+        _FVVpTWMd = {
+            "id" = "FVVpTWMd";
+            "file" = "Kilt-21.1.15.jar";
+            "hash" = "sha512-5YrEOLRbb0fRinSZREEJaSU0aw76R670JRHuZ2GQ1xIhrwumVjDPe3YoGxYJgI+49iNc88pfckLGmWlP0MvGOg==";
+        };
     in {
         "EZSdSRAL" = _EZSdSRAL;
         "OacGiohQ" = _OacGiohQ;
@@ -206,8 +226,12 @@ let
         "qVYGbmPQ" = _qVYGbmPQ;
         "h52BsZ5F" = _h52BsZ5F;
         "dqyefjMi" = _dqyefjMi;
-        "fabric-1.20.1" = _dqyefjMi;
-        "fabric-1.21.1" = _h52BsZ5F;
+        "ZuseJZSH" = _ZuseJZSH;
+        "1Z2VE3M8" = _1Z2VE3M8;
+        "tWFRgVHV" = _tWFRgVHV;
+        "FVVpTWMd" = _FVVpTWMd;
+        "fabric-1.20.1" = _ZuseJZSH;
+        "fabric-1.21.1" = _FVVpTWMd;
         "pkg-20.1.0" = _EZSdSRAL;
         "pkg-20.1.1" = _OacGiohQ;
         "pkg-20.1.2" = _jTHxuZMV;
@@ -242,7 +266,11 @@ let
         "pkg-21.1.11" = _qVYGbmPQ;
         "pkg-21.1.12" = _h52BsZ5F;
         "pkg-20.1.20" = _dqyefjMi;
-        "default" = _dqyefjMi;
+        "pkg-20.1.21" = _ZuseJZSH;
+        "pkg-21.1.13" = _1Z2VE3M8;
+        "pkg-21.1.14" = _tWFRgVHV;
+        "pkg-21.1.15" = _FVVpTWMd;
+        "default" = _FVVpTWMd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kilt";

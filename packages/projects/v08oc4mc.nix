@@ -66,6 +66,11 @@ let
             "file" = "Ores Aura.zip";
             "hash" = "sha512-xHQnmcg8MfwYJp2vqtcrtt2jDZK+IPdrzGhOii9sxLezhrFAN3jb4XI0LWDFTMEab6OdPYH32cQCrKx3nFmtRw==";
         };
+        _Zct4JJqd = {
+            "id" = "Zct4JJqd";
+            "file" = "Ores Aura.zip";
+            "hash" = "sha512-UP+K+iV6jbRLUlNvAbCB0qQ255W7VC8Fx17BZidstF+81oOBkuVb/8GNiph37zEh7Rz1Y6arzR5SuHcmeqBawg==";
+        };
     in {
         "Q11vw5n6" = _Q11vw5n6;
         "hjYxNLKk" = _hjYxNLKk;
@@ -80,18 +85,19 @@ let
         "onm6popf" = _onm6popf;
         "aDbZgCty" = _aDbZgCty;
         "geMiHV58" = _geMiHV58;
-        "minecraft-1.21.4" = _geMiHV58;
-        "minecraft-1.21.5" = _geMiHV58;
-        "minecraft-1.21.6" = _geMiHV58;
-        "minecraft-1.21.7" = _geMiHV58;
-        "minecraft-1.21.8" = _geMiHV58;
-        "minecraft-1.21.9" = _geMiHV58;
-        "minecraft-1.21.10" = _geMiHV58;
-        "minecraft-1.21.11" = _geMiHV58;
-        "minecraft-1.21" = _geMiHV58;
-        "minecraft-1.21.1" = _geMiHV58;
-        "minecraft-1.21.2" = _geMiHV58;
-        "minecraft-1.21.3" = _geMiHV58;
+        "Zct4JJqd" = _Zct4JJqd;
+        "minecraft-1.21.4" = _Zct4JJqd;
+        "minecraft-1.21.5" = _Zct4JJqd;
+        "minecraft-1.21.6" = _Zct4JJqd;
+        "minecraft-1.21.7" = _Zct4JJqd;
+        "minecraft-1.21.8" = _Zct4JJqd;
+        "minecraft-1.21.9" = _Zct4JJqd;
+        "minecraft-1.21.10" = _Zct4JJqd;
+        "minecraft-1.21.11" = _Zct4JJqd;
+        "minecraft-1.21" = _Zct4JJqd;
+        "minecraft-1.21.1" = _Zct4JJqd;
+        "minecraft-1.21.2" = _Zct4JJqd;
+        "minecraft-1.21.3" = _Zct4JJqd;
         "minecraft-1.20" = _geMiHV58;
         "minecraft-1.20.1" = _geMiHV58;
         "minecraft-1.20.2" = _geMiHV58;
@@ -144,10 +150,11 @@ let
         "minecraft-24w44a" = _onm6popf;
         "minecraft-24w45a" = _onm6popf;
         "minecraft-24w46a" = _onm6popf;
-        "minecraft-26.1" = _geMiHV58;
-        "minecraft-26.1.1" = _geMiHV58;
-        "minecraft-26.1.2" = _geMiHV58;
-        "minecraft-26.2" = _geMiHV58;
+        "minecraft-26.1" = _Zct4JJqd;
+        "minecraft-26.1.1" = _Zct4JJqd;
+        "minecraft-26.1.2" = _Zct4JJqd;
+        "minecraft-26.2" = _Zct4JJqd;
+        "minecraft-26.3" = _Zct4JJqd;
         "pkg-1.00" = _hjYxNLKk;
         "pkg-1.10" = _oIS1VmL1;
         "pkg-1.20" = _TKyDljTb;
@@ -157,7 +164,8 @@ let
         "pkg-1.6" = _1XeI1KP5;
         "pkg-1.7" = _ce4OBZgJ;
         "pkg-1.8" = _geMiHV58;
-        "default" = _geMiHV58;
+        "pkg-1.9" = _Zct4JJqd;
+        "default" = _Zct4JJqd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "oresaura";

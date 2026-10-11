@@ -61,6 +61,11 @@ let
             "file" = "Mindly_Presence-1.4.2-1.21.1.jar";
             "hash" = "sha512-k/ueo/Nm2VP05HvtZkCLxvruUPgtD3GdHDMPbEFMR7rKPSe1Evj8Ha9BB89vkRBe/MQ6M3UUjd6syyl2vMBVzw==";
         };
+        _8diKIeEu = {
+            "id" = "8diKIeEu";
+            "file" = "Mindly_Presence-1.4.2-forge-1.20.1.jar";
+            "hash" = "sha512-5wg6MjuwDgRJ+qNGd933wXA/cSRyzvHCGcBT64qv9xvTDJB5n6FqRlGe3lcBx1HA7dn1ZSkRwFWClvd923HCpA==";
+        };
     in {
         "rWcEYsJ7" = _rWcEYsJ7;
         "KAlICjzP" = _KAlICjzP;
@@ -74,9 +79,10 @@ let
         "v12s9j9s" = _v12s9j9s;
         "HPP3CM7D" = _HPP3CM7D;
         "C7AQbFlS" = _C7AQbFlS;
+        "8diKIeEu" = _8diKIeEu;
         "forge-1.19.2" = _rWcEYsJ7;
         "forge-1.19.4" = _KAlICjzP;
-        "forge-1.20.1" = _WqRnH0bN;
+        "forge-1.20.1" = _8diKIeEu;
         "neoforge-1.21.4" = _zPl0Fz0M;
         "neoforge-1.21.1" = _C7AQbFlS;
         "pkg-1.0" = _7eQxDWQG;
@@ -86,7 +92,8 @@ let
         "pkg-1.4" = _v12s9j9s;
         "pkg-1.4.1" = _HPP3CM7D;
         "pkg-1.4.2" = _C7AQbFlS;
-        "default" = _C7AQbFlS;
+        "pkg-1.4.2-forge" = _8diKIeEu;
+        "default" = _8diKIeEu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mindly-presence";

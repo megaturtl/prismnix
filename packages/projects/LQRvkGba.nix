@@ -206,6 +206,26 @@ let
             "file" = "ltxi-26.1.2-2.2.0.jar";
             "hash" = "sha512-amQdxtOWiCvbxShRscqmaUcboU6f65jgiF/esKkk2ij6hT9bJQvvyQF+v44bxl5712OlTZZIzKGB6qrpZdiOVw==";
         };
+        _obPHaRgd = {
+            "id" = "obPHaRgd";
+            "file" = "ltxi-26.1.2-2.2.3.jar";
+            "hash" = "sha512-hH1vaQERv+DKdsFn2qnV36IG5qYCPUdGUnKRXGJg5/UPdgUK42IEc5ao4NmkATwkKTwoWTu9stv1sRZJT2ytVw==";
+        };
+        _x0qDBbNc = {
+            "id" = "x0qDBbNc";
+            "file" = "ltxi-26.1.2-2.2.4.jar";
+            "hash" = "sha512-iwcMu/l+yuqOwjnkqJczIz0bjIXrOYGGzmqLC9MOIfo0v2u4bdx8qflN7IFosaCDiAWcnC437CD16alE8Plj2g==";
+        };
+        _99phhArY = {
+            "id" = "99phhArY";
+            "file" = "ltxi-26.1.2-2.3.0.jar";
+            "hash" = "sha512-n1eR4yHVWoJbYczLhR2n8P1GU/AUoGKk7wSxtFqSJK8TsUsHiEMTTrIz5IZps8H2vkmqsLO44HoP3a7+yS1zAw==";
+        };
+        _LeeV2418 = {
+            "id" = "LeeV2418";
+            "file" = "ltxi-26.1.2-2.3.1.jar";
+            "hash" = "sha512-dAtD2ilNVV8D3sFVpgXtCs5uKKuG4uuvKpQdq9B+9RYvyK7wVnNZWzUBy6Zo4B9jIS99OQ1PstHuKbuqHl4gAg==";
+        };
     in {
         "KG98ak2I" = _KG98ak2I;
         "omFYifXF" = _omFYifXF;
@@ -248,8 +268,12 @@ let
         "NdSK9e9C" = _NdSK9e9C;
         "FSYKtTXS" = _FSYKtTXS;
         "z1yq8W5e" = _z1yq8W5e;
+        "obPHaRgd" = _obPHaRgd;
+        "x0qDBbNc" = _x0qDBbNc;
+        "99phhArY" = _99phhArY;
+        "LeeV2418" = _LeeV2418;
         "neoforge-1.21.1" = _r1LqUGAj;
-        "neoforge-26.1.2" = _z1yq8W5e;
+        "neoforge-26.1.2" = _LeeV2418;
         "pkg-0.10.0-beta" = _KG98ak2I;
         "pkg-0.12.0-beta" = _omFYifXF;
         "pkg-0.13.0-beta" = _7SUPBs1i;
@@ -291,7 +315,11 @@ let
         "pkg-2.1.0" = _NdSK9e9C;
         "pkg-2.1.3" = _FSYKtTXS;
         "pkg-2.2.0" = _z1yq8W5e;
-        "default" = _z1yq8W5e;
+        "pkg-2.2.3" = _obPHaRgd;
+        "pkg-2.2.4" = _x0qDBbNc;
+        "pkg-2.3.0" = _99phhArY;
+        "pkg-2.3.1" = _LeeV2418;
+        "default" = _LeeV2418;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ltx-industries";

@@ -86,6 +86,11 @@ let
             "file" = "BestSaturation_pack (26.3).zip";
             "hash" = "sha512-49Z+6adnUuFtvFn/f2L9Kcsykpwrb4INldt16Rp2LhrHPEkiN/hM2Y0U/PSZnhss2QUFY9QeX5gjyRchUYtBdw==";
         };
+        _d6FZZzVl = {
+            "id" = "d6FZZzVl";
+            "file" = "BestSaturation §4Test-1 §2(26.3).zip";
+            "hash" = "sha512-PUYekXy9aFpmnJAO0akuJKIQhuvvUMlDnkpUzIKpwqRkbVem2wcppJN8DZLKbQw/4bOIUxZype6WPhyr6VwBSw==";
+        };
     in {
         "Xy4ySi7y" = _Xy4ySi7y;
         "hUtfKuRC" = _hUtfKuRC;
@@ -104,6 +109,7 @@ let
         "SCjFws9x" = _SCjFws9x;
         "i4HlxVhP" = _i4HlxVhP;
         "V10PlH8v" = _V10PlH8v;
+        "d6FZZzVl" = _d6FZZzVl;
         "minecraft-1.21" = _hUtfKuRC;
         "minecraft-1.21.1" = _hUtfKuRC;
         "minecraft-1.20" = _hUtfKuRC;
@@ -161,7 +167,7 @@ let
         "minecraft-26.3-snapshot-6" = _i4HlxVhP;
         "minecraft-26.3-snapshot-7" = _i4HlxVhP;
         "minecraft-26.3-snapshot-8" = _i4HlxVhP;
-        "minecraft-26.3" = _V10PlH8v;
+        "minecraft-26.3" = _d6FZZzVl;
         "pkg-Ready_1.21v1" = _Xy4ySi7y;
         "pkg-CBC-0.1" = _hUtfKuRC;
         "pkg-Ready_1.21v3" = _WPcuTTGm;
@@ -179,7 +185,8 @@ let
         "pkg-Ready_v26.2" = _SCjFws9x;
         "pkg-v26.3-Almost1" = _i4HlxVhP;
         "pkg-Ready_v26.3" = _V10PlH8v;
-        "default" = _V10PlH8v;
+        "pkg-Test-Almost1" = _d6FZZzVl;
+        "default" = _d6FZZzVl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "best-saturation-pack";

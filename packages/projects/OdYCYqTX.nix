@@ -201,6 +201,11 @@ let
             "file" = "CoordinateOffset-Paper-6.1.7.jar";
             "hash" = "sha512-RXHeuMQtpjwih9arb8IpufLnYIaqOgTocy6CqFgB7IYOuO0ytVxnoZ1iSqLMSplRANCn4HISnsk0QZdTqiyAvw==";
         };
+        _J7rFzjql = {
+            "id" = "J7rFzjql";
+            "file" = "CoordinateOffset-Paper-6.2.0.jar";
+            "hash" = "sha512-7cdjm+4oJ/vbydiim0xdtwiwFfQY3VOWkmu4WGysyTY1BruJno1jcDXEJVNLQIjs8GykDKM6hBMxz1lgQZcIyQ==";
+        };
     in {
         "txdBDZBI" = _txdBDZBI;
         "ihnWwDZn" = _ihnWwDZn;
@@ -242,6 +247,7 @@ let
         "9cGxEuo4" = _9cGxEuo4;
         "fX5eKDAd" = _fX5eKDAd;
         "euyhHhpQ" = _euyhHhpQ;
+        "J7rFzjql" = _J7rFzjql;
         "bukkit-1.20.1" = _yNGuSYTR;
         "bukkit-1.19.4" = _yNGuSYTR;
         "bukkit-1.20" = _yNGuSYTR;
@@ -299,8 +305,9 @@ let
         "paper-1.21.11" = _euyhHhpQ;
         "paper-26.1" = _euyhHhpQ;
         "paper-26.1.1" = _euyhHhpQ;
-        "paper-26.1.2" = _euyhHhpQ;
-        "paper-26.2" = _euyhHhpQ;
+        "paper-26.1.2" = _J7rFzjql;
+        "paper-26.2" = _J7rFzjql;
+        "paper-26.3" = _J7rFzjql;
         "spigot-1.20.1" = _yNGuSYTR;
         "spigot-1.19.4" = _yNGuSYTR;
         "spigot-1.20" = _yNGuSYTR;
@@ -358,8 +365,9 @@ let
         "purpur-1.21.11" = _euyhHhpQ;
         "purpur-26.1" = _euyhHhpQ;
         "purpur-26.1.1" = _euyhHhpQ;
-        "purpur-26.1.2" = _euyhHhpQ;
-        "purpur-26.2" = _euyhHhpQ;
+        "purpur-26.1.2" = _J7rFzjql;
+        "purpur-26.2" = _J7rFzjql;
+        "purpur-26.3" = _J7rFzjql;
         "pkg-v2.0.0" = _txdBDZBI;
         "pkg-v2.1.0" = _ihnWwDZn;
         "pkg-v2.1.1" = _ApzYnUwb;
@@ -400,7 +408,8 @@ let
         "pkg-6.1.5" = _9cGxEuo4;
         "pkg-6.1.6" = _fX5eKDAd;
         "pkg-6.1.7" = _euyhHhpQ;
-        "default" = _euyhHhpQ;
+        "pkg-6.2.0" = _J7rFzjql;
+        "default" = _J7rFzjql;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "coordinateoffset";

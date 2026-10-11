@@ -201,6 +201,26 @@ let
             "file" = "worldweaver-26.101.2.jar";
             "hash" = "sha512-IKLy1ZiZZrPlRyTp3y+QYdl/t5pBzEhSoSSSxD1aFin7CCRcZyedxXsBIjTVN57scji+zz+ct7oEfCVs7WgRLQ==";
         };
+        _9qolYnYx = {
+            "id" = "9qolYnYx";
+            "file" = "worldweaver-21.800.2.jar";
+            "hash" = "sha512-eC9VLM2S0fATM3q/TMoygrk01fuRfJZ+3GK+fFNIrQ3AsKuy4dXtBE/rq92o8afUh2I8XUQJvvCGO7yETmDsNA==";
+        };
+        _FrA7VneU = {
+            "id" = "FrA7VneU";
+            "file" = "worldweaver-26.101.3.jar";
+            "hash" = "sha512-NSv/Z/88da+mCBp5L/OQo7kIjokF7fnKJLRonDoXqYb0YIWJswLc2J2tkcXmLgHM1u5ru6cQMcm5MM7OxAEtNw==";
+        };
+        _Xb6nxIdq = {
+            "id" = "Xb6nxIdq";
+            "file" = "worldweaver-26.201.3.jar";
+            "hash" = "sha512-z7tmKaBQvRQQCP6Pyx2/Se/SHaaV3EflZhPPOMgsMgBe9Tlrww9taZfOetu7pBRh4ODtJaBLHAlN9ifo0kWx6w==";
+        };
+        _eYhNIa8l = {
+            "id" = "eYhNIa8l";
+            "file" = "worldweaver-26.301.1.jar";
+            "hash" = "sha512-VvOevdfsifAXmSBzqAvvVIW4MLojyun6KI4nA2mLgsZc4olgTDUfZzOIiqiVYrOo6FRU/036kH65GQpEI4W1uA==";
+        };
     in {
         "71qB5ADd" = _71qB5ADd;
         "OWspNUyV" = _OWspNUyV;
@@ -242,16 +262,21 @@ let
         "3SgzOfbQ" = _3SgzOfbQ;
         "GHdiOIsp" = _GHdiOIsp;
         "MSzkHfJp" = _MSzkHfJp;
+        "9qolYnYx" = _9qolYnYx;
+        "FrA7VneU" = _FrA7VneU;
+        "Xb6nxIdq" = _Xb6nxIdq;
+        "eYhNIa8l" = _eYhNIa8l;
         "fabric-1.21" = _mPmeykPR;
         "fabric-1.21.1" = _mPmeykPR;
-        "fabric-1.21.6" = _1qQqgVzJ;
-        "fabric-1.21.7" = _1qQqgVzJ;
-        "fabric-1.21.8" = _1qQqgVzJ;
-        "fabric-26.1" = _MSzkHfJp;
-        "fabric-26.1.1" = _MSzkHfJp;
-        "fabric-26.1.2" = _MSzkHfJp;
+        "fabric-1.21.6" = _9qolYnYx;
+        "fabric-1.21.7" = _9qolYnYx;
+        "fabric-1.21.8" = _9qolYnYx;
+        "fabric-26.1" = _FrA7VneU;
+        "fabric-26.1.1" = _FrA7VneU;
+        "fabric-26.1.2" = _FrA7VneU;
         "fabric-26.3-snapshot-6" = _3SgzOfbQ;
-        "fabric-26.2" = _GHdiOIsp;
+        "fabric-26.2" = _Xb6nxIdq;
+        "fabric-26.3" = _eYhNIa8l;
         "pkg-21.0.0" = _71qB5ADd;
         "pkg-21.0.1" = _OWspNUyV;
         "pkg-21.0.2" = _c6sTpGND;
@@ -292,7 +317,11 @@ let
         "pkg-26.301.0" = _3SgzOfbQ;
         "pkg-26.201.2" = _GHdiOIsp;
         "pkg-26.101.2" = _MSzkHfJp;
-        "default" = _MSzkHfJp;
+        "pkg-21.800.2" = _9qolYnYx;
+        "pkg-26.101.3" = _FrA7VneU;
+        "pkg-26.201.3" = _Xb6nxIdq;
+        "pkg-26.301.1" = _eYhNIa8l;
+        "default" = _eYhNIa8l;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "worldweaver";

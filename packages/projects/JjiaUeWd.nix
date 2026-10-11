@@ -86,6 +86,26 @@ let
             "file" = "astoutline-3.5.0+mc26.2.jar";
             "hash" = "sha512-makguI+pkAMYGsd44mbec5rKo0+BlKkjRTGswZ3PLwyDbXHN/suFJ3D/jLb0yJasriRqwYWrJZS+3j175MjhTA==";
         };
+        _rIFLq4c6 = {
+            "id" = "rIFLq4c6";
+            "file" = "astoutline-3.6.0+mc1.21.1.jar";
+            "hash" = "sha512-6pGJH6BfgiukC8qnoL6at7u++/kY24lAs2Cl26j2Bn0cek0lWDBaG5UXNBVVNbcEXiKqqEW6hMMvZCkWusoUNA==";
+        };
+        _JQOWJFS7 = {
+            "id" = "JQOWJFS7";
+            "file" = "astoutline-3.6.0+mc1.21.11.jar";
+            "hash" = "sha512-5fmLZrqcVKYQ0EcL5hAldool+CIaheNYoGa5mIyXQMWcOy9Cv4eZuMAARGudFnxufRKnpfmWhOdbf4cQoECvrQ==";
+        };
+        _NiiEYhc3 = {
+            "id" = "NiiEYhc3";
+            "file" = "astoutline-3.6.0+mc26.1.jar";
+            "hash" = "sha512-ap3nj7ZTiazuHrbKHy1ZL+tVGZB8IfTXKaxEl8GCGxPg2+QmSQveY6y8jIp3DjbSR8uQtz9WcBMno4R3vfc0xA==";
+        };
+        _JVwgouh2 = {
+            "id" = "JVwgouh2";
+            "file" = "astoutline-3.6.0+mc26.2.jar";
+            "hash" = "sha512-ED5U6khPAqoInp+Pj8kte0LE6XS4cbbMBTFGOdy9aBz/D3FgohEPCetuvbAdTDc7LO7XvX5tE8kB5HhyB8om3Q==";
+        };
     in {
         "Iqg7aYjR" = _Iqg7aYjR;
         "v9wqPsnO" = _v9wqPsnO;
@@ -104,14 +124,18 @@ let
         "i35f5zYc" = _i35f5zYc;
         "IwimUpNn" = _IwimUpNn;
         "guFnhndO" = _guFnhndO;
-        "neoforge-1.21.1" = _UoDZEb1m;
-        "neoforge-26.2" = _guFnhndO;
-        "neoforge-1.21.11" = _i35f5zYc;
-        "neoforge-26.1.2" = _IwimUpNn;
-        "fabric-1.21.1" = _UoDZEb1m;
-        "fabric-26.2" = _guFnhndO;
-        "fabric-1.21.11" = _i35f5zYc;
-        "fabric-26.1.2" = _IwimUpNn;
+        "rIFLq4c6" = _rIFLq4c6;
+        "JQOWJFS7" = _JQOWJFS7;
+        "NiiEYhc3" = _NiiEYhc3;
+        "JVwgouh2" = _JVwgouh2;
+        "neoforge-1.21.1" = _rIFLq4c6;
+        "neoforge-26.2" = _JVwgouh2;
+        "neoforge-1.21.11" = _JQOWJFS7;
+        "neoforge-26.1.2" = _NiiEYhc3;
+        "fabric-1.21.1" = _rIFLq4c6;
+        "fabric-26.2" = _JVwgouh2;
+        "fabric-1.21.11" = _JQOWJFS7;
+        "fabric-26.1.2" = _NiiEYhc3;
         "pkg-1.0" = _Iqg7aYjR;
         "pkg-1.9.1" = _v9wqPsnO;
         "pkg-1.9.15" = _icixOSmd;
@@ -122,7 +146,8 @@ let
         "pkg-3.2.1" = _pu7S2MW1;
         "pkg-3.3" = _LQYXnbml;
         "pkg-3.5" = _guFnhndO;
-        "default" = _guFnhndO;
+        "pkg-3.6.0" = _JVwgouh2;
+        "default" = _JVwgouh2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "outlinestuff";

@@ -1026,6 +1026,46 @@ let
             "file" = "ResourcefulConfig-5.0.0.jar";
             "hash" = "sha512-yYNPvLVX1vlrmcyvxpNG+No4h83E4m94D59P4ccSBxurLpc2Ls9pzTCKqvp26jy5jnvuNbYdlK3a4nl3iBVkVw==";
         };
+        _GSWZuJ0U = {
+            "id" = "GSWZuJ0U";
+            "file" = "ResourcefulConfig-6.0.0.jar";
+            "hash" = "sha512-eAZduGOh7qJuBQqKhh7mFLBXOwuPuyIzJVh9z1k8i2qmpqMulsSwJj9/Y63atH86Cf3ji0+3JUVTWhaAlVV+9w==";
+        };
+        _4SFIciz7 = {
+            "id" = "4SFIciz7";
+            "file" = "ResourcefulConfig-6.0.0.jar";
+            "hash" = "sha512-Op5Sh9+4D36hrgb5xnCUB9lsS5Kp3w2XC+vLnS2cIxXPcDGO5LoPTTcFryTIWmtypUlO4bSKQ2Y59BeK/6SO+Q==";
+        };
+        _WEYdpGaO = {
+            "id" = "WEYdpGaO";
+            "file" = "ResourcefulConfig-6.0.1.jar";
+            "hash" = "sha512-HvrgSBt+ewy94O41+ioW+FkZC6SKSeX8RHmZyMEjtOlMMJDExEcHJyHsoQD/vojkEp8PqNLDyxKLQgDow+80ow==";
+        };
+        _IFB0XCI9 = {
+            "id" = "IFB0XCI9";
+            "file" = "ResourcefulConfig-6.0.1.jar";
+            "hash" = "sha512-NdniHGpWgESDgHMb+vZnhlTyVbNKliMHZqIE/HtxHHN8eHB8iGvsUp9OfFMvGQssSIdcIhuEQK/Wmvumu1v5qA==";
+        };
+        _qT3EZMil = {
+            "id" = "qT3EZMil";
+            "file" = "ResourcefulConfig-6.0.2.jar";
+            "hash" = "sha512-/uCDstKKayP5BEwve8vmM01p5YtAjY48+3qCewC68zhZNUUtXJ3xcrdLwAmWd9/8u7LR4sLTS8Exbx2scVoOvA==";
+        };
+        _t3odHyFJ = {
+            "id" = "t3odHyFJ";
+            "file" = "ResourcefulConfig-6.0.2.jar";
+            "hash" = "sha512-kWuvxN9ZLRXyadsWnBbWBNLH5yb7PEIwyu/w/FxT7xv9MOgNzjT/zDLNwhBUQzPBITUfXaUKJ78OnHlOWFdQJQ==";
+        };
+        _yYU5o14K = {
+            "id" = "yYU5o14K";
+            "file" = "ResourcefulConfig-5.0.1.jar";
+            "hash" = "sha512-OFVaZOQlmJcAt4pa8TPG0dd/rGTNm/ms+yQhHWGwQ9FOUTAfIRq3XGB4e67Wcz25izGplKl/KnB0CUHJyoD1Xg==";
+        };
+        _WcCx1Mqe = {
+            "id" = "WcCx1Mqe";
+            "file" = "ResourcefulConfig-5.0.1.jar";
+            "hash" = "sha512-BlTWpKzaOIlgIGdJV3WHX0l0roPxm0mbAIvlirOREUEFYLOD5iuDkmcs4OiwZq4zi8Wnno9HVydocyNIjxnmmg==";
+        };
     in {
         "1sMRhcfE" = _1sMRhcfE;
         "CJ1EQWAX" = _CJ1EQWAX;
@@ -1232,6 +1272,14 @@ let
         "GMW14IUd" = _GMW14IUd;
         "8xLtoyZG" = _8xLtoyZG;
         "RqoPv70U" = _RqoPv70U;
+        "GSWZuJ0U" = _GSWZuJ0U;
+        "4SFIciz7" = _4SFIciz7;
+        "WEYdpGaO" = _WEYdpGaO;
+        "IFB0XCI9" = _IFB0XCI9;
+        "qT3EZMil" = _qT3EZMil;
+        "t3odHyFJ" = _t3odHyFJ;
+        "yYU5o14K" = _yYU5o14K;
+        "WcCx1Mqe" = _WcCx1Mqe;
         "fabric-1.19.2" = _TIzyR4bY;
         "fabric-1.19.3" = _zrSzjHIt;
         "fabric-1.19.4" = _CDqoVuzU;
@@ -1255,7 +1303,8 @@ let
         "fabric-26.1" = _GMW14IUd;
         "fabric-26.1.1" = _GMW14IUd;
         "fabric-26.1.2" = _GMW14IUd;
-        "fabric-26.2" = _RqoPv70U;
+        "fabric-26.2" = _WcCx1Mqe;
+        "fabric-26.3" = _t3odHyFJ;
         "forge-1.19.2" = _6k0hdREk;
         "forge-1.19.3" = _yEcynctB;
         "forge-1.19.4" = _Gv8qpOL7;
@@ -1282,7 +1331,8 @@ let
         "neoforge-26.1" = _BLREkCgZ;
         "neoforge-26.1.1" = _BLREkCgZ;
         "neoforge-26.1.2" = _BLREkCgZ;
-        "neoforge-26.2" = _8xLtoyZG;
+        "neoforge-26.2" = _yYU5o14K;
+        "neoforge-26.3" = _qT3EZMil;
         "quilt-1.20.1" = _2gStMKhM;
         "quilt-1.20.4" = _1yfzKLu6;
         "quilt-1.20.5" = _cvBK0GEw;
@@ -1301,7 +1351,7 @@ let
         "quilt-26.1" = _GMW14IUd;
         "quilt-26.1.1" = _GMW14IUd;
         "quilt-26.1.2" = _GMW14IUd;
-        "quilt-26.2" = _RqoPv70U;
+        "quilt-26.2" = _WcCx1Mqe;
         "pkg-1.0.7" = _CJ1EQWAX;
         "pkg-1.0.8" = _HLTIErHD;
         "pkg-1.0.11" = _AT8w6BOY;
@@ -1399,7 +1449,11 @@ let
         "pkg-4.0.0" = _wqvqzKdc;
         "pkg-4.0.1" = _GMW14IUd;
         "pkg-5.0.0" = _RqoPv70U;
-        "default" = _RqoPv70U;
+        "pkg-6.0.0" = _4SFIciz7;
+        "pkg-6.0.1" = _IFB0XCI9;
+        "pkg-6.0.2" = _t3odHyFJ;
+        "pkg-5.0.1" = _WcCx1Mqe;
+        "default" = _WcCx1Mqe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "resourceful-config";

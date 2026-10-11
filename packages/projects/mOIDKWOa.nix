@@ -41,6 +41,11 @@ let
             "file" = "flashbacksettings-fabric-26.2-1.2.0+26.2.jar";
             "hash" = "sha512-1BxsvO+vKS6ctABP0D4u6BAynCc3ZJBFdL8gXr7bcH5OMqbECNy/oXpJ6cBwad9UgBb1Yr5gJL6ddy8IlxwdVQ==";
         };
+        _afSbHGqk = {
+            "id" = "afSbHGqk";
+            "file" = "flashbacksettings-fabric-26.3-1.2.0+26.3.jar";
+            "hash" = "sha512-RyZ4L6Xkv7SyViLZ2gskU90TJWHsUjvgOixqPzh9PrBRf+O6ilAgpAwtdkkcscsa8c16b8zRnqFwyuG9ywrQjA==";
+        };
     in {
         "Iz1rfGAJ" = _Iz1rfGAJ;
         "mjFytSF5" = _mjFytSF5;
@@ -50,6 +55,7 @@ let
         "xP6TwQw8" = _xP6TwQw8;
         "63L2HWQz" = _63L2HWQz;
         "cvWqVWtL" = _cvWqVWtL;
+        "afSbHGqk" = _afSbHGqk;
         "fabric-1.21.11" = _xP6TwQw8;
         "fabric-1.21" = _xP6TwQw8;
         "fabric-1.21.1" = _xP6TwQw8;
@@ -64,6 +70,7 @@ let
         "fabric-26.1.1" = _63L2HWQz;
         "fabric-26.1.2" = _63L2HWQz;
         "fabric-26.2" = _cvWqVWtL;
+        "fabric-26.3" = _afSbHGqk;
         "pkg-1.0.0+fabric-1.21.11" = _Iz1rfGAJ;
         "pkg-1.0.0+fabric" = _mjFytSF5;
         "pkg-1.0.0+fabric-26.1" = _6Id3qy5g;
@@ -72,7 +79,8 @@ let
         "pkg-1.2.0+fabric" = _xP6TwQw8;
         "pkg-1.2.0+fabric-26.1" = _63L2HWQz;
         "pkg-1.2.0+fabric-26.2" = _cvWqVWtL;
-        "default" = _cvWqVWtL;
+        "pkg-1.2.0+fabric-26.3" = _afSbHGqk;
+        "default" = _afSbHGqk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "flashbacksettings";

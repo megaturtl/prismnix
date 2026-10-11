@@ -71,6 +71,21 @@ let
             "file" = "KoreanChat-1.6.jar";
             "hash" = "sha512-Tz9fz5QJpZ0NPR/APUTcWSFq82oKcWT0NLoIBTwNAb6cIlJI8+Gs4r2Z4G2GZPsF+ISiw/iym17uQZkpPyyCOQ==";
         };
+        _shknCU6I = {
+            "id" = "shknCU6I";
+            "file" = "KoreanChat-1.7.jar";
+            "hash" = "sha512-ZoOQIjGi+3QuvFf/vCFJZIj3689vTe6ROhjhqaSdmm+dlJMur92FkEcZGk4fIBaICj6ghx44IBYsAXlKNzyO+A==";
+        };
+        _1bS0IVAy = {
+            "id" = "1bS0IVAy";
+            "file" = "KoreanChat-1.8.jar";
+            "hash" = "sha512-WoLShBnLTPfOB5teI66dXoJ7+ipCIX1/9L+4ds3p+MyRll7vVP0wGOi8Bl1pxgWRcKVcVyLUBdHtJeriv0rsOg==";
+        };
+        _UHBgtOAU = {
+            "id" = "UHBgtOAU";
+            "file" = "KoreanChat-neoforge-1.8.jar";
+            "hash" = "sha512-2KcN6hQn5po612C7eSryws6K4+oq8S0ATDlQkvN63QH0uqAN+HjiifAl5lNhOKU8GrJd/vKKFa7kEbyObf/zeQ==";
+        };
     in {
         "bWdqMn8S" = _bWdqMn8S;
         "zH5FRTGo" = _zH5FRTGo;
@@ -86,6 +101,9 @@ let
         "URRW2Sgl" = _URRW2Sgl;
         "5eQXy2Q5" = _5eQXy2Q5;
         "wTkcKegs" = _wTkcKegs;
+        "shknCU6I" = _shknCU6I;
+        "1bS0IVAy" = _1bS0IVAy;
+        "UHBgtOAU" = _UHBgtOAU;
         "fabric-1.19.4" = _zH5FRTGo;
         "fabric-1.20" = _zH5FRTGo;
         "fabric-1.20.1" = _zH5FRTGo;
@@ -105,6 +123,8 @@ let
         "fabric-1.21.10" = _URRW2Sgl;
         "fabric-1.21.11" = _5eQXy2Q5;
         "fabric-26.2" = _wTkcKegs;
+        "fabric-26.3" = _1bS0IVAy;
+        "neoforge-26.3" = _UHBgtOAU;
         "pkg-1.0" = _bWdqMn8S;
         "pkg-1.1" = _zH5FRTGo;
         "pkg-1.2" = _wK6hlyEU;
@@ -115,7 +135,10 @@ let
         "pkg-1.5.2" = _URRW2Sgl;
         "pkg-1.5.3" = _5eQXy2Q5;
         "pkg-1.6" = _wTkcKegs;
-        "default" = _wTkcKegs;
+        "pkg-1.7" = _shknCU6I;
+        "pkg-1.8-fabric" = _1bS0IVAy;
+        "pkg-1.8-neoforge" = _UHBgtOAU;
+        "default" = _UHBgtOAU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "koreanchat";

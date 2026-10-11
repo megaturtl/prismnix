@@ -111,6 +111,11 @@ let
             "file" = "krypton-0.3.1.jar";
             "hash" = "sha512-uNmvNM0AUEk6+4piMsuPeF2qnYiHtwRfbmpTxrubX/xDGP2bA0epQOrP66R3PxDLgK4L4eec5MGIj5btoh5WTg==";
         };
+        _UugdIYJw = {
+            "id" = "UugdIYJw";
+            "file" = "krypton-0.3.2.jar";
+            "hash" = "sha512-0dV+vUE5W3WwHxMM2VA+uNIIISQko5n/nzZ/UL6PvBxkckQrM8aG53fDFI9qYJUg6PtzLHVRV8NYyyB/1NESOg==";
+        };
     in {
         "tO4HJpLA" = _tO4HJpLA;
         "19624YsD" = _19624YsD;
@@ -134,6 +139,7 @@ let
         "O9LmWYR7" = _O9LmWYR7;
         "kYAGItyj" = _kYAGItyj;
         "5WeL0Nkz" = _5WeL0Nkz;
+        "UugdIYJw" = _UugdIYJw;
         "fabric-1.16.2" = _7AwqDL7J;
         "fabric-1.16.3" = _7AwqDL7J;
         "fabric-1.16.4" = _7AwqDL7J;
@@ -170,6 +176,7 @@ let
         "fabric-26.1.1" = _kYAGItyj;
         "fabric-26.1.2" = _kYAGItyj;
         "fabric-26.2" = _5WeL0Nkz;
+        "fabric-26.3" = _UugdIYJw;
         "pkg-0.1.0" = _tO4HJpLA;
         "pkg-0.1.1" = _19624YsD;
         "pkg-0.1.2" = _7AwqDL7J;
@@ -192,7 +199,8 @@ let
         "pkg-0.2.10" = _O9LmWYR7;
         "pkg-0.3.0" = _kYAGItyj;
         "pkg-0.3.1" = _5WeL0Nkz;
-        "default" = _5WeL0Nkz;
+        "pkg-0.3.2" = _UugdIYJw;
+        "default" = _UugdIYJw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "krypton";

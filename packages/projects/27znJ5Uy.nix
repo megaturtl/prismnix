@@ -41,6 +41,21 @@ let
             "file" = "animon-fix-fabric-1.0.2.jar";
             "hash" = "sha512-1jR62QxjyBVz7jh9Esz5obnvoVO53WmE2RoQ6L9nbK2ayGvGhdkS4JY31H1gV4W6TIXqkgdiXWcrIGTfOs8syA==";
         };
+        _H5siUA6c = {
+            "id" = "H5siUA6c";
+            "file" = "animon-fix-neoforge-1.0.3.jar";
+            "hash" = "sha512-/31S6CdHEi4n0NnM6ia+v1Jz5Xnn+Div2PB9GZcBEXNX+P56grz/Q8g5EzbnGwMTJwdllkiZw+OMYPzNGYqh0A==";
+        };
+        _YbFm2d8P = {
+            "id" = "YbFm2d8P";
+            "file" = "animon-fix-fabric-1.0.4.jar";
+            "hash" = "sha512-VpimHjbJHSVPbsvxJEdHRBwaMQUrN29U21tpeXRjNEu76+rr9s4p45vDOrdiepWt4NUaYqutk0Hees6aPpdjPA==";
+        };
+        _b9pAdPmK = {
+            "id" = "b9pAdPmK";
+            "file" = "animon-fix-fabric-1.0.5.jar";
+            "hash" = "sha512-S6o0RnVo7tMznDtHzwqhAe0oKP8Igoqu7+jxf0MxklcLZUWugS5WBfXGg9Y0bWGkeoH2XMm1gB+mu2EqXBb+5Q==";
+        };
     in {
         "LyHuF0ys" = _LyHuF0ys;
         "ZwaYRtYL" = _ZwaYRtYL;
@@ -50,25 +65,31 @@ let
         "aVTLeNHQ" = _aVTLeNHQ;
         "uzESIkTW" = _uzESIkTW;
         "HxbvLRzn" = _HxbvLRzn;
+        "H5siUA6c" = _H5siUA6c;
+        "YbFm2d8P" = _YbFm2d8P;
+        "b9pAdPmK" = _b9pAdPmK;
         "fabric-1.20.1" = _LyHuF0ys;
-        "fabric-1.21.1" = _HxbvLRzn;
-        "fabric-1.21.2" = _HxbvLRzn;
-        "fabric-1.21.3" = _HxbvLRzn;
-        "fabric-1.21.4" = _HxbvLRzn;
-        "fabric-1.21.5" = _HxbvLRzn;
-        "fabric-1.21.6" = _HxbvLRzn;
-        "fabric-1.21.7" = _HxbvLRzn;
-        "fabric-1.21.8" = _HxbvLRzn;
-        "fabric-1.21.9" = _HxbvLRzn;
-        "fabric-1.21.10" = _HxbvLRzn;
-        "fabric-1.21.11" = _HxbvLRzn;
-        "neoforge-1.21.1" = _uzESIkTW;
+        "fabric-1.21.1" = _b9pAdPmK;
+        "fabric-1.21.2" = _b9pAdPmK;
+        "fabric-1.21.3" = _b9pAdPmK;
+        "fabric-1.21.4" = _b9pAdPmK;
+        "fabric-1.21.5" = _b9pAdPmK;
+        "fabric-1.21.6" = _b9pAdPmK;
+        "fabric-1.21.7" = _b9pAdPmK;
+        "fabric-1.21.8" = _b9pAdPmK;
+        "fabric-1.21.9" = _b9pAdPmK;
+        "fabric-1.21.10" = _b9pAdPmK;
+        "fabric-1.21.11" = _b9pAdPmK;
+        "neoforge-1.21.1" = _H5siUA6c;
         "pkg-1.1" = _LyHuF0ys;
         "pkg-1.2" = _ZwaYRtYL;
         "pkg-1.0.0" = _45fuc0ew;
         "pkg-1.0.1" = _aVTLeNHQ;
         "pkg-1.0.2" = _HxbvLRzn;
-        "default" = _HxbvLRzn;
+        "pkg-1.0.3" = _H5siUA6c;
+        "pkg-1.0.4" = _YbFm2d8P;
+        "pkg-1.0.5" = _b9pAdPmK;
+        "default" = _b9pAdPmK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "animon-soundfix";

@@ -76,6 +76,16 @@ let
             "file" = "maid-dimension-2.8.0.jar";
             "hash" = "sha512-tXwskRzIxxqlTQB8TKOnLzJv2/X03FMOL0mcEnM0R+J0kUUuNRmzlDEA5gYJNwj7GiMNckvmAWy5btSFrnUS1g==";
         };
+        _UGhjfahK = {
+            "id" = "UGhjfahK";
+            "file" = "maid-dimension-3.0.0-1.20.1.jar";
+            "hash" = "sha512-l44uzgKD8KlsljBFJszFNWkS7XQDhR5vy8EanRKRaouaKoJVIHI1WRVifC7hPnrbsnYUc7h+T38IWzMqWiJ5vw==";
+        };
+        _irn8CONq = {
+            "id" = "irn8CONq";
+            "file" = "maid-dimension-3.0.0-1.21.1.jar";
+            "hash" = "sha512-2ZoPqjVgxrwe75/akVnvA2kthBFdi12k3UbRnB1CGWZ0YiTpDwe9P01i89XypTYqUrhLU1+DF1Kswe6ysBytaA==";
+        };
     in {
         "O3MX9CF8" = _O3MX9CF8;
         "Z1vPWqkA" = _Z1vPWqkA;
@@ -92,9 +102,11 @@ let
         "T4Bl4C8N" = _T4Bl4C8N;
         "WY5pKKIy" = _WY5pKKIy;
         "cw9nLiKK" = _cw9nLiKK;
-        "neoforge-1.21.1" = _WY5pKKIy;
-        "forge-1.20" = _cw9nLiKK;
-        "forge-1.20.1" = _cw9nLiKK;
+        "UGhjfahK" = _UGhjfahK;
+        "irn8CONq" = _irn8CONq;
+        "neoforge-1.21.1" = _irn8CONq;
+        "forge-1.20" = _UGhjfahK;
+        "forge-1.20.1" = _UGhjfahK;
         "pkg-1.0.0" = _Z1vPWqkA;
         "pkg-1.5.0" = _R0hUNWIQ;
         "pkg-1.5.5" = _7wFWkur9;
@@ -107,7 +119,9 @@ let
         "pkg-2.7.0" = _T4Bl4C8N;
         "pkg-2.8.0" = _WY5pKKIy;
         "pkg-2.8.0-1.20.1" = _cw9nLiKK;
-        "default" = _cw9nLiKK;
+        "pkg-3.0.0-1.20.1" = _UGhjfahK;
+        "pkg-3.0.0" = _irn8CONq;
+        "default" = _irn8CONq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "maid-personal-dimension";

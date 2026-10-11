@@ -91,6 +91,11 @@ let
             "file" = "ancientreforging-1.8.5.jar";
             "hash" = "sha512-gb54kbvVfssk2DZbQJZUQJRJXybm/jsUol0VamLKP9LJtmhTzRYbrjc2uRlmI9aGyXvs7KBG5pm36bd/+sgosg==";
         };
+        _WmeRPRXI = {
+            "id" = "WmeRPRXI";
+            "file" = "ancientreforging-1.8.6.jar";
+            "hash" = "sha512-kQL+bbtBw9Mk37C1Ft5ia0QtPp1pMAnWFXtTKcaYVr+tuGKjNQ0PLZ10ZfVeAqFalhYljWJ1KdbM8H6Q4qAZSg==";
+        };
     in {
         "9QS61OQw" = _9QS61OQw;
         "nCgYnQSb" = _nCgYnQSb;
@@ -110,9 +115,10 @@ let
         "hiki44hI" = _hiki44hI;
         "XiEtk8Sy" = _XiEtk8Sy;
         "zVBUCzpR" = _zVBUCzpR;
+        "WmeRPRXI" = _WmeRPRXI;
         "forge-1.20.1" = _TRWk7Zzs;
         "fabric-1.20.1" = _hDDT4U6Y;
-        "neoforge-1.21.1" = _zVBUCzpR;
+        "neoforge-1.21.1" = _WmeRPRXI;
         "neoforge-1.21" = _Czwqq40O;
         "pkg-1.0-forge" = _9QS61OQw;
         "pkg-1.2.2-forge" = _nCgYnQSb;
@@ -132,7 +138,8 @@ let
         "pkg-1.8.2" = _hiki44hI;
         "pkg-1.8.4" = _XiEtk8Sy;
         "pkg-1.8.5" = _zVBUCzpR;
-        "default" = _zVBUCzpR;
+        "pkg-1.8.6" = _WmeRPRXI;
+        "default" = _WmeRPRXI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ancient-reforging";

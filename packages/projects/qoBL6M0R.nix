@@ -226,6 +226,11 @@ let
             "file" = "simple-item-editor-26.2-0.2.0.jar";
             "hash" = "sha512-QsRZkw/HeOeXC2sQWAW2JtPsR6VlsZPj/htotuagDDdGJaG0N4qCIk6dCU+u1DC08qkTAxDR29O6N6Jan2aJcQ==";
         };
+        _amYkhN1V = {
+            "id" = "amYkhN1V";
+            "file" = "simple-item-editor-26.3-0.2.0.jar";
+            "hash" = "sha512-OSuqL/HmQnorF8vn+9W6zlgtC+wv8C3wY5TbLcJFIq1h8/4Z0avIYHLruFzZJD7lpI2D+65YvS7hBzj5oHC1DQ==";
+        };
     in {
         "xKmMdVso" = _xKmMdVso;
         "PbqPMqB5" = _PbqPMqB5;
@@ -272,6 +277,7 @@ let
         "2svwXTLU" = _2svwXTLU;
         "cJowmgzX" = _cJowmgzX;
         "vXMhq6WT" = _vXMhq6WT;
+        "amYkhN1V" = _amYkhN1V;
         "fabric-1.20.1" = _oDnDgNvZ;
         "fabric-1.20.2" = _B5Zi3uR0;
         "fabric-1.20.4" = _Z9TrI9xh;
@@ -293,6 +299,7 @@ let
         "fabric-26.1.1" = _cs5WV0oE;
         "fabric-26.1.2" = _cJowmgzX;
         "fabric-26.2" = _vXMhq6WT;
+        "fabric-26.3" = _amYkhN1V;
         "pkg-0.0.1" = _xKmMdVso;
         "pkg-0.0.2" = _PbqPMqB5;
         "pkg-0.0.3" = _w4eiDYxf;
@@ -309,8 +316,8 @@ let
         "pkg-0.1.6" = _HyAX0kA7;
         "pkg-0.1.7" = _4LEMT9qA;
         "pkg-0.1.8" = _OIdFU1LM;
-        "pkg-0.2.0" = _vXMhq6WT;
-        "default" = _vXMhq6WT;
+        "pkg-0.2.0" = _amYkhN1V;
+        "default" = _amYkhN1V;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-item-editor";

@@ -81,6 +81,16 @@ let
             "file" = "ocean_lily_pad_village-1.0.0 Neoforge 26.2.jar";
             "hash" = "sha512-DKotwvvCXyMHP4je0tQPjyBIh8VQa9r0eUUs6yYcATQkPGC2pg6RNAFkfCJFSgOtuQ7NvL8Gz4+Yx1T2E7M+vA==";
         };
+        _gT8wQXfI = {
+            "id" = "gT8wQXfI";
+            "file" = "ocean_lily_pad_village-1.0.0 Fabric 26.3.jar";
+            "hash" = "sha512-ArxOg1t9OmEdJGCMw3dgpQ9NJ1bAXLW3/o9FPQVEZxHoB3HpRyVT/mJp0qmsOP0TjDxjsL+g9LgskH57G/Xucw==";
+        };
+        _t0P0Edv4 = {
+            "id" = "t0P0Edv4";
+            "file" = "ocean_lily_pad_village-1.0.0 Neoforge 26.3.jar";
+            "hash" = "sha512-9KhSDVdvJGXld+b3FLUlfa7cJIDeNE+3NEWk/EM2zIgmWxeMevQw/eNDYRzCP8bLwAYEtwrVytFt4xu0l/kImg==";
+        };
     in {
         "npovMDKU" = _npovMDKU;
         "LeimYgNR" = _LeimYgNR;
@@ -98,6 +108,8 @@ let
         "4wTRLac6" = _4wTRLac6;
         "kUZjKf0D" = _kUZjKf0D;
         "zJpHEpZp" = _zJpHEpZp;
+        "gT8wQXfI" = _gT8wQXfI;
+        "t0P0Edv4" = _t0P0Edv4;
         "forge-1.20.1" = _npovMDKU;
         "neoforge-1.21.1" = _LeimYgNR;
         "neoforge-1.21.4" = _cUqlioMo;
@@ -107,6 +119,7 @@ let
         "neoforge-26.1" = _vCfo2jjz;
         "neoforge-26.1.2" = _4wTRLac6;
         "neoforge-26.2" = _zJpHEpZp;
+        "neoforge-26.3" = _t0P0Edv4;
         "fabric-1.21.8" = _uWicF4oH;
         "fabric-1.21.9" = _Q89ajULv;
         "fabric-1.21.10" = _tzwywPDl;
@@ -116,9 +129,10 @@ let
         "fabric-26.1.1" = _xRlGyw8n;
         "fabric-26.1.2" = _xRlGyw8n;
         "fabric-26.2" = _kUZjKf0D;
+        "fabric-26.3" = _gT8wQXfI;
         "pkg-1.0.1" = _DK7BH7tK;
-        "pkg-1.0.0" = _zJpHEpZp;
-        "default" = _zJpHEpZp;
+        "pkg-1.0.0" = _t0P0Edv4;
+        "default" = _t0P0Edv4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ocean-lily-pad-village";

@@ -256,6 +256,41 @@ let
             "file" = "fixbookgui-fabric-2.1.0+mc26.2.jar";
             "hash" = "sha512-40v9Be9CNmLKc4gdjFuezfOYq/hZvVtVyPoqPeN9xQb3rAezAnGBjDGgYkszZ220ZbxsHabTapbgcGjGr0vj2A==";
         };
+        _HVlSwXx3 = {
+            "id" = "HVlSwXx3";
+            "file" = "fixbookgui-fabric-2.2.0+mc26.3.jar";
+            "hash" = "sha512-TVLzP1U0LpY6kFqZJ5TufeR3bP3u0l46d4ahiHYTsAQhL25jS4eOM4k+m79QuuM8tAIIdRPnOu9PaPiUoLDIMA==";
+        };
+        _xKuO7vOO = {
+            "id" = "xKuO7vOO";
+            "file" = "fixbookgui-fabric-2.2.0+mc1.21.jar";
+            "hash" = "sha512-Big2U6AcJhKqFavQSG5v0KlLk9tHjKAZoKpkH7KFe/3+gkBmM/6waUIm8hS9+M+wvvbKI+cMqD4kJhFXpvrrfA==";
+        };
+        _8PhmqnQ2 = {
+            "id" = "8PhmqnQ2";
+            "file" = "fixbookgui-fabric-2.2.0+mc1.21.1.jar";
+            "hash" = "sha512-3jkjAnapGgoRTjE5YmcTInfkDDg1+BOcnOMJqhCbSAxEddUCt6ck5JFTDg6j2K8i1RJl9wAYkv8fZMmXe+ggYw==";
+        };
+        _IAU0k6HG = {
+            "id" = "IAU0k6HG";
+            "file" = "fixbookgui-neoforge-2.2.0+mc1.21.jar";
+            "hash" = "sha512-OU2aMOcefk5YGJUyQk48Svr7yGs/CXG8uIoq4gkoR6rtBTdYWDA28xymXwa05GEVdSkZ0BlZxktV9xBS5uXFXw==";
+        };
+        _arWCkoak = {
+            "id" = "arWCkoak";
+            "file" = "fixbookgui-neoforge-2.2.0+mc1.21.1.jar";
+            "hash" = "sha512-clFVIFq/FT6vGPGJ17gxThJJtnik+b8ajdJadNASZZ8NKEWAvXYnbp4wnqzUTxqmWgzKWW0VmsrGhljbc4X8RQ==";
+        };
+        _i8OM2b7a = {
+            "id" = "i8OM2b7a";
+            "file" = "fixbookgui-neoforge-2.2.0+mc26.3.jar";
+            "hash" = "sha512-VetdUDOIp6463QGetTTQZsSboA+cl4Be6jKKicMwqQpW4ABCnxr9BexBC6yGBRT5Nwjr5UhMvj9NgGAgxV+vCA==";
+        };
+        _Oi1QnGv5 = {
+            "id" = "Oi1QnGv5";
+            "file" = "fixbookgui-fabric-2.3.0+mc1.20.1.jar";
+            "hash" = "sha512-OT/esY+7mKVKuakkcrVQ9JTD3Mt+ih74t+FT+VFSCHjQgdbfA+7wCwAaixBZXP0LQZnNhqbBoeS29zikUC7jLA==";
+        };
     in {
         "bQvBI10z" = _bQvBI10z;
         "50JiM16v" = _50JiM16v;
@@ -308,17 +343,24 @@ let
         "sxwpBDYf" = _sxwpBDYf;
         "AEwCVYfe" = _AEwCVYfe;
         "DnyCBqO4" = _DnyCBqO4;
+        "HVlSwXx3" = _HVlSwXx3;
+        "xKuO7vOO" = _xKuO7vOO;
+        "8PhmqnQ2" = _8PhmqnQ2;
+        "IAU0k6HG" = _IAU0k6HG;
+        "arWCkoak" = _arWCkoak;
+        "i8OM2b7a" = _i8OM2b7a;
+        "Oi1QnGv5" = _Oi1QnGv5;
         "fabric-1.19.2" = _AYSscJAQ;
         "fabric-1.19.3" = _6UuVhbWx;
         "fabric-1.19.4" = _4Sj5vDyT;
-        "fabric-1.20.1" = _bw79bNtV;
+        "fabric-1.20.1" = _Oi1QnGv5;
         "fabric-1.18.2" = _BuvU4ax0;
         "fabric-1.20.2" = _LLT1oFff;
         "fabric-1.20.4" = _8122JiEg;
         "fabric-1.20.5" = _zvB8toeF;
         "fabric-1.20.6" = _C7JIY7qK;
-        "fabric-1.21" = _2Aa9L137;
-        "fabric-1.21.1" = _7S8E0FG3;
+        "fabric-1.21" = _8PhmqnQ2;
+        "fabric-1.21.1" = _8PhmqnQ2;
         "fabric-1.21.4" = _GGjSGsTW;
         "fabric-1.21.5" = _fy6OqMuK;
         "fabric-1.21.3" = _9NLCWlyK;
@@ -330,8 +372,9 @@ let
         "fabric-26.1.1" = _2JmzmTsp;
         "fabric-26.1.2" = _2JmzmTsp;
         "fabric-26.2" = _DnyCBqO4;
-        "neoforge-1.21" = _dHVHEI31;
-        "neoforge-1.21.1" = _lwgqfaNI;
+        "fabric-26.3" = _HVlSwXx3;
+        "neoforge-1.21" = _arWCkoak;
+        "neoforge-1.21.1" = _arWCkoak;
         "neoforge-1.20.6" = _FN4QtfHT;
         "neoforge-1.20.4" = _4JjV6P41;
         "neoforge-1.21.3" = _jNsgSKJj;
@@ -345,6 +388,7 @@ let
         "neoforge-26.1.1" = _VFwWUvFy;
         "neoforge-26.1.2" = _VFwWUvFy;
         "neoforge-26.2" = _AEwCVYfe;
+        "neoforge-26.3" = _i8OM2b7a;
         "pkg-1.0" = _50JiM16v;
         "pkg-1.1" = _6UuVhbWx;
         "pkg-1.2" = _RyLUdqzz;
@@ -390,7 +434,9 @@ let
         "pkg-mc1.21.11-2.1.0-neoforge" = _ovj1eUUZ;
         "pkg-mc1.21.11-2.1.0-fabric" = _sxwpBDYf;
         "pkg-2.1.0" = _DnyCBqO4;
-        "default" = _DnyCBqO4;
+        "pkg-2.2.0" = _i8OM2b7a;
+        "pkg-2.3.0" = _Oi1QnGv5;
+        "default" = _Oi1QnGv5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fixbookgui";

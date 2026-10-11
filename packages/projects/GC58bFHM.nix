@@ -121,6 +121,26 @@ let
             "file" = "cobblemon-rlm-1.6.3.zip";
             "hash" = "sha512-g6CZNAgDTujbvdWUwvG2Uf/nqgHZMdNTEQrGPNTeUbLBVlumqBeh4k05lc5aGbsBaCgge5aXXdIOWPXB6m5NLQ==";
         };
+        _Lq8CFLCp = {
+            "id" = "Lq8CFLCp";
+            "file" = "cobblemon-rlm-1.6.4.jar";
+            "hash" = "sha512-Np7xP1s0zaxXsjE9OCvvnmofCXEJQFmWozdZ4++h8aQ0E/cPV6i2sf/vrzCtyEKDTvYa+npq6BtevwFnFtC6IA==";
+        };
+        _pqRmBE07 = {
+            "id" = "pqRmBE07";
+            "file" = "cobblemon-rlm-1.6.4.zip";
+            "hash" = "sha512-oZTFEf9atK79awAAlDBON5bhC7d09UGa1GoUGlHR5Jc7YrxBdRICv37Rrtmd6BJ4s1pMdVQP50UEkNM9uDjTZg==";
+        };
+        _7eGVbYlQ = {
+            "id" = "7eGVbYlQ";
+            "file" = "cobblemon-rlm-1.6.5.jar";
+            "hash" = "sha512-4Gw+6jczqgOLg896oSQ4ZirgElzsqNjFdOGGFzwIyUJccUq9HDLtIAK8wqkeXMz1Dxgma8vcvv1W4I4G699ggw==";
+        };
+        _qmUj5BZI = {
+            "id" = "qmUj5BZI";
+            "file" = "cobblemon-rlm-1.6.5.zip";
+            "hash" = "sha512-IPYXlJCbR0T0Ejt4ZevGAPwl95UMTAC9AW3f+Isr2QLdXSj6SKzG1k2H6qwqluNcGaBBAbC1g7Cl8rHBHnUXtw==";
+        };
     in {
         "23PmOSl4" = _23PmOSl4;
         "io2fknZT" = _io2fknZT;
@@ -146,9 +166,13 @@ let
         "9l3csyQe" = _9l3csyQe;
         "jFxt2qFT" = _jFxt2qFT;
         "GIGLNVlh" = _GIGLNVlh;
-        "datapack-1.21.1" = _GIGLNVlh;
-        "fabric-1.21.1" = _jFxt2qFT;
-        "neoforge-1.21.1" = _jFxt2qFT;
+        "Lq8CFLCp" = _Lq8CFLCp;
+        "pqRmBE07" = _pqRmBE07;
+        "7eGVbYlQ" = _7eGVbYlQ;
+        "qmUj5BZI" = _qmUj5BZI;
+        "datapack-1.21.1" = _qmUj5BZI;
+        "fabric-1.21.1" = _7eGVbYlQ;
+        "neoforge-1.21.1" = _7eGVbYlQ;
         "forge-1.21.1" = _io2fknZT;
         "pkg-1.0.0" = _23PmOSl4;
         "pkg-1.1.1" = _io2fknZT;
@@ -174,7 +198,11 @@ let
         "pkg-1.6.2-datapack" = _9l3csyQe;
         "pkg-1.6.3-mod" = _jFxt2qFT;
         "pkg-1.6.3-datapack" = _GIGLNVlh;
-        "default" = _GIGLNVlh;
+        "pkg-1.6.4-mod" = _Lq8CFLCp;
+        "pkg-1.6.4-datapack" = _pqRmBE07;
+        "pkg-1.6.5-mod" = _7eGVbYlQ;
+        "pkg-1.6.5-datapack" = _qmUj5BZI;
+        "default" = _qmUj5BZI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-rlm";

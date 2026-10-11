@@ -76,6 +76,21 @@ let
             "file" = "enchanted_fishing_line-1.0.0-hotfix-fabric-1.21.11.jar";
             "hash" = "sha512-b09v7ZcsSB6qQjz7jsjdQERrp1hNtFzSIqWNNjsteiT2WjytwaHftrrbJPe4rHynShHkmpG+QqgVoXv2OHgZwA==";
         };
+        _j09lQ3jq = {
+            "id" = "j09lQ3jq";
+            "file" = "enchanted_fishing_line-1.0.1-neoforge-26.3.jar";
+            "hash" = "sha512-MmtvAbveG0n5xwIQP87RUd1kHBh0OKo16oLKjoN833LTpw7VttwskEuLyRpBttzMkZ81GD1QeDpnWWhSEKly8Q==";
+        };
+        _aw8TLoWG = {
+            "id" = "aw8TLoWG";
+            "file" = "enchanted_fishing_line-1.0.1-forge-26.3.jar";
+            "hash" = "sha512-HFP5MuhvoUn5aGG43z2IrT9IUXTr8B8qsTQYc9yunGBLz1V6J/LEnBHvlap3bCIT8rPAz18bwoP5YookAFJtqw==";
+        };
+        _3hvA2QVv = {
+            "id" = "3hvA2QVv";
+            "file" = "enchanted_fishing_line-1.0.1-fabric-26.3.jar";
+            "hash" = "sha512-ZlobdrYh/ZYxl5SEg3W8rfOKFs+zI6wR6TwZO0Dgu9KZ9MMDwvDFh472VazmqTEynNybdFXN1/uheD1vRHhwBQ==";
+        };
     in {
         "8SwzloQ7" = _8SwzloQ7;
         "iCrD6BUn" = _iCrD6BUn;
@@ -92,6 +107,9 @@ let
         "Fyq3bQ35" = _Fyq3bQ35;
         "nioyS0ql" = _nioyS0ql;
         "7k3mAoYZ" = _7k3mAoYZ;
+        "j09lQ3jq" = _j09lQ3jq;
+        "aw8TLoWG" = _aw8TLoWG;
+        "3hvA2QVv" = _3hvA2QVv;
         "fabric-1.20.1" = _8SwzloQ7;
         "fabric-1.21.1" = _C4wqGlsi;
         "fabric-1.21.11" = _7k3mAoYZ;
@@ -99,6 +117,7 @@ let
         "fabric-26.1.1" = _ytGOIxFq;
         "fabric-26.1.2" = _ytGOIxFq;
         "fabric-26.2" = _WPLDIfpY;
+        "fabric-26.3" = _3hvA2QVv;
         "forge-1.20.1" = _iCrD6BUn;
         "forge-1.21.1" = _miUMPPHu;
         "forge-1.21.11" = _6sK5K9cE;
@@ -106,15 +125,18 @@ let
         "forge-26.1.1" = _ymRaDxvq;
         "forge-26.1.2" = _ymRaDxvq;
         "forge-26.2" = _Fyq3bQ35;
+        "forge-26.3" = _aw8TLoWG;
         "neoforge-1.21.1" = _8nAbeyES;
         "neoforge-1.21.11" = _AwT5Bgho;
         "neoforge-26.1" = _vFAZABgO;
         "neoforge-26.1.1" = _vFAZABgO;
         "neoforge-26.1.2" = _vFAZABgO;
         "neoforge-26.2" = _nioyS0ql;
+        "neoforge-26.3" = _j09lQ3jq;
         "pkg-1.0.0" = _nioyS0ql;
         "pkg-1.0.0-hotfix" = _7k3mAoYZ;
-        "default" = _7k3mAoYZ;
+        "pkg-1.0.1" = _3hvA2QVv;
+        "default" = _3hvA2QVv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchanted-fishing-line";

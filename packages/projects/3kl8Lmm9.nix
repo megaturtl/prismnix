@@ -271,6 +271,16 @@ let
             "file" = "SlotCycler-v26.2.1-mc26.2.x-Fabric.jar";
             "hash" = "sha512-r1pGI+3bmsVtwB/QcOwIsneapwmocbRb+tWughTVUJdd65Gay1FDp3DxOHN9CgbyYy3AExYtfPhuT0tWMWFyrA==";
         };
+        _Z3ziNU5b = {
+            "id" = "Z3ziNU5b";
+            "file" = "slotcycler-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-prBEQ5/7A+Mtt+flBBUbbmzR7lC6V3U8+B8Wh0zoznpcjwle/e0TrGVqd59qp1UNL1fH2sFjM1UFh61tJvis/Q==";
+        };
+        _GKmqJdx4 = {
+            "id" = "GKmqJdx4";
+            "file" = "slotcycler-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-RzYtKRaVTz1wSAjLqPFauZSafGXRr4j2aenD+YrCssSY6NH8T4WoBhU+/zAuWLwoqClnvyhECNckvAOABQViHg==";
+        };
     in {
         "wdF6U3yC" = _wdF6U3yC;
         "aZM1xDCs" = _aZM1xDCs;
@@ -326,6 +336,8 @@ let
         "BhbjHdsz" = _BhbjHdsz;
         "vvwOcD6w" = _vvwOcD6w;
         "h7nhVaCK" = _h7nhVaCK;
+        "Z3ziNU5b" = _Z3ziNU5b;
+        "GKmqJdx4" = _GKmqJdx4;
         "fabric-1.19.2" = _h1CD2Sgj;
         "fabric-1.19.3" = _aodnrSN6;
         "fabric-1.19.4" = _xMbgUxJR;
@@ -347,6 +359,7 @@ let
         "fabric-26.1.1" = _lt17KKjA;
         "fabric-26.1.2" = _lt17KKjA;
         "fabric-26.2" = _h7nhVaCK;
+        "fabric-26.3" = _GKmqJdx4;
         "forge-1.19.2" = _F0cqVmMC;
         "forge-1.19.3" = _536elOMS;
         "forge-1.19.4" = _b9MEtkuw;
@@ -369,6 +382,7 @@ let
         "neoforge-26.1.1" = _XOaX5zN4;
         "neoforge-26.1.2" = _XOaX5zN4;
         "neoforge-26.2" = _vvwOcD6w;
+        "neoforge-26.3" = _Z3ziNU5b;
         "pkg-v4.0.0-1.19.2-Fabric" = _wdF6U3yC;
         "pkg-v4.0.0-1.19.2-Forge" = _aZM1xDCs;
         "pkg-v4.0.1-1.19.2-Fabric" = _enReWGCa;
@@ -417,7 +431,8 @@ let
         "pkg-26.1.0" = _lt17KKjA;
         "pkg-26.2.0" = _BhbjHdsz;
         "pkg-26.2.1" = _h7nhVaCK;
-        "default" = _h7nhVaCK;
+        "pkg-26.3.0" = _GKmqJdx4;
+        "default" = _GKmqJdx4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "slot-cycler";

@@ -81,6 +81,11 @@ let
             "file" = "Renewed Bookshelf v1.0.1 - 26.2.zip";
             "hash" = "sha512-F9YKoUei5tDsOucGOwwloI+1ok3ZYjlTuMiGH8rLj+NmL6FfYUuvD1YUndvzQ4v7JrBjwH/vXjOz7sft/wwgvA==";
         };
+        _QnIJXFts = {
+            "id" = "QnIJXFts";
+            "file" = "Renewed Bookshelf v1.0.2 - 26.3.zip";
+            "hash" = "sha512-+QOErLXAErI6rLe3APdAaY/3OSK7jsss7RR86wihngsI1eq+ahTdNKXnox97Mv1E/lrXgMrp1Pygxup6CxYQaQ==";
+        };
     in {
         "vEuhvEqm" = _vEuhvEqm;
         "C3j583fL" = _C3j583fL;
@@ -98,6 +103,7 @@ let
         "J0kZxjD1" = _J0kZxjD1;
         "ITp7PZPc" = _ITp7PZPc;
         "qEq3fvZk" = _qEq3fvZk;
+        "QnIJXFts" = _QnIJXFts;
         "minecraft-1.19" = _vEuhvEqm;
         "minecraft-1.19.1" = _vEuhvEqm;
         "minecraft-1.19.2" = _vEuhvEqm;
@@ -126,6 +132,7 @@ let
         "minecraft-26.1.1" = _ITp7PZPc;
         "minecraft-26.1.2" = _ITp7PZPc;
         "minecraft-26.2" = _qEq3fvZk;
+        "minecraft-26.3" = _QnIJXFts;
         "pkg-1.0" = _G6Zx0tu5;
         "pkg-1.0.1" = _9XfmU73C;
         "pkg-1.0.1+1.20.5" = _t1aBG6Av;
@@ -139,7 +146,8 @@ let
         "pkg-1.0.1-mc1.21.11" = _J0kZxjD1;
         "pkg-1.0.1-mc26.1" = _ITp7PZPc;
         "pkg-1.0.1-mc26.2" = _qEq3fvZk;
-        "default" = _qEq3fvZk;
+        "pkg-1.0.2-mc26.3" = _QnIJXFts;
+        "default" = _QnIJXFts;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "renewed-bookshelf";

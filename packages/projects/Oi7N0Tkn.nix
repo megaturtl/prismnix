@@ -66,6 +66,26 @@ let
             "file" = "AnnoyingVillagers-1.20.1-1.4.7.jar";
             "hash" = "sha512-jY2mGiI9HX1HYifytuk7ozCdVkQzAneKcUSv/dbUyS9j3469o6nUFz7cf/t1VoO+lw4tXFp8igH2G2JduG+7MQ==";
         };
+        _7n3bP2Cg = {
+            "id" = "7n3bP2Cg";
+            "file" = "EpicFight-AnnoyingVillagers-1.20.1-1.5.0.jar";
+            "hash" = "sha512-9iqkd7+BsW4tn8hHN830p2aDMLpFlG9diqR2uHHB1CmU2TUqEq0yRThpGVR0IA0OR1Km165LRJ+4MBXZGshqKw==";
+        };
+        _QULPNzZf = {
+            "id" = "QULPNzZf";
+            "file" = "EpicFight-AnnoyingVillagers-1.21.1-2.0.0.jar";
+            "hash" = "sha512-Xgh7AFmFKDUM0DjKqvVznw8KMsfBKlTcvWfbVAiBUN50WrECh1QFZgPkZMSNhGgrLzVcnUsz+l4tAkJUJnXzOw==";
+        };
+        _JCpXa2Oy = {
+            "id" = "JCpXa2Oy";
+            "file" = "EpicFight-AnnoyingVillagers-1.20.1-1.5.1.jar";
+            "hash" = "sha512-hBGER4KO69aGUh8nMKZRd5azQMK2ZVS0MmWKYDrdHx/hnVfABCiEbv0shYcLtmCYGmLnrvGtOpmgsKL4RG7aWg==";
+        };
+        _FukvEeRA = {
+            "id" = "FukvEeRA";
+            "file" = "EpicFight-AnnoyingVillagers-1.21.1-2.0.1.jar";
+            "hash" = "sha512-4HyLuA8bdZ4cDjMcsyJGe7Vp9ifc0A0cv8r3M/eEy1V9xbE92QTH9q9UAd17pGfWuG+AzAB7ySdVshgLcPFHmQ==";
+        };
     in {
         "A3wuuSTx" = _A3wuuSTx;
         "1kJppYdM" = _1kJppYdM;
@@ -80,7 +100,12 @@ let
         "7xNCn9Oq" = _7xNCn9Oq;
         "uBRTVURH" = _uBRTVURH;
         "896AjsQK" = _896AjsQK;
-        "forge-1.20.1" = _896AjsQK;
+        "7n3bP2Cg" = _7n3bP2Cg;
+        "QULPNzZf" = _QULPNzZf;
+        "JCpXa2Oy" = _JCpXa2Oy;
+        "FukvEeRA" = _FukvEeRA;
+        "forge-1.20.1" = _JCpXa2Oy;
+        "neoforge-1.21.1" = _FukvEeRA;
         "pkg-1.2" = _A3wuuSTx;
         "pkg-1.3.1" = _1kJppYdM;
         "pkg-1.3.2" = _3q3hiLbc;
@@ -93,7 +118,11 @@ let
         "pkg-1.4.5" = _7xNCn9Oq;
         "pkg-1.4.6" = _uBRTVURH;
         "pkg-1.4.7" = _896AjsQK;
-        "default" = _896AjsQK;
+        "pkg-1.5.0" = _7n3bP2Cg;
+        "pkg-2.0.0" = _QULPNzZf;
+        "pkg-1.5.1" = _JCpXa2Oy;
+        "pkg-2.0.1" = _FukvEeRA;
+        "default" = _FukvEeRA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "annoying-villagers";

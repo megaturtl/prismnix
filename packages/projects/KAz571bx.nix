@@ -131,6 +131,11 @@ let
             "file" = "AraxersBestiary-1.20.1-forge-1.4.3.1.jar";
             "hash" = "sha512-nzfXWjUomT5UbF+OmCAwHzcgSBoFSLrwPUr/tlka76x0yOJdTf/mDwdNvukAi3CPyoLHqBOibn1zH3Cjco5x9g==";
         };
+        _Zlw9VZZB = {
+            "id" = "Zlw9VZZB";
+            "file" = "AraxersBestiary-1.20.1-forge-1.5.0.jar";
+            "hash" = "sha512-ihSPEyFg7zMfMPfmop/Hbmpm1LDJrqkbxwhRqA4tRqxIR6iGfO0ELjPWAg4n/RGT0YHTiGNILk7aqWgegT4fiA==";
+        };
     in {
         "WlK4GlzJ" = _WlK4GlzJ;
         "1IIkbtkB" = _1IIkbtkB;
@@ -158,7 +163,8 @@ let
         "OwtIQ0FL" = _OwtIQ0FL;
         "ZCjC84VO" = _ZCjC84VO;
         "QWVZ5Oog" = _QWVZ5Oog;
-        "forge-1.20.1" = _QWVZ5Oog;
+        "Zlw9VZZB" = _Zlw9VZZB;
+        "forge-1.20.1" = _Zlw9VZZB;
         "pkg-1.3.1" = _WlK4GlzJ;
         "pkg-1.3.3" = _1IIkbtkB;
         "pkg-1.3.3a" = _P1B6Z8rp;
@@ -185,7 +191,8 @@ let
         "pkg-1.4.2" = _OwtIQ0FL;
         "pkg-1.4.3" = _ZCjC84VO;
         "pkg-1.4.3.1" = _QWVZ5Oog;
-        "default" = _QWVZ5Oog;
+        "pkg-1.5.0" = _Zlw9VZZB;
+        "default" = _Zlw9VZZB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "araxers-bestiary";

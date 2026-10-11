@@ -306,6 +306,31 @@ let
             "file" = "supermartijn642configlib-1.1.8-neoforge-mc26.3.jar";
             "hash" = "sha512-grwnedQ1CS0prtJWx7pTen+7woY6tNJ3KsRkYLmdpNFD2/dbUowMWIXzAIyBbldDNS9Oywi4l+uGDnCnmG84oQ==";
         };
+        _DsOjg1J5 = {
+            "id" = "DsOjg1J5";
+            "file" = "supermartijn642configlib-1.1.8a-forge-mc26.1.jar";
+            "hash" = "sha512-yiRcrhYTuBk4frAW3z5YOVAo/0TkLGaps2Ih8hfwupskt4Vrb4lm+BAWu1rl4VeKWFETkkVZGCcxRGognK6haQ==";
+        };
+        _1WLS20zA = {
+            "id" = "1WLS20zA";
+            "file" = "supermartijn642configlib-1.1.8a-forge-mc26.2.jar";
+            "hash" = "sha512-ipoLeokb7IttY5QOTLIn8ZESqEit1SHhaG1sfCwOoU+1V7pWsVHaqCfhKmNp2/sYoJ6XvCEJyvDMEa/9KD+m9A==";
+        };
+        _aX2tCZWA = {
+            "id" = "aX2tCZWA";
+            "file" = "supermartijn642configlib-1.1.8a-fabric-mc26.1.jar";
+            "hash" = "sha512-0sMyDPe+S0xeH4LopMmbuDXE2Nv2GDsnB7TBPdSYanrdaXgLfz0vILq4hY4aFrHzxvgEEbO3b5vBtIYDmwCDXA==";
+        };
+        _iInTTGso = {
+            "id" = "iInTTGso";
+            "file" = "supermartijn642configlib-1.1.8a-fabric-mc26.2.jar";
+            "hash" = "sha512-VHmy3GK3NwaBcAeAPEsrrEwAdwVITYtX2u8gZJeTrlJPISOmaELmSQ2nZqDq2jw0adzBu6a0pDDb2xbSIdbJ8Q==";
+        };
+        _eYcALOr1 = {
+            "id" = "eYcALOr1";
+            "file" = "supermartijn642configlib-1.1.8a-fabric-mc26.3.jar";
+            "hash" = "sha512-u2DCnUCe0nSfekoIssa5XBEBkZFIKKVK7X7UvneTYrWouhP4cbcrbbshBZrjl6sVYduOg6qYgXPrY64A02m/Aw==";
+        };
     in {
         "IODfugHm" = _IODfugHm;
         "weSCXEK2" = _weSCXEK2;
@@ -368,6 +393,11 @@ let
         "WAXoeL90" = _WAXoeL90;
         "XokTN39e" = _XokTN39e;
         "FWhB6iGJ" = _FWhB6iGJ;
+        "DsOjg1J5" = _DsOjg1J5;
+        "1WLS20zA" = _1WLS20zA;
+        "aX2tCZWA" = _aX2tCZWA;
+        "iInTTGso" = _iInTTGso;
+        "eYcALOr1" = _eYcALOr1;
         "forge-1.12" = _IJL4TGRd;
         "forge-1.12.1" = _IJL4TGRd;
         "forge-1.12.2" = _IJL4TGRd;
@@ -414,10 +444,10 @@ let
         "forge-1.21.9" = _3iWS6bi8;
         "forge-1.21.10" = _3iWS6bi8;
         "forge-1.21.11" = _cuv4JMWL;
-        "forge-26.1" = _3VqkZuAs;
-        "forge-26.1.1" = _3VqkZuAs;
-        "forge-26.1.2" = _3VqkZuAs;
-        "forge-26.2" = _zVO7QByg;
+        "forge-26.1" = _DsOjg1J5;
+        "forge-26.1.1" = _DsOjg1J5;
+        "forge-26.1.2" = _DsOjg1J5;
+        "forge-26.2" = _1WLS20zA;
         "fabric-1.18" = _YYWuaEEi;
         "fabric-1.18.1" = _YYWuaEEi;
         "fabric-1.18.2" = _YYWuaEEi;
@@ -445,11 +475,11 @@ let
         "fabric-1.21.9" = _euSlaAtA;
         "fabric-1.21.10" = _euSlaAtA;
         "fabric-1.21.11" = _CwICbJN9;
-        "fabric-26.1" = _Agu5fI4t;
-        "fabric-26.1.1" = _Agu5fI4t;
-        "fabric-26.1.2" = _Agu5fI4t;
-        "fabric-26.2" = _tg619S8t;
-        "fabric-26.3" = _XokTN39e;
+        "fabric-26.1" = _aX2tCZWA;
+        "fabric-26.1.1" = _aX2tCZWA;
+        "fabric-26.1.2" = _aX2tCZWA;
+        "fabric-26.2" = _iInTTGso;
+        "fabric-26.3" = _eYcALOr1;
         "neoforge-1.12" = _IJL4TGRd;
         "neoforge-1.12.1" = _IJL4TGRd;
         "neoforge-1.12.2" = _IJL4TGRd;
@@ -527,11 +557,11 @@ let
         "quilt-1.21.9" = _euSlaAtA;
         "quilt-1.21.10" = _euSlaAtA;
         "quilt-1.21.11" = _CwICbJN9;
-        "quilt-26.1" = _Agu5fI4t;
-        "quilt-26.1.1" = _Agu5fI4t;
-        "quilt-26.1.2" = _Agu5fI4t;
-        "quilt-26.2" = _tg619S8t;
-        "quilt-26.3" = _XokTN39e;
+        "quilt-26.1" = _aX2tCZWA;
+        "quilt-26.1.1" = _aX2tCZWA;
+        "quilt-26.1.2" = _aX2tCZWA;
+        "quilt-26.2" = _iInTTGso;
+        "quilt-26.3" = _eYcALOr1;
         "pkg-1.1.6-forge-mc1.12" = _IODfugHm;
         "pkg-1.1.6-forge-mc1.14" = _weSCXEK2;
         "pkg-1.1.6-forge-mc1.15" = _gqKS9EcM;
@@ -593,7 +623,12 @@ let
         "pkg-1.1.8a-neoforge-mc26.2" = _WAXoeL90;
         "pkg-1.1.8-fabric-mc26.3" = _XokTN39e;
         "pkg-1.1.8-neoforge-mc26.3" = _FWhB6iGJ;
-        "default" = _FWhB6iGJ;
+        "pkg-1.1.8a-forge-mc26.1" = _DsOjg1J5;
+        "pkg-1.1.8a-forge-mc26.2" = _1WLS20zA;
+        "pkg-1.1.8a-fabric-mc26.1" = _aX2tCZWA;
+        "pkg-1.1.8a-fabric-mc26.2" = _iInTTGso;
+        "pkg-1.1.8a-fabric-mc26.3" = _eYcALOr1;
+        "default" = _eYcALOr1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "supermartijn642s-config-lib";

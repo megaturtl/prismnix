@@ -101,6 +101,11 @@ let
             "file" = "Simple Harvesting 26.2-3.0.1.jar";
             "hash" = "sha512-onleWioiLY19csqJbrLa8dv6P6yWZdGyu96h4W0CI9ABHnBMdZtk/GjKOUQjYQkaMgP/g7sq2GPo8J371WM0HA==";
         };
+        _A6KSBXfF = {
+            "id" = "A6KSBXfF";
+            "file" = "Simple Harvesting 26.3-3.0.1.jar";
+            "hash" = "sha512-2QDTRJQ1hml5bpxJuY6DwnUs9yRJvkRO0Zp2Vk++T/YlYZwohUIY5vW+lG1lUBunLl6hiF30bP/2QQ833XSJ6w==";
+        };
     in {
         "8V3Ps48k" = _8V3Ps48k;
         "GutbZdQN" = _GutbZdQN;
@@ -122,6 +127,7 @@ let
         "OVeV2WPO" = _OVeV2WPO;
         "OGzHN4iU" = _OGzHN4iU;
         "KMneRkQ1" = _KMneRkQ1;
+        "A6KSBXfF" = _A6KSBXfF;
         "fabric-1.21.8" = _hLL3THOK;
         "fabric-1.21.5" = _hLL3THOK;
         "fabric-1.21.6" = _hLL3THOK;
@@ -138,6 +144,7 @@ let
         "fabric-26.1.1" = _OGzHN4iU;
         "fabric-26.1.2" = _OGzHN4iU;
         "fabric-26.2" = _KMneRkQ1;
+        "fabric-26.3" = _A6KSBXfF;
         "forge-1.21.1" = _GutbZdQN;
         "pkg-1.0" = _8V3Ps48k;
         "pkg-1.1" = _GutbZdQN;
@@ -150,8 +157,8 @@ let
         "pkg-2.1" = _dabjPedq;
         "pkg-2.2" = _xwlmANvl;
         "pkg-3.0.0" = _OVeV2WPO;
-        "pkg-3.0.1" = _KMneRkQ1;
-        "default" = _KMneRkQ1;
+        "pkg-3.0.1" = _A6KSBXfF;
+        "default" = _A6KSBXfF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-harvesting";

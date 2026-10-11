@@ -41,6 +41,16 @@ let
             "file" = "mekanism_ponders-1.0.3-1.21.1.jar";
             "hash" = "sha512-YEjWFMDK4fejEYG/U1NDa5b49w2aKB9xfW09Q49Jfcu/ufwqGMSCPqNHpB25u9R4NhzksjFvTKRrkUHjfNHm7w==";
         };
+        _y80nODh8 = {
+            "id" = "y80nODh8";
+            "file" = "mekanism_ponders-1.0.4-1.20.1.jar";
+            "hash" = "sha512-3HgUNiD6AFkR2Bg/IKXXVsg9Em0zl8UyKt3gLXUa/UzFi6OO0ZlFaLWCD2FXh8zgmqqQmDSemt3LO3yI02+Plw==";
+        };
+        _LGnW84cs = {
+            "id" = "LGnW84cs";
+            "file" = "mekanism_ponders-1.0.4-1.21.1.jar";
+            "hash" = "sha512-BYMiN4p4fXXeyeBrfJ1FtVeENIFmaG3ksfMFgjja5F1gXjV7aAU8J5FX0WNNhFJk2px6Id8/Pf5b06iN1ZtDQA==";
+        };
     in {
         "Ow46PP2i" = _Ow46PP2i;
         "iMK5PyOq" = _iMK5PyOq;
@@ -50,8 +60,10 @@ let
         "dDdCtx7Z" = _dDdCtx7Z;
         "WMOvABjx" = _WMOvABjx;
         "5RMWQ3C0" = _5RMWQ3C0;
-        "neoforge-1.21.1" = _5RMWQ3C0;
-        "forge-1.20.1" = _WMOvABjx;
+        "y80nODh8" = _y80nODh8;
+        "LGnW84cs" = _LGnW84cs;
+        "neoforge-1.21.1" = _LGnW84cs;
+        "forge-1.20.1" = _y80nODh8;
         "pkg-1.0.0-1.21.1" = _Ow46PP2i;
         "pkg-1.0.0-1.20.1" = _iMK5PyOq;
         "pkg-1.0.1-1.21.1" = _26u9tk8w;
@@ -60,7 +72,9 @@ let
         "pkg-1.0.2-1.21.1" = _dDdCtx7Z;
         "pkg-1.0.3-1.20.1" = _WMOvABjx;
         "pkg-1.0.3-1.21.1" = _5RMWQ3C0;
-        "default" = _5RMWQ3C0;
+        "pkg-1.0.4-1.20.1" = _y80nODh8;
+        "pkg-1.0.4-1.21.1" = _LGnW84cs;
+        "default" = _LGnW84cs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mekanism-ponders";

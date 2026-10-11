@@ -101,6 +101,21 @@ let
             "file" = "treefeller-mc26.2-forge-1.2.0.jar";
             "hash" = "sha512-H0D7PcLljFoagQg1hbnuMJyj0nKdPjrz0nNr3sWiFRxc6LhTUDyN3U2aO9DOCPqc/sz0eicuCtZvOSC4KHAVgg==";
         };
+        _jXd4fq4B = {
+            "id" = "jXd4fq4B";
+            "file" = "treefeller-mc26.3-fabric-1.3.0.jar";
+            "hash" = "sha512-0iOHINmxhvmZJ3UdQiG9Kz+LMn2T9Xzk1e4ykh0nU5D/5ug5Y0sex4Cxkr3yr3/ktWa6flDmBm5CLKzrBAaArQ==";
+        };
+        _hlMwMQGe = {
+            "id" = "hlMwMQGe";
+            "file" = "treefeller-mc26.3-forge-1.3.0.jar";
+            "hash" = "sha512-4Z4u3woTx1YshpviROcubIR3Q871BjarOo2ZZA+np0AuhgW7p90R+cVvsYpRc1QoTYV+HL0R+LQzYDXyYzW9Ag==";
+        };
+        _hcdOKYa1 = {
+            "id" = "hcdOKYa1";
+            "file" = "treefeller-mc26.3-neoforge-1.3.0.jar";
+            "hash" = "sha512-ttZy3nOTX/LLDXRHcCUteP+zs1lxRg3fAqY+dAHkBZT7iQZQ/adx7H5zxGzB2OspwRgcIu29A7rXezzqfpJ1Jg==";
+        };
     in {
         "mksHdLWs" = _mksHdLWs;
         "Qmx4HUdD" = _Qmx4HUdD;
@@ -122,6 +137,9 @@ let
         "c5UcGeB9" = _c5UcGeB9;
         "GYfX2waN" = _GYfX2waN;
         "SkedpK1k" = _SkedpK1k;
+        "jXd4fq4B" = _jXd4fq4B;
+        "hlMwMQGe" = _hlMwMQGe;
+        "hcdOKYa1" = _hcdOKYa1;
         "forge-1.12.2" = _mksHdLWs;
         "forge-1.20.1" = _Qmx4HUdD;
         "forge-1.16.5" = _X1En7mxP;
@@ -133,6 +151,7 @@ let
         "forge-26.1.1" = _LAicMO7Y;
         "forge-26.1.2" = _LAicMO7Y;
         "forge-26.2" = _SkedpK1k;
+        "forge-26.3" = _hlMwMQGe;
         "neoforge-1.21.1" = _xfkHAox4;
         "neoforge-1.21.11" = _MHY3EP88;
         "neoforge-1.20.1" = _3nt2XRn2;
@@ -140,6 +159,7 @@ let
         "neoforge-26.1.1" = _xTwAFtnT;
         "neoforge-26.1.2" = _xTwAFtnT;
         "neoforge-26.2" = _GYfX2waN;
+        "neoforge-26.3" = _hcdOKYa1;
         "fabric-1.20.1" = _cGO9ULnk;
         "fabric-1.21.1" = _3RkwA4fH;
         "fabric-1.21.11" = _ccOUZqGb;
@@ -148,11 +168,13 @@ let
         "fabric-26.1.1" = _hAAu2VJE;
         "fabric-26.1.2" = _hAAu2VJE;
         "fabric-26.2" = _c5UcGeB9;
+        "fabric-26.3" = _jXd4fq4B;
         "quilt-1.20.1" = _cGO9ULnk;
         "quilt-1.21.1" = _3RkwA4fH;
         "quilt-1.21.11" = _ccOUZqGb;
         "quilt-1.19.2" = _3l6Zid1d;
         "quilt-26.2" = _c5UcGeB9;
+        "quilt-26.3" = _jXd4fq4B;
         "pkg-1.0.0" = _mksHdLWs;
         "pkg-1.1.0+1.20.1-forge" = _Qmx4HUdD;
         "pkg-1.1.0+1.21.1-neoforge" = _xfkHAox4;
@@ -173,7 +195,10 @@ let
         "pkg-1.2.0+26.2-fabric" = _c5UcGeB9;
         "pkg-1.2.0+26.2-neoforge" = _GYfX2waN;
         "pkg-1.2.0+26.2-forge" = _SkedpK1k;
-        "default" = _SkedpK1k;
+        "pkg-1.1.0+26.3-fabric" = _jXd4fq4B;
+        "pkg-1.1.0+26.3-forge" = _hlMwMQGe;
+        "pkg-1.1.0+26.3-neoforge" = _hcdOKYa1;
+        "default" = _hcdOKYa1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "server-tree-feller";

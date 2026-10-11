@@ -336,6 +336,11 @@ let
             "file" = "Default-Dark-Mode-26.2-2026.6.0.zip";
             "hash" = "sha512-q0AabLRWsdLUxt2QfK2rJo6dFjY+dYhX5At4UNA2rDczLMBWwanIj3auvjgxRBeuxSMIJedwS4lsXxFGA7kT+w==";
         };
+        _1x3lSLAL = {
+            "id" = "1x3lSLAL";
+            "file" = "Default-Dark-Mode-26.3-2026.9.0.zip";
+            "hash" = "sha512-hc4np37aZahLF6BJXe9fa3LEBffL6C0Xk5qYE0MZpbqhzn8YF5ycZ/1ETVeYzk84ItmC/tWQOZoq79TrzHN1Hw==";
+        };
     in {
         "2W2e9vcY" = _2W2e9vcY;
         "VTcD6O29" = _VTcD6O29;
@@ -404,6 +409,7 @@ let
         "sPDc9hXF" = _sPDc9hXF;
         "lsJJZUFO" = _lsJJZUFO;
         "tPC8gaIQ" = _tPC8gaIQ;
+        "1x3lSLAL" = _1x3lSLAL;
         "minecraft-1.6" = _WVuFtwPC;
         "minecraft-1.6.1" = _WVuFtwPC;
         "minecraft-1.6.2" = _WVuFtwPC;
@@ -511,6 +517,7 @@ let
         "minecraft-26.1.1" = _tPC8gaIQ;
         "minecraft-26.1.2" = _tPC8gaIQ;
         "minecraft-26.2" = _tPC8gaIQ;
+        "minecraft-26.3" = _1x3lSLAL;
         "pkg-v1.3.4-1.6" = _2W2e9vcY;
         "pkg-v1.3.4-1.7" = _VTcD6O29;
         "pkg-v1.3.4-1.8" = _7quKc55t;
@@ -578,7 +585,8 @@ let
         "pkg-2026.4.0-1.21.11" = _sPDc9hXF;
         "pkg-2026.4.0-26.1" = _lsJJZUFO;
         "pkg-2026.6.0-26.2" = _tPC8gaIQ;
-        "default" = _tPC8gaIQ;
+        "pkg-2026.9.0-26.3" = _1x3lSLAL;
+        "default" = _1x3lSLAL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "default-dark-mode";

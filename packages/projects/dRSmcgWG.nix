@@ -46,6 +46,16 @@ let
             "file" = "RTG-1.12.2-7.3.3.4.jar";
             "hash" = "sha512-mAjwzUG8N/Esl5JO8g/EJtQ0CpBATa63/zwK9BUghCH7Ci00cOJ2X3z+cVQGxOfdb4bYScLjGolZmz1DqMFxOw==";
         };
+        _LbjRbeVF = {
+            "id" = "LbjRbeVF";
+            "file" = "RTG-1.12.2-9.0.jar";
+            "hash" = "sha512-+VxzdROgk2SOdJ2kX3XTbTuQ6EvdlEgJ/tlAZ6pg5crS2DrZXafHwjsJmOb8pxZS+PLmJtfThnCmHjPAZFVA2w==";
+        };
+        _CUp7D63Q = {
+            "id" = "CUp7D63Q";
+            "file" = "RTG-1.12.2-9.0.3.jar";
+            "hash" = "sha512-b3cR55TphvAvxSOdDL9yYVUy4MaFslPk05bGqWdJwr4dEijbL9YaguZCsC8BJkNCcssv9C2phTkW3PlleCRSPQ==";
+        };
     in {
         "g47AEQdb" = _g47AEQdb;
         "1xtIyjW8" = _1xtIyjW8;
@@ -56,7 +66,9 @@ let
         "AEiODb70" = _AEiODb70;
         "SjLgLvsm" = _SjLgLvsm;
         "XJjXedWF" = _XJjXedWF;
-        "forge-1.12.2" = _XJjXedWF;
+        "LbjRbeVF" = _LbjRbeVF;
+        "CUp7D63Q" = _CUp7D63Q;
+        "forge-1.12.2" = _CUp7D63Q;
         "forge-1.12" = _AEiODb70;
         "forge-1.12.1" = _AEiODb70;
         "pkg-7.0" = _g47AEQdb;
@@ -67,7 +79,9 @@ let
         "pkg-7.3" = _AEiODb70;
         "pkg-7.3.3.1" = _SjLgLvsm;
         "pkg-7.3.3.4" = _XJjXedWF;
-        "default" = _XJjXedWF;
+        "pkg-9.0" = _LbjRbeVF;
+        "pkg-9.0.3" = _CUp7D63Q;
+        "default" = _CUp7D63Q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rtg-plus";

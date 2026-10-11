@@ -66,6 +66,21 @@ let
             "file" = "collectall-neoforge-26.1.2-1.3.2.jar";
             "hash" = "sha512-SEFhSkazARLi/HOSkcNAmqrC7onXZKvW9SwfhI5Wi1q/7ZY8owCuW51ma4dCZ/+ifYoagag+XIO54n+qZstntg==";
         };
+        _SChjDrsk = {
+            "id" = "SChjDrsk";
+            "file" = "collectall-fabric-26.3-1.3.2.jar";
+            "hash" = "sha512-OR1HoTEVvbzBWGMwku7cIzgWwx3HLbguskLpnGP5FoRKcG6g/YtHezsOKnD77DGKwOLGbS9Maf+q6huNpSVtdg==";
+        };
+        _vQBZmgzu = {
+            "id" = "vQBZmgzu";
+            "file" = "collectall-neoforge-26.3-1.3.2.jar";
+            "hash" = "sha512-e6rhe8bjBQF0Is9ryX4SI/qqrmM1x83KztfaRo2H52+mo2ga7Ppi+AuLzIEuSQGOZnpV1y0OPnCxeMda8q6lnw==";
+        };
+        _EB6NapzZ = {
+            "id" = "EB6NapzZ";
+            "file" = "collectall-neoforge-26.3-1.3.3.jar";
+            "hash" = "sha512-th/NOzz/hTjxIV1FXFVDmLKIyZqkachDhXsOYRnYDLM8c9etA6lzaFiYCaiEU6vU6yGgmbUwInLMNgF4a4h4ww==";
+        };
     in {
         "GNalSxt8" = _GNalSxt8;
         "sG0CfOAk" = _sG0CfOAk;
@@ -80,6 +95,9 @@ let
         "6QoRW8oN" = _6QoRW8oN;
         "YdsrgDFN" = _YdsrgDFN;
         "O76dHQeZ" = _O76dHQeZ;
+        "SChjDrsk" = _SChjDrsk;
+        "vQBZmgzu" = _vQBZmgzu;
+        "EB6NapzZ" = _EB6NapzZ;
         "forge-1.20.1" = _7llSoNqQ;
         "forge-1.21.1" = _zI9f5puP;
         "neoforge-1.21.1" = _PM6XFCKt;
@@ -92,16 +110,19 @@ let
         "neoforge-26.1.1" = _Ua9BJMY5;
         "neoforge-26.1.2" = _O76dHQeZ;
         "neoforge-26.2" = _O76dHQeZ;
+        "neoforge-26.3" = _EB6NapzZ;
         "fabric-26.1.2" = _YdsrgDFN;
         "fabric-26.2" = _YdsrgDFN;
+        "fabric-26.3" = _SChjDrsk;
         "pkg-1.2.2" = _kt0yPTrK;
         "pkg-1.2.3" = _8YyOLsHD;
         "pkg-1.2.5" = _dt8hy15m;
         "pkg-1.2.6" = _Ua9BJMY5;
         "pkg-1.3" = _7llSoNqQ;
         "pkg-1.3.1" = _6QoRW8oN;
-        "pkg-1.3.2" = _O76dHQeZ;
-        "default" = _O76dHQeZ;
+        "pkg-1.3.2" = _vQBZmgzu;
+        "pkg-1.3.3" = _EB6NapzZ;
+        "default" = _EB6NapzZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "collectall-ores-trees-and-crops";

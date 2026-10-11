@@ -456,6 +456,16 @@ let
             "file" = "charcoalblock-26.2-0.1.jar";
             "hash" = "sha512-J27K2rcHX6yhr+tRrDOMLSb//Baz9wzdunQvKWHj2mLxpoKCfJvk2pa+9e6HGlM9vxspz7jklgpYW1tYu/SMaw==";
         };
+        _Ifm8Ill7 = {
+            "id" = "Ifm8Ill7";
+            "file" = "CharcoalBlock-26.3-0.1.jar";
+            "hash" = "sha512-qyTVDb4EdLMb8mAlOzNYmrEWafJWseZpP5WWPVkr50gElkAd0c3wh0nuzGJ++Du7Er0z0EwJ9HEAZGxPRC+Huw==";
+        };
+        _qESDj30z = {
+            "id" = "qESDj30z";
+            "file" = "charcoalblock-26.3-0.1.jar";
+            "hash" = "sha512-hiNTK2BzB+T8rKBMWtg5QBva05qhhRXl8guCEGisuyUPQgj3MRUxFFpoiVcdWfhU1jWpykX8W0WlsnoRjCv1pw==";
+        };
     in {
         "QTcCcTHZ" = _QTcCcTHZ;
         "GFxieEks" = _GFxieEks;
@@ -548,6 +558,8 @@ let
         "yT9Njxj0" = _yT9Njxj0;
         "CuY761KQ" = _CuY761KQ;
         "228Ba4gz" = _228Ba4gz;
+        "Ifm8Ill7" = _Ifm8Ill7;
+        "qESDj30z" = _qESDj30z;
         "forge-1.19" = _QTcCcTHZ;
         "forge-1.19.2" = _GFxieEks;
         "forge-1.19.1" = _XbS9KrkE;
@@ -590,6 +602,7 @@ let
         "neoforge-26.1.1" = _xkKRsI9V;
         "neoforge-26.1.2" = _yT9Njxj0;
         "neoforge-26.2" = _228Ba4gz;
+        "neoforge-26.3" = _qESDj30z;
         "quilt-1.19.4" = _BqnFOvsf;
         "quilt-1.20.1" = _AGcP9zFo;
         "quilt-1.20.2" = _9jZ2ErFB;
@@ -622,6 +635,7 @@ let
         "fabric-26.1.1" = _QK1OgZkX;
         "fabric-26.1.2" = _VNE8oXJG;
         "fabric-26.2" = _CuY761KQ;
+        "fabric-26.3" = _Ifm8Ill7;
         "pkg-1.19-0.1" = _Kp9FWFKw;
         "pkg-1.19.2-0.1" = _puWXkGdM;
         "pkg-1.19.1-0.1" = _nNTZEkEm;
@@ -661,7 +675,8 @@ let
         "pkg-26.1.1-0.1" = _xkKRsI9V;
         "pkg-26.1.2-0.1" = _yT9Njxj0;
         "pkg-26.2-0.1" = _228Ba4gz;
-        "default" = _228Ba4gz;
+        "pkg-26.3-0.1" = _qESDj30z;
+        "default" = _qESDj30z;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "charcoal-blocks";

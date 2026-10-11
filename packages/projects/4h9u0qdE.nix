@@ -111,6 +111,11 @@ let
             "file" = "bluemap-offline-player-markers-2026.7.2.jar";
             "hash" = "sha512-J3pYRtR10e8euOF+JH5eAxn97jTvK0B+sYt6pVCG3PkMukYc9TKDm3A3ONrk3GSrj8kyOimCqFuSSIZWH8r4Jw==";
         };
+        _safOEocx = {
+            "id" = "safOEocx";
+            "file" = "bluemap-offline-player-markers-2026.9.1.jar";
+            "hash" = "sha512-MDZEjgf6H6N8aALO72QVeOhDHwRfTwtcOPsUnLvQ80w6Kyp6YS7IG/U4oL4rn14RcOWaQ2VAxi9keLGYNiEXmw==";
+        };
     in {
         "TzkWUaZv" = _TzkWUaZv;
         "RValw3NJ" = _RValw3NJ;
@@ -134,6 +139,7 @@ let
         "fD9LLZHm" = _fD9LLZHm;
         "QnLFOzqi" = _QnLFOzqi;
         "aFgZym0S" = _aFgZym0S;
+        "safOEocx" = _safOEocx;
         "fabric-1.18.2" = _TzkWUaZv;
         "fabric-1.19.2" = _TzkWUaZv;
         "fabric-1.19.3" = _TzkWUaZv;
@@ -161,6 +167,7 @@ let
         "fabric-26.1.1" = _fD9LLZHm;
         "fabric-26.1.2" = _fD9LLZHm;
         "fabric-26.2" = _aFgZym0S;
+        "fabric-26.3" = _safOEocx;
         "pkg-2.5-fabric" = _TzkWUaZv;
         "pkg-2.6-fabric" = _RValw3NJ;
         "pkg-2.9-fabric" = _uPX4J3VZ;
@@ -178,7 +185,8 @@ let
         "pkg-2026.5.2" = _fD9LLZHm;
         "pkg-2026.7.1" = _QnLFOzqi;
         "pkg-2026.7.2" = _aFgZym0S;
-        "default" = _aFgZym0S;
+        "pkg-2026.9.1" = _safOEocx;
+        "default" = _safOEocx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bluemap-offline-player-markers-(fabric)";

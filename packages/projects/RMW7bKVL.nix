@@ -1321,6 +1321,21 @@ let
             "file" = "sophisticateditemactions-1.21.11-0.4.14.426.jar";
             "hash" = "sha512-jsMYev8oZlY9rmKRyTtNqicPUF4pjFaTykzG+0NHC8UKCNokirUc+R2zMIJS0gpOTct0W906QTH5vjTchK2+HA==";
         };
+        _Af8muI3c = {
+            "id" = "Af8muI3c";
+            "file" = "sophisticateditemactions-26.3-0.4.16.427.jar";
+            "hash" = "sha512-0qYcGM+H7/j6x09ekJ9yDirkHoHKTbwRF0mxl77YO4qrjkBekN1fnouIkcylfNBpUOG0HLINJImD3XxrJsmXeA==";
+        };
+        _MUqWZDh0 = {
+            "id" = "MUqWZDh0";
+            "file" = "sophisticateditemactions-26.3-0.4.17.428.jar";
+            "hash" = "sha512-H38u15mY1bK9rlco61FxtI8vZDhRV0oWsN8lJRKK8t346Vuec7IqZMpc+Idmaa2pffHgmWITsWu5vy71HzdWDQ==";
+        };
+        _SSpeic4R = {
+            "id" = "SSpeic4R";
+            "file" = "sophisticateditemactions-26.1.2-0.4.16.429.jar";
+            "hash" = "sha512-0sDkDfBPoOLpfy/e4yv6FXWcZAOWj80p/SVfYTcP+xpCypsHdR02sOff8sp3vPOK/dZ8Uoe0IiBcCtGHV9QFuw==";
+        };
     in {
         "fYpsthZ3" = _fYpsthZ3;
         "3opa7Dy5" = _3opa7Dy5;
@@ -1586,6 +1601,9 @@ let
         "JpkbCdSC" = _JpkbCdSC;
         "HoNDerfp" = _HoNDerfp;
         "coP4tAme" = _coP4tAme;
+        "Af8muI3c" = _Af8muI3c;
+        "MUqWZDh0" = _MUqWZDh0;
+        "SSpeic4R" = _SSpeic4R;
         "neoforge-1.21.1" = _HoNDerfp;
         "neoforge-1.20.1" = _Qlyz6UmP;
         "neoforge-1.21.4" = _kiWZuvzh;
@@ -1595,8 +1613,9 @@ let
         "neoforge-1.21.11" = _coP4tAme;
         "neoforge-26.1" = _yflsgJBu;
         "neoforge-26.1.1" = _yflsgJBu;
-        "neoforge-26.1.2" = _kOBKOrST;
+        "neoforge-26.1.2" = _SSpeic4R;
         "neoforge-26.2" = _JpkbCdSC;
+        "neoforge-26.3" = _MUqWZDh0;
         "forge-1.20.1" = _Qlyz6UmP;
         "pkg-1.21.1-0.1.0.2" = _fYpsthZ3;
         "pkg-1.21.1-0.1.1.3" = _3opa7Dy5;
@@ -1857,7 +1876,10 @@ let
         "pkg-26.2-0.4.15.424" = _JpkbCdSC;
         "pkg-1.21.1-0.5.16.423" = _HoNDerfp;
         "pkg-1.21.11-0.4.14.426" = _coP4tAme;
-        "default" = _coP4tAme;
+        "pkg-26.3-0.4.16.427" = _Af8muI3c;
+        "pkg-26.3-0.4.17.428" = _MUqWZDh0;
+        "pkg-26.1.2-0.4.16.429" = _SSpeic4R;
+        "default" = _SSpeic4R;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sophisticated-item-actions";

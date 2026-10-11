@@ -11,14 +11,22 @@ let
             "file" = "xray-orevision-2.0.1.jar";
             "hash" = "sha512-nTbrE+5dpqgsyPh2rR8f8wn3RsIFa/fSxwwLlj1zgMdUs8F0InPDOjGYpnsElweNZU8qOS6oY96fHf9SAjEAlg==";
         };
+        _VsEEKLcX = {
+            "id" = "VsEEKLcX";
+            "file" = "xray-orevision-3.0.1.jar";
+            "hash" = "sha512-l6ARXRCs78iE5CB+QWzNikDqjztRleLv8emPId0XkOott4VWCD3ldOFnlwS5Fgcg2VUIVpcs1ZqBVOP+MFyfNw==";
+        };
     in {
         "6H29CpzX" = _6H29CpzX;
         "avxxFhzA" = _avxxFhzA;
+        "VsEEKLcX" = _VsEEKLcX;
         "fabric-1.21.11" = _6H29CpzX;
         "fabric-26.2" = _avxxFhzA;
+        "fabric-26.3" = _VsEEKLcX;
         "pkg-1.0.1" = _6H29CpzX;
         "pkg-2.0.1" = _avxxFhzA;
-        "default" = _avxxFhzA;
+        "pkg-3.0.1" = _VsEEKLcX;
+        "default" = _VsEEKLcX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "xray-orevision";

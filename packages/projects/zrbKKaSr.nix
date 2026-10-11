@@ -241,6 +241,16 @@ let
             "file" = "mobchampions-1.21.1-neoforge-1.0.2.2-NEOFORGE.jar";
             "hash" = "sha512-J9HoTHt39SjVcgDY90V18Pp9cajSBOABF7ea6koRK8HaNygRmwZxKsltkXRH0Ma0u3EbgQtESZR+Y5iOUjSALg==";
         };
+        _ZL43RsmE = {
+            "id" = "ZL43RsmE";
+            "file" = "mobchampions-26.3-fabric-1.0.2.1-FABRIC.jar";
+            "hash" = "sha512-aeqASKQzfpbGD/RfcFAw3GxdHiEagfnfuBgRpTVlZ44hf+5xfhbI93Umy3ctXGdg/Yv8fnzP7RIkBFzyMDVa0w==";
+        };
+        _JIat2dU4 = {
+            "id" = "JIat2dU4";
+            "file" = "mobchampions-26.3-neoforge-1.0.2.1-NEOFORGE.jar";
+            "hash" = "sha512-vgnJLgn+MXI3yd2tNNiGYUKvGB62aArcCNH2QPT7ytLfVenyeX5klLIOBwcmhuw+faNxoyahGV/WEJ2AjI7ORQ==";
+        };
     in {
         "eqLbAfha" = _eqLbAfha;
         "H1UObUtW" = _H1UObUtW;
@@ -290,6 +300,8 @@ let
         "8hSgkUxp" = _8hSgkUxp;
         "tWiUye3e" = _tWiUye3e;
         "Tht5nbz9" = _Tht5nbz9;
+        "ZL43RsmE" = _ZL43RsmE;
+        "JIat2dU4" = _JIat2dU4;
         "fabric-1.21.1" = _tWiUye3e;
         "fabric-1.21.9" = _5gkicy7A;
         "fabric-1.21.10" = _5gkicy7A;
@@ -298,6 +310,7 @@ let
         "fabric-26.1.1" = _akSwhypj;
         "fabric-26.1.2" = _akSwhypj;
         "fabric-26.2" = _B0uLI3mX;
+        "fabric-26.3" = _ZL43RsmE;
         "neoforge-1.21.1" = _Tht5nbz9;
         "neoforge-1.21.9" = _CyxillQV;
         "neoforge-1.21.10" = _CyxillQV;
@@ -306,6 +319,7 @@ let
         "neoforge-26.1.1" = _8hSgkUxp;
         "neoforge-26.1.2" = _8hSgkUxp;
         "neoforge-26.2" = _EWZPPzLQ;
+        "neoforge-26.3" = _JIat2dU4;
         "pkg-1.21.1-1.0.0.0-FABRIC" = _eqLbAfha;
         "pkg-1.21.1-1.0.0.0-NEOFORGE" = _H1UObUtW;
         "pkg-1.21.1-1.0.1.0-FABRIC" = _LXL1tDxv;
@@ -354,7 +368,9 @@ let
         "pkg-26.1.2-1.0.2.2-NEOFORGE" = _8hSgkUxp;
         "pkg-1.21.1-1.0.2.2" = _tWiUye3e;
         "pkg-1.21.1-1.0.2.2-NEOFORGE" = _Tht5nbz9;
-        "default" = _Tht5nbz9;
+        "pkg-26.3-1.0.2.1-FABRIC" = _ZL43RsmE;
+        "pkg-26.3-1.0.2.1-NEOFORGE" = _JIat2dU4;
+        "default" = _JIat2dU4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mobchampions";

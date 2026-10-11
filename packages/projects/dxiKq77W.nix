@@ -46,6 +46,66 @@ let
             "file" = "villager-reroll-1.0.0.jar";
             "hash" = "sha512-gWeP9i6GsdSh2v+HOSJbR/+P8GoU8nYuafKPC13377+iVSjbNXxCPhEBklMIIL+1gWumIdrEkMeFI9995/WqZg==";
         };
+        _GD91ORDJ = {
+            "id" = "GD91ORDJ";
+            "file" = "VillagerReroll-26.3-2.2.0.jar";
+            "hash" = "sha512-zabobIXJDtV1yC/L5D/4MqXotwwnBcVyCjzLwJZy6xZqd4MNZoXJgUuqJPI9f71aB42/G0DCzkl+pDyKzUIZGw==";
+        };
+        _uZNnbaLh = {
+            "id" = "uZNnbaLh";
+            "file" = "VillagerReroll-26.2-2.2.0.jar";
+            "hash" = "sha512-pVdgu43HoFJoNudbQM1WplK5lLFO76b5RvY3UTv90+qGaZlMOj+1B+7n6jvBXbIZzcn0F6LPU11vVD3i57fIVQ==";
+        };
+        _ElybvafC = {
+            "id" = "ElybvafC";
+            "file" = "VillagerReroll-26.1.2-2.2.0.jar";
+            "hash" = "sha512-tVcFm0etMiAFbNVOiFv06iKqZt7kz/GRyP1lgJ+ySTSQCV2enfYJa76IJcYRISMwjyNFd5L+/kY//Ivg9khoLA==";
+        };
+        _9awBwYBN = {
+            "id" = "9awBwYBN";
+            "file" = "VillagerReroll-1.21.11-2.2.0.jar";
+            "hash" = "sha512-TmVG0Pfrllq+yTtMLazPMx5guYTOZCkWeRKKl3cOAJ+Dt135xVRnpVwmacTXySGQssKVujlrSiFjl8YG60G4vA==";
+        };
+        _pnSYYzNF = {
+            "id" = "pnSYYzNF";
+            "file" = "VillagerReroll-26.3-3.0.0.jar";
+            "hash" = "sha512-berTQAn01Zx8uxsIEZyTJFAcotafxsuwl7kJ5bCDrnIiIVqc7OhoEzvjmvF4CkQNwrK7+b3kl8s4sH0fMeWPAg==";
+        };
+        _1ra3VnfZ = {
+            "id" = "1ra3VnfZ";
+            "file" = "VillagerReroll-26.2-3.0.0.jar";
+            "hash" = "sha512-f1M7kxs9J260jq7a7lPqei3MfvXx5+s09WtqIKl82+93IlODm9Od4f8lFqsHiR/Khp+LM0Pib39JzUbs692TqQ==";
+        };
+        _ghUmkXV3 = {
+            "id" = "ghUmkXV3";
+            "file" = "VillagerReroll-26.1.2-3.0.0.jar";
+            "hash" = "sha512-N6G0UEIBZ301U2PT6hq4jKSXBivVPdOhGSNuhyITaItnA7C43hv/c6uPM0/sCFIFT4CHdG8cb9joZxnu3z2JxA==";
+        };
+        _pemeQLoW = {
+            "id" = "pemeQLoW";
+            "file" = "VillagerReroll-1.21.11-3.0.0.jar";
+            "hash" = "sha512-TUpxMT19vU+2K2g1VCreyshW9mw/qS+MmCnfOWzs2KtiN6v/yPZ4E5ulNTrtjULb3LlEtnRbbqWjXK+ZERARtA==";
+        };
+        _O2u3BkfA = {
+            "id" = "O2u3BkfA";
+            "file" = "VillagerReroll-26.3-3.1.0.jar";
+            "hash" = "sha512-uK6N5joqSBck2gNswPSESybWlU5M8h5uWAwEFerQ8wGGSPa1GRuKfi4KWjB2B8vgc7/eFfKc5ERFk+ha9WcHwQ==";
+        };
+        _8YbzUD71 = {
+            "id" = "8YbzUD71";
+            "file" = "VillagerReroll-26.2-3.1.0.jar";
+            "hash" = "sha512-TBrCjnAZokirfJQ5mxp67wIfgd4eI01B98aQcgkdwLZR+J5nynQOLzvcncV23ansGobW/IiV3K7bK4YtRFxJrg==";
+        };
+        _Ja3bAlKL = {
+            "id" = "Ja3bAlKL";
+            "file" = "VillagerReroll-26.1.2-3.1.0.jar";
+            "hash" = "sha512-gryshIyFFn6PQ7boEH2pMOKDisjWvp0b/rBiUclARFK0C8VH5PNN0Ex+QFlChpia8ew+KnocrxARS4pUKtItBw==";
+        };
+        _Fn6SNiWz = {
+            "id" = "Fn6SNiWz";
+            "file" = "VillagerReroll-1.21.11-3.1.0.jar";
+            "hash" = "sha512-Q0VyjL9TLF0UaljsLhOfyTDwGa0h49vFQeI6D3YIwiuQG/zbUd3fLX7VBAt4dw02EtWrLlx75ALGQ9kD+NYssQ==";
+        };
     in {
         "r5qapdMF" = _r5qapdMF;
         "Jyqhjoe1" = _Jyqhjoe1;
@@ -56,15 +116,31 @@ let
         "Y371rWh5" = _Y371rWh5;
         "TDlmFsif" = _TDlmFsif;
         "j9Jfq8al" = _j9Jfq8al;
-        "fabric-26.1.2" = _TDlmFsif;
-        "fabric-26.2" = _j9Jfq8al;
-        "fabric-1.21.11" = _Y371rWh5;
+        "GD91ORDJ" = _GD91ORDJ;
+        "uZNnbaLh" = _uZNnbaLh;
+        "ElybvafC" = _ElybvafC;
+        "9awBwYBN" = _9awBwYBN;
+        "pnSYYzNF" = _pnSYYzNF;
+        "1ra3VnfZ" = _1ra3VnfZ;
+        "ghUmkXV3" = _ghUmkXV3;
+        "pemeQLoW" = _pemeQLoW;
+        "O2u3BkfA" = _O2u3BkfA;
+        "8YbzUD71" = _8YbzUD71;
+        "Ja3bAlKL" = _Ja3bAlKL;
+        "Fn6SNiWz" = _Fn6SNiWz;
+        "fabric-26.1.2" = _Ja3bAlKL;
+        "fabric-26.2" = _8YbzUD71;
+        "fabric-1.21.11" = _Fn6SNiWz;
+        "fabric-26.3" = _O2u3BkfA;
         "pkg-1.0.0" = _r5qapdMF;
         "pkg-1.1.0" = _Jyqhjoe1;
         "pkg-1.2.0" = _5wyAg95A;
         "pkg-2.0.0" = _knYP1Q0z;
         "pkg-2.1.0" = _j9Jfq8al;
-        "default" = _j9Jfq8al;
+        "pkg-2.2.0" = _9awBwYBN;
+        "pkg-3.0.0" = _pemeQLoW;
+        "pkg-3.1.0" = _Fn6SNiWz;
+        "default" = _Fn6SNiWz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "villager-reroller";

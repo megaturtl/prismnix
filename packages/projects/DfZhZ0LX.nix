@@ -271,6 +271,16 @@ let
             "file" = "glow_ink_plus-neoforge-26.1-2.1.jar";
             "hash" = "sha512-ij+nX8qGgfGOUUlsOM55LY5tF3SljOnHoR78vKG8qM4MGk0/yMlO+iSXobceJrRgv/KOYMqeI4u0FE3cMHUYfA==";
         };
+        _G9ilSQ5k = {
+            "id" = "G9ilSQ5k";
+            "file" = "glow_ink_plus-fabric-26.3-2.3.jar";
+            "hash" = "sha512-U7NTmHzJ4i1DXs6VjCH3SlOSGc8sZ0yiEobVaQDb8axMCCSQ/lfMe/v/HLZO5u7JObjbLNcuj2nGlESxZ6itfA==";
+        };
+        _yRKyVsE0 = {
+            "id" = "yRKyVsE0";
+            "file" = "glow_ink_plus-neoforge-26.3-2.3.jar";
+            "hash" = "sha512-hoDuERLr2l/mo8DMnaq5MG2vgnJr98xN5Cc2fuRIVew/vFCpuHSu8mLiYwyfRXCZI01/jXwE/st/zWTt9LiOWg==";
+        };
     in {
         "9GFAy0NE" = _9GFAy0NE;
         "Zbt48yMx" = _Zbt48yMx;
@@ -326,6 +336,8 @@ let
         "fJCXqkkc" = _fJCXqkkc;
         "tNBlPSwg" = _tNBlPSwg;
         "ZDqf6bYH" = _ZDqf6bYH;
+        "G9ilSQ5k" = _G9ilSQ5k;
+        "yRKyVsE0" = _yRKyVsE0;
         "fabric-1.18.2" = _9GFAy0NE;
         "fabric-1.19.3" = _jmwFgDbB;
         "fabric-1.19" = _Hd1OymjV;
@@ -354,6 +366,7 @@ let
         "fabric-26.1.1" = _tNBlPSwg;
         "fabric-26.1.2" = _tNBlPSwg;
         "fabric-26.2" = _QfzrpO0h;
+        "fabric-26.3" = _G9ilSQ5k;
         "quilt-1.18.2" = _9GFAy0NE;
         "quilt-1.19.3" = _jmwFgDbB;
         "quilt-1.19" = _Hd1OymjV;
@@ -382,6 +395,7 @@ let
         "quilt-26.1.1" = _tNBlPSwg;
         "quilt-26.1.2" = _tNBlPSwg;
         "quilt-26.2" = _QfzrpO0h;
+        "quilt-26.3" = _G9ilSQ5k;
         "forge-1.18.2" = _Zbt48yMx;
         "forge-1.19.2" = _A1EtjxMU;
         "forge-1.19.3" = _B9KnnBKx;
@@ -423,6 +437,7 @@ let
         "neoforge-26.1.1" = _ZDqf6bYH;
         "neoforge-26.1.2" = _ZDqf6bYH;
         "neoforge-26.2" = _fJCXqkkc;
+        "neoforge-26.3" = _yRKyVsE0;
         "pkg-1.0.3" = _VyovnIkp;
         "pkg-1.0.2" = _vDTBLgI8;
         "pkg-1.1.0" = _pEIwLAPg;
@@ -434,7 +449,8 @@ let
         "pkg-2.0" = _fkX0krTC;
         "pkg-2.1" = _ZDqf6bYH;
         "pkg-2.2" = _fJCXqkkc;
-        "default" = _ZDqf6bYH;
+        "pkg-2.3" = _yRKyVsE0;
+        "default" = _yRKyVsE0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "glow-ink-plus";

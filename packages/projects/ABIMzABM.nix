@@ -311,6 +311,16 @@ let
             "file" = "PlayerRevive_NEOFORGE_v2.1.2_mc26.2.jar";
             "hash" = "sha512-6GA0/5n/rGRWFIf2RF3h+oqytgG2YuDf07xiFO0QeoamKHYwkKCGNf1vssyPCt8K7matujszOJ0Ox6JEcRZ3LQ==";
         };
+        _WIzp0ga0 = {
+            "id" = "WIzp0ga0";
+            "file" = "PlayerRevive_NEOFORGE_v2.1.2_mc26.3.jar";
+            "hash" = "sha512-QNwnWQypjNwJw5XdFSLGcNHi5atdixu3cy2blssBXzbyuh77gm+OiyQ+r5fCI/HGAU3BZ9XlXEuVRsPTgllqyQ==";
+        };
+        _jGQAgoLA = {
+            "id" = "jGQAgoLA";
+            "file" = "PlayerRevive_NEOFORGE_v2.1.3_mc26.3.jar";
+            "hash" = "sha512-dFGIMpEQobwq1C47Mvo66iaPvLrtxGtQV766aQLKdREu0BXqdcAutSnF5JMX7K6DGuh1PizaNaI2gMrGlMyHmA==";
+        };
     in {
         "e4oiSYFw" = _e4oiSYFw;
         "E34gNXMb" = _E34gNXMb;
@@ -374,6 +384,8 @@ let
         "LS7UoW1b" = _LS7UoW1b;
         "2xdBrH21" = _2xdBrH21;
         "irF42vxI" = _irF42vxI;
+        "WIzp0ga0" = _WIzp0ga0;
+        "jGQAgoLA" = _jGQAgoLA;
         "forge-1.18.2" = _xAZGMuV1;
         "forge-1.19.2" = _toPTsfcD;
         "forge-1.19.3" = _JQcZVd3x;
@@ -400,6 +412,7 @@ let
         "neoforge-26.1" = _RiN4vgwv;
         "neoforge-26.1.2" = _2xdBrH21;
         "neoforge-26.2" = _irF42vxI;
+        "neoforge-26.3" = _jGQAgoLA;
         "pkg-2.0.13" = _E34gNXMb;
         "pkg-2.0.14" = _xAZGMuV1;
         "pkg-2.0.15" = _1v6iLpGT;
@@ -427,8 +440,9 @@ let
         "pkg-2.0.37" = _Bo4eYe5w;
         "pkg-2.1.0" = _Wn0IlSGC;
         "pkg-2.1.1" = _er4EcBdZ;
-        "pkg-2.1.2" = _irF42vxI;
-        "default" = _irF42vxI;
+        "pkg-2.1.2" = _WIzp0ga0;
+        "pkg-2.1.3" = _jGQAgoLA;
+        "default" = _jGQAgoLA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "playerrevive";

@@ -451,6 +451,66 @@ let
             "file" = "LoTAS-Light-26.2-1.3.6.jar";
             "hash" = "sha512-d8QSu7oKJhJqQrO7/l+zTkKfHt1LKSsOvn8FKdqx5iYPtNUxohX2S71lUfUpAffzw+Mk6v2sXmOU/Lh7C7WkSw==";
         };
+        _XMvuVMU2 = {
+            "id" = "XMvuVMU2";
+            "file" = "LoTAS-Light-1.20.4-1.3.7.jar";
+            "hash" = "sha512-VkTH4b9R8uU/oLESMB119PSJVi7JHEX2qZ1vGCb/YaEWRnxVEOSl90fJl6Ixk5LRiNpgnaDqB1QSEDc7D1xX9Q==";
+        };
+        _GLp0FY6P = {
+            "id" = "GLp0FY6P";
+            "file" = "LoTAS-Light-1.20.6-1.3.7.jar";
+            "hash" = "sha512-fvESXCnRIVa/jOLF3UjAv2mTomchldVTCj5Rd8SvlzIjllmaeIJiZoLb25Bvd1gPmSeueabcAwMQuFtEFyZ7vQ==";
+        };
+        _tcvsL0St = {
+            "id" = "tcvsL0St";
+            "file" = "LoTAS-Light-1.21.1-1.3.7.jar";
+            "hash" = "sha512-Y/MLNt0A6tWI/f6lfP2fQ3awR06x+sR0MOkYsxT22RKh5J4vXXaYyLgdgmerITV41uDmK2mTE0S2zsYYkzsLdg==";
+        };
+        _y6oFkKVf = {
+            "id" = "y6oFkKVf";
+            "file" = "LoTAS-Light-1.21.3-1.3.7.jar";
+            "hash" = "sha512-g70wCNWARgb/3Jz/PWVjjoXJ1d/+Wlme4STUMskUmxpS4NXdEJYOF8o483ZOjMwuiBhiz3Uv1SwEuG4ntZG+/Q==";
+        };
+        _IA39boai = {
+            "id" = "IA39boai";
+            "file" = "LoTAS-Light-1.21.4-1.3.7.jar";
+            "hash" = "sha512-PXEb/PILfGRsPy5CeuDAXpoyj5CW1iz1+/UuNYrtdaXIdON/gAt1Nau6Q+zZOWc12vwRpGs2W3n5afgzOV7VZA==";
+        };
+        _UehHeIoT = {
+            "id" = "UehHeIoT";
+            "file" = "LoTAS-Light-1.21.5-1.3.7.jar";
+            "hash" = "sha512-DclVm2Ws/plHhllXy0POJQDzVlVAUoCcJo2EDqCrrygtd1WayqdROUiRnXKW45naM/QbXw0wfT+QCqW7vm+Udw==";
+        };
+        _jLNaux43 = {
+            "id" = "jLNaux43";
+            "file" = "LoTAS-Light-1.21.8-1.3.7.jar";
+            "hash" = "sha512-dGHajLJGnQ6zuNrGiE7OtPWN2VzFHNzMQAk6pqn3FYIciTZMoniveWC97XdHFIcbA/4g5gSRgUv+ks+hZPredQ==";
+        };
+        _ar6WfFFy = {
+            "id" = "ar6WfFFy";
+            "file" = "LoTAS-Light-1.21.10-1.3.7.jar";
+            "hash" = "sha512-XjvbkYuAprYMS9Vt/iSGXqB4zWA/LRH5k2rscxyXyN03hl1kjNAud/W3z55iiewNMh4hTQH2ofe2Y1Wll24w8Q==";
+        };
+        _LMaMErDr = {
+            "id" = "LMaMErDr";
+            "file" = "LoTAS-Light-1.21.11-1.3.7.jar";
+            "hash" = "sha512-OgfP9nZJvQ4MOPbt5EOy/ATHvfzXCOFFzBEvCOXlLJHgmkfpE1tNwJPRXEFkALUSw5LinIpx8AOlyuy7VmI0Rg==";
+        };
+        _uxmpRdVA = {
+            "id" = "uxmpRdVA";
+            "file" = "LoTAS-Light-26.1.2-1.3.7.jar";
+            "hash" = "sha512-Fnt5mhaeCmTXl6uY29S47NgJuv3daK3DFgHajJfew5ZM9ODg6J3QuxkpAGvpwrV27HMH7JMqiQjwhKTfKDBIbw==";
+        };
+        _y4PzARog = {
+            "id" = "y4PzARog";
+            "file" = "LoTAS-Light-26.2-1.3.7.jar";
+            "hash" = "sha512-JULaSVMJjOpG+KkOz9ZM5mZvCtrxMHxcd+zbuuRJkRrsAayYAbEc8d3JAdNhwJ7SSmAQgYLOPDUbfPe6jwog8Q==";
+        };
+        _USXpuAfS = {
+            "id" = "USXpuAfS";
+            "file" = "LoTAS-Light-26.3-1.3.7.jar";
+            "hash" = "sha512-CS+5WV0BWQJ1Fk5BuvNvTpka2KvpT/Zs6yO49FkHZrPdU+8OZJlzwrmNCm3+lomHGRjkc+Y6bybD/kWDRby79g==";
+        };
     in {
         "K4M1x19V" = _K4M1x19V;
         "YKwWv0eq" = _YKwWv0eq;
@@ -542,26 +602,39 @@ let
         "l3xbr7Mw" = _l3xbr7Mw;
         "tPmIYXJj" = _tPmIYXJj;
         "lRkwNRQ1" = _lRkwNRQ1;
-        "fabric-1.21" = _woXMRdHC;
-        "fabric-1.21.1" = _woXMRdHC;
-        "fabric-1.21.2" = _63qYOwwJ;
-        "fabric-1.21.3" = _63qYOwwJ;
-        "fabric-1.20.3" = _a1M8Fc3i;
-        "fabric-1.20.4" = _a1M8Fc3i;
-        "fabric-1.20.5" = _jicHdUSm;
-        "fabric-1.20.6" = _jicHdUSm;
-        "fabric-1.21.4" = _ADa1fX8w;
-        "fabric-1.21.5" = _ucJtnH6G;
-        "fabric-1.21.6" = _MqELEIVB;
-        "fabric-1.21.7" = _MqELEIVB;
-        "fabric-1.21.8" = _MqELEIVB;
-        "fabric-1.21.9" = _phEC3eoq;
-        "fabric-1.21.10" = _phEC3eoq;
-        "fabric-1.21.11" = _l3xbr7Mw;
-        "fabric-26.1" = _tPmIYXJj;
-        "fabric-26.1.1" = _tPmIYXJj;
-        "fabric-26.1.2" = _tPmIYXJj;
-        "fabric-26.2" = _lRkwNRQ1;
+        "XMvuVMU2" = _XMvuVMU2;
+        "GLp0FY6P" = _GLp0FY6P;
+        "tcvsL0St" = _tcvsL0St;
+        "y6oFkKVf" = _y6oFkKVf;
+        "IA39boai" = _IA39boai;
+        "UehHeIoT" = _UehHeIoT;
+        "jLNaux43" = _jLNaux43;
+        "ar6WfFFy" = _ar6WfFFy;
+        "LMaMErDr" = _LMaMErDr;
+        "uxmpRdVA" = _uxmpRdVA;
+        "y4PzARog" = _y4PzARog;
+        "USXpuAfS" = _USXpuAfS;
+        "fabric-1.21" = _tcvsL0St;
+        "fabric-1.21.1" = _tcvsL0St;
+        "fabric-1.21.2" = _y6oFkKVf;
+        "fabric-1.21.3" = _y6oFkKVf;
+        "fabric-1.20.3" = _XMvuVMU2;
+        "fabric-1.20.4" = _XMvuVMU2;
+        "fabric-1.20.5" = _GLp0FY6P;
+        "fabric-1.20.6" = _GLp0FY6P;
+        "fabric-1.21.4" = _IA39boai;
+        "fabric-1.21.5" = _UehHeIoT;
+        "fabric-1.21.6" = _jLNaux43;
+        "fabric-1.21.7" = _jLNaux43;
+        "fabric-1.21.8" = _jLNaux43;
+        "fabric-1.21.9" = _ar6WfFFy;
+        "fabric-1.21.10" = _ar6WfFFy;
+        "fabric-1.21.11" = _LMaMErDr;
+        "fabric-26.1" = _uxmpRdVA;
+        "fabric-26.1.1" = _uxmpRdVA;
+        "fabric-26.1.2" = _uxmpRdVA;
+        "fabric-26.2" = _y4PzARog;
+        "fabric-26.3" = _USXpuAfS;
         "pkg-1.0.0-rc1" = _YKwWv0eq;
         "pkg-1.0.0-rc2" = _YEWSq4M5;
         "pkg-1.0.0" = _kxHykcVX;
@@ -578,7 +651,8 @@ let
         "pkg-1.3.4" = _6EcmnZx0;
         "pkg-1.3.5" = _3DJQoR4q;
         "pkg-1.3.6" = _lRkwNRQ1;
-        "default" = _lRkwNRQ1;
+        "pkg-1.3.7" = _USXpuAfS;
+        "default" = _USXpuAfS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lotas-light";

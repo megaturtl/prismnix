@@ -81,6 +81,11 @@ let
             "file" = "small-axes-2.0.2-26.2.zip";
             "hash" = "sha512-CL1HMpn6uCvDt53WdV5424nVGK3czUY4ZkRP2RSTbdahkQQcZDQo2EdQCwyTormGXsRhnE0g9IGQUtQNDrxswg==";
         };
+        _hxBNzJV6 = {
+            "id" = "hxBNzJV6";
+            "file" = "small-axes-2.1-26.2.zip";
+            "hash" = "sha512-TP7BqtgDNCoxw+rTwkTRg5SKBSl964sEfwxy0bBtHrU7B248IGLtRmAsbmnfodyGTBiTBB2MBVY1DxG6RTBw8A==";
+        };
     in {
         "GWrnjaYg" = _GWrnjaYg;
         "W5I0Ezk2" = _W5I0Ezk2;
@@ -98,14 +103,15 @@ let
         "2gVeJHgd" = _2gVeJHgd;
         "nwRk2lYj" = _nwRk2lYj;
         "6RlHs7QL" = _6RlHs7QL;
+        "hxBNzJV6" = _hxBNzJV6;
         "minecraft-1.21" = _W5I0Ezk2;
         "minecraft-1.21.1" = _W5I0Ezk2;
         "minecraft-1.21.2" = _2gVeJHgd;
         "minecraft-1.21.3" = _2gVeJHgd;
-        "minecraft-1.21.4" = _6RlHs7QL;
-        "minecraft-1.21.5" = _6RlHs7QL;
-        "minecraft-1.21.6" = _6RlHs7QL;
-        "minecraft-1.21.7" = _6RlHs7QL;
+        "minecraft-1.21.4" = _hxBNzJV6;
+        "minecraft-1.21.5" = _hxBNzJV6;
+        "minecraft-1.21.6" = _hxBNzJV6;
+        "minecraft-1.21.7" = _hxBNzJV6;
         "minecraft-1.6.1" = _uPNAOGvQ;
         "minecraft-1.6.2" = _uPNAOGvQ;
         "minecraft-1.6.4" = _uPNAOGvQ;
@@ -130,9 +136,9 @@ let
         "minecraft-1.8.9" = _uPNAOGvQ;
         "minecraft-1.21.7-rc1" = _s8uKCqkc;
         "minecraft-1.21.7-rc2" = _s8uKCqkc;
-        "minecraft-1.21.8" = _6RlHs7QL;
-        "minecraft-1.21.9" = _6RlHs7QL;
-        "minecraft-1.21.10" = _6RlHs7QL;
+        "minecraft-1.21.8" = _hxBNzJV6;
+        "minecraft-1.21.9" = _hxBNzJV6;
+        "minecraft-1.21.10" = _hxBNzJV6;
         "minecraft-1.20" = _DV4Zkn5q;
         "minecraft-1.20.1" = _DV4Zkn5q;
         "minecraft-1.20.2" = _DV4Zkn5q;
@@ -142,14 +148,14 @@ let
         "minecraft-1.20.5" = _DV4Zkn5q;
         "minecraft-1.20.6" = _DV4Zkn5q;
         "minecraft-25w14craftmine" = _DV4Zkn5q;
-        "minecraft-1.21.11" = _6RlHs7QL;
+        "minecraft-1.21.11" = _hxBNzJV6;
         "minecraft-1.21.11-rc1" = _I5XffgF0;
         "minecraft-1.21.11-rc2" = _I5XffgF0;
         "minecraft-1.21.11-rc3" = _I5XffgF0;
         "minecraft-26.1-snapshot-1" = _I5XffgF0;
         "minecraft-26.1-snapshot-2" = _I5XffgF0;
-        "minecraft-26.1" = _6RlHs7QL;
-        "minecraft-26.1.1" = _6RlHs7QL;
+        "minecraft-26.1" = _hxBNzJV6;
+        "minecraft-26.1.1" = _hxBNzJV6;
         "minecraft-1.0" = _uPNAOGvQ;
         "minecraft-1.1" = _uPNAOGvQ;
         "minecraft-1.2.1" = _uPNAOGvQ;
@@ -166,12 +172,13 @@ let
         "minecraft-1.4.7" = _uPNAOGvQ;
         "minecraft-1.5.1" = _uPNAOGvQ;
         "minecraft-1.5.2" = _uPNAOGvQ;
-        "minecraft-26.1.2" = _6RlHs7QL;
+        "minecraft-26.1.2" = _hxBNzJV6;
         "minecraft-24w44a" = _2gVeJHgd;
         "minecraft-24w45a" = _2gVeJHgd;
         "minecraft-24w46a" = _2gVeJHgd;
         "minecraft-26.2-snapshot-2" = _2gVeJHgd;
-        "minecraft-26.2" = _6RlHs7QL;
+        "minecraft-26.2" = _hxBNzJV6;
+        "minecraft-26.3" = _hxBNzJV6;
         "pkg-1.0.0" = _GWrnjaYg;
         "pkg-1.0.1" = _W5I0Ezk2;
         "pkg-1.0.1-1.21.6" = _GABX4cj0;
@@ -188,7 +195,8 @@ let
         "pkg-2.0.1" = _2gVeJHgd;
         "pkg-2.0.1-26.2" = _nwRk2lYj;
         "pkg-2.0.2-26.2" = _6RlHs7QL;
-        "default" = _6RlHs7QL;
+        "pkg-2.1-26.3" = _hxBNzJV6;
+        "default" = _hxBNzJV6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "small-axes";

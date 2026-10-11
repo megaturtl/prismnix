@@ -61,6 +61,11 @@ let
             "file" = "PartySpore-2.1.0-1.26.2.jar";
             "hash" = "sha512-fSDLEeoA+xKUJ/RUWrRE1qXFAjWg92MkPD780pMj8TiyxuwsSP4WD3XnMzXuuM8tBuR9irXUuS6vcqYiTfpseQ==";
         };
+        _GmAKu1ct = {
+            "id" = "GmAKu1ct";
+            "file" = "PartySpore-2.1.1-1.26.3.jar";
+            "hash" = "sha512-jGReD0wyC5McGybYDtaHzxZTKJi32wOsnBXLlk+iYBz3lVytOz3G1xZ1YYfWGBP8u5iiQmVeFVfRHq5ufrYPPQ==";
+        };
     in {
         "MZBz6CYr" = _MZBz6CYr;
         "PNVltsof" = _PNVltsof;
@@ -74,6 +79,7 @@ let
         "Tqw4iaSN" = _Tqw4iaSN;
         "rYyjw6Jq" = _rYyjw6Jq;
         "ZHKsLjKy" = _ZHKsLjKy;
+        "GmAKu1ct" = _GmAKu1ct;
         "fabric-1.20" = _MZBz6CYr;
         "fabric-1.20.1" = _MZBz6CYr;
         "fabric-1.20.2" = _MZBz6CYr;
@@ -97,6 +103,7 @@ let
         "fabric-26.1.1" = _rYyjw6Jq;
         "fabric-26.1.2" = _rYyjw6Jq;
         "fabric-26.2" = _ZHKsLjKy;
+        "fabric-26.3" = _GmAKu1ct;
         "pkg-1.0.0-1.20" = _MZBz6CYr;
         "pkg-1.0.0-1.20.5" = _PNVltsof;
         "pkg-1.0.0-1.21.0" = _NgU7zPFP;
@@ -109,7 +116,8 @@ let
         "pkg-1.2.2-1.21.11" = _Tqw4iaSN;
         "pkg-2.0.1-1.26.1" = _rYyjw6Jq;
         "pkg-2.1.0-1.26.2" = _ZHKsLjKy;
-        "default" = _ZHKsLjKy;
+        "pkg-2.1.1-1.26.3" = _GmAKu1ct;
+        "default" = _GmAKu1ct;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "party-spores";

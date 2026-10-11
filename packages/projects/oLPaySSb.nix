@@ -86,6 +86,16 @@ let
             "file" = "OfflinePlayerCache-Forge-2.0.0+1.20.1-beta.4.jar";
             "hash" = "sha512-BIX3HecuDO7RldL3gstKT6jVrM/fD+3WajOKrczoa2A2+cqHfChYISUP5mxKluPFm+X/cMGNzx38fDwppbUVLw==";
         };
+        _Twla1z8f = {
+            "id" = "Twla1z8f";
+            "file" = "remnant-3.0.0+1.21.1-neoforge.jar";
+            "hash" = "sha512-h+Y05aAwbf3tPxpE8y41M9adfzb3aeXnPolevuSnV4YZolEfv+1Nz54U5IcZ3I+bBRONq1Le33r6R7XMefu07A==";
+        };
+        _7AYXvK88 = {
+            "id" = "7AYXvK88";
+            "file" = "remnant-3.0.0+1.21.1-fabric.jar";
+            "hash" = "sha512-S9QsMOCrO+SLoYxIWPvGWeO5DU+wV7MLL9i+XPyAZHhXCy60gUIhU74w1VGjNYoIcg6DfiYXoWO8QIqHN73z7Q==";
+        };
     in {
         "SN6KkKel" = _SN6KkKel;
         "CeaZSmw6" = _CeaZSmw6;
@@ -104,6 +114,8 @@ let
         "QxBv8FQb" = _QxBv8FQb;
         "N4r9dXCQ" = _N4r9dXCQ;
         "riu6Ya9T" = _riu6Ya9T;
+        "Twla1z8f" = _Twla1z8f;
+        "7AYXvK88" = _7AYXvK88;
         "fabric-1.20.1" = _N4r9dXCQ;
         "fabric-1.20.2" = _d2xo9szi;
         "fabric-1.20.3" = _d2xo9szi;
@@ -111,6 +123,7 @@ let
         "fabric-1.20.5" = _d2xo9szi;
         "fabric-1.20.6" = _d2xo9szi;
         "fabric-1.21" = _SxLtM1ih;
+        "fabric-1.21.1" = _7AYXvK88;
         "quilt-1.20.1" = _N4r9dXCQ;
         "quilt-1.20.2" = _d2xo9szi;
         "quilt-1.20.3" = _d2xo9szi;
@@ -121,6 +134,7 @@ let
         "forge-1.20.1" = _riu6Ya9T;
         "neoforge-1.20.1" = _riu6Ya9T;
         "neoforge-1.21" = _QxBv8FQb;
+        "neoforge-1.21.1" = _Twla1z8f;
         "pkg-0.6.5+1.20.1" = _SN6KkKel;
         "pkg-1.0.0-beta.1+1.20.1" = _CeaZSmw6;
         "pkg-1.0.0+1.20.1-fabric" = _nF8fYa4X;
@@ -138,7 +152,9 @@ let
         "pkg-2.0.0+1.21-beta.2-neoforge" = _QxBv8FQb;
         "pkg-2.0.0+1.20.1-beta.4-fabric" = _N4r9dXCQ;
         "pkg-2.0.0+1.20.1-beta.4-forge" = _riu6Ya9T;
-        "default" = _riu6Ya9T;
+        "pkg-3.0.0+1.21.1-neoforge" = _Twla1z8f;
+        "pkg-3.0.0+1.21.1-fabric" = _7AYXvK88;
+        "default" = _7AYXvK88;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "opc-directors-cut";

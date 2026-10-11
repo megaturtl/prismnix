@@ -276,6 +276,11 @@ let
             "file" = "tooltrims-2.0.10-beta1+tt3.0.x+mc26.3.jar";
             "hash" = "sha512-Zp3lg1nYg7mgm6Dm+v5wz+y3rr5XYOatVun1caYNwkS56ojPmnzkxbY7QxKWC5BzfQZFN2vRhtSQNz/N0Is+iQ==";
         };
+        _Xl33mYn4 = {
+            "id" = "Xl33mYn4";
+            "file" = "tooltrims-2.0.11-beta2+tt3.0.x+mc26.3.jar";
+            "hash" = "sha512-QEnF4fiDtL53vIVUiLA7YSAToqCdukLV3uYWWLCzP0IqfV3dfgGmh5a/OQzPstoaocx+456pPAGmtpOO2vwcWA==";
+        };
     in {
         "WRtppsyl" = _WRtppsyl;
         "dw2LtBRK" = _dw2LtBRK;
@@ -332,6 +337,7 @@ let
         "gmqlOVux" = _gmqlOVux;
         "E4vrX0uJ" = _E4vrX0uJ;
         "PQ271azb" = _PQ271azb;
+        "Xl33mYn4" = _Xl33mYn4;
         "fabric-1.20" = _scwcAaKL;
         "fabric-1.20.1" = _scwcAaKL;
         "fabric-1.20.2" = _dw2LtBRK;
@@ -367,7 +373,7 @@ let
         "fabric-26.2-rc-2" = _8XWSNWql;
         "fabric-26.2" = _Hbyk0zuB;
         "fabric-26.3-pre-3" = _E4vrX0uJ;
-        "fabric-26.3" = _PQ271azb;
+        "fabric-26.3" = _Xl33mYn4;
         "quilt-1.20" = _scwcAaKL;
         "quilt-1.20.1" = _scwcAaKL;
         "quilt-1.20.2" = _dw2LtBRK;
@@ -436,7 +442,8 @@ let
         "pkg-2.0.10-alpha1+tt3.0.x+mc26.3" = _gmqlOVux;
         "pkg-2.0.10-alpha2+tt3.0.x+mc26.3" = _E4vrX0uJ;
         "pkg-2.0.10-beta1+tt3.0.x+mc26.3" = _PQ271azb;
-        "default" = _PQ271azb;
+        "pkg-2.0.11-beta2+tt3.0.x+mc26.3" = _Xl33mYn4;
+        "default" = _Xl33mYn4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tool-trims-mod";

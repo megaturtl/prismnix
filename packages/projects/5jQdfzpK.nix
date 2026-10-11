@@ -211,6 +211,16 @@ let
             "file" = "nofireoverlay-neoforge-26.3-1.2.0.jar";
             "hash" = "sha512-qEs45WGnkBR2WjbsJlkVK5+XUqfFmue7UqBIXR/Ogi7nKuY0LLaYSFSISJIEa/zFON90Vd6XVHEzl281xMkLSA==";
         };
+        _VZZLNLXQ = {
+            "id" = "VZZLNLXQ";
+            "file" = "nofireoverlay-fabric-26.1.2-1.2.0.jar";
+            "hash" = "sha512-RUONpvXoM+ehR9oYFpdacDrNhjcEFkUeLkMDHPQFWPJgufMehtJG2fQ0hhii+rTbrRV6EcpPs+MZPcQT4UEWkA==";
+        };
+        _zMrrA9Ea = {
+            "id" = "zMrrA9Ea";
+            "file" = "nofireoverlay-neoforge-26.1.2-1.2.0.jar";
+            "hash" = "sha512-PpDHe4cTpckcM3iw46/HtI6c20cwcncupXOiau/wNqh7gTSHwMQ1UEByuzHMP4J1XRZEZa4MpioHTiUtHLgYgg==";
+        };
     in {
         "tA3LHOcn" = _tA3LHOcn;
         "u7XUMeuj" = _u7XUMeuj;
@@ -254,6 +264,8 @@ let
         "pHzVQZOC" = _pHzVQZOC;
         "1FbumMfo" = _1FbumMfo;
         "23xNzlCj" = _23xNzlCj;
+        "VZZLNLXQ" = _VZZLNLXQ;
+        "zMrrA9Ea" = _zMrrA9Ea;
         "forge-1.20.1" = _8bXbU4Ch;
         "forge-1.19.2" = _Hj2Bf7cu;
         "forge-1.21.1" = _i5pVFTWs;
@@ -262,7 +274,7 @@ let
         "neoforge-1.21.11" = _ly49KaXM;
         "neoforge-26.1" = _vL9k1252;
         "neoforge-26.1.1" = _uVMc9di7;
-        "neoforge-26.1.2" = _L1PavNGR;
+        "neoforge-26.1.2" = _zMrrA9Ea;
         "neoforge-26.2" = _pHzVQZOC;
         "neoforge-26.3" = _23xNzlCj;
         "fabric-1.20.1" = _1XjIMSoj;
@@ -270,14 +282,14 @@ let
         "fabric-1.21.11" = _X4hFqO6C;
         "fabric-26.1" = _j63WoQXG;
         "fabric-26.1.1" = _QbY3cLgK;
-        "fabric-26.1.2" = _rUbAQqor;
+        "fabric-26.1.2" = _VZZLNLXQ;
         "fabric-26.2" = _Up62WF2Y;
         "fabric-1.19.2" = _sqZA4pRj;
         "fabric-26.3" = _1FbumMfo;
         "pkg-1.0.0" = _KnL1bckB;
         "pkg-1.1.0" = _BaJnaDIF;
-        "pkg-1.2.0" = _23xNzlCj;
-        "default" = _23xNzlCj;
+        "pkg-1.2.0" = _zMrrA9Ea;
+        "default" = _zMrrA9Ea;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nofireoverlay";

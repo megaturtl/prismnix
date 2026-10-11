@@ -1926,6 +1926,31 @@ let
             "file" = "UsefulFood_Reborn-1.5.4-26.2-Fabric.jar";
             "hash" = "sha512-9YQ6nmjTXXO+K69jq7Epj8li+RMYWXqhKw64Rvt9rp/KX3nVuZ5XyxBZjOlqJfSsFXQVVbvJZQm7CPBfKiwFOw==";
         };
+        _wrJlg4KV = {
+            "id" = "wrJlg4KV";
+            "file" = "UsefulFoodReborn-1.5.4-26.3-Neoforge.jar";
+            "hash" = "sha512-hdHwzysnCmWxnwYwwCITFt8w5Y6AjU7agrwuoAjVXA1wqr7jckWWLWt2OG5DjtuQQ5bkH7Irfq+CAfwslA3flw==";
+        };
+        _p8B76Qye = {
+            "id" = "p8B76Qye";
+            "file" = "UsefulFoodReborn-1.5.4-26.3-Fabric.jar";
+            "hash" = "sha512-3B1KsKZJThfNM08+UC2sS/oE9CoZcyBlDOQOZ6MjvDAv3KmJulh92l5BGcKPy2n2WOkwxidyZ7pLzXbSGErTsA==";
+        };
+        _TRMOlowf = {
+            "id" = "TRMOlowf";
+            "file" = "UsefulFoodReborn-1.5.4-26.3-Forge.jar";
+            "hash" = "sha512-Z5DxdZLaEfFv/+vP4YE4YMHEZOpkCsiPUMir0NEkLbbHCYHaK59fpBBVKC3J8RM2+grOw59cXY1h0vVLtVD2bw==";
+        };
+        _ZCkg1ZcN = {
+            "id" = "ZCkg1ZcN";
+            "file" = "UsefulFoodReborn-1.5.5-26.3-Neoforge.jar";
+            "hash" = "sha512-TGFg83U2PlyF8I0nx5UELu8fucyjntUp8Tmxv4FTrp6IX6H8MplmWUX+v9/lkpm3VWliTZJZuCBTk5MdHCRO2A==";
+        };
+        _iQFwCTtN = {
+            "id" = "iQFwCTtN";
+            "file" = "UsefulFoodReborn-1.5.5-26.3-Forge.jar";
+            "hash" = "sha512-Ac/wrV2G4Y0yJnrTJALD2F4bwHZT/Wl5vZYAd74XFgDBqxkcY6cRSoPDq1d4T/YyXliV0bN6ujU0WNk+Rcj3nA==";
+        };
     in {
         "uxCp0vIk" = _uxCp0vIk;
         "5JpRik7G" = _5JpRik7G;
@@ -2312,6 +2337,11 @@ let
         "xFu9Zv0E" = _xFu9Zv0E;
         "zan4QTtC" = _zan4QTtC;
         "KCM2vBuw" = _KCM2vBuw;
+        "wrJlg4KV" = _wrJlg4KV;
+        "p8B76Qye" = _p8B76Qye;
+        "TRMOlowf" = _TRMOlowf;
+        "ZCkg1ZcN" = _ZCkg1ZcN;
+        "iQFwCTtN" = _iQFwCTtN;
         "fabric-1.19.2" = _ZSWLYS9r;
         "fabric-1.20" = _W3fCZ0RB;
         "fabric-1.20.1" = _BXIB1erh;
@@ -2339,6 +2369,7 @@ let
         "fabric-26.1.1" = _zan4QTtC;
         "fabric-26.1.2" = _zan4QTtC;
         "fabric-26.2" = _KCM2vBuw;
+        "fabric-26.3" = _p8B76Qye;
         "forge-1.19.2" = _tuQFWsQi;
         "forge-1.20" = _afnahih1;
         "forge-1.20.1" = _o7TGMTMk;
@@ -2364,6 +2395,7 @@ let
         "forge-26.1.1" = _rnigLlHx;
         "forge-26.1.2" = _rnigLlHx;
         "forge-26.2" = _ENfL0l8Q;
+        "forge-26.3" = _iQFwCTtN;
         "neoforge-1.21" = _O8A77fvb;
         "neoforge-1.21.1" = _ZR8r31x5;
         "neoforge-1.21.2" = _8XntAbLM;
@@ -2380,6 +2412,7 @@ let
         "neoforge-26.1.1" = _u51rvgky;
         "neoforge-26.1.2" = _u51rvgky;
         "neoforge-26.2" = _zikhkjiy;
+        "neoforge-26.3" = _ZCkg1ZcN;
         "pkg-1.0.0-1.19.2-Fabric" = _uxCp0vIk;
         "pkg-1.0.0-1.20.1-Fabric" = _5JpRik7G;
         "pkg-1.0.0-1.19.2-Forge" = _IFmmJY8o;
@@ -2764,7 +2797,12 @@ let
         "pkg-1.5.1-1.18.2-Forge" = _xFu9Zv0E;
         "pkg-1.5.4-26.1.2-Fabric" = _zan4QTtC;
         "pkg-1.5.4-26.2-Fabric" = _KCM2vBuw;
-        "default" = _KCM2vBuw;
+        "pkg-1.5.4-26.3-Neoforge" = _wrJlg4KV;
+        "pkg-1.5.4-26.3-Fabric" = _p8B76Qye;
+        "pkg-1.5.4-26.3-Forge" = _TRMOlowf;
+        "pkg-1.5.5-26.3-Neoforge" = _ZCkg1ZcN;
+        "pkg-1.5.5-26.3-Forge" = _iQFwCTtN;
+        "default" = _iQFwCTtN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "usefulfood-reborn";

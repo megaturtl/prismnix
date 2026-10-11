@@ -221,6 +221,16 @@ let
             "file" = "CompletionistsIndex-v26.2.0-mc26.2.x-NeoForge.jar";
             "hash" = "sha512-5RysuFOAy32oU6QHqEzmBcD3Par2QFUTDLEsdiMn5tqYQU0puysu5D+y0thTDFF9021pDWt68paYr88wgIoBiw==";
         };
+        _nIQaauRj = {
+            "id" = "nIQaauRj";
+            "file" = "completionistsindex-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-c6INixkjonM1LpC5nL1Y1xw7Ylu7vQ4GQjzgtM370uyhrep4v/283hfmr15aIf0MVUVjJM306T59CL3vRMVTTA==";
+        };
+        _HjAiJmDB = {
+            "id" = "HjAiJmDB";
+            "file" = "completionistsindex-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-g0ATuCK5X74mLMv0O1c2M/sQ66wV6ZsNA2rdV+EhTlJXYh+kVRfF12tCi6CtON2MC85aCSDJ/vvr9EmyY5aTsA==";
+        };
     in {
         "py1eQ7t4" = _py1eQ7t4;
         "6M0oVt8X" = _6M0oVt8X;
@@ -266,6 +276,8 @@ let
         "gJvaKAeI" = _gJvaKAeI;
         "ODTjpvrJ" = _ODTjpvrJ;
         "oX82yx8K" = _oX82yx8K;
+        "nIQaauRj" = _nIQaauRj;
+        "HjAiJmDB" = _HjAiJmDB;
         "forge-1.19.2" = _py1eQ7t4;
         "forge-1.19.3" = _RBdrDOc1;
         "forge-1.19.4" = _LBCXLxEE;
@@ -294,6 +306,7 @@ let
         "fabric-26.1.1" = _KHMex8IR;
         "fabric-26.1.2" = _KHMex8IR;
         "fabric-26.2" = _ODTjpvrJ;
+        "fabric-26.3" = _nIQaauRj;
         "neoforge-1.20.4" = _wZVswVoD;
         "neoforge-1.21.1" = _nx3WY9Ju;
         "neoforge-1.21.3" = _UI5DdnaB;
@@ -309,6 +322,7 @@ let
         "neoforge-26.1.1" = _gJvaKAeI;
         "neoforge-26.1.2" = _gJvaKAeI;
         "neoforge-26.2" = _oX82yx8K;
+        "neoforge-26.3" = _HjAiJmDB;
         "pkg-v4.0.0-1.19.2-Forge" = _py1eQ7t4;
         "pkg-v4.0.0-1.19.2-Fabric" = _6M0oVt8X;
         "pkg-v5.0.0-1.19.3-Forge" = _RBdrDOc1;
@@ -348,7 +362,8 @@ let
         "pkg-21.11.0" = _fBip1j8Y;
         "pkg-26.1.0" = _gJvaKAeI;
         "pkg-26.2.0" = _oX82yx8K;
-        "default" = _oX82yx8K;
+        "pkg-26.3.0" = _HjAiJmDB;
+        "default" = _HjAiJmDB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "completionists-index";

@@ -21,17 +21,24 @@ let
             "file" = "scalingdifficulty-1.0.3.jar";
             "hash" = "sha512-/CBSkvhDMrEqaLRY5tJIgn447vgpJJ2SebWC39CyDr+VyQPhQ586EL166y1TFETPWn7a89csUTv3i33v21MSmg==";
         };
+        _tgftzsM0 = {
+            "id" = "tgftzsM0";
+            "file" = "scalingdifficulty-1.1.0+1.21.1.jar";
+            "hash" = "sha512-XnpeNFcRxmTDfmfM+7LO9WYqIo54/GDRV9sxCH1X9goXUJY1NTJ/wgOL/LUUqAPzugRp5VPAzwAyxK/LlDSI1g==";
+        };
     in {
         "w7K448Gh" = _w7K448Gh;
         "imOwIoxi" = _imOwIoxi;
         "XnWTNcmy" = _XnWTNcmy;
         "p8nY72Rj" = _p8nY72Rj;
-        "neoforge-1.21.1" = _p8nY72Rj;
+        "tgftzsM0" = _tgftzsM0;
+        "neoforge-1.21.1" = _tgftzsM0;
         "pkg-1.0.0+1.21.1" = _w7K448Gh;
         "pkg-1.0.1+1.21.1" = _imOwIoxi;
         "pkg-1.0.2+1.21.1" = _XnWTNcmy;
         "pkg-1.0.3+1.21.1" = _p8nY72Rj;
-        "default" = _p8nY72Rj;
+        "pkg-1.1.0+1.21.1" = _tgftzsM0;
+        "default" = _tgftzsM0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "scalingdifficulty";

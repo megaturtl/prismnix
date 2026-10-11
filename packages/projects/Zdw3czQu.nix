@@ -231,6 +231,16 @@ let
             "file" = "nether-quartz-recipe-1.0.jar";
             "hash" = "sha512-lTIA+RUguh5Ee7CiXKIkVFrE32JOhyDYvBsWSFmoSlGXpfi2wqscFdu4KgrdLfGolzZN3Lbhc/y4gJHc3DmxfQ==";
         };
+        _Jm7RExE6 = {
+            "id" = "Jm7RExE6";
+            "file" = "nether_quartz-26.3.zip";
+            "hash" = "sha512-psNdltKf6Pkb2Y+RYbBuC2Td1VSqFHjJLKUzDsy0c0Ht7uHdwZSBTpGXGaXCQdFzMS8WV7C6DYwNUVybImPtcw==";
+        };
+        _Vdqs509l = {
+            "id" = "Vdqs509l";
+            "file" = "nether-quartz-recipe-1.0.jar";
+            "hash" = "sha512-mdEb9aeJGUWriSex4V6nDR2+A86VkEKA4Y2y9RPaLa6vZg3unBAsCAlmGOsn+ri2q6z0L9UsrZOCJbntm0mqWQ==";
+        };
     in {
         "hekAoqfz" = _hekAoqfz;
         "Bawyp6TG" = _Bawyp6TG;
@@ -278,6 +288,8 @@ let
         "9OFNn3kI" = _9OFNn3kI;
         "sRwlfTbB" = _sRwlfTbB;
         "idp8FIw2" = _idp8FIw2;
+        "Jm7RExE6" = _Jm7RExE6;
+        "Vdqs509l" = _Vdqs509l;
         "datapack-1.13" = _hekAoqfz;
         "datapack-1.13.1" = _hekAoqfz;
         "datapack-1.13.2" = _hekAoqfz;
@@ -347,6 +359,7 @@ let
         "datapack-26.2-snapshot-2" = _1fs5FZh8;
         "datapack-26.2" = _sRwlfTbB;
         "datapack-26.3-snapshot-1" = _sRwlfTbB;
+        "datapack-26.3" = _Jm7RExE6;
         "fabric-1.13" = _Bawyp6TG;
         "fabric-1.13.1" = _Bawyp6TG;
         "fabric-1.13.2" = _Bawyp6TG;
@@ -416,6 +429,7 @@ let
         "fabric-26.2-snapshot-2" = _aQiaH80q;
         "fabric-26.2" = _idp8FIw2;
         "fabric-26.3-snapshot-1" = _idp8FIw2;
+        "fabric-26.3" = _Vdqs509l;
         "forge-1.13" = _Bawyp6TG;
         "forge-1.13.1" = _Bawyp6TG;
         "forge-1.13.2" = _Bawyp6TG;
@@ -485,6 +499,7 @@ let
         "forge-26.2-snapshot-2" = _aQiaH80q;
         "forge-26.2" = _idp8FIw2;
         "forge-26.3-snapshot-1" = _idp8FIw2;
+        "forge-26.3" = _Vdqs509l;
         "neoforge-1.13" = _Bawyp6TG;
         "neoforge-1.13.1" = _Bawyp6TG;
         "neoforge-1.13.2" = _Bawyp6TG;
@@ -554,6 +569,7 @@ let
         "neoforge-26.2-snapshot-2" = _aQiaH80q;
         "neoforge-26.2" = _idp8FIw2;
         "neoforge-26.3-snapshot-1" = _idp8FIw2;
+        "neoforge-26.3" = _Vdqs509l;
         "quilt-1.13" = _Bawyp6TG;
         "quilt-1.13.1" = _Bawyp6TG;
         "quilt-1.13.2" = _Bawyp6TG;
@@ -623,9 +639,10 @@ let
         "quilt-26.2-snapshot-2" = _aQiaH80q;
         "quilt-26.2" = _idp8FIw2;
         "quilt-26.3-snapshot-1" = _idp8FIw2;
-        "pkg-1.0" = _sRwlfTbB;
-        "pkg-1.0+mod" = _idp8FIw2;
-        "default" = _idp8FIw2;
+        "quilt-26.3" = _Vdqs509l;
+        "pkg-1.0" = _Jm7RExE6;
+        "pkg-1.0+mod" = _Vdqs509l;
+        "default" = _Vdqs509l;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nether-quartz-recipe";

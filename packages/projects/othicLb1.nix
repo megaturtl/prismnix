@@ -121,6 +121,21 @@ let
             "file" = "BingoReloaded-paper-3.5.2-26.1.2.jar";
             "hash" = "sha512-TS9qmjHsMWnDaCjFU56mu6GJj/vvdE02WLJvIqrA+wJI+PG0tNymPkRquo8//OqwzcOfRwP2JR99yrhv5Lg7cg==";
         };
+        _qvpioiHM = {
+            "id" = "qvpioiHM";
+            "file" = "BingoReloaded-paper-3.6.0-beta.jar";
+            "hash" = "sha512-ukBUNJpTUosyin/uHL+oG2HKHeh4+V+U1oAW2KWumHxYXGp4m83G/dWgvEqjzVr7+GDe31iwoLESvvNIVsx1Jw==";
+        };
+        _IArSrpgv = {
+            "id" = "IArSrpgv";
+            "file" = "BingoReloaded-paper-3.6.0-26.2.jar";
+            "hash" = "sha512-SVSfK4F11HoQRPiJv/+RY99qYPpSHt4AGSWEdTPBVzERD0WFKZFrGqLaSl9QU7dr6psyAI1UEZWidTH1dLIcpA==";
+        };
+        _fD1bVOvj = {
+            "id" = "fD1bVOvj";
+            "file" = "BingoReloaded-paper-3.6.0-26.3.jar";
+            "hash" = "sha512-3f3BdlHpfws0Gx+KSYMJSEFlscovc4Optgb2CDjfKmG//689xqxVSpks65mcJsZjcoRmChIkqtvj9QoqXZzPqQ==";
+        };
     in {
         "6aUYDq4N" = _6aUYDq4N;
         "fe94bKLt" = _fe94bKLt;
@@ -146,6 +161,9 @@ let
         "FU7OQMaX" = _FU7OQMaX;
         "sL3BIfvo" = _sL3BIfvo;
         "qkxNlSfd" = _qkxNlSfd;
+        "qvpioiHM" = _qvpioiHM;
+        "IArSrpgv" = _IArSrpgv;
+        "fD1bVOvj" = _fD1bVOvj;
         "paper-1.18" = _6aUYDq4N;
         "paper-1.18.1" = _6aUYDq4N;
         "paper-1.18.2" = _6aUYDq4N;
@@ -174,6 +192,8 @@ let
         "paper-1.21.10" = _822suRXu;
         "paper-1.21.11" = _sL3BIfvo;
         "paper-26.1.2" = _qkxNlSfd;
+        "paper-26.2" = _IArSrpgv;
+        "paper-26.3" = _fD1bVOvj;
         "purpur-1.18" = _6aUYDq4N;
         "purpur-1.18.1" = _6aUYDq4N;
         "purpur-1.18.2" = _6aUYDq4N;
@@ -202,6 +222,8 @@ let
         "purpur-1.21.10" = _822suRXu;
         "purpur-1.21.11" = _sL3BIfvo;
         "purpur-26.1.2" = _qkxNlSfd;
+        "purpur-26.2" = _IArSrpgv;
+        "purpur-26.3" = _fD1bVOvj;
         "spigot-1.18" = _6aUYDq4N;
         "spigot-1.18.1" = _6aUYDq4N;
         "spigot-1.18.2" = _6aUYDq4N;
@@ -253,7 +275,10 @@ let
         "pkg-3.5.1b" = _FU7OQMaX;
         "pkg-3.5.2a" = _sL3BIfvo;
         "pkg-3.5.2b" = _qkxNlSfd;
-        "default" = _qkxNlSfd;
+        "pkg-3.6.0-beta" = _qvpioiHM;
+        "pkg-3.6.0a" = _IArSrpgv;
+        "pkg-3.6.0b" = _fD1bVOvj;
+        "default" = _fD1bVOvj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bingo-reloaded";

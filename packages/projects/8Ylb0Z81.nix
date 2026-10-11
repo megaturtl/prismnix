@@ -106,6 +106,16 @@ let
             "file" = "eg_invisible_frames-2.3.0+26.2-neoforge.jar";
             "hash" = "sha512-sB1G7sWxfMzGo2cDQ6TGrFHC5K52hHCisTbdL6cHylZTQt65cnuStV7JR96DUmdeF3v2yiWUrpjB6VuQhnGHZw==";
         };
+        _fJE8R52A = {
+            "id" = "fJE8R52A";
+            "file" = "eg_invisible_frames-2.3.1+26.3-fabric.jar";
+            "hash" = "sha512-rYgMPlYOkxyWlRVcDdsYjnybdbFNeXB5B8LkrjFXI6NslEFbnq/u6PrLvyHd/xTRPvQX0482e4+Hq9X0uV2Bow==";
+        };
+        _N9Vg15bq = {
+            "id" = "N9Vg15bq";
+            "file" = "eg_invisible_frames-2.3.1+26.3-neoforge.jar";
+            "hash" = "sha512-Gk00j/p5UBkOpxh6xqWFq7qHSfmf3VtdsRyJpMAJ6bExC4eNX7dT9ZGUeQ44EWm8ehuqxD5/N2v6Xkf4wh2OsQ==";
+        };
     in {
         "DRWBVCnE" = _DRWBVCnE;
         "H3nr4GzA" = _H3nr4GzA;
@@ -128,6 +138,8 @@ let
         "dKVRB6ig" = _dKVRB6ig;
         "sVqZuTsL" = _sVqZuTsL;
         "wO9siCj1" = _wO9siCj1;
+        "fJE8R52A" = _fJE8R52A;
+        "N9Vg15bq" = _N9Vg15bq;
         "fabric-1.19.3" = _DRWBVCnE;
         "fabric-1.19.4" = _DRWBVCnE;
         "fabric-1.20" = _DRWBVCnE;
@@ -153,6 +165,7 @@ let
         "fabric-1.21.11" = _6Lgw1ymv;
         "fabric-26.1.2" = _hkBr1zqj;
         "fabric-26.2" = _sVqZuTsL;
+        "fabric-26.3" = _fJE8R52A;
         "quilt-1.19.3" = _DRWBVCnE;
         "quilt-1.19.4" = _DRWBVCnE;
         "quilt-1.20" = _DRWBVCnE;
@@ -171,6 +184,7 @@ let
         "neoforge-1.21.11" = _QXDGo914;
         "neoforge-26.1.2" = _dKVRB6ig;
         "neoforge-26.2" = _wO9siCj1;
+        "neoforge-26.3" = _N9Vg15bq;
         "pkg-1.0" = _DRWBVCnE;
         "pkg-1.1" = _H3nr4GzA;
         "pkg-1.1.1" = _WLdvfq5Q;
@@ -188,7 +202,9 @@ let
         "pkg-2.3.0+26.1.2-neoforge" = _dKVRB6ig;
         "pkg-2.3.0+26.2-fabric" = _sVqZuTsL;
         "pkg-2.3.0+26.2-neoforge" = _wO9siCj1;
-        "default" = _wO9siCj1;
+        "pkg-2.3.1+26.3-fabric" = _fJE8R52A;
+        "pkg-2.3.1+26.3-neoforge" = _N9Vg15bq;
+        "default" = _N9Vg15bq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "eg-invisible-frames";

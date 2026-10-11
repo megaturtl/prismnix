@@ -136,6 +136,11 @@ let
             "file" = "AgeingSpawners-26.2-12.0.0.jar";
             "hash" = "sha512-vvymKOPPPdyq1AqXNUELfsxuFdJKeFjvLy53MyFfEmKsmd5NLIPGdh7P/4JczLAheYs3twOReehhoznIG3bAcg==";
         };
+        _RqwYwtE1 = {
+            "id" = "RqwYwtE1";
+            "file" = "AgeingSpawners-26.3-13.0.0.jar";
+            "hash" = "sha512-POJskXcRsr7OcAykFKWw+wcnO6FlM6yP+X7GlbYZFg4gWx6RIpIxsRX6dN85hWXQncIzjss3ySFhtQtkV/eycg==";
+        };
     in {
         "OmuVWSmW" = _OmuVWSmW;
         "sH8W9wPv" = _sH8W9wPv;
@@ -164,6 +169,7 @@ let
         "RGGByfrt" = _RGGByfrt;
         "CfPBJn4f" = _CfPBJn4f;
         "VpBxJkAf" = _VpBxJkAf;
+        "RqwYwtE1" = _RqwYwtE1;
         "forge-1.12.2" = _OmuVWSmW;
         "forge-1.14.4" = _sH8W9wPv;
         "forge-1.15.2" = _pORyKAP0;
@@ -189,6 +195,7 @@ let
         "neoforge-1.21.11" = _RGGByfrt;
         "neoforge-26.1.2" = _CfPBJn4f;
         "neoforge-26.2" = _VpBxJkAf;
+        "neoforge-26.3" = _RqwYwtE1;
         "pkg-1.0.0" = _OmuVWSmW;
         "pkg-1.0.1.0" = _sH8W9wPv;
         "pkg-1.0.1.1" = _pORyKAP0;
@@ -214,7 +221,8 @@ let
         "pkg-10.0.0" = _RGGByfrt;
         "pkg-11.0.0" = _CfPBJn4f;
         "pkg-12.0.0" = _VpBxJkAf;
-        "default" = _VpBxJkAf;
+        "pkg-13.0.0" = _RqwYwtE1;
+        "default" = _RqwYwtE1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ageing-spawners";

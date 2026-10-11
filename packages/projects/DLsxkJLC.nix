@@ -131,6 +131,11 @@ let
             "file" = "tsa-decorations-2.2.2+26.1.2.jar";
             "hash" = "sha512-zHjyYdX70pmtqmqWx+lSYxvkj1SM73egea8iGS8EDdK4ctfw88NbnT+grJLWumG0A82uxJ6PwpW1xlkQX43aEQ==";
         };
+        _3iPJJLuP = {
+            "id" = "3iPJJLuP";
+            "file" = "tsa-decorations-2.3.0+26.3.jar";
+            "hash" = "sha512-IhCkVygOPZ4vkJGQAxYPJGup769yft6FYGJVBj63Kiy8fuXFew+xy3KwO67NjnMZOEMzVGakno0l2IkayYN1yQ==";
+        };
     in {
         "isjmJBbH" = _isjmJBbH;
         "6ZTgJhoO" = _6ZTgJhoO;
@@ -158,6 +163,7 @@ let
         "mSOjjxo6" = _mSOjjxo6;
         "xoYudMLS" = _xoYudMLS;
         "RTNvPMmQ" = _RTNvPMmQ;
+        "3iPJJLuP" = _3iPJJLuP;
         "fabric-1.21" = _nOuYwhh8;
         "fabric-1.21.1" = _SkKZAFtn;
         "fabric-1.21.2-rc1" = _u8Gjr9nC;
@@ -176,6 +182,7 @@ let
         "fabric-26.1" = _RTNvPMmQ;
         "fabric-26.1.1" = _RTNvPMmQ;
         "fabric-26.1.2" = _RTNvPMmQ;
+        "fabric-26.3" = _3iPJJLuP;
         "pkg-1.0.0+1.21-1.21.1" = _isjmJBbH;
         "pkg-2.0.0+1.21-1.21.1" = _6ZTgJhoO;
         "pkg-2.0.1+1.21-1.21.1" = _pKASOy3n;
@@ -202,7 +209,8 @@ let
         "pkg-2.2.0+26.1" = _mSOjjxo6;
         "pkg-2.2.1+26.1" = _xoYudMLS;
         "pkg-2.2.2+26.1.2" = _RTNvPMmQ;
-        "default" = _RTNvPMmQ;
+        "pkg-2.3.0+26.3" = _3iPJJLuP;
+        "default" = _3iPJJLuP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tsa-decorations";

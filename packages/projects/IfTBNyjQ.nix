@@ -71,6 +71,11 @@ let
             "file" = "bannerpoint-1.1.2+26.1.2-fabric.jar";
             "hash" = "sha512-A2xwwfsvdQey3cDee9Fs8J+Cs1QiKdZhzDJERO6TdQDP7xq/jXrdMS932OKqNKW8qlIIo/kZq45Tk5MCi+SYkA==";
         };
+        _Vrns75Ns = {
+            "id" = "Vrns75Ns";
+            "file" = "bannerpoint-fabric-1.1.2+26.3.jar";
+            "hash" = "sha512-YldWnQqScxLprwa6fvcmvVvYXCq5weVhacyiKumR3PZ7WUAELPDYm3mtt1Z5Be4+nRTdDxztMkEWkIE2eCFFNw==";
+        };
     in {
         "Hsq1k643" = _Hsq1k643;
         "5RjeuYc4" = _5RjeuYc4;
@@ -86,6 +91,7 @@ let
         "CMMC0LWF" = _CMMC0LWF;
         "OBdlldFM" = _OBdlldFM;
         "mpLMOgvG" = _mpLMOgvG;
+        "Vrns75Ns" = _Vrns75Ns;
         "neoforge-26.1.2" = _OBdlldFM;
         "fabric-26.1.2" = _mpLMOgvG;
         "fabric-1.21.6" = _rfYnu96e;
@@ -95,6 +101,7 @@ let
         "fabric-1.21.10" = _rfYnu96e;
         "fabric-1.21.11" = _rfYnu96e;
         "fabric-26.2" = _mpLMOgvG;
+        "fabric-26.3" = _Vrns75Ns;
         "pkg-1.0.0+26.1.2-neoforge" = _Hsq1k643;
         "pkg-1.0.0+26.1.2-fabric" = _5RjeuYc4;
         "pkg-1.0.1+26.1.2-neoforge" = _qPqNGuny;
@@ -109,7 +116,8 @@ let
         "pkg-1.1.1+26.1.2-fabric" = _CMMC0LWF;
         "pkg-1.1.2+26.1.2-neoforge" = _OBdlldFM;
         "pkg-1.1.2+26.1.2-fabric" = _mpLMOgvG;
-        "default" = _mpLMOgvG;
+        "pkg-1.1.2+26.3" = _Vrns75Ns;
+        "default" = _Vrns75Ns;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bannerpoint";

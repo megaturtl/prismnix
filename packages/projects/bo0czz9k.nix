@@ -131,6 +131,26 @@ let
             "file" = "zombiesutils-2.7.1.jar";
             "hash" = "sha512-7wVCGaqQDAjIq7uAGmsrrKbC4I8U9WftJqo5H9GHaW5to9EqLK4rpb960ltonnRUwYe5ch1R2g5JH3zcmE0AKQ==";
         };
+        _lTvQPYYP = {
+            "id" = "lTvQPYYP";
+            "file" = "zombiesutils-3.0.1.jar";
+            "hash" = "sha512-z3aZsVXJrle9tZ5hUhSr9/8W/ZR13hS4k0X9q1iB8m75wqWmOtGXTh1I/RvT6sGkzUEPZLgN3fNb+Fi6lyCrlQ==";
+        };
+        _cmYFWiJm = {
+            "id" = "cmYFWiJm";
+            "file" = "zombiesutils-3.0.2.jar";
+            "hash" = "sha512-GXKOM//eLnBOrgHl/q3j8eA3Glpvpzxq80tw4iSWKzKe/cjU1D20CQUjjXSQHAt0iV7uCnfRxN6MZ5y8mwzL7g==";
+        };
+        _EKzN6YGV = {
+            "id" = "EKzN6YGV";
+            "file" = "zombiesutils-3.0.3.jar";
+            "hash" = "sha512-3hNA2j0ZzJ4cEZ0/M9DMHr/bgXXC6Qc/ARaDF5TlHzKMkDfNwptFH/BC5/ibsFmZjq8idguL2C9POcwEknqO7Q==";
+        };
+        _LYdIxtUM = {
+            "id" = "LYdIxtUM";
+            "file" = "zombiesutils-3.0.4.jar";
+            "hash" = "sha512-RahzBshHYBtmWdgDHsT4ckqS+jWeN071ql8sE+lvFq95rgcvWeuI1sYmmiIi5HJxkX6An0jtMqGsoesDLEcezw==";
+        };
     in {
         "n8tDXyB7" = _n8tDXyB7;
         "j7Rnzrrl" = _j7Rnzrrl;
@@ -158,10 +178,15 @@ let
         "5JkiI2eH" = _5JkiI2eH;
         "upK8ydQs" = _upK8ydQs;
         "3hlx8ED1" = _3hlx8ED1;
+        "lTvQPYYP" = _lTvQPYYP;
+        "cmYFWiJm" = _cmYFWiJm;
+        "EKzN6YGV" = _EKzN6YGV;
+        "LYdIxtUM" = _LYdIxtUM;
         "forge-1.8.9" = _GlaTWEXV;
         "fabric-1.21.11" = _XupjvkIu;
         "fabric-26.1.2" = _GCPJI4ga;
         "fabric-26.2" = _3hlx8ED1;
+        "fabric-26.3" = _LYdIxtUM;
         "pkg-1.3.6" = _n8tDXyB7;
         "pkg-1.3.7-PRE_1" = _j7Rnzrrl;
         "pkg-1.3.7-PRE_2" = _89devLxj;
@@ -188,7 +213,11 @@ let
         "pkg-2.6.1" = _5JkiI2eH;
         "pkg-2.7.0" = _upK8ydQs;
         "pkg-2.7.1" = _3hlx8ED1;
-        "default" = _3hlx8ED1;
+        "pkg-3.0.1" = _lTvQPYYP;
+        "pkg-3.0.2" = _cmYFWiJm;
+        "pkg-3.0.3" = _EKzN6YGV;
+        "pkg-3.0.4" = _LYdIxtUM;
+        "default" = _LYdIxtUM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zombies-utils";

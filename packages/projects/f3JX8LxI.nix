@@ -26,19 +26,26 @@ let
             "file" = "createadvancedoptimization-1.4.jar";
             "hash" = "sha512-VvxUV9Dkz/0wJTAzTD6iKVVBWCIZeGSgHSbFMcH1pgzCIUy3W8o0H7ztvDrcD7YkC0cMRSgl1igC0ND/6fBIyA==";
         };
+        _wBkaAnjm = {
+            "id" = "wBkaAnjm";
+            "file" = "createadvancedoptimization-1.5.jar";
+            "hash" = "sha512-ZiBeT45zBNRrgFKDtmI0vLNBYsDNZXMz92Xeclio4DYWcaUi3fFlQOFCcBTY1WkCdlZmSFfN8+hNCawmF9cyww==";
+        };
     in {
         "C4fLdXJF" = _C4fLdXJF;
         "uxRa9PDe" = _uxRa9PDe;
         "Z5l7iRCH" = _Z5l7iRCH;
         "YvlIw1hg" = _YvlIw1hg;
         "E7HYe1YY" = _E7HYe1YY;
-        "neoforge-1.21.1" = _E7HYe1YY;
+        "wBkaAnjm" = _wBkaAnjm;
+        "neoforge-1.21.1" = _wBkaAnjm;
         "pkg-1.0" = _C4fLdXJF;
         "pkg-1.1" = _uxRa9PDe;
         "pkg-1.2" = _Z5l7iRCH;
         "pkg-1.3" = _YvlIw1hg;
         "pkg-1.4" = _E7HYe1YY;
-        "default" = _E7HYe1YY;
+        "pkg-1.5" = _wBkaAnjm;
+        "default" = _wBkaAnjm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-advanced-optimization";

@@ -396,6 +396,16 @@ let
             "file" = "Statues-26.1.2-0.4.23.jar";
             "hash" = "sha512-xutsoqS9UbeJPfb+unHrgOAfrAfXajqiANGY/vksqlxAyNshzbqOetZ2HcXDEmOMu7buXsm+KcnPjAsktSurZg==";
         };
+        _IQGxijqa = {
+            "id" = "IQGxijqa";
+            "file" = "Statues-26.3-0.5.0.jar";
+            "hash" = "sha512-mYKDs2T0bm1BjmQvnBO9ZuvXLVWCkss3IZSvblrZ09D1I6e3gQIoY/JdK/SA6Sk3SEp/+pS9UVfnfiVCiGOYmw==";
+        };
+        _DWGoy8PX = {
+            "id" = "DWGoy8PX";
+            "file" = "Statues-26.3-0.5.1.jar";
+            "hash" = "sha512-I7GZjAPLycw0qvq/nrDJRtie56+hdHwDdqzokDMU325b9ZqZLVObhD62Hz2c47lHOZmy7IHrmyElJOQFvvQ27w==";
+        };
     in {
         "193TAy3o" = _193TAy3o;
         "2J2tIz3O" = _2J2tIz3O;
@@ -476,6 +486,8 @@ let
         "ekwrFMTH" = _ekwrFMTH;
         "wHtv3wxB" = _wHtv3wxB;
         "NqbJxOiA" = _NqbJxOiA;
+        "IQGxijqa" = _IQGxijqa;
+        "DWGoy8PX" = _DWGoy8PX;
         "forge-1.18.2" = _193TAy3o;
         "forge-1.18.1" = _2J2tIz3O;
         "forge-1.17.1" = _9zufRF62;
@@ -497,6 +509,7 @@ let
         "neoforge-1.21.10" = _40dpqUKF;
         "neoforge-1.21.11" = _d8ghFZGs;
         "neoforge-26.1.2" = _NqbJxOiA;
+        "neoforge-26.3" = _DWGoy8PX;
         "pkg-0.1.8.1" = _193TAy3o;
         "pkg-0.1.8.0" = _2J2tIz3O;
         "pkg-0.1.7.6" = _9zufRF62;
@@ -562,7 +575,9 @@ let
         "pkg-0.4.21" = _WmAxtpt0;
         "pkg-0.4.22" = _ekwrFMTH;
         "pkg-0.4.23" = _NqbJxOiA;
-        "default" = _NqbJxOiA;
+        "pkg-0.5.0" = _IQGxijqa;
+        "pkg-0.5.1" = _DWGoy8PX;
+        "default" = _DWGoy8PX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "statues";

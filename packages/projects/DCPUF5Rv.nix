@@ -641,6 +641,31 @@ let
             "file" = "car-neoforge-1.0.49+26.3.jar";
             "hash" = "sha512-fgnHtUUPO5m3Aks3ckxSDpxKDUTfG8uYvh3Kgbx292RVjJEpYE+DIJd5fpQsw3YZDn2gsNiodF9MzANs+9efng==";
         };
+        _JRYxmcrx = {
+            "id" = "JRYxmcrx";
+            "file" = "car-neoforge-1.0.50+26.3.jar";
+            "hash" = "sha512-25SQ25/Ah2thE7VRHgOm7tdLSJAwjz0tDQk6zzn+1WFoARuJqf+AkWofKctR1rQL6+oPHOLVYSdOzvbiF0BElg==";
+        };
+        _CexxeZQA = {
+            "id" = "CexxeZQA";
+            "file" = "car-neoforge-1.21.11-1.0.51.jar";
+            "hash" = "sha512-eeg7yGca7yVOzYk3ZcxQl0LZxnNhsCMdNWLSVhrvHHxk+DLuYAfDffr4CWnoKdClpTdmBIzZuoC3DZkI5Jez8Q==";
+        };
+        _sxRCYCZN = {
+            "id" = "sxRCYCZN";
+            "file" = "car-neoforge-1.0.51+26.1.2.jar";
+            "hash" = "sha512-yjlGUkMCjpJH9kWFlokIOG20bXXKMgoOMB16NVWDb+/W24hQeKLXz5KF6tmDQHT+3F1nHm4jX7JmefMOgfgtvg==";
+        };
+        _OQbj5KaW = {
+            "id" = "OQbj5KaW";
+            "file" = "car-neoforge-1.0.51+26.2.jar";
+            "hash" = "sha512-tMtyCMFFX/88+qydAis2jpOlf9yKis5ERb+1Qlv4l6+SmumVFPv10Px/lglHEYyInQc7/vpGeSEj1OXjuATZ2w==";
+        };
+        _cjUc0stg = {
+            "id" = "cjUc0stg";
+            "file" = "car-neoforge-1.0.51+26.3.jar";
+            "hash" = "sha512-yGzz/mlnvn2T+bdruGsyMYAGbnf4DcFssmJ5hlHNe5fHjY2xSM1mQzWyEQG5oReSWVefCIx3l7etCPsZJ6yF0w==";
+        };
     in {
         "Fw9OEj33" = _Fw9OEj33;
         "tHEzBiGM" = _tHEzBiGM;
@@ -770,6 +795,11 @@ let
         "mH3zZJ5c" = _mH3zZJ5c;
         "W17rUTH7" = _W17rUTH7;
         "fgKvA3LI" = _fgKvA3LI;
+        "JRYxmcrx" = _JRYxmcrx;
+        "CexxeZQA" = _CexxeZQA;
+        "sxRCYCZN" = _sxRCYCZN;
+        "OQbj5KaW" = _OQbj5KaW;
+        "cjUc0stg" = _cjUc0stg;
         "forge-1.19" = _FsFTULi4;
         "forge-1.19.1" = _EMP6hR7d;
         "forge-1.19.2" = _6kWHaaua;
@@ -795,12 +825,12 @@ let
         "neoforge-1.21.8" = _4nduyjB1;
         "neoforge-1.21.9" = _lapbhcJd;
         "neoforge-1.21.10" = _j4gwtvhL;
-        "neoforge-1.21.11" = _9oWrySlM;
+        "neoforge-1.21.11" = _CexxeZQA;
         "neoforge-26.1" = _RfJFbCpK;
         "neoforge-26.1.1" = _RfJFbCpK;
-        "neoforge-26.1.2" = _mH3zZJ5c;
-        "neoforge-26.2" = _W17rUTH7;
-        "neoforge-26.3" = _fgKvA3LI;
+        "neoforge-26.1.2" = _sxRCYCZN;
+        "neoforge-26.2" = _OQbj5KaW;
+        "neoforge-26.3" = _cjUc0stg;
         "pkg-forge-1.19-1.0.4" = _Fw9OEj33;
         "pkg-forge-1.19-1.0.5" = _tHEzBiGM;
         "pkg-forge-1.19-1.0.6" = _jJSn5bc1;
@@ -928,7 +958,12 @@ let
         "pkg-neoforge-1.0.49+26.1.2" = _mH3zZJ5c;
         "pkg-neoforge-1.0.49+26.2" = _W17rUTH7;
         "pkg-neoforge-1.0.49+26.3" = _fgKvA3LI;
-        "default" = _fgKvA3LI;
+        "pkg-neoforge-1.0.50+26.3" = _JRYxmcrx;
+        "pkg-neoforge-1.21.11-1.0.51" = _CexxeZQA;
+        "pkg-neoforge-1.0.51+26.1.2" = _sxRCYCZN;
+        "pkg-neoforge-1.0.51+26.2" = _OQbj5KaW;
+        "pkg-neoforge-1.0.51+26.3" = _cjUc0stg;
+        "default" = _cjUc0stg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ultimate-car-mod";

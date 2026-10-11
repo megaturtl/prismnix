@@ -366,6 +366,11 @@ let
             "file" = "healingbed 26.2 (neoforge).jar";
             "hash" = "sha512-6v3MZR5bSW/kSUorvwPZE9303w8XPInJkrebNYU1E5x39fveKpCplM+QZF1Z64rLBFD7lxWzHNCtBgVBfyVAWQ==";
         };
+        _8m3Hc9A3 = {
+            "id" = "8m3Hc9A3";
+            "file" = "HealingBed 26.3.zip";
+            "hash" = "sha512-YWx6AxyHiv+0VgkYBhURx0dZ319GfdfNPG+/RSPKRpH418wNkId+rxe4wZM7ds0MnU+KVPUt6ZqtLvd++We5CA==";
+        };
     in {
         "6kwjBAvc" = _6kwjBAvc;
         "k2s0l6Sb" = _k2s0l6Sb;
@@ -440,6 +445,7 @@ let
         "h6vwx7w4" = _h6vwx7w4;
         "N2pld2GD" = _N2pld2GD;
         "4SWfTP8U" = _4SWfTP8U;
+        "8m3Hc9A3" = _8m3Hc9A3;
         "forge-1.12.2" = _6kwjBAvc;
         "forge-1.13.2" = _k2s0l6Sb;
         "forge-1.14.2" = _tovvnxL3;
@@ -544,6 +550,7 @@ let
         "datapack-26.1.1" = _E7nr5Vs0;
         "datapack-26.1.2" = _E7nr5Vs0;
         "datapack-26.2" = _E7nr5Vs0;
+        "datapack-26.3" = _8m3Hc9A3;
         "pkg-1.12.2" = _6kwjBAvc;
         "pkg-1.13.2" = _k2s0l6Sb;
         "pkg-1.14.2" = _tovvnxL3;
@@ -593,7 +600,8 @@ let
         "pkg-26.1.1" = _I2E5eGyn;
         "pkg-26.1" = _zzk67DqV;
         "pkg-26.2" = _4SWfTP8U;
-        "default" = _4SWfTP8U;
+        "pkg-26.3" = _8m3Hc9A3;
+        "default" = _8m3Hc9A3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "healingbed";

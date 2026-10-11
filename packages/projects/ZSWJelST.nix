@@ -246,6 +246,21 @@ let
             "file" = "stella-1.0.6+26.2-b4.jar";
             "hash" = "sha512-UG3OZmbbru5SK6s6Lps7St79FcCgmd3zbKD6woa2mNdinVqs4CYc14NzmlA7X/yPC1MJK34VgHHnV/xd6t109w==";
         };
+        _WE8pAf58 = {
+            "id" = "WE8pAf58";
+            "file" = "stella-1.0.6+26.1.jar";
+            "hash" = "sha512-Lf2aE8bceL4nKmpYA+42lWLcxq6b04kEDzgdirvpfIxz3BKAs+rlktk7WNZI1HdV/hfC4OSYhHGMS0U5nzjxkA==";
+        };
+        _b6oorMUh = {
+            "id" = "b6oorMUh";
+            "file" = "stella-1.0.6+26.2.jar";
+            "hash" = "sha512-Xltga1EJXe9M93bAlnCEFRHYDBJlPo/a+CHmzf2n1dsc/8mEo8tR0oJI4GryBNtopnIWdO127Ch3fH0woQfuTw==";
+        };
+        _JBCUdY1D = {
+            "id" = "JBCUdY1D";
+            "file" = "stella-1.0.6+26.3.jar";
+            "hash" = "sha512-LlJahPGZ2xeS5RekMEhQZODRf9s+fTnmb7L1kKKFl08OmGRkEbiZFYD+C1tdoPP9obI4F06Z4uONQvg2lPzmMg==";
+        };
     in {
         "2ZODNrHP" = _2ZODNrHP;
         "SWjgSFfv" = _SWjgSFfv;
@@ -296,24 +311,28 @@ let
         "Ah23XVY2" = _Ah23XVY2;
         "Ax39gj7z" = _Ax39gj7z;
         "hhLUIC3p" = _hhLUIC3p;
+        "WE8pAf58" = _WE8pAf58;
+        "b6oorMUh" = _b6oorMUh;
+        "JBCUdY1D" = _JBCUdY1D;
         "forge-1.8.9" = _66yqhuKa;
         "fabric-1.21.7" = _8RyBLhU5;
         "fabric-1.21.8" = _Zp9PJ8be;
         "fabric-1.21.10" = _3qtCnlrB;
         "fabric-1.21.9" = _3qtCnlrB;
         "fabric-1.21.11" = _4jOXsLG0;
-        "fabric-26.1" = _Ax39gj7z;
-        "fabric-26.1.1" = _Ax39gj7z;
-        "fabric-26.1.2" = _Ax39gj7z;
-        "fabric-26.2" = _hhLUIC3p;
+        "fabric-26.1" = _WE8pAf58;
+        "fabric-26.1.1" = _WE8pAf58;
+        "fabric-26.1.2" = _WE8pAf58;
+        "fabric-26.2" = _b6oorMUh;
+        "fabric-26.3" = _JBCUdY1D;
         "pkg-1.0.0" = _2ZODNrHP;
         "pkg-1.0.1" = _PBPHIi9q;
         "pkg-1.0.2" = _66yqhuKa;
         "pkg-1.0.3" = _oinzMikS;
         "pkg-1.0.4" = _autVta9p;
         "pkg-1.0.5" = _rULp6nFp;
-        "pkg-1.0.6" = _hhLUIC3p;
-        "default" = _hhLUIC3p;
+        "pkg-1.0.6" = _JBCUdY1D;
+        "default" = _JBCUdY1D;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stella";

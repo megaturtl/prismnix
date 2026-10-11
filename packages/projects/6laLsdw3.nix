@@ -261,6 +261,26 @@ let
             "file" = "simple-world-downloader-1.5.4+26.3.jar";
             "hash" = "sha512-fly+BU9Ik9ap/uAPZzQLO4V4r0BCVk9H9Tb8b4sstDSbduqEi2A28YY0XQqY8NjAN1MJDpwMWMrnxNUvXAgqtA==";
         };
+        _4kYfeKeN = {
+            "id" = "4kYfeKeN";
+            "file" = "simple-world-downloader-fabric-1.5.5+26.3.jar";
+            "hash" = "sha512-xImBleH5x/l8lVpl4MW/chFPsnNqi2h4SNRKateAej05fS4cm0mlvHKTyRL99D2tcnH5HSDdHYyfhLjRP+PEiw==";
+        };
+        _uxMS4tGs = {
+            "id" = "uxMS4tGs";
+            "file" = "simple-world-downloader-neoforge-1.5.5+26.3.jar";
+            "hash" = "sha512-ARj5vc2qJzbROB5xdLu9TJCpCBNavMkgs9sceJGLWv+ZJFsKTEy55QrnsuD61np1EkxMPBjdazp/iElZtY+bXg==";
+        };
+        _xRRMwe16 = {
+            "id" = "xRRMwe16";
+            "file" = "simple-world-downloader-fabric-1.5.6+26.3.jar";
+            "hash" = "sha512-Z5rPm3RanjJt5FqFn4urddujFxA3F9KLsWxE/8/ItDgIIk785b445RmrNayXmwo6L9Ip04OupupK8XlaDKnzMQ==";
+        };
+        _XkkVm0Dz = {
+            "id" = "XkkVm0Dz";
+            "file" = "simple-world-downloader-neoforge-1.5.6+26.3.jar";
+            "hash" = "sha512-33HyrrnuAc25ABLi8sZEkQNKZOmyzKWu0TbC/qlVZCwxeWk0pKEGCGjtKFOjNnrXqP2zKLYwAKa40jR+aO4yCw==";
+        };
     in {
         "sf385nKS" = _sf385nKS;
         "E8VwjjID" = _E8VwjjID;
@@ -314,6 +334,10 @@ let
         "Vn8YdZVM" = _Vn8YdZVM;
         "hqobyJD8" = _hqobyJD8;
         "9dKkSaGA" = _9dKkSaGA;
+        "4kYfeKeN" = _4kYfeKeN;
+        "uxMS4tGs" = _uxMS4tGs;
+        "xRRMwe16" = _xRRMwe16;
+        "XkkVm0Dz" = _XkkVm0Dz;
         "fabric-1.21.10" = _hf1qs30B;
         "fabric-1.21.9" = _3USGTzaE;
         "fabric-1.21.8" = _8AOJKAFu;
@@ -343,7 +367,8 @@ let
         "fabric-26.1.2" = _t1f5BrNv;
         "fabric-26.2" = _Vn8YdZVM;
         "fabric-26.3-rc-2" = _hqobyJD8;
-        "fabric-26.3" = _9dKkSaGA;
+        "fabric-26.3" = _xRRMwe16;
+        "neoforge-26.3" = _XkkVm0Dz;
         "pkg-1.0.0+1.21.10" = _sf385nKS;
         "pkg-1.0.0+1.21.9" = _E8VwjjID;
         "pkg-1.1.0+1.21.9" = _3USGTzaE;
@@ -396,7 +421,9 @@ let
         "pkg-1.5.4+26.2" = _Vn8YdZVM;
         "pkg-1.5.4+26.3-rc2" = _hqobyJD8;
         "pkg-1.5.4+26.3" = _9dKkSaGA;
-        "default" = _9dKkSaGA;
+        "pkg-1.5.5+26.3" = _uxMS4tGs;
+        "pkg-1.5.6+26.3" = _XkkVm0Dz;
+        "default" = _XkkVm0Dz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-world-downloader";

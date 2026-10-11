@@ -26,12 +26,18 @@ let
             "file" = "rainbow_buttons_v1.3.zip";
             "hash" = "sha512-yQNxgHyRDr91OUG90+QHNSkc6vLNQiyRSFosV6XlD9n9BUdrvNhkoThvBw2REOr+fEaD5GAiQ/9BicxV06F7jQ==";
         };
+        _SucCD2Im = {
+            "id" = "SucCD2Im";
+            "file" = "rainbow_buttons_v1.3_26.3.zip";
+            "hash" = "sha512-yQNxgHyRDr91OUG90+QHNSkc6vLNQiyRSFosV6XlD9n9BUdrvNhkoThvBw2REOr+fEaD5GAiQ/9BicxV06F7jQ==";
+        };
     in {
         "umgv3b0d" = _umgv3b0d;
         "zCiacuFH" = _zCiacuFH;
         "YVXoXNDQ" = _YVXoXNDQ;
         "1m8ILyKe" = _1m8ILyKe;
         "e6HT1Toh" = _e6HT1Toh;
+        "SucCD2Im" = _SucCD2Im;
         "minecraft-1.21.5" = _e6HT1Toh;
         "minecraft-1.20.2" = _e6HT1Toh;
         "minecraft-1.20.3" = _e6HT1Toh;
@@ -52,12 +58,12 @@ let
         "minecraft-26.1" = _e6HT1Toh;
         "minecraft-26.1.1" = _e6HT1Toh;
         "minecraft-26.1.2" = _e6HT1Toh;
-        "minecraft-26.2" = _e6HT1Toh;
+        "minecraft-26.2" = _SucCD2Im;
         "pkg-1.0" = _umgv3b0d;
         "pkg-1.1" = _YVXoXNDQ;
         "pkg-1.2" = _1m8ILyKe;
-        "pkg-v1.3" = _e6HT1Toh;
-        "default" = _e6HT1Toh;
+        "pkg-v1.3" = _SucCD2Im;
+        "default" = _SucCD2Im;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rainbow-buttons";

@@ -51,6 +51,11 @@ let
             "file" = "autofarm-1.1.2-1.21.8.jar";
             "hash" = "sha512-kQJSFIToZCs8tfkR1t5idYEomqCvjzMtLgq1Qz9Z8myvnF0cJTc15iGMmiaSRK+MXxaoWoAi/MxKz3qEY6UUjw==";
         };
+        _iuWTtRjO = {
+            "id" = "iuWTtRjO";
+            "file" = "autofarm-1.1.3-26.3.jar";
+            "hash" = "sha512-nYC2i9grW1nrxMAeru1lShPyM6Ni0MEPGkFVlnOADdl+X598w4BW8iOIj7viWRaUghRUplcOX9imF6GeZ0CaeA==";
+        };
     in {
         "IFWRYvKl" = _IFWRYvKl;
         "G65tGZSm" = _G65tGZSm;
@@ -62,11 +67,13 @@ let
         "N2FH8rrX" = _N2FH8rrX;
         "2yVokCOC" = _2yVokCOC;
         "7Ep3MqYD" = _7Ep3MqYD;
+        "iuWTtRjO" = _iuWTtRjO;
         "fabric-1.21.4" = _G65tGZSm;
         "fabric-1.21.7" = _2yVokCOC;
         "fabric-1.21.6" = _N2FH8rrX;
         "fabric-1.21.5" = _8kz0pwqa;
         "fabric-1.21.8" = _7Ep3MqYD;
+        "fabric-26.3" = _iuWTtRjO;
         "pkg-1.0.0" = _IFWRYvKl;
         "pkg-1.0.1" = _G65tGZSm;
         "pkg-1.1.0-1.21.7" = _tlHTbtOz;
@@ -77,7 +84,8 @@ let
         "pkg-1.1.2-1.21.6" = _N2FH8rrX;
         "pkg-1.1.2-1.21.7" = _2yVokCOC;
         "pkg-1.1.2-1.21.8" = _7Ep3MqYD;
-        "default" = _7Ep3MqYD;
+        "pkg-1.1.3-26.3" = _iuWTtRjO;
+        "default" = _iuWTtRjO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "autofarming-mod";

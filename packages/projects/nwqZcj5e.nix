@@ -356,6 +356,41 @@ let
             "file" = "FSang18's Heroes v12.4.1.jar";
             "hash" = "sha512-b34VM8OTvq6ZHvXWduXC7a8PsmbRE2ZGSrA9+x25Fm3FBFtKF2/yn/xjUQubHSoILgYc66XVqjxvHwNPw65p0g==";
         };
+        _UWpMZPxH = {
+            "id" = "UWpMZPxH";
+            "file" = "FSang18's Heroes v12.5.0.jar";
+            "hash" = "sha512-BJjvNOIfujHjh3trBD9n0SLrq+rTZBPO+du+m58aSTMVSyKtQKjSRBdhFq9tFs97qBgZvJnndinYw8Ln160+tg==";
+        };
+        _ooRBScvk = {
+            "id" = "ooRBScvk";
+            "file" = "FSang18's Heroes v12.5.1.jar";
+            "hash" = "sha512-GAlvsu3rUeAV/RhVx8bA58THoONiucrCNDqsk9xQQdL4P2I4j2u8L2ewUq1rXkHf5LT2p83EPLBvNpbz5LcX1w==";
+        };
+        _yy6vkmaC = {
+            "id" = "yy6vkmaC";
+            "file" = "FSang18's Heroes v12.5.2.jar";
+            "hash" = "sha512-2bkmNht8o60+zMyU/VJ/wbnemUa2WEl6mSXloZJPqLFc/ZBw99PtqDqjHtG8hKHDSXNjMws3YyQEOxPOio7V8g==";
+        };
+        _3RlFU4vW = {
+            "id" = "3RlFU4vW";
+            "file" = "FSang18's Heroes v12.5.3.jar";
+            "hash" = "sha512-ku6iufK20Au9w5OueZAioQcjQ8H9tDlFqh3Acf/6O9HCC3ejK3oDYPxsEAR7k6jPbE3nQGfia1ozeOYnrqw34w==";
+        };
+        _snqkzIJS = {
+            "id" = "snqkzIJS";
+            "file" = "FSang18's Heroes v12.5.4.jar";
+            "hash" = "sha512-UIyUyWCNLTQ/0Jb/Kxb2P8BsdmlPgl1+4d/sIdJpRjtHWHrdwurvSm4EmN5bHxqk2iVmQPofZ9nXIkT6mqJ3zg==";
+        };
+        _1NmA9g5Z = {
+            "id" = "1NmA9g5Z";
+            "file" = "FSang18's Heroes v12.5.5.jar";
+            "hash" = "sha512-S8UHuU6YXMgNbIR8vPiWk9Vz1cy56285ThNfllG37i8FThXOg3a0m1HD5awiOuPGxD2D7aPue8f3WVgCPoTVTg==";
+        };
+        _p7LgYiSN = {
+            "id" = "p7LgYiSN";
+            "file" = "FSang18's Heroes v12.5.6.jar";
+            "hash" = "sha512-hGjNLuqoa/BkorRNKptbEzH70fRfRlAQHJU+8NIa5W5KPxzKeZiBfqSbfjlJWEN464unG555l9qGFD+B4wP13Q==";
+        };
     in {
         "2zVRSAHD" = _2zVRSAHD;
         "qKUKmDU0" = _qKUKmDU0;
@@ -428,8 +463,15 @@ let
         "ZXJkBQpY" = _ZXJkBQpY;
         "TKQUtoca" = _TKQUtoca;
         "hcSF2L2B" = _hcSF2L2B;
+        "UWpMZPxH" = _UWpMZPxH;
+        "ooRBScvk" = _ooRBScvk;
+        "yy6vkmaC" = _yy6vkmaC;
+        "3RlFU4vW" = _3RlFU4vW;
+        "snqkzIJS" = _snqkzIJS;
+        "1NmA9g5Z" = _1NmA9g5Z;
+        "p7LgYiSN" = _p7LgYiSN;
         "datapack-1.20.1" = _KIHcDRUL;
-        "forge-1.20.1" = _hcSF2L2B;
+        "forge-1.20.1" = _p7LgYiSN;
         "neoforge-1.20.1" = _jWK2A8cd;
         "fabric-1.20.1" = _6V5EVObG;
         "pkg-1.0" = _2zVRSAHD;
@@ -503,7 +545,14 @@ let
         "pkg-12.3.1" = _ZXJkBQpY;
         "pkg-12.4.0" = _TKQUtoca;
         "pkg-12.4.1" = _hcSF2L2B;
-        "default" = _hcSF2L2B;
+        "pkg-12.5.0" = _UWpMZPxH;
+        "pkg-12.5.1" = _ooRBScvk;
+        "pkg-12.5.2" = _yy6vkmaC;
+        "pkg-12.5.3" = _3RlFU4vW;
+        "pkg-12.5.4" = _snqkzIJS;
+        "pkg-12.5.5" = _1NmA9g5Z;
+        "pkg-12.5.6" = _p7LgYiSN;
+        "default" = _p7LgYiSN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fsang18s-heropack";

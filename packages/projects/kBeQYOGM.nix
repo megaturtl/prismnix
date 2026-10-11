@@ -251,6 +251,11 @@ let
             "file" = "HexaBiome-{Premium}[3.0][26.2].zip";
             "hash" = "sha512-TX1jtOKKXJJN8sRfBMpxPRDVL9SAYB+bECvxKtrP5wT+vwWmORaqxnr/me61+AddYHaEHAn7DU5jpP4YodRO9Q==";
         };
+        _Dz1KePBp = {
+            "id" = "Dz1KePBp";
+            "file" = "HexaBiome-{Premium}[3.0][26.3].zip";
+            "hash" = "sha512-ZESJqU+WXt/brf22Za5pWsROfOw/eYCmGK5pAw+iPyYdkdyAQRH2Eop4Bzu7AOS2httVx+qNi8Tx3hh9yIKvOQ==";
+        };
     in {
         "C7UgQyaa" = _C7UgQyaa;
         "C6sfbxEb" = _C6sfbxEb;
@@ -302,6 +307,7 @@ let
         "VOx04quS" = _VOx04quS;
         "u9hdJcVQ" = _u9hdJcVQ;
         "IPTA4V7S" = _IPTA4V7S;
+        "Dz1KePBp" = _Dz1KePBp;
         "minecraft-1.16" = _viDVI30O;
         "minecraft-1.16.1" = _viDVI30O;
         "minecraft-1.16.2" = _viDVI30O;
@@ -341,6 +347,8 @@ let
         "minecraft-26.1.1" = _u9hdJcVQ;
         "minecraft-26.1.2" = _u9hdJcVQ;
         "minecraft-26.2" = _IPTA4V7S;
+        "minecraft-26.3" = _Dz1KePBp;
+        "minecraft-26.4-snapshot-1" = _Dz1KePBp;
         "pkg-1.16" = _C7UgQyaa;
         "pkg-1.17" = _C6sfbxEb;
         "pkg-1.18" = _wlekxsuK;
@@ -357,8 +365,8 @@ let
         "pkg-1.21.5" = _j7TnEAa4;
         "pkg-2" = _pS5xHhfG;
         "pkg-2.0" = _avFpo8Qb;
-        "pkg-3.0" = _IPTA4V7S;
-        "default" = _IPTA4V7S;
+        "pkg-3.0" = _Dz1KePBp;
+        "default" = _Dz1KePBp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hexabiome-premium";

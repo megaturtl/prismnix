@@ -131,6 +131,76 @@ let
             "file" = "AllTheHeads-v26.2.2-mc26.2.x-Fabric.jar";
             "hash" = "sha512-mQYXUhdyz8yy/HxXXB/bl8xRm8lwWUriZc95OM5SkgBfXb74ebmgw5XI1N+YX4Pz5jaPy/GmsDnk0jlVsuqpuw==";
         };
+        _Cn844p4k = {
+            "id" = "Cn844p4k";
+            "file" = "alltheheads-v26.1.3-mc26.1.x+neoforge.jar";
+            "hash" = "sha512-SQtice/satnKf0zosgjNo0Kad51GYXbEyu+/9HkkG8zSORN8HRHSSiYCEuuvZr3X0fNinxrDtGdWdMPHsM65nA==";
+        };
+        _VYzqKd6z = {
+            "id" = "VYzqKd6z";
+            "file" = "alltheheads-v26.1.3-mc26.1.x+fabric.jar";
+            "hash" = "sha512-w1AAiZdu0mBFXagAWjKlnfuhV8jQ9FN10e6NoZ4v5T1i89Bo59HLA50QyZ6ARQsuqgvtRAmeGKM8t5EX6a+2Fw==";
+        };
+        _ZuEvOW4M = {
+            "id" = "ZuEvOW4M";
+            "file" = "alltheheads-v26.2.3-mc26.2.x+neoforge.jar";
+            "hash" = "sha512-lKj8GgTaYgv0iNvdtOmmyRlJGdUO7NG8T6QAjGK+SZNGwmh8n6WoY+ZU4PBFHxM3oMrz2yyuMkLmKn6z4VP1Aw==";
+        };
+        _bsIRZnLd = {
+            "id" = "bsIRZnLd";
+            "file" = "alltheheads-v26.2.3-mc26.2.x+fabric.jar";
+            "hash" = "sha512-dtGmiOny8wrw18PQRueuxrSl4RPKIvuve195uaNpaoWzRm2B5lJEbrjzPJY9p2t1hQLT+bvrKuWa2lGruaXMuw==";
+        };
+        _GoFKoDhz = {
+            "id" = "GoFKoDhz";
+            "file" = "alltheheads-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-0JpZkW2Ma+VWpnsKnOeDusksl5XbwMRMEOnkZ9LSl7w8TkweRxYzdlQlPtq4GXT7sTmPUHPfs6NiOB4bK/WSqQ==";
+        };
+        _hcqKhcf6 = {
+            "id" = "hcqKhcf6";
+            "file" = "alltheheads-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-yS5ReaNcbzSQmuwi88z/kjAgK9TwV31Yhq8S/RRi3FJubZ1k2iv0xLyF8VLcYvpIKr8nBCBVaOyPQ90geR8bPg==";
+        };
+        _CqGTlJQJ = {
+            "id" = "CqGTlJQJ";
+            "file" = "alltheheads-v26.3.1-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-g2Ef89rCxYySD1Vq1xaIc/S5IJs0rqOTUdC/f8lUwsllvntJHrUu2WiYyEij9G4DgOVKb9gZfxyRugN/V4Tv2A==";
+        };
+        _9yiQy3Iz = {
+            "id" = "9yiQy3Iz";
+            "file" = "alltheheads-v26.3.1-mc26.3.x+fabric.jar";
+            "hash" = "sha512-MEScQ97X1T3p/G/K32mIkmXP3sl065bXYy098IUj5xww6xQz7467YtBsXUvFQ9LXuE/mIALcC1iCRlnAI1bEdA==";
+        };
+        _U4JITmFR = {
+            "id" = "U4JITmFR";
+            "file" = "alltheheads-v26.3.2-mc26.3.x+fabric.jar";
+            "hash" = "sha512-ZmK5Lr9XLhkZ8GhpbhgkZH2zTK8YwBxZn+iyb2HJnkMVHcXTX6Cd2OVn/yLU8fzz01LKT5Hy1g75AiJuGFWF6g==";
+        };
+        _tuvpAVw8 = {
+            "id" = "tuvpAVw8";
+            "file" = "alltheheads-v26.3.2-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-v4iPT6RVJEiGPWetxjI9ofu4DxxUc9dIAp2OEMENYj0Vi2RcYrpJuQ74P/3yu3pMHF460MXv/stpvBTVU/c84A==";
+        };
+        _GJU8vmnF = {
+            "id" = "GJU8vmnF";
+            "file" = "alltheheads-v26.1.4-mc26.1.x+fabric.jar";
+            "hash" = "sha512-oDtritZdgVv2hUQjkd37vD/W2A3QUFRA3arDkwpnRGve+6ul/Sq9F9u3cmOrIYLZZb9h2RR5oNPQm5QFDJVmWQ==";
+        };
+        _tKWWSsUt = {
+            "id" = "tKWWSsUt";
+            "file" = "alltheheads-v26.1.4-mc26.1.x+neoforge.jar";
+            "hash" = "sha512-BC9orPUh4a+4ShstURPdF3y1Mz/7yoR+93nBRCQaZnZKt0eQ8hB05dLm5b+T3rSMGCMLJ7aE5P6NcmGgw61Glw==";
+        };
+        _sqescOYO = {
+            "id" = "sqescOYO";
+            "file" = "AllTheHeads-v21.1.2-mc1.21.1-NeoForge.jar";
+            "hash" = "sha512-2Pf49POany/BKemEvFeLvuWKg1jz2a5f5ukx0TZK5DynAqNzTZZW5PGUPO3yKgQYog+C98iNVtuuv3bBkvxx+A==";
+        };
+        _wEvm9Abo = {
+            "id" = "wEvm9Abo";
+            "file" = "AllTheHeads-v21.1.2-mc1.21.1-Fabric.jar";
+            "hash" = "sha512-0JuXsHxrNOSB9s29E2zGM//LaKZ3JebIGu1d6PT1B08/SASXhhoOWy37gmtyfVCdh0xkj80qTJWt6x4BXpjZXA==";
+        };
     in {
         "Z1NV2UN1" = _Z1NV2UN1;
         "7I4UUtgv" = _7I4UUtgv;
@@ -158,22 +228,38 @@ let
         "yxRgmtSd" = _yxRgmtSd;
         "MX5IhNbF" = _MX5IhNbF;
         "tAJahOaY" = _tAJahOaY;
+        "Cn844p4k" = _Cn844p4k;
+        "VYzqKd6z" = _VYzqKd6z;
+        "ZuEvOW4M" = _ZuEvOW4M;
+        "bsIRZnLd" = _bsIRZnLd;
+        "GoFKoDhz" = _GoFKoDhz;
+        "hcqKhcf6" = _hcqKhcf6;
+        "CqGTlJQJ" = _CqGTlJQJ;
+        "9yiQy3Iz" = _9yiQy3Iz;
+        "U4JITmFR" = _U4JITmFR;
+        "tuvpAVw8" = _tuvpAVw8;
+        "GJU8vmnF" = _GJU8vmnF;
+        "tKWWSsUt" = _tKWWSsUt;
+        "sqescOYO" = _sqescOYO;
+        "wEvm9Abo" = _wEvm9Abo;
         "fabric-1.21.8" = _j7UdEgjo;
         "fabric-1.21.10" = _A2GEggd3;
         "fabric-1.21.11" = _IdBKfdz4;
-        "fabric-26.1" = _yxRgmtSd;
-        "fabric-26.1.1" = _yxRgmtSd;
-        "fabric-26.1.2" = _yxRgmtSd;
-        "fabric-1.21.1" = _DKO7tVIj;
-        "fabric-26.2" = _tAJahOaY;
+        "fabric-26.1" = _GJU8vmnF;
+        "fabric-26.1.1" = _GJU8vmnF;
+        "fabric-26.1.2" = _GJU8vmnF;
+        "fabric-1.21.1" = _wEvm9Abo;
+        "fabric-26.2" = _bsIRZnLd;
+        "fabric-26.3" = _U4JITmFR;
         "neoforge-1.21.8" = _3NzWZfLG;
         "neoforge-1.21.10" = _DzDlJ25S;
         "neoforge-1.21.11" = _Q2QNAudZ;
-        "neoforge-26.1" = _H4AczZqT;
-        "neoforge-26.1.1" = _H4AczZqT;
-        "neoforge-26.1.2" = _H4AczZqT;
-        "neoforge-1.21.1" = _f8Cm9mJB;
-        "neoforge-26.2" = _MX5IhNbF;
+        "neoforge-26.1" = _tKWWSsUt;
+        "neoforge-26.1.1" = _tKWWSsUt;
+        "neoforge-26.1.2" = _tKWWSsUt;
+        "neoforge-1.21.1" = _sqescOYO;
+        "neoforge-26.2" = _ZuEvOW4M;
+        "neoforge-26.3" = _tuvpAVw8;
         "pkg-v21.8.0-1.21.8-Fabric" = _Z1NV2UN1;
         "pkg-v21.8.0-1.21.8-NeoForge" = _7I4UUtgv;
         "pkg-21.10.0" = _s4v6D9dz;
@@ -189,7 +275,14 @@ let
         "pkg-21.1.1" = _DKO7tVIj;
         "pkg-26.1.2" = _yxRgmtSd;
         "pkg-26.2.2" = _tAJahOaY;
-        "default" = _tAJahOaY;
+        "pkg-26.1.3" = _VYzqKd6z;
+        "pkg-26.2.3" = _bsIRZnLd;
+        "pkg-26.3.0" = _hcqKhcf6;
+        "pkg-26.3.1" = _9yiQy3Iz;
+        "pkg-26.3.2" = _tuvpAVw8;
+        "pkg-26.1.4" = _tKWWSsUt;
+        "pkg-21.1.2" = _wEvm9Abo;
+        "default" = _wEvm9Abo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "all-the-heads";

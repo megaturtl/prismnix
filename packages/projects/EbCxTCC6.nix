@@ -26,20 +26,27 @@ let
             "file" = "gm_construct-1.0.10.jar";
             "hash" = "sha512-IRLzJ3lMw7+jRcFPT4aCKVQBMIEGe24QBqIw/S4/EEBAXs0XtcaVu0A7PNz4DpGAVs92XOxHleR/kO3KDKLQXA==";
         };
+        _CKdSxLGq = {
+            "id" = "CKdSxLGq";
+            "file" = "gm_construct-1.0.11.jar";
+            "hash" = "sha512-jAPh0GasZIMSKR84nSV4JOrABWV9KmdamSyPkcraDy7DbaTLg5UKyP2Icq4WzlWT7J1m+yWTjxPSRwSVlOPzFw==";
+        };
     in {
         "lKjFmgV1" = _lKjFmgV1;
         "xJUCfIla" = _xJUCfIla;
         "F5xdjnJ4" = _F5xdjnJ4;
         "Cq9lR0Fi" = _Cq9lR0Fi;
         "rQatE7Y4" = _rQatE7Y4;
-        "forge-1.20.1" = _rQatE7Y4;
-        "neoforge-1.20.1" = _rQatE7Y4;
+        "CKdSxLGq" = _CKdSxLGq;
+        "forge-1.20.1" = _CKdSxLGq;
+        "neoforge-1.20.1" = _CKdSxLGq;
         "pkg-1.0.6" = _lKjFmgV1;
         "pkg-1.0.7" = _xJUCfIla;
         "pkg-1.0.8" = _F5xdjnJ4;
         "pkg-1.0.9" = _Cq9lR0Fi;
         "pkg-1.0.10" = _rQatE7Y4;
-        "default" = _rQatE7Y4;
+        "pkg-1.0.11" = _CKdSxLGq;
+        "default" = _CKdSxLGq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gregs-modern-construct";

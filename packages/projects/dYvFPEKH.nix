@@ -81,6 +81,16 @@ let
             "file" = "golem_spawn_fix-1.0.2-neoforge-26.1.2.jar";
             "hash" = "sha512-PxWRQdyKIGDdv69rvDB3nnbkvpiipJjEyEru6uTvGGpLTchC9mC8Djd91rDuwJiH4hdAWAobssMKva1SiXcP4A==";
         };
+        _MyeBxvps = {
+            "id" = "MyeBxvps";
+            "file" = "golem_spawn_fix-neoforge-26.3-1.0.2.jar";
+            "hash" = "sha512-SRn3orWydXaVr8v44aswgSXV854E16EguZYCkzJXQDKeac80XlVabAUeHB3W/yLB2ZJ1razOGXkEqMB+zze/iQ==";
+        };
+        _Mdu2Rjxj = {
+            "id" = "Mdu2Rjxj";
+            "file" = "golem_spawn_fix-fabric-26.3-1.0.2.jar";
+            "hash" = "sha512-SYOGnHDxgI3gAXPW7h1bbgSE22EQ3Nq+jxsP8RGYnkxcv6zhAGi0ZVm1OmQEDJqAxIijKB7gl5dOc4f4ygNmzg==";
+        };
     in {
         "OuLW8hUv" = _OuLW8hUv;
         "yfgZJ4iY" = _yfgZJ4iY;
@@ -98,20 +108,24 @@ let
         "4qvrS1XG" = _4qvrS1XG;
         "4icDS8f6" = _4icDS8f6;
         "IJBwGISl" = _IJBwGISl;
+        "MyeBxvps" = _MyeBxvps;
+        "Mdu2Rjxj" = _Mdu2Rjxj;
         "forge-1.20.1" = _Cja5QNv2;
         "neoforge-1.21.1" = _kBKmnGE2;
         "neoforge-1.21.4" = _mIzMvzp5;
         "neoforge-1.21.5" = _UsFnKMnb;
         "neoforge-1.21.8" = _XiptCQIx;
         "neoforge-26.1.2" = _IJBwGISl;
+        "neoforge-26.3" = _MyeBxvps;
         "fabric-1.20.1" = _ln1nTwaR;
         "fabric-1.21.1" = _R9jFnhjg;
         "fabric-1.21.11" = _4qvrS1XG;
         "fabric-26.1.2" = _4icDS8f6;
+        "fabric-26.3" = _Mdu2Rjxj;
         "pkg-1.0.0" = _4icDS8f6;
         "pkg-1.0.1" = _9CfCMhYs;
-        "pkg-1.0.2" = _IJBwGISl;
-        "default" = _IJBwGISl;
+        "pkg-1.0.2" = _Mdu2Rjxj;
+        "default" = _Mdu2Rjxj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "golem-spawn-fix";

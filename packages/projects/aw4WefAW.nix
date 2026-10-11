@@ -131,6 +131,16 @@ let
             "file" = "wot-magic-8.jar";
             "hash" = "sha512-xQwCVa2xFmKrS6KWXIWGkHJYjPCd64+9KNeMXddIN+SZpxlD3rypluEsTjjyKJSkrJZ12NdIWdAUPT2wMbgajg==";
         };
+        _o4LSe6T5 = {
+            "id" = "o4LSe6T5";
+            "file" = "Magic_entire.zip";
+            "hash" = "sha512-79mB4UQUDMpfNLjdFQnEhSBUR55OHZnol7jp/FjGXUM28s9yhYbsE4dPp9Yz8veZcu5m6ZxOxaiq2D8uNs9tTg==";
+        };
+        _FA3b840f = {
+            "id" = "FA3b840f";
+            "file" = "wot-magic-9.jar";
+            "hash" = "sha512-PMgD7vff25DIj2p6WjLLWgzUV7F+vUWv+rp8tG4Hwk3zTIGKrf6njauCchlyvn6N+A817rjV5cLUWInHguLDMA==";
+        };
     in {
         "V9QoosqH" = _V9QoosqH;
         "SA2fE0DH" = _SA2fE0DH;
@@ -158,6 +168,8 @@ let
         "qNpKvgMq" = _qNpKvgMq;
         "YGJNTrFi" = _YGJNTrFi;
         "icflUk1E" = _icflUk1E;
+        "o4LSe6T5" = _o4LSe6T5;
+        "FA3b840f" = _FA3b840f;
         "datapack-1.21.4" = _GBsnoC5D;
         "datapack-1.21.2" = _SA2fE0DH;
         "datapack-1.21.3" = _SA2fE0DH;
@@ -177,6 +189,7 @@ let
         "datapack-26.1.1" = _Uhbr4hXg;
         "datapack-26.1.2" = _Uhbr4hXg;
         "datapack-26.2" = _YGJNTrFi;
+        "datapack-26.3" = _o4LSe6T5;
         "fabric-1.21.4" = _xzBv1350;
         "fabric-1.21.5" = _CeHaJRll;
         "fabric-1.21.6" = _YXBytsT3;
@@ -189,6 +202,7 @@ let
         "fabric-26.1.1" = _qNpKvgMq;
         "fabric-26.1.2" = _qNpKvgMq;
         "fabric-26.2" = _icflUk1E;
+        "fabric-26.3" = _FA3b840f;
         "forge-1.21.4" = _xzBv1350;
         "forge-1.21.5" = _CeHaJRll;
         "forge-1.21.6" = _YXBytsT3;
@@ -201,6 +215,7 @@ let
         "forge-26.1.1" = _qNpKvgMq;
         "forge-26.1.2" = _qNpKvgMq;
         "forge-26.2" = _icflUk1E;
+        "forge-26.3" = _FA3b840f;
         "neoforge-1.21.4" = _xzBv1350;
         "neoforge-1.21.5" = _CeHaJRll;
         "neoforge-1.21.6" = _YXBytsT3;
@@ -213,6 +228,7 @@ let
         "neoforge-26.1.1" = _qNpKvgMq;
         "neoforge-26.1.2" = _qNpKvgMq;
         "neoforge-26.2" = _icflUk1E;
+        "neoforge-26.3" = _FA3b840f;
         "quilt-1.21.4" = _xzBv1350;
         "quilt-1.21.5" = _CeHaJRll;
         "quilt-1.21.6" = _YXBytsT3;
@@ -225,7 +241,8 @@ let
         "quilt-26.1.1" = _qNpKvgMq;
         "quilt-26.1.2" = _qNpKvgMq;
         "quilt-26.2" = _icflUk1E;
-        "pkg-9" = _V9QoosqH;
+        "quilt-26.3" = _FA3b840f;
+        "pkg-9" = _o4LSe6T5;
         "pkg-8" = _YGJNTrFi;
         "pkg-7" = _Uhbr4hXg;
         "pkg-5" = _aQca2PB1;
@@ -247,7 +264,8 @@ let
         "pkg-6+mod" = _HNL9vEaK;
         "pkg-7+mod" = _qNpKvgMq;
         "pkg-8+mod" = _icflUk1E;
-        "default" = _icflUk1E;
+        "pkg-9+mod" = _FA3b840f;
+        "default" = _FA3b840f;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wot-magic";

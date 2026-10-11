@@ -41,6 +41,11 @@ let
             "file" = "VeinDigging-1.0.2+1.21.jar";
             "hash" = "sha512-VqstfT2EXsytEmVra0EdPO0NRHwxjd98EjS5G7KcKNv1QdTjO3i5fnAHLhReX2MEVIju+dil6xNdIQApsRoj1Q==";
         };
+        _LVBqwW3t = {
+            "id" = "LVBqwW3t";
+            "file" = "VeinDigging-1.0.2+26.3.jar";
+            "hash" = "sha512-0Q81DyjMNA8assenGPF5TYCYJirAMysHxWmo+NIWtHZY+BbATC8mDXOeriIlH9L8L0dkiAVgy6xpcF7212o37g==";
+        };
     in {
         "WFeVwQ0x" = _WFeVwQ0x;
         "bm24VJC3" = _bm24VJC3;
@@ -50,6 +55,7 @@ let
         "f612cQ15" = _f612cQ15;
         "YuhRsQdE" = _YuhRsQdE;
         "Qd5axZCY" = _Qd5axZCY;
+        "LVBqwW3t" = _LVBqwW3t;
         "fabric-1.19.3" = _UB12tiBl;
         "fabric-1.19.4" = _UB12tiBl;
         "fabric-1.19.2" = _ErbSd0Yl;
@@ -63,6 +69,7 @@ let
         "fabric-1.20.5" = _f612cQ15;
         "fabric-1.20.6" = _f612cQ15;
         "fabric-1.21" = _Qd5axZCY;
+        "fabric-26.3" = _LVBqwW3t;
         "quilt-1.19.3" = _UB12tiBl;
         "quilt-1.19.4" = _UB12tiBl;
         "quilt-1.19.2" = _ErbSd0Yl;
@@ -81,7 +88,8 @@ let
         "pkg-1.0.1+1.20.6" = _f612cQ15;
         "pkg-1.0.1+1.21" = _YuhRsQdE;
         "pkg-1.0.2+1.21" = _Qd5axZCY;
-        "default" = _Qd5axZCY;
+        "pkg-1.0.2+26.3" = _LVBqwW3t;
+        "default" = _LVBqwW3t;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "veindigging";

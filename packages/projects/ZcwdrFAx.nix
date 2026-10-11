@@ -326,6 +326,11 @@ let
             "file" = "§8Dark-GUI V19.0+26.3-SS.10.zip";
             "hash" = "sha512-TW1ArWjTaPz08afcUYZTL4kUHcjqgP/QzFJ4E3cHgurIxExoxuzjPkVP8WBMNEsCaREb7/Op/2D1DTr4nRTKPQ==";
         };
+        _9JqaCQlL = {
+            "id" = "9JqaCQlL";
+            "file" = "§8Dark-GUI V20.0+26.2-26.3.zip";
+            "hash" = "sha512-jDgKq7+7ZLeFUOYxHOIP866YI6EjYh+2EGMlHQoiqBbo158s45SCGJxdxv+r2MOHjPv5J5/gitEWsr28nExWNg==";
+        };
     in {
         "iDJdY8NM" = _iDJdY8NM;
         "7oXr6O9c" = _7oXr6O9c;
@@ -392,6 +397,7 @@ let
         "NO574Swz" = _NO574Swz;
         "MND9prd8" = _MND9prd8;
         "G7U5qgZx" = _G7U5qgZx;
+        "9JqaCQlL" = _9JqaCQlL;
         "minecraft-1.21.3" = _tPfjbMff;
         "minecraft-1.21.4" = _tPfjbMff;
         "minecraft-1.21.5" = _tPfjbMff;
@@ -442,16 +448,24 @@ let
         "minecraft-26.2-pre-6" = _ufmZinaN;
         "minecraft-26.2-rc-1" = _1iVuoOdw;
         "minecraft-26.2-rc-2" = _1iVuoOdw;
-        "minecraft-26.2" = _YQrdr7cx;
-        "minecraft-26.3-snapshot-1" = _NE33LW77;
-        "minecraft-26.3-snapshot-2" = _KCaItRZ7;
-        "minecraft-26.3-snapshot-3" = _a1f1s3j3;
-        "minecraft-26.3-snapshot-4" = _bBnz61NL;
-        "minecraft-26.3-snapshot-6" = _HD8nISUp;
-        "minecraft-26.3-snapshot-7" = _3nwLFAUi;
-        "minecraft-26.3-snapshot-8" = _NO574Swz;
-        "minecraft-26.3-snapshot-9" = _MND9prd8;
-        "minecraft-26.3-snapshot-10" = _G7U5qgZx;
+        "minecraft-26.2" = _9JqaCQlL;
+        "minecraft-26.3-snapshot-1" = _9JqaCQlL;
+        "minecraft-26.3-snapshot-2" = _9JqaCQlL;
+        "minecraft-26.3-snapshot-3" = _9JqaCQlL;
+        "minecraft-26.3-snapshot-4" = _9JqaCQlL;
+        "minecraft-26.3-snapshot-6" = _9JqaCQlL;
+        "minecraft-26.3-snapshot-7" = _9JqaCQlL;
+        "minecraft-26.3-snapshot-8" = _9JqaCQlL;
+        "minecraft-26.3-snapshot-9" = _9JqaCQlL;
+        "minecraft-26.3-snapshot-10" = _9JqaCQlL;
+        "minecraft-26.3-snapshot-5" = _9JqaCQlL;
+        "minecraft-26.3-pre-1" = _9JqaCQlL;
+        "minecraft-26.3-pre-2" = _9JqaCQlL;
+        "minecraft-26.3-pre-3" = _9JqaCQlL;
+        "minecraft-26.3-rc-1" = _9JqaCQlL;
+        "minecraft-26.3-rc-2" = _9JqaCQlL;
+        "minecraft-26.3-rc-3" = _9JqaCQlL;
+        "minecraft-26.3" = _9JqaCQlL;
         "pkg-1.0" = _iDJdY8NM;
         "pkg-1.1" = _7oXr6O9c;
         "pkg-2.0" = _MQjGhzcJ;
@@ -493,7 +507,7 @@ let
         "pkg-18.0" = _MND9prd8;
         "pkg-9.0" = _qma1FNNe;
         "pkg-19.0" = _G7U5qgZx;
-        "pkg-20.0" = _FCCTZik4;
+        "pkg-20.0" = _9JqaCQlL;
         "pkg-21.0" = _5A8v4WzM;
         "pkg-22.0" = _AGpExVZM;
         "pkg-23.0" = _PRMNrznH;
@@ -511,7 +525,7 @@ let
         "pkg-14.0" = _bBnz61NL;
         "pkg-15.0" = _HD8nISUp;
         "pkg-16.0" = _3nwLFAUi;
-        "default" = _G7U5qgZx;
+        "default" = _9JqaCQlL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "michidarkgui";

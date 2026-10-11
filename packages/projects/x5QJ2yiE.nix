@@ -91,6 +91,11 @@ let
             "file" = "Small Blocks.zip";
             "hash" = "sha512-1RNkW5DaDidIpmWI4K1kaqxvF+gL2SETcPOEmCaXvQtsKBRCo+J+2rhVLVPbSV9gNvkDOn95hT0/AYqsTsKjuw==";
         };
+        _tYfsXOrU = {
+            "id" = "tYfsXOrU";
+            "file" = "Small Blocks.zip";
+            "hash" = "sha512-BY4ZqpHZ0buQ8bwVaf8S71r8UIuMlQ2672n+Eu8ySjaFZfyDGNyptbXzv6w83K5pnORxpOof12jCAYku/eWoAw==";
+        };
     in {
         "hnHvS3Ls" = _hnHvS3Ls;
         "R9zhZhOw" = _R9zhZhOw;
@@ -110,6 +115,7 @@ let
         "bpaNR1Dm" = _bpaNR1Dm;
         "J8Na7ITs" = _J8Na7ITs;
         "URFEqXeH" = _URFEqXeH;
+        "tYfsXOrU" = _tYfsXOrU;
         "minecraft-1.19" = _hnHvS3Ls;
         "minecraft-1.19.1" = _R9zhZhOw;
         "minecraft-1.19.2" = _R9zhZhOw;
@@ -138,6 +144,7 @@ let
         "minecraft-26.1.1" = _bpaNR1Dm;
         "minecraft-26.1.2" = _J8Na7ITs;
         "minecraft-26.2" = _URFEqXeH;
+        "minecraft-26.3" = _tYfsXOrU;
         "pkg-1.19" = _hnHvS3Ls;
         "pkg-1.19.1-1.19.2" = _R9zhZhOw;
         "pkg-1.19.3-1.19.4" = _ZsKEznQH;
@@ -156,7 +163,8 @@ let
         "pkg-26.1.1" = _bpaNR1Dm;
         "pkg-26.1.2" = _J8Na7ITs;
         "pkg-26.2" = _URFEqXeH;
-        "default" = _URFEqXeH;
+        "pkg-26.3" = _tYfsXOrU;
+        "default" = _tYfsXOrU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "small-hand-blocks";

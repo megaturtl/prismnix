@@ -1286,6 +1286,16 @@ let
             "file" = "SimpleOrbitalStrike-v1.0.8-mc26.2-fabric.jar";
             "hash" = "sha512-YXeLq4vriUkjUh9fF8laLCmOTJWV/QaIDETt9nTBOJ39QNwUGThT5jw2bVmryZ7SD1LgPDimcLnASr4LQvOhGA==";
         };
+        _JaZFlVZy = {
+            "id" = "JaZFlVZy";
+            "file" = "SimpleOrbitalStrike-v1.0.8-mc26.3-neoforge.jar";
+            "hash" = "sha512-JbbYQIzuewnGJtAxhc8CYh1PLleT6VgYeQKn4veYDfyY5RXqJwlkzZd8JNGQxSMFQ7qwgSBs01LNIyCAv47cNQ==";
+        };
+        _QXd79fXq = {
+            "id" = "QXd79fXq";
+            "file" = "SimpleOrbitalStrike-v1.0.8-mc26.3-fabric.jar";
+            "hash" = "sha512-lHuPEqn3cgMgEwDb5pVyVYXGGHAKCuvLskvqUYL01wR9HyWXorcV0kAkF4P4xUZlrfduTTAzzczVuMDx3na2Xg==";
+        };
     in {
         "tY752hV3" = _tY752hV3;
         "SU5j6qlQ" = _SU5j6qlQ;
@@ -1544,6 +1554,8 @@ let
         "HJXBl7VK" = _HJXBl7VK;
         "aik9F8IY" = _aik9F8IY;
         "2RX6vNHy" = _2RX6vNHy;
+        "JaZFlVZy" = _JaZFlVZy;
+        "QXd79fXq" = _QXd79fXq;
         "fabric-1.21" = _QPUZxxLh;
         "fabric-1.21.1" = _VE0qeOv5;
         "fabric-1.21.2" = _KXStfocz;
@@ -1560,6 +1572,7 @@ let
         "fabric-26.1.1" = _HKLyqKhp;
         "fabric-26.1.2" = _HJXBl7VK;
         "fabric-26.2" = _2RX6vNHy;
+        "fabric-26.3" = _QXd79fXq;
         "quilt-1.21" = _HwUvh1Xr;
         "quilt-1.21.1" = _r1rtVIOo;
         "quilt-1.21.2" = _9t6K4HQF;
@@ -1591,6 +1604,7 @@ let
         "neoforge-26.1" = _6chJyPSx;
         "neoforge-26.1.1" = _PPEEhkUi;
         "neoforge-26.1.2" = _aik9F8IY;
+        "neoforge-26.3" = _JaZFlVZy;
         "pkg-1.21-v1.0.0+fabric" = _tY752hV3;
         "pkg-1.21.1-v1.0.0+fabric" = _SU5j6qlQ;
         "pkg-1.21.2-v1.0.0+fabric" = _R7G6c0o9;
@@ -1848,7 +1862,9 @@ let
         "pkg-1.0.8+fabric-26.1.2" = _HJXBl7VK;
         "pkg-1.0.8+neoforge-26.1.2" = _aik9F8IY;
         "pkg-1.0.8+fabric-26.2" = _2RX6vNHy;
-        "default" = _2RX6vNHy;
+        "pkg-1.0.8+neoforge-26.3" = _JaZFlVZy;
+        "pkg-1.0.8+fabric-26.3" = _QXd79fXq;
+        "default" = _QXd79fXq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-orbital-strike-mod";

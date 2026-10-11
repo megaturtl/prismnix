@@ -296,6 +296,16 @@ let
             "file" = "silvers_way-too-many-maces-1.30.jar";
             "hash" = "sha512-2JcjMekPc0DzS4FgQJ9nhW9Hl3C2+Pzalk8otYQLxm5VjZ0Y9hHxRkmW1FLp5WY7XH2IZHYCRWVP6GAzhRsA/g==";
         };
+        _4gzVfL3M = {
+            "id" = "4gzVfL3M";
+            "file" = "Way too many Maces - Datapack - v.1.31 - 26.3.zip";
+            "hash" = "sha512-52qjw/W1jiJN9vGOLD7D6XcDKuMZ37vZtZJQzQiYacF0P6k8DnDGutHLShiDELACcJz4cGs6xHgLi94SFoJtJA==";
+        };
+        _E1j4ebfJ = {
+            "id" = "E1j4ebfJ";
+            "file" = "silvers_way-too-many-maces-1.31.jar";
+            "hash" = "sha512-ONORulBWkqKN/6cC0PpmMStmZ1MXKwabMC/E6NLgIq9yPUSX526KAxzWW0XtY+rMsBf4McWs/KzrAhNOQwDzDw==";
+        };
     in {
         "AaD8qSOB" = _AaD8qSOB;
         "3nEmOIa5" = _3nEmOIa5;
@@ -356,6 +366,8 @@ let
         "pIohZc03" = _pIohZc03;
         "vgCd85jW" = _vgCd85jW;
         "1nnNh6eA" = _1nnNh6eA;
+        "4gzVfL3M" = _4gzVfL3M;
+        "E1j4ebfJ" = _E1j4ebfJ;
         "datapack-1.21.2" = _BMdMUNpQ;
         "datapack-1.21.3" = _BMdMUNpQ;
         "datapack-1.21.4" = _NhmL9gnv;
@@ -372,6 +384,7 @@ let
         "datapack-26.1.1" = _lg0uDH0P;
         "datapack-26.1.2" = _lg0uDH0P;
         "datapack-26.2" = _vgCd85jW;
+        "datapack-26.3" = _4gzVfL3M;
         "fabric-1.21.5" = _9UgFhUCt;
         "fabric-1.21.6" = _9UgFhUCt;
         "fabric-1.21.7" = _9UgFhUCt;
@@ -385,6 +398,7 @@ let
         "fabric-26.2" = _1nnNh6eA;
         "fabric-1.21" = _LwQQ4zBK;
         "fabric-1.21.1" = _LwQQ4zBK;
+        "fabric-26.3" = _E1j4ebfJ;
         "forge-1.21.5" = _9UgFhUCt;
         "forge-1.21.6" = _9UgFhUCt;
         "forge-1.21.7" = _9UgFhUCt;
@@ -398,6 +412,7 @@ let
         "forge-26.2" = _1nnNh6eA;
         "forge-1.21" = _LwQQ4zBK;
         "forge-1.21.1" = _LwQQ4zBK;
+        "forge-26.3" = _E1j4ebfJ;
         "neoforge-1.21.5" = _9UgFhUCt;
         "neoforge-1.21.6" = _9UgFhUCt;
         "neoforge-1.21.7" = _9UgFhUCt;
@@ -411,6 +426,7 @@ let
         "neoforge-26.2" = _1nnNh6eA;
         "neoforge-1.21" = _LwQQ4zBK;
         "neoforge-1.21.1" = _LwQQ4zBK;
+        "neoforge-26.3" = _E1j4ebfJ;
         "quilt-1.21.5" = _9UgFhUCt;
         "quilt-1.21.6" = _9UgFhUCt;
         "quilt-1.21.7" = _9UgFhUCt;
@@ -424,6 +440,7 @@ let
         "quilt-26.2" = _1nnNh6eA;
         "quilt-1.21" = _LwQQ4zBK;
         "quilt-1.21.1" = _LwQQ4zBK;
+        "quilt-26.3" = _E1j4ebfJ;
         "pkg-1.0" = _AaD8qSOB;
         "pkg-1.1" = _3nEmOIa5;
         "pkg-1.2" = _K8V7qyNW;
@@ -465,7 +482,9 @@ let
         "pkg-1.29+mod" = _pIohZc03;
         "pkg-1.30" = _vgCd85jW;
         "pkg-1.30+mod" = _1nnNh6eA;
-        "default" = _1nnNh6eA;
+        "pkg-1.31" = _4gzVfL3M;
+        "pkg-1.31+mod" = _E1j4ebfJ;
+        "default" = _E1j4ebfJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "silvers_way-too-many-maces";

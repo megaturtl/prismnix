@@ -126,6 +126,11 @@ let
             "file" = "lifesteal-26.2+r2.jar";
             "hash" = "sha512-NqBPThX+M+U+KdSC56x3b1vuHTObNBPHINrDV8TLf9ZOO6BzsGWv9imJ9Q2sLtAD03bC9xiGXjvT4E7kQ1tlKg==";
         };
+        _XGAFgEbu = {
+            "id" = "XGAFgEbu";
+            "file" = "lifesteal-26.3+r1.jar";
+            "hash" = "sha512-lNp5elcT9NgjWbTKHdOYj+gWY8HQD0iZXQbpuyGxWdaDXSve4Xgcb2ldGwTa1CPoEgiNA9+bJOEFwuz8/5g82A==";
+        };
     in {
         "JEz2upgI" = _JEz2upgI;
         "NGY35q1y" = _NGY35q1y;
@@ -152,6 +157,7 @@ let
         "mFgauxLB" = _mFgauxLB;
         "6Xf4PdNJ" = _6Xf4PdNJ;
         "Db8KiNCk" = _Db8KiNCk;
+        "XGAFgEbu" = _XGAFgEbu;
         "fabric-1.20.1" = _IfPEeimx;
         "fabric-1.20.2" = _V2wxsSik;
         "fabric-1.20.3" = _V2wxsSik;
@@ -175,6 +181,7 @@ let
         "fabric-26.1.1" = _6Xf4PdNJ;
         "fabric-26.1.2" = _6Xf4PdNJ;
         "fabric-26.2" = _Db8KiNCk;
+        "fabric-26.3" = _XGAFgEbu;
         "quilt-1.20.1" = _IfPEeimx;
         "quilt-1.20.2" = _V2wxsSik;
         "quilt-1.20.3" = _V2wxsSik;
@@ -198,6 +205,7 @@ let
         "quilt-26.1.1" = _6Xf4PdNJ;
         "quilt-26.1.2" = _6Xf4PdNJ;
         "quilt-26.2" = _Db8KiNCk;
+        "quilt-26.3" = _XGAFgEbu;
         "pkg-1.20.1-3_a" = _JEz2upgI;
         "pkg-1.21.6-7_a" = _NGY35q1y;
         "pkg-1.21.11_b" = _FNAMbUI9;
@@ -223,7 +231,8 @@ let
         "pkg-1.21.9-11_l" = _mFgauxLB;
         "pkg-26.1.x_l" = _6Xf4PdNJ;
         "pkg-26.2_l" = _Db8KiNCk;
-        "default" = _Db8KiNCk;
+        "pkg-26.3_l" = _XGAFgEbu;
+        "default" = _XGAFgEbu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lifestealmods";

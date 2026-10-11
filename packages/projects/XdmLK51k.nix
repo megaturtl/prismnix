@@ -181,6 +181,26 @@ let
             "file" = "betterloot-zibura-forge-1.20.1-2.0.2-fix.jar";
             "hash" = "sha512-wiWjS75Wb9EbX/6BDnj4YY9EhD1HNm6yJbeAc3pj6FnlgQ6ZhCM4PZ7xK8joz1UlVR5XN28n5n6p8bdru1ruAQ==";
         };
+        _ea6wlAg2 = {
+            "id" = "ea6wlAg2";
+            "file" = "betterloot-zibura-forge-1.20.1-2.0.3.jar";
+            "hash" = "sha512-tD92m6wePJBSToZuzSk9TOAvGVE3kSmNhk324WCHz5plWASiQFWH40syGVwPch6VjXFj3FtSIyJwBOh6A7CPbw==";
+        };
+        _56dO4dYQ = {
+            "id" = "56dO4dYQ";
+            "file" = "betterloot-zibura-neoforge-1.21.1-2.0.3.jar";
+            "hash" = "sha512-odkhX71IMruzF1fjrPJsgRqIjsnPs/z7JJsf2IGV1ihiuxEchmoeJwqEnlKXKqwUMKQxrGJjqagmand3HO+img==";
+        };
+        _ExDc120v = {
+            "id" = "ExDc120v";
+            "file" = "better_loot_zibura-2.1.0-1.20.1-forge.jar";
+            "hash" = "sha512-zAT1RP0dTKokVpImaCqo/ktpy76M3sS9+Q/Mlj7sf0EYCCHm7+NbalkZiWa8mTYMzy7k2vxWMPJLkCPMYlXb4g==";
+        };
+        _uZQstpcY = {
+            "id" = "uZQstpcY";
+            "file" = "better_loot_zibura-2.1.0-1.21.1-neoforge.jar";
+            "hash" = "sha512-cv4VGr1EULIKPSai3rRpq7d/4Pu3Sdu7BU3t2YkTM1nl+H04EyV0/8caQ+j09KVSsbJ/MKsy/SLkEZ9ajlmW6A==";
+        };
     in {
         "9TIz0rED" = _9TIz0rED;
         "Z6S2OEs8" = _Z6S2OEs8;
@@ -218,8 +238,12 @@ let
         "Kla9PjmU" = _Kla9PjmU;
         "w22MALZq" = _w22MALZq;
         "bAfhUefP" = _bAfhUefP;
-        "forge-1.20.1" = _bAfhUefP;
-        "neoforge-1.21.1" = _w22MALZq;
+        "ea6wlAg2" = _ea6wlAg2;
+        "56dO4dYQ" = _56dO4dYQ;
+        "ExDc120v" = _ExDc120v;
+        "uZQstpcY" = _uZQstpcY;
+        "forge-1.20.1" = _ExDc120v;
+        "neoforge-1.21.1" = _uZQstpcY;
         "pkg-0.2.0" = _Z6S2OEs8;
         "pkg-forge-1.20.1-0.3.0" = _bLJzhDVR;
         "pkg-neoforge-1.21.1-0.3.0" = _hTIRY7CR;
@@ -241,7 +265,9 @@ let
         "pkg-2.0.2" = _Kla9PjmU;
         "pkg-2.0.2-fix" = _w22MALZq;
         "pkg-2.0.2_fix" = _bAfhUefP;
-        "default" = _bAfhUefP;
+        "pkg-2.0.3" = _56dO4dYQ;
+        "pkg-2.1.0" = _uZQstpcY;
+        "default" = _uZQstpcY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "betterloot-zibura";

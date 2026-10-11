@@ -321,6 +321,36 @@ let
             "file" = "craftsense-1.21.9-v1.1.9.jar";
             "hash" = "sha512-tzIZbhJxtP6b7A+Y8IS5S5PaxMdDMo/c9IfKFY3e9q425KEM61/+VjZ9RjgWSJKEKxlYBRkpePJSzb7RLisMAg==";
         };
+        _HZDkr0Ux = {
+            "id" = "HZDkr0Ux";
+            "file" = "craftsense-2.0.0-forge-mc1.20.1.jar";
+            "hash" = "sha512-OHauxCBi5p5UDPA2Tf5Va2STR3DlxF99fHnd7474AQzB1QUfTm/FuTxDx3J7z9biqcjwhekM1Yznjhpi5CTFFA==";
+        };
+        _oVI6gGCD = {
+            "id" = "oVI6gGCD";
+            "file" = "craftsense-2.0.0-fabric-mc1.20.1.jar";
+            "hash" = "sha512-3ol0vK6oM4dbs/ZM9w8+3wDYuAKd9O4N5epvHE1azncRINLnbpaxtX1M2u7xKn17SB2Pi29pDHzyoXIw97GsjA==";
+        };
+        _7BNVODNW = {
+            "id" = "7BNVODNW";
+            "file" = "craftsense-2.0.0-neoforge-mc1.21.1.jar";
+            "hash" = "sha512-x6LfJXFJUqJLaGdi5ESyZuyi3XH+v5sYEZT72ZDr9q6/uHXIvnyi6U4nla3G1W4B7t5Ombgxn5LUWmZLwn3IAQ==";
+        };
+        _iWKl4xO3 = {
+            "id" = "iWKl4xO3";
+            "file" = "craftsense-2.0.0-fabric-mc1.21.1.jar";
+            "hash" = "sha512-zuxNuD7UbknXPKtziVfc+Efslctks1p41AQe6rq1dRLWb8hC8izlOtT7W3pB3Uk6Bj7nqe+vYcY7wcqKIfHXtQ==";
+        };
+        _Kmc03giW = {
+            "id" = "Kmc03giW";
+            "file" = "craftsense-2.0.0-fabric-mc1.21.11.jar";
+            "hash" = "sha512-OdbVdRwRIMS161d2rSQFrvp5Yw5iqijcB8xIzR65c2pvoBrQdrb/sKGfRQMzbdkOwz2SaEq8JKA7BBQu9Ls8Kw==";
+        };
+        _utjpLy24 = {
+            "id" = "utjpLy24";
+            "file" = "craftsense-2.0.0-fabric-mc26.3.jar";
+            "hash" = "sha512-AtSUjA9fblpQQFZpRUZmuTAXLSHs75//ZmKtXSZiCxf9n/n7T/7bIIJTosk8eDEp3gEytMZHJYQRnUVoTd0/zA==";
+        };
     in {
         "CAK6okZx" = _CAK6okZx;
         "WYIMkaMR" = _WYIMkaMR;
@@ -386,9 +416,15 @@ let
         "pT0TDxV2" = _pT0TDxV2;
         "yw4cXFKh" = _yw4cXFKh;
         "Yk86MNss" = _Yk86MNss;
+        "HZDkr0Ux" = _HZDkr0Ux;
+        "oVI6gGCD" = _oVI6gGCD;
+        "7BNVODNW" = _7BNVODNW;
+        "iWKl4xO3" = _iWKl4xO3;
+        "Kmc03giW" = _Kmc03giW;
+        "utjpLy24" = _utjpLy24;
         "fabric-1.21" = _TDOCHRl8;
-        "fabric-1.21.1" = _TDOCHRl8;
-        "fabric-1.20.1" = _uRGC4Wwf;
+        "fabric-1.21.1" = _iWKl4xO3;
+        "fabric-1.20.1" = _oVI6gGCD;
         "fabric-1.20.4" = _z7Jl35Nr;
         "fabric-1.19.2" = _qGioKDFf;
         "fabric-1.21.2" = _4fln7Zqp;
@@ -399,6 +435,11 @@ let
         "fabric-1.21.8" = _yw4cXFKh;
         "fabric-1.21.9" = _Yk86MNss;
         "fabric-1.21.10" = _Yk86MNss;
+        "fabric-1.21.11" = _Kmc03giW;
+        "fabric-26.3" = _utjpLy24;
+        "forge-1.20.1" = _HZDkr0Ux;
+        "neoforge-1.20.1" = _HZDkr0Ux;
+        "neoforge-1.21.1" = _7BNVODNW;
         "pkg-1.0.0" = _CAK6okZx;
         "pkg-1.0.1" = _WYIMkaMR;
         "pkg-1.0.2" = _KMGKbUVo;
@@ -419,7 +460,8 @@ let
         "pkg-1.1.7" = _uJR23z3R;
         "pkg-1.1.8" = _O4GhGgUL;
         "pkg-1.1.9" = _Yk86MNss;
-        "default" = _Yk86MNss;
+        "pkg-2.0.0" = _utjpLy24;
+        "default" = _utjpLy24;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "craftsense";

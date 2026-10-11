@@ -171,6 +171,96 @@ let
             "file" = "doublejumpenchant-neoforge-26.2-1.2.0-26.2.jar";
             "hash" = "sha512-HQk6Y8kXAEEp9/DcXWn5mCClkiDQYaNR3hbOugNihgdmgTXhP677gIzvOFpHJYg3oo2ppPimA0LYruBtY8EMKg==";
         };
+        _qvTiDRnl = {
+            "id" = "qvTiDRnl";
+            "file" = "doublejumpenchant-fabric-26.3-1.2.0.jar";
+            "hash" = "sha512-NSEvUt/tf/kl+zCWayVFeLmvl04coTtK5DOq4pa3TXFvGZIq7aiQ6aZNbYqxeoexN5Zweb+zexIiUd9xsQ6cYg==";
+        };
+        _Tdr3kaar = {
+            "id" = "Tdr3kaar";
+            "file" = "doublejumpenchant-neoforge-26.3-1.2.0.jar";
+            "hash" = "sha512-eMBtomJ/r+2VvlhnR/W+ifJLm5RZtVzuXD30/2xKVSrEAAvzzx7DkLUkT1PZ29+JCFUqT8/fpwdGUdERK34AbA==";
+        };
+        _jJU5Uhx5 = {
+            "id" = "jJU5Uhx5";
+            "file" = "doublejumpenchant-fabric-1.19.2-1.3.0.jar";
+            "hash" = "sha512-tXnqA5Zi5MwVyLREFaK4Dg1ipJX9Kel4UbjYca0xSElwTvhX/w+p743XuWn9y8Xd9epc7JHRorcB7fKjaQ5LEQ==";
+        };
+        _sYwgz84z = {
+            "id" = "sYwgz84z";
+            "file" = "doublejumpenchant-fabric-1.20.1-1.3.0.jar";
+            "hash" = "sha512-K7BYi6tkNuaGZQTWWWgMmlVh3wKheYTh01S+NOrhBPtRSnMMJLJw0cMcCqlG8cwAVF+ok80PtGvJVHLNZ01q+w==";
+        };
+        _i6xyobo1 = {
+            "id" = "i6xyobo1";
+            "file" = "doublejumpenchant-fabric-1.21.1-1.3.0.jar";
+            "hash" = "sha512-nXtGignz3LaZzG0A0Dgm2BSS+fgJVvRDyGspkZqm2EMDF9xJkKzc8EqxJZGrDTiilXkHdgPL8/rgY+5G72mv5A==";
+        };
+        _J3YYQNfX = {
+            "id" = "J3YYQNfX";
+            "file" = "doublejumpenchant-fabric-1.21.11-1.3.0.jar";
+            "hash" = "sha512-iotVLa7TqtSh+1OvRbV98OpJdt2GBKv7OOCr7Siu/9N/H8vw5VoR4shjMBnwHktHd6TzR++NLHDMJHjdnybiFQ==";
+        };
+        _uKtDpbcN = {
+            "id" = "uKtDpbcN";
+            "file" = "doublejumpenchant-fabric-26.1.2-1.3.0.jar";
+            "hash" = "sha512-dcMpxzuMPkF3/OwsuK5aQZ0ksciLDjDriU6j0kwmFUG6np6m5jpqVVwoXs8CkKQIvvpUnodK0qniYlmPbUvsMg==";
+        };
+        _UdOIH2Hn = {
+            "id" = "UdOIH2Hn";
+            "file" = "doublejumpenchant-fabric-26.2-1.3.0.jar";
+            "hash" = "sha512-ft83SMYy3xVMH6G9SZBZ6OqN9CnICsyTEjQFP83fkhgrKt2wcAmfTS4HNcn7r2wQpGZBI8SrXe9mVpF0K7uKXQ==";
+        };
+        _XNuTpf35 = {
+            "id" = "XNuTpf35";
+            "file" = "doublejumpenchant-fabric-26.3-1.3.0.jar";
+            "hash" = "sha512-Pn2nmoWtyw1Diigrsz0KBLA3bQpsoTvfyyLLhkbifQB0DNC02I35SEk21RVOsUf4vVtlzGMwxkXjQbCcyftImQ==";
+        };
+        _z28yhDnJ = {
+            "id" = "z28yhDnJ";
+            "file" = "doublejumpenchant-forge-1.19.2-1.3.0.jar";
+            "hash" = "sha512-2H2PjgQqb4mqifxYwYkSqcp9zIdjBI3rqH6RuxPh92DjssyS5URg/hvR8u7oOZ6ib6OCSHFBaU1eJzhwYGk1mw==";
+        };
+        _wHeMagRM = {
+            "id" = "wHeMagRM";
+            "file" = "doublejumpenchant-forge-1.20.1-1.3.0.jar";
+            "hash" = "sha512-dEHj8NR03Ai1iQqGCypMVRZLdCaM2W+PLhVVbrUp2FH9yfmmG2HqyeBXG+F4HjaLSMVRg4AyNPk7/cM/YYsjeg==";
+        };
+        _wumlhvFG = {
+            "id" = "wumlhvFG";
+            "file" = "doublejumpenchant-forge-1.21.1-1.3.0.jar";
+            "hash" = "sha512-lESrjlRn3q4VxxmRj71mguaWPEFINEHiZgT5N8uz3MN0d0QqdCGzLitJFRkHDAe0hOi7P72fx9YG5kttpxQaqA==";
+        };
+        _QjhzS85f = {
+            "id" = "QjhzS85f";
+            "file" = "doublejumpenchant-forge-1.21.11-1.3.0.jar";
+            "hash" = "sha512-5SSPjWd23Jy10/OsGpCPJYEPJg+w/Is+aqylMx7gVF963v1jym4sNb9Uw4qhge+Axs4M8WRecT5c0IL+Hk5cAg==";
+        };
+        _tjk87TxK = {
+            "id" = "tjk87TxK";
+            "file" = "doublejumpenchant-neoforge-1.21.1-1.3.0.jar";
+            "hash" = "sha512-l3RG72VXtxo8HSGUBQlV2v77j+wTlwakXiLnOTyb94JtgxPIlR7qUd5ZuRsFlJeoey/zKG7etP9cAqoshx+o5A==";
+        };
+        _HHzZWVJd = {
+            "id" = "HHzZWVJd";
+            "file" = "doublejumpenchant-neoforge-1.21.11-1.3.0.jar";
+            "hash" = "sha512-Bwb95ICZHY8qECRPCqM5/28ufqizOjv2oY/Tcxmvc3ebAxGAGmsUikEd/cEtlD4mZ1iLmhT4U9Jy+YVYmrMpBA==";
+        };
+        _twtwzD3D = {
+            "id" = "twtwzD3D";
+            "file" = "doublejumpenchant-neoforge-26.1.2-1.3.0.jar";
+            "hash" = "sha512-qcZDMJ6Qq/B7GMfkU+heNePxaZGLKy/Vj47i3u+f/QIxXv3/mlPt2NZtO41wj/ffudZRRDssliv1CtR9+QTapw==";
+        };
+        _F7mJqZAs = {
+            "id" = "F7mJqZAs";
+            "file" = "doublejumpenchant-neoforge-26.2-1.3.0.jar";
+            "hash" = "sha512-GFP/g40rTvOyraV+tG9uayN44jrBTh43NJqJkq6OdNKjcwhVF9pNENu/N7acxSvoZphL/RwgnuA5xWWT+NBTmg==";
+        };
+        _5Ln8f8Cv = {
+            "id" = "5Ln8f8Cv";
+            "file" = "doublejumpenchant-neoforge-26.3-1.3.0.jar";
+            "hash" = "sha512-Qxe8KYb8HSXPvT9M+Tp7cGEcDfQ/fUnlYzY/M95btxXn43/nCm3pBBiWeEHoRvbNyenu/Mpfk0SV+zp8+hfUbg==";
+        };
     in {
         "o9DJGsHN" = _o9DJGsHN;
         "dO6jLnBR" = _dO6jLnBR;
@@ -206,25 +296,49 @@ let
         "kzdixzFB" = _kzdixzFB;
         "1693fJHN" = _1693fJHN;
         "Kl3t2tak" = _Kl3t2tak;
-        "forge-1.20.1" = _9KntJ6kC;
-        "forge-1.19.2" = _Nu5PynKq;
-        "neoforge-1.21.1" = _Wz20xW5j;
+        "qvTiDRnl" = _qvTiDRnl;
+        "Tdr3kaar" = _Tdr3kaar;
+        "jJU5Uhx5" = _jJU5Uhx5;
+        "sYwgz84z" = _sYwgz84z;
+        "i6xyobo1" = _i6xyobo1;
+        "J3YYQNfX" = _J3YYQNfX;
+        "uKtDpbcN" = _uKtDpbcN;
+        "UdOIH2Hn" = _UdOIH2Hn;
+        "XNuTpf35" = _XNuTpf35;
+        "z28yhDnJ" = _z28yhDnJ;
+        "wHeMagRM" = _wHeMagRM;
+        "wumlhvFG" = _wumlhvFG;
+        "QjhzS85f" = _QjhzS85f;
+        "tjk87TxK" = _tjk87TxK;
+        "HHzZWVJd" = _HHzZWVJd;
+        "twtwzD3D" = _twtwzD3D;
+        "F7mJqZAs" = _F7mJqZAs;
+        "5Ln8f8Cv" = _5Ln8f8Cv;
+        "forge-1.20.1" = _wHeMagRM;
+        "forge-1.19.2" = _z28yhDnJ;
+        "forge-1.21.1" = _wumlhvFG;
+        "forge-1.21.11" = _QjhzS85f;
+        "neoforge-1.21.1" = _tjk87TxK;
         "neoforge-26.1" = _nq28Zk5B;
-        "neoforge-26.1.2" = _kzdixzFB;
+        "neoforge-26.1.2" = _twtwzD3D;
         "neoforge-26.1.1" = _tVWMDXKI;
-        "neoforge-1.21.11" = _K9zjnvaJ;
-        "neoforge-26.2" = _Kl3t2tak;
-        "fabric-1.20.1" = _KUYscgjQ;
-        "fabric-1.21.1" = _7nKTr2YO;
-        "fabric-1.21.11" = _wZZTPl1a;
+        "neoforge-1.21.11" = _HHzZWVJd;
+        "neoforge-26.2" = _F7mJqZAs;
+        "neoforge-26.3" = _5Ln8f8Cv;
+        "fabric-1.20.1" = _sYwgz84z;
+        "fabric-1.21.1" = _i6xyobo1;
+        "fabric-1.21.11" = _J3YYQNfX;
         "fabric-26.1" = _wiURrZwn;
         "fabric-26.1.1" = _jSdqcw0q;
-        "fabric-26.1.2" = _inMxa3wa;
-        "fabric-26.2" = _1693fJHN;
+        "fabric-26.1.2" = _uKtDpbcN;
+        "fabric-26.2" = _UdOIH2Hn;
+        "fabric-26.3" = _XNuTpf35;
+        "fabric-1.19.2" = _jJU5Uhx5;
         "pkg-1.0.0" = _LM5swPB4;
         "pkg-1.1.0" = _G9muLmaS;
-        "pkg-1.2.0" = _Kl3t2tak;
-        "default" = _Kl3t2tak;
+        "pkg-1.2.0" = _Tdr3kaar;
+        "pkg-1.3.0" = _5Ln8f8Cv;
+        "default" = _5Ln8f8Cv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "double-jump-enchant";

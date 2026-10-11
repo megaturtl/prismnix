@@ -121,6 +121,11 @@ let
             "file" = "Seasonal Trees [26.2].zip";
             "hash" = "sha512-OmZuABIYsTjC8Lm1AX6OiB6eHGN75+uVMZx9+rnD7noBQ2NzTNIq43OhDThMngJC1sG/gveMueCMeMm8rLjdvw==";
         };
+        _VPbHM3Ms = {
+            "id" = "VPbHM3Ms";
+            "file" = "Seasonal Trees [26.3].zip";
+            "hash" = "sha512-tu1pqQrfHIqARVn8uwCH8yzGx4GBC7C58W6IYcRA0fBd+Vn3HoRfU+Fjim8S4YpEsUNjteqX7NU5a9AGf3mhGg==";
+        };
     in {
         "oQF6AN2c" = _oQF6AN2c;
         "z6iou7SS" = _z6iou7SS;
@@ -146,6 +151,7 @@ let
         "yF5rWVql" = _yF5rWVql;
         "jw0GzspN" = _jw0GzspN;
         "orwbTU2z" = _orwbTU2z;
+        "VPbHM3Ms" = _VPbHM3Ms;
         "minecraft-1.16" = _oQF6AN2c;
         "minecraft-1.16.1" = _oQF6AN2c;
         "minecraft-1.16.2" = _oQF6AN2c;
@@ -187,6 +193,9 @@ let
         "minecraft-26.1.1" = _jw0GzspN;
         "minecraft-26.1.2" = _jw0GzspN;
         "minecraft-26.2" = _orwbTU2z;
+        "minecraft-26.3" = _VPbHM3Ms;
+        "minecraft-26.4-snapshot-1" = _VPbHM3Ms;
+        "minecraft-26.4-snapshot-2" = _VPbHM3Ms;
         "pkg-1.16" = _oQF6AN2c;
         "pkg-1.17" = _z6iou7SS;
         "pkg-1.18" = _JOY0xjbl;
@@ -204,8 +213,8 @@ let
         "pkg-1.21.5" = _A7xlGpo8;
         "pkg-2" = _LqHqEGQr;
         "pkg-1.21.6" = _NuUrM1Ck;
-        "pkg-1.0" = _orwbTU2z;
-        "default" = _orwbTU2z;
+        "pkg-1.0" = _VPbHM3Ms;
+        "default" = _VPbHM3Ms;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "seasonal-trees";

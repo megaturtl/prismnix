@@ -101,6 +101,16 @@ let
             "file" = "QuintMenu-1.2.15-Fabric-26.2.jar";
             "hash" = "sha512-5KL87SEd/ltcPLZsBZzlYeendDYF6X9czifUI8v3nPZ3gzKiMrp9tJxRaU5dmsHPkka3uBDJih+qqTOAvvsv3g==";
         };
+        _Xb4go5s6 = {
+            "id" = "Xb4go5s6";
+            "file" = "QuintMenu-1.2.17-Fabric-26.3.jar";
+            "hash" = "sha512-u1suAYNfL0Xa5gVqsd0Kb+9LiCHeOP/4PvBpzFJDpQ6o7X3YA+rvup3+bJJPM2J7t+frP8PlsA0bLIAomcEeOw==";
+        };
+        _GKJu2UVq = {
+            "id" = "GKJu2UVq";
+            "file" = "QuintMenu-1.2.17-Forge-26.3.jar";
+            "hash" = "sha512-VzAY+BvPWDTQhacccMbc7jSkpp/LW2mMKF4lW/BGxpFIrK36dd/X4mLTuyh/AimL6gTdVW0Gr2C32lV7UTKtwg==";
+        };
     in {
         "xD7ydZ3r" = _xD7ydZ3r;
         "Xk7j0ev4" = _Xk7j0ev4;
@@ -122,6 +132,8 @@ let
         "eXUrjFlV" = _eXUrjFlV;
         "xIZUBWWZ" = _xIZUBWWZ;
         "3zBnMiWd" = _3zBnMiWd;
+        "Xb4go5s6" = _Xb4go5s6;
+        "GKJu2UVq" = _GKJu2UVq;
         "fabric-1.21.11" = _xD7ydZ3r;
         "fabric-1.21.4" = _Xk7j0ev4;
         "fabric-1.21.5" = _Xk7j0ev4;
@@ -138,6 +150,7 @@ let
         "fabric-1.21.2" = _duwYwSbx;
         "fabric-1.21.3" = _duwYwSbx;
         "fabric-26.2" = _3zBnMiWd;
+        "fabric-26.3" = _Xb4go5s6;
         "forge-26.1" = _jm7B2n98;
         "forge-26.1.1" = _jm7B2n98;
         "forge-26.1.2" = _jm7B2n98;
@@ -148,6 +161,7 @@ let
         "forge-1.21.9" = _3gGsbeYg;
         "forge-1.21.10" = _3gGsbeYg;
         "forge-26.2" = _xIZUBWWZ;
+        "forge-26.3" = _GKJu2UVq;
         "pkg-1.2.0" = _NG9i28zM;
         "pkg-1.2.8" = _Xk7j0ev4;
         "pkg-1.2.12" = _jm7B2n98;
@@ -155,7 +169,8 @@ let
         "pkg-1.2.13" = _CelRKv7i;
         "pkg-1.2.14" = _3gGsbeYg;
         "pkg-1.2.15" = _3zBnMiWd;
-        "default" = _3zBnMiWd;
+        "pkg-1.2.17" = _GKJu2UVq;
+        "default" = _GKJu2UVq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "quintessential-quintuplets-theme";

@@ -266,6 +266,11 @@ let
             "file" = "createfood-neoforge-1.21.1-2.7.1.jar";
             "hash" = "sha512-n0pURnGzgaDL+OJCjc3hV4dyzFIz+zB02Kk82YegZA55VSov+uivDI+QjtVzdus8KbMnRLTyV8PwARAed6GEIA==";
         };
+        _uaxLGKon = {
+            "id" = "uaxLGKon";
+            "file" = "createfood-neoforge-1.21.1-3.0.0.jar";
+            "hash" = "sha512-Ur1WdeIW4mCZ+R6jPotq3C8dUTQjnqfqnGYiGi/9zgeTSPWjW9oxjKjJuRxAzyDqY/Qx32d++08UCAhmU+rUXg==";
+        };
     in {
         "6YSR1wBu" = _6YSR1wBu;
         "O3g1mdRZ" = _O3g1mdRZ;
@@ -320,11 +325,12 @@ let
         "xUypaq2u" = _xUypaq2u;
         "FmjGqkQt" = _FmjGqkQt;
         "CnuisYs3" = _CnuisYs3;
+        "uaxLGKon" = _uaxLGKon;
         "fabric-1.20.1" = _WvPgVfPl;
         "fabric-1.21.1" = _TNiB82rm;
         "forge-1.20.1" = _xUypaq2u;
         "neoforge-1.20.1" = _wzfyAIgJ;
-        "neoforge-1.21.1" = _CnuisYs3;
+        "neoforge-1.21.1" = _uaxLGKon;
         "pkg-1.0.1" = _6YSR1wBu;
         "pkg-1.0.2" = _O3g1mdRZ;
         "pkg-1.0.3" = _15ZztRHQ;
@@ -367,7 +373,8 @@ let
         "pkg-2.6.0" = _xUypaq2u;
         "pkg-2.7.0" = _FmjGqkQt;
         "pkg-2.7.1" = _CnuisYs3;
-        "default" = _CnuisYs3;
+        "pkg-3.0.0" = _uaxLGKon;
+        "default" = _uaxLGKon;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-food";

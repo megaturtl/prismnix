@@ -456,6 +456,11 @@ let
             "file" = "Multiblocked2-1.21-1.21.1-21.1.2-all.jar";
             "hash" = "sha512-dB5DAptKWFhKDSFef+YuZVOlZI8ZDVR39XoB9FcK4/wN3pl8PM8+VAXSNVbPWaD2a/ZI9VBxgaQhuPaL1d6aeg==";
         };
+        _U0a6CMAz = {
+            "id" = "U0a6CMAz";
+            "file" = "multiblocked2-1.20.1-1.0.40.jar";
+            "hash" = "sha512-yFLKjJnk1n29ioRFevdEGfMpNzWVFW6L6jjQK5Q/qiAXjAOM3Szv1ZNNdUJVTwGUG9cNw+D6Kas5td+Iqaq9kg==";
+        };
     in {
         "yBlnUKij" = _yBlnUKij;
         "rMv5cF9g" = _rMv5cF9g;
@@ -548,7 +553,8 @@ let
         "RKlLMPUC" = _RKlLMPUC;
         "2mrI6ktB" = _2mrI6ktB;
         "XlQ10omv" = _XlQ10omv;
-        "forge-1.20.1" = _2mrI6ktB;
+        "U0a6CMAz" = _U0a6CMAz;
+        "forge-1.20.1" = _U0a6CMAz;
         "neoforge-1.21.1" = _XlQ10omv;
         "pkg-1.0.0" = _yBlnUKij;
         "pkg-1.0.1" = _rMv5cF9g;
@@ -639,7 +645,8 @@ let
         "pkg-mc1.21.1-21.1.1.a-neoforge" = _RKlLMPUC;
         "pkg-mc1.20.1-1.0.39.a-forge" = _2mrI6ktB;
         "pkg-mc1.21.1-21.1.2-neoforge" = _XlQ10omv;
-        "default" = _XlQ10omv;
+        "pkg-mc1.20.1-1.0.40-forge" = _U0a6CMAz;
+        "default" = _U0a6CMAz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "multiblocked2";

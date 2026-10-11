@@ -171,6 +171,11 @@ let
             "file" = "modular-routers-13.2.7+mc1.21.1.jar";
             "hash" = "sha512-HGNLnMdptenpXvfkW4y92YFEI9zNZg596GKYXIGrtieJ/Co+sl04wG0EIzpThIYrYaAogbLxuTZx23KKhlFxvQ==";
         };
+        _6qMDJ0mn = {
+            "id" = "6qMDJ0mn";
+            "file" = "modular-routers-13.2.7+mc1.21.1.jar";
+            "hash" = "sha512-1fVg2tzFxiL9Qas5/1qtUlA7V9/YzukhOIS0dy+ac+/DE13cPhKeXZFb9pTQzeLB9jAjO/1LWisouQRKXFnCLg==";
+        };
     in {
         "FnDo4LmC" = _FnDo4LmC;
         "fIUy6aqq" = _fIUy6aqq;
@@ -206,6 +211,7 @@ let
         "HvFNharn" = _HvFNharn;
         "ktJvMigA" = _ktJvMigA;
         "wcfqOJTo" = _wcfqOJTo;
+        "6qMDJ0mn" = _6qMDJ0mn;
         "forge-1.18.2" = _cWmgGCF5;
         "forge-1.19.2" = _YjZfmiJU;
         "forge-1.19.3" = _UwN0pcoz;
@@ -215,7 +221,7 @@ let
         "neoforge-1.20.2" = _aHoZri7K;
         "neoforge-1.20.4" = _ykbzqEAJ;
         "neoforge-1.21" = _XQQoFWqn;
-        "neoforge-1.21.1" = _wcfqOJTo;
+        "neoforge-1.21.1" = _6qMDJ0mn;
         "neoforge-1.21.4" = _QkQDspVi;
         "neoforge-1.21.8" = _pHImNIIf;
         "neoforge-26.1.2" = _Rn0lLXiD;
@@ -251,8 +257,8 @@ let
         "pkg-26.1.2.2" = _Rn0lLXiD;
         "pkg-26.2.0.1" = _No2ZCBbI;
         "pkg-13.2.6" = _HvFNharn;
-        "pkg-13.2.7" = _wcfqOJTo;
-        "default" = _wcfqOJTo;
+        "pkg-13.2.7" = _6qMDJ0mn;
+        "default" = _6qMDJ0mn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modular-routers";

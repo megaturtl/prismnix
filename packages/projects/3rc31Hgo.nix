@@ -646,6 +646,16 @@ let
             "file" = "spectrum-1.12.7-1.21.1-neo.jar";
             "hash" = "sha512-z5XrfnTOccJ218uYt5yPw31yc7l3PiYvPTY5rH3sflKn9s5z7eLH8EnzmgcSPbiI74r/gnmpgW07cOJf7HGzhQ==";
         };
+        _OfGUbuuJ = {
+            "id" = "OfGUbuuJ";
+            "file" = "spectrum-1.12.8-1.21.1-neo.jar";
+            "hash" = "sha512-erMuvovW3x3h8L4qOnX1yAdLMO1TldN3pUBOi6F9/GTiy3L+Vgh/s9pW46RT74JOFTDlY9IzNln8Qjrutxx1qQ==";
+        };
+        _ODbJTcVf = {
+            "id" = "ODbJTcVf";
+            "file" = "spectrum-1.12.9-1.21.1-neo.jar";
+            "hash" = "sha512-PhbsELljcCwqufTdoyjbTtBY/iRXNgtj44GXSdUB4ZAWFR4hXdKBAQpPTyIKbA7VwiSPPBW3xjhEGnhN7EeAmg==";
+        };
     in {
         "ZqiJ0my1" = _ZqiJ0my1;
         "XgqfsaxR" = _XgqfsaxR;
@@ -776,6 +786,8 @@ let
         "7Wrr9tm5" = _7Wrr9tm5;
         "8LeNdZyX" = _8LeNdZyX;
         "tEpDIvPh" = _tEpDIvPh;
+        "OfGUbuuJ" = _OfGUbuuJ;
+        "ODbJTcVf" = _ODbJTcVf;
         "fabric-1.18.1" = _HYBdfvhk;
         "fabric-1.18.2" = _7YmKE57s;
         "fabric-1.19.2" = _cZcvzTh4;
@@ -783,7 +795,7 @@ let
         "fabric-1.21.1" = _7Wrr9tm5;
         "quilt-1.19.2" = _bkeScaQT;
         "quilt-1.20.1" = _8Ri3sl6F;
-        "neoforge-1.21.1" = _tEpDIvPh;
+        "neoforge-1.21.1" = _ODbJTcVf;
         "pkg-1.0.0" = _ZqiJ0my1;
         "pkg-1.0.1" = _XgqfsaxR;
         "pkg-1.1.4" = _CMmKunJD;
@@ -896,7 +908,9 @@ let
         "pkg-1.10.6-1.21.1-fabric" = _7Wrr9tm5;
         "pkg-1.12.6-1.21.1-neo" = _8LeNdZyX;
         "pkg-1.12.7-1.21.1-neo" = _tEpDIvPh;
-        "default" = _tEpDIvPh;
+        "pkg-1.12.8-1.21.1-neo" = _OfGUbuuJ;
+        "pkg-1.12.9-1.21.1-neo" = _ODbJTcVf;
+        "default" = _ODbJTcVf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spectrum";

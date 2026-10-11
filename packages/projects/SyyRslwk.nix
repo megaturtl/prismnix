@@ -21,11 +21,17 @@ let
             "file" = "eating_animations_x_farmers_delight.zip";
             "hash" = "sha512-sIgvxKfNBqTVZOhBeQRbjVvqYkKmYiUYxzdX7ejz2VOYMqa9gt5GEirsbj1L/wetpeNobbw5eq12KkUfiKoBZg==";
         };
+        _CMe7y6am = {
+            "id" = "CMe7y6am";
+            "file" = "eating_animations_x_farmers_delight.zip";
+            "hash" = "sha512-K/hBWmIh/zjRp+GcUysKMFUp2HT0BfYRxLI4nDvEhuZ71jCN6L0DAzir+tvSxwuqPqkxym7G4ALYYmV9Arn/Hg==";
+        };
     in {
         "8XVHnlnZ" = _8XVHnlnZ;
         "UtEZ82eK" = _UtEZ82eK;
         "g8CP8RoN" = _g8CP8RoN;
         "3mG0g7oA" = _3mG0g7oA;
+        "CMe7y6am" = _CMe7y6am;
         "minecraft-1.6.1" = _8XVHnlnZ;
         "minecraft-1.6.2" = _8XVHnlnZ;
         "minecraft-1.6.4" = _8XVHnlnZ;
@@ -140,9 +146,9 @@ let
         "minecraft-1.21-pre3" = _8XVHnlnZ;
         "minecraft-1.21-pre4" = _8XVHnlnZ;
         "minecraft-1.21-rc1" = _8XVHnlnZ;
-        "minecraft-1.21" = _3mG0g7oA;
+        "minecraft-1.21" = _CMe7y6am;
         "minecraft-1.21.1-rc1" = _8XVHnlnZ;
-        "minecraft-1.21.1" = _3mG0g7oA;
+        "minecraft-1.21.1" = _CMe7y6am;
         "minecraft-24w33a" = _8XVHnlnZ;
         "minecraft-24w34a" = _8XVHnlnZ;
         "minecraft-24w35a" = _8XVHnlnZ;
@@ -158,8 +164,8 @@ let
         "minecraft-1.21.2-pre5" = _8XVHnlnZ;
         "minecraft-1.21.2-rc1" = _8XVHnlnZ;
         "minecraft-1.21.2-rc2" = _8XVHnlnZ;
-        "minecraft-1.21.2" = _3mG0g7oA;
-        "minecraft-1.21.3" = _3mG0g7oA;
+        "minecraft-1.21.2" = _CMe7y6am;
+        "minecraft-1.21.3" = _CMe7y6am;
         "minecraft-24w44a" = _8XVHnlnZ;
         "minecraft-24w45a" = _8XVHnlnZ;
         "minecraft-24w46a" = _8XVHnlnZ;
@@ -169,7 +175,7 @@ let
         "minecraft-1.21.4-rc1" = _8XVHnlnZ;
         "minecraft-1.21.4-rc2" = _8XVHnlnZ;
         "minecraft-1.21.4-rc3" = _8XVHnlnZ;
-        "minecraft-1.21.4" = _3mG0g7oA;
+        "minecraft-1.21.4" = _CMe7y6am;
         "minecraft-25w02a" = _8XVHnlnZ;
         "minecraft-25w03a" = _8XVHnlnZ;
         "minecraft-25w04a" = _8XVHnlnZ;
@@ -185,7 +191,7 @@ let
         "minecraft-1.21.5-pre3" = _8XVHnlnZ;
         "minecraft-1.21.5-rc1" = _8XVHnlnZ;
         "minecraft-1.21.5-rc2" = _8XVHnlnZ;
-        "minecraft-1.21.5" = _3mG0g7oA;
+        "minecraft-1.21.5" = _CMe7y6am;
         "minecraft-25w14craftmine" = _8XVHnlnZ;
         "minecraft-25w15a" = _8XVHnlnZ;
         "minecraft-25w16a" = _8XVHnlnZ;
@@ -199,12 +205,12 @@ let
         "minecraft-1.21.6-pre3" = _8XVHnlnZ;
         "minecraft-1.21.6-pre4" = _8XVHnlnZ;
         "minecraft-1.21.6-rc1" = _8XVHnlnZ;
-        "minecraft-1.21.6" = _3mG0g7oA;
+        "minecraft-1.21.6" = _CMe7y6am;
         "minecraft-1.21.7-rc1" = _8XVHnlnZ;
         "minecraft-1.21.7-rc2" = _8XVHnlnZ;
-        "minecraft-1.21.7" = _3mG0g7oA;
+        "minecraft-1.21.7" = _CMe7y6am;
         "minecraft-1.21.8-rc1" = _8XVHnlnZ;
-        "minecraft-1.21.8" = _3mG0g7oA;
+        "minecraft-1.21.8" = _CMe7y6am;
         "minecraft-25w31a" = _8XVHnlnZ;
         "minecraft-25w32a" = _8XVHnlnZ;
         "minecraft-25w33a" = _8XVHnlnZ;
@@ -219,9 +225,9 @@ let
         "minecraft-1.21.9-pre3" = _8XVHnlnZ;
         "minecraft-1.21.9-pre4" = _8XVHnlnZ;
         "minecraft-1.21.9-rc1" = _8XVHnlnZ;
-        "minecraft-1.21.9" = _3mG0g7oA;
+        "minecraft-1.21.9" = _CMe7y6am;
         "minecraft-1.21.10-rc1" = _8XVHnlnZ;
-        "minecraft-1.21.10" = _3mG0g7oA;
+        "minecraft-1.21.10" = _CMe7y6am;
         "minecraft-25w41a" = _8XVHnlnZ;
         "minecraft-25w42a" = _8XVHnlnZ;
         "minecraft-25w43a" = _8XVHnlnZ;
@@ -236,7 +242,7 @@ let
         "minecraft-1.21.11-rc1" = _8XVHnlnZ;
         "minecraft-1.21.11-rc2" = _8XVHnlnZ;
         "minecraft-1.21.11-rc3" = _8XVHnlnZ;
-        "minecraft-1.21.11" = _3mG0g7oA;
+        "minecraft-1.21.11" = _CMe7y6am;
         "minecraft-26.1-snapshot-1" = _8XVHnlnZ;
         "minecraft-26.1-snapshot-2" = _8XVHnlnZ;
         "minecraft-26.1-snapshot-3" = _8XVHnlnZ;
@@ -254,13 +260,13 @@ let
         "minecraft-26.1-rc-1" = _8XVHnlnZ;
         "minecraft-26.1-rc-2" = _8XVHnlnZ;
         "minecraft-26.1-rc-3" = _8XVHnlnZ;
-        "minecraft-26.1" = _3mG0g7oA;
+        "minecraft-26.1" = _CMe7y6am;
         "minecraft-26.1.1-rc-1" = _8XVHnlnZ;
-        "minecraft-26.1.1" = _3mG0g7oA;
+        "minecraft-26.1.1" = _CMe7y6am;
         "minecraft-26w14a" = _8XVHnlnZ;
         "minecraft-26.2-snapshot-1" = _8XVHnlnZ;
         "minecraft-26.1.2-rc-1" = _8XVHnlnZ;
-        "minecraft-26.1.2" = _3mG0g7oA;
+        "minecraft-26.1.2" = _CMe7y6am;
         "minecraft-26.2-snapshot-2" = _8XVHnlnZ;
         "minecraft-26.2-snapshot-3" = _8XVHnlnZ;
         "minecraft-26.2-snapshot-4" = _8XVHnlnZ;
@@ -276,11 +282,11 @@ let
         "minecraft-26.2-pre-6" = _8XVHnlnZ;
         "minecraft-26.2-rc-1" = _8XVHnlnZ;
         "minecraft-26.2-rc-2" = _8XVHnlnZ;
-        "minecraft-26.2" = _3mG0g7oA;
-        "minecraft-26.3" = _3mG0g7oA;
-        "pkg-Outdated" = _UtEZ82eK;
-        "pkg-Latest" = _3mG0g7oA;
-        "default" = _3mG0g7oA;
+        "minecraft-26.2" = _CMe7y6am;
+        "minecraft-26.3" = _CMe7y6am;
+        "pkg-Outdated" = _3mG0g7oA;
+        "pkg-Latest" = _CMe7y6am;
+        "default" = _CMe7y6am;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "eating-animations-for-farmers-delight";

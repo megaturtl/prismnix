@@ -71,6 +71,11 @@ let
             "file" = "passwords-2.6.2.jar";
             "hash" = "sha512-RuzyTI0OMq12rSZhrMy0GKrQIdorU9TyAUwuo+SeYjWe7FjFEBYx7EagJgUxRQ5nOiXCqQkgVdZXJ5dXMXy9fw==";
         };
+        _3MSSyegi = {
+            "id" = "3MSSyegi";
+            "file" = "passwords-2.6.3.jar";
+            "hash" = "sha512-8nP9WnH6VFZ8ws4Uu09qaPhs5o5iQtgG+6BNemQK28cAhx35fd/fZ/ewIUI0RKd5DDJF/4KeLYNWSCEdedY6Yg==";
+        };
     in {
         "lKjd8apn" = _lKjd8apn;
         "UYARWfab" = _UYARWfab;
@@ -86,6 +91,7 @@ let
         "rCxfbgZf" = _rCxfbgZf;
         "9QJPGjgJ" = _9QJPGjgJ;
         "MRc808GW" = _MRc808GW;
+        "3MSSyegi" = _3MSSyegi;
         "bukkit-1.21" = _30qb3BVn;
         "bukkit-1.21.1" = _30qb3BVn;
         "bukkit-1.21.2" = _30qb3BVn;
@@ -103,6 +109,11 @@ let
         "paper-1.21.9" = _MRc808GW;
         "paper-1.21.10" = _MRc808GW;
         "paper-1.21.11" = _MRc808GW;
+        "paper-26.1" = _3MSSyegi;
+        "paper-26.1.1" = _3MSSyegi;
+        "paper-26.1.2" = _3MSSyegi;
+        "paper-26.2" = _3MSSyegi;
+        "paper-26.3" = _3MSSyegi;
         "spigot-1.21" = _30qb3BVn;
         "spigot-1.21.1" = _30qb3BVn;
         "spigot-1.21.2" = _30qb3BVn;
@@ -120,6 +131,16 @@ let
         "purpur-1.21.9" = _MRc808GW;
         "purpur-1.21.10" = _MRc808GW;
         "purpur-1.21.11" = _MRc808GW;
+        "purpur-26.1" = _3MSSyegi;
+        "purpur-26.1.1" = _3MSSyegi;
+        "purpur-26.1.2" = _3MSSyegi;
+        "purpur-26.2" = _3MSSyegi;
+        "purpur-26.3" = _3MSSyegi;
+        "folia-26.1" = _3MSSyegi;
+        "folia-26.1.1" = _3MSSyegi;
+        "folia-26.1.2" = _3MSSyegi;
+        "folia-26.2" = _3MSSyegi;
+        "folia-26.3" = _3MSSyegi;
         "pkg-1.0" = _lKjd8apn;
         "pkg-1.2" = _UYARWfab;
         "pkg-0.1.3" = _3M8lN2Jl;
@@ -134,7 +155,8 @@ let
         "pkg-2.6" = _rCxfbgZf;
         "pkg-2.6.1" = _9QJPGjgJ;
         "pkg-2.6.2" = _MRc808GW;
-        "default" = _MRc808GW;
+        "pkg-2.6.3" = _3MSSyegi;
+        "default" = _3MSSyegi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "passwords";

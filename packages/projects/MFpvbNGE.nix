@@ -141,6 +141,11 @@ let
             "file" = "roguelike-dungeons-fabric-2.1.2+mc26.2.jar";
             "hash" = "sha512-yNBIEO7YXHg79ElvgFSEtLeWWOnqBIRDGioeinUKmQSIOH4gy0i6GVDyghsRDHNJruhonWXJHJSfgrJawh7gVA==";
         };
+        _kcbfVSMp = {
+            "id" = "kcbfVSMp";
+            "file" = "roguelike-dungeons-fabric-2.1.2+mc26.3.jar";
+            "hash" = "sha512-tNpM5H/Z6cy+M1tGg22PXSw1xJhwx9PTI+qY+yGUzipwKa6Hvc3bBfq5yqO+8YhLv02xdkM9vVnLqnuqzd0slw==";
+        };
     in {
         "pu1MzEvN" = _pu1MzEvN;
         "wZIpBSKG" = _wZIpBSKG;
@@ -170,6 +175,7 @@ let
         "rmaTSsbI" = _rmaTSsbI;
         "9nMqgyZn" = _9nMqgyZn;
         "FIYUpGUY" = _FIYUpGUY;
+        "kcbfVSMp" = _kcbfVSMp;
         "fabric-1.20.6" = _FiSyTRyw;
         "fabric-1.20.1" = _3cXBjCfG;
         "fabric-1.21" = _v0qI49QE;
@@ -187,6 +193,7 @@ let
         "fabric-26.1.1" = _9nMqgyZn;
         "fabric-26.1.2" = _9nMqgyZn;
         "fabric-26.2" = _FIYUpGUY;
+        "fabric-26.3" = _kcbfVSMp;
         "pkg-2.0.1beta-1.20.6-fabric" = _pu1MzEvN;
         "pkg-2.0.2beta-1.20.6-fabric" = _wZIpBSKG;
         "pkg-2.0.3beta-1.20.6-fabric" = _YyPIkkFe;
@@ -215,7 +222,8 @@ let
         "pkg-fabric-2.1.2+mc1.21.11" = _rmaTSsbI;
         "pkg-fabric-2.1.2+mc26.1.2" = _9nMqgyZn;
         "pkg-fabric-2.1.2+mc26.2" = _FIYUpGUY;
-        "default" = _FIYUpGUY;
+        "pkg-fabric-2.1.2+mc26.3" = _kcbfVSMp;
+        "default" = _kcbfVSMp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "roguelikedungeons";

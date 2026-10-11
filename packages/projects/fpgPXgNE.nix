@@ -51,6 +51,21 @@ let
             "file" = "wynnbinds-2.1.0.jar";
             "hash" = "sha512-QS8tMX9zt3TMTGka2CXDvCqBEP/lA0I2kLBJ/+ACozqeC4IKAunqk6fU42CVu66Ki/zAb5lDzQmXLutWs9uFXw==";
         };
+        _SH6pxY1o = {
+            "id" = "SH6pxY1o";
+            "file" = "wynnbinds-3.0.0.jar";
+            "hash" = "sha512-P3qXLfx0f4TWmZ/vT6p1L8yhxT0WQeqow1FEtYD6gtS0W+x69Ni6FM3n8JgEu3km+cvuQR4tq/X6fh9xoKp27w==";
+        };
+        _I6F8UbUD = {
+            "id" = "I6F8UbUD";
+            "file" = "wynnbinds-3.1.0.jar";
+            "hash" = "sha512-mQWJfoacON7z/BOCb2LrliPSevZGGhH2eqEuY8dvruwQBuaWr+Q8kWbeSqD8ljOM7jmXwOCa3AgXwtMMbow7LQ==";
+        };
+        _jkeeBEF9 = {
+            "id" = "jkeeBEF9";
+            "file" = "wynnbinds-2.2.0.jar";
+            "hash" = "sha512-isdEb7DRSwkdS6yHou/rypgygpH4vi4Tp3vMf4wDk1gAEm5kCkHBfihUfUw9PJaTQ4pYnvkxuYZvI7iqLxKptw==";
+        };
     in {
         "z9zmktBM" = _z9zmktBM;
         "VrNo3yV7" = _VrNo3yV7;
@@ -62,8 +77,12 @@ let
         "WZH3Wx40" = _WZH3Wx40;
         "JOqq0ypA" = _JOqq0ypA;
         "m9IIzsBo" = _m9IIzsBo;
+        "SH6pxY1o" = _SH6pxY1o;
+        "I6F8UbUD" = _I6F8UbUD;
+        "jkeeBEF9" = _jkeeBEF9;
         "fabric-1.21.4" = _fs9tcJDw;
-        "fabric-1.21.11" = _m9IIzsBo;
+        "fabric-1.21.11" = _jkeeBEF9;
+        "fabric-26.3" = _I6F8UbUD;
         "pkg-1.0.0" = _z9zmktBM;
         "pkg-1.1.0" = _VrNo3yV7;
         "pkg-1.2.0" = _ahXyacU7;
@@ -74,7 +93,10 @@ let
         "pkg-1.5.1" = _WZH3Wx40;
         "pkg-2.0.0" = _JOqq0ypA;
         "pkg-2.1.0" = _m9IIzsBo;
-        "default" = _m9IIzsBo;
+        "pkg-3.0.0" = _SH6pxY1o;
+        "pkg-3.1.0" = _I6F8UbUD;
+        "pkg-2.2.0" = _jkeeBEF9;
+        "default" = _jkeeBEF9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wynnbinds";

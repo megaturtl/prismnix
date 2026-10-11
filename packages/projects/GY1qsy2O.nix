@@ -56,6 +56,11 @@ let
             "file" = "§6Bray's Bow & Arrows v1.2.3.zip";
             "hash" = "sha512-ySS5PFELYAcOFUWvohjpm4w0Yk3/q3BSnX3Dea8U+dk3ol0M+KJQhjTAEbM/MhQ0fGy7lkS0TalIW9SNEsdKbg==";
         };
+        _zecmufno = {
+            "id" = "zecmufno";
+            "file" = "§6Bray's Bow and Arrows v1.2.4.zip";
+            "hash" = "sha512-2npx6rWWqy8GnvCpmDvPD4rzE1Xd8QpjnWr8EywGS3yfbOdlX8757c7ANShUpjDid0jZ2KwJdBD72bdjqzoGLA==";
+        };
     in {
         "z9syfit2" = _z9syfit2;
         "h8rAOnlX" = _h8rAOnlX;
@@ -68,6 +73,7 @@ let
         "X53GgS0P" = _X53GgS0P;
         "LI49zez0" = _LI49zez0;
         "gIAJoXtO" = _gIAJoXtO;
+        "zecmufno" = _zecmufno;
         "minecraft-1.20" = _LI49zez0;
         "minecraft-1.20.1" = _LI49zez0;
         "minecraft-1.20.2" = _LI49zez0;
@@ -77,16 +83,16 @@ let
         "minecraft-1.20.6" = _LI49zez0;
         "minecraft-1.21" = _LI49zez0;
         "minecraft-1.21.1" = _LI49zez0;
-        "minecraft-1.21.2" = _gIAJoXtO;
-        "minecraft-1.21.3" = _gIAJoXtO;
-        "minecraft-1.21.4" = _gIAJoXtO;
-        "minecraft-1.21.5" = _gIAJoXtO;
-        "minecraft-1.21.6" = _gIAJoXtO;
-        "minecraft-1.21.7" = _gIAJoXtO;
-        "minecraft-1.21.8" = _gIAJoXtO;
-        "minecraft-1.21.9" = _gIAJoXtO;
-        "minecraft-1.21.10" = _gIAJoXtO;
-        "minecraft-1.21.11" = _gIAJoXtO;
+        "minecraft-1.21.2" = _zecmufno;
+        "minecraft-1.21.3" = _zecmufno;
+        "minecraft-1.21.4" = _zecmufno;
+        "minecraft-1.21.5" = _zecmufno;
+        "minecraft-1.21.6" = _zecmufno;
+        "minecraft-1.21.7" = _zecmufno;
+        "minecraft-1.21.8" = _zecmufno;
+        "minecraft-1.21.9" = _zecmufno;
+        "minecraft-1.21.10" = _zecmufno;
+        "minecraft-1.21.11" = _zecmufno;
         "minecraft-22w42a" = _8nqZKSHv;
         "minecraft-22w43a" = _8nqZKSHv;
         "minecraft-22w44a" = _8nqZKSHv;
@@ -139,10 +145,11 @@ let
         "minecraft-24w44a" = _8nqZKSHv;
         "minecraft-24w45a" = _8nqZKSHv;
         "minecraft-24w46a" = _8nqZKSHv;
-        "minecraft-26.1" = _gIAJoXtO;
-        "minecraft-26.1.1" = _gIAJoXtO;
-        "minecraft-26.1.2" = _gIAJoXtO;
-        "minecraft-26.2" = _gIAJoXtO;
+        "minecraft-26.1" = _zecmufno;
+        "minecraft-26.1.1" = _zecmufno;
+        "minecraft-26.1.2" = _zecmufno;
+        "minecraft-26.2" = _zecmufno;
+        "minecraft-26.3" = _zecmufno;
         "pkg-1.0" = _z9syfit2;
         "pkg-1.0.1" = _h8rAOnlX;
         "pkg-1.0.2" = _zBDLigMV;
@@ -154,7 +161,8 @@ let
         "pkg-1.2.1" = _X53GgS0P;
         "pkg-1.2.2" = _LI49zez0;
         "pkg-1.2.3" = _gIAJoXtO;
-        "default" = _gIAJoXtO;
+        "pkg-1.2.4" = _zecmufno;
+        "default" = _zecmufno;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "brays-better-3d-bow";

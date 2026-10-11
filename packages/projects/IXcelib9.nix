@@ -16,17 +16,24 @@ let
             "file" = "windswept_delights-1.21.1-2.0.1.jar";
             "hash" = "sha512-hzs6XxY21HwTC/tfDINyX/uv4ubw3fwHEvKC/9TaxRypLdibwi63YAQ8SYPG10SYrNsIZ3wUQHSAM2dQ04L2Og==";
         };
+        _NF0C0Fj9 = {
+            "id" = "NF0C0Fj9";
+            "file" = "windswept_delights-1.21.1-2.0.2.jar";
+            "hash" = "sha512-uvHaPUQ+KkLZz0F8Uf94oWhndtVO7jyk7eDu42pHiiLK6kksnE1LWark8ch/OeAuxTU8itC9dTQ0pAwl0yTA9Q==";
+        };
     in {
         "RJCnvvlC" = _RJCnvvlC;
         "S1uJ25HD" = _S1uJ25HD;
         "EgrZiO89" = _EgrZiO89;
+        "NF0C0Fj9" = _NF0C0Fj9;
         "forge-1.20.1" = _RJCnvvlC;
         "neoforge-1.20.1" = _RJCnvvlC;
-        "neoforge-1.21.1" = _EgrZiO89;
+        "neoforge-1.21.1" = _NF0C0Fj9;
         "pkg-1.0.0" = _RJCnvvlC;
         "pkg-2.0.0" = _S1uJ25HD;
         "pkg-2.0.1" = _EgrZiO89;
-        "default" = _EgrZiO89;
+        "pkg-2.0.2" = _NF0C0Fj9;
+        "default" = _NF0C0Fj9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "windswept-delights";

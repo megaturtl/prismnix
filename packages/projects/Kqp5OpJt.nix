@@ -61,6 +61,26 @@ let
             "file" = "assortedcore-fabric-26.2-10.0.0.jar";
             "hash" = "sha512-UDMZ7sFnGG6glEC2Iz/Dv27bQtT0mzMoLRFDGdYPD24WJS/4qaaFpVB5Bf+PnRuDFl7SfNP0FV+PiL4C0BDzzg==";
         };
+        _DVE2PCgI = {
+            "id" = "DVE2PCgI";
+            "file" = "assortedcore-neoforge-26.2-10.1.0.jar";
+            "hash" = "sha512-WNJ3iNn1k3eeGLHBd3scZV5P4AEH+ZNAAoN6QiFNlqMQB0tGVyWyoaBXy2Z1i4yXWXKJ4HAgwlUoemGzG7ejXg==";
+        };
+        _mQV1coUq = {
+            "id" = "mQV1coUq";
+            "file" = "assortedcore-fabric-26.2-10.1.0.jar";
+            "hash" = "sha512-8KgctUVQXwZHDGYM9LCQ4lzwWubzvJTJHwoTy5dmpGXrxpl2rCplFAm02RI9S9GwbMRfxsd6vTSh4B56qDgUug==";
+        };
+        _ocSFwNbz = {
+            "id" = "ocSFwNbz";
+            "file" = "assortedcore-neoforge-26.2-11.0.0.jar";
+            "hash" = "sha512-3kv+gh4ldbxUAJ1zKpBgMddXEAGvItR5sKdyetcOL4ZUbFZF/fl6Wi0aOA91ifNof5V+p6OjUQ4giX7WB55/Pg==";
+        };
+        _sL1gFWQ2 = {
+            "id" = "sL1gFWQ2";
+            "file" = "assortedcore-fabric-26.2-11.0.0.jar";
+            "hash" = "sha512-vSJYbbDzBVahsxtDMn/E74oZjdT+/rPxvE7DoDAO8QsUPdrNM+11Y7Ui5ayiOWOL4pkpinEGXYkvEZk/urqabw==";
+        };
     in {
         "88McFLMG" = _88McFLMG;
         "yLsQkI1T" = _yLsQkI1T;
@@ -74,6 +94,10 @@ let
         "B8YsWPGq" = _B8YsWPGq;
         "9mMJYtXy" = _9mMJYtXy;
         "3LLupxI9" = _3LLupxI9;
+        "DVE2PCgI" = _DVE2PCgI;
+        "mQV1coUq" = _mQV1coUq;
+        "ocSFwNbz" = _ocSFwNbz;
+        "sL1gFWQ2" = _sL1gFWQ2;
         "forge-1.18.2" = _88McFLMG;
         "forge-1.19.2" = _yLsQkI1T;
         "forge-1.19.3" = _y37SLxXR;
@@ -82,8 +106,8 @@ let
         "fabric-1.19.3" = _wotLFIg4;
         "fabric-1.19.4" = _73heJFro;
         "fabric-1.20.1" = _otP5kp1O;
-        "fabric-26.2" = _3LLupxI9;
-        "neoforge-26.2" = _9mMJYtXy;
+        "fabric-26.2" = _sL1gFWQ2;
+        "neoforge-26.2" = _ocSFwNbz;
         "pkg-1.18.2-4.0.0" = _88McFLMG;
         "pkg-assortedcore-1.19.2-5.1.0" = _yLsQkI1T;
         "pkg-1.19.3-6.0.1" = _W7JwFRkv;
@@ -93,7 +117,11 @@ let
         "pkg-9.0.1" = _B8YsWPGq;
         "pkg-10.0.0+neoforge" = _9mMJYtXy;
         "pkg-10.0.0+fabric" = _3LLupxI9;
-        "default" = _3LLupxI9;
+        "pkg-10.1.0+neoforge" = _DVE2PCgI;
+        "pkg-10.1.0+fabric" = _mQV1coUq;
+        "pkg-11.0.0+neoforge" = _ocSFwNbz;
+        "pkg-11.0.0+fabric" = _sL1gFWQ2;
+        "default" = _sL1gFWQ2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "assorted-core";

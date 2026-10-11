@@ -21,17 +21,24 @@ let
             "file" = "turret-tacz-0.8.3-early-beta.jar";
             "hash" = "sha512-zE8fNzjJF8rtq1PxKGaH+MMHjbh32uylgxJtd2BUqVBzYdzFckz9Tucq3lvvd30bGYROAcHRyifNX0w7uBqpzw==";
         };
+        _La8mGYHp = {
+            "id" = "La8mGYHp";
+            "file" = "turret-tacz-0.8.5-beta.jar";
+            "hash" = "sha512-D/Da9Agu4nrvvTA5FpHlxfGQ61ED82jHHHg85EmNgrACqgoPdWXUxXkAfJqP4fjrRqgTAFiOtm5v7izOZosfkg==";
+        };
     in {
         "SZsUgf2m" = _SZsUgf2m;
         "GPheohmV" = _GPheohmV;
         "KGjqWOZq" = _KGjqWOZq;
         "rzsF2hKe" = _rzsF2hKe;
-        "forge-1.20.1" = _rzsF2hKe;
+        "La8mGYHp" = _La8mGYHp;
+        "forge-1.20.1" = _La8mGYHp;
         "pkg-DEPRECATED-0.8.0-early-beta" = _SZsUgf2m;
         "pkg-DEPRECATED-0.8.1-early-beta-" = _GPheohmV;
         "pkg-0.8.2-early-beta-Hotfix" = _KGjqWOZq;
         "pkg-0.8.3-early-beta" = _rzsF2hKe;
-        "default" = _rzsF2hKe;
+        "pkg-0.8.5-beta" = _La8mGYHp;
+        "default" = _La8mGYHp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "turret-tacz";

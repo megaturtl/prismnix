@@ -106,6 +106,26 @@ let
             "file" = "KawaMood's Waystones in Villages.zip";
             "hash" = "sha512-i/XWvPgwJvtejxLrqcDij8GzZOWwePbTSrBP2PZsLgKaUOSQ+w97J1llKEFidwbQYtZU1srARJ1Azul5XynVZA==";
         };
+        _uqoS1ydJ = {
+            "id" = "uqoS1ydJ";
+            "file" = "_waystones_in_villages-3.0.zip";
+            "hash" = "sha512-wfQNH/ojPP+qpaQlNStH7EEWC9/YHUxrMqqsTufnKl5gzb4IFBQfePIVqC2WvloIkWVYrmX9G3LWkDgfJf8wug==";
+        };
+        _2zsairXA = {
+            "id" = "2zsairXA";
+            "file" = "waystones-in-villages-3.0.jar";
+            "hash" = "sha512-jFGwlLisGe7vum4k4rw8JIQ0SGqOV1ibJ+EzGXfTysGEVc24nziobeE/I2fmAVdhT2OMFqlHLAtN6M8k4+seXg==";
+        };
+        _D4vzWakF = {
+            "id" = "D4vzWakF";
+            "file" = "waystones_in_villages-3.0.1.zip";
+            "hash" = "sha512-N4Kzq3+y8l4CaxafPt3xVHFciAR0fse1YR0rVCjecOfLGm6NgIuKntKj0Oos5120eZA1ZzD0BsxUEsdPEVE/gA==";
+        };
+        _hxwsb5gJ = {
+            "id" = "hxwsb5gJ";
+            "file" = "waystones-in-villages-3.0.1.jar";
+            "hash" = "sha512-J2LTDHkX5BINkNdRu7zdrQmOyYi6zKzSuts3UvQDWrN01z3Z7g6WN0iy/pXdExvd93gcKhjAcPUfdWQc6Qyweg==";
+        };
     in {
         "stny5m9X" = _stny5m9X;
         "vWE439sw" = _vWE439sw;
@@ -128,6 +148,10 @@ let
         "HfyQ3Czw" = _HfyQ3Czw;
         "35Y3KYQk" = _35Y3KYQk;
         "3B2CyNUp" = _3B2CyNUp;
+        "uqoS1ydJ" = _uqoS1ydJ;
+        "2zsairXA" = _2zsairXA;
+        "D4vzWakF" = _D4vzWakF;
+        "hxwsb5gJ" = _hxwsb5gJ;
         "datapack-1.20.2" = _3B2CyNUp;
         "datapack-1.20.3" = _3B2CyNUp;
         "datapack-1.20.4" = _3B2CyNUp;
@@ -135,16 +159,46 @@ let
         "datapack-1.20.6" = _3B2CyNUp;
         "datapack-1.21" = _3B2CyNUp;
         "datapack-1.21.1" = _3B2CyNUp;
+        "datapack-1.21.11" = _D4vzWakF;
+        "datapack-26.1" = _D4vzWakF;
+        "datapack-26.1.1" = _D4vzWakF;
+        "datapack-26.1.2" = _D4vzWakF;
+        "datapack-26.2" = _D4vzWakF;
+        "datapack-26.3" = _D4vzWakF;
         "fabric-1.20.2" = _D8Dt1Akm;
         "fabric-1.20.3" = _D8Dt1Akm;
         "fabric-1.20.4" = _D8Dt1Akm;
         "fabric-1.20.5" = _HfyQ3Czw;
         "fabric-1.20.6" = _HfyQ3Czw;
+        "fabric-1.21.11" = _hxwsb5gJ;
+        "fabric-26.1" = _hxwsb5gJ;
+        "fabric-26.1.1" = _hxwsb5gJ;
+        "fabric-26.1.2" = _hxwsb5gJ;
+        "fabric-26.2" = _hxwsb5gJ;
+        "fabric-26.3" = _hxwsb5gJ;
         "forge-1.20.2" = _D8Dt1Akm;
         "forge-1.20.3" = _D8Dt1Akm;
         "forge-1.20.4" = _D8Dt1Akm;
         "forge-1.20.5" = _HfyQ3Czw;
         "forge-1.20.6" = _HfyQ3Czw;
+        "forge-1.21.11" = _hxwsb5gJ;
+        "forge-26.1" = _hxwsb5gJ;
+        "forge-26.1.1" = _hxwsb5gJ;
+        "forge-26.1.2" = _hxwsb5gJ;
+        "forge-26.2" = _hxwsb5gJ;
+        "forge-26.3" = _hxwsb5gJ;
+        "neoforge-1.21.11" = _hxwsb5gJ;
+        "neoforge-26.1" = _hxwsb5gJ;
+        "neoforge-26.1.1" = _hxwsb5gJ;
+        "neoforge-26.1.2" = _hxwsb5gJ;
+        "neoforge-26.2" = _hxwsb5gJ;
+        "neoforge-26.3" = _hxwsb5gJ;
+        "quilt-1.21.11" = _hxwsb5gJ;
+        "quilt-26.1" = _hxwsb5gJ;
+        "quilt-26.1.1" = _hxwsb5gJ;
+        "quilt-26.1.2" = _hxwsb5gJ;
+        "quilt-26.2" = _hxwsb5gJ;
+        "quilt-26.3" = _hxwsb5gJ;
         "pkg-1.0" = _stny5m9X;
         "pkg-2.0" = _vWE439sw;
         "pkg-2.0.1" = _pa4O7wc3;
@@ -166,7 +220,11 @@ let
         "pkg-2.6.2+mod" = _HfyQ3Czw;
         "pkg-2.6.3" = _35Y3KYQk;
         "pkg-2.7" = _3B2CyNUp;
-        "default" = _3B2CyNUp;
+        "pkg-3.0" = _uqoS1ydJ;
+        "pkg-3.0+mod" = _2zsairXA;
+        "pkg-3.0.1" = _D4vzWakF;
+        "pkg-3.0.1+mod" = _hxwsb5gJ;
+        "default" = _hxwsb5gJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "waystones-in-villages";

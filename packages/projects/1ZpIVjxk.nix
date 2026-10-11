@@ -51,6 +51,11 @@ let
             "file" = "createTestosterone-fabric-1.20.1-1.1.8.jar";
             "hash" = "sha512-NDL2/p/8hjsDh7x7muCeYCBOHs1L2SU2M3wH3vnG3GuNYNjM6BtD07ZYQ8bGHln6uRAwJ98BeRIyTSvPIiwMUg==";
         };
+        _DnuVfrjl = {
+            "id" = "DnuVfrjl";
+            "file" = "testosterone-tweaks-1.0.0.jar";
+            "hash" = "sha512-p5dPFkPfac8SdMF3NC7L5QC+BDY60fM1c2f4Hfla7ykHfzNYOp7NQS3pMr7xwpkkqKPskfoAXpoYU23wcflfwQ==";
+        };
     in {
         "ARuybhZu" = _ARuybhZu;
         "EULmnaQx" = _EULmnaQx;
@@ -62,13 +67,14 @@ let
         "1qIadduq" = _1qIadduq;
         "c6AJLrXi" = _c6AJLrXi;
         "spQWTIIp" = _spQWTIIp;
-        "fabric-1.20.1" = _spQWTIIp;
+        "DnuVfrjl" = _DnuVfrjl;
+        "fabric-1.20.1" = _DnuVfrjl;
         "fabric-1.20.2" = _1qIadduq;
         "fabric-1.20.3" = _1qIadduq;
         "fabric-1.20.4" = _1qIadduq;
         "fabric-1.20.5" = _1qIadduq;
         "fabric-1.20.6" = _1qIadduq;
-        "pkg-1.0.0" = _ARuybhZu;
+        "pkg-1.0.0" = _DnuVfrjl;
         "pkg-1.1.0" = _EULmnaQx;
         "pkg-1.1.1" = _tp22JxGS;
         "pkg-1.1.2" = _APMRgZam;
@@ -78,7 +84,7 @@ let
         "pkg-1.1.6" = _1qIadduq;
         "pkg-1.1.7" = _c6AJLrXi;
         "pkg-1.1.8" = _spQWTIIp;
-        "default" = _spQWTIIp;
+        "default" = _DnuVfrjl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-testosterone";

@@ -286,6 +286,11 @@ let
             "file" = "sit-neoforge-26.1.2-1.5.2.jar";
             "hash" = "sha512-7suWtJz+/2MqqtLN3WFGblcqxVZN4erbxfSLvZUylgdeLSQK2m3VKeyhhQwlQAGwCYXJVJdOGoolR8XKNlSckg==";
         };
+        _5Ik0bXVa = {
+            "id" = "5Ik0bXVa";
+            "file" = "sit-neoforge-26.3-1.5.3.jar";
+            "hash" = "sha512-W1SE9q92m3uWP38iwPHROL3ZKtlsGK34zhvFWuWbjxRgDnSAtjbyeTP2djUyJjqgtJc765Ypf5KUCDjMKoyDHg==";
+        };
     in {
         "ZGamMOvX" = _ZGamMOvX;
         "yINjQ1lB" = _yINjQ1lB;
@@ -344,6 +349,7 @@ let
         "elOJsdc9" = _elOJsdc9;
         "vU0mXH0A" = _vU0mXH0A;
         "eZTSuFZ9" = _eZTSuFZ9;
+        "5Ik0bXVa" = _5Ik0bXVa;
         "forge-1.7.10" = _ZGamMOvX;
         "forge-1.10.2" = _yINjQ1lB;
         "forge-1.11.2" = _LXRyDeg0;
@@ -440,6 +446,7 @@ let
         "neoforge-26.1.1" = _bfeLWJPY;
         "neoforge-26.1.2" = _eZTSuFZ9;
         "neoforge-26.2" = _eZTSuFZ9;
+        "neoforge-26.3" = _5Ik0bXVa;
         "pkg-v1.1" = _ZGamMOvX;
         "pkg-v1.1.1" = _yINjQ1lB;
         "pkg-v1.1.2" = _Brq3aRUX;
@@ -469,7 +476,8 @@ let
         "pkg-v1.5" = _elOJsdc9;
         "pkg-v1.5.1" = _vU0mXH0A;
         "pkg-v1.5.2" = _eZTSuFZ9;
-        "default" = _eZTSuFZ9;
+        "pkg-v1.5.3" = _5Ik0bXVa;
+        "default" = _5Ik0bXVa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bl4cks-sit";

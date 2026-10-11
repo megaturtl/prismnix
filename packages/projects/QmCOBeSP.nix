@@ -2491,6 +2491,21 @@ let
             "file" = "ironbookshelves-1.21.1-1.4.14-fabric.jar";
             "hash" = "sha512-Iir/aM977eKcXYBHS6fTBWM3AGwI5BUEpLQ+zOJA9nHiaZVVbhlCPRNS5MU+EqJcIbwZylWbSpfUTs5X2UT0EA==";
         };
+        _9MmBJVGN = {
+            "id" = "9MmBJVGN";
+            "file" = "ironbookshelves-26.3-1.4.13-fabric.jar";
+            "hash" = "sha512-pJFy5fJ/DE0ZqmruHtrayEXFYoc3pQs2DKT/KljX7o8nH1U+xIoBqDnDLUq8JIC94qcOP7uhFey2CdNPYK2Nfg==";
+        };
+        _hdqo0X1R = {
+            "id" = "hdqo0X1R";
+            "file" = "ironbookshelves-26.3-1.4.13-neoforge.jar";
+            "hash" = "sha512-0cGDxIrqk2H//UhfXn9SbhCWQC5Fg0C3pQ4buxa6Zkxsh4n3YqGUpERRJNtGn0ojowbVlfsy6ZPowFR+S+gw8g==";
+        };
+        _IcwMz6WW = {
+            "id" = "IcwMz6WW";
+            "file" = "ironbookshelves-26.3-1.4.13-forge.jar";
+            "hash" = "sha512-TYSsuiUuGHPwAFtMInwjnAeM10YzVHssJ2ayC+vwBH83rqEMGZcLItNqVtVozYz7K6/o0zZRwKXmQrzUvpSY6g==";
+        };
     in {
         "7en4k2Yb" = _7en4k2Yb;
         "4CY6Dv7F" = _4CY6Dv7F;
@@ -2990,6 +3005,9 @@ let
         "Obm7NQbr" = _Obm7NQbr;
         "RJDfAqh7" = _RJDfAqh7;
         "VaGxh9u0" = _VaGxh9u0;
+        "9MmBJVGN" = _9MmBJVGN;
+        "hdqo0X1R" = _hdqo0X1R;
+        "IcwMz6WW" = _IcwMz6WW;
         "forge-1.16.5" = _C927Q7hp;
         "forge-1.17.1" = _6ccKFobt;
         "forge-1.18.2" = _tneufUZb;
@@ -3020,6 +3038,7 @@ let
         "forge-26.1.1" = _lEfTmIQ0;
         "forge-26.1.2" = _lEfTmIQ0;
         "forge-26.2" = _Obm7NQbr;
+        "forge-26.3" = _IcwMz6WW;
         "neoforge-1.20" = _2wERqS5q;
         "neoforge-1.20.1" = _2wERqS5q;
         "neoforge-1.20.2" = _KcNGo3Rr;
@@ -3043,6 +3062,7 @@ let
         "neoforge-26.1.1" = _fWOwqIvN;
         "neoforge-26.1.2" = _fWOwqIvN;
         "neoforge-26.2" = _RJDfAqh7;
+        "neoforge-26.3" = _hdqo0X1R;
         "fabric-1.18.2" = _BJwAzAVb;
         "fabric-1.19" = _FPI8Kqms;
         "fabric-1.19.1" = _FPI8Kqms;
@@ -3071,6 +3091,7 @@ let
         "fabric-26.1.1" = _eD0InRSa;
         "fabric-26.1.2" = _eD0InRSa;
         "fabric-26.2" = _1nmhyD8y;
+        "fabric-26.3" = _9MmBJVGN;
         "quilt-1.18.2" = _BJwAzAVb;
         "quilt-1.19" = _FPI8Kqms;
         "quilt-1.19.1" = _FPI8Kqms;
@@ -3099,6 +3120,7 @@ let
         "quilt-26.1.1" = _eD0InRSa;
         "quilt-26.1.2" = _eD0InRSa;
         "quilt-26.2" = _1nmhyD8y;
+        "quilt-26.3" = _9MmBJVGN;
         "pkg-1.16.5-1.0.0" = _7en4k2Yb;
         "pkg-1.17.1-1.0.0" = _4CY6Dv7F;
         "pkg-1.18.2-1.1.0-forge" = _gYlS9dvE;
@@ -3594,7 +3616,10 @@ let
         "pkg-26.2-1.4.13-forge" = _Obm7NQbr;
         "pkg-26.2-1.4.13-neoforge" = _RJDfAqh7;
         "pkg-1.21.1-1.4.14-fabric" = _VaGxh9u0;
-        "default" = _VaGxh9u0;
+        "pkg-26.3-1.4.13-fabric" = _9MmBJVGN;
+        "pkg-26.3-1.4.13-neoforge" = _hdqo0X1R;
+        "pkg-26.3-1.4.13-forge" = _IcwMz6WW;
+        "default" = _IcwMz6WW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "iron-bookshelves";

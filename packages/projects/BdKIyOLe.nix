@@ -241,6 +241,21 @@ let
             "file" = "boatiview-fabric-0.0.9-26.2.jar";
             "hash" = "sha512-e2gAGUgjICA77YW8HVgb8/BU3WQ9/sPxJJK38uHZU5PM3nZqHg0Y2Gn6aC98OoqKMtCjh3/1+3eB0Ifu+5Izqw==";
         };
+        _wEWwuvqY = {
+            "id" = "wEWwuvqY";
+            "file" = "boatiview-forge-0.0.10-26.3.jar";
+            "hash" = "sha512-dWEp39ZbwPDv5TwdWArCPb+eXVYprH2WyVTIiHziRmJH7bcaGg7rQE2n/6QS19bVsVljgxt3KrMmYNYGlMCvOA==";
+        };
+        _6CPqbPCb = {
+            "id" = "6CPqbPCb";
+            "file" = "boatiview-neoforge-0.0.10-26.3.jar";
+            "hash" = "sha512-5H4BlFV36YLGOnaz8fJmwePd61UFylQk5dVMb1lKCmsz+a95ff7JRUiP7VU7aL0EtUTJ4ZX8Oio0D/J+yOynKg==";
+        };
+        _ZlP1ROUh = {
+            "id" = "ZlP1ROUh";
+            "file" = "boatiview-fabric-0.0.10-26.3.jar";
+            "hash" = "sha512-vhle/L5d4OY6ZrN/dWZriSzThzD85Zk5ml3d1IsfQNvMusCygajC3Qu/ptLQI6r8+FF55rO7LMGsRskC3R8R8g==";
+        };
     in {
         "MpRLUVKM" = _MpRLUVKM;
         "wLVU7jEc" = _wLVU7jEc;
@@ -290,6 +305,9 @@ let
         "fXPkJEq3" = _fXPkJEq3;
         "xDL9b04L" = _xDL9b04L;
         "ooGGheg7" = _ooGGheg7;
+        "wEWwuvqY" = _wEWwuvqY;
+        "6CPqbPCb" = _6CPqbPCb;
+        "ZlP1ROUh" = _ZlP1ROUh;
         "fabric-1.16.5" = _wLVU7jEc;
         "fabric-1.17" = _9PqukzkA;
         "fabric-1.17.1" = _9PqukzkA;
@@ -324,6 +342,7 @@ let
         "fabric-26.1.1" = _szWtRpyh;
         "fabric-26.1.2" = _szWtRpyh;
         "fabric-26.2" = _ooGGheg7;
+        "fabric-26.3" = _ZlP1ROUh;
         "forge-1.16.5" = _olKNoOXZ;
         "forge-1.17" = _aTd1oyKQ;
         "forge-1.17.1" = _aTd1oyKQ;
@@ -358,6 +377,7 @@ let
         "forge-26.1.1" = _EfeF7Gyy;
         "forge-26.1.2" = _EfeF7Gyy;
         "forge-26.2" = _xDL9b04L;
+        "forge-26.3" = _wEWwuvqY;
         "neoforge-1.21" = _6EYLZUOH;
         "neoforge-1.21.1" = _6EYLZUOH;
         "neoforge-1.21.2" = _UOyQ7wkA;
@@ -374,6 +394,7 @@ let
         "neoforge-26.1.1" = _HtB2OIOY;
         "neoforge-26.1.2" = _HtB2OIOY;
         "neoforge-26.2" = _fXPkJEq3;
+        "neoforge-26.3" = _6CPqbPCb;
         "pkg-1.16.x-0.0.1" = _MpRLUVKM;
         "pkg-0.0.2" = _wLVU7jEc;
         "pkg-0.0.2-forge" = _olKNoOXZ;
@@ -422,7 +443,10 @@ let
         "pkg-26.2-0.0.9-neoforge" = _fXPkJEq3;
         "pkg-26.2-0.0.9-forge" = _xDL9b04L;
         "pkg-26.2-0.0.9-fabric" = _ooGGheg7;
-        "default" = _ooGGheg7;
+        "pkg-26.3-0.0.10-forge" = _wEWwuvqY;
+        "pkg-26.3-0.0.10-neoforge" = _6CPqbPCb;
+        "pkg-26.3-0.0.10-fabric" = _ZlP1ROUh;
+        "default" = _ZlP1ROUh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "boat-item-view";

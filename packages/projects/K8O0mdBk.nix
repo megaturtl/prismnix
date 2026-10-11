@@ -46,6 +46,11 @@ let
             "file" = "easyenchant-1.1.2+26.2.jar";
             "hash" = "sha512-rXOytG3BHOyzPNFvpsmSq9gDlmgT4MK5VvP8Hz0Mm3HJnoU+oSMaIoImroqJRyNZC40Fp8zMO0a5eLZSAvyfPw==";
         };
+        _9PEHIlgb = {
+            "id" = "9PEHIlgb";
+            "file" = "easyenchant-1.1.2+26.3.jar";
+            "hash" = "sha512-bQt85MpDd+rT7UP6y8fU6cr6KcXog8mzSyA7Y1E665odQSIN/8e1+HH3Q3yeR563eHABmt9ElYXFyKGbP1WjnQ==";
+        };
     in {
         "aRzDe9LS" = _aRzDe9LS;
         "IXYqeu1g" = _IXYqeu1g;
@@ -56,6 +61,7 @@ let
         "n5tlpzH3" = _n5tlpzH3;
         "NC1qnenp" = _NC1qnenp;
         "LrgcrQW4" = _LrgcrQW4;
+        "9PEHIlgb" = _9PEHIlgb;
         "fabric-1.21.4" = _aRzDe9LS;
         "fabric-1.21.5" = _IXYqeu1g;
         "fabric-1.21.6" = _yrwwKakp;
@@ -68,6 +74,7 @@ let
         "fabric-26.1" = _n5tlpzH3;
         "fabric-26.1.2" = _n5tlpzH3;
         "fabric-26.2" = _LrgcrQW4;
+        "fabric-26.3" = _9PEHIlgb;
         "pkg-1.0.0+1.21.4" = _aRzDe9LS;
         "pkg-1.0.0+1.21.5" = _IXYqeu1g;
         "pkg-1.0.0+1.21.8" = _yrwwKakp;
@@ -77,7 +84,8 @@ let
         "pkg-1.1.1+26.1.2" = _n5tlpzH3;
         "pkg-1.1.1+26.2" = _NC1qnenp;
         "pkg-1.1.2+26.2" = _LrgcrQW4;
-        "default" = _LrgcrQW4;
+        "pkg-1.1.2+26.3" = _9PEHIlgb;
+        "default" = _9PEHIlgb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "easy-enchant";

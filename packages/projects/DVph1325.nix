@@ -26,24 +26,31 @@ let
             "file" = "NimbleReWynnded-0.7.1.jar";
             "hash" = "sha512-9R+hmE181/y54Nh/3W76WKvD393AOqhVYsCS21UhPVjqjcTr+M1/0EGFUnnux9illlcRJBotgH5Xnlhg4gkHEA==";
         };
+        _rcks2DgK = {
+            "id" = "rcks2DgK";
+            "file" = "NimbleReWynnded-1.0.0.jar";
+            "hash" = "sha512-zdKPRF4HJ3z221vvhRCGNr80eePMoblO9kW3iFn3FfM4BLoLdulByJaAsfH7BivDUdPy87nM2WOT9elxm9WAcQ==";
+        };
     in {
         "yOKxMNXt" = _yOKxMNXt;
         "t1pStE9u" = _t1pStE9u;
         "zTZUD354" = _zTZUD354;
         "iWoF7gtS" = _iWoF7gtS;
         "l3RuH7hb" = _l3RuH7hb;
+        "rcks2DgK" = _rcks2DgK;
         "fabric-1.21" = _zTZUD354;
         "fabric-1.21.1" = _zTZUD354;
         "fabric-1.21.2" = _zTZUD354;
         "fabric-1.21.3" = _zTZUD354;
         "fabric-1.21.4" = _zTZUD354;
-        "fabric-1.21.11" = _l3RuH7hb;
+        "fabric-1.21.11" = _rcks2DgK;
         "pkg-0.5.0" = _yOKxMNXt;
         "pkg-0.5.1" = _t1pStE9u;
         "pkg-0.6.0" = _zTZUD354;
         "pkg-0.7.0" = _iWoF7gtS;
         "pkg-0.7.1" = _l3RuH7hb;
-        "default" = _l3RuH7hb;
+        "pkg-1.0.0" = _rcks2DgK;
+        "default" = _rcks2DgK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nimble-rewynnded";

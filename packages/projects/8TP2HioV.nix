@@ -56,6 +56,16 @@ let
             "file" = "fbi_swat_armors-1.21.11-1.0.6-fabric-quilt.jar";
             "hash" = "sha512-T44r7urJ2nV7sR+3Hq7vUop1E7E/Nw3/kwc3k/YByXjVAleuZJCVw4HxFW1+1ineOizVVWrzgwsOPQ4mOufmrg==";
         };
+        _CmrNf5U0 = {
+            "id" = "CmrNf5U0";
+            "file" = "fbi_swat_armors-26.3-1.1.0-neoforge.jar";
+            "hash" = "sha512-+1dtZZeOlXSGp+8HIeqPi6hkaGEhb+/ZPXNwBJYQRyatFHd3eCkgaMeuqLkMrUULSN3LMojLF5PVgB7dTqJF+w==";
+        };
+        _epIgoOM9 = {
+            "id" = "epIgoOM9";
+            "file" = "fbi_swat_armors-26.3-1.1.0-fabric.jar";
+            "hash" = "sha512-sRJDzvjwptaDJs2uYi9WwyzGE5mfmvkYMyPdT1TJf5v7Pw/1+SAAcF+ndnyeBo8/bDG9kvJOYt4+yyUKspdHfQ==";
+        };
     in {
         "w217snCA" = _w217snCA;
         "Xo8pXJzU" = _Xo8pXJzU;
@@ -68,6 +78,8 @@ let
         "YImanQe3" = _YImanQe3;
         "kRRbYHmz" = _kRRbYHmz;
         "gqPki1Al" = _gqPki1Al;
+        "CmrNf5U0" = _CmrNf5U0;
+        "epIgoOM9" = _epIgoOM9;
         "forge-1.19.2" = _w217snCA;
         "forge-1.19.4" = _UYVZc2vo;
         "forge-1.20.1" = _NZWjVFuy;
@@ -78,6 +90,7 @@ let
         "fabric-1.20.6" = _f3qCMD6A;
         "fabric-1.21.1" = _YImanQe3;
         "fabric-1.21.11" = _gqPki1Al;
+        "fabric-26.3" = _epIgoOM9;
         "quilt-1.19.2" = _Xo8pXJzU;
         "quilt-1.19.4" = _WZKjv6Ok;
         "quilt-1.20.1" = _mreGAMGH;
@@ -85,6 +98,8 @@ let
         "quilt-1.20.6" = _f3qCMD6A;
         "quilt-1.21.1" = _YImanQe3;
         "quilt-1.21.11" = _gqPki1Al;
+        "quilt-26.3" = _epIgoOM9;
+        "neoforge-26.3" = _CmrNf5U0;
         "pkg-1.0.0-forge" = _w217snCA;
         "pkg-1.0.0-fabric" = _Xo8pXJzU;
         "pkg-1.0.1-fabric" = _WZKjv6Ok;
@@ -96,7 +111,9 @@ let
         "pkg-1.0.5-fabric" = _YImanQe3;
         "pkg-1.0.3a-fabric" = _kRRbYHmz;
         "pkg-1.0.6-fabric" = _gqPki1Al;
-        "default" = _gqPki1Al;
+        "pkg-1.1.0-neoforge" = _CmrNf5U0;
+        "pkg-1.1.0-fabric" = _epIgoOM9;
+        "default" = _epIgoOM9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fbi-and-swat-armors";

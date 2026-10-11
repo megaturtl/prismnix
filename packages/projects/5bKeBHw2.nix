@@ -276,6 +276,11 @@ let
             "file" = "Firmalife-NeoForge-1.21.1-3.0.14.jar";
             "hash" = "sha512-2fK7qZZWAwk2r3ml6nSUb1X+3fZwkdi45Q9qkFS7vT/3+U31GpcJjkl6FlN8gYKvV0DA9Y5GDF7b3oimYkSAqg==";
         };
+        _uo4wPiqB = {
+            "id" = "uo4wPiqB";
+            "file" = "Firmalife-NeoForge-1.21.1-3.0.15.jar";
+            "hash" = "sha512-LboooLlVuoHeMaAtPyRnsFVt8KTnVosWFhU8XUPUz+JRDWPcZ65DoabcZOAeon5BCA0KO+Cj4c4PjCWK4bMngg==";
+        };
     in {
         "fZ6g9trN" = _fZ6g9trN;
         "4XRne6gD" = _4XRne6gD;
@@ -332,12 +337,13 @@ let
         "6h3U7jYf" = _6h3U7jYf;
         "CIfMw1HZ" = _CIfMw1HZ;
         "Mg5NuXg7" = _Mg5NuXg7;
+        "uo4wPiqB" = _uo4wPiqB;
         "forge-1.12.2" = _fZ6g9trN;
         "forge-1.18.2" = _4XRne6gD;
         "forge-1.20.1" = _eVFkBSwz;
         "forge-1.21.1" = _eAqHiCOo;
         "neoforge-1.20.1" = _eVFkBSwz;
-        "neoforge-1.21.1" = _Mg5NuXg7;
+        "neoforge-1.21.1" = _uo4wPiqB;
         "pkg-0.5.1" = _fZ6g9trN;
         "pkg-1.2.18" = _4XRne6gD;
         "pkg-2.0.0-beta" = _hkCFRPBS;
@@ -393,7 +399,8 @@ let
         "pkg-3.0.12" = _6h3U7jYf;
         "pkg-3.0.13" = _CIfMw1HZ;
         "pkg-3.0.14" = _Mg5NuXg7;
-        "default" = _Mg5NuXg7;
+        "pkg-3.0.15" = _uo4wPiqB;
+        "default" = _uo4wPiqB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "firmalife";

@@ -86,7 +86,7 @@ let
         "fabric-26.1.1" = _yewvryEP;
         "fabric-26.1.2" = _yewvryEP;
         "fabric-26.2" = _yewvryEP;
-        "fabric-26.3-rc-2" = _yewvryEP;
+        "fabric-26.3" = _yewvryEP;
         "pkg-1.0.0+1.20.6" = _f3iGYmEm;
         "pkg-1.0.1+1.20.6" = _ydnBRguL;
         "pkg-2.0.0+1.21" = _P0ovmkOk;

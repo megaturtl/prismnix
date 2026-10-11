@@ -851,6 +851,16 @@ let
             "file" = "Modern-Industrialization-2.5.8.jar";
             "hash" = "sha512-3B0z5JU5u7wcFKzHYonHG41caAV5CIVes68c9w8/uuZXWL2LnkuIdysPOLysgrFZNNc4O7aFweyLrMPt+B6Mkw==";
         };
+        _GS2X93Dq = {
+            "id" = "GS2X93Dq";
+            "file" = "Modern-Industrialization-2.5.9.jar";
+            "hash" = "sha512-ZrJKqmPe5dme+SmjjoEdJz3sJUT6kWlciYycXjdL+n0TQaOIeZLYbOF0QuAWgsYOqwpdYax1wkdLwqCKdPs4gA==";
+        };
+        _HOR1tVas = {
+            "id" = "HOR1tVas";
+            "file" = "Modern-Industrialization-2.5.10.jar";
+            "hash" = "sha512-GL2cEdoi5/f9PFSqd9klxqOnv6yAtKrobtX7uTnTusC4jcpPjwEAmD0QHFUigD7jczpy6AhY1QPlJdMVXU6k9g==";
+        };
     in {
         "kBojwQ1i" = _kBojwQ1i;
         "RBaDe5i1" = _RBaDe5i1;
@@ -1022,6 +1032,8 @@ let
         "13aV4b1P" = _13aV4b1P;
         "E1nD4PKl" = _E1nD4PKl;
         "s5PDXbfR" = _s5PDXbfR;
+        "GS2X93Dq" = _GS2X93Dq;
+        "HOR1tVas" = _HOR1tVas;
         "fabric-1.16.2" = _KMmNxfZV;
         "fabric-1.16.3" = _KMmNxfZV;
         "fabric-1.16.4" = _KMmNxfZV;
@@ -1037,7 +1049,7 @@ let
         "neoforge-1.20.4" = _jMNqVC4g;
         "neoforge-1.20.6" = _B8BFKTIE;
         "neoforge-1.21" = _4O3MHtnp;
-        "neoforge-1.21.1" = _s5PDXbfR;
+        "neoforge-1.21.1" = _HOR1tVas;
         "pkg-0.3.12" = _kBojwQ1i;
         "pkg-0.3.13" = _RBaDe5i1;
         "pkg-0.3.14" = _JbxZWDel;
@@ -1206,7 +1218,9 @@ let
         "pkg-2.5.5" = _13aV4b1P;
         "pkg-2.5.6" = _E1nD4PKl;
         "pkg-2.5.8" = _s5PDXbfR;
-        "default" = _s5PDXbfR;
+        "pkg-2.5.9" = _GS2X93Dq;
+        "pkg-2.5.10" = _HOR1tVas;
+        "default" = _HOR1tVas;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modern-industrialization";

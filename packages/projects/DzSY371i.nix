@@ -81,6 +81,16 @@ let
             "file" = "neobeefix-fabric-4.0.0.jar";
             "hash" = "sha512-6DksC1Q8K92jYYP3q1XghqnqF2I7dgYrMu2y8B2Nr4L+fux5Xc3u8L5XIz/h2Zqn4OmnrnOn96DAsTOviChLhg==";
         };
+        _P6ILgum2 = {
+            "id" = "P6ILgum2";
+            "file" = "neobeefix-5.0.0.jar";
+            "hash" = "sha512-nbUey9kGqY0J6JzY9r/vXrpdxfVKglFENxlPzFarGA0T/9eo3k1yUY+A/AwAtz1ZB0quhiQjvsBzM1KcBf65mw==";
+        };
+        _OCJd5WqA = {
+            "id" = "OCJd5WqA";
+            "file" = "neobeefix-5.0.0.jar";
+            "hash" = "sha512-ibP7gnpm8w+RfE2Un5OxMi2fHEK3alj40tLUbchUIVtw7tBihUFfljrWOg7rGHGGwc2lfJwlDSIa4Z1Aj9N0Uw==";
+        };
     in {
         "JB6FPCnP" = _JB6FPCnP;
         "RFt9dm5Q" = _RFt9dm5Q;
@@ -98,6 +108,8 @@ let
         "yjuocj0b" = _yjuocj0b;
         "Ni0XFM92" = _Ni0XFM92;
         "6ZHmeGE5" = _6ZHmeGE5;
+        "P6ILgum2" = _P6ILgum2;
+        "OCJd5WqA" = _OCJd5WqA;
         "neoforge-1.21.1" = _MUOGH4UT;
         "neoforge-1.20.1" = _FBK1laIM;
         "neoforge-1.21.11" = _kaawpsiy;
@@ -105,6 +117,7 @@ let
         "neoforge-26.1.1" = _yjuocj0b;
         "neoforge-26.1.2" = _yjuocj0b;
         "neoforge-26.2" = _Ni0XFM92;
+        "neoforge-26.3" = _OCJd5WqA;
         "fabric-1.21.1" = _OPfD9I5Y;
         "fabric-1.21.11" = _YS530hrp;
         "fabric-1.20.1" = _MQdennBP;
@@ -112,6 +125,7 @@ let
         "fabric-26.1.1" = _vR08eZcT;
         "fabric-26.1.2" = _vR08eZcT;
         "fabric-26.2" = _6ZHmeGE5;
+        "fabric-26.3" = _P6ILgum2;
         "pkg-1.0.8" = _JB6FPCnP;
         "pkg-2.0.0" = _MQdennBP;
         "pkg-3.0.0" = _uQPOR4XL;
@@ -119,7 +133,8 @@ let
         "pkg-2.0.1" = _MUOGH4UT;
         "pkg-3.0.2" = _yjuocj0b;
         "pkg-4.0.0" = _6ZHmeGE5;
-        "default" = _6ZHmeGE5;
+        "pkg-5.0.0" = _OCJd5WqA;
+        "default" = _OCJd5WqA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "neo-bee-fix";

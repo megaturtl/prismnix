@@ -56,6 +56,16 @@ let
             "file" = "op-warden-loot-v1.2.jar";
             "hash" = "sha512-Unr0XEO6UJGKy9I1RAHwvu8psICLtHrKSV9i7rOlCzroirxc/vKI9fPdm6f5lyCX5/68u/M7rzSdn04xmKjK3A==";
         };
+        _G5Qh6med = {
+            "id" = "G5Qh6med";
+            "file" = "warden_loot_v1.2_26.3.zip";
+            "hash" = "sha512-kDtx5+bAnHQirrUSjZxKWaAS13klzSwFSGZlFYBxY/Tqp6YbCImk1ESqnudycHTe3tVjYdFfNWgmMQWpN6r2Ag==";
+        };
+        _eNRWspDS = {
+            "id" = "eNRWspDS";
+            "file" = "op-warden-loot-v1.2.jar";
+            "hash" = "sha512-VQTa71hjPuuOFdGaGkksDHeUpASAGzv0zxb9Mrwo6ZXBCzYaAOZXasLzLlByyhxwsd26o7n0pT2L4fUuFjm/Mw==";
+        };
     in {
         "9ysq1htx" = _9ysq1htx;
         "I6kNOaZj" = _I6kNOaZj;
@@ -68,6 +78,8 @@ let
         "OSGOmT9S" = _OSGOmT9S;
         "Xzx1zIWw" = _Xzx1zIWw;
         "Ivw2mY2A" = _Ivw2mY2A;
+        "G5Qh6med" = _G5Qh6med;
+        "eNRWspDS" = _eNRWspDS;
         "datapack-1.21.11" = _Xzx1zIWw;
         "datapack-1.21.5" = _Ml8FbLxX;
         "datapack-1.21.6" = _Ml8FbLxX;
@@ -84,6 +96,7 @@ let
         "datapack-26.1.1" = _Xzx1zIWw;
         "datapack-26.1.2" = _Xzx1zIWw;
         "datapack-26.2" = _Xzx1zIWw;
+        "datapack-26.3" = _G5Qh6med;
         "fabric-1.21.11" = _Ivw2mY2A;
         "fabric-1.21.5" = _MP3u9sN0;
         "fabric-1.21.6" = _MP3u9sN0;
@@ -100,6 +113,7 @@ let
         "fabric-26.1.1" = _Ivw2mY2A;
         "fabric-26.1.2" = _Ivw2mY2A;
         "fabric-26.2" = _Ivw2mY2A;
+        "fabric-26.3" = _eNRWspDS;
         "forge-1.21.11" = _Ivw2mY2A;
         "forge-1.21.5" = _MP3u9sN0;
         "forge-1.21.6" = _MP3u9sN0;
@@ -116,6 +130,7 @@ let
         "forge-26.1.1" = _Ivw2mY2A;
         "forge-26.1.2" = _Ivw2mY2A;
         "forge-26.2" = _Ivw2mY2A;
+        "forge-26.3" = _eNRWspDS;
         "neoforge-1.21.11" = _Ivw2mY2A;
         "neoforge-1.21.5" = _MP3u9sN0;
         "neoforge-1.21.6" = _MP3u9sN0;
@@ -132,6 +147,7 @@ let
         "neoforge-26.1.1" = _Ivw2mY2A;
         "neoforge-26.1.2" = _Ivw2mY2A;
         "neoforge-26.2" = _Ivw2mY2A;
+        "neoforge-26.3" = _eNRWspDS;
         "quilt-1.21.11" = _Ivw2mY2A;
         "quilt-1.21.5" = _MP3u9sN0;
         "quilt-1.21.6" = _MP3u9sN0;
@@ -148,13 +164,14 @@ let
         "quilt-26.1.1" = _Ivw2mY2A;
         "quilt-26.1.2" = _Ivw2mY2A;
         "quilt-26.2" = _Ivw2mY2A;
+        "quilt-26.3" = _eNRWspDS;
         "pkg-v1.0" = _5tIAvMdw;
         "pkg-v1.0+mod" = _BGH7OSLS;
         "pkg-v1.1" = _TDk9l4XF;
         "pkg-v1.1+mod" = _OSGOmT9S;
-        "pkg-v1.2" = _Xzx1zIWw;
-        "pkg-v1.2+mod" = _Ivw2mY2A;
-        "default" = _Ivw2mY2A;
+        "pkg-v1.2" = _G5Qh6med;
+        "pkg-v1.2+mod" = _eNRWspDS;
+        "default" = _eNRWspDS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "op-warden-loot";

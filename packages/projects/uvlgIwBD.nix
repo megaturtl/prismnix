@@ -506,6 +506,21 @@ let
             "file" = "smoothskies-2.12.1+26.2-fabric.jar";
             "hash" = "sha512-AE9hQkp/G0LqU2HH2SklAdjF5vPgTOsu8/ttuhkUYffZiieb8h60JQb3es6IdnSA+U08K+KBCaxU7SLrLT2dtA==";
         };
+        _ZMvSQUef = {
+            "id" = "ZMvSQUef";
+            "file" = "smoothskies-2.12.2+26.2-fabric.jar";
+            "hash" = "sha512-srEIW+jW9JiriB9Q1TvaA4NcIDJZC6nwg6EaSTS4X8AIrJfVEX8g/vnWNoQ82KmQQJNGnC1QffVzMoS07lGkDw==";
+        };
+        _cRBy7YQU = {
+            "id" = "cRBy7YQU";
+            "file" = "smoothskies-2.12.2+26.3-fabric.jar";
+            "hash" = "sha512-0A8rghq0hxer9/12nVgABjTzBf74++NgQkenoBXg0CkE0vWWs6W8V9Sm7JJtBDmN5hRPRYqJTYV509KFyMLNtw==";
+        };
+        _3WSoosE4 = {
+            "id" = "3WSoosE4";
+            "file" = "smoothskies-2.12.2+1.8.9-fabric.jar";
+            "hash" = "sha512-FoNoWZThL/oLYpWXlcUHpdCX9l1svt5+V/8424aAzOrsw2wyz53N6xkscWcPZBpgXDDdmBtjUBa7B/fVDEC1pQ==";
+        };
     in {
         "cl8pu1uW" = _cl8pu1uW;
         "7ZqhEuGd" = _7ZqhEuGd;
@@ -608,6 +623,9 @@ let
         "XzWAJlF8" = _XzWAJlF8;
         "ozPiUJJB" = _ozPiUJJB;
         "uKs9UjND" = _uKs9UjND;
+        "ZMvSQUef" = _ZMvSQUef;
+        "cRBy7YQU" = _cRBy7YQU;
+        "3WSoosE4" = _3WSoosE4;
         "fabric-1.19" = _cl8pu1uW;
         "fabric-1.19.1" = _cl8pu1uW;
         "fabric-1.19.2" = _cl8pu1uW;
@@ -629,10 +647,11 @@ let
         "fabric-1.21.8" = _z6Jo33DG;
         "fabric-1.21.10" = _Dxgi1w67;
         "fabric-1.21.11" = _R9rZFrBP;
-        "fabric-26.1" = _uKs9UjND;
-        "fabric-26.1.1" = _uKs9UjND;
-        "fabric-26.1.2" = _uKs9UjND;
-        "fabric-26.2" = _uKs9UjND;
+        "fabric-26.1" = _ZMvSQUef;
+        "fabric-26.1.1" = _ZMvSQUef;
+        "fabric-26.1.2" = _ZMvSQUef;
+        "fabric-26.2" = _ZMvSQUef;
+        "fabric-26.3" = _cRBy7YQU;
         "neoforge-1.20.4" = _SEjuslOB;
         "neoforge-1.20.5" = _4EU0Smxx;
         "neoforge-1.20.6" = _4EU0Smxx;
@@ -643,6 +662,7 @@ let
         "neoforge-1.21.4" = _2u38y5WH;
         "neoforge-1.21.5" = _2u38y5WH;
         "neoforge-1.21.8" = _9PS2Y528;
+        "ornithe-1.8.9" = _3WSoosE4;
         "pkg-1.0.0" = _cl8pu1uW;
         "pkg-1.1.0" = _7ZqhEuGd;
         "pkg-2.0.0" = _vnSTi0fN;
@@ -672,7 +692,8 @@ let
         "pkg-2.11.0" = _XzWAJlF8;
         "pkg-2.12.0" = _ozPiUJJB;
         "pkg-2.12.1" = _uKs9UjND;
-        "default" = _uKs9UjND;
+        "pkg-2.12.2" = _3WSoosE4;
+        "default" = _3WSoosE4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "smooth-skies";

@@ -81,6 +81,26 @@ let
             "file" = "craft-trial-spawner-v1.0.4.jar";
             "hash" = "sha512-L6inlfURNWDFmS25eSm9jtLXQ+g/9yako1UuPVVwQhXS11jxterAHZrav+K/sJ2lOxU3hH0cDMu3R181qzxIMA==";
         };
+        _ez4xtq98 = {
+            "id" = "ez4xtq98";
+            "file" = "craft-trial-spawner-v1.1.0.zip";
+            "hash" = "sha512-1QvHhZXldnu6B87M4U9uuzUJ7hIAjJ5w5ujH7/2U/zmRIi0DqGPY0YDo878MgQORbgSIheO7SPBVPkkTekp3kg==";
+        };
+        _2O7jrino = {
+            "id" = "2O7jrino";
+            "file" = "craft-trial-spawner-v1.1.0.jar";
+            "hash" = "sha512-fXsQUMq898BAx56BIC5PSrCNMVyeWZrqn/ms7JWlGpin7S1sHNC01c3msIPhyu7Zd7CX9Dmt4FSDgtLhKltiXg==";
+        };
+        _fTFT3Ntt = {
+            "id" = "fTFT3Ntt";
+            "file" = "craft-trial-spawner-v1.1.0.0.zip";
+            "hash" = "sha512-dAVg98NlGdsIvjTpqjJMxyHguqe1tBmUlowYF/xHqRq9sDb9fVmro1eyIySQZFK8U9MUbn3p1a/gAu3KFcjgfg==";
+        };
+        _qGeV5tRP = {
+            "id" = "qGeV5tRP";
+            "file" = "craft-trial-spawner-v1.1.0.0.jar";
+            "hash" = "sha512-5oNN6QzS1Ml8rl+/xCzfXifhIbr0rFSYv8InhhOGGbOFpUj/B5pHrWIYa4sYQziO41eGvX6Ba5yD6X/Ko2I50w==";
+        };
     in {
         "IwN9RmZm" = _IwN9RmZm;
         "t71Mnk9l" = _t71Mnk9l;
@@ -98,6 +118,10 @@ let
         "A8ZISZ1s" = _A8ZISZ1s;
         "qtnvJALu" = _qtnvJALu;
         "DEXjQASi" = _DEXjQASi;
+        "ez4xtq98" = _ez4xtq98;
+        "2O7jrino" = _2O7jrino;
+        "fTFT3Ntt" = _fTFT3Ntt;
+        "qGeV5tRP" = _qGeV5tRP;
         "datapack-1.21.5" = _IwN9RmZm;
         "datapack-1.21" = _D4XiyHqP;
         "datapack-1.21.1" = _IphUcWLA;
@@ -114,6 +138,7 @@ let
         "datapack-26.1.1" = _qtnvJALu;
         "datapack-26.1.2" = _qtnvJALu;
         "datapack-26.2" = _qtnvJALu;
+        "datapack-26.3" = _fTFT3Ntt;
         "fabric-1.21.5" = _t71Mnk9l;
         "fabric-1.21" = _NuJzUKNI;
         "fabric-1.21.1" = _RTuA4W3J;
@@ -130,6 +155,7 @@ let
         "fabric-26.1.1" = _DEXjQASi;
         "fabric-26.1.2" = _DEXjQASi;
         "fabric-26.2" = _DEXjQASi;
+        "fabric-26.3" = _qGeV5tRP;
         "forge-1.21.5" = _t71Mnk9l;
         "forge-1.21" = _NuJzUKNI;
         "forge-1.21.1" = _RTuA4W3J;
@@ -146,6 +172,7 @@ let
         "forge-26.1.1" = _DEXjQASi;
         "forge-26.1.2" = _DEXjQASi;
         "forge-26.2" = _DEXjQASi;
+        "forge-26.3" = _qGeV5tRP;
         "neoforge-1.21.5" = _t71Mnk9l;
         "neoforge-1.21" = _NuJzUKNI;
         "neoforge-1.21.1" = _RTuA4W3J;
@@ -162,6 +189,7 @@ let
         "neoforge-26.1.1" = _DEXjQASi;
         "neoforge-26.1.2" = _DEXjQASi;
         "neoforge-26.2" = _DEXjQASi;
+        "neoforge-26.3" = _qGeV5tRP;
         "quilt-1.21.5" = _t71Mnk9l;
         "quilt-1.21" = _NuJzUKNI;
         "quilt-1.21.1" = _RTuA4W3J;
@@ -178,6 +206,7 @@ let
         "quilt-26.1.1" = _DEXjQASi;
         "quilt-26.1.2" = _DEXjQASi;
         "quilt-26.2" = _DEXjQASi;
+        "quilt-26.3" = _qGeV5tRP;
         "pkg-v.1.0.0" = _IphUcWLA;
         "pkg-v.1.0.0+mod" = _RTuA4W3J;
         "pkg-v1.0.0" = _D4XiyHqP;
@@ -192,7 +221,11 @@ let
         "pkg-v1.0.3.1+mod" = _A8ZISZ1s;
         "pkg-v1.0.4" = _qtnvJALu;
         "pkg-v1.0.4+mod" = _DEXjQASi;
-        "default" = _DEXjQASi;
+        "pkg-v1.1.0" = _ez4xtq98;
+        "pkg-v1.1.0+mod" = _2O7jrino;
+        "pkg-v1.1.0.0" = _fTFT3Ntt;
+        "pkg-v1.1.0.0+mod" = _qGeV5tRP;
+        "default" = _qGeV5tRP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "craft-trial-spawner";

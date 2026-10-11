@@ -31,6 +31,16 @@ let
             "file" = "the-return-of-the-killer-rabbit-of-caerbannog-1.2.jar";
             "hash" = "sha512-EgxGBfwz+wzxRqrhkVUQAj3sOx8iO7HlMCjNWwYS8QFugjFeNGAYhrQWeo3jQaKcIHxpGoe69oyYlAOsrfZIIA==";
         };
+        _r2wR5xaK = {
+            "id" = "r2wR5xaK";
+            "file" = "Killer Rabbit of Caerbannog 26.3.zip";
+            "hash" = "sha512-a3kLgDvd/EoIwqiYk4tljSi5xJad28/3ziFsvswcNDVJeU77YxIhiypqqYdGR/3u+J8M61mc0HFU0WAEXy/IJg==";
+        };
+        _nkrmpRuR = {
+            "id" = "nkrmpRuR";
+            "file" = "the-return-of-the-killer-rabbit-of-caerbannog-1.2.1.jar";
+            "hash" = "sha512-+hKQv9BZ1VFdTsKXMMpJDL7FuSPEH99i9yaze1h7ykAx4n0YP69hEjiG+2KFOMkn7zMORf+5sEXh4AlqG8dxWw==";
+        };
     in {
         "hypmzYoW" = _hypmzYoW;
         "EiCieJm0" = _EiCieJm0;
@@ -38,6 +48,8 @@ let
         "jFw4AVxB" = _jFw4AVxB;
         "JeA1nuBu" = _JeA1nuBu;
         "1iqVgELP" = _1iqVgELP;
+        "r2wR5xaK" = _r2wR5xaK;
+        "nkrmpRuR" = _nkrmpRuR;
         "datapack-1.21" = _JeA1nuBu;
         "datapack-1.21.1" = _JeA1nuBu;
         "datapack-1.21.2" = _JeA1nuBu;
@@ -54,6 +66,7 @@ let
         "datapack-26.1.1" = _JeA1nuBu;
         "datapack-26.1.2" = _JeA1nuBu;
         "datapack-26.2" = _JeA1nuBu;
+        "datapack-26.3" = _r2wR5xaK;
         "fabric-1.21" = _1iqVgELP;
         "fabric-1.21.1" = _1iqVgELP;
         "fabric-1.21.2" = _1iqVgELP;
@@ -70,6 +83,7 @@ let
         "fabric-26.1.1" = _1iqVgELP;
         "fabric-26.1.2" = _1iqVgELP;
         "fabric-26.2" = _1iqVgELP;
+        "fabric-26.3" = _nkrmpRuR;
         "forge-1.21" = _1iqVgELP;
         "forge-1.21.1" = _1iqVgELP;
         "forge-1.21.2" = _1iqVgELP;
@@ -86,6 +100,7 @@ let
         "forge-26.1.1" = _1iqVgELP;
         "forge-26.1.2" = _1iqVgELP;
         "forge-26.2" = _1iqVgELP;
+        "forge-26.3" = _nkrmpRuR;
         "neoforge-1.21" = _1iqVgELP;
         "neoforge-1.21.1" = _1iqVgELP;
         "neoforge-1.21.2" = _1iqVgELP;
@@ -102,6 +117,7 @@ let
         "neoforge-26.1.1" = _1iqVgELP;
         "neoforge-26.1.2" = _1iqVgELP;
         "neoforge-26.2" = _1iqVgELP;
+        "neoforge-26.3" = _nkrmpRuR;
         "quilt-1.21" = _1iqVgELP;
         "quilt-1.21.1" = _1iqVgELP;
         "quilt-1.21.2" = _1iqVgELP;
@@ -118,13 +134,16 @@ let
         "quilt-26.1.1" = _1iqVgELP;
         "quilt-26.1.2" = _1iqVgELP;
         "quilt-26.2" = _1iqVgELP;
+        "quilt-26.3" = _nkrmpRuR;
         "pkg-1.0" = _hypmzYoW;
         "pkg-1.0+mod" = _EiCieJm0;
         "pkg-1.1" = _GYE6cKrE;
         "pkg-1.1+mod" = _jFw4AVxB;
         "pkg-1.2" = _JeA1nuBu;
         "pkg-1.2+mod" = _1iqVgELP;
-        "default" = _1iqVgELP;
+        "pkg-1.2.1" = _r2wR5xaK;
+        "pkg-1.2.1+mod" = _nkrmpRuR;
+        "default" = _nkrmpRuR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-return-of-the-killer-rabbit-of-caerbannog";

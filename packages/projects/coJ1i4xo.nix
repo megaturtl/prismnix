@@ -31,6 +31,46 @@ let
             "file" = "rusticpancakes-forge-1.20.1-1.1.0.jar";
             "hash" = "sha512-4+sbOur8OV0pOB/dMvDoKKlJLpBDDgKI8n1JyL2fEWljBdRLE6TUHHP2LmJoF8k183R85ZlO9WnXSj6+2ya3zQ==";
         };
+        _59dH6yqa = {
+            "id" = "59dH6yqa";
+            "file" = "rusticpancakes-fabric-1.21.1-1.2.0.jar";
+            "hash" = "sha512-y6HSrKWaPaHWZM6TvAvMmBtBGuaiwNBhLzSif9455WsqpLO2W2Dl6rePdNhl3UDqDeerrCzMUQ7shRJn/mMbmA==";
+        };
+        _frpQyEjZ = {
+            "id" = "frpQyEjZ";
+            "file" = "rusticpancakes-neoforge-1.21.1-1.2.0.jar";
+            "hash" = "sha512-iswj/rEkSogUmfh+JzpzN1FSKEiBUAG1YgFNtSo2vkcAr6peggjxCxBk8P/N3GjBOPZwsjC5RlDoWunGgUqwDQ==";
+        };
+        _5oIgfLBr = {
+            "id" = "5oIgfLBr";
+            "file" = "rusticpancakes-neoforge-1.21.3-1.2.0.jar";
+            "hash" = "sha512-PShogsCV115BmPAcUx2i51YZKh8kurGpDl9msMPqT4VXtEKAzgABQ6NldxPykDDQg3DoEo5L4tJJqngRJyfikw==";
+        };
+        _4aulo50s = {
+            "id" = "4aulo50s";
+            "file" = "rusticpancakes-fabric-1.21.3-1.2.0.jar";
+            "hash" = "sha512-AFmTc+J47KdDJbwV/4kfdrT8YLgAC6Y9FCFWAOn9qU72iBzlAxJkk/ZM8+w53qkE2Kc4QdpwV6DlR85hBFHDTg==";
+        };
+        _7VuDwAgR = {
+            "id" = "7VuDwAgR";
+            "file" = "rusticpancakes-neoforge-1.21.1-1.2.1.jar";
+            "hash" = "sha512-4JcYr9eNoORiuSYA7VQ5l951LVcD7mDJD2R8T8mWiubpzE9R7/MdWnVJMG+oBROWz2qYC202GHkr72WV5lGnBw==";
+        };
+        _KGpw7BIv = {
+            "id" = "KGpw7BIv";
+            "file" = "rusticpancakes-fabric-1.21.1-1.2.1.jar";
+            "hash" = "sha512-3qqs5XScqoqWHh692MofnLP3aFN0PFw31XH3TlSSyBvTxiflxErWFT9QDMTsE0l7ybpe+l6rU7uzP4IR1LpDaA==";
+        };
+        _8mkJQz9C = {
+            "id" = "8mkJQz9C";
+            "file" = "rusticpancakes-neoforge-1.21.4-1.2.0.jar";
+            "hash" = "sha512-4T8CvANn7rbcpeBCEukrTSpTxag471vrC//fP8qNvMHDDYg8aOjLcasVb1RQKKpTzRO8Gt4pB1Mn7BWjaVtB2Q==";
+        };
+        _yOgQ8qUE = {
+            "id" = "yOgQ8qUE";
+            "file" = "rusticpancakes-fabric-1.21.4-1.2.0.jar";
+            "hash" = "sha512-7ozOXRSiK9UEgTD9Sd+Xzd6N2yw/JCQ99v86KriQSx4/scAfDdzGgW6B4TqlAr3u/6MVsLrqjP+zS7J9HR/nBw==";
+        };
     in {
         "KQgltL0f" = _KQgltL0f;
         "LTvg2mkF" = _LTvg2mkF;
@@ -38,16 +78,30 @@ let
         "pi7qdmSJ" = _pi7qdmSJ;
         "79ULcpbJ" = _79ULcpbJ;
         "ZIFHaOEp" = _ZIFHaOEp;
+        "59dH6yqa" = _59dH6yqa;
+        "frpQyEjZ" = _frpQyEjZ;
+        "5oIgfLBr" = _5oIgfLBr;
+        "4aulo50s" = _4aulo50s;
+        "7VuDwAgR" = _7VuDwAgR;
+        "KGpw7BIv" = _KGpw7BIv;
+        "8mkJQz9C" = _8mkJQz9C;
+        "yOgQ8qUE" = _yOgQ8qUE;
         "neoforge-1.21" = _79ULcpbJ;
-        "neoforge-1.21.1" = _79ULcpbJ;
+        "neoforge-1.21.1" = _7VuDwAgR;
         "neoforge-1.20.1" = _ZIFHaOEp;
+        "neoforge-1.21.3" = _5oIgfLBr;
+        "neoforge-1.21.4" = _8mkJQz9C;
         "forge-1.20.1" = _ZIFHaOEp;
         "forge-1.19.2" = _lzKIaCXH;
         "fabric-1.21" = _pi7qdmSJ;
-        "fabric-1.21.1" = _pi7qdmSJ;
+        "fabric-1.21.1" = _KGpw7BIv;
+        "fabric-1.21.3" = _4aulo50s;
+        "fabric-1.21.4" = _yOgQ8qUE;
         "pkg-1.0.0" = _pi7qdmSJ;
         "pkg-1.1.0" = _ZIFHaOEp;
-        "default" = _ZIFHaOEp;
+        "pkg-1.2.0" = _yOgQ8qUE;
+        "pkg-1.2.1" = _KGpw7BIv;
+        "default" = _yOgQ8qUE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rustic-pancakes";

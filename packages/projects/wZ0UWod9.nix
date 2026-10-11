@@ -36,6 +36,11 @@ let
             "file" = "animated_xp_bar_v1.4.zip";
             "hash" = "sha512-zmzEFcvw2LywK/XuVkmjZpBLlJ0AJQsAxs5bh39jw3Lrk5BBYgJFDswZsoNJqrPon4psvbShuRtwdXr1Uh/H0A==";
         };
+        _yYjG6Ojq = {
+            "id" = "yYjG6Ojq";
+            "file" = "animated_xp_bar_v1.4_26.3.zip";
+            "hash" = "sha512-zmzEFcvw2LywK/XuVkmjZpBLlJ0AJQsAxs5bh39jw3Lrk5BBYgJFDswZsoNJqrPon4psvbShuRtwdXr1Uh/H0A==";
+        };
     in {
         "pfBO8RTS" = _pfBO8RTS;
         "ZAYlJDXX" = _ZAYlJDXX;
@@ -44,6 +49,7 @@ let
         "n7DgSTsB" = _n7DgSTsB;
         "vksVd2jU" = _vksVd2jU;
         "bhxfHJRz" = _bhxfHJRz;
+        "yYjG6Ojq" = _yYjG6Ojq;
         "minecraft-1.20.2" = _bhxfHJRz;
         "minecraft-1.20.3" = _bhxfHJRz;
         "minecraft-1.20.4" = _bhxfHJRz;
@@ -65,12 +71,14 @@ let
         "minecraft-26.1.1" = _bhxfHJRz;
         "minecraft-26.1.2" = _bhxfHJRz;
         "minecraft-26.2" = _bhxfHJRz;
+        "minecraft-26.3" = _yYjG6Ojq;
         "pkg-1.0" = _pfBO8RTS;
         "pkg-1.1" = _eYUI80Vq;
         "pkg-1.2" = _n7DgSTsB;
         "pkg-1.3" = _vksVd2jU;
         "pkg-1.4" = _bhxfHJRz;
-        "default" = _bhxfHJRz;
+        "pkg-v1.4" = _yYjG6Ojq;
+        "default" = _yYjG6Ojq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "animated-xp-bar";

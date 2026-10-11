@@ -126,6 +126,16 @@ let
             "file" = "spawnguard-1.21.4-1.1.2-neoforge.jar";
             "hash" = "sha512-iKa0VALtcgKucIN9f1rAOkziGzwwR31SzmQOBUcMPvZdT0n9n1uMjD7ewKTCantogScGJ2tm7D4+MwpoCN7zsw==";
         };
+        _AXBtIV01 = {
+            "id" = "AXBtIV01";
+            "file" = "spawnguard-26.3-1.4.0-fabric.jar";
+            "hash" = "sha512-BE2hRoacuuFDh+zzn8Ur5x49eKYKm3wzKtGNGa2TJ5iWGUleQAq1p+/epGOLurg/DaVFq2QrxfbI+zyDHD7IYw==";
+        };
+        _nrrUGCml = {
+            "id" = "nrrUGCml";
+            "file" = "spawnguard-26.3-1.4.0-neoforge.jar";
+            "hash" = "sha512-9ZaGj6a8xOVmcKbfthKE4Iku9MJNL3desLhwHeFZJvDtRD7MUcOJFZNjfjLB5IEUvrdKCwV9LPKNLNwnbTL4WQ==";
+        };
     in {
         "KgugCkKr" = _KgugCkKr;
         "RvfaO2sn" = _RvfaO2sn;
@@ -152,6 +162,8 @@ let
         "tgpKZUY9" = _tgpKZUY9;
         "OhPz5Rsh" = _OhPz5Rsh;
         "tDb2NBN9" = _tDb2NBN9;
+        "AXBtIV01" = _AXBtIV01;
+        "nrrUGCml" = _nrrUGCml;
         "forge-1.20.1" = _hfgSZm9h;
         "forge-1.20.2" = _hfgSZm9h;
         "forge-1.20.4" = _hfgSZm9h;
@@ -161,12 +173,14 @@ let
         "neoforge-1.21.1" = _ucaKb0oS;
         "neoforge-1.21.4" = _tDb2NBN9;
         "neoforge-1.21.11" = _EsiiwpnK;
+        "neoforge-26.3" = _nrrUGCml;
         "fabric-1.20.1" = _lxUkexbT;
         "fabric-1.20.2" = _3BNWLrVn;
         "fabric-1.20.4" = _3BNWLrVn;
         "fabric-1.21.1" = _QUb7ebct;
         "fabric-1.21.4" = _tgpKZUY9;
         "fabric-1.21.11" = _yOHf5egO;
+        "fabric-26.3" = _AXBtIV01;
         "pkg-1.20.1-0.2b" = _KgugCkKr;
         "pkg-1.20.1-0.3b" = _RvfaO2sn;
         "pkg-1.0.0" = _hfgSZm9h;
@@ -179,7 +193,8 @@ let
         "pkg-1.21.4-1.1.1" = _rWS0ntZ9;
         "pkg-1.21.11-1.2.1" = _EsiiwpnK;
         "pkg-1.21.4-1.1.2" = _tDb2NBN9;
-        "default" = _tDb2NBN9;
+        "pkg-26.3-1.4.0" = _nrrUGCml;
+        "default" = _nrrUGCml;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spawnguard";

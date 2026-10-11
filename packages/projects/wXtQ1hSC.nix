@@ -81,6 +81,21 @@ let
             "file" = "Container Preview-forge-26.2-1.0.3.jar";
             "hash" = "sha512-ebaXQJW01+xzagUjEAbEFgepK8z3OxwltnEkf6Mo2OIKUvvwjA8X3UnhfGNJVUi+8pje0KELcBIBxcvp2gU2Ug==";
         };
+        _kFdC8itm = {
+            "id" = "kFdC8itm";
+            "file" = "Container Preview-Fabric-26.3.jar";
+            "hash" = "sha512-kNwpF0MTDVIEoe+a/IU9mAcZsX1B/7zx7i1yNN9elsEMcnIPTKAQzLkBlevC9t5KLZg6z4f8xCD6KoOs7gRL3w==";
+        };
+        _UZr54ZwO = {
+            "id" = "UZr54ZwO";
+            "file" = "Container Preview-Forge-26.3.jar";
+            "hash" = "sha512-RipqADU4jDt2lKqA8d/RVYsc8g84p0ClCgCItxhf66SeHYItqQY1qL6x/xUkBGqkoLb3zR4BeJKWELFmo+0jUQ==";
+        };
+        _zFcYwcgG = {
+            "id" = "zFcYwcgG";
+            "file" = "Container Preview-NeoForge-26.3.jar";
+            "hash" = "sha512-ZwrC8aLNjbX3W2JW4gtD11bSP7E2w4x9En3EirN7AKmkXOZtpt45huJFdoE+NIxpcTarVvFL44YkqCpLfm3pBw==";
+        };
     in {
         "13Wxwyu0" = _13Wxwyu0;
         "wopIEZj0" = _wopIEZj0;
@@ -98,6 +113,9 @@ let
         "ebrxJtSf" = _ebrxJtSf;
         "VKdSDPRi" = _VKdSDPRi;
         "k3SpXrZT" = _k3SpXrZT;
+        "kFdC8itm" = _kFdC8itm;
+        "UZr54ZwO" = _UZr54ZwO;
+        "zFcYwcgG" = _zFcYwcgG;
         "neoforge-1.21.11" = _13Wxwyu0;
         "neoforge-26.1" = _Rdsp2g2b;
         "neoforge-26.1.1" = _Rdsp2g2b;
@@ -106,6 +124,7 @@ let
         "neoforge-1.21.10" = _k6s5HebL;
         "neoforge-1.21.8" = _79jJmGIP;
         "neoforge-26.2" = _UfWpZz5v;
+        "neoforge-26.3" = _zFcYwcgG;
         "forge-1.21.11" = _wopIEZj0;
         "forge-26.1" = _xTKjc4WR;
         "forge-26.1.1" = _xTKjc4WR;
@@ -114,6 +133,7 @@ let
         "forge-1.21.10" = _qPJFUHWU;
         "forge-1.21.8" = _uh8QDmtK;
         "forge-26.2" = _k3SpXrZT;
+        "forge-26.3" = _UZr54ZwO;
         "fabric-1.21.11" = _sL2OFas3;
         "fabric-26.1" = _InQwguYn;
         "fabric-26.1.1" = _InQwguYn;
@@ -122,10 +142,12 @@ let
         "fabric-1.21.10" = _vzAWl79X;
         "fabric-1.21.8" = _b0ZUI7Xo;
         "fabric-26.2" = _VKdSDPRi;
+        "fabric-26.3" = _kFdC8itm;
         "pkg-1.0.0" = _b0ZUI7Xo;
         "pkg-1.0.1" = _VKdSDPRi;
         "pkg-1.0.3-forge-26.2" = _k3SpXrZT;
-        "default" = _k3SpXrZT;
+        "pkg-1.0.4" = _zFcYwcgG;
+        "default" = _zFcYwcgG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "container-preview";

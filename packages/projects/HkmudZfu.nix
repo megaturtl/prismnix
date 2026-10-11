@@ -601,6 +601,16 @@ let
             "file" = "boss-results-1.0.59.jar";
             "hash" = "sha512-tFq5dcC0r54CmsPDffWtXWzKrEUHbA0rWUUA0RePN1q69qCArYiw3fb+wmD5wb68zr3pmYpTMZJ7hvGN2sl5oA==";
         };
+        _oWYOkhtX = {
+            "id" = "oWYOkhtX";
+            "file" = "Boss Results 1.21(.1) v1.0.60.zip";
+            "hash" = "sha512-fgERZqC0y/1kWQyAQHeEt/Z7dfjLBwAMIaZJKVLj4wLBxTiYzrz+EvQ8YTKb7Di44aveopSOjkdXa+leOYB1Rw==";
+        };
+        _xWiStnh5 = {
+            "id" = "xWiStnh5";
+            "file" = "boss-results-1.0.60.jar";
+            "hash" = "sha512-JJGc8ld+SyuHw5lxyVGoKYz6+HGbjzmu/lb7S63X2fOLYMfcugI9nIKgNkZBSeUu+aAERyChgOas61PPODWD9Q==";
+        };
     in {
         "l9ZEwkWh" = _l9ZEwkWh;
         "4EsvU82r" = _4EsvU82r;
@@ -722,16 +732,18 @@ let
         "Hns3rxDN" = _Hns3rxDN;
         "ac1Orc9n" = _ac1Orc9n;
         "QEJ4JfNc" = _QEJ4JfNc;
-        "datapack-1.21" = _ac1Orc9n;
-        "datapack-1.21.1" = _ac1Orc9n;
-        "fabric-1.21" = _QEJ4JfNc;
-        "fabric-1.21.1" = _QEJ4JfNc;
-        "forge-1.21" = _QEJ4JfNc;
-        "forge-1.21.1" = _QEJ4JfNc;
-        "neoforge-1.21" = _QEJ4JfNc;
-        "neoforge-1.21.1" = _QEJ4JfNc;
-        "quilt-1.21" = _QEJ4JfNc;
-        "quilt-1.21.1" = _QEJ4JfNc;
+        "oWYOkhtX" = _oWYOkhtX;
+        "xWiStnh5" = _xWiStnh5;
+        "datapack-1.21" = _oWYOkhtX;
+        "datapack-1.21.1" = _oWYOkhtX;
+        "fabric-1.21" = _xWiStnh5;
+        "fabric-1.21.1" = _xWiStnh5;
+        "forge-1.21" = _xWiStnh5;
+        "forge-1.21.1" = _xWiStnh5;
+        "neoforge-1.21" = _xWiStnh5;
+        "neoforge-1.21.1" = _xWiStnh5;
+        "quilt-1.21" = _xWiStnh5;
+        "quilt-1.21.1" = _xWiStnh5;
         "pkg-1.0.0" = _l9ZEwkWh;
         "pkg-1.0.0+mod" = _4EsvU82r;
         "pkg-1.0.1" = _vlWJctNZ;
@@ -852,7 +864,9 @@ let
         "pkg-1.0.58+mod" = _Hns3rxDN;
         "pkg-1.0.59" = _ac1Orc9n;
         "pkg-1.0.59+mod" = _QEJ4JfNc;
-        "default" = _QEJ4JfNc;
+        "pkg-1.0.60" = _oWYOkhtX;
+        "pkg-1.0.60+mod" = _xWiStnh5;
+        "default" = _xWiStnh5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "boss-results";

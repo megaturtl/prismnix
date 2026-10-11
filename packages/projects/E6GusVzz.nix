@@ -66,6 +66,11 @@ let
             "file" = "chemica-0.6.0.jar";
             "hash" = "sha512-MJSonbk18Cg5KFeD6QdnuaQzfVK1rGPmcB2W58R9PUFwO3pHBOnYFfRjght11HSfjEANQFhD/TosbAFpSZDj+w==";
         };
+        _vVp5FCYf = {
+            "id" = "vVp5FCYf";
+            "file" = "chemica-1.21.1-0.7.0.jar";
+            "hash" = "sha512-qV5Fm74g25zlR7fecx+mn8w+wQwTLKEyFc/olJ6JKuU/cakJNRkeIdrcHFpMZd82EdPEJl6zsAX6N4+tM5btCg==";
+        };
     in {
         "iKFRiEGe" = _iKFRiEGe;
         "ibNzoqpP" = _ibNzoqpP;
@@ -80,8 +85,9 @@ let
         "Jv12XD6e" = _Jv12XD6e;
         "PeOc8dSN" = _PeOc8dSN;
         "hzLufTiW" = _hzLufTiW;
+        "vVp5FCYf" = _vVp5FCYf;
         "forge-1.20.1" = _5i4yJYr9;
-        "neoforge-1.21.1" = _hzLufTiW;
+        "neoforge-1.21.1" = _vVp5FCYf;
         "neoforge-1.21.2" = _hzLufTiW;
         "neoforge-1.21.3" = _hzLufTiW;
         "neoforge-1.21.4" = _hzLufTiW;
@@ -105,7 +111,8 @@ let
         "pkg-0.5.0" = _Jv12XD6e;
         "pkg-0.5.1" = _PeOc8dSN;
         "pkg-0.6.0" = _hzLufTiW;
-        "default" = _hzLufTiW;
+        "pkg-0.7.0" = _vVp5FCYf;
+        "default" = _vVp5FCYf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chemica";

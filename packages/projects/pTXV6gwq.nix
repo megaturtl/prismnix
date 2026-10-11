@@ -556,6 +556,301 @@ let
             "file" = "easy_mob_spawn_control-1.5.10.jar";
             "hash" = "sha512-3okzX1HosG6Ae46IOmsRC2fygqS9oyYqG+oUus5VZV14AV/mTPNGzpyTsDPFhah8RMPd0i9E/Wj6Qk0ws31DNQ==";
         };
+        _P3cUZjLp = {
+            "id" = "P3cUZjLp";
+            "file" = "easy_mob_spawn_control-1.5.11.jar";
+            "hash" = "sha512-hjvyGfZ0Fjl9tssaB/oVzxtdH2fQETg1ePSm48+PdkS/UPKO9ujlWOhT/KBfnc4NumkOjEpwacLgw75ZQyjEwQ==";
+        };
+        _ijAiu0y0 = {
+            "id" = "ijAiu0y0";
+            "file" = "easy_mob_spawn_control-1.5.11.jar";
+            "hash" = "sha512-hWAl7F0DRTCtEv23wnVwlROAvgLRbc1fVfBrG06RGCFa2DTWg/yUIOnCuk21Hao3JLWA7b7P9wDjCMcqSQ27LA==";
+        };
+        _PwEzUY1I = {
+            "id" = "PwEzUY1I";
+            "file" = "easy_mob_spawn_control-1.5.11.jar";
+            "hash" = "sha512-hjvyGfZ0Fjl9tssaB/oVzxtdH2fQETg1ePSm48+PdkS/UPKO9ujlWOhT/KBfnc4NumkOjEpwacLgw75ZQyjEwQ==";
+        };
+        _U5Uy5ElO = {
+            "id" = "U5Uy5ElO";
+            "file" = "easy_mob_spawn_control-1.5.9-2.jar";
+            "hash" = "sha512-v2Sdne8TRAeKoJ0SGhrHIpuK6mNkVPlRePNrHfjj8I6rO4+HrYIuby3So6+4KJAKpkDvKixOj483LBpSR+2prw==";
+        };
+        _I5f4Db3W = {
+            "id" = "I5f4Db3W";
+            "file" = "easy_mob_spawn_control-1.5.9-2.jar";
+            "hash" = "sha512-Zg/wvD1ncos4r+SYRqvfTy3SZqy/+IxmwrgABQDvk774HXJDTNBqKbRi34xIjF4XWjAfZg4uZWCM7mCG8oIzKA==";
+        };
+        _c2QTIoI0 = {
+            "id" = "c2QTIoI0";
+            "file" = "easy_mob_spawn_control-1.5.9-2.jar";
+            "hash" = "sha512-UQHbae8IoR50YYd4/yYvKvt7oINjXh/Cf+CchIN14005d/wAsC0AVvB8PzxWRT5iGjMgIFp2cIiumlBML02DZw==";
+        };
+        _hoeqSFPa = {
+            "id" = "hoeqSFPa";
+            "file" = "easy_mob_spawn_control-1.5.9-2.jar";
+            "hash" = "sha512-59qQwC4ZvOvZ3Df0S7OrQ6CaK4iZOAIG5I/B+43Dv+ifgKLC/jsHqjeB+1R3yZq3wVzPb/7c9N//SVZTJo9uyA==";
+        };
+        _42yLr0Oz = {
+            "id" = "42yLr0Oz";
+            "file" = "easy_mob_spawn_control-1.5.11.jar";
+            "hash" = "sha512-U7unD+fgJEcDOILN8RwCImL2JkyM70D+uttTMyM4LZqegCBPRlUnJcAR7CzgkkvP8IXee//lBViruM0S6AzJ5w==";
+        };
+        _xUXXaxAm = {
+            "id" = "xUXXaxAm";
+            "file" = "easy_mob_spawn_control-1.5.11.jar";
+            "hash" = "sha512-riTCmpiJu6F+M+HmohDSmPuncI2uf89M4Yk7oFZ/y39EV+W7TcWjbwi3l6FhBlg1TVgxPVOkjRavOAKiiGeahw==";
+        };
+        _ayFw4OBA = {
+            "id" = "ayFw4OBA";
+            "file" = "easy_mob_spawn_control-1.5.11.jar";
+            "hash" = "sha512-vK+R4xrnzY1KmTisZcSMUTsR/W1mxdunVwsQ/TLq91tlI8wK54xinkQKTF5T1y/CJQSmBKcWxHeXPflJwDzr3g==";
+        };
+        _ky2FX8Bl = {
+            "id" = "ky2FX8Bl";
+            "file" = "easy_mob_spawn_control-1.5.11.jar";
+            "hash" = "sha512-jqmWuua4fUgar1zRIBex+O7zW+Ww+up2PalBpkH1Esfx82LBmhakVCU40qmd7fkzbNLmjMa51Om2+2cTPkmAlw==";
+        };
+        _fUiKyzN9 = {
+            "id" = "fUiKyzN9";
+            "file" = "easy_mob_spawn_control-1.5.11.jar";
+            "hash" = "sha512-wurRff7CK7UCJUHZQFNGrdCa/c5MhmMd3gxD/Q5oMxJLagXJb8IfJgAndI+uQ/pAvom0IdAJU3Qzz7DKt0vlYw==";
+        };
+        _9XsqLuq0 = {
+            "id" = "9XsqLuq0";
+            "file" = "easy_mob_spawn_control-1.5.11.jar";
+            "hash" = "sha512-Z5L2oanSSInlSD432TxaKaqaKjkokmNZBK18FqqsecM5KVZkLiNZzjgtvujMCE3AHTH8GBKjAESbnC/dzamqjA==";
+        };
+        _FXmDcsJo = {
+            "id" = "FXmDcsJo";
+            "file" = "easy_mob_spawn_control-1.5.11.jar";
+            "hash" = "sha512-KmTd0x+0hAYO6Z9gTBKik0VHnyeItNBzzoEhdr5FA+M3f2ASB1Qt44MyRpBi7NndrwhU7qzG9Eu1AdWhZOnz9A==";
+        };
+        _EThMEKCW = {
+            "id" = "EThMEKCW";
+            "file" = "easy_mob_spawn_control-1.5.11.jar";
+            "hash" = "sha512-m/Ut1V9uFZfE0BxuJeBasleWQU1wYuaKqbtp2Px/Rgq4R+bTMsRiUrszS9yvwP9gQU+NmMQPKRcUwW766W19Cw==";
+        };
+        _x9sxRyOz = {
+            "id" = "x9sxRyOz";
+            "file" = "easy_mob_spawn_control-1.5.11.jar";
+            "hash" = "sha512-ZboUmNwM/CVUFnPNDo3gvTZIxwYjyNM5BvzvlzdEsqoNBL+MoQpf8cz0iis/UXnTlCG3hrKt69Lr5qE+wb2XSg==";
+        };
+        _dzDHUkcF = {
+            "id" = "dzDHUkcF";
+            "file" = "easy_mob_spawn_control-1.5.11-2.jar";
+            "hash" = "sha512-mGLtcGMYYmomaoSHCfgZWMKscfH8bRqfuOIAUnv1R0xZ+X0+EY43sazlchYlXIaAF54RajVOrkqcWcUNaLA5xQ==";
+        };
+        _8r7IJbyM = {
+            "id" = "8r7IJbyM";
+            "file" = "easy_mob_spawn_control-1.5.11-2.jar";
+            "hash" = "sha512-U+hsdAysbuYDNTHC4BUZ7afHIBVQN52je1pgt8eXv0LPh6RM1Ym3qM5y/mM3z9QF5U1h/GyxxDIE2weZmQt9tQ==";
+        };
+        _LX2NK4vn = {
+            "id" = "LX2NK4vn";
+            "file" = "easy_mob_spawn_control-1.5.11-2.jar";
+            "hash" = "sha512-UndgsDzHy0qVCUxLLE3CpSi5G+irg7jjHA0YaBjU25NtDKCkaEHPDpwJvgZNAfwI5F86WHb2roB97kTgSdeijA==";
+        };
+        _UfBJJwYe = {
+            "id" = "UfBJJwYe";
+            "file" = "easy_mob_spawn_control-1.5.11-2.jar";
+            "hash" = "sha512-qkXOW8PzXgDWqhkaOiHrFTDiInTZCQz5ihWk8Zj5i1tt+YsvIjrY/59SyMFbL73jaBzmSkkPQceLOOvZzyAmew==";
+        };
+        _ucF4pqiB = {
+            "id" = "ucF4pqiB";
+            "file" = "easy_mob_spawn_control-1.5.11-2.jar";
+            "hash" = "sha512-w+T1WZ8kHKZwpsUeICoCvC86ks6GMb0k6akuic02MocdI94DLjojwwn2wmJNYxGMhDHja4PLc0MJvIqlFRH+Rw==";
+        };
+        _cwl0ZDDT = {
+            "id" = "cwl0ZDDT";
+            "file" = "easy_mob_spawn_control-1.6.0.jar";
+            "hash" = "sha512-V/B484pqLawZDqpx3tx/TCUTFCNrxpnnFCGx9GCoyA+7EEI4h//xFL+ZI49FzCKV6P9EOwTsnjF9O96mCqb5gA==";
+        };
+        _PFSid73Y = {
+            "id" = "PFSid73Y";
+            "file" = "easy_mob_spawn_control-1.6.0.jar";
+            "hash" = "sha512-diZMHK6mA6wCBgkat+EyRwO2oG2S7XdOAbnk/ws3mVcWADFkcCiSNcM/wnGZLAQtPa0Xmhpt0ymRbzYjKGMRog==";
+        };
+        _WPZaeqpT = {
+            "id" = "WPZaeqpT";
+            "file" = "easy_mob_spawn_control-1.6.0.jar";
+            "hash" = "sha512-scvNtHnYbqmZqvlquNKeLSee7Bz/FyjdbhXIvyab29H/e+EuDbatVvpT/5yu9H4AfeXEJYYM6YOqT3LcHWPIJw==";
+        };
+        _BUe8yvGX = {
+            "id" = "BUe8yvGX";
+            "file" = "easy_mob_spawn_control-1.6.0.jar";
+            "hash" = "sha512-hgAvcA/NfdRIDf8lmn81r6GAHVCywRF01grwqrtnAPFhtxoPfKCVyMN0gsFB/OqdjRhksYKyI0859dXQFJpDGA==";
+        };
+        _C9rJ42tG = {
+            "id" = "C9rJ42tG";
+            "file" = "easy_mob_spawn_control-1.6.0.jar";
+            "hash" = "sha512-OgvmNT37DvdCIegPndAnNcuKGiFM0rUh+vSWJrxY6ku93XEWz7goPWc0n3eBopua0FLYUMI7fubXPxQbs0TUAQ==";
+        };
+        _3GOGiRq5 = {
+            "id" = "3GOGiRq5";
+            "file" = "easy_mob_spawn_control-1.6.0.jar";
+            "hash" = "sha512-rOnfwTBuqwhVk94QrN1tm3JuVeFWw6xLcmHAZFHnDliJGJhwww5BjdleNYJIhq83bVy9zGQsgZpzZ+dPqG2aBw==";
+        };
+        _XGvXAuKG = {
+            "id" = "XGvXAuKG";
+            "file" = "easy_mob_spawn_control-1.6.0.jar";
+            "hash" = "sha512-hsr2etNbZ9d+vM1+X8QucJejjkoNON189rv1L9ewOsCHDccQohjdTYu6VdI/PtL01+ov2oQts1Bou5rMK4Y0gA==";
+        };
+        _ILMELkjW = {
+            "id" = "ILMELkjW";
+            "file" = "easy_mob_spawn_control-1.6.0.jar";
+            "hash" = "sha512-lCc5gBwBxzklhwuaaQJaAtaiezr4Ml4RGlGQA24d/f+TpLyTFK3r3hjbBeX6ChJKPA5BsakfpSqjTpL9dFA/0w==";
+        };
+        _f7I5yMZa = {
+            "id" = "f7I5yMZa";
+            "file" = "easy_mob_spawn_control-1.6.0.jar";
+            "hash" = "sha512-s5uCyRabhoWwcUpqfXQavMth2Im0V9gmjqKei/U5yQ2GPQ5fyTFAD6W7fivD0O13FQAppfDhQZS7Pv/gA7mJCA==";
+        };
+        _NPqsV4cK = {
+            "id" = "NPqsV4cK";
+            "file" = "easy_mob_spawn_control-1.6.0-2.jar";
+            "hash" = "sha512-UleWcHHgbscMq96PIXWRgyajpqX3DGljsU/pRuuONDL3g3FaCfKaHr0KAuPjOlo0fBIr1uWQUlJFKdjCcZTQwg==";
+        };
+        _vFintFRk = {
+            "id" = "vFintFRk";
+            "file" = "easy_mob_spawn_control-1.6.0.jar";
+            "hash" = "sha512-xZGMrHx4EjI0g4LBWwSnhtqwJYLM0tLqpQzmJLyJ6SY7ILaFA9X5TdCvxJDKHvDRXQFJYECmdizVJUz+NV38zQ==";
+        };
+        _O0NqrmPO = {
+            "id" = "O0NqrmPO";
+            "file" = "easy_mob_spawn_control-1.6.0.jar";
+            "hash" = "sha512-2Gy0uIfPWKARMxzFa3LUpIm7kRYj7cMyLecxLafMNxwjmB6JHcjSlwTo1vuoY3wRqFRWWA99dcY+HYMJwJdeKg==";
+        };
+        _yWqX4C11 = {
+            "id" = "yWqX4C11";
+            "file" = "easy_mob_spawn_control-1.6.1.jar";
+            "hash" = "sha512-XQkwr2D5UYfWRlwjUPCp6ohZoekDhugnZcudDqHlSOP6fBX2ZoID7mpPdrkm7RcpYEIEACh+/OTWLevUzdoRVA==";
+        };
+        _AtlU1Cw9 = {
+            "id" = "AtlU1Cw9";
+            "file" = "easy_mob_spawn_control-1.6.1.jar";
+            "hash" = "sha512-In9/h6fDfi8tjFGon6Scv/TkwQ9cc8Cq563vT5ZiFmDLQmO+lmZJfGp/w2y9kqJeetpOioeGLhSrZOkkXPDZsQ==";
+        };
+        _Fj5bbiWd = {
+            "id" = "Fj5bbiWd";
+            "file" = "easy_mob_spawn_control-1.6.1.jar";
+            "hash" = "sha512-RQHwl80lhh8cz/p9P7uxKsO3T3+weaXasEOYCxrbN75Syb7FRMKTONYJlvy+nVZHZjIyROWV0P0FmqHtTrtsxA==";
+        };
+        _EDhL7jTj = {
+            "id" = "EDhL7jTj";
+            "file" = "easy_mob_spawn_control-1.6.1.jar";
+            "hash" = "sha512-RIS56v5pccBSQQ8HkC8vMFdBOIdEi1H5530TAxMAF2+1j4Dp1D4XuklzN4tpaOry/CU9r9TOvIgUJrsclkWbhA==";
+        };
+        _DgkGZ5dI = {
+            "id" = "DgkGZ5dI";
+            "file" = "easy_mob_spawn_control-1.6.1.jar";
+            "hash" = "sha512-OCAVJZY/WHtLfFAXJXL09eQayka3TRcthnr2cR6VhaRLpnd8vaNPfs3BUSO9bYTQhCiwiElXhGKf7g7zlAQ9gQ==";
+        };
+        _b3XPED15 = {
+            "id" = "b3XPED15";
+            "file" = "easy_mob_spawn_control-1.6.1.jar";
+            "hash" = "sha512-/AtoG6CQUuInAjSX0yiOFOFsK2fzTZ+Qn7qK+O70z+R8IQWnlz95S39z3wnQF0eVIyh3SeBjEXa74diay9jtZA==";
+        };
+        _hv3SrPoe = {
+            "id" = "hv3SrPoe";
+            "file" = "easy_mob_spawn_control-1.6.1.jar";
+            "hash" = "sha512-I7BH33y/xjINvc2Wq7+/o4NymY+geOyzfaHFO8MK9QqLn0GH6TuOXYqe3fv9GNNPcz0Zze7u6LNr+z4ysKBoKA==";
+        };
+        _PNIemoG0 = {
+            "id" = "PNIemoG0";
+            "file" = "easy_mob_spawn_control-1.6.1.jar";
+            "hash" = "sha512-RzQLbChLua6gXFQqSwC1mEyAKG+wzpBadWprqVCVhN6f5fraZ59iPyzdMNKO8n8q6MGWJ24h4PY9FzolYFagAA==";
+        };
+        _H7cGw7ys = {
+            "id" = "H7cGw7ys";
+            "file" = "easy_mob_spawn_control-1.6.1.jar";
+            "hash" = "sha512-aQWOxeXDVsAsq4xT4Sha0igVTH4zlrDggGegVDq6zW1I3yeqO1rUbuNoiRCVP024QXbLjoTATO2n2/HIbnzZyg==";
+        };
+        _tgbHWAOA = {
+            "id" = "tgbHWAOA";
+            "file" = "easy_mob_spawn_control-1.6.1.jar";
+            "hash" = "sha512-vWBeEag2XHTLgvyuxGZGGKvvmQ6P5nq/USQmyJxx+aBYI69QxEeo81ODOQrJkuD1txbpmzteKeGj3xJ8MIgjkQ==";
+        };
+        _i6zBS0jf = {
+            "id" = "i6zBS0jf";
+            "file" = "easy_mob_spawn_control-1.6.1.jar";
+            "hash" = "sha512-YIq9sHCUFO5Cwmop7Pf3wnKm49eCSEHdq/YlQmITo4z6MzojFByXI7mS58D+l5YM6NpegUHkQBr6G1lNovOo9Q==";
+        };
+        _tJoKuELt = {
+            "id" = "tJoKuELt";
+            "file" = "easy_mob_spawn_control-1.6.1-2.jar";
+            "hash" = "sha512-htJghfc098ehCjv1XDf64WvMjvXnr5A33xxOtBktaYIv2g+XXo8ri5HLu5ybW2S1RxOLG0mVg31RZ/62qy7Zfg==";
+        };
+        _2IK9VG3j = {
+            "id" = "2IK9VG3j";
+            "file" = "easy_mob_spawn_control-1.6.1-2.jar";
+            "hash" = "sha512-tUcotzNyNK8KDzFsUt9MvuB5OSonDmuRj5pnHrYEP+9xovjrxHaAhxqi8V7MPExeDx5Jc4DplU7RZ1zxBTnUKg==";
+        };
+        _qXaMgKuc = {
+            "id" = "qXaMgKuc";
+            "file" = "easy_mob_spawn_control-1.6.1-2.jar";
+            "hash" = "sha512-5fDGOUXx7toLHUiy9SUU6/ZUUMtIiTPsNhHUlhiM/egNJ4TIyBvVSLAsG4cad8c3UHikXGXNmW622u45K08ogg==";
+        };
+        _GKjtb63S = {
+            "id" = "GKjtb63S";
+            "file" = "easy_mob_spawn_control-1.6.1-2.jar";
+            "hash" = "sha512-LyWWsnsoCKSeypvQZcHc2zBiuybaymRBGVRq+LUDmvKDNdUuLv9STqMgcDJPLdBVT3sUwSMOdMSf9MrEDkySOA==";
+        };
+        _ziRkPtqJ = {
+            "id" = "ziRkPtqJ";
+            "file" = "easy_mob_spawn_control-1.6.1-2.jar";
+            "hash" = "sha512-0vYAwGhyZB56hSZRXAlAHry5psucyEH42tEdivXd6k6wUieAq1QsX4CYa8OFnrclD0HxVYeW+tc/Rc50AAcaRw==";
+        };
+        _ZfznMzzB = {
+            "id" = "ZfznMzzB";
+            "file" = "easy_mob_spawn_control-1.6.1.jar";
+            "hash" = "sha512-7pDJ2cHJmXwJ76yJQr/RcJ1MJixMo2fPgvm/dojo11cDM5g5fkEwjIAv/UCyMzlzMZq1lle5AGvG+8WcNDdBDw==";
+        };
+        _N8KIysO6 = {
+            "id" = "N8KIysO6";
+            "file" = "easy_mob_spawn_control-1.6.1.jar";
+            "hash" = "sha512-dQeZo29EeABY4NvYmA77G505oggm94u1QPr2Yu/Wp9Ha8Kr2WiIS2Rkf+ZNrDEzfFa4Y1nJD1JuW7I139CNp7A==";
+        };
+        _JyLZmFZ2 = {
+            "id" = "JyLZmFZ2";
+            "file" = "easy_mob_spawn_control-1.6.1.jar";
+            "hash" = "sha512-HYlpG+ZJ2Tp2DdLsCVVB3aV07sxaZUi+TbnKtBtwxWDvcR7DRzD+k9FFvxj6MGXDXyCT/YyTgAH2rCcEtuiiJw==";
+        };
+        _Y9BDYJwe = {
+            "id" = "Y9BDYJwe";
+            "file" = "easy_mob_spawn_control-1.6.1.jar";
+            "hash" = "sha512-wUBdAwfP/gRiXS8HHqiICTKZxLixaBWD9C15g4ijDwB9GLX/pIFDUy8G0cE796mDNu27JCWZYSaMCQAvgO5Pdg==";
+        };
+        _hyzFoprB = {
+            "id" = "hyzFoprB";
+            "file" = "easy_mob_spawn_control-1.6.1.jar";
+            "hash" = "sha512-H5IcJV8Q6I4dC3TZFLD6XadTNbV8qMQHFLPMXxV4biPh33TR6J8HxHq1IucBut76kFKemmqK2Gs71Kz+JBmFrA==";
+        };
+        _rRQKfLVF = {
+            "id" = "rRQKfLVF";
+            "file" = "easy_mob_spawn_control-1.6.1-3.jar";
+            "hash" = "sha512-P5v7McH/M7GaaO3k6ANoS9AfMqfzAsv1Y/vqZ9DLXh4r65UIGJRwheKO0B1h/p6KHcRL6UsVyPxsO8UPbITzBQ==";
+        };
+        _3vTodfnf = {
+            "id" = "3vTodfnf";
+            "file" = "easy_mob_spawn_control-1.6.1-3.jar";
+            "hash" = "sha512-4wOfuhM4vKPmDSRWtFWsA8UD//v1T3C54aBuO8OV1ALO00iM6hLVzFXxyCyjI6VAmqo6NDGEEsbzVuI2i6S4Fg==";
+        };
+        _knrrTuVN = {
+            "id" = "knrrTuVN";
+            "file" = "easy_mob_spawn_control-1.6.1-3.jar";
+            "hash" = "sha512-WFKr1n1zKNJVlKujsheTkHah+HvVyD5yRZZIJDmn2RIzK2S4IiSTaG+xDiNmT/b1fGy/spoqc6myxUW9LaFNnw==";
+        };
+        _y8CLcEFQ = {
+            "id" = "y8CLcEFQ";
+            "file" = "easy_mob_spawn_control-1.6.1-3.jar";
+            "hash" = "sha512-qMu4rLKnR5gCGvJ/1fzGKaOFIPVl4YDZVB3Up+otC7X/XJgLHZaiFwHtuXRHx+g5ewcRJcZxOzIsUWhIk+p+Zg==";
+        };
+        _CCZPOKVq = {
+            "id" = "CCZPOKVq";
+            "file" = "easy_mob_spawn_control-1.6.1-3.jar";
+            "hash" = "sha512-uic6D0pAvDbjiBPMJ6A0HSAzvxlY1sQrTIwFAXB6lp+P0mNPpZwRQ0x2VfOVlmUKIiSho/W/xgn9/IBmsIIaEg==";
+        };
     in {
         "f5em2Lr6" = _f5em2Lr6;
         "S6YXclM6" = _S6YXclM6;
@@ -668,19 +963,86 @@ let
         "tR7SNZkE" = _tR7SNZkE;
         "KsQqSPDg" = _KsQqSPDg;
         "97ISXDVS" = _97ISXDVS;
-        "forge-1.20.1" = _tR7SNZkE;
+        "P3cUZjLp" = _P3cUZjLp;
+        "ijAiu0y0" = _ijAiu0y0;
+        "PwEzUY1I" = _PwEzUY1I;
+        "U5Uy5ElO" = _U5Uy5ElO;
+        "I5f4Db3W" = _I5f4Db3W;
+        "c2QTIoI0" = _c2QTIoI0;
+        "hoeqSFPa" = _hoeqSFPa;
+        "42yLr0Oz" = _42yLr0Oz;
+        "xUXXaxAm" = _xUXXaxAm;
+        "ayFw4OBA" = _ayFw4OBA;
+        "ky2FX8Bl" = _ky2FX8Bl;
+        "fUiKyzN9" = _fUiKyzN9;
+        "9XsqLuq0" = _9XsqLuq0;
+        "FXmDcsJo" = _FXmDcsJo;
+        "EThMEKCW" = _EThMEKCW;
+        "x9sxRyOz" = _x9sxRyOz;
+        "dzDHUkcF" = _dzDHUkcF;
+        "8r7IJbyM" = _8r7IJbyM;
+        "LX2NK4vn" = _LX2NK4vn;
+        "UfBJJwYe" = _UfBJJwYe;
+        "ucF4pqiB" = _ucF4pqiB;
+        "cwl0ZDDT" = _cwl0ZDDT;
+        "PFSid73Y" = _PFSid73Y;
+        "WPZaeqpT" = _WPZaeqpT;
+        "BUe8yvGX" = _BUe8yvGX;
+        "C9rJ42tG" = _C9rJ42tG;
+        "3GOGiRq5" = _3GOGiRq5;
+        "XGvXAuKG" = _XGvXAuKG;
+        "ILMELkjW" = _ILMELkjW;
+        "f7I5yMZa" = _f7I5yMZa;
+        "NPqsV4cK" = _NPqsV4cK;
+        "vFintFRk" = _vFintFRk;
+        "O0NqrmPO" = _O0NqrmPO;
+        "yWqX4C11" = _yWqX4C11;
+        "AtlU1Cw9" = _AtlU1Cw9;
+        "Fj5bbiWd" = _Fj5bbiWd;
+        "EDhL7jTj" = _EDhL7jTj;
+        "DgkGZ5dI" = _DgkGZ5dI;
+        "b3XPED15" = _b3XPED15;
+        "hv3SrPoe" = _hv3SrPoe;
+        "PNIemoG0" = _PNIemoG0;
+        "H7cGw7ys" = _H7cGw7ys;
+        "tgbHWAOA" = _tgbHWAOA;
+        "i6zBS0jf" = _i6zBS0jf;
+        "tJoKuELt" = _tJoKuELt;
+        "2IK9VG3j" = _2IK9VG3j;
+        "qXaMgKuc" = _qXaMgKuc;
+        "GKjtb63S" = _GKjtb63S;
+        "ziRkPtqJ" = _ziRkPtqJ;
+        "ZfznMzzB" = _ZfznMzzB;
+        "N8KIysO6" = _N8KIysO6;
+        "JyLZmFZ2" = _JyLZmFZ2;
+        "Y9BDYJwe" = _Y9BDYJwe;
+        "hyzFoprB" = _hyzFoprB;
+        "rRQKfLVF" = _rRQKfLVF;
+        "3vTodfnf" = _3vTodfnf;
+        "knrrTuVN" = _knrrTuVN;
+        "y8CLcEFQ" = _y8CLcEFQ;
+        "CCZPOKVq" = _CCZPOKVq;
+        "forge-1.20.1" = _AtlU1Cw9;
         "forge-1.19.2" = _eTH97Zun;
-        "neoforge-1.21.1" = _KsQqSPDg;
-        "neoforge-26.1" = _vYGFAJ2B;
-        "neoforge-1.21.11" = _XWyYdt9z;
-        "neoforge-26.2" = _97ISXDVS;
-        "fabric-1.21.11" = _GPkUi1uc;
-        "fabric-26.1" = _y3P5MukQ;
-        "fabric-26.1.1" = _y3P5MukQ;
-        "fabric-26.1.2" = _y3P5MukQ;
-        "fabric-26.2" = _Ou9k8EE2;
-        "fabric-1.21.1" = _AOqBQ2m3;
-        "fabric-1.20.1" = _apizEABV;
+        "neoforge-1.21.1" = _3vTodfnf;
+        "neoforge-26.1" = _y8CLcEFQ;
+        "neoforge-1.21.11" = _hyzFoprB;
+        "neoforge-26.2" = _CCZPOKVq;
+        "neoforge-26.3" = _i6zBS0jf;
+        "neoforge-26.1.1" = _y8CLcEFQ;
+        "neoforge-26.1.2" = _y8CLcEFQ;
+        "neoforge-1.21.4" = _N8KIysO6;
+        "neoforge-1.21.8" = _Y9BDYJwe;
+        "fabric-1.21.11" = _knrrTuVN;
+        "fabric-26.1" = _qXaMgKuc;
+        "fabric-26.1.1" = _qXaMgKuc;
+        "fabric-26.1.2" = _qXaMgKuc;
+        "fabric-26.2" = _GKjtb63S;
+        "fabric-1.21.1" = _rRQKfLVF;
+        "fabric-1.20.1" = _tJoKuELt;
+        "fabric-26.3" = _ziRkPtqJ;
+        "fabric-1.21.4" = _ZfznMzzB;
+        "fabric-1.21.8" = _JyLZmFZ2;
         "pkg-1.0.0" = _f5em2Lr6;
         "pkg-1.0.1" = _S6YXclM6;
         "pkg-1.0.2" = _Ocl0e495;
@@ -734,7 +1096,15 @@ let
         "pkg-1.5.8-2" = _GPkUi1uc;
         "pkg-1.5.9" = _JDQTlexA;
         "pkg-1.5.10" = _97ISXDVS;
-        "default" = _97ISXDVS;
+        "pkg-1.5.11" = _x9sxRyOz;
+        "pkg-1.5.9-2" = _hoeqSFPa;
+        "pkg-1.5.11-2" = _ucF4pqiB;
+        "pkg-1.6.0" = _O0NqrmPO;
+        "pkg-1.6.0-2" = _NPqsV4cK;
+        "pkg-1.6.1" = _hyzFoprB;
+        "pkg-1.6.1-2" = _ziRkPtqJ;
+        "pkg-1.6.1-3" = _CCZPOKVq;
+        "default" = _CCZPOKVq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "easy-mob-spawn-control";

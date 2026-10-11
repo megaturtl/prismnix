@@ -361,6 +361,26 @@ let
             "file" = "AmbienceMini-1.21.1-2.7.10.jar";
             "hash" = "sha512-AIJbotLRsP3eIGYu6X8N4sW+pYBjpak0xL3Xc4/97qAwJxvPaNkjAGZzw6K7qp65F7x79eqj7ReJKIF+g+r85w==";
         };
+        _rXRLBtAz = {
+            "id" = "rXRLBtAz";
+            "file" = "AmbienceMini-1.18.2-2.7.11.jar";
+            "hash" = "sha512-+koaWaCKhQAAnN7eCs1kb8+MUB6o7fveOW02xCChklbknIM6VOMi/c+LzM4Egl8CuvaKvjC64kdPkun5QTUlYQ==";
+        };
+        _DtvVt1iz = {
+            "id" = "DtvVt1iz";
+            "file" = "AmbienceMini-1.19.2-2.7.11.jar";
+            "hash" = "sha512-qaMAWTrHy46gdbMrK9ZZwM+cf7+5FGjOMvnjA/wJkw1MS+pCSxjyr+eiPJ2r2cTLzbMod6ilmhXsRWlnO+o3RQ==";
+        };
+        _fU6peVtX = {
+            "id" = "fU6peVtX";
+            "file" = "AmbienceMini-1.20.1-2.7.11.jar";
+            "hash" = "sha512-ulL0M3vrQJ+9NytnVin24twftLXEzu6DPJjhRfZe6QoXcABZjY3c9Fs5W+7V8/FlJyVvmtTlzt/RO2dvhdpfTQ==";
+        };
+        _3NdRPL5h = {
+            "id" = "3NdRPL5h";
+            "file" = "AmbienceMini-1.21.1-2.7.11.jar";
+            "hash" = "sha512-4O3/+5nYq/67mxV28mVx+TJISbHoNdZy0Qw/ev3u/G4/JoJIS7H+mDrlLbWLptYS0KqRDwX7MUjXcEDl1EtXTQ==";
+        };
     in {
         "MGeNKRjE" = _MGeNKRjE;
         "57EiPmja" = _57EiPmja;
@@ -434,10 +454,14 @@ let
         "IRenD3qq" = _IRenD3qq;
         "PmY0rqMB" = _PmY0rqMB;
         "H8OUift5" = _H8OUift5;
-        "forge-1.18.2" = _QGBDWG0Z;
-        "forge-1.19.2" = _IRenD3qq;
-        "forge-1.20.1" = _PmY0rqMB;
-        "neoforge-1.21.1" = _H8OUift5;
+        "rXRLBtAz" = _rXRLBtAz;
+        "DtvVt1iz" = _DtvVt1iz;
+        "fU6peVtX" = _fU6peVtX;
+        "3NdRPL5h" = _3NdRPL5h;
+        "forge-1.18.2" = _rXRLBtAz;
+        "forge-1.19.2" = _DtvVt1iz;
+        "forge-1.20.1" = _fU6peVtX;
+        "neoforge-1.21.1" = _3NdRPL5h;
         "pkg-2.4.3" = _QsfFc5qj;
         "pkg-2.4.4" = _C8SMojyg;
         "pkg-2.5.0" = _wJSP1nyV;
@@ -456,7 +480,8 @@ let
         "pkg-2.7.8" = _Yfo1mCWS;
         "pkg-2.7.9" = _TOZAbstj;
         "pkg-2.7.10" = _H8OUift5;
-        "default" = _H8OUift5;
+        "pkg-2.7.11" = _3NdRPL5h;
+        "default" = _3NdRPL5h;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ambience-mini";

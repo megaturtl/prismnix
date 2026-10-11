@@ -21,17 +21,30 @@ let
             "file" = "cobblemon-eld-1.1.1-neoforge-mc1.21.1-cob1.7.3.jar";
             "hash" = "sha512-y9ioXiwsPWmjTy8NGaeNHhvoSM1K5FcrMO2oMRjhMIV3qtDVo+pyeM7tD0e2YUJ3VaRbfHEasM2buCCwfZEiXg==";
         };
+        _FKpKwMwD = {
+            "id" = "FKpKwMwD";
+            "file" = "cobblemon-eld-1.1.2-fabric-mc1.21.1-cob1.8.1.jar";
+            "hash" = "sha512-x2GGsUZmiSBRq2kpFC7ZCAOOrrrF0an2PWvqySUiE6Dp8IM0oUaEiOiEom1mV4ewVpt1bqxPq6aMsGqsip5omQ==";
+        };
+        _REnBTWDQ = {
+            "id" = "REnBTWDQ";
+            "file" = "cobblemon-eld-1.1.2-neoforge-mc1.21.1-cob1.8.1.jar";
+            "hash" = "sha512-qdb3QAgVh8UYaPAzMhpPhRHWrQC29757zWZOeruSOI+ViGihbqydut6esvdJNzd8XEJ0zMsJ5BQpITK0IPVA3g==";
+        };
     in {
         "XqqUGz4q" = _XqqUGz4q;
         "lO86nfrC" = _lO86nfrC;
         "H1l8yZtr" = _H1l8yZtr;
         "SUqRuihz" = _SUqRuihz;
-        "fabric-1.21.1" = _H1l8yZtr;
-        "neoforge-1.21.1" = _SUqRuihz;
+        "FKpKwMwD" = _FKpKwMwD;
+        "REnBTWDQ" = _REnBTWDQ;
+        "fabric-1.21.1" = _FKpKwMwD;
+        "neoforge-1.21.1" = _REnBTWDQ;
         "pkg-1.0.1" = _XqqUGz4q;
         "pkg-1.0.2" = _lO86nfrC;
         "pkg-1.1.1" = _SUqRuihz;
-        "default" = _SUqRuihz;
+        "pkg-1.1.2" = _REnBTWDQ;
+        "default" = _REnBTWDQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-explore-legendary-dungeons";

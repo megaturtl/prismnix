@@ -81,6 +81,11 @@ let
             "file" = "arsmagicalegacy-26.1.2-1.6.1.jar";
             "hash" = "sha512-3Lkzdxkrfbcq1HSMZv1vtc4k+fZhEFmy3e8vlqCkZOH2TVrHIJhrE/4EWotCU+1WmgL1cSvExIHfMCU6HgrLJQ==";
         };
+        _V2ZwU3T2 = {
+            "id" = "V2ZwU3T2";
+            "file" = "arsmagicalegacy-26.1.2-1.7.0.jar";
+            "hash" = "sha512-pnz4eMWOGYXmmRuQ4gUkb5zM+C6qvw+6FzBgqyWjFLSc5biH4NJ7kC8itZ6TxSpDyErptFolEJo10PyQQKDYhA==";
+        };
     in {
         "BJKZvlrR" = _BJKZvlrR;
         "UfUtGjoe" = _UfUtGjoe;
@@ -98,14 +103,15 @@ let
         "Ldqcmtag" = _Ldqcmtag;
         "eoAT3Gwu" = _eoAT3Gwu;
         "s4mmOftC" = _s4mmOftC;
+        "V2ZwU3T2" = _V2ZwU3T2;
         "forge-1.18.2" = _HvQh0uDm;
         "forge-1.19.2" = _cnUlhqLR;
         "forge-1.19.4" = _G1xUBAn2;
         "forge-1.20.1" = _Ldqcmtag;
         "neoforge-1.20.4" = _s2BFbdtJ;
-        "neoforge-26.1" = _s4mmOftC;
-        "neoforge-26.1.1" = _s4mmOftC;
-        "neoforge-26.1.2" = _s4mmOftC;
+        "neoforge-26.1" = _V2ZwU3T2;
+        "neoforge-26.1.1" = _V2ZwU3T2;
+        "neoforge-26.1.2" = _V2ZwU3T2;
         "pkg-1.18.2-1.2.2" = _BJKZvlrR;
         "pkg-1.19.2-1.2.2" = _UfUtGjoe;
         "pkg-1.19.2-1.2.3" = _kH5GFi7V;
@@ -122,7 +128,8 @@ let
         "pkg-1.20.1-1.5.0" = _Ldqcmtag;
         "pkg-26.1.2-1.6.0" = _eoAT3Gwu;
         "pkg-26.1.2-1.6.1" = _s4mmOftC;
-        "default" = _s4mmOftC;
+        "pkg-26.1.2-1.7.0" = _V2ZwU3T2;
+        "default" = _V2ZwU3T2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ars-magica-legacy";

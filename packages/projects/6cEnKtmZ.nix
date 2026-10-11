@@ -236,6 +236,16 @@ let
             "file" = "Enhanced-Celestials-2-Shaders-Fabric-26.2-4.0.0.4.jar";
             "hash" = "sha512-QHffArTD9ihBmso8ekPm9D6/gDuNnrMUUaYPZr/yrACfvJiPvLRxC/qDdgSvQEm0kzy1qs0gskbG0zKu7Ctjzg==";
         };
+        _FGzzYAfp = {
+            "id" = "FGzzYAfp";
+            "file" = "Enhanced-Celestials-2-Shaders-Fabric-26.3-5.0.0.0.jar";
+            "hash" = "sha512-8829Ge2/G5HlMrY7ly+Cs2PnixisK607qvJczsHGlnoBK77FbAkYSe7hJAsdwdzeiTvzxCA4gitwtH7365KUPg==";
+        };
+        _RBnq6l8Z = {
+            "id" = "RBnq6l8Z";
+            "file" = "Enhanced-Celestials-2-Shaders-NeoForge-26.3-5.0.0.1.jar";
+            "hash" = "sha512-pRvVcdwQA+W+/eNeFa09QZpcsnyGkyGznCWwb/3ZPLY0cx7PFg2NyUxOoddU8a4WjWABmZkbPRKgMq6DtsCYyw==";
+        };
     in {
         "whqU2tbB" = _whqU2tbB;
         "tjUh3RqM" = _tjUh3RqM;
@@ -284,18 +294,23 @@ let
         "hOlwxmxn" = _hOlwxmxn;
         "rXaaPTz8" = _rXaaPTz8;
         "lvNaCk9N" = _lvNaCk9N;
+        "FGzzYAfp" = _FGzzYAfp;
+        "RBnq6l8Z" = _RBnq6l8Z;
         "fabric-1.21.1" = _NXh8YFGa;
         "fabric-1.20.1" = _tnKLGaE1;
         "fabric-26.1.2" = _hOlwxmxn;
         "fabric-26.2" = _lvNaCk9N;
+        "fabric-26.3" = _FGzzYAfp;
         "quilt-1.21.1" = _NXh8YFGa;
         "quilt-1.20.1" = _tnKLGaE1;
         "quilt-26.1.2" = _hOlwxmxn;
         "quilt-26.2" = _lvNaCk9N;
+        "quilt-26.3" = _FGzzYAfp;
         "neoforge-1.21.1" = _4uOjogNm;
         "neoforge-1.20.1" = _mMmRvQrI;
         "neoforge-26.1.2" = _rXLW3xVn;
         "neoforge-26.2" = _rXaaPTz8;
+        "neoforge-26.3" = _RBnq6l8Z;
         "forge-1.20.1" = _mMmRvQrI;
         "pkg-1.0.0.0-fabric" = _oNvFt6dS;
         "pkg-1.0.0.0-neoforge" = _tjUh3RqM;
@@ -336,7 +351,9 @@ let
         "pkg-3.0.0.4-fabric" = _hOlwxmxn;
         "pkg-4.0.0.4-neoforge" = _rXaaPTz8;
         "pkg-4.0.0.4-fabric" = _lvNaCk9N;
-        "default" = _lvNaCk9N;
+        "pkg-5.0.0.0-fabric" = _FGzzYAfp;
+        "pkg-5.0.0.1-neoforge" = _RBnq6l8Z;
+        "default" = _RBnq6l8Z;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enhanced-celestials-2-shader-support";

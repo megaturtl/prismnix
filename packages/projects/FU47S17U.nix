@@ -56,6 +56,16 @@ let
             "file" = "ly-experience-book-v1.3.0.jar";
             "hash" = "sha512-EHpI9B2SYMpDP6+iQfTKJ2wd/AJrKAyd2l5/NSXxxwVQmJzQOrMK4jIw9qB+yXEBo87B4lTbu0v4k2KgFKUCBQ==";
         };
+        _HLCr0J1K = {
+            "id" = "HLCr0J1K";
+            "file" = "Experience Book v1.0.0 [26.3].zip";
+            "hash" = "sha512-hmcDf79u/Id4N5VEpEPEz488E0ILEd6yTAgGBAWCtBlAjBXUm9eQjecG4Mze20+oOK3Xxp08AN04vfQxovT2ow==";
+        };
+        _AhQc64Pa = {
+            "id" = "AhQc64Pa";
+            "file" = "ly-experience-book-1.0.0.jar";
+            "hash" = "sha512-HAuk9v/IlXOgiYhyNW1ihRCdZZs1Zq4YPgZ4ppuYFMUBybtekRaXV0joiPzUxv/siOvqa47UcvzSS3kisQp52Q==";
+        };
     in {
         "uWgrSTNl" = _uWgrSTNl;
         "VpRKo2g2" = _VpRKo2g2;
@@ -68,6 +78,8 @@ let
         "VFFhwXRk" = _VFFhwXRk;
         "W4uq6msU" = _W4uq6msU;
         "IAQMkPIk" = _IAQMkPIk;
+        "HLCr0J1K" = _HLCr0J1K;
+        "AhQc64Pa" = _AhQc64Pa;
         "datapack-1.21.4" = _gRRIHESh;
         "datapack-1.21.5" = _W4uq6msU;
         "datapack-1.21.6" = _W4uq6msU;
@@ -80,6 +92,7 @@ let
         "datapack-26.1.1" = _W4uq6msU;
         "datapack-26.1.2" = _W4uq6msU;
         "datapack-26.2" = _W4uq6msU;
+        "datapack-26.3" = _HLCr0J1K;
         "fabric-1.21.4" = _WplDWowk;
         "fabric-1.21.5" = _IAQMkPIk;
         "fabric-1.21.6" = _IAQMkPIk;
@@ -92,6 +105,7 @@ let
         "fabric-26.1.1" = _IAQMkPIk;
         "fabric-26.1.2" = _IAQMkPIk;
         "fabric-26.2" = _IAQMkPIk;
+        "fabric-26.3" = _AhQc64Pa;
         "forge-1.21.4" = _WplDWowk;
         "forge-1.21.5" = _IAQMkPIk;
         "forge-1.21.6" = _IAQMkPIk;
@@ -104,6 +118,7 @@ let
         "forge-26.1.1" = _IAQMkPIk;
         "forge-26.1.2" = _IAQMkPIk;
         "forge-26.2" = _IAQMkPIk;
+        "forge-26.3" = _AhQc64Pa;
         "neoforge-1.21.4" = _WplDWowk;
         "neoforge-1.21.5" = _IAQMkPIk;
         "neoforge-1.21.6" = _IAQMkPIk;
@@ -116,6 +131,7 @@ let
         "neoforge-26.1.1" = _IAQMkPIk;
         "neoforge-26.1.2" = _IAQMkPIk;
         "neoforge-26.2" = _IAQMkPIk;
+        "neoforge-26.3" = _AhQc64Pa;
         "quilt-1.21.4" = _WplDWowk;
         "quilt-1.21.5" = _IAQMkPIk;
         "quilt-1.21.6" = _IAQMkPIk;
@@ -128,6 +144,7 @@ let
         "quilt-26.1.1" = _IAQMkPIk;
         "quilt-26.1.2" = _IAQMkPIk;
         "quilt-26.2" = _IAQMkPIk;
+        "quilt-26.3" = _AhQc64Pa;
         "pkg-v1.0.0" = _uWgrSTNl;
         "pkg-v1.0.1" = _VpRKo2g2;
         "pkg-v1.0.1+mod" = _wcXBYj5r;
@@ -137,7 +154,9 @@ let
         "pkg-v1.2.1+mod" = _WplDWowk;
         "pkg-v1.3.0" = _W4uq6msU;
         "pkg-v1.3.0+mod" = _IAQMkPIk;
-        "default" = _IAQMkPIk;
+        "pkg-1.0.0" = _HLCr0J1K;
+        "pkg-1.0.0+mod" = _AhQc64Pa;
+        "default" = _AhQc64Pa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ly-experience-book";

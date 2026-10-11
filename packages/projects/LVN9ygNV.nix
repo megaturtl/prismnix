@@ -216,6 +216,16 @@ let
             "file" = "ledger-1.3.23.jar";
             "hash" = "sha512-1d9GDMuG8TD6yDr5xv7D/zo20HGvAcfS1JxamryRWTj8FyeC4nYthX8aPn9bLHjGj35i3EFtbu2QdXChdpd3Yw==";
         };
+        _f72cP4Ni = {
+            "id" = "f72cP4Ni";
+            "file" = "ledger-1.3.24.jar";
+            "hash" = "sha512-AEQDPlQ/SCDcW2TyLcXGT7ntELYbH4ZnwmrxQYGbC8qQo91Ix2PVsrnpMH4bSjhwrBVnG5fOk0ri+zkD4SfaNQ==";
+        };
+        _pxv5cN0d = {
+            "id" = "pxv5cN0d";
+            "file" = "ledger-1.3.25.jar";
+            "hash" = "sha512-8y5Eco2iJd2t+JnyagiSqhNVW1bbu0QnjhxAqIVtm0DVy33Ur4FEdjHSXeOtUy+VyKW5jjiNL6FBrS2n7IwtSQ==";
+        };
     in {
         "y1AvZsGA" = _y1AvZsGA;
         "xrYP85FU" = _xrYP85FU;
@@ -260,6 +270,8 @@ let
         "vCyuyhN7" = _vCyuyhN7;
         "NopA8uYe" = _NopA8uYe;
         "KpVLPOJk" = _KpVLPOJk;
+        "f72cP4Ni" = _f72cP4Ni;
+        "pxv5cN0d" = _pxv5cN0d;
         "fabric-1.17-rc1" = _y1AvZsGA;
         "fabric-1.17-rc2" = _y1AvZsGA;
         "fabric-1.17" = _5J28GTd4;
@@ -293,6 +305,7 @@ let
         "fabric-26.1.1" = _NopA8uYe;
         "fabric-26.1.2" = _NopA8uYe;
         "fabric-26.2" = _KpVLPOJk;
+        "fabric-26.3" = _pxv5cN0d;
         "quilt-1.19.3" = _ykSbFGkA;
         "quilt-1.19.4" = _DrNDLlGK;
         "quilt-1.20.4" = _zDjIMO8b;
@@ -313,6 +326,7 @@ let
         "quilt-26.1" = _NopA8uYe;
         "quilt-26.1.1" = _NopA8uYe;
         "quilt-26.1.2" = _NopA8uYe;
+        "quilt-26.3" = _pxv5cN0d;
         "pkg-1.0.0" = _y1AvZsGA;
         "pkg-1.0.1" = _xrYP85FU;
         "pkg-1.0.2" = _3mow574k;
@@ -356,7 +370,9 @@ let
         "pkg-1.3.21" = _vCyuyhN7;
         "pkg-1.3.22" = _NopA8uYe;
         "pkg-1.3.23" = _KpVLPOJk;
-        "default" = _KpVLPOJk;
+        "pkg-1.3.24" = _f72cP4Ni;
+        "pkg-1.3.25" = _pxv5cN0d;
+        "default" = _pxv5cN0d;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ledger";

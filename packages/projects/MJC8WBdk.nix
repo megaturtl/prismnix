@@ -96,6 +96,26 @@ let
             "file" = "honeypot-paper-4.0.2.jar";
             "hash" = "sha512-PLcwDmMg+ZPFqohxdgLXL3mkoJjd5RkLUJ/3DPk5UjEPAqjxLPaal1rxPodfVwlGKKqndDW/DE+ex7zArXjtSA==";
         };
+        _1QBGmlxl = {
+            "id" = "1QBGmlxl";
+            "file" = "honeypot-paper-5.0.1.jar";
+            "hash" = "sha512-zgBCXBNpY7dOT+4/hggBYw7YiEiSE3VTrIXR6lPmy+Wl9Cie2rsnz2Eh9ahv5PdI6qGRrnJBxE4HDaDf6lmc2Q==";
+        };
+        _3l1wZUIL = {
+            "id" = "3l1wZUIL";
+            "file" = "honeypot-paper-5.1.0.jar";
+            "hash" = "sha512-1W6s3v6QYwR8P54x9H3uV43+uUwqdrCODEq7UP1Mcv4UNmRHs3Ovf+LdR++GTcIgS29rDAYTb49VDgMEa84o7A==";
+        };
+        _9TavlSFI = {
+            "id" = "9TavlSFI";
+            "file" = "honeypot-paper-5.1.1.jar";
+            "hash" = "sha512-YnisJiIXhghb6cuO6tNcmj61h7ZyW6ntm2REI0FUKdQsjF4UOoNWjjLkP8wqfUACZ2sKIQlzYWWAKOwFvAlmOA==";
+        };
+        _luBJP5HN = {
+            "id" = "luBJP5HN";
+            "file" = "honeypot-paper-5.1.2.jar";
+            "hash" = "sha512-e8RS5HqHCbzMwzuh8l76hT7kFNIvWVLDnK7k4nCvgs5iTQL3iuq+H61+aBTeTVy1zrwv4D9wl27wM1jWXQwOSA==";
+        };
     in {
         "WmKjDYdZ" = _WmKjDYdZ;
         "MEiyg1dN" = _MEiyg1dN;
@@ -116,6 +136,10 @@ let
         "E7JPfoD1" = _E7JPfoD1;
         "slUGhG5w" = _slUGhG5w;
         "GvF3lgiO" = _GvF3lgiO;
+        "1QBGmlxl" = _1QBGmlxl;
+        "3l1wZUIL" = _3l1wZUIL;
+        "9TavlSFI" = _9TavlSFI;
+        "luBJP5HN" = _luBJP5HN;
         "paper-1.17" = _MEiyg1dN;
         "paper-1.17.1" = _MEiyg1dN;
         "paper-1.18" = _Hh7hY22i;
@@ -150,7 +174,11 @@ let
         "paper-1.21.9" = _E7JPfoD1;
         "paper-1.21.10" = _E7JPfoD1;
         "paper-1.21.11" = _E7JPfoD1;
-        "paper-26.1.2" = _GvF3lgiO;
+        "paper-26.1.2" = _luBJP5HN;
+        "paper-26.1" = _luBJP5HN;
+        "paper-26.1.1" = _luBJP5HN;
+        "paper-26.2" = _luBJP5HN;
+        "paper-26.3" = _luBJP5HN;
         "purpur-1.17" = _MEiyg1dN;
         "purpur-1.17.1" = _MEiyg1dN;
         "purpur-1.18" = _Hh7hY22i;
@@ -185,7 +213,11 @@ let
         "purpur-1.21.9" = _E7JPfoD1;
         "purpur-1.21.10" = _E7JPfoD1;
         "purpur-1.21.11" = _E7JPfoD1;
-        "purpur-26.1.2" = _GvF3lgiO;
+        "purpur-26.1.2" = _luBJP5HN;
+        "purpur-26.1" = _luBJP5HN;
+        "purpur-26.1.1" = _luBJP5HN;
+        "purpur-26.2" = _luBJP5HN;
+        "purpur-26.3" = _luBJP5HN;
         "spigot-1.17" = _MEiyg1dN;
         "spigot-1.17.1" = _MEiyg1dN;
         "spigot-1.18" = _Hh7hY22i;
@@ -236,7 +268,11 @@ let
         "folia-1.21.9" = _E7JPfoD1;
         "folia-1.21.10" = _E7JPfoD1;
         "folia-1.21.11" = _E7JPfoD1;
-        "folia-26.1.2" = _GvF3lgiO;
+        "folia-26.1.2" = _luBJP5HN;
+        "folia-26.1" = _luBJP5HN;
+        "folia-26.1.1" = _luBJP5HN;
+        "folia-26.2" = _luBJP5HN;
+        "folia-26.3" = _luBJP5HN;
         "pkg-2.6.3" = _WmKjDYdZ;
         "pkg-2.6.4" = _MEiyg1dN;
         "pkg-3.0.0" = _GisEIzQi;
@@ -256,7 +292,11 @@ let
         "pkg-3.5.1" = _E7JPfoD1;
         "pkg-4.0.1" = _slUGhG5w;
         "pkg-4.0.2" = _GvF3lgiO;
-        "default" = _GvF3lgiO;
+        "pkg-5.0.1" = _1QBGmlxl;
+        "pkg-5.1.0" = _3l1wZUIL;
+        "pkg-5.1.1" = _9TavlSFI;
+        "pkg-5.1.2" = _luBJP5HN;
+        "default" = _luBJP5HN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "honeypot";

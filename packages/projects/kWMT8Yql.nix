@@ -131,6 +131,26 @@ let
             "file" = "simpleskinswapper-0.11.0-beta-26.3.jar";
             "hash" = "sha512-XRYA0LJvxNlvP+8U4BSih4Dz7mcB/bV28gz7QLn+Tk5BCC5AauBaekvd4VVppyqBlnVm2rIBe1IYtd6An9kh5A==";
         };
+        _BER3hIkV = {
+            "id" = "BER3hIkV";
+            "file" = "simpleskinswapper-0.12.0-1.21.11.jar";
+            "hash" = "sha512-TvGcnF0pYFfGqTYRAK6iAjZaJAiyCUR8XAovIFZEksvfG7R4yFYHpsduS3RTGAtXbdLfxOYQWI6rqr/f6eCipw==";
+        };
+        _FV81YBs8 = {
+            "id" = "FV81YBs8";
+            "file" = "simpleskinswapper-0.12.0-26.1.2.jar";
+            "hash" = "sha512-/yn3rDI2xev7cGN+0JGG8uLYI+S7otGtl8yb6UWOwkuvPm3kxiKK3/3HUR4BGHelFtA/zXl9t2m6nGQdiaI8yw==";
+        };
+        _QwliDQD0 = {
+            "id" = "QwliDQD0";
+            "file" = "simpleskinswapper-0.12.0-26.2.jar";
+            "hash" = "sha512-TGWpwRNHZ8bOrpdZq1lymwWkgNA9lOd2iKPLIJeshb3L35npmI6/jPMb9Qd0+rO8MXDTyfVLGIUAONH28S/GWw==";
+        };
+        _NFqr0RHS = {
+            "id" = "NFqr0RHS";
+            "file" = "simpleskinswapper-0.12.0-26.3.jar";
+            "hash" = "sha512-Pq7cnjUfuRZoMkJZrbrX3fiNny2RKbENz29xjH4iXPRvZW0xOm/5/PM+oXvYyTLE5EHGQrmEWUBiFqbOGC7BiQ==";
+        };
     in {
         "9F9D86RH" = _9F9D86RH;
         "dZcNPq6F" = _dZcNPq6F;
@@ -158,16 +178,20 @@ let
         "oSTFt6pi" = _oSTFt6pi;
         "gVj82ZCB" = _gVj82ZCB;
         "y3KYlVhz" = _y3KYlVhz;
+        "BER3hIkV" = _BER3hIkV;
+        "FV81YBs8" = _FV81YBs8;
+        "QwliDQD0" = _QwliDQD0;
+        "NFqr0RHS" = _NFqr0RHS;
         "fabric-1.21.8" = _RBn13U5p;
-        "fabric-1.21.11" = _So4uknKm;
-        "fabric-26.1" = _oSTFt6pi;
-        "fabric-26.1.1" = _oSTFt6pi;
-        "fabric-26.1.2" = _oSTFt6pi;
+        "fabric-1.21.11" = _BER3hIkV;
+        "fabric-26.1" = _FV81YBs8;
+        "fabric-26.1.1" = _FV81YBs8;
+        "fabric-26.1.2" = _FV81YBs8;
         "fabric-26.2-rc-2" = _p6sZD8hz;
-        "fabric-26.2" = _gVj82ZCB;
+        "fabric-26.2" = _QwliDQD0;
         "fabric-26.3-snapshot-9" = _N53PFzCR;
         "fabric-26.3-rc-3" = _y3KYlVhz;
-        "fabric-26.3" = _y3KYlVhz;
+        "fabric-26.3" = _NFqr0RHS;
         "pkg-0.1.0" = _9F9D86RH;
         "pkg-0.2.0" = _dZcNPq6F;
         "pkg-0.3.0" = _kpKbOiwn;
@@ -194,7 +218,11 @@ let
         "pkg-0.11.0-beta-26.1.2" = _oSTFt6pi;
         "pkg-0.11.0-beta-26.2" = _gVj82ZCB;
         "pkg-0.11.0-beta-26.3" = _y3KYlVhz;
-        "default" = _y3KYlVhz;
+        "pkg-0.12.0-1.21.11" = _BER3hIkV;
+        "pkg-0.12.0-26.1.2" = _FV81YBs8;
+        "pkg-0.12.0-26.2" = _QwliDQD0;
+        "pkg-0.12.0-26.3" = _NFqr0RHS;
+        "default" = _NFqr0RHS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simpleskinswapper";

@@ -56,6 +56,11 @@ let
             "file" = "FasterHappyGhast-1.1.3.0-all.jar";
             "hash" = "sha512-vKE9cVrHN07Lho8KXrYuIE0nTJ134ZVAqe5KNakD5EAx5Wjo0byD7VrXb7zvHlmhY19S/IFJpQnjqU7ZZ92ELw==";
         };
+        _laghIaRk = {
+            "id" = "laghIaRk";
+            "file" = "FasterHappyGhast-1.1.3.0.jar";
+            "hash" = "sha512-UgEqThlBoXMFJfym1tPlGlc5W0V6vM+NI+QmQPAdDeK4BsLCAH3W2xXE95N8dvLc50Ym7qzv+8Gi0hvAa9+ByQ==";
+        };
     in {
         "Ku85YlX4" = _Ku85YlX4;
         "8LWH43a7" = _8LWH43a7;
@@ -68,6 +73,7 @@ let
         "mHK1Fcxz" = _mHK1Fcxz;
         "DMtFNyWN" = _DMtFNyWN;
         "AhVpSceb" = _AhVpSceb;
+        "laghIaRk" = _laghIaRk;
         "paper-25w17a" = _Ku85YlX4;
         "paper-25w18a" = _Ku85YlX4;
         "paper-25w19a" = _Ku85YlX4;
@@ -171,12 +177,12 @@ let
         "datapack-26.1" = _mHK1Fcxz;
         "datapack-26.1.1" = _mHK1Fcxz;
         "datapack-26.1.2" = _mHK1Fcxz;
-        "fabric-1.21.6" = _DMtFNyWN;
-        "fabric-1.21.7" = _DMtFNyWN;
-        "fabric-1.21.8" = _DMtFNyWN;
-        "fabric-1.21.9" = _DMtFNyWN;
-        "fabric-1.21.10" = _DMtFNyWN;
-        "fabric-1.21.11" = _DMtFNyWN;
+        "fabric-1.21.6" = _laghIaRk;
+        "fabric-1.21.7" = _laghIaRk;
+        "fabric-1.21.8" = _laghIaRk;
+        "fabric-1.21.9" = _laghIaRk;
+        "fabric-1.21.10" = _laghIaRk;
+        "fabric-1.21.11" = _laghIaRk;
         "fabric-26.1" = _DMtFNyWN;
         "fabric-26.1.1" = _DMtFNyWN;
         "fabric-26.1.2" = _DMtFNyWN;
@@ -217,8 +223,8 @@ let
         "pkg-1.1.2.3" = _yCu6DeOs;
         "pkg-1.0.0.0-Datapack" = _mHK1Fcxz;
         "pkg-1.0.0.0-Datapack+mod" = _DMtFNyWN;
-        "pkg-1.1.3.0" = _AhVpSceb;
-        "default" = _AhVpSceb;
+        "pkg-1.1.3.0" = _laghIaRk;
+        "default" = _laghIaRk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "faster-happy-ghast";

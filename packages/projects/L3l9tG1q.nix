@@ -56,6 +56,16 @@ let
             "file" = "SignalLoss-1.2.1+26.2.jar";
             "hash" = "sha512-i8wl+NJF9tGGXyZ5/f3BuNZX2NHXCdlF84MoOYMWQIOpyyYJeJNxcRg9gK4/ep90xf8wj2rmtOtcpgVDgXNsQg==";
         };
+        _mbB1pYMP = {
+            "id" = "mbB1pYMP";
+            "file" = "SignalLoss-1.2.1+26.3.jar";
+            "hash" = "sha512-TMNiTEakZwoV8jvoiQLpRUGk3rbvQoL5G10VUk8Zy7m3q5hiH1xSCn7wIAYhdkDiqwuRAW8K16niUs4tBViokQ==";
+        };
+        _MtwCbpmq = {
+            "id" = "MtwCbpmq";
+            "file" = "SignalLoss-1.3.0+26.3.jar";
+            "hash" = "sha512-wb9qd8C9VAc+a5jWcig6MwPLRUXVz5yr0QzQL3D+tm6J74H65s6oN4WKLR7y9uikXPy1jhosR08FTALrfIB2Zg==";
+        };
     in {
         "3vcxQ70F" = _3vcxQ70F;
         "IsEMAa2B" = _IsEMAa2B;
@@ -68,6 +78,8 @@ let
         "wWyMeiix" = _wWyMeiix;
         "7Rqea6uI" = _7Rqea6uI;
         "uY09Oeuw" = _uY09Oeuw;
+        "mbB1pYMP" = _mbB1pYMP;
+        "MtwCbpmq" = _MtwCbpmq;
         "fabric-1.21.1" = _3vcxQ70F;
         "fabric-1.21.2" = _IsEMAa2B;
         "fabric-1.21.3" = _IsEMAa2B;
@@ -83,6 +95,7 @@ let
         "fabric-26.1.1" = _7Rqea6uI;
         "fabric-26.1.2" = _7Rqea6uI;
         "fabric-26.2" = _uY09Oeuw;
+        "fabric-26.3" = _MtwCbpmq;
         "pkg-1.0.0+1.21.1" = _3vcxQ70F;
         "pkg-1.0.0+1.21.3" = _IsEMAa2B;
         "pkg-1.0.0+1.21.4" = _yPtkoUq3;
@@ -94,7 +107,9 @@ let
         "pkg-1.2.1+26.1" = _wWyMeiix;
         "pkg-1.2.1+26.1.2" = _7Rqea6uI;
         "pkg-1.2.1+26.2" = _uY09Oeuw;
-        "default" = _uY09Oeuw;
+        "pkg-1.2.1+26.3" = _mbB1pYMP;
+        "pkg-1.3.0+26.3" = _MtwCbpmq;
+        "default" = _MtwCbpmq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "signalloss";

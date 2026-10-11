@@ -121,6 +121,21 @@ let
             "file" = "ShulkerPeek-mc-1.21.9-1.21.10-v1.2.2-fabric.jar";
             "hash" = "sha512-gtatBSQLWA2T4ZWUNz5MVB2H3SFVkX8kSMBCcq0Og8NVEGDtEX2dD0CWG/JTGgxpI0WU0lvn58B8KkbsDigFfQ==";
         };
+        _slmmEitu = {
+            "id" = "slmmEitu";
+            "file" = "shulkerpeek-1.4.0-fabric.jar";
+            "hash" = "sha512-vN4lvaq6yC2XtPOLDqSDOaouhOMlCDVufG11RUMqECjg//pqqNWTuRMLqq4d8yd6/zNot87pvoug29lPira+tw==";
+        };
+        _WRvR8iFf = {
+            "id" = "WRvR8iFf";
+            "file" = "shulkerpeek-forge-26.3-1.4.0.jar";
+            "hash" = "sha512-Z863K/fKLMipBQJuuRxbfni0SV+8xYo5GVHqhCNMqiilrVYdyAQook/FueQ77V+WH/Yy+I/zalNVx1XIlxVSUw==";
+        };
+        _5BzKnM3f = {
+            "id" = "5BzKnM3f";
+            "file" = "shulkerpeek-neoforge-26.3-1.4.0.jar";
+            "hash" = "sha512-ULWp/9VrmwRqnt4g6k3qs3Enf+PqLTbrukkmdLb/ULxym+Kuk6akJIebaqMMRzXMtxVDndyhYBOh4p2qc2qwDA==";
+        };
     in {
         "CiABPbDt" = _CiABPbDt;
         "JMsSTOdV" = _JMsSTOdV;
@@ -146,6 +161,9 @@ let
         "YWOPHDFC" = _YWOPHDFC;
         "CM6SDlup" = _CM6SDlup;
         "lCtcmpQT" = _lCtcmpQT;
+        "slmmEitu" = _slmmEitu;
+        "WRvR8iFf" = _WRvR8iFf;
+        "5BzKnM3f" = _5BzKnM3f;
         "fabric-1.21.11" = _CiABPbDt;
         "fabric-1.21.10" = _lCtcmpQT;
         "fabric-1.21.9" = _lCtcmpQT;
@@ -153,6 +171,7 @@ let
         "fabric-26.1.1" = _4doZmkea;
         "fabric-26.1.2" = _4doZmkea;
         "fabric-26.2" = _76MYphcm;
+        "fabric-26.3" = _slmmEitu;
         "forge-1.21.9" = _CM6SDlup;
         "forge-1.21.10" = _CM6SDlup;
         "forge-1.21.11" = _Plo1vxaH;
@@ -160,6 +179,7 @@ let
         "forge-26.1.2" = _v0NC1TdA;
         "forge-26.2" = _T2peh1ti;
         "forge-26.1.1" = _v0NC1TdA;
+        "forge-26.3" = _WRvR8iFf;
         "neoforge-1.21.10" = _YWOPHDFC;
         "neoforge-1.21.11" = _LUD1eVPj;
         "neoforge-26.1" = _sTCrl90F;
@@ -167,6 +187,7 @@ let
         "neoforge-26.2" = _Zf30miXO;
         "neoforge-26.1.1" = _sTCrl90F;
         "neoforge-1.21.9" = _YWOPHDFC;
+        "neoforge-26.3" = _5BzKnM3f;
         "pkg-1.21.11" = _CiABPbDt;
         "pkg-1.21.10" = _JMsSTOdV;
         "pkg-1.21.9" = _Gf7aQ9vi;
@@ -177,7 +198,8 @@ let
         "pkg-1.2.1" = _76MYphcm;
         "pkg-1.2.0" = _4doZmkea;
         "pkg-1.2.2" = _lCtcmpQT;
-        "default" = _lCtcmpQT;
+        "pkg-1.4.0" = _5BzKnM3f;
+        "default" = _5BzKnM3f;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shulkerpeeker";

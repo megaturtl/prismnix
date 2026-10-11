@@ -1281,6 +1281,21 @@ let
             "file" = "kingdomkeys-1.21.1-2.9.3e.jar";
             "hash" = "sha512-w5SsKpgoBKdbzf45x0ns3fd8WhAhRZYEkLgyX1Od/XgQ5FWcS67dE8Vu2/MLILKFERre4o6HqTGQb9VZ3OkItg==";
         };
+        _Wv6wbs8V = {
+            "id" = "Wv6wbs8V";
+            "file" = "kingdomkeys-1.21.1-2.9.4a.jar";
+            "hash" = "sha512-SdR+u+tupu6MkPSlamSrvzkHyYbBcUuc3wpQlaJKJ+rU/LgqImjo0u+Kk7nLB465caBLrEQN0dFdH0HSkJICmQ==";
+        };
+        _dNKmg1QN = {
+            "id" = "dNKmg1QN";
+            "file" = "kingdomkeys-1.21.1-2.9.4b.jar";
+            "hash" = "sha512-fEhapOz4S6qStMi9gLVi1mzY54Z4p7l+/njMK5CxLwTSyNjXPWbEG3gfAsyKNt1kuNIR2F6vJKQudyLP4Nf9yQ==";
+        };
+        _SJUSYW8m = {
+            "id" = "SJUSYW8m";
+            "file" = "kingdomkeys-1.21.1-2.9.4c.jar";
+            "hash" = "sha512-TZXSQm1K5NxC0U5E26BZ8g4/BEDwolQUKU9KX+YSNqjAcYhNlghqxPdaE3gCFRovfWO8Wlt/1ugNNPpEVxehwQ==";
+        };
     in {
         "OfOTa4rl" = _OfOTa4rl;
         "k7WJLcDb" = _k7WJLcDb;
@@ -1538,6 +1553,9 @@ let
         "PIWhDLH2" = _PIWhDLH2;
         "xOnNJFa9" = _xOnNJFa9;
         "AB92PAeX" = _AB92PAeX;
+        "Wv6wbs8V" = _Wv6wbs8V;
+        "dNKmg1QN" = _dNKmg1QN;
+        "SJUSYW8m" = _SJUSYW8m;
         "forge-1.5.2" = _OfOTa4rl;
         "forge-1.6.2" = _FOx5Sp5O;
         "forge-1.6.4" = _bHfTmppT;
@@ -1561,7 +1579,7 @@ let
         "forge-1.19.4" = _cVzv5Wcg;
         "forge-1.20.1" = _BCAy9Iw9;
         "neoforge-1.20.1" = _nQTQfjyi;
-        "neoforge-1.21.1" = _AB92PAeX;
+        "neoforge-1.21.1" = _SJUSYW8m;
         "pkg-0.3.0" = _OfOTa4rl;
         "pkg-0.3.2" = _k7WJLcDb;
         "pkg-0.3.3" = _pCPdNqiL;
@@ -1815,7 +1833,10 @@ let
         "pkg-2.9.3c-1.21.1" = _PIWhDLH2;
         "pkg-2.9.3d-1.21.1" = _xOnNJFa9;
         "pkg-2.9.3e-1.21.1" = _AB92PAeX;
-        "default" = _AB92PAeX;
+        "pkg-2.9.4a-1.21.1" = _Wv6wbs8V;
+        "pkg-2.9.4b-1.21.1" = _dNKmg1QN;
+        "pkg-2.9.4c-1.21.1" = _SJUSYW8m;
+        "default" = _SJUSYW8m;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kingdom-keys-2";

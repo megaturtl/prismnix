@@ -46,6 +46,26 @@ let
             "file" = "reload_server_list-neoforge-2.0.jar";
             "hash" = "sha512-wllbvW/ZalImmJL0rCEe7HRYeJBi6KfL53EywOvPFpQI8Dp3T+ZQLiZ8yPKaXVdj229iiQIM5D1TsdxJrI+new==";
         };
+        _W1emxQv3 = {
+            "id" = "W1emxQv3";
+            "file" = "reload_server_list-fabric-2.0-26.1.2.jar";
+            "hash" = "sha512-blOmZ2A7AtXeJl+9LcPKWdymBlWLlLm5LHcMpSnJXu5lABvvgjZ+0tvp16BeT+1/oOmfVVQD/naMz0g0cVuH3g==";
+        };
+        _TR87qOwp = {
+            "id" = "TR87qOwp";
+            "file" = "reload_server_list-neoforge-2.0-26.1.2.jar";
+            "hash" = "sha512-LAn5BHMM4ljAFwQ3HvCYBy/ZjotBQEaKCg6AfFVfckrTvaSupM3YBplDgLbbz6imQWU2ajJmO/92ozTMoa6wHA==";
+        };
+        _J6RLGvBA = {
+            "id" = "J6RLGvBA";
+            "file" = "reload_server_list-fabric-2.0-26.3.jar";
+            "hash" = "sha512-rpqaMbUMmLRy1z/J2RNSbTy3/f2ZlKG5F+IPAXHeX9VQ1SMz2+T9boNO1t2PMCdGoPIau9X0bf492JbNs4qirg==";
+        };
+        _m1RCakms = {
+            "id" = "m1RCakms";
+            "file" = "reload_server_list-neoforge-2.0-26.3.jar";
+            "hash" = "sha512-r66ATM9xjYl6H2zpV60bBr1uPszc/I+v6Dcg8Q0ze2NpneMJaiF+WQGzK+8SDG6wGAPIhIrkLajKnzXc3SHr7Q==";
+        };
     in {
         "12Ygry2X" = _12Ygry2X;
         "zOtqAnZU" = _zOtqAnZU;
@@ -56,6 +76,10 @@ let
         "ffbXCdSb" = _ffbXCdSb;
         "WVkNjkwj" = _WVkNjkwj;
         "jtO4AWEz" = _jtO4AWEz;
+        "W1emxQv3" = _W1emxQv3;
+        "TR87qOwp" = _TR87qOwp;
+        "J6RLGvBA" = _J6RLGvBA;
+        "m1RCakms" = _m1RCakms;
         "fabric-1.17" = _zOtqAnZU;
         "fabric-1.17.1" = _zOtqAnZU;
         "fabric-1.18" = _zOtqAnZU;
@@ -85,6 +109,11 @@ let
         "fabric-1.21.9" = _WVkNjkwj;
         "fabric-1.21.10" = _WVkNjkwj;
         "fabric-1.21.11" = _WVkNjkwj;
+        "fabric-26.1" = _W1emxQv3;
+        "fabric-26.1.1" = _W1emxQv3;
+        "fabric-26.1.2" = _W1emxQv3;
+        "fabric-26.2" = _W1emxQv3;
+        "fabric-26.3" = _J6RLGvBA;
         "neoforge-1.20.5" = _bTNy5U0e;
         "neoforge-1.20.6" = _bTNy5U0e;
         "neoforge-1.21" = _bTNy5U0e;
@@ -99,11 +128,16 @@ let
         "neoforge-1.21.9" = _jtO4AWEz;
         "neoforge-1.21.10" = _jtO4AWEz;
         "neoforge-1.21.11" = _jtO4AWEz;
+        "neoforge-26.1" = _TR87qOwp;
+        "neoforge-26.1.1" = _TR87qOwp;
+        "neoforge-26.1.2" = _TR87qOwp;
+        "neoforge-26.2" = _TR87qOwp;
+        "neoforge-26.3" = _m1RCakms;
         "pkg-1.0" = _12Ygry2X;
         "pkg-1.1" = _zOtqAnZU;
         "pkg-1.2" = _jPqfx6lo;
-        "pkg-2.0" = _jtO4AWEz;
-        "default" = _jtO4AWEz;
+        "pkg-2.0" = _m1RCakms;
+        "default" = _m1RCakms;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "reload-server-list";

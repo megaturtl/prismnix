@@ -361,6 +361,26 @@ let
             "file" = "lwjgl3ify-3.0.33.jar";
             "hash" = "sha512-0BUzyJsXIS2ZODmwCTROJH0ly45VroGXOpBJr6cUQzXlbMGSatwKhpmjIFRgyN/vZoL9N97gsJ9GAbY6BN0etw==";
         };
+        _EGwwI6MO = {
+            "id" = "EGwwI6MO";
+            "file" = "lwjgl3ify-3.0.34.jar";
+            "hash" = "sha512-JfOeV8DVvrtmU/gZ3my+Y74GGFWhNQWJ2Sbf8dvlwbTsiBFXPs73aYMSRScDKIdCBi2r4kSCMMAPXzLDAixFiA==";
+        };
+        _2kW9kTD7 = {
+            "id" = "2kW9kTD7";
+            "file" = "lwjgl3ify-3.0.35.jar";
+            "hash" = "sha512-mwhGTFaBrHocAp55t4QI6qTKzHju9Xic9a7F5UAt1yOSgFZmAjeQZI6TqCvUy8WqtRsAMJGR77YNYzBani/jIQ==";
+        };
+        _vbF3zjuk = {
+            "id" = "vbF3zjuk";
+            "file" = "lwjgl3ify-3.0.36.jar";
+            "hash" = "sha512-2qNJKg4HYcMIMpJz05/OznacdKkdHaHS9i4H7MKwo2BhJ2VmTGQVKD+p2wZt3ENqyTW6LslqdWms9Q7XXOdjDg==";
+        };
+        _pLifcaJE = {
+            "id" = "pLifcaJE";
+            "file" = "lwjgl3ify-3.0.37.jar";
+            "hash" = "sha512-H+spnBqGKXYoz1V/aXMUs+bN4Chiyo1hUw2RTuSZhZSxzOhHTdLVlkFG1xkHu+xK7zTmYKmVB/GvDFKNjHRifw==";
+        };
     in {
         "WoudWjrD" = _WoudWjrD;
         "pSzRScA4" = _pSzRScA4;
@@ -434,7 +454,11 @@ let
         "1PVcmf0u" = _1PVcmf0u;
         "pucwKys7" = _pucwKys7;
         "uKZooMBd" = _uKZooMBd;
-        "forge-1.7.10" = _uKZooMBd;
+        "EGwwI6MO" = _EGwwI6MO;
+        "2kW9kTD7" = _2kW9kTD7;
+        "vbF3zjuk" = _vbF3zjuk;
+        "pLifcaJE" = _pLifcaJE;
+        "forge-1.7.10" = _pLifcaJE;
         "pkg-2.0.3" = _WoudWjrD;
         "pkg-2.0.4" = _pSzRScA4;
         "pkg-2.0.5" = _EWcB9XvA;
@@ -507,7 +531,11 @@ let
         "pkg-3.0.31" = _1PVcmf0u;
         "pkg-3.0.32" = _pucwKys7;
         "pkg-3.0.33" = _uKZooMBd;
-        "default" = _uKZooMBd;
+        "pkg-3.0.34" = _EGwwI6MO;
+        "pkg-3.0.35" = _2kW9kTD7;
+        "pkg-3.0.36" = _vbF3zjuk;
+        "pkg-3.0.37" = _pLifcaJE;
+        "default" = _pLifcaJE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lwjgl3ify";

@@ -281,6 +281,11 @@ let
             "file" = "sundries-1.9-forge-1.20.1.jar";
             "hash" = "sha512-sqf/2RXgpNYM2S21Syj1UHTCTUJX36OpTqDCZtyBukccI7S0WykAwnhkdq48wtBbu/PSZ88MhKRf9mlTkbavnA==";
         };
+        _jiRyzjCT = {
+            "id" = "jiRyzjCT";
+            "file" = "sundries-1.9.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-CvaahJ+FU/ktth9OTVMe8M79YJ4TpuZx621UP9AJUJTJHDqgYmlcMIPR64OIQMQ9suSNxKjesezkoO9jZXtAUg==";
+        };
     in {
         "HwBkp5UY" = _HwBkp5UY;
         "VqeNDHBx" = _VqeNDHBx;
@@ -338,8 +343,9 @@ let
         "xcRDLTnI" = _xcRDLTnI;
         "bAGB3h6S" = _bAGB3h6S;
         "cumynGWb" = _cumynGWb;
+        "jiRyzjCT" = _jiRyzjCT;
         "forge-1.20.1" = _cumynGWb;
-        "neoforge-1.21.1" = _bAGB3h6S;
+        "neoforge-1.21.1" = _jiRyzjCT;
         "pkg-1.1.2" = _HwBkp5UY;
         "pkg-1.1.3" = _VqeNDHBx;
         "pkg-1.1.4" = _6frtleKD;
@@ -378,7 +384,8 @@ let
         "pkg-1.8.7" = _fgrCboTz;
         "pkg-1.8.8" = _xcRDLTnI;
         "pkg-1.9" = _cumynGWb;
-        "default" = _cumynGWb;
+        "pkg-1.9.1" = _jiRyzjCT;
+        "default" = _jiRyzjCT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sundriesanddecor";

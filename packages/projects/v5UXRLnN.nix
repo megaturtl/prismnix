@@ -221,6 +221,16 @@ let
             "file" = "dragons-breath-recipe-1.0.jar";
             "hash" = "sha512-J9D1aslSTWq7wTnuKlW1qt3oRNWQWkSqr9GrxL0599MR6LvWJeco2q2Unc/KmFhOWvQdZQr4aZ8qVgXJ1/6jaA==";
         };
+        _FEMM0b1T = {
+            "id" = "FEMM0b1T";
+            "file" = "dragons_breath-26.3.zip";
+            "hash" = "sha512-Yz4gDcgj6UlD40ZYlADGA5SAGrt0BROWGzeYTiEggfNEckTNLnr6H/UsfxxDa2WoL9xz/5K6Hlzw85L4yiXiAw==";
+        };
+        _YwDuv6vw = {
+            "id" = "YwDuv6vw";
+            "file" = "dragons-breath-recipe-1.0.jar";
+            "hash" = "sha512-SAijjpyZLIJDJ23pgV7Izf7EuLNLeoRWmEGi+jNuGEWSS8T2Vk5jfpHHQJur7UbYUNVLQKHfw2RTZ3tgY9xV4w==";
+        };
     in {
         "9u8RWJ02" = _9u8RWJ02;
         "boN8DZum" = _boN8DZum;
@@ -266,6 +276,8 @@ let
         "pa00cUkL" = _pa00cUkL;
         "PnY7xNuw" = _PnY7xNuw;
         "Cbs9PSiy" = _Cbs9PSiy;
+        "FEMM0b1T" = _FEMM0b1T;
+        "YwDuv6vw" = _YwDuv6vw;
         "datapack-1.16" = _9u8RWJ02;
         "datapack-1.16.1" = _9u8RWJ02;
         "datapack-1.16.2" = _9u8RWJ02;
@@ -324,6 +336,7 @@ let
         "datapack-26.2-snapshot-2" = _QwW2PbKe;
         "datapack-26.2" = _PnY7xNuw;
         "datapack-26.3-snapshot-1" = _PnY7xNuw;
+        "datapack-26.3" = _FEMM0b1T;
         "fabric-1.16" = _boN8DZum;
         "fabric-1.16.1" = _boN8DZum;
         "fabric-1.16.2" = _boN8DZum;
@@ -382,6 +395,7 @@ let
         "fabric-26.2-snapshot-2" = _MP8MGsod;
         "fabric-26.2" = _Cbs9PSiy;
         "fabric-26.3-snapshot-1" = _Cbs9PSiy;
+        "fabric-26.3" = _YwDuv6vw;
         "forge-1.16" = _boN8DZum;
         "forge-1.16.1" = _boN8DZum;
         "forge-1.16.2" = _boN8DZum;
@@ -440,6 +454,7 @@ let
         "forge-26.2-snapshot-2" = _MP8MGsod;
         "forge-26.2" = _Cbs9PSiy;
         "forge-26.3-snapshot-1" = _Cbs9PSiy;
+        "forge-26.3" = _YwDuv6vw;
         "neoforge-1.16" = _boN8DZum;
         "neoforge-1.16.1" = _boN8DZum;
         "neoforge-1.16.2" = _boN8DZum;
@@ -498,6 +513,7 @@ let
         "neoforge-26.2-snapshot-2" = _MP8MGsod;
         "neoforge-26.2" = _Cbs9PSiy;
         "neoforge-26.3-snapshot-1" = _Cbs9PSiy;
+        "neoforge-26.3" = _YwDuv6vw;
         "quilt-1.16" = _boN8DZum;
         "quilt-1.16.1" = _boN8DZum;
         "quilt-1.16.2" = _boN8DZum;
@@ -556,9 +572,10 @@ let
         "quilt-26.2-snapshot-2" = _MP8MGsod;
         "quilt-26.2" = _Cbs9PSiy;
         "quilt-26.3-snapshot-1" = _Cbs9PSiy;
-        "pkg-1.0" = _PnY7xNuw;
-        "pkg-1.0+mod" = _Cbs9PSiy;
-        "default" = _Cbs9PSiy;
+        "quilt-26.3" = _YwDuv6vw;
+        "pkg-1.0" = _FEMM0b1T;
+        "pkg-1.0+mod" = _YwDuv6vw;
+        "default" = _YwDuv6vw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dragons-breath-recipe";

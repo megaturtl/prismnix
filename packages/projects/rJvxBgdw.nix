@@ -821,6 +821,16 @@ let
             "file" = "legacies-and-legends-26.1-r1.11-fabric.jar";
             "hash" = "sha512-ThrdRR69vS1svznDWYLx+5EI0PohcyO8JXYUutoBKlK8MLY7tCMRSrwuNI8bdFuAHr15/Wc/+7QREC6TgYXcoQ==";
         };
+        _YhZIwkw9 = {
+            "id" = "YhZIwkw9";
+            "file" = "legacies-and-legends-26.1-r1.12-neoforge.jar";
+            "hash" = "sha512-tsINa237NcVcmxnyoNE753RKElaqy7N1bBL6FqEEgBIGmnepXXIRClCGoqWR6xPri8mn7Xi3m4Y5v7vS/z9xew==";
+        };
+        _egdyHqEu = {
+            "id" = "egdyHqEu";
+            "file" = "legacies-and-legends-26.1-r1.12-fabric.jar";
+            "hash" = "sha512-zNVRERDTr01wOcPVMzEz4xLMsJwCUag6nA8C1xX6GK7QydeMKovqXBCo3OuMNpuduj3gaKDUz9MPvMkUt/CfRg==";
+        };
     in {
         "ecLjUAjA" = _ecLjUAjA;
         "R0Kcz3OG" = _R0Kcz3OG;
@@ -986,6 +996,8 @@ let
         "M9MZcsMn" = _M9MZcsMn;
         "9UCP7XiX" = _9UCP7XiX;
         "9Tmu8EQF" = _9Tmu8EQF;
+        "YhZIwkw9" = _YhZIwkw9;
+        "egdyHqEu" = _egdyHqEu;
         "fabric-1.20" = _tvN6EHyi;
         "fabric-1.20.1" = _tvN6EHyi;
         "fabric-1.20.2" = _tvN6EHyi;
@@ -996,12 +1008,12 @@ let
         "fabric-1.21.4" = _eocp04oo;
         "fabric-1.21.5" = _JhpIRapT;
         "fabric-1.21.11" = _AdFLY5Mh;
-        "fabric-26.1" = _9Tmu8EQF;
-        "fabric-26.1.1" = _9Tmu8EQF;
-        "fabric-26.1.2" = _9Tmu8EQF;
-        "neoforge-26.1" = _9UCP7XiX;
-        "neoforge-26.1.1" = _9UCP7XiX;
-        "neoforge-26.1.2" = _9UCP7XiX;
+        "fabric-26.1" = _egdyHqEu;
+        "fabric-26.1.1" = _egdyHqEu;
+        "fabric-26.1.2" = _egdyHqEu;
+        "neoforge-26.1" = _YhZIwkw9;
+        "neoforge-26.1.1" = _YhZIwkw9;
+        "neoforge-26.1.2" = _YhZIwkw9;
         "pkg-1.0.0" = _ecLjUAjA;
         "pkg-1.0.1" = _R0Kcz3OG;
         "pkg-1.0.2" = _GFTpEdkJ;
@@ -1157,7 +1169,9 @@ let
         "pkg-26.1-r1.10-fabric" = _M9MZcsMn;
         "pkg-26.1-r1.11-neoforge" = _9UCP7XiX;
         "pkg-26.1-r1.11-fabric" = _9Tmu8EQF;
-        "default" = _9Tmu8EQF;
+        "pkg-26.1-r1.12-neoforge" = _YhZIwkw9;
+        "pkg-26.1-r1.12-fabric" = _egdyHqEu;
+        "default" = _egdyHqEu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "legacies-and-legends";

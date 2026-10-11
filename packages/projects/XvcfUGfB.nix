@@ -431,6 +431,16 @@ let
             "file" = "eternalstarlight-0.9.0+1.21.1+neoforge.jar";
             "hash" = "sha512-ZWPgYzZbHOgQpo6hv763JJhyK0kBvN0GEQJ2O3nZxHEmUnVH+rESbCYot4olmN8GWbmiKFIGSCgWiUA8Da6syg==";
         };
+        _YrQ0s2iT = {
+            "id" = "YrQ0s2iT";
+            "file" = "eternalstarlight-0.9.1+1.21.1+fabric.jar";
+            "hash" = "sha512-XlJtEGDJWGpJwL3qC+u90tAqcD4647qI9NIcjSlhKNe824P6heDJviBpNPdcJLMzg0Odeypay9IBnKGef1Fy1w==";
+        };
+        _IyTc0Vvj = {
+            "id" = "IyTc0Vvj";
+            "file" = "eternalstarlight-0.9.1+1.21.1+neoforge.jar";
+            "hash" = "sha512-K9fS+8R4s8wrZCb/nP/d+IALRqospaRXD52e0vUNSurcg76gxcQQvybC6eDGzDKWy4rf8jN4eJcmWqLXoa2acQ==";
+        };
     in {
         "gOOCFx1r" = _gOOCFx1r;
         "UtvAq0gl" = _UtvAq0gl;
@@ -518,10 +528,12 @@ let
         "9lliAcK9" = _9lliAcK9;
         "r2cwvUu6" = _r2cwvUu6;
         "zPYks5bS" = _zPYks5bS;
+        "YrQ0s2iT" = _YrQ0s2iT;
+        "IyTc0Vvj" = _IyTc0Vvj;
         "fabric-1.21" = _vniA7VxV;
-        "fabric-1.21.1" = _r2cwvUu6;
+        "fabric-1.21.1" = _YrQ0s2iT;
         "neoforge-1.21" = _1qW50pKg;
-        "neoforge-1.21.1" = _zPYks5bS;
+        "neoforge-1.21.1" = _IyTc0Vvj;
         "pkg-0.1.0" = _UtvAq0gl;
         "pkg-0.1.1" = _wrj8t0aD;
         "pkg-0.1.2" = _kJ5600cC;
@@ -604,7 +616,9 @@ let
         "pkg-0.8.1+1.21.1+neoforge" = _9lliAcK9;
         "pkg-0.9.0+1.21.1+fabric" = _r2cwvUu6;
         "pkg-0.9.0+1.21.1+neoforge" = _zPYks5bS;
-        "default" = _zPYks5bS;
+        "pkg-0.9.1+1.21.1+fabric" = _YrQ0s2iT;
+        "pkg-0.9.1+1.21.1+neoforge" = _IyTc0Vvj;
+        "default" = _IyTc0Vvj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "eternal-starlight";

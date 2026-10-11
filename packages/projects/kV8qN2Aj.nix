@@ -36,6 +36,11 @@ let
             "file" = "MCDRcommandFabric-26.2-v1.3.0.jar";
             "hash" = "sha512-fwJARGgwwobl2pb2WFdM4JPO63fXD65nChNVhvrWyybOtFSS+M+jCC9VGiEFUjL1zG5y+4sZeyX5Rcd1DhI19Q==";
         };
+        _ymkmvCaf = {
+            "id" = "ymkmvCaf";
+            "file" = "MCDRcommandFabric-26.3-v1.3.1.jar";
+            "hash" = "sha512-uiWywLhYVIJZqpjHgFtDNotKeh2mMByIEPVz/p8HXsRNN//LpuxIXq5ZRl6LxboURSjaWnGUVMmrh+gkzT80Qg==";
+        };
     in {
         "s6wSGzCm" = _s6wSGzCm;
         "cnbMfriP" = _cnbMfriP;
@@ -44,6 +49,7 @@ let
         "BE6S2UGR" = _BE6S2UGR;
         "SKH3PFCw" = _SKH3PFCw;
         "qxaKbBAW" = _qxaKbBAW;
+        "ymkmvCaf" = _ymkmvCaf;
         "fabric-1.16" = _s6wSGzCm;
         "fabric-1.16.1" = _s6wSGzCm;
         "fabric-1.16.2" = _s6wSGzCm;
@@ -73,6 +79,7 @@ let
         "fabric-1.21.10" = _SKH3PFCw;
         "fabric-1.21.11" = _SKH3PFCw;
         "fabric-26.2" = _qxaKbBAW;
+        "fabric-26.3" = _ymkmvCaf;
         "pkg-v1.0.0-1.16.5" = _s6wSGzCm;
         "pkg-v1.1.0-1.19.2" = _cnbMfriP;
         "pkg-v1.2.0-1.20.4" = _vCbIk7ji;
@@ -80,7 +87,8 @@ let
         "pkg-v1.2.1-1.21" = _BE6S2UGR;
         "pkg-v1.2.2-1.21" = _SKH3PFCw;
         "pkg-1.3.0" = _qxaKbBAW;
-        "default" = _qxaKbBAW;
+        "pkg-1.3.1" = _ymkmvCaf;
+        "default" = _ymkmvCaf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mcdr-command-fabric";

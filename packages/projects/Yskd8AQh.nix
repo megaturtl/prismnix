@@ -21,17 +21,24 @@ let
             "file" = "mndfix-1.7.0-all.jar";
             "hash" = "sha512-fJcduIRfd02MSZ3WkJaNtS7XQQF4m5y+z80NIkpBbiZyzr20PjI/6GKyNFTKI99Ahjv2UnE4E/4HMKqKkoWY0A==";
         };
+        _bRAvwDEG = {
+            "id" = "bRAvwDEG";
+            "file" = "mndfix-1.12.0-all.jar";
+            "hash" = "sha512-3MCP4KMIKRzSDiDgBecaBp83H1r2eGac4ZQ8pzMWi1hBL5cBK41kZqBTQYcnvsKmZUhYKHmVLQ57lHfm5DEC/w==";
+        };
     in {
         "5K2I4THe" = _5K2I4THe;
         "Y2aELY0R" = _Y2aELY0R;
         "c0LmqFSm" = _c0LmqFSm;
         "WVaIIkp9" = _WVaIIkp9;
-        "forge-1.20.1" = _WVaIIkp9;
+        "bRAvwDEG" = _bRAvwDEG;
+        "forge-1.20.1" = _bRAvwDEG;
         "pkg-1.0.0" = _5K2I4THe;
         "pkg-1.3.0" = _Y2aELY0R;
         "pkg-1.5.0" = _c0LmqFSm;
         "pkg-1.7.0" = _WVaIIkp9;
-        "default" = _WVaIIkp9;
+        "pkg-1.12.0" = _bRAvwDEG;
+        "default" = _bRAvwDEG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "my-nethers-delight-fix";

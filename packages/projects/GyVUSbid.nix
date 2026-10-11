@@ -131,6 +131,11 @@ let
             "file" = "Sortilege-1.20.1-9.0.jar";
             "hash" = "sha512-DAgukwjfv3sWw3wckE/l204Vhrbzno2RDlnhWrktStCWzP1BTu+WL+TGKHr4utOcTiKfPVN//HWXIfgiKrKveg==";
         };
+        _rCyUF4f0 = {
+            "id" = "rCyUF4f0";
+            "file" = "Sortilege-1.21.1-9.1.jar";
+            "hash" = "sha512-ekRevn/p8Us/UDLDhzguOPH1e09BRdghkQ3tSlrgekgroHI7msxcUrCfNQFyfLiwZ6kSrgqndiSKellzKk3Ecg==";
+        };
     in {
         "ZdpxKq4X" = _ZdpxKq4X;
         "RpefRDxX" = _RpefRDxX;
@@ -158,6 +163,7 @@ let
         "hoBy4hN3" = _hoBy4hN3;
         "3e9uICRH" = _3e9uICRH;
         "qsvS3NyS" = _qsvS3NyS;
+        "rCyUF4f0" = _rCyUF4f0;
         "forge-1.19.2" = _FqaulnOl;
         "forge-1.19.3" = _FqaulnOl;
         "forge-1.19.4" = _FqaulnOl;
@@ -167,6 +173,7 @@ let
         "fabric-1.20.4" = _qsvS3NyS;
         "fabric-1.20.5" = _qsvS3NyS;
         "fabric-1.20.6" = _qsvS3NyS;
+        "fabric-1.21.1" = _rCyUF4f0;
         "pkg-5.0" = _ZdpxKq4X;
         "pkg-5.1" = _RpefRDxX;
         "pkg-5.2" = _cctHDRxS;
@@ -190,7 +197,8 @@ let
         "pkg-8.2" = _hoBy4hN3;
         "pkg-8.3" = _3e9uICRH;
         "pkg-9.0" = _qsvS3NyS;
-        "default" = _qsvS3NyS;
+        "pkg-fabric-1.21.1-9.1" = _rCyUF4f0;
+        "default" = _rCyUF4f0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sortilege";

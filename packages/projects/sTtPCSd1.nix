@@ -141,6 +141,21 @@ let
             "file" = "GoldEconomy-1.13.0.jar";
             "hash" = "sha512-M4MfrZ3KZfiUUYMoKbmmbrGxdjKmG396C9n2Wbb2PR7EGq8gUv/+0OTiYh8dtKUyH4aBitSo35Rf9kh8B2aj+w==";
         };
+        _NT4teKHB = {
+            "id" = "NT4teKHB";
+            "file" = "GoldEconomy-2.0.0.jar";
+            "hash" = "sha512-rsa2fMD1Wiu0xY01Z0naU23fidCz4NeuSuPhfxJPJlwOJjRIGUhWyTgedLPYkdl+K896Hk0zwGW77i7Ta/DQzA==";
+        };
+        _6PcKRq2Y = {
+            "id" = "6PcKRq2Y";
+            "file" = "GoldEconomy-2.1.0.jar";
+            "hash" = "sha512-y8NZWamgwcOM0Svupa42gU7cNp/l5GEk877+G9wLPlzvUohyTF5rAlRDShyoZGVKt6KZOsLQZ7otREKVPt0ZbA==";
+        };
+        _xidnSL9O = {
+            "id" = "xidnSL9O";
+            "file" = "GoldEconomy-2.1.1.jar";
+            "hash" = "sha512-SMnIe37suM9Q0s4xnCTHQcYTcrn0umKI9FsKKpkWoP3d4dDfFJBh/wYtW4GXRmlJoI6YTI5RUbWV3uFcbVghug==";
+        };
     in {
         "PaUUkpTQ" = _PaUUkpTQ;
         "buemy1tv" = _buemy1tv;
@@ -170,6 +185,9 @@ let
         "oLxApSR2" = _oLxApSR2;
         "MXQO4Cab" = _MXQO4Cab;
         "fY19ZgUN" = _fY19ZgUN;
+        "NT4teKHB" = _NT4teKHB;
+        "6PcKRq2Y" = _6PcKRq2Y;
+        "xidnSL9O" = _xidnSL9O;
         "paper-1.18" = _fY19ZgUN;
         "paper-1.18.1" = _fY19ZgUN;
         "paper-1.18.2" = _fY19ZgUN;
@@ -196,11 +214,12 @@ let
         "paper-1.21.8" = _fY19ZgUN;
         "paper-1.21.9" = _fY19ZgUN;
         "paper-1.21.10" = _fY19ZgUN;
-        "paper-1.21.11" = _fY19ZgUN;
-        "paper-26.1" = _fY19ZgUN;
-        "paper-26.1.1" = _fY19ZgUN;
-        "paper-26.1.2" = _fY19ZgUN;
-        "paper-26.2" = _fY19ZgUN;
+        "paper-1.21.11" = _xidnSL9O;
+        "paper-26.1" = _xidnSL9O;
+        "paper-26.1.1" = _xidnSL9O;
+        "paper-26.1.2" = _xidnSL9O;
+        "paper-26.2" = _xidnSL9O;
+        "paper-26.3" = _xidnSL9O;
         "purpur-1.18" = _fY19ZgUN;
         "purpur-1.18.1" = _fY19ZgUN;
         "purpur-1.18.2" = _fY19ZgUN;
@@ -227,11 +246,12 @@ let
         "purpur-1.21.8" = _fY19ZgUN;
         "purpur-1.21.9" = _fY19ZgUN;
         "purpur-1.21.10" = _fY19ZgUN;
-        "purpur-1.21.11" = _fY19ZgUN;
-        "purpur-26.1" = _fY19ZgUN;
-        "purpur-26.1.1" = _fY19ZgUN;
-        "purpur-26.1.2" = _fY19ZgUN;
-        "purpur-26.2" = _fY19ZgUN;
+        "purpur-1.21.11" = _xidnSL9O;
+        "purpur-26.1" = _xidnSL9O;
+        "purpur-26.1.1" = _xidnSL9O;
+        "purpur-26.1.2" = _xidnSL9O;
+        "purpur-26.2" = _xidnSL9O;
+        "purpur-26.3" = _xidnSL9O;
         "spigot-1.18" = _fY19ZgUN;
         "spigot-1.18.1" = _fY19ZgUN;
         "spigot-1.18.2" = _fY19ZgUN;
@@ -263,6 +283,12 @@ let
         "spigot-26.1.1" = _fY19ZgUN;
         "spigot-26.1.2" = _fY19ZgUN;
         "spigot-26.2" = _fY19ZgUN;
+        "folia-1.21.11" = _xidnSL9O;
+        "folia-26.1" = _xidnSL9O;
+        "folia-26.1.1" = _xidnSL9O;
+        "folia-26.1.2" = _xidnSL9O;
+        "folia-26.2" = _xidnSL9O;
+        "folia-26.3" = _xidnSL9O;
         "pkg-1.5" = _PaUUkpTQ;
         "pkg-1.5.1" = _buemy1tv;
         "pkg-1.5.2" = _3pU0JkQd;
@@ -291,7 +317,10 @@ let
         "pkg-1.12.0" = _oLxApSR2;
         "pkg-1.12.1" = _MXQO4Cab;
         "pkg-1.13.0" = _fY19ZgUN;
-        "default" = _fY19ZgUN;
+        "pkg-2.0.0" = _NT4teKHB;
+        "pkg-2.1.0" = _6PcKRq2Y;
+        "pkg-2.1.1" = _xidnSL9O;
+        "default" = _xidnSL9O;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "thegoldeconomy";

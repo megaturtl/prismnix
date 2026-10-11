@@ -21,19 +21,34 @@ let
             "file" = "structure_generation_improver-2.0.0-neoforge-1.21.1.jar";
             "hash" = "sha512-ei9OQdW6cr7J/8u2BOBEggIkq9FhArFaPDaB90xgHmuycZR5en1cyTV7FJc2Iq5ExWSYMkvdoKa+1/K+ZwnVBw==";
         };
+        _EC6znpRO = {
+            "id" = "EC6znpRO";
+            "file" = "structure_generation_improver-1.0.4-forge-1.20.1.jar";
+            "hash" = "sha512-pylGFpTY3EZjVmjiGzxgpsu8NtHAOrrxcts8ibs1kSvGwdfZ2KKyGVwsRGrsVu3WJkOUxl6Gv4aDsSaROCYexA==";
+        };
+        _QFntKDEr = {
+            "id" = "QFntKDEr";
+            "file" = "structure_generation_improver-2.0.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-XwS+s/Auhl/6WBxarocDUbKWg5Zm1sVmbGM6mjMQTiNNi7HpxgxfJRMnT0VGcGVtsmzXVPl1SB1dctmuUZWS2w==";
+        };
     in {
         "zMivSjQp" = _zMivSjQp;
         "QzJQCo1a" = _QzJQCo1a;
         "XCPdVWsS" = _XCPdVWsS;
         "kRIev1ax" = _kRIev1ax;
-        "forge-1.20.1" = _XCPdVWsS;
+        "EC6znpRO" = _EC6znpRO;
+        "QFntKDEr" = _QFntKDEr;
+        "forge-1.20.1" = _EC6znpRO;
         "forge-1.21.1" = _kRIev1ax;
-        "neoforge-1.21.1" = _kRIev1ax;
+        "neoforge-1.21.1" = _QFntKDEr;
+        "neoforge-1.20.1" = _EC6znpRO;
         "pkg-1.0.0" = _zMivSjQp;
         "pkg-1.0.2" = _QzJQCo1a;
         "pkg-1.0.3" = _XCPdVWsS;
         "pkg-2.0.0" = _kRIev1ax;
-        "default" = _kRIev1ax;
+        "pkg-1.0.4" = _EC6znpRO;
+        "pkg-2.0.1" = _QFntKDEr;
+        "default" = _QFntKDEr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "structure-generation-improver-(sgi-foundations!)";

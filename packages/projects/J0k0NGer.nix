@@ -26,19 +26,27 @@ let
             "file" = "26.2-1.0.0.jar";
             "hash" = "sha512-iLqLv/S5hPekYc5KFEM5pild2F0n0h4Ze4SBFzaiKZa3nsGOiA7ZexnbeyrC4j+rDyzzPn6+NP7IAoNIOzp3yQ==";
         };
+        _RpGPlN6L = {
+            "id" = "RpGPlN6L";
+            "file" = "Saros-Random-Spawn-Forge-26.3-1.0.1.jar";
+            "hash" = "sha512-Qcv+87s2zw3dUsNLjUoI2qXQsUKIsb+q7WSHiWoZCS0r/Z1pTWCZLKw0n89zX3M2MWjcFRZNhGSlOfCR0c2Fjg==";
+        };
     in {
         "76wR7zCp" = _76wR7zCp;
         "7HTNVQNC" = _7HTNVQNC;
         "lhfpbHeq" = _lhfpbHeq;
         "TRzj2lxI" = _TRzj2lxI;
         "5poE97vH" = _5poE97vH;
+        "RpGPlN6L" = _RpGPlN6L;
         "forge-1.20.1" = _76wR7zCp;
         "forge-26.2" = _5poE97vH;
+        "forge-26.3" = _RpGPlN6L;
         "fabric-1.20.1" = _7HTNVQNC;
         "fabric-1.21.1" = _TRzj2lxI;
         "pkg-1.0.0" = _5poE97vH;
         "pkg-1.1" = _TRzj2lxI;
-        "default" = _5poE97vH;
+        "pkg-1.0.1-forge-26.3" = _RpGPlN6L;
+        "default" = _RpGPlN6L;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "saros-random-spawn";

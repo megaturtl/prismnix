@@ -211,6 +211,11 @@ let
             "file" = "[Forge]ManaitaPlus Legacy-2.0.6.jar";
             "hash" = "sha512-XiwI3ErBmWwKJqsbWeVp3+MHZHPFUwQJRchNscInZGZuZaSul/UcA1ZSm0Kgx7L7UDJpfxnb7K3pC38FF5qj4A==";
         };
+        _c7LzeJAV = {
+            "id" = "c7LzeJAV";
+            "file" = "[Forge]ManaitaPlus Legacy-2.0.6.5.jar";
+            "hash" = "sha512-HqiyQ/PGHqK0qhaSZkrQeTyS5k9CLc9MENuGQrKvFQ3T2kABEpDWPJv1jBi5A13mqXndT/b+qLypGRYIKhvqWg==";
+        };
     in {
         "KtSFvDN3" = _KtSFvDN3;
         "1GsVxrQV" = _1GsVxrQV;
@@ -254,7 +259,8 @@ let
         "dKV1jmAR" = _dKV1jmAR;
         "nw8uixzO" = _nw8uixzO;
         "lRYOF3wM" = _lRYOF3wM;
-        "forge-1.20.1" = _lRYOF3wM;
+        "c7LzeJAV" = _c7LzeJAV;
+        "forge-1.20.1" = _c7LzeJAV;
         "forge-1.20" = _nw8uixzO;
         "neoforge-1.21.1" = _dKV1jmAR;
         "neoforge-1.21.2" = _dKV1jmAR;
@@ -308,7 +314,8 @@ let
         "pkg-0.1.1.1" = _dKV1jmAR;
         "pkg-2.0.5.8" = _nw8uixzO;
         "pkg-2.0.6" = _lRYOF3wM;
-        "default" = _lRYOF3wM;
+        "pkg-2.0.6.5" = _c7LzeJAV;
+        "default" = _c7LzeJAV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "manaitaplus-legacy";

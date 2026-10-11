@@ -91,6 +91,16 @@ let
             "file" = "SeaLife-v26.2.0-mc26.2.x-Fabric.jar";
             "hash" = "sha512-tGQEHLRU1dagKLuZ+vU9IZHl7trAcxPpRc3yFHurwPJ1SQlVmzwWZ7pgN+W36jC/p03I4n2y6ePfT9Gxq8ANXw==";
         };
+        _7w1aet11 = {
+            "id" = "7w1aet11";
+            "file" = "sealife-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-LOALNKM6CDyJByIiQyMqQgiGCR4imFtyv612aWuNVwZz2F8n+QLjoKpcNzesyXXuERk2EbmSMXE2Uf7wflp7nQ==";
+        };
+        _PDVJH9c3 = {
+            "id" = "PDVJH9c3";
+            "file" = "sealife-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-NCmty1I8UDKhUNiqbIvuuiVprR04Qq4pHJnPyZ1v+6jsvYJydffm1/rbLuvk7hqKiJg8yRWVoPFJ/g0uxg87Hw==";
+        };
     in {
         "z8ofO1V5" = _z8ofO1V5;
         "d9bsrHSK" = _d9bsrHSK;
@@ -110,6 +120,8 @@ let
         "dSNJ1iNb" = _dSNJ1iNb;
         "mjQd5wfb" = _mjQd5wfb;
         "lWzitsEC" = _lWzitsEC;
+        "7w1aet11" = _7w1aet11;
+        "PDVJH9c3" = _PDVJH9c3;
         "neoforge-1.21.10" = _ffsC8we8;
         "neoforge-1.21.8" = _opnhbE4t;
         "neoforge-1.21.5" = _F0Ofw609;
@@ -119,6 +131,7 @@ let
         "neoforge-26.1.2" = _A1ilUHRa;
         "neoforge-1.21.1" = _dSNJ1iNb;
         "neoforge-26.2" = _mjQd5wfb;
+        "neoforge-26.3" = _PDVJH9c3;
         "fabric-1.21.10" = _ObYYge6I;
         "fabric-1.21.8" = _6HGRsIyB;
         "fabric-1.21.5" = _3zPOdMcO;
@@ -128,6 +141,7 @@ let
         "fabric-26.1.2" = _X1KvXHIE;
         "fabric-1.21.1" = _NT5Ov2UN;
         "fabric-26.2" = _lWzitsEC;
+        "fabric-26.3" = _7w1aet11;
         "pkg-21.10.0" = _d9bsrHSK;
         "pkg-v21.8.0-1.21.8-Fabric" = _6HGRsIyB;
         "pkg-v21.8.0-1.21.8-NeoForge" = _opnhbE4t;
@@ -139,7 +153,8 @@ let
         "pkg-26.1.1" = _X1KvXHIE;
         "pkg-21.1.0" = _dSNJ1iNb;
         "pkg-26.2.0" = _lWzitsEC;
-        "default" = _lWzitsEC;
+        "pkg-26.3.0" = _PDVJH9c3;
+        "default" = _PDVJH9c3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "new-sea-life";

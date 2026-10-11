@@ -261,6 +261,11 @@ let
             "file" = "otterlib-0.4.0.1+26.2-spigot.jar";
             "hash" = "sha512-VpMVzmI4RMjHtHEtRNnzINgufJdmiSjfFXLeCcdeC1RhoJrLhSYmIZz5z7ML3WX5/UzbWJ3sP7d/vS2D5/OEHw==";
         };
+        _EZmdLF7S = {
+            "id" = "EZmdLF7S";
+            "file" = "otterlib-0.4.0.2+26.3-fabric.jar";
+            "hash" = "sha512-hU2u3eppY5n992MKH5/4YNncomCUjdf7byizm5m2DkCWW3MYN/2OPof/TiAOybIJxts5bag99L9jy3P5RdQlDA==";
+        };
     in {
         "sFNnKAZw" = _sFNnKAZw;
         "XyqkvzmI" = _XyqkvzmI;
@@ -314,6 +319,7 @@ let
         "3UwHuXqT" = _3UwHuXqT;
         "oxZLx3yz" = _oxZLx3yz;
         "syzBi0rF" = _syzBi0rF;
+        "EZmdLF7S" = _EZmdLF7S;
         "fabric-1.21.5" = _ay2JBPGs;
         "fabric-1.21.4" = _jypR5qeR;
         "fabric-1.21" = _lMOoBAw6;
@@ -332,6 +338,7 @@ let
         "fabric-26.1.1" = _VrPGp6VK;
         "fabric-26.1.2" = _VrPGp6VK;
         "fabric-26.2" = _TSzkTFkO;
+        "fabric-26.3" = _EZmdLF7S;
         "quilt-1.21.5" = _ay2JBPGs;
         "quilt-1.21.4" = _jypR5qeR;
         "quilt-1.21" = _lMOoBAw6;
@@ -350,6 +357,7 @@ let
         "quilt-26.1.1" = _VrPGp6VK;
         "quilt-26.1.2" = _VrPGp6VK;
         "quilt-26.2" = _TSzkTFkO;
+        "quilt-26.3" = _EZmdLF7S;
         "spigot-1.20" = _FXcbzdv8;
         "spigot-1.20.1" = _FXcbzdv8;
         "spigot-1.20.2" = _FXcbzdv8;
@@ -421,7 +429,8 @@ let
         "pkg-0.3.0.1+26.2" = _7thwoNTE;
         "pkg-0.4.0.0+26.2" = _3UwHuXqT;
         "pkg-0.4.0.1+26.2" = _syzBi0rF;
-        "default" = _syzBi0rF;
+        "pkg-0.4.0.2+26.3" = _EZmdLF7S;
+        "default" = _EZmdLF7S;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "otterlib";

@@ -21,11 +21,17 @@ let
             "file" = "dropall-1.0.4.jar";
             "hash" = "sha512-qL3DCgZ31Ra1Rhq6kYTmmw6rnw1NCxZjOwMFbSSsGHLHpzKxZzsjCCxCAzkG6S1+VmbzXZe/Ch+/YgjcPFgAyw==";
         };
+        _4UJkkYuG = {
+            "id" = "4UJkkYuG";
+            "file" = "dropall-1.0.4-mc26.3.jar";
+            "hash" = "sha512-EL7KO0U9OUfx+YfvK/sy0YJU7SFH9W9ROQqtDws0OUShAXEy7dPmQDCTbinFsbJW5kg7d0ttFAcIC1AVet5PvA==";
+        };
     in {
         "dFG5H6WL" = _dFG5H6WL;
         "Dn32lB19" = _Dn32lB19;
         "Hk1XUvSb" = _Hk1XUvSb;
         "SwbPgrF9" = _SwbPgrF9;
+        "4UJkkYuG" = _4UJkkYuG;
         "fabric-1.21.11" = _Hk1XUvSb;
         "fabric-1.21.4" = _Hk1XUvSb;
         "fabric-1.21.5" = _Hk1XUvSb;
@@ -38,11 +44,12 @@ let
         "fabric-26.1.1" = _Hk1XUvSb;
         "fabric-26.1.2" = _Hk1XUvSb;
         "fabric-26.2" = _SwbPgrF9;
+        "fabric-26.3" = _4UJkkYuG;
         "pkg-1.0.0" = _dFG5H6WL;
         "pkg-1.0.1" = _Dn32lB19;
         "pkg-1.0.2" = _Hk1XUvSb;
-        "pkg-1.0.4" = _SwbPgrF9;
-        "default" = _SwbPgrF9;
+        "pkg-1.0.4" = _4UJkkYuG;
+        "default" = _4UJkkYuG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dropall";

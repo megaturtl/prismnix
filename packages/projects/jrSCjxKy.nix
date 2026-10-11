@@ -106,6 +106,11 @@ let
             "file" = "gunswithoutroses-1.20.1-2.6.1.jar";
             "hash" = "sha512-oI22D79CBDhwSlEV+x7LyfR4yl/90+HH0MI19e9pJe4WDgCkPorQzQ5ueommxl8jJ3s7Rnhb28gneSHhwUoNIw==";
         };
+        _NLppwKcE = {
+            "id" = "NLppwKcE";
+            "file" = "gunswithoutroses-1.20.1-2.6.2.jar";
+            "hash" = "sha512-BNwTRlI7aWmx55G/ZiLiJRJa2+q18kIHccHu0fPuxLsegTxJfQEUJil5CL90GkGoIHw4dO6jXJPcbUO/oVducg==";
+        };
     in {
         "HauGyv03" = _HauGyv03;
         "HRwPMhTd" = _HRwPMhTd;
@@ -128,6 +133,7 @@ let
         "sKCCaYTI" = _sKCCaYTI;
         "cHkLyTnv" = _cHkLyTnv;
         "596pbUFL" = _596pbUFL;
+        "NLppwKcE" = _NLppwKcE;
         "forge-1.16.5" = _HauGyv03;
         "forge-1.18" = _Vtoyll3f;
         "forge-1.18.1" = _Vtoyll3f;
@@ -135,8 +141,8 @@ let
         "forge-1.19" = _3LTKqzfc;
         "forge-1.19.1" = _3LTKqzfc;
         "forge-1.19.2" = _3LTKqzfc;
-        "forge-1.20.1" = _596pbUFL;
-        "neoforge-1.20.1" = _596pbUFL;
+        "forge-1.20.1" = _NLppwKcE;
+        "neoforge-1.20.1" = _NLppwKcE;
         "pkg-1.0.9" = _HauGyv03;
         "pkg-1.0.10" = _HRwPMhTd;
         "pkg-1.0.11" = _Vtoyll3f;
@@ -158,7 +164,8 @@ let
         "pkg-2.5.1" = _sKCCaYTI;
         "pkg-2.6.0" = _cHkLyTnv;
         "pkg-2.6.1" = _596pbUFL;
-        "default" = _596pbUFL;
+        "pkg-2.6.2" = _NLppwKcE;
+        "default" = _NLppwKcE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "guns-without-roses";

@@ -591,6 +591,16 @@ let
             "file" = "simplenicknames-26.2-neoforge-0.8.0.jar";
             "hash" = "sha512-l0URHgOdEalG1lbF4k3sL9axbVElUJDoeTubpYHD65fUO5z7kdt2iOzAxK6Oh4LMF62FtEyx8vQosW8/izCSlw==";
         };
+        _oTRMpyrs = {
+            "id" = "oTRMpyrs";
+            "file" = "simplenicknames-26.3-fabric-0.8.1.jar";
+            "hash" = "sha512-vCnJNFkMQl96rUPMjKnDjqMHy4GIBZsT3qwDhmwAhksYxylaSpom45QbUFzhyKvJhe1xVRQ1K7+6hGQsaH+CwQ==";
+        };
+        _te2sy1UD = {
+            "id" = "te2sy1UD";
+            "file" = "simplenicknames-26.3-neoforge-0.8.1.jar";
+            "hash" = "sha512-axbF+wR/4B6IF837HecSrY3KHcUs6EHqIxDoCAKeYUc6ws2OO53Ys/Fq4WE4ihoUQ7VHouUepPWhIS2pehIzWQ==";
+        };
     in {
         "8YnkDIkL" = _8YnkDIkL;
         "QLu68W2w" = _QLu68W2w;
@@ -710,6 +720,8 @@ let
         "VnzPnHtC" = _VnzPnHtC;
         "d59mNz3H" = _d59mNz3H;
         "WN7PszYb" = _WN7PszYb;
+        "oTRMpyrs" = _oTRMpyrs;
+        "te2sy1UD" = _te2sy1UD;
         "neoforge-1.21.1" = _kVVMxHOA;
         "neoforge-1.21.10" = _Nt4PvNxE;
         "neoforge-26.1" = _VnzPnHtC;
@@ -725,6 +737,7 @@ let
         "neoforge-1.21.8" = _FTYvlRWw;
         "neoforge-1.21.9" = _Nt4PvNxE;
         "neoforge-26.2" = _WN7PszYb;
+        "neoforge-26.3" = _te2sy1UD;
         "fabric-1.21.1" = _dmd6OB1Y;
         "fabric-1.21.10" = _gmluUy1V;
         "fabric-1.21.11" = _eCQJ7Gye;
@@ -741,6 +754,7 @@ let
         "fabric-1.21.7" = _khUiHJ5P;
         "fabric-1.21.9" = _gmluUy1V;
         "fabric-26.2" = _d59mNz3H;
+        "fabric-26.3" = _oTRMpyrs;
         "pkg-1.21.1-neoforge-0.3.1" = _8YnkDIkL;
         "pkg-1.21.10-neoforge-0.3.1-fix1" = _QLu68W2w;
         "pkg-1.21.1-fabric-0.3.1" = _lpP75OQt;
@@ -859,7 +873,9 @@ let
         "pkg-26.1.2-neoforge-0.8.0" = _VnzPnHtC;
         "pkg-26.2-fabric-0.8.0" = _d59mNz3H;
         "pkg-26.2-neoforge-0.8.0" = _WN7PszYb;
-        "default" = _WN7PszYb;
+        "pkg-26.3-fabric-0.8.1" = _oTRMpyrs;
+        "pkg-26.3-neoforge-0.8.1" = _te2sy1UD;
+        "default" = _te2sy1UD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-nicknames";

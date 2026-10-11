@@ -121,6 +121,21 @@ let
             "file" = "Common Roads (Neoforge 1.21.1) V1.2.1.jar";
             "hash" = "sha512-hAmyBbXVjKHN4+TAhKAyV1+wbtOPu26RIH7q9122rv3JxaOVpJTXq0fMLKIke87SpttsYRArDDHUGznKr9rbng==";
         };
+        _p9Np0ygD = {
+            "id" = "p9Np0ygD";
+            "file" = "Common Roads (Neoforge 1.21.1) V1.2.2.jar";
+            "hash" = "sha512-JC8liBaUs03pvCaHyGcuNaZUV3HGFRH+7MGkIKA8kvxNNj7IUsUIIxUQNkReuvXjfukVBTmPbM2sYInkAk0RVw==";
+        };
+        _xNaa9N5b = {
+            "id" = "xNaa9N5b";
+            "file" = "Common Roads (Neoforge 1.21.1) V1.2.3.jar";
+            "hash" = "sha512-jwmaJ/tkKI5lcYTRyGOO4XcWOXJnkxByvqTMWktvGvBJZkZN0SeCLbbPulGnPyzYsU7kjdUuMjmL849U++gO6Q==";
+        };
+        _t59vPOXn = {
+            "id" = "t59vPOXn";
+            "file" = "Common Roads (Neoforge 1.21.1) V1.2.4.jar";
+            "hash" = "sha512-PtsljQXRzxlfh4d0JLnIXUWx2RptHoP+CuEK0xulwDGI+GpIckATntkJvu9bh343/qf7FC3J84Sk2HQV5X3v/Q==";
+        };
     in {
         "EY9S30Xu" = _EY9S30Xu;
         "Dl5VoqUC" = _Dl5VoqUC;
@@ -146,12 +161,15 @@ let
         "TEm34oc8" = _TEm34oc8;
         "1nDtPtZ4" = _1nDtPtZ4;
         "RilqbIIu" = _RilqbIIu;
+        "p9Np0ygD" = _p9Np0ygD;
+        "xNaa9N5b" = _xNaa9N5b;
+        "t59vPOXn" = _t59vPOXn;
         "forge-1.19.2" = _TEm34oc8;
         "forge-1.20.1" = _kW3NwzAE;
         "forge-1.16.5" = _waMQGh8x;
         "fabric-1.19.2" = _Dl5VoqUC;
         "neoforge-1.20.1" = _Va94lKuv;
-        "neoforge-1.21.1" = _RilqbIIu;
+        "neoforge-1.21.1" = _t59vPOXn;
         "neoforge-1.21.4" = _DB0mrm92;
         "pkg-1.0.4" = _Va94lKuv;
         "pkg-1.0.1" = _I0mZXAL8;
@@ -166,7 +184,10 @@ let
         "pkg-1.1.2" = _kW3NwzAE;
         "pkg-1.2.1" = _RilqbIIu;
         "pkg-1.2.0" = _1nDtPtZ4;
-        "default" = _RilqbIIu;
+        "pkg-1.2.2" = _p9Np0ygD;
+        "pkg-1.2.3" = _xNaa9N5b;
+        "pkg-1.2.4" = _t59vPOXn;
+        "default" = _t59vPOXn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "common-roads";

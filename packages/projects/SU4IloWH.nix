@@ -381,6 +381,11 @@ let
             "file" = "easier-scaffolding-v1.2.27-26.3snapshotX.jar";
             "hash" = "sha512-jrDuJ1UfVeLmgEo2W3fUDnKS+FuJNoVUkD2JKOsz7TUDJfdltlvM0IEiGix/ez7Z8RGYhtidKRLFybZWtx9IzQ==";
         };
+        _ZDaStz4y = {
+            "id" = "ZDaStz4y";
+            "file" = "Easier Scaffolding v1.2.28.zip";
+            "hash" = "sha512-q6wah4E5D4w9wcpVv9K0iRGqyOz2V0hVvixmhmRDOg3jeXirah2dsNnSHu1LzWudVq5lbf8xWb4N1DqUKI1gSQ==";
+        };
     in {
         "N0Iei8TW" = _N0Iei8TW;
         "e5wkaLQq" = _e5wkaLQq;
@@ -458,6 +463,7 @@ let
         "xmQCwTcl" = _xmQCwTcl;
         "sUCFtTbq" = _sUCFtTbq;
         "tuObthDF" = _tuObthDF;
+        "ZDaStz4y" = _ZDaStz4y;
         "datapack-1.21.2" = _zI3Mi0AG;
         "datapack-1.21.3" = _zI3Mi0AG;
         "datapack-1.21.4" = _zI3Mi0AG;
@@ -540,6 +546,7 @@ let
         "datapack-26.3-snapshot-6" = _sUCFtTbq;
         "datapack-26.3-snapshot-7" = _sUCFtTbq;
         "datapack-26.3-snapshot-8" = _sUCFtTbq;
+        "datapack-26.3" = _ZDaStz4y;
         "fabric-1.21" = _lOisY9M6;
         "fabric-1.21.1" = _lOisY9M6;
         "fabric-1.21.2" = _AJBdbNk2;
@@ -964,7 +971,8 @@ let
         "pkg-v1.2.26-snapshot6+mod" = _xmQCwTcl;
         "pkg-v1.2.27-26.3snapshotX" = _sUCFtTbq;
         "pkg-v1.2.27-26.3snapshotX+mod" = _tuObthDF;
-        "default" = _tuObthDF;
+        "pkg-v1.2.28" = _ZDaStz4y;
+        "default" = _ZDaStz4y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "easier-scaffolding";

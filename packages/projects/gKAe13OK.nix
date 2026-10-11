@@ -191,6 +191,21 @@ let
             "file" = "nemos_vertical_slabs-Fabric-26.2-2.3.2.jar";
             "hash" = "sha512-wN2RBce9/uVnKf5zz9JEE9zGl1Nmeb+g739m3dnWxv1oknKmwugPxuOkQrKGJvYZCKhwSJ0Hj0KE3FR3Cf5vNA==";
         };
+        _hL10eszF = {
+            "id" = "hL10eszF";
+            "file" = "nemos_vertical_slabs-Fabric-26.2-2.3.4.jar";
+            "hash" = "sha512-b+oX8qriU1/IR+elbD1nTwyUs9yMC1gpsd3XwDqsS6IQWlSWdNlStyFW1C1YF3DfZtPqqcw+4VS8I2LM2wS/dg==";
+        };
+        _XSqmIvWI = {
+            "id" = "XSqmIvWI";
+            "file" = "nemos_vertical_slabs-Fabric-26.3-2.3.5.jar";
+            "hash" = "sha512-hG55g2nBF66qMNGrNlO4DF1dlCxqUd6WKmDlak3TjRb+45ES63NFXX0CDY8UfRDIRdTxGVSkcV1HjgGs0aMGqw==";
+        };
+        _rcrOTDP8 = {
+            "id" = "rcrOTDP8";
+            "file" = "nemos_vertical_slabs-Fabric-26.2-2.3.5.jar";
+            "hash" = "sha512-gnZKBcFK7ngadkOeEU9GygVMWNVvzM0yYQ3/yIvElQqa15iBLMER7DntlOvuV67fzYhcpcH2Drchp1uoBXh2/A==";
+        };
     in {
         "qzddZNCX" = _qzddZNCX;
         "Ihu1opM7" = _Ihu1opM7;
@@ -230,6 +245,9 @@ let
         "i6yw91rp" = _i6yw91rp;
         "lLj9xAdX" = _lLj9xAdX;
         "DsU1FvLp" = _DsU1FvLp;
+        "hL10eszF" = _hL10eszF;
+        "XSqmIvWI" = _XSqmIvWI;
+        "rcrOTDP8" = _rcrOTDP8;
         "fabric-1.20.1" = _mcQAWc8b;
         "fabric-1.21" = _SuXN0QqL;
         "fabric-1.21.1" = _rGyemUIk;
@@ -241,7 +259,8 @@ let
         "fabric-1.21.10" = _uXLckcO7;
         "fabric-1.21.11" = _nGOlOZ5Q;
         "fabric-26.1.2" = _lLj9xAdX;
-        "fabric-26.2" = _DsU1FvLp;
+        "fabric-26.2" = _rcrOTDP8;
+        "fabric-26.3" = _XSqmIvWI;
         "forge-1.21.8" = _b3y1L2Fg;
         "neoforge-1.21.8" = _66qClme0;
         "pkg-1.0-1.20.1" = _qzddZNCX;
@@ -276,7 +295,10 @@ let
         "pkg-26.1.2-2.3.1" = _i6yw91rp;
         "pkg-26.1.2-2.3.2" = _lLj9xAdX;
         "pkg-26.2-2.3.2" = _DsU1FvLp;
-        "default" = _DsU1FvLp;
+        "pkg-26.2-2.3.4" = _hL10eszF;
+        "pkg-26.3-2.3.5" = _XSqmIvWI;
+        "pkg-26.2-2.3.5" = _rcrOTDP8;
+        "default" = _rcrOTDP8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nemos-vertical-slabs";

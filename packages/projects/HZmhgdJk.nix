@@ -66,6 +66,16 @@ let
             "file" = "wunderlib-26.2.0.jar";
             "hash" = "sha512-s8Gno2PI8VzMMmpSsg7XD/atVocw+FvkS1RGLH3SHUkIs8F4N3lFF7enSnH1clYkbugd1q3zrCElcVCElf8sjQ==";
         };
+        _bUEWw1pB = {
+            "id" = "bUEWw1pB";
+            "file" = "wunderlib-26.3.0.jar";
+            "hash" = "sha512-TnflxkfCx1hwrLmzdNTOSexxONfhMCXL+H5R2Dli2xfrEmZvZT80TTeNelAtEcydvTiuCmWvpwWbAbVVs2raEg==";
+        };
+        _ZDQA7sPj = {
+            "id" = "ZDQA7sPj";
+            "file" = "wunderlib-26.3.0-fabric.jar";
+            "hash" = "sha512-fgOUYBP5fxaA4PIBgdRqHmfZFpkMA23ChDhVpQfAtspbeSt/5h4PAt6yHetHfY6DJsyeDJoUnK9WLmwr31ZSow==";
+        };
     in {
         "gzkIe0y0" = _gzkIe0y0;
         "5db3GZzg" = _5db3GZzg;
@@ -80,6 +90,8 @@ let
         "XMLGUpNF" = _XMLGUpNF;
         "JHLUnbyy" = _JHLUnbyy;
         "fXSDicz3" = _fXSDicz3;
+        "bUEWw1pB" = _bUEWw1pB;
+        "ZDQA7sPj" = _ZDQA7sPj;
         "neoforge-1.21" = _5db3GZzg;
         "neoforge-1.21.1" = _5db3GZzg;
         "neoforge-1.21.11" = _PWRo2FkH;
@@ -87,6 +99,7 @@ let
         "neoforge-26.1.1" = _8hlxlTlK;
         "neoforge-26.1.2" = _8hlxlTlK;
         "neoforge-26.2" = _fXSDicz3;
+        "neoforge-26.3" = _bUEWw1pB;
         "fabric-1.21" = _cE3FERBk;
         "fabric-1.21.1" = _cE3FERBk;
         "fabric-1.21.11" = _RwZApYL6;
@@ -94,6 +107,7 @@ let
         "fabric-26.1.1" = _XMLGUpNF;
         "fabric-26.1.2" = _XMLGUpNF;
         "fabric-26.2" = _JHLUnbyy;
+        "fabric-26.3" = _ZDQA7sPj;
         "quilt-1.21" = _cE3FERBk;
         "quilt-1.21.1" = _cE3FERBk;
         "quilt-1.21.11" = _RwZApYL6;
@@ -101,6 +115,7 @@ let
         "quilt-26.1.1" = _XMLGUpNF;
         "quilt-26.1.2" = _XMLGUpNF;
         "quilt-26.2" = _JHLUnbyy;
+        "quilt-26.3" = _ZDQA7sPj;
         "pkg-21.0.9" = _gzkIe0y0;
         "pkg-21.0.10" = _5db3GZzg;
         "pkg-21.11.1" = _F8Dk3PU9;
@@ -113,7 +128,9 @@ let
         "pkg-26.1.2-fabric" = _XMLGUpNF;
         "pkg-26.2.0-fabric" = _JHLUnbyy;
         "pkg-26.2.0" = _fXSDicz3;
-        "default" = _fXSDicz3;
+        "pkg-26.3.0" = _bUEWw1pB;
+        "pkg-26.3.0-fabric" = _ZDQA7sPj;
+        "default" = _ZDQA7sPj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wunderlib-neoforge";

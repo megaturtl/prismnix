@@ -381,6 +381,11 @@ let
             "file" = "wtmwd-v1.4.2-26.3snapshotX.jar";
             "hash" = "sha512-erCgcRrwnznRr8oI4NC9hNcr/3+DcjSqFSctHhsMptQKWdX6J9FuVQ7mfRLMY4ieEBXKIiP9aPT7ZrfJBEbKSg==";
         };
+        _bCkFezsi = {
+            "id" = "bCkFezsi";
+            "file" = "WTMWD v1.4.3.zip";
+            "hash" = "sha512-HTbd0RGZrOnDlSRsdkQ3S+j4FVh7hVjlnRp3PsuVgB6LvGggooN9HT4Bl4LG34rwWgQH4asNrJIpokosDZFFNQ==";
+        };
     in {
         "WHBspHBh" = _WHBspHBh;
         "ie1Dj7J2" = _ie1Dj7J2;
@@ -458,6 +463,7 @@ let
         "zKRmJ7et" = _zKRmJ7et;
         "r4UznxXp" = _r4UznxXp;
         "EnhGjBuu" = _EnhGjBuu;
+        "bCkFezsi" = _bCkFezsi;
         "datapack-1.21.2" = _4YaY6nLa;
         "datapack-1.21.3" = _4YaY6nLa;
         "datapack-1.21.4" = _4YaY6nLa;
@@ -541,6 +547,7 @@ let
         "datapack-26.3-snapshot-6" = _r4UznxXp;
         "datapack-26.3-snapshot-7" = _r4UznxXp;
         "datapack-26.3-snapshot-8" = _r4UznxXp;
+        "datapack-26.3" = _bCkFezsi;
         "fabric-1.21" = _S6XiGhFP;
         "fabric-1.21.1" = _S6XiGhFP;
         "fabric-1.21.2" = _IfGb6hYP;
@@ -965,7 +972,8 @@ let
         "pkg-v1.4.1-snapshot6+mod" = _zKRmJ7et;
         "pkg-v1.4.2-26.3snapshotX" = _r4UznxXp;
         "pkg-v1.4.2-26.3snapshotX+mod" = _EnhGjBuu;
-        "default" = _EnhGjBuu;
+        "pkg-v1.4.3" = _bCkFezsi;
+        "default" = _bCkFezsi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wtmwd";

@@ -106,6 +106,21 @@ let
             "file" = "trinkets-4.2.0+26.3.jar";
             "hash" = "sha512-bhtaW0PuSV3JPqRDt5+lepAiZG6Dh7JWKe4c4ewM+7I7GJZqiGeTCE9eZB5MMuAQfAoeXp//wjLgk4cLgSiLMQ==";
         };
+        _lVR1OKgV = {
+            "id" = "lVR1OKgV";
+            "file" = "trinkets-4.2.1+26.3.jar";
+            "hash" = "sha512-1AOOk7lUYs/wUHXa1bl2aYcfYiEsAijsZIN4LiJHbQNU0YafDlI/2yOyojP6DxX/AdSX/SyKUpKrIIONxGTRWg==";
+        };
+        _XkGsalta = {
+            "id" = "XkGsalta";
+            "file" = "trinkets-4.0.1+26.1.jar";
+            "hash" = "sha512-H+wVAFPvTooviWFGUpMHCdMqf9qNHchiaCQVIt+cexXNh77tN09rNK3nXXregq5qDepNAvXM+HP4MAx+B1WAJA==";
+        };
+        _YH8OYfzQ = {
+            "id" = "YH8OYfzQ";
+            "file" = "trinkets-4.1.1+26.2.jar";
+            "hash" = "sha512-7OeU/PpDYHJ6mRusbilz6MsmwVFW2Ab2oowWaGkITijUo4cNEbQJsJ9AantWI677egkoXMHrlKhi1fLEx7nWPw==";
+        };
     in {
         "DHE2OnLP" = _DHE2OnLP;
         "A1xQiPDo" = _A1xQiPDo;
@@ -128,21 +143,24 @@ let
         "jhbhwQFz" = _jhbhwQFz;
         "BcSmZVfF" = _BcSmZVfF;
         "GjCPLWaf" = _GjCPLWaf;
+        "lVR1OKgV" = _lVR1OKgV;
+        "XkGsalta" = _XkGsalta;
+        "YH8OYfzQ" = _YH8OYfzQ;
         "fabric-1.21.11" = _DHE2OnLP;
-        "fabric-26.1" = _BcSmZVfF;
-        "fabric-26.1.1" = _BcSmZVfF;
-        "fabric-26.1.2" = _BcSmZVfF;
+        "fabric-26.1" = _XkGsalta;
+        "fabric-26.1.1" = _XkGsalta;
+        "fabric-26.1.2" = _XkGsalta;
         "fabric-26.2-rc-2" = _rX80fkNr;
-        "fabric-26.2" = _jhbhwQFz;
+        "fabric-26.2" = _YH8OYfzQ;
         "fabric-26.3-rc-1" = _GjCPLWaf;
-        "fabric-26.3" = _GjCPLWaf;
-        "neoforge-26.1" = _BcSmZVfF;
-        "neoforge-26.1.1" = _BcSmZVfF;
-        "neoforge-26.1.2" = _BcSmZVfF;
+        "fabric-26.3" = _lVR1OKgV;
+        "neoforge-26.1" = _XkGsalta;
+        "neoforge-26.1.1" = _XkGsalta;
+        "neoforge-26.1.2" = _XkGsalta;
         "neoforge-26.2-rc-2" = _rX80fkNr;
-        "neoforge-26.2" = _jhbhwQFz;
+        "neoforge-26.2" = _YH8OYfzQ;
         "neoforge-26.3-rc-1" = _GjCPLWaf;
-        "neoforge-26.3" = _GjCPLWaf;
+        "neoforge-26.3" = _lVR1OKgV;
         "pkg-3.11.0-beta.2+1.21.11" = _DHE2OnLP;
         "pkg-4.0.0-alpha.1+26.1" = _A1xQiPDo;
         "pkg-4.0.0-alpha.2+26.1" = _VvMNQexi;
@@ -164,7 +182,10 @@ let
         "pkg-4.1.0+26.2" = _jhbhwQFz;
         "pkg-4.0.0+26.1" = _BcSmZVfF;
         "pkg-4.2.0+26.3" = _GjCPLWaf;
-        "default" = _GjCPLWaf;
+        "pkg-4.2.1+26.3" = _lVR1OKgV;
+        "pkg-4.0.1+26.1" = _XkGsalta;
+        "pkg-4.1.1+26.2" = _YH8OYfzQ;
+        "default" = _YH8OYfzQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trinkets-updated";

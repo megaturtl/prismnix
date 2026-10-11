@@ -111,6 +111,66 @@ let
             "file" = "Time & Weather Changer-fabric-26.2-1.2.0.jar";
             "hash" = "sha512-iATW/9kdGR7D0JR49EF6T5qjV4qMW1MJBc68z9SRPdxHRPFazwEOEE/31FLnYVMNeaXeBK7TczIXrFYIuKDvPQ==";
         };
+        _5mvg8XiG = {
+            "id" = "5mvg8XiG";
+            "file" = "Time & Weather Changer-neoforge-26.3-1.3.0.jar";
+            "hash" = "sha512-1OWuOLqFrx1zwcKnuIEaxP6HW1V3SLQmpKcz7oPS6Kmkcm4dFyRH9lTNj3jpL5aSP2B9l3TPHRIpDdhSdFKT4w==";
+        };
+        _zGehjCa8 = {
+            "id" = "zGehjCa8";
+            "file" = "Time & Weather Changer-fabric-26.3-1.3.0.jar";
+            "hash" = "sha512-QKtFdIITrqFDs9qd9HS4GujWzWdNhjaAeYbHHxrmKlte/hkSzjwNh1h6TKO5GqtiUhtnysQWATKvdp1Xb2zOeQ==";
+        };
+        _Su8X06sW = {
+            "id" = "Su8X06sW";
+            "file" = "Time & Weather Changer-neoforge-1.21.11-1.3.0.jar";
+            "hash" = "sha512-WGaq89pupCMrXf/lADwPrLNkHLGEMRjBsomMzvubXT9tN1QHlobpZ5tbhyzDaK3ABO91q0Um6M5pjY/bR1wXBQ==";
+        };
+        _qgNoW9Nq = {
+            "id" = "qgNoW9Nq";
+            "file" = "Time & Weather Changer-fabric-1.21.11-1.3.0-dev.jar";
+            "hash" = "sha512-+2HQIEJgah4jVB9i3SVuDz3Jt8H9NlONWZs1Zoj+yer4UNiSb7q/oGHJyPHiKuWnVpeNhS3iXv+nIHcOsKFwOA==";
+        };
+        _wGsdFyxY = {
+            "id" = "wGsdFyxY";
+            "file" = "timechanger-neoforge-1.3.5+26.1.2.jar";
+            "hash" = "sha512-zFKCJ/xLLtoMndh5U9McdVjWy2oToaJlNiOynfP61CxJ7Dz9Y8phuR/TzCrjOlCWHOTO+NzEy9dpoc9ZJ+WCDg==";
+        };
+        _B24xGaio = {
+            "id" = "B24xGaio";
+            "file" = "timechanger-neoforge-1.3.5+26.3.jar";
+            "hash" = "sha512-NurXjAPCl6b7oK390TNfAnyMSMVcUL3+ecTU5ws1oY/inxwA/JohqmDNRkQ6v3pB1cTNMG1E5UpP5A/4/WSw4g==";
+        };
+        _zsKTicDE = {
+            "id" = "zsKTicDE";
+            "file" = "timechanger-neoforge-1.3.5+26.2.jar";
+            "hash" = "sha512-35ex0IcBWlroQWcxRFT9jUo6EniBvYSfgeS6YurrfRlnrSzQiyRAh8LBIRqaXE9ToP/jAsK3cpSWXUoDyNQgrQ==";
+        };
+        _h58mWaWh = {
+            "id" = "h58mWaWh";
+            "file" = "timechanger-neoforge-1.3.5+1.21.11.jar";
+            "hash" = "sha512-JYGLtZGJDxNj0h/ATrd6pXGtKFlhBRittO1GyPbGYnBzBH6ZaP1TSn7EfHn7zJtnDotk35wnDlfw6YnhjLkIug==";
+        };
+        _vqqG5fmz = {
+            "id" = "vqqG5fmz";
+            "file" = "timechanger-fabric-1.3.5+1.21.11.jar";
+            "hash" = "sha512-bWGPB7m3Rth4w6VsrRxOgl4c8mJj8FUEVD87b0DjBOXQjl2s0citFUS/oVDsE/AMizqPQnh7hxUeaLWk0fPoWQ==";
+        };
+        _KIcF1a7M = {
+            "id" = "KIcF1a7M";
+            "file" = "timechanger-fabric-1.3.5+26.1.2.jar";
+            "hash" = "sha512-ygbpjMGJ3/fawJP0qO9ml45u0IPiJfWiYcYhRiBf8MX/TcDpprNLeZkdlmZmtxc2+glwvmistnCe6jR/sgpTkw==";
+        };
+        _vY2R2dOy = {
+            "id" = "vY2R2dOy";
+            "file" = "timechanger-fabric-1.3.5+26.3.jar";
+            "hash" = "sha512-YDLGZhpwpUygjVZtBT4s1etFnkSzivFmn7S7Mn2Io+GrM9uR00Eep7PMI6kOyn0ve4RrVNtgW3wyoJP9CerseQ==";
+        };
+        _DWS8VWxY = {
+            "id" = "DWS8VWxY";
+            "file" = "timechanger-fabric-1.3.5+26.2.jar";
+            "hash" = "sha512-ZjMvxgpEBXr+fzlmI0MuYBMJe2WJNZ2GEejtOBIXK3/92mmO5EyMEKAPrEabO0ZzMR6EXa0GfsHY14e3Rbd74Q==";
+        };
     in {
         "Yw29ias4" = _Yw29ias4;
         "QRFKoSUB" = _QRFKoSUB;
@@ -134,28 +194,51 @@ let
         "QCFks9NA" = _QCFks9NA;
         "v4CdRmAQ" = _v4CdRmAQ;
         "48asY6Dk" = _48asY6Dk;
+        "5mvg8XiG" = _5mvg8XiG;
+        "zGehjCa8" = _zGehjCa8;
+        "Su8X06sW" = _Su8X06sW;
+        "qgNoW9Nq" = _qgNoW9Nq;
+        "wGsdFyxY" = _wGsdFyxY;
+        "B24xGaio" = _B24xGaio;
+        "zsKTicDE" = _zsKTicDE;
+        "h58mWaWh" = _h58mWaWh;
+        "vqqG5fmz" = _vqqG5fmz;
+        "KIcF1a7M" = _KIcF1a7M;
+        "vY2R2dOy" = _vY2R2dOy;
+        "DWS8VWxY" = _DWS8VWxY;
         "fabric-1.21.6" = _Yw29ias4;
         "fabric-1.21.7" = _ZtDwPMG1;
         "fabric-1.21.8" = _lNYpjXDQ;
         "fabric-1.21.9" = _qwEkKE2M;
         "fabric-1.21.10" = _YHO9ELX9;
-        "fabric-1.21.11" = _Y1zbW3v3;
+        "fabric-1.21.11" = _vqqG5fmz;
         "fabric-26.1" = _9GtwPf5g;
-        "fabric-26.1.2" = _QCFks9NA;
-        "fabric-26.2" = _48asY6Dk;
+        "fabric-26.1.2" = _KIcF1a7M;
+        "fabric-26.2" = _DWS8VWxY;
+        "fabric-26.3" = _vY2R2dOy;
         "neoforge-1.21.6" = _QRFKoSUB;
         "neoforge-1.21.7" = _ErTjYIcH;
         "neoforge-1.21.8" = _1IDgqoEs;
         "neoforge-1.21.9" = _soyGmaPk;
         "neoforge-1.21.10" = _qW4cmdUi;
-        "neoforge-1.21.11" = _E8rNkF8j;
+        "neoforge-1.21.11" = _h58mWaWh;
         "neoforge-26.1" = _evuWmT11;
-        "neoforge-26.1.2" = _HYnUnVL6;
-        "neoforge-26.2" = _v4CdRmAQ;
+        "neoforge-26.1.2" = _wGsdFyxY;
+        "neoforge-26.2" = _zsKTicDE;
+        "neoforge-26.3" = _B24xGaio;
         "pkg-1.0.0" = _Xdhbqqgh;
         "pkg-1.1.0" = _5EiHM7rv;
         "pkg-1.2.0" = _48asY6Dk;
-        "default" = _48asY6Dk;
+        "pkg-1.3.0" = _qgNoW9Nq;
+        "pkg-1.3.5+26.1.2-neoforge" = _wGsdFyxY;
+        "pkg-1.3.5+26.3-neoforge" = _B24xGaio;
+        "pkg-1.3.5+26.2-neoforge" = _zsKTicDE;
+        "pkg-1.3.5+1.21.11-neoforge" = _h58mWaWh;
+        "pkg-1.3.5+1.21.11-fabric" = _vqqG5fmz;
+        "pkg-1.3.5+26.1.2-fabric" = _KIcF1a7M;
+        "pkg-1.3.5+26.3-fabric" = _vY2R2dOy;
+        "pkg-1.3.5+26.2-fabric" = _DWS8VWxY;
+        "default" = _DWS8VWxY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "time-weather-changer";

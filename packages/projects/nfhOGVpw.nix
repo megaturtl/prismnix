@@ -116,6 +116,16 @@ let
             "file" = "Kosmolot's Colored Subtitles 26.2+20260627.zip";
             "hash" = "sha512-EIkF3/JxGYSqsaeEyGpiKSjUpUfCeXAsA6Yy+VmTfPPpHSbJxLx96Wi+VH/bWb4fb6HHa0y8X/mqey8EEKP9IA==";
         };
+        _ViICTZOh = {
+            "id" = "ViICTZOh";
+            "file" = "Kosmolot's Colored Subtitles 26.2+20260927.zip";
+            "hash" = "sha512-9f/HuoP7lpqKPck1mk28cn8wqVBTbeXOY5aCS/oR4kwi1Cbtt6+L6T6oIEehXLEpU4sCgvKj3iUTRqpPWDlsAA==";
+        };
+        _ERSftu1P = {
+            "id" = "ERSftu1P";
+            "file" = "Kosmolot's Colored Subtitles 26.3+20260927.zip";
+            "hash" = "sha512-BV5t1W3TfqDGWvN9Pu0YUwIU2xP4/P3U0NbKVs+p6oqPZkh8tG6C6EEkQEbyb6dDwERkZX3ETMx9I7Pi2nljlQ==";
+        };
     in {
         "EGHmGw3C" = _EGHmGw3C;
         "uMXm535g" = _uMXm535g;
@@ -140,6 +150,8 @@ let
         "ic1oWSOq" = _ic1oWSOq;
         "KuRiBXjr" = _KuRiBXjr;
         "skNlbYOd" = _skNlbYOd;
+        "ViICTZOh" = _ViICTZOh;
+        "ERSftu1P" = _ERSftu1P;
         "minecraft-1.9" = _EGHmGw3C;
         "minecraft-1.9.1" = _EGHmGw3C;
         "minecraft-1.9.2" = _EGHmGw3C;
@@ -203,7 +215,8 @@ let
         "minecraft-26.1" = _KuRiBXjr;
         "minecraft-26.1.1" = _KuRiBXjr;
         "minecraft-26.1.2" = _KuRiBXjr;
-        "minecraft-26.2" = _skNlbYOd;
+        "minecraft-26.2" = _ViICTZOh;
+        "minecraft-26.3" = _ERSftu1P;
         "pkg-1.10.2+20230506" = _EGHmGw3C;
         "pkg-1.12.2+20230506" = _uMXm535g;
         "pkg-1.14.4+20230506" = _MffiOBGi;
@@ -227,7 +240,9 @@ let
         "pkg-1.21.11+20260328" = _ic1oWSOq;
         "pkg-26.1+20260328" = _KuRiBXjr;
         "pkg-26.2+20260627" = _skNlbYOd;
-        "default" = _skNlbYOd;
+        "pkg-26.2+20260927" = _ViICTZOh;
+        "pkg-26.3+20260927" = _ERSftu1P;
+        "default" = _ERSftu1P;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kosmolots-colored-subtitles";

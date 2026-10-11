@@ -206,6 +206,16 @@ let
             "file" = "simple-night-vision-1.0.1.jar";
             "hash" = "sha512-Ducd02BfrU9DvEbwUr3N8RjWzYmggu7dKA2WC6ecpe6RAZ4NLWXaDYO7HHkHESmfFIQDu+YNMkNNbuXkLmVMxQ==";
         };
+        _CvhWCWsN = {
+            "id" = "CvhWCWsN";
+            "file" = "simple-night-vision 1.0.1 mc26.3.zip";
+            "hash" = "sha512-ckoKgvBsAeLELuxPN0deaTMohcY4XSt1KphuH908pTIvfgWhQzFGyDRnBI+bKFVb4lkD6NdT5ERe+ZdMUbzSnw==";
+        };
+        _kpavLU5H = {
+            "id" = "kpavLU5H";
+            "file" = "simple-night-vision-1.0.1.jar";
+            "hash" = "sha512-MQhRFNM6+QQs5q9Okebo2EsOHTywzSgINQ0Xb3rcmAzf8yscc2D1lDj73Onf/8tTSsnOkduVAq8/stVBM4MhEQ==";
+        };
     in {
         "VAvJqiil" = _VAvJqiil;
         "9tUp7gFS" = _9tUp7gFS;
@@ -248,6 +258,8 @@ let
         "NoaNBPb5" = _NoaNBPb5;
         "y0byfdh3" = _y0byfdh3;
         "CewwHhT9" = _CewwHhT9;
+        "CvhWCWsN" = _CvhWCWsN;
+        "kpavLU5H" = _kpavLU5H;
         "datapack-1.13" = _VAvJqiil;
         "datapack-1.13.1" = _VAvJqiil;
         "datapack-1.13.2" = _VAvJqiil;
@@ -298,6 +310,7 @@ let
         "datapack-26.1.1" = _sAcxO1va;
         "datapack-26.1.2" = _IPgrFU3T;
         "datapack-26.2" = _y0byfdh3;
+        "datapack-26.3" = _CvhWCWsN;
         "fabric-1.21" = _74xDaiKK;
         "fabric-1.21.1" = _74xDaiKK;
         "fabric-1.20.6" = _jJ7tiWYR;
@@ -319,6 +332,7 @@ let
         "fabric-26.1.1" = _FyY1xPki;
         "fabric-26.1.2" = _NoaNBPb5;
         "fabric-26.2" = _CewwHhT9;
+        "fabric-26.3" = _kpavLU5H;
         "forge-1.21" = _74xDaiKK;
         "forge-1.21.1" = _74xDaiKK;
         "forge-1.20.6" = _jJ7tiWYR;
@@ -340,6 +354,7 @@ let
         "forge-26.1.1" = _FyY1xPki;
         "forge-26.1.2" = _NoaNBPb5;
         "forge-26.2" = _CewwHhT9;
+        "forge-26.3" = _kpavLU5H;
         "neoforge-1.21" = _74xDaiKK;
         "neoforge-1.21.1" = _74xDaiKK;
         "neoforge-1.20.6" = _jJ7tiWYR;
@@ -361,6 +376,7 @@ let
         "neoforge-26.1.1" = _FyY1xPki;
         "neoforge-26.1.2" = _NoaNBPb5;
         "neoforge-26.2" = _CewwHhT9;
+        "neoforge-26.3" = _kpavLU5H;
         "quilt-1.21" = _74xDaiKK;
         "quilt-1.21.1" = _74xDaiKK;
         "quilt-1.20.6" = _jJ7tiWYR;
@@ -382,11 +398,12 @@ let
         "quilt-26.1.1" = _FyY1xPki;
         "quilt-26.1.2" = _NoaNBPb5;
         "quilt-26.2" = _CewwHhT9;
+        "quilt-26.3" = _kpavLU5H;
         "pkg-1.0.0" = _TWvnAW71;
-        "pkg-1.0.1" = _y0byfdh3;
-        "pkg-1.0.1+mod" = _CewwHhT9;
+        "pkg-1.0.1" = _CvhWCWsN;
+        "pkg-1.0.1+mod" = _kpavLU5H;
         "pkg-1.0.0+mod" = _Jxp1RxNa;
-        "default" = _CewwHhT9;
+        "default" = _kpavLU5H;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-night-vision";

@@ -51,6 +51,21 @@ let
             "file" = "tradablepotions-neoforge-26.1.2-1.1.1.jar";
             "hash" = "sha512-wSBY/t2kkE8af7xqHii43NFZUPwIfTVUtUgF4+WF0rFoPByRoimDfm0wpJw8Fy5USoYxg64kZevQ9O43mR/u4Q==";
         };
+        _JErX5Wgu = {
+            "id" = "JErX5Wgu";
+            "file" = "tradablepotions-forge-26.3-1.1.1.jar";
+            "hash" = "sha512-20s8uY2hWNnneGvg1xW+SjAlMx5PBrZp1O4K0Yb/hxdWMbPlw0TMLHBRwcbkIs3JSR7VdR+jaOv1le612BvKeQ==";
+        };
+        _7aVBDajK = {
+            "id" = "7aVBDajK";
+            "file" = "tradablepotions-neoforge-26.3-1.1.1.jar";
+            "hash" = "sha512-B8ejJkIimXKo3GcMN7rsOIqkRejgJ7gdtBONifEAurQO2KSvh1baYVWGT+D/Rk5vyCJO70lB8BBL7uug80631Q==";
+        };
+        _Kp3D8Cgj = {
+            "id" = "Kp3D8Cgj";
+            "file" = "tradablepotions-fabric-26.3-1.1.1.jar";
+            "hash" = "sha512-sQjM1bfoWmj4Qjj5+dipV0757nL6M15ipvcW646QR6C8zRLgTO4iREkzfaHd6XGv88S71uVXMJgm1SbwuvwLVA==";
+        };
     in {
         "EXedDTxy" = _EXedDTxy;
         "QArcxZOg" = _QArcxZOg;
@@ -62,6 +77,9 @@ let
         "nQ8pzFAB" = _nQ8pzFAB;
         "zi97tSXm" = _zi97tSXm;
         "TU1eIJtJ" = _TU1eIJtJ;
+        "JErX5Wgu" = _JErX5Wgu;
+        "7aVBDajK" = _7aVBDajK;
+        "Kp3D8Cgj" = _Kp3D8Cgj;
         "fabric-1.20" = _EXedDTxy;
         "fabric-1.20.1" = _EXedDTxy;
         "fabric-1.20.2" = _EXedDTxy;
@@ -85,20 +103,23 @@ let
         "fabric-26.1.1" = _nQ8pzFAB;
         "fabric-26.1.2" = _nQ8pzFAB;
         "fabric-26.2" = _nQ8pzFAB;
+        "fabric-26.3" = _Kp3D8Cgj;
         "forge-26.1" = _zi97tSXm;
         "forge-26.1.1" = _zi97tSXm;
         "forge-26.1.2" = _zi97tSXm;
         "forge-26.2" = _zi97tSXm;
+        "forge-26.3" = _JErX5Wgu;
         "neoforge-26.1" = _TU1eIJtJ;
         "neoforge-26.1.1" = _TU1eIJtJ;
         "neoforge-26.1.2" = _TU1eIJtJ;
         "neoforge-26.2" = _TU1eIJtJ;
+        "neoforge-26.3" = _7aVBDajK;
         "pkg-1.0.0" = _QArcxZOg;
         "pkg-1.0.1" = _D0dYktEZ;
         "pkg-1.0.2" = _N5vRd5HD;
         "pkg-1.1.0" = _nQ8pzFAB;
-        "pkg-1.1.1" = _TU1eIJtJ;
-        "default" = _TU1eIJtJ;
+        "pkg-1.1.1" = _Kp3D8Cgj;
+        "default" = _Kp3D8Cgj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tradable-potions";

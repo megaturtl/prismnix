@@ -226,6 +226,16 @@ let
             "file" = "petting-4.2.3-beta.4-forge-1.20.1.jar";
             "hash" = "sha512-yIIKrZLep9jYOAN5JRs0tEtONCCR3bFiPdc2B+OKpl2v1pTgnHfax1QNWuOKw0IZkFySbw33lxHuveUMdCXQhQ==";
         };
+        _dBKVub9F = {
+            "id" = "dBKVub9F";
+            "file" = "petting-4.2.3-beta.5-neoforge-1.21.1.jar";
+            "hash" = "sha512-VY6VtdiRpfvlV5sIwAGaghjokTXJ8trHVuqFJEiTduhQRBoIDgR0L/54CnLkuPII9pnUKNAOvjdd9Uty/D82UQ==";
+        };
+        _vznjfKMR = {
+            "id" = "vznjfKMR";
+            "file" = "petting-4.2.3-beta.6-forge-1.20.1.jar";
+            "hash" = "sha512-PP21YdPczQBla6hS/OHpN1RenEph7DAIZKDWtUpWK50j973UFPsOdYhkRk37QBuBsvt37p8p7DAkbTTFSJgntQ==";
+        };
     in {
         "sB0epQ9H" = _sB0epQ9H;
         "QQgR1JMD" = _QQgR1JMD;
@@ -272,7 +282,9 @@ let
         "V4hv1yFM" = _V4hv1yFM;
         "nHqdY74X" = _nHqdY74X;
         "xeZ6i0hQ" = _xeZ6i0hQ;
-        "forge-1.20.1" = _xeZ6i0hQ;
+        "dBKVub9F" = _dBKVub9F;
+        "vznjfKMR" = _vznjfKMR;
+        "forge-1.20.1" = _vznjfKMR;
         "forge-1.20.2" = _C9VuUmVv;
         "forge-1.20.3" = _C9VuUmVv;
         "forge-1.20.4" = _C9VuUmVv;
@@ -280,7 +292,7 @@ let
         "forge-1.20.6" = _C9VuUmVv;
         "forge-1.19.4" = _YMJJqDA7;
         "neoforge-1.20.6" = _QQgR1JMD;
-        "neoforge-1.21.1" = _41epJDZe;
+        "neoforge-1.21.1" = _dBKVub9F;
         "neoforge-1.21.4" = _Y1BiD8mz;
         "neoforge-1.21.8" = _yGYpMdQM;
         "fabric-1.20.1" = _V4hv1yFM;
@@ -314,7 +326,9 @@ let
         "pkg-4.2.3-beta.2" = _V4hv1yFM;
         "pkg-4.2.3-beta.3" = _nHqdY74X;
         "pkg-4.2.3-beta.4" = _xeZ6i0hQ;
-        "default" = _xeZ6i0hQ;
+        "pkg-4.2.3-beta.5" = _dBKVub9F;
+        "pkg-4.2.3-beta.6" = _vznjfKMR;
+        "default" = _vznjfKMR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "petting";

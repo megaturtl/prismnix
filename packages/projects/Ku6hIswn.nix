@@ -36,6 +36,11 @@ let
             "file" = "CSC_BKP_1_21_4_NeoForge_1_5_1_0-22_05_2025.jar";
             "hash" = "sha512-U8/vWkjVbFKWHnUnLpyj11jt2uGsvqJPGK1oUg6LkOSompRdQgk9qZfP4UxaBkBqbHjWpqikQ5nQmPKOGL4fxg==";
         };
+        _BFh1kJJW = {
+            "id" = "BFh1kJJW";
+            "file" = "CSC_BKP_26_1_2_NeoForge_1_5_1_0-2_10_2026.jar";
+            "hash" = "sha512-dwh8SQ2TPSfv0neI1lBorjuTpRauJC4WYbxDO5flfOnsPoXhv3AR0M9xMGixq1+ZjywLmu73frsT0IAYjpu04w==";
+        };
     in {
         "whtHFb3b" = _whtHFb3b;
         "oSWrDjNJ" = _oSWrDjNJ;
@@ -44,16 +49,18 @@ let
         "NpXzGvrl" = _NpXzGvrl;
         "XFqL9jN1" = _XFqL9jN1;
         "C0lKnqCn" = _C0lKnqCn;
+        "BFh1kJJW" = _BFh1kJJW;
         "forge-1.19.2" = _WDp39LL2;
         "forge-1.19.4" = _1IRjlkI6;
         "forge-1.20.1" = _NpXzGvrl;
         "neoforge-1.21.1" = _XFqL9jN1;
         "neoforge-1.21.4" = _C0lKnqCn;
+        "neoforge-26.1.2" = _BFh1kJJW;
         "pkg-1.5.0.3" = _whtHFb3b;
         "pkg-1.5.0.4" = _oSWrDjNJ;
         "pkg-1.5.0.8" = _NpXzGvrl;
-        "pkg-1.5.1.0" = _C0lKnqCn;
-        "default" = _C0lKnqCn;
+        "pkg-1.5.1.0" = _BFh1kJJW;
+        "default" = _BFh1kJJW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cross-stitch-colours";

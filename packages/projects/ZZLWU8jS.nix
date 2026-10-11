@@ -56,6 +56,11 @@ let
             "file" = "potionbundles-1.20.6-1.8.jar";
             "hash" = "sha512-IaAJlvecvl4yklrjlIMDL2XqjZYc5vUywlbpf3VSordtv5p9aibs+EryILThFoVgQoU62M6vGGQ/V9Bm68xdxw==";
         };
+        _ZJkgq7br = {
+            "id" = "ZJkgq7br";
+            "file" = "potionbundles-26.1.2-1.8.jar";
+            "hash" = "sha512-Ud7tMlpwR6XWwUYd+25+8mOmmY9T2Y1y2xgyOD8hUdkOxpcVv1Noj7MSdyvAnJ9Q37OMGlsEGMSH4II/mqpZEw==";
+        };
     in {
         "qAzBW4rj" = _qAzBW4rj;
         "CJ0dObLc" = _CJ0dObLc;
@@ -68,6 +73,7 @@ let
         "Aoqv03yK" = _Aoqv03yK;
         "OOO3yTvy" = _OOO3yTvy;
         "eEnhs7HG" = _eEnhs7HG;
+        "ZJkgq7br" = _ZJkgq7br;
         "forge-1.18.1" = _qAzBW4rj;
         "forge-1.18.2" = _qAzBW4rj;
         "forge-1.19.1" = _CJ0dObLc;
@@ -79,6 +85,9 @@ let
         "neoforge-1.20.4" = _Aoqv03yK;
         "neoforge-1.21" = _OOO3yTvy;
         "neoforge-1.20.6" = _eEnhs7HG;
+        "neoforge-26.1" = _ZJkgq7br;
+        "neoforge-26.1.1" = _ZJkgq7br;
+        "neoforge-26.1.2" = _ZJkgq7br;
         "pkg-1.5" = _qAzBW4rj;
         "pkg-1.6" = _W8LrUcrt;
         "pkg-1.7" = _XeeeEyxE;
@@ -86,7 +95,8 @@ let
         "pkg-1.20.4-1.8" = _Aoqv03yK;
         "pkg-1.21-1.8" = _OOO3yTvy;
         "pkg-1.20.6-1.8" = _eEnhs7HG;
-        "default" = _eEnhs7HG;
+        "pkg-26.1-1.8" = _ZJkgq7br;
+        "default" = _ZJkgq7br;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "potion-bundles";

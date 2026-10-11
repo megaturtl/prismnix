@@ -46,6 +46,21 @@ let
             "file" = "better_fishing-1.0.0-hotfix-neoforge-26.2.jar";
             "hash" = "sha512-iLRyHcPsTgV85XDUzO+Cdzy9zi7Jv8EqM9iTKJRL2/A+kHJXRsvw5deItymfVMAh8BbSMij4+Yjmbtp+5ylNrQ==";
         };
+        _Wt6FgMAb = {
+            "id" = "Wt6FgMAb";
+            "file" = "better_fishing-1.0.1-fabric-26.3.jar";
+            "hash" = "sha512-7Aw89WzdmFe2/Gkn6/2zyyJX3V9PCkLzKU2fIysBBueL8p4nBQhmQRZYFDW1WFDcaKC/V/xLKZSxdkPr7JXhwQ==";
+        };
+        _NeNWrQ1q = {
+            "id" = "NeNWrQ1q";
+            "file" = "better_fishing-1.0.1-forge-26.3.jar";
+            "hash" = "sha512-+M/bj2F9XZQqKN2IsmAVZ3Ug3HsJsQsyXhBxXAn5pSPhYOvDAv39J/lHd2qCu7tJNz+DFlAw+EzVEP3P67gAxA==";
+        };
+        _aWN74nS4 = {
+            "id" = "aWN74nS4";
+            "file" = "better_fishing-1.0.1-neoforge-26.3.jar";
+            "hash" = "sha512-eg6vJfLVwJyH/eepPP0rBjp0UAiYCPtXGxySju+QmD9RhtD+1Itt4pL4Lkk1GkNyokgO5Z7IowCxfAz2cDWE5w==";
+        };
     in {
         "x6tqHTS0" = _x6tqHTS0;
         "Vum51EuS" = _Vum51EuS;
@@ -56,15 +71,22 @@ let
         "NcrQcUyY" = _NcrQcUyY;
         "T3xRhoMu" = _T3xRhoMu;
         "nVB4AFHy" = _nVB4AFHy;
+        "Wt6FgMAb" = _Wt6FgMAb;
+        "NeNWrQ1q" = _NeNWrQ1q;
+        "aWN74nS4" = _aWN74nS4;
         "fabric-1.21.1" = _x6tqHTS0;
         "fabric-26.2" = _NcrQcUyY;
+        "fabric-26.3" = _Wt6FgMAb;
         "forge-1.21.1" = _Vum51EuS;
         "forge-26.2" = _T3xRhoMu;
+        "forge-26.3" = _NeNWrQ1q;
         "neoforge-1.21.1" = _PwXKcfxd;
         "neoforge-26.2" = _nVB4AFHy;
+        "neoforge-26.3" = _aWN74nS4;
         "pkg-1.0.0" = _sgcPz0KY;
         "pkg-1.0.0-hotfix" = _nVB4AFHy;
-        "default" = _nVB4AFHy;
+        "pkg-1.0.1" = _aWN74nS4;
+        "default" = _aWN74nS4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-fishing-system";

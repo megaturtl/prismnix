@@ -116,6 +116,11 @@ let
             "file" = "CobbleSpawnAlertReforged-2.8.1.jar";
             "hash" = "sha512-0D+0YJxhPQseUtxSwktl6SpOp3O17SgA946uYSP4X8bKWxKqlpq6QGKbwwiwsPDOl9meA9+iwsFZVoHgkeG9+g==";
         };
+        _XD0insvd = {
+            "id" = "XD0insvd";
+            "file" = "CobbleSpawnAlertReforged-2.9.0.jar";
+            "hash" = "sha512-7Zx/5mb/vZlbgU0IBXF5qBj2IrGQxCQiD+E8ArLjUukl8j+gpT2Vxt6u/16dac2L8lJBELNtFDk/cn4dKHcGmQ==";
+        };
     in {
         "15IFVunD" = _15IFVunD;
         "dVgCxIUI" = _dVgCxIUI;
@@ -140,7 +145,8 @@ let
         "YpXgi66e" = _YpXgi66e;
         "J84LTtsr" = _J84LTtsr;
         "WvwNl8pZ" = _WvwNl8pZ;
-        "fabric-1.21.1" = _WvwNl8pZ;
+        "XD0insvd" = _XD0insvd;
+        "fabric-1.21.1" = _XD0insvd;
         "neoforge-1.21.1" = _VI1caWDC;
         "pkg-1.0.0" = _15IFVunD;
         "pkg-1.4.0" = _ueAG21Nk;
@@ -161,7 +167,8 @@ let
         "pkg-2.7.1" = _YpXgi66e;
         "pkg-2.8.0" = _J84LTtsr;
         "pkg-2.8.1" = _WvwNl8pZ;
-        "default" = _WvwNl8pZ;
+        "pkg-2.9.0" = _XD0insvd;
+        "default" = _XD0insvd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblespawnalert-reforged";

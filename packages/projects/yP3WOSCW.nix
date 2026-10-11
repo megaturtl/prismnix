@@ -106,6 +106,16 @@ let
             "file" = "industrialdeco-1.0.2.jar";
             "hash" = "sha512-Qd8DSZORfVwhRoBzVjb/jxBqiRfGhivlDI+dz/0mBleSJrbsBnzd9I3VIMGXOLYw+SqCY4D4aVgrG1xOGf8Qww==";
         };
+        _5pAHNnkZ = {
+            "id" = "5pAHNnkZ";
+            "file" = "industrialdeco-1.1.0.jar";
+            "hash" = "sha512-CuG8amKR1lFxHO17dyqyKE9aE4L/12DsneN/BgWYtxwqzw2gPGNoDobNQmDuD7JdeW2oiPin+5fzUT/4fvMN0A==";
+        };
+        _ODMZ27VX = {
+            "id" = "ODMZ27VX";
+            "file" = "industrialdeco-1.1.0.jar";
+            "hash" = "sha512-X5FEyF3nDJzQCypjbIXpW2A6BHJ4H9ppF/yMk/lXSKmNL5uRww08JPRYvTc9lfkYjyeLbMHusqOWGV75bPkwmA==";
+        };
     in {
         "ag9ejWgI" = _ag9ejWgI;
         "Qix0YEJH" = _Qix0YEJH;
@@ -128,9 +138,11 @@ let
         "sI8LPez9" = _sI8LPez9;
         "UeLS35yV" = _UeLS35yV;
         "Ttm575OB" = _Ttm575OB;
-        "forge-1.20" = _Ttm575OB;
-        "forge-1.20.1" = _Ttm575OB;
-        "neoforge-1.21.1" = _UeLS35yV;
+        "5pAHNnkZ" = _5pAHNnkZ;
+        "ODMZ27VX" = _ODMZ27VX;
+        "forge-1.20" = _ODMZ27VX;
+        "forge-1.20.1" = _ODMZ27VX;
+        "neoforge-1.21.1" = _5pAHNnkZ;
         "pkg-0.0.1" = _ag9ejWgI;
         "pkg-0.0.2" = _Qix0YEJH;
         "pkg-0.0.3" = _g3QX13yS;
@@ -146,7 +158,8 @@ let
         "pkg-1.0.0" = _QHgaoM2q;
         "pkg-1.0.1" = _sI8LPez9;
         "pkg-1.0.2" = _Ttm575OB;
-        "default" = _Ttm575OB;
+        "pkg-1.1.0" = _ODMZ27VX;
+        "default" = _ODMZ27VX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "industrialdeco";

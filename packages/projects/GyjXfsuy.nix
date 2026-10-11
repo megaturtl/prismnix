@@ -26,25 +26,34 @@ let
             "file" = "RČ Pack.zip";
             "hash" = "sha512-tC249kU7FOsGxvJG6ehHI1IZmuzshH0XNXtLiQyGfTl7ToUTh2eg4jE4R72leuTB95WNxObHbB20PhFmp1seug==";
         };
+        _8EWKekI7 = {
+            "id" = "8EWKekI7";
+            "file" = "RČ Pack.zip";
+            "hash" = "sha512-NUBJ9GJ3k8s+vKmu19NTPgIMMJRoE6bWV8NKYXgfZC0zitSLy+RcAd/VcWTKxBbZpWDeCUy0vZCxvW3DO007hg==";
+        };
     in {
         "7RUmA1UW" = _7RUmA1UW;
         "TvPiGw3l" = _TvPiGw3l;
         "38tNykOL" = _38tNykOL;
         "yJ4W9ZTl" = _yJ4W9ZTl;
         "gysD7W6S" = _gysD7W6S;
-        "minecraft-1.17.1" = _gysD7W6S;
-        "minecraft-1.18.2" = _gysD7W6S;
-        "minecraft-1.19.2" = _gysD7W6S;
-        "minecraft-1.19.4" = _gysD7W6S;
-        "minecraft-1.20.1" = _gysD7W6S;
-        "minecraft-1.20.4" = _gysD7W6S;
+        "8EWKekI7" = _8EWKekI7;
+        "minecraft-1.17.1" = _8EWKekI7;
+        "minecraft-1.18.2" = _8EWKekI7;
+        "minecraft-1.19.2" = _8EWKekI7;
+        "minecraft-1.19.4" = _8EWKekI7;
+        "minecraft-1.20.1" = _8EWKekI7;
+        "minecraft-1.20.4" = _8EWKekI7;
         "minecraft-1.16.5" = _TvPiGw3l;
+        "minecraft-1.21.1" = _8EWKekI7;
+        "minecraft-1.21.4" = _8EWKekI7;
         "pkg-1" = _7RUmA1UW;
         "pkg-2" = _TvPiGw3l;
         "pkg-2.1" = _38tNykOL;
         "pkg-2.2.0" = _yJ4W9ZTl;
         "pkg-2.2.1" = _gysD7W6S;
-        "default" = _gysD7W6S;
+        "pkg-2.3" = _8EWKekI7;
+        "default" = _8EWKekI7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rc-pack";

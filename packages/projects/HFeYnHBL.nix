@@ -161,6 +161,11 @@ let
             "file" = "BreadHungerBar26.2.zip";
             "hash" = "sha512-MFGKWOYLppaH/is+zxb5inW3M/FFt6i/kTHDVM54oiHoy7WBFqQhDx/rKK002Y8SG9Eam+Z2bqcO7Pvg63xIFw==";
         };
+        _jLupz18z = {
+            "id" = "jLupz18z";
+            "file" = "BreadHungerBar26.3.zip";
+            "hash" = "sha512-rcj66NdSyM2Ppwz5TDgTJ/+Q333zyTQXElv81CPumEMLGWJLRJjjLIF2SEYelrph47IT5T3vKqdoWmVl7M1aTw==";
+        };
     in {
         "6uG8gbU1" = _6uG8gbU1;
         "eVz4bSlH" = _eVz4bSlH;
@@ -194,6 +199,7 @@ let
         "2Jpw30PJ" = _2Jpw30PJ;
         "OnazdvDB" = _OnazdvDB;
         "SmDiYHGk" = _SmDiYHGk;
+        "jLupz18z" = _jLupz18z;
         "minecraft-1.0" = _6uG8gbU1;
         "minecraft-1.1" = _6uG8gbU1;
         "minecraft-1.2.1" = _6uG8gbU1;
@@ -301,6 +307,7 @@ let
         "minecraft-26.1.1" = _OnazdvDB;
         "minecraft-26.1.2" = _OnazdvDB;
         "minecraft-26.2" = _SmDiYHGk;
+        "minecraft-26.3" = _jLupz18z;
         "pkg-0.0.0" = _6uG8gbU1;
         "pkg-1.0.0" = _eVz4bSlH;
         "pkg-1.1.0" = _JwhGEqL2;
@@ -333,7 +340,8 @@ let
         "pkg-75.0.0" = _2Jpw30PJ;
         "pkg-84.0.0" = _OnazdvDB;
         "pkg-88.0.0" = _SmDiYHGk;
-        "default" = _SmDiYHGk;
+        "pkg-97.0.0" = _jLupz18z;
+        "default" = _jLupz18z;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bread-hunger-bar";

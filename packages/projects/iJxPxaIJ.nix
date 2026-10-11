@@ -96,6 +96,11 @@ let
             "file" = "ManaitaMTK-1.7.3.jar";
             "hash" = "sha512-CDzvynaVW88pqnC9yTZvNQIbbPrwDvC218vSXoFcG/CZO8E2qVxSZmMIjC8SH606fpfSuPcCvXFqso//UROr+w==";
         };
+        _h6zTrlIB = {
+            "id" = "h6zTrlIB";
+            "file" = "ManaitaMTK-1.7.4.jar";
+            "hash" = "sha512-UDWITipsw9uoxXOBTMfbMxAzIXiPZRRVS4Qh2aH91l0Qt8MFy7sQx06SthwvPpYArJfaw/VnMWplEC65oFGV0g==";
+        };
     in {
         "l0TP7OUx" = _l0TP7OUx;
         "2uyP7MQ1" = _2uyP7MQ1;
@@ -116,7 +121,8 @@ let
         "3NYnLFJP" = _3NYnLFJP;
         "kgLseT27" = _kgLseT27;
         "HqGpaSfC" = _HqGpaSfC;
-        "forge-1.20.1" = _HqGpaSfC;
+        "h6zTrlIB" = _h6zTrlIB;
+        "forge-1.20.1" = _h6zTrlIB;
         "pkg-1.0.0" = _l0TP7OUx;
         "pkg-1.1.0" = _2uyP7MQ1;
         "pkg-1.2.0" = _b7IAgvc1;
@@ -136,7 +142,8 @@ let
         "pkg-1.7.1" = _3NYnLFJP;
         "pkg-1.7.2" = _kgLseT27;
         "pkg-1.7.3" = _HqGpaSfC;
-        "default" = _HqGpaSfC;
+        "pkg-1.7.4" = _h6zTrlIB;
+        "default" = _h6zTrlIB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "manaitamtk";

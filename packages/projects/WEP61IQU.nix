@@ -361,6 +361,31 @@ let
             "file" = "AutoAim-2.0.0-NeoForge+mc1.21.jar";
             "hash" = "sha512-V0amzn4EOJob7y8O7Koqfze+ByBFLzLvK2/nnNvu6zX18RikHY2S+vXSh4OacuRsNili6LPm1wNpuwNWX5teSQ==";
         };
+        _O9TeQXrf = {
+            "id" = "O9TeQXrf";
+            "file" = "AutoAim-2.0.5-Fabric+mc26.3.jar";
+            "hash" = "sha512-5VvRpRATBAfOJ1oVvdG8xFTDzYmxyrDNL1iCvWpD+vF7F29z3pViY5WQBlHkYevIByBqbnfC2tSrr/zt7LTIkw==";
+        };
+        _jr7AAQx6 = {
+            "id" = "jr7AAQx6";
+            "file" = "AutoAim-3.0.0-Fabric+mc26.3.jar";
+            "hash" = "sha512-7wCybF+HrlnLMh++9658676hF7pyY0ZaSMtdnLxINtImmI4kBxCClzcOQVebk6btCXF8NjCyHsCZjPGhsbmX7w==";
+        };
+        _XhUnnYVh = {
+            "id" = "XhUnnYVh";
+            "file" = "AutoAim-3.0.0-Forge+mc26.3.jar";
+            "hash" = "sha512-7adFu2AQfSN3m5/YXrO5wZRTk1yuNJP0nKxCAh0fV2+CC62P95UtsLfjPKbg+tCw1GVvByPi0n3BJncRbSyddg==";
+        };
+        _svBpCRxR = {
+            "id" = "svBpCRxR";
+            "file" = "AutoAim-3.0.0-NeoForge+mc26.3.jar";
+            "hash" = "sha512-Kv20kzM2Jmq/RWG922bd2RWit+2WPIIdD9v1FJU4mNVUHgfwpZccxAlYAoRL94M4zVx+9+KWY1ZqozWhG5zu2g==";
+        };
+        _nbrM5puD = {
+            "id" = "nbrM5puD";
+            "file" = "AutoAim-3.0.0-Quilt+mc26.3.jar";
+            "hash" = "sha512-7wCybF+HrlnLMh++9658676hF7pyY0ZaSMtdnLxINtImmI4kBxCClzcOQVebk6btCXF8NjCyHsCZjPGhsbmX7w==";
+        };
     in {
         "ecgQiYJ2" = _ecgQiYJ2;
         "EacWwbjI" = _EacWwbjI;
@@ -434,6 +459,11 @@ let
         "2cPn9ydS" = _2cPn9ydS;
         "27WowZj3" = _27WowZj3;
         "SQUxvfhX" = _SQUxvfhX;
+        "O9TeQXrf" = _O9TeQXrf;
+        "jr7AAQx6" = _jr7AAQx6;
+        "XhUnnYVh" = _XhUnnYVh;
+        "svBpCRxR" = _svBpCRxR;
+        "nbrM5puD" = _nbrM5puD;
         "fabric-26.1.2" = _pZElRSSL;
         "fabric-26.2" = _qWIZHlYv;
         "fabric-26.1.1" = _PemUEAFs;
@@ -467,6 +497,7 @@ let
         "fabric-1.18" = _7fw4lCF8;
         "fabric-1.17.1" = _nrUyP1z6;
         "fabric-1.17" = _zwLv41lQ;
+        "fabric-26.3" = _jr7AAQx6;
         "forge-26.2" = _YTKwWE7B;
         "forge-26.1.2" = _pUVrK7du;
         "forge-26.1.1" = _hf41JfgY;
@@ -488,6 +519,7 @@ let
         "forge-1.20.2" = _NLotPS4K;
         "forge-1.20.1" = _fsgWRAR6;
         "forge-1.20" = _4fNz8vYr;
+        "forge-26.3" = _XhUnnYVh;
         "neoforge-26.2" = _QV6YTSMA;
         "neoforge-26.1.2" = _gjdAfL4E;
         "neoforge-26.1.1" = _kKNzncoX;
@@ -504,9 +536,13 @@ let
         "neoforge-1.21.2" = _2cPn9ydS;
         "neoforge-1.21.1" = _27WowZj3;
         "neoforge-1.21" = _SQUxvfhX;
+        "neoforge-26.3" = _svBpCRxR;
+        "quilt-26.3" = _nbrM5puD;
         "pkg-1.0.1" = _EacWwbjI;
         "pkg-2.0.0" = _SQUxvfhX;
-        "default" = _SQUxvfhX;
+        "pkg-2.0.5" = _O9TeQXrf;
+        "pkg-3.0.0" = _nbrM5puD;
+        "default" = _nbrM5puD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "autoaim";

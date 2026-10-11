@@ -566,6 +566,16 @@ let
             "file" = "soundattract-6.3.3b.jar";
             "hash" = "sha512-7tATLFqLCl3QTYyscXwrX7x+7U4vtnGBVes0dlWCERClSw617pTSmKeUk6Vvc5jHd9OXUdA4MRIDDDzGFnRN3g==";
         };
+        _T1A5y2Mz = {
+            "id" = "T1A5y2Mz";
+            "file" = "soundattract-6.3.4.jar";
+            "hash" = "sha512-xNziS03Um9KVVF3SjoF8yx60au1gq9NmXy1abvhJaTFmJHaKaXLpkkv+bFmmiv1/z6BvJCSv3fkrEMjCIPI9vA==";
+        };
+        _Q6Zjy2Yu = {
+            "id" = "Q6Zjy2Yu";
+            "file" = "forge_soundattract_1.20.1-7.0.0.jar";
+            "hash" = "sha512-trIos5v5/vuX8/+rrDlbW5EcyXb0A4d7Aw4F9azyfQIfw7wgB0Yf9wDqX1R2EZ4JHvdbjuh8KKUxxJGu3C6hcg==";
+        };
     in {
         "4Z7xgC5k" = _4Z7xgC5k;
         "rrWHVsF4" = _rrWHVsF4;
@@ -680,15 +690,17 @@ let
         "3gh6eqU7" = _3gh6eqU7;
         "gCBXBgLy" = _gCBXBgLy;
         "HeN6cwOK" = _HeN6cwOK;
+        "T1A5y2Mz" = _T1A5y2Mz;
+        "Q6Zjy2Yu" = _Q6Zjy2Yu;
         "forge-1.18" = _rrWHVsF4;
         "forge-1.18.1" = _rrWHVsF4;
         "forge-1.18.2" = _1zpBdUOH;
         "forge-1.19" = _kkbU9NQ5;
         "forge-1.19.1" = _kkbU9NQ5;
         "forge-1.19.2" = _JSt8rmuD;
-        "forge-1.20.1" = _8gTrVBFZ;
+        "forge-1.20.1" = _Q6Zjy2Yu;
         "forge-1.20" = _wJbAD1ZH;
-        "fabric-1.20.1" = _HeN6cwOK;
+        "fabric-1.20.1" = _T1A5y2Mz;
         "fabric-1.21.1" = _lp3crQww;
         "neoforge-1.21.1" = _gCBXBgLy;
         "neoforge-1.21.11" = _KH70ACvO;
@@ -747,7 +759,7 @@ let
         "pkg-6.3.1" = _tizJHiEw;
         "pkg-6.3.2" = _VrwLOCeY;
         "pkg-6.3.3" = _lp3crQww;
-        "pkg-6.3.4" = _enDZqLLs;
+        "pkg-6.3.4" = _T1A5y2Mz;
         "pkg-6.3.5" = _vYFw5i64;
         "pkg-6.3.6" = _sKFFNYLy;
         "pkg-6.3.7" = _ZbPzlVti;
@@ -756,7 +768,8 @@ let
         "pkg-6.3.8c" = _3gh6eqU7;
         "pkg-6.3.8d" = _gCBXBgLy;
         "pkg-6.3.3b" = _HeN6cwOK;
-        "default" = _HeN6cwOK;
+        "pkg-7.0.0" = _Q6Zjy2Yu;
+        "default" = _Q6Zjy2Yu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "attract-to-sound";

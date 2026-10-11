@@ -51,6 +51,26 @@ let
             "file" = "toons-mons-1.6.jar";
             "hash" = "sha512-4+7QKr3j2RMG6t8+1NHh3U846ad64fzVdBajh6XYQFQ74K86KdTt4KTl2/1xkOCubnXgzYiMOdNFqz547B+weA==";
         };
+        _YvSnSg5x = {
+            "id" = "YvSnSg5x";
+            "file" = "Toon's Mons.zip";
+            "hash" = "sha512-On+Tq+KsVcBpGOSsb09WJTj2lY8+roG5olVjihlbJUE+5GQvDODLMtCm0frHbjOY0v9VjD9CJlOucFgC4gOFYQ==";
+        };
+        _LuaZZhG2 = {
+            "id" = "LuaZZhG2";
+            "file" = "toons-mons-1.7.jar";
+            "hash" = "sha512-kB+T8tQswlVuyXE5rZlnJGeE7IW7GLUn6QaC9vviFpG+cP3PoAlz6d0wy0hC5guwEdystPgWNBN1Bu8OTgdLxw==";
+        };
+        _lZ3fFvxG = {
+            "id" = "lZ3fFvxG";
+            "file" = "Toon's Mons.zip";
+            "hash" = "sha512-1gCjOQsCYT5ytXON2cdRAnf8Iu3SbmDkhHr04UWIQ0NTARTPhdBInR6RSls5Cl+8psCXVuV0ZQGsIQFaDHINyg==";
+        };
+        _R9ktZEbw = {
+            "id" = "R9ktZEbw";
+            "file" = "toons-mons-1.7.1.jar";
+            "hash" = "sha512-GI3vs5n163LZvYBHk59lRKukT4N7yJ6TbzpXSVlBrS9x53srWvXgLXGfu9Tf9sDKm0NqGP6H8eOcD4A2piuUeA==";
+        };
     in {
         "8FYMCszi" = _8FYMCszi;
         "5G9Tujkl" = _5G9Tujkl;
@@ -62,6 +82,10 @@ let
         "XAJW46mx" = _XAJW46mx;
         "JJm8I6If" = _JJm8I6If;
         "QHq0GOwd" = _QHq0GOwd;
+        "YvSnSg5x" = _YvSnSg5x;
+        "LuaZZhG2" = _LuaZZhG2;
+        "lZ3fFvxG" = _lZ3fFvxG;
+        "R9ktZEbw" = _R9ktZEbw;
         "datapack-1.20" = _5G9Tujkl;
         "datapack-1.20.1" = _8FYMCszi;
         "datapack-1.20.2" = _8FYMCszi;
@@ -70,14 +94,14 @@ let
         "datapack-1.20.5" = _8FYMCszi;
         "datapack-1.20.6" = _5G9Tujkl;
         "datapack-1.21" = _LmJjdKDs;
-        "datapack-1.21.1" = _JJm8I6If;
+        "datapack-1.21.1" = _lZ3fFvxG;
         "datapack-1.21.2" = _LFKkBcaO;
         "datapack-1.21.3" = _LFKkBcaO;
         "datapack-1.21.4" = _LFKkBcaO;
-        "minecraft-1.21.1" = _JJm8I6If;
-        "fabric-1.21.1" = _QHq0GOwd;
-        "forge-1.21.1" = _QHq0GOwd;
-        "neoforge-1.21.1" = _QHq0GOwd;
+        "minecraft-1.21.1" = _lZ3fFvxG;
+        "fabric-1.21.1" = _R9ktZEbw;
+        "forge-1.21.1" = _R9ktZEbw;
+        "neoforge-1.21.1" = _R9ktZEbw;
         "quilt-1.21.1" = _QHq0GOwd;
         "pkg-1.1.0" = _8FYMCszi;
         "pkg-1.2.0" = _5G9Tujkl;
@@ -89,7 +113,11 @@ let
         "pkg-1.5.1+mod" = _XAJW46mx;
         "pkg-1.6" = _JJm8I6If;
         "pkg-1.6+mod" = _QHq0GOwd;
-        "default" = _QHq0GOwd;
+        "pkg-1.7" = _YvSnSg5x;
+        "pkg-1.7+mod" = _LuaZZhG2;
+        "pkg-1.7.1" = _lZ3fFvxG;
+        "pkg-1.7.1+mod" = _R9ktZEbw;
+        "default" = _R9ktZEbw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "toons-mons";

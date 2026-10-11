@@ -236,6 +236,46 @@ let
             "file" = "mythsandlegends-1.0.2.jar";
             "hash" = "sha512-OjAlOv7X/Ml1Kcm+UBViqUeOlTedULOqB9eKRy6SutIbg+BhHvCQWuISkN/Kr4U5xwMG3L9ADMgm8mgZi3tWLw==";
         };
+        _aIYPGJQx = {
+            "id" = "aIYPGJQx";
+            "file" = "mythsandlegends-1.0.3.jar";
+            "hash" = "sha512-BfihkW4F0rueUsuSsd4o6K5nhCaadc3rNoPLLk81sBMeSpr4ukCQ2ln2eVHOzgjdVzxASthRKJiVaqLxppJ2Og==";
+        };
+        _i2XwMA58 = {
+            "id" = "i2XwMA58";
+            "file" = "mythsandlegends-1.0.6.jar";
+            "hash" = "sha512-Z9aP/jiUyGoaOIRbHWNSN1S5GTu9gjkpWO2wbkZAYxrBn13h4PNhmJ5m71JJGJJXXYQmxZRuSCzP8b75qeMo4Q==";
+        };
+        _2NH5jBAD = {
+            "id" = "2NH5jBAD";
+            "file" = "mythsandlegends-1.0.7.jar";
+            "hash" = "sha512-rDXARqAAKmjmD87GPec8x2aK0sB2seDbaf7olBWPQixE1Mn4E/WIZ+C5lVDv4e72xBmTXygHSD+QPx+M9NBc8Q==";
+        };
+        _WMTtDEK1 = {
+            "id" = "WMTtDEK1";
+            "file" = "mythsandlegends-1.0.8.jar";
+            "hash" = "sha512-8J9ZNdoMM84ufc1M4NXJYKcGOgta1+gWGVrNQEoH6TOQ0H9jpFBnObkCZHsH7mabr6dVyH4lBJou0lCBmgUMGg==";
+        };
+        _ZYeZQ4VO = {
+            "id" = "ZYeZQ4VO";
+            "file" = "mythsandlegends-1.0.4.jar";
+            "hash" = "sha512-aygaB7rJD5H3jy8CCkJmoxvcch0tI0L0xkaj2dnGLE7bXJh3ZJAtXFO1U95fe7+3BQ9iCSnNtCIovwTMq1pi6g==";
+        };
+        _eJ17DSpk = {
+            "id" = "eJ17DSpk";
+            "file" = "mythsandlegends-1.0.5.jar";
+            "hash" = "sha512-bryqhECS8Hnd4crJiwhJdOmX9gjLkDsRCXZbAjRtNLLs3i0OtS+CACigcdNKFY70hBiNh8QiReoIq/79eYp3XQ==";
+        };
+        _J9qH2IC8 = {
+            "id" = "J9qH2IC8";
+            "file" = "mythsandlegends-1.0.6.jar";
+            "hash" = "sha512-pDl7cAP0Lg4tYGKz7JmAlWJ9+p3+RK7IkHSJtZJ8YbQ42BenBwOA11eZ57MiCGVhByXknJDZg+U09Ujj7zpF1g==";
+        };
+        _BdYLfbs2 = {
+            "id" = "BdYLfbs2";
+            "file" = "mythsandlegends-1.0.9.jar";
+            "hash" = "sha512-RkxNLpo6v02EZe3ZhuRFfVn6wCLHHVPPE1frCa4mAkccgLNUm6/URUmHPkWqbicZuNglW96vPIL9pVrOSjoV7g==";
+        };
     in {
         "hdmLNmwA" = _hdmLNmwA;
         "dRDs7kbh" = _dRDs7kbh;
@@ -284,13 +324,21 @@ let
         "yiKP4zwJ" = _yiKP4zwJ;
         "Es3WgcoQ" = _Es3WgcoQ;
         "8VncSTlL" = _8VncSTlL;
+        "aIYPGJQx" = _aIYPGJQx;
+        "i2XwMA58" = _i2XwMA58;
+        "2NH5jBAD" = _2NH5jBAD;
+        "WMTtDEK1" = _WMTtDEK1;
+        "ZYeZQ4VO" = _ZYeZQ4VO;
+        "eJ17DSpk" = _eJ17DSpk;
+        "J9qH2IC8" = _J9qH2IC8;
+        "BdYLfbs2" = _BdYLfbs2;
         "forge-1.21.1" = _2P7zF9WL;
         "forge-1.21.2" = _2P7zF9WL;
         "forge-1.21.3" = _2P7zF9WL;
-        "forge-1.20.1" = _8VncSTlL;
+        "forge-1.20.1" = _J9qH2IC8;
         "forge-1.21.4" = _1CJdxdaQ;
         "neoforge-1.21" = _gLiTJksI;
-        "neoforge-1.21.1" = _Es3WgcoQ;
+        "neoforge-1.21.1" = _BdYLfbs2;
         "pkg-0.0.1" = _hdmLNmwA;
         "pkg-0.0.2" = _45YDZPri;
         "pkg-0.0.3" = _1SquGeTV;
@@ -316,10 +364,14 @@ let
         "pkg-1.0.0" = _n9B8vYvk;
         "pkg-1.0.1" = _y5eklx4t;
         "pkg-1.0.2" = _8VncSTlL;
-        "pkg-1.0.3" = _uvUZ3I1v;
-        "pkg-1.0.4" = _yiKP4zwJ;
-        "pkg-1.0.5" = _Es3WgcoQ;
-        "default" = _8VncSTlL;
+        "pkg-1.0.3" = _aIYPGJQx;
+        "pkg-1.0.4" = _ZYeZQ4VO;
+        "pkg-1.0.5" = _eJ17DSpk;
+        "pkg-1.0.6" = _J9qH2IC8;
+        "pkg-1.0.7" = _2NH5jBAD;
+        "pkg-1.0.8" = _WMTtDEK1;
+        "pkg-1.0.9" = _BdYLfbs2;
+        "default" = _BdYLfbs2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "myths-and-legends";

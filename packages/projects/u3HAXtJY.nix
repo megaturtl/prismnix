@@ -46,6 +46,11 @@ let
             "file" = "PartyFlames-2.0.0-1.26.2.jar";
             "hash" = "sha512-pf6KwBgL6kE7xqXCmJAiJ1pJTkNVnS7nTGWFASZ04e6Rus/EkOjiixM/iPjF63YJgGMqt4ogWvxgEdANMYIuOQ==";
         };
+        _r12iojTB = {
+            "id" = "r12iojTB";
+            "file" = "PartyFlames-2.0.1-1.26.3.jar";
+            "hash" = "sha512-tpRDJ7LolHL++2u2ng2nkPaMHGbocpBPtdpNOcvTRYgIFDk9dUH1g5Dg/SN7LPKYhcf/iOYwEXorr9NVGelqcg==";
+        };
     in {
         "JfBw8OIv" = _JfBw8OIv;
         "BupsHKKg" = _BupsHKKg;
@@ -56,6 +61,7 @@ let
         "VN6BZaG7" = _VN6BZaG7;
         "mrZT7Dee" = _mrZT7Dee;
         "SvBrkxk3" = _SvBrkxk3;
+        "r12iojTB" = _r12iojTB;
         "fabric-1.21" = _JfBw8OIv;
         "fabric-1.21.1" = _JfBw8OIv;
         "fabric-1.21.2" = _BupsHKKg;
@@ -72,6 +78,7 @@ let
         "fabric-26.1.1" = _mrZT7Dee;
         "fabric-26.1.2" = _mrZT7Dee;
         "fabric-26.2" = _SvBrkxk3;
+        "fabric-26.3" = _r12iojTB;
         "pkg-1.0.0-1.21" = _JfBw8OIv;
         "pkg-1.1.0-1.21.2" = _BupsHKKg;
         "pkg-1.2.0-1.21.4" = _eiK7ouuY;
@@ -81,7 +88,8 @@ let
         "pkg-1.2.2-1.21.11" = _VN6BZaG7;
         "pkg-2.0.0-1.26.1" = _mrZT7Dee;
         "pkg-2.0.0-1.26.2" = _SvBrkxk3;
-        "default" = _SvBrkxk3;
+        "pkg-2.0.1-1.26.3" = _r12iojTB;
+        "default" = _r12iojTB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "party-flames";

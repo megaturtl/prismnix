@@ -121,6 +121,11 @@ let
             "file" = "HopperTheHedgehog-3.1.1-1.26.2.jar";
             "hash" = "sha512-dMAlD9sBEYo2n5SZKgCrbyIHBoXdbZx2qG+/H8tmTzmBd4OW6xXAXGP7d33EYRSBDujtG3DUFSghDoRyzvQLxQ==";
         };
+        _hxfGh4wr = {
+            "id" = "hxfGh4wr";
+            "file" = "HopperTheHedgehog-3.1.2-1.26.3.jar";
+            "hash" = "sha512-KGXq/Dcx+cSw1Uv7sR+07NnYLsCHfWUR5yYE7VT2DAbj8Lvna2vIiukszEPCtDmzV5WnXme7o1J7FOe8oKtRqQ==";
+        };
     in {
         "zNi4lkai" = _zNi4lkai;
         "2zUnFPpI" = _2zUnFPpI;
@@ -146,6 +151,7 @@ let
         "U8PARUSp" = _U8PARUSp;
         "TesdPV9q" = _TesdPV9q;
         "BTD5NaRO" = _BTD5NaRO;
+        "hxfGh4wr" = _hxfGh4wr;
         "fabric-1.19" = _pbJk0WLi;
         "fabric-1.19.1" = _pbJk0WLi;
         "fabric-1.19.2" = _pbJk0WLi;
@@ -174,6 +180,7 @@ let
         "fabric-26.1.1" = _U8PARUSp;
         "fabric-26.1.2" = _U8PARUSp;
         "fabric-26.2" = _BTD5NaRO;
+        "fabric-26.3" = _hxfGh4wr;
         "pkg-1.0.0" = _zNi4lkai;
         "pkg-1.0.1" = _2zUnFPpI;
         "pkg-1.1.1" = _pbJk0WLi;
@@ -197,7 +204,8 @@ let
         "pkg-3.0.0-1.26.1" = _U8PARUSp;
         "pkg-3.1.0-1.26.2" = _TesdPV9q;
         "pkg-3.1.1-1.26.2" = _BTD5NaRO;
-        "default" = _BTD5NaRO;
+        "pkg-3.1.2-1.26.3" = _hxfGh4wr;
+        "default" = _hxfGh4wr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hopper-the-hedgehog";

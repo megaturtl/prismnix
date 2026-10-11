@@ -21,18 +21,32 @@ let
             "file" = "sauce-1.21.1-0.0.50.jar";
             "hash" = "sha512-pgfPElTQb48A6fLqBftF3POn6VP8OPMw6lWR9jhKckZlDkTZjak90yHpAfCAcRfPSQ7WRUacPsUELwMA32hn5g==";
         };
+        _QfZEiMMs = {
+            "id" = "QfZEiMMs";
+            "file" = "sauce-1.21.1-0.0.61.jar";
+            "hash" = "sha512-4smwkgEViPqB1739WIXohU6Am8KvyF6G0tnXPv/77djFmCzHK79hVqEgxGt2WIaG/Dd1Fj5heR07BU09oNmeCQ==";
+        };
+        _gveR4LCK = {
+            "id" = "gveR4LCK";
+            "file" = "sauce-1.21.1-0.0.62.jar";
+            "hash" = "sha512-b/4nuuOisHVeBBFqQteH0beEe/ov7ysjZbzQEDV0RE4ooTrMmUKOIo9NXunEdecwQp5h61ZwfqrJLbH4kaH6Sg==";
+        };
     in {
         "1XG1tqtZ" = _1XG1tqtZ;
         "IpsHKx9x" = _IpsHKx9x;
         "Xt9kUIq8" = _Xt9kUIq8;
         "uIzZ8Lrj" = _uIzZ8Lrj;
-        "neoforge-1.21" = _uIzZ8Lrj;
-        "neoforge-1.21.1" = _uIzZ8Lrj;
+        "QfZEiMMs" = _QfZEiMMs;
+        "gveR4LCK" = _gveR4LCK;
+        "neoforge-1.21" = _gveR4LCK;
+        "neoforge-1.21.1" = _gveR4LCK;
         "pkg-0.0.32" = _1XG1tqtZ;
         "pkg-0.0.42" = _IpsHKx9x;
         "pkg-0.0.47" = _Xt9kUIq8;
         "pkg-0.0.50" = _uIzZ8Lrj;
-        "default" = _uIzZ8Lrj;
+        "pkg-0.0.61" = _QfZEiMMs;
+        "pkg-0.0.62" = _gveR4LCK;
+        "default" = _gveR4LCK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sauce-lib";

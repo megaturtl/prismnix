@@ -41,6 +41,11 @@ let
             "file" = "Mini Items.zip";
             "hash" = "sha512-nkmkVMyO+vqIp/UpimJD8kQGDSbzQ1AT6fsw4VGFky02oW1JHFmqWqXSzdM3kI8pPnZtC/LFCtRO4Or5MrpKhQ==";
         };
+        _ozRtRWNt = {
+            "id" = "ozRtRWNt";
+            "file" = "Mini Items.zip";
+            "hash" = "sha512-b5IKIcSBPXITTLB78u8JfKfIIkVuMBeNnS/RxDlfZfGqVuRki6kYQCprM/EWfHVkNxNyzNahrIj8VmbjGq7sBw==";
+        };
     in {
         "Y2WutvPB" = _Y2WutvPB;
         "e82xRixz" = _e82xRixz;
@@ -50,6 +55,7 @@ let
         "xK6HQsdL" = _xK6HQsdL;
         "jyJbZsEP" = _jyJbZsEP;
         "MxyXY5ax" = _MxyXY5ax;
+        "ozRtRWNt" = _ozRtRWNt;
         "minecraft-1.8.9" = _Y2WutvPB;
         "minecraft-1.20" = _e82xRixz;
         "minecraft-1.20.1" = _e82xRixz;
@@ -67,11 +73,14 @@ let
         "minecraft-1.21.6" = _eG1rlONF;
         "minecraft-1.21.7" = _eG1rlONF;
         "minecraft-1.21.8" = _eG1rlONF;
-        "minecraft-1.21.9" = _MxyXY5ax;
-        "minecraft-1.21.10" = _MxyXY5ax;
-        "minecraft-1.21.11" = _MxyXY5ax;
-        "minecraft-26.1" = _MxyXY5ax;
-        "minecraft-26.1.1" = _MxyXY5ax;
+        "minecraft-1.21.9" = _ozRtRWNt;
+        "minecraft-1.21.10" = _ozRtRWNt;
+        "minecraft-1.21.11" = _ozRtRWNt;
+        "minecraft-26.1" = _ozRtRWNt;
+        "minecraft-26.1.1" = _ozRtRWNt;
+        "minecraft-26.1.2" = _ozRtRWNt;
+        "minecraft-26.2" = _ozRtRWNt;
+        "minecraft-26.3" = _ozRtRWNt;
         "pkg-1.0.0" = _Y2WutvPB;
         "pkg-1.2.0" = _BN8O6z46;
         "pkg-1.3.0" = _xk956I3g;
@@ -79,7 +88,8 @@ let
         "pkg-1.5.0" = _xK6HQsdL;
         "pkg-1.6.0" = _jyJbZsEP;
         "pkg-1.7.0" = _MxyXY5ax;
-        "default" = _MxyXY5ax;
+        "pkg-1.9.0" = _ozRtRWNt;
+        "default" = _ozRtRWNt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mini-items-pack";

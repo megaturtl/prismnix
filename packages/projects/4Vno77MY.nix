@@ -251,6 +251,26 @@ let
             "file" = "letsdo-bloomingnature-fabric-1.1.10.jar";
             "hash" = "sha512-JTkPWVcqrc8g/2vJxD0WTBexzmojOCBjHwDsaiI0GAeUDkQ3b3gYQZdjZJu8ycr5rG9v4qQQTtTqiVinh/tE2w==";
         };
+        _rX2cLHMJ = {
+            "id" = "rX2cLHMJ";
+            "file" = "letsdo-bloomingnature-neoforge-1.1.11.jar";
+            "hash" = "sha512-SyEaWpw9Th4vyI411BGmIHgUC/+5R/Q+0aSehe3RWkUzg0DoTv1LSb8lZlXn0OQtkdDErvNra+1yD3Wuq81IpA==";
+        };
+        _UCozRXqE = {
+            "id" = "UCozRXqE";
+            "file" = "letsdo-bloomingnature-fabric-1.1.11.jar";
+            "hash" = "sha512-QqGsI8RvQhp3nt3509UXWrAzQnDY3MR6vNO66BR8gJZ2+72uzxySi43jyZc8zl6BL34yuI0MpqRuTO1CrTPmBA==";
+        };
+        _EKgADGat = {
+            "id" = "EKgADGat";
+            "file" = "letsdo-bloomingnature-neoforge-1.1.12.jar";
+            "hash" = "sha512-dp0hkBr5f+hDStLVlI5djBRBQfgJSVQqd6LDJ/d+b+akVH+p27dr2xbUYHPWW+YYl0p/P8gCa2kCGu/WlZUMQA==";
+        };
+        _IdlNUFbp = {
+            "id" = "IdlNUFbp";
+            "file" = "letsdo-bloomingnature-fabric-1.1.12.jar";
+            "hash" = "sha512-ZLG+8OwDC8+BUq/VST0lHiadK4Q82NcVPryVFZcA9rhyBcz72PFlmE2tHeCGdS3qCtrEOpNAftLRFcdp0kIICA==";
+        };
     in {
         "ZDARKldH" = _ZDARKldH;
         "BPyDHA6o" = _BPyDHA6o;
@@ -302,11 +322,15 @@ let
         "LqPASRgN" = _LqPASRgN;
         "FBg3nfEY" = _FBg3nfEY;
         "oIvgUYmu" = _oIvgUYmu;
+        "rX2cLHMJ" = _rX2cLHMJ;
+        "UCozRXqE" = _UCozRXqE;
+        "EKgADGat" = _EKgADGat;
+        "IdlNUFbp" = _IdlNUFbp;
         "fabric-1.20.1" = _j67RfSlZ;
-        "fabric-1.21.1" = _oIvgUYmu;
+        "fabric-1.21.1" = _IdlNUFbp;
         "forge-1.20.1" = _FEPCy4JB;
         "neoforge-1.20.1" = _i8mHpIF4;
-        "neoforge-1.21.1" = _FBg3nfEY;
+        "neoforge-1.21.1" = _EKgADGat;
         "quilt-1.20.1" = _Fcnwocfp;
         "pkg-1.0.0" = _ZDARKldH;
         "pkg-1.0.1" = _BPyDHA6o;
@@ -334,7 +358,9 @@ let
         "pkg-1.1.7" = _XN3guO0h;
         "pkg-1.1.9" = _LqPASRgN;
         "pkg-1.1.10" = _oIvgUYmu;
-        "default" = _oIvgUYmu;
+        "pkg-1.1.11" = _UCozRXqE;
+        "pkg-1.1.12" = _IdlNUFbp;
+        "default" = _IdlNUFbp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lets-do-bloomingnature";

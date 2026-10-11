@@ -126,6 +126,11 @@ let
             "file" = "StonecutterRemastered-2.1.0-1.26.2.jar";
             "hash" = "sha512-a9/dSU5kVc8ek3LEc7n4mfrcGWiRv9IYMqrc8hsrJLeicTxDvcopokcTR7z7JOxPnFVzYsgxNjZa8dsSmnn8Jw==";
         };
+        _fltd3Ehw = {
+            "id" = "fltd3Ehw";
+            "file" = "StonecutterRemastered-2.1.1-1.26.3.jar";
+            "hash" = "sha512-2dR6YlckdzO9IygUc5AhdAFnO4jSVZzB23Idf3Gjf35yJtjiLh8Y9yjG42/NhQBLJ4BP7P5ze5perCA5A/Pbnw==";
+        };
     in {
         "7bxMno56" = _7bxMno56;
         "QyMEyf2z" = _QyMEyf2z;
@@ -152,6 +157,7 @@ let
         "4ipIPdBV" = _4ipIPdBV;
         "YQ7YPP82" = _YQ7YPP82;
         "d8mOijce" = _d8mOijce;
+        "fltd3Ehw" = _fltd3Ehw;
         "fabric-1.20" = _dCfVV07z;
         "fabric-1.20.1" = _dCfVV07z;
         "fabric-1.20.2" = _rkaac2ci;
@@ -185,6 +191,7 @@ let
         "fabric-26.1.1" = _YQ7YPP82;
         "fabric-26.1.2" = _YQ7YPP82;
         "fabric-26.2" = _d8mOijce;
+        "fabric-26.3" = _fltd3Ehw;
         "pkg-1.0.0beta1-1.20" = _7bxMno56;
         "pkg-1.0.0beta1-1.20.2" = _QyMEyf2z;
         "pkg-1.0.0beta2-1.20+Chipped" = _RUi41xYp;
@@ -210,7 +217,8 @@ let
         "pkg-1.4.0-1.21.9" = _4ipIPdBV;
         "pkg-2.0.0-1.26.1" = _YQ7YPP82;
         "pkg-2.1.0-1.26.2" = _d8mOijce;
-        "default" = _d8mOijce;
+        "pkg-2.1.1-1.26.3" = _fltd3Ehw;
+        "default" = _fltd3Ehw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stonecutter-gui-remastered";

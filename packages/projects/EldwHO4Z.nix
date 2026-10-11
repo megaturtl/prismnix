@@ -36,6 +36,11 @@ let
             "file" = "dragonloot-1.1.8.jar";
             "hash" = "sha512-ryRIuS5OrDMIzvV+CHkEgy0MwGUqzmW1BUC19PDXDkwx+0bcXdZ4B+SPHdEKA+WicN+p1SHf42KyXHS/jmbl2g==";
         };
+        _p6ukZcRV = {
+            "id" = "p6ukZcRV";
+            "file" = "dragonloot-1.1.9.jar";
+            "hash" = "sha512-6Qmtznvsf97An4+rFEIAo1rT9whRpyvrC4q7DKnTkYqkDD/U26dJa1/8HFDeTiYIrZ1ZNUbb8z6uF7h0C/a0gw==";
+        };
     in {
         "u2AwD5fw" = _u2AwD5fw;
         "SJn4GXJb" = _SJn4GXJb;
@@ -44,10 +49,11 @@ let
         "Sn17HTpV" = _Sn17HTpV;
         "uCznDel0" = _uCznDel0;
         "qzpZJael" = _qzpZJael;
+        "p6ukZcRV" = _p6ukZcRV;
         "fabric-1.19.2" = _u2AwD5fw;
         "fabric-1.20.1" = _SJn4GXJb;
         "fabric-1.21" = _Sn17HTpV;
-        "fabric-1.21.1" = _qzpZJael;
+        "fabric-1.21.1" = _p6ukZcRV;
         "pkg-1.1.2" = _u2AwD5fw;
         "pkg-1.1.4+1.20.1" = _SJn4GXJb;
         "pkg-1.1.4+1.21" = _c1HO94Ky;
@@ -55,7 +61,8 @@ let
         "pkg-1.1.6+1.21" = _Sn17HTpV;
         "pkg-1.1.7+1.21.1" = _uCznDel0;
         "pkg-1.1.8+1.21.1" = _qzpZJael;
-        "default" = _qzpZJael;
+        "pkg-1.1.9+1.21.1" = _p6ukZcRV;
+        "default" = _p6ukZcRV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dragonloot";

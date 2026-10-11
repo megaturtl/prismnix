@@ -101,6 +101,16 @@ let
             "file" = "warpstones-1.1.2.jar";
             "hash" = "sha512-3zwm4uFh7XLCtQmXsviBJVd+WXpx7y3kWiZxs86Xe2pFWjiwqOCKBdBABHN4ltM8/qklyIwT08kes4ztSp0nhQ==";
         };
+        _Df9ytj65 = {
+            "id" = "Df9ytj65";
+            "file" = "Warpstones v1.1.2 [26.3].zip";
+            "hash" = "sha512-PzSmxIUuLKDv0jWg9B6TPFZ+Yw6GfYysds1GlaEbv439cYzBgiTxyR9318ehY2zAttnsfu8NxVZrflPEfGUjQw==";
+        };
+        _mUUUGkTL = {
+            "id" = "mUUUGkTL";
+            "file" = "warpstones-1.1.2.jar";
+            "hash" = "sha512-MwKWlCsikmWmKNlctDWQ+8Vo5uqIt4z/Cs9jhXOdT9OJ34UpoH9tvXNNucTMmwCURk9ezldcLqu049jOmykY+g==";
+        };
     in {
         "sBdlEAfF" = _sBdlEAfF;
         "B7ia1Lcf" = _B7ia1Lcf;
@@ -122,6 +132,8 @@ let
         "FjMoZW7w" = _FjMoZW7w;
         "IqBKpfmB" = _IqBKpfmB;
         "6g1pfbpU" = _6g1pfbpU;
+        "Df9ytj65" = _Df9ytj65;
+        "mUUUGkTL" = _mUUUGkTL;
         "datapack-1.21.2" = _IJ4l7Cmw;
         "datapack-1.21.3" = _IJ4l7Cmw;
         "datapack-1.21.4" = _IJ4l7Cmw;
@@ -136,6 +148,7 @@ let
         "datapack-26.1.1" = _zvJsFri9;
         "datapack-26.1.2" = _zvJsFri9;
         "datapack-26.2" = _IqBKpfmB;
+        "datapack-26.3" = _Df9ytj65;
         "fabric-1.21.2" = _ZwrMY0Ko;
         "fabric-1.21.3" = _ZwrMY0Ko;
         "fabric-1.21.4" = _ZwrMY0Ko;
@@ -150,6 +163,7 @@ let
         "fabric-26.1.1" = _FjMoZW7w;
         "fabric-26.1.2" = _FjMoZW7w;
         "fabric-26.2" = _6g1pfbpU;
+        "fabric-26.3" = _mUUUGkTL;
         "forge-1.21.2" = _ZwrMY0Ko;
         "forge-1.21.3" = _ZwrMY0Ko;
         "forge-1.21.4" = _ZwrMY0Ko;
@@ -164,6 +178,7 @@ let
         "forge-26.1.1" = _FjMoZW7w;
         "forge-26.1.2" = _FjMoZW7w;
         "forge-26.2" = _6g1pfbpU;
+        "forge-26.3" = _mUUUGkTL;
         "neoforge-1.21.2" = _ZwrMY0Ko;
         "neoforge-1.21.3" = _ZwrMY0Ko;
         "neoforge-1.21.4" = _ZwrMY0Ko;
@@ -178,6 +193,7 @@ let
         "neoforge-26.1.1" = _FjMoZW7w;
         "neoforge-26.1.2" = _FjMoZW7w;
         "neoforge-26.2" = _6g1pfbpU;
+        "neoforge-26.3" = _mUUUGkTL;
         "quilt-1.21.2" = _ZwrMY0Ko;
         "quilt-1.21.3" = _ZwrMY0Ko;
         "quilt-1.21.4" = _ZwrMY0Ko;
@@ -192,6 +208,7 @@ let
         "quilt-26.1.1" = _FjMoZW7w;
         "quilt-26.1.2" = _FjMoZW7w;
         "quilt-26.2" = _6g1pfbpU;
+        "quilt-26.3" = _mUUUGkTL;
         "pkg-v1.0.0" = _NJISxk96;
         "pkg-v1.0.0+mod" = _bz9MH4KL;
         "pkg-v1.0.1" = _8DDIaOrb;
@@ -202,9 +219,9 @@ let
         "pkg-v1.1.1+mod" = _JFQEdLHd;
         "pkg-v1.1.2" = _zvJsFri9;
         "pkg-v1.1.2+mod" = _FjMoZW7w;
-        "pkg-1.1.2" = _IqBKpfmB;
-        "pkg-1.1.2+mod" = _6g1pfbpU;
-        "default" = _6g1pfbpU;
+        "pkg-1.1.2" = _Df9ytj65;
+        "pkg-1.1.2+mod" = _mUUUGkTL;
+        "default" = _mUUUGkTL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "warpstones";

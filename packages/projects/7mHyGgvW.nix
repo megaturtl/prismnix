@@ -76,6 +76,11 @@ let
             "file" = "IronChests-2.0.7.jar";
             "hash" = "sha512-/LqsO9BpGS4fY4iS635jlivldn/CsDBqNuumlE3+Mv7Of8THqQnQ56gESit2XbjZkFdzVep8Kk3dwP6PrOkbhw==";
         };
+        _DIa6W22M = {
+            "id" = "DIa6W22M";
+            "file" = "IronChests-2.0.8.jar";
+            "hash" = "sha512-bQJSLszDsMuvbhJS4MOMA+al15egJc/YGP5bu6zTB+yDRroH80zGYaq7ykWIarKSelVryVmXom4jUDz9WKoD+w==";
+        };
     in {
         "MASbENsE" = _MASbENsE;
         "SFIhkNnN" = _SFIhkNnN;
@@ -92,6 +97,7 @@ let
         "lYUqK1HU" = _lYUqK1HU;
         "4N5Sy4nt" = _4N5Sy4nt;
         "kfvyAajw" = _kfvyAajw;
+        "DIa6W22M" = _DIa6W22M;
         "fabric-1.18.2" = _SFIhkNnN;
         "fabric-1.19" = _HpF3VKwq;
         "fabric-1.19.1" = _lUPAvR3L;
@@ -105,7 +111,7 @@ let
         "fabric-1.21" = _rHtTi59k;
         "fabric-1.21.11" = _lYUqK1HU;
         "fabric-26.1.2" = _4N5Sy4nt;
-        "fabric-26.2" = _kfvyAajw;
+        "fabric-26.2" = _DIa6W22M;
         "quilt-1.18.2" = _SFIhkNnN;
         "quilt-1.19" = _HpF3VKwq;
         "quilt-1.19.1" = _lUPAvR3L;
@@ -132,7 +138,8 @@ let
         "pkg-2.0.5" = _lYUqK1HU;
         "pkg-2.0.6" = _4N5Sy4nt;
         "pkg-2.0.7" = _kfvyAajw;
-        "default" = _kfvyAajw;
+        "pkg-2.0.8" = _DIa6W22M;
+        "default" = _DIa6W22M;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cyberanner-ironchest";

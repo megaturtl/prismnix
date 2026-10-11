@@ -76,6 +76,16 @@ let
             "file" = "autohotbar-1.0.0-mc1.21.jar";
             "hash" = "sha512-Yt7hsyyWSVrSQAAF0iBSH9JKPcePopGYNMPTFMl50FAtdYF88iarXV+NJKXtFsG0aQmsmzv0Nueu1p6t5jv+UA==";
         };
+        _AapyVcUQ = {
+            "id" = "AapyVcUQ";
+            "file" = "autohotbar-1.0.0.jar";
+            "hash" = "sha512-8GFt+jMiPlSIQ6D2/MdIJA0KJ+NRX3mnP8EnPclPjidWZEc20D7YcxFpLuEEQ6H6F+ZXjWMGGLPWp1kGkQGR4g==";
+        };
+        _Ixa2vMw1 = {
+            "id" = "Ixa2vMw1";
+            "file" = "autohotbar-1.0.0-mc26.2.jar";
+            "hash" = "sha512-QCmaYU54Qeo6XEq3iD2+8XjNy1c/Ow0lqM4usDg0eIHMDLHEY5FV9MisdotWEy9tF008mIQOGCPAveBApqbObQ==";
+        };
     in {
         "GpX52Sgm" = _GpX52Sgm;
         "ZkNn6Guf" = _ZkNn6Guf;
@@ -92,6 +102,8 @@ let
         "eAUvplUs" = _eAUvplUs;
         "7cR1efA1" = _7cR1efA1;
         "RD1A8deF" = _RD1A8deF;
+        "AapyVcUQ" = _AapyVcUQ;
+        "Ixa2vMw1" = _Ixa2vMw1;
         "fabric-1.21.11" = _GpX52Sgm;
         "fabric-26.1.2" = _ZkNn6Guf;
         "fabric-26.1.1" = _TDJA5y6c;
@@ -107,8 +119,10 @@ let
         "fabric-1.21.2" = _eAUvplUs;
         "fabric-1.21.1" = _7cR1efA1;
         "fabric-1.21" = _RD1A8deF;
-        "pkg-1.0.0" = _RD1A8deF;
-        "default" = _RD1A8deF;
+        "fabric-26.3" = _AapyVcUQ;
+        "fabric-26.2" = _Ixa2vMw1;
+        "pkg-1.0.0" = _Ixa2vMw1;
+        "default" = _Ixa2vMw1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "autohotbar";

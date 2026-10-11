@@ -151,6 +151,11 @@ let
             "file" = "noellesroles-1.7.4-h1.4.jar";
             "hash" = "sha512-raID9ALMmE88oOwNCD8sPmqVKlNRxwHsY64m/yY6DuXbhl3l/R9x9vFsZqOUGlREfcrPX0UBWP/J3g7+xo/8CQ==";
         };
+        _rotcAP3k = {
+            "id" = "rotcAP3k";
+            "file" = "noellesroles-1.7.5-h1.4.jar";
+            "hash" = "sha512-PGVRlwr2bLAaA8SR6qIfBrvNqnDODyS0vq/Mlg++ZpemOOz1IN8g4qepWFTroyru9nz2jEjfYt2GYOzUh9loDQ==";
+        };
     in {
         "FkRWoR95" = _FkRWoR95;
         "XDXIex8A" = _XDXIex8A;
@@ -182,7 +187,8 @@ let
         "LKv6slSH" = _LKv6slSH;
         "fzDuAhTx" = _fzDuAhTx;
         "5l7RKZ92" = _5l7RKZ92;
-        "fabric-1.21.1" = _5l7RKZ92;
+        "rotcAP3k" = _rotcAP3k;
+        "fabric-1.21.1" = _rotcAP3k;
         "pkg-v1.0.1-h1.1.4" = _FkRWoR95;
         "pkg-1.1.1-h1.2.6" = _XDXIex8A;
         "pkg-1.1.2-h1.2.6" = _wPwaqlyL;
@@ -213,7 +219,8 @@ let
         "pkg-1.7.2-h1.4" = _LKv6slSH;
         "pkg-1.7.3-h1.4" = _fzDuAhTx;
         "pkg-1.7.4-h1.4" = _5l7RKZ92;
-        "default" = _5l7RKZ92;
+        "pkg-1.7.5-h1.4" = _rotcAP3k;
+        "default" = _rotcAP3k;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "noelles-roles-tmm";

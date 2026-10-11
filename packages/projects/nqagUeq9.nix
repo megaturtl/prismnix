@@ -101,6 +101,11 @@ let
             "file" = "armor_Hud-0.9.1-26.2.jar";
             "hash" = "sha512-9fsG+uxknXmmIOpqmY3eK3XKVIMo8r2feRAbhxOUXs8Rxz2o9NIVNvyuQZuYGEHibTdZ2GjtCWRCfGKjCIgn6w==";
         };
+        _Ift7jjLK = {
+            "id" = "Ift7jjLK";
+            "file" = "armor_Hud-0.9.2-26.3.jar";
+            "hash" = "sha512-EbQ2bMXFGcZxvHaEU0tKjSFARpglPC5V+vXu6Yk9RGo5s7FDVAjqLAMVjDA75jsR8cXJVlugLnKQJC2GImOx7A==";
+        };
     in {
         "W7yGd7RJ" = _W7yGd7RJ;
         "nhsSoC90" = _nhsSoC90;
@@ -122,6 +127,7 @@ let
         "vFItfjHd" = _vFItfjHd;
         "yiUteFLW" = _yiUteFLW;
         "bQltCeHj" = _bQltCeHj;
+        "Ift7jjLK" = _Ift7jjLK;
         "fabric-1.21.6" = _zy8poZRv;
         "fabric-1.21.7" = _zy8poZRv;
         "fabric-1.21.8" = _zy8poZRv;
@@ -134,6 +140,7 @@ let
         "fabric-26.1.1" = _yiUteFLW;
         "fabric-26.1.2" = _yiUteFLW;
         "fabric-26.2" = _bQltCeHj;
+        "fabric-26.3" = _Ift7jjLK;
         "pkg-0.1.0" = _W7yGd7RJ;
         "pkg-0.2.0" = _nhsSoC90;
         "pkg-0.3.0" = _cbQlpSCx;
@@ -149,8 +156,8 @@ let
         "pkg-0.8.0" = _T5Q3azyl;
         "pkg-0.8.1." = _l3QKJk1s;
         "pkg-0.9-Beta-PRE-RELEASE" = _4L4c6p2S;
-        "pkg-0.9" = _bQltCeHj;
-        "default" = _bQltCeHj;
+        "pkg-0.9" = _Ift7jjLK;
+        "default" = _Ift7jjLK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "armor-hud-by-mcjunky33";

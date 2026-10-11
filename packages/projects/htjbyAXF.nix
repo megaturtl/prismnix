@@ -186,6 +186,26 @@ let
             "file" = "flying-unicorns-2.1.jar";
             "hash" = "sha512-8NkSmsS4SLy16yH/YO0aEoGHx+8gCelxZsXt2lbjYjnPpJ3rVksKSF9QEFoa8g7QNpdzPDpNHkWIzPuNQSi18A==";
         };
+        _Y0qVbGuS = {
+            "id" = "Y0qVbGuS";
+            "file" = "flying-unicorns-2.1.jar";
+            "hash" = "sha512-ZIztmrlkBQcC4ql2hRMZjXfuGCjToYA4UsGp+jw4p/KE6llKQZLqinDLpuE+G2vaNl1LTZebBG/Q81vUUGK/ZQ==";
+        };
+        _eMxnGmDg = {
+            "id" = "eMxnGmDg";
+            "file" = "flying-unicorns-2.1.jar";
+            "hash" = "sha512-N/eUnHiSmaz6CkSTZy8z0FoyMJfjjA8dVQX5OrchsSR2RTCJcxnI5+KUA9zD5tPm5JWSDdVSyqY+vRJP/GrgGw==";
+        };
+        _GKNXdpET = {
+            "id" = "GKNXdpET";
+            "file" = "flying-unicorns-2.1.jar";
+            "hash" = "sha512-eI8LEeMMgX03KVLwt8XKiMD2h2q9L29KH3guDrb4ncC5y33V9jYyhKW4VZpq60mbu9QNNX+cvwI6GmImEBV5Rw==";
+        };
+        _nEnSwm3d = {
+            "id" = "nEnSwm3d";
+            "file" = "flying-unicorns-2.1.jar";
+            "hash" = "sha512-/kivMW4Izyx+ECM+SJvLmBcsmlSj6NwKlpW6fz2HzQpEi9+mT1tWyI7+MHihqZqmxCzaXh42QZWBmwfJChSsWw==";
+        };
     in {
         "YQPzICLt" = _YQPzICLt;
         "Be9xF1Cn" = _Be9xF1Cn;
@@ -224,6 +244,10 @@ let
         "igiJ4eKu" = _igiJ4eKu;
         "EBOdxsYA" = _EBOdxsYA;
         "P8ySZt9m" = _P8ySZt9m;
+        "Y0qVbGuS" = _Y0qVbGuS;
+        "eMxnGmDg" = _eMxnGmDg;
+        "GKNXdpET" = _GKNXdpET;
+        "nEnSwm3d" = _nEnSwm3d;
         "neoforge-1.21.11" = _xZsqS5Ek;
         "neoforge-26.1" = _CeOGTQA8;
         "neoforge-26.1.1" = _QWMXjrCJ;
@@ -233,9 +257,9 @@ let
         "forge-26.1.1" = _Tdbc3j7I;
         "forge-26.1.2" = _Tdbc3j7I;
         "fabric-1.21.11" = _P8ySZt9m;
-        "fabric-26.1" = _vMqE2MRs;
+        "fabric-26.1" = _Y0qVbGuS;
         "fabric-26.1.1" = _dAwbnmxZ;
-        "fabric-26.1.2" = _ymmf9k7i;
+        "fabric-26.1.2" = _eMxnGmDg;
         "fabric-1.21" = _JHMG3BRQ;
         "fabric-1.21.1" = _rZffqT9S;
         "fabric-1.21.3" = _ZrWhlFo0;
@@ -245,12 +269,13 @@ let
         "fabric-1.21.7" = _eZdeVzmX;
         "fabric-1.21.8" = _igiJ4eKu;
         "fabric-1.21.10" = _EBOdxsYA;
-        "fabric-26.2" = _6qfld0x5;
+        "fabric-26.2" = _GKNXdpET;
+        "fabric-26.3" = _nEnSwm3d;
         "pkg-1.0.0" = _GsjW0ENH;
         "pkg-1.0.1" = _dAwbnmxZ;
         "pkg-2.0" = _6qfld0x5;
-        "pkg-2.1" = _P8ySZt9m;
-        "default" = _P8ySZt9m;
+        "pkg-2.1" = _nEnSwm3d;
+        "default" = _nEnSwm3d;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simply-winged-horse-pegasus-flight";

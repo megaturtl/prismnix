@@ -681,6 +681,26 @@ let
             "file" = "boss_checklist-5.2.0-26.2.jar";
             "hash" = "sha512-k36KhBX3reOkXFWK0J9R8woRV6WWangjv9QEjIEzVgBrq9W6FzcdlN2Qqg/y3k6Cor1B2o1e78SrDVjqxgmahw==";
         };
+        _Jo0llFg1 = {
+            "id" = "Jo0llFg1";
+            "file" = "boss_checklist-5.3.0.jar";
+            "hash" = "sha512-umO7QFkHUq3yHEswN1vaxX9xcdgC9jdibkvsD7c9Nkpz5k6Eb1GaP4PAYGAPDszroZBLKJQ1ZPmcO8eHGPh7qw==";
+        };
+        _HHkbPPrr = {
+            "id" = "HHkbPPrr";
+            "file" = "boss_checklist-5.3.1.jar";
+            "hash" = "sha512-qOACP9AMOvtj4wnp7EpjGbSVL+buKScruMStkQyTUCmCmUGmiLZdy7Zp7O/W3G8ASjkDVywWQG3/jxI8gXcHFw==";
+        };
+        _nyFzb1HZ = {
+            "id" = "nyFzb1HZ";
+            "file" = "boss_checklist-neoforge-5.3.2.jar";
+            "hash" = "sha512-BV2Cd+pKTgo3PTfavZkBWsnv9Dh4BNua0emrC/bJzim6K4wbaBSewLCXx2NNz3G+Y3afnQucDRf7xhzrlyzgrg==";
+        };
+        _ljLvHH6O = {
+            "id" = "ljLvHH6O";
+            "file" = "boss_checklist-fabric-5.3.2.jar";
+            "hash" = "sha512-e5OEy0lUjEDAskzWIOre/+KT5t7Vd9vFvUsGsWlabBQ6vE+1x0kFYaj+4H5+/YOsCG4cmV217Dr3gjuHqFQDNA==";
+        };
     in {
         "ZvWv49Oe" = _ZvWv49Oe;
         "fc8W1Mmr" = _fc8W1Mmr;
@@ -818,14 +838,18 @@ let
         "dNvGsGma" = _dNvGsGma;
         "PVVKLvqF" = _PVVKLvqF;
         "gxBMaQLs" = _gxBMaQLs;
-        "neoforge-1.21.1" = _yUH4w1bO;
+        "Jo0llFg1" = _Jo0llFg1;
+        "HHkbPPrr" = _HHkbPPrr;
+        "nyFzb1HZ" = _nyFzb1HZ;
+        "ljLvHH6O" = _ljLvHH6O;
+        "neoforge-1.21.1" = _nyFzb1HZ;
         "neoforge-1.20.4" = _NWcOHBLV;
         "neoforge-1.21.4" = _RNB44Q7s;
         "neoforge-1.21.5" = _Cwbf5HJC;
         "forge-1.20.1" = _EdmO2QdY;
         "forge-1.20" = _EdmO2QdY;
         "fabric-1.20.1" = _dgD2ZHzq;
-        "fabric-1.21.1" = _dNvGsGma;
+        "fabric-1.21.1" = _ljLvHH6O;
         "fabric-1.21.4" = _9Nkm7SxC;
         "fabric-1.21.5" = _9Au5UzvG;
         "fabric-1.21.11" = _AqNTEaYo;
@@ -833,6 +857,7 @@ let
         "fabric-26.1.1" = _PVVKLvqF;
         "fabric-26.1.2" = _PVVKLvqF;
         "fabric-26.2" = _gxBMaQLs;
+        "fabric-26.3" = _HHkbPPrr;
         "pkg-1.1.0" = _ZvWv49Oe;
         "pkg-1.2.0" = _Yg2Xntkm;
         "pkg-1.3.0" = _WpFOKRH1;
@@ -875,7 +900,10 @@ let
         "pkg-5.1.0" = _POjOUyNs;
         "pkg-5.1.1" = _dKjDrwSZ;
         "pkg-5.2.0" = _gxBMaQLs;
-        "default" = _gxBMaQLs;
+        "pkg-5.3.0" = _Jo0llFg1;
+        "pkg-5.3.1" = _HHkbPPrr;
+        "pkg-5.3.2" = _ljLvHH6O;
+        "default" = _ljLvHH6O;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "boss-checklist";

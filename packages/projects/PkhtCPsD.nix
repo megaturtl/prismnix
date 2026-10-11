@@ -836,6 +836,11 @@ let
             "file" = "HexOverpowered-forge-1.19.2-0.12.2.jar";
             "hash" = "sha512-YNfPEYkIU8DjKJ3aRAr9fiLhiXzuDPpWnvPnfuzPp2ya3XXp5SwgyA0YfjQTfh6GrayRRv1xIb4xcIRSn2l0wA==";
         };
+        _I3vfDCiE = {
+            "id" = "I3vfDCiE";
+            "file" = "HexOverpowered-neoforge-1.21.1-0.12.2.pre53.fix1.jar";
+            "hash" = "sha512-q4FbJGfs20+NLf1fbNEpUgPEVNisAMort2iLxPwy1Gt2eVGfdDFcljnKaqSWWQ3E0+qKIIJ4lvgtb0KXV1ZkWA==";
+        };
     in {
         "8li3CR6M" = _8li3CR6M;
         "dzen4jXT" = _dzen4jXT;
@@ -1004,12 +1009,13 @@ let
         "AN4qQYMh" = _AN4qQYMh;
         "t8YcoCen" = _t8YcoCen;
         "aSPLeWLo" = _aSPLeWLo;
+        "I3vfDCiE" = _I3vfDCiE;
         "forge-1.20.1" = _AN4qQYMh;
         "forge-1.19.2" = _aSPLeWLo;
         "fabric-1.20.1" = _rmyTjEDh;
         "fabric-1.19.2" = _t8YcoCen;
         "fabric-1.21.1" = _s5eN1ZBb;
-        "neoforge-1.21.1" = _CjCe3Tgx;
+        "neoforge-1.21.1" = _I3vfDCiE;
         "pkg-1.20.1-0.5" = _8li3CR6M;
         "pkg-1.20.1-0.5.1" = _VQlRi2xN;
         "pkg-1.20.1-0.5.2" = _K1IbaBS0;
@@ -1091,7 +1097,8 @@ let
         "pkg-1.21.1-0.12.2.pre53" = _CjCe3Tgx;
         "pkg-1.20.1-0.12.2" = _AN4qQYMh;
         "pkg-1.19.2-0.12.2" = _aSPLeWLo;
-        "default" = _aSPLeWLo;
+        "pkg-1.21.1-0.12.2.pre53.fix1" = _I3vfDCiE;
+        "default" = _I3vfDCiE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hexoverpowered";

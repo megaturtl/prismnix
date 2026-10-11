@@ -431,6 +431,16 @@ let
             "file" = "Spoiled-fabric-1.20.1-2.2.2.jar";
             "hash" = "sha512-5UnAgHKoNmK1kmzPnn3cJTS+h3w21qNgVJ5NkGJ2+jOzpDOpPv0/mk4sP7X0bZ5OUVitSDv203SCdHtF5NB6GA==";
         };
+        _ATkEvOWh = {
+            "id" = "ATkEvOWh";
+            "file" = "Spoiled-neoforge-1.21.1-6.3.0.jar";
+            "hash" = "sha512-YxlagsfllcEI+OpLN6h5E1mSs+qvJNmgu0mMKE1iq72a7UXVX4mc9S1yEFrA5Sb7R5ZyeO/kH2gl6cREl27u5A==";
+        };
+        _UJXXId5R = {
+            "id" = "UJXXId5R";
+            "file" = "Spoiled-fabric-1.21.1-6.3.0.jar";
+            "hash" = "sha512-g01ZVtDNEaMfJ+xRda4mOFUjKcNRw1nflWfpzMRbroJTKscrOYhRhY504ucil+0nQpL1kfvukoRPuqFoKX1UkA==";
+        };
     in {
         "uYeXY2td" = _uYeXY2td;
         "2jb4YgS3" = _2jb4YgS3;
@@ -518,6 +528,8 @@ let
         "bEOjyZyc" = _bEOjyZyc;
         "Lo5gUKQu" = _Lo5gUKQu;
         "Asr3S5TX" = _Asr3S5TX;
+        "ATkEvOWh" = _ATkEvOWh;
+        "UJXXId5R" = _UJXXId5R;
         "forge-1.17.1" = _uYeXY2td;
         "forge-1.18.2" = _aqbH5XKI;
         "forge-1.19.2" = _wl4Sk173;
@@ -532,7 +544,7 @@ let
         "fabric-1.20.4" = _mBJDfsn2;
         "fabric-1.20.6" = _CuFfniXI;
         "fabric-1.21" = _iiNSl7t5;
-        "fabric-1.21.1" = _utVgx6FA;
+        "fabric-1.21.1" = _UJXXId5R;
         "fabric-1.21.4" = _dAb4zRln;
         "fabric-1.21.5" = _bzzbNeL1;
         "fabric-1.21.8" = _qdvlwCXC;
@@ -545,7 +557,7 @@ let
         "neoforge-1.20.4" = _OD99UHD3;
         "neoforge-1.20.6" = _phOSLE1x;
         "neoforge-1.21" = _lvo2IAic;
-        "neoforge-1.21.1" = _gWjEW9rh;
+        "neoforge-1.21.1" = _ATkEvOWh;
         "neoforge-1.21.4" = _4Ul7M54Q;
         "neoforge-1.21.5" = _MpvCSqIt;
         "neoforge-1.21.8" = _m8hnbVG7;
@@ -603,7 +615,8 @@ let
         "pkg-6.2.3" = _utVgx6FA;
         "pkg-12.1.0" = _bEOjyZyc;
         "pkg-2.2.2" = _Asr3S5TX;
-        "default" = _Asr3S5TX;
+        "pkg-6.3.0" = _UJXXId5R;
+        "default" = _UJXXId5R;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spoiled";

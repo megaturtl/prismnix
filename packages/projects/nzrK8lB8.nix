@@ -51,6 +51,11 @@ let
             "file" = "smooth-wood-products-v2-2-0-mc-26-3.zip";
             "hash" = "sha512-8S6Rgmyt2c6o+AQh7GASE17dEcWhxl38d5KO2Us9W2qCv0EmeIrajiSEGCpe7K6BaIftw/Yavv0JYWcZjcTryQ==";
         };
+        _pKKBhndO = {
+            "id" = "pKKBhndO";
+            "file" = "smooth-wood-products-v2-2-1-mc-26-3.zip";
+            "hash" = "sha512-BitW6uYizSiL/hnYVjbuFUjegB77+OhhXDYdYPrLSLjZRoaFR9RjSHgbTPKYrMELEXGb4jq0Lud+D44z7uv0nA==";
+        };
     in {
         "XcFe3hR5" = _XcFe3hR5;
         "AX1VGAeh" = _AX1VGAeh;
@@ -62,6 +67,7 @@ let
         "WAM3TA7B" = _WAM3TA7B;
         "AK5KEqyA" = _AK5KEqyA;
         "Rn7asZjf" = _Rn7asZjf;
+        "pKKBhndO" = _pKKBhndO;
         "minecraft-1.14" = _PEthk9fg;
         "minecraft-1.14.1" = _PEthk9fg;
         "minecraft-1.14.2" = _PEthk9fg;
@@ -102,14 +108,14 @@ let
         "minecraft-1.21.6" = _PEthk9fg;
         "minecraft-1.21.7" = _PEthk9fg;
         "minecraft-1.21.8" = _PEthk9fg;
-        "minecraft-1.21.9" = _dJPnhfCP;
-        "minecraft-1.21.10" = _dJPnhfCP;
-        "minecraft-1.21.11" = _dJPnhfCP;
-        "minecraft-26.1" = _Rn7asZjf;
-        "minecraft-26.1.1" = _Rn7asZjf;
-        "minecraft-26.1.2" = _Rn7asZjf;
-        "minecraft-26.2" = _Rn7asZjf;
-        "minecraft-26.3" = _Rn7asZjf;
+        "minecraft-1.21.9" = _pKKBhndO;
+        "minecraft-1.21.10" = _pKKBhndO;
+        "minecraft-1.21.11" = _pKKBhndO;
+        "minecraft-26.1" = _pKKBhndO;
+        "minecraft-26.1.1" = _pKKBhndO;
+        "minecraft-26.1.2" = _pKKBhndO;
+        "minecraft-26.2" = _pKKBhndO;
+        "minecraft-26.3" = _pKKBhndO;
         "pkg-v2.1.0-mc-1.21.4" = _XcFe3hR5;
         "pkg-v2.1.0-mc-1.21.5" = _AX1VGAeh;
         "pkg-v2.1.0-mc-1.21.6" = _LxhZ986K;
@@ -120,7 +126,8 @@ let
         "pkg-v2.1.1-mc-26.1" = _WAM3TA7B;
         "pkg-v2.1.1-mc-26.2" = _AK5KEqyA;
         "pkg-v2.2.0-mc-26.3" = _Rn7asZjf;
-        "default" = _Rn7asZjf;
+        "pkg-v2.2.1-mc-26.3" = _pKKBhndO;
+        "default" = _pKKBhndO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "smooth-wood-products";

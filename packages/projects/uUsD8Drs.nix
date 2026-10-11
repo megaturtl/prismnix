@@ -46,6 +46,16 @@ let
             "file" = "create_extra_recipes-1.3.4.jar";
             "hash" = "sha512-Y1nCaftOR3pipcZp72jfJz5YJqkYZHnMrPk2jSqfC60ZlwKvQ5Wzf17UueEy4QcEIIDsyLZ2c3TJn+jZRQpoGg==";
         };
+        _baeBMXx9 = {
+            "id" = "baeBMXx9";
+            "file" = "create_extra_recipes-1.4.jar";
+            "hash" = "sha512-IFObK0CCokh1xoNf0AbvFliawpjwKwUQKnxxFa889ABHsa4v5ZXZyFBRSJoDOhu3hU0+ritBG7OxMWOxHrehMw==";
+        };
+        _it4fT3PA = {
+            "id" = "it4fT3PA";
+            "file" = "create_extra_recipes-1.4.1.jar";
+            "hash" = "sha512-N1pYSBVSDz0QaWoCdFe/ylP6rIxEXqDt7nRgdLnyMBCsgfANRI3wCGt/RUMPek1HbEQfwlmF1QJBsvAzCFjoMQ==";
+        };
     in {
         "k6v7eGjF" = _k6v7eGjF;
         "jgSG7vWW" = _jgSG7vWW;
@@ -56,8 +66,10 @@ let
         "jJXYBFnz" = _jJXYBFnz;
         "KR1ryOZl" = _KR1ryOZl;
         "gmI81srq" = _gmI81srq;
+        "baeBMXx9" = _baeBMXx9;
+        "it4fT3PA" = _it4fT3PA;
         "fabric-1.21.11" = _jgSG7vWW;
-        "neoforge-1.21.1" = _gmI81srq;
+        "neoforge-1.21.1" = _it4fT3PA;
         "pkg-1.0.0" = _k6v7eGjF;
         "pkg-1.1.0" = _T3XmShlu;
         "pkg-1.2.0" = _zeypHK5e;
@@ -66,7 +78,9 @@ let
         "pkg-1.3.2" = _jJXYBFnz;
         "pkg-1.3.3" = _KR1ryOZl;
         "pkg-1.3.4" = _gmI81srq;
-        "default" = _gmI81srq;
+        "pkg-1.4.0" = _baeBMXx9;
+        "pkg-1.4.1" = _it4fT3PA;
+        "default" = _it4fT3PA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-extra-recipes-kuma";

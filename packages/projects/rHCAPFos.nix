@@ -91,6 +91,21 @@ let
             "file" = "dcc-1.0.6-1.20.1Fabric.jar";
             "hash" = "sha512-hoa5NqB9ytzAIJk0l7LkpIHt7OpcgDlQr/BR/TiX18Fkx04AyM5E4cx5UjUNbt19pbHHI1b5EizdHQ3bcg3/tA==";
         };
+        _H4ZN1vdd = {
+            "id" = "H4ZN1vdd";
+            "file" = "dcc-0.2.5.jar";
+            "hash" = "sha512-V1W8fmSt8UxK3xPmD9Cqe3rSamM+V8sQL54ljNonGIuHojkwU4CVJNXz4aRzE61jnBpWMJq/Q1WybppWo064FQ==";
+        };
+        _UAITE79c = {
+            "id" = "UAITE79c";
+            "file" = "dcc-0.1.2-1.21.1NeoForge.jar";
+            "hash" = "sha512-xYUUrps74SuufjnL0kJ0E3skHMbcTTY57FXlzIusbDbOVdkm1PyEFi+juzVHmfQzUZF6m/X1RGQHufKGpMOSrw==";
+        };
+        _hWkmzJjy = {
+            "id" = "hWkmzJjy";
+            "file" = "dcc-1.0.7-1.20.1Fabric.jar";
+            "hash" = "sha512-xqJI4J/HsxBSomE/GmLgipkU6UskIQXZGu58Xp/tsSCBiFj9yQRaTs6XCTXKnTMbf5K5Y+hc80svyHmokyU6KQ==";
+        };
     in {
         "IoE2wuMP" = _IoE2wuMP;
         "SVzTd5rI" = _SVzTd5rI;
@@ -110,9 +125,12 @@ let
         "MCJtJk9h" = _MCJtJk9h;
         "xJV1Nouj" = _xJV1Nouj;
         "qik27pVM" = _qik27pVM;
-        "forge-1.20.1" = _MCJtJk9h;
-        "fabric-1.20.1" = _qik27pVM;
-        "neoforge-1.21.1" = _xJV1Nouj;
+        "H4ZN1vdd" = _H4ZN1vdd;
+        "UAITE79c" = _UAITE79c;
+        "hWkmzJjy" = _hWkmzJjy;
+        "forge-1.20.1" = _H4ZN1vdd;
+        "fabric-1.20.1" = _hWkmzJjy;
+        "neoforge-1.21.1" = _UAITE79c;
         "pkg-0.2.0-rc-3" = _IoE2wuMP;
         "pkg-0.2.0" = _SVzTd5rI;
         "pkg-0.2.1" = _NaHAZLOU;
@@ -131,7 +149,10 @@ let
         "pkg-0.2.4-rc-9" = _MCJtJk9h;
         "pkg-0.1.0-1.21.1NeoForge" = _xJV1Nouj;
         "pkg-1.0.6-1.20.1Fabric" = _qik27pVM;
-        "default" = _qik27pVM;
+        "pkg-0.2.5" = _H4ZN1vdd;
+        "pkg-0.1.2-1.21.1NeoForge" = _UAITE79c;
+        "pkg-1.0.7-1.20.1Fabric" = _hWkmzJjy;
+        "default" = _hWkmzJjy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dragon-curse-chronicles";

@@ -106,6 +106,11 @@ let
             "file" = "hextrapats-1.9.1+1.20.1.jar";
             "hash" = "sha512-TqyuQ+SZG07sfhVE/nDbMimR60NzxZxTxxNkkA91V+9OuGlEsCFbADMKi1DXKwS01o9w0orZ79DZ/9OSL0hFKQ==";
         };
+        _H6GZVOoQ = {
+            "id" = "H6GZVOoQ";
+            "file" = "hextrapats-1.10.0+1.20.1.jar";
+            "hash" = "sha512-8539rnJBX+0rAHjMz/Yv68LApA4KlrdxQauUDa9yTMmGMzzHbwmNcOXcDQXhpKfHiMDzQVVvRW+6GyBIp4TVmw==";
+        };
     in {
         "3hnahca1" = _3hnahca1;
         "ocDpGvGz" = _ocDpGvGz;
@@ -128,7 +133,8 @@ let
         "lsgkbZUm" = _lsgkbZUm;
         "VIfxA71o" = _VIfxA71o;
         "6Ii3jN4n" = _6Ii3jN4n;
-        "fabric-1.20.1" = _6Ii3jN4n;
+        "H6GZVOoQ" = _H6GZVOoQ;
+        "fabric-1.20.1" = _H6GZVOoQ;
         "pkg-1.0.0" = _3hnahca1;
         "pkg-1.0.1" = _ocDpGvGz;
         "pkg-1.0.2" = _Tcv0eeQA;
@@ -150,7 +156,8 @@ let
         "pkg-1.8.1+1.20.1" = _lsgkbZUm;
         "pkg-1.9.0+1.20.1" = _VIfxA71o;
         "pkg-1.9.1+1.20.1" = _6Ii3jN4n;
-        "default" = _6Ii3jN4n;
+        "pkg-1.10.0" = _H6GZVOoQ;
+        "default" = _H6GZVOoQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hextra-patterns";

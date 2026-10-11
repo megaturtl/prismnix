@@ -1186,6 +1186,16 @@ let
             "file" = "FallingTree-26.3-25.jar";
             "hash" = "sha512-8XkHFwz5y0xvkYVz6Bu3a5idljH2LBC+rjYr+u+2b6jnfu0c8e/r4oUwQ5QcVfaH7fPfMurbqemYxU2scPqf8w==";
         };
+        _AAGlDV9D = {
+            "id" = "AAGlDV9D";
+            "file" = "FallingTree-26.3-25.jar";
+            "hash" = "sha512-BxNIJvbW4BIyz0yWuh/8UptD2TvjwYohW6OvhXIoKmsE4xdffcWDFHH2cirUpPkWHUMgNQdhfDtsQ5CMUOfvIQ==";
+        };
+        _MGpq6CjC = {
+            "id" = "MGpq6CjC";
+            "file" = "FallingTree-26.3-25.jar";
+            "hash" = "sha512-wMQM4ffgfbM9QvGa7vcH7xQ/Vn5Z+WuHZjr8Ovd8FBPhMal7nDtAXx5OIXNWJUKTgfVQI9nPsJuH3qq/Xe7PLg==";
+        };
     in {
         "ClS5aGDu" = _ClS5aGDu;
         "by7f3jqu" = _by7f3jqu;
@@ -1424,6 +1434,8 @@ let
         "nNFPkkaX" = _nNFPkkaX;
         "sOoH5kkd" = _sOoH5kkd;
         "t8SGwbWX" = _t8SGwbWX;
+        "AAGlDV9D" = _AAGlDV9D;
+        "MGpq6CjC" = _MGpq6CjC;
         "fabric-1.16.5" = _rK4GkUX6;
         "fabric-1.17" = _nDc9P6UR;
         "fabric-1.17.1" = _59SG26Fv;
@@ -1472,7 +1484,7 @@ let
         "fabric-26.1.1" = _1t5y4V0E;
         "fabric-26.1.2" = _YpsBfAWL;
         "fabric-26.2" = _sOoH5kkd;
-        "fabric-26.3" = _t8SGwbWX;
+        "fabric-26.3" = _MGpq6CjC;
         "forge-1.16.5" = _rK4GkUX6;
         "forge-1.17.1" = _59SG26Fv;
         "forge-1.18" = _jHljfMeN;
@@ -1504,6 +1516,7 @@ let
         "forge-26.1.1" = _1t5y4V0E;
         "forge-26.1.2" = _YpsBfAWL;
         "forge-26.2" = _sOoH5kkd;
+        "forge-26.3" = _MGpq6CjC;
         "neoforge-1.20.6" = _ud1kXOTm;
         "neoforge-1.21" = _9n1NLElA;
         "neoforge-1.21.1" = _wxGXaJMA;
@@ -1521,7 +1534,7 @@ let
         "neoforge-26.1.1" = _1t5y4V0E;
         "neoforge-26.1.2" = _YpsBfAWL;
         "neoforge-26.2" = _sOoH5kkd;
-        "neoforge-26.3" = _t8SGwbWX;
+        "neoforge-26.3" = _MGpq6CjC;
         "pkg-1.16.5-2.10.0-Fabric" = _ClS5aGDu;
         "pkg-1.16.5-2.10.0-Forge" = _by7f3jqu;
         "pkg-1.16.5-2.10.1-Forge" = _wYPHBZnq;
@@ -1759,7 +1772,9 @@ let
         "pkg-26.2-26.2.0.2" = _nNFPkkaX;
         "pkg-26.2-26.2.0.3" = _sOoH5kkd;
         "pkg-26.3-26.3.0.1" = _t8SGwbWX;
-        "default" = _t8SGwbWX;
+        "pkg-26.3-26.3.0.2" = _AAGlDV9D;
+        "pkg-26.3-26.3.0.3" = _MGpq6CjC;
+        "default" = _MGpq6CjC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fallingtree";

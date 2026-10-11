@@ -531,6 +531,16 @@ let
             "file" = "fancytoasts-1.5.1-neoforge-26.2.jar";
             "hash" = "sha512-PihkAnZ9kaj5FvY+zbsBTv9xyq0d7sy6TsLWKcEYGbOrl1T+7iqmlMMKMj0x0K7VtdIrdoAEUkGtgtoDNq9EYQ==";
         };
+        _wG7aMfVG = {
+            "id" = "wG7aMfVG";
+            "file" = "fancytoasts-1.5.1-fabric-26.3.jar";
+            "hash" = "sha512-acQtbnASYCX5Nj4Y6VOE7WzLJuJy4HSAdZnc25NswqBCvtkuzEBbc0h7zhhRtA3lmxYxxxYkg1BksLmpzl0SjA==";
+        };
+        _kycnTrcq = {
+            "id" = "kycnTrcq";
+            "file" = "fancytoasts-1.5.1-neoforge-26.3.jar";
+            "hash" = "sha512-qtkPsBHRCm1q3aCQVTKTZOMNRsHySHah2Kp6Edf06qYpWpOV9EnRTFqKkCvVnCU/QYvdtQYli+zEjwdnQngIVg==";
+        };
     in {
         "KBwQX1xY" = _KBwQX1xY;
         "rhWyWDda" = _rhWyWDda;
@@ -638,6 +648,8 @@ let
         "X2GAO9kB" = _X2GAO9kB;
         "Q1wSfyHM" = _Q1wSfyHM;
         "7Ibka4K6" = _7Ibka4K6;
+        "wG7aMfVG" = _wG7aMfVG;
+        "kycnTrcq" = _kycnTrcq;
         "fabric-1.21.8" = _1pEh9DWB;
         "fabric-1.21.6" = _rhWyWDda;
         "fabric-1.21.7" = _rhWyWDda;
@@ -660,6 +672,7 @@ let
         "fabric-26.1.1" = _Bty2jGGE;
         "fabric-26.1.2" = _Bty2jGGE;
         "fabric-26.2" = _Q1wSfyHM;
+        "fabric-26.3" = _wG7aMfVG;
         "forge-1.21.8" = _pGdzUyb1;
         "forge-1.21" = _FsxwFdOi;
         "forge-1.21.1" = _Prz2yicD;
@@ -681,6 +694,7 @@ let
         "neoforge-26.1.1" = _8M6dYOAC;
         "neoforge-26.1.2" = _8M6dYOAC;
         "neoforge-26.2" = _7Ibka4K6;
+        "neoforge-26.3" = _kycnTrcq;
         "pkg-1.3.1" = _KBwQX1xY;
         "pkg-1.3.2+1.21.6-8" = _rhWyWDda;
         "pkg-1.3.2+1.20.2-6" = _QFifKsDC;
@@ -742,7 +756,9 @@ let
         "pkg-1.5.1-neoforge-1.21.1" = _X2GAO9kB;
         "pkg-1.5.1-fabric-26.2" = _Q1wSfyHM;
         "pkg-1.5.1-neoforge-26.2" = _7Ibka4K6;
-        "default" = _7Ibka4K6;
+        "pkg-1.5.1-fabric-26.3" = _wG7aMfVG;
+        "pkg-1.5.1-neoforge-26.3" = _kycnTrcq;
+        "default" = _kycnTrcq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fancy-toasts";

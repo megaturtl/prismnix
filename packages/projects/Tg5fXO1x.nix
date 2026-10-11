@@ -101,6 +101,26 @@ let
             "file" = "crafting_on_a_stick-1.21.0.6.jar";
             "hash" = "sha512-zIyatqP4ukF4d3G73zx2EP7HrkZA/rsRxamxOau95OIw4Z3zRUPzJOgcsztDKe+sHnxA2/Rn+9G1FET7jWgdhg==";
         };
+        _3wWN9mOd = {
+            "id" = "3wWN9mOd";
+            "file" = "crafting_on_a_stick-neoforge-26.2-1.1.jar";
+            "hash" = "sha512-sl3TEaC/He/jpUhB2b/nrclF5tGpW7TtMYCspi+A0iBaBd6xXj2KcQFqm7ZFtzkXxnih3rvC3uyJxNyVHM1Pbg==";
+        };
+        _834gh6zx = {
+            "id" = "834gh6zx";
+            "file" = "crafting_on_a_stick-fabric-26.2-1.1.jar";
+            "hash" = "sha512-JajTr6qZrE5W9L5aruVEfJ8PgZ+xAK006uZBbKnAuwhH+wWzTy4g/Xg6Q2cRR0lF4+uV0gL8/eII/YCRO3gsUg==";
+        };
+        _OzpWqkpM = {
+            "id" = "OzpWqkpM";
+            "file" = "crafting_on_a_stick-neoforge-26.3-1.0.jar";
+            "hash" = "sha512-GiDbP+9xZoH5gZQif7eBYdjLmi/87lYCOKnO59Fn3mCpwgVcC5EDyp2YzgK6Ko1BFx9vywmcl1Nr183gtNtFzA==";
+        };
+        _s8hLiLT2 = {
+            "id" = "s8hLiLT2";
+            "file" = "crafting_on_a_stick-fabric-26.3-1.0.jar";
+            "hash" = "sha512-m8ha71+S90nuqsDmLyucT9jvF/vCHF72kGd4s2sTXqgjXXEvowpWseQBYIWAb9v4DyHAYUj2KKiobyZrRoIVVg==";
+        };
     in {
         "Y8lScn2B" = _Y8lScn2B;
         "toyPJQDb" = _toyPJQDb;
@@ -122,6 +142,10 @@ let
         "lIoAbael" = _lIoAbael;
         "6rH0gWYp" = _6rH0gWYp;
         "qDVmBLqp" = _qDVmBLqp;
+        "3wWN9mOd" = _3wWN9mOd;
+        "834gh6zx" = _834gh6zx;
+        "OzpWqkpM" = _OzpWqkpM;
+        "s8hLiLT2" = _s8hLiLT2;
         "forge-1.16.5" = _Y8lScn2B;
         "forge-1.18" = _toyPJQDb;
         "forge-1.18.1" = _toyPJQDb;
@@ -148,11 +172,13 @@ let
         "neoforge-26.1" = _fPpwvoHK;
         "neoforge-26.1.1" = _fPpwvoHK;
         "neoforge-26.1.2" = _fPpwvoHK;
-        "neoforge-26.2" = _XylaWvi8;
+        "neoforge-26.2" = _3wWN9mOd;
+        "neoforge-26.3" = _OzpWqkpM;
         "fabric-26.1" = _lIoAbael;
         "fabric-26.1.1" = _lIoAbael;
         "fabric-26.1.2" = _lIoAbael;
-        "fabric-26.2" = _5Phlfzz6;
+        "fabric-26.2" = _834gh6zx;
+        "fabric-26.3" = _s8hLiLT2;
         "pkg-1.1.0" = _Y8lScn2B;
         "pkg-1.1.1" = _toyPJQDb;
         "pkg-1.1.2" = _UBt6tlvM;
@@ -170,7 +196,9 @@ let
         "pkg-26.1-1.1" = _lIoAbael;
         "pkg-1.21.0.5" = _6rH0gWYp;
         "pkg-1.21.0.6" = _qDVmBLqp;
-        "default" = _qDVmBLqp;
+        "pkg-26.2-1.1" = _834gh6zx;
+        "pkg-26.3-1.0" = _s8hLiLT2;
+        "default" = _s8hLiLT2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crafting-on-a-stick";

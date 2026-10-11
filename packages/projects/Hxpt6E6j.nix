@@ -21,17 +21,24 @@ let
             "file" = "XiaoXingEEsStorageFoodEater-1.1.2.jar";
             "hash" = "sha512-wdCUHxpo+kivAr/JpP4nc5ieiTHQwBSJlGknPv8kYVQfyvcph2/MPP2zyoOmzmBPTMP6lQMTOkL1296aE2OgDQ==";
         };
+        _pjpytygv = {
+            "id" = "pjpytygv";
+            "file" = "XiaoXingEEsStorageFoodEater-1.2.0.jar";
+            "hash" = "sha512-rcezZtYf7F6Bi8CbINJv8diRD2yeQ0c21FjcOIfhAUDswCHWJUKbOfxrDvudP2FFKQ2PIv1Dz1R42WC8859eqA==";
+        };
     in {
         "Seyc6xqM" = _Seyc6xqM;
         "AM0Uws0q" = _AM0Uws0q;
         "WysfXbCq" = _WysfXbCq;
         "OjHJTGQa" = _OjHJTGQa;
-        "forge-1.20.1" = _OjHJTGQa;
+        "pjpytygv" = _pjpytygv;
+        "forge-1.20.1" = _pjpytygv;
         "pkg-1.0.0" = _Seyc6xqM;
         "pkg-1.1.0" = _AM0Uws0q;
         "pkg-1.1.1" = _WysfXbCq;
         "pkg-1.1.2" = _OjHJTGQa;
-        "default" = _OjHJTGQa;
+        "pkg-1.2.0" = _pjpytygv;
+        "default" = _pjpytygv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "xiaoxingeesstoragefoodeater";

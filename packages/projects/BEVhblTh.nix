@@ -181,6 +181,16 @@ let
             "file" = "ConvenientEffects-v26.2.0-mc26.2.x-Fabric.jar";
             "hash" = "sha512-YVcxImp6Excszq9cScWclcNq2Ty6kniUdUYB+rkTKKN5k+OF2G7LUqGL4U/C27U6Mw1uSFB9gZeUaTUB1+lX7w==";
         };
+        _XBT22iTe = {
+            "id" = "XBT22iTe";
+            "file" = "convenienteffects-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-KLXZ/OM2JmKvVd3c5RMXqHK2WBMYrPnI5Is1//Za6y7G7OK6+PiLox4SwEqGelhI54KLLJibqo//2oeftFL/XA==";
+        };
+        _3yvFvSJs = {
+            "id" = "3yvFvSJs";
+            "file" = "convenienteffects-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-yYq2H6Cp/SiAqGyAER+++TRP6UugQDLy6YUYWarWg6EhRYa6rMB3HAjctT5ialSxu6BQJgbliJPSOoPKNN9zmw==";
+        };
     in {
         "nMvBG6Pi" = _nMvBG6Pi;
         "EPOV6j9i" = _EPOV6j9i;
@@ -218,6 +228,8 @@ let
         "iwYxR2dv" = _iwYxR2dv;
         "STYQMPwb" = _STYQMPwb;
         "DEkTaTc2" = _DEkTaTc2;
+        "XBT22iTe" = _XBT22iTe;
+        "3yvFvSJs" = _3yvFvSJs;
         "fabric-1.21.1" = _K61EOYd0;
         "fabric-1.21.3" = _bGTM9IRO;
         "fabric-1.21.4" = _Qxf0s8Be;
@@ -232,6 +244,7 @@ let
         "fabric-26.1.2" = _vcNqaVaE;
         "fabric-1.20.1" = _1nkoCICi;
         "fabric-26.2" = _DEkTaTc2;
+        "fabric-26.3" = _XBT22iTe;
         "neoforge-1.21.1" = _FpdaIV35;
         "neoforge-1.21.3" = _G0zK0WRV;
         "neoforge-1.21.4" = _Q9DGEcGo;
@@ -245,6 +258,7 @@ let
         "neoforge-26.1.1" = _1XWEYiDS;
         "neoforge-26.1.2" = _1XWEYiDS;
         "neoforge-26.2" = _STYQMPwb;
+        "neoforge-26.3" = _3yvFvSJs;
         "forge-1.20.1" = _iwYxR2dv;
         "pkg-v21.1.0-1.21.1-Fabric" = _nMvBG6Pi;
         "pkg-v21.1.0-1.21.1-NeoForge" = _EPOV6j9i;
@@ -275,7 +289,8 @@ let
         "pkg-v20.1.0-1.20.1-Fabric" = _1nkoCICi;
         "pkg-v20.1.0-1.20.1-Forge" = _iwYxR2dv;
         "pkg-26.2.0" = _DEkTaTc2;
-        "default" = _DEkTaTc2;
+        "pkg-26.3.0" = _3yvFvSJs;
+        "default" = _3yvFvSJs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "convenient-effects";

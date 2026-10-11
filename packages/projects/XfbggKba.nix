@@ -186,6 +186,16 @@ let
             "file" = "horse-armour-recipe-1.0.jar";
             "hash" = "sha512-Ndt9CEl9/rZ8EbkZZIzUnKaO6AO5ZZFCLEZ+v3smYhMHlJ3CzGyp2n6Vsq8eLyj88Ut6Ly2X8Zudyym1wWTTwA==";
         };
+        _1utNxnQz = {
+            "id" = "1utNxnQz";
+            "file" = "horse_armour-26.3.zip";
+            "hash" = "sha512-dJjNW7CSHMS9HKNo13CBRP0zxHEkzBkD1mSyNKbEdenhVzKcpsIA2gJxcPsxJ+bjXeSSGop0CI6sLPD2zmb0bg==";
+        };
+        _hRPkS7YH = {
+            "id" = "hRPkS7YH";
+            "file" = "horse-armour-recipe-1.0.jar";
+            "hash" = "sha512-O4bMiRaiRChYsvU+f7wslAXSojyobzZgufjSZ6oNfl3vOZJg8lpuND68cHN3PGaavjlgZI+njQ0ExXvbMvX8WA==";
+        };
     in {
         "Vdh0TLFO" = _Vdh0TLFO;
         "rKyCP47S" = _rKyCP47S;
@@ -224,6 +234,8 @@ let
         "gdzdHCys" = _gdzdHCys;
         "LiQt1mtT" = _LiQt1mtT;
         "vsc0RezV" = _vsc0RezV;
+        "1utNxnQz" = _1utNxnQz;
+        "hRPkS7YH" = _hRPkS7YH;
         "datapack-1.21.2" = _Vdh0TLFO;
         "datapack-1.21.3" = _Vdh0TLFO;
         "datapack-1.21.4" = _Vdh0TLFO;
@@ -266,6 +278,7 @@ let
         "datapack-26.2-snapshot-2" = _kV5Us6a5;
         "datapack-26.2" = _LiQt1mtT;
         "datapack-26.3-snapshot-1" = _LiQt1mtT;
+        "datapack-26.3" = _1utNxnQz;
         "fabric-1.21.2" = _VjJhx16I;
         "fabric-1.21.3" = _VjJhx16I;
         "fabric-1.21.4" = _VjJhx16I;
@@ -308,6 +321,7 @@ let
         "fabric-26.2-snapshot-2" = _gdzdHCys;
         "fabric-26.2" = _vsc0RezV;
         "fabric-26.3-snapshot-1" = _vsc0RezV;
+        "fabric-26.3" = _hRPkS7YH;
         "forge-1.21.2" = _VjJhx16I;
         "forge-1.21.3" = _VjJhx16I;
         "forge-1.21.4" = _VjJhx16I;
@@ -350,6 +364,7 @@ let
         "forge-26.2-snapshot-2" = _gdzdHCys;
         "forge-26.2" = _vsc0RezV;
         "forge-26.3-snapshot-1" = _vsc0RezV;
+        "forge-26.3" = _hRPkS7YH;
         "neoforge-1.21.2" = _VjJhx16I;
         "neoforge-1.21.3" = _VjJhx16I;
         "neoforge-1.21.4" = _VjJhx16I;
@@ -392,6 +407,7 @@ let
         "neoforge-26.2-snapshot-2" = _gdzdHCys;
         "neoforge-26.2" = _vsc0RezV;
         "neoforge-26.3-snapshot-1" = _vsc0RezV;
+        "neoforge-26.3" = _hRPkS7YH;
         "quilt-1.21.2" = _VjJhx16I;
         "quilt-1.21.3" = _VjJhx16I;
         "quilt-1.21.4" = _VjJhx16I;
@@ -434,11 +450,12 @@ let
         "quilt-26.2-snapshot-2" = _gdzdHCys;
         "quilt-26.2" = _vsc0RezV;
         "quilt-26.3-snapshot-1" = _vsc0RezV;
-        "pkg-1.0" = _LiQt1mtT;
-        "pkg-1.0+mod" = _vsc0RezV;
+        "quilt-26.3" = _hRPkS7YH;
+        "pkg-1.0" = _1utNxnQz;
+        "pkg-1.0+mod" = _hRPkS7YH;
         "pkg-1.1" = _nvr8gWfC;
         "pkg-1.1+mod" = _m7bhPibt;
-        "default" = _vsc0RezV;
+        "default" = _hRPkS7YH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "horse-armour-recipe";

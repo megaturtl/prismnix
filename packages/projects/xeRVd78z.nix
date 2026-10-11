@@ -231,6 +231,46 @@ let
             "file" = "puddleflood-1.1.5+1.20.1-forge.jar";
             "hash" = "sha512-TBIO58DBt/hKt0+EVH+rZgrm2Oofx3yk8Y4oOXLeAP+VAnN5HPiUgmKzIre/d1/EZ0ujLzoYlzNFn2eBp47DAA==";
         };
+        _TfEd3UcF = {
+            "id" = "TfEd3UcF";
+            "file" = "puddleflood-1.1.6+1.20.1-fabric.jar";
+            "hash" = "sha512-XL3J7r+N8Z8rl7VOQ0rSKijsrYvXJJkmEPXbw/Zde981u9tWkGJxotI1CgqWQN6dnx9/odBK8NH2AIoQr5tfMw==";
+        };
+        _zgQQLjHD = {
+            "id" = "zgQQLjHD";
+            "file" = "puddleflood-1.1.6+26.1-fabric.jar";
+            "hash" = "sha512-DBQh96sekDChfbPIPTqbJvFEz7IEkhRxtP0bNux+uvkjgpTtyziKloIZaMtaaBLfq2dA7mKngT1MAf9j0Iw1+A==";
+        };
+        _KyYjBIF5 = {
+            "id" = "KyYjBIF5";
+            "file" = "puddleflood-1.1.6+1.21.11-fabric.jar";
+            "hash" = "sha512-kE7PDVkEXOUxUotQw/OHvuTmGDCP0tHIxfpcbKMhV2n7uO3a0mp6uVeDK0PPBSCA6MyLJck9uoBr9YaOfJ0vqw==";
+        };
+        _3Lk0In7q = {
+            "id" = "3Lk0In7q";
+            "file" = "puddleflood-1.1.6+26.2-fabric.jar";
+            "hash" = "sha512-0TcBj4tqWJ58zVpbt8MR5NIwArpVfjWjDZzGihqMBXYYh1pACBl/fgcKSPyAnwQUkJq/48Ex9KHnwdjDIHBvYA==";
+        };
+        _QYJMR7PQ = {
+            "id" = "QYJMR7PQ";
+            "file" = "puddleflood-1.1.6+1.21.1-fabric.jar";
+            "hash" = "sha512-rB0vbPPOoapDjsEC4EbR75FP1F0QT+xyW/TiCWMBusP1bgTUBYGywY6B4ql1KFMlbMVBrNnKRT+5V0fKtaSUMQ==";
+        };
+        _CGQNd3tl = {
+            "id" = "CGQNd3tl";
+            "file" = "puddleflood-1.1.6+1.21.9-fabric.jar";
+            "hash" = "sha512-VQJzSQnwkZHkNlbdpWo3YtaiZaPdeuF5IPJfgLjXY36Igdsvtq8LAmxK3hwLNE0auyH7TQAMV4zQMKMumEOPzQ==";
+        };
+        _ba9E4XOp = {
+            "id" = "ba9E4XOp";
+            "file" = "puddleflood-1.1.6+1.21.1-neoforge.jar";
+            "hash" = "sha512-KYFIeHhB3Z7XYpH4b2PqQk43/xWdJiHYFwm3hxDBfjqLwyDOJr/VUnu5ahPo1bKmvSNbi0SdPknJa2AxnE12Zg==";
+        };
+        _X0qp4Bt5 = {
+            "id" = "X0qp4Bt5";
+            "file" = "puddleflood-1.1.6+1.20.1-forge.jar";
+            "hash" = "sha512-eHh/bDrffPmkivGjdHY7Xs1+2OmvcsB8hS+a+iF3rBbeBxNE83XALxnc9H8NS7AZG0ad3mrwkbm/Nfe3dMt8pw==";
+        };
     in {
         "MPRUr9Cg" = _MPRUr9Cg;
         "kegaag6x" = _kegaag6x;
@@ -278,20 +318,29 @@ let
         "fci3J98f" = _fci3J98f;
         "E6TfZDKF" = _E6TfZDKF;
         "gcEohS2o" = _gcEohS2o;
-        "fabric-1.21.11" = _eXAuCBox;
-        "fabric-1.21.9" = _fci3J98f;
-        "fabric-1.21.10" = _fci3J98f;
-        "fabric-1.20" = _QneU0Aw2;
-        "fabric-1.20.1" = _QneU0Aw2;
-        "fabric-1.21.1" = _gy6VqORQ;
-        "fabric-26.1" = _9HYzH9OJ;
-        "fabric-26.1.1" = _9HYzH9OJ;
+        "TfEd3UcF" = _TfEd3UcF;
+        "zgQQLjHD" = _zgQQLjHD;
+        "KyYjBIF5" = _KyYjBIF5;
+        "3Lk0In7q" = _3Lk0In7q;
+        "QYJMR7PQ" = _QYJMR7PQ;
+        "CGQNd3tl" = _CGQNd3tl;
+        "ba9E4XOp" = _ba9E4XOp;
+        "X0qp4Bt5" = _X0qp4Bt5;
+        "fabric-1.21.11" = _KyYjBIF5;
+        "fabric-1.21.9" = _CGQNd3tl;
+        "fabric-1.21.10" = _CGQNd3tl;
+        "fabric-1.20" = _TfEd3UcF;
+        "fabric-1.20.1" = _TfEd3UcF;
+        "fabric-1.21.1" = _QYJMR7PQ;
+        "fabric-26.1" = _zgQQLjHD;
+        "fabric-26.1.1" = _zgQQLjHD;
         "fabric-26w14a" = _KwXKn49r;
-        "fabric-26.1.2" = _9HYzH9OJ;
-        "fabric-26.2" = _HYCqhi9a;
-        "neoforge-1.21.1" = _E6TfZDKF;
-        "forge-1.20" = _gcEohS2o;
-        "forge-1.20.1" = _gcEohS2o;
+        "fabric-26.1.2" = _zgQQLjHD;
+        "fabric-26.2" = _3Lk0In7q;
+        "fabric-26.3" = _3Lk0In7q;
+        "neoforge-1.21.1" = _ba9E4XOp;
+        "forge-1.20" = _X0qp4Bt5;
+        "forge-1.20.1" = _X0qp4Bt5;
         "pkg-v1.0.0+1.21.11-fabric" = _MPRUr9Cg;
         "pkg-v1.0.0+1.21.9-fabric" = _kegaag6x;
         "pkg-v1.0.0+1.20.1-fabric" = _Sc5IN9lC;
@@ -338,7 +387,15 @@ let
         "pkg-v1.1.5+1.21.9-fabric" = _fci3J98f;
         "pkg-v1.1.5+1.21.1-neoforge" = _E6TfZDKF;
         "pkg-v1.1.5+1.20.1-forge" = _gcEohS2o;
-        "default" = _gcEohS2o;
+        "pkg-v1.1.6+1.20.1-fabric" = _TfEd3UcF;
+        "pkg-v1.1.6+26.1-fabric" = _zgQQLjHD;
+        "pkg-v1.1.6+1.21.11-fabric" = _KyYjBIF5;
+        "pkg-v1.1.6+26.2-fabric" = _3Lk0In7q;
+        "pkg-v1.1.6+1.21.1-fabric" = _QYJMR7PQ;
+        "pkg-v1.1.6+1.21.9-fabric" = _CGQNd3tl;
+        "pkg-v1.1.6+1.21.1-neoforge" = _ba9E4XOp;
+        "pkg-v1.1.6+1.20.1-forge" = _X0qp4Bt5;
+        "default" = _X0qp4Bt5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "puddles-floods";

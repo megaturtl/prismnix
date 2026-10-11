@@ -1386,6 +1386,36 @@ let
             "file" = "cookingforblockheads-neoforge-26.3-26.3.0.1.jar";
             "hash" = "sha512-8asgKvGMmnyz8FglZYlt8g8bUnrqfOdkXiYH8jlO6FujIlgRALQbAmQxq6FPavh4wEMuwp28EzP4ksfOyrk6hg==";
         };
+        _UIUtcUgS = {
+            "id" = "UIUtcUgS";
+            "file" = "cookingforblockheads-fabric-26.2-26.2.0.5.jar";
+            "hash" = "sha512-EsaPK5T7+TZZKMtfBvv5QorjSiAITbZAbK0oIfQJt8TrQsifEqL4JdVAqzsWf4TvvVp0QPGeD2IjuGcGQKys6A==";
+        };
+        _AaH0yQsO = {
+            "id" = "AaH0yQsO";
+            "file" = "cookingforblockheads-fabric-26.1.2-26.1.2.6.jar";
+            "hash" = "sha512-np/xH2Wyj137yJi+P2gYxOmADIm74G/X/PLcbC54G7CCtcHUWoNnWVF29ChbXHaYQeFfMHrTGwxzb6FwQ/vuBg==";
+        };
+        _lqjaCPJY = {
+            "id" = "lqjaCPJY";
+            "file" = "cookingforblockheads-neoforge-26.2-26.2.0.5.jar";
+            "hash" = "sha512-dvLZP2cvIVUKMkFlkQPVV7/DHPTNkaxIwEfyAVunsdepgk9qI/dLtfO4Ed/hNwYHFAAQYCYUSRXrqBiPARJ+Bw==";
+        };
+        _qR2BKmSz = {
+            "id" = "qR2BKmSz";
+            "file" = "cookingforblockheads-neoforge-26.1.2-26.1.2.6.jar";
+            "hash" = "sha512-FYHRHXSJHOvk1psm3YkbuqBQQanLDuGwLmVimBem7CSAZ/rJYNVdXXEDV+3qY3O4/3oIaiiHuMH6Y2rIfGnAoQ==";
+        };
+        _3vl3upGM = {
+            "id" = "3vl3upGM";
+            "file" = "cookingforblockheads-fabric-26.3-26.3.0.2.jar";
+            "hash" = "sha512-Qnk1oTCToF4lvx0v8W69JsxM4afomzVCCVG/a/NsgfGrn7vzyomb0C9m67uwGlbUHSm4PPycHd3u+WjGypNSiQ==";
+        };
+        _AyGfTjV5 = {
+            "id" = "AyGfTjV5";
+            "file" = "cookingforblockheads-neoforge-26.3-26.3.0.2.jar";
+            "hash" = "sha512-EUUnIfQrumyYeTlr3SwAi7DQAYzaw9UWasEOuIlC/p3avnCR0Y7GSyWXG9kKXaWG4yRnDX9zZW/GmbZMGLTpYg==";
+        };
     in {
         "30Rf3OVG" = _30Rf3OVG;
         "VFJwjAIW" = _VFJwjAIW;
@@ -1664,6 +1694,12 @@ let
         "cpldiHDH" = _cpldiHDH;
         "YjTFkjoV" = _YjTFkjoV;
         "6CTYyIMC" = _6CTYyIMC;
+        "UIUtcUgS" = _UIUtcUgS;
+        "AaH0yQsO" = _AaH0yQsO;
+        "lqjaCPJY" = _lqjaCPJY;
+        "qR2BKmSz" = _qR2BKmSz;
+        "3vl3upGM" = _3vl3upGM;
+        "AyGfTjV5" = _AyGfTjV5;
         "forge-1.19" = _tj2r8UFF;
         "forge-1.19.1" = _tj2r8UFF;
         "forge-1.18.2" = _XPhxXLsP;
@@ -1712,9 +1748,9 @@ let
         "fabric-1.21.10" = _STMwFWIj;
         "fabric-1.21.11" = _5Ykn1jsb;
         "fabric-26.1.1" = _N6xKbNE7;
-        "fabric-26.1.2" = _GNGNG8kQ;
-        "fabric-26.2" = _MoxcSbZG;
-        "fabric-26.3" = _YjTFkjoV;
+        "fabric-26.1.2" = _AaH0yQsO;
+        "fabric-26.2" = _UIUtcUgS;
+        "fabric-26.3" = _3vl3upGM;
         "neoforge-1.20.2" = _YJ4WsFrH;
         "neoforge-1.20.4" = _lwCok51k;
         "neoforge-1.20.6" = _1iw2Ip4J;
@@ -1732,9 +1768,9 @@ let
         "neoforge-1.21.11" = _vmS7g5mF;
         "neoforge-26.1" = _SgTVv8v1;
         "neoforge-26.1.1" = _JwYD2kZ3;
-        "neoforge-26.1.2" = _YPxlUgdv;
-        "neoforge-26.2" = _cpldiHDH;
-        "neoforge-26.3" = _6CTYyIMC;
+        "neoforge-26.1.2" = _qR2BKmSz;
+        "neoforge-26.2" = _lqjaCPJY;
+        "neoforge-26.3" = _AyGfTjV5;
         "pkg-13.0.0+forge-1.19" = _30Rf3OVG;
         "pkg-13.1.0+fabric-1.19" = _VFJwjAIW;
         "pkg-13.1.0+forge-1.19" = _8WX88qqx;
@@ -2012,7 +2048,13 @@ let
         "pkg-26.2.0.4+neoforge-26.2" = _cpldiHDH;
         "pkg-26.3.0.1+fabric-26.3" = _YjTFkjoV;
         "pkg-26.3.0.1+neoforge-26.3" = _6CTYyIMC;
-        "default" = _6CTYyIMC;
+        "pkg-26.2.0.5+fabric-26.2" = _UIUtcUgS;
+        "pkg-26.1.2.6+fabric-26.1.2" = _AaH0yQsO;
+        "pkg-26.2.0.5+neoforge-26.2" = _lqjaCPJY;
+        "pkg-26.1.2.6+neoforge-26.1.2" = _qR2BKmSz;
+        "pkg-26.3.0.2+fabric-26.3" = _3vl3upGM;
+        "pkg-26.3.0.2+neoforge-26.3" = _AyGfTjV5;
+        "default" = _AyGfTjV5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cooking-for-blockheads";

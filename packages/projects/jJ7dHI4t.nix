@@ -221,6 +221,16 @@ let
             "file" = "craftables-datapack-1.16-26.2.jar";
             "hash" = "sha512-NU4PoZ9ra5nsttU9fuFSetFFEnUUZPGgrS/1ov5rdUK5c16/WI9OrkU7T5QgYew/cLIvJSZLOrqNmuUuMTgplQ==";
         };
+        _KGJfSm5b = {
+            "id" = "KGJfSm5b";
+            "file" = "Craftables V1.16-26.3.zip";
+            "hash" = "sha512-gj/+eonEIiqeuGTurTZJ6zDygjVtaKImpuZuQAXjZZwo+3+GjLIE9znzdtJsfOt/HKX0WgoWomRRGC5InZ2r1w==";
+        };
+        _mEfC0B3O = {
+            "id" = "mEfC0B3O";
+            "file" = "craftables-datapack-1.16-26.3.jar";
+            "hash" = "sha512-NpHl3hxQ6PXsw2pwmbgZAFafyK6cRUpzf1i0w12Zh+fw4DyIBiy+NeylHao/PswAv7ch+ilaFRTQnEjI0QNJqQ==";
+        };
     in {
         "GjnA3is2" = _GjnA3is2;
         "5OPs0dWx" = _5OPs0dWx;
@@ -266,6 +276,8 @@ let
         "viJYd0U8" = _viJYd0U8;
         "nyNuflrA" = _nyNuflrA;
         "Dppxl4Kp" = _Dppxl4Kp;
+        "KGJfSm5b" = _KGJfSm5b;
+        "mEfC0B3O" = _mEfC0B3O;
         "datapack-1.21.5" = _F90PHHHv;
         "datapack-1.21.6" = _oakvMz0b;
         "datapack-1.21.7" = _3C6zrooS;
@@ -274,7 +286,8 @@ let
         "datapack-1.21.10" = _LeKze84E;
         "datapack-1.21.11" = _xIpfaLAY;
         "datapack-26.1" = _ZzxdVYNw;
-        "datapack-26.2" = _nyNuflrA;
+        "datapack-26.2" = _KGJfSm5b;
+        "datapack-26.3" = _KGJfSm5b;
         "fabric-1.21.5" = _kxpgJu4K;
         "fabric-1.21.6" = _dxSmSLS6;
         "fabric-1.21.7" = _FPjtdPLp;
@@ -283,7 +296,8 @@ let
         "fabric-1.21.10" = _OQqDM7I3;
         "fabric-1.21.11" = _opEaFyUI;
         "fabric-26.1" = _kc3fZaGm;
-        "fabric-26.2" = _Dppxl4Kp;
+        "fabric-26.2" = _mEfC0B3O;
+        "fabric-26.3" = _mEfC0B3O;
         "forge-1.21.5" = _kxpgJu4K;
         "forge-1.21.6" = _dxSmSLS6;
         "forge-1.21.7" = _FPjtdPLp;
@@ -301,7 +315,8 @@ let
         "neoforge-1.21.10" = _OQqDM7I3;
         "neoforge-1.21.11" = _opEaFyUI;
         "neoforge-26.1" = _kc3fZaGm;
-        "neoforge-26.2" = _Dppxl4Kp;
+        "neoforge-26.2" = _mEfC0B3O;
+        "neoforge-26.3" = _mEfC0B3O;
         "quilt-1.21.5" = _kxpgJu4K;
         "quilt-1.21.6" = _dxSmSLS6;
         "quilt-1.21.7" = _FPjtdPLp;
@@ -355,7 +370,9 @@ let
         "pkg-1.15-26.2+mod" = _viJYd0U8;
         "pkg-1.16-26.2" = _nyNuflrA;
         "pkg-1.16-26.2+mod" = _Dppxl4Kp;
-        "default" = _Dppxl4Kp;
+        "pkg-1.16-26.3" = _KGJfSm5b;
+        "pkg-1.16-26.3+mod" = _mEfC0B3O;
+        "default" = _mEfC0B3O;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "craftables-datapack";

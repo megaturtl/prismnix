@@ -886,6 +886,36 @@ let
             "file" = "chatpatches-8.0-alpha.11+26.2-fabric.jar";
             "hash" = "sha512-Nld6973WeFvAD/xTetArnCbAmGXA6RFwtBFzb4zYwJFJ8P7Bj+QSNL90tAl4T7YNrETg86gifimQO2Ely/e9yQ==";
         };
+        _7bOgxxtz = {
+            "id" = "7bOgxxtz";
+            "file" = "chatpatches-8.0.0+1.20.1-fabric.jar";
+            "hash" = "sha512-ibyN8bttdqPomoNYBt5GjzkbpzphXnuz5ZHdcf+91ffnPNGpSpg173D8KWc3CW+nY8ENLKXLuTcjkQCqp2g3+w==";
+        };
+        _lIUP93Uo = {
+            "id" = "lIUP93Uo";
+            "file" = "chatpatches-8.0.0+1.21.1-fabric.jar";
+            "hash" = "sha512-IRQ06sayqrLYgqPnKwRxwLYGosB+GjpH+1/BceNbEV4pa4hkTu64MKgeQRoqBj1jgFWGywmZWy4Xesa57nWviQ==";
+        };
+        _GKfZ0PBv = {
+            "id" = "GKfZ0PBv";
+            "file" = "chatpatches-8.0.0+1.21.11-fabric.jar";
+            "hash" = "sha512-9VJ9cb8xKuPtO33DLwBbT4vTjal+TPtfCYvv67XrJ5gy8JM4JH5knKGWWy32xbXEOdsp6SwqcyUAIiskvFjJdA==";
+        };
+        _ljvL5dGx = {
+            "id" = "ljvL5dGx";
+            "file" = "chatpatches-8.0.0+26.1.2-fabric.jar";
+            "hash" = "sha512-vO2NyEjLKB9ra3nPkn22/fV0nYcyLdSyBL1gnqui1lITGEr7SKbAk5E69ej8BeZii5ryDaAGfOYYDg4TOsAZiA==";
+        };
+        _GgXxmKaX = {
+            "id" = "GgXxmKaX";
+            "file" = "chatpatches-8.0.0+26.2-fabric.jar";
+            "hash" = "sha512-iZqoi/RcyNxIzFzBXOvtsfbnvrXvSnGFNW26Hb25ZztlF7dtLB7qLe9d0k6mZIXFDd0KQumsiFtQXxsdGvfL3Q==";
+        };
+        _aX8lmXzZ = {
+            "id" = "aX8lmXzZ";
+            "file" = "chatpatches-8.0.0+26.3-fabric.jar";
+            "hash" = "sha512-vhMnp/KOUx6OHisAlZ7XqTW1ttjoUY0evoWYx2CbrvFeM27073Q4VrYaUKzV7dHh9Vv9EvbbX45egD8ekfZ1zw==";
+        };
     in {
         "TBBMUG9r" = _TBBMUG9r;
         "pG5NPlnE" = _pG5NPlnE;
@@ -1064,6 +1094,12 @@ let
         "5QbnHot7" = _5QbnHot7;
         "RaYtagQ5" = _RaYtagQ5;
         "iEULL77f" = _iEULL77f;
+        "7bOgxxtz" = _7bOgxxtz;
+        "lIUP93Uo" = _lIUP93Uo;
+        "GKfZ0PBv" = _GKfZ0PBv;
+        "ljvL5dGx" = _ljvL5dGx;
+        "GgXxmKaX" = _GgXxmKaX;
+        "aX8lmXzZ" = _aX8lmXzZ;
         "fabric-1.18" = _JMrqdKRS;
         "fabric-1.18.1" = _JMrqdKRS;
         "fabric-1.18.2" = _JMrqdKRS;
@@ -1072,15 +1108,15 @@ let
         "fabric-1.19.2" = _mkSBPVio;
         "fabric-1.19.3" = _mjlFxkfG;
         "fabric-1.19.4" = _yAnJTT2l;
-        "fabric-1.20" = _La8YU14Y;
-        "fabric-1.20.1" = _La8YU14Y;
+        "fabric-1.20" = _7bOgxxtz;
+        "fabric-1.20.1" = _7bOgxxtz;
         "fabric-1.20.2" = _GGNMxVqv;
         "fabric-1.20.3" = _8eTsvuzh;
         "fabric-1.20.4" = _8eTsvuzh;
         "fabric-1.20.5" = _Eb5BGpyY;
         "fabric-1.20.6" = _Eb5BGpyY;
-        "fabric-1.21" = _VRPAQrSm;
-        "fabric-1.21.1" = _VRPAQrSm;
+        "fabric-1.21" = _lIUP93Uo;
+        "fabric-1.21.1" = _lIUP93Uo;
         "fabric-1.21.2" = _zhAef8Sf;
         "fabric-1.21.3" = _zhAef8Sf;
         "fabric-1.21.4" = _zhAef8Sf;
@@ -1090,12 +1126,13 @@ let
         "fabric-1.21.8" = _9x9AixxR;
         "fabric-1.21.9" = _7mBtsf10;
         "fabric-1.21.10" = _7mBtsf10;
-        "fabric-1.21.11" = _5QbnHot7;
-        "fabric-26.1" = _RaYtagQ5;
-        "fabric-26.1.1" = _RaYtagQ5;
-        "fabric-26.1.2" = _RaYtagQ5;
+        "fabric-1.21.11" = _GKfZ0PBv;
+        "fabric-26.1" = _ljvL5dGx;
+        "fabric-26.1.1" = _ljvL5dGx;
+        "fabric-26.1.2" = _ljvL5dGx;
         "fabric-26.2-snapshot-6" = _pveyRYML;
-        "fabric-26.2" = _iEULL77f;
+        "fabric-26.2" = _GgXxmKaX;
+        "fabric-26.3" = _aX8lmXzZ;
         "quilt-1.19.1" = _mkSBPVio;
         "quilt-1.19.2" = _mkSBPVio;
         "quilt-1.19.3" = _mjlFxkfG;
@@ -1291,7 +1328,13 @@ let
         "pkg-8.0-alpha.11+1.21.11-fabric" = _5QbnHot7;
         "pkg-8.0-alpha.11+26.1.2-fabric" = _RaYtagQ5;
         "pkg-8.0-alpha.11+26.2-fabric" = _iEULL77f;
-        "default" = _iEULL77f;
+        "pkg-8.0.0+1.20.1-fabric" = _7bOgxxtz;
+        "pkg-8.0.0+1.21.1-fabric" = _lIUP93Uo;
+        "pkg-8.0.0+1.21.11-fabric" = _GKfZ0PBv;
+        "pkg-8.0.0+26.1.2-fabric" = _ljvL5dGx;
+        "pkg-8.0.0+26.2-fabric" = _GgXxmKaX;
+        "pkg-8.0.0+26.3-fabric" = _aX8lmXzZ;
+        "default" = _aX8lmXzZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chatpatches";

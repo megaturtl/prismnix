@@ -511,6 +511,46 @@ let
             "file" = "hybrid_aquatic-forge-1.20.1-1.7.2.jar";
             "hash" = "sha512-c9AZcEA+fHsRkE8Kt2GP5kvGTMvuzWgxBWCx+UfBcL4PVElmVMZ5LCnoVluuXtBc3uc/X+HgzrJir9o949+02A==";
         };
+        _fHRDljvH = {
+            "id" = "fHRDljvH";
+            "file" = "hybrid_aquatic-forge-1.20.1-1.7.3.jar";
+            "hash" = "sha512-IwK93Qpn+8HKDnIQK1hIX73z285ctkrWfzXAfP2+CLymlTmWizeeB0egqfnDL3OQbVqVofUDXiLZb8JE91sh5w==";
+        };
+        _QJ7HoC8e = {
+            "id" = "QJ7HoC8e";
+            "file" = "hybrid_aquatic-fabric-1.20.1-1.7.3.jar";
+            "hash" = "sha512-qjDroW5OA/Cj5y3+DTUXSOhDyYZGUC4q+DK85B6boW/k941MfFK6A0kDNp3sNtsk3FH8elUBEh7VJYZ6Hy+FoA==";
+        };
+        _WoaSrx48 = {
+            "id" = "WoaSrx48";
+            "file" = "hybrid_aquatic-neoforge-1.21.1-1.7.3.jar";
+            "hash" = "sha512-d1JohKB1/5nyuepagh7j+Yf3LNzqgNSZOGed1Z72jZKjUZZJvMbB0C5riEWxd6ht6Qeu2xYQ41VqOflmcTM/jg==";
+        };
+        _6us7HK5B = {
+            "id" = "6us7HK5B";
+            "file" = "hybrid_aquatic-fabric-1.21.1-1.7.3.jar";
+            "hash" = "sha512-BhwNhPZw4xWtPSB6H2wghlGRtGM/seExc1IrpzHVvZC+wSGm8f5/SKEZhsL67nF/NSmvgsFKuMPwt10cLTabvA==";
+        };
+        _toB2eTRa = {
+            "id" = "toB2eTRa";
+            "file" = "hybrid_aquatic-forge-1.20.1-1.7.4.jar";
+            "hash" = "sha512-9O3uRQ0etPsb+sn6nvxC2EG7y1tAHcNiM9mR19pCEyfAN0tFAXFww2ZSme/qsiNGwWfxg4ajXO5V8LSDzZxZZA==";
+        };
+        _XEPUjFWy = {
+            "id" = "XEPUjFWy";
+            "file" = "hybrid_aquatic-fabric-1.20.1-1.7.4.jar";
+            "hash" = "sha512-qmEPrRkLu4iuRQ03eN9CSHlXgNEFqtdGcZTDJ4XWbkxEG06iBHVTMzIRhbZUegkFuQmCSyFoF7sXThM/adGtoQ==";
+        };
+        _jdOU7Pzu = {
+            "id" = "jdOU7Pzu";
+            "file" = "hybrid_aquatic-neoforge-1.21.1-1.7.4.jar";
+            "hash" = "sha512-xx+VLbVBawGQB8cRdcFRxEOhckrM4g4aDte+nkyIpoBhtc8Y1XYlQUlBko5aIawfFBypIsxF/2J+ytkDnl8qKw==";
+        };
+        _elIfPYcA = {
+            "id" = "elIfPYcA";
+            "file" = "hybrid_aquatic-fabric-1.21.1-1.7.4.jar";
+            "hash" = "sha512-QZQGPNKQz/mlcfruhZRq6O+rY/WTo9CXvc1eS++DqTp8ub81qgAAH7lG2K6kxP2lsHLAcypIOWcCUqpksVetxA==";
+        };
     in {
         "4U8sQSGL" = _4U8sQSGL;
         "6c5zj7yx" = _6c5zj7yx;
@@ -614,16 +654,24 @@ let
         "rymElPnM" = _rymElPnM;
         "XPbuz6ie" = _XPbuz6ie;
         "zzFD1Emj" = _zzFD1Emj;
+        "fHRDljvH" = _fHRDljvH;
+        "QJ7HoC8e" = _QJ7HoC8e;
+        "WoaSrx48" = _WoaSrx48;
+        "6us7HK5B" = _6us7HK5B;
+        "toB2eTRa" = _toB2eTRa;
+        "XEPUjFWy" = _XEPUjFWy;
+        "jdOU7Pzu" = _jdOU7Pzu;
+        "elIfPYcA" = _elIfPYcA;
         "fabric-1.19.2" = _3ey2KNYL;
-        "fabric-1.20.1" = _XPbuz6ie;
+        "fabric-1.20.1" = _XEPUjFWy;
         "fabric-1.19.4" = _4yo5BU5p;
         "fabric-1.20.2" = _zmK4VFsK;
         "fabric-1.20.4" = _IbBqf6AS;
-        "fabric-1.21.1" = _rymElPnM;
-        "forge-1.20.1" = _zzFD1Emj;
+        "fabric-1.21.1" = _elIfPYcA;
+        "forge-1.20.1" = _toB2eTRa;
         "forge-1.20.2" = _9w6fg47O;
         "forge-1.20.4" = _I4rbfevS;
-        "neoforge-1.21.1" = _PgAiinc1;
+        "neoforge-1.21.1" = _jdOU7Pzu;
         "pkg-1.0.1-1.19.2" = _4U8sQSGL;
         "pkg-1.0.1-1.20.1" = _6c5zj7yx;
         "pkg-1.0.1-1.19.4" = _v1vDo62a;
@@ -698,7 +746,15 @@ let
         "pkg-mc1.21.1-1.7.2-fabric" = _rymElPnM;
         "pkg-mc1.20.1-1.7.2-fabric" = _XPbuz6ie;
         "pkg-mc1.20.1-1.7.2-forge" = _zzFD1Emj;
-        "default" = _zzFD1Emj;
+        "pkg-mc1.20.1-1.7.3-forge" = _fHRDljvH;
+        "pkg-mc1.20.1-1.7.3-fabric" = _QJ7HoC8e;
+        "pkg-mc1.21.1-1.7.3-neoforge" = _WoaSrx48;
+        "pkg-mc1.21.1-1.7.3-fabric" = _6us7HK5B;
+        "pkg-mc1.20.1-1.7.4-forge" = _toB2eTRa;
+        "pkg-mc1.20.1-1.7.4-fabric" = _XEPUjFWy;
+        "pkg-mc1.21.1-1.7.4-neoforge" = _jdOU7Pzu;
+        "pkg-mc1.21.1-1.7.4-fabric" = _elIfPYcA;
+        "default" = _elIfPYcA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hybrid-aquatic";

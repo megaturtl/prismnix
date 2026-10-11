@@ -136,6 +136,21 @@ let
             "file" = "animalgarden-snowleopard-1.0.1-fabric-26.2-0.152.2.jar";
             "hash" = "sha512-tJl0qjqGVDnUpcYaaYiPGQerY9AC5dAwgYlFUSaybhplyTcxjl693qVZmqCnC0Ae9Wjb9gXJ+c9tsOaQ7Ptjfg==";
         };
+        _yqnEbncD = {
+            "id" = "yqnEbncD";
+            "file" = "animalgarden-snowleopard-1.0.1-forge-26.3-66.0.2.jar";
+            "hash" = "sha512-vte3I3IjzQs042uBzXa+UkCK+rGdbteEx/siandqU3B/RRpxOQggiUuOvi8sufJ3AhFfaW53+2DEu4z/JIx8WA==";
+        };
+        _PfzF89Wx = {
+            "id" = "PfzF89Wx";
+            "file" = "animalgarden-snowleopard-1.0.1-neoforge-26.3.0.7.jar";
+            "hash" = "sha512-JspUDKO/Ptlmsz2HpTs6Q68YxnDYd7myx18Vum1sdX1o/rOF+oOfI/jauiqY9dauvH8ZupUbBcmdRPuLJwWnRg==";
+        };
+        _lZjdLL5m = {
+            "id" = "lZjdLL5m";
+            "file" = "animalgarden-snowleopard-1.0.1-fabric-26.3-0.161.0.jar";
+            "hash" = "sha512-ALVL1t+6mVK1Wq98Xg/g3CvaSrbcJwcbviz4KuTO2T1pU4kGz0kakNn7S/kmvRR56x3En6UWYk5v9bDXgG8Wug==";
+        };
     in {
         "bQFeEqXm" = _bQFeEqXm;
         "Qkqsr1d4" = _Qkqsr1d4;
@@ -164,6 +179,9 @@ let
         "a5CC37ba" = _a5CC37ba;
         "JU1fnQAO" = _JU1fnQAO;
         "g6orWsvp" = _g6orWsvp;
+        "yqnEbncD" = _yqnEbncD;
+        "PfzF89Wx" = _PfzF89Wx;
+        "lZjdLL5m" = _lZjdLL5m;
         "fabric-1.20.1" = _bQFeEqXm;
         "fabric-1.21.1" = _Qkqsr1d4;
         "fabric-1.21.3" = _M6QRgTZL;
@@ -179,6 +197,7 @@ let
         "fabric-26.1.1" = _dLeZNJTp;
         "fabric-26.1.2" = _dLeZNJTp;
         "fabric-26.2" = _g6orWsvp;
+        "fabric-26.3" = _lZjdLL5m;
         "neoforge-1.21.1" = _WPVd2uIj;
         "neoforge-1.21.3" = _WQZ3WV2g;
         "neoforge-1.21.4" = _WQZ3WV2g;
@@ -193,6 +212,7 @@ let
         "neoforge-26.1.1" = _LqgV8Wt3;
         "neoforge-26.1.2" = _LqgV8Wt3;
         "neoforge-26.2" = _JU1fnQAO;
+        "neoforge-26.3" = _PfzF89Wx;
         "forge-1.20.1" = _IYaa8QmZ;
         "forge-1.21.1" = _sGXuJX5A;
         "forge-1.21.3" = _2kOjtq85;
@@ -209,6 +229,7 @@ let
         "forge-26.1.1" = _8E1NEAQg;
         "forge-26.1.2" = _8E1NEAQg;
         "forge-26.2" = _a5CC37ba;
+        "forge-26.3" = _yqnEbncD;
         "pkg-1.0.0-fabric-1.20.1-0.92.7" = _bQFeEqXm;
         "pkg-1.0.0-fabric-1.21.1-0.116.9" = _Qkqsr1d4;
         "pkg-1.0.0-fabric-1.21.4-0.119.4" = _M6QRgTZL;
@@ -236,7 +257,10 @@ let
         "pkg-1.0.1-forge-26.2-65.0.0" = _a5CC37ba;
         "pkg-1.0.1-neoforge-26.2.0.6" = _JU1fnQAO;
         "pkg-1.0.1-fabric-26.2-0.152.2" = _g6orWsvp;
-        "default" = _g6orWsvp;
+        "pkg-1.0.1-forge-26.3-66.0.2" = _yqnEbncD;
+        "pkg-1.0.1-neoforge-26.3.0.7" = _PfzF89Wx;
+        "pkg-1.0.1-fabric-26.3-0.161.0" = _lZjdLL5m;
+        "default" = _lZjdLL5m;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "animal-garden-snow-leopard";

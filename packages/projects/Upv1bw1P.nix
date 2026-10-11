@@ -31,6 +31,11 @@ let
             "file" = "KeyOverlay-26.2.jar";
             "hash" = "sha512-sPSosxvbCAm7RQLSHUU5MEDzudGUkjfSYhS243l9Tuby7ej35rAu+sef0i+sbro3xO/+HG+G6ohPkOMzAxh12g==";
         };
+        _mms4BnWK = {
+            "id" = "mms4BnWK";
+            "file" = "KeyOverlay-26.3.jar";
+            "hash" = "sha512-ZK/mt0hQtA9jpRyKwmS7OUzMhVyA6K0yj4BKtX6Sr6unB83vq5ulFOld+hL7n+E8qF9p2F59IObNZ3zZosvOCQ==";
+        };
     in {
         "gi4ZT7Mr" = _gi4ZT7Mr;
         "ufxf0Fod" = _ufxf0Fod;
@@ -38,6 +43,7 @@ let
         "i8mTOq7s" = _i8mTOq7s;
         "MEvxB036" = _MEvxB036;
         "LvIRXvLO" = _LvIRXvLO;
+        "mms4BnWK" = _mms4BnWK;
         "fabric-1.20" = _gi4ZT7Mr;
         "fabric-1.20.1" = _gi4ZT7Mr;
         "fabric-1.20.2" = _gi4ZT7Mr;
@@ -61,8 +67,9 @@ let
         "fabric-26.1.1" = _MEvxB036;
         "fabric-26.1.2" = _MEvxB036;
         "fabric-26.2" = _LvIRXvLO;
-        "pkg-1.0" = _LvIRXvLO;
-        "default" = _LvIRXvLO;
+        "fabric-26.3" = _mms4BnWK;
+        "pkg-1.0" = _mms4BnWK;
+        "default" = _mms4BnWK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "keyoverlay";

@@ -171,6 +171,26 @@ let
             "file" = "ClimateRivers-v26.2.1-mc26.2.x-NeoForge.jar";
             "hash" = "sha512-vzj+3Sr9IWGWMTtnlqfazbXOHKmPViLg9A7GumbLhPz4UydDYA0a/kOnYQyE/Quy8MgqfIeZkQGvHWHvgy7xMw==";
         };
+        _YOADzpMv = {
+            "id" = "YOADzpMv";
+            "file" = "climaterivers-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-OXnWl4L75CDl0y9KjegBLzypi89/HD3/ceOECHf3u0tbdQTS9Udo18FsQsuYTaLZy5PPh4A3YPZPj4B5F2gL5g==";
+        };
+        _EIt36AuS = {
+            "id" = "EIt36AuS";
+            "file" = "climaterivers-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-pnPbXwVwsnZl+tYY0jFKrvz/VeNHy2wgZImj33zsO+X4qW58oaSI8TGjrnyXT+T1wiJ3rvbYF0iuZls/mS58ig==";
+        };
+        _CRgmwgSD = {
+            "id" = "CRgmwgSD";
+            "file" = "climaterivers-v26.3.1-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-XDlqDcRNBaUnnLPfT9y/QSCYobcXVgL8nK+VJlaGK4PmRBgbN7R+6eLyaTZaPCPXmJn9TIx3dZCFxFD/IZ3dig==";
+        };
+        _5XH8f4HB = {
+            "id" = "5XH8f4HB";
+            "file" = "climaterivers-v26.3.1-mc26.3.x+fabric.jar";
+            "hash" = "sha512-YdvUgr3aBAdSToCAYNKnWvDpqVxVWBSR3DLfBXpY9l4RQZP+YR7UgI7ZDdU8aR2zItHBDuzVZF1svbCeOm8mGQ==";
+        };
     in {
         "hSIgiPMi" = _hSIgiPMi;
         "4qUXJcmU" = _4qUXJcmU;
@@ -206,6 +226,10 @@ let
         "o9JeaQDa" = _o9JeaQDa;
         "7OZbCRHr" = _7OZbCRHr;
         "9EkZnaEa" = _9EkZnaEa;
+        "YOADzpMv" = _YOADzpMv;
+        "EIt36AuS" = _EIt36AuS;
+        "CRgmwgSD" = _CRgmwgSD;
+        "5XH8f4HB" = _5XH8f4HB;
         "fabric-1.21.4" = _hSIgiPMi;
         "fabric-1.21.5" = _jQneLVuX;
         "fabric-1.21.1" = _DEx2AHrx;
@@ -219,6 +243,7 @@ let
         "fabric-26.1.1" = _I3Epc22Z;
         "fabric-26.1.2" = _I3Epc22Z;
         "fabric-26.2" = _7OZbCRHr;
+        "fabric-26.3" = _5XH8f4HB;
         "neoforge-1.21.4" = _4qUXJcmU;
         "neoforge-1.21.5" = _cxA5bBiX;
         "neoforge-1.21.1" = _qHngFoBS;
@@ -231,6 +256,7 @@ let
         "neoforge-26.1.1" = _qGXu9GyK;
         "neoforge-26.1.2" = _qGXu9GyK;
         "neoforge-26.2" = _9EkZnaEa;
+        "neoforge-26.3" = _CRgmwgSD;
         "forge-1.20.1" = _tclzgJeT;
         "pkg-v21.4.0-1.21.4-Fabric" = _hSIgiPMi;
         "pkg-v21.4.0-1.21.4-NeoForge" = _4qUXJcmU;
@@ -259,7 +285,9 @@ let
         "pkg-26.1.0" = _qGXu9GyK;
         "pkg-26.2.0" = _o9JeaQDa;
         "pkg-26.2.1" = _9EkZnaEa;
-        "default" = _9EkZnaEa;
+        "pkg-26.3.0" = _EIt36AuS;
+        "pkg-26.3.1" = _5XH8f4HB;
+        "default" = _5XH8f4HB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "climate-rivers";

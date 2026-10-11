@@ -41,6 +41,11 @@ let
             "file" = "pink_quartz_trims-2.0.1-resourcepack-26.2.zip";
             "hash" = "sha512-wbH8iYEP2sOXfKvv1XKm5udAR5oqski25AbISX1is/Vr5mKQQelr9Cymy19ZNvv9ExnMvNYoukwTytWlSXSQKA==";
         };
+        _CzRJ4p6K = {
+            "id" = "CzRJ4p6K";
+            "file" = "pink_quartz_trims-2.1-resourcepack-26.3.zip";
+            "hash" = "sha512-zIcBO2Q54YRaTXyhyuRTUW4oB6UROA0yviZwRlT7ThcKh7yD4G4W2Tp/O5QD/2aqupbr/ZspPs6wJTXp7HroOA==";
+        };
     in {
         "BaGlX7Bg" = _BaGlX7Bg;
         "aQvloMmr" = _aQvloMmr;
@@ -50,6 +55,7 @@ let
         "THKIxmAs" = _THKIxmAs;
         "iuEAUMwo" = _iuEAUMwo;
         "exkZLPgX" = _exkZLPgX;
+        "CzRJ4p6K" = _CzRJ4p6K;
         "minecraft-1.21" = _iuEAUMwo;
         "minecraft-1.21.1" = _iuEAUMwo;
         "minecraft-1.21.2" = _iuEAUMwo;
@@ -73,11 +79,13 @@ let
         "minecraft-26.1.1" = _exkZLPgX;
         "minecraft-26.1.2" = _exkZLPgX;
         "minecraft-26.2" = _exkZLPgX;
+        "minecraft-26.3" = _CzRJ4p6K;
         "pkg-1.0" = _BaGlX7Bg;
         "pkg-1.0.1" = _aQvloMmr;
         "pkg-2.0" = _bTsRKVFc;
         "pkg-2.0.1" = _exkZLPgX;
-        "default" = _exkZLPgX;
+        "pkg-2.1" = _CzRJ4p6K;
+        "default" = _CzRJ4p6K;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pink-quartz-trims";

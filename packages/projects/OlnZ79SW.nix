@@ -186,6 +186,16 @@ let
             "file" = "breeze-rod-recipes-1.0.jar";
             "hash" = "sha512-70FQBSKL5aDzMYEG1vFGlnDrGDN6XnQf/r6mIxYjY09hpQ03IxC4AqQpK5IPYj99CyW7rKorHdYusZrRNbS79A==";
         };
+        _kpBBSBIj = {
+            "id" = "kpBBSBIj";
+            "file" = "breeze_rod-26.3.zip";
+            "hash" = "sha512-kXpklVd/M4p5tc3AEsPllImBLr428vW3IZul9pc02ObVgI9uxbHevWVWR2Xg9gWONW6qFk3KAcAYopcGP6QHCA==";
+        };
+        _5f7TPzHK = {
+            "id" = "5f7TPzHK";
+            "file" = "breeze-rod-recipes-1.0.jar";
+            "hash" = "sha512-LNJu72tVMVALv7adElLWk/A7nzE4I659PQqkQSCqwQsZ8Ch4CQwvu4PIkH0t9KapRREyTzqIufMQIvucMqMC8g==";
+        };
     in {
         "jBTAJZsq" = _jBTAJZsq;
         "5fMiQiwL" = _5fMiQiwL;
@@ -224,6 +234,8 @@ let
         "WF9qQiHN" = _WF9qQiHN;
         "cZM5bMal" = _cZM5bMal;
         "S8sdUwuf" = _S8sdUwuf;
+        "kpBBSBIj" = _kpBBSBIj;
+        "5f7TPzHK" = _5f7TPzHK;
         "datapack-1.21" = _UGcllHAR;
         "datapack-1.21.1" = _UGcllHAR;
         "datapack-1.21.2" = _UixYOMei;
@@ -259,6 +271,7 @@ let
         "datapack-26.2-snapshot-2" = _8gJDGE3J;
         "datapack-26.2" = _cZM5bMal;
         "datapack-26.3-snapshot-1" = _cZM5bMal;
+        "datapack-26.3" = _kpBBSBIj;
         "fabric-1.21" = _EWS89vUT;
         "fabric-1.21.1" = _EWS89vUT;
         "fabric-1.21.2" = _VloN4wye;
@@ -294,6 +307,7 @@ let
         "fabric-26.2-snapshot-2" = _WF9qQiHN;
         "fabric-26.2" = _S8sdUwuf;
         "fabric-26.3-snapshot-1" = _S8sdUwuf;
+        "fabric-26.3" = _5f7TPzHK;
         "forge-1.21" = _EWS89vUT;
         "forge-1.21.1" = _EWS89vUT;
         "forge-1.21.2" = _VloN4wye;
@@ -329,6 +343,7 @@ let
         "forge-26.2-snapshot-2" = _WF9qQiHN;
         "forge-26.2" = _S8sdUwuf;
         "forge-26.3-snapshot-1" = _S8sdUwuf;
+        "forge-26.3" = _5f7TPzHK;
         "neoforge-1.21" = _EWS89vUT;
         "neoforge-1.21.1" = _EWS89vUT;
         "neoforge-1.21.2" = _VloN4wye;
@@ -364,6 +379,7 @@ let
         "neoforge-26.2-snapshot-2" = _WF9qQiHN;
         "neoforge-26.2" = _S8sdUwuf;
         "neoforge-26.3-snapshot-1" = _S8sdUwuf;
+        "neoforge-26.3" = _5f7TPzHK;
         "quilt-1.21" = _EWS89vUT;
         "quilt-1.21.1" = _EWS89vUT;
         "quilt-1.21.2" = _VloN4wye;
@@ -399,9 +415,10 @@ let
         "quilt-26.2-snapshot-2" = _WF9qQiHN;
         "quilt-26.2" = _S8sdUwuf;
         "quilt-26.3-snapshot-1" = _S8sdUwuf;
-        "pkg-1.0" = _cZM5bMal;
-        "pkg-1.0+mod" = _S8sdUwuf;
-        "default" = _S8sdUwuf;
+        "quilt-26.3" = _5f7TPzHK;
+        "pkg-1.0" = _kpBBSBIj;
+        "pkg-1.0+mod" = _5f7TPzHK;
+        "default" = _5f7TPzHK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "breeze-rod-recipes";

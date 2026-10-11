@@ -271,6 +271,16 @@ let
             "file" = "PermanentSponges-v26.2.0-mc26.2.x-NeoForge.jar";
             "hash" = "sha512-Mfvahf5cqt2RYctCmRx1jHELImc+UCMDSIxtlHWe3W/MgT6fM5mKjFJZQbQA6KJ1de8j+IKt6DI8jlQZL7iNxQ==";
         };
+        _aSg0RZFF = {
+            "id" = "aSg0RZFF";
+            "file" = "permanentsponges-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-Vysg4kWf6YElI+L5GbQ4PghAI4QnzQ/QDVDG49haJC/c5JOW99Tlm8MzHz8h5J6QWv33Qh8UT9TRt4XnXlQN5A==";
+        };
+        _bqMQ1B3k = {
+            "id" = "bqMQ1B3k";
+            "file" = "permanentsponges-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-9IT5+LWC3RlotddHxM6y/L/ey+EH6R7VUdwEJfACGgwDAvNLX/lsnoaS22HFA8n5IoZwJXIf2u+oMmfWOWsXWQ==";
+        };
     in {
         "XeeXid43" = _XeeXid43;
         "QW6FICQW" = _QW6FICQW;
@@ -326,6 +336,8 @@ let
         "uJCW3Wr7" = _uJCW3Wr7;
         "39SdgzdJ" = _39SdgzdJ;
         "ZBrCmbil" = _ZBrCmbil;
+        "aSg0RZFF" = _aSg0RZFF;
+        "bqMQ1B3k" = _bqMQ1B3k;
         "forge-1.19.2" = _XeeXid43;
         "forge-1.19.3" = _XqPIf4c1;
         "forge-1.19.4" = _qDMxveL5;
@@ -353,6 +365,7 @@ let
         "fabric-26.1.1" = _ltm0PW1V;
         "fabric-26.1.2" = _ltm0PW1V;
         "fabric-26.2" = _39SdgzdJ;
+        "fabric-26.3" = _bqMQ1B3k;
         "neoforge-1.20.4" = _ziO3xJ4h;
         "neoforge-1.21" = _Rc5blTpX;
         "neoforge-1.21.1" = _9EBHr4tP;
@@ -369,6 +382,7 @@ let
         "neoforge-26.1.1" = _uJCW3Wr7;
         "neoforge-26.1.2" = _uJCW3Wr7;
         "neoforge-26.2" = _ZBrCmbil;
+        "neoforge-26.3" = _aSg0RZFF;
         "pkg-v4.0.0-1.19.2-Forge" = _XeeXid43;
         "pkg-v4.0.0-1.19.2-Fabric" = _QW6FICQW;
         "pkg-v5.0.0-1.19.3-Fabric" = _u2qBPs4q;
@@ -418,7 +432,8 @@ let
         "pkg-21.11.0" = _oBuVp5Ix;
         "pkg-26.1.0" = _uJCW3Wr7;
         "pkg-26.2.0" = _ZBrCmbil;
-        "default" = _ZBrCmbil;
+        "pkg-26.3.0" = _bqMQ1B3k;
+        "default" = _bqMQ1B3k;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "permanent-sponges";

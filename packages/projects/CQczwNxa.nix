@@ -226,6 +226,21 @@ let
             "file" = "saros-easy-gm-switch-1.0.1.jar";
             "hash" = "sha512-LZhV21x0W1Z+pa9AwiEfveoAXUHmOoCHDOwlKNCUQhCGiyBH/r1fvnaBAMNlrrpEKddC5kY+TM4cwiJoOZVpDQ==";
         };
+        _J9EBkqe0 = {
+            "id" = "J9EBkqe0";
+            "file" = "Saros-Easy-GM-Switch-Fabric-26.3-1.0.2.jar";
+            "hash" = "sha512-DUr5unJR/Ldh+f1qQqxjbZ9/E19YF9FUcnfAYvWkTV5WuMy6kmwLrTxmvB86Pq9o9c9jScRAquduHgY0bgi67A==";
+        };
+        _Dj7dpc20 = {
+            "id" = "Dj7dpc20";
+            "file" = "Saros-Easy-GM-Switch-NeoForge-26.3-1.0.3.jar";
+            "hash" = "sha512-58pjGNodLElVCS2hqPi18tQFHMif/uzPtLl1voHV5XWdFc5O6aaGe/jadKE6KxtQhLgxg9HZFKrI1lPaIrGONg==";
+        };
+        _70okgfXR = {
+            "id" = "70okgfXR";
+            "file" = "Saros-Easy-GM-Switch-Forge-26.3-1.0.4.jar";
+            "hash" = "sha512-a7WbZrhrurpwroTpBwkG92LNKdYkplR7mBO6fq8b2vI8hh6fmwSjbeB9z7zfiJLuOWSR7RkzP808Z1k8ssvONg==";
+        };
     in {
         "Pgn1GbIN" = _Pgn1GbIN;
         "cM6Wk07p" = _cM6Wk07p;
@@ -272,6 +287,9 @@ let
         "9iXGBrSj" = _9iXGBrSj;
         "qX1ttpmc" = _qX1ttpmc;
         "ifHXaOIc" = _ifHXaOIc;
+        "J9EBkqe0" = _J9EBkqe0;
+        "Dj7dpc20" = _Dj7dpc20;
+        "70okgfXR" = _70okgfXR;
         "forge-1.12.2" = _Pgn1GbIN;
         "forge-1.15.2" = _cM6Wk07p;
         "forge-1.16.5" = _hFAlj8Gz;
@@ -297,6 +315,7 @@ let
         "forge-26.1.1" = _JcZArw4R;
         "forge-26.1.2" = _JcZArw4R;
         "forge-26.2" = _9iXGBrSj;
+        "forge-26.3" = _70okgfXR;
         "fabric-1.15.2" = _csg93Eut;
         "fabric-1.16.5" = _EJQp9RsS;
         "fabric-1.18.2" = _Ewu3tGfE;
@@ -313,15 +332,20 @@ let
         "fabric-26.1.1" = _njmVFcVp;
         "fabric-26.1.2" = _njmVFcVp;
         "fabric-26.2" = _ifHXaOIc;
+        "fabric-26.3" = _J9EBkqe0;
         "neoforge-26.1" = _A2T9Fqyn;
         "neoforge-26.1.1" = _A2T9Fqyn;
         "neoforge-26.1.2" = _A2T9Fqyn;
         "neoforge-26.2" = _qX1ttpmc;
+        "neoforge-26.3" = _Dj7dpc20;
         "pkg-0.1" = _vMFT19ig;
         "pkg-1.0" = _xDsvoylk;
         "pkg-1.0.0" = _A2T9Fqyn;
         "pkg-1.0.1" = _ifHXaOIc;
-        "default" = _ifHXaOIc;
+        "pkg-1.0.2" = _J9EBkqe0;
+        "pkg-1.0.3" = _Dj7dpc20;
+        "pkg-1.0.4" = _70okgfXR;
+        "default" = _70okgfXR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "saros-easy-gm-switch";

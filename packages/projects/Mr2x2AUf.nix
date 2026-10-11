@@ -161,6 +161,16 @@ let
             "file" = "LinkedChests-v26.1.1-mc26.1.x-Fabric.jar";
             "hash" = "sha512-YxTR8kZgk9jRdGcb2eUcr22LmaiBe+eT/QoiYalVQtgvHrZbuO7Gc9Y4H397gTFqh0y31Et2Asl0RbjCL4Gf7Q==";
         };
+        _KAFtyoB7 = {
+            "id" = "KAFtyoB7";
+            "file" = "linkedchests-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-gEtQqziszwt3uGD8cyb8wy+aMEBDGziAjex6ACZ3NeXo/Sy1llaJGG202IYcd28uJ6CqXC0heoIs9qwnp5tZ5g==";
+        };
+        _w2esbf38 = {
+            "id" = "w2esbf38";
+            "file" = "linkedchests-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-Fo9O6gi/3+Uy7PNHsnaWK+FuFUs31K+K1X7Gikix2QMukjd72+ejbYdRFqAdnTdU2IcrqoBgOpeYdmHLI4oSaA==";
+        };
     in {
         "hYiFHtv0" = _hYiFHtv0;
         "GIiRpEEp" = _GIiRpEEp;
@@ -194,6 +204,8 @@ let
         "Hq87TFnO" = _Hq87TFnO;
         "31Vhr8s5" = _31Vhr8s5;
         "4XAQyN57" = _4XAQyN57;
+        "KAFtyoB7" = _KAFtyoB7;
+        "w2esbf38" = _w2esbf38;
         "fabric-1.21.1" = _hYiFHtv0;
         "fabric-1.21.3" = _27boELzJ;
         "fabric-1.21.4" = _D5fjjkmF;
@@ -208,6 +220,7 @@ let
         "fabric-26.1.1" = _4XAQyN57;
         "fabric-26.1.2" = _4XAQyN57;
         "fabric-26.2" = _5oJWzvLd;
+        "fabric-26.3" = _w2esbf38;
         "neoforge-1.21.1" = _GIiRpEEp;
         "neoforge-1.21.3" = _jwB4aUUG;
         "neoforge-1.21.4" = _CALR2NPH;
@@ -222,6 +235,7 @@ let
         "neoforge-26.1.1" = _31Vhr8s5;
         "neoforge-26.1.2" = _31Vhr8s5;
         "neoforge-26.2" = _Hq87TFnO;
+        "neoforge-26.3" = _KAFtyoB7;
         "pkg-v21.1.0-1.21.1-Fabric" = _hYiFHtv0;
         "pkg-v21.1.0-1.21.1-NeoForge" = _GIiRpEEp;
         "pkg-v21.3.0-1.21.3-Fabric" = _27boELzJ;
@@ -247,7 +261,8 @@ let
         "pkg-26.2.0" = _BhZieexE;
         "pkg-26.2.1" = _Hq87TFnO;
         "pkg-26.1.1" = _4XAQyN57;
-        "default" = _4XAQyN57;
+        "pkg-26.3.0" = _w2esbf38;
+        "default" = _w2esbf38;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "new-linked-chests";

@@ -256,6 +256,11 @@ let
             "file" = "inventory_control_tweaks-1.12.0+MC26.2.x.jar";
             "hash" = "sha512-YMXJzmMd5F621lBZ6QBbm9ooYOPaCwXS1MxgTI1SPVd7x7h579Ynex+qXkEc0tptX8cHISjduPfhVDoTb/OpAQ==";
         };
+        _Kzr0lXNy = {
+            "id" = "Kzr0lXNy";
+            "file" = "inventory_control_tweaks-1.13.0+MC26.3.x.jar";
+            "hash" = "sha512-Wol/yr/W8dTWi1uX8R7r4/e2R7DsAS4zSjh3keJ5JNG9ukiullCTCK2P5/BbUo5xu7FFW7ImjvQ1crW23iMvdA==";
+        };
     in {
         "AvptC9aC" = _AvptC9aC;
         "nhsr8RLe" = _nhsr8RLe;
@@ -308,6 +313,7 @@ let
         "NuRGdU2X" = _NuRGdU2X;
         "EWvMrc8Z" = _EWvMrc8Z;
         "fDfdF7lw" = _fDfdF7lw;
+        "Kzr0lXNy" = _Kzr0lXNy;
         "fabric-1.17" = _eSwyyJYs;
         "fabric-1.17.1" = _eSwyyJYs;
         "fabric-1.18" = _Q0AkkKrk;
@@ -341,6 +347,7 @@ let
         "fabric-26.1.1" = _EWvMrc8Z;
         "fabric-26.1.2" = _EWvMrc8Z;
         "fabric-26.2" = _fDfdF7lw;
+        "fabric-26.3" = _Kzr0lXNy;
         "quilt-1.19" = _k6H6swoc;
         "quilt-1.19.1" = _k6H6swoc;
         "quilt-1.19.2" = _k6H6swoc;
@@ -369,6 +376,7 @@ let
         "quilt-26.1.1" = _EWvMrc8Z;
         "quilt-26.1.2" = _EWvMrc8Z;
         "quilt-26.2" = _fDfdF7lw;
+        "quilt-26.3" = _Kzr0lXNy;
         "pkg-1.3.6+MC1.17" = _AvptC9aC;
         "pkg-1.3.7+MC1.17-1.17.1" = _nhsr8RLe;
         "pkg-1.3.8+MC1.17-1.17.1" = _RnFc3oJo;
@@ -420,7 +428,8 @@ let
         "pkg-1.10.1+MC1.21.11" = _NuRGdU2X;
         "pkg-1.11.0+MC26.1-26.1.x" = _EWvMrc8Z;
         "pkg-1.12.0+MC26.2.x" = _fDfdF7lw;
-        "default" = _fDfdF7lw;
+        "pkg-1.13.0+MC26.3.x" = _Kzr0lXNy;
+        "default" = _Kzr0lXNy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "inventory-control-tweaks";

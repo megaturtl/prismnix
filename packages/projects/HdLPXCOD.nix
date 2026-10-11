@@ -291,6 +291,16 @@ let
             "file" = "ayame-paperdoll-neoforge-4.4.4+26.2.jar";
             "hash" = "sha512-vplLw2l7Ux/+qaY+NvV60C96nL64Ht2rpgeB11M7jZTcvU9+e06lHKV2kpgJ6g34QnxeI3uZ8l/hGMKMjlgmNA==";
         };
+        _AwDTNpDs = {
+            "id" = "AwDTNpDs";
+            "file" = "ayame-paperdoll-fabric-4.4.5+26.3.jar";
+            "hash" = "sha512-mgGrTfmSHQ5Hof3VVLyJkrCe1cGadPXQep/o88ZZCJQlHipcgtuyAY7l/aazJLOT18NcEaiWbbgOEFqWfJAmLQ==";
+        };
+        _AfMXWJjD = {
+            "id" = "AfMXWJjD";
+            "file" = "ayame-paperdoll-neoforge-4.4.5+26.3.jar";
+            "hash" = "sha512-ABZIno7YwSW2e2G9WOqv+ZkPrPV1qJ3Gjnd0dIa3ZCGBTluSSwSD6xcNGCAweONcs2sF4bs9m1jwMSMssxOQyA==";
+        };
     in {
         "vnCmn04L" = _vnCmn04L;
         "K92c7Ogm" = _K92c7Ogm;
@@ -350,6 +360,8 @@ let
         "hKSrrgA1" = _hKSrrgA1;
         "OabkMtxU" = _OabkMtxU;
         "t6lxpf3m" = _t6lxpf3m;
+        "AwDTNpDs" = _AwDTNpDs;
+        "AfMXWJjD" = _AfMXWJjD;
         "fabric-1.21.3" = _4ln5VKH0;
         "fabric-1.21" = _WDAJv9uU;
         "fabric-1.21.1" = _G62Vkf9Q;
@@ -361,6 +373,7 @@ let
         "fabric-26.1.1" = _WEajOV3V;
         "fabric-26.1.2" = _WEajOV3V;
         "fabric-26.2" = _OabkMtxU;
+        "fabric-26.3" = _AwDTNpDs;
         "neoforge-1.21.3" = _vqOyYVqN;
         "neoforge-1.21" = _iCyp0DDS;
         "neoforge-1.21.1" = _Tzf2WBGP;
@@ -372,6 +385,7 @@ let
         "neoforge-26.1.1" = _hKSrrgA1;
         "neoforge-26.1.2" = _hKSrrgA1;
         "neoforge-26.2" = _t6lxpf3m;
+        "neoforge-26.3" = _AfMXWJjD;
         "pkg-4.1.0" = _K92c7Ogm;
         "pkg-4.0.0" = _tzq15gHC;
         "pkg-4.0.1" = _aPgjlCml;
@@ -401,7 +415,8 @@ let
         "pkg-4.4.2+1.21.11" = _XzLueMDm;
         "pkg-4.4.3.1+26.1" = _hKSrrgA1;
         "pkg-4.4.4+26.2" = _t6lxpf3m;
-        "default" = _t6lxpf3m;
+        "pkg-4.4.5+26.3" = _AfMXWJjD;
+        "default" = _AfMXWJjD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ayame-paperdoll";

@@ -131,6 +131,11 @@ let
             "file" = "TooManyRenames 26.1 by Mickey Joe.zip";
             "hash" = "sha512-MV/9by8izcv8SkAqgk1yifA5f8IyrY3avdtzrVwyFsDvi3Mr5m6Yw7Ax0oXffoiK+Kq50XDqdzSj+8RpoQxkHA==";
         };
+        _nglKpsjE = {
+            "id" = "nglKpsjE";
+            "file" = "TooManyRenamesV21.zip";
+            "hash" = "sha512-aEf0b78+6MbjeHv4HrynmNsV7bVPdyVUu3WNdFxWPy6HGXqUUVO3CoV5HZSNj1GYDW4Ck0sgjSNd+SwRleo8uw==";
+        };
     in {
         "vJmRk4mT" = _vJmRk4mT;
         "hSgTI2eF" = _hSgTI2eF;
@@ -158,6 +163,7 @@ let
         "5FoIxoz1" = _5FoIxoz1;
         "Z1OUWUw4" = _Z1OUWUw4;
         "P98U2Swe" = _P98U2Swe;
+        "nglKpsjE" = _nglKpsjE;
         "minecraft-1.21.4" = _w460EBEI;
         "minecraft-1.21.5" = _gGhMmjAC;
         "minecraft-25w14craftmine" = _v2P0o3uC;
@@ -169,14 +175,16 @@ let
         "minecraft-1.21.8" = _gGhMmjAC;
         "minecraft-1.21.9" = _gGhMmjAC;
         "minecraft-1.21.10" = _8QQ2Sza1;
-        "minecraft-1.21.11" = _Z1OUWUw4;
-        "minecraft-26.1" = _P98U2Swe;
-        "minecraft-26.1.1" = _P98U2Swe;
-        "minecraft-26.1.2" = _P98U2Swe;
+        "minecraft-1.21.11" = _nglKpsjE;
+        "minecraft-26.1" = _nglKpsjE;
+        "minecraft-26.1.1" = _nglKpsjE;
+        "minecraft-26.1.2" = _nglKpsjE;
         "minecraft-26.2-snapshot-2" = _P98U2Swe;
         "minecraft-26.2-snapshot-3" = _P98U2Swe;
         "minecraft-26.2-snapshot-4" = _P98U2Swe;
         "minecraft-26.2-snapshot-5" = _P98U2Swe;
+        "minecraft-26.2" = _nglKpsjE;
+        "minecraft-26.3" = _nglKpsjE;
         "pkg-1" = _vJmRk4mT;
         "pkg-16.1" = _hSgTI2eF;
         "pkg-16.2" = _qJ2UJs6a;
@@ -203,7 +211,8 @@ let
         "pkg-19.6" = _5FoIxoz1;
         "pkg-19.9" = _Z1OUWUw4;
         "pkg-20.5" = _P98U2Swe;
-        "default" = _P98U2Swe;
+        "pkg-21" = _nglKpsjE;
+        "default" = _nglKpsjE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanilla-named-variants";

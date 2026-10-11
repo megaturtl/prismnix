@@ -381,6 +381,16 @@ let
             "file" = "DeathKnell-fabric-MC26.2-26.2.0.1.jar";
             "hash" = "sha512-7jTqvCcGh6sw1yjAahELEdAvbs7vLyHK3908VuGtjESkFfsyfLXfjcpu5STOEiu9by2SEtqXdNi9yt2j0+lmpA==";
         };
+        _pfCBHueu = {
+            "id" = "pfCBHueu";
+            "file" = "DeathKnell-fabric-MC26.3-26.3.0.1.jar";
+            "hash" = "sha512-URLV7dPqD7RsJFUA4J+u+/tk/IY1PetqtBrIqXDh+YmRT1zsYVzvoGUkfZy29XAFjC9qyWmjTFVW57XSzqlNrg==";
+        };
+        _Orx9Nw0w = {
+            "id" = "Orx9Nw0w";
+            "file" = "DeathKnell-neoforge-MC26.3-26.3.0.1.jar";
+            "hash" = "sha512-/kmqY9uyvVxXgwH5w4Mp23Syf8sqYM0YBAl6sBvCLp0R1NUs7GXpKPjyOD2tXyHfHjY1WLuv01cntJrB+r4dgw==";
+        };
     in {
         "LpcguJWd" = _LpcguJWd;
         "FMdo3afj" = _FMdo3afj;
@@ -458,6 +468,8 @@ let
         "1m0w2Crm" = _1m0w2Crm;
         "HoZH1IgK" = _HoZH1IgK;
         "GeJo3mIu" = _GeJo3mIu;
+        "pfCBHueu" = _pfCBHueu;
+        "Orx9Nw0w" = _Orx9Nw0w;
         "forge-1.17.1" = _WCI9ZTMF;
         "forge-1.18.1" = _mUJcOsrr;
         "forge-1.18.2" = _m8SjSfNU;
@@ -489,6 +501,7 @@ let
         "fabric-26.1.1" = _1m0w2Crm;
         "fabric-26.1.2" = _1m0w2Crm;
         "fabric-26.2" = _GeJo3mIu;
+        "fabric-26.3" = _pfCBHueu;
         "quilt-1.17.1" = _Me5zHAq9;
         "quilt-1.18.1" = _io4d8E1R;
         "quilt-1.18.2" = _scuRyGLC;
@@ -506,6 +519,7 @@ let
         "neoforge-26.1.1" = _ERrIEzjB;
         "neoforge-26.1.2" = _ERrIEzjB;
         "neoforge-26.2" = _HoZH1IgK;
+        "neoforge-26.3" = _Orx9Nw0w;
         "pkg-1.0.0" = _FMdo3afj;
         "pkg-1.0.1" = _Me5zHAq9;
         "pkg-2.0.1" = _mUJcOsrr;
@@ -541,7 +555,8 @@ let
         "pkg-26.1.2.1" = _C84roNA1;
         "pkg-26.1.2.3" = _1m0w2Crm;
         "pkg-26.2.0.1" = _GeJo3mIu;
-        "default" = _GeJo3mIu;
+        "pkg-26.3.0.1" = _Orx9Nw0w;
+        "default" = _Orx9Nw0w;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "death-knell";

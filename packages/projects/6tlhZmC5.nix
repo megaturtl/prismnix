@@ -106,6 +106,21 @@ let
             "file" = "axolotlbuckets-fabric-2.0.0+26.2.jar";
             "hash" = "sha512-s6O5QMnsDA8bPA20RcQVfx4SeZvcCNd7wwcw9tEY04gCuMIu3bqR5KNEO202tLqHfrPNTc2J+e40ih12p6RHTA==";
         };
+        _faXD1hlm = {
+            "id" = "faXD1hlm";
+            "file" = "axolotlbuckets-neoforge-2.0.0+26.3.jar";
+            "hash" = "sha512-LRGL1Aefa/A1HHG2fKUU/28jlmyirojGM22lOsoZj1MLjjd7geaWRTAPYzX3j/862dQ2OzCg6GShricCPwq6fA==";
+        };
+        _GG7SiKGo = {
+            "id" = "GG7SiKGo";
+            "file" = "axolotlbuckets-fabric-2.0.0+26.3.jar";
+            "hash" = "sha512-EDmKx2iSI/ehIcyZiyMaKAyjoAOTgMGPFuMnq5OMKDMI/0yLDIPidferhsvbTSYl0LbT2rUyYIrtXmiZ3aNEug==";
+        };
+        _QGMQ1a87 = {
+            "id" = "QGMQ1a87";
+            "file" = "axolotlbuckets-forge-2.0.0+26.3.jar";
+            "hash" = "sha512-Ml1Yq+R4WVpYY80CGmtNADWfyaohYmFIJcSAeMqbUF3A71Nb1LfVZdyEiYqcT+MT6yL2v65PjKuc1UaiY7sVMA==";
+        };
     in {
         "946o3jbV" = _946o3jbV;
         "QjXL1BKU" = _QjXL1BKU;
@@ -128,6 +143,9 @@ let
         "f238cdnJ" = _f238cdnJ;
         "kALhoOW9" = _kALhoOW9;
         "YICxqC9k" = _YICxqC9k;
+        "faXD1hlm" = _faXD1hlm;
+        "GG7SiKGo" = _GG7SiKGo;
+        "QGMQ1a87" = _QGMQ1a87;
         "fabric-1.19" = _Wa4ZXi82;
         "fabric-1.18.2" = _QsAYiyOx;
         "fabric-1.19.1" = _Wa4ZXi82;
@@ -157,6 +175,7 @@ let
         "fabric-26.1.1" = _ZWyXtmj6;
         "fabric-26.1.2" = _ZWyXtmj6;
         "fabric-26.2" = _YICxqC9k;
+        "fabric-26.3" = _GG7SiKGo;
         "quilt-1.19" = _Wa4ZXi82;
         "quilt-1.19.1" = _Wa4ZXi82;
         "quilt-1.19.2" = _Wa4ZXi82;
@@ -184,14 +203,17 @@ let
         "quilt-26.1" = _ZWyXtmj6;
         "quilt-26.1.1" = _ZWyXtmj6;
         "quilt-26.1.2" = _ZWyXtmj6;
+        "quilt-26.3" = _GG7SiKGo;
         "forge-26.1" = _YliXAokM;
         "forge-26.1.1" = _YliXAokM;
         "forge-26.1.2" = _YliXAokM;
         "forge-26.2" = _f238cdnJ;
+        "forge-26.3" = _QGMQ1a87;
         "neoforge-26.1" = _q6Qv9UHm;
         "neoforge-26.1.1" = _q6Qv9UHm;
         "neoforge-26.1.2" = _q6Qv9UHm;
         "neoforge-26.2" = _kALhoOW9;
+        "neoforge-26.3" = _faXD1hlm;
         "pkg-1.0.0+1.19" = _946o3jbV;
         "pkg-1.0.0+1.18.2" = _QjXL1BKU;
         "pkg-1.1.0+1.18.2" = _QsAYiyOx;
@@ -213,7 +235,10 @@ let
         "pkg-2.0.0+26.2-forge" = _f238cdnJ;
         "pkg-2.0.0+26.2-neoforge" = _kALhoOW9;
         "pkg-2.0.0+26.2-fabric" = _YICxqC9k;
-        "default" = _YICxqC9k;
+        "pkg-2.0.0+26.3-neoforge" = _faXD1hlm;
+        "pkg-2.0.0+26.3-fabric" = _GG7SiKGo;
+        "pkg-2.0.0+26.3-forge" = _QGMQ1a87;
+        "default" = _QGMQ1a87;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "axolotl-buckets";

@@ -191,6 +191,16 @@ let
             "file" = "notes-neoforge-0.4.1+26.2.jar";
             "hash" = "sha512-IHqBcbBXpJ9W/U91/onXZYSqugr5z8UAEtN0gMGXCzcLlFIpP0xi58Mjmi4S16Gu4QlBkunrz/X2R5qx27pqOA==";
         };
+        _e5cjfQNG = {
+            "id" = "e5cjfQNG";
+            "file" = "notes-fabric-0.4.1+26.3.jar";
+            "hash" = "sha512-PIsJXYtqDxwj/UtIgl0anoEkRoZ97jemv5QUgs1vlRckdWWOz8G0UDinZc0bZ3Q/gR73wQngcfwfFPVgr80Yuw==";
+        };
+        _Z0BOQfrO = {
+            "id" = "Z0BOQfrO";
+            "file" = "notes-neoforge-0.4.1+26.3.jar";
+            "hash" = "sha512-2lH4VsZrsIFgxEevCikBbhLLRA7lItAaX4wSuyiTeRg5aasUfo489zyygfOF3DxYuwkRegIeNr9Y97Grs2+UQA==";
+        };
     in {
         "86HrXcoO" = _86HrXcoO;
         "cgJveDYc" = _cgJveDYc;
@@ -230,6 +240,8 @@ let
         "BCJnaVrp" = _BCJnaVrp;
         "Gu55DrPB" = _Gu55DrPB;
         "5r8mflLl" = _5r8mflLl;
+        "e5cjfQNG" = _e5cjfQNG;
+        "Z0BOQfrO" = _Z0BOQfrO;
         "fabric-1.21.5" = _rzhJ6VQD;
         "fabric-1.21.6" = _MYds7ZFk;
         "fabric-1.21.7" = _LQdcF3IB;
@@ -249,6 +261,7 @@ let
         "fabric-26.1.1" = _R57qGrhK;
         "fabric-26.1.2" = _R57qGrhK;
         "fabric-26.2" = _Gu55DrPB;
+        "fabric-26.3" = _e5cjfQNG;
         "neoforge-1.20.4" = _f7goUq0I;
         "neoforge-1.20.5" = _aCqNPtou;
         "neoforge-1.20.6" = _aCqNPtou;
@@ -268,6 +281,7 @@ let
         "neoforge-26.1.1" = _V9K9Dzkr;
         "neoforge-26.1.2" = _V9K9Dzkr;
         "neoforge-26.2" = _5r8mflLl;
+        "neoforge-26.3" = _Z0BOQfrO;
         "pkg-0.1.0+1.21.5" = _86HrXcoO;
         "pkg-0.1.1+1.21.5" = _cgJveDYc;
         "pkg-0.1.1+1.21.6" = _67KXRt7n;
@@ -284,14 +298,15 @@ let
         "pkg-0.2.1+1.21.11" = _l4o6YDGs;
         "pkg-0.2.1+26.1" = _1FVW3XAc;
         "pkg-0.4.1+1.21.1" = _qjm4Va1I;
-        "pkg-0.4.1" = _5r8mflLl;
+        "pkg-0.4.1" = _Z0BOQfrO;
         "pkg-0.4.1+1.21.9" = _v0ZGfKdm;
         "pkg-0.4.1+1.21.11" = _k33zSRo0;
         "pkg-0.4.1+26.1" = _R57qGrhK;
         "pkg-0.4.3+1.21.1" = _4ISqhSoZ;
         "pkg-0.4.3" = _BCJnaVrp;
         "pkg-0.4.1+26.2" = _Gu55DrPB;
-        "default" = _5r8mflLl;
+        "pkg-0.4.1+26.3" = _e5cjfQNG;
+        "default" = _Z0BOQfrO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "notes-mod";

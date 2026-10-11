@@ -51,6 +51,11 @@ let
             "file" = "serversideveinmine-1.4.0.jar";
             "hash" = "sha512-wcD7atGFOTpOXQ5B08IxrFw46JKRd9z3g+N9j0X9MPlIhyVajFqn2LsQIM4larikPR36wM0xxqZAgcSvVC+T1g==";
         };
+        _YhrIJfXL = {
+            "id" = "YhrIJfXL";
+            "file" = "serversideveinmine-1.5.0.jar";
+            "hash" = "sha512-LbtwY6u5WZxGLGcVVrFBBktnfUOrDpy6IXZvQ4tuUqGiFmbhC7o88LpqvKs4SRmKXTRjWkDbQJYSJMGZJiew+A==";
+        };
     in {
         "oYWJq7iI" = _oYWJq7iI;
         "I05E0Y8h" = _I05E0Y8h;
@@ -62,6 +67,7 @@ let
         "djjnuh3s" = _djjnuh3s;
         "wViAlm0c" = _wViAlm0c;
         "9SzCUKVU" = _9SzCUKVU;
+        "YhrIJfXL" = _YhrIJfXL;
         "fabric-1.20" = _oYWJq7iI;
         "fabric-1.20.1" = _I05E0Y8h;
         "fabric-1.20.2" = _I05E0Y8h;
@@ -82,6 +88,7 @@ let
         "fabric-1.21.10" = _djjnuh3s;
         "fabric-1.21.11" = _wViAlm0c;
         "fabric-26.2" = _9SzCUKVU;
+        "fabric-26.3" = _YhrIJfXL;
         "pkg-1.1.0" = _oYWJq7iI;
         "pkg-1.2.1" = _I05E0Y8h;
         "pkg-1.2.2" = _Tn7iLoyd;
@@ -92,7 +99,8 @@ let
         "pkg-1.2.8" = _djjnuh3s;
         "pkg-1.3.0" = _wViAlm0c;
         "pkg-1.4.0" = _9SzCUKVU;
-        "default" = _9SzCUKVU;
+        "pkg-1.5.0" = _YhrIJfXL;
+        "default" = _YhrIJfXL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "server-sided-vein-mine";

@@ -106,6 +106,11 @@ let
             "file" = "modsettings-1.2.0+26.1.jar";
             "hash" = "sha512-2blxXgwv7EhkxqoG5vHS05n7Rip30qoi2M5oYi3vVMwYnAeSwTZ0mxQylxYLWhk4DQ6zeTJ03KEmDhcS6Y1kGQ==";
         };
+        _8aiQjKZj = {
+            "id" = "8aiQjKZj";
+            "file" = "ModSettings-1.2.0+26.3.jar";
+            "hash" = "sha512-wu0nd40MLWbD/CFy8G0kjNrnyiv/DcwSvnxEMkEa8OT3mpQHvXcrgtJbOuXmtC8rfi3N8ddhO4YWmuRo9FZb6Q==";
+        };
     in {
         "CJWQ3Xhr" = _CJWQ3Xhr;
         "EnR86IsY" = _EnR86IsY;
@@ -128,6 +133,7 @@ let
         "j96715Yb" = _j96715Yb;
         "Gj96gosO" = _Gj96gosO;
         "JIL4VsGw" = _JIL4VsGw;
+        "8aiQjKZj" = _8aiQjKZj;
         "fabric-1.17.1" = _v4te5qE2;
         "fabric-1.18.1" = _dpKJvYUg;
         "fabric-1.18.2" = _dpKJvYUg;
@@ -161,6 +167,7 @@ let
         "fabric-26.1.1" = _Gj96gosO;
         "fabric-26.1.2" = _Gj96gosO;
         "fabric-26.2" = _JIL4VsGw;
+        "fabric-26.3" = _8aiQjKZj;
         "pkg-1.0.0-1.17.1" = _CJWQ3Xhr;
         "pkg-1.0.0+1.18.1" = _EnR86IsY;
         "pkg-1.1.0+1.17.1" = _Sg73Y3vL;
@@ -182,7 +189,8 @@ let
         "pkg-1.2.0+1.21.11" = _j96715Yb;
         "pkg-1.2.0+26.1" = _Gj96gosO;
         "pkg-1.2.0+26.2" = _JIL4VsGw;
-        "default" = _JIL4VsGw;
+        "pkg-1.2.0+26.3" = _8aiQjKZj;
+        "default" = _8aiQjKZj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mod-settings";

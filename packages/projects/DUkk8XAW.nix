@@ -51,6 +51,11 @@ let
             "file" = "F3 CHANGER 1.0-26.2.jar";
             "hash" = "sha512-EpIJXbO1q9nfYr7jSKCXxudqX6bHFKl1Vb43rmE2p99CIK9laEwbAuJNwSQ2/Oky/FCNo18tVALOegfICkGr7w==";
         };
+        _ka2DWcN7 = {
+            "id" = "ka2DWcN7";
+            "file" = "F3 CHANGER 1.0-26.3.jar";
+            "hash" = "sha512-hvM6oFdXGpb7gyG6NR5eF5KtqbriPFxLOxy2jLerzdsdNnIx2UfjCI5dbTnl3NUgLyvJpwa0dK9Gf74zzC2uxw==";
+        };
     in {
         "U3YYluyb" = _U3YYluyb;
         "aaeuklhx" = _aaeuklhx;
@@ -62,6 +67,7 @@ let
         "ZTh3H845" = _ZTh3H845;
         "Wc9iZUWj" = _Wc9iZUWj;
         "ASEYIy19" = _ASEYIy19;
+        "ka2DWcN7" = _ka2DWcN7;
         "fabric-1.21.10" = _Zo4eL8K3;
         "fabric-1.21.8" = _aaeuklhx;
         "fabric-1.21.7" = _Zmw6PrTx;
@@ -72,6 +78,7 @@ let
         "fabric-26.1.1" = _Wc9iZUWj;
         "fabric-26.1.2" = _Wc9iZUWj;
         "fabric-26.2" = _ASEYIy19;
+        "fabric-26.3" = _ka2DWcN7;
         "pkg-1.0-1.21.10" = _U3YYluyb;
         "pkg-1.0-1.21.8" = _aaeuklhx;
         "pkg-1.0-1.21.7" = _Zmw6PrTx;
@@ -81,7 +88,8 @@ let
         "pkg-1.0-1.21.11" = _ZTh3H845;
         "pkg-26.1" = _Wc9iZUWj;
         "pkg-26.2" = _ASEYIy19;
-        "default" = _ASEYIy19;
+        "pkg-26.3" = _ka2DWcN7;
+        "default" = _ka2DWcN7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "f3-changer";

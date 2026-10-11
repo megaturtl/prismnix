@@ -21,11 +21,17 @@ let
             "file" = "Fresh Music Discs VR 1.3.0.zip";
             "hash" = "sha512-dGOr6q3vhivdNO7MIXz4MHKPQ7sv25oAann6vM+kwi5piw0lzXsMp6HUAt/FJL69UHkdZA5YHs9Dco2CiCGwTA==";
         };
+        _YCkHHCiX = {
+            "id" = "YCkHHCiX";
+            "file" = "Fresh Music Discs VR 1.3.2.zip";
+            "hash" = "sha512-KOV5T99U/r4WmuRzcq/R7x11xzFTb+f5xETAM8a/pyBsgBdgZVIruDjHS9Cm1ZKL5RKm3WYjrf1db6Vcby7uXQ==";
+        };
     in {
         "zNDrdR6r" = _zNDrdR6r;
         "xTfD2wPA" = _xTfD2wPA;
         "AFchubbY" = _AFchubbY;
         "hul4TFAH" = _hul4TFAH;
+        "YCkHHCiX" = _YCkHHCiX;
         "minecraft-1.20" = _xTfD2wPA;
         "minecraft-1.20.1" = _hul4TFAH;
         "minecraft-1.20.2" = _xTfD2wPA;
@@ -38,17 +44,23 @@ let
         "minecraft-1.21.2" = _xTfD2wPA;
         "minecraft-1.21.3" = _xTfD2wPA;
         "minecraft-1.21.4" = _hul4TFAH;
-        "minecraft-1.21.5" = _hul4TFAH;
-        "minecraft-1.21.6" = _hul4TFAH;
-        "minecraft-1.21.7" = _hul4TFAH;
-        "minecraft-1.21.8" = _hul4TFAH;
-        "minecraft-1.21.9" = _hul4TFAH;
-        "minecraft-1.21.10" = _hul4TFAH;
-        "minecraft-1.21.11" = _hul4TFAH;
+        "minecraft-1.21.5" = _YCkHHCiX;
+        "minecraft-1.21.6" = _YCkHHCiX;
+        "minecraft-1.21.7" = _YCkHHCiX;
+        "minecraft-1.21.8" = _YCkHHCiX;
+        "minecraft-1.21.9" = _YCkHHCiX;
+        "minecraft-1.21.10" = _YCkHHCiX;
+        "minecraft-1.21.11" = _YCkHHCiX;
+        "minecraft-26.1" = _YCkHHCiX;
+        "minecraft-26.1.1" = _YCkHHCiX;
+        "minecraft-26.1.2" = _YCkHHCiX;
+        "minecraft-26.2" = _YCkHHCiX;
+        "minecraft-26.3" = _YCkHHCiX;
         "pkg-1.2" = _xTfD2wPA;
         "pkg-1.2.5" = _AFchubbY;
         "pkg-1.3.0" = _hul4TFAH;
-        "default" = _hul4TFAH;
+        "pkg-1.3.2" = _YCkHHCiX;
+        "default" = _YCkHHCiX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fresh-music-discs-vr";

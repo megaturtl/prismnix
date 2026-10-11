@@ -21,17 +21,26 @@ let
             "file" = "ctimber-1.4.0+1.20.1.jar";
             "hash" = "sha512-JTm+wMVhD++RWMQ1cP9Mxw/7cDRatbLPH2rj5wNZCrS5E0F4XbQp8aXPzRCL8xTHIZYYzO30KUYLNpHaP5yswg==";
         };
+        _cXFqyOkn = {
+            "id" = "cXFqyOkn";
+            "file" = "ctimber-2.0.0+26.3.jar";
+            "hash" = "sha512-cBH3BmN2cY9hhRNQ6E+YKLO50Ik/+KlWVgk7suVt+Udko8TEoNEBvZ4+A386cvv9KDsT818LutpQ2oxIgopn9A==";
+        };
     in {
         "EFq5QCiV" = _EFq5QCiV;
         "KP0MuXg0" = _KP0MuXg0;
         "9R8NRp0P" = _9R8NRp0P;
         "M54MpjyV" = _M54MpjyV;
+        "cXFqyOkn" = _cXFqyOkn;
         "fabric-1.19.3" = _9R8NRp0P;
         "fabric-1.20.1" = _M54MpjyV;
+        "fabric-26.3" = _cXFqyOkn;
         "quilt-1.19.3" = _9R8NRp0P;
+        "quilt-26.3" = _cXFqyOkn;
         "pkg-1.3.1" = _KP0MuXg0;
         "pkg-1.4.0" = _M54MpjyV;
-        "default" = _M54MpjyV;
+        "pkg-2.0.0+26.3" = _cXFqyOkn;
+        "default" = _cXFqyOkn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "timber-mod-by-mycf";

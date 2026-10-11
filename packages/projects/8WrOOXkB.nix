@@ -41,6 +41,11 @@ let
             "file" = "hdskins-fabric-1.0.0.jar";
             "hash" = "sha512-ZgruU4nKu1Xj41tbJ3CBhAJioSw8N40KvQbmx6boWe1FWTC6XMulnLroAJQ3iAoSKSfrf4GDT8css5Lzm205Ow==";
         };
+        _zGhzzboR = {
+            "id" = "zGhzzboR";
+            "file" = "hdskins-fabric-1.0.0.jar";
+            "hash" = "sha512-7O6B6DJzGwnA2o0Mj8bzdKWFn8arhyrQO9cqMPfAM3Zsywnn41XbtDhJfeNieFt3YUxi9wl3hm1NNUrCUiOOnQ==";
+        };
     in {
         "d2nTLySI" = _d2nTLySI;
         "YjTBmJow" = _YjTBmJow;
@@ -50,6 +55,7 @@ let
         "JG3ZdasA" = _JG3ZdasA;
         "DvCLi8Nd" = _DvCLi8Nd;
         "1PfpgYh3" = _1PfpgYh3;
+        "zGhzzboR" = _zGhzzboR;
         "fabric-1.19.4" = _d2nTLySI;
         "fabric-1.20.4" = _YjTBmJow;
         "fabric-1.20.5" = _OjoTtzkY;
@@ -60,8 +66,9 @@ let
         "fabric-1.21.11" = _JG3ZdasA;
         "fabric-26.1.2" = _DvCLi8Nd;
         "fabric-26.2" = _1PfpgYh3;
-        "pkg-1.0.0" = _1PfpgYh3;
-        "default" = _1PfpgYh3;
+        "fabric-26.3" = _zGhzzboR;
+        "pkg-1.0.0" = _zGhzzboR;
+        "default" = _zGhzzboR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hdskins";

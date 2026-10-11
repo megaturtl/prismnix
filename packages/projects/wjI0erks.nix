@@ -56,6 +56,16 @@ let
             "file" = "fluidloggable-3.1.2-beta.5-mc26.2.jar";
             "hash" = "sha512-IbPgJjOWyWSU1D1z7rCoK9KlLXabbnw1lG83cMdJ9Hu9zozJqmA2dRkAI5nzDFPqbNQC+wrefdz9UvQCIz2WgQ==";
         };
+        _aHIHUAc4 = {
+            "id" = "aHIHUAc4";
+            "file" = "fluidloggable-3.1.3-beta.1-mc26.3.jar";
+            "hash" = "sha512-Ms9mZqoKbyCNWZBmW99vUSse8qZ8E58R/W7OjKdjoLRObSDJZO3E0SskFAeOp+FTJ3QOxdvw6zU1SjuPMziZlQ==";
+        };
+        _k4GYzcQS = {
+            "id" = "k4GYzcQS";
+            "file" = "fluidloggable-3.1.3-beta.2-mc26.3.jar";
+            "hash" = "sha512-2a8rk/Cr7umxqoAJzxyD+y5YGKEpiTnJH3rqLblIUcuQWOSDqwZZHJpqgtybTd9feTnO6xyBmTlY8Mhfpg0fPg==";
+        };
     in {
         "uNiPjkf3" = _uNiPjkf3;
         "HaQgtFLq" = _HaQgtFLq;
@@ -68,8 +78,11 @@ let
         "G8ZHCxuA" = _G8ZHCxuA;
         "tE1tmZ5K" = _tE1tmZ5K;
         "pk41tnsA" = _pk41tnsA;
+        "aHIHUAc4" = _aHIHUAc4;
+        "k4GYzcQS" = _k4GYzcQS;
         "fabric-1.21.1" = _uNiPjkf3;
         "fabric-26.2" = _pk41tnsA;
+        "fabric-26.3" = _k4GYzcQS;
         "neoforge-1.21.1" = _HaQgtFLq;
         "pkg-2.0.1-beta.8" = _HaQgtFLq;
         "pkg-3.0.0-beta.6-mc26.2" = _8xA0cS0n;
@@ -81,7 +94,9 @@ let
         "pkg-3.1.2-beta.1-mc26.2" = _G8ZHCxuA;
         "pkg-3.1.2-beta.3-mc26.2" = _tE1tmZ5K;
         "pkg-3.1.2-beta.5-mc26.2" = _pk41tnsA;
-        "default" = _pk41tnsA;
+        "pkg-3.1.3-beta.1-mc26.3" = _aHIHUAc4;
+        "pkg-3.1.3-beta.2-mc26.3" = _k4GYzcQS;
+        "default" = _k4GYzcQS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fluidloggable";

@@ -51,6 +51,16 @@ let
             "file" = "blade-addons-2.5.3.jar";
             "hash" = "sha512-JT8pJ2tdg/qK8psj7gdShAlAj5qsSeAIUxa3K0sF6dIq4Stz0odUsOh1OILsM9sw43OzW7vf8YGOnwHTCIwRTQ==";
         };
+        _zm2X0Qmq = {
+            "id" = "zm2X0Qmq";
+            "file" = "blade-addons-2.5.4.jar";
+            "hash" = "sha512-Ol5qmuk3uoM65U/iSQLOWeIPGGFsGqEhiL264MciWCEMYqmYY6231f3P5Q8eyiSsKWvYDabHghWvgmXj8f7nXw==";
+        };
+        _N121mP3k = {
+            "id" = "N121mP3k";
+            "file" = "blade-addons-2.6.1.jar";
+            "hash" = "sha512-xy8R0yOz7Jp2L35XvS2kK5bA8q9P+TMxEBZxFo7r2OAkQmotjNuq/n18wVm88cLpt7h27kMWM78qSHoF0BDMMA==";
+        };
     in {
         "YeMbe2H5" = _YeMbe2H5;
         "FaYBA7Xz" = _FaYBA7Xz;
@@ -62,9 +72,12 @@ let
         "SeTBj5BH" = _SeTBj5BH;
         "Zyx9xBkK" = _Zyx9xBkK;
         "DG98p3X7" = _DG98p3X7;
+        "zm2X0Qmq" = _zm2X0Qmq;
+        "N121mP3k" = _N121mP3k;
         "fabric-1.21.10" = _zJ9NDvk4;
         "fabric-1.21.11" = _SeTBj5BH;
-        "fabric-26.1.2" = _DG98p3X7;
+        "fabric-26.1.2" = _zm2X0Qmq;
+        "fabric-26.2" = _N121mP3k;
         "pkg-2.3.4" = _YeMbe2H5;
         "pkg-2.3.5" = _FaYBA7Xz;
         "pkg-2.3.6" = _zJ9NDvk4;
@@ -75,7 +88,9 @@ let
         "pkg-2.4.2" = _SeTBj5BH;
         "pkg-2.5.2" = _Zyx9xBkK;
         "pkg-2.5.3" = _DG98p3X7;
-        "default" = _DG98p3X7;
+        "pkg-2.5.4" = _zm2X0Qmq;
+        "pkg-2.6.1" = _N121mP3k;
+        "default" = _N121mP3k;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blade-addons";

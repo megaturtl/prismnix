@@ -46,6 +46,16 @@ let
             "file" = "[史诗战斗：车万女仆]EpicFight_TouhouLittleMaid-1.20.1-1.3.3-all.jar";
             "hash" = "sha512-oA1t7/Zb/r9AZOdJzFdXEpmWR2gg94iw9HnYKrhA2monFX/78TAi6yJS/kGD7DWpa0/ucEv1QrTm+7dx66roGw==";
         };
+        _Vhe3QAo1 = {
+            "id" = "Vhe3QAo1";
+            "file" = "[史诗战斗：车万女仆]EpicFight_TouhouLittleMaid-1.20.1-1.3.4-all.jar";
+            "hash" = "sha512-sA1/+FDCblOFtIf+U552yeQ9klLOwQVjlgQEMcpHcoWkkHvEJ+gKcsqAPnEbyduPWYR/rkAE/LXS6G0LRvO7VA==";
+        };
+        _kLjSYIWl = {
+            "id" = "kLjSYIWl";
+            "file" = "[史诗战斗：车万女仆]EpicFight_TouhouLittleMaid-1.20.1-1.3.5-all.jar";
+            "hash" = "sha512-0wRQ7YchExGRnjNXirAcj4piMlDbwo8FUCdhA3iuj3Xt3wmmZ5KUeK8V05CJ2yfVN9Y2P02vaFYxdiIPLy7y/Q==";
+        };
     in {
         "AnFCFwDQ" = _AnFCFwDQ;
         "XXxj91s9" = _XXxj91s9;
@@ -56,7 +66,9 @@ let
         "Q4OkatKJ" = _Q4OkatKJ;
         "my0toVIi" = _my0toVIi;
         "ylyynBk3" = _ylyynBk3;
-        "forge-1.20.1" = _ylyynBk3;
+        "Vhe3QAo1" = _Vhe3QAo1;
+        "kLjSYIWl" = _kLjSYIWl;
+        "forge-1.20.1" = _kLjSYIWl;
         "pkg-1.0.0" = _AnFCFwDQ;
         "pkg-1.0.1" = _XXxj91s9;
         "pkg-1.1.0" = _KbvFTF3d;
@@ -66,7 +78,9 @@ let
         "pkg-1.3.1" = _Q4OkatKJ;
         "pkg-1.3.2" = _my0toVIi;
         "pkg-1.3.3" = _ylyynBk3;
-        "default" = _ylyynBk3;
+        "pkg-1.3.4" = _Vhe3QAo1;
+        "pkg-1.3.5" = _kLjSYIWl;
+        "default" = _kLjSYIWl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "epicfight_touhoulittlemaid";

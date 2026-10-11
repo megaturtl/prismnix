@@ -66,6 +66,11 @@ let
             "file" = "waystones-1.0.15.jar";
             "hash" = "sha512-FbQwapkviIUjCJySTihA3mxGe2jhdkXbFzmZk8LehBpsJuu9cUSgym+csAT3lRS8HKxXd0jW99HH6vTp/NQMCA==";
         };
+        _wP0ACCDs = {
+            "id" = "wP0ACCDs";
+            "file" = "waystones-1.0.16.jar";
+            "hash" = "sha512-2GIu4XYbKKk5UtpmyqALwHSbBWa2PCKVVh2ncmKxpAtIKmCjC8bvaa5JrhXCZewUrxIsUQdZxwW09rlVLu3FCQ==";
+        };
     in {
         "YRUQgmop" = _YRUQgmop;
         "LlluTxJg" = _LlluTxJg;
@@ -80,7 +85,8 @@ let
         "LIbREnxs" = _LIbREnxs;
         "4K9NKFLj" = _4K9NKFLj;
         "y2EXn8rA" = _y2EXn8rA;
-        "forge-1.7.10" = _y2EXn8rA;
+        "wP0ACCDs" = _wP0ACCDs;
+        "forge-1.7.10" = _wP0ACCDs;
         "pkg-1.0.3" = _YRUQgmop;
         "pkg-1.0.4" = _LlluTxJg;
         "pkg-1.0.5" = _c7OrIciT;
@@ -94,7 +100,8 @@ let
         "pkg-1.0.13" = _LIbREnxs;
         "pkg-1.0.14" = _4K9NKFLj;
         "pkg-1.0.15" = _y2EXn8rA;
-        "default" = _y2EXn8rA;
+        "pkg-1.0.16" = _wP0ACCDs;
+        "default" = _wP0ACCDs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "waystones-x";

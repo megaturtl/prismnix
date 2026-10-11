@@ -191,6 +191,11 @@ let
             "file" = "Zero Particles [2.12][26.2].zip";
             "hash" = "sha512-RVrHFMEvkeg1RBd24dzuDuEFHEMuReFJdW9qW5pwdGltHIy0cfdZZXVpbzo03O8CGruIosAaiFir7H8kEaLe2Q==";
         };
+        _c9g19xBW = {
+            "id" = "c9g19xBW";
+            "file" = "Zero Particles [2.12][26.3].zip";
+            "hash" = "sha512-IipUqrIWdV/EKHiHIs2SKqq1Yh0Fo6EG6PZnHRGDdK7oPCUDEzuz6f6jO6JzSkeRRr0ktu9WeIcuAV3TpeF8mA==";
+        };
     in {
         "N96qSoVs" = _N96qSoVs;
         "lxVz2Djm" = _lxVz2Djm;
@@ -230,6 +235,7 @@ let
         "pRNX4UVq" = _pRNX4UVq;
         "9F3TzvUv" = _9F3TzvUv;
         "8Lf18p8w" = _8Lf18p8w;
+        "c9g19xBW" = _c9g19xBW;
         "minecraft-1.16" = _2rIJQ9ME;
         "minecraft-1.16.1" = _2rIJQ9ME;
         "minecraft-1.16.2" = _2rIJQ9ME;
@@ -275,13 +281,15 @@ let
         "minecraft-26.1.1" = _pRNX4UVq;
         "minecraft-26.1.2" = _9F3TzvUv;
         "minecraft-26.2" = _8Lf18p8w;
+        "minecraft-26.3" = _c9g19xBW;
+        "minecraft-26.4-snapshot-1" = _c9g19xBW;
         "pkg-1.0" = _TR3fgl5g;
         "pkg-1.0+" = _TZ3jdDCY;
         "pkg-2.0" = _6ANIVKiy;
         "pkg-2.1" = _rnXCaNr4;
         "pkg-2.11" = _pRNX4UVq;
-        "pkg-2.12" = _8Lf18p8w;
-        "default" = _8Lf18p8w;
+        "pkg-2.12" = _c9g19xBW;
+        "default" = _c9g19xBW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zero-particles";

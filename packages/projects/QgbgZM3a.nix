@@ -151,6 +151,16 @@ let
             "file" = "lifesteal-2.6.1.jar";
             "hash" = "sha512-5FsHAAL73UuPweDpDosedCMYL6tK0KJvSKeRFwyNp0fCeboZAEIcwUzz83U/Cy8397odxabv2ZKFOAKThcLk+A==";
         };
+        _uOIt9R6L = {
+            "id" = "uOIt9R6L";
+            "file" = "lifesteal-2.6.2.jar";
+            "hash" = "sha512-ro4wOVaSOlnGpYJTrQ7m5LnBmbiuTBmYH14iuTLnu/G6Jw+5D2gS0lPJsyGgzO5IXY4/VTdikvfURuo22XjaAg==";
+        };
+        _uqoLxMlW = {
+            "id" = "uqoLxMlW";
+            "file" = "lifesteal-2.6.3.jar";
+            "hash" = "sha512-TDTnH/KYOKAeCpZVcbSNhE0nPrhk9+t6Wv3TsW4szMj9wJZcuMkD06sg1F15jhLuWj0Ywp/sqloJGjQUrjOezQ==";
+        };
     in {
         "MMPen7bz" = _MMPen7bz;
         "nt8vXis8" = _nt8vXis8;
@@ -182,6 +192,8 @@ let
         "QhtcVb4Y" = _QhtcVb4Y;
         "OV6rcsnB" = _OV6rcsnB;
         "uc0asUMS" = _uc0asUMS;
+        "uOIt9R6L" = _uOIt9R6L;
+        "uqoLxMlW" = _uqoLxMlW;
         "fabric-1.19.2" = _xHvQsZKy;
         "fabric-1.20" = _7MVbdLmX;
         "fabric-1.20.1" = _XLVL2OQV;
@@ -201,6 +213,7 @@ let
         "fabric-26.1.1" = _QhtcVb4Y;
         "fabric-26.1.2" = _QhtcVb4Y;
         "fabric-26.2" = _uc0asUMS;
+        "fabric-26.3" = _uqoLxMlW;
         "quilt-1.19.2" = _xHvQsZKy;
         "quilt-1.20" = _7MVbdLmX;
         "quilt-1.20.1" = _XLVL2OQV;
@@ -220,6 +233,7 @@ let
         "quilt-26.1.1" = _QhtcVb4Y;
         "quilt-26.1.2" = _QhtcVb4Y;
         "quilt-26.2" = _uc0asUMS;
+        "quilt-26.3" = _uqoLxMlW;
         "pkg-1.0.0" = _MMPen7bz;
         "pkg-1.1.0" = _nt8vXis8;
         "pkg-1.2.0" = _xHvQsZKy;
@@ -250,7 +264,9 @@ let
         "pkg-mc26.1-2.6.0" = _QhtcVb4Y;
         "pkg-mc26.2-2.6.0" = _OV6rcsnB;
         "pkg-mc26.2-2.6.1" = _uc0asUMS;
-        "default" = _uc0asUMS;
+        "pkg-mc26.3-2.6.2" = _uOIt9R6L;
+        "pkg-mc26.3-2.6.3" = _uqoLxMlW;
+        "default" = _uqoLxMlW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "life-steal";

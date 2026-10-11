@@ -451,6 +451,76 @@ let
             "file" = "MagicMirror-26.1.2-1.0.0.2617.jar";
             "hash" = "sha512-sRI9UJwLT7CjifShzCpwYPpgZUNAJwLqROlcpF2jEpWFQxtR7rfnyFoBxF3jXCPOWAl4P1Rm+7jJp9qgwqIcQg==";
         };
+        _XBCMj180 = {
+            "id" = "XBCMj180";
+            "file" = "MagicMirror-26.2.0-1.0.0.2626.jar";
+            "hash" = "sha512-wonIibLsO/Am9sXvxZm9ZYRdR6v7XTZR8PkrqVpgD0osz5lsQuk0FO9yEXMUImYbVSzHr82tEiRniZvVH9pBbg==";
+        };
+        _sCITpZW9 = {
+            "id" = "sCITpZW9";
+            "file" = "MagicMirror-1.14.4-0.5.1.2667.jar";
+            "hash" = "sha512-MHxaqlTisDVonHotzMRc2mxZvo0VbosvOr56rXo2OcpPhHGprthNO+RjpFDYnkjPIsxswT0Zy2vn05z1bT9xKw==";
+        };
+        _LCuz6kPO = {
+            "id" = "LCuz6kPO";
+            "file" = "MagicMirror-1.15.2-0.5.1.2671.jar";
+            "hash" = "sha512-bqY8GcBUpQSoDhFtpfg0uW6MKnUsqDiQsqkRZpElfXHxpt6/Yewc0/qEyXQ5H4shppwqR4IrH/bEjX6jvHFAHw==";
+        };
+        _ZAOie9KY = {
+            "id" = "ZAOie9KY";
+            "file" = "MagicMirror-1.16.5-0.3.1.2675.jar";
+            "hash" = "sha512-xG/ixHD3Dy2T9I6+cZRx50g2Vx9bhBvWy7ICa7JRd2o1ZIgGl+T+MVgKx0bs97v4iZYuj+xuI+zAZJT7BDmUQw==";
+        };
+        _9CjYnOYn = {
+            "id" = "9CjYnOYn";
+            "file" = "MagicMirror-1.17.1-0.3.1.2679.jar";
+            "hash" = "sha512-XHuX1blLAQYo7p+2GMQEd/cJPI/L5Ru/+1N5fyZ0PEcWV9/ZbHoUViKjb8y+OEs9SCy9srXe8gyWT/UA8p5smw==";
+        };
+        _YGgXzjas = {
+            "id" = "YGgXzjas";
+            "file" = "MagicMirror-1.18.2-1.3.1.2683.jar";
+            "hash" = "sha512-mLNds+Lg6CxrJhO+IyuVNLUxHwzdJB6DAgx/zuQPsPPgyJbfzsXFIW831hT8opq8+nefmONg2vo3GQoR2+yysw==";
+        };
+        _d0CNgUfq = {
+            "id" = "d0CNgUfq";
+            "file" = "MagicMirror-1.19.2-1.2.1.2687.jar";
+            "hash" = "sha512-sdUMrkMTypAYrciUMHp+vBZLyX9FOQoKtFAU5zqAy8/lLK4MbO4YzWPkdeks9DbcAx0n3QB/yVxGyClJdrX8NQ==";
+        };
+        _CprDKgsd = {
+            "id" = "CprDKgsd";
+            "file" = "MagicMirror-1.19.4-1.3.1.2691.jar";
+            "hash" = "sha512-qEw3t31sd9j5ktaZAY/vnoTXOH8Z9DjFzu1vKpJPNS92pi0Pyz6p/Vam3Vhx2yyh2iZKrxGOFcICG7eTAYV7+A==";
+        };
+        _XnwmpiQq = {
+            "id" = "XnwmpiQq";
+            "file" = "MagicMirror-1.20.1-1.3.1.2695.jar";
+            "hash" = "sha512-iqriGpLisASUA/SgvDUlnGhOIgRPxh/bddvtSdguMozjCzq2JTt/f4tGAF5sXIkwOa7i59y1EAL4puBiGx/dtQ==";
+        };
+        _P4ZPsFYh = {
+            "id" = "P4ZPsFYh";
+            "file" = "MagicMirror-1.20.6-1.0.1.2699.jar";
+            "hash" = "sha512-oEtmuHivkOJT0G1+VL0rwR62d4jq1g+MVYrPIwxf3ZZGfr6yUedqv1nn3cEOa3ZsFlYRb5Y3/z8CUkJgLcHgMA==";
+        };
+        _IwljwFUh = {
+            "id" = "IwljwFUh";
+            "file" = "MagicMirror-1.21.1-1.0.1.2703.jar";
+            "hash" = "sha512-p2nPpEm1Amw3a3Z7/hZX8ohEyi3U9rcjhmW/p3/MYSDq13sdW7XFqNmL7EvscXI3jkcok3LaZc/BLtq5e07UJg==";
+        };
+        _TopUjR9e = {
+            "id" = "TopUjR9e";
+            "file" = "MagicMirror-1.21.11-1.0.1.2707.jar";
+            "hash" = "sha512-H+2VJR4/oLmg6HJge7Odad2a/72Zowe6ASfTCY1KKE74X7INgmRLJiCZrl7aCtNn1hxUevtHhAxLZVk5sAEo1Q==";
+        };
+        _Bn9ApBHJ = {
+            "id" = "Bn9ApBHJ";
+            "file" = "MagicMirror-26.1.2-1.0.1.2711.jar";
+            "hash" = "sha512-qu0QF+V17aC04xiIkpggdANZJt9dFXsJ0p9gRcyrHmhddNGUWtZsjk6NstWVMOEr4C6BlZioDazIqQPT04Gs0w==";
+        };
+        _KR7MVkAQ = {
+            "id" = "KR7MVkAQ";
+            "file" = "MagicMirror-26.2.0-1.0.1.2715.jar";
+            "hash" = "sha512-55MCiILZcyrsLIetKzSXdgSj3PxV3Iseuk5qZOn9dC7FBvSE3UTa6u9UuDrRKtEImXGwnsxzy6xcOhpbnwl6bw==";
+        };
     in {
         "HD8TUNQ5" = _HD8TUNQ5;
         "1Y4oqZ3M" = _1Y4oqZ3M;
@@ -542,27 +612,42 @@ let
         "reCdJpnA" = _reCdJpnA;
         "fnEjMShT" = _fnEjMShT;
         "MyhT6FS3" = _MyhT6FS3;
-        "forge-1.20.1" = _rRhd7iBC;
+        "XBCMj180" = _XBCMj180;
+        "sCITpZW9" = _sCITpZW9;
+        "LCuz6kPO" = _LCuz6kPO;
+        "ZAOie9KY" = _ZAOie9KY;
+        "9CjYnOYn" = _9CjYnOYn;
+        "YGgXzjas" = _YGgXzjas;
+        "d0CNgUfq" = _d0CNgUfq;
+        "CprDKgsd" = _CprDKgsd;
+        "XnwmpiQq" = _XnwmpiQq;
+        "P4ZPsFYh" = _P4ZPsFYh;
+        "IwljwFUh" = _IwljwFUh;
+        "TopUjR9e" = _TopUjR9e;
+        "Bn9ApBHJ" = _Bn9ApBHJ;
+        "KR7MVkAQ" = _KR7MVkAQ;
+        "forge-1.20.1" = _XnwmpiQq;
         "forge-1.12.2" = _1Y4oqZ3M;
-        "forge-1.14.4" = _srIhRCBQ;
-        "forge-1.15.2" = _kNX0922r;
-        "forge-1.16.5" = _nKjskjVe;
-        "forge-1.17.1" = _8KVmAbwH;
-        "forge-1.18.2" = _1oKg7Axq;
-        "forge-1.19.4" = _88WmaG0P;
-        "forge-1.19.2" = _TDlTP4Il;
-        "neoforge-1.20.1" = _rRhd7iBC;
+        "forge-1.14.4" = _sCITpZW9;
+        "forge-1.15.2" = _LCuz6kPO;
+        "forge-1.16.5" = _ZAOie9KY;
+        "forge-1.17.1" = _9CjYnOYn;
+        "forge-1.18.2" = _YGgXzjas;
+        "forge-1.19.4" = _CprDKgsd;
+        "forge-1.19.2" = _d0CNgUfq;
+        "neoforge-1.20.1" = _XnwmpiQq;
         "neoforge-1.20.2" = _MQPu7MoY;
         "neoforge-1.20.4" = _SfbOOqtJ;
-        "neoforge-1.20.6" = _XGTUm7rz;
-        "neoforge-1.21" = _Wv8hbpyj;
-        "neoforge-1.21.1" = _Wv8hbpyj;
+        "neoforge-1.20.6" = _P4ZPsFYh;
+        "neoforge-1.21" = _IwljwFUh;
+        "neoforge-1.21.1" = _IwljwFUh;
         "neoforge-1.21.3" = _vKGs79Y1;
         "neoforge-1.21.4" = _p3R3xXSh;
         "neoforge-1.21.5" = _CYv8BcCT;
         "neoforge-1.21.8" = _reCdJpnA;
-        "neoforge-1.21.11" = _fnEjMShT;
-        "neoforge-26.1.2" = _MyhT6FS3;
+        "neoforge-1.21.11" = _TopUjR9e;
+        "neoforge-26.1.2" = _Bn9ApBHJ;
+        "neoforge-26.2" = _KR7MVkAQ;
         "pkg-1.20.1-1.1.1.768" = _HD8TUNQ5;
         "pkg-0.1.1.427" = _1Y4oqZ3M;
         "pkg-0.3.0.719" = _VjoZDncp;
@@ -653,7 +738,21 @@ let
         "pkg-1.21.8-1.0.0.2179" = _reCdJpnA;
         "pkg-1.21.11-1.0.0.2601" = _fnEjMShT;
         "pkg-26.1.2-1.0.0.2617" = _MyhT6FS3;
-        "default" = _MyhT6FS3;
+        "pkg-26.2.0-1.0.0.2626" = _XBCMj180;
+        "pkg-1.14.4-0.5.1.2667" = _sCITpZW9;
+        "pkg-1.15.2-0.5.1.2671" = _LCuz6kPO;
+        "pkg-1.16.5-0.3.1.2675" = _ZAOie9KY;
+        "pkg-1.17.1-0.3.1.2679" = _9CjYnOYn;
+        "pkg-1.18.2-1.3.1.2683" = _YGgXzjas;
+        "pkg-1.19.2-1.2.1.2687" = _d0CNgUfq;
+        "pkg-1.19.4-1.3.1.2691" = _CprDKgsd;
+        "pkg-1.20.1-1.3.1.2695" = _XnwmpiQq;
+        "pkg-1.20.6-1.0.1.2699" = _P4ZPsFYh;
+        "pkg-1.21.1-1.0.1.2703" = _IwljwFUh;
+        "pkg-1.21.11-1.0.1.2707" = _TopUjR9e;
+        "pkg-26.1.2-1.0.1.2711" = _Bn9ApBHJ;
+        "pkg-26.2.0-1.0.1.2715" = _KR7MVkAQ;
+        "default" = _KR7MVkAQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-magic-mirror";

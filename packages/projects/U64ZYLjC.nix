@@ -36,6 +36,11 @@ let
             "file" = "herdspanic-1.1.1.jar";
             "hash" = "sha512-ubj1BJxw1gOjK9vb6Y+uHYTdd664n6S5dN0sRvld/6d2lpHPku8tX1eC612PyCinWjQ84CXmVMBLnLbhM4Ygbw==";
         };
+        _KOEBzebL = {
+            "id" = "KOEBzebL";
+            "file" = "talkbubbles-1.0.8.jar";
+            "hash" = "sha512-oHNcZjoPvr+upKMfO5AqBlsbO+VpcInIEcHMkx1N0q/TO1twY8E2TfWuWZbYv/il28+IRWStTavBToZ3z13tRw==";
+        };
     in {
         "iKrJETeV" = _iKrJETeV;
         "rByNrDMT" = _rByNrDMT;
@@ -44,12 +49,14 @@ let
         "al1PCA1r" = _al1PCA1r;
         "yt3O96WZ" = _yt3O96WZ;
         "sLqjhL7c" = _sLqjhL7c;
+        "KOEBzebL" = _KOEBzebL;
         "fabric-1.19.2" = _iKrJETeV;
         "fabric-1.20" = _rByNrDMT;
         "fabric-1.20.1" = _rJqUdjSw;
         "fabric-1.20.6" = _al1PCA1r;
         "fabric-1.21" = _yt3O96WZ;
         "fabric-1.21.1" = _sLqjhL7c;
+        "fabric-26.3" = _KOEBzebL;
         "pkg-1.0.6" = _iKrJETeV;
         "pkg-1.0.7+1.20" = _rByNrDMT;
         "pkg-1.0.7+1.20.1" = _mCDiJJHc;
@@ -57,7 +64,8 @@ let
         "pkg-1.1.1+1.20.6" = _al1PCA1r;
         "pkg-1.1.1+1.21" = _yt3O96WZ;
         "pkg-1.1.1+1.21.1" = _sLqjhL7c;
-        "default" = _sLqjhL7c;
+        "pkg-1.0.8+26.3" = _KOEBzebL;
+        "default" = _KOEBzebL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "herdspanic";

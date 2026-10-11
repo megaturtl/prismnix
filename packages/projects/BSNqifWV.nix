@@ -221,6 +221,16 @@ let
             "file" = "reinforced-deepslate-recie-1.0.jar";
             "hash" = "sha512-4PWUA1H/u0j5rg/UrfS9HOH870rqBWq6lb1Y47+SnO2GXOHtlaOjhEwi8MLPTgTsobt0vFFRluCi5IY9vCjp7A==";
         };
+        _fIdfkPek = {
+            "id" = "fIdfkPek";
+            "file" = "reinforced_deepslate-26.3.zip";
+            "hash" = "sha512-Yw1LTW8T2H9QZjxz7alf20K3DbqYGVsxcDE7dLgXXFviNM9cYZn5tFxTVAfRku3l8Tgu6qGDN0MlfqDTOS92+A==";
+        };
+        _NRuaPkgS = {
+            "id" = "NRuaPkgS";
+            "file" = "reinforced-deepslate-recie-1.0.jar";
+            "hash" = "sha512-kB12bKEyUhCj2Uq6hcdGQaaM6CZWF59TwTkjqnIesys5qE4slDfQjO/hGbo4JFcvATRvZ15/hcHTsZW8/KpraA==";
+        };
     in {
         "uDAGflqB" = _uDAGflqB;
         "PMxJueK6" = _PMxJueK6;
@@ -266,6 +276,8 @@ let
         "aQYVwKpE" = _aQYVwKpE;
         "yYC5JOhp" = _yYC5JOhp;
         "36Pb4wqd" = _36Pb4wqd;
+        "fIdfkPek" = _fIdfkPek;
+        "NRuaPkgS" = _NRuaPkgS;
         "datapack-1.19" = _uDAGflqB;
         "datapack-1.19.1" = _uDAGflqB;
         "datapack-1.19.2" = _uDAGflqB;
@@ -312,6 +324,7 @@ let
         "datapack-1.20.5" = _eHZN9h9Y;
         "datapack-26.2" = _yYC5JOhp;
         "datapack-26.3-snapshot-1" = _yYC5JOhp;
+        "datapack-26.3" = _fIdfkPek;
         "fabric-1.19" = _fYH8yZ1Z;
         "fabric-1.19.1" = _fYH8yZ1Z;
         "fabric-1.19.2" = _fYH8yZ1Z;
@@ -358,6 +371,7 @@ let
         "fabric-1.20.5" = _aQYVwKpE;
         "fabric-26.2" = _36Pb4wqd;
         "fabric-26.3-snapshot-1" = _36Pb4wqd;
+        "fabric-26.3" = _NRuaPkgS;
         "forge-1.19" = _fYH8yZ1Z;
         "forge-1.19.1" = _fYH8yZ1Z;
         "forge-1.19.2" = _fYH8yZ1Z;
@@ -404,6 +418,7 @@ let
         "forge-1.20.5" = _aQYVwKpE;
         "forge-26.2" = _36Pb4wqd;
         "forge-26.3-snapshot-1" = _36Pb4wqd;
+        "forge-26.3" = _NRuaPkgS;
         "neoforge-1.19" = _fYH8yZ1Z;
         "neoforge-1.19.1" = _fYH8yZ1Z;
         "neoforge-1.19.2" = _fYH8yZ1Z;
@@ -450,6 +465,7 @@ let
         "neoforge-1.20.5" = _aQYVwKpE;
         "neoforge-26.2" = _36Pb4wqd;
         "neoforge-26.3-snapshot-1" = _36Pb4wqd;
+        "neoforge-26.3" = _NRuaPkgS;
         "quilt-1.19" = _fYH8yZ1Z;
         "quilt-1.19.1" = _fYH8yZ1Z;
         "quilt-1.19.2" = _fYH8yZ1Z;
@@ -496,9 +512,10 @@ let
         "quilt-1.20.5" = _aQYVwKpE;
         "quilt-26.2" = _36Pb4wqd;
         "quilt-26.3-snapshot-1" = _36Pb4wqd;
-        "pkg-1.0" = _yYC5JOhp;
-        "pkg-1.0+mod" = _36Pb4wqd;
-        "default" = _36Pb4wqd;
+        "quilt-26.3" = _NRuaPkgS;
+        "pkg-1.0" = _fIdfkPek;
+        "pkg-1.0+mod" = _NRuaPkgS;
+        "default" = _NRuaPkgS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "reinforced-deepslate-recie";

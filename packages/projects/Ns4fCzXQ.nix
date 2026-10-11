@@ -1106,6 +1106,11 @@ let
             "file" = "curvy_pipes-1.21.1-1.15.10.jar";
             "hash" = "sha512-JvDhf/m15xYzl7UNtBJaBhnK+d/uQ0PrP0FfooV72HMfEUJSyBmWsVY9eGk94ffdJ4evb09tRSlba+cN1G1JZg==";
         };
+        _uopMaHMP = {
+            "id" = "uopMaHMP";
+            "file" = "curvy_pipes-26.1.2-1.15.11.jar";
+            "hash" = "sha512-p27ruhJZkgwUABBb+Q033J4T1c+Pi7LkAboKQY1RTQN3R01+hfGhxnY68lNECixWvYAjtnZg8GC+CzZx5uPYpQ==";
+        };
     in {
         "HwgwNJ5P" = _HwgwNJ5P;
         "pdwfqVod" = _pdwfqVod;
@@ -1328,6 +1333,7 @@ let
         "Z8bTQfsF" = _Z8bTQfsF;
         "6M77CWON" = _6M77CWON;
         "GHB9bBEt" = _GHB9bBEt;
+        "uopMaHMP" = _uopMaHMP;
         "forge-1.20.1" = _xQBSjPxB;
         "forge-1.12.2" = _Z8bTQfsF;
         "forge-1.7.10" = _6M77CWON;
@@ -1336,7 +1342,7 @@ let
         "neoforge-1.20.1" = _xQBSjPxB;
         "neoforge-1.21" = _GHB9bBEt;
         "neoforge-1.21.1" = _GHB9bBEt;
-        "neoforge-26.1.2" = _U0ILVFvi;
+        "neoforge-26.1.2" = _uopMaHMP;
         "pkg-1.20.1-1.0.0" = _HwgwNJ5P;
         "pkg-1.20.1-1.0.1" = _pdwfqVod;
         "pkg-1.20.1-1.1.0" = _V9FyIrmi;
@@ -1558,7 +1564,8 @@ let
         "pkg-1.12.2-1.15.8" = _Z8bTQfsF;
         "pkg-1.7.10-1.15.9" = _6M77CWON;
         "pkg-1.21.1-1.15.10" = _GHB9bBEt;
-        "default" = _GHB9bBEt;
+        "pkg-26.1.2-1.15.11" = _uopMaHMP;
+        "default" = _uopMaHMP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "curvy-pipes";

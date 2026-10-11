@@ -961,6 +961,11 @@ let
             "file" = "Crystalcraft Unlimited Fruity Pebbles Expansion 1.21.1 NeoForge.jar";
             "hash" = "sha512-s7hr1bBwqU5yvVUQnxc7GLRly4xRqs+5XMx+MqgJPf7wyu8oSt9gqFtsYg7tM+SBtLeKix2eemKt5k90dKDbVw==";
         };
+        _Pm6CjbxU = {
+            "id" = "Pm6CjbxU";
+            "file" = "Crystalcraft Unlimited Shiny Update 1.20.1 Forge .jar";
+            "hash" = "sha512-MdRsQW9XIhMVLv4xLXIwjcjbF2cnKmPcUk5Um6kpEJbzQVZYv3QdvputMVicsKBvTHgzQN++5YkgZkjK0ODP6Q==";
+        };
     in {
         "uN1umENg" = _uN1umENg;
         "1lvxw6uu" = _1lvxw6uu;
@@ -1154,7 +1159,8 @@ let
         "sA3OdQQr" = _sA3OdQQr;
         "XqajjT9C" = _XqajjT9C;
         "jIabXuXN" = _jIabXuXN;
-        "forge-1.20.1" = _XqajjT9C;
+        "Pm6CjbxU" = _Pm6CjbxU;
+        "forge-1.20.1" = _Pm6CjbxU;
         "forge-1.19.2" = _KzJTAhYg;
         "forge-1.19.4" = _GHqac9X6;
         "forge-1.16.5" = _chOXbOPd;
@@ -1167,11 +1173,11 @@ let
         "neoforge-1.21.8" = _YCxHtRtR;
         "neoforge-26.1.2" = _sA3OdQQr;
         "fabric-1.21.8" = _2aHPz8ze;
-        "pkg-1.0.0" = _sA3OdQQr;
+        "pkg-1.0.0" = _Pm6CjbxU;
         "pkg-1.21.1" = _jIabXuXN;
         "pkg-1.21.8" = _2aHPz8ze;
         "pkg-1.20.1" = _XqajjT9C;
-        "default" = _jIabXuXN;
+        "default" = _Pm6CjbxU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crystalcraft-unlimited";

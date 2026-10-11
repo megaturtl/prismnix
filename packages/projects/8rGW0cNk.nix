@@ -146,6 +146,16 @@ let
             "file" = "borninconfiguration-3.2.2.jar";
             "hash" = "sha512-MgkSlyHwzZgFFiSviA+Ey0WT4Ihp2/6hxecJWyuvYTfsnKeSSM9f5Y5162b4zhUQ6+YNoemsWt/iQC7eP+UHSg==";
         };
+        _O5UhPCkn = {
+            "id" = "O5UhPCkn";
+            "file" = "borninconfig-FORGE.jar";
+            "hash" = "sha512-WholzhdTsdrZQ0O/FtZEoWEj9AHXNkIQZYFcrH5vFCyCyoLavmim9JW/h+XE9bZkxbG42JSVxEwKl7hSLIh8sQ==";
+        };
+        _pBHepOQ1 = {
+            "id" = "pBHepOQ1";
+            "file" = "borninconfig-NEO.jar";
+            "hash" = "sha512-f2BMZv/uljDqlVEk5ALl1gCjE98bkgr0xe+JDKqKtjkV0vbnAOydkAEodRrZDeo3nuadACt/QSAhWI53En7SZQ==";
+        };
     in {
         "eY37ZUhS" = _eY37ZUhS;
         "wq8ivbr2" = _wq8ivbr2;
@@ -176,8 +186,10 @@ let
         "AFFY2g7M" = _AFFY2g7M;
         "lEhfZRtM" = _lEhfZRtM;
         "Y3oSuLYI" = _Y3oSuLYI;
-        "forge-1.20.1" = _lEhfZRtM;
-        "neoforge-1.21.1" = _Y3oSuLYI;
+        "O5UhPCkn" = _O5UhPCkn;
+        "pBHepOQ1" = _pBHepOQ1;
+        "forge-1.20.1" = _O5UhPCkn;
+        "neoforge-1.21.1" = _pBHepOQ1;
         "neoforge-1.21" = _dnA3IzNx;
         "pkg-1.2" = _eY37ZUhS;
         "pkg-1.3" = _wq8ivbr2;
@@ -202,7 +214,8 @@ let
         "pkg-3.2" = _sEcSqx1i;
         "pkg-3.2.1" = _lEhfZRtM;
         "pkg-3.2.2" = _Y3oSuLYI;
-        "default" = _Y3oSuLYI;
+        "pkg-4.0" = _pBHepOQ1;
+        "default" = _pBHepOQ1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "born-in-configuration";

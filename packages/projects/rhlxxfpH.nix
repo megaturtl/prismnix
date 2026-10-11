@@ -176,6 +176,11 @@ let
             "file" = "SaveMod-1.5.0-fabric-mc26.2.jar";
             "hash" = "sha512-OGDURXk7zG0WDoSEobPrxJhcEIEgOYmO4LfswqPfyFocfD1EOFxYEO8HglBB3I+CkolhlnTRLxqCeOKnMhEd6g==";
         };
+        _wpo4Q9cL = {
+            "id" = "wpo4Q9cL";
+            "file" = "SaveMod-1.5.0-fabric-mc26.3.jar";
+            "hash" = "sha512-LWdPTVPnHe/MxpeGvW8wA8kXDP+Or41zOwy0+YESGUqhlh98iP42x3TcF0cwuNoBkpMYRtmPvJLIRf0v/y1y8w==";
+        };
     in {
         "soookb7f" = _soookb7f;
         "gnCeLCGz" = _gnCeLCGz;
@@ -212,6 +217,7 @@ let
         "hK7kQtsi" = _hK7kQtsi;
         "HVaBv7oc" = _HVaBv7oc;
         "tQvIcAXj" = _tQvIcAXj;
+        "wpo4Q9cL" = _wpo4Q9cL;
         "fabric-1.19.4" = _i0eYnFU3;
         "fabric-1.20.1" = _UCJsD68g;
         "fabric-1.20.2" = _tl82IYgT;
@@ -232,6 +238,7 @@ let
         "fabric-26.1.1" = _HVaBv7oc;
         "fabric-26.1.2" = _HVaBv7oc;
         "fabric-26.2" = _tQvIcAXj;
+        "fabric-26.3" = _wpo4Q9cL;
         "pkg-1.0.0+mc1.19.4" = _soookb7f;
         "pkg-1.1.0+mc1.19.4" = _gnCeLCGz;
         "pkg-1.2.0+mc1.19.4" = _I1fNCTdu;
@@ -267,7 +274,8 @@ let
         "pkg-1.5.0+mc1.21.11" = _hK7kQtsi;
         "pkg-1.5.0+mc26.1" = _HVaBv7oc;
         "pkg-1.5.0+mc26.2" = _tQvIcAXj;
-        "default" = _tQvIcAXj;
+        "pkg-1.5.0+mc26.3" = _wpo4Q9cL;
+        "default" = _wpo4Q9cL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "savemod";

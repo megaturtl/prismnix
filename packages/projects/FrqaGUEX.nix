@@ -126,6 +126,56 @@ let
             "file" = "particle-snow-1.21.9-10-1.2.1.jar";
             "hash" = "sha512-Li7Dc2ZlgewiIK1SQunmGnMq8trOo2OuY4ltMveH1ZjA7nxpcMsPMd3vdIwRh4UmCI2HUVGO/ixcPBKX9T2CCw==";
         };
+        _zyaiQheL = {
+            "id" = "zyaiQheL";
+            "file" = "cinematic-snowstorm-1.3.2.jar";
+            "hash" = "sha512-7te3rT0IxAbS3q84QSft5UgKSPJ1sPIR1nzZSiO5RpD1ecrXab4Py39m/6lnSBM6wWPUcSJ+SNnXihHCy46JNA==";
+        };
+        _Tj89fiwA = {
+            "id" = "Tj89fiwA";
+            "file" = "Particle-Snow-1.3-26.1.jar";
+            "hash" = "sha512-Aq7kwcJCYLyxGO326Pxz1lYPK0gk6Q/IQhzFPjpAAIgCuBNiXz9aCqZyGz9AI6wWm4DhpkKTEGGeGvlhgEV62Q==";
+        };
+        _pcyOBG5N = {
+            "id" = "pcyOBG5N";
+            "file" = "Particle-Snow-1.3-26.2.jar";
+            "hash" = "sha512-US6EjU37xDRd8Cbyq8nxIiZHFrxICAoPRZz90Mm7PPSnfWbka2ujESA1cBllvRglcI70Sm9WJE/RoB0w5ETmMw==";
+        };
+        _biuj2B5g = {
+            "id" = "biuj2B5g";
+            "file" = "Particle-Snow-1.3-26.3.jar";
+            "hash" = "sha512-SXJSGfDUuIvLzj2tGHEMEo/IEAzEsQjz8mns9494ZzdaVj/Spv/5ap7eqRmjtW0BhhNnzuf9NXX+xlXqJ1gB9w==";
+        };
+        _SMS53lWB = {
+            "id" = "SMS53lWB";
+            "file" = "Particle-Snow-1.3.1-26.1.jar";
+            "hash" = "sha512-RwI8c1HLlwbAE7GF09kS4N8Rh+36C2UDj6T8K42MMLt8IzCKbRTXfCvnEpKGefrFj/S+DzIsR10qjm2Wl2FO4g==";
+        };
+        _Aeu1e15Y = {
+            "id" = "Aeu1e15Y";
+            "file" = "Particle-Snow-1.3.1-26.2.jar";
+            "hash" = "sha512-6gWDVh1sQ/zaqaatpAZUzoNO2JnnjG+vC2X6EwZk7OhE0rWWBx42V/+71OO/sEtL2akYnwch3KWPxg2NZP7jog==";
+        };
+        _A4yNMD0Q = {
+            "id" = "A4yNMD0Q";
+            "file" = "Particle-Snow-1.3.1-26.3.jar";
+            "hash" = "sha512-mjHKf8T8ODdojmKMcTV/M/p10zCUYUDb3hjxBzpyjxYWBGWbpWvif4caCYDW+8EzVkSm95i3xbcHMwnAZanCGg==";
+        };
+        _IZs0j7p1 = {
+            "id" = "IZs0j7p1";
+            "file" = "Particle-Snow-1.3.2-26.1.jar";
+            "hash" = "sha512-+48t7nKZv0glgryR9FWfOU1fD0eAzcoIEtv6zAI/JgBuyAGjqk8fdkXpOel2Gz7npE5nVf3/WPt12NVQNVj0lg==";
+        };
+        _Lg4vSArH = {
+            "id" = "Lg4vSArH";
+            "file" = "Particle-Snow-1.3.2-26.2.jar";
+            "hash" = "sha512-WRFqruT2su8m1fvkS+MnWrIJvLQ58I4tJJOunZJrmTQnz2MXqVQFLPRjSqKqjBs8LZelzvQ7u96TLCO/VdTsbQ==";
+        };
+        _IWsEyXt7 = {
+            "id" = "IWsEyXt7";
+            "file" = "Particle-Snow-1.3.2-26.3.jar";
+            "hash" = "sha512-5dbYK/XK43I3l+Up6oB5CPIKZY/BY/24dNNuAsh2sfnicw7Mr3C3XTT7c4KwzSoaVJo8M0MWWy0XNH6KKUKdEQ==";
+        };
     in {
         "PFEwkRqB" = _PFEwkRqB;
         "rKcf0Qor" = _rKcf0Qor;
@@ -152,6 +202,16 @@ let
         "eA5pC2YK" = _eA5pC2YK;
         "4XYqSz3D" = _4XYqSz3D;
         "2ozloQMm" = _2ozloQMm;
+        "zyaiQheL" = _zyaiQheL;
+        "Tj89fiwA" = _Tj89fiwA;
+        "pcyOBG5N" = _pcyOBG5N;
+        "biuj2B5g" = _biuj2B5g;
+        "SMS53lWB" = _SMS53lWB;
+        "Aeu1e15Y" = _Aeu1e15Y;
+        "A4yNMD0Q" = _A4yNMD0Q;
+        "IZs0j7p1" = _IZs0j7p1;
+        "Lg4vSArH" = _Lg4vSArH;
+        "IWsEyXt7" = _IWsEyXt7;
         "fabric-1.20.1" = _juMFJjHH;
         "fabric-1.20.2" = _BdR5ZjtS;
         "fabric-1.20.3" = _zcXhb3vT;
@@ -167,13 +227,20 @@ let
         "fabric-1.21.6" = _eA5pC2YK;
         "fabric-1.21.7" = _eA5pC2YK;
         "fabric-1.21.8" = _eA5pC2YK;
-        "fabric-1.21.9" = _2ozloQMm;
-        "fabric-1.21.10" = _2ozloQMm;
+        "fabric-1.21.9" = _zyaiQheL;
+        "fabric-1.21.10" = _zyaiQheL;
+        "fabric-26.1" = _IZs0j7p1;
+        "fabric-26.2" = _Lg4vSArH;
+        "fabric-26.3" = _IWsEyXt7;
         "pkg-1.0.0" = _uT8HncGI;
         "pkg-1.1.0" = _JoijLsrG;
         "pkg-1.2.0" = _4XYqSz3D;
         "pkg-1.2.1" = _2ozloQMm;
-        "default" = _2ozloQMm;
+        "pkg-1.2.2" = _zyaiQheL;
+        "pkg-1.3" = _biuj2B5g;
+        "pkg-1.3.1" = _A4yNMD0Q;
+        "pkg-1.3.2" = _IWsEyXt7;
+        "default" = _IWsEyXt7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "particle-snow";

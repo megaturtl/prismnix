@@ -366,6 +366,16 @@ let
             "file" = "torchmaster-neoforge-1.21.1-21.1.12.jar";
             "hash" = "sha512-rdt7SXHQ1f+gWtCOJSkbd/v58EkCI+62FiVj+BjO82uJPF7pI5/W307QQu5MvqH23phOiWkDEch2JOslQpLO/A==";
         };
+        _yVuPNkb2 = {
+            "id" = "yVuPNkb2";
+            "file" = "torchmaster-fabric-1.21.1-21.1.13.jar";
+            "hash" = "sha512-spaQQV9we7BZ4iIgnRHwajTeJPRmbbgeReG5ULtoZqKRqcH/RZ04ciNVvusOo7iCIJeRETR7ABtVcXePck/V8A==";
+        };
+        _JmlakQNo = {
+            "id" = "JmlakQNo";
+            "file" = "torchmaster-neoforge-1.21.1-21.1.13.jar";
+            "hash" = "sha512-v9AJ1IvvkUwgCzc5V3M3LOyb0mhuuMcm0gcdl5mhM4LwxYjAbKrf1fzhZeucNN3DjJHIkEY+LdmuQrQLgv7u2g==";
+        };
     in {
         "D26cBYtG" = _D26cBYtG;
         "WgbbnI3t" = _WgbbnI3t;
@@ -440,6 +450,8 @@ let
         "1WtG1xOA" = _1WtG1xOA;
         "xnoSYxuJ" = _xnoSYxuJ;
         "H6N0F5PT" = _H6N0F5PT;
+        "yVuPNkb2" = _yVuPNkb2;
+        "JmlakQNo" = _JmlakQNo;
         "forge-1.18.2" = _4qWPsNk1;
         "forge-1.16.5" = _WgbbnI3t;
         "forge-1.19" = _Rfk2bNWH;
@@ -448,7 +460,7 @@ let
         "forge-1.20.1" = _OTbqpyC8;
         "neoforge-1.20.1" = _OTbqpyC8;
         "neoforge-1.21" = _1QmeQ2Zl;
-        "neoforge-1.21.1" = _H6N0F5PT;
+        "neoforge-1.21.1" = _JmlakQNo;
         "neoforge-1.21.3" = _qe6rMMNE;
         "neoforge-1.21.4" = _AmageOJ6;
         "neoforge-1.21.5" = _S0bnGqpo;
@@ -456,7 +468,7 @@ let
         "neoforge-1.21.10" = _nDYbysiB;
         "neoforge-1.21.8" = _1snsIVzh;
         "fabric-1.21" = _tGbVq2io;
-        "fabric-1.21.1" = _xnoSYxuJ;
+        "fabric-1.21.1" = _yVuPNkb2;
         "fabric-1.21.3" = _VjVLPNd2;
         "fabric-1.21.4" = _rj6kik9u;
         "fabric-1.21.5" = _crJ8yGx8;
@@ -516,7 +528,8 @@ let
         "pkg-21.1.10-release" = _5hCihTOd;
         "pkg-21.1.11-release" = _1WtG1xOA;
         "pkg-21.1.12-release" = _H6N0F5PT;
-        "default" = _H6N0F5PT;
+        "pkg-21.1.13-release" = _JmlakQNo;
+        "default" = _JmlakQNo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "torchmaster";

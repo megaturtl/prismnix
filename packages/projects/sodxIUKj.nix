@@ -466,6 +466,26 @@ let
             "file" = "medsystem-neoforge-2.14.0+26.3.jar";
             "hash" = "sha512-9pqeqQAO0DED+424BjLG+ElzCSg+y12bAHHVOmvwGQ16YNsJjH2BSdw6oWl6w833ikgrJt3gGx8a+U8KUKZSgQ==";
         };
+        _nlsdUU8A = {
+            "id" = "nlsdUU8A";
+            "file" = "medsystem-neoforge-2.14.1+26.3.jar";
+            "hash" = "sha512-Q5NhzKY4tdk+xFrSDAgULWiO+3f0i3izR4LI76Crb8tRq0lJNo+2FM4f0bcNuiSBcS4u1v6b8k8lSTpxIFXI6Q==";
+        };
+        _PTngUWcW = {
+            "id" = "PTngUWcW";
+            "file" = "medsystem-neoforge-2.14.1+26.1.2.jar";
+            "hash" = "sha512-nVoVzbba4a9IgU9kX1vjjnjew1qF6SYOORp2crMq8nr0wPgr6ZGtewXDg3BRklXgNJp1rmnj/xap6IBIDYgsdA==";
+        };
+        _t9n2EH13 = {
+            "id" = "t9n2EH13";
+            "file" = "medsystem-neoforge-2.14.1+1.21.1.jar";
+            "hash" = "sha512-P7zzHKPqjQB2k97lUvMxr1Vm/W5PFaK8SU9r5lV0+o2nIydggne5FZfZgGe4vJFJn9+X7Q/FSTSwsd0m4Aj/NA==";
+        };
+        _4zyCvx73 = {
+            "id" = "4zyCvx73";
+            "file" = "medsystem-neoforge-2.14.2+1.21.1.jar";
+            "hash" = "sha512-BVfSrJfnYDlXkYNHqn82ddw32RNyUc3UN/HHgHzTIpEcpAkR+JGlO3CEdTWYSbM0z3C+AWp8Cjy9MmO0NMH/0Q==";
+        };
     in {
         "lf2qrKLU" = _lf2qrKLU;
         "h3wLPmAa" = _h3wLPmAa;
@@ -560,19 +580,23 @@ let
         "ELEqUmC8" = _ELEqUmC8;
         "nbY7wgEM" = _nbY7wgEM;
         "jxOlhEJI" = _jxOlhEJI;
+        "nlsdUU8A" = _nlsdUU8A;
+        "PTngUWcW" = _PTngUWcW;
+        "t9n2EH13" = _t9n2EH13;
+        "4zyCvx73" = _4zyCvx73;
         "neoforge-1.21.5" = _h3wLPmAa;
         "neoforge-1.21.6" = _usfHIbDC;
         "neoforge-1.21.7" = _hBrcS5xc;
         "neoforge-1.21.8" = _EerfwB0B;
         "neoforge-1.21.9" = _Tgv7V1t6;
         "neoforge-1.21.10" = _Tgv7V1t6;
-        "neoforge-1.21.1" = _ELEqUmC8;
+        "neoforge-1.21.1" = _4zyCvx73;
         "neoforge-1.21.11" = _4xpB40J9;
         "neoforge-26.1" = _184MvSON;
         "neoforge-26.1.1" = _184MvSON;
-        "neoforge-26.1.2" = _zUaPnMYR;
+        "neoforge-26.1.2" = _PTngUWcW;
         "neoforge-26.2" = _nbY7wgEM;
-        "neoforge-26.3" = _jxOlhEJI;
+        "neoforge-26.3" = _nlsdUU8A;
         "pkg-1.0" = _lf2qrKLU;
         "pkg-1.1.0" = _M3v2aNKa;
         "pkg-1.2.0" = _xrDIvlAW;
@@ -653,7 +677,11 @@ let
         "pkg-2.13.0+1.21.1" = _ELEqUmC8;
         "pkg-2.14.0+26.2" = _nbY7wgEM;
         "pkg-2.14.0+26.3" = _jxOlhEJI;
-        "default" = _jxOlhEJI;
+        "pkg-2.14.1+26.3" = _nlsdUU8A;
+        "pkg-2.14.1+26.1.2" = _PTngUWcW;
+        "pkg-2.14.1+1.21.1" = _t9n2EH13;
+        "pkg-2.14.2+1.21.1" = _4zyCvx73;
+        "default" = _4zyCvx73;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "med-system";

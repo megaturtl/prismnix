@@ -71,6 +71,16 @@ let
             "file" = "more-radical-trainers-1.8.jar";
             "hash" = "sha512-5nHwAMG8L27Qv8xhX3tVu10lvpC5sD5BzGm3fEBDongHrq+0t0EytuuHlThDuJ/vYN8dQOZyr8XD2bbKboLRmw==";
         };
+        _XrPHePfS = {
+            "id" = "XrPHePfS";
+            "file" = "MoreRadicalTrainers1.8.1.zip";
+            "hash" = "sha512-U5T28Vb38xmXZmWD0Y/6Bbcfh9iRbWkM1OPZWfRV+xnWjcyXSMZfeSpXXaDWB5vm5TNAnMv8HC2yblP6wHE5TA==";
+        };
+        _IkRVN81d = {
+            "id" = "IkRVN81d";
+            "file" = "more-radical-trainers-1.8.1.jar";
+            "hash" = "sha512-9ejr0/2Glu85VWslUMbyOFjfshZlNxM5fITIhbQomwQvhZnDxG7JNdC2EcVZtszIRqiAPIeOS/h9SosEM3PIhQ==";
+        };
     in {
         "qaCePqas" = _qaCePqas;
         "jr0yxOx8" = _jr0yxOx8;
@@ -86,9 +96,14 @@ let
         "4xU0DNtY" = _4xU0DNtY;
         "zSSQzZae" = _zSSQzZae;
         "m86zprpd" = _m86zprpd;
-        "datapack-1.21.1" = _zSSQzZae;
-        "fabric-1.21.1" = _m86zprpd;
-        "neoforge-1.21.1" = _m86zprpd;
+        "XrPHePfS" = _XrPHePfS;
+        "IkRVN81d" = _IkRVN81d;
+        "datapack-1.21.1" = _XrPHePfS;
+        "datapack-1.21" = _XrPHePfS;
+        "fabric-1.21.1" = _IkRVN81d;
+        "fabric-1.21" = _IkRVN81d;
+        "neoforge-1.21.1" = _IkRVN81d;
+        "neoforge-1.21" = _IkRVN81d;
         "pkg-1.0" = _qaCePqas;
         "pkg-1.1" = _jr0yxOx8;
         "pkg-1.2" = _zZfk8pQF;
@@ -103,7 +118,9 @@ let
         "pkg-1.7.2+mod" = _4xU0DNtY;
         "pkg-1.8" = _zSSQzZae;
         "pkg-1.8+mod" = _m86zprpd;
-        "default" = _m86zprpd;
+        "pkg-1.8.1" = _XrPHePfS;
+        "pkg-1.8.1+mod" = _IkRVN81d;
+        "default" = _IkRVN81d;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-radical-trainers";

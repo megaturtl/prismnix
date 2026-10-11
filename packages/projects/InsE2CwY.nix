@@ -76,6 +76,36 @@ let
             "file" = "Minecraft Lite Edition 1.21.7-1.21.8.zip";
             "hash" = "sha512-yQG697KluqjRiuLkuf3UZHMY/p07XAafpUlRkOPFlIYcQAdykAuVop3BhAK1QujJ5U/zwSwZxnRsbLtblfCD9A==";
         };
+        _xdBPNUky = {
+            "id" = "xdBPNUky";
+            "file" = "Minecraft Lite Edition 1.21.9-1.21.10.zip";
+            "hash" = "sha512-pWG9yZ+pRt6+fjNd8KC3iu85tFZoRNoCIhWNCDyEaAxKo8JoO+hXGo6QkXH52Ywralgs/5cITVtQYnSrAvcswA==";
+        };
+        _jJaGQPDl = {
+            "id" = "jJaGQPDl";
+            "file" = "Minecraft Lite Edition 1.21.11.zip";
+            "hash" = "sha512-unyxYwAxg+UmK6t0eVm2nErFAqsXwYp+fUwcsM68G3MNTzxqRTYkmwGceXHg5dJOuYyjXQKvR25lcCrKsvPb1g==";
+        };
+        _esFRy1Po = {
+            "id" = "esFRy1Po";
+            "file" = "Minecraft Lite Edition 1.21.zip";
+            "hash" = "sha512-hdmci2mkIrW0aptTBfY4XaQ0xDwFujs0M4qivuJ/BVrurbkg93jzRz17QMUCyblRotAfBOA6O3VBAcTgZkj++w==";
+        };
+        _pRvgOdIJ = {
+            "id" = "pRvgOdIJ";
+            "file" = "Minecraft Lite Edition 26.1-26.1.2.zip";
+            "hash" = "sha512-KhslI32blsnnU9D+0kK8/ec3iJR4z/7/sy327jp7wuvOJzwlBOGu89nFJX1j0t24EQK1kAkwxPIfd1fArRbTKw==";
+        };
+        _k8sBWwXn = {
+            "id" = "k8sBWwXn";
+            "file" = "Minecraft Lite Edition 26.2.zip";
+            "hash" = "sha512-YaIJq+jjbblgsAHxlUc4EZzFeV63JWdquiAvgDVyNDjgsRVdfpNQ5+kSKsSFFxcH7JTtA+wulwDU0n8x7LKO1g==";
+        };
+        _H7JrwiYr = {
+            "id" = "H7JrwiYr";
+            "file" = "Minecraft Lite Edition 26.3.zip";
+            "hash" = "sha512-LrMDZjgup3+YzWOsuacsqCRaJcMW4waptCAHyksQ3MJRJs2tV1AvR981FO5bdOMHbm+x20XpFpiaWxXzDw/xtw==";
+        };
     in {
         "9CCXYquz" = _9CCXYquz;
         "xRt2prEW" = _xRt2prEW;
@@ -92,8 +122,14 @@ let
         "uAbcJyAf" = _uAbcJyAf;
         "RLXyXMR3" = _RLXyXMR3;
         "gpDxZXMr" = _gpDxZXMr;
-        "minecraft-1.21" = _9CCXYquz;
-        "minecraft-1.21.1" = _9CCXYquz;
+        "xdBPNUky" = _xdBPNUky;
+        "jJaGQPDl" = _jJaGQPDl;
+        "esFRy1Po" = _esFRy1Po;
+        "pRvgOdIJ" = _pRvgOdIJ;
+        "k8sBWwXn" = _k8sBWwXn;
+        "H7JrwiYr" = _H7JrwiYr;
+        "minecraft-1.21" = _esFRy1Po;
+        "minecraft-1.21.1" = _esFRy1Po;
         "minecraft-1.20.5" = _xRt2prEW;
         "minecraft-1.20.6" = _xRt2prEW;
         "minecraft-1.20.3" = _NfEQvIMz;
@@ -118,8 +154,14 @@ let
         "minecraft-1.21.6" = _RLXyXMR3;
         "minecraft-1.21.7" = _gpDxZXMr;
         "minecraft-1.21.8" = _gpDxZXMr;
-        "pkg-MinecraftLiteEdition" = _gpDxZXMr;
-        "default" = _gpDxZXMr;
+        "minecraft-1.21.9" = _xdBPNUky;
+        "minecraft-1.21.10" = _xdBPNUky;
+        "minecraft-1.21.11" = _jJaGQPDl;
+        "minecraft-26.1" = _pRvgOdIJ;
+        "minecraft-26.2" = _k8sBWwXn;
+        "minecraft-26.3" = _H7JrwiYr;
+        "pkg-MinecraftLiteEdition" = _H7JrwiYr;
+        "default" = _H7JrwiYr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "minecraft-lite-edition-wool-edition";

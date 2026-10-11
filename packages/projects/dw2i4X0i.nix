@@ -46,6 +46,11 @@ let
             "file" = "Tardis-Mod-1.20.1-1.1.5.jar";
             "hash" = "sha512-7UmpDXBsJIZDInbLDgNIS8a+uYjIYQivJeI40IueXBfsPws9WySnT6OeligIEu1zSKEBiXhs76AX6eL9n7TLsQ==";
         };
+        _2PGjmhE6 = {
+            "id" = "2PGjmhE6";
+            "file" = "Tardis-Mod-1.20.1-1.1.6.jar";
+            "hash" = "sha512-aCeJspsgvhCqtKyxT40cSDgtpljg7k+KVP679UkaN68eJVW47R3iTnHc68FuhuFzus2SzvO//y6ZZ6vbVwetYg==";
+        };
     in {
         "bHSWLQRc" = _bHSWLQRc;
         "L0PxF5KN" = _L0PxF5KN;
@@ -56,9 +61,10 @@ let
         "IwCT2GGn" = _IwCT2GGn;
         "A2R9BsSz" = _A2R9BsSz;
         "yUUXedUF" = _yUUXedUF;
+        "2PGjmhE6" = _2PGjmhE6;
         "forge-1.16.5" = _bHSWLQRc;
         "forge-1.19.4" = _7XSAa41L;
-        "forge-1.20.1" = _yUUXedUF;
+        "forge-1.20.1" = _2PGjmhE6;
         "pkg-1.5.4" = _bHSWLQRc;
         "pkg-1.0.1" = _L0PxF5KN;
         "pkg-1.0.2" = _wFOY1OEA;
@@ -67,7 +73,8 @@ let
         "pkg-1.1.3" = _IwCT2GGn;
         "pkg-1.1.4.5" = _A2R9BsSz;
         "pkg-1.1.5" = _yUUXedUF;
-        "default" = _yUUXedUF;
+        "pkg-1.20.1-1.1.6" = _2PGjmhE6;
+        "default" = _2PGjmhE6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tardis-mod";

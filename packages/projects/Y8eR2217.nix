@@ -31,6 +31,11 @@ let
             "file" = "glow-1.3.1.jar";
             "hash" = "sha512-dJZtM9WegqLe5++cNOcRqAaZFVOq7Qd5+DWnN436jXt/cwcme/3rbER0/t4ypITdA+aZE7aqn8OBVKw8m+Aaiw==";
         };
+        _e3kmZxi7 = {
+            "id" = "e3kmZxi7";
+            "file" = "glow-1.3.2.jar";
+            "hash" = "sha512-1CLhGaXfjjtGUtHlDFI8IfHw2qtsBnqhFMjco14UWZRIoAynrxmqlShcFCEWFSHb7x3VYDWiOYre80WyLVwW/w==";
+        };
     in {
         "zk3FOYpX" = _zk3FOYpX;
         "Qwg1vxvA" = _Qwg1vxvA;
@@ -38,14 +43,16 @@ let
         "wZGlcPm0" = _wZGlcPm0;
         "nHIBYwDr" = _nHIBYwDr;
         "7Fnr5mON" = _7Fnr5mON;
-        "neoforge-1.21.1" = _7Fnr5mON;
+        "e3kmZxi7" = _e3kmZxi7;
+        "neoforge-1.21.1" = _e3kmZxi7;
         "forge-1.20.1" = _dpwnnTyN;
         "pkg-1.0.0" = _zk3FOYpX;
         "pkg-1.1.0" = _Qwg1vxvA;
         "pkg-1.2.0" = _wZGlcPm0;
         "pkg-1.3.0" = _nHIBYwDr;
         "pkg-1.3.1" = _7Fnr5mON;
-        "default" = _7Fnr5mON;
+        "pkg-1.3.2" = _e3kmZxi7;
+        "default" = _e3kmZxi7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "glows";

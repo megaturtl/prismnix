@@ -86,6 +86,16 @@ let
             "file" = "material_beacons-neoforge-26.3-1.1.0.jar";
             "hash" = "sha512-2XqujuK+CGl50mzZWTgllkfbykN6qRrbp8Yf7vfUyst2kiwnueYml0p1Fa/3HCJ4MfD4nuiaYE990nSDnVlm4A==";
         };
+        _dbOxoKVn = {
+            "id" = "dbOxoKVn";
+            "file" = "material_beacons-neoforge-26.3-1.2.0.jar";
+            "hash" = "sha512-MjCyc6zGuDHlG1fsVRx0oXM0USZaeRh8H6H8DdvC1FUMEFRfr4idw+Myig/pLbrsd5jEblz9hvBt/Eu2WzGJWg==";
+        };
+        _Nz2XclW3 = {
+            "id" = "Nz2XclW3";
+            "file" = "material_beacons-fabric-26.3-1.2.0.jar";
+            "hash" = "sha512-kl3CBiWkoFtjn1QzblmnQTrtdeHz+lBtk12CErz/U3H2T3S9tvi9I9WrjHK5sxQHIPRoKflY7M9O5mRMGEGWXw==";
+        };
     in {
         "J2MCLxkX" = _J2MCLxkX;
         "RnGKfRUb" = _RnGKfRUb;
@@ -104,6 +114,8 @@ let
         "U0VRHUgs" = _U0VRHUgs;
         "ugSpFdHX" = _ugSpFdHX;
         "2r9kb6aq" = _2r9kb6aq;
+        "dbOxoKVn" = _dbOxoKVn;
+        "Nz2XclW3" = _Nz2XclW3;
         "fabric-1.20.6" = _J2MCLxkX;
         "fabric-1.21" = _RnGKfRUb;
         "fabric-1.21.1" = _eYEGqZKO;
@@ -122,7 +134,7 @@ let
         "fabric-26.1.1" = _w962N59b;
         "fabric-26.1.2" = _w962N59b;
         "fabric-26.2" = _OebL5jbe;
-        "fabric-26.3" = _ugSpFdHX;
+        "fabric-26.3" = _Nz2XclW3;
         "neoforge-1.21.5" = _5jEkTTtt;
         "neoforge-1.21.6" = _5jEkTTtt;
         "neoforge-1.21.7" = _5jEkTTtt;
@@ -134,7 +146,7 @@ let
         "neoforge-26.1.1" = _fvXM09dG;
         "neoforge-26.1.2" = _fvXM09dG;
         "neoforge-26.2" = _U0VRHUgs;
-        "neoforge-26.3" = _2r9kb6aq;
+        "neoforge-26.3" = _dbOxoKVn;
         "pkg-1.0.0" = _J2MCLxkX;
         "pkg-1.0.1+1.21" = _RnGKfRUb;
         "pkg-1.0.1+1.21.1" = _YGahXQ5U;
@@ -148,7 +160,8 @@ let
         "pkg-1.0.2+1.21.1" = _eYEGqZKO;
         "pkg-1.1.0+26.2" = _U0VRHUgs;
         "pkg-1.1.0+26.3" = _2r9kb6aq;
-        "default" = _2r9kb6aq;
+        "pkg-1.2.0+26.3" = _Nz2XclW3;
+        "default" = _Nz2XclW3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "material-beacons";

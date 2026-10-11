@@ -26,23 +26,47 @@ let
             "file" = "renice-shot-1.1.0+mc26.3.jar";
             "hash" = "sha512-irYYWeQRZtR8+NA+Sy4Wd7ND/aHuCzF3ezm1abj7g3a9kXGOmqT2PTvt+pskJpd54bBvatAr4YkojdB3GSnNTg==";
         };
+        _cqRSJ7PC = {
+            "id" = "cqRSJ7PC";
+            "file" = "renice-shot-1.2.1+mc26.3.jar";
+            "hash" = "sha512-VmrmMlR2iGnjtPcG+Clq3I1rXcSKeqEp7TJ3aECnx+oUNJE/E/SJmt5Xnt8gu81zfAMyv/CyVc6fOaRhKHu+JA==";
+        };
+        _roOTvshj = {
+            "id" = "roOTvshj";
+            "file" = "renice-shot-1.2.1+mc26.2.jar";
+            "hash" = "sha512-F7KHZfouMrm3QiCMv7Hf/q2gFPlujIWAi0vEVWHmumi57LjzXvZiHAvcqia/4K3zqEpnBLn4Kpln+x1CKbPaZA==";
+        };
+        _hKgAIkda = {
+            "id" = "hKgAIkda";
+            "file" = "renice-shot-1.3.0+mc26.4.jar";
+            "hash" = "sha512-Tu5DjoZI1kvfmgN0TtagAk0xFPV0EmBom+PSuDwElcTA7AFgcybPb2T11Y4qBaf4W9gC1AupvY5LyXRlvUm8PA==";
+        };
     in {
         "Grf7gEu1" = _Grf7gEu1;
         "1BmBiiHH" = _1BmBiiHH;
         "V2M5d2I9" = _V2M5d2I9;
         "3Y3QeJD4" = _3Y3QeJD4;
         "kyU7vmxY" = _kyU7vmxY;
-        "fabric-26.2" = _Grf7gEu1;
+        "cqRSJ7PC" = _cqRSJ7PC;
+        "roOTvshj" = _roOTvshj;
+        "hKgAIkda" = _hKgAIkda;
+        "fabric-26.2" = _roOTvshj;
         "fabric-26.3-rc-1" = _1BmBiiHH;
         "fabric-26.3-rc-2" = _V2M5d2I9;
         "fabric-26.3-rc-3" = _3Y3QeJD4;
-        "fabric-26.3" = _kyU7vmxY;
+        "fabric-26.3" = _cqRSJ7PC;
+        "fabric-26.4-snapshot-1" = _hKgAIkda;
+        "fabric-26.4-snapshot-2" = _hKgAIkda;
+        "fabric-26.4-snapshot-3" = _hKgAIkda;
         "pkg-1.0.0+mc26.2" = _Grf7gEu1;
         "pkg-1.1.0+mc26.3-rc-1" = _1BmBiiHH;
         "pkg-1.1.0+mc26.3-rc-2" = _V2M5d2I9;
         "pkg-1.1.0+mc26.3-rc-3" = _3Y3QeJD4;
         "pkg-1.1.0+mc26.3" = _kyU7vmxY;
-        "default" = _kyU7vmxY;
+        "pkg-1.2.1+mc26.3" = _cqRSJ7PC;
+        "pkg-1.2.1+mc26.2" = _roOTvshj;
+        "pkg-1.3.0+mc26.4" = _hKgAIkda;
+        "default" = _hKgAIkda;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "renice-shot";

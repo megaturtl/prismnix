@@ -56,6 +56,31 @@ let
             "file" = "bloodmoon-1.5-neoforge.jar";
             "hash" = "sha512-/EpBI6GhJJKFyJRECO7mwN0sINbtn2bqdxWrGD2AOstYQjr9EUUzSDpGFb6NDPG73R8H/NYx8TD6EgnfikTMlw==";
         };
+        _6quoxbMo = {
+            "id" = "6quoxbMo";
+            "file" = "bloodmoon-1.5.1-neoforge.jar";
+            "hash" = "sha512-K0r48GD27XmznZvnxXD2xhsR8D/+3W4DhHLhNl/DSsxo2csyjZSMrKe5wJMiyLdd5rzfkjcz9kM5uHLXvKxeBg==";
+        };
+        _lPl8aIoY = {
+            "id" = "lPl8aIoY";
+            "file" = "bloodmoon-1.5.2.jar";
+            "hash" = "sha512-U/BEQKcIH+bKCGUYXWkSU4KRrVZPfp1OMpRCLeZyH0WaHIevpEc6HBcT4ANw0e4cr2ECLxAvFiSPRz1qN2djEg==";
+        };
+        _RaHTRqwk = {
+            "id" = "RaHTRqwk";
+            "file" = "bloodmoon-1.5.2-neoforge.jar";
+            "hash" = "sha512-3omI5SBQCHVlP/gjsuD3zxzge2ITq7rjwarrLW1C647otRE3I1IFzzuamY71WXm2oJX56rerP70Ft4It8gQkOQ==";
+        };
+        _EeBVaki7 = {
+            "id" = "EeBVaki7";
+            "file" = "bloodmoon-1.6.0.jar";
+            "hash" = "sha512-mNnS/dcShpSTbqCjCPHhH/+tBqJ0F89S9sZBrcis1pP6YJPddEhdFzVKO9ze/gTwBQTJDHsW1ULUqzN2nwpFQg==";
+        };
+        _TbWkslbr = {
+            "id" = "TbWkslbr";
+            "file" = "bloodmoon-1.5.3.jar";
+            "hash" = "sha512-j2cBYxGCZkdAlSwxYT5sfSUXftUtvG+fN5vHqGl18aZ4wuIW1GHKF744DdjDLlF6T2c6GC6rSea+J0TQE8S34g==";
+        };
     in {
         "syM8VNym" = _syM8VNym;
         "bWuDchcH" = _bWuDchcH;
@@ -68,8 +93,13 @@ let
         "DrGCaKKo" = _DrGCaKKo;
         "8mS1mpin" = _8mS1mpin;
         "ytVq0czN" = _ytVq0czN;
-        "forge-1.20.1" = _8mS1mpin;
-        "neoforge-1.21.1" = _ytVq0czN;
+        "6quoxbMo" = _6quoxbMo;
+        "lPl8aIoY" = _lPl8aIoY;
+        "RaHTRqwk" = _RaHTRqwk;
+        "EeBVaki7" = _EeBVaki7;
+        "TbWkslbr" = _TbWkslbr;
+        "forge-1.20.1" = _TbWkslbr;
+        "neoforge-1.21.1" = _EeBVaki7;
         "pkg-1.0" = _syM8VNym;
         "pkg-1.1" = _bWuDchcH;
         "pkg-1.1a" = _dttyZ2mB;
@@ -79,7 +109,11 @@ let
         "pkg-1.3.1" = _vrGPNTpT;
         "pkg-1.4.0" = _DrGCaKKo;
         "pkg-1.5.0" = _ytVq0czN;
-        "default" = _ytVq0czN;
+        "pkg-1.5.1" = _6quoxbMo;
+        "pkg-1.5.2" = _RaHTRqwk;
+        "pkg-1.6.0" = _EeBVaki7;
+        "pkg-1.5.3" = _TbWkslbr;
+        "default" = _TbWkslbr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bloodmoon-rebrushed";

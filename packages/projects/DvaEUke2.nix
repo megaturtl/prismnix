@@ -156,6 +156,21 @@ let
             "file" = "MCT-ImmersiveTechnology-1.20.1-2.1.0-b7392-release.jar";
             "hash" = "sha512-/1/h8Yd11ajQozdyBWkXdQc3d2v67gdu9mvi1bpozpQ7To99P+lLSXJx8TyYTL1/bz+HNw7EkTJvqox68BKjTA==";
         };
+        _9FmMrr6w = {
+            "id" = "9FmMrr6w";
+            "file" = "MCT-ImmersiveTechnology-1.20.1-2.1.0-b7432-release.jar";
+            "hash" = "sha512-4kwZeh6wthkZsEVUaCkjZBufprOp7ExhdLPguNiC23DWLNAwRAtpo8Yxx4DAHruTXpMb3VyX4Wpm67WYLfbkjw==";
+        };
+        _4dmXl2PB = {
+            "id" = "4dmXl2PB";
+            "file" = "MCT-ImmersiveTechnology-1.12.2-1.11.214-release.jar";
+            "hash" = "sha512-oN/LSw5m50NNBduqJrS5k/Z3bx0rNh/pkwQipRcofzwDVhaUqmkMLAER9YhUKrjKYl4IkTG1EnryJvMrGmldQQ==";
+        };
+        _dLKUGoFH = {
+            "id" = "dLKUGoFH";
+            "file" = "MCT-ImmersiveTechnology-1.20.1-2.1.0-b7435-release.jar";
+            "hash" = "sha512-3RYf4e8y+KhEYRAAj+Rm1MyQTPN4HDXRX4woZvcnHU1n+okvfZREEMdEvhjPZJWOgqnCdBv6KZF6D1ul/J02iw==";
+        };
     in {
         "tXe5H98I" = _tXe5H98I;
         "kgarTyrA" = _kgarTyrA;
@@ -188,8 +203,11 @@ let
         "M9BkHYol" = _M9BkHYol;
         "jvOyLd21" = _jvOyLd21;
         "FxQoCa35" = _FxQoCa35;
-        "forge-1.12.2" = _jvOyLd21;
-        "forge-1.20.1" = _FxQoCa35;
+        "9FmMrr6w" = _9FmMrr6w;
+        "4dmXl2PB" = _4dmXl2PB;
+        "dLKUGoFH" = _dLKUGoFH;
+        "forge-1.12.2" = _4dmXl2PB;
+        "forge-1.20.1" = _dLKUGoFH;
         "pkg-1.8.94-release" = _tXe5H98I;
         "pkg-1.9.102-release" = _kgarTyrA;
         "pkg-2.0.1-b3911-beta" = _gOHmYHjA;
@@ -221,7 +239,10 @@ let
         "pkg-1.11.209-release" = _M9BkHYol;
         "pkg-1.11.213-release" = _jvOyLd21;
         "pkg-2.1.0-b7392-release" = _FxQoCa35;
-        "default" = _FxQoCa35;
+        "pkg-2.1.0-b7432-release" = _9FmMrr6w;
+        "pkg-1.11.214-release" = _4dmXl2PB;
+        "pkg-2.1.0-b7435-release" = _dLKUGoFH;
+        "default" = _dLKUGoFH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mct-immersive-technology";

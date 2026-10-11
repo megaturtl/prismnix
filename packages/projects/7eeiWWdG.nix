@@ -61,6 +61,11 @@ let
             "file" = "essentials-3.2.3.jar";
             "hash" = "sha512-7v1vsEexBiTGJA2peTotN+cbigZtEKyPsGw651pgcbg+UD5ZreFqVL0CbhxHrKw53fzVt3iOMg72K72cHQ97fQ==";
         };
+        _ygfDkKGO = {
+            "id" = "ygfDkKGO";
+            "file" = "essentials-3.3.0.jar";
+            "hash" = "sha512-vKqFzqYAiK22Y2N8QzA2enRnn0DexfYf7KWq89SRA9I/O7hapwpKXnMSrNCc52imjWgF2goxm76IkUXnqNEy3A==";
+        };
     in {
         "5qo24Oe4" = _5qo24Oe4;
         "g6OcFQLe" = _g6OcFQLe;
@@ -74,9 +79,11 @@ let
         "PYQbLEE2" = _PYQbLEE2;
         "HkBGR9S2" = _HkBGR9S2;
         "2n1yMbAO" = _2n1yMbAO;
+        "ygfDkKGO" = _ygfDkKGO;
         "fabric-1.21.8" = _mIroR8nr;
         "fabric-1.21.10" = _JS5Czcgi;
         "fabric-26.2" = _2n1yMbAO;
+        "fabric-26.3" = _ygfDkKGO;
         "pkg-1.0.0" = _5qo24Oe4;
         "pkg-1.1.0" = _g6OcFQLe;
         "pkg-1.1.1" = _iWnb3WSz;
@@ -89,7 +96,8 @@ let
         "pkg-3.2.1" = _PYQbLEE2;
         "pkg-3.2.2" = _HkBGR9S2;
         "pkg-3.2.3" = _2n1yMbAO;
-        "default" = _2n1yMbAO;
+        "pkg-3.3.0" = _ygfDkKGO;
+        "default" = _ygfDkKGO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "essentialsfabric";

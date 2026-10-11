@@ -81,6 +81,16 @@ let
             "file" = "armor-upgrades-1.0.5.jar";
             "hash" = "sha512-XYH4YQELZTZr0Cotomu+TCc8X86Fb7lv8TmByU/5T3BL9u8gNUGlPUtBrWXMZf1giwyO3yg4eACjVQIxBdMiPw==";
         };
+        _kfpkia32 = {
+            "id" = "kfpkia32";
+            "file" = "Armor Upgrades v1.0.5 [26.3].zip";
+            "hash" = "sha512-gU3h6wX6Ysbv/fD4I7XvNLX2icI5YaYFZweq15WJzfKgvx4LXz76/n8JWQTbjU5qMiO1ut/6KpEi+l1BIBvU9g==";
+        };
+        _FKfl83mz = {
+            "id" = "FKfl83mz";
+            "file" = "armor-upgrades-1.0.5.jar";
+            "hash" = "sha512-53gVbRmUBR9uHOmAyKAnmek29mONftKSvbPuZU9RzkQvmZ6G2sIsQNA00fYlqU5AY91drzzVhYAhyN88ji84cQ==";
+        };
     in {
         "ZZE2q6tb" = _ZZE2q6tb;
         "RJ6B6Q5L" = _RJ6B6Q5L;
@@ -98,6 +108,8 @@ let
         "3P8gZZWq" = _3P8gZZWq;
         "ED3kkO4D" = _ED3kkO4D;
         "ND3azNBf" = _ND3azNBf;
+        "kfpkia32" = _kfpkia32;
+        "FKfl83mz" = _FKfl83mz;
         "datapack-1.21.4" = _CgYpCDSx;
         "datapack-1.21.5" = _ED3kkO4D;
         "datapack-1.21.6" = _ED3kkO4D;
@@ -110,6 +122,7 @@ let
         "datapack-26.1.1" = _ED3kkO4D;
         "datapack-26.1.2" = _ED3kkO4D;
         "datapack-26.2" = _ED3kkO4D;
+        "datapack-26.3" = _kfpkia32;
         "fabric-1.21.4" = _wEu0i9Bu;
         "fabric-1.21.5" = _ND3azNBf;
         "fabric-1.21.6" = _ND3azNBf;
@@ -122,6 +135,7 @@ let
         "fabric-26.1.1" = _ND3azNBf;
         "fabric-26.1.2" = _ND3azNBf;
         "fabric-26.2" = _ND3azNBf;
+        "fabric-26.3" = _FKfl83mz;
         "forge-1.21.4" = _wEu0i9Bu;
         "forge-1.21.5" = _ND3azNBf;
         "forge-1.21.6" = _ND3azNBf;
@@ -134,6 +148,7 @@ let
         "forge-26.1.1" = _ND3azNBf;
         "forge-26.1.2" = _ND3azNBf;
         "forge-26.2" = _ND3azNBf;
+        "forge-26.3" = _FKfl83mz;
         "neoforge-1.21.4" = _wEu0i9Bu;
         "neoforge-1.21.5" = _ND3azNBf;
         "neoforge-1.21.6" = _ND3azNBf;
@@ -146,6 +161,7 @@ let
         "neoforge-26.1.1" = _ND3azNBf;
         "neoforge-26.1.2" = _ND3azNBf;
         "neoforge-26.2" = _ND3azNBf;
+        "neoforge-26.3" = _FKfl83mz;
         "quilt-1.21.4" = _wEu0i9Bu;
         "quilt-1.21.5" = _ND3azNBf;
         "quilt-1.21.6" = _ND3azNBf;
@@ -158,6 +174,7 @@ let
         "quilt-26.1.1" = _ND3azNBf;
         "quilt-26.1.2" = _ND3azNBf;
         "quilt-26.2" = _ND3azNBf;
+        "quilt-26.3" = _FKfl83mz;
         "pkg-v1.0.0" = _ZZE2q6tb;
         "pkg-v1.0.0+mod" = _RJ6B6Q5L;
         "pkg-v1.0.1" = _NRgz4ZEY;
@@ -166,9 +183,9 @@ let
         "pkg-v1.0.2+mod" = _wEu0i9Bu;
         "pkg-v1.0.3" = _ukUeZJG6;
         "pkg-v1.0.3+mod" = _3P8gZZWq;
-        "pkg-1.0.5" = _ED3kkO4D;
-        "pkg-1.0.5+mod" = _ND3azNBf;
-        "default" = _ND3azNBf;
+        "pkg-1.0.5" = _kfpkia32;
+        "pkg-1.0.5+mod" = _FKfl83mz;
+        "default" = _FKfl83mz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "armor-upgrades";

@@ -91,6 +91,16 @@ let
             "file" = "nyfsquiver-fabric-1.21.1-2.0.3.jar";
             "hash" = "sha512-FLYQ/R+aMsaWbdF9pZW7IbkbPHVcSD9oVejSRxUMiyVvB4gdoBlzkiWJiFdYMCaJjudVg9Xz6lll0a9HcHrRfw==";
         };
+        _snByF2pI = {
+            "id" = "snByF2pI";
+            "file" = "nyfsquiver-fabric-1.21.1-2.0.4.jar";
+            "hash" = "sha512-qkcm55pXrmw+DKDBvMIa6h5PxeNuHNBiHufcB1OAYLRwYv6qefs+pXKp84S0U6+qUNHa/8rJtjPSf1asoG5BpQ==";
+        };
+        _m9ZHtnGk = {
+            "id" = "m9ZHtnGk";
+            "file" = "nyfsquiver-neoforge-1.21.1-2.0.4.jar";
+            "hash" = "sha512-M4mHV7K7gFh4jofd3Kr+IGaGapmED8gTGfEaf0U/C2kGwry/kQmkGRgjLBWAx2HwKQnaltp6uxaV4zwfhtzUdw==";
+        };
     in {
         "yYpQHCjd" = _yYpQHCjd;
         "Qkp3uFYO" = _Qkp3uFYO;
@@ -110,14 +120,16 @@ let
         "Kf5jVshU" = _Kf5jVshU;
         "p3Oc6n8T" = _p3Oc6n8T;
         "AnBT9pj1" = _AnBT9pj1;
+        "snByF2pI" = _snByF2pI;
+        "m9ZHtnGk" = _m9ZHtnGk;
         "fabric-1.19.2" = _yYpQHCjd;
         "fabric-1.20.1" = _CwXBLRBv;
-        "fabric-1.21.1" = _AnBT9pj1;
+        "fabric-1.21.1" = _snByF2pI;
         "forge-1.19.2" = _Qkp3uFYO;
         "forge-1.16.5" = _WbpNVXSY;
         "forge-1.20.1" = _zWNnGFCz;
         "neoforge-1.21" = _Kf5jVshU;
-        "neoforge-1.21.1" = _Kf5jVshU;
+        "neoforge-1.21.1" = _m9ZHtnGk;
         "pkg-0.5.1" = _yYpQHCjd;
         "pkg-0.7.4" = _Qkp3uFYO;
         "pkg-1.16.5-0.6.3" = _WbpNVXSY;
@@ -131,7 +143,8 @@ let
         "pkg-2.0.1" = _8w9yYOfA;
         "pkg-2.0.2" = _p3Oc6n8T;
         "pkg-2.0.3" = _AnBT9pj1;
-        "default" = _AnBT9pj1;
+        "pkg-2.0.4" = _m9ZHtnGk;
+        "default" = _m9ZHtnGk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nyfs-quivers";

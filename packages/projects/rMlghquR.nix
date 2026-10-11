@@ -506,6 +506,11 @@ let
             "file" = "TC-Redstone-1.20.6-3.2.5.1.jar";
             "hash" = "sha512-aFj76CkJhwA2ZWIMR8UvNQyfoNYXkbmDc0qEBaZ/W+iggfW+lLPKh1IOOnrEgADRudQX5ARBtrye3jAkmvIy0g==";
         };
+        _87FkpVUJ = {
+            "id" = "87FkpVUJ";
+            "file" = "TC-Redstone-26.2-Fabric-3.2.5.jar";
+            "hash" = "sha512-LDOW12eOzVMjpWs2DeJi2qXeOVXkrFLEIFURrqGhdcHDJBzy9DntN+zxwzphbndHbuqM7+IAWhBTAAJPHrPu5A==";
+        };
     in {
         "4rLyloVn" = _4rLyloVn;
         "I2ygV7SM" = _I2ygV7SM;
@@ -608,6 +613,7 @@ let
         "ls10yQNm" = _ls10yQNm;
         "oq9tzD3c" = _oq9tzD3c;
         "pspfox28" = _pspfox28;
+        "87FkpVUJ" = _87FkpVUJ;
         "forge-1.12.2" = _sVXqnQcf;
         "forge-1.13.2" = _d9vx5ont;
         "forge-1.14.4" = _UjUhMAyS;
@@ -649,7 +655,7 @@ let
         "fabric-26.1.2" = _FZ03PKNf;
         "fabric-1.21.11" = _inqX3Ue1;
         "fabric-1.21.10" = _aK3OYLQy;
-        "fabric-26.2" = _k8lfV84T;
+        "fabric-26.2" = _87FkpVUJ;
         "neoforge-1.21.1" = _2JInjRqt;
         "neoforge-1.21.10" = _QNvlsCut;
         "neoforge-1.21.11" = _AxGVnyJ5;
@@ -665,11 +671,11 @@ let
         "pkg-3.2.2" = _izcdo1aQ;
         "pkg-3.2.3" = _YuSnpRXc;
         "pkg-3.2.4" = _8mq8VpWe;
-        "pkg-3.2.5" = _Yj0NhN8R;
+        "pkg-3.2.5" = _87FkpVUJ;
         "pkg-3.2.5.3" = _sVXqnQcf;
         "pkg-3.2.5.2" = _oq9tzD3c;
         "pkg-3.2.5.1" = _pspfox28;
-        "default" = _pspfox28;
+        "default" = _87FkpVUJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tc-wireless-redstone";

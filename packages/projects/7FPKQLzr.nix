@@ -406,6 +406,11 @@ let
             "file" = "Glowing Animated Ores[N6.1][26.2].zip";
             "hash" = "sha512-QPapSLfYSpqn4uf6SPNLB/vsuMBKE7+HOhIp+3B+GTK9VPavvNQuOyHNfmNnttKpvyxt2+LXMTL91ocXEQyZvg==";
         };
+        _yK7PIrKm = {
+            "id" = "yK7PIrKm";
+            "file" = "Glowing Animated Ores[N6.1][26.3].zip";
+            "hash" = "sha512-gluqbvvY1CzVQ8F426rdRSLwzvjRE+PDVYFjcDbFaEzaVTBsJMUV/Z4uyNiHJofW5t1rdOa6f9NGZE24cbMt2w==";
+        };
     in {
         "Ep4JtOYG" = _Ep4JtOYG;
         "sZEehVtu" = _sZEehVtu;
@@ -488,6 +493,7 @@ let
         "h5MeLKYN" = _h5MeLKYN;
         "ceen746y" = _ceen746y;
         "zQZD2cmS" = _zQZD2cmS;
+        "yK7PIrKm" = _yK7PIrKm;
         "minecraft-1.16.2" = _js8qU9Su;
         "minecraft-1.16.3" = _js8qU9Su;
         "minecraft-1.16.4" = _js8qU9Su;
@@ -528,6 +534,8 @@ let
         "minecraft-26.1.1" = _ceen746y;
         "minecraft-26.1.2" = _ceen746y;
         "minecraft-26.2" = _zQZD2cmS;
+        "minecraft-26.3" = _yK7PIrKm;
+        "minecraft-26.4-snapshot-1" = _yK7PIrKm;
         "pkg-1.16-1.16.5" = _nXOJQyAV;
         "pkg-1.17-1.17.1" = _3RKADhS5;
         "pkg-1.18-1.18.2" = _hHwD70Zs;
@@ -551,8 +559,8 @@ let
         "pkg-N5+" = _XQN5VhOR;
         "pkg-N6" = _odFOlUIQ;
         "pkg-N6.1" = _h5MeLKYN;
-        "pkg-N6.2" = _zQZD2cmS;
-        "default" = _zQZD2cmS;
+        "pkg-N6.2" = _yK7PIrKm;
+        "default" = _yK7PIrKm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "animated-ores";

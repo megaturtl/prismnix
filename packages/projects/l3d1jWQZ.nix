@@ -296,6 +296,11 @@ let
             "file" = "minetube-1.4.0_1.20.1_forge_neoforge.jar";
             "hash" = "sha512-/Su1eJ4yi27d85pfqFRbwTt1Giu4s6RjLR4/++/XUYZEAZ2crCni7R90MhFkS2yFrd+wGDOcjfPGsTP4SYZpsg==";
         };
+        _YVHbl1St = {
+            "id" = "YVHbl1St";
+            "file" = "minetube-fabric-1.4.0+1.20.1.jar";
+            "hash" = "sha512-hyUH7Oewy+gTKe/v0BDYB9tNCebk/lNm6p+JCywW/8vulGF8BOVyse7JGLG3GGxbZRGFX0cgmGUbuGKtg7Szgg==";
+        };
     in {
         "ZYksxjUl" = _ZYksxjUl;
         "ljnPXmZT" = _ljnPXmZT;
@@ -356,6 +361,7 @@ let
         "4u3cRqQT" = _4u3cRqQT;
         "R3SQflNW" = _R3SQflNW;
         "s58N7QWw" = _s58N7QWw;
+        "YVHbl1St" = _YVHbl1St;
         "neoforge-1.21.1" = _uVtNbqOl;
         "neoforge-1.21.2" = _LDtiZKTW;
         "neoforge-1.21.3" = _Q4MBCvI9;
@@ -387,6 +393,7 @@ let
         "fabric-26.1" = _R3SQflNW;
         "fabric-26.1.1" = _R3SQflNW;
         "fabric-26.1.2" = _R3SQflNW;
+        "fabric-1.20.1" = _YVHbl1St;
         "forge-1.20.1" = _s58N7QWw;
         "pkg-1.3" = _DBiaqeg8;
         "pkg-1.3.0" = _POJQ5FcF;
@@ -394,7 +401,8 @@ let
         "pkg-1.4.0" = _s58N7QWw;
         "pkg-1.4" = _CXphW5BM;
         "pkg-1.4.1" = _R3SQflNW;
-        "default" = _s58N7QWw;
+        "pkg-1.4.0+1.20.1" = _YVHbl1St;
+        "default" = _YVHbl1St;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "minetube";

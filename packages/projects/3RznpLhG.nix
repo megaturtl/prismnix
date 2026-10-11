@@ -41,10 +41,15 @@ let
             "file" = "JR_East_E217_Series_v1.6.zip";
             "hash" = "sha512-tqbphoA7+W8s97GFDpItktjUKmmtL/iQ970juHIhS8YQygNNcsJ7phLoeqrxOiTZvv1K71PzZh3r3rtG/VTiaw==";
         };
-        _gNKtTug9 = {
-            "id" = "gNKtTug9";
+        _73Juy2j9 = {
+            "id" = "73Juy2j9";
             "file" = "JR_East_E217_Series_v1.6.1.zip";
-            "hash" = "sha512-rZF+NEt48J6/JChtZeBPPOauzqQ9+meNgTXAWQ91E00cphbVvJvMgl0LnybOTWshtwOGZnlF68ryTxmEJy9Gzg==";
+            "hash" = "sha512-GWS+FtAhNFuH1lHJQi3Q3xsLFLsgGHjlZpO0GdKQekz6xOq2uAseOGCPJZ/okBfEiTP4h1K+2JzQ0JXMvcj0FQ==";
+        };
+        _nAkcuSl9 = {
+            "id" = "nAkcuSl9";
+            "file" = "JR_East_E217_Series_v1.7.zip";
+            "hash" = "sha512-OroJ93C70vWMb2j4A11jpvrjo3ZHVcyCdRYBxXA6LyaWPuAlJ8t5sEbjFrnLPYeSZ/mBzoRkewIz3ZcA+Y0MSQ==";
         };
     in {
         "ikG3ns5r" = _ikG3ns5r;
@@ -55,21 +60,22 @@ let
         "2PRDD9ve" = _2PRDD9ve;
         "iBIbAEOe" = _iBIbAEOe;
         "WCaRGTY6" = _WCaRGTY6;
-        "gNKtTug9" = _gNKtTug9;
-        "minecraft-1.17.1" = _gNKtTug9;
-        "minecraft-1.18.2" = _gNKtTug9;
-        "minecraft-1.19.2" = _gNKtTug9;
-        "minecraft-1.19.4" = _gNKtTug9;
-        "minecraft-1.20.1" = _gNKtTug9;
-        "minecraft-1.20.4" = _gNKtTug9;
-        "minecraft-1.19" = _gNKtTug9;
-        "minecraft-1.18" = _gNKtTug9;
-        "minecraft-1.18.1" = _gNKtTug9;
-        "minecraft-1.19.1" = _gNKtTug9;
-        "minecraft-1.19.3" = _gNKtTug9;
-        "minecraft-1.20" = _gNKtTug9;
-        "minecraft-1.20.2" = _gNKtTug9;
-        "minecraft-1.20.3" = _gNKtTug9;
+        "73Juy2j9" = _73Juy2j9;
+        "nAkcuSl9" = _nAkcuSl9;
+        "minecraft-1.17.1" = _nAkcuSl9;
+        "minecraft-1.18.2" = _nAkcuSl9;
+        "minecraft-1.19.2" = _nAkcuSl9;
+        "minecraft-1.19.4" = _nAkcuSl9;
+        "minecraft-1.20.1" = _nAkcuSl9;
+        "minecraft-1.20.4" = _nAkcuSl9;
+        "minecraft-1.19" = _nAkcuSl9;
+        "minecraft-1.18" = _nAkcuSl9;
+        "minecraft-1.18.1" = _nAkcuSl9;
+        "minecraft-1.19.1" = _nAkcuSl9;
+        "minecraft-1.19.3" = _nAkcuSl9;
+        "minecraft-1.20" = _nAkcuSl9;
+        "minecraft-1.20.2" = _nAkcuSl9;
+        "minecraft-1.20.3" = _nAkcuSl9;
         "pkg-1" = _ikG3ns5r;
         "pkg-1.01" = _pyTtufA4;
         "pkg-1.1" = _IHAOVcAW;
@@ -78,8 +84,9 @@ let
         "pkg-1.4" = _2PRDD9ve;
         "pkg-1.5" = _iBIbAEOe;
         "pkg-1.6" = _WCaRGTY6;
-        "pkg-1.6.1" = _gNKtTug9;
-        "default" = _gNKtTug9;
+        "pkg-1.6.1" = _73Juy2j9;
+        "pkg-1.7" = _nAkcuSl9;
+        "default" = _nAkcuSl9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "e217-series-train";

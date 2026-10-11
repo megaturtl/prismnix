@@ -136,6 +136,21 @@ let
             "file" = "area_lib-0.8.3+26.1.jar";
             "hash" = "sha512-TOtG0ImFm98IKRFH7W0wkv+8dFnK5UhrLmcFtaP7H/0Fo1Iu+1q+Q2/AmRICdkPU1WOeAgPT/wrI3TSgYqRe8A==";
         };
+        _n5ArSXZY = {
+            "id" = "n5ArSXZY";
+            "file" = "area_lib-0.9.0+26.1.jar";
+            "hash" = "sha512-EaXCsTl6+MSK1GrHu0nTmdXY7ZJrkwcx6gde79rRIJ5mxO0tzW3afojv6pFui3+/JzcmRD1W+gS138IJADt8WA==";
+        };
+        _shqwRuQR = {
+            "id" = "shqwRuQR";
+            "file" = "area_lib-0.9.0+26.3.jar";
+            "hash" = "sha512-LhVYXykP6c3Fo6CyuDlWrv08gLIhNDjVu6zMO9xDDPBmQg+bc0xBeUoDj2crU2PGdEr5aVNRgEFEvhUhlSN+iw==";
+        };
+        _wXmVrS44 = {
+            "id" = "wXmVrS44";
+            "file" = "area_lib-0.9.1+26.3.jar";
+            "hash" = "sha512-FpCtRPefSOVSQxcmB3RU5T0ZPAPQYOuEVLXAst4w0kivu0gQfvol3PxRTpQkp+qR2P/R04Ui8EWvfXnj3ToNSA==";
+        };
     in {
         "kPEy5M3b" = _kPEy5M3b;
         "4eQnU7A7" = _4eQnU7A7;
@@ -164,15 +179,19 @@ let
         "A7Bmkh9T" = _A7Bmkh9T;
         "sE8Diqx9" = _sE8Diqx9;
         "6tpXQ8BQ" = _6tpXQ8BQ;
+        "n5ArSXZY" = _n5ArSXZY;
+        "shqwRuQR" = _shqwRuQR;
+        "wXmVrS44" = _wXmVrS44;
         "fabric-1.21.1" = _Aiw9bhcv;
         "fabric-1.21.7" = _P2ufpXDp;
         "fabric-1.21.8" = _9c2J1uuQ;
         "fabric-1.20.1" = _OjzsFZXS;
         "fabric-1.21.10" = _AHHIy0J7;
         "fabric-1.21.11" = _Zwetgkel;
-        "fabric-26.1" = _6tpXQ8BQ;
-        "fabric-26.1.1" = _6tpXQ8BQ;
-        "fabric-26.1.2" = _6tpXQ8BQ;
+        "fabric-26.1" = _n5ArSXZY;
+        "fabric-26.1.1" = _n5ArSXZY;
+        "fabric-26.1.2" = _n5ArSXZY;
+        "fabric-26.3" = _wXmVrS44;
         "pkg-0.0.1" = _kPEy5M3b;
         "pkg-0.0.2" = _4eQnU7A7;
         "pkg-0.0.3" = _muO6Yl2j;
@@ -200,7 +219,10 @@ let
         "pkg-0.8.1+26.1" = _A7Bmkh9T;
         "pkg-0.8.2+26.1" = _sE8Diqx9;
         "pkg-0.8.3+26.1" = _6tpXQ8BQ;
-        "default" = _6tpXQ8BQ;
+        "pkg-0.9.0+26.1" = _n5ArSXZY;
+        "pkg-0.9.0+26.3" = _shqwRuQR;
+        "pkg-0.9.1+26.3" = _wXmVrS44;
+        "default" = _wXmVrS44;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "area_lib";

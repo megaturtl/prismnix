@@ -241,6 +241,16 @@ let
             "file" = "ghast-tear-recipe-1.0.jar";
             "hash" = "sha512-VaDKMt0CPoW2PIZtJrZjLgkY/Ye3NnASAdGN0ZqW967z6DJdFFf/meRKNvQSgQ72mQjo0Y/g5SIWNZMX/dDCIg==";
         };
+        _pnYvb1xw = {
+            "id" = "pnYvb1xw";
+            "file" = "ghast_tear-26.3.zip";
+            "hash" = "sha512-Zh+uVAhypDtipRJzdFXUU5Drw7prxM8TqWqWTPoI4djD9eotlxP5MBOYUmBcpf0oclEu0lKggYntVItOMVW1ew==";
+        };
+        _4VHWk3JW = {
+            "id" = "4VHWk3JW";
+            "file" = "ghast-tear-recipe-1.0.jar";
+            "hash" = "sha512-hWzwmc8X3KeUWYGhoHMgfSq+aQKasylRx6Zk7tykjVmnX2UY86YKqr6UMNi8WUANcwmP4rQVZkp2+yx3iXB0yg==";
+        };
     in {
         "5mJGfq70" = _5mJGfq70;
         "JcitJzBU" = _JcitJzBU;
@@ -290,6 +300,8 @@ let
         "DtaEGoRS" = _DtaEGoRS;
         "kKR37OZX" = _kKR37OZX;
         "zQ4EbQfo" = _zQ4EbQfo;
+        "pnYvb1xw" = _pnYvb1xw;
+        "4VHWk3JW" = _4VHWk3JW;
         "datapack-1.13" = _5mJGfq70;
         "datapack-1.13.1" = _5mJGfq70;
         "datapack-1.13.2" = _5mJGfq70;
@@ -358,6 +370,7 @@ let
         "datapack-1.20.5" = _ARIQQpP1;
         "datapack-26.2" = _kKR37OZX;
         "datapack-26.3-snapshot-1" = _kKR37OZX;
+        "datapack-26.3" = _pnYvb1xw;
         "fabric-1.13" = _RF8bp3if;
         "fabric-1.13.1" = _RF8bp3if;
         "fabric-1.13.2" = _RF8bp3if;
@@ -426,6 +439,7 @@ let
         "fabric-1.20.5" = _DtaEGoRS;
         "fabric-26.2" = _zQ4EbQfo;
         "fabric-26.3-snapshot-1" = _zQ4EbQfo;
+        "fabric-26.3" = _4VHWk3JW;
         "forge-1.13" = _RF8bp3if;
         "forge-1.13.1" = _RF8bp3if;
         "forge-1.13.2" = _RF8bp3if;
@@ -494,6 +508,7 @@ let
         "forge-1.20.5" = _DtaEGoRS;
         "forge-26.2" = _zQ4EbQfo;
         "forge-26.3-snapshot-1" = _zQ4EbQfo;
+        "forge-26.3" = _4VHWk3JW;
         "neoforge-1.13" = _RF8bp3if;
         "neoforge-1.13.1" = _RF8bp3if;
         "neoforge-1.13.2" = _RF8bp3if;
@@ -562,6 +577,7 @@ let
         "neoforge-1.20.5" = _DtaEGoRS;
         "neoforge-26.2" = _zQ4EbQfo;
         "neoforge-26.3-snapshot-1" = _zQ4EbQfo;
+        "neoforge-26.3" = _4VHWk3JW;
         "quilt-1.13" = _RF8bp3if;
         "quilt-1.13.1" = _RF8bp3if;
         "quilt-1.13.2" = _RF8bp3if;
@@ -630,11 +646,12 @@ let
         "quilt-1.20.5" = _DtaEGoRS;
         "quilt-26.2" = _zQ4EbQfo;
         "quilt-26.3-snapshot-1" = _zQ4EbQfo;
-        "pkg-1.0" = _kKR37OZX;
-        "pkg-1.0+mod" = _zQ4EbQfo;
+        "quilt-26.3" = _4VHWk3JW;
+        "pkg-1.0" = _pnYvb1xw;
+        "pkg-1.0+mod" = _4VHWk3JW;
         "pkg-1.21.1" = _GXzo0AUl;
         "pkg-1.21.1+mod" = _GAyqyajT;
-        "default" = _zQ4EbQfo;
+        "default" = _4VHWk3JW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ghast-tear-recipe";

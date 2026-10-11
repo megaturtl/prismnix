@@ -626,6 +626,16 @@ let
             "file" = "faewulf_lib-fabric-26.2-1.4.0.jar";
             "hash" = "sha512-swZ6qm1FzoSK1IRTPvYgaDmZFpdz88eAv7lJ496s4yPoU/IIqzm1lSLUGK2rxLZEsF+p5SV8RzwXm8VpqBBKQA==";
         };
+        _RvsgVlGl = {
+            "id" = "RvsgVlGl";
+            "file" = "faewulf_lib-fabric-26.3-1.4.0.jar";
+            "hash" = "sha512-he8uDzC2Ia8qqpH8e53Zu18xLWDiXNEHJ1L58fwCZj2uSnS3ungS5mosaCxmc0kHnLxACi4Lbox3kbi8ZHp+mg==";
+        };
+        _eJG1Nsg3 = {
+            "id" = "eJG1Nsg3";
+            "file" = "faewulf_lib-neoforge-26.3-1.4.0.jar";
+            "hash" = "sha512-/x8cqvhTnwPo6zaFxN+IFLH0uH5C/bQuSlBGHaOJxSoMWquu31lR2La5mAQZu3oumxWPBHAKPANAMH81m1xXqg==";
+        };
     in {
         "mGwfbGCw" = _mGwfbGCw;
         "ElGCr2oj" = _ElGCr2oj;
@@ -752,6 +762,8 @@ let
         "5vmdoods" = _5vmdoods;
         "AHKBTiGe" = _AHKBTiGe;
         "u4j4FFt2" = _u4j4FFt2;
+        "RvsgVlGl" = _RvsgVlGl;
+        "eJG1Nsg3" = _eJG1Nsg3;
         "fabric-1.21.4" = _pr6sUWOF;
         "fabric-1.21.3" = _UpcQcCwJ;
         "fabric-1.21.1" = _qLKn3Ri3;
@@ -764,6 +776,7 @@ let
         "fabric-1.21.11" = _nOqONW4b;
         "fabric-26.1.2" = _5vmdoods;
         "fabric-26.2" = _u4j4FFt2;
+        "fabric-26.3" = _RvsgVlGl;
         "neoforge-1.21.4" = _KBn2rVwH;
         "neoforge-1.21.3" = _BFtEaPW8;
         "neoforge-1.21.1" = _GMRYipxG;
@@ -776,6 +789,7 @@ let
         "neoforge-1.21.11" = _HXA4JHnf;
         "neoforge-26.1.2" = _kDjPT20m;
         "neoforge-26.2" = _AHKBTiGe;
+        "neoforge-26.3" = _eJG1Nsg3;
         "quilt-1.21.4" = _pr6sUWOF;
         "quilt-1.21.3" = _UpcQcCwJ;
         "quilt-1.21.1" = _qLKn3Ri3;
@@ -788,6 +802,7 @@ let
         "quilt-1.21.11" = _nOqONW4b;
         "quilt-26.1.2" = _5vmdoods;
         "quilt-26.2" = _u4j4FFt2;
+        "quilt-26.3" = _RvsgVlGl;
         "forge-1.20.1" = _ocmSZ2t8;
         "forge-1.21" = _6x8WeSuN;
         "forge-1.21.1" = _8iDWGl9F;
@@ -809,8 +824,8 @@ let
         "pkg-1.3.0" = _1xMTTqN7;
         "pkg-1.3.1" = _RHBMNa83;
         "pkg-1.3.2" = _OBWvi6zY;
-        "pkg-1.4.0" = _u4j4FFt2;
-        "default" = _u4j4FFt2;
+        "pkg-1.4.0" = _eJG1Nsg3;
+        "default" = _eJG1Nsg3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "faewulfslib";

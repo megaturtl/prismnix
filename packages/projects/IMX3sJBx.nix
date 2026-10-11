@@ -241,6 +241,26 @@ let
             "file" = "phantom-membrane-1.0.jar";
             "hash" = "sha512-0PkgqGSpYXvMWxC0yrAGr1hRkPx3leH6nC90tMU6lkN7fGGhg2A3JmS3c2YfeB8ZD6wTf3D1OgwzqIdeoftEdA==";
         };
+        _GhM8xocC = {
+            "id" = "GhM8xocC";
+            "file" = "phantom_membrane-1.19-datapack.zip";
+            "hash" = "sha512-ARCrUoKMgnlp/SEixQ4TYHYzCiKT3BLKMaYMZl8H68W1aeXOcAU0L89n/9T3VLqf0jI0qDmmK6yuQGh4CqFZyg==";
+        };
+        _ka2foEqU = {
+            "id" = "ka2foEqU";
+            "file" = "phantom-membrane-1.0.jar";
+            "hash" = "sha512-bS5UB7xGafHv6Qso1RiEdDm+Fv4oTWnOyQl117D38be7abAiEsXJ4pftvh4dtV0GRLYnbS1+RcgzSNIi/neIyA==";
+        };
+        _4hhAiQ7q = {
+            "id" = "4hhAiQ7q";
+            "file" = "phantom_membrane-26.3.zip";
+            "hash" = "sha512-OC5jkKwo7Yos/0BAdyH++gOTJoSettPg383+h+MV6ynJm+6zRtKubcW8vbR7d8DiYvB9Fv4Lozsvl1HsH+S9mg==";
+        };
+        _rgLoLGQs = {
+            "id" = "rgLoLGQs";
+            "file" = "phantom-membrane-1.0.jar";
+            "hash" = "sha512-kjI0GQQ6A5H3EA7aWdtZBBSOeb/uYhKwYC8tDCBqYWq0T53ilXdUWBBw4zEd1UQymWz20N/y6PwMl7q6e/4PxA==";
+        };
     in {
         "2CkchbLQ" = _2CkchbLQ;
         "qx7UAevy" = _qx7UAevy;
@@ -290,6 +310,10 @@ let
         "CTAKdMmX" = _CTAKdMmX;
         "cc5MmZL5" = _cc5MmZL5;
         "Vdc5Wv0z" = _Vdc5Wv0z;
+        "GhM8xocC" = _GhM8xocC;
+        "ka2foEqU" = _ka2foEqU;
+        "4hhAiQ7q" = _4hhAiQ7q;
+        "rgLoLGQs" = _rgLoLGQs;
         "datapack-1.13" = _2CkchbLQ;
         "datapack-1.13.1" = _2CkchbLQ;
         "datapack-1.13.2" = _2CkchbLQ;
@@ -311,12 +335,12 @@ let
         "datapack-1.17.1" = _PnXwwqd5;
         "datapack-1.18" = _zfDb1oR3;
         "datapack-1.18.1" = _zfDb1oR3;
-        "datapack-1.18.2" = _eqfmx2kM;
-        "datapack-1.19" = _eqfmx2kM;
-        "datapack-1.19.1" = _eqfmx2kM;
-        "datapack-1.19.2" = _eqfmx2kM;
-        "datapack-1.19.3" = _eqfmx2kM;
-        "datapack-1.19.4" = _GAHbr6TY;
+        "datapack-1.18.2" = _GhM8xocC;
+        "datapack-1.19" = _GhM8xocC;
+        "datapack-1.19.1" = _GhM8xocC;
+        "datapack-1.19.2" = _GhM8xocC;
+        "datapack-1.19.3" = _GhM8xocC;
+        "datapack-1.19.4" = _GhM8xocC;
         "datapack-1.20" = _GAHbr6TY;
         "datapack-1.20.1" = _GAHbr6TY;
         "datapack-1.20.2" = _GAHbr6TY;
@@ -359,6 +383,7 @@ let
         "datapack-26.2-snapshot-2" = _HCRq8KsK;
         "datapack-26.2" = _cc5MmZL5;
         "datapack-26.3-snapshot-1" = _cc5MmZL5;
+        "datapack-26.3" = _4hhAiQ7q;
         "fabric-1.13" = _qx7UAevy;
         "fabric-1.13.1" = _qx7UAevy;
         "fabric-1.13.2" = _qx7UAevy;
@@ -380,12 +405,12 @@ let
         "fabric-1.17.1" = _pOE6m8Ru;
         "fabric-1.18" = _AUTmuI4P;
         "fabric-1.18.1" = _AUTmuI4P;
-        "fabric-1.18.2" = _fvkcJlEq;
-        "fabric-1.19" = _fvkcJlEq;
-        "fabric-1.19.1" = _fvkcJlEq;
-        "fabric-1.19.2" = _fvkcJlEq;
-        "fabric-1.19.3" = _fvkcJlEq;
-        "fabric-1.19.4" = _CTAKdMmX;
+        "fabric-1.18.2" = _ka2foEqU;
+        "fabric-1.19" = _ka2foEqU;
+        "fabric-1.19.1" = _ka2foEqU;
+        "fabric-1.19.2" = _ka2foEqU;
+        "fabric-1.19.3" = _ka2foEqU;
+        "fabric-1.19.4" = _ka2foEqU;
         "fabric-1.20" = _CTAKdMmX;
         "fabric-1.20.1" = _CTAKdMmX;
         "fabric-1.20.2" = _CTAKdMmX;
@@ -428,6 +453,7 @@ let
         "fabric-26.2-snapshot-2" = _G6sCCVTl;
         "fabric-26.2" = _Vdc5Wv0z;
         "fabric-26.3-snapshot-1" = _Vdc5Wv0z;
+        "fabric-26.3" = _rgLoLGQs;
         "forge-1.13" = _qx7UAevy;
         "forge-1.13.1" = _qx7UAevy;
         "forge-1.13.2" = _qx7UAevy;
@@ -449,12 +475,12 @@ let
         "forge-1.17.1" = _pOE6m8Ru;
         "forge-1.18" = _AUTmuI4P;
         "forge-1.18.1" = _AUTmuI4P;
-        "forge-1.18.2" = _fvkcJlEq;
-        "forge-1.19" = _fvkcJlEq;
-        "forge-1.19.1" = _fvkcJlEq;
-        "forge-1.19.2" = _fvkcJlEq;
-        "forge-1.19.3" = _fvkcJlEq;
-        "forge-1.19.4" = _CTAKdMmX;
+        "forge-1.18.2" = _ka2foEqU;
+        "forge-1.19" = _ka2foEqU;
+        "forge-1.19.1" = _ka2foEqU;
+        "forge-1.19.2" = _ka2foEqU;
+        "forge-1.19.3" = _ka2foEqU;
+        "forge-1.19.4" = _ka2foEqU;
         "forge-1.20" = _CTAKdMmX;
         "forge-1.20.1" = _CTAKdMmX;
         "forge-1.20.2" = _CTAKdMmX;
@@ -497,6 +523,7 @@ let
         "forge-26.2-snapshot-2" = _G6sCCVTl;
         "forge-26.2" = _Vdc5Wv0z;
         "forge-26.3-snapshot-1" = _Vdc5Wv0z;
+        "forge-26.3" = _rgLoLGQs;
         "neoforge-1.13" = _qx7UAevy;
         "neoforge-1.13.1" = _qx7UAevy;
         "neoforge-1.13.2" = _qx7UAevy;
@@ -518,12 +545,12 @@ let
         "neoforge-1.17.1" = _pOE6m8Ru;
         "neoforge-1.18" = _AUTmuI4P;
         "neoforge-1.18.1" = _AUTmuI4P;
-        "neoforge-1.18.2" = _fvkcJlEq;
-        "neoforge-1.19" = _fvkcJlEq;
-        "neoforge-1.19.1" = _fvkcJlEq;
-        "neoforge-1.19.2" = _fvkcJlEq;
-        "neoforge-1.19.3" = _fvkcJlEq;
-        "neoforge-1.19.4" = _CTAKdMmX;
+        "neoforge-1.18.2" = _ka2foEqU;
+        "neoforge-1.19" = _ka2foEqU;
+        "neoforge-1.19.1" = _ka2foEqU;
+        "neoforge-1.19.2" = _ka2foEqU;
+        "neoforge-1.19.3" = _ka2foEqU;
+        "neoforge-1.19.4" = _ka2foEqU;
         "neoforge-1.20" = _CTAKdMmX;
         "neoforge-1.20.1" = _CTAKdMmX;
         "neoforge-1.20.2" = _CTAKdMmX;
@@ -566,6 +593,7 @@ let
         "neoforge-26.2-snapshot-2" = _G6sCCVTl;
         "neoforge-26.2" = _Vdc5Wv0z;
         "neoforge-26.3-snapshot-1" = _Vdc5Wv0z;
+        "neoforge-26.3" = _rgLoLGQs;
         "quilt-1.13" = _qx7UAevy;
         "quilt-1.13.1" = _qx7UAevy;
         "quilt-1.13.2" = _qx7UAevy;
@@ -587,12 +615,12 @@ let
         "quilt-1.17.1" = _pOE6m8Ru;
         "quilt-1.18" = _AUTmuI4P;
         "quilt-1.18.1" = _AUTmuI4P;
-        "quilt-1.18.2" = _fvkcJlEq;
-        "quilt-1.19" = _fvkcJlEq;
-        "quilt-1.19.1" = _fvkcJlEq;
-        "quilt-1.19.2" = _fvkcJlEq;
-        "quilt-1.19.3" = _fvkcJlEq;
-        "quilt-1.19.4" = _CTAKdMmX;
+        "quilt-1.18.2" = _ka2foEqU;
+        "quilt-1.19" = _ka2foEqU;
+        "quilt-1.19.1" = _ka2foEqU;
+        "quilt-1.19.2" = _ka2foEqU;
+        "quilt-1.19.3" = _ka2foEqU;
+        "quilt-1.19.4" = _ka2foEqU;
         "quilt-1.20" = _CTAKdMmX;
         "quilt-1.20.1" = _CTAKdMmX;
         "quilt-1.20.2" = _CTAKdMmX;
@@ -635,9 +663,10 @@ let
         "quilt-26.2-snapshot-2" = _G6sCCVTl;
         "quilt-26.2" = _Vdc5Wv0z;
         "quilt-26.3-snapshot-1" = _Vdc5Wv0z;
-        "pkg-1.0" = _cc5MmZL5;
-        "pkg-1.0+mod" = _Vdc5Wv0z;
-        "default" = _Vdc5Wv0z;
+        "quilt-26.3" = _rgLoLGQs;
+        "pkg-1.0" = _4hhAiQ7q;
+        "pkg-1.0+mod" = _rgLoLGQs;
+        "default" = _rgLoLGQs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "phantom-membrane";

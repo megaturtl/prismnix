@@ -61,6 +61,16 @@ let
             "file" = "cleanandclearglass-neoforge-mc26.2.jar";
             "hash" = "sha512-33FF5vPgLxKI1VWJ1+3UyFkicjR5tlDTdza3vlrfjW53etH6Y1NmmOAi6rvvUveOD+sZNTakXnfbDEowrKdyWw==";
         };
+        _nylniEjD = {
+            "id" = "nylniEjD";
+            "file" = "cleanandclearglass-neoforge-mc26.3.jar";
+            "hash" = "sha512-UrSWWXCSoH2c6LAL5CmYSOMjehqzQFZ2juaeX7/ulk0o9c9UQJYS5fouOGkckKXC6L86PqJx+05aHzCFkmzyLA==";
+        };
+        _SoWmCRlA = {
+            "id" = "SoWmCRlA";
+            "file" = "clean-and-clear-glass-fabric-mc26.3.jar";
+            "hash" = "sha512-h81EYvb9IrD5bowK+Hbio1oj42cafOiZXkmsAqnn9nyRc29k7Zi1dtZ8oIT4TrzRZI5lKMHKiZbkIV9N4X+yRQ==";
+        };
     in {
         "dcP5XM9i" = _dcP5XM9i;
         "Tcg4ea4O" = _Tcg4ea4O;
@@ -74,6 +84,8 @@ let
         "UiiOxG4M" = _UiiOxG4M;
         "aeogHPgQ" = _aeogHPgQ;
         "7KCALYeK" = _7KCALYeK;
+        "nylniEjD" = _nylniEjD;
+        "SoWmCRlA" = _SoWmCRlA;
         "fabric-1.16.5" = _dcP5XM9i;
         "fabric-1.20.1" = _Tcg4ea4O;
         "fabric-1.21.1" = _D3DBQzv0;
@@ -82,12 +94,14 @@ let
         "fabric-26.1.1" = _pmqL1BiU;
         "fabric-26.1.2" = _pmqL1BiU;
         "fabric-26.2" = _dyXNz1x7;
+        "fabric-26.3" = _SoWmCRlA;
         "neoforge-1.21.1" = _QxJvSnLm;
         "neoforge-1.21.11" = _48o9wJ6C;
         "neoforge-26.1" = _fzyVAB9y;
         "neoforge-26.1.1" = _UiiOxG4M;
         "neoforge-26.1.2" = _aeogHPgQ;
         "neoforge-26.2" = _7KCALYeK;
+        "neoforge-26.3" = _nylniEjD;
         "pkg-1.16.5" = _dcP5XM9i;
         "pkg-1.20.1" = _Tcg4ea4O;
         "pkg-1.21.1" = _QxJvSnLm;
@@ -97,7 +111,8 @@ let
         "pkg-26.1" = _fzyVAB9y;
         "pkg-26.1.1" = _UiiOxG4M;
         "pkg-26.1.2" = _aeogHPgQ;
-        "default" = _7KCALYeK;
+        "pkg-26.3" = _SoWmCRlA;
+        "default" = _SoWmCRlA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "clean-and-clear-glass";

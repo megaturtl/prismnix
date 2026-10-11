@@ -16,10 +16,16 @@ let
             "file" = "placeable-1.1.1+mc26.1-26.2.jar";
             "hash" = "sha512-YnVT/Emajiv9IvtJ9zHiLsMNAzSTd9dn0z8bFJnXtLigCzAiI9W9FVA23VGsjGVM0TLHV7KTCjGtS6GPd5z/oA==";
         };
+        _VEZMnbIy = {
+            "id" = "VEZMnbIy";
+            "file" = "placeable-1.1.2+mc26.3.jar";
+            "hash" = "sha512-OVw+MP62RtmQPZ5GaQAislSGb++Fx5fSvahkGFdkSZxiqMFBEeXq/a3ymDIEgjO89pHaJA28HEs55IFwF2+pRw==";
+        };
     in {
         "7oxhf8Dq" = _7oxhf8Dq;
         "oU11Tb6b" = _oU11Tb6b;
         "W1XCEdNh" = _W1XCEdNh;
+        "VEZMnbIy" = _VEZMnbIy;
         "fabric-1.21.9" = _7oxhf8Dq;
         "fabric-1.21.10" = _7oxhf8Dq;
         "fabric-1.21.11" = _oU11Tb6b;
@@ -27,10 +33,12 @@ let
         "fabric-26.1.1" = _W1XCEdNh;
         "fabric-26.1.2" = _W1XCEdNh;
         "fabric-26.2" = _W1XCEdNh;
+        "fabric-26.3" = _VEZMnbIy;
         "pkg-1.1.0+mc1.21.9" = _7oxhf8Dq;
         "pkg-1.1.0+mc1.21.11" = _oU11Tb6b;
         "pkg-1.1.1+mc26.1.x-26.2.x" = _W1XCEdNh;
-        "default" = _W1XCEdNh;
+        "pkg-1.1.2+mc26.3" = _VEZMnbIy;
+        "default" = _VEZMnbIy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "placeable";

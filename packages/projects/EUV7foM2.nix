@@ -301,6 +301,16 @@ let
             "file" = "SkniroNetherAndEndOres-1.2.0-26.3-Fabric.jar";
             "hash" = "sha512-FqKliwnsxxLoKs15KCuex80Oq+ZrlqF2ebOGIPSIPdqmYVjQGsCIcw30Yhs19wEzjSn8R3rUQXbD1si/R+ECBA==";
         };
+        _WBwJSLxo = {
+            "id" = "WBwJSLxo";
+            "file" = "SkniroNetherAndEndOres-1.2.0-26.3-Forge.jar";
+            "hash" = "sha512-XKWA3Yy0W7hPd1Ry3T77QbAX7RDWsx0pO49tRK62kCNlCJWcSeYcWL3E33S9bOd4/lSac+iBg+I+U+RWJbWe7A==";
+        };
+        _PF5gspr4 = {
+            "id" = "PF5gspr4";
+            "file" = "SkniroNetherAndEndOres-1.2.1-26.3-Forge.jar";
+            "hash" = "sha512-mm1o8/CqS+SLrdus2UitCXVh6cmuf4zX0BA6fsCGwzwhSTtZrfTq5NoGAUK6WeWLyo9fgRCvGYmjb4djxm7Kxg==";
+        };
     in {
         "tRLGYt2I" = _tRLGYt2I;
         "8iUlW61G" = _8iUlW61G;
@@ -362,6 +372,8 @@ let
         "RgBDHaM5" = _RgBDHaM5;
         "Wy30QHWu" = _Wy30QHWu;
         "lOFPSFh0" = _lOFPSFh0;
+        "WBwJSLxo" = _WBwJSLxo;
+        "PF5gspr4" = _PF5gspr4;
         "fabric-1.20" = _vChB1Gu4;
         "fabric-1.20.1" = _vChB1Gu4;
         "fabric-1.19.4" = _xN2Lg1Pm;
@@ -407,6 +419,7 @@ let
         "forge-26.1.1" = _55VzqRLa;
         "forge-26.1.2" = _55VzqRLa;
         "forge-26.2" = _5nkzZc99;
+        "forge-26.3" = _PF5gspr4;
         "pkg-1.0.0-1.20.1" = _tRLGYt2I;
         "pkg-1.0.0-1.19.4-Fabric" = _8iUlW61G;
         "pkg-1.0.1-1.19.4-Fabric" = _a3mDZkwY;
@@ -467,7 +480,9 @@ let
         "pkg-1.2.0-1.21.1-Fabric" = _RgBDHaM5;
         "pkg-1.2.0-26.3-NeoForge" = _Wy30QHWu;
         "pkg-1.2.0-26.3-Fabric" = _lOFPSFh0;
-        "default" = _lOFPSFh0;
+        "pkg-1.2.0-26.3-Forge" = _WBwJSLxo;
+        "pkg-1.2.1-26.3-Forge" = _PF5gspr4;
+        "default" = _PF5gspr4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skniros-nether-end-ores";

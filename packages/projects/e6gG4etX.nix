@@ -6,8 +6,26 @@ let
             "file" = "Create-Origins-Compat-1.0.0.jar";
             "hash" = "sha512-xHAw8tjBugAdKBSjdXcEE57ALO6sgziHJOciUlgkQuY6x12/uX6Li/wQQb8F52uDRM78ok0m9OF72xwWsu51Pg==";
         };
+        _Hnhtrb36 = {
+            "id" = "Hnhtrb36";
+            "file" = "Create-Origins-Compat-1.1.0.jar";
+            "hash" = "sha512-x15PZNzKQ13079JEgeoC4MV730HSmc81+DpGtWi8HX5JMDZVY8ihiZDdP2bUs4te2OaEZRpbTGa6mRQPixedrA==";
+        };
+        _uC5ZIAbQ = {
+            "id" = "uC5ZIAbQ";
+            "file" = "Create-Origins-Compat-1.2.0.jar";
+            "hash" = "sha512-Q+o3Ec4D8I+LdJLdg7pVuxFVqun0yauKYlfyW5ZLWf+r52xp0MVvfOoL3O1eH9RKIgPTXalBsFHjnqr5D2VZiA==";
+        };
+        _1e0i9rKH = {
+            "id" = "1e0i9rKH";
+            "file" = "Create-Origins-Compat-1.2.1.jar";
+            "hash" = "sha512-gayHLP9C0Hx+GtTO+txbp8vtGxbjDNhvxKXWV4HefShWka+H42lqoZ4E2EMyOn4RpDKExnzgySzF91cw1s/hLA==";
+        };
     in {
         "8S6kqZTo" = _8S6kqZTo;
+        "Hnhtrb36" = _Hnhtrb36;
+        "uC5ZIAbQ" = _uC5ZIAbQ;
+        "1e0i9rKH" = _1e0i9rKH;
         "fabric-1.18" = _8S6kqZTo;
         "fabric-1.18.1" = _8S6kqZTo;
         "fabric-1.18.2" = _8S6kqZTo;
@@ -17,7 +35,7 @@ let
         "fabric-1.19.3" = _8S6kqZTo;
         "fabric-1.19.4" = _8S6kqZTo;
         "fabric-1.20" = _8S6kqZTo;
-        "fabric-1.20.1" = _8S6kqZTo;
+        "fabric-1.20.1" = _1e0i9rKH;
         "fabric-1.20.2" = _8S6kqZTo;
         "fabric-1.20.3" = _8S6kqZTo;
         "fabric-1.20.4" = _8S6kqZTo;
@@ -37,7 +55,7 @@ let
         "forge-1.19.3" = _8S6kqZTo;
         "forge-1.19.4" = _8S6kqZTo;
         "forge-1.20" = _8S6kqZTo;
-        "forge-1.20.1" = _8S6kqZTo;
+        "forge-1.20.1" = _1e0i9rKH;
         "forge-1.20.2" = _8S6kqZTo;
         "forge-1.20.3" = _8S6kqZTo;
         "forge-1.20.4" = _8S6kqZTo;
@@ -57,7 +75,7 @@ let
         "neoforge-1.19.3" = _8S6kqZTo;
         "neoforge-1.19.4" = _8S6kqZTo;
         "neoforge-1.20" = _8S6kqZTo;
-        "neoforge-1.20.1" = _8S6kqZTo;
+        "neoforge-1.20.1" = _1e0i9rKH;
         "neoforge-1.20.2" = _8S6kqZTo;
         "neoforge-1.20.3" = _8S6kqZTo;
         "neoforge-1.20.4" = _8S6kqZTo;
@@ -77,7 +95,7 @@ let
         "quilt-1.19.3" = _8S6kqZTo;
         "quilt-1.19.4" = _8S6kqZTo;
         "quilt-1.20" = _8S6kqZTo;
-        "quilt-1.20.1" = _8S6kqZTo;
+        "quilt-1.20.1" = _Hnhtrb36;
         "quilt-1.20.2" = _8S6kqZTo;
         "quilt-1.20.3" = _8S6kqZTo;
         "quilt-1.20.4" = _8S6kqZTo;
@@ -89,7 +107,10 @@ let
         "quilt-1.21.3" = _8S6kqZTo;
         "quilt-1.21.4" = _8S6kqZTo;
         "pkg-1.0.0" = _8S6kqZTo;
-        "default" = _8S6kqZTo;
+        "pkg-1.1.0" = _Hnhtrb36;
+        "pkg-1.2.0" = _uC5ZIAbQ;
+        "pkg-1.2.1" = _1e0i9rKH;
+        "default" = _1e0i9rKH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-origins-compat";

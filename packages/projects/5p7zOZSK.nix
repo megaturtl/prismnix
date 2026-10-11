@@ -91,6 +91,11 @@ let
             "file" = "Old Vanilla Glint.zip";
             "hash" = "sha512-kg4YH6oPz6677d0Z4ccICClqaOzZ/IKfe/k4R0yBC1Cpk3TMXQYWnUsXQXKcIcNLaXy+WWuEK3gYtFQ0TKVQBQ==";
         };
+        _8VUzHszD = {
+            "id" = "8VUzHszD";
+            "file" = "Old Vanilla Glint 26.3.zip";
+            "hash" = "sha512-1QWnozaOGZ5gBBgXfAwvXOl5/U2Osq+dPBofE9HD8LwHdXCjT+5plQKHwgRH2wVf9vAr3bFgj943dbIxXuzCTQ==";
+        };
     in {
         "lPwW5Dn5" = _lPwW5Dn5;
         "NhQYWkY0" = _NhQYWkY0;
@@ -110,6 +115,7 @@ let
         "BMVwyeBU" = _BMVwyeBU;
         "bJsvYsjs" = _bJsvYsjs;
         "OWzY3izD" = _OWzY3izD;
+        "8VUzHszD" = _8VUzHszD;
         "minecraft-1.19" = _lPwW5Dn5;
         "minecraft-1.19.1" = _NhQYWkY0;
         "minecraft-1.19.2" = _NhQYWkY0;
@@ -138,6 +144,7 @@ let
         "minecraft-26.1.1" = _BMVwyeBU;
         "minecraft-26.1.2" = _bJsvYsjs;
         "minecraft-26.2" = _OWzY3izD;
+        "minecraft-26.3" = _8VUzHszD;
         "pkg-1.19" = _lPwW5Dn5;
         "pkg-1.19.1-1.19.2" = _NhQYWkY0;
         "pkg-1.19.3-1.19.4" = _AixdE33r;
@@ -156,7 +163,8 @@ let
         "pkg-26.1.1" = _BMVwyeBU;
         "pkg-26.1.2" = _bJsvYsjs;
         "pkg-26.2" = _OWzY3izD;
-        "default" = _OWzY3izD;
+        "pkg-26.3" = _8VUzHszD;
+        "default" = _8VUzHszD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanilla-old-glint";

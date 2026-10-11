@@ -51,6 +51,16 @@ let
             "file" = "ly-portals-1.0.2.jar";
             "hash" = "sha512-jP+e2wqqfYjrnNOH5WIIkjKhBYJgbtSEvKnQsNqHYZGhK9gZrkmWrxpSZ4WuM3SM7DxiWh7U4en92j9wY8bwfg==";
         };
+        _bCThjjcq = {
+            "id" = "bCThjjcq";
+            "file" = "Portals v1.0.2 [26.3].zip";
+            "hash" = "sha512-LutS7nV8DGWicGThL+CKFe935O0haeuXpkrB/CLE6jhQ/F5S0Fc4wIgSMPj9kRAwf/uOfLzG1Pdm7xC4lTIZrA==";
+        };
+        _yLmjHAoX = {
+            "id" = "yLmjHAoX";
+            "file" = "ly-portals-1.0.2.jar";
+            "hash" = "sha512-mb3DpSzrddqllpW5qgHj2EF52Jr+Ah840lfU14NpCEOrAsF2y3dTVwmfPIsK9At+PM0xkppsD1Shk53FzIuFlw==";
+        };
     in {
         "1PGDF9er" = _1PGDF9er;
         "VsFiuV7e" = _VsFiuV7e;
@@ -62,6 +72,8 @@ let
         "oBK2B7FN" = _oBK2B7FN;
         "k4lpDvNz" = _k4lpDvNz;
         "iV5yM2t1" = _iV5yM2t1;
+        "bCThjjcq" = _bCThjjcq;
+        "yLmjHAoX" = _yLmjHAoX;
         "datapack-1.21.5" = _k4lpDvNz;
         "datapack-1.21.6" = _k4lpDvNz;
         "datapack-1.21.7" = _k4lpDvNz;
@@ -76,6 +88,7 @@ let
         "datapack-1.21.2" = _iJiVU8Qh;
         "datapack-1.21.3" = _iJiVU8Qh;
         "datapack-1.21.4" = _iJiVU8Qh;
+        "datapack-26.3" = _bCThjjcq;
         "fabric-1.21.5" = _iV5yM2t1;
         "fabric-1.21.6" = _iV5yM2t1;
         "fabric-1.21.7" = _iV5yM2t1;
@@ -90,6 +103,7 @@ let
         "fabric-1.21.2" = _oBK2B7FN;
         "fabric-1.21.3" = _oBK2B7FN;
         "fabric-1.21.4" = _oBK2B7FN;
+        "fabric-26.3" = _yLmjHAoX;
         "forge-1.21.5" = _iV5yM2t1;
         "forge-1.21.6" = _iV5yM2t1;
         "forge-1.21.7" = _iV5yM2t1;
@@ -104,6 +118,7 @@ let
         "forge-1.21.2" = _oBK2B7FN;
         "forge-1.21.3" = _oBK2B7FN;
         "forge-1.21.4" = _oBK2B7FN;
+        "forge-26.3" = _yLmjHAoX;
         "neoforge-1.21.5" = _iV5yM2t1;
         "neoforge-1.21.6" = _iV5yM2t1;
         "neoforge-1.21.7" = _iV5yM2t1;
@@ -118,6 +133,7 @@ let
         "neoforge-1.21.2" = _oBK2B7FN;
         "neoforge-1.21.3" = _oBK2B7FN;
         "neoforge-1.21.4" = _oBK2B7FN;
+        "neoforge-26.3" = _yLmjHAoX;
         "quilt-1.21.5" = _iV5yM2t1;
         "quilt-1.21.6" = _iV5yM2t1;
         "quilt-1.21.7" = _iV5yM2t1;
@@ -132,13 +148,14 @@ let
         "quilt-1.21.2" = _oBK2B7FN;
         "quilt-1.21.3" = _oBK2B7FN;
         "quilt-1.21.4" = _oBK2B7FN;
+        "quilt-26.3" = _yLmjHAoX;
         "pkg-v1.0.0" = _1PGDF9er;
         "pkg-v1.0.0+mod" = _VsFiuV7e;
         "pkg-v1.0.1" = _iJiVU8Qh;
         "pkg-v1.0.1+mod" = _oBK2B7FN;
-        "pkg-1.0.2" = _k4lpDvNz;
-        "pkg-1.0.2+mod" = _iV5yM2t1;
-        "default" = _iV5yM2t1;
+        "pkg-1.0.2" = _bCThjjcq;
+        "pkg-1.0.2+mod" = _yLmjHAoX;
+        "default" = _yLmjHAoX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ly-portals";

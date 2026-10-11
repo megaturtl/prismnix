@@ -91,6 +91,21 @@ let
             "file" = "createkinetic-1.2.6.jar";
             "hash" = "sha512-x7TN3LiUX85Yv0lIyeZO4cLr5JpR3mWwAkyOdhGdeO7GlxQE3NCfCev4aD3IbkXAYYhPMNhGBPqrPk3JzTZLLA==";
         };
+        _slgleNes = {
+            "id" = "slgleNes";
+            "file" = "createkinetic-1.2.7.jar";
+            "hash" = "sha512-KYydfAyZV4hHSR1p6ROcaYCnN9jJRw7jPjfkisWSOxbzCAOjgpOK/A9OEXuo4OWinqjLmHpE3dvXlADBytqouw==";
+        };
+        _UTd1kaTY = {
+            "id" = "UTd1kaTY";
+            "file" = "createkinetic-1.2.7.jar";
+            "hash" = "sha512-q7ZBujf7rRUdU66PIzOMvqqJ4Nk26VAWHGZxSEvCX3Zbr9Z4THdCgkkhDxO/1opdXPbdqvEyYLKD7cctMqa7zg==";
+        };
+        _Wc9MKY3T = {
+            "id" = "Wc9MKY3T";
+            "file" = "createkinetic-1.3.0.jar";
+            "hash" = "sha512-0bIoNzQ6KzQmxqKo2Zz+TrFmGWl4JzrNGNqUMBWYOQUNI+51Clx/xdgAxFBB4582q+V/4RyOvSSkdjkMDFl4+w==";
+        };
     in {
         "zDBoCmqG" = _zDBoCmqG;
         "Lm2uLduI" = _Lm2uLduI;
@@ -110,24 +125,27 @@ let
         "Ra6SVCvN" = _Ra6SVCvN;
         "B4PQwV31" = _B4PQwV31;
         "mAxU832C" = _mAxU832C;
+        "slgleNes" = _slgleNes;
+        "UTd1kaTY" = _UTd1kaTY;
+        "Wc9MKY3T" = _Wc9MKY3T;
         "forge-1.20.1" = _F8fP4yEX;
         "forge-1.20.2" = _F8fP4yEX;
         "forge-1.20.3" = _F8fP4yEX;
         "forge-1.20.4" = _F8fP4yEX;
         "forge-1.20.5" = _F8fP4yEX;
         "forge-1.20.6" = _F8fP4yEX;
-        "neoforge-1.21" = _mAxU832C;
-        "neoforge-1.21.1" = _mAxU832C;
-        "neoforge-1.21.2" = _veXYsaIG;
-        "neoforge-1.21.3" = _veXYsaIG;
-        "neoforge-1.21.4" = _veXYsaIG;
-        "neoforge-1.21.5" = _veXYsaIG;
-        "neoforge-1.21.6" = _veXYsaIG;
-        "neoforge-1.21.7" = _veXYsaIG;
-        "neoforge-1.21.8" = _veXYsaIG;
-        "neoforge-1.21.9" = _veXYsaIG;
-        "neoforge-1.21.10" = _veXYsaIG;
-        "neoforge-1.21.11" = _veXYsaIG;
+        "neoforge-1.21" = _UTd1kaTY;
+        "neoforge-1.21.1" = _Wc9MKY3T;
+        "neoforge-1.21.2" = _Wc9MKY3T;
+        "neoforge-1.21.3" = _Wc9MKY3T;
+        "neoforge-1.21.4" = _Wc9MKY3T;
+        "neoforge-1.21.5" = _Wc9MKY3T;
+        "neoforge-1.21.6" = _Wc9MKY3T;
+        "neoforge-1.21.7" = _Wc9MKY3T;
+        "neoforge-1.21.8" = _Wc9MKY3T;
+        "neoforge-1.21.9" = _Wc9MKY3T;
+        "neoforge-1.21.10" = _Wc9MKY3T;
+        "neoforge-1.21.11" = _Wc9MKY3T;
         "pkg-1.0.1" = _zDBoCmqG;
         "pkg-3.1.3b" = _Lm2uLduI;
         "pkg-3.1.5b" = _DbsgGf5M;
@@ -146,7 +164,10 @@ let
         "pkg-1.2.4" = _Ra6SVCvN;
         "pkg-1.2.5" = _B4PQwV31;
         "pkg-1.2.6" = _mAxU832C;
-        "default" = _mAxU832C;
+        "pkg-1.2.7" = _slgleNes;
+        "pkg-1.2.7.1" = _UTd1kaTY;
+        "pkg-1.3.0" = _Wc9MKY3T;
+        "default" = _Wc9MKY3T;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-kinetic";

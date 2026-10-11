@@ -206,6 +206,11 @@ let
             "file" = "mastersword-neoforge-1.21.1-2.4.2.jar";
             "hash" = "sha512-H16ka79szKBAQdlSn+Wf19asbmA6bDwSuDnp3jrOu3/LjnoSQtaBlICJxmDvBtF1ZNjATPXBJdWZcrEMEcASaQ==";
         };
+        _KfEDvrHi = {
+            "id" = "KfEDvrHi";
+            "file" = "mastersword-neoforge-1.21.1-2.4.5.jar";
+            "hash" = "sha512-HVOWEfgpNBW9mxOYH0eW6yaGZIJSDS7MremIgOnU7FVTzxb0A2Ch9Oi90yko6tSmFnwl4JLhLwaH9H9v5IcXkg==";
+        };
     in {
         "DqVIm84k" = _DqVIm84k;
         "hYWCcyDv" = _hYWCcyDv;
@@ -248,12 +253,13 @@ let
         "qtTA0AML" = _qtTA0AML;
         "UYJqTocE" = _UYJqTocE;
         "hZfpCviE" = _hZfpCviE;
+        "KfEDvrHi" = _KfEDvrHi;
         "forge-1.20.1" = _qtTA0AML;
         "forge-1.20.2" = _AaLdWYre;
         "forge-1.19.4" = _bY308ZoS;
         "forge-1.19.2" = _JK2FlXFQ;
         "forge-1.21" = _vSgsSZQ3;
-        "neoforge-1.21.1" = _hZfpCviE;
+        "neoforge-1.21.1" = _KfEDvrHi;
         "pkg-1.20.1-1.1.3" = _DqVIm84k;
         "pkg-1.20.2-1.1.3" = _hYWCcyDv;
         "pkg-1.19.4-1.1.3" = _zpiUe5aO;
@@ -295,7 +301,8 @@ let
         "pkg-1.20.1-2.3.1" = _qtTA0AML;
         "pkg-1.21.1-2.4.1" = _UYJqTocE;
         "pkg-1.21.1-2.4.2" = _hZfpCviE;
-        "default" = _hZfpCviE;
+        "pkg-1.21.1-2.4.5" = _KfEDvrHi;
+        "default" = _KfEDvrHi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zelda-legend-of-the-master-sword";

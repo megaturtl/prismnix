@@ -56,6 +56,11 @@ let
             "file" = "skinchanger-26.2.jar";
             "hash" = "sha512-HhDgZ80JwgHEtILhjcdyDKhdVFEv+L3STaqCitloiUnWTE0yPZhk0T7zRs+Mpr8++69JyHfYIyMEdBCaq+3wlA==";
         };
+        _DWWKK0Ov = {
+            "id" = "DWWKK0Ov";
+            "file" = "skinchanger-26.3.jar";
+            "hash" = "sha512-iUYVqzUgZf1sEWramHC+Y/VvhGwslPRy4XJ6k7gdN00bceSGEvzToQnTirMzZcOTY10tTdsEfFLgLanJneZZSA==";
+        };
     in {
         "UP2klzut" = _UP2klzut;
         "rj447aFL" = _rj447aFL;
@@ -68,6 +73,7 @@ let
         "julZrgwR" = _julZrgwR;
         "yjqWeTmM" = _yjqWeTmM;
         "tJAvFmUe" = _tJAvFmUe;
+        "DWWKK0Ov" = _DWWKK0Ov;
         "fabric-1.21.1" = _UP2klzut;
         "fabric-1.21.4" = _rj447aFL;
         "fabric-1.21.5" = _hlT0kRi6;
@@ -79,6 +85,7 @@ let
         "fabric-26.1.1" = _julZrgwR;
         "fabric-26.1.2" = _yjqWeTmM;
         "fabric-26.2" = _tJAvFmUe;
+        "fabric-26.3" = _DWWKK0Ov;
         "pkg-1.21.1" = _UP2klzut;
         "pkg-1.21.4" = _rj447aFL;
         "pkg-1.21.5" = _hlT0kRi6;
@@ -90,7 +97,8 @@ let
         "pkg-26.1.1" = _julZrgwR;
         "pkg-26.1.2" = _yjqWeTmM;
         "pkg-26.2" = _tJAvFmUe;
-        "default" = _tJAvFmUe;
+        "pkg-26.3" = _DWWKK0Ov;
+        "default" = _DWWKK0Ov;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skin-changer";

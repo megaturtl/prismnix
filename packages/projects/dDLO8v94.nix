@@ -86,6 +86,16 @@ let
             "file" = "Dungeons And Villages DeeperAndDarker 1.21.1.jar";
             "hash" = "sha512-owE8DxnxJgbcZ00kYV1LN0qf5+nE0Lg8h24U1NFnrrFM9wQl8M0DyPiNzi4szy4iO106qSYZiX3eRuND6ZB3Aw==";
         };
+        _vjcSPXlH = {
+            "id" = "vjcSPXlH";
+            "file" = "DaV DeeperAndDarker 1.20.1.jar";
+            "hash" = "sha512-LmbNODD72UmF0GYgZF90G/gmS2R1nrbLYWeunH63emunuD4L1VdZabBg6RPcS0KJwKocVX9dgFeZpUcLjkaYPw==";
+        };
+        _ooNbid7j = {
+            "id" = "ooNbid7j";
+            "file" = "DaV DeeperAndDarker 1.21.1.jar";
+            "hash" = "sha512-YmzaAkhsPR8nnzxooLt2gs93EzcUqyaIUuJiLjjHeNiZwo/EuHdEKbe9BVVwAHfMKwGunuzdw+bP4paU7vg35w==";
+        };
     in {
         "Shr4ao3f" = _Shr4ao3f;
         "IqG2z0hF" = _IqG2z0hF;
@@ -104,12 +114,14 @@ let
         "rZJDKKGw" = _rZJDKKGw;
         "Oyq4YJnl" = _Oyq4YJnl;
         "Ile0LlDg" = _Ile0LlDg;
+        "vjcSPXlH" = _vjcSPXlH;
+        "ooNbid7j" = _ooNbid7j;
         "fabric-1.19.2" = _QG8gmbAm;
-        "fabric-1.20.1" = _Oyq4YJnl;
+        "fabric-1.20.1" = _vjcSPXlH;
         "fabric-1.21" = _rZJDKKGw;
-        "fabric-1.21.1" = _Ile0LlDg;
+        "fabric-1.21.1" = _ooNbid7j;
         "forge-1.19.2" = _QG8gmbAm;
-        "forge-1.20.1" = _Oyq4YJnl;
+        "forge-1.20.1" = _vjcSPXlH;
         "forge-1.21" = _rZJDKKGw;
         "forge-1.21.1" = _Ile0LlDg;
         "datapack-1.19" = _IqG2z0hF;
@@ -121,13 +133,14 @@ let
         "datapack-1.21" = _yOBhtvHy;
         "datapack-1.21.1" = _yOBhtvHy;
         "neoforge-1.21" = _rZJDKKGw;
-        "neoforge-1.21.1" = _Ile0LlDg;
+        "neoforge-1.21.1" = _ooNbid7j;
         "pkg-1.0" = _eIAytCYk;
         "pkg-1.1" = _yOBhtvHy;
         "pkg-1.1.1" = _rCtFVemj;
         "pkg-1.2" = _rZJDKKGw;
         "pkg-1.2.1" = _Ile0LlDg;
-        "default" = _Ile0LlDg;
+        "pkg-1.3" = _ooNbid7j;
+        "default" = _ooNbid7j;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dungeons-and-villages-deeper-and-darker";

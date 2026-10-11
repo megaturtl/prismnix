@@ -46,6 +46,21 @@ let
             "file" = "enchantmentinfo-neoforge-1.20.4-0.1.2.jar";
             "hash" = "sha512-Rok0p+IpM0t8Fb0RsG2Ibhe4fxFOj++iCCWq+A/RJq0T++2PaMVYAx3i6RQ8r09IOLbt529IZxI+x/N+KNj+1g==";
         };
+        _5btZSwuT = {
+            "id" = "5btZSwuT";
+            "file" = "enchantmentinfo-fabric-1.21.1-1.0.0.jar";
+            "hash" = "sha512-8esAVjecpaCjhUYvT/mbJp92RpqeNLuGsEehwTLHvYZ/bDLp/pyN/jJ8rlAKIoNPLQlqFjHIIOjJNho3ruz0Mw==";
+        };
+        _clCQHAXv = {
+            "id" = "clCQHAXv";
+            "file" = "enchantmentinfo-forge-1.21.1-1.0.0.jar";
+            "hash" = "sha512-Szhrm3zWuauo+ujijneWHHd9+YFZRdn9D75WqKTnfST3OUyr5954I2FWABzRBll9dghaxh+qTwwMMoHe5NxxZw==";
+        };
+        _NXZAL00R = {
+            "id" = "NXZAL00R";
+            "file" = "enchantmentinfo-neoforge-1.21.1-1.0.0.jar";
+            "hash" = "sha512-k9LDkCV6Bho3h0TX3hN0dD7ui7XCJb4fu6pAE7VZIRpQx2RFBx1FXq3ahBf3W4KgivLGyYsGj/Izy8NLDo2SJg==";
+        };
     in {
         "hpXDeyLS" = _hpXDeyLS;
         "lWWilMA4" = _lWWilMA4;
@@ -56,25 +71,37 @@ let
         "IpQNjRZh" = _IpQNjRZh;
         "aRIaODU2" = _aRIaODU2;
         "gBJlDUJs" = _gBJlDUJs;
+        "5btZSwuT" = _5btZSwuT;
+        "clCQHAXv" = _clCQHAXv;
+        "NXZAL00R" = _NXZAL00R;
         "fabric-1.20.1" = _IpQNjRZh;
         "fabric-1.20.2" = _IpQNjRZh;
         "fabric-1.20.3" = _IpQNjRZh;
         "fabric-1.20.4" = _IpQNjRZh;
+        "fabric-1.21" = _5btZSwuT;
+        "fabric-1.21.1" = _5btZSwuT;
         "quilt-1.20.1" = _IpQNjRZh;
         "quilt-1.20.2" = _IpQNjRZh;
         "quilt-1.20.3" = _IpQNjRZh;
         "quilt-1.20.4" = _IpQNjRZh;
+        "quilt-1.21" = _5btZSwuT;
+        "quilt-1.21.1" = _5btZSwuT;
         "forge-1.20.1" = _aRIaODU2;
         "forge-1.20.2" = _aRIaODU2;
         "forge-1.20.3" = _aRIaODU2;
         "forge-1.20.4" = _aRIaODU2;
+        "forge-1.21.1" = _clCQHAXv;
         "neoforge-1.20.2" = _gBJlDUJs;
         "neoforge-1.20.3" = _gBJlDUJs;
         "neoforge-1.20.4" = _gBJlDUJs;
+        "neoforge-1.21.1" = _NXZAL00R;
         "pkg-1.20.4-0.1.0" = _N4NRprbN;
         "pkg-1.20.4-0.1.1" = _7N0J6O4U;
         "pkg-1.20.4-0.1.2" = _gBJlDUJs;
-        "default" = _gBJlDUJs;
+        "pkg-1.21.1-1.0.0-fabric" = _5btZSwuT;
+        "pkg-1.21.1-1.0.0-forge" = _clCQHAXv;
+        "pkg-1.21.1-1.0.0-neoforge" = _NXZAL00R;
+        "default" = _NXZAL00R;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchantment-info";

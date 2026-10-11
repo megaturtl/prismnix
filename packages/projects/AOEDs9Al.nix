@@ -541,6 +541,16 @@ let
             "file" = "uilib-fabric-21.1.2.jar";
             "hash" = "sha512-hq8HkLP+euVS73s3JHTFuq7Kd2UjQmsiANC/hlj/4HZirxETbi+8FKYBtkkKNNxQSPJKPRkCu04QEQdtJ01PQg==";
         };
+        _ALJXpLCo = {
+            "id" = "ALJXpLCo";
+            "file" = "uilib-fabric-22.1.0.jar";
+            "hash" = "sha512-cqjuYaefRE1rM85XVIhfXrJwNUuDYR7pxRs2tHPC4G61FjELqyDUq3VFz+9is6nloOxWVgbKq21wgUVrkLUekA==";
+        };
+        _OMczhnKu = {
+            "id" = "OMczhnKu";
+            "file" = "uilib-neoforge-22.1.0.jar";
+            "hash" = "sha512-+V6LXWoG7vT3rtu1eqymYoCOKK9WLwGzXsHnOYYVQhLMjcYeUP+134GgklXix403FwbeandY+z4uJ5mUwP4HDQ==";
+        };
     in {
         "1TQznsJg" = _1TQznsJg;
         "kqyRbQ13" = _kqyRbQ13;
@@ -650,6 +660,8 @@ let
         "7PnHRvVW" = _7PnHRvVW;
         "f3Z0AUo0" = _f3Z0AUo0;
         "9n4snDWk" = _9n4snDWk;
+        "ALJXpLCo" = _ALJXpLCo;
+        "OMczhnKu" = _OMczhnKu;
         "fabric-1.20.1" = _zTkzAdVf;
         "fabric-1.21" = _54ffhTnM;
         "fabric-1.21.1" = _54ffhTnM;
@@ -664,6 +676,7 @@ let
         "fabric-26.1.1" = _bpciX8B6;
         "fabric-26.1.2" = _bpciX8B6;
         "fabric-26.2" = _9n4snDWk;
+        "fabric-26.3" = _ALJXpLCo;
         "forge-1.20.1" = _GizE27iH;
         "neoforge-1.21" = _XSWl7TVm;
         "neoforge-1.21.1" = _XSWl7TVm;
@@ -678,6 +691,7 @@ let
         "neoforge-26.1.1" = _6dVlt4Oi;
         "neoforge-26.1.2" = _6dVlt4Oi;
         "neoforge-26.2" = _f3Z0AUo0;
+        "neoforge-26.3" = _OMczhnKu;
         "pkg-0.2.4" = _kqyRbQ13;
         "pkg-0.2.5" = _ZXQRGYop;
         "pkg-0.2.6" = _LRRARxP8;
@@ -732,7 +746,8 @@ let
         "pkg-20.1.4" = _6dVlt4Oi;
         "pkg-21.1.1" = _7PnHRvVW;
         "pkg-21.1.2" = _9n4snDWk;
-        "default" = _9n4snDWk;
+        "pkg-22.1.0" = _OMczhnKu;
+        "default" = _OMczhnKu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ui-lib";

@@ -826,6 +826,16 @@ let
             "file" = "survivalistessentials-26.2-neoforge-6.3.2.6-NEOFORGE.jar";
             "hash" = "sha512-TMjt+pVG3euyiC7Giahk2/9m3aIHxqsmN8jNH3JOo7oalhHiuTwTNUfSfm7wFQ7GkPOYzxCAlQY+3VV1o9AZtA==";
         };
+        _nm9gF2qK = {
+            "id" = "nm9gF2qK";
+            "file" = "survivalistessentials-26.3-fabric-6.3.2.6-FABRIC.jar";
+            "hash" = "sha512-+HnoEEUkXzRg5WST7lfwOwsKC3jvL8mBASFCRLWNJ1gZqxgLo5kDA7N2MPUeW5UBWqz8Hrxav7t34EPttilg2Q==";
+        };
+        _KGEhW451 = {
+            "id" = "KGEhW451";
+            "file" = "survivalistessentials-26.3-neoforge-6.3.2.6-NEOFORGE.jar";
+            "hash" = "sha512-lOImTKPmqX3F/WZwpGLKj0N8rCj/REIG+LecJaNZ5gxh1rR23Dcj76GOv0rnW/O4x4Ujc8+3V/qyiKaWt2PxgA==";
+        };
     in {
         "fDkNPVHF" = _fDkNPVHF;
         "LgMZNaA5" = _LgMZNaA5;
@@ -992,6 +1002,8 @@ let
         "nGRZAQLS" = _nGRZAQLS;
         "nqMR2tI3" = _nqMR2tI3;
         "mdBSlksm" = _mdBSlksm;
+        "nm9gF2qK" = _nm9gF2qK;
+        "KGEhW451" = _KGEhW451;
         "forge-1.18.2" = _GGepnX7u;
         "forge-1.19" = _5Ih5ZvRe;
         "forge-1.19.1" = _5Ih5ZvRe;
@@ -1011,6 +1023,7 @@ let
         "neoforge-26.1.1" = _54NrjH9j;
         "neoforge-26.1.2" = _54NrjH9j;
         "neoforge-26.2" = _mdBSlksm;
+        "neoforge-26.3" = _KGEhW451;
         "fabric-1.21.1" = _ifet2gr1;
         "fabric-1.21.9" = _PJtsMLFt;
         "fabric-1.21.10" = _PJtsMLFt;
@@ -1019,6 +1032,7 @@ let
         "fabric-26.1.1" = _PAJxLIeP;
         "fabric-26.1.2" = _PAJxLIeP;
         "fabric-26.2" = _nqMR2tI3;
+        "fabric-26.3" = _nm9gF2qK;
         "pkg-1.18.2-3.1.0.1" = _fDkNPVHF;
         "pkg-1.19-1.19.2-4.1.0.2" = _LgMZNaA5;
         "pkg-1.19.4-5.0.0.3" = _3b3HgLdd;
@@ -1182,7 +1196,9 @@ let
         "pkg-1.21.1-6.3.1.5-NEOFORGE" = _nGRZAQLS;
         "pkg-26.2-6.3.2.6-FABRIC" = _nqMR2tI3;
         "pkg-26.2-6.3.2.6-NEOFORGE" = _mdBSlksm;
-        "default" = _mdBSlksm;
+        "pkg-26.3-6.3.2.6-FABRIC" = _nm9gF2qK;
+        "pkg-26.3-6.3.2.6-NEOFORGE" = _KGEhW451;
+        "default" = _KGEhW451;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "survivalist-essentials";

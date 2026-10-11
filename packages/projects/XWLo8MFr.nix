@@ -16,10 +16,16 @@ let
             "file" = "Wemmbu-Farlands-1.0.0-SNAPSHOT.jar";
             "hash" = "sha512-SWByyuistGew53l5TwXPbrqHGDvp4oZ+2ijlDjwbUkZQNPSgpxAC6nLBQtI2rEtdVoGANVAPia9Z+4j3xT/aPg==";
         };
+        _eBdaJ1Ds = {
+            "id" = "eBdaJ1Ds";
+            "file" = "Wemmbu-Farlands-Fabric-1.3.0.jar";
+            "hash" = "sha512-vSvrBHRerFRUDwHUlmp/ELqUxKH9cPN/rkTGBdSEo2mfWo0sD3JgBbpfrYARkGW9py0OG758Yt26qVyVAISUJA==";
+        };
     in {
         "kir7tqoq" = _kir7tqoq;
         "tPPB1Xxn" = _tPPB1Xxn;
         "g14HLg5a" = _g14HLg5a;
+        "eBdaJ1Ds" = _eBdaJ1Ds;
         "bukkit-1.21" = _g14HLg5a;
         "bukkit-1.21.1" = _g14HLg5a;
         "bukkit-1.21.2" = _g14HLg5a;
@@ -68,10 +74,12 @@ let
         "spigot-1.21.9" = _g14HLg5a;
         "spigot-1.21.10" = _g14HLg5a;
         "spigot-1.21.11" = _g14HLg5a;
+        "fabric-1.21.11" = _eBdaJ1Ds;
         "pkg-1.0.0" = _kir7tqoq;
         "pkg-1.1.0-SNAPSHOT" = _tPPB1Xxn;
         "pkg-1.2.0-SNAPSHOT" = _g14HLg5a;
-        "default" = _g14HLg5a;
+        "pkg-1.3.0" = _eBdaJ1Ds;
+        "default" = _eBdaJ1Ds;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wemmbu-farlands";

@@ -251,6 +251,16 @@ let
             "file" = "squidnoglitch-mc26.2-v26.2.0-neoforge.jar";
             "hash" = "sha512-T8QhyvnmzJqbOeo+/kVvTUalEHG0sah9Iw0YiWGb3WvGeIFrabXxvdAbUCrZHKi3tDhRPFLP3b+oyeny8/xbQA==";
         };
+        _udWaT1ho = {
+            "id" = "udWaT1ho";
+            "file" = "squidnoglitch-mc26.3-v26.3.0-fabric.jar";
+            "hash" = "sha512-GuKLzn8LQPPa5bBKpuqIIh7WNSi6fM2+hueqJ5HbKvXTeG5kJ7ngoaC5inPshHJ56IVmtraCZYjTGJZua0xNKA==";
+        };
+        _jqCtI85X = {
+            "id" = "jqCtI85X";
+            "file" = "squidnoglitch-mc26.3-v26.3.0-neoforge.jar";
+            "hash" = "sha512-lEFU0oaeDu2ed5TaV9uam7fMwJgPJjkeeO6pTWyLt9VfqTkunrzNGz3z6Eqs8O+f/SMdjt4MXQypt1Upfo++9A==";
+        };
     in {
         "GvdB5pup" = _GvdB5pup;
         "TGw6CFX8" = _TGw6CFX8;
@@ -302,6 +312,8 @@ let
         "l7ijZEFa" = _l7ijZEFa;
         "5yXCLcbW" = _5yXCLcbW;
         "gxELTd68" = _gxELTd68;
+        "udWaT1ho" = _udWaT1ho;
+        "jqCtI85X" = _jqCtI85X;
         "forge-1.18.2" = _E856hFEp;
         "forge-1.19.2" = _pnbHX6J0;
         "forge-1.19.4" = _BTmggx6T;
@@ -333,6 +345,7 @@ let
         "fabric-26.1.1" = _EKxaSpYb;
         "fabric-26.1.2" = _EKxaSpYb;
         "fabric-26.2" = _5yXCLcbW;
+        "fabric-26.3" = _udWaT1ho;
         "quilt-1.18.2" = _PbtFEopu;
         "quilt-1.19.2" = _Rz7qucgM;
         "quilt-1.19.3" = _yx9nWyiA;
@@ -366,6 +379,7 @@ let
         "neoforge-26.1.1" = _l7ijZEFa;
         "neoforge-26.1.2" = _l7ijZEFa;
         "neoforge-26.2" = _gxELTd68;
+        "neoforge-26.3" = _jqCtI85X;
         "pkg-1.0.0-forge" = _vT3L1jKt;
         "pkg-1.0.0-fabric" = _ofnKg8J4;
         "pkg-1.0.1-forge" = _ISKPJhb6;
@@ -384,7 +398,9 @@ let
         "pkg-1.0.6-fabric" = _EKxaSpYb;
         "pkg-26.2.0-fabric" = _5yXCLcbW;
         "pkg-26.2.0-neoforge" = _gxELTd68;
-        "default" = _gxELTd68;
+        "pkg-26.3.0-fabric" = _udWaT1ho;
+        "pkg-26.3.0-neoforge" = _jqCtI85X;
+        "default" = _jqCtI85X;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "squid-no-glitch";

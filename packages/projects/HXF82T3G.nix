@@ -10386,6 +10386,201 @@ let
             "file" = "BiomesOPlenty-forge-26.2-26.2.0.0.28.jar";
             "hash" = "sha512-Q6cV0dyGAvK5pwNzgW/lw0Kt3alY3PbqTFvXJCHtzj73kSUUhuLozBD+o+1IwDeVx/SD0zLMi3BAjKSOqwc7Gw==";
         };
+        _e1IrCWs3 = {
+            "id" = "e1IrCWs3";
+            "file" = "BiomesOPlenty-forge-26.3-26.3.0.0.1.jar";
+            "hash" = "sha512-RFJGnjxBBdjFjnbQiQ1Z/g4avfxBSJTp6V7gItKqVhOh4oZ7ew/+YrXCehqdW7q4gbMijHKfN/m7yXIfXfZ12g==";
+        };
+        _3iYZyBYT = {
+            "id" = "3iYZyBYT";
+            "file" = "BiomesOPlenty-fabric-26.3-26.3.0.0.1.jar";
+            "hash" = "sha512-AyScoP05X514SqC+w39kfEUxdbikhtWzj1DqhvyiJFuphfuq3vULEVvicOtj8jf1MATfz2BeVGyUwc+HNKogIw==";
+        };
+        _SxERvrHD = {
+            "id" = "SxERvrHD";
+            "file" = "BiomesOPlenty-neoforge-26.3-26.3.0.0.1.jar";
+            "hash" = "sha512-U2Ci7/uNb3DaAmtS1gajy0buIEh89kD+zuWIZ/GfKGjmwkcJRcU5D37qo13R6LhWKmJdVkII4wLaYG1lsUXW7A==";
+        };
+        _ynbzntIC = {
+            "id" = "ynbzntIC";
+            "file" = "BiomesOPlenty-forge-26.3-26.3.0.0.2.jar";
+            "hash" = "sha512-TWOV9c9yKZ7oFrV6xphLr+uqwPYwU2AFry2fri+izu+N8KKh/ZrjWqe/mMt+0G6N2Vr7Nu0ZQ39BgONCpmjEEw==";
+        };
+        _m46QTGvq = {
+            "id" = "m46QTGvq";
+            "file" = "BiomesOPlenty-fabric-26.3-26.3.0.0.2.jar";
+            "hash" = "sha512-FGsZuy3LzurcYB8wIgsnsma6bg6SbMpVUeuQV0L3M5Zt7j4m/+C+xDpzUaYVFZMZRXgjfKk2jhORB0zX39Wmgg==";
+        };
+        _5xfum0m1 = {
+            "id" = "5xfum0m1";
+            "file" = "BiomesOPlenty-neoforge-26.3-26.3.0.0.2.jar";
+            "hash" = "sha512-4rVVnqHxwd2zH70WoiMEdfsOGS10+J/S2trbXY/EaRWFCWz8W++leGzRepGcSd3whLWSkDE/6BUnKYPjnp8/Rg==";
+        };
+        _G43hEaZq = {
+            "id" = "G43hEaZq";
+            "file" = "BiomesOPlenty-fabric-26.3-26.3.0.0.3.jar";
+            "hash" = "sha512-6Ksye4ra5ApROgzMTxif6N5UA64yBoxsuavX1mfWgmVdd5MsRf8PMBlr21vUsPfmeqSccEAbzH4aVoJftoO0Zg==";
+        };
+        _QydzIkNp = {
+            "id" = "QydzIkNp";
+            "file" = "BiomesOPlenty-forge-26.3-26.3.0.0.3.jar";
+            "hash" = "sha512-FzAPoWC7O7YxSsTu6K5dEndkXxjP0Rq9n95k5Pa5H53F5/nsLAn0YscDpqd2+OveVs4KUDQy9pgV2tFAxKMsdA==";
+        };
+        _ls4LXgCZ = {
+            "id" = "ls4LXgCZ";
+            "file" = "BiomesOPlenty-neoforge-26.3-26.3.0.0.3.jar";
+            "hash" = "sha512-WEprolHqx6GYarW6ptALD10yid8MUqmDt0lEfIq6otL1UwtTr+JSrZD4yYOxY+F4XvL5Ho1BEcu17jkb3ua5dw==";
+        };
+        _S66iPwEX = {
+            "id" = "S66iPwEX";
+            "file" = "BiomesOPlenty-neoforge-26.3-26.3.0.0.4.jar";
+            "hash" = "sha512-nflLUsd97P/QMExIRcd3qSgi8T0R7yOmY9xGC2yVAv4H4INrie7nd/uNPlKdTCkRZW0py2BpacC0l/UnsbvBug==";
+        };
+        _FTOdtDAz = {
+            "id" = "FTOdtDAz";
+            "file" = "BiomesOPlenty-forge-26.3-26.3.0.0.4.jar";
+            "hash" = "sha512-y/gxVFW6thkqXjaTSrXKZqJyPSNB8kdKNGw7caVDoZG2YKZ2Gx5JSXYz7k//h7T8+ZskQqEnp3FKaeDQW+xumQ==";
+        };
+        _4Ztv6W7k = {
+            "id" = "4Ztv6W7k";
+            "file" = "BiomesOPlenty-fabric-26.3-26.3.0.0.4.jar";
+            "hash" = "sha512-rlo75NA6GICzS2suVdzyMWeeC46RFJAqaQorSK3WNx9AcbYHKjHIJIAyMmZbLeTvQX4YMbCqSSDCzosV3LhQfg==";
+        };
+        _ZkzZkkve = {
+            "id" = "ZkzZkkve";
+            "file" = "BiomesOPlenty-neoforge-26.3-26.3.0.0.5.jar";
+            "hash" = "sha512-TYXnnDPe0grhSV3px1Tv16ZGBK65CYW2dmAWlzp+v/hwADAs5e4d2+tkUax/gX475+ehv227EF8mhkzvyucE3A==";
+        };
+        _Yz0nNKcs = {
+            "id" = "Yz0nNKcs";
+            "file" = "BiomesOPlenty-fabric-26.3-26.3.0.0.5.jar";
+            "hash" = "sha512-n1ovvDa21HxrOD5OClmI7KlgKoSBFKrNdEZx8keZBlrE5iodQy0SC1AWquJzsxjbvdEoCLwX6KQnddx1lKdE7A==";
+        };
+        _ypl1oiQl = {
+            "id" = "ypl1oiQl";
+            "file" = "BiomesOPlenty-forge-26.3-26.3.0.0.5.jar";
+            "hash" = "sha512-Pz4Srf9//uHNZcPEtovV9A7H1n3Ovlj+3uwRyyvp2n9jQMRsUP1g1Dbnx3WUZerHLX6cPsvGFY+TxSERbtiCRA==";
+        };
+        _gxEznMca = {
+            "id" = "gxEznMca";
+            "file" = "BiomesOPlenty-fabric-26.3-26.3.0.0.6.jar";
+            "hash" = "sha512-6buIyAN3c3gkv1uLpkxd3Wq2FYAB6dcxLn+KGiza6Li8tKaIOJTbHnjLTqGhEgwOGwTdjvqKS57o0Pr3IfLVWQ==";
+        };
+        _kyqNWG0c = {
+            "id" = "kyqNWG0c";
+            "file" = "BiomesOPlenty-neoforge-26.3-26.3.0.0.6.jar";
+            "hash" = "sha512-Livbtng5gRtAyunXDRkeDAwUZ8IUyPRKO0UTiy+8z0df0Qxp8Zuaot9VZWNnrlnUwOpZS69jc4/orcUSI/LlWg==";
+        };
+        _t99XdNXz = {
+            "id" = "t99XdNXz";
+            "file" = "BiomesOPlenty-forge-26.3-26.3.0.0.6.jar";
+            "hash" = "sha512-bt/DWXLfwZnQYsLu2S57s0qAnDxiIwbJNvm3cZjoy3yNOrv9csX4f7z39xZ2TJSroR7PeMTF0XxvgCuJPI++zA==";
+        };
+        _O2QwAZuQ = {
+            "id" = "O2QwAZuQ";
+            "file" = "BiomesOPlenty-forge-26.3-26.3.0.0.7.jar";
+            "hash" = "sha512-VcZMbkmrnEESXq7AZ2KEMGYvzmiGVHd1WJLgd7QHbF5p32zgJCznuVxmNav/La7ZvAnFzPfinc7BpeEGfEEB+A==";
+        };
+        _TA74H5xC = {
+            "id" = "TA74H5xC";
+            "file" = "BiomesOPlenty-neoforge-26.3-26.3.0.0.7.jar";
+            "hash" = "sha512-DCsTjy+rmO0ps6sIMZfu1aEFUtxR47DcNolLLMAJq2eAEE5p1KSNNgKvO2d5UzoechPk9YgdlhteYhN8j1x5gA==";
+        };
+        _Hhn5UJ4L = {
+            "id" = "Hhn5UJ4L";
+            "file" = "BiomesOPlenty-fabric-26.3-26.3.0.0.7.jar";
+            "hash" = "sha512-Uh62YIuvv3szG0kRjPJz2EF5JBxMzfnTxtMLI8fAxPTCAtVygiJ4Xy5H4cWg+K5aOO5n+o6qrxLphnnZcXuKLg==";
+        };
+        _tyuQVwny = {
+            "id" = "tyuQVwny";
+            "file" = "BiomesOPlenty-forge-26.3-26.3.0.0.8.jar";
+            "hash" = "sha512-xHMM0IIarolo7KQTHNiB4vOfU/o8fyl3vqwHDhv5tES9WNx6ZjIEiPTCOrrO8UuN6yrEyHuDKedk1EhM0It0VQ==";
+        };
+        _aPSIxaJR = {
+            "id" = "aPSIxaJR";
+            "file" = "BiomesOPlenty-fabric-26.3-26.3.0.0.8.jar";
+            "hash" = "sha512-L7/fA1nm+K4ZJGYzHV5Y6iamW4Ms4KHETbbpPETHJjrLTHfdCyZqMRSKMKtyZxUzOEgu11iIELq3vkznZgacpg==";
+        };
+        _iBGxoOcT = {
+            "id" = "iBGxoOcT";
+            "file" = "BiomesOPlenty-neoforge-26.3-26.3.0.0.8.jar";
+            "hash" = "sha512-gS2WQeqymorRVv8XcePopv/JU5SEjwLUrBJnpFP2hE/T5i0k6dSkE8DJrc6srw7n1+uNzBAtfVHzjsV2Ve5m+A==";
+        };
+        _1UlFvV7v = {
+            "id" = "1UlFvV7v";
+            "file" = "BiomesOPlenty-neoforge-26.3-26.3.0.0.9.jar";
+            "hash" = "sha512-iV/smFzTvPOyLh/H+zmtfmNNES/UDMD67AG2ZYl6xGMAx9+i7J1iUSK88FZKhlNPRdZN8gc9IC8sqPRd+CpIHA==";
+        };
+        _bwkzeDRz = {
+            "id" = "bwkzeDRz";
+            "file" = "BiomesOPlenty-fabric-26.3-26.3.0.0.9.jar";
+            "hash" = "sha512-bEtMahl+eHRjFKDn+2yKoW8/Qw2AZhfgaOErs0mnzaZlfDuH24f1y3uYuQAM7kBbvtCvHiUcUmIaqFPZ0iCSlw==";
+        };
+        _Zpp1csg3 = {
+            "id" = "Zpp1csg3";
+            "file" = "BiomesOPlenty-forge-26.3-26.3.0.0.9.jar";
+            "hash" = "sha512-4gFmBp/cUPYmoubNxb8f/TjHhxQVtA3tO8qzHWmCYVFGyFiMIZf6iCVedI0HJKa6xF7HKfSmWrwpCW9aam5YrA==";
+        };
+        _y5UGm4Wl = {
+            "id" = "y5UGm4Wl";
+            "file" = "BiomesOPlenty-fabric-26.3-26.3.0.0.10.jar";
+            "hash" = "sha512-gJsPfcdQxYqWpc3fn5KOz5rUopkQDw8r27CROBj/mHVbnM25vmu07eaJ1HJREER1VvLrtTPI5oWGdmI4zpTg/Q==";
+        };
+        _DGi2U5ZE = {
+            "id" = "DGi2U5ZE";
+            "file" = "BiomesOPlenty-forge-26.3-26.3.0.0.10.jar";
+            "hash" = "sha512-BnSBJZ4eX7GJZ4xYzU9jkTiUeaWRfdmOl2c4xxyasTBuK9cEXmcaxlDd1aWNYj/hjzeG+YJ1Uj/dd2/lyccbqg==";
+        };
+        _2EtuuAcY = {
+            "id" = "2EtuuAcY";
+            "file" = "BiomesOPlenty-neoforge-26.3-26.3.0.0.10.jar";
+            "hash" = "sha512-4lRN+rFfNX+UaYrlVWohkJvLOmdw4iYrTBlQ/2G1LBtzDKIq16gqQdb1mkehIH9eh1jI6albcImBYww9eALHGA==";
+        };
+        _knIsj6ct = {
+            "id" = "knIsj6ct";
+            "file" = "BiomesOPlenty-neoforge-26.3-26.3.0.0.11.jar";
+            "hash" = "sha512-k+lUAwRy1hlQfOtWoWJdzJY5oUadpogwT3zbWED8Dek1mzXQM1w28HW2dVA+yYAXmQV9jJPmcN8gFD88hPX0hA==";
+        };
+        _5WGcJSXh = {
+            "id" = "5WGcJSXh";
+            "file" = "BiomesOPlenty-forge-26.3-26.3.0.0.11.jar";
+            "hash" = "sha512-dbXvK1lc60Df1t3rxGr7ClbVfWT04uuxILrtiE6PbtDa7rJ0X+3PTX6z1n0MjIX9Q3JpR7bnwEWJqT/R4fPJDw==";
+        };
+        _uUpYc7Er = {
+            "id" = "uUpYc7Er";
+            "file" = "BiomesOPlenty-fabric-26.3-26.3.0.0.11.jar";
+            "hash" = "sha512-uZ1p2paqgDFr4HgGyHyXeSbswRA0qvUAvQeyLs9Zfg3juTm82NTBX2QeO7d7mxv5ZdC0hYfZp9wBtCDj+aoYrg==";
+        };
+        _9VwyMDGY = {
+            "id" = "9VwyMDGY";
+            "file" = "BiomesOPlenty-neoforge-26.3-26.3.0.0.12.jar";
+            "hash" = "sha512-nFcTXvj24VDLFW+oXBNr+/Ib+rwTxuqGIIvCP7inZuX7454CR0axTnjjEWHC9i9ttOfIFwKt9TcAqAKJNEvhTQ==";
+        };
+        _t23ymTjG = {
+            "id" = "t23ymTjG";
+            "file" = "BiomesOPlenty-forge-26.3-26.3.0.0.12.jar";
+            "hash" = "sha512-ABuhgnizabufioLcEGW4hlitdrq27IY6sxv39sU0nYrVEQBIo8bfVDOOej+8n9t9/01qsudnZxVFiLzyLSfP+Q==";
+        };
+        _pwn5eY2K = {
+            "id" = "pwn5eY2K";
+            "file" = "BiomesOPlenty-fabric-26.3-26.3.0.0.12.jar";
+            "hash" = "sha512-WxFcUV/CnGUEuL+xtx7Wy4D/4jU2MKIVt/pTTzGKXCBLjGrYO9P8fDmMWgIrJ/MCoKFdYukvoAc1FvTVp745Pw==";
+        };
+        _tYp30tEr = {
+            "id" = "tYp30tEr";
+            "file" = "BiomesOPlenty-fabric-26.3-26.3.0.0.13.jar";
+            "hash" = "sha512-ywDp9fGxeZeyv5LOaEjhUfqNFfy9EqtWLAlfO30w3KnlAXxki2l1mQxgYFg8jAW7SOG4G+ihKYW7BwENEme/Kw==";
+        };
+        _viL6h7Xv = {
+            "id" = "viL6h7Xv";
+            "file" = "BiomesOPlenty-neoforge-26.3-26.3.0.0.13.jar";
+            "hash" = "sha512-/G70n4jQL/onnOkenPjH8S4lXUqzMDo2C7jsznWVeomeMIZzpl9PP69UlPs0Ij9mzciP6sgWQ3ruZMbYfE5WVA==";
+        };
+        _zpATG3Sj = {
+            "id" = "zpATG3Sj";
+            "file" = "BiomesOPlenty-forge-26.3-26.3.0.0.13.jar";
+            "hash" = "sha512-WLlu7WgTfJK1D8MS3nJd0AjWvMOrES5aVm6ZgamKL03szmNihDEUdXlSy+OzdBzc0O57MqW4VCFT8zn5zkKWGw==";
+        };
     in {
         "qQSedQAe" = _qQSedQAe;
         "MHt23aM2" = _MHt23aM2;
@@ -12464,6 +12659,45 @@ let
         "Kpuzuokl" = _Kpuzuokl;
         "MNZPk6V0" = _MNZPk6V0;
         "DyL9yBDx" = _DyL9yBDx;
+        "e1IrCWs3" = _e1IrCWs3;
+        "3iYZyBYT" = _3iYZyBYT;
+        "SxERvrHD" = _SxERvrHD;
+        "ynbzntIC" = _ynbzntIC;
+        "m46QTGvq" = _m46QTGvq;
+        "5xfum0m1" = _5xfum0m1;
+        "G43hEaZq" = _G43hEaZq;
+        "QydzIkNp" = _QydzIkNp;
+        "ls4LXgCZ" = _ls4LXgCZ;
+        "S66iPwEX" = _S66iPwEX;
+        "FTOdtDAz" = _FTOdtDAz;
+        "4Ztv6W7k" = _4Ztv6W7k;
+        "ZkzZkkve" = _ZkzZkkve;
+        "Yz0nNKcs" = _Yz0nNKcs;
+        "ypl1oiQl" = _ypl1oiQl;
+        "gxEznMca" = _gxEznMca;
+        "kyqNWG0c" = _kyqNWG0c;
+        "t99XdNXz" = _t99XdNXz;
+        "O2QwAZuQ" = _O2QwAZuQ;
+        "TA74H5xC" = _TA74H5xC;
+        "Hhn5UJ4L" = _Hhn5UJ4L;
+        "tyuQVwny" = _tyuQVwny;
+        "aPSIxaJR" = _aPSIxaJR;
+        "iBGxoOcT" = _iBGxoOcT;
+        "1UlFvV7v" = _1UlFvV7v;
+        "bwkzeDRz" = _bwkzeDRz;
+        "Zpp1csg3" = _Zpp1csg3;
+        "y5UGm4Wl" = _y5UGm4Wl;
+        "DGi2U5ZE" = _DGi2U5ZE;
+        "2EtuuAcY" = _2EtuuAcY;
+        "knIsj6ct" = _knIsj6ct;
+        "5WGcJSXh" = _5WGcJSXh;
+        "uUpYc7Er" = _uUpYc7Er;
+        "9VwyMDGY" = _9VwyMDGY;
+        "t23ymTjG" = _t23ymTjG;
+        "pwn5eY2K" = _pwn5eY2K;
+        "tYp30tEr" = _tYp30tEr;
+        "viL6h7Xv" = _viL6h7Xv;
+        "zpATG3Sj" = _zpATG3Sj;
         "forge-1.8" = _Cjq4ELMv;
         "forge-1.7.10" = _YoWpRk0h;
         "forge-1.8.8" = _SCfPOXUR;
@@ -12512,6 +12746,7 @@ let
         "forge-1.21.11" = _a3i8bZGT;
         "forge-26.1.2" = _QbPWS83T;
         "forge-26.2" = _DyL9yBDx;
+        "forge-26.3" = _zpATG3Sj;
         "neoforge-1.20.4" = _IsClCU50;
         "neoforge-1.20.6" = _sAWtkTFs;
         "neoforge-1.21" = _r2WRwsce;
@@ -12527,6 +12762,7 @@ let
         "neoforge-1.21.11" = _cCnnnC72;
         "neoforge-26.1.2" = _mqkuMsI9;
         "neoforge-26.2" = _Kpuzuokl;
+        "neoforge-26.3" = _viL6h7Xv;
         "fabric-1.20.4" = _TCPjNaJ0;
         "fabric-1.20.6" = _J8FfkwPL;
         "fabric-1.21" = _qAKuAKD7;
@@ -12543,6 +12779,7 @@ let
         "fabric-1.21.11" = _JJKbM72H;
         "fabric-26.1.2" = _8MVwdPgG;
         "fabric-26.2" = _MNZPk6V0;
+        "fabric-26.3" = _tYp30tEr;
         "pkg-3.0.0.1085" = _qQSedQAe;
         "pkg-3.0.0.1086" = _MHt23aM2;
         "pkg-3.0.0.1092" = _jZ9cNlNL;
@@ -14135,7 +14372,20 @@ let
         "pkg-26.2.0.0.26" = _kYz8T08F;
         "pkg-26.2.0.0.27" = _U6G52pa1;
         "pkg-26.2.0.0.28" = _DyL9yBDx;
-        "default" = _DyL9yBDx;
+        "pkg-26.3.0.0.1" = _SxERvrHD;
+        "pkg-26.3.0.0.2" = _5xfum0m1;
+        "pkg-26.3.0.0.3" = _ls4LXgCZ;
+        "pkg-26.3.0.0.4" = _4Ztv6W7k;
+        "pkg-26.3.0.0.5" = _ypl1oiQl;
+        "pkg-26.3.0.0.6" = _t99XdNXz;
+        "pkg-26.3.0.0.7" = _Hhn5UJ4L;
+        "pkg-26.3.0.0.8" = _iBGxoOcT;
+        "pkg-26.3.0.0.9" = _Zpp1csg3;
+        "pkg-26.3.0.0.10" = _2EtuuAcY;
+        "pkg-26.3.0.0.11" = _uUpYc7Er;
+        "pkg-26.3.0.0.12" = _pwn5eY2K;
+        "pkg-26.3.0.0.13" = _zpATG3Sj;
+        "default" = _zpATG3Sj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "biomes-o-plenty";

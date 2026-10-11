@@ -56,6 +56,46 @@ let
             "file" = "ZakoHealthIndicator-1.20.1-fabric.jar";
             "hash" = "sha512-Viux1WZ1DBzkjva2Zd4YEPdTgirUh1tmfrrxxJh52N5eDSpvmWaptsMjvod/yKDekgdvNt5Bt106DyMGTMAV5g==";
         };
+        _zJpo5uT2 = {
+            "id" = "zJpo5uT2";
+            "file" = "ZakoHealthIndicator-26.3-fabric.jar";
+            "hash" = "sha512-4AahvuA/LluxS3Cq1m9lPQSYJeJRGqg3ZLiQMW2cXCLRYgfrRyqdqFnS21b2iBVIicOjC1MuYlOKIkNGhdedsA==";
+        };
+        _MKJGgtsk = {
+            "id" = "MKJGgtsk";
+            "file" = "ZakoHealthIndicator-26.2-fabric.jar";
+            "hash" = "sha512-NSlo6yRz/D7aDZohayNusrJJIl6B3o/FMv4QajhwMSKWbFzAONk7jLlhKhknwD0rpq5UZzCgPykS7XYNkCxEKA==";
+        };
+        _wEhSPXRf = {
+            "id" = "wEhSPXRf";
+            "file" = "ZakoHealthIndicator-26.1-fabric.jar";
+            "hash" = "sha512-8XsIAq7wXQR8rWNdeXWOYYmy+robXZ4c5KabQGVMJndM0Pw+YddZdwo4sKvKBpyGU3LEKJdRKUAYqLsjPtMiVQ==";
+        };
+        _oaHrC0hI = {
+            "id" = "oaHrC0hI";
+            "file" = "ZakoHealthIndicator-26.1-fabric.jar";
+            "hash" = "sha512-Jap5UerXZs3/j33vSnZEZiZLRsqkbTbJaBBzyFwQRWIfT4JXe69WcFL1Xa+Ms1qqU0Or2woW728CxS6tSKjv0A==";
+        };
+        _TqdulQ42 = {
+            "id" = "TqdulQ42";
+            "file" = "ZakoHealthIndicator-1.21.2-fabric.jar";
+            "hash" = "sha512-ESfA+H1s4Dd52g43L9PwZWEfOoZIVgpgMaNEULvXtxBSY4ETuL7NxYbtsS9TgcoG3Tpof1+iakF2QoUcuowrVg==";
+        };
+        _B9bq4VKe = {
+            "id" = "B9bq4VKe";
+            "file" = "ZakoHealthIndicator-1.21.4-fabric.jar";
+            "hash" = "sha512-KenhmzJNQkdTg+md2/UssqcWkubR0YYbLlZnzN99TbEq38oPXgOX0YXMgCvdxW95RdqRBaOgiuTQzWNdBAnG0w==";
+        };
+        _e6isvkHX = {
+            "id" = "e6isvkHX";
+            "file" = "ZakoHealthIndicator-1.21.8-fabric.jar";
+            "hash" = "sha512-y7dPVeuQKDYt14sjqt5boHnH79gbRtHWrd9wnGAl8LptsT1MDKXxa3mR+s67LbPsKg5nozth1cL81nzeYwjfCA==";
+        };
+        _CjnvGOAE = {
+            "id" = "CjnvGOAE";
+            "file" = "ZakoHealthIndicator-1.21-fabric.jar";
+            "hash" = "sha512-1S5MDc5RyXyte3856NzvPtFDcOlFvTcAGiF034LBtdM4Lfe/s3CVjy7lIt4geWvWbJrO5b7oZn+eVmGdueQRrw==";
+        };
     in {
         "FePQKG3b" = _FePQKG3b;
         "nTaeLUmx" = _nTaeLUmx;
@@ -68,39 +108,56 @@ let
         "wgLWQeOt" = _wgLWQeOt;
         "23YQ460f" = _23YQ460f;
         "jt9JFUls" = _jt9JFUls;
-        "fabric-1.21.4" = _wgLWQeOt;
+        "zJpo5uT2" = _zJpo5uT2;
+        "MKJGgtsk" = _MKJGgtsk;
+        "wEhSPXRf" = _wEhSPXRf;
+        "oaHrC0hI" = _oaHrC0hI;
+        "TqdulQ42" = _TqdulQ42;
+        "B9bq4VKe" = _B9bq4VKe;
+        "e6isvkHX" = _e6isvkHX;
+        "CjnvGOAE" = _CjnvGOAE;
+        "fabric-1.21.4" = _B9bq4VKe;
         "fabric-1.21.11" = _wgLWQeOt;
-        "fabric-1.21.8" = _wgLWQeOt;
+        "fabric-1.21.8" = _e6isvkHX;
         "fabric-1.20.2" = _23YQ460f;
         "fabric-1.21.10" = _wgLWQeOt;
         "fabric-1.21.9" = _wgLWQeOt;
         "fabric-1.16.5" = _jaGhYMiV;
-        "fabric-1.21" = _wgLWQeOt;
-        "fabric-1.21.1" = _wgLWQeOt;
-        "fabric-1.21.2" = _wgLWQeOt;
-        "fabric-1.21.3" = _wgLWQeOt;
-        "fabric-1.21.5" = _wgLWQeOt;
-        "fabric-1.21.6" = _wgLWQeOt;
-        "fabric-1.21.7" = _wgLWQeOt;
+        "fabric-1.21" = _CjnvGOAE;
+        "fabric-1.21.1" = _CjnvGOAE;
+        "fabric-1.21.2" = _TqdulQ42;
+        "fabric-1.21.3" = _TqdulQ42;
+        "fabric-1.21.5" = _B9bq4VKe;
+        "fabric-1.21.6" = _e6isvkHX;
+        "fabric-1.21.7" = _e6isvkHX;
         "fabric-1.20" = _23YQ460f;
         "fabric-1.20.1" = _jt9JFUls;
         "fabric-1.20.3" = _23YQ460f;
         "fabric-1.20.4" = _23YQ460f;
         "fabric-1.20.5" = _23YQ460f;
         "fabric-1.20.6" = _23YQ460f;
+        "fabric-26.3" = _zJpo5uT2;
+        "fabric-26.2" = _MKJGgtsk;
+        "fabric-26.1.2" = _oaHrC0hI;
+        "fabric-26.1" = _oaHrC0hI;
+        "fabric-26.1.1" = _oaHrC0hI;
         "forge-1.16.5" = _tmOUvUxE;
-        "pkg-1.21.4-fabric" = _FePQKG3b;
+        "pkg-1.21.4-fabric" = _B9bq4VKe;
         "pkg-1.21.11-fabric" = _nTaeLUmx;
-        "pkg-1.21.8-fabric" = _YZHY6ZcM;
+        "pkg-1.21.8-fabric" = _e6isvkHX;
         "pkg-1.20.2" = _OQMydcxC;
         "pkg-1.21.10-fabric" = _cYkey3xq;
         "pkg-1.21.9-fabric" = _JGIqSyDJ;
         "pkg-1.16.5" = _jaGhYMiV;
         "pkg-1.16.5-forge" = _tmOUvUxE;
-        "pkg-1.21-fabric" = _wgLWQeOt;
+        "pkg-1.21-fabric" = _CjnvGOAE;
         "pkg-1.20-fabric" = _23YQ460f;
         "pkg-1.20.1-fabric" = _jt9JFUls;
-        "default" = _jt9JFUls;
+        "pkg-26.3-fabric" = _zJpo5uT2;
+        "pkg-26.2-fabric" = _MKJGgtsk;
+        "pkg-26.1-fabric" = _oaHrC0hI;
+        "pkg-1.21.2-fabric" = _TqdulQ42;
+        "default" = _CjnvGOAE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zakohealthindicator";

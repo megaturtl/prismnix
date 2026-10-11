@@ -86,6 +86,56 @@ let
             "file" = "fishingrodfix-26.3-v0.5.jar";
             "hash" = "sha512-2RJMvPU2+51/arpOUeYNTGARnmISMrvTBMOIo0ufMLdszkKgwjdrQqN58pMCBRqFBXF3KN6SIBDGGcraow/f9g==";
         };
+        _fwurPmsi = {
+            "id" = "fwurPmsi";
+            "file" = "fishingrodfix-1.20-1.20.1-v0.6.jar";
+            "hash" = "sha512-yXWFIXcZRIe27QW/V2V+XJOrv7B+vx+sZR4yO6tm1gZoeQYjiq/XWOK8PgEklUv++sv+En6mEYdO4PK5Bvgdvg==";
+        };
+        _hSoKK9aG = {
+            "id" = "hSoKK9aG";
+            "file" = "fishingrodfix-1.21-1.21.1-v0.6.jar";
+            "hash" = "sha512-c1ITnCATqFmVAHTNZk4gLLAotj0m8b/7x93BfJuQ3U+p675A4Yhcq8jLOLkTfMcjE2ySSDx9mc+ku+8TbeydmA==";
+        };
+        _OfMlDeDR = {
+            "id" = "OfMlDeDR";
+            "file" = "fishingrodfix-1.21.4-v0.6.jar";
+            "hash" = "sha512-ZfkkStAHFzkY4no2ip0moQFumSrnwVDNidH/sDKcf996ylMJ4LtfTboJ+GStc7V1nka2COJS7TRXT82eemfI7g==";
+        };
+        _EYrh4oy2 = {
+            "id" = "EYrh4oy2";
+            "file" = "fishingrodfix-1.21.5-v0.6.jar";
+            "hash" = "sha512-dwDESiktQbtJTX52zj4gZZ9gti9Ltn8JuGTa4qu++8eyyvKON8gj/qucQNcSXpvOC0+pXxs3eaN/h0Vot37WYA==";
+        };
+        _omupGU3i = {
+            "id" = "omupGU3i";
+            "file" = "fishingrodfix-1.21.6-1.21.8-v0.6.jar";
+            "hash" = "sha512-4FQ5nP0STnBk2xINhnlAJlDBuU74Nn1a3SmkzcH6veV3S6Ehs9Bbg2RHRFzhLNWug8lqgixKDwkvP2RtLXDpOw==";
+        };
+        _LiMy9uZl = {
+            "id" = "LiMy9uZl";
+            "file" = "fishingrodfix-1.21.9-1.21.10-v0.6.jar";
+            "hash" = "sha512-mLPmc7nTUfpAs3T2qCE75hM5qrEAxgvXzKnSm9Xq3znylUNqThtPBkSYqZa46xwAas1sZeJnYFDqONJoRc1igQ==";
+        };
+        _J2hpVhgc = {
+            "id" = "J2hpVhgc";
+            "file" = "fishingrodfix-1.21.11-v0.6.jar";
+            "hash" = "sha512-rv2cKyop8oxgtz9N2txE7B9l0FR4s5B5BApi15PsRIREhjKBG+pz7At3NM8FHHdrRa10IHc/1ILQdwdAi3AYgg==";
+        };
+        _52WVYg8R = {
+            "id" = "52WVYg8R";
+            "file" = "fishingrodfix-26.1-26.1.2-v0.6.jar";
+            "hash" = "sha512-V6CrHFVnAi6AKP4vKp7KYZv1RnvCjzNdkRdImeyyVyvNYDApqDVN1eEBfXjJ+VWXlcNQgQVxv1fZTmgJYlA/BQ==";
+        };
+        _yUcEGVeY = {
+            "id" = "yUcEGVeY";
+            "file" = "fishingrodfix-26.2-v0.6.jar";
+            "hash" = "sha512-UVXjxWWg4IB3F5Eom2IhonEqD0J7bUu9jDjsLgzMW0k/VgiUgXd9SUiavmEsJZBENfp6HBQqNT9a5WULTh4aEA==";
+        };
+        _tBPcVWlJ = {
+            "id" = "tBPcVWlJ";
+            "file" = "fishingrodfix-26.3-v0.6.jar";
+            "hash" = "sha512-qh7WAq1kcSnIYgxjwAdsLTp6Ce9ViIjDokMpzP7xXtTHchoRp5fFMAhAuu9A91L/P+XS+Izb2ZxjwlhGOTnG1w==";
+        };
     in {
         "1BqHHrXH" = _1BqHHrXH;
         "yAoHjRQa" = _yAoHjRQa;
@@ -104,9 +154,19 @@ let
         "swI4n1pQ" = _swI4n1pQ;
         "V66NDoho" = _V66NDoho;
         "lUbeEytd" = _lUbeEytd;
+        "fwurPmsi" = _fwurPmsi;
+        "hSoKK9aG" = _hSoKK9aG;
+        "OfMlDeDR" = _OfMlDeDR;
+        "EYrh4oy2" = _EYrh4oy2;
+        "omupGU3i" = _omupGU3i;
+        "LiMy9uZl" = _LiMy9uZl;
+        "J2hpVhgc" = _J2hpVhgc;
+        "52WVYg8R" = _52WVYg8R;
+        "yUcEGVeY" = _yUcEGVeY;
+        "tBPcVWlJ" = _tBPcVWlJ;
         "fabric-1.20.4" = _nzUh15zi;
-        "fabric-1.20" = _nzUh15zi;
-        "fabric-1.20.1" = _nzUh15zi;
+        "fabric-1.20" = _fwurPmsi;
+        "fabric-1.20.1" = _fwurPmsi;
         "fabric-1.20.2" = _nzUh15zi;
         "fabric-1.20.3" = _nzUh15zi;
         "fabric-1.19" = _jSNv8qcV;
@@ -116,15 +176,22 @@ let
         "fabric-1.19.4" = _heOBsnHV;
         "fabric-1.20.5" = _JaMF5C7O;
         "fabric-1.20.6" = _JaMF5C7O;
-        "fabric-1.21" = _pIB8vjFW;
-        "fabric-1.21.1" = _pIB8vjFW;
+        "fabric-1.21" = _hSoKK9aG;
+        "fabric-1.21.1" = _hSoKK9aG;
         "fabric-1.21.3" = _FLrgGJyS;
-        "fabric-1.21.4" = _A6cenx2B;
-        "fabric-1.21.5" = _KAY8R3qo;
-        "fabric-1.21.11" = _mo8HTTRV;
-        "fabric-26.1.2" = _swI4n1pQ;
-        "fabric-26.2" = _V66NDoho;
-        "fabric-26.3" = _lUbeEytd;
+        "fabric-1.21.4" = _OfMlDeDR;
+        "fabric-1.21.5" = _EYrh4oy2;
+        "fabric-1.21.11" = _J2hpVhgc;
+        "fabric-26.1.2" = _52WVYg8R;
+        "fabric-26.2" = _yUcEGVeY;
+        "fabric-26.3" = _tBPcVWlJ;
+        "fabric-1.21.6" = _omupGU3i;
+        "fabric-1.21.7" = _omupGU3i;
+        "fabric-1.21.8" = _omupGU3i;
+        "fabric-1.21.9" = _LiMy9uZl;
+        "fabric-1.21.10" = _LiMy9uZl;
+        "fabric-26.1" = _52WVYg8R;
+        "fabric-26.1.1" = _52WVYg8R;
         "pkg-0.3" = _1BqHHrXH;
         "pkg-1.20.4-0.3" = _yAoHjRQa;
         "pkg-1.19-0.3" = _jSNv8qcV;
@@ -142,7 +209,17 @@ let
         "pkg-26.1.2-v0.5" = _swI4n1pQ;
         "pkg-26.2-v0.5" = _V66NDoho;
         "pkg-26.3-v0.5" = _lUbeEytd;
-        "default" = _lUbeEytd;
+        "pkg-1.20-1.20.1-v0.6" = _fwurPmsi;
+        "pkg-1.21-1.21.1-v0.6" = _hSoKK9aG;
+        "pkg-1.21.4-v0.6" = _OfMlDeDR;
+        "pkg-1.21.5-v0.6" = _EYrh4oy2;
+        "pkg-1.21.6-1.21.8-v0.6" = _omupGU3i;
+        "pkg-1.21.9-1.21.10-v0.6" = _LiMy9uZl;
+        "pkg-1.21.11-v0.6" = _J2hpVhgc;
+        "pkg-26.1-26.1.2-v0.6" = _52WVYg8R;
+        "pkg-26.2-v0.6" = _yUcEGVeY;
+        "pkg-26.3-v0.6" = _tBPcVWlJ;
+        "default" = _tBPcVWlJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fishing-rod-fix";

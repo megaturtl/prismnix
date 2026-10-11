@@ -126,6 +126,21 @@ let
             "file" = "animalgarden_sugarglider-1.0.2-fabric-0.92.9.jar";
             "hash" = "sha512-pasILZll20Q3MmZ9tdr4PVqVzdpgaHm/G40YsewB+TJ6I4PUWU/eUrpDxE9K32vmag0jN8AFkESwhFAJ5E1Baw==";
         };
+        _JEUUdrHN = {
+            "id" = "JEUUdrHN";
+            "file" = "animalgarden-sugarglider-1.0.2-fabric-26.3-0.161.0.jar";
+            "hash" = "sha512-T5KQQswzxF0tdBnEnXDaA20qDdCsUzO8biS0wgyhy23kUcgj9388UXwYieqnjejABR156ODcGb1YcEeL/k0oOQ==";
+        };
+        _Q2XSxE7Q = {
+            "id" = "Q2XSxE7Q";
+            "file" = "animalgarden-sugarglider-1.0.2-neoforge-26.3.0.7.jar";
+            "hash" = "sha512-viF9eQtrP4jC+zQlQyGdU1kZnstT0dJYl9h6RYclvr8/8+lqBdxi4YuVfpJ4/QYHwCtkXaPgxQdt++2oL7xKDA==";
+        };
+        _1G9LLhaU = {
+            "id" = "1G9LLhaU";
+            "file" = "animalgarden-sugarglider-1.0.2-forge-26.3-66.0.2.jar";
+            "hash" = "sha512-YFsGb3lnKl7k5AbV60hI7GuUW019nsoFG/XQaIxu22PP57ps7XcGWTStDnCT/+ecGcBpJhQcvQhLumR7W1BrBg==";
+        };
     in {
         "KCswXxFv" = _KCswXxFv;
         "nJWHf6d3" = _nJWHf6d3;
@@ -152,6 +167,9 @@ let
         "SSxQ7TMe" = _SSxQ7TMe;
         "Jf6fm2IJ" = _Jf6fm2IJ;
         "eCuXYuGi" = _eCuXYuGi;
+        "JEUUdrHN" = _JEUUdrHN;
+        "Q2XSxE7Q" = _Q2XSxE7Q;
+        "1G9LLhaU" = _1G9LLhaU;
         "forge-1.20.1" = _KCswXxFv;
         "forge-1.21.1" = _S3Tc4s12;
         "forge-1.21.4" = _iuundVfq;
@@ -165,6 +183,7 @@ let
         "forge-26.1.1" = _2v24PY7y;
         "forge-26.1.2" = _2v24PY7y;
         "forge-26.2" = _2v24PY7y;
+        "forge-26.3" = _1G9LLhaU;
         "fabric-1.21.1" = _Jf6fm2IJ;
         "fabric-1.21.4" = _gu27WekJ;
         "fabric-1.21.6" = _DbUpXk4I;
@@ -179,6 +198,7 @@ let
         "fabric-26.1.2" = _SSxQ7TMe;
         "fabric-26.2" = _SSxQ7TMe;
         "fabric-1.20.1" = _eCuXYuGi;
+        "fabric-26.3" = _JEUUdrHN;
         "neoforge-1.21.1" = _uHLwVY2K;
         "neoforge-1.21.4" = _MAIlh8un;
         "neoforge-1.21.6" = _TuCFia5A;
@@ -191,6 +211,7 @@ let
         "neoforge-26.1.1" = _R59pT2j3;
         "neoforge-26.1.2" = _R59pT2j3;
         "neoforge-26.2" = _R59pT2j3;
+        "neoforge-26.3" = _Q2XSxE7Q;
         "pkg-1.0.0-forge-1.20.1-47.4.10" = _KCswXxFv;
         "pkg-1.0.0-fabric-1.21.1-0.116.7" = _nJWHf6d3;
         "pkg-1.0.0-forge-1.21.1-52.1.5" = _S3Tc4s12;
@@ -216,7 +237,10 @@ let
         "pkg-1.0.2-fabric-26.2-0.152.2" = _SSxQ7TMe;
         "pkg-1.0.2-fabric-1.21.1-0.116.7" = _Jf6fm2IJ;
         "pkg-1.0.2-fabric-1.20.1-0.92.9" = _eCuXYuGi;
-        "default" = _eCuXYuGi;
+        "pkg-1.0.2-fabric-26.3-0.161.0" = _JEUUdrHN;
+        "pkg-1.0.2-neoforge-26.3.0.7" = _Q2XSxE7Q;
+        "pkg-1.0.2-forge-26.3-66.0.2" = _1G9LLhaU;
+        "default" = _1G9LLhaU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "animal-garden-sugar-glider";

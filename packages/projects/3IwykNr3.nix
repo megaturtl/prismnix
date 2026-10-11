@@ -71,6 +71,11 @@ let
             "file" = "better_hypixel_chat-0.3.2+26.2.jar";
             "hash" = "sha512-XvI15vMvDeiOWqJPem2si9xgb/CZW4DATWNGw3+tXbT8umXj1opmRwkAHxQaF2JAwT8TOaK4ZWSy3VFD7YD2kw==";
         };
+        _tl7d4Fgt = {
+            "id" = "tl7d4Fgt";
+            "file" = "better_hypixel_chat-0.3.3+26.3.jar";
+            "hash" = "sha512-Qc/tM5+sS/kGjdFHknXfJ4ivdbaoPIhw0M5z3CFkIuXykDKP/thaf0iiKpkC2n2Ar3V81XUHGHMIg5wRyzGB+g==";
+        };
     in {
         "7YaRhmve" = _7YaRhmve;
         "cBvjnBLZ" = _cBvjnBLZ;
@@ -86,6 +91,7 @@ let
         "JRiedoWd" = _JRiedoWd;
         "fAMwvAZA" = _fAMwvAZA;
         "ZTUBZW1n" = _ZTUBZW1n;
+        "tl7d4Fgt" = _tl7d4Fgt;
         "fabric-1.21.5" = _WO2xD14f;
         "fabric-1.21.6" = _fi1QAgTo;
         "fabric-1.21.7" = _fi1QAgTo;
@@ -97,13 +103,15 @@ let
         "fabric-26.1.1" = _fAMwvAZA;
         "fabric-26.1.2" = _fAMwvAZA;
         "fabric-26.2" = _ZTUBZW1n;
+        "fabric-26.3" = _tl7d4Fgt;
         "pkg-0.1.1" = _x8sXtK3a;
         "pkg-0.2.0" = _AQolQrK2;
         "pkg-0.2.1" = _5gZJqjaN;
         "pkg-0.3.0" = _RYmQJEe2;
         "pkg-0.3.1" = _fAMwvAZA;
         "pkg-0.3.2" = _ZTUBZW1n;
-        "default" = _ZTUBZW1n;
+        "pkg-0.3.3" = _tl7d4Fgt;
+        "default" = _tl7d4Fgt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-hypixel-chat";

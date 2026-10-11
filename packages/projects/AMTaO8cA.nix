@@ -41,6 +41,26 @@ let
             "file" = "elytraslot-fabric-26.2-3.0.0.jar";
             "hash" = "sha512-19Fb8p5ZfWtNFtF3LGnnhmpaywzXkTJ8Lllv3H0cChLCgIdVBv2CHZOqP2/3rb/c3bOImeGcwdAXhTqR0d1Nxw==";
         };
+        _BGqwKAmU = {
+            "id" = "BGqwKAmU";
+            "file" = "elytraslot-fabric-26.3-3.1.0.jar";
+            "hash" = "sha512-i26GX/U4WUvl+Hg/cQrnla8jIYE7Lb99O4/og6RUKMcXmqb6B5y8SuQ3nkDVVfCstd80eNmeZ6QKRnDRsDglzw==";
+        };
+        _zUg2kPnu = {
+            "id" = "zUg2kPnu";
+            "file" = "elytraslot-forge-26.3-3.1.0.jar";
+            "hash" = "sha512-Ve+dbQPGO67rTkZ7KWzYu48GTYX2/yKJxob6K34wM7C/rU/hI19AKQklgUyWlNgytN35Z25KOpWv17aNORqm4A==";
+        };
+        _181uIBQX = {
+            "id" = "181uIBQX";
+            "file" = "elytraslot-neoforge-26.3-3.1.0.jar";
+            "hash" = "sha512-EtNsexEDYvFGc/eSufG7tmOCQXRYFq6+c2c8RiLQI99HabMR/mChny6JetFs6KHXznghJpq5WcZEPVLyqkwbJg==";
+        };
+        _N8d4tLdQ = {
+            "id" = "N8d4tLdQ";
+            "file" = "elytraslot-quilt-26.3-3.1.0.jar";
+            "hash" = "sha512-aaYu3L6AIZj8wJWj3lZjKz5V/Zj/C4v0lKf/o+sEuDPsuUFG+DGCiyUPXgOjC7ilrDtQdIjOBVrA8CcEwu5wmw==";
+        };
     in {
         "GZLmjmOX" = _GZLmjmOX;
         "Mkn9hfz3" = _Mkn9hfz3;
@@ -50,16 +70,25 @@ let
         "Zija2axF" = _Zija2axF;
         "fWibUqDz" = _fWibUqDz;
         "GtfCezN7" = _GtfCezN7;
+        "BGqwKAmU" = _BGqwKAmU;
+        "zUg2kPnu" = _zUg2kPnu;
+        "181uIBQX" = _181uIBQX;
+        "N8d4tLdQ" = _N8d4tLdQ;
         "fabric-26.1" = _hewHR3k7;
         "fabric-26.1.1" = _hewHR3k7;
         "fabric-26.1.2" = _hewHR3k7;
         "fabric-26.2" = _GtfCezN7;
+        "fabric-26.3" = _BGqwKAmU;
         "neoforge-26.1.2" = _T4jenmAG;
         "neoforge-26.2" = _fWibUqDz;
+        "neoforge-26.3" = _181uIBQX;
+        "forge-26.3" = _zUg2kPnu;
+        "quilt-26.3" = _N8d4tLdQ;
         "pkg-2.0.0" = _Mkn9hfz3;
-        "pkg-3.0.0" = _GtfCezN7;
+        "pkg-3.0.0" = _N8d4tLdQ;
         "pkg-4.0.0" = _Zija2axF;
-        "default" = _GtfCezN7;
+        "pkg-3.1.0" = _181uIBQX;
+        "default" = _N8d4tLdQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elytra-slot!";

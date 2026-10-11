@@ -106,6 +106,11 @@ let
             "file" = "trashcompactor-neoforge-1.21.11-1.0.0-rc1.jar";
             "hash" = "sha512-rnVv1GOBw7IZMwumZUZmTeKbyxlsq6Q4AVLKWo7m75xFVqrIlYXrmrpp4tljnL67BTcWG6b1UQ8e7vP4jlFofw==";
         };
+        _6Om7PYR6 = {
+            "id" = "6Om7PYR6";
+            "file" = "trashcompactor-neoforge-1.21.11-1.0.0.jar";
+            "hash" = "sha512-7FU9XLNMjoEN0L2rSRx4VLsRTSEGbEPuJ3i9VLmqmb8r4Kq3BEIHxCGEQn3xPnmg0lpBzTwrmXsMoUHk55+eNg==";
+        };
     in {
         "x3zWe73M" = _x3zWe73M;
         "vBiNyKxP" = _vBiNyKxP;
@@ -128,12 +133,13 @@ let
         "u75uqjJv" = _u75uqjJv;
         "FytqBIjI" = _FytqBIjI;
         "NydXR9B5" = _NydXR9B5;
+        "6Om7PYR6" = _6Om7PYR6;
         "forge-1.12.2" = _TxEJpVl7;
         "forge-1.16.5" = _rtPOL9Tp;
         "forge-1.18.2" = _hlmIWVmj;
         "forge-1.19.2" = _u75uqjJv;
         "forge-1.20.1" = _FytqBIjI;
-        "neoforge-1.21.11" = _NydXR9B5;
+        "neoforge-1.21.11" = _6Om7PYR6;
         "pkg-1.12.2-1.0.0-rc1" = _x3zWe73M;
         "pkg-1.16.5-1.0.0-rc1" = _vBiNyKxP;
         "pkg-1.18.2-1.0.0-rc1" = _TQ4or4YF;
@@ -155,7 +161,8 @@ let
         "pkg-1.19.2-1.0.2" = _u75uqjJv;
         "pkg-1.20.1-1.0.2" = _FytqBIjI;
         "pkg-neoforge-1.21.11-1.0.0-rc1" = _NydXR9B5;
-        "default" = _NydXR9B5;
+        "pkg-neoforge-1.21.11-1.0.0" = _6Om7PYR6;
+        "default" = _6Om7PYR6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trash-compactor";

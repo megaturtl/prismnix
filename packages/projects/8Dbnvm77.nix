@@ -196,6 +196,46 @@ let
             "file" = "dungeons-and-taverns-nether-fortress-overhaul-2.5.1.jar";
             "hash" = "sha512-YQeojACHzPOkjAigdI9wji/2W0l+ANN49zyFqAXyPlWY0HcXzcko49wGVnpOaXlsMa0XjrAip4ZApxG5cgGNRg==";
         };
+        _Dh07jDaR = {
+            "id" = "Dh07jDaR";
+            "file" = "DnT Nether Fortress Overhaul v3.2.zip";
+            "hash" = "sha512-Sv9FwRHbv6RcKkV2fSotgqfZQZ18oUlvSvDvegUnAVfiBfK9m30N3C/sXxRvtGvoIzNOvP3kGvdOcmdcFddJ+Q==";
+        };
+        _L2OGg1j3 = {
+            "id" = "L2OGg1j3";
+            "file" = "dungeons-and-taverns-nether-fortress-overhaul-3.2.jar";
+            "hash" = "sha512-9k45TW3SjlaXuGXSwqc1U4+FhRciDghnaN5riGQwzEL66TEc49kGfrIbYCMJZOSbkLw1Jywm1IlNoitwiCmxBg==";
+        };
+        _XLLuAXoT = {
+            "id" = "XLLuAXoT";
+            "file" = "dungeons-and-taverns-nether-fortress-overhaul-3.2.jar";
+            "hash" = "sha512-OuwVslZodx5JtHyd9x0jOiVzyOUSCQ026iZvw6D3kr67dNsLfPSQ3hyjx1ZUa+4d3VZSl/1F6uoIn4FwTl9xiQ==";
+        };
+        _uhqz7I1m = {
+            "id" = "uhqz7I1m";
+            "file" = "dungeons-and-taverns-nether-fortress-overhaul-3.2.jar";
+            "hash" = "sha512-lu867nJ5Yc9X0Dc1xMuDqy8qcmNo82ASATFFclcKpVXWlyoL7tmeIUREOorXzimLuINIWZRSwR4oSEat2HCrKg==";
+        };
+        _bzBC5QML = {
+            "id" = "bzBC5QML";
+            "file" = "DnT Nether Fortress Overhaul 3.2.1.zip";
+            "hash" = "sha512-dsZvnSkjDvSTGepXIyNPF9br0L9+r2Es9nx/9yfQFAzNEOaIFPr1Ml1q1Kw7sZwIlVqwgE61J1g91c1fvoz8gA==";
+        };
+        _IxUX6U93 = {
+            "id" = "IxUX6U93";
+            "file" = "dungeons-and-taverns-nether-fortress-overhaul-3.2.1.jar";
+            "hash" = "sha512-R4G1ofTihDH1eWrgciI7HdL324l4oWEkVSTaj+6jIyI+ArliCdOXJFx12Jk26k98wQyCtizAFYm0FDy6nBFylQ==";
+        };
+        _o2sPPfYy = {
+            "id" = "o2sPPfYy";
+            "file" = "dungeons-and-taverns-nether-fortress-overhaul-3.2.1.jar";
+            "hash" = "sha512-PgAyL2xUzhJu0+mN70iL1cArkzIGvJTE5MzEXDGOhohXHicOYJ6ebmeqJ8PtqeuVCMcR8QGDCi7JeN9EIS4h/g==";
+        };
+        _AJfPtfhp = {
+            "id" = "AJfPtfhp";
+            "file" = "dungeons-and-taverns-nether-fortress-overhaul-3.2.1.jar";
+            "hash" = "sha512-0XP70QXOek4HEwgVU26ufeffihQ+rzFxopy56Tb6FyzPNn8W/r4WEbtSYJ+oXXy0e3nvISAvQeSidKR24G9H6g==";
+        };
     in {
         "rp3UFqsZ" = _rp3UFqsZ;
         "MQKLLmDw" = _MQKLLmDw;
@@ -236,6 +276,14 @@ let
         "ooR7FXPt" = _ooR7FXPt;
         "REhn4mDn" = _REhn4mDn;
         "wPHfM23W" = _wPHfM23W;
+        "Dh07jDaR" = _Dh07jDaR;
+        "L2OGg1j3" = _L2OGg1j3;
+        "XLLuAXoT" = _XLLuAXoT;
+        "uhqz7I1m" = _uhqz7I1m;
+        "bzBC5QML" = _bzBC5QML;
+        "IxUX6U93" = _IxUX6U93;
+        "o2sPPfYy" = _o2sPPfYy;
+        "AJfPtfhp" = _AJfPtfhp;
         "datapack-1.21" = _5s2dO9Bi;
         "datapack-1.21.1" = _5s2dO9Bi;
         "datapack-1.21.4" = _igc2hlqx;
@@ -252,6 +300,7 @@ let
         "datapack-26.2" = _3u94EXVg;
         "datapack-1.21.2" = _5s2dO9Bi;
         "datapack-1.21.3" = _5s2dO9Bi;
+        "datapack-26.3" = _bzBC5QML;
         "fabric-1.21" = _ooR7FXPt;
         "fabric-1.21.1" = _ooR7FXPt;
         "fabric-1.21.4" = _2RoTZo1S;
@@ -268,6 +317,7 @@ let
         "fabric-26.2" = _3TBxftsp;
         "fabric-1.21.2" = _ooR7FXPt;
         "fabric-1.21.3" = _ooR7FXPt;
+        "fabric-26.3" = _IxUX6U93;
         "forge-1.21" = _REhn4mDn;
         "forge-1.21.1" = _REhn4mDn;
         "forge-1.21.4" = _uMLQsOA8;
@@ -284,6 +334,7 @@ let
         "forge-26.2" = _1ZVDxAuZ;
         "forge-1.21.2" = _REhn4mDn;
         "forge-1.21.3" = _REhn4mDn;
+        "forge-26.3" = _o2sPPfYy;
         "neoforge-1.21" = _wPHfM23W;
         "neoforge-1.21.1" = _wPHfM23W;
         "neoforge-1.21.4" = _6NeBTm89;
@@ -300,6 +351,7 @@ let
         "neoforge-26.2" = _oRtwS6Q8;
         "neoforge-1.21.2" = _wPHfM23W;
         "neoforge-1.21.3" = _wPHfM23W;
+        "neoforge-26.3" = _AJfPtfhp;
         "pkg-v2" = _rp3UFqsZ;
         "pkg-v2+mod" = _d9Cenm2v;
         "pkg-v2.1" = _ddp0A8Gf;
@@ -320,7 +372,11 @@ let
         "pkg-v3.1+mod" = _1ZVDxAuZ;
         "pkg-2.5.1" = _5s2dO9Bi;
         "pkg-2.5.1+mod" = _wPHfM23W;
-        "default" = _wPHfM23W;
+        "pkg-3.2" = _Dh07jDaR;
+        "pkg-3.2+mod" = _uhqz7I1m;
+        "pkg-3.2.1" = _bzBC5QML;
+        "pkg-3.2.1+mod" = _AJfPtfhp;
+        "default" = _AJfPtfhp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dungeons-and-taverns-nether-fortress-overhaul";

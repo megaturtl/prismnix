@@ -81,6 +81,31 @@ let
             "file" = "ametrin-26.2-1.1.0.jar";
             "hash" = "sha512-CG8uRqDRnB4M2WzOW2qOeBo+YNdddtnE4HS/nVeZlxXdJ6pCIr9GrrPACPQgbjXO5IDSPQ8tmJNEh5bxNNWRXw==";
         };
+        _FiPuoszF = {
+            "id" = "FiPuoszF";
+            "file" = "ametrin-26.3-1.2.0.jar";
+            "hash" = "sha512-kJewov2s+en3/NJBOsgf5q2hdeSd3xw/ISEYWt0VlJu/yrUQKUpre9Q5u6oJ07zcXAbqGpMwG/4QQmWUUv8DnA==";
+        };
+        _D2U0da51 = {
+            "id" = "D2U0da51";
+            "file" = "ametrin-26.1.2-1.2.1.jar";
+            "hash" = "sha512-pbNxcsoaQCxGxslD/gRmgPvH83RWPRTWnxrPV7p/iULmEUuOXU0NFiQ5ob2mnx/LaWManSJ0UsHUJGY51mpJVQ==";
+        };
+        _OEwb0fb9 = {
+            "id" = "OEwb0fb9";
+            "file" = "ametrin-26.3-1.2.1.jar";
+            "hash" = "sha512-TMUfpcVYUfbOKA7DpSiLmshOkxOuR76yM++1tdP8EdZRItivFBjbaku0LvKwN5raEVo1ZvkgbAOg3aCp+glDiw==";
+        };
+        _XYcd8a6g = {
+            "id" = "XYcd8a6g";
+            "file" = "ametrin-26.1.2-1.2.2.jar";
+            "hash" = "sha512-96u6Td9wZ6kLZZXZrYeU/RvjwOXJksOrvWrN+2xRtMYUJj4SUmx03YriB8mS7lnHV/4ni5dUtsWP6MWUFhGWtw==";
+        };
+        _QSUzNvPN = {
+            "id" = "QSUzNvPN";
+            "file" = "ametrin-26.3-1.2.2.jar";
+            "hash" = "sha512-WuN7JYbAEU001DSOyb0CpAv0r9B++EUgf5A6q2YzaiJY4iBa+fkRjKZQaT1c07px6T3TGU2dZT3FkJ+nvz6LzA==";
+        };
     in {
         "Ju2g4Maf" = _Ju2g4Maf;
         "zlvBtCOU" = _zlvBtCOU;
@@ -98,6 +123,11 @@ let
         "GGQb6WFr" = _GGQb6WFr;
         "hhxzuvXN" = _hhxzuvXN;
         "ihQrD3gE" = _ihQrD3gE;
+        "FiPuoszF" = _FiPuoszF;
+        "D2U0da51" = _D2U0da51;
+        "OEwb0fb9" = _OEwb0fb9;
+        "XYcd8a6g" = _XYcd8a6g;
+        "QSUzNvPN" = _QSUzNvPN;
         "forge-1.19.4" = _Ju2g4Maf;
         "forge-1.20.4" = _zgC1QfeM;
         "neoforge-1.20.4" = _zlvBtCOU;
@@ -114,8 +144,9 @@ let
         "neoforge-1.21.11" = _2ZiBxuiv;
         "neoforge-26.1" = _GGQb6WFr;
         "neoforge-26.1.1" = _hhxzuvXN;
-        "neoforge-26.1.2" = _hhxzuvXN;
+        "neoforge-26.1.2" = _XYcd8a6g;
         "neoforge-26.2" = _ihQrD3gE;
+        "neoforge-26.3" = _QSUzNvPN;
         "pkg-0.0.39" = _Ju2g4Maf;
         "pkg-0.1.8" = _zlvBtCOU;
         "pkg-0.1.6" = _zgC1QfeM;
@@ -130,7 +161,10 @@ let
         "pkg-1.0.0" = _GGQb6WFr;
         "pkg-1.0.1" = _hhxzuvXN;
         "pkg-1.1.0" = _ihQrD3gE;
-        "default" = _ihQrD3gE;
+        "pkg-1.2.0" = _FiPuoszF;
+        "pkg-1.2.1" = _OEwb0fb9;
+        "pkg-1.2.2" = _QSUzNvPN;
+        "default" = _QSUzNvPN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ametrin";

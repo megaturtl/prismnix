@@ -141,6 +141,11 @@ let
             "file" = "discarpet-26.2-1.7.6.jar";
             "hash" = "sha512-WzQeXxoVt+vWXvCSBHtNJF90X+wHiPXOiIhP3QggddwwhWKGVWugSRUO6Lcinx+jqTwRTGAVqGhLHM8/t66d6A==";
         };
+        _pu7r2ug0 = {
+            "id" = "pu7r2ug0";
+            "file" = "discarpet-26.3-1.7.7.jar";
+            "hash" = "sha512-xxjfw0xH2HQV4CSizrNoi53cnO19p5qoebkwIMdgJgtK1GmiNgVnKNhEX9V0CPPGYExkvvuskHVN88EQEN1yrA==";
+        };
     in {
         "U00617fG" = _U00617fG;
         "wSScUkBd" = _wSScUkBd;
@@ -170,6 +175,7 @@ let
         "JqXxwJch" = _JqXxwJch;
         "EiZL2zpS" = _EiZL2zpS;
         "O3Oh2J9q" = _O3Oh2J9q;
+        "pu7r2ug0" = _pu7r2ug0;
         "fabric-1.17" = _U00617fG;
         "fabric-1.18" = _U00617fG;
         "fabric-1.18.1" = _U00617fG;
@@ -200,7 +206,8 @@ let
         "fabric-26.1" = _EiZL2zpS;
         "fabric-26.1.1" = _EiZL2zpS;
         "fabric-26.1.2" = _EiZL2zpS;
-        "fabric-26.2" = _O3Oh2J9q;
+        "fabric-26.2" = _pu7r2ug0;
+        "fabric-26.3" = _pu7r2ug0;
         "pkg-1.3.2" = _U00617fG;
         "pkg-1.4.0" = _wSScUkBd;
         "pkg-1.4.1" = _TiFjwfek;
@@ -228,7 +235,8 @@ let
         "pkg-1.7.4" = _JqXxwJch;
         "pkg-1.7.5" = _EiZL2zpS;
         "pkg-1.7.6" = _O3Oh2J9q;
-        "default" = _O3Oh2J9q;
+        "pkg-1.7.7" = _pu7r2ug0;
+        "default" = _pu7r2ug0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "discarpet";

@@ -116,6 +116,11 @@ let
             "file" = "perspectivenametag-neoforge-1.2.0+26.2.jar";
             "hash" = "sha512-MSqHecWNa9T9yWmT2AchT52I9NkjCQcueVtmHxWPZKykejuP8+dmO1PWED6aG5Af9Aid0Wd3NN+XXPSr0m6nsQ==";
         };
+        _mGABIcMG = {
+            "id" = "mGABIcMG";
+            "file" = "perspectivenametag-neoforge-1.2.0+1.21.2.jar";
+            "hash" = "sha512-piyXKY9hYgoQ9TmQ04NVkXA1dYElzQJUGnhI+egb5BJ5VuqlrRTJqC7ZSIe7V8qlmdpZQRY3BpavBUKQFp0PIw==";
+        };
     in {
         "HT5r8dq7" = _HT5r8dq7;
         "6I1c2idI" = _6I1c2idI;
@@ -140,6 +145,7 @@ let
         "UApkuDux" = _UApkuDux;
         "9YQZYuDp" = _9YQZYuDp;
         "DEpyT4Tg" = _DEpyT4Tg;
+        "mGABIcMG" = _mGABIcMG;
         "fabric-1.15" = _465BKiDV;
         "fabric-1.15.1" = _465BKiDV;
         "fabric-1.15.2" = _465BKiDV;
@@ -324,6 +330,16 @@ let
         "neoforge-26.1.2" = _Mk3AARoM;
         "neoforge-1.21.1" = _kOKGeNN4;
         "neoforge-26.2" = _DEpyT4Tg;
+        "neoforge-1.21.2" = _mGABIcMG;
+        "neoforge-1.21.3" = _mGABIcMG;
+        "neoforge-1.21.4" = _mGABIcMG;
+        "neoforge-1.21.5" = _mGABIcMG;
+        "neoforge-1.21.6" = _mGABIcMG;
+        "neoforge-1.21.7" = _mGABIcMG;
+        "neoforge-1.21.8" = _mGABIcMG;
+        "neoforge-1.21.9" = _mGABIcMG;
+        "neoforge-1.21.10" = _mGABIcMG;
+        "neoforge-1.21.11" = _mGABIcMG;
         "legacy-fabric-1.7.2" = _2zPYpISn;
         "legacy-fabric-1.7.3" = _2zPYpISn;
         "legacy-fabric-1.7.4" = _2zPYpISn;
@@ -409,7 +425,8 @@ let
         "pkg-fabric-1.2.0+26.2" = _UApkuDux;
         "pkg-forge-1.2.0+26.2" = _9YQZYuDp;
         "pkg-neoforge-1.2.0+26.2" = _DEpyT4Tg;
-        "default" = _DEpyT4Tg;
+        "pkg-neoforge-1.2.0+1.21.2" = _mGABIcMG;
+        "default" = _mGABIcMG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "perspectivenametag";

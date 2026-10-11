@@ -231,6 +231,16 @@ let
             "file" = "hopobettermineshaft-26-2-1-3-7.zip";
             "hash" = "sha512-kL1m5IWQKk/d8T2SX6LG3c9pjp2Ue9Me18OU0pGszMzreSjWuIW+yK8mtaTMUgAz68eCkfxykfZdx7vnn03C1w==";
         };
+        _avIdkeZp = {
+            "id" = "avIdkeZp";
+            "file" = "HopoBetterMineshaft-[26.3]-1.3.8.jar";
+            "hash" = "sha512-iktdeafAXvaZDXzAi+4MHFN/+AoTAKMP/DCo5VgKQBd8cbOI82voA0YYE+2bhF0ayFlp2lA38tdml1RCpdyiDg==";
+        };
+        _iybK68CI = {
+            "id" = "iybK68CI";
+            "file" = "hopobettermineshaft-26-3-1-3-8.zip";
+            "hash" = "sha512-iktdeafAXvaZDXzAi+4MHFN/+AoTAKMP/DCo5VgKQBd8cbOI82voA0YYE+2bhF0ayFlp2lA38tdml1RCpdyiDg==";
+        };
     in {
         "qqYh9Klz" = _qqYh9Klz;
         "ixZgiCkQ" = _ixZgiCkQ;
@@ -278,6 +288,8 @@ let
         "oxJRGhVM" = _oxJRGhVM;
         "N5xm7QNb" = _N5xm7QNb;
         "P9JbQ2K3" = _P9JbQ2K3;
+        "avIdkeZp" = _avIdkeZp;
+        "iybK68CI" = _iybK68CI;
         "datapack-1.18.2" = _jlLpOyJ3;
         "datapack-1.19" = _K0cc7B6E;
         "datapack-1.19.1" = _K0cc7B6E;
@@ -307,6 +319,7 @@ let
         "datapack-26.1.1" = _oxJRGhVM;
         "datapack-26.1.2" = _oxJRGhVM;
         "datapack-26.2" = _P9JbQ2K3;
+        "datapack-26.3" = _iybK68CI;
         "fabric-1.18.2" = _f3wyxWWg;
         "fabric-1.19" = _K0cc7B6E;
         "fabric-1.19.1" = _K0cc7B6E;
@@ -336,6 +349,7 @@ let
         "fabric-26.1.1" = _BhivhtOC;
         "fabric-26.1.2" = _BhivhtOC;
         "fabric-26.2" = _N5xm7QNb;
+        "fabric-26.3" = _avIdkeZp;
         "forge-1.18.2" = _f3wyxWWg;
         "forge-1.19" = _K0cc7B6E;
         "forge-1.19.1" = _K0cc7B6E;
@@ -365,6 +379,7 @@ let
         "forge-26.1.1" = _BhivhtOC;
         "forge-26.1.2" = _BhivhtOC;
         "forge-26.2" = _N5xm7QNb;
+        "forge-26.3" = _avIdkeZp;
         "neoforge-1.20.2" = _3PrkVJR1;
         "neoforge-1.20.3" = _3PrkVJR1;
         "neoforge-1.20.4" = _3PrkVJR1;
@@ -388,6 +403,7 @@ let
         "neoforge-26.1.1" = _BhivhtOC;
         "neoforge-26.1.2" = _BhivhtOC;
         "neoforge-26.2" = _N5xm7QNb;
+        "neoforge-26.3" = _avIdkeZp;
         "pkg-1.1.3" = _qqYh9Klz;
         "pkg-1.1.5" = _ixZgiCkQ;
         "pkg-1.1.6" = _K0cc7B6E;
@@ -431,7 +447,9 @@ let
         "pkg-1.3.6-datapack" = _oxJRGhVM;
         "pkg-1.3.7" = _N5xm7QNb;
         "pkg-1.3.7-datapack" = _P9JbQ2K3;
-        "default" = _P9JbQ2K3;
+        "pkg-1.3.8" = _avIdkeZp;
+        "pkg-1.3.8-datapack" = _iybK68CI;
+        "default" = _iybK68CI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hopo-better-mineshaft";

@@ -71,6 +71,11 @@ let
             "file" = "legendarymage-1.1.2.jar";
             "hash" = "sha512-BBMC68WIaK9t8wk6+GJcgXjRRfOfcwNX+D9ph6xItvbPFGNWn1HhSJLpF/vXkFai/LAuxer7jtQ0JHzD5W3hwA==";
         };
+        _Zj6KtEFu = {
+            "id" = "Zj6KtEFu";
+            "file" = "legendarymage-1.1.3.jar";
+            "hash" = "sha512-alVSRTZ6aooneaD7WtIXdzeYTRWvNVSoTsZArJs3E/BLpukQfUDKbLXxE+Mw22Q/MRPVY7aT1zrOF2QMD6JdBQ==";
+        };
     in {
         "d1VKMDfF" = _d1VKMDfF;
         "gnvtl7Js" = _gnvtl7Js;
@@ -86,7 +91,8 @@ let
         "JbwGyKwl" = _JbwGyKwl;
         "fAXfdYTy" = _fAXfdYTy;
         "dxIbCZfo" = _dxIbCZfo;
-        "neoforge-1.21.1" = _dxIbCZfo;
+        "Zj6KtEFu" = _Zj6KtEFu;
+        "neoforge-1.21.1" = _Zj6KtEFu;
         "pkg-1.0.0" = _d1VKMDfF;
         "pkg-1.0.1" = _gnvtl7Js;
         "pkg-1.0.2" = _i9rCtAHk;
@@ -101,7 +107,8 @@ let
         "pkg-1.1.0" = _JbwGyKwl;
         "pkg-1.1.1" = _fAXfdYTy;
         "pkg-1.1.2" = _dxIbCZfo;
-        "default" = _dxIbCZfo;
+        "pkg-1.1.3" = _Zj6KtEFu;
+        "default" = _Zj6KtEFu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "legendary-mage";

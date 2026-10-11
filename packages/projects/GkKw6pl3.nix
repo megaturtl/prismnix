@@ -196,6 +196,16 @@ let
             "file" = "MoreAvaritiaMc1.20.1-2.3fix.jar";
             "hash" = "sha512-Xp7itylZeMSXZynaVOkAopqVphm33u+h/FkZ13OjuZHND3hNfk3lVE2lLDl1W5kZC/lTc3BSHipIulLsOx1P2Q==";
         };
+        _wV6g6ti6 = {
+            "id" = "wV6g6ti6";
+            "file" = "MoreAvaritiaMc1.20.1-2.4.jar";
+            "hash" = "sha512-pnkU4zvFm4FdAeftzqMPelib17j9C3WnCgz3C9qf1ugRwSSn8k/g1LfrnuXi2WlBGpNbE9iN3NBvdGt890NavQ==";
+        };
+        _LeHOvyRc = {
+            "id" = "LeHOvyRc";
+            "file" = "MoreAvaritiaMc1.20.1-2.5.jar";
+            "hash" = "sha512-e/22qaqzlYUDkdfHc8sMqVS6NG5MuPSNeRnY2T97DfBw9igEnuptvr5CGgvKC9u1h4pAUq/zwJwPP7d8YeyKNg==";
+        };
     in {
         "uhmvzgXN" = _uhmvzgXN;
         "3rEy5o54" = _3rEy5o54;
@@ -236,10 +246,12 @@ let
         "45waRStG" = _45waRStG;
         "HNurS0c6" = _HNurS0c6;
         "z5dQANdc" = _z5dQANdc;
+        "wV6g6ti6" = _wV6g6ti6;
+        "LeHOvyRc" = _LeHOvyRc;
         "forge-1.12.2" = _VEMhWzFh;
         "forge-1.7.10" = _BtARPHoj;
         "forge-1.18.2" = _2uk7MOTv;
-        "forge-1.20.1" = _z5dQANdc;
+        "forge-1.20.1" = _LeHOvyRc;
         "neoforge-1.21" = _QrnQqiHE;
         "neoforge-1.21.1" = _8nyAAcQP;
         "pkg-0.1" = _BtARPHoj;
@@ -274,7 +286,9 @@ let
         "pkg-2.2fix2" = _45waRStG;
         "pkg-2.3" = _HNurS0c6;
         "pkg-2.3fix" = _z5dQANdc;
-        "default" = _z5dQANdc;
+        "pkg-2.4" = _wV6g6ti6;
+        "pkg-2.5" = _LeHOvyRc;
+        "default" = _LeHOvyRc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more_avaritia";

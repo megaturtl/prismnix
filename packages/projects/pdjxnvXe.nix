@@ -431,6 +431,196 @@ let
             "file" = "bedrockplus-fabric-26.1-2.0.2.jar";
             "hash" = "sha512-6yQDmORJL9qYF4MR3FANuTrnk/VVrr/5rHH+/5m2QxbK7wfzLg2TsdQYss7tSCCBTY9KulEGGLdneaQmEwEgmw==";
         };
+        _mllI4vLU = {
+            "id" = "mllI4vLU";
+            "file" = "Bedrock Plus Mod-fabric-1.21-1.8.1.jar";
+            "hash" = "sha512-2Uzt+dBWMofDJ/qgRQ6uDoiLq6oxptsLQ7a0TsgReS6JY+HvhSvkBosHmhi+dIW0OdM5fOoxORiSVjsCPLAr8Q==";
+        };
+        _8BOVu3pW = {
+            "id" = "8BOVu3pW";
+            "file" = "Bedrock Plus Mod-neoforge-1.21-1.8.1.jar";
+            "hash" = "sha512-6pzIbGmketfXwrl2T5MJEcsHWP6mvOhgQijk58YJmGl6/6El68YkUgqtk0snLIEGlfKbEcvnkXQ/lajF3Tjx5Q==";
+        };
+        _ic5Cs8PM = {
+            "id" = "ic5Cs8PM";
+            "file" = "bedrockplus-fabric-26.1-2.0.3.jar";
+            "hash" = "sha512-FTc8M7ZTsAFnlwCNVN9b3COWWfGv7E92sHkObuAdPWDVB13Ak0PPhz4WOzgANbxtpgyMXG3/Lo+ray6rnL+b8Q==";
+        };
+        _1ExpSmhy = {
+            "id" = "1ExpSmhy";
+            "file" = "bedrockplus-neoforge-26.1-2.0.3.jar";
+            "hash" = "sha512-JZP3bawCkCuCfMD5RfqOyCY4jGO9cDXxFUyOTlu8G0CkdfYmVqhNlqEC4++Ty11f+8ysXr4iZRuBHPDJ4UqXyw==";
+        };
+        _5x1lKZRh = {
+            "id" = "5x1lKZRh";
+            "file" = "bedrockplus-forge-1.21.11-1.10.1.jar";
+            "hash" = "sha512-p1n20zvaQ9XxvS9yv1z1hWYH2YHKaoeN5r7IZhNmvGqyBJdh0ln7yIQEDUoKXBGLM3O8zOeEHbned6Dy9YqLUA==";
+        };
+        _j0g1qi7w = {
+            "id" = "j0g1qi7w";
+            "file" = "bedrockplus-fabric-1.21.11-1.10.1.jar";
+            "hash" = "sha512-t7215kEcew7OaqJgWJZl7uvPnuXs/h6JqhJIg8lfpIjR6Hc1AlivJ8pHfS/I+8csLdB9/AjgNCWw8rsvdf1/FA==";
+        };
+        _jWD8CWB8 = {
+            "id" = "jWD8CWB8";
+            "file" = "bedrockplus-neoforge-1.21.11-1.10.1.jar";
+            "hash" = "sha512-Swh9wcb90qXW7zkSNGCqNNlZ0QlznhK1qb3ggw0EyHfxmhH0VepZ2Sh4NCHmYijb8zPvQLtjjHlcpn0QvtRpUA==";
+        };
+        _rrIkDxdU = {
+            "id" = "rrIkDxdU";
+            "file" = "bedrockplus-fabric-1.21.11-1.10.1.jar";
+            "hash" = "sha512-t7215kEcew7OaqJgWJZl7uvPnuXs/h6JqhJIg8lfpIjR6Hc1AlivJ8pHfS/I+8csLdB9/AjgNCWw8rsvdf1/FA==";
+        };
+        _tHDwkbiN = {
+            "id" = "tHDwkbiN";
+            "file" = "bedrockplus-neoforge-1.21.11-1.10.1.jar";
+            "hash" = "sha512-89gQW16ayLSMw6qklP/auTrTz0trmMWMNrIEHU7TEt9DCe4okTVLxm0kRxXbbosNip0/BOEQQhI32yKMGsL6Pw==";
+        };
+        _zxY2MfCc = {
+            "id" = "zxY2MfCc";
+            "file" = "bedrockplus-forge-1.21.11-1.10.1.jar";
+            "hash" = "sha512-znsAftZ4KRKIquxWA+E8l3g0YYY7SRNdCyCc4SUMslLdK66D4LgGdBPg69cNH0H/P1zCADi6QEJU+iOTQyVtJw==";
+        };
+        _pDCHzW5D = {
+            "id" = "pDCHzW5D";
+            "file" = "Bedrock Plus Mod-forge-1.21.6-1.9.2.jar";
+            "hash" = "sha512-GgDHwDEYLTShgBZgRBBI2uh7sTWIY3KWgXcB8rEHtStu4V59eYHQP6rY4ekk1lw6tmksMtyfwa/Dws+43pyxJw==";
+        };
+        _ddqK8MH7 = {
+            "id" = "ddqK8MH7";
+            "file" = "Bedrock Plus Mod-neoforge-1.9.2.jar";
+            "hash" = "sha512-QOnmeygsaKsELLUT7Pi615ULs9BG/SPtlHf4yCWS/eEEnWF4w92mF0astYJjVJjTQWsGoTYyGbRQVh94W5VvuQ==";
+        };
+        _Cn05sqa8 = {
+            "id" = "Cn05sqa8";
+            "file" = "Bedrock Plus Mod-fabric-1.9.2.jar";
+            "hash" = "sha512-YUvbFeDe0hg44VKwl7c/CeMFRSi1ObOV9obg1t5aH9pbto9crEe5EozL7rxym27osptw6KHiTb61cDi5cNvswg==";
+        };
+        _4wub61zq = {
+            "id" = "4wub61zq";
+            "file" = "Bedrock Plus Mod-forge-1.21.3-1.9.1.jar";
+            "hash" = "sha512-L1mHQj9/SGYcrqzY6Mn70azXQg7bkZBEK8Ng0IZdPIv3kxJK+oasBniOxf9zytD8wqHyvkQsIHXpejuvTKCN5Q==";
+        };
+        _Aie6N0JH = {
+            "id" = "Aie6N0JH";
+            "file" = "Bedrock Plus Mod-neoforge-1.21.3-1.9.1.jar";
+            "hash" = "sha512-ugSii+SzjEASqwMtF5e4o2ccFQANlmKrOTBN6n/DMRJ/UrUmQs9SsIfC02CbSgCnf2nV12XInLdjrNZesz6RfQ==";
+        };
+        _j6MWPziT = {
+            "id" = "j6MWPziT";
+            "file" = "Bedrock Plus Mod-neoforge-1.9.2.jar";
+            "hash" = "sha512-Cn0ETF9nVBoaXTdOwa+8AEXk35K/p+Dass150OvRIpHPmybmMNsXOE4OGzyYjWOzepOtBqDwtRZbPqYfP6tzcQ==";
+        };
+        _NvUOEFMq = {
+            "id" = "NvUOEFMq";
+            "file" = "Bedrock Plus Mod-forge-1.21.5-1.9.2.jar";
+            "hash" = "sha512-tyS1p1ZimTD/edzeqEDwDMJwb3n+HOVO+NSOlMaJJg1karlhkiY4oDb9MBXlSUnxv7+xb6X0vPPCJcH3MMNlsQ==";
+        };
+        _zS9MzJpp = {
+            "id" = "zS9MzJpp";
+            "file" = "Bedrock Plus Mod-fabric-1.9.2.jar";
+            "hash" = "sha512-ie5eP5zW8o71+G9+jjkv54N63fHCA2QtpLDV6AVXSvE8QKXxVX1/oZwoXMls8yn1L6XtPNZtrqX0cLUA2dh3qA==";
+        };
+        _DEdqwg2G = {
+            "id" = "DEdqwg2G";
+            "file" = "Bedrock Plus Mod-fabric-1.21.3-1.9.1.jar";
+            "hash" = "sha512-p+j6qVk0AcRRSuwM6JSuyUuLVlA3zt1Rjz7zcfD18swJIl3Lbb3xd5pRcmDmam0n09YdXM3TmxQ+/v2dLN9PtA==";
+        };
+        _mAh2IOdX = {
+            "id" = "mAh2IOdX";
+            "file" = "Bedrock Plus Mod-fabric-1.21.4-1.9.2.jar";
+            "hash" = "sha512-5L+3+QNfxOWkMurYmJcTLQHl9xHL3u/e/3QSAN93l90IAAtV3mKJ2Tx4xi9G4oYykmzUGuayuyUCAq8uJp1Uqw==";
+        };
+        _RyQcr4H9 = {
+            "id" = "RyQcr4H9";
+            "file" = "Bedrock Plus Mod-forge-1.21.4-1.9.2.jar";
+            "hash" = "sha512-auzvz/a+TTRKQljizePXlPNabFk4AMTxdE16ytDpi1rz4PNXfFBrOAktNLXDSZjApjOuGC3W2xMnFd/lKzjmIw==";
+        };
+        _7LoWBiei = {
+            "id" = "7LoWBiei";
+            "file" = "Bedrock Plus Mod-neoforge-1.21.4-1.9.2.jar";
+            "hash" = "sha512-5m6ahdkrKz5eE2SHqSskPI3mzGtm3F5CziTxnBC72wc7X5jW6PuRcB+2r3/L+fs8jV+dQ3+hUiZTholdPGAOBg==";
+        };
+        _JEKKPF7e = {
+            "id" = "JEKKPF7e";
+            "file" = "bedrockplus-fabric-1.21-1.8.1.jar";
+            "hash" = "sha512-2Uzt+dBWMofDJ/qgRQ6uDoiLq6oxptsLQ7a0TsgReS6JY+HvhSvkBosHmhi+dIW0OdM5fOoxORiSVjsCPLAr8Q==";
+        };
+        _ilFa1flK = {
+            "id" = "ilFa1flK";
+            "file" = "bedrockplus-neoforge-1.21-1.8.1.jar";
+            "hash" = "sha512-Ru8vaMBr6nTVFTtGM0T/TcAhWLmiT2vK4rYpW5e45McJ4Wxcifeo0kWukr6jmEiNZW5bmWdqaKU8KpVQ3zgdIg==";
+        };
+        _w503BCUO = {
+            "id" = "w503BCUO";
+            "file" = "bedrockplus-neoforge-1.9.2.jar";
+            "hash" = "sha512-IqGWYmORvkpg8pMtwB+dAE5JNFALxwq63QqG444z4Tr/9+oFVW0vgxQmhi4pU/fpxyRqoWnQNJkf7NCZCvETiw==";
+        };
+        _LhBZaAcZ = {
+            "id" = "LhBZaAcZ";
+            "file" = "bedrockplus-fabric-1.9.2.jar";
+            "hash" = "sha512-ie5eP5zW8o71+G9+jjkv54N63fHCA2QtpLDV6AVXSvE8QKXxVX1/oZwoXMls8yn1L6XtPNZtrqX0cLUA2dh3qA==";
+        };
+        _qXHT2n7W = {
+            "id" = "qXHT2n7W";
+            "file" = "Bedrock Plus Mod-forge-1.21.5-1.9.2.jar";
+            "hash" = "sha512-OP0VBTmqBfgfSNC5GQM9g4faZUE6CvLrKGT9pwOkpK4CIk8JglZaZ+kwNiz+lUo1BeVwCJVHLpQ/UV2BRkxiWQ==";
+        };
+        _p97PX7jr = {
+            "id" = "p97PX7jr";
+            "file" = "bedrockplus-neoforge-1.21.3-1.9.1.jar";
+            "hash" = "sha512-ndFKQdq+EpJpa804oCV7kFN9xwRDaDL9HGc01+Wn8o911xCz0ya668No/rCCHgjk9VpqNyXQ3mS+LgxC9Ro/GA==";
+        };
+        _NAhxDJ1l = {
+            "id" = "NAhxDJ1l";
+            "file" = "bedrockplus-fabric-1.21.3-1.9.1.jar";
+            "hash" = "sha512-p+j6qVk0AcRRSuwM6JSuyUuLVlA3zt1Rjz7zcfD18swJIl3Lbb3xd5pRcmDmam0n09YdXM3TmxQ+/v2dLN9PtA==";
+        };
+        _8ThzKDho = {
+            "id" = "8ThzKDho";
+            "file" = "Bedrock Plus Mod-forge-1.21.3-1.9.1.jar";
+            "hash" = "sha512-KYdtq0sHoRcUlQqYNZ5MJjIingXKjYr3HJSAMFDI2Xykp1+nbL2AZ6sPoXrtvpQdFROWBAGOa5sZFK+mOqmggw==";
+        };
+        _tMIZ6E4k = {
+            "id" = "tMIZ6E4k";
+            "file" = "bedrockplus-fabric-1.9.2.jar";
+            "hash" = "sha512-YUvbFeDe0hg44VKwl7c/CeMFRSi1ObOV9obg1t5aH9pbto9crEe5EozL7rxym27osptw6KHiTb61cDi5cNvswg==";
+        };
+        _wWKwZxm6 = {
+            "id" = "wWKwZxm6";
+            "file" = "Bedrock Plus Mod-forge-1.21.6-1.9.2.jar";
+            "hash" = "sha512-i4g7OWpcb0pSGf5Dy7oSAy27ibOqGF8y2+bR4jyEda60DzcrlpGzJpR5Yq4sQYuNXZdupltbR4ah20FWfbpfRA==";
+        };
+        _xVICLdj9 = {
+            "id" = "xVICLdj9";
+            "file" = "bedrockplus-neoforge-1.9.2.jar";
+            "hash" = "sha512-jAF/oZwaEQUNhFzmDafxRG0MBJvpQMD8PD9bFKNMsYwyPzALd5H4AxqYNnAaB+NGnOorNXh5GYx3sz4rjbOoBg==";
+        };
+        _QPZpRp4q = {
+            "id" = "QPZpRp4q";
+            "file" = "Bedrock Plus Mod-forge-1.21.4-1.9.2.jar";
+            "hash" = "sha512-VJ6XKJUThlxt/ArR8An3sLUJXFPhWaLccbZWbXf9pGlOlDJuMS7OE25cAPJsMRn6NBTC657MInnnkkm9+5KA2Q==";
+        };
+        _j6KpJfOq = {
+            "id" = "j6KpJfOq";
+            "file" = "bedrockplus-neoforge-1.21.4-1.9.2.jar";
+            "hash" = "sha512-bpGTfS0MBCDvl+IqvCD2QgkSZDYJq53JyTcWws3a5e1zjq5CaQG2SN9VoY3D2t6FK6aNsY01j2Fd2exT/4dvUw==";
+        };
+        _fgmikUao = {
+            "id" = "fgmikUao";
+            "file" = "bedrockplus-fabric-1.21.4-1.9.2.jar";
+            "hash" = "sha512-5L+3+QNfxOWkMurYmJcTLQHl9xHL3u/e/3QSAN93l90IAAtV3mKJ2Tx4xi9G4oYykmzUGuayuyUCAq8uJp1Uqw==";
+        };
+        _rUDq0raG = {
+            "id" = "rUDq0raG";
+            "file" = "bedrockplus-fabric-26.3-2.1.0.jar";
+            "hash" = "sha512-Tnvoq2zYsVayOjjynagWQ+blwrdZsHx+d941APlQBkqem1dL2DVmsULY2wmMVcUA0CnCP8tbXv1yuvjJxVuUig==";
+        };
+        _XyDBOzXc = {
+            "id" = "XyDBOzXc";
+            "file" = "bedrockplus-neoforge-26.3-2.1.0.jar";
+            "hash" = "sha512-09Mxj5S5zutkTFHTblv9546w+RgXFLgzhTP9LWJmAKgd5yK1s5fTc5MFmGyxbzrQo4lpduuR1r9e7uWk3sQK5A==";
+        };
     in {
         "wb2bDBxm" = _wb2bDBxm;
         "TcTp6G3a" = _TcTp6G3a;
@@ -518,6 +708,44 @@ let
         "9zKl6w69" = _9zKl6w69;
         "58zC79RM" = _58zC79RM;
         "y8LFleSQ" = _y8LFleSQ;
+        "mllI4vLU" = _mllI4vLU;
+        "8BOVu3pW" = _8BOVu3pW;
+        "ic5Cs8PM" = _ic5Cs8PM;
+        "1ExpSmhy" = _1ExpSmhy;
+        "5x1lKZRh" = _5x1lKZRh;
+        "j0g1qi7w" = _j0g1qi7w;
+        "jWD8CWB8" = _jWD8CWB8;
+        "rrIkDxdU" = _rrIkDxdU;
+        "tHDwkbiN" = _tHDwkbiN;
+        "zxY2MfCc" = _zxY2MfCc;
+        "pDCHzW5D" = _pDCHzW5D;
+        "ddqK8MH7" = _ddqK8MH7;
+        "Cn05sqa8" = _Cn05sqa8;
+        "4wub61zq" = _4wub61zq;
+        "Aie6N0JH" = _Aie6N0JH;
+        "j6MWPziT" = _j6MWPziT;
+        "NvUOEFMq" = _NvUOEFMq;
+        "zS9MzJpp" = _zS9MzJpp;
+        "DEdqwg2G" = _DEdqwg2G;
+        "mAh2IOdX" = _mAh2IOdX;
+        "RyQcr4H9" = _RyQcr4H9;
+        "7LoWBiei" = _7LoWBiei;
+        "JEKKPF7e" = _JEKKPF7e;
+        "ilFa1flK" = _ilFa1flK;
+        "w503BCUO" = _w503BCUO;
+        "LhBZaAcZ" = _LhBZaAcZ;
+        "qXHT2n7W" = _qXHT2n7W;
+        "p97PX7jr" = _p97PX7jr;
+        "NAhxDJ1l" = _NAhxDJ1l;
+        "8ThzKDho" = _8ThzKDho;
+        "tMIZ6E4k" = _tMIZ6E4k;
+        "wWKwZxm6" = _wWKwZxm6;
+        "xVICLdj9" = _xVICLdj9;
+        "QPZpRp4q" = _QPZpRp4q;
+        "j6KpJfOq" = _j6KpJfOq;
+        "fgmikUao" = _fgmikUao;
+        "rUDq0raG" = _rUDq0raG;
+        "XyDBOzXc" = _XyDBOzXc;
         "fabric-1.17.1" = _wb2bDBxm;
         "fabric-1.18.2" = _TcTp6G3a;
         "fabric-1.19" = _AbpJzIOc;
@@ -529,21 +757,23 @@ let
         "fabric-1.20.1" = _IYaljCaU;
         "fabric-1.20.2" = _b0KTN1TC;
         "fabric-1.20.6" = _wZANCrad;
-        "fabric-1.21" = _CGSHmr6S;
-        "fabric-1.21.1" = _CGSHmr6S;
-        "fabric-1.21.3" = _nCo61c6i;
-        "fabric-1.21.5" = _5vJE038l;
-        "fabric-1.21.6" = _5vJE038l;
+        "fabric-1.21" = _JEKKPF7e;
+        "fabric-1.21.1" = _JEKKPF7e;
+        "fabric-1.21.3" = _NAhxDJ1l;
+        "fabric-1.21.5" = _LhBZaAcZ;
+        "fabric-1.21.6" = _tMIZ6E4k;
         "fabric-1.21.7" = _5vJE038l;
         "fabric-1.21.8" = _5vJE038l;
-        "fabric-1.21.4" = _6f2LXWTA;
+        "fabric-1.21.4" = _fgmikUao;
         "fabric-1.21.9" = _ohUjpp0p;
         "fabric-1.21.10" = _ohUjpp0p;
-        "fabric-1.21.11" = _QfcO60cV;
-        "fabric-26.1" = _y8LFleSQ;
-        "fabric-26.1.1" = _y8LFleSQ;
-        "fabric-26.1.2" = _y8LFleSQ;
-        "fabric-26.2" = _y8LFleSQ;
+        "fabric-1.21.11" = _rrIkDxdU;
+        "fabric-26.1" = _ic5Cs8PM;
+        "fabric-26.1.1" = _ic5Cs8PM;
+        "fabric-26.1.2" = _ic5Cs8PM;
+        "fabric-26.2" = _ic5Cs8PM;
+        "fabric-1.21.2" = _JEKKPF7e;
+        "fabric-26.3" = _rUDq0raG;
         "forge-1.18.2" = _aZG4DB1B;
         "forge-1.19.2" = _w44qETCl;
         "forge-1.19.3" = _9IXTjxxJ;
@@ -554,15 +784,15 @@ let
         "forge-1.20.6" = _qwvVVkNJ;
         "forge-1.21" = _w97uW313;
         "forge-1.21.1" = _w97uW313;
-        "forge-1.21.3" = _xn9ac9dG;
-        "forge-1.21.5" = _VXvq4w63;
-        "forge-1.21.6" = _VXvq4w63;
+        "forge-1.21.3" = _8ThzKDho;
+        "forge-1.21.5" = _qXHT2n7W;
+        "forge-1.21.6" = _wWKwZxm6;
         "forge-1.21.7" = _VXvq4w63;
         "forge-1.21.8" = _VXvq4w63;
-        "forge-1.21.4" = _XX9PGP3c;
+        "forge-1.21.4" = _QPZpRp4q;
         "forge-1.21.9" = _XmtM0TB1;
         "forge-1.21.10" = _XmtM0TB1;
-        "forge-1.21.11" = _kHHhDVew;
+        "forge-1.21.11" = _zxY2MfCc;
         "quilt-1.19" = _AbpJzIOc;
         "quilt-1.19.1" = _kEM7xGbN;
         "quilt-1.19.2" = _kEM7xGbN;
@@ -572,37 +802,41 @@ let
         "quilt-1.20.1" = _IYaljCaU;
         "quilt-1.20.2" = _b0KTN1TC;
         "quilt-1.20.6" = _wZANCrad;
-        "quilt-1.21" = _CGSHmr6S;
-        "quilt-1.21.1" = _CGSHmr6S;
-        "quilt-1.21.3" = _nCo61c6i;
-        "quilt-1.21.5" = _5vJE038l;
-        "quilt-1.21.6" = _5vJE038l;
+        "quilt-1.21" = _JEKKPF7e;
+        "quilt-1.21.1" = _JEKKPF7e;
+        "quilt-1.21.3" = _NAhxDJ1l;
+        "quilt-1.21.5" = _LhBZaAcZ;
+        "quilt-1.21.6" = _tMIZ6E4k;
         "quilt-1.21.7" = _5vJE038l;
         "quilt-1.21.8" = _5vJE038l;
-        "quilt-1.21.4" = _6f2LXWTA;
+        "quilt-1.21.4" = _fgmikUao;
         "quilt-1.21.9" = _ohUjpp0p;
         "quilt-1.21.10" = _ohUjpp0p;
-        "quilt-1.21.11" = _QfcO60cV;
-        "quilt-26.1" = _y8LFleSQ;
-        "quilt-26.1.1" = _y8LFleSQ;
-        "quilt-26.1.2" = _y8LFleSQ;
-        "quilt-26.2" = _y8LFleSQ;
+        "quilt-1.21.11" = _rrIkDxdU;
+        "quilt-26.1" = _ic5Cs8PM;
+        "quilt-26.1.1" = _ic5Cs8PM;
+        "quilt-26.1.2" = _ic5Cs8PM;
+        "quilt-26.2" = _ic5Cs8PM;
+        "quilt-1.21.2" = _JEKKPF7e;
+        "quilt-26.3" = _rUDq0raG;
         "neoforge-1.20.6" = _mkGSwn9k;
-        "neoforge-1.21" = _swgS1m4W;
-        "neoforge-1.21.1" = _swgS1m4W;
-        "neoforge-1.21.3" = _MSgSEaRc;
-        "neoforge-1.21.5" = _idITszTK;
-        "neoforge-1.21.6" = _idITszTK;
+        "neoforge-1.21" = _ilFa1flK;
+        "neoforge-1.21.1" = _ilFa1flK;
+        "neoforge-1.21.3" = _p97PX7jr;
+        "neoforge-1.21.5" = _w503BCUO;
+        "neoforge-1.21.6" = _xVICLdj9;
         "neoforge-1.21.7" = _idITszTK;
         "neoforge-1.21.8" = _idITszTK;
-        "neoforge-1.21.4" = _EfPA6X3E;
+        "neoforge-1.21.4" = _j6KpJfOq;
         "neoforge-1.21.9" = _CfpPh1Nd;
         "neoforge-1.21.10" = _CfpPh1Nd;
-        "neoforge-1.21.11" = _1nTzTOax;
-        "neoforge-26.1" = _58zC79RM;
-        "neoforge-26.1.1" = _58zC79RM;
-        "neoforge-26.1.2" = _58zC79RM;
-        "neoforge-26.2" = _58zC79RM;
+        "neoforge-1.21.11" = _tHDwkbiN;
+        "neoforge-26.1" = _1ExpSmhy;
+        "neoforge-26.1.1" = _1ExpSmhy;
+        "neoforge-26.1.2" = _1ExpSmhy;
+        "neoforge-26.2" = _1ExpSmhy;
+        "neoforge-1.21.2" = _ilFa1flK;
+        "neoforge-26.3" = _XyDBOzXc;
         "pkg-1.2.1" = _nuwp16tY;
         "pkg-1.2.1.1" = _jLo7GGPw;
         "pkg-1.3.0" = _h6nR0w6E;
@@ -616,13 +850,17 @@ let
         "pkg-1.7" = _b7q9c7Oo;
         "pkg-1.8" = _CGSHmr6S;
         "pkg-1.9" = _xn9ac9dG;
-        "pkg-1.9.1" = _XX9PGP3c;
-        "pkg-1.9.2" = _XmtM0TB1;
+        "pkg-1.9.1" = _8ThzKDho;
+        "pkg-1.9.2" = _fgmikUao;
         "pkg-1.10.0" = _kHHhDVew;
         "pkg-2.0.0" = _TPryceKf;
         "pkg-2.0.1" = _9zKl6w69;
         "pkg-2.0.2" = _y8LFleSQ;
-        "default" = _y8LFleSQ;
+        "pkg-1.8.1" = _ilFa1flK;
+        "pkg-2.0.3" = _1ExpSmhy;
+        "pkg-1.10.1" = _zxY2MfCc;
+        "pkg-2.1.0" = _XyDBOzXc;
+        "default" = _XyDBOzXc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "-bedrock-plus";

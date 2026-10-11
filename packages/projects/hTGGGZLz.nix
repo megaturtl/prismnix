@@ -171,6 +171,11 @@ let
             "file" = "feather_legacy-1.4.0.jar";
             "hash" = "sha512-NHagUoWZfqB6x7Zf11c8yszmpJydWQ7w6HLMn5wdvoSg64K8p54KxT4c4k0A8ltt58eSQpFyF/5YIMkLj2DK3g==";
         };
+        _6YuxqS3o = {
+            "id" = "6YuxqS3o";
+            "file" = "feather_legacy-1.4.0.jar";
+            "hash" = "sha512-5k0soXUWc/DE33K00X/cIL0PBMzFegIubci4o90+bTLBiPo6eVf7F59Jq1MSRKAlw7POUTisVRY1wQGONrcEmg==";
+        };
     in {
         "11IOO7Cr" = _11IOO7Cr;
         "hcHJtCYb" = _hcHJtCYb;
@@ -206,6 +211,7 @@ let
         "5v9puHP9" = _5v9puHP9;
         "o4KwQUbl" = _o4KwQUbl;
         "3InnGWPC" = _3InnGWPC;
+        "6YuxqS3o" = _6YuxqS3o;
         "fabric-1.21.5" = _2pioamZW;
         "fabric-1.21.1" = _z7fRfVzx;
         "fabric-1.21.4" = _UdXmD8cA;
@@ -222,6 +228,7 @@ let
         "fabric-26.1.1" = _o4KwQUbl;
         "fabric-26.1.2" = _o4KwQUbl;
         "fabric-26.2" = _3InnGWPC;
+        "fabric-26.3" = _6YuxqS3o;
         "pkg-1.0.0" = _KcLfuFIg;
         "pkg-2.0.0" = _hcHJtCYb;
         "pkg-3.0.0" = _1ImMO0sQ;
@@ -253,8 +260,8 @@ let
         "pkg-1.1.0" = _Qd2fdej3;
         "pkg-1.2.0" = _CFsj4yKC;
         "pkg-1.3.0" = _5v9puHP9;
-        "pkg-1.4.0" = _3InnGWPC;
-        "default" = _3InnGWPC;
+        "pkg-1.4.0" = _6YuxqS3o;
+        "default" = _6YuxqS3o;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "feather-remake";

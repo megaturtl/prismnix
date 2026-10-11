@@ -106,6 +106,21 @@ let
             "file" = "animalgarden-culpeofox-1.0.0-neoforge-1.21.11.42.jar";
             "hash" = "sha512-D9ozFaHwiP/K1rxB1E4stJUhPaZerMLKnhoZeJ5cE+tNKKgxdaV7o9YiqSca+RlkTuXZ3ga/K5zss8NU9ayn2g==";
         };
+        _OhknN8Z0 = {
+            "id" = "OhknN8Z0";
+            "file" = "animalgarden-culpeofox-1.0.0-forge-26.3-66.0.2.jar";
+            "hash" = "sha512-6uEy3CkaKQj9AKH8n/h2X97S4+6YSAt5dqL6VC9vafqwHjIgDjfjCAed7gJqbY9eA/hGXlL2j8gHAW1ZIORhNw==";
+        };
+        _NpIDa0j1 = {
+            "id" = "NpIDa0j1";
+            "file" = "animalgarden-culpeofox-1.0.0-neoforge-26.3.0.7.jar";
+            "hash" = "sha512-xwmv9F7YYVQBOZJmJ6pDnrOmMLmKoTuuVsq+HHZwofyqS9gX2T+orI+gYbFTQHoyQE0RrSTS8nlg6ZmSgBhc+Q==";
+        };
+        _jThXqZkt = {
+            "id" = "jThXqZkt";
+            "file" = "animalgarden-culpeofox-1.0.0-fabric-26.3-0.161.0.jar";
+            "hash" = "sha512-gSyE01wAHQOA+p68O8D7HGCSnGrPTpl1pX157GPjCbFmNwB4rgxKRJzb93RKyPxLT+mtobbpMEKagzMspGS3Xw==";
+        };
     in {
         "xwrWHj8n" = _xwrWHj8n;
         "u8w2eo0Y" = _u8w2eo0Y;
@@ -128,6 +143,9 @@ let
         "ZJsNTF5s" = _ZJsNTF5s;
         "32N83zEd" = _32N83zEd;
         "YeX1FnZO" = _YeX1FnZO;
+        "OhknN8Z0" = _OhknN8Z0;
+        "NpIDa0j1" = _NpIDa0j1;
+        "jThXqZkt" = _jThXqZkt;
         "fabric-26.1" = _xwrWHj8n;
         "fabric-26.1.1" = _xwrWHj8n;
         "fabric-26.1.2" = _xwrWHj8n;
@@ -142,6 +160,7 @@ let
         "fabric-1.21.9" = _fw9OvUZh;
         "fabric-1.21.10" = _fw9OvUZh;
         "fabric-1.21.11" = _J1d3dp3s;
+        "fabric-26.3" = _jThXqZkt;
         "forge-26.1" = _u8w2eo0Y;
         "forge-26.1.1" = _u8w2eo0Y;
         "forge-26.1.2" = _u8w2eo0Y;
@@ -156,6 +175,7 @@ let
         "forge-1.21.9" = _EBboSZqj;
         "forge-1.21.10" = _EBboSZqj;
         "forge-1.21.11" = _2sBeP5Xo;
+        "forge-26.3" = _OhknN8Z0;
         "neoforge-26.1" = _bNRDMUZ1;
         "neoforge-26.1.1" = _bNRDMUZ1;
         "neoforge-26.1.2" = _bNRDMUZ1;
@@ -169,6 +189,7 @@ let
         "neoforge-1.21.9" = _32N83zEd;
         "neoforge-1.21.10" = _32N83zEd;
         "neoforge-1.21.11" = _YeX1FnZO;
+        "neoforge-26.3" = _NpIDa0j1;
         "pkg-1.0.0-fabric-26.2-0.154.2" = _xwrWHj8n;
         "pkg-1.0.0-forge-26.2-65.0.0" = _u8w2eo0Y;
         "pkg-1.0.0-neoforge-26.2.0.12" = _bNRDMUZ1;
@@ -190,7 +211,10 @@ let
         "pkg-1.0.0-neoforge-1.21.8.53" = _ZJsNTF5s;
         "pkg-1.0.0-neoforge-1.21.10.64" = _32N83zEd;
         "pkg-1.0.0-neoforge-1.21.11.42" = _YeX1FnZO;
-        "default" = _YeX1FnZO;
+        "pkg-1.0.0-forge-26.3-66.0.2" = _OhknN8Z0;
+        "pkg-1.0.0-neoforge-26.3.0.7" = _NpIDa0j1;
+        "pkg-1.0.0-fabric-26.3-0.161.0" = _jThXqZkt;
+        "default" = _jThXqZkt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "animal-garden-culpeo-fox";

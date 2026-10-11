@@ -216,6 +216,51 @@ let
             "file" = "beekeeperhut-neoforge-3.0.3+mc26.2.jar";
             "hash" = "sha512-v4eouSUEHSCklAr5pWix6rUvrvqGy4ORKZguFrjSxwOMCbWC/8FLbuZFqX+MqI1eLQpjM4vcLO0jeuNl69tTHQ==";
         };
+        _VYYj4iL1 = {
+            "id" = "VYYj4iL1";
+            "file" = "beekeeperhut-neoforge-3.0.4+mc1.21.1.jar";
+            "hash" = "sha512-j0tdwncBgYCo6Yo/hSYgx5oGPHkegDhCS68gBKEF2k4iiEXcwVqFiuol887G1+Sz6rGpp/NY/jib1tAK3PWG9Q==";
+        };
+        _25klf1Kc = {
+            "id" = "25klf1Kc";
+            "file" = "beekeeperhut-neoforge-3.0.4+mc1.21.4.jar";
+            "hash" = "sha512-kUM+8Y4mGPSBpWirLl4Aes3PyYKmwBLib8AKLofudGWmGwxK2gt1Ousn6BVdQCA0W2v1G730HDWkaa01wrkW9Q==";
+        };
+        _EKspdpCK = {
+            "id" = "EKspdpCK";
+            "file" = "beekeeperhut-neoforge-3.0.4+mc1.21.5.jar";
+            "hash" = "sha512-g+8DXLuq23pyASBp/kKDcu4y2dAnlB+ewHxtylW9oNam+wXKVeXhXY30HndnwKk/3XdjajmxMcgB5xer4wXLoA==";
+        };
+        _Jhp576Ps = {
+            "id" = "Jhp576Ps";
+            "file" = "beekeeperhut-neoforge-3.0.4+mc1.21.8.jar";
+            "hash" = "sha512-WH2P1eFJIkciJBosXicv0MVd4cZKhcjBwvT765F/lXT6NIOF0y5x7azzvJt9VlYHgdpj+bm3caQJ7UbQ4B6Z9Q==";
+        };
+        _PdfKJ33I = {
+            "id" = "PdfKJ33I";
+            "file" = "beekeeperhut-neoforge-3.0.4+mc1.21.10.jar";
+            "hash" = "sha512-qo7QIJ1wFRRizlCOEThOGMRR7ud5jHp/BNi7pkxjWrLrGfyr7keuSmwwClXlaBFTpslALkizKpVtbYwfGlBJhA==";
+        };
+        _aGEqyf24 = {
+            "id" = "aGEqyf24";
+            "file" = "beekeeperhut-neoforge-3.0.4+mc26.1.2.jar";
+            "hash" = "sha512-BOPSv2enmogRPtgzR6sQnQ7ChuOo2DxkrIKxUjy0GzlGSPwFMohGSX0Eri2+6Mjd6CNvdUbsJALlzdkRGIC4Fw==";
+        };
+        _k9ypRPjp = {
+            "id" = "k9ypRPjp";
+            "file" = "beekeeperhut-neoforge-3.0.4+mc1.21.11.jar";
+            "hash" = "sha512-z0r9Oj6PK7hsnwGyuTrBI55mcUCkgP1CTxlMjimXpph55UnBr8QU1W+Gl6ym+CUy1Dce7Wtm4m7Jg+ttaP4v/w==";
+        };
+        _VmnYWnja = {
+            "id" = "VmnYWnja";
+            "file" = "beekeeperhut-neoforge-3.0.4+mc26.2.jar";
+            "hash" = "sha512-dV9/fdGKKWAu9+OZUno27rkBTbJFfHaP+gB6dVPlUKjPBv0cq7AwA68p44u/YOSHbRLzm6Lx9sd3o424IsDXKQ==";
+        };
+        _RgzX2Gw2 = {
+            "id" = "RgzX2Gw2";
+            "file" = "beekeeperhut-neoforge-3.0.4+mc26.3.jar";
+            "hash" = "sha512-WKN3suctlq3I5BdjFNs0yP+KTPK6JDMDRATiUddSGpctHI61WVgVERk1e+Ladkqr2hQnPjFu9WhByshk6mitzw==";
+        };
     in {
         "jUH5EjqD" = _jUH5EjqD;
         "okunSDTT" = _okunSDTT;
@@ -260,6 +305,15 @@ let
         "QCDNdkUk" = _QCDNdkUk;
         "JyWZECBq" = _JyWZECBq;
         "LhSZhiqe" = _LhSZhiqe;
+        "VYYj4iL1" = _VYYj4iL1;
+        "25klf1Kc" = _25klf1Kc;
+        "EKspdpCK" = _EKspdpCK;
+        "Jhp576Ps" = _Jhp576Ps;
+        "PdfKJ33I" = _PdfKJ33I;
+        "aGEqyf24" = _aGEqyf24;
+        "k9ypRPjp" = _k9ypRPjp;
+        "VmnYWnja" = _VmnYWnja;
+        "RgzX2Gw2" = _RgzX2Gw2;
         "forge-1.19" = _87z9v2Kj;
         "forge-1.19.1" = _87z9v2Kj;
         "forge-1.19.2" = _Yq0ZEfbv;
@@ -274,20 +328,21 @@ let
         "neoforge-1.20.4" = _tCg6CAjE;
         "neoforge-1.20.2" = _I15FzEeo;
         "neoforge-1.20.6" = _rEFi3v9x;
-        "neoforge-1.21" = _QKZLmEdf;
-        "neoforge-1.21.1" = _QKZLmEdf;
-        "neoforge-1.21.4" = _f8JeL7fY;
-        "neoforge-1.21.5" = _24ZmM9Kx;
-        "neoforge-1.21.6" = _vVXX7p2n;
-        "neoforge-1.21.7" = _vVXX7p2n;
-        "neoforge-1.21.8" = _vVXX7p2n;
-        "neoforge-1.21.9" = _QCDNdkUk;
-        "neoforge-1.21.10" = _QCDNdkUk;
-        "neoforge-1.21.11" = _iXiP7HML;
-        "neoforge-26.1" = _JyWZECBq;
-        "neoforge-26.1.1" = _JyWZECBq;
-        "neoforge-26.1.2" = _JyWZECBq;
-        "neoforge-26.2" = _LhSZhiqe;
+        "neoforge-1.21" = _VYYj4iL1;
+        "neoforge-1.21.1" = _VYYj4iL1;
+        "neoforge-1.21.4" = _25klf1Kc;
+        "neoforge-1.21.5" = _EKspdpCK;
+        "neoforge-1.21.6" = _Jhp576Ps;
+        "neoforge-1.21.7" = _Jhp576Ps;
+        "neoforge-1.21.8" = _Jhp576Ps;
+        "neoforge-1.21.9" = _PdfKJ33I;
+        "neoforge-1.21.10" = _PdfKJ33I;
+        "neoforge-1.21.11" = _k9ypRPjp;
+        "neoforge-26.1" = _aGEqyf24;
+        "neoforge-26.1.1" = _aGEqyf24;
+        "neoforge-26.1.2" = _aGEqyf24;
+        "neoforge-26.2" = _VmnYWnja;
+        "neoforge-26.3" = _RgzX2Gw2;
         "pkg-forge-mc1.19.2-1.0.0" = _jUH5EjqD;
         "pkg-forge-mc1.19.3-1.1.0" = _okunSDTT;
         "pkg-forge-mc1.19.2-1.2.0" = _87z9v2Kj;
@@ -331,7 +386,16 @@ let
         "pkg-neoforge-3.0.3+mc1.21.10" = _QCDNdkUk;
         "pkg-neoforge-3.0.3+mc26.1.2" = _JyWZECBq;
         "pkg-neoforge-3.0.3+mc26.2" = _LhSZhiqe;
-        "default" = _LhSZhiqe;
+        "pkg-neoforge-3.0.4+mc1.21.1" = _VYYj4iL1;
+        "pkg-neoforge-3.0.4+mc1.21.4" = _25klf1Kc;
+        "pkg-neoforge-3.0.4+mc1.21.5" = _EKspdpCK;
+        "pkg-neoforge-3.0.4+mc1.21.8" = _Jhp576Ps;
+        "pkg-neoforge-3.0.4+mc1.21.10" = _PdfKJ33I;
+        "pkg-neoforge-3.0.4+mc26.1.2" = _aGEqyf24;
+        "pkg-neoforge-3.0.4+mc1.21.11" = _k9ypRPjp;
+        "pkg-neoforge-3.0.4+mc26.2" = _VmnYWnja;
+        "pkg-neoforge-3.0.4+mc26.3" = _RgzX2Gw2;
+        "default" = _RgzX2Gw2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "friends-and-foes-beekeeper-hut-forge";

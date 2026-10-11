@@ -151,6 +151,16 @@ let
             "file" = "cryonicconfig-neoforge-1.0.0+mc26.2.jar";
             "hash" = "sha512-cVtq8tJoUEEeUYduqOIPwwjZHlAjyQF9GUfcvlkRUipnP7OjNnI2b9Hcf8fBPC/V/jRB0jaOJssWdpF0OHAxRA==";
         };
+        _kXVGv1TD = {
+            "id" = "kXVGv1TD";
+            "file" = "cryonicconfig-fabric-1.0.0+mc26.3.jar";
+            "hash" = "sha512-ETpb/fNsKLSYnZblr1Q/+PyrJd94dIlpIPtpHr9B0GdniZgx3Q1q0gKPL3bX0NS+PCSzwn8lO+hbX0qOoSkJXg==";
+        };
+        _PkapKDFA = {
+            "id" = "PkapKDFA";
+            "file" = "cryonicconfig-neoforge-1.0.0+mc26.3.jar";
+            "hash" = "sha512-sJZ0/h6Cma+7SENmmy+5P4oV9VRXPZFxJCmwQfOyuvmDEjOzotZyT25MeAl7sM/ta32GG4omD3B0jFOZHh5Ybw==";
+        };
     in {
         "e9W0wsO6" = _e9W0wsO6;
         "LKryysne" = _LKryysne;
@@ -182,6 +192,8 @@ let
         "aSI6h8xL" = _aSI6h8xL;
         "G6Oytx8E" = _G6Oytx8E;
         "hHVSxuGr" = _hHVSxuGr;
+        "kXVGv1TD" = _kXVGv1TD;
+        "PkapKDFA" = _PkapKDFA;
         "babric-b1.7.3" = _e9W0wsO6;
         "fabric-b1.7.3" = _e9W0wsO6;
         "fabric-1.21" = _biJLv3Vb;
@@ -215,6 +227,7 @@ let
         "fabric-26.1.1" = _5y7Y8lKb;
         "fabric-26.1.2" = _5y7Y8lKb;
         "fabric-26.2" = _G6Oytx8E;
+        "fabric-26.3" = _kXVGv1TD;
         "quilt-1.21" = _biJLv3Vb;
         "quilt-1.21.1" = _biJLv3Vb;
         "quilt-1.21.2" = _biJLv3Vb;
@@ -246,6 +259,7 @@ let
         "quilt-26.1.1" = _5y7Y8lKb;
         "quilt-26.1.2" = _5y7Y8lKb;
         "quilt-26.2" = _G6Oytx8E;
+        "quilt-26.3" = _kXVGv1TD;
         "neoforge-1.21" = _GW2YX76Y;
         "neoforge-1.21.1" = _GW2YX76Y;
         "neoforge-1.21.2" = _GW2YX76Y;
@@ -267,6 +281,7 @@ let
         "neoforge-26.1.1" = _aSI6h8xL;
         "neoforge-26.1.2" = _aSI6h8xL;
         "neoforge-26.2" = _hHVSxuGr;
+        "neoforge-26.3" = _PkapKDFA;
         "forge-1.20.2" = _EMdZttUt;
         "forge-1.20.3" = _EMdZttUt;
         "forge-1.20.4" = _EMdZttUt;
@@ -310,7 +325,9 @@ let
         "pkg-neoforge-26.1.2-1.0.0" = _aSI6h8xL;
         "pkg-fabric-26.2-1.0.0" = _G6Oytx8E;
         "pkg-neoforge-26.2-1.0.0" = _hHVSxuGr;
-        "default" = _hHVSxuGr;
+        "pkg-fabric-26.3-1.0.0" = _kXVGv1TD;
+        "pkg-neoforge-26.3-1.0.0" = _PkapKDFA;
+        "default" = _PkapKDFA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cryonicconfig";

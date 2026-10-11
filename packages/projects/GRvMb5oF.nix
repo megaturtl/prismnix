@@ -126,6 +126,21 @@ let
             "file" = "jeioptimizer-1.21.1-1.2.0-19.56.jar";
             "hash" = "sha512-qwmDFL3UWuBQy1+oZvitjw3c614YM7zperBSWtws4ghbQqvCrsR5XNWmD7OtAgWmRhcv3Qeql5qpZpcKWBzcPg==";
         };
+        _izcsvV3I = {
+            "id" = "izcsvV3I";
+            "file" = "jeioptimizer-26.1.2-1.2.0-29.43.jar";
+            "hash" = "sha512-K7fUc96ga079M3jEE5WLeGjjks61Q3ToWaJlX5MXRfhBRcg81jPDfQnpCFpwle/QvxXb3fIp8ppazlBSAYDfbg==";
+        };
+        _ZsEVOuiR = {
+            "id" = "ZsEVOuiR";
+            "file" = "jeioptimizer-26.2-1.2.0-30.38.jar";
+            "hash" = "sha512-kF9Pf4FLdEPBTjCF/8PTMx9hMJaZTKqIlM3rbWNnTJn+14o1peYWk1k4i8ZkfjTaR4E8rLURHbi6rLaGlGaEag==";
+        };
+        _BTSb4ABZ = {
+            "id" = "BTSb4ABZ";
+            "file" = "jeioptimizer-1.20.1-1.2.2-15.62.jar";
+            "hash" = "sha512-RIf/e8YgdxtQhLD6T1c9duDi7aUlcyZpHLqU/cLbUX6foWmYDgDoPbwSsgbxb0G3iXLArKBIkNRf+2TenoyCSA==";
+        };
     in {
         "8k3kBEEo" = _8k3kBEEo;
         "mPpTZV2A" = _mPpTZV2A;
@@ -152,11 +167,14 @@ let
         "yrjewwtL" = _yrjewwtL;
         "nVfBuwWJ" = _nVfBuwWJ;
         "PLuwRscn" = _PLuwRscn;
-        "forge-1.20.1" = _nVfBuwWJ;
+        "izcsvV3I" = _izcsvV3I;
+        "ZsEVOuiR" = _ZsEVOuiR;
+        "BTSb4ABZ" = _BTSb4ABZ;
+        "forge-1.20.1" = _BTSb4ABZ;
         "forge-1.19.2" = _arosikmi;
         "neoforge-1.21.1" = _PLuwRscn;
-        "neoforge-26.1.2" = _4zJ5VTxs;
-        "neoforge-26.2" = _yrjewwtL;
+        "neoforge-26.1.2" = _izcsvV3I;
+        "neoforge-26.2" = _ZsEVOuiR;
         "pkg-1.0.1" = _8k3kBEEo;
         "pkg-1.0.0" = _mPpTZV2A;
         "pkg-1.0.2" = _ugv9HBPy;
@@ -178,7 +196,10 @@ let
         "pkg-1.1.2-30.30" = _yrjewwtL;
         "pkg-1.2.1-15.59" = _nVfBuwWJ;
         "pkg-1.2.0-19.56" = _PLuwRscn;
-        "default" = _PLuwRscn;
+        "pkg-1.2.0-29.43" = _izcsvV3I;
+        "pkg-1.2.0-30.38" = _ZsEVOuiR;
+        "pkg-1.2.2-15.62" = _BTSb4ABZ;
+        "default" = _BTSb4ABZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jeioptimizer";

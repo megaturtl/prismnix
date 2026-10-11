@@ -566,6 +566,46 @@ let
             "file" = "butchery-5.2-neoforge-26.1.2.jar";
             "hash" = "sha512-4eyKj1niu5I1qI8uoqq8o9kOJHtY1BiVBpHPZtfxo0aMlcCA93HIjy2jUVnMZfO7dM1HCbapvhKGQJiE3Myjgg==";
         };
+        _2xu2W5KB = {
+            "id" = "2xu2W5KB";
+            "file" = "butchery-5.3-forge-1.20.1.jar";
+            "hash" = "sha512-tRjsB1dZR+er1S06UnL3eFOQcrCtZK90K64qOz2ygILItCuvMKKabaTALaXQKnW7mnJN6VduLMpjNcGq8Jz+Jw==";
+        };
+        _oMDZ0tY4 = {
+            "id" = "oMDZ0tY4";
+            "file" = "butchery-5.3-neoforge-1.21.1.jar";
+            "hash" = "sha512-RpgTuntxk+GttK4A4hknX9nEaBrP+w4pZZnD25e/m61sDMEoUtK5XtuIHDC0TmnNJErKV5YTyx/oF89Ce7Y4uQ==";
+        };
+        _3nAQEsPv = {
+            "id" = "3nAQEsPv";
+            "file" = "butchery-5.3-neoforge-1.21.4.jar";
+            "hash" = "sha512-/zDN/JUlphA/zczmVe+EZ/TqwNdOw+iVqpFpJy7p19WpyQ6lEB3MwA7HDWuWBTdDS9nJwydtUHvI8JI/XdxtqQ==";
+        };
+        _yj1nqs2N = {
+            "id" = "yj1nqs2N";
+            "file" = "butchery-5.3-neoforge-1.21.8.jar";
+            "hash" = "sha512-mbz7F0P4Mai1rIz6SVtsVqtedxsyc4I1ZBp1/lKNkaPVYA62qbPiV+OzE6S0g4YM/Xs4Ot+R2LFpWpd1d+Y6rA==";
+        };
+        _eSRqVGis = {
+            "id" = "eSRqVGis";
+            "file" = "butchery-5.3.1-forge-1.20.1.jar";
+            "hash" = "sha512-JOuszwlcNnWnI7ACwMs0+HxM1hNmzIxTmci/4aRpzU22nYlZTpZn2S/hylklpJCSLJ0KyCR2Xvxj52vtRh2ByA==";
+        };
+        _ln41xz3j = {
+            "id" = "ln41xz3j";
+            "file" = "butchery-5.3.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-GFf4YRTqXeNoQlqGPUSygDUEvuBhBL64vYMsTncZnY6fcvsdp+ALnaLbxePM90LVnyaqlgqApHB+nKp+Pz2x8Q==";
+        };
+        _qMeJlMhh = {
+            "id" = "qMeJlMhh";
+            "file" = "butchery-5.3.1-neoforge-1.21.4.jar";
+            "hash" = "sha512-xgNcKoBqMX6vPbetroLbhS+h3AOSE/cVO99RKTVdGHhzLa0cOmYW86XRm+8T6gR2v7MGfEwGPB+lpbCsnAo+6A==";
+        };
+        _zDlZVuWo = {
+            "id" = "zDlZVuWo";
+            "file" = "butchery-5.3.1-neoforge-1.21.8.jar";
+            "hash" = "sha512-5et8Ggl7cHNfm3RJObKUsFqFMjCTZTSE+1KkKG5gWJxKld1ynCtAl4gNwzGylqiGmuxCJFtI3jujrIOWTWUULg==";
+        };
     in {
         "MWSUA0uI" = _MWSUA0uI;
         "NjRd3GdB" = _NjRd3GdB;
@@ -680,12 +720,20 @@ let
         "xM7o9PIb" = _xM7o9PIb;
         "bZbA3cSJ" = _bZbA3cSJ;
         "e9P82uFz" = _e9P82uFz;
-        "forge-1.20.1" = _cLCALXJ6;
-        "neoforge-1.21.1" = _NBMGfhOg;
+        "2xu2W5KB" = _2xu2W5KB;
+        "oMDZ0tY4" = _oMDZ0tY4;
+        "3nAQEsPv" = _3nAQEsPv;
+        "yj1nqs2N" = _yj1nqs2N;
+        "eSRqVGis" = _eSRqVGis;
+        "ln41xz3j" = _ln41xz3j;
+        "qMeJlMhh" = _qMeJlMhh;
+        "zDlZVuWo" = _zDlZVuWo;
+        "forge-1.20.1" = _eSRqVGis;
+        "neoforge-1.21.1" = _ln41xz3j;
         "neoforge-1.21.2" = _oOcSV9s8;
         "neoforge-1.21.3" = _oOcSV9s8;
-        "neoforge-1.21.4" = _xM7o9PIb;
-        "neoforge-1.21.8" = _bZbA3cSJ;
+        "neoforge-1.21.4" = _qMeJlMhh;
+        "neoforge-1.21.8" = _zDlZVuWo;
         "neoforge-26.1.2" = _e9P82uFz;
         "pkg-1.0.1" = _MWSUA0uI;
         "pkg-1.1" = _NjRd3GdB;
@@ -742,7 +790,9 @@ let
         "pkg-5.0" = _rv1wGODu;
         "pkg-5.1" = _FzaHuOQq;
         "pkg-5.2" = _e9P82uFz;
-        "default" = _e9P82uFz;
+        "pkg-5.3" = _yj1nqs2N;
+        "pkg-5.3.1" = _zDlZVuWo;
+        "default" = _zDlZVuWo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "butchery";

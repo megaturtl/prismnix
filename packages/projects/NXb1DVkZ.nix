@@ -76,6 +76,11 @@ let
             "file" = "carpet-shadow-legacy-1.0.3-Beta-MC1.21-1.21.1.jar";
             "hash" = "sha512-MS+Ym4OoQCNO5KXkyY1+XqzbE351eODUg/iiLOYQIXNQWfmYPM/0OOSqeHy0QGWymntYQacCr/eKwEy8rMMryw==";
         };
+        _uua2w3t2 = {
+            "id" = "uua2w3t2";
+            "file" = "Carpet-Shadow-Legacy-1.0.3-Beta.2-MC1.21-1.21.1.jar";
+            "hash" = "sha512-Wqh8d9v1JG4/XGcxpQTM/KqKbE6lERkKdI+/ZRV2hf00liZBxJl2zFcIdYBZvXd9dzztympH0pt0mgCc01uBAA==";
+        };
     in {
         "Yj5bY6HY" = _Yj5bY6HY;
         "jXvWGP0g" = _jXvWGP0g;
@@ -92,8 +97,9 @@ let
         "4yKpSxSv" = _4yKpSxSv;
         "S8wBjeqb" = _S8wBjeqb;
         "j59Dbujr" = _j59Dbujr;
-        "fabric-1.21" = _j59Dbujr;
-        "fabric-1.21.1" = _j59Dbujr;
+        "uua2w3t2" = _uua2w3t2;
+        "fabric-1.21" = _uua2w3t2;
+        "fabric-1.21.1" = _uua2w3t2;
         "fabric-1.21.4" = _qmfX7VWB;
         "fabric-1.21.5" = _Z3M1uLe3;
         "fabric-1.21.6" = _rpo13OS8;
@@ -121,7 +127,8 @@ let
         "pkg-1.0.2-MC1.21.9-1.21.11" = _4yKpSxSv;
         "pkg-1.0.2-MC26.1-26.2" = _S8wBjeqb;
         "pkg-1.0.3-Beta-MC1.21-1.21.1" = _j59Dbujr;
-        "default" = _j59Dbujr;
+        "pkg-1.0.3-Beta.2-MC1.21-1.21.1" = _uua2w3t2;
+        "default" = _uua2w3t2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "carpet-shadow-legacy";

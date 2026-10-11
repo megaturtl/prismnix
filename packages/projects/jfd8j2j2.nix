@@ -76,6 +76,11 @@ let
             "file" = "SolarGeneration-26.1.2-8.0.0.jar";
             "hash" = "sha512-4EUNU18qzflu2fFpV8M1Z/Qc3Q0CIJXmGjFPo5ddJf2Us5tc0SND6DNYZ+RRM89zGOcICAWj23kHx7mrVPFYAw==";
         };
+        _ONd7JCYv = {
+            "id" = "ONd7JCYv";
+            "file" = "SolarGeneration-26.3-8.1.0.jar";
+            "hash" = "sha512-G6rQEv0e5O6n9DlhgbGNRBa6rzPhTXJoGI2PYZou2O8V+CWKY4cNZcUL2MlEwfeaHKe6P5nXSjKtjNtw5KqyNg==";
+        };
     in {
         "QE0ROdpP" = _QE0ROdpP;
         "Pz56J2jP" = _Pz56J2jP;
@@ -92,6 +97,7 @@ let
         "A6zZ57WK" = _A6zZ57WK;
         "uEXUtYat" = _uEXUtYat;
         "WUKJ7YKq" = _WUKJ7YKq;
+        "ONd7JCYv" = _ONd7JCYv;
         "forge-1.19.2" = _QE0ROdpP;
         "forge-1.20.1" = _Pz56J2jP;
         "neoforge-1.20.1" = _Pz56J2jP;
@@ -104,6 +110,7 @@ let
         "neoforge-1.21.10" = _rQnXAtur;
         "neoforge-1.21.11" = _A6zZ57WK;
         "neoforge-26.1.2" = _WUKJ7YKq;
+        "neoforge-26.3" = _ONd7JCYv;
         "pkg-5.2.0" = _QE0ROdpP;
         "pkg-6.0.2" = _Pz56J2jP;
         "pkg-6.1.0" = _QWIyCmPj;
@@ -119,7 +126,8 @@ let
         "pkg-7.5.0" = _A6zZ57WK;
         "pkg-7.0.3" = _uEXUtYat;
         "pkg-8.0.0" = _WUKJ7YKq;
-        "default" = _WUKJ7YKq;
+        "pkg-8.1.0" = _ONd7JCYv;
+        "default" = _ONd7JCYv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "solargeneration";

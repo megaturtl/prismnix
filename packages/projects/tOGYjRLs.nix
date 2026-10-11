@@ -51,6 +51,11 @@ let
             "file" = "simple-mod-manager-1.5.5.jar";
             "hash" = "sha512-aqaFDP/x0hK25adXxhBLCnGUKnGEDE3VglR3rbIM3ZQXHDvdT6dT31LDyue1tuVQn9YVQ4qh3abwr5GwOuuaTw==";
         };
+        _jdkHYstb = {
+            "id" = "jdkHYstb";
+            "file" = "simple-mod-manager-1.6.1.jar";
+            "hash" = "sha512-f8Sw82tdT1zpbKGVD041m8/WJ/wgykbag/C16vMVmH2iv7okWugltKUFUXGHDg6JblRasgOLZBXpZV0b21lnEQ==";
+        };
     in {
         "hF5iMVJj" = _hF5iMVJj;
         "ARQgH0WR" = _ARQgH0WR;
@@ -62,6 +67,7 @@ let
         "dp9FoHnh" = _dp9FoHnh;
         "DuBkzMDy" = _DuBkzMDy;
         "RF2XslXN" = _RF2XslXN;
+        "jdkHYstb" = _jdkHYstb;
         "fabric-1.21.7" = _hF5iMVJj;
         "fabric-1.21.8" = _ARQgH0WR;
         "fabric-1.21.9" = _Jvk0X0N7;
@@ -72,6 +78,7 @@ let
         "fabric-26.1.1" = _230Hua3a;
         "fabric-26.1.2" = _DuBkzMDy;
         "fabric-26.2" = _RF2XslXN;
+        "fabric-26.3" = _jdkHYstb;
         "pkg-1.1.0" = _hF5iMVJj;
         "pkg-1.2.0" = _ARQgH0WR;
         "pkg-1.3.0" = _Jvk0X0N7;
@@ -82,7 +89,8 @@ let
         "pkg-1.5.3" = _dp9FoHnh;
         "pkg-1.5.4" = _DuBkzMDy;
         "pkg-1.5.5" = _RF2XslXN;
-        "default" = _RF2XslXN;
+        "pkg-1.6.1" = _jdkHYstb;
+        "default" = _jdkHYstb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-mod-manager";

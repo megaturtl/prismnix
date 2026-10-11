@@ -181,6 +181,11 @@ let
             "file" = "vanityslots-3.0.1+26.2.jar";
             "hash" = "sha512-/TtWTmwHFkLM6LspnHzo2rN4RnKs4OgZ9GUFcHOyXxYQ7+3bwQmuPsrmID2yXREjqYaeOSPR7N/WjW1JOnnNWA==";
         };
+        _1GLaH3yC = {
+            "id" = "1GLaH3yC";
+            "file" = "vanityslots-3.0.1+26.3.jar";
+            "hash" = "sha512-owvKo4+jNEfRcytM1IV+y6TgUq8Cok9zVBO6rkKnuNygleg9H8xp2AW6jEDNlyvEWp+TJw6g3rTIwOulhPV7pw==";
+        };
     in {
         "VjPDUXW5" = _VjPDUXW5;
         "ZQKPltyD" = _ZQKPltyD;
@@ -218,6 +223,7 @@ let
         "JDpNCGF5" = _JDpNCGF5;
         "182UlCAu" = _182UlCAu;
         "7AOkOIs2" = _7AOkOIs2;
+        "1GLaH3yC" = _1GLaH3yC;
         "fabric-1.16.3" = _VjPDUXW5;
         "fabric-1.16.4" = _VjPDUXW5;
         "fabric-1.16.5" = _VjPDUXW5;
@@ -241,6 +247,7 @@ let
         "fabric-26.1.1" = _JDpNCGF5;
         "fabric-26.1.2" = _JDpNCGF5;
         "fabric-26.2" = _7AOkOIs2;
+        "fabric-26.3" = _1GLaH3yC;
         "quilt-1.19.3" = _VB8fqWso;
         "quilt-1.18" = _IPHcACSs;
         "quilt-1.18.1" = _IPHcACSs;
@@ -287,7 +294,8 @@ let
         "pkg-3.0.0+26.1" = _JDpNCGF5;
         "pkg-3.0.0+26.2" = _182UlCAu;
         "pkg-3.0.1+26.2" = _7AOkOIs2;
-        "default" = _7AOkOIs2;
+        "pkg-3.0.1+26.3" = _1GLaH3yC;
+        "default" = _1GLaH3yC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanity";

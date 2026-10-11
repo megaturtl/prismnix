@@ -111,6 +111,16 @@ let
             "file" = "DivinityEconomy-3.6.0-beta1.jar";
             "hash" = "sha512-2Af/PM1YyN2IGZ0ycQ0NnZcD1Z3gGZrSs3kGn9GjCc2XNJLYiQA3r589L9VBZzxLmozmd+EPjrt9eLXSOyxOiA==";
         };
+        _7SwjaLow = {
+            "id" = "7SwjaLow";
+            "file" = "DivinityEconomy-4.0.0.jar";
+            "hash" = "sha512-y4ORxSrM4p+eLdKToxmT+8Bu1MgHnarfUrL2skbjqwDSe2CWD5xW2eKT3IWRBhkdIdKzzY2ezYZj4r7q8YheFg==";
+        };
+        _w3N6lr36 = {
+            "id" = "w3N6lr36";
+            "file" = "DivinityEconomy-4.0.0-arclight.jar";
+            "hash" = "sha512-ok7et21OnKZFQaxxjdGsEbPqKFlszbkgqY6cy3y545Uw0TSVvVdtVq6XinY7YpiAVwBD5YucaeYcPbL+CUBdkQ==";
+        };
     in {
         "O7AXNsl4" = _O7AXNsl4;
         "YgplBqiU" = _YgplBqiU;
@@ -134,6 +144,8 @@ let
         "4WlBPAzg" = _4WlBPAzg;
         "BgORlUYC" = _BgORlUYC;
         "iRUlFprb" = _iRUlFprb;
+        "7SwjaLow" = _7SwjaLow;
+        "w3N6lr36" = _w3N6lr36;
         "bukkit-1.16" = _qRzHxmCI;
         "bukkit-1.16.1" = _qRzHxmCI;
         "bukkit-1.16.2" = _qRzHxmCI;
@@ -162,6 +174,7 @@ let
         "bukkit-1.21.2" = _BgORlUYC;
         "bukkit-1.21.3" = _BgORlUYC;
         "bukkit-1.21.10" = _iRUlFprb;
+        "bukkit-26.2" = _w3N6lr36;
         "paper-1.16" = _qRzHxmCI;
         "paper-1.16.1" = _qRzHxmCI;
         "paper-1.16.2" = _qRzHxmCI;
@@ -190,6 +203,7 @@ let
         "paper-1.21.2" = _BgORlUYC;
         "paper-1.21.3" = _BgORlUYC;
         "paper-1.21.10" = _iRUlFprb;
+        "paper-26.2" = _w3N6lr36;
         "spigot-1.16" = _qRzHxmCI;
         "spigot-1.16.1" = _qRzHxmCI;
         "spigot-1.16.2" = _qRzHxmCI;
@@ -218,6 +232,7 @@ let
         "spigot-1.21.2" = _BgORlUYC;
         "spigot-1.21.3" = _BgORlUYC;
         "spigot-1.21.10" = _iRUlFprb;
+        "spigot-26.2" = _w3N6lr36;
         "purpur-1.16" = _qRzHxmCI;
         "purpur-1.16.1" = _qRzHxmCI;
         "purpur-1.16.2" = _qRzHxmCI;
@@ -246,6 +261,7 @@ let
         "purpur-1.21.2" = _BgORlUYC;
         "purpur-1.21.3" = _BgORlUYC;
         "purpur-1.21.10" = _iRUlFprb;
+        "purpur-26.2" = _7SwjaLow;
         "pkg-1.0.0" = _O7AXNsl4;
         "pkg-1.1.0" = _YgplBqiU;
         "pkg-2.2.0" = _qRzHxmCI;
@@ -268,7 +284,9 @@ let
         "pkg-3.5.6" = _4WlBPAzg;
         "pkg-3.5.7" = _BgORlUYC;
         "pkg-3.6.0-beta1" = _iRUlFprb;
-        "default" = _iRUlFprb;
+        "pkg-4.0.0" = _7SwjaLow;
+        "pkg-4.0.0-arclight" = _w3N6lr36;
+        "default" = _w3N6lr36;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "divinity-economy";

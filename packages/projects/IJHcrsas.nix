@@ -46,6 +46,16 @@ let
             "file" = "Stellarity-5.5.1-Music.zip";
             "hash" = "sha512-MBZM6VeOeDNtVEXTwBkHAESFgIQ4CiuxihxfYJ+zAnCWuTFyw5xSdnTmwqETGUpzWtYBC9G+cb/IvdaphuWEvg==";
         };
+        _g5L5nzV2 = {
+            "id" = "g5L5nzV2";
+            "file" = "Stellarity-6.0.0-Music.zip";
+            "hash" = "sha512-9EX5s/jptmgWPkGuSX1Cu2ZIh5r/ldQAoGoTxiUNO82RX86luo2VoQYAtsjQbr0DuV00ivg2EHuSDn8l99sk7w==";
+        };
+        _JvkAfxb4 = {
+            "id" = "JvkAfxb4";
+            "file" = "Stellarity-3.1.0-Music.zip";
+            "hash" = "sha512-+ozTELNo/movMfdeb6yE1rTlYmtW0RJhlcRkXzK7IkXv1z0S0GqrrAqo5McpoNvZvdcUhiQV5L9MoFJEKV69BQ==";
+        };
     in {
         "f8qAu28H" = _f8qAu28H;
         "np4sGTWU" = _np4sGTWU;
@@ -56,11 +66,13 @@ let
         "4Dsv10Gi" = _4Dsv10Gi;
         "67k1vzbI" = _67k1vzbI;
         "vCvLW96W" = _vCvLW96W;
+        "g5L5nzV2" = _g5L5nzV2;
+        "JvkAfxb4" = _JvkAfxb4;
         "minecraft-1.20.2" = _f8qAu28H;
         "minecraft-1.20.3" = _f8qAu28H;
         "minecraft-1.20.4" = _f8qAu28H;
-        "minecraft-1.21" = _KlL5P1FZ;
-        "minecraft-1.21.1" = _KlL5P1FZ;
+        "minecraft-1.21" = _JvkAfxb4;
+        "minecraft-1.21.1" = _JvkAfxb4;
         "minecraft-1.21.2" = _KlL5P1FZ;
         "minecraft-1.21.3" = _KlL5P1FZ;
         "minecraft-1.21.4" = _KlL5P1FZ;
@@ -70,11 +82,12 @@ let
         "minecraft-1.21.8" = _KlL5P1FZ;
         "minecraft-1.21.9" = _KlL5P1FZ;
         "minecraft-1.21.10" = _KlL5P1FZ;
-        "minecraft-1.21.11" = _vCvLW96W;
-        "minecraft-26.1" = _vCvLW96W;
-        "minecraft-26.1.1" = _vCvLW96W;
-        "minecraft-26.1.2" = _vCvLW96W;
-        "minecraft-26.2" = _vCvLW96W;
+        "minecraft-1.21.11" = _g5L5nzV2;
+        "minecraft-26.1" = _g5L5nzV2;
+        "minecraft-26.1.1" = _g5L5nzV2;
+        "minecraft-26.1.2" = _g5L5nzV2;
+        "minecraft-26.2" = _g5L5nzV2;
+        "minecraft-26.3" = _g5L5nzV2;
         "pkg-2.2.0" = _f8qAu28H;
         "pkg-3.0.0" = _np4sGTWU;
         "pkg-3.0.3" = _Qohw0Ypc;
@@ -84,7 +97,9 @@ let
         "pkg-5.4.0" = _4Dsv10Gi;
         "pkg-5.5.0" = _67k1vzbI;
         "pkg-5.5.1" = _vCvLW96W;
-        "default" = _vCvLW96W;
+        "pkg-6.0.0" = _g5L5nzV2;
+        "pkg-3.1.0" = _JvkAfxb4;
+        "default" = _JvkAfxb4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stellarity-music";

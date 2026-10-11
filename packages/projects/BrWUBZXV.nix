@@ -36,6 +36,11 @@ let
             "file" = "ParticlePlus-26.2.jar";
             "hash" = "sha512-iT8mOLNnVfv4U2LraW4kv0Q7fdebiBPL+pOmTD+yVpcv22BbPIjaCjUK24s1XQafgWpyymu8r8CFLtYXlC/RKw==";
         };
+        _lOEK9n4Y = {
+            "id" = "lOEK9n4Y";
+            "file" = "ParticlePlus-26.3.jar";
+            "hash" = "sha512-Ttmi5OGJ6A6TyKf12m4yFu0icHu+rj23qBztKviHP9AGkcrcmt+WpXXEPUx9JP2Dpg54rjbSXTNq+7KVfraRww==";
+        };
     in {
         "j2zRjOq0" = _j2zRjOq0;
         "umAX7fg1" = _umAX7fg1;
@@ -44,6 +49,7 @@ let
         "Ucepcs6E" = _Ucepcs6E;
         "eiYVOyvT" = _eiYVOyvT;
         "ygDqXqzF" = _ygDqXqzF;
+        "lOEK9n4Y" = _lOEK9n4Y;
         "fabric-1.20" = _7f1kCLvR;
         "fabric-1.20.1" = _7f1kCLvR;
         "fabric-1.20.2" = _7f1kCLvR;
@@ -67,10 +73,11 @@ let
         "fabric-26.1.1" = _eiYVOyvT;
         "fabric-26.1.2" = _eiYVOyvT;
         "fabric-26.2" = _ygDqXqzF;
+        "fabric-26.3" = _lOEK9n4Y;
         "pkg-1.0" = _j2zRjOq0;
         "pkg-1.0.0" = _umAX7fg1;
-        "pkg-1.1" = _ygDqXqzF;
-        "default" = _ygDqXqzF;
+        "pkg-1.1" = _lOEK9n4Y;
+        "default" = _lOEK9n4Y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "particle-plus";

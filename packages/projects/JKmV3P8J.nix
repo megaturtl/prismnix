@@ -11,9 +11,15 @@ let
             "file" = "Pack & White.zip";
             "hash" = "sha512-NokubNf3bhlSw18nu/A4k+9S3bxbMGmvmJxKVX7rCU+xCzmJ/yJ6UpShZsjXSYx8n0UbHeNFeudAkkoEcF7h1w==";
         };
+        _sKAVIhaD = {
+            "id" = "sKAVIhaD";
+            "file" = "Pack & White.zip";
+            "hash" = "sha512-0w/DLhy8qhwoTnvkzgmqzHp+AXxT0jIHd32NQMgxadfbRljbkKVUZk7+SlyHPy76z1JYYEt8aGKs+VWggXZHWw==";
+        };
     in {
         "dkh3zXnD" = _dkh3zXnD;
         "uWjEgZdd" = _uWjEgZdd;
+        "sKAVIhaD" = _sKAVIhaD;
         "minecraft-1.20.2" = _dkh3zXnD;
         "minecraft-1.20.3" = _dkh3zXnD;
         "minecraft-1.20.4" = _dkh3zXnD;
@@ -21,6 +27,14 @@ let
         "minecraft-1.20.6" = _dkh3zXnD;
         "minecraft-1.21" = _dkh3zXnD;
         "minecraft-1.21.8" = _uWjEgZdd;
+        "minecraft-1.21.9" = _sKAVIhaD;
+        "minecraft-1.21.10" = _sKAVIhaD;
+        "minecraft-1.21.11" = _sKAVIhaD;
+        "minecraft-26.1" = _sKAVIhaD;
+        "minecraft-26.1.1" = _sKAVIhaD;
+        "minecraft-26.1.2" = _sKAVIhaD;
+        "minecraft-26.2" = _sKAVIhaD;
+        "minecraft-26.3" = _sKAVIhaD;
         "vanilla-1.20.2" = _dkh3zXnD;
         "vanilla-1.20.3" = _dkh3zXnD;
         "vanilla-1.20.4" = _dkh3zXnD;
@@ -29,7 +43,8 @@ let
         "vanilla-1.21" = _dkh3zXnD;
         "pkg-2.1.0" = _dkh3zXnD;
         "pkg-2.2.0" = _uWjEgZdd;
-        "default" = _uWjEgZdd;
+        "pkg-3.0.0" = _sKAVIhaD;
+        "default" = _sKAVIhaD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pack-and-white";

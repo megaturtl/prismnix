@@ -61,6 +61,16 @@ let
             "file" = "all-items-advancements-datapack-26.3.0.jar";
             "hash" = "sha512-Ewa+9KMyHwTTyvdxoztP76Jtu2pMtSXlBhaeTBlbMlF3+tuN9pZCWPLSNHstxXqkYl5VfZraarjK1AyVenXGLQ==";
         };
+        _pV5GKNs3 = {
+            "id" = "pV5GKNs3";
+            "file" = "All Items Advancements 26.4.0.zip";
+            "hash" = "sha512-PEz2UExZtMcuOp7d+gNpADuynEEFOBZjgJfFk4h87xVpmg3v2HSb/NG2ANLYYfn2PGVPwJfl2hC7m50sfIP9ag==";
+        };
+        _t0tGSyzB = {
+            "id" = "t0tGSyzB";
+            "file" = "all-items-advancements-datapack-26.4.0.jar";
+            "hash" = "sha512-d994DXizpddxY5gwM96qRO0cKD5iXwMjpMRBgBrvrR5JVPz5IM3GP4Qtz9PB/D9qw4H8W/nqU7zxx4NOSKDeYg==";
+        };
     in {
         "aVRcZzRN" = _aVRcZzRN;
         "Jn1V3KYO" = _Jn1V3KYO;
@@ -74,6 +84,8 @@ let
         "IAuRv83B" = _IAuRv83B;
         "s0ShHa07" = _s0ShHa07;
         "asQk0v57" = _asQk0v57;
+        "pV5GKNs3" = _pV5GKNs3;
+        "t0tGSyzB" = _t0tGSyzB;
         "datapack-1.21.9" = _aVRcZzRN;
         "datapack-1.21.10" = _aVRcZzRN;
         "datapack-1.21.11" = _lQKmEh5W;
@@ -81,6 +93,7 @@ let
         "datapack-26.1.1" = _viXhdUmc;
         "datapack-26.1.2" = _viXhdUmc;
         "datapack-26.2" = _s0ShHa07;
+        "datapack-26.3" = _pV5GKNs3;
         "fabric-1.21.9" = _Jn1V3KYO;
         "fabric-1.21.10" = _Jn1V3KYO;
         "fabric-1.21.11" = _si0FaZgW;
@@ -88,6 +101,7 @@ let
         "fabric-26.1.1" = _IAuRv83B;
         "fabric-26.1.2" = _IAuRv83B;
         "fabric-26.2" = _asQk0v57;
+        "fabric-26.3" = _t0tGSyzB;
         "forge-1.21.9" = _Jn1V3KYO;
         "forge-1.21.10" = _Jn1V3KYO;
         "forge-1.21.11" = _si0FaZgW;
@@ -95,6 +109,7 @@ let
         "forge-26.1.1" = _IAuRv83B;
         "forge-26.1.2" = _IAuRv83B;
         "forge-26.2" = _asQk0v57;
+        "forge-26.3" = _t0tGSyzB;
         "neoforge-1.21.9" = _Jn1V3KYO;
         "neoforge-1.21.10" = _Jn1V3KYO;
         "neoforge-1.21.11" = _si0FaZgW;
@@ -102,6 +117,7 @@ let
         "neoforge-26.1.1" = _IAuRv83B;
         "neoforge-26.1.2" = _IAuRv83B;
         "neoforge-26.2" = _asQk0v57;
+        "neoforge-26.3" = _t0tGSyzB;
         "quilt-1.21.9" = _Jn1V3KYO;
         "quilt-1.21.10" = _Jn1V3KYO;
         "quilt-1.21.11" = _si0FaZgW;
@@ -109,6 +125,7 @@ let
         "quilt-26.1.1" = _IAuRv83B;
         "quilt-26.1.2" = _IAuRv83B;
         "quilt-26.2" = _asQk0v57;
+        "quilt-26.3" = _t0tGSyzB;
         "pkg-26.1.0" = _aVRcZzRN;
         "pkg-26.1.0+mod" = _Jn1V3KYO;
         "pkg-26.1.1" = _Rx1FPAaW;
@@ -121,7 +138,9 @@ let
         "pkg-26.2.0+mod" = _IAuRv83B;
         "pkg-26.3.0" = _s0ShHa07;
         "pkg-26.3.0+mod" = _asQk0v57;
-        "default" = _asQk0v57;
+        "pkg-26.4.0" = _pV5GKNs3;
+        "pkg-26.4.0+mod" = _t0tGSyzB;
+        "default" = _t0tGSyzB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "all-items-advancements-datapack";

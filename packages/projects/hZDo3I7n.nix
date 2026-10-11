@@ -101,6 +101,11 @@ let
             "file" = "Autumn's Realistic Cloud's v1.8.1.zip";
             "hash" = "sha512-CrunHv1s3uNZ0Gof0NvyZOJuf04NwN0MarqcjZePRPVpkfTFj9EaQypi3SiY1ejZzbQkAh3NzU1zLm2frCtAHw==";
         };
+        _fl3HPpHG = {
+            "id" = "fl3HPpHG";
+            "file" = "Autumn Resource Pack v1.9.zip";
+            "hash" = "sha512-KLYfFrHt7VpsKnuEbreg1d/e18RQZtjdTBPeJSsbfDNEjrnHmv8vtiXcBQnTWZJul/hezCa2DOn1a/P3uqKL3A==";
+        };
     in {
         "5pe9aH56" = _5pe9aH56;
         "yN8ZMCu8" = _yN8ZMCu8;
@@ -122,7 +127,8 @@ let
         "HNAXDYVu" = _HNAXDYVu;
         "oRsuObdT" = _oRsuObdT;
         "RXtpZG8x" = _RXtpZG8x;
-        "minecraft-1.21.1" = _RXtpZG8x;
+        "fl3HPpHG" = _fl3HPpHG;
+        "minecraft-1.21.1" = _fl3HPpHG;
         "pkg-v1" = _5pe9aH56;
         "pkg-v1.1" = _yN8ZMCu8;
         "pkg-v1.2" = _h01TvTIM;
@@ -140,7 +146,8 @@ let
         "pkg-v1.7.2" = _HNAXDYVu;
         "pkg-v1.8" = _oRsuObdT;
         "pkg-v1.8.1" = _RXtpZG8x;
-        "default" = _RXtpZG8x;
+        "pkg-v1.9" = _fl3HPpHG;
+        "default" = _fl3HPpHG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "autumns-realistic-clouds";

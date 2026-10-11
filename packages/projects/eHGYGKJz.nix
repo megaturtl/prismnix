@@ -316,6 +316,31 @@ let
             "file" = "Spice of Life Onion_NEOFORGE_v1.5.5_mc26.2.jar";
             "hash" = "sha512-Qbd2Tz3FpjBHPJPOh+vG2/9wALVVvyRuWqzSzsF5nXFr4h3BgXMhgVm9bGUm+ZPNntKnF6dHJ526VzOizdCGcA==";
         };
+        _HflfbZhg = {
+            "id" = "HflfbZhg";
+            "file" = "Spice of Life Onion_NEOFORGE_v1.5.5_mc26.3.jar";
+            "hash" = "sha512-Le2dXHbdRLC7gfYCnvh7la0enchqIryPqJ73pElCgugQPUZ9lt9zrQHxlI/HSbWI4nz2rBu7+0RAzPEcm3gvQA==";
+        };
+        _ak7G1U49 = {
+            "id" = "ak7G1U49";
+            "file" = "Spice of Life Onion_NEOFORGE_v1.5.6_mc26.3.jar";
+            "hash" = "sha512-uBhNAKJ1a1wJC3NwvwhwsHMJzW7e5ckDC6Gheme+UuNoloTa9QPCyshAXA52AisCZhslJkg5VFeDFV4fKLFjKQ==";
+        };
+        _K4uDHMWQ = {
+            "id" = "K4uDHMWQ";
+            "file" = "Spice of Life Onion_NEOFORGE_v1.5.6_mc26.1.2.jar";
+            "hash" = "sha512-mMW+zSbrYsqfBwapVufzx6Y/ZBJNOev4424D+xb6iemp1Ts74BkGpCyEU7P+ouchEm4xSjqSRHCMvHVls11amQ==";
+        };
+        _PtXSNLlv = {
+            "id" = "PtXSNLlv";
+            "file" = "Spice of Life Onion_NEOFORGE_v1.5.7_mc1.21.1.jar";
+            "hash" = "sha512-FtlVwaxpNLmT8m31zek/z+wAt2MKkf9TJx5JW29soaR/Qdjlh8iVk89cNwaoiRqm6jbBKrRilmyDh1B3YB8Kww==";
+        };
+        _oByLFoqy = {
+            "id" = "oByLFoqy";
+            "file" = "Spice of Life Onion_NEOFORGE_v1.5.7_mc26.3.jar";
+            "hash" = "sha512-W6Ne/fNSXTyXqU5BCu3XhA44G3XxDNQ3DX4Yz/hriupmT+T6CSBK9MSNIRXgK0p1zBxMt78uL7EwZyLbYxtEww==";
+        };
     in {
         "Pg2OHsCt" = _Pg2OHsCt;
         "2q5pj1B7" = _2q5pj1B7;
@@ -380,21 +405,27 @@ let
         "4YRKCovn" = _4YRKCovn;
         "XInt1GzM" = _XInt1GzM;
         "sOFsb6B4" = _sOFsb6B4;
+        "HflfbZhg" = _HflfbZhg;
+        "ak7G1U49" = _ak7G1U49;
+        "K4uDHMWQ" = _K4uDHMWQ;
+        "PtXSNLlv" = _PtXSNLlv;
+        "oByLFoqy" = _oByLFoqy;
         "forge-1.20.1" = _kMmavFVY;
         "forge-1.20.2" = _9LwPmWGn;
         "neoforge-1.20.1" = _kMmavFVY;
         "neoforge-1.20.4" = _fzZjNJAw;
         "neoforge-1.20.6" = _rxXOsFlW;
         "neoforge-1.21" = _TETmCka2;
-        "neoforge-1.21.1" = _4YRKCovn;
+        "neoforge-1.21.1" = _PtXSNLlv;
         "neoforge-1.21.3" = _DjHjXCEL;
         "neoforge-1.21.4" = _kf9wAsaY;
         "neoforge-1.21.8" = _icYOqg8v;
         "neoforge-1.21.9" = _VW8ciZIz;
         "neoforge-1.21.10" = _Qc9ojBEw;
         "neoforge-1.21.11" = _GuNTRp3x;
-        "neoforge-26.1.2" = _XInt1GzM;
+        "neoforge-26.1.2" = _K4uDHMWQ;
         "neoforge-26.2" = _sOFsb6B4;
+        "neoforge-26.3" = _oByLFoqy;
         "pkg-1.0.0" = _Pg2OHsCt;
         "pkg-1.1.0" = _2q5pj1B7;
         "pkg-1.1.1" = _ceKPCtd3;
@@ -430,9 +461,10 @@ let
         "pkg-1.5.2" = _U2lznyc6;
         "pkg-1.5.3" = _V3ASELS5;
         "pkg-1.5.4" = _yCsMQoEL;
-        "pkg-1.5.5" = _sOFsb6B4;
-        "pkg-1.5.6" = _4YRKCovn;
-        "default" = _sOFsb6B4;
+        "pkg-1.5.5" = _HflfbZhg;
+        "pkg-1.5.6" = _K4uDHMWQ;
+        "pkg-1.5.7" = _oByLFoqy;
+        "default" = _oByLFoqy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spice-of-life-onion";

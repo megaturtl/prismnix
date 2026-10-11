@@ -21,11 +21,23 @@ let
             "file" = "OpenInv.jar";
             "hash" = "sha512-KDalaMzdJSYLzdVJwXAsN9cBq+Z4gZLMBSJaw2FjCgv/phu1ABEQtv3DXmPowvX5IN4UDBYYR0ScBC5lGFKPJg==";
         };
+        _4GKxiCie = {
+            "id" = "4GKxiCie";
+            "file" = "OpenInv.jar";
+            "hash" = "sha512-5ff6BAobjvB/9eV6kKo2ylgxkcbOcD6e4qDPsEin1n80p7laTpTTydNOnGFRQgkOdFjDogROAsucDUftG5xfHw==";
+        };
+        _DtpGKTg8 = {
+            "id" = "DtpGKTg8";
+            "file" = "OpenInv.jar";
+            "hash" = "sha512-zwr8HHRZ7qpxNaZ4ESJJakjtdrfJOswTe1CVZWPlAPPZdEya2U/dh4Ui9XToujgCOAGXSMAz+ogLArHsKDHAug==";
+        };
     in {
         "eRnnClIe" = _eRnnClIe;
         "aRNGu87x" = _aRNGu87x;
         "ttQ37TAp" = _ttQ37TAp;
         "fBzOI2qU" = _fBzOI2qU;
+        "4GKxiCie" = _4GKxiCie;
+        "DtpGKTg8" = _DtpGKTg8;
         "folia-1.21.1" = _eRnnClIe;
         "folia-1.21.3" = _eRnnClIe;
         "folia-1.21.4" = _eRnnClIe;
@@ -35,9 +47,10 @@ let
         "folia-1.21.8" = _ttQ37TAp;
         "folia-1.21.9" = _fBzOI2qU;
         "folia-1.21.10" = _fBzOI2qU;
-        "folia-1.21.11" = _fBzOI2qU;
-        "folia-26.1.2" = _fBzOI2qU;
-        "folia-26.2" = _fBzOI2qU;
+        "folia-1.21.11" = _DtpGKTg8;
+        "folia-26.1.2" = _DtpGKTg8;
+        "folia-26.2" = _DtpGKTg8;
+        "folia-26.3" = _DtpGKTg8;
         "paper-1.21.1" = _eRnnClIe;
         "paper-1.21.3" = _eRnnClIe;
         "paper-1.21.4" = _eRnnClIe;
@@ -47,9 +60,10 @@ let
         "paper-1.21.8" = _ttQ37TAp;
         "paper-1.21.9" = _fBzOI2qU;
         "paper-1.21.10" = _fBzOI2qU;
-        "paper-1.21.11" = _fBzOI2qU;
-        "paper-26.1.2" = _fBzOI2qU;
-        "paper-26.2" = _fBzOI2qU;
+        "paper-1.21.11" = _DtpGKTg8;
+        "paper-26.1.2" = _DtpGKTg8;
+        "paper-26.2" = _DtpGKTg8;
+        "paper-26.3" = _DtpGKTg8;
         "purpur-1.21.1" = _eRnnClIe;
         "purpur-1.21.3" = _eRnnClIe;
         "purpur-1.21.4" = _eRnnClIe;
@@ -69,14 +83,17 @@ let
         "spigot-1.21.8" = _ttQ37TAp;
         "spigot-1.21.9" = _fBzOI2qU;
         "spigot-1.21.10" = _fBzOI2qU;
-        "spigot-1.21.11" = _fBzOI2qU;
-        "spigot-26.1.2" = _fBzOI2qU;
-        "spigot-26.2" = _fBzOI2qU;
+        "spigot-1.21.11" = _DtpGKTg8;
+        "spigot-26.1.2" = _DtpGKTg8;
+        "spigot-26.2" = _DtpGKTg8;
+        "spigot-26.3" = _DtpGKTg8;
         "pkg-5.3.0" = _eRnnClIe;
         "pkg-5.3.1" = _aRNGu87x;
         "pkg-5.3.2" = _ttQ37TAp;
         "pkg-5.3.3" = _fBzOI2qU;
-        "default" = _fBzOI2qU;
+        "pkg-5.3.4" = _4GKxiCie;
+        "pkg-5.3.5" = _DtpGKTg8;
+        "default" = _DtpGKTg8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "openinv";

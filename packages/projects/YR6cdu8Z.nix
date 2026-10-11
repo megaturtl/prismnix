@@ -136,6 +136,21 @@ let
             "file" = "Bucket-of-Nautilus-26.2-neoforge-1.3.jar";
             "hash" = "sha512-pbY1PayB23/aZsZKvxdZCApJxM2Iyp5F3dhge8YDivRZgbhxr9WggtNUSO9AdrIZdYAew+C+65cNJYL+rWIATA==";
         };
+        _bUYJ2tDf = {
+            "id" = "bUYJ2tDf";
+            "file" = "Bucket-of-Nautilus-26.3-fabric-1.3.jar";
+            "hash" = "sha512-pWfoVtMztHE6JKx181b5oa0a/pfTG91xIOHbTBcm67Tz4VXAaX6o3Al6KevpMnFRJbSd2VO0ElEh2v5lXD+OKg==";
+        };
+        _bc8MCSvY = {
+            "id" = "bc8MCSvY";
+            "file" = "Bucket-of-Nautilus-26.3-forge-1.3.jar";
+            "hash" = "sha512-57TkAeYnXmc9pafaoj+5dcwl6WJSTcoLzlPDEBuJrdVMYEbXV78D4aEbiB8H6iXjAOkIbRbkIMlAU6txPOUO5A==";
+        };
+        _xgeKVJOT = {
+            "id" = "xgeKVJOT";
+            "file" = "Bucket-of-Nautilus-26.3-neoforge-1.3.jar";
+            "hash" = "sha512-A5JoKhc9yv9xg9Nuqwmlbb7ZHiKjQaEK46jItpQ3A13/mddyr0POI0/M9CS5rohE07qR4XSZtxy0ibjZMz9kog==";
+        };
     in {
         "lgeO6NcY" = _lgeO6NcY;
         "IC7YIhTA" = _IC7YIhTA;
@@ -164,19 +179,25 @@ let
         "FklVR6gM" = _FklVR6gM;
         "6D6UnyJf" = _6D6UnyJf;
         "5Ng9Z88M" = _5Ng9Z88M;
+        "bUYJ2tDf" = _bUYJ2tDf;
+        "bc8MCSvY" = _bc8MCSvY;
+        "xgeKVJOT" = _xgeKVJOT;
         "fabric-25w45a" = _pDVVSeHy;
         "fabric-1.21.11" = _nzXUEuwH;
         "fabric-26.1" = _AJZfV70T;
         "fabric-26.1.2" = _EMLxe3Fo;
         "fabric-26.2" = _FklVR6gM;
+        "fabric-26.3" = _bUYJ2tDf;
         "forge-1.21.11" = _mrrYGXs4;
         "forge-26.1" = _ZqZNTohc;
         "forge-26.1.2" = _6OlpNAeU;
         "forge-26.2" = _6D6UnyJf;
+        "forge-26.3" = _bc8MCSvY;
         "neoforge-1.21.11" = _ZJYZm855;
         "neoforge-26.1" = _UestgmOA;
         "neoforge-26.1.2" = _Jk50tzkf;
         "neoforge-26.2" = _5Ng9Z88M;
+        "neoforge-26.3" = _xgeKVJOT;
         "pkg-1.0-beta" = _lgeO6NcY;
         "pkg-1.0-beta.2" = _IC7YIhTA;
         "pkg-1.0-beta.3" = _J8zpgP3T;
@@ -185,8 +206,8 @@ let
         "pkg-1.0.1" = _zykQdaC5;
         "pkg-1.1" = _jseeneLi;
         "pkg-1.2" = _j0utRCW4;
-        "pkg-1.3" = _5Ng9Z88M;
-        "default" = _5Ng9Z88M;
+        "pkg-1.3" = _xgeKVJOT;
+        "default" = _xgeKVJOT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bucket-of-nautilus";

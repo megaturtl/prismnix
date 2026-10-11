@@ -101,6 +101,11 @@ let
             "file" = "InventoryTweaks-2.6.1.jar";
             "hash" = "sha512-Ef8oDhWQQ0dTKTG0gm9lcr1FFDci1kOpG/wNPWaJlV1Vpb4sxwG2y3+WYdwDaNquitvBGSalDMVV7TfGXV1rMw==";
         };
+        _HE8NpKcy = {
+            "id" = "HE8NpKcy";
+            "file" = "InventoryTweaks-2.6.2.jar";
+            "hash" = "sha512-1c/w3TPYQ89VAHQT2Q6nwr/bthmXrqB3VcGr3PwJd7DMX5GbzrSCVO+uSglDZhWD7/9wC51BGOpl6A9ndEfBZg==";
+        };
     in {
         "gXabcT7m" = _gXabcT7m;
         "4gxp1zZ1" = _4gxp1zZ1;
@@ -122,8 +127,9 @@ let
         "45ldXbYV" = _45ldXbYV;
         "lRaPM7B2" = _lRaPM7B2;
         "57Efvarl" = _57Efvarl;
-        "babric-b1.7.3" = _57Efvarl;
-        "fabric-b1.7.3" = _57Efvarl;
+        "HE8NpKcy" = _HE8NpKcy;
+        "babric-b1.7.3" = _HE8NpKcy;
+        "fabric-b1.7.3" = _HE8NpKcy;
         "pkg-1.1.1" = _gXabcT7m;
         "pkg-1.1.2" = _4gxp1zZ1;
         "pkg-2.0.0" = _THThWdmm;
@@ -144,7 +150,8 @@ let
         "pkg-2.5.2" = _45ldXbYV;
         "pkg-2.6.0" = _lRaPM7B2;
         "pkg-2.6.1" = _57Efvarl;
-        "default" = _57Efvarl;
+        "pkg-2.6.2" = _HE8NpKcy;
+        "default" = _HE8NpKcy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "inventorytweaks";

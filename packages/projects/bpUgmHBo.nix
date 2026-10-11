@@ -351,6 +351,16 @@ let
             "file" = "plushables-neoforge-2.3.3+1.21.1.jar";
             "hash" = "sha512-583imIjWUw88P6S0Y7CZYiLIJE9iCdK/0vygJIWpDsDDbGCcUfNmzN+zpMxiMita3DIGBQRKk5EOanK1XIJflQ==";
         };
+        _og0GBAcE = {
+            "id" = "og0GBAcE";
+            "file" = "plushables-fabric-2.6.1+26.3.jar";
+            "hash" = "sha512-pwaCVBUblGBeGhFYXp2b2jvoUsVhFNBHXtDfOUeZjLkprPlwb5yNYVovaTaYt8YjluDr6QPwBAB+w4Y/jaJZQA==";
+        };
+        _CWRxGrbY = {
+            "id" = "CWRxGrbY";
+            "file" = "plushables-neoforge-2.6.1+26.3.jar";
+            "hash" = "sha512-0K+N8/aV97EoEoryx1X7IMqjnlZJX6eV9aZbZLDQZDfuoUFDHM8GRzPTTiOj62IfMd8f0/QnfpIP8W5lD+k4sA==";
+        };
     in {
         "xh93Jsy0" = _xh93Jsy0;
         "sEkHixAS" = _sEkHixAS;
@@ -422,6 +432,8 @@ let
         "siZ6j2ty" = _siZ6j2ty;
         "Md5wdY6O" = _Md5wdY6O;
         "qmhWJC02" = _qmhWJC02;
+        "og0GBAcE" = _og0GBAcE;
+        "CWRxGrbY" = _CWRxGrbY;
         "forge-1.16.5" = _xh93Jsy0;
         "fabric-1.19" = _qtcb2QZf;
         "fabric-1.20" = _3GogDQKJ;
@@ -434,6 +446,7 @@ let
         "fabric-26.1" = _hiM44CLP;
         "fabric-26.1.1" = _hiM44CLP;
         "fabric-26.1.2" = _hiM44CLP;
+        "fabric-26.3" = _og0GBAcE;
         "quilt-1.20" = _3GogDQKJ;
         "quilt-1.20.1" = _ki6fSsh4;
         "quilt-1.20.2" = _Ec2kjlCi;
@@ -445,6 +458,7 @@ let
         "neoforge-26.1.1" = _siZ6j2ty;
         "neoforge-26.1.2" = _siZ6j2ty;
         "neoforge-1.21" = _qmhWJC02;
+        "neoforge-26.3" = _CWRxGrbY;
         "pkg-0.1.3" = _xh93Jsy0;
         "pkg-0.0.1b" = _sEkHixAS;
         "pkg-0.1.0" = _G7ymWNIW;
@@ -485,7 +499,8 @@ let
         "pkg-2.3.2+1.21.1" = _zhSs1Wqd;
         "pkg-2.6.1+26.1.x" = _siZ6j2ty;
         "pkg-2.3.3+1.21.1" = _qmhWJC02;
-        "default" = _qmhWJC02;
+        "pkg-2.6.1+26.3" = _CWRxGrbY;
+        "default" = _CWRxGrbY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "plushables";

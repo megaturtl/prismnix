@@ -546,6 +546,31 @@ let
             "file" = "earthmobsmod-26.2-30.5.0.jar";
             "hash" = "sha512-ghO8AkeeCTdMSWlsE4MMzpYN+LiaCkOGBlgf/ps6h7vshm+NsSq/9GaLvi1/CpkuQKUgqJMdG9+iqBb9teuZ4g==";
         };
+        _Adxweoua = {
+            "id" = "Adxweoua";
+            "file" = "earthmobsmod-26.3-31.0.0.jar";
+            "hash" = "sha512-qaPLamv097xqQKzweaDRsFUDrq+JdRAB7pMJUwbh+T2OjclHfA6SPlLNrQwxGBjH3/Hh6cbOBfPnz3RUor1bug==";
+        };
+        _Vnnk905S = {
+            "id" = "Vnnk905S";
+            "file" = "earthmobsmod-26.3-31.1.0.jar";
+            "hash" = "sha512-mR6n09gw54a8+hWDXHh9ia3jDoKKvMQbgKGnLmaY0A/+ekYvyr23eCBRfvTKKUTNplSVglynS+HmTyDS/9YH2A==";
+        };
+        _2dFYNaBz = {
+            "id" = "2dFYNaBz";
+            "file" = "earthmobsmod-26.3-31.2.0.jar";
+            "hash" = "sha512-tQQCJNzG0s6qUQE1AMrjdY/8KyLlPatf+E8h2y26kd77hb4R6IdUHQyN/xTOkGwAac5nejQwiWddlpBu8A4yyg==";
+        };
+        _MNcGvEv5 = {
+            "id" = "MNcGvEv5";
+            "file" = "earthmobsmod-26.1.2-29.6.0.jar";
+            "hash" = "sha512-lyQ3CZGIaicR5N20Q+fbAKifZYYzFP2WnxBIjq8pjBh3CNoN5OrKaZmjW3mHoIh1tp/RxTrVAhAXvsmcT0ykeA==";
+        };
+        _JsZNwPJB = {
+            "id" = "JsZNwPJB";
+            "file" = "earthmobsmod-26.3-31.3.0.jar";
+            "hash" = "sha512-f7Am/2VJlMt6f3aFFeZVWfw60d1AArci99K8RGz0fwRjaekS/sEQrkhblolO/r16nuP36K5eSKOacZUweE/y7Q==";
+        };
     in {
         "zycHh01Q" = _zycHh01Q;
         "LmQXQ8u1" = _LmQXQ8u1;
@@ -656,6 +681,11 @@ let
         "N14xgf4n" = _N14xgf4n;
         "EZ8f9nwh" = _EZ8f9nwh;
         "fCqXyMDK" = _fCqXyMDK;
+        "Adxweoua" = _Adxweoua;
+        "Vnnk905S" = _Vnnk905S;
+        "2dFYNaBz" = _2dFYNaBz;
+        "MNcGvEv5" = _MNcGvEv5;
+        "JsZNwPJB" = _JsZNwPJB;
         "forge-1.20.1" = _l8g8eoEi;
         "forge-1.19.2" = _ggzA7RdR;
         "forge-1.20.2" = _fisohsCx;
@@ -677,8 +707,9 @@ let
         "neoforge-26.1-snapshot-4" = _hwZdgq0V;
         "neoforge-26.1" = _lBrzlBa4;
         "neoforge-26.1.1" = _lBrzlBa4;
-        "neoforge-26.1.2" = _EZ8f9nwh;
+        "neoforge-26.1.2" = _MNcGvEv5;
         "neoforge-26.2" = _fCqXyMDK;
+        "neoforge-26.3" = _JsZNwPJB;
         "pkg-1.20.1-9.0.1" = _zycHh01Q;
         "pkg-1.19.2-9.1.0" = _LmQXQ8u1;
         "pkg-1.20.2-10.0.0" = _CXUIxzzX;
@@ -788,7 +819,12 @@ let
         "pkg-26.2-30.4.0" = _N14xgf4n;
         "pkg-26.1.2-29.5.0" = _EZ8f9nwh;
         "pkg-26.2-30.5.0" = _fCqXyMDK;
-        "default" = _fCqXyMDK;
+        "pkg-26.3-31.0.0" = _Adxweoua;
+        "pkg-26.3-31.1.0" = _Vnnk905S;
+        "pkg-26.3-31.2.0" = _2dFYNaBz;
+        "pkg-26.1.2-29.6.0" = _MNcGvEv5;
+        "pkg-26.3-31.3.0" = _JsZNwPJB;
+        "default" = _JsZNwPJB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "earthmobs";

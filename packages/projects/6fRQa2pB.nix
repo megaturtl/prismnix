@@ -136,6 +136,46 @@ let
             "file" = "More-Doors-1.21-1.6-Forge.jar";
             "hash" = "sha512-uoHqQ5/tTyjFXBcVdelaiLVunma9S9ZiOkL1U6G7EZlgxAIYl4a2zYlzAzB4jicme94QV43/pr/NAjxGOfKNTg==";
         };
+        _SXP23Zrk = {
+            "id" = "SXP23Zrk";
+            "file" = "More-Doors-1.21-1.6-Fabric.jar";
+            "hash" = "sha512-x9Z0j6H740QDV/VKjnfCqQsxFoSSxsqsceNu7Z+Xzc+y8eJyfiM2ca+s1RIv8iSM3drUU0XuU7HkTr3EE5VDoA==";
+        };
+        _mVggUdpV = {
+            "id" = "mVggUdpV";
+            "file" = "More-Doors-1.21-1.6-Fabric.jar";
+            "hash" = "sha512-vv9HUgt4bWXWxYQ7drRqS9s7woSL+f2d/EaDYhY9XT3vKSO0j9y+RlDUj9VsF4NpD3L/ZBLfk4xOp3f7NANYlw==";
+        };
+        _MM2ZJFHn = {
+            "id" = "MM2ZJFHn";
+            "file" = "More-Doors-1.21-1.6-Fabric.jar";
+            "hash" = "sha512-Y2Ulij4up3ePWZMmkQuM+25VabGP4Bf6EbL1WeMdzoplxvQRUgn42Y9jtxFQsdm0ApklbPlgNhQhfJC54USwPA==";
+        };
+        _8GnJlCHJ = {
+            "id" = "8GnJlCHJ";
+            "file" = "More-Doors-1.21-1.6-Fabric.jar";
+            "hash" = "sha512-3G0WkW8jel4UGuZks0uWSHzyV0wmpbmcOGu9l59MCR1qgNLFCpXNEVipCn42kJ0PPwzTf8j/99mF2u+CFv6d+A==";
+        };
+        _l0TTw9oK = {
+            "id" = "l0TTw9oK";
+            "file" = "More-Doors-1.21-1.6-Fabric.jar";
+            "hash" = "sha512-B7m3hQeJpEH/RVZsQlxnCswkmOvW+0fP4fTHmkE97VdfLn1ZrvLuzJImda8+MBVmgYivXO8Z72gFOk8mgdoOew==";
+        };
+        _TDNWTeMq = {
+            "id" = "TDNWTeMq";
+            "file" = "More-Doors-1.21-1.6-Fabric.jar";
+            "hash" = "sha512-OsLo1hzA3M7zdVzeGBOvHotK20wQB9of7P6OIv4atpb731jnJn+dVmLqYo4ggKsvpYTS91K7Hz9moYiR2KA1qg==";
+        };
+        _89fWnOFe = {
+            "id" = "89fWnOFe";
+            "file" = "MoreDoors-Minecraft-26-1.6-Fabric.jar";
+            "hash" = "sha512-cgMHIv0fQB1v6Oe69YtJh/zRS64v7iSezEEpKUWfgBkXnqA0EYd/9DqtpjSh4jBkFSAWOOwODUBAeOUNvca/4Q==";
+        };
+        _5KX7zij5 = {
+            "id" = "5KX7zij5";
+            "file" = "MoreDoors-Minecraft-26.2-1.6-Fabric.jar";
+            "hash" = "sha512-S6nBke07ZCiaNkKnS/SPjp2ztSVuMxXMmklfVNQ5ysWs0b3aqlPEkAIQLP1sdN2+a5uMqEvemhV4tK1WBV3X8g==";
+        };
     in {
         "dNcH0DvR" = _dNcH0DvR;
         "mBeypXVV" = _mBeypXVV;
@@ -164,6 +204,14 @@ let
         "CosfyvpE" = _CosfyvpE;
         "aQFWV1Ht" = _aQFWV1Ht;
         "9Ss56hBH" = _9Ss56hBH;
+        "SXP23Zrk" = _SXP23Zrk;
+        "mVggUdpV" = _mVggUdpV;
+        "MM2ZJFHn" = _MM2ZJFHn;
+        "8GnJlCHJ" = _8GnJlCHJ;
+        "l0TTw9oK" = _l0TTw9oK;
+        "TDNWTeMq" = _TDNWTeMq;
+        "89fWnOFe" = _89fWnOFe;
+        "5KX7zij5" = _5KX7zij5;
         "fabric-1.18.2" = _xEiNnna8;
         "fabric-1.19" = _60kVKAPi;
         "fabric-1.19.1" = _vVqX2Abb;
@@ -180,6 +228,21 @@ let
         "fabric-1.20.6" = _rW3xBStK;
         "fabric-1.21" = _aQFWV1Ht;
         "fabric-1.21.1" = _aQFWV1Ht;
+        "fabric-1.21.2" = _SXP23Zrk;
+        "fabric-1.21.3" = _SXP23Zrk;
+        "fabric-1.21.4" = _mVggUdpV;
+        "fabric-1.21.5" = _MM2ZJFHn;
+        "fabric-1.21.6" = _8GnJlCHJ;
+        "fabric-1.21.7" = _8GnJlCHJ;
+        "fabric-1.21.8" = _8GnJlCHJ;
+        "fabric-1.21.9" = _l0TTw9oK;
+        "fabric-1.21.10" = _l0TTw9oK;
+        "fabric-1.21.11" = _TDNWTeMq;
+        "fabric-26.1" = _89fWnOFe;
+        "fabric-26.1.1" = _89fWnOFe;
+        "fabric-26.1.2" = _89fWnOFe;
+        "fabric-26.2" = _5KX7zij5;
+        "fabric-26.3" = _5KX7zij5;
         "forge-1.19.3" = _UeeP6mE1;
         "forge-1.19" = _hdZmNmyn;
         "forge-1.19.1" = _hdZmNmyn;
@@ -203,6 +266,21 @@ let
         "quilt-1.20.6" = _rW3xBStK;
         "quilt-1.21" = _aQFWV1Ht;
         "quilt-1.21.1" = _aQFWV1Ht;
+        "quilt-1.21.2" = _SXP23Zrk;
+        "quilt-1.21.3" = _SXP23Zrk;
+        "quilt-1.21.4" = _mVggUdpV;
+        "quilt-1.21.5" = _MM2ZJFHn;
+        "quilt-1.21.6" = _8GnJlCHJ;
+        "quilt-1.21.7" = _8GnJlCHJ;
+        "quilt-1.21.8" = _8GnJlCHJ;
+        "quilt-1.21.9" = _l0TTw9oK;
+        "quilt-1.21.10" = _l0TTw9oK;
+        "quilt-1.21.11" = _TDNWTeMq;
+        "quilt-26.1" = _89fWnOFe;
+        "quilt-26.1.1" = _89fWnOFe;
+        "quilt-26.1.2" = _89fWnOFe;
+        "quilt-26.2" = _5KX7zij5;
+        "quilt-26.3" = _5KX7zij5;
         "pkg-1.0" = _dNcH0DvR;
         "pkg-1.2" = _mBeypXVV;
         "pkg-v1.3" = _xEiNnna8;
@@ -210,8 +288,8 @@ let
         "pkg-1.4" = _sqm4zr6W;
         "pkg-v1.4" = _hfM2qh2G;
         "pkg-1.5" = _BkQDijTb;
-        "pkg-1.6" = _9Ss56hBH;
-        "default" = _9Ss56hBH;
+        "pkg-1.6" = _5KX7zij5;
+        "default" = _5KX7zij5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "doors";

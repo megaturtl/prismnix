@@ -56,6 +56,11 @@ let
             "file" = "AdvancedReachDisplay-3.0.1-26.2.jar";
             "hash" = "sha512-QfqF6sEecqEbBa6dNcfa83/6oxMG/W6fjZtWXbCu54j3pUkxgd9amu2QTdSEp0oH7/4kNBfWnoJlW5gqOeIp1A==";
         };
+        _qxZP5OpG = {
+            "id" = "qxZP5OpG";
+            "file" = "AdvancedReachDisplay-3.0.2-26.2.jar";
+            "hash" = "sha512-2Jlq+ci4x2hdTSxOJLvBZKcp6Z+0SpQFJQn2AP/jY/PxjgfqSZbOQaiLLhkXF5wxL45TCwvbpE8+tIRCODFbVA==";
+        };
     in {
         "YcRdiHa9" = _YcRdiHa9;
         "afTTqptb" = _afTTqptb;
@@ -68,6 +73,7 @@ let
         "3iFDr5f1" = _3iFDr5f1;
         "ui9vNjZx" = _ui9vNjZx;
         "CTi8QHps" = _CTi8QHps;
+        "qxZP5OpG" = _qxZP5OpG;
         "fabric-1.21.5" = _YcRdiHa9;
         "fabric-1.21.6" = _afTTqptb;
         "fabric-1.21.7" = _afTTqptb;
@@ -78,7 +84,8 @@ let
         "fabric-26.1" = _ui9vNjZx;
         "fabric-26.1.1" = _ui9vNjZx;
         "fabric-26.1.2" = _ui9vNjZx;
-        "fabric-26.2" = _CTi8QHps;
+        "fabric-26.2" = _qxZP5OpG;
+        "fabric-26.3" = _qxZP5OpG;
         "pkg-2.1.0-1.21.5" = _YcRdiHa9;
         "pkg-2.2.0-1.21.6-8" = _afTTqptb;
         "pkg-2.2.1-1.21.9" = _nYBcOD9t;
@@ -90,7 +97,8 @@ let
         "pkg-2.4.3-26.1.2" = _3iFDr5f1;
         "pkg-3.0.0-26.1.2" = _ui9vNjZx;
         "pkg-3.0.1-26.2" = _CTi8QHps;
-        "default" = _CTi8QHps;
+        "pkg-3.0.2-26.2" = _qxZP5OpG;
+        "default" = _qxZP5OpG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "advanced-reach-display";

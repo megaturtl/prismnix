@@ -161,6 +161,21 @@ let
             "file" = "screenshot-manager-enhanced-2.0.0-1.21.11.jar";
             "hash" = "sha512-VCWVuORxft9IhMF6ht7TpzTc7y5fpnNJnVwaVZ9d4xax7ike1DNJxgdi9LEaG96lu+pGxKZbsNpRIdH/gUV/qA==";
         };
+        _Mf2AyYUv = {
+            "id" = "Mf2AyYUv";
+            "file" = "screenshot-manager-enhanced-2.1.0-26.1.2.jar";
+            "hash" = "sha512-iKf/daEqM1+dQue+sSglEp+zZcfxDQJJxoL6gMvABlf1AB4yHHDPeBmNP2R2sRj4qkNNTcJpg3IZ91dBFeEddg==";
+        };
+        _9YNaMdgZ = {
+            "id" = "9YNaMdgZ";
+            "file" = "screenshot-manager-enhanced-2.1.0-26.2.jar";
+            "hash" = "sha512-vBFCcJX5BUab+OGW8f6eTJ/8Qn5Z7/COCyOmhCbCWd1mDibtLILZDe/fVnvg1ufp7u6U1Z4XJQ0mp0vRfpqebQ==";
+        };
+        _Z5rJdNGg = {
+            "id" = "Z5rJdNGg";
+            "file" = "screenshot-manager-enhanced-2.1.0-1.21.11.jar";
+            "hash" = "sha512-D+L5T7IzBzHWwbcdJJE1vbPY72kEJtcCijc4v/m6j7QQLlr61pQWgkVP6OBtkbn79YayAvXwOmJgDsTqRYXjaA==";
+        };
     in {
         "LfTJUh5v" = _LfTJUh5v;
         "pMOCDrQV" = _pMOCDrQV;
@@ -194,8 +209,11 @@ let
         "8e9MekPG" = _8e9MekPG;
         "NCEFf6Mz" = _NCEFf6Mz;
         "QSPIfWXj" = _QSPIfWXj;
+        "Mf2AyYUv" = _Mf2AyYUv;
+        "9YNaMdgZ" = _9YNaMdgZ;
+        "Z5rJdNGg" = _Z5rJdNGg;
         "fabric-1.21.10" = _8e9MekPG;
-        "fabric-1.21.11" = _QSPIfWXj;
+        "fabric-1.21.11" = _Z5rJdNGg;
         "fabric-1.21.8" = _twuEa2GH;
         "fabric-1.21.5" = _Fjqkbc4q;
         "fabric-1.21.4" = _425lwc82;
@@ -203,7 +221,8 @@ let
         "fabric-1.21.1" = _wVBGj1T7;
         "fabric-1.20.5" = _W95ITTJg;
         "fabric-1.20.6" = _W95ITTJg;
-        "fabric-26.1.2" = _NCEFf6Mz;
+        "fabric-26.1.2" = _Mf2AyYUv;
+        "fabric-26.2" = _9YNaMdgZ;
         "pkg-1.0.0" = _LfTJUh5v;
         "pkg-1.1.0-1.21.11" = _pMOCDrQV;
         "pkg-1.1.0-1.21.10" = _MLYgFFZe;
@@ -236,7 +255,10 @@ let
         "pkg-v1.4.0+1.21.10" = _8e9MekPG;
         "pkg-v2.0.0+26.1.2" = _NCEFf6Mz;
         "pkg-v2.0.0+1.21.11" = _QSPIfWXj;
-        "default" = _QSPIfWXj;
+        "pkg-v2.1.0+26.1.2" = _Mf2AyYUv;
+        "pkg-v2.1.0+26.2" = _9YNaMdgZ;
+        "pkg-v2.1.0+1.21.11" = _Z5rJdNGg;
+        "default" = _Z5rJdNGg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "screenshot-manager-enhanced";

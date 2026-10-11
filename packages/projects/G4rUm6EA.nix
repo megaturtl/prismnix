@@ -36,6 +36,11 @@ let
             "file" = "jumpprooffarmland-1.0.2+mc26.1-26.2.jar";
             "hash" = "sha512-54TNabUDAyXz4EdNlkEy0FQvAaxUX6EAxr/1R8aPwaC+RbNKmx8e23t+tIuyUOsu6clIBXk7RSQnX4vk3fYAyw==";
         };
+        _Ho1pXdu0 = {
+            "id" = "Ho1pXdu0";
+            "file" = "jumpprooffarmland-1.0.3+mc26.3.jar";
+            "hash" = "sha512-LdzGxcGOvo+6EPBo1n9NBb0dfbZv/sh2kvgoEH3O6M6USwBeqLv5djhv0OWpgEqzGdaGLdhZWeyiSKaADw80jw==";
+        };
     in {
         "BKyUxAjM" = _BKyUxAjM;
         "1RsGTvU0" = _1RsGTvU0;
@@ -44,6 +49,7 @@ let
         "VNlEo44S" = _VNlEo44S;
         "XNYoXWh7" = _XNYoXWh7;
         "8cyMoS4z" = _8cyMoS4z;
+        "Ho1pXdu0" = _Ho1pXdu0;
         "fabric-1.19.2" = _BKyUxAjM;
         "fabric-1.19.3" = _BKyUxAjM;
         "fabric-1.20" = _1RsGTvU0;
@@ -56,11 +62,13 @@ let
         "fabric-26.1.1" = _8cyMoS4z;
         "fabric-26.1.2" = _8cyMoS4z;
         "fabric-26.2" = _8cyMoS4z;
+        "fabric-26.3" = _Ho1pXdu0;
         "pkg-1.19.2-1.0.1" = _BKyUxAjM;
         "pkg-1.0.1" = _VNlEo44S;
         "pkg-1.0.2" = _XNYoXWh7;
         "pkg-1.0.2+mc26.1.x-26.2.x" = _8cyMoS4z;
-        "default" = _8cyMoS4z;
+        "pkg-1.0.3+mc26.3" = _Ho1pXdu0;
+        "default" = _Ho1pXdu0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jumpprooffarmland";

@@ -156,6 +156,16 @@ let
             "file" = "BetterAddServer-1.21.9-neoforge-1.3.0.jar";
             "hash" = "sha512-D+cfNc+seoOwjGhBTTZphIkhUVOTc2VTfguWW1n/oHeiDXs79KKkcSmd86EpFsbLRk8mYzyTTRHco9zOHWoivw==";
         };
+        _UEQQA7jD = {
+            "id" = "UEQQA7jD";
+            "file" = "BetterAddServer-26.1.2-fabric-1.2.6.jar";
+            "hash" = "sha512-OFbz7nUneuAon191hDI6sqOtOT+2lGYizqLx3KR0tJhDoUOGrar3pyYkQWxeSzJ/4p3w8u+OH2ERjcccFyNE7w==";
+        };
+        _VWTa5Wjf = {
+            "id" = "VWTa5Wjf";
+            "file" = "BetterAddServer-26.1.2-neoforge-1.2.6.jar";
+            "hash" = "sha512-zD2kxW63BsIuJOVOdD7Pe8kacTRMuej0NjpV21x/4QtXjCyuuPZMFYzyUDzB5iy2GxgJTfPSRzcUCmK2WMzIaA==";
+        };
     in {
         "DrH4TSz0" = _DrH4TSz0;
         "8fu294cl" = _8fu294cl;
@@ -188,6 +198,8 @@ let
         "MnVanLhA" = _MnVanLhA;
         "F1dItZRx" = _F1dItZRx;
         "mEzifgH3" = _mEzifgH3;
+        "UEQQA7jD" = _UEQQA7jD;
+        "VWTa5Wjf" = _VWTa5Wjf;
         "fabric-1.19.2" = _3xo2p1Bm;
         "fabric-1.19" = _3xo2p1Bm;
         "fabric-1.19.1" = _8fu294cl;
@@ -212,6 +224,11 @@ let
         "fabric-1.21.9" = _F1dItZRx;
         "fabric-1.21.10" = _F1dItZRx;
         "fabric-1.21.11" = _F1dItZRx;
+        "fabric-26.1" = _UEQQA7jD;
+        "fabric-26.1.1" = _UEQQA7jD;
+        "fabric-26.1.2" = _UEQQA7jD;
+        "fabric-26.2" = _UEQQA7jD;
+        "fabric-26.3" = _UEQQA7jD;
         "quilt-1.19.2" = _3xo2p1Bm;
         "quilt-1.20.1" = _O4Hl3eA5;
         "quilt-1.19.4" = _2dozLA4V;
@@ -233,6 +250,11 @@ let
         "quilt-1.21.9" = _F1dItZRx;
         "quilt-1.21.10" = _F1dItZRx;
         "quilt-1.21.11" = _F1dItZRx;
+        "quilt-26.1" = _UEQQA7jD;
+        "quilt-26.1.1" = _UEQQA7jD;
+        "quilt-26.1.2" = _UEQQA7jD;
+        "quilt-26.2" = _UEQQA7jD;
+        "quilt-26.3" = _UEQQA7jD;
         "neoforge-1.20.5" = _MnVanLhA;
         "neoforge-1.20.6" = _MnVanLhA;
         "neoforge-1.21" = _MnVanLhA;
@@ -247,6 +269,11 @@ let
         "neoforge-1.21.9" = _mEzifgH3;
         "neoforge-1.21.10" = _mEzifgH3;
         "neoforge-1.21.11" = _mEzifgH3;
+        "neoforge-26.1" = _VWTa5Wjf;
+        "neoforge-26.1.1" = _VWTa5Wjf;
+        "neoforge-26.1.2" = _VWTa5Wjf;
+        "neoforge-26.2" = _VWTa5Wjf;
+        "neoforge-26.3" = _VWTa5Wjf;
         "pkg-1.0.0" = _DrH4TSz0;
         "pkg-1.0.0-1.19.4" = _8fu294cl;
         "pkg-1.0.0-1.20.1" = _yx2aUNwt;
@@ -271,7 +298,8 @@ let
         "pkg-1.3.0-1.21.6" = _HAyvUEAo;
         "pkg-1.3.0-1.20.6" = _MnVanLhA;
         "pkg-1.3.0-1.21.9" = _mEzifgH3;
-        "default" = _mEzifgH3;
+        "pkg-1.3.0-26.3" = _VWTa5Wjf;
+        "default" = _VWTa5Wjf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "betteraddserver";

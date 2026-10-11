@@ -36,6 +36,26 @@ let
             "file" = "smoothhud-26.2.jar";
             "hash" = "sha512-jPVdnb1I2cCln95cv3XPk/NzNkdyPQCXEqwdCT5Yn63AOeiYzy1NQAsXpZBMHjmB+NJliSAaJ9mtUHIaHyFzQg==";
         };
+        _Bk8nXmyL = {
+            "id" = "Bk8nXmyL";
+            "file" = "smoothhud-1.3-26.3.jar";
+            "hash" = "sha512-8qaijImxr4XXa/0lirYObKSl9eJPj2R0qQlUalz7LO+f8A1HFoubSIbQ55uNS+wQxDUVK/7Py5CU+xMlXDHawA==";
+        };
+        _mhLVV13G = {
+            "id" = "mhLVV13G";
+            "file" = "smoothhud-1.3-26.2.jar";
+            "hash" = "sha512-cftBKJgBIvCBjxBQlZpp/PT+q+kcJRCYluWN6qgS1hf1xPOgKkcwJRf8KhaCgf2OH3jAivDUhl7xuBi8gkhRdg==";
+        };
+        _tSCCOUrT = {
+            "id" = "tSCCOUrT";
+            "file" = "smoothhud-1.3-1.21.6+.jar";
+            "hash" = "sha512-Xum+uQDbJUgCnZE9cDzHEHeSIAYSD/CDELhfF3SG+9ARKBWGOL7zsexP5CIMD4zW/cXtbs7cbg70587UZ8M9zA==";
+        };
+        _m8F4aW8J = {
+            "id" = "m8F4aW8J";
+            "file" = "smoothhud-1.3-26.1.jar";
+            "hash" = "sha512-6xM6ofsM94MwlDPgNjqp65iABRdg7zecLUROZCM6XzcuyL4GikrZ1HgXC3L4tv3GKGISqiM+NAEYVpqD06mH/g==";
+        };
     in {
         "e4CBuMyt" = _e4CBuMyt;
         "JZhbr4eK" = _JZhbr4eK;
@@ -44,26 +64,32 @@ let
         "qetRDJat" = _qetRDJat;
         "mSZtmzSQ" = _mSZtmzSQ;
         "9bwYllvw" = _9bwYllvw;
+        "Bk8nXmyL" = _Bk8nXmyL;
+        "mhLVV13G" = _mhLVV13G;
+        "tSCCOUrT" = _tSCCOUrT;
+        "m8F4aW8J" = _m8F4aW8J;
         "fabric-1.21" = _e4CBuMyt;
         "fabric-1.21.1" = _e4CBuMyt;
         "fabric-1.21.2" = _cc0IOAGT;
         "fabric-1.21.3" = _cc0IOAGT;
         "fabric-1.21.4" = _cc0IOAGT;
         "fabric-1.21.5" = _ltlQt95t;
-        "fabric-1.21.6" = _qetRDJat;
-        "fabric-1.21.7" = _qetRDJat;
-        "fabric-1.21.8" = _qetRDJat;
-        "fabric-1.21.9" = _qetRDJat;
-        "fabric-1.21.10" = _qetRDJat;
-        "fabric-1.21.11" = _qetRDJat;
-        "fabric-26.1" = _mSZtmzSQ;
-        "fabric-26.1.1" = _mSZtmzSQ;
-        "fabric-26.1.2" = _mSZtmzSQ;
-        "fabric-26.2" = _9bwYllvw;
+        "fabric-1.21.6" = _tSCCOUrT;
+        "fabric-1.21.7" = _tSCCOUrT;
+        "fabric-1.21.8" = _tSCCOUrT;
+        "fabric-1.21.9" = _tSCCOUrT;
+        "fabric-1.21.10" = _tSCCOUrT;
+        "fabric-1.21.11" = _tSCCOUrT;
+        "fabric-26.1" = _m8F4aW8J;
+        "fabric-26.1.1" = _m8F4aW8J;
+        "fabric-26.1.2" = _m8F4aW8J;
+        "fabric-26.2" = _mhLVV13G;
+        "fabric-26.3" = _Bk8nXmyL;
         "pkg-1.0" = _e4CBuMyt;
         "pkg-1.1" = _JZhbr4eK;
         "pkg-1.2" = _9bwYllvw;
-        "default" = _9bwYllvw;
+        "pkg-1.3" = _m8F4aW8J;
+        "default" = _m8F4aW8J;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "smooth-hud";

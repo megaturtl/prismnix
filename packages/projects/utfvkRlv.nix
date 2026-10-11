@@ -286,6 +286,16 @@ let
             "file" = "ArmoredArms-v1.2.2-1.20.1-f+neof-release.jar";
             "hash" = "sha512-05jPH3m8Pbsm78fcbNTuhbEesPNSmu/u/9sZs13hnN+8UTPbwXy7pDEwoDcnFmBRmlhWEqi0EpzrXLeqPalb2A==";
         };
+        _rFI0Pa8s = {
+            "id" = "rFI0Pa8s";
+            "file" = "ArmoredArms-v1.0.0-1.21.1-neoforge-betta.jar";
+            "hash" = "sha512-5lG9UkgHUZZFWr/+jJRN8InCt3qR3VRq9q/oosdbv4xw5KqkZaqjdyvYcyOI/jp+XfwzUoJqE8LP3s4CnVPIjw==";
+        };
+        _1LEetrP1 = {
+            "id" = "1LEetrP1";
+            "file" = "ArmoredArms-v1.2.3-1.20.1-f+neof-release.jar";
+            "hash" = "sha512-bCj/FqQ51iNMP4XOxhPqJz9BqK9biAw68/OFa7E06fqrq77fLjH4apxJm+g0HXL3a4zc5VrSDQ6a6grCBHRoKg==";
+        };
     in {
         "IVHlEvti" = _IVHlEvti;
         "lLtPAKy3" = _lLtPAKy3;
@@ -344,10 +354,13 @@ let
         "8VYH9ww6" = _8VYH9ww6;
         "C5vY6pFe" = _C5vY6pFe;
         "MGDmPUcZ" = _MGDmPUcZ;
+        "rFI0Pa8s" = _rFI0Pa8s;
+        "1LEetrP1" = _1LEetrP1;
         "forge-1.12.2" = _8VYH9ww6;
         "forge-1.7.10" = _C5vY6pFe;
-        "forge-1.20.1" = _MGDmPUcZ;
-        "neoforge-1.20.1" = _MGDmPUcZ;
+        "forge-1.20.1" = _1LEetrP1;
+        "neoforge-1.20.1" = _1LEetrP1;
+        "neoforge-1.21.1" = _rFI0Pa8s;
         "pkg-v1.2.0-release" = _IVHlEvti;
         "pkg-v1.2.1-release" = _lLtPAKy3;
         "pkg-v1.2.2-release" = _vEHSJNda;
@@ -405,7 +418,9 @@ let
         "pkg-v1.5.4-1.12.2-release" = _8VYH9ww6;
         "pkg-v1.3.9-1.7.10-release" = _C5vY6pFe;
         "pkg-v1.2.2-1.20.1-f+neof-release" = _MGDmPUcZ;
-        "default" = _MGDmPUcZ;
+        "pkg-v1.0.0-1.21.1-neoforge-betta" = _rFI0Pa8s;
+        "pkg-v1.2.3-1.20.1-f+neof-release" = _1LEetrP1;
+        "default" = _1LEetrP1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "armored-arms";

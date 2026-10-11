@@ -36,6 +36,11 @@ let
             "file" = "anchorfade-1.1.1.jar";
             "hash" = "sha512-LXya+nr2o+Kf9TLHoWCcPTG2jIQrzcJ1nsClltcHDI6cxbGuEovQWqfDvmvmjgZcSsQV+iQQVuHduuUf+Np3mQ==";
         };
+        _xostT0j8 = {
+            "id" = "xostT0j8";
+            "file" = "anchorfade-1.1.1.jar";
+            "hash" = "sha512-1HYJ++1jGvK62XsCaYrbE77FRSoeigbSFB3/mE2ZIB8qHhjzbt2uXUFbhlRB/O5BeMfu9Z1pLO0o3FLoAUMNyw==";
+        };
     in {
         "s98fD2C2" = _s98fD2C2;
         "FIp65UYs" = _FIp65UYs;
@@ -44,17 +49,19 @@ let
         "651vYLPW" = _651vYLPW;
         "1mLSz4Vl" = _1mLSz4Vl;
         "EcWZCChn" = _EcWZCChn;
+        "xostT0j8" = _xostT0j8;
         "fabric-1.21.11" = _651vYLPW;
         "fabric-26.1" = _1mLSz4Vl;
         "fabric-26.1.1" = _1mLSz4Vl;
         "fabric-26.1.2" = _1mLSz4Vl;
         "fabric-26.2" = _EcWZCChn;
+        "fabric-26.3" = _xostT0j8;
         "pkg-1.0.0" = _s98fD2C2;
         "pkg-1.0.2" = _FIp65UYs;
         "pkg-1.0.3" = _m21KDuuz;
         "pkg-1.1.0" = _1XZb0yE7;
-        "pkg-1.1.1" = _EcWZCChn;
-        "default" = _EcWZCChn;
+        "pkg-1.1.1" = _xostT0j8;
+        "default" = _xostT0j8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "anchor-fade";

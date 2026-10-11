@@ -26,30 +26,50 @@ let
             "file" = "combopvp-1.0.2.jar";
             "hash" = "sha512-TItHHmp1hksV/rJoBSM+xfiXvQwzFIEQ84tYjpSZHTlTe1ZI5bpK85Bomrrc6mKklF1Mbhdp/CdhviHJPEsEKg==";
         };
+        _TGtQYmM8 = {
+            "id" = "TGtQYmM8";
+            "file" = "combo-pvp-1.0.3.jar";
+            "hash" = "sha512-4VHUfuxQ0HoK22kIdKTtNwQ2uQHzV6GZzcF6wFAcvTmlDqpGtmtR8z50Q8FbV711EnoZBI3pZW9q7qEPeTJygA==";
+        };
+        _1rnpd8HN = {
+            "id" = "1rnpd8HN";
+            "file" = "combo-pvp-1.0.3.jar";
+            "hash" = "sha512-DhEiEsx3SMvkHPhlhE3pvoVGZkfl3giMxdDIW1Tuh+1XdfdkHMvC2ZfFEcmtgddeEeo3c1DlfW1Jt1NjvfiRbQ==";
+        };
+        _qXjFjSuj = {
+            "id" = "qXjFjSuj";
+            "file" = "combo-pvp-1.0.3.jar";
+            "hash" = "sha512-ENXcIhwQjDJWsRwNSbCLJnIXIXBvp2NyKUCIm/B3f500IeLWyz0/5mR1iJIkzsFKfPE8YGAzh0/HilwHoApi3Q==";
+        };
     in {
         "QblR5NdX" = _QblR5NdX;
         "FYPO4zMZ" = _FYPO4zMZ;
         "c5t4wZjl" = _c5t4wZjl;
         "C93hCctk" = _C93hCctk;
         "4PHW1fdp" = _4PHW1fdp;
-        "fabric-1.21.2" = _c5t4wZjl;
-        "fabric-1.21.3" = _c5t4wZjl;
-        "fabric-1.21.4" = _c5t4wZjl;
-        "fabric-1.21.5" = _c5t4wZjl;
-        "fabric-1.21.6" = _c5t4wZjl;
-        "fabric-1.21.7" = _c5t4wZjl;
-        "fabric-1.21.8" = _c5t4wZjl;
-        "fabric-1.21.9" = _c5t4wZjl;
-        "fabric-1.21.10" = _c5t4wZjl;
-        "fabric-1.21.11" = _c5t4wZjl;
-        "fabric-26.1" = _C93hCctk;
-        "fabric-26.1.1" = _C93hCctk;
-        "fabric-26.1.2" = _C93hCctk;
-        "fabric-26.2" = _4PHW1fdp;
+        "TGtQYmM8" = _TGtQYmM8;
+        "1rnpd8HN" = _1rnpd8HN;
+        "qXjFjSuj" = _qXjFjSuj;
+        "fabric-1.21.2" = _TGtQYmM8;
+        "fabric-1.21.3" = _TGtQYmM8;
+        "fabric-1.21.4" = _TGtQYmM8;
+        "fabric-1.21.5" = _TGtQYmM8;
+        "fabric-1.21.6" = _TGtQYmM8;
+        "fabric-1.21.7" = _TGtQYmM8;
+        "fabric-1.21.8" = _TGtQYmM8;
+        "fabric-1.21.9" = _TGtQYmM8;
+        "fabric-1.21.10" = _TGtQYmM8;
+        "fabric-1.21.11" = _TGtQYmM8;
+        "fabric-26.1" = _1rnpd8HN;
+        "fabric-26.1.1" = _1rnpd8HN;
+        "fabric-26.1.2" = _1rnpd8HN;
+        "fabric-26.2" = _1rnpd8HN;
+        "fabric-26.3" = _qXjFjSuj;
         "pkg-1.0.0" = _QblR5NdX;
         "pkg-1.0.1" = _FYPO4zMZ;
         "pkg-1.0.2" = _4PHW1fdp;
-        "default" = _4PHW1fdp;
+        "pkg-1.0.3" = _qXjFjSuj;
+        "default" = _qXjFjSuj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "combo-pvp";

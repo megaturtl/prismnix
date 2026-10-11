@@ -1201,6 +1201,16 @@ let
             "file" = "26.2-fabric-2.1.0-rc.6.1+mc26.2.jar";
             "hash" = "sha512-/xGaugjZ2lX4zkgoEpMwP/3feoJ49VmPvIZfo9kQGAeejdMDqOZKMqocs/1Y4xJSwnCS9fCpJTQAPSak48LO8g==";
         };
+        _CaZqmK13 = {
+            "id" = "CaZqmK13";
+            "file" = "AlinLib-fabric-2.1.0-rc.7+mc26.2.jar";
+            "hash" = "sha512-SkyeHTydwxD3Ikk9wlIRMQDM2Ckkl2404gW9U6cj1eq9V/fRU9e4hSZpcRnuDc8Irucqx72hO3sFeph2mTZhCw==";
+        };
+        _YSnGsQxB = {
+            "id" = "YSnGsQxB";
+            "file" = "AlinLib-fabric-2.1.0-rc.7+mc26.3.jar";
+            "hash" = "sha512-6N3kR247kHE2zhJXs8mS18MqsTkk+SAzoK5rs80jDzKtvb+lPhK19Yb8CVPXVgC/EHnEbYP2TOUyLjwVAN4nTA==";
+        };
     in {
         "GJFfJk12" = _GJFfJk12;
         "bSrFPXzz" = _bSrFPXzz;
@@ -1442,6 +1452,8 @@ let
         "vi0zl3n4" = _vi0zl3n4;
         "9En0OcaM" = _9En0OcaM;
         "Kyvv4Pan" = _Kyvv4Pan;
+        "CaZqmK13" = _CaZqmK13;
+        "YSnGsQxB" = _YSnGsQxB;
         "fabric-1.20" = _MpBBG302;
         "fabric-1.20.1" = _MpBBG302;
         "fabric-1.20.2" = _G6BNcgTo;
@@ -1477,7 +1489,8 @@ let
         "fabric-1.21.9" = _vi0zl3n4;
         "fabric-1.21.10" = _vi0zl3n4;
         "fabric-1.21.11" = _NPrITvvo;
-        "fabric-26.2" = _Kyvv4Pan;
+        "fabric-26.2" = _CaZqmK13;
+        "fabric-26.3" = _YSnGsQxB;
         "quilt-1.20" = _MpBBG302;
         "quilt-1.20.1" = _MpBBG302;
         "quilt-1.20.2" = _G6BNcgTo;
@@ -1513,7 +1526,8 @@ let
         "quilt-1.21.9" = _vi0zl3n4;
         "quilt-1.21.10" = _vi0zl3n4;
         "quilt-1.21.11" = _NPrITvvo;
-        "quilt-26.2" = _Kyvv4Pan;
+        "quilt-26.2" = _CaZqmK13;
+        "quilt-26.3" = _YSnGsQxB;
         "neoforge-1.20.2" = _Kcnhem4t;
         "neoforge-1.20.3" = _Kcnhem4t;
         "neoforge-1.20.4" = _Kcnhem4t;
@@ -1641,7 +1655,8 @@ let
         "pkg-2.1.0-rc.5" = _SeC5EHzW;
         "pkg-2.1.0-rc.6" = _9En0OcaM;
         "pkg-2.1.0-rc.6.1" = _Kyvv4Pan;
-        "default" = _Kyvv4Pan;
+        "pkg-2.1.0-rc.7" = _YSnGsQxB;
+        "default" = _YSnGsQxB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "alinlib";

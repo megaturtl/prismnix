@@ -46,6 +46,11 @@ let
             "file" = "theendupdate-1.2.1.jar";
             "hash" = "sha512-5UOHk2gvWM9ZysBPfYdBoUfCsmkYa/t6OcCYg+HUTtylbG2BAaLVgf+8jveLReZmnCoe+rns3dLbYVFUit44uQ==";
         };
+        _R8a6WzYB = {
+            "id" = "R8a6WzYB";
+            "file" = "theendupdate-1.2.2.jar";
+            "hash" = "sha512-9Mh97z5gBlesSDT/9r9w8E14d05PVXaA48VueEGtSvVtAVpmfDyB8CzhhXsTW4YdSGcZpoorBkfAxVuJ7tDNlw==";
+        };
     in {
         "bDnZOBFQ" = _bDnZOBFQ;
         "XXow2eQE" = _XXow2eQE;
@@ -56,11 +61,13 @@ let
         "1dKoBIaM" = _1dKoBIaM;
         "dhZ9AA42" = _dhZ9AA42;
         "SIrlTG30" = _SIrlTG30;
+        "R8a6WzYB" = _R8a6WzYB;
         "fabric-1.21.8" = _bDnZOBFQ;
         "fabric-1.21.10" = _bhw8c6wj;
         "fabric-1.21.11" = _c4c3psR9;
         "fabric-26.1.2" = _7bExIkMy;
         "fabric-26.2" = _SIrlTG30;
+        "fabric-26.3" = _R8a6WzYB;
         "pkg-1.0.0-beta" = _bDnZOBFQ;
         "pkg-1.0.2-beta" = _XXow2eQE;
         "pkg-1.0.0" = _c4c3psR9;
@@ -68,7 +75,8 @@ let
         "pkg-1.1.1" = _1dKoBIaM;
         "pkg-1.2.0" = _dhZ9AA42;
         "pkg-1.2.1" = _SIrlTG30;
-        "default" = _SIrlTG30;
+        "pkg-1.2.2" = _R8a6WzYB;
+        "default" = _R8a6WzYB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ritro-the-end-update";

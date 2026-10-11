@@ -176,6 +176,11 @@ let
             "file" = "player-roles-1.10.0.jar";
             "hash" = "sha512-gMitVCe6NYX+nMJBGq9i2Lj6ZZ9hF2uP6M0kt67/6XFXVhMOdLhAlTZNQq72BvVtj8czU8Sc4rTd241BzXHlmQ==";
         };
+        _CMb2UHlv = {
+            "id" = "CMb2UHlv";
+            "file" = "player-roles-1.11.0.jar";
+            "hash" = "sha512-l5Gr7bZW4CXcgc8oMfjz/hJfBtqtlH/WnJZputW3ldehyqYT5UPlpCsMZQXdO5UPyu87AToA98in14JWlzgLtQ==";
+        };
     in {
         "lCvjmdiI" = _lCvjmdiI;
         "800lcXvQ" = _800lcXvQ;
@@ -212,6 +217,7 @@ let
         "iFL75Q1d" = _iFL75Q1d;
         "sUiL9n9i" = _sUiL9n9i;
         "julmkCrl" = _julmkCrl;
+        "CMb2UHlv" = _CMb2UHlv;
         "fabric-1.16.4" = _Tt45XsQa;
         "fabric-1.16.5" = _Tt45XsQa;
         "fabric-1.17" = _CizIPFCP;
@@ -244,6 +250,7 @@ let
         "fabric-26.1.1" = _sUiL9n9i;
         "fabric-26.1.2" = _sUiL9n9i;
         "fabric-26.2" = _julmkCrl;
+        "fabric-26.3" = _CMb2UHlv;
         "pkg-1.2.0" = _lCvjmdiI;
         "pkg-1.2.1" = _800lcXvQ;
         "pkg-1.3.0" = _rLdv7Wq8;
@@ -279,7 +286,8 @@ let
         "pkg-1.9.0-pre.1" = _iFL75Q1d;
         "pkg-1.9.0+26.1.2" = _sUiL9n9i;
         "pkg-1.10.0+26.2" = _julmkCrl;
-        "default" = _julmkCrl;
+        "pkg-1.11.0+26.3" = _CMb2UHlv;
+        "default" = _CMb2UHlv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "player-roles";

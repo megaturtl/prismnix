@@ -191,6 +191,11 @@ let
             "file" = "Moon Knight PvP Pack[3.1][26.2].zip";
             "hash" = "sha512-b1TZ5BruUuESkB3a6D/TsZmvAzIO6Wjq1nszCwIFrWZrSYxRFdcrC0U5wy2fV7qj6PiZqJFXCLlIsh4R1CtRJw==";
         };
+        _dKzme7oi = {
+            "id" = "dKzme7oi";
+            "file" = "Moon Knight PvP Pack[3.1][26.3].zip";
+            "hash" = "sha512-MOk1Z7RvznAbUgbyJW6ay9vq+nf6XyYmlIJLfDkhG53eaSCdtN2FWv9ng4MdJraEwVvTds3qwNWaXnljAOYoLw==";
+        };
     in {
         "sNAFb6X3" = _sNAFb6X3;
         "orobImE9" = _orobImE9;
@@ -230,6 +235,7 @@ let
         "vZxuO5QD" = _vZxuO5QD;
         "3bo7pi98" = _3bo7pi98;
         "ceP1KYjn" = _ceP1KYjn;
+        "dKzme7oi" = _dKzme7oi;
         "minecraft-1.16" = _AmUWFkGv;
         "minecraft-1.16.1" = _AmUWFkGv;
         "minecraft-1.16.2" = _AmUWFkGv;
@@ -269,6 +275,10 @@ let
         "minecraft-26.1.1" = _3bo7pi98;
         "minecraft-26.1.2" = _3bo7pi98;
         "minecraft-26.2" = _ceP1KYjn;
+        "minecraft-26.3" = _dKzme7oi;
+        "minecraft-26.4-snapshot-1" = _dKzme7oi;
+        "minecraft-26.4-snapshot-2" = _dKzme7oi;
+        "minecraft-26.4-snapshot-3" = _dKzme7oi;
         "pkg-1.16" = _sNAFb6X3;
         "pkg-1.17" = _orobImE9;
         "pkg-1.18" = _9l7ZpkE0;
@@ -286,8 +296,8 @@ let
         "pkg-2" = _d4jKXsJ6;
         "pkg-1.21.6" = _a6FnMjx1;
         "pkg-3.0" = _IR5BEFLw;
-        "pkg-3.1" = _ceP1KYjn;
-        "default" = _ceP1KYjn;
+        "pkg-3.1" = _dKzme7oi;
+        "default" = _dKzme7oi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "moon-knight-pvp-pack";

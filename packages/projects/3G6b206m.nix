@@ -1,0 +1,124 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _V0jWwydw = {
+            "id" = "V0jWwydw";
+            "file" = "Combat-1.0.0.jar";
+            "hash" = "sha512-tR5nZ5xLRw5bLCDS/2kslWE1MQ1TmXE+loO1pDizILHcCLMLnwqe50tBU7DmcBPzElHlkzfOX3EZF0BrMmglpw==";
+        };
+        _qZu0GfEO = {
+            "id" = "qZu0GfEO";
+            "file" = "Combat-1.1.jar";
+            "hash" = "sha512-bs+r4Az+7clx743CWG7kgD06Ci1Tls+hdu0TWzpYmwbz2XYuYQQSdYmMs3YYJgr8yuQT6BKoA2SW77ogcnXPVw==";
+        };
+        _qAzgqkqb = {
+            "id" = "qAzgqkqb";
+            "file" = "CombatLog-1.2.jar";
+            "hash" = "sha512-cPsRUOEEl+XvY+pMcdGU55LtOorUtoH2sIHHsymfTNevE3YO4BbwJJZtM8IR/efuXScuKEdrne9Fd0V2vuZUrA==";
+        };
+    in {
+        "V0jWwydw" = _V0jWwydw;
+        "qZu0GfEO" = _qZu0GfEO;
+        "qAzgqkqb" = _qAzgqkqb;
+        "bukkit-1.21" = _qAzgqkqb;
+        "bukkit-1.21.1" = _qAzgqkqb;
+        "bukkit-1.21.2" = _qAzgqkqb;
+        "bukkit-1.21.3" = _qAzgqkqb;
+        "bukkit-1.21.4" = _qAzgqkqb;
+        "bukkit-1.21.5" = _qAzgqkqb;
+        "bukkit-1.21.6" = _qAzgqkqb;
+        "bukkit-1.21.7" = _qAzgqkqb;
+        "bukkit-1.21.8" = _qAzgqkqb;
+        "bukkit-1.21.9" = _qAzgqkqb;
+        "bukkit-1.21.10" = _qAzgqkqb;
+        "bukkit-1.21.11" = _qAzgqkqb;
+        "bukkit-26.1" = _qAzgqkqb;
+        "bukkit-26.1.1" = _qAzgqkqb;
+        "bukkit-26.1.2" = _qAzgqkqb;
+        "bukkit-26.2" = _qAzgqkqb;
+        "paper-1.21" = _qAzgqkqb;
+        "paper-1.21.1" = _qAzgqkqb;
+        "paper-1.21.2" = _qAzgqkqb;
+        "paper-1.21.3" = _qAzgqkqb;
+        "paper-1.21.4" = _qAzgqkqb;
+        "paper-1.21.5" = _qAzgqkqb;
+        "paper-1.21.6" = _qAzgqkqb;
+        "paper-1.21.7" = _qAzgqkqb;
+        "paper-1.21.8" = _qAzgqkqb;
+        "paper-1.21.9" = _qAzgqkqb;
+        "paper-1.21.10" = _qAzgqkqb;
+        "paper-1.21.11" = _qAzgqkqb;
+        "paper-26.1" = _qAzgqkqb;
+        "paper-26.1.1" = _qAzgqkqb;
+        "paper-26.1.2" = _qAzgqkqb;
+        "paper-26.2" = _qAzgqkqb;
+        "purpur-1.21" = _qAzgqkqb;
+        "purpur-1.21.1" = _qAzgqkqb;
+        "purpur-1.21.2" = _qAzgqkqb;
+        "purpur-1.21.3" = _qAzgqkqb;
+        "purpur-1.21.4" = _qAzgqkqb;
+        "purpur-1.21.5" = _qAzgqkqb;
+        "purpur-1.21.6" = _qAzgqkqb;
+        "purpur-1.21.7" = _qAzgqkqb;
+        "purpur-1.21.8" = _qAzgqkqb;
+        "purpur-1.21.9" = _qAzgqkqb;
+        "purpur-1.21.10" = _qAzgqkqb;
+        "purpur-1.21.11" = _qAzgqkqb;
+        "purpur-26.1" = _qAzgqkqb;
+        "purpur-26.1.1" = _qAzgqkqb;
+        "purpur-26.1.2" = _qAzgqkqb;
+        "purpur-26.2" = _qAzgqkqb;
+        "spigot-1.21" = _qAzgqkqb;
+        "spigot-1.21.1" = _qAzgqkqb;
+        "spigot-1.21.2" = _qAzgqkqb;
+        "spigot-1.21.3" = _qAzgqkqb;
+        "spigot-1.21.4" = _qAzgqkqb;
+        "spigot-1.21.5" = _qAzgqkqb;
+        "spigot-1.21.6" = _qAzgqkqb;
+        "spigot-1.21.7" = _qAzgqkqb;
+        "spigot-1.21.8" = _qAzgqkqb;
+        "spigot-1.21.9" = _qAzgqkqb;
+        "spigot-1.21.10" = _qAzgqkqb;
+        "spigot-1.21.11" = _qAzgqkqb;
+        "spigot-26.1" = _qAzgqkqb;
+        "spigot-26.1.1" = _qAzgqkqb;
+        "spigot-26.1.2" = _qAzgqkqb;
+        "spigot-26.2" = _qAzgqkqb;
+        "folia-1.21" = _qAzgqkqb;
+        "folia-1.21.1" = _qAzgqkqb;
+        "folia-1.21.2" = _qAzgqkqb;
+        "folia-1.21.3" = _qAzgqkqb;
+        "folia-1.21.4" = _qAzgqkqb;
+        "folia-1.21.5" = _qAzgqkqb;
+        "folia-1.21.6" = _qAzgqkqb;
+        "folia-1.21.7" = _qAzgqkqb;
+        "folia-1.21.8" = _qAzgqkqb;
+        "folia-1.21.9" = _qAzgqkqb;
+        "folia-1.21.10" = _qAzgqkqb;
+        "folia-1.21.11" = _qAzgqkqb;
+        "folia-26.1" = _qAzgqkqb;
+        "folia-26.1.1" = _qAzgqkqb;
+        "folia-26.1.2" = _qAzgqkqb;
+        "folia-26.2" = _qAzgqkqb;
+        "pkg-1.0.0" = _V0jWwydw;
+        "pkg-1.1" = _qZu0GfEO;
+        "pkg-1.2" = _qAzgqkqb;
+        "default" = _qAzgqkqb;
+    });
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "combat-block";
+        id = "3G6b206m";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-All-Rights-Reserved";
+                shortName = "LicenseRef-All-Rights-Reserved";
+                url = null;
+            };
+        };
+    };
+in callPackage fn {}

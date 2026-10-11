@@ -121,6 +121,11 @@ let
             "file" = "beyondvanilla-1.2.6.jar";
             "hash" = "sha512-C/Q668KarU9AQ2ku+V2/cn3bHFI5Nnug7vT5Ds3/x/inMu+L3FdlEgAogZW7I3AkWvZfKkILX1lSxKSDzSIOhg==";
         };
+        _84sQU5dW = {
+            "id" = "84sQU5dW";
+            "file" = "beyondvanilla-PRERELEASE-1.2.7.jar";
+            "hash" = "sha512-hYgWZ8yBERAjOEXrAX5ALaHTliZq5GNxv/4Gi3Xh18ccYqf7hE+yfnetiQ576T8csE7CD0RDZqMAiTB/6//jjA==";
+        };
     in {
         "JNlSKL6S" = _JNlSKL6S;
         "GDTg4b64" = _GDTg4b64;
@@ -146,9 +151,10 @@ let
         "Kexi3JTX" = _Kexi3JTX;
         "l0J4sG7h" = _l0J4sG7h;
         "EcqpsNDT" = _EcqpsNDT;
+        "84sQU5dW" = _84sQU5dW;
         "fabric-1.21.11" = _ZmBR1rxC;
         "fabric-26.1.2" = _oVidfp0V;
-        "fabric-26.2" = _EcqpsNDT;
+        "fabric-26.2" = _84sQU5dW;
         "pkg-A-1.0.0" = _JNlSKL6S;
         "pkg-A-1.0.1" = _GDTg4b64;
         "pkg-A-1.0.2" = _DNlfSoHF;
@@ -173,7 +179,8 @@ let
         "pkg-1.2.4" = _Kexi3JTX;
         "pkg-1.2.5" = _l0J4sG7h;
         "pkg-1.2.6" = _EcqpsNDT;
-        "default" = _EcqpsNDT;
+        "pkg-PRE1.2.7" = _84sQU5dW;
+        "default" = _84sQU5dW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "beyond_vanilla";

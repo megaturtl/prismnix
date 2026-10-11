@@ -106,6 +106,11 @@ let
             "file" = "hear_the_wind-0.2.0+26.3-pre-2-fabric.jar";
             "hash" = "sha512-+A9zQbgsGXKey7TPsVU7GWN1QSLq3z2bydrI1RpetsZv1bQFLdY19rf4zH51Ful5HAJc7KsfWlAcAQmTSItYMw==";
         };
+        _NIj1c684 = {
+            "id" = "NIj1c684";
+            "file" = "hear_the_wind-0.2.0+26.3-fabric.jar";
+            "hash" = "sha512-6IG3FehWi56BG28QJLQnyNNk4hFrN14PoA6fv/KTBKH9D8Xn5NUlcb304FSW+1lIf1rtpVxtN86Y3/cYmoMYyg==";
+        };
     in {
         "jP7yhqT3" = _jP7yhqT3;
         "XnebYtzy" = _XnebYtzy;
@@ -128,6 +133,7 @@ let
         "AQE5nlku" = _AQE5nlku;
         "bslW5A7O" = _bslW5A7O;
         "yIkn2nMz" = _yIkn2nMz;
+        "NIj1c684" = _NIj1c684;
         "fabric-1.14" = _jP7yhqT3;
         "fabric-1.14.1" = _jP7yhqT3;
         "fabric-1.14.2" = _jP7yhqT3;
@@ -177,6 +183,7 @@ let
         "fabric-26.2" = _WkCblIMJ;
         "fabric-26.3-snapshot-5" = _bslW5A7O;
         "fabric-26.3-pre-2" = _yIkn2nMz;
+        "fabric-26.3" = _NIj1c684;
         "forge-1.17" = _qK7vReiw;
         "forge-1.17.1" = _qK7vReiw;
         "forge-1.18" = _buTOXjCi;
@@ -227,7 +234,8 @@ let
         "pkg-0.2.0+26.2-neoforge" = _AQE5nlku;
         "pkg-0.2.0+26.3-snapshot-5-fabric" = _bslW5A7O;
         "pkg-0.1.0+26.3-pre-2-fabric" = _yIkn2nMz;
-        "default" = _yIkn2nMz;
+        "pkg-0.2.0+26.3-fabric" = _NIj1c684;
+        "default" = _NIj1c684;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hear-the-wind";

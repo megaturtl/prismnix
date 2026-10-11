@@ -101,6 +101,11 @@ let
             "file" = "KSPACk_26.2-1.zip";
             "hash" = "sha512-hXkcKKikenQUNTTXqjUDykGddd8geBNEjTh442uXUkcAZ41EHjLnbVygIfU6uQ5Fr5pwNrqY+1oKn+A8M6DFYQ==";
         };
+        _wLHM942v = {
+            "id" = "wLHM942v";
+            "file" = "KSPACK_26.3.zip";
+            "hash" = "sha512-k0CVSSzER5PNZZyA35zGGKlkyENTn++qrU5Kox/ieQV2SulgNOuEHiZ4uGcQuxNFmZRwi1EnEzn3j3Kj07Pmhw==";
+        };
     in {
         "5qojODTn" = _5qojODTn;
         "RgCQ6cu0" = _RgCQ6cu0;
@@ -122,6 +127,7 @@ let
         "pU3cDvoG" = _pU3cDvoG;
         "mSGjTZ7f" = _mSGjTZ7f;
         "NalVliT2" = _NalVliT2;
+        "wLHM942v" = _wLHM942v;
         "minecraft-1.21.4" = _I5MqtsAr;
         "minecraft-1.21.5" = _I5MqtsAr;
         "minecraft-1.21.6" = _Fv2xSk9B;
@@ -140,6 +146,7 @@ let
         "minecraft-26.1.1" = _pU3cDvoG;
         "minecraft-26.1.2" = _pU3cDvoG;
         "minecraft-26.2" = _NalVliT2;
+        "minecraft-26.3" = _wLHM942v;
         "pkg-KSPACK_V1" = _5qojODTn;
         "pkg-KSPACK_V1.1" = _RgCQ6cu0;
         "pkg-KSPACK_V1.2" = _I5MqtsAr;
@@ -160,7 +167,8 @@ let
         "pkg-26.1.x-3" = _pU3cDvoG;
         "pkg-26.2" = _mSGjTZ7f;
         "pkg-26.2-1" = _NalVliT2;
-        "default" = _NalVliT2;
+        "pkg-26.3" = _wLHM942v;
+        "default" = _wLHM942v;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kspack";

@@ -111,6 +111,21 @@ let
             "file" = "animalgarden-westerngorilla-1.0.1-forge-1.20.1-47.4.10.jar";
             "hash" = "sha512-74PdfuO0c7VcEtQRASP16C3KJ2jmZtF3/X5HxyWU69l0+opz7JVBfx3CSljPxJOW/wsWPwOdAqeUVyn1YoWv4Q==";
         };
+        _gMNDtkIt = {
+            "id" = "gMNDtkIt";
+            "file" = "animalgarden-westerngorilla-1.0.1-forge-26.3-66.0.2.jar";
+            "hash" = "sha512-hyRZRRSH4Futp6cKk/MHU6C5gdhcX/e8vGCKRDAfBaAsDuH3ZsPEZAY0oiqSametCUbf7UV2e4oGEUP8O++O6w==";
+        };
+        _qEFYigOa = {
+            "id" = "qEFYigOa";
+            "file" = "animalgarden-westerngorilla-1.0.1-neoforge-26.3.0.10.jar";
+            "hash" = "sha512-LBYDV6+s147bT6fLwv+kw60Q8VXaivctyyuHK0+so3lFXRncmVyOP6EMmRpOyG41ppgze4Xwy/bfWKOQwnPNUQ==";
+        };
+        _XayFImhn = {
+            "id" = "XayFImhn";
+            "file" = "animalgarden-westerngorilla-1.0.1-fabric-26.3-0.161.0.jar";
+            "hash" = "sha512-UhiLEse1y1tBFQXnb2fbSjn7uPhcgi+9RbxK+E2x0TlrVUVdU0QUETRBlHbTMfcP6tDksRdhP5iDEdECn/ZaBQ==";
+        };
     in {
         "eGfDDjHk" = _eGfDDjHk;
         "1Y19NmjG" = _1Y19NmjG;
@@ -134,6 +149,9 @@ let
         "CmMiOwSa" = _CmMiOwSa;
         "ugGLjX1p" = _ugGLjX1p;
         "G59bKY0P" = _G59bKY0P;
+        "gMNDtkIt" = _gMNDtkIt;
+        "qEFYigOa" = _qEFYigOa;
+        "XayFImhn" = _XayFImhn;
         "fabric-1.20.1" = _eGfDDjHk;
         "fabric-1.21.1" = _WT5yu4k5;
         "fabric-1.21.4" = _kZMICvOB;
@@ -148,6 +166,7 @@ let
         "fabric-26.1.1" = _lBXnFuui;
         "fabric-26.1.2" = _lBXnFuui;
         "fabric-26.2" = _lBXnFuui;
+        "fabric-26.3" = _XayFImhn;
         "forge-1.20.1" = _G59bKY0P;
         "forge-1.21.1" = _3zZMGLMr;
         "forge-1.21.4" = _MMtksgHf;
@@ -161,6 +180,7 @@ let
         "forge-26.1.1" = _CmMiOwSa;
         "forge-26.1.2" = _CmMiOwSa;
         "forge-26.2" = _CmMiOwSa;
+        "forge-26.3" = _gMNDtkIt;
         "neoforge-1.21.1" = _DoNJZpnl;
         "neoforge-1.21.4" = _RJDkR8Va;
         "neoforge-1.21.6" = _k0wiTR9h;
@@ -173,6 +193,7 @@ let
         "neoforge-26.1.1" = _ugGLjX1p;
         "neoforge-26.1.2" = _ugGLjX1p;
         "neoforge-26.2" = _ugGLjX1p;
+        "neoforge-26.3" = _qEFYigOa;
         "pkg-1.0.0-fabric-1.20.1-0.92.6" = _eGfDDjHk;
         "pkg-1.0.0-forge-1.20.1-47.4.10" = _1Y19NmjG;
         "pkg-1.0.0-forge-1.21.1-52.1.5" = _3zZMGLMr;
@@ -195,7 +216,10 @@ let
         "pkg-1.0.1-forge-26.1.2-64.0.0" = _CmMiOwSa;
         "pkg-1.0.1-neoforge-26.1.2.7" = _ugGLjX1p;
         "pkg-1.0.1-forge-1.20.1-47.4.10" = _G59bKY0P;
-        "default" = _G59bKY0P;
+        "pkg-1.0.1-forge-26.3-66.0.2" = _gMNDtkIt;
+        "pkg-1.0.1-neoforge-26.3.0.10" = _qEFYigOa;
+        "pkg-1.0.1-fabric-26.3-0.161.0" = _XayFImhn;
+        "default" = _XayFImhn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "animal-garden-western-gorilla";

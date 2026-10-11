@@ -126,6 +126,36 @@ let
             "file" = "BambooSignEditor-neoforge-1.0.19.jar";
             "hash" = "sha512-j39hd15n/Ih4HfTgCmwHg7LON2tbWDTz8dtE6iGtpGSspY1+nhI+U6Y4xPZv1pZQSVREOO6Htfr6BAVPjsDLig==";
         };
+        _zHZKdaly = {
+            "id" = "zHZKdaly";
+            "file" = "BambooSignEditor-fabric-1.0.20.jar";
+            "hash" = "sha512-r2BxLire6pAS7fZ4v2d3SZTw5qWSJ4Cebi+yxULJ+s4o+DTHT/zB85Bu3wyGU8Z16Vy7AKOLSVH0rZjN3wlkuQ==";
+        };
+        _AADiIy3E = {
+            "id" = "AADiIy3E";
+            "file" = "BambooSignEditor-neoforge-1.0.20.jar";
+            "hash" = "sha512-UHHmsepnKXINRE/lzjHQVJ2OTukumsNUoK9+z62ZxsLvZTfk/8ETIGxAd+IvOcrEwfV2xVmXJHH6VYp8bCfppg==";
+        };
+        _s30iuT1F = {
+            "id" = "s30iuT1F";
+            "file" = "BambooSignEditor-neoforge-1.0.21.jar";
+            "hash" = "sha512-eQlqSYhV7CpmYTt+jTTasb6WIGp4RYnEg5RPMJwlaghvv+lXVSs9HXPdVtZYufQVMDtLN3UauHd8GWpS7H2HGQ==";
+        };
+        _mWc6ST7Y = {
+            "id" = "mWc6ST7Y";
+            "file" = "BambooSignEditor-fabric-1.0.21.jar";
+            "hash" = "sha512-5tP2ePKNun/x8Ar+MWq9muvwz6jW3tTivM/VbLDFV7PGnNO8udAtovDva97fWd5jqsKRAGYm2edaX1sqdSDN5Q==";
+        };
+        _5yuVjeSH = {
+            "id" = "5yuVjeSH";
+            "file" = "BambooSignEditor-fabric-1.0.22.jar";
+            "hash" = "sha512-XJ+rvq4UWp0I38pxD2VhUyQ/Yno7MD5PQtIWT4yDmak+c8PTVgT8De8vhJ7sIXEaHGorROtXNStxnlusRVpapA==";
+        };
+        _NjvA3yWH = {
+            "id" = "NjvA3yWH";
+            "file" = "BambooSignEditor-neoforge-1.0.22.jar";
+            "hash" = "sha512-6+3aKuVFIM9S7ntN4VZzLa8VhR845qemVnvhqKW9o+4de9B+TYNK24NPAg2IkbGc/OvwORhZsySdeoZopqEGJw==";
+        };
     in {
         "RQabZ0vQ" = _RQabZ0vQ;
         "j1O4MRrc" = _j1O4MRrc;
@@ -152,6 +182,12 @@ let
         "rsPBKKZ8" = _rsPBKKZ8;
         "QybPvYa2" = _QybPvYa2;
         "AsmHVEtb" = _AsmHVEtb;
+        "zHZKdaly" = _zHZKdaly;
+        "AADiIy3E" = _AADiIy3E;
+        "s30iuT1F" = _s30iuT1F;
+        "mWc6ST7Y" = _mWc6ST7Y;
+        "5yuVjeSH" = _5yuVjeSH;
+        "NjvA3yWH" = _NjvA3yWH;
         "fabric-1.19" = _RQabZ0vQ;
         "fabric-1.19.1" = _RQabZ0vQ;
         "fabric-1.19.2" = _RQabZ0vQ;
@@ -180,6 +216,7 @@ let
         "fabric-26.1.1" = _TfxsUROe;
         "fabric-26.1.2" = _TfxsUROe;
         "fabric-26.2" = _QybPvYa2;
+        "fabric-26.3" = _5yuVjeSH;
         "quilt-1.19.3" = _upBsprcc;
         "quilt-1.19.4" = _j18JgCB3;
         "quilt-1.20" = _5olu081J;
@@ -190,6 +227,7 @@ let
         "neoforge-26.1.1" = _rsPBKKZ8;
         "neoforge-26.1.2" = _rsPBKKZ8;
         "neoforge-26.2" = _AsmHVEtb;
+        "neoforge-26.3" = _NjvA3yWH;
         "pkg-1.0.0" = _j1O4MRrc;
         "pkg-1.0.1" = _upBsprcc;
         "pkg-1.0.2" = _j18JgCB3;
@@ -209,7 +247,10 @@ let
         "pkg-1.0.17" = _PEeZaKXJ;
         "pkg-1.0.18" = _rsPBKKZ8;
         "pkg-1.0.19" = _AsmHVEtb;
-        "default" = _AsmHVEtb;
+        "pkg-1.0.20" = _AADiIy3E;
+        "pkg-1.0.21" = _mWc6ST7Y;
+        "pkg-1.0.22" = _NjvA3yWH;
+        "default" = _NjvA3yWH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bamboo-sign-editor";

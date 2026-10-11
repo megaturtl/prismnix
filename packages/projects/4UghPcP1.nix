@@ -251,6 +251,11 @@ let
             "file" = "HexaBiome-{NatureGreen}[3.0][26.2].zip";
             "hash" = "sha512-pnBhbVmCJsSjmjMiIGJjRw/M+1bkUY0aSDz8BYBkaQznGBdHRuZfLIAvVi9rDyOKBivD5pt8D5JxeJVG1KpQQw==";
         };
+        _FZ0YHudg = {
+            "id" = "FZ0YHudg";
+            "file" = "HexaBiome-{NatureGreen}[3.0][26.3].zip";
+            "hash" = "sha512-8K7h8rYU3U5rWrI3IGXILVDiR/luSb4j5ec5mEgZ2Xegkyd240zPJrGzOpm3NuSW8bJxsE2F3JSDjUQ5g7EmSA==";
+        };
     in {
         "pndIKSlU" = _pndIKSlU;
         "l1JIIBQw" = _l1JIIBQw;
@@ -302,6 +307,7 @@ let
         "ghDGSWKG" = _ghDGSWKG;
         "laBJ2tik" = _laBJ2tik;
         "yqIYOshI" = _yqIYOshI;
+        "FZ0YHudg" = _FZ0YHudg;
         "minecraft-1.16" = _8285DtdB;
         "minecraft-1.16.1" = _8285DtdB;
         "minecraft-1.16.2" = _8285DtdB;
@@ -341,11 +347,13 @@ let
         "minecraft-26.1.1" = _laBJ2tik;
         "minecraft-26.1.2" = _laBJ2tik;
         "minecraft-26.2" = _yqIYOshI;
+        "minecraft-26.3" = _FZ0YHudg;
+        "minecraft-26.4-snapshot-1" = _FZ0YHudg;
         "pkg-1.0" = _WIUD4gX9;
         "pkg-2" = _WzQLuN3H;
         "pkg-2.0" = _YFDoa6IP;
-        "pkg-3.0" = _yqIYOshI;
-        "default" = _yqIYOshI;
+        "pkg-3.0" = _FZ0YHudg;
+        "default" = _FZ0YHudg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hexabiome-naturegreen";

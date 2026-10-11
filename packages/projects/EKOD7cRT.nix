@@ -526,6 +526,21 @@ let
             "file" = "simplekeybinds-1.4.5_fabric-mc26.2.jar";
             "hash" = "sha512-MneO7sItFBDlowISvsryd4Lry2e5BfLpc2OuYx9BAvgtZbmNiN9VUXOFYnUuDWw96t1faQDp0wMNldmhBpZkGA==";
         };
+        _R1leHYpy = {
+            "id" = "R1leHYpy";
+            "file" = "simplekeybinds-1.4.6_fabric-mc26.3.jar";
+            "hash" = "sha512-Z3udkPcs5ndNrb+JoNhAQvA//Y/bewmf5xf4Gdwbw/3oUQl/kEr3CTCClR59omEO05Hx3QruEjlAuugWVZvJnw==";
+        };
+        _wqLVSL7c = {
+            "id" = "wqLVSL7c";
+            "file" = "simplekeybinds-1.4.7_neoforge-mc26.3.jar";
+            "hash" = "sha512-822wqxoihDdWtzInFcdnJ+mtqkODzyISOCCc8iQZoxF6tq8PHgg6cYHMPDI4WzKfnHQBCb7X3wwQba2n4bHzzg==";
+        };
+        _m9RB31G6 = {
+            "id" = "m9RB31G6";
+            "file" = "simplekeybinds-1.4.7_fabric-mc26.3.jar";
+            "hash" = "sha512-tj26Uc/1BV+WN0QijKbrHNDdz4t99EsNdwFZKZUi0sytExwNaUacna/ANC7C7LJ+oBzG/kjLBJ+0D1ZlQVT+rQ==";
+        };
     in {
         "YpvHVhQ6" = _YpvHVhQ6;
         "zd1Ud1wo" = _zd1Ud1wo;
@@ -632,6 +647,9 @@ let
         "Ugkyegx2" = _Ugkyegx2;
         "jRlh73ix" = _jRlh73ix;
         "lhjVKrLO" = _lhjVKrLO;
+        "R1leHYpy" = _R1leHYpy;
+        "wqLVSL7c" = _wqLVSL7c;
+        "m9RB31G6" = _m9RB31G6;
         "fabric-1.16.5" = _x6IKLWxb;
         "fabric-1.17" = _Qlne5Kca;
         "fabric-1.17.1" = _Qlne5Kca;
@@ -668,6 +686,7 @@ let
         "fabric-26.1.1" = _xVqmHKbp;
         "fabric-26.1.2" = _AviXHhPf;
         "fabric-26.2" = _lhjVKrLO;
+        "fabric-26.3" = _m9RB31G6;
         "forge-1.20" = _9g3XkzOx;
         "forge-1.20.1" = _YHcMcHst;
         "forge-1.20.2" = _9g3XkzOx;
@@ -701,6 +720,7 @@ let
         "neoforge-26.1.1" = _HP7qf9xQ;
         "neoforge-26.1.2" = _hi7GuF5K;
         "neoforge-26.2" = _jRlh73ix;
+        "neoforge-26.3" = _wqLVSL7c;
         "pkg-1.0-1.16.5" = _YpvHVhQ6;
         "pkg-1.0-1.17.x" = _zd1Ud1wo;
         "pkg-1.0-1.18.x" = _TAFsq6FI;
@@ -758,7 +778,9 @@ let
         "pkg-1.4.3" = _oLXRt9wc;
         "pkg-1.4.4" = _Ugkyegx2;
         "pkg-1.4.5" = _lhjVKrLO;
-        "default" = _lhjVKrLO;
+        "pkg-1.4.6" = _R1leHYpy;
+        "pkg-1.4.7" = _m9RB31G6;
+        "default" = _m9RB31G6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-keybinds";

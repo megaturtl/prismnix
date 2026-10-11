@@ -196,6 +196,11 @@ let
             "file" = "rple-mc1.7.10-2.2.3.jar";
             "hash" = "sha512-2po5IBlfp59mRuDvGKXK6GIoCuYKF7E0CBcDHw5OY/EDHhoQs0Qn+rw51MUk5aO9Fyb2YihS9fykvNnDVR6pzA==";
         };
+        _wClE6XAo = {
+            "id" = "wClE6XAo";
+            "file" = "rple-mc1.7.10-2.2.4.jar";
+            "hash" = "sha512-B48hRaPDjtvsVlMwGYFSeIPVher+ktHHOjtEaArOvcMNnSOw79NLs1hMPD4FbJWBEEkYNIvOpwj9DzSXOhBe7w==";
+        };
     in {
         "PXTvTK8H" = _PXTvTK8H;
         "MAa8CZPg" = _MAa8CZPg;
@@ -236,7 +241,8 @@ let
         "yShnQlRS" = _yShnQlRS;
         "SgHWhtLu" = _SgHWhtLu;
         "fREnxzit" = _fREnxzit;
-        "forge-1.7.10" = _fREnxzit;
+        "wClE6XAo" = _wClE6XAo;
+        "forge-1.7.10" = _wClE6XAo;
         "pkg-1.0.0" = _PXTvTK8H;
         "pkg-1.0.1-beta0001" = _MAa8CZPg;
         "pkg-1.0.1-beta0002" = _28LCbCXy;
@@ -275,7 +281,8 @@ let
         "pkg-2.2.1" = _UbVDZUg9;
         "pkg-2.2.2" = _SgHWhtLu;
         "pkg-2.2.3" = _fREnxzit;
-        "default" = _fREnxzit;
+        "pkg-2.2.4" = _wClE6XAo;
+        "default" = _wClE6XAo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rple";

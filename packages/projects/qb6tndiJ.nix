@@ -41,6 +41,46 @@ let
             "file" = "ImmersiveConvergence-1.21.1-2.0.0-b108-release.jar";
             "hash" = "sha512-jkryZSgeKqJLplsGU4RBuBDOGQE35NRu1PaYpCDCe8A37Kv/D1O+zq6Jrexg54N4a+fiG4Q1JcIw2BvMUOFBhA==";
         };
+        _vjiK39xQ = {
+            "id" = "vjiK39xQ";
+            "file" = "ImmersiveConvergence-1.20.1-1.0.0-b88-release.jar";
+            "hash" = "sha512-pommhI8y88EzaWJHjx/4fe0136y4WC+YBNBYXxbdQrS4Gp4mZ4MIQAuBJBEA3oaT00HpJpAI73enMstqN6t9pg==";
+        };
+        _xKKNi8Iq = {
+            "id" = "xKKNi8Iq";
+            "file" = "ImmersiveConvergence-1.21.1-2.0.0-b109-release.jar";
+            "hash" = "sha512-exgki5cT5Chh4HM0bdaAeLKiQYcz0XuqpTA/lQK4aguukaMGjLFK56sCj5tneY+hZ/zn/MJ9KBvC/PckoRmBOA==";
+        };
+        _qJnXU1gz = {
+            "id" = "qJnXU1gz";
+            "file" = "ImmersiveConvergence-1.12.2-1.0.177-release.jar";
+            "hash" = "sha512-Iz7dPGhvpUe7RApFFimAef/QCS2EHk85ok4lXY5Q10fHKeXqO6J1lh58R5Pi5u/lLi4M/5PvNfQZ9PzZmsfBDw==";
+        };
+        _T40JJmW3 = {
+            "id" = "T40JJmW3";
+            "file" = "ImmersiveConvergence-1.20.1-1.0.0-b89-release.jar";
+            "hash" = "sha512-VKgzBqezwPZ0z60EJeopfZOg0Qt+ssjHRfUPtTEAfPmVPrOnVHRvMhK44ODlLFUVipGOdeY9zSMmtdJMZrhhKA==";
+        };
+        _9lj7rzF0 = {
+            "id" = "9lj7rzF0";
+            "file" = "ImmersiveConvergence-1.21.1-2.0.0-b110-release.jar";
+            "hash" = "sha512-PvY359vfQdLw1gzhoFMINA2ueCsGQ0rt3+VSWxiaJh9GeL84rv4I8CDtUM87uUarP9Ch3gC003SpkUNm3hw70g==";
+        };
+        _a0VadZbA = {
+            "id" = "a0VadZbA";
+            "file" = "ImmersiveConvergence-1.12.2-1.0.178-release.jar";
+            "hash" = "sha512-DTJW2rdwo9SUV2dCfdIXFxjE+X554Xam+jlUX/K+ELAE3h8JfeYIuSkHPLQqBAZ/BPXiwcXjJKcSWOgmGUhFXg==";
+        };
+        _fcXcnzlt = {
+            "id" = "fcXcnzlt";
+            "file" = "ImmersiveConvergence-1.20.1-1.0.0-b90-release.jar";
+            "hash" = "sha512-wFIkSpIlsnaSyhaZDxVxYcBwC3srJqpFdhJZ9G+x3aNaamE/xsrdxpyn1RRvsshiwc7i2y/A86BJFAGhHBDezA==";
+        };
+        _iF8GzI4p = {
+            "id" = "iF8GzI4p";
+            "file" = "ImmersiveConvergence-1.21.1-2.0.0-b111-release.jar";
+            "hash" = "sha512-IRZ4H7YJ2gsmwDQPQtVpNlagsneRTZrHXbVTww3YQsxMhbKNhzxfZVZRrkfXG6DhILUE5IO/1xiacoul1PiJcw==";
+        };
     in {
         "tB08ui56" = _tB08ui56;
         "GKcrOQRy" = _GKcrOQRy;
@@ -50,9 +90,17 @@ let
         "2JiNuBIc" = _2JiNuBIc;
         "eqRQwpNO" = _eqRQwpNO;
         "SJinp5aA" = _SJinp5aA;
-        "forge-1.20.1" = _eqRQwpNO;
-        "forge-1.12.2" = _2JiNuBIc;
-        "neoforge-1.21.1" = _SJinp5aA;
+        "vjiK39xQ" = _vjiK39xQ;
+        "xKKNi8Iq" = _xKKNi8Iq;
+        "qJnXU1gz" = _qJnXU1gz;
+        "T40JJmW3" = _T40JJmW3;
+        "9lj7rzF0" = _9lj7rzF0;
+        "a0VadZbA" = _a0VadZbA;
+        "fcXcnzlt" = _fcXcnzlt;
+        "iF8GzI4p" = _iF8GzI4p;
+        "forge-1.20.1" = _fcXcnzlt;
+        "forge-1.12.2" = _a0VadZbA;
+        "neoforge-1.21.1" = _iF8GzI4p;
         "pkg-1.0.0-b31-beta" = _tB08ui56;
         "pkg-2.0.0-b29-beta" = _GKcrOQRy;
         "pkg-1.0.104-release" = _7yW8wHQq;
@@ -61,7 +109,15 @@ let
         "pkg-1.0.174-release" = _2JiNuBIc;
         "pkg-1.0.0-b87-release" = _eqRQwpNO;
         "pkg-2.0.0-b108-release" = _SJinp5aA;
-        "default" = _SJinp5aA;
+        "pkg-1.0.0-b88-release" = _vjiK39xQ;
+        "pkg-2.0.0-b109-release" = _xKKNi8Iq;
+        "pkg-1.0.177-release" = _qJnXU1gz;
+        "pkg-1.0.0-b89-release" = _T40JJmW3;
+        "pkg-2.0.0-b110-release" = _9lj7rzF0;
+        "pkg-1.0.178-release" = _a0VadZbA;
+        "pkg-1.0.0-b90-release" = _fcXcnzlt;
+        "pkg-2.0.0-b111-release" = _iF8GzI4p;
+        "default" = _iF8GzI4p;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immersive-convergence";

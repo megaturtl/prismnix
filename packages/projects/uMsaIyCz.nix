@@ -91,6 +91,16 @@ let
             "file" = "pvp-arena-v1.3.1.jar";
             "hash" = "sha512-83d3cxMnPrtN07Q57oSYI7YjqC6ybUEF7GmFc7HD6xcZNCwTFnx7j2hcQdGMG5jFhu71WHpM7qgX0nkrcn4cZA==";
         };
+        _7BYndZKJ = {
+            "id" = "7BYndZKJ";
+            "file" = "PVP-Arena-1.3.2-DP.zip";
+            "hash" = "sha512-yY+umjwWEDjNqCr4wJuAtUYHwqkOILkpIuedgDxSVJPvORlhaRF1J99xMa13EQNtE3FXTrVtKXC47UIeinmgkg==";
+        };
+        _v12Q6QMf = {
+            "id" = "v12Q6QMf";
+            "file" = "pvp-arena-1.3.2.jar";
+            "hash" = "sha512-UGWzSppLdyCfhmAfuyt/OVc3kqX8p/paJuAoRAnQUVCiQ/2g6YUDgjNUPS893WFGMgzfN3zP9TRgYfhJVGjg9Q==";
+        };
     in {
         "YjMSzacS" = _YjMSzacS;
         "xgCwhNtE" = _xgCwhNtE;
@@ -110,6 +120,8 @@ let
         "dGqtOZH6" = _dGqtOZH6;
         "CRv9yaJT" = _CRv9yaJT;
         "zlN1gf2Z" = _zlN1gf2Z;
+        "7BYndZKJ" = _7BYndZKJ;
+        "v12Q6QMf" = _v12Q6QMf;
         "datapack-1.21.5" = _shwBKaX4;
         "datapack-1.21.6" = _shwBKaX4;
         "datapack-1.21.7" = _shwBKaX4;
@@ -134,12 +146,12 @@ let
         "datapack-26.1-rc-1" = _vIGdkUDd;
         "datapack-26.1-rc-2" = _vIGdkUDd;
         "datapack-26.1-rc-3" = _vIGdkUDd;
-        "datapack-26.1" = _CRv9yaJT;
+        "datapack-26.1" = _7BYndZKJ;
         "datapack-26.1.1-rc-1" = _vIGdkUDd;
-        "datapack-26.1.1" = _CRv9yaJT;
+        "datapack-26.1.1" = _7BYndZKJ;
         "datapack-26w14a" = _vIGdkUDd;
         "datapack-26.1.2-rc-1" = _vIGdkUDd;
-        "datapack-26.1.2" = _CRv9yaJT;
+        "datapack-26.1.2" = _7BYndZKJ;
         "datapack-26.2-snapshot-1" = _vIGdkUDd;
         "datapack-26.2-snapshot-2" = _vIGdkUDd;
         "datapack-26.2-snapshot-3" = _vIGdkUDd;
@@ -156,7 +168,7 @@ let
         "datapack-26.2-pre-6" = _vIGdkUDd;
         "datapack-26.2-rc-1" = _vIGdkUDd;
         "datapack-26.2-rc-2" = _vIGdkUDd;
-        "datapack-26.2" = _CRv9yaJT;
+        "datapack-26.2" = _7BYndZKJ;
         "datapack-1.21.11-pre1" = _vIGdkUDd;
         "datapack-1.21.11-pre2" = _vIGdkUDd;
         "datapack-1.21.11-pre3" = _vIGdkUDd;
@@ -165,6 +177,7 @@ let
         "datapack-1.21.11-rc1" = _vIGdkUDd;
         "datapack-1.21.11-rc2" = _vIGdkUDd;
         "datapack-1.21.11-rc3" = _vIGdkUDd;
+        "datapack-26.3" = _7BYndZKJ;
         "fabric-1.21.5" = _fHLd0rUD;
         "fabric-1.21.6" = _fHLd0rUD;
         "fabric-1.21.7" = _fHLd0rUD;
@@ -189,12 +202,12 @@ let
         "fabric-26.1-rc-1" = _oDu3j0FY;
         "fabric-26.1-rc-2" = _oDu3j0FY;
         "fabric-26.1-rc-3" = _oDu3j0FY;
-        "fabric-26.1" = _zlN1gf2Z;
+        "fabric-26.1" = _v12Q6QMf;
         "fabric-26.1.1-rc-1" = _oDu3j0FY;
-        "fabric-26.1.1" = _zlN1gf2Z;
+        "fabric-26.1.1" = _v12Q6QMf;
         "fabric-26w14a" = _oDu3j0FY;
         "fabric-26.1.2-rc-1" = _oDu3j0FY;
-        "fabric-26.1.2" = _zlN1gf2Z;
+        "fabric-26.1.2" = _v12Q6QMf;
         "fabric-26.2-snapshot-1" = _oDu3j0FY;
         "fabric-26.2-snapshot-2" = _oDu3j0FY;
         "fabric-26.2-snapshot-3" = _oDu3j0FY;
@@ -211,7 +224,8 @@ let
         "fabric-26.2-pre-6" = _oDu3j0FY;
         "fabric-26.2-rc-1" = _oDu3j0FY;
         "fabric-26.2-rc-2" = _oDu3j0FY;
-        "fabric-26.2" = _zlN1gf2Z;
+        "fabric-26.2" = _v12Q6QMf;
+        "fabric-26.3" = _v12Q6QMf;
         "forge-1.21.5" = _fHLd0rUD;
         "forge-1.21.6" = _fHLd0rUD;
         "forge-1.21.7" = _fHLd0rUD;
@@ -236,12 +250,12 @@ let
         "forge-26.1-rc-1" = _oDu3j0FY;
         "forge-26.1-rc-2" = _oDu3j0FY;
         "forge-26.1-rc-3" = _oDu3j0FY;
-        "forge-26.1" = _zlN1gf2Z;
+        "forge-26.1" = _v12Q6QMf;
         "forge-26.1.1-rc-1" = _oDu3j0FY;
-        "forge-26.1.1" = _zlN1gf2Z;
+        "forge-26.1.1" = _v12Q6QMf;
         "forge-26w14a" = _oDu3j0FY;
         "forge-26.1.2-rc-1" = _oDu3j0FY;
-        "forge-26.1.2" = _zlN1gf2Z;
+        "forge-26.1.2" = _v12Q6QMf;
         "forge-26.2-snapshot-1" = _oDu3j0FY;
         "forge-26.2-snapshot-2" = _oDu3j0FY;
         "forge-26.2-snapshot-3" = _oDu3j0FY;
@@ -258,7 +272,8 @@ let
         "forge-26.2-pre-6" = _oDu3j0FY;
         "forge-26.2-rc-1" = _oDu3j0FY;
         "forge-26.2-rc-2" = _oDu3j0FY;
-        "forge-26.2" = _zlN1gf2Z;
+        "forge-26.2" = _v12Q6QMf;
+        "forge-26.3" = _v12Q6QMf;
         "neoforge-1.21.5" = _fHLd0rUD;
         "neoforge-1.21.6" = _fHLd0rUD;
         "neoforge-1.21.7" = _fHLd0rUD;
@@ -283,12 +298,12 @@ let
         "neoforge-26.1-rc-1" = _oDu3j0FY;
         "neoforge-26.1-rc-2" = _oDu3j0FY;
         "neoforge-26.1-rc-3" = _oDu3j0FY;
-        "neoforge-26.1" = _zlN1gf2Z;
+        "neoforge-26.1" = _v12Q6QMf;
         "neoforge-26.1.1-rc-1" = _oDu3j0FY;
-        "neoforge-26.1.1" = _zlN1gf2Z;
+        "neoforge-26.1.1" = _v12Q6QMf;
         "neoforge-26w14a" = _oDu3j0FY;
         "neoforge-26.1.2-rc-1" = _oDu3j0FY;
-        "neoforge-26.1.2" = _zlN1gf2Z;
+        "neoforge-26.1.2" = _v12Q6QMf;
         "neoforge-26.2-snapshot-1" = _oDu3j0FY;
         "neoforge-26.2-snapshot-2" = _oDu3j0FY;
         "neoforge-26.2-snapshot-3" = _oDu3j0FY;
@@ -305,7 +320,8 @@ let
         "neoforge-26.2-pre-6" = _oDu3j0FY;
         "neoforge-26.2-rc-1" = _oDu3j0FY;
         "neoforge-26.2-rc-2" = _oDu3j0FY;
-        "neoforge-26.2" = _zlN1gf2Z;
+        "neoforge-26.2" = _v12Q6QMf;
+        "neoforge-26.3" = _v12Q6QMf;
         "quilt-1.21.5" = _fHLd0rUD;
         "quilt-1.21.6" = _fHLd0rUD;
         "quilt-1.21.7" = _fHLd0rUD;
@@ -330,12 +346,12 @@ let
         "quilt-26.1-rc-1" = _oDu3j0FY;
         "quilt-26.1-rc-2" = _oDu3j0FY;
         "quilt-26.1-rc-3" = _oDu3j0FY;
-        "quilt-26.1" = _zlN1gf2Z;
+        "quilt-26.1" = _v12Q6QMf;
         "quilt-26.1.1-rc-1" = _oDu3j0FY;
-        "quilt-26.1.1" = _zlN1gf2Z;
+        "quilt-26.1.1" = _v12Q6QMf;
         "quilt-26w14a" = _oDu3j0FY;
         "quilt-26.1.2-rc-1" = _oDu3j0FY;
-        "quilt-26.1.2" = _zlN1gf2Z;
+        "quilt-26.1.2" = _v12Q6QMf;
         "quilt-26.2-snapshot-1" = _oDu3j0FY;
         "quilt-26.2-snapshot-2" = _oDu3j0FY;
         "quilt-26.2-snapshot-3" = _oDu3j0FY;
@@ -352,7 +368,8 @@ let
         "quilt-26.2-pre-6" = _oDu3j0FY;
         "quilt-26.2-rc-1" = _oDu3j0FY;
         "quilt-26.2-rc-2" = _oDu3j0FY;
-        "quilt-26.2" = _zlN1gf2Z;
+        "quilt-26.2" = _v12Q6QMf;
+        "quilt-26.3" = _v12Q6QMf;
         "pkg-1.0" = _YjMSzacS;
         "pkg-1.0-mod" = _xgCwhNtE;
         "pkg-1.0.1" = _CuR1xOUw;
@@ -363,7 +380,8 @@ let
         "pkg-1.2" = _oDu3j0FY;
         "pkg-1.3" = _dGqtOZH6;
         "pkg-1.3.1" = _zlN1gf2Z;
-        "default" = _zlN1gf2Z;
+        "pkg-1.3.2" = _v12Q6QMf;
+        "default" = _v12Q6QMf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pvp-arena";

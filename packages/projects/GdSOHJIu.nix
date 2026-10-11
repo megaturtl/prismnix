@@ -16,19 +16,34 @@ let
             "file" = "BetterSavedHotbars-Forked-1.3.9-26.2.jar";
             "hash" = "sha512-xsDOAS9w1MBK+TZRSLbPJ3ptEVzPDcSTdand6gc8uLbw1CTKBwvyRlOTAmVlbW0hX5G5zlph0PcBMhhOxOA8qg==";
         };
+        _cxgNVDda = {
+            "id" = "cxgNVDda";
+            "file" = "BetterSavedHotbars-Forked-1.3.9-26.3.jar";
+            "hash" = "sha512-kN0ajgHxQ48IdEGB0uX0mhBA7O9eSsCxmAwzu0mTyagk5WLY1NB5Xo3r/FITESsijrHCo6DoGjFkhI1/DykICw==";
+        };
+        _WYurLAD4 = {
+            "id" = "WYurLAD4";
+            "file" = "BetterSavedHotbars-Forked-1.4.0-26.3.jar";
+            "hash" = "sha512-v65rIN8l70FZ1pF09PZ2ZJwO/Ful1vcHU+k3v6wk1qmNi5YhImMDrMK986ZfDPkF5GfpmB8ZgyaSxhr3ZMSo8g==";
+        };
     in {
         "gTNRdsXZ" = _gTNRdsXZ;
         "sOmmQPQo" = _sOmmQPQo;
         "UxJa34Oq" = _UxJa34Oq;
+        "cxgNVDda" = _cxgNVDda;
+        "WYurLAD4" = _WYurLAD4;
         "fabric-1.21.11" = _gTNRdsXZ;
         "fabric-26.1" = _sOmmQPQo;
         "fabric-26.1.1" = _sOmmQPQo;
         "fabric-26.1.2" = _sOmmQPQo;
         "fabric-26.2" = _UxJa34Oq;
+        "fabric-26.3" = _WYurLAD4;
         "pkg-1.3.9" = _gTNRdsXZ;
         "pkg-1.3.9-mc-26.1" = _sOmmQPQo;
         "pkg-1.3.9-mc-26.2" = _UxJa34Oq;
-        "default" = _UxJa34Oq;
+        "pkg-1.3.9-mc-26.3" = _cxgNVDda;
+        "pkg-1.4.0-mc-26.3" = _WYurLAD4;
+        "default" = _WYurLAD4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-saved-hotbars-forked";

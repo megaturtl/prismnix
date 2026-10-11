@@ -181,6 +181,11 @@ let
             "file" = "1.7.10-ASJCore-1.7.0.2.jar";
             "hash" = "sha512-WN6UI3gIDe3/hJQhb5ur2raoAJsvtkPS8C5hEBhswzs2d7+BN8cJFN1wXPxVoiLvdZwMO/n/z4qDrn0Z+k9R6g==";
         };
+        _Q6zjwngG = {
+            "id" = "Q6zjwngG";
+            "file" = "1.7.10-ASJCore-1.7.0.3.jar";
+            "hash" = "sha512-cmZovPZ1UpnqMu8u7Lo+cs3fN9wc/0Yc5BGVFZ5spunbyhx4cfK5KIqL9cMCfASHcikgCMszcRwrkWmizryqhA==";
+        };
     in {
         "58jEPB6p" = _58jEPB6p;
         "1imQH7i1" = _1imQH7i1;
@@ -218,7 +223,8 @@ let
         "tLqfNib4" = _tLqfNib4;
         "ACiLjqnE" = _ACiLjqnE;
         "mZGajDza" = _mZGajDza;
-        "forge-1.7.10" = _mZGajDza;
+        "Q6zjwngG" = _Q6zjwngG;
+        "forge-1.7.10" = _Q6zjwngG;
         "pkg-1.2.4.0" = _58jEPB6p;
         "pkg-1.2.4.1" = _1imQH7i1;
         "pkg-1.2.4.2" = _TpZsywN5;
@@ -255,7 +261,8 @@ let
         "pkg-1.7.0.0" = _tLqfNib4;
         "pkg-1.7.0.1" = _ACiLjqnE;
         "pkg-1.7.0.2" = _mZGajDza;
-        "default" = _mZGajDza;
+        "pkg-1.7.0.3" = _Q6zjwngG;
+        "default" = _Q6zjwngG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "asjcore";

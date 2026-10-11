@@ -121,6 +121,11 @@ let
             "file" = "flashbackturbo-0.6.2+26.2.jar";
             "hash" = "sha512-wX/IhXzmc3NQ2iEbiQQsvD6UyTVsMHx0IgUhI8felCg7wIkHQ/sckoxyJ9i88HocGGMI4mVyO12cfMUfCP26vA==";
         };
+        _6eBy58C2 = {
+            "id" = "6eBy58C2";
+            "file" = "flashbackturbo-0.6.2+26.3.jar";
+            "hash" = "sha512-mQUuKUScp51QyqR+uw1IC7sjf3BGSqcuQDP5UGqd1eDQF15JOjkTM7Iv+WfrRGfhw0NqCi7OiWhtPiK8imjKFA==";
+        };
     in {
         "af67oAn9" = _af67oAn9;
         "bwaNy4x0" = _bwaNy4x0;
@@ -146,6 +151,7 @@ let
         "7VghS0yh" = _7VghS0yh;
         "4Yx6Cwxt" = _4Yx6Cwxt;
         "GiLHaUeJ" = _GiLHaUeJ;
+        "6eBy58C2" = _6eBy58C2;
         "fabric-1.21.9" = _7VghS0yh;
         "fabric-1.21.10" = _7VghS0yh;
         "fabric-1.21.11" = _7VghS0yh;
@@ -153,6 +159,7 @@ let
         "fabric-26.1.1" = _4Yx6Cwxt;
         "fabric-26.1.2" = _4Yx6Cwxt;
         "fabric-26.2" = _GiLHaUeJ;
+        "fabric-26.3" = _6eBy58C2;
         "pkg-0.2.0" = _af67oAn9;
         "pkg-0.2.0+26.1" = _bwaNy4x0;
         "pkg-0.2.1" = _J2GOqYF5;
@@ -177,7 +184,8 @@ let
         "pkg-0.6.1" = _7VghS0yh;
         "pkg-0.6.1+26.1" = _4Yx6Cwxt;
         "pkg-0.6.2+26.2" = _GiLHaUeJ;
-        "default" = _GiLHaUeJ;
+        "pkg-0.6.2+26.3" = _6eBy58C2;
+        "default" = _6eBy58C2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "flashbackturbo";

@@ -506,6 +506,11 @@ let
             "file" = "Glowing Trim WeaponTools[MG-5.0][26.2].zip";
             "hash" = "sha512-sjvE+2z6mAwTIpGhVmFFz+wsiutOSQny8Co1RNGaTecEaYvgh3FGyTJb/bZ69IyrDGnXsxEByMKwWPBSp7fVOA==";
         };
+        _HDBqGtoT = {
+            "id" = "HDBqGtoT";
+            "file" = "Glowing Trim WeaponTools[MG-5.0][26.3].zip";
+            "hash" = "sha512-012IQzIqzohMc0mDu17CluToDqMeR2no8ySWaQdwiv+sSiAJ0cxrH5trGVhW5Q/AIzxj8Fljuxbcz4PnyRWiIA==";
+        };
     in {
         "Jgn9z4BH" = _Jgn9z4BH;
         "SvaxPEGK" = _SvaxPEGK;
@@ -608,6 +613,7 @@ let
         "DzD4tnHO" = _DzD4tnHO;
         "2ys0J1Ou" = _2ys0J1Ou;
         "Q9Z94EEw" = _Q9Z94EEw;
+        "HDBqGtoT" = _HDBqGtoT;
         "minecraft-1.16.2" = _QWG8lSUE;
         "minecraft-1.16.3" = _QWG8lSUE;
         "minecraft-1.16.4" = _QWG8lSUE;
@@ -647,6 +653,8 @@ let
         "minecraft-26.1.1" = _2ys0J1Ou;
         "minecraft-26.1.2" = _2ys0J1Ou;
         "minecraft-26.2" = _Q9Z94EEw;
+        "minecraft-26.3" = _HDBqGtoT;
+        "minecraft-26.4-snapshot-1" = _HDBqGtoT;
         "pkg-1.16-1.16.5" = _Jgn9z4BH;
         "pkg-1.17-1.17.1" = _SvaxPEGK;
         "pkg-1.18-1.18.2" = _Uba80o06;
@@ -668,8 +676,8 @@ let
         "pkg-4.1" = _FSNWn6u0;
         "pkg-MG-4.0" = _zgnRGjsv;
         "pkg-MG-4.5" = _gKhV7h2j;
-        "pkg-MG-5.0" = _Q9Z94EEw;
-        "default" = _Q9Z94EEw;
+        "pkg-MG-5.0" = _HDBqGtoT;
+        "default" = _HDBqGtoT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "glowing-weapon-tools";

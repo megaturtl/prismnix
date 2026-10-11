@@ -186,6 +186,11 @@ let
             "file" = "databank-1.3.1.jar";
             "hash" = "sha512-EJOIOJjxWt0cHI9cB+OFh2Z7yr8C3swaNHaOf41nAAcj/s26CFDqhbmY6xCi3U8ti86X9NJxyBy1CMtH5xTcqQ==";
         };
+        _d6LhhbRE = {
+            "id" = "d6LhhbRE";
+            "file" = "databank-1.3.2.jar";
+            "hash" = "sha512-6qA7D8ootjNbnodfSiUy+YSL0ubN1c5fHhiTbKRVXpUwiVP75/xeep9uQkLQTdN17slkNQMAtdgbq5ZKLfCd3A==";
+        };
     in {
         "G2EciO5C" = _G2EciO5C;
         "NtbduCHK" = _NtbduCHK;
@@ -224,8 +229,9 @@ let
         "hfcOs39b" = _hfcOs39b;
         "62xo9p1M" = _62xo9p1M;
         "btze5IVe" = _btze5IVe;
+        "d6LhhbRE" = _d6LhhbRE;
         "neoforge-1.21" = _hfcOs39b;
-        "neoforge-1.21.1" = _btze5IVe;
+        "neoforge-1.21.1" = _d6LhhbRE;
         "pkg-1.0.0" = _G2EciO5C;
         "pkg-1.0.1" = _NtbduCHK;
         "pkg-1.0.2" = _tbVrXdww;
@@ -263,7 +269,8 @@ let
         "pkg-1.2.2" = _hfcOs39b;
         "pkg-1.3.0" = _62xo9p1M;
         "pkg-1.3.1" = _btze5IVe;
-        "default" = _btze5IVe;
+        "pkg-1.3.2" = _d6LhhbRE;
+        "default" = _d6LhhbRE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "databank";

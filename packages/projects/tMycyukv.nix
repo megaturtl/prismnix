@@ -166,6 +166,16 @@ let
             "file" = "EndingLibrary-1.20.1-2.2-all.jar";
             "hash" = "sha512-NTes4ecQ9tNapENOcUxxeva85/0QixWwnEooZoGx1MvtbxgOvXCaxayIBT4AVEvGZucHXZ8VdygVnO/CfXTl+w==";
         };
+        _tmZdWeyG = {
+            "id" = "tmZdWeyG";
+            "file" = "EndingLibrary-1.20.1-2.2.1-all.jar";
+            "hash" = "sha512-Lhb0kMrSb3nR0SgYaUvGKiR2uV5ZiO2hyTOtocF01jNZZHj3Djnsv9LpvgNyTO8VXj9E4zSmUsfrRf8c/m81cw==";
+        };
+        _MHYrjSc5 = {
+            "id" = "MHYrjSc5";
+            "file" = "EndingLibrary-1.20.1-2.2.1fix-all.jar";
+            "hash" = "sha512-e7eeCd/9ooXDqJUvwVXczg4an+Tcwj6YPiPaM2dlktViQ96ad3OeYpGfFmblnMFO2+mDi9vnWZv50VzdG/fvyg==";
+        };
     in {
         "PmfyuBoH" = _PmfyuBoH;
         "YPWHCsCR" = _YPWHCsCR;
@@ -200,7 +210,9 @@ let
         "2svfLNAU" = _2svfLNAU;
         "PKHHkXli" = _PKHHkXli;
         "TdmREZqV" = _TdmREZqV;
-        "forge-1.20.1" = _TdmREZqV;
+        "tmZdWeyG" = _tmZdWeyG;
+        "MHYrjSc5" = _MHYrjSc5;
+        "forge-1.20.1" = _MHYrjSc5;
         "pkg-2.0" = _PmfyuBoH;
         "pkg-2.0.1" = _YPWHCsCR;
         "pkg-2.0.2" = _zPBIGqx4;
@@ -234,7 +246,9 @@ let
         "pkg-2.1.19fix" = _2svfLNAU;
         "pkg-2.1.20" = _PKHHkXli;
         "pkg-2.2" = _TdmREZqV;
-        "default" = _TdmREZqV;
+        "pkg-2.2.1" = _tmZdWeyG;
+        "pkg-2.2.1fix" = _MHYrjSc5;
+        "default" = _MHYrjSc5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "endinglibrary";

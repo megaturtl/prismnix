@@ -16,15 +16,22 @@ let
             "file" = "petrochem-neoforge-1.21.1-1.3.2.jar";
             "hash" = "sha512-+R1nnQ6zoMqbdbK2dak1y3SYrpLZsI3Glxg7r+LLSfG+gtQqSyyKXSgqJemsENNMa6pYjYb1nzzD31KiMkmfAA==";
         };
+        _ei3FtAPI = {
+            "id" = "ei3FtAPI";
+            "file" = "petrochem-neoforge-1.21.1-1.3.3.jar";
+            "hash" = "sha512-cMumbYgNUx+mRgV1Vj2bnISj1HzdxoyyyrTvDspUiDr4ssTgpmAWZzLJCKrbZ/qJyXAFNcKuAMItbYjJJ3MBQA==";
+        };
     in {
         "TVHWFMJg" = _TVHWFMJg;
         "zbhX7sRd" = _zbhX7sRd;
         "BMqli7Ow" = _BMqli7Ow;
-        "neoforge-1.21.1" = _BMqli7Ow;
+        "ei3FtAPI" = _ei3FtAPI;
+        "neoforge-1.21.1" = _ei3FtAPI;
         "pkg-1.2.1" = _TVHWFMJg;
         "pkg-1.3.0" = _zbhX7sRd;
         "pkg-1.3.2" = _BMqli7Ow;
-        "default" = _BMqli7Ow;
+        "pkg-1.3.3" = _ei3FtAPI;
+        "default" = _ei3FtAPI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-petrochem";

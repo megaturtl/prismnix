@@ -46,6 +46,11 @@ let
             "file" = "LBPR Reload! v.6.5 for mc1.21.5.zip";
             "hash" = "sha512-rOBFmcCdlJDTxUl9+6gm31oznTHDmsONdng8D1YHLp1UObIsRy4EYZ88Qbmi+ma1cr3Esn1s+YakLNSMQO/F5g==";
         };
+        _4NEQ178L = {
+            "id" = "4NEQ178L";
+            "file" = "LBPR Reload! v.6.6 for mc1.21.8.zip";
+            "hash" = "sha512-qT/oel7ebHHqhpuXLy1RYlle4MIEabFtGWUr500W2W0YlcZdSg4Jeh97exlCk0r0CLUDfuZbOvEnlssGBvVNCQ==";
+        };
     in {
         "lMMBW7WD" = _lMMBW7WD;
         "KFwf9s9N" = _KFwf9s9N;
@@ -56,6 +61,7 @@ let
         "LF5bSU3P" = _LF5bSU3P;
         "Dr35CAEl" = _Dr35CAEl;
         "i7DIfjJz" = _i7DIfjJz;
+        "4NEQ178L" = _4NEQ178L;
         "minecraft-1.20" = _lMMBW7WD;
         "minecraft-1.20.1" = _lMMBW7WD;
         "minecraft-1.20.2" = _lMMBW7WD;
@@ -68,6 +74,9 @@ let
         "minecraft-1.21.3" = _vGVLaEbp;
         "minecraft-1.21.4" = _Dr35CAEl;
         "minecraft-1.21.5" = _i7DIfjJz;
+        "minecraft-1.21.6" = _4NEQ178L;
+        "minecraft-1.21.7" = _4NEQ178L;
+        "minecraft-1.21.8" = _4NEQ178L;
         "pkg-6.0" = _lMMBW7WD;
         "pkg-6.1-1.20.4" = _KFwf9s9N;
         "pkg-6.1-1.20.6" = _a2ybccNp;
@@ -77,7 +86,8 @@ let
         "pkg-6.3-1.21.4" = _LF5bSU3P;
         "pkg-6.4-1.21.4" = _Dr35CAEl;
         "pkg-6.5-1.21.5" = _i7DIfjJz;
-        "default" = _i7DIfjJz;
+        "pkg-6.6" = _4NEQ178L;
+        "default" = _4NEQ178L;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lb-photo-realism-reload";

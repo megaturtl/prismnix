@@ -296,6 +296,21 @@ let
             "file" = "potionenchant-1.20.1-forge-1.8.8-fix4.jar";
             "hash" = "sha512-EeuMg1fKsAlS0l+To1XmhRZpdUbJaw0KBD11EKxrx9BGuRVfDQ1RwlwrDXF5vKdjYo8eVuF2g6iMITAmvAc+ag==";
         };
+        _LslYzyB3 = {
+            "id" = "LslYzyB3";
+            "file" = "potionenchant-1.20.1-forge-1.8.9-a.jar";
+            "hash" = "sha512-jnVBDQvdf0wrBqlGANR9PyAccMGmH16kJ+vICxgGI2UgBTtoTNSNSJPIOoqSmL+xUPn76a/lkqx5McodXbEMHw==";
+        };
+        _hpWb5a7G = {
+            "id" = "hpWb5a7G";
+            "file" = "potionenchant-1.20.1-forge-1.8.9-b.jar";
+            "hash" = "sha512-L/M8Uw3R6lMk9hP/gEAHOVd0Pn6U8o047+mE5wPHSDXOIBkpdUNmFqk7E+sQLq/GCKLZ6rAKa2sFjf1uImGi8g==";
+        };
+        _N4XOmiIx = {
+            "id" = "N4XOmiIx";
+            "file" = "potionenchant-1.20.1-forge-1.8.9-c.jar";
+            "hash" = "sha512-gbEkl7KJEudjHbo64GtssBS1xtX61/h/xQshDWwqRcGr0QsuajtjccrWeKxmnp0g4tmbXw/Qq0/CKWjX8arS9g==";
+        };
     in {
         "DdaNpQNu" = _DdaNpQNu;
         "4UUPBCZa" = _4UUPBCZa;
@@ -356,7 +371,10 @@ let
         "DA6zwEMK" = _DA6zwEMK;
         "zPuJ8EbL" = _zPuJ8EbL;
         "CERm4BDr" = _CERm4BDr;
-        "forge-1.20.1" = _CERm4BDr;
+        "LslYzyB3" = _LslYzyB3;
+        "hpWb5a7G" = _hpWb5a7G;
+        "N4XOmiIx" = _N4XOmiIx;
+        "forge-1.20.1" = _N4XOmiIx;
         "forge-1.19.2" = _T23uG5YO;
         "forge-1.18.2" = _u6Ufs3Wp;
         "neoforge-1.21" = _cWMN8yHM;
@@ -430,7 +448,10 @@ let
         "pkg-1.20.1-forge-1.8.8-fix2" = _DA6zwEMK;
         "pkg-1.20.1-forge-1.8.8-fix3" = _zPuJ8EbL;
         "pkg-1.20.1-forge-1.8.8-fix4" = _CERm4BDr;
-        "default" = _CERm4BDr;
+        "pkg-1.20.1-forge-1.8.9-a" = _LslYzyB3;
+        "pkg-1.20.1-forge-1.8.9-b" = _hpWb5a7G;
+        "pkg-1.20.1-forge-1.8.9-c" = _N4XOmiIx;
+        "default" = _N4XOmiIx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "potionenchant";

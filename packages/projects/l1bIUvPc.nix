@@ -56,6 +56,16 @@ let
             "file" = "tacz_morelevel-1.4.1.jar";
             "hash" = "sha512-MAjbHNml3/g1HxipUbO7FQYXQKQ7qrHX7TSJ1Ju+TJA7n4fe5onYmdZ/eskRgLXlhP/K1aMvp2C5bHWGEgU62Q==";
         };
+        _haHZWcTZ = {
+            "id" = "haHZWcTZ";
+            "file" = "tacz_morelevel-1.4.2 .jar";
+            "hash" = "sha512-iHmWzhW1c3nnnrirShr/oRHMom/pxrAfmWqBwM6y/L51hrw7veafaX6uGwo/fiMIjfBwH5Rj8dEaLGLdgzRoeA==";
+        };
+        _mqydKDDv = {
+            "id" = "mqydKDDv";
+            "file" = "tacz_morelevel-1.4.3.jar";
+            "hash" = "sha512-vJuqtFx74obXPbjo/Bvw8ugdD++bBrv3zSc+W/FAhN01zi8pwNdoQi18mQlGs0MyfQPBb41o1eYYZRydiocX2A==";
+        };
     in {
         "XfRGg0qk" = _XfRGg0qk;
         "6MlLeWEs" = _6MlLeWEs;
@@ -68,7 +78,9 @@ let
         "4SNlNyUa" = _4SNlNyUa;
         "n5gKg1vd" = _n5gKg1vd;
         "maa4iUua" = _maa4iUua;
-        "forge-1.20.1" = _maa4iUua;
+        "haHZWcTZ" = _haHZWcTZ;
+        "mqydKDDv" = _mqydKDDv;
+        "forge-1.20.1" = _mqydKDDv;
         "pkg-1.0.0" = _XfRGg0qk;
         "pkg-1.1.0" = _6MlLeWEs;
         "pkg-1.2.2" = _YpXwxwz6;
@@ -80,7 +92,9 @@ let
         "pkg-1.4.0" = _4SNlNyUa;
         "pkg-1.4.1_pre" = _n5gKg1vd;
         "pkg-1.4.1" = _maa4iUua;
-        "default" = _maa4iUua;
+        "pkg-1.4.2" = _haHZWcTZ;
+        "pkg-1.4.3pre" = _mqydKDDv;
+        "default" = _mqydKDDv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tacz_more_level";

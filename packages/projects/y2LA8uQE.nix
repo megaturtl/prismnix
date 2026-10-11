@@ -106,6 +106,11 @@ let
             "file" = "directgpu-1.0.24-neoforge-1.21.1.jar";
             "hash" = "sha512-PMiLVTFbp4VMw/jfsWzdUUhkgMH+VYpGU6X/VYHgRyLAl7qJq64h4klkhG3nkz1i8LUBqG9iI89gW0wXGalQdw==";
         };
+        _CFRJ0qJr = {
+            "id" = "CFRJ0qJr";
+            "file" = "directgpu-1.0.25-neoforge-1.21.1.jar";
+            "hash" = "sha512-CB5esXziDKr+WV3QvaMho76Q1vlmyM0ujbu0JZ1EhkMUo5kVS2YMUIP8UBc712Pbx6/EykPcJ61dEzFbH/xMAg==";
+        };
     in {
         "wZYD0QBF" = _wZYD0QBF;
         "Ttd9dHFa" = _Ttd9dHFa;
@@ -128,9 +133,10 @@ let
         "4gJ9V5D4" = _4gJ9V5D4;
         "zsBkPErG" = _zsBkPErG;
         "kxl9oeha" = _kxl9oeha;
+        "CFRJ0qJr" = _CFRJ0qJr;
         "forge-1.20.1" = _QixUSztf;
         "fabric-1.20.1" = _nP03XJdx;
-        "neoforge-1.21.1" = _kxl9oeha;
+        "neoforge-1.21.1" = _CFRJ0qJr;
         "pkg-1.0.0" = _wZYD0QBF;
         "pkg-1.0.1" = _Ttd9dHFa;
         "pkg-1.0.2" = _jHkzZTs5;
@@ -152,7 +158,8 @@ let
         "pkg-1.0.22-neoforge-1.21.1" = _4gJ9V5D4;
         "pkg-1.0.23-neoforge-1.21.1" = _zsBkPErG;
         "pkg-1.0.24-neoforge-1.21.1" = _kxl9oeha;
-        "default" = _kxl9oeha;
+        "pkg-1.0.25-neoforge-1.21.1" = _CFRJ0qJr;
+        "default" = _CFRJ0qJr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ccdirectgpu-mod";

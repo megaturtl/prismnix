@@ -181,6 +181,11 @@ let
             "file" = "AnimatedFramesPL-1.4.jar";
             "hash" = "sha512-nhPAaFvCOPhXI1/D6IY6UK4vQnQvsu6tYHD0gHL65qTNiBeyQVOJ+TS6NwN0wsj9WszBHYcZX5gpBaKhgkKPTg==";
         };
+        _xjNwWHuC = {
+            "id" = "xjNwWHuC";
+            "file" = "[AF]AnimatedFrames-1.7-fabric-1.21.11.jar";
+            "hash" = "sha512-M4eblsGdI1GllrkdwTqDI4wZr3fK7fGFDbvXiYVqiFxVgUB2k4GzGFTVt/JB8hZYATJmcUbq22pvjUvioAqnhA==";
+        };
     in {
         "pyjAReqF" = _pyjAReqF;
         "Sbdq0qGk" = _Sbdq0qGk;
@@ -218,6 +223,7 @@ let
         "XTF2wOtX" = _XTF2wOtX;
         "6NJ33a9R" = _6NJ33a9R;
         "XxXG8JlP" = _XxXG8JlP;
+        "xjNwWHuC" = _xjNwWHuC;
         "forge-1.20.1" = _6xXqbUQA;
         "bukkit-1.20.1" = _XxXG8JlP;
         "bukkit-1.21" = _XxXG8JlP;
@@ -242,6 +248,7 @@ let
         "fabric-1.20.1" = _lI8wTfTp;
         "fabric-1.21.1" = _3h0UJe8K;
         "fabric-1.21.4" = _6NJ33a9R;
+        "fabric-1.21.11" = _xjNwWHuC;
         "pkg-1.0.0-beta" = _pyjAReqF;
         "pkg-1.1" = _MH4umTwG;
         "pkg-1.2" = _7u5s3zeF;
@@ -253,8 +260,8 @@ let
         "pkg-1.6" = _ZGM2OXQm;
         "pkg-1.6.1" = _30YPMxnq;
         "pkg-1.6.2" = _KSuKOkZI;
-        "pkg-1.7" = _6NJ33a9R;
-        "default" = _XxXG8JlP;
+        "pkg-1.7" = _xjNwWHuC;
+        "default" = _xjNwWHuC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "animated-frames";

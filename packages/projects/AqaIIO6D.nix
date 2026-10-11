@@ -206,6 +206,16 @@ let
             "file" = "ranged_weapon_api-fabric-2.3.4+1.20.1.jar";
             "hash" = "sha512-hJnRfNMdyGq/RJZ7Np0GS/1wFIM30NspulE6P4hGMN3ZDiCKp5tZxMXUcX/+Mfw1sMjjuod5nwbsyKxvIT0p8g==";
         };
+        _WPQVFuAQ = {
+            "id" = "WPQVFuAQ";
+            "file" = "ranged_weapon_api-neoforge-4.0.0+26.3.jar";
+            "hash" = "sha512-FCTz2gribRKx7tu7Jr02qb4RvuMsmBr1t0n/bBRXgMA9OVscG74bUlTD/lJD9JIE8RLtPDVB5DSND3m+BT0tqw==";
+        };
+        _5ywtfrkS = {
+            "id" = "5ywtfrkS";
+            "file" = "ranged_weapon_api-fabric-4.0.0+26.3.jar";
+            "hash" = "sha512-FrMtu3SNdOEQ8T0LcYntlhh4ZHJo3igtemD7IJNnY99Fot+KUad+sE3m0JGqn6rmdO+vBrdaQEJhTwkILBVVvQ==";
+        };
     in {
         "RzWpA7xD" = _RzWpA7xD;
         "Mj5snp7k" = _Mj5snp7k;
@@ -248,6 +258,8 @@ let
         "oXBMPShc" = _oXBMPShc;
         "2Md2M2d5" = _2Md2M2d5;
         "7VQ4OHzQ" = _7VQ4OHzQ;
+        "WPQVFuAQ" = _WPQVFuAQ;
+        "5ywtfrkS" = _5ywtfrkS;
         "fabric-1.20.1" = _7VQ4OHzQ;
         "fabric-1.21" = _D23XVjUe;
         "fabric-1.21.1" = _D23XVjUe;
@@ -256,6 +268,7 @@ let
         "fabric-26.1.1" = _7lq0P8Ck;
         "fabric-26.1.2" = _7lq0P8Ck;
         "fabric-26.2" = _pAKK9B14;
+        "fabric-26.3" = _5ywtfrkS;
         "neoforge-1.21" = _WxNYN3Zh;
         "neoforge-1.21.1" = _WxNYN3Zh;
         "neoforge-1.21.11" = _7GXeSJSr;
@@ -264,6 +277,7 @@ let
         "neoforge-26.1.2" = _CRB139Ir;
         "neoforge-26.2" = _oXBMPShc;
         "neoforge-1.20.1" = _2Md2M2d5;
+        "neoforge-26.3" = _WPQVFuAQ;
         "forge-1.20.1" = _2Md2M2d5;
         "pkg-1.0.0+1.20.1" = _RzWpA7xD;
         "pkg-1.1.0+1.20.1" = _Mj5snp7k;
@@ -304,7 +318,9 @@ let
         "pkg-4.0.0+26.2-neoforge" = _oXBMPShc;
         "pkg-2.3.4+1.20.1-forge" = _2Md2M2d5;
         "pkg-2.3.4+1.20.1-fabric" = _7VQ4OHzQ;
-        "default" = _7VQ4OHzQ;
+        "pkg-4.0.0+26.3-neoforge" = _WPQVFuAQ;
+        "pkg-4.0.0+26.3-fabric" = _5ywtfrkS;
+        "default" = _5ywtfrkS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ranged-weapon-api";

@@ -21,17 +21,24 @@ let
             "file" = "CreateAlerted-0.2.1.jar";
             "hash" = "sha512-kb8IMQGzYYwf1rZNRYAxipmpEysOf0Lftlvk9yibsKApUocNlgGHOBaFskUtPBH+j7VkdcXUHEtTkwIT0zzpLA==";
         };
+        _EqLJKVBE = {
+            "id" = "EqLJKVBE";
+            "file" = "CreateAlerted-0.2.2.jar";
+            "hash" = "sha512-V8LCRAhN4cb09DAm8bf55+evR3wRsLdhH+qXTZ/qKUHGckNG8+dwWKe1kt+UXkjxQy4MjbxfKoj7F2XfuBKMGQ==";
+        };
     in {
         "KfXrM9vH" = _KfXrM9vH;
         "XAeXVeg9" = _XAeXVeg9;
         "ifMBqUMz" = _ifMBqUMz;
         "Z54r4h2o" = _Z54r4h2o;
-        "neoforge-1.21.1" = _Z54r4h2o;
+        "EqLJKVBE" = _EqLJKVBE;
+        "neoforge-1.21.1" = _EqLJKVBE;
         "pkg-0.1.0" = _KfXrM9vH;
         "pkg-0.1.1" = _XAeXVeg9;
         "pkg-0.2.0" = _ifMBqUMz;
         "pkg-0.2.1" = _Z54r4h2o;
-        "default" = _Z54r4h2o;
+        "pkg-0.2.2" = _EqLJKVBE;
+        "default" = _EqLJKVBE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-alerted";

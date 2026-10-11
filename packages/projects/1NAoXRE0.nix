@@ -1966,6 +1966,56 @@ let
             "file" = "[AFTP] 25w14craftmine.zip";
             "hash" = "sha512-Nqs37rcdOuDNZoet+CVdU7i2rekqMp1qWL5CRuH+bocWZTv8K4g/XE/Z/w5Xr5fcUblhMzREnnVNH/ppeebrwA==";
         };
+        _IxPBE5JJ = {
+            "id" = "IxPBE5JJ";
+            "file" = "[AFTP] 23w13a_or_b.zip";
+            "hash" = "sha512-PVVgcbFrY7RkqHohAdueaGJwp7dco1FU02kH+uSDFHwqSGfen3BzxmkJIhsUdPCuk/S0C1pqPOpa2xNV+NAqKg==";
+        };
+        _JHBMNGiP = {
+            "id" = "JHBMNGiP";
+            "file" = "[AFTP] 24w14potato.zip";
+            "hash" = "sha512-WL3hIGBW/GC/CIXkxUb+pnbGQH6fkJ9yS1jt3HE/U1Upuwo9y7EBJCD1fWRRKroh+MKe++rRDEWKsJljAh5dgg==";
+        };
+        _Ns9ucynd = {
+            "id" = "Ns9ucynd";
+            "file" = "[AFTP] 25w14craftmine.zip";
+            "hash" = "sha512-mUj3fzmnE0OMiscUzxnGbe8V0eS98Cd6G/Gd5M+NS8thM/AREU3Qch3/8aZCgZIANqeJspbz9imk6G7beKAY/g==";
+        };
+        _GsHqAZw8 = {
+            "id" = "GsHqAZw8";
+            "file" = "[AFTP] 26w14a.zip";
+            "hash" = "sha512-a0cWhMHsGdOi0JAZ5nEmdQNmg35Mnn4u+6gBkKo5ab8aWmUNBOH2FiaenDYqyDPeaZyzfFTu4ULCeoNctfilAw==";
+        };
+        _uO87T7qT = {
+            "id" = "uO87T7qT";
+            "file" = "[AFTP] 23w13a_or_b.zip";
+            "hash" = "sha512-xv2eHUjGsvxE4O8rDyWC3Yf9iQHF+8O6c98KIyIT1SCwbiQaR+5mpUay5ZdhHYTNY3n3/2AYYeATjKYWwECWGQ==";
+        };
+        _idZD6zxi = {
+            "id" = "idZD6zxi";
+            "file" = "[AFTP] 24w14potato.zip";
+            "hash" = "sha512-cCYHUGg+6GtbtNk0N3uZFnYLdNfBL1EoLgFUgMjgOwVerK4Hej9+ZqPeQ9c6oeMPmsZu7VVzDjsUKh+kAPeXwg==";
+        };
+        _mg2VTfzZ = {
+            "id" = "mg2VTfzZ";
+            "file" = "[AFTP] 25w14craftmine.zip";
+            "hash" = "sha512-WACdxUR4ZjE6i7afYJtRCCNxRh+BFua0JDCzfYSK05oDY+AA67jiQAjuCdtXeMmzRl8TODZal5HMOujWiy/2fA==";
+        };
+        _1Yc4HwUy = {
+            "id" = "1Yc4HwUy";
+            "file" = "[AFTP] 23w13a_or_b.zip";
+            "hash" = "sha512-cGQZuBTL6Jgw/dZzxaPmXS4Gxn4KtbMWOovOrnRDsMZwUlrm83YQp6lqBWcBBg6mkWEGaH8sIO7B3S7R2xhmrQ==";
+        };
+        _WYmLjdKX = {
+            "id" = "WYmLjdKX";
+            "file" = "[AFTP] 24w14potato.zip";
+            "hash" = "sha512-OL0tzfkUgbrZtKhuWOHtAdizKn+XcCJjB36h+ksYCrk3v7EFxKi5bJNhHddqukfEXLWmb0V2RL0PG/2Yj5RU4g==";
+        };
+        _omVhjuRy = {
+            "id" = "omVhjuRy";
+            "file" = "[AFTP] 25w14craftmine.zip";
+            "hash" = "sha512-pCAuFrX5SUOM45X53hk2hfqg67wxwttnVAres0JhOVviybPTsn+TEz1ocTfdObhWZWJjojDgRhzzZj4LOXsfzg==";
+        };
     in {
         "FZkw2bhG" = _FZkw2bhG;
         "wH1jwt1B" = _wH1jwt1B;
@@ -2360,15 +2410,25 @@ let
         "TUQrIrCb" = _TUQrIrCb;
         "uBb4HTlS" = _uBb4HTlS;
         "99nqX5I5" = _99nqX5I5;
-        "minecraft-25w14craftmine" = _99nqX5I5;
+        "IxPBE5JJ" = _IxPBE5JJ;
+        "JHBMNGiP" = _JHBMNGiP;
+        "Ns9ucynd" = _Ns9ucynd;
+        "GsHqAZw8" = _GsHqAZw8;
+        "uO87T7qT" = _uO87T7qT;
+        "idZD6zxi" = _idZD6zxi;
+        "mg2VTfzZ" = _mg2VTfzZ;
+        "1Yc4HwUy" = _1Yc4HwUy;
+        "WYmLjdKX" = _WYmLjdKX;
+        "omVhjuRy" = _omVhjuRy;
+        "minecraft-25w14craftmine" = _omVhjuRy;
         "minecraft-1.RV-Pre1" = _RWTrBDHH;
-        "minecraft-23w13a_or_b" = _TUQrIrCb;
-        "minecraft-24w14potato" = _uBb4HTlS;
+        "minecraft-23w13a_or_b" = _1Yc4HwUy;
+        "minecraft-24w14potato" = _WYmLjdKX;
         "minecraft-22w13oneblockatatime" = _8c3r9Ars;
         "minecraft-15w14a" = _Sm0EEP8o;
         "minecraft-20w14infinite" = _cq7CaIcK;
         "minecraft-3D-Shareware-v1.34" = _gjEffXZk;
-        "minecraft-26w14a" = _NG1vROWE;
+        "minecraft-26w14a" = _GsHqAZw8;
         "pkg-250616+25w14craftmine" = _FZkw2bhG;
         "pkg-250616+1.RV-Pre1" = _wH1jwt1B;
         "pkg-250616+23w13a_or_b" = _AqHOyQQx;
@@ -2762,7 +2822,17 @@ let
         "pkg-260913+23w13a_or_b" = _TUQrIrCb;
         "pkg-260913+24w14potato" = _uBb4HTlS;
         "pkg-260913+25w14craftmine" = _99nqX5I5;
-        "default" = _99nqX5I5;
+        "pkg-260920+23w13a_or_b" = _IxPBE5JJ;
+        "pkg-260920+24w14potato" = _JHBMNGiP;
+        "pkg-260920+25w14craftmine" = _Ns9ucynd;
+        "pkg-260920+26w14a" = _GsHqAZw8;
+        "pkg-260927+23w13a_or_b" = _uO87T7qT;
+        "pkg-260927+24w14potato" = _idZD6zxi;
+        "pkg-260927+25w14craftmine" = _mg2VTfzZ;
+        "pkg-261004+23w13a_or_b" = _1Yc4HwUy;
+        "pkg-261004+24w14potato" = _WYmLjdKX;
+        "pkg-261004+25w14craftmine" = _omVhjuRy;
+        "default" = _omVhjuRy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "april-fools-translation";

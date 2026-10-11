@@ -141,6 +141,26 @@ let
             "file" = "JourneyMap-Teams-neoforge-1.21.1-1.3.1.jar";
             "hash" = "sha512-iz+vZyZoOAZS0UGIkvo5SdorssQq3NAc5n2s9BqpLEFy3+1ZZ5BR2nLcFKzrypv3bzvPx2ggWbuaOd+OuIB1Hw==";
         };
+        _bvv5YfF1 = {
+            "id" = "bvv5YfF1";
+            "file" = "JourneyMap-Teams-forge-26.3-1.3.1.jar";
+            "hash" = "sha512-ZNGkk0h0IEvFRak0tv47Q8svRj+mtbwF1dRYuliiJBsjPRV5PzcO1NEbAfqQWxpObUARabk7OdreB5XYSq1yzQ==";
+        };
+        _juhrE1dV = {
+            "id" = "juhrE1dV";
+            "file" = "JourneyMap-Teams-neoforge-26.3-1.3.1.jar";
+            "hash" = "sha512-8fN3L9fVfRAGfU7eDcZFFLJ5gCiyFhB9b0CicWlBaJeYduhDucNm9xXi55hsyjn5066Y8k0Doo6VO2UiCj1Nsw==";
+        };
+        _lYP8N7ON = {
+            "id" = "lYP8N7ON";
+            "file" = "JourneyMap-Teams-paper-26.3-1.3.1.jar";
+            "hash" = "sha512-V73Q59T7Wl56bdPVCtrP3nc9FzJPKOiGzmQUBZZYeA885o6MT7L8tOdWEe5YkzmuMO/K8oNDC8t/sxjLCWtNAA==";
+        };
+        _HbikVO9e = {
+            "id" = "HbikVO9e";
+            "file" = "JourneyMap-Teams-fabric-26.3-1.3.1.jar";
+            "hash" = "sha512-B1sOZ2LDZ8VsoUkZjlRa+TDqtXfelSF8H10R15oiwyM8cEF5KrYBkFLKTEuO5YWNqIF/fI6QKva4GH9f5ZvZBA==";
+        };
     in {
         "68688tyf" = _68688tyf;
         "xl4bszuY" = _xl4bszuY;
@@ -170,27 +190,36 @@ let
         "3qeXrfug" = _3qeXrfug;
         "UHJdVbfm" = _UHJdVbfm;
         "okeLj2e7" = _okeLj2e7;
+        "bvv5YfF1" = _bvv5YfF1;
+        "juhrE1dV" = _juhrE1dV;
+        "lYP8N7ON" = _lYP8N7ON;
+        "HbikVO9e" = _HbikVO9e;
         "fabric-1.19.2" = _68688tyf;
         "fabric-1.20.1" = _GcXPpPpp;
         "fabric-26.1.2" = _Qn9lQs3g;
         "fabric-1.21.1" = _3qeXrfug;
         "fabric-26.2" = _hfUjzXdr;
+        "fabric-26.3" = _HbikVO9e;
         "quilt-1.19.2" = _68688tyf;
         "quilt-1.20.1" = _GcXPpPpp;
         "quilt-26.1.2" = _Qn9lQs3g;
         "quilt-1.21.1" = _3qeXrfug;
         "quilt-26.2" = _hfUjzXdr;
+        "quilt-26.3" = _HbikVO9e;
         "forge-1.19.2" = _xl4bszuY;
         "forge-1.20.1" = _muDDSJmq;
         "forge-26.1.2" = _oQpDv3wC;
         "forge-1.21.1" = _UHJdVbfm;
         "forge-26.2" = _YoOPELk0;
+        "forge-26.3" = _bvv5YfF1;
         "neoforge-1.20.1" = _muDDSJmq;
         "neoforge-26.1.2" = _2UW4p5nG;
         "neoforge-1.21.1" = _okeLj2e7;
         "neoforge-26.2" = _M8NbYcKc;
+        "neoforge-26.3" = _juhrE1dV;
         "paper-26.1.2" = _mloTP9Gz;
         "paper-26.2" = _99aAW151;
+        "paper-26.3" = _lYP8N7ON;
         "pkg-1.0.2" = _xl4bszuY;
         "pkg-1.1.0" = _2wlmcdKq;
         "pkg-1.1.1" = _L6cTSF8T;
@@ -214,7 +243,11 @@ let
         "pkg-1.21.1-1.3.1+fabric" = _3qeXrfug;
         "pkg-1.21.1-1.3.1+forge" = _UHJdVbfm;
         "pkg-1.21.1-1.3.1+neoforge" = _okeLj2e7;
-        "default" = _okeLj2e7;
+        "pkg-26.3-1.3.1+forge" = _bvv5YfF1;
+        "pkg-26.3-1.3.1+neoforge" = _juhrE1dV;
+        "pkg-26.3-1.3.1+paper" = _lYP8N7ON;
+        "pkg-26.3-1.3.1+fabric" = _HbikVO9e;
+        "default" = _HbikVO9e;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "journeymap-teams";

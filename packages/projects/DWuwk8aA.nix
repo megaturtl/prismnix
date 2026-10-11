@@ -641,6 +641,46 @@ let
             "file" = "skyboxify-3.3.1+1.21.4-fabric.jar";
             "hash" = "sha512-vZ3p/saYFGLxHjuaoQwQQZ1YAX+0EfOmDKRrSyv3pJCGrJDai2fXUHVlj1JvptVIfq/PuZQlzLqfMowh8yYzGA==";
         };
+        _XPGqw2i5 = {
+            "id" = "XPGqw2i5";
+            "file" = "skyboxify-3.4+26.2-fabric.jar";
+            "hash" = "sha512-QCJPbN209j8Ww5/wVDIUF3R+z3hZk1G9GJFsT5WdbIJ1yajdNv5g/s0ZhNPfsbxv7QlmJn5jfdWOalKO322TZw==";
+        };
+        _3bBTLzlD = {
+            "id" = "3bBTLzlD";
+            "file" = "skyboxify-3.4+26.1.2-fabric.jar";
+            "hash" = "sha512-VySCsqdJ+AC2GyVfy3GzoVNu6cbTQjqL+8j0E3I87wFsUb0N/qk2Pdd076/aXQvohtnz1ZTWJ6KqPhDT3ns+hA==";
+        };
+        _uCGJogDJ = {
+            "id" = "uCGJogDJ";
+            "file" = "skyboxify-3.4+1.21.10-fabric.jar";
+            "hash" = "sha512-t3JLRD1E1XVtSpPoI+7yKaUux/LIyx8kvULqHnSJwDeHq1lB3R1O+F2dVP/tPTLdswj97em0XIZ/KwyaP8t6NA==";
+        };
+        _LSewIGOo = {
+            "id" = "LSewIGOo";
+            "file" = "skyboxify-3.4+26.3-fabric.jar";
+            "hash" = "sha512-tj8Lf+Yns2plQo4kEY/4YE+g+jH1z/in0qrI2Pd7vwkUM6hMO76Hzo1dg4dtRcW0FY7DRKU8UTaAJpAjDARp9g==";
+        };
+        _dNqmsXMW = {
+            "id" = "dNqmsXMW";
+            "file" = "skyboxify-3.4+1.21.4-fabric.jar";
+            "hash" = "sha512-ixRksIeUxHdOOj0JUQLJRLU05V8V8NoIGea5KaHI2mQDQjbvr50oBe0A6Yz0aEaGBZdEsFUOdSVKP7GQO9Q2cw==";
+        };
+        _JdJRruS3 = {
+            "id" = "JdJRruS3";
+            "file" = "skyboxify-3.4+1.21.3-fabric.jar";
+            "hash" = "sha512-/362jdBuyqNCinn6Imc3UxUU2O6HwepTbwr9SDNHSaWoD4iXSPRydwS/7iJXf3bkgMByA2AJcOFUqFxxbzMtGw==";
+        };
+        _amGtgssn = {
+            "id" = "amGtgssn";
+            "file" = "skyboxify-3.4+1.21.8-fabric.jar";
+            "hash" = "sha512-I883UQZILZq8aw3pEosJqk0ucqX3YY4EF9ZsG6mzt5EuLuu9ejoMxrSmbmzDFcwDqelZWJC3a21S04QMddR8SQ==";
+        };
+        _kANba6Nw = {
+            "id" = "kANba6Nw";
+            "file" = "skyboxify-3.4+1.21.11-fabric.jar";
+            "hash" = "sha512-+yQNiHf/5mIhp5impt0L0FpKky2Rouh++f1wp+32z/3u0helwE+vxFa+wDT3woXK7K/zp6thQXntTMNXilYK6g==";
+        };
     in {
         "RTbTfBFK" = _RTbTfBFK;
         "QFeZrZ7R" = _QFeZrZ7R;
@@ -770,24 +810,33 @@ let
         "LD1veliv" = _LD1veliv;
         "d43zLFHg" = _d43zLFHg;
         "Ufeaikdt" = _Ufeaikdt;
+        "XPGqw2i5" = _XPGqw2i5;
+        "3bBTLzlD" = _3bBTLzlD;
+        "uCGJogDJ" = _uCGJogDJ;
+        "LSewIGOo" = _LSewIGOo;
+        "dNqmsXMW" = _dNqmsXMW;
+        "JdJRruS3" = _JdJRruS3;
+        "amGtgssn" = _amGtgssn;
+        "kANba6Nw" = _kANba6Nw;
         "fabric-1.21" = _ipMSJF5L;
         "fabric-1.21.1" = _ipMSJF5L;
-        "fabric-1.21.2" = _1M8Olh52;
-        "fabric-1.21.3" = _1M8Olh52;
-        "fabric-1.21.4" = _Ufeaikdt;
+        "fabric-1.21.2" = _JdJRruS3;
+        "fabric-1.21.3" = _JdJRruS3;
+        "fabric-1.21.4" = _dNqmsXMW;
         "fabric-1.21.5" = _ltkjV0Fd;
         "fabric-1.21.6" = _4tMdj2u4;
-        "fabric-1.21.7" = _d43zLFHg;
-        "fabric-1.21.8" = _d43zLFHg;
+        "fabric-1.21.7" = _amGtgssn;
+        "fabric-1.21.8" = _amGtgssn;
         "fabric-25w31a" = _xPNk6ibZ;
         "fabric-25w32a" = _xPNk6ibZ;
-        "fabric-1.21.9" = _Mq2pjWgI;
-        "fabric-1.21.10" = _Mq2pjWgI;
-        "fabric-1.21.11" = _LD1veliv;
-        "fabric-26.1" = _g1KRYky5;
-        "fabric-26.1.1" = _g1KRYky5;
-        "fabric-26.1.2" = _g1KRYky5;
-        "fabric-26.2" = _rChaTdfe;
+        "fabric-1.21.9" = _uCGJogDJ;
+        "fabric-1.21.10" = _uCGJogDJ;
+        "fabric-1.21.11" = _kANba6Nw;
+        "fabric-26.1" = _3bBTLzlD;
+        "fabric-26.1.1" = _3bBTLzlD;
+        "fabric-26.1.2" = _3bBTLzlD;
+        "fabric-26.2" = _XPGqw2i5;
+        "fabric-26.3" = _LSewIGOo;
         "pkg-1.0" = _sEIFtubQ;
         "pkg-1.1" = _cORUSxDj;
         "pkg-1.2" = _qyE4RAh4;
@@ -810,7 +859,8 @@ let
         "pkg-3.2" = _bGytTuDO;
         "pkg-3.3" = _OdY2kzJ1;
         "pkg-3.3.1" = _Ufeaikdt;
-        "default" = _Ufeaikdt;
+        "pkg-3.4" = _kANba6Nw;
+        "default" = _kANba6Nw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skyboxify";

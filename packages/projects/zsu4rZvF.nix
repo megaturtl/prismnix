@@ -36,6 +36,21 @@ let
             "file" = "JujutsuCraftV_1.20.1_ver2.972.jar";
             "hash" = "sha512-oyBbbfrr5xJOhujY9hq0Rzi3s+de+8/CyAuvMcqkkdQ31qibM4e9bSBhx+QqayOFf6NM3qTaOGlAq/s7TK+xVQ==";
         };
+        _S9yXVJDL = {
+            "id" = "S9yXVJDL";
+            "file" = "JujutsuCraftV_1.20.1_ver2.98.jar";
+            "hash" = "sha512-gsHynAJLk26/eQAVBP5XQh4Pb78R9rEUyJkwvRsUK11xw+Zuav0MiKKEVqNC46ik+RSqThCB15I2QTdMJ2BLtA==";
+        };
+        _ZnPH5d3v = {
+            "id" = "ZnPH5d3v";
+            "file" = "JujutsuCraftV_1.20.1_ver2.981.jar";
+            "hash" = "sha512-KXStL5zkHswD9snRQ+61ozDTncNqaE035F5c8rf4xt6/ea9Rsx3AwZonPghxsT0pBApOq/f49KNuwA7Y1rsJWA==";
+        };
+        _easE1V6n = {
+            "id" = "easE1V6n";
+            "file" = "JujutsuCraftV_1.20.1_ver2.982.jar";
+            "hash" = "sha512-gneFrHnE8awnpPbgYMiPRpT2tT9F76PBmmBoFoxhY/F6c/jsfW1z15LOkJ5eb7c69H3ZP3N7TsH/dOQFNXc/pA==";
+        };
     in {
         "vWndS7zC" = _vWndS7zC;
         "VRCnq64I" = _VRCnq64I;
@@ -44,7 +59,10 @@ let
         "F4njz0hq" = _F4njz0hq;
         "a3q0j6fL" = _a3q0j6fL;
         "1PEUipbH" = _1PEUipbH;
-        "forge-1.20.1" = _1PEUipbH;
+        "S9yXVJDL" = _S9yXVJDL;
+        "ZnPH5d3v" = _ZnPH5d3v;
+        "easE1V6n" = _easE1V6n;
+        "forge-1.20.1" = _easE1V6n;
         "pkg-2.8" = _vWndS7zC;
         "pkg-2.9" = _VRCnq64I;
         "pkg-2.95" = _B8PKWQGp;
@@ -52,7 +70,10 @@ let
         "pkg-2.97" = _F4njz0hq;
         "pkg-2.971" = _a3q0j6fL;
         "pkg-2.972" = _1PEUipbH;
-        "default" = _1PEUipbH;
+        "pkg-2.98" = _S9yXVJDL;
+        "pkg-2.981" = _ZnPH5d3v;
+        "pkg-2.982" = _easE1V6n;
+        "default" = _easE1V6n;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jujutsu-craft-v";

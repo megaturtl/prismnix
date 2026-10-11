@@ -51,6 +51,56 @@ let
             "file" = "keymap-26.1.2-Fabric-0.11.2.jar";
             "hash" = "sha512-PJ638pSYvRpo5pR07Fx0YCMpPrnhV1x/1gByyekgCGoCdygLe6GsU0WVpokevTIEJM2SKnTwmfGJgzQhJi8EJg==";
         };
+        _XwA5E4Zj = {
+            "id" = "XwA5E4Zj";
+            "file" = "keymap-1.20.1-Fabric-0.11.3.jar";
+            "hash" = "sha512-EeSL+/qkHNToPMYWKURjIzcSP1So4KVqIU0YPVAJ7PhZQo0+X+F1gFwy284uegLJiL7cGRShc8k9PqxW0a0mmw==";
+        };
+        _bJPZzUSW = {
+            "id" = "bJPZzUSW";
+            "file" = "keymap-1.20.1-Forge-0.11.3.jar";
+            "hash" = "sha512-6BJqflRaA/YefaN1Qo3PhRhJXgFqWC6+gsozMs3CECuN9wUwslFfuwuFXu+y4fhAdy+BTVj+GtxxRxd6FqgSzw==";
+        };
+        _EvUeJ0Tg = {
+            "id" = "EvUeJ0Tg";
+            "file" = "keymap-1.21.1-Fabric-0.11.3.jar";
+            "hash" = "sha512-4MuQ+2DyBEB1nbEk/SKk+8Q+ohmZ6GYSm/2ZvL1ipcyIS+HX9w+O4iV7dgPWrCzqRtqBGAaHZS0kNv+2PNulPA==";
+        };
+        _o4XKlPPI = {
+            "id" = "o4XKlPPI";
+            "file" = "keymap-1.21.1-NeoForge-0.11.3.jar";
+            "hash" = "sha512-BiMCOrj20Egp/W0hUvD8O2HLF2R9+I7FaE2/HBEo25Y1IOly7PeVzYrTPGQ05gDAyepPLbHh+k/2obq1n0vgqA==";
+        };
+        _3RG4qmT8 = {
+            "id" = "3RG4qmT8";
+            "file" = "keymap-26.1.2-Fabric-0.11.3.jar";
+            "hash" = "sha512-OOP4V7ln8pXqZlfS23GiIi6+hvJxQjGOU303rkvGcMetcL3nC/5SrXXwfOPVR18HtrubGSGc2rtKU4j8TQWwPg==";
+        };
+        _OUxJRkl4 = {
+            "id" = "OUxJRkl4";
+            "file" = "keymap-26.1.2-NeoForge-0.11.3.jar";
+            "hash" = "sha512-iXRvQSbzmBN8xQP1vIXrzpUT4QqQGiGQeHd3cSCnz4r0z2qTiIaidJe9ROhGOxgEmTvDilHIAZVzNfQDNsG3KA==";
+        };
+        _MLlooatv = {
+            "id" = "MLlooatv";
+            "file" = "keymap-26.2-Fabric-0.11.3.jar";
+            "hash" = "sha512-WVsEGmKhhtFy1VdLpbIO84c4M7tyDDPzZ+l/KAYKSRkIP/Zye5+yrPL6unQDqLJoObL5Y8VIYeEkkzj50A68Wg==";
+        };
+        _WGAS3UOp = {
+            "id" = "WGAS3UOp";
+            "file" = "keymap-26.2-NeoForge-0.11.3.jar";
+            "hash" = "sha512-GOaKaGaA5czFT69VvQQCibNuR41CAoymeqiYS0vWBiyaXIeKRIcqA1H4qamxzi523TSNqSMPP1A/WjcKkn0b9Q==";
+        };
+        _Ndqk08jm = {
+            "id" = "Ndqk08jm";
+            "file" = "keymap-26.3-Fabric-0.11.3.jar";
+            "hash" = "sha512-83sS/3e3CUvAf81kNo1hewklENLJB4xdB4Tgd/gxFqQ+GOs4OOs0cEuQfYkSfaAkh7e67bjDkR71VOYEbbDkzQ==";
+        };
+        _IyHbhUhE = {
+            "id" = "IyHbhUhE";
+            "file" = "keymap-26.3-NeoForge-0.11.3.jar";
+            "hash" = "sha512-h7o1fVMedSLS8TFX8tOGqYLJ/Y0LGMwpWTygNq7XlCZ44HI+DFC5Mp57a9YyrSqm6ybGQtvxPX8sOezJzIBZiA==";
+        };
     in {
         "FuykJxwH" = _FuykJxwH;
         "JFyDTGdp" = _JFyDTGdp;
@@ -62,17 +112,32 @@ let
         "74dflEV2" = _74dflEV2;
         "jdCTiCrc" = _jdCTiCrc;
         "lqMg7A5B" = _lqMg7A5B;
-        "neoforge-1.21.1" = _FuykJxwH;
-        "neoforge-26.1.2" = _jdCTiCrc;
-        "fabric-1.21.1" = _JFyDTGdp;
-        "fabric-26.1.2" = _lqMg7A5B;
-        "fabric-1.20.1" = _mn0DjdFV;
-        "forge-1.20.1" = _74dflEV2;
+        "XwA5E4Zj" = _XwA5E4Zj;
+        "bJPZzUSW" = _bJPZzUSW;
+        "EvUeJ0Tg" = _EvUeJ0Tg;
+        "o4XKlPPI" = _o4XKlPPI;
+        "3RG4qmT8" = _3RG4qmT8;
+        "OUxJRkl4" = _OUxJRkl4;
+        "MLlooatv" = _MLlooatv;
+        "WGAS3UOp" = _WGAS3UOp;
+        "Ndqk08jm" = _Ndqk08jm;
+        "IyHbhUhE" = _IyHbhUhE;
+        "neoforge-1.21.1" = _o4XKlPPI;
+        "neoforge-26.1.2" = _OUxJRkl4;
+        "neoforge-26.2" = _WGAS3UOp;
+        "neoforge-26.3" = _IyHbhUhE;
+        "fabric-1.21.1" = _EvUeJ0Tg;
+        "fabric-26.1.2" = _3RG4qmT8;
+        "fabric-1.20.1" = _XwA5E4Zj;
+        "fabric-26.2" = _MLlooatv;
+        "fabric-26.3" = _Ndqk08jm;
+        "forge-1.20.1" = _bJPZzUSW;
         "pkg-beta.1+1.21.1" = _JFyDTGdp;
         "pkg-0.11.0+26.1.2" = _CLzvdKzv;
         "pkg-0.11.1+26.1.2" = _zjcIIKZC;
         "pkg-0.11.2" = _lqMg7A5B;
-        "default" = _lqMg7A5B;
+        "pkg-0.11.3" = _IyHbhUhE;
+        "default" = _IyHbhUhE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "keymap-maintained";

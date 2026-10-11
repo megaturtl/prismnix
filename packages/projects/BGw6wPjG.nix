@@ -11,13 +11,27 @@ let
             "file" = "skyfall-2.1.0+mc26.2.jar";
             "hash" = "sha512-rnUmsI2eMIVmP6w8BKQq3uCESqV0FViIUcHSa5yfk/5lPadV7DVIapqnR4ReKqBnrIYbPnwuGvA1vAUCY9Xd3Q==";
         };
+        _K9yG2kL5 = {
+            "id" = "K9yG2kL5";
+            "file" = "skyfall-2.2.0+mc26.2.jar";
+            "hash" = "sha512-7iAiDQpiIBJeiqPn02iVPRV7sjLn44fYvmAxErtiy0wUR3NGPqDNKp7mnxy8p1Zxsrte/qSMWre4BwvPCApKYA==";
+        };
+        _JdqHVguV = {
+            "id" = "JdqHVguV";
+            "file" = "skyfall-2.3.0+mc26.2.jar";
+            "hash" = "sha512-kXCGieLGVlxaRl/hTpZq1fGdRYy5SGFeo/eYzBplR04J/2vsYYiKtUPAMBKOlrp4IMZiEMrZ2gYv7wohlxeGcg==";
+        };
     in {
         "fztK0gp7" = _fztK0gp7;
         "WEisx0Eu" = _WEisx0Eu;
-        "fabric-26.2" = _WEisx0Eu;
+        "K9yG2kL5" = _K9yG2kL5;
+        "JdqHVguV" = _JdqHVguV;
+        "fabric-26.2" = _JdqHVguV;
         "pkg-2.0.0" = _fztK0gp7;
         "pkg-2.1.0" = _WEisx0Eu;
-        "default" = _WEisx0Eu;
+        "pkg-2.2.0" = _K9yG2kL5;
+        "pkg-2.3.0" = _JdqHVguV;
+        "default" = _JdqHVguV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skyfall";

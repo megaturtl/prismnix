@@ -211,6 +211,56 @@ let
             "file" = "tiered_backpacks-1.0.18+26.1.2-fabric.jar";
             "hash" = "sha512-qTNtPP44DpIuBqnge1LJIU1vyJgNNPq5mDSLt9UbY6yC46BDZ9w9KIPN53ROwSLDYirClsYkX58C400P/gnx5A==";
         };
+        _FkrkO7h0 = {
+            "id" = "FkrkO7h0";
+            "file" = "tiered_backpacks-neoforge-1.0.19+26.1.2.jar";
+            "hash" = "sha512-SL1AOGp3zrARQv3gRv6bAhmV2wo+efKj5Ja1nopt0MwsEIlxOsDdt6HNKSrbcsWV7usOmkqhloCwG9j+LyYNBg==";
+        };
+        _Nd4xQlsL = {
+            "id" = "Nd4xQlsL";
+            "file" = "tiered_backpacks-neoforge-1.0.19+26.2.jar";
+            "hash" = "sha512-NQEfQisfqjMr6jvZcVmgUY4G+TKigq3w22XRlM+LEmIza3A4EgZV/xV5CZgpG0ODspIn4/Op+fD2LNI+cnzDcg==";
+        };
+        _QOxZgqRV = {
+            "id" = "QOxZgqRV";
+            "file" = "tiered_backpacks-fabric-1.0.19+26.1.2.jar";
+            "hash" = "sha512-/pT67FlGaoAUuu9E/BIJuo9UpCPjbqa4wF2XMHIyD5EGEcU8YbVi7bID/zF7PbItsgEtHBCno6XhpOpzZwzQbA==";
+        };
+        _buHAPhpA = {
+            "id" = "buHAPhpA";
+            "file" = "tiered_backpacks-fabric-1.0.19+26.3.jar";
+            "hash" = "sha512-RKXg7sZUuWYqHUBLQNlGZW9jJEVOvekfpEXshmqnuvGVDMKZYfdjpEM/ZwUVvNbKiMvV8sfA58PfcfJpaHy/hg==";
+        };
+        _qdt6BuJa = {
+            "id" = "qdt6BuJa";
+            "file" = "tiered_backpacks-fabric-1.0.19+26.2.jar";
+            "hash" = "sha512-bRd/3RAPjVTGFEDm/4dwjJ2Ntqms59K456hqXIcnHMuibYrWxykulKIyG2GTeJnwRzSfjhGV6ZhNGqa2kP2urw==";
+        };
+        _Xz6ZUeri = {
+            "id" = "Xz6ZUeri";
+            "file" = "tiered_backpacks-neoforge-1.0.20+26.1.2.jar";
+            "hash" = "sha512-FSTNKCWu9/1YPB7Eqh2sT79OcdyBqXlgEAFx6WtERhB5M9F/eZ9/ywtrSa++o47zystXWclEaxm52kycl+kM+w==";
+        };
+        _g18wqkHL = {
+            "id" = "g18wqkHL";
+            "file" = "tiered_backpacks-neoforge-1.0.20+26.2.jar";
+            "hash" = "sha512-nXm0sVBuOM82Zv1QrS8I04PM+PnGeiulfM7RI6y1q8cBdnmbVgf3B/nzI2++Wpl4/4+Ca2hp494bh/vzgGWFJA==";
+        };
+        _jKPWUBrt = {
+            "id" = "jKPWUBrt";
+            "file" = "tiered_backpacks-fabric-1.0.20+26.1.2.jar";
+            "hash" = "sha512-6XfH2/2NMFVhZJRr4Rd7+QJUdaH807BzW6R0VOfCluD1HLcHxC7N3tNKCNIIJQ2RWZLyKgfg4HVlQKQMD0mhIg==";
+        };
+        _GHnqX59p = {
+            "id" = "GHnqX59p";
+            "file" = "tiered_backpacks-fabric-1.0.20+26.3.jar";
+            "hash" = "sha512-uh1NDkrFe1uqJlESGfjfZrfWCrH5AcsTnD6QW93zVP9I5LU5D8hWzQWcQIdI/tlOXancAnKXaCDafJrshtPpRw==";
+        };
+        _aUG2quzD = {
+            "id" = "aUG2quzD";
+            "file" = "tiered_backpacks-fabric-1.0.20+26.2.jar";
+            "hash" = "sha512-F3h2JjYp3aefx6bgKtORaHf0v0e8EF8k9WGyDnbc5v64xIYKq/Rtwo/dtWSguH2mfmlhPtuEL//14jK2Mo70Zg==";
+        };
     in {
         "1WDMiPtI" = _1WDMiPtI;
         "ePT1NNI9" = _ePT1NNI9;
@@ -254,17 +304,29 @@ let
         "Xyn1HBRg" = _Xyn1HBRg;
         "6MUwWsYR" = _6MUwWsYR;
         "SckgrXld" = _SckgrXld;
+        "FkrkO7h0" = _FkrkO7h0;
+        "Nd4xQlsL" = _Nd4xQlsL;
+        "QOxZgqRV" = _QOxZgqRV;
+        "buHAPhpA" = _buHAPhpA;
+        "qdt6BuJa" = _qdt6BuJa;
+        "Xz6ZUeri" = _Xz6ZUeri;
+        "g18wqkHL" = _g18wqkHL;
+        "jKPWUBrt" = _jKPWUBrt;
+        "GHnqX59p" = _GHnqX59p;
+        "aUG2quzD" = _aUG2quzD;
         "fabric-1.21.10" = _P6fRKFO8;
         "fabric-1.21.11" = _PRu39d3I;
-        "fabric-26.1" = _zkutMZle;
-        "fabric-26.1.1" = _zkutMZle;
-        "fabric-26.1.2" = _SckgrXld;
-        "fabric-26.2" = _6MUwWsYR;
+        "fabric-26.1" = _jKPWUBrt;
+        "fabric-26.1.1" = _jKPWUBrt;
+        "fabric-26.1.2" = _jKPWUBrt;
+        "fabric-26.2" = _aUG2quzD;
+        "fabric-26.3" = _GHnqX59p;
         "neoforge-1.21.10" = _6WnUCiSI;
         "neoforge-1.21.11" = _ZZa8agDQ;
-        "neoforge-26.1" = _45TCT7rh;
-        "neoforge-26.1.1" = _45TCT7rh;
-        "neoforge-26.1.2" = _Xyn1HBRg;
+        "neoforge-26.1" = _Xz6ZUeri;
+        "neoforge-26.1.1" = _Xz6ZUeri;
+        "neoforge-26.1.2" = _Xz6ZUeri;
+        "neoforge-26.2" = _g18wqkHL;
         "pkg-1.0.0+1.21.10" = _1WDMiPtI;
         "pkg-1.0.1+1.21.10" = _ePT1NNI9;
         "pkg-1.0.2+1.21.10" = _yuHSuaUy;
@@ -307,7 +369,13 @@ let
         "pkg-1.0.18+26.1.2-neoforge" = _Xyn1HBRg;
         "pkg-1.0.18+26.2-fabric" = _6MUwWsYR;
         "pkg-1.0.18+26.1.2-fabric" = _SckgrXld;
-        "default" = _SckgrXld;
+        "pkg-1.0.19+26.1.2" = _QOxZgqRV;
+        "pkg-1.0.19+26.2" = _qdt6BuJa;
+        "pkg-1.0.19+26.3" = _buHAPhpA;
+        "pkg-1.0.20+26.1.2" = _jKPWUBrt;
+        "pkg-1.0.20+26.2" = _aUG2quzD;
+        "pkg-1.0.20+26.3" = _GHnqX59p;
+        "default" = _aUG2quzD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tiered-backpacks";

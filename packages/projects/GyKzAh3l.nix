@@ -166,6 +166,16 @@ let
             "file" = "letsdo-beachparty-fabric-2.1.4.jar";
             "hash" = "sha512-Ql3t/mKCrdGqqnv7udLHqFOXKezmB5G3UPbvSedy3SQNrAfkivVjwtBHyQbWpk4zr+/LJ54No/BAvi3j2oxEOw==";
         };
+        _HN4rzKRl = {
+            "id" = "HN4rzKRl";
+            "file" = "letsdo-beachparty-neoforge-2.1.5.jar";
+            "hash" = "sha512-uZL4fmOMNkKBYEa0S+waP0HfAcYSBLzt8/7l7nsin2TA0yf8s/u3WMfe1bnVDaaxoxDqI9z7uoF3Ai6PlGjvNg==";
+        };
+        _jeZE0Qav = {
+            "id" = "jeZE0Qav";
+            "file" = "letsdo-beachparty-fabric-2.1.5.jar";
+            "hash" = "sha512-yFSOA2WQ/0GKJbMj9YKmR63Ro7sfFOpqNgAlmm/0cnRLxzyKmqcIF0Lt2kzFW2O6hHBVNzFGccaQODvlDp9IrA==";
+        };
     in {
         "JfLlsLtA" = _JfLlsLtA;
         "sMdCOFIS" = _sMdCOFIS;
@@ -200,15 +210,17 @@ let
         "mTUlXiKN" = _mTUlXiKN;
         "oKpAot1a" = _oKpAot1a;
         "RNyg6Yh4" = _RNyg6Yh4;
+        "HN4rzKRl" = _HN4rzKRl;
+        "jeZE0Qav" = _jeZE0Qav;
         "fabric-1.19.2" = _7EzFJCrV;
         "fabric-1.20.1" = _lTdx0SHO;
-        "fabric-1.21.1" = _RNyg6Yh4;
+        "fabric-1.21.1" = _jeZE0Qav;
         "forge-1.19.2" = _sOh6zTdH;
         "forge-1.20.1" = _b3xwehb1;
         "quilt-1.19.2" = _Po7Tozvq;
         "quilt-1.20.1" = _lTdx0SHO;
         "neoforge-1.20.1" = _b3xwehb1;
-        "neoforge-1.21.1" = _oKpAot1a;
+        "neoforge-1.21.1" = _HN4rzKRl;
         "pkg-1.0.6" = _sMdCOFIS;
         "pkg-1.0.11" = _Po7Tozvq;
         "pkg-1.0.12" = _7EzFJCrV;
@@ -226,7 +238,8 @@ let
         "pkg-2.1.2" = _MfYAZzm7;
         "pkg-2.1.3" = _mTUlXiKN;
         "pkg-2.1.4" = _RNyg6Yh4;
-        "default" = _RNyg6Yh4;
+        "pkg-2.1.5" = _jeZE0Qav;
+        "default" = _jeZE0Qav;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lets-do-beachparty";

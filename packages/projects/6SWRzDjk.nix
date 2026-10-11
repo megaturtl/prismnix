@@ -701,6 +701,166 @@ let
             "file" = "DBTools-2.2.3+MC26.2-AX6.0.5.jar";
             "hash" = "sha512-F6gNJ7tN06kLThvTLfGtMUY0/9UXmMnbuK12Ux5XYBbcSWi2/wn9Ck5Z/w4r/3Y/zua7BBdPbHxHRdwbi+JqOg==";
         };
+        _zmbhB53c = {
+            "id" = "zmbhB53c";
+            "file" = "DBTools-2.3.0+MC1.20.1-AX6.0.5.jar";
+            "hash" = "sha512-HAJaRwFE9rYwgst+OI50azqZD6uWJmG7ajPasUvxNFB72mHGEdl/iP1igV9whcnrqWkCPLy8J7gjZWB5XmfX1g==";
+        };
+        _CRHc77aL = {
+            "id" = "CRHc77aL";
+            "file" = "DBTools-2.3.0+MC1.21-AX6.0.5.jar";
+            "hash" = "sha512-HyQQRvAXPfcE2TtogCkHIdZNRZsS5Xa3qbk9X2E4Y1nSkXHUD2qWYQovZTGjyhecEFrVTloVJwkhKNh1bzNbkA==";
+        };
+        _5NiAYpPb = {
+            "id" = "5NiAYpPb";
+            "file" = "DBTools-2.3.0+MC1.21.1-AX6.0.5.jar";
+            "hash" = "sha512-p64r0w0TpnkkIGi/pB77z504vAQ5hxSlh/BFvCCB30K9FAjmIPHtwkyx/0jk0mtEnPXRzqHn60K9WKrTPQzcoQ==";
+        };
+        _xw9vbNxP = {
+            "id" = "xw9vbNxP";
+            "file" = "DBTools-2.3.0+MC1.21.2-AX6.0.5.jar";
+            "hash" = "sha512-cSc3fgxYEJOkiDdimtGgHsoiYoR7JkOhQUF3DjpZ9DsJY+opISbjxzaQoVGWyX7asFBYMUIDJH6b+mUWR+ulAA==";
+        };
+        _wOk3twGU = {
+            "id" = "wOk3twGU";
+            "file" = "DBTools-2.3.0+MC1.21.3-AX6.0.5.jar";
+            "hash" = "sha512-XIPrQzY/KGWnsLoyhBbD9KAwK5wQ0xB6RJNIeYCtDR6sR9J/nfmmIKzCNyOJkRAeg9wTj1GChmSPmpmdbuSTgA==";
+        };
+        _peY8R77G = {
+            "id" = "peY8R77G";
+            "file" = "DBTools-2.3.0+MC1.21.4-AX6.0.5.jar";
+            "hash" = "sha512-7yvjfR65rqisAmzTijpII6yle8UTJFW9yiJNkG/l7YvAkS8ep7Do6pABt5zv9ksGdBZ61S/pc5h/TMSL4Lcfjg==";
+        };
+        _zDJgS3T5 = {
+            "id" = "zDJgS3T5";
+            "file" = "DBTools-2.3.0+MC1.21.5-AX6.0.5.jar";
+            "hash" = "sha512-vIhHyefM5aZ6tjcMoHNx874SqisNuJ1XzJr1pxBGq/QoXlG5N0rBEkJUXE6OyFqbH3d8XqYaM+5t/JbjfKps4w==";
+        };
+        _TXwvLbrV = {
+            "id" = "TXwvLbrV";
+            "file" = "DBTools-2.3.0+MC1.21.6-AX6.0.5.jar";
+            "hash" = "sha512-fPMSMEhQgqw7NIyizi5kxtlq6boYemZe5vCRIQBbBJCP+W80om/yRYnPOLIo16NHaJU/FxcjdcHhbdXH0JP7jg==";
+        };
+        _hwm4urkv = {
+            "id" = "hwm4urkv";
+            "file" = "DBTools-2.3.0+MC1.21.7-AX6.0.5.jar";
+            "hash" = "sha512-LXy61Cozxj+oxoKxgaD4VX4woUtlUaN8s29oUn3INHXi2VTOaKxuqKRtPdOV1cKyiZW06SG5o7LkeSjfkzQ+yA==";
+        };
+        _m8W3znUx = {
+            "id" = "m8W3znUx";
+            "file" = "DBTools-2.3.0+MC1.21.8-AX6.0.5.jar";
+            "hash" = "sha512-9RU6g09pDD0scHmNOevlf17ZDtXywtWWqh7vGShmWeTRigzopyt4SA5DQNeXC3DIzJp0q3sVMf0GW7A4gKWBCw==";
+        };
+        _HHjFIy3E = {
+            "id" = "HHjFIy3E";
+            "file" = "DBTools-2.3.0+MC1.21.9-AX6.0.5.jar";
+            "hash" = "sha512-NBrU4pttPPtfb73YG4jSsaiwK714mHkg181YOCr+ErxSMq9KzBc1ObllRNYgInT75+iaPr9OWkVV3MGxA8MSog==";
+        };
+        _wPLsF1O0 = {
+            "id" = "wPLsF1O0";
+            "file" = "DBTools-2.3.0+MC1.21.10-AX6.0.5.jar";
+            "hash" = "sha512-5/0EKsQKuviJUQ1lBMUKjDCJaHqw8cUI6ey0coxR8+flSSPqmx2BSMzpLT6710C8kL1Cc9glfdC/eEIPW3Ec5Q==";
+        };
+        _EfHOltvW = {
+            "id" = "EfHOltvW";
+            "file" = "DBTools-2.3.0+MC1.21.11-AX6.0.5.jar";
+            "hash" = "sha512-7HVhPjcWEh8QAus//DgoCGj0oC8OZRgGSzK+Wdqive6jzJt3iE65jPgA855RIBtzka2r7jTEdkNvBP1R7VdUWQ==";
+        };
+        _DIAL6rz3 = {
+            "id" = "DIAL6rz3";
+            "file" = "DBTools-2.3.0+MC26.1-AX6.0.5.jar";
+            "hash" = "sha512-kqdWJu0ZypcV5ffzg6PV/tsmue8MEwKrPtmYVYVmErCzAovpwxxVVdTskkYVtaaHpspMFPNv683POucVKXhxTg==";
+        };
+        _H4P6sMwE = {
+            "id" = "H4P6sMwE";
+            "file" = "DBTools-2.3.0+MC26.2-AX6.0.5.jar";
+            "hash" = "sha512-YXQC85ObI81DuOUrrFXm8gEi8QAcm9qZzCe6PChmfx4SscP0e2DQtmd1wuEKtBuZQsvh5w/YsqcdP+7NYvt42Q==";
+        };
+        _sbeVKSNP = {
+            "id" = "sbeVKSNP";
+            "file" = "DBTools-2.3.0+MC26.3-AX6.1.2.jar";
+            "hash" = "sha512-wPLFn+xouJ8CJepyLg3x/u1WfNdOl3G0yWLOXWXhp38cwIEAAjPm1EIrM4LFubaQpdPymKTZ5qUDjpQq4i0J0A==";
+        };
+        _C6c9gk9w = {
+            "id" = "C6c9gk9w";
+            "file" = "DBTools-2.3.1+MC1.20.1-AX6.1.3.jar";
+            "hash" = "sha512-dLehMregGRvYODjkYEe4knJedVsLudVeaRi5yjhTsktp1CxTMOiPI3oh79gD6Eo8rVGW6X3qx2o0bhnbTsdDEA==";
+        };
+        _i3xOJOYb = {
+            "id" = "i3xOJOYb";
+            "file" = "DBTools-2.3.1+MC1.21-AX6.1.3.jar";
+            "hash" = "sha512-/sJAD0tD9eY5D560GsnnxIoMVkbyry41zAtpO8RR5QoozFSpi+KP392lNtlKYniGTluU9ejd05vtVJ7tgnQjOg==";
+        };
+        _LdiFIC5B = {
+            "id" = "LdiFIC5B";
+            "file" = "DBTools-2.3.1+MC1.21.1-AX6.1.3.jar";
+            "hash" = "sha512-1TzLYBA7u53AwEWehIANhVZwz7GbAoxcNjD9S3PhxOHeQaCwyta/fL9u2GiAArJzzpK74ErjnMO11JCzSZ4CdQ==";
+        };
+        _5fy3IhAX = {
+            "id" = "5fy3IhAX";
+            "file" = "DBTools-2.3.1+MC1.21.2-AX6.1.3.jar";
+            "hash" = "sha512-19Ri/T85HVZ+68JlYOCEjJ6gmZaxIF9FrEjLZ60KHyT9gtzfzwxUQBgvKiM6n6UkbJOThWPmvHVLE9FRFs41NA==";
+        };
+        _odKnO1LM = {
+            "id" = "odKnO1LM";
+            "file" = "DBTools-2.3.1+MC1.21.3-AX6.1.3.jar";
+            "hash" = "sha512-X39ftnumcFFvFN7desHH908VMuUWjVU6V8dpjh8x66f90aHebNaFPgBCMGzOlicpOa/RJgxZKxWUI/u13bLAIw==";
+        };
+        _sYSLGq7z = {
+            "id" = "sYSLGq7z";
+            "file" = "DBTools-2.3.1+MC1.21.4-AX6.1.3.jar";
+            "hash" = "sha512-btut1OOr1bWXElTQJ/4uWRSGVSskO/8zbHMdXXlZtKnTD42Nte6HDopwEY2BFKWDpvb58I2bcyi5F7AiKBJ9lA==";
+        };
+        _RDVqNvoC = {
+            "id" = "RDVqNvoC";
+            "file" = "DBTools-2.3.1+MC1.21.5-AX6.1.3.jar";
+            "hash" = "sha512-qAn7+zWwLn6vS3dTYJcYiufncwNNxtrccHfts+JHg0vFlt6xJ3nwjbI+1GbXtbvx7gfem3OHJgdwa7d+bcTMXw==";
+        };
+        _TRVK4lSV = {
+            "id" = "TRVK4lSV";
+            "file" = "DBTools-2.3.1+MC1.21.6-AX6.1.3.jar";
+            "hash" = "sha512-hLvUxqcG3dUOgSGKvJWBAE/9/zLNbayK3XIDtIAcvKPU/J/isao3KD8JzUMAmsHQuSIDGnsPWEOtkCJlOJGwLw==";
+        };
+        _Gur8X9Y9 = {
+            "id" = "Gur8X9Y9";
+            "file" = "DBTools-2.3.1+MC1.21.7-AX6.1.3.jar";
+            "hash" = "sha512-XhoZA4ZJxkqe0ka3q2bO2FXK6DdtUCjAbW3d4z1UI758NkJtTDwgIewC1q6kGSHpFiYQhnFIwm8pbkd5KFE0TQ==";
+        };
+        _5HvPj6jl = {
+            "id" = "5HvPj6jl";
+            "file" = "DBTools-2.3.1+MC1.21.8-AX6.1.3.jar";
+            "hash" = "sha512-rvcZP8n/1Uj65Exo3eU22C2ZtfwPp7rmVJxXOql+oZ5+uw0Mn78ZU9MaEaQcFguSHNbylfPxzniNx9aiyp4o3w==";
+        };
+        _fhNgWZkv = {
+            "id" = "fhNgWZkv";
+            "file" = "DBTools-2.3.1+MC1.21.9-AX6.1.3.jar";
+            "hash" = "sha512-n3g8e0LRQap0YUx2iqsZn9Ht1N4g5w2f7KQFlRyLAOejJ25NbGxLeGC+XAyEsW+AikADW5L/XxoPJ9pYHuZq6A==";
+        };
+        _RhJ5ulgq = {
+            "id" = "RhJ5ulgq";
+            "file" = "DBTools-2.3.1+MC1.21.10-AX6.1.3.jar";
+            "hash" = "sha512-g8O4AsOZlqFT2g33wxGej52vQUCEP3BVgZNJmeHV42D29A3vgjOIPIPlzLyCkj2g1XrZpZH6idERPck12U7PmQ==";
+        };
+        _FC0rz6th = {
+            "id" = "FC0rz6th";
+            "file" = "DBTools-2.3.1+MC1.21.11-AX6.1.3.jar";
+            "hash" = "sha512-bFXh+2dkKImzF+ufsKeP3i+K3cXIa9H5cNZxmpH0qmC0EQSeTqyDA1eWJMN2rCEs2iYgnTPSZ/TDRfewM9FVXg==";
+        };
+        _g3ua5J2p = {
+            "id" = "g3ua5J2p";
+            "file" = "DBTools-2.3.1+MC26.1-AX6.1.3.jar";
+            "hash" = "sha512-V5eG0uqovxNhot/u0+ADNt+PC+nFsb4bWGHo7ZKH0kLvDyhTtZVDIMzZhwHd/vosmC0LX4merY+LeFpOjkFzKA==";
+        };
+        _ckmwcGAA = {
+            "id" = "ckmwcGAA";
+            "file" = "DBTools-2.3.1+MC26.2-AX6.1.3.jar";
+            "hash" = "sha512-iE0WR4zNk7cAe3MaiSDnIqxjpT2+7w1Ap1eb/jeWFuJzwVACuX/MY8AdPXhSaIUARGUK7OyNgyhslQhMgmR61Q==";
+        };
+        _tN2Q74i8 = {
+            "id" = "tN2Q74i8";
+            "file" = "DBTools-2.3.1+MC26.3-AX6.1.3.jar";
+            "hash" = "sha512-VpOTHRNSgTt8D96sLn6dPK87et0c3tEG7Y10iN6FrO5o00VkiFgJs1pZsuZNrvH0XbREi2TeXHgKgdl3BP6ZQA==";
+        };
     in {
         "kp1I4oaJ" = _kp1I4oaJ;
         "mB2Hyrc3" = _mB2Hyrc3;
@@ -842,28 +1002,61 @@ let
         "O6Dlxqv0" = _O6Dlxqv0;
         "MsWlTPNK" = _MsWlTPNK;
         "qM0ms2u5" = _qM0ms2u5;
-        "fabric-1.21.4" = _PExgHaCS;
-        "fabric-1.21.5" = _VUcEgg5g;
-        "fabric-1.21.6" = _lKTE9iJB;
-        "fabric-1.21.7" = _ENALE3kJ;
-        "fabric-1.21.8" = _npXlir5Q;
-        "fabric-1.20.1" = _24iRg5Rv;
+        "zmbhB53c" = _zmbhB53c;
+        "CRHc77aL" = _CRHc77aL;
+        "5NiAYpPb" = _5NiAYpPb;
+        "xw9vbNxP" = _xw9vbNxP;
+        "wOk3twGU" = _wOk3twGU;
+        "peY8R77G" = _peY8R77G;
+        "zDJgS3T5" = _zDJgS3T5;
+        "TXwvLbrV" = _TXwvLbrV;
+        "hwm4urkv" = _hwm4urkv;
+        "m8W3znUx" = _m8W3znUx;
+        "HHjFIy3E" = _HHjFIy3E;
+        "wPLsF1O0" = _wPLsF1O0;
+        "EfHOltvW" = _EfHOltvW;
+        "DIAL6rz3" = _DIAL6rz3;
+        "H4P6sMwE" = _H4P6sMwE;
+        "sbeVKSNP" = _sbeVKSNP;
+        "C6c9gk9w" = _C6c9gk9w;
+        "i3xOJOYb" = _i3xOJOYb;
+        "LdiFIC5B" = _LdiFIC5B;
+        "5fy3IhAX" = _5fy3IhAX;
+        "odKnO1LM" = _odKnO1LM;
+        "sYSLGq7z" = _sYSLGq7z;
+        "RDVqNvoC" = _RDVqNvoC;
+        "TRVK4lSV" = _TRVK4lSV;
+        "Gur8X9Y9" = _Gur8X9Y9;
+        "5HvPj6jl" = _5HvPj6jl;
+        "fhNgWZkv" = _fhNgWZkv;
+        "RhJ5ulgq" = _RhJ5ulgq;
+        "FC0rz6th" = _FC0rz6th;
+        "g3ua5J2p" = _g3ua5J2p;
+        "ckmwcGAA" = _ckmwcGAA;
+        "tN2Q74i8" = _tN2Q74i8;
+        "fabric-1.21.4" = _sYSLGq7z;
+        "fabric-1.21.5" = _RDVqNvoC;
+        "fabric-1.21.6" = _TRVK4lSV;
+        "fabric-1.21.7" = _Gur8X9Y9;
+        "fabric-1.21.8" = _5HvPj6jl;
+        "fabric-1.20.1" = _C6c9gk9w;
         "fabric-1.20.2" = _J9IN0yUs;
         "fabric-1.20.3" = _izpDKOaA;
         "fabric-1.20.4" = _61LwVxBs;
         "fabric-1.20.5" = _RoqlHPEv;
         "fabric-1.20.6" = _5ChoIkai;
-        "fabric-1.21" = _OXytvnMC;
-        "fabric-1.21.1" = _F2MKN5Y0;
-        "fabric-1.21.2" = _SDVQjViJ;
-        "fabric-1.21.3" = _lRvxgEZm;
-        "fabric-1.21.9" = _pukZ9Svh;
-        "fabric-1.21.10" = _aLqpNsRF;
-        "fabric-1.21.11" = _O6Dlxqv0;
-        "fabric-26.1" = _MsWlTPNK;
-        "fabric-26.1.1" = _MsWlTPNK;
-        "fabric-26.1.2" = _MsWlTPNK;
-        "fabric-26.2" = _qM0ms2u5;
+        "fabric-1.21" = _i3xOJOYb;
+        "fabric-1.21.1" = _LdiFIC5B;
+        "fabric-1.21.2" = _5fy3IhAX;
+        "fabric-1.21.3" = _odKnO1LM;
+        "fabric-1.21.9" = _fhNgWZkv;
+        "fabric-1.21.10" = _RhJ5ulgq;
+        "fabric-1.21.11" = _FC0rz6th;
+        "fabric-26.1" = _g3ua5J2p;
+        "fabric-26.1.1" = _g3ua5J2p;
+        "fabric-26.1.2" = _g3ua5J2p;
+        "fabric-26.2" = _ckmwcGAA;
+        "fabric-26.3" = _tN2Q74i8;
         "pkg-1.2.2_5.0.1_1.21.4" = _kp1I4oaJ;
         "pkg-1.2.2_5.0.1_1.21.5" = _mB2Hyrc3;
         "pkg-1.2.2_5.0.1_1.21.6" = _Crug0MU0;
@@ -1003,7 +1196,39 @@ let
         "pkg-2.2.3+MC1.21.11-AX6.0.5" = _O6Dlxqv0;
         "pkg-2.2.3+MC26.1-AX6.0.5" = _MsWlTPNK;
         "pkg-2.2.3+MC26.2-AX6.0.5" = _qM0ms2u5;
-        "default" = _qM0ms2u5;
+        "pkg-2.3.0+MC1.20.1-AX6.0.5" = _zmbhB53c;
+        "pkg-2.3.0+MC1.21-AX6.0.5" = _CRHc77aL;
+        "pkg-2.3.0+MC1.21.1-AX6.0.5" = _5NiAYpPb;
+        "pkg-2.3.0+MC1.21.2-AX6.0.5" = _xw9vbNxP;
+        "pkg-2.3.0+MC1.21.3-AX6.0.5" = _wOk3twGU;
+        "pkg-2.3.0+MC1.21.4-AX6.0.5" = _peY8R77G;
+        "pkg-2.3.0+MC1.21.5-AX6.0.5" = _zDJgS3T5;
+        "pkg-2.3.0+MC1.21.6-AX6.0.5" = _TXwvLbrV;
+        "pkg-2.3.0+MC1.21.7-AX6.0.5" = _hwm4urkv;
+        "pkg-2.3.0+MC1.21.8-AX6.0.5" = _m8W3znUx;
+        "pkg-2.3.0+MC1.21.9-AX6.0.5" = _HHjFIy3E;
+        "pkg-2.3.0+MC1.21.10-AX6.0.5" = _wPLsF1O0;
+        "pkg-2.3.0+MC1.21.11-AX6.0.5" = _EfHOltvW;
+        "pkg-2.3.0+MC26.1-AX6.0.5" = _DIAL6rz3;
+        "pkg-2.3.0+MC26.2-AX6.0.5" = _H4P6sMwE;
+        "pkg-2.3.0+MC26.3-AX6.1.2" = _sbeVKSNP;
+        "pkg-2.3.1+MC1.20.1-AX6.1.3" = _C6c9gk9w;
+        "pkg-2.3.1+MC1.21-AX6.1.3" = _i3xOJOYb;
+        "pkg-2.3.1+MC1.21.1-AX6.1.3" = _LdiFIC5B;
+        "pkg-2.3.1+MC1.21.2-AX6.1.3" = _5fy3IhAX;
+        "pkg-2.3.1+MC1.21.3-AX6.1.3" = _odKnO1LM;
+        "pkg-2.3.1+MC1.21.4-AX6.1.3" = _sYSLGq7z;
+        "pkg-2.3.1+MC1.21.5-AX6.1.3" = _RDVqNvoC;
+        "pkg-2.3.1+MC1.21.6-AX6.1.3" = _TRVK4lSV;
+        "pkg-2.3.1+MC1.21.7-AX6.1.3" = _Gur8X9Y9;
+        "pkg-2.3.1+MC1.21.8-AX6.1.3" = _5HvPj6jl;
+        "pkg-2.3.1+MC1.21.9-AX6.1.3" = _fhNgWZkv;
+        "pkg-2.3.1+MC1.21.10-AX6.1.3" = _RhJ5ulgq;
+        "pkg-2.3.1+MC1.21.11-AX6.1.3" = _FC0rz6th;
+        "pkg-2.3.1+MC26.1-AX6.1.3" = _g3ua5J2p;
+        "pkg-2.3.1+MC26.2-AX6.1.3" = _ckmwcGAA;
+        "pkg-2.3.1+MC26.3-AX6.1.3" = _tN2Q74i8;
+        "default" = _tN2Q74i8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dbtools";

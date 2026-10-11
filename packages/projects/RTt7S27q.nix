@@ -61,6 +61,16 @@ let
             "file" = "apexintegration-1.21.1+1.0.15-SNAPSHOT.jar";
             "hash" = "sha512-uefVNszodI1hZnKXGX1mdPj4ahFGO6StITJPLdM0HCU3bKM/JtchQcbO61CasIrk1QINGgJfNc+JUQxO8khsGg==";
         };
+        _DhbjyxYn = {
+            "id" = "DhbjyxYn";
+            "file" = "apexintegration-1.21.1+1.1.0-SNAPSHOT.jar";
+            "hash" = "sha512-p5irJdac991dYpLF6h4ug/yU5v9expIidMETBqUZAH6pozoyW/odQe1nBVOl3F8eVnuWjbPXzGK1YxSVvIZXnA==";
+        };
+        _5mftruoH = {
+            "id" = "5mftruoH";
+            "file" = "apexintegration-1.21.1+1.1.1-SNAPSHOT.jar";
+            "hash" = "sha512-h1QZQfbJyQH/riz8kvGzThNPQ33xZ/QcV2JgqbiN9Ky6JPNpSgEr9yVrnJXDnmSj82v2Hj1z1OnqrUamRShG9w==";
+        };
     in {
         "V2Gzbgc8" = _V2Gzbgc8;
         "G5JVPNvA" = _G5JVPNvA;
@@ -74,7 +84,9 @@ let
         "gcmz7R34" = _gcmz7R34;
         "fX9Tzi62" = _fX9Tzi62;
         "SnhgfoJh" = _SnhgfoJh;
-        "fabric-1.21.1" = _SnhgfoJh;
+        "DhbjyxYn" = _DhbjyxYn;
+        "5mftruoH" = _5mftruoH;
+        "fabric-1.21.1" = _5mftruoH;
         "pkg-1.0.3" = _V2Gzbgc8;
         "pkg-1.0.5" = _G5JVPNvA;
         "pkg-1.0.6" = _h1TvYqhr;
@@ -87,7 +99,9 @@ let
         "pkg-1.0.13" = _gcmz7R34;
         "pkg-1.0.14" = _fX9Tzi62;
         "pkg-1.0.15" = _SnhgfoJh;
-        "default" = _SnhgfoJh;
+        "pkg-1.1.0" = _DhbjyxYn;
+        "pkg-1.1.1" = _5mftruoH;
+        "default" = _5mftruoH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "apex-integration";

@@ -86,6 +86,16 @@ let
             "file" = "lzxnoneterraria-1.9.0.jar";
             "hash" = "sha512-0MOc7gZ/Uhs+yq2kIruEXwuxSNhJetdqvLZ41PdARQ69wn/di5GBIYczg3achcBRinCAVU8Hl93qGu4E8HRtlw==";
         };
+        _TG9v6yvK = {
+            "id" = "TG9v6yvK";
+            "file" = "lzxnoneterraria-1.9.1.jar";
+            "hash" = "sha512-QAGptfITkS7+JEGhhuntx6FPYUuHPjPQyi48Ml2dZmbCvQIlgiJIYlhu2zjgQHtenUrA29OFe2Vb3GuGlVp0cQ==";
+        };
+        _Heawgv6W = {
+            "id" = "Heawgv6W";
+            "file" = "lzxnoneterraria-1.9.2.jar";
+            "hash" = "sha512-YRel8ojjJc9DAoErR9JAbwILtc+Y7Y3s4jAiS1BV21P/PHu+jcJEQ8VufRRFQmvYMW8RJc1jxDcG3ZoytAlDrw==";
+        };
     in {
         "3X8WBqph" = _3X8WBqph;
         "P2IfFF4Q" = _P2IfFF4Q;
@@ -104,7 +114,9 @@ let
         "fTaRhjZW" = _fTaRhjZW;
         "Gl6IbhcN" = _Gl6IbhcN;
         "5i7z0wt0" = _5i7z0wt0;
-        "neoforge-1.21.1" = _5i7z0wt0;
+        "TG9v6yvK" = _TG9v6yvK;
+        "Heawgv6W" = _Heawgv6W;
+        "neoforge-1.21.1" = _Heawgv6W;
         "pkg-1.2.0" = _3X8WBqph;
         "pkg-1.2.1" = _P2IfFF4Q;
         "pkg-1.3.0" = _hrIOm58H;
@@ -122,7 +134,9 @@ let
         "pkg-1.8.1" = _fTaRhjZW;
         "pkg-1.8.2" = _Gl6IbhcN;
         "pkg-1.9.0" = _5i7z0wt0;
-        "default" = _5i7z0wt0;
+        "pkg-1.9.1" = _TG9v6yvK;
+        "pkg-1.9.2" = _Heawgv6W;
+        "default" = _Heawgv6W;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lzxnoneterraria";

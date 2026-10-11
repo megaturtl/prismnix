@@ -126,6 +126,16 @@ let
             "file" = "effortlessbuilding-fabric-26.2-4.3.jar";
             "hash" = "sha512-ea74PVJF74dsteMhgrDzXjrSUkvJBe2d1Dh/Huf3xAygfc24rszlQQrqSyfg5jTrb6nI3lb2vxK0r5hrTZZxLQ==";
         };
+        _R8eAP63A = {
+            "id" = "R8eAP63A";
+            "file" = "effortlessbuilding-fabric-26.3-4.3.jar";
+            "hash" = "sha512-fcfhNyKV6NbbFA/szahy8Mt0a2ZbXhty0nt6mFxSAXhRII2lBBbYVcSN32q3KdMQN8HYJT9m00hP1hiSSjrLJw==";
+        };
+        _JblZjSyo = {
+            "id" = "JblZjSyo";
+            "file" = "effortlessbuilding-neoforge-26.3-4.3.jar";
+            "hash" = "sha512-I/PiLFwlaLxakM4CmINdJyeBb0Qg7ZHQifWnV9qarDda9hS56cGMBd/xJZzecaR8G1VgRp4u5vh84JLv7qFnYg==";
+        };
     in {
         "ehFdn7MQ" = _ehFdn7MQ;
         "3NgntFbG" = _3NgntFbG;
@@ -152,6 +162,8 @@ let
         "YJVsBCh6" = _YJVsBCh6;
         "bZB6tnaH" = _bZB6tnaH;
         "BkGu1Eid" = _BkGu1Eid;
+        "R8eAP63A" = _R8eAP63A;
+        "JblZjSyo" = _JblZjSyo;
         "forge-1.19.2" = _3NgntFbG;
         "forge-1.20.1" = _VczKVetv;
         "forge-1.19.4" = _oxaUfjQQ;
@@ -163,11 +175,13 @@ let
         "neoforge-26.1.2" = _YJVsBCh6;
         "neoforge-1.21.5" = _vu4TvwkC;
         "neoforge-26.2" = _bZB6tnaH;
+        "neoforge-26.3" = _JblZjSyo;
         "fabric-1.21.1" = _YxnBXtLv;
         "fabric-1.21.11" = _Sw0Z75XI;
         "fabric-26.1.2" = _tUZmcsh6;
         "fabric-1.21.5" = _vu4TvwkC;
         "fabric-26.2" = _BkGu1Eid;
+        "fabric-26.3" = _R8eAP63A;
         "pkg-3.4" = _ehFdn7MQ;
         "pkg-3.5" = _3NgntFbG;
         "pkg-3.6" = _3sq5xMlL;
@@ -179,8 +193,8 @@ let
         "pkg-4.0" = _3sqMa3Ak;
         "pkg-4.1" = _D6NOtRad;
         "pkg-4.2" = _3pzsqXR4;
-        "pkg-4.3" = _BkGu1Eid;
-        "default" = _BkGu1Eid;
+        "pkg-4.3" = _JblZjSyo;
+        "default" = _JblZjSyo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "effortless-building";

@@ -2131,6 +2131,11 @@ let
             "file" = "lifeseries-1.5.9+26.3-fabric.jar";
             "hash" = "sha512-jLoyJWZdB4dru62DBX165Zqwi4ILyJlvEE0wosweXzie49Rl1PfNorainM0GbRVqI+z6y3/37E7Voi8cZnsFdQ==";
         };
+        _DkHgV6FE = {
+            "id" = "DkHgV6FE";
+            "file" = "lifeseries-1.5.9+26.3-forge.jar";
+            "hash" = "sha512-lX1CNQj5tcM9i11t1fn5bGozdhGDJjZ2E2UFwSRuiEWtPt5d/wwBrhK2FjIsU3xFdB4/5QGCQpSkiKzmA5rJ6A==";
+        };
     in {
         "BZCEpZZv" = _BZCEpZZv;
         "TFE9VLQ9" = _TFE9VLQ9;
@@ -2558,6 +2563,7 @@ let
         "BWF4ydZb" = _BWF4ydZb;
         "luNCPKhj" = _luNCPKhj;
         "Xjapn7YA" = _Xjapn7YA;
+        "DkHgV6FE" = _DkHgV6FE;
         "fabric-1.21" = _Bzwj4YjA;
         "fabric-1.21.1" = _Bzwj4YjA;
         "fabric-1.21.2" = _v8fjKAhj;
@@ -2606,6 +2612,7 @@ let
         "forge-26.1.1" = _tWJzs98k;
         "forge-26.1.2" = _tWJzs98k;
         "forge-26.2" = _iRa3BjiW;
+        "forge-26.3" = _DkHgV6FE;
         "neoforge-1.20" = _c2vJ5BO8;
         "neoforge-1.20.1" = _c2vJ5BO8;
         "neoforge-1.20.4" = _OyCHTqAR;
@@ -3082,7 +3089,8 @@ let
         "pkg-fabric-1.5.9+26.2" = _BWF4ydZb;
         "pkg-neoforge-1.5.9+26.3" = _luNCPKhj;
         "pkg-fabric-1.5.9+26.3" = _Xjapn7YA;
-        "default" = _Xjapn7YA;
+        "pkg-forge-1.5.9+26.3" = _DkHgV6FE;
+        "default" = _DkHgV6FE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "life-series";

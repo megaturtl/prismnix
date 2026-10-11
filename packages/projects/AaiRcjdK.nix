@@ -171,6 +171,21 @@ let
             "file" = "woolplates-fabric-26.2-1.6.jar";
             "hash" = "sha512-qeFlsYVY8Fk7RvS//YLAsTALf1/YqVqjYaFP+jK8OvjFTSHxWRzHGsj8QanERFrov8hwGX3Pt1N6fOfd5dIAhg==";
         };
+        _Zo1VikRy = {
+            "id" = "Zo1VikRy";
+            "file" = "woolplates-neoforge-26.3-1.6.jar";
+            "hash" = "sha512-S164IVGysEvINBCgOwLIa2aCAMiYIbAYbt7oOsTGrmHpzCSbgtoosJebxnJU20dBI+2wPwquxA3UGzzqNldxew==";
+        };
+        _fBjx6VT8 = {
+            "id" = "fBjx6VT8";
+            "file" = "woolplates-fabric-26.3-1.6.jar";
+            "hash" = "sha512-bl3inkxyI7bd6R/lEIwksupLEva9lJiOX0v4zE3LfXO2bJL/HGOYg72qMasfU7kNDLeEuhysMPh78nO/JFMk6w==";
+        };
+        _ptMXjAbI = {
+            "id" = "ptMXjAbI";
+            "file" = "woolplates-neoforge-26.3-1.6.1.jar";
+            "hash" = "sha512-TTva7IsbrS8jrKY2LAMHJTbhognbBmv882d05UkBAlvQ0dFMpxo2dHnzIL3NUuSHzBwh7xbvDY3B2VPH25C8og==";
+        };
     in {
         "XOOr4q26" = _XOOr4q26;
         "2jW51oQJ" = _2jW51oQJ;
@@ -206,6 +221,9 @@ let
         "Y4pCKi9l" = _Y4pCKi9l;
         "3Ccsffo3" = _3Ccsffo3;
         "M3SpbH1h" = _M3SpbH1h;
+        "Zo1VikRy" = _Zo1VikRy;
+        "fBjx6VT8" = _fBjx6VT8;
+        "ptMXjAbI" = _ptMXjAbI;
         "forge-1.12.2" = _XOOr4q26;
         "forge-1.13.2" = _2jW51oQJ;
         "forge-1.14.4" = _RR7e0YMF;
@@ -245,14 +263,17 @@ let
         "neoforge-26.1.1" = _De2X8884;
         "neoforge-26.1.2" = _De2X8884;
         "neoforge-26.2" = _3Ccsffo3;
+        "neoforge-26.3" = _ptMXjAbI;
         "fabric-26.1" = _Y4pCKi9l;
         "fabric-26.1.1" = _Y4pCKi9l;
         "fabric-26.1.2" = _Y4pCKi9l;
         "fabric-26.2" = _M3SpbH1h;
+        "fabric-26.3" = _fBjx6VT8;
         "quilt-26.1" = _Y4pCKi9l;
         "quilt-26.1.1" = _Y4pCKi9l;
         "quilt-26.1.2" = _Y4pCKi9l;
         "quilt-26.2" = _M3SpbH1h;
+        "quilt-26.3" = _fBjx6VT8;
         "pkg-v1.2" = _XOOr4q26;
         "pkg-v1.1" = _2jW51oQJ;
         "pkg-v1.2.1" = _bU8qV0y5;
@@ -263,8 +284,9 @@ let
         "pkg-v1.4.2" = _bM6mQvB0;
         "pkg-v1.4.3" = _z40Vn2P5;
         "pkg-v1.5" = _D03xSPff;
-        "pkg-v1.6" = _M3SpbH1h;
-        "default" = _M3SpbH1h;
+        "pkg-v1.6" = _fBjx6VT8;
+        "pkg-v1.6.1" = _ptMXjAbI;
+        "default" = _ptMXjAbI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wool-pressure-plates";

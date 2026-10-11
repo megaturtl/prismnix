@@ -1941,6 +1941,11 @@ let
             "file" = "cyansethome-2.1.0-beta.2+26.1.x.jar";
             "hash" = "sha512-KnFPmZLcvEQrd346Uvhd+HvY4kEI8DdX4TGr0zGgKBSUEGFAK2SM56/yerN0Z45rlFXW3tAwgqPWRW84p7Zw3w==";
         };
+        _Gp6Y61dy = {
+            "id" = "Gp6Y61dy";
+            "file" = "cyansethome-2.1.0-beta.2+26.3.x.jar";
+            "hash" = "sha512-NkF6OqQanznFFQ4UebyzxU4uN8SLKnvXcrAfVD6ut8M8sOxpObU5NYNlDqGKY93V7KjZ8ZSy7aHz8/8GLTWVxg==";
+        };
     in {
         "spvqO4BC" = _spvqO4BC;
         "YGyVJtld" = _YGyVJtld;
@@ -2330,6 +2335,7 @@ let
         "hYFng7eC" = _hYFng7eC;
         "YHCwoVYB" = _YHCwoVYB;
         "RFIsySOg" = _RFIsySOg;
+        "Gp6Y61dy" = _Gp6Y61dy;
         "fabric-1.19" = _EDUD5FQP;
         "fabric-1.19.1" = _iKL4nSsA;
         "fabric-1.19.2" = _zdRvISj2;
@@ -2358,6 +2364,7 @@ let
         "fabric-26.1.1" = _RFIsySOg;
         "fabric-26.1.2" = _RFIsySOg;
         "fabric-26.2" = _YHCwoVYB;
+        "fabric-26.3" = _Gp6Y61dy;
         "pkg-0.0.1+1.19.2" = _spvqO4BC;
         "pkg-0.0.2+1.19.2" = _YGyVJtld;
         "pkg-0.0.4+1.19.2" = _ArmEN3Y6;
@@ -2745,7 +2752,8 @@ let
         "pkg-2.1.0-beta.2+1.21.4" = _hYFng7eC;
         "pkg-2.1.0-beta.2+26.2.x" = _YHCwoVYB;
         "pkg-2.1.0-beta.2+26.1.x" = _RFIsySOg;
-        "default" = _RFIsySOg;
+        "pkg-2.1.0-beta.2+26.3.x" = _Gp6Y61dy;
+        "default" = _Gp6Y61dy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cyansethome";

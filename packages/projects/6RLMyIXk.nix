@@ -76,6 +76,11 @@ let
             "file" = "Bare Bones x FA+Player.zip";
             "hash" = "sha512-YaJO9Nil3vDs326N8MaNCa/xdF5nOlkdSIPC+bWStvq7h+YIJpGJURw3dueCQ53yHC9EtJVggIozQ2V4Iki5pA==";
         };
+        _pI5I5ZDC = {
+            "id" = "pI5I5ZDC";
+            "file" = "Bare Bones x FA+Player.zip";
+            "hash" = "sha512-njT8xVZAtpjQ4c3tr5XoaUSQPUjcaDlyK4HoPAdVfnOQe5AuqUHasqgHiRw05oO+CSMtRSc/TDbSDgVxrVLujA==";
+        };
     in {
         "5u7rt6AZ" = _5u7rt6AZ;
         "pU731EkT" = _pU731EkT;
@@ -92,6 +97,7 @@ let
         "kIqKcIkq" = _kIqKcIkq;
         "6sUGbybH" = _6sUGbybH;
         "GbVpy7pL" = _GbVpy7pL;
+        "pI5I5ZDC" = _pI5I5ZDC;
         "minecraft-1.20" = _pU731EkT;
         "minecraft-1.20.1" = _pU731EkT;
         "minecraft-1.20.2" = _CGOzkbsG;
@@ -115,8 +121,9 @@ let
         "minecraft-26.1.1" = _6sUGbybH;
         "minecraft-26.1.2" = _6sUGbybH;
         "minecraft-26.2" = _GbVpy7pL;
-        "pkg-1.0" = _GbVpy7pL;
-        "default" = _GbVpy7pL;
+        "minecraft-26.3" = _pI5I5ZDC;
+        "pkg-1.0" = _pI5I5ZDC;
+        "default" = _pI5I5ZDC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bare-bones-x-fresh-animations-player-extension";

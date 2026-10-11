@@ -726,6 +726,91 @@ let
             "file" = "Corgilib-Forge-1.20.1-4.0.3.5.jar";
             "hash" = "sha512-6HmX4e6AlCKPW+U82n/Uatd/4vI47tWevbzYpNP4xs1fVl5F66uz1Nxh0ambcBGYutEdrqmxJ3o7HpSdt60Ocg==";
         };
+        _pPMtrkJ7 = {
+            "id" = "pPMtrkJ7";
+            "file" = "Corgilib-Fabric-1.20.1-4.0.3.6.jar";
+            "hash" = "sha512-M8SgPuRTSwh67MBT/hKsSBRgXhAagy/fhQSuLjF8R58Svguq8NOWQ0KoOmAr/fDQ7tGRlMBsV/renoKauBhuJg==";
+        };
+        _OtJzHtsl = {
+            "id" = "OtJzHtsl";
+            "file" = "Corgilib-Forge-1.20.1-4.0.3.6.jar";
+            "hash" = "sha512-h3CFwsq5P+I7CbPlIGP+4MLPqD381Axiw8EwuKch5osbRr182gsVuG5dAKrn8BMshDjJoyh4RtsrKhxInSDPCw==";
+        };
+        _srVXMYcH = {
+            "id" = "srVXMYcH";
+            "file" = "Corgilib-Fabric-1.21.1-5.0.0.10.jar";
+            "hash" = "sha512-Jyc8n/cySxFJyvp7CiH/l2NXKo1CJxYJMfzqnp2/xH5fVAwOSh3u+KZIIrAeaYMuJ8hStMSUwtCSWMq9k8z8+w==";
+        };
+        _InjyLPzt = {
+            "id" = "InjyLPzt";
+            "file" = "Corgilib-Forge-1.21.1-5.0.0.10.jar";
+            "hash" = "sha512-kSlPSJCzgDyojvGpspJfFbEsu0rToZQl55xCRVIEpdWdnMlA1L9vCk0juHQydDR/rNDSjhmkveT9/60m/7Oi+g==";
+        };
+        _Za7PInLk = {
+            "id" = "Za7PInLk";
+            "file" = "Corgilib-NeoForge-1.21.1-5.0.0.10.jar";
+            "hash" = "sha512-OBB/xII7VN7lEHq7kWIx8qmxihrilH7UxNnhr2jnDPptioQBljMHS8ukeFQblyOp7Sar+y4UsotxYYDPcO+8og==";
+        };
+        _5SGLT7Jl = {
+            "id" = "5SGLT7Jl";
+            "file" = "Corgilib-Fabric-1.21.4-6.0.0.5-SNAPSHOT.jar";
+            "hash" = "sha512-mqy6NMPG1T0UAWyxtUounR5+CZTU7sIAn1m/CkhXXOOXVgTH5xBYHFkmlrrgOxwro4oBqdGRQUYUahtKyqB0Bg==";
+        };
+        _9I2ChvCC = {
+            "id" = "9I2ChvCC";
+            "file" = "Corgilib-Forge-1.21.4-6.0.0.5-SNAPSHOT.jar";
+            "hash" = "sha512-ccmujJV3yufhcTcwiZzRa8hBduANHwGiAT3yK8kfmZQmv3uMmGdXtdOlekI6XyuwQ7Hr7jCPy57bkFObqT44XA==";
+        };
+        _Z3DYumzN = {
+            "id" = "Z3DYumzN";
+            "file" = "Corgilib-NeoForge-1.21.4-6.0.0.5-SNAPSHOT.jar";
+            "hash" = "sha512-9zdJzcOAj1nb8Ay98FbuLg5Lq/n8aF7V+U1TyQPQ0Zof+XODb163vFWPPbyexx55cO5uV9vFQYYQDQ5ugaldlg==";
+        };
+        _lzCFgD8T = {
+            "id" = "lzCFgD8T";
+            "file" = "Corgilib-Fabric-1.21.8-7.0.0.2-SNAPSHOT.jar";
+            "hash" = "sha512-ixU0CFDNCU9iNqr6TPeGO4xYhKyHcTSC9+u1TjddPxN78qw5INHENBKOaPNC1se4jGj6/wV1DLu1GO47/oeHYg==";
+        };
+        _QdyYkTP5 = {
+            "id" = "QdyYkTP5";
+            "file" = "Corgilib-NeoForge-1.21.8-7.0.0.2-SNAPSHOT.jar";
+            "hash" = "sha512-h1nd62aKi69Q2gBkTxkP6CmmIQV07bkolQOm0MMLqBvd6fxoV9dRPqv3v5ax47kK1LQsctceGPR7LRfiHVN6ow==";
+        };
+        _icHd5N24 = {
+            "id" = "icHd5N24";
+            "file" = "Corgilib-Fabric-1.21.10-8.0.0.1.jar";
+            "hash" = "sha512-OXKHVJmCpc++Gs1/z4vtlNLXTH5vdhgnXpYvRXi+M2MILuM25Wp61lVuHTZUtyXyKnYtLrVVem338yDgAqtooA==";
+        };
+        _d3Rfyd56 = {
+            "id" = "d3Rfyd56";
+            "file" = "Corgilib-Forge-1.21.10-8.0.0.1.jar";
+            "hash" = "sha512-qlKGR8QyUU+SnhfBomqXIQUXw74MJIJuRWNMeIScYHiIHE6noTL+5mJQArqv9fPDilTzw4J3SQ5SLm2k2XyhHg==";
+        };
+        _wLmxRmn8 = {
+            "id" = "wLmxRmn8";
+            "file" = "Corgilib-NeoForge-1.21.10-8.0.0.1.jar";
+            "hash" = "sha512-C2V3KTi9Ebhw7jU3V9w5hYY4jBuE0xId165qWSKgikk3H5z5OxeWFkzN2eXIOGF2amlYqYjFm8ZQwoWfxdBcPw==";
+        };
+        _GT66gN9Z = {
+            "id" = "GT66gN9Z";
+            "file" = "Corgilib-Forge-1.21.8-7.0.0.2-SNAPSHOT.jar";
+            "hash" = "sha512-LHRmy2KA+VUs+RAA1C2t3gm0pLgu+kMflPT6EgMecaZGFgKkHb17DRt5EfgJZg+WBzO8UeH1cYReN2/cLYhKtQ==";
+        };
+        _E2KsH5sN = {
+            "id" = "E2KsH5sN";
+            "file" = "Corgilib-Fabric-1.21.11-9.0.0.1.jar";
+            "hash" = "sha512-/cTiMcRYA16IqaErc7SAm79vfudLsyBbXNxuILu4Lt/PPGS1J0iCeJkUJjY+uxcAZq4aLgNJW2dGFhTWzWceng==";
+        };
+        _A3pk6I5y = {
+            "id" = "A3pk6I5y";
+            "file" = "Corgilib-Forge-1.21.11-9.0.0.1.jar";
+            "hash" = "sha512-QiDUktBnOcFoN2c0Oj7ugrvVJuqAYuq3UioNFu78MLEqCg8rkWB093XQx1ISFW1bLc3b7fH8PRI4oS06J5zmeA==";
+        };
+        _AB0M562y = {
+            "id" = "AB0M562y";
+            "file" = "Corgilib-NeoForge-1.21.11-9.0.0.1.jar";
+            "hash" = "sha512-XYr/WNoDuMDMtL9NioM03hhNcbPZrOluYuH+Lj3bQhz+DPUfse23CB6S0pP56arZSQ5s+iJKWCh5Tkf7TW7yyQ==";
+        };
     in {
         "OyqoXnSr" = _OyqoXnSr;
         "AUeAiB60" = _AUeAiB60;
@@ -872,32 +957,57 @@ let
         "nqrTa84r" = _nqrTa84r;
         "gDovBlgh" = _gDovBlgh;
         "HXTB2EAy" = _HXTB2EAy;
+        "pPMtrkJ7" = _pPMtrkJ7;
+        "OtJzHtsl" = _OtJzHtsl;
+        "srVXMYcH" = _srVXMYcH;
+        "InjyLPzt" = _InjyLPzt;
+        "Za7PInLk" = _Za7PInLk;
+        "5SGLT7Jl" = _5SGLT7Jl;
+        "9I2ChvCC" = _9I2ChvCC;
+        "Z3DYumzN" = _Z3DYumzN;
+        "lzCFgD8T" = _lzCFgD8T;
+        "QdyYkTP5" = _QdyYkTP5;
+        "icHd5N24" = _icHd5N24;
+        "d3Rfyd56" = _d3Rfyd56;
+        "wLmxRmn8" = _wLmxRmn8;
+        "GT66gN9Z" = _GT66gN9Z;
+        "E2KsH5sN" = _E2KsH5sN;
+        "A3pk6I5y" = _A3pk6I5y;
+        "AB0M562y" = _AB0M562y;
         "fabric-1.19.2" = _HaZfKDxj;
         "fabric-1.19.3" = _ZroY6yNY;
         "fabric-1.19.4" = _lMApN4G3;
-        "fabric-1.20.1" = _gDovBlgh;
-        "fabric-1.21.1" = _ltZXAkMW;
-        "fabric-1.21.4" = _5QOFZvOn;
-        "fabric-1.21.8" = _EEKzC8dG;
-        "fabric-1.21.11" = _y5NhX0ok;
+        "fabric-1.20.1" = _pPMtrkJ7;
+        "fabric-1.21.1" = _srVXMYcH;
+        "fabric-1.21.4" = _5SGLT7Jl;
+        "fabric-1.21.8" = _lzCFgD8T;
+        "fabric-1.21.11" = _E2KsH5sN;
+        "fabric-1.21.9" = _icHd5N24;
+        "fabric-1.21.10" = _icHd5N24;
         "forge-1.19.2" = _ja9yy4N9;
         "forge-1.19.3" = _Fk11GvWy;
         "forge-1.19.4" = _M51IWfyO;
-        "forge-1.20.1" = _HXTB2EAy;
-        "forge-1.21.1" = _ERwPyVD2;
-        "forge-1.21.4" = _SbzpJO5S;
-        "forge-1.21.8" = _WRpw9AK8;
-        "forge-1.21.11" = _Nadyi7d2;
-        "quilt-1.20.1" = _gDovBlgh;
-        "quilt-1.21.1" = _ltZXAkMW;
-        "quilt-1.21.4" = _5QOFZvOn;
-        "quilt-1.21.8" = _EEKzC8dG;
-        "quilt-1.21.11" = _y5NhX0ok;
-        "neoforge-1.20.1" = _HXTB2EAy;
-        "neoforge-1.21.1" = _nqrTa84r;
-        "neoforge-1.21.4" = _1KDvAIdJ;
-        "neoforge-1.21.8" = _DoI2Li8O;
-        "neoforge-1.21.11" = _o8hZtInH;
+        "forge-1.20.1" = _OtJzHtsl;
+        "forge-1.21.1" = _InjyLPzt;
+        "forge-1.21.4" = _9I2ChvCC;
+        "forge-1.21.8" = _GT66gN9Z;
+        "forge-1.21.11" = _A3pk6I5y;
+        "forge-1.21.9" = _d3Rfyd56;
+        "forge-1.21.10" = _d3Rfyd56;
+        "quilt-1.20.1" = _pPMtrkJ7;
+        "quilt-1.21.1" = _srVXMYcH;
+        "quilt-1.21.4" = _5SGLT7Jl;
+        "quilt-1.21.8" = _lzCFgD8T;
+        "quilt-1.21.11" = _E2KsH5sN;
+        "quilt-1.21.9" = _icHd5N24;
+        "quilt-1.21.10" = _icHd5N24;
+        "neoforge-1.20.1" = _OtJzHtsl;
+        "neoforge-1.21.1" = _Za7PInLk;
+        "neoforge-1.21.4" = _Z3DYumzN;
+        "neoforge-1.21.8" = _QdyYkTP5;
+        "neoforge-1.21.11" = _AB0M562y;
+        "neoforge-1.21.9" = _wLmxRmn8;
+        "neoforge-1.21.10" = _wLmxRmn8;
         "pkg-1.0.0" = _OyqoXnSr;
         "pkg-1.0.0.1-fabric" = _AUeAiB60;
         "pkg-1.0.0.1-forge" = _RJSkLlYJ;
@@ -1042,7 +1152,24 @@ let
         "pkg-1.21.1-5.0.0.9-NeoForge" = _nqrTa84r;
         "pkg-1.20.1-4.0.3.5-fabric" = _gDovBlgh;
         "pkg-1.20.1-4.0.3.5-forge" = _HXTB2EAy;
-        "default" = _HXTB2EAy;
+        "pkg-1.20.1-4.0.3.6-fabric" = _pPMtrkJ7;
+        "pkg-1.20.1-4.0.3.6-forge" = _OtJzHtsl;
+        "pkg-1.21.1-5.0.0.10-Fabric" = _srVXMYcH;
+        "pkg-1.21.1-5.0.0.10-Forge" = _InjyLPzt;
+        "pkg-1.21.1-5.0.0.10-NeoForge" = _Za7PInLk;
+        "pkg-1.21.4-6.0.0.5-SNAPSHOT-Fabric" = _5SGLT7Jl;
+        "pkg-1.21.4-6.0.0.5-SNAPSHOT-Forge" = _9I2ChvCC;
+        "pkg-1.21.4-6.0.0.5-SNAPSHOT-NeoForge" = _Z3DYumzN;
+        "pkg-1.21.8-7.0.0.2-SNAPSHOT-Fabric" = _lzCFgD8T;
+        "pkg-1.21.8-7.0.0.2-SNAPSHOT-NeoForge" = _QdyYkTP5;
+        "pkg-1.21.10-8.0.0.1-Fabric" = _icHd5N24;
+        "pkg-1.21.10-8.0.0.1-Forge" = _d3Rfyd56;
+        "pkg-1.21.10-8.0.0.1-NeoForge" = _wLmxRmn8;
+        "pkg-1.21.8-7.0.0.2-SNAPSHOT-Forge" = _GT66gN9Z;
+        "pkg-1.21.11-9.0.0.1-Fabric" = _E2KsH5sN;
+        "pkg-1.21.11-9.0.0.1-Forge" = _A3pk6I5y;
+        "pkg-1.21.11-9.0.0.1-NeoForge" = _AB0M562y;
+        "default" = _AB0M562y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "corgilib";

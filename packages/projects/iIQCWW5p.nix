@@ -16,15 +16,22 @@ let
             "file" = "blocksabound-0.3.0.jar";
             "hash" = "sha512-nmdW6f5LbHmSh2oN4vemqvdIL6dvliSi+/B4x+oGk0l0RjN+AJyI7o4hr8RRKxe55Ue8w8S43r5HJdayJjtQCQ==";
         };
+        _g6VGqj7y = {
+            "id" = "g6VGqj7y";
+            "file" = "blocksabound-0.4.0.jar";
+            "hash" = "sha512-7qxtb5TkwxjTasTk9dfPFr1OEDi3S8i5nVCSngEFCA2ib2XFgBm/RMoeIwlEGMWYmsepY4kPp55xVz4jRWXlvg==";
+        };
     in {
         "4HZgC9Hd" = _4HZgC9Hd;
         "QgMu3XeX" = _QgMu3XeX;
         "FA7fiSfl" = _FA7fiSfl;
-        "neoforge-1.21.1" = _FA7fiSfl;
+        "g6VGqj7y" = _g6VGqj7y;
+        "neoforge-1.21.1" = _g6VGqj7y;
         "pkg-0.1.0" = _4HZgC9Hd;
         "pkg-0.2.0" = _QgMu3XeX;
         "pkg-0.3.0" = _FA7fiSfl;
-        "default" = _FA7fiSfl;
+        "pkg-0.4.0" = _g6VGqj7y;
+        "default" = _g6VGqj7y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blocks-abound";

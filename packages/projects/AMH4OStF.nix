@@ -106,6 +106,11 @@ let
             "file" = "SnowyWeaponry-26.2-1.19.0.jar";
             "hash" = "sha512-MW1cnR0S5MHSyeyxlZ4suyRBk4xrXe5DXzV7DyAYVs06Yqqb1Fm9Y5NXHE7joA4Q/aIfgJi3bNcO2sNUMMzWSg==";
         };
+        _JamVHd3r = {
+            "id" = "JamVHd3r";
+            "file" = "SnowyWeaponry-26.3-1.20.0.jar";
+            "hash" = "sha512-GLdm6RvuCkgkS/5zb++oAaJDfneTSpxzbjo8bI/GTtQDNgOnlK/HZaTzYlQoWaMKDO1cv9iWDOr4fA991SieYA==";
+        };
     in {
         "CtQJI2NH" = _CtQJI2NH;
         "1oMH0EKw" = _1oMH0EKw;
@@ -128,6 +133,7 @@ let
         "kvdw4YtT" = _kvdw4YtT;
         "qrJjUDW9" = _qrJjUDW9;
         "d9g1TFey" = _d9g1TFey;
+        "JamVHd3r" = _JamVHd3r;
         "forge-1.16.3" = _CtQJI2NH;
         "forge-1.16.4" = _CtQJI2NH;
         "forge-1.16.5" = _CtQJI2NH;
@@ -152,6 +158,7 @@ let
         "neoforge-26.1.1" = _qrJjUDW9;
         "neoforge-26.1.2" = _qrJjUDW9;
         "neoforge-26.2" = _d9g1TFey;
+        "neoforge-26.3" = _JamVHd3r;
         "pkg-1.1.0" = _CtQJI2NH;
         "pkg-1.2.0" = _1oMH0EKw;
         "pkg-1.3.0" = _SMpNzEy3;
@@ -173,7 +180,8 @@ let
         "pkg-1.17.0" = _kvdw4YtT;
         "pkg-1.18.0" = _qrJjUDW9;
         "pkg-1.19.0" = _d9g1TFey;
-        "default" = _d9g1TFey;
+        "pkg-1.20.0" = _JamVHd3r;
+        "default" = _JamVHd3r;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "snowy-weaponry";

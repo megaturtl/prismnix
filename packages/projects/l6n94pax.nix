@@ -361,6 +361,11 @@ let
             "file" = "easy-piglins-neoforge-1.1.7+26.3.jar";
             "hash" = "sha512-4vpVoHqUxXD+jabBNpiFn21TZZXKpmEG4PtM/L1GqDILbZ9wSizjq4VwGxslHx6/1VKkzR88gI84GaGF4PsTSg==";
         };
+        _fYkV1K97 = {
+            "id" = "fYkV1K97";
+            "file" = "easy-piglins-neoforge-1.1.8+26.3.jar";
+            "hash" = "sha512-G/bVAEjZdLDoNpf5LimOSHTdNIAkvkZe0RiZxaaI2sWJQDkGWOm+ot/9WQd/6qFqKNFbpJmBwbWRn58sR6JB8Q==";
+        };
     in {
         "JZn4MKpp" = _JZn4MKpp;
         "nyxHpLyY" = _nyxHpLyY;
@@ -434,6 +439,7 @@ let
         "xfaJhTPC" = _xfaJhTPC;
         "LYKn0PkW" = _LYKn0PkW;
         "FCT3lJax" = _FCT3lJax;
+        "fYkV1K97" = _fYkV1K97;
         "forge-1.19" = _aazBoPfX;
         "forge-1.19.1" = _ftymE4tl;
         "forge-1.19.2" = _erNoK6yU;
@@ -463,7 +469,7 @@ let
         "neoforge-26.1.1" = _xfaJhTPC;
         "neoforge-26.1.2" = _xfaJhTPC;
         "neoforge-26.2" = _LYKn0PkW;
-        "neoforge-26.3" = _FCT3lJax;
+        "neoforge-26.3" = _fYkV1K97;
         "pkg-forge-1.19-1.0.0" = _JZn4MKpp;
         "pkg-forge-1.19-1.0.1" = _nyxHpLyY;
         "pkg-forge-1.19-1.0.2" = _V52XeCv9;
@@ -535,7 +541,8 @@ let
         "pkg-neoforge-1.1.7+26.1.2" = _xfaJhTPC;
         "pkg-neoforge-1.1.7+26.2" = _LYKn0PkW;
         "pkg-neoforge-1.1.7+26.3" = _FCT3lJax;
-        "default" = _FCT3lJax;
+        "pkg-neoforge-1.1.8+26.3" = _fYkV1K97;
+        "default" = _fYkV1K97;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "easy-piglins";

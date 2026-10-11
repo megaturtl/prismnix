@@ -84,7 +84,7 @@ let
         "minecraft-26.1.1" = _iVYeERag;
         "minecraft-26.1.2" = _iVYeERag;
         "minecraft-26.2" = _iVYeERag;
-        "minecraft-26.3-rc-2" = _iVYeERag;
+        "minecraft-26.3" = _iVYeERag;
         "pkg-2024.08.20" = _LgJT3Ggq;
         "pkg-2024.10.15" = _ukLjZi5G;
         "pkg-2024.12.08" = _5eakXfSN;

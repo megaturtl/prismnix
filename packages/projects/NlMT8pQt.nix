@@ -51,6 +51,16 @@ let
             "file" = "ars_n_spells-3.2.4.jar";
             "hash" = "sha512-hSasO6crFEwc+u7kSY/ne5o9ezk7AKF+9xj7FGXInlo4CGJ1ZfShlvb5n+w57kcUjNyoGepCv7O2M+QHLiEBBw==";
         };
+        _wL7OQNCC = {
+            "id" = "wL7OQNCC";
+            "file" = "ars_n_spells-3.3.5.jar";
+            "hash" = "sha512-gqxiVrgEZiKDXY2yP7P9xNLaJ5pfU6S3XwrpGp/33TZDiupLsSBm8cd6NW1+ygJgG5t1/Lpw5OSOZ/mK+Y8A6A==";
+        };
+        _5OeZngO7 = {
+            "id" = "5OeZngO7";
+            "file" = "ars_n_spells-3.3.5.jar";
+            "hash" = "sha512-IfJ5ETeIU4ABKd5BI7QGobff8pk6mG88lEdh8Fm+ysVVCZJfd7j4zklQLfxnR7OXQHRUyFuaM59sADiR0TQA4g==";
+        };
     in {
         "GUGqWMcW" = _GUGqWMcW;
         "3ZSzIDZY" = _3ZSzIDZY;
@@ -62,8 +72,10 @@ let
         "mENKy7pT" = _mENKy7pT;
         "5uFE6mBr" = _5uFE6mBr;
         "VFyvh1bi" = _VFyvh1bi;
-        "forge-1.20.1" = _5uFE6mBr;
-        "neoforge-1.21.1" = _VFyvh1bi;
+        "wL7OQNCC" = _wL7OQNCC;
+        "5OeZngO7" = _5OeZngO7;
+        "forge-1.20.1" = _wL7OQNCC;
+        "neoforge-1.21.1" = _5OeZngO7;
         "pkg-1.6.3" = _GUGqWMcW;
         "pkg-2.0.0" = _3ZSzIDZY;
         "pkg-2.5.0" = _S3eaWoEd;
@@ -71,7 +83,8 @@ let
         "pkg-3.0.1" = _JD5XzVCD;
         "pkg-3.2.2" = _mENKy7pT;
         "pkg-3.2.4" = _VFyvh1bi;
-        "default" = _VFyvh1bi;
+        "pkg-3.3.5" = _5OeZngO7;
+        "default" = _5OeZngO7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ars-n-spells";

@@ -21,19 +21,26 @@ let
             "file" = "bluelava1.21.10.zip";
             "hash" = "sha512-kYsxGQB4rNs2TRTqQlSvwQLSa+DA607KbcgAKRI/05LQV8GWenE9O+YK59jvS2+Mvkphnjly+Vbr7JUpaQeVjA==";
         };
+        _hncJl4LW = {
+            "id" = "hncJl4LW";
+            "file" = "bluelava_26.1.2.zip";
+            "hash" = "sha512-DSd2mQ3aZxDtUJhG0KmdLpqQxRdY3ZFTWZ4TqKuNgjYkGuJYe3JeGKsjlW8W90jOkUWEcuc+oqs8lVtBPTtZKg==";
+        };
     in {
         "TSGWn7Dz" = _TSGWn7Dz;
         "T3hDzJKG" = _T3hDzJKG;
         "p6sPZAcg" = _p6sPZAcg;
         "eMFR4Msl" = _eMFR4Msl;
+        "hncJl4LW" = _hncJl4LW;
         "minecraft-1.8.9" = _T3hDzJKG;
         "minecraft-1.21.5" = _p6sPZAcg;
         "minecraft-1.21.9" = _eMFR4Msl;
         "minecraft-1.21.10" = _eMFR4Msl;
+        "minecraft-26.1.2" = _hncJl4LW;
         "pkg-1.0" = _TSGWn7Dz;
         "pkg-1.1" = _T3hDzJKG;
-        "pkg-2.0" = _eMFR4Msl;
-        "default" = _eMFR4Msl;
+        "pkg-2.0" = _hncJl4LW;
+        "default" = _hncJl4LW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bluelava";

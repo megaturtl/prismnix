@@ -2316,6 +2316,11 @@ let
             "file" = "cyanlib-2.1.0-beta.5+26.2.x.jar";
             "hash" = "sha512-/FAsBescZ2Du3I2sVtNCMW1WQA/dWfzxpJTZypI83Hg0yBqeSWD+HTcVc2ooksnFhZ9VBnnJKd0zlZylA6rfjQ==";
         };
+        _kyTHDSjw = {
+            "id" = "kyTHDSjw";
+            "file" = "cyanlib-2.1.0-beta.5+26.3.x.jar";
+            "hash" = "sha512-20YGKcw+UVsWaBm/IR8QbMWXdD6rYEnEZP08J/khak+22zwH8YRBMo87Zw9YQhPGjhyxD9gcGGKtkuBo8fNXaw==";
+        };
     in {
         "F6kAGRlU" = _F6kAGRlU;
         "9wJERpEp" = _9wJERpEp;
@@ -2780,6 +2785,7 @@ let
         "OC5haYko" = _OC5haYko;
         "IcRdjjgn" = _IcRdjjgn;
         "5CZyAx7z" = _5CZyAx7z;
+        "kyTHDSjw" = _kyTHDSjw;
         "fabric-1.17" = _S3cn68b6;
         "fabric-1.17.1" = _S3cn68b6;
         "fabric-1.18" = _LLzn3Hpk;
@@ -2813,6 +2819,7 @@ let
         "fabric-26.1.1" = _IcRdjjgn;
         "fabric-26.1.2" = _IcRdjjgn;
         "fabric-26.2" = _5CZyAx7z;
+        "fabric-26.3" = _kyTHDSjw;
         "pkg-0.0.9+1.17.1" = _F6kAGRlU;
         "pkg-0.0.9+1.18.2" = _9wJERpEp;
         "pkg-0.0.9+1.19.2" = _bOszFF2F;
@@ -3275,7 +3282,8 @@ let
         "pkg-2.1.0-beta.5+1.21.2-1.21.3" = _OC5haYko;
         "pkg-2.1.0-beta.5+26.1.x" = _IcRdjjgn;
         "pkg-2.1.0-beta.5+26.2.x" = _5CZyAx7z;
-        "default" = _5CZyAx7z;
+        "pkg-2.1.0-beta.5+26.3.x" = _kyTHDSjw;
+        "default" = _kyTHDSjw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cyanlib";

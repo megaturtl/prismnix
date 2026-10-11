@@ -71,6 +71,26 @@ let
             "file" = "ZoomLens-neoforge-1.21.4-v1.1.jar";
             "hash" = "sha512-Mm0j8OG3C5LtUelNiU7lxMQeakNKyxLuqH8CSU9mPoY7Og0PTQiEVQar8Y/ftzy0PGWuRmUfWFYzcai1OG2pZA==";
         };
+        _Y6O9zzBc = {
+            "id" = "Y6O9zzBc";
+            "file" = "ZoomLens-forge-1.20.1-v2.0.jar";
+            "hash" = "sha512-QsSE4lzi/gnAHYlADcYckGSZsItM/Q4Lx2RTZluFClQpDGRGUXXm0VDk7C94uAMnor0rbDT901CpHxvBqLzAAg==";
+        };
+        _JDXg0zBs = {
+            "id" = "JDXg0zBs";
+            "file" = "ZoomLens-fabric-1.20.1-v2.0.jar";
+            "hash" = "sha512-TlEWvmQSxoD2ZDINVIaIET0l2lV42yYP3xU1XibUXy4tiGTlxewZCJG9gX+J9jfMLGhQsTmePkY0HIhRrwdWFQ==";
+        };
+        _7RvSo00L = {
+            "id" = "7RvSo00L";
+            "file" = "ZoomLens-fabric-1.21.1-v2.0.jar";
+            "hash" = "sha512-bQibfFI18eHAb2hxEdQmXBdl3uWMbnr2VspjgvfCm2OwBw9sKpt8E7KdUt/xPG+rbwdzOAVfh1XELVTUYL1fHA==";
+        };
+        _akenffZc = {
+            "id" = "akenffZc";
+            "file" = "ZoomLens-neoforge-1.21.1-v2.0.jar";
+            "hash" = "sha512-WQkdeLR3pAzTYd1DETxrBQiv93c1ID0yYwGePl6nTE4SSz92Tj765QhUYyu9Jq8MlHn8R+HCaDUitXN+U5JcRA==";
+        };
     in {
         "SZ8BaNom" = _SZ8BaNom;
         "f9Sl0HKL" = _f9Sl0HKL;
@@ -86,13 +106,17 @@ let
         "C7XmX5Sz" = _C7XmX5Sz;
         "26A9QOTH" = _26A9QOTH;
         "EXgiZnIr" = _EXgiZnIr;
+        "Y6O9zzBc" = _Y6O9zzBc;
+        "JDXg0zBs" = _JDXg0zBs;
+        "7RvSo00L" = _7RvSo00L;
+        "akenffZc" = _akenffZc;
         "forge-1.19" = _SZ8BaNom;
         "forge-1.19.1" = _SZ8BaNom;
         "forge-1.19.2" = _SZ8BaNom;
         "forge-1.19.3" = _SZ8BaNom;
         "forge-1.19.4" = _SZ8BaNom;
         "forge-1.20" = _f9Sl0HKL;
-        "forge-1.20.1" = _f9Sl0HKL;
+        "forge-1.20.1" = _Y6O9zzBc;
         "forge-1.20.2" = _f9Sl0HKL;
         "forge-1.20.3" = _f9Sl0HKL;
         "forge-1.20.4" = _f9Sl0HKL;
@@ -101,12 +125,12 @@ let
         "forge-1.21" = _P4IndRFA;
         "forge-1.21.1" = _P4IndRFA;
         "fabric-1.20" = _jfHyoQ9h;
-        "fabric-1.20.1" = _jfHyoQ9h;
+        "fabric-1.20.1" = _JDXg0zBs;
         "fabric-1.20.2" = _jfHyoQ9h;
         "fabric-1.20.3" = _jfHyoQ9h;
         "fabric-1.20.4" = _jfHyoQ9h;
         "fabric-1.21" = _L0DxESRC;
-        "fabric-1.21.1" = _L0DxESRC;
+        "fabric-1.21.1" = _7RvSo00L;
         "fabric-1.21.11" = _qq7XhNMM;
         "fabric-26.1" = _hMktrBQI;
         "fabric-26.1.1" = _hMktrBQI;
@@ -116,7 +140,7 @@ let
         "fabric-1.21.3" = _26A9QOTH;
         "fabric-1.21.4" = _26A9QOTH;
         "neoforge-1.21" = _duVLzDee;
-        "neoforge-1.21.1" = _duVLzDee;
+        "neoforge-1.21.1" = _akenffZc;
         "neoforge-1.21.10" = _3XFv9LlI;
         "neoforge-1.21.11" = _jHMrWH4g;
         "neoforge-26.1" = _OWmVFETI;
@@ -125,7 +149,8 @@ let
         "neoforge-1.21.3" = _EXgiZnIr;
         "neoforge-1.21.4" = _EXgiZnIr;
         "pkg-1.1" = _EXgiZnIr;
-        "default" = _EXgiZnIr;
+        "pkg-2.0" = _akenffZc;
+        "default" = _akenffZc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zoomlens";

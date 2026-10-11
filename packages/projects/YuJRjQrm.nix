@@ -46,6 +46,11 @@ let
             "file" = "modern-mayhem-1.20.1-2.0.0.jar";
             "hash" = "sha512-6FEoNDWhsRVnRWmxSBhjNMc9BLxwIuNV0gTkUKPX4SDpGyrqWfR1bMeVaXOO4//9vahDTYNyEmOx5wWQuNV5aw==";
         };
+        _WPdDFu77 = {
+            "id" = "WPdDFu77";
+            "file" = "modern-mayhem-1.20.1-2.0.1.jar";
+            "hash" = "sha512-/5iC9190DXWqwCdq8coLDCQU4YDIpgOCj2dvTjHO3kIEfLPPIhjp22PdRbHg7diE6uOBuOhoNoWoe4N19Tmj5Q==";
+        };
     in {
         "ePdjQ0OB" = _ePdjQ0OB;
         "JfkiHack" = _JfkiHack;
@@ -56,8 +61,9 @@ let
         "KKYEtHO8" = _KKYEtHO8;
         "M9obSuUl" = _M9obSuUl;
         "z1XBbf7x" = _z1XBbf7x;
-        "forge-1.20.1" = _z1XBbf7x;
-        "neoforge-1.20.1" = _z1XBbf7x;
+        "WPdDFu77" = _WPdDFu77;
+        "forge-1.20.1" = _WPdDFu77;
+        "neoforge-1.20.1" = _WPdDFu77;
         "pkg-1.0.0" = _ePdjQ0OB;
         "pkg-1.0.1" = _JfkiHack;
         "pkg-1.1.0" = _c8nrhHlP;
@@ -67,7 +73,8 @@ let
         "pkg-1.1.4" = _KKYEtHO8;
         "pkg-1.1.5" = _M9obSuUl;
         "pkg-2.0.0" = _z1XBbf7x;
-        "default" = _z1XBbf7x;
+        "pkg-2.0.1" = _WPdDFu77;
+        "default" = _WPdDFu77;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mm-modern-mayhem";

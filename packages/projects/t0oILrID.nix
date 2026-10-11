@@ -116,6 +116,16 @@ let
             "file" = "sethomemod-1.20.1-1.0.0.jar";
             "hash" = "sha512-nM6sn89X8h/ksoxru+BzBjRBPVMtuJfmT70U2Iv9tgBt3QSTaGR6huw73ILefgSj3OEC1rUhTUPl7qRof628AQ==";
         };
+        _tUK08o5x = {
+            "id" = "tUK08o5x";
+            "file" = "tpsethome-fabric-1.21.8-1.0.0.jar";
+            "hash" = "sha512-FKxwnJjoq5z+X8rdlCg1rAdjdZFhQFnZbXyblkCkTeR/ArVoVxXNusPFILeqXEcTtguTJxvn+aZ6DuNDJlMTDw==";
+        };
+        _lASzWWlT = {
+            "id" = "lASzWWlT";
+            "file" = "tpsethome-fabric-1.21.4-1.0.1.jar";
+            "hash" = "sha512-4XGbNFJmQNyKbo286uvOrUj5zYPnn1QjLUrWozUS6E3VjPFYlFFrSm7It3cM/h46p3fvmxCaqt97tVOwLDqggQ==";
+        };
     in {
         "sFzI5gGd" = _sFzI5gGd;
         "AiUEtFXE" = _AiUEtFXE;
@@ -140,6 +150,8 @@ let
         "UzpFlJMi" = _UzpFlJMi;
         "jxXd3YSB" = _jxXd3YSB;
         "LCuSc8Wp" = _LCuSc8Wp;
+        "tUK08o5x" = _tUK08o5x;
+        "lASzWWlT" = _lASzWWlT;
         "forge-1.21.4" = _jxXd3YSB;
         "forge-1.21" = _AiUEtFXE;
         "forge-1.21.1" = _a7ihXNJX;
@@ -159,12 +171,13 @@ let
         "forge-1.18.1" = _t54SEQG6;
         "forge-1.18" = _6udD4MN3;
         "forge-1.17.1" = _3GrGJfqf;
-        "fabric-1.21.4" = _fItTeZha;
+        "fabric-1.21.4" = _lASzWWlT;
         "fabric-1.21.3" = _UzpFlJMi;
+        "fabric-1.21.8" = _tUK08o5x;
         "pkg-1.0" = _6udD4MN3;
-        "pkg-1.0.0" = _UzpFlJMi;
-        "pkg-1.0.1" = _LCuSc8Wp;
-        "default" = _LCuSc8Wp;
+        "pkg-1.0.0" = _tUK08o5x;
+        "pkg-1.0.1" = _lASzWWlT;
+        "default" = _lASzWWlT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tpsethome";

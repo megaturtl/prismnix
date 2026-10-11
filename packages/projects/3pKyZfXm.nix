@@ -41,6 +41,11 @@ let
             "file" = "pmweather_aeronautics-0.9.0b.jar";
             "hash" = "sha512-w9NssnGBaU5nIRQSUndDP0r6o+5zj4PLuKLFTrpYzECgZGy/1w8plCfLDWehwt4X0JuJ+GCzV4fqzEDlZ57rGQ==";
         };
+        _KbtGOyDN = {
+            "id" = "KbtGOyDN";
+            "file" = "pmweather_aeronautics-1.0.jar";
+            "hash" = "sha512-cScYvImMOkCBOxPFOjsNtnjwRZMGRfulPxcA+kohbWTSCXxVp/9du3KHJo7ZuSgUSSC91U3tS/yrdYCSWzdGWQ==";
+        };
     in {
         "Jg8lgOD1" = _Jg8lgOD1;
         "kdIYDeIx" = _kdIYDeIx;
@@ -50,7 +55,8 @@ let
         "d3Kf8mfj" = _d3Kf8mfj;
         "VkMc8v6M" = _VkMc8v6M;
         "WdNne2Ns" = _WdNne2Ns;
-        "neoforge-1.21.1" = _WdNne2Ns;
+        "KbtGOyDN" = _KbtGOyDN;
+        "neoforge-1.21.1" = _KbtGOyDN;
         "pkg-0.4.4" = _Jg8lgOD1;
         "pkg-0.5.9" = _kdIYDeIx;
         "pkg-0.7.0" = _mgVAw67F;
@@ -59,7 +65,8 @@ let
         "pkg-0.8.1" = _d3Kf8mfj;
         "pkg-0.8.2" = _VkMc8v6M;
         "pkg-0.9.0b" = _WdNne2Ns;
-        "default" = _WdNne2Ns;
+        "pkg-1.0" = _KbtGOyDN;
+        "default" = _KbtGOyDN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pmweather-aeronautics-compat";

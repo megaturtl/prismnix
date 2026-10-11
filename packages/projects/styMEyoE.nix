@@ -561,6 +561,11 @@ let
             "file" = "storagebox-1.4.9-26.1.jar";
             "hash" = "sha512-hAdYa8wxlFjGvOSmz4m9iNcWi74D+nCeqlc5xeRi6N3+GYeQ65AJtf7K9f0NqTvVt2iCQ3tVj9of4+ImEkSAmQ==";
         };
+        _hSIxIrq2 = {
+            "id" = "hSIxIrq2";
+            "file" = "storagebox-1.4.9-26.3.jar";
+            "hash" = "sha512-R6BENCo3y0GCrUqOOmAbiSAt7kYp0GgzxNW5LpyUTwR2BsK9MZ1GvtAOGVn0nkoLg0LWeNQcQRTi9M5eCd9hzg==";
+        };
     in {
         "sOXml339" = _sOXml339;
         "DiIKDD2E" = _DiIKDD2E;
@@ -674,6 +679,7 @@ let
         "1N4FvewE" = _1N4FvewE;
         "CbyoXpEY" = _CbyoXpEY;
         "yFLibl5o" = _yFLibl5o;
+        "hSIxIrq2" = _hSIxIrq2;
         "fabric-1.19" = _KV3eTkzf;
         "fabric-1.19.1" = _KV3eTkzf;
         "fabric-1.19.2" = _JoBhFydv;
@@ -719,6 +725,7 @@ let
         "fabric-26.1.1" = _yFLibl5o;
         "fabric-26.1.2" = _yFLibl5o;
         "fabric-26.2" = _yFLibl5o;
+        "fabric-26.3" = _hSIxIrq2;
         "legacy-fabric-1.12.2" = _2dmWAGZs;
         "legacy-fabric-1.8.9" = _IkKTIXK9;
         "pkg-1.0.7" = _sOXml339;
@@ -828,7 +835,8 @@ let
         "pkg-1.4.9-1.18.2-fabric" = _1N4FvewE;
         "pkg-1.4.9-1.20.1-fabric" = _CbyoXpEY;
         "pkg-1.4.9-26.1-fabric" = _yFLibl5o;
-        "default" = _yFLibl5o;
+        "pkg-1.4.9-26.3" = _hSIxIrq2;
+        "default" = _hSIxIrq2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "storagebox-fabric";

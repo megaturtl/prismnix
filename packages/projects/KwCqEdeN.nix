@@ -71,6 +71,21 @@ let
             "file" = "Unusual-Prehistory-2-1.20.1-1.4.3.jar";
             "hash" = "sha512-YNcofozhVCySNO8G1/SXYACguOv9sAXIIbSkswxu1Oc4b150Mx8N1jloP2vh2FU5fiQ2csbg/1JaNHpKiaLujQ==";
         };
+        _smpYqmXJ = {
+            "id" = "smpYqmXJ";
+            "file" = "Unusual-Prehistory-2-1.21.1-2.0.0-beta1.jar";
+            "hash" = "sha512-d8NKeKzZEvOdVsszw61PJ4W+xof24UbGG3ji92lPXQIdqS+FUzgEPxIF+/r/MlTUPPNX31QhAn4e2ixuOkswlw==";
+        };
+        _FlcT6bJK = {
+            "id" = "FlcT6bJK";
+            "file" = "Unusual-Prehistory-2-1.21.1-2.0.0-beta2.jar";
+            "hash" = "sha512-Dg3ox4bYRsBmHpwfTamAGuvXH9DrOiX9WEFngmfC0zarB+V6Yc9dlOFxT4SY/P1/uAOy+7hwhQ3/7sPr6AqZdA==";
+        };
+        _rK3pXSWK = {
+            "id" = "rK3pXSWK";
+            "file" = "Unusual-Prehistory-2-1.21.1-2.0.0-beta3.jar";
+            "hash" = "sha512-1+KEOQc+ksJP6MU/M/VWsGpixupf1PcKtXwlX2bBZ21EgZNrJRPrztkmW+cd1MO457IpOwJZpBEmtmjz+T4tqg==";
+        };
     in {
         "vWJfpe2k" = _vWJfpe2k;
         "dPubpyYa" = _dPubpyYa;
@@ -86,7 +101,11 @@ let
         "T369fj26" = _T369fj26;
         "HqwL93Qj" = _HqwL93Qj;
         "vqKSOCni" = _vqKSOCni;
+        "smpYqmXJ" = _smpYqmXJ;
+        "FlcT6bJK" = _FlcT6bJK;
+        "rK3pXSWK" = _rK3pXSWK;
         "forge-1.20.1" = _vqKSOCni;
+        "neoforge-1.21.1" = _rK3pXSWK;
         "pkg-1.20.1-1.0.0" = _vWJfpe2k;
         "pkg-1.20.1-1.1.0" = _dPubpyYa;
         "pkg-1.20.1-1.1.1" = _r85Bpjoe;
@@ -101,7 +120,10 @@ let
         "pkg-1.20.1-1.4.1" = _T369fj26;
         "pkg-1.20.1-1.4.2" = _HqwL93Qj;
         "pkg-1.20.1-1.4.3" = _vqKSOCni;
-        "default" = _vqKSOCni;
+        "pkg-2.0.0-beta1" = _smpYqmXJ;
+        "pkg-2.0.0-beta2" = _FlcT6bJK;
+        "pkg-2.0.0-beta3" = _rK3pXSWK;
+        "default" = _rK3pXSWK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "unusual-prehistory-2";

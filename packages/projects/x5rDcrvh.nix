@@ -131,6 +131,16 @@ let
             "file" = "skull-portable-1.3.3-mc26.2.jar";
             "hash" = "sha512-vPg8zrO8VxoKwk9KVj0xg20KM8o6JFx65yR0Ultz0jEeTLa5I3V1B+ZZBzVCSvnML8RZ8VQJ6dvCET0yOZrRpA==";
         };
+        _iVVgIoCY = {
+            "id" = "iVVgIoCY";
+            "file" = "Skull+[Portable]+v1.3.4-mc26.3.zip";
+            "hash" = "sha512-y4saRxTkr15NyB9sRGjP+SWF4ZwrkXDUxsbgyRhHxjfJvGfOJ2rN5FTY6O5uFbWr3UYICAm+1eF2ardSUD86zg==";
+        };
+        _pZIp2fjv = {
+            "id" = "pZIp2fjv";
+            "file" = "skull-portable-1.3.4-mc26.3.jar";
+            "hash" = "sha512-t6MA2cFqvts0QEOpe5bWjhr2TLa59YkIxaLh+vdYkw6TnBaoVanbILHwW7Q6Ti2rGeXePdoyO45UCQyDjscSng==";
+        };
     in {
         "DWTBy4tI" = _DWTBy4tI;
         "dXNpAvxG" = _dXNpAvxG;
@@ -158,6 +168,8 @@ let
         "HSrHhJRQ" = _HSrHhJRQ;
         "Ko0EIODV" = _Ko0EIODV;
         "B2zjsmvY" = _B2zjsmvY;
+        "iVVgIoCY" = _iVVgIoCY;
+        "pZIp2fjv" = _pZIp2fjv;
         "datapack-1.19" = _DWTBy4tI;
         "datapack-1.19.1" = _DWTBy4tI;
         "datapack-1.19.2" = _DWTBy4tI;
@@ -185,6 +197,7 @@ let
         "datapack-26.1.1" = _R1bwjhSS;
         "datapack-26.1.2" = _R1bwjhSS;
         "datapack-26.2" = _Ko0EIODV;
+        "datapack-26.3" = _iVVgIoCY;
         "fabric-1.21" = _Y1LagbDB;
         "fabric-1.21.1" = _Y1LagbDB;
         "fabric-1.21.2" = _8vzoJ9dy;
@@ -201,6 +214,7 @@ let
         "fabric-26.1.1" = _HSrHhJRQ;
         "fabric-26.1.2" = _HSrHhJRQ;
         "fabric-26.2" = _B2zjsmvY;
+        "fabric-26.3" = _pZIp2fjv;
         "forge-1.21" = _Y1LagbDB;
         "forge-1.21.1" = _Y1LagbDB;
         "forge-1.21.2" = _8vzoJ9dy;
@@ -217,6 +231,7 @@ let
         "forge-26.1.1" = _HSrHhJRQ;
         "forge-26.1.2" = _HSrHhJRQ;
         "forge-26.2" = _B2zjsmvY;
+        "forge-26.3" = _pZIp2fjv;
         "quilt-1.21" = _Y1LagbDB;
         "quilt-1.21.1" = _Y1LagbDB;
         "quilt-1.21.2" = _8vzoJ9dy;
@@ -233,6 +248,7 @@ let
         "quilt-26.1.1" = _HSrHhJRQ;
         "quilt-26.1.2" = _HSrHhJRQ;
         "quilt-26.2" = _B2zjsmvY;
+        "quilt-26.3" = _pZIp2fjv;
         "neoforge-1.21.2" = _8vzoJ9dy;
         "neoforge-1.21.3" = _8vzoJ9dy;
         "neoforge-1.21.4" = _6zN5hzlh;
@@ -247,6 +263,7 @@ let
         "neoforge-26.1.1" = _HSrHhJRQ;
         "neoforge-26.1.2" = _HSrHhJRQ;
         "neoforge-26.2" = _B2zjsmvY;
+        "neoforge-26.3" = _pZIp2fjv;
         "pkg-1.0" = _DWTBy4tI;
         "pkg-1.1" = _dXNpAvxG;
         "pkg-1.1+1.20.4" = _V54kMtlS;
@@ -273,7 +290,9 @@ let
         "pkg-1.3.3-mc26.1+mod" = _HSrHhJRQ;
         "pkg-1.3.3-mc26.2" = _Ko0EIODV;
         "pkg-1.3.3-mc26.2+mod" = _B2zjsmvY;
-        "default" = _B2zjsmvY;
+        "pkg-1.3.4-mc26.3" = _iVVgIoCY;
+        "pkg-1.3.4-mc26.3+mod" = _pZIp2fjv;
+        "default" = _pZIp2fjv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skull-portable";

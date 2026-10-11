@@ -946,6 +946,21 @@ let
             "file" = "usefulhats-fabric-26.2-7.2.2.0.jar";
             "hash" = "sha512-3gs8CBusYC45nQX/nT4kjtUXAYks1dNEKTK+PSOvMoux3uEVCema9zlEi0K1fiP9NkCXyIaD53FyDmoMjPj1Iw==";
         };
+        _IPRvkhgk = {
+            "id" = "IPRvkhgk";
+            "file" = "usefulhats-fabric-26.3-7.3.0.0.jar";
+            "hash" = "sha512-7mD5A3MFS+77Zux2wvqNcR24OAgjl7z2vWdpIDUm5IrPWMpIbVWrKmIUz1EoUQfBLfgc1UxxTmlKvnY8olbGsQ==";
+        };
+        _tLA1H06p = {
+            "id" = "tLA1H06p";
+            "file" = "usefulhats-neoforge-26.3-7.3.0.0.jar";
+            "hash" = "sha512-+MrRXoXxgaNd65C48otGf6cwZbL7XGAwymXc4Ck47gpay1z0VWGZnI6gmhpUVdrvMgbkzdxo6ZfnnSHZBcEOrw==";
+        };
+        _9PclP6Is = {
+            "id" = "9PclP6Is";
+            "file" = "usefulhats-forge-26.3-7.3.0.0.jar";
+            "hash" = "sha512-bg/88LPA+7fibl6LZFsBFs7q5ka8bTP2OEpvoptIdfMLcAi9bJBM7ZPjWR6YR1JT/e48dT3C0GPJvTebkTLI6w==";
+        };
     in {
         "R0SPYk0g" = _R0SPYk0g;
         "YQFWRyuR" = _YQFWRyuR;
@@ -1136,6 +1151,9 @@ let
         "xtxsuZOi" = _xtxsuZOi;
         "x8Yo9F3l" = _x8Yo9F3l;
         "foJtZrGc" = _foJtZrGc;
+        "IPRvkhgk" = _IPRvkhgk;
+        "tLA1H06p" = _tLA1H06p;
+        "9PclP6Is" = _9PclP6Is;
         "forge-1.14.4" = _R0SPYk0g;
         "forge-1.15.2" = _YQFWRyuR;
         "forge-1.16.5" = _s6sgfIn6;
@@ -1162,6 +1180,7 @@ let
         "forge-26.1.1" = _LG2HYKUc;
         "forge-26.1.2" = _xLG0Cw43;
         "forge-26.2" = _x8Yo9F3l;
+        "forge-26.3" = _9PclP6Is;
         "neoforge-1.20.1" = _uqhIDxIP;
         "neoforge-1.20.4" = _JMFZip7W;
         "neoforge-1.20.6" = _86DnZ8m5;
@@ -1180,6 +1199,7 @@ let
         "neoforge-26.1.1" = _cPpWYXBr;
         "neoforge-26.1.2" = _o6DxoXVP;
         "neoforge-26.2" = _xtxsuZOi;
+        "neoforge-26.3" = _tLA1H06p;
         "fabric-1.20.4" = _6Xy99Xk4;
         "fabric-1.20.6" = _PqoxXkXa;
         "fabric-1.21" = _8vVfygLq;
@@ -1196,6 +1216,7 @@ let
         "fabric-26.1.1" = _gfivbivv;
         "fabric-26.1.2" = _CCX6mc6m;
         "fabric-26.2" = _foJtZrGc;
+        "fabric-26.3" = _IPRvkhgk;
         "quilt-1.20.4" = _6Xy99Xk4;
         "quilt-1.20.6" = _PqoxXkXa;
         "quilt-1.21" = _8vVfygLq;
@@ -1212,6 +1233,7 @@ let
         "quilt-26.1.1" = _gfivbivv;
         "quilt-26.1.2" = _CCX6mc6m;
         "quilt-26.2" = _foJtZrGc;
+        "quilt-26.3" = _IPRvkhgk;
         "pkg-1.9.2" = _YQFWRyuR;
         "pkg-1.16.5-1.10.1.0" = _s6sgfIn6;
         "pkg-1.17.1-2.0.1.0" = _vD6vsn21;
@@ -1283,7 +1305,8 @@ let
         "pkg-26.2-7.2.0.0" = _uB7qEyLO;
         "pkg-26.2-7.2.1.0" = _Huf1AZtc;
         "pkg-26.2-7.2.2.0" = _foJtZrGc;
-        "default" = _foJtZrGc;
+        "pkg-26.3-7.3.0.0" = _9PclP6Is;
+        "default" = _9PclP6Is;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "useful-hats";

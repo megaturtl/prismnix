@@ -231,6 +231,16 @@ let
             "file" = "DiagonalWalls-v26.2.0-mc26.2.x-NeoForge.jar";
             "hash" = "sha512-7q2QxNSPaUBoL6uWYLK1CGlD9T/PNAvBLCaeN7MVfeElCCPXq3MAlJAcsGeCdMoa7E8+G5SC7D1ZisR2pksfzw==";
         };
+        _o4zUnUre = {
+            "id" = "o4zUnUre";
+            "file" = "diagonalwalls-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-V1cFsBmBmKWizpBPEq3PaNCrY0BcVCpjEWCadMcNkURbmKBQJifheCpqdStwpdVd9ZKGfk3SdMMlGExpDgGF0g==";
+        };
+        _CAYmlgJX = {
+            "id" = "CAYmlgJX";
+            "file" = "diagonalwalls-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-OLpdqXQl5zmruLg9uf0aBeeRFi382BLFFIyrbnEVsTo1meMKPLltoPSdC4M49Ul9ja9ivUVpcd/BdA7Q9VeSPg==";
+        };
     in {
         "AXvzAJvq" = _AXvzAJvq;
         "Gvfy03pJ" = _Gvfy03pJ;
@@ -278,6 +288,8 @@ let
         "lLuopUKw" = _lLuopUKw;
         "CPViyp2m" = _CPViyp2m;
         "4WnDY9hd" = _4WnDY9hd;
+        "o4zUnUre" = _o4zUnUre;
+        "CAYmlgJX" = _CAYmlgJX;
         "forge-1.20.1" = _ISQPtPH5;
         "forge-1.20.4" = _2isYdFws;
         "fabric-1.20.1" = _uAsQHTvk;
@@ -297,6 +309,7 @@ let
         "fabric-26.1.1" = _lLuopUKw;
         "fabric-26.1.2" = _lLuopUKw;
         "fabric-26.2" = _CPViyp2m;
+        "fabric-26.3" = _o4zUnUre;
         "neoforge-1.20.4" = _Oyq299Iq;
         "neoforge-1.21" = _m23IrUei;
         "neoforge-1.21.1" = _2k3GCxEt;
@@ -313,6 +326,7 @@ let
         "neoforge-26.1.1" = _Z0E1ude9;
         "neoforge-26.1.2" = _Z0E1ude9;
         "neoforge-26.2" = _4WnDY9hd;
+        "neoforge-26.3" = _CAYmlgJX;
         "pkg-v8.0.2-1.20.1-Forge" = _AXvzAJvq;
         "pkg-v8.0.2-1.20.1-Fabric" = _Gvfy03pJ;
         "pkg-v20.4.0-1.20.4-Fabric" = _gGVNDQnJ;
@@ -353,7 +367,8 @@ let
         "pkg-21.11.1" = _OdHaQ8ZU;
         "pkg-26.1.0" = _lLuopUKw;
         "pkg-26.2.0" = _4WnDY9hd;
-        "default" = _4WnDY9hd;
+        "pkg-26.3.0" = _CAYmlgJX;
+        "default" = _CAYmlgJX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "diagonal-walls";

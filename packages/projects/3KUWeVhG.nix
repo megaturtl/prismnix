@@ -526,6 +526,26 @@ let
             "file" = "veil-fabric-1.21.1-4.5.0.jar";
             "hash" = "sha512-aXGO0jAeLQiS/0h87xUqwdrk4yN9sjdhgE/08zJa+i+3monhiRQkyN/uoEyNebm5lfdmAIAb5+MdHrt81XDEzQ==";
         };
+        _aVvFKGJZ = {
+            "id" = "aVvFKGJZ";
+            "file" = "veil-neoforge-1.21.1-4.5.1.jar";
+            "hash" = "sha512-ZHAqxMVX2kJEsqmqp7pGF0Okert90bnUx37xyzprdFRPB8XEnmUKMjMsi0B9JPrN1NpMD12DuAflyKp070iosg==";
+        };
+        _CDwhHtxo = {
+            "id" = "CDwhHtxo";
+            "file" = "veil-fabric-1.21.1-4.5.1.jar";
+            "hash" = "sha512-8oCowOz+9OJDYQeRu1bTcKXUUKBURZP3ruzSRLsRjhxNZjtLDrLH65fjChlZ96CIQ9SxJEz5ZBiLcLDBQYoRqA==";
+        };
+        _IpGnlNgK = {
+            "id" = "IpGnlNgK";
+            "file" = "veil-neoforge-1.21.1-4.5.2.jar";
+            "hash" = "sha512-BG3htFuUQxxPq6TdFrVZSRpDNkSh6hqn4e3ypcN73oXRkrvzYil9SkoEuKskuptvnscqhPjeOv/bh7xy1SqowQ==";
+        };
+        _IPPpMp5P = {
+            "id" = "IPPpMp5P";
+            "file" = "veil-fabric-1.21.1-4.5.2.jar";
+            "hash" = "sha512-wHvglg9B3SzGm/ENimltj2M2NbqDr/Ez5d2+3rCYpuyCWxdAKB12y3qgXM0yDliPPO3pinHZSJp+1rL2c1fpzw==";
+        };
     in {
         "6heJsUtf" = _6heJsUtf;
         "CFZtfvMS" = _CFZtfvMS;
@@ -632,8 +652,12 @@ let
         "2u2pRGbA" = _2u2pRGbA;
         "NJrA7V8Y" = _NJrA7V8Y;
         "XHuGsrEm" = _XHuGsrEm;
-        "neoforge-1.21.1" = _NJrA7V8Y;
-        "fabric-1.21.1" = _XHuGsrEm;
+        "aVvFKGJZ" = _aVvFKGJZ;
+        "CDwhHtxo" = _CDwhHtxo;
+        "IpGnlNgK" = _IpGnlNgK;
+        "IPPpMp5P" = _IPPpMp5P;
+        "neoforge-1.21.1" = _IpGnlNgK;
+        "fabric-1.21.1" = _IPPpMp5P;
         "pkg-1.2.0" = _CFZtfvMS;
         "pkg-1.2.1" = _kVKbd9na;
         "pkg-1.2.2" = _F244pVA9;
@@ -687,7 +711,9 @@ let
         "pkg-4.4.1" = _rnLS9mlB;
         "pkg-4.4.2" = _2u2pRGbA;
         "pkg-4.5.0" = _XHuGsrEm;
-        "default" = _XHuGsrEm;
+        "pkg-4.5.1" = _CDwhHtxo;
+        "pkg-4.5.2" = _IPPpMp5P;
+        "default" = _IPPpMp5P;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "veil";

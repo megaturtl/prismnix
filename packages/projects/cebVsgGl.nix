@@ -66,6 +66,11 @@ let
             "file" = "free_look_neoforge 26.2 V11.jar";
             "hash" = "sha512-M5YfuWGbe5tJIfs3iCJsvamTe4TB5cLPg+6IppXWI79nUMazgynrGrdQGJcNHUeTibEgL0qjbUwGPT2lFFwdNA==";
         };
+        _fhprZsjZ = {
+            "id" = "fhprZsjZ";
+            "file" = "free_look_neoforge 26.3 V11.jar";
+            "hash" = "sha512-W9yXeNbdedC5lVpmMVYwqcDniMu+RACU5Du1+jsHjo7HesYgxIAygAdboKgr4oc5dhKuahMcHvl6kpCdWlq9VQ==";
+        };
     in {
         "wvq1YrRD" = _wvq1YrRD;
         "kd7Ty57x" = _kd7Ty57x;
@@ -80,6 +85,7 @@ let
         "1jzb42Hl" = _1jzb42Hl;
         "2JKtDgXZ" = _2JKtDgXZ;
         "VFA4bV8p" = _VFA4bV8p;
+        "fhprZsjZ" = _fhprZsjZ;
         "neoforge-1.20.2" = _wvq1YrRD;
         "neoforge-1.20.3" = _wvq1YrRD;
         "neoforge-1.20.4" = _wvq1YrRD;
@@ -101,8 +107,9 @@ let
         "neoforge-26.1.1" = _2JKtDgXZ;
         "neoforge-26.1.2" = _2JKtDgXZ;
         "neoforge-26.2" = _VFA4bV8p;
-        "pkg-11" = _VFA4bV8p;
-        "default" = _VFA4bV8p;
+        "neoforge-26.3" = _fhprZsjZ;
+        "pkg-11" = _fhprZsjZ;
+        "default" = _fhprZsjZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "free-look-perspective-mod";

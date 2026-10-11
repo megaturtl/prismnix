@@ -96,6 +96,26 @@ let
             "file" = "hybrid_delights-forge-1.20.1-1.3.2.jar";
             "hash" = "sha512-i4pQOR+27vSmdAvsLBi+vGsaX1/p0jq8rg/S/UzHQkKu1GWiGcATz2jxi/S21rXHOCR15T+gQxpMAA36iAWE6A==";
         };
+        _aFrWmExD = {
+            "id" = "aFrWmExD";
+            "file" = "hybrid_delights-forge-1.20.1-1.3.3.jar";
+            "hash" = "sha512-73hIDwL97734cJfu2DAeRc8/rN8awwTiJBuqHndPrD+pq6Bl2oH0E2UzPmWS1jwovlP3imEo3AoC6fVQXnIvNw==";
+        };
+        _CxfaOy78 = {
+            "id" = "CxfaOy78";
+            "file" = "hybrid_delights-fabric-1.20.1-1.3.3.jar";
+            "hash" = "sha512-8CEoFWWr9AP5DEw/Vb9SJZNhH0JvePjvO4HE6Qolpie00JtWNDJf+ymvxP1utuxDTt6RIWaasbvrHhvmoTBGcQ==";
+        };
+        _2Y8mbfNF = {
+            "id" = "2Y8mbfNF";
+            "file" = "hybrid_delights-fabric-1.21.1-1.3.3.jar";
+            "hash" = "sha512-uWIuqLjM0pECrxr8Pb+flIq44AHUqrQoQ61KiHCgvSn6zyfnugpiS3Fo/9/5aAcKThRoe4tJ/ymGAsNTNIflcQ==";
+        };
+        _wKUXdKVV = {
+            "id" = "wKUXdKVV";
+            "file" = "hybrid_delights-neoforge-1.21.1-1.3.3.jar";
+            "hash" = "sha512-iQOkLAwdC8gT7FI2a/6stCsa0LlmHlyhIpml/as8xVkpQRUjxJA7+crjTLSHy9etboF9AMbz9h1GC1L5AAsKCg==";
+        };
     in {
         "Zzj8bbWh" = _Zzj8bbWh;
         "nyYS5l4Z" = _nyYS5l4Z;
@@ -116,10 +136,14 @@ let
         "EWG79mn9" = _EWG79mn9;
         "pjvOEZaw" = _pjvOEZaw;
         "ckxeXjou" = _ckxeXjou;
-        "fabric-1.20.1" = _pjvOEZaw;
-        "fabric-1.21.1" = _EWG79mn9;
-        "forge-1.20.1" = _ckxeXjou;
-        "neoforge-1.21.1" = _Xn5jgrRp;
+        "aFrWmExD" = _aFrWmExD;
+        "CxfaOy78" = _CxfaOy78;
+        "2Y8mbfNF" = _2Y8mbfNF;
+        "wKUXdKVV" = _wKUXdKVV;
+        "fabric-1.20.1" = _CxfaOy78;
+        "fabric-1.21.1" = _2Y8mbfNF;
+        "forge-1.20.1" = _aFrWmExD;
+        "neoforge-1.21.1" = _wKUXdKVV;
         "pkg-1.0" = _Zzj8bbWh;
         "pkg-1.1" = _nyYS5l4Z;
         "pkg-1.2.0-forge" = _vYO8BOsc;
@@ -137,7 +161,11 @@ let
         "pkg-mc1.21.1-1.3.1-fabric" = _EWG79mn9;
         "pkg-mc1.20.1-1.3.2-fabric" = _pjvOEZaw;
         "pkg-mc1.20.1-1.3.2-forge" = _ckxeXjou;
-        "default" = _ckxeXjou;
+        "pkg-mc1.20.1-1.3.3-forge" = _aFrWmExD;
+        "pkg-mc1.20.1-1.3.3-fabric" = _CxfaOy78;
+        "pkg-mc1.21.1-1.3.3-fabric" = _2Y8mbfNF;
+        "pkg-mc1.21.1-1.3.3-neoforge" = _wKUXdKVV;
+        "default" = _wKUXdKVV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hybrid-delights";

@@ -106,6 +106,11 @@ let
             "file" = "createteleporters-remastered-2.0.2b-forge-1.19.2.jar";
             "hash" = "sha512-7lQwRnCZ5utJNHN/gUb/MgykPvi0WU5A093Dn2O7+CxNjB3dFVm7d9NeTrUMP6FrbUmS46+ItVi53B3YVWdaGg==";
         };
+        _UUcMCp4b = {
+            "id" = "UUcMCp4b";
+            "file" = "createteleporters-3.0-1.21.1.jar";
+            "hash" = "sha512-RpF8VnOJbb3yRr2/yxe/VI0WoxiWPbHtsU0Jq4HBmEypwpXGRk9V6Dld0MOXjClmkUwY2uMBpK5mx8favFMQgA==";
+        };
     in {
         "FuRcr5uF" = _FuRcr5uF;
         "GbVnAIrz" = _GbVnAIrz;
@@ -128,11 +133,12 @@ let
         "vA28X1Ax" = _vA28X1Ax;
         "gMBCo1Df" = _gMBCo1Df;
         "rD2xNEsj" = _rD2xNEsj;
+        "UUcMCp4b" = _UUcMCp4b;
         "forge-1.19.2" = _rD2xNEsj;
         "forge-1.18.2" = _2da2ZMTN;
         "forge-1.20.1" = _vA28X1Ax;
         "forge-1.19.4" = _o0u6oGzm;
-        "neoforge-1.21.1" = _gMBCo1Df;
+        "neoforge-1.21.1" = _UUcMCp4b;
         "pkg-0.6.1" = _GbVnAIrz;
         "pkg-1.1" = _2da2ZMTN;
         "pkg-2.2" = _o0u6oGzm;
@@ -148,7 +154,8 @@ let
         "pkg-2.0.1d" = _YdLorxla;
         "pkg-2.0.2a" = _QbGl5i0l;
         "pkg-2.0.2b" = _rD2xNEsj;
-        "default" = _rD2xNEsj;
+        "pkg-3.0.0" = _UUcMCp4b;
+        "default" = _UUcMCp4b;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-teleporters";

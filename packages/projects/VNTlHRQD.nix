@@ -236,6 +236,16 @@ let
             "file" = "more_potion_effects-3.2.0-1.21.1-.jar";
             "hash" = "sha512-SEbrv60w3WEnY5dqX3R0pMrL3JsiKHhhiEJ07jtUGgOKml1p9lfsqCkqCNg5w0uyfRhYsUmjyAzF3RREE8JJPg==";
         };
+        _HeDIDM8z = {
+            "id" = "HeDIDM8z";
+            "file" = "more_potion_effects-2.6.1-forge-1.20.1.jar";
+            "hash" = "sha512-MCIwTmEnWPHzC6aLIMjLIk7QyG6QcFj1m64Q77XqJbMS+gGooULn/lmfzCWqpxf4iIO1nxrgPPlCjiXzscAJdg==";
+        };
+        _pjz6Nw2P = {
+            "id" = "pjz6Nw2P";
+            "file" = "more_potion_effects-3.2.1.jar";
+            "hash" = "sha512-6iYhqkkGLw93VbrUiT39Dtlq346HK/H+iiN5/JmNrxRgMrCK9ZFkC22ZoV05MWnVXzS++ObYmLitPNqebpIA5w==";
+        };
     in {
         "NlO26K8A" = _NlO26K8A;
         "XWB2HTlM" = _XWB2HTlM;
@@ -284,10 +294,12 @@ let
         "WXacFSW4" = _WXacFSW4;
         "u6V4l38W" = _u6V4l38W;
         "fRSfRVRJ" = _fRSfRVRJ;
+        "HeDIDM8z" = _HeDIDM8z;
+        "pjz6Nw2P" = _pjz6Nw2P;
         "forge-1.19.2" = _NKoJkl1l;
-        "forge-1.20.1" = _u6V4l38W;
+        "forge-1.20.1" = _HeDIDM8z;
         "neoforge-1.21" = _Fxp3zKAI;
-        "neoforge-1.21.1" = _fRSfRVRJ;
+        "neoforge-1.21.1" = _pjz6Nw2P;
         "pkg-1.1.2" = _NlO26K8A;
         "pkg-1.1.3" = _XWB2HTlM;
         "pkg-1.1.4" = _2iP10uA1;
@@ -331,7 +343,9 @@ let
         "pkg-3.1.2" = _WXacFSW4;
         "pkg-2.6.0" = _u6V4l38W;
         "pkg-3.2.0" = _fRSfRVRJ;
-        "default" = _fRSfRVRJ;
+        "pkg-2.6.1" = _HeDIDM8z;
+        "pkg-3.2.1" = _pjz6Nw2P;
+        "default" = _pjz6Nw2P;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-potion-effects";

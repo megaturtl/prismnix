@@ -16,10 +16,16 @@ let
             "file" = "AutoTotem-1.4.jar";
             "hash" = "sha512-NLL3OHHnJLiVYrJrItLhIn4l/YGCwUUeyv3cDwQcYw6GLofEJNaIq+gA6dtLJHcWqvNZBlzVxL2i4TWwMFyBTg==";
         };
+        _r9IwH4OQ = {
+            "id" = "r9IwH4OQ";
+            "file" = "autototem-1.5.0.jar";
+            "hash" = "sha512-7lagiPJCN1LvM8GypVKh+oIplK3N0E9+nYQInLlnPA+jEUx2W8TtCAcnIeKfDeA/aaeU/uSLCJqBVla8UORNRg==";
+        };
     in {
         "LFrIjzRg" = _LFrIjzRg;
         "6vmjiCEO" = _6vmjiCEO;
         "M6bJhnYC" = _M6bJhnYC;
+        "r9IwH4OQ" = _r9IwH4OQ;
         "fabric-1.21" = _LFrIjzRg;
         "fabric-1.21.1" = _LFrIjzRg;
         "fabric-1.21.2" = _LFrIjzRg;
@@ -36,10 +42,12 @@ let
         "fabric-26.1.1" = _6vmjiCEO;
         "fabric-26.1.2" = _6vmjiCEO;
         "fabric-26.2" = _M6bJhnYC;
+        "fabric-26.3" = _r9IwH4OQ;
         "pkg-1.0.1" = _LFrIjzRg;
         "pkg-1.3" = _6vmjiCEO;
         "pkg-1.4" = _M6bJhnYC;
-        "default" = _M6bJhnYC;
+        "pkg-1.5" = _r9IwH4OQ;
+        "default" = _r9IwH4OQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "auto-totem-optimized";

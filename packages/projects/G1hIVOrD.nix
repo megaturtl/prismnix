@@ -1176,6 +1176,26 @@ let
             "file" = "ResourcefulLib-5.0.4.jar";
             "hash" = "sha512-b3I0TvROsYWudtTlyj+taF63r2bxK13/CZXEFBV7WXDpi4t3l5m02KB3d92QDOnbqGk3ptnISm+ey6wN3/TE7w==";
         };
+        _JUyhtNk0 = {
+            "id" = "JUyhtNk0";
+            "file" = "ResourcefulLib-6.0.0.jar";
+            "hash" = "sha512-uZ5UI1RwryfGEV/XB0zdNLF4R/z0XZ/oxXLzQqIRN0Srd2y05fWyG4LRNdHOTBeVAIzXwVYKKdtIb9Yuk8J16A==";
+        };
+        _cNHatNw3 = {
+            "id" = "cNHatNw3";
+            "file" = "ResourcefulLib-6.0.0.jar";
+            "hash" = "sha512-XthwOzUvjIXsSo/FfwbZAck/ATGqbxiN2Nnb2WKPUBZHhHwBdkZFJiVVYB55kPiZPZ8gjhObUPrrDcQb5Q3wxg==";
+        };
+        _g9rQSbAF = {
+            "id" = "g9rQSbAF";
+            "file" = "ResourcefulLib-6.0.1.jar";
+            "hash" = "sha512-79VtZQJZt/3wyJasi50GmcLxHCueZKSEgSdH8llBNt/skSSx0SkQkKtJk4j9wibHpegWPkcewoHmkqIrTImktg==";
+        };
+        _P6Jq77km = {
+            "id" = "P6Jq77km";
+            "file" = "ResourcefulLib-6.0.1.jar";
+            "hash" = "sha512-mFD5LVm+uJ6MPoylXlaqzdQlAMTm9WBgfilUnjmY9skS4IvG7FNQdkdRztap14IcTmxUX7YZTooNCsERwhjNhw==";
+        };
     in {
         "G3lV8OVP" = _G3lV8OVP;
         "jLKGuA57" = _jLKGuA57;
@@ -1412,6 +1432,10 @@ let
         "NzjejPQX" = _NzjejPQX;
         "clkeiC1C" = _clkeiC1C;
         "4BbCbnE6" = _4BbCbnE6;
+        "JUyhtNk0" = _JUyhtNk0;
+        "cNHatNw3" = _cNHatNw3;
+        "g9rQSbAF" = _g9rQSbAF;
+        "P6Jq77km" = _P6Jq77km;
         "fabric-1.19.2" = _mxiPijSw;
         "fabric-1.19.3" = _9bpCfetJ;
         "fabric-1.19.4" = _7wv4Al4f;
@@ -1437,6 +1461,7 @@ let
         "fabric-26.1.1" = _sOEhLVuw;
         "fabric-26.1.2" = _sOEhLVuw;
         "fabric-26.2" = _4BbCbnE6;
+        "fabric-26.3" = _P6Jq77km;
         "forge-1.19.2" = _VdgtVVWP;
         "forge-1.19.3" = _l33ODpNh;
         "forge-1.19.4" = _tNPUniqQ;
@@ -1464,6 +1489,7 @@ let
         "neoforge-26.1.1" = _B94F6bCN;
         "neoforge-26.1.2" = _B94F6bCN;
         "neoforge-26.2" = _clkeiC1C;
+        "neoforge-26.3" = _g9rQSbAF;
         "pkg-1.1.15" = _jLKGuA57;
         "pkg-1.1.16" = _3NarDN4b;
         "pkg-1.1.17" = _Dg7CZBnx;
@@ -1576,7 +1602,9 @@ let
         "pkg-5.0.3" = _SmfwDCLg;
         "pkg-3.11.1" = _NzjejPQX;
         "pkg-5.0.4" = _4BbCbnE6;
-        "default" = _4BbCbnE6;
+        "pkg-6.0.0" = _cNHatNw3;
+        "pkg-6.0.1" = _P6Jq77km;
+        "default" = _P6Jq77km;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "resourceful-lib";

@@ -1056,6 +1056,56 @@ let
             "file" = "enchantwithmob-26.3-36.0.0.jar";
             "hash" = "sha512-X0tfejXGOn8rtgTQ0H7FP/2hdOIi9ju2CE6P4lqW6hCzc77zEBeI2c9hN/zq/J7RVTod4cxiDf5OPIj/EOjBeA==";
         };
+        _TvCNduMm = {
+            "id" = "TvCNduMm";
+            "file" = "enchantwithmob-1.21.1-21.4.0.jar";
+            "hash" = "sha512-fkaNBYVfeUT4Xk2c0YYyosJhRsh3OACUv4y50WkJzH62kMwRx6A1ScwLGKP5VH1WbBnYUbyHy8GIjidkDfePsw==";
+        };
+        _CP73kPj4 = {
+            "id" = "CP73kPj4";
+            "file" = "enchantwithmob-26.1.2-34.3.0.jar";
+            "hash" = "sha512-VItzHT7ZC6AfyM25SBhDbQxQHDE3WjQ5sjf7+0NtJJKZZNCXsHqOmDx1fLosVkcnlZwH4/im1imkCHreNE3AGA==";
+        };
+        _4gVAzhym = {
+            "id" = "4gVAzhym";
+            "file" = "enchantwithmob-26.2-35.3.0.jar";
+            "hash" = "sha512-wLT0XP0VWFXOWBqFHLdEL2X5pIuLUwNDaDMKWHAq7eew6Yq/HXC9htzSTN1h1EtO4y4Y/9rrm7u5ar3fLLQ8tQ==";
+        };
+        _5kDHse10 = {
+            "id" = "5kDHse10";
+            "file" = "enchantwithmob-26.3-36.1.0.jar";
+            "hash" = "sha512-dUAlUvioyac/uJYRG+0NiNJU9aWsLUPgz2aZXxmznF6cHZ06Yag8d30LXpKSW5ebk6GMiWBkCJqLvuwnsW94Tg==";
+        };
+        _pmekp40H = {
+            "id" = "pmekp40H";
+            "file" = "enchantwithmob-26.3-36.2.0.jar";
+            "hash" = "sha512-UUt87Rp9+RF9fzwLBWJEyWnscYMoboALsXH4+LLgsj9+Y2W7XxGUhjGlXBuabf6rjQUlkKk2Q0GftpYMMbBgkA==";
+        };
+        _SRb2KRc7 = {
+            "id" = "SRb2KRc7";
+            "file" = "enchantwithmob-26.3-36.3.0.jar";
+            "hash" = "sha512-FMq8dI3iKizqwVDoH55J3U0Udzq3OjbQbLaOCE7MF8M5wJxCJajPwvOOludqMRv/Fi3M8J0t2x+lr2sOWaTcDQ==";
+        };
+        _lqpkdgNQ = {
+            "id" = "lqpkdgNQ";
+            "file" = "enchantwithmob-1.21.1-21.5.0.jar";
+            "hash" = "sha512-/C2YeCG9/c8G5ixtjfVa02du5bb9jYrfpXoAN/MLDo2wWoUUMrKLlTz3frZfu0gn2/KbI2NYE7VexrO/8wuOqw==";
+        };
+        _DOaVVaw2 = {
+            "id" = "DOaVVaw2";
+            "file" = "enchantwithmob-26.1.2-34.4.0.jar";
+            "hash" = "sha512-sQOiN5PWVtLIfWof6o/QzDUfbLZjAs9hcV8EG7kspzYF3cvjD0B6ZzHiTw4JyT3Dc4+mg4YptWGkFqNsK6DXMw==";
+        };
+        _onLm6Rv2 = {
+            "id" = "onLm6Rv2";
+            "file" = "enchantwithmob-26.2-35.4.0.jar";
+            "hash" = "sha512-bvPxpPj/BVcPoC9Qj2KwCrOCgZYOWt21N4DlgZTNUGyMB0cdPV8xxY76lwOlH9R107yRFNARKEua5mGUAICArA==";
+        };
+        _lErChGMj = {
+            "id" = "lErChGMj";
+            "file" = "enchantwithmob-26.3-36.4.0.jar";
+            "hash" = "sha512-wezJflt3uW1GKMcKLevO1UXcbBUFt0uBaI6TfKa3jn96DbJaUxKvGS1xTjds+tQSB7ml04slB3VWou3jLc8Xeg==";
+        };
     in {
         "713fyJ1M" = _713fyJ1M;
         "xPi7XQvO" = _xPi7XQvO;
@@ -1268,6 +1318,16 @@ let
         "InPmJgqV" = _InPmJgqV;
         "x3fdxubY" = _x3fdxubY;
         "zke9BKtw" = _zke9BKtw;
+        "TvCNduMm" = _TvCNduMm;
+        "CP73kPj4" = _CP73kPj4;
+        "4gVAzhym" = _4gVAzhym;
+        "5kDHse10" = _5kDHse10;
+        "pmekp40H" = _pmekp40H;
+        "SRb2KRc7" = _SRb2KRc7;
+        "lqpkdgNQ" = _lqpkdgNQ;
+        "DOaVVaw2" = _DOaVVaw2;
+        "onLm6Rv2" = _onLm6Rv2;
+        "lErChGMj" = _lErChGMj;
         "forge-1.20.1" = _1UcKN8Qz;
         "forge-1.19.2" = _tzcrsKzv;
         "forge-1.18.2" = _LQQJAPgf;
@@ -1278,7 +1338,7 @@ let
         "neoforge-1.20.5" = _1Z3BGkpv;
         "neoforge-1.20.6" = _XuDAGC1l;
         "neoforge-1.21" = _aTGQ1nMd;
-        "neoforge-1.21.1" = _x3fdxubY;
+        "neoforge-1.21.1" = _lqpkdgNQ;
         "neoforge-1.21.2" = _XSUzDNAj;
         "neoforge-1.21.3" = _sIY6B7xF;
         "neoforge-1.21.4" = _2jJnbJCh;
@@ -1298,9 +1358,9 @@ let
         "neoforge-26.1-snapshot-7" = _ujL9LC8h;
         "neoforge-26.1" = _MZYzDbao;
         "neoforge-26.1.1" = _MZYzDbao;
-        "neoforge-26.1.2" = _HZhSLhpQ;
-        "neoforge-26.2" = _InPmJgqV;
-        "neoforge-26.3" = _zke9BKtw;
+        "neoforge-26.1.2" = _DOaVVaw2;
+        "neoforge-26.2" = _onLm6Rv2;
+        "neoforge-26.3" = _lErChGMj;
         "pkg-1.20.1-11.0.1" = _713fyJ1M;
         "pkg-1.19.2-7.10.1" = _xPi7XQvO;
         "pkg-1.20.1-11.1.0" = _V0JqVUtb;
@@ -1511,7 +1571,17 @@ let
         "pkg-26.2-35.2.0" = _InPmJgqV;
         "pkg-1.21.1-21.3.0" = _x3fdxubY;
         "pkg-26.3-36.0.0" = _zke9BKtw;
-        "default" = _zke9BKtw;
+        "pkg-1.21.1-21.4.0" = _TvCNduMm;
+        "pkg-26.1.2-34.3.0" = _CP73kPj4;
+        "pkg-26.2-35.3.0" = _4gVAzhym;
+        "pkg-26.3-36.1.0" = _5kDHse10;
+        "pkg-26.3-36.2.0" = _pmekp40H;
+        "pkg-26.3-36.3.0" = _SRb2KRc7;
+        "pkg-1.21.1-21.5.0" = _lqpkdgNQ;
+        "pkg-26.1.2-34.4.0" = _DOaVVaw2;
+        "pkg-26.2-35.4.0" = _onLm6Rv2;
+        "pkg-26.3-36.4.0" = _lErChGMj;
+        "default" = _lErChGMj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchantwithmob";

@@ -231,6 +231,16 @@ let
             "file" = "amethyst-shard-1.0.jar";
             "hash" = "sha512-ds27PQannwdN0ZWWlp1PYFpTEQwvJvz/jL+uYZTwk5up6ubJM0D0cypY7dUiY1/qQPwTDCmW29bWcbQfk+1UAw==";
         };
+        _SBiNuGRL = {
+            "id" = "SBiNuGRL";
+            "file" = "amethyst_shard-26.3.zip";
+            "hash" = "sha512-SQQQUJeoKvTVXM3gVUnh8GFL6u/ZHDrp9XtnkVun6s2wvswG1EmcNya8ZcRBgqqTvO0FBOKAf5bwrYLoK6bUlw==";
+        };
+        _M58NW6Nr = {
+            "id" = "M58NW6Nr";
+            "file" = "amethyst-shard-1.0.jar";
+            "hash" = "sha512-NTZPaau2EBCx3NQGPR+IZsmbQVXUsr2ug92VZAk+Bm9EcLZb59fjQsetCSsoMSXto0MRTFLLUFdYR/IXfZXfug==";
+        };
     in {
         "F0o03WN3" = _F0o03WN3;
         "riG85l8N" = _riG85l8N;
@@ -278,6 +288,8 @@ let
         "3Qhzmgy0" = _3Qhzmgy0;
         "9bMfo64y" = _9bMfo64y;
         "bTS46K5L" = _bTS46K5L;
+        "SBiNuGRL" = _SBiNuGRL;
+        "M58NW6Nr" = _M58NW6Nr;
         "datapack-1.17" = _F0o03WN3;
         "datapack-1.17.1" = _F0o03WN3;
         "datapack-1.18" = _riG85l8N;
@@ -330,6 +342,7 @@ let
         "datapack-26.2-snapshot-2" = _A9huebd7;
         "datapack-26.2" = _9bMfo64y;
         "datapack-26.3-snapshot-1" = _9bMfo64y;
+        "datapack-26.3" = _SBiNuGRL;
         "fabric-1.17" = _gCXEvrns;
         "fabric-1.17.1" = _gCXEvrns;
         "fabric-1.18" = _Acp2bPwZ;
@@ -382,6 +395,7 @@ let
         "fabric-26.2-snapshot-2" = _hR0NsBiP;
         "fabric-26.2" = _bTS46K5L;
         "fabric-26.3-snapshot-1" = _bTS46K5L;
+        "fabric-26.3" = _M58NW6Nr;
         "forge-1.17" = _gCXEvrns;
         "forge-1.17.1" = _gCXEvrns;
         "forge-1.18" = _Acp2bPwZ;
@@ -434,6 +448,7 @@ let
         "forge-26.2-snapshot-2" = _hR0NsBiP;
         "forge-26.2" = _bTS46K5L;
         "forge-26.3-snapshot-1" = _bTS46K5L;
+        "forge-26.3" = _M58NW6Nr;
         "neoforge-1.17" = _gCXEvrns;
         "neoforge-1.17.1" = _gCXEvrns;
         "neoforge-1.18" = _Acp2bPwZ;
@@ -486,6 +501,7 @@ let
         "neoforge-26.2-snapshot-2" = _hR0NsBiP;
         "neoforge-26.2" = _bTS46K5L;
         "neoforge-26.3-snapshot-1" = _bTS46K5L;
+        "neoforge-26.3" = _M58NW6Nr;
         "quilt-1.17" = _gCXEvrns;
         "quilt-1.17.1" = _gCXEvrns;
         "quilt-1.18" = _Acp2bPwZ;
@@ -538,11 +554,12 @@ let
         "quilt-26.2-snapshot-2" = _hR0NsBiP;
         "quilt-26.2" = _bTS46K5L;
         "quilt-26.3-snapshot-1" = _bTS46K5L;
-        "pkg-1.0" = _9bMfo64y;
-        "pkg-1.0+mod" = _bTS46K5L;
+        "quilt-26.3" = _M58NW6Nr;
+        "pkg-1.0" = _SBiNuGRL;
+        "pkg-1.0+mod" = _M58NW6Nr;
         "pkg-1.21.1" = _Ru7q22Le;
         "pkg-1.21.1+mod" = _jX6t3uRQ;
-        "default" = _bTS46K5L;
+        "default" = _M58NW6Nr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "amethyst-shard";

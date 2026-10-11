@@ -1036,6 +1036,21 @@ let
             "file" = "mcw-paths-1.1.1-mc26.2fabric.jar";
             "hash" = "sha512-cBYZ0ZiUMmdLf/x2QuBFwiKinHxCUochEH4JszDmF55YcqkgvQDFRICUciCdjBxCWbqyixzSm4Cp1Ri8YfjvqQ==";
         };
+        _hQ1wZDL5 = {
+            "id" = "hQ1wZDL5";
+            "file" = "mcw-paths-1.1.1-mc26.3neoforge.jar";
+            "hash" = "sha512-ILcpRJlo71ApFFQEUUYFy0WGxEwtDV1hThytabQf5Sm0Y76j1EgMGRTSqPbas08W4XimjMzKE+LbBGZAxD43pA==";
+        };
+        _4BWNe0lr = {
+            "id" = "4BWNe0lr";
+            "file" = "mcw-paths-1.1.1-mc26.3forge.jar";
+            "hash" = "sha512-uISuw0ls/Q3Dmx6qljJPNNkPKYCW0g5RVHkVPawOKhQZAHIrSPf2aJ9G5IV9RBA6jDQvCSxj1k2jPi7HekMu5A==";
+        };
+        _8OfVcwHY = {
+            "id" = "8OfVcwHY";
+            "file" = "mcw-paths-1.1.1-mc26.3fabric.jar";
+            "hash" = "sha512-JlbAI0ZNTbM1UPfF7RzgXOpjo9EOtw6Tqe+1hjQ9sNyDXu/13MuB6y96dq/+Njyfl5aTuhLEoV0sfA1ze6+jNg==";
+        };
     in {
         "xIOeFajv" = _xIOeFajv;
         "dwu2U0sX" = _dwu2U0sX;
@@ -1244,6 +1259,9 @@ let
         "1jHnkpZ9" = _1jHnkpZ9;
         "bksVMKhf" = _bksVMKhf;
         "LLYA3vec" = _LLYA3vec;
+        "hQ1wZDL5" = _hQ1wZDL5;
+        "4BWNe0lr" = _4BWNe0lr;
+        "8OfVcwHY" = _8OfVcwHY;
         "forge-1.16.5" = _Kfj67KOg;
         "forge-1.17.1" = _rYYjsO2c;
         "forge-1.18.1" = _T2MLexnd;
@@ -1274,6 +1292,7 @@ let
         "forge-26.1.1" = _Z1fhbG2B;
         "forge-26.1.2" = _Z1fhbG2B;
         "forge-26.2" = _1jHnkpZ9;
+        "forge-26.3" = _4BWNe0lr;
         "fabric-1.18.2" = _AYckOdrh;
         "fabric-1.19" = _RQPmPoc6;
         "fabric-1.19.1" = _50ISFMGr;
@@ -1301,6 +1320,7 @@ let
         "fabric-26.1.1" = _Lhx6kseh;
         "fabric-26.1.2" = _Lhx6kseh;
         "fabric-26.2" = _LLYA3vec;
+        "fabric-26.3" = _8OfVcwHY;
         "neoforge-1.20.4" = _eyeuxBlF;
         "neoforge-1.20.6" = _RInvV86r;
         "neoforge-1.21" = _nr6aSdIC;
@@ -1318,13 +1338,14 @@ let
         "neoforge-26.1.1" = _5uiuhaEh;
         "neoforge-26.1.2" = _5uiuhaEh;
         "neoforge-26.2" = _bksVMKhf;
+        "neoforge-26.3" = _hQ1wZDL5;
         "pkg-1.0.3" = _bL2SAte2;
         "pkg-1.0.4" = _UBbmwW5C;
         "pkg-1.0.5" = _KpMKA33I;
         "pkg-1.1.0" = _ATtappTO;
-        "pkg-1.1.1" = _LLYA3vec;
+        "pkg-1.1.1" = _8OfVcwHY;
         "pkg-1.1.2" = _eINOtRRK;
-        "default" = _LLYA3vec;
+        "default" = _8OfVcwHY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "macaws-paths-and-pavings";

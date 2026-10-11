@@ -251,6 +251,26 @@ let
             "file" = "ender-pearl-recipes-1.0.jar";
             "hash" = "sha512-70HySA3LXM3MuskQXrmU0t6saPrOlv4ukwvLToWJrU3bLO6V2hksuUg2xlXYZt9Up+foEDcf9SUbAOZCWz037g==";
         };
+        _9KHnAOex = {
+            "id" = "9KHnAOex";
+            "file" = "ender_pearl-26.3.zip";
+            "hash" = "sha512-Te6bDdYKIftEbyJgenROtKZ6e8sMYfzsllEms5nk9JSvNPHYYCBc/33fE9LmloyCkb0qbrv8WSDAq6zqJKAGHg==";
+        };
+        _xSX3gAQH = {
+            "id" = "xSX3gAQH";
+            "file" = "ender-pearl-recipes-1.0.jar";
+            "hash" = "sha512-gj2dhFqT52U3mvWFu89VHYGFSSjrkpT4VmyJ7+4+rYadSzi21nhtP/La1mlis+XtRKgBzg3A+33bYOzYQ6Lh5Q==";
+        };
+        _NZDBvgeT = {
+            "id" = "NZDBvgeT";
+            "file" = "ender_pearl-1.19.zip";
+            "hash" = "sha512-ZpX0GzQNui8JfnGaJFQrVukn3wk7HeA7JwDTPcnCDtzPNk+fhsU89FoYFCrZeA+rZPDwldOxku8RfaENb+iKHg==";
+        };
+        _ZEAHA7nP = {
+            "id" = "ZEAHA7nP";
+            "file" = "ender-pearl-recipes-1.0.jar";
+            "hash" = "sha512-GgHQbbaOt/+zUJdIFn5qygeRHbf9XkQ6sz2yR9xdMwvgdBXKBHyDFEhRHfaIvggr12Xn7Uc0D+jrvwvJGEgTqQ==";
+        };
     in {
         "IY3KCe4W" = _IY3KCe4W;
         "lnA9laBw" = _lnA9laBw;
@@ -302,6 +322,10 @@ let
         "ymLRAX2l" = _ymLRAX2l;
         "jlEaHZK0" = _jlEaHZK0;
         "GUQ7t1qJ" = _GUQ7t1qJ;
+        "9KHnAOex" = _9KHnAOex;
+        "xSX3gAQH" = _xSX3gAQH;
+        "NZDBvgeT" = _NZDBvgeT;
+        "ZEAHA7nP" = _ZEAHA7nP;
         "datapack-1.13" = _IY3KCe4W;
         "datapack-1.13.1" = _IY3KCe4W;
         "datapack-1.13.2" = _IY3KCe4W;
@@ -323,12 +347,12 @@ let
         "datapack-1.17.1" = _u9AyEmDh;
         "datapack-1.18" = _Zs4M5fQB;
         "datapack-1.18.1" = _Zs4M5fQB;
-        "datapack-1.18.2" = _imkOSfB5;
-        "datapack-1.19" = _imkOSfB5;
-        "datapack-1.19.1" = _imkOSfB5;
-        "datapack-1.19.2" = _imkOSfB5;
-        "datapack-1.19.3" = _imkOSfB5;
-        "datapack-1.19.4" = _pYny0fcW;
+        "datapack-1.18.2" = _NZDBvgeT;
+        "datapack-1.19" = _NZDBvgeT;
+        "datapack-1.19.1" = _NZDBvgeT;
+        "datapack-1.19.2" = _NZDBvgeT;
+        "datapack-1.19.3" = _NZDBvgeT;
+        "datapack-1.19.4" = _NZDBvgeT;
         "datapack-1.20" = _pYny0fcW;
         "datapack-1.20.1" = _pYny0fcW;
         "datapack-1.20.2" = _pYny0fcW;
@@ -371,6 +395,7 @@ let
         "datapack-26.2-snapshot-2" = _bYE9vOvE;
         "datapack-26.2" = _jlEaHZK0;
         "datapack-26.3-snapshot-1" = _jlEaHZK0;
+        "datapack-26.3" = _9KHnAOex;
         "fabric-1.13" = _lnA9laBw;
         "fabric-1.13.1" = _lnA9laBw;
         "fabric-1.13.2" = _lnA9laBw;
@@ -392,12 +417,12 @@ let
         "fabric-1.17.1" = _b3lWEtvI;
         "fabric-1.18" = _J7fyjebe;
         "fabric-1.18.1" = _J7fyjebe;
-        "fabric-1.18.2" = _LM0HG1PE;
-        "fabric-1.19" = _LM0HG1PE;
-        "fabric-1.19.1" = _LM0HG1PE;
-        "fabric-1.19.2" = _LM0HG1PE;
-        "fabric-1.19.3" = _LM0HG1PE;
-        "fabric-1.19.4" = _ymLRAX2l;
+        "fabric-1.18.2" = _ZEAHA7nP;
+        "fabric-1.19" = _ZEAHA7nP;
+        "fabric-1.19.1" = _ZEAHA7nP;
+        "fabric-1.19.2" = _ZEAHA7nP;
+        "fabric-1.19.3" = _ZEAHA7nP;
+        "fabric-1.19.4" = _ZEAHA7nP;
         "fabric-1.20" = _ymLRAX2l;
         "fabric-1.20.1" = _ymLRAX2l;
         "fabric-1.20.2" = _ymLRAX2l;
@@ -440,6 +465,7 @@ let
         "fabric-26.2-snapshot-2" = _P1RbveID;
         "fabric-26.2" = _GUQ7t1qJ;
         "fabric-26.3-snapshot-1" = _GUQ7t1qJ;
+        "fabric-26.3" = _xSX3gAQH;
         "forge-1.13" = _lnA9laBw;
         "forge-1.13.1" = _lnA9laBw;
         "forge-1.13.2" = _lnA9laBw;
@@ -461,12 +487,12 @@ let
         "forge-1.17.1" = _b3lWEtvI;
         "forge-1.18" = _J7fyjebe;
         "forge-1.18.1" = _J7fyjebe;
-        "forge-1.18.2" = _LM0HG1PE;
-        "forge-1.19" = _LM0HG1PE;
-        "forge-1.19.1" = _LM0HG1PE;
-        "forge-1.19.2" = _LM0HG1PE;
-        "forge-1.19.3" = _LM0HG1PE;
-        "forge-1.19.4" = _ymLRAX2l;
+        "forge-1.18.2" = _ZEAHA7nP;
+        "forge-1.19" = _ZEAHA7nP;
+        "forge-1.19.1" = _ZEAHA7nP;
+        "forge-1.19.2" = _ZEAHA7nP;
+        "forge-1.19.3" = _ZEAHA7nP;
+        "forge-1.19.4" = _ZEAHA7nP;
         "forge-1.20" = _ymLRAX2l;
         "forge-1.20.1" = _ymLRAX2l;
         "forge-1.20.2" = _ymLRAX2l;
@@ -509,6 +535,7 @@ let
         "forge-26.2-snapshot-2" = _P1RbveID;
         "forge-26.2" = _GUQ7t1qJ;
         "forge-26.3-snapshot-1" = _GUQ7t1qJ;
+        "forge-26.3" = _xSX3gAQH;
         "neoforge-1.13" = _lnA9laBw;
         "neoforge-1.13.1" = _lnA9laBw;
         "neoforge-1.13.2" = _lnA9laBw;
@@ -530,12 +557,12 @@ let
         "neoforge-1.17.1" = _b3lWEtvI;
         "neoforge-1.18" = _J7fyjebe;
         "neoforge-1.18.1" = _J7fyjebe;
-        "neoforge-1.18.2" = _LM0HG1PE;
-        "neoforge-1.19" = _LM0HG1PE;
-        "neoforge-1.19.1" = _LM0HG1PE;
-        "neoforge-1.19.2" = _LM0HG1PE;
-        "neoforge-1.19.3" = _LM0HG1PE;
-        "neoforge-1.19.4" = _ymLRAX2l;
+        "neoforge-1.18.2" = _ZEAHA7nP;
+        "neoforge-1.19" = _ZEAHA7nP;
+        "neoforge-1.19.1" = _ZEAHA7nP;
+        "neoforge-1.19.2" = _ZEAHA7nP;
+        "neoforge-1.19.3" = _ZEAHA7nP;
+        "neoforge-1.19.4" = _ZEAHA7nP;
         "neoforge-1.20" = _ymLRAX2l;
         "neoforge-1.20.1" = _ymLRAX2l;
         "neoforge-1.20.2" = _ymLRAX2l;
@@ -578,6 +605,7 @@ let
         "neoforge-26.2-snapshot-2" = _P1RbveID;
         "neoforge-26.2" = _GUQ7t1qJ;
         "neoforge-26.3-snapshot-1" = _GUQ7t1qJ;
+        "neoforge-26.3" = _xSX3gAQH;
         "quilt-1.13" = _lnA9laBw;
         "quilt-1.13.1" = _lnA9laBw;
         "quilt-1.13.2" = _lnA9laBw;
@@ -599,12 +627,12 @@ let
         "quilt-1.17.1" = _b3lWEtvI;
         "quilt-1.18" = _J7fyjebe;
         "quilt-1.18.1" = _J7fyjebe;
-        "quilt-1.18.2" = _LM0HG1PE;
-        "quilt-1.19" = _LM0HG1PE;
-        "quilt-1.19.1" = _LM0HG1PE;
-        "quilt-1.19.2" = _LM0HG1PE;
-        "quilt-1.19.3" = _LM0HG1PE;
-        "quilt-1.19.4" = _ymLRAX2l;
+        "quilt-1.18.2" = _ZEAHA7nP;
+        "quilt-1.19" = _ZEAHA7nP;
+        "quilt-1.19.1" = _ZEAHA7nP;
+        "quilt-1.19.2" = _ZEAHA7nP;
+        "quilt-1.19.3" = _ZEAHA7nP;
+        "quilt-1.19.4" = _ZEAHA7nP;
         "quilt-1.20" = _ymLRAX2l;
         "quilt-1.20.1" = _ymLRAX2l;
         "quilt-1.20.2" = _ymLRAX2l;
@@ -647,9 +675,10 @@ let
         "quilt-26.2-snapshot-2" = _P1RbveID;
         "quilt-26.2" = _GUQ7t1qJ;
         "quilt-26.3-snapshot-1" = _GUQ7t1qJ;
-        "pkg-1.0" = _jlEaHZK0;
-        "pkg-1.0+mod" = _GUQ7t1qJ;
-        "default" = _GUQ7t1qJ;
+        "quilt-26.3" = _xSX3gAQH;
+        "pkg-1.0" = _NZDBvgeT;
+        "pkg-1.0+mod" = _ZEAHA7nP;
+        "default" = _ZEAHA7nP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ender-pearl-recipes";

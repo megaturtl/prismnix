@@ -31,6 +31,11 @@ let
             "file" = "worldcopiesme-neoforge-1.0.0+26.2.jar";
             "hash" = "sha512-AIKDrlVBTchGLN4q7Ty7xfNip2iceW+1MhDoo1vy7eY/zLEppGosB6j1aqjLAn7I7/IxnuIdwSZKWizhD0e51w==";
         };
+        _BQpJcAoa = {
+            "id" = "BQpJcAoa";
+            "file" = "worldcopiesme-fabric-1.0.0+26.3.jar";
+            "hash" = "sha512-vAXAWlrLYGn+gwr/H8W/ALFq7h4EyHzJMKKXQsUEGS1DbxhigcDxhsLlSzDP8KGWbHdBTd7N+KEMEeU9ep5jzg==";
+        };
     in {
         "nSsvnMT2" = _nSsvnMT2;
         "JevSY0EQ" = _JevSY0EQ;
@@ -38,11 +43,13 @@ let
         "5rJFXgrL" = _5rJFXgrL;
         "198U4Ve1" = _198U4Ve1;
         "B2ftwmWk" = _B2ftwmWk;
+        "BQpJcAoa" = _BQpJcAoa;
         "fabric-1.21" = _nSsvnMT2;
         "fabric-1.21.1" = _nSsvnMT2;
         "fabric-1.21.11" = _JevSY0EQ;
         "fabric-26.1.2" = _TS0GdbQA;
         "fabric-26.2" = _5rJFXgrL;
+        "fabric-26.3" = _BQpJcAoa;
         "neoforge-1.21" = _198U4Ve1;
         "neoforge-1.21.1" = _198U4Ve1;
         "neoforge-26.2" = _B2ftwmWk;
@@ -50,7 +57,8 @@ let
         "pkg-1.0.0+1.21.11" = _JevSY0EQ;
         "pkg-1.0.0+26.1.2" = _TS0GdbQA;
         "pkg-1.0.0+26.2" = _B2ftwmWk;
-        "default" = _B2ftwmWk;
+        "pkg-1.0.0+26.3" = _BQpJcAoa;
+        "default" = _BQpJcAoa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "world-copies-me";

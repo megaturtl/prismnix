@@ -626,6 +626,16 @@ let
             "file" = "TipTheScales-neoforge-26.2-26.2.1.jar";
             "hash" = "sha512-hwL2/RCOHTTep7z/iJvxWX6ZVhioLhNKJ2h4jbSeH35OcOpvoSxtoNGnr5iTzF7ulQWwSOBCDnLshje8jOI3fg==";
         };
+        _stQ7c9wl = {
+            "id" = "stQ7c9wl";
+            "file" = "TipTheScales-fabric-26.3-26.3.1.jar";
+            "hash" = "sha512-jCforVeGpBEpS+Z6fmzRAy2paKXnvsn1Y/ers05kC5/IVO8L2INKPgtAZwgF9wzbkZicLkXx8OSi0yBBIavoig==";
+        };
+        _6Ejpr02N = {
+            "id" = "6Ejpr02N";
+            "file" = "TipTheScales-neoforge-26.3-26.3.1.jar";
+            "hash" = "sha512-GMq4FRWndIyDmToOYgya4muBIVuj1wMSMvfEO6oWNmBl0KgltxTYT3N73nbjOC94YwlNCCC8XvFaOovXOUu17A==";
+        };
     in {
         "aA17x4ad" = _aA17x4ad;
         "ik3cWYFK" = _ik3cWYFK;
@@ -752,6 +762,8 @@ let
         "pVXyw6tA" = _pVXyw6tA;
         "H6bLTtVW" = _H6bLTtVW;
         "q6tgKFix" = _q6tgKFix;
+        "stQ7c9wl" = _stQ7c9wl;
+        "6Ejpr02N" = _6Ejpr02N;
         "forge-1.12" = _QkHfjGjp;
         "forge-1.12.1" = _QkHfjGjp;
         "forge-1.12.2" = _QkHfjGjp;
@@ -808,6 +820,7 @@ let
         "fabric-26.1.1" = _jU4RbWAC;
         "fabric-26.1.2" = _E6RDDYA8;
         "fabric-26.2" = _H6bLTtVW;
+        "fabric-26.3" = _stQ7c9wl;
         "neoforge-1.20.2" = _mmINqNq1;
         "neoforge-1.20.3" = _MSuopbjQ;
         "neoforge-1.20.4" = _pCkahPJB;
@@ -829,6 +842,7 @@ let
         "neoforge-26.1.1" = _Dtlxv4D7;
         "neoforge-26.1.2" = _pVXyw6tA;
         "neoforge-26.2" = _q6tgKFix;
+        "neoforge-26.3" = _6Ejpr02N;
         "pkg-1.0.0" = _RNTAJUtM;
         "pkg-1.0.1" = _TLJPgZXT;
         "pkg-1.0.2" = _yDeylfDT;
@@ -896,7 +910,8 @@ let
         "pkg-26.1.1.1" = _jU4RbWAC;
         "pkg-26.1.2.1" = _pVXyw6tA;
         "pkg-26.2.1" = _q6tgKFix;
-        "default" = _q6tgKFix;
+        "pkg-26.3.1" = _6Ejpr02N;
+        "default" = _6Ejpr02N;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tipthescales";

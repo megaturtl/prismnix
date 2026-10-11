@@ -61,6 +61,16 @@ let
             "file" = "wispwillow-1.4.3.jar";
             "hash" = "sha512-XgRMi1HstSQLh0xCXZbfAfz3DKbIr1i5IiWOMTq9AQML5d6f30kvlRS+j3bwqG/xNA5qxdoecb8Oj6a4J/ij7Q==";
         };
+        _Gdg23F4Q = {
+            "id" = "Gdg23F4Q";
+            "file" = "wispwillow-2.0.0.jar";
+            "hash" = "sha512-AgGKFGYjO9vI3+P27FG7KLhFKwoGe9V/YrnNPc/2Q/+iilmKiNRDlPBxdqeb+QZ3TWTHmMZY0mXYCHdWnz6V3g==";
+        };
+        _qf776EYW = {
+            "id" = "qf776EYW";
+            "file" = "wispwillow-2.0.0.jar";
+            "hash" = "sha512-6wGCf7z0fy+3s1zI2osEDCTkzE/7L3trEA9M61sdO7vuE+iHUhp0YbP3lTDp0Lg66f2iDZ4N9UL4f+kXFl7RTg==";
+        };
     in {
         "YgvzMMBi" = _YgvzMMBi;
         "HLy52FxI" = _HLy52FxI;
@@ -74,8 +84,11 @@ let
         "Utn4JZzD" = _Utn4JZzD;
         "I9Fosye0" = _I9Fosye0;
         "FZjFpeNj" = _FZjFpeNj;
+        "Gdg23F4Q" = _Gdg23F4Q;
+        "qf776EYW" = _qf776EYW;
         "neoforge-1.21" = _Utn4JZzD;
-        "neoforge-1.21.1" = _FZjFpeNj;
+        "neoforge-1.21.1" = _qf776EYW;
+        "neoforge-26.2" = _Gdg23F4Q;
         "pkg-1.1.0" = _YgvzMMBi;
         "pkg-1.2.0" = _HLy52FxI;
         "pkg-1.2.1-hotfix" = _2B9F2rww;
@@ -88,7 +101,8 @@ let
         "pkg-1.4.1" = _Utn4JZzD;
         "pkg-1.4.2" = _I9Fosye0;
         "pkg-1.4.3" = _FZjFpeNj;
-        "default" = _FZjFpeNj;
+        "pkg-2.0.0" = _qf776EYW;
+        "default" = _qf776EYW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wisp-willow";

@@ -801,6 +801,21 @@ let
             "file" = "mcw-stairs-1.0.2-mc26.2fabric.jar";
             "hash" = "sha512-dua6d57qzXpHM1uzFg4785sMVwEouTwpdcBuHvAKoEk9oNQR7LRP5VeG9+37f1/pWzsuOYsZhKFXCPRxjO7DKQ==";
         };
+        _SxwPujmc = {
+            "id" = "SxwPujmc";
+            "file" = "mcw-stairs-1.0.2-mc26.3neoforge.jar";
+            "hash" = "sha512-7gliz2+mVFrJSCC76zjAHg/0pDilq8hn9ezDbOZa7ggLq3nrQkIi8e9/eAdR6gCZvpbwYtrvzHk7V3OrzQKfNA==";
+        };
+        _OkWqA3VP = {
+            "id" = "OkWqA3VP";
+            "file" = "mcw-stairs-1.0.2-mc26.3forge.jar";
+            "hash" = "sha512-yg9PWdeyjNi3g4kb935bSbah5U2ItzkWCbrWRaUvc4nUGxKzJNvqkngImjAqFTIPsiUu8E9DyUmrv3LeSjz1Xw==";
+        };
+        _yYYDbarh = {
+            "id" = "yYYDbarh";
+            "file" = "mcw-stairs-1.0.2-mc26.3fabric.jar";
+            "hash" = "sha512-snLqwHW0gD6l2EDK2OV/4+0HNuvz0MKduFhTsjiX6Vyxob1bVlPH3ZE+L+vNeTtYfqYXCaFvSKvVN8a6lwAtEw==";
+        };
     in {
         "3iIQBv2M" = _3iIQBv2M;
         "xbOzqBcA" = _xbOzqBcA;
@@ -962,6 +977,9 @@ let
         "avtV5kFt" = _avtV5kFt;
         "gBbSYp0S" = _gBbSYp0S;
         "ovx0xlK3" = _ovx0xlK3;
+        "SxwPujmc" = _SxwPujmc;
+        "OkWqA3VP" = _OkWqA3VP;
+        "yYYDbarh" = _yYYDbarh;
         "neoforge-1.20.4" = _PpLPxmDZ;
         "neoforge-1.20.6" = _T5hSOVJI;
         "neoforge-1.21" = _WCdYbzMk;
@@ -979,6 +997,7 @@ let
         "neoforge-26.1.1" = _4V3WLNuT;
         "neoforge-26.1.2" = _4V3WLNuT;
         "neoforge-26.2" = _gBbSYp0S;
+        "neoforge-26.3" = _SxwPujmc;
         "forge-1.16.5" = _CfJIItOo;
         "forge-1.17.1" = _DNRTbgme;
         "forge-1.18.1" = _uLro1emI;
@@ -1009,6 +1028,7 @@ let
         "forge-26.1.1" = _frMh7pGl;
         "forge-26.1.2" = _frMh7pGl;
         "forge-26.2" = _avtV5kFt;
+        "forge-26.3" = _OkWqA3VP;
         "fabric-1.18.2" = _YTz3T9rK;
         "fabric-1.19" = _pVdSswOo;
         "fabric-1.19.1" = _1elfzLoE;
@@ -1036,10 +1056,11 @@ let
         "fabric-26.1.1" = _jvxqO78F;
         "fabric-26.1.2" = _jvxqO78F;
         "fabric-26.2" = _ovx0xlK3;
+        "fabric-26.3" = _yYYDbarh;
         "pkg-1.0.0" = _mPtTPM2b;
         "pkg-1.0.1" = _j6m3MI7L;
-        "pkg-1.0.2" = _ovx0xlK3;
-        "default" = _ovx0xlK3;
+        "pkg-1.0.2" = _yYYDbarh;
+        "default" = _yYYDbarh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "macaws-stairs";

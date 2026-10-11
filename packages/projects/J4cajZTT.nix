@@ -186,6 +186,11 @@ let
             "file" = "ModernArch v3.2.2 [26.2] [128x].zip";
             "hash" = "sha512-qpUx1HhPktrg3kvKOpql7fbDIFDWxg2Vt8PWUwBZQhS4YTGD+vMlw9lI7MiIOAHS7txRqAfsykRvJh7biKSrwQ==";
         };
+        _Z4WywPyy = {
+            "id" = "Z4WywPyy";
+            "file" = "ModernArch v4.5.2 [26.3] [128x].zip";
+            "hash" = "sha512-x6upyqFcxNYAZq13+omhKaS4JQap6mx6W1BzkKs/fDPhR83dEkFmg2wIMfJOoeJpr+waRKj+qk5cUOipIaJrTg==";
+        };
     in {
         "DcSMbwcH" = _DcSMbwcH;
         "xGSxlsJm" = _xGSxlsJm;
@@ -224,6 +229,7 @@ let
         "ICTEtWwX" = _ICTEtWwX;
         "gFYCWQhz" = _gFYCWQhz;
         "DOiaT3xO" = _DOiaT3xO;
+        "Z4WywPyy" = _Z4WywPyy;
         "minecraft-1.20.3" = _35IyPTHL;
         "minecraft-1.20.4" = _35IyPTHL;
         "minecraft-1.20.5" = _35IyPTHL;
@@ -243,7 +249,8 @@ let
         "minecraft-26.1" = _noJHxn6d;
         "minecraft-26.1.1" = _noJHxn6d;
         "minecraft-26.1.2" = _noJHxn6d;
-        "minecraft-26.2" = _DOiaT3xO;
+        "minecraft-26.2" = _Z4WywPyy;
+        "minecraft-26.3" = _Z4WywPyy;
         "pkg-1" = _DcSMbwcH;
         "pkg-2" = _xGSxlsJm;
         "pkg-3" = _ltmShkrN;
@@ -280,7 +287,8 @@ let
         "pkg-3.0.10" = _ICTEtWwX;
         "pkg-3.1.4" = _gFYCWQhz;
         "pkg-3.2.2" = _DOiaT3xO;
-        "default" = _DOiaT3xO;
+        "pkg-4.5.2" = _Z4WywPyy;
+        "default" = _Z4WywPyy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modernarch";

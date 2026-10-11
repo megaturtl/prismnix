@@ -136,6 +136,26 @@ let
             "file" = "Boosted-Brightness-Remastered-Forge-1.21.11-1.0.1.jar";
             "hash" = "sha512-X1iMUx0xTOgMs4kOMwKnmCdG/ZHzy7oZKijrXxjJIC7EG24iibER2YWyeUMPxD6lJZTTWnETD2/dTcNPff9QZQ==";
         };
+        _2NoZSWMR = {
+            "id" = "2NoZSWMR";
+            "file" = "Saros-Boosted-Brightness-Fabric-26.3-1.0.2.jar";
+            "hash" = "sha512-p5MuhHXZLYaR5l0B6vtPR/HRUGPmf+BFOZwiWg5YL3ELEzfX0mmMyCMhaLSBbbdpwVpty3tt41TtwMmfFk16Ig==";
+        };
+        _A1j4lUrT = {
+            "id" = "A1j4lUrT";
+            "file" = "Saros-Boosted-Brightness-Fabric-26.3-1.0.3.jar";
+            "hash" = "sha512-Ngsisspnaw4PXc/Tz4r1NY4S0wORsNKi23LHPbrXd1JvwgxGqM98r8w4MPsD9kiWhPyM5ka/CORfeMMU6NsOjw==";
+        };
+        _d4scSwA5 = {
+            "id" = "d4scSwA5";
+            "file" = "Saros-Boosted-Brightness-NeoForge-26.3-1.2.jar";
+            "hash" = "sha512-DvNa05z0Dos8cX5M2agT6KBHfXZPqimUqrWQ7dyoGh9kQAWR0qjky5Atzktgw/vApcr28zSjvusBwKj0Ejz/ew==";
+        };
+        _m8qkYj7g = {
+            "id" = "m8qkYj7g";
+            "file" = "Boosted-Brightness-Remastered-Forge-26.3-1.3.jar";
+            "hash" = "sha512-p2GO2PNjv4YlyrSOhaFMPk6f8flmmvwf5v+63qwz1mZOMFKNzkujd5OqIRqF1bCv5SR2csfGD44SczR+zrECKA==";
+        };
     in {
         "IUNTm67v" = _IUNTm67v;
         "vYDMEsV3" = _vYDMEsV3;
@@ -164,6 +184,10 @@ let
         "RXJv8x2Z" = _RXJv8x2Z;
         "kWrgux0M" = _kWrgux0M;
         "ZMERNS2n" = _ZMERNS2n;
+        "2NoZSWMR" = _2NoZSWMR;
+        "A1j4lUrT" = _A1j4lUrT;
+        "d4scSwA5" = _d4scSwA5;
+        "m8qkYj7g" = _m8qkYj7g;
         "fabric-1.21" = _IUNTm67v;
         "fabric-1.21.1" = _IUNTm67v;
         "fabric-1.21.2" = _IUNTm67v;
@@ -174,6 +198,7 @@ let
         "fabric-26.1.1" = _onF6zUwB;
         "fabric-26.1.2" = _vwHwx707;
         "fabric-26.2" = _stH2Yok6;
+        "fabric-26.3" = _A1j4lUrT;
         "forge-1.21.1" = _RXJv8x2Z;
         "forge-1.20.1" = _8piHVj2e;
         "forge-1.21.10" = _kWrgux0M;
@@ -182,6 +207,7 @@ let
         "forge-26.1.1" = _NV5IAtZP;
         "forge-26.1.2" = _s3JoSQrY;
         "forge-26.2" = _cIDq2tD0;
+        "forge-26.3" = _m8qkYj7g;
         "neoforge-1.20.1" = _8piHVj2e;
         "neoforge-1.21.1" = _9SIcxTb5;
         "neoforge-1.21.10" = _MAFgCfCY;
@@ -190,12 +216,17 @@ let
         "neoforge-26.1.1" = _Sa4bQLbu;
         "neoforge-26.1.2" = _fdFyB02G;
         "neoforge-26.2" = _IutNqtpi;
+        "neoforge-26.3" = _d4scSwA5;
         "pkg-1.0" = _fdFyB02G;
         "pkg-1.0.0" = _vwHwx707;
         "pkg-1" = _s3JoSQrY;
         "pkg-1.1" = _cRjWJ7H3;
         "pkg-1.0.1" = _ZMERNS2n;
-        "default" = _ZMERNS2n;
+        "pkg-1.0.2" = _2NoZSWMR;
+        "pkg-1.0.3" = _A1j4lUrT;
+        "pkg-1.2" = _d4scSwA5;
+        "pkg-1.3-forge-26.3" = _m8qkYj7g;
+        "default" = _m8qkYj7g;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "boosted-brightness-remastered";

@@ -6,8 +6,14 @@ let
             "file" = "Back-1.0.0.jar";
             "hash" = "sha512-KIgsYRrIEKkX4Jhg9VScTHecpppyGsgCRWZGlrc+eYB6IdnycmkcJ24wBku3cWU9A81YSm4yFtmA03BZu3QZAQ==";
         };
+        _8pC8l1Hx = {
+            "id" = "8pC8l1Hx";
+            "file" = "Back-1.2.2.jar";
+            "hash" = "sha512-gCXocUXV/exjIY1lWybh+AOgno+eHwS18gFrL0t8+4mDycOpgGsXtxVuI7HbCj5dzIhVmzuV3focgeQAYrgQ7g==";
+        };
     in {
         "oia3K1F4" = _oia3K1F4;
+        "8pC8l1Hx" = _8pC8l1Hx;
         "bukkit-1.21" = _oia3K1F4;
         "bukkit-1.21.1" = _oia3K1F4;
         "bukkit-1.21.2" = _oia3K1F4;
@@ -20,6 +26,11 @@ let
         "bukkit-1.21.9" = _oia3K1F4;
         "bukkit-1.21.10" = _oia3K1F4;
         "bukkit-1.21.11" = _oia3K1F4;
+        "bukkit-26.1" = _8pC8l1Hx;
+        "bukkit-26.1.1" = _8pC8l1Hx;
+        "bukkit-26.1.2" = _8pC8l1Hx;
+        "bukkit-26.2" = _8pC8l1Hx;
+        "bukkit-26.3" = _8pC8l1Hx;
         "paper-1.21" = _oia3K1F4;
         "paper-1.21.1" = _oia3K1F4;
         "paper-1.21.2" = _oia3K1F4;
@@ -32,6 +43,11 @@ let
         "paper-1.21.9" = _oia3K1F4;
         "paper-1.21.10" = _oia3K1F4;
         "paper-1.21.11" = _oia3K1F4;
+        "paper-26.1" = _8pC8l1Hx;
+        "paper-26.1.1" = _8pC8l1Hx;
+        "paper-26.1.2" = _8pC8l1Hx;
+        "paper-26.2" = _8pC8l1Hx;
+        "paper-26.3" = _8pC8l1Hx;
         "purpur-1.21" = _oia3K1F4;
         "purpur-1.21.1" = _oia3K1F4;
         "purpur-1.21.2" = _oia3K1F4;
@@ -44,6 +60,11 @@ let
         "purpur-1.21.9" = _oia3K1F4;
         "purpur-1.21.10" = _oia3K1F4;
         "purpur-1.21.11" = _oia3K1F4;
+        "purpur-26.1" = _8pC8l1Hx;
+        "purpur-26.1.1" = _8pC8l1Hx;
+        "purpur-26.1.2" = _8pC8l1Hx;
+        "purpur-26.2" = _8pC8l1Hx;
+        "purpur-26.3" = _8pC8l1Hx;
         "spigot-1.21" = _oia3K1F4;
         "spigot-1.21.1" = _oia3K1F4;
         "spigot-1.21.2" = _oia3K1F4;
@@ -56,8 +77,19 @@ let
         "spigot-1.21.9" = _oia3K1F4;
         "spigot-1.21.10" = _oia3K1F4;
         "spigot-1.21.11" = _oia3K1F4;
+        "spigot-26.1" = _8pC8l1Hx;
+        "spigot-26.1.1" = _8pC8l1Hx;
+        "spigot-26.1.2" = _8pC8l1Hx;
+        "spigot-26.2" = _8pC8l1Hx;
+        "spigot-26.3" = _8pC8l1Hx;
+        "folia-26.1" = _8pC8l1Hx;
+        "folia-26.1.1" = _8pC8l1Hx;
+        "folia-26.1.2" = _8pC8l1Hx;
+        "folia-26.2" = _8pC8l1Hx;
+        "folia-26.3" = _8pC8l1Hx;
         "pkg-1.0.0" = _oia3K1F4;
-        "default" = _oia3K1F4;
+        "pkg-1.2.2" = _8pC8l1Hx;
+        "default" = _8pC8l1Hx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "teleport-back-to-death";

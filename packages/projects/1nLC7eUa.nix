@@ -326,6 +326,11 @@ let
             "file" = "MS Painted for 26.1 - 26.3 (v2.48).zip";
             "hash" = "sha512-yoPsiOb4BQ9U4aqU8skY8aJjpBOHCoSkNTYh6tko2PqUgBaJwlFTDA/ujUDWgGCcLJaLXUg+AfmZ/Ala/V3Wjg==";
         };
+        _mtZDnsMA = {
+            "id" = "mtZDnsMA";
+            "file" = "MS Painted for 26.1-26.3 (v2.49).zip";
+            "hash" = "sha512-VsCoe+D2Mw2XPIdN7on8qROt/txThaaIsSbgG7Qq3xPdg2wIHjtZazA4qKqO2lL9L62Hd5bSFTX4F2Yd34gotw==";
+        };
     in {
         "IHKQGISV" = _IHKQGISV;
         "5yLa4rHs" = _5yLa4rHs;
@@ -392,6 +397,7 @@ let
         "AOnuCSUx" = _AOnuCSUx;
         "VNMwPhe0" = _VNMwPhe0;
         "DbuAyZWA" = _DbuAyZWA;
+        "mtZDnsMA" = _mtZDnsMA;
         "minecraft-1.19" = _5yLa4rHs;
         "minecraft-1.19.1" = _5yLa4rHs;
         "minecraft-1.19.2" = _5yLa4rHs;
@@ -474,16 +480,16 @@ let
         "minecraft-1.21.9" = _rFUizrXR;
         "minecraft-1.21.10" = _rFUizrXR;
         "minecraft-1.21.11" = _rFUizrXR;
-        "minecraft-26.1" = _DbuAyZWA;
-        "minecraft-26.1.1" = _DbuAyZWA;
-        "minecraft-26.1.2" = _DbuAyZWA;
+        "minecraft-26.1" = _mtZDnsMA;
+        "minecraft-26.1.1" = _mtZDnsMA;
+        "minecraft-26.1.2" = _mtZDnsMA;
         "minecraft-26.2-snapshot-2" = _VhVIx65k;
         "minecraft-26.2-snapshot-3" = _VhVIx65k;
         "minecraft-26.2-snapshot-4" = _VhVIx65k;
         "minecraft-26.2-snapshot-5" = _VhVIx65k;
         "minecraft-26.2-snapshot-6" = _VhVIx65k;
         "minecraft-26.2-snapshot-7" = _VhVIx65k;
-        "minecraft-26.2" = _DbuAyZWA;
+        "minecraft-26.2" = _mtZDnsMA;
         "minecraft-1.13" = _AOnuCSUx;
         "minecraft-1.13.1" = _AOnuCSUx;
         "minecraft-1.13.2" = _AOnuCSUx;
@@ -503,7 +509,7 @@ let
         "minecraft-1.16.5" = _pveQf1ES;
         "minecraft-1.17" = _6Z6w8xG9;
         "minecraft-1.17.1" = _6Z6w8xG9;
-        "minecraft-26.3" = _DbuAyZWA;
+        "minecraft-26.3" = _mtZDnsMA;
         "pkg-v2.8" = _IHKQGISV;
         "pkg-v2.8.1" = _5yLa4rHs;
         "pkg-v2.13" = _5Rfbo3gQ;
@@ -569,7 +575,8 @@ let
         "pkg-v2.2-1.13.x" = _AOnuCSUx;
         "pkg-v2.1-1.14.x" = _VNMwPhe0;
         "pkg-v2.48" = _DbuAyZWA;
-        "default" = _DbuAyZWA;
+        "pkg-v2.49" = _mtZDnsMA;
+        "default" = _mtZDnsMA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ms-painted";

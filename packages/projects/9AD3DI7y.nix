@@ -36,6 +36,16 @@ let
             "file" = "mebahels-skeleton-revival-1.0.4-fabric-1.21.1.jar";
             "hash" = "sha512-ilZ28Z9jC20w93E0lq3jbB+WFf2U6lr/teOOQZ7yRBVte96aLBFmVyTw378PH4gZwr2FLspDvOSnP1ZQjiYrCg==";
         };
+        _RG4yXcf6 = {
+            "id" = "RG4yXcf6";
+            "file" = "mebahels-skeleton-revival-1.1.0-fabric-1.21.1.jar";
+            "hash" = "sha512-iyAfU/vDZp82xJpckaA4FVMObs8+IQPG8TTm5tJy0i20Ubqyx0lx/R8iMtG8ELRp+wC+aX0I/toHveXHUqUmTg==";
+        };
+        _3Rq3iFrM = {
+            "id" = "3Rq3iFrM";
+            "file" = "mebahels-skeleton-revival-1.1.0-fabric-1.20.1.jar";
+            "hash" = "sha512-vZgv1IkXoTnrMyo8M9CahtZ6+TTlqSh3EUEuMKOJ1elDMItdnkzHprCZyJioVdaC5Gr908SsrcocEt5MfciQbQ==";
+        };
     in {
         "C8cDs8CJ" = _C8cDs8CJ;
         "W6tDqLUK" = _W6tDqLUK;
@@ -44,18 +54,24 @@ let
         "DaBh2mXR" = _DaBh2mXR;
         "TG8yQbjl" = _TG8yQbjl;
         "lSe8j6Dd" = _lSe8j6Dd;
-        "fabric-1.20" = _TG8yQbjl;
-        "fabric-1.20.1" = _TG8yQbjl;
-        "fabric-1.21.1" = _lSe8j6Dd;
-        "forge-1.20" = _TG8yQbjl;
-        "forge-1.20.1" = _TG8yQbjl;
-        "forge-1.21.1" = _lSe8j6Dd;
-        "neoforge-1.20" = _TG8yQbjl;
-        "neoforge-1.20.1" = _TG8yQbjl;
-        "neoforge-1.21.1" = _lSe8j6Dd;
-        "quilt-1.20" = _TG8yQbjl;
-        "quilt-1.20.1" = _TG8yQbjl;
-        "quilt-1.21.1" = _lSe8j6Dd;
+        "RG4yXcf6" = _RG4yXcf6;
+        "3Rq3iFrM" = _3Rq3iFrM;
+        "fabric-1.20" = _3Rq3iFrM;
+        "fabric-1.20.1" = _3Rq3iFrM;
+        "fabric-1.21.1" = _RG4yXcf6;
+        "fabric-1.21" = _RG4yXcf6;
+        "forge-1.20" = _3Rq3iFrM;
+        "forge-1.20.1" = _3Rq3iFrM;
+        "forge-1.21.1" = _RG4yXcf6;
+        "forge-1.21" = _RG4yXcf6;
+        "neoforge-1.20" = _3Rq3iFrM;
+        "neoforge-1.20.1" = _3Rq3iFrM;
+        "neoforge-1.21.1" = _RG4yXcf6;
+        "neoforge-1.21" = _RG4yXcf6;
+        "quilt-1.20" = _3Rq3iFrM;
+        "quilt-1.20.1" = _3Rq3iFrM;
+        "quilt-1.21.1" = _RG4yXcf6;
+        "quilt-1.21" = _RG4yXcf6;
         "pkg-1.0.0-fabric-1.20" = _C8cDs8CJ;
         "pkg-1.0.1-fabric-1.20.1" = _W6tDqLUK;
         "pkg-1.0.1-fabric-1.21.1" = _I7RYcSFD;
@@ -63,7 +79,9 @@ let
         "pkg-1.0.2-fabric-1.21.1" = _DaBh2mXR;
         "pkg-1.0.4-fabric-1.20.1" = _TG8yQbjl;
         "pkg-1.0.4-fabric-1.21.1" = _lSe8j6Dd;
-        "default" = _lSe8j6Dd;
+        "pkg-1.1.0-fabric-1.21.1" = _RG4yXcf6;
+        "pkg-1.1.0-fabric-1.20.1" = _3Rq3iFrM;
+        "default" = _3Rq3iFrM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mebahels-skeleton-revival";

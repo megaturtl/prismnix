@@ -66,6 +66,21 @@ let
             "file" = "managing-mannequins-2.2.jar";
             "hash" = "sha512-etx4xID+I+xUZyHH8jJUtpxdu4/dzCgl8YaHCZVMVfQiHnJvWTwvo7/fgqWzSJaJE9ohXA3eJZ246AaqGGWjlQ==";
         };
+        _hy6svmQf = {
+            "id" = "hy6svmQf";
+            "file" = "Managing Mannequins - v2.3.zip";
+            "hash" = "sha512-tTqS4AZi+044lzHB7kAB8R1WKecEdKgY/U96lL8t3Y2zRtYXNHFywGh39n5dFud0kh0fD8m50tqtJk85l7YU/A==";
+        };
+        _kHpIAmw9 = {
+            "id" = "kHpIAmw9";
+            "file" = "managing-mannequins-2.3.jar";
+            "hash" = "sha512-Ugvx3nTBboXbZtx2domOTBrBBd90sP7DLqYJulWzjQ38KQ/QtwAr3V2FwaFbtrumJADgceiVlpT2YwMWoNIicg==";
+        };
+        _5zdyMOxG = {
+            "id" = "5zdyMOxG";
+            "file" = "managing-mannequins-2.1-1.jar";
+            "hash" = "sha512-cv72eA6LMY/r2pOn1b8XMj3k/2gAqY12GPNsPBn2IxK5cUfnGnQ3lZzN5+ntC7k4qQKfSXWQS2sHAmOAe49GKw==";
+        };
     in {
         "EAd3UqVD" = _EAd3UqVD;
         "5xzFLXwG" = _5xzFLXwG;
@@ -80,6 +95,9 @@ let
         "IXBjEcBo" = _IXBjEcBo;
         "bec2n7vh" = _bec2n7vh;
         "e5KAbGM3" = _e5KAbGM3;
+        "hy6svmQf" = _hy6svmQf;
+        "kHpIAmw9" = _kHpIAmw9;
+        "5zdyMOxG" = _5zdyMOxG;
         "datapack-1.21.9" = _bKWestlk;
         "datapack-1.21.10" = _bKWestlk;
         "datapack-1.21.11" = _C88I0zyW;
@@ -87,22 +105,31 @@ let
         "datapack-26.1.1" = _syKnziOX;
         "datapack-26.1.2" = _syKnziOX;
         "datapack-26.2" = _bec2n7vh;
+        "datapack-26.3" = _hy6svmQf;
         "fabric-26.1" = _IXBjEcBo;
         "fabric-26.1.1" = _IXBjEcBo;
         "fabric-26.1.2" = _IXBjEcBo;
         "fabric-26.2" = _e5KAbGM3;
+        "fabric-26.3" = _kHpIAmw9;
+        "fabric-1.21.11" = _5zdyMOxG;
         "forge-26.1" = _IXBjEcBo;
         "forge-26.1.1" = _IXBjEcBo;
         "forge-26.1.2" = _IXBjEcBo;
         "forge-26.2" = _e5KAbGM3;
+        "forge-26.3" = _kHpIAmw9;
+        "forge-1.21.11" = _5zdyMOxG;
         "neoforge-26.1" = _IXBjEcBo;
         "neoforge-26.1.1" = _IXBjEcBo;
         "neoforge-26.1.2" = _IXBjEcBo;
         "neoforge-26.2" = _e5KAbGM3;
+        "neoforge-26.3" = _kHpIAmw9;
+        "neoforge-1.21.11" = _5zdyMOxG;
         "quilt-26.1" = _IXBjEcBo;
         "quilt-26.1.1" = _IXBjEcBo;
         "quilt-26.1.2" = _IXBjEcBo;
         "quilt-26.2" = _e5KAbGM3;
+        "quilt-26.3" = _kHpIAmw9;
+        "quilt-1.21.11" = _5zdyMOxG;
         "pkg-0.1" = _EAd3UqVD;
         "pkg-0.2" = _5xzFLXwG;
         "pkg-0.3" = _o7QjgLc5;
@@ -116,7 +143,10 @@ let
         "pkg-2.1+mod" = _IXBjEcBo;
         "pkg-2.2" = _bec2n7vh;
         "pkg-2.2+mod" = _e5KAbGM3;
-        "default" = _e5KAbGM3;
+        "pkg-2.3" = _hy6svmQf;
+        "pkg-2.3+mod" = _kHpIAmw9;
+        "pkg-2.1-1+mod" = _5zdyMOxG;
+        "default" = _5zdyMOxG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "managing-mannequins";

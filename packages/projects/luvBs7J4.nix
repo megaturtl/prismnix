@@ -111,6 +111,16 @@ let
             "file" = "antiquetradingship-1.0.0 Neoforge 26.2.jar";
             "hash" = "sha512-xG8VzfbeJPjyp54JaxcQRTFSLs8/EIWcSniVlTT9KLU73je+D6G6y4F8fn5+5aL6CRyrkKtiun0ZNiMxDX7O3Q==";
         };
+        _ZoSIvA4b = {
+            "id" = "ZoSIvA4b";
+            "file" = "antiquetradingship-1.0.0 Fabric 26.3.jar";
+            "hash" = "sha512-mVgTjEX6Bl6CeJDeCH87PnwBBsnWn8XPLjXehAkZwcRtGpSaGO3xhkNkrsY3PolSnHHfpyGJHP+au15/uqr66g==";
+        };
+        _v6BRREmt = {
+            "id" = "v6BRREmt";
+            "file" = "antiquetradingship-1.0.0 Neoforge 26.3.jar";
+            "hash" = "sha512-omYtgVekMM6D292DeddWmEyxd0YGacJhToVUmMO8sQG4s0s8tS4jKdo+VIpHG5EtsIx6ozRPbQ86RZDbCYkBNA==";
+        };
     in {
         "aFs2OsDi" = _aFs2OsDi;
         "LWEmYBaz" = _LWEmYBaz;
@@ -134,6 +144,8 @@ let
         "XgzMORYN" = _XgzMORYN;
         "EaQt09bl" = _EaQt09bl;
         "anFV9s5R" = _anFV9s5R;
+        "ZoSIvA4b" = _ZoSIvA4b;
+        "v6BRREmt" = _v6BRREmt;
         "fabric-1.19.2" = _aFs2OsDi;
         "fabric-1.20.1" = _LWEmYBaz;
         "fabric-1.21.8" = _vJEmYgZC;
@@ -145,6 +157,7 @@ let
         "fabric-26.1.1" = _YpH6ecp3;
         "fabric-26.1.2" = _YpH6ecp3;
         "fabric-26.2" = _EaQt09bl;
+        "fabric-26.3" = _ZoSIvA4b;
         "forge-1.19.2" = _HNEQvEkv;
         "forge-1.19.4" = _7nfHjjbd;
         "forge-1.20.1" = _EgFvvEbM;
@@ -157,11 +170,12 @@ let
         "neoforge-26.1" = _CHKa5EeQ;
         "neoforge-26.1.2" = _XgzMORYN;
         "neoforge-26.2" = _anFV9s5R;
+        "neoforge-26.3" = _v6BRREmt;
         "pkg-1.3.0" = _lzgq8Sye;
         "pkg-1.4.0" = _IeWjiPrI;
         "pkg-1.5.0" = _vJEmYgZC;
-        "pkg-1.0.0" = _anFV9s5R;
-        "default" = _anFV9s5R;
+        "pkg-1.0.0" = _v6BRREmt;
+        "default" = _v6BRREmt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "antique-trading-ship";

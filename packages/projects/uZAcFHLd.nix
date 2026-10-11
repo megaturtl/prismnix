@@ -226,6 +226,21 @@ let
             "file" = "customfov-neoforge-14.0.0+26.2.jar";
             "hash" = "sha512-FDRjkOUbnNeIgyt63H1ORkGkE5OobD37iakoiTOJ1VSAUWPxGS2whLQkGTz5YTQkkReB63j2rAJjucaNngKkNw==";
         };
+        _o9tETT9I = {
+            "id" = "o9tETT9I";
+            "file" = "customfov-forge-15.0.0+26.3.jar";
+            "hash" = "sha512-EhWNJpxNK0cf06cd4lcuGNZKN1T55FqF+nxkfizRbDX2XMSs6wEVk3ul3HQqtJwlF3KNdaIm8gCcccAq1zxrxw==";
+        };
+        _HUGpoOXm = {
+            "id" = "HUGpoOXm";
+            "file" = "customfov-fabric-15.0.0+26.3.jar";
+            "hash" = "sha512-OSRVOjR+NSOamuQ3MoIt5rF6S7qmkf3UUlEnhtTmWBUhQoay0T4P9+C75A9br/i9Lo2nO0B8dIPq56ko8enLkA==";
+        };
+        _rzGV6lE3 = {
+            "id" = "rzGV6lE3";
+            "file" = "customfov-neoforge-15.0.0+26.3.jar";
+            "hash" = "sha512-iqg7YcdwLvhqeZd9lEkHL0V+ogT7rD1RHeEUOI3/sWRfCNYBi5gyoQIapbLIo0d7XLVoaAipHAD5VBXWOCnsxw==";
+        };
     in {
         "XxTFEVBR" = _XxTFEVBR;
         "Vi3Ftm0X" = _Vi3Ftm0X;
@@ -272,6 +287,9 @@ let
         "Kan7yU8v" = _Kan7yU8v;
         "yAKmIknR" = _yAKmIknR;
         "8qJA6R4a" = _8qJA6R4a;
+        "o9tETT9I" = _o9tETT9I;
+        "HUGpoOXm" = _HUGpoOXm;
+        "rzGV6lE3" = _rzGV6lE3;
         "forge-1.12.2" = _XxTFEVBR;
         "forge-1.13.2" = _Vi3Ftm0X;
         "forge-1.14.4" = _8447HO7Z;
@@ -306,6 +324,7 @@ let
         "forge-26.1.1" = _wC2C6F99;
         "forge-26.1.2" = _wC2C6F99;
         "forge-26.2" = _Kan7yU8v;
+        "forge-26.3" = _o9tETT9I;
         "fabric-1.16.5" = _OliQBzG6;
         "fabric-1.17" = _ME92U65W;
         "fabric-1.17.1" = _ME92U65W;
@@ -337,6 +356,7 @@ let
         "fabric-26.1.1" = _BB4RLU4V;
         "fabric-26.1.2" = _BB4RLU4V;
         "fabric-26.2" = _yAKmIknR;
+        "fabric-26.3" = _HUGpoOXm;
         "quilt-1.19.3" = _9kJe6BQl;
         "quilt-1.19.4" = _9kJe6BQl;
         "quilt-1.20" = _9kJe6BQl;
@@ -359,6 +379,7 @@ let
         "neoforge-26.1.1" = _XSa3yjjP;
         "neoforge-26.1.2" = _XSa3yjjP;
         "neoforge-26.2" = _8qJA6R4a;
+        "neoforge-26.3" = _rzGV6lE3;
         "pkg-1.12.2-1.0.1" = _XxTFEVBR;
         "pkg-1.13.2-2.0-beta2" = _Vi3Ftm0X;
         "pkg-FORGE-1.14.4-2.0.0.1" = _8447HO7Z;
@@ -381,7 +402,8 @@ let
         "pkg-12.0.0+1.21.11" = _qzc0RpLa;
         "pkg-13.0.0+26.1" = _XSa3yjjP;
         "pkg-14.0.0+26.2" = _8qJA6R4a;
-        "default" = _8qJA6R4a;
+        "pkg-15.0.0+26.3" = _rzGV6lE3;
+        "default" = _rzGV6lE3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "custom-fov-illusive";

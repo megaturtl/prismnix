@@ -106,6 +106,11 @@ let
             "file" = "Shadify 26.2.zip";
             "hash" = "sha512-Gv3bgvrroyJfmFbP+wT2QZbYTkJeWSbO6tzvmGH7ECctGIgbnpBaY7BRqGYeeRKIvT7bVdy2fErBmak5nHQGuA==";
         };
+        _4eCfkVla = {
+            "id" = "4eCfkVla";
+            "file" = "Shadify 26.3+.zip";
+            "hash" = "sha512-8lhnoNFDoAX9O6zHUvEJBzv64Lkij31tXO0485QJbOfgK8YxRiVbNUNRD6WrUk41PABZAHvnrLIw0phlhqL4Bw==";
+        };
     in {
         "GdgClff7" = _GdgClff7;
         "2fmnNlQ6" = _2fmnNlQ6;
@@ -128,6 +133,7 @@ let
         "mT5Owt8x" = _mT5Owt8x;
         "MHzwp4zx" = _MHzwp4zx;
         "GIZXdm85" = _GIZXdm85;
+        "4eCfkVla" = _4eCfkVla;
         "minecraft-1.20" = _HChdZiCP;
         "minecraft-1.20.1" = _HChdZiCP;
         "minecraft-1.20.2" = _HChdZiCP;
@@ -182,6 +188,7 @@ let
         "minecraft-1.18" = _kyQuldaw;
         "minecraft-1.18.1" = _kyQuldaw;
         "minecraft-1.18.2" = _kyQuldaw;
+        "minecraft-26.3" = _4eCfkVla;
         "pkg-1.20" = _HChdZiCP;
         "pkg-1.19" = _qc0BUvuz;
         "pkg-1.21" = _zJU0jpMk;
@@ -197,7 +204,8 @@ let
         "pkg-1.16" = _Lu6T8kVA;
         "pkg-1.17" = _meefnUXs;
         "pkg-1.18" = _kyQuldaw;
-        "default" = _GIZXdm85;
+        "pkg-26.3" = _4eCfkVla;
+        "default" = _4eCfkVla;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shadify";

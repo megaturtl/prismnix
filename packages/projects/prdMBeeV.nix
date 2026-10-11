@@ -21,11 +21,17 @@ let
             "file" = "§aRemodeled-Minecraft§8_§61.11.zip";
             "hash" = "sha512-eLgCSX3WQ0a4MjUorIbSOX7f+Im8+RWukXCvaHbcxE5ReowunMvv4mESV/qzV2JvVN8x/rksrp2zcMRTQkkO/g==";
         };
+        _LCtsspwC = {
+            "id" = "LCtsspwC";
+            "file" = "§aRemodeled-Minecraft§8_§61.12.zip";
+            "hash" = "sha512-PqyAlfoKEZIrD6oXsOUUMzCOT/uOFiS0ZpuBklknM7/9G22LaAUCIPwr656BNe7uX6cQA3yy+8PRZT+o3cFJ+w==";
+        };
     in {
         "M7ZMFvTk" = _M7ZMFvTk;
         "gzYeC1Z5" = _gzYeC1Z5;
         "zaM5G11a" = _zaM5G11a;
         "SIhOvwRf" = _SIhOvwRf;
+        "LCtsspwC" = _LCtsspwC;
         "minecraft-1.20.1" = _M7ZMFvTk;
         "minecraft-1.20.2" = _M7ZMFvTk;
         "minecraft-1.20.3" = _M7ZMFvTk;
@@ -44,11 +50,16 @@ let
         "minecraft-1.21.9" = _SIhOvwRf;
         "minecraft-1.21.10" = _SIhOvwRf;
         "minecraft-1.21.11" = _SIhOvwRf;
+        "minecraft-26.1" = _LCtsspwC;
+        "minecraft-26.1.1" = _LCtsspwC;
+        "minecraft-26.1.2" = _LCtsspwC;
+        "minecraft-26.2" = _LCtsspwC;
         "pkg-1.8" = _M7ZMFvTk;
         "pkg-1.9" = _gzYeC1Z5;
         "pkg-1.10" = _zaM5G11a;
         "pkg-1.11" = _SIhOvwRf;
-        "default" = _SIhOvwRf;
+        "pkg-1.12" = _LCtsspwC;
+        "default" = _LCtsspwC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "remodeled-minecraft";

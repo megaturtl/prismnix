@@ -51,6 +51,16 @@ let
             "file" = "exploitation_timer-neoforge-26.1-1.1.1.jar";
             "hash" = "sha512-9b1T0BSpiT6Ln+y6axtY3EJDAwRtBK3FYQbZlxE1MRFtAu/XbzVyRqeGHGVfSp+n79EaXw+28RFUb/kfeSTCww==";
         };
+        _r4bIlgsp = {
+            "id" = "r4bIlgsp";
+            "file" = "exploitation_timer-fabric-26.1-1.2.0.jar";
+            "hash" = "sha512-8Fy7T+Pj+gdyXGdrpcl/o6R3w/7hzvSwF9MQn0Zj3UxmkRuzyFXF2rLo0DtFICNwF5OByHcgbVngpSIOLG2tIg==";
+        };
+        _gQmbRZ27 = {
+            "id" = "gQmbRZ27";
+            "file" = "exploitation_timer-neoforge-26.1-1.2.0.jar";
+            "hash" = "sha512-BLlqcc7nnEMNZcFwjTOLje8lhls/8j+fzbKasuSrXOE5kotDD5VpJnKV5GbIGMeX09Wcb/sATsQ286UOyLTq9Q==";
+        };
     in {
         "hrYgbJyH" = _hrYgbJyH;
         "6KQBhVXP" = _6KQBhVXP;
@@ -62,6 +72,8 @@ let
         "KHOsCZGm" = _KHOsCZGm;
         "7c6jpy4W" = _7c6jpy4W;
         "p6P778zx" = _p6P778zx;
+        "r4bIlgsp" = _r4bIlgsp;
+        "gQmbRZ27" = _gQmbRZ27;
         "neoforge-1.21" = _hrYgbJyH;
         "neoforge-1.21.1" = _hrYgbJyH;
         "neoforge-1.21.2" = _i5wMLm05;
@@ -74,10 +86,11 @@ let
         "neoforge-1.21.9" = _Td0L7auD;
         "neoforge-1.21.10" = _Td0L7auD;
         "neoforge-1.21.11" = _Td0L7auD;
-        "neoforge-26.1" = _p6P778zx;
-        "neoforge-26.1.1" = _p6P778zx;
-        "neoforge-26.1.2" = _p6P778zx;
-        "neoforge-26.2" = _p6P778zx;
+        "neoforge-26.1" = _gQmbRZ27;
+        "neoforge-26.1.1" = _gQmbRZ27;
+        "neoforge-26.1.2" = _gQmbRZ27;
+        "neoforge-26.2" = _gQmbRZ27;
+        "neoforge-26.3" = _gQmbRZ27;
         "fabric-1.21" = _6KQBhVXP;
         "fabric-1.21.1" = _6KQBhVXP;
         "fabric-1.21.2" = _NXKaWN8q;
@@ -90,10 +103,11 @@ let
         "fabric-1.21.9" = _c4OZpHeW;
         "fabric-1.21.10" = _c4OZpHeW;
         "fabric-1.21.11" = _c4OZpHeW;
-        "fabric-26.1" = _7c6jpy4W;
-        "fabric-26.1.1" = _7c6jpy4W;
-        "fabric-26.1.2" = _7c6jpy4W;
-        "fabric-26.2" = _7c6jpy4W;
+        "fabric-26.1" = _r4bIlgsp;
+        "fabric-26.1.1" = _r4bIlgsp;
+        "fabric-26.1.2" = _r4bIlgsp;
+        "fabric-26.2" = _r4bIlgsp;
+        "fabric-26.3" = _r4bIlgsp;
         "quilt-1.21" = _6KQBhVXP;
         "quilt-1.21.1" = _6KQBhVXP;
         "quilt-1.21.2" = _NXKaWN8q;
@@ -106,16 +120,18 @@ let
         "quilt-1.21.9" = _c4OZpHeW;
         "quilt-1.21.10" = _c4OZpHeW;
         "quilt-1.21.11" = _c4OZpHeW;
-        "quilt-26.1" = _7c6jpy4W;
-        "quilt-26.1.1" = _7c6jpy4W;
-        "quilt-26.1.2" = _7c6jpy4W;
-        "quilt-26.2" = _7c6jpy4W;
+        "quilt-26.1" = _r4bIlgsp;
+        "quilt-26.1.1" = _r4bIlgsp;
+        "quilt-26.1.2" = _r4bIlgsp;
+        "quilt-26.2" = _r4bIlgsp;
+        "quilt-26.3" = _r4bIlgsp;
         "pkg-1.0" = _6KQBhVXP;
         "pkg-1.0.1" = _i5wMLm05;
         "pkg-1.0.2" = _Td0L7auD;
         "pkg-1.1.0" = _KHOsCZGm;
         "pkg-1.1.1" = _p6P778zx;
-        "default" = _p6P778zx;
+        "pkg-1.2.0" = _gQmbRZ27;
+        "default" = _gQmbRZ27;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "exploitation-timer";

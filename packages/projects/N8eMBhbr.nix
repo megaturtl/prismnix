@@ -86,6 +86,11 @@ let
             "file" = "offlinemodefix-1.0.1+26.1.2.jar";
             "hash" = "sha512-iOt1lMqSEBfqaYWgKWu3YPnh4jhVdY9t/W8W8CjT/Gvi5qx2IMIxTh0fb3tzHbyTstECg6qQJpEQRvhFFAtmCw==";
         };
+        _Lx2ysrDa = {
+            "id" = "Lx2ysrDa";
+            "file" = "offlinemodefix-1.0.1+26.3.jar";
+            "hash" = "sha512-4ph/g9TQL+/tVb79qJBdJ+QWq08UjIZmd6P9ElVxXvwcG4xRY5seHi2gALvv69eY3hAF5YmBxNRwenwObrKkOA==";
+        };
     in {
         "agAY0OfE" = _agAY0OfE;
         "sRaMBVtJ" = _sRaMBVtJ;
@@ -104,6 +109,7 @@ let
         "aKOuZeHb" = _aKOuZeHb;
         "83T51zRH" = _83T51zRH;
         "ZWVQpECG" = _ZWVQpECG;
+        "Lx2ysrDa" = _Lx2ysrDa;
         "fabric-1.20" = _BhVby9x6;
         "fabric-1.20.1" = _BhVby9x6;
         "fabric-1.20.2" = _BhVby9x6;
@@ -127,6 +133,7 @@ let
         "fabric-26.1.1" = _ZWVQpECG;
         "fabric-26.1.2" = _ZWVQpECG;
         "fabric-26.2" = _aKOuZeHb;
+        "fabric-26.3" = _Lx2ysrDa;
         "pkg-0.1.0+1.20.6" = _agAY0OfE;
         "pkg-0.1.0+1.21.1" = _sRaMBVtJ;
         "pkg-0.1.0+1.21.10" = _cJAdwmoU;
@@ -144,7 +151,8 @@ let
         "pkg-1.0.1+26.2" = _aKOuZeHb;
         "pkg-1.0.1+1.21.11" = _83T51zRH;
         "pkg-1.0.1+26.1.2" = _ZWVQpECG;
-        "default" = _ZWVQpECG;
+        "pkg-1.0.1+26.3" = _Lx2ysrDa;
+        "default" = _Lx2ysrDa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "offline-mode-fix";

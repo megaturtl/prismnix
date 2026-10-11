@@ -181,6 +181,16 @@ let
             "file" = "WhatTheBucket-fabric-MC26.2-26.2.0.1.jar";
             "hash" = "sha512-j1ko1WFmOZJx+/0jujhHmTZ9JrJMmAeTbgBhDlHkkBjpxcuth83Kc8D1Niomv4xRAPdbbPp1qKqq6UxR74+VpQ==";
         };
+        _bFbNivvO = {
+            "id" = "bFbNivvO";
+            "file" = "WhatTheBucket-fabric-MC26.3-26.3.0.1.jar";
+            "hash" = "sha512-2TQbtumejTQ//x0VvkhhZbQIMSOkDKs9wrSTz6Pj7P2LrBaZ88AdhBD9jV3IRi+pEXEN+g3B3PYeKD5EYhMrqA==";
+        };
+        _c70z09cU = {
+            "id" = "c70z09cU";
+            "file" = "WhatTheBucket-neoforge-MC26.3-26.3.0.1.jar";
+            "hash" = "sha512-g0OGWAyEy5+2N+NHJwxeyGcjNfX5woFfOHaOmW5JIwQLibwELDo0tG/+CrwJPpRr/d5cLCTc51HpwRZn1L8bUQ==";
+        };
     in {
         "vJozjfNv" = _vJozjfNv;
         "oEhWEUxQ" = _oEhWEUxQ;
@@ -218,6 +228,8 @@ let
         "hfuLyzmD" = _hfuLyzmD;
         "57OqIsOU" = _57OqIsOU;
         "AHq9VyLw" = _AHq9VyLw;
+        "bFbNivvO" = _bFbNivvO;
+        "c70z09cU" = _c70z09cU;
         "fabric-1.20" = _QxtxjDCL;
         "fabric-1.20.1" = _AEuWqKt4;
         "fabric-1.20.2" = _RfKeNlSy;
@@ -228,6 +240,7 @@ let
         "fabric-26.1.1" = _hfuLyzmD;
         "fabric-26.1.2" = _hfuLyzmD;
         "fabric-26.2" = _AHq9VyLw;
+        "fabric-26.3" = _bFbNivvO;
         "forge-1.20" = _ENmWDPlc;
         "forge-1.20.1" = _zSX1ghGz;
         "forge-1.20.2" = _h3k53SId;
@@ -242,6 +255,7 @@ let
         "neoforge-26.1.1" = _J8ewhtEW;
         "neoforge-26.1.2" = _J8ewhtEW;
         "neoforge-26.2" = _57OqIsOU;
+        "neoforge-26.3" = _c70z09cU;
         "quilt-1.21.1" = _uS1zFXq1;
         "pkg-10.0.1" = _oEhWEUxQ;
         "pkg-11.0.1" = _L7TkEAvq;
@@ -258,7 +272,8 @@ let
         "pkg-26.1.2.1" = _3ov1487U;
         "pkg-26.1.2.2" = _hfuLyzmD;
         "pkg-26.2.0.1" = _AHq9VyLw;
-        "default" = _AHq9VyLw;
+        "pkg-26.3.0.1" = _c70z09cU;
+        "default" = _c70z09cU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "what-the-bucket";

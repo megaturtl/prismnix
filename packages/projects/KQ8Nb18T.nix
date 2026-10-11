@@ -41,6 +41,11 @@ let
             "file" = "better-player-visibility-1.0.2+26.2.jar";
             "hash" = "sha512-We2ijf1Fe+0p/2zOrr25cyQn54KSbO0/50zW3sqhCbRbcllSo9JW6y7EBFSG7Pn8m02yjGuE/+OoNWzaDhGpyA==";
         };
+        _LEPwLaQ6 = {
+            "id" = "LEPwLaQ6";
+            "file" = "better-player-visibility-1.0.2+26.3.jar";
+            "hash" = "sha512-tMcNhS5ZsL4TH+UZPh8w+DEIYTb6waKsKgcSRyovXd8/pruBI5aUC8BcTG2/P3WcEuyonVhu18RXf8gBYvxOgA==";
+        };
     in {
         "dFhhzMvS" = _dFhhzMvS;
         "ZfsGrNA4" = _ZfsGrNA4;
@@ -50,6 +55,7 @@ let
         "7e3KAD5z" = _7e3KAD5z;
         "fN2bF1Ja" = _fN2bF1Ja;
         "q8a6FcP2" = _q8a6FcP2;
+        "LEPwLaQ6" = _LEPwLaQ6;
         "fabric-1.21" = _dFhhzMvS;
         "fabric-1.21.1" = _dFhhzMvS;
         "fabric-1.21.2" = _ZfsGrNA4;
@@ -66,6 +72,7 @@ let
         "fabric-26.1.1" = _fN2bF1Ja;
         "fabric-26.1.2" = _fN2bF1Ja;
         "fabric-26.2" = _q8a6FcP2;
+        "fabric-26.3" = _LEPwLaQ6;
         "pkg-1.0.0+1.21" = _dFhhzMvS;
         "pkg-1.0.0+1.21.2" = _ZfsGrNA4;
         "pkg-1.0.0+1.21.9" = _CdFz3qgr;
@@ -74,7 +81,8 @@ let
         "pkg-1.0.2+1.21.11" = _7e3KAD5z;
         "pkg-1.0.2+26.1" = _fN2bF1Ja;
         "pkg-1.0.2+26.2" = _q8a6FcP2;
-        "default" = _q8a6FcP2;
+        "pkg-1.0.2+26.3" = _LEPwLaQ6;
+        "default" = _LEPwLaQ6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-player-visibility";

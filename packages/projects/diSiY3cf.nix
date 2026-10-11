@@ -56,6 +56,21 @@ let
             "file" = "namedtraders-fabric-2.0.0+26.2.jar";
             "hash" = "sha512-mWzBFOSt6OR1yGnVRMtq2c0tHWumjrr3/CiWIZ/18TfEYlM5jNpAer7/+MddfndQGPDSxmQ5ni5Ni7gaIbu5sw==";
         };
+        _AhRl4Tvk = {
+            "id" = "AhRl4Tvk";
+            "file" = "namedtraders-neoforge-2.0.0+26.3.jar";
+            "hash" = "sha512-9mbbKt5Ah3SQ0qnHTF9uKmgO3PJ1klpaJ2pqoqJq9Zkkrp7YZmOhQyJltdZ+fzDz9Xz4e4PKunXBmCUA9R5VjQ==";
+        };
+        _KCYf3rBf = {
+            "id" = "KCYf3rBf";
+            "file" = "namedtraders-fabric-2.0.0+26.3.jar";
+            "hash" = "sha512-dspVJHFSFWbSrCXrcbl9Lb4WnxatrLIKjEMctvdM5ynugwfRJJJbZSdDQBhKmNQIOJYBrN0SGo5212gs6rJ+3Q==";
+        };
+        _hYGIfYwN = {
+            "id" = "hYGIfYwN";
+            "file" = "namedtraders-forge-2.0.0+26.3.jar";
+            "hash" = "sha512-fHKMV2bP+Hh2tcJP4Y9Oot3VgEgg3+Zz+IORLsGE3XjZoedlpHT0w4rFRPC5O2TRTmDAR8zkfYkcob2UsQnluA==";
+        };
     in {
         "zVZufAE5" = _zVZufAE5;
         "v0K0maGL" = _v0K0maGL;
@@ -68,6 +83,9 @@ let
         "TfNyeSQm" = _TfNyeSQm;
         "jxBz1BwE" = _jxBz1BwE;
         "gCtgXjhr" = _gCtgXjhr;
+        "AhRl4Tvk" = _AhRl4Tvk;
+        "KCYf3rBf" = _KCYf3rBf;
+        "hYGIfYwN" = _hYGIfYwN;
         "fabric-1.19" = _zVZufAE5;
         "fabric-1.19.1" = _zVZufAE5;
         "fabric-1.19.2" = _zVZufAE5;
@@ -96,6 +114,7 @@ let
         "fabric-26.1.1" = _OHXOPcz2;
         "fabric-26.1.2" = _OHXOPcz2;
         "fabric-26.2" = _gCtgXjhr;
+        "fabric-26.3" = _KCYf3rBf;
         "quilt-1.19" = _zVZufAE5;
         "quilt-1.19.1" = _zVZufAE5;
         "quilt-1.19.2" = _zVZufAE5;
@@ -124,14 +143,17 @@ let
         "quilt-26.1.1" = _OHXOPcz2;
         "quilt-26.1.2" = _OHXOPcz2;
         "quilt-26.2" = _gCtgXjhr;
+        "quilt-26.3" = _KCYf3rBf;
         "forge-26.1" = _5YnmcxqL;
         "forge-26.1.1" = _5YnmcxqL;
         "forge-26.1.2" = _5YnmcxqL;
         "forge-26.2" = _TfNyeSQm;
+        "forge-26.3" = _hYGIfYwN;
         "neoforge-26.1" = _wUAViowH;
         "neoforge-26.1.1" = _wUAViowH;
         "neoforge-26.1.2" = _wUAViowH;
         "neoforge-26.2" = _jxBz1BwE;
+        "neoforge-26.3" = _AhRl4Tvk;
         "pkg-1.0.0+1.19" = _zVZufAE5;
         "pkg-1.0.0+1.19.3" = _v0K0maGL;
         "pkg-1.1.0+1.20" = _FvqfQr1u;
@@ -143,7 +165,10 @@ let
         "pkg-2.0.0+26.2-forge" = _TfNyeSQm;
         "pkg-2.0.0+26.2-neoforge" = _jxBz1BwE;
         "pkg-2.0.0+26.2-fabric" = _gCtgXjhr;
-        "default" = _gCtgXjhr;
+        "pkg-2.0.0+26.3-neoforge" = _AhRl4Tvk;
+        "pkg-2.0.0+26.3-fabric" = _KCYf3rBf;
+        "pkg-2.0.0+26.3-forge" = _hYGIfYwN;
+        "default" = _hYGIfYwN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "named-traders";

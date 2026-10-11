@@ -21,17 +21,24 @@ let
             "file" = "SableStuffAdditionsCompat v1.0.3-1.21.1.jar";
             "hash" = "sha512-86s1wdyEC7QvBbp9QXAWno2xQfZ+blpeCzOw5pLFuGyWugWTRDQ2vSVFmFlqJ8FkP6055HYym8xnbnaKnKnOGA==";
         };
+        _iGTmXDCM = {
+            "id" = "iGTmXDCM";
+            "file" = "sable_sa_compat-1.0.4.jar";
+            "hash" = "sha512-8LTsuqqhiG45KQH8bhMYc1Nq8EtRw9xDtnvNJ28y3K7QfqnLGXZ/YuDR6R5bevbNuQqOjoJf6i3Dse2IXslX9A==";
+        };
     in {
         "YluKuu71" = _YluKuu71;
         "SgGiJyt2" = _SgGiJyt2;
         "QSswHdAJ" = _QSswHdAJ;
         "oOYLBz7M" = _oOYLBz7M;
-        "neoforge-1.21.1" = _oOYLBz7M;
+        "iGTmXDCM" = _iGTmXDCM;
+        "neoforge-1.21.1" = _iGTmXDCM;
         "pkg-1.0.0" = _YluKuu71;
         "pkg-1.0.1" = _SgGiJyt2;
         "pkg-1.0.2" = _QSswHdAJ;
         "pkg-1.0.3" = _oOYLBz7M;
-        "default" = _oOYLBz7M;
+        "pkg-1.0.4" = _iGTmXDCM;
+        "default" = _iGTmXDCM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-stuff-n-additions-x-sable-aeronautics-compat";

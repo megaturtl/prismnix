@@ -36,6 +36,11 @@ let
             "file" = "scream_disappear_ds-1.1.1.jar";
             "hash" = "sha512-1kdhbrZ3qrF+8x1gHJT705GTzB0brTPy5afGBDGDr6XzuxjcN5S0H/FJoMW67f86Gd7c5ZsXDKddRB2VOptraw==";
         };
+        _EwRTWi11 = {
+            "id" = "EwRTWi11";
+            "file" = "scream_disappear_ds-1.1.1.jar";
+            "hash" = "sha512-AcaziKwrzPyowsG83w9bMiGk89ZSdoOCqREH0FXxuMXE/WMI+pM89ajn0dz3gv8i43nlvdvWaazvB94yGJqoPw==";
+        };
     in {
         "4lQJ5pxv" = _4lQJ5pxv;
         "DxeaMrvb" = _DxeaMrvb;
@@ -44,6 +49,7 @@ let
         "adCQdOEa" = _adCQdOEa;
         "toPxF3kl" = _toPxF3kl;
         "PrNDe075" = _PrNDe075;
+        "EwRTWi11" = _EwRTWi11;
         "forge-1.20.1" = _adCQdOEa;
         "forge-1.20.2" = _4lQJ5pxv;
         "forge-1.20.3" = _4lQJ5pxv;
@@ -55,9 +61,10 @@ let
         "forge-1.19.4" = _oG8x6ahN;
         "neoforge-1.21.1" = _toPxF3kl;
         "neoforge-1.21.11" = _PrNDe075;
+        "neoforge-26.3" = _EwRTWi11;
         "pkg-1.1.0" = _I7582agC;
-        "pkg-1.1.1" = _PrNDe075;
-        "default" = _PrNDe075;
+        "pkg-1.1.1" = _EwRTWi11;
+        "default" = _EwRTWi11;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "screamdisappear-death-sounds";

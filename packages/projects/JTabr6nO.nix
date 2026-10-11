@@ -186,6 +186,11 @@ let
             "file" = "Pixel Perfection Fidelity vBP-2.0-2-2a  1.9-1.10.2.zip";
             "hash" = "sha512-RYvQim4IYtBoKCY6pO4S1qMHqwX5QxQD5c4V55D4tZuzqMJgTm+qefBlbe3iutyd7o+bTd3Nhe880k6b93BDNA==";
         };
+        _TFXxAeiO = {
+            "id" = "TFXxAeiO";
+            "file" = "Pixel Perfection Fidelity vR2.0-88.97  26.2-26.3.zip";
+            "hash" = "sha512-NSsf421tRuTaVvIL2MPl+yxn6PfZ6EbwTB7FPKWMJshuIvDXANlaBDFJ5VFfPRcyRDpyjpuUGmcfWattNc58Rg==";
+        };
     in {
         "nEElTKsF" = _nEElTKsF;
         "cz6HFQjk" = _cz6HFQjk;
@@ -224,6 +229,7 @@ let
         "ojtmGwWH" = _ojtmGwWH;
         "x4K5tiVu" = _x4K5tiVu;
         "5CZ3GSee" = _5CZ3GSee;
+        "TFXxAeiO" = _TFXxAeiO;
         "minecraft-1.21" = _VmoghqbR;
         "minecraft-1.21.1" = _VmoghqbR;
         "minecraft-1.21.2" = _8Q5VerD0;
@@ -295,7 +301,7 @@ let
         "minecraft-1.18.2" = _WFfOULBQ;
         "minecraft-1.17" = _alNIgclx;
         "minecraft-1.17.1" = _alNIgclx;
-        "minecraft-26.2" = _1Te6iSNt;
+        "minecraft-26.2" = _TFXxAeiO;
         "minecraft-1.16.2" = _ItBs3OLF;
         "minecraft-1.16.3" = _ItBs3OLF;
         "minecraft-1.16.4" = _ItBs3OLF;
@@ -313,6 +319,7 @@ let
         "minecraft-1.14.2" = _kyJTIHW5;
         "minecraft-1.14.3" = _kyJTIHW5;
         "minecraft-1.14.4" = _kyJTIHW5;
+        "minecraft-26.3" = _TFXxAeiO;
         "pkg-A-0.1-34.69" = _nEElTKsF;
         "pkg-B-0.2-34.75" = _cz6HFQjk;
         "pkg-B-0.3-34.75" = _sAFB5KE3;
@@ -350,7 +357,8 @@ let
         "pkg-BP-2.0-1-3a" = _ojtmGwWH;
         "pkg-BP-2.0-3-2a" = _x4K5tiVu;
         "pkg-BP-2.0-2-2a" = _5CZ3GSee;
-        "default" = _5CZ3GSee;
+        "pkg-R2.0-88.97" = _TFXxAeiO;
+        "default" = _TFXxAeiO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pixel-perfection-fidelity";

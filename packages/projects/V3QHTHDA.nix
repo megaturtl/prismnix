@@ -56,6 +56,21 @@ let
             "file" = "dap-ur-homies-3.0.0+mc-1.21.11-alpha-2.jar";
             "hash" = "sha512-/gxQSDCRZUHhCY28Af6WiQVmcciH2hUv0yxAeKVi6c5rlxnVCS+CQIM/IGU1wboSvqIIpu/TTwZGag6IGY1+CQ==";
         };
+        _Jv6LDIOq = {
+            "id" = "Jv6LDIOq";
+            "file" = "Dap ur Homie-1.21.1-3.0.0.jar";
+            "hash" = "sha512-X0S+O5TxbqQKqKSU37U+Ua+Av7a79Am3zHEp3+z4BTxY2fiDjLHTOyMVqKMRhd79wGLbrKrC+RW9NYi6is7l9Q==";
+        };
+        _pJ8vP6eE = {
+            "id" = "pJ8vP6eE";
+            "file" = "DAP ur homie-1.21.11-3.0.0.jar";
+            "hash" = "sha512-MPD1fME8ZzWy107S7LqAqTiVm5KuwgQ1DiSlllQNUkKhVVkT/b14qfFgNnhCEfBfbLnCxq77E084gn90CjYfgQ==";
+        };
+        _vgW4ls0k = {
+            "id" = "vgW4ls0k";
+            "file" = "Dap ur Homie-1.21.1-3.0.0.jar";
+            "hash" = "sha512-X0S+O5TxbqQKqKSU37U+Ua+Av7a79Am3zHEp3+z4BTxY2fiDjLHTOyMVqKMRhd79wGLbrKrC+RW9NYi6is7l9Q==";
+        };
     in {
         "2hfdVsuD" = _2hfdVsuD;
         "fAVDiGrc" = _fAVDiGrc;
@@ -68,19 +83,22 @@ let
         "HugFBGsp" = _HugFBGsp;
         "Mz3BBWxA" = _Mz3BBWxA;
         "u7JXat1B" = _u7JXat1B;
-        "fabric-1.21.1" = _zebkqumN;
-        "fabric-1.21.11" = _u7JXat1B;
-        "neoforge-1.21.1" = _W02uSI93;
+        "Jv6LDIOq" = _Jv6LDIOq;
+        "pJ8vP6eE" = _pJ8vP6eE;
+        "vgW4ls0k" = _vgW4ls0k;
+        "fabric-1.21.1" = _Jv6LDIOq;
+        "fabric-1.21.11" = _pJ8vP6eE;
+        "neoforge-1.21.1" = _vgW4ls0k;
         "neoforge-1.21.11" = _Mz3BBWxA;
         "pkg-1.0.0" = _fAVDiGrc;
         "pkg-1.2.0" = _zKsiim7d;
         "pkg-2.0.0" = _ODQpWsEc;
         "pkg-2.2.1" = _dfSSTarO;
         "pkg-1.0.0+mc-1.21.11-alpha-2" = _oWy82JZc;
-        "pkg-3.0.0" = _zebkqumN;
+        "pkg-3.0.0" = _vgW4ls0k;
         "pkg-2.0.0+mc-1.21.11-beta-2" = _Mz3BBWxA;
         "pkg-3.0.0+mc-1.21.11-alpha-2" = _u7JXat1B;
-        "default" = _u7JXat1B;
+        "default" = _vgW4ls0k;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dap-ur-homies";

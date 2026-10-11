@@ -26,19 +26,26 @@ let
             "file" = "vanilla_logistics-5.jar";
             "hash" = "sha512-brfGeT4607/PpjmcJE5okDygVDntqSw5D/6HzPnF6m4Fyr5jBsBpjz78JUZyEBQDRNbfYqyOGFOdZFK9S4TFmg==";
         };
+        _tOWGK1hE = {
+            "id" = "tOWGK1hE";
+            "file" = "vanilla_logistics-6.jar";
+            "hash" = "sha512-K6aoIFjLS/dSTfPEKej3tBfd26AmPij0jJPlYXVhqIm0JNzeFW3MKH3uauDCw6iErbM7x029XGA07MYrh5fqNA==";
+        };
     in {
         "obnJIpNJ" = _obnJIpNJ;
         "uaShLn05" = _uaShLn05;
         "OMK7pB96" = _OMK7pB96;
         "EucGaLrm" = _EucGaLrm;
         "d1Sxl1QQ" = _d1Sxl1QQ;
-        "neoforge-1.21.1" = _d1Sxl1QQ;
+        "tOWGK1hE" = _tOWGK1hE;
+        "neoforge-1.21.1" = _tOWGK1hE;
         "pkg-1" = _obnJIpNJ;
         "pkg-2" = _uaShLn05;
         "pkg-3" = _OMK7pB96;
         "pkg-4" = _EucGaLrm;
         "pkg-5" = _d1Sxl1QQ;
-        "default" = _d1Sxl1QQ;
+        "pkg-6" = _tOWGK1hE;
+        "default" = _tOWGK1hE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanilla-logistics";

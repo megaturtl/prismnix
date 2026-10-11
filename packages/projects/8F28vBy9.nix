@@ -31,6 +31,16 @@ let
             "file" = "zombiegamereborn-2.0.1.jar";
             "hash" = "sha512-CujKOCKjL69K8LWO5F2JGlUAi8YxhfEKRqePIssGI9Cz3ULlo/aSEIzlRX9P5J4Kpr3Ropx5wu068NRb3s4/Dg==";
         };
+        _S8eHZ6ij = {
+            "id" = "S8eHZ6ij";
+            "file" = "zombiegamereborn-2.1.0.jar";
+            "hash" = "sha512-BJDup9CSKX6FA710LQ9QQ2QKFGzGK3K/OfYRrQ2eqbl4tPwX+2g5B0I+1/rqnvYiad/0UkO/R/uHjWhMaEwd9g==";
+        };
+        _dQFiguB6 = {
+            "id" = "dQFiguB6";
+            "file" = "zombiegamereborn-2.1.0-neoforge-1.21.1.jar";
+            "hash" = "sha512-t0DjSoHUWL7JRyaIzOHHC7BDmm2P03zGJN28APJSIeuh9b7lDBNoAOJw1ngtjKoiKp9AwmeNBrUiabpl6aGuzg==";
+        };
     in {
         "dJaRUBAg" = _dJaRUBAg;
         "hOLa1vW1" = _hOLa1vW1;
@@ -38,19 +48,23 @@ let
         "6wxX4p2Z" = _6wxX4p2Z;
         "1MDrbin9" = _1MDrbin9;
         "VjF1FdmE" = _VjF1FdmE;
-        "forge-1.20.1" = _VjF1FdmE;
+        "S8eHZ6ij" = _S8eHZ6ij;
+        "dQFiguB6" = _dQFiguB6;
+        "forge-1.20.1" = _S8eHZ6ij;
         "forge-1.20.2" = _6wxX4p2Z;
         "forge-1.20.3" = _6wxX4p2Z;
         "forge-1.20.4" = _6wxX4p2Z;
         "forge-1.20.5" = _6wxX4p2Z;
         "forge-1.20.6" = _6wxX4p2Z;
+        "neoforge-1.21.1" = _dQFiguB6;
         "pkg-1.0" = _dJaRUBAg;
         "pkg-1.1.1" = _hOLa1vW1;
         "pkg-1.2" = _hoSmgwLQ;
         "pkg-1.3" = _6wxX4p2Z;
         "pkg-1.4" = _1MDrbin9;
         "pkg-2.0.1" = _VjF1FdmE;
-        "default" = _VjF1FdmE;
+        "pkg-2.1.0" = _dQFiguB6;
+        "default" = _dQFiguB6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zombiegamereborn";

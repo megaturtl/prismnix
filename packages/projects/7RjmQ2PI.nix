@@ -121,6 +121,21 @@ let
             "file" = "functional_trims-2.2.1-(26.2.x).jar";
             "hash" = "sha512-uMjJG2aIphXl1BCUiXBRc+QOq0tn/3UeBQz7KS1OrzUoI536yugt8RA+JJGMR1wnbtSG7T7zoecu9xoOBOi9IQ==";
         };
+        _mO2Lsi8h = {
+            "id" = "mO2Lsi8h";
+            "file" = "functional_trims-2.0.2.jar";
+            "hash" = "sha512-ZaO1hFMtgQJa8R/F7svCMQKh2mj9dKZwNIOQvQZ2j2QECRtad8V5aAZBs4eb09H1uijGg4FNX9V7iSopCUqcLA==";
+        };
+        _cW04Biq9 = {
+            "id" = "cW04Biq9";
+            "file" = "functional_trims-fabric-2.3.0+26.2.jar";
+            "hash" = "sha512-G1nIq+WyxumB1Wd+FsW0d408qnhdJKgFsVNEb1ryZ5f1UQIXO7XLfSSrtW7Ztk+xzTUJIyK+yTGoZI+CAxG/5A==";
+        };
+        _MeZzcMve = {
+            "id" = "MeZzcMve";
+            "file" = "functional_trims-neoforge-2.3.0+26.2.jar";
+            "hash" = "sha512-mVsiIPdsHf4bNys2GLRut/BonICz5CZ9ujU+M48OS3mnznQS+Ro9+4RZf8V4jaC7AWDrHmJfVeCdrmoCz0K1hg==";
+        };
     in {
         "DQTSA2Oj" = _DQTSA2Oj;
         "90lY0kT5" = _90lY0kT5;
@@ -146,15 +161,18 @@ let
         "SR7CZcKL" = _SR7CZcKL;
         "vppXgc3O" = _vppXgc3O;
         "XbHSRFhv" = _XbHSRFhv;
+        "mO2Lsi8h" = _mO2Lsi8h;
+        "cW04Biq9" = _cW04Biq9;
+        "MeZzcMve" = _MeZzcMve;
         "fabric-1.21.8" = _QBPpkjkq;
         "fabric-1.21.9" = _Jx7FEyZo;
         "fabric-1.21.10" = _Jx7FEyZo;
         "fabric-1.21.11" = _eR1kCp5w;
-        "fabric-1.21.1" = _GbaQ5Wbi;
+        "fabric-1.21.1" = _mO2Lsi8h;
         "fabric-26.1" = _vppXgc3O;
         "fabric-26.1.1" = _vppXgc3O;
         "fabric-26.1.2" = _vppXgc3O;
-        "fabric-26.2" = _XbHSRFhv;
+        "fabric-26.2" = _cW04Biq9;
         "quilt-1.21.8" = _QBPpkjkq;
         "quilt-1.21.9" = _Jx7FEyZo;
         "quilt-1.21.10" = _Jx7FEyZo;
@@ -164,6 +182,7 @@ let
         "quilt-26.1.1" = _vppXgc3O;
         "quilt-26.1.2" = _vppXgc3O;
         "quilt-26.2" = _XbHSRFhv;
+        "neoforge-26.2" = _MeZzcMve;
         "pkg-0.5.0" = _DQTSA2Oj;
         "pkg-0.6.0" = _90lY0kT5;
         "pkg-0.7.0" = _9KKI32A3;
@@ -176,7 +195,10 @@ let
         "pkg-2.1.0" = _BGRNtrFP;
         "pkg-2.2.0" = _SR7CZcKL;
         "pkg-2.2.1" = _XbHSRFhv;
-        "default" = _XbHSRFhv;
+        "pkg-2.0.2+1.21.1" = _mO2Lsi8h;
+        "pkg-2.3.0+26.2-fabric" = _cW04Biq9;
+        "pkg-2.3.0+26.2-neoforge" = _MeZzcMve;
+        "default" = _MeZzcMve;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "functional_trims";

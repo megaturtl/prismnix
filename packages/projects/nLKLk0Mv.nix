@@ -41,6 +41,11 @@ let
             "file" = "speedometermod-1.1.0-26.2.jar";
             "hash" = "sha512-wxbg6A283TnUCBX/8zoMyMq6y1zv4XO+4/ryfsrfV8k4+r7NRUR4EK4VyU+T8UHmN+o8rU3GWf78kV/tAAI44Q==";
         };
+        _QQNxEyI4 = {
+            "id" = "QQNxEyI4";
+            "file" = "speedometermod-1.1.0+26.3.jar";
+            "hash" = "sha512-oCOInM/ffehGNm7cmb7vLZLEVaAqjg4fkTeKlK4J6la0kcgBP9+xu8nl2Fh/W2PZQr80TFpIX7r1MTYBFt6FUA==";
+        };
     in {
         "mpmm5K92" = _mpmm5K92;
         "LqGpj4Ya" = _LqGpj4Ya;
@@ -50,6 +55,7 @@ let
         "hAFGLFrG" = _hAFGLFrG;
         "Wm6TeZuW" = _Wm6TeZuW;
         "5hOOiCvw" = _5hOOiCvw;
+        "QQNxEyI4" = _QQNxEyI4;
         "fabric-1.21" = _Wm6TeZuW;
         "fabric-1.21.1" = _Wm6TeZuW;
         "fabric-1.21.2" = _Wm6TeZuW;
@@ -66,9 +72,10 @@ let
         "fabric-26.1.1" = _hAFGLFrG;
         "fabric-26.1.2" = _hAFGLFrG;
         "fabric-26.2" = _5hOOiCvw;
+        "fabric-26.3" = _QQNxEyI4;
         "pkg-1.0.0" = _inLJFc5W;
-        "pkg-1.1.0" = _5hOOiCvw;
-        "default" = _5hOOiCvw;
+        "pkg-1.1.0" = _QQNxEyI4;
+        "default" = _QQNxEyI4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "speedometermod";

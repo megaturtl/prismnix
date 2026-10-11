@@ -161,6 +161,7 @@ let
         "paper-26.1.1" = _m6vw9Wa3;
         "paper-26.1.2" = _m6vw9Wa3;
         "paper-26.2" = _m6vw9Wa3;
+        "paper-26.3" = _m6vw9Wa3;
         "purpur-1.16" = _WBdv1O5j;
         "purpur-1.16.1" = _WBdv1O5j;
         "purpur-1.16.2" = _WBdv1O5j;
@@ -200,6 +201,7 @@ let
         "purpur-26.1.1" = _m6vw9Wa3;
         "purpur-26.1.2" = _m6vw9Wa3;
         "purpur-26.2" = _m6vw9Wa3;
+        "purpur-26.3" = _m6vw9Wa3;
         "pkg-1.9.3" = _mVog6XrI;
         "pkg-1.9.5" = _hLMJAEpr;
         "pkg-1.9.6" = _HLhbJ7Cv;

@@ -116,6 +116,11 @@ let
             "file" = "baleofsugarcane-v1.0.0-fabric-1.21.10.jar";
             "hash" = "sha512-CdU9s0XqO0cXhW4yKm0/swkQ80A8L5jkV9lnAHTkP/xA3tSP3/XzJchT+B9zAxKg2IqQ1u1lFusGrW4jxUULzw==";
         };
+        _kHg5UE3q = {
+            "id" = "kHg5UE3q";
+            "file" = "baleofsugarcane-neoforge-1.0.1+26.1.2.jar";
+            "hash" = "sha512-bpaIab1CaGj1UvOKZ/DIn1+Iq9pIbfeXEZuUnm5hO63yAiArGt5xVguo7qGQg89lgebtNW3mlyndVKV+KCk9VQ==";
+        };
     in {
         "XrOZhRxm" = _XrOZhRxm;
         "pUOK1L4g" = _pUOK1L4g;
@@ -140,9 +145,11 @@ let
         "qA3FzzfO" = _qA3FzzfO;
         "PHCllJKu" = _PHCllJKu;
         "Y34e5YK2" = _Y34e5YK2;
+        "kHg5UE3q" = _kHg5UE3q;
         "quilt-1.20.1" = _XrOZhRxm;
         "neoforge-1.20.2" = _pUOK1L4g;
         "neoforge-1.20.4" = _pUOK1L4g;
+        "neoforge-26.1.2" = _kHg5UE3q;
         "fabric-1.14.4" = _OPxK7DoD;
         "fabric-1.15.2" = _YEB0ZuYl;
         "fabric-1.16.5" = _6cjmrELZ;
@@ -171,8 +178,8 @@ let
         "pkg-1.1.0" = _XkUNfjZX;
         "pkg-1.2.0" = _WY6VJtNB;
         "pkg-1.0.0" = _Y34e5YK2;
-        "pkg-1.0.1" = _tPrcQmci;
-        "default" = _Y34e5YK2;
+        "pkg-1.0.1" = _kHg5UE3q;
+        "default" = _kHg5UE3q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bale-of-sugar-cane";

@@ -31,6 +31,16 @@ let
             "file" = "void-totem-3.jar";
             "hash" = "sha512-0zObFdnhrQyjcB1gS3ldbwjcenbsY9HeBZO73wMyZiZEveEzOFly6RLtF7/sT+4KR3d1ZAhUc3xTKVDbgsIdwg==";
         };
+        _Y4Vi6HTN = {
+            "id" = "Y4Vi6HTN";
+            "file" = "Void Totem 26.3.zip";
+            "hash" = "sha512-IQM330oou/eBKI5Q1HH2GcoLuGjGv9tyP32ZJqZUWoyyC9Y/cateqf2abzoex2V93XJ333SJQ6NRQXmtZskXIg==";
+        };
+        _MNq9Vbqd = {
+            "id" = "MNq9Vbqd";
+            "file" = "void-totem-v4.jar";
+            "hash" = "sha512-4gprivNXkwxBCgJOJKNt6cyeeHGLb6AOhUNTfc7GScoPJH5rlCcJ8EVuJm3mulzaplHFqiYVDFlofWsXqGxVLA==";
+        };
     in {
         "vHmpfIh9" = _vHmpfIh9;
         "y0FyIhKV" = _y0FyIhKV;
@@ -38,6 +48,8 @@ let
         "jWJNc4XO" = _jWJNc4XO;
         "us8Nj0PM" = _us8Nj0PM;
         "WKJx246r" = _WKJx246r;
+        "Y4Vi6HTN" = _Y4Vi6HTN;
+        "MNq9Vbqd" = _MNq9Vbqd;
         "datapack-1.20.2" = _us8Nj0PM;
         "datapack-1.20.3" = _us8Nj0PM;
         "datapack-1.20.4" = _us8Nj0PM;
@@ -59,6 +71,7 @@ let
         "datapack-26.1.1" = _us8Nj0PM;
         "datapack-26.1.2" = _us8Nj0PM;
         "datapack-26.2" = _us8Nj0PM;
+        "datapack-26.3" = _Y4Vi6HTN;
         "fabric-1.20.2" = _WKJx246r;
         "fabric-1.20.3" = _WKJx246r;
         "fabric-1.20.4" = _WKJx246r;
@@ -80,6 +93,7 @@ let
         "fabric-26.1.1" = _WKJx246r;
         "fabric-26.1.2" = _WKJx246r;
         "fabric-26.2" = _WKJx246r;
+        "fabric-26.3" = _MNq9Vbqd;
         "forge-1.20.2" = _WKJx246r;
         "forge-1.20.3" = _WKJx246r;
         "forge-1.20.4" = _WKJx246r;
@@ -101,6 +115,7 @@ let
         "forge-26.1.1" = _WKJx246r;
         "forge-26.1.2" = _WKJx246r;
         "forge-26.2" = _WKJx246r;
+        "forge-26.3" = _MNq9Vbqd;
         "neoforge-1.20.2" = _WKJx246r;
         "neoforge-1.20.3" = _WKJx246r;
         "neoforge-1.20.4" = _WKJx246r;
@@ -122,6 +137,7 @@ let
         "neoforge-26.1.1" = _WKJx246r;
         "neoforge-26.1.2" = _WKJx246r;
         "neoforge-26.2" = _WKJx246r;
+        "neoforge-26.3" = _MNq9Vbqd;
         "quilt-1.20.2" = _WKJx246r;
         "quilt-1.20.3" = _WKJx246r;
         "quilt-1.20.4" = _WKJx246r;
@@ -143,13 +159,16 @@ let
         "quilt-26.1.1" = _WKJx246r;
         "quilt-26.1.2" = _WKJx246r;
         "quilt-26.2" = _WKJx246r;
+        "quilt-26.3" = _MNq9Vbqd;
         "pkg-1" = _vHmpfIh9;
         "pkg-1+mod" = _y0FyIhKV;
         "pkg-2" = _RNNwpQ7H;
         "pkg-2+mod" = _jWJNc4XO;
         "pkg-3" = _us8Nj0PM;
         "pkg-3+mod" = _WKJx246r;
-        "default" = _WKJx246r;
+        "pkg-4" = _Y4Vi6HTN;
+        "pkg-4+mod" = _MNq9Vbqd;
+        "default" = _MNq9Vbqd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "void-totem";

@@ -141,6 +141,11 @@ let
             "file" = "sessility-fabric-mod-0.7.11.jar";
             "hash" = "sha512-2nMhJ+bjpnDKOsLtMN7IQGNSKRo5e8Uy5FpCBOdm7RmiOxjAT4oECsj1b7esV8giyooo/gwLnoGjg8W1+6CarA==";
         };
+        _ug03o8jc = {
+            "id" = "ug03o8jc";
+            "file" = "sessility-fabric-mod-0.7.12.jar";
+            "hash" = "sha512-ikZhtJISwUy1/9pkh2pDbUMzJcOMx98gIQ2okfPGT1ervcvGp5LQwQ9QfsUAjc0o+4QU7Yrq3Lr1ypMh/p4caw==";
+        };
     in {
         "1ZarPTKJ" = _1ZarPTKJ;
         "SapH1F0U" = _SapH1F0U;
@@ -170,6 +175,7 @@ let
         "pwImqHDL" = _pwImqHDL;
         "qrvW3i59" = _qrvW3i59;
         "FXAk1zu8" = _FXAk1zu8;
+        "ug03o8jc" = _ug03o8jc;
         "fabric-1.19" = _SapH1F0U;
         "fabric-1.19.1" = _cS0lXSSQ;
         "fabric-1.19.2" = _cS0lXSSQ;
@@ -197,6 +203,7 @@ let
         "fabric-26.1.1" = _pwImqHDL;
         "fabric-26.1.2" = _qrvW3i59;
         "fabric-26.2" = _FXAk1zu8;
+        "fabric-26.3" = _ug03o8jc;
         "pkg-0.1" = _1ZarPTKJ;
         "pkg-0.2" = _SapH1F0U;
         "pkg-0.2.1" = _cS0lXSSQ;
@@ -225,7 +232,8 @@ let
         "pkg-0.7.9" = _pwImqHDL;
         "pkg-0.7.10" = _qrvW3i59;
         "pkg-0.7.11" = _FXAk1zu8;
-        "default" = _FXAk1zu8;
+        "pkg-0.7.12" = _ug03o8jc;
+        "default" = _ug03o8jc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sessility";

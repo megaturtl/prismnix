@@ -561,6 +561,36 @@ let
             "file" = "monolib-neoforge-26.1.2-4.1.1.jar";
             "hash" = "sha512-Ax2ctxFdonI/iLXmPQokk9h7aKw9qx4uuk4T6th3SqXASWu1ja1FzBBFQqax3SQnflFv8HIHrG3ZYFmjprzXgA==";
         };
+        _P4nbI5Ba = {
+            "id" = "P4nbI5Ba";
+            "file" = "monolib-fabric-1.20.1-4.1.2.jar";
+            "hash" = "sha512-8mhzirD+tGM+oN67zmF1vjv1dLaCBhoeZM5EnriWKJr73IdBqX55s2LBguK4j+4n4JxF7yiuzU/RXB367YA3JA==";
+        };
+        _njYIJ5XO = {
+            "id" = "njYIJ5XO";
+            "file" = "monolib-forge-1.20.1-4.1.2.jar";
+            "hash" = "sha512-E1c3h2KJEUpDtf+9lNAVkyT8yvdSZ35QnYQFLLMRJqMDRUJTG0imTN1fnBUhiVpcbgXpGbjClMcb+B+yEMgeXw==";
+        };
+        _NnoCFK33 = {
+            "id" = "NnoCFK33";
+            "file" = "monolib-fabric-1.21.1-4.1.2.jar";
+            "hash" = "sha512-XD09sti/29hi799MGHgkAYkAeRbC3PTrPq3c6eC/5/chrgGM7WXU8mzkbHctNo7T5tLv4WhLxVeUwQvbamWU3Q==";
+        };
+        _YIL3k0PZ = {
+            "id" = "YIL3k0PZ";
+            "file" = "monolib-neoforge-1.21.1-4.1.2.jar";
+            "hash" = "sha512-EoNA0QphpS8o6ZSwI9JjaZQ9BMUQsC6zS3pc/Ob+2GQlrvb1BQajnsnWrNja3sdL7+X6jY97O/Gh/WduFa8ZCQ==";
+        };
+        _Q9prlBe9 = {
+            "id" = "Q9prlBe9";
+            "file" = "monolib-fabric-26.1.2-4.1.2.jar";
+            "hash" = "sha512-FiLfGhtTSpekQwCEHMLcWiRBtgiUT8aUINf8RozAArWR6B8Uu1PeetfQWa8Mj+W/TV7eHbA9IVkZnN2VCX9Ldg==";
+        };
+        _ebNCmuNN = {
+            "id" = "ebNCmuNN";
+            "file" = "monolib-neoforge-26.1.2-4.1.2.jar";
+            "hash" = "sha512-dDQE79ALFu7Q+oTM9q+cDKqBQlzS6m/AFpX6il8SsOM5TPA/LdbKBaGbKnaEWqe6OADxx1LRRW3LNgAJxSwGiw==";
+        };
     in {
         "BbkmvTag" = _BbkmvTag;
         "MzC0Lrwv" = _MzC0Lrwv;
@@ -674,8 +704,14 @@ let
         "EwNimncN" = _EwNimncN;
         "IFbmB3cc" = _IFbmB3cc;
         "sslnqpaM" = _sslnqpaM;
+        "P4nbI5Ba" = _P4nbI5Ba;
+        "njYIJ5XO" = _njYIJ5XO;
+        "NnoCFK33" = _NnoCFK33;
+        "YIL3k0PZ" = _YIL3k0PZ;
+        "Q9prlBe9" = _Q9prlBe9;
+        "ebNCmuNN" = _ebNCmuNN;
         "forge-1.20" = _dfbmSud0;
-        "forge-1.20.1" = _CjLpnfRF;
+        "forge-1.20.1" = _njYIJ5XO;
         "forge-1.20.2" = _UCIHOC9y;
         "forge-1.20.4" = _UCIHOC9y;
         "forge-1.20.6" = _bJ3shp1S;
@@ -691,12 +727,12 @@ let
         "forge-1.21.5" = _4WmcbfcG;
         "forge-1.21.8" = _iEkkNIpS;
         "fabric-1.20" = _Cggv1Swz;
-        "fabric-1.20.1" = _1s2VdvAV;
+        "fabric-1.20.1" = _P4nbI5Ba;
         "fabric-1.20.2" = _iZGUey6l;
         "fabric-1.20.4" = _iZGUey6l;
         "fabric-1.20.6" = _Am58Vrav;
         "fabric-1.21" = _XdED0p25;
-        "fabric-1.21.1" = _zRO2wNRN;
+        "fabric-1.21.1" = _NnoCFK33;
         "fabric-1.19" = _4gWLRlI9;
         "fabric-1.19.1" = _4gWLRlI9;
         "fabric-1.19.2" = _4gWLRlI9;
@@ -709,7 +745,7 @@ let
         "fabric-1.21.9" = _Hfxuwz5W;
         "fabric-1.21.10" = _mkvClsE6;
         "fabric-1.21.11" = _ROoCtAcV;
-        "fabric-26.1.2" = _IFbmB3cc;
+        "fabric-26.1.2" = _Q9prlBe9;
         "fabric-26.1" = _hkYCNbeF;
         "fabric-26.1.1" = _hkYCNbeF;
         "neoforge-1.20.4" = _heK7Cob0;
@@ -717,14 +753,14 @@ let
         "neoforge-1.20.1" = _RxX9E6XN;
         "neoforge-1.20.2" = _EiqO0UeW;
         "neoforge-1.21" = _Es84N2XL;
-        "neoforge-1.21.1" = _nL0TTR3C;
+        "neoforge-1.21.1" = _YIL3k0PZ;
         "neoforge-1.21.4" = _HWjl8OPV;
         "neoforge-1.21.5" = _9jZG5lvV;
         "neoforge-1.21.8" = _ADr7v0Tw;
         "neoforge-1.21.9" = _90TiHb2i;
         "neoforge-1.21.10" = _DRJ4URob;
         "neoforge-1.21.11" = _d35oXanF;
-        "neoforge-26.1.2" = _sslnqpaM;
+        "neoforge-26.1.2" = _ebNCmuNN;
         "neoforge-26.1" = _1OOFZQjw;
         "neoforge-26.1.1" = _1OOFZQjw;
         "pkg-1.0.0" = _5VEEnkhb;
@@ -776,7 +812,13 @@ let
         "pkg-neoforge-26.1.2-4.1.0" = _EwNimncN;
         "pkg-fabric-26.1.2-4.1.1" = _IFbmB3cc;
         "pkg-neoforge-26.1.2-4.1.1" = _sslnqpaM;
-        "default" = _sslnqpaM;
+        "pkg-fabric-1.20.1-4.1.2" = _P4nbI5Ba;
+        "pkg-forge-1.20.1-4.1.2" = _njYIJ5XO;
+        "pkg-fabric-1.21.1-4.1.2" = _NnoCFK33;
+        "pkg-neoforge-1.21.1-4.1.2" = _YIL3k0PZ;
+        "pkg-fabric-26.1.2-4.1.2" = _Q9prlBe9;
+        "pkg-neoforge-26.1.2-4.1.2" = _ebNCmuNN;
+        "default" = _ebNCmuNN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "monolib";

@@ -151,6 +151,56 @@ let
             "file" = "ChatBlock-1.5.1-1.8.9_forge.jar";
             "hash" = "sha512-JjHfLuxWlU01uHu+9EuUIdpXX2JZ37pqkWzJzKSIDAyz7qmgscCh+sO1iE5uHwqBFvgnP1VSlVRU33yKPVuxvg==";
         };
+        _DsyXcRva = {
+            "id" = "DsyXcRva";
+            "file" = "ChatBlock-1.6.0-1.8.9_forge.jar";
+            "hash" = "sha512-DxnieIWvAxRWcWMcSlZa8uZvXXocHHo1niS+a/jI5QAHr/RBpNCEG3ApdQDMGp9CcxhPw2y8VRVKLgDNe2Td9g==";
+        };
+        _2G09wcCw = {
+            "id" = "2G09wcCw";
+            "file" = "ChatBlock-1.6.0-1.8.9_ornithe.jar";
+            "hash" = "sha512-sXhd92rhdK3xnpRn+Sv3K0XcOcUXCdl4Lpd+MMeNGGOFmwdBkC0nVUtNOheAR4vklPpcC8Lj19fbe/DCt1FPNg==";
+        };
+        _8hwizAFD = {
+            "id" = "8hwizAFD";
+            "file" = "ChatBlock-1.6.0-26.1+_fabric.jar";
+            "hash" = "sha512-OhxVBm7Yi6T3+d4rQLxgE63ZeY+eHbKMe3XOoIwgsuB+TXr9zzqOa3lWknxfh7TJ5XI/jUzqiCvhzzxK/atk2w==";
+        };
+        _VVvbGD88 = {
+            "id" = "VVvbGD88";
+            "file" = "ChatBlock-1.6.0-26.2+_fabric.jar";
+            "hash" = "sha512-Tkb+vwU/1sfc4RuH/uh5vfJBS9WhEKeaRNV50N6WNDjE54o8q2lb8r12n+DMd9uyX6gIOXm3AE1pzMECGtVCXg==";
+        };
+        _VeCtHFT5 = {
+            "id" = "VeCtHFT5";
+            "file" = "ChatBlock-1.7.0-1.8.9_forge.jar";
+            "hash" = "sha512-tFwf/+SeXxzt4EnwQJ2pPIosH7fk+z1INhJtOu4PN50OVIPVa6CxNUQblvzrIfxi1yMON+qxFJQItcnmra88Ig==";
+        };
+        _JDZNgc4n = {
+            "id" = "JDZNgc4n";
+            "file" = "ChatBlock-1.7.0-1.8.9_ornithe.jar";
+            "hash" = "sha512-e3ToEX6YXnbEVTYotIkxlOW4cCETAw8365GaeDw6yW5opFy77ceArsh1fbyaeg21nhoxYNVbNVQCwXhBYDL4MA==";
+        };
+        _PAZy8ZGZ = {
+            "id" = "PAZy8ZGZ";
+            "file" = "ChatBlock-1.7.0-26.1+_fabric.jar";
+            "hash" = "sha512-kRKdyO4qXF9jZpDU3HRSzegTSN8/Fpyj8iGicZNNM3ncaaCY2+hYGwpVqXcOPzvCwL91u0l4+2znRWJlEcngCA==";
+        };
+        _XWcq1Qgh = {
+            "id" = "XWcq1Qgh";
+            "file" = "ChatBlock-1.7.0-26.2+_fabric.jar";
+            "hash" = "sha512-rKcV4lYWo7USXhk3pjBIkKITR9riZJBg6i0H3QYLnhxw6yKEqTws5e9B4o74YoMKV3RzfEsamc2dQ8vq4Tt3NQ==";
+        };
+        _IrFoksAP = {
+            "id" = "IrFoksAP";
+            "file" = "ChatBlock-1.7.1-1.8.9_forge.jar";
+            "hash" = "sha512-vGjn4QgkRoPrtgYMjtx+5HFisPAxFGVVXd1quvdQ0glIsWBtGFiVMYQVHSbfcntAN0ZcsWwPZaMwefBaQ9N8Ng==";
+        };
+        _4Fdj9M4K = {
+            "id" = "4Fdj9M4K";
+            "file" = "ChatBlock-1.7.1-1.8.9_ornithe.jar";
+            "hash" = "sha512-sMGpvs0klQ+PnM3Qt/rlQcPHzIhAWeVHZ1klYWygSYEpvrsVfaeC4Hd+rdDXfuKXeumAPDLrqvouv9m6y/LMvg==";
+        };
     in {
         "RxzPUkSw" = _RxzPUkSw;
         "yriAMs01" = _yriAMs01;
@@ -182,14 +232,26 @@ let
         "kuwrz4fy" = _kuwrz4fy;
         "HkA9gCiv" = _HkA9gCiv;
         "SUC9sMZ2" = _SUC9sMZ2;
-        "forge-1.8.9" = _SUC9sMZ2;
+        "DsyXcRva" = _DsyXcRva;
+        "2G09wcCw" = _2G09wcCw;
+        "8hwizAFD" = _8hwizAFD;
+        "VVvbGD88" = _VVvbGD88;
+        "VeCtHFT5" = _VeCtHFT5;
+        "JDZNgc4n" = _JDZNgc4n;
+        "PAZy8ZGZ" = _PAZy8ZGZ;
+        "XWcq1Qgh" = _XWcq1Qgh;
+        "IrFoksAP" = _IrFoksAP;
+        "4Fdj9M4K" = _4Fdj9M4K;
+        "forge-1.8.9" = _IrFoksAP;
         "fabric-1.21.10" = _NXDuXV4o;
         "fabric-1.21.11" = _7coJQHPa;
-        "fabric-26.1" = _kuwrz4fy;
+        "fabric-26.1" = _PAZy8ZGZ;
         "fabric-1.21.9" = _NXDuXV4o;
-        "fabric-26.1.1" = _kuwrz4fy;
-        "fabric-26.1.2" = _kuwrz4fy;
-        "fabric-26.2" = _HkA9gCiv;
+        "fabric-26.1.1" = _PAZy8ZGZ;
+        "fabric-26.1.2" = _PAZy8ZGZ;
+        "fabric-26.2" = _XWcq1Qgh;
+        "fabric-26.3" = _XWcq1Qgh;
+        "ornithe-1.8.9" = _4Fdj9M4K;
         "pkg-1.0.0+1.8.9" = _RxzPUkSw;
         "pkg-1.0.0+1.21.10" = _yriAMs01;
         "pkg-1.0.0+1.21.11" = _kghdU5HS;
@@ -220,7 +282,17 @@ let
         "pkg-1.5.0-26.1+" = _kuwrz4fy;
         "pkg-1.5.0-26.2+" = _HkA9gCiv;
         "pkg-1.5.1-1.8.9" = _SUC9sMZ2;
-        "default" = _SUC9sMZ2;
+        "pkg-1.6.0-1.8.9_forge" = _DsyXcRva;
+        "pkg-1.6.0-1.8.9_ornithe" = _2G09wcCw;
+        "pkg-1.6.0-26.1+_fabric" = _8hwizAFD;
+        "pkg-1.6.0-26.2+_fabric" = _VVvbGD88;
+        "pkg-1.7.0-1.8.9_forge" = _VeCtHFT5;
+        "pkg-1.7.0-1.8.9_ornithe" = _JDZNgc4n;
+        "pkg-1.7.0-26.1+_fabric" = _PAZy8ZGZ;
+        "pkg-1.7.0-26.2+_fabric" = _XWcq1Qgh;
+        "pkg-1.7.1-1.8.9_forge" = _IrFoksAP;
+        "pkg-1.7.1-1.8.9_ornithe" = _4Fdj9M4K;
+        "default" = _4Fdj9M4K;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chatblock";

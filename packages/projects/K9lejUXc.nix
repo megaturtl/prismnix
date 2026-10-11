@@ -106,6 +106,11 @@ let
             "file" = "keyboard-wizard-ce-fabric-26.3-snapshot-3-1.0.0.jar";
             "hash" = "sha512-hFXpBXcD+Mb7xqi1Xrzp0SFMoO/KkcwvtZU/IyfPISq+GsKCFl55vc9dBKtrOGE7DJGw4LhLMkZ0sD745cGqRQ==";
         };
+        _nti7tzsH = {
+            "id" = "nti7tzsH";
+            "file" = "keyboard-wizard-ce-fabric-26.3-1.0.0.jar";
+            "hash" = "sha512-UTP0FZ1Vjhx8pOd6dxzcFlXjyPH9+xTSBLndvDJfAorB9hYTtIPfrbwleCPtMMqSgVOAgsucr58TKARo9gSd2Q==";
+        };
     in {
         "kRUWkZBU" = _kRUWkZBU;
         "YCk2gFVS" = _YCk2gFVS;
@@ -128,6 +133,7 @@ let
         "bFummM4o" = _bFummM4o;
         "h3Fu6jBF" = _h3Fu6jBF;
         "DDQE28On" = _DDQE28On;
+        "nti7tzsH" = _nti7tzsH;
         "forge-1.20.1" = _wPD2jQB5;
         "forge-1.18.2" = _h3Fu6jBF;
         "forge-1.16.5" = _bFummM4o;
@@ -144,10 +150,11 @@ let
         "fabric-26.3-snapshot-3" = _DDQE28On;
         "fabric-26.3-snapshot-4" = _DDQE28On;
         "fabric-26.3-snapshot-5" = _DDQE28On;
-        "pkg-1.0.0" = _DDQE28On;
+        "fabric-26.3" = _nti7tzsH;
+        "pkg-1.0.0" = _nti7tzsH;
         "pkg-1.0.1" = _1q4Ef89s;
         "pkg-1.0.2" = _h3Fu6jBF;
-        "default" = _DDQE28On;
+        "default" = _nti7tzsH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "keyboard-wizard-ce";

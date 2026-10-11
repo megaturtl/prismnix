@@ -136,6 +136,11 @@ let
             "file" = "VisualKeys-0.0.11+26.2.jar";
             "hash" = "sha512-CiU7qyn0in5Q7kT/4Ijj2s1DUi4zdfxhPvaQ1K6cb/K4bC/IVvzydUqwQmB+mUUv3QsNMl/WHiFHhEzlL5nT3g==";
         };
+        _i9cZEMlQ = {
+            "id" = "i9cZEMlQ";
+            "file" = "VisualKeys-0.0.11+26.3.jar";
+            "hash" = "sha512-hPMDFAmy0oMSJT/Ph7zlGzrfQIAJGWl56zk/SybBftmWk/dzVA8THejNsy8vG5F0wO379J0ZcD5oHAIkO+s1TQ==";
+        };
     in {
         "nqdpVKMj" = _nqdpVKMj;
         "J6klQGmP" = _J6klQGmP;
@@ -164,6 +169,7 @@ let
         "26vISM8C" = _26vISM8C;
         "vjaVDgRj" = _vjaVDgRj;
         "kD9VNjoP" = _kD9VNjoP;
+        "i9cZEMlQ" = _i9cZEMlQ;
         "fabric-1.21" = _fxD8AOmU;
         "fabric-1.21.1" = _fxD8AOmU;
         "fabric-1.21.3" = _FB2KPVCH;
@@ -179,6 +185,7 @@ let
         "fabric-26.1.1" = _vjaVDgRj;
         "fabric-26.1.2" = _vjaVDgRj;
         "fabric-26.2" = _kD9VNjoP;
+        "fabric-26.3" = _i9cZEMlQ;
         "pkg-0.0.3" = _nqdpVKMj;
         "pkg-0.0.4" = _J6klQGmP;
         "pkg-0.0.4-1.21.3" = _ao297KDv;
@@ -206,7 +213,8 @@ let
         "pkg-0.0.11-1.21.11" = _26vISM8C;
         "pkg-0.0.11+26.1" = _vjaVDgRj;
         "pkg-0.0.11+26.2" = _kD9VNjoP;
-        "default" = _kD9VNjoP;
+        "pkg-0.0.11+26.3" = _i9cZEMlQ;
+        "default" = _i9cZEMlQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "visualkeys";

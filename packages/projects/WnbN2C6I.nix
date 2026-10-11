@@ -86,6 +86,21 @@ let
             "file" = "durabilityviewer-fabric-26.3-1.13.0.jar";
             "hash" = "sha512-7NftAh1wJbpRXGd7WfZwyLNRzoqOjjEN7U7+wBQfnMCRml0jI0AjnkElfqLpYdGujSpYnyMbZ+bKvSeTcjZeKg==";
         };
+        _ToDYB1Tt = {
+            "id" = "ToDYB1Tt";
+            "file" = "durabilityviewer-forge-26.3-1.13.1.jar";
+            "hash" = "sha512-yuvSbcuZ7cnwI6A8ZolszyvSzyYepJhO+zf8zwYDKjWCCQRZOyawarg+jSWAE/bybIzvgvAPdE0DUQIBdw04ZA==";
+        };
+        _2TVoSqC1 = {
+            "id" = "2TVoSqC1";
+            "file" = "durabilityviewer-neoforge-26.3-1.13.1.jar";
+            "hash" = "sha512-o3TErN/qy9T+3zeY74aUr0Rlfuk5U+u+7snxFcIDrCbIgSuvWJwnFSK+/9TngBth9ViD0dG7ARa6qATFBe76fA==";
+        };
+        _O5JdOog5 = {
+            "id" = "O5JdOog5";
+            "file" = "durabilityviewer-fabric-26.3-1.13.1.jar";
+            "hash" = "sha512-5gZoF2U1VuRr2YrjQG2OITrVwhQ9DXCBO/jwus+Y8vX/D8Pi9tWqfj1cuh03/d9FZ71BQ3wqsETh5VKmgVTO1A==";
+        };
     in {
         "Uj5ESliW" = _Uj5ESliW;
         "eiF7R4gI" = _eiF7R4gI;
@@ -104,6 +119,9 @@ let
         "pVKqIYWy" = _pVKqIYWy;
         "ZDSi5dox" = _ZDSi5dox;
         "tShUun27" = _tShUun27;
+        "ToDYB1Tt" = _ToDYB1Tt;
+        "2TVoSqC1" = _2TVoSqC1;
+        "O5JdOog5" = _O5JdOog5;
         "fabric-1.20" = _Uj5ESliW;
         "fabric-1.20.1" = _ehXw1ieC;
         "fabric-1.21" = _YXGYgrwl;
@@ -123,11 +141,12 @@ let
         "fabric-26.1.1" = _TqRTknCU;
         "fabric-26.1.2" = _TqRTknCU;
         "fabric-26.2" = _pVKqIYWy;
-        "fabric-26.3" = _tShUun27;
+        "fabric-26.3" = _O5JdOog5;
         "quilt-1.21.2-rc2" = _82rLgxlj;
         "quilt-1.21.2" = _zqcFw1aE;
         "quilt-1.21.3" = _zqcFw1aE;
-        "neoforge-26.3" = _ZDSi5dox;
+        "neoforge-26.3" = _2TVoSqC1;
+        "forge-26.3" = _ToDYB1Tt;
         "pkg-1.20-1.10.4" = _Uj5ESliW;
         "pkg-1.20.1-1.10.4" = _eiF7R4gI;
         "pkg-1.20.1-1.11.0" = _ehXw1ieC;
@@ -143,7 +162,8 @@ let
         "pkg-26.1-1.11.2" = _TqRTknCU;
         "pkg-26.2-1.11.2" = _pVKqIYWy;
         "pkg-26.3-1.13.0" = _tShUun27;
-        "default" = _tShUun27;
+        "pkg-26.3-1.13.1" = _O5JdOog5;
+        "default" = _O5JdOog5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "durability-viewer-updated";

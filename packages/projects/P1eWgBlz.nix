@@ -161,6 +161,16 @@ let
             "file" = "heros-journey-v2.0.3.jar";
             "hash" = "sha512-GCPBOJZ9RsEmszDfTHMMrGpEFBed5ZEHg1MMJBVwj0/zWax2WFogsnSHWL2rLp+nLGVDNCwmEcz8O4Bg/LtiqQ==";
         };
+        _OVAq43kR = {
+            "id" = "OVAq43kR";
+            "file" = "HerosJourney-v2.0.4-Data-Pack.zip";
+            "hash" = "sha512-cXTwS/Zojqtap3AxxHTuQWSTEoNv4Hu14lZXWUNZ4CJRUSALykSuG/IHv4OlKh1IXfcj9mMv7EUL5wxnAy7yLw==";
+        };
+        _dotwDavM = {
+            "id" = "dotwDavM";
+            "file" = "heros-journey-v2.0.4.jar";
+            "hash" = "sha512-MnFwuerId0c1On6hWdhMGZoGiotBZ9St1C6Znj7WTyt5CKB3BNQ41j4ZJ0/JhIQWvbfwXUUIxo9hjS/foLstaA==";
+        };
     in {
         "AklkXaY3" = _AklkXaY3;
         "cLR0Zrxt" = _cLR0Zrxt;
@@ -194,6 +204,8 @@ let
         "1mfvibZ3" = _1mfvibZ3;
         "JP9yUQs8" = _JP9yUQs8;
         "wXAf7TfG" = _wXAf7TfG;
+        "OVAq43kR" = _OVAq43kR;
+        "dotwDavM" = _dotwDavM;
         "datapack-1.21.4" = _dTHyQ5Ov;
         "datapack-1.21.5" = _hTxBcRtS;
         "datapack-1.21.6" = _hTxBcRtS;
@@ -206,6 +218,7 @@ let
         "datapack-26.1.1" = _wm2M5NVV;
         "datapack-26.1.2" = _wm2M5NVV;
         "datapack-26.2" = _JP9yUQs8;
+        "datapack-26.3" = _OVAq43kR;
         "fabric-1.21.4" = _fhnkvmhf;
         "fabric-1.21.5" = _ZzT3xlG9;
         "fabric-1.21.6" = _ZzT3xlG9;
@@ -218,6 +231,7 @@ let
         "fabric-26.1.1" = _1mfvibZ3;
         "fabric-26.1.2" = _1mfvibZ3;
         "fabric-26.2" = _wXAf7TfG;
+        "fabric-26.3" = _dotwDavM;
         "forge-1.21.4" = _fhnkvmhf;
         "forge-1.21.5" = _ZzT3xlG9;
         "forge-1.21.6" = _ZzT3xlG9;
@@ -230,6 +244,7 @@ let
         "forge-26.1.1" = _1mfvibZ3;
         "forge-26.1.2" = _1mfvibZ3;
         "forge-26.2" = _wXAf7TfG;
+        "forge-26.3" = _dotwDavM;
         "neoforge-1.21.4" = _fhnkvmhf;
         "neoforge-1.21.5" = _ZzT3xlG9;
         "neoforge-1.21.6" = _ZzT3xlG9;
@@ -242,6 +257,7 @@ let
         "neoforge-26.1.1" = _1mfvibZ3;
         "neoforge-26.1.2" = _1mfvibZ3;
         "neoforge-26.2" = _wXAf7TfG;
+        "neoforge-26.3" = _dotwDavM;
         "quilt-1.21.4" = _fhnkvmhf;
         "quilt-1.21.5" = _ZzT3xlG9;
         "quilt-1.21.6" = _ZzT3xlG9;
@@ -254,6 +270,7 @@ let
         "quilt-26.1.1" = _1mfvibZ3;
         "quilt-26.1.2" = _1mfvibZ3;
         "quilt-26.2" = _wXAf7TfG;
+        "quilt-26.3" = _dotwDavM;
         "pkg-1.0" = _AklkXaY3;
         "pkg-1.0+mod" = _cLR0Zrxt;
         "pkg-1.1" = _mles9mxI;
@@ -286,7 +303,9 @@ let
         "pkg-v2.0.2+mod" = _1mfvibZ3;
         "pkg-v2.0.3" = _JP9yUQs8;
         "pkg-v2.0.3+mod" = _wXAf7TfG;
-        "default" = _wXAf7TfG;
+        "pkg-v2.0.4" = _OVAq43kR;
+        "pkg-v2.0.4+mod" = _dotwDavM;
+        "default" = _dotwDavM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "heros-journey";

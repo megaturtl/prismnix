@@ -16,15 +16,22 @@ let
             "file" = "Overworld DNA 1.0.3.jar";
             "hash" = "sha512-FJM//fhtABgG+YN2oTPfrk0mklxIm+OAI9LPhCPj3mP1tIBFSVODpTF7/Ouu8P4UuTip5Zl/OSJD04Bu1QDQvQ==";
         };
+        _ET5uwkxB = {
+            "id" = "ET5uwkxB";
+            "file" = "Overworld DNA 1.0.3c.jar";
+            "hash" = "sha512-ERK5HRXr6FfyspJQmmoUePOY+D5SvMg0FDa7ryFmlZ6bLPz6yxImOi5KMix9mwdnvZ2e3DBk8F9stRmDquPSlQ==";
+        };
     in {
         "kbIa02gi" = _kbIa02gi;
         "kAzCOaVW" = _kAzCOaVW;
         "zh5oQeXX" = _zh5oQeXX;
-        "forge-1.20.1" = _zh5oQeXX;
+        "ET5uwkxB" = _ET5uwkxB;
+        "forge-1.20.1" = _ET5uwkxB;
         "fabric-1.20.1" = _kAzCOaVW;
         "pkg-1.0.2" = _kAzCOaVW;
         "pkg-1.0.3" = _zh5oQeXX;
-        "default" = _zh5oQeXX;
+        "pkg-1.0.3c" = _ET5uwkxB;
+        "default" = _ET5uwkxB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "overworld-dna-(alien-evolution-addon)";

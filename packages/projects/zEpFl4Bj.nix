@@ -11,9 +11,21 @@ let
             "file" = "freezing-enchantment-v1.0.0.jar";
             "hash" = "sha512-7aP6P8DxbqeieYujR7KipJpqKB6m9j8JTdW4oWZb5qfuOiNb/PDhk8bnbtmTB3RFET0LurD3CD04s5sLCQEzaw==";
         };
+        _YDzIpQFH = {
+            "id" = "YDzIpQFH";
+            "file" = "Freezing Enchantment v1.0.0 [26.3].zip";
+            "hash" = "sha512-3UVrbHox0jlrE1OnlhKQfRxcjTHQO/s0AJgVtDhpQBgib4CCZEvG0hwVapcNQLyNw+XpGrQEQ/Qc3TQPxyexDQ==";
+        };
+        _GBRpUpYr = {
+            "id" = "GBRpUpYr";
+            "file" = "freezing-enchantment-1.0.0.jar";
+            "hash" = "sha512-IXviv/CxbVsQZqvF7NCqHGxlTtW209YRS5r19ghrQn1elBxQIGAm0zb5ZPHWXJ44psMiYEOgrWMweoZB+T5ZTg==";
+        };
     in {
         "k8RmWhsL" = _k8RmWhsL;
         "ZJIIWsaX" = _ZJIIWsaX;
+        "YDzIpQFH" = _YDzIpQFH;
+        "GBRpUpYr" = _GBRpUpYr;
         "datapack-1.21" = _k8RmWhsL;
         "datapack-1.21.1" = _k8RmWhsL;
         "datapack-1.21.2" = _k8RmWhsL;
@@ -30,6 +42,7 @@ let
         "datapack-26.1.1" = _k8RmWhsL;
         "datapack-26.1.2" = _k8RmWhsL;
         "datapack-26.2" = _k8RmWhsL;
+        "datapack-26.3" = _YDzIpQFH;
         "fabric-1.21" = _ZJIIWsaX;
         "fabric-1.21.1" = _ZJIIWsaX;
         "fabric-1.21.2" = _ZJIIWsaX;
@@ -46,6 +59,7 @@ let
         "fabric-26.1.1" = _ZJIIWsaX;
         "fabric-26.1.2" = _ZJIIWsaX;
         "fabric-26.2" = _ZJIIWsaX;
+        "fabric-26.3" = _GBRpUpYr;
         "forge-1.21" = _ZJIIWsaX;
         "forge-1.21.1" = _ZJIIWsaX;
         "forge-1.21.2" = _ZJIIWsaX;
@@ -62,6 +76,7 @@ let
         "forge-26.1.1" = _ZJIIWsaX;
         "forge-26.1.2" = _ZJIIWsaX;
         "forge-26.2" = _ZJIIWsaX;
+        "forge-26.3" = _GBRpUpYr;
         "neoforge-1.21" = _ZJIIWsaX;
         "neoforge-1.21.1" = _ZJIIWsaX;
         "neoforge-1.21.2" = _ZJIIWsaX;
@@ -78,6 +93,7 @@ let
         "neoforge-26.1.1" = _ZJIIWsaX;
         "neoforge-26.1.2" = _ZJIIWsaX;
         "neoforge-26.2" = _ZJIIWsaX;
+        "neoforge-26.3" = _GBRpUpYr;
         "quilt-1.21" = _ZJIIWsaX;
         "quilt-1.21.1" = _ZJIIWsaX;
         "quilt-1.21.2" = _ZJIIWsaX;
@@ -94,9 +110,12 @@ let
         "quilt-26.1.1" = _ZJIIWsaX;
         "quilt-26.1.2" = _ZJIIWsaX;
         "quilt-26.2" = _ZJIIWsaX;
+        "quilt-26.3" = _GBRpUpYr;
         "pkg-v1.0.0" = _k8RmWhsL;
         "pkg-v1.0.0+mod" = _ZJIIWsaX;
-        "default" = _ZJIIWsaX;
+        "pkg-1.0.0" = _YDzIpQFH;
+        "pkg-1.0.0+mod" = _GBRpUpYr;
+        "default" = _GBRpUpYr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "freezing-enchantment";

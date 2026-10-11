@@ -76,6 +76,16 @@ let
             "file" = "hitrange-neoforge-1.9.0+mc26.3.jar";
             "hash" = "sha512-yQWFBXF/8FxZaZEjZHnFqunVmuks3tG0cG22V2PEaWYz/Ju+xoByjVGWtjiXCOsNJcfQQw29PV+uE1wx/NxPag==";
         };
+        _ZMhPYDiB = {
+            "id" = "ZMhPYDiB";
+            "file" = "hitrange-fabric-1.9.1+mc26.3.jar";
+            "hash" = "sha512-Y4TCJUFGAW9iCbf19wMyefh6XFUgqz3HPRkYOkOBGzbzaJTiL+0TznC3B5qVsf3HMZlA+ybKvwFtjrSVe6GMvg==";
+        };
+        _io52Qhzs = {
+            "id" = "io52Qhzs";
+            "file" = "hitrange-neoforge-1.9.1+mc26.3.jar";
+            "hash" = "sha512-k7QBtcYPSVwu6Ctz3uD28UBryy2/l3nR6ihhQL3eOAwDfl3hYtW0fiaXJQliKldpuJQMVYdNnrkINK+GhPXXGg==";
+        };
     in {
         "qTGnF6T1" = _qTGnF6T1;
         "ryS8V7IM" = _ryS8V7IM;
@@ -92,6 +102,8 @@ let
         "7U6cDXAu" = _7U6cDXAu;
         "598p3J3l" = _598p3J3l;
         "b8mxjaxs" = _b8mxjaxs;
+        "ZMhPYDiB" = _ZMhPYDiB;
+        "io52Qhzs" = _io52Qhzs;
         "fabric-1.20.3" = _qTGnF6T1;
         "fabric-1.20.4" = _qTGnF6T1;
         "fabric-1.20" = _ryS8V7IM;
@@ -114,7 +126,7 @@ let
         "fabric-26.1.1" = _E6MAqBoX;
         "fabric-26.1.2" = _E6MAqBoX;
         "fabric-26.2" = _r6fUYeUI;
-        "fabric-26.3" = _598p3J3l;
+        "fabric-26.3" = _ZMhPYDiB;
         "quilt-1.20.3" = _qTGnF6T1;
         "quilt-1.20.4" = _qTGnF6T1;
         "quilt-1.20" = _ryS8V7IM;
@@ -137,12 +149,12 @@ let
         "quilt-26.1.1" = _E6MAqBoX;
         "quilt-26.1.2" = _E6MAqBoX;
         "quilt-26.2" = _r6fUYeUI;
-        "quilt-26.3" = _598p3J3l;
+        "quilt-26.3" = _ZMhPYDiB;
         "neoforge-26.1" = _DYtu2duZ;
         "neoforge-26.1.1" = _DYtu2duZ;
         "neoforge-26.1.2" = _DYtu2duZ;
         "neoforge-26.2" = _7U6cDXAu;
-        "neoforge-26.3" = _b8mxjaxs;
+        "neoforge-26.3" = _io52Qhzs;
         "pkg-1.0.0+mc1.20.4" = _qTGnF6T1;
         "pkg-1.0.0+mc1.20.1" = _ryS8V7IM;
         "pkg-1.1.0+mc1.20.6" = _GRpAarHx;
@@ -158,7 +170,9 @@ let
         "pkg-1.8.0+mc26.2-neoforge" = _7U6cDXAu;
         "pkg-1.9.0+mc26.3-fabric" = _598p3J3l;
         "pkg-1.9.0+mc26.3-neoforge" = _b8mxjaxs;
-        "default" = _b8mxjaxs;
+        "pkg-1.9.1+mc26.3-fabric" = _ZMhPYDiB;
+        "pkg-1.9.1+mc26.3-neoforge" = _io52Qhzs;
+        "default" = _io52Qhzs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hitrange";

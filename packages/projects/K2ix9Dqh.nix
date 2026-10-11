@@ -36,6 +36,11 @@ let
             "file" = "Trailers Vision - Java 26.1.zip";
             "hash" = "sha512-92vYdx0w749w32E9p8k31hhL6bEg9QUpHaqKliEvEOsUh63MwE4stwXKllQnP4AeriHiUfan2/hyvkGxbZ0zIw==";
         };
+        _36762xKv = {
+            "id" = "36762xKv";
+            "file" = "Trailers Vision - Java 26.3.zip";
+            "hash" = "sha512-jLc2wIPdjd2Yx5rd+xSLBui9cKQtxnDiELti7AgqTrgeTLzmk/T93F3Aq/E/8BlsAmCTLRpwFiUiVw/esvLmZA==";
+        };
     in {
         "wQPmwowV" = _wQPmwowV;
         "BWhMXCEd" = _BWhMXCEd;
@@ -44,6 +49,7 @@ let
         "BFD5GRlB" = _BFD5GRlB;
         "bAT3EB0E" = _bAT3EB0E;
         "P6su6Sik" = _P6su6Sik;
+        "36762xKv" = _36762xKv;
         "minecraft-1.20.3" = _wQPmwowV;
         "minecraft-1.20.4" = _wQPmwowV;
         "minecraft-1.21" = _BWhMXCEd;
@@ -54,6 +60,7 @@ let
         "minecraft-1.21.9" = _bAT3EB0E;
         "minecraft-1.21.10" = _bAT3EB0E;
         "minecraft-26.1" = _P6su6Sik;
+        "minecraft-26.3" = _36762xKv;
         "pkg-3.1.0" = _wQPmwowV;
         "pkg-4.0.0" = _BWhMXCEd;
         "pkg-4.1.0" = _Q4Zo9wcz;
@@ -61,7 +68,8 @@ let
         "pkg-4.3.0" = _BFD5GRlB;
         "pkg-4.4.0" = _bAT3EB0E;
         "pkg-4.6.0" = _P6su6Sik;
-        "default" = _P6su6Sik;
+        "pkg-4.7.0" = _36762xKv;
+        "default" = _36762xKv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trailers-vision";

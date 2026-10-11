@@ -291,6 +291,16 @@ let
             "file" = "notquests-7.0.0-beta.3-26.2-paper.jar";
             "hash" = "sha512-+AhU9m1pY3yZ+aSyTTSYxA2xjLaTRcbmNNib5PgsB5EnJSi+WpF3wkmivDLUYtJBcbpnPOi+oPoziSHpXdMjOg==";
         };
+        _17bCsCtW = {
+            "id" = "17bCsCtW";
+            "file" = "notquests-7.0.0-26.3-neoforge.jar";
+            "hash" = "sha512-4bqK7zZfJKDZfCgBEvdSRWtVm8548jmIyER4WwbSOekiuHpE4jLkQdyj6WmFFbymFiSH+ggS9cH/RMSUa7J5SA==";
+        };
+        _RokayyvV = {
+            "id" = "RokayyvV";
+            "file" = "notquests-7.0.0-26.3-paper.jar";
+            "hash" = "sha512-hUMGJyGO3bj09HsbDO9GhSgS/jajTpTFevK0Lvav27O+COzazG0Nv9ZbvlubowB/TOVWlbDP5z7H8+8tlFto+w==";
+        };
     in {
         "t9FVdA14" = _t9FVdA14;
         "HLKFrz4H" = _HLKFrz4H;
@@ -350,6 +360,8 @@ let
         "QMAtZzJx" = _QMAtZzJx;
         "3ejENXbB" = _3ejENXbB;
         "h4WUwCv8" = _h4WUwCv8;
+        "17bCsCtW" = _17bCsCtW;
+        "RokayyvV" = _RokayyvV;
         "paper-1.19.2" = _PH8gZG9C;
         "paper-1.19" = _HLKFrz4H;
         "paper-1.18.2" = _RZsRIcpS;
@@ -367,6 +379,7 @@ let
         "paper-1.21.11" = _SI0Qa59y;
         "paper-26.1.2" = _JKA5rs67;
         "paper-26.2" = _h4WUwCv8;
+        "paper-26.3" = _RokayyvV;
         "purpur-1.19.2" = _PH8gZG9C;
         "purpur-1.19" = _HLKFrz4H;
         "purpur-1.18.2" = _RZsRIcpS;
@@ -384,6 +397,7 @@ let
         "purpur-1.21.11" = _SI0Qa59y;
         "purpur-26.1.2" = _JKA5rs67;
         "purpur-26.2" = _h4WUwCv8;
+        "purpur-26.3" = _RokayyvV;
         "spigot-1.19.2" = _PH8gZG9C;
         "spigot-1.19" = _HLKFrz4H;
         "spigot-1.18.2" = _RZsRIcpS;
@@ -394,6 +408,7 @@ let
         "spigot-1.19.3" = _TfFmtTF8;
         "bukkit-1.19.3" = _TfFmtTF8;
         "neoforge-26.2" = _3ejENXbB;
+        "neoforge-26.3" = _17bCsCtW;
         "pkg-5.2.1" = _t9FVdA14;
         "pkg-5.0.1" = _HLKFrz4H;
         "pkg-4.21.0" = _RZsRIcpS;
@@ -446,7 +461,8 @@ let
         "pkg-7.0.0-beta.1" = _2cEZHLgK;
         "pkg-7.0.0-beta.2" = _QMAtZzJx;
         "pkg-7.0.0-beta.3" = _h4WUwCv8;
-        "default" = _h4WUwCv8;
+        "pkg-7.0.0" = _RokayyvV;
+        "default" = _RokayyvV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "notquests";

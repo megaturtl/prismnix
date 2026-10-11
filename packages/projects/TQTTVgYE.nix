@@ -651,6 +651,26 @@ let
             "file" = "fabric-carpet-26.2+v260616.jar";
             "hash" = "sha512-i4+saXm9MVP1z7T6prq1LhNX6rgUSSpmWPPA4awoVq03pibAoDoIOcOau3v1ZmH3ewnQXRCsARc7zdNzozxiZQ==";
         };
+        _nq8i2xNC = {
+            "id" = "nq8i2xNC";
+            "file" = "fabric-carpet-26.3-beta-1+v260702.jar";
+            "hash" = "sha512-IvFXDMosv3qfXPEGkrTepC50aF0qSqy7AcZ+w2uAMChx6fN4FBGqY0XxiRKWgJS8gUct+JhehrQGHIUPxsSlgw==";
+        };
+        _ZqIciRZr = {
+            "id" = "ZqIciRZr";
+            "file" = "fabric-carpet-26.3-beta-2+v260709.jar";
+            "hash" = "sha512-5fpPaVZdFJMJP4ZkCBiD6wanH6DaiIaIq1lAzG7EaJA2aW5h0tSgKHrJKjKWl5wdaIk/5T+FXPpaOXeHU6DpQg==";
+        };
+        _r0NurCct = {
+            "id" = "r0NurCct";
+            "file" = "fabric-carpet-26.3-beta-3+v260820.jar";
+            "hash" = "sha512-ucvAo5vwbqRnaE00YIj6w6hnOrC2x15n/lvMteJ0m7UHEWKoUTdsGRrOahy1+Bjfz7pqXgCtQF2xGgZGaypo4Q==";
+        };
+        _yt9oDFOj = {
+            "id" = "yt9oDFOj";
+            "file" = "fabric-carpet-26.3+v260915.jar";
+            "hash" = "sha512-ekebpp61BJy5Q2XVBEvVjJ+XDFCzSEhh/jZ18ZF/fJnBsfUKXgG92d7ZQNdqmVU5AJo2VuBb4vUT8g7BTemRpw==";
+        };
     in {
         "jzERAhet" = _jzERAhet;
         "AL0o28FC" = _AL0o28FC;
@@ -782,6 +802,10 @@ let
         "VTh112sf" = _VTh112sf;
         "qnMPnVvL" = _qnMPnVvL;
         "bGrLxJ8v" = _bGrLxJ8v;
+        "nq8i2xNC" = _nq8i2xNC;
+        "ZqIciRZr" = _ZqIciRZr;
+        "r0NurCct" = _r0NurCct;
+        "yt9oDFOj" = _yt9oDFOj;
         "fabric-1.14.4" = _NLwOaUCY;
         "fabric-1.15" = _AL0o28FC;
         "fabric-1.15.1" = _AL0o28FC;
@@ -957,6 +981,10 @@ let
         "fabric-26.2-pre-1" = _VTh112sf;
         "fabric-26.2-pre-5" = _qnMPnVvL;
         "fabric-26.2" = _bGrLxJ8v;
+        "fabric-26.3-snapshot-2" = _nq8i2xNC;
+        "fabric-26.3-snapshot-3" = _ZqIciRZr;
+        "fabric-26.3-snapshot-9" = _r0NurCct;
+        "fabric-26.3" = _yt9oDFOj;
         "pkg-1.1.3" = _jzERAhet;
         "pkg-1.4.8" = _AL0o28FC;
         "pkg-1.4.44" = _WwXcEAQl;
@@ -1085,7 +1113,11 @@ let
         "pkg-26.2-beta-4" = _VTh112sf;
         "pkg-26.2-beta-5" = _qnMPnVvL;
         "pkg-26.2" = _bGrLxJ8v;
-        "default" = _bGrLxJ8v;
+        "pkg-26.3-beta-1" = _nq8i2xNC;
+        "pkg-26.3-beta-2" = _ZqIciRZr;
+        "pkg-26.3-beta-3" = _r0NurCct;
+        "pkg-26.3" = _yt9oDFOj;
+        "default" = _yt9oDFOj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "carpet";

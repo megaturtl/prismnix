@@ -61,6 +61,11 @@ let
             "file" = "Particle-Tweaker-26.2-1.1.jar";
             "hash" = "sha512-9dlYi/O0MZMvx0S+tUilz/ASyzEXDjDYIRRrxGBHWL/Fhfskut0d6COxN2Pjz1u5G3i/ceaL9h2ZZah7n8wVzw==";
         };
+        _IXQeffhL = {
+            "id" = "IXQeffhL";
+            "file" = "particle-tweaker-1.0-snapshot.jar";
+            "hash" = "sha512-0jiYnvEiptxjtAqcAV83ERv24TYgN6yF24GVCuyzxk5kJuTVRcivesg6XF4a20BMsL2HtF4p4Ed/lkT/qaqVBQ==";
+        };
     in {
         "6tkMKDV3" = _6tkMKDV3;
         "ihVlq6HT" = _ihVlq6HT;
@@ -74,6 +79,7 @@ let
         "6A3X2FFR" = _6A3X2FFR;
         "WZKrgz4b" = _WZKrgz4b;
         "p0g1kkuf" = _p0g1kkuf;
+        "IXQeffhL" = _IXQeffhL;
         "fabric-1.21.11" = _6A3X2FFR;
         "fabric-1.21.9" = _ihVlq6HT;
         "fabric-1.21.10" = _ekBYO3yu;
@@ -81,6 +87,7 @@ let
         "fabric-26.1.1" = _rdeu7H5w;
         "fabric-26.1.2" = _WZKrgz4b;
         "fabric-26.2" = _p0g1kkuf;
+        "fabric-26.3" = _IXQeffhL;
         "pkg-1.21.11-1.0" = _6tkMKDV3;
         "pkg-1.21.9-1.0" = _ihVlq6HT;
         "pkg-1.21.10-1.0" = _ekBYO3yu;
@@ -93,7 +100,8 @@ let
         "pkg-1.21.11-1.3" = _6A3X2FFR;
         "pkg-26.1.2-1.1" = _WZKrgz4b;
         "pkg-26.2-1.1" = _p0g1kkuf;
-        "default" = _p0g1kkuf;
+        "pkg-26.3-1.0" = _IXQeffhL;
+        "default" = _IXQeffhL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "particle-tweaker";

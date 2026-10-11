@@ -126,6 +126,11 @@ let
             "file" = "heater-4.3+26.1.jar";
             "hash" = "sha512-hE9beQDeYXlaXXjdcSCQd0TeFOhpaTLcnNfvFi4MyqyE2WpLKX44hx5hhn4O7OhiMjU7lMSDQpu0TmgOvKBlmA==";
         };
+        _WcTaGjHM = {
+            "id" = "WcTaGjHM";
+            "file" = "heater-4.3+26.3.jar";
+            "hash" = "sha512-K2JvmKgT+1fcUD06bE1Smct8l9IhpHzXL95BabaaJWKBoMF81Bvu6F9aonvLcptdLDt0GP83Qo9SH2MfwqA2fA==";
+        };
     in {
         "2odF92MC" = _2odF92MC;
         "gdhRFidS" = _gdhRFidS;
@@ -152,6 +157,7 @@ let
         "fkdw0IF1" = _fkdw0IF1;
         "nTbB6hJ2" = _nTbB6hJ2;
         "6yl9MROR" = _6yl9MROR;
+        "WcTaGjHM" = _WcTaGjHM;
         "fabric-1.20.1" = _VD6Vagnk;
         "fabric-1.20.2" = _e1RdQDbk;
         "fabric-1.20.3" = _ebE7Fmf6;
@@ -172,6 +178,7 @@ let
         "fabric-26.1.1" = _6yl9MROR;
         "fabric-26.1.2" = _6yl9MROR;
         "fabric-26.2" = _nTbB6hJ2;
+        "fabric-26.3" = _WcTaGjHM;
         "pkg-1.0.0+1.20.1" = _2odF92MC;
         "pkg-1.1.0+1.20.1" = _gdhRFidS;
         "pkg-1.1.1+1.20.1" = _tLyE00gE;
@@ -197,7 +204,8 @@ let
         "pkg-4.2+26.2" = _fkdw0IF1;
         "pkg-4.3+26.2" = _nTbB6hJ2;
         "pkg-4.3+26.1" = _6yl9MROR;
-        "default" = _6yl9MROR;
+        "pkg-4.3+26.3" = _WcTaGjHM;
+        "default" = _WcTaGjHM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "heater";

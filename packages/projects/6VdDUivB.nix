@@ -646,6 +646,11 @@ let
             "file" = "essential_commands-0.41.0-mc26.2.jar";
             "hash" = "sha512-5wtieE5d0OQUd80NkYSm2hHGL59TiZ3VMJdCpDzPbAq9T63byUJ5npTts32viNCaCvZvmSAsjhme5GX5hzLJGQ==";
         };
+        _KANmt7ie = {
+            "id" = "KANmt7ie";
+            "file" = "essential_commands-0.42.0-mc26.3.jar";
+            "hash" = "sha512-bt2kAISoVEaBfhw5P46go4YwB2LFU5kO4r9hOpNiP4g751KCRjXz1/HSqJx7JHzCRq/Rih4NKT/wIkM7MB4YDg==";
+        };
     in {
         "4gXdhNmy" = _4gXdhNmy;
         "qouTNzrA" = _qouTNzrA;
@@ -776,6 +781,7 @@ let
         "NRYcpTlo" = _NRYcpTlo;
         "9nBKUID0" = _9nBKUID0;
         "QvCRhAmG" = _QvCRhAmG;
+        "KANmt7ie" = _KANmt7ie;
         "fabric-1.17" = _qeYAaMyc;
         "fabric-1.16.5" = _P735jfFm;
         "fabric-1.17.1" = _3NzYQDgn;
@@ -806,6 +812,7 @@ let
         "fabric-1.21.11" = _3s9XXmZa;
         "fabric-26.1.1" = _NRYcpTlo;
         "fabric-26.2" = _QvCRhAmG;
+        "fabric-26.3" = _KANmt7ie;
         "pkg-0.1.3-mc1.17" = _4gXdhNmy;
         "pkg-0.2.1-mc1.17" = _qouTNzrA;
         "pkg-0.3.0b-mc1.17" = _Z58fIus7;
@@ -935,7 +942,8 @@ let
         "pkg-0.39.0-mc26.1.1" = _NRYcpTlo;
         "pkg-0.40.0-beta1-mc26.2-rc-2" = _9nBKUID0;
         "pkg-0.41.0-mc26.2" = _QvCRhAmG;
-        "default" = _QvCRhAmG;
+        "pkg-0.42.0-mc26.3" = _KANmt7ie;
+        "default" = _KANmt7ie;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "essential-commands";

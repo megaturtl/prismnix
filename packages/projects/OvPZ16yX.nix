@@ -1011,6 +1011,36 @@ let
             "file" = "entityjs-1.5.0.jar";
             "hash" = "sha512-3QXdf8th5yWIYAgzUwCjgul0eS5goJ6ApP4hUa1yEIkkVbvdFaAbH1Tw15qPe9F4/FQbK0nZQf0ZEo0LVxO4KQ==";
         };
+        _S9dB094u = {
+            "id" = "S9dB094u";
+            "file" = "entityjs-fabric-0.7.4.jar";
+            "hash" = "sha512-6Xz/itOusvy+K/ArlED4VjpDVKvEwZ8eOhY5Y339/uW7o2ynwgRc4s5XRkxmuv7w8QLIWxwM4imR9/4N+kHRrQ==";
+        };
+        _BcigwRjp = {
+            "id" = "BcigwRjp";
+            "file" = "entityjs-forge-0.7.4.jar";
+            "hash" = "sha512-xM/ATHk7XeMqdG0bbjgSgCIFuMOtmgCbyBupoISvfsrL8w9TAzmNeSYNT11/JqtCh1Tm7jOyVJL4iO+BENn7xg==";
+        };
+        _cFjoHwGx = {
+            "id" = "cFjoHwGx";
+            "file" = "entityjs-1.5.1.jar";
+            "hash" = "sha512-d2gtPjrslfhFjbgTNyLwExjK1KUsAQIi2YSjSk35tU676WCGRhimHwo+ghN3aVT+ltoy2ZYaDiyn8dQOacsp2g==";
+        };
+        _cqIphBa1 = {
+            "id" = "cqIphBa1";
+            "file" = "entityjs-fabric-0.7.5.jar";
+            "hash" = "sha512-+fcbpsQSXlUogRnSEVWUJsBwPybblN5YHPw7W/LGMc8oCe409LbQGttL0LRxqxqKAsVQlto9IjQn4tIyB2yz7Q==";
+        };
+        _MukABB2q = {
+            "id" = "MukABB2q";
+            "file" = "entityjs-forge-0.7.5.jar";
+            "hash" = "sha512-tpbJgDdZBI8hNA8ceZFO7PfPYGTvn6xGoYOKqbHTMl9aOLA3mZlQ5e0DfJzRhtX4BrZOMyYRkl/J1fDOMsgxXw==";
+        };
+        _RGmpSVAm = {
+            "id" = "RGmpSVAm";
+            "file" = "entityjs-1.5.2.jar";
+            "hash" = "sha512-nII5LNIB2oomEQfw/P4tWKF595FxXVAVdd+OwB1yJP7TGLrXyc/tZdrmScmHhZAVKyPb6A29/6uwKcThJcLM3g==";
+        };
     in {
         "RGM2ygID" = _RGM2ygID;
         "oaYm3hsm" = _oaYm3hsm;
@@ -1214,14 +1244,20 @@ let
         "lf56dQMG" = _lf56dQMG;
         "MclQtexN" = _MclQtexN;
         "LKCdzLZl" = _LKCdzLZl;
+        "S9dB094u" = _S9dB094u;
+        "BcigwRjp" = _BcigwRjp;
+        "cFjoHwGx" = _cFjoHwGx;
+        "cqIphBa1" = _cqIphBa1;
+        "MukABB2q" = _MukABB2q;
+        "RGmpSVAm" = _RGmpSVAm;
         "forge-1.19.2" = _hyVQJWrE;
-        "forge-1.20.1" = _MclQtexN;
-        "neoforge-1.20.1" = _MclQtexN;
+        "forge-1.20.1" = _MukABB2q;
+        "neoforge-1.20.1" = _MukABB2q;
         "neoforge-1.19.2" = _rJ03Dwyb;
-        "neoforge-1.21" = _LKCdzLZl;
-        "neoforge-1.21.1" = _LKCdzLZl;
+        "neoforge-1.21" = _RGmpSVAm;
+        "neoforge-1.21.1" = _RGmpSVAm;
         "fabric-1.19.2" = _CoGNkXQF;
-        "fabric-1.20.1" = _lf56dQMG;
+        "fabric-1.20.1" = _cqIphBa1;
         "pkg-0.0.2-1.19.2" = _RGM2ygID;
         "pkg-0.0.1-1.20.1" = _oaYm3hsm;
         "pkg-0.0.3-1.19.2" = _HfjSrGgH;
@@ -1422,7 +1458,11 @@ let
         "pkg-1.4.9" = _vG5V9hSG;
         "pkg-0.7.3" = _MclQtexN;
         "pkg-1.5.0" = _LKCdzLZl;
-        "default" = _LKCdzLZl;
+        "pkg-0.7.4" = _BcigwRjp;
+        "pkg-1.5.1" = _cFjoHwGx;
+        "pkg-0.7.5" = _MukABB2q;
+        "pkg-1.5.2" = _RGmpSVAm;
+        "default" = _RGmpSVAm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "entityjs";

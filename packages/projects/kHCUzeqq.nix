@@ -116,6 +116,16 @@ let
             "file" = "improved-stone-smelting-1.7.1.jar";
             "hash" = "sha512-SJVSPrn8ee17m571hBFYv34ZAfPuF8LnxbmQCGiMmNbgHMy1NhKTUBABV1aPLLC9+Ac0o7oNNj5myXjp7NJKTA==";
         };
+        _vRQ2vv3j = {
+            "id" = "vRQ2vv3j";
+            "file" = "Better Stoneworking v2.0 (26.1-26.3).zip";
+            "hash" = "sha512-sDTeb4kRhnfii+HRfP0V27Nde4SK++xjvlHD+otVfnu9F+JbjRU0wHyHOYTQzfZsBMzv9o/L1FfpLfus2WJJKg==";
+        };
+        _1vwul0Zx = {
+            "id" = "1vwul0Zx";
+            "file" = "improved-stone-smelting-2.0.jar";
+            "hash" = "sha512-CrDhZ+TYWjHXbjkEt0sA2AWPOdfdzT/5irkG+r56GTLEemq9BDqDlDBKBzTweXzXEm5GzjiS2bQKHafQR+Uebg==";
+        };
     in {
         "dWQwrDxK" = _dWQwrDxK;
         "YUbcWDB8" = _YUbcWDB8;
@@ -140,6 +150,8 @@ let
         "jkhTGL2E" = _jkhTGL2E;
         "V5Ac0eok" = _V5Ac0eok;
         "3ONwvUwN" = _3ONwvUwN;
+        "vRQ2vv3j" = _vRQ2vv3j;
+        "1vwul0Zx" = _1vwul0Zx;
         "datapack-1.20" = _6R0OkAl5;
         "datapack-1.20.1" = _6R0OkAl5;
         "datapack-1.20.2" = _6R0OkAl5;
@@ -159,6 +171,11 @@ let
         "datapack-1.21.9" = _V5Ac0eok;
         "datapack-1.21.10" = _V5Ac0eok;
         "datapack-1.21.11" = _V5Ac0eok;
+        "datapack-26.1" = _vRQ2vv3j;
+        "datapack-26.1.1" = _vRQ2vv3j;
+        "datapack-26.1.2" = _vRQ2vv3j;
+        "datapack-26.2" = _vRQ2vv3j;
+        "datapack-26.3" = _vRQ2vv3j;
         "fabric-1.20" = _xl4Vrorz;
         "fabric-1.20.1" = _xl4Vrorz;
         "fabric-1.20.2" = _xl4Vrorz;
@@ -178,6 +195,11 @@ let
         "fabric-1.21.9" = _3ONwvUwN;
         "fabric-1.21.10" = _3ONwvUwN;
         "fabric-1.21.11" = _3ONwvUwN;
+        "fabric-26.1" = _1vwul0Zx;
+        "fabric-26.1.1" = _1vwul0Zx;
+        "fabric-26.1.2" = _1vwul0Zx;
+        "fabric-26.2" = _1vwul0Zx;
+        "fabric-26.3" = _1vwul0Zx;
         "forge-1.20" = _xl4Vrorz;
         "forge-1.20.1" = _xl4Vrorz;
         "forge-1.20.2" = _xl4Vrorz;
@@ -197,6 +219,11 @@ let
         "forge-1.21.9" = _3ONwvUwN;
         "forge-1.21.10" = _3ONwvUwN;
         "forge-1.21.11" = _3ONwvUwN;
+        "forge-26.1" = _1vwul0Zx;
+        "forge-26.1.1" = _1vwul0Zx;
+        "forge-26.1.2" = _1vwul0Zx;
+        "forge-26.2" = _1vwul0Zx;
+        "forge-26.3" = _1vwul0Zx;
         "quilt-1.20" = _xl4Vrorz;
         "quilt-1.20.1" = _xl4Vrorz;
         "quilt-1.20.2" = _xl4Vrorz;
@@ -216,6 +243,11 @@ let
         "quilt-1.21.9" = _3ONwvUwN;
         "quilt-1.21.10" = _3ONwvUwN;
         "quilt-1.21.11" = _3ONwvUwN;
+        "quilt-26.1" = _1vwul0Zx;
+        "quilt-26.1.1" = _1vwul0Zx;
+        "quilt-26.1.2" = _1vwul0Zx;
+        "quilt-26.2" = _1vwul0Zx;
+        "quilt-26.3" = _1vwul0Zx;
         "neoforge-1.20" = _xl4Vrorz;
         "neoforge-1.20.1" = _xl4Vrorz;
         "neoforge-1.20.2" = _xl4Vrorz;
@@ -235,6 +267,11 @@ let
         "neoforge-1.21.9" = _3ONwvUwN;
         "neoforge-1.21.10" = _3ONwvUwN;
         "neoforge-1.21.11" = _3ONwvUwN;
+        "neoforge-26.1" = _1vwul0Zx;
+        "neoforge-26.1.1" = _1vwul0Zx;
+        "neoforge-26.1.2" = _1vwul0Zx;
+        "neoforge-26.2" = _1vwul0Zx;
+        "neoforge-26.3" = _1vwul0Zx;
         "pkg-1" = _dWQwrDxK;
         "pkg-1+mod" = _EZNNflju;
         "pkg-1.1" = _dPIJrDNz;
@@ -257,7 +294,9 @@ let
         "pkg-1.7+mod" = _jkhTGL2E;
         "pkg-1.7.1" = _V5Ac0eok;
         "pkg-1.7.1+mod" = _3ONwvUwN;
-        "default" = _3ONwvUwN;
+        "pkg-2.0" = _vRQ2vv3j;
+        "pkg-2.0+mod" = _1vwul0Zx;
+        "default" = _1vwul0Zx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "improved-stone-smelting";

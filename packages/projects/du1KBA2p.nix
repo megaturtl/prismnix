@@ -41,6 +41,11 @@ let
             "file" = "createcoasterseats-1.2.jar";
             "hash" = "sha512-N7jW4+9Mb/nQFKKgysI72zqC5ei5AQ5c5Wh7VWVOKr3nQD7UACZ1eRdCIpdnYylDlj3oToiR5DHBKVS5vzY50w==";
         };
+        _vtyvJPEJ = {
+            "id" = "vtyvJPEJ";
+            "file" = "createcoasterseats-1.2.jar";
+            "hash" = "sha512-blwgnLc4LeWdo8Z++zzVaNVEC3nzUJhomOcSNx5ZB29hJ3s1Uviey/q0WH8QPZAH6TZaot/RvIrm1XUM6TuxIg==";
+        };
     in {
         "fa4Jfjrl" = _fa4Jfjrl;
         "SgAk99Fr" = _SgAk99Fr;
@@ -50,7 +55,8 @@ let
         "fgMGyoV3" = _fgMGyoV3;
         "VePuUGvu" = _VePuUGvu;
         "MFNJipOl" = _MFNJipOl;
-        "neoforge-1.21.1" = _MFNJipOl;
+        "vtyvJPEJ" = _vtyvJPEJ;
+        "neoforge-1.21.1" = _vtyvJPEJ;
         "pkg-1.0-SNAPSHOT" = _fa4Jfjrl;
         "pkg-1.1+build.5" = _SgAk99Fr;
         "pkg-1.1+build.6" = _NMcs4FLe;
@@ -59,7 +65,8 @@ let
         "pkg-1.2+build.9" = _fgMGyoV3;
         "pkg-1.2+build.10" = _VePuUGvu;
         "pkg-1.2+build.11" = _MFNJipOl;
-        "default" = _MFNJipOl;
+        "pkg-1.2+build.12" = _vtyvJPEJ;
+        "default" = _vtyvJPEJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-coaster-seats";

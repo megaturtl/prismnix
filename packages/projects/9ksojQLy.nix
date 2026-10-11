@@ -326,6 +326,21 @@ let
             "file" = "ElectricMace-neoforge-1.21.2-1.7.2.jar";
             "hash" = "sha512-JmTa19lQtg0oPullYWzE2azvQNRGj706VEnBgZSCx7leS9mOM2qWIzl4m7NNsASMUyFvXyRvLSwqia5SVUFZVQ==";
         };
+        _uKeQq42z = {
+            "id" = "uKeQq42z";
+            "file" = "electricmace-fabric-26.2-1.10.3.jar";
+            "hash" = "sha512-yz77Fn5lcmIGzHvxYu/OYi2wVGjnMEOlNDxYUNAxl7pW4utUj80cKNIF1XRjmlh1CCqXhtaeNVjS25OwvqTXjA==";
+        };
+        _catzgn6s = {
+            "id" = "catzgn6s";
+            "file" = "electricmace-fabric-26.2-1.10.3.jar";
+            "hash" = "sha512-yz77Fn5lcmIGzHvxYu/OYi2wVGjnMEOlNDxYUNAxl7pW4utUj80cKNIF1XRjmlh1CCqXhtaeNVjS25OwvqTXjA==";
+        };
+        _SnKryTJS = {
+            "id" = "SnKryTJS";
+            "file" = "electricmace-neoforge-26.2-1.10.3.jar";
+            "hash" = "sha512-Zko0WPyVwArYupVmotlcXVvY1He21huY9sEj2o+xf8J4qU0eszytYUwebAKu5zm4kKHT68IIgMa7iQo0ojpoEA==";
+        };
     in {
         "rIht4JMS" = _rIht4JMS;
         "rOBDFrbA" = _rOBDFrbA;
@@ -392,6 +407,9 @@ let
         "WDDdXrZ4" = _WDDdXrZ4;
         "eLyuhNzQ" = _eLyuhNzQ;
         "ylKXDacn" = _ylKXDacn;
+        "uKeQq42z" = _uKeQq42z;
+        "catzgn6s" = _catzgn6s;
+        "SnKryTJS" = _SnKryTJS;
         "fabric-24w11a" = _rIht4JMS;
         "fabric-24w12a" = _rIht4JMS;
         "fabric-24w13a" = _rOBDFrbA;
@@ -411,7 +429,7 @@ let
         "fabric-26.1" = _91CqaiMU;
         "fabric-26.1.1" = _91CqaiMU;
         "fabric-26.1.2" = _91CqaiMU;
-        "fabric-26.2" = _RoGQkN6K;
+        "fabric-26.2" = _catzgn6s;
         "quilt-1.21" = _pmDZ9zDd;
         "quilt-1.21.1" = _pmDZ9zDd;
         "quilt-1.21.2" = _eLyuhNzQ;
@@ -427,7 +445,7 @@ let
         "quilt-26.1" = _91CqaiMU;
         "quilt-26.1.1" = _91CqaiMU;
         "quilt-26.1.2" = _91CqaiMU;
-        "quilt-26.2" = _RoGQkN6K;
+        "quilt-26.2" = _catzgn6s;
         "neoforge-1.21" = _YSivaC6u;
         "neoforge-1.21.1" = _YSivaC6u;
         "neoforge-1.21.2" = _ylKXDacn;
@@ -443,7 +461,8 @@ let
         "neoforge-26.1" = _wOhf8s5w;
         "neoforge-26.1.1" = _wOhf8s5w;
         "neoforge-26.1.2" = _wOhf8s5w;
-        "neoforge-26.2" = _1mESCu71;
+        "neoforge-26.2" = _SnKryTJS;
+        "neoforge-26.3" = _SnKryTJS;
         "pkg-0.1" = _rIht4JMS;
         "pkg-0.2" = _rOBDFrbA;
         "pkg-0.3" = _2idw4fFr;
@@ -468,7 +487,8 @@ let
         "pkg-1.9.1" = _wOhf8s5w;
         "pkg-1.8.4" = _CUtHygBG;
         "pkg-1.7.3" = _lWlNUuBN;
-        "default" = _ylKXDacn;
+        "pkg-1.10.3" = _SnKryTJS;
+        "default" = _SnKryTJS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "electric-mace";

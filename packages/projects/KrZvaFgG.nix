@@ -81,6 +81,16 @@ let
             "file" = "auto-eater-1.5.0.jar";
             "hash" = "sha512-Eab+h68M8ch7i+N39ADu4DkqitZslMjWu7zhhW6D2IP+oUZYyUEund3+uSiCTrh6IY86M6xR51yKKwlsUx9v8A==";
         };
+        _ZDF5Xmo5 = {
+            "id" = "ZDF5Xmo5";
+            "file" = "auto-eater-1.4.3.jar";
+            "hash" = "sha512-ptBd/79zIzbaC0R6aP79IT/4gt91g8LjrMNYIO5Vfxbad/F08ut3u0TKn13EwjYXbxRCFYmMFYA8P+HR2iNiLg==";
+        };
+        _4whLoHbG = {
+            "id" = "4whLoHbG";
+            "file" = "auto-eater-1.5.1.jar";
+            "hash" = "sha512-8k/V/MLT31wPrTpCpQnch7f/V7qPCSavapkBvV+y/eJ3f1h8R9763R3ZTOp0XXM0EP2OHG44OrAaMuw8mxTkeQ==";
+        };
     in {
         "3h1ZQNGy" = _3h1ZQNGy;
         "6OP3JiaE" = _6OP3JiaE;
@@ -98,15 +108,18 @@ let
         "kJylQ61n" = _kJylQ61n;
         "9gpQBoBu" = _9gpQBoBu;
         "E7MjGhII" = _E7MjGhII;
+        "ZDF5Xmo5" = _ZDF5Xmo5;
+        "4whLoHbG" = _4whLoHbG;
         "fabric-1.21.4" = _nsvpRK8r;
         "fabric-1.21.3" = _6OP3JiaE;
         "fabric-1.21.5" = _xCUytFVt;
-        "fabric-1.21.11" = _N9fju2GN;
+        "fabric-1.21.11" = _ZDF5Xmo5;
         "fabric-1.21.7" = _AgbhDXtW;
         "fabric-26.1" = _F72IWe9m;
         "fabric-26.1.1" = _kJylQ61n;
         "fabric-26.1.2" = _9gpQBoBu;
         "fabric-26.2" = _E7MjGhII;
+        "fabric-26.3" = _4whLoHbG;
         "pkg-1.3.0" = _3h1ZQNGy;
         "pkg-1.3.1" = _AgbhDXtW;
         "pkg-1.3.2" = _wDnEwOym;
@@ -115,7 +128,8 @@ let
         "pkg-1.4.2" = _Sseqn7m1;
         "pkg-1.4.3" = _P7DXq4d7;
         "pkg-1.5.0" = _E7MjGhII;
-        "default" = _E7MjGhII;
+        "pkg-1.5.1" = _4whLoHbG;
+        "default" = _4whLoHbG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "auto-eater";

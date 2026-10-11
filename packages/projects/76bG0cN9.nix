@@ -86,6 +86,11 @@ let
             "file" = "AdventureLoot-2.1.1-1.26.2.jar";
             "hash" = "sha512-jL2oGd081ofBlHFn+VGXHgL1jSa5IjTjO1JtgUa9TCPx+B/KHxTL67B7trI5cAAP6CmHHfDOfLGYIEljF2EWaA==";
         };
+        _58DTEuZn = {
+            "id" = "58DTEuZn";
+            "file" = "AdventureLoot-2.1.2-1.26.3.jar";
+            "hash" = "sha512-Cx/09GXZrOKNiJwPowk4u3No7XpcresX4gsVm9KLgjRDEKDDXah+DOwLNOjEaQubhbVqiIfVE8kUJBMYMUYoig==";
+        };
     in {
         "rDS4z3Bn" = _rDS4z3Bn;
         "BfFYLkvA" = _BfFYLkvA;
@@ -104,6 +109,7 @@ let
         "hgS9xMhJ" = _hgS9xMhJ;
         "sG6b2E6N" = _sG6b2E6N;
         "nroFm5gE" = _nroFm5gE;
+        "58DTEuZn" = _58DTEuZn;
         "fabric-1.20" = _Gur64APk;
         "fabric-1.20.1" = _Gur64APk;
         "fabric-1.20.2" = _Gur64APk;
@@ -127,6 +133,7 @@ let
         "fabric-26.1.1" = _hgS9xMhJ;
         "fabric-26.1.2" = _hgS9xMhJ;
         "fabric-26.2" = _nroFm5gE;
+        "fabric-26.3" = _58DTEuZn;
         "pkg-1.0.0-1.20.1" = _rDS4z3Bn;
         "pkg-1.0.0-1.20.4" = _BfFYLkvA;
         "pkg-1.0.1-1.20.6" = _6LRnvBCK;
@@ -144,7 +151,8 @@ let
         "pkg-2.0.0-1.26.1" = _hgS9xMhJ;
         "pkg-2.1.0-1.26.2" = _sG6b2E6N;
         "pkg-2.1.1-1.26.2" = _nroFm5gE;
-        "default" = _nroFm5gE;
+        "pkg-2.1.2-1.26.3" = _58DTEuZn;
+        "default" = _58DTEuZn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "adventure-bags";

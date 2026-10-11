@@ -21,11 +21,17 @@ let
             "file" = "§aRemodeled-Fence-and-Gates§8_§61.7.zip";
             "hash" = "sha512-+VSQCkJ1jTJFJx/ZXGTm0h98+jjcq775ciXee95VpaZlPsGMQlaXILDjhuA2nrWz0t/B+/3/cCn4EWeGg3FiQw==";
         };
+        _tATBVtqw = {
+            "id" = "tATBVtqw";
+            "file" = "§aRemodeled-Fence-and-Gates§8_§61.8.zip";
+            "hash" = "sha512-h/gaizzgrxEX9649mwa+eYv/DjxRaNlCwGugpvymyTqTKIbc+6BnrkJ+urJnhZaVflZsBNF9xLU0mK7J/8kfGQ==";
+        };
     in {
         "XktpmlFK" = _XktpmlFK;
         "ZuA5WKww" = _ZuA5WKww;
         "8RTKuvVb" = _8RTKuvVb;
         "KldVUxr8" = _KldVUxr8;
+        "tATBVtqw" = _tATBVtqw;
         "minecraft-1.20" = _ZuA5WKww;
         "minecraft-1.20.1" = _ZuA5WKww;
         "minecraft-1.20.2" = _XktpmlFK;
@@ -53,12 +59,14 @@ let
         "minecraft-26.1" = _KldVUxr8;
         "minecraft-26.1.1" = _KldVUxr8;
         "minecraft-26.1.2" = _KldVUxr8;
-        "minecraft-26.2" = _KldVUxr8;
+        "minecraft-26.2" = _tATBVtqw;
+        "minecraft-26.3" = _tATBVtqw;
         "pkg-1.4" = _XktpmlFK;
         "pkg-1.5" = _ZuA5WKww;
         "pkg-1.6" = _8RTKuvVb;
         "pkg-1.7" = _KldVUxr8;
-        "default" = _KldVUxr8;
+        "pkg-1.8" = _tATBVtqw;
+        "default" = _tATBVtqw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "remodeled-fence-and-gates";

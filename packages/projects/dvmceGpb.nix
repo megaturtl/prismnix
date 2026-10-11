@@ -361,6 +361,66 @@ let
             "file" = "realisticdining-2.3.4-forge-1.20.1.jar";
             "hash" = "sha512-AZh83WVy7hyxSok62yN0fAiCGyt9piVR3ryUr6DYK9lpxnCRTeqSCNdkXYdpYdoIM4Dn1ileJyfJrlMZ0XnYYQ==";
         };
+        _l8ImmdlL = {
+            "id" = "l8ImmdlL";
+            "file" = "realisticdining-2.4.0-fabric-1.21.1.jar";
+            "hash" = "sha512-4CeYY6I5+lGfSlXUI60heeFNzb6GIcfDejwG/RgSTz+ky7XnatS4Rps0CvF5+6xPf4rLuPm38DNVfDtDUQRpRg==";
+        };
+        _v71j9qzv = {
+            "id" = "v71j9qzv";
+            "file" = "realisticdining-2.4.0-fabric-1.20.1.jar";
+            "hash" = "sha512-vRafBi4tcJos2Y5uCvRCk/WBWM+B+dd6x6FeyIUO5pbFaQWFVi0MCoBamIvmG/mt3ezb+Ys2wHVY6Cx70bnGwg==";
+        };
+        _QOXRwMa9 = {
+            "id" = "QOXRwMa9";
+            "file" = "realisticdining-2.4.0-neoforge-1.21.1.jar";
+            "hash" = "sha512-UKHhVYAPJ0uwJ7kVSI6H5aDIpHOkYtQeLjVS0DKgKwGOrclNueeDl7+t5OtD32PMCqmdcQY0B+L9eLhAp65Hqw==";
+        };
+        _S0X4rInL = {
+            "id" = "S0X4rInL";
+            "file" = "realisticdining-2.4.0-forge-1.20.1.jar";
+            "hash" = "sha512-9ui01p3/Qjx5QvcIIuwLjgQx/p8xNk+55KPUYqIKYYjIQnkQLDDuOsdDko8CpAz3Zv0GUOuBb/QD/gnE7ox6sQ==";
+        };
+        _uUSPt7WR = {
+            "id" = "uUSPt7WR";
+            "file" = "realisticdining-2.4.1-fabric-1.21.1.jar";
+            "hash" = "sha512-AuMJpD8vs0phPlxnBqeJ7UofbTPn/C482SzF60qrXs+gio5oKQXvIurN0AfPCfB2Ndb/cLFvH4/YRVH3GQyVug==";
+        };
+        _EX7A7Spf = {
+            "id" = "EX7A7Spf";
+            "file" = "realisticdining-2.4.1-fabric-1.20.1.jar";
+            "hash" = "sha512-jze6MXMRqE0dD0FLfTIJuGQ+oVxN0BekWz+5mBUX8piUh3LJyE5NGWS7tsmw+/XDEu3Cu7C7ON9JPasDI+lDWA==";
+        };
+        _87YYdgHC = {
+            "id" = "87YYdgHC";
+            "file" = "realisticdining-2.4.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-8rNDMG1C1x7UED+91VZkGDWsZ5r2tJYkO69diIWcqcKCdHQWIQknK94im782cZoxaW7AeuLRZYSEm52LQbAOOw==";
+        };
+        _UMTeUCdh = {
+            "id" = "UMTeUCdh";
+            "file" = "realisticdining-2.4.1-forge-1.20.1.jar";
+            "hash" = "sha512-/r57g9iBQkZtJ82QI3r2/E+jeMilNzuFEjHCyfS/7vRwQIdBfQGvN+Z9OH9CkFnXAmjZQ6cguWU2ifX5c+F9ZA==";
+        };
+        _nMI4gxRo = {
+            "id" = "nMI4gxRo";
+            "file" = "realisticdining-2.4.2-fabric-1.21.1.jar";
+            "hash" = "sha512-CJBRGt2EFjGMJXKPn9R1sPQla2hksNrg2Lh+xakw09hI+AV0ujQS6IeZeNlDSjbsfYzzyaQiBs1O4w1l4Buc6w==";
+        };
+        _CDzrAv4C = {
+            "id" = "CDzrAv4C";
+            "file" = "realisticdining-2.4.2-fabric-1.20.1.jar";
+            "hash" = "sha512-waz1a+YELBMneQgkFzUu8MKfHySAo/5qhYGhgNCPxJmF2eZLtmMKKO8LZ8zeGKLEq2OGcIGsjWWBuMnvRnG1HA==";
+        };
+        _37KGbZIU = {
+            "id" = "37KGbZIU";
+            "file" = "realisticdining-2.4.2-neoforge-1.21.1.jar";
+            "hash" = "sha512-ENfMTfPOEo9uvyZ9eDoKdAunHotTbPNe35W43vt881riPzRuPql3PlFXHMT+/3X6qHtTeBEOPngS/QOt0jQEnA==";
+        };
+        _R1RakhsC = {
+            "id" = "R1RakhsC";
+            "file" = "realisticdining-2.4.2-forge-1.20.1.jar";
+            "hash" = "sha512-ziuXq7X3UQU6AgtcYIxZVEKU/Go/IKs1cVXEBRyKEr1fuEsJJOYTc9WyTdd8+nSCe/yDw2rMKQg+gqTmAIgwrA==";
+        };
     in {
         "TY4OjE5q" = _TY4OjE5q;
         "m6YA6OEr" = _m6YA6OEr;
@@ -434,10 +494,22 @@ let
         "rEg1CfhP" = _rEg1CfhP;
         "8xMAFu2x" = _8xMAFu2x;
         "FTZiUeqv" = _FTZiUeqv;
-        "forge-1.20.1" = _FTZiUeqv;
-        "neoforge-1.21.1" = _8xMAFu2x;
-        "fabric-1.21.1" = _rEg1CfhP;
-        "fabric-1.20.1" = _bEkXKF3D;
+        "l8ImmdlL" = _l8ImmdlL;
+        "v71j9qzv" = _v71j9qzv;
+        "QOXRwMa9" = _QOXRwMa9;
+        "S0X4rInL" = _S0X4rInL;
+        "uUSPt7WR" = _uUSPt7WR;
+        "EX7A7Spf" = _EX7A7Spf;
+        "87YYdgHC" = _87YYdgHC;
+        "UMTeUCdh" = _UMTeUCdh;
+        "nMI4gxRo" = _nMI4gxRo;
+        "CDzrAv4C" = _CDzrAv4C;
+        "37KGbZIU" = _37KGbZIU;
+        "R1RakhsC" = _R1RakhsC;
+        "forge-1.20.1" = _R1RakhsC;
+        "neoforge-1.21.1" = _37KGbZIU;
+        "fabric-1.21.1" = _nMI4gxRo;
+        "fabric-1.20.1" = _CDzrAv4C;
         "pkg-1.0.0" = _TY4OjE5q;
         "pkg-1.0.1" = _mnaxpx6t;
         "pkg-1.0.2" = _HdiokgpT;
@@ -459,7 +531,10 @@ let
         "pkg-2.3.1" = _Ostei35R;
         "pkg-2.3.2" = _shhj9caF;
         "pkg-2.3.4" = _FTZiUeqv;
-        "default" = _FTZiUeqv;
+        "pkg-2.4.0" = _S0X4rInL;
+        "pkg-2.4.1" = _UMTeUCdh;
+        "pkg-2.4.2" = _R1RakhsC;
+        "default" = _R1RakhsC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "realisticdining";

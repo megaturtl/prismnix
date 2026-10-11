@@ -21,11 +21,17 @@ let
             "file" = "Background - Frozen Horizon 26.2+.zip";
             "hash" = "sha512-XwILK2YjyAQXaXl6SDC/o315AA2gf7Ve3phx1vLWMCVmEVD/oLimxS/SyqpB9DFkjDIUhLBRchLnPtZRmDumRw==";
         };
+        _m5Nsfnqj = {
+            "id" = "m5Nsfnqj";
+            "file" = "Background - Frozen Horizon 26.3+.zip";
+            "hash" = "sha512-xuxKx2FT2hh5dX8su8WlXAhzMQN1gcEWtjySmV6pp6vCSxCs5+TneFygDSaHlAMd2cz91hM2X3RKAcgOSKi5dg==";
+        };
     in {
         "S4tviJVG" = _S4tviJVG;
         "IhoZ6Sqf" = _IhoZ6Sqf;
         "5VA06DPi" = _5VA06DPi;
         "F5Ku3Afj" = _F5Ku3Afj;
+        "m5Nsfnqj" = _m5Nsfnqj;
         "minecraft-1.20" = _S4tviJVG;
         "minecraft-1.20.1" = _S4tviJVG;
         "minecraft-1.20.2" = _S4tviJVG;
@@ -49,11 +55,13 @@ let
         "minecraft-26.1.1" = _5VA06DPi;
         "minecraft-26.1.2" = _5VA06DPi;
         "minecraft-26.2" = _F5Ku3Afj;
+        "minecraft-26.3" = _m5Nsfnqj;
         "pkg-1.0" = _S4tviJVG;
         "pkg-1.1" = _IhoZ6Sqf;
         "pkg-1.2" = _5VA06DPi;
         "pkg-1.3" = _F5Ku3Afj;
-        "default" = _F5Ku3Afj;
+        "pkg-1.4" = _m5Nsfnqj;
+        "default" = _m5Nsfnqj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "background-frozen-horizon";

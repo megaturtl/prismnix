@@ -131,6 +131,11 @@ let
             "file" = "MoreCosmetics-Fabric-26.2.jar";
             "hash" = "sha512-O7LquaH4WsUZrnerUAOfujXcoLsQ49X3i09rV3NWppRjJaJxSAc8N7VS6JDcfMl/QVFXAYQGBuS+SIljdrSFDg==";
         };
+        _5baT6Wn1 = {
+            "id" = "5baT6Wn1";
+            "file" = "MoreCosmetics-Fabric-26.3.jar";
+            "hash" = "sha512-X/eiWkNj0Lv4ftIVF6snbrSXWBpJsLYmRUIkSkuN+GvCdltIM2rSDr+GHER5271K1KvqkE3qQyy3v1TiqIqwYg==";
+        };
     in {
         "RyL5bFtB" = _RyL5bFtB;
         "LTOh1W3g" = _LTOh1W3g;
@@ -158,6 +163,7 @@ let
         "GSHsu4pK" = _GSHsu4pK;
         "y5cDUksK" = _y5cDUksK;
         "7nXqWRsf" = _7nXqWRsf;
+        "5baT6Wn1" = _5baT6Wn1;
         "forge-1.8.9" = _RyL5bFtB;
         "forge-1.16.5" = _LTOh1W3g;
         "forge-1.18" = _NNR8s60C;
@@ -206,9 +212,10 @@ let
         "fabric-26.1.1" = _y5cDUksK;
         "fabric-26.1.2" = _y5cDUksK;
         "fabric-26.2" = _7nXqWRsf;
+        "fabric-26.3" = _5baT6Wn1;
         "pkg-1.2" = _7edLLpYx;
-        "pkg-1.3" = _7nXqWRsf;
-        "default" = _7nXqWRsf;
+        "pkg-1.3" = _5baT6Wn1;
+        "default" = _5baT6Wn1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "morecosmeticsmod";

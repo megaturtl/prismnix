@@ -61,6 +61,11 @@ let
             "file" = "drippyloadingscreen-earlywindow_neoforge_3.1.5_MC_26.2.jar";
             "hash" = "sha512-uEtAxV5gT5CtQuPQFnbkhLNL6Oyx4+Il3ke9EJhFL6kaPxY3LdNdT8RwlTpL+7XDbTMxdlL5U91O/HZgtuaTxA==";
         };
+        _ZwGTIVi2 = {
+            "id" = "ZwGTIVi2";
+            "file" = "drippyloadingscreen-earlywindow_neoforge_3.1.6_MC_26.3.jar";
+            "hash" = "sha512-TccrwJa9FJCpjqc9t//hxvodbBYnFo1Pwd/zG2I1zljp1+tvf5nBBwKJietq4EbavwEPT7u9ordKQqOh2NvWOA==";
+        };
     in {
         "GhrY2l7V" = _GhrY2l7V;
         "yEM9bANH" = _yEM9bANH;
@@ -74,12 +79,14 @@ let
         "QRO7diwk" = _QRO7diwk;
         "TApNaR98" = _TApNaR98;
         "i6Ug9ayv" = _i6Ug9ayv;
+        "ZwGTIVi2" = _ZwGTIVi2;
         "neoforge-1.21.10" = _GhrY2l7V;
         "neoforge-1.21.1" = _12xuEYZB;
         "neoforge-1.21.11" = _QRO7diwk;
         "neoforge-26.1.1" = _H2c5jH5D;
         "neoforge-26.1.2" = _TApNaR98;
         "neoforge-26.2" = _i6Ug9ayv;
+        "neoforge-26.3" = _ZwGTIVi2;
         "pkg-3.1.0-1.21.10-neoforge" = _GhrY2l7V;
         "pkg-3.1.0-1.21.1-neoforge" = _yEM9bANH;
         "pkg-3.1.1-1.21.11-neoforge" = _F7XL8DTh;
@@ -92,7 +99,8 @@ let
         "pkg-3.1.5-1.21.11-neoforge" = _QRO7diwk;
         "pkg-3.1.5-26.1.2-neoforge" = _TApNaR98;
         "pkg-3.1.5-26.2-neoforge" = _i6Ug9ayv;
-        "default" = _i6Ug9ayv;
+        "pkg-3.1.6-26.3-neoforge" = _ZwGTIVi2;
+        "default" = _ZwGTIVi2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "drippy-early-loading-module";

@@ -31,6 +31,11 @@ let
             "file" = "PlayerHealthIndicatorsUnofficial 1.1.2.jar";
             "hash" = "sha512-mE6nH9hnzapxWvzolkAJok/nK4fRlR+uMqcFY5iOya5lHAlLJ86vl/LZACGhVRo/M3ybmFxYl2ZDkB848oZWRg==";
         };
+        _mAQqI1Ch = {
+            "id" = "mAQqI1Ch";
+            "file" = "PlayerHealthIndicators-1.1.1-26.3.jar";
+            "hash" = "sha512-fZCeNZ4d2BnwOz1imJZUAx1dZ5U+hB1AI7JMng07uMe0w/Um8/WZZtYePWasNLyQC0ZsRPjI98x/9bBLb0hyDw==";
+        };
     in {
         "Mkegyngq" = _Mkegyngq;
         "iyuQZBWk" = _iyuQZBWk;
@@ -38,6 +43,7 @@ let
         "a2vCSYX5" = _a2vCSYX5;
         "jq4Taamt" = _jq4Taamt;
         "lD3WoqGn" = _lD3WoqGn;
+        "mAQqI1Ch" = _mAQqI1Ch;
         "fabric-1.21" = _Mkegyngq;
         "fabric-1.21.1" = _Mkegyngq;
         "fabric-1.21.2" = _Mkegyngq;
@@ -54,9 +60,10 @@ let
         "fabric-26.1.1" = _jq4Taamt;
         "fabric-26.1.2" = _jq4Taamt;
         "fabric-26.2" = _lD3WoqGn;
+        "fabric-26.3" = _mAQqI1Ch;
         "pkg-1.1.1" = _a2vCSYX5;
-        "pkg-1.1.2" = _lD3WoqGn;
-        "default" = _lD3WoqGn;
+        "pkg-1.1.2" = _mAQqI1Ch;
+        "default" = _mAQqI1Ch;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "player-health-indicators-unofficial";

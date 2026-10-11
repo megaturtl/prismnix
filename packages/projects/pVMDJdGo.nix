@@ -146,6 +146,11 @@ let
             "file" = "EnchantedBooks26.2.zip";
             "hash" = "sha512-tF+iWIsi0+rrZINFHzthgTowu068jDd7GXS5kSjzO8UNNCF6Prhdb62bGOQ5rEtG10lJ7BXkU7jpXxp5cOAcVg==";
         };
+        _AqjaWekE = {
+            "id" = "AqjaWekE";
+            "file" = "EnchantedBooks26.3.zip";
+            "hash" = "sha512-QHvv7HwaugdZHX0y116wkJFrKFBQx6n2j7dJnuHOJkgp2yJ58e+18YaJtsVuTRaE2bllhJ5BuaUK/2FXPNxXdg==";
+        };
     in {
         "B7RggzNQ" = _B7RggzNQ;
         "u2v4ALTt" = _u2v4ALTt;
@@ -176,6 +181,7 @@ let
         "3WdNcyL6" = _3WdNcyL6;
         "ggFFuQyo" = _ggFFuQyo;
         "IjnsXSya" = _IjnsXSya;
+        "AqjaWekE" = _AqjaWekE;
         "minecraft-1.13" = _yoepDeRw;
         "minecraft-1.13.1" = _yoepDeRw;
         "minecraft-1.13.2" = _yoepDeRw;
@@ -226,6 +232,7 @@ let
         "minecraft-26.1.1" = _ggFFuQyo;
         "minecraft-26.1.2" = _ggFFuQyo;
         "minecraft-26.2" = _IjnsXSya;
+        "minecraft-26.3" = _AqjaWekE;
         "pkg-1.19-8" = _B7RggzNQ;
         "pkg-1.13-1.20.4" = _u2v4ALTt;
         "pkg-1.13-1.20.1" = _FokJ4z0g;
@@ -255,7 +262,8 @@ let
         "pkg-1.21.11" = _3WdNcyL6;
         "pkg-26.1-26.1.2" = _ggFFuQyo;
         "pkg-26.2" = _IjnsXSya;
-        "default" = _IjnsXSya;
+        "pkg-26.3" = _AqjaWekE;
+        "default" = _AqjaWekE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "different-textures-for-enchanted-books";

@@ -156,6 +156,16 @@ let
             "file" = "thebrokencontent-1.8.2.jar";
             "hash" = "sha512-cJHW4CRHj9Z9Vhzaniya6SGAmnk+cFyKhzkoxOOd6aT8SI2FzlmpHy8qJRyH8uLafEQ+vdQ+UW7RO1puhvUGxA==";
         };
+        _MNNlFlnC = {
+            "id" = "MNNlFlnC";
+            "file" = "thebrokencontent-1.9.0.jar";
+            "hash" = "sha512-Rhamn7bw7pa6NaDQ1XIrVDzvlFzv1JzW6GB0wLjJzhEEZ5jxz848TzPEcxmXs5JEIJ89HiJ9RmO3cVW4mzBRfg==";
+        };
+        _PbV8Zmcs = {
+            "id" = "PbV8Zmcs";
+            "file" = "thebrokencontent-1.9.0-hotfix.jar";
+            "hash" = "sha512-A4+RU8tQ2XBXAhsgHlzAY0RlVfPVKLY9J7sM7YdUEC4tiB+NTJKf8VNGbiFt5OwhCHP53fLpRzilIk91QyaJjw==";
+        };
     in {
         "QUwCWEPi" = _QUwCWEPi;
         "7H5mGYZg" = _7H5mGYZg;
@@ -188,7 +198,9 @@ let
         "CSksk2kB" = _CSksk2kB;
         "TSuNHS0n" = _TSuNHS0n;
         "iSrSfkHG" = _iSrSfkHG;
-        "neoforge-1.21.1" = _iSrSfkHG;
+        "MNNlFlnC" = _MNNlFlnC;
+        "PbV8Zmcs" = _PbV8Zmcs;
+        "neoforge-1.21.1" = _PbV8Zmcs;
         "pkg-1.0" = _QUwCWEPi;
         "pkg-1.1" = _7H5mGYZg;
         "pkg-1.2" = _4kzi8BnT;
@@ -220,7 +232,9 @@ let
         "pkg-1.8.0" = _CSksk2kB;
         "pkg-1.8.1" = _TSuNHS0n;
         "pkg-1.8.2" = _iSrSfkHG;
-        "default" = _iSrSfkHG;
+        "pkg-1.9.0" = _MNNlFlnC;
+        "pkg-1.9.0-hotfix" = _PbV8Zmcs;
+        "default" = _PbV8Zmcs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "thebrokencontent";

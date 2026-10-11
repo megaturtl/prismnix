@@ -116,6 +116,11 @@ let
             "file" = "book-tweaks-1.2.0-26.2.jar";
             "hash" = "sha512-Hndh8frukA6PmZ2l+mPopJ0y6G7Ekp+wmqGqV0o7FOUyAi4rsPnBA2B/FO3wGWlkJ6hDvQQ73qlzo3gi/z1LLA==";
         };
+        _b2TIM6ZY = {
+            "id" = "b2TIM6ZY";
+            "file" = "book-tweaks-1.2.0-26.3.jar";
+            "hash" = "sha512-uW/uOMlAq95WBuHgqglHvvFfg1j91rXsK8p6cFuFQxUrVSw/BZhdhHs7dHWd7GpQcQczGWH+jLqjUpiOCP1BMw==";
+        };
     in {
         "5RUhkfUU" = _5RUhkfUU;
         "aOtGKv8L" = _aOtGKv8L;
@@ -140,6 +145,7 @@ let
         "ouCCzQHW" = _ouCCzQHW;
         "MBClqxFO" = _MBClqxFO;
         "N3Xq3hFp" = _N3Xq3hFp;
+        "b2TIM6ZY" = _b2TIM6ZY;
         "fabric-1.21.10" = _4IhR0vU2;
         "fabric-1.21.9" = _lzjMtbd9;
         "fabric-1.21.4" = _Z8EUZSTP;
@@ -157,10 +163,12 @@ let
         "fabric-26.1.1" = _ouCCzQHW;
         "fabric-26.1.2" = _MBClqxFO;
         "fabric-26.2" = _N3Xq3hFp;
+        "fabric-26.3" = _b2TIM6ZY;
         "pkg-1.1.0" = _nVNcJZ0F;
         "pkg-1.1.1" = _YISXItLi;
         "pkg-1.2.0" = _N3Xq3hFp;
-        "default" = _N3Xq3hFp;
+        "pkg-1.2.0-26.3" = _b2TIM6ZY;
+        "default" = _b2TIM6ZY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "book-tweaks";

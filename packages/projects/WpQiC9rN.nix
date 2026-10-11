@@ -136,6 +136,21 @@ let
             "file" = "animalgarden_vicuna-1.0.1-fabric-26.2-0.152.2.jar";
             "hash" = "sha512-fcvGv8Ca9bNtCsxjK2Ae1uMu31FUE7r9ruGHn461uhphKKK8nO8nTlUZZiwgDMlO06L5V/bnKzdOg7AGIqHNew==";
         };
+        _UQkrJ3KP = {
+            "id" = "UQkrJ3KP";
+            "file" = "animalgarden-vicuna-1.0.1-neoforge-26.3.0.7.jar";
+            "hash" = "sha512-YnXSgCuM1MPkM2iRdHqc8DsW5AW2Uy3fjv5FwOl1AAgGHkTUy/ouYSLuLcy7m03Hti/or1k8dKgaCadiaH8Icw==";
+        };
+        _LxuMokSt = {
+            "id" = "LxuMokSt";
+            "file" = "animalgarden-vicuna-1.0.1-forge-26.3-66.0.2.jar";
+            "hash" = "sha512-OM/A5M4bNJzCDbvLIMoN46M2TwyrHbAk9K+y5nx0xHFeDT+UD7Z9UH7n7jUUsOqYwh6CRjfP37RXnH4vBN4Png==";
+        };
+        _wfHpNCRB = {
+            "id" = "wfHpNCRB";
+            "file" = "animalgarden-vicuna-1.0.1-fabric-26.3-0.161.0.jar";
+            "hash" = "sha512-RWrRsWLzXfxHbDuueeyF1u5crCb+badgkp4woiwo94OAEscW49emwrXMsCKf9a/UitIw6fgZgjG16XO37NSeFA==";
+        };
     in {
         "bpCHnSQs" = _bpCHnSQs;
         "u62TQ7va" = _u62TQ7va;
@@ -164,6 +179,9 @@ let
         "XR8IWegD" = _XR8IWegD;
         "56wdeoVC" = _56wdeoVC;
         "nIoGyxBn" = _nIoGyxBn;
+        "UQkrJ3KP" = _UQkrJ3KP;
+        "LxuMokSt" = _LxuMokSt;
+        "wfHpNCRB" = _wfHpNCRB;
         "forge-1.18.2" = _bpCHnSQs;
         "forge-1.20.1" = _u62TQ7va;
         "forge-1.21.1" = _qCQFDS1F;
@@ -180,6 +198,7 @@ let
         "forge-26.1.1" = _qzeJDlN0;
         "forge-26.1.2" = _qzeJDlN0;
         "forge-26.2" = _XR8IWegD;
+        "forge-26.3" = _LxuMokSt;
         "neoforge-1.21.1" = _TvCutWXv;
         "neoforge-1.21.3" = _bhp6yBMz;
         "neoforge-1.21.4" = _bhp6yBMz;
@@ -194,6 +213,7 @@ let
         "neoforge-26.1.1" = _xKTKnolI;
         "neoforge-26.1.2" = _xKTKnolI;
         "neoforge-26.2" = _56wdeoVC;
+        "neoforge-26.3" = _UQkrJ3KP;
         "fabric-1.20.1" = _qlpQlhai;
         "fabric-1.21.1" = _oZA8RQtX;
         "fabric-1.21.3" = _VxsjDAh5;
@@ -209,6 +229,7 @@ let
         "fabric-26.1.1" = _8p7EU2sg;
         "fabric-26.1.2" = _8p7EU2sg;
         "fabric-26.2" = _nIoGyxBn;
+        "fabric-26.3" = _wfHpNCRB;
         "pkg-1.0.0-forge-1.18.2-40.3.12" = _bpCHnSQs;
         "pkg-1.0.0-forge-1.20.1-47.4.10" = _u62TQ7va;
         "pkg-1.0.0-forge-1.21.1-52.1.8" = _qCQFDS1F;
@@ -236,7 +257,10 @@ let
         "pkg-1.0.1-forge-26.2-65.0.0" = _XR8IWegD;
         "pkg-1.0.1-neoforge-26.2.0.6" = _56wdeoVC;
         "pkg-1.0.1-fabric-26.2-0.152.2" = _nIoGyxBn;
-        "default" = _nIoGyxBn;
+        "pkg-1.0.1-neoforge-26.3.0.7" = _UQkrJ3KP;
+        "pkg-1.0.1-forge-26.3-66.0.2" = _LxuMokSt;
+        "pkg-1.0.1-fabric-26.3-0.161.0" = _wfHpNCRB;
+        "default" = _wfHpNCRB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "animal-garden-vicuna";

@@ -146,6 +146,41 @@ let
             "file" = "lucidity-2.0.2+1.21.9.jar";
             "hash" = "sha512-oUF4TFoHnruT6bDSNUNmdmSieGLpGRePt9zVeN5Y5bscvcZogkqHAa3FGKkRTuZMrUL6e/bHBfMgBYRLYoPJIQ==";
         };
+        _kr9ihozv = {
+            "id" = "kr9ihozv";
+            "file" = "lucidity-2.0.2+1.21.1.jar";
+            "hash" = "sha512-2rVTocLNnGH+2tJWD8TloI+ckwsmx4m6ZQjyM7BFy7cYlWRX7AFuUJ7NbVnZQ4sirFOHb2uFIuCOfx4oo7MYaw==";
+        };
+        _4qg4kOXm = {
+            "id" = "4qg4kOXm";
+            "file" = "lucidity-2.0.2+1.21.3.jar";
+            "hash" = "sha512-ce5L9v8T4xxIuj6UwYf/3jeMP0Dalaqg2MtkIqyHm+Y3gX1WJ7CIOcli5Qm4HC4fLJsDJ0cUCAz6AN89Zio58Q==";
+        };
+        _XaBSJnpa = {
+            "id" = "XaBSJnpa";
+            "file" = "lucidity-2.0.2+1.21.4.jar";
+            "hash" = "sha512-BNPHw8b4Y/u7iLZ67KDJ8HwvuGaeNgKWqM4/RE3UvucSffbKFBEjoez+38gwp8aI/fpZxjY/0wFw67xGu8dfFw==";
+        };
+        _azka6OcY = {
+            "id" = "azka6OcY";
+            "file" = "lucidity-2.0.2+1.21.5.jar";
+            "hash" = "sha512-/2rrKsv7eA6qfyqQh+Nl6dGF8RCHkXhcEZrKIlrcgNoQQyHAuKtJb933r/pdwUU7ixydpfJbuLMeHZNgBhQkKw==";
+        };
+        _Tb7PUm6h = {
+            "id" = "Tb7PUm6h";
+            "file" = "lucidity-2.0.2+1.21.6.jar";
+            "hash" = "sha512-BxRODV7HuTxMTE2BwRNBi+OdxoCGn+WSW7O+W1vjniWJHY0Wa0ZMLMVu+BiJ+OpwBP++mMqzxhNyyUK31+PT3Q==";
+        };
+        _l7wXmeZo = {
+            "id" = "l7wXmeZo";
+            "file" = "lucidity-2.0.2+1.21.9.jar";
+            "hash" = "sha512-sOh9lIA4Xa5HH2eUqEGhB013YanX/srvKsf3XtN1EpVvaKbayGJS2MvZNBOL3b/EhMoHvGFV6jxU2Gwh1hwMaQ==";
+        };
+        _F9yOwYTx = {
+            "id" = "F9yOwYTx";
+            "file" = "lucidity-2.0.2+1.21.11.jar";
+            "hash" = "sha512-tWyOMjSxakrLhq1se5tWeUyvLScpLEQfi9DDuDPqP5YGpf7alrqbuvUh/VbOfZDrCUV1FVymiKY7MAFQCVHfYw==";
+        };
     in {
         "luH5d65r" = _luH5d65r;
         "jK2oDChh" = _jK2oDChh;
@@ -176,18 +211,25 @@ let
         "xkFFu5t4" = _xkFFu5t4;
         "RVL7IvyQ" = _RVL7IvyQ;
         "FRbA2gSN" = _FRbA2gSN;
-        "fabric-1.21" = _LK447gut;
-        "fabric-1.21.1" = _LK447gut;
-        "fabric-1.21.3" = _uf2bWnfu;
-        "fabric-1.21.4" = _DvBvHbjw;
-        "fabric-1.21.5" = _xkFFu5t4;
+        "kr9ihozv" = _kr9ihozv;
+        "4qg4kOXm" = _4qg4kOXm;
+        "XaBSJnpa" = _XaBSJnpa;
+        "azka6OcY" = _azka6OcY;
+        "Tb7PUm6h" = _Tb7PUm6h;
+        "l7wXmeZo" = _l7wXmeZo;
+        "F9yOwYTx" = _F9yOwYTx;
+        "fabric-1.21" = _kr9ihozv;
+        "fabric-1.21.1" = _kr9ihozv;
+        "fabric-1.21.3" = _4qg4kOXm;
+        "fabric-1.21.4" = _XaBSJnpa;
+        "fabric-1.21.5" = _azka6OcY;
         "fabric-1.21.7" = _WuaFi5s0;
         "fabric-1.21.8" = _WuaFi5s0;
-        "fabric-1.21.6" = _RVL7IvyQ;
-        "fabric-1.21.2" = _uf2bWnfu;
-        "fabric-1.21.9" = _FRbA2gSN;
+        "fabric-1.21.6" = _Tb7PUm6h;
+        "fabric-1.21.2" = _4qg4kOXm;
+        "fabric-1.21.9" = _l7wXmeZo;
         "fabric-1.21.10" = _aKZKCzQg;
-        "fabric-1.21.11" = _eGP6VaWC;
+        "fabric-1.21.11" = _F9yOwYTx;
         "pkg-1.5.0-1.21-fabric0.16.0" = _luH5d65r;
         "pkg-1.5.2-1.21-fabric0.16.0" = _jK2oDChh;
         "pkg-1.6.3-1.21-fabric0.16.0" = _Qk5lSJOO;
@@ -204,14 +246,14 @@ let
         "pkg-1.6.9-1.21.6-feature-complete" = _QKbujtVg;
         "pkg-2.0.1" = _1V9IPJ35;
         "pkg-2.0.2" = _7rf9gqEx;
-        "pkg-2.0.2+1.21.11" = _eGP6VaWC;
-        "pkg-2.0.2+1.21.1" = _LK447gut;
-        "pkg-2.0.2+1.21.3" = _uf2bWnfu;
-        "pkg-2.0.2+1.21.4" = _DvBvHbjw;
-        "pkg-2.0.2+1.21.5" = _xkFFu5t4;
-        "pkg-2.0.2+1.21.6" = _RVL7IvyQ;
-        "pkg-2.0.2+1.21.9" = _FRbA2gSN;
-        "default" = _FRbA2gSN;
+        "pkg-2.0.2+1.21.11" = _F9yOwYTx;
+        "pkg-2.0.2+1.21.1" = _kr9ihozv;
+        "pkg-2.0.2+1.21.3" = _4qg4kOXm;
+        "pkg-2.0.2+1.21.4" = _XaBSJnpa;
+        "pkg-2.0.2+1.21.5" = _azka6OcY;
+        "pkg-2.0.2+1.21.6" = _Tb7PUm6h;
+        "pkg-2.0.2+1.21.9" = _l7wXmeZo;
+        "default" = _F9yOwYTx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lucidity-mod";

@@ -101,6 +101,11 @@ let
             "file" = "keegsweapons-0.7.2-26.2.jar";
             "hash" = "sha512-k8RmkzTLkjbMxxj26JS0P3nXyLvAvOb5GlnTcqVR5U2Qq+5rhIaV8uJtqdpqYcKPUl32Gb0pSlLVQMoAaM1aog==";
         };
+        _M6WTCUQz = {
+            "id" = "M6WTCUQz";
+            "file" = "keegsweapons-0.7.2-26.3.jar";
+            "hash" = "sha512-efLWGqm8vNkkBOCNZeMdYvcvUDboMD3IWaPclKT3MdxSH1z8/mnWRb00siOC4XyBOB0g8QVSmj9fIvyMry/azA==";
+        };
     in {
         "8DwSvTSc" = _8DwSvTSc;
         "MbrmYN4U" = _MbrmYN4U;
@@ -122,12 +127,14 @@ let
         "PU98CuV2" = _PU98CuV2;
         "2URNUmii" = _2URNUmii;
         "BjCDGo9f" = _BjCDGo9f;
+        "M6WTCUQz" = _M6WTCUQz;
         "forge-1.20.1" = _JAnNvUmV;
         "fabric-1.21.11" = _PU98CuV2;
         "fabric-26.1" = _2URNUmii;
         "fabric-26.1.1" = _2URNUmii;
         "fabric-26.1.2" = _2URNUmii;
         "fabric-26.2" = _BjCDGo9f;
+        "fabric-26.3" = _M6WTCUQz;
         "pkg-0.2.0" = _8DwSvTSc;
         "pkg-0.2.2" = _MbrmYN4U;
         "pkg-0.4.0" = _5OFLMXfG;
@@ -148,7 +155,8 @@ let
         "pkg-0.7.2-1.21.11" = _PU98CuV2;
         "pkg-0.7.2-26.1" = _2URNUmii;
         "pkg-0.7.2-26.2" = _BjCDGo9f;
-        "default" = _BjCDGo9f;
+        "pkg-0.7.2-26.3" = _M6WTCUQz;
+        "default" = _M6WTCUQz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "keegs-weapon-mod";

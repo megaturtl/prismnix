@@ -151,6 +151,16 @@ let
             "file" = "immortality-mod-FABRIC-1.2.jar";
             "hash" = "sha512-nDtFYrt3Sf0yRTD6Ismc6Mt0dCT/xxc/KT+TjHmRQ4DSmrECc12NqgLoNrKPteBDn+bHevc72Hx1XftNsXeXPg==";
         };
+        _HTPCcCln = {
+            "id" = "HTPCcCln";
+            "file" = "immortality-mod-FABRIC-1.2.jar";
+            "hash" = "sha512-eGRuZNke5s9gJANsteE1hQlCmZzBaHsnRLPIgwE8nCvH78bwoc6Z4vCjP8WTeeB2PwtwEKWpxJJ1XAegCyG/KQ==";
+        };
+        _1SqlfOMA = {
+            "id" = "1SqlfOMA";
+            "file" = "immortality-mod-1.4.jar";
+            "hash" = "sha512-AyFV/8GDWv5/ZHnmE0xXOQqrTUgqqkQnubffoDx5lH5d9TmHCwFHuF0u+VyfaTr9xe5RisGtkVzYc+2ea7cZuA==";
+        };
     in {
         "xDqyFzat" = _xDqyFzat;
         "rweIWocF" = _rweIWocF;
@@ -182,6 +192,8 @@ let
         "xkRF34F0" = _xkRF34F0;
         "T8G7rPeH" = _T8G7rPeH;
         "ZpaRwVA0" = _ZpaRwVA0;
+        "HTPCcCln" = _HTPCcCln;
+        "1SqlfOMA" = _1SqlfOMA;
         "forge-1.20.1" = _VaapbWUB;
         "forge-1.19.2" = _FM1Lw0n7;
         "forge-1.18.2" = _73lhMMom;
@@ -191,6 +203,7 @@ let
         "neoforge-1.21.4" = _VE21yAlL;
         "neoforge-1.21.5" = _FYW13e4D;
         "neoforge-1.21.8" = _BPbmFB1g;
+        "neoforge-26.3" = _1SqlfOMA;
         "fabric-1.21.5" = _VNGpC1QH;
         "fabric-1.20.1" = _1SHqdfo4;
         "fabric-1.21.10" = _JAxrz0Y6;
@@ -199,15 +212,16 @@ let
         "fabric-26.1.1" = _W9eTK2F5;
         "fabric-26.1.2" = _T8G7rPeH;
         "fabric-26.2" = _ZpaRwVA0;
+        "fabric-26.3" = _HTPCcCln;
         "pkg-1.2.4" = _WKJiFUST;
         "pkg-1.3" = _BPbmFB1g;
         "pkg-1.0.0" = _SpcELdoZ;
         "pkg-1.0.1" = _sOqNPaWi;
-        "pkg-1.4" = _erTB7qOo;
+        "pkg-1.4" = _1SqlfOMA;
         "pkg-1.1" = _GrIG81EP;
         "pkg-1.1.1" = _Ftuy0NrQ;
-        "pkg-1.2" = _ZpaRwVA0;
-        "default" = _ZpaRwVA0;
+        "pkg-1.2" = _HTPCcCln;
+        "default" = _1SqlfOMA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immortality-mod";

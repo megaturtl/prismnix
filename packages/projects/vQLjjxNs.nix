@@ -176,6 +176,16 @@ let
             "file" = "kaleidoscopedoll-1.4.1-neoforge+mc1.21.1.jar";
             "hash" = "sha512-JTKba51jXO7D4Ft/xSOp5PEfsmSYIU3ZjhRlnttsNnboG87wmt5+0GceU+Sb4RJcgZjgAXvcCRhMBaTxUdNMKA==";
         };
+        _BO8Unw2n = {
+            "id" = "BO8Unw2n";
+            "file" = "kaleidoscopedoll-1.4.2-forge+mc1.20.1.jar";
+            "hash" = "sha512-fF+gENVTUOpqz3UNogVf18VBg6mrJEPLrarnxQmcazeo0b7iP/PjqfRrFMG0HXffBa2tJZxoDd9UmtIBbKjgIA==";
+        };
+        _iRKxsLXR = {
+            "id" = "iRKxsLXR";
+            "file" = "kaleidoscopedoll-1.4.2-neoforge+mc1.21.1.jar";
+            "hash" = "sha512-h9PbjmuP3tANctgcm37ge+0gCZN9vOimwLNHmcrv/+3SHbnAj+UErPMPp32Le28o6ATUb6Q84j7H3FU/Sfiehw==";
+        };
     in {
         "24WRORgd" = _24WRORgd;
         "5SEGDgKX" = _5SEGDgKX;
@@ -212,13 +222,15 @@ let
         "e3iWjsHk" = _e3iWjsHk;
         "8aYpWE1i" = _8aYpWE1i;
         "FV2DGV0P" = _FV2DGV0P;
+        "BO8Unw2n" = _BO8Unw2n;
+        "iRKxsLXR" = _iRKxsLXR;
         "forge-1.18.2" = _24WRORgd;
         "forge-1.19.2" = _5SEGDgKX;
-        "forge-1.20.1" = _8aYpWE1i;
+        "forge-1.20.1" = _BO8Unw2n;
         "fabric-1.20.1" = _kDtP7Hmm;
         "fabric-1.21.1" = _4oeiQyIt;
         "neoforge-1.21" = _6uofCwWV;
-        "neoforge-1.21.1" = _FV2DGV0P;
+        "neoforge-1.21.1" = _iRKxsLXR;
         "neoforge-1.21.4" = _wtkwsgXC;
         "pkg-1.0.1" = _BMCPpw9L;
         "pkg-1.0.1-fix1" = _MBv6iQLL;
@@ -237,7 +249,9 @@ let
         "pkg-1.4.0-neoforge+mc1.21.1" = _e3iWjsHk;
         "pkg-1.4.1-forge+mc1.20.1" = _8aYpWE1i;
         "pkg-1.4.1-neoforge+mc1.21.1" = _FV2DGV0P;
-        "default" = _FV2DGV0P;
+        "pkg-1.4.2-forge+mc1.20.1" = _BO8Unw2n;
+        "pkg-1.4.2-neoforge+mc1.21.1" = _iRKxsLXR;
+        "default" = _iRKxsLXR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kaleidoscope-doll";

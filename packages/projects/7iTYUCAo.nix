@@ -96,6 +96,26 @@ let
             "file" = "transfer-pet-owner-v2.1.3.jar";
             "hash" = "sha512-4oIeQDezQIwzlWEBjWGIgwtt++XtLbh5iwxmngSzgDfUG0WKv33Ry1RoyJmUocw5e1r9nC5DOVmFm4DFcUVWPg==";
         };
+        _v9ZhWTcy = {
+            "id" = "v9ZhWTcy";
+            "file" = "transfer-pet-owner-v2.2.0.zip";
+            "hash" = "sha512-YjnHjYsQbOOykiHQR+eLn2RS5RwXduUsg1M+bCRLgmLefrx4B0V3DKMCckjMTx3K4poIx8H8rgy9XCwUdm5i6w==";
+        };
+        _Av2owVfA = {
+            "id" = "Av2owVfA";
+            "file" = "transfer-pet-owner-v2.2.0.jar";
+            "hash" = "sha512-dxeaRdq0WSTJLrjh4/TjvfOK4RB7JPhKx9IIE1TAHVZG5HHnSpp91gCYCGd2oA6C7ogd7wjLnMF2fUTyX7XhrA==";
+        };
+        _a7kPG4ot = {
+            "id" = "a7kPG4ot";
+            "file" = "transfer-pet-owner-v2.2.0.0.zip";
+            "hash" = "sha512-D1Yw3QWjzI/ntcIWJacsjFh1n9QML29ZkkMLfS9VX7uPRKpJGuh1Itqn0NCRtW/XNbRxpan1PfRiE0A1ksG9oA==";
+        };
+        _7gtXdRTx = {
+            "id" = "7gtXdRTx";
+            "file" = "transfer-pet-owner-v2.2.0.0.jar";
+            "hash" = "sha512-8bU5Z3cNGni6w8vIt/Y7+GhQocRINAK1RKHGoOxJU6wEvuPOdJaD2QjOmh9j29hDMn3kCsX+NkQBlKUiUoekAw==";
+        };
     in {
         "zlqFyWtQ" = _zlqFyWtQ;
         "Fz4Q9To0" = _Fz4Q9To0;
@@ -116,6 +136,10 @@ let
         "FX7wera4" = _FX7wera4;
         "7dJV6Lua" = _7dJV6Lua;
         "EoRDtcNH" = _EoRDtcNH;
+        "v9ZhWTcy" = _v9ZhWTcy;
+        "Av2owVfA" = _Av2owVfA;
+        "a7kPG4ot" = _a7kPG4ot;
+        "7gtXdRTx" = _7gtXdRTx;
         "datapack-1.21" = _zlqFyWtQ;
         "datapack-1.21.1" = _zlqFyWtQ;
         "datapack-1.21.2" = _zlqFyWtQ;
@@ -132,6 +156,7 @@ let
         "datapack-26.1.1" = _7dJV6Lua;
         "datapack-26.1.2" = _7dJV6Lua;
         "datapack-26.2" = _7dJV6Lua;
+        "datapack-26.3" = _a7kPG4ot;
         "fabric-1.21" = _Fz4Q9To0;
         "fabric-1.21.1" = _Fz4Q9To0;
         "fabric-1.21.2" = _Fz4Q9To0;
@@ -148,6 +173,7 @@ let
         "fabric-26.1.1" = _EoRDtcNH;
         "fabric-26.1.2" = _EoRDtcNH;
         "fabric-26.2" = _EoRDtcNH;
+        "fabric-26.3" = _7gtXdRTx;
         "forge-1.21" = _Fz4Q9To0;
         "forge-1.21.1" = _Fz4Q9To0;
         "forge-1.21.2" = _Fz4Q9To0;
@@ -164,6 +190,7 @@ let
         "forge-26.1.1" = _EoRDtcNH;
         "forge-26.1.2" = _EoRDtcNH;
         "forge-26.2" = _EoRDtcNH;
+        "forge-26.3" = _7gtXdRTx;
         "neoforge-1.21" = _Fz4Q9To0;
         "neoforge-1.21.1" = _Fz4Q9To0;
         "neoforge-1.21.2" = _Fz4Q9To0;
@@ -180,6 +207,7 @@ let
         "neoforge-26.1.1" = _EoRDtcNH;
         "neoforge-26.1.2" = _EoRDtcNH;
         "neoforge-26.2" = _EoRDtcNH;
+        "neoforge-26.3" = _7gtXdRTx;
         "quilt-1.21" = _Fz4Q9To0;
         "quilt-1.21.1" = _Fz4Q9To0;
         "quilt-1.21.2" = _Fz4Q9To0;
@@ -196,6 +224,7 @@ let
         "quilt-26.1.1" = _EoRDtcNH;
         "quilt-26.1.2" = _EoRDtcNH;
         "quilt-26.2" = _EoRDtcNH;
+        "quilt-26.3" = _7gtXdRTx;
         "pkg-v.1.0.0" = _zlqFyWtQ;
         "pkg-v.1.0.0+mod" = _Fz4Q9To0;
         "pkg-v2.0.0" = _h6VIcorQ;
@@ -210,7 +239,11 @@ let
         "pkg-v2.1.2.1+mod" = _FX7wera4;
         "pkg-v2.1.3" = _7dJV6Lua;
         "pkg-v2.1.3+mod" = _EoRDtcNH;
-        "default" = _EoRDtcNH;
+        "pkg-v2.2.0" = _v9ZhWTcy;
+        "pkg-v2.2.0+mod" = _Av2owVfA;
+        "pkg-v2.2.0.0" = _a7kPG4ot;
+        "pkg-v2.2.0.0+mod" = _7gtXdRTx;
+        "default" = _7gtXdRTx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "transfer-pet-owner";

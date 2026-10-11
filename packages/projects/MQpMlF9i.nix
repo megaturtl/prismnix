@@ -16,10 +16,16 @@ let
             "file" = "hidehotbar-1.0-26.2.jar";
             "hash" = "sha512-LZOl4xgIpwCuzP2v1zBFid01OTiI4S9n8wV8cnzLkhnIDjBG6cYuOa8jx0su41m3PLZJiJ3aCXoY+DsDbJq8Fg==";
         };
+        _aSrLqn1Q = {
+            "id" = "aSrLqn1Q";
+            "file" = "hidehotbar-1.0-26.3.jar";
+            "hash" = "sha512-3wlbdFdLpd124zwx8yAf54tuRJ94JwGBBTbqbx3REbbGEA9bbo9DSTicg8pWrWetufLpKatg+jhlUQgRcZQWrw==";
+        };
     in {
         "tIf8wTc8" = _tIf8wTc8;
         "k1RSJJ3P" = _k1RSJJ3P;
         "rH0aMM5c" = _rH0aMM5c;
+        "aSrLqn1Q" = _aSrLqn1Q;
         "fabric-1.21" = _tIf8wTc8;
         "fabric-1.21.1" = _tIf8wTc8;
         "fabric-1.21.2" = _tIf8wTc8;
@@ -36,10 +42,12 @@ let
         "fabric-26.1.1" = _k1RSJJ3P;
         "fabric-26.1.2" = _k1RSJJ3P;
         "fabric-26.2" = _rH0aMM5c;
+        "fabric-26.3" = _aSrLqn1Q;
         "pkg-1.0-1.21" = _tIf8wTc8;
         "pkg-1.0-26.1" = _k1RSJJ3P;
         "pkg-1.0-26.2" = _rH0aMM5c;
-        "default" = _rH0aMM5c;
+        "pkg-1.0-26.3" = _aSrLqn1Q;
+        "default" = _aSrLqn1Q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hidehotbar";

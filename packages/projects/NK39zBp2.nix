@@ -671,6 +671,16 @@ let
             "file" = "blur-neoforge-6.3.1+26.2.jar";
             "hash" = "sha512-6NhsrjLUdVaAUgRgeGCbLvkCxq9SLn6NKh9e/ybgn3rvRsI8E6dmJluFfkkA/etd09cT4MhNHW2t28j762AWnQ==";
         };
+        _5tm9vpXT = {
+            "id" = "5tm9vpXT";
+            "file" = "blur-fabric-6.3.1+26.3.jar";
+            "hash" = "sha512-8BWhAUhJm534MhSXw+he3DpdXU1eJq9qg0GsLlS5F3QdpBY0ARqbTKE6kxL+ruc9xehhr5DeiRfkO10oc0HdIg==";
+        };
+        _MMDqvgIl = {
+            "id" = "MMDqvgIl";
+            "file" = "blur-neoforge-6.3.1+26.3.jar";
+            "hash" = "sha512-hDu5Xhx8Nt2wcZMCNF/7YEFBuf0hrlW30nSML1Sj31HTSWMca6SvscD5Xaq5+jIg3LiwKNuuJAMLA7rR5goNZQ==";
+        };
     in {
         "scZplj17" = _scZplj17;
         "6IzO28Zt" = _6IzO28Zt;
@@ -806,6 +816,8 @@ let
         "4EVZYUqp" = _4EVZYUqp;
         "gDZKYlR7" = _gDZKYlR7;
         "qfmFP4pp" = _qfmFP4pp;
+        "5tm9vpXT" = _5tm9vpXT;
+        "MMDqvgIl" = _MMDqvgIl;
         "fabric-1.15" = _scZplj17;
         "fabric-1.15.1" = _scZplj17;
         "fabric-1.15.2" = _scZplj17;
@@ -860,6 +872,7 @@ let
         "fabric-26.1.1" = _xAtVI5Sc;
         "fabric-26.1.2" = _xAtVI5Sc;
         "fabric-26.2" = _gDZKYlR7;
+        "fabric-26.3" = _5tm9vpXT;
         "quilt-1.18" = _xetUzR7z;
         "quilt-1.18.1" = _xetUzR7z;
         "quilt-1.18.2" = _xetUzR7z;
@@ -894,6 +907,7 @@ let
         "quilt-26.1.1" = _xAtVI5Sc;
         "quilt-26.1.2" = _xAtVI5Sc;
         "quilt-26.2" = _gDZKYlR7;
+        "quilt-26.3" = _5tm9vpXT;
         "neoforge-1.21" = _xONakKZi;
         "neoforge-1.21.1" = _xONakKZi;
         "neoforge-1.21.2" = _eE311qqD;
@@ -910,6 +924,7 @@ let
         "neoforge-26.1.1" = _4zKc5SVa;
         "neoforge-26.1.2" = _4zKc5SVa;
         "neoforge-26.2" = _qfmFP4pp;
+        "neoforge-26.3" = _MMDqvgIl;
         "pkg-1.0.5" = _scZplj17;
         "pkg-2.0.0" = _6IzO28Zt;
         "pkg-2.0.0-20w51a" = _R9W8qYSe;
@@ -1043,7 +1058,9 @@ let
         "pkg-6.3.1+26.1-fabric" = _4EVZYUqp;
         "pkg-6.3.1+26.2-fabric" = _gDZKYlR7;
         "pkg-6.3.1+26.2-neoforge" = _qfmFP4pp;
-        "default" = _qfmFP4pp;
+        "pkg-6.3.1+26.3-fabric" = _5tm9vpXT;
+        "pkg-6.3.1+26.3-neoforge" = _MMDqvgIl;
+        "default" = _MMDqvgIl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blur-plus";

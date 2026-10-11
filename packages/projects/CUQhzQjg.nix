@@ -341,6 +341,26 @@ let
             "file" = "EnderZoology-v26.2.0-mc26.2.x-NeoForge.jar";
             "hash" = "sha512-0hGLqoF90dhs9gon0am2Q39AdUAqIFknJoZ3pnUDLbM7qiGKRU95O0mp7Y/NLIjqYd0jzP30+nkOXgo46hRdMg==";
         };
+        _p1yTBB9h = {
+            "id" = "p1yTBB9h";
+            "file" = "enderzoology-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-Qt/1SYGyy0EN7EPVdGIS0xDaOd8vUfMztxnzyR7/v3M/fMvZfQSmrom7OjS/GX3AdN9iavR94z/zC5SjP1aYbA==";
+        };
+        _OT1xVWfF = {
+            "id" = "OT1xVWfF";
+            "file" = "enderzoology-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-CO/z6RojGt7dioDAUuJzd5M/zITBKmtEYHpnyzILrhxWhyFU0lOxgKcll7h3xKbEbW2ai/b9eSd6c+Xo3GwlBQ==";
+        };
+        _3xD32sMJ = {
+            "id" = "3xD32sMJ";
+            "file" = "enderzoology-v26.3.1-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-/DJwOMA4azo5xPQjXLkg3HffgW8ZUpKSJzncMua8r8NQ2jbL3EseQUz6FD7NykUFGdIVZLy+BEfFvXE5Mj9OnQ==";
+        };
+        _bMq6DjAa = {
+            "id" = "bMq6DjAa";
+            "file" = "enderzoology-v26.3.1-mc26.3.x+fabric.jar";
+            "hash" = "sha512-onymMrqiN353Hk4vtVk9pfqoF6KZzOvUHZMktoLDd11hezjOS1fFqwfWAsqbvbgJ5SFJvWZ+PUVZT0/jGTepKQ==";
+        };
     in {
         "r9d0OlEa" = _r9d0OlEa;
         "FSi8DhqD" = _FSi8DhqD;
@@ -410,6 +430,10 @@ let
         "XBuMd0Yd" = _XBuMd0Yd;
         "ZH7vZ3hL" = _ZH7vZ3hL;
         "CpDX6kHE" = _CpDX6kHE;
+        "p1yTBB9h" = _p1yTBB9h;
+        "OT1xVWfF" = _OT1xVWfF;
+        "3xD32sMJ" = _3xD32sMJ;
+        "bMq6DjAa" = _bMq6DjAa;
         "forge-1.19.2" = _6IraqXK6;
         "forge-1.19.3" = _3twQFwYi;
         "forge-1.19.4" = _uwOE3NS5;
@@ -435,6 +459,7 @@ let
         "fabric-26.1.1" = _XBuMd0Yd;
         "fabric-26.1.2" = _XBuMd0Yd;
         "fabric-26.2" = _ZH7vZ3hL;
+        "fabric-26.3" = _bMq6DjAa;
         "neoforge-1.20.4" = _eSEFYkgD;
         "neoforge-1.21.1" = _OR1IjCku;
         "neoforge-1.21.3" = _oJIvsVGk;
@@ -449,6 +474,7 @@ let
         "neoforge-26.1.1" = _M2gvL6w0;
         "neoforge-26.1.2" = _M2gvL6w0;
         "neoforge-26.2" = _CpDX6kHE;
+        "neoforge-26.3" = _3xD32sMJ;
         "pkg-v4.0.0-1.19.2-Forge" = _r9d0OlEa;
         "pkg-v4.0.0-1.19.2-Fabric" = _FSi8DhqD;
         "pkg-v4.0.1-1.19.2-Fabric" = _12an9I3R;
@@ -512,7 +538,9 @@ let
         "pkg-21.11.0" = _sDF9fNvp;
         "pkg-26.1.0" = _XBuMd0Yd;
         "pkg-26.2.0" = _CpDX6kHE;
-        "default" = _CpDX6kHE;
+        "pkg-26.3.0" = _OT1xVWfF;
+        "pkg-26.3.1" = _bMq6DjAa;
+        "default" = _bMq6DjAa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ender-zoology";

@@ -76,6 +76,16 @@ let
             "file" = "stackable-totems-v1.2.0.jar";
             "hash" = "sha512-BBA1ugvhv3qIFQpOMkJ1uiIwGeaeJwggpdcHn3J5en8LPYNu/AoI9VpRPv0EwoWBeDw0PxGWz33fbTwfTC/7RA==";
         };
+        _u3E4GUGF = {
+            "id" = "u3E4GUGF";
+            "file" = "Stackable Totems v1.2.0 - 26.3.zip";
+            "hash" = "sha512-RUliKB6GJGwQ4ujSDQ4v0sfom80ZMI9LS5CZq23ebtixHToMSlHpeQ64I5VMlQzYlHnWa66OlnHq4+reBBRL8A==";
+        };
+        _bJIDcbRE = {
+            "id" = "bJIDcbRE";
+            "file" = "stackable-totems-v1.2.0.jar";
+            "hash" = "sha512-4V6UfZePw6mePzmt2xJNH4GTwtniMvOoiFzHQ+lpjds9R7a3+UtDekvrrVZhIxvA9yiEtCwBlOWy5J6Cc6GpUw==";
+        };
     in {
         "yPk8Be5Q" = _yPk8Be5Q;
         "BdsySJgY" = _BdsySJgY;
@@ -92,6 +102,8 @@ let
         "9rcJC7o4" = _9rcJC7o4;
         "hhASGDRQ" = _hhASGDRQ;
         "xg8c4bHc" = _xg8c4bHc;
+        "u3E4GUGF" = _u3E4GUGF;
+        "bJIDcbRE" = _bJIDcbRE;
         "datapack-1.20.4" = _yPk8Be5Q;
         "datapack-1.21.2" = _BdsySJgY;
         "datapack-1.21.3" = _BdsySJgY;
@@ -107,6 +119,7 @@ let
         "datapack-26.1.1" = _hhASGDRQ;
         "datapack-26.1.2" = _hhASGDRQ;
         "datapack-26.2" = _hhASGDRQ;
+        "datapack-26.3" = _u3E4GUGF;
         "fabric-1.21.5" = _dBZoP5fJ;
         "fabric-1.21.6" = _xab0pBCr;
         "fabric-1.21.7" = _xab0pBCr;
@@ -121,6 +134,7 @@ let
         "fabric-26.1.1" = _xg8c4bHc;
         "fabric-26.1.2" = _xg8c4bHc;
         "fabric-26.2" = _xg8c4bHc;
+        "fabric-26.3" = _bJIDcbRE;
         "forge-1.21.5" = _dBZoP5fJ;
         "forge-1.21.6" = _xab0pBCr;
         "forge-1.21.7" = _xab0pBCr;
@@ -135,6 +149,7 @@ let
         "forge-26.1.1" = _xg8c4bHc;
         "forge-26.1.2" = _xg8c4bHc;
         "forge-26.2" = _xg8c4bHc;
+        "forge-26.3" = _bJIDcbRE;
         "neoforge-1.21.5" = _dBZoP5fJ;
         "neoforge-1.21.6" = _xab0pBCr;
         "neoforge-1.21.7" = _xab0pBCr;
@@ -149,6 +164,7 @@ let
         "neoforge-26.1.1" = _xg8c4bHc;
         "neoforge-26.1.2" = _xg8c4bHc;
         "neoforge-26.2" = _xg8c4bHc;
+        "neoforge-26.3" = _bJIDcbRE;
         "quilt-1.21.5" = _dBZoP5fJ;
         "quilt-1.21.6" = _xab0pBCr;
         "quilt-1.21.7" = _xab0pBCr;
@@ -163,12 +179,13 @@ let
         "quilt-26.1.1" = _xg8c4bHc;
         "quilt-26.1.2" = _xg8c4bHc;
         "quilt-26.2" = _xg8c4bHc;
+        "quilt-26.3" = _bJIDcbRE;
         "pkg-v1.0.0" = _yPk8Be5Q;
         "pkg-v1.1.0" = _BdsySJgY;
-        "pkg-v1.2.0" = _hhASGDRQ;
-        "pkg-v1.2.0+mod" = _xg8c4bHc;
+        "pkg-v1.2.0" = _u3E4GUGF;
+        "pkg-v1.2.0+mod" = _bJIDcbRE;
         "pkg-v1.1.0+mod" = _3V9MHxLI;
-        "default" = _xg8c4bHc;
+        "default" = _bJIDcbRE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stackable-totems";

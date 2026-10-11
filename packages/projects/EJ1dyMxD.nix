@@ -201,6 +201,21 @@ let
             "file" = "Mello 0.692.zip";
             "hash" = "sha512-HIqM94pTCfPDmSlOwIFmwuigvTAkaz/1oZnKIwbdaqHzQMsq7svLx8HdgV1IngA6EsV3rC1DigbgFbNd895mfg==";
         };
+        _zGBQ7ItL = {
+            "id" = "zGBQ7ItL";
+            "file" = "Mello 0.7.zip";
+            "hash" = "sha512-3bISORNfzFcfcBbaD/Gyr05Ue511VWArCC2/G0uekYK5WAWltBom3YWGQHQoF/tLUTqXDyMmITggCS1cJQUQHQ==";
+        };
+        _hK9yZejl = {
+            "id" = "hK9yZejl";
+            "file" = "Mello 0.701.zip";
+            "hash" = "sha512-/pk6HpS20fBG+nvEbXvfiLBOx+aLjX+cbCvXotJk9phf21ebC6y88rVXEcbHOlOlt+Yi2QRpVPdbz1zQorHEdQ==";
+        };
+        _70aQV1zW = {
+            "id" = "70aQV1zW";
+            "file" = "Mello 0.702.zip";
+            "hash" = "sha512-BWeXEXK4ivye4wJkEXq+YiwGfnZleCS3lt0nCC2Jpi6lL4xz6MpygUlG89ckr4jOb9KJWLepLdnpOeQXQ47e7A==";
+        };
     in {
         "A6PSFluC" = _A6PSFluC;
         "YDfXIcW9" = _YDfXIcW9;
@@ -242,6 +257,9 @@ let
         "uRZJSx9G" = _uRZJSx9G;
         "j3bGz3l0" = _j3bGz3l0;
         "Wlv7gxcf" = _Wlv7gxcf;
+        "zGBQ7ItL" = _zGBQ7ItL;
+        "hK9yZejl" = _hK9yZejl;
+        "70aQV1zW" = _70aQV1zW;
         "iris-1.21" = _ZPvmUpma;
         "iris-1.21.1" = _ZPvmUpma;
         "iris-1.21.2" = _ZPvmUpma;
@@ -257,7 +275,7 @@ let
         "iris-26.1" = _Wlv7gxcf;
         "iris-26.1.1" = _Wlv7gxcf;
         "iris-26.1.2" = _Wlv7gxcf;
-        "iris-26.2" = _Wlv7gxcf;
+        "iris-26.2" = _70aQV1zW;
         "iris-1.20" = _ZPvmUpma;
         "iris-1.20.1" = _ZPvmUpma;
         "iris-1.20.2" = _ZPvmUpma;
@@ -265,6 +283,7 @@ let
         "iris-1.20.4" = _ZPvmUpma;
         "iris-1.20.5" = _ZPvmUpma;
         "iris-1.20.6" = _ZPvmUpma;
+        "iris-26.3" = _70aQV1zW;
         "pkg-0.1" = _A6PSFluC;
         "pkg-0.2" = _YDfXIcW9;
         "pkg-0.21" = _YSUdW5dR;
@@ -305,7 +324,10 @@ let
         "pkg-0.69" = _uRZJSx9G;
         "pkg-0.691" = _j3bGz3l0;
         "pkg-0.692" = _Wlv7gxcf;
-        "default" = _Wlv7gxcf;
+        "pkg-0.7" = _zGBQ7ItL;
+        "pkg-0.701" = _hK9yZejl;
+        "pkg-0.702" = _70aQV1zW;
+        "default" = _70aQV1zW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mello";

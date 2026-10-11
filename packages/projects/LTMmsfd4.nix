@@ -111,6 +111,21 @@ let
             "file" = "animalgarden-whiterhinoceros-1.0.1-forge-1.20.1-47.4.10.jar";
             "hash" = "sha512-y8Ecu0hPvAFJJNy7Zk9ayHDUiQemk4QshNzktLQn5Ep5kjUfU/cgZQMdcFP+9OHVZygdXCKJHH1iAKqRqUMkMw==";
         };
+        _weTPhi3v = {
+            "id" = "weTPhi3v";
+            "file" = "animalgarden-whiterhinoceros-1.0.1-forge-26.3-66.0.2.jar";
+            "hash" = "sha512-1YKHjBqbgXCpC1Ne4NsoNFf6w50r7j82j//lCJCbZnTs7xrN4wktH5/ynFGA8hqVOwgzkydWnS1aHGQDAM60hg==";
+        };
+        _O8jQKLaR = {
+            "id" = "O8jQKLaR";
+            "file" = "animalgarden-whiterhinoceros-1.0.1-neoforge-26.3.0.10.jar";
+            "hash" = "sha512-1cXxJL2H18DyuiTPDhiOhpVt+xT4zyGVFo3Jh165p+9XnL1UAs6cd2nB+9w9jCEbP1dAm1vKevwr9t7uYXKajA==";
+        };
+        _vL1tvccg = {
+            "id" = "vL1tvccg";
+            "file" = "animalgarden-whiterhinoceros-1.0.1-fabric-26.3-0.161.0.jar";
+            "hash" = "sha512-2cXoFfvswrlplFKMZHF332oe5jEfqSCt2w37vtz3ztFKg2pImWwpUhqnV0uLn5Awb6WLsx3sYAYfbVNGxdT4/g==";
+        };
     in {
         "hTaqP2dm" = _hTaqP2dm;
         "eKQhmf2Q" = _eKQhmf2Q;
@@ -134,6 +149,9 @@ let
         "vObiE5QM" = _vObiE5QM;
         "eZhe43a2" = _eZhe43a2;
         "NKucxlY1" = _NKucxlY1;
+        "weTPhi3v" = _weTPhi3v;
+        "O8jQKLaR" = _O8jQKLaR;
+        "vL1tvccg" = _vL1tvccg;
         "forge-1.20.1" = _NKucxlY1;
         "forge-1.21.1" = _YO638dJZ;
         "forge-1.21.4" = _N80CnHz1;
@@ -147,6 +165,7 @@ let
         "forge-26.1.1" = _D4QftWST;
         "forge-26.1.2" = _D4QftWST;
         "forge-26.2" = _D4QftWST;
+        "forge-26.3" = _weTPhi3v;
         "fabric-1.21.1" = _eKQhmf2Q;
         "fabric-1.21.4" = _U7TRo7t5;
         "fabric-1.21.6" = _oxPvDK5V;
@@ -161,6 +180,7 @@ let
         "fabric-26.1.1" = _eZhe43a2;
         "fabric-26.1.2" = _eZhe43a2;
         "fabric-26.2" = _eZhe43a2;
+        "fabric-26.3" = _vL1tvccg;
         "neoforge-1.21.1" = _jeBNz7gn;
         "neoforge-1.21.4" = _vMVjqSe4;
         "neoforge-1.21.6" = _m0KmwcBF;
@@ -173,6 +193,7 @@ let
         "neoforge-26.1.1" = _vObiE5QM;
         "neoforge-26.1.2" = _vObiE5QM;
         "neoforge-26.2" = _vObiE5QM;
+        "neoforge-26.3" = _O8jQKLaR;
         "pkg-1.0.0-forge-1.20.1-47.4.10" = _hTaqP2dm;
         "pkg-1.0.0-fabric-1.21.1-0.116.7" = _eKQhmf2Q;
         "pkg-1.0.0-forge-1.21.1-52.1.5" = _YO638dJZ;
@@ -195,7 +216,10 @@ let
         "pkg-1.0.1-neoforge-26.1.1.8" = _vObiE5QM;
         "pkg-1.0.1-fabric-26.1.1-0.145.4" = _eZhe43a2;
         "pkg-1.0.1-forge-1.20.1-47.4.10" = _NKucxlY1;
-        "default" = _NKucxlY1;
+        "pkg-1.0.1-forge-26.3-66.0.2" = _weTPhi3v;
+        "pkg-1.0.1-neoforge-26.3.0.10" = _O8jQKLaR;
+        "pkg-1.0.1-fabric-26.3-0.161.0" = _vL1tvccg;
+        "default" = _vL1tvccg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "animal-garden-white-rhinoceros";

@@ -731,6 +731,16 @@ let
             "file" = "libjf-26.3.0+forge.jar";
             "hash" = "sha512-p8HHJrhbm9SoHvreyEgEQm6RhJYSz8SnLBFjxQBVgwYT9fO7DnUVbsqbQnbtLpdqors9afuok3mFy/YdawS8AQ==";
         };
+        _S0d8Wc3k = {
+            "id" = "S0d8Wc3k";
+            "file" = "libjf-26.3.1.jar";
+            "hash" = "sha512-XsUYP7+LBFuYbPBTTaw53uYpNP2G3RJVKG9balX27kmXgtSk2HP8gc3j7IM3r18ONhJfO2f6OXRKmyCC3G1gUQ==";
+        };
+        _lryExMqL = {
+            "id" = "lryExMqL";
+            "file" = "libjf-26.3.1+forge.jar";
+            "hash" = "sha512-X2FkPXUHgBg9j75PdcHbXOAiybT5Epifl0AcybogQZSXGIe0iB7wyFoXao2yVfaSiwFN/+HagqB+SlpShWbc9w==";
+        };
     in {
         "TUqoYNVF" = _TUqoYNVF;
         "7a9qcRLy" = _7a9qcRLy;
@@ -878,6 +888,8 @@ let
         "51jIV9lt" = _51jIV9lt;
         "fnZnyXaW" = _fnZnyXaW;
         "7FqyFbZB" = _7FqyFbZB;
+        "S0d8Wc3k" = _S0d8Wc3k;
+        "lryExMqL" = _lryExMqL;
         "fabric-1.16.5" = _7a9qcRLy;
         "fabric-1.17" = _dOW0jmMj;
         "fabric-1.17.1" = _alxwWx6G;
@@ -912,7 +924,7 @@ let
         "fabric-26.1.1" = _Icy7xbUM;
         "fabric-26.1.2" = _X6T6G2ad;
         "fabric-26.2" = _I5brbhNh;
-        "fabric-26.3" = _fnZnyXaW;
+        "fabric-26.3" = _S0d8Wc3k;
         "neoforge-1.21.1" = _kCSwQJ9C;
         "neoforge-1.21.3" = _jyPo0pwK;
         "neoforge-1.21.4" = _3RAR4Rzx;
@@ -927,7 +939,7 @@ let
         "neoforge-26.1.1" = _uGnaJ4bw;
         "neoforge-26.1.2" = _OjH9Jj4a;
         "neoforge-26.2" = _51jIV9lt;
-        "neoforge-26.3" = _7FqyFbZB;
+        "neoforge-26.3" = _lryExMqL;
         "pkg-1.0.0" = _TUqoYNVF;
         "pkg-1.0.1" = _7a9qcRLy;
         "pkg-1.0.2" = _dOW0jmMj;
@@ -1074,7 +1086,9 @@ let
         "pkg-26.2.2+forge" = _51jIV9lt;
         "pkg-26.3.0" = _fnZnyXaW;
         "pkg-26.3.0+forge" = _7FqyFbZB;
-        "default" = _7FqyFbZB;
+        "pkg-26.3.1" = _S0d8Wc3k;
+        "pkg-26.3.1+forge" = _lryExMqL;
+        "default" = _lryExMqL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "libjf";

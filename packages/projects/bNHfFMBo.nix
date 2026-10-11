@@ -21,20 +21,33 @@ let
             "file" = "subtlycs-2.0+1.21.1.jar";
             "hash" = "sha512-/dTQmtjqg8xQBUGDGHg0+PkEJCII1Qz/3JGzB/kiiwIs2Snk524Z1zrLgDy4DdBA1ieG7GQGNKg9AxANkK3L4g==";
         };
+        _7XylS8w8 = {
+            "id" = "7XylS8w8";
+            "file" = "subtlycs-2.0+1.20.1.jar";
+            "hash" = "sha512-IL633ootLYwFtNFaexN26rnELfKe2F6Qyu7KJeX00OjJgAXFU5WStxi0+fK0cL/Z85my3T8EsrVIzapVvHzdNA==";
+        };
     in {
         "hYiPNRjn" = _hYiPNRjn;
         "t9M3dcPV" = _t9M3dcPV;
         "RCG8bSh9" = _RCG8bSh9;
         "C8hM48hP" = _C8hM48hP;
+        "7XylS8w8" = _7XylS8w8;
         "fabric-1.21.10" = _hYiPNRjn;
         "fabric-1.21.11" = _t9M3dcPV;
         "fabric-26.2" = _RCG8bSh9;
         "fabric-1.21.1" = _C8hM48hP;
+        "fabric-1.20.1" = _7XylS8w8;
+        "fabric-1.20.2" = _7XylS8w8;
+        "fabric-1.20.3" = _7XylS8w8;
+        "fabric-1.20.4" = _7XylS8w8;
+        "fabric-1.20.5" = _7XylS8w8;
+        "fabric-1.20.6" = _7XylS8w8;
         "pkg-1.0.0" = _hYiPNRjn;
         "pkg-1.2.0" = _t9M3dcPV;
         "pkg-2.0+26.2" = _RCG8bSh9;
         "pkg-2.0+1.21.1" = _C8hM48hP;
-        "default" = _C8hM48hP;
+        "pkg-2.0+1.20.1" = _7XylS8w8;
+        "default" = _7XylS8w8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "subtly-camera-shake";

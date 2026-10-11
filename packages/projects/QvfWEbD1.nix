@@ -51,6 +51,16 @@ let
             "file" = "cobblemonteamstudio-neoforge-1.5.1.jar";
             "hash" = "sha512-xokNoD74hw5FzVlQRkvNGg3C2xvTzBh3O8AEgGwJ63/I3HczLr1eI9Lb/vKy/USfY/Hln34WH1rEhefBkzBTNg==";
         };
+        _A4rc7BYS = {
+            "id" = "A4rc7BYS";
+            "file" = "cobblemonteamstudio-fabric-2.0.0.jar";
+            "hash" = "sha512-yB84Vgy3mYvNccjWnz4cvhLJoiQFbSoVM6NdpdCViHt/NSiIwiqsMVi4zXWF4bosfCx0//1CujzEIdd4qXEX0A==";
+        };
+        _7QykpFds = {
+            "id" = "7QykpFds";
+            "file" = "cobblemonteamstudio-neoforge-2.0.0.jar";
+            "hash" = "sha512-Or3pvRqXA7Y9BPOWMFdYcz18eiJ7C+V+FNr/CSrUE65EgjybIXXdf0Aerr87LD+dkPwfXpNf8hxxJSj+F6b41g==";
+        };
     in {
         "VDTo5FgM" = _VDTo5FgM;
         "vEuDH2jb" = _vEuDH2jb;
@@ -62,8 +72,10 @@ let
         "G1W7qNts" = _G1W7qNts;
         "Y2ZLE5Zm" = _Y2ZLE5Zm;
         "XXIceN27" = _XXIceN27;
-        "fabric-1.21.1" = _Y2ZLE5Zm;
-        "neoforge-1.21.1" = _XXIceN27;
+        "A4rc7BYS" = _A4rc7BYS;
+        "7QykpFds" = _7QykpFds;
+        "fabric-1.21.1" = _A4rc7BYS;
+        "neoforge-1.21.1" = _7QykpFds;
         "pkg-1.0" = _VDTo5FgM;
         "pkg-1.1" = _vEuDH2jb;
         "pkg-1.2" = _rLL4aI2l;
@@ -71,7 +83,8 @@ let
         "pkg-1.3.1" = _5Asn6PlI;
         "pkg-1.4.0" = _G1W7qNts;
         "pkg-1.5.1" = _XXIceN27;
-        "default" = _XXIceN27;
+        "pkg-2.0.0" = _7QykpFds;
+        "default" = _7QykpFds;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemonteamstudio";

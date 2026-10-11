@@ -156,6 +156,11 @@ let
             "file" = "energizedpowerfd-3.0.0+1.21.1-neoforge.jar";
             "hash" = "sha512-jQk+nQS7+2/FDI0Il5d5Uh+/77dv8HuWYexuu+wY3zZJYYF8i206sFSbKvEFHE4mNi6kd6/CtIs204qDkq/DfQ==";
         };
+        _VolLLtgS = {
+            "id" = "VolLLtgS";
+            "file" = "energizedpowerfd-3.0.0+26.3.x-fabric.jar";
+            "hash" = "sha512-EBq4dWKcqQZoXLKcki1yr/byPcWEUPeS2VC3850i/xlmliwXh0RmztEGbI4z7FK3QFK9x5EITbAvDbhmGJJOlg==";
+        };
     in {
         "xP5sN9lh" = _xP5sN9lh;
         "ww431Ime" = _ww431Ime;
@@ -188,6 +193,7 @@ let
         "cmHyU5Xo" = _cmHyU5Xo;
         "RiUdFdEp" = _RiUdFdEp;
         "BJBEaaWO" = _BJBEaaWO;
+        "VolLLtgS" = _VolLLtgS;
         "neoforge-1.21.1" = _BJBEaaWO;
         "neoforge-1.20.1" = _IoAw12Lt;
         "fabric-1.21.1" = _7HMz6W5O;
@@ -198,6 +204,7 @@ let
         "fabric-26.1.1" = _cmHyU5Xo;
         "fabric-26.1.2" = _cmHyU5Xo;
         "fabric-26.2" = _RiUdFdEp;
+        "fabric-26.3" = _VolLLtgS;
         "forge-1.20.1" = _IoAw12Lt;
         "pkg-1.21.1-1.0.0-neoforge" = _xP5sN9lh;
         "pkg-1.21.1-1.0.0-fabric" = _ww431Ime;
@@ -230,7 +237,8 @@ let
         "pkg-3.0.0+26.1.x-fabric" = _cmHyU5Xo;
         "pkg-3.0.0+26.2.x-fabric" = _RiUdFdEp;
         "pkg-3.0.0+1.21.1-neoforge" = _BJBEaaWO;
-        "default" = _BJBEaaWO;
+        "pkg-3.0.0+26.3.x-fabric" = _VolLLtgS;
+        "default" = _VolLLtgS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "energized-power-fd";

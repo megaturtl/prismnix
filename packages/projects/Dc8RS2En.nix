@@ -211,6 +211,7 @@ let
         "paper-26.1.1" = _zgF7EnTQ;
         "paper-26.1.2" = _zgF7EnTQ;
         "paper-26.2" = _zgF7EnTQ;
+        "paper-26.3" = _zgF7EnTQ;
         "pkg-1.0.0" = _pmM1CEWB;
         "pkg-1.0.1" = _vwFq30OR;
         "pkg-1.1.0" = _PJZGlbij;

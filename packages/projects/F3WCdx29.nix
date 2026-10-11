@@ -121,6 +121,16 @@ let
             "file" = "hole_filler_mod_1.3.4-neoforge-mc_26.2.jar";
             "hash" = "sha512-LozO8TWX6hPj9Teq9fCGKTctvWgMhbcvnY5Jmt8n3J5a0vGPlOfYuqFzEwZLV53ePDXNGLHz5LqC8RJ8P8TReA==";
         };
+        _X15vLZaV = {
+            "id" = "X15vLZaV";
+            "file" = "hole_filler_mod_1.3.4-fabric-mc_26.3.jar";
+            "hash" = "sha512-5VqJ6Iu3uIrVjPtX3d+CG65nj2Vv4hjZgs42fSm7ucRwY3wf3DMhrHEXgxofxk0pYBdMjMIncZ1vynRd+I//Ng==";
+        };
+        _PyO1sIcS = {
+            "id" = "PyO1sIcS";
+            "file" = "hole_filler_mod_1.3.4-neoforge-mc_26.3.jar";
+            "hash" = "sha512-vu8OXxIRgHrhrPRDLXM5iJkj9oro5lV1/HyPRH/ISBlki5QfBoeL01HUwQblTUvMXBwUYAoG2x2HYxvAuk5EVQ==";
+        };
     in {
         "CFuHK9nI" = _CFuHK9nI;
         "p6DOiOHa" = _p6DOiOHa;
@@ -146,6 +156,8 @@ let
         "pRZpumWe" = _pRZpumWe;
         "uMAVFcfe" = _uMAVFcfe;
         "ubCmsJiq" = _ubCmsJiq;
+        "X15vLZaV" = _X15vLZaV;
+        "PyO1sIcS" = _PyO1sIcS;
         "forge-1.20.1" = _CFuHK9nI;
         "forge-1.20" = _p6DOiOHa;
         "forge-1.19.4" = _sD4tHdl7;
@@ -163,6 +175,7 @@ let
         "fabric-1.21.11" = _nXSbRyxy;
         "fabric-26.1.2" = _y8GqNfVN;
         "fabric-26.2" = _uMAVFcfe;
+        "fabric-26.3" = _X15vLZaV;
         "neoforge-1.21.4" = _qklw8V1A;
         "neoforge-1.21.5" = _98aAZ57s;
         "neoforge-1.21.1" = _NLWHpFiF;
@@ -170,6 +183,7 @@ let
         "neoforge-1.21.11" = _3GXxqCDJ;
         "neoforge-26.1.2" = _pRZpumWe;
         "neoforge-26.2" = _ubCmsJiq;
+        "neoforge-26.3" = _PyO1sIcS;
         "pkg-1.2.8" = _p6DOiOHa;
         "pkg-1.2.7.1" = _WjqYdKhk;
         "pkg-1.2.4.3" = _ykuKMeci;
@@ -180,9 +194,9 @@ let
         "pkg-1.3.1" = _KBnY0K1N;
         "pkg-1.3.3-Fabric" = _nXSbRyxy;
         "pkg-1.3.3-NeoForge" = _3GXxqCDJ;
-        "pkg-1.3.4-Fabric" = _uMAVFcfe;
-        "pkg-1.3.4-NeoForge" = _ubCmsJiq;
-        "default" = _ubCmsJiq;
+        "pkg-1.3.4-Fabric" = _X15vLZaV;
+        "pkg-1.3.4-NeoForge" = _PyO1sIcS;
+        "default" = _PyO1sIcS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hole-filler-mod";

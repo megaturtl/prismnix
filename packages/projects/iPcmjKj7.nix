@@ -81,6 +81,11 @@ let
             "file" = "CameraEnhancements-0.2.17.jar";
             "hash" = "sha512-GBmgDx0ogYouTqgNyLTUxrvkaxsz2bd7sB79Lz85A8FoozKqU/7oV9yTU8Sr6SM28rzSIXBxJNr+520nds/OPQ==";
         };
+        _MSSGTRFg = {
+            "id" = "MSSGTRFg";
+            "file" = "CameraEnhancements-0.2.18.jar";
+            "hash" = "sha512-/e59849nbXMPi8x3SqQ0u8BahR4Og6qomSswNa0Rqo62r+V9sFSdb2kLqRlpoM9eIoCujosGdfUQ66im1MvOzQ==";
+        };
     in {
         "y0UNQKb9" = _y0UNQKb9;
         "Us6iejfK" = _Us6iejfK;
@@ -98,6 +103,7 @@ let
         "Z5hBnKAE" = _Z5hBnKAE;
         "WJINGy40" = _WJINGy40;
         "ICsOm6bd" = _ICsOm6bd;
+        "MSSGTRFg" = _MSSGTRFg;
         "fabric-1.21.1" = _Us6iejfK;
         "fabric-1.21.3" = _nFqdEzq2;
         "fabric-1.21.4" = _nRMq60OL;
@@ -112,6 +118,7 @@ let
         "fabric-26.1.1" = _Z5hBnKAE;
         "fabric-26.1.2" = _WJINGy40;
         "fabric-26.2" = _ICsOm6bd;
+        "fabric-26.3" = _MSSGTRFg;
         "pkg-0.2.2" = _y0UNQKb9;
         "pkg-0.2.3" = _Us6iejfK;
         "pkg-0.2.4" = _nFqdEzq2;
@@ -128,7 +135,8 @@ let
         "pkg-0.2.15" = _Z5hBnKAE;
         "pkg-0.2.16" = _WJINGy40;
         "pkg-0.2.17" = _ICsOm6bd;
-        "default" = _ICsOm6bd;
+        "pkg-0.2.18" = _MSSGTRFg;
+        "default" = _MSSGTRFg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "camenh";

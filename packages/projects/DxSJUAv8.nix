@@ -301,6 +301,21 @@ let
             "file" = "nemos_enchantments-26.2-1.12.jar";
             "hash" = "sha512-ymtVZCbrv2V23UmXy3bg64h0jqBu6xJex4OTCO+q9VABPuMh5IVxNqtkQE9yxs9DjeKFPyxu1CkJQrq5kMFZFw==";
         };
+        _XdYcne0f = {
+            "id" = "XdYcne0f";
+            "file" = "nemos_enchantments-26.3-1.12.jar";
+            "hash" = "sha512-22ioERHp6E7+H0Inintag90T+K/Jy+wREbkru+mvKZuboiBk+RqXJVC1XYEg8hoUKsUlWBRo72V+ZEDoI5XW9w==";
+        };
+        _5E1lTjTr = {
+            "id" = "5E1lTjTr";
+            "file" = "nemos_enchantments-26.3-1.13.jar";
+            "hash" = "sha512-Qvdt9KZU6z9fB8+fSo+DUtqI0BeelPtOf0qOvJar46ATRhfkaFt8dBhZXSvkeIRwR1Y9/lVNL+NKs88W8r981w==";
+        };
+        _IzlIOBJn = {
+            "id" = "IzlIOBJn";
+            "file" = "nemos_enchantments-26.3-1.13.1.jar";
+            "hash" = "sha512-J0vxkVUQOTdPeNnqMGY97dgrUVwFhrZ7k3N1IE3pHnGxxveaW5Oyk/esHjYT880EBuZrFCDfJtzhkKV1Ud/r/Q==";
+        };
     in {
         "LoNnEKFK" = _LoNnEKFK;
         "1Mv6Xx0W" = _1Mv6Xx0W;
@@ -362,6 +377,9 @@ let
         "FXJnOMLR" = _FXJnOMLR;
         "aEJILLEE" = _aEJILLEE;
         "SJIEDH0J" = _SJIEDH0J;
+        "XdYcne0f" = _XdYcne0f;
+        "5E1lTjTr" = _5E1lTjTr;
+        "IzlIOBJn" = _IzlIOBJn;
         "fabric-1.21" = _3mPjBGgz;
         "fabric-1.21.1" = _3mPjBGgz;
         "fabric-1.21.2" = _sohgk9d4;
@@ -374,6 +392,7 @@ let
         "fabric-1.21.11" = _1mbDsz9A;
         "fabric-26.1.2" = _aNSgplUG;
         "fabric-26.2" = _SJIEDH0J;
+        "fabric-26.3" = _IzlIOBJn;
         "forge-1.21.5" = _IzlMPfhg;
         "forge-1.21.7" = _kVKYoMbB;
         "forge-1.21.8" = _OGfJoZno;
@@ -417,7 +436,10 @@ let
         "pkg-26.2-1.10" = _FXJnOMLR;
         "pkg-26.2-1.11" = _aEJILLEE;
         "pkg-26.2-1.12" = _SJIEDH0J;
-        "default" = _SJIEDH0J;
+        "pkg-26.3-1.12" = _XdYcne0f;
+        "pkg-26.3-1.13" = _5E1lTjTr;
+        "pkg-26.3-1.13.1" = _IzlIOBJn;
+        "default" = _IzlIOBJn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nemos-enchantments";

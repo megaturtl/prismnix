@@ -51,6 +51,16 @@ let
             "file" = "Antimations-4.0.0-beta.1+1.8.9-ornithe.jar";
             "hash" = "sha512-dxBytwYtU6eytSiPudnd5suX1WLD3Wn+Pc/AezPTEE6saVUssSLMRK1vyKuKq7Ff+ymE3w4UMPyVgtpCICNA2A==";
         };
+        _SppYhhDE = {
+            "id" = "SppYhhDE";
+            "file" = "Antimations-4.0.0+1.8.9-forge.jar";
+            "hash" = "sha512-Dko7DoKESvK4GlXBwCrFits1UuYABheQYkn+O+Kk8rEc8e6B76AvM7rtiF6Wce+vulF7SlPhHixT8HwOqT4oHg==";
+        };
+        _9NAOG4nW = {
+            "id" = "9NAOG4nW";
+            "file" = "Antimations-4.0.0+1.8.9-ornithe.jar";
+            "hash" = "sha512-Ysrtst+dV9ec8ctws28vrdENw8BWkyW9D7N950G3sLn/96T20eRLhx356I1gzBr8WJQniSoxmcejJhGjUV/bDA==";
+        };
     in {
         "nasHT9gB" = _nasHT9gB;
         "qTCfmG4Q" = _qTCfmG4Q;
@@ -62,9 +72,11 @@ let
         "fPrXYJNh" = _fPrXYJNh;
         "B8pp1Ygy" = _B8pp1Ygy;
         "yXQSthhO" = _yXQSthhO;
-        "forge-1.8.9" = _B8pp1Ygy;
+        "SppYhhDE" = _SppYhhDE;
+        "9NAOG4nW" = _9NAOG4nW;
+        "forge-1.8.9" = _SppYhhDE;
         "legacy-fabric-1.8.9" = _yXQSthhO;
-        "ornithe-1.8.9" = _yXQSthhO;
+        "ornithe-1.8.9" = _9NAOG4nW;
         "pkg-2.0.0" = _nasHT9gB;
         "pkg-2.0.1" = _qTCfmG4Q;
         "pkg-2.0.2" = _bHPZyv6J;
@@ -74,7 +86,8 @@ let
         "pkg-3.0.0" = _rm85wdJQ;
         "pkg-3.0.1" = _fPrXYJNh;
         "pkg-4.0.0-beta.1" = _yXQSthhO;
-        "default" = _yXQSthhO;
+        "pkg-4.0.0" = _9NAOG4nW;
+        "default" = _9NAOG4nW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "antimations";

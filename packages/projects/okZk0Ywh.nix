@@ -911,6 +911,21 @@ let
             "file" = "super_apple-3.3.7-26.2-NeoForge.jar";
             "hash" = "sha512-zAHsBsuq0IQKwp6jU4vEJxJQnGzsSkIDJCbg4wAOwDisVDwtGfEW1EcS/PX3TMAkkEDES6FAagP0igV/X6e2iw==";
         };
+        _6L3RjxHY = {
+            "id" = "6L3RjxHY";
+            "file" = "SuperApple-3.3.7-26.3-NeoForge.jar";
+            "hash" = "sha512-ujmUjYZDfcYQdipj7HyKPFIElqC5vu8BG9C8BHo/hGfLsqC9KkmWBk2xhfa+S3bKBDJTWwxrxR6SWfREh2Rz6Q==";
+        };
+        _inGhsJRi = {
+            "id" = "inGhsJRi";
+            "file" = "SuperApple-3.3.7-26.3-Fabric.jar";
+            "hash" = "sha512-VH+FGYg+EIUy8GwiLP6M3nMoozVYhkMDhdl+xORKY62n7/d+fsCYjjC83m41LARtuvcZcusspnkwLU859OqVKA==";
+        };
+        _sptsUY2A = {
+            "id" = "sptsUY2A";
+            "file" = "SuperApple-3.3.7-26.3-Forge.jar";
+            "hash" = "sha512-Fukbc5fKEtZgjatv5Relwxl6VEthI/0z2fmJ/SWFeCWPOsc/JSK/Q4l4iISHEazciAOmibdsV+mE1I5m7QZ11Q==";
+        };
     in {
         "DrijXkjT" = _DrijXkjT;
         "sKOpt03w" = _sKOpt03w;
@@ -1094,6 +1109,9 @@ let
         "KxaGtCNf" = _KxaGtCNf;
         "ps4f57NX" = _ps4f57NX;
         "2Gj1Fqt1" = _2Gj1Fqt1;
+        "6L3RjxHY" = _6L3RjxHY;
+        "inGhsJRi" = _inGhsJRi;
+        "sptsUY2A" = _sptsUY2A;
         "fabric-1.19.3" = _aW9BcD0u;
         "fabric-23w03a" = _WMHafvGi;
         "fabric-23w04a" = _WMHafvGi;
@@ -1140,6 +1158,7 @@ let
         "fabric-26.1.1" = _cgW4Yver;
         "fabric-26.1.2" = _cgW4Yver;
         "fabric-26.2" = _ps4f57NX;
+        "fabric-26.3" = _inGhsJRi;
         "forge-1.20.1" = _f6G19e65;
         "forge-1.19.4" = _67QdtaRt;
         "forge-1.20.2" = _WgVh3BRm;
@@ -1160,6 +1179,7 @@ let
         "forge-26.1.1" = _kjoLdOUe;
         "forge-26.1.2" = _kjoLdOUe;
         "forge-26.2" = _KxaGtCNf;
+        "forge-26.3" = _sptsUY2A;
         "neoforge-1.20.1" = _bTLjqRH0;
         "neoforge-1.21" = _NYxSTsjA;
         "neoforge-1.21.1" = _WfiordC3;
@@ -1178,6 +1198,7 @@ let
         "neoforge-26.1.1" = _PF8yJBVo;
         "neoforge-26.1.2" = _PF8yJBVo;
         "neoforge-26.2" = _2Gj1Fqt1;
+        "neoforge-26.3" = _6L3RjxHY;
         "pkg-1.0.0-SNAPSHOT" = _DrijXkjT;
         "pkg-1.0.1-1.19.3-SNAPSHOT" = _sKOpt03w;
         "pkg-1.0.2-1.19.3" = _5hfcBpF6;
@@ -1359,7 +1380,10 @@ let
         "pkg-3.3.7-26.2-Forge" = _KxaGtCNf;
         "pkg-3.3.7-26.2-Fabric" = _ps4f57NX;
         "pkg-3.3.7-26.2-NeoForge" = _2Gj1Fqt1;
-        "default" = _2Gj1Fqt1;
+        "pkg-3.3.7-26.3-NeoForge" = _6L3RjxHY;
+        "pkg-3.3.7-26.3-Fabric" = _inGhsJRi;
+        "pkg-3.3.7-26.3-Forge" = _sptsUY2A;
+        "default" = _sptsUY2A;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "super-apple";

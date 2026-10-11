@@ -356,6 +356,26 @@ let
             "file" = "thetruepaxels-forge-26.2-1.1.2.jar";
             "hash" = "sha512-E8/Go7qpPM3LPaIXcl841+mMx3I9kztvX2lyB1RNznGyOJc7TjM82Y+xXsCkhHwopVinI6dmYCB08r5id8rV8A==";
         };
+        _WQV4kIUj = {
+            "id" = "WQV4kIUj";
+            "file" = "thetruepaxels-fabric-26.3-1.1.2.jar";
+            "hash" = "sha512-aU5nryx6cA6pIe51acrPT4QlduoPeT/wn9o4yM30mRICvCWBD7IO0SOVWY4DqOsPY8XFv4qzl7waFbA85GsFmQ==";
+        };
+        _uSNjfveL = {
+            "id" = "uSNjfveL";
+            "file" = "thetruepaxels-neoforge-26.3-1.1.2.jar";
+            "hash" = "sha512-qlI9pKVxhcfVSN5aBRTYP9WKr7VAWWpEfD7BEF7SdTSg3rgUNRdi5qGg1Ip9BlIa6jLcvS+rXE7td1naclyY4Q==";
+        };
+        _ryvECoR9 = {
+            "id" = "ryvECoR9";
+            "file" = "thetruepaxels-forge-26.3-1.1.2.jar";
+            "hash" = "sha512-vQL9h7faAYdDegGYcvNfZtuJUFYtwrjupirnXKf3s9P8YS1P1rlRPqSdKbbPBWWigZMMK58Cm7HIkCb+zt3PVw==";
+        };
+        _jd07COt9 = {
+            "id" = "jd07COt9";
+            "file" = "thetruepaxels-forge-1.20.1-1.1.3.jar";
+            "hash" = "sha512-RV9FG7/8Natljo4g+MeC8kIKepEzCYtq6X4uQc3lskReTxtR4U5KfoTyHiaPbywS6ak5Leuen7laRNHBLrm3jw==";
+        };
     in {
         "IhrHQCl5" = _IhrHQCl5;
         "eIB9zD4p" = _eIB9zD4p;
@@ -428,6 +448,10 @@ let
         "D2N1x34M" = _D2N1x34M;
         "pnweLC0B" = _pnweLC0B;
         "EjiMH1Sl" = _EjiMH1Sl;
+        "WQV4kIUj" = _WQV4kIUj;
+        "uSNjfveL" = _uSNjfveL;
+        "ryvECoR9" = _ryvECoR9;
+        "jd07COt9" = _jd07COt9;
         "fabric-1.20.1" = _OqoVEjg7;
         "fabric-1.20.4" = _sZIrIeNz;
         "fabric-1.20.6" = _uH8nW5VZ;
@@ -441,24 +465,28 @@ let
         "fabric-26.1.1" = _yHn8XWg5;
         "fabric-26.1.2" = _CFUmBM1Z;
         "fabric-26.2" = _SHHY6qKl;
-        "forge-1.20.1" = _wBc7cxUV;
+        "fabric-26.3" = _WQV4kIUj;
+        "forge-1.20.1" = _jd07COt9;
         "forge-1.21.1" = _yNr32LnB;
         "forge-1.21.11" = _PIoV9Qle;
         "forge-26.1" = _d5cOiUW8;
         "forge-26.1.1" = _D2N1x34M;
         "forge-26.1.2" = _pnweLC0B;
         "forge-26.2" = _EjiMH1Sl;
+        "forge-26.3" = _ryvECoR9;
         "neoforge-1.21.1" = _ILTGjwF7;
         "neoforge-1.21.11" = _MLqZ73wv;
         "neoforge-26.1" = _sC0kr6Ir;
         "neoforge-26.1.1" = _yAPCMQfo;
         "neoforge-26.1.2" = _EeOCWqRs;
         "neoforge-26.2" = _81PreZ3U;
+        "neoforge-26.3" = _uSNjfveL;
         "pkg-v1.0.0" = _GQVMk8XM;
         "pkg-v1.1.0" = _pkU9sv4P;
         "pkg-v1.1.1" = _U3ieEGw8;
-        "pkg-v1.1.2" = _EjiMH1Sl;
-        "default" = _EjiMH1Sl;
+        "pkg-v1.1.2" = _ryvECoR9;
+        "pkg-v1.1.3" = _jd07COt9;
+        "default" = _jd07COt9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "thetruepaxels";

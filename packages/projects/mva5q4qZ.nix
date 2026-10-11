@@ -66,6 +66,26 @@ let
             "file" = "create_submarine-2.2.4.jar";
             "hash" = "sha512-a4fXLxA2SJxEzQMxcKvhD4tSEO+CZYI/Kc1RUxRE54OEhjyjIbfNzCOSSUAWEiYyerd0z9HZHV4uqLpZmw6uMQ==";
         };
+        _41sLCAgq = {
+            "id" = "41sLCAgq";
+            "file" = "create_submarine-3.0.0.jar";
+            "hash" = "sha512-tLVozp+0+9J++0yS+KT7By5DviT1uFEsNEkytOzpH9E4/3pCAIPhVmu8qK2Tr3+6bWJVUJac5rLYwv75uKpLOw==";
+        };
+        _x062PxUx = {
+            "id" = "x062PxUx";
+            "file" = "create_submarine-3.1.0.jar";
+            "hash" = "sha512-IgtcNmA+K62Ei5D//BV8CYd9m6QGzZDnQQ5AVY94X1cLxlAwbX6LXNm4sshyQVqAGM9Fm/E/nw528A/4jUYwAQ==";
+        };
+        _HedLh8ql = {
+            "id" = "HedLh8ql";
+            "file" = "create_submarine-3.2.0.jar";
+            "hash" = "sha512-ggTmf332NDPqsAlDkKp8pIJoEeOcBr6Y2bAn8uaf8IERanyE0iaxPLuoTL22SIuy5y+PF0mfp8+h3ayYHDEOLw==";
+        };
+        _8CV1LRTl = {
+            "id" = "8CV1LRTl";
+            "file" = "create_submarine-3.3.0.jar";
+            "hash" = "sha512-3yz4JC3q95VPFG/YVxAAtlTwZg545SvRiIvdE6707WWN+r2JdB6RQxPXRrC1t/eKz9AmQvhxi1FZO7bsOLMI3g==";
+        };
     in {
         "uYqwnn9X" = _uYqwnn9X;
         "5kwbs7hJ" = _5kwbs7hJ;
@@ -80,7 +100,11 @@ let
         "QFPS2LTu" = _QFPS2LTu;
         "JhLXaayR" = _JhLXaayR;
         "UcXaPVeD" = _UcXaPVeD;
-        "neoforge-1.21.1" = _UcXaPVeD;
+        "41sLCAgq" = _41sLCAgq;
+        "x062PxUx" = _x062PxUx;
+        "HedLh8ql" = _HedLh8ql;
+        "8CV1LRTl" = _8CV1LRTl;
+        "neoforge-1.21.1" = _8CV1LRTl;
         "pkg-1.1.1" = _uYqwnn9X;
         "pkg-1.1.4" = _5kwbs7hJ;
         "pkg-2.0.0" = _Swcvg8j6;
@@ -94,7 +118,11 @@ let
         "pkg-2.2.2" = _QFPS2LTu;
         "pkg-2.2.3" = _JhLXaayR;
         "pkg-2.2.4" = _UcXaPVeD;
-        "default" = _UcXaPVeD;
+        "pkg-3.0.0" = _41sLCAgq;
+        "pkg-3.1.0" = _x062PxUx;
+        "pkg-3.2.0" = _HedLh8ql;
+        "pkg-3.3.0" = _8CV1LRTl;
+        "default" = _8CV1LRTl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-deep-seas";

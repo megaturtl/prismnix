@@ -121,6 +121,11 @@ let
             "file" = "Insights-6.22.3.jar";
             "hash" = "sha512-OGTaUuAiIoUI4eKif8sS+QkVfI5aZTEsirSmLMiBjD+1KDOJB9URDHejz58OkmCVQ5yRSYW4v9y2NBionJZixw==";
         };
+        _WgFfLAUj = {
+            "id" = "WgFfLAUj";
+            "file" = "Insights-6.23.0.jar";
+            "hash" = "sha512-K559P3OdrriCQa5Li6nAchNIc6j6YtnuGrXD7MLKKyuzgexS5eDL+XnuUUSm3pAYGlLgD+AJhNAJTu8Jwxy9NQ==";
+        };
     in {
         "WVjgJNji" = _WVjgJNji;
         "SMpOIgvv" = _SMpOIgvv;
@@ -146,6 +151,7 @@ let
         "JngptUk2" = _JngptUk2;
         "aXXWeiID" = _aXXWeiID;
         "LmwpPjFI" = _LmwpPjFI;
+        "WgFfLAUj" = _WgFfLAUj;
         "paper-1.19.1" = _GyrrJOtv;
         "paper-1.19.2" = _GyrrJOtv;
         "paper-1.19" = _GyrrJOtv;
@@ -164,6 +170,7 @@ let
         "paper-1.21.11" = _LmwpPjFI;
         "paper-26.1.2" = _LmwpPjFI;
         "paper-26.2" = _LmwpPjFI;
+        "paper-26.3" = _WgFfLAUj;
         "purpur-1.19.1" = _GyrrJOtv;
         "purpur-1.19.2" = _GyrrJOtv;
         "purpur-1.19" = _GyrrJOtv;
@@ -182,10 +189,12 @@ let
         "purpur-1.21.11" = _LmwpPjFI;
         "purpur-26.1.2" = _LmwpPjFI;
         "purpur-26.2" = _LmwpPjFI;
+        "purpur-26.3" = _WgFfLAUj;
         "folia-1.21.10" = _JT79aP96;
         "folia-1.21.11" = _LmwpPjFI;
         "folia-26.1.2" = _LmwpPjFI;
         "folia-26.2" = _LmwpPjFI;
+        "folia-26.3" = _WgFfLAUj;
         "pkg-6.13.0" = _WVjgJNji;
         "pkg-6.14.0" = _SMpOIgvv;
         "pkg-6.14.1" = _sf57uVUH;
@@ -209,7 +218,8 @@ let
         "pkg-6.22.1" = _JngptUk2;
         "pkg-6.22.2" = _aXXWeiID;
         "pkg-6.22.3" = _LmwpPjFI;
-        "default" = _LmwpPjFI;
+        "pkg-6.23.0" = _WgFfLAUj;
+        "default" = _WgFfLAUj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "insights";

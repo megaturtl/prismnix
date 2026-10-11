@@ -26,12 +26,18 @@ let
             "file" = "ServerDayCounter-1.1.1+26.2.jar";
             "hash" = "sha512-bFs3hplnPwVCxrMeitxBGsMcV8VozFQIpkmUdFw+Tr36VqnT5eCPVeYPgrp4joieKOOLfLwOkoAoedmiK0sQjQ==";
         };
+        _sZJASj3O = {
+            "id" = "sZJASj3O";
+            "file" = "ServerDayCounter-1.1.2+26.3.jar";
+            "hash" = "sha512-/c/1J93MrPD8WQpi/BPGITiHBVx6VF4p/19v7B3ksZz9PuESqBRja1yEWjy19FPeKlRWRJgOI6D7gEwIG5ljOQ==";
+        };
     in {
         "CTMjlPbH" = _CTMjlPbH;
         "RgQyYvVu" = _RgQyYvVu;
         "YCziNzen" = _YCziNzen;
         "QUnIomcV" = _QUnIomcV;
         "HQenKYOX" = _HQenKYOX;
+        "sZJASj3O" = _sZJASj3O;
         "fabric-1.21" = _CTMjlPbH;
         "fabric-1.21.1" = _CTMjlPbH;
         "fabric-1.21.2" = _CTMjlPbH;
@@ -47,6 +53,7 @@ let
         "fabric-26.1-snapshot-4" = _YCziNzen;
         "fabric-26.1" = _QUnIomcV;
         "fabric-26.2" = _HQenKYOX;
+        "fabric-26.3" = _sZJASj3O;
         "quilt-1.21" = _CTMjlPbH;
         "quilt-1.21.1" = _CTMjlPbH;
         "quilt-1.21.2" = _CTMjlPbH;
@@ -60,12 +67,14 @@ let
         "quilt-1.21.10" = _CTMjlPbH;
         "quilt-1.21.11" = _CTMjlPbH;
         "quilt-26.1" = _QUnIomcV;
+        "quilt-26.3" = _sZJASj3O;
         "pkg-1.21+1.0.0-fabric" = _CTMjlPbH;
         "pkg-1.0.1-beta+26.1-snapshot-4" = _RgQyYvVu;
         "pkg-1.1.0+26.1-snapshot-4_fabric" = _YCziNzen;
         "pkg-1.1.1+26.1" = _QUnIomcV;
         "pkg-1.1.1+26.2" = _HQenKYOX;
-        "default" = _HQenKYOX;
+        "pkg-1.1.2+26.3" = _sZJASj3O;
+        "default" = _sZJASj3O;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "serverdaycounter";

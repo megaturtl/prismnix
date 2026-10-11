@@ -26,12 +26,18 @@ let
             "file" = "norecipebook-fabric-mc26.3-1.1.0.jar";
             "hash" = "sha512-9bmzr4fh1AOPox3A/wmU6Zcxei5VQ1C+/yVuj8HnrleiiGT1s/hG1r9s+90kk2AuXZSX7sJXQQEsSU8JEDt9OQ==";
         };
+        _h9GBSG7D = {
+            "id" = "h9GBSG7D";
+            "file" = "norecipebook-1.1+mc26.3-neoforge.jar";
+            "hash" = "sha512-/uz/K5JC9B4SEz6syQxu22QIBSMSs/kvB/vPGBKYkA71K9tzFsuM/2D2SbHnj26DpqAi38ZWiRQIY7dqT01MQw==";
+        };
     in {
         "BijRgkSc" = _BijRgkSc;
         "qT0QhNHZ" = _qT0QhNHZ;
         "Z9aH4fKd" = _Z9aH4fKd;
         "JIgizuW0" = _JIgizuW0;
         "8ZtORSFl" = _8ZtORSFl;
+        "h9GBSG7D" = _h9GBSG7D;
         "fabric-1.18" = _BijRgkSc;
         "fabric-1.18.1" = _BijRgkSc;
         "fabric-1.18.2" = _BijRgkSc;
@@ -64,10 +70,16 @@ let
         "fabric-26.1.2" = _8ZtORSFl;
         "fabric-26.2" = _8ZtORSFl;
         "fabric-26.3" = _8ZtORSFl;
+        "neoforge-26.1" = _h9GBSG7D;
+        "neoforge-26.1.1" = _h9GBSG7D;
+        "neoforge-26.1.2" = _h9GBSG7D;
+        "neoforge-26.2" = _h9GBSG7D;
+        "neoforge-26.3" = _h9GBSG7D;
         "pkg-1.0.1" = _qT0QhNHZ;
         "pkg-1.0.2" = _JIgizuW0;
-        "pkg-1.1.0" = _8ZtORSFl;
-        "default" = _8ZtORSFl;
+        "pkg-1.1+mc26.3-fabric" = _8ZtORSFl;
+        "pkg-1.1+mc26.3-neoforge" = _h9GBSG7D;
+        "default" = _h9GBSG7D;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "no-recipe-book";

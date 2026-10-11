@@ -36,6 +36,11 @@ let
             "file" = "nei-enchantments-26.2_1.jar";
             "hash" = "sha512-oirl4nx4pRLbnDtsWSvPzOki/VtDN06gFK8yyj4GNdtSuYpUW3SXRShIp98XguRN3UD3jxetnQBBdctHDboDNw==";
         };
+        _3IO2B55P = {
+            "id" = "3IO2B55P";
+            "file" = "nei-enchantments-26.3.1.jar";
+            "hash" = "sha512-BkfMXicv+rFcykzYntlNC7NEIJK2aYV7dRcDQSvKQJiNfJfKMjCxkgLGShRxqXYiV+0Rg1eUJJbHa2CKKhw/sw==";
+        };
     in {
         "ltq4juIN" = _ltq4juIN;
         "QTxuzGZ5" = _QTxuzGZ5;
@@ -44,6 +49,7 @@ let
         "PEiUHSwZ" = _PEiUHSwZ;
         "Mt9U4Rer" = _Mt9U4Rer;
         "pcV6FPB7" = _pcV6FPB7;
+        "3IO2B55P" = _3IO2B55P;
         "fabric-1.21" = _5XHZOKmj;
         "fabric-1.21.1" = _5XHZOKmj;
         "fabric-1.21.2" = _5XHZOKmj;
@@ -66,13 +72,15 @@ let
         "fabric-26.1.1" = _PEiUHSwZ;
         "fabric-26.1.2" = _PEiUHSwZ;
         "fabric-26.2" = _pcV6FPB7;
+        "fabric-26.3" = _3IO2B55P;
         "pkg-1.0.0" = _ltq4juIN;
         "pkg-2.0.0" = _QTxuzGZ5;
         "pkg-3.0.0" = _SgiAoTKb;
         "pkg-5.0.0" = _PEiUHSwZ;
         "pkg-26.2" = _Mt9U4Rer;
         "pkg-26.2_1" = _pcV6FPB7;
-        "default" = _pcV6FPB7;
+        "pkg-26.3.1" = _3IO2B55P;
+        "default" = _3IO2B55P;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nei-enchantments";

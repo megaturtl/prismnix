@@ -166,6 +166,16 @@ let
             "file" = "CustomTotemParticles-2.92.jar";
             "hash" = "sha512-QRBcf2dNdDF8sc/agMHfeR7Mb5jvCbUYTgFE+HIqnGOXKHeTK6MLHoG7xJCd1rMchHXU1BivR2Yzc8NZ/JzsPw==";
         };
+        _RJw87tND = {
+            "id" = "RJw87tND";
+            "file" = "CustomTotemParticles-2.93.jar";
+            "hash" = "sha512-kDtT63zv+DIwkyJTlLMZw8b7A0wtw8HsALYoTlt8eqlsvZbwbdDRPcC3EaEam/PPP25wcTfwBziMyQUp13Go3w==";
+        };
+        _l1hg1NU5 = {
+            "id" = "l1hg1NU5";
+            "file" = "CustomTotemParticles-2.94.jar";
+            "hash" = "sha512-hACmw9WDdY2N4TZrJJ7eyRV+MlQuAJ0BEhNG+ibAg/poSAhwfvfUl1y7E+BrNvxlAyBdlpjXbTpJFttRT3UPIg==";
+        };
     in {
         "ZayWCNBh" = _ZayWCNBh;
         "wG9Tbiw3" = _wG9Tbiw3;
@@ -200,6 +210,8 @@ let
         "y9o1tN8P" = _y9o1tN8P;
         "cS4oICIz" = _cS4oICIz;
         "R9uTyz49" = _R9uTyz49;
+        "RJw87tND" = _RJw87tND;
+        "l1hg1NU5" = _l1hg1NU5;
         "fabric-1.19.4" = _DGkbMTzi;
         "fabric-1.20" = _IK9ZwLej;
         "fabric-1.19.3" = _LGA1vabs;
@@ -217,6 +229,11 @@ let
         "fabric-1.21.1" = _jzXvMm2k;
         "fabric-1.21" = _kRWZDuh7;
         "fabric-1.21.11" = _R9uTyz49;
+        "fabric-26.1" = _RJw87tND;
+        "fabric-26.1.1" = _RJw87tND;
+        "fabric-26.1.2" = _RJw87tND;
+        "fabric-26.2" = _RJw87tND;
+        "fabric-26.3" = _l1hg1NU5;
         "pkg-1.1" = _pbxq3p5h;
         "pkg-2.0" = _ZavClAn7;
         "pkg-2.2" = _ssYoTleU;
@@ -224,7 +241,9 @@ let
         "pkg-2.9" = _YYC4Gd8e;
         "pkg-2.91" = _y9o1tN8P;
         "pkg-2.92" = _R9uTyz49;
-        "default" = _R9uTyz49;
+        "pkg-2.93" = _RJw87tND;
+        "pkg-2.94" = _l1hg1NU5;
+        "default" = _l1hg1NU5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "custom-totem-particles";

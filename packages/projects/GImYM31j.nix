@@ -191,6 +191,16 @@ let
             "file" = "burgermod-neoforge-2.10.3-26.2.jar";
             "hash" = "sha512-CVxHxS+4sEW1gJcuAluSndU6HvIRtBLCJ92KkhNORcFigVTh8PPVPsYhn0nSMpUjVQPhHU2IsOcvzj9OzNcgow==";
         };
+        _grQu7m4T = {
+            "id" = "grQu7m4T";
+            "file" = "burgermod-neoforge-2.10.3-26.3.jar";
+            "hash" = "sha512-WDBTteNH1dVBXnHo0uH+2anmM8SakbJn/A1FM6MR+FU/POIi7Lkc4xmnvSGR5bQBtrH/9SrYWzM5w1nmgo4vIw==";
+        };
+        _wOHpvYCK = {
+            "id" = "wOHpvYCK";
+            "file" = "burgermod-neoforge-2.10.4-26.3.jar";
+            "hash" = "sha512-7NFmmZLFn67utVoY4YLULuvDaZfrBHnrwkLmOioE/EVI9zlVvDsFkvdpGQDPWqAu6SmKZDQ6CuYjO9pmHBEnPA==";
+        };
     in {
         "7o6yeFEk" = _7o6yeFEk;
         "tFCVucPd" = _tFCVucPd;
@@ -230,6 +240,8 @@ let
         "nlyDMjmw" = _nlyDMjmw;
         "NhHYKdBk" = _NhHYKdBk;
         "zjKXIfPY" = _zjKXIfPY;
+        "grQu7m4T" = _grQu7m4T;
+        "wOHpvYCK" = _wOHpvYCK;
         "forge-1.16.5" = _7o6yeFEk;
         "forge-1.18.2" = _tFCVucPd;
         "forge-1.19" = _Xqzv10WX;
@@ -259,6 +271,7 @@ let
         "neoforge-1.21.11" = _nlyDMjmw;
         "neoforge-26.1.2" = _NhHYKdBk;
         "neoforge-26.2" = _zjKXIfPY;
+        "neoforge-26.3" = _wOHpvYCK;
         "pkg-forge-2.8.0-mc1.16.5" = _7o6yeFEk;
         "pkg-forge-2.8.0-mc1.18.2" = _tFCVucPd;
         "pkg-forge-2.9.0-mc1.19" = _Xqzv10WX;
@@ -297,7 +310,9 @@ let
         "pkg-neoforge-2.10.3-mc1.21.11" = _nlyDMjmw;
         "pkg-2.10.3-neoforge-mc26.1.2" = _NhHYKdBk;
         "pkg-neoforge-2.10.3-mc26.2" = _zjKXIfPY;
-        "default" = _zjKXIfPY;
+        "pkg-neoforge-2.10.3-mc26.3" = _grQu7m4T;
+        "pkg-neoforge-2.10.4-mc26.3" = _wOHpvYCK;
+        "default" = _wOHpvYCK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "burger-mod";

@@ -36,6 +36,11 @@ let
             "file" = "Mjölnir Mace 26.2.zip";
             "hash" = "sha512-N+O8XPr3f3W15d/OTSgdXjdowovVottKiZAOt5JX+UgVEb6FcLI6aM2QISUtWAnAc/G+T8q7T+0WPfohN1fL1Q==";
         };
+        _zbxSx125 = {
+            "id" = "zbxSx125";
+            "file" = "Mjölnir Mace 26.3.zip";
+            "hash" = "sha512-Viioij9x0WyDUHQ2eWVOfjxjG95503KLEjlPehVp5eTcawPXXjVo97vN2uYHLYt9sPMG0GPLSQiE5nRdDknNbA==";
+        };
     in {
         "sRtjcsle" = _sRtjcsle;
         "D5OPooZZ" = _D5OPooZZ;
@@ -44,6 +49,7 @@ let
         "A5Vq6PAj" = _A5Vq6PAj;
         "yZca9AAY" = _yZca9AAY;
         "sCVGm4eG" = _sCVGm4eG;
+        "zbxSx125" = _zbxSx125;
         "minecraft-1.21" = _sRtjcsle;
         "minecraft-1.21.1" = _sRtjcsle;
         "minecraft-1.21.2" = _sRtjcsle;
@@ -58,9 +64,11 @@ let
         "minecraft-26.1.1" = _yZca9AAY;
         "minecraft-26.1.2" = _yZca9AAY;
         "minecraft-26.2" = _sCVGm4eG;
+        "minecraft-26.3" = _zbxSx125;
         "pkg-1.0" = _yZca9AAY;
         "pkg-26.2" = _sCVGm4eG;
-        "default" = _sCVGm4eG;
+        "pkg-26.3" = _zbxSx125;
+        "default" = _zbxSx125;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mjlnir-mace";

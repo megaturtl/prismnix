@@ -111,6 +111,46 @@ let
             "file" = "nbteditor-2.0.9+26.2.jar";
             "hash" = "sha512-pJLk8whbcs1Z7X/rFYwyLnhNPEZGCNmxlJ9JUtNcyYY7mnDCJrwOy81nw34qxgA5JcOcPiiwGN2+qkayboCMPg==";
         };
+        _ul39tBWj = {
+            "id" = "ul39tBWj";
+            "file" = "nbteditor-2.0.9+26.3.jar";
+            "hash" = "sha512-cNRmrYWjhkiDxbAM6USlZH6M9sEnONi5RXASPPl9UonkMFJproPPrSLrHq2NyvXiBdez+dc7TwDQ5Tuc8l11sg==";
+        };
+        _HmPunaVS = {
+            "id" = "HmPunaVS";
+            "file" = "nbteditor-2.0.9-fix+26.3.jar";
+            "hash" = "sha512-6euDkCesBCh4js2/bB1VsqNleirznufvJU/QSjOFndcopPhEbIxXusaOP8UhPznv41s9RvXXbE6X2RcuaBabyw==";
+        };
+        _6GByOevY = {
+            "id" = "6GByOevY";
+            "file" = "nbteditor-2.0.10+26.1.2.jar";
+            "hash" = "sha512-KAqpNqI2gyLrVoRK6TixN14qMbrGQR0QFA6tRomf6CYRiTCTidFwa2FRNF3CQI5A6tPt344COFM6I4TocdIqGA==";
+        };
+        _vFDWPqap = {
+            "id" = "vFDWPqap";
+            "file" = "nbteditor-2.0.10+26.2.jar";
+            "hash" = "sha512-PG9DvdAuwr5ppVEMEUNk4juBEnZnkRZdoW4MWwgS/4oDA/wcejVOCsm+rL/XsNhnFdl2DhPGGagNRR11LFigoA==";
+        };
+        _IDMtqejo = {
+            "id" = "IDMtqejo";
+            "file" = "nbteditor-2.0.10+26.3.jar";
+            "hash" = "sha512-YV7RwAW4wVLAgGGKjn/I7fALmps//cH5tdh6HwEausQsk+xAlyYNRhTFvDe2h1hAECgUFRMVIYZgTSc2RVGKJA==";
+        };
+        _OsOUyJxd = {
+            "id" = "OsOUyJxd";
+            "file" = "nbteditor-2.0.11+26.1.2.jar";
+            "hash" = "sha512-e/8b1dqoHHKhh2UJOtUcOm69uu4nv1zdARk5tbCS4Ke5eDPBvL0+fSZ7XDOzNK3Gavq/i1QntfGrnr1naJQfjw==";
+        };
+        _7Mw8ZJmp = {
+            "id" = "7Mw8ZJmp";
+            "file" = "nbteditor-2.0.11+26.2.jar";
+            "hash" = "sha512-mqdCS8I8gXBCoAgevW/Z7cXJIcn63wZx21mfIIrdG1qyCGk1a7Z/DHshNNZTSx13Q4OBa9ddTnPORM3iU7EkGg==";
+        };
+        _FUuw1wuX = {
+            "id" = "FUuw1wuX";
+            "file" = "nbteditor-2.0.11+26.3.jar";
+            "hash" = "sha512-6JcEnx1JUJfRQDuD6ibCQKt/FQJLpQGVkWqiTkRxizxDYPxV3xkW7TryyKcdVdGXOMcmiWwPTKgl+0u0tTM0oQ==";
+        };
     in {
         "KM5XDZkO" = _KM5XDZkO;
         "5l8kpnsY" = _5l8kpnsY;
@@ -134,12 +174,21 @@ let
         "y76PwCG9" = _y76PwCG9;
         "soqYCt4b" = _soqYCt4b;
         "4ROkapHS" = _4ROkapHS;
+        "ul39tBWj" = _ul39tBWj;
+        "HmPunaVS" = _HmPunaVS;
+        "6GByOevY" = _6GByOevY;
+        "vFDWPqap" = _vFDWPqap;
+        "IDMtqejo" = _IDMtqejo;
+        "OsOUyJxd" = _OsOUyJxd;
+        "7Mw8ZJmp" = _7Mw8ZJmp;
+        "FUuw1wuX" = _FUuw1wuX;
         "fabric-1.21.11" = _y76PwCG9;
-        "fabric-26.1" = _soqYCt4b;
-        "fabric-26.1.1" = _soqYCt4b;
-        "fabric-26.1.2" = _soqYCt4b;
+        "fabric-26.1" = _OsOUyJxd;
+        "fabric-26.1.1" = _OsOUyJxd;
+        "fabric-26.1.2" = _OsOUyJxd;
         "fabric-1.21.10" = _5E94PSoP;
-        "fabric-26.2" = _4ROkapHS;
+        "fabric-26.2" = _7Mw8ZJmp;
+        "fabric-26.3" = _FUuw1wuX;
         "pkg-2.0.3" = _KM5XDZkO;
         "pkg-2.0.4+1.21.11" = _5l8kpnsY;
         "pkg-2.0.5+1.21.11" = _bMjYSabg;
@@ -162,7 +211,15 @@ let
         "pkg-2.0.9+1.21.11" = _y76PwCG9;
         "pkg-2.0.9+26.1.2" = _soqYCt4b;
         "pkg-2.0.9+26.2" = _4ROkapHS;
-        "default" = _4ROkapHS;
+        "pkg-2.0.9+26.3" = _ul39tBWj;
+        "pkg-2.0.9-fix+26.3" = _HmPunaVS;
+        "pkg-2.0.10+26.1.2" = _6GByOevY;
+        "pkg-2.0.10+26.2" = _vFDWPqap;
+        "pkg-2.0.10+26.3" = _IDMtqejo;
+        "pkg-2.0.11+26.1.2" = _OsOUyJxd;
+        "pkg-2.0.11+26.2" = _7Mw8ZJmp;
+        "pkg-2.0.11+26.3" = _FUuw1wuX;
+        "default" = _FUuw1wuX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nbteditor-port";

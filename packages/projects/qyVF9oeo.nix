@@ -1486,6 +1486,21 @@ let
             "file" = "sound-physics-remastered-fabric-1.5.1+26.2.jar";
             "hash" = "sha512-XD0RRihIwV3f1LhUyZjtVcE+S80DOp8BrL6lbVUHn0eVxnMhr4A8wbGw4Ngd/WdQUyKUyTLpISiIWMDZ6gb5fg==";
         };
+        _MVooSqHq = {
+            "id" = "MVooSqHq";
+            "file" = "sound-physics-remastered-neoforge-1.5.1+26.3.jar";
+            "hash" = "sha512-mqyUcbxWww7AcB+iyjiVFXxV0nbIgwi2Z+sFLUyxeLSp7oGOSd5jy3Pe8S1QCaEWa+PMcPH2JzG630pSUwWqZA==";
+        };
+        _9loJgQlO = {
+            "id" = "9loJgQlO";
+            "file" = "sound-physics-remastered-fabric-1.5.1+26.3.jar";
+            "hash" = "sha512-xrvm4gGKGfqY6VkPF/7qwXzOpOsjJ/I5FaTBEvSn7ZkiD5m50qnuPJqZGahHqJZdnYKq7mc3HU2NZ1s/z0tGpQ==";
+        };
+        _9fsEYAXC = {
+            "id" = "9fsEYAXC";
+            "file" = "sound-physics-remastered-forge-1.5.1+26.3.jar";
+            "hash" = "sha512-oIbKX7OYt7OB7q8aySaFkiAbqD6ynHjlAhtr0VI40sCpaoDez97OKrw8dgJo0yidkdRzOOg/QfadyzkjjbumVA==";
+        };
     in {
         "tbyD9fqo" = _tbyD9fqo;
         "CK4lQQ9O" = _CK4lQQ9O;
@@ -1784,6 +1799,9 @@ let
         "6Zba3CwE" = _6Zba3CwE;
         "T2rk5I7r" = _T2rk5I7r;
         "d8iioMMp" = _d8iioMMp;
+        "MVooSqHq" = _MVooSqHq;
+        "9loJgQlO" = _9loJgQlO;
+        "9fsEYAXC" = _9fsEYAXC;
         "forge-1.19" = _74oofD7s;
         "forge-1.19.1" = _ZQ358klw;
         "forge-1.19.2" = _cT0aLJ8N;
@@ -1809,6 +1827,7 @@ let
         "forge-26.1.1" = _AGRaV6qK;
         "forge-26.1.2" = _AGRaV6qK;
         "forge-26.2" = _6Zba3CwE;
+        "forge-26.3" = _9fsEYAXC;
         "fabric-1.19" = _34AzinYF;
         "fabric-1.19.1" = _8DVONifo;
         "fabric-1.19.2" = _D7fOLtmp;
@@ -1835,6 +1854,7 @@ let
         "fabric-26.1.1" = _y3vsp51g;
         "fabric-26.1.2" = _y3vsp51g;
         "fabric-26.2" = _d8iioMMp;
+        "fabric-26.3" = _9loJgQlO;
         "neoforge-1.20.1" = _sSV5WT7s;
         "neoforge-1.19.2" = _JPBZW9Vf;
         "neoforge-1.19.4" = _bKhTczPg;
@@ -1857,6 +1877,7 @@ let
         "neoforge-26.1.1" = _fJhWavsR;
         "neoforge-26.1.2" = _fJhWavsR;
         "neoforge-26.2" = _T2rk5I7r;
+        "neoforge-26.3" = _MVooSqHq;
         "quilt-1.20.1" = _sCsWXt85;
         "quilt-1.19.2" = _D7fOLtmp;
         "quilt-1.19.4" = _I2nXZGRy;
@@ -1879,6 +1900,7 @@ let
         "quilt-26.1.1" = _y3vsp51g;
         "quilt-26.1.2" = _y3vsp51g;
         "quilt-26.2" = _d8iioMMp;
+        "quilt-26.3" = _9loJgQlO;
         "pkg-forge-1.19-1.0.6" = _tbyD9fqo;
         "pkg-fabric-1.19-1.0.6" = _CK4lQQ9O;
         "pkg-forge-1.19-1.0.7" = _x9IWXNJ1;
@@ -2174,7 +2196,10 @@ let
         "pkg-forge-1.5.1+26.2" = _6Zba3CwE;
         "pkg-neoforge-1.5.1+26.2" = _T2rk5I7r;
         "pkg-fabric-1.5.1+26.2" = _d8iioMMp;
-        "default" = _d8iioMMp;
+        "pkg-neoforge-1.5.1+26.3" = _MVooSqHq;
+        "pkg-fabric-1.5.1+26.3" = _9loJgQlO;
+        "pkg-forge-1.5.1+26.3" = _9fsEYAXC;
+        "default" = _9fsEYAXC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sound-physics-remastered";

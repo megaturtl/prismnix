@@ -186,6 +186,86 @@ let
             "file" = "travelertoolbelt-fabric-1.20.1-1.0.5.jar";
             "hash" = "sha512-ghZ6Bk0Is202oJ87aGATWzR4ANzHnSq0ZkbOVfCMtSFqSQecjD4BfMPO8wdxqpc8JvZ3zbe/fRMTZsMO9mofmw==";
         };
+        _WoFbTGLj = {
+            "id" = "WoFbTGLj";
+            "file" = "travelertoolbelt-fabric-26.3-1.0.4.jar";
+            "hash" = "sha512-gjHjBrZDYt7JwPdcxXnjSNff1nKBdaXe19KU6F46neVWoZHLroTG/9qmDyubE4ogxzwg0XOetbTn5juzpJv/Vg==";
+        };
+        _dDczj2IY = {
+            "id" = "dDczj2IY";
+            "file" = "travelertoolbelt-neoforge-26.3-1.0.4.jar";
+            "hash" = "sha512-xIpPtgZOt1OkOUlZIkiVCksrAMUmUBuntrqSndRCQ52kg67qSFZC/yyRgQw+DI9RwVp41poEJ0I9ZdgNoiqd4w==";
+        };
+        _DfLBMR6A = {
+            "id" = "DfLBMR6A";
+            "file" = "travelertoolbelt-fabric-1.20.1-1.0.6.jar";
+            "hash" = "sha512-HimGk7cG1lJwbgcUyNo3Fmmt5jhdWi9BLv2QRbGlH77xmsA6yXQ+mE7Ez07OJf0ZJ7p6XIm0rd0Q/f0Kgm4PNw==";
+        };
+        _KJmPbZKx = {
+            "id" = "KJmPbZKx";
+            "file" = "travelertoolbelt-forge-1.20.1-1.0.6.jar";
+            "hash" = "sha512-ZNM84D7TJvDjHKaL+LMGOaldSJtkL/eIqRq65U0mzok24vLBkbCuuM0WxXopMsMawqbQOeonOXhGnvC77XuMKA==";
+        };
+        _xUqTkqOV = {
+            "id" = "xUqTkqOV";
+            "file" = "travelertoolbelt-fabric-1.21.1-1.0.4.jar";
+            "hash" = "sha512-f2wL7J8ywaQ0eqWecdlkukAFbpzeVFt4fzecpEdydjJ+PXxFWfkiNiXOpJfKVj0NDM3PRH1gUq2SvwR9LMWB3A==";
+        };
+        _EWVsxqVa = {
+            "id" = "EWVsxqVa";
+            "file" = "travelertoolbelt-neoforge-1.21.1-1.0.4.jar";
+            "hash" = "sha512-/6zEZsx13Li3SQQQmvZ6gy0oXZN+bZGo23KCRNCrnhf6mebxxArf6cWXEgpe/TGYJbXM99QKOBTvpVtDtex6Zg==";
+        };
+        _8kth7sXP = {
+            "id" = "8kth7sXP";
+            "file" = "travelertoolbelt-fabric-1.21.11-1.0.4.jar";
+            "hash" = "sha512-RFxmz9KcKBTJnHG2MnYyAQY+lRqbrc3OXcxm2wTW0+vUQ05VEKse0JYE+4qYnGUYUBdgiDz6jzz8sxhwWivETA==";
+        };
+        _GcvI2DJh = {
+            "id" = "GcvI2DJh";
+            "file" = "travelertoolbelt-neoforge-1.21.11-1.0.4.jar";
+            "hash" = "sha512-SpmFomZLCgFijqZTpQJDFa1O1QS4wpjmeR8SFDU0KEpH2wtlPg/8Tev1By1HdQG/rw694ARw2BjBk81ldl5yWg==";
+        };
+        _kC4jZnZf = {
+            "id" = "kC4jZnZf";
+            "file" = "travelertoolbelt-fabric-26.1.2-1.0.4.jar";
+            "hash" = "sha512-t8jvCNS1wjYwtvnDiFNtdunVADViYFFE4QT4k+hlrvWnFaI8qFAt/NchhT1cwtuZwXwpKbV8dJMDa811UkIQpQ==";
+        };
+        _DPnPhhPO = {
+            "id" = "DPnPhhPO";
+            "file" = "travelertoolbelt-neoforge-26.1.2-1.0.4.jar";
+            "hash" = "sha512-gXRArG2XNYsd4W24Usd82+/CpO0hldf9MFD1e4GJaOORp8mFyLFXfwPYDXASp4V3XGPEG88vP/H9capOl4hLnQ==";
+        };
+        _uycB5fpQ = {
+            "id" = "uycB5fpQ";
+            "file" = "travelertoolbelt-fabric-26.2-1.0.4.jar";
+            "hash" = "sha512-bT000G76UfEfFDJN4IBskaOqufCXxxIxs5zUEPoE+Sl1MSlaWTZSggvFRubCWyTi3FtEfggzqlU0jFEMckP+vA==";
+        };
+        _lcwI2fFv = {
+            "id" = "lcwI2fFv";
+            "file" = "travelertoolbelt-neoforge-26.2-1.0.4.jar";
+            "hash" = "sha512-o+/GNoGZdt4E6eDA6LogpPBiH6b1Tjc/l2n47pofaN43/MfyIlQkGZSVjaaep45lQkZ/2cZK6A8Ep+a9XAHmug==";
+        };
+        _doww2RbE = {
+            "id" = "doww2RbE";
+            "file" = "travelertoolbelt-fabric-26.3-1.0.5.jar";
+            "hash" = "sha512-QMMxsTvtKcrTNBcksoYMOYze+S/KYXYUuwaAfIW175GXbyH/jsQXBJn+QaKsybUlXMozaXLEQvrLjM66G6OOZQ==";
+        };
+        _PB8gSBLi = {
+            "id" = "PB8gSBLi";
+            "file" = "travelertoolbelt-neoforge-26.3-1.0.5.jar";
+            "hash" = "sha512-qlRP85IiHTagqJ6xafohvcLNj2gYbBJTG+QSOILvSmD//AgyrPyUpteklofNxrQ/K2v5opHFAKZs9xWWDamVCQ==";
+        };
+        _g9RYhSfv = {
+            "id" = "g9RYhSfv";
+            "file" = "travelertoolbelt-neoforge-26.3-1.0.6.jar";
+            "hash" = "sha512-+S4LaW67C8xj3fCf6ac+d6xP2A/66g7IPE6bvYV8CV7gwvjC7stvyaLirlJBPUHXnRORrUXbGVaPzREcppqTzg==";
+        };
+        _r5bfVDn1 = {
+            "id" = "r5bfVDn1";
+            "file" = "travelertoolbelt-fabric-26.3-1.0.6.jar";
+            "hash" = "sha512-pV2tSBH8jeoXjpQ/kZfsZ36eYq1OHkqR2QLNz3nXgunu0gVO1K7yaoqI9twy7sRvLoJmGzripOLHEA+n91EPBw==";
+        };
     in {
         "fOIWzu19" = _fOIWzu19;
         "wyY2mpge" = _wyY2mpge;
@@ -224,22 +304,40 @@ let
         "BygpNIfj" = _BygpNIfj;
         "DG2Fgerv" = _DG2Fgerv;
         "Ki5vvIWu" = _Ki5vvIWu;
-        "forge-1.20.1" = _DG2Fgerv;
-        "fabric-1.20.1" = _Ki5vvIWu;
-        "fabric-1.21.1" = _Chpomvh5;
+        "WoFbTGLj" = _WoFbTGLj;
+        "dDczj2IY" = _dDczj2IY;
+        "DfLBMR6A" = _DfLBMR6A;
+        "KJmPbZKx" = _KJmPbZKx;
+        "xUqTkqOV" = _xUqTkqOV;
+        "EWVsxqVa" = _EWVsxqVa;
+        "8kth7sXP" = _8kth7sXP;
+        "GcvI2DJh" = _GcvI2DJh;
+        "kC4jZnZf" = _kC4jZnZf;
+        "DPnPhhPO" = _DPnPhhPO;
+        "uycB5fpQ" = _uycB5fpQ;
+        "lcwI2fFv" = _lcwI2fFv;
+        "doww2RbE" = _doww2RbE;
+        "PB8gSBLi" = _PB8gSBLi;
+        "g9RYhSfv" = _g9RYhSfv;
+        "r5bfVDn1" = _r5bfVDn1;
+        "forge-1.20.1" = _KJmPbZKx;
+        "fabric-1.20.1" = _DfLBMR6A;
+        "fabric-1.21.1" = _xUqTkqOV;
         "fabric-1.21.10" = _1emxu3uK;
-        "fabric-1.21.11" = _Cgph4EYe;
-        "fabric-26.1" = _UtsfDIJC;
-        "fabric-26.1.1" = _UtsfDIJC;
-        "fabric-26.1.2" = _UtsfDIJC;
-        "fabric-26.2" = _sVnWiXsR;
-        "neoforge-1.21.1" = _BygpNIfj;
+        "fabric-1.21.11" = _8kth7sXP;
+        "fabric-26.1" = _kC4jZnZf;
+        "fabric-26.1.1" = _kC4jZnZf;
+        "fabric-26.1.2" = _kC4jZnZf;
+        "fabric-26.2" = _uycB5fpQ;
+        "fabric-26.3" = _r5bfVDn1;
+        "neoforge-1.21.1" = _EWVsxqVa;
         "neoforge-1.21.10" = _KSlgkMYq;
-        "neoforge-1.21.11" = _nm5aCo9k;
-        "neoforge-26.1" = _kIfvir4a;
-        "neoforge-26.1.1" = _kIfvir4a;
-        "neoforge-26.1.2" = _kIfvir4a;
-        "neoforge-26.2" = _vHriNC4o;
+        "neoforge-1.21.11" = _GcvI2DJh;
+        "neoforge-26.1" = _DPnPhhPO;
+        "neoforge-26.1.1" = _DPnPhhPO;
+        "neoforge-26.1.2" = _DPnPhhPO;
+        "neoforge-26.2" = _lcwI2fFv;
+        "neoforge-26.3" = _g9RYhSfv;
         "pkg-1.20.1-1.0.0" = _fOIWzu19;
         "pkg-1.20.1-1.0.1" = _2BjozI97;
         "pkg-1.21.1-1.0.0" = _HeyFw3AE;
@@ -259,7 +357,15 @@ let
         "pkg-1.21.11-1.0.3" = _nm5aCo9k;
         "pkg-1.21.1-1.0.3" = _BygpNIfj;
         "pkg-1.20.1-1.0.5" = _Ki5vvIWu;
-        "default" = _Ki5vvIWu;
+        "pkg-26.3-1.0.4" = _dDczj2IY;
+        "pkg-1.20.1-1.0.6" = _KJmPbZKx;
+        "pkg-1.21.1-1.0.4" = _EWVsxqVa;
+        "pkg-1.21.11-1.0.4" = _GcvI2DJh;
+        "pkg-26.1.2-1.0.4" = _DPnPhhPO;
+        "pkg-26.2-1.0.4" = _lcwI2fFv;
+        "pkg-26.3-1.0.5" = _PB8gSBLi;
+        "pkg-26.3-1.0.6" = _r5bfVDn1;
+        "default" = _r5bfVDn1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "traveler-tool-belt";

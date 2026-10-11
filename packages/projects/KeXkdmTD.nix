@@ -41,6 +41,16 @@ let
             "file" = "attack-speed-enchantment-1.0.0.jar";
             "hash" = "sha512-JgnRA1OGYV7TbhyClZKD5yh7VtF5kJBGAUoBNtZ7xpd7OALK0VFhUSBfc8axKNnZG4ReAZr6fbmlR/0xfvJogw==";
         };
+        _qwBNSdhn = {
+            "id" = "qwBNSdhn";
+            "file" = "Attack Speed Enchantment v1.0.0 [26.3].zip";
+            "hash" = "sha512-pQ9cQCewm2zDapFvhPT9E3P0dRZCErJR178bmWKcqdfpkH3tEiDddkKReSgBT/geIufSgKcDUewQlZ2KdUGIwA==";
+        };
+        _CpWsXSH1 = {
+            "id" = "CpWsXSH1";
+            "file" = "attack-speed-enchantment-1.0.0.jar";
+            "hash" = "sha512-b4FMKAM8ezFHKfmojkRJ2uZaeE5FLzpWeOoe0KGRmRnTWhe3SNC/yUZA6EqrYkALQBHmOJhGHA2WOOmaW6jaEA==";
+        };
     in {
         "Et8jDahX" = _Et8jDahX;
         "fhDkzIps" = _fhDkzIps;
@@ -50,6 +60,8 @@ let
         "W1NvbdpK" = _W1NvbdpK;
         "VkzpCByx" = _VkzpCByx;
         "gPkY0Tm9" = _gPkY0Tm9;
+        "qwBNSdhn" = _qwBNSdhn;
+        "CpWsXSH1" = _CpWsXSH1;
         "datapack-1.21.2" = _CGso1IyW;
         "datapack-1.21.3" = _CGso1IyW;
         "datapack-1.21.4" = _CGso1IyW;
@@ -66,6 +78,7 @@ let
         "datapack-26.1.1" = _CGso1IyW;
         "datapack-26.1.2" = _CGso1IyW;
         "datapack-26.2" = _VkzpCByx;
+        "datapack-26.3" = _qwBNSdhn;
         "fabric-1.21.2" = _W1NvbdpK;
         "fabric-1.21.3" = _W1NvbdpK;
         "fabric-1.21.4" = _W1NvbdpK;
@@ -82,6 +95,7 @@ let
         "fabric-26.1.1" = _W1NvbdpK;
         "fabric-26.1.2" = _W1NvbdpK;
         "fabric-26.2" = _gPkY0Tm9;
+        "fabric-26.3" = _CpWsXSH1;
         "forge-1.21.2" = _W1NvbdpK;
         "forge-1.21.3" = _W1NvbdpK;
         "forge-1.21.4" = _W1NvbdpK;
@@ -98,6 +112,7 @@ let
         "forge-26.1.1" = _W1NvbdpK;
         "forge-26.1.2" = _W1NvbdpK;
         "forge-26.2" = _gPkY0Tm9;
+        "forge-26.3" = _CpWsXSH1;
         "neoforge-1.21.2" = _W1NvbdpK;
         "neoforge-1.21.3" = _W1NvbdpK;
         "neoforge-1.21.4" = _W1NvbdpK;
@@ -114,6 +129,7 @@ let
         "neoforge-26.1.1" = _W1NvbdpK;
         "neoforge-26.1.2" = _W1NvbdpK;
         "neoforge-26.2" = _gPkY0Tm9;
+        "neoforge-26.3" = _CpWsXSH1;
         "quilt-1.21.2" = _W1NvbdpK;
         "quilt-1.21.3" = _W1NvbdpK;
         "quilt-1.21.4" = _W1NvbdpK;
@@ -130,11 +146,12 @@ let
         "quilt-26.1.1" = _W1NvbdpK;
         "quilt-26.1.2" = _W1NvbdpK;
         "quilt-26.2" = _gPkY0Tm9;
+        "quilt-26.3" = _CpWsXSH1;
         "pkg-v1.0.0" = _CGso1IyW;
         "pkg-v1.0.0+mod" = _W1NvbdpK;
-        "pkg-1.0.0" = _VkzpCByx;
-        "pkg-1.0.0+mod" = _gPkY0Tm9;
-        "default" = _gPkY0Tm9;
+        "pkg-1.0.0" = _qwBNSdhn;
+        "pkg-1.0.0+mod" = _CpWsXSH1;
+        "default" = _CpWsXSH1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "attack-speed-enchantment";

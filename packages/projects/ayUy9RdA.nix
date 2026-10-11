@@ -11,9 +11,21 @@ let
             "file" = "projectile-deflection-enchantment-v1.0.0.jar";
             "hash" = "sha512-f7mVEhf+24SIkugd3gg6F4WSvTbKsjR1zjqYRd/oQRcgMJiocN6BKWJXswPBqhhJOxCfgAHVKadqIAnizN5jRQ==";
         };
+        _yzOkUrmQ = {
+            "id" = "yzOkUrmQ";
+            "file" = "Projectile Deflection Enchantment v1.0.0 [26.3].zip";
+            "hash" = "sha512-5MQGpVI4/8Wav3tNc/ZBAmcprYmmHUwzW4z+oKnu0/W/Pecl/bz909oCZvPeZqoIT2mc31Ku7KrsjxRHpGPUBQ==";
+        };
+        _LOVxGcf4 = {
+            "id" = "LOVxGcf4";
+            "file" = "projectile-deflection-enchantment-1.0.0.jar";
+            "hash" = "sha512-C+etKkQdvBhJ8vMVwmY0YUe8OWuX6unefutRicfhhp9sWZU4krrfh5a+OStE4aUOH9idEPRg063uJu5BAEhs5w==";
+        };
     in {
         "4jFje2lr" = _4jFje2lr;
         "NpZ3XFkY" = _NpZ3XFkY;
+        "yzOkUrmQ" = _yzOkUrmQ;
+        "LOVxGcf4" = _LOVxGcf4;
         "datapack-1.21" = _4jFje2lr;
         "datapack-1.21.1" = _4jFje2lr;
         "datapack-1.21.2" = _4jFje2lr;
@@ -30,6 +42,7 @@ let
         "datapack-26.1.1" = _4jFje2lr;
         "datapack-26.1.2" = _4jFje2lr;
         "datapack-26.2" = _4jFje2lr;
+        "datapack-26.3" = _yzOkUrmQ;
         "fabric-1.21" = _NpZ3XFkY;
         "fabric-1.21.1" = _NpZ3XFkY;
         "fabric-1.21.2" = _NpZ3XFkY;
@@ -46,6 +59,7 @@ let
         "fabric-26.1.1" = _NpZ3XFkY;
         "fabric-26.1.2" = _NpZ3XFkY;
         "fabric-26.2" = _NpZ3XFkY;
+        "fabric-26.3" = _LOVxGcf4;
         "forge-1.21" = _NpZ3XFkY;
         "forge-1.21.1" = _NpZ3XFkY;
         "forge-1.21.2" = _NpZ3XFkY;
@@ -62,6 +76,7 @@ let
         "forge-26.1.1" = _NpZ3XFkY;
         "forge-26.1.2" = _NpZ3XFkY;
         "forge-26.2" = _NpZ3XFkY;
+        "forge-26.3" = _LOVxGcf4;
         "neoforge-1.21" = _NpZ3XFkY;
         "neoforge-1.21.1" = _NpZ3XFkY;
         "neoforge-1.21.2" = _NpZ3XFkY;
@@ -78,6 +93,7 @@ let
         "neoforge-26.1.1" = _NpZ3XFkY;
         "neoforge-26.1.2" = _NpZ3XFkY;
         "neoforge-26.2" = _NpZ3XFkY;
+        "neoforge-26.3" = _LOVxGcf4;
         "quilt-1.21" = _NpZ3XFkY;
         "quilt-1.21.1" = _NpZ3XFkY;
         "quilt-1.21.2" = _NpZ3XFkY;
@@ -94,9 +110,12 @@ let
         "quilt-26.1.1" = _NpZ3XFkY;
         "quilt-26.1.2" = _NpZ3XFkY;
         "quilt-26.2" = _NpZ3XFkY;
+        "quilt-26.3" = _LOVxGcf4;
         "pkg-v1.0.0" = _4jFje2lr;
         "pkg-v1.0.0+mod" = _NpZ3XFkY;
-        "default" = _NpZ3XFkY;
+        "pkg-1.0.0" = _yzOkUrmQ;
+        "pkg-1.0.0+mod" = _LOVxGcf4;
+        "default" = _LOVxGcf4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "projectile-deflection-enchantment";

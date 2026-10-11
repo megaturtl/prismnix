@@ -46,6 +46,26 @@ let
             "file" = "vista-camcorders-0.1.4.jar";
             "hash" = "sha512-86K+NJeLjYR34at/Xo+mPTLbaWdCa3HdGqgZoVA4xyBThLuVwEmt/up5JYm7PPPFfEdt7NDXgfdEULAu6j3C/g==";
         };
+        _YN37ygwi = {
+            "id" = "YN37ygwi";
+            "file" = "vista-camcorders-0.1.5.jar";
+            "hash" = "sha512-4oTbqj0gEhCtWzkRLhho92YWSoQZ241Wh+MxytE9tB09L/79YPeCVw1R+dJ6q+EaM2slYRWFqQjvOpo74jMNjQ==";
+        };
+        _9kaDrlxx = {
+            "id" = "9kaDrlxx";
+            "file" = "vista-camcorders-neoforge-0.1.5.jar";
+            "hash" = "sha512-9ZLIl9QcMfAVHtpIcST0BQHpkjcrE4z1AO4w2cHiwijPdyqDCenarZspL5R+K1kuLsZZT7ofkbvOeQhjeg7Ong==";
+        };
+        _fwBFyn3n = {
+            "id" = "fwBFyn3n";
+            "file" = "vista-camcorders-0.1.6.jar";
+            "hash" = "sha512-am0xcscGCjOIcmE450GZqnVzQxOfvdyeqSU1kF2eDHxao+BMQBXuj1osergbTiZgjpr5p6hz10Y8ECglUtoueQ==";
+        };
+        _bAxYSmWh = {
+            "id" = "bAxYSmWh";
+            "file" = "vista-camcorders-neoforge-0.1.6.jar";
+            "hash" = "sha512-6sVoiwlt78shsP4yO9s5QKtNJxFXBcgqZpVoQ5TnkDhTpCqFeah9NMEmN2gEGSa1f5i6c3l6iM3qzgpj0d98pQ==";
+        };
     in {
         "Ar6iVW95" = _Ar6iVW95;
         "kRFQLhHm" = _kRFQLhHm;
@@ -56,14 +76,20 @@ let
         "6JKg5Nbj" = _6JKg5Nbj;
         "VEeUWwdm" = _VEeUWwdm;
         "rtUD6xeG" = _rtUD6xeG;
-        "fabric-1.21.1" = _rtUD6xeG;
-        "neoforge-1.21.1" = _VEeUWwdm;
+        "YN37ygwi" = _YN37ygwi;
+        "9kaDrlxx" = _9kaDrlxx;
+        "fwBFyn3n" = _fwBFyn3n;
+        "bAxYSmWh" = _bAxYSmWh;
+        "fabric-1.21.1" = _fwBFyn3n;
+        "neoforge-1.21.1" = _bAxYSmWh;
         "pkg-0.1.0" = _Ar6iVW95;
         "pkg-0.1.1" = _xrDPGbCY;
         "pkg-0.1.2" = _EKI3ZhCc;
         "pkg-0.1.3" = _6JKg5Nbj;
         "pkg-0.1.4" = _rtUD6xeG;
-        "default" = _rtUD6xeG;
+        "pkg-0.1.5" = _9kaDrlxx;
+        "pkg-0.1.6" = _bAxYSmWh;
+        "default" = _bAxYSmWh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vista-camcorders";

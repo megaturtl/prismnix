@@ -421,6 +421,21 @@ let
             "file" = "pufferfishapi-1.3.2-26.2-forge.jar";
             "hash" = "sha512-bG4SVjlZ/YSuy06UdsvFOqrwjr+qqlx+5MMhQ8qmbxlBmFPKv25YYQlhiZXIc1laijEBH4uYqANJQNbV1qitBg==";
         };
+        _zyJSsy9d = {
+            "id" = "zyJSsy9d";
+            "file" = "pufferfishapi-1.3.3-26.3-neoforge.jar";
+            "hash" = "sha512-/WxCt/R5qcXMXMz3tFIPnLGKG8po/fJ7PLsXJhriIeWz6dr9Xx7VyJTc5eb3T/Xj1XjkvE/ooy7hfSWNPwLo/Q==";
+        };
+        _GEYVOLAO = {
+            "id" = "GEYVOLAO";
+            "file" = "pufferfishapi-1.3.3-26.3-fabric.jar";
+            "hash" = "sha512-jV4b2RokXhsgXgWUaBccP3dqBYcInF8fZDh9y1Gq7fePNFe+J3bXhRHA2M5O0adCHeZ+Y2nkIxY/sG2OZW56MQ==";
+        };
+        _FpPH9XXL = {
+            "id" = "FpPH9XXL";
+            "file" = "pufferfishapi-1.3.3-26.3-forge.jar";
+            "hash" = "sha512-JWH6bxL0Rai7JudPGEm488rRjCmHOz0dKKjY/WY2qdc+f3xSE2jfzvcBPqylHXKH8/jg9mhghIve4Kfnw5bGeg==";
+        };
     in {
         "TAwL3gsF" = _TAwL3gsF;
         "VaXTWktH" = _VaXTWktH;
@@ -506,6 +521,9 @@ let
         "ahwVTB1J" = _ahwVTB1J;
         "VVBHdtxo" = _VVBHdtxo;
         "kON3kNDT" = _kON3kNDT;
+        "zyJSsy9d" = _zyJSsy9d;
+        "GEYVOLAO" = _GEYVOLAO;
+        "FpPH9XXL" = _FpPH9XXL;
         "fabric-1.20.6" = _R9039pOn;
         "fabric-1.21.1" = _JMnfqZjp;
         "fabric-1.21.4" = _9seQ8TXK;
@@ -518,6 +536,7 @@ let
         "fabric-1.21.11" = _JXqLgJrM;
         "fabric-26.1.2" = _m7BbfaSg;
         "fabric-26.2" = _FxM3jZXX;
+        "fabric-26.3" = _GEYVOLAO;
         "forge-1.20.6" = _hK2VX0HK;
         "forge-1.21.1" = _ahwVTB1J;
         "forge-1.21.4" = _y4ZwW8FH;
@@ -529,6 +548,7 @@ let
         "forge-1.21.11" = _hq9VcG5U;
         "forge-26.1.2" = _emcYDNse;
         "forge-26.2" = _kON3kNDT;
+        "forge-26.3" = _FpPH9XXL;
         "neoforge-1.20.6" = _8XUUKbiu;
         "neoforge-1.21.1" = _VVBHdtxo;
         "neoforge-1.21.4" = _u3h0l1Sg;
@@ -541,6 +561,7 @@ let
         "neoforge-1.21.11" = _FmxR4aZh;
         "neoforge-26.1.2" = _Pm5EIfV4;
         "neoforge-26.2" = _P3FAWbFU;
+        "neoforge-26.3" = _zyJSsy9d;
         "pkg-1.0.0" = _buHl0Irn;
         "pkg-1.1.0" = _BU3yCDEG;
         "pkg-1.2.0" = _ghUWyoSj;
@@ -554,7 +575,8 @@ let
         "pkg-1.3.0" = _Pm5EIfV4;
         "pkg-1.3.1" = _P3FAWbFU;
         "pkg-1.3.2" = _kON3kNDT;
-        "default" = _kON3kNDT;
+        "pkg-1.3.3" = _FpPH9XXL;
+        "default" = _FpPH9XXL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pufferfish-api";

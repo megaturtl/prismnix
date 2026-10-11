@@ -101,6 +101,16 @@ let
             "file" = "goatexpansionlite-1.1.0.jar";
             "hash" = "sha512-hDQx4rVkfBQTnBdeebqfQtKaGjpXKAIc7+MBGgAo77acCHYS/fcws16yKXwgbP7ip2YVV5n2VnW8XFvIoTBQPw==";
         };
+        _c34bptk3 = {
+            "id" = "c34bptk3";
+            "file" = "goatexpansion-neoforge-1.3.0.jar";
+            "hash" = "sha512-xphiwbMdWCNRCLxj5wffBYC4CoK0XcTBWm9Zzx1YF0ZG/5ZyG4kyMCwCKMZJF5po3eVkT6l72OTq1aC+TLl4Rg==";
+        };
+        _KjOW0LW7 = {
+            "id" = "KjOW0LW7";
+            "file" = "goatexpansion-fabric-1.3.0.jar";
+            "hash" = "sha512-o3KwNKBxO3ik2rlX06l8zHSOU4qFKy4J1a90PHBXF6+pP/zQKEsc1N6sQZSrzqpo0DvizDwXTabK/tZj9ykY1A==";
+        };
     in {
         "TWrqlfqI" = _TWrqlfqI;
         "e8XhCqGi" = _e8XhCqGi;
@@ -122,6 +132,8 @@ let
         "dAnt4ziA" = _dAnt4ziA;
         "rezxNeQg" = _rezxNeQg;
         "TuFs5rZI" = _TuFs5rZI;
+        "c34bptk3" = _c34bptk3;
+        "KjOW0LW7" = _KjOW0LW7;
         "fabric-1.21.4" = _bkNkgl5C;
         "fabric-1.21.1" = _MRLDnWsJ;
         "fabric-1.21.5" = _hrDUVQjT;
@@ -133,6 +145,8 @@ let
         "fabric-1.21.11" = _dAnt4ziA;
         "fabric-26.1" = _rezxNeQg;
         "fabric-26.1.2" = _TuFs5rZI;
+        "fabric-26.3" = _KjOW0LW7;
+        "neoforge-26.3" = _c34bptk3;
         "pkg-1.0.0" = _TWrqlfqI;
         "pkg-1.0.1" = _wucu0dui;
         "pkg-1.0.2_1.21.4" = _bkNkgl5C;
@@ -152,7 +166,8 @@ let
         "pkg-1.0.9_1.21.11" = _dAnt4ziA;
         "pkg-1.0.9-26.1" = _rezxNeQg;
         "pkg-1.1.0" = _TuFs5rZI;
-        "default" = _TuFs5rZI;
+        "pkg-1.3.0" = _KjOW0LW7;
+        "default" = _KjOW0LW7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "goat-expansion";

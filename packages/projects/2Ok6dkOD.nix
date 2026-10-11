@@ -166,6 +166,11 @@ let
             "file" = "bactromod-4.1.jar";
             "hash" = "sha512-Vi+B3G50KyOmOVBdHPQIrsESs2Nn75fUPZ8vVWDIO1SNL/2WhZGy09mVlfXhSYuISZlb5g/P4CnC9BZqU/+RKQ==";
         };
+        _3HclCtrq = {
+            "id" = "3HclCtrq";
+            "file" = "bactromod-4.2.jar";
+            "hash" = "sha512-sDE84aeAjHwbrIxEaMv28qse6p4qIqYufNtk2rigHpHZocju2VOU6AOXoyvWnU2PrgzHfz+tcd8WzusGNaa+lQ==";
+        };
     in {
         "ozx763xu" = _ozx763xu;
         "9gwzor1Q" = _9gwzor1Q;
@@ -200,6 +205,7 @@ let
         "XDLTTpd5" = _XDLTTpd5;
         "Zc3MG3oy" = _Zc3MG3oy;
         "aUqNNIXU" = _aUqNNIXU;
+        "3HclCtrq" = _3HclCtrq;
         "fabric-1.19.2" = _hv0XwzOf;
         "fabric-1.19.3" = _9gZ5puSx;
         "fabric-1.19.4" = _yP6hG9dS;
@@ -223,7 +229,7 @@ let
         "fabric-26.1.1" = _QpL7d8DC;
         "fabric-26.1.2" = _TuwqgRv5;
         "fabric-26.2" = _XDLTTpd5;
-        "fabric-26.3" = _aUqNNIXU;
+        "fabric-26.3" = _3HclCtrq;
         "quilt-1.19.2" = _hv0XwzOf;
         "quilt-1.19.3" = _9gZ5puSx;
         "quilt-1.19.4" = _yP6hG9dS;
@@ -237,7 +243,7 @@ let
         "quilt-26.1.1" = _QpL7d8DC;
         "quilt-26.1.2" = _TuwqgRv5;
         "quilt-26.2" = _XDLTTpd5;
-        "quilt-26.3" = _aUqNNIXU;
+        "quilt-26.3" = _3HclCtrq;
         "pkg-1.0" = _ozx763xu;
         "pkg-1.1" = _9gwzor1Q;
         "pkg-1.2" = _lr5ipJmj;
@@ -271,7 +277,8 @@ let
         "pkg-3.9" = _XDLTTpd5;
         "pkg-4.0" = _Zc3MG3oy;
         "pkg-4.1" = _aUqNNIXU;
-        "default" = _aUqNNIXU;
+        "pkg-4.2" = _3HclCtrq;
+        "default" = _3HclCtrq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bactromod";

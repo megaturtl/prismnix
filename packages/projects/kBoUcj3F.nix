@@ -61,6 +61,16 @@ let
             "file" = "launchcommand-1.4-1.21.11[neoforge].jar";
             "hash" = "sha512-gfWFybdDAJoYuAq0WOlMbtHBlbzpleP+ydiN8QIphHtnMJr3cm8sMdgamuFpze0M3DOccBqrRAKcPsv2/dFyyQ==";
         };
+        _qfWBqgQS = {
+            "id" = "qfWBqgQS";
+            "file" = "launch-command-r1.4-26.3[fabric].jar";
+            "hash" = "sha512-fwKyw5v6oRmLDQLVPfdMBjYfE8d7COmd9EZi2FdbeEyQsqZAMsasqGSW02DNFIjZUMBSCM7wcnTehMJgMp1EIw==";
+        };
+        _PsbciQHi = {
+            "id" = "PsbciQHi";
+            "file" = "launchcommand-1.4-26.3[neoforge].jar";
+            "hash" = "sha512-VDSW7FVUzemj84Cy9LGBhGEqaUEj9xOP2bRHHXXSR+BxS3vaWb8LOEzUfC6m98cXnpJxuOuJZGy+v3jqSu7Qnw==";
+        };
     in {
         "YmDZSy3Z" = _YmDZSy3Z;
         "D5SR64hG" = _D5SR64hG;
@@ -74,6 +84,8 @@ let
         "BZnac519" = _BZnac519;
         "ypBndtV3" = _ypBndtV3;
         "g2OETOfI" = _g2OETOfI;
+        "qfWBqgQS" = _qfWBqgQS;
+        "PsbciQHi" = _PsbciQHi;
         "fabric-1.21.1" = _RIadwpgv;
         "fabric-1.21.2" = _RIadwpgv;
         "fabric-1.21.3" = _RIadwpgv;
@@ -89,6 +101,7 @@ let
         "fabric-26.1.1" = _ypBndtV3;
         "fabric-26.1.2" = _ypBndtV3;
         "fabric-26.2" = _ypBndtV3;
+        "fabric-26.3" = _qfWBqgQS;
         "neoforge-1.21.1" = _tSN2G5Nf;
         "neoforge-1.21.2" = _tSN2G5Nf;
         "neoforge-1.21.3" = _tSN2G5Nf;
@@ -104,6 +117,7 @@ let
         "neoforge-26.1.1" = _g2OETOfI;
         "neoforge-26.1.2" = _g2OETOfI;
         "neoforge-26.2" = _g2OETOfI;
+        "neoforge-26.3" = _PsbciQHi;
         "pkg-r1.0-1.21" = _YmDZSy3Z;
         "pkg-1.0-1.21" = _D5SR64hG;
         "pkg-1.0-1.21+neoforge" = _6O0NpAUb;
@@ -116,7 +130,9 @@ let
         "pkg-r1.3-26.1+fabric" = _BZnac519;
         "pkg-r1.4-26.1+fabric" = _ypBndtV3;
         "pkg-1.4-1.21.11+neoforge" = _g2OETOfI;
-        "default" = _g2OETOfI;
+        "pkg-r1.4-26.3+fabric" = _qfWBqgQS;
+        "pkg-1.4-26.3+neoforge" = _PsbciQHi;
+        "default" = _PsbciQHi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "launch-command";

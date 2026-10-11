@@ -181,6 +181,11 @@ let
             "file" = "hev_suit-1.1.1+26.2.jar";
             "hash" = "sha512-WH4ehLttPnOOVRyjlqt0EWRliUpQleAMgj/gMubY3oRAzCObI1WEbqL3AFZZKzMo5NcWAyNxJuhkpEelPlku5Q==";
         };
+        _62f8Kknu = {
+            "id" = "62f8Kknu";
+            "file" = "hev_suit-1.1.1+26.3.jar";
+            "hash" = "sha512-yT1WfenJOFRQflwwuAvNUwodFFYr9eHNeidfa1TMufxgmPUvmGPnwKk+7eNwCusB5kBp0X/TLzjkIWV++KiF7w==";
+        };
     in {
         "6mLgqERE" = _6mLgqERE;
         "oBHtAjBg" = _oBHtAjBg;
@@ -218,6 +223,7 @@ let
         "8xVQLfC9" = _8xVQLfC9;
         "JaH2n2MZ" = _JaH2n2MZ;
         "cwlvootf" = _cwlvootf;
+        "62f8Kknu" = _62f8Kknu;
         "fabric-1.19.4" = _Ei4vBtiL;
         "fabric-1.20.4" = _Ei4vBtiL;
         "fabric-1.19" = _Ei4vBtiL;
@@ -282,6 +288,7 @@ let
         "fabric-26.1.1" = _8xVQLfC9;
         "fabric-26.1.2" = _JaH2n2MZ;
         "fabric-26.2" = _cwlvootf;
+        "fabric-26.3" = _62f8Kknu;
         "quilt-1.21" = _TbQvXXgM;
         "quilt-1.21.1" = _TbQvXXgM;
         "quilt-1.21.2" = _TbQvXXgM;
@@ -359,7 +366,8 @@ let
         "pkg-1.1.1+26.1.1" = _8xVQLfC9;
         "pkg-1.1.1+26.1.2" = _JaH2n2MZ;
         "pkg-1.1.1+26.2" = _cwlvootf;
-        "default" = _cwlvootf;
+        "pkg-1.1.1+26.3" = _62f8Kknu;
+        "default" = _62f8Kknu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hev-suit-voice-system";
