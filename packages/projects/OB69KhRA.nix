@@ -201,6 +201,11 @@ let
             "file" = "OrthoCamera-0.1.11+26.2.jar";
             "hash" = "sha512-5cp10BFgyB10GcixlRIii0zpg754PDEOjXVOU42rEgWWnGSGLNHgpcbYOidUZd0r1FevHAePfUAt2UHl/wneEw==";
         };
+        _OnJacAbN = {
+            "id" = "OnJacAbN";
+            "file" = "OrthoCamera-0.1.11+26.3.jar";
+            "hash" = "sha512-FQ2H3uGDgUEC4ytWdmMSmKdJH5XnW3XxYvwElAexTPVKhCQ5Ed7OJJnUDe87cYw3g5Rzbxf7meFRxJe9vzWdYg==";
+        };
     in {
         "k9frdXA9" = _k9frdXA9;
         "RA5n9ugP" = _RA5n9ugP;
@@ -242,6 +247,7 @@ let
         "P1yNwiWB" = _P1yNwiWB;
         "xarWdq5u" = _xarWdq5u;
         "nURmQGL6" = _nURmQGL6;
+        "OnJacAbN" = _OnJacAbN;
         "fabric-1.20.1" = _Xafz6dMj;
         "fabric-1.20.2" = _Xafz6dMj;
         "fabric-1.20.3" = _Xafz6dMj;
@@ -266,6 +272,7 @@ let
         "fabric-26.1.1" = _xarWdq5u;
         "fabric-26.1.2" = _xarWdq5u;
         "fabric-26.2" = _nURmQGL6;
+        "fabric-26.3" = _OnJacAbN;
         "pkg-0.0.1" = _k9frdXA9;
         "pkg-0.0.2" = _RA5n9ugP;
         "pkg-0.0.3+1.19.2" = _Z4QSFCsi;
@@ -306,7 +313,8 @@ let
         "pkg-0.1.10+1.21.11" = _P1yNwiWB;
         "pkg-0.1.10+26.1" = _xarWdq5u;
         "pkg-0.1.11+26.2" = _nURmQGL6;
-        "default" = _nURmQGL6;
+        "pkg-0.1.11+26.3" = _OnJacAbN;
+        "default" = _OnJacAbN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "orthocamera";

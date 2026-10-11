@@ -56,6 +56,11 @@ let
             "file" = "PerPlayerWanderingTraders-1.0.4+26.1.2.jar";
             "hash" = "sha512-DEbqItckCfDd1Kp0t0TEbjC9y3BCoarwMwl3xej5oeGMcdsxckL2oCDa+bS1RiTBbD4oPNicsBzR9coEiGvRuQ==";
         };
+        _FboDjXkw = {
+            "id" = "FboDjXkw";
+            "file" = "PerPlayerWanderingTraders-1.0.4+26.3.jar";
+            "hash" = "sha512-ubGivUGtDA4N9BTjH0WtfUPjG7gaAs1KRcBvdXDGUwEKjUO+6B2b3ZkFFapiVuD0yHqOIJJ5SY1OTC4JE62w7g==";
+        };
     in {
         "TV3mYyjE" = _TV3mYyjE;
         "Qk4XBzj4" = _Qk4XBzj4;
@@ -68,6 +73,7 @@ let
         "sPDNBLl6" = _sPDNBLl6;
         "V0yorCzB" = _V0yorCzB;
         "772QqqAr" = _772QqqAr;
+        "FboDjXkw" = _FboDjXkw;
         "fabric-1.20.6" = _WIVuixJq;
         "fabric-1.21" = _WIVuixJq;
         "fabric-1.21.1" = _WIVuixJq;
@@ -91,6 +97,7 @@ let
         "fabric-26.1.1" = _772QqqAr;
         "fabric-26.1.2" = _772QqqAr;
         "fabric-26.2" = _772QqqAr;
+        "fabric-26.3" = _FboDjXkw;
         "quilt-1.20.6" = _WIVuixJq;
         "quilt-1.21" = _WIVuixJq;
         "quilt-1.21.1" = _WIVuixJq;
@@ -114,6 +121,7 @@ let
         "quilt-26.1.1" = _772QqqAr;
         "quilt-26.1.2" = _772QqqAr;
         "quilt-26.2" = _772QqqAr;
+        "quilt-26.3" = _FboDjXkw;
         "pkg-1.0.0+1.20.6" = _TV3mYyjE;
         "pkg-1.0.1+1.20.6" = _Qk4XBzj4;
         "pkg-1.0.2+1.20.6" = _WIVuixJq;
@@ -125,7 +133,8 @@ let
         "pkg-1.0.2+26.1-rc-2" = _sPDNBLl6;
         "pkg-1.0.3+26.1.2" = _V0yorCzB;
         "pkg-1.0.4+26.1.2" = _772QqqAr;
-        "default" = _772QqqAr;
+        "pkg-1.0.4+26.3" = _FboDjXkw;
+        "default" = _FboDjXkw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "perplayerwanderingtraders";

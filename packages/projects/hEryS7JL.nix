@@ -36,6 +36,16 @@ let
             "file" = "3D Remix.zip";
             "hash" = "sha512-paZPaNXS9Aza6dRjVrOdoK07uF+oNXIfuluZ5ZmvMM09dBGzPx7rlrUvudN5uBLczcc0VoePb7/vID0j4G/ikw==";
         };
+        _qXiCbHPM = {
+            "id" = "qXiCbHPM";
+            "file" = "3D Remix.zip";
+            "hash" = "sha512-UxWZkgalTMV0ubfF2hoRpMaSi6GTxOh1AtisV/aoYM6ltawfe5x6HiJ/3wgFvN+LIx5pIWA1XXHBMUiWxImliQ==";
+        };
+        _AdNxEGcO = {
+            "id" = "AdNxEGcO";
+            "file" = "3D Remix.zip";
+            "hash" = "sha512-uO8nlNlKzkWZ+MsJblkG3EbMhGvhMy5YZQB/pmaRrKSf28jmfbZe89rJrqcWRgnQmF3fvkgewuWtOpAifiIgTw==";
+        };
     in {
         "QvFGdDr8" = _QvFGdDr8;
         "r3N4GyE0" = _r3N4GyE0;
@@ -44,23 +54,25 @@ let
         "Jq1VogXy" = _Jq1VogXy;
         "1pweH71R" = _1pweH71R;
         "ZRGTObKk" = _ZRGTObKk;
-        "minecraft-1.21.2" = _ZRGTObKk;
-        "minecraft-1.21.3" = _ZRGTObKk;
-        "minecraft-1.21.4" = _ZRGTObKk;
-        "minecraft-1.21.5" = _ZRGTObKk;
-        "minecraft-1.21.6" = _ZRGTObKk;
-        "minecraft-1.21.7" = _ZRGTObKk;
-        "minecraft-1.21.8" = _ZRGTObKk;
-        "minecraft-1.21.9" = _ZRGTObKk;
-        "minecraft-1.21.10" = _ZRGTObKk;
-        "minecraft-1.21.11" = _ZRGTObKk;
-        "minecraft-26.1" = _ZRGTObKk;
-        "minecraft-26.1.1" = _ZRGTObKk;
-        "minecraft-26.1.2" = _ZRGTObKk;
-        "minecraft-26.2" = _ZRGTObKk;
-        "minecraft-1.21" = _ZRGTObKk;
-        "minecraft-1.21.1" = _ZRGTObKk;
-        "minecraft-26.3" = _ZRGTObKk;
+        "qXiCbHPM" = _qXiCbHPM;
+        "AdNxEGcO" = _AdNxEGcO;
+        "minecraft-1.21.2" = _AdNxEGcO;
+        "minecraft-1.21.3" = _AdNxEGcO;
+        "minecraft-1.21.4" = _AdNxEGcO;
+        "minecraft-1.21.5" = _AdNxEGcO;
+        "minecraft-1.21.6" = _AdNxEGcO;
+        "minecraft-1.21.7" = _AdNxEGcO;
+        "minecraft-1.21.8" = _AdNxEGcO;
+        "minecraft-1.21.9" = _AdNxEGcO;
+        "minecraft-1.21.10" = _AdNxEGcO;
+        "minecraft-1.21.11" = _AdNxEGcO;
+        "minecraft-26.1" = _AdNxEGcO;
+        "minecraft-26.1.1" = _AdNxEGcO;
+        "minecraft-26.1.2" = _AdNxEGcO;
+        "minecraft-26.2" = _AdNxEGcO;
+        "minecraft-1.21" = _AdNxEGcO;
+        "minecraft-1.21.1" = _AdNxEGcO;
+        "minecraft-26.3" = _AdNxEGcO;
         "pkg-1.0" = _QvFGdDr8;
         "pkg-1.1" = _r3N4GyE0;
         "pkg-1.2" = _DE3z7Dcw;
@@ -68,7 +80,9 @@ let
         "pkg-1.3.1" = _Jq1VogXy;
         "pkg-1.4" = _1pweH71R;
         "pkg-1.5" = _ZRGTObKk;
-        "default" = _ZRGTObKk;
+        "pkg-1.6" = _qXiCbHPM;
+        "pkg-1.6.1" = _AdNxEGcO;
+        "default" = _AdNxEGcO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "3d-remix";

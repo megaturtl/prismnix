@@ -266,6 +266,16 @@ let
             "file" = "blocksyouneed_luna-1.11.4-neoforge-1.21.1.jar";
             "hash" = "sha512-MaMiCAzbfHqF3xNmsTSxc0pp0r9bL+P284KYYyiThWoZmVE7i6Tvr6jL3WIyTqpcldGNnzQ8SDvulCCJHv0Esg==";
         };
+        _kKAnIVFZ = {
+            "id" = "kKAnIVFZ";
+            "file" = "blocksyouneed_luna-1.12 BETA-forge-1.20.1.jar";
+            "hash" = "sha512-2ztLRuSgBA9JRCC+Bv3CQSCdOcN6rCBFouqs5JT/1eP9fkr93wfzCw5CbusMn/xt3I09EyFI/VcoxXrDMauQtA==";
+        };
+        _1MAjVAge = {
+            "id" = "1MAjVAge";
+            "file" = "blocksyouneed_luna-1.12 BETA-2-forge-1.20.1.jar";
+            "hash" = "sha512-AKRXgPVZyh2Yb5JKPwbPxqbMec66eHr+bww7lzImBqtOzTz6Y4w6r/OxvJgaSMyM0vo+k8khcDaFK5BsH0fCaA==";
+        };
     in {
         "E1Ersf5n" = _E1Ersf5n;
         "obOuqVht" = _obOuqVht;
@@ -320,7 +330,9 @@ let
         "LEvAJnI1" = _LEvAJnI1;
         "mKbPWfw8" = _mKbPWfw8;
         "wXB9rYMv" = _wXB9rYMv;
-        "forge-1.20.1" = _mKbPWfw8;
+        "kKAnIVFZ" = _kKAnIVFZ;
+        "1MAjVAge" = _1MAjVAge;
+        "forge-1.20.1" = _1MAjVAge;
         "forge-1.19.4" = _6uQk89RY;
         "forge-1.19.2" = _p10YLs1Z;
         "forge-1.18.2" = _eLFWPh3H;
@@ -363,7 +375,9 @@ let
         "pkg-v1.11.2" = _PulTP7NM;
         "pkg-v1.11.3" = _LEvAJnI1;
         "pkg-v1.11.4" = _wXB9rYMv;
-        "default" = _wXB9rYMv;
+        "pkg-v1.12.BETA" = _kKAnIVFZ;
+        "pkg-1.12.BETA-2" = _1MAjVAge;
+        "default" = _1MAjVAge;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blocks-you-need";

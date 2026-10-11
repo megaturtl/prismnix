@@ -136,6 +136,11 @@ let
             "file" = "wither_cage_fix-1.6.1+MC26.1-26.2.x.jar";
             "hash" = "sha512-1tQtUBGZLy9Ft7fyAwRy55Y0WH88TH29jGiZz7mpwFZbFRtHnIcjl7Pcr7M0KAHOGpyXvmeBQikYN+CwwR+gnQ==";
         };
+        _m5Vguq6X = {
+            "id" = "m5Vguq6X";
+            "file" = "wither_cage_fix-1.6.2+MC26.1-26.3.x.jar";
+            "hash" = "sha512-AmtGCcDR/Q3CSAS3XFJeucHYGffeR2vYN7tekN8qGRZ650tUtFeuCi79UxPY2a+PGxxgzOiKfPW3Zw/B0m4gWw==";
+        };
     in {
         "nvBMw3sN" = _nvBMw3sN;
         "Z5X6onZX" = _Z5X6onZX;
@@ -164,6 +169,7 @@ let
         "2u1OrNGb" = _2u1OrNGb;
         "PL8MSnv7" = _PL8MSnv7;
         "kXc3GxEB" = _kXc3GxEB;
+        "m5Vguq6X" = _m5Vguq6X;
         "fabric-1.17-rc1" = _nvBMw3sN;
         "fabric-1.17" = _xgveocFm;
         "fabric-1.17.1" = _xgveocFm;
@@ -194,10 +200,11 @@ let
         "fabric-1.21.9" = _xPOknTND;
         "fabric-1.21.10" = _xPOknTND;
         "fabric-1.21.11" = _2u1OrNGb;
-        "fabric-26.1" = _PL8MSnv7;
-        "fabric-26.1.1" = _PL8MSnv7;
-        "fabric-26.1.2" = _PL8MSnv7;
-        "fabric-26.2" = _kXc3GxEB;
+        "fabric-26.1" = _m5Vguq6X;
+        "fabric-26.1.1" = _m5Vguq6X;
+        "fabric-26.1.2" = _m5Vguq6X;
+        "fabric-26.2" = _m5Vguq6X;
+        "fabric-26.3" = _m5Vguq6X;
         "quilt-1.19" = _vQP5t4RJ;
         "quilt-1.19.1" = _vQP5t4RJ;
         "quilt-1.19.2" = _vQP5t4RJ;
@@ -222,10 +229,11 @@ let
         "quilt-1.21.9" = _xPOknTND;
         "quilt-1.21.10" = _xPOknTND;
         "quilt-1.21.11" = _2u1OrNGb;
-        "quilt-26.1" = _PL8MSnv7;
-        "quilt-26.1.1" = _PL8MSnv7;
-        "quilt-26.1.2" = _PL8MSnv7;
-        "quilt-26.2" = _kXc3GxEB;
+        "quilt-26.1" = _m5Vguq6X;
+        "quilt-26.1.1" = _m5Vguq6X;
+        "quilt-26.1.2" = _m5Vguq6X;
+        "quilt-26.2" = _m5Vguq6X;
+        "quilt-26.3" = _m5Vguq6X;
         "pkg-1.0.7+MC1.17-rc1" = _nvBMw3sN;
         "pkg-1.0.8+MC1.17" = _Z5X6onZX;
         "pkg-1.0.9+MC1.17-1.17.1" = _xgveocFm;
@@ -253,7 +261,8 @@ let
         "pkg-1.5.0+MC1.21.11" = _2u1OrNGb;
         "pkg-1.6.0+MC26.1-26.1.x" = _PL8MSnv7;
         "pkg-1.6.1+MC26.1-26.2.x" = _kXc3GxEB;
-        "default" = _kXc3GxEB;
+        "pkg-1.6.2+MC26.1-26.3.x" = _m5Vguq6X;
+        "default" = _m5Vguq6X;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wither-cage-fix";

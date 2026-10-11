@@ -101,6 +101,16 @@ let
             "file" = "weather-changer-fabric-1.4.2.jar";
             "hash" = "sha512-/58mDcN2t8teB0yiUbXcCAIxqnqNBtCKyLL08oPm2NXsehG8oFL9Z6Tf1PZ09KH/ALYeuc09XMLuNCAA6uX3bw==";
         };
+        _GImQeknN = {
+            "id" = "GImQeknN";
+            "file" = "weather-changer-forge-1.5.0.jar";
+            "hash" = "sha512-kV97Gdwa1ECfpwejm7qJs/4ZSVCbLyvEgyCECui/g/CaEnpReon5YpbZ8+U0lZN+op58vWj5skOE5eGBZVYwuQ==";
+        };
+        _7sLvyKxD = {
+            "id" = "7sLvyKxD";
+            "file" = "weather-changer-fabric-1.5.0.jar";
+            "hash" = "sha512-oqih5/SBjzyXfAmLE3R+LJ2SASAFZRh12TJoa0laoeOn9w+k/mqp78e3ZXL2VpA/YtEkx69jvDQq3ORzctI48w==";
+        };
     in {
         "4ziDq8dK" = _4ziDq8dK;
         "vlhCSd64" = _vlhCSd64;
@@ -122,6 +132,8 @@ let
         "TZ5UmS5Q" = _TZ5UmS5Q;
         "jylpLXQ8" = _jylpLXQ8;
         "I8MpXWxx" = _I8MpXWxx;
+        "GImQeknN" = _GImQeknN;
+        "7sLvyKxD" = _7sLvyKxD;
         "fabric-1.19" = _4ziDq8dK;
         "fabric-1.19.1" = _4ziDq8dK;
         "fabric-1.19.2" = _4ziDq8dK;
@@ -149,6 +161,7 @@ let
         "fabric-26.1.1" = _huw4tGUG;
         "fabric-26.1.2" = _huw4tGUG;
         "fabric-26.2" = _I8MpXWxx;
+        "fabric-26.3" = _7sLvyKxD;
         "quilt-1.19.3" = _vlhCSd64;
         "forge-1.20.1" = _eJnnaQm3;
         "forge-1.20.2" = _eJnnaQm3;
@@ -169,6 +182,7 @@ let
         "forge-26.1.1" = _b6aP5NOq;
         "forge-26.1.2" = _b6aP5NOq;
         "forge-26.2" = _jylpLXQ8;
+        "forge-26.3" = _GImQeknN;
         "pkg-0.1.0" = _4ziDq8dK;
         "pkg-0.2.0" = _vlhCSd64;
         "pkg-0.3.0" = _TspMcPqi;
@@ -182,7 +196,8 @@ let
         "pkg-1.4.0-beta1" = _huw4tGUG;
         "pkg-1.4.1" = _TZ5UmS5Q;
         "pkg-1.4.2" = _I8MpXWxx;
-        "default" = _I8MpXWxx;
+        "pkg-1.5.0" = _7sLvyKxD;
+        "default" = _7sLvyKxD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "weather-changer";

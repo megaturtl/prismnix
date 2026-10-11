@@ -241,6 +241,16 @@ let
             "file" = "vzling-0.98.5-1.20.1-forge.jar";
             "hash" = "sha512-pl3y+QjrzZrPxCQnAZPe/du9AM9HYMNaJt0s72JlWFT9Ukm73ChLo0ivT3jaaNeAvezas24QZSWHHDs2bOSM8w==";
         };
+        _MNwPo0uD = {
+            "id" = "MNwPo0uD";
+            "file" = "vzling-0.98.7-1.20.1-forge.jar";
+            "hash" = "sha512-YrbJ7VHzZpCJ1h3ZDsCskeOL0AmlqrMl1yldEXwaxoZGgeHmTvJrlmm9VN/GmAzh5wJ+SDvbNS7W2wtcrY5B7g==";
+        };
+        _mIKxdWeC = {
+            "id" = "mIKxdWeC";
+            "file" = "vzling-0.98.8-1.20.1-forge.jar";
+            "hash" = "sha512-pqN1CzQQJmq13YQnPPRCyb1T4UK88SvKjkmJZVo+vbPsrzODCN3rBmxwD9QgLUKPFNMiOIjGpnUqlyzpQbvCMw==";
+        };
     in {
         "LQxhc8es" = _LQxhc8es;
         "2tuRRusm" = _2tuRRusm;
@@ -290,8 +300,10 @@ let
         "B2kJ93c8" = _B2kJ93c8;
         "LaJRTUkG" = _LaJRTUkG;
         "X4W2qscz" = _X4W2qscz;
+        "MNwPo0uD" = _MNwPo0uD;
+        "mIKxdWeC" = _mIKxdWeC;
         "fabric-1.20.1" = _OQ9fGMfk;
-        "forge-1.20.1" = _X4W2qscz;
+        "forge-1.20.1" = _mIKxdWeC;
         "pkg-0.69" = _2tuRRusm;
         "pkg-0.7" = _f2RducV7;
         "pkg-0.77" = _F4HGj69C;
@@ -321,7 +333,9 @@ let
         "pkg-0.98.3" = _B2kJ93c8;
         "pkg-0.98.4" = _LaJRTUkG;
         "pkg-0.98.5" = _X4W2qscz;
-        "default" = _X4W2qscz;
+        "pkg-0.98.7" = _MNwPo0uD;
+        "pkg-0.98.8" = _mIKxdWeC;
+        "default" = _mIKxdWeC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vzlinglib";

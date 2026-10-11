@@ -156,6 +156,16 @@ let
             "file" = "nolancheating-fabric-26.2-1.4.jar";
             "hash" = "sha512-iMumkZt81p+8zn+gE5rEfmvV4KVpsYxOaKa7iSyUq3fH2K8ctYTO6OxsLXOWj+XympID+TgC7opC1WV3udng9w==";
         };
+        _RkrZvosM = {
+            "id" = "RkrZvosM";
+            "file" = "nolancheating-neoforge-26.3-1.4.jar";
+            "hash" = "sha512-Dgk76Sh4Gaxwq5sAoU8uiYsBuaxk04XfhSFCZcqrXwwC6dw91Xbu269BGBGCjQBcdT2nHKp84Inkq/cgIcX5AA==";
+        };
+        _m9eMx9Q7 = {
+            "id" = "m9eMx9Q7";
+            "file" = "nolancheating-fabric-26.3-1.4.jar";
+            "hash" = "sha512-MMHnYGE0RNcgSW7V0xUHB1hBde9pbAD0lUbEuB+CcnnZYxp09vkRVQKn5bex1OGtgzabEoKBXGOwoPBVFdsyvg==";
+        };
     in {
         "EyxzrjMF" = _EyxzrjMF;
         "DsYY3b2t" = _DsYY3b2t;
@@ -188,6 +198,8 @@ let
         "mjUwUefX" = _mjUwUefX;
         "sWwvC0Ux" = _sWwvC0Ux;
         "gNMvj8Mw" = _gNMvj8Mw;
+        "RkrZvosM" = _RkrZvosM;
+        "m9eMx9Q7" = _m9eMx9Q7;
         "forge-1.12.2" = _EyxzrjMF;
         "forge-1.14.4" = _DsYY3b2t;
         "forge-1.15.1" = _eMVYAyfH;
@@ -229,6 +241,7 @@ let
         "fabric-26.1.1" = _mjUwUefX;
         "fabric-26.1.2" = _mjUwUefX;
         "fabric-26.2" = _gNMvj8Mw;
+        "fabric-26.3" = _m9eMx9Q7;
         "quilt-1.20" = _1FegjpLz;
         "quilt-1.20.1" = _xssDXKUT;
         "quilt-1.20.2" = _aSJMWaM2;
@@ -251,6 +264,7 @@ let
         "quilt-26.1.1" = _mjUwUefX;
         "quilt-26.1.2" = _mjUwUefX;
         "quilt-26.2" = _gNMvj8Mw;
+        "quilt-26.3" = _m9eMx9Q7;
         "neoforge-1.20.2" = _y2P6nvtH;
         "neoforge-1.20.3" = _y2P6nvtH;
         "neoforge-1.20.4" = _Gv43QaTo;
@@ -271,6 +285,7 @@ let
         "neoforge-26.1.1" = _6l8XLoNI;
         "neoforge-26.1.2" = _6l8XLoNI;
         "neoforge-26.2" = _sWwvC0Ux;
+        "neoforge-26.3" = _RkrZvosM;
         "pkg-v1.0" = _UKooHOgR;
         "pkg-v1.0.1" = _BawPqKVx;
         "pkg-v1.1" = _y2P6nvtH;
@@ -278,8 +293,8 @@ let
         "pkg-v1.2.1" = _5C2teraF;
         "pkg-v1.2.2" = _2uH4B81B;
         "pkg-v1.3" = _8gVX9YK4;
-        "pkg-v1.4" = _gNMvj8Mw;
-        "default" = _gNMvj8Mw;
+        "pkg-v1.4" = _m9eMx9Q7;
+        "default" = _m9eMx9Q7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nolancheating";

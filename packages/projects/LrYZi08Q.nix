@@ -86,6 +86,16 @@ let
             "file" = "structure_pool_api-forge-1.2.1+1.20.1.jar";
             "hash" = "sha512-eso/aekFr+gpeSUj+XqnJryYvQPuMEMvZWOGwtxtAKcU2KMGvHAJzfh0pHczRieBBKVkjs//yIfXdTs5rGysFQ==";
         };
+        _5UbcXEgX = {
+            "id" = "5UbcXEgX";
+            "file" = "structure_pool_api-neoforge-1.3.0+26.3.jar";
+            "hash" = "sha512-H5kghsLSnkkPzgwwVhQa7sGlOiXl7hBZODMGONly+NgzudYHme4+18cjBxLhiIHMBsUrfJqQSHZ807jPdBc8gw==";
+        };
+        _Zxs162Py = {
+            "id" = "Zxs162Py";
+            "file" = "structure_pool_api-fabric-1.3.0+26.3.jar";
+            "hash" = "sha512-OEiHm1zbx42b4Q+5S5i2XbJIaFYKlkZPISR2SdVoi9QfHxyjS0+mPXfYB6rgwvzHw3IUVLb1CCpD+DprHReFYQ==";
+        };
     in {
         "Syp6lSTL" = _Syp6lSTL;
         "EQIfO7VM" = _EQIfO7VM;
@@ -104,6 +114,8 @@ let
         "LcCJkFaB" = _LcCJkFaB;
         "y5a2WAp4" = _y5a2WAp4;
         "NJgGaMco" = _NJgGaMco;
+        "5UbcXEgX" = _5UbcXEgX;
+        "Zxs162Py" = _Zxs162Py;
         "fabric-1.20.1" = _y5a2WAp4;
         "fabric-1.21" = _Y6aBoKEl;
         "fabric-1.21.1" = _Y6aBoKEl;
@@ -112,6 +124,7 @@ let
         "fabric-26.1.1" = _s6wojQqS;
         "fabric-26.1.2" = _s6wojQqS;
         "fabric-26.2" = _JO33Bce1;
+        "fabric-26.3" = _Zxs162Py;
         "neoforge-1.21" = _kdWVYKdx;
         "neoforge-1.21.1" = _kdWVYKdx;
         "neoforge-1.21.11" = _NjBrvnlo;
@@ -120,6 +133,7 @@ let
         "neoforge-26.1.2" = _I5pmunAn;
         "neoforge-26.2" = _LcCJkFaB;
         "neoforge-1.20.1" = _NJgGaMco;
+        "neoforge-26.3" = _5UbcXEgX;
         "forge-1.20.1" = _NJgGaMco;
         "pkg-1.0+1.20.1" = _Syp6lSTL;
         "pkg-1.1.0+1.21" = _EQIfO7VM;
@@ -138,7 +152,9 @@ let
         "pkg-1.3.0+26.2-neoforge" = _LcCJkFaB;
         "pkg-1.2.1+1.20.1-fabric" = _y5a2WAp4;
         "pkg-1.2.1+1.20.1-forge" = _NJgGaMco;
-        "default" = _NJgGaMco;
+        "pkg-1.3.0+26.3-neoforge" = _5UbcXEgX;
+        "pkg-1.3.0+26.3-fabric" = _Zxs162Py;
+        "default" = _Zxs162Py;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "structure-pool-api";

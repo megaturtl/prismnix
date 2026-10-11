@@ -16,17 +16,24 @@ let
             "file" = "InventoryHUD+ Modern Icons.zip";
             "hash" = "sha512-tQfmvKY2juiMujUr0TTEhv7O8C5PcMSAWG+MjfGdjhi1iOQS1+XUSCut/iGiLpSOFwUoaISYcHL2nM3Y+yG/oA==";
         };
+        _IkNK4fW3 = {
+            "id" = "IkNK4fW3";
+            "file" = "InventoryHUD+ Modern Icons.zip";
+            "hash" = "sha512-wgg2sdG5tmmdhB4HNYcLrMa3Rsz1TF2EA0y+6YnH3kdmBX1H9n55DGuS9hCADoWpcjh6UIMWMlWEctj9M3Lxmw==";
+        };
     in {
         "n8wmQdYZ" = _n8wmQdYZ;
         "RfBkVc58" = _RfBkVc58;
         "kPuUtUJN" = _kPuUtUJN;
+        "IkNK4fW3" = _IkNK4fW3;
         "minecraft-1.21.11" = _n8wmQdYZ;
         "minecraft-26.1" = _RfBkVc58;
         "minecraft-26.1.1" = _RfBkVc58;
         "minecraft-26.1.2" = _RfBkVc58;
         "minecraft-26.2" = _kPuUtUJN;
-        "pkg-1.0" = _kPuUtUJN;
-        "default" = _kPuUtUJN;
+        "minecraft-26.3" = _IkNK4fW3;
+        "pkg-1.0" = _IkNK4fW3;
+        "default" = _IkNK4fW3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "inventory-hud+-modern-icons";

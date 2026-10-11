@@ -461,6 +461,11 @@ let
             "file" = "STM[Clear Vision Plus][6.32][26.2].zip";
             "hash" = "sha512-mnsvmgVrX+fBQzJyuGBGZfuis2/qmQO9hnd2GtCstkkGHncmeM+WzdpuBcGSFX8H8M3bwYUneQl9hjDrXXfxZw==";
         };
+        _quzSZ3yc = {
+            "id" = "quzSZ3yc";
+            "file" = "STM[Clear Vision Plus][6.32][26.3].zip";
+            "hash" = "sha512-K0Dgod4UDRvNxDI4/rv5nme3B+SxDmSO0Mo7Rte9xsbb2WUDzR2Bm+NfIHKYeUCv0Cf8HK2nsyP1cX6z/Lp5ng==";
+        };
     in {
         "1biIg44j" = _1biIg44j;
         "qKob023R" = _qKob023R;
@@ -554,6 +559,7 @@ let
         "Kp8a9l7x" = _Kp8a9l7x;
         "SN5PM7yH" = _SN5PM7yH;
         "PEFyQAvD" = _PEFyQAvD;
+        "quzSZ3yc" = _quzSZ3yc;
         "minecraft-1.16.2" = _r1SVXoqO;
         "minecraft-1.16.3" = _r1SVXoqO;
         "minecraft-1.16.4" = _r1SVXoqO;
@@ -595,6 +601,8 @@ let
         "minecraft-26.1.1" = _SN5PM7yH;
         "minecraft-26.1.2" = _SN5PM7yH;
         "minecraft-26.2" = _PEFyQAvD;
+        "minecraft-26.3" = _quzSZ3yc;
+        "minecraft-26.4-snapshot-1" = _quzSZ3yc;
         "pkg-1.16-1.16.5" = _faCloLxy;
         "pkg-1.17-1.17.1" = _1UXZ17QY;
         "pkg-1.18-1.18.2" = _8MUau5fg;
@@ -616,8 +624,8 @@ let
         "pkg-6.2" = _8hvN0Mw0;
         "pkg-6.3" = _IwUXGIfk;
         "pkg-6.31" = _Kp8a9l7x;
-        "pkg-6.32" = _PEFyQAvD;
-        "default" = _PEFyQAvD;
+        "pkg-6.32" = _quzSZ3yc;
+        "default" = _quzSZ3yc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "clear-vision-plus";

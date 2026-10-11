@@ -226,6 +226,26 @@ let
             "file" = "touhou_little_maid_spell-1.21.1-1.8.4-neoforge.jar";
             "hash" = "sha512-varqREUtoLu6NWbQm5l5eiCncFQPNvIdz6huwmXtyasp5F6bteuM+wvc7wpoXo9gN5KonB5hwzF3rtHwP0JcEQ==";
         };
+        _L7cMSnSN = {
+            "id" = "L7cMSnSN";
+            "file" = "touhou_little_maid_spell-1.9.0-forge+mc1.20.1-all.jar";
+            "hash" = "sha512-wYNzZ0ZNOePh9JPT/Kj6G+crF5j563aYzac35PicaFpGu66T8u+Cb+0m+trhsa98JcAptiqrEWQrq7xdryMShw==";
+        };
+        _esMZZQhJ = {
+            "id" = "esMZZQhJ";
+            "file" = "touhou_little_maid_spell-1.9.1-forge+mc1.20.1-all.jar";
+            "hash" = "sha512-hPaGyiKB2qBN967+W+Sd4erolRqJ7D0t+Kg3Ds+KBmQ6x7ZC8p9cen8WqQyf7t4fRec7Y8PwCADb7KW+Uw29wg==";
+        };
+        _6LcXrJMe = {
+            "id" = "6LcXrJMe";
+            "file" = "touhou_little_maid_spell-1.21.1-1.9.0-neoforge.jar";
+            "hash" = "sha512-fgYrcYaFRg39xGmeEQSzvOKnpctKGguR7NTpNRB9/yXGUdlf/jntnLkh22WsUYutofWSy8VfUgAslogn9fiA0g==";
+        };
+        _d6JJKgFX = {
+            "id" = "d6JJKgFX";
+            "file" = "touhou_little_maid_spell-1.9.2-forge+mc1.20.1-all.jar";
+            "hash" = "sha512-RFm09ciXUzt/NI4c8rcglmygsOoGeuhftNJPCRAOgtcrbSQReTosGgW1GEWm2HbabJSyVTLc2aB0Wa4k1pVfkg==";
+        };
     in {
         "fp1YVVYp" = _fp1YVVYp;
         "sQgL8RlR" = _sQgL8RlR;
@@ -272,8 +292,12 @@ let
         "ql9xZRML" = _ql9xZRML;
         "bIBBeovu" = _bIBBeovu;
         "3tvArxwR" = _3tvArxwR;
-        "forge-1.20.1" = _bIBBeovu;
-        "neoforge-1.21.1" = _3tvArxwR;
+        "L7cMSnSN" = _L7cMSnSN;
+        "esMZZQhJ" = _esMZZQhJ;
+        "6LcXrJMe" = _6LcXrJMe;
+        "d6JJKgFX" = _d6JJKgFX;
+        "forge-1.20.1" = _d6JJKgFX;
+        "neoforge-1.21.1" = _6LcXrJMe;
         "pkg-1.1.2" = _fp1YVVYp;
         "pkg-1.2.6" = _sQgL8RlR;
         "pkg-1.3.0" = _aqBeJpUO;
@@ -319,7 +343,11 @@ let
         "pkg-1.8.3.1-neoforge" = _ql9xZRML;
         "pkg-1.8.2-forge+mc1.20.1" = _bIBBeovu;
         "pkg-1.8.4-neoforge" = _3tvArxwR;
-        "default" = _3tvArxwR;
+        "pkg-1.9.0" = _L7cMSnSN;
+        "pkg-1.9.1" = _esMZZQhJ;
+        "pkg-1.9.0-neoforge" = _6LcXrJMe;
+        "pkg-1.9.2" = _d6JJKgFX;
+        "default" = _d6JJKgFX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "touhou-little-maid-spell";

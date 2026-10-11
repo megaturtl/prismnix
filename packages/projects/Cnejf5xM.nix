@@ -941,6 +941,16 @@ let
             "file" = "rightclickharvest-neoforge-4.6.2+26.2.x.jar";
             "hash" = "sha512-UjZrifFJwGaYwhy6BHnQLZaXAs8IGVsPVWMPklqRzS5ZpegGyZQNtSgospAZ+xe5xS1El+S7PmtMudSJkIRmSw==";
         };
+        _OPZ0mGdB = {
+            "id" = "OPZ0mGdB";
+            "file" = "rightclickharvest-neoforge-4.6.2+26.3.x.jar";
+            "hash" = "sha512-T0naw8JAEyDtgZRCPCqf25T39eWudf8PxJBUHBCzCy+IYG2QARe8FX2JtiPfPSq8dabltCPAzudSpPy5NnPcow==";
+        };
+        _MTui9kST = {
+            "id" = "MTui9kST";
+            "file" = "rightclickharvest-fabric-4.6.2+26.3.x.jar";
+            "hash" = "sha512-oI7fi1K6QZffG+/PYojb1Ckv6GsZx/B2xPfr/r2iml8bI1MENrRcET6+bbU0CfplSsrAzcQDlI6C+6Ir+4dpyQ==";
+        };
     in {
         "igNLKm7V" = _igNLKm7V;
         "InbXOlc9" = _InbXOlc9;
@@ -1130,6 +1140,8 @@ let
         "33nxkOzf" = _33nxkOzf;
         "MMi9Zx44" = _MMi9Zx44;
         "bl9vxSD9" = _bl9vxSD9;
+        "OPZ0mGdB" = _OPZ0mGdB;
+        "MTui9kST" = _MTui9kST;
         "fabric-1.16" = _Ilsum5aq;
         "fabric-1.16.1" = _Ilsum5aq;
         "fabric-1.16.2" = _Ilsum5aq;
@@ -1174,6 +1186,7 @@ let
         "fabric-26.1.1" = _spaSLGmu;
         "fabric-26.1.2" = _spaSLGmu;
         "fabric-26.2" = _MMi9Zx44;
+        "fabric-26.3" = _MTui9kST;
         "quilt-1.18" = _Ht8H2Aow;
         "quilt-1.18.1" = _Ht8H2Aow;
         "quilt-1.18.2" = _Ht8H2Aow;
@@ -1235,6 +1248,7 @@ let
         "neoforge-26.1.1" = _33nxkOzf;
         "neoforge-26.1.2" = _33nxkOzf;
         "neoforge-26.2" = _bl9vxSD9;
+        "neoforge-26.3" = _OPZ0mGdB;
         "pkg-1.0.0" = _igNLKm7V;
         "pkg-1.2.3" = _InbXOlc9;
         "pkg-1.2.4" = _LM4XdCnc;
@@ -1350,7 +1364,8 @@ let
         "pkg-4.6.1+1.20.1" = _NFxivT5s;
         "pkg-4.6.2+26.1.x" = _33nxkOzf;
         "pkg-4.6.2+26.2.x" = _bl9vxSD9;
-        "default" = _bl9vxSD9;
+        "pkg-4.6.2+26.3.x" = _MTui9kST;
+        "default" = _MTui9kST;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rightclickharvest";

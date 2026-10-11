@@ -11,9 +11,21 @@ let
             "file" = "leather-from-the-dead-1.jar";
             "hash" = "sha512-tAapzs617y3PZgxpEAN2qbR9gmEr3B17PfMagqk09l2dDJ/bwbcVgCmbHM1LPb+RdqLVgcZNIvkIgm8WT8sJYA==";
         };
+        _rpMKLDgh = {
+            "id" = "rpMKLDgh";
+            "file" = "leather_from_the_death-1.0.0-datapack-1.21.1.zip";
+            "hash" = "sha512-Xnj7H+rOOH5lEDZAIQAaqoFGpjvlgjy4YddPD8OE03ZGo3pTzBVE+DTkdBGUXcZI+TJvj6M3gaEtf+8bfkoCVQ==";
+        };
+        _dJJlQsqx = {
+            "id" = "dJJlQsqx";
+            "file" = "leather-from-the-dead-1.21.1.jar";
+            "hash" = "sha512-ypO2DPHJelO0xgC2ShMQWm/yMvyO1nK/QXa2IvZ3zjCsabW8G+IB/JArIQ32y4lOsLuL4AHWV49nlFacoiTARA==";
+        };
     in {
         "Vk3dtQGJ" = _Vk3dtQGJ;
         "Q9bi45LG" = _Q9bi45LG;
+        "rpMKLDgh" = _rpMKLDgh;
+        "dJJlQsqx" = _dJJlQsqx;
         "datapack-1.18" = _Vk3dtQGJ;
         "datapack-1.18.1" = _Vk3dtQGJ;
         "datapack-1.18.2" = _Vk3dtQGJ;
@@ -29,8 +41,8 @@ let
         "datapack-1.20.4" = _Vk3dtQGJ;
         "datapack-1.20.5" = _Vk3dtQGJ;
         "datapack-1.20.6" = _Vk3dtQGJ;
-        "datapack-1.21" = _Vk3dtQGJ;
-        "datapack-1.21.1" = _Vk3dtQGJ;
+        "datapack-1.21" = _rpMKLDgh;
+        "datapack-1.21.1" = _rpMKLDgh;
         "datapack-1.21.2" = _Vk3dtQGJ;
         "datapack-1.21.3" = _Vk3dtQGJ;
         "datapack-1.21.4" = _Vk3dtQGJ;
@@ -60,8 +72,8 @@ let
         "fabric-1.20.4" = _Q9bi45LG;
         "fabric-1.20.5" = _Q9bi45LG;
         "fabric-1.20.6" = _Q9bi45LG;
-        "fabric-1.21" = _Q9bi45LG;
-        "fabric-1.21.1" = _Q9bi45LG;
+        "fabric-1.21" = _dJJlQsqx;
+        "fabric-1.21.1" = _dJJlQsqx;
         "fabric-1.21.2" = _Q9bi45LG;
         "fabric-1.21.3" = _Q9bi45LG;
         "fabric-1.21.4" = _Q9bi45LG;
@@ -91,8 +103,8 @@ let
         "forge-1.20.4" = _Q9bi45LG;
         "forge-1.20.5" = _Q9bi45LG;
         "forge-1.20.6" = _Q9bi45LG;
-        "forge-1.21" = _Q9bi45LG;
-        "forge-1.21.1" = _Q9bi45LG;
+        "forge-1.21" = _dJJlQsqx;
+        "forge-1.21.1" = _dJJlQsqx;
         "forge-1.21.2" = _Q9bi45LG;
         "forge-1.21.3" = _Q9bi45LG;
         "forge-1.21.4" = _Q9bi45LG;
@@ -122,8 +134,8 @@ let
         "neoforge-1.20.4" = _Q9bi45LG;
         "neoforge-1.20.5" = _Q9bi45LG;
         "neoforge-1.20.6" = _Q9bi45LG;
-        "neoforge-1.21" = _Q9bi45LG;
-        "neoforge-1.21.1" = _Q9bi45LG;
+        "neoforge-1.21" = _dJJlQsqx;
+        "neoforge-1.21.1" = _dJJlQsqx;
         "neoforge-1.21.2" = _Q9bi45LG;
         "neoforge-1.21.3" = _Q9bi45LG;
         "neoforge-1.21.4" = _Q9bi45LG;
@@ -153,8 +165,8 @@ let
         "quilt-1.20.4" = _Q9bi45LG;
         "quilt-1.20.5" = _Q9bi45LG;
         "quilt-1.20.6" = _Q9bi45LG;
-        "quilt-1.21" = _Q9bi45LG;
-        "quilt-1.21.1" = _Q9bi45LG;
+        "quilt-1.21" = _dJJlQsqx;
+        "quilt-1.21.1" = _dJJlQsqx;
         "quilt-1.21.2" = _Q9bi45LG;
         "quilt-1.21.3" = _Q9bi45LG;
         "quilt-1.21.4" = _Q9bi45LG;
@@ -171,7 +183,9 @@ let
         "quilt-26.2" = _Q9bi45LG;
         "pkg-1" = _Vk3dtQGJ;
         "pkg-1+mod" = _Q9bi45LG;
-        "default" = _Q9bi45LG;
+        "pkg-1.21.1" = _rpMKLDgh;
+        "pkg-1.21.1+mod" = _dJJlQsqx;
+        "default" = _dJJlQsqx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "leather-from-the-dead";

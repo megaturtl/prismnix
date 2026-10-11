@@ -201,6 +201,16 @@ let
             "file" = "cobblemon-expeditions-neoforge-1.6.4.jar";
             "hash" = "sha512-7CN/ab0DkuLYL6m5bStJCpRsSvkgrQuyjyzNP9GuAkCwWscehduWcgemYge2MAL4f+HybL4mbaF29N3rOW92eQ==";
         };
+        _47CZXRC9 = {
+            "id" = "47CZXRC9";
+            "file" = "cobblemon-expeditions-fabric-1.8.0.jar";
+            "hash" = "sha512-NMaKKTTBXH4oVzQKwIBLnfu/NRKW1473nmT/+1w+Dt77/BTOkhlzchsC43ncofrgTc+mcHr4aAYu6B5+sVMH4A==";
+        };
+        _ePVdtbz0 = {
+            "id" = "ePVdtbz0";
+            "file" = "cobblemon-expeditions-neoforge-1.8.0.jar";
+            "hash" = "sha512-7LpQ51TAMIW8Colp1OhnHMkB/OeYZfedlSIpllt6X2RzlXiJSdP5AFO/J5Oe7oU75Ik20VODXChqyPcvttOoXA==";
+        };
     in {
         "F6rxbQ22" = _F6rxbQ22;
         "4NaBgLzj" = _4NaBgLzj;
@@ -242,8 +252,10 @@ let
         "kHlSe4nA" = _kHlSe4nA;
         "1mlCLeue" = _1mlCLeue;
         "AoLpW7A3" = _AoLpW7A3;
-        "fabric-1.21.1" = _1mlCLeue;
-        "neoforge-1.21.1" = _AoLpW7A3;
+        "47CZXRC9" = _47CZXRC9;
+        "ePVdtbz0" = _ePVdtbz0;
+        "fabric-1.21.1" = _47CZXRC9;
+        "neoforge-1.21.1" = _ePVdtbz0;
         "pkg-0.9.2" = _F6rxbQ22;
         "pkg-1.0.0" = _4NaBgLzj;
         "pkg-1.0.1" = _P2ZZuj2A;
@@ -268,7 +280,8 @@ let
         "pkg-1.6.2" = _erVjLifX;
         "pkg-1.6.3" = _kHlSe4nA;
         "pkg-1.6.4" = _AoLpW7A3;
-        "default" = _AoLpW7A3;
+        "pkg-1.8.0" = _ePVdtbz0;
+        "default" = _ePVdtbz0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon_expeditions";

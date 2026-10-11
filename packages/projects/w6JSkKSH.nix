@@ -66,6 +66,16 @@ let
             "file" = "toofast-universal-26.1-0.5.4.7.jar";
             "hash" = "sha512-bIAjecdwArSh6KfwZXGGokocmeRm1vPzFsA6JYxS8w1hb+qO/WRIMOBPQLH/H8WsftKe5qpzyDN/qf6bn/82fw==";
         };
+        _snG2jSNh = {
+            "id" = "snG2jSNh";
+            "file" = "toofast-fabric-26.1-0.5.5.8.jar";
+            "hash" = "sha512-0qKetSEB5v49uXA5fMITkvdy3XVehvFgiyZK1dY7pCkF+urkgM0n9IQwt6b61giZqgD/tzCWtvkVCIPOP5TmxQ==";
+        };
+        _zbXRt1JN = {
+            "id" = "zbXRt1JN";
+            "file" = "toofast-neoforge-26.1-0.5.5.8.jar";
+            "hash" = "sha512-1B1RYicdf1yZWDRl5q2/q8Bsh8doxA8UP7TnB8UCjI+xqXnjVgpmXm8gzmoxhhflernN+KMW0nvoTmfuqzdfjg==";
+        };
     in {
         "Jzgp9VID" = _Jzgp9VID;
         "2KncMR8q" = _2KncMR8q;
@@ -80,6 +90,8 @@ let
         "WLwWLAGh" = _WLwWLAGh;
         "dYcSl7Ir" = _dYcSl7Ir;
         "YTegU1DB" = _YTegU1DB;
+        "snG2jSNh" = _snG2jSNh;
+        "zbXRt1JN" = _zbXRt1JN;
         "forge-1.16.5" = _Jzgp9VID;
         "forge-1.18" = _2KncMR8q;
         "forge-1.18.1" = _2KncMR8q;
@@ -97,12 +109,12 @@ let
         "fabric-1.21.1" = _hXyBQcEV;
         "fabric-1.21.4" = _WLwWLAGh;
         "fabric-1.21.5" = _dYcSl7Ir;
-        "fabric-26.1" = _YTegU1DB;
+        "fabric-26.1" = _snG2jSNh;
         "neoforge-1.21" = _pDkjMI8q;
         "neoforge-1.21.1" = _pDkjMI8q;
         "neoforge-1.21.3" = _aMjEA3ok;
         "neoforge-1.21.4" = _aMjEA3ok;
-        "neoforge-26.1" = _YTegU1DB;
+        "neoforge-26.1" = _zbXRt1JN;
         "pkg-0.0.0.1" = _Jzgp9VID;
         "pkg-0.0.1.2" = _2KncMR8q;
         "pkg-1.2.0" = _ZyY2Xraw;
@@ -114,7 +126,8 @@ let
         "pkg-2.3.0" = _WLwWLAGh;
         "pkg-3.3.0" = _dYcSl7Ir;
         "pkg-26.1-0.5.4.7" = _YTegU1DB;
-        "default" = _YTegU1DB;
+        "pkg-26.1-0.5.5.8" = _zbXRt1JN;
+        "default" = _zbXRt1JN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "too-fast";

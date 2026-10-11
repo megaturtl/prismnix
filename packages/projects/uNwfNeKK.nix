@@ -21,18 +21,33 @@ let
             "file" = "hardcorecreative-fabric-26.2-4.3.0.jar";
             "hash" = "sha512-h2vOBY+X5y0O6mN7Cq7erxU++q+zj0fb5DiQDK7VXLyyFmLEhe3P6NaIlsFFxUVBc9aBz9f1wL7eRbEhezhehw==";
         };
+        _giovtqeA = {
+            "id" = "giovtqeA";
+            "file" = "hardcorecreative-fabric-26.3-4.6.0.jar";
+            "hash" = "sha512-g19tWx6TSBleLq86eV9/GhSzyMdqjE6ofgOXM0Z1IftLihlhEivh40G42/o6Lnvcgp7La2G5RsTe3EQ4VsVUew==";
+        };
+        _6btTNq1R = {
+            "id" = "6btTNq1R";
+            "file" = "hardcorecreative-fabric-26.3-4.9.1.jar";
+            "hash" = "sha512-9n969bjsntJOPjTGQ+Fh+0NE9aAxJT+6L88q6S/4SIV64KFu6PG84zu8yckIW+6xDNJXAnPpr1MiugVeaaAMxg==";
+        };
     in {
         "8btKKYQJ" = _8btKKYQJ;
         "1pL88N8r" = _1pL88N8r;
         "SkBcpOqj" = _SkBcpOqj;
         "wc3wqFzh" = _wc3wqFzh;
+        "giovtqeA" = _giovtqeA;
+        "6btTNq1R" = _6btTNq1R;
         "fabric-26.1.1" = _8btKKYQJ;
         "fabric-26.1.2" = _SkBcpOqj;
         "fabric-26.2" = _wc3wqFzh;
+        "fabric-26.3" = _6btTNq1R;
         "forge-26.1.1" = _1pL88N8r;
         "pkg-1.0.0" = _SkBcpOqj;
         "pkg-4.3.0" = _wc3wqFzh;
-        "default" = _wc3wqFzh;
+        "pkg-4.6.0" = _giovtqeA;
+        "pkg-4.9.1" = _6btTNq1R;
+        "default" = _6btTNq1R;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "creative-in-hardcore";

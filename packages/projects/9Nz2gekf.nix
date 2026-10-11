@@ -111,6 +111,11 @@ let
             "file" = "Simple Realistic Pack[26.2][2.11].zip";
             "hash" = "sha512-pYfC+NgUsgQNkC0/HtVqKZY9oNbmVOGSGLTwbqVcOthZdZPrYBG2F3SxkwdaY5n5MSzzLcKG0WKv5M4OkZUYjQ==";
         };
+        _B4O6azXz = {
+            "id" = "B4O6azXz";
+            "file" = "Simple Realistic Pack[26.3][2.11].zip";
+            "hash" = "sha512-9qsKd5f07Dqtu8kMyYHMsraBiMcrzGuzr6JbiQtUftpkditf0EWACAR5zCIlgOx3+utcFUzoEQNtdTO42CZXSQ==";
+        };
     in {
         "glfqw3zT" = _glfqw3zT;
         "QNywMhtH" = _QNywMhtH;
@@ -134,6 +139,7 @@ let
         "onZ49UEv" = _onZ49UEv;
         "nTva0FT2" = _nTva0FT2;
         "yzojEl5W" = _yzojEl5W;
+        "B4O6azXz" = _B4O6azXz;
         "minecraft-1.16" = _glfqw3zT;
         "minecraft-1.16.1" = _glfqw3zT;
         "minecraft-1.16.2" = _glfqw3zT;
@@ -173,11 +179,14 @@ let
         "minecraft-26.1.1" = _nTva0FT2;
         "minecraft-26.1.2" = _nTva0FT2;
         "minecraft-26.2" = _yzojEl5W;
+        "minecraft-26.3" = _B4O6azXz;
+        "minecraft-26.4-snapshot-1" = _B4O6azXz;
+        "minecraft-26.4-snapshot-2" = _B4O6azXz;
         "pkg-1.0" = _u4umJ7zc;
         "pkg-1.1" = _q6PLWgrm;
         "pkg-2.1" = _onZ49UEv;
-        "pkg-2.11" = _yzojEl5W;
-        "default" = _yzojEl5W;
+        "pkg-2.11" = _B4O6azXz;
+        "default" = _B4O6azXz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-realistic-pack";

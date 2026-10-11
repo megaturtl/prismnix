@@ -121,6 +121,16 @@ let
             "file" = "Hunt-1.3.0-neoforge.jar";
             "hash" = "sha512-H7BwsFLkG3RHxzmd5XGGtR1dVYNK5hX+SJ9BpPQoRG40qvgCrBRDqwC619JCOINbSl0nEJfiR4jg7q1h/cAoYA==";
         };
+        _Eq3nT99Z = {
+            "id" = "Eq3nT99Z";
+            "file" = "Hunt-1.3.1-fabric.jar";
+            "hash" = "sha512-KzGbHlp7T35QGsn3q50mux4lWAiCqliIR1K9aWWbH+fX0zab9r3EOYu3/lpp6uF2FSnmvuy7ye8ddPoP/Fnifw==";
+        };
+        _wPpwNqsF = {
+            "id" = "wPpwNqsF";
+            "file" = "Hunt-1.3.1-neoforge.jar";
+            "hash" = "sha512-E+5DtfHtypDTjGALM3ZK+cBcEvb9UQ9Xsp0GQ8tinipKaNU+hJXT3RIso3qPklTWSWG7L8d5Tml0qdLmDkZUag==";
+        };
     in {
         "TUvHjKb1" = _TUvHjKb1;
         "mqFGEFeV" = _mqFGEFeV;
@@ -146,10 +156,12 @@ let
         "a4MOp9tX" = _a4MOp9tX;
         "zNpcev6m" = _zNpcev6m;
         "PAVOdlzg" = _PAVOdlzg;
+        "Eq3nT99Z" = _Eq3nT99Z;
+        "wPpwNqsF" = _wPpwNqsF;
         "forge-1.20.1" = _A2E86sJU;
         "fabric-1.20.1" = _dyUmshPP;
-        "fabric-1.21.1" = _zNpcev6m;
-        "neoforge-1.21.1" = _PAVOdlzg;
+        "fabric-1.21.1" = _Eq3nT99Z;
+        "neoforge-1.21.1" = _wPpwNqsF;
         "pkg-1.0.0" = _mqFGEFeV;
         "pkg-1.0.1" = _m1lDZxiU;
         "pkg-1.0.2" = _5FSnmxLC;
@@ -162,7 +174,8 @@ let
         "pkg-1.2.0" = _jt9bXHHk;
         "pkg-1.2.1" = _a4MOp9tX;
         "pkg-1.3.0" = _PAVOdlzg;
-        "default" = _PAVOdlzg;
+        "pkg-1.3.1" = _wPpwNqsF;
+        "default" = _wPpwNqsF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-hunt";

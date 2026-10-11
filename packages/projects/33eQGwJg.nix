@@ -56,6 +56,11 @@ let
             "file" = "animageddon-0.5.1-1.21.1.jar";
             "hash" = "sha512-kYNjX4xAnC7BFYO56iRrT9Ug360GG7d1it8cDRgufWNKOvkCZ8FRfTAahkraFYyiRLCu4C7j4p4ywaWta61i5w==";
         };
+        _nuf0rKzL = {
+            "id" = "nuf0rKzL";
+            "file" = "animageddon-0.6-1.21.1.jar";
+            "hash" = "sha512-yz2pSisvooOnB5HkOUWsbdO5cJg3SMPz+TvfGRtvSF8Nd4Avw4d/vD3plORI6pUhAK0FneP9GzOi1BisnfNsyg==";
+        };
     in {
         "LUwzUfrz" = _LUwzUfrz;
         "biBVdYFT" = _biBVdYFT;
@@ -68,7 +73,8 @@ let
         "nyKf4vKM" = _nyKf4vKM;
         "HPdIaKnz" = _HPdIaKnz;
         "LcnYJXNw" = _LcnYJXNw;
-        "fabric-1.21.1" = _LcnYJXNw;
+        "nuf0rKzL" = _nuf0rKzL;
+        "fabric-1.21.1" = _nuf0rKzL;
         "pkg-0.1" = _LUwzUfrz;
         "pkg-0.1.1" = _biBVdYFT;
         "pkg-0.2" = _2pgM8T4Y;
@@ -80,7 +86,8 @@ let
         "pkg-0.4" = _nyKf4vKM;
         "pkg-0.5" = _HPdIaKnz;
         "pkg-0.5.1" = _LcnYJXNw;
-        "default" = _LcnYJXNw;
+        "pkg-0.6" = _nuf0rKzL;
+        "default" = _nuf0rKzL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "animageddon";

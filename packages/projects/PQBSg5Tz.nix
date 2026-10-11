@@ -131,6 +131,31 @@ let
             "file" = "dungeons_reborn-0.2.0-1.21.1.jar";
             "hash" = "sha512-5rovzsdJotlMhLbu+RjolC/+iJtI9oAXWNMkS9L8iJt6YcoaI3tvGa///x8JdjbZ+N+yjaVmE1ibi4UIKb/JzQ==";
         };
+        _ChWk3p5I = {
+            "id" = "ChWk3p5I";
+            "file" = "dungeons_reborn-0.2.1-1.21.1.jar";
+            "hash" = "sha512-gjeUfK9jjvpWMOcfSovvMiohovNTO4nssfnnC86Al48tuXWQZWuqS4xMIKCT0KJCFZECB3qfjeEyQJgahE+h5w==";
+        };
+        _yb7hD1Ef = {
+            "id" = "yb7hD1Ef";
+            "file" = "dungeons_reborn-0.2.1-26.1.jar";
+            "hash" = "sha512-+HMU3bUJYOpw3l+HRPi5/+VGgXPDOirrQUfgeasQNl/jnY0srtvL6lD6bvuWH5iDmcCbH5CQLbcKzRz73LDWsQ==";
+        };
+        _jQT5PXgy = {
+            "id" = "jQT5PXgy";
+            "file" = "dungeons_reborn-0.2.1-26.2.jar";
+            "hash" = "sha512-zayPXHP6Mu/nghs1Hp8O2ScK8sSr9PxBt6QYHXxQ+anL8f8p+htY+uu2cjB3Z5jxSkG0M7dmbwrSYtt6yrx01A==";
+        };
+        _QV0ynNzr = {
+            "id" = "QV0ynNzr";
+            "file" = "dungeons_reborn-0.2.1-26.3.jar";
+            "hash" = "sha512-D6atMtlMq5QWcburYY/tR9ozp47vQYA75CosmZNAA/EcmBC4B2IPyetnsjFoG1t6qIKYaskVzdsWaVdyTaRIiw==";
+        };
+        _usrvIZxM = {
+            "id" = "usrvIZxM";
+            "file" = "dungeons_reborn-0.2.2-1.21.1.jar";
+            "hash" = "sha512-61Rj21BEVZocPGkVJ61FGuuDyjvN5R0dK/1j4274UAiRR7jtNy4aDheNEAzxFNNhEqI1Ds4DMVC7wCeKz6kDSw==";
+        };
     in {
         "rLHg6ymq" = _rLHg6ymq;
         "z4Reabdt" = _z4Reabdt;
@@ -158,7 +183,12 @@ let
         "EyZjA2sL" = _EyZjA2sL;
         "PH7HF5mx" = _PH7HF5mx;
         "PIK4U4ip" = _PIK4U4ip;
-        "fabric-1.21.1" = _PIK4U4ip;
+        "ChWk3p5I" = _ChWk3p5I;
+        "yb7hD1Ef" = _yb7hD1Ef;
+        "jQT5PXgy" = _jQT5PXgy;
+        "QV0ynNzr" = _QV0ynNzr;
+        "usrvIZxM" = _usrvIZxM;
+        "fabric-1.21.1" = _usrvIZxM;
         "fabric-1.21.3" = _z4Reabdt;
         "fabric-1.21.4" = _DRb2Jthi;
         "fabric-1.21.5" = _F2TTE4SW;
@@ -168,9 +198,11 @@ let
         "fabric-1.21.9" = _EyZjA2sL;
         "fabric-1.21.10" = _EyZjA2sL;
         "fabric-1.21.11" = _PH7HF5mx;
-        "fabric-26.1" = _xu16hVzN;
-        "fabric-26.1.1" = _xu16hVzN;
-        "fabric-26.1.2" = _xu16hVzN;
+        "fabric-26.1" = _yb7hD1Ef;
+        "fabric-26.1.1" = _yb7hD1Ef;
+        "fabric-26.1.2" = _yb7hD1Ef;
+        "fabric-26.2" = _jQT5PXgy;
+        "fabric-26.3" = _QV0ynNzr;
         "pkg-0.0.1" = _z4Reabdt;
         "pkg-0.0.2" = _39PCRnqM;
         "pkg-0.0.3" = _pSVvc3h5;
@@ -184,7 +216,9 @@ let
         "pkg-0.2.0-ea.2" = _64dWdaLC;
         "pkg-0.1.2" = _PH7HF5mx;
         "pkg-0.2.0" = _PIK4U4ip;
-        "default" = _PIK4U4ip;
+        "pkg-0.2.1" = _QV0ynNzr;
+        "pkg-0.2.2" = _usrvIZxM;
+        "default" = _usrvIZxM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dungeonsreborn";

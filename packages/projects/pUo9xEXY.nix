@@ -96,6 +96,21 @@ let
             "file" = "xtremeutilities-1.0.2.jar";
             "hash" = "sha512-z9TsQVsZ7dpZFtPyIqkqnj9s1rxO91R7Y1K5dXN6c1VsxZXovsKhBHMRRR1TxfZSXZD2qEqCR63lpz1iAPNGZA==";
         };
+        _UXU3M7Xx = {
+            "id" = "UXU3M7Xx";
+            "file" = "xtremeutilities-1.0.3.jar";
+            "hash" = "sha512-DDw10YUHu0Z1CXyfiPpUF/5YkRPPCgDjPDEm48mWKwtSnXHu4Qi6MUOvLdZyfOaICvwgSk5pkcDt+Xw6/WlXDQ==";
+        };
+        _njfqcE54 = {
+            "id" = "njfqcE54";
+            "file" = "xtremeutilities-1.0.4.jar";
+            "hash" = "sha512-rA4yqQRypAkmZKwYN1lZ6pM2H0pQrRB3MYqQ51i3d00Jr9yXq+3WsEOSYT25Svu+XFVbI/QQ6jAO0jMWOOn/hw==";
+        };
+        _IvhdOLpQ = {
+            "id" = "IvhdOLpQ";
+            "file" = "xtremeutilities-1.0.5.jar";
+            "hash" = "sha512-Htq3yLr0Ys/sXMZ+5EWtxxiHNbUkRJ+Z2ByHy/4uAD3AYWS5NtpTpcLlds7DhA5IplJR+uGeJRZHqKCFyPTaGQ==";
+        };
     in {
         "vuJJYXMN" = _vuJJYXMN;
         "wvJ389zC" = _wvJ389zC;
@@ -116,19 +131,22 @@ let
         "PriljVnN" = _PriljVnN;
         "9SFL2YNR" = _9SFL2YNR;
         "hu7vsMaJ" = _hu7vsMaJ;
+        "UXU3M7Xx" = _UXU3M7Xx;
+        "njfqcE54" = _njfqcE54;
+        "IvhdOLpQ" = _IvhdOLpQ;
         "fabric-26.1-pre-1" = _xalNWacs;
         "fabric-26.1-rc-2" = _PWED5ZJV;
         "fabric-26.1-rc-3" = _FF1PN9bO;
         "fabric-26.1" = _7dIlxx8j;
         "fabric-26.1.1" = _AFv4Q0Gw;
         "fabric-26.1.2" = _iDRdyRAy;
-        "fabric-26.3" = _hu7vsMaJ;
+        "fabric-26.3" = _IvhdOLpQ;
         "pkg-1.0.0" = _PriljVnN;
         "pkg-1.0.1" = _9SFL2YNR;
         "pkg-1.0.2" = _hu7vsMaJ;
-        "pkg-1.0.3" = _PWED5ZJV;
-        "pkg-1.0.4" = _FF1PN9bO;
-        "pkg-1.0.5" = _VfFQz9K9;
+        "pkg-1.0.3" = _UXU3M7Xx;
+        "pkg-1.0.4" = _njfqcE54;
+        "pkg-1.0.5" = _IvhdOLpQ;
         "pkg-1.0.6" = _2FJyvgIn;
         "pkg-1.0.7" = _9v0Q0ezu;
         "pkg-1.0.8" = _fIAE7V22;
@@ -139,7 +157,7 @@ let
         "pkg-1.0.13" = _eLVjENIE;
         "pkg-1.0.14" = _AFv4Q0Gw;
         "pkg-1.0.15" = _iDRdyRAy;
-        "default" = _hu7vsMaJ;
+        "default" = _IvhdOLpQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "framevoid";

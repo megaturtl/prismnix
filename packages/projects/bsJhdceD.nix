@@ -21,20 +21,35 @@ let
             "file" = "foxified-classtweaker-0.1.0-alpha.4.jar";
             "hash" = "sha512-FSoOGOD+hJLyY0vRI2WgATe+RNxKinkbEe7wbAR6AfyXd25+SwBDV+ECt3OuLMz/i0bqRAnM5RchKlX731o41w==";
         };
+        _2sma6TjE = {
+            "id" = "2sma6TjE";
+            "file" = "foxified-classtweaker-0.1.1.jar";
+            "hash" = "sha512-ZcXvlLW2gC3fbXfbs8b/C/nt7tYaOd54Z/ofGB/xwn866w/v6ELeWd98IKKSJaOXp/TFu3tGPgWd5BHqV57lLA==";
+        };
+        _nq3u4UMi = {
+            "id" = "nq3u4UMi";
+            "file" = "foxified-classtweaker-0.1.2.jar";
+            "hash" = "sha512-QS+ajp9BIdQiPwscc/rCpmDWWuEYcz5DwmMDbfugaa9Gc0hWEwV7+C/CqMEBtdGRQmVoR1UA1k9KDu0UEx9ZSg==";
+        };
     in {
         "GQ1dLmt6" = _GQ1dLmt6;
         "ltNDI6OJ" = _ltNDI6OJ;
         "CrksLnhr" = _CrksLnhr;
         "jJ23wJ7U" = _jJ23wJ7U;
-        "neoforge-26.1" = _jJ23wJ7U;
-        "neoforge-26.1.1" = _jJ23wJ7U;
-        "neoforge-26.1.2" = _jJ23wJ7U;
-        "neoforge-26.2" = _jJ23wJ7U;
+        "2sma6TjE" = _2sma6TjE;
+        "nq3u4UMi" = _nq3u4UMi;
+        "neoforge-26.1" = _nq3u4UMi;
+        "neoforge-26.1.1" = _nq3u4UMi;
+        "neoforge-26.1.2" = _nq3u4UMi;
+        "neoforge-26.2" = _nq3u4UMi;
+        "neoforge-26.3" = _nq3u4UMi;
         "pkg-0.1.0-alpha.1" = _GQ1dLmt6;
         "pkg-0.1.0-alpha.2" = _ltNDI6OJ;
         "pkg-0.1.0-alpha.3" = _CrksLnhr;
         "pkg-0.1.0-alpha.4" = _jJ23wJ7U;
-        "default" = _jJ23wJ7U;
+        "pkg-0.1.1" = _2sma6TjE;
+        "pkg-0.1.2" = _nq3u4UMi;
+        "default" = _nq3u4UMi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "foxifiedclasstweaker";

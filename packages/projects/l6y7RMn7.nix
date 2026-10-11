@@ -156,6 +156,26 @@ let
             "file" = "keybindsgalore-1.7.2+26.2.jar";
             "hash" = "sha512-Q9nfWB9We6QcMCEIWKC/LLvwbcVbOsLkqGRYPY1kFi7XpVLfs/mpLAzfXf1EI+4sjWptehBq4c0zalRqFsRKUg==";
         };
+        _AtKZQVfW = {
+            "id" = "AtKZQVfW";
+            "file" = "keybindsgalore-1.8.0+26.2.jar";
+            "hash" = "sha512-0y/E5CND1K0cj0KucMOTwB6oXRbH6UtuRblq3Ivknajeh/6n4Pwa5M/1nUvt17rE5AHPLq0CRsB8dxuannTfHA==";
+        };
+        _OmOcyOGS = {
+            "id" = "OmOcyOGS";
+            "file" = "keybindsgalore-1.8.0+26.2-neoforge.jar";
+            "hash" = "sha512-KbEPinu6H3qe0McWBy4B/hSYQddOLajqgd7IIYw/IDZusZWCOf53VkAWVTI0q3vahNU/hzBOKG2Txm35IY75Tw==";
+        };
+        _1IxMtn5z = {
+            "id" = "1IxMtn5z";
+            "file" = "keybindsgalore-1.8.0+26.3-neoforge.jar";
+            "hash" = "sha512-Y0xTOZZBcVdGU4bm5Uj7MSGUhVJuBmK8hzCwpH55swIcKx2UGCqV4FT8NvPRNuI5tIiWXpzZMvNIvJ3F6hg2pg==";
+        };
+        _zCLq83OM = {
+            "id" = "zCLq83OM";
+            "file" = "keybindsgalore-1.8.0+26.3.jar";
+            "hash" = "sha512-5FIrdI3Es0KuE2lVRperDpT+ZzYUQXrfX+cBwa29zSz53WglbK2N722YY/5UodyWZe8Nb0AGDg4bCHU5sGq/mw==";
+        };
     in {
         "okKM9Lay" = _okKM9Lay;
         "zXOwLIyD" = _zXOwLIyD;
@@ -188,6 +208,10 @@ let
         "sVB4MoAF" = _sVB4MoAF;
         "PqMPzDUP" = _PqMPzDUP;
         "ahIn2wp6" = _ahIn2wp6;
+        "AtKZQVfW" = _AtKZQVfW;
+        "OmOcyOGS" = _OmOcyOGS;
+        "1IxMtn5z" = _1IxMtn5z;
+        "zCLq83OM" = _zCLq83OM;
         "fabric-1.20" = _2dUA6Sq8;
         "fabric-1.20.1" = _oZhJ5v1x;
         "fabric-1.20.2" = _2dUA6Sq8;
@@ -209,8 +233,11 @@ let
         "fabric-26.1" = _PqMPzDUP;
         "fabric-26.1.1" = _PqMPzDUP;
         "fabric-26.1.2" = _PqMPzDUP;
-        "fabric-26.2" = _ahIn2wp6;
+        "fabric-26.2" = _AtKZQVfW;
+        "fabric-26.3" = _zCLq83OM;
         "neoforge-1.21.1" = _5D4OoqiL;
+        "neoforge-26.2" = _OmOcyOGS;
+        "neoforge-26.3" = _1IxMtn5z;
         "pkg-0.1-1.20" = _okKM9Lay;
         "pkg-0.2-1.20" = _zXOwLIyD;
         "pkg-0.3-1.20.x" = _2dUA6Sq8;
@@ -241,7 +268,8 @@ let
         "pkg-1.7.2+1.21.11" = _sVB4MoAF;
         "pkg-1.7.2+26.1" = _PqMPzDUP;
         "pkg-1.7.2+26.2" = _ahIn2wp6;
-        "default" = _ahIn2wp6;
+        "pkg-1.8.0" = _zCLq83OM;
+        "default" = _zCLq83OM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "keybindsgalore+(hvb007)";

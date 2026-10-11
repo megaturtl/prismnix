@@ -21,17 +21,31 @@ let
             "file" = "kaleidoscope_sculk-1.21.1-1.3.0.jar";
             "hash" = "sha512-WLhZOugYIUWMM8ylsJHPafGsMb+qqWOV8T0ZCofDs8xP3RMHBqC6D+niLy6KmD12Fz9LEy9fVHaIJfXcsR8Msg==";
         };
+        _aa0kwc4l = {
+            "id" = "aa0kwc4l";
+            "file" = "kaleidoscope_sculk-1.21.1-1.4.1.jar";
+            "hash" = "sha512-0GPzXouxrPjLBfygJj2KOh2AsiZbM0FCCDZH9dVJXLoX4tdijrE6EhF/VA4wDKpg+FFxvg342KGfEQn5YrE2Dw==";
+        };
+        _OmzDNdAA = {
+            "id" = "OmzDNdAA";
+            "file" = "kaleidoscope_sculk-1.20.1-forge-1.4.1.jar";
+            "hash" = "sha512-qxVwgmYQkMeJI4lT2HXZ2c3g7T554r/MV3JashfxNwxa6hi2bGdch08JkCZxKdt7mHyPoAphryn/PxL0sPw1xA==";
+        };
     in {
         "E6oGzzSK" = _E6oGzzSK;
         "LhZet46c" = _LhZet46c;
         "n5bF6dkv" = _n5bF6dkv;
         "I7cSlpxo" = _I7cSlpxo;
-        "neoforge-1.21.1" = _I7cSlpxo;
+        "aa0kwc4l" = _aa0kwc4l;
+        "OmzDNdAA" = _OmzDNdAA;
+        "neoforge-1.21.1" = _aa0kwc4l;
+        "forge-1.20.1" = _OmzDNdAA;
         "pkg-1.0" = _E6oGzzSK;
         "pkg-1.1" = _LhZet46c;
         "pkg-1.2" = _n5bF6dkv;
         "pkg-1.3.0" = _I7cSlpxo;
-        "default" = _I7cSlpxo;
+        "pkg-1.4.1" = _OmzDNdAA;
+        "default" = _OmzDNdAA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kaleidoscope_sculk";

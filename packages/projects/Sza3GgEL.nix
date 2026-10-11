@@ -191,6 +191,56 @@ let
             "file" = "gadgets-and-gizmos-bundled-V1.2.3.jar";
             "hash" = "sha512-zbbiYiaZkiYiUvRnTysGjUhMf5zhwrjmaepm6rEOiKiY6Qsvt9mB/P5RCOXINRCZQDsWBKFM23uA1xxUXFLGbQ==";
         };
+        _VY2Sg3qY = {
+            "id" = "VY2Sg3qY";
+            "file" = "gadgets-and-gizmos-bundled-V1.2.4.jar";
+            "hash" = "sha512-1RO+SRaQkB9vQFxMCWThVmVGFwG/Qa6ZZSZ6OQHS9w7TAKA7YXcy7x6HF39Y/wLeGRErm8nUcAsEmn0+5vullg==";
+        };
+        _S4f9BlLI = {
+            "id" = "S4f9BlLI";
+            "file" = "gadgets-and-gizmos-bundled-V1.2.5.jar";
+            "hash" = "sha512-rPejlj23TEim2iRlcSdwC3gGO78owYFQj8McEz2PbkKMpPLBYZZArorMroqkzAPDq/4NtKrz47SQV+2SS/rE/w==";
+        };
+        _PXctFUSv = {
+            "id" = "PXctFUSv";
+            "file" = "gadgets-and-gizmos-bundled-V1.2.6.jar";
+            "hash" = "sha512-pOd/0CBCZRlZwSk0ZZXaeUkp31xU5sEp+IDDXNGmGXrAR7d0E7r9hA0e0+IfU2iN4lbbVeNpPwdyZMaI8uaQVQ==";
+        };
+        _HhiEx5tk = {
+            "id" = "HhiEx5tk";
+            "file" = "gadgets-and-gizmos-bundled-V1.2.7.jar";
+            "hash" = "sha512-1LfHlChQJh0tuJG2vG+jO9CV74RCXywfoMJEPT21rT4Unrn7IzpRiDnXJmxcdIxLR+qfoD7mt6VRHuRs7FNzUw==";
+        };
+        _PRxR5qrC = {
+            "id" = "PRxR5qrC";
+            "file" = "gadgets-and-gizmos-bundled-2.0.0-Beta-1.jar";
+            "hash" = "sha512-njKjMaEat3S2P2RBQyTBsCGl63dX15dkOynrku6vMKn6ZgqwhxXtCC3gQlc4zBzWRAri8cK0ZJgIy+6AJeLhSA==";
+        };
+        _9ci2hEic = {
+            "id" = "9ci2hEic";
+            "file" = "gadgets-and-gizmos-bundled-2.0.0-Beta-1.1.jar";
+            "hash" = "sha512-X5CKRySRQw1COx2Abg5ZGejUbH/JlAWrjmnd4mj5gNU9eKaAxB7hG4smrdfPLi+qUi1FfS2RT9bNw3GFc2hLKA==";
+        };
+        _D1zhtUJo = {
+            "id" = "D1zhtUJo";
+            "file" = "gadgets-and-gizmos-bundled-V1.2.8.jar";
+            "hash" = "sha512-JS1v0hCD3WBOa4hhlqtS9Hcp0MVWqentqxcdggGcTabNyYagbWrHVMd4LFZmscHTyVQBbyTF5rh+75NRjHmPLQ==";
+        };
+        _19E5dCzP = {
+            "id" = "19E5dCzP";
+            "file" = "gadgets-and-gizmos-bundled-2.0.0-Beta-2.jar";
+            "hash" = "sha512-/fPYSJIj2wVbefvCo6/aMomeeeidvRMJQ0effNkJK+FWpzBO3ioUTlW0KGZtofxZVCyBOGYWc/gjmNi50HgmmQ==";
+        };
+        _otoj8TZS = {
+            "id" = "otoj8TZS";
+            "file" = "gadgets-and-gizmos-bundled-2.0.0-Beta-3.jar";
+            "hash" = "sha512-Q78IQ6nO7mdXzZOoAzE+XxW2EwTro8lqWUjf+2EBVnWlEFl7yVUnMx4aMAI1xYYv6oKdgd2Ezd//S2KAFgMMOw==";
+        };
+        _VTxjWBGy = {
+            "id" = "VTxjWBGy";
+            "file" = "gadgets-and-gizmos-bundled-V1.2.9.jar";
+            "hash" = "sha512-9RMauijsNpnrUbxaCYjMeerOJSz+JI0zQkHQcr7So9teBPyb0pyMTyLnHleVEbrWANWOy11NSdOzRLHrcGdIfQ==";
+        };
     in {
         "4rUiOPkB" = _4rUiOPkB;
         "aTzV5rfX" = _aTzV5rfX;
@@ -230,7 +280,17 @@ let
         "b1oBN0kP" = _b1oBN0kP;
         "MjBMc4RD" = _MjBMc4RD;
         "aadW5uNY" = _aadW5uNY;
-        "neoforge-1.21.1" = _aadW5uNY;
+        "VY2Sg3qY" = _VY2Sg3qY;
+        "S4f9BlLI" = _S4f9BlLI;
+        "PXctFUSv" = _PXctFUSv;
+        "HhiEx5tk" = _HhiEx5tk;
+        "PRxR5qrC" = _PRxR5qrC;
+        "9ci2hEic" = _9ci2hEic;
+        "D1zhtUJo" = _D1zhtUJo;
+        "19E5dCzP" = _19E5dCzP;
+        "otoj8TZS" = _otoj8TZS;
+        "VTxjWBGy" = _VTxjWBGy;
+        "neoforge-1.21.1" = _VTxjWBGy;
         "pkg-0.1.0" = _4rUiOPkB;
         "pkg-0.1.1" = _aTzV5rfX;
         "pkg-0.1.2" = _XVWHgyW4;
@@ -261,7 +321,17 @@ let
         "pkg-1.2.1" = _b1oBN0kP;
         "pkg-1.2.2" = _MjBMc4RD;
         "pkg-1.2.3" = _aadW5uNY;
-        "default" = _aadW5uNY;
+        "pkg-1.2.4" = _VY2Sg3qY;
+        "pkg-1.2.5" = _S4f9BlLI;
+        "pkg-1.2.6" = _PXctFUSv;
+        "pkg-1.2.7" = _HhiEx5tk;
+        "pkg-2.0.0-Beta-1" = _PRxR5qrC;
+        "pkg-2.0.0-Beta-1.1" = _9ci2hEic;
+        "pkg-1.2.8" = _D1zhtUJo;
+        "pkg-2.0.0-Beta-2" = _19E5dCzP;
+        "pkg-2.0.0-Beta-3" = _otoj8TZS;
+        "pkg-1.2.9" = _VTxjWBGy;
+        "default" = _VTxjWBGy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-aeronautics-gadgets-and-gizmos";

@@ -106,6 +106,26 @@ let
             "file" = "item-clumps-1.0.26+26.2.jar";
             "hash" = "sha512-pF9/6bvsB6hlVuWPtssG/gxkITL8lAfvQtHVTwYF3cXt9kLO4SKynP2XejYFtuPMHekrVF5WoFafjXr3U7NzPA==";
         };
+        _n9COvhC5 = {
+            "id" = "n9COvhC5";
+            "file" = "item-clumps-1.0.0+1.20.1.jar";
+            "hash" = "sha512-dY8n6K5JmV7XBpzUuyCeENubkajYJJ2YlZ5WWo9p3PRuKfW13lhp6/Y/I4Gxssxalmxre6qtLpeRFjUwiCs2og==";
+        };
+        _wWp5vs0X = {
+            "id" = "wWp5vs0X";
+            "file" = "item-clumps-1.0.0+1.21.1.jar";
+            "hash" = "sha512-LEx9P9nYlm1TSbfKJ2dsJCslgwcPLYh42VNSfgNA1gZMAwE/klqf1MFgUCzLxcsg8AEhZy/TMd78sEuHl+8dHw==";
+        };
+        _DBDD0JnP = {
+            "id" = "DBDD0JnP";
+            "file" = "item-clumps-1.0.0+1.21.11.jar";
+            "hash" = "sha512-sK0qHPEXFiYTog52sbuRR6LKY5bXZpFNPCNkA5+D7jAf7X563roZg/8/tXGqG836zq40rBKKn71rVZojeU/kGg==";
+        };
+        _89bstwpl = {
+            "id" = "89bstwpl";
+            "file" = "item-clumps-1.0.29+26.3.jar";
+            "hash" = "sha512-WN0EOITWxp3c5HGUGfKVMcPuabyCa7TfJXhKLBtPH8JIpvF3KD27vrv2TojwSU+VuDChqxsCAOQaXA9dBoBF8Q==";
+        };
     in {
         "DJRh4JeG" = _DJRh4JeG;
         "HRXYGGxu" = _HRXYGGxu;
@@ -128,6 +148,10 @@ let
         "d3Hdmx4X" = _d3Hdmx4X;
         "6HrMmpfA" = _6HrMmpfA;
         "VX7jvXvt" = _VX7jvXvt;
+        "n9COvhC5" = _n9COvhC5;
+        "wWp5vs0X" = _wWp5vs0X;
+        "DBDD0JnP" = _DBDD0JnP;
+        "89bstwpl" = _89bstwpl;
         "fabric-26.1.2" = _d3Hdmx4X;
         "fabric-26.2-snapshot-8" = _HRXYGGxu;
         "fabric-26.2-pre-2" = _84kUzkJW;
@@ -139,6 +163,10 @@ let
         "fabric-26.2-rc-1" = _84kUzkJW;
         "fabric-26.2-rc-2" = _84kUzkJW;
         "fabric-26.2" = _VX7jvXvt;
+        "fabric-1.20.1" = _n9COvhC5;
+        "fabric-1.21.1" = _wWp5vs0X;
+        "fabric-1.21.11" = _DBDD0JnP;
+        "fabric-26.3" = _89bstwpl;
         "pkg-1.0.0+build.9" = _DJRh4JeG;
         "pkg-1.0.0+build.10" = _HRXYGGxu;
         "pkg-1.0.5+A-26.1.2" = _iJoEwe8K;
@@ -160,7 +188,11 @@ let
         "pkg-1.0.7+26.1.2" = _d3Hdmx4X;
         "pkg-1.0.25+26.2" = _6HrMmpfA;
         "pkg-1.0.26+26.2" = _VX7jvXvt;
-        "default" = _VX7jvXvt;
+        "pkg-1.0.0+1.20.1" = _n9COvhC5;
+        "pkg-1.0.0+1.21.1" = _wWp5vs0X;
+        "pkg-1.0.0+1.21.11" = _DBDD0JnP;
+        "pkg-1.0.29+26.3" = _89bstwpl;
+        "default" = _89bstwpl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ig-item-clumps";

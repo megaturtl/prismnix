@@ -56,6 +56,11 @@ let
             "file" = "perch-2.0.1-fabric-26.2.jar";
             "hash" = "sha512-v0UDHqUUmVXq+EV8lMZ4faBKE23CE7pEXJ336URF5yNH1Kn9Mzp0V/+SyqQBlR2v66G3Fkksk08A2LaXoYCdTQ==";
         };
+        _dhLxWDu8 = {
+            "id" = "dhLxWDu8";
+            "file" = "perch-2.1.0-fabric-26.3.jar";
+            "hash" = "sha512-5m/jL2rildc9GpznLk7iZ7EfgtZT0hiABmHqWImdJ618wZFkw+CMsVs423r6LzZHarh7+qv46n5906wRrWa6AQ==";
+        };
     in {
         "NdRyNgjX" = _NdRyNgjX;
         "f70rVZBK" = _f70rVZBK;
@@ -68,6 +73,7 @@ let
         "PdFvQjXo" = _PdFvQjXo;
         "iYgpMb12" = _iYgpMb12;
         "43AWMYJu" = _43AWMYJu;
+        "dhLxWDu8" = _dhLxWDu8;
         "fabric-1.19.4" = _NdRyNgjX;
         "fabric-1.19.2" = _f70rVZBK;
         "fabric-1.20" = _EaSMZdDR;
@@ -76,6 +82,7 @@ let
         "fabric-1.20.4" = _u13kqk5q;
         "fabric-1.21.1" = _iYgpMb12;
         "fabric-26.2" = _43AWMYJu;
+        "fabric-26.3" = _dhLxWDu8;
         "neoforge-1.21.1" = _PdFvQjXo;
         "pkg-1.0.0" = _NdRyNgjX;
         "pkg-1.0.0-1.19.2" = _f70rVZBK;
@@ -85,7 +92,8 @@ let
         "pkg-1.0.0-1.20.4" = _u13kqk5q;
         "pkg-2.0.0" = _QjzEGEpJ;
         "pkg-2.0.1" = _43AWMYJu;
-        "default" = _43AWMYJu;
+        "pkg-2.1.0" = _dhLxWDu8;
+        "default" = _dhLxWDu8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "perch";

@@ -211,6 +211,11 @@ let
             "file" = "bankstorage-1.2.4.jar";
             "hash" = "sha512-sKq/d34361w6BNccub/wcRSJ/tNzGeOYxXTDsJSvcuz6kFfRNYaiHhmGJyGmwISfYKSXlrkKv92ZgtaaL4sE1Q==";
         };
+        _MErzm9TU = {
+            "id" = "MErzm9TU";
+            "file" = "bankstorage-1.7.0+1.21.jar";
+            "hash" = "sha512-4r4zB+XXSWhY+bnElAY4XrJkp4LTvg2/y4JR2J6HYACwkKBkJjvQM/JYYxi/UtesJkEGFqMLLCvvXmyUiekZ3A==";
+        };
     in {
         "JHUgR06c" = _JHUgR06c;
         "yT5pXr9p" = _yT5pXr9p;
@@ -254,9 +259,10 @@ let
         "wdLg7g5W" = _wdLg7g5W;
         "ian7vJ4z" = _ian7vJ4z;
         "sXt9oUw2" = _sXt9oUw2;
+        "MErzm9TU" = _MErzm9TU;
         "fabric-1.20.1" = _sXt9oUw2;
-        "neoforge-1.21" = _LC7UDnPb;
-        "neoforge-1.21.1" = _ian7vJ4z;
+        "neoforge-1.21" = _MErzm9TU;
+        "neoforge-1.21.1" = _MErzm9TU;
         "pkg-0.1.1-beta" = _JHUgR06c;
         "pkg-0.1.4-beta" = _yT5pXr9p;
         "pkg-0.1.5" = _UtgMPJIt;
@@ -299,7 +305,8 @@ let
         "pkg-1.6.0+1.21" = _wdLg7g5W;
         "pkg-1.6.1+1.21" = _ian7vJ4z;
         "pkg-1.2.4" = _sXt9oUw2;
-        "default" = _sXt9oUw2;
+        "pkg-1.7.0+1.21" = _MErzm9TU;
+        "default" = _MErzm9TU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bank-storage";

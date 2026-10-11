@@ -26,19 +26,26 @@ let
             "file" = "ccrj45-1.2.1.jar";
             "hash" = "sha512-3N+Kw01+So4+C7A80JqHWoGcpATi91clKL+uEieBEqG53TB7VjjNAWtZR8bzA5rtBY/dFUJUeYjmO+vhj5/hdQ==";
         };
+        _XMQqbhTg = {
+            "id" = "XMQqbhTg";
+            "file" = "ccrj45-1.2.2.jar";
+            "hash" = "sha512-xq14vcw670OZoBCv6RulecWBa+wQU20EmU8YGeAswq+ci3OXVWA0S43REm4ebb9TAKtPehXK4w7Gh/KRb6HBug==";
+        };
     in {
         "DHILVV7E" = _DHILVV7E;
         "MmWchgBC" = _MmWchgBC;
         "a449z0g0" = _a449z0g0;
         "FMsYV00L" = _FMsYV00L;
         "9KaoYjFR" = _9KaoYjFR;
-        "neoforge-1.21.1" = _9KaoYjFR;
+        "XMQqbhTg" = _XMQqbhTg;
+        "neoforge-1.21.1" = _XMQqbhTg;
         "pkg-1.0.0" = _DHILVV7E;
         "pkg-1.0.1" = _MmWchgBC;
         "pkg-1.1.0" = _a449z0g0;
         "pkg-1.2.0" = _FMsYV00L;
         "pkg-1.2.1" = _9KaoYjFR;
-        "default" = _9KaoYjFR;
+        "pkg-1.2.2" = _XMQqbhTg;
+        "default" = _XMQqbhTg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ccrj45";

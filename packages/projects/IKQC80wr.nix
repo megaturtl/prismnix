@@ -96,6 +96,11 @@ let
             "file" = "fais-mythical-monstrosities-0.1.8.2.jar";
             "hash" = "sha512-qYNZ0GnejOpsWk2gyqbcBb92KTxq2sTJG73Lbs1yj9zOh7xbN0FiI7qNkxxrBMTFiuTSuGKShWnIbxq/o6/9KQ==";
         };
+        _xi9XlyfX = {
+            "id" = "xi9XlyfX";
+            "file" = "fais-mythical-monstrosities-0.1.8.3.jar";
+            "hash" = "sha512-NgVEcfwy4kreAr4BO63w6+CE0flYppCUdDxWX39sas+rzyq5ZZqaUkTdndXNR+S+3Tc8H3xwgyBnIaBwCYK9pA==";
+        };
     in {
         "jyDyWG49" = _jyDyWG49;
         "rY0r7vo5" = _rY0r7vo5;
@@ -116,7 +121,8 @@ let
         "CSdGFCxr" = _CSdGFCxr;
         "GeU159yj" = _GeU159yj;
         "JTx5wh9C" = _JTx5wh9C;
-        "fabric-1.21.1" = _JTx5wh9C;
+        "xi9XlyfX" = _xi9XlyfX;
+        "fabric-1.21.1" = _xi9XlyfX;
         "pkg-0.0.2" = _jyDyWG49;
         "pkg-0.0.3" = _rY0r7vo5;
         "pkg-0.0.4" = _12TayNsA;
@@ -136,7 +142,8 @@ let
         "pkg-0.1.8" = _CSdGFCxr;
         "pkg-0.1.8.1" = _GeU159yj;
         "pkg-0.1.8.2" = _JTx5wh9C;
-        "default" = _JTx5wh9C;
+        "pkg-0.1.8.3" = _xi9XlyfX;
+        "default" = _xi9XlyfX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fais-mythical-monstrosities";

@@ -116,6 +116,16 @@ let
             "file" = "craftable-gunpowder-1.8.jar";
             "hash" = "sha512-uhYbcjhse+2Q/sFgEW/B5UcSCj2lLKUQVcScysS7aFsv/qExg1ufN05u6RNjxOYMVCngzfWbR05xU4Gip7aI+Q==";
         };
+        _vinTXZXp = {
+            "id" = "vinTXZXp";
+            "file" = "Craftable Gunpowder v2.0 (26.3).zip";
+            "hash" = "sha512-1Czqx23iFsjqCfD3oJm6BIgrzmdAewyuAon3IUMylF5sYytMTRTSYmKFQlOhlcobLyoiz8nICS948NMnz2ms0Q==";
+        };
+        _614fYPql = {
+            "id" = "614fYPql";
+            "file" = "craftable-gunpowder-2.0.jar";
+            "hash" = "sha512-LX6ikqhK1uH9m9lbqLSmQE1+PQvoCVR15Y28GbuO7WphQOA/YYb+X/oMxN+NgtYS9oH0gKmLVHziuiUwvwbOvw==";
+        };
     in {
         "4bR2n4Bx" = _4bR2n4Bx;
         "ixlmRjcB" = _ixlmRjcB;
@@ -140,6 +150,8 @@ let
         "iVizgnUC" = _iVizgnUC;
         "9xr3s0MO" = _9xr3s0MO;
         "3wKuIghT" = _3wKuIghT;
+        "vinTXZXp" = _vinTXZXp;
+        "614fYPql" = _614fYPql;
         "datapack-1.20" = _2cMFDcwJ;
         "datapack-1.20.1" = _2cMFDcwJ;
         "datapack-1.20.2" = _2cMFDcwJ;
@@ -166,6 +178,7 @@ let
         "datapack-26.2-pre-1" = _34Az5qJT;
         "datapack-26.2-pre-2" = _34Az5qJT;
         "datapack-26.2" = _9xr3s0MO;
+        "datapack-26.3" = _vinTXZXp;
         "fabric-1.20" = _FUYkens9;
         "fabric-1.20.1" = _FUYkens9;
         "fabric-1.20.2" = _FUYkens9;
@@ -192,6 +205,7 @@ let
         "fabric-26.2-pre-1" = _iVizgnUC;
         "fabric-26.2-pre-2" = _iVizgnUC;
         "fabric-26.2" = _3wKuIghT;
+        "fabric-26.3" = _614fYPql;
         "forge-1.20" = _FUYkens9;
         "forge-1.20.1" = _FUYkens9;
         "forge-1.20.2" = _FUYkens9;
@@ -218,6 +232,7 @@ let
         "forge-26.2-pre-1" = _iVizgnUC;
         "forge-26.2-pre-2" = _iVizgnUC;
         "forge-26.2" = _3wKuIghT;
+        "forge-26.3" = _614fYPql;
         "quilt-1.20" = _FUYkens9;
         "quilt-1.20.1" = _FUYkens9;
         "quilt-1.20.2" = _FUYkens9;
@@ -244,6 +259,7 @@ let
         "quilt-26.2-pre-1" = _iVizgnUC;
         "quilt-26.2-pre-2" = _iVizgnUC;
         "quilt-26.2" = _3wKuIghT;
+        "quilt-26.3" = _614fYPql;
         "neoforge-1.20" = _FUYkens9;
         "neoforge-1.20.1" = _FUYkens9;
         "neoforge-1.20.2" = _FUYkens9;
@@ -270,6 +286,7 @@ let
         "neoforge-26.2-pre-1" = _iVizgnUC;
         "neoforge-26.2-pre-2" = _iVizgnUC;
         "neoforge-26.2" = _3wKuIghT;
+        "neoforge-26.3" = _614fYPql;
         "pkg-1" = _4bR2n4Bx;
         "pkg-1+mod" = _lNBvrE09;
         "pkg-1.1" = _2MFPt70T;
@@ -292,7 +309,9 @@ let
         "pkg-1.8-beta+mod" = _iVizgnUC;
         "pkg-1.8" = _9xr3s0MO;
         "pkg-1.8+mod" = _3wKuIghT;
-        "default" = _3wKuIghT;
+        "pkg-2.0" = _vinTXZXp;
+        "pkg-2.0+mod" = _614fYPql;
+        "default" = _614fYPql;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "craftable-gunpowder";

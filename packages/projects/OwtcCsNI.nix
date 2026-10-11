@@ -1926,6 +1926,16 @@ let
             "file" = "onlyhammersandexcavators-26.2-0.3.jar";
             "hash" = "sha512-fPGgjaHwHN4pi7MV47pFGAnGsEobkIEZbymzjgMo1hL/VMyeqi69NxMLf5Wly+bTj8qsUhUtKi4OHZenh+puNg==";
         };
+        _PxIk8DtI = {
+            "id" = "PxIk8DtI";
+            "file" = "OnlyHammersAndExcavators-26.3-0.1.jar";
+            "hash" = "sha512-DjrhYFvCxKe1R5UQefPLEBGF9QjEhraVaM3bV5U8aLDG1nrxM2tUTaJriBY/WX2M+RT7lW/R3+YxxOrsessizw==";
+        };
+        _QiifHnx5 = {
+            "id" = "QiifHnx5";
+            "file" = "onlyhammersandexcavators-26.3-0.1.jar";
+            "hash" = "sha512-UdDr90BfZSXhO1u6UTFapSzxF1GRFuCtyrdK1vHOI4aDC7sKaKhbVgMOsQi1ENjyPdXzAV/2kfxRZwYrQmPeVw==";
+        };
     in {
         "K5jm10Dx" = _K5jm10Dx;
         "AhvJRzjE" = _AhvJRzjE;
@@ -2312,6 +2322,8 @@ let
         "EW7UzPN8" = _EW7UzPN8;
         "HV3um9Qs" = _HV3um9Qs;
         "X1rKIjS3" = _X1rKIjS3;
+        "PxIk8DtI" = _PxIk8DtI;
+        "QiifHnx5" = _QiifHnx5;
         "forge-1.19" = _OcvTcHHx;
         "forge-1.19.1" = _pJlaXJmQ;
         "forge-1.19.2" = _RXdO3HcB;
@@ -2358,6 +2370,7 @@ let
         "fabric-26.1.1" = _ja8g82kD;
         "fabric-26.1.2" = _QYELQDYO;
         "fabric-26.2" = _s5CnB86y;
+        "fabric-26.3" = _PxIk8DtI;
         "neoforge-1.21" = _X6NuRG2f;
         "neoforge-1.21.1" = _iZ61dIfE;
         "neoforge-1.21.3" = _9L09RwgH;
@@ -2373,6 +2386,7 @@ let
         "neoforge-26.1.1" = _EW7UzPN8;
         "neoforge-26.1" = _7ofUMXSI;
         "neoforge-26.2" = _X1rKIjS3;
+        "neoforge-26.3" = _QiifHnx5;
         "pkg-1.19-0.1" = _QjMyXO2N;
         "pkg-1.19.1-0.1" = _J5IZsPZ2;
         "pkg-1.19.2-0.1" = _zmFYyaK9;
@@ -2527,7 +2541,8 @@ let
         "pkg-26.1.2-0.3" = _HV3um9Qs;
         "pkg-1.21.8-0.6" = _dsGAmosr;
         "pkg-26.2-0.3" = _X1rKIjS3;
-        "default" = _X1rKIjS3;
+        "pkg-26.3-0.1" = _QiifHnx5;
+        "default" = _QiifHnx5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "only-hammers-and-excavators";

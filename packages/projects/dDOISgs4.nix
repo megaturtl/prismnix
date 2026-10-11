@@ -156,6 +156,11 @@ let
             "file" = "figurav5addon-fabric-1.2.2+split4.jar";
             "hash" = "sha512-AbXlCGnb4PRm6du0rDDGv3vdSbZOGgPzhq+S6rfOeIcmI16GUEka4W/avb/r6C879BksvzzhYsZD3TqMr3JfSA==";
         };
+        _GOyMAlhY = {
+            "id" = "GOyMAlhY";
+            "file" = "figurav5addon-neoforge-1.3-SNAPSHOT+1.21.1-fsb-only.jar";
+            "hash" = "sha512-XqgJNSgB4ON8vSmNu06Bwnk+DF4VTuiWMtosLyQvo0moyhkjnezbmF8vebeaTyj83t/pdxCPyykkWyPKhhSu9w==";
+        };
     in {
         "Qun2FZzk" = _Qun2FZzk;
         "Anq0Ae7N" = _Anq0Ae7N;
@@ -188,6 +193,7 @@ let
         "xANxkEw4" = _xANxkEw4;
         "mxln8aa7" = _mxln8aa7;
         "7jqVZD0o" = _7jqVZD0o;
+        "GOyMAlhY" = _GOyMAlhY;
         "fabric-1.18.2" = _x98NASyc;
         "fabric-1.19.2" = _x98NASyc;
         "fabric-1.19.3" = _x98NASyc;
@@ -218,7 +224,7 @@ let
         "neoforge-1.20.2" = _mxln8aa7;
         "neoforge-1.20.4" = _mxln8aa7;
         "neoforge-1.20.6" = _mxln8aa7;
-        "neoforge-1.21.1" = _mxln8aa7;
+        "neoforge-1.21.1" = _GOyMAlhY;
         "neoforge-1.21.3" = _mxln8aa7;
         "neoforge-1.21.4" = _mxln8aa7;
         "pkg-1.0.0" = _89e7IIJu;
@@ -246,7 +252,8 @@ let
         "pkg-1.2.2+split2" = _odhTclOd;
         "pkg-1.2.2" = _mxln8aa7;
         "pkg-1.2.2+split4" = _7jqVZD0o;
-        "default" = _7jqVZD0o;
+        "pkg-1.2.2+1.21.1-FSB-ONLY" = _GOyMAlhY;
+        "default" = _GOyMAlhY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "figura-v5-support";

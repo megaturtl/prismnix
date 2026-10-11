@@ -41,6 +41,11 @@ let
             "file" = "tinygates-26.2-7.0.0.jar";
             "hash" = "sha512-2BNgUuNBVedfFGKF2V71MbJ0PcKYujxPnraCdy87oY6WtaOybLW51/4A+tXweJrirhyZhWi54T7yIQK5CJYRaw==";
         };
+        _AHfiDHCU = {
+            "id" = "AHfiDHCU";
+            "file" = "tinygates-26.3-8.0.0.jar";
+            "hash" = "sha512-/kCJLV6zBy+1B6o4fWVAIuUbGYNphoC2kozncIw+MIlYIkhAwmxy9WCvmnQlkn6ESs50OnC8coNm6wf8eQas4A==";
+        };
     in {
         "WJTr7Hi4" = _WJTr7Hi4;
         "nZLiv0NX" = _nZLiv0NX;
@@ -50,11 +55,13 @@ let
         "DAfDNSps" = _DAfDNSps;
         "YNakFHsc" = _YNakFHsc;
         "XiFKSsre" = _XiFKSsre;
+        "AHfiDHCU" = _AHfiDHCU;
         "neoforge-1.21.1" = _DAfDNSps;
         "neoforge-26.1" = _YNakFHsc;
         "neoforge-26.1.1" = _YNakFHsc;
         "neoforge-26.1.2" = _YNakFHsc;
         "neoforge-26.2" = _XiFKSsre;
+        "neoforge-26.3" = _AHfiDHCU;
         "forge-1.20" = _nZLiv0NX;
         "forge-1.20.1" = _nZLiv0NX;
         "pkg-1.21.1-5.0.0" = _WJTr7Hi4;
@@ -65,7 +72,8 @@ let
         "pkg-1.21.1-5.0.2" = _DAfDNSps;
         "pkg-26.1-6.0.2" = _YNakFHsc;
         "pkg-26.2-7.0.0" = _XiFKSsre;
-        "default" = _XiFKSsre;
+        "pkg-26.3-8.0.0" = _AHfiDHCU;
+        "default" = _AHfiDHCU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tiny-gates";

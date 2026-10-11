@@ -146,6 +146,21 @@ let
             "file" = "Continents_v1.1.14.zip";
             "hash" = "sha512-0kgO+/XTWNm6nFCrn4DkDQHC+H9OXGWE2aptMQL53xMI0cfxtXFiNvS2lHIFXeZSS972NPWBB5s/R3hXsxf2Mw==";
         };
+        _mtsBJDAa = {
+            "id" = "mtsBJDAa";
+            "file" = "Continents_26.3_v1.2.0+26.3.jar";
+            "hash" = "sha512-aL7xxgt9uz00P50JFREQO6j0VSxQiKfXB2EkfFkJeqVemfPaxQSFo40Fyr8sA92pBvW4I5RoLGMrFDHyyl1jmQ==";
+        };
+        _JfG5Jj69 = {
+            "id" = "JfG5Jj69";
+            "file" = "Continents_26.3_v1.2.1+26.3.jar";
+            "hash" = "sha512-KfEL3WX18d2zTtwt/laPdERn0dr4hynq2HGRNV9XQypS6E6q+S+CvkzNb3G4HgbIgGrYYhjE24fzQvUMvQMSag==";
+        };
+        _MgPnNUZq = {
+            "id" = "MgPnNUZq";
+            "file" = "Continents_v1.2.1+26.3.zip";
+            "hash" = "sha512-C09oeTUXTQPsnVEticUM5swTmFYjxKAaLEd1G4QzYR6DFtk/5kFK7rP4E/UuD4jZKacIQlzOtnhpurGIeVVKmg==";
+        };
     in {
         "dPu3Vari" = _dPu3Vari;
         "LzujJLvj" = _LzujJLvj;
@@ -176,6 +191,9 @@ let
         "RI9abJur" = _RI9abJur;
         "bVXaqvWr" = _bVXaqvWr;
         "126B5RKL" = _126B5RKL;
+        "mtsBJDAa" = _mtsBJDAa;
+        "JfG5Jj69" = _JfG5Jj69;
+        "MgPnNUZq" = _MgPnNUZq;
         "fabric-1.18.2" = _VkN0FzoZ;
         "fabric-1.19" = _WHW8ec8k;
         "fabric-1.19.1" = _WHW8ec8k;
@@ -205,6 +223,7 @@ let
         "fabric-26.1.1" = _bVXaqvWr;
         "fabric-26.1.2" = _bVXaqvWr;
         "fabric-26.2" = _bVXaqvWr;
+        "fabric-26.3" = _JfG5Jj69;
         "forge-1.18.2" = _VkN0FzoZ;
         "forge-1.19" = _WHW8ec8k;
         "forge-1.19.1" = _WHW8ec8k;
@@ -234,6 +253,7 @@ let
         "forge-26.1.1" = _bVXaqvWr;
         "forge-26.1.2" = _bVXaqvWr;
         "forge-26.2" = _bVXaqvWr;
+        "forge-26.3" = _JfG5Jj69;
         "quilt-1.18.2" = _VkN0FzoZ;
         "quilt-1.19" = _WHW8ec8k;
         "quilt-1.19.1" = _WHW8ec8k;
@@ -263,6 +283,7 @@ let
         "quilt-26.1.1" = _bVXaqvWr;
         "quilt-26.1.2" = _bVXaqvWr;
         "quilt-26.2" = _bVXaqvWr;
+        "quilt-26.3" = _JfG5Jj69;
         "neoforge-1.20" = _bVXaqvWr;
         "neoforge-1.20.1" = _bVXaqvWr;
         "neoforge-1.20.2" = _bVXaqvWr;
@@ -286,6 +307,7 @@ let
         "neoforge-26.1.1" = _bVXaqvWr;
         "neoforge-26.1.2" = _bVXaqvWr;
         "neoforge-26.2" = _bVXaqvWr;
+        "neoforge-26.3" = _JfG5Jj69;
         "datapack-1.18.2" = _94DuVevC;
         "datapack-1.19" = _94DuVevC;
         "datapack-1.19.1" = _94DuVevC;
@@ -315,6 +337,7 @@ let
         "datapack-26.1.1" = _126B5RKL;
         "datapack-26.1.2" = _126B5RKL;
         "datapack-26.2" = _126B5RKL;
+        "datapack-26.3" = _MgPnNUZq;
         "pkg-1.0.1" = _dPu3Vari;
         "pkg-1.1.1" = _LzujJLvj;
         "pkg-1.1.2" = _c4OJ366p;
@@ -330,7 +353,9 @@ let
         "pkg-1.1.12" = _4J2FiZDU;
         "pkg-1.1.13" = _RI9abJur;
         "pkg-1.1.14" = _126B5RKL;
-        "default" = _126B5RKL;
+        "pkg-1.2.0+26.3" = _mtsBJDAa;
+        "pkg-1.2.1+26.3" = _MgPnNUZq;
+        "default" = _MgPnNUZq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "continents";

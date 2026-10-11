@@ -101,6 +101,36 @@ let
             "file" = "magnetic-enchantment-v1.0.5.jar";
             "hash" = "sha512-Ijhzt7KCZ/cAIQGPlNjfhij11G7Gp2xNDiS59Aek1Kluo/D4QSLxDw7f9cVp59nOJLoPu5IEXnIdJMBkYd9BRQ==";
         };
+        _cWOk9KsX = {
+            "id" = "cWOk9KsX";
+            "file" = "Magnetic Enchantment v1.0.5 [26.3].zip";
+            "hash" = "sha512-3fim/14bGB/AordtfaFassBwrIvKaUc4khRfV9+Rv5VC+rj6s8lLkxNLdsa7DZZs+xyMZcqxOUeBf8FuqgRtng==";
+        };
+        _K5dZV0aO = {
+            "id" = "K5dZV0aO";
+            "file" = "magnetic-enchantment-1.0.5.jar";
+            "hash" = "sha512-BdlTq1awsbLflytCK11BPeH3UG4D3JDla/s76YbAB2JFNnJMM88ylQj/Jkp6UQ9gGXVhnFTb+4lPapGrfwm8Cg==";
+        };
+        _JwGOP4lI = {
+            "id" = "JwGOP4lI";
+            "file" = "Magnetic Enchantment v1.2.0 [1.21-1.21.1].zip";
+            "hash" = "sha512-ICwazF8X/4RxRn7TMCiWyiWXPS3aIox9LfVuzpUdETM8Bh0n9pHkd1Iemcr7HYiIhurPckZgbSAy+Ti8fKBCpg==";
+        };
+        _176DLmLG = {
+            "id" = "176DLmLG";
+            "file" = "magnetic-enchantment-1.2.0.jar";
+            "hash" = "sha512-bsAsTKsJrQpp1lzh9PjHtcjZZWd/lT/gYK4eiSzkr6+1wf3Aba78mOxS3g3SxeVlkkb59jZRg11RCWlptJ9EXQ==";
+        };
+        _M5c1PIEa = {
+            "id" = "M5c1PIEa";
+            "file" = "Magnetic Enchantment v1.2.0 [26.3].zip";
+            "hash" = "sha512-XU7/uzkUmcjE5Ua+BWVceVNwt9WPveud1c9HneQu2undTgsYsRPhtj2C6D065uCh+badWqvcu7gxDQFmv/Z2Tw==";
+        };
+        _JuPCfPUf = {
+            "id" = "JuPCfPUf";
+            "file" = "magnetic-enchantment-1.2.0.jar";
+            "hash" = "sha512-hO4nOr8/R5OaHPUM0yqltTOi811rP8daofCLJZxuOkqGVlu7jCD/2RP8anW3LXdvSocXS5WF5AhEi0eO3wu0PA==";
+        };
     in {
         "SXXNPH3v" = _SXXNPH3v;
         "LygiVeHd" = _LygiVeHd;
@@ -122,8 +152,14 @@ let
         "vX6QvG5z" = _vX6QvG5z;
         "BwAopHQn" = _BwAopHQn;
         "n4zKTbv6" = _n4zKTbv6;
-        "datapack-1.21" = _9dqnxAk7;
-        "datapack-1.21.1" = _9dqnxAk7;
+        "cWOk9KsX" = _cWOk9KsX;
+        "K5dZV0aO" = _K5dZV0aO;
+        "JwGOP4lI" = _JwGOP4lI;
+        "176DLmLG" = _176DLmLG;
+        "M5c1PIEa" = _M5c1PIEa;
+        "JuPCfPUf" = _JuPCfPUf;
+        "datapack-1.21" = _JwGOP4lI;
+        "datapack-1.21.1" = _JwGOP4lI;
         "datapack-1.21.2" = _6UqLtsVy;
         "datapack-1.21.3" = _6UqLtsVy;
         "datapack-1.21.4" = _6UqLtsVy;
@@ -138,8 +174,9 @@ let
         "datapack-26.1.1" = _BwAopHQn;
         "datapack-26.1.2" = _BwAopHQn;
         "datapack-26.2" = _BwAopHQn;
-        "fabric-1.21" = _nugNpYgt;
-        "fabric-1.21.1" = _nugNpYgt;
+        "datapack-26.3" = _M5c1PIEa;
+        "fabric-1.21" = _176DLmLG;
+        "fabric-1.21.1" = _176DLmLG;
         "fabric-1.21.2" = _vX6QvG5z;
         "fabric-1.21.3" = _vX6QvG5z;
         "fabric-1.21.4" = _vX6QvG5z;
@@ -154,8 +191,9 @@ let
         "fabric-26.1.1" = _n4zKTbv6;
         "fabric-26.1.2" = _n4zKTbv6;
         "fabric-26.2" = _n4zKTbv6;
-        "forge-1.21" = _nugNpYgt;
-        "forge-1.21.1" = _nugNpYgt;
+        "fabric-26.3" = _JuPCfPUf;
+        "forge-1.21" = _176DLmLG;
+        "forge-1.21.1" = _176DLmLG;
         "forge-1.21.2" = _vX6QvG5z;
         "forge-1.21.3" = _vX6QvG5z;
         "forge-1.21.4" = _vX6QvG5z;
@@ -170,8 +208,9 @@ let
         "forge-26.1.1" = _n4zKTbv6;
         "forge-26.1.2" = _n4zKTbv6;
         "forge-26.2" = _n4zKTbv6;
-        "neoforge-1.21" = _nugNpYgt;
-        "neoforge-1.21.1" = _nugNpYgt;
+        "forge-26.3" = _JuPCfPUf;
+        "neoforge-1.21" = _176DLmLG;
+        "neoforge-1.21.1" = _176DLmLG;
         "neoforge-1.21.2" = _vX6QvG5z;
         "neoforge-1.21.3" = _vX6QvG5z;
         "neoforge-1.21.4" = _vX6QvG5z;
@@ -186,8 +225,9 @@ let
         "neoforge-26.1.1" = _n4zKTbv6;
         "neoforge-26.1.2" = _n4zKTbv6;
         "neoforge-26.2" = _n4zKTbv6;
-        "quilt-1.21" = _nugNpYgt;
-        "quilt-1.21.1" = _nugNpYgt;
+        "neoforge-26.3" = _JuPCfPUf;
+        "quilt-1.21" = _176DLmLG;
+        "quilt-1.21.1" = _176DLmLG;
         "quilt-1.21.2" = _vX6QvG5z;
         "quilt-1.21.3" = _vX6QvG5z;
         "quilt-1.21.4" = _vX6QvG5z;
@@ -202,6 +242,7 @@ let
         "quilt-26.1.1" = _n4zKTbv6;
         "quilt-26.1.2" = _n4zKTbv6;
         "quilt-26.2" = _n4zKTbv6;
+        "quilt-26.3" = _JuPCfPUf;
         "pkg-v1.0.0" = _NR9N2OVm;
         "pkg-v1.0.0+mod" = _4vIOSbGo;
         "pkg-v1.0.1" = _ZD5PAyxg;
@@ -214,7 +255,11 @@ let
         "pkg-v1.0.4+mod" = _oFWixVbU;
         "pkg-v1.0.5" = _BwAopHQn;
         "pkg-v1.0.5+mod" = _n4zKTbv6;
-        "default" = _n4zKTbv6;
+        "pkg-1.0.5" = _cWOk9KsX;
+        "pkg-1.0.5+mod" = _K5dZV0aO;
+        "pkg-1.2.0" = _M5c1PIEa;
+        "pkg-1.2.0+mod" = _JuPCfPUf;
+        "default" = _JuPCfPUf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "magnetic-enchantment";

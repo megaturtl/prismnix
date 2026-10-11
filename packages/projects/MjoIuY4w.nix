@@ -1,0 +1,123 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _1TAX8jgj = {
+            "id" = "1TAX8jgj";
+            "file" = "!.zip";
+            "hash" = "sha512-3Rj2vdJ1oSQCbLUTj5uSRoNAMZMBT1+d2+iSzzTfn1gcdE3fOeO9iBrxkjFn66a0xmEJQSKpiw/bU7jw+ADzpQ==";
+        };
+        _K4gbD9Pc = {
+            "id" = "K4gbD9Pc";
+            "file" = "!.zip";
+            "hash" = "sha512-u19l2mj25TxQtZlMV0ruTZfkqtCTIeJIhPVHS3VGC/5BZE53eMRrWqcgRoiQj/PnuVIj4arE2pzBNvAnxtQL9A==";
+        };
+        _Gp713KIu = {
+            "id" = "Gp713KIu";
+            "file" = "!.zip";
+            "hash" = "sha512-LtDRYDxKTTgcAcBl1yqV/CEAJbj/40EgwlqTyxIvBr0E7A8LUawUgRciB51dgGCTcF924ufpKlFXBFApIxGRHQ==";
+        };
+    in {
+        "1TAX8jgj" = _1TAX8jgj;
+        "K4gbD9Pc" = _K4gbD9Pc;
+        "Gp713KIu" = _Gp713KIu;
+        "minecraft-1.19" = _1TAX8jgj;
+        "minecraft-1.19.1" = _1TAX8jgj;
+        "minecraft-1.19.2" = _1TAX8jgj;
+        "minecraft-22w42a" = _1TAX8jgj;
+        "minecraft-22w43a" = _1TAX8jgj;
+        "minecraft-22w44a" = _1TAX8jgj;
+        "minecraft-1.19.3" = _1TAX8jgj;
+        "minecraft-1.19.4" = _1TAX8jgj;
+        "minecraft-23w14a" = _1TAX8jgj;
+        "minecraft-23w16a" = _1TAX8jgj;
+        "minecraft-1.20" = _Gp713KIu;
+        "minecraft-1.20.1" = _Gp713KIu;
+        "minecraft-23w31a" = _Gp713KIu;
+        "minecraft-23w32a" = _Gp713KIu;
+        "minecraft-23w33a" = _Gp713KIu;
+        "minecraft-23w35a" = _Gp713KIu;
+        "minecraft-1.20.2-pre1" = _Gp713KIu;
+        "minecraft-1.20.2" = _Gp713KIu;
+        "minecraft-23w42a" = _Gp713KIu;
+        "minecraft-23w43a" = _Gp713KIu;
+        "minecraft-23w43b" = _Gp713KIu;
+        "minecraft-23w44a" = _Gp713KIu;
+        "minecraft-23w45a" = _Gp713KIu;
+        "minecraft-23w46a" = _Gp713KIu;
+        "minecraft-1.20.3" = _Gp713KIu;
+        "minecraft-1.20.4" = _Gp713KIu;
+        "minecraft-24w03a" = _Gp713KIu;
+        "minecraft-24w03b" = _Gp713KIu;
+        "minecraft-24w04a" = _Gp713KIu;
+        "minecraft-24w05a" = _Gp713KIu;
+        "minecraft-24w05b" = _Gp713KIu;
+        "minecraft-24w06a" = _Gp713KIu;
+        "minecraft-24w07a" = _Gp713KIu;
+        "minecraft-24w09a" = _Gp713KIu;
+        "minecraft-24w10a" = _Gp713KIu;
+        "minecraft-24w11a" = _Gp713KIu;
+        "minecraft-24w12a" = _Gp713KIu;
+        "minecraft-24w13a" = _Gp713KIu;
+        "minecraft-24w14potato" = _Gp713KIu;
+        "minecraft-24w14a" = _Gp713KIu;
+        "minecraft-1.20.5-pre1" = _Gp713KIu;
+        "minecraft-1.20.5-pre2" = _Gp713KIu;
+        "minecraft-1.20.5-pre3" = _Gp713KIu;
+        "minecraft-1.20.5" = _Gp713KIu;
+        "minecraft-1.20.6" = _Gp713KIu;
+        "minecraft-24w18a" = _Gp713KIu;
+        "minecraft-24w19a" = _Gp713KIu;
+        "minecraft-24w19b" = _Gp713KIu;
+        "minecraft-24w20a" = _Gp713KIu;
+        "minecraft-1.21" = _Gp713KIu;
+        "minecraft-1.21.1" = _Gp713KIu;
+        "minecraft-24w33a" = _Gp713KIu;
+        "minecraft-24w34a" = _Gp713KIu;
+        "minecraft-24w35a" = _Gp713KIu;
+        "minecraft-24w36a" = _Gp713KIu;
+        "minecraft-24w37a" = _Gp713KIu;
+        "minecraft-24w38a" = _Gp713KIu;
+        "minecraft-24w39a" = _Gp713KIu;
+        "minecraft-24w40a" = _Gp713KIu;
+        "minecraft-1.21.2-pre1" = _Gp713KIu;
+        "minecraft-1.21.2-pre2" = _Gp713KIu;
+        "minecraft-1.21.2" = _Gp713KIu;
+        "minecraft-1.21.3" = _Gp713KIu;
+        "minecraft-24w44a" = _Gp713KIu;
+        "minecraft-24w45a" = _Gp713KIu;
+        "minecraft-24w46a" = _Gp713KIu;
+        "minecraft-1.21.4" = _Gp713KIu;
+        "minecraft-1.21.5" = _Gp713KIu;
+        "minecraft-1.21.6" = _Gp713KIu;
+        "minecraft-1.21.7" = _Gp713KIu;
+        "minecraft-1.21.8" = _Gp713KIu;
+        "minecraft-1.21.9" = _Gp713KIu;
+        "minecraft-1.21.10" = _Gp713KIu;
+        "minecraft-1.21.11" = _Gp713KIu;
+        "minecraft-26.1" = _Gp713KIu;
+        "minecraft-26.2" = _Gp713KIu;
+        "minecraft-26.3" = _Gp713KIu;
+        "minecraft-26.1.1" = _Gp713KIu;
+        "minecraft-26.1.2" = _Gp713KIu;
+        "pkg-1" = _1TAX8jgj;
+        "pkg-v2" = _K4gbD9Pc;
+        "pkg-v3" = _Gp713KIu;
+        "default" = _Gp713KIu;
+    });
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "vanilla-plus-16x";
+        id = "MjoIuY4w";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "CC-BY-4.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Creative Commons Attribution 4.0 International";
+                shortName = "CC-BY-4.0";
+                url = null;
+            };
+        };
+    };
+in callPackage fn {}

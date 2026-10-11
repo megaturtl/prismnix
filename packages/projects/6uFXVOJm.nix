@@ -106,6 +106,16 @@ let
             "file" = "lullaby-mobs-1.8.1.jar";
             "hash" = "sha512-54q0xb1Lbk1BupJfcNdIzykQJCv+jXegJUE4KurdA+4eGlDfF1IO5tB+iXYB9QxLRIAdODbhXyWWypKnPBw9lA==";
         };
+        _PvPeY3d2 = {
+            "id" = "PvPeY3d2";
+            "file" = "Lullaby's Mobs v1.8.1 [26.3].zip";
+            "hash" = "sha512-OMWW7+TLBk76jiLn3q1TBCDGwnOwC1DTPCgdeREmZ/8872r9E/6itdG07yPNxD7jkEID3ruOPbm8nNWR4y+tYQ==";
+        };
+        _Qqy3nj6S = {
+            "id" = "Qqy3nj6S";
+            "file" = "lullaby-mobs-1.8.1.jar";
+            "hash" = "sha512-ZEHquLdKpKL2ztACgzVOJQuVN/2u7adJfMdAsiJoLTcCd9VKYf9vBd0xVnW7kar10tAneZLojCdme4qGXiWn3Q==";
+        };
     in {
         "o0J734o1" = _o0J734o1;
         "NRzeovud" = _NRzeovud;
@@ -128,6 +138,8 @@ let
         "ZeL4vWE8" = _ZeL4vWE8;
         "UZdtTnAx" = _UZdtTnAx;
         "DE6u0f1k" = _DE6u0f1k;
+        "PvPeY3d2" = _PvPeY3d2;
+        "Qqy3nj6S" = _Qqy3nj6S;
         "datapack-1.21.4" = _fEHiVGnN;
         "datapack-1.21.2" = _fEHiVGnN;
         "datapack-1.21.3" = _fEHiVGnN;
@@ -142,6 +154,7 @@ let
         "datapack-26.1.1" = _UZdtTnAx;
         "datapack-26.1.2" = _UZdtTnAx;
         "datapack-26.2" = _UZdtTnAx;
+        "datapack-26.3" = _PvPeY3d2;
         "fabric-1.21.4" = _UQzV0s2f;
         "fabric-1.21.2" = _UQzV0s2f;
         "fabric-1.21.3" = _UQzV0s2f;
@@ -156,6 +169,7 @@ let
         "fabric-26.1.1" = _DE6u0f1k;
         "fabric-26.1.2" = _DE6u0f1k;
         "fabric-26.2" = _DE6u0f1k;
+        "fabric-26.3" = _Qqy3nj6S;
         "forge-1.21.4" = _UQzV0s2f;
         "forge-1.21.2" = _UQzV0s2f;
         "forge-1.21.3" = _UQzV0s2f;
@@ -170,6 +184,7 @@ let
         "forge-26.1.1" = _DE6u0f1k;
         "forge-26.1.2" = _DE6u0f1k;
         "forge-26.2" = _DE6u0f1k;
+        "forge-26.3" = _Qqy3nj6S;
         "neoforge-1.21.4" = _UQzV0s2f;
         "neoforge-1.21.2" = _UQzV0s2f;
         "neoforge-1.21.3" = _UQzV0s2f;
@@ -184,6 +199,7 @@ let
         "neoforge-26.1.1" = _DE6u0f1k;
         "neoforge-26.1.2" = _DE6u0f1k;
         "neoforge-26.2" = _DE6u0f1k;
+        "neoforge-26.3" = _Qqy3nj6S;
         "quilt-1.21.4" = _UQzV0s2f;
         "quilt-1.21.2" = _UQzV0s2f;
         "quilt-1.21.3" = _UQzV0s2f;
@@ -198,6 +214,7 @@ let
         "quilt-26.1.1" = _DE6u0f1k;
         "quilt-26.1.2" = _DE6u0f1k;
         "quilt-26.2" = _DE6u0f1k;
+        "quilt-26.3" = _Qqy3nj6S;
         "pkg-v1.0.0" = _o0J734o1;
         "pkg-v1.1.0" = _NRzeovud;
         "pkg-v1.2.0" = _rPtWDYot;
@@ -211,9 +228,9 @@ let
         "pkg-1.6.1+mod" = _SUjGLSKh;
         "pkg-1.7.0" = _TkFPbuz5;
         "pkg-1.7.0+mod" = _ZeL4vWE8;
-        "pkg-1.8.1" = _UZdtTnAx;
-        "pkg-1.8.1+mod" = _DE6u0f1k;
-        "default" = _DE6u0f1k;
+        "pkg-1.8.1" = _PvPeY3d2;
+        "pkg-1.8.1+mod" = _Qqy3nj6S;
+        "default" = _Qqy3nj6S;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lullaby-mobs";

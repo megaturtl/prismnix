@@ -126,6 +126,16 @@ let
             "file" = "MoVillagers-V1.0-Forge-26.2.jar";
             "hash" = "sha512-usDWlC/aSh22Z9xkGxnuHulbSth33EB6cEGD8wugMw4wNtzXuXNCFKpo838KHTZ37OPJQ7DYQA5QGDudq86NcA==";
         };
+        _SO2oHVVK = {
+            "id" = "SO2oHVVK";
+            "file" = "MoVillagers-V1.0-Neoforge-26.3.jar";
+            "hash" = "sha512-0veEXu65/wWKsXhDwciB6q927MrVd6sP7gBlAfj0aOufzDnrMt69I55I85lYt673zQPvdvVCzgMoTTnfmQrFTA==";
+        };
+        _aWTpirUW = {
+            "id" = "aWTpirUW";
+            "file" = "Mooblooms-V1.0-Forge-26.3.jar";
+            "hash" = "sha512-s27H9G2xMZriRYti4ITNwqLN/sAXcflgrw8vkrUWsWv4Ve2Rmd8jKoyCfNQi+wL/adKXhFord/19SAI2CvFiIQ==";
+        };
     in {
         "BJb8JZPI" = _BJb8JZPI;
         "tcs5suIS" = _tcs5suIS;
@@ -152,6 +162,8 @@ let
         "SwtsgX80" = _SwtsgX80;
         "HUivpRqH" = _HUivpRqH;
         "lnD1NfEl" = _lnD1NfEl;
+        "SO2oHVVK" = _SO2oHVVK;
+        "aWTpirUW" = _aWTpirUW;
         "forge-1.19.3" = _BJb8JZPI;
         "forge-1.19.1" = _tcs5suIS;
         "forge-1.19.4" = _CXzIZxtg;
@@ -171,6 +183,7 @@ let
         "forge-26.1.1" = _SwtsgX80;
         "forge-26.1.2" = _SwtsgX80;
         "forge-26.2" = _lnD1NfEl;
+        "forge-26.3" = _aWTpirUW;
         "neoforge-1.21.4" = _8q9Lf7Rz;
         "neoforge-1.21.5" = _nQfbmBTe;
         "neoforge-1.21.6" = _qWmG4Pda;
@@ -182,6 +195,7 @@ let
         "neoforge-26.1.1" = _3XCOcaom;
         "neoforge-26.1.2" = _3XCOcaom;
         "neoforge-26.2" = _HUivpRqH;
+        "neoforge-26.3" = _SO2oHVVK;
         "pkg-1.19.3-4.0" = _BJb8JZPI;
         "pkg-1.19.1-3.0" = _tcs5suIS;
         "pkg-1.19.4-4.0" = _CXzIZxtg;
@@ -191,7 +205,9 @@ let
         "pkg-1.0.0" = _lnD1NfEl;
         "pkg-2.0.0" = _qWmG4Pda;
         "pkg-1.2.0" = _SwtsgX80;
-        "default" = _lnD1NfEl;
+        "pkg-V1.0-Neoforge-26.3" = _SO2oHVVK;
+        "pkg-V1.0-Forge-26.3" = _aWTpirUW;
+        "default" = _aWTpirUW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mo-villagers";

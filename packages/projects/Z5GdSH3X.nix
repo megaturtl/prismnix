@@ -166,6 +166,21 @@ let
             "file" = "crashexploitfixer-forge-2.0.0+1.20.4-all-srg.jar";
             "hash" = "sha512-d+vv2joB/aFPsm3oPd5Z6wiaeKFT0lparLiCAWAiOqzpBctiuAqv+1HSEVLAu4OnnGHfzQ4Afzu6F0B2TVrwSQ==";
         };
+        _rTvl7ojW = {
+            "id" = "rTvl7ojW";
+            "file" = "crashexploitfixer-fabric-2.0.0+26.3.jar";
+            "hash" = "sha512-/8GhWfukEmw//xSAs7Xj9/BQjhBp+u4RfqLmioJ2tRCuPn5AJhYxNLPlpZdP2pIrEPVUIR5X2V5up0y23A2dCQ==";
+        };
+        _mWknLoEz = {
+            "id" = "mWknLoEz";
+            "file" = "crashexploitfixer-neoforge-2.0.0+26.3.jar";
+            "hash" = "sha512-vt/GzIFZ3alNYEoH3gOPGOn9e14ciUYEqrTTEQhs3TZk1efYswWUDQpMM/zfpDkM5ZhpMVI7PQpduYwVdKrdSQ==";
+        };
+        _iCcNiLrr = {
+            "id" = "iCcNiLrr";
+            "file" = "crashexploitfixer-forge-2.0.0+26.3-all.jar";
+            "hash" = "sha512-vTubjKXRAasyb4j0uAhLPnShz7At+CdNV/gdXH4c16Ndiv8ujm3IQora9Hng0mZgmmJY3QaBPmH1rRxp9onizg==";
+        };
     in {
         "zSgpLv2R" = _zSgpLv2R;
         "lpX1Ba8w" = _lpX1Ba8w;
@@ -200,6 +215,9 @@ let
         "7UoAPVjT" = _7UoAPVjT;
         "7Uvd3dpC" = _7Uvd3dpC;
         "qEzldNOk" = _qEzldNOk;
+        "rTvl7ojW" = _rTvl7ojW;
+        "mWknLoEz" = _mWknLoEz;
+        "iCcNiLrr" = _iCcNiLrr;
         "fabric-1.21" = _7UoAPVjT;
         "fabric-1.14.4" = _yvmymG6L;
         "fabric-1.15" = _PieoBw6i;
@@ -247,6 +265,7 @@ let
         "fabric-26.2-rc-2" = _swKJ2UvC;
         "fabric-26.2" = _swKJ2UvC;
         "fabric-1.20.2" = _i4jbJP6H;
+        "fabric-26.3" = _rTvl7ojW;
         "quilt-1.21" = _7UoAPVjT;
         "quilt-1.14.4" = _yvmymG6L;
         "quilt-1.15" = _PieoBw6i;
@@ -294,6 +313,7 @@ let
         "quilt-26.2-rc-2" = _swKJ2UvC;
         "quilt-26.2" = _swKJ2UvC;
         "quilt-1.20.2" = _i4jbJP6H;
+        "quilt-26.3" = _rTvl7ojW;
         "forge-1.14.4" = _rUAY9w44;
         "forge-1.15" = _rUAY9w44;
         "forge-1.15.1" = _rUAY9w44;
@@ -338,6 +358,7 @@ let
         "forge-1.20.6" = _7Uvd3dpC;
         "forge-1.21" = _7Uvd3dpC;
         "forge-1.20.2" = _qEzldNOk;
+        "forge-26.3" = _iCcNiLrr;
         "neoforge-1.20.3" = _msePjTuf;
         "neoforge-1.20.4" = _msePjTuf;
         "neoforge-1.20.5" = _XR4FbmXL;
@@ -362,6 +383,7 @@ let
         "neoforge-26.1.2" = _OwIBxYpI;
         "neoforge-26.2-rc-2" = _OwIBxYpI;
         "neoforge-26.2" = _OwIBxYpI;
+        "neoforge-26.3" = _mWknLoEz;
         "pkg-1.0.0" = _zSgpLv2R;
         "pkg-1.1.0+1.20.1" = _rUAY9w44;
         "pkg-1.1.0+1.20.4" = _5Y7lUn4f;
@@ -390,7 +412,10 @@ let
         "pkg-fabric-2.0.0+1.21" = _7UoAPVjT;
         "pkg-forge-2.0.0+1.21" = _7Uvd3dpC;
         "pkg-forge-2.0.0+1.20.4" = _qEzldNOk;
-        "default" = _qEzldNOk;
+        "pkg-fabric-2.0.0+26.3" = _rTvl7ojW;
+        "pkg-neoforge-2.0.0+26.3" = _mWknLoEz;
+        "pkg-forge-2.0.0+26.3" = _iCcNiLrr;
+        "default" = _iCcNiLrr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crashexploitfixer";

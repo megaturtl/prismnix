@@ -1651,6 +1651,21 @@ let
             "file" = "malilib-fabric-26.2-0.29.6.jar";
             "hash" = "sha512-D6s5j4NdnEc22sZVEPcHx3pgvm5gUb/QCCJcIKX/E+FGKW2iWL7lUdOfooECuIVNd/olsuy2sPifs8h0usVj2w==";
         };
+        _eAj1QaLG = {
+            "id" = "eAj1QaLG";
+            "file" = "malilib-fabric-26.3-0.30.0.jar";
+            "hash" = "sha512-afozf5ZDntAqwy6c7uykAQbjDhUYLXvd/9Ht/RipanBQflxW/qotLraXh4mDwKwbnD6X65r7c22XfM8F2Mnreg==";
+        };
+        _DPcJACN6 = {
+            "id" = "DPcJACN6";
+            "file" = "malilib-fabric-26.3-0.30.1.jar";
+            "hash" = "sha512-Zeo0sUdXzhw3+HvEpRnRKQ0qcV93vLNw5HtG2ZdWtfzLTximNuQl3+ZudSZ5GUUnN4KBP7go5rloaiAkzhJQvA==";
+        };
+        _JX9bESec = {
+            "id" = "JX9bESec";
+            "file" = "malilib-fabric-26.3-0.30.2.jar";
+            "hash" = "sha512-jxel1wyy9GGutUD0qZ3gHDNR+NNnjZAtPQDP5dEMA5/cERwQef4jqst5NreTrRzQRajcOp55JoZYIMJU2SNFuA==";
+        };
     in {
         "xpR792B4" = _xpR792B4;
         "JOreljE2" = _JOreljE2;
@@ -1982,6 +1997,9 @@ let
         "loabWpyU" = _loabWpyU;
         "FItuNokS" = _FItuNokS;
         "KvjmGjAV" = _KvjmGjAV;
+        "eAj1QaLG" = _eAj1QaLG;
+        "DPcJACN6" = _DPcJACN6;
+        "JX9bESec" = _JX9bESec;
         "liteloader-1.12" = _BU2oeYjc;
         "liteloader-1.12.2" = _3zGlToR7;
         "liteloader-1.12.1" = _SjGToM73;
@@ -2073,6 +2091,7 @@ let
         "fabric-26.1.1" = _FItuNokS;
         "fabric-26.1.2" = _FItuNokS;
         "fabric-26.2" = _KvjmGjAV;
+        "fabric-26.3" = _JX9bESec;
         "forge-1.12.2" = _6PDV12GO;
         "forge-1.14.4" = _nVIcj6u9;
         "forge-1.15.2" = _AXxe1CWD;
@@ -2298,7 +2317,10 @@ let
         "pkg-0.27.20" = _loabWpyU;
         "pkg-0.28.12" = _FItuNokS;
         "pkg-0.29.6" = _KvjmGjAV;
-        "default" = _KvjmGjAV;
+        "pkg-0.30.0" = _eAj1QaLG;
+        "pkg-0.30.1" = _DPcJACN6;
+        "pkg-0.30.2" = _JX9bESec;
+        "default" = _JX9bESec;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "malilib";

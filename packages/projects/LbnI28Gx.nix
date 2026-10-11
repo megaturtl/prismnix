@@ -201,6 +201,11 @@ let
             "file" = "Glowing Trim Totem[MG-5.0][26.2].zip";
             "hash" = "sha512-+Gb10r/u5WCLpmgXusTqB50Zt9vu5Ke3AZf5R9T5vqfjEJZNDs22vqyh0Ja18cVzKRakXUsCr6oSiIyZMM/Tag==";
         };
+        _EsQpY6di = {
+            "id" = "EsQpY6di";
+            "file" = "Glowing Trim Totem[MG-5.0][26.3].zip";
+            "hash" = "sha512-1vWrhYhfoo79fialmOuCu54UJR1RCwhKgn/8GfIDBIv4O8vSaMVvZT3HZUlCFaKs+8KNMeDn5WwHDBYtFfeNdw==";
+        };
     in {
         "HGbm8CsF" = _HGbm8CsF;
         "goF6ucE5" = _goF6ucE5;
@@ -242,6 +247,7 @@ let
         "zvD2qa5j" = _zvD2qa5j;
         "sKeyNfqO" = _sKeyNfqO;
         "Q9X0OQwC" = _Q9X0OQwC;
+        "EsQpY6di" = _EsQpY6di;
         "minecraft-1.16" = _BWzWCSR0;
         "minecraft-1.16.1" = _BWzWCSR0;
         "minecraft-1.16.2" = _BWzWCSR0;
@@ -281,9 +287,11 @@ let
         "minecraft-26.1.1" = _sKeyNfqO;
         "minecraft-26.1.2" = _sKeyNfqO;
         "minecraft-26.2" = _Q9X0OQwC;
+        "minecraft-26.3" = _EsQpY6di;
+        "minecraft-26.4-snapshot-1" = _EsQpY6di;
         "pkg-MG-4.0" = _byQITWiL;
-        "pkg-MG-5.0" = _Q9X0OQwC;
-        "default" = _Q9X0OQwC;
+        "pkg-MG-5.0" = _EsQpY6di;
+        "default" = _EsQpY6di;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "glowing-trim-totem";

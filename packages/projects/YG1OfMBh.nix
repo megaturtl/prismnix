@@ -81,6 +81,11 @@ let
             "file" = "chaos-edition-1.3.1.jar";
             "hash" = "sha512-uWNJluDCUE7CqbDeSI2DMsKMH/eJOCRyyeHNydF/9lakH9kG1fco20zU2H6VJIt7127GmJURs/3ZZqHT+woSlw==";
         };
+        _duSOSeTV = {
+            "id" = "duSOSeTV";
+            "file" = "chaos-edition-1.3.2.jar";
+            "hash" = "sha512-z15/Z6gpcmwXJ0EOTfuftSpbEiH0hfsEthpXr/zfZgmMY96WikGzqDIMl77ShCt5WZIJJoiArWsObYK6vYc5YQ==";
+        };
     in {
         "wGgnpZmK" = _wGgnpZmK;
         "s42tGG8g" = _s42tGG8g;
@@ -98,6 +103,7 @@ let
         "jv2UM7pf" = _jv2UM7pf;
         "luwQiP2n" = _luwQiP2n;
         "oG7dmr9O" = _oG7dmr9O;
+        "duSOSeTV" = _duSOSeTV;
         "fabric-1.19" = _wGgnpZmK;
         "fabric-1.19.1" = _wGgnpZmK;
         "fabric-1.19.2" = _wGgnpZmK;
@@ -108,15 +114,15 @@ let
         "fabric-1.20.2" = _dEmOduR3;
         "fabric-1.20.3" = _dEmOduR3;
         "fabric-1.20.4" = _dEmOduR3;
-        "fabric-1.21.3" = _oG7dmr9O;
-        "fabric-1.21.4" = _oG7dmr9O;
-        "fabric-1.21.5" = _oG7dmr9O;
-        "fabric-1.21.6" = _oG7dmr9O;
-        "fabric-1.21.7" = _oG7dmr9O;
-        "fabric-1.21.8" = _oG7dmr9O;
-        "fabric-1.21.9" = _oG7dmr9O;
-        "fabric-1.21.10" = _oG7dmr9O;
-        "fabric-1.21.11" = _oG7dmr9O;
+        "fabric-1.21.3" = _duSOSeTV;
+        "fabric-1.21.4" = _duSOSeTV;
+        "fabric-1.21.5" = _duSOSeTV;
+        "fabric-1.21.6" = _duSOSeTV;
+        "fabric-1.21.7" = _duSOSeTV;
+        "fabric-1.21.8" = _duSOSeTV;
+        "fabric-1.21.9" = _duSOSeTV;
+        "fabric-1.21.10" = _duSOSeTV;
+        "fabric-1.21.11" = _duSOSeTV;
         "pkg-1.0.0" = _wGgnpZmK;
         "pkg-1.0.1" = _s42tGG8g;
         "pkg-1.0.2" = _WsdnKCHt;
@@ -127,7 +133,8 @@ let
         "pkg-1.2.2" = _jv2UM7pf;
         "pkg-1.3.0" = _luwQiP2n;
         "pkg-1.3.1" = _oG7dmr9O;
-        "default" = _oG7dmr9O;
+        "pkg-1.3.2" = _duSOSeTV;
+        "default" = _duSOSeTV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "minecraft-chaos-edition";

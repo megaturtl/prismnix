@@ -106,6 +106,51 @@ let
             "file" = "Scatha-Pro v2.3 - 26.1.x.jar";
             "hash" = "sha512-kqGR499p7Wcm9MEQ8jz/G7RBqH8pEDW55/UiRnqA8UQ+U2Ww9IrKGNCbnjz+MD9tyu1KbplpBkfIuCSnM76Zbw==";
         };
+        _qQAKcIC0 = {
+            "id" = "qQAKcIC0";
+            "file" = "Scatha-Pro v2.4 - 26.1.2.jar";
+            "hash" = "sha512-9M5hYY/nX59D8A6uttmFusuAomOUy2uum5LL5ZG+osCIUP1sSiYkZR3R8LDYczHph2O+R31K8uRC1SaGN4/cbQ==";
+        };
+        _jN8WXD9I = {
+            "id" = "jN8WXD9I";
+            "file" = "Scatha-Pro v2.4 - 26.2.jar";
+            "hash" = "sha512-nMG+EFXlSEMLeZraT74wt54ZfFZzhaPXUUgOqRL2d/mZH7qtLHgEk4Z5x4sOSdfZHk2wYehpSLZ0GSr+jrs/GA==";
+        };
+        _ets5g5yX = {
+            "id" = "ets5g5yX";
+            "file" = "Scatha-Pro v2.4 - 26.3.jar";
+            "hash" = "sha512-Qnb85IA9qse5wKKKHvFcJF6uvlj7LP5YQdhpXODUAy/D3VMOY75ipyf0roq2GEtqTJEpEfEj3+/lUqyEXGECbQ==";
+        };
+        _Tgg5dgfy = {
+            "id" = "Tgg5dgfy";
+            "file" = "Scatha-Pro v2.4.1 (26.1.2).jar";
+            "hash" = "sha512-9meTFepSBPZqH0jzAQBa9QPuYRWAUZXXizxNy6Y8fLqgqgZj3qnT/U7BHPMTZU5XxQXRG+HgRjGU9X++NdhVnA==";
+        };
+        _7xQuqGpW = {
+            "id" = "7xQuqGpW";
+            "file" = "Scatha-Pro v2.4.1 (26.2).jar";
+            "hash" = "sha512-T7ai9T5qEaxtUwSzP4TqCWxl88gvjDg8HpfYsFRAuS+XJToe7befW3tAjB/jJ3n6F0fP9PmryrWYyB2m8YnUzA==";
+        };
+        _W9wPiEkQ = {
+            "id" = "W9wPiEkQ";
+            "file" = "Scatha-Pro v2.4.1 (26.3).jar";
+            "hash" = "sha512-RKms/lmzlIc+qJPs+u6ahWMoXPjGmAxpr0DgO3xey5Ib1Xsfns7ebcvJsPN5Z227aeElxiGbDYw4sBxWNzUDaw==";
+        };
+        _IYT385Gc = {
+            "id" = "IYT385Gc";
+            "file" = "Scatha-Pro v2.5 (MC 26.1.2).jar";
+            "hash" = "sha512-pfoakL+cDOc10RobJYo2fwoeehTsEqISajlGyhaYeOFabb69+pPazc6IWTKJ6QJP9C+cOqvLYwdjJXWPt21LEw==";
+        };
+        _e3uTV6qz = {
+            "id" = "e3uTV6qz";
+            "file" = "Scatha-Pro v2.5 (MC 26.2).jar";
+            "hash" = "sha512-ObuU2gsUhpbbf0VHOEr40QeuvY6L+Jac09EwXSyIFZRTSvsiN/1CXjts8H8shgDVI1nUm9x2ltxS9AiFb2lnDg==";
+        };
+        _iMD3VjQj = {
+            "id" = "iMD3VjQj";
+            "file" = "Scatha-Pro v2.5 (MC 26.3).jar";
+            "hash" = "sha512-aE9VtpWEmodwIEFgYvwZA6duUaki5LefYgevXwIZIkyw3lbVq7nHcW5bbC/fOvuqbeB39sbSOIGE2KmHMX1YQA==";
+        };
     in {
         "7Fsj9znk" = _7Fsj9znk;
         "avgfLoHB" = _avgfLoHB;
@@ -128,14 +173,24 @@ let
         "wbUVAOJE" = _wbUVAOJE;
         "M7e2Kzeg" = _M7e2Kzeg;
         "vx2g4VHN" = _vx2g4VHN;
+        "qQAKcIC0" = _qQAKcIC0;
+        "jN8WXD9I" = _jN8WXD9I;
+        "ets5g5yX" = _ets5g5yX;
+        "Tgg5dgfy" = _Tgg5dgfy;
+        "7xQuqGpW" = _7xQuqGpW;
+        "W9wPiEkQ" = _W9wPiEkQ;
+        "IYT385Gc" = _IYT385Gc;
+        "e3uTV6qz" = _e3uTV6qz;
+        "iMD3VjQj" = _iMD3VjQj;
         "forge-1.8.9" = _YCTI0zxf;
         "fabric-1.21.11" = _SU0LKCmG;
         "fabric-1.21.9" = _T7IBEiH1;
         "fabric-1.21.10" = _T7IBEiH1;
-        "fabric-26.1.1" = _vx2g4VHN;
-        "fabric-26.1.2" = _vx2g4VHN;
-        "fabric-26.1" = _vx2g4VHN;
-        "fabric-26.2" = _M7e2Kzeg;
+        "fabric-26.1.1" = _IYT385Gc;
+        "fabric-26.1.2" = _IYT385Gc;
+        "fabric-26.1" = _IYT385Gc;
+        "fabric-26.2" = _e3uTV6qz;
+        "fabric-26.3" = _iMD3VjQj;
         "pkg-1.2.3.1" = _7Fsj9znk;
         "pkg-1.3" = _avgfLoHB;
         "pkg-1.3.1" = _HrGCDh6y;
@@ -153,7 +208,10 @@ let
         "pkg-2.2.1" = _j1gvPNyT;
         "pkg-2.2.2" = _wbUVAOJE;
         "pkg-2.3" = _vx2g4VHN;
-        "default" = _vx2g4VHN;
+        "pkg-2.4" = _ets5g5yX;
+        "pkg-2.4.1" = _W9wPiEkQ;
+        "pkg-2.5" = _iMD3VjQj;
+        "default" = _iMD3VjQj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "scatha-pro";

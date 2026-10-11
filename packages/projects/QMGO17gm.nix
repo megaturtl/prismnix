@@ -211,6 +211,11 @@ let
             "file" = "create_factory_logistics-1.21.1-1.6.0-all.jar";
             "hash" = "sha512-rrPDwl2FhO1tG7QxtQkMfaby4PshGeuLARP0+sXVnRiHkpBHTISZT15xPEWnXVMreUlgnIvqUARBiLL7iJlQ0A==";
         };
+        _6lav8Nc5 = {
+            "id" = "6lav8Nc5";
+            "file" = "create_factory_logistics-1.21.1-1.6.1-all.jar";
+            "hash" = "sha512-w7COf64Mb0ek9Xb0Emspjd3zsYShSxXGedyMI4yfBme8zKZ6kDiNKNkVchbDg2ZLqm2c+CE7MTcJPxr7I7oZ4A==";
+        };
     in {
         "KKb1Sd4A" = _KKb1Sd4A;
         "oNJG6Khh" = _oNJG6Khh;
@@ -254,8 +259,9 @@ let
         "pny20RPZ" = _pny20RPZ;
         "wCA2DnFv" = _wCA2DnFv;
         "4Drrlfu3" = _4Drrlfu3;
+        "6lav8Nc5" = _6lav8Nc5;
         "forge-1.20.1" = _cFuYsO3r;
-        "neoforge-1.21.1" = _4Drrlfu3;
+        "neoforge-1.21.1" = _6lav8Nc5;
         "pkg-1.0.0" = _KKb1Sd4A;
         "pkg-1.0.1" = _oNJG6Khh;
         "pkg-1.0.2" = _pDrr9daM;
@@ -290,7 +296,8 @@ let
         "pkg-1.5.2" = _pny20RPZ;
         "pkg-1.5.3" = _wCA2DnFv;
         "pkg-1.6.0" = _4Drrlfu3;
-        "default" = _4Drrlfu3;
+        "pkg-1.6.1" = _6lav8Nc5;
+        "default" = _6lav8Nc5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create_factory_logistics";

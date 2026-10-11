@@ -91,6 +91,16 @@ let
             "file" = "the_fletching_table_mod-neoforge-26.1.2-1.4.jar";
             "hash" = "sha512-Gtk06jdYPACFq7fOu59XT91Jp3ypWN6CqKU/lOkWihaMcmbW6vAwyaMwrA9u8i/m/LJBxHCLJUyV3fnzf+NKfA==";
         };
+        _lRGdZ3Tl = {
+            "id" = "lRGdZ3Tl";
+            "file" = "the_fletching_table_mod-fabric-26.3-1.4.jar";
+            "hash" = "sha512-H78TYw1XpetnomqMd5KsG23z/ra/uE+/KVAe+Xeo4prgB2Md24AYISjzOGE6UPw5a7uwGqrSAXOUb0L2gxq/ow==";
+        };
+        _QMOU4vgZ = {
+            "id" = "QMOU4vgZ";
+            "file" = "the_fletching_table_mod-neoforge-26.3-1.4.jar";
+            "hash" = "sha512-dBcACI2s+QKg499ShccTBBepHiKaKmN2/DNuFeq3Ta4KtQjY0rSQ0iD4DTReiYYCPzKED/dz41o3oZMZ3EtKiA==";
+        };
     in {
         "SzVbDANN" = _SzVbDANN;
         "NE6JOVRf" = _NE6JOVRf;
@@ -110,6 +120,8 @@ let
         "gPIGDhKC" = _gPIGDhKC;
         "hO55Amfs" = _hO55Amfs;
         "PMSGigID" = _PMSGigID;
+        "lRGdZ3Tl" = _lRGdZ3Tl;
+        "QMOU4vgZ" = _QMOU4vgZ;
         "forge-1.15.2" = _SzVbDANN;
         "forge-1.16.4" = _NE6JOVRf;
         "forge-1.16.5" = _9k0PNNh1;
@@ -125,19 +137,24 @@ let
         "neoforge-1.21.11" = _gPIGDhKC;
         "neoforge-26.1.2" = _PMSGigID;
         "neoforge-26.2" = _PMSGigID;
+        "neoforge-26.3" = _QMOU4vgZ;
         "fabric-1.21.1" = _sfntHYu6;
         "fabric-1.16.5" = _bYJF4Kok;
         "fabric-1.21.11" = _uYz09dX7;
         "fabric-26.1.2" = _hO55Amfs;
         "fabric-26.2" = _hO55Amfs;
+        "fabric-26.3" = _lRGdZ3Tl;
         "quilt-1.21.1" = _sfntHYu6;
         "quilt-1.21.11" = _uYz09dX7;
         "quilt-26.1.2" = _hO55Amfs;
         "quilt-26.2" = _hO55Amfs;
+        "quilt-26.3" = _lRGdZ3Tl;
         "pkg-1.2" = _fqxIOebX;
         "pkg-1.3" = _Emm4MuMN;
         "pkg-1.4" = _PMSGigID;
-        "default" = _PMSGigID;
+        "pkg-1.4+fabric.build.2" = _lRGdZ3Tl;
+        "pkg-1.4+neoforge.build.2" = _QMOU4vgZ;
+        "default" = _QMOU4vgZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-fletching-table-mod";

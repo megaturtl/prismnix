@@ -51,6 +51,11 @@ let
             "file" = "dnmmod-1.1.1-1.20.1.jar";
             "hash" = "sha512-ywuE4hSxOz4soXM1YV3e0W+/QMErsX57vMSis/FUTqrBYJYyn/tU3yzfrkt+7nK5EYqtsz4qpmTTYJ9+sdkTEQ==";
         };
+        _P9YExsZN = {
+            "id" = "P9YExsZN";
+            "file" = "dnmmod-1.1.2-1.20.1.jar";
+            "hash" = "sha512-7jCtz/U4vQnfL2plhK2FKhblo3ykZnfU42qvSI2Kg3kdhKY8lUrpn7c09Z416IJQhpGMkdlMD1LcM/ZvHMxHfQ==";
+        };
     in {
         "Ry7M8Nnn" = _Ry7M8Nnn;
         "jK14qSe3" = _jK14qSe3;
@@ -62,7 +67,8 @@ let
         "K22PXmgh" = _K22PXmgh;
         "RDzUV822" = _RDzUV822;
         "cZFTXy3q" = _cZFTXy3q;
-        "forge-1.20.1" = _cZFTXy3q;
+        "P9YExsZN" = _P9YExsZN;
+        "forge-1.20.1" = _P9YExsZN;
         "pkg-0.0.1-1.20.1" = _Ry7M8Nnn;
         "pkg-0.0.2-1.20.1" = _jK14qSe3;
         "pkg-0.0.3-1.20.1" = _OnWuhlQ6;
@@ -73,7 +79,8 @@ let
         "pkg-1.0.0-1.20.1" = _K22PXmgh;
         "pkg-1.1.0-1.20.1" = _RDzUV822;
         "pkg-1.1.1-1.20.1" = _cZFTXy3q;
-        "default" = _cZFTXy3q;
+        "pkg-1.1.2-1.20.1" = _P9YExsZN;
+        "default" = _P9YExsZN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dungeons-and-minecraft";

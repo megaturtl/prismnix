@@ -51,6 +51,16 @@ let
             "file" = "IronSmelters-neoforge-1.21.1-21.1.0.6.jar";
             "hash" = "sha512-a4m4mhNSTRFrskq7RsrkDo8/UCBrbmmi0IFWSX/87DyrHcQ4D/EkoV5YrfwBcl5uI+Ym5iqR0EY25O8lmw4tSg==";
         };
+        _X7jwVt4D = {
+            "id" = "X7jwVt4D";
+            "file" = "IronSmelters-fabric-26.1.2-26.1.2.2.jar";
+            "hash" = "sha512-TjOZgpRl8fVG+IWKNwqykgu+qbgU3P6KjyPj25C+Q0y75JgyC5zNcJzGQxyHZe7ZfQ3KvAUIoqcDVGViYVzFEQ==";
+        };
+        _B7easg6O = {
+            "id" = "B7easg6O";
+            "file" = "IronSmelters-neoforge-26.1.2-26.1.2.2.jar";
+            "hash" = "sha512-RuamQymowSF/Gauh0Zl48Yel9ShdqcN35Jimrk9uhvOujjkpnsNvRbUz6MKP95/XXIQ9MQcfqCL8wkjRqKRWRA==";
+        };
     in {
         "t2Ioxobi" = _t2Ioxobi;
         "OTLRZe5a" = _OTLRZe5a;
@@ -62,14 +72,19 @@ let
         "kMckbbGX" = _kMckbbGX;
         "MDFbjVSN" = _MDFbjVSN;
         "5u0nZKsv" = _5u0nZKsv;
+        "X7jwVt4D" = _X7jwVt4D;
+        "B7easg6O" = _B7easg6O;
         "fabric-1.21.1" = _MDFbjVSN;
+        "fabric-26.1.2" = _X7jwVt4D;
         "neoforge-1.21.1" = _5u0nZKsv;
+        "neoforge-26.1.2" = _B7easg6O;
         "pkg-21.1.0.2" = _OTLRZe5a;
         "pkg-21.1.0.3" = _5DFWQ4mk;
         "pkg-21.1.0.4" = _YAxuyZF5;
         "pkg-21.1.0.5" = _kMckbbGX;
         "pkg-21.1.0.6" = _5u0nZKsv;
-        "default" = _5u0nZKsv;
+        "pkg-26.1.2.2" = _B7easg6O;
+        "default" = _B7easg6O;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "iron-smelters";

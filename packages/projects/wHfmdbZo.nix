@@ -16,15 +16,22 @@ let
             "file" = "binnie-mods-1.12.2-2.5.1.213.jar";
             "hash" = "sha512-9SLrjRK+WTVRVLl7723RyP47p12M/xT+OYxS9VgO23Ip09fr++fruhncsFusNeHoRlmRo238etnmnzJy7S0uLg==";
         };
+        _GqYdOZcg = {
+            "id" = "GqYdOZcg";
+            "file" = "binnie-mods-1.12.2-2.5.1.214.jar";
+            "hash" = "sha512-cfgiO5QbqeurT0oPNmgLyXADR8GV9JRPfilHZIsGTgBrT8CQ1o5q1NoVZblXuP/2UIBvLlh7eAnYyDI0rUP6wA==";
+        };
     in {
         "LBhZRXFG" = _LBhZRXFG;
         "MBBkMeu4" = _MBBkMeu4;
         "1Caw2kOt" = _1Caw2kOt;
-        "forge-1.12.2" = _1Caw2kOt;
+        "GqYdOZcg" = _GqYdOZcg;
+        "forge-1.12.2" = _GqYdOZcg;
         "pkg-2.5.1.210" = _LBhZRXFG;
         "pkg-2.5.1.212" = _MBBkMeu4;
         "pkg-2.5.1.213" = _1Caw2kOt;
-        "default" = _1Caw2kOt;
+        "pkg-2.5.1.214" = _GqYdOZcg;
+        "default" = _GqYdOZcg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "binnies-mods-patched";

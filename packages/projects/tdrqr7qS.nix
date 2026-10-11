@@ -731,6 +731,16 @@ let
             "file" = "dimore-neoforge-1.6.0+mc26.2.jar";
             "hash" = "sha512-Yh+1lI6Qo5sWIfwK6I41dDh8vU04ivNueJQa8y6a+TDD5BBpoNY0AWBv6GSDQ53Rotcg9T7ONwYLH5ENgCQo9g==";
         };
+        _7OW5HLyO = {
+            "id" = "7OW5HLyO";
+            "file" = "dimore-neoforge-1.6.0+mc26.3.jar";
+            "hash" = "sha512-IGsindxLV4N21D/2iEDTNfpLago9UtB+3p0pXT0q/YF95AFlmxf79J1I4ux5SlvxhPxrZ0vfrQZDFW73PFAN7g==";
+        };
+        _hzQnpz3F = {
+            "id" = "hzQnpz3F";
+            "file" = "dimore-fabric-1.6.0+mc26.3.jar";
+            "hash" = "sha512-E7eh6GM4yT651XAcTaC/FWD27shsMI8tUnR+S/hPGlXHhsoIFHXecS5KlkbmdS2LJTNXms1IdfPoisYGra0Odg==";
+        };
     in {
         "Extw67VB" = _Extw67VB;
         "u8PObBlF" = _u8PObBlF;
@@ -878,6 +888,8 @@ let
         "3Y02sgcO" = _3Y02sgcO;
         "yjQKI4Qt" = _yjQKI4Qt;
         "lYnfqvMx" = _lYnfqvMx;
+        "7OW5HLyO" = _7OW5HLyO;
+        "hzQnpz3F" = _hzQnpz3F;
         "forge-1.16.5" = _Extw67VB;
         "forge-1.17.1" = _u8PObBlF;
         "forge-1.18.2" = _5on6YmTR;
@@ -903,6 +915,7 @@ let
         "neoforge-26.1.1" = _3Y02sgcO;
         "neoforge-26.1.2" = _3Y02sgcO;
         "neoforge-26.2" = _lYnfqvMx;
+        "neoforge-26.3" = _7OW5HLyO;
         "fabric-1.21.10" = _gfhxCtBR;
         "fabric-1.21.1" = _YH2tq2fR;
         "fabric-1.21.2" = _neDA5xhC;
@@ -919,6 +932,7 @@ let
         "fabric-26.1.1" = _SZOJLkEC;
         "fabric-26.1.2" = _SZOJLkEC;
         "fabric-26.2" = _yjQKI4Qt;
+        "fabric-26.3" = _hzQnpz3F;
         "pkg-forge-1.16.5_v.1.0.0.9" = _Extw67VB;
         "pkg-forge-1.17.1_v.1.0.0" = _u8PObBlF;
         "pkg-forge-1.18.2_v.1.0.0" = _5on6YmTR;
@@ -1056,7 +1070,9 @@ let
         "pkg-neoforge-1.6.0+mc26.1" = _3Y02sgcO;
         "pkg-fabric-1.6.0+mc26.2" = _yjQKI4Qt;
         "pkg-neoforge-1.6.0+mc26.2" = _lYnfqvMx;
-        "default" = _lYnfqvMx;
+        "pkg-neoforge-1.6.0+mc26.3" = _7OW5HLyO;
+        "pkg-fabric-1.6.0+mc26.3" = _hzQnpz3F;
+        "default" = _hzQnpz3F;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dimore";

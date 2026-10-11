@@ -221,6 +221,66 @@ let
             "file" = "RecurrentComplexVolts-Fabric-26.1.2-0.7.2.0.jar";
             "hash" = "sha512-u6cmZZwVU0bRPa/SlIpbQVVe+0y60Yulj3eLZgW9ZgBBoHic+SheAoreL+3nlTax5n8VdKvDjC/NhyEytC/jiA==";
         };
+        _XDKc0ocz = {
+            "id" = "XDKc0ocz";
+            "file" = "RecurrentComplexVolts-1.20.1-0.7.3.0.jar";
+            "hash" = "sha512-ORSGlmwD1j2/4xv+oMnklBy3RNjTxPJg1U3k6SBtYIiHjNOA/VWi08xdoECtxT7JU6f4qpVyoHQGgH/TXjAbJQ==";
+        };
+        _wuQ1vWhy = {
+            "id" = "wuQ1vWhy";
+            "file" = "RecurrentComplexVolts-1.21.1-0.7.3.0.jar";
+            "hash" = "sha512-1ZAkDvem+ky060CwoeRBGf42rfZR0MXSE6p1dlXKJsHSXsnhn+Ln3J/T9YWB7krLBsKtRw9ksKsM/acIq/68IA==";
+        };
+        _ClgmrKqD = {
+            "id" = "ClgmrKqD";
+            "file" = "RecurrentComplexVolts-26.1.2-0.7.3.0.jar";
+            "hash" = "sha512-WUTGZZ4C65tSSHq5vbQY8AoS+NAt4cu3/b9OJJBkEyfg9MOys51+6LfoVPzj10jFW5h+erw2XXBLGmwbKsnO9w==";
+        };
+        _bbI4oqDF = {
+            "id" = "bbI4oqDF";
+            "file" = "RecurrentComplexVolts-Fabric-1.20.1-0.7.3.0.jar";
+            "hash" = "sha512-zEkMCVGil7lNrYJxyzeQNcGo7A2SuQQlyw3ceF+3TpDIMxkADoSDSEnQJvW2LsPrMOiyNpGMXgQpC3n/7VcUlA==";
+        };
+        _smevTsPL = {
+            "id" = "smevTsPL";
+            "file" = "RecurrentComplexVolts-Fabric-1.21.1-0.7.3.0.jar";
+            "hash" = "sha512-sDjhCPEmzjs3GRujrPfSZWPG5R4QrLb8XiGXnkv6BvJa/IZMNG4+05hSPf222F/H4Z5rFCsxudevFHDNDthGUA==";
+        };
+        _5fvnUWMh = {
+            "id" = "5fvnUWMh";
+            "file" = "RecurrentComplexVolts-Fabric-26.1.2-0.7.3.0.jar";
+            "hash" = "sha512-Nu8mHXKEiaCbZtf1T6QA4xrX0Y11nILioyBPlz2TLR5FCO0cxIk8zLtB6vTzam2cP5/GJfcEEqX6RXDtnU/mOg==";
+        };
+        _FLJMn3oy = {
+            "id" = "FLJMn3oy";
+            "file" = "RecurrentComplexVolts-1.20.1-0.7.3.1.jar";
+            "hash" = "sha512-DfIDfQ8gJrzx3Lv2vhbZqUI6ay0tMCQ5DrAXWnvCnY19OWL4QBgrERhcDMbWousESzv5S/btSEx7j59L6OrH7w==";
+        };
+        _jFu9AtbP = {
+            "id" = "jFu9AtbP";
+            "file" = "RecurrentComplexVolts-26.2-0.7.3.0.jar";
+            "hash" = "sha512-eWColKcOKls6GYKj59eGLbrKOiJCaj9SKj06x5WCJZ8jRlt0db+vqbCtqHwfgerZa2Qr4ICN9OwF2uc+/m+jdw==";
+        };
+        _knBPdrOY = {
+            "id" = "knBPdrOY";
+            "file" = "RecurrentComplexVolts-26.3-0.7.3.0.jar";
+            "hash" = "sha512-sDpoTkShgImGhj5+RwsdaEjwkV+hKnppPw7zvtue55e8tOiUQXtK59vdZimPT78KCtqjKz/6bAYV9why2QnOKA==";
+        };
+        _zlAxJjx4 = {
+            "id" = "zlAxJjx4";
+            "file" = "RecurrentComplexVolts-Fabric-26.2-0.7.3.0.jar";
+            "hash" = "sha512-KXUr3bbItl1nYI2ONnJuOAeSoWfqBNwk/k2WpL+PsuvSTH1xv/LwIaCK26K8LOU7abdZryLzEQ9FzABM7/NT2Q==";
+        };
+        _QFaWHH4P = {
+            "id" = "QFaWHH4P";
+            "file" = "RecurrentComplexVolts-Fabric-26.3-0.7.3.0.jar";
+            "hash" = "sha512-6niMpJU4bcdwAhYgKVy75jWZ6bxuMgT+1Xk1LNSbm0cfzcIysiJtt62eYyzIwPkROeQ7gWV/hj3QN4JyiA2fEw==";
+        };
+        _kLG17IkE = {
+            "id" = "kLG17IkE";
+            "file" = "RecurrentComplexVolts-1.12.2-2.0.1.2.jar";
+            "hash" = "sha512-E9OHbNqQoLpfrT7j/E2AHyvEDKpUr+KXOPfs4fpMROTPNffxx1E2mpmfVEKBFjplNblUcAJWqSqETg36gpWzjQ==";
+        };
     in {
         "ryrMcxGi" = _ryrMcxGi;
         "UK1dTNXH" = _UK1dTNXH;
@@ -266,31 +326,47 @@ let
         "f4yHCxmz" = _f4yHCxmz;
         "6C0NHdCD" = _6C0NHdCD;
         "IbsIk0Z8" = _IbsIk0Z8;
-        "forge-1.20.1" = _MUOLSFTm;
-        "forge-1.20.2" = _MUOLSFTm;
-        "forge-1.20.3" = _MUOLSFTm;
-        "forge-1.20.4" = _MUOLSFTm;
-        "forge-1.20.5" = _MUOLSFTm;
-        "forge-1.20.6" = _MUOLSFTm;
-        "forge-1.12" = _xLaSEjH6;
-        "forge-1.12.1" = _xLaSEjH6;
-        "forge-1.12.2" = _xLaSEjH6;
-        "forge-1.20" = _MUOLSFTm;
-        "neoforge-1.21.1" = _IRaNACoe;
-        "neoforge-26.1" = _c4MQ3FIL;
-        "neoforge-26.1.1" = _c4MQ3FIL;
-        "neoforge-26.1.2" = _c4MQ3FIL;
-        "fabric-1.20" = _f4yHCxmz;
-        "fabric-1.20.1" = _f4yHCxmz;
-        "fabric-1.20.2" = _f4yHCxmz;
-        "fabric-1.20.3" = _f4yHCxmz;
-        "fabric-1.20.4" = _f4yHCxmz;
-        "fabric-1.20.5" = _f4yHCxmz;
-        "fabric-1.20.6" = _f4yHCxmz;
-        "fabric-1.21.1" = _6C0NHdCD;
-        "fabric-26.1" = _IbsIk0Z8;
-        "fabric-26.1.1" = _IbsIk0Z8;
-        "fabric-26.1.2" = _IbsIk0Z8;
+        "XDKc0ocz" = _XDKc0ocz;
+        "wuQ1vWhy" = _wuQ1vWhy;
+        "ClgmrKqD" = _ClgmrKqD;
+        "bbI4oqDF" = _bbI4oqDF;
+        "smevTsPL" = _smevTsPL;
+        "5fvnUWMh" = _5fvnUWMh;
+        "FLJMn3oy" = _FLJMn3oy;
+        "jFu9AtbP" = _jFu9AtbP;
+        "knBPdrOY" = _knBPdrOY;
+        "zlAxJjx4" = _zlAxJjx4;
+        "QFaWHH4P" = _QFaWHH4P;
+        "kLG17IkE" = _kLG17IkE;
+        "forge-1.20.1" = _FLJMn3oy;
+        "forge-1.20.2" = _FLJMn3oy;
+        "forge-1.20.3" = _FLJMn3oy;
+        "forge-1.20.4" = _FLJMn3oy;
+        "forge-1.20.5" = _FLJMn3oy;
+        "forge-1.20.6" = _FLJMn3oy;
+        "forge-1.12" = _kLG17IkE;
+        "forge-1.12.1" = _kLG17IkE;
+        "forge-1.12.2" = _kLG17IkE;
+        "forge-1.20" = _FLJMn3oy;
+        "neoforge-1.21.1" = _wuQ1vWhy;
+        "neoforge-26.1" = _ClgmrKqD;
+        "neoforge-26.1.1" = _ClgmrKqD;
+        "neoforge-26.1.2" = _ClgmrKqD;
+        "neoforge-26.2" = _jFu9AtbP;
+        "neoforge-26.3" = _knBPdrOY;
+        "fabric-1.20" = _bbI4oqDF;
+        "fabric-1.20.1" = _bbI4oqDF;
+        "fabric-1.20.2" = _bbI4oqDF;
+        "fabric-1.20.3" = _bbI4oqDF;
+        "fabric-1.20.4" = _bbI4oqDF;
+        "fabric-1.20.5" = _bbI4oqDF;
+        "fabric-1.20.6" = _bbI4oqDF;
+        "fabric-1.21.1" = _smevTsPL;
+        "fabric-26.1" = _5fvnUWMh;
+        "fabric-26.1.1" = _5fvnUWMh;
+        "fabric-26.1.2" = _5fvnUWMh;
+        "fabric-26.2" = _zlAxJjx4;
+        "fabric-26.3" = _QFaWHH4P;
         "pkg-0.1.0.0" = _ryrMcxGi;
         "pkg-2.0.0.3" = _UK1dTNXH;
         "pkg-0.2.0.0" = _7Ufw1xQK;
@@ -313,7 +389,10 @@ let
         "pkg-2.0.1.1" = _xLaSEjH6;
         "pkg-0.7.1.0" = _HsyL2cGG;
         "pkg-0.7.2.0" = _IbsIk0Z8;
-        "default" = _IbsIk0Z8;
+        "pkg-0.7.3.0" = _QFaWHH4P;
+        "pkg-0.7.3.1" = _FLJMn3oy;
+        "pkg-2.0.1.2" = _kLG17IkE;
+        "default" = _kLG17IkE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "recurrent-complex-volts";

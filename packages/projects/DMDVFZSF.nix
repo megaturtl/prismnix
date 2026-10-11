@@ -76,6 +76,26 @@ let
             "file" = "letsdo-lilis_lucky_lures-fabric-1.1.3.jar";
             "hash" = "sha512-gVKRl8DvcaydYe69NqpQD+Ry0M5cwKFY9ItCF8Kk/2NRK7hjPcvsJcvZ7sfpyOPgWyJjhmAMwjkPG7izimoE5Q==";
         };
+        _LRbH128g = {
+            "id" = "LRbH128g";
+            "file" = "letsdo-lilis_lucky_lures-neoforge-1.1.4.jar";
+            "hash" = "sha512-p+/uVJxd6sd3eqLzNn1XqGgfH99Muo3t66Rg+D07mVg7OAA5f2YW3gT3kwtexkDGSuqrs90A0UTeVw6ZRREYRQ==";
+        };
+        _uetOfrLU = {
+            "id" = "uetOfrLU";
+            "file" = "letsdo-lilis_lucky_lures-fabric-1.1.4.jar";
+            "hash" = "sha512-IGCAUaXvhxiPAj4yEZn1gCrsLS/dp3mCAzimGCi3Xhaur7o5nrpzxs2+7Oso8nLuwj3iIynbxNcrAAaGPcKdlQ==";
+        };
+        _RTFJOHAV = {
+            "id" = "RTFJOHAV";
+            "file" = "letsdo-lilis_lucky_lures-neoforge-1.1.5.jar";
+            "hash" = "sha512-jvq0V0VAYNuQ/zfao1mGoFZ5J9i5PjZTAgmDKfFVc2F2aQ1AmeB6tXyFF18x74CPUv7WEO3X5md50bd+pAlY+g==";
+        };
+        _l2BJormI = {
+            "id" = "l2BJormI";
+            "file" = "letsdo-lilis_lucky_lures-fabric-1.1.5.jar";
+            "hash" = "sha512-sRWu7IViI8IPjk1bjJz+ly90K27Y5oU/bUnU6lccvoCzksOPYkuOR1ueilftHc19UG4X6LI3ViGa8nNFkpzkLQ==";
+        };
     in {
         "r3oBGB6V" = _r3oBGB6V;
         "6O3eMXtb" = _6O3eMXtb;
@@ -92,10 +112,14 @@ let
         "IFcaanap" = _IFcaanap;
         "5QkbWc5J" = _5QkbWc5J;
         "jthdaDwE" = _jthdaDwE;
+        "LRbH128g" = _LRbH128g;
+        "uetOfrLU" = _uetOfrLU;
+        "RTFJOHAV" = _RTFJOHAV;
+        "l2BJormI" = _l2BJormI;
         "forge-1.20.1" = _Jj8XQNhw;
         "fabric-1.20.1" = _ioN1lw2R;
-        "fabric-1.21.1" = _jthdaDwE;
-        "neoforge-1.21.1" = _5QkbWc5J;
+        "fabric-1.21.1" = _l2BJormI;
+        "neoforge-1.21.1" = _RTFJOHAV;
         "pkg-1.0.0" = _6O3eMXtb;
         "pkg-1.0.1" = _dmfnjQ0o;
         "pkg-1.0.2" = _ioN1lw2R;
@@ -104,7 +128,9 @@ let
         "pkg-1.1.2" = _olZMcQzf;
         "pkg-1.1.2-fabric" = _IFcaanap;
         "pkg-1.1.3" = _jthdaDwE;
-        "default" = _jthdaDwE;
+        "pkg-1.1.4" = _uetOfrLU;
+        "pkg-1.1.5" = _l2BJormI;
+        "default" = _l2BJormI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lets-do-lilis-lucky-lures";

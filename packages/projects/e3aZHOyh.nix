@@ -326,6 +326,16 @@ let
             "file" = "StructureCompass-26.1.2-6.1.0.jar";
             "hash" = "sha512-gpF5sfDQVEqzSz8qmTuM9phkEgsbybLRSQODtvpx5lgwtr3jN6IHosq5pEXvtaZfBjtt7baSz6jmSZPhUV/npQ==";
         };
+        _hioTbHsu = {
+            "id" = "hioTbHsu";
+            "file" = "StructureCompass-26.3-8.0.0.jar";
+            "hash" = "sha512-hSxOf/jDAu/DLr5JRNQ9ZHfoTWxnB8v84adFAfOsKKkFsG4K8pRqR7WkIJZhTCTN2biIycvp5hVM+pU0m67Gmg==";
+        };
+        _nP0KQued = {
+            "id" = "nP0KQued";
+            "file" = "StructureCompass-26.3-8.0.1.jar";
+            "hash" = "sha512-VCIpZfytIatCVG5UB3p1wZqfUXquFF3suTU2tjYxfF6FVMuDycAFZmEo/eqJLfookL+owifZHsY8t0jxnPS8tQ==";
+        };
     in {
         "KbEZ8czi" = _KbEZ8czi;
         "lQbwvga5" = _lQbwvga5;
@@ -392,6 +402,8 @@ let
         "QesYrsMy" = _QesYrsMy;
         "10eNtMfJ" = _10eNtMfJ;
         "WaoCXDDk" = _WaoCXDDk;
+        "hioTbHsu" = _hioTbHsu;
+        "nP0KQued" = _nP0KQued;
         "forge-1.18.2" = _xJy3yMdI;
         "forge-1.15.2" = _lQbwvga5;
         "forge-1.18" = _wKA2bhKj;
@@ -416,6 +428,7 @@ let
         "neoforge-1.21.11" = _4qRrWdtx;
         "neoforge-26.1" = _T8DEBY81;
         "neoforge-26.1.2" = _WaoCXDDk;
+        "neoforge-26.3" = _nP0KQued;
         "pkg-1.3.1.0" = _KbEZ8czi;
         "pkg-1.2.0.0" = _lQbwvga5;
         "pkg-1.3.0.3" = _wKA2bhKj;
@@ -467,7 +480,9 @@ let
         "pkg-4.2.0" = _QesYrsMy;
         "pkg-4.2.1" = _10eNtMfJ;
         "pkg-6.1.0" = _WaoCXDDk;
-        "default" = _WaoCXDDk;
+        "pkg-8.0.0" = _hioTbHsu;
+        "pkg-8.0.1" = _nP0KQued;
+        "default" = _nP0KQued;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "structure-compass";

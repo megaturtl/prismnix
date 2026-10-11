@@ -56,6 +56,11 @@ let
             "file" = "BetterServerPacksFabric-1.2.2+26.2.jar";
             "hash" = "sha512-CZFvKF23qOp9vVmL6YajqzoVxVEGSI4MFn+rA3W8K35lvEB6J1bO3FqbFFj/7LW3dIOlkY6wIcuwC/Nb6M148w==";
         };
+        _xI3vMOA0 = {
+            "id" = "xI3vMOA0";
+            "file" = "BetterServerPacksFabric-1.2.2+26.3.jar";
+            "hash" = "sha512-d3lGgu54rzux3a8i0adJi9TzVoceB75SyCh62MDwuiNr1Vblos8uw44DPIXpb9TRTVcIDvh/sW6lQC57IueqaQ==";
+        };
     in {
         "FahFiqIo" = _FahFiqIo;
         "Gl0RnmKE" = _Gl0RnmKE;
@@ -68,6 +73,7 @@ let
         "mDlKd1vf" = _mDlKd1vf;
         "rCbbTM3e" = _rCbbTM3e;
         "BLNYFBun" = _BLNYFBun;
+        "xI3vMOA0" = _xI3vMOA0;
         "fabric-1.21" = _2lyP6G9v;
         "fabric-1.21.1" = _2lyP6G9v;
         "fabric-1.21.2" = _2lyP6G9v;
@@ -82,13 +88,15 @@ let
         "fabric-1.21.11" = _mDlKd1vf;
         "fabric-26.1" = _rCbbTM3e;
         "fabric-26.2" = _BLNYFBun;
+        "fabric-26.3" = _xI3vMOA0;
         "pkg-1.0" = _FahFiqIo;
         "pkg-1.1.0" = _n903EFbr;
         "pkg-1.2.0" = _dErUSKla;
         "pkg-1.2.1" = _mDlKd1vf;
         "pkg-1.2.1+26.1" = _rCbbTM3e;
         "pkg-1.2.2+26.2" = _BLNYFBun;
-        "default" = _BLNYFBun;
+        "pkg-1.2.2+26.3" = _xI3vMOA0;
+        "default" = _xI3vMOA0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-server-packs-fabric";

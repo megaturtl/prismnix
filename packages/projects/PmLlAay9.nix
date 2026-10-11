@@ -326,6 +326,21 @@ let
             "file" = "disablefog-fabric-26.3-rc-2-2.2.1.jar";
             "hash" = "sha512-NNIRZiBjXHBY/5l8tkR4IZkU8gKgWPyLedGrSTKlN1bNU4wuW13QTi5fH+E38x5IRq1lwoa8OMlM4QTfnJjElA==";
         };
+        _mVrGxHDy = {
+            "id" = "mVrGxHDy";
+            "file" = "disablefog-neoforge-26.3-2.2.1.jar";
+            "hash" = "sha512-0a45Y1Na86jduxKHDXaH4v9dJBvMs/zdRctURQ8DDzeuSshpcrE7MLEh5fz4CzWYNt/gGRynnRhM14YbeZ9xqQ==";
+        };
+        _eGXBoiR4 = {
+            "id" = "eGXBoiR4";
+            "file" = "disablefog-fabric-26.3-2.2.1.jar";
+            "hash" = "sha512-+cFFK/SSkDHi4GAkjL5tIHeKdcnQvwY4LvdMCJeOrpUTmseOUA+E8KAPzEQiKeU8lhaxKkhHHxmrcavW21tPFA==";
+        };
+        _p5ig9qjN = {
+            "id" = "p5ig9qjN";
+            "file" = "disablefog-forge-26.3-2.2.1.jar";
+            "hash" = "sha512-dX2boyYDYl33OSIqZ0TK3dbVYgWXFB4EDoSamrZLKHbhVjpvEFtZj4OVgdAH8ubvHec2R57bknaFii9mpAEUjA==";
+        };
     in {
         "ULVyAQy3" = _ULVyAQy3;
         "F4myKCSb" = _F4myKCSb;
@@ -392,6 +407,9 @@ let
         "VhZKaILE" = _VhZKaILE;
         "NsW0SPVc" = _NsW0SPVc;
         "wQFyFajR" = _wQFyFajR;
+        "mVrGxHDy" = _mVrGxHDy;
+        "eGXBoiR4" = _eGXBoiR4;
+        "p5ig9qjN" = _p5ig9qjN;
         "fabric-1.21.2" = _uBidqKHy;
         "fabric-1.21.3" = _uBidqKHy;
         "fabric-1.21.4" = _uBidqKHy;
@@ -422,6 +440,7 @@ let
         "fabric-26.3-snapshot-5" = _VhZKaILE;
         "fabric-26.3-pre-2" = _NsW0SPVc;
         "fabric-26.3-rc-2" = _wQFyFajR;
+        "fabric-26.3" = _eGXBoiR4;
         "quilt-1.21.2" = _uBidqKHy;
         "quilt-1.21.3" = _uBidqKHy;
         "quilt-1.21.4" = _uBidqKHy;
@@ -452,6 +471,7 @@ let
         "quilt-26.3-snapshot-5" = _VhZKaILE;
         "quilt-26.3-pre-2" = _NsW0SPVc;
         "quilt-26.3-rc-2" = _wQFyFajR;
+        "quilt-26.3" = _eGXBoiR4;
         "neoforge-1.21.6" = _nYYDyoq2;
         "neoforge-1.21.7" = _nYYDyoq2;
         "neoforge-1.21.8" = _nYYDyoq2;
@@ -470,6 +490,7 @@ let
         "neoforge-26.1.1" = _ck4ezxnn;
         "neoforge-26.1.2" = _ck4ezxnn;
         "neoforge-26.2" = _P2Dtc2xO;
+        "neoforge-26.3" = _mVrGxHDy;
         "forge-1.21.6" = _8qAq6STO;
         "forge-1.21.7" = _8qAq6STO;
         "forge-1.21.8" = _8qAq6STO;
@@ -483,6 +504,7 @@ let
         "forge-26.1.1" = _2KQZiiRC;
         "forge-26.1.2" = _2KQZiiRC;
         "forge-26.2" = _6eO1Snsk;
+        "forge-26.3" = _p5ig9qjN;
         "pkg-fabric-1.21.4-1.0.0" = _ULVyAQy3;
         "pkg-fabric-1.21.6-1.0.1" = _F4myKCSb;
         "pkg-fabric-1.21.6-1.1.0" = _NrZTVzib;
@@ -506,8 +528,8 @@ let
         "pkg-2.1.0" = _fiYc20tz;
         "pkg-2.1.1" = _WQF3H6gK;
         "pkg-2.2.0" = _ZvSVGLqe;
-        "pkg-2.2.1" = _wQFyFajR;
-        "default" = _wQFyFajR;
+        "pkg-2.2.1" = _p5ig9qjN;
+        "default" = _p5ig9qjN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "disable-fog";

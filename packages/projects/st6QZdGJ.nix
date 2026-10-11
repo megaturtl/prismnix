@@ -31,6 +31,11 @@ let
             "file" = "toggle_toggle_sneak-1.1.jar";
             "hash" = "sha512-YCcxuQ6rQ/vj/vFIO58BOsEbXgm//nM/5eeflPfIQLLA6oq0HGcoL2SjrTcX+Wai6Et8P7KR6lBVBgqUWTstOQ==";
         };
+        _HBgMVS50 = {
+            "id" = "HBgMVS50";
+            "file" = "toggle_toggle_sneak-1.1.jar";
+            "hash" = "sha512-AbLzoULb5mnZsFMeF6/YRTKwNCdD57mWUDzibcjZW2qTPJxAp5Bf2eGgph8qJRSX1TnEh5CrZKB3r4XXS5VhRg==";
+        };
     in {
         "8DFhgbDL" = _8DFhgbDL;
         "G1whA8ZM" = _G1whA8ZM;
@@ -38,6 +43,7 @@ let
         "xCZUS8WF" = _xCZUS8WF;
         "bAO6SNuA" = _bAO6SNuA;
         "CzwD6xgY" = _CzwD6xgY;
+        "HBgMVS50" = _HBgMVS50;
         "fabric-1.21.1" = _WWQh04eL;
         "fabric-1.21.4" = _WWQh04eL;
         "fabric-1.21" = _WWQh04eL;
@@ -54,9 +60,10 @@ let
         "fabric-26.1.1" = _bAO6SNuA;
         "fabric-26.1.2" = _bAO6SNuA;
         "fabric-26.2" = _CzwD6xgY;
+        "fabric-26.3" = _HBgMVS50;
         "pkg-1.0" = _G1whA8ZM;
-        "pkg-1.1.0" = _CzwD6xgY;
-        "default" = _CzwD6xgY;
+        "pkg-1.1.0" = _HBgMVS50;
+        "default" = _HBgMVS50;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "toggle-toggle-sneak";

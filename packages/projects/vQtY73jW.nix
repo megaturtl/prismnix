@@ -61,6 +61,16 @@ let
             "file" = "night-vision-datapack-1.0.0.jar";
             "hash" = "sha512-lv/kiNVY0L6C+ulTtM9vtVF/m6ajtFFhsnHSUkqSvdgSAUskXz3L2dsqSl/DAWJekuqTy5tt8rn9hA0hz/P2lQ==";
         };
+        _F8DvoVXf = {
+            "id" = "F8DvoVXf";
+            "file" = "night-vision-dp_1.0.0-26.3.zip";
+            "hash" = "sha512-fB5puHwrhm5+mleQNTkiNZ4izq36c7Ar3ZGwHmgAhP6/+neIs1IN1tz/DdVL4i+ePxtwodUAhge8ZPgntjXViQ==";
+        };
+        _haBx5w8p = {
+            "id" = "haBx5w8p";
+            "file" = "night-vision-datapack-26.3.jar";
+            "hash" = "sha512-ClIH5VNeY6fFM3qDEN15pGsacXs3kImkRexYISa2I+UCYN6eV1TArAvZ+MgpF1HmZE9G/1f6rHkdvw4aH74uSg==";
+        };
     in {
         "PR5LZZ4X" = _PR5LZZ4X;
         "QGvbqXLh" = _QGvbqXLh;
@@ -74,6 +84,8 @@ let
         "ChrGWTN7" = _ChrGWTN7;
         "fMVMMKfg" = _fMVMMKfg;
         "30PEaEii" = _30PEaEii;
+        "F8DvoVXf" = _F8DvoVXf;
+        "haBx5w8p" = _haBx5w8p;
         "datapack-1.21" = _fMVMMKfg;
         "datapack-1.21.1" = _fMVMMKfg;
         "datapack-1.21.2" = _fMVMMKfg;
@@ -103,6 +115,7 @@ let
         "datapack-24w44a" = _fMVMMKfg;
         "datapack-24w45a" = _fMVMMKfg;
         "datapack-24w46a" = _fMVMMKfg;
+        "datapack-26.3" = _F8DvoVXf;
         "fabric-1.21" = _30PEaEii;
         "fabric-1.21.1" = _30PEaEii;
         "fabric-1.21.2" = _30PEaEii;
@@ -132,6 +145,7 @@ let
         "fabric-24w44a" = _30PEaEii;
         "fabric-24w45a" = _30PEaEii;
         "fabric-24w46a" = _30PEaEii;
+        "fabric-26.3" = _haBx5w8p;
         "forge-1.21" = _30PEaEii;
         "forge-1.21.1" = _30PEaEii;
         "forge-1.21.2" = _30PEaEii;
@@ -161,6 +175,7 @@ let
         "forge-24w44a" = _30PEaEii;
         "forge-24w45a" = _30PEaEii;
         "forge-24w46a" = _30PEaEii;
+        "forge-26.3" = _haBx5w8p;
         "neoforge-1.21" = _30PEaEii;
         "neoforge-1.21.1" = _30PEaEii;
         "neoforge-1.21.2" = _30PEaEii;
@@ -190,6 +205,7 @@ let
         "neoforge-24w44a" = _30PEaEii;
         "neoforge-24w45a" = _30PEaEii;
         "neoforge-24w46a" = _30PEaEii;
+        "neoforge-26.3" = _haBx5w8p;
         "quilt-1.21" = _30PEaEii;
         "quilt-1.21.1" = _30PEaEii;
         "quilt-1.21.2" = _30PEaEii;
@@ -219,15 +235,16 @@ let
         "quilt-24w44a" = _30PEaEii;
         "quilt-24w45a" = _30PEaEii;
         "quilt-24w46a" = _30PEaEii;
+        "quilt-26.3" = _haBx5w8p;
         "pkg-0.0.0" = _PR5LZZ4X;
         "pkg-0.0.0-MOD" = _QGvbqXLh;
         "pkg-0.1.0" = _RveNppuh;
         "pkg-0.1.0-MOD" = _oj2JGQB7;
         "pkg-0.2.0" = _P0CLZRyM;
         "pkg-0.2.0-MOD" = _Q8MViqW0;
-        "pkg-1.0.0" = _fMVMMKfg;
-        "pkg-1.0.0-mod" = _30PEaEii;
-        "default" = _30PEaEii;
+        "pkg-1.0.0" = _F8DvoVXf;
+        "pkg-1.0.0-mod" = _haBx5w8p;
+        "default" = _haBx5w8p;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "night-vision-datapack";

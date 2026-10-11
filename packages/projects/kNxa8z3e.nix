@@ -951,6 +951,21 @@ let
             "file" = "mcw-doors-1.1.5-mc26.2fabric.jar";
             "hash" = "sha512-xkwMqjL9ASXyElVLY6zmKZbmoNLlG4qx3R2c8Jtf3WqVb98unVnoV9wHWmmwZjF8sz4LjWGiNZ4uBJoHle+c9Q==";
         };
+        _E2VcPSnN = {
+            "id" = "E2VcPSnN";
+            "file" = "mcw-doors-1.1.5-mc26.3neoforge.jar";
+            "hash" = "sha512-AzTUlbQzqrkUTEhyJ1uHSMFXSFP5CNNurMepQ4oMGbe7ZnHDNakGbNsE9e5Ab0d2+0b99dnfivVG5kGe59/h1w==";
+        };
+        _OZH46zqC = {
+            "id" = "OZH46zqC";
+            "file" = "mcw-doors-1.1.5-mc26.3forge.jar";
+            "hash" = "sha512-SB960udFgJpNo28O7C62pvBoahl08CLolUXKK9rjZDxCMcKn0DfaTDDEOuAUfWR4awzxmEJ6GHa8VCvjf49Lfw==";
+        };
+        _xfU8SZ7D = {
+            "id" = "xfU8SZ7D";
+            "file" = "mcw-doors-1.1.5-mc26.3fabric.jar";
+            "hash" = "sha512-/sAUhZolAEKRQZAFOymwyMbq6GGH3ZAWD/sqA2iYcg3iUAxCQXiXL8zHxi7eyoOIBf64NtGNbA7zTHxrGzKdUw==";
+        };
     in {
         "D0rTcPc8" = _D0rTcPc8;
         "AMfV6IAY" = _AMfV6IAY;
@@ -1142,6 +1157,9 @@ let
         "VjAUiKDt" = _VjAUiKDt;
         "vg0ghjvB" = _vg0ghjvB;
         "XxNfkmgt" = _XxNfkmgt;
+        "E2VcPSnN" = _E2VcPSnN;
+        "OZH46zqC" = _OZH46zqC;
+        "xfU8SZ7D" = _xfU8SZ7D;
         "fabric-1.18.2" = _O8JPLHzw;
         "fabric-1.19" = _izZEWsEt;
         "fabric-1.19.2" = _WSuZrFyf;
@@ -1169,6 +1187,7 @@ let
         "fabric-26.1.1" = _RG8zptcU;
         "fabric-26.1.2" = _RG8zptcU;
         "fabric-26.2" = _XxNfkmgt;
+        "fabric-26.3" = _xfU8SZ7D;
         "forge-1.16.5" = _21C1ifv8;
         "forge-1.17.1" = _4xbF1Szl;
         "forge-1.18.2" = _x9u1BLQu;
@@ -1199,6 +1218,7 @@ let
         "forge-26.1.1" = _nVaNQVSL;
         "forge-26.1.2" = _nVaNQVSL;
         "forge-26.2" = _VjAUiKDt;
+        "forge-26.3" = _OZH46zqC;
         "neoforge-1.20.4" = _XZGl2FXM;
         "neoforge-1.20.6" = _rsaR9lkw;
         "neoforge-1.21" = _JQrwJoDN;
@@ -1216,12 +1236,13 @@ let
         "neoforge-26.1.1" = _iQxG0Ckj;
         "neoforge-26.1.2" = _iQxG0Ckj;
         "neoforge-26.2" = _vg0ghjvB;
+        "neoforge-26.3" = _E2VcPSnN;
         "pkg-1.1.0" = _ztoVVGpV;
         "pkg-1.1.1" = _VRGrIUSY;
         "pkg-1.1.2" = _sR9S5QOn;
         "pkg-1.1.3" = _jqEIAgFU;
-        "pkg-1.1.5" = _XxNfkmgt;
-        "default" = _XxNfkmgt;
+        "pkg-1.1.5" = _xfU8SZ7D;
+        "default" = _xfU8SZ7D;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "macaws-doors";

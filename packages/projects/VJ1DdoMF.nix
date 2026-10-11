@@ -1,0 +1,58 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _ArrXxjl9 = {
+            "id" = "ArrXxjl9";
+            "file" = "fabric-combat-ranked-mod-1.0.0.jar";
+            "hash" = "sha512-iayywCeVEWThBOLvdZQBMmdDMWPczcArLIlxT22T0otZf4dxaa3ZvpuTc8GVkw27C+pbAUGmWFi02BOkO506jg==";
+        };
+        _bacqcdFI = {
+            "id" = "bacqcdFI";
+            "file" = "fabric-26.2.jar";
+            "hash" = "sha512-reh933iuXtzDJ7jT0Pbs0B341422NNoBXu5y/SVqp67ar/v13OkG4tKlYoWGOx547Fd7pERVlrVR2g3514bf1A==";
+        };
+        _yFTzQK2u = {
+            "id" = "yFTzQK2u";
+            "file" = "fabric-26.1.2.jar";
+            "hash" = "sha512-n7Dz8KBtzFu6rFbI0tYktBxpSBuqRl6mAXNEQEpCBdhn9V1qrnHw4eBf3KHlife3hyn2GbiZ6yTNp4W05XfoQg==";
+        };
+    in {
+        "ArrXxjl9" = _ArrXxjl9;
+        "bacqcdFI" = _bacqcdFI;
+        "yFTzQK2u" = _yFTzQK2u;
+        "fabric-1.21" = _ArrXxjl9;
+        "fabric-1.21.1" = _ArrXxjl9;
+        "fabric-1.21.2" = _ArrXxjl9;
+        "fabric-1.21.3" = _ArrXxjl9;
+        "fabric-1.21.4" = _ArrXxjl9;
+        "fabric-1.21.5" = _ArrXxjl9;
+        "fabric-1.21.6" = _ArrXxjl9;
+        "fabric-1.21.7" = _ArrXxjl9;
+        "fabric-1.21.8" = _ArrXxjl9;
+        "fabric-1.21.9" = _ArrXxjl9;
+        "fabric-1.21.10" = _ArrXxjl9;
+        "fabric-1.21.11" = _ArrXxjl9;
+        "fabric-26.2" = _bacqcdFI;
+        "fabric-26.1.2" = _yFTzQK2u;
+        "pkg-1.0.0" = _ArrXxjl9;
+        "pkg-26.2" = _bacqcdFI;
+        "pkg-26.1.2" = _yFTzQK2u;
+        "default" = _yFTzQK2u;
+    });
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "mace-cooldown-mod";
+        id = "VJ1DdoMF";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = null;
+            };
+        };
+    };
+in callPackage fn {}

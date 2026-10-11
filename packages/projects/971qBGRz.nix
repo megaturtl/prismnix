@@ -66,6 +66,11 @@ let
             "file" = "bwt-hc-tweaks-1.5.jar";
             "hash" = "sha512-UYXNF/pTVQRAZXu4s7B0DLAA1bPxUjv+VDt4NcmDkgoQr/4a/61J3vkrR9sRHeHyIzIUsy0GbhBOFZGXrSyRBw==";
         };
+        _lBkmDs7M = {
+            "id" = "lBkmDs7M";
+            "file" = "bwt-hc-tweaks-1.5.1.jar";
+            "hash" = "sha512-Dc0TKA02Nu/pgkLZwVOcjlhYF51CqdmvNEw9YPLitkvy5aO0VVwz+BuLDiuDJl9aBqL5SyAANemNuqkHlDa9tQ==";
+        };
     in {
         "rLtQB3wC" = _rLtQB3wC;
         "TcHjyKyN" = _TcHjyKyN;
@@ -80,7 +85,8 @@ let
         "tCU9lPP7" = _tCU9lPP7;
         "R6Rjirt1" = _R6Rjirt1;
         "U9pQDmms" = _U9pQDmms;
-        "fabric-1.21.1" = _U9pQDmms;
+        "lBkmDs7M" = _lBkmDs7M;
+        "fabric-1.21.1" = _lBkmDs7M;
         "pkg-1.0" = _rLtQB3wC;
         "pkg-1.0.1" = _TcHjyKyN;
         "pkg-1.0.2" = _g8DG4Q5c;
@@ -94,7 +100,8 @@ let
         "pkg-1.4.4" = _tCU9lPP7;
         "pkg-1.4.5" = _R6Rjirt1;
         "pkg-1.5" = _U9pQDmms;
-        "default" = _U9pQDmms;
+        "pkg-1.5.1" = _lBkmDs7M;
+        "default" = _lBkmDs7M;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bwt-hc-tweaks";

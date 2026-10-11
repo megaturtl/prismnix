@@ -171,6 +171,11 @@ let
             "file" = "melius-commands-2.1.3+26.2.jar";
             "hash" = "sha512-TALu2U0IFWBfhmqtSMD+0J0ZHeoQ+IYg1Q4fFGmPBWSs0FQgzf/3gwlmkpDdElV+zax3O6FNdmZUPK8E6wXFBQ==";
         };
+        _YN9zoh6h = {
+            "id" = "YN9zoh6h";
+            "file" = "melius-commands-2.1.3+26.3.jar";
+            "hash" = "sha512-miNlhYPs1n2oNyP3YlMJQZYGMQdw3i5m5LKY4SEnCmirE7db+2peDcspZLx468CCtrdCPbxAmJmdlAR+zyKi1Q==";
+        };
     in {
         "jDxZLNlP" = _jDxZLNlP;
         "GVmrOEMF" = _GVmrOEMF;
@@ -206,6 +211,7 @@ let
         "XUqhDfcn" = _XUqhDfcn;
         "cMHI1Ye8" = _cMHI1Ye8;
         "ms2eVrl6" = _ms2eVrl6;
+        "YN9zoh6h" = _YN9zoh6h;
         "fabric-1.20" = _uBf0Eyda;
         "fabric-1.20.1" = _jNwX2486;
         "fabric-1.20.2" = _jDxZLNlP;
@@ -233,6 +239,7 @@ let
         "fabric-26.1.1" = _cMHI1Ye8;
         "fabric-26.1.2" = _cMHI1Ye8;
         "fabric-26.2" = _ms2eVrl6;
+        "fabric-26.3" = _YN9zoh6h;
         "quilt-1.20" = _uBf0Eyda;
         "quilt-1.20.1" = _jNwX2486;
         "quilt-1.20.2" = _jDxZLNlP;
@@ -260,6 +267,7 @@ let
         "quilt-26.1.1" = _cMHI1Ye8;
         "quilt-26.1.2" = _cMHI1Ye8;
         "quilt-26.2" = _ms2eVrl6;
+        "quilt-26.3" = _YN9zoh6h;
         "pkg-1.0.0+1.20.1" = _jDxZLNlP;
         "pkg-1.0.0+1.20.3" = _GVmrOEMF;
         "pkg-1.1.0+1.20.4" = _Tw9nqN36;
@@ -294,7 +302,8 @@ let
         "pkg-2.1.3+1.21.8" = _XUqhDfcn;
         "pkg-2.1.3+26.1" = _cMHI1Ye8;
         "pkg-2.1.3+26.2" = _ms2eVrl6;
-        "default" = _ms2eVrl6;
+        "pkg-2.1.3+26.3" = _YN9zoh6h;
+        "default" = _YN9zoh6h;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "melius-commands";

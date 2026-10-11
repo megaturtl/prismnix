@@ -86,6 +86,11 @@ let
             "file" = "AutoLoginMod26.2-1.1.9.jar";
             "hash" = "sha512-s2t31xxIpotTd0ezjyh5cScsFNwK5h2tPIPiEFunVynQP/58CsP2ZfU9v8NN4yoRM/wopcmVEurZoUlD2WNwRA==";
         };
+        _LMVLw3Ee = {
+            "id" = "LMVLw3Ee";
+            "file" = "AutoLoginMod26.3-1.1.9.jar";
+            "hash" = "sha512-1FKNDakGe6XugfmTCPG/Z68flO8uP2szFfVbJ7FInF99rm5381MraqtPZLsaJWNa2zjLvKfVt0AAffTikxElvQ==";
+        };
     in {
         "R3sgWFFD" = _R3sgWFFD;
         "7d9RMgfP" = _7d9RMgfP;
@@ -104,6 +109,7 @@ let
         "4mTf2dPD" = _4mTf2dPD;
         "szkCmIj9" = _szkCmIj9;
         "BFLAJ5cz" = _BFLAJ5cz;
+        "LMVLw3Ee" = _LMVLw3Ee;
         "fabric-1.21" = _FpMj0bCu;
         "fabric-1.21.1" = _FpMj0bCu;
         "fabric-1.21.2" = _FpMj0bCu;
@@ -120,6 +126,7 @@ let
         "fabric-26.1.1" = _szkCmIj9;
         "fabric-26.1.2" = _szkCmIj9;
         "fabric-26.2" = _BFLAJ5cz;
+        "fabric-26.3" = _LMVLw3Ee;
         "pkg-1.0.0" = _R3sgWFFD;
         "pkg-1.0.1" = _7d9RMgfP;
         "pkg-1.1.0" = _VLXewVSF;
@@ -131,8 +138,8 @@ let
         "pkg-1.1.6" = _NELGULyi;
         "pkg-1.1.7" = _QldVc5KW;
         "pkg-1.1.8" = _jog7n91k;
-        "pkg-1.1.9" = _BFLAJ5cz;
-        "default" = _BFLAJ5cz;
+        "pkg-1.1.9" = _LMVLw3Ee;
+        "default" = _LMVLw3Ee;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "autologin-mod";

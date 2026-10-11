@@ -76,6 +76,11 @@ let
             "file" = "ReFramed-1.6.6.jar";
             "hash" = "sha512-dbuS5TQ9iM/SnWvW+IvrL/mEXwPT/aeYkN01qRSmSvX1kBgB2ee6ezWN37Cp1mc9grINjJi8rbvKexGOfeb5GA==";
         };
+        _xxHXvD9W = {
+            "id" = "xxHXvD9W";
+            "file" = "ReFramed-1.6.6.3.jar";
+            "hash" = "sha512-wQYEJywc6b82F8VDprcmHeM6mJBRy+VuaAZgtZ1Py1emKhj27+KV+U3J3gFUIDCC9ogQ1jPFV/eR9kTiVKBDBA==";
+        };
     in {
         "5HV9Hrrf" = _5HV9Hrrf;
         "i6CMSijh" = _i6CMSijh;
@@ -92,10 +97,11 @@ let
         "qUajV4uc" = _qUajV4uc;
         "6DkjVfpb" = _6DkjVfpb;
         "ry2FgK0f" = _ry2FgK0f;
+        "xxHXvD9W" = _xxHXvD9W;
         "fabric-1.20.4" = _6DkjVfpb;
         "fabric-1.20.1" = _qUajV4uc;
-        "fabric-1.21" = _ry2FgK0f;
-        "fabric-1.21.1" = _ry2FgK0f;
+        "fabric-1.21" = _xxHXvD9W;
+        "fabric-1.21.1" = _xxHXvD9W;
         "pkg-1.2" = _5HV9Hrrf;
         "pkg-1.3" = _i6CMSijh;
         "pkg-1.3.1" = _wDoFbUg5;
@@ -111,7 +117,8 @@ let
         "pkg-1.6.6-1.20.1" = _qUajV4uc;
         "pkg-1.6.6-1.20.4" = _6DkjVfpb;
         "pkg-1.6.6-1.21.1" = _ry2FgK0f;
-        "default" = _ry2FgK0f;
+        "pkg-1.6.6.3-1.21.1" = _xxHXvD9W;
+        "default" = _xxHXvD9W;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "reframed";

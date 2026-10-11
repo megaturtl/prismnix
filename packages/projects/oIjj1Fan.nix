@@ -26,18 +26,25 @@ let
             "file" = "enigmaticlegacyplus-1.21.1-1.0.0.jar";
             "hash" = "sha512-xu9vwuKjQtljdYOG1XQ61Vt/wM5NJoPtOswU451vH0I6wAikOm2fCMd2yH9rvyNA6WM19w3UYUKNPbBBIIJ1Kw==";
         };
+        _ELK5gx91 = {
+            "id" = "ELK5gx91";
+            "file" = "enigmaticlegacyplus-1.21.1-1.1.2.jar";
+            "hash" = "sha512-nzNLwcInVtDR1eeFIjIXQJ3KzwWo/zmY9tGCgfRUh99fWkBdQSBJCOSVkUZPaQ0IVySn2LADGK0oEUSKIFew8Q==";
+        };
     in {
         "zgLGwiPp" = _zgLGwiPp;
         "r5XRm2LX" = _r5XRm2LX;
         "IOUIN6ie" = _IOUIN6ie;
         "ErPhQo57" = _ErPhQo57;
         "sE5KVcHA" = _sE5KVcHA;
-        "neoforge-1.21.1" = _sE5KVcHA;
+        "ELK5gx91" = _ELK5gx91;
+        "neoforge-1.21.1" = _ELK5gx91;
         "pkg-1.21.1-0.4.0" = _zgLGwiPp;
         "pkg-1.21.1-0.5.0" = _IOUIN6ie;
         "pkg-1.21.1-0.6.0" = _ErPhQo57;
         "pkg-1.21.1-1.0.0" = _sE5KVcHA;
-        "default" = _sE5KVcHA;
+        "pkg-1.21.1-1.1.2" = _ELK5gx91;
+        "default" = _ELK5gx91;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enigmaticlegacy+";

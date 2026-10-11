@@ -376,6 +376,16 @@ let
             "file" = "Chat Reporting Helper.zip";
             "hash" = "sha512-2ljWDuoQTM2IXcXj9wOk5QNlWO56jJXXvRi+1IiN98h3jhraSvPK7oREQEqt+Wqnfe9aC/l5r1HSn694xS0veA==";
         };
+        _sHZmUYG3 = {
+            "id" = "sHZmUYG3";
+            "file" = "Chat Reporting Helper.zip";
+            "hash" = "sha512-lZJcBPi4OiET1vprHPmYqUBmThvRdpSruAYrBQ2KiZttl3ej7BLmhh17HInflo2XX7GTlexT3kPV1arFWD5wZQ==";
+        };
+        _fEeReREe = {
+            "id" = "fEeReREe";
+            "file" = "Chat Reporting Helper.zip";
+            "hash" = "sha512-qpb3THg4z2h/vRddygfrxqAS3lJXAdVcp4Z0hM/I6YMAHbmSlN4Vg0O2QCHfJeKA5WpDPzPRvBYhgQkbwzlZcA==";
+        };
     in {
         "JXC01pGv" = _JXC01pGv;
         "CqQiUzNM" = _CqQiUzNM;
@@ -452,6 +462,8 @@ let
         "tL0Uk6bl" = _tL0Uk6bl;
         "tHgpG6Uf" = _tHgpG6Uf;
         "63Rh5ZVj" = _63Rh5ZVj;
+        "sHZmUYG3" = _sHZmUYG3;
+        "fEeReREe" = _fEeReREe;
         "minecraft-1.19.4" = _NCVUlRX8;
         "minecraft-1.20-pre1" = _fbSsMgUv;
         "minecraft-1.20-pre2" = _fbSsMgUv;
@@ -471,28 +483,28 @@ let
         "minecraft-1.20.2-pre3" = _F8O2jslS;
         "minecraft-1.20.2-pre4" = _F8O2jslS;
         "minecraft-1.20.2-rc2" = _7zxgLdb2;
-        "minecraft-1.20.2" = _63Rh5ZVj;
-        "minecraft-1.20.3" = _63Rh5ZVj;
-        "minecraft-1.20.4" = _63Rh5ZVj;
-        "minecraft-1.20.5" = _63Rh5ZVj;
-        "minecraft-1.20.6" = _63Rh5ZVj;
-        "minecraft-1.21" = _63Rh5ZVj;
-        "minecraft-1.21.1" = _63Rh5ZVj;
-        "minecraft-1.21.2" = _63Rh5ZVj;
-        "minecraft-1.21.3" = _63Rh5ZVj;
-        "minecraft-1.21.4" = _63Rh5ZVj;
-        "minecraft-1.21.5" = _63Rh5ZVj;
-        "minecraft-1.21.6" = _63Rh5ZVj;
-        "minecraft-1.21.7" = _63Rh5ZVj;
-        "minecraft-1.21.8" = _63Rh5ZVj;
-        "minecraft-1.21.9" = _63Rh5ZVj;
-        "minecraft-1.21.10" = _63Rh5ZVj;
-        "minecraft-1.21.11" = _63Rh5ZVj;
-        "minecraft-26.1" = _63Rh5ZVj;
-        "minecraft-26.1.1" = _63Rh5ZVj;
-        "minecraft-26.1.2" = _63Rh5ZVj;
-        "minecraft-26.2" = _63Rh5ZVj;
-        "minecraft-26.3" = _63Rh5ZVj;
+        "minecraft-1.20.2" = _fEeReREe;
+        "minecraft-1.20.3" = _fEeReREe;
+        "minecraft-1.20.4" = _fEeReREe;
+        "minecraft-1.20.5" = _fEeReREe;
+        "minecraft-1.20.6" = _fEeReREe;
+        "minecraft-1.21" = _fEeReREe;
+        "minecraft-1.21.1" = _fEeReREe;
+        "minecraft-1.21.2" = _fEeReREe;
+        "minecraft-1.21.3" = _fEeReREe;
+        "minecraft-1.21.4" = _fEeReREe;
+        "minecraft-1.21.5" = _fEeReREe;
+        "minecraft-1.21.6" = _fEeReREe;
+        "minecraft-1.21.7" = _fEeReREe;
+        "minecraft-1.21.8" = _fEeReREe;
+        "minecraft-1.21.9" = _fEeReREe;
+        "minecraft-1.21.10" = _fEeReREe;
+        "minecraft-1.21.11" = _fEeReREe;
+        "minecraft-26.1" = _fEeReREe;
+        "minecraft-26.1.1" = _fEeReREe;
+        "minecraft-26.1.2" = _fEeReREe;
+        "minecraft-26.2" = _fEeReREe;
+        "minecraft-26.3" = _fEeReREe;
         "pkg-1.0" = _JXC01pGv;
         "pkg-1.1" = _CqQiUzNM;
         "pkg-2.0" = _LoxAg64O;
@@ -568,7 +580,9 @@ let
         "pkg-5.7" = _tL0Uk6bl;
         "pkg-5.8" = _tHgpG6Uf;
         "pkg-6.0" = _63Rh5ZVj;
-        "default" = _63Rh5ZVj;
+        "pkg-6.1" = _sHZmUYG3;
+        "pkg-6.2" = _fEeReREe;
+        "default" = _fEeReREe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chat-reporting-helper";

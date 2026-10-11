@@ -81,6 +81,11 @@ let
             "file" = "Better Side Shield.zip";
             "hash" = "sha512-Q2UjA0+UDIjhuGGgnGHtwoWvKvq/z/D3GY/KgninKCRlKBz9DzE8Dbjy7FRXrNpN2jtw0mUIIiIpDuXtHT5wWg==";
         };
+        _4qlPvuXB = {
+            "id" = "4qlPvuXB";
+            "file" = "Smooth Side Shield.zip";
+            "hash" = "sha512-EMVFb+uAoTq2dYnUHWjcjQbLeriGH/UbWnddo+v4Lk7113f72mb9U5WrDki2vd2hur4DA8D6cPv3Pr4IQlYDvQ==";
+        };
     in {
         "ZvJzdel5" = _ZvJzdel5;
         "X6wVfImC" = _X6wVfImC;
@@ -98,6 +103,7 @@ let
         "xciLvtYh" = _xciLvtYh;
         "Rld4NAnr" = _Rld4NAnr;
         "NamM1xN5" = _NamM1xN5;
+        "4qlPvuXB" = _4qlPvuXB;
         "minecraft-1.20" = _ZvJzdel5;
         "minecraft-1.20.1" = _ZvJzdel5;
         "minecraft-1.20.2" = _X6wVfImC;
@@ -121,6 +127,7 @@ let
         "minecraft-26.1.1" = _CTNorRRU;
         "minecraft-26.1.2" = _xciLvtYh;
         "minecraft-26.2" = _NamM1xN5;
+        "minecraft-26.3" = _4qlPvuXB;
         "pkg-v1-1.20-1.20.1" = _ZvJzdel5;
         "pkg-1.20.2" = _X6wVfImC;
         "pkg-1.20.3-1.20.4" = _LaLrSQok;
@@ -137,7 +144,8 @@ let
         "pkg-26.1.2" = _xciLvtYh;
         "pkg-1.21-1.21.11" = _Rld4NAnr;
         "pkg-26.2" = _NamM1xN5;
-        "default" = _NamM1xN5;
+        "pkg-26.3" = _4qlPvuXB;
+        "default" = _4qlPvuXB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "smooth-side-shield";

@@ -11,13 +11,20 @@ let
             "file" = "locometal_armor-1.1.0.jar";
             "hash" = "sha512-+TBcV/ku5NVlXkw3i1wbgthW++WPGl/reCO9sU6FcH7eGk3dDSVgrHCgmkriaveMkRm7XJFTRFALUjnTFKsDZg==";
         };
+        _xprDmjYf = {
+            "id" = "xprDmjYf";
+            "file" = "locometal_armor-2.0.0.jar";
+            "hash" = "sha512-J6wAQ9ImC50fCOBFA0o8t3KRsOyG6LoggTG0aSQdiJ2nKpFVWmiYi5nRx5REHiVI8QlRqF7NdiTPmg2nPPD7xQ==";
+        };
     in {
         "92T1LTXx" = _92T1LTXx;
         "pJrnrjaH" = _pJrnrjaH;
-        "neoforge-1.21.1" = _pJrnrjaH;
+        "xprDmjYf" = _xprDmjYf;
+        "neoforge-1.21.1" = _xprDmjYf;
         "pkg-1.0.0" = _92T1LTXx;
         "pkg-1.1.0" = _pJrnrjaH;
-        "default" = _pJrnrjaH;
+        "pkg-2.0.0" = _xprDmjYf;
+        "default" = _xprDmjYf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cbc-locometal-armor";

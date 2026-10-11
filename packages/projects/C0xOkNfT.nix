@@ -201,6 +201,16 @@ let
             "file" = "StorageDrawers-2.2.29-GTNH.jar";
             "hash" = "sha512-cEJ0TiqLunvck3j7yYaiekLat3904W/NfvDEJDAK46ury2T+2PsX3F9+sX4GiaWjhbJuWztZ/zu7+EYiMeEiEg==";
         };
+        _3xsbKdhr = {
+            "id" = "3xsbKdhr";
+            "file" = "StorageDrawers-2.2.30-GTNH.jar";
+            "hash" = "sha512-7OfDI0cZByftjzfTjCIC/JjuJcBfPa509rh7p5Uzs+fhaCFbKTXwgjQ/XHNdxvzhfbJrUTpnJgg0Q4zPQtQNpA==";
+        };
+        _mz4qUfU9 = {
+            "id" = "mz4qUfU9";
+            "file" = "StorageDrawers-2.2.31-GTNH.jar";
+            "hash" = "sha512-RhBnYxfIsTKMumb2+x5sA8MKeKi3W9tjN37EJH6ORau8ifJnydLJbsUynDLfpjqEn9n7Jdvv52uvBNFB+EHbxQ==";
+        };
     in {
         "jnerWvAH" = _jnerWvAH;
         "d00sAzNE" = _d00sAzNE;
@@ -242,7 +252,9 @@ let
         "ykSvzK7C" = _ykSvzK7C;
         "4VQfTIHo" = _4VQfTIHo;
         "yXcX4Rgj" = _yXcX4Rgj;
-        "forge-1.7.10" = _yXcX4Rgj;
+        "3xsbKdhr" = _3xsbKdhr;
+        "mz4qUfU9" = _mz4qUfU9;
+        "forge-1.7.10" = _mz4qUfU9;
         "pkg-2.0.0-GTNH" = _jnerWvAH;
         "pkg-2.0.1-GTNH" = _d00sAzNE;
         "pkg-2.0.2-GTNH" = _tyunqXUR;
@@ -283,7 +295,9 @@ let
         "pkg-2.2.27-GTNH" = _ykSvzK7C;
         "pkg-2.2.28-GTNH" = _4VQfTIHo;
         "pkg-2.2.29-GTNH" = _yXcX4Rgj;
-        "default" = _yXcX4Rgj;
+        "pkg-2.2.30-GTNH" = _3xsbKdhr;
+        "pkg-2.2.31-GTNH" = _mz4qUfU9;
+        "default" = _mz4qUfU9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "storage-drawers-unofficial";

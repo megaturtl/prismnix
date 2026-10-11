@@ -436,6 +436,41 @@ let
             "file" = "guideme-21.1.19.jar";
             "hash" = "sha512-TfoTLlz9aahslYhnBn8cWrObtprjWypiwku5kk6caI8aSTCrddM1siN42fmM1/zq6NAwgSuPkMmqKC3o6hKfWg==";
         };
+        _l9rs20gM = {
+            "id" = "l9rs20gM";
+            "file" = "guideme-26.1.13-beta.jar";
+            "hash" = "sha512-6o7tPnMbRZM2NwlFI+k/AjdQZ7o+Sl+mGRteSgCIXFaRqk/9GhCskE5YMLOwRLxqa+AMQBsDfHo7J/UQk1k9rw==";
+        };
+        _Vvte0XiA = {
+            "id" = "Vvte0XiA";
+            "file" = "guideme-26.1.14-beta.jar";
+            "hash" = "sha512-jnfeVGYWWP2/y42uFP6g0PDvDlC5FVS1oTDjP9PdDg6jfz2hw3kFCckBUy2W5rpcPhcdZySgGzmC/5ouGIYvIw==";
+        };
+        _JnplCcod = {
+            "id" = "JnplCcod";
+            "file" = "guideme-26.1.15-beta.jar";
+            "hash" = "sha512-yY8ZKFs3tAVaMh7Z+u2JzcFd/Dv7utKegT+SsP1LbPd7AaL/z5cdVxccJH10jnYDVeh7P9RyKvaZwrC+8XpObg==";
+        };
+        _HqNROlBJ = {
+            "id" = "HqNROlBJ";
+            "file" = "guideme-26.2.1-alpha.jar";
+            "hash" = "sha512-cZP2w5OydfaKhHBVOwR3A9niXvPbnyCKkyHxH6hE/1H6v5q0pOKx7XjX0OfRdTfy/9AiiyDV5gpiGROc5WE/Zg==";
+        };
+        _VD5BRwvu = {
+            "id" = "VD5BRwvu";
+            "file" = "guideme-26.3.1-alpha.jar";
+            "hash" = "sha512-JzminWSerTyY1Oy1bPogl9Wmsj3FmB//PUN0jraRmWOWNfujaHlbH7o/fLbgENSuP2zUxKtOxGPHzU+jNvUprg==";
+        };
+        _69ocM6po = {
+            "id" = "69ocM6po";
+            "file" = "guideme-26.3.3-alpha.jar";
+            "hash" = "sha512-0JD93SDvQUJGLJ7+zzxgLEjjiTsjznlZoJVcK5SPPUWMH0iooAzGjozZ8Dkma6zxUE5umSUaYEM6Ow5absEI3w==";
+        };
+        _kCCUXhEU = {
+            "id" = "kCCUXhEU";
+            "file" = "guideme-26.2.2-alpha.jar";
+            "hash" = "sha512-CP6nEL2e3slydU3HbE8G1HDY7Cxz8S4UX8ZWAjyVT9AeaZqBKs4nnPTSpCfjsgVUYzmjieR05i/wQ6Fagn3YUQ==";
+        };
     in {
         "bk0EGcWt" = _bk0EGcWt;
         "xp5Eb3cc" = _xp5Eb3cc;
@@ -524,6 +559,13 @@ let
         "rduAfwb7" = _rduAfwb7;
         "GyilxTID" = _GyilxTID;
         "hFpGwC6q" = _hFpGwC6q;
+        "l9rs20gM" = _l9rs20gM;
+        "Vvte0XiA" = _Vvte0XiA;
+        "JnplCcod" = _JnplCcod;
+        "HqNROlBJ" = _HqNROlBJ;
+        "VD5BRwvu" = _VD5BRwvu;
+        "69ocM6po" = _69ocM6po;
+        "kCCUXhEU" = _kCCUXhEU;
         "neoforge-1.21.1" = _hFpGwC6q;
         "neoforge-1.20.4" = _ReOCRQ9T;
         "neoforge-1.21.5" = _o5fVAod4;
@@ -534,7 +576,28 @@ let
         "neoforge-26.1-snapshot-3" = _LJM2gPTc;
         "neoforge-26.1-snapshot-4" = _TMLh9vTF;
         "neoforge-26.1.1" = _wGVS8dO2;
-        "neoforge-26.1.2" = _ZkJhP9xE;
+        "neoforge-26.1.2" = _JnplCcod;
+        "neoforge-26.2" = _kCCUXhEU;
+        "neoforge-26.3-snapshot-1" = _kCCUXhEU;
+        "neoforge-26.3-snapshot-2" = _kCCUXhEU;
+        "neoforge-26.3-snapshot-3" = _kCCUXhEU;
+        "neoforge-26.3-snapshot-4" = _kCCUXhEU;
+        "neoforge-26.3-snapshot-5" = _kCCUXhEU;
+        "neoforge-26.3-snapshot-6" = _kCCUXhEU;
+        "neoforge-26.3-snapshot-7" = _kCCUXhEU;
+        "neoforge-26.3-snapshot-8" = _kCCUXhEU;
+        "neoforge-26.3-snapshot-9" = _kCCUXhEU;
+        "neoforge-26.3-snapshot-10" = _kCCUXhEU;
+        "neoforge-26.3-pre-1" = _kCCUXhEU;
+        "neoforge-26.3-pre-2" = _kCCUXhEU;
+        "neoforge-26.3-pre-3" = _kCCUXhEU;
+        "neoforge-26.3-rc-1" = _kCCUXhEU;
+        "neoforge-26.3-rc-2" = _kCCUXhEU;
+        "neoforge-26.3-rc-3" = _kCCUXhEU;
+        "neoforge-26.3" = _69ocM6po;
+        "neoforge-26.4-snapshot-1" = _69ocM6po;
+        "neoforge-26.4-snapshot-2" = _69ocM6po;
+        "neoforge-26.4-snapshot-3" = _69ocM6po;
         "forge-1.20.1" = _i7Tp1AHw;
         "pkg-1.0.0" = _xp5Eb3cc;
         "pkg-1.0.1" = _MFsx32k5;
@@ -622,7 +685,14 @@ let
         "pkg-21.1.17" = _rduAfwb7;
         "pkg-21.1.18" = _GyilxTID;
         "pkg-21.1.19" = _hFpGwC6q;
-        "default" = _hFpGwC6q;
+        "pkg-26.1.13-beta" = _l9rs20gM;
+        "pkg-26.1.14-beta" = _Vvte0XiA;
+        "pkg-26.1.15-beta" = _JnplCcod;
+        "pkg-26.2.1-alpha" = _HqNROlBJ;
+        "pkg-26.3.1-alpha" = _VD5BRwvu;
+        "pkg-26.3.3-alpha" = _69ocM6po;
+        "pkg-26.2.2-alpha" = _kCCUXhEU;
+        "default" = _kCCUXhEU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "guideme";

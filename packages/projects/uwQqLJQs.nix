@@ -406,6 +406,11 @@ let
             "file" = "strainers-26.1.2-6.12.2.jar";
             "hash" = "sha512-0OH2eUJIFkvnsQ2d81ba7oRVIIIrbmM4vkhJovD5DMnT4gZFc8gpfjDvdrlbuP9FakmozvCPn108zry/Hxi/Lg==";
         };
+        _aYwiJBR5 = {
+            "id" = "aYwiJBR5";
+            "file" = "strainers-26.1.2-6.13.0.jar";
+            "hash" = "sha512-Iz9B+ICcUNpduRuaZIfsCoS2KWzt7yWA0Q0urSmAoYJ8xLfa6RDo6R3juCitoS6ybt+IJcmg3VusDyH/F19NxA==";
+        };
     in {
         "c6nnymnA" = _c6nnymnA;
         "s6zJ90Gi" = _s6zJ90Gi;
@@ -488,11 +493,12 @@ let
         "E8NqYZR2" = _E8NqYZR2;
         "Iy69QHkR" = _Iy69QHkR;
         "gLBjozS0" = _gLBjozS0;
+        "aYwiJBR5" = _aYwiJBR5;
         "neoforge-1.21" = _a0z0dhv9;
         "neoforge-1.21.1" = _a0z0dhv9;
         "neoforge-26.1" = _aNQTAG5x;
         "neoforge-26.1.1" = _aNQTAG5x;
-        "neoforge-26.1.2" = _gLBjozS0;
+        "neoforge-26.1.2" = _aYwiJBR5;
         "neoforge-26.2" = _joQtRkNZ;
         "pkg-2.5.0" = _c6nnymnA;
         "pkg-1.21-2.5.0" = _s6zJ90Gi;
@@ -561,7 +567,8 @@ let
         "pkg-26.1.2-6.11.3" = _E8NqYZR2;
         "pkg-26.1.2-6.12.1" = _Iy69QHkR;
         "pkg-26.1.2-6.12.2" = _gLBjozS0;
-        "default" = _gLBjozS0;
+        "pkg-26.1.2-6.13.0" = _aYwiJBR5;
+        "default" = _aYwiJBR5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bbl-strainers";

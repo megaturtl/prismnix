@@ -31,6 +31,11 @@ let
             "file" = "esotericism_tinker-1.5-SNAPSHOT.jar";
             "hash" = "sha512-GipMm/Xvz0IMosmd0CN8M+mYzpI8VJrzPbpza9ZVO8DpeWdHBKhzkoZ0/osvrtMdgVVVUvdk/TCs3o0yQ/Zqfw==";
         };
+        _1HaZaA0c = {
+            "id" = "1HaZaA0c";
+            "file" = "esotericism_tinker-1.6-SNAPSHOT.jar";
+            "hash" = "sha512-Y24KeDo+rITi8Q7N8aY7892MMuhYqGU7DvGeoU2cXGEqvQ5tsRnSRsu29wKmmn4WOrmIJX0eFnGhhMS0A7EVVg==";
+        };
     in {
         "Nw0hkNFJ" = _Nw0hkNFJ;
         "megigwsj" = _megigwsj;
@@ -38,14 +43,16 @@ let
         "mINridd2" = _mINridd2;
         "dOhD0wjA" = _dOhD0wjA;
         "5h5vyuYm" = _5h5vyuYm;
-        "forge-1.20.1" = _5h5vyuYm;
+        "1HaZaA0c" = _1HaZaA0c;
+        "forge-1.20.1" = _1HaZaA0c;
         "pkg-1.0-SNAPSHOT" = _Nw0hkNFJ;
         "pkg-1.1-SNAPSHOT" = _megigwsj;
         "pkg-1.2-SNAPSHOT" = _GCWdgGVP;
         "pkg-1.3-SNAPSHOT" = _mINridd2;
         "pkg-1.4-SNAPSHOT" = _dOhD0wjA;
         "pkg-1.5-SNAPSHOT" = _5h5vyuYm;
-        "default" = _5h5vyuYm;
+        "pkg-1.6-SNAPSHOT" = _1HaZaA0c;
+        "default" = _1HaZaA0c;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "esotericismtinker";

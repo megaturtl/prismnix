@@ -146,6 +146,21 @@ let
             "file" = "immersiveminimaps-1.2.4+26.2-fabric.jar";
             "hash" = "sha512-mlFyCINVL24e6sXnT1FizHwxwAy654DZ4wg2xvA1hqsCT/on5DZDrCPrXskfhW7TM/KefM+JNwDnY8+bZwpSVQ==";
         };
+        _N8cknQX4 = {
+            "id" = "N8cknQX4";
+            "file" = "immersiveminimaps-1.2.4+26.3-fabric.jar";
+            "hash" = "sha512-eXhbcfJEzffUgyF4p9ylKyLxYzboLH4nOwANXjODhIKrteXxnTskdJQ7yC0kvX04+rZx1EJfPzzdzzrKucBV/w==";
+        };
+        _NBSF6xpT = {
+            "id" = "NBSF6xpT";
+            "file" = "immersiveminimaps-1.2.5+26.1.2-neoforge.jar";
+            "hash" = "sha512-YbhGsTdFM4Mzfo9Hju4H2gFFJVyaYuLEc9jDBzFvsagIWnuhWZrM6LabftmiufOu03BjEwlEqXG7y5H8mTJdbw==";
+        };
+        _hwfGhRq6 = {
+            "id" = "hwfGhRq6";
+            "file" = "immersiveminimaps-1.2.5+26.2-neoforge.jar";
+            "hash" = "sha512-bkEwEgiXdPSocGolZYN9Ls3KoYMDtkLLoNnC/Pj9h4kO334ztwXyfu2duKcIKtOon/fQsfM0+6IsYip25UZYtg==";
+        };
     in {
         "E9DNGNIC" = _E9DNGNIC;
         "EKJ8VrGZ" = _EKJ8VrGZ;
@@ -176,6 +191,9 @@ let
         "v6uabbFI" = _v6uabbFI;
         "XC2XYnuh" = _XC2XYnuh;
         "HnF7eYDf" = _HnF7eYDf;
+        "N8cknQX4" = _N8cknQX4;
+        "NBSF6xpT" = _NBSF6xpT;
+        "hwfGhRq6" = _hwfGhRq6;
         "fabric-1.20.1" = _bsGAqY8y;
         "fabric-1.21.1" = _Khh4xFug;
         "fabric-1.21.8" = _fMWI2z5I;
@@ -183,11 +201,13 @@ let
         "fabric-26.1.1" = _v6uabbFI;
         "fabric-26.1.2" = _v6uabbFI;
         "fabric-26.2" = _HnF7eYDf;
+        "fabric-26.3" = _N8cknQX4;
         "forge-1.20.1" = _bsGAqY8y;
         "neoforge-1.21.1" = _Khh4xFug;
         "neoforge-26.1" = _H54mLtY1;
         "neoforge-26.1.1" = _H54mLtY1;
-        "neoforge-26.1.2" = _XC2XYnuh;
+        "neoforge-26.1.2" = _NBSF6xpT;
+        "neoforge-26.2" = _hwfGhRq6;
         "pkg-1.0.0+1.20.1-fabric" = _E9DNGNIC;
         "pkg-1.0.0+1.21.1-fabric" = _EKJ8VrGZ;
         "pkg-1.0.0+1.21.8-fabric" = _4J9fXn9H;
@@ -217,7 +237,10 @@ let
         "pkg-1.2.4+26.1.2-fabric" = _v6uabbFI;
         "pkg-1.2.4+26.1.2-neoforge" = _XC2XYnuh;
         "pkg-1.2.4+26.2-fabric" = _HnF7eYDf;
-        "default" = _HnF7eYDf;
+        "pkg-1.2.4+26.3-fabric" = _N8cknQX4;
+        "pkg-1.2.5+26.1.2-neoforge" = _NBSF6xpT;
+        "pkg-1.2.5+26.2-neoforge" = _hwfGhRq6;
+        "default" = _hwfGhRq6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immersive-minimaps";

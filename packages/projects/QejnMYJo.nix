@@ -166,6 +166,16 @@ let
             "file" = "ThermalExtra-3.3.1-1.20.1.jar";
             "hash" = "sha512-wF6c8ZQoMN+1YJC3W3WMs3zAhO/iqZGNbogUg7JgcYShyp/SsnNs4S3ZfiS6hiYeqnKfHCAac7p5QD0gw1HStQ==";
         };
+        _wYtVRtdX = {
+            "id" = "wYtVRtdX";
+            "file" = "ThermalExtra-3.3.2-1.20.1.jar";
+            "hash" = "sha512-e/PL++atXQUSGEQqJKX42tnPhKgBAGouBLC4dQhaUZV4Z/+MrdAh1AGuOuGhKOQ7hvp4M58u/lHXG+03f/TUwA==";
+        };
+        _Jz1xDqx7 = {
+            "id" = "Jz1xDqx7";
+            "file" = "ThermalExtra-3.3.3-1.20.1.jar";
+            "hash" = "sha512-NBNeLf+ldVrNqHn7RWUDMhzHwNA3Dgoj8FlsyWtLmG2AiIe0RFvSl8fSilZEAsPX4XqK/pZIRRXOip9J2H1YcQ==";
+        };
     in {
         "3ndZCsIB" = _3ndZCsIB;
         "sEQi56h0" = _sEQi56h0;
@@ -200,9 +210,11 @@ let
         "7cB1eABo" = _7cB1eABo;
         "KDqr1s3P" = _KDqr1s3P;
         "lgVpACIP" = _lgVpACIP;
+        "wYtVRtdX" = _wYtVRtdX;
+        "Jz1xDqx7" = _Jz1xDqx7;
         "forge-1.16.5" = _3ndZCsIB;
         "forge-1.19.2" = _XqEJHDQ1;
-        "forge-1.20.1" = _lgVpACIP;
+        "forge-1.20.1" = _Jz1xDqx7;
         "forge-1.18" = _SgcjhKGg;
         "forge-1.20.2" = _HTsL4xbn;
         "forge-1.20.3" = _HTsL4xbn;
@@ -215,7 +227,7 @@ let
         "forge-1.21.3" = _HTsL4xbn;
         "forge-1.21.4" = _HTsL4xbn;
         "forge-1.21.5" = _HTsL4xbn;
-        "neoforge-1.20.1" = _lgVpACIP;
+        "neoforge-1.20.1" = _Jz1xDqx7;
         "pkg-1.0.5" = _3ndZCsIB;
         "pkg-3.0.0" = _SgcjhKGg;
         "pkg-3.0.3" = _P6FDDODH;
@@ -248,7 +260,9 @@ let
         "pkg-3.2.9-1.20.1" = _7cB1eABo;
         "pkg-3.3.0-1.20.1" = _KDqr1s3P;
         "pkg-3.3.1-1.20.1" = _lgVpACIP;
-        "default" = _lgVpACIP;
+        "pkg-3.3.2-1.20.1" = _wYtVRtdX;
+        "pkg-3.3.3-1.20.1" = _Jz1xDqx7;
+        "default" = _Jz1xDqx7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "thermal-extra";

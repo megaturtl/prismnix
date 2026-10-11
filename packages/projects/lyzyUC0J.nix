@@ -36,6 +36,16 @@ let
             "file" = "红显调谐 RedstoneTuning 0.7.69.zip";
             "hash" = "sha512-GBuy6qOaj7PEVARYkuIuzsPHMWkydzjUsfD5wz/rjaUNgIRBf6UnoYmnEAZPDbJXu3i0Xoxm7XBbvjhQ/H3wjQ==";
         };
+        _uzMIsUkE = {
+            "id" = "uzMIsUkE";
+            "file" = "红显调谐 RedstoneTuning 0.9.zip";
+            "hash" = "sha512-34xFcU6DTVtlN6c8m8xGQXYHR0v1i/Yl6rqg5SBm0Cb1EGV54cdJ1cGvlHj5agCe13jPkDvEo50+gWldd95ibA==";
+        };
+        _mYN91C0V = {
+            "id" = "mYN91C0V";
+            "file" = "红显调谐 RedstoneTuning 0.9a1.zip";
+            "hash" = "sha512-zyGymLRb4YNWFeqgVFqUsIHMfaL5Bl8DFJRates+XU7hpr1JwxjZYfV9P2RVz5ij5eSSVq7SDXaJU7uZEx44aA==";
+        };
     in {
         "pqx5bppK" = _pqx5bppK;
         "xgxKOtKM" = _xgxKOtKM;
@@ -44,22 +54,26 @@ let
         "gfF0PPPC" = _gfF0PPPC;
         "64ffZcJH" = _64ffZcJH;
         "Z6zLadTw" = _Z6zLadTw;
+        "uzMIsUkE" = _uzMIsUkE;
+        "mYN91C0V" = _mYN91C0V;
         "minecraft-24w44a" = _pqx5bppK;
         "minecraft-24w45a" = _pqx5bppK;
         "minecraft-24w46a" = _pqx5bppK;
-        "minecraft-1.21.4" = _Z6zLadTw;
-        "minecraft-1.21.5" = _Z6zLadTw;
-        "minecraft-1.21.6" = _Z6zLadTw;
-        "minecraft-1.21.7" = _Z6zLadTw;
-        "minecraft-1.21.8" = _Z6zLadTw;
-        "minecraft-1.21.9" = _Z6zLadTw;
-        "minecraft-1.21.10" = _Z6zLadTw;
-        "minecraft-1.21.11" = _Z6zLadTw;
-        "minecraft-1.21.2" = _Z6zLadTw;
-        "minecraft-1.21.3" = _Z6zLadTw;
-        "minecraft-26.1" = _Z6zLadTw;
-        "minecraft-26.1.1" = _Z6zLadTw;
-        "minecraft-26.1.2" = _Z6zLadTw;
+        "minecraft-1.21.4" = _mYN91C0V;
+        "minecraft-1.21.5" = _mYN91C0V;
+        "minecraft-1.21.6" = _mYN91C0V;
+        "minecraft-1.21.7" = _mYN91C0V;
+        "minecraft-1.21.8" = _mYN91C0V;
+        "minecraft-1.21.9" = _mYN91C0V;
+        "minecraft-1.21.10" = _mYN91C0V;
+        "minecraft-1.21.11" = _mYN91C0V;
+        "minecraft-1.21.2" = _mYN91C0V;
+        "minecraft-1.21.3" = _mYN91C0V;
+        "minecraft-26.1" = _mYN91C0V;
+        "minecraft-26.1.1" = _mYN91C0V;
+        "minecraft-26.1.2" = _mYN91C0V;
+        "minecraft-26.2" = _mYN91C0V;
+        "minecraft-26.3" = _mYN91C0V;
         "pkg-0.1.69" = _pqx5bppK;
         "pkg-0.2.69" = _xgxKOtKM;
         "pkg-0.3.69" = _9SlUOCfN;
@@ -67,7 +81,9 @@ let
         "pkg-0.5.69" = _gfF0PPPC;
         "pkg-0.6.69" = _64ffZcJH;
         "pkg-0.7.69" = _Z6zLadTw;
-        "default" = _Z6zLadTw;
+        "pkg-0.9" = _uzMIsUkE;
+        "pkg-0.9a1" = _mYN91C0V;
+        "default" = _mYN91C0V;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "redstonetuning";

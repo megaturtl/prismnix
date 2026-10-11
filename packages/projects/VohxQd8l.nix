@@ -31,6 +31,11 @@ let
             "file" = "enchantlimitremover-1.0-SNAPSHOT.jar";
             "hash" = "sha512-Y+vsCHJmH7+Ol2p1pdZx+jo1UgyBay3uI23Q0AjMBBQ5D3MQH7iKD8UJAJG9RF/KEJZhlygjdZ+UBEYeWFa2IQ==";
         };
+        _MlKpyKdj = {
+            "id" = "MlKpyKdj";
+            "file" = "enchantlimitremover-2.3.jar";
+            "hash" = "sha512-Tf56M2GGErwTcXBjeKCHWXAEKhSfvD3WZC850TWSlR7+KTlt1DKl90v37PGyl+fYYphC92s5hQwB4aMFGoPXtQ==";
+        };
     in {
         "m3pU3seO" = _m3pU3seO;
         "kwjnq0Mn" = _kwjnq0Mn;
@@ -38,15 +43,16 @@ let
         "1yhtTmOj" = _1yhtTmOj;
         "bPv0PMaO" = _bPv0PMaO;
         "5JeuC4Eb" = _5JeuC4Eb;
-        "paper-1.21.1" = _bPv0PMaO;
-        "paper-1.21" = _bPv0PMaO;
-        "paper-1.21.2" = _bPv0PMaO;
-        "paper-1.21.3" = _bPv0PMaO;
-        "paper-1.21.4" = _bPv0PMaO;
-        "paper-1.21.5" = _bPv0PMaO;
-        "paper-1.21.6" = _bPv0PMaO;
-        "paper-1.21.7" = _bPv0PMaO;
-        "paper-1.21.8" = _bPv0PMaO;
+        "MlKpyKdj" = _MlKpyKdj;
+        "paper-1.21.1" = _MlKpyKdj;
+        "paper-1.21" = _MlKpyKdj;
+        "paper-1.21.2" = _MlKpyKdj;
+        "paper-1.21.3" = _MlKpyKdj;
+        "paper-1.21.4" = _MlKpyKdj;
+        "paper-1.21.5" = _MlKpyKdj;
+        "paper-1.21.6" = _MlKpyKdj;
+        "paper-1.21.7" = _MlKpyKdj;
+        "paper-1.21.8" = _MlKpyKdj;
         "paper-1.20" = _5JeuC4Eb;
         "paper-1.20.1" = _5JeuC4Eb;
         "paper-1.20.2" = _5JeuC4Eb;
@@ -54,13 +60,21 @@ let
         "paper-1.20.4" = _5JeuC4Eb;
         "paper-1.20.5" = _5JeuC4Eb;
         "paper-1.20.6" = _5JeuC4Eb;
+        "paper-1.21.9" = _MlKpyKdj;
+        "paper-1.21.10" = _MlKpyKdj;
+        "paper-1.21.11" = _MlKpyKdj;
+        "paper-26.1" = _MlKpyKdj;
+        "paper-26.1.1" = _MlKpyKdj;
+        "paper-26.1.2" = _MlKpyKdj;
+        "paper-26.2" = _MlKpyKdj;
         "pkg-1" = _m3pU3seO;
         "pkg-2.0" = _kwjnq0Mn;
         "pkg-2.1" = _JmdKctFA;
         "pkg-2.2" = _1yhtTmOj;
         "pkg-2.2.1" = _bPv0PMaO;
         "pkg-1.0" = _5JeuC4Eb;
-        "default" = _5JeuC4Eb;
+        "pkg-2.3" = _MlKpyKdj;
+        "default" = _MlKpyKdj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchantlimitremover";

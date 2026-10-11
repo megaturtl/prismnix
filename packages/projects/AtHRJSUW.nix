@@ -1791,6 +1791,46 @@ let
             "file" = "WilderWild-4.2.11-mc26.2.jar";
             "hash" = "sha512-JZBr2o3ShP+EiidPPmPZIMavSXkVMF+sfxaKSorXYcrcthcirh12vqg/JhSlRl1xErAEH/AxnlLvN0c2zCQyDg==";
         };
+        _LjKF1OQ2 = {
+            "id" = "LjKF1OQ2";
+            "file" = "WilderWild-4.3-mc26.2-neoforge.jar";
+            "hash" = "sha512-D/T1GdjfoS0p3dhddRMHOwB1yJm+gdiJAXxSriSOU3XfjOsSTDb8HnWTB/p4JWMYZFLGI9UTnZ1igQWX+7RwSQ==";
+        };
+        _jO1Bwxn3 = {
+            "id" = "jO1Bwxn3";
+            "file" = "WilderWild-4.3-mc26.2-fabric.jar";
+            "hash" = "sha512-beBhzQ9aKlrbsD0Nh65+2FW2YbFyeI0t7Q4NCrZU3nvfh+kplMB1NGh1rCwq2QKDLtc66bouGMsd3IvHKw5w3g==";
+        };
+        _lEClpISP = {
+            "id" = "lEClpISP";
+            "file" = "WilderWild-4.3-mc26.3-neoforge.jar";
+            "hash" = "sha512-Qk+3hpD+2aPhxq6I4oPm6adVuwRwzDcj3y1gUBqt5gkffbMt6EvzKKcv6LqWcT63UKaI0czWVMFfPZey6S+L+Q==";
+        };
+        _Dytk25FR = {
+            "id" = "Dytk25FR";
+            "file" = "WilderWild-4.3-mc26.3-fabric.jar";
+            "hash" = "sha512-PArw8WKc/UGPIRJu8DBLuK5+3AfzWCzNEiByc/IXBBrc2KgLME+a/hIDBDA2YPkfIqnN6VjeorZT7wR3Tm9NEA==";
+        };
+        _IPgXdvO0 = {
+            "id" = "IPgXdvO0";
+            "file" = "WilderWild-4.3.1-mc26.3-neoforge.jar";
+            "hash" = "sha512-pw6BhCvcjiQfheRUHSiZnZjQJ7vqMfpRDYfAfbv5awBLHiOw/aPHQ8cOKu8l+sz2QygwVSQ31p/ijuD7LHU7aQ==";
+        };
+        _EnRvF1L5 = {
+            "id" = "EnRvF1L5";
+            "file" = "WilderWild-4.3.1-mc26.3-fabric.jar";
+            "hash" = "sha512-cVYPXL9ep9shSBBPqOf2/uANJ6iOAivrhcZWBHYwjQsCwNVh/b4gzcOqXEnRrqGPmM6CKlPnsAhybcGJ9JPVLA==";
+        };
+        _R4z4bH0F = {
+            "id" = "R4z4bH0F";
+            "file" = "WilderWild-4.3.2-mc26.3-fabric.jar";
+            "hash" = "sha512-F23kfVnEMM9jCD9bbZlpa0gt+9NtAddaYQjFHnb/3u0+hrm98ybPVpx7EJpLHngkVeK2WTn0Q2o0R9aKRzT5Yw==";
+        };
+        _gLlYgJf3 = {
+            "id" = "gLlYgJf3";
+            "file" = "WilderWild-4.3.2-mc26.3-neoforge.jar";
+            "hash" = "sha512-qUlKIPsT3kCRZ+IlQ/tdqwQ14mSN1MB7+hxeeN2uGxvo08tbpShqsdCwb7QAHBDh8ACfjdX0pqz3JE3+rsvJTA==";
+        };
     in {
         "AzqxBVw1" = _AzqxBVw1;
         "pdIdRHux" = _pdIdRHux;
@@ -2150,6 +2190,14 @@ let
         "wHZi8wEO" = _wHZi8wEO;
         "8oJOR652" = _8oJOR652;
         "TVkz6cZh" = _TVkz6cZh;
+        "LjKF1OQ2" = _LjKF1OQ2;
+        "jO1Bwxn3" = _jO1Bwxn3;
+        "lEClpISP" = _lEClpISP;
+        "Dytk25FR" = _Dytk25FR;
+        "IPgXdvO0" = _IPgXdvO0;
+        "EnRvF1L5" = _EnRvF1L5;
+        "R4z4bH0F" = _R4z4bH0F;
+        "gLlYgJf3" = _gLlYgJf3;
         "fabric-1.19" = _M1gKEccC;
         "fabric-1.19.1" = _26vtflIN;
         "fabric-1.19.2" = _W9arEPrI;
@@ -2213,7 +2261,8 @@ let
         "fabric-26.1.1" = _QluBtU4i;
         "fabric-26.1.2" = _QluBtU4i;
         "fabric-26.2-snapshot-5" = _wHZi8wEO;
-        "fabric-26.2" = _TVkz6cZh;
+        "fabric-26.2" = _jO1Bwxn3;
+        "fabric-26.3" = _R4z4bH0F;
         "quilt-1.19" = _M1gKEccC;
         "quilt-1.19.1" = _26vtflIN;
         "quilt-1.19.2" = _W9arEPrI;
@@ -2275,6 +2324,8 @@ let
         "quilt-26.1.1" = _QluBtU4i;
         "quilt-26.1.2" = _QluBtU4i;
         "quilt-26.2-snapshot-5" = _wHZi8wEO;
+        "neoforge-26.2" = _LjKF1OQ2;
+        "neoforge-26.3" = _gLlYgJf3;
         "pkg-1.0.0-mc1.19" = _AzqxBVw1;
         "pkg-1.0.0-mc1.19.2" = _pdIdRHux;
         "pkg-1.0.1-mc1.19" = _KFio5xQL;
@@ -2633,7 +2684,15 @@ let
         "pkg-4.2.9-mc26.2-snapshot-5" = _wHZi8wEO;
         "pkg-4.2.10-mc26.2" = _8oJOR652;
         "pkg-4.2.11-mc26.2" = _TVkz6cZh;
-        "default" = _TVkz6cZh;
+        "pkg-4.3-mc26.2-neoforge" = _LjKF1OQ2;
+        "pkg-4.3-mc26.2-fabric" = _jO1Bwxn3;
+        "pkg-4.3-mc26.3-neoforge" = _lEClpISP;
+        "pkg-4.3-mc26.3-fabric" = _Dytk25FR;
+        "pkg-4.3.1-mc26.3-neoforge" = _IPgXdvO0;
+        "pkg-4.3.1-mc26.3-fabric" = _EnRvF1L5;
+        "pkg-4.3.2-mc26.3-fabric" = _R4z4bH0F;
+        "pkg-4.3.2-mc26.3-neoforge" = _gLlYgJf3;
+        "default" = _gLlYgJf3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wilder-wild";

@@ -331,6 +331,26 @@ let
             "file" = "better_tab-2.2.1+26.2-fabric.jar";
             "hash" = "sha512-s4uovMPTvbq+oH5yvvJLBflCPN5s4preHd7qW2hV4byioFugkrIc/jW0AyEmWFAy0SNtfpnDJtY4TsTi0QYlwA==";
         };
+        _s4CX3jUo = {
+            "id" = "s4CX3jUo";
+            "file" = "better_tab-2.2.2+26.2-neoforge.jar";
+            "hash" = "sha512-K7GhD3bOWnjRwHUwUy7/KS7+fJfqK5crFn8g9TKLB+EO7s3ffyWZSyYNh7D1RDdwdEma5p7NZ4+M48ubrMg7XA==";
+        };
+        _Iw1985el = {
+            "id" = "Iw1985el";
+            "file" = "better_tab-2.2.2+26.2-fabric.jar";
+            "hash" = "sha512-zomp+Pe1ARKw/3YxLe9DNfSIhnOfhSo0Gzu5ohHUoYFksqDLhPmAG90WVQgEedKacbgXUJ0q+GRI96+bMv01SQ==";
+        };
+        _UybL8z0D = {
+            "id" = "UybL8z0D";
+            "file" = "better_tab-2.2.3+26.2-neoforge.jar";
+            "hash" = "sha512-6B/nNR9v+gbu/8eUpJbh4zpRMKgFHoUJtyHa7Qcjjf7VZKvuRGgK/2nHMU1SC05QSBQJ+yzxUNSkidUTSn7MMg==";
+        };
+        _a8DZQrYZ = {
+            "id" = "a8DZQrYZ";
+            "file" = "better_tab-2.2.3+26.2-fabric.jar";
+            "hash" = "sha512-kWA0pZclsJPKVdbsQ4jfM36CssZPehq+4u9ldPrRvVmDfsXe4AppLAP5zhCcFOd2vSdrF4O+MwRL5PUABqe0DQ==";
+        };
     in {
         "oZ1D9b97" = _oZ1D9b97;
         "5jQD1vZI" = _5jQD1vZI;
@@ -398,6 +418,10 @@ let
         "cjgvfJWQ" = _cjgvfJWQ;
         "cJbgxjun" = _cJbgxjun;
         "P6gSmjpn" = _P6gSmjpn;
+        "s4CX3jUo" = _s4CX3jUo;
+        "Iw1985el" = _Iw1985el;
+        "UybL8z0D" = _UybL8z0D;
+        "a8DZQrYZ" = _a8DZQrYZ;
         "forge-1.20.1" = _BDQjNw8O;
         "neoforge-1.21" = _5jQD1vZI;
         "neoforge-1.21.1" = _DnF5IgN7;
@@ -414,8 +438,8 @@ let
         "neoforge-26.1" = _xhEJzJIp;
         "neoforge-26.1.1" = _xhEJzJIp;
         "neoforge-26.1.2" = _xhEJzJIp;
-        "neoforge-26.2" = _cJbgxjun;
-        "neoforge-26.3" = _cJbgxjun;
+        "neoforge-26.2" = _UybL8z0D;
+        "neoforge-26.3" = _UybL8z0D;
         "fabric-1.20" = _4PQlVYof;
         "fabric-1.20.1" = _JVUBm0DG;
         "fabric-1.20.2" = _4PQlVYof;
@@ -438,8 +462,8 @@ let
         "fabric-26.1" = _jPlBpNz9;
         "fabric-26.1.1" = _jPlBpNz9;
         "fabric-26.1.2" = _jPlBpNz9;
-        "fabric-26.2" = _P6gSmjpn;
-        "fabric-26.3" = _P6gSmjpn;
+        "fabric-26.2" = _a8DZQrYZ;
+        "fabric-26.3" = _a8DZQrYZ;
         "pkg-1.0.6" = _oZ1D9b97;
         "pkg-1.0.0" = _5jQD1vZI;
         "pkg-1.1.1" = _4PQlVYof;
@@ -487,7 +511,11 @@ let
         "pkg-2.2.1+1.21.1-fabric" = _6oj9vGa5;
         "pkg-2.2.1+1.20.1-fabric" = _JVUBm0DG;
         "pkg-2.2.1+1.21.11-fabric" = _cjgvfJWQ;
-        "default" = _P6gSmjpn;
+        "pkg-2.2.2+26.2-neoforge" = _s4CX3jUo;
+        "pkg-2.2.2+26.2-fabric" = _Iw1985el;
+        "pkg-2.2.3+26.2-neoforge" = _UybL8z0D;
+        "pkg-2.2.3+26.2-fabric" = _a8DZQrYZ;
+        "default" = _a8DZQrYZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bettertabinfo";

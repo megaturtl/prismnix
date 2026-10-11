@@ -81,6 +81,16 @@ let
             "file" = "ruined_lighthouse-1.0.0 Neoforge 26.2.jar";
             "hash" = "sha512-vpGNPqRKqJzW0QV59n9LqN8ir14hLXct5L5/QVFQ+Iwzrm0e15A3AwPCsQVihQ2cBNXUTnHx2UJ4xCl9jz5cEA==";
         };
+        _djrKEAo3 = {
+            "id" = "djrKEAo3";
+            "file" = "ruined_lighthouse-1.0.0 Fabric 26.3.jar";
+            "hash" = "sha512-OqztCTg4QAnyBxgo1AYNUJRntfe0IwFGIyzFsFhrz8TTJ6F1Glb3obhQ0Qe6l15wJ9+W5JR6yG1UAyUW6WLI7w==";
+        };
+        _934eUTT1 = {
+            "id" = "934eUTT1";
+            "file" = "ruined_lighthouse-1.0.0 Neoforge 26.3.jar";
+            "hash" = "sha512-5B98cs7n++wpRWwLr/L1xGQpAX5/j6nfW3/zhMXUKhiOQ/UAmnzYTw2p11mSTpcgxdyQgz/dfCwZUYwIDnVtqQ==";
+        };
     in {
         "uNj4cFK8" = _uNj4cFK8;
         "asGUVMub" = _asGUVMub;
@@ -98,6 +108,8 @@ let
         "27T0u7t1" = _27T0u7t1;
         "G0Ih9g5f" = _G0Ih9g5f;
         "buKbj3fz" = _buKbj3fz;
+        "djrKEAo3" = _djrKEAo3;
+        "934eUTT1" = _934eUTT1;
         "fabric-1.20.1" = _uNj4cFK8;
         "fabric-1.21.8" = _drbI2aVz;
         "fabric-1.21.9" = _aJ2QK1M9;
@@ -106,6 +118,7 @@ let
         "fabric-1.21.1" = _DiTOxTDD;
         "fabric-26.1.2" = _k1ji2JNc;
         "fabric-26.2" = _G0Ih9g5f;
+        "fabric-26.3" = _djrKEAo3;
         "forge-1.20.1" = _asGUVMub;
         "neoforge-1.21.1" = _NrxrV48E;
         "neoforge-1.21.4" = _U4FxayTV;
@@ -113,10 +126,11 @@ let
         "neoforge-1.21.11" = _GPrK7HwT;
         "neoforge-26.1.2" = _27T0u7t1;
         "neoforge-26.2" = _buKbj3fz;
-        "pkg-1.0.0" = _buKbj3fz;
+        "neoforge-26.3" = _934eUTT1;
+        "pkg-1.0.0" = _934eUTT1;
         "pkg-1.0.1" = _UCrjsc70;
         "pkg-1.0.2" = _aJ2QK1M9;
-        "default" = _buKbj3fz;
+        "default" = _934eUTT1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ruined-lighthouse";

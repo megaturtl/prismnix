@@ -436,6 +436,11 @@ let
             "file" = "youkaishomecoming-2.7.0.jar";
             "hash" = "sha512-7tlrxNp+Ca8UJAs2Us+eLqMTAJrrJSKQ2O5asGevSFGeLJ+MlrgephUHiA2LsQ1KA8Kq4W3HdsSrABxUPwBSeQ==";
         };
+        _AU7Tsb60 = {
+            "id" = "AU7Tsb60";
+            "file" = "youkaishomecoming-2.7.1.jar";
+            "hash" = "sha512-eZ1IlJlWWcTw7OhFpTHlEfe97SFgAQxWS/d3mFYxs7o93y/HkT5rkCQSry24IjDwRYnkgu5WuG9Da820fu0Bcg==";
+        };
     in {
         "dbtRP9yW" = _dbtRP9yW;
         "AO6fwNWQ" = _AO6fwNWQ;
@@ -524,8 +529,9 @@ let
         "yq57nNdE" = _yq57nNdE;
         "6TedUGDi" = _6TedUGDi;
         "Q3HHA1IV" = _Q3HHA1IV;
-        "forge-1.20.1" = _Q3HHA1IV;
-        "neoforge-1.20.1" = _Q3HHA1IV;
+        "AU7Tsb60" = _AU7Tsb60;
+        "forge-1.20.1" = _AU7Tsb60;
+        "neoforge-1.20.1" = _AU7Tsb60;
         "neoforge-1.21.1" = _vu5Xy9Dk;
         "pkg-2.1.7" = _dbtRP9yW;
         "pkg-2.2.5" = _AO6fwNWQ;
@@ -612,7 +618,8 @@ let
         "pkg-2.6.8" = _yq57nNdE;
         "pkg-2.6.9" = _6TedUGDi;
         "pkg-2.7.0" = _Q3HHA1IV;
-        "default" = _Q3HHA1IV;
+        "pkg-2.7.1" = _AU7Tsb60;
+        "default" = _AU7Tsb60;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "youkaishomecoming";

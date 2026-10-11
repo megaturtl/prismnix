@@ -461,6 +461,11 @@ let
             "file" = "sliceanddice-fabric-3.6.0.jar";
             "hash" = "sha512-ow+QMIrsX2gg6u5XfocsIgyDctEN78J2R4cEyGpFcSpgxhOGHHr7KIc1MWztZYJhqHOsQcPmRFV8QFvYx4yZTA==";
         };
+        _D6mQaFRW = {
+            "id" = "D6mQaFRW";
+            "file" = "sliceanddice-4.3.4-neoforge.jar";
+            "hash" = "sha512-GPyccNKVitag5xBsoqVlnWZP6dUAGgKvvQx9aYB0l2T82QIDq7K5xtexyOVk5CG+BN/KGusll0Nx197qv0uWow==";
+        };
     in {
         "UJTc0pk2" = _UJTc0pk2;
         "1wP6CNfI" = _1wP6CNfI;
@@ -554,12 +559,13 @@ let
         "cV2GZBSJ" = _cV2GZBSJ;
         "N67LJgrN" = _N67LJgrN;
         "YT0NEd3Q" = _YT0NEd3Q;
+        "D6mQaFRW" = _D6mQaFRW;
         "forge-1.18.2" = _86R8vw1P;
         "forge-1.19.2" = _2YFOoeUh;
         "forge-1.20.1" = _KWLI8Ng7;
         "fabric-1.19.2" = _UdU72k1h;
         "fabric-1.20.1" = _YT0NEd3Q;
-        "neoforge-1.21.1" = _N67LJgrN;
+        "neoforge-1.21.1" = _D6mQaFRW;
         "pkg-0.0.1-alpha" = _UJTc0pk2;
         "pkg-0.0.2-alpha" = _1wP6CNfI;
         "pkg-1.0.0" = _Nk2dO6Go;
@@ -639,7 +645,8 @@ let
         "pkg-4.3.1" = _ieLfP0rx;
         "pkg-4.3.2" = _cV2GZBSJ;
         "pkg-4.3.3" = _N67LJgrN;
-        "default" = _YT0NEd3Q;
+        "pkg-4.3.4" = _D6mQaFRW;
+        "default" = _D6mQaFRW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "slice-and-dice";

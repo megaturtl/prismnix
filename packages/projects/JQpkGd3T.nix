@@ -36,6 +36,11 @@ let
             "file" = "unobtainableblocks-1.4.0+mc26.1.jar";
             "hash" = "sha512-VqaiuTnaTxUf/pvK+1wcDHBgny7LwvZh20cSlUEzHjdIEYBbvpIVZ+qQrqBsACJVtFkzF9G8D3WJuTtcGLeOrg==";
         };
+        _GECsGAPM = {
+            "id" = "GECsGAPM";
+            "file" = "unobtainableblocks-1.4.0+mc26.3.jar";
+            "hash" = "sha512-nOoYIOZiqZduKNzTygP4VT7KdLbnL8cyfSX7kl6n7qcPiLP5IlgRBxata4z2AQklNAMcOWcPO4i8RGOmwZMmIw==";
+        };
     in {
         "4Zh5E1lu" = _4Zh5E1lu;
         "9WFTvQqo" = _9WFTvQqo;
@@ -44,6 +49,7 @@ let
         "8wICbplk" = _8wICbplk;
         "DIFSPtFW" = _DIFSPtFW;
         "DnvkGBhQ" = _DnvkGBhQ;
+        "GECsGAPM" = _GECsGAPM;
         "fabric-1.21.5" = _DIFSPtFW;
         "fabric-1.21.6" = _DIFSPtFW;
         "fabric-1.21.7" = _DIFSPtFW;
@@ -51,9 +57,11 @@ let
         "fabric-1.21.9" = _DIFSPtFW;
         "fabric-1.21.10" = _DIFSPtFW;
         "fabric-1.21.11" = _DIFSPtFW;
-        "fabric-26.1" = _DnvkGBhQ;
-        "fabric-26.1.1" = _DnvkGBhQ;
-        "fabric-26.1.2" = _DnvkGBhQ;
+        "fabric-26.1" = _GECsGAPM;
+        "fabric-26.1.1" = _GECsGAPM;
+        "fabric-26.1.2" = _GECsGAPM;
+        "fabric-26.2" = _GECsGAPM;
+        "fabric-26.3" = _GECsGAPM;
         "pkg-1.0.0" = _4Zh5E1lu;
         "pkg-1.0.1" = _9WFTvQqo;
         "pkg-1.0.2" = _vBxmwwjC;
@@ -61,7 +69,8 @@ let
         "pkg-1.3.0" = _8wICbplk;
         "pkg-1.4.0" = _DIFSPtFW;
         "pkg-1.4.0+26.1" = _DnvkGBhQ;
-        "default" = _DnvkGBhQ;
+        "pkg-1.4.0+mc26.3" = _GECsGAPM;
+        "default" = _GECsGAPM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "unobtainable-blocks";

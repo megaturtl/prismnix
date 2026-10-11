@@ -51,6 +51,16 @@ let
             "file" = "doom_and_gloom-forge-3.0.1.jar";
             "hash" = "sha512-288feK4jNPtyhHDplaEuOwER5WT9pB/HtudwaOWE4mWgjA59MxyZfofeXpBHPto+vD3F4E/3rbRwyXRIeVddgQ==";
         };
+        _siM6a24B = {
+            "id" = "siM6a24B";
+            "file" = "doom_and_gloom-3.0.2-fabric.jar";
+            "hash" = "sha512-+1lvyLRlLjKQuVHGE1W827Q5HGSZ5rmFqr6YtMdfzihfU/TqJe6xoJipYNmQh7V2Gj5Ap03ccAm6JLnnw1cGRw==";
+        };
+        _SISVse0J = {
+            "id" = "SISVse0J";
+            "file" = "doom_and_gloom-3.0.2-forge.jar";
+            "hash" = "sha512-PeTvQTfRLRkiB7DjuWWegWBA3gVjcU65LUaiJsNZsnuNrW0+yTMI1xX+mJ08RfEj+pcQtWADuG3jnkCblfHzxA==";
+        };
     in {
         "uS8jzRFs" = _uS8jzRFs;
         "wBhe6O8T" = _wBhe6O8T;
@@ -62,10 +72,12 @@ let
         "H9n5nZWN" = _H9n5nZWN;
         "fRiYJ7gT" = _fRiYJ7gT;
         "PhQNuZmw" = _PhQNuZmw;
+        "siM6a24B" = _siM6a24B;
+        "SISVse0J" = _SISVse0J;
         "forge-1.20.1" = _HVbzn6sO;
         "fabric-1.20.1" = _nnapbaio;
-        "fabric-1.21.1" = _fRiYJ7gT;
-        "neoforge-1.21.1" = _PhQNuZmw;
+        "fabric-1.21.1" = _siM6a24B;
+        "neoforge-1.21.1" = _SISVse0J;
         "pkg-1.0.1" = _uS8jzRFs;
         "pkg-1.0.2" = _wBhe6O8T;
         "pkg-1.1.0" = _5ziXLje0;
@@ -73,7 +85,8 @@ let
         "pkg-2.0.0" = _nnapbaio;
         "pkg-3.0.0" = _H9n5nZWN;
         "pkg-3.0.1" = _PhQNuZmw;
-        "default" = _PhQNuZmw;
+        "pkg-3.0.2" = _SISVse0J;
+        "default" = _SISVse0J;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "doom-gloom";

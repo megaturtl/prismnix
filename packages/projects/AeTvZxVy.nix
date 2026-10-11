@@ -66,6 +66,16 @@ let
             "file" = "fc-datapack-2.1.0.jar";
             "hash" = "sha512-vcSCwBItaZgrnmde1SFtOo2wB83I6YL0Lmyge4mXq52sHXLrkm/Dwkh206KOzo+qJtYYGPSg5nCMXFm+kHa3qw==";
         };
+        _J7JtHNJT = {
+            "id" = "J7JtHNJT";
+            "file" = "FastCraft-v3.0.0-mc26.3.zip";
+            "hash" = "sha512-cqAABYV5tKcooShXnz9gKQcmXPnxcJ2GbjEKYt7g9DRotsEmhVJz4UUFcr4KnXIa2+UhX0J2BltWsUSMCp82Zg==";
+        };
+        _oNtRUjgH = {
+            "id" = "oNtRUjgH";
+            "file" = "fc-datapack-3.0.0.jar";
+            "hash" = "sha512-SJIqyeZpJBhExyycRlGBOyInsAhUpDZmc3XfpFtNyLWpIvwPp0RuRBJl0lfri4s8alHh6GzjC3eRJiCwHNnBiw==";
+        };
     in {
         "svdELWZg" = _svdELWZg;
         "en7fxF0C" = _en7fxF0C;
@@ -80,6 +90,8 @@ let
         "rsMO8JIN" = _rsMO8JIN;
         "DpnERIrH" = _DpnERIrH;
         "Q9wrxixB" = _Q9wrxixB;
+        "J7JtHNJT" = _J7JtHNJT;
+        "oNtRUjgH" = _oNtRUjgH;
         "datapack-1.21" = _Z81F1Hve;
         "datapack-1.21.1" = _Z81F1Hve;
         "datapack-1.21.2" = _Z81F1Hve;
@@ -96,6 +108,7 @@ let
         "datapack-26.1.1" = _JUSSKQJn;
         "datapack-26.1.2" = _JUSSKQJn;
         "datapack-26.2" = _DpnERIrH;
+        "datapack-26.3" = _J7JtHNJT;
         "fabric-1.21" = _hEBQAdwy;
         "fabric-1.21.1" = _hEBQAdwy;
         "fabric-1.21.2" = _hEBQAdwy;
@@ -112,6 +125,7 @@ let
         "fabric-26.1.1" = _rsMO8JIN;
         "fabric-26.1.2" = _rsMO8JIN;
         "fabric-26.2" = _Q9wrxixB;
+        "fabric-26.3" = _oNtRUjgH;
         "forge-1.21" = _hEBQAdwy;
         "forge-1.21.1" = _hEBQAdwy;
         "forge-1.21.2" = _hEBQAdwy;
@@ -128,6 +142,7 @@ let
         "forge-26.1.1" = _rsMO8JIN;
         "forge-26.1.2" = _rsMO8JIN;
         "forge-26.2" = _Q9wrxixB;
+        "forge-26.3" = _oNtRUjgH;
         "neoforge-1.21" = _hEBQAdwy;
         "neoforge-1.21.1" = _hEBQAdwy;
         "neoforge-1.21.2" = _hEBQAdwy;
@@ -144,6 +159,7 @@ let
         "neoforge-26.1.1" = _rsMO8JIN;
         "neoforge-26.1.2" = _rsMO8JIN;
         "neoforge-26.2" = _Q9wrxixB;
+        "neoforge-26.3" = _oNtRUjgH;
         "quilt-1.21" = _hEBQAdwy;
         "quilt-1.21.1" = _hEBQAdwy;
         "quilt-1.21.2" = _hEBQAdwy;
@@ -160,6 +176,7 @@ let
         "quilt-26.1.1" = _rsMO8JIN;
         "quilt-26.1.2" = _rsMO8JIN;
         "quilt-26.2" = _Q9wrxixB;
+        "quilt-26.3" = _oNtRUjgH;
         "pkg-v1.0.0" = _svdELWZg;
         "pkg-v1.1.0" = _en7fxF0C;
         "pkg-v1.1.0+mod" = _u46v30to;
@@ -173,7 +190,9 @@ let
         "pkg-2.0.0+mod" = _rsMO8JIN;
         "pkg-2.1.0" = _DpnERIrH;
         "pkg-2.1.0+mod" = _Q9wrxixB;
-        "default" = _Q9wrxixB;
+        "pkg-3.0.0" = _J7JtHNJT;
+        "pkg-3.0.0+mod" = _oNtRUjgH;
+        "default" = _oNtRUjgH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fc-datapack";

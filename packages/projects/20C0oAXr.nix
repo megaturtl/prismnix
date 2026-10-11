@@ -41,6 +41,11 @@ let
             "file" = "notsohardcore-0.2.2_fabric26.2.jar";
             "hash" = "sha512-NYd5z5/VXyeKWVKZmmgAXPhfLB7KLoQOHnUne33dYRwi+6zYALDNW8rp0Jh9N/2iojjCZZsFJ3pg7085FK/GqQ==";
         };
+        _EB1hh2G0 = {
+            "id" = "EB1hh2G0";
+            "file" = "notsohardcore-0.2.3_fabric26.3.jar";
+            "hash" = "sha512-q52uBQaGHyOaqnTVIioLUlLVX1tKTapuA74xQzROI631X+yvhFJcmYmAZlgv1inPqmtT4319EYo3tcKo6cg1oQ==";
+        };
     in {
         "xhEASCm9" = _xhEASCm9;
         "TPN8OHIM" = _TPN8OHIM;
@@ -50,16 +55,19 @@ let
         "q7YovXYV" = _q7YovXYV;
         "ZEpUqrcx" = _ZEpUqrcx;
         "dfEsGD8t" = _dfEsGD8t;
+        "EB1hh2G0" = _EB1hh2G0;
         "fabric-1.21.1" = _CGz4cd4i;
         "fabric-1.21.10" = _TPN8OHIM;
         "fabric-1.21.11" = _Z6BvTaO8;
         "fabric-26.1" = _1qYUiZ6R;
         "fabric-26.1.2" = _ZEpUqrcx;
         "fabric-26.2" = _dfEsGD8t;
+        "fabric-26.3" = _EB1hh2G0;
         "pkg-0.1.1" = _xhEASCm9;
         "pkg-0.2.1" = _q7YovXYV;
         "pkg-0.2.2" = _dfEsGD8t;
-        "default" = _dfEsGD8t;
+        "pkg-0.2.3" = _EB1hh2G0;
+        "default" = _EB1hh2G0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "notsohardcore";

@@ -51,6 +51,16 @@ let
             "file" = "better-serversleep-26.2.jar";
             "hash" = "sha512-WGYm7GMDfkkUby9PXTTUa7a9DtZZr8x6vhUSqEDS/736OE77sIsI6q9BCkreCp9WOgMoIwGB7Pae9Q0cjqY5uA==";
         };
+        _s74MxKHV = {
+            "id" = "s74MxKHV";
+            "file" = "better_serversleep_26.3.zip";
+            "hash" = "sha512-UZv5OqtGl5hxzDrRGQOjwolHqArfaE3dM67oUlGFIKHIfdqejSnlw8gAsBnMebTSi9kvhTSxyxN4PHW/0tjzIQ==";
+        };
+        _KH44Az6J = {
+            "id" = "KH44Az6J";
+            "file" = "better-serversleep-26.3.jar";
+            "hash" = "sha512-wSty4aR26vzl/KP1XH9Le5qe9AFTtl8LcHHbl1L7b2MTD9I0RlDhZx8sTmNX8gVL7Kn61VPvEnh0pubukezXBw==";
+        };
     in {
         "eV0vKfxG" = _eV0vKfxG;
         "D1R7eLvm" = _D1R7eLvm;
@@ -62,6 +72,8 @@ let
         "hEQ78VTd" = _hEQ78VTd;
         "qEHMMMUi" = _qEHMMMUi;
         "uP6I2nfE" = _uP6I2nfE;
+        "s74MxKHV" = _s74MxKHV;
+        "KH44Az6J" = _KH44Az6J;
         "datapack-1.21.4" = _bfsPVb7M;
         "datapack-1.21.5" = _bfsPVb7M;
         "datapack-1.21.6" = _bfsPVb7M;
@@ -74,6 +86,7 @@ let
         "datapack-26.1.1" = _e03FPCPg;
         "datapack-26.1.2" = _e03FPCPg;
         "datapack-26.2" = _qEHMMMUi;
+        "datapack-26.3" = _s74MxKHV;
         "fabric-1.21.4" = _xkUZr9QF;
         "fabric-1.21.5" = _xkUZr9QF;
         "fabric-1.21.6" = _xkUZr9QF;
@@ -86,6 +99,7 @@ let
         "fabric-26.1.1" = _hEQ78VTd;
         "fabric-26.1.2" = _hEQ78VTd;
         "fabric-26.2" = _uP6I2nfE;
+        "fabric-26.3" = _KH44Az6J;
         "forge-1.21.4" = _xkUZr9QF;
         "forge-1.21.5" = _xkUZr9QF;
         "forge-1.21.6" = _xkUZr9QF;
@@ -98,6 +112,7 @@ let
         "forge-26.1.1" = _hEQ78VTd;
         "forge-26.1.2" = _hEQ78VTd;
         "forge-26.2" = _uP6I2nfE;
+        "forge-26.3" = _KH44Az6J;
         "neoforge-1.21.4" = _xkUZr9QF;
         "neoforge-1.21.5" = _xkUZr9QF;
         "neoforge-1.21.6" = _xkUZr9QF;
@@ -110,6 +125,7 @@ let
         "neoforge-26.1.1" = _hEQ78VTd;
         "neoforge-26.1.2" = _hEQ78VTd;
         "neoforge-26.2" = _uP6I2nfE;
+        "neoforge-26.3" = _KH44Az6J;
         "quilt-1.21.4" = _xkUZr9QF;
         "quilt-1.21.5" = _xkUZr9QF;
         "quilt-1.21.6" = _xkUZr9QF;
@@ -122,6 +138,7 @@ let
         "quilt-26.1.1" = _hEQ78VTd;
         "quilt-26.1.2" = _hEQ78VTd;
         "quilt-26.2" = _uP6I2nfE;
+        "quilt-26.3" = _KH44Az6J;
         "pkg-Better_ServerSleep_v1" = _eV0vKfxG;
         "pkg-Better_ServerSleep_v1+mod" = _D1R7eLvm;
         "pkg-better_serversleep_v1.1" = _bfsPVb7M;
@@ -132,7 +149,9 @@ let
         "pkg-26.1+mod" = _hEQ78VTd;
         "pkg-26.2" = _qEHMMMUi;
         "pkg-26.2+mod" = _uP6I2nfE;
-        "default" = _uP6I2nfE;
+        "pkg-26.3" = _s74MxKHV;
+        "pkg-26.3+mod" = _KH44Az6J;
+        "default" = _KH44Az6J;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-serversleep";

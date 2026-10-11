@@ -126,6 +126,16 @@ let
             "file" = "invisible-player-name-v3.0.4.jar";
             "hash" = "sha512-fNQoDebEs6P53FJZv2bpXsLKarKF5CGAVJlZkfqdvZi51ezH4epyQkoINZxh2jIaSfQx1m70IwxqKzh61MSknA==";
         };
+        _c4c6F0ry = {
+            "id" = "c4c6F0ry";
+            "file" = "invisible-player-name-v3.1.0.zip";
+            "hash" = "sha512-LhhjbhnB2qeOti7PvO163Lq0yLPBxg4zwfUpX4hqZiGtKb+8/nH4T8oBJUPVYIwGGvZRD5OUeMxLRIQZbTe6kg==";
+        };
+        _V1DHryqL = {
+            "id" = "V1DHryqL";
+            "file" = "invisible-player-name-v3.1.0.jar";
+            "hash" = "sha512-UaYYB7Jbuy88+Th7o59SP95WSA8patNmTH9XtHWEFxyZd8MkrmJF7hij6QDJ6XPscMHzWuFuXg0/H487YUaLcA==";
+        };
     in {
         "2I866NCN" = _2I866NCN;
         "vOJkzGAz" = _vOJkzGAz;
@@ -152,6 +162,8 @@ let
         "32xiKOVW" = _32xiKOVW;
         "r5BqfXzL" = _r5BqfXzL;
         "iEOPav3M" = _iEOPav3M;
+        "c4c6F0ry" = _c4c6F0ry;
+        "V1DHryqL" = _V1DHryqL;
         "datapack-1.20.5" = _2I866NCN;
         "datapack-1.20.6" = _2I866NCN;
         "datapack-1.21" = _yQtnkLS7;
@@ -170,6 +182,7 @@ let
         "datapack-26.1.1" = _r5BqfXzL;
         "datapack-26.1.2" = _r5BqfXzL;
         "datapack-26.2" = _r5BqfXzL;
+        "datapack-26.3" = _c4c6F0ry;
         "fabric-1.20.5" = _vOJkzGAz;
         "fabric-1.20.6" = _vOJkzGAz;
         "fabric-1.21" = _msbkUl0u;
@@ -188,6 +201,7 @@ let
         "fabric-26.1.1" = _iEOPav3M;
         "fabric-26.1.2" = _iEOPav3M;
         "fabric-26.2" = _iEOPav3M;
+        "fabric-26.3" = _V1DHryqL;
         "forge-1.20.5" = _vOJkzGAz;
         "forge-1.20.6" = _vOJkzGAz;
         "forge-1.21" = _msbkUl0u;
@@ -206,6 +220,7 @@ let
         "forge-26.1.1" = _iEOPav3M;
         "forge-26.1.2" = _iEOPav3M;
         "forge-26.2" = _iEOPav3M;
+        "forge-26.3" = _V1DHryqL;
         "quilt-1.20.5" = _vOJkzGAz;
         "quilt-1.20.6" = _vOJkzGAz;
         "quilt-1.21" = _msbkUl0u;
@@ -224,6 +239,7 @@ let
         "quilt-26.1.1" = _iEOPav3M;
         "quilt-26.1.2" = _iEOPav3M;
         "quilt-26.2" = _iEOPav3M;
+        "quilt-26.3" = _V1DHryqL;
         "neoforge-1.21" = _msbkUl0u;
         "neoforge-1.21.1" = _msbkUl0u;
         "neoforge-1.21.2" = _msbkUl0u;
@@ -240,6 +256,7 @@ let
         "neoforge-26.1.1" = _iEOPav3M;
         "neoforge-26.1.2" = _iEOPav3M;
         "neoforge-26.2" = _iEOPav3M;
+        "neoforge-26.3" = _V1DHryqL;
         "pkg-v.2.0.0" = _CoSkypn1;
         "pkg-v.2.0.0+mod" = _RxkczT5D;
         "pkg-v.2.1.0" = _fHL4xH4v;
@@ -258,7 +275,9 @@ let
         "pkg-v3.0.3.1+mod" = _32xiKOVW;
         "pkg-v3.0.4" = _r5BqfXzL;
         "pkg-v3.0.4+mod" = _iEOPav3M;
-        "default" = _iEOPav3M;
+        "pkg-v3.1.0" = _c4c6F0ry;
+        "pkg-v3.1.0+mod" = _V1DHryqL;
+        "default" = _V1DHryqL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "invisible-player-name";

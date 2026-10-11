@@ -171,6 +171,11 @@ let
             "file" = "colorsaturation-1.3.0+26.3.jar";
             "hash" = "sha512-45Jcp/hAY8YMHE9hnl4hL/Gak12UqtWVqOv1iuQW0gP41Xk9oo9PYyakZEDY+F9mqFjm0H3aHYjnLH8veHRYyQ==";
         };
+        _OKY0cEE7 = {
+            "id" = "OKY0cEE7";
+            "file" = "colorsaturation-1.3.0+1.8.9.jar";
+            "hash" = "sha512-TSIsZdhgnxvJGtpr1YLaMpHGmwvCQtP/OhUaHAFADaIUs+hrShUpvsOzlQzq5BboZg/WgSaqWGpZuYoetMd4zA==";
+        };
     in {
         "UIoBGYDU" = _UIoBGYDU;
         "PDZbM2W3" = _PDZbM2W3;
@@ -206,6 +211,7 @@ let
         "HJOf5bXR" = _HJOf5bXR;
         "yHJmw7aq" = _yHJmw7aq;
         "i0GogUL1" = _i0GogUL1;
+        "OKY0cEE7" = _OKY0cEE7;
         "forge-1.8.9" = _UIoBGYDU;
         "fabric-26.2" = _yHJmw7aq;
         "fabric-26.1" = _HJOf5bXR;
@@ -220,12 +226,13 @@ let
         "fabric-1.21.9" = _6mnnPUvD;
         "fabric-1.21.10" = _6mnnPUvD;
         "fabric-26.3" = _i0GogUL1;
+        "ornithe-1.8.9" = _OKY0cEE7;
         "pkg-v1.0.0" = _UIoBGYDU;
         "pkg-v1.1.0" = _ATtzayXp;
         "pkg-v1.1.1" = _AfaAM3ZD;
         "pkg-v1.2.0" = _S1OEhmmU;
-        "pkg-v1.3.0" = _i0GogUL1;
-        "default" = _i0GogUL1;
+        "pkg-v1.3.0" = _OKY0cEE7;
+        "default" = _OKY0cEE7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "colorsaturation";

@@ -246,6 +246,26 @@ let
             "file" = "BetterTridents-v26.2.0-mc26.2.x-Fabric.jar";
             "hash" = "sha512-Li6BfSjRltmSGMNUGkQt2ZoIOAHlwNMDXhKl+YTmITVQhEAX2pMerHXLbb0TIosfgyKeYXIajCqjkJTD6TWmdg==";
         };
+        _6m8GORzg = {
+            "id" = "6m8GORzg";
+            "file" = "bettertridents-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-qVakDLMh1vYX3xvFI9wv3Css4RqgBNek0Lo7XovCxVV1b7CTcn0mnzIK3JsRVxgKGkKzWgVJQCIsinvpQh5tpA==";
+        };
+        _xdFNO7gU = {
+            "id" = "xdFNO7gU";
+            "file" = "bettertridents-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-5zoe4omnTosECdZ9Kak00fVA06cUVmqFUbsdRcrjk0VA7Jp88/ZuDbHHgVSJ0fnYTh2A2zc62YhSyMGyzwtpzQ==";
+        };
+        _Opngvnij = {
+            "id" = "Opngvnij";
+            "file" = "bettertridents-v26.3.1-mc26.3.x+fabric.jar";
+            "hash" = "sha512-afYg1qH4yAAFAL3AJ1G44NIkERG+hSwCzI6pjVIe97hZ38s9saUapfAR4hROuEqpnKAlkLIFXIGdRPXZ0KBkMw==";
+        };
+        _Dg5NUiZW = {
+            "id" = "Dg5NUiZW";
+            "file" = "bettertridents-v26.3.1-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-EhR51Z25OgGkvtEm+e/uG9gqZBxHKFGXuXvdHaMUVefRuR3H7KzL3v85fQJUkvwaIjXHNjN+jzppSjkiPO+oGw==";
+        };
     in {
         "aCuMjq2w" = _aCuMjq2w;
         "Co8vAXm9" = _Co8vAXm9;
@@ -296,6 +316,10 @@ let
         "BTei8GqQ" = _BTei8GqQ;
         "P4NN20lj" = _P4NN20lj;
         "rXW0xJZF" = _rXW0xJZF;
+        "6m8GORzg" = _6m8GORzg;
+        "xdFNO7gU" = _xdFNO7gU;
+        "Opngvnij" = _Opngvnij;
+        "Dg5NUiZW" = _Dg5NUiZW;
         "fabric-1.19.2" = _bOhIfLF2;
         "fabric-1.19.3" = _ampONFGD;
         "fabric-1.19.4" = _nNx44MUz;
@@ -318,6 +342,7 @@ let
         "fabric-26.1.1" = _vqifbq4E;
         "fabric-26.1.2" = _vqifbq4E;
         "fabric-26.2" = _rXW0xJZF;
+        "fabric-26.3" = _Opngvnij;
         "forge-1.19.2" = _cWbBHrVq;
         "forge-1.19.3" = _RXodeCao;
         "forge-1.19.4" = _m8gDhbsJ;
@@ -341,6 +366,7 @@ let
         "neoforge-26.1.1" = _BTei8GqQ;
         "neoforge-26.1.2" = _BTei8GqQ;
         "neoforge-26.2" = _P4NN20lj;
+        "neoforge-26.3" = _Dg5NUiZW;
         "pkg-v4.0.0-1.19.2-Fabric" = _aCuMjq2w;
         "pkg-v4.0.0-1.19.2-Forge" = _Co8vAXm9;
         "pkg-v4.0.1-1.19.2-Forge" = _10tsXDCN;
@@ -385,7 +411,9 @@ let
         "pkg-21.11.0" = _HSOT2cuB;
         "pkg-26.1.0" = _BTei8GqQ;
         "pkg-26.2.0" = _rXW0xJZF;
-        "default" = _rXW0xJZF;
+        "pkg-26.3.0" = _xdFNO7gU;
+        "pkg-26.3.1" = _Dg5NUiZW;
+        "default" = _Dg5NUiZW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-tridents";

@@ -51,6 +51,11 @@ let
             "file" = "oldcannons-1.0.4-FABRIC-MC-1.20.1.jar";
             "hash" = "sha512-e4TDGVq/RT4yyYiDNNLbPgZ9Sz7p7rrNmtFtMT5ZyEANQnaj02XMom17sLEImmjqV1QBvpLHiN06vlNptltjWA==";
         };
+        _Lpxyj63b = {
+            "id" = "Lpxyj63b";
+            "file" = "oldcannons-1.0.4-FABRIC-MC-26.3.jar";
+            "hash" = "sha512-80wtV9rZw5VkvFRf2tXFXSTFTL27oyXsR51qPHRVsNrQq+aaNVeiilP3L87lx48hOiMJ448EmDjH448U3PsdQg==";
+        };
     in {
         "igdHp8Um" = _igdHp8Um;
         "5rkYtiaa" = _5rkYtiaa;
@@ -62,6 +67,7 @@ let
         "4zunDKvH" = _4zunDKvH;
         "m2qnEwSv" = _m2qnEwSv;
         "kLRXnVza" = _kLRXnVza;
+        "Lpxyj63b" = _Lpxyj63b;
         "fabric-26.1" = _lAHGLvCU;
         "fabric-26.1.1" = _lAHGLvCU;
         "fabric-26.1.2" = _lAHGLvCU;
@@ -69,13 +75,14 @@ let
         "fabric-1.21.11" = _jUcuwBmV;
         "fabric-1.21.1" = _agX0Iiva;
         "fabric-1.20.1" = _kLRXnVza;
+        "fabric-26.3" = _Lpxyj63b;
         "neoforge-1.21.1" = _4zunDKvH;
         "neoforge-1.20.1" = _m2qnEwSv;
         "forge-1.20.1" = _m2qnEwSv;
         "pkg-1.0.3" = _UtkxqJgr;
-        "pkg-1.0.4" = _kLRXnVza;
+        "pkg-1.0.4" = _Lpxyj63b;
         "pkg-1.0.3.5" = _m2qnEwSv;
-        "default" = _kLRXnVza;
+        "default" = _Lpxyj63b;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "oldcannons";

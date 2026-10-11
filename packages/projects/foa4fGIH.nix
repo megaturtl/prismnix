@@ -371,6 +371,11 @@ let
             "file" = "rusticdelight-fabric-1.20.1-1.7.0.jar";
             "hash" = "sha512-sSmC6X5YcK25r7P/of667RJlA/mn93iOhKgj4qeG/xVzi+obAE9cRo2K/quvENn3pkxV8KS23VeKTQg48t90XQ==";
         };
+        _ietejMuZ = {
+            "id" = "ietejMuZ";
+            "file" = "rusticdelight-fabric-26.3-1.7.0.jar";
+            "hash" = "sha512-c2uCjnj7FOeaC1fgHiBqpd3Fu9/VBr/pmILhcAa51UiPVIsrSdl/i5Jon0kQny+nkzg2DfSo8NwyFR7jC6FBiQ==";
+        };
     in {
         "oEsfYQ6G" = _oEsfYQ6G;
         "l33R3zgm" = _l33R3zgm;
@@ -446,6 +451,7 @@ let
         "z29Gd3ec" = _z29Gd3ec;
         "AP5yBetM" = _AP5yBetM;
         "LC6U8ozn" = _LC6U8ozn;
+        "ietejMuZ" = _ietejMuZ;
         "neoforge-1.21" = _sAaG4pSA;
         "neoforge-1.21.1" = _sAaG4pSA;
         "neoforge-1.20.1" = _Q904t3Qn;
@@ -465,6 +471,7 @@ let
         "fabric-26.1.1" = _kVLLFl6q;
         "fabric-26.1.2" = _kVLLFl6q;
         "fabric-26.2" = _Ioo3Id1t;
+        "fabric-26.3" = _ietejMuZ;
         "pkg-1.0.0" = _HxjTjR6H;
         "pkg-1.1.0" = _l33R3zgm;
         "pkg-1.1.1" = _IyGsiqe9;
@@ -486,10 +493,10 @@ let
         "pkg-1.5.4" = _oXFAuLx3;
         "pkg-1.6.0" = _AP5yBetM;
         "pkg-1.6.1" = _WBO5jhQU;
-        "pkg-1.7.0" = _LC6U8ozn;
+        "pkg-1.7.0" = _ietejMuZ;
         "pkg-1.7.1" = _sAaG4pSA;
         "pkg-1.7.2" = _rodFprNy;
-        "default" = _LC6U8ozn;
+        "default" = _ietejMuZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rustic-delight";

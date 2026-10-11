@@ -51,6 +51,11 @@ let
             "file" = "gravity_changer-1.5.2-beta.5-mc26.2.jar";
             "hash" = "sha512-G/Z8R/CatRYWX3+dNbAhEnLoH2wJqfCVmcLJw0lyEkUnnl6Hb5gJB4tR2fgriyYWgzFM2ddoiyTKeYwOrwSx+A==";
         };
+        _eog8A80e = {
+            "id" = "eog8A80e";
+            "file" = "gravity_changer-1.5.3-beta.1-mc26.3.jar";
+            "hash" = "sha512-29YHwprEllRHdHQ9HT87ppzEbLnwJHNkdQpOGMN/akNVRsANLwjcIfpamjmBRZInJVflmAT7GLvYHosti2varQ==";
+        };
     in {
         "GLVukkMw" = _GLVukkMw;
         "SVlRLzPE" = _SVlRLzPE;
@@ -62,8 +67,10 @@ let
         "oD5TgH04" = _oD5TgH04;
         "w6Rpk9JZ" = _w6Rpk9JZ;
         "vpktEkWn" = _vpktEkWn;
+        "eog8A80e" = _eog8A80e;
         "fabric-1.21.1" = _SVlRLzPE;
         "fabric-26.2" = _vpktEkWn;
+        "fabric-26.3" = _eog8A80e;
         "pkg-1.4.0+mc1.21.1" = _GLVukkMw;
         "pkg-1.4.1-beta+mc1.21.1" = _SVlRLzPE;
         "pkg-1.5.0-beta.1-mc26.2" = _dkPjbUvI;
@@ -74,7 +81,8 @@ let
         "pkg-1.5.2-beta.2-mc26.2" = _oD5TgH04;
         "pkg-1.5.2-beta.3-mc26.2" = _w6Rpk9JZ;
         "pkg-1.5.2-beta.5-mc26.2" = _vpktEkWn;
-        "default" = _vpktEkWn;
+        "pkg-1.5.3-beta.1-mc26.3" = _eog8A80e;
+        "default" = _eog8A80e;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gravity-changer-unofficial-port";

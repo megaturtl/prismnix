@@ -341,6 +341,21 @@ let
             "file" = "ExplorersCompass-26.2-3.3.0-neoforge.jar";
             "hash" = "sha512-gYcgc5AAStKyO2Ab4DiD4Qi+VZAJDT8PGOvChaxWk3SCOIVzPVvX7ogR1VbRscOjvcKq0J6IRXVNENESaiOMEA==";
         };
+        _69AbLioc = {
+            "id" = "69AbLioc";
+            "file" = "ExplorersCompass-26.3-2.5.2-fabric.jar";
+            "hash" = "sha512-g+e0IX/uDtpCv5HO1l6mYTWEagPmz8NTBnzLv6snnpZ9PFmIfeKGyQdC0+2VlGOY5DYtUGCSo00NmbObUCtkKA==";
+        };
+        _fFrttVpW = {
+            "id" = "fFrttVpW";
+            "file" = "ExplorersCompass-26.3-3.3.1-neoforge.jar";
+            "hash" = "sha512-wYR3HwtfvK64Qi2cuFw9IbDn1onDSE8tGOxbiAVuvugpXfSq2H+plkWj+cltvrmYLtl8/QwjRgf+R1tiDoRV2Q==";
+        };
+        _MhLYpmvJ = {
+            "id" = "MhLYpmvJ";
+            "file" = "ExplorersCompass-26.3-3.3.2-neoforge.jar";
+            "hash" = "sha512-wp6GM8vqHx3rsfSYD9eJSZXQvmOSXF5vY6vSlXML/mMshY9oeSEiiau31FNFvQrcsXyRsRiWF9DxfsErXpM9EA==";
+        };
     in {
         "mrxdJNRd" = _mrxdJNRd;
         "ggrXqdX7" = _ggrXqdX7;
@@ -410,6 +425,9 @@ let
         "FN4lCamU" = _FN4lCamU;
         "z6auypou" = _z6auypou;
         "r9Okm6YW" = _r9Okm6YW;
+        "69AbLioc" = _69AbLioc;
+        "fFrttVpW" = _fFrttVpW;
+        "MhLYpmvJ" = _MhLYpmvJ;
         "fabric-1.18.2" = _mrxdJNRd;
         "fabric-1.19.2" = _oTdBRYxv;
         "fabric-1.19.4" = _rSKjK9Um;
@@ -434,6 +452,7 @@ let
         "fabric-26.1.1" = _FN4lCamU;
         "fabric-26.1.2" = _FN4lCamU;
         "fabric-26.2" = _z6auypou;
+        "fabric-26.3" = _69AbLioc;
         "forge-1.18.2" = _ggrXqdX7;
         "forge-1.19.2" = _YkK8Bd84;
         "forge-1.19.4" = _MTVqWk7F;
@@ -466,6 +485,7 @@ let
         "neoforge-26.1.1" = _OuPMcvp4;
         "neoforge-26.1.2" = _OuPMcvp4;
         "neoforge-26.2" = _r9Okm6YW;
+        "neoforge-26.3" = _MhLYpmvJ;
         "pkg-1.18.2-2.2.0-fabric" = _mrxdJNRd;
         "pkg-1.18.2-1.3.0-forge" = _ggrXqdX7;
         "pkg-1.19.2-2.2.0-fabric" = _oTdBRYxv;
@@ -534,7 +554,10 @@ let
         "pkg-26.1-2.5.1-fabric" = _FN4lCamU;
         "pkg-26.2-2.5.1-fabric" = _z6auypou;
         "pkg-26.2-3.3.0-neoforge" = _r9Okm6YW;
-        "default" = _r9Okm6YW;
+        "pkg-26.3-2.5.2-fabric" = _69AbLioc;
+        "pkg-26.3-3.3.1-neoforge" = _fFrttVpW;
+        "pkg-26.3-3.3.2-neoforge" = _MhLYpmvJ;
+        "default" = _MhLYpmvJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "explorers-compass";

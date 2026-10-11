@@ -596,15 +596,20 @@ let
             "file" = "from_the_caves-0.7.freemode-forge-1.20.1.jar";
             "hash" = "sha512-HdlCPSEbv0l/mnhCABOHYupXHkSiPWULq9fCqhfdqIW3iCAZcs8zmAGTR7WAbLrM8RT9diXJXmM4wnF0QC+Udg==";
         };
-        _TAlTAMvs = {
-            "id" = "TAlTAMvs";
-            "file" = "from_the_caves-0.7.1.fm-forge-1.20.1.jar";
-            "hash" = "sha512-PuX1V1N0W3CtVvad07Jljc0yrFumQsk2c4/4XpTv5VmK/+GjxF+TRZ9gmnqEw9r83UQUk4LhdKqcoLdG+36BUA==";
+        _Ja6gk876 = {
+            "id" = "Ja6gk876";
+            "file" = "from_the_caves-0.7.5.fm-forge-1.20.1.jar";
+            "hash" = "sha512-1j4dl/2xkE8DAsXrpNRU8I3DRlj1SjZDvME7khSZtr9wxHFoKNHxz8AMGLn6fAZ5VO0NV2+uyIY7NsYyhNQhVw==";
         };
-        _VLi1jnYl = {
-            "id" = "VLi1jnYl";
-            "file" = "from_the_caves-0.7.1.fm-neoforge-1.21.1.jar";
-            "hash" = "sha512-3WND1pqAamQKqY55qfsVYDEtIKULS8DOFcACjkYFbEtrm10jYSZ4PSLlJfX9z0sshY0ofBa93jAojGwIHEdGZw==";
+        _YWQc2SFQ = {
+            "id" = "YWQc2SFQ";
+            "file" = "from_the_caves-0.7.5.fm-forge-1.19.2.jar";
+            "hash" = "sha512-+UZbmBNiRcoaA2bZXCMA55y8zFaV73ZBiua5R1/dnMNEu6W1uhL5CWwS4Lq4eeDKiy/TzShM3g2Ge5WOerFZRg==";
+        };
+        _vgZ37VvE = {
+            "id" = "vgZ37VvE";
+            "file" = "from_the_caves-0.7.5.fm-neoforge-1.21.1.jar";
+            "hash" = "sha512-SdXKLdI9nCK0Io01Opbm9s3VBBeqlScSgYPtkQqebUm/fkeeOP8lGFb/ofp7jk3a4SRoiuZ22WpvmTySSfnV4g==";
         };
     in {
         "guzlXYYV" = _guzlXYYV;
@@ -726,10 +731,12 @@ let
         "t8NKVg03" = _t8NKVg03;
         "DbUiH0Zz" = _DbUiH0Zz;
         "vE9Thao6" = _vE9Thao6;
-        "TAlTAMvs" = _TAlTAMvs;
-        "VLi1jnYl" = _VLi1jnYl;
-        "forge-1.20.1" = _TAlTAMvs;
-        "neoforge-1.21.1" = _VLi1jnYl;
+        "Ja6gk876" = _Ja6gk876;
+        "YWQc2SFQ" = _YWQc2SFQ;
+        "vgZ37VvE" = _vgZ37VvE;
+        "forge-1.20.1" = _Ja6gk876;
+        "forge-1.19.2" = _YWQc2SFQ;
+        "neoforge-1.21.1" = _vgZ37VvE;
         "pkg-0.0.5" = _guzlXYYV;
         "pkg-0.0.7" = _wYUgM4RQ;
         "pkg-0.0.9" = _5bhfNNS6;
@@ -848,8 +855,8 @@ let
         "pkg-0.6.925" = _t8NKVg03;
         "pkg-0.6.926" = _DbUiH0Zz;
         "pkg-0.7.freemode" = _vE9Thao6;
-        "pkg-0.7.1.fm" = _VLi1jnYl;
-        "default" = _VLi1jnYl;
+        "pkg-0.7.5.fm" = _vgZ37VvE;
+        "default" = _vgZ37VvE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "from-the-caves-official";

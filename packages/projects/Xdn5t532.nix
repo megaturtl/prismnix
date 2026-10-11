@@ -151,6 +151,11 @@ let
             "file" = "teakstweaks-2.1.4.jar";
             "hash" = "sha512-l2MjTDGe6Fns7EEUdVUxgLPnJ+nENrNMHO2IculKpqh5MsHOmY+gpnYXmfK9peDHJaH4psEEuMKoEcDd8XNAeA==";
         };
+        _QwWg1zrT = {
+            "id" = "QwWg1zrT";
+            "file" = "TeaksTweaks-v2.1.5.jar";
+            "hash" = "sha512-iXI8lidng+iJdCXcbY1rh9+y8mIW86s5+9vm0EPciOtStR4f3Au4OJHGa/sWictU3DLXs/x/uFkI5mMKIKd4wA==";
+        };
     in {
         "7B1n8yCj" = _7B1n8yCj;
         "kwV1zazM" = _kwV1zazM;
@@ -182,6 +187,7 @@ let
         "mEJw62X3" = _mEJw62X3;
         "MxwUtmy2" = _MxwUtmy2;
         "ReH3FreP" = _ReH3FreP;
+        "QwWg1zrT" = _QwWg1zrT;
         "paper-1.20" = _mkHGM4AJ;
         "paper-1.20.1" = _mkHGM4AJ;
         "paper-1.20.2" = _mkHGM4AJ;
@@ -199,7 +205,8 @@ let
         "paper-26.1" = _MxwUtmy2;
         "paper-26.1.1" = _MxwUtmy2;
         "paper-26.1.2" = _MxwUtmy2;
-        "paper-26.2" = _ReH3FreP;
+        "paper-26.2" = _QwWg1zrT;
+        "paper-26.3" = _QwWg1zrT;
         "spigot-1.20" = _mkHGM4AJ;
         "spigot-1.20.1" = _mkHGM4AJ;
         "spigot-1.20.2" = _mkHGM4AJ;
@@ -223,7 +230,8 @@ let
         "purpur-26.1" = _MxwUtmy2;
         "purpur-26.1.1" = _MxwUtmy2;
         "purpur-26.1.2" = _MxwUtmy2;
-        "purpur-26.2" = _ReH3FreP;
+        "purpur-26.2" = _QwWg1zrT;
+        "purpur-26.3" = _QwWg1zrT;
         "pkg-1.10.0" = _7B1n8yCj;
         "pkg-1.10.1-beta" = _kwV1zazM;
         "pkg-1.10.2-beta" = _jlRV6btJ;
@@ -254,7 +262,8 @@ let
         "pkg-2.1.2" = _mEJw62X3;
         "pkg-2.1.3" = _MxwUtmy2;
         "pkg-2.1.4" = _ReH3FreP;
-        "default" = _ReH3FreP;
+        "pkg-2.1.5" = _QwWg1zrT;
+        "default" = _QwWg1zrT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "teaks-tweaks";

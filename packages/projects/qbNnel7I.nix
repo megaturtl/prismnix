@@ -36,6 +36,26 @@ let
             "file" = "Stupendous Visuals.zip";
             "hash" = "sha512-+HRZEK6xwg0mnxt4pVHZ9XK4OX40CUY6ats0d8NiWjn0NHWyDV2RalPvYj4kAM0eBMn8vn8igiZ0AKkWrYouhQ==";
         };
+        _pD37mvjW = {
+            "id" = "pD37mvjW";
+            "file" = "Stupendous Visuals.zip";
+            "hash" = "sha512-1uw8WsEP0qKzRg/IJr36QL4AhOgTaosuOuuCJfMYj9QZs2QT8X7VO1Fz47wMLMdasxUmIqtPpF7C8Wj+6aa+GQ==";
+        };
+        _Rp2UksJf = {
+            "id" = "Rp2UksJf";
+            "file" = "Stupendous Visuals.zip";
+            "hash" = "sha512-apdudQp7Wx5sf87Lq8PpCbZrpVvUjVCrn1M8PlZHOfkusywMRQ2r8XrvpyDXG5NtyHWmqiJOOeMU55oVEFadiw==";
+        };
+        _RLLzLeDv = {
+            "id" = "RLLzLeDv";
+            "file" = "Stupendous Visuals.zip";
+            "hash" = "sha512-Txf5wOXfLXbB3wUt1rJfDgd/g2vyL2RrGG7Fs2/m3qtS+L8rMObHSdy8GxWVVfrnpTUwCTuKH4UlNE7fy+iZ5Q==";
+        };
+        _95hkXr1B = {
+            "id" = "95hkXr1B";
+            "file" = "Stupendous Visuals.zip";
+            "hash" = "sha512-3D/RB0z62S8PjsyuRUfAUNjmcOC3o7ddmjjdok7pQs5mtu37+bRziq9v2ds6M6veVgHLjkmcd0v93H2rL10gPw==";
+        };
     in {
         "FMInXPPT" = _FMInXPPT;
         "BkVkSvKx" = _BkVkSvKx;
@@ -44,30 +64,34 @@ let
         "ykVpjtnj" = _ykVpjtnj;
         "na8EVVdl" = _na8EVVdl;
         "iaZqE9Qi" = _iaZqE9Qi;
-        "minecraft-1.20" = _iaZqE9Qi;
-        "minecraft-1.20.1" = _iaZqE9Qi;
-        "minecraft-1.20.2" = _iaZqE9Qi;
-        "minecraft-1.20.3" = _iaZqE9Qi;
-        "minecraft-1.20.4" = _iaZqE9Qi;
-        "minecraft-1.20.5" = _iaZqE9Qi;
-        "minecraft-1.20.6" = _iaZqE9Qi;
-        "minecraft-1.21" = _iaZqE9Qi;
-        "minecraft-1.21.1" = _iaZqE9Qi;
-        "minecraft-1.21.2" = _iaZqE9Qi;
-        "minecraft-1.21.3" = _iaZqE9Qi;
-        "minecraft-1.21.4" = _iaZqE9Qi;
-        "minecraft-1.21.5" = _iaZqE9Qi;
-        "minecraft-1.21.6" = _iaZqE9Qi;
-        "minecraft-1.21.7" = _iaZqE9Qi;
-        "minecraft-1.21.8" = _iaZqE9Qi;
-        "minecraft-1.21.9" = _iaZqE9Qi;
-        "minecraft-1.21.10" = _iaZqE9Qi;
-        "minecraft-1.21.11" = _iaZqE9Qi;
-        "minecraft-26.1" = _iaZqE9Qi;
-        "minecraft-26.1.1" = _iaZqE9Qi;
-        "minecraft-26.1.2" = _iaZqE9Qi;
-        "minecraft-26.2" = _iaZqE9Qi;
-        "minecraft-26.3" = _iaZqE9Qi;
+        "pD37mvjW" = _pD37mvjW;
+        "Rp2UksJf" = _Rp2UksJf;
+        "RLLzLeDv" = _RLLzLeDv;
+        "95hkXr1B" = _95hkXr1B;
+        "minecraft-1.20" = _95hkXr1B;
+        "minecraft-1.20.1" = _95hkXr1B;
+        "minecraft-1.20.2" = _95hkXr1B;
+        "minecraft-1.20.3" = _95hkXr1B;
+        "minecraft-1.20.4" = _95hkXr1B;
+        "minecraft-1.20.5" = _95hkXr1B;
+        "minecraft-1.20.6" = _95hkXr1B;
+        "minecraft-1.21" = _95hkXr1B;
+        "minecraft-1.21.1" = _95hkXr1B;
+        "minecraft-1.21.2" = _95hkXr1B;
+        "minecraft-1.21.3" = _95hkXr1B;
+        "minecraft-1.21.4" = _95hkXr1B;
+        "minecraft-1.21.5" = _95hkXr1B;
+        "minecraft-1.21.6" = _95hkXr1B;
+        "minecraft-1.21.7" = _95hkXr1B;
+        "minecraft-1.21.8" = _95hkXr1B;
+        "minecraft-1.21.9" = _95hkXr1B;
+        "minecraft-1.21.10" = _95hkXr1B;
+        "minecraft-1.21.11" = _95hkXr1B;
+        "minecraft-26.1" = _95hkXr1B;
+        "minecraft-26.1.1" = _95hkXr1B;
+        "minecraft-26.1.2" = _95hkXr1B;
+        "minecraft-26.2" = _95hkXr1B;
+        "minecraft-26.3" = _95hkXr1B;
         "pkg-v1" = _FMInXPPT;
         "pkg-v1.0.1" = _BkVkSvKx;
         "pkg-v1.0.2" = _ukEXmNau;
@@ -75,7 +99,11 @@ let
         "pkg-v1.0.3.1" = _ykVpjtnj;
         "pkg-v1.0.3.2" = _na8EVVdl;
         "pkg-v1.0.4" = _iaZqE9Qi;
-        "default" = _iaZqE9Qi;
+        "pkg-v1.0.5" = _pD37mvjW;
+        "pkg-v1.0.6" = _Rp2UksJf;
+        "pkg-v1.0.7" = _RLLzLeDv;
+        "pkg-v1.0.8" = _95hkXr1B;
+        "default" = _95hkXr1B;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stupendous-visuals";

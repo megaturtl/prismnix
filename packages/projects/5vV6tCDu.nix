@@ -706,6 +706,41 @@ let
             "file" = "rubidium-chinese-localization-pack-2.3.1+mc1.16.5-unknown.jar";
             "hash" = "sha512-FvhsBOdwU9eZ1sjR6XBUlBWcoY9f14X5e9zdnUNdnLKNLkZ2kun+pBPz8XFeiMdtHYs4yVTSY1vW5upmzMtDkA==";
         };
+        _sY8wCf2a = {
+            "id" = "sY8wCf2a";
+            "file" = "sodium-chinese-localization-package-2.5.10.jar";
+            "hash" = "sha512-GLNvLfVt5WsuwhBlsvWZLN0mk/RiwjzW1BlxjSOBdkpvM+eMSTiNjiT/GwtHjZP7VZE/qJdaHoIbuUuGvtQwZQ==";
+        };
+        _BHEcu8XZ = {
+            "id" = "BHEcu8XZ";
+            "file" = "sclp-neoforge-5.6.5-snapshot+mc26.1-local.jar";
+            "hash" = "sha512-2KRnX9VMvJIEITE14WO7eNNyJRZ2zinA/eVjKcvuAQjgpTxjrwD9SZK8gIKxLTpeLD9TEyBgqIqZMJxL6SfoHw==";
+        };
+        _3pRa260r = {
+            "id" = "3pRa260r";
+            "file" = "sclp-fabric-5.6.5-snapshot+mc26.1-local.jar";
+            "hash" = "sha512-CSC9N0JJudcmo7qR+HqB9byR8DQDMRurgJabeuYX3M1/Q0LJ0En5H7fWIu7i5ui3/louIKdHMWlhNm1jRGHAAg==";
+        };
+        _UiPD9KV1 = {
+            "id" = "UiPD9KV1";
+            "file" = "sclp-fabric-5.6.6-snapshot+mc26.1-local.jar";
+            "hash" = "sha512-8wRwHR/LNYCcBAGzGl8fD5FUyDyMEUwsIyXFQ42qnqu/9KxOOFmwv5Z4xBl8HOxzWhktq0rymXRAzRjPsmYMOw==";
+        };
+        _wVCv9y0Z = {
+            "id" = "wVCv9y0Z";
+            "file" = "sclp-neoforge-5.6.6-snapshot+mc26.1-local.jar";
+            "hash" = "sha512-1ruGKPmht8U+24rz3MmKD3pnJcH8MHCT5wQSdmM47YO0NvLU6L9z4sRBaO9kpdjZIjyox5hdVsLFfNoMezx0Dw==";
+        };
+        _TXRBVn3i = {
+            "id" = "TXRBVn3i";
+            "file" = "sclp-neoforge-5.6.7-snapshot+mc26.1-local.jar";
+            "hash" = "sha512-rjtbma1wl3YUda9X4MxcJymkH8+dkfJc3p4Y7XPyCDIDPvi2mUDK9edtItzIb9m8l4/AfSTK3VENv9R6K2dx2w==";
+        };
+        _91rSNjTX = {
+            "id" = "91rSNjTX";
+            "file" = "sclp-fabric-5.6.7-snapshot+mc26.1-local.jar";
+            "hash" = "sha512-MMOqSxqu7epKruTAnU79F17UIQuijoZkqxWXoko8+d4ErSAlYK0pB72taEyBJuP9JnWH8bQ0+Wt9roVsLC//lA==";
+        };
     in {
         "nwqAWW9x" = _nwqAWW9x;
         "kte10jxG" = _kte10jxG;
@@ -848,9 +883,16 @@ let
         "uo7m7Yac" = _uo7m7Yac;
         "htdxyxlw" = _htdxyxlw;
         "yRsEj78y" = _yRsEj78y;
-        "fabric-1.16.3" = _XtVQ7vmN;
-        "fabric-1.16.4" = _XtVQ7vmN;
-        "fabric-1.16.5" = _XtVQ7vmN;
+        "sY8wCf2a" = _sY8wCf2a;
+        "BHEcu8XZ" = _BHEcu8XZ;
+        "3pRa260r" = _3pRa260r;
+        "UiPD9KV1" = _UiPD9KV1;
+        "wVCv9y0Z" = _wVCv9y0Z;
+        "TXRBVn3i" = _TXRBVn3i;
+        "91rSNjTX" = _91rSNjTX;
+        "fabric-1.16.3" = _sY8wCf2a;
+        "fabric-1.16.4" = _sY8wCf2a;
+        "fabric-1.16.5" = _sY8wCf2a;
         "fabric-1.17" = _S62jcCUe;
         "fabric-1.17.1" = _S62jcCUe;
         "fabric-1.18" = _S62jcCUe;
@@ -880,10 +922,11 @@ let
         "fabric-1.21.9" = _Efdv3nyn;
         "fabric-1.21.10" = _Efdv3nyn;
         "fabric-1.21.11" = _PiZiKcBv;
-        "fabric-26.1" = _1xMgy1gM;
-        "fabric-26.1.1" = _1xMgy1gM;
-        "fabric-26.1.2" = _1xMgy1gM;
-        "fabric-26.2" = _1xMgy1gM;
+        "fabric-26.1" = _91rSNjTX;
+        "fabric-26.1.1" = _91rSNjTX;
+        "fabric-26.1.2" = _91rSNjTX;
+        "fabric-26.2" = _91rSNjTX;
+        "fabric-26.3" = _91rSNjTX;
         "neoforge-1.21" = _sQvXzPjB;
         "neoforge-1.21.1" = _sQvXzPjB;
         "neoforge-1.21.2" = _sQvXzPjB;
@@ -902,11 +945,12 @@ let
         "neoforge-1.20.5" = _sQvXzPjB;
         "neoforge-1.20.6" = _sQvXzPjB;
         "neoforge-1.21.11" = _szOg32nN;
-        "neoforge-26.1" = _aWb961V0;
-        "neoforge-26.1.1" = _aWb961V0;
-        "neoforge-26.1.2" = _aWb961V0;
-        "neoforge-26.2" = _aWb961V0;
+        "neoforge-26.1" = _TXRBVn3i;
+        "neoforge-26.1.1" = _TXRBVn3i;
+        "neoforge-26.1.2" = _TXRBVn3i;
+        "neoforge-26.2" = _TXRBVn3i;
         "neoforge-1.20" = _8NgvQF2l;
+        "neoforge-26.3" = _TXRBVn3i;
         "quilt-1.21" = _uq1kkF43;
         "quilt-1.21.1" = _uq1kkF43;
         "quilt-1.21.2" = _uq1kkF43;
@@ -1048,7 +1092,11 @@ let
         "pkg-2.1+mc1.18" = _uo7m7Yac;
         "pkg-2.2+mc1.16.5" = _htdxyxlw;
         "pkg-2.3.1+mc1.16.5" = _yRsEj78y;
-        "default" = _yRsEj78y;
+        "pkg-2.5.10" = _sY8wCf2a;
+        "pkg-5.6.5" = _3pRa260r;
+        "pkg-5.6.6" = _wVCv9y0Z;
+        "pkg-5.6.7" = _91rSNjTX;
+        "default" = _91rSNjTX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mc1.16.5-sodium-chinese-localization-pack";

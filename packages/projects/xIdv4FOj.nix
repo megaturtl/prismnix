@@ -66,6 +66,11 @@ let
             "file" = "fabric-26.2-mumblelink-mod-0.13.2.jar";
             "hash" = "sha512-TlK07CmVipN99q/6PMXcEL/hBglOC0kuB94fXTNMMEi/hEOf5zp88CcQ+EieiR738Vr6hmH/6kuLH72Yiy0qGA==";
         };
+        _r4UXh19O = {
+            "id" = "r4UXh19O";
+            "file" = "fabric-26.3-mumblelink-mod-0.13.3.jar";
+            "hash" = "sha512-C+7tCX2TZPve6DUv5014r1lsyTtj+Iw1ISyYTQ80V0erG10EJu9LKr+3nhrEV3pvModPYhcRkLsHYNl746OKyg==";
+        };
     in {
         "QKnQfEtV" = _QKnQfEtV;
         "ooUZ5XrI" = _ooUZ5XrI;
@@ -80,6 +85,7 @@ let
         "TuJotvFY" = _TuJotvFY;
         "rUFjtH60" = _rUFjtH60;
         "vLJ9REmV" = _vLJ9REmV;
+        "r4UXh19O" = _r4UXh19O;
         "fabric-1.20.4" = _QKnQfEtV;
         "fabric-1.21" = _ooUZ5XrI;
         "fabric-1.21.1" = _ooUZ5XrI;
@@ -97,6 +103,7 @@ let
         "fabric-26.1.1" = _TuJotvFY;
         "fabric-26.1.2" = _TuJotvFY;
         "fabric-26.2" = _vLJ9REmV;
+        "fabric-26.3" = _r4UXh19O;
         "pkg-0.10.8" = _QKnQfEtV;
         "pkg-0.10.10" = _ooUZ5XrI;
         "pkg-0.11.0" = _m3fnxFmc;
@@ -110,7 +117,8 @@ let
         "pkg-0.13.0" = _TuJotvFY;
         "pkg-0.13.1" = _rUFjtH60;
         "pkg-0.13.2" = _vLJ9REmV;
-        "default" = _vLJ9REmV;
+        "pkg-0.13.3" = _r4UXh19O;
+        "default" = _r4UXh19O;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mumble-link-fabric";

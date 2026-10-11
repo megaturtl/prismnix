@@ -36,6 +36,11 @@ let
             "file" = "Better Bows.zip";
             "hash" = "sha512-EFhPsinQrh6YvSEeYCTearWVn6EOdZ9D56VD6tOR1ALcXOXVGVkWcAt83gcGOrCfxuNXWQYg+SHWyr3x6crunA==";
         };
+        _NxrW7i6h = {
+            "id" = "NxrW7i6h";
+            "file" = "Better Bows.zip";
+            "hash" = "sha512-rpTI4VKhxkC4j/VBXbMu56XV7pOxjTGapNYHRf1B7OCQesX9EsJ1veXdzwAE3yBYaT5BfUUk1QYWp0UMei+yEg==";
+        };
     in {
         "3IeWaPtN" = _3IeWaPtN;
         "Tmuw5je0" = _Tmuw5je0;
@@ -44,6 +49,7 @@ let
         "QlErFtfO" = _QlErFtfO;
         "6lcDKMsY" = _6lcDKMsY;
         "Dthrpr8y" = _Dthrpr8y;
+        "NxrW7i6h" = _NxrW7i6h;
         "minecraft-1.20" = _3IeWaPtN;
         "minecraft-1.20.1" = _3IeWaPtN;
         "minecraft-1.20.2" = _vDY2drWn;
@@ -60,17 +66,21 @@ let
         "minecraft-1.21.6" = _vDY2drWn;
         "minecraft-1.21.7" = _vDY2drWn;
         "minecraft-1.21.8" = _vDY2drWn;
-        "minecraft-1.21.9" = _Dthrpr8y;
-        "minecraft-1.21.10" = _Dthrpr8y;
-        "minecraft-1.21.11" = _Dthrpr8y;
-        "minecraft-26.1" = _Dthrpr8y;
-        "minecraft-26.1.1" = _Dthrpr8y;
+        "minecraft-1.21.9" = _NxrW7i6h;
+        "minecraft-1.21.10" = _NxrW7i6h;
+        "minecraft-1.21.11" = _NxrW7i6h;
+        "minecraft-26.1" = _NxrW7i6h;
+        "minecraft-26.1.1" = _NxrW7i6h;
+        "minecraft-26.1.2" = _NxrW7i6h;
+        "minecraft-26.2" = _NxrW7i6h;
+        "minecraft-26.3" = _NxrW7i6h;
         "pkg-1.1.1" = _eTMgM5yw;
         "pkg-1.2.0" = _vDY2drWn;
         "pkg-1.3.0" = _QlErFtfO;
         "pkg-1.4.0" = _6lcDKMsY;
         "pkg-1.5.0" = _Dthrpr8y;
-        "default" = _Dthrpr8y;
+        "pkg-1.11.0" = _NxrW7i6h;
+        "default" = _NxrW7i6h;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-bows";

@@ -156,6 +156,21 @@ let
             "file" = "chanceglobe-fabric-26.2-1.5.jar";
             "hash" = "sha512-Kg5YSphBT89oOw0zfZmy7joRIemCFsJjdZ57vyjR0pTurPSB1v/kdQwiohZSy/Yjwp704x70TtZmb97JZlBI6A==";
         };
+        _7t1MmBsR = {
+            "id" = "7t1MmBsR";
+            "file" = "chanceglobe-neoforge-26.3-1.5.jar";
+            "hash" = "sha512-mJctezr3KjSkQ2lOvQW3XW13n8FjKd4fLLMRDTao63MEpl1rG9pQGJU2hzL43ewB4mSYapHf3tCbCZ5ggIVoyw==";
+        };
+        _19MAxBDP = {
+            "id" = "19MAxBDP";
+            "file" = "chanceglobe-fabric-26.3-1.5.jar";
+            "hash" = "sha512-FxZsIVODclXYntFj4DPFDVwKtDgjw7IBEpCvdH+fqVQgrout0caZ14lPopJPp4JuGvwlUSQ2Yx0+m9gbPnmHuQ==";
+        };
+        _tIIodP6n = {
+            "id" = "tIIodP6n";
+            "file" = "chanceglobe-neoforge-26.3-1.5.1.jar";
+            "hash" = "sha512-Ff4XW8CXJgrkIMQFZUbknU1eR5Gf5vxRCwsxoUmNO0kf8Q8aF3/cBzoKz+PWSz+yIv0u/QPkBSuXCITxBfyf5w==";
+        };
     in {
         "74nZ9Qxe" = _74nZ9Qxe;
         "olivphNQ" = _olivphNQ;
@@ -188,6 +203,9 @@ let
         "mSrbYhZo" = _mSrbYhZo;
         "QkFF5r65" = _QkFF5r65;
         "EKQasgAQ" = _EKQasgAQ;
+        "7t1MmBsR" = _7t1MmBsR;
+        "19MAxBDP" = _19MAxBDP;
+        "tIIodP6n" = _tIIodP6n;
         "forge-1.12.2" = _74nZ9Qxe;
         "forge-1.13.2" = _olivphNQ;
         "forge-1.14.4" = _K2WntgQ5;
@@ -223,14 +241,17 @@ let
         "neoforge-26.1.1" = _xNyxvxNH;
         "neoforge-26.1.2" = _xNyxvxNH;
         "neoforge-26.2" = _QkFF5r65;
+        "neoforge-26.3" = _tIIodP6n;
         "fabric-26.1" = _mSrbYhZo;
         "fabric-26.1.1" = _mSrbYhZo;
         "fabric-26.1.2" = _mSrbYhZo;
         "fabric-26.2" = _EKQasgAQ;
+        "fabric-26.3" = _19MAxBDP;
         "quilt-26.1" = _mSrbYhZo;
         "quilt-26.1.1" = _mSrbYhZo;
         "quilt-26.1.2" = _mSrbYhZo;
         "quilt-26.2" = _EKQasgAQ;
+        "quilt-26.3" = _19MAxBDP;
         "pkg-v1.2.3" = _74nZ9Qxe;
         "pkg-v1.2.1" = _olivphNQ;
         "pkg-v1.3.4" = _K2WntgQ5;
@@ -241,8 +262,9 @@ let
         "pkg-v1.3.9" = _gatdWhaC;
         "pkg-v1.3.10" = _VCz2omf2;
         "pkg-v1.4" = _Yt0KJGbv;
-        "pkg-v1.5" = _EKQasgAQ;
-        "default" = _EKQasgAQ;
+        "pkg-v1.5" = _19MAxBDP;
+        "pkg-v1.5.1" = _tIIodP6n;
+        "default" = _tIIodP6n;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chance-globe";

@@ -351,6 +351,16 @@ let
             "file" = "RandomItem-2.0.0-paper-26.2.jar";
             "hash" = "sha512-ouBnMIjstoJ+jiilvSEtHkm+zE18CroAuB586cxACP9gUtx4/5C66aHu9A7ifF8REiCxTZ48Z4iEFu+WTBt6Vg==";
         };
+        _AQgXSrDC = {
+            "id" = "AQgXSrDC";
+            "file" = "RandomItem-2.0.0-fabric-26.3.jar";
+            "hash" = "sha512-mV3bfrjgsKoGpARuq0E6A1jyER+hfKcriozjs9v9WYhUS1Dy30CD13cKNS+Ktq0fiGWUaPayVuaU4i1yU1VvWg==";
+        };
+        _gqC06j6I = {
+            "id" = "gqC06j6I";
+            "file" = "RandomItem-2.0.0-neoforge-26.3.jar";
+            "hash" = "sha512-/+LTsKBlkUS/LyvT/asbX/tOLdy3TC0iIEluU5C5sEP8DIpcJHqzSBovZ/NLddoEy6p8tBkZMJxwIb5N4OFFYA==";
+        };
     in {
         "BdG7dm63" = _BdG7dm63;
         "hfv5BLvF" = _hfv5BLvF;
@@ -422,6 +432,8 @@ let
         "Aa47tJre" = _Aa47tJre;
         "TXh1gm2q" = _TXh1gm2q;
         "8CWIXOoR" = _8CWIXOoR;
+        "AQgXSrDC" = _AQgXSrDC;
+        "gqC06j6I" = _gqC06j6I;
         "fabric-1.14" = _BdG7dm63;
         "fabric-1.14.1" = _BdG7dm63;
         "fabric-1.14.2" = _BdG7dm63;
@@ -469,6 +481,7 @@ let
         "fabric-26.1.1" = _Zg2oNwzH;
         "fabric-26.1.2" = _Zg2oNwzH;
         "fabric-26.2" = _sRxpi1OG;
+        "fabric-26.3" = _AQgXSrDC;
         "forge-1.20.1" = _zX9abcTX;
         "forge-1.20" = _zX9abcTX;
         "neoforge-1.20.3" = _nyjKynwC;
@@ -491,6 +504,7 @@ let
         "neoforge-26.1.1" = _sXBg6jAr;
         "neoforge-26.1.2" = _sXBg6jAr;
         "neoforge-26.2" = _Aa47tJre;
+        "neoforge-26.3" = _gqC06j6I;
         "bukkit-1.21.2" = _TXh1gm2q;
         "bukkit-1.21.3" = _TXh1gm2q;
         "bukkit-1.21.4" = _TXh1gm2q;
@@ -589,7 +603,9 @@ let
         "pkg-2.0.0-neoforge-26.2" = _Aa47tJre;
         "pkg-2.0.0-paper-1.21.11" = _TXh1gm2q;
         "pkg-2.0.0-paper-26.x" = _8CWIXOoR;
-        "default" = _8CWIXOoR;
+        "pkg-2.0.0-fabric-26.3" = _AQgXSrDC;
+        "pkg-2.0.0-neoforge-26.3" = _gqC06j6I;
+        "default" = _gqC06j6I;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "random-items";

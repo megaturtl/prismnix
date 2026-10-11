@@ -371,6 +371,21 @@ let
             "file" = "NaturesCompass-26.2-3.3.0-neoforge.jar";
             "hash" = "sha512-UjCNbYgiTC8PIT9Wv+gN9WcM4jKQQ6MNgwVjZqaEeorj5KT3HEvh7vAUdCJIFNZnrxvLDcMy3EzLMrsGiMohzQ==";
         };
+        _pHan4UQ9 = {
+            "id" = "pHan4UQ9";
+            "file" = "NaturesCompass-26.3-2.5.1-fabric.jar";
+            "hash" = "sha512-OmgB10oEJ8tKBBsrwVBo52hY7LCkqqIhZ1tA6y4ms+IKJd/AAyCAKvM6D5zAbpXf1LYYBUUqozQIBW+U9mTEdQ==";
+        };
+        _f1tnT9P7 = {
+            "id" = "f1tnT9P7";
+            "file" = "NaturesCompass-26.3-3.3.0-neoforge.jar";
+            "hash" = "sha512-NB+IOJkeJykYvGbKJq7UF7ieBEhqFgbaveMcfEMNDMLriiN6rPWqGvnWvUjFDa6qswc4pRN186IAKnDjA55Wfg==";
+        };
+        _PijZPpB6 = {
+            "id" = "PijZPpB6";
+            "file" = "NaturesCompass-26.3-3.3.1-neoforge.jar";
+            "hash" = "sha512-B8k6M76gaSpkPAH6R1BJcGjshIw0HStQa8i01d4cXm8M2F+Y7IY/Z1jXAjKye+AasdXS/Ugky8viwQpb8R8FWA==";
+        };
     in {
         "Oq29B6p7" = _Oq29B6p7;
         "kMPLisZs" = _kMPLisZs;
@@ -446,6 +461,9 @@ let
         "AlyHZXyH" = _AlyHZXyH;
         "1X6iEfOy" = _1X6iEfOy;
         "a9PjnD4M" = _a9PjnD4M;
+        "pHan4UQ9" = _pHan4UQ9;
+        "f1tnT9P7" = _f1tnT9P7;
+        "PijZPpB6" = _PijZPpB6;
         "forge-1.7.10" = _Oq29B6p7;
         "forge-1.12.2" = _kMPLisZs;
         "forge-1.16.5" = _o0SCfsMe;
@@ -488,6 +506,7 @@ let
         "fabric-26.1.1" = _AlyHZXyH;
         "fabric-26.1.2" = _AlyHZXyH;
         "fabric-26.2" = _1X6iEfOy;
+        "fabric-26.3" = _pHan4UQ9;
         "neoforge-1.20.2" = _IznZXHBu;
         "neoforge-1.20.4" = _GfYWHTxk;
         "neoforge-1.20.5" = _i96v7o3k;
@@ -506,6 +525,7 @@ let
         "neoforge-26.1.1" = _FKGBa8Rq;
         "neoforge-26.1.2" = _FKGBa8Rq;
         "neoforge-26.2" = _a9PjnD4M;
+        "neoforge-26.3" = _PijZPpB6;
         "pkg-1.17.10-1.3.1-forge" = _Oq29B6p7;
         "pkg-1.12.2-1.8.5-forge" = _kMPLisZs;
         "pkg-1.16.5-2.0.1-fabric" = _7Gu21rMe;
@@ -580,7 +600,10 @@ let
         "pkg-26.1-2.5.1-fabric" = _AlyHZXyH;
         "pkg-26.2-2.5.1-fabric" = _1X6iEfOy;
         "pkg-26.2-3.3.0-neoforge" = _a9PjnD4M;
-        "default" = _a9PjnD4M;
+        "pkg-26.3-2.5.1-fabric" = _pHan4UQ9;
+        "pkg-26.3-3.3.0-neoforge" = _f1tnT9P7;
+        "pkg-26.3-3.3.1-neoforge" = _PijZPpB6;
+        "default" = _PijZPpB6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "natures-compass";

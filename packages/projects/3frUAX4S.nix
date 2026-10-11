@@ -106,6 +106,21 @@ let
             "file" = "PlutosDrinksAPI-1.20.1+0.4.4+build.154.jar";
             "hash" = "sha512-SBgu15iQevrKBfj+4CSx6ftuZaXzZyvmlEdEFODqBGuA1KSN8SjbFPfGrFqdHrADeQbDPCs0M+FjSNndDTKVVg==";
         };
+        _OUEcg8SJ = {
+            "id" = "OUEcg8SJ";
+            "file" = "PlutosDrinksAPI-1.20.1+0.4.5+build.164.jar";
+            "hash" = "sha512-X4BzKqI5s4fW2/FdbfF7HXuIN1r3f/RV/TzIZSwI9A7qqqbWeL267gSNVITcko1vKd/d6q1Gp0Q7axGarJj0sg==";
+        };
+        _Vnf5m3sE = {
+            "id" = "Vnf5m3sE";
+            "file" = "PlutosDrinksAPI-1.20.1+0.4.6+build.170.jar";
+            "hash" = "sha512-0fVI1YIaEnMW1kkPIVfh25MbHJmpc+jB9Xx54w6MJNWMDs0J9YXVgVOlyjp4nKgvxqzJlKkBYO28u+GnVNsFFQ==";
+        };
+        _bt4KMW2W = {
+            "id" = "bt4KMW2W";
+            "file" = "PlutosDrinksAPI-1.20.1+0.4.7+build.173.jar";
+            "hash" = "sha512-0smvdx0aBdbNoGrDa/Z8qPIK7U5BC3Kdj72S6gfF4OiScCWHXqSpuXXwXQYTYDby8p9ShwCFaCZwCsqVLS+i8w==";
+        };
     in {
         "jZUsfQH9" = _jZUsfQH9;
         "Of0DtZSu" = _Of0DtZSu;
@@ -128,8 +143,11 @@ let
         "TUGU2D9u" = _TUGU2D9u;
         "YVq3P0lc" = _YVq3P0lc;
         "cJdjZeGU" = _cJdjZeGU;
-        "fabric-1.20" = _cJdjZeGU;
-        "fabric-1.20.1" = _cJdjZeGU;
+        "OUEcg8SJ" = _OUEcg8SJ;
+        "Vnf5m3sE" = _Vnf5m3sE;
+        "bt4KMW2W" = _bt4KMW2W;
+        "fabric-1.20" = _bt4KMW2W;
+        "fabric-1.20.1" = _bt4KMW2W;
         "fabric-1.20.2" = _UGXRTYMA;
         "fabric-1.20.3" = _oFQwzhCq;
         "fabric-1.20.4" = _oFQwzhCq;
@@ -156,7 +174,10 @@ let
         "pkg-1.20.1+0.4.2+build.141" = _TUGU2D9u;
         "pkg-1.20.1+0.4.3+build.144" = _YVq3P0lc;
         "pkg-1.20.1+0.4.4+build.154" = _cJdjZeGU;
-        "default" = _cJdjZeGU;
+        "pkg-1.20.1+0.4.5+build.164" = _OUEcg8SJ;
+        "pkg-1.20.1+0.4.6+build.170" = _Vnf5m3sE;
+        "pkg-1.20.1+0.4.7+build.173" = _bt4KMW2W;
+        "default" = _bt4KMW2W;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pdapi";

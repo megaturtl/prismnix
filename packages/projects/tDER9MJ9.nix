@@ -41,6 +41,16 @@ let
             "file" = "death_swap-1.5.jar";
             "hash" = "sha512-zJ9gTLyEen02HBlLLtX8cUtg7A9gnjRpoDXOnl4v/pZxvsJGujoWSiszHxNnf/dR7t5mB9AYmxyObiOeF9niwQ==";
         };
+        _buEyaNu6 = {
+            "id" = "buEyaNu6";
+            "file" = "Peepo's Death Swap v2.0.zip";
+            "hash" = "sha512-/GQqlcIIxuWxkhUBdJhnR+OVhY5vnJefYbDwVOvT54YmJeI8EuwzRaie8ByCkWHFemiBBXvtuj85NR05hz3c9g==";
+        };
+        _f8cAJHBM = {
+            "id" = "f8cAJHBM";
+            "file" = "death_swap-2.0.jar";
+            "hash" = "sha512-/hX3ALVV+qTQcXtt6pks3b1s/iSKPbx8S4vo82EWCglZbOH5ehyr5ydYmiacgItqTGOou09qbzPWdwCnesv1cQ==";
+        };
     in {
         "KR0qdzjj" = _KR0qdzjj;
         "zOjJMJ0z" = _zOjJMJ0z;
@@ -50,6 +60,8 @@ let
         "SqBryNpw" = _SqBryNpw;
         "8QBwFCaL" = _8QBwFCaL;
         "WI7QRSAN" = _WI7QRSAN;
+        "buEyaNu6" = _buEyaNu6;
+        "f8cAJHBM" = _f8cAJHBM;
         "datapack-1.17" = _KR0qdzjj;
         "datapack-1.17.1" = _KR0qdzjj;
         "datapack-1.18" = _KR0qdzjj;
@@ -72,6 +84,7 @@ let
         "datapack-1.21.2" = _8QBwFCaL;
         "datapack-1.21.3" = _8QBwFCaL;
         "datapack-1.21.4" = _8QBwFCaL;
+        "datapack-26.3" = _buEyaNu6;
         "fabric-1.17" = _wEJgoeNK;
         "fabric-1.17.1" = _wEJgoeNK;
         "fabric-1.18" = _wEJgoeNK;
@@ -94,6 +107,7 @@ let
         "fabric-1.21.2" = _WI7QRSAN;
         "fabric-1.21.3" = _WI7QRSAN;
         "fabric-1.21.4" = _WI7QRSAN;
+        "fabric-26.3" = _f8cAJHBM;
         "forge-1.17" = _wEJgoeNK;
         "forge-1.17.1" = _wEJgoeNK;
         "forge-1.18" = _wEJgoeNK;
@@ -116,6 +130,7 @@ let
         "forge-1.21.2" = _WI7QRSAN;
         "forge-1.21.3" = _WI7QRSAN;
         "forge-1.21.4" = _WI7QRSAN;
+        "forge-26.3" = _f8cAJHBM;
         "quilt-1.17" = _wEJgoeNK;
         "quilt-1.17.1" = _wEJgoeNK;
         "quilt-1.18" = _wEJgoeNK;
@@ -138,16 +153,20 @@ let
         "quilt-1.21.2" = _WI7QRSAN;
         "quilt-1.21.3" = _WI7QRSAN;
         "quilt-1.21.4" = _WI7QRSAN;
+        "quilt-26.3" = _f8cAJHBM;
         "neoforge-1.21" = _WI7QRSAN;
         "neoforge-1.21.1" = _WI7QRSAN;
         "neoforge-1.21.2" = _WI7QRSAN;
         "neoforge-1.21.3" = _WI7QRSAN;
         "neoforge-1.21.4" = _WI7QRSAN;
+        "neoforge-26.3" = _f8cAJHBM;
         "pkg-1" = _7y0sFpl7;
         "pkg-1+mod" = _SqBryNpw;
         "pkg-1.5" = _8QBwFCaL;
         "pkg-1.5+mod" = _WI7QRSAN;
-        "default" = _WI7QRSAN;
+        "pkg-2.0" = _buEyaNu6;
+        "pkg-2.0+mod" = _f8cAJHBM;
+        "default" = _f8cAJHBM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "death_swap";

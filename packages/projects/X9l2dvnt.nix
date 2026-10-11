@@ -121,6 +121,26 @@ let
             "file" = "Coupons-26.1.2-10.0.0.jar";
             "hash" = "sha512-b8cX4cI5UE9c0ntCIUROQ0BnopaIk7GF72Ab0eq/LJsuoHYTA48E1zqZD845uZfk4ul7co5zYL+7bhjEEz68Vg==";
         };
+        _Afp25LDN = {
+            "id" = "Afp25LDN";
+            "file" = "Coupons-26.1.2-10.0.0.jar";
+            "hash" = "sha512-YEbcc9a3yAKo7noV0XNHzC37CHrhEev+k/IVbcX4g8CHahDcp8KpesqgM+NTlCxqEb8Va99iLyu4tzgi4mEMjw==";
+        };
+        _c8e4HKcK = {
+            "id" = "c8e4HKcK";
+            "file" = "Coupons-26.1.2-10.0.0.jar";
+            "hash" = "sha512-bIzlARjiAscvDO0KPcHCTd4gRDNuYK64yBI44aqnlqMPeWfSnjl+i1JvrF8ZhYlWl5dbYN5ftMuzYXRgD6w1Lw==";
+        };
+        _wpQURqfH = {
+            "id" = "wpQURqfH";
+            "file" = "Coupons-26.2-11.0.0.jar";
+            "hash" = "sha512-1X3t2lv8IBfl8T9BBVTuYgPC6t0gywJD+CRr2tja+MayoHzpU8nRknfD5YFdxMoolg7IYti7JSMemD37oZhqxg==";
+        };
+        _NJLjrNWB = {
+            "id" = "NJLjrNWB";
+            "file" = "Coupons-26.3-11.0.0.jar";
+            "hash" = "sha512-gygUs+d6Yc7AANWlwGRd3Y4SJj37zxGMj9EH+5md7bDS6TFPDyc+pUx/s2m8TH/F8MGmw3jZ0Fa74FfM6oI/ew==";
+        };
     in {
         "vxcVHXMB" = _vxcVHXMB;
         "lUsCr1St" = _lUsCr1St;
@@ -146,6 +166,10 @@ let
         "yPh6ozZw" = _yPh6ozZw;
         "boIEV0j2" = _boIEV0j2;
         "ihDPb4rW" = _ihDPb4rW;
+        "Afp25LDN" = _Afp25LDN;
+        "c8e4HKcK" = _c8e4HKcK;
+        "wpQURqfH" = _wpQURqfH;
+        "NJLjrNWB" = _NJLjrNWB;
         "forge-1.18.1" = _vxcVHXMB;
         "forge-1.18.2" = _71Usq10x;
         "forge-1.17.1" = _lUsCr1St;
@@ -169,7 +193,9 @@ let
         "neoforge-1.21.8" = _28FDWO73;
         "neoforge-1.21.10" = _yPh6ozZw;
         "neoforge-1.21.11" = _boIEV0j2;
-        "neoforge-26.1.2" = _ihDPb4rW;
+        "neoforge-26.1.2" = _c8e4HKcK;
+        "neoforge-26.2" = _wpQURqfH;
+        "neoforge-26.3" = _NJLjrNWB;
         "pkg-1.0.1" = _NeQ9mqo3;
         "pkg-1.0.0.2" = _lUsCr1St;
         "pkg-1.0.0.1" = _LrMpD7UB;
@@ -187,8 +213,9 @@ let
         "pkg-7.0.0" = _28FDWO73;
         "pkg-8.0.0" = _yPh6ozZw;
         "pkg-9.0.0" = _boIEV0j2;
-        "pkg-10.0.0" = _ihDPb4rW;
-        "default" = _ihDPb4rW;
+        "pkg-10.0.0" = _c8e4HKcK;
+        "pkg-11.0.0" = _NJLjrNWB;
+        "default" = _NJLjrNWB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "coupons";

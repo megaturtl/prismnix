@@ -381,6 +381,16 @@ let
             "file" = "effecttimerplus-fabric-3.104.0+26.3.jar";
             "hash" = "sha512-gUIKM5OwVwfOU6vK0PGcBDjksSBZGG8zWl8ACGyXfHyxvKZ6NEz0l3d3Ildm3sebeRu2wsJPKN4q14sP8SInNw==";
         };
+        _2yihI1rp = {
+            "id" = "2yihI1rp";
+            "file" = "effecttimerplus-neoforge-3.104.1+26.3.jar";
+            "hash" = "sha512-5ROKobsRcZxRbAJwizVRgrF1jTMOS2P+Gh6H8CU34d19NLLkRHWHR2BKJKcZY26cnXB0t3hC9CUX84YF6WLa2Q==";
+        };
+        _apXAPcHf = {
+            "id" = "apXAPcHf";
+            "file" = "effecttimerplus-fabric-3.104.1+26.3.jar";
+            "hash" = "sha512-rjAu45jPRF+Cocdct7Zs3eXwuT51zNr5OKxXxtpE46rK8wr+PPA6oUQgolbVRetzlj0HAreSsk4/CG0Xuubg0g==";
+        };
     in {
         "NeKdb8AO" = _NeKdb8AO;
         "PWEAt413" = _PWEAt413;
@@ -458,6 +468,8 @@ let
         "uIdK3DSk" = _uIdK3DSk;
         "erie7izD" = _erie7izD;
         "ai7zllYU" = _ai7zllYU;
+        "2yihI1rp" = _2yihI1rp;
+        "apXAPcHf" = _apXAPcHf;
         "forge-1.20" = _vEMXhS91;
         "forge-1.20.1" = _vEMXhS91;
         "forge-1.20.2" = _wLsM1u0r;
@@ -484,7 +496,7 @@ let
         "neoforge-26.1.1" = _j6d7PfWN;
         "neoforge-26.1.2" = _j6d7PfWN;
         "neoforge-26.2" = _dzDYpI9d;
-        "neoforge-26.3" = _erie7izD;
+        "neoforge-26.3" = _2yihI1rp;
         "fabric-1.20" = _gdKGYas3;
         "fabric-1.20.1" = _gdKGYas3;
         "fabric-1.20.2" = _HwmxBV6e;
@@ -516,7 +528,7 @@ let
         "fabric-26.2" = _4B6aXjsh;
         "fabric-26.3-rc-2" = _uIdK3DSk;
         "fabric-26.3-rc-3" = _uIdK3DSk;
-        "fabric-26.3" = _ai7zllYU;
+        "fabric-26.3" = _apXAPcHf;
         "quilt-1.20" = _gdKGYas3;
         "quilt-1.20.1" = _gdKGYas3;
         "quilt-1.20.2" = _HwmxBV6e;
@@ -558,7 +570,8 @@ let
         "pkg-3.103.1+26.2" = _4B6aXjsh;
         "pkg-3.104.0-beta.1+26.3-rc-2" = _uIdK3DSk;
         "pkg-3.104.0+26.3" = _ai7zllYU;
-        "default" = _ai7zllYU;
+        "pkg-3.104.1+26.3" = _apXAPcHf;
+        "default" = _apXAPcHf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "effecttimerplus";

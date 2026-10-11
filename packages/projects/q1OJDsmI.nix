@@ -76,6 +76,11 @@ let
             "file" = "Luster_v0.13.zip";
             "hash" = "sha512-lj6KPZpGsR82DEkofvfiGbT69MR0JDv/7eacmd5Xu0vl9EbWDieGMSf7xYMhhtcFEvSLrFo+yhxkqUaPFw/C1Q==";
         };
+        _yEai2AmO = {
+            "id" = "yEai2AmO";
+            "file" = "Luster_v0.14.zip";
+            "hash" = "sha512-OjNr8fvwYxTKtshOlYd0dvmzDEmILcUzJrsYBYIO9G2WswEasrvlfg+IcBI1nYvMBO64nKlfs1bNy6NSbKf2Pw==";
+        };
     in {
         "G1ug48aO" = _G1ug48aO;
         "wIpyC4QQ" = _wIpyC4QQ;
@@ -92,6 +97,7 @@ let
         "5StJwBeJ" = _5StJwBeJ;
         "dHpRmLOF" = _dHpRmLOF;
         "b8kXQo1z" = _b8kXQo1z;
+        "yEai2AmO" = _yEai2AmO;
         "minecraft-1.17" = _G9nUborL;
         "minecraft-1.17.1" = _G9nUborL;
         "minecraft-1.18" = _G9nUborL;
@@ -125,6 +131,7 @@ let
         "minecraft-26.1.1" = _dHpRmLOF;
         "minecraft-26.1.2" = _dHpRmLOF;
         "minecraft-26.2" = _b8kXQo1z;
+        "minecraft-26.3" = _yEai2AmO;
         "pkg-0.1" = _G1ug48aO;
         "pkg-0.2" = _wIpyC4QQ;
         "pkg-0.3" = _xd1rRA9H;
@@ -138,7 +145,8 @@ let
         "pkg-0.11" = _5StJwBeJ;
         "pkg-0.12" = _dHpRmLOF;
         "pkg-0.13" = _b8kXQo1z;
-        "default" = _b8kXQo1z;
+        "pkg-0.14" = _yEai2AmO;
+        "default" = _yEai2AmO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "luster16";

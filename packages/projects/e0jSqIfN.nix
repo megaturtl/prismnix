@@ -81,6 +81,11 @@ let
             "file" = "§d§lA§5n§di§5§lm§da§5t§d§le§5d §4R§6a§ei§an§bb§9o§dw §2§lX§a§lP §rBar.zip";
             "hash" = "sha512-77b1CSgkYChKjz+rIuf3YOeZhswMdunTNew0ZknEG4LzSbsj38tryQtPKarrl3cufW3hN4U4YbmxA1HJsFm+Uw==";
         };
+        _cXtdfltU = {
+            "id" = "cXtdfltU";
+            "file" = "§d§lA§5n§di§5§lm§da§5t§d§le§5d §4R§6a§ei§an§bb§9o§dw §2§lX§a§lP §rBar.zip";
+            "hash" = "sha512-U27Hz4N+2rO7jZxf9N7q9K7NwNA2Skc2+6nRnyzjwiVeYA9/vMlwhUQEbwJtbtWh33WZdRKpQXTgOVl/aHU+ng==";
+        };
     in {
         "X7igcO7K" = _X7igcO7K;
         "7Copo80I" = _7Copo80I;
@@ -98,6 +103,7 @@ let
         "pKbwtSmp" = _pKbwtSmp;
         "aPpijiXK" = _aPpijiXK;
         "LCFs7GaT" = _LCFs7GaT;
+        "cXtdfltU" = _cXtdfltU;
         "minecraft-1.20.2" = _edphNd5v;
         "minecraft-1.20.3" = _sur6GY8N;
         "minecraft-1.20.4" = _sur6GY8N;
@@ -119,11 +125,12 @@ let
         "minecraft-26.1.1" = _aPpijiXK;
         "minecraft-26.1.2" = _aPpijiXK;
         "minecraft-26.2" = _LCFs7GaT;
+        "minecraft-26.3" = _cXtdfltU;
         "pkg-1.0" = _X7igcO7K;
         "pkg-1.1" = _7Copo80I;
         "pkg-1.2" = _k5IK57FG;
-        "pkg-1.3" = _LCFs7GaT;
-        "default" = _LCFs7GaT;
+        "pkg-1.3" = _cXtdfltU;
+        "default" = _cXtdfltU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "animated-rainbow-experience-bar";

@@ -176,6 +176,11 @@ let
             "file" = "constructionwand-2.0.3+1.21.8.jar";
             "hash" = "sha512-xorwLTLU5wA4BpRgjSWy+xxNGQeK70ruDOa/TwBmNHI9KrC6V15NPy59253NfVhfM8x0n8sTnggHEGVhmMLj+Q==";
         };
+        _ACeVGDFX = {
+            "id" = "ACeVGDFX";
+            "file" = "constructionwand-2.1.3+26.3.jar";
+            "hash" = "sha512-wKHNYv/hPIp7aocQPvGYuD84/44Cyz76ylRmoG07RAAcJKzwhTiceyebm+6HDj4v+0+rZAdIgGUBM4r+7dUX5g==";
+        };
     in {
         "bmOWmraq" = _bmOWmraq;
         "GNbRECGg" = _GNbRECGg;
@@ -212,6 +217,7 @@ let
         "vTiTG67h" = _vTiTG67h;
         "N6169rZS" = _N6169rZS;
         "g9JVsp1f" = _g9JVsp1f;
+        "ACeVGDFX" = _ACeVGDFX;
         "fabric-1.20.1" = _N6169rZS;
         "fabric-1.21" = _HkBiytj9;
         "fabric-1.20" = _dFhgJyS7;
@@ -234,6 +240,7 @@ let
         "fabric-26.1.2" = _K3YnB9Z3;
         "fabric-26.2" = _vTiTG67h;
         "fabric-1.21.8" = _g9JVsp1f;
+        "fabric-26.3" = _ACeVGDFX;
         "pkg-1.0.0+1.20.1" = _bmOWmraq;
         "pkg-1.0.1" = _B0t27tcX;
         "pkg-1.0.2" = _SB87EN0V;
@@ -266,7 +273,8 @@ let
         "pkg-2.1.3+26.2" = _vTiTG67h;
         "pkg-2.1.3+1.20.1" = _N6169rZS;
         "pkg-2.0.3+1.21.8" = _g9JVsp1f;
-        "default" = _g9JVsp1f;
+        "pkg-2.1.3+26.3" = _ACeVGDFX;
+        "default" = _ACeVGDFX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "construction-wand-fabric";

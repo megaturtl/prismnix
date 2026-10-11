@@ -61,6 +61,11 @@ let
             "file" = "fancy-hitbox-practice-26.3.jar";
             "hash" = "sha512-SMfcks+khmC1hu/hn3wc8C6GpdKQ7DAHal2hAkGHSHGR4Rk9q94Ly+QWERt+jiRb2GTa1dU1j8Q+Wd+CKrFuHQ==";
         };
+        _AKWtdvAH = {
+            "id" = "AKWtdvAH";
+            "file" = "fancy-hitbox-practice-26.3.jar";
+            "hash" = "sha512-DMF25UWMjDVY+2dYbL4lXSwWP1kTXnGA8VV6nGe1AcFnUp7BgpxWLoKXFQncSxCwCoMMuzRFIqLBmJkUFn7BHw==";
+        };
     in {
         "fIsAR5lF" = _fIsAR5lF;
         "PvinY0pk" = _PvinY0pk;
@@ -74,6 +79,7 @@ let
         "udaJtnkR" = _udaJtnkR;
         "ismLV473" = _ismLV473;
         "sJh9yQfr" = _sJh9yQfr;
+        "AKWtdvAH" = _AKWtdvAH;
         "fabric-1.20" = _fIsAR5lF;
         "fabric-1.20.1" = _fIsAR5lF;
         "fabric-1.20.4" = _PvinY0pk;
@@ -88,7 +94,7 @@ let
         "fabric-26.1.1" = _udaJtnkR;
         "fabric-26.1.2" = _udaJtnkR;
         "fabric-26.2" = _ismLV473;
-        "fabric-26.3" = _sJh9yQfr;
+        "fabric-26.3" = _AKWtdvAH;
         "pkg-1.20" = _fIsAR5lF;
         "pkg-1.20.4" = _PvinY0pk;
         "pkg-1.21.1" = _xbV32m7e;
@@ -99,7 +105,8 @@ let
         "pkg-26.1.X" = _udaJtnkR;
         "pkg-26.2" = _ismLV473;
         "pkg-26.3" = _sJh9yQfr;
-        "default" = _sJh9yQfr;
+        "pkg-v2-26.3" = _AKWtdvAH;
+        "default" = _AKWtdvAH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fancy-hitbox-practice";

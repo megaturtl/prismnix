@@ -26,20 +26,41 @@ let
             "file" = "ApothicEnchanting-1.21.1-1.6.2.jar";
             "hash" = "sha512-4Dhk240ypgEW3ZuHDnun9iVkqFGAxrNc/Uht7/70xYYlTFJ8Ras8B1CkIk1zLSw4nSroTb+umcp/cO4rqef5xg==";
         };
+        _9ABEeMkc = {
+            "id" = "9ABEeMkc";
+            "file" = "ApothicEnchanting-1.21.1-1.6.3.jar";
+            "hash" = "sha512-aDIwvd6HSjGvv+1Ri+FGtT4s6QyzeL/14YDkIQ3gu31Q9nvjXz7GKuUBD4NVaCTEYQaA85U2jHZyKzp5hUe0Yw==";
+        };
+        _5yksP3X6 = {
+            "id" = "5yksP3X6";
+            "file" = "ApothicEnchanting-26.1.2-2.1.0.jar";
+            "hash" = "sha512-PrFGorIsGL6x1zmwWmv1BU8FsvI5wl7cPCG2qMb4HTWV2wI1y6JDtE+Zftb+QZjEV2O8ap5QF7jl1AZ6mDo8WA==";
+        };
+        _JAQJkLJ1 = {
+            "id" = "JAQJkLJ1";
+            "file" = "ApothicEnchanting-1.21.1-1.6.4.jar";
+            "hash" = "sha512-tWDtYYEAMEcsQvo55hmbHbB8Gbq6j3jZi0SrPh0Aob6/9faZQr0Hb+qXVPY5QN+SDPsZkGBzt3vMRZu42IV13g==";
+        };
     in {
         "vDPp4lQ0" = _vDPp4lQ0;
         "CZ1OdBnA" = _CZ1OdBnA;
         "HpSrSsv3" = _HpSrSsv3;
         "56c0M28v" = _56c0M28v;
         "2vH7csNR" = _2vH7csNR;
-        "neoforge-26.1.2" = _vDPp4lQ0;
-        "neoforge-1.21.1" = _2vH7csNR;
+        "9ABEeMkc" = _9ABEeMkc;
+        "5yksP3X6" = _5yksP3X6;
+        "JAQJkLJ1" = _JAQJkLJ1;
+        "neoforge-26.1.2" = _5yksP3X6;
+        "neoforge-1.21.1" = _JAQJkLJ1;
         "pkg-26.1.2-2.0.0" = _vDPp4lQ0;
         "pkg-1.21.1-1.5.3" = _CZ1OdBnA;
         "pkg-1.21.1-1.6.0" = _HpSrSsv3;
         "pkg-1.21.1-1.6.1" = _56c0M28v;
         "pkg-1.21.1-1.6.2" = _2vH7csNR;
-        "default" = _2vH7csNR;
+        "pkg-1.21.1-1.6.3" = _9ABEeMkc;
+        "pkg-26.1.2-2.1.0" = _5yksP3X6;
+        "pkg-1.21.1-1.6.4" = _JAQJkLJ1;
+        "default" = _JAQJkLJ1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "apothic-enchanting";

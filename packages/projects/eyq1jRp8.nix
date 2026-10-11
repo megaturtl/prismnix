@@ -66,6 +66,26 @@ let
             "file" = "upgradeable-spawners-v1.0.2.jar";
             "hash" = "sha512-G8Iyca+eSl6IvNlQAlWpaZZdGkkcE54QhfnPnYceubj/dRpDO3MfQ3A5ewz3yFT57aFX/KqYPtvBmtF8G3NG5A==";
         };
+        _jTcL39Os = {
+            "id" = "jTcL39Os";
+            "file" = "upgradeable-spawners-v1.1.0.zip";
+            "hash" = "sha512-BbiEcz5lywHdDN1v96Z/zkE6x9s/8CDdbJm4VvP/5RYLqpFcg9fnOQimKboHTpmc6B8EnqN/88VAbKe2VLkGfA==";
+        };
+        _HcZFmHZK = {
+            "id" = "HcZFmHZK";
+            "file" = "upgradeable-spawners-v1.1.0.jar";
+            "hash" = "sha512-5nh2Ggwo4TbEytANloS7DjS6Cmr9BZte+S7OKCpo7oMXugp5vksYhKT8kMV/ek6wMFr6WLNQ62yHET0jNd5RRg==";
+        };
+        _FLnubfSI = {
+            "id" = "FLnubfSI";
+            "file" = "upgradeable-spawners-v1.1.0.0.zip";
+            "hash" = "sha512-B7meP9NWefHRLNAjwSxXwn0IUSBT9/2hqaw1ysHeCyucKJV7qmU0gn9pTwJUnlTPJDmeudjoh/XtnMVQmqbf7Q==";
+        };
+        _LsHJCExz = {
+            "id" = "LsHJCExz";
+            "file" = "upgradeable-spawners-v1.1.0.0.jar";
+            "hash" = "sha512-8rBVZLvRHNhcMOkEPP2zCSz86YZBCwuG2lHIMsI8HLQj1Qm26F/QgKfyTsOOUcoOsxZjC05mcUXLYYSxA8hMkA==";
+        };
     in {
         "etRsq81Y" = _etRsq81Y;
         "RFCMWIjv" = _RFCMWIjv;
@@ -80,6 +100,10 @@ let
         "Gz5S0nEp" = _Gz5S0nEp;
         "7LVgEJx4" = _7LVgEJx4;
         "A2lupJ3D" = _A2lupJ3D;
+        "jTcL39Os" = _jTcL39Os;
+        "HcZFmHZK" = _HcZFmHZK;
+        "FLnubfSI" = _FLnubfSI;
+        "LsHJCExz" = _LsHJCExz;
         "datapack-1.21.6" = _7LVgEJx4;
         "datapack-1.21.7" = _7LVgEJx4;
         "datapack-1.21.8" = _7LVgEJx4;
@@ -90,6 +114,7 @@ let
         "datapack-26.1.1" = _7LVgEJx4;
         "datapack-26.1.2" = _7LVgEJx4;
         "datapack-26.2" = _7LVgEJx4;
+        "datapack-26.3" = _FLnubfSI;
         "fabric-1.21.6" = _A2lupJ3D;
         "fabric-1.21.7" = _A2lupJ3D;
         "fabric-1.21.8" = _A2lupJ3D;
@@ -100,6 +125,7 @@ let
         "fabric-26.1.1" = _A2lupJ3D;
         "fabric-26.1.2" = _A2lupJ3D;
         "fabric-26.2" = _A2lupJ3D;
+        "fabric-26.3" = _LsHJCExz;
         "forge-1.21.6" = _A2lupJ3D;
         "forge-1.21.7" = _A2lupJ3D;
         "forge-1.21.8" = _A2lupJ3D;
@@ -110,6 +136,7 @@ let
         "forge-26.1.1" = _A2lupJ3D;
         "forge-26.1.2" = _A2lupJ3D;
         "forge-26.2" = _A2lupJ3D;
+        "forge-26.3" = _LsHJCExz;
         "neoforge-1.21.6" = _A2lupJ3D;
         "neoforge-1.21.7" = _A2lupJ3D;
         "neoforge-1.21.8" = _A2lupJ3D;
@@ -120,6 +147,7 @@ let
         "neoforge-26.1.1" = _A2lupJ3D;
         "neoforge-26.1.2" = _A2lupJ3D;
         "neoforge-26.2" = _A2lupJ3D;
+        "neoforge-26.3" = _LsHJCExz;
         "quilt-1.21.6" = _A2lupJ3D;
         "quilt-1.21.7" = _A2lupJ3D;
         "quilt-1.21.8" = _A2lupJ3D;
@@ -130,6 +158,7 @@ let
         "quilt-26.1.1" = _A2lupJ3D;
         "quilt-26.1.2" = _A2lupJ3D;
         "quilt-26.2" = _A2lupJ3D;
+        "quilt-26.3" = _LsHJCExz;
         "pkg-v1.0.0" = _8QhXM2IK;
         "pkg-v1.0.0+mod" = _3t7d4nJO;
         "pkg-v1.0.1" = _qnzSrNZC;
@@ -138,7 +167,11 @@ let
         "pkg-v1.0.1.1+mod" = _Gz5S0nEp;
         "pkg-v1.0.2" = _7LVgEJx4;
         "pkg-v1.0.2+mod" = _A2lupJ3D;
-        "default" = _A2lupJ3D;
+        "pkg-v1.1.0" = _jTcL39Os;
+        "pkg-v1.1.0+mod" = _HcZFmHZK;
+        "pkg-v1.1.0.0" = _FLnubfSI;
+        "pkg-v1.1.0.0+mod" = _LsHJCExz;
+        "default" = _LsHJCExz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "upgradeable-spawners";

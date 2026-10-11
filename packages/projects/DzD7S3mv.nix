@@ -241,6 +241,16 @@ let
             "file" = "bending-fabric-mc26.2-3.16.1.jar";
             "hash" = "sha512-d3+4jSPkQ1qqlR5r7APvk+Ke4IxA1vi+llbeDGBK27Kutn3RKH7qGNJCH3EKKTrtGMxRJxkXcUuFnC+tMzpulA==";
         };
+        _uYWg0DcX = {
+            "id" = "uYWg0DcX";
+            "file" = "bending-paper-3.17.0.jar";
+            "hash" = "sha512-EFMqBlLrwWLBWNsQ/Dgd58GWITmDyy6sBoX2Cv6W5eqs/OFdlnHlZ5OzWdrltd8M9te2QUofuEhP1Nk7IqTSvg==";
+        };
+        _JqXmmMqS = {
+            "id" = "JqXmmMqS";
+            "file" = "bending-fabric-mc26.3-3.17.0.jar";
+            "hash" = "sha512-y08D1hOJST9ywB4b/nBjkKyswEtta99oW3aPU1PRhnBZBbTfniP+b0W/zbZmhtnqYM/s/Qwe6Q4170oz0BF+3Q==";
+        };
     in {
         "PtkAMzQD" = _PtkAMzQD;
         "Uiv7Ksh2" = _Uiv7Ksh2;
@@ -290,6 +300,8 @@ let
         "OIkwVCbS" = _OIkwVCbS;
         "HpzUbyEL" = _HpzUbyEL;
         "nk9Le018" = _nk9Le018;
+        "uYWg0DcX" = _uYWg0DcX;
+        "JqXmmMqS" = _JqXmmMqS;
         "paper-1.18.2" = _Uiv7Ksh2;
         "paper-1.19.2" = _uReWoSiZ;
         "paper-1.19.3" = _uReWoSiZ;
@@ -307,6 +319,7 @@ let
         "paper-1.21.10" = _PhTQywVe;
         "paper-1.21.11" = _rEhuQaPO;
         "paper-26.2" = _OIkwVCbS;
+        "paper-26.3" = _uYWg0DcX;
         "purpur-1.18.2" = _Uiv7Ksh2;
         "purpur-1.19.2" = _uReWoSiZ;
         "purpur-1.19.3" = _uReWoSiZ;
@@ -334,6 +347,7 @@ let
         "fabric-1.21.10" = _AwgHHu3B;
         "fabric-1.21.11" = _ksB4u7fd;
         "fabric-26.2" = _nk9Le018;
+        "fabric-26.3" = _JqXmmMqS;
         "pkg-2.1.0" = _PtkAMzQD;
         "pkg-2.2.0" = _Uiv7Ksh2;
         "pkg-3.0.0" = _rmlbrJME;
@@ -360,7 +374,8 @@ let
         "pkg-3.15.0" = _ksB4u7fd;
         "pkg-3.16.0" = _HpzUbyEL;
         "pkg-3.16.1" = _nk9Le018;
-        "default" = _nk9Le018;
+        "pkg-3.17.0" = _JqXmmMqS;
+        "default" = _JqXmmMqS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bending";

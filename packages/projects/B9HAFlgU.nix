@@ -101,6 +101,11 @@ let
             "file" = "ThirstWasReclaimed-1.21.1-3.0.6.jar";
             "hash" = "sha512-djLLUo33tCuIUUMfQeGybFcOGIAOn5k7CTBvywT/Jcr0fuijDSgDwbrRtdL4Xi2vSf5+0n9dlYiAI4XmPcmc6w==";
         };
+        _h9TgwNXX = {
+            "id" = "h9TgwNXX";
+            "file" = "ThirstWasReclaimed-26.1.2-3.0.6.jar";
+            "hash" = "sha512-mrpTSvcJePaNFqO5HeGS3YDHMqHBH2MzHueRW48WHwDApztQ5OWreSsi6+ANZ2VW58TCYb7hOgMdb+rbYf4bog==";
+        };
     in {
         "ZIYXkwXW" = _ZIYXkwXW;
         "nApEFj0u" = _nApEFj0u;
@@ -122,7 +127,9 @@ let
         "fUfPiRzT" = _fUfPiRzT;
         "gnEJzQTu" = _gnEJzQTu;
         "Y7Tm4V7W" = _Y7Tm4V7W;
+        "h9TgwNXX" = _h9TgwNXX;
         "neoforge-1.21.1" = _Y7Tm4V7W;
+        "neoforge-26.1.2" = _h9TgwNXX;
         "forge-1.20.1" = _gnEJzQTu;
         "forge-1.19.2" = _VmvNC9Pc;
         "forge-1.18.2" = _85anyrGR;
@@ -146,7 +153,8 @@ let
         "pkg-1.21.1-3.0.5" = _fUfPiRzT;
         "pkg-1.20.1-3.0.5" = _gnEJzQTu;
         "pkg-1.21.1-3.0.6" = _Y7Tm4V7W;
-        "default" = _Y7Tm4V7W;
+        "pkg-26.1.2-3.0.6" = _h9TgwNXX;
+        "default" = _h9TgwNXX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "thirst-was-reclaimed";

@@ -196,6 +196,16 @@ let
             "file" = "V-Paxels-Datapack.zip";
             "hash" = "sha512-CIafeU7t5jxRlotfpcMc1e1XIj7volLZrErYUkq8cbKJtF4ErDIcm12jZlLEdHV6TfQLW2jMZLnobKProErTSg==";
         };
+        _Yr6aDTuc = {
+            "id" = "Yr6aDTuc";
+            "file" = "V-Paxels-Datapack.zip";
+            "hash" = "sha512-1qDt9z7Nv1gKCsiJ9k+IF1GMyzxtVxszA1jn2bxH0kouqfGxDQvX9/Jma6V+En/odcwYy8kXfW0FZydO7a1+lQ==";
+        };
+        _ysDtUWa8 = {
+            "id" = "ysDtUWa8";
+            "file" = "v-paxels-v3.0.jar";
+            "hash" = "sha512-/VOxKZWgqliFZG5vTHb5IG+6CymTbp26BJI/v4AYHtTx1Cb3Vr3otM/n5YmTt46IvO+N3bO5PaMzUuP+S8x6Aw==";
+        };
     in {
         "wmarHAf0" = _wmarHAf0;
         "S9WzYGRi" = _S9WzYGRi;
@@ -236,6 +246,8 @@ let
         "55NU2yY8" = _55NU2yY8;
         "wOQR76q1" = _wOQR76q1;
         "l9CiBXym" = _l9CiBXym;
+        "Yr6aDTuc" = _Yr6aDTuc;
+        "ysDtUWa8" = _ysDtUWa8;
         "datapack-24w12a" = _AKnT4WQh;
         "datapack-24w13a" = _AZDiPrr0;
         "datapack-24w14potato" = _AZDiPrr0;
@@ -287,6 +299,7 @@ let
         "datapack-26.1.1" = _wOQR76q1;
         "datapack-26.1.2" = _wOQR76q1;
         "datapack-26.2" = _l9CiBXym;
+        "datapack-26.3" = _Yr6aDTuc;
         "fabric-24w12a" = _FxVmeFtE;
         "fabric-24w13a" = _XHa2wmp3;
         "fabric-24w14potato" = _XHa2wmp3;
@@ -324,6 +337,7 @@ let
         "fabric-1.21.6" = _JnwJIfsZ;
         "fabric-1.21.7" = _JnwJIfsZ;
         "fabric-1.21.8" = _JnwJIfsZ;
+        "fabric-26.3" = _ysDtUWa8;
         "forge-24w12a" = _FxVmeFtE;
         "forge-24w13a" = _XHa2wmp3;
         "forge-24w14potato" = _XHa2wmp3;
@@ -361,6 +375,7 @@ let
         "forge-1.21.6" = _JnwJIfsZ;
         "forge-1.21.7" = _JnwJIfsZ;
         "forge-1.21.8" = _JnwJIfsZ;
+        "forge-26.3" = _ysDtUWa8;
         "quilt-24w12a" = _FxVmeFtE;
         "quilt-24w13a" = _XHa2wmp3;
         "quilt-24w14potato" = _XHa2wmp3;
@@ -398,6 +413,7 @@ let
         "quilt-1.21.6" = _JnwJIfsZ;
         "quilt-1.21.7" = _JnwJIfsZ;
         "quilt-1.21.8" = _JnwJIfsZ;
+        "quilt-26.3" = _ysDtUWa8;
         "neoforge-24w33a" = _lJQqchlt;
         "neoforge-24w34a" = _guOiStE7;
         "neoforge-24w35a" = _guOiStE7;
@@ -425,6 +441,7 @@ let
         "neoforge-1.21.6" = _JnwJIfsZ;
         "neoforge-1.21.7" = _JnwJIfsZ;
         "neoforge-1.21.8" = _JnwJIfsZ;
+        "neoforge-26.3" = _ysDtUWa8;
         "minecraft-26.1-snapshot-10" = _55NU2yY8;
         "minecraft-26.1-snapshot-11" = _55NU2yY8;
         "minecraft-26.1-pre-1" = _55NU2yY8;
@@ -432,6 +449,7 @@ let
         "minecraft-26.1.1" = _wOQR76q1;
         "minecraft-26.1.2" = _wOQR76q1;
         "minecraft-26.2" = _l9CiBXym;
+        "minecraft-26.3" = _Yr6aDTuc;
         "pkg-1.0.0" = _wmarHAf0;
         "pkg-1.1.0" = _S9WzYGRi;
         "pkg-1.1.0+mod" = _fqWEx9S7;
@@ -469,7 +487,9 @@ let
         "pkg-v.2.2" = _55NU2yY8;
         "pkg-v2.3" = _wOQR76q1;
         "pkg-v2.4" = _l9CiBXym;
-        "default" = _l9CiBXym;
+        "pkg-v3.0" = _Yr6aDTuc;
+        "pkg-v3.0+mod" = _ysDtUWa8;
+        "default" = _ysDtUWa8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "v-paxels";

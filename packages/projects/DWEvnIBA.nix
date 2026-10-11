@@ -31,6 +31,16 @@ let
             "file" = "oblivion-1.1.1.jar";
             "hash" = "sha512-u4s4In6rDnU8Go2dHix6LwmN2l+wgHaLobTWheo8ZSLIH8DUN4jubZz4Wj++YSvCki4x+IJ/sot7mrlz07lozw==";
         };
+        _dqcC9hBx = {
+            "id" = "dqcC9hBx";
+            "file" = "oblivion-1.1.2.jar";
+            "hash" = "sha512-wPVnV1NhjGm81/OjW4qj9m6aMiJG54DP9CJpAaRCjwhkOc0Ke4yCruHx4pliDeVLMeOU1ZjxhMgxbA8zAjYaBA==";
+        };
+        _dOWhOzhx = {
+            "id" = "dOWhOzhx";
+            "file" = "oblivion-1.1.3.jar";
+            "hash" = "sha512-wOQQGXPSYxYWiwQRy9pjVDmDf6ujUK+mZs2OnxXUQLJiesEQuen5E1DaSwDbdSGjQ4gfTI99rhG0XJvfGgLjPg==";
+        };
     in {
         "Sh46wrYM" = _Sh46wrYM;
         "zT47qdic" = _zT47qdic;
@@ -38,14 +48,18 @@ let
         "bwxiiW5V" = _bwxiiW5V;
         "iuBRrs35" = _iuBRrs35;
         "cpvjShBH" = _cpvjShBH;
-        "fabric-1.21.1" = _cpvjShBH;
+        "dqcC9hBx" = _dqcC9hBx;
+        "dOWhOzhx" = _dOWhOzhx;
+        "fabric-1.21.1" = _dOWhOzhx;
         "pkg-1.0.0" = _Sh46wrYM;
         "pkg-1.0.1+1.21.1" = _zT47qdic;
         "pkg-1.0.2+1.21.1" = _wEJi9yOr;
         "pkg-1.0.3+1.21.1" = _bwxiiW5V;
         "pkg-1.1.0+1.21.1" = _iuBRrs35;
         "pkg-1.1.1+1.21.1" = _cpvjShBH;
-        "default" = _cpvjShBH;
+        "pkg-1.1.2+1.21.1" = _dqcC9hBx;
+        "pkg-1.1.3+1.21.1" = _dOWhOzhx;
+        "default" = _dOWhOzhx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "oblivion";

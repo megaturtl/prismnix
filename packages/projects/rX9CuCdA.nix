@@ -111,6 +111,16 @@ let
             "file" = "ly-soulbound-enchantment-v1.0.6.jar";
             "hash" = "sha512-3BOBiETVwj0xKUwzgM5jQQim/R+5axiqUc/vXrzvzLn5kOl61XFXG/b6EpKI2FEJ6JZGIOOhEW8AoZv/gWZ/pQ==";
         };
+        _yLZyl6QM = {
+            "id" = "yLZyl6QM";
+            "file" = "Soulbound Enchantment v1.0.6 [26.3].zip";
+            "hash" = "sha512-wWEY03G8o7Icb5zhDaDFPv2PtDb5ARbBe7/YxupxBjMrBePf0dXOsYwgVGL7FbWiS8e+E7tCCc0XhG+07Ad63A==";
+        };
+        _4ZDwuyKl = {
+            "id" = "4ZDwuyKl";
+            "file" = "ly-soulbound-enchantment-1.0.6.jar";
+            "hash" = "sha512-w5veM6eG4Udy6Zv6oJjnnw/HWwwSBN8bdRnwPnp3igMsS9grUGOpCzJ41EDEYUOlETmLWzQ4oPMd6IHkWi2Rww==";
+        };
     in {
         "tGxbBII6" = _tGxbBII6;
         "anafZxVA" = _anafZxVA;
@@ -134,6 +144,8 @@ let
         "i3nE3k5j" = _i3nE3k5j;
         "3MkIa4kz" = _3MkIa4kz;
         "o6mL8dZK" = _o6mL8dZK;
+        "yLZyl6QM" = _yLZyl6QM;
+        "4ZDwuyKl" = _4ZDwuyKl;
         "datapack-1.21" = _gzz8iyiV;
         "datapack-1.21.1" = _gzz8iyiV;
         "datapack-1.21.2" = _gzz8iyiV;
@@ -150,6 +162,7 @@ let
         "datapack-26.1.1" = _3MkIa4kz;
         "datapack-26.1.2" = _3MkIa4kz;
         "datapack-26.2" = _3MkIa4kz;
+        "datapack-26.3" = _yLZyl6QM;
         "fabric-1.21" = _dW86XJxo;
         "fabric-1.21.1" = _dW86XJxo;
         "fabric-1.21.2" = _dW86XJxo;
@@ -166,6 +179,7 @@ let
         "fabric-26.1.1" = _o6mL8dZK;
         "fabric-26.1.2" = _o6mL8dZK;
         "fabric-26.2" = _o6mL8dZK;
+        "fabric-26.3" = _4ZDwuyKl;
         "forge-1.21" = _dW86XJxo;
         "forge-1.21.1" = _dW86XJxo;
         "forge-1.21.2" = _dW86XJxo;
@@ -182,6 +196,7 @@ let
         "forge-26.1.1" = _o6mL8dZK;
         "forge-26.1.2" = _o6mL8dZK;
         "forge-26.2" = _o6mL8dZK;
+        "forge-26.3" = _4ZDwuyKl;
         "neoforge-1.21" = _dW86XJxo;
         "neoforge-1.21.1" = _dW86XJxo;
         "neoforge-1.21.2" = _dW86XJxo;
@@ -198,6 +213,7 @@ let
         "neoforge-26.1.1" = _o6mL8dZK;
         "neoforge-26.1.2" = _o6mL8dZK;
         "neoforge-26.2" = _o6mL8dZK;
+        "neoforge-26.3" = _4ZDwuyKl;
         "quilt-1.21" = _dW86XJxo;
         "quilt-1.21.1" = _dW86XJxo;
         "quilt-1.21.2" = _dW86XJxo;
@@ -214,6 +230,7 @@ let
         "quilt-26.1.1" = _o6mL8dZK;
         "quilt-26.1.2" = _o6mL8dZK;
         "quilt-26.2" = _o6mL8dZK;
+        "quilt-26.3" = _4ZDwuyKl;
         "pkg-v1.0.0" = _tGxbBII6;
         "pkg-v1.0.0+mod" = _anafZxVA;
         "pkg-v1.0.1" = _UnH7Ewfv;
@@ -226,7 +243,9 @@ let
         "pkg-v1.0.5+mod" = _GmARWCzh;
         "pkg-v1.0.6" = _3MkIa4kz;
         "pkg-v1.0.6+mod" = _o6mL8dZK;
-        "default" = _o6mL8dZK;
+        "pkg-1.0.6" = _yLZyl6QM;
+        "pkg-1.0.6+mod" = _4ZDwuyKl;
+        "default" = _4ZDwuyKl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ly-soulbound-enchantment";

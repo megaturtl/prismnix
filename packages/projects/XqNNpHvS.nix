@@ -111,6 +111,16 @@ let
             "file" = "SmoothCoasters-26.2-v1.jar";
             "hash" = "sha512-qORsU6fDmO5bRBq36QUZbtxeOsyVlttc1wT2UtkwplJrydJbfF/WDxyTvmSX5fa2vrl7g9uZ4pBPJ+HRvE+AJA==";
         };
+        _Iw5FMVXN = {
+            "id" = "Iw5FMVXN";
+            "file" = "SmoothCoasters-Fabric-26.3-v1.jar";
+            "hash" = "sha512-qtdKUkM5zTxVJmDtM7O82NMJnkvtqrtmacWUFL+xWQXEij9Pa4qLPng3W2YTCcYSRd+TVVcf1ZS0ICespV4i5w==";
+        };
+        _CFriix1L = {
+            "id" = "CFriix1L";
+            "file" = "SmoothCoasters-NeoForge-26.3-v1.jar";
+            "hash" = "sha512-RQ92sOgpOdorDuZt8gAibC34UYgj6FaTMbBQvyAK7RwjWboAp+eFmdoMSfd4aeae1S1CDcJxQJgE58eJS+dcUA==";
+        };
     in {
         "IQbVp7To" = _IQbVp7To;
         "UX83HNl6" = _UX83HNl6;
@@ -134,6 +144,8 @@ let
         "mm33kZFP" = _mm33kZFP;
         "6UYosvFd" = _6UYosvFd;
         "sTv3UGr8" = _sTv3UGr8;
+        "Iw5FMVXN" = _Iw5FMVXN;
+        "CFriix1L" = _CFriix1L;
         "fabric-1.16.4" = _IQbVp7To;
         "fabric-1.16.5" = _KJm12ocf;
         "fabric-1.17.1" = _h5qLYco7;
@@ -167,6 +179,8 @@ let
         "fabric-26.1.1" = _6UYosvFd;
         "fabric-26.1.2" = _6UYosvFd;
         "fabric-26.2" = _sTv3UGr8;
+        "fabric-26.3" = _Iw5FMVXN;
+        "neoforge-26.3" = _CFriix1L;
         "pkg-1.16.4-19" = _IQbVp7To;
         "pkg-1.17.1-v1" = _UX83HNl6;
         "pkg-1.17.1-v2" = _a0Fs9xYh;
@@ -189,7 +203,8 @@ let
         "pkg-1.21.11-v1" = _mm33kZFP;
         "pkg-26.1-v1" = _6UYosvFd;
         "pkg-26.2-v1" = _sTv3UGr8;
-        "default" = _sTv3UGr8;
+        "pkg-26.3-v1" = _CFriix1L;
+        "default" = _CFriix1L;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "smoothcoasters";

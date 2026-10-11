@@ -101,6 +101,31 @@ let
             "file" = "drivebysable-r1.6.0.jar";
             "hash" = "sha512-FkhlL1RYLSXPqz4BcxcIi82xVB2POh81mZRwj5L6XZG6YairQ/dcxvC1swVk/DY8opObD5Et0JKEWAPCHV61Fw==";
         };
+        _V9K79BOs = {
+            "id" = "V9K79BOs";
+            "file" = "drivebysable-r1.6.1.jar";
+            "hash" = "sha512-HcftbZVs22/QZtyQzGrn3yXYsnw3XAcGjyYHxQJWPKQelXabLd20sSbqpiL48Ks4P0ugMPSM6cnKCb+9C4YDrw==";
+        };
+        _jOUQ90g1 = {
+            "id" = "jOUQ90g1";
+            "file" = "drivebysable-r1.7.0.jar";
+            "hash" = "sha512-y6ooXjcOBYQJf4Ka9hLf9xkxVFBiJg4fLuKOv3CfzgDIQPe6CZRJOoMM5Es4w3elJERY2wYqrW8u8FaeyUpJeA==";
+        };
+        _VV2dzSFp = {
+            "id" = "VV2dzSFp";
+            "file" = "drivebysable-r2.0.0.jar";
+            "hash" = "sha512-hpaYCprWTCbYBuBNhxGAsBHGEqwSDmgI7eCsG804eQgNwWYmZcd6M1KXpSi8p4HlMXKi50OIOF97NQtFdJaOQQ==";
+        };
+        _C1o9bfLb = {
+            "id" = "C1o9bfLb";
+            "file" = "drivebysable-r2.0.1.jar";
+            "hash" = "sha512-TYzTGD+O1Ib0yDLgzwre+wg/MDggAF9S4ffntDdm3CWd9Wxc0AcvOQNU+HQcL6LsTypGs/auIZSoKiK6IjefIg==";
+        };
+        _9U5xWb1T = {
+            "id" = "9U5xWb1T";
+            "file" = "drivebysable-r2.0.2.jar";
+            "hash" = "sha512-V+8gwlM2Ec9yo7JT1u6HiuPHUwEWgQjcO8Q4SjfkxReSXs6HXWsdJaAt8wj4d631TYB26QgoDaRUHIL9biOqLg==";
+        };
     in {
         "xPVb7Czo" = _xPVb7Czo;
         "9cldlEdA" = _9cldlEdA;
@@ -122,8 +147,13 @@ let
         "apL6ogNT" = _apL6ogNT;
         "79vmxvWk" = _79vmxvWk;
         "uLLzTI7M" = _uLLzTI7M;
+        "V9K79BOs" = _V9K79BOs;
+        "jOUQ90g1" = _jOUQ90g1;
+        "VV2dzSFp" = _VV2dzSFp;
+        "C1o9bfLb" = _C1o9bfLb;
+        "9U5xWb1T" = _9U5xWb1T;
         "neoforge-1.21" = _Czgtazvp;
-        "neoforge-1.21.1" = _uLLzTI7M;
+        "neoforge-1.21.1" = _9U5xWb1T;
         "pkg-0.0.1" = _xPVb7Czo;
         "pkg-0.0.2" = _9cldlEdA;
         "pkg-0.0.3" = _Czgtazvp;
@@ -144,7 +174,12 @@ let
         "pkg-r1.5.1" = _apL6ogNT;
         "pkg-r1.5.2" = _79vmxvWk;
         "pkg-r1.6.0" = _uLLzTI7M;
-        "default" = _uLLzTI7M;
+        "pkg-r1.6.1" = _V9K79BOs;
+        "pkg-r1.7.0" = _jOUQ90g1;
+        "pkg-r2.0.0" = _VV2dzSFp;
+        "pkg-r2.0.1" = _C1o9bfLb;
+        "pkg-r2.0.2" = _9U5xWb1T;
+        "default" = _9U5xWb1T;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "drive-by-sable";

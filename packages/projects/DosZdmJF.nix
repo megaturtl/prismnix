@@ -581,6 +581,26 @@ let
             "file" = "jakes-build-tools-v5.0.6.jar";
             "hash" = "sha512-ijYHK2c+Na/SSfaTum2Gvws6yp+1USJwPUp4E2vCAhQIRHkRdRzp/QqRhQ80woLCLEwkqf+k8vXYB75LZuvJbQ==";
         };
+        _4UKbHn0w = {
+            "id" = "4UKbHn0w";
+            "file" = "JakesBuildTools-v5.0.7-Data-Pack.zip";
+            "hash" = "sha512-NV7anCAi6y7tgOzZhFkX/amkJxoHGmL4cf72wq7GCHnOJZ1mK9Pps/O4pIqby7ZCGN1Tvh4rmSjbBYf5YXMEnQ==";
+        };
+        _6A57fg4L = {
+            "id" = "6A57fg4L";
+            "file" = "jakes-build-tools-v5.0.7.jar";
+            "hash" = "sha512-9D7Y+lh2j/ByS/rqHsrlakr5gjitVQDx703BcD6PeIEUei1num+1LJYu/l6huotiuINoyz+b/sZXjRbaKOy9Dg==";
+        };
+        _oCCHP8Sh = {
+            "id" = "oCCHP8Sh";
+            "file" = "JakesBuildTools-v5.0.8-Data-Pack.zip";
+            "hash" = "sha512-GLQ6LzJOELG3s72/UNcQrWdflLoiaGNHNqqXuXX9Gv3HEB9HdyAoKxVPR74Q0qCk6VnyEQUHPZ5ykxkjK9wOIg==";
+        };
+        _XYGw2tkI = {
+            "id" = "XYGw2tkI";
+            "file" = "jakes-build-tools-v5.0.8.jar";
+            "hash" = "sha512-Vp17b6k+w8JAxFA/SNNcIfKP9juYHA1PAqOiwiOBGB3mSgeEc/ufFqXfc/wUiwKADHnrmm50t6oCIs2wOX4G7w==";
+        };
     in {
         "awijqgyk" = _awijqgyk;
         "r9a8qJ4I" = _r9a8qJ4I;
@@ -698,6 +718,10 @@ let
         "Au7C10ST" = _Au7C10ST;
         "6Hq8HB7s" = _6Hq8HB7s;
         "boMGA2rh" = _boMGA2rh;
+        "4UKbHn0w" = _4UKbHn0w;
+        "6A57fg4L" = _6A57fg4L;
+        "oCCHP8Sh" = _oCCHP8Sh;
+        "XYGw2tkI" = _XYGw2tkI;
         "datapack-1.20.4" = _r9a8qJ4I;
         "datapack-1.20.5" = _r9a8qJ4I;
         "datapack-1.20.6" = _r9a8qJ4I;
@@ -722,6 +746,7 @@ let
         "datapack-24w46a" = _YStbTAgT;
         "datapack-26.1.2" = _s87LxqEM;
         "datapack-26.2" = _6Hq8HB7s;
+        "datapack-26.3" = _oCCHP8Sh;
         "fabric-1.21" = _kaLPG2nk;
         "fabric-1.21.1" = _nbAk9UTH;
         "fabric-1.21.3" = _y9RH3kbO;
@@ -743,6 +768,7 @@ let
         "fabric-24w46a" = _bKkFyrTE;
         "fabric-26.1.2" = _Au7C10ST;
         "fabric-26.2" = _boMGA2rh;
+        "fabric-26.3" = _XYGw2tkI;
         "forge-1.21" = _kaLPG2nk;
         "forge-1.21.1" = _nbAk9UTH;
         "forge-1.21.3" = _y9RH3kbO;
@@ -764,6 +790,7 @@ let
         "forge-24w46a" = _bKkFyrTE;
         "forge-26.1.2" = _Au7C10ST;
         "forge-26.2" = _boMGA2rh;
+        "forge-26.3" = _XYGw2tkI;
         "quilt-1.21" = _kaLPG2nk;
         "quilt-1.21.1" = _nbAk9UTH;
         "quilt-1.21.3" = _y9RH3kbO;
@@ -785,6 +812,7 @@ let
         "quilt-24w46a" = _bKkFyrTE;
         "quilt-26.1.2" = _Au7C10ST;
         "quilt-26.2" = _boMGA2rh;
+        "quilt-26.3" = _XYGw2tkI;
         "neoforge-1.21" = _kaLPG2nk;
         "neoforge-1.21.1" = _nbAk9UTH;
         "neoforge-1.21.3" = _y9RH3kbO;
@@ -806,6 +834,7 @@ let
         "neoforge-24w46a" = _bKkFyrTE;
         "neoforge-26.1.2" = _Au7C10ST;
         "neoforge-26.2" = _boMGA2rh;
+        "neoforge-26.3" = _XYGw2tkI;
         "pkg-1.0" = _awijqgyk;
         "pkg-1.1" = _r9a8qJ4I;
         "pkg-1.2" = _zcNrjUtv;
@@ -922,7 +951,11 @@ let
         "pkg-v5.0.5+mod" = _Au7C10ST;
         "pkg-v5.0.6" = _6Hq8HB7s;
         "pkg-v5.0.6+mod" = _boMGA2rh;
-        "default" = _boMGA2rh;
+        "pkg-v5.0.7" = _4UKbHn0w;
+        "pkg-v5.0.7+mod" = _6A57fg4L;
+        "pkg-v5.0.8" = _oCCHP8Sh;
+        "pkg-v5.0.8+mod" = _XYGw2tkI;
+        "default" = _XYGw2tkI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jakes-build-tools";

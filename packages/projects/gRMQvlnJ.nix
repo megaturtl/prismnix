@@ -66,6 +66,16 @@ let
             "file" = "bug-fixer-upper-1.10.0.jar";
             "hash" = "sha512-mvFnVwCOVSdQmmhSdDeRUfRSihD0mt0ii+k2GxZsDR7SbTySCYtqdfZxO1OK2qS6fHrjpWmwJtEYkcp5jaswsg==";
         };
+        _jyysgo7W = {
+            "id" = "jyysgo7W";
+            "file" = "bug-fixer-upper-1.10.1.jar";
+            "hash" = "sha512-bjmQ5jiK6t5lMDbatdEaMRQB3uHGXNDI+7zKMB+Jb8uKPGylnh1gWvlnjiWaGKuKgLQZGGRt0bFtbUzyyu420A==";
+        };
+        _GvoHYbvd = {
+            "id" = "GvoHYbvd";
+            "file" = "bug-fixer-upper-1.11.0.jar";
+            "hash" = "sha512-duG7R8KAbL3ljC8NuQxHn3LrxITO9wgyHHfFYVr8YGKh7iqYOnw79VH5GfYMfPf7IMrPm3WMCBaVS2uPFj0miw==";
+        };
     in {
         "8aootr1n" = _8aootr1n;
         "uzY0nzQx" = _uzY0nzQx;
@@ -80,6 +90,8 @@ let
         "jj7JOtWt" = _jj7JOtWt;
         "DeGeQXBf" = _DeGeQXBf;
         "VLfsqxzM" = _VLfsqxzM;
+        "jyysgo7W" = _jyysgo7W;
+        "GvoHYbvd" = _GvoHYbvd;
         "fabric-1.21.4" = _LIEhMjpu;
         "fabric-1.21.5" = _Ao38EEjn;
         "fabric-1.21.6" = _gXjdK7Oq;
@@ -90,6 +102,8 @@ let
         "fabric-26.1" = _VLfsqxzM;
         "fabric-26.1.1" = _VLfsqxzM;
         "fabric-26.1.2" = _VLfsqxzM;
+        "fabric-26.2" = _jyysgo7W;
+        "fabric-26.3" = _GvoHYbvd;
         "quilt-1.21.4" = _LIEhMjpu;
         "quilt-1.21.5" = _Ao38EEjn;
         "quilt-1.21.6" = _gXjdK7Oq;
@@ -100,6 +114,8 @@ let
         "quilt-26.1" = _VLfsqxzM;
         "quilt-26.1.1" = _VLfsqxzM;
         "quilt-26.1.2" = _VLfsqxzM;
+        "quilt-26.2" = _jyysgo7W;
+        "quilt-26.3" = _GvoHYbvd;
         "pkg-1.0.0" = _8aootr1n;
         "pkg-mc1.21.4-1.0.1-fabric" = _uzY0nzQx;
         "pkg-mc1.21.4-1.1.0-fabric" = _PayUW4gC;
@@ -113,7 +129,9 @@ let
         "pkg-mc1.21.11-1.8.0-fabric" = _jj7JOtWt;
         "pkg-mc1.21.11-1.9.0-fabric" = _DeGeQXBf;
         "pkg-mc26.1-1.10.0-fabric" = _VLfsqxzM;
-        "default" = _VLfsqxzM;
+        "pkg-mc26.2-1.10.1-fabric" = _jyysgo7W;
+        "pkg-mc26.3-1.11.0-fabric" = _GvoHYbvd;
+        "default" = _GvoHYbvd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bugfixerupper";

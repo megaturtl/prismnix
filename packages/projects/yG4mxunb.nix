@@ -11,9 +11,15 @@ let
             "file" = "CraftGlow Round Shield.zip";
             "hash" = "sha512-+MQAaAD11TrmSPjoxatCvIQkLcUbUTvbJIBAWaCXR/8w38sJNtZGYbGMhO6k1WhdTGq58s2KGFSSDMy9NgTIRg==";
         };
+        _qDUrypIF = {
+            "id" = "qDUrypIF";
+            "file" = "CraftGlow Round Shield.zip";
+            "hash" = "sha512-+MQAaAD11TrmSPjoxatCvIQkLcUbUTvbJIBAWaCXR/8w38sJNtZGYbGMhO6k1WhdTGq58s2KGFSSDMy9NgTIRg==";
+        };
     in {
         "wJs9hVCL" = _wJs9hVCL;
         "pYzJdNdW" = _pYzJdNdW;
+        "qDUrypIF" = _qDUrypIF;
         "minecraft-1.20.2" = _wJs9hVCL;
         "minecraft-1.20.3" = _wJs9hVCL;
         "minecraft-1.20.4" = _wJs9hVCL;
@@ -35,8 +41,9 @@ let
         "minecraft-26.1.1" = _pYzJdNdW;
         "minecraft-26.1.2" = _pYzJdNdW;
         "minecraft-26.2" = _pYzJdNdW;
-        "pkg-1" = _pYzJdNdW;
-        "default" = _pYzJdNdW;
+        "minecraft-26.3" = _qDUrypIF;
+        "pkg-1" = _qDUrypIF;
+        "default" = _qDUrypIF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "craftglow-round-shield";

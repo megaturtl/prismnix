@@ -136,6 +136,11 @@ let
             "file" = "netherite-compass-1.16.0.jar";
             "hash" = "sha512-ADRWENsFsMC4XOFuo3djLCF1MeC4DlTPgO6iInNZ433dlO9tzhoGyb06bD3qp9PHhXurNAWYLl94zRTP1v9AAw==";
         };
+        _niUSB2cn = {
+            "id" = "niUSB2cn";
+            "file" = "netherite-compass-1.17.0.jar";
+            "hash" = "sha512-SUXSFazWbU7vKmbIHsXaTTUs+2tTAJ/iuLC9Sj8B2/5v0jLjRDtjWj3hedr9l5t4nmCjXC8ASxhqJ8tT6LDLOg==";
+        };
     in {
         "TreJsEpK" = _TreJsEpK;
         "yTjt8R7R" = _yTjt8R7R;
@@ -164,6 +169,7 @@ let
         "r3WNU7NG" = _r3WNU7NG;
         "avqsucZC" = _avqsucZC;
         "FlOEypGV" = _FlOEypGV;
+        "niUSB2cn" = _niUSB2cn;
         "fabric-1.20" = _yTjt8R7R;
         "fabric-1.20.1" = _TPj2wSgZ;
         "fabric-1.20.4" = _hKdBXuKH;
@@ -183,6 +189,7 @@ let
         "fabric-26.1.1" = _avqsucZC;
         "fabric-26.1.2" = _avqsucZC;
         "fabric-26.2" = _FlOEypGV;
+        "fabric-26.3" = _niUSB2cn;
         "forge-1.21" = _ssSoY4ht;
         "forge-1.21.1" = _dBzN8DAn;
         "forge-1.21.3" = _ZdWLqSwd;
@@ -209,7 +216,8 @@ let
         "pkg-1.14.0" = _r3WNU7NG;
         "pkg-1.15.0" = _avqsucZC;
         "pkg-1.16.0" = _FlOEypGV;
-        "default" = _FlOEypGV;
+        "pkg-1.17.0" = _niUSB2cn;
+        "default" = _niUSB2cn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "netherite-compass";

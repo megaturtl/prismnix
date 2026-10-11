@@ -76,6 +76,41 @@ let
             "file" = "MagicalTorches-1.21.1-3.0.1.jar";
             "hash" = "sha512-ggeTnEQOqryzDP21fhvm5mD19tpY71rP9Vmn32GPRx9SHEjiSaGWSy6Ssqk1QXrF0x9YYWmkaPb3QBZ9rjQDbg==";
         };
+        _jGNALQWw = {
+            "id" = "jGNALQWw";
+            "file" = "MagicalTorches-1.21.2-3.0.1.jar";
+            "hash" = "sha512-Xii/oRo3kGntMl+uFXSg3nCe5LWLupLKtrSiULcek2rwXbYoRzvYErKP2UcJpHXtIPDYCM11bot5OfQC1yV3oA==";
+        };
+        _z1XpCpnu = {
+            "id" = "z1XpCpnu";
+            "file" = "MagicalTorches-1.21.5-3.0.1.jar";
+            "hash" = "sha512-1l4s7dGbHzpch08kIFEEHLs8u7u7oUKJm9aIIM205JAdD2q/BlrZBZcOgaAHQMbmvswd/BvP1JlXddU1DoVsZQ==";
+        };
+        _CVAcvd2v = {
+            "id" = "CVAcvd2v";
+            "file" = "MagicalTorches-1.21.6-3.0.1.jar";
+            "hash" = "sha512-s1z2nu4mORuv/inTIhUEUw7rB25J7X/T7MuvOt7qwqQD330rFmHugL2kxktXj4y0C2aRobUBINnXpCeHViAnYw==";
+        };
+        _UJwOQC25 = {
+            "id" = "UJwOQC25";
+            "file" = "MagicalTorches-1.21.11-3.0.1.jar";
+            "hash" = "sha512-ECxDZxPfBfl8NWgp7eKay3/1CmJLIgN8GG+pBQfE4OsEugaHKlE8p+Nlng7qbHMmITpxyreFds1Ibrujk47O2w==";
+        };
+        _KZ9kos46 = {
+            "id" = "KZ9kos46";
+            "file" = "MagicalTorches-26.1-3.0.1.jar";
+            "hash" = "sha512-qcb380qYUBnyXUGqMbgBmz1VcWGvfbKWBTxaoiSLOTYYAvV+ICipP1UZ1Smv+CRWED9PfGH2TtCnRwJ4Obg2eg==";
+        };
+        _RtQnWman = {
+            "id" = "RtQnWman";
+            "file" = "MagicalTorches-1.21.1-3.0.2.jar";
+            "hash" = "sha512-H0C+ePlwOO6fp9D+z6Qp+pYVbyLtXQbg2t9zOsUDiksWOWgaDQI0Njb4pgCIldmRq8kamtY0MzjsPmyZ9S16Lg==";
+        };
+        _L33NrPYm = {
+            "id" = "L33NrPYm";
+            "file" = "MagicalTorches-1.20.1-2.0.4.jar";
+            "hash" = "sha512-cpDup7Ihp3VRtanXQkY8oGmE03cKjWCJlzxC6vqC8aBs1Qmvj/4FMpfFKq1B+6Dqexv0U9hhgqA1FXuwtQxFmw==";
+        };
     in {
         "n0bvTGti" = _n0bvTGti;
         "cJybcK7h" = _cJybcK7h;
@@ -92,18 +127,40 @@ let
         "89MVTLf2" = _89MVTLf2;
         "wJNFLW7C" = _wJNFLW7C;
         "bMASucUT" = _bMASucUT;
+        "jGNALQWw" = _jGNALQWw;
+        "z1XpCpnu" = _z1XpCpnu;
+        "CVAcvd2v" = _CVAcvd2v;
+        "UJwOQC25" = _UJwOQC25;
+        "KZ9kos46" = _KZ9kos46;
+        "RtQnWman" = _RtQnWman;
+        "L33NrPYm" = _L33NrPYm;
         "forge-1.17.1" = _n0bvTGti;
         "forge-1.18.2" = _cJybcK7h;
         "forge-1.19.4" = _vAyIVk1s;
         "forge-1.20" = _4nqKyTps;
-        "forge-1.20.1" = _3URhrujW;
+        "forge-1.20.1" = _L33NrPYm;
         "forge-1.19.2" = _rdTAPxyl;
         "forge-1.20.2" = _ERPSnVNe;
         "forge-1.20.4" = _KMdSp2lO;
         "forge-1.20.6" = _QbxPGuOH;
         "forge-1.21" = _3IyylxC4;
         "forge-1.21.1" = _89MVTLf2;
-        "neoforge-1.21.1" = _bMASucUT;
+        "neoforge-1.21.1" = _RtQnWman;
+        "neoforge-1.21.2" = _jGNALQWw;
+        "neoforge-1.21.3" = _jGNALQWw;
+        "neoforge-1.21.4" = _jGNALQWw;
+        "neoforge-1.21.5" = _z1XpCpnu;
+        "neoforge-1.21.6" = _CVAcvd2v;
+        "neoforge-1.21.7" = _CVAcvd2v;
+        "neoforge-1.21.8" = _CVAcvd2v;
+        "neoforge-1.21.9" = _CVAcvd2v;
+        "neoforge-1.21.10" = _CVAcvd2v;
+        "neoforge-1.21.11" = _UJwOQC25;
+        "neoforge-26.1" = _KZ9kos46;
+        "neoforge-26.1.1" = _KZ9kos46;
+        "neoforge-26.1.2" = _KZ9kos46;
+        "neoforge-26.2" = _KZ9kos46;
+        "neoforge-26.3" = _KZ9kos46;
         "pkg-1.17.1-2.0.1" = _n0bvTGti;
         "pkg-1.18.2-2.0.1" = _cJybcK7h;
         "pkg-1.19.4-2.0.2" = _WZlPw3zU;
@@ -119,7 +176,14 @@ let
         "pkg-1.21.1-2.0.3" = _89MVTLf2;
         "pkg-1.21.1-3.0.0" = _wJNFLW7C;
         "pkg-1.21.1-3.0.1" = _bMASucUT;
-        "default" = _bMASucUT;
+        "pkg-1.21.2-3.0.1" = _jGNALQWw;
+        "pkg-1.21.5-3.0.1" = _z1XpCpnu;
+        "pkg-1.21.6-3.0.1" = _CVAcvd2v;
+        "pkg-1.21.11-3.0.1" = _UJwOQC25;
+        "pkg-26.1-3.0.1" = _KZ9kos46;
+        "pkg-1.21.1-3.0.2" = _RtQnWman;
+        "pkg-1.20.1-2.0.4" = _L33NrPYm;
+        "default" = _L33NrPYm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "magical-torches";

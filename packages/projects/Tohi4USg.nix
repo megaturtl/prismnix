@@ -16,19 +16,46 @@ let
             "file" = "§8Crayon§6Craft§r §7(b.1.1.1) §b[1.21.x]§0 (1).zip";
             "hash" = "sha512-KXYaN+H7HeWi8ui2J3JDYd1FfPXr6i/pfYgrMIiFHaLaUTyBnQJ/cz/Z7D4jXM/uQ7BXkjZgmSqh7BcuDzWuag==";
         };
+        _vtxE7sP9 = {
+            "id" = "vtxE7sP9";
+            "file" = "CrayonCraft v1.2.zip";
+            "hash" = "sha512-FtfGZce9MRIWUrSdyX9lgkhy08iZoLsnuKpnkUG7ntmu7lBLF89KyXUz488eEm9WV4K/xj3rXTpKeB517tD0MQ==";
+        };
+        _5XlRInPT = {
+            "id" = "5XlRInPT";
+            "file" = "CrayonCraft v1.2.1.zip";
+            "hash" = "sha512-S47Ycgy1T1MySfai5ce1KuFnPYY0n4h69Sz6aCSwZQmMb7UmIvleuUwcOlJedOgIJOfc5SRU3uM1g+gSCGS0ig==";
+        };
     in {
         "Z7TlchPI" = _Z7TlchPI;
         "439zL0Co" = _439zL0Co;
         "m3mFEqxb" = _m3mFEqxb;
-        "minecraft-1.21" = _m3mFEqxb;
-        "minecraft-1.21.1" = _m3mFEqxb;
-        "minecraft-1.21.2" = _m3mFEqxb;
-        "minecraft-1.21.3" = _m3mFEqxb;
-        "minecraft-1.21.4" = _m3mFEqxb;
+        "vtxE7sP9" = _vtxE7sP9;
+        "5XlRInPT" = _5XlRInPT;
+        "minecraft-1.21" = _5XlRInPT;
+        "minecraft-1.21.1" = _5XlRInPT;
+        "minecraft-1.21.2" = _5XlRInPT;
+        "minecraft-1.21.3" = _5XlRInPT;
+        "minecraft-1.21.4" = _5XlRInPT;
+        "minecraft-24w33a" = _5XlRInPT;
+        "minecraft-24w34a" = _5XlRInPT;
+        "minecraft-24w35a" = _5XlRInPT;
+        "minecraft-24w36a" = _5XlRInPT;
+        "minecraft-24w37a" = _5XlRInPT;
+        "minecraft-24w38a" = _5XlRInPT;
+        "minecraft-24w39a" = _5XlRInPT;
+        "minecraft-24w40a" = _5XlRInPT;
+        "minecraft-1.21.2-pre1" = _5XlRInPT;
+        "minecraft-1.21.2-pre2" = _5XlRInPT;
+        "minecraft-24w44a" = _5XlRInPT;
+        "minecraft-24w45a" = _5XlRInPT;
+        "minecraft-24w46a" = _5XlRInPT;
         "pkg-1.0" = _Z7TlchPI;
         "pkg-1.1" = _439zL0Co;
         "pkg-1.1.1" = _m3mFEqxb;
-        "default" = _m3mFEqxb;
+        "pkg-1.2" = _vtxE7sP9;
+        "pkg-1.2.1" = _5XlRInPT;
+        "default" = _5XlRInPT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crayoncraft";

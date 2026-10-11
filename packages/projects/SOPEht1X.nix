@@ -16,10 +16,16 @@ let
             "file" = "Gigachad Totem 26.2+.zip";
             "hash" = "sha512-4XHsE3hPdPDjsmQtRVAHuhwk0o9j/4oHhSLLEpkRnC948EMVX6VtZw5hJ48lJJBmxxW1ycZaKavLguujG8M3uQ==";
         };
+        _DVJTx8Ra = {
+            "id" = "DVJTx8Ra";
+            "file" = "Gigachad Totem 26.3+.zip";
+            "hash" = "sha512-G6fuFoFoKwsZnNHDY1W13hs6sLE7n+R8FQSR0rGEcSgeleek5Kwp0SuxRYycF9rerZOcCR8A3E1y5H2Wqshqlg==";
+        };
     in {
         "gZAeS3L4" = _gZAeS3L4;
         "PSaeHjdJ" = _PSaeHjdJ;
         "PIdEOZCV" = _PIdEOZCV;
+        "DVJTx8Ra" = _DVJTx8Ra;
         "minecraft-1.21" = _gZAeS3L4;
         "minecraft-1.21.1" = _gZAeS3L4;
         "minecraft-1.21.2" = _gZAeS3L4;
@@ -36,10 +42,12 @@ let
         "minecraft-26.1.1" = _PSaeHjdJ;
         "minecraft-26.1.2" = _PSaeHjdJ;
         "minecraft-26.2" = _PIdEOZCV;
+        "minecraft-26.3" = _DVJTx8Ra;
         "pkg-1.0" = _gZAeS3L4;
         "pkg-1.1" = _PSaeHjdJ;
         "pkg-1.2" = _PIdEOZCV;
-        "default" = _PIdEOZCV;
+        "pkg-1.3" = _DVJTx8Ra;
+        "default" = _DVJTx8Ra;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gigachad-totem";

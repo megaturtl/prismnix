@@ -301,6 +301,171 @@ let
             "file" = "tooltipoverhaul-neoforge-1.21.1-1.5.1.jar";
             "hash" = "sha512-tJBsToaw9t7XmuRIqvd6v8sV+da8pmeyBjGvQhs5JYlKaCQ3OXIrgtigSpoBnul7OeEFyuxvV64UUXaeIiPpPw==";
         };
+        _uZjN6Qh1 = {
+            "id" = "uZjN6Qh1";
+            "file" = "tooltipoverhaul-fabric-1.20.1-2.0.0.jar";
+            "hash" = "sha512-LpYiGgKXURUqGVazmSmoDUfum0uCKb4u3SOO+/gA2Va4X0fvMCdyhMnveMRKYnpY4T+BpEE1bkUhgdjNlyn7Fw==";
+        };
+        _3grFGagY = {
+            "id" = "3grFGagY";
+            "file" = "tooltipoverhaul-forge-1.20.1-2.0.0.jar";
+            "hash" = "sha512-nWpC0f4Eg3ZMxC5pmPxzXa1au34cxosBrH1XwCYBSirjRGu45tG9OvRJJqZzYT55aXLBugJEiXnS+B4Wbj2BUQ==";
+        };
+        _Gqt2UQod = {
+            "id" = "Gqt2UQod";
+            "file" = "tooltipoverhaul-fabric-1.21.1-2.0.0.jar";
+            "hash" = "sha512-nHN9URFPN7D7/9JGAXvi68Qxwpf1eLlqinkU8x7l/hTAtMUgOwUOOjCcVzruIZBEK5zEn6WZjPfSY4oy7jeXmA==";
+        };
+        _2nPbb053 = {
+            "id" = "2nPbb053";
+            "file" = "tooltipoverhaul-forge-1.21.1-2.0.0.jar";
+            "hash" = "sha512-6MgK4Aqo1tczcBpCE6TnwUawl2FGaBUaC59bY36ud4DB0hBlHFdY+CQCO1f/SOibjDQLaCrJ6PWb4xr7ERmKZA==";
+        };
+        _adYR9cP5 = {
+            "id" = "adYR9cP5";
+            "file" = "tooltipoverhaul-neoforge-1.21.1-2.0.0.jar";
+            "hash" = "sha512-M4Y8GyfNpRx9rzpEFMEC+q7fa7D9+0gl01+SH2OPwBA96ERBA09QtyckEna3d9/UTpHUUZMZwhh8Q96AooizpA==";
+        };
+        _xOAVAHGf = {
+            "id" = "xOAVAHGf";
+            "file" = "tooltipoverhaul-fabric-1.21.1-2.0.1.jar";
+            "hash" = "sha512-XFHZ0fd0WZj/uLnIPSXnTcv78Wioi9T99agkMw948Cm+aJRlJ3L1mZSPiiLq/EZtNA0npOOht55bfCUi4valIg==";
+        };
+        _UCsVSKQ1 = {
+            "id" = "UCsVSKQ1";
+            "file" = "tooltipoverhaul-forge-1.21.1-2.0.1.jar";
+            "hash" = "sha512-Ec78LVfLp9LLoK+DX+Ra9fEGktPfZgxi2OucHssHARSs98N5hoIRetUMVEg99POo/WVUNdY+aTGlCCVDR4zv+g==";
+        };
+        _UMoaZ399 = {
+            "id" = "UMoaZ399";
+            "file" = "tooltipoverhaul-neoforge-1.21.1-2.0.1.jar";
+            "hash" = "sha512-3d4a3d3Yi3DqBDPG2wTNSk+bnFd0h5pEKa8D3e2D9dAD1VSMRwM8FMYkki427Nqk5areaxrc2UHvrGio+e3Hig==";
+        };
+        _8CF2oDbA = {
+            "id" = "8CF2oDbA";
+            "file" = "tooltipoverhaul-fabric-1.20.1-2.0.1.jar";
+            "hash" = "sha512-BmJKDoXq+0oReGMIcUDQFuvNUi5O2u7zSmUir074KwMHhQFM4AwvxeB6U3uapqYuPL+34Y9Guaz3SHc3iMW7bg==";
+        };
+        _PQpIeKzi = {
+            "id" = "PQpIeKzi";
+            "file" = "tooltipoverhaul-forge-1.20.1-2.0.1.jar";
+            "hash" = "sha512-mzFMlL6FXb9KM8rS1zUCaYuhWM7VipXJ9A5JWU9T7jS/L/muioyb3/xcxSg+0tqCTvVOSOgXUcFpE8BFXyy5AA==";
+        };
+        _RKr5YHRz = {
+            "id" = "RKr5YHRz";
+            "file" = "tooltipoverhaul-fabric-1.21.1-2.0.2.jar";
+            "hash" = "sha512-Bq+gBXzKY9EQM/2maMmc3xVY9yhCyKME+DlM8aeEc/UXd0SQSgBfoiL9DIE3DX7AhDQFeomBn+Nus3BYbNiZSQ==";
+        };
+        _N8Z9axUx = {
+            "id" = "N8Z9axUx";
+            "file" = "tooltipoverhaul-fabric-1.20.1-2.0.2.jar";
+            "hash" = "sha512-mZI6t/hzX0SF7JmpAhQBqkup87GyhrQvG/8fKx0tZtZsarhWLrF+pgUVYBDhkH8pf0oxatpDcYS0BxzlUjrZAw==";
+        };
+        _vrZoxrUg = {
+            "id" = "vrZoxrUg";
+            "file" = "tooltipoverhaul-forge-1.21.1-2.0.2.jar";
+            "hash" = "sha512-rZVgKlJxwbAsNp3Gy0/XGLN7AYes8mb2LyN68IzfLt4nupRwjPMM6V/7Fi1KevAocZeDyGCv0ESeg0WiWg6JyA==";
+        };
+        _ikNzZpL4 = {
+            "id" = "ikNzZpL4";
+            "file" = "tooltipoverhaul-forge-1.20.1-2.0.2.jar";
+            "hash" = "sha512-lOwS/NOU/aK2xBwTAiqcdXvONGfOFnSPRGno37TtN2p6uo2V1HnbyeHfRIPZdhV3FPcziWAxUL0Ym17qyRv8Zw==";
+        };
+        _tAqmS5wA = {
+            "id" = "tAqmS5wA";
+            "file" = "tooltipoverhaul-neoforge-1.21.1-2.0.2.jar";
+            "hash" = "sha512-VwTrh0yDyM/t6YwwO3jHBzRF3Pw943qeKc54E7+2IFhcNLCdSCcmeAe3Y2eCQSwudMuFusn/226SsJZ2+iIfwQ==";
+        };
+        _lDzB9svN = {
+            "id" = "lDzB9svN";
+            "file" = "tooltipoverhaul-fabric-1.21.1-2.0.3.jar";
+            "hash" = "sha512-SLBPgtiu4l9G5E04deE45BerQ5Zv21e1maJSzV7ebPYaWgfqqAAT/Nefl86SrdQuSdhLkVreX3yKBTU8ROMoPQ==";
+        };
+        _Lh95fHDY = {
+            "id" = "Lh95fHDY";
+            "file" = "tooltipoverhaul-forge-1.21.1-2.0.3.jar";
+            "hash" = "sha512-+HiyR2rkS/uqR88MMPY6DlTVc9xv8pNjdatrLEzksKLznTu+oZv4YG4m57vohEAIWhrl8TvCDjTRzCgx24ySfQ==";
+        };
+        _uVb3c9VG = {
+            "id" = "uVb3c9VG";
+            "file" = "tooltipoverhaul-neoforge-1.21.1-2.0.3.jar";
+            "hash" = "sha512-BN1L+buTaS0O/cyA+kPN5KsV7g0Gi81Ic77m4/rxJU2Giap+fvvptK0nM3GtNKoVtcfSpAEMDDNQgE37JbhGTw==";
+        };
+        _EGMQZKAi = {
+            "id" = "EGMQZKAi";
+            "file" = "tooltipoverhaul-fabric-1.20.1-2.0.3.jar";
+            "hash" = "sha512-ngGzEkoWE8UIGYAFmMNzGMUvx3e4hBIFxSAWKEBJQduyL9xH/37chQGnAgD6xlkXtYrVbu6/J1lipzC1kBAVlA==";
+        };
+        _E4xKEWut = {
+            "id" = "E4xKEWut";
+            "file" = "tooltipoverhaul-forge-1.20.1-2.0.3.jar";
+            "hash" = "sha512-TxN5SGReIhALfN9e5EW0oCXr3vcBnxF143SacMdbjJqCGEwEg9dz7fgU9Iz4oRtlFPZwXljvcNUiHBJgLs2nYw==";
+        };
+        _ACdONYFQ = {
+            "id" = "ACdONYFQ";
+            "file" = "tooltipoverhaul-fabric-1.21.1-2.0.4.jar";
+            "hash" = "sha512-96gYIgPvHx26KLIRQx2oVTsLPUvq8/1B/ZNJb7boLOp/zDq1NqnnLA4mZkpHxwccM0efOqZgRr/P/R1TNJEKjw==";
+        };
+        _muRtfgVW = {
+            "id" = "muRtfgVW";
+            "file" = "tooltipoverhaul-forge-1.21.1-2.0.4.jar";
+            "hash" = "sha512-lbORXLvzcVrJWmWzrmhdgIruhSZx92Ix4Avpy86AFlmCNBlQ8q1o6DShL71tR75092t1/zrmU+TKw3c8JxCVEg==";
+        };
+        _BcdeQ4bI = {
+            "id" = "BcdeQ4bI";
+            "file" = "tooltipoverhaul-neoforge-1.21.1-2.0.4.jar";
+            "hash" = "sha512-WgUTD4oAnDDA05dypOF14L0Ivrzt1B0iRebfMkXf7l6iHt0hEKmWHT/gDbiJNZVzobAGQVNjzIat3HL+PDB0tg==";
+        };
+        _A0pQCHJV = {
+            "id" = "A0pQCHJV";
+            "file" = "tooltipoverhaul-fabric-1.20.1-2.0.4.jar";
+            "hash" = "sha512-7wUe4FHItNVRlurlJkXD/nouYr2rD07V/Cu+5LjenAQYBI/ZLV3wkaDSaMUCWGoV5gMlZSVRIHZGkDx1eLYfAg==";
+        };
+        _8vFGcTP9 = {
+            "id" = "8vFGcTP9";
+            "file" = "tooltipoverhaul-fabric-1.21.1-2.0.5.jar";
+            "hash" = "sha512-KI1VIoP0BiQzZ740Dg0ElcjesrTfWQQcpKlUfC1wKJg2MYYXvTKzDiICV7qc+xsLTXnEXes+oVCRmoIUAD+p0Q==";
+        };
+        _Xzjk3XiB = {
+            "id" = "Xzjk3XiB";
+            "file" = "tooltipoverhaul-forge-1.20.1-2.0.4.jar";
+            "hash" = "sha512-45lWiV/QONNO1eth+nNWq9nPkyJgvXCMv8FcKWdfBJnPfCfwXLB43B5t8Mh/vthSm+Xe0+p83Rf/788pCHgyTQ==";
+        };
+        _Ee1XcsEm = {
+            "id" = "Ee1XcsEm";
+            "file" = "tooltipoverhaul-forge-1.21.1-2.0.5.jar";
+            "hash" = "sha512-BoLPfBsW+2ysh0BS0zdGYjg1wB0IlTJ7GwL0X51ALYhPSL3vebUCdiMvxv+o0aqiIbNENtX4WLVxwTCpJW5EXA==";
+        };
+        _Job8fZim = {
+            "id" = "Job8fZim";
+            "file" = "tooltipoverhaul-neoforge-1.21.1-2.0.5.jar";
+            "hash" = "sha512-JPOeUsEF4TNWyNCCuIEDewMJ9J8qfb+u9npt2FlHH47u9IffSVB8ZckYa0g9oUc4ELJSo+sojg7pEZklK0TkBw==";
+        };
+        _m0AJxY9X = {
+            "id" = "m0AJxY9X";
+            "file" = "tooltipoverhaul-fabric-1.21.1-2.0.6.jar";
+            "hash" = "sha512-cyOaPtOJzf2U/HnPLzals7rp+xENDOkUwSYckQFhk6DA7FkGHf3GnFsUMHDSi936nuoQoLiycW4RnD1ArG2zuw==";
+        };
+        _hXlTqSSy = {
+            "id" = "hXlTqSSy";
+            "file" = "tooltipoverhaul-forge-1.21.1-2.0.6.jar";
+            "hash" = "sha512-Z9klF8M2XO9onKFO1FCU7EJzKh4AVIGvda3j5Q7k2ibiyCHwspNljOfWNv393xgXvBPSiDJGjQAdTh/Zccd2Eg==";
+        };
+        _QCwrs9Ai = {
+            "id" = "QCwrs9Ai";
+            "file" = "tooltipoverhaul-fabric-1.20.1-2.0.5.jar";
+            "hash" = "sha512-E6rqcwVnJmKDKR9UxdO0+aeMez5CEP6xdvYmJyqtACGCMIEBDXcKnmepc11X23ttqLmXnthGEdPm90nfuGihUw==";
+        };
+        _aclR21OH = {
+            "id" = "aclR21OH";
+            "file" = "tooltipoverhaul-neoforge-1.21.1-2.0.6.jar";
+            "hash" = "sha512-iNeH6NYnLUyBgJgE2OyrjOneqe/HRIFt13dIT5sMEHEKNmIoA9QBINDtT6bskoNy6Zste43a/YFSDQihsVR0uA==";
+        };
+        _3HPzDdkg = {
+            "id" = "3HPzDdkg";
+            "file" = "tooltipoverhaul-forge-1.20.1-2.0.5.jar";
+            "hash" = "sha512-nhiS4Al68AWsI0DJNXfGNcnFDsrOt6I2uuOP1q3HxCL0Fq5G/XmWHYYolPA+9VZ/HCmDpCzVgwBsemH4YbTNjA==";
+        };
     in {
         "Qyue7qRN" = _Qyue7qRN;
         "XLqxRPzw" = _XLqxRPzw;
@@ -362,18 +527,51 @@ let
         "1jb4oWUE" = _1jb4oWUE;
         "IVxbxub2" = _IVxbxub2;
         "dJSHREVC" = _dJSHREVC;
-        "fabric-1.20" = _R5603pmh;
-        "fabric-1.20.1" = _R5603pmh;
-        "fabric-1.21" = _1jb4oWUE;
-        "fabric-1.21.1" = _1jb4oWUE;
+        "uZjN6Qh1" = _uZjN6Qh1;
+        "3grFGagY" = _3grFGagY;
+        "Gqt2UQod" = _Gqt2UQod;
+        "2nPbb053" = _2nPbb053;
+        "adYR9cP5" = _adYR9cP5;
+        "xOAVAHGf" = _xOAVAHGf;
+        "UCsVSKQ1" = _UCsVSKQ1;
+        "UMoaZ399" = _UMoaZ399;
+        "8CF2oDbA" = _8CF2oDbA;
+        "PQpIeKzi" = _PQpIeKzi;
+        "RKr5YHRz" = _RKr5YHRz;
+        "N8Z9axUx" = _N8Z9axUx;
+        "vrZoxrUg" = _vrZoxrUg;
+        "ikNzZpL4" = _ikNzZpL4;
+        "tAqmS5wA" = _tAqmS5wA;
+        "lDzB9svN" = _lDzB9svN;
+        "Lh95fHDY" = _Lh95fHDY;
+        "uVb3c9VG" = _uVb3c9VG;
+        "EGMQZKAi" = _EGMQZKAi;
+        "E4xKEWut" = _E4xKEWut;
+        "ACdONYFQ" = _ACdONYFQ;
+        "muRtfgVW" = _muRtfgVW;
+        "BcdeQ4bI" = _BcdeQ4bI;
+        "A0pQCHJV" = _A0pQCHJV;
+        "8vFGcTP9" = _8vFGcTP9;
+        "Xzjk3XiB" = _Xzjk3XiB;
+        "Ee1XcsEm" = _Ee1XcsEm;
+        "Job8fZim" = _Job8fZim;
+        "m0AJxY9X" = _m0AJxY9X;
+        "hXlTqSSy" = _hXlTqSSy;
+        "QCwrs9Ai" = _QCwrs9Ai;
+        "aclR21OH" = _aclR21OH;
+        "3HPzDdkg" = _3HPzDdkg;
+        "fabric-1.20" = _QCwrs9Ai;
+        "fabric-1.20.1" = _QCwrs9Ai;
+        "fabric-1.21" = _m0AJxY9X;
+        "fabric-1.21.1" = _m0AJxY9X;
         "fabric-1.21.5" = _LmjmlZtu;
-        "forge-1.20" = _UwuFPwmx;
-        "forge-1.20.1" = _UwuFPwmx;
-        "forge-1.21" = _IVxbxub2;
-        "forge-1.21.1" = _IVxbxub2;
+        "forge-1.20" = _3HPzDdkg;
+        "forge-1.20.1" = _3HPzDdkg;
+        "forge-1.21" = _hXlTqSSy;
+        "forge-1.21.1" = _hXlTqSSy;
         "forge-1.21.5" = _nUlwR5LX;
-        "neoforge-1.21" = _dJSHREVC;
-        "neoforge-1.21.1" = _dJSHREVC;
+        "neoforge-1.21" = _aclR21OH;
+        "neoforge-1.21.1" = _aclR21OH;
         "neoforge-1.21.5" = _HanU7vMk;
         "pkg-1.0.0" = _kS9HuCgY;
         "pkg-1.1.0" = _ycL4Q7T2;
@@ -389,7 +587,14 @@ let
         "pkg-1.4.5" = _mYeMiTKR;
         "pkg-1.5.0" = _Xh3ghDtY;
         "pkg-1.5.1" = _dJSHREVC;
-        "default" = _dJSHREVC;
+        "pkg-2.0.0" = _adYR9cP5;
+        "pkg-2.0.1" = _PQpIeKzi;
+        "pkg-2.0.2" = _tAqmS5wA;
+        "pkg-2.0.3" = _E4xKEWut;
+        "pkg-2.0.4" = _Xzjk3XiB;
+        "pkg-2.0.5" = _3HPzDdkg;
+        "pkg-2.0.6" = _aclR21OH;
+        "default" = _3HPzDdkg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tooltip-overhaul";

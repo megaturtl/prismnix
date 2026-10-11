@@ -181,6 +181,16 @@ let
             "file" = "pumpeddesert2-0.0.1.jar";
             "hash" = "sha512-2qFqtejbd1zPK3FSyhC5yCTsLJzm9hg3Yu+LwSr/lWfsQ61miqScmUectuMYBpdNKh0f9h/ur2pWrciXXyOhig==";
         };
+        _VKzxkx7s = {
+            "id" = "VKzxkx7s";
+            "file" = "pumpeddesert2-universal-26.2-2.1.0.jar";
+            "hash" = "sha512-NH5ApYDup/Exi/leqpyhKeQEm1kTOdAElIWVdbX/6wlF156nibagWL6JfApjgOjY6cvRWbWhMiGiAMETBfLi9A==";
+        };
+        _LadMjfcr = {
+            "id" = "LadMjfcr";
+            "file" = "pumpeddesert2-universal-2.1.0.jar";
+            "hash" = "sha512-HYqdUeoPjf54EUSUmVx5nWJnGjim0IYxGQE/YN2+R5yMQq9n6lGOuUTf5kjrFllUX/Bkn9576XVX4QwWrwGpiw==";
+        };
     in {
         "iXgyAGiL" = _iXgyAGiL;
         "lzsSvdTW" = _lzsSvdTW;
@@ -218,6 +228,8 @@ let
         "zVC2fVR2" = _zVC2fVR2;
         "hbx0ZhTU" = _hbx0ZhTU;
         "uIUkp1Lu" = _uIUkp1Lu;
+        "VKzxkx7s" = _VKzxkx7s;
+        "LadMjfcr" = _LadMjfcr;
         "forge-1.19.4" = _OMqg5k2Q;
         "forge-1.18.2" = _dl7pv2ph;
         "forge-1.19.2" = _rMdjzWMk;
@@ -225,10 +237,15 @@ let
         "forge-1.21.1" = _uIUkp1Lu;
         "fabric-1.20" = _M9Lj6xah;
         "fabric-1.20.1" = _M9Lj6xah;
+        "fabric-26.2" = _VKzxkx7s;
+        "fabric-1.21.1" = _LadMjfcr;
         "neoforge-1.20.1" = _FCUnKbcY;
         "neoforge-1.20.4" = _embCKzfB;
         "neoforge-1.20.6" = _r4QH0GMJ;
-        "neoforge-1.21.1" = _hbx0ZhTU;
+        "neoforge-1.21.1" = _LadMjfcr;
+        "neoforge-26.2" = _VKzxkx7s;
+        "quilt-26.2" = _VKzxkx7s;
+        "quilt-1.21.1" = _LadMjfcr;
         "pkg-1.0.0" = _SwFCMmvj;
         "pkg-1.0.2" = _OMqg5k2Q;
         "pkg-1.0.1" = _M9Lj6xah;
@@ -248,11 +265,12 @@ let
         "pkg-1.9" = _iKstUnXH;
         "pkg-1.9.1" = _r4QH0GMJ;
         "pkg-2.0.0" = _1CMF6uj2;
-        "pkg-2.1.0" = _5mM5rI1B;
+        "pkg-2.1.0" = _LadMjfcr;
         "pkg-2.1.1" = _zVC2fVR2;
         "pkg-2.1.2" = _hbx0ZhTU;
         "pkg-0.0.1" = _uIUkp1Lu;
-        "default" = _uIUkp1Lu;
+        "pkg-26.2-2.1.0" = _VKzxkx7s;
+        "default" = _LadMjfcr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pumped-desert-2";

@@ -76,6 +76,11 @@ let
             "file" = "tcompat-1.20.1-2.0.3.jar";
             "hash" = "sha512-PTu9rEjguuZAw2zFXFcqFSnzC4856cZ9WsgPBQfHFXmk/qQqCPqHgmwjkpPLBs73FnHe2C7zlq4JSDnLmz0ixA==";
         };
+        _rPvJmwfO = {
+            "id" = "rPvJmwfO";
+            "file" = "tcompat-1.20.1-2.1.0.jar";
+            "hash" = "sha512-fCwOoANowXR3SAmBD20Lgw1gNn+WIOKfKHKMrSbAxxaE4WXB6dO6SyLoBnsWQbTHBclcSksDI36DIzQHk3sY0A==";
+        };
     in {
         "iM08rGpL" = _iM08rGpL;
         "8AR7s8MQ" = _8AR7s8MQ;
@@ -92,7 +97,8 @@ let
         "2Uxgto1v" = _2Uxgto1v;
         "jlE9IfDh" = _jlE9IfDh;
         "uJBONisg" = _uJBONisg;
-        "forge-1.20.1" = _uJBONisg;
+        "rPvJmwfO" = _rPvJmwfO;
+        "forge-1.20.1" = _rPvJmwfO;
         "pkg-1.0.0" = _iM08rGpL;
         "pkg-1.1.0" = _8AR7s8MQ;
         "pkg-1.2.0" = _ZOPNhM2w;
@@ -108,7 +114,8 @@ let
         "pkg-2.0.1" = _2Uxgto1v;
         "pkg-2.0.2" = _jlE9IfDh;
         "pkg-2.0.3" = _uJBONisg;
-        "default" = _uJBONisg;
+        "pkg-2.1.0" = _rPvJmwfO;
+        "default" = _rPvJmwfO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tinkers-compatibility";

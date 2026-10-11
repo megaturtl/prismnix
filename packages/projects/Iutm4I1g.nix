@@ -91,6 +91,16 @@ let
             "file" = "duckmod-4.0.0.jar";
             "hash" = "sha512-RioKTF8Bg9MFse0uIr/mvafxfmLPodcpdhunVrTsw5cYzG0jTkKZWOIk08z0avaI7grzz2C+CRwFdjHLf/xvUg==";
         };
+        _q3Y8EN4n = {
+            "id" = "q3Y8EN4n";
+            "file" = "duckmod-5.0.0.jar";
+            "hash" = "sha512-5tGO376LRDgJK5coO9mpQeTcLpSr8hkdr0BaG/XD2bbMPhw+DIHbeKzbymXVbUVZeoI/VLRXcboM4kMRcRB51A==";
+        };
+        _U8Ot7JeC = {
+            "id" = "U8Ot7JeC";
+            "file" = "duckmod-5.0.0.jar";
+            "hash" = "sha512-K9AtIziaw31qCFG3bwp6chUPZkxkwYyPZGDcUYC6cEwvjQVF2tbQsdB77aZff0FeP+bFNqh0dI5ErJOgSbgHMw==";
+        };
     in {
         "ikjdSU2P" = _ikjdSU2P;
         "kgKxUcXp" = _kgKxUcXp;
@@ -110,14 +120,18 @@ let
         "DnyUytRM" = _DnyUytRM;
         "zXcRd9SW" = _zXcRd9SW;
         "ZubMJYYY" = _ZubMJYYY;
+        "q3Y8EN4n" = _q3Y8EN4n;
+        "U8Ot7JeC" = _U8Ot7JeC;
         "fabric-1.21.10" = _1McwAqm6;
         "fabric-1.21.11" = _DnyUytRM;
         "fabric-26.1" = _nHYuTe0m;
         "fabric-26.2" = _zXcRd9SW;
+        "fabric-26.3" = _q3Y8EN4n;
         "neoforge-1.21.10" = _FVUSgqNZ;
         "neoforge-1.21.11" = _xEzHYOc1;
         "neoforge-26.1" = _3F04vy6b;
         "neoforge-26.2" = _ZubMJYYY;
+        "neoforge-26.3" = _U8Ot7JeC;
         "pkg-1.0.0" = _1qHZW4Ft;
         "pkg-2.0.0" = _joZInVzQ;
         "pkg-1.0.1" = _xW7JD0JI;
@@ -128,7 +142,8 @@ let
         "pkg-3.0.1" = _nHYuTe0m;
         "pkg-2.1.2" = _DnyUytRM;
         "pkg-4.0.0" = _ZubMJYYY;
-        "default" = _ZubMJYYY;
+        "pkg-5.0.0" = _U8Ot7JeC;
+        "default" = _U8Ot7JeC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mcduckmod";

@@ -16,16 +16,23 @@ let
             "file" = "fuck_subanomalyone-1.0.0-forge-1.20.1.jar";
             "hash" = "sha512-Qstu/U3svqBlY4DklqmX4cb8fQkTHGptM7DVvWtCHxNqwgiX7ViZ3NEhhuz7T+zZjoDIKECKInPRvJyWcQI8JQ==";
         };
+        _G1CQkU4e = {
+            "id" = "G1CQkU4e";
+            "file" = "screwyourmobs-4.0.jar";
+            "hash" = "sha512-tZkU16v3EQxJRkMMLyfvtPjzbDdTlaVp1XWEOL4XcFsKpHfUAjvc7nZV5t3JZtgnlFq10c6JwXMnFVS2NDim2Q==";
+        };
     in {
         "lJNjZ1oy" = _lJNjZ1oy;
         "5fUKESvi" = _5fUKESvi;
         "XLx7Oik2" = _XLx7Oik2;
-        "neoforge-1.21.1" = _5fUKESvi;
+        "G1CQkU4e" = _G1CQkU4e;
+        "neoforge-1.21.1" = _G1CQkU4e;
         "forge-1.20.1" = _XLx7Oik2;
         "pkg-2.0" = _lJNjZ1oy;
         "pkg-3.0" = _5fUKESvi;
         "pkg-1.0.0" = _XLx7Oik2;
-        "default" = _XLx7Oik2;
+        "pkg-4.0" = _G1CQkU4e;
+        "default" = _G1CQkU4e;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "screwsubanomalyone";

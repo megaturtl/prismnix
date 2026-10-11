@@ -2406,6 +2406,21 @@ let
             "file" = "waystones-neoforge-26.3-26.3.0.1.jar";
             "hash" = "sha512-mrTuiqBPJZovlh7E/PQhhN+jVL1Eovgj1CzPMzHgYqt/KDekrIn9WfDQwp5DIzOlZkG2tkFWXt2uX2yi666zUQ==";
         };
+        _orK4gBCD = {
+            "id" = "orK4gBCD";
+            "file" = "waystones-forge-1.21.1-21.1.46.jar";
+            "hash" = "sha512-Y6cb6dN29LEtoyAAsWM9zpws951SPlxGOq07d6/BVxQTwHlyRNHsH0xJk9K+04MgnX51MDHRcDxm+P8O4izyhw==";
+        };
+        _nSAwjAk4 = {
+            "id" = "nSAwjAk4";
+            "file" = "waystones-fabric-1.21.1-21.1.46.jar";
+            "hash" = "sha512-swGhr7fhP+ikooMwsL2MDaPrgp2F5Q/AT8hoaDiOzzIi0kzkmjYbusIVPOOr95LXwNyR/JQCL1tPXyFKDvDhgw==";
+        };
+        _6Z6MQ6os = {
+            "id" = "6Z6MQ6os";
+            "file" = "waystones-neoforge-1.21.1-21.1.46.jar";
+            "hash" = "sha512-ypC1jYhNS8KwiocEhK5+3jl+cdMeqvAf8mA61JjVhHY+CZwglOVwMVIjhTOXBdLAEe1JEL82765ojmSTW0ns6Q==";
+        };
     in {
         "k3DOCgDP" = _k3DOCgDP;
         "rXaeIKfW" = _rXaeIKfW;
@@ -2888,6 +2903,9 @@ let
         "Is55014l" = _Is55014l;
         "UKjvFJAV" = _UKjvFJAV;
         "LJsZudo0" = _LJsZudo0;
+        "orK4gBCD" = _orK4gBCD;
+        "nSAwjAk4" = _nSAwjAk4;
+        "6Z6MQ6os" = _6Z6MQ6os;
         "fabric-1.19" = _pBOTacL4;
         "fabric-1.19.1" = _pBOTacL4;
         "fabric-1.19.2" = _pBOTacL4;
@@ -2902,7 +2920,7 @@ let
         "fabric-1.20.4" = _PLcsWEIi;
         "fabric-1.20.6" = _RJZj1nlX;
         "fabric-1.21" = _5QbmQMeD;
-        "fabric-1.21.1" = _kcpLmG41;
+        "fabric-1.21.1" = _nSAwjAk4;
         "fabric-1.21.2" = _Q54cy1iA;
         "fabric-1.21.3" = _Q54cy1iA;
         "fabric-1.21.4" = _rgbIrxOX;
@@ -2930,7 +2948,7 @@ let
         "forge-1.20.4" = _njKGu08k;
         "forge-1.20.6" = _hkW0ENli;
         "forge-1.21" = _KLMZ7UQT;
-        "forge-1.21.1" = _TUYahGNK;
+        "forge-1.21.1" = _orK4gBCD;
         "forge-1.21.4" = _EiCVNDa5;
         "forge-1.16.5" = _vUV2WTLr;
         "forge-1.21.5" = _EsPM9Ldb;
@@ -2943,7 +2961,7 @@ let
         "neoforge-1.20.4" = _rOTAiTFe;
         "neoforge-1.20.6" = _3s7K7RYp;
         "neoforge-1.21" = _zKuhJ4Vo;
-        "neoforge-1.21.1" = _Is55014l;
+        "neoforge-1.21.1" = _6Z6MQ6os;
         "neoforge-1.21.2" = _ro1oNjVL;
         "neoforge-1.21.3" = _ro1oNjVL;
         "neoforge-1.21.4" = _fuEeXjq1;
@@ -3435,7 +3453,10 @@ let
         "pkg-21.1.45+neoforge-1.21.1" = _Is55014l;
         "pkg-26.3.0.1+fabric-26.3" = _UKjvFJAV;
         "pkg-26.3.0.1+neoforge-26.3" = _LJsZudo0;
-        "default" = _LJsZudo0;
+        "pkg-21.1.46+forge-1.21.1" = _orK4gBCD;
+        "pkg-21.1.46+fabric-1.21.1" = _nSAwjAk4;
+        "pkg-21.1.46+neoforge-1.21.1" = _6Z6MQ6os;
+        "default" = _6Z6MQ6os;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "waystones";

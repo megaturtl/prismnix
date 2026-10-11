@@ -61,6 +61,11 @@ let
             "file" = "Pixel Perfection x FARMER'S DELIGHT v1.7-15.84  1.20-26.1.zip";
             "hash" = "sha512-ogxpUE2wiyRyfUkU6qLdnAQykU5NrQlvzhdRadq3GtTi/HMK+wUkjuaWTznOvecjmU1Zf6VuybjxRRyG/8MW6A==";
         };
+        _ER425Ux2 = {
+            "id" = "ER425Ux2";
+            "file" = "Pixel Perfection x FARMER'S DELIGHT v2.0-84.97  26.1-26.3.zip";
+            "hash" = "sha512-Uf83WLyJj+dXtzdsBmBae0PT5+Mkxh1sB+EmdH8x7j6fyKIHs2FoyYCD0TghNMnGsXY/zWADBcoU+ZfPSeSRjQ==";
+        };
     in {
         "5btE9UUN" = _5btE9UUN;
         "qMtW6Nup" = _qMtW6Nup;
@@ -74,6 +79,7 @@ let
         "LJOIa9Px" = _LJOIa9Px;
         "2I8OfDEc" = _2I8OfDEc;
         "z8mhLInK" = _z8mhLInK;
+        "ER425Ux2" = _ER425Ux2;
         "minecraft-1.21" = _z8mhLInK;
         "minecraft-1.21.1" = _z8mhLInK;
         "minecraft-1.21.2" = _z8mhLInK;
@@ -144,9 +150,11 @@ let
         "minecraft-24w44a" = _z8mhLInK;
         "minecraft-24w45a" = _z8mhLInK;
         "minecraft-24w46a" = _z8mhLInK;
-        "minecraft-26.1" = _z8mhLInK;
-        "minecraft-26.1.1" = _z8mhLInK;
-        "minecraft-26.1.2" = _z8mhLInK;
+        "minecraft-26.1" = _ER425Ux2;
+        "minecraft-26.1.1" = _ER425Ux2;
+        "minecraft-26.1.2" = _ER425Ux2;
+        "minecraft-26.2" = _ER425Ux2;
+        "minecraft-26.3" = _ER425Ux2;
         "pkg-1.0" = _5btE9UUN;
         "pkg-1.1" = _qMtW6Nup;
         "pkg-1.2" = _fHM30a6V;
@@ -159,7 +167,8 @@ let
         "pkg-1.5.2-8.69" = _LJOIa9Px;
         "pkg-1.6-15.75" = _2I8OfDEc;
         "pkg-1.7-15.84" = _z8mhLInK;
-        "default" = _z8mhLInK;
+        "pkg-2.0-84.97" = _ER425Ux2;
+        "default" = _ER425Ux2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pixelperfectionxfarmersdelight";

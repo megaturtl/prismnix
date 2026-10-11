@@ -211,6 +211,16 @@ let
             "file" = "signed_paintings-1.2.15-mc26.2.jar";
             "hash" = "sha512-WW3rkSGO+Bfx/uDBuIdKu9wbNKtNVSlYnYAUxF/0ERDMoOq189IrO57hf13FKX/zvpB/4JeP4f+kh/ct3Ngg/g==";
         };
+        _eUrmrtnj = {
+            "id" = "eUrmrtnj";
+            "file" = "signed_paintings-1.2.16-mc26.3.jar";
+            "hash" = "sha512-9BAtBUNAPGbsW3VRcc8ykz1YvRgfYT3SWzRpEOVzzvdJUakuxGzIkjWqvlG5VoiB8YVAK6Xj+1CHJd89D90Gww==";
+        };
+        _SvJZnYUG = {
+            "id" = "SvJZnYUG";
+            "file" = "signed_paintings-1.2.17-mc26.3.jar";
+            "hash" = "sha512-Og/LjXN7DLriUdW4f38xSVknT8R0fBRz8OeOvgnOkqGpuyV46U7UUd7UC/isx1ZkoRg0jxWmI1p3twx0QB5VGQ==";
+        };
     in {
         "dMxf9wJv" = _dMxf9wJv;
         "Pd8EX9MO" = _Pd8EX9MO;
@@ -254,6 +264,8 @@ let
         "GGsPQ3bC" = _GGsPQ3bC;
         "NmIfgfJh" = _NmIfgfJh;
         "xt4G7JH4" = _xt4G7JH4;
+        "eUrmrtnj" = _eUrmrtnj;
+        "SvJZnYUG" = _SvJZnYUG;
         "fabric-1.20" = _XSmkkPw3;
         "fabric-1.20.1" = _XSmkkPw3;
         "fabric-1.20.2" = _JJRuTV2O;
@@ -277,6 +289,7 @@ let
         "fabric-26.1.1" = _GGsPQ3bC;
         "fabric-26.1.2" = _GGsPQ3bC;
         "fabric-26.2" = _xt4G7JH4;
+        "fabric-26.3" = _SvJZnYUG;
         "pkg-1.0.0" = _dMxf9wJv;
         "pkg-1.0.1-mc1.20+" = _Pd8EX9MO;
         "pkg-1.0.2" = _HYsQ2ku0;
@@ -314,7 +327,9 @@ let
         "pkg-1.2.13-mc26.1.1" = _GGsPQ3bC;
         "pkg-1.2.14-mc26.2" = _NmIfgfJh;
         "pkg-1.2.15-mc26.2" = _xt4G7JH4;
-        "default" = _xt4G7JH4;
+        "pkg-1.2.16-mc26.3" = _eUrmrtnj;
+        "pkg-1.2.17-mc26.3" = _SvJZnYUG;
+        "default" = _SvJZnYUG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "signed-paintings";

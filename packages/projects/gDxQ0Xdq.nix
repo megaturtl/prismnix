@@ -146,6 +146,11 @@ let
             "file" = "frog-petting-5.0+1.21.jar";
             "hash" = "sha512-aEGxCEmE8yMPONyamWqebVdOiQYsfa+tglJp/E83wowCEtWyCRSjFju2IwYAyo0exrNftWrWh0Dhwz35DclxwQ==";
         };
+        _mfRUeVzu = {
+            "id" = "mfRUeVzu";
+            "file" = "frog_petting-5.1+26.3.jar";
+            "hash" = "sha512-xh0VgWoOoGEsjxngAK0qU3mFnIp6H73aVTslqQ1PiulcxkqcFZ6IVvE8WNFRSlsfnbGIVVb6UTJOZ6ahK6eJnw==";
+        };
     in {
         "Ec08BdNv" = _Ec08BdNv;
         "pWbXheN8" = _pWbXheN8;
@@ -176,6 +181,7 @@ let
         "LggFa2X6" = _LggFa2X6;
         "C2MN9ubT" = _C2MN9ubT;
         "14kSclEY" = _14kSclEY;
+        "mfRUeVzu" = _mfRUeVzu;
         "fabric-1.20" = _mIaBzWgH;
         "fabric-1.20.1" = _mIaBzWgH;
         "fabric-1.20.2" = _mIaBzWgH;
@@ -196,6 +202,7 @@ let
         "fabric-26.1.1" = _C2MN9ubT;
         "fabric-26.1.2" = _C2MN9ubT;
         "fabric-26.2" = _C2MN9ubT;
+        "fabric-26.3" = _mfRUeVzu;
         "pkg-1.0" = _Ec08BdNv;
         "pkg-1.1" = _pWbXheN8;
         "pkg-1.2" = _6sfJ6LON;
@@ -225,7 +232,8 @@ let
         "pkg-5.0+26.1" = _LggFa2X6;
         "pkg-5.1+26.1" = _C2MN9ubT;
         "pkg-5.0+1.21" = _14kSclEY;
-        "default" = _14kSclEY;
+        "pkg-5.1+26.3" = _mfRUeVzu;
+        "default" = _mfRUeVzu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "frog-petting";

@@ -112,6 +112,7 @@ let
         "minecraft-26.1.1" = _dokCVqSe;
         "minecraft-26.1.2" = _dokCVqSe;
         "minecraft-26.2" = _dokCVqSe;
+        "minecraft-26.3" = _dokCVqSe;
         "pkg-1" = _YUWbnz70;
         "pkg-1.1" = _rpLUquzr;
         "pkg-1.2" = _xunUwfoD;

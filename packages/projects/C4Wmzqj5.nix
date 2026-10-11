@@ -51,6 +51,11 @@ let
             "file" = "Gravel-Ores-2.2.2-for-1.21.x-26.1.x.jar";
             "hash" = "sha512-rjCUkih+GIpHH/RLxBDvZ/dFYHHc334rWT6d5/PdGWOl0zn83VQnte3ux4FM0FQ5dYT3ZfgjtQoFLhj+idEB/g==";
         };
+        _LFoLgD1k = {
+            "id" = "LFoLgD1k";
+            "file" = "Gravel-Ores-2.2.3-for-1.21.x-26.2.x.jar";
+            "hash" = "sha512-LZ/EJKzRmkXw5EbJUNIwdvOZUz2s6MIKgVqaw+yZhuzYsyDqLH/mK7HYzWiXNrpdHGlzvN8Awc0WJxdSetemCw==";
+        };
     in {
         "2q6Fxhai" = _2q6Fxhai;
         "dSLFI0LO" = _dSLFI0LO;
@@ -62,13 +67,14 @@ let
         "kbghaOHn" = _kbghaOHn;
         "tIkOnK54" = _tIkOnK54;
         "TiLS2j5G" = _TiLS2j5G;
+        "LFoLgD1k" = _LFoLgD1k;
         "forge-1.11.2" = _2q6Fxhai;
         "forge-1.12" = _dSLFI0LO;
         "forge-1.12.1" = _dSLFI0LO;
         "forge-1.12.2" = _dSLFI0LO;
         "forge-1.20.1" = _tIkOnK54;
         "neoforge-1.20.1" = _tIkOnK54;
-        "neoforge-1.21.1" = _TiLS2j5G;
+        "neoforge-1.21.1" = _LFoLgD1k;
         "neoforge-1.21.2" = _TiLS2j5G;
         "neoforge-1.21.3" = _TiLS2j5G;
         "neoforge-1.21.4" = _TiLS2j5G;
@@ -79,9 +85,10 @@ let
         "neoforge-1.21.9" = _TiLS2j5G;
         "neoforge-1.21.10" = _TiLS2j5G;
         "neoforge-1.21.11" = _TiLS2j5G;
-        "neoforge-26.1" = _TiLS2j5G;
-        "neoforge-26.1.1" = _TiLS2j5G;
-        "neoforge-26.1.2" = _TiLS2j5G;
+        "neoforge-26.1" = _LFoLgD1k;
+        "neoforge-26.1.1" = _LFoLgD1k;
+        "neoforge-26.1.2" = _LFoLgD1k;
+        "neoforge-26.2" = _LFoLgD1k;
         "pkg-1.1c" = _2q6Fxhai;
         "pkg-1.8" = _dSLFI0LO;
         "pkg-2.0" = _IWR53hlz;
@@ -92,7 +99,8 @@ let
         "pkg-2.2.1" = _kbghaOHn;
         "pkg-2.1.3" = _tIkOnK54;
         "pkg-2.2.2" = _TiLS2j5G;
-        "default" = _TiLS2j5G;
+        "pkg-2.2.3" = _LFoLgD1k;
+        "default" = _LFoLgD1k;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-gravel-ores";

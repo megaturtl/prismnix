@@ -191,6 +191,26 @@ let
             "file" = "arsenal-fabric-1.5.0+1.20.1.jar";
             "hash" = "sha512-fWvLZLieKcdPRHRrzUYE6swP6RmTm9IdAUmr21rozWUq47GAE8YMgvdP01AkMarhsLXuwib8Kr+K0XyWu+R1yA==";
         };
+        _YQI0AMxf = {
+            "id" = "YQI0AMxf";
+            "file" = "arsenal-fabric-1.5.1+1.20.1.jar";
+            "hash" = "sha512-RA7F4Ey71IJM6PSrIL68kpBYFnjy75y1AabXt0lczRiBR0qcziB+0NspZKCpPe7s6XyK9/U2gDy5HWuQaQOULA==";
+        };
+        _GZllPUlE = {
+            "id" = "GZllPUlE";
+            "file" = "arsenal-forge-1.5.1+1.20.1.jar";
+            "hash" = "sha512-jX9JCipzGdKQZzEBz+TG9GSDbNBYTPYYcfzDItwhxOpcGB3XlcqrogdBo/NjsqSHYLiZugd6P88ESF/MqVxu3A==";
+        };
+        _N9Vdfp7q = {
+            "id" = "N9Vdfp7q";
+            "file" = "arsenal-neoforge-1.5.1+26.3.jar";
+            "hash" = "sha512-ShsEgg8dGNH9sQhfzsGCutG0bLjOmPH2ibHdQHw3/EXnMj4A3g3rhoL0uDMaBUPWRLQlDyrgscrbtJ+qjPiKzA==";
+        };
+        _wb7KcnBT = {
+            "id" = "wb7KcnBT";
+            "file" = "arsenal-fabric-1.5.1+26.3.jar";
+            "hash" = "sha512-kmlp1UOGoM/Hus0zVIKxcceHzD9ua6Rww/qZ9Hy2EUAXu8Mia9r5W1Hv+lSs3KSc/U044UiPWNlWbKu7alt13Q==";
+        };
     in {
         "t4X4ZuG7" = _t4X4ZuG7;
         "IIFVRywr" = _IIFVRywr;
@@ -230,21 +250,27 @@ let
         "MVYet4pO" = _MVYet4pO;
         "pa2WdSK6" = _pa2WdSK6;
         "eV0JZLdi" = _eV0JZLdi;
+        "YQI0AMxf" = _YQI0AMxf;
+        "GZllPUlE" = _GZllPUlE;
+        "N9Vdfp7q" = _N9Vdfp7q;
+        "wb7KcnBT" = _wb7KcnBT;
         "fabric-1.21" = _uUEYqOXk;
         "fabric-1.21.1" = _uUEYqOXk;
         "fabric-26.1" = _Z2SFnVME;
         "fabric-26.1.1" = _Z2SFnVME;
         "fabric-26.1.2" = _Z2SFnVME;
         "fabric-26.2" = _RLUAJaXX;
-        "fabric-1.20.1" = _eV0JZLdi;
+        "fabric-1.20.1" = _YQI0AMxf;
+        "fabric-26.3" = _wb7KcnBT;
         "neoforge-1.21" = _rYyhslig;
         "neoforge-1.21.1" = _rYyhslig;
         "neoforge-26.1" = _zxl9V37x;
         "neoforge-26.1.1" = _zxl9V37x;
         "neoforge-26.1.2" = _zxl9V37x;
         "neoforge-26.2" = _MVYet4pO;
-        "neoforge-1.20.1" = _pa2WdSK6;
-        "forge-1.20.1" = _pa2WdSK6;
+        "neoforge-1.20.1" = _GZllPUlE;
+        "neoforge-26.3" = _N9Vdfp7q;
+        "forge-1.20.1" = _GZllPUlE;
         "pkg-1.0.0+1.21.1" = _t4X4ZuG7;
         "pkg-1.0.1+1.21.1" = _IIFVRywr;
         "pkg-1.0.2+1.21.1" = _sGQDCsBx;
@@ -282,7 +308,11 @@ let
         "pkg-1.5.1+26.2-neoforge" = _MVYet4pO;
         "pkg-1.5.0+1.20.1-forge" = _pa2WdSK6;
         "pkg-1.5.0+1.20.1-fabric" = _eV0JZLdi;
-        "default" = _eV0JZLdi;
+        "pkg-1.5.1+1.20.1-fabric" = _YQI0AMxf;
+        "pkg-1.5.1+1.20.1-forge" = _GZllPUlE;
+        "pkg-1.5.1+26.3-neoforge" = _N9Vdfp7q;
+        "pkg-1.5.1+26.3-fabric" = _wb7KcnBT;
+        "default" = _wb7KcnBT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "arsenal-rpg-series";

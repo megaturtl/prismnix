@@ -36,6 +36,11 @@ let
             "file" = "OPAL_v1.2.0.zip";
             "hash" = "sha512-z/nwMJBe226qu4ux7fFf2Xjw5rb96YtQ1L+h5t3ovLu+eRisy2BDd+UgmPbhVp2eBoBmyjaOcn0LgbJAl7snSA==";
         };
+        _Eg1XEWuh = {
+            "id" = "Eg1XEWuh";
+            "file" = "OPAL_v1.2.1.zip";
+            "hash" = "sha512-l/vEgHB967zP9TW1RmRbxcWELM/Vn/+4rVc2YSW4nY/v9pR+MRtWgj28h4j7kpNQgPcQUlXwf+xMKABcSFV3cQ==";
+        };
     in {
         "26FEjahG" = _26FEjahG;
         "z8yK8Vt1" = _z8yK8Vt1;
@@ -44,6 +49,7 @@ let
         "efu3era3" = _efu3era3;
         "SaBac6oN" = _SaBac6oN;
         "xGLd4NPs" = _xGLd4NPs;
+        "Eg1XEWuh" = _Eg1XEWuh;
         "iris-1.20.1" = _z8yK8Vt1;
         "iris-1.20.4" = _ZfmPsssH;
         "iris-1.19.2" = _z8yK8Vt1;
@@ -57,6 +63,9 @@ let
         "iris-1.21.4" = _xGLd4NPs;
         "iris-1.21.5" = _xGLd4NPs;
         "iris-1.21.10" = _xGLd4NPs;
+        "iris-26.1" = _Eg1XEWuh;
+        "iris-26.2" = _Eg1XEWuh;
+        "iris-26.3" = _Eg1XEWuh;
         "optifine-1.20.1" = _z8yK8Vt1;
         "optifine-1.20.4" = _ZfmPsssH;
         "optifine-1.19.2" = _z8yK8Vt1;
@@ -70,6 +79,9 @@ let
         "optifine-1.21.4" = _xGLd4NPs;
         "optifine-1.21.5" = _xGLd4NPs;
         "optifine-1.21.10" = _xGLd4NPs;
+        "optifine-26.1" = _Eg1XEWuh;
+        "optifine-26.2" = _Eg1XEWuh;
+        "optifine-26.3" = _Eg1XEWuh;
         "pkg-v0.3.2" = _26FEjahG;
         "pkg-v1.0.0" = _z8yK8Vt1;
         "pkg-v1.0.1" = _OgmcE2Ht;
@@ -77,7 +89,8 @@ let
         "pkg-v1.1.1" = _efu3era3;
         "pkg-v1.1.2" = _SaBac6oN;
         "pkg-v1.2.0" = _xGLd4NPs;
-        "default" = _xGLd4NPs;
+        "pkg-v1.2.1" = _Eg1XEWuh;
+        "default" = _Eg1XEWuh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "opal-shaders";

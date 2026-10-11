@@ -241,6 +241,16 @@ let
             "file" = "tuff-recipe-1.0.jar";
             "hash" = "sha512-FniBBHZHqhVDTtJv9FzbW+2b98yc/rXenbkjb4Ue3peKWI87urhWkx1V6QGYCzprhEvX7toHFI2o7Yr/fE3ieQ==";
         };
+        _JocdPInm = {
+            "id" = "JocdPInm";
+            "file" = "tuff-26.3.zip";
+            "hash" = "sha512-2AxY0AKlvmd8+Hw5bj69ydkaHNDNcsUXL3Di5tMtmlRYlSqKXNl7zzqbDQay7JS8dTd2vQsF1xqEfihDh+ocoQ==";
+        };
+        _oufFGZKO = {
+            "id" = "oufFGZKO";
+            "file" = "tuff-recipe-1.0.jar";
+            "hash" = "sha512-e7f5lYhzVnFyz70RuHoTC/s94FLL1uIsF3bsT5W5xvLxBwaw1VfhY/OvkaF3tqqNU3Z/9MKsJDLNseXwDOEzDw==";
+        };
     in {
         "6HhlcOw4" = _6HhlcOw4;
         "W8XxcVgg" = _W8XxcVgg;
@@ -290,6 +300,8 @@ let
         "IAvSageK" = _IAvSageK;
         "zxO0QIOm" = _zxO0QIOm;
         "Tz1u2tNe" = _Tz1u2tNe;
+        "JocdPInm" = _JocdPInm;
+        "oufFGZKO" = _oufFGZKO;
         "datapack-1.17" = _6HhlcOw4;
         "datapack-1.17.1" = _6HhlcOw4;
         "datapack-1.18" = _W8XxcVgg;
@@ -342,6 +354,7 @@ let
         "datapack-26.2-snapshot-2" = _z7AeO70Z;
         "datapack-26.2" = _zxO0QIOm;
         "datapack-26.3-snapshot-1" = _zxO0QIOm;
+        "datapack-26.3" = _JocdPInm;
         "fabric-1.17" = _jIEImssZ;
         "fabric-1.17.1" = _jIEImssZ;
         "fabric-1.18" = _WPWnpSor;
@@ -394,6 +407,7 @@ let
         "fabric-26.2-snapshot-2" = _BO7jCVMa;
         "fabric-26.2" = _Tz1u2tNe;
         "fabric-26.3-snapshot-1" = _Tz1u2tNe;
+        "fabric-26.3" = _oufFGZKO;
         "forge-1.17" = _jIEImssZ;
         "forge-1.17.1" = _jIEImssZ;
         "forge-1.18" = _WPWnpSor;
@@ -446,6 +460,7 @@ let
         "forge-26.2-snapshot-2" = _BO7jCVMa;
         "forge-26.2" = _Tz1u2tNe;
         "forge-26.3-snapshot-1" = _Tz1u2tNe;
+        "forge-26.3" = _oufFGZKO;
         "neoforge-1.17" = _jIEImssZ;
         "neoforge-1.17.1" = _jIEImssZ;
         "neoforge-1.18" = _WPWnpSor;
@@ -498,6 +513,7 @@ let
         "neoforge-26.2-snapshot-2" = _BO7jCVMa;
         "neoforge-26.2" = _Tz1u2tNe;
         "neoforge-26.3-snapshot-1" = _Tz1u2tNe;
+        "neoforge-26.3" = _oufFGZKO;
         "quilt-1.17" = _jIEImssZ;
         "quilt-1.17.1" = _jIEImssZ;
         "quilt-1.18" = _WPWnpSor;
@@ -550,9 +566,10 @@ let
         "quilt-26.2-snapshot-2" = _BO7jCVMa;
         "quilt-26.2" = _Tz1u2tNe;
         "quilt-26.3-snapshot-1" = _Tz1u2tNe;
-        "pkg-1.0" = _zxO0QIOm;
-        "pkg-1.0+mod" = _Tz1u2tNe;
-        "default" = _Tz1u2tNe;
+        "quilt-26.3" = _oufFGZKO;
+        "pkg-1.0" = _JocdPInm;
+        "pkg-1.0+mod" = _oufFGZKO;
+        "default" = _oufFGZKO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tuff-recipe";

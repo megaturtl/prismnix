@@ -36,6 +36,11 @@ let
             "file" = "third_person_death_effect-2.0.0.jar";
             "hash" = "sha512-5t0wygiyZbUkbhJXnJafiurYHwxa0oaLuxBGkqrXRY+FRjbD8jdaW2aqfOuEPWVrFvCLAruIO03fOu6TOCHrcg==";
         };
+        _rpoqsSNC = {
+            "id" = "rpoqsSNC";
+            "file" = "third_person_death_effect-2.0.0.jar";
+            "hash" = "sha512-WCuouXbNiCcyJxtskCdBiyRNpPFFMDW79qCqNSuXihYm9xdVEoblkJno82bTawJzDo+pxG3SQz0xPk4idqv33w==";
+        };
     in {
         "VNJikAkQ" = _VNJikAkQ;
         "zkui2LMF" = _zkui2LMF;
@@ -44,13 +49,15 @@ let
         "DOjcgypm" = _DOjcgypm;
         "KhcAsxW6" = _KhcAsxW6;
         "jK0MSEl6" = _jK0MSEl6;
+        "rpoqsSNC" = _rpoqsSNC;
         "forge-1.20.1" = _KhcAsxW6;
         "neoforge-1.21.1" = _jK0MSEl6;
+        "neoforge-26.3" = _rpoqsSNC;
         "pkg-1.0.0" = _zkui2LMF;
         "pkg-1.0.1" = _zxuE1Ccv;
         "pkg-1.0.2" = _DOjcgypm;
-        "pkg-2.0.0" = _jK0MSEl6;
-        "default" = _jK0MSEl6;
+        "pkg-2.0.0" = _rpoqsSNC;
+        "default" = _rpoqsSNC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "third-person-death-effect";

@@ -81,6 +81,16 @@ let
             "file" = "project-lazuli-for-cobblemon-preview-version-14.jar";
             "hash" = "sha512-Sxj59hH9c5hV1kifPZYsZ+OvJ9NCBQUTlDJ87n7HCAxFsyHlPH7bZkQJCiCd/YEFDiL1GF1XW4/WgUJfK4g6CQ==";
         };
+        _QoFViqob = {
+            "id" = "QoFViqob";
+            "file" = "z-project-lazuli.zip";
+            "hash" = "sha512-18+hlBBqXzDPei9OUMWVLmcqgVEiIGZwpqQhFI7NXApuG4s8BoNCIsjOFbTuABomQiMTpDHjd8TkuhKfJGUriw==";
+        };
+        _lz9AzCAF = {
+            "id" = "lz9AzCAF";
+            "file" = "project-lazuli-for-cobblemon-preview-version-14.1.jar";
+            "hash" = "sha512-FvJHLfIe9QECxj2vqyiYU33zSQQOeqW4OP+bH9ibMK8m/gr1Md4pgK+QMsRHqKUu9gLnIcHfi8CzvBL2+mYPrA==";
+        };
     in {
         "DWwimynX" = _DWwimynX;
         "HEzeooak" = _HEzeooak;
@@ -98,18 +108,20 @@ let
         "8ImVFGdd" = _8ImVFGdd;
         "TfHjhOCG" = _TfHjhOCG;
         "IS7QZOmk" = _IS7QZOmk;
-        "datapack-1.21.1" = _TfHjhOCG;
+        "QoFViqob" = _QoFViqob;
+        "lz9AzCAF" = _lz9AzCAF;
+        "datapack-1.21.1" = _QoFViqob;
         "datapack-1.21" = _TfHjhOCG;
         "minecraft-1.21" = _iynP3DS3;
         "minecraft-1.21.1" = _iynP3DS3;
         "fabric-1.21" = _IS7QZOmk;
-        "fabric-1.21.1" = _IS7QZOmk;
+        "fabric-1.21.1" = _lz9AzCAF;
         "forge-1.21" = _IS7QZOmk;
-        "forge-1.21.1" = _IS7QZOmk;
+        "forge-1.21.1" = _lz9AzCAF;
         "neoforge-1.21" = _IS7QZOmk;
-        "neoforge-1.21.1" = _IS7QZOmk;
+        "neoforge-1.21.1" = _lz9AzCAF;
         "quilt-1.21" = _IS7QZOmk;
-        "quilt-1.21.1" = _IS7QZOmk;
+        "quilt-1.21.1" = _lz9AzCAF;
         "pkg-0.1" = _DWwimynX;
         "pkg-2" = _HEzeooak;
         "pkg-3" = _W5mUE5vF;
@@ -126,7 +138,9 @@ let
         "pkg-13+mod" = _8ImVFGdd;
         "pkg-14" = _TfHjhOCG;
         "pkg-14+mod" = _IS7QZOmk;
-        "default" = _IS7QZOmk;
+        "pkg-14.1" = _QoFViqob;
+        "pkg-14.1+mod" = _lz9AzCAF;
+        "default" = _lz9AzCAF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "project-lazuli-for-cobblemon-preview-version";

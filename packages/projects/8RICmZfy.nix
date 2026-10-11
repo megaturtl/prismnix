@@ -31,6 +31,11 @@ let
             "file" = "sbue-2.1.0+mc1.20.1-unknown.jar";
             "hash" = "sha512-eKuQ+vIZA64V25uEZbT4RZGQVki6MFRdgip4a7B86IpxWji4BbtfuIWO7KBGW5iieNIRHuEtCAfSOHAJeTHxWg==";
         };
+        _hCPZutky = {
+            "id" = "hCPZutky";
+            "file" = "sophisticatedbackpacks-upgeade-easier-3.0.0.jar";
+            "hash" = "sha512-JiQcr74OxsWkcZPeI2q5AGyP7UADQXn9Rvsp+wJL2N2BfS2vkfZ0Z4d0mK2heLzuk4gJVeBsH23eSl9+XIKJZw==";
+        };
     in {
         "tneVvjbW" = _tneVvjbW;
         "z4RYv2Pu" = _z4RYv2Pu;
@@ -38,12 +43,19 @@ let
         "s1N8pDTI" = _s1N8pDTI;
         "HPG4pMnw" = _HPG4pMnw;
         "PtrEgA9Q" = _PtrEgA9Q;
+        "hCPZutky" = _hCPZutky;
         "neoforge-1.21" = _tneVvjbW;
         "neoforge-1.21.1" = _tneVvjbW;
         "neoforge-1.21.4" = _z4RYv2Pu;
         "neoforge-1.21.5" = _z4RYv2Pu;
         "neoforge-1.21.8" = _z4RYv2Pu;
         "neoforge-1.20.1" = _PtrEgA9Q;
+        "neoforge-1.21.10" = _hCPZutky;
+        "neoforge-1.21.11" = _hCPZutky;
+        "neoforge-26.1" = _hCPZutky;
+        "neoforge-26.1.1" = _hCPZutky;
+        "neoforge-26.1.2" = _hCPZutky;
+        "neoforge-26.2" = _hCPZutky;
         "forge-1.20.1" = _PtrEgA9Q;
         "fabric-1.21.1" = _s1N8pDTI;
         "fabric-1.20.1" = _HPG4pMnw;
@@ -53,7 +65,8 @@ let
         "pkg-1.21.1-1.0.1" = _s1N8pDTI;
         "pkg-1.20.1-1.0.1" = _HPG4pMnw;
         "pkg-2.1.0+mc1.20.1" = _PtrEgA9Q;
-        "default" = _PtrEgA9Q;
+        "pkg-3.0.0" = _hCPZutky;
+        "default" = _hCPZutky;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sophisticated-backpacks-easier-upgrade";

@@ -16,14 +16,27 @@ let
             "file" = "cobblezones-neoforge-1.0.0.jar";
             "hash" = "sha512-dlVF0yopN2/aPYiwu+MpEHkYPYEjHaWZS+pVpRmTnLU1BA2kRt4P45DNdh/QZ0EMLeTdHXFQ3DpwqTuMcSSE+Q==";
         };
+        _QcTcU1Tm = {
+            "id" = "QcTcU1Tm";
+            "file" = "cobblezones-fabric-1.1.0.jar";
+            "hash" = "sha512-yTWUXELpes5HKmDEzXVehq0gh5JjngOxobdpu3EUSN3u3fXrfvrdOcLczierXQAjyOhAkiohYhf8upZPKNQz7Q==";
+        };
+        _UjMnl47L = {
+            "id" = "UjMnl47L";
+            "file" = "cobblezones-neoforge-1.1.0.jar";
+            "hash" = "sha512-fJO7mMxV0I3U8IlH8TeVHSc+4u68X+3g/Dfxln3Oeisitl/yGqEXcUeo79CNyxCF0GuuDeLkkZcTduqZ+r8h1A==";
+        };
     in {
         "fCTLB7Ze" = _fCTLB7Ze;
         "wjKR3AYU" = _wjKR3AYU;
         "omqUKpcZ" = _omqUKpcZ;
-        "fabric-1.21.1" = _wjKR3AYU;
-        "neoforge-1.21.1" = _omqUKpcZ;
+        "QcTcU1Tm" = _QcTcU1Tm;
+        "UjMnl47L" = _UjMnl47L;
+        "fabric-1.21.1" = _QcTcU1Tm;
+        "neoforge-1.21.1" = _UjMnl47L;
         "pkg-1.0.0" = _omqUKpcZ;
-        "default" = _omqUKpcZ;
+        "pkg-1.1.0" = _UjMnl47L;
+        "default" = _UjMnl47L;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblezones";

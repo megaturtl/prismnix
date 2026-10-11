@@ -1206,6 +1206,61 @@ let
             "file" = "Saros-Road-Signs-Fabric-1.21.1-4.21.jar";
             "hash" = "sha512-o8/WKCiFkStmQa/cVtk1IhwRCt9HqN/OUBjHK0VjU+XMQXeAEydHNfaJ1HrOPRM0/IfpQvMdzEh/ZxOkYsLJ+g==";
         };
+        _3DuJdjkq = {
+            "id" = "3DuJdjkq";
+            "file" = "Saros-Road-Signs-Fabric-26.3-4.19.jar";
+            "hash" = "sha512-WFqqPfTOau4GKOqJavCdDnW5PANBrTq8hPNr9KAYdGiuzqctUsmmRABdcTHwIt8NsR4JgUF6Phmj35juH98zKw==";
+        };
+        _KuOqxNX2 = {
+            "id" = "KuOqxNX2";
+            "file" = "Saros-Road-Signs-NeoForge-26.3-4.20.jar";
+            "hash" = "sha512-90RZFieERy5ycl1rTTyeJxyj0wIn6g04idt6BAVUeLMTMEn1U3fH5b9dfDSQQWc2HyekhgZ41dzMWxkKVljs1g==";
+        };
+        _Dl7NT70G = {
+            "id" = "Dl7NT70G";
+            "file" = "Saros-Road-Signs-Forge-26.3-4.21.jar";
+            "hash" = "sha512-7yItkM/7S5U2jfQD8ZZaRnq9fyw8UrOTFpj9KOn0E9oXs0n8WhBr0c8nB5wP4+cu/SJcWGEf01RRNbScpaQvWw==";
+        };
+        _Ird7JBYq = {
+            "id" = "Ird7JBYq";
+            "file" = "Saros-Road-Signs-Fabric-26.2-4.19.jar";
+            "hash" = "sha512-5v9jNm/2Gtfh7Ej8hclu/Lehs7MFbYMrPkzI+LCKTFuqTYcq0fLAAlQnxGAlLOngyXX9dbd5Q/u4GXTO1wrBjQ==";
+        };
+        _8mvJtEOG = {
+            "id" = "8mvJtEOG";
+            "file" = "Saros-Road-Signs-Fabric-26.3-4.20.jar";
+            "hash" = "sha512-+SFlm3Ad8ziP2YvKaLbN+5kMRy7VpYsmL45Pb2v6uZtzWqR5Mh9eEEv2wnOEqhBNeFLkTQt6PtWp6iDFtfqEpA==";
+        };
+        _1ny8Sqmx = {
+            "id" = "1ny8Sqmx";
+            "file" = "Saros-Road-Signs-Fabric-26.1.2-4.16.jar";
+            "hash" = "sha512-NjsXaRmKMYfL7A8SFiwbltPF9YlSF918DSuFIjhziAv5w2J+45TxpBiBbajKAEtPXLDPJItX+Izu3F1EigQGuA==";
+        };
+        _s9dE72Lk = {
+            "id" = "s9dE72Lk";
+            "file" = "Saros-Road-Signs-Fabric-26.1.1-4.14.jar";
+            "hash" = "sha512-UJD2rI/o2Q8Ka4oCHLboUV6GjVBeLxw8rR3N/tTxRpBANvUH/kNWAUI0MwvGQ/ltlOkUY/7fWFaP6h5xczi9jg==";
+        };
+        _wW6CozRK = {
+            "id" = "wW6CozRK";
+            "file" = "Saros-Road-Signs-Fabric-26.1-4.14.jar";
+            "hash" = "sha512-ThIp4lljqEpRNMPcBGHrZ6e2c64g5awJnynA50gAr052pR+Ee1YHpDFq3yC7NPF9zeSTieaQBvi//KOo07idrg==";
+        };
+        _iV9bJu6k = {
+            "id" = "iV9bJu6k";
+            "file" = "Saros-Road-Signs-Fabric-1.21.11-4.23.jar";
+            "hash" = "sha512-FnHYgVGshy9kr9UDoWvBe7V6/NGC0a9RJCvcSrUJhNNB7oVkd25YUU8MakKIkjDijeeLAd8GNVHkjyLWhwrdYQ==";
+        };
+        _yFFRBMwD = {
+            "id" = "yFFRBMwD";
+            "file" = "Saros-Road-Signs-Fabric-1.21.10-4.14.jar";
+            "hash" = "sha512-Y/3x2KQ7s0hyDBeYf9MS8RtaLp4vr5d+z79jLCw6ogvgO8Y3nYBBOrC0EBVtLCaz9hRAarjQJVDSk6CDxrL6Dg==";
+        };
+        _vbDS2xK8 = {
+            "id" = "vbDS2xK8";
+            "file" = "Saros-Road-Signs-Fabric-1.20.1-4.14.jar";
+            "hash" = "sha512-ELCe43IyK6my38SqOI3yjjpWzIfkpfIaHWcsSqJLmz18RP7N1osudpxJwsWPVX/WddGrRwLI2S2aySpsOWRJmw==";
+        };
     in {
         "ZvFGXld5" = _ZvFGXld5;
         "1nd6NRlc" = _1nd6NRlc;
@@ -1448,6 +1503,17 @@ let
         "pJOaNQNC" = _pJOaNQNC;
         "Rw4BXqY8" = _Rw4BXqY8;
         "S5DKyqfZ" = _S5DKyqfZ;
+        "3DuJdjkq" = _3DuJdjkq;
+        "KuOqxNX2" = _KuOqxNX2;
+        "Dl7NT70G" = _Dl7NT70G;
+        "Ird7JBYq" = _Ird7JBYq;
+        "8mvJtEOG" = _8mvJtEOG;
+        "1ny8Sqmx" = _1ny8Sqmx;
+        "s9dE72Lk" = _s9dE72Lk;
+        "wW6CozRK" = _wW6CozRK;
+        "iV9bJu6k" = _iV9bJu6k;
+        "yFFRBMwD" = _yFFRBMwD;
+        "vbDS2xK8" = _vbDS2xK8;
         "forge-1.16.5" = _ZvFGXld5;
         "forge-1.18.2" = _1nd6NRlc;
         "forge-1.19.2" = _MxG0HgRX;
@@ -1469,15 +1535,17 @@ let
         "forge-26.1.1" = _KXTEz9IE;
         "forge-26.1.2" = _a6NVJvL3;
         "forge-26.2" = _nSwqE14W;
+        "forge-26.3" = _Dl7NT70G;
         "fabric-1.19.2" = _HgsryM7a;
-        "fabric-1.20.1" = _CpALhMq0;
+        "fabric-1.20.1" = _vbDS2xK8;
         "fabric-1.21.1" = _S5DKyqfZ;
-        "fabric-26.1" = _j6XGoJex;
-        "fabric-26.1.1" = _Hts06XP1;
-        "fabric-26.1.2" = _OGAqeSFS;
-        "fabric-1.21.11" = _niePJ6pg;
-        "fabric-26.2" = _TjRF7Eun;
-        "fabric-1.21.10" = _sk5nCwid;
+        "fabric-26.1" = _wW6CozRK;
+        "fabric-26.1.1" = _s9dE72Lk;
+        "fabric-26.1.2" = _1ny8Sqmx;
+        "fabric-1.21.11" = _iV9bJu6k;
+        "fabric-26.2" = _Ird7JBYq;
+        "fabric-1.21.10" = _yFFRBMwD;
+        "fabric-26.3" = _8mvJtEOG;
         "quilt-1.19.2" = _HgsryM7a;
         "quilt-1.20.1" = _MD6ahJhg;
         "neoforge-1.21.1" = _TjOoASKc;
@@ -1486,6 +1554,7 @@ let
         "neoforge-26.1.1" = _Kh2zjLUp;
         "neoforge-26.1.2" = _TMhup784;
         "neoforge-26.2" = _V3YMmFhR;
+        "neoforge-26.3" = _KuOqxNX2;
         "pkg-3.2" = _kWtdogzQ;
         "pkg-1.4" = _HgsryM7a;
         "pkg-1.3" = _MD6ahJhg;
@@ -1513,7 +1582,7 @@ let
         "pkg-4.9" = _5mOXpTmN;
         "pkg-4.13" = _tr3F6OQp;
         "pkg-4.6.3" = _4yBQfjHm;
-        "pkg-4.16" = _BifM7mrs;
+        "pkg-4.16" = _1ny8Sqmx;
         "pkg-4.6.4" = _9mlAvc6E;
         "pkg-4.14.1" = _TamvVquo;
         "pkg-4.8.1" = _ULdwpf9U;
@@ -1537,7 +1606,7 @@ let
         "pkg-4.6.5" = _tMsXJ99X;
         "pkg-4.6.6" = _SXxZgjJs;
         "pkg-4.14.6" = _RmiuazDk;
-        "pkg-4.19" = _F3CSHuLF;
+        "pkg-4.19" = _Ird7JBYq;
         "pkg-4.7.4" = _h1dDOsgv;
         "pkg-4.6.7" = _UevR3mOI;
         "pkg-4.8.5" = _idzjN4DF;
@@ -1546,9 +1615,9 @@ let
         "pkg-4.6.8" = _a6NVJvL3;
         "pkg-4.13.7" = _8KYhMJw5;
         "pkg-4.14.7" = _ujO6OAYY;
-        "pkg-4.20" = _z2YXP2ME;
+        "pkg-4.20" = _8mvJtEOG;
         "pkg-4.7.5" = _XIzawV5E;
-        "pkg-4.14" = _pJOaNQNC;
+        "pkg-4.14" = _vbDS2xK8;
         "pkg-4.21" = _S5DKyqfZ;
         "pkg-4.13.8" = _Uai1h8Gt;
         "pkg-4.6.9" = _nSwqE14W;
@@ -1561,7 +1630,9 @@ let
         "pkg-4.14.10" = _TjOoASKc;
         "pkg-4.7.7" = _TMhup784;
         "pkg-4.8.8" = _V3YMmFhR;
-        "default" = _S5DKyqfZ;
+        "pkg-4.21-forge-26.3" = _Dl7NT70G;
+        "pkg-4.23" = _iV9bJu6k;
+        "default" = _vbDS2xK8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "saros-road-signs";

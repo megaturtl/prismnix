@@ -196,6 +196,16 @@ let
             "file" = "cadmus-fabric-1.20.1-1.0.8.jar";
             "hash" = "sha512-xTe6z4zC00KQyyQ8XtpAyb71N0sPFZGYRE07hmZ3H77SQ91MUE4Dvkk6+0NQ9dLFhctYJCLhZSNr5DLBSDIbZQ==";
         };
+        _iYirRzFI = {
+            "id" = "iYirRzFI";
+            "file" = "cadmus-neoforge-1.21-2.0.0.jar";
+            "hash" = "sha512-guy45ALr4giUjdtsnLSIIEsx18gbvC4AYuUFBtklF0hqNhLQ9gGARftyp5yg6iEYRO1r9PLElmd1r1T/oPsqIQ==";
+        };
+        _RP8AzUrs = {
+            "id" = "RP8AzUrs";
+            "file" = "cadmus-fabric-1.21-2.0.0.jar";
+            "hash" = "sha512-acWkIDJseTazZStmRkSGBvjvxbfh9BejG/N0pajS7/zJwnEIClE/UvCbNTHT4RwZ8/01OweYZNrDvypBXyy3ew==";
+        };
     in {
         "UoWYtzCg" = _UoWYtzCg;
         "FGCGeFyW" = _FGCGeFyW;
@@ -236,14 +246,18 @@ let
         "EiatAg7l" = _EiatAg7l;
         "vtGe3auv" = _vtGe3auv;
         "kzMsPbNB" = _kzMsPbNB;
+        "iYirRzFI" = _iYirRzFI;
+        "RP8AzUrs" = _RP8AzUrs;
         "fabric-1.20" = _EeytPlfC;
         "fabric-1.20.1" = _kzMsPbNB;
         "fabric-1.20.2" = _g8mEsGDq;
         "fabric-1.20.4" = _EiatAg7l;
+        "fabric-1.21" = _RP8AzUrs;
         "forge-1.20" = _9QHgqjUX;
         "forge-1.20.1" = _vtGe3auv;
         "neoforge-1.20.2" = _rasMkf0c;
         "neoforge-1.20.4" = _JAcTHat9;
+        "neoforge-1.21" = _iYirRzFI;
         "pkg-0.0.0" = _FGCGeFyW;
         "pkg-0.0.1" = _9tQBYhqC;
         "pkg-0.0.2" = _pVYAyVrQ;
@@ -264,7 +278,8 @@ let
         "pkg-1.0.7" = _UybXEq7f;
         "pkg-1.2.2" = _EiatAg7l;
         "pkg-1.0.8" = _kzMsPbNB;
-        "default" = _kzMsPbNB;
+        "pkg-2.0.0" = _RP8AzUrs;
+        "default" = _RP8AzUrs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "odyssey-claims";

@@ -226,6 +226,16 @@ let
             "file" = "calcite-recipe-1.0.jar";
             "hash" = "sha512-F6+U+PMliAB4esJMxqZJBRCPAGC+aykTt78QYB0swF3iKTkii5n8QLImf0d5iiR/z7wcK1liMCBYM2+DcUgcAw==";
         };
+        _lOmMXnKk = {
+            "id" = "lOmMXnKk";
+            "file" = "calcite-26.3.zip";
+            "hash" = "sha512-ipFiPQSnVYCJ2ghblGRHZWjKA60RMwLla0TqJq1CUWNKrCckUCfGd6VjqA9L4yZhhTgw/ib0oveTtzWijDY0/Q==";
+        };
+        _pSZalV6m = {
+            "id" = "pSZalV6m";
+            "file" = "calcite-recipe-1.0.jar";
+            "hash" = "sha512-U3wy6A72a4qie8jOHxl5bDkRmKdI3licWHYJ0CiaxsZAgZppFPMrMF4dWxKCgYUrfEGhf33a3sQFj3u0+Brwlw==";
+        };
     in {
         "rcVWGhbj" = _rcVWGhbj;
         "V0Hq57rV" = _V0Hq57rV;
@@ -272,6 +282,8 @@ let
         "Ei4hiEGO" = _Ei4hiEGO;
         "gQNBJCIt" = _gQNBJCIt;
         "vzngJqTq" = _vzngJqTq;
+        "lOmMXnKk" = _lOmMXnKk;
+        "pSZalV6m" = _pSZalV6m;
         "datapack-1.17" = _rcVWGhbj;
         "datapack-1.17.1" = _rcVWGhbj;
         "datapack-1.18" = _V0Hq57rV;
@@ -324,6 +336,7 @@ let
         "datapack-26.2-snapshot-2" = _Pozpo7av;
         "datapack-26.2" = _gQNBJCIt;
         "datapack-26.3-snapshot-1" = _gQNBJCIt;
+        "datapack-26.3" = _lOmMXnKk;
         "fabric-1.17" = _JKjiamw2;
         "fabric-1.17.1" = _JKjiamw2;
         "fabric-1.18" = _kFI75TJT;
@@ -376,6 +389,7 @@ let
         "fabric-26.2-snapshot-2" = _lM6cggTu;
         "fabric-26.2" = _vzngJqTq;
         "fabric-26.3-snapshot-1" = _vzngJqTq;
+        "fabric-26.3" = _pSZalV6m;
         "forge-1.17" = _JKjiamw2;
         "forge-1.17.1" = _JKjiamw2;
         "forge-1.18" = _kFI75TJT;
@@ -428,6 +442,7 @@ let
         "forge-26.2-snapshot-2" = _lM6cggTu;
         "forge-26.2" = _vzngJqTq;
         "forge-26.3-snapshot-1" = _vzngJqTq;
+        "forge-26.3" = _pSZalV6m;
         "neoforge-1.17" = _JKjiamw2;
         "neoforge-1.17.1" = _JKjiamw2;
         "neoforge-1.18" = _kFI75TJT;
@@ -480,6 +495,7 @@ let
         "neoforge-26.2-snapshot-2" = _lM6cggTu;
         "neoforge-26.2" = _vzngJqTq;
         "neoforge-26.3-snapshot-1" = _vzngJqTq;
+        "neoforge-26.3" = _pSZalV6m;
         "quilt-1.17" = _JKjiamw2;
         "quilt-1.17.1" = _JKjiamw2;
         "quilt-1.18" = _kFI75TJT;
@@ -532,9 +548,10 @@ let
         "quilt-26.2-snapshot-2" = _lM6cggTu;
         "quilt-26.2" = _vzngJqTq;
         "quilt-26.3-snapshot-1" = _vzngJqTq;
-        "pkg-1.0" = _gQNBJCIt;
-        "pkg-1.0+mod" = _vzngJqTq;
-        "default" = _vzngJqTq;
+        "quilt-26.3" = _pSZalV6m;
+        "pkg-1.0" = _lOmMXnKk;
+        "pkg-1.0+mod" = _pSZalV6m;
+        "default" = _pSZalV6m;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "calcite-recipe";

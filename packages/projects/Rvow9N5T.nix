@@ -96,6 +96,26 @@ let
             "file" = "ColorfulAzaleas-3.5.0+26.2-neoforge.jar";
             "hash" = "sha512-jk6iVk35CvU9vHGq/BNzj0Q94sIPsajGWZdnTPbZ+JNEp00RmgaH6OSMj9J3A5hKNosDJiI40TvZcFwkVeOhdA==";
         };
+        _DSQS4pPt = {
+            "id" = "DSQS4pPt";
+            "file" = "ColorfulAzaleas-3.6.1+26.2.jar";
+            "hash" = "sha512-s4iW2zT0Tb5g4RK2jusGaObvkFeS60ZMoqmDYv2K0W/ZaVuPgw5ghZtCz7xVkq2XS1JBTdi/xcYkWCXPseE3fQ==";
+        };
+        _qlMILMBU = {
+            "id" = "qlMILMBU";
+            "file" = "ColorfulAzaleas-3.6.1+26.3.jar";
+            "hash" = "sha512-YpbGwNP8DCsSiyBdEHCorTOY5droHJhZ7+ps7Hcy0bX3S+VErhmDEeNTAW6L9E66Pi2f5xkxVRSokYZj2MJMKA==";
+        };
+        _85lCigAh = {
+            "id" = "85lCigAh";
+            "file" = "ColorfulAzaleas-3.6.1+26.2-neoforge.jar";
+            "hash" = "sha512-wGQXTiT4iipwiYKsPcP6BUVRRoadmlWYRHm2WlqVj9yPI313PIi3iIxw4exSrGEovm00IqLmBBoR7vb/WySw2w==";
+        };
+        _Kmh3zdm6 = {
+            "id" = "Kmh3zdm6";
+            "file" = "ColorfulAzaleas-3.6.1+26.3-neoforge.jar";
+            "hash" = "sha512-ezp2283gRD+JIhz3uVqwu1Bat1oMDcpdi1pyWjC7zeSo0VQ6o/PVB1GRw4t6iZxtcPBa2QjwWcvg+rS4XHZymg==";
+        };
     in {
         "5khqDy0E" = _5khqDy0E;
         "FGs3q8dk" = _FGs3q8dk;
@@ -116,6 +136,10 @@ let
         "LfRLaYKF" = _LfRLaYKF;
         "ghFiaTJz" = _ghFiaTJz;
         "oEJn2cCT" = _oEJn2cCT;
+        "DSQS4pPt" = _DSQS4pPt;
+        "qlMILMBU" = _qlMILMBU;
+        "85lCigAh" = _85lCigAh;
+        "Kmh3zdm6" = _Kmh3zdm6;
         "fabric-1.21.4" = _5khqDy0E;
         "fabric-1.21" = _FGs3q8dk;
         "fabric-1.21.1" = _5i7Ykd9m;
@@ -127,12 +151,14 @@ let
         "fabric-26.1" = _ghFiaTJz;
         "fabric-26.1.1" = _52W1qS8P;
         "fabric-26.1.2" = _52W1qS8P;
-        "fabric-26.2" = _LfRLaYKF;
+        "fabric-26.2" = _DSQS4pPt;
+        "fabric-26.3" = _qlMILMBU;
         "neoforge-1.21.11" = _MHgSgYa0;
         "neoforge-26.1" = _ec8Pa3X0;
         "neoforge-26.1.1" = _ec8Pa3X0;
         "neoforge-26.1.2" = _ec8Pa3X0;
-        "neoforge-26.2" = _oEJn2cCT;
+        "neoforge-26.2" = _85lCigAh;
+        "neoforge-26.3" = _Kmh3zdm6;
         "pkg-2.3.0+1.21.4" = _5khqDy0E;
         "pkg-2.2.1" = _FGs3q8dk;
         "pkg-2.4.0+1.21.5" = _2PaDoC8r;
@@ -152,7 +178,11 @@ let
         "pkg-3.6.0+26.2" = _LfRLaYKF;
         "pkg-3.5.0+26.1" = _ghFiaTJz;
         "pkg-3.5.0+26.2-neoforge" = _oEJn2cCT;
-        "default" = _oEJn2cCT;
+        "pkg-3.6.1+26.2" = _DSQS4pPt;
+        "pkg-3.6.1+26.3" = _qlMILMBU;
+        "pkg-3.6.1+26.2-neoforge" = _85lCigAh;
+        "pkg-3.6.1+26.3-neoforge" = _Kmh3zdm6;
+        "default" = _Kmh3zdm6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "colorful-azaleas-updated";

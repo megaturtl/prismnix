@@ -91,6 +91,16 @@ let
             "file" = "mebahel-zombie-horde-1.2.0-1.20.1.jar";
             "hash" = "sha512-XVsckZk//unopz0SY3t9eG9C1ohDYvdEKcA/isumLXKJ1/py6avoSWA22P1CCTNMoe6KzK0H4kJXIW2YLdTdzg==";
         };
+        _YaqA3koo = {
+            "id" = "YaqA3koo";
+            "file" = "mebahel-zombie-horde-2.0.0-1.21.1.jar";
+            "hash" = "sha512-XBGVbD/cjP+ZcCH3ljWH1A3qZezP8YYNykj2Vw69dEwUy6QTxeHBKfzNUPCIO6dEmlQPdNmtsu/zjqkeoXaHFw==";
+        };
+        _iLT8O8nC = {
+            "id" = "iLT8O8nC";
+            "file" = "mebahel-zombie-horde-2.0.0-1.20.1.jar";
+            "hash" = "sha512-kyxy+xFI/mWbvTLjCPwqTzZcem9sg+oYIdqo2+uxTKDu2QA78KjQI1a2zHgxCJr3fQkvc12dPql33cgWMyWRYw==";
+        };
     in {
         "xCaumMxE" = _xCaumMxE;
         "TiuwbxjW" = _TiuwbxjW;
@@ -110,28 +120,30 @@ let
         "9oL7PUrs" = _9oL7PUrs;
         "d3WYz1j7" = _d3WYz1j7;
         "myFxz0vQ" = _myFxz0vQ;
-        "fabric-1.21" = _d3WYz1j7;
-        "fabric-1.21.1" = _d3WYz1j7;
-        "fabric-1.20" = _myFxz0vQ;
-        "fabric-1.20.1" = _myFxz0vQ;
+        "YaqA3koo" = _YaqA3koo;
+        "iLT8O8nC" = _iLT8O8nC;
+        "fabric-1.21" = _YaqA3koo;
+        "fabric-1.21.1" = _YaqA3koo;
+        "fabric-1.20" = _iLT8O8nC;
+        "fabric-1.20.1" = _iLT8O8nC;
         "fabric-1.21.2" = _MICGSIhG;
         "fabric-1.21.3" = _MICGSIhG;
         "fabric-1.19.2" = _thoYyhuT;
-        "forge-1.21" = _d3WYz1j7;
-        "forge-1.21.1" = _d3WYz1j7;
-        "forge-1.20" = _myFxz0vQ;
-        "forge-1.20.1" = _myFxz0vQ;
-        "quilt-1.21" = _d3WYz1j7;
-        "quilt-1.21.1" = _d3WYz1j7;
-        "quilt-1.20" = _myFxz0vQ;
-        "quilt-1.20.1" = _myFxz0vQ;
+        "forge-1.21" = _YaqA3koo;
+        "forge-1.21.1" = _YaqA3koo;
+        "forge-1.20" = _iLT8O8nC;
+        "forge-1.20.1" = _iLT8O8nC;
+        "quilt-1.21" = _YaqA3koo;
+        "quilt-1.21.1" = _YaqA3koo;
+        "quilt-1.20" = _iLT8O8nC;
+        "quilt-1.20.1" = _iLT8O8nC;
         "quilt-1.21.2" = _MICGSIhG;
         "quilt-1.21.3" = _MICGSIhG;
         "quilt-1.19.2" = _thoYyhuT;
-        "neoforge-1.21" = _d3WYz1j7;
-        "neoforge-1.21.1" = _d3WYz1j7;
-        "neoforge-1.20" = _myFxz0vQ;
-        "neoforge-1.20.1" = _myFxz0vQ;
+        "neoforge-1.21" = _YaqA3koo;
+        "neoforge-1.21.1" = _YaqA3koo;
+        "neoforge-1.20" = _iLT8O8nC;
+        "neoforge-1.20.1" = _iLT8O8nC;
         "pkg-1.0.6-1.21" = _xCaumMxE;
         "pkg-1.0.6-1.20.1" = _TiuwbxjW;
         "pkg-1.0.7-1.21.3" = _eqVXZ614;
@@ -150,7 +162,9 @@ let
         "pkg-1.1.0-1.21" = _9oL7PUrs;
         "pkg-1.2.0-1.21.1" = _d3WYz1j7;
         "pkg-1.2.0-1.20.1" = _myFxz0vQ;
-        "default" = _myFxz0vQ;
+        "pkg-2.0.0-1.21.1" = _YaqA3koo;
+        "pkg-2.0.0-1.20.1" = _iLT8O8nC;
+        "default" = _iLT8O8nC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mebahels-zombie-horde";

@@ -11,13 +11,46 @@ let
             "file" = "SpearEffects-1.0.1+1.21.11.jar";
             "hash" = "sha512-Z95MfvUHXAwsPMpkSlSqaet5Uj0vYsbma8SkhEmqmBNgm+xiklD8fX49kChmlZDTl9e6XhPBZnsMMwardA64Ew==";
         };
+        _5IE70t8G = {
+            "id" = "5IE70t8G";
+            "file" = "SpearEffects-1.1.0+1.21.11.jar";
+            "hash" = "sha512-f0uoi1yTK0y973enuP6GPSjkU1AsZ6uVb+aZdhXKji9WDOqFS3QxsuqpDPoNDjkikP8n7VPzuXpvAEe+rz2z+g==";
+        };
+        _80UWTiSp = {
+            "id" = "80UWTiSp";
+            "file" = "SpearEffects-1.1.0+26.1-26.1.2.jar";
+            "hash" = "sha512-EYVtbVdhobvSC7w95fehG7kyIby+DTCggrYT9SXTWgfyg9MkU3iGDZTgM0Jrm+gdpzR+AvmWx3vfd6+F+l8dWQ==";
+        };
+        _rnnuuLdK = {
+            "id" = "rnnuuLdK";
+            "file" = "SpearEffects-1.1.0+26.2.jar";
+            "hash" = "sha512-xyYibPPamzz5aPIAhxxvwdQZbSUwPeqIdgrMYaa65tKXqh/ZqvwCxYF1onLZmbGrLltNQ2Wl/cSkKZ9Nhg9BKQ==";
+        };
+        _3AgGFuun = {
+            "id" = "3AgGFuun";
+            "file" = "SpearEffects-1.1.0+26.3.jar";
+            "hash" = "sha512-iUgnJFO5a8Ch0WID8XkJosXmlM++BG9vEzA8Tg+yCG4uXLY2Zjd423IZZSVH71QBaZyLMlVS15q/tD/m1vJ/Ow==";
+        };
     in {
         "C1nhArdA" = _C1nhArdA;
         "ZvanGOQH" = _ZvanGOQH;
-        "fabric-1.21.11" = _ZvanGOQH;
+        "5IE70t8G" = _5IE70t8G;
+        "80UWTiSp" = _80UWTiSp;
+        "rnnuuLdK" = _rnnuuLdK;
+        "3AgGFuun" = _3AgGFuun;
+        "fabric-1.21.11" = _5IE70t8G;
+        "fabric-26.1" = _80UWTiSp;
+        "fabric-26.1.1" = _80UWTiSp;
+        "fabric-26.1.2" = _80UWTiSp;
+        "fabric-26.2" = _rnnuuLdK;
+        "fabric-26.3" = _3AgGFuun;
         "pkg-1.0.0+1.21.11" = _C1nhArdA;
         "pkg-1.0.1+1.21.11" = _ZvanGOQH;
-        "default" = _ZvanGOQH;
+        "pkg-1.1.0+1.21.11" = _5IE70t8G;
+        "pkg-1.1.0+26.1-26.1.2" = _80UWTiSp;
+        "pkg-1.1.0+26.2" = _rnnuuLdK;
+        "pkg-1.1.0+26.3" = _3AgGFuun;
+        "default" = _3AgGFuun;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spear-effects";

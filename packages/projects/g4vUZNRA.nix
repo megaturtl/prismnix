@@ -36,6 +36,11 @@ let
             "file" = "careful-break-1.3.0.jar";
             "hash" = "sha512-ZWIGAVtfIcyLFIZHJZPjao8rN51vFiQ1DK9dzy2DaIBXUqnQuAKL6F9PCTReK6Gihs0+mX9XGUGCCefX3nJ56A==";
         };
+        _YNQQvhEK = {
+            "id" = "YNQQvhEK";
+            "file" = "careful-break-1.3.1.jar";
+            "hash" = "sha512-NHfCtcpNAn9P8v9Dribv+PrGeUEnziX4RCk+hWZJqZAoz+pqU9gpQzeGNppFd9POJ6QjSPFvcdB6oJmsDQVqNQ==";
+        };
     in {
         "NMzeEItK" = _NMzeEItK;
         "iqoSZNED" = _iqoSZNED;
@@ -44,6 +49,7 @@ let
         "tAaQTrhY" = _tAaQTrhY;
         "mWbALKvO" = _mWbALKvO;
         "TwVNN6mq" = _TwVNN6mq;
+        "YNQQvhEK" = _YNQQvhEK;
         "fabric-1.20.6" = _NMzeEItK;
         "fabric-1.21" = _mWbALKvO;
         "fabric-1.21.1" = _mWbALKvO;
@@ -60,6 +66,7 @@ let
         "fabric-26.1" = _TwVNN6mq;
         "fabric-26.1.1" = _TwVNN6mq;
         "fabric-26.1.2" = _TwVNN6mq;
+        "fabric-26.3" = _YNQQvhEK;
         "forge-1.20.1" = _PxNZHJzi;
         "pkg-1.0.0" = _NMzeEItK;
         "pkg-1.0.1" = _iqoSZNED;
@@ -68,7 +75,8 @@ let
         "pkg-1.2.0" = _tAaQTrhY;
         "pkg-1.2.1" = _mWbALKvO;
         "pkg-1.3.0" = _TwVNN6mq;
-        "default" = _TwVNN6mq;
+        "pkg-1.3.1" = _YNQQvhEK;
+        "default" = _YNQQvhEK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "careful-break";

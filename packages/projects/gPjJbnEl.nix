@@ -421,6 +421,16 @@ let
             "file" = "linearreader-1.3.0.1-fabric-26.1-26.2.jar";
             "hash" = "sha512-xR1BqPYQ79S5GBI0Z3C0UNAYyCtrUxQJ/hO+TW+W1RSEF28r5fv0BLddQ5hNhR/bZojcWa86O7HA1IC1QWcNzA==";
         };
+        _kosGamKC = {
+            "id" = "kosGamKC";
+            "file" = "linearreader-1.3.0.1-fabric-26.3.jar";
+            "hash" = "sha512-T6MzD4nrXMlkroQw8t4wR61157syJpqyS34uGwO06bw2CXPBBnyocTcUzM/GfQy86UeOEVCo/hq8GJ4/n+X5ww==";
+        };
+        _QH30tXZY = {
+            "id" = "QH30tXZY";
+            "file" = "linearreader-1.3.0-neoforge-26.3.jar";
+            "hash" = "sha512-3IF5rXxXI5FZ0cEsYoi37bv20as1z2SYw9PcvsRE+wpPRXYK9w3gzGG/WKD/dq3AsylH+S17VSRUPJitPTlReQ==";
+        };
     in {
         "oo0lVHIH" = _oo0lVHIH;
         "iyvrI0Nw" = _iyvrI0Nw;
@@ -506,6 +516,8 @@ let
         "ZRAXXvw5" = _ZRAXXvw5;
         "6GdKjOLp" = _6GdKjOLp;
         "zY1oZ7ku" = _zY1oZ7ku;
+        "kosGamKC" = _kosGamKC;
+        "QH30tXZY" = _QH30tXZY;
         "forge-1.20.1" = _x6pc6W6q;
         "forge-1.20" = _x6pc6W6q;
         "forge-1.20.2" = _GwOzMJgo;
@@ -550,6 +562,7 @@ let
         "neoforge-26.1.1" = _lAVVvTSv;
         "neoforge-26.1.2" = _lAVVvTSv;
         "neoforge-26.2" = _lAVVvTSv;
+        "neoforge-26.3" = _QH30tXZY;
         "fabric-1.20.1" = _OcbTt78x;
         "fabric-1.20" = _OcbTt78x;
         "fabric-1.20.2" = _1k9gbkCC;
@@ -573,6 +586,7 @@ let
         "fabric-26.1.1" = _zY1oZ7ku;
         "fabric-26.1.2" = _zY1oZ7ku;
         "fabric-26.2" = _zY1oZ7ku;
+        "fabric-26.3" = _kosGamKC;
         "pkg-1.0.0" = _iyvrI0Nw;
         "pkg-1.0.1" = _OfMvIF7e;
         "pkg-1.1.0" = _bRdyFD9n;
@@ -583,9 +597,9 @@ let
         "pkg-1.2.0" = _gNmqVi7X;
         "pkg-1.2.0.1" = _N2kiaoDI;
         "pkg-1.2.1" = _OrpISPM3;
-        "pkg-1.3.0" = _lAVVvTSv;
-        "pkg-1.3.0.1" = _zY1oZ7ku;
-        "default" = _zY1oZ7ku;
+        "pkg-1.3.0" = _QH30tXZY;
+        "pkg-1.3.0.1" = _kosGamKC;
+        "default" = _QH30tXZY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "linearreader";

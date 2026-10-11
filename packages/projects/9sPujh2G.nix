@@ -171,6 +171,46 @@ let
             "file" = "randomizer-v2.0-beta.jar";
             "hash" = "sha512-5wNkTkwqxWfTA/JwNXLw1ur4ASYAdXjB5geMwhemR0LNuX3AGCpjTisRpZyHj4Za8pxvrUWYaKRUxiKj0MG8vA==";
         };
+        _V7yS6nTj = {
+            "id" = "V7yS6nTj";
+            "file" = "randomizer-v2.1.jar";
+            "hash" = "sha512-hP2lnXiZHmHlsBJSZUpMCuQ7sCq5XkGB9h5ItUO3p5j7gJ5gVo7CpytH3Xa2JWjRjOeKhyBnHoXZvWOcey0UTA==";
+        };
+        _wrDvfG9I = {
+            "id" = "wrDvfG9I";
+            "file" = "randomizer-v2.1.jar";
+            "hash" = "sha512-8NjRbiOw5hZMHZMM53HJf7bnZFZcE/QIuA8FVkgKxk8d8xiqShrSVrs7pzeJsEMjoMTdhVb6EQStysVCN0NgwQ==";
+        };
+        _yUlIpDXi = {
+            "id" = "yUlIpDXi";
+            "file" = "randomizer-v2.2-1.21.11.jar";
+            "hash" = "sha512-SQuJg9e1djNz0sg4Kca02E6RffWkiYs6raP0wQSsngKnNeYBwCTfNlBWY/9xMJWyzTyPEp9vADfN3m72zEL9XQ==";
+        };
+        _xRPNi3ES = {
+            "id" = "xRPNi3ES";
+            "file" = "randomizer-v2.2-26.1.x.jar";
+            "hash" = "sha512-THKdE+FRDPFQTU5Ko+DoY9WFvvBsBdPpxCqJ9vvLnLPmS/fn+fdq2ep6G+d5OI/kIQpe6ffMzyZc3gzd44y50g==";
+        };
+        _syVmN2lJ = {
+            "id" = "syVmN2lJ";
+            "file" = "randomizer-v2.2-26.2.jar";
+            "hash" = "sha512-lJRek+jbn7wpZvrF7+nfz7mfrUUhNQKkMSp60WxZqqC89nylCFwPbGnPiJwi7+mO6tpKbcLCaB4RXMJg1HTG5w==";
+        };
+        _tTNJujpn = {
+            "id" = "tTNJujpn";
+            "file" = "randomizer-v2.2-26.3.jar";
+            "hash" = "sha512-GYiJRz7vCtuB/he6hBYyOURcO+SSpPHXGqMqRC1/8izNs4JgOlrvpJaq/hfA0b6a1gDUqu7AGCd7MRH5nbJM9w==";
+        };
+        _f0ryEEFQ = {
+            "id" = "f0ryEEFQ";
+            "file" = "randomizer-26.3-v1.5.zip";
+            "hash" = "sha512-VZU2Gojn/3kBK5xSyaSTkev8rKEXGWlhv9SL7d7EeNcK/icDTYKMZJN2XmN42d/FrZ3FMNCVvx/uteLrbDVHNA==";
+        };
+        _TEfZCgHO = {
+            "id" = "TEfZCgHO";
+            "file" = "loot-randomizer-1.5.jar";
+            "hash" = "sha512-5BCMg4k9NtLNqDYhYIC/sDOdzofPgTaBjKRR0kltOaSos3wrHdtChYAfhyhDTB1DWnmuLKmyjPj/N3GEZLggOA==";
+        };
     in {
         "fKhqvbDl" = _fKhqvbDl;
         "JIg1AGoC" = _JIg1AGoC;
@@ -206,6 +246,14 @@ let
         "PJyuRJSE" = _PJyuRJSE;
         "IQHiwMnA" = _IQHiwMnA;
         "IyDAAGo1" = _IyDAAGo1;
+        "V7yS6nTj" = _V7yS6nTj;
+        "wrDvfG9I" = _wrDvfG9I;
+        "yUlIpDXi" = _yUlIpDXi;
+        "xRPNi3ES" = _xRPNi3ES;
+        "syVmN2lJ" = _syVmN2lJ;
+        "tTNJujpn" = _tTNJujpn;
+        "f0ryEEFQ" = _f0ryEEFQ;
+        "TEfZCgHO" = _TEfZCgHO;
         "datapack-1.21" = _Tt5CzMvl;
         "datapack-1.21.1" = _Tt5CzMvl;
         "datapack-1.21.2" = _Tt5CzMvl;
@@ -234,6 +282,7 @@ let
         "datapack-26.1.1" = _iZK2W7GT;
         "datapack-26.1.2" = _iZK2W7GT;
         "datapack-26.2" = _PJyuRJSE;
+        "datapack-26.3" = _f0ryEEFQ;
         "fabric-1.21" = _yls27sg1;
         "fabric-1.21.1" = _yls27sg1;
         "fabric-1.21.2" = _yls27sg1;
@@ -257,11 +306,12 @@ let
         "fabric-1.21.8" = _yls27sg1;
         "fabric-1.21.9" = _yls27sg1;
         "fabric-1.21.10" = _yls27sg1;
-        "fabric-1.21.11" = _gXs4l9ns;
-        "fabric-26.1" = _15nbmVcg;
-        "fabric-26.1.1" = _15nbmVcg;
-        "fabric-26.1.2" = _15nbmVcg;
-        "fabric-26.2" = _IyDAAGo1;
+        "fabric-1.21.11" = _yUlIpDXi;
+        "fabric-26.1" = _xRPNi3ES;
+        "fabric-26.1.1" = _xRPNi3ES;
+        "fabric-26.1.2" = _xRPNi3ES;
+        "fabric-26.2" = _syVmN2lJ;
+        "fabric-26.3" = _tTNJujpn;
         "forge-1.21" = _yls27sg1;
         "forge-1.21.1" = _yls27sg1;
         "forge-1.21.2" = _yls27sg1;
@@ -290,6 +340,7 @@ let
         "forge-26.1.1" = _15nbmVcg;
         "forge-26.1.2" = _15nbmVcg;
         "forge-26.2" = _IQHiwMnA;
+        "forge-26.3" = _TEfZCgHO;
         "neoforge-1.20" = _TK6SIVYD;
         "neoforge-1.20.1" = _TK6SIVYD;
         "neoforge-1.20.2" = _TK6SIVYD;
@@ -318,6 +369,7 @@ let
         "neoforge-26.1.1" = _15nbmVcg;
         "neoforge-26.1.2" = _15nbmVcg;
         "neoforge-26.2" = _IQHiwMnA;
+        "neoforge-26.3" = _TEfZCgHO;
         "quilt-1.21.5" = _yls27sg1;
         "quilt-1.21.6" = _yls27sg1;
         "quilt-1.21.7" = _yls27sg1;
@@ -341,6 +393,7 @@ let
         "quilt-26.1.1" = _15nbmVcg;
         "quilt-26.1.2" = _15nbmVcg;
         "quilt-26.2" = _IQHiwMnA;
+        "quilt-26.3" = _TEfZCgHO;
         "pkg-v0.0.1" = _JIg1AGoC;
         "pkg-v0.1.0" = _E4eftfy8;
         "pkg-v0.1.1" = _qvqLAOwV;
@@ -354,7 +407,11 @@ let
         "pkg-v1.5" = _PJyuRJSE;
         "pkg-v1.5+mod" = _IQHiwMnA;
         "pkg-v2.0-beta" = _IyDAAGo1;
-        "default" = _IyDAAGo1;
+        "pkg-2.1" = _wrDvfG9I;
+        "pkg-2.2" = _tTNJujpn;
+        "pkg-1.5" = _f0ryEEFQ;
+        "pkg-1.5+mod" = _TEfZCgHO;
+        "default" = _TEfZCgHO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "loot-randomizer";

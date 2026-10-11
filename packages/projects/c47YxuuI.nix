@@ -111,6 +111,36 @@ let
             "file" = "nowheel-2.0.0-hotfix1+1.20.1forge.jar";
             "hash" = "sha512-7CVgKGl9xRN7Y7tTS46gYfupFPthFbyoQPFNbihYwAu94XarFrUpKFVz1A8E6OzRMvmDStnIGRmIRKhyvpKm1g==";
         };
+        _Mdh95L6f = {
+            "id" = "Mdh95L6f";
+            "file" = "nowheel-2.1.0+1.20.1forge.jar";
+            "hash" = "sha512-mNY+e6La4NIeFSTh0rBdDqISUmEXj3pyegXlC2G7DumbYah+i9H9rKm74xtj6K2nYf2wR5RDWSb4LX7rw/NJvw==";
+        };
+        _2o5gIrs0 = {
+            "id" = "2o5gIrs0";
+            "file" = "nowheel-2.1.0+1.20.1fabric.jar";
+            "hash" = "sha512-h+Ify05w3kehU4YK1uyKHWwPXfdMA8A+0HD0AwXBmCnUodqDlRpb9fcOeDoF10xdipa00vXDFnWLC+BEhK+b+w==";
+        };
+        _B1Yf8bQO = {
+            "id" = "B1Yf8bQO";
+            "file" = "nowheel-2.1.0+1.21.1neoforge.jar";
+            "hash" = "sha512-uAIQ/qSa2SfTwqNMZjLwLB/fAFuYzT9wArhXGOFC3DhR6AMTKI/TtPgrI2JSY67nVIcyrfkZFT/7QNy5OQYITg==";
+        };
+        _CkJBSEnO = {
+            "id" = "CkJBSEnO";
+            "file" = "nowheel-2.1.1+1.20.1forge.jar";
+            "hash" = "sha512-Wgv26Ir36yS3O43ZQFB5kunBdkD358iHcuan81W6b3kQqNBpRboQ2nyBBiV33EpA1blVLRH/Cm1O6Q/m7nsTNA==";
+        };
+        _5Lpc8HCI = {
+            "id" = "5Lpc8HCI";
+            "file" = "nowheel-2.1.1+1.20.1fabric.jar";
+            "hash" = "sha512-o44YrLbMTd53PkHn8j9K8iYAuQLpf9UEEPqxTtyBYnTeqKI2t8c9IBIeKYNGsteUmlxk88p9pWWvXMW9CZo74w==";
+        };
+        _3NKOvEei = {
+            "id" = "3NKOvEei";
+            "file" = "nowheel-2.1.1+1.21.1neoforge.jar";
+            "hash" = "sha512-h+capcfbRQxPQiQpIs8ZJTe+mf8EGujJWcIZk43evAZFWFhpOv6aU2yNf8/W/aE2qNDwF8BQ5PJ9BDULfLQ5Vg==";
+        };
     in {
         "RuCjfl7v" = _RuCjfl7v;
         "UaY78URl" = _UaY78URl;
@@ -134,9 +164,15 @@ let
         "wECOI4Ln" = _wECOI4Ln;
         "M22mABCk" = _M22mABCk;
         "44nFHyPK" = _44nFHyPK;
-        "neoforge-1.21.1" = _M22mABCk;
-        "fabric-1.20.1" = _wECOI4Ln;
-        "forge-1.20.1" = _44nFHyPK;
+        "Mdh95L6f" = _Mdh95L6f;
+        "2o5gIrs0" = _2o5gIrs0;
+        "B1Yf8bQO" = _B1Yf8bQO;
+        "CkJBSEnO" = _CkJBSEnO;
+        "5Lpc8HCI" = _5Lpc8HCI;
+        "3NKOvEei" = _3NKOvEei;
+        "neoforge-1.21.1" = _3NKOvEei;
+        "fabric-1.20.1" = _5Lpc8HCI;
+        "forge-1.20.1" = _CkJBSEnO;
         "pkg-1.0.0" = _RuCjfl7v;
         "pkg-1.0.1" = _BQFpM7kc;
         "pkg-1.0.3+1.21.1neoforge" = _UM2eqBZI;
@@ -157,7 +193,13 @@ let
         "pkg-2.0.0+1.20.1fabric" = _wECOI4Ln;
         "pkg-2.0.0+1.21.1neoforge" = _M22mABCk;
         "pkg-2.0.0-hotfix1+1.20.1forge" = _44nFHyPK;
-        "default" = _44nFHyPK;
+        "pkg-2.1.0+1.20.1forge" = _Mdh95L6f;
+        "pkg-2.1.0+1.20.1fabric" = _2o5gIrs0;
+        "pkg-2.1.0+1.21.1neoforge" = _B1Yf8bQO;
+        "pkg-2.1.1+1.20.1forge" = _CkJBSEnO;
+        "pkg-2.1.1+1.20.1fabric" = _5Lpc8HCI;
+        "pkg-2.1.1+1.21.1neoforge" = _3NKOvEei;
+        "default" = _3NKOvEei;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-nowheel";

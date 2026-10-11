@@ -101,6 +101,16 @@ let
             "file" = "SheepVariety-v26.2.0-mc26.2.x-Fabric.jar";
             "hash" = "sha512-ru2WzP/8zckSswvFIBNpy9aaslFn7v3jLE/IynkP2XMW7Gnui+9Z9qNjoaQnD0a287JEol6lzYISS9FKy32tig==";
         };
+        _ODEmdVMP = {
+            "id" = "ODEmdVMP";
+            "file" = "sheepvariety-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-9w74jGULgv2rMdkO/BlhyeLkycvnf6ny8eqT7AoJkOPGx86Geyk9MIBKc7BGwsMe7r+ik6zWfhGiQUkyz8DJdA==";
+        };
+        _XjailbMC = {
+            "id" = "XjailbMC";
+            "file" = "sheepvariety-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-v2KfNdZNhvvII/vQQaaiARNQLCd3UqDT38AlPgz+6bz07Bhodws6fe+NT9+eYxaszZjIc7KbE2/jzCnQL9oZIw==";
+        };
     in {
         "Qnrr8De4" = _Qnrr8De4;
         "3rD6u2JD" = _3rD6u2JD;
@@ -122,6 +132,8 @@ let
         "OlDUi589" = _OlDUi589;
         "tb9jeKEG" = _tb9jeKEG;
         "72mMPqea" = _72mMPqea;
+        "ODEmdVMP" = _ODEmdVMP;
+        "XjailbMC" = _XjailbMC;
         "fabric-1.21.4" = _Qnrr8De4;
         "fabric-1.21.5" = _B3Vz4jOj;
         "fabric-1.21.6" = _zCz6a3nQ;
@@ -134,6 +146,7 @@ let
         "fabric-26.1.1" = _OlDUi589;
         "fabric-26.1.2" = _OlDUi589;
         "fabric-26.2" = _72mMPqea;
+        "fabric-26.3" = _ODEmdVMP;
         "neoforge-1.21.4" = _3rD6u2JD;
         "neoforge-1.21.5" = _TFMO27dK;
         "neoforge-1.21.6" = _DCWoNbI4;
@@ -146,6 +159,7 @@ let
         "neoforge-26.1.1" = _5GvkCTF6;
         "neoforge-26.1.2" = _5GvkCTF6;
         "neoforge-26.2" = _tb9jeKEG;
+        "neoforge-26.3" = _XjailbMC;
         "pkg-v21.4.0-1.21.4-Fabric" = _Qnrr8De4;
         "pkg-v21.4.0-1.21.4-NeoForge" = _3rD6u2JD;
         "pkg-v21.5.0-1.21.5-Fabric" = _B3Vz4jOj;
@@ -161,7 +175,8 @@ let
         "pkg-21.11.0" = _2A8FqzUJ;
         "pkg-26.1.0" = _OlDUi589;
         "pkg-26.2.0" = _72mMPqea;
-        "default" = _72mMPqea;
+        "pkg-26.3.0" = _XjailbMC;
+        "default" = _XjailbMC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sheep-variety";

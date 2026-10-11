@@ -171,6 +171,21 @@ let
             "file" = "animalgarden_prairiedog-1.0.3-fabric-26.1.2-0.145.4.jar";
             "hash" = "sha512-lW8yl9V6enz6xv7a2qDcrqC3reHRkcZsZ2crOdJEjPUg7toORkAFyxwJ5Z8e89tp01XQyMpWKjZ+3D3KTIH8/w==";
         };
+        _85ahSaz0 = {
+            "id" = "85ahSaz0";
+            "file" = "animalgarden-prairiedog-1.0.3-fabric-26.3-0.161.0.jar";
+            "hash" = "sha512-wwjnDW7MH8O/l7wv6YgjEEQJKO4KBHercTTA8CNL53zxcmlcOylkpW6abVZR+bhEFXu9doUF3NKzdmqUZ84BAQ==";
+        };
+        _QMgWw5I6 = {
+            "id" = "QMgWw5I6";
+            "file" = "animalgarden-prairiedog-1.0.3-neoforge-26.3.0.13.jar";
+            "hash" = "sha512-SRlRjXrET6sCIPuPanBB0CV2wo5dmENuvvXKrDtawY89Cx9ZL9tUP0Qm3pcUQq/Sx93mAVFEarOFRR9eB2Rifw==";
+        };
+        _K1fuE0rC = {
+            "id" = "K1fuE0rC";
+            "file" = "animalgarden-prairiedog-1.0.3-forge-26.3-66.0.2.jar";
+            "hash" = "sha512-zNtGxgRfx5IBE0FIk9eqMc0lV6hrQcZYx5uMxfAfwbjEw073U/JOh3YEbaRUxGaBsDk/npqXd5rV8e9azDOwgQ==";
+        };
     in {
         "XZciyiTq" = _XZciyiTq;
         "gN7zqKgO" = _gN7zqKgO;
@@ -206,6 +221,9 @@ let
         "ohckx6It" = _ohckx6It;
         "6wkLWLmR" = _6wkLWLmR;
         "u4lvSFfw" = _u4lvSFfw;
+        "85ahSaz0" = _85ahSaz0;
+        "QMgWw5I6" = _QMgWw5I6;
+        "K1fuE0rC" = _K1fuE0rC;
         "neoforge-1.20.4" = _XZciyiTq;
         "neoforge-1.20.6" = _gN7zqKgO;
         "neoforge-1.21.1" = _ZvqNk5GI;
@@ -222,6 +240,7 @@ let
         "neoforge-26.1.1" = _6wkLWLmR;
         "neoforge-26.1.2" = _6wkLWLmR;
         "neoforge-26.2" = _6wkLWLmR;
+        "neoforge-26.3" = _QMgWw5I6;
         "forge-1.18.2" = _OqD3M2Pe;
         "forge-1.19.2" = _LfgnF7f8;
         "forge-1.19.4" = _GYhmzCuX;
@@ -242,6 +261,7 @@ let
         "forge-26.1.1" = _ohckx6It;
         "forge-26.1.2" = _ohckx6It;
         "forge-26.2" = _ohckx6It;
+        "forge-26.3" = _K1fuE0rC;
         "fabric-1.19.4" = _PlBed8qj;
         "fabric-1.20.1" = _FlomD4RV;
         "fabric-1.20.4" = _FlomD4RV;
@@ -267,6 +287,7 @@ let
         "fabric-26.1.1" = _u4lvSFfw;
         "fabric-26.1.2" = _u4lvSFfw;
         "fabric-26.2" = _u4lvSFfw;
+        "fabric-26.3" = _85ahSaz0;
         "pkg-1.0.0-neoforge-1.20.4-20.4.251" = _XZciyiTq;
         "pkg-1.0.0-neoforge-1.20.6-20.6.139" = _gN7zqKgO;
         "pkg-1.0.0-neoforge-1.21.1-21.1.217" = _FVm919c0;
@@ -301,7 +322,10 @@ let
         "pkg-1.0.3-forge-26.1.2-64.0.0" = _ohckx6It;
         "pkg-1.0.3-neoforge-26.1.2.2" = _6wkLWLmR;
         "pkg-1.0.3-fabric-26.1.2-0.145.4" = _u4lvSFfw;
-        "default" = _u4lvSFfw;
+        "pkg-1.0.3-fabric-26.3-0.161.0" = _85ahSaz0;
+        "pkg-1.0.3-neoforge-26.3.0.13" = _QMgWw5I6;
+        "pkg-1.0.3-forge-26.3-66.0.2" = _K1fuE0rC;
+        "default" = _K1fuE0rC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "animal-garden-prairie-dog";

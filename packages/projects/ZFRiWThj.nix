@@ -1246,6 +1246,116 @@ let
             "file" = "syncmatica_r-26.1-0.5.2.jar";
             "hash" = "sha512-PSONGd0Ij6u70icLY+zFqu+i6HPfQ9sDtMWwlXYjOUzALSVdKbfdx4h9cVSHiUuAqYr/vhXmVzfi3imWUhL2fw==";
         };
+        _R5LomFOu = {
+            "id" = "R5LomFOu";
+            "file" = "syncmatica_r-1.21.1-0.5.3.jar";
+            "hash" = "sha512-9ujv5tlBCsVelX6jQwUQvpDRECuQrraHW/QY5znjUJZ6VkVUfC3Fcr6++0LGJnVUOsaro/X2hapBPP1JjJS8cg==";
+        };
+        _bK2cWFwO = {
+            "id" = "bK2cWFwO";
+            "file" = "syncmatica_r-1.21.11-0.5.3.jar";
+            "hash" = "sha512-CbjHpqQUJz6ujgBujJQPuoR6kIybojYK3tG2eTjB2slXwkVKsYTcibQbGQLbfIT6cZS0Y2O60I56ZF4mh77qbw==";
+        };
+        _yVNJbiTa = {
+            "id" = "yVNJbiTa";
+            "file" = "syncmatica_r-1.21.10-0.5.3.jar";
+            "hash" = "sha512-EGgTAXIoLdBR0YIfr1wOHfQthlsIwGT1vrCTYddH3UcbKNAYKNxbCsxFDf3HQED02/Y86fEF6gz1UR2QJL9vwQ==";
+        };
+        _bqFJQsfn = {
+            "id" = "bqFJQsfn";
+            "file" = "syncmatica_r-1.21.8-0.5.3.jar";
+            "hash" = "sha512-XhgT69JncQPn60LoGDauN5VuTByvR5ui0tSJIu4c4WRmm2y1luj4Lf8+cxEWoxkX7gdAy+1yH+K8AGLXSKZgKg==";
+        };
+        _R9xugSiB = {
+            "id" = "R9xugSiB";
+            "file" = "syncmatica_r-1.21.4-0.5.3.jar";
+            "hash" = "sha512-lpFeTbXrdBxI8GlyLUxn6Fd+lAYjdphJD4XYvZVQFDxM8bl07ag9mqI4B3rh8nZGh5o7aDW1+L/fRpfdMqOCGQ==";
+        };
+        _GZ5C28XV = {
+            "id" = "GZ5C28XV";
+            "file" = "syncmatica_r-1.17.1-0.5.3.jar";
+            "hash" = "sha512-Y6jHzRyc+mCH9r2PcocMT618dvdVRaExsDooMn7ik4ZemyZMZpArVo9gmNXVMlY6FdXGb/9uVF84k3kd/bfftg==";
+        };
+        _1dTc7nBK = {
+            "id" = "1dTc7nBK";
+            "file" = "syncmatica_r-26.1-0.5.3.jar";
+            "hash" = "sha512-vcbRmjc5Ri2u7QOsFrK2bdtjjypqVV8TVoDBiSCx48tqOFmPxYOKegoQA5L8YqyM9PzVYLNbNeunpvhIm2z3Qg==";
+        };
+        _IT9uHvof = {
+            "id" = "IT9uHvof";
+            "file" = "syncmatica_r-1.20.1-0.5.3.jar";
+            "hash" = "sha512-5HKEfh8p4BDQ3IaY58cunPhH4WOBZ4Qox0Ggg29jSs8DhEPTTjrZyqrxH4ouHR1DyMclB5m4u6H9JEqjnGHMYw==";
+        };
+        _BiC3MUjq = {
+            "id" = "BiC3MUjq";
+            "file" = "syncmatica_r-26.2-0.5.3.jar";
+            "hash" = "sha512-0z5k6ANq2crzgrVGkiUC98b6ARQv7yS4iufZG3MqBujAtj2cAD66R3auF7kEY2zPhWkNkSYzkfIQ3zdHnykikA==";
+        };
+        _w296X3BT = {
+            "id" = "w296X3BT";
+            "file" = "syncmatica_r-1.21.6-0.5.3.jar";
+            "hash" = "sha512-mg0px+/mZKvtqZw2slzuzglrfXKuw1hbAjWknmhKbCnn4t0wGHCnsCv2vNYGqeFTGgHobUtxH+ADEZuuOA6tuA==";
+        };
+        _nkNNNNHV = {
+            "id" = "nkNNNNHV";
+            "file" = "syncmatica_r-26.3-0.5.3.jar";
+            "hash" = "sha512-G5J8anYZLgu3MN+ZqesLGPW37CCxNZgRs08HtW1TEXo138Crza/YPqrN3wAINO1AR98zWnb6B2p+Oh6NNp6huw==";
+        };
+        _9SGoLdqg = {
+            "id" = "9SGoLdqg";
+            "file" = "syncmatica_r-26.3-0.5.4.jar";
+            "hash" = "sha512-3xxVvMw1UXG3r9WA7Sa0n9FfWoTcV0SK/Q9jewAbU33LlMrNjNiQAlpGEbDU3JiNuRAUrCWWfgnObuBb+0fKRQ==";
+        };
+        _dHnI7NjB = {
+            "id" = "dHnI7NjB";
+            "file" = "syncmatica_r-1.21.10-0.5.4.jar";
+            "hash" = "sha512-jLmo4ZsS3eGjqB0ag7Ii9uLgv2ykZDcwc/WFwh82ffaOcxLECw8ngUUcf/1lDUalwA4XFauh76phRtM8BB5TAA==";
+        };
+        _QHXBKvKG = {
+            "id" = "QHXBKvKG";
+            "file" = "syncmatica_r-26.2-0.5.4.jar";
+            "hash" = "sha512-i7yGO4bp17oDKlayImSVILtNKrYd6IPUO8XNdQayIH/2/Iul7ZZ07g3aWsIeAj3VdJEFZKNJgaqLA+2sL0ZHaQ==";
+        };
+        _lxjOGGiG = {
+            "id" = "lxjOGGiG";
+            "file" = "syncmatica_r-1.17.1-0.5.4.jar";
+            "hash" = "sha512-4i5gP+Tgncx7UIWEI6x+x3Vkfzn2GbCNR6XIKQv9tCFhXan2sAC53hgQS8TkNZeBXEBFQQmPvA/5DGyrpoApcg==";
+        };
+        _fYVnnfqC = {
+            "id" = "fYVnnfqC";
+            "file" = "syncmatica_r-1.21.6-0.5.4.jar";
+            "hash" = "sha512-ZOJrhRn6ur2w9mn2F2R0A4kadp4sryHxbRRt99/cDGqU6OYE5C7ZSdqjtUs6GIEr0/xVd5yw4LVObwW8XOoKSw==";
+        };
+        _GVincLsD = {
+            "id" = "GVincLsD";
+            "file" = "syncmatica_r-1.21.1-0.5.4.jar";
+            "hash" = "sha512-N5UNztvocipxT6lk1U6zV3xchvNCEOVh5aBygk8ElgM6EiuS/IubiKrWPQ1WlJjiVrdu47kcRI9IVWAMwLyfsQ==";
+        };
+        _bX4sh4QG = {
+            "id" = "bX4sh4QG";
+            "file" = "syncmatica_r-1.21.8-0.5.4.jar";
+            "hash" = "sha512-JnYptF3nFNRH1ebuFJCYD9/w4bcpIzUzXy/Us2i9GrpE//azWNZ6AttvtOunmoPbkP9EBWAeLp3DoogrSEVcZA==";
+        };
+        _1pmRjzwO = {
+            "id" = "1pmRjzwO";
+            "file" = "syncmatica_r-26.1-0.5.4.jar";
+            "hash" = "sha512-WW4dobBnhM2KtsxjcOY8hti7iTuZg4ZpYABUT1nWil5hfSiRbt1RDzdDwrs0BirLJZdyEmUjsfbO0UcqOSrflw==";
+        };
+        _nkOxlB8Q = {
+            "id" = "nkOxlB8Q";
+            "file" = "syncmatica_r-1.21.11-0.5.4.jar";
+            "hash" = "sha512-XvV18HWa51YbJ0nsoJYiYRftdOtL4oLYckTC2bjcYIGsIg0Afqgo6PsyWluBlPrFgCW3OA0vzLi1veaAG4svlQ==";
+        };
+        _vKa74mVS = {
+            "id" = "vKa74mVS";
+            "file" = "syncmatica_r-1.20.1-0.5.4.jar";
+            "hash" = "sha512-Wg4mH2UC8Bmj2gszqSpDiW06L2Oeq9sq6cJaE13BzOTCv0BgX5WgkVsOSVOzu7VNdxr3Bui9ANtUem3Frc5BiA==";
+        };
+        _7zrZFdya = {
+            "id" = "7zrZFdya";
+            "file" = "syncmatica_r-1.21.4-0.5.4.jar";
+            "hash" = "sha512-GArxEz1/Guw5fT9DtALH9htdzcjlvYyIbIW4hpNL5d6JnuDVXsKVmxNYdZ9zk9BKjevoHYFJqsaRnjXds2ri7w==";
+        };
     in {
         "JLp2mIEH" = _JLp2mIEH;
         "bHN0tJc9" = _bHN0tJc9;
@@ -1496,16 +1606,39 @@ let
         "GPsKEkvm" = _GPsKEkvm;
         "lYsa1sTx" = _lYsa1sTx;
         "ITlAW9n9" = _ITlAW9n9;
-        "fabric-1.20.1" = _GPsKEkvm;
-        "fabric-1.17.1" = _ihwsfHVs;
-        "fabric-1.21.1" = _enQraJit;
-        "fabric-1.21.10" = _xEz3waMP;
-        "fabric-1.21.11" = _lYsa1sTx;
-        "fabric-1.21.4" = _Q6vrgN7B;
-        "fabric-1.21.8" = _GGgmxE7Z;
-        "fabric-1.21.6" = _dCpWjhtb;
-        "fabric-26.1" = _ITlAW9n9;
-        "fabric-26.2" = _xF0IvmZs;
+        "R5LomFOu" = _R5LomFOu;
+        "bK2cWFwO" = _bK2cWFwO;
+        "yVNJbiTa" = _yVNJbiTa;
+        "bqFJQsfn" = _bqFJQsfn;
+        "R9xugSiB" = _R9xugSiB;
+        "GZ5C28XV" = _GZ5C28XV;
+        "1dTc7nBK" = _1dTc7nBK;
+        "IT9uHvof" = _IT9uHvof;
+        "BiC3MUjq" = _BiC3MUjq;
+        "w296X3BT" = _w296X3BT;
+        "nkNNNNHV" = _nkNNNNHV;
+        "9SGoLdqg" = _9SGoLdqg;
+        "dHnI7NjB" = _dHnI7NjB;
+        "QHXBKvKG" = _QHXBKvKG;
+        "lxjOGGiG" = _lxjOGGiG;
+        "fYVnnfqC" = _fYVnnfqC;
+        "GVincLsD" = _GVincLsD;
+        "bX4sh4QG" = _bX4sh4QG;
+        "1pmRjzwO" = _1pmRjzwO;
+        "nkOxlB8Q" = _nkOxlB8Q;
+        "vKa74mVS" = _vKa74mVS;
+        "7zrZFdya" = _7zrZFdya;
+        "fabric-1.20.1" = _vKa74mVS;
+        "fabric-1.17.1" = _lxjOGGiG;
+        "fabric-1.21.1" = _GVincLsD;
+        "fabric-1.21.10" = _dHnI7NjB;
+        "fabric-1.21.11" = _nkOxlB8Q;
+        "fabric-1.21.4" = _7zrZFdya;
+        "fabric-1.21.8" = _bX4sh4QG;
+        "fabric-1.21.6" = _fYVnnfqC;
+        "fabric-26.1" = _1pmRjzwO;
+        "fabric-26.2" = _QHXBKvKG;
+        "fabric-26.3" = _9SGoLdqg;
         "pkg-1.20.1-0.3.12" = _JLp2mIEH;
         "pkg-1.17.1-0.3.12" = _bHN0tJc9;
         "pkg-syncmatica_r-v0.3.14-mc1.20.1" = _c7eTDkjB;
@@ -1755,7 +1888,29 @@ let
         "pkg-v0.5.2-mc1.20.1" = _GPsKEkvm;
         "pkg-v0.5.2-mc1.21.11" = _lYsa1sTx;
         "pkg-v0.5.2-mc26.1" = _ITlAW9n9;
-        "default" = _ITlAW9n9;
+        "pkg-v0.5.3-mc1.21.1" = _R5LomFOu;
+        "pkg-v0.5.3-mc1.21.11" = _bK2cWFwO;
+        "pkg-v0.5.3-mc1.21.10" = _yVNJbiTa;
+        "pkg-v0.5.3-mc1.21.8" = _bqFJQsfn;
+        "pkg-v0.5.3-mc1.21.4" = _R9xugSiB;
+        "pkg-v0.5.3-mc1.17.1" = _GZ5C28XV;
+        "pkg-v0.5.3-mc26.1" = _1dTc7nBK;
+        "pkg-v0.5.3-mc1.20.1" = _IT9uHvof;
+        "pkg-v0.5.3-mc26.2" = _BiC3MUjq;
+        "pkg-v0.5.3-mc1.21.6" = _w296X3BT;
+        "pkg-v0.5.3-mc26.3" = _nkNNNNHV;
+        "pkg-v0.5.4-mc26.3" = _9SGoLdqg;
+        "pkg-v0.5.4-mc1.21.10" = _dHnI7NjB;
+        "pkg-v0.5.4-mc26.2" = _QHXBKvKG;
+        "pkg-v0.5.4-mc1.17.1" = _lxjOGGiG;
+        "pkg-v0.5.4-mc1.21.6" = _fYVnnfqC;
+        "pkg-v0.5.4-mc1.21.1" = _GVincLsD;
+        "pkg-v0.5.4-mc1.21.8" = _bX4sh4QG;
+        "pkg-v0.5.4-mc26.1" = _1pmRjzwO;
+        "pkg-v0.5.4-mc1.21.11" = _nkOxlB8Q;
+        "pkg-v0.5.4-mc1.20.1" = _vKa74mVS;
+        "pkg-v0.5.4-mc1.21.4" = _7zrZFdya;
+        "default" = _7zrZFdya;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "syncmatica-revolution";

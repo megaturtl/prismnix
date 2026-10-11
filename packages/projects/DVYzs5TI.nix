@@ -36,6 +36,16 @@ let
             "file" = "uiinpuis-stackable-pearls-V1.1.jar";
             "hash" = "sha512-xmza9gM7gI04KpEDILkoH9e4qGkfNCN+JHWY+SuAmpLRIfmyq2d3wSdAGRLurRcV/s4hy3MU+Kd/W0/fzFtoBg==";
         };
+        _JubyhEpR = {
+            "id" = "JubyhEpR";
+            "file" = "64 ender pearls.zip";
+            "hash" = "sha512-KPJpkLF/G+aSBOXbzdBIXSobW5hvlvdYe1MTyxapSI5vpPBQmDKhqiN/fGm3jpaY0ej8wH/+5D/RktzwrjXKNw==";
+        };
+        _qwUFJiOC = {
+            "id" = "qwUFJiOC";
+            "file" = "uiinpuis-stackable-pearls-26.3.jar";
+            "hash" = "sha512-Z8SMuuN4NGbtzMuk2KCrGpMYKDOLULisPRdm3IaPLU0MfDqggscVTDGvKKtzzoPOFkppHNd6fFlZ+DXgVlt73A==";
+        };
     in {
         "fSzGnk8B" = _fSzGnk8B;
         "HfXZaWn4" = _HfXZaWn4;
@@ -44,6 +54,8 @@ let
         "HPhSiu0V" = _HPhSiu0V;
         "LGNVyhsW" = _LGNVyhsW;
         "brwy8HTf" = _brwy8HTf;
+        "JubyhEpR" = _JubyhEpR;
+        "qwUFJiOC" = _qwUFJiOC;
         "datapack-1.21" = _HfXZaWn4;
         "datapack-1.21.1" = _HfXZaWn4;
         "datapack-1.21.5" = _LGNVyhsW;
@@ -57,6 +69,7 @@ let
         "datapack-26.1.1" = _LGNVyhsW;
         "datapack-26.1.2" = _LGNVyhsW;
         "datapack-26.2" = _LGNVyhsW;
+        "datapack-26.3" = _JubyhEpR;
         "fabric-1.21" = _3qwqGzKU;
         "fabric-1.21.1" = _3qwqGzKU;
         "fabric-1.21.5" = _brwy8HTf;
@@ -70,6 +83,7 @@ let
         "fabric-26.1.1" = _brwy8HTf;
         "fabric-26.1.2" = _brwy8HTf;
         "fabric-26.2" = _brwy8HTf;
+        "fabric-26.3" = _qwUFJiOC;
         "forge-1.21" = _3qwqGzKU;
         "forge-1.21.1" = _3qwqGzKU;
         "forge-1.21.5" = _brwy8HTf;
@@ -83,6 +97,7 @@ let
         "forge-26.1.1" = _brwy8HTf;
         "forge-26.1.2" = _brwy8HTf;
         "forge-26.2" = _brwy8HTf;
+        "forge-26.3" = _qwUFJiOC;
         "neoforge-1.21" = _3qwqGzKU;
         "neoforge-1.21.1" = _3qwqGzKU;
         "neoforge-1.21.5" = _brwy8HTf;
@@ -96,6 +111,7 @@ let
         "neoforge-26.1.1" = _brwy8HTf;
         "neoforge-26.1.2" = _brwy8HTf;
         "neoforge-26.2" = _brwy8HTf;
+        "neoforge-26.3" = _qwUFJiOC;
         "quilt-1.21" = _3qwqGzKU;
         "quilt-1.21.1" = _3qwqGzKU;
         "quilt-1.21.5" = _brwy8HTf;
@@ -109,9 +125,11 @@ let
         "quilt-26.1.1" = _brwy8HTf;
         "quilt-26.1.2" = _brwy8HTf;
         "quilt-26.2" = _brwy8HTf;
+        "quilt-26.3" = _qwUFJiOC;
         "pkg-V1.0" = _fSzGnk8B;
         "pkg-V1.1" = _brwy8HTf;
-        "default" = _brwy8HTf;
+        "pkg-26.3" = _qwUFJiOC;
+        "default" = _qwUFJiOC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "uiinpuis-stackable-pearls";

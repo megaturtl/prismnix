@@ -486,6 +486,16 @@ let
             "file" = "appleskin-fabric-mc26.2-3.0.10.jar";
             "hash" = "sha512-3fMdj+I59mdgYyYGIhqepV0xkHqff4ZnMxkpytNIRX7CGZy5DUEO4aBuNrr8AaO/FSoG/Tybnkb1CEEkCHWDKw==";
         };
+        _6vok7cLb = {
+            "id" = "6vok7cLb";
+            "file" = "appleskin-neoforge-mc26.3-3.0.10.jar";
+            "hash" = "sha512-pFTJCvVEpj+5BHCZh1ExInBriyb5e8stNkWPmWl3VK5LMtLidcd9rp1EjPojZJfg3jZnfMDE4AL3j+3b4ERJ7w==";
+        };
+        _PHjDtQay = {
+            "id" = "PHjDtQay";
+            "file" = "appleskin-fabric-mc26.3-3.0.10.jar";
+            "hash" = "sha512-F9JXr0GbdTCqhhfC6MDku/q8+IjyZlV5DgGI55V+C82TH4X5pMaf0n6Ine5Qgs97K4dBoUpu1EJenvS/4TqLjA==";
+        };
     in {
         "tqCi5b3L" = _tqCi5b3L;
         "cLs3ccZw" = _cLs3ccZw;
@@ -584,6 +594,8 @@ let
         "zLlqqiTA" = _zLlqqiTA;
         "slnk1Qah" = _slnk1Qah;
         "uo5bAN1Y" = _uo5bAN1Y;
+        "6vok7cLb" = _6vok7cLb;
+        "PHjDtQay" = _PHjDtQay;
         "fabric-1.17.1" = _3hKtTn8d;
         "fabric-1.16.4" = _cLs3ccZw;
         "fabric-1.16.5" = _8N1HVFeQ;
@@ -621,6 +633,7 @@ let
         "fabric-26.1.1" = _zLlqqiTA;
         "fabric-26.1.2" = _zLlqqiTA;
         "fabric-26.2" = _uo5bAN1Y;
+        "fabric-26.3" = _PHjDtQay;
         "forge-1.17.1" = _I5z4tUkM;
         "forge-1.16.4" = _633NTwhH;
         "forge-1.16.5" = _633NTwhH;
@@ -671,6 +684,7 @@ let
         "neoforge-26.1.1" = _i8MiVItH;
         "neoforge-26.1.2" = _i8MiVItH;
         "neoforge-26.2" = _slnk1Qah;
+        "neoforge-26.3" = _6vok7cLb;
         "pkg-fabric-mc1.17.1-2.2.0" = _tqCi5b3L;
         "pkg-fabric-mc1.16.x-2.2.0" = _cLs3ccZw;
         "pkg-forge-mc1.17.1-2.2.0" = _FJe7NwOr;
@@ -750,7 +764,8 @@ let
         "pkg-3.0.9+mc26.1" = _HwaLJe3v;
         "pkg-3.0.10+mc26.1.2" = _zLlqqiTA;
         "pkg-3.0.10+mc26.2" = _uo5bAN1Y;
-        "default" = _uo5bAN1Y;
+        "pkg-3.0.10+mc26.3" = _PHjDtQay;
+        "default" = _PHjDtQay;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "appleskin";

@@ -126,6 +126,131 @@ let
             "file" = "ClickSigns-forge-1.0.6+1.20.1.jar";
             "hash" = "sha512-hO6hVFCrzaIin+3ptT1XPvR28SLBZCYABwNkVZ/fWSgKj33odJmHO8DHhuB11W9v//dzWqOD93ZYNTIAVDN4ww==";
         };
+        _vuAFR4qW = {
+            "id" = "vuAFR4qW";
+            "file" = "ClickSigns-2.0-beta-1+1.20.1-fabric.jar";
+            "hash" = "sha512-IZcHfempukD4HX95i8ZVslL+ErT6nDTul5rjvEvAEl2krpVfz+n9xNza+NQs8YMyQpIDpRw6749GQmHP7+Czlw==";
+        };
+        _DQP5HTfW = {
+            "id" = "DQP5HTfW";
+            "file" = "ClickSigns-2.0-beta-2+1.20.1-forge.jar";
+            "hash" = "sha512-BFMsCVJlK8WgkOxn72HxXzReGUz9dIzdfpIlNZW3AVzPG+h3HRbj5ds/e752QJcCm40At4wy7ThPaFrgCsvF7A==";
+        };
+        _2z72jxWn = {
+            "id" = "2z72jxWn";
+            "file" = "ClickSigns-2.0-beta-2+1.20.1-fabric.jar";
+            "hash" = "sha512-qTcowjLFMsQPlOVnVygiMrRjPSv2DVTO705XyuBKTNblspni+K8jUdj+29ksccAOrAFZ4VXl0AW3aba2ho4KLQ==";
+        };
+        _C3mwkYRm = {
+            "id" = "C3mwkYRm";
+            "file" = "ClickSigns-2.0-beta-3+1.20.1-forge.jar";
+            "hash" = "sha512-c1va23MYn/hK+UonazIXuP9NdvJOYg7izNa4G+cwBquUqBh65t9CBEBp/JEJKSELQ6m69FJHHboFAry9/OFuFQ==";
+        };
+        _S1CjsONW = {
+            "id" = "S1CjsONW";
+            "file" = "ClickSigns-2.0-beta-3+1.20.1-fabric.jar";
+            "hash" = "sha512-3Sg0cVdylngLSFPlaSDYmQdJ4IVcoNaUaBPoF56uwZxJDAEmSdUQabU2yumRiIhMCHOEWpYaRHoTHNZZf4PY/A==";
+        };
+        _ECV76IHc = {
+            "id" = "ECV76IHc";
+            "file" = "ClickSigns-2.0-beta-4+1.21.1-neoforge.jar";
+            "hash" = "sha512-R/XhfW00ypFokZc7XcbX0tbLFwozxuIonHmmnPeUqNCjAw/IF01z7kofaid6muw9efvzzcdI1R64E4lgtG71ow==";
+        };
+        _zhiwhDNN = {
+            "id" = "zhiwhDNN";
+            "file" = "ClickSigns-2.0-beta-4+1.20.1-fabric.jar";
+            "hash" = "sha512-d5Yfk7/J2AmD6F1Yw1g0DwTqDKAmfV4Wc657Ze24Vj8aQzeMT+xw0dtU8zxDnulice7FSA/kFyvTk0ZGfJqdaA==";
+        };
+        _rnlci63z = {
+            "id" = "rnlci63z";
+            "file" = "ClickSigns-2.0-beta-4+1.21.1-fabric.jar";
+            "hash" = "sha512-RfNO/RnwLJC73roc5N6Vhic4mZu29a1JCV4eXSdNMlUf8kGjVbCFrdI42EBiGk0cNKOD9gwq8+h+rUtsXky/oQ==";
+        };
+        _bzVxYVXy = {
+            "id" = "bzVxYVXy";
+            "file" = "ClickSigns-2.0-beta-5+1.21.1-neoforge.jar";
+            "hash" = "sha512-KzW6xcHc9Xa/FSBXtm/gXsfq9NVGjU7AUbQVjJH8J7krxZQDdOJr7dv+VP2l70VyAejNWHxK5RWbF9JvYBR5Cw==";
+        };
+        _UdQD8RvI = {
+            "id" = "UdQD8RvI";
+            "file" = "ClickSigns-2.0-beta-5+26.1-fabric.jar";
+            "hash" = "sha512-VjUsY6/MocFklTczPNrFDtQTEIB+MasdV9vUr5hLpRx/MEv7r4SW3ygwPnkgSB/QWTL+B75nuXucwGyI3Iaegw==";
+        };
+        _GyV4bvCu = {
+            "id" = "GyV4bvCu";
+            "file" = "ClickSigns-2.0-beta-5+1.20.1-fabric.jar";
+            "hash" = "sha512-yFyyVhMZZ3C08QEB7arH4Q6ZJdMwCz5MLldSLatKkThxchjRDZIwMV2Ciyj7GfuN+7ixZkTFW8eGb3sPh6AZyw==";
+        };
+        _jsEq9jDO = {
+            "id" = "jsEq9jDO";
+            "file" = "ClickSigns-2.0-beta-5+1.21.1-fabric.jar";
+            "hash" = "sha512-QbXmb4a6v3UzEBCJV3jsCUO8++Gn0JNkmyQMGVjaDdVigAvcgqrfy/DbXn5OqyszZkn2Xz4aSTppxblrSTrN2A==";
+        };
+        _MihSt8XS = {
+            "id" = "MihSt8XS";
+            "file" = "ClickSigns-2.0-beta-5+26.1-neoforge.jar";
+            "hash" = "sha512-YEUaN0f7irFr29yQldH15gI1r12r4jhQXkve2ie+AjMVYjbrdAI1fdgHebmqW5o4nuRRJITRlVvxl8YTFdgQ2A==";
+        };
+        _YfDRj4bP = {
+            "id" = "YfDRj4bP";
+            "file" = "ClickSigns-2.0-beta-5+26.2-neoforge.jar";
+            "hash" = "sha512-dFid64HGVdepnbV7HxQPRVMxmCQWASNS7aS9SCaHt+Z3x2syVQ+eXW12eECp/ZXZjot9AhZfv7Zrr34at4YO/Q==";
+        };
+        _eVVCMOtk = {
+            "id" = "eVVCMOtk";
+            "file" = "ClickSigns-2.0-beta-5+26.2-fabric.jar";
+            "hash" = "sha512-q8T4xTpRTiiv8L8lPX974LDl/Q/1SlogvRjDKbhD/IqLhH6NzKuWkeXGOdLYHmUHEYQKktGZI1UGdQhyIhJPZA==";
+        };
+        _s5UpOQFe = {
+            "id" = "s5UpOQFe";
+            "file" = "ClickSigns-2.0-beta-6+1.21.1-fabric.jar";
+            "hash" = "sha512-CsvhxTmqjU7gSPEzWdGq3eS34A+VyMMctb2oujbyjcwc0SO7znKXs3zPuaxAakjCG38O3aYgppk7QFJhHDJI1A==";
+        };
+        _T1HCgR6d = {
+            "id" = "T1HCgR6d";
+            "file" = "ClickSigns-2.0-beta-6+1.20.1-fabric.jar";
+            "hash" = "sha512-1+eptGPdyxZbh6to5zlFmqvHLtZzT29YC5YPZEGvX/SiZu2t4IQ2FBkeNW4PAgAdTwW3AgRkqsU9+2rEEaoIjA==";
+        };
+        _Lh694g3Z = {
+            "id" = "Lh694g3Z";
+            "file" = "ClickSigns-2.0-beta-6+26.1-fabric.jar";
+            "hash" = "sha512-DvNg3YNNvtXbSdQYk0HSbJZ6YdBoXvCyWUE8cLVtnJjZIGhkxjvifUooOKzcecnxHnIH42ORPlxVtQHdprPT5Q==";
+        };
+        _jU3GQHOn = {
+            "id" = "jU3GQHOn";
+            "file" = "ClickSigns-2.0-beta-6+26.1-neoforge.jar";
+            "hash" = "sha512-UNieIoJBlVf4YdcZAEHM/gYPjdMJ2X9Zs0eOpT9z4NmCITQzR00g+VWl8f99llvN1j30oTvYu9/dXdyANcY6PA==";
+        };
+        _K1jaTX9h = {
+            "id" = "K1jaTX9h";
+            "file" = "ClickSigns-2.0-beta-6+1.21.1-neoforge.jar";
+            "hash" = "sha512-R10srYEhGgEyds7j3sdopvU78yNMDPU7yfwECvuzJdTvzP35dk8tGFOuNcMX5wUF4TaClNR4tl3xWwSjtmjwQA==";
+        };
+        _5XmMARSz = {
+            "id" = "5XmMARSz";
+            "file" = "ClickSigns-2.0-beta-6+26.2-neoforge.jar";
+            "hash" = "sha512-CKy8OK1kP6DoySRI/jRA+VFlZr/xOcK5Z5DFcR6wm2NujEB5jYI5/8R2DcF87af+f1cd9Ij+Y6OwetS4Kxt8GQ==";
+        };
+        _5cJgJUsw = {
+            "id" = "5cJgJUsw";
+            "file" = "ClickSigns-2.0-beta-6+26.2-fabric.jar";
+            "hash" = "sha512-EFKIa+nBW/kQ+DGox6JXAayBLnJ/2DRnCV4W7gxNT4HAUAWCeqvshmD2cHJ2Dprim8YmhAtMRlfeMWUFmZHUwQ==";
+        };
+        _hk7DvKvy = {
+            "id" = "hk7DvKvy";
+            "file" = "ClickSigns-2.0-beta-6+26.3-fabric.jar";
+            "hash" = "sha512-coMSC+Q9kHont+om7I+YiA6r4Q6yWZVEQArtf4RG0weN7LAUI+9wWtrse6hA9/9v//Dwe3087CfWdHhDXPQ3bQ==";
+        };
+        _gUYF67b4 = {
+            "id" = "gUYF67b4";
+            "file" = "ClickSigns-2.0-beta-6+26.3-neoforge.jar";
+            "hash" = "sha512-INeY6mQoavVeN0hxIKmAhd23EDLdszYRsShTHErFYzlL/U0DAhpNRyWUMr7SdIEb+DNyKd3V1Pq0EXfjpgX6Hg==";
+        };
+        _qSQkZO4a = {
+            "id" = "qSQkZO4a";
+            "file" = "ClickSigns-2.0-beta-6-hotfix+1.20.1-forge.jar";
+            "hash" = "sha512-hdVNzkQpILAtPLck324AFn8H1eqYwL6VOE0Li0FFOUW1u4Bl1oRPqLHBj8QDYFTmo5p9Vndj2PdU/vEafw565w==";
+        };
     in {
         "7iEZU1ZZ" = _7iEZU1ZZ;
         "ex6YsvxS" = _ex6YsvxS;
@@ -152,15 +277,52 @@ let
         "TYfS46e8" = _TYfS46e8;
         "XZAowzTd" = _XZAowzTd;
         "exaWp5UK" = _exaWp5UK;
-        "fabric-1.21.1" = _XZAowzTd;
-        "fabric-1.21" = _XZAowzTd;
+        "vuAFR4qW" = _vuAFR4qW;
+        "DQP5HTfW" = _DQP5HTfW;
+        "2z72jxWn" = _2z72jxWn;
+        "C3mwkYRm" = _C3mwkYRm;
+        "S1CjsONW" = _S1CjsONW;
+        "ECV76IHc" = _ECV76IHc;
+        "zhiwhDNN" = _zhiwhDNN;
+        "rnlci63z" = _rnlci63z;
+        "bzVxYVXy" = _bzVxYVXy;
+        "UdQD8RvI" = _UdQD8RvI;
+        "GyV4bvCu" = _GyV4bvCu;
+        "jsEq9jDO" = _jsEq9jDO;
+        "MihSt8XS" = _MihSt8XS;
+        "YfDRj4bP" = _YfDRj4bP;
+        "eVVCMOtk" = _eVVCMOtk;
+        "s5UpOQFe" = _s5UpOQFe;
+        "T1HCgR6d" = _T1HCgR6d;
+        "Lh694g3Z" = _Lh694g3Z;
+        "jU3GQHOn" = _jU3GQHOn;
+        "K1jaTX9h" = _K1jaTX9h;
+        "5XmMARSz" = _5XmMARSz;
+        "5cJgJUsw" = _5cJgJUsw;
+        "hk7DvKvy" = _hk7DvKvy;
+        "gUYF67b4" = _gUYF67b4;
+        "qSQkZO4a" = _qSQkZO4a;
+        "fabric-1.21.1" = _s5UpOQFe;
+        "fabric-1.21" = _s5UpOQFe;
         "fabric-1.21.4" = _ITpaOl1K;
-        "fabric-1.20.1" = _EhUb54QN;
+        "fabric-1.20.1" = _T1HCgR6d;
         "fabric-1.21.5" = _TYfS46e8;
         "fabric-1.21.8" = _lKZxtEUd;
         "fabric-1.21.6" = _lKZxtEUd;
         "fabric-1.21.7" = _lKZxtEUd;
-        "forge-1.20.1" = _exaWp5UK;
+        "fabric-26.1" = _Lh694g3Z;
+        "fabric-26.1.1" = _Lh694g3Z;
+        "fabric-26.1.2" = _Lh694g3Z;
+        "fabric-26.2" = _5cJgJUsw;
+        "fabric-26.3" = _hk7DvKvy;
+        "forge-1.20.1" = _qSQkZO4a;
+        "neoforge-1.21" = _K1jaTX9h;
+        "neoforge-1.21.1" = _K1jaTX9h;
+        "neoforge-26.1" = _jU3GQHOn;
+        "neoforge-26.1.1" = _jU3GQHOn;
+        "neoforge-26.1.2" = _jU3GQHOn;
+        "neoforge-26.2" = _5XmMARSz;
+        "neoforge-26.3" = _gUYF67b4;
         "pkg-1.0.0" = _7iEZU1ZZ;
         "pkg-1.0.1+1.21.1" = _ex6YsvxS;
         "pkg-1.0.1+1.21.4" = _W4w6wEwX;
@@ -184,7 +346,32 @@ let
         "pkg-1.0.6+1.21.8" = _lKZxtEUd;
         "pkg-1.0.6+1.21.5" = _TYfS46e8;
         "pkg-1.0.6+1.21.1" = _XZAowzTd;
-        "default" = _exaWp5UK;
+        "pkg-2.0-beta-1+1.20.1-fabric" = _vuAFR4qW;
+        "pkg-2.0-beta-2+1.20.1-forge" = _DQP5HTfW;
+        "pkg-2.0-beta-2+1.20.1-fabric" = _2z72jxWn;
+        "pkg-2.0-beta-3+1.20.1-forge" = _C3mwkYRm;
+        "pkg-2.0-beta-3+1.20.1-fabric" = _S1CjsONW;
+        "pkg-2.0-beta-4+1.21.1-neoforge" = _ECV76IHc;
+        "pkg-2.0-beta-4+1.20.1-fabric" = _zhiwhDNN;
+        "pkg-2.0-beta-4+1.21.1-fabric" = _rnlci63z;
+        "pkg-2.0-beta-5+1.21.1-neoforge" = _bzVxYVXy;
+        "pkg-2.0-beta-5+26.1-fabric" = _UdQD8RvI;
+        "pkg-2.0-beta-5+1.20.1-fabric" = _GyV4bvCu;
+        "pkg-2.0-beta-5+1.21.1-fabric" = _jsEq9jDO;
+        "pkg-2.0-beta-5+26.1-neoforge" = _MihSt8XS;
+        "pkg-2.0-beta-5+26.2-neoforge" = _YfDRj4bP;
+        "pkg-2.0-beta-5+26.2-fabric" = _eVVCMOtk;
+        "pkg-2.0-beta-6+1.21.1-fabric" = _s5UpOQFe;
+        "pkg-2.0-beta-6+1.20.1-fabric" = _T1HCgR6d;
+        "pkg-2.0-beta-6+26.1-fabric" = _Lh694g3Z;
+        "pkg-2.0-beta-6+26.1-neoforge" = _jU3GQHOn;
+        "pkg-2.0-beta-6+1.21.1-neoforge" = _K1jaTX9h;
+        "pkg-2.0-beta-6+26.2-neoforge" = _5XmMARSz;
+        "pkg-2.0-beta-6+26.2-fabric" = _5cJgJUsw;
+        "pkg-2.0-beta-6+26.3-fabric" = _hk7DvKvy;
+        "pkg-2.0-beta-6+26.3-neoforge" = _gUYF67b4;
+        "pkg-2.0-beta-6-hotfix+1.20.1-forge" = _qSQkZO4a;
+        "default" = _qSQkZO4a;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "clicksigns";

@@ -76,6 +76,11 @@ let
             "file" = "nekomasfixed-0.5.3-26.2.jar";
             "hash" = "sha512-4GRAFohxtdGKdfXx4LMy933ZW7BKEt366JEjFV9HKpAT2DwJve2b+aW6HQkI8u/1hkkUhvQ/29TNCP5AVYniIA==";
         };
+        _10xJU08f = {
+            "id" = "10xJU08f";
+            "file" = "nekomasfixed-0.5.4-26.3.jar";
+            "hash" = "sha512-Iaj0u+jDNcfJC2PCmMLhGDkpnkV3pJl+kXyvvqLxkLJoXO7pAu6JLuKjXT4hOSzPEw6UBuCIE5qC3NjrlYDPlQ==";
+        };
     in {
         "xRYtjWcs" = _xRYtjWcs;
         "Jd4FPaSR" = _Jd4FPaSR;
@@ -92,10 +97,12 @@ let
         "u5Eb5nMO" = _u5Eb5nMO;
         "yKLEw1dV" = _yKLEw1dV;
         "F3QZXNdb" = _F3QZXNdb;
+        "10xJU08f" = _10xJU08f;
         "fabric-1.21.10" = _Jd4FPaSR;
         "fabric-1.21.11" = _u5Eb5nMO;
         "fabric-26.1.2" = _yKLEw1dV;
         "fabric-26.2" = _F3QZXNdb;
+        "fabric-26.3" = _10xJU08f;
         "pkg-0.2.0-1.21.10" = _xRYtjWcs;
         "pkg-0.2.1-1.21.10" = _Jd4FPaSR;
         "pkg-0.2.1-1.21.11" = _Bsap4uwT;
@@ -111,7 +118,8 @@ let
         "pkg-0.5.3-1.21.11" = _u5Eb5nMO;
         "pkg-0.5.3-26.1.2" = _yKLEw1dV;
         "pkg-0.5.3-26.2" = _F3QZXNdb;
-        "default" = _F3QZXNdb;
+        "pkg-0.5.4-26.3" = _10xJU08f;
+        "default" = _10xJU08f;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nekomas-fixed";

@@ -71,6 +71,16 @@ let
             "file" = "illager_war_trireme-1.0.0 Neoforge 1.21.11.jar";
             "hash" = "sha512-VSDQ7tt/bQpWVkPTy7zkTYlNczRFlk69BY54LVgSHur+iEJJVFeJzhrzrEpUF/Vqk92QHZCX//yMDg7LQsZcFA==";
         };
+        _149Ln9zS = {
+            "id" = "149Ln9zS";
+            "file" = "illager_war_trireme-1.0.0 Fabric 26.3.jar";
+            "hash" = "sha512-qTE76R+dyJV2n2vZSzwoeLiM/R6NCyqLJD/RffjeaU2v1nvcwARpUD6rtXXyYXy/DNUb+RKIlbJi4dlZcLtQ6Q==";
+        };
+        _LAbjDjfD = {
+            "id" = "LAbjDjfD";
+            "file" = "illager_war_trireme-1.0.0 Neoforge 26.3.jar";
+            "hash" = "sha512-HXEsT/OEtVZISKwkZYS/KLBRhYj4TiFTHfVbGBF0OLdmL2SJdLtmTToPJy2oedegdRFjFtQi91Mc0QYH6tisnA==";
+        };
     in {
         "wDpDaPhe" = _wDpDaPhe;
         "CN1P5c4M" = _CN1P5c4M;
@@ -86,6 +96,8 @@ let
         "262VuknL" = _262VuknL;
         "rgbMe5Ak" = _rgbMe5Ak;
         "J10LC3QQ" = _J10LC3QQ;
+        "149Ln9zS" = _149Ln9zS;
+        "LAbjDjfD" = _LAbjDjfD;
         "fabric-1.20.1" = _wDpDaPhe;
         "fabric-1.21.8" = _MqcHwytJ;
         "fabric-1.21.10" = _K0MiDwDM;
@@ -93,6 +105,7 @@ let
         "fabric-26.1.2" = _9nP3fYUF;
         "fabric-26.2" = _2gKrQIl3;
         "fabric-1.21.1" = _rgbMe5Ak;
+        "fabric-26.3" = _149Ln9zS;
         "forge-1.20.1" = _CN1P5c4M;
         "neoforge-1.21.1" = _lgM1VBEc;
         "neoforge-1.21.4" = _3W31Mt3y;
@@ -100,9 +113,10 @@ let
         "neoforge-26.1.2" = _NOQB3u0V;
         "neoforge-26.2" = _262VuknL;
         "neoforge-1.21.11" = _J10LC3QQ;
-        "pkg-1.0.0" = _J10LC3QQ;
+        "neoforge-26.3" = _LAbjDjfD;
+        "pkg-1.0.0" = _LAbjDjfD;
         "pkg-1.0.1" = _LHcE81zt;
-        "default" = _J10LC3QQ;
+        "default" = _LAbjDjfD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "illager-war-trireme";

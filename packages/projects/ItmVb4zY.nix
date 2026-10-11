@@ -381,6 +381,26 @@ let
             "file" = "Cobbreeding-neoforge-2.3.0.jar";
             "hash" = "sha512-HzovnAlrz3pjg9yzvkCTfrmZM0k7foUpxOjAzVS/2y24aWqt5ZKUDVMb7r/1AuwmN9ZUFIQizsoubX57Bg3snA==";
         };
+        _T6anWJ4G = {
+            "id" = "T6anWJ4G";
+            "file" = "Cobbreeding-fabric-2.3.1.jar";
+            "hash" = "sha512-Xm1q6b0mBkCgqW8xeD1m+c5JGRGC1EXXNs2sQZy7gZ81BNLPyUDZBhUhl4f8lDGhwsRXqt1U9R9hbgeQzEfOJQ==";
+        };
+        _60jPCA3i = {
+            "id" = "60jPCA3i";
+            "file" = "Cobbreeding-neoforge-2.3.1.jar";
+            "hash" = "sha512-tKr4QaMtRFOVkIzmBOh8DOq8y0WRM2RrosJglUwX5r+85Rfjx7hE1sU48MGPsz++OY0E6p+g47ZHOjfj7Xo/ZQ==";
+        };
+        _r68eGAJ9 = {
+            "id" = "r68eGAJ9";
+            "file" = "Cobbreeding-fabric-2.4.0.jar";
+            "hash" = "sha512-xK2mKbhG6s7Ccja234M+sloB69WFv5L4cNFiXZNDUZxRTgm2NcIQ/NWvF8PnVf4EN4fRBxYy3NFlRHxDUrsdLg==";
+        };
+        _swwaPKY0 = {
+            "id" = "swwaPKY0";
+            "file" = "Cobbreeding-neoforge-2.4.0.jar";
+            "hash" = "sha512-5g7e0rH3nm3YMM4hz1UpH8SL09TlFF2yr27dk/EaZrmXh5s+V0LQ+FqK6RIQSmGN4sksiSNlp0yMMWdNdf/MEw==";
+        };
     in {
         "Od4wqjWo" = _Od4wqjWo;
         "W3EQO03r" = _W3EQO03r;
@@ -458,10 +478,14 @@ let
         "9bPk2DC3" = _9bPk2DC3;
         "dED6lApR" = _dED6lApR;
         "su1QucoO" = _su1QucoO;
+        "T6anWJ4G" = _T6anWJ4G;
+        "60jPCA3i" = _60jPCA3i;
+        "r68eGAJ9" = _r68eGAJ9;
+        "swwaPKY0" = _swwaPKY0;
         "fabric-1.20.1" = _8urJiCDL;
-        "fabric-1.21.1" = _dED6lApR;
+        "fabric-1.21.1" = _r68eGAJ9;
         "forge-1.20.1" = _L7IKCpcg;
-        "neoforge-1.21.1" = _su1QucoO;
+        "neoforge-1.21.1" = _swwaPKY0;
         "pkg-1.4.0" = _Od4wqjWo;
         "pkg-1.4.1" = _W3EQO03r;
         "pkg-1.4.2" = _BsPO3qqG;
@@ -504,7 +528,9 @@ let
         "pkg-2.2.1" = _xt8IiPEN;
         "pkg-2.2.2" = _9bPk2DC3;
         "pkg-2.3.0" = _su1QucoO;
-        "default" = _su1QucoO;
+        "pkg-2.3.1" = _60jPCA3i;
+        "pkg-2.4.0" = _swwaPKY0;
+        "default" = _swwaPKY0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobbreeding";

@@ -406,6 +406,11 @@ let
             "file" = "worldmanager-1.5.1+26.2.jar";
             "hash" = "sha512-gdQ1XqoM3tufj2NU2FuKnUjCxzyrpxbNgJq9azmAw3zs93aWIDjk7cFUwzs9gyEXgnnr23mI+7EwuQyGM90gMQ==";
         };
+        _Dj1ziri9 = {
+            "id" = "Dj1ziri9";
+            "file" = "worldmanager-1.5.1+26.3.jar";
+            "hash" = "sha512-cUZSXELDVuxnib3f8WATUqhSmv5BvajBjlsQJB0FzZvjzsQQIkq+csEYv3TpyRuiJDtQ0Yonc9JiYDyW5C/SeA==";
+        };
     in {
         "U5GBJ9KY" = _U5GBJ9KY;
         "wEupBCMk" = _wEupBCMk;
@@ -488,6 +493,7 @@ let
         "KF9k5QeL" = _KF9k5QeL;
         "euPFhgEz" = _euPFhgEz;
         "rFCvqVee" = _rFCvqVee;
+        "Dj1ziri9" = _Dj1ziri9;
         "fabric-1.21.4" = _MeojTspt;
         "fabric-1.21.1" = _ujQsXYr9;
         "fabric-1.21.5" = _m3oyAAYV;
@@ -503,6 +509,7 @@ let
         "fabric-26.1.1" = _euPFhgEz;
         "fabric-26.1.2" = _euPFhgEz;
         "fabric-26.2" = _rFCvqVee;
+        "fabric-26.3" = _Dj1ziri9;
         "quilt-1.21.4" = _MeojTspt;
         "quilt-1.21.1" = _ujQsXYr9;
         "quilt-1.21.5" = _m3oyAAYV;
@@ -518,6 +525,7 @@ let
         "quilt-26.1.1" = _euPFhgEz;
         "quilt-26.1.2" = _euPFhgEz;
         "quilt-26.2" = _rFCvqVee;
+        "quilt-26.3" = _Dj1ziri9;
         "pkg-1.0.0" = _U5GBJ9KY;
         "pkg-1.1.0+1.21.4" = _wEupBCMk;
         "pkg-1.1.0+1.21.1" = _d5vlpUIV;
@@ -599,7 +607,8 @@ let
         "pkg-1.5.0+26.2" = _KF9k5QeL;
         "pkg-1.5.1+26.1.2" = _euPFhgEz;
         "pkg-1.5.1+26.2" = _rFCvqVee;
-        "default" = _rFCvqVee;
+        "pkg-1.5.1+26.3" = _Dj1ziri9;
+        "default" = _Dj1ziri9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "melius-worldmanager";

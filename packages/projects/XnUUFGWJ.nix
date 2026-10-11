@@ -61,6 +61,31 @@ let
             "file" = "nowaitvillagerscream-1.0.5.jar";
             "hash" = "sha512-W5us1Bc+tDuDrFygvvJ+XjAoHjVrFEFAjnL0dvZJhu38v9CrFfG0821KTkUQuww5tRNu3C7fSxKwRm/C14tm7w==";
         };
+        _pp0c9z5Y = {
+            "id" = "pp0c9z5Y";
+            "file" = "nowaitvillagerscream-1.0.5.jar";
+            "hash" = "sha512-+So792sAZftM6h/6FTKxYU1l/qa//6VEFqyhKJxdRUBdQyjPe+Lew6UqAMcdSyrSrZ+z8n46ldGsBXecksJPyg==";
+        };
+        _pU2IRPej = {
+            "id" = "pU2IRPej";
+            "file" = "nowaitvillagerscream-1.0.6.jar";
+            "hash" = "sha512-VNWAw+xEmRxfD4g3mMn40ByDmQu5yXWc90tGKqhxxkXY8dTajYZmFHKscDYZ5MMgHz7CIqfJFPs5Zani3pY9KQ==";
+        };
+        _4evKRYDI = {
+            "id" = "4evKRYDI";
+            "file" = "nowaitvillagerscream-1.0.6.jar";
+            "hash" = "sha512-3UhaUIsXGoyQ6A2H8zMyP6Hq1Z46Yd5he26h7GLzB3eQsYxHgm0b9jbrXlDUlpBctUy8hVmXQFfxCQXMDr0Zow==";
+        };
+        _XxkHa25E = {
+            "id" = "XxkHa25E";
+            "file" = "nowaitvillagerscream-1.0.6.jar";
+            "hash" = "sha512-J7dJQRLRITeAL9TTijnEjFngu/MMWaFnFREZ0+yq1/IDOCM9uoFfsTETXlLwY48PERW33KpgZ7UhLUALeef/Tw==";
+        };
+        _bQLjJpMF = {
+            "id" = "bQLjJpMF";
+            "file" = "nowaitvillagerscream-1.0.6.jar";
+            "hash" = "sha512-6/JkLVeqESWhxrZxVDyZvpmU/aokWNTo3Lm3gYqsC6gKzhiYV52sL3eajscAxjFnR2uTe2fUvCFsCmBW5YiCdw==";
+        };
     in {
         "gtwuiy7A" = _gtwuiy7A;
         "NMmubkxp" = _NMmubkxp;
@@ -74,22 +99,29 @@ let
         "qZyYRRGD" = _qZyYRRGD;
         "kQ3CoO9Y" = _kQ3CoO9Y;
         "bllebbDO" = _bllebbDO;
+        "pp0c9z5Y" = _pp0c9z5Y;
+        "pU2IRPej" = _pU2IRPej;
+        "4evKRYDI" = _4evKRYDI;
+        "XxkHa25E" = _XxkHa25E;
+        "bQLjJpMF" = _bQLjJpMF;
         "forge-1.19.2" = _1KhJZuaR;
         "forge-1.19.3" = _1KhJZuaR;
         "forge-1.19.4" = _1KhJZuaR;
-        "forge-1.20.1" = _qZyYRRGD;
+        "forge-1.20.1" = _pU2IRPej;
         "forge-1.20.2" = _fmKr0mqr;
         "forge-1.20.3" = _fmKr0mqr;
         "forge-1.20.4" = _fmKr0mqr;
         "forge-1.20.5" = _fmKr0mqr;
         "forge-1.20.6" = _fmKr0mqr;
-        "neoforge-1.21.1" = _kQ3CoO9Y;
-        "neoforge-1.21.11" = _bllebbDO;
+        "neoforge-1.21.1" = _4evKRYDI;
+        "neoforge-1.21.11" = _XxkHa25E;
+        "neoforge-26.3" = _bQLjJpMF;
         "pkg-1.0.2" = _AuvNsfjo;
         "pkg-1.0.3" = _1KhJZuaR;
         "pkg-1.0.4" = _M7F1aEoL;
-        "pkg-1.0.5" = _bllebbDO;
-        "default" = _bllebbDO;
+        "pkg-1.0.5" = _pp0c9z5Y;
+        "pkg-1.0.6" = _bQLjJpMF;
+        "default" = _bQLjJpMF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "no-no-wait-villager-scream";

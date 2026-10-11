@@ -46,6 +46,21 @@ let
             "file" = "WatheExtended-3.5.132-FIX2.jar";
             "hash" = "sha512-gUFfPERnla+r9fyefJF/skMlRXZUZiV6KVow56ypRrkAVK8zmnwVjpLxhe2NJ1xoP8IXmhIpF4Bi5/+ljKCRdA==";
         };
+        _NzT67k4R = {
+            "id" = "NzT67k4R";
+            "file" = "WatheExtended-3.7.141.jar";
+            "hash" = "sha512-fsTEUN9nfJAoErw8JDZ/iUlGJU3gOjJBDbn2OLuq5UY6jRZDSGbSAPp6StRSxd7+VqZuSW1umsj7jEq7DT4aTA==";
+        };
+        _5JxtUnuB = {
+            "id" = "5JxtUnuB";
+            "file" = "WatheExtended-3.8.141.jar";
+            "hash" = "sha512-8Bjw0Y2yYUK7sHRQ/+bmkAp/9KpHoSo+PrBGyRrIU5/l/BsO6eTpMqncRv8WS6RhVSeBBbcnUb0R36sYS7OQQw==";
+        };
+        _gE3pDMxS = {
+            "id" = "gE3pDMxS";
+            "file" = "WatheExtended-4.0.0-beta.1-h1.4.jar";
+            "hash" = "sha512-jXlAxpyoMIpt+EpYeP6hs7Pq41y/Il/tFavO/KP2d6ty3oT5xCr3dyqCT08PD3tCul0BAMNmARZiW9ygcwGjEA==";
+        };
     in {
         "rOllqJYm" = _rOllqJYm;
         "oRIBcNnL" = _oRIBcNnL;
@@ -56,7 +71,10 @@ let
         "Z3DuXFqg" = _Z3DuXFqg;
         "UAFlMKX7" = _UAFlMKX7;
         "xtqzzbeG" = _xtqzzbeG;
-        "fabric-1.21.1" = _xtqzzbeG;
+        "NzT67k4R" = _NzT67k4R;
+        "5JxtUnuB" = _5JxtUnuB;
+        "gE3pDMxS" = _gE3pDMxS;
+        "fabric-1.21.1" = _gE3pDMxS;
         "pkg-3.0.132" = _rOllqJYm;
         "pkg-3.1.132" = _oRIBcNnL;
         "pkg-3.2.132" = _6GCBrXpb;
@@ -66,7 +84,10 @@ let
         "pkg-3.6.132" = _Z3DuXFqg;
         "pkg-3.6.132-FIX" = _UAFlMKX7;
         "pkg-3.5.132-FIX2" = _xtqzzbeG;
-        "default" = _xtqzzbeG;
+        "pkg-3.7.141" = _NzT67k4R;
+        "pkg-3.8.141" = _5JxtUnuB;
+        "pkg-4.0.0-beta.1-h1.4" = _gE3pDMxS;
+        "default" = _gE3pDMxS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wathe-extended";

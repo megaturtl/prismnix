@@ -116,6 +116,11 @@ let
             "file" = "noclip-1.4.1+26.2.jar";
             "hash" = "sha512-hxPqJyeKkeoxovAv6wlA7Y4imuREZMpummR8kjZ8ArQgtTrF+/670r3Oya8gSCJsqSmVUbq+1g1FVtCu0jy+rA==";
         };
+        _IdKWDj06 = {
+            "id" = "IdKWDj06";
+            "file" = "noclip-1.5.0+26.3.jar";
+            "hash" = "sha512-fnZM4182Ry4ZiIgGifsaG0IbymoghAA+k1ohSO9qItSjIsrSiMGPkwloVM7ptr8kfR/Fxgi9hw4fKxR0DtTPZA==";
+        };
     in {
         "LEpItvqX" = _LEpItvqX;
         "OJwDhAbC" = _OJwDhAbC;
@@ -140,6 +145,7 @@ let
         "jxWzZ99a" = _jxWzZ99a;
         "18pEldqO" = _18pEldqO;
         "nKO3GWpg" = _nKO3GWpg;
+        "IdKWDj06" = _IdKWDj06;
         "fabric-1.18" = _gQpNuKby;
         "fabric-1.18.1" = _gQpNuKby;
         "fabric-1.18.2" = _gQpNuKby;
@@ -157,6 +163,7 @@ let
         "fabric-1.21.11" = _jxWzZ99a;
         "fabric-26.1.2" = _18pEldqO;
         "fabric-26.2" = _nKO3GWpg;
+        "fabric-26.3" = _IdKWDj06;
         "quilt-1.18" = _gQpNuKby;
         "quilt-1.18.1" = _gQpNuKby;
         "quilt-1.18.2" = _gQpNuKby;
@@ -193,7 +200,8 @@ let
         "pkg-1.4.1+1.21.11" = _jxWzZ99a;
         "pkg-1.4.1+26.1.2" = _18pEldqO;
         "pkg-1.4.1+26.2" = _nKO3GWpg;
-        "default" = _nKO3GWpg;
+        "pkg-1.5.0+26.3" = _IdKWDj06;
+        "default" = _IdKWDj06;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "noclip";

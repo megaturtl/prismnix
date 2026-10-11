@@ -101,6 +101,16 @@ let
             "file" = "armored-elytra-1.15.0.jar";
             "hash" = "sha512-tVIGFvupebHqUNeszdE8oIEJ5feR7TvjhILPheAsPGDUpJLvdvm64YlcALO3BboHPIN6W86xqF2c/rKbrwrNvA==";
         };
+        _Oe6DS1BQ = {
+            "id" = "Oe6DS1BQ";
+            "file" = "armored-elytra-1.16.0.jar";
+            "hash" = "sha512-1jCf5eKqGgPidbLxTSy9sbhTFfkWzNX59uolOfD7a9kLgGV8rGg20AGJJqva0bJBUSMunaogejVyIKFQ+ppeog==";
+        };
+        _ogOWP4Bv = {
+            "id" = "ogOWP4Bv";
+            "file" = "armored-elytra-1.15.1.jar";
+            "hash" = "sha512-XyXQCigIknbFO4nHvKfnNnjjYUN/ECiOfvgvu/BHVyuzscnuhnZLj/xjZpvPoQyxqsC3ZTrBLBu0gBrxM5wDsg==";
+        };
     in {
         "T3LJWohg" = _T3LJWohg;
         "DEGWVZwj" = _DEGWVZwj;
@@ -122,6 +132,8 @@ let
         "qS46SY2D" = _qS46SY2D;
         "IbMR9Ie6" = _IbMR9Ie6;
         "OovAb5I5" = _OovAb5I5;
+        "Oe6DS1BQ" = _Oe6DS1BQ;
+        "ogOWP4Bv" = _ogOWP4Bv;
         "fabric-1.21" = _DEGWVZwj;
         "fabric-1.21.1" = _FUhz9xnX;
         "fabric-1.21.2" = _L0yShNav;
@@ -137,7 +149,8 @@ let
         "fabric-26.1" = _fYjUcMhW;
         "fabric-26.1.1" = _fYjUcMhW;
         "fabric-26.1.2" = _fYjUcMhW;
-        "fabric-26.2" = _OovAb5I5;
+        "fabric-26.2" = _ogOWP4Bv;
+        "fabric-26.3" = _Oe6DS1BQ;
         "datapack-1.21.4" = _4WUlRc4K;
         "pkg-1.0.0" = _T3LJWohg;
         "pkg-1.0.1" = _DEGWVZwj;
@@ -159,7 +172,9 @@ let
         "pkg-1.14.0" = _qS46SY2D;
         "pkg-1.14.1" = _IbMR9Ie6;
         "pkg-1.15.0" = _OovAb5I5;
-        "default" = _OovAb5I5;
+        "pkg-1.16.0" = _Oe6DS1BQ;
+        "pkg-1.15.1" = _ogOWP4Bv;
+        "default" = _ogOWP4Bv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elytra-armor";

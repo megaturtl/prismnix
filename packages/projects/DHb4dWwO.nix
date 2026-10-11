@@ -36,6 +36,16 @@ let
             "file" = "pokerus-neoforge-1.7.3-1.1.0.jar";
             "hash" = "sha512-DTfOOY8Vqat5gpRgXLFUYww3HAs6Sd9Uh9FnL8q3g4xCNdtVghnWZjxVBdehwZ+lk03cQV4m1nI5O26BbtegDQ==";
         };
+        _GcUDYMLk = {
+            "id" = "GcUDYMLk";
+            "file" = "pokerus-fabric-1.8.1-1.1.0.jar";
+            "hash" = "sha512-W6fKZMQgz0usElNMFA1YxHePyL9/1rwKCsbrEmw3ExAeRkewf8S8vgJFzDZhDjF4PrUyuGxj4mRELjcj7iUSng==";
+        };
+        _qZuwo1Da = {
+            "id" = "qZuwo1Da";
+            "file" = "pokerus-neoforge-1.8.1-1.1.0.jar";
+            "hash" = "sha512-ep9bqA/3r1LCUZfeAnXNCy5HsHdPf1MRArLWcJ3QBNRhNh8jRBVxfQPQeGdx6pIhlIc/yvRtYzXT9jG1IhqO6A==";
+        };
     in {
         "r7dTqBnn" = _r7dTqBnn;
         "s9fDp4mD" = _s9fDp4mD;
@@ -44,8 +54,10 @@ let
         "dX7FzRp3" = _dX7FzRp3;
         "ZrFK9ucV" = _ZrFK9ucV;
         "Le4IeXZt" = _Le4IeXZt;
-        "fabric-1.21.1" = _ZrFK9ucV;
-        "neoforge-1.21.1" = _Le4IeXZt;
+        "GcUDYMLk" = _GcUDYMLk;
+        "qZuwo1Da" = _qZuwo1Da;
+        "fabric-1.21.1" = _GcUDYMLk;
+        "neoforge-1.21.1" = _qZuwo1Da;
         "pkg-1.6-fabric-0.0.0" = _r7dTqBnn;
         "pkg-1.7.1-fabric-1.0.0" = _s9fDp4mD;
         "pkg-1.7.1-neoforge-1.0.0" = _c2R0H4QF;
@@ -53,7 +65,9 @@ let
         "pkg-1.7.2-neoforge-1.1.0" = _dX7FzRp3;
         "pkg-1.7.3-fabric-1.1.0" = _ZrFK9ucV;
         "pkg-1.7.3-neoforge-1.1.0" = _Le4IeXZt;
-        "default" = _Le4IeXZt;
+        "pkg-1.8.1-fabric-1.1.0" = _GcUDYMLk;
+        "pkg-1.8.1-neoforge-1.1.0" = _qZuwo1Da;
+        "default" = _qZuwo1Da;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-pokerus";

@@ -81,6 +81,21 @@ let
             "file" = "invisibleframes-fabric-2.0.1+26.2.jar";
             "hash" = "sha512-PzxaHIGgtODk6/GZBauwaHsiN5e01aFaH9xImh8JYfRJT+CuaJawglXMdJbb6S5fjEliPtR9ugUllnGIo0fkPw==";
         };
+        _sWX11QEx = {
+            "id" = "sWX11QEx";
+            "file" = "invisibleframes-neoforge-2.0.1+26.3.jar";
+            "hash" = "sha512-brFuoN/Aayo4wCQGW/93nMKZDOQw9H+CtLLiYcZD9HQ9qfZwte2YdqwPA0+CHOx502Ec3A+vP8t9NIB20l9oiQ==";
+        };
+        _BUWC4XNI = {
+            "id" = "BUWC4XNI";
+            "file" = "invisibleframes-fabric-2.0.1+26.3.jar";
+            "hash" = "sha512-LWOyvrAIQ7/3dS0FtOIsNMufmwg11/D9xmSZZLAba9+1rkWJFub0NCSw4bKq0NAU74OjZWYCTLOM8ZjEWnjH3Q==";
+        };
+        _4gFstN8O = {
+            "id" = "4gFstN8O";
+            "file" = "invisibleframes-forge-2.0.1+26.3.jar";
+            "hash" = "sha512-5GPjmb0G4z7csbzkxS2zELKIIDBkADVGl4w92Eh6HZwb8ix8RyK1+J0HwodWxucBedhpp98RNIkKjfgSP8RKDg==";
+        };
     in {
         "cCVN4r8Y" = _cCVN4r8Y;
         "CExaqOJ1" = _CExaqOJ1;
@@ -98,6 +113,9 @@ let
         "r7VZ1OnO" = _r7VZ1OnO;
         "AtNZni4z" = _AtNZni4z;
         "ELIgkzTp" = _ELIgkzTp;
+        "sWX11QEx" = _sWX11QEx;
+        "BUWC4XNI" = _BUWC4XNI;
+        "4gFstN8O" = _4gFstN8O;
         "fabric-1.19" = _cCVN4r8Y;
         "fabric-1.19.1" = _cCVN4r8Y;
         "fabric-1.19.2" = _cCVN4r8Y;
@@ -127,6 +145,7 @@ let
         "fabric-26.1.1" = _gv9BPKJC;
         "fabric-26.1.2" = _gv9BPKJC;
         "fabric-26.2" = _ELIgkzTp;
+        "fabric-26.3" = _BUWC4XNI;
         "quilt-1.19" = _cCVN4r8Y;
         "quilt-1.19.1" = _cCVN4r8Y;
         "quilt-1.19.2" = _cCVN4r8Y;
@@ -156,14 +175,17 @@ let
         "quilt-26.1.1" = _gv9BPKJC;
         "quilt-26.1.2" = _gv9BPKJC;
         "quilt-26.2" = _ELIgkzTp;
+        "quilt-26.3" = _BUWC4XNI;
         "forge-26.1" = _VQUiqcdl;
         "forge-26.1.1" = _VQUiqcdl;
         "forge-26.1.2" = _VQUiqcdl;
         "forge-26.2" = _r7VZ1OnO;
+        "forge-26.3" = _4gFstN8O;
         "neoforge-26.1" = _Vdn90Ycw;
         "neoforge-26.1.1" = _Vdn90Ycw;
         "neoforge-26.1.2" = _Vdn90Ycw;
         "neoforge-26.2" = _AtNZni4z;
+        "neoforge-26.3" = _sWX11QEx;
         "pkg-1.0.0+1.19" = _cCVN4r8Y;
         "pkg-1.1.0+1.20" = _CExaqOJ1;
         "pkg-1.1.0+1.18.2" = _1SPsBMO9;
@@ -180,7 +202,10 @@ let
         "pkg-2.0.1+26.2-forge" = _r7VZ1OnO;
         "pkg-2.0.1+26.2-neoforge" = _AtNZni4z;
         "pkg-2.0.1+26.2-fabric" = _ELIgkzTp;
-        "default" = _ELIgkzTp;
+        "pkg-2.0.1+26.3-neoforge" = _sWX11QEx;
+        "pkg-2.0.1+26.3-fabric" = _BUWC4XNI;
+        "pkg-2.0.1+26.3-forge" = _4gFstN8O;
+        "default" = _4gFstN8O;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "invisible-frames-mod";

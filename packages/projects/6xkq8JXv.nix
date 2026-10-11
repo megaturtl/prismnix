@@ -376,6 +376,11 @@ let
             "file" = "combatamenities-3.2.2-26.3.jar";
             "hash" = "sha512-bLTwDg0e24IIYbYre7yqr2e2XrE5FIJ8e/5ozxH7AO2cQmvWNaxLzWjcI+fVNoPm/vxwHc6DSbXZo511tZnzQw==";
         };
+        _LG5U4iZb = {
+            "id" = "LG5U4iZb";
+            "file" = "combatamenities-3.2.3-26.3.jar";
+            "hash" = "sha512-3XF6nZP+3HYC7uYLU6Z80ZFxxK7QJaCrEM75wyZNM81iRfBa6v3LV8hc+4I224zOjhV+LsN27pn49afy9xlIJg==";
+        };
     in {
         "qKa3GI6A" = _qKa3GI6A;
         "AA1oeTG2" = _AA1oeTG2;
@@ -452,6 +457,7 @@ let
         "nfc9tsZ5" = _nfc9tsZ5;
         "DkMhfymK" = _DkMhfymK;
         "9dQnSNWF" = _9dQnSNWF;
+        "LG5U4iZb" = _LG5U4iZb;
         "fabric-1.20.1" = _hoHdZ9M1;
         "fabric-1.21.1" = _p4AzAOrN;
         "fabric-1.21" = _GNAt9NBw;
@@ -467,7 +473,7 @@ let
         "fabric-26.1" = _RQAWBxaE;
         "fabric-26.1.2" = _RQAWBxaE;
         "fabric-26.2" = _DkMhfymK;
-        "fabric-26.3" = _9dQnSNWF;
+        "fabric-26.3" = _LG5U4iZb;
         "pkg-1.0.0" = _qKa3GI6A;
         "pkg-1.0.1" = _AA1oeTG2;
         "pkg-1.1.0" = _GNhRnTXT;
@@ -543,7 +549,8 @@ let
         "pkg-3.2.1-26.2" = _nfc9tsZ5;
         "pkg-3.2.2-26.2" = _DkMhfymK;
         "pkg-3.2.2-26.3" = _9dQnSNWF;
-        "default" = _9dQnSNWF;
+        "pkg-3.2.3-26.3" = _LG5U4iZb;
+        "default" = _LG5U4iZb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "combat-amenities";

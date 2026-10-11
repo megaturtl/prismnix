@@ -161,6 +161,16 @@ let
             "file" = "timeclock-4.7.0-neoforge-1.21.1.jar";
             "hash" = "sha512-FYruaDrxEIr71e/TozFtvlHsweHHSrb9PhM50x/EcENv2vC33gajl8amTxQKHG2ugMOvw9AzqNe9q3hmRVAnZg==";
         };
+        _sTuRCNwL = {
+            "id" = "sTuRCNwL";
+            "file" = "timeclock-4.8.0-fabric-1.20.1.jar";
+            "hash" = "sha512-dGk+0JM9fviQyb2XWTTl8EpMBcWNgxcKkimXrtYdOUC63RgNnSkQ4e6JvM+XYZ4jfeoMQrPVVFojZ/A4fdt6gg==";
+        };
+        _ShJOFROo = {
+            "id" = "ShJOFROo";
+            "file" = "timeclock-4.8.0-forge-1.20.1.jar";
+            "hash" = "sha512-aqnkkWPNdBSH3iJ/RL8gAdIoqNNqGDioPJ38/xwlPNUeLtaTJlbD1NFhYzfKkLKOZDnxn+AtCMhblI8t3dUSbw==";
+        };
     in {
         "mT5DbCHu" = _mT5DbCHu;
         "uRn9TBfK" = _uRn9TBfK;
@@ -194,11 +204,13 @@ let
         "vJpXKjSw" = _vJpXKjSw;
         "SdOBGyk3" = _SdOBGyk3;
         "YPUMGIbu" = _YPUMGIbu;
+        "sTuRCNwL" = _sTuRCNwL;
+        "ShJOFROo" = _ShJOFROo;
         "fabric-1.20" = _f18wex8d;
-        "fabric-1.20.1" = _bsIFx6dN;
+        "fabric-1.20.1" = _sTuRCNwL;
         "fabric-1.21.1" = _SdOBGyk3;
         "forge-1.20" = _FtU3XyfB;
-        "forge-1.20.1" = _vJpXKjSw;
+        "forge-1.20.1" = _ShJOFROo;
         "neoforge-1.20" = _FtU3XyfB;
         "neoforge-1.20.1" = _MWsD6Sjw;
         "neoforge-1.21.1" = _YPUMGIbu;
@@ -224,7 +236,9 @@ let
         "pkg-4.6.0+forge" = _vJpXKjSw;
         "pkg-4.7.0+fabric" = _SdOBGyk3;
         "pkg-4.7.0+neoforge" = _YPUMGIbu;
-        "default" = _YPUMGIbu;
+        "pkg-4.8.0+fabric" = _sTuRCNwL;
+        "pkg-4.8.0+forge" = _ShJOFROo;
+        "default" = _ShJOFROo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "time-stop-clock-mod";

@@ -76,6 +76,11 @@ let
             "file" = "DisableHotbarWrap-1.0+mc26.2.jar";
             "hash" = "sha512-tg4lUi5bxGMLN3tYkF1u9mCdruklsi1beZakguJbDNPjjXb0j2hhz0+TU/2jkZyb74r4ELwOleFkSGDvAj7f+Q==";
         };
+        _i5xtLf1U = {
+            "id" = "i5xtLf1U";
+            "file" = "DisableHotbarWrap-1.0+mc26.3.jar";
+            "hash" = "sha512-clhmu99OlMS/oShsOOfYCYfziGCFNIXEMrOb7sk2/m+2ChXXYbpH2N6mNJPhZKRK82ggmO87FRVsSq9IAZROLw==";
+        };
     in {
         "BPLj9Gg9" = _BPLj9Gg9;
         "aL8ykan8" = _aL8ykan8;
@@ -92,6 +97,7 @@ let
         "c4pGVSxm" = _c4pGVSxm;
         "yxq7yQQB" = _yxq7yQQB;
         "cXL0yaFN" = _cXL0yaFN;
+        "i5xtLf1U" = _i5xtLf1U;
         "fabric-1.21.1" = _BPLj9Gg9;
         "fabric-1.21.2" = _aL8ykan8;
         "fabric-1.21.3" = _8OtE6sTy;
@@ -107,6 +113,7 @@ let
         "fabric-26.1.1" = _c4pGVSxm;
         "fabric-26.1.2" = _yxq7yQQB;
         "fabric-26.2" = _cXL0yaFN;
+        "fabric-26.3" = _i5xtLf1U;
         "pkg-1.0-MC1.21.1" = _BPLj9Gg9;
         "pkg-1.0-MC1.21.2" = _aL8ykan8;
         "pkg-1.0-mc1.21.3" = _8OtE6sTy;
@@ -122,7 +129,8 @@ let
         "pkg-1.0+mc26.1.1" = _c4pGVSxm;
         "pkg-1.0+mc26.1.2" = _yxq7yQQB;
         "pkg-1.0+mc26.2" = _cXL0yaFN;
-        "default" = _cXL0yaFN;
+        "pkg-1.0+mc26.3" = _i5xtLf1U;
+        "default" = _i5xtLf1U;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "disablehotbarwrap";

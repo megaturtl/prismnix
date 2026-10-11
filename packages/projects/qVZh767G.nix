@@ -186,6 +186,26 @@ let
             "file" = "vintage-1.20.1-1.6.1.jar";
             "hash" = "sha512-/d0VNh0wL2GC5Aoo32uYUFZORO0TPQOdRpCJL/sdtPnGXApq86ahusPykFfcnYvfN1A0qWPo62s6VDBCkmNAiA==";
         };
+        _CkOWJYOZ = {
+            "id" = "CkOWJYOZ";
+            "file" = "vintage-1.20.1-1.6.2.jar";
+            "hash" = "sha512-YnFnFKQI/mk5SE/ZSgg0EVQgV6kKNGYQnANzQzhN2XljhUFiCdt4y1vgEQvA0xXIz9peKai8jSuoYE4WfVWwNw==";
+        };
+        _gcBNexsM = {
+            "id" = "gcBNexsM";
+            "file" = "vintage-1.20.1-1.6.3.jar";
+            "hash" = "sha512-ah1/WAh7eXmiXx36+wvYMMls7DvhSvsbnfkMD/4binRgoSOSjb2QfXybM+MpitqZnWQ8APDPlDVY4z5N3yAcXQ==";
+        };
+        _jxbnjFb3 = {
+            "id" = "jxbnjFb3";
+            "file" = "vintage-1.21.1-1.6.3.jar";
+            "hash" = "sha512-qyCL+oArVggVjRx6opat1lgt48SssBpNmscaejt429pW7I0DzoApSydpwl9bcXj7KJfTOjpMgppeXp+vEr9nKw==";
+        };
+        _p4zDPwzI = {
+            "id" = "p4zDPwzI";
+            "file" = "vintage-1.20.1-1.6.4.jar";
+            "hash" = "sha512-TY4jHfTLl8eKktWqmxFkmcmYIsgMVLeMf8eFSgGhgooXaWubCmeLadz6CNbZL5yRkuu/L7ssyjWT/F904QKWAw==";
+        };
     in {
         "GazXaDyq" = _GazXaDyq;
         "4BoYaeG3" = _4BoYaeG3;
@@ -224,8 +244,12 @@ let
         "M0cd6zmQ" = _M0cd6zmQ;
         "bZWn4Ukr" = _bZWn4Ukr;
         "u1AxQmdh" = _u1AxQmdh;
-        "forge-1.20.1" = _u1AxQmdh;
-        "neoforge-1.21.1" = _bZWn4Ukr;
+        "CkOWJYOZ" = _CkOWJYOZ;
+        "gcBNexsM" = _gcBNexsM;
+        "jxbnjFb3" = _jxbnjFb3;
+        "p4zDPwzI" = _p4zDPwzI;
+        "forge-1.20.1" = _p4zDPwzI;
+        "neoforge-1.21.1" = _jxbnjFb3;
         "pkg-1.20.1-1.1.0" = _GazXaDyq;
         "pkg-1.20.1-1.2.0" = _4BoYaeG3;
         "pkg-1.20.1-1.2.5" = _RPrxh1Kk;
@@ -263,7 +287,11 @@ let
         "pkg-1.21.1-1.3.8" = _M0cd6zmQ;
         "pkg-1.21.1-1.3.9" = _bZWn4Ukr;
         "pkg-1.20.1-1.6.1" = _u1AxQmdh;
-        "default" = _u1AxQmdh;
+        "pkg-1.20.1-1.6.2" = _CkOWJYOZ;
+        "pkg-1.20.1-1.6.3" = _gcBNexsM;
+        "pkg-1.21.1-1.6.3" = _jxbnjFb3;
+        "pkg-1.20.1-1.6.4" = _p4zDPwzI;
+        "default" = _p4zDPwzI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-vintage-(unofficial-port)";

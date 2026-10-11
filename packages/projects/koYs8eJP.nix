@@ -76,6 +76,11 @@ let
             "file" = "Better SpyGlass v2.2 - 26.2.zip";
             "hash" = "sha512-hnhhBBA53Fs5qIlu+IGlD7CCnhnDb4l27L5sXSxO3u0ikbSVVqc2Vq75sK0sw2YC8pu07rE+V/qqvRQLsJ+SVg==";
         };
+        _lM0G83hp = {
+            "id" = "lM0G83hp";
+            "file" = "Better SpyGlass v2.2.1 - 26.3.zip";
+            "hash" = "sha512-HUc8E6Xaiyj68gnAv2OPhO7QpKLDFw9KSIy1soVUONOs7UKV1Jlclsc18D5Kw7TldSFQJiudSw60RNjUa17Gbg==";
+        };
     in {
         "sBuOgLVY" = _sBuOgLVY;
         "F4BUT1Ff" = _F4BUT1Ff;
@@ -92,6 +97,7 @@ let
         "IC6FNBlW" = _IC6FNBlW;
         "vjUbeeGn" = _vjUbeeGn;
         "4ThzQA7K" = _4ThzQA7K;
+        "lM0G83hp" = _lM0G83hp;
         "minecraft-1.19" = _sBuOgLVY;
         "minecraft-1.19.1" = _sBuOgLVY;
         "minecraft-1.19.2" = _sBuOgLVY;
@@ -118,6 +124,7 @@ let
         "minecraft-26.1.1" = _vjUbeeGn;
         "minecraft-26.1.2" = _vjUbeeGn;
         "minecraft-26.2" = _4ThzQA7K;
+        "minecraft-26.3" = _lM0G83hp;
         "pkg-2.2" = _o0U0rO4P;
         "pkg-2.2+1.20.5" = _87SFmchC;
         "pkg-2.2+1.21" = _lCz6dloT;
@@ -128,7 +135,8 @@ let
         "pkg-2.2-mc1.21.11" = _IC6FNBlW;
         "pkg-2.2-mc26.1" = _vjUbeeGn;
         "pkg-2.2-mc26.2" = _4ThzQA7K;
-        "default" = _4ThzQA7K;
+        "pkg-2.2.1-mc26.3" = _lM0G83hp;
+        "default" = _lM0G83hp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-spyglass";

@@ -36,6 +36,11 @@ let
             "file" = "mini-vfx-1.0.7+26.1.jar";
             "hash" = "sha512-Oa7lwAA7ezKmfFkR3qFMEpy6+zRuu3YFoy7MJFKq/xyu861TB9wUSvtUX3XIGqPKLd7tHXQPYkV/Vg0Uy8cDsQ==";
         };
+        _prkoKcJP = {
+            "id" = "prkoKcJP";
+            "file" = "mini-vfx-1.1.0+26.3.jar";
+            "hash" = "sha512-u7syWdkOWQPmJc7RvZpLi7aFlKGEXOu4mCrj/K78SYsccT8chcWX0J+84cy1aiDJMdZHcQytquxfh0bItvFc2Q==";
+        };
     in {
         "26Fy7MaN" = _26Fy7MaN;
         "3iK9bA5v" = _3iK9bA5v;
@@ -44,6 +49,7 @@ let
         "dZdFwkg0" = _dZdFwkg0;
         "gEWDEfKm" = _gEWDEfKm;
         "it7ZplFi" = _it7ZplFi;
+        "prkoKcJP" = _prkoKcJP;
         "fabric-1.21.7" = _3iK9bA5v;
         "fabric-1.21.8" = _3iK9bA5v;
         "fabric-1.21.9-rc1" = _66Kp1tHM;
@@ -53,6 +59,7 @@ let
         "fabric-26.1" = _it7ZplFi;
         "fabric-26.1.1" = _it7ZplFi;
         "fabric-26.1.2" = _it7ZplFi;
+        "fabric-26.3" = _prkoKcJP;
         "pkg-1.0.0+1.21.7" = _26Fy7MaN;
         "pkg-1.0.1+1.21.7" = _3iK9bA5v;
         "pkg-1.0.2+1.21.9-rc1" = _66Kp1tHM;
@@ -60,7 +67,8 @@ let
         "pkg-1.0.5+26.1" = _dZdFwkg0;
         "pkg-1.0.6+26.1" = _gEWDEfKm;
         "pkg-1.0.7+26.1" = _it7ZplFi;
-        "default" = _it7ZplFi;
+        "pkg-1.1.0+26.3" = _prkoKcJP;
+        "default" = _prkoKcJP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mini-vfx";

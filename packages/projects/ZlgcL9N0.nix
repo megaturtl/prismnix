@@ -56,6 +56,11 @@ let
             "file" = "EasyPlaceFix-0.6.6-1.21.11.jar";
             "hash" = "sha512-8sa/+gPSFJ7rWCxb2Qof7rgsENdcXCCFt7pVulLoEDBM7IE6gX3e78Y5Md5LByH8XYqEny9v7MagpgRWof3Q8g==";
         };
+        _NS9RZPGX = {
+            "id" = "NS9RZPGX";
+            "file" = "EasyPlaceFix-0.6.7.jar";
+            "hash" = "sha512-nZss0t8xYwmhxikxrJKpKdpAXDmnhd7++8McHFcGuulcd47SMXVbs2XL/DEv2sqn5C2npu+/pmB7CW9Jd4Sqzw==";
+        };
     in {
         "sPL24sWX" = _sPL24sWX;
         "kk7E8U03" = _kk7E8U03;
@@ -68,10 +73,12 @@ let
         "GNvNagyY" = _GNvNagyY;
         "oPdzRlj6" = _oPdzRlj6;
         "r8vbhoOz" = _r8vbhoOz;
+        "NS9RZPGX" = _NS9RZPGX;
         "fabric-1.21.11" = _r8vbhoOz;
         "fabric-26.1.1" = _sHUZ8BNx;
         "fabric-26.1.2" = _oPdzRlj6;
         "fabric-26.2" = _oPdzRlj6;
+        "fabric-26.3" = _NS9RZPGX;
         "pkg-0.5.7" = _sPL24sWX;
         "pkg-0.5.8" = _kk7E8U03;
         "pkg-0.5.9" = _sHUZ8BNx;
@@ -83,7 +90,8 @@ let
         "pkg-0.6.5" = _GNvNagyY;
         "pkg-0.6.6" = _oPdzRlj6;
         "pkg-0.6.6-1.21.11" = _r8vbhoOz;
-        "default" = _r8vbhoOz;
+        "pkg-0.6.7" = _NS9RZPGX;
+        "default" = _NS9RZPGX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "easyplacefix-fork";

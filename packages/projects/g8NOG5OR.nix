@@ -1106,6 +1106,456 @@ let
             "file" = "Oh-The-Trees-Youll-Grow-neoforge-1.21.11-9.1.0.jar";
             "hash" = "sha512-Q43mqBkl/2ZR90oSU1jEW90PSTx2cEHLa5L7aqXtQFGRPPd+WuHMZEc6KX9lm+cLg6Epkg5e+spWQyMViD5Ciw==";
         };
+        _jGTmzNol = {
+            "id" = "jGTmzNol";
+            "file" = "ohthetreesyoullgrow-fabric-26.3-12.0.0.jar";
+            "hash" = "sha512-ZGiRVNz/UODn/cHznyJp+wzUORi2Es5Qw8g+8+wbeDoUAtuY7WKPt+pL2SMTZsKrw46MTALy8xmaqE9qIapneg==";
+        };
+        _CecmyRXW = {
+            "id" = "CecmyRXW";
+            "file" = "ohthetreesyoullgrow-neoforge-26.3-12.0.0.jar";
+            "hash" = "sha512-iK2qP3podt9BjaGh1M9K6pYHnn1bFSg4W7VykS7seecVXU7PYCAYZIcvEb5/DR9Q6Y6+3w+phwQp+fvZqofnZQ==";
+        };
+        _thYkLNmU = {
+            "id" = "thYkLNmU";
+            "file" = "ohthetreesyoullgrow-forge-26.3-12.0.0.jar";
+            "hash" = "sha512-8UFvT05Eg5codKYQJbbdXUE9XzJB+zEhHbTNqp+fmR7HO6UaZt8qX9Pv4q/66w05RYDpNSSbo5bRuPfF6M38Rg==";
+        };
+        _h1Bc5lRD = {
+            "id" = "h1Bc5lRD";
+            "file" = "ohthetreesyoullgrow-fabric-26.1.2-10.1.2.jar";
+            "hash" = "sha512-UkXhiFwmyNIc5HNbZwgjdbvx3IPLEpr41miIYYp8kIcu2aQi8LJKV8esJdA/llaoYRBvveJx0rv7DbnFh+wUWg==";
+        };
+        _lxOHLDV4 = {
+            "id" = "lxOHLDV4";
+            "file" = "ohthetreesyoullgrow-forge-26.1.2-10.1.2.jar";
+            "hash" = "sha512-VUw/24D0PhMCo3oSN0eYuCHeG1FTZHU96DdfzcMd8dBUqjknukqLNluKUOEYFLGfeEUUZcwnDTup8y81ORKX1g==";
+        };
+        _4hBxtz5o = {
+            "id" = "4hBxtz5o";
+            "file" = "ohthetreesyoullgrow-neoforge-26.1.2-10.1.2.jar";
+            "hash" = "sha512-qMXFZkidKOMj4tg0b+osSBishkVi7ZAVCJtkIvTkoR1vCJ++22j/7PbyWFN4oBXSJrS3isjAzcG8J8NH/HrqNg==";
+        };
+        _P2tbsprb = {
+            "id" = "P2tbsprb";
+            "file" = "Oh-The-Trees-Youll-Grow-fabric-1.20.1-1.7.1.jar";
+            "hash" = "sha512-LreiBTe0T7DkSxsmxRZb7Iu18sArhetJ3K1lC2+hr3XoEVer5V9kZKcURmINX97T3Gln9VGRYvY7NlJ6YsWAdQ==";
+        };
+        _NqxtaCFS = {
+            "id" = "NqxtaCFS";
+            "file" = "Oh-The-Trees-Youll-Grow-forge-1.20.1-1.7.1.jar";
+            "hash" = "sha512-Un+gzWmZKLW+T4alPi32lulrojSOt7dU1fxpA4fA/OMKvxmtii4fKQwKYm28t6s0xbRqAHEVGgA0QonWKPoIOw==";
+        };
+        _Qbh1RGRd = {
+            "id" = "Qbh1RGRd";
+            "file" = "Oh-The-Trees-Youll-Grow-fabric-1.20.2-2.0.3.jar";
+            "hash" = "sha512-RF7oXlsIFisgi+xjnlIBVyY19DfnnKUfwVs1UZgyL0UKKtcRPTc8zya+dFjyj7AlB/REPAJSK8xJK6j7KmtkiQ==";
+        };
+        _9NUnAv44 = {
+            "id" = "9NUnAv44";
+            "file" = "Oh-The-Trees-Youll-Grow-forge-1.20.2-2.0.3.jar";
+            "hash" = "sha512-1zhPDv01R1e5sSV+ZJN5TGtra/TC5HuK0e4k26AUulRnQWpd6rpLzYl9UWBYMwh2bsC67oj+yKSgihtT79r6IQ==";
+        };
+        _5COoF1Dh = {
+            "id" = "5COoF1Dh";
+            "file" = "Oh-The-Trees-Youll-Grow-neoforge-1.20.2-2.0.3.jar";
+            "hash" = "sha512-ctPZpso+V6VhrARmZExGu0686Pb3Z5+4bYHnxUn2/Am02aghsqAgvdzeTyG44dcuUH7rgvqw61mjc0FvuYdUyg==";
+        };
+        _tIzzBA7A = {
+            "id" = "tIzzBA7A";
+            "file" = "Oh-The-Trees-Youll-Grow-fabric-1.20.4-3.0.3.jar";
+            "hash" = "sha512-WJJW5CXF2MCy3hUVg1zOZlQBaLM+jDmaeyQJXlks9FdlI6iIf6DYrc6D5BeXv1Lyrzew7SF0XL9hgE9q5BW6sg==";
+        };
+        _yxGdKxSH = {
+            "id" = "yxGdKxSH";
+            "file" = "Oh-The-Trees-Youll-Grow-forge-1.20.4-3.0.3.jar";
+            "hash" = "sha512-MFgN73WW+KeJqQ1qj2EXLnsRGJNmXr3Cvitbbtdl92XuojwzLkmdzmtuUNDNoXznroUG1nJeq5roNgW2QlSumQ==";
+        };
+        _pPeubdwz = {
+            "id" = "pPeubdwz";
+            "file" = "Oh-The-Trees-Youll-Grow-neoforge-1.20.4-3.0.3.jar";
+            "hash" = "sha512-p//Ui8E86C56PuVVE24iWUAAUqHVplFk78eacYwbyY4R/UU6EMmpSzOUDaaD2tyJpIYjlGat1vHd8hmyT9VayQ==";
+        };
+        _xZ1xazK9 = {
+            "id" = "xZ1xazK9";
+            "file" = "Oh-The-Trees-Youll-Grow-fabric-1.20.6-4.0.2.jar";
+            "hash" = "sha512-sZF6+U1VmJvQ/hcJ9wwLxpprfSQkqQdVtAN9yGb3UsIG9TPPxlL10ezq/dkrDRZCaaqj42WYawSz98K0yP7XAA==";
+        };
+        _vdBpONMF = {
+            "id" = "vdBpONMF";
+            "file" = "Oh-The-Trees-Youll-Grow-forge-1.20.6-4.0.2.jar";
+            "hash" = "sha512-tjxOOoTdVG5Tb/XfWVfijW7sM0Bi1gJHpBP35FwaHECgSiNPuRAnJx6AiTcRiqinr9lC7IyF0P39meWOSAoDZA==";
+        };
+        _vl3VDuFc = {
+            "id" = "vl3VDuFc";
+            "file" = "Oh-The-Trees-Youll-Grow-neoforge-1.20.6-4.0.2.jar";
+            "hash" = "sha512-xTdBTF5dJvgka5L3Hf06SJw8JVbWCgZol3B+bchFHuk9S5XbRW6KK0QX6dicvpmf0gqEQh9SIwouXlWORcH2Ig==";
+        };
+        _muDnxb2D = {
+            "id" = "muDnxb2D";
+            "file" = "Oh-The-Trees-Youll-Grow-fabric-1.21.1-5.3.3.jar";
+            "hash" = "sha512-E20WmHevTBL2u7IlvcUyX25Y4LBBI0m745EZFTHzz8D+nH6E/fOOEN0tfmP070jjY31nJWfvU1YJ1AO45hjIuw==";
+        };
+        _qvN2383Z = {
+            "id" = "qvN2383Z";
+            "file" = "Oh-The-Trees-Youll-Grow-forge-1.21.1-5.3.3.jar";
+            "hash" = "sha512-lpOSRNfQiaKvaelLTadkJcUrdA2WeEaV8LRGWhFUBthOm/ARDuIIlv4uliPw/ySqYzf/55GACXX2hN4d17sqcg==";
+        };
+        _RpWraWsn = {
+            "id" = "RpWraWsn";
+            "file" = "Oh-The-Trees-Youll-Grow-neoforge-1.21.1-5.3.3.jar";
+            "hash" = "sha512-t2UoH86nzJRJPrMRtVfAgL32SwedlIQJacUKW2aQ42Pr03jAOkaVQ8JYqjdXK+AbeBIC0aL4XFEMHr5x8MaS+w==";
+        };
+        _Zl3Nsf6w = {
+            "id" = "Zl3Nsf6w";
+            "file" = "ohthetreesyoullgrow-fabric-26.2-11.0.2.jar";
+            "hash" = "sha512-K+tbVRVhdX48yyB8PqA2JTpm3oTCdpWCv9rwY37RU4PZ6yV8cTNPJ6sNb5NSdcHL7vqSica9usz6svKKds3S3w==";
+        };
+        _WLUCt1o9 = {
+            "id" = "WLUCt1o9";
+            "file" = "ohthetreesyoullgrow-forge-26.2-11.0.2.jar";
+            "hash" = "sha512-leyy4cttUJAveN/1+0IgxkoEusB8/d55AkdUd8nTAlcrWaWYOGm3qNM3iUUyGzGoMFwJ58mIGbnZvSDEwuDmmw==";
+        };
+        _jnImQ1Be = {
+            "id" = "jnImQ1Be";
+            "file" = "ohthetreesyoullgrow-neoforge-26.2-11.0.2.jar";
+            "hash" = "sha512-kARQwh2hQdTDj7fISk7lmP+Js/kcgh/aOogCWZYqAw1FiFBasvWrc5zjsfKw0kh3NFNRmaHKJKFQn0rL7bVmWw==";
+        };
+        _RLleceOJ = {
+            "id" = "RLleceOJ";
+            "file" = "ohthetreesyoullgrow-fabric-26.3-12.0.1.jar";
+            "hash" = "sha512-lny4HW4IIuf/U9Th+pdFy2hGWgCuaEcc6sknDmElLf978dYxXCkR/UPuVdfcDle8uQSuClECCAOKOK9jITQ7Lw==";
+        };
+        _s6YwztCL = {
+            "id" = "s6YwztCL";
+            "file" = "ohthetreesyoullgrow-forge-26.3-12.0.1.jar";
+            "hash" = "sha512-AhIuIE9b5av4+kS+s3Ld7aqRG+RL0+g/g3rM90W2SV58olnkYl+Qv501xktI8aX0D/nFi+o3lAGGbk7neQAjCw==";
+        };
+        _yXssEqn2 = {
+            "id" = "yXssEqn2";
+            "file" = "ohthetreesyoullgrow-neoforge-26.3-12.0.1.jar";
+            "hash" = "sha512-mKkWFj/OqB0+KZb4M9L7bARpgfup1pzeACYaiL88rnbw/2bVHdDvXMPm1+XPHWZAZIiTe51lziQdr4Guv+ANWw==";
+        };
+        _J33j0oL4 = {
+            "id" = "J33j0oL4";
+            "file" = "Oh-The-Trees-Youll-Grow-fabric-1.20.1-1.7.2.jar";
+            "hash" = "sha512-qyVVkWMuAUj9mdrH5HfqiB9iwAw1uEACYMKhsX2Tw/HfxrA1j+tccaeWKNE1nFGHc+RLKJcDTRFR+ICakNqVXA==";
+        };
+        _Hhq43xPd = {
+            "id" = "Hhq43xPd";
+            "file" = "Oh-The-Trees-Youll-Grow-forge-1.20.1-1.7.2.jar";
+            "hash" = "sha512-wUR94tCMEVv35kM5meS/sq8Gw9Xj9tfFuouoBPVp4z+4KKTMHgws6Tl/Ap4oxyyd0UHbrpa/iv3WSJYMwS6q7w==";
+        };
+        _HkaEVyVt = {
+            "id" = "HkaEVyVt";
+            "file" = "Oh-The-Trees-Youll-Grow-fabric-1.20.2-2.0.4.jar";
+            "hash" = "sha512-gyXorTvwnuc3MW2eBHwz8fJFmjoYYdWr5jI70OmWS8ykniC1kbm5dnZQVcK+kxfSzQ3yhGIS2eYpuU/s03G6vg==";
+        };
+        _PA9H0Lh8 = {
+            "id" = "PA9H0Lh8";
+            "file" = "Oh-The-Trees-Youll-Grow-forge-1.20.2-2.0.4.jar";
+            "hash" = "sha512-UAwGrnK+ONG1/kHGVpH5Qhg6eliqZqV6HmSE9T9+BWC3nvvSpHYeI2KZp/V5ZO48Qve0KPx8Vax0Dk01I9wIiQ==";
+        };
+        _g1bor8bl = {
+            "id" = "g1bor8bl";
+            "file" = "Oh-The-Trees-Youll-Grow-neoforge-1.20.2-2.0.4.jar";
+            "hash" = "sha512-HhuYuDIk9bbO2z1PZtOxokEdiVyYnu/cHij1sNpbSGTC/r2dHyxclS8uVpBhTU9aqFFasVCqMN7kfdadogtbvg==";
+        };
+        _VVWXt0vW = {
+            "id" = "VVWXt0vW";
+            "file" = "Oh-The-Trees-Youll-Grow-fabric-1.20.4-3.0.4.jar";
+            "hash" = "sha512-sJCjufxICg8NhSMjgT8qGzNMLowQCnmfUI3GJF9N0JJFePKj7CA3x5pQLReTF3DSeR+BbNKOIcob5ojx6s99Bg==";
+        };
+        _3ngnSeGz = {
+            "id" = "3ngnSeGz";
+            "file" = "Oh-The-Trees-Youll-Grow-forge-1.20.4-3.0.4.jar";
+            "hash" = "sha512-v/FndAYRRqaB02Ao3MWWoowYXo358gMp8BO8+BH4AaIlKak+0ZFDwraU3diyGihdmzTNBpz4WtJKGw+us7MJKQ==";
+        };
+        _mXEpucry = {
+            "id" = "mXEpucry";
+            "file" = "Oh-The-Trees-Youll-Grow-neoforge-1.20.4-3.0.4.jar";
+            "hash" = "sha512-xQdXdvRIGLnvYAJhBYxFk7Z8zFM3cFbwCakj2oGCsK8S8eGdu+FCHxnOuPcu/LA7lSYMzCgqYmsCxj7sWrJ3gw==";
+        };
+        _RatX3gCY = {
+            "id" = "RatX3gCY";
+            "file" = "Oh-The-Trees-Youll-Grow-fabric-1.20.6-4.0.3.jar";
+            "hash" = "sha512-bLnLlUOf2RAJ1c2dg64VVcEcoNBj9TJbpK5lBSOSC4+abNPrf5oNOOnZIwlHDoa8GPkCGxY2T/NyPQLILrOduQ==";
+        };
+        _725G8i4W = {
+            "id" = "725G8i4W";
+            "file" = "Oh-The-Trees-Youll-Grow-forge-1.20.6-4.0.3.jar";
+            "hash" = "sha512-/87Tf6lk9zusUVuw5oDA43tFab64/FkgYadVOSMaznzydyxQVhQVu3cRFts4cIfWE6XUcJuexqRHPIK8G2L39Q==";
+        };
+        _rOfTn2zv = {
+            "id" = "rOfTn2zv";
+            "file" = "Oh-The-Trees-Youll-Grow-neoforge-1.20.6-4.0.3.jar";
+            "hash" = "sha512-b/NbZPACTUzU29Opp/ACO38Gt3kyLxeoI1DTVD4QXKKi55hK05C8RrHG4sGma7qjZGfI7C5e+UIUDhsmc7LMyw==";
+        };
+        _mL4f1NLZ = {
+            "id" = "mL4f1NLZ";
+            "file" = "Oh-The-Trees-Youll-Grow-fabric-1.21.1-5.3.4.jar";
+            "hash" = "sha512-2VZyqp880Um/yn4aL9DEd8ptlQnaDiTSOTRww13LYQWvanxQ7pbR+7f+UYeD+dbD8g3jBiiza7EjJ4yb1GuIgw==";
+        };
+        _Uxpu14Uk = {
+            "id" = "Uxpu14Uk";
+            "file" = "Oh-The-Trees-Youll-Grow-forge-1.21.1-5.3.4.jar";
+            "hash" = "sha512-bHLfYuQgGkGb6GfSsAyk1KMupwC1QEtV/3unJHOMkivlS0lqeW/svFNBTdSddotLdBdtSBIKSlwNo92+UrbJBQ==";
+        };
+        _xxyD5Q7t = {
+            "id" = "xxyD5Q7t";
+            "file" = "Oh-The-Trees-Youll-Grow-neoforge-1.21.1-5.3.4.jar";
+            "hash" = "sha512-jIWGfzjkKLGIYuMLdp75tR8AvX9Uq1xpu8j/4wl9k+HQTAGGE3XzlztgKVnpAD/KQzWMeEuOLxYkXlJEDxjXRw==";
+        };
+        _gXVyZahL = {
+            "id" = "gXVyZahL";
+            "file" = "Oh-The-Trees-Youll-Grow-fabric-1.21.4-6.1.1.jar";
+            "hash" = "sha512-RqiLnBiCWJtAc/B25ENzV7NNJIVkeJACrQmdKINKMLumkLEkkKEuhqMqE/KwWcHx28PuiD8swE5qcOc+v7tk0w==";
+        };
+        _JIjZT7vQ = {
+            "id" = "JIjZT7vQ";
+            "file" = "Oh-The-Trees-Youll-Grow-forge-1.21.4-6.1.1.jar";
+            "hash" = "sha512-EB1h5G4U1OiKiQGst7OdwzcHK3zbEuo53Mo+ND7J0xUA6TOaC1pkRgCntokIVdQUDgf+7jzXgO7tEMnKTuZ9AQ==";
+        };
+        _9fbWpBvF = {
+            "id" = "9fbWpBvF";
+            "file" = "Oh-The-Trees-Youll-Grow-neoforge-1.21.4-6.1.1.jar";
+            "hash" = "sha512-NCBu4qZMrX8D3tTu/jtHEDj644xKsFp7f/A1hyW34iTy4dc/IIg+o8MwQUlnn5rHbZRPwwj0udW9h95Dh2hCEQ==";
+        };
+        _UzkOAXid = {
+            "id" = "UzkOAXid";
+            "file" = "Oh-The-Trees-Youll-Grow-fabric-1.21.10-8.1.1.jar";
+            "hash" = "sha512-eOgzvyqY4cv44XLF/xpKems+25bI+1ASJbNfolxm/qvzC38/56BlDlXOmzKYaOd9lNFQRhbhHHwwTKXhLBNF3Q==";
+        };
+        _U4b5slQM = {
+            "id" = "U4b5slQM";
+            "file" = "Oh-The-Trees-Youll-Grow-forge-1.21.10-8.1.1.jar";
+            "hash" = "sha512-26HDBH6DGCdtme0sXFRO4xEQ9FvcZEg/8DU04QP8uwjExBQByuxFUhGOARmoqZmH8W9oWFYvTir7gXNVCVaH8w==";
+        };
+        _y2EneAxE = {
+            "id" = "y2EneAxE";
+            "file" = "Oh-The-Trees-Youll-Grow-neoforge-1.21.10-8.1.1.jar";
+            "hash" = "sha512-YHXwsHAllf1QXThHPvMl0Tk93dgRqYWrWRBgFCpox0trmlli1HhnDGttNRXUc4CG6N0kh7eosxzt0YE9DHR4rw==";
+        };
+        _RazycsHh = {
+            "id" = "RazycsHh";
+            "file" = "Oh-The-Trees-Youll-Grow-fabric-1.21.11-9.1.1.jar";
+            "hash" = "sha512-Q3qwZq3fBnVfDAOYGL+NYIdTHwo7BSs6Bb2gN0QpelaSbbI3hBB+3kx+bfs2GEmjIpDAkcSVulbwlGeM3UIdaQ==";
+        };
+        _43Btghlp = {
+            "id" = "43Btghlp";
+            "file" = "Oh-The-Trees-Youll-Grow-forge-1.21.11-9.1.1.jar";
+            "hash" = "sha512-YIJwzk8rCFJl/PPm1j69piiDxgJYq3w5VVH9UGehxtQck6ptLSvSWpjndligtiMON1Gh80r3FAs1pDMUb/5t0w==";
+        };
+        _eBBMJHeE = {
+            "id" = "eBBMJHeE";
+            "file" = "Oh-The-Trees-Youll-Grow-neoforge-1.21.11-9.1.1.jar";
+            "hash" = "sha512-KUMtVtDJocDiasbnhzYFeibsCiSRq8wQsapVOcgo2OTghagYoGzUuXPw3XtejBAiXbika4skE98qeaqpVtaWGg==";
+        };
+        _wMlePrs3 = {
+            "id" = "wMlePrs3";
+            "file" = "ohthetreesyoullgrow-fabric-26.1.2-10.1.3.jar";
+            "hash" = "sha512-9dDakYkDpmTS0lEg575waGus+9Zvlj8ntJlxzD7xIlodeaapFZwPlc2YEUbqZkwM23LIr0J4aOtZWz2OgH2pSw==";
+        };
+        _6Kjcg5ze = {
+            "id" = "6Kjcg5ze";
+            "file" = "ohthetreesyoullgrow-forge-26.1.2-10.1.3.jar";
+            "hash" = "sha512-J2o0uTcSKyaa/7we5F/ortsQB590nBaXQ21/6aTNgDI2kFxt8eYx9ag4O52KJsxkzQwhbetrsaDNmiuJhS2IVw==";
+        };
+        _ZIKaFU6I = {
+            "id" = "ZIKaFU6I";
+            "file" = "ohthetreesyoullgrow-neoforge-26.1.2-10.1.3.jar";
+            "hash" = "sha512-ibuWGnGGhUmR60zVMWD1jMH8MQjTb2RQy1YdHG1pdnyy45zzgxzN0d06Xmman+9arVsReNzT/9s10r07ilczjA==";
+        };
+        _7KPd6BeB = {
+            "id" = "7KPd6BeB";
+            "file" = "ohthetreesyoullgrow-fabric-26.2-11.0.3.jar";
+            "hash" = "sha512-9vcMdBovMLapL21htnJghOsD371FjYgtK92DJCQp0QOOcPdseBKY6xrjVcUnWAAbA/ov++muOE1hgCE75HSM7Q==";
+        };
+        _dS8Hbsqx = {
+            "id" = "dS8Hbsqx";
+            "file" = "ohthetreesyoullgrow-forge-26.2-11.0.3.jar";
+            "hash" = "sha512-tPG16RPaHM05P9vbzXHf9CA0+kJtN8jom8RJLMvPJ/3XQjUKzKSN3LEpL60JnmUaOcFiLllAf12OKUNHREiU+g==";
+        };
+        _F9YF7dMt = {
+            "id" = "F9YF7dMt";
+            "file" = "ohthetreesyoullgrow-neoforge-26.2-11.0.3.jar";
+            "hash" = "sha512-UMwANaor6nGzlWCXymVkKliJEWgggGrDAp2UaqfwtCzRFS7xtufPn46g65OPVDbGVf3nMf7bdSB0gZvZfF8Pmg==";
+        };
+        _95Wwp8Ut = {
+            "id" = "95Wwp8Ut";
+            "file" = "ohthetreesyoullgrow-fabric-26.3-12.0.2.jar";
+            "hash" = "sha512-BQiXF15sKoQGzBbARtsy+nwqsydBmar1GXC6KSuy2g+0krDz9JHL84wZ7qwD1QNyEnDQ9acMJQ9TtWKWLGD+Jw==";
+        };
+        _7U3YVldV = {
+            "id" = "7U3YVldV";
+            "file" = "ohthetreesyoullgrow-forge-26.3-12.0.2.jar";
+            "hash" = "sha512-Adqe7OKC9fJy7iIKlA3BF6LVCaTVeVN/5/7xUV168Z3Q5u3TdS3zEWpq+YBL3wPmclb9Q48xbUl9SMRS3DCFRw==";
+        };
+        _tCepfpWQ = {
+            "id" = "tCepfpWQ";
+            "file" = "ohthetreesyoullgrow-neoforge-26.3-12.0.2.jar";
+            "hash" = "sha512-vRNOck4PVAOOWw6joMHK48iYLhI1uo6Q3KE+0avlQNLD3jlNlef8xCoQOHCv7EmLpKlI1o/CJRVkmIsC2k8mgQ==";
+        };
+        _kcYZL6Gx = {
+            "id" = "kcYZL6Gx";
+            "file" = "Oh-The-Trees-Youll-Grow-fabric-1.20.1-1.7.3.jar";
+            "hash" = "sha512-zUsOqBfMiF4JeVotWKXjaq9auLMx7UtvAg2WgLvKj7HBxkq6zVZHCiXjiSN0815XaWqUxFQc9FdPN6XM857vFw==";
+        };
+        _dLJ6QyyN = {
+            "id" = "dLJ6QyyN";
+            "file" = "Oh-The-Trees-Youll-Grow-forge-1.20.1-1.7.3.jar";
+            "hash" = "sha512-ooYCXK5wNSeuGP57NF5KdBB1yZJT3DxUAb38YMpDtO2g8Bikn77zi60EJlmlZfXm4NNxDil0SdlqzO36Sj02Aw==";
+        };
+        _l9VVNQyn = {
+            "id" = "l9VVNQyn";
+            "file" = "Oh-The-Trees-Youll-Grow-fabric-1.21.10-8.1.2.jar";
+            "hash" = "sha512-vlIa6TUwjVGH7pzKOntim3i8zoshwCjaHB3UYuevhNkJth8szmGOfTnOg7EVmIAYboh6y2dfdUIs2JoAl9sMDA==";
+        };
+        _HuAuazQv = {
+            "id" = "HuAuazQv";
+            "file" = "ohthetreesyoullgrow-fabric-26.1.2-10.1.4.jar";
+            "hash" = "sha512-yk/OQCUVw+ue4OyHaOLsO3M63Rp78GJaoaoGY2wFiJlN1OWwG+T6ZFGrsHL0c11+1Skb8XwQX/TWpfzhueejmQ==";
+        };
+        _s9b8Flgs = {
+            "id" = "s9b8Flgs";
+            "file" = "Oh-The-Trees-Youll-Grow-forge-1.21.10-8.1.2.jar";
+            "hash" = "sha512-2RWZUHkJ/QdjsX821rqSS26LsYvlS0Q2Xv343ZqFi/uuaFTYLG+VUDMm3IbpsG53+HZ6zkQdL8o4XkVTr7gvGQ==";
+        };
+        _7jXqyAsW = {
+            "id" = "7jXqyAsW";
+            "file" = "ohthetreesyoullgrow-forge-26.1.2-10.1.4.jar";
+            "hash" = "sha512-wNsg1jV8bGN5NY/eOxvVduZW+WTqyL1Vb8eA+kPAU+DTNv9JlLYlOKlPRtEaf16BaY2YJybAo5jxQMq9BD1HYQ==";
+        };
+        _IXghGQpw = {
+            "id" = "IXghGQpw";
+            "file" = "Oh-The-Trees-Youll-Grow-neoforge-1.21.10-8.1.2.jar";
+            "hash" = "sha512-/YjQLTrnEvuFKosDMiC4dmr1GBF7pMD4UAbC1/KwJgkR9Uc8sGaxGKn2w/ezZEyfd4uzGBnr6+VpNw9fr33EdQ==";
+        };
+        _8bagmcj0 = {
+            "id" = "8bagmcj0";
+            "file" = "ohthetreesyoullgrow-neoforge-26.1.2-10.1.4.jar";
+            "hash" = "sha512-2GbRAVNP2tJeT4SQYPs/sH1GYaXlWYsX4m3QRqJw8WUvtGAQ735CEw/2FfrS1o09HbukTPa0DG8w27qt94xMlw==";
+        };
+        _gGlQ28kL = {
+            "id" = "gGlQ28kL";
+            "file" = "ohthetreesyoullgrow-fabric-26.2-11.0.4.jar";
+            "hash" = "sha512-aBacDmpQIQ6PWdH2ZNCGRcTcAep4utonOzkAOB1F6QcvDZl7yEn2HLZ7y3SfmFJZ3Wff8EmBl74Hh7JYwq98nA==";
+        };
+        _OyPNlkKo = {
+            "id" = "OyPNlkKo";
+            "file" = "ohthetreesyoullgrow-forge-26.2-11.0.4.jar";
+            "hash" = "sha512-ZDzH5Yo3Qs1Yo9OrNsjp16O4pF/PNMBLKkS7kRYt8e93JgOO1UhgF2Wr48LJjob6/gUk+aJghF9aJ4Hf44qYWA==";
+        };
+        _tENTuAZe = {
+            "id" = "tENTuAZe";
+            "file" = "ohthetreesyoullgrow-neoforge-26.2-11.0.4.jar";
+            "hash" = "sha512-pk/gSVJ4WtQf90TeIF+LyCqnTlRg7Tpi0gwfz8wrMU3msv8aYi02WAZf/KLRWXSY/Xc7Cy+w8NAIkVZptrl2IQ==";
+        };
+        _crCmSAwm = {
+            "id" = "crCmSAwm";
+            "file" = "ohthetreesyoullgrow-fabric-26.3-12.0.3.jar";
+            "hash" = "sha512-c4pBoZeyv3Kvc/1LrbyVZXWesQreZwzG4tZhEdS1kPeEC6RkwN+RCxvGLt9bqmp1SGLH9WlKFI3kpAJr5HPcPQ==";
+        };
+        _BlRmX3Os = {
+            "id" = "BlRmX3Os";
+            "file" = "ohthetreesyoullgrow-forge-26.3-12.0.3.jar";
+            "hash" = "sha512-uaE8QiF0AfULsSs6CZzLoXLkpu4eS1LQEt5ZsamY9sxgyLTG4H34msXzSFLLYITj+s+8aLFnR2Hl+lEif/Zr8g==";
+        };
+        _BHrmXYMK = {
+            "id" = "BHrmXYMK";
+            "file" = "ohthetreesyoullgrow-neoforge-26.3-12.0.3.jar";
+            "hash" = "sha512-vINoUQulSlupqjLxK8xJ+TAIZK3fjOJ33XgRrv8dXaA3JSvFR2140Upgl0a8dadvSDgGG3Mw7dh71cfevoRIgA==";
+        };
+        _7nMg7s9h = {
+            "id" = "7nMg7s9h";
+            "file" = "Oh-The-Trees-Youll-Grow-fabric-1.21.1-5.3.5.jar";
+            "hash" = "sha512-4Kdi/aHmKErYlBlluXcVdXgWZNx1iVT0z9Hqcwgy0qK5Fn9TxduV0g5c+JKNAvo1byK2XZhtOO7cxf4e6VpMTA==";
+        };
+        _XiQ6zlPe = {
+            "id" = "XiQ6zlPe";
+            "file" = "Oh-The-Trees-Youll-Grow-forge-1.21.1-5.3.5.jar";
+            "hash" = "sha512-jrUmXEjHhMas9ZbfIrgo/xAi82yV9LhnS3eA+Mqp4otgrroVr169xjvJc1KQtGV1A/74bjXy9wrqRigHqkwdrg==";
+        };
+        _ZTJAJGUE = {
+            "id" = "ZTJAJGUE";
+            "file" = "Oh-The-Trees-Youll-Grow-neoforge-1.21.1-5.3.5.jar";
+            "hash" = "sha512-QS/RMgEoDBsf7YGVqbodB0Z8kSxNSAwNNbhmMH6darNdT0vzWSfMw+t3W+9n/CFLffMMoFMI/LC9uz7nY3dr7Q==";
+        };
+        _LgZ1CHjk = {
+            "id" = "LgZ1CHjk";
+            "file" = "Oh-The-Trees-Youll-Grow-fabric-1.21.4-6.1.2.jar";
+            "hash" = "sha512-ELq4h+vEi1ezQjDcNgsv8xr3fI26y/HkMiaHslHBc0UAJDe+9bqkuy14y7MyMSax/ACJXDkqhWAhEk9AzuT/+A==";
+        };
+        _C2l8N4M8 = {
+            "id" = "C2l8N4M8";
+            "file" = "Oh-The-Trees-Youll-Grow-forge-1.21.4-6.1.2.jar";
+            "hash" = "sha512-k3fKy3PB6H3vCg+CYYQAaJx0Z6N87b//JNY+xRFXYDzSdOKwGj/XyJQKoe8CwdDSz9ghv069hhAahXuDa3FArw==";
+        };
+        _yVwUsyBC = {
+            "id" = "yVwUsyBC";
+            "file" = "Oh-The-Trees-Youll-Grow-neoforge-1.21.4-6.1.2.jar";
+            "hash" = "sha512-64S7//DYZBpVagn/26g5n+Wsp3Em0zbX9pOdQMyIml43q01Ux3wyzhb796HWMZatKUle4G6kJ3/2/anAkOEZ/A==";
+        };
+        _kxVZMwso = {
+            "id" = "kxVZMwso";
+            "file" = "Oh-The-Trees-Youll-Grow-fabric-1.21.11-9.1.2.jar";
+            "hash" = "sha512-cSLbhQcvW71YEekEMoi/2llKnvl0CFZI5yloSxCRGNankgV1e6UnbwIGk6JQiu2dsrz/Al2+o3oZ+eD2n8oEpw==";
+        };
+        _RGyX5VrA = {
+            "id" = "RGyX5VrA";
+            "file" = "Oh-The-Trees-Youll-Grow-forge-1.21.11-9.1.2.jar";
+            "hash" = "sha512-J0RBSOeDH0DQA7yvzNf3DAoPBO06/Uol3pGMcwltqi983fxKAlFv7LzxEMJewDjw21ckc2iDuKkute5wwPuWpQ==";
+        };
+        _HcfUYdEt = {
+            "id" = "HcfUYdEt";
+            "file" = "Oh-The-Trees-Youll-Grow-neoforge-1.21.11-9.1.2.jar";
+            "hash" = "sha512-RT3guMHLYhjyCP+3NmMwbia81kJMXmSWU+c/xZmFWEOshGn7/oF1Qh+q4NEeo4vyv4cSjS9b6OAtLGmDMt3NHQ==";
+        };
+        _yRpUxOO1 = {
+            "id" = "yRpUxOO1";
+            "file" = "Oh-The-Trees-Youll-Grow-fabric-1.20.2-2.0.5.jar";
+            "hash" = "sha512-iKa6SCAjjeeXp3HW/rBLZHxT7722syprVukPAiWRGkcLzbyRySDncqinOMSz5OZT4XXW6+FDEE8EgaT+cbMn/A==";
+        };
+        _JfralBHJ = {
+            "id" = "JfralBHJ";
+            "file" = "Oh-The-Trees-Youll-Grow-forge-1.20.2-2.0.5.jar";
+            "hash" = "sha512-lIJwbh1NG7FHTmURv5PmxkBoEv/oCIjUjtNvjg0uLD+yNwjU2wSXtzLaP5RU2QtBzQNFKdFtPAoqzT1uhuuc1g==";
+        };
+        _yyayEWmP = {
+            "id" = "yyayEWmP";
+            "file" = "Oh-The-Trees-Youll-Grow-neoforge-1.20.2-2.0.5.jar";
+            "hash" = "sha512-lvs1mV5/V1Q/dUGF1oa9+Dfp2/gOhnpSJM9ReOvHFHwoPd59JCJnFrgstS31lfF/a4pweGD5a7naXFZgZeglzg==";
+        };
+        _wUf58kp7 = {
+            "id" = "wUf58kp7";
+            "file" = "Oh-The-Trees-Youll-Grow-fabric-1.20.4-3.0.5.jar";
+            "hash" = "sha512-djV71/q2ZM2n0IBI9wSvQU5bmhXS7eqkAh2KpEP3AI5SShTdtHEco5Lu4OmwXZaYhYAkKrbQ0Cxw6/1Bvf+N/w==";
+        };
+        _64Da2ruM = {
+            "id" = "64Da2ruM";
+            "file" = "Oh-The-Trees-Youll-Grow-forge-1.20.4-3.0.5.jar";
+            "hash" = "sha512-3mSGKewjQMGfV+zEO92W0YrUwc8VgyWlEwUwfOXhcp0h0BqqlS/UfxO5jnL2R4JSXMMfq08/uR9dNmrCkJI49Q==";
+        };
+        _b0gri7Ma = {
+            "id" = "b0gri7Ma";
+            "file" = "Oh-The-Trees-Youll-Grow-neoforge-1.20.4-3.0.5.jar";
+            "hash" = "sha512-SIkSSFgRkfTbrxbVbz6vIiRDUNMmlhWMQmTunn4iIKr19/PiuWsxTFioY2EcZF8aTs1F7vsWX8hFxVzlI4XxLg==";
+        };
+        _8pvrIihF = {
+            "id" = "8pvrIihF";
+            "file" = "Oh-The-Trees-Youll-Grow-fabric-1.20.6-4.0.4.jar";
+            "hash" = "sha512-W3dXzqt7KyYPKu9I9uYkZBbYcEStDldAX2ZgoiaUZVl6R8R9dq6qXBzxMgcEHL3HLRuY8qdtEEEiMo7Xrs03Tw==";
+        };
+        _KlzIh9xj = {
+            "id" = "KlzIh9xj";
+            "file" = "Oh-The-Trees-Youll-Grow-forge-1.20.6-4.0.4.jar";
+            "hash" = "sha512-vek6JdMYZkpCW6lCyyCHFcKSrfp//LJbTumuorP3x7sL531nCWHWXSetu4qfrGnAy4kBPgebJiW8fZoIy+h8fQ==";
+        };
+        _1lcE7KfV = {
+            "id" = "1lcE7KfV";
+            "file" = "Oh-The-Trees-Youll-Grow-neoforge-1.20.6-4.0.4.jar";
+            "hash" = "sha512-VUY5gpoBmMff+q306x1A629OGlPnPIt9a0x4pM2HQUQlz0Lc2oTE6MSoGEQMXfDvUBj2CHjQ14exkXOGW4VrjQ==";
+        };
     in {
         "5cRGonvx" = _5cRGonvx;
         "Drk8Eba0" = _Drk8Eba0;
@@ -1328,66 +1778,160 @@ let
         "l3iqNqZb" = _l3iqNqZb;
         "WDvRFNs7" = _WDvRFNs7;
         "gdoqLmHy" = _gdoqLmHy;
-        "forge-1.20.1" = _AAp1NdQX;
-        "forge-1.21.1" = _UYcvsBKj;
-        "forge-1.21.4" = _fxzvGAoX;
-        "forge-1.20.2" = _ziFk33LE;
-        "forge-1.20.4" = _IrlPHas3;
-        "forge-1.20.6" = _fzQvp87u;
-        "forge-1.21.6" = _Gl7xiKKt;
-        "forge-1.21.7" = _Gl7xiKKt;
-        "forge-1.21.8" = _Gl7xiKKt;
-        "forge-1.21.9" = _Gl7xiKKt;
-        "forge-1.21.10" = _Gl7xiKKt;
-        "forge-1.21.11" = _WDvRFNs7;
+        "jGTmzNol" = _jGTmzNol;
+        "CecmyRXW" = _CecmyRXW;
+        "thYkLNmU" = _thYkLNmU;
+        "h1Bc5lRD" = _h1Bc5lRD;
+        "lxOHLDV4" = _lxOHLDV4;
+        "4hBxtz5o" = _4hBxtz5o;
+        "P2tbsprb" = _P2tbsprb;
+        "NqxtaCFS" = _NqxtaCFS;
+        "Qbh1RGRd" = _Qbh1RGRd;
+        "9NUnAv44" = _9NUnAv44;
+        "5COoF1Dh" = _5COoF1Dh;
+        "tIzzBA7A" = _tIzzBA7A;
+        "yxGdKxSH" = _yxGdKxSH;
+        "pPeubdwz" = _pPeubdwz;
+        "xZ1xazK9" = _xZ1xazK9;
+        "vdBpONMF" = _vdBpONMF;
+        "vl3VDuFc" = _vl3VDuFc;
+        "muDnxb2D" = _muDnxb2D;
+        "qvN2383Z" = _qvN2383Z;
+        "RpWraWsn" = _RpWraWsn;
+        "Zl3Nsf6w" = _Zl3Nsf6w;
+        "WLUCt1o9" = _WLUCt1o9;
+        "jnImQ1Be" = _jnImQ1Be;
+        "RLleceOJ" = _RLleceOJ;
+        "s6YwztCL" = _s6YwztCL;
+        "yXssEqn2" = _yXssEqn2;
+        "J33j0oL4" = _J33j0oL4;
+        "Hhq43xPd" = _Hhq43xPd;
+        "HkaEVyVt" = _HkaEVyVt;
+        "PA9H0Lh8" = _PA9H0Lh8;
+        "g1bor8bl" = _g1bor8bl;
+        "VVWXt0vW" = _VVWXt0vW;
+        "3ngnSeGz" = _3ngnSeGz;
+        "mXEpucry" = _mXEpucry;
+        "RatX3gCY" = _RatX3gCY;
+        "725G8i4W" = _725G8i4W;
+        "rOfTn2zv" = _rOfTn2zv;
+        "mL4f1NLZ" = _mL4f1NLZ;
+        "Uxpu14Uk" = _Uxpu14Uk;
+        "xxyD5Q7t" = _xxyD5Q7t;
+        "gXVyZahL" = _gXVyZahL;
+        "JIjZT7vQ" = _JIjZT7vQ;
+        "9fbWpBvF" = _9fbWpBvF;
+        "UzkOAXid" = _UzkOAXid;
+        "U4b5slQM" = _U4b5slQM;
+        "y2EneAxE" = _y2EneAxE;
+        "RazycsHh" = _RazycsHh;
+        "43Btghlp" = _43Btghlp;
+        "eBBMJHeE" = _eBBMJHeE;
+        "wMlePrs3" = _wMlePrs3;
+        "6Kjcg5ze" = _6Kjcg5ze;
+        "ZIKaFU6I" = _ZIKaFU6I;
+        "7KPd6BeB" = _7KPd6BeB;
+        "dS8Hbsqx" = _dS8Hbsqx;
+        "F9YF7dMt" = _F9YF7dMt;
+        "95Wwp8Ut" = _95Wwp8Ut;
+        "7U3YVldV" = _7U3YVldV;
+        "tCepfpWQ" = _tCepfpWQ;
+        "kcYZL6Gx" = _kcYZL6Gx;
+        "dLJ6QyyN" = _dLJ6QyyN;
+        "l9VVNQyn" = _l9VVNQyn;
+        "HuAuazQv" = _HuAuazQv;
+        "s9b8Flgs" = _s9b8Flgs;
+        "7jXqyAsW" = _7jXqyAsW;
+        "IXghGQpw" = _IXghGQpw;
+        "8bagmcj0" = _8bagmcj0;
+        "gGlQ28kL" = _gGlQ28kL;
+        "OyPNlkKo" = _OyPNlkKo;
+        "tENTuAZe" = _tENTuAZe;
+        "crCmSAwm" = _crCmSAwm;
+        "BlRmX3Os" = _BlRmX3Os;
+        "BHrmXYMK" = _BHrmXYMK;
+        "7nMg7s9h" = _7nMg7s9h;
+        "XiQ6zlPe" = _XiQ6zlPe;
+        "ZTJAJGUE" = _ZTJAJGUE;
+        "LgZ1CHjk" = _LgZ1CHjk;
+        "C2l8N4M8" = _C2l8N4M8;
+        "yVwUsyBC" = _yVwUsyBC;
+        "kxVZMwso" = _kxVZMwso;
+        "RGyX5VrA" = _RGyX5VrA;
+        "HcfUYdEt" = _HcfUYdEt;
+        "yRpUxOO1" = _yRpUxOO1;
+        "JfralBHJ" = _JfralBHJ;
+        "yyayEWmP" = _yyayEWmP;
+        "wUf58kp7" = _wUf58kp7;
+        "64Da2ruM" = _64Da2ruM;
+        "b0gri7Ma" = _b0gri7Ma;
+        "8pvrIihF" = _8pvrIihF;
+        "KlzIh9xj" = _KlzIh9xj;
+        "1lcE7KfV" = _1lcE7KfV;
+        "forge-1.20.1" = _dLJ6QyyN;
+        "forge-1.21.1" = _XiQ6zlPe;
+        "forge-1.21.4" = _C2l8N4M8;
+        "forge-1.20.2" = _JfralBHJ;
+        "forge-1.20.4" = _64Da2ruM;
+        "forge-1.20.6" = _KlzIh9xj;
+        "forge-1.21.6" = _s9b8Flgs;
+        "forge-1.21.7" = _s9b8Flgs;
+        "forge-1.21.8" = _s9b8Flgs;
+        "forge-1.21.9" = _s9b8Flgs;
+        "forge-1.21.10" = _s9b8Flgs;
+        "forge-1.21.11" = _RGyX5VrA;
         "forge-26.1" = _WrzhBkW6;
-        "forge-26.1.2" = _mFevJSjR;
-        "forge-26.2" = _igtz5Tck;
-        "fabric-1.20.1" = _KB6DtqWA;
-        "fabric-1.21.1" = _v41ubCi1;
-        "fabric-1.21.4" = _2wvxl6DZ;
-        "fabric-1.20.2" = _5091bDmc;
-        "fabric-1.20.4" = _jI5wjH00;
-        "fabric-1.20.6" = _sAHIvWS0;
-        "fabric-1.21.6" = _f5VJRHMh;
-        "fabric-1.21.7" = _f5VJRHMh;
-        "fabric-1.21.8" = _f5VJRHMh;
-        "fabric-1.21.9" = _f5VJRHMh;
-        "fabric-1.21.10" = _f5VJRHMh;
-        "fabric-1.21.11" = _l3iqNqZb;
+        "forge-26.1.2" = _7jXqyAsW;
+        "forge-26.2" = _OyPNlkKo;
+        "forge-26.3" = _BlRmX3Os;
+        "fabric-1.20.1" = _kcYZL6Gx;
+        "fabric-1.21.1" = _7nMg7s9h;
+        "fabric-1.21.4" = _LgZ1CHjk;
+        "fabric-1.20.2" = _yRpUxOO1;
+        "fabric-1.20.4" = _wUf58kp7;
+        "fabric-1.20.6" = _8pvrIihF;
+        "fabric-1.21.6" = _l9VVNQyn;
+        "fabric-1.21.7" = _l9VVNQyn;
+        "fabric-1.21.8" = _l9VVNQyn;
+        "fabric-1.21.9" = _l9VVNQyn;
+        "fabric-1.21.10" = _l9VVNQyn;
+        "fabric-1.21.11" = _kxVZMwso;
         "fabric-26.1" = _LRUWvYct;
-        "fabric-26.1.2" = _T43t4mCE;
-        "fabric-26.2" = _2frKVds1;
-        "neoforge-1.20.1" = _AAp1NdQX;
-        "neoforge-1.21.1" = _ozzakIcu;
-        "neoforge-1.21.4" = _WnNBX8bt;
-        "neoforge-1.20.2" = _L6DOp7Tf;
-        "neoforge-1.20.4" = _P6xO3NTf;
-        "neoforge-1.20.6" = _sawTQLqU;
-        "neoforge-1.21.6" = _KDglKYBU;
-        "neoforge-1.21.7" = _KDglKYBU;
-        "neoforge-1.21.8" = _KDglKYBU;
-        "neoforge-1.21.9" = _KDglKYBU;
-        "neoforge-1.21.10" = _KDglKYBU;
-        "neoforge-1.21.11" = _gdoqLmHy;
+        "fabric-26.1.2" = _HuAuazQv;
+        "fabric-26.2" = _gGlQ28kL;
+        "fabric-26.3" = _crCmSAwm;
+        "neoforge-1.20.1" = _dLJ6QyyN;
+        "neoforge-1.21.1" = _ZTJAJGUE;
+        "neoforge-1.21.4" = _yVwUsyBC;
+        "neoforge-1.20.2" = _yyayEWmP;
+        "neoforge-1.20.4" = _b0gri7Ma;
+        "neoforge-1.20.6" = _1lcE7KfV;
+        "neoforge-1.21.6" = _IXghGQpw;
+        "neoforge-1.21.7" = _IXghGQpw;
+        "neoforge-1.21.8" = _IXghGQpw;
+        "neoforge-1.21.9" = _IXghGQpw;
+        "neoforge-1.21.10" = _IXghGQpw;
+        "neoforge-1.21.11" = _HcfUYdEt;
         "neoforge-26.1" = _zdFTYmwe;
-        "neoforge-26.1.2" = _LENr4YzP;
-        "neoforge-26.2" = _UAHKVciI;
-        "quilt-1.20.1" = _KB6DtqWA;
-        "quilt-1.21.1" = _v41ubCi1;
-        "quilt-1.21.4" = _2wvxl6DZ;
-        "quilt-1.20.2" = _5091bDmc;
-        "quilt-1.20.4" = _jI5wjH00;
-        "quilt-1.20.6" = _sAHIvWS0;
-        "quilt-1.21.6" = _f5VJRHMh;
-        "quilt-1.21.7" = _f5VJRHMh;
-        "quilt-1.21.8" = _f5VJRHMh;
-        "quilt-1.21.9" = _f5VJRHMh;
-        "quilt-1.21.10" = _f5VJRHMh;
-        "quilt-1.21.11" = _l3iqNqZb;
+        "neoforge-26.1.2" = _8bagmcj0;
+        "neoforge-26.2" = _tENTuAZe;
+        "neoforge-26.3" = _BHrmXYMK;
+        "quilt-1.20.1" = _kcYZL6Gx;
+        "quilt-1.21.1" = _7nMg7s9h;
+        "quilt-1.21.4" = _LgZ1CHjk;
+        "quilt-1.20.2" = _yRpUxOO1;
+        "quilt-1.20.4" = _wUf58kp7;
+        "quilt-1.20.6" = _8pvrIihF;
+        "quilt-1.21.6" = _l9VVNQyn;
+        "quilt-1.21.7" = _l9VVNQyn;
+        "quilt-1.21.8" = _l9VVNQyn;
+        "quilt-1.21.9" = _l9VVNQyn;
+        "quilt-1.21.10" = _l9VVNQyn;
+        "quilt-1.21.11" = _kxVZMwso;
         "quilt-26.1" = _LRUWvYct;
-        "quilt-26.1.2" = _T43t4mCE;
-        "quilt-26.2" = _2frKVds1;
+        "quilt-26.1.2" = _HuAuazQv;
+        "quilt-26.2" = _gGlQ28kL;
+        "quilt-26.3" = _crCmSAwm;
         "pkg-1.20.1-1.0.0-forge" = _5cRGonvx;
         "pkg-1.20.1-1.0.0-fabric" = _Drk8Eba0;
         "pkg-1.20.1-1.0.1-fabric" = _mNAA4JnP;
@@ -1596,7 +2140,97 @@ let
         "pkg-1.21.11-9.1.0-Fabric" = _l3iqNqZb;
         "pkg-1.21.11-9.1.0-Forge" = _WDvRFNs7;
         "pkg-1.21.11-9.1.0-NeoForge" = _gdoqLmHy;
-        "default" = _gdoqLmHy;
+        "pkg-12.0.0-fabric" = _jGTmzNol;
+        "pkg-12.0.0-neoforge" = _CecmyRXW;
+        "pkg-26.3-12.0.0-Forge" = _thYkLNmU;
+        "pkg-10.1.2-fabric" = _h1Bc5lRD;
+        "pkg-26.1.2-10.1.2-Forge" = _lxOHLDV4;
+        "pkg-10.1.2-neoforge" = _4hBxtz5o;
+        "pkg-1.20.1-1.7.1-Fabric" = _P2tbsprb;
+        "pkg-1.20.1-1.7.1-Forge" = _NqxtaCFS;
+        "pkg-1.20.2-2.0.3-fabric" = _Qbh1RGRd;
+        "pkg-1.20.2-2.0.3-forge" = _9NUnAv44;
+        "pkg-1.20.2-2.0.3-neoforge" = _5COoF1Dh;
+        "pkg-1.20.4-3.0.3-fabric" = _tIzzBA7A;
+        "pkg-1.20.4-3.0.3-forge" = _yxGdKxSH;
+        "pkg-1.20.4-3.0.3-neoforge" = _pPeubdwz;
+        "pkg-1.20.6-4.0.2-fabric" = _xZ1xazK9;
+        "pkg-1.20.6-4.0.2-forge" = _vdBpONMF;
+        "pkg-1.20.6-4.0.2-neoforge" = _vl3VDuFc;
+        "pkg-1.21.1-5.3.3-Fabric" = _muDnxb2D;
+        "pkg-1.21.1-5.3.3-Forge" = _qvN2383Z;
+        "pkg-1.21.1-5.3.3-NeoForge" = _RpWraWsn;
+        "pkg-11.0.2-fabric" = _Zl3Nsf6w;
+        "pkg-26.2-11.0.2-Forge" = _WLUCt1o9;
+        "pkg-11.0.2-neoforge" = _jnImQ1Be;
+        "pkg-12.0.1-fabric" = _RLleceOJ;
+        "pkg-26.3-12.0.1-Forge" = _s6YwztCL;
+        "pkg-12.0.1-neoforge" = _yXssEqn2;
+        "pkg-1.20.1-1.7.2-Fabric" = _J33j0oL4;
+        "pkg-1.20.1-1.7.2-Forge" = _Hhq43xPd;
+        "pkg-1.20.2-2.0.4-fabric" = _HkaEVyVt;
+        "pkg-1.20.2-2.0.4-forge" = _PA9H0Lh8;
+        "pkg-1.20.2-2.0.4-neoforge" = _g1bor8bl;
+        "pkg-1.20.4-3.0.4-fabric" = _VVWXt0vW;
+        "pkg-1.20.4-3.0.4-forge" = _3ngnSeGz;
+        "pkg-1.20.4-3.0.4-neoforge" = _mXEpucry;
+        "pkg-1.20.6-4.0.3-fabric" = _RatX3gCY;
+        "pkg-1.20.6-4.0.3-forge" = _725G8i4W;
+        "pkg-1.20.6-4.0.3-neoforge" = _rOfTn2zv;
+        "pkg-1.21.1-5.3.4-Fabric" = _mL4f1NLZ;
+        "pkg-1.21.1-5.3.4-Forge" = _Uxpu14Uk;
+        "pkg-1.21.1-5.3.4-NeoForge" = _xxyD5Q7t;
+        "pkg-1.21.4-6.1.1-Fabric" = _gXVyZahL;
+        "pkg-1.21.4-6.1.1-Forge" = _JIjZT7vQ;
+        "pkg-1.21.4-6.1.1-NeoForge" = _9fbWpBvF;
+        "pkg-1.21.10-8.1.1-Fabric" = _UzkOAXid;
+        "pkg-1.21.10-8.1.1-Forge" = _U4b5slQM;
+        "pkg-1.21.10-8.1.1-NeoForge" = _y2EneAxE;
+        "pkg-1.21.11-9.1.1-Fabric" = _RazycsHh;
+        "pkg-1.21.11-9.1.1-Forge" = _43Btghlp;
+        "pkg-1.21.11-9.1.1-NeoForge" = _eBBMJHeE;
+        "pkg-10.1.3-fabric" = _wMlePrs3;
+        "pkg-26.1.2-10.1.3-Forge" = _6Kjcg5ze;
+        "pkg-10.1.3-neoforge" = _ZIKaFU6I;
+        "pkg-11.0.3-fabric" = _7KPd6BeB;
+        "pkg-26.2-11.0.3-Forge" = _dS8Hbsqx;
+        "pkg-11.0.3-neoforge" = _F9YF7dMt;
+        "pkg-12.0.2-fabric" = _95Wwp8Ut;
+        "pkg-26.3-12.0.2-Forge" = _7U3YVldV;
+        "pkg-12.0.2-neoforge" = _tCepfpWQ;
+        "pkg-1.20.1-1.7.3-Fabric" = _kcYZL6Gx;
+        "pkg-1.20.1-1.7.3-Forge" = _dLJ6QyyN;
+        "pkg-1.21.10-8.1.2-Fabric" = _l9VVNQyn;
+        "pkg-10.1.4-fabric" = _HuAuazQv;
+        "pkg-1.21.10-8.1.2-Forge" = _s9b8Flgs;
+        "pkg-26.1.2-10.1.4-Forge" = _7jXqyAsW;
+        "pkg-1.21.10-8.1.2-NeoForge" = _IXghGQpw;
+        "pkg-10.1.4-neoforge" = _8bagmcj0;
+        "pkg-11.0.4-fabric" = _gGlQ28kL;
+        "pkg-26.2-11.0.4-Forge" = _OyPNlkKo;
+        "pkg-11.0.4-neoforge" = _tENTuAZe;
+        "pkg-12.0.3-fabric" = _crCmSAwm;
+        "pkg-26.3-12.0.3-Forge" = _BlRmX3Os;
+        "pkg-12.0.3-neoforge" = _BHrmXYMK;
+        "pkg-1.21.1-5.3.5-Fabric" = _7nMg7s9h;
+        "pkg-1.21.1-5.3.5-Forge" = _XiQ6zlPe;
+        "pkg-1.21.1-5.3.5-NeoForge" = _ZTJAJGUE;
+        "pkg-1.21.4-6.1.2-Fabric" = _LgZ1CHjk;
+        "pkg-1.21.4-6.1.2-Forge" = _C2l8N4M8;
+        "pkg-1.21.4-6.1.2-NeoForge" = _yVwUsyBC;
+        "pkg-1.21.11-9.1.2-Fabric" = _kxVZMwso;
+        "pkg-1.21.11-9.1.2-Forge" = _RGyX5VrA;
+        "pkg-1.21.11-9.1.2-NeoForge" = _HcfUYdEt;
+        "pkg-1.20.2-2.0.5-fabric" = _yRpUxOO1;
+        "pkg-1.20.2-2.0.5-forge" = _JfralBHJ;
+        "pkg-1.20.2-2.0.5-neoforge" = _yyayEWmP;
+        "pkg-1.20.4-3.0.5-fabric" = _wUf58kp7;
+        "pkg-1.20.4-3.0.5-forge" = _64Da2ruM;
+        "pkg-1.20.4-3.0.5-neoforge" = _b0gri7Ma;
+        "pkg-1.20.6-4.0.4-fabric" = _8pvrIihF;
+        "pkg-1.20.6-4.0.4-forge" = _KlzIh9xj;
+        "pkg-1.20.6-4.0.4-neoforge" = _1lcE7KfV;
+        "default" = _1lcE7KfV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "oh-the-trees-youll-grow";

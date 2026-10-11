@@ -561,6 +561,16 @@ let
             "file" = "SimpleSorterR-26.3-3.6.1.jar";
             "hash" = "sha512-hZxoLjXb8seNWNOM+GYGboZ7XxEcXF0II0dWXhv5a1rO2oA2yFrhD+TB18NxFO/Lskwr7BYQqQx3IZ7skvFwxw==";
         };
+        _5MqsTxPW = {
+            "id" = "5MqsTxPW";
+            "file" = "SimpleSorterR-26.3-3.6.1.jar";
+            "hash" = "sha512-R1p+4yRq22PNuYVPq4LsIgwb0cDSn3p53kveKwGLzoJ9PZkeix5K+4nFZ/Rn0WFD5XtlLrW8QEZxaXy1V7IqzA==";
+        };
+        _7FmfuY8O = {
+            "id" = "7FmfuY8O";
+            "file" = "SimpleSorterR-neoforge-26.3-3.6.1.jar";
+            "hash" = "sha512-Rmn+NoYSSA8luFSOSRaxt5lsDN9ZQHg0l8mpO/F2HoBLIRYsxwvfjvLtqAGWv9K0+SFFLdT0fjDPvLaFQJ0g2A==";
+        };
     in {
         "NYgBeRwM" = _NYgBeRwM;
         "5U1bDvEF" = _5U1bDvEF;
@@ -674,6 +684,8 @@ let
         "IOtL9pw7" = _IOtL9pw7;
         "3GuGcZK5" = _3GuGcZK5;
         "kx0hAnsf" = _kx0hAnsf;
+        "5MqsTxPW" = _5MqsTxPW;
+        "7FmfuY8O" = _7FmfuY8O;
         "fabric-1.21.1" = _w3s5ZXPy;
         "fabric-1.21.11" = _PlF7hXaV;
         "fabric-1.21" = _w3s5ZXPy;
@@ -705,6 +717,7 @@ let
         "fabric-26.2-pre-6" = _wdokOm6o;
         "fabric-26.2" = _IOtL9pw7;
         "fabric-26.3-snapshot-4" = _kx0hAnsf;
+        "fabric-26.3" = _5MqsTxPW;
         "forge-1.20.1" = _UYeTVfeR;
         "forge-1.21" = _qzBKZoV7;
         "neoforge-1.20.1" = _UYeTVfeR;
@@ -719,6 +732,7 @@ let
         "neoforge-1.21" = _F56xxeNr;
         "neoforge-1.21.4" = _F1HSIcMW;
         "neoforge-26.2" = _3GuGcZK5;
+        "neoforge-26.3" = _7FmfuY8O;
         "pkg-1.0.0" = _1ZLx9LiC;
         "pkg-SimplesorterR" = _5bdBoywa;
         "pkg-2.0.0" = _DV6uLN1R;
@@ -732,10 +746,10 @@ let
         "pkg-3.5.2" = _jviSnu8G;
         "pkg-3.5.3" = _wr9LR9o8;
         "pkg-3.6.0" = _eAJI3jVB;
-        "pkg-3.6.1" = _kx0hAnsf;
+        "pkg-3.6.1" = _7FmfuY8O;
         "pkg-3.6.2" = _FAQTASrR;
         "pkg-3.6.3" = _wdokOm6o;
-        "default" = _kx0hAnsf;
+        "default" = _7FmfuY8O;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simplesorterr";

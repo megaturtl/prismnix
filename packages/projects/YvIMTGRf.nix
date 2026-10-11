@@ -211,6 +211,11 @@ let
             "file" = "NametagHider-1.2-26.2.jar";
             "hash" = "sha512-H2C1qo7vATG6g186UroZVfhu8X/KUD1BOWB1dPLWsze8p1cPe/0114lWn8AClxE2UvK8meHAXz5x61ZFXlvfIQ==";
         };
+        _3geJnvTr = {
+            "id" = "3geJnvTr";
+            "file" = "NametagHider-1.2-26.3.jar";
+            "hash" = "sha512-+p6PvbeWIOAJEUDHR+Km9UurS5ESYx79SlP5LfEKnok82exJxZgQQIqOxtoO7tumISm1sbH8ktKzVTyoK66HUw==";
+        };
     in {
         "sFYYgwHN" = _sFYYgwHN;
         "b47arPs2" = _b47arPs2;
@@ -254,6 +259,7 @@ let
         "oUoLsAAm" = _oUoLsAAm;
         "Yiyr610T" = _Yiyr610T;
         "DDNJeLK5" = _DDNJeLK5;
+        "3geJnvTr" = _3geJnvTr;
         "paper-1.21" = _u4rHfIpd;
         "paper-1.21.1" = _tFvAgM9p;
         "paper-1.21.3" = _kp4SH2Du;
@@ -269,10 +275,11 @@ let
         "paper-26.1.1" = _oUoLsAAm;
         "paper-26.1.2" = _Yiyr610T;
         "paper-26.2" = _DDNJeLK5;
+        "paper-26.3" = _3geJnvTr;
         "pkg-1.0" = _MpE2qeTG;
         "pkg-1.1" = _ZPJjvYuU;
-        "pkg-1.2" = _DDNJeLK5;
-        "default" = _DDNJeLK5;
+        "pkg-1.2" = _3geJnvTr;
+        "default" = _3geJnvTr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nametaghider";

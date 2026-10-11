@@ -126,6 +126,26 @@ let
             "file" = "dungeons-and-taverns-swamp-hut-overhaul-v2.3.jar";
             "hash" = "sha512-W8ZqQaNpbHCrCImyfSdmvX4kDipogLohIik69gSS9qGxEFQb5cWiGUScA9i8NppbCz79SW8hpKMim2yn1hRE8A==";
         };
+        _xWY7cobI = {
+            "id" = "xWY7cobI";
+            "file" = "DnT Swamp Hut Overhau v2.4.zip";
+            "hash" = "sha512-2R6vQtR0ZuqRSA9StprIKENY+omBU8hWc6id9R3NIHfbvAnaR06T0tmKkoL62Zsul/XpTN+z38TZGlk2vgGJ4g==";
+        };
+        _RPWp4sfz = {
+            "id" = "RPWp4sfz";
+            "file" = "dungeons-and-taverns-swamp-hut-overhaul-2.4.jar";
+            "hash" = "sha512-HOmwk4EpOrlSTYVq5F2OkM/13Cgywp9DxS08eroeRHMMo/f27EttBOAHHYqw6JqCuYligOVpoU0DfUU6FTFDSw==";
+        };
+        _yHxvozER = {
+            "id" = "yHxvozER";
+            "file" = "dungeons-and-taverns-swamp-hut-overhaul-2.4.jar";
+            "hash" = "sha512-fZ6zWJfnZicXxfi5YutltiTKgozoUic1RGc9sxjQyVaX87chMKRZ5sg9XKqHXwFMNhRI4ruHky6G7/3dXOIG4g==";
+        };
+        _fbTwzaXg = {
+            "id" = "fbTwzaXg";
+            "file" = "dungeons-and-taverns-swamp-hut-overhaul-2.4.jar";
+            "hash" = "sha512-FIP8AHFlLBvZm93pkrnlZFXZ0OBHxrbjx6WK0FFA7AA330yyYsQZKkXqtpGpGi5XJLwhq6kD3MTfj+4N6bjF2w==";
+        };
     in {
         "fk8rxaP1" = _fk8rxaP1;
         "vXDpyYWK" = _vXDpyYWK;
@@ -152,6 +172,10 @@ let
         "CMdKBcpG" = _CMdKBcpG;
         "pxoN6NwI" = _pxoN6NwI;
         "FPF8q0Rb" = _FPF8q0Rb;
+        "xWY7cobI" = _xWY7cobI;
+        "RPWp4sfz" = _RPWp4sfz;
+        "yHxvozER" = _yHxvozER;
+        "fbTwzaXg" = _fbTwzaXg;
         "datapack-1.19.4" = _fk8rxaP1;
         "datapack-1.20" = _fk8rxaP1;
         "datapack-1.20.1" = _fk8rxaP1;
@@ -176,6 +200,7 @@ let
         "datapack-26.1.1" = _t2gIpNuq;
         "datapack-26.1.2" = _t2gIpNuq;
         "datapack-26.2" = _t2gIpNuq;
+        "datapack-26.3" = _xWY7cobI;
         "forge-1.19.4" = _vXDpyYWK;
         "forge-1.20" = _vXDpyYWK;
         "forge-1.20.1" = _vXDpyYWK;
@@ -200,6 +225,7 @@ let
         "forge-26.1.1" = _FPF8q0Rb;
         "forge-26.1.2" = _FPF8q0Rb;
         "forge-26.2" = _FPF8q0Rb;
+        "forge-26.3" = _yHxvozER;
         "fabric-1.19.4" = _RHfivqup;
         "fabric-1.20" = _RHfivqup;
         "fabric-1.20.1" = _RHfivqup;
@@ -224,6 +250,7 @@ let
         "fabric-26.1.1" = _CMdKBcpG;
         "fabric-26.1.2" = _CMdKBcpG;
         "fabric-26.2" = _CMdKBcpG;
+        "fabric-26.3" = _RPWp4sfz;
         "neoforge-1.21" = _XJq4ei5a;
         "neoforge-1.21.1" = _XJq4ei5a;
         "neoforge-1.21.2" = _Dx0qImCy;
@@ -239,6 +266,7 @@ let
         "neoforge-26.1.1" = _pxoN6NwI;
         "neoforge-26.1.2" = _pxoN6NwI;
         "neoforge-26.2" = _pxoN6NwI;
+        "neoforge-26.3" = _fbTwzaXg;
         "pkg-1" = _fk8rxaP1;
         "pkg-1+mod" = _RHfivqup;
         "pkg-1.1" = _ONK7Fotr;
@@ -253,7 +281,9 @@ let
         "pkg-v2.2+mod" = _KvrmbQaV;
         "pkg-v2.3" = _t2gIpNuq;
         "pkg-v2.3+mod" = _FPF8q0Rb;
-        "default" = _FPF8q0Rb;
+        "pkg-2.4" = _xWY7cobI;
+        "pkg-2.4+mod" = _fbTwzaXg;
+        "default" = _fbTwzaXg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dungeons-and-taverns-swamp-hut-overhaul";

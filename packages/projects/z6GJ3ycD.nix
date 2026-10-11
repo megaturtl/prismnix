@@ -176,6 +176,26 @@ let
             "file" = "dungeons-and-taverns-ocean-monument-overhaul-2.2.1.jar";
             "hash" = "sha512-TK0Yr3OW2KA3vvitTvulO4wHJx/LsCiRiXhrPerSpy0im1DB6pQVSrK+wiETAuz3U73uWhz4INEhzqVaVo4P0Q==";
         };
+        _JA7vBMbj = {
+            "id" = "JA7vBMbj";
+            "file" = "DnT Ocean Monument Overhaul v2.3.zip";
+            "hash" = "sha512-LkjcO9KEQ5BouR8yqstZ5DPegq1i+2oRvbAU3dwc8uNIRHxXkgeqpyk4gDtAcrlplXdQMnt+rsNZ3iXz4woLAw==";
+        };
+        _k9Bj5hfz = {
+            "id" = "k9Bj5hfz";
+            "file" = "dungeons-and-taverns-ocean-monument-overhaul-2.3.jar";
+            "hash" = "sha512-vGCJHumc2pSgjxSjrXSW2Ugf4Ws9dCoXxhonL1+BKpkTepKNFeS6FFWjB2cYvKysanBycD/TeyxTicZSq77a8g==";
+        };
+        _pUqoJ18G = {
+            "id" = "pUqoJ18G";
+            "file" = "dungeons-and-taverns-ocean-monument-overhaul-2.3.jar";
+            "hash" = "sha512-lPU9C3avaebRrx+HK14V0yOQPHFuqHv+ofAJyaZpcC6G05sgRvAA9T8+3gvhDqwcl11y927tb0gAwq4GFg2XmA==";
+        };
+        _FjMGKblQ = {
+            "id" = "FjMGKblQ";
+            "file" = "dungeons-and-taverns-ocean-monument-overhaul-2.3.jar";
+            "hash" = "sha512-xUJcGGGrGq/i0PnjVyFOyPipNleLwS5y6fplYnMKCNrKj78GiWIvK6WJ27sJxrzER6TSWcL1M7EDRlCsJoMOdA==";
+        };
     in {
         "vaJCTWj2" = _vaJCTWj2;
         "95mkz6Ls" = _95mkz6Ls;
@@ -212,6 +232,10 @@ let
         "pSv7WyCj" = _pSv7WyCj;
         "SjBlkKaG" = _SjBlkKaG;
         "2fYxegFC" = _2fYxegFC;
+        "JA7vBMbj" = _JA7vBMbj;
+        "k9Bj5hfz" = _k9Bj5hfz;
+        "pUqoJ18G" = _pUqoJ18G;
+        "FjMGKblQ" = _FjMGKblQ;
         "datapack-1.21" = _niX4GkjB;
         "datapack-1.21.1" = _niX4GkjB;
         "datapack-1.21.2" = _2L8BpQFe;
@@ -228,6 +252,7 @@ let
         "datapack-26.1.1" = _XaMRlEub;
         "datapack-26.1.2" = _XaMRlEub;
         "datapack-26.2" = _IX2JzD1k;
+        "datapack-26.3" = _JA7vBMbj;
         "fabric-1.21" = _eopGJVBy;
         "fabric-1.21.1" = _eopGJVBy;
         "fabric-1.21.2" = _o6h7pJkz;
@@ -244,6 +269,7 @@ let
         "fabric-26.1.1" = _mJJ8TcJi;
         "fabric-26.1.2" = _mJJ8TcJi;
         "fabric-26.2" = _pSv7WyCj;
+        "fabric-26.3" = _k9Bj5hfz;
         "forge-1.21" = _r4oiwdyM;
         "forge-1.21.1" = _r4oiwdyM;
         "forge-1.21.2" = _D244GzT2;
@@ -260,6 +286,7 @@ let
         "forge-26.1.1" = _4z3N7sFr;
         "forge-26.1.2" = _4z3N7sFr;
         "forge-26.2" = _SjBlkKaG;
+        "forge-26.3" = _pUqoJ18G;
         "neoforge-1.21" = _SFXYDC6X;
         "neoforge-1.21.1" = _SFXYDC6X;
         "neoforge-1.21.2" = _4rOp1DFZ;
@@ -276,6 +303,7 @@ let
         "neoforge-26.1.1" = _rqwE1eAZ;
         "neoforge-26.1.2" = _rqwE1eAZ;
         "neoforge-26.2" = _2fYxegFC;
+        "neoforge-26.3" = _FjMGKblQ;
         "pkg-v1" = _vaJCTWj2;
         "pkg-v1+mod" = _Hmm20OMK;
         "pkg-v1.1" = _IeoIKskK;
@@ -294,7 +322,9 @@ let
         "pkg-v2.2+mod" = _4z3N7sFr;
         "pkg-2.2.1" = _IX2JzD1k;
         "pkg-2.2.1+mod" = _2fYxegFC;
-        "default" = _2fYxegFC;
+        "pkg-2.3" = _JA7vBMbj;
+        "pkg-2.3+mod" = _FjMGKblQ;
+        "default" = _FjMGKblQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dungeons-and-taverns-ocean-monument-overhaul";

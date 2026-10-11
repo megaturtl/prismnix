@@ -16,25 +16,34 @@ let
             "file" = "Weskerson's Nature.zip";
             "hash" = "sha512-va5RpPA9Fz2xmE46YsKAWmsRZr8PTzYwG5X/naq7tAiktKYlCD/FKkInQj/g/pCMEffI4cZQU4Dl4Qkj5LMclw==";
         };
+        _KBOjf1Yi = {
+            "id" = "KBOjf1Yi";
+            "file" = "Weskerson's Nature.zip";
+            "hash" = "sha512-/fXJPOR2bZWdyNGr6rw5jcI5fzN2sWxmP0Cx6e5xWN0imsPfkyotnRdT2OeBlG6oCoQ7hZgeIiRP/6YbfmWihA==";
+        };
     in {
         "THxrnr5p" = _THxrnr5p;
         "n25mhjMs" = _n25mhjMs;
         "RSoU5vuF" = _RSoU5vuF;
-        "minecraft-1.21.11" = _RSoU5vuF;
-        "minecraft-1.21.4" = _RSoU5vuF;
-        "minecraft-1.21.5" = _RSoU5vuF;
-        "minecraft-1.21.6" = _RSoU5vuF;
-        "minecraft-1.21.7" = _RSoU5vuF;
-        "minecraft-1.21.8" = _RSoU5vuF;
-        "minecraft-1.21.9" = _RSoU5vuF;
-        "minecraft-1.21.10" = _RSoU5vuF;
-        "minecraft-26.1" = _RSoU5vuF;
-        "minecraft-26.1.1" = _RSoU5vuF;
-        "minecraft-26.1.2" = _RSoU5vuF;
+        "KBOjf1Yi" = _KBOjf1Yi;
+        "minecraft-1.21.11" = _KBOjf1Yi;
+        "minecraft-1.21.4" = _KBOjf1Yi;
+        "minecraft-1.21.5" = _KBOjf1Yi;
+        "minecraft-1.21.6" = _KBOjf1Yi;
+        "minecraft-1.21.7" = _KBOjf1Yi;
+        "minecraft-1.21.8" = _KBOjf1Yi;
+        "minecraft-1.21.9" = _KBOjf1Yi;
+        "minecraft-1.21.10" = _KBOjf1Yi;
+        "minecraft-26.1" = _KBOjf1Yi;
+        "minecraft-26.1.1" = _KBOjf1Yi;
+        "minecraft-26.1.2" = _KBOjf1Yi;
+        "minecraft-26.2" = _KBOjf1Yi;
+        "minecraft-26.3" = _KBOjf1Yi;
         "pkg-1.0" = _THxrnr5p;
         "pkg-1.01" = _n25mhjMs;
         "pkg-1.02" = _RSoU5vuF;
-        "default" = _RSoU5vuF;
+        "pkg-1.1" = _KBOjf1Yi;
+        "default" = _KBOjf1Yi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "weskersons-nature";

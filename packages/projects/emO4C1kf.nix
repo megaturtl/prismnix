@@ -41,6 +41,11 @@ let
             "file" = "§aRemodeled-Doors§8_§62.2.1.zip";
             "hash" = "sha512-7+gYUAAe+AvtbciA3xCE9eYHxu0pXIjm+9KDTicxAeJ1sSdcU88rLECh5qmOrSaNV4c6zfx4KuR3PiFR3zTGzg==";
         };
+        _Opp78wgT = {
+            "id" = "Opp78wgT";
+            "file" = "§aRemodeled-Doors§8_§62.3.1.zip";
+            "hash" = "sha512-LqoY4+Euy/trwKgKXmtCKYgCPNjWBgeT9ZRCNRrCkdepPbONd/CFs1WymaqU/v05TodBncZ3ajgSW1D19KybbA==";
+        };
     in {
         "y27A2FdI" = _y27A2FdI;
         "KAQVQoRq" = _KAQVQoRq;
@@ -50,6 +55,7 @@ let
         "mvbC3veY" = _mvbC3veY;
         "kqGLraXB" = _kqGLraXB;
         "aBO2dU79" = _aBO2dU79;
+        "Opp78wgT" = _Opp78wgT;
         "minecraft-1.19" = _lkM0clZP;
         "minecraft-1.19.1" = _lkM0clZP;
         "minecraft-1.19.2" = _lkM0clZP;
@@ -121,7 +127,8 @@ let
         "minecraft-26.1" = _aBO2dU79;
         "minecraft-26.1.1" = _aBO2dU79;
         "minecraft-26.1.2" = _aBO2dU79;
-        "minecraft-26.2" = _aBO2dU79;
+        "minecraft-26.2" = _Opp78wgT;
+        "minecraft-26.3" = _Opp78wgT;
         "pkg-1.3" = _y27A2FdI;
         "pkg-1.4" = _KAQVQoRq;
         "pkg-1.5" = _mQls7hKY;
@@ -130,7 +137,8 @@ let
         "pkg-2.0" = _mvbC3veY;
         "pkg-2.1" = _kqGLraXB;
         "pkg-2.2.1" = _aBO2dU79;
-        "default" = _aBO2dU79;
+        "pkg-2.3.1" = _Opp78wgT;
+        "default" = _Opp78wgT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "remodeled-doors";

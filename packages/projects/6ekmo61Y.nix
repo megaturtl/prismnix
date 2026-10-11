@@ -46,6 +46,36 @@ let
             "file" = "hypixelautotip-1.4.3+26.3.jar";
             "hash" = "sha512-XZXkiFuJbhouVPzxmNJMTdoSAhdhAcUoio0JDWpmcvOg8YihZEzZmvRjLGsf6LG7b7YzR3+xLM1QpIuLlhCFhQ==";
         };
+        _RwCPPfwn = {
+            "id" = "RwCPPfwn";
+            "file" = "hypixelautotip-1.5.0+26.1.jar";
+            "hash" = "sha512-tfdHJ+dbbqLV+xhDv5ky4hKIpNh35pLe2m9c8814iXt8b+rLHEbkX49UIlHXsCJwILeXuHed7R3DnrKYsnu2fQ==";
+        };
+        _5LGn2UZd = {
+            "id" = "5LGn2UZd";
+            "file" = "hypixelautotip-1.5.0+26.2.jar";
+            "hash" = "sha512-eNecTs52nSvLJug37ze8vUlUBhpdwy0tB9QeRYdkrugDZpgsz7ROzVVWunxHaRi2t/A5pYM3+qCs1tG2f+a7SQ==";
+        };
+        _yyKXTcCn = {
+            "id" = "yyKXTcCn";
+            "file" = "hypixelautotip-1.5.0+26.3.jar";
+            "hash" = "sha512-gntJRkfYjtwB6PG60MlfXn0jPDrBEo/xwbDqzuRi+PJYdBgbppQqTX/MxnwX8QE+zbRvnOU6Gs47vhyFrQfSoQ==";
+        };
+        _rWsfCwAK = {
+            "id" = "rWsfCwAK";
+            "file" = "hypixelautotip-1.5.1+26.1.jar";
+            "hash" = "sha512-jsVruWPtpbsQZklwHNtm3DHU/H6DpF5B10k/LKXguNOEVj8omjRiH0k4TDj6T8wmrib2+vA1ZyJt+LrKHk98cg==";
+        };
+        _tAVc3tQ8 = {
+            "id" = "tAVc3tQ8";
+            "file" = "hypixelautotip-1.5.1+26.2.jar";
+            "hash" = "sha512-961fr7yaxO5HYM/VUUe0L+ys8TGjrCOThySiaQ6d48AejzCV/yTNKGDxQBFCpLSkS9WyIqtUEFyuKItV5rmP8g==";
+        };
+        _aEhvz17T = {
+            "id" = "aEhvz17T";
+            "file" = "hypixelautotip-1.5.1+26.3.jar";
+            "hash" = "sha512-9eDu7an7H6CvG1Ydw7NEJTj4RcBzFz0EUhK0syo//9/TU3xisgnIzqD58M4I0uJLH8BJNKStmTInzu1YbHWwmA==";
+        };
     in {
         "gJ0onRg6" = _gJ0onRg6;
         "oBD8HX9e" = _oBD8HX9e;
@@ -56,6 +86,12 @@ let
         "f7kRNWxz" = _f7kRNWxz;
         "QKhVWQQk" = _QKhVWQQk;
         "Od45L3rI" = _Od45L3rI;
+        "RwCPPfwn" = _RwCPPfwn;
+        "5LGn2UZd" = _5LGn2UZd;
+        "yyKXTcCn" = _yyKXTcCn;
+        "rWsfCwAK" = _rWsfCwAK;
+        "tAVc3tQ8" = _tAVc3tQ8;
+        "aEhvz17T" = _aEhvz17T;
         "fabric-1.21" = _gJ0onRg6;
         "fabric-1.21.1" = _gJ0onRg6;
         "fabric-1.21.2" = _gJ0onRg6;
@@ -68,11 +104,16 @@ let
         "fabric-1.21.9" = _luRttRiA;
         "fabric-1.21.10" = _ciBat2ip;
         "fabric-1.21.11" = _ciBat2ip;
-        "fabric-26.1" = _f7kRNWxz;
-        "fabric-26.1.1" = _f7kRNWxz;
-        "fabric-26.1.2" = _f7kRNWxz;
-        "fabric-26.2" = _QKhVWQQk;
-        "fabric-26.3" = _Od45L3rI;
+        "fabric-26.1" = _rWsfCwAK;
+        "fabric-26.1.1" = _rWsfCwAK;
+        "fabric-26.1.2" = _rWsfCwAK;
+        "fabric-26.2" = _tAVc3tQ8;
+        "fabric-26.3" = _aEhvz17T;
+        "quilt-26.3" = _aEhvz17T;
+        "quilt-26.1" = _rWsfCwAK;
+        "quilt-26.1.1" = _rWsfCwAK;
+        "quilt-26.1.2" = _rWsfCwAK;
+        "quilt-26.2" = _tAVc3tQ8;
         "pkg-1.1.3" = _gJ0onRg6;
         "pkg-1.1.4" = _oBD8HX9e;
         "pkg-1.2.0" = _zTbemzBa;
@@ -82,7 +123,13 @@ let
         "pkg-1.4.1" = _f7kRNWxz;
         "pkg-1.4.2+26.2" = _QKhVWQQk;
         "pkg-1.4.3+26.3" = _Od45L3rI;
-        "default" = _Od45L3rI;
+        "pkg-1.5.0+26.1" = _RwCPPfwn;
+        "pkg-1.5.0+26.2" = _5LGn2UZd;
+        "pkg-1.5.0+26.3" = _yyKXTcCn;
+        "pkg-1.5.1+26.1" = _rWsfCwAK;
+        "pkg-1.5.1+26.2" = _tAVc3tQ8;
+        "pkg-1.5.1+26.3" = _aEhvz17T;
+        "default" = _aEhvz17T;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hypixelautotip";

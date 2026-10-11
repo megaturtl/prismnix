@@ -121,6 +121,11 @@ let
             "file" = "burning-3.1+26.1.jar";
             "hash" = "sha512-CfCmmwzLxGxB6eQ/F0+2J6zZ4fSVWFIzZ4dOjLioixb9XlnZp0yir+ktXNADxhB5knVOq0/rdOLSP/rQzI6Mnw==";
         };
+        _K4ppcPHo = {
+            "id" = "K4ppcPHo";
+            "file" = "burning-3.1+26.3.jar";
+            "hash" = "sha512-4OslyqS5juLALMwlFHpbLTv/TIoBX3GmDTXC07ZqjDMeBz3DTOCMCI59oX+zyBG0+5HjV85dOwk/7KvstP5EbQ==";
+        };
     in {
         "KkYHBeK5" = _KkYHBeK5;
         "SQk6uwQR" = _SQk6uwQR;
@@ -146,6 +151,7 @@ let
         "7a64VgRw" = _7a64VgRw;
         "COH9YdXJ" = _COH9YdXJ;
         "6QyeIeyP" = _6QyeIeyP;
+        "K4ppcPHo" = _K4ppcPHo;
         "fabric-1.21" = _emxkbvxS;
         "fabric-1.21.1" = _emxkbvxS;
         "fabric-1.21.2" = _R9Rt2kGB;
@@ -168,6 +174,7 @@ let
         "fabric-26.1.1" = _6QyeIeyP;
         "fabric-26.1.2" = _6QyeIeyP;
         "fabric-26.2" = _6QyeIeyP;
+        "fabric-26.3" = _K4ppcPHo;
         "pkg-0.1" = _KkYHBeK5;
         "pkg-0.2" = _SQk6uwQR;
         "pkg-0.3" = _BKStrOoB;
@@ -192,7 +199,8 @@ let
         "pkg-3.0+1.20.1" = _7a64VgRw;
         "pkg-3.0+26.1" = _COH9YdXJ;
         "pkg-3.1+26.1" = _6QyeIeyP;
-        "default" = _6QyeIeyP;
+        "pkg-3.1+26.3" = _K4ppcPHo;
+        "default" = _K4ppcPHo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "burning";

@@ -6,8 +6,14 @@ let
             "file" = "sculk_xp_bar_v1.0.zip";
             "hash" = "sha512-G8TpGUmLRL2S1hXawEBprTOS/6HQ9tEsQR1O2n2XFuAyz2OtQ4sG/ezorzyyDV3Vnm9F65koaU32xBwsAt2zhg==";
         };
+        _GNYE550Y = {
+            "id" = "GNYE550Y";
+            "file" = "sculk_xp_bar_v1.0_26.3.zip";
+            "hash" = "sha512-G8TpGUmLRL2S1hXawEBprTOS/6HQ9tEsQR1O2n2XFuAyz2OtQ4sG/ezorzyyDV3Vnm9F65koaU32xBwsAt2zhg==";
+        };
     in {
         "Ws1s2toW" = _Ws1s2toW;
+        "GNYE550Y" = _GNYE550Y;
         "minecraft-1.20.2" = _Ws1s2toW;
         "minecraft-1.20.3" = _Ws1s2toW;
         "minecraft-1.20.4" = _Ws1s2toW;
@@ -29,8 +35,10 @@ let
         "minecraft-26.1.1" = _Ws1s2toW;
         "minecraft-26.1.2" = _Ws1s2toW;
         "minecraft-26.2" = _Ws1s2toW;
+        "minecraft-26.3" = _GNYE550Y;
         "pkg-1.0" = _Ws1s2toW;
-        "default" = _Ws1s2toW;
+        "pkg-v1.0" = _GNYE550Y;
+        "default" = _GNYE550Y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sculk-xp-bar";

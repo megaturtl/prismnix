@@ -261,6 +261,16 @@ let
             "file" = "nautilus-shell-recipe-1.0.jar";
             "hash" = "sha512-0hJAfebc5+0Q0m4YgBNoV+2H1ifX8/4ZFSS+lcIZEUC0QrJ2ZD4d8akID0fhyhQ5l2RrtsVG/EIy/5E6UA6Cpg==";
         };
+        _hsRPzUuV = {
+            "id" = "hsRPzUuV";
+            "file" = "nautilus_shell-26.3.zip";
+            "hash" = "sha512-R59sc8cnRVh0vgS1u/TqkX9T8X8b6H8yenuh7rCZxqvbG2XaxCE7+51bCAoikL8yvHMLdk9ZtLZ9OqqeUfME1A==";
+        };
+        _eZObLew9 = {
+            "id" = "eZObLew9";
+            "file" = "nautilus-shell-recipe-1.0.jar";
+            "hash" = "sha512-KjID5VQYcZi34iQxCIdD8s5nO8tmiwqrLmEG1urbgrTOeEFk1ulTrs7rXpUfh3lHPltcZ9Ln+9MEUOrCIZSGag==";
+        };
     in {
         "Fke2Dy8o" = _Fke2Dy8o;
         "Sh7Hrb8M" = _Sh7Hrb8M;
@@ -314,6 +324,8 @@ let
         "wXwC9eZq" = _wXwC9eZq;
         "2EKaml0C" = _2EKaml0C;
         "1u1uvR7H" = _1u1uvR7H;
+        "hsRPzUuV" = _hsRPzUuV;
+        "eZObLew9" = _eZObLew9;
         "datapack-1.13" = _Fke2Dy8o;
         "datapack-1.13.1" = _Fke2Dy8o;
         "datapack-1.13.2" = _Fke2Dy8o;
@@ -383,6 +395,7 @@ let
         "datapack-26.2-snapshot-2" = _JaK51I01;
         "datapack-26.2" = _2EKaml0C;
         "datapack-26.3-snapshot-1" = _2EKaml0C;
+        "datapack-26.3" = _hsRPzUuV;
         "fabric-1.13" = _fj7QZTsv;
         "fabric-1.13.1" = _fj7QZTsv;
         "fabric-1.13.2" = _fj7QZTsv;
@@ -452,6 +465,7 @@ let
         "fabric-26.2-snapshot-2" = _NCkchs8H;
         "fabric-26.2" = _1u1uvR7H;
         "fabric-26.3-snapshot-1" = _1u1uvR7H;
+        "fabric-26.3" = _eZObLew9;
         "forge-1.13" = _fj7QZTsv;
         "forge-1.13.1" = _fj7QZTsv;
         "forge-1.13.2" = _fj7QZTsv;
@@ -521,6 +535,7 @@ let
         "forge-26.2-snapshot-2" = _NCkchs8H;
         "forge-26.2" = _1u1uvR7H;
         "forge-26.3-snapshot-1" = _1u1uvR7H;
+        "forge-26.3" = _eZObLew9;
         "neoforge-1.13" = _fj7QZTsv;
         "neoforge-1.13.1" = _fj7QZTsv;
         "neoforge-1.13.2" = _fj7QZTsv;
@@ -590,6 +605,7 @@ let
         "neoforge-26.2-snapshot-2" = _NCkchs8H;
         "neoforge-26.2" = _1u1uvR7H;
         "neoforge-26.3-snapshot-1" = _1u1uvR7H;
+        "neoforge-26.3" = _eZObLew9;
         "quilt-1.13" = _fj7QZTsv;
         "quilt-1.13.1" = _fj7QZTsv;
         "quilt-1.13.2" = _fj7QZTsv;
@@ -659,9 +675,10 @@ let
         "quilt-26.2-snapshot-2" = _NCkchs8H;
         "quilt-26.2" = _1u1uvR7H;
         "quilt-26.3-snapshot-1" = _1u1uvR7H;
-        "pkg-1.0" = _2EKaml0C;
-        "pkg-1.0+mod" = _1u1uvR7H;
-        "default" = _1u1uvR7H;
+        "quilt-26.3" = _eZObLew9;
+        "pkg-1.0" = _hsRPzUuV;
+        "pkg-1.0+mod" = _eZObLew9;
+        "default" = _eZObLew9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nautilus-shell-recipe";

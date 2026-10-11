@@ -221,6 +221,16 @@ let
             "file" = "CrazyEnvoys-1.15.0.jar";
             "hash" = "sha512-kp1Z7NQp0WFWkZvaYuIZxT5qmv0EzBQAxUA3o8sVdSR89gNDq6yerqRFBPkCC4j4XcT7G7CbE1ucmjvKsjgaPw==";
         };
+        _QQmBRCXe = {
+            "id" = "QQmBRCXe";
+            "file" = "CrazyEnvoys-26.1.2-9d42adb.jar";
+            "hash" = "sha512-JQ4sSrHRpExAKusjuMPrsdbd+s8gEukTOcR/XDrCB8aBKBo7schjmfBHiZjJlhPb0gc93cQqZna8/E/5ekC+PA==";
+        };
+        _zmPhB2BY = {
+            "id" = "zmPhB2BY";
+            "file" = "CrazyEnvoys-26.1.2-e837ce2.jar";
+            "hash" = "sha512-TmQU2SuQ6FrvRnNCbCkGdFaIE3ixJSrcY6hHsVmKgjyJa/JaxQWjmpH12krkuH7XD8TBIlSa0p5FXqVm5FNKCw==";
+        };
     in {
         "QkKlspsp" = _QkKlspsp;
         "vtMMeTpa" = _vtMMeTpa;
@@ -266,6 +276,8 @@ let
         "UtvEIqvS" = _UtvEIqvS;
         "C3uqyrnF" = _C3uqyrnF;
         "1KifVd5L" = _1KifVd5L;
+        "QQmBRCXe" = _QQmBRCXe;
+        "zmPhB2BY" = _zmPhB2BY;
         "paper-1.19.3" = _ZrobsUh0;
         "paper-1.8.8" = _U4R67Vt9;
         "paper-1.12.2" = _U4R67Vt9;
@@ -289,8 +301,8 @@ let
         "paper-1.21.11" = _C3uqyrnF;
         "paper-26.1" = _C3uqyrnF;
         "paper-26.1.1" = _C3uqyrnF;
-        "paper-26.1.2" = _1KifVd5L;
-        "paper-26.2" = _1KifVd5L;
+        "paper-26.1.2" = _zmPhB2BY;
+        "paper-26.2" = _zmPhB2BY;
         "purpur-1.19.3" = _ZrobsUh0;
         "purpur-1.19.4" = _M4IyJV7f;
         "purpur-1.20.1" = _3oqi1Qw9;
@@ -311,8 +323,8 @@ let
         "purpur-1.21.11" = _C3uqyrnF;
         "purpur-26.1" = _C3uqyrnF;
         "purpur-26.1.1" = _C3uqyrnF;
-        "purpur-26.1.2" = _1KifVd5L;
-        "purpur-26.2" = _1KifVd5L;
+        "purpur-26.1.2" = _zmPhB2BY;
+        "purpur-26.2" = _zmPhB2BY;
         "spigot-1.8.8" = _U4R67Vt9;
         "spigot-1.12.2" = _U4R67Vt9;
         "spigot-1.16.5" = _U4R67Vt9;
@@ -331,8 +343,8 @@ let
         "folia-1.21.11" = _C3uqyrnF;
         "folia-26.1" = _C3uqyrnF;
         "folia-26.1.1" = _C3uqyrnF;
-        "folia-26.1.2" = _1KifVd5L;
-        "folia-26.2" = _1KifVd5L;
+        "folia-26.1.2" = _zmPhB2BY;
+        "folia-26.2" = _zmPhB2BY;
         "pkg-1.4.19" = _QkKlspsp;
         "pkg-1.4.17" = _vtMMeTpa;
         "pkg-1.4.20" = _i0v2hAtX;
@@ -377,7 +389,9 @@ let
         "pkg-1.14.1" = _UtvEIqvS;
         "pkg-1.14.2" = _C3uqyrnF;
         "pkg-1.15.0" = _1KifVd5L;
-        "default" = _1KifVd5L;
+        "pkg-26.1.2-9d42adb" = _QQmBRCXe;
+        "pkg-26.1.2-e837ce2" = _zmPhB2BY;
+        "default" = _zmPhB2BY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crazyenvoys";

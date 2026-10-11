@@ -496,6 +496,16 @@ let
             "file" = "extshape_blockus-fabric-3.1.6-mc26.2.jar";
             "hash" = "sha512-sVSucktwLTu5+s8Qt2QZmleSAyyKmEtnPHLQ2mzVvUvnZg7wAEkCtvPvPxfTMXV5V+73jakZjQPDt0b4o+H43Q==";
         };
+        _lmgNDDIV = {
+            "id" = "lmgNDDIV";
+            "file" = "extshape_blockus-fabric-3.2.0-beta.4+mc1.21.1.jar";
+            "hash" = "sha512-WlM8BnB66ua3VLQ3QkKJXD1hS7F+fokRVWojZGYDz4JNE9W24AdrS7UPtw1PPel+OfQj+tAE62NVADrQSvmXXg==";
+        };
+        _7TWetHI6 = {
+            "id" = "7TWetHI6";
+            "file" = "extshape_blockus-fabric-3.2.0-beta.4+mc1.20.1.jar";
+            "hash" = "sha512-oZgUmzSCNDd1lakUMoiIEKFlmDVU6jpc4z0LKYBypgczM4s3qWVXeAPC/FQBZQUzjema8wLhmkkNufLP/L0i5A==";
+        };
     in {
         "vhstp9vF" = _vhstp9vF;
         "3E45KKSi" = _3E45KKSi;
@@ -596,12 +606,14 @@ let
         "hYzcdEhG" = _hYzcdEhG;
         "ccUgc6lU" = _ccUgc6lU;
         "DwSZxdgA" = _DwSZxdgA;
+        "lmgNDDIV" = _lmgNDDIV;
+        "7TWetHI6" = _7TWetHI6;
         "fabric-1.19.4" = _zz8QgUqO;
         "fabric-1.18.2" = _cSeJEqP2;
         "fabric-1.19.2" = _OR9LyPKc;
         "fabric-1.19.3" = _FuMiPrVh;
-        "fabric-1.20" = _WxgbFRZJ;
-        "fabric-1.20.1" = _WxgbFRZJ;
+        "fabric-1.20" = _7TWetHI6;
+        "fabric-1.20.1" = _7TWetHI6;
         "fabric-1.19" = _OR9LyPKc;
         "fabric-1.19.1" = _OR9LyPKc;
         "fabric-1.20.2" = _YIXlp3WI;
@@ -609,8 +621,8 @@ let
         "fabric-1.20.4" = _5wzKzubQ;
         "fabric-1.20.5" = _5npbiHbn;
         "fabric-1.20.6" = _5npbiHbn;
-        "fabric-1.21" = _1eyeHS3j;
-        "fabric-1.21.1" = _1eyeHS3j;
+        "fabric-1.21" = _lmgNDDIV;
+        "fabric-1.21.1" = _lmgNDDIV;
         "fabric-1.21.2" = _pfNdvrKD;
         "fabric-1.21.3" = _pfNdvrKD;
         "fabric-1.21.4" = _KGzrap23;
@@ -717,7 +729,9 @@ let
         "pkg-3.1.6-beta.3-fabric-26.2" = _hYzcdEhG;
         "pkg-3.1.6-fabric-26.1.2" = _ccUgc6lU;
         "pkg-3.1.6-fabric-26.2" = _DwSZxdgA;
-        "default" = _DwSZxdgA;
+        "pkg-3.2.0-beta.4+mc1.21.1" = _lmgNDDIV;
+        "pkg-3.2.0-beta.4+mc1.20.1" = _7TWetHI6;
+        "default" = _7TWetHI6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "extshape_blockus";

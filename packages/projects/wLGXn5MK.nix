@@ -16,25 +16,37 @@ let
             "file" = "Fresh Ores and Ingots VR 1.2.2.zip";
             "hash" = "sha512-FXh8TirjOu2zwCaVpjvJF/Ih4nBU2KFBKX2BaVHZOW98RjycsbGRi3zCoFkt0owqMBDM3HC/lpLAMrpY+0I2Ig==";
         };
+        _TyoJp2NY = {
+            "id" = "TyoJp2NY";
+            "file" = "Fresh Ores and Ingots VR 1.2.6.zip";
+            "hash" = "sha512-fkL/woXAmgSLnHUsClCliWivcNfi7+g6OC2uIHeon0Cl+OEWzcFWobIutanwM5kQsEbjQfc+y98IYk/QPd+f8g==";
+        };
     in {
         "yL8pBXgO" = _yL8pBXgO;
         "F0KWtpQR" = _F0KWtpQR;
         "tuQBNiih" = _tuQBNiih;
+        "TyoJp2NY" = _TyoJp2NY;
         "minecraft-1.21.4" = _tuQBNiih;
-        "minecraft-1.21.5" = _tuQBNiih;
-        "minecraft-1.21.6" = _tuQBNiih;
-        "minecraft-1.21.7" = _tuQBNiih;
-        "minecraft-1.21.8" = _tuQBNiih;
-        "minecraft-1.21.9" = _tuQBNiih;
-        "minecraft-1.21.10" = _tuQBNiih;
+        "minecraft-1.21.5" = _TyoJp2NY;
+        "minecraft-1.21.6" = _TyoJp2NY;
+        "minecraft-1.21.7" = _TyoJp2NY;
+        "minecraft-1.21.8" = _TyoJp2NY;
+        "minecraft-1.21.9" = _TyoJp2NY;
+        "minecraft-1.21.10" = _TyoJp2NY;
         "minecraft-1.20.1" = _F0KWtpQR;
         "minecraft-1.21" = _F0KWtpQR;
         "minecraft-1.21.1" = _F0KWtpQR;
-        "minecraft-1.21.11" = _tuQBNiih;
+        "minecraft-1.21.11" = _TyoJp2NY;
+        "minecraft-26.1" = _TyoJp2NY;
+        "minecraft-26.1.1" = _TyoJp2NY;
+        "minecraft-26.1.2" = _TyoJp2NY;
+        "minecraft-26.2" = _TyoJp2NY;
+        "minecraft-26.3" = _TyoJp2NY;
         "pkg-1.1.0" = _yL8pBXgO;
         "pkg-1.0.1" = _F0KWtpQR;
         "pkg-1.2.2" = _tuQBNiih;
-        "default" = _tuQBNiih;
+        "pkg-1.2.6" = _TyoJp2NY;
+        "default" = _TyoJp2NY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fresh-ores-and-ingots-vr";

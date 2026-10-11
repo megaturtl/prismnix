@@ -211,6 +211,16 @@ let
             "file" = "mtr-japan-ticket-mod-1.20.4-6.0.1.jar";
             "hash" = "sha512-SvNOAtV39UbJ8rAThvaDU9WIwD1D1WJp+XDSh5OvEY4dOcSahNanttLvGunqJP9UtamOUMQGSwZXZKq+ir69og==";
         };
+        _3F4lio1S = {
+            "id" = "3F4lio1S";
+            "file" = "mtr-japan-ticket-mod-1.20.1-6.1.0.jar";
+            "hash" = "sha512-ppL0qnh+Tw02Wyt+HGFiWJlA9jML1qNZSjlATgfnZKG40PT4ZiuZDIgMsZSvugaZaoEaDkf2N9fNwYz+45eQjA==";
+        };
+        _qMhquZS5 = {
+            "id" = "qMhquZS5";
+            "file" = "mtr-japan-ticket-mod-1.20.4-6.1.0.jar";
+            "hash" = "sha512-kvGEM1xgChS4QJq7tOav7O1ISpwa10dCBu5aOC9sPSzI8xaZ5b4vLcT0UvzrY0mEvMME9BUpwr68rlLOP/taGw==";
+        };
     in {
         "eLjcXPNx" = _eLjcXPNx;
         "gapqK1Jh" = _gapqK1Jh;
@@ -254,8 +264,10 @@ let
         "Mqh1Py19" = _Mqh1Py19;
         "u1xAR6qT" = _u1xAR6qT;
         "leVAHKoL" = _leVAHKoL;
-        "fabric-1.20.1" = _u1xAR6qT;
-        "fabric-1.20.4" = _leVAHKoL;
+        "3F4lio1S" = _3F4lio1S;
+        "qMhquZS5" = _qMhquZS5;
+        "fabric-1.20.1" = _3F4lio1S;
+        "fabric-1.20.4" = _qMhquZS5;
         "fabric-1.19.2" = _PVvTPPWs;
         "pkg-1.0.0" = _eLjcXPNx;
         "pkg-2.0.0" = _gapqK1Jh;
@@ -281,7 +293,8 @@ let
         "pkg-5.4.2" = _SO187DrJ;
         "pkg-6.0.0" = _Mqh1Py19;
         "pkg-6.0.1" = _leVAHKoL;
-        "default" = _leVAHKoL;
+        "pkg-6.1.0" = _qMhquZS5;
+        "default" = _qMhquZS5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mtr-japan-ticket-mod";

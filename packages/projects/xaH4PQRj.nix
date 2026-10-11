@@ -126,6 +126,36 @@ let
             "file" = "shutterup-neoforge-1.21.1-1.1.1.jar";
             "hash" = "sha512-0x0fkaLNCN+z4IrWmWqNIz00We7Pm0br9okah0ZWVYWY/WJL0YOHkZ+bwMsOk+wWpF8l5mHF/h0G4Cau5x/vBw==";
         };
+        _KSDP692D = {
+            "id" = "KSDP692D";
+            "file" = "shutterup-neoforge-1.21.1-1.2.0.jar";
+            "hash" = "sha512-ApTXSKd1meHDm8E+kHze83rSWkcKbPMjr5Z8nlqO6QbKGpKviCU/S8aoY5NZgfP/Rf6KpptDUEiB4VQqzVnIxA==";
+        };
+        _GxBdzJ5S = {
+            "id" = "GxBdzJ5S";
+            "file" = "shutterup-fabric-1.21.1-1.2.0.jar";
+            "hash" = "sha512-nnFaUXFys6cOtPDevvsa1bq/1u5ZLA8syuMjW7+9dCIUR+k2Gn8NCfI59KNuAhzM6T2Rkk9yK4/tCi/QpwOsKg==";
+        };
+        _TlbQpWux = {
+            "id" = "TlbQpWux";
+            "file" = "shutterup-fabric-1.20.1-1.2.1.jar";
+            "hash" = "sha512-UvC7IaujCZ8rHxhDKDjdiU8isVqy+6fmotw7DTQz5yj/3mWPf36zWHztFywverVWPIOb8SDBqWohE6SfCCp7vQ==";
+        };
+        _iDv8pd0z = {
+            "id" = "iDv8pd0z";
+            "file" = "shutterup-forge-1.20.1-1.2.1.jar";
+            "hash" = "sha512-vPT4NppJd0qQFFFhTBlrzayAQtcdErKRJgvMEsQMyrt4hCWOAe9V1qIpjwU9CgABytX4/K3+breKTfMrIBxtNg==";
+        };
+        _sgUHjSdD = {
+            "id" = "sgUHjSdD";
+            "file" = "shutterup-fabric-1.21.1-1.2.1.jar";
+            "hash" = "sha512-VDGXkITogZjjQqbRpokoAPhvw/LoKOvCiSXt8TW+EA9uaSsonm8ly2JbJhnSWDvPMViEziJ6qg12nC/lwqMkvA==";
+        };
+        _TD1eSiAd = {
+            "id" = "TD1eSiAd";
+            "file" = "shutterup-neoforge-1.21.1-1.2.1.jar";
+            "hash" = "sha512-v6D0lGpL/Szgg2pbKni1jGcqhjBVUt58DTngFBfUIYGEE/0cOS0CsQRVwwns/IXSy5kium/AearWqj+UzBT5yA==";
+        };
     in {
         "nYxSz9QW" = _nYxSz9QW;
         "To769Jpm" = _To769Jpm;
@@ -152,17 +182,28 @@ let
         "iRtrhYIH" = _iRtrhYIH;
         "hMbHiyXv" = _hMbHiyXv;
         "UisS50Mp" = _UisS50Mp;
-        "fabric-1.21.1" = _hMbHiyXv;
-        "fabric-1.20.1" = _tFogAMcg;
-        "neoforge-1.21.1" = _UisS50Mp;
-        "forge-1.20.1" = _iRtrhYIH;
+        "KSDP692D" = _KSDP692D;
+        "GxBdzJ5S" = _GxBdzJ5S;
+        "TlbQpWux" = _TlbQpWux;
+        "iDv8pd0z" = _iDv8pd0z;
+        "sgUHjSdD" = _sgUHjSdD;
+        "TD1eSiAd" = _TD1eSiAd;
+        "fabric-1.21.1" = _sgUHjSdD;
+        "fabric-1.20.1" = _TlbQpWux;
+        "neoforge-1.21.1" = _TD1eSiAd;
+        "forge-1.20.1" = _iDv8pd0z;
         "pkg-1.0.1" = _LB5vOL9R;
         "pkg-1.0.4" = _XgE9Fj24;
         "pkg-1.0.5" = _AeegYHoT;
         "pkg-1.0.6" = _KS4b9JbO;
         "pkg-1.1.0" = _Kp9ze0qY;
         "pkg-1.1.1" = _UisS50Mp;
-        "default" = _UisS50Mp;
+        "pkg-1.2.0" = _GxBdzJ5S;
+        "pkg-1.2.1-1.20.1-fabric" = _TlbQpWux;
+        "pkg-1.2.1-1.20.1-forge" = _iDv8pd0z;
+        "pkg-1.2.1-1.21.1-fabric" = _sgUHjSdD;
+        "pkg-1.2.1-1.21.1-neoforge" = _TD1eSiAd;
+        "default" = _TD1eSiAd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shutter-up";

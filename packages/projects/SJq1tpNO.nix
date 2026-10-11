@@ -251,6 +251,16 @@ let
             "file" = "villager-guards-1.2.0.jar";
             "hash" = "sha512-HEHfEZMJAtdmdqhpoMjxIitatt9Qe5Bx3uLRgRYGj1f4WBXnvFmxLEGm6IhOvxQRhUOeCFDJe3ZKK1b+DyEyBA==";
         };
+        _AqcnyKgw = {
+            "id" = "AqcnyKgw";
+            "file" = "Villager Guards v1.2.0 [26.3].zip";
+            "hash" = "sha512-H1t23DrxacXNzOzODA3T7OSVgCJxUG5XCkXKqsqRiXt0J7VOfkYOnJ9si9HWc9jLXoOCpZUbjf0kITsbiF6i9g==";
+        };
+        _51yjXquZ = {
+            "id" = "51yjXquZ";
+            "file" = "villager-guards-1.2.0.jar";
+            "hash" = "sha512-qqq/zN7MenYt4bzzio3ERNBiPrWYja1GKyMD0fryrWWmp6PyAKA0TlfdMPyIbnlx/8ZpaPeuEDN/o9oexcKudw==";
+        };
     in {
         "DLf4RLdE" = _DLf4RLdE;
         "3lEOj4Zv" = _3lEOj4Zv;
@@ -302,6 +312,8 @@ let
         "8HUSBAaM" = _8HUSBAaM;
         "qJimCed2" = _qJimCed2;
         "rTz0aMYy" = _rTz0aMYy;
+        "AqcnyKgw" = _AqcnyKgw;
+        "51yjXquZ" = _51yjXquZ;
         "datapack-1.21.4" = _UfSlrdXZ;
         "datapack-1.21.5" = _Gr8Bd9r5;
         "datapack-1.21" = _mBbm22wW;
@@ -318,6 +330,7 @@ let
         "datapack-26.1.1" = _Gr8Bd9r5;
         "datapack-26.1.2" = _Gr8Bd9r5;
         "datapack-26.2" = _qJimCed2;
+        "datapack-26.3" = _AqcnyKgw;
         "fabric-1.21.4" = _iShw2K3U;
         "fabric-1.21.5" = _E5Gy8o2D;
         "fabric-1.21" = _FVw69Tnx;
@@ -334,6 +347,7 @@ let
         "fabric-26.1.1" = _E5Gy8o2D;
         "fabric-26.1.2" = _E5Gy8o2D;
         "fabric-26.2" = _rTz0aMYy;
+        "fabric-26.3" = _51yjXquZ;
         "forge-1.21.4" = _iShw2K3U;
         "forge-1.21.5" = _E5Gy8o2D;
         "forge-1.21" = _FVw69Tnx;
@@ -350,6 +364,7 @@ let
         "forge-26.1.1" = _E5Gy8o2D;
         "forge-26.1.2" = _E5Gy8o2D;
         "forge-26.2" = _rTz0aMYy;
+        "forge-26.3" = _51yjXquZ;
         "neoforge-1.21.4" = _iShw2K3U;
         "neoforge-1.21.5" = _E5Gy8o2D;
         "neoforge-1.21" = _FVw69Tnx;
@@ -366,6 +381,7 @@ let
         "neoforge-26.1.1" = _E5Gy8o2D;
         "neoforge-26.1.2" = _E5Gy8o2D;
         "neoforge-26.2" = _rTz0aMYy;
+        "neoforge-26.3" = _51yjXquZ;
         "quilt-1.21.4" = _iShw2K3U;
         "quilt-1.21.5" = _E5Gy8o2D;
         "quilt-1.21" = _FVw69Tnx;
@@ -382,6 +398,7 @@ let
         "quilt-26.1.1" = _E5Gy8o2D;
         "quilt-26.1.2" = _E5Gy8o2D;
         "quilt-26.2" = _rTz0aMYy;
+        "quilt-26.3" = _51yjXquZ;
         "pkg-v1.0.3" = _DLf4RLdE;
         "pkg-v1.0.3+mod" = _3lEOj4Zv;
         "pkg-v1.0.4" = _ONrXdeEZ;
@@ -416,9 +433,9 @@ let
         "pkg-v1.1.7+mod" = _E5Gy8o2D;
         "pkg-1.1.6" = _Zp7UIJ6N;
         "pkg-1.1.6+mod" = _8HUSBAaM;
-        "pkg-1.2.0" = _qJimCed2;
-        "pkg-1.2.0+mod" = _rTz0aMYy;
-        "default" = _rTz0aMYy;
+        "pkg-1.2.0" = _AqcnyKgw;
+        "pkg-1.2.0+mod" = _51yjXquZ;
+        "default" = _51yjXquZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "villager-guards";

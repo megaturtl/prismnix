@@ -36,6 +36,11 @@ let
             "file" = "26.2.zip";
             "hash" = "sha512-PcYdlPPSdqn1Iy2JtE1MZ5Wiuu+m603vzrFP5sY36e1ssIpws5OXiQZu1iYEIA1QqpYCq4027kVNsnjUKEQPZA==";
         };
+        _x7G1NPmU = {
+            "id" = "x7G1NPmU";
+            "file" = "26.3.zip";
+            "hash" = "sha512-PcYdlPPSdqn1Iy2JtE1MZ5Wiuu+m603vzrFP5sY36e1ssIpws5OXiQZu1iYEIA1QqpYCq4027kVNsnjUKEQPZA==";
+        };
     in {
         "Cb5rX6eC" = _Cb5rX6eC;
         "WdZZBzRZ" = _WdZZBzRZ;
@@ -44,6 +49,7 @@ let
         "Zz3S4h3n" = _Zz3S4h3n;
         "fnMeooX9" = _fnMeooX9;
         "BweKbLTY" = _BweKbLTY;
+        "x7G1NPmU" = _x7G1NPmU;
         "minecraft-1.21.2" = _Cb5rX6eC;
         "minecraft-1.21.3" = _Cb5rX6eC;
         "minecraft-1.21.4" = _Cb5rX6eC;
@@ -58,6 +64,7 @@ let
         "minecraft-26.1.1" = _Zz3S4h3n;
         "minecraft-26.1.2" = _fnMeooX9;
         "minecraft-26.2" = _BweKbLTY;
+        "minecraft-26.3" = _x7G1NPmU;
         "pkg-1.0" = _Cb5rX6eC;
         "pkg-1.1" = _WdZZBzRZ;
         "pkg-1.2" = _XPxj6mYD;
@@ -65,7 +72,8 @@ let
         "pkg-1.4" = _Zz3S4h3n;
         "pkg-1.5" = _fnMeooX9;
         "pkg-1.6" = _BweKbLTY;
-        "default" = _BweKbLTY;
+        "pkg-1.7" = _x7G1NPmU;
+        "default" = _x7G1NPmU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blue-sky-inventory";

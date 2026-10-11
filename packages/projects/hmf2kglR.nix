@@ -61,6 +61,46 @@ let
             "file" = "silents-minemons-4.2.jar";
             "hash" = "sha512-gTPrUce+WoX41mFWpWThBwk6HzeX7NpK+8U6swGkxGaqnzEEsEfGwW/xpsAiMAFCtYfmepvmX/hHvc8QC3/A7A==";
         };
+        _bA7RpTtQ = {
+            "id" = "bA7RpTtQ";
+            "file" = "silentsminemons.zip";
+            "hash" = "sha512-Hes/icJJ0us5sPQqNkQyLXHgQSr5LGTonPl1taaVqG523K6QfamGmX0NXnLuWjMTbiUVYaAuiTuPGkt39VI1Uw==";
+        };
+        _qcwlLUos = {
+            "id" = "qcwlLUos";
+            "file" = "silents-minemons-4.3.jar";
+            "hash" = "sha512-YL8lxqrihc0DcVVcy4YPgG14n7Rb4h7iOWSKOnsC/V8VNEJAVQkYEqRAmNztntr5hSIO8+RdgXpjCNucylZusQ==";
+        };
+        _swJw1vcx = {
+            "id" = "swJw1vcx";
+            "file" = "silentsminemons.zip";
+            "hash" = "sha512-K2IP2bGhaql+WThE/YEM5q4A1j9MEDk0XIR0zyDx62/bXRmG4XiPIUNQqMELdgL4XARxKvA5ts/M5dXS/oSdCw==";
+        };
+        _xCIciDNf = {
+            "id" = "xCIciDNf";
+            "file" = "silents-minemons-4.4.jar";
+            "hash" = "sha512-uCxVa9x4Zb6sj8b827gw3iqEsnZGVPciQffWYs0SHYXnjSdRkSZHFgu4gprNlD65Hs1hXj20QGCA6kDReFlNhw==";
+        };
+        _n0ZsItdG = {
+            "id" = "n0ZsItdG";
+            "file" = "silentsminemons-4.4.2.zip";
+            "hash" = "sha512-A2boQvrzm6wqZoy7BDW2oKcaRROl2VI3f9ziH7cTkKlboC+6xhEJnF+s72PfHTLla5to0R2c6yxtyaty3pHTaw==";
+        };
+        _UDRMTXqv = {
+            "id" = "UDRMTXqv";
+            "file" = "silents-minemons-4.4.2.jar";
+            "hash" = "sha512-OtswH9AEilRHuv/xUtAZulUbbwCiuAktE6TRppjckiuFyPpCZ1sMjA/DvyoSE5TVVF9hx7umvp++xnqk2ybQQg==";
+        };
+        _GTuNTMOF = {
+            "id" = "GTuNTMOF";
+            "file" = "silentsminemons-4.4.3.zip";
+            "hash" = "sha512-VUA6oTJ1Nu9F7miBHVpYS10uV6IaCui5i7J/sjIM5jYNpaYlc4kO05GJDUZH1ZI5voZswpiEj4x35ujbg+V8MA==";
+        };
+        _D20ZJmAP = {
+            "id" = "D20ZJmAP";
+            "file" = "silents-minemons-4.4.3.jar";
+            "hash" = "sha512-rvw9FWNLKXqUwjoXuSs8DACts2YO8fgwW4t5p8CLWDjHlMUZpt/LWeeDrMR1GZSsw1aSh3CDNDsbs9FnSw+lFQ==";
+        };
     in {
         "JpzkMOHV" = _JpzkMOHV;
         "fXpIRGS7" = _fXpIRGS7;
@@ -74,16 +114,24 @@ let
         "kToOsg1e" = _kToOsg1e;
         "AdsJMvqU" = _AdsJMvqU;
         "OmTbO8Bw" = _OmTbO8Bw;
-        "datapack-1.21.1" = _AdsJMvqU;
-        "datapack-24w12a" = _AdsJMvqU;
-        "fabric-1.21.1" = _OmTbO8Bw;
-        "fabric-24w12a" = _OmTbO8Bw;
-        "forge-1.21.1" = _OmTbO8Bw;
-        "forge-24w12a" = _OmTbO8Bw;
-        "neoforge-1.21.1" = _OmTbO8Bw;
-        "neoforge-24w12a" = _OmTbO8Bw;
-        "quilt-1.21.1" = _OmTbO8Bw;
-        "quilt-24w12a" = _OmTbO8Bw;
+        "bA7RpTtQ" = _bA7RpTtQ;
+        "qcwlLUos" = _qcwlLUos;
+        "swJw1vcx" = _swJw1vcx;
+        "xCIciDNf" = _xCIciDNf;
+        "n0ZsItdG" = _n0ZsItdG;
+        "UDRMTXqv" = _UDRMTXqv;
+        "GTuNTMOF" = _GTuNTMOF;
+        "D20ZJmAP" = _D20ZJmAP;
+        "datapack-1.21.1" = _GTuNTMOF;
+        "datapack-24w12a" = _n0ZsItdG;
+        "fabric-1.21.1" = _D20ZJmAP;
+        "fabric-24w12a" = _UDRMTXqv;
+        "forge-1.21.1" = _D20ZJmAP;
+        "forge-24w12a" = _UDRMTXqv;
+        "neoforge-1.21.1" = _D20ZJmAP;
+        "neoforge-24w12a" = _UDRMTXqv;
+        "quilt-1.21.1" = _D20ZJmAP;
+        "quilt-24w12a" = _UDRMTXqv;
         "pkg-1.1" = _JpzkMOHV;
         "pkg-1.2" = _fXpIRGS7;
         "pkg-2.0" = _XySsGthM;
@@ -96,7 +144,15 @@ let
         "pkg-4.1+mod" = _kToOsg1e;
         "pkg-4.2" = _AdsJMvqU;
         "pkg-4.2+mod" = _OmTbO8Bw;
-        "default" = _OmTbO8Bw;
+        "pkg-4.3" = _bA7RpTtQ;
+        "pkg-4.3+mod" = _qcwlLUos;
+        "pkg-4.4" = _swJw1vcx;
+        "pkg-4.4+mod" = _xCIciDNf;
+        "pkg-4.4.2" = _n0ZsItdG;
+        "pkg-4.4.2+mod" = _UDRMTXqv;
+        "pkg-4.4.3" = _GTuNTMOF;
+        "pkg-4.4.3+mod" = _D20ZJmAP;
+        "default" = _D20ZJmAP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "silents-minemons";

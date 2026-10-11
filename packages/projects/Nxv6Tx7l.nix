@@ -71,6 +71,11 @@ let
             "file" = "InvisiblePlayerArmor-mc26.2[fabric]-0.9.7.jar";
             "hash" = "sha512-XUcjIimOPFXkXkvCpyr1wAUUiSdAn/yUGyS5BmoYfJNqZItxIaXqAU4PRYq/o3GH9zYdJdyqABl9qtwmjhiwFQ==";
         };
+        _3ZMPf5Jw = {
+            "id" = "3ZMPf5Jw";
+            "file" = "InvisiblePlayerArmor-mc26.3[fabric]-0.9.7.jar";
+            "hash" = "sha512-xf9I/7F0x4+MqHP5r/46kiFkMYaBx+rBjB6JBWi8W77r61Q7PSenVTz1p7O8KC90bWirlZD43GqsImG6ksg9Zg==";
+        };
     in {
         "aTEjfbJL" = _aTEjfbJL;
         "8dqOyi2R" = _8dqOyi2R;
@@ -86,6 +91,7 @@ let
         "dh778YLZ" = _dh778YLZ;
         "e6upnjeG" = _e6upnjeG;
         "6FXySINO" = _6FXySINO;
+        "3ZMPf5Jw" = _3ZMPf5Jw;
         "fabric-1.21" = _dEqopHAC;
         "fabric-1.21.1" = _dEqopHAC;
         "fabric-1.21.4" = _GjIyQxkG;
@@ -100,6 +106,7 @@ let
         "fabric-26.1.1" = _e6upnjeG;
         "fabric-26.1.2" = _e6upnjeG;
         "fabric-26.2" = _6FXySINO;
+        "fabric-26.3" = _3ZMPf5Jw;
         "pkg-0.2.0b" = _aTEjfbJL;
         "pkg-0.8.0" = _8dqOyi2R;
         "pkg-0.9.0" = _2mKUCyE9;
@@ -109,8 +116,8 @@ let
         "pkg-0.9.4" = _Aa8jYkd6;
         "pkg-0.9.5" = _5Cmthlt4;
         "pkg-0.9.6" = _XDNnmkuO;
-        "pkg-0.9.7" = _6FXySINO;
-        "default" = _6FXySINO;
+        "pkg-0.9.7" = _3ZMPf5Jw;
+        "default" = _3ZMPf5Jw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "invisible_player_armor";

@@ -416,6 +416,21 @@ let
             "file" = "More Tools and Armor-11.3+26.3.jar";
             "hash" = "sha512-rlcW/g6SCX56zxpgzhaIv1+bBi6hnff7gvar9VtsgGklOtQboaANVIsjqQfkrUNAnnvgM3QUWFM1W2e8G2FdPA==";
         };
+        _9T0AzKZm = {
+            "id" = "9T0AzKZm";
+            "file" = "More Tools and Armor-11.3+26.4-snaphsot-1.jar";
+            "hash" = "sha512-xhRWxVlDKEvkEcIlwHZ/7d1uRqixyCYJw8CvK+7CH/q2qrMT6FHOlSGgDL4BV5gbFWaVTcZ8J2jTCdGJfnqSPw==";
+        };
+        _7dvd85Iy = {
+            "id" = "7dvd85Iy";
+            "file" = "More Tools and Armor-11.3+26.4-snaphsot-2.jar";
+            "hash" = "sha512-84SaNKODOIlXHTnwkZSY2k+81fE3GHVqqEUNLECCBqVHPwysS3XsYl1zkmlPAuI7CV8LHJyqOiB0vshmyf/j/A==";
+        };
+        _9tbB4Bb7 = {
+            "id" = "9tbB4Bb7";
+            "file" = "More Tools and Armor-11.3+26.4-snaphsot-3.jar";
+            "hash" = "sha512-ydM9DJ7UWjSTGCkZ/Tvmah0Psqio5zewBJDjekCfreB+AGsbkSg0bSTMvJSljxoVrfD8AGv4SxSNeA4B+qTgeQ==";
+        };
     in {
         "xTbQb7zP" = _xTbQb7zP;
         "oVe5BGs3" = _oVe5BGs3;
@@ -500,6 +515,9 @@ let
         "bXvZ1L5A" = _bXvZ1L5A;
         "NFRb7wPg" = _NFRb7wPg;
         "KturA9Vs" = _KturA9Vs;
+        "9T0AzKZm" = _9T0AzKZm;
+        "7dvd85Iy" = _7dvd85Iy;
+        "9tbB4Bb7" = _9tbB4Bb7;
         "fabric-1.21.1" = _phgnAYbr;
         "fabric-1.21" = _WpMASVYe;
         "fabric-1.20.5" = _ncJUpJGZ;
@@ -531,6 +549,9 @@ let
         "fabric-26.1.2" = _bXvZ1L5A;
         "fabric-26.2" = _NFRb7wPg;
         "fabric-26.3" = _KturA9Vs;
+        "fabric-26.4-snapshot-1" = _9T0AzKZm;
+        "fabric-26.4-snapshot-2" = _7dvd85Iy;
+        "fabric-26.4-snapshot-3" = _9tbB4Bb7;
         "quilt-1.21.1" = _phgnAYbr;
         "quilt-1.21" = _WpMASVYe;
         "quilt-1.20.5" = _ncJUpJGZ;
@@ -639,7 +660,10 @@ let
         "pkg-11.3+26.1" = _bXvZ1L5A;
         "pkg-11.3+26.2" = _NFRb7wPg;
         "pkg-11.3-26.3" = _KturA9Vs;
-        "default" = _KturA9Vs;
+        "pkg-11.3+26.4-snapshot-1" = _9T0AzKZm;
+        "pkg-11.3+26.4-snapshot-2" = _7dvd85Iy;
+        "pkg-11.3+26.4-snapshpt-3" = _9tbB4Bb7;
+        "default" = _9tbB4Bb7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more_tools_and_armor";

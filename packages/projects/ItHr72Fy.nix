@@ -36,6 +36,11 @@ let
             "file" = "Fullbright-UB-1.21 fub-6.0.zip";
             "hash" = "sha512-NpI4Fq0inC8Y/DPq6ORvrXnpethC/aAE+I3vY9b5sWIsqy6h7qu8izcBUcQgMirE0TNQ7i8y1kK7mhr++hropw==";
         };
+        _SmHiPjfF = {
+            "id" = "SmHiPjfF";
+            "file" = "Fullbright-UB-26.3 fub-7.0.zip";
+            "hash" = "sha512-YUPi7B+GScaNAv0/EbuJb1oR83Ahm3i1cxb3mQ7QTvOlSYCVQK/7Sznhjmb1OAijFbrUAWVeLVCzHsabWQ8lMA==";
+        };
     in {
         "fXMIbe4H" = _fXMIbe4H;
         "p2fuqvAG" = _p2fuqvAG;
@@ -44,6 +49,7 @@ let
         "HhQ30Ab3" = _HhQ30Ab3;
         "pVWhZt1z" = _pVWhZt1z;
         "bjc4gBmv" = _bjc4gBmv;
+        "SmHiPjfF" = _SmHiPjfF;
         "minecraft-1.19" = _fXMIbe4H;
         "minecraft-1.19.1" = _fXMIbe4H;
         "minecraft-1.19.2" = _fXMIbe4H;
@@ -95,6 +101,8 @@ let
         "minecraft-26.1" = _bjc4gBmv;
         "minecraft-26.1.1" = _bjc4gBmv;
         "minecraft-26.1.2" = _bjc4gBmv;
+        "minecraft-26.2" = _SmHiPjfF;
+        "minecraft-26.3" = _SmHiPjfF;
         "pkg-1.2" = _fXMIbe4H;
         "pkg-2.0" = _p2fuqvAG;
         "pkg-3.0-beta.2" = _L1hAGRJA;
@@ -102,7 +110,8 @@ let
         "pkg-4.0" = _HhQ30Ab3;
         "pkg-5.0" = _pVWhZt1z;
         "pkg-6.0" = _bjc4gBmv;
-        "default" = _bjc4gBmv;
+        "pkg-7.0" = _SmHiPjfF;
+        "default" = _SmHiPjfF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fullbright-ub";

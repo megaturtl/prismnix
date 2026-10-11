@@ -751,6 +751,51 @@ let
             "file" = "enchancement-fabric-26.3-r1.jar";
             "hash" = "sha512-6zyD67P6EUqoUducJBHgRmlT4B20HvSiyKHV40he6A2RW9IKsjbvGb/XpQugMm42agH5sBxEwBETLqaSCaLf0w==";
         };
+        _26OrwQyJ = {
+            "id" = "26OrwQyJ";
+            "file" = "enchancement-fabric-26.1-r24.jar";
+            "hash" = "sha512-SfjyR5U1wUVTq/FSbvOpsV51xv6/oTG63a7CinxnF2M9f3Bae6kMS0/MQxN3d9JGOIM96+Djr/4Lbdn4tAOFHQ==";
+        };
+        _727Sq9aH = {
+            "id" = "727Sq9aH";
+            "file" = "enchancement-neoforge-26.1-r24.jar";
+            "hash" = "sha512-akukkc6ki/ielwFPFwNt2uhGGCNEbSVykAD3cNk6+oX3enbqFcveY1NRGIPxPskzqCj+fhQZNSbUn8bjGNlwHA==";
+        };
+        _ICqeztX0 = {
+            "id" = "ICqeztX0";
+            "file" = "enchancement-fabric-26.2-r8.jar";
+            "hash" = "sha512-KmFi6Tsfr70DHQkB+cEY7AZgr337uE3ee6TC39OIb28Suxcib2IHklEUMkSKLRMOjL/8V5wJX3nqQuY/YDNZYg==";
+        };
+        _XNlOiyDC = {
+            "id" = "XNlOiyDC";
+            "file" = "enchancement-fabric-26.3-r2.jar";
+            "hash" = "sha512-7pqjRD8Vhrwx0kBwpMxBMHFTfXi2hAdMc8ibwzFagnq+q0v6Vp9WVc83I+bVzK6pKyn8QE3j8SRPNC9b17gJKw==";
+        };
+        _9ufHJ2yh = {
+            "id" = "9ufHJ2yh";
+            "file" = "enchancement-fabric-26.3-r3.jar";
+            "hash" = "sha512-ezDr9cUMVhPSPDjApG6sVnjb1Qku2rqI1kP+oAeO8sDSFqCyaVahMSRfEWcv8imxDVS9O3hxNek4SgMmJ9CKfg==";
+        };
+        _mDrTesbt = {
+            "id" = "mDrTesbt";
+            "file" = "enchancement-fabric-26.2-r9.jar";
+            "hash" = "sha512-+HFCgnxLEEXY1Lf8rkKrS6NKAyY+4Q705kkqcW0YABtQv1QuhW11rK2hfkWS2cLnWkKma+u0k6DWKTmka/iXlA==";
+        };
+        _wFJ2i2TB = {
+            "id" = "wFJ2i2TB";
+            "file" = "enchancement-fabric-26.1-r25.jar";
+            "hash" = "sha512-532nSfCRfc0OIhLbeEhVDBoUwBQ/PYrmo0rh7tUcGDYfOUcdSgn9GEBBgfDbY74d2lFOLtuVcsYKx0X8lI9NfA==";
+        };
+        _hKDMxxRR = {
+            "id" = "hKDMxxRR";
+            "file" = "enchancement-neoforge-26.1-r25.jar";
+            "hash" = "sha512-Ys12ckK6qOOvIKDSiBF9Z6f3crEbc0dBkt4oLJ4bbnKzYuLDNZTLEwcbL2Z2oXbGKKOk+jvPsE6nucgwd0M+1A==";
+        };
+        _wsmJktf2 = {
+            "id" = "wsmJktf2";
+            "file" = "enchancement-fabric-26.3-r4.jar";
+            "hash" = "sha512-AmukcFn5acmHttGRr6ruDa4gYAPFv8PnkH9IZR6ANR6ZpWf73u3LlDkTTaIsJ9ODx01l3ksM4a83DaXT51x/dg==";
+        };
     in {
         "J3VF5aKI" = _J3VF5aKI;
         "VBmLq71s" = _VBmLq71s;
@@ -902,6 +947,15 @@ let
         "qoL07W7v" = _qoL07W7v;
         "vLvQoSx9" = _vLvQoSx9;
         "xy16atmP" = _xy16atmP;
+        "26OrwQyJ" = _26OrwQyJ;
+        "727Sq9aH" = _727Sq9aH;
+        "ICqeztX0" = _ICqeztX0;
+        "XNlOiyDC" = _XNlOiyDC;
+        "9ufHJ2yh" = _9ufHJ2yh;
+        "mDrTesbt" = _mDrTesbt;
+        "wFJ2i2TB" = _wFJ2i2TB;
+        "hKDMxxRR" = _hKDMxxRR;
+        "wsmJktf2" = _wsmJktf2;
         "fabric-1.18.2" = _J3VF5aKI;
         "fabric-1.19.2" = _OC5PAcny;
         "fabric-1.19.3" = _kCJ2DnM6;
@@ -919,11 +973,11 @@ let
         "fabric-1.21.8" = _6eTpB23m;
         "fabric-1.21.10" = _RNTVAq67;
         "fabric-1.21.11" = _z5srSROp;
-        "fabric-26.1" = _qoL07W7v;
-        "fabric-26.1.1" = _qoL07W7v;
-        "fabric-26.1.2" = _qoL07W7v;
-        "fabric-26.2" = _hzHT64DY;
-        "fabric-26.3" = _xy16atmP;
+        "fabric-26.1" = _wFJ2i2TB;
+        "fabric-26.1.1" = _wFJ2i2TB;
+        "fabric-26.1.2" = _wFJ2i2TB;
+        "fabric-26.2" = _mDrTesbt;
+        "fabric-26.3" = _wsmJktf2;
         "quilt-1.18.2" = _J3VF5aKI;
         "quilt-1.19.2" = _OC5PAcny;
         "quilt-1.19.3" = _kCJ2DnM6;
@@ -945,9 +999,9 @@ let
         "quilt-26.1.1" = _ejxPm1Am;
         "quilt-26.1.2" = _ejxPm1Am;
         "quilt-26.2" = _AyzexWCb;
-        "neoforge-26.1" = _vLvQoSx9;
-        "neoforge-26.1.1" = _vLvQoSx9;
-        "neoforge-26.1.2" = _vLvQoSx9;
+        "neoforge-26.1" = _hKDMxxRR;
+        "neoforge-26.1.1" = _hKDMxxRR;
+        "neoforge-26.1.2" = _hKDMxxRR;
         "pkg-1.18-19" = _J3VF5aKI;
         "pkg-1.19-12" = _VBmLq71s;
         "pkg-1.19-13" = _1jQBg2iC;
@@ -1094,7 +1148,14 @@ let
         "pkg-26.2-r7" = _hzHT64DY;
         "pkg-26.1-r23" = _vLvQoSx9;
         "pkg-26.3-r1" = _xy16atmP;
-        "default" = _xy16atmP;
+        "pkg-26.1-r24" = _727Sq9aH;
+        "pkg-26.2-r8" = _ICqeztX0;
+        "pkg-26.3-r2" = _XNlOiyDC;
+        "pkg-26.3-r3" = _9ufHJ2yh;
+        "pkg-26.2-r9" = _mDrTesbt;
+        "pkg-26.1-r25" = _hKDMxxRR;
+        "pkg-26.3-r4" = _wsmJktf2;
+        "default" = _wsmJktf2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchancement";

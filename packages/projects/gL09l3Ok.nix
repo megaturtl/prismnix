@@ -176,6 +176,16 @@ let
             "file" = "heavy-core-recipe-1.0.jar";
             "hash" = "sha512-/XEzhmk3W9chLDYLjhB7zP+/C6zXfoAlPO1pwOv8yJewm0nKcNr0JTPDuOztk+GnPRgsyZRExfFI4X46JbdHpQ==";
         };
+        _ErAodXZZ = {
+            "id" = "ErAodXZZ";
+            "file" = "heavy_core_recipe-26.3.zip";
+            "hash" = "sha512-DuDllos620+asTC7jR+VPCGNj9iEjdfFf4Siflxo63c75LEBzVaQcRIucSgOwSuvRBItEn2juRa1zN1NeMOi9w==";
+        };
+        _3pobs4gp = {
+            "id" = "3pobs4gp";
+            "file" = "heavy-core-recipe-1.0.jar";
+            "hash" = "sha512-Yf66rpnGa0MVLGPO2JKCkkPBIhfmBu0kdCerP9fLzovvnfng0UP+2+bXyz4Snv8Lc6VpbUzNokFck2ZsfQFZPw==";
+        };
     in {
         "XIojYoG3" = _XIojYoG3;
         "3YsalNR1" = _3YsalNR1;
@@ -212,6 +222,8 @@ let
         "j008TkI5" = _j008TkI5;
         "2ekRDFjl" = _2ekRDFjl;
         "WhK6rabI" = _WhK6rabI;
+        "ErAodXZZ" = _ErAodXZZ;
+        "3pobs4gp" = _3pobs4gp;
         "datapack-1.21" = _XIojYoG3;
         "datapack-1.21.1" = _XIojYoG3;
         "datapack-1.21.2" = _3YsalNR1;
@@ -247,6 +259,7 @@ let
         "datapack-26.2-snapshot-2" = _ULIttcpc;
         "datapack-26.2" = _2ekRDFjl;
         "datapack-26.3-snapshot-1" = _2ekRDFjl;
+        "datapack-26.3" = _ErAodXZZ;
         "fabric-1.21" = _adFA2pBL;
         "fabric-1.21.1" = _adFA2pBL;
         "fabric-1.21.2" = _c8pP5Tdi;
@@ -282,6 +295,7 @@ let
         "fabric-26.2-snapshot-2" = _j008TkI5;
         "fabric-26.2" = _WhK6rabI;
         "fabric-26.3-snapshot-1" = _WhK6rabI;
+        "fabric-26.3" = _3pobs4gp;
         "forge-1.21" = _adFA2pBL;
         "forge-1.21.1" = _adFA2pBL;
         "forge-1.21.2" = _c8pP5Tdi;
@@ -317,6 +331,7 @@ let
         "forge-26.2-snapshot-2" = _j008TkI5;
         "forge-26.2" = _WhK6rabI;
         "forge-26.3-snapshot-1" = _WhK6rabI;
+        "forge-26.3" = _3pobs4gp;
         "neoforge-1.21" = _adFA2pBL;
         "neoforge-1.21.1" = _adFA2pBL;
         "neoforge-1.21.2" = _c8pP5Tdi;
@@ -352,6 +367,7 @@ let
         "neoforge-26.2-snapshot-2" = _j008TkI5;
         "neoforge-26.2" = _WhK6rabI;
         "neoforge-26.3-snapshot-1" = _WhK6rabI;
+        "neoforge-26.3" = _3pobs4gp;
         "quilt-1.21" = _adFA2pBL;
         "quilt-1.21.1" = _adFA2pBL;
         "quilt-1.21.2" = _c8pP5Tdi;
@@ -387,11 +403,12 @@ let
         "quilt-26.2-snapshot-2" = _j008TkI5;
         "quilt-26.2" = _WhK6rabI;
         "quilt-26.3-snapshot-1" = _WhK6rabI;
-        "pkg-1.0" = _2ekRDFjl;
-        "pkg-1.0+mod" = _WhK6rabI;
+        "quilt-26.3" = _3pobs4gp;
+        "pkg-1.0" = _ErAodXZZ;
+        "pkg-1.0+mod" = _3pobs4gp;
         "pkg-26.1.4" = _GKMRFpPp;
         "pkg-26.1.4+mod" = _QCcr9tde;
-        "default" = _WhK6rabI;
+        "default" = _3pobs4gp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "heavy-core-recipe";

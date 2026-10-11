@@ -371,6 +371,16 @@ let
             "file" = "reinforcedobsidian-26.2-0.1.jar";
             "hash" = "sha512-XTnbsgv5AeLJeWICWMVB2LRV5xXGkCR/3jGz8dzVPy5zPiUaWVfGjm1ukvzAI4ne1yGtey9eMPWGVpJMprpFEA==";
         };
+        _R9NSLk4O = {
+            "id" = "R9NSLk4O";
+            "file" = "ReinforcedObsidian-26.3-0.1.jar";
+            "hash" = "sha512-7LvSaVuPFGjFAq1Y/oaM02l/UFt3HFerdkwitzTW5KFpW/Wrk7PfC5/s86UY2C9N9oCBGQuKuwdVYniR9Mycxg==";
+        };
+        _vkxtk4zR = {
+            "id" = "vkxtk4zR";
+            "file" = "reinforcedobsidian-26.3-0.1.jar";
+            "hash" = "sha512-xA1cqF9c5Bxo6f1shUC6qPescgKJHTeftKA6qP0vSSHoOrn3HRy2HBzn28gOifk8CfzgvhuXYqsJDoqtW7VxRQ==";
+        };
     in {
         "cUy4lgaG" = _cUy4lgaG;
         "J9qecQt4" = _J9qecQt4;
@@ -446,6 +456,8 @@ let
         "4kku5Z36" = _4kku5Z36;
         "A126MH8V" = _A126MH8V;
         "bvdScJir" = _bvdScJir;
+        "R9NSLk4O" = _R9NSLk4O;
+        "vkxtk4zR" = _vkxtk4zR;
         "forge-1.20" = _cUy4lgaG;
         "forge-1.20.2" = _J9qecQt4;
         "forge-1.20.1" = _4AYBu7HB;
@@ -483,6 +495,7 @@ let
         "neoforge-26.1.1" = _gSFvJSK2;
         "neoforge-26.1.2" = _4kku5Z36;
         "neoforge-26.2" = _bvdScJir;
+        "neoforge-26.3" = _vkxtk4zR;
         "fabric-1.20.1" = _RURetB47;
         "fabric-1.20" = _mYCgPNZh;
         "fabric-1.20.2" = _hPJ2nvZZ;
@@ -505,6 +518,7 @@ let
         "fabric-26.1.1" = _yZ48BNog;
         "fabric-26.1.2" = _uu2eu5OC;
         "fabric-26.2" = _A126MH8V;
+        "fabric-26.3" = _R9NSLk4O;
         "quilt-1.20.1" = _bJsSXvrC;
         "quilt-1.20.2" = _TNhNvD3N;
         "quilt-1.20.4" = _qoygIRaM;
@@ -538,7 +552,8 @@ let
         "pkg-26.1.1-0.1" = _gSFvJSK2;
         "pkg-26.1.2-0.1" = _4kku5Z36;
         "pkg-26.2-0.1" = _bvdScJir;
-        "default" = _bvdScJir;
+        "pkg-26.3-0.1" = _vkxtk4zR;
+        "default" = _vkxtk4zR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "reinforced-obsidian";

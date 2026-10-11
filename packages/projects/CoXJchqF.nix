@@ -81,6 +81,16 @@ let
             "file" = "LockAndBlock-0.10.1+1.20.1.jar";
             "hash" = "sha512-Ra1NwFzD5h0IzRAh+ncIU/zOczd2GVoytlsTc+nPOD14FtrDDc0yt8FBOPl4hzdX9E9xDZ2HPLCACN7FX2YWqQ==";
         };
+        _zteH7l3U = {
+            "id" = "zteH7l3U";
+            "file" = "LockAndBlock-0.10.2+1.20.1.jar";
+            "hash" = "sha512-Y+37JofupOSo89vGuxPV1raeWTPCR+ARw1Pyw9dU7825tANV6kL48aPnjN51PaXjO66wkpLBIRNzxnIZVDd2Vg==";
+        };
+        _EMzlSF9x = {
+            "id" = "EMzlSF9x";
+            "file" = "LockAndBlock-0.10.2+1.21.1.jar";
+            "hash" = "sha512-05gVg4pdlgXZsSn92Syd+5aRMzebmyVkY/heHI5BfANB6cdyDelOLuvjw9CPshX7gwWEB9WeVY5dqRD/OhK82w==";
+        };
     in {
         "kdXir2kN" = _kdXir2kN;
         "E5ZwsvLs" = _E5ZwsvLs;
@@ -98,8 +108,10 @@ let
         "vrciFeS8" = _vrciFeS8;
         "TsONAfvS" = _TsONAfvS;
         "pyMGYGrW" = _pyMGYGrW;
-        "fabric-1.20.1" = _pyMGYGrW;
-        "fabric-1.21.1" = _TsONAfvS;
+        "zteH7l3U" = _zteH7l3U;
+        "EMzlSF9x" = _EMzlSF9x;
+        "fabric-1.20.1" = _zteH7l3U;
+        "fabric-1.21.1" = _EMzlSF9x;
         "pkg-0.1.0" = _kdXir2kN;
         "pkg-0.2.0" = _E5ZwsvLs;
         "pkg-0.3.0" = _OStoIIqK;
@@ -116,7 +128,9 @@ let
         "pkg-0.10.0" = _vrciFeS8;
         "pkg-0.10.1+1.21.1" = _TsONAfvS;
         "pkg-0.10.1+1.20.1" = _pyMGYGrW;
-        "default" = _pyMGYGrW;
+        "pkg-0.10.2+1.20.1" = _zteH7l3U;
+        "pkg-0.10.2+1.21.1" = _EMzlSF9x;
+        "default" = _EMzlSF9x;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lockandblock";

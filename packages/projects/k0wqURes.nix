@@ -111,6 +111,16 @@ let
             "file" = "EnchantmentSwitch-v26.2.0-mc26.2.x-NeoForge.jar";
             "hash" = "sha512-EO2caQwIVB9xK2G9XBFccTlp0rMtz277x0E0jFiSrT9aLdUbNq2TrTed8WoDXaj0FJMgelIbsSn62gMoU9Z0Ag==";
         };
+        _lEX4PgtV = {
+            "id" = "lEX4PgtV";
+            "file" = "enchantmentswitch-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-tc+goii0rfpNoDhwsQ0M1hl0VBmeTyl5ty24yuoh/PteeDs8JodqVM69bU+6ppenHbfSkNgKASWRDvcllDfhmQ==";
+        };
+        _6Uuet7Cl = {
+            "id" = "6Uuet7Cl";
+            "file" = "enchantmentswitch-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-J3Cv4HMwUzONr28MYFEkN924lSEvdXp4vQCDCWOaq10URrPa2frGXEocmp50x7JsNK8IJqi5O0nGk1seMpfEdg==";
+        };
     in {
         "qdhV9T5a" = _qdhV9T5a;
         "FBaQXlpn" = _FBaQXlpn;
@@ -134,6 +144,8 @@ let
         "AxDJGyxz" = _AxDJGyxz;
         "FYO4y2BO" = _FYO4y2BO;
         "lrjy4anY" = _lrjy4anY;
+        "lEX4PgtV" = _lEX4PgtV;
+        "6Uuet7Cl" = _6Uuet7Cl;
         "fabric-1.21.10" = _yo3SaxdZ;
         "fabric-1.21.1" = _dEhVZpVB;
         "fabric-1.21.3" = _osQMd9Te;
@@ -145,6 +157,7 @@ let
         "fabric-26.1.1" = _c5vT9qLa;
         "fabric-26.1.2" = _c5vT9qLa;
         "fabric-26.2" = _FYO4y2BO;
+        "fabric-26.3" = _lEX4PgtV;
         "neoforge-1.21.10" = _89JP59AL;
         "neoforge-1.21.1" = _G3XYA6Dk;
         "neoforge-1.21.3" = _RhPHjFX7;
@@ -156,6 +169,7 @@ let
         "neoforge-26.1.1" = _AxDJGyxz;
         "neoforge-26.1.2" = _AxDJGyxz;
         "neoforge-26.2" = _lrjy4anY;
+        "neoforge-26.3" = _6Uuet7Cl;
         "pkg-21.10.0" = _FBaQXlpn;
         "pkg-v21.1.0-1.21.1-Fabric" = _dEhVZpVB;
         "pkg-v21.1.0-1.21.1-NeoForge" = _G3XYA6Dk;
@@ -172,7 +186,8 @@ let
         "pkg-21.11.0" = _4qo9OMQu;
         "pkg-26.1.0" = _AxDJGyxz;
         "pkg-26.2.0" = _lrjy4anY;
-        "default" = _lrjy4anY;
+        "pkg-26.3.0" = _6Uuet7Cl;
+        "default" = _6Uuet7Cl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchantment-switch";

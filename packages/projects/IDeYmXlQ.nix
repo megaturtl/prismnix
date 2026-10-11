@@ -41,6 +41,16 @@ let
             "file" = "ly-reach-enchantment-v1.0.1.jar";
             "hash" = "sha512-eYvC8A6RxCDI/hXNqkLDePu70YjJQbKpbWLV0NSL3a4yt+iX+dyZj+Z0cjoPi+xZ6PkPe3fQQ8oxYVJHKfBmBw==";
         };
+        _Rs1JguqE = {
+            "id" = "Rs1JguqE";
+            "file" = "Reach Enchantment v1.0.1 [26.3].zip";
+            "hash" = "sha512-UfvTA7H8ld2XsdBQNO/9vDVOumNvbVd+iKrBtcXm4YIhKUQf8ZH4Z6zS0BbvLY+HHyBnvZoHy2oG7f2Y0GJ2QQ==";
+        };
+        _Z67UUETs = {
+            "id" = "Z67UUETs";
+            "file" = "ly-reach-enchantment-1.0.1.jar";
+            "hash" = "sha512-8pjkLDOY4aFLEmC+4N1T6VFDxgvvXwT4EF5h5E5HVoTSYqVlDJ4W5VlzD/Od2LES4wUUnbZ0PI7drIhT+izF+g==";
+        };
     in {
         "8kFTxmcW" = _8kFTxmcW;
         "vmKWlTwM" = _vmKWlTwM;
@@ -50,6 +60,8 @@ let
         "87qy6uC6" = _87qy6uC6;
         "cO3N8dub" = _cO3N8dub;
         "AwbY4nGY" = _AwbY4nGY;
+        "Rs1JguqE" = _Rs1JguqE;
+        "Z67UUETs" = _Z67UUETs;
         "datapack-1.21.2" = _cO3N8dub;
         "datapack-1.21.3" = _cO3N8dub;
         "datapack-1.21.4" = _cO3N8dub;
@@ -66,6 +78,7 @@ let
         "datapack-26.1.1" = _cO3N8dub;
         "datapack-26.1.2" = _cO3N8dub;
         "datapack-26.2" = _cO3N8dub;
+        "datapack-26.3" = _Rs1JguqE;
         "fabric-1.21.2" = _AwbY4nGY;
         "fabric-1.21.3" = _AwbY4nGY;
         "fabric-1.21.4" = _AwbY4nGY;
@@ -82,6 +95,7 @@ let
         "fabric-26.1.1" = _AwbY4nGY;
         "fabric-26.1.2" = _AwbY4nGY;
         "fabric-26.2" = _AwbY4nGY;
+        "fabric-26.3" = _Z67UUETs;
         "forge-1.21.2" = _AwbY4nGY;
         "forge-1.21.3" = _AwbY4nGY;
         "forge-1.21.4" = _AwbY4nGY;
@@ -98,6 +112,7 @@ let
         "forge-26.1.1" = _AwbY4nGY;
         "forge-26.1.2" = _AwbY4nGY;
         "forge-26.2" = _AwbY4nGY;
+        "forge-26.3" = _Z67UUETs;
         "neoforge-1.21.2" = _AwbY4nGY;
         "neoforge-1.21.3" = _AwbY4nGY;
         "neoforge-1.21.4" = _AwbY4nGY;
@@ -114,6 +129,7 @@ let
         "neoforge-26.1.1" = _AwbY4nGY;
         "neoforge-26.1.2" = _AwbY4nGY;
         "neoforge-26.2" = _AwbY4nGY;
+        "neoforge-26.3" = _Z67UUETs;
         "quilt-1.21.2" = _AwbY4nGY;
         "quilt-1.21.3" = _AwbY4nGY;
         "quilt-1.21.4" = _AwbY4nGY;
@@ -130,11 +146,14 @@ let
         "quilt-26.1.1" = _AwbY4nGY;
         "quilt-26.1.2" = _AwbY4nGY;
         "quilt-26.2" = _AwbY4nGY;
+        "quilt-26.3" = _Z67UUETs;
         "pkg-v1.0.0" = _pQeVSG7e;
         "pkg-v1.0.0+mod" = _qHZV3h0V;
         "pkg-v1.0.1" = _cO3N8dub;
         "pkg-v1.0.1+mod" = _AwbY4nGY;
-        "default" = _AwbY4nGY;
+        "pkg-1.0.1" = _Rs1JguqE;
+        "pkg-1.0.1+mod" = _Z67UUETs;
+        "default" = _Z67UUETs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ly-reach-enchantment";

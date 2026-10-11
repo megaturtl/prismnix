@@ -66,6 +66,11 @@ let
             "file" = "minitools-1.1.5-1.21.11.jar";
             "hash" = "sha512-+chyF68N1oGczzsf0RlV9DjqRQig4Rf/9LqlM29tZKJo4eVPrZH5q+GjmTyb0RaprrUwGsolxnIEz0Or4wYPpw==";
         };
+        _pyVKevtJ = {
+            "id" = "pyVKevtJ";
+            "file" = "minitools-1.1.5-26.3.jar";
+            "hash" = "sha512-Lz3cVexEsJ08Ckpx8XAN8v6zK6OPqUrtE0as+bfiJOTrszOjXry99T+m+xGzRXgqTnOaWcbhZgffyudX4DpMag==";
+        };
     in {
         "aNSHBIdz" = _aNSHBIdz;
         "wRLbeOeR" = _wRLbeOeR;
@@ -80,6 +85,7 @@ let
         "b1lR4i7J" = _b1lR4i7J;
         "sPYU2JWe" = _sPYU2JWe;
         "8i4Bbdg6" = _8i4Bbdg6;
+        "pyVKevtJ" = _pyVKevtJ;
         "forge-1.20.1" = _9qkBxRjW;
         "forge-1.20.2" = _9qkBxRjW;
         "fabric-1.21.11" = _8i4Bbdg6;
@@ -87,6 +93,7 @@ let
         "fabric-26.1.1" = _b1lR4i7J;
         "fabric-26.1.2" = _b1lR4i7J;
         "fabric-26.2" = _sPYU2JWe;
+        "fabric-26.3" = _pyVKevtJ;
         "pkg-1.1.0" = _aNSHBIdz;
         "pkg-1.1.1" = _wRLbeOeR;
         "pkg-1.1.2" = _YukJj6AN;
@@ -100,7 +107,8 @@ let
         "pkg-1.1.5-26.1" = _b1lR4i7J;
         "pkg-1.1.5-26.2" = _sPYU2JWe;
         "pkg-1.1.5-1.21.11" = _8i4Bbdg6;
-        "default" = _8i4Bbdg6;
+        "pkg-1.1.5-26.3" = _pyVKevtJ;
+        "default" = _pyVKevtJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "minitools";

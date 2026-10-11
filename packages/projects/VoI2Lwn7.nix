@@ -71,6 +71,11 @@ let
             "file" = "Enderman Muted 26.2.zip";
             "hash" = "sha512-uiC8zIIaRa3mz9yqdT7ix+PujeEKLMdnkyJjA8g3z71KmjAmtNC6er25X2kh1HZASiBIZTZBronXCGZFBGtJJQ==";
         };
+        _YbhObnNW = {
+            "id" = "YbhObnNW";
+            "file" = "Enderman Muted 26.3.zip";
+            "hash" = "sha512-rh1LUyt2zqKzrlOFw10g4j5QnWC+cNq9MoPNBgraMnW6xXOy+ye7TTI5NWle1dXtph4mqmKU7dkFg8Xq/qxPeg==";
+        };
     in {
         "DaDeWzH5" = _DaDeWzH5;
         "QjKsnmmA" = _QjKsnmmA;
@@ -86,6 +91,7 @@ let
         "2aSgDPNL" = _2aSgDPNL;
         "jeF7b7ru" = _jeF7b7ru;
         "VwaHQA2K" = _VwaHQA2K;
+        "YbhObnNW" = _YbhObnNW;
         "minecraft-1.20" = _DaDeWzH5;
         "minecraft-1.20.1" = _DaDeWzH5;
         "minecraft-1.20.2" = _QjKsnmmA;
@@ -110,6 +116,7 @@ let
         "minecraft-26.1.1" = _jeF7b7ru;
         "minecraft-26.1.2" = _jeF7b7ru;
         "minecraft-26.2" = _VwaHQA2K;
+        "minecraft-26.3" = _YbhObnNW;
         "pkg-1.20" = _DaDeWzH5;
         "pkg-1.20.2" = _QjKsnmmA;
         "pkg-1.20.3.4" = _N1bAyvPg;
@@ -124,7 +131,8 @@ let
         "pkg-1.21.11" = _2aSgDPNL;
         "pkg-26.1" = _jeF7b7ru;
         "pkg-26.2" = _VwaHQA2K;
-        "default" = _VwaHQA2K;
+        "pkg-26.3" = _YbhObnNW;
+        "default" = _YbhObnNW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enderman-muted";

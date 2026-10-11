@@ -41,6 +41,16 @@ let
             "file" = "the_backrooms_v1.2.jar";
             "hash" = "sha512-Q3vnImNwIpKjM0k6i6n6Bob0Euf31FudmwuOqsHuklsgVtxBNMAdnKANx7fbsYDvNcyDxl9qQSSXuq7qL3viRw==";
         };
+        _Arfi36O5 = {
+            "id" = "Arfi36O5";
+            "file" = "the_backrooms_v1.2.1.jar";
+            "hash" = "sha512-xUF7b8r+Z1wNwPyUWe8znyDNFoAyV1M9ZI3Pg9/nCx1lLH3J1GJMJ2k3eyqZFhJERn4D4z3VVenmXzS6wQk57A==";
+        };
+        _L4KPDHHt = {
+            "id" = "L4KPDHHt";
+            "file" = "the_backrooms_v1.2.2.jar";
+            "hash" = "sha512-DELQVRMRU/Ox1Zmyfb5EokJMYITCU4IKaMyOls8o4bmGlFyZodYe+5n0rUze8zM0XNzfxFV5qrz9xurYAh9XuQ==";
+        };
     in {
         "CgMeDAMf" = _CgMeDAMf;
         "rN4JDGif" = _rN4JDGif;
@@ -50,7 +60,9 @@ let
         "YMbY0IcE" = _YMbY0IcE;
         "LkiVFkug" = _LkiVFkug;
         "K4VHtmzc" = _K4VHtmzc;
-        "neoforge-1.21.1" = _K4VHtmzc;
+        "Arfi36O5" = _Arfi36O5;
+        "L4KPDHHt" = _L4KPDHHt;
+        "neoforge-1.21.1" = _L4KPDHHt;
         "pkg-1.0" = _CgMeDAMf;
         "pkg-1.0.1" = _rN4JDGif;
         "pkg-1.0.2" = _RUdlbWE7;
@@ -59,7 +71,9 @@ let
         "pkg-1.1" = _YMbY0IcE;
         "pkg-1.1.1" = _LkiVFkug;
         "pkg-1.2" = _K4VHtmzc;
-        "default" = _K4VHtmzc;
+        "pkg-1.2.1" = _Arfi36O5;
+        "pkg-1.2.2" = _L4KPDHHt;
+        "default" = _L4KPDHHt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wikidotbackrooms";

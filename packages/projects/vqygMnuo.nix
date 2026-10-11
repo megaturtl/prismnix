@@ -41,6 +41,16 @@ let
             "file" = "fabric-1.2.4.jar";
             "hash" = "sha512-ZOqL9lHC2iQUuQJ+Me1PPFPZkPsf2t7AA7bNb1gFbT54rFWCACkCJiFcTZa39hKWrWvlOdJgDESvXYuaGoMiHg==";
         };
+        _UpaEJKOD = {
+            "id" = "UpaEJKOD";
+            "file" = "tenaregen-1.3.1.jar";
+            "hash" = "sha512-KSYeJPnlVW+hlx6PIb/JvHhFpKD2YzLMtL9M5/2+3/sHbL+8y6zfKzltE/oSynynNL5KiUfjRU9TIMqDTQN35w==";
+        };
+        _ZfmK99eo = {
+            "id" = "ZfmK99eo";
+            "file" = "tenaregen-fabric-1.3.1.jar";
+            "hash" = "sha512-+xfC6JEUj8cl6BciqKbcOT/cDu/EsmjhliVTgbjx9oleGjRSAuc9CEU1gKCRwlPjp0VQ1U9G5WeW/hUuWus24Q==";
+        };
     in {
         "dSy80kjL" = _dSy80kjL;
         "d3JIsTqq" = _d3JIsTqq;
@@ -50,15 +60,18 @@ let
         "zzNy1oOF" = _zzNy1oOF;
         "QQqfzFvd" = _QQqfzFvd;
         "ili2fVQq" = _ili2fVQq;
-        "neoforge-1.21.1" = _QQqfzFvd;
-        "fabric-1.21.1" = _ili2fVQq;
+        "UpaEJKOD" = _UpaEJKOD;
+        "ZfmK99eo" = _ZfmK99eo;
+        "neoforge-1.21.1" = _UpaEJKOD;
+        "fabric-1.21.1" = _ZfmK99eo;
         "pkg-1.0.0" = _dSy80kjL;
         "pkg-1.1.0" = _d3JIsTqq;
         "pkg-1.2.1" = _7t6OdmdI;
         "pkg-1.2.2" = _RXoqyRSa;
         "pkg-1.2.3" = _QQqfzFvd;
         "pkg-1.2.4" = _ili2fVQq;
-        "default" = _ili2fVQq;
+        "pkg-1.3.1" = _ZfmK99eo;
+        "default" = _ZfmK99eo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tensura-ep-regen-scaling-reborn";

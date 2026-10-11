@@ -771,6 +771,16 @@ let
             "file" = "largefluidtank-fabric-26.20.1.jar";
             "hash" = "sha512-qg/DxBUc5fyh1Bc0L2EU+olpOHUSVNN6wwtcPkWXIEjLQKUmoa/hKh7z44ylomIhMMifcRdUh7QwaDugeXVVjw==";
         };
+        _W53LILQE = {
+            "id" = "W53LILQE";
+            "file" = "largefluidtank-neoforge-26.30.0-SNAPSHOT.jar";
+            "hash" = "sha512-MOP9gd+wmZdtz9a7aqG6kIw21LigRBUtePUXkXx0JK1C87LOqvFpP2yqK/3ZZWL9e2xQyD348tGp9preUUejTg==";
+        };
+        _TCcLZXNZ = {
+            "id" = "TCcLZXNZ";
+            "file" = "largefluidtank-fabric-26.30.0-SNAPSHOT.jar";
+            "hash" = "sha512-sxc6xZXrTr62WJCivuxaGm3/DHSHxs+zFhNgi38VOl9FloFYARZRxsTPp1wyQ/ny2/kU/JOaRnzABIIvlD30Mw==";
+        };
     in {
         "jn4tQYL1" = _jn4tQYL1;
         "GYXkC4Kg" = _GYXkC4Kg;
@@ -926,6 +936,8 @@ let
         "1QamGc2g" = _1QamGc2g;
         "CJObir9h" = _CJObir9h;
         "Hu4rTHHF" = _Hu4rTHHF;
+        "W53LILQE" = _W53LILQE;
+        "TCcLZXNZ" = _TCcLZXNZ;
         "fabric-1.19.4" = _kF9zphxS;
         "fabric-1.20.1" = _ovwod0Uq;
         "fabric-1.20.2" = _Py47UbdF;
@@ -944,6 +956,7 @@ let
         "fabric-1.21.11" = _EQrVf2L8;
         "fabric-26.1.2" = _1QamGc2g;
         "fabric-26.2" = _Hu4rTHHF;
+        "fabric-26.3" = _TCcLZXNZ;
         "forge-1.19.4" = _G9KwkQPB;
         "forge-1.20.1" = _RXUKseli;
         "forge-1.20.2" = _EPWczJbw;
@@ -970,6 +983,7 @@ let
         "neoforge-1.21.11" = _G24aA8N0;
         "neoforge-26.1.2" = _U1siSPCo;
         "neoforge-26.2" = _CJObir9h;
+        "neoforge-26.3" = _W53LILQE;
         "pkg-1.0.0" = _GYXkC4Kg;
         "pkg-1.0.1" = _G9KwkQPB;
         "pkg-20.1.0" = _MIObWun4;
@@ -1037,7 +1051,9 @@ let
         "pkg-26.12.0-fabric" = _1QamGc2g;
         "pkg-26.20.1-neoforge" = _CJObir9h;
         "pkg-26.20.1-fabric" = _Hu4rTHHF;
-        "default" = _Hu4rTHHF;
+        "pkg-26.30.0-SNAPSHOT-neoforge" = _W53LILQE;
+        "pkg-26.30.0-SNAPSHOT-fabric" = _TCcLZXNZ;
+        "default" = _TCcLZXNZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "large-fluid-tank";

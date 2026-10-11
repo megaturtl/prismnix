@@ -131,6 +131,21 @@ let
             "file" = "opticores-1.1.0+26.x.jar";
             "hash" = "sha512-V3wnb1MYpc6Dm4xF3TYuBBFLGERVTL7DeHuLiRNZjNPHj90GYcMkAmvLc81h7r8ED6I410yfgOQLq6uh8/uQnA==";
         };
+        _DIfCUyYH = {
+            "id" = "DIfCUyYH";
+            "file" = "Opticores-v1.1.1+26.x.jar";
+            "hash" = "sha512-0plsfsYzQX4Pr6hmZmA+BmqMs89y1Mdx3Nz+qnCEYb1Kpz4rMT3+qWCQJKA0qcpxgdFDqbk3RIYos1ceklU1xA==";
+        };
+        _wJV4y23G = {
+            "id" = "wJV4y23G";
+            "file" = "Opticores-v1.1.1.5+26.x.jar";
+            "hash" = "sha512-jkeXHSglCJkgl50ORDCvXbsc1r63g6RdnbcNS6q75wSejBqyhIWqfz79D6hrvjnHwaIySTDqFQbU35XMHgnLnQ==";
+        };
+        _T7VYXJn7 = {
+            "id" = "T7VYXJn7";
+            "file" = "opticores-1.1.1+1.20.x.jar";
+            "hash" = "sha512-jikSiilrUECyV+pbMGZsXRulDcAUMnLdET7o+rdGsjk8MRiKNVcSCMr0uymYw9Izhc8P4UXgm9no6O++eSmDRA==";
+        };
     in {
         "ASCVXdTN" = _ASCVXdTN;
         "xt4XTsZc" = _xt4XTsZc;
@@ -158,6 +173,9 @@ let
         "i9heULIX" = _i9heULIX;
         "Uzi1lAbc" = _Uzi1lAbc;
         "JpitIL3u" = _JpitIL3u;
+        "DIfCUyYH" = _DIfCUyYH;
+        "wJV4y23G" = _wJV4y23G;
+        "T7VYXJn7" = _T7VYXJn7;
         "neoforge-1.21.1" = _i9heULIX;
         "neoforge-1.21.2" = _i9heULIX;
         "neoforge-1.21.3" = _i9heULIX;
@@ -184,12 +202,12 @@ let
         "forge-1.21.9" = _r8jyZzgf;
         "forge-1.21.10" = _r8jyZzgf;
         "forge-1.21.11" = _fPHbUHbX;
-        "forge-1.20.1" = _Uzi1lAbc;
-        "forge-1.20.2" = _Uzi1lAbc;
-        "forge-1.20.3" = _Uzi1lAbc;
-        "forge-1.20.4" = _Uzi1lAbc;
-        "forge-1.20.5" = _Uzi1lAbc;
-        "forge-1.20.6" = _Uzi1lAbc;
+        "forge-1.20.1" = _T7VYXJn7;
+        "forge-1.20.2" = _T7VYXJn7;
+        "forge-1.20.3" = _T7VYXJn7;
+        "forge-1.20.4" = _T7VYXJn7;
+        "forge-1.20.5" = _T7VYXJn7;
+        "forge-1.20.6" = _T7VYXJn7;
         "fabric-1.21.1" = _tpXamHyq;
         "fabric-1.21.2" = _tpXamHyq;
         "fabric-1.21.3" = _tpXamHyq;
@@ -201,6 +219,11 @@ let
         "fabric-1.21.9" = _tpXamHyq;
         "fabric-1.21.10" = _tpXamHyq;
         "fabric-1.21.11" = _tpXamHyq;
+        "fabric-26.1" = _wJV4y23G;
+        "fabric-26.1.1" = _wJV4y23G;
+        "fabric-26.1.2" = _wJV4y23G;
+        "fabric-26.2" = _wJV4y23G;
+        "fabric-26.3" = _wJV4y23G;
         "pkg-1.0.0" = _ASCVXdTN;
         "pkg-1.0.1" = _xt4XTsZc;
         "pkg-1.0.2" = _r8jyZzgf;
@@ -216,7 +239,10 @@ let
         "pkg-1.1.0+1.21.x" = _i9heULIX;
         "pkg-1.1.0+1.20.x" = _Uzi1lAbc;
         "pkg-1.1.0+26.x" = _JpitIL3u;
-        "default" = _JpitIL3u;
+        "pkg-v1.1.1+26.x" = _DIfCUyYH;
+        "pkg-v1.1.1.5+26.x" = _wJV4y23G;
+        "pkg-1.1.1+1.20.x" = _T7VYXJn7;
+        "default" = _T7VYXJn7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "opticores";

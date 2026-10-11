@@ -31,6 +31,11 @@ let
             "file" = "simple_blueprints-26.2-1.2.1.jar";
             "hash" = "sha512-+8Wr0DKBwTu2EDnZhS+42C6+oluY7IhhtxKn0PUCwrJtmv32gBj5SZmBOuRCAvMeRGc5hwL9urJtxcCh1Azx2g==";
         };
+        _VNK0jOfH = {
+            "id" = "VNK0jOfH";
+            "file" = "simple_blueprints-26.3-1.2.2.jar";
+            "hash" = "sha512-Y8jOeaINpdR/SmZzMVIA9aLNw7GN+GgXa5pkdr4qjqCQJe9VC135v+FtLN7L1CyaSuCqLxpuN1uWGb6aBcp0NQ==";
+        };
     in {
         "O4GNbyBo" = _O4GNbyBo;
         "alhkyH8q" = _alhkyH8q;
@@ -38,18 +43,21 @@ let
         "lyLwsOJ8" = _lyLwsOJ8;
         "iX02eaoB" = _iX02eaoB;
         "V9DvhYUD" = _V9DvhYUD;
+        "VNK0jOfH" = _VNK0jOfH;
         "fabric-1.21.11" = _alhkyH8q;
         "fabric-26.1" = _ujUogmG1;
         "fabric-26.1.1" = _iX02eaoB;
         "fabric-26.1.2" = _iX02eaoB;
         "fabric-26.2" = _V9DvhYUD;
+        "fabric-26.3" = _VNK0jOfH;
         "pkg-1.21.11-1.0" = _O4GNbyBo;
         "pkg-1.21.11-1.0.1" = _alhkyH8q;
         "pkg-26.1-1.1" = _ujUogmG1;
         "pkg-26.1.1-1.1" = _lyLwsOJ8;
         "pkg-26.1.1-1.2" = _iX02eaoB;
         "pkg-26.2-1.2.1" = _V9DvhYUD;
-        "default" = _V9DvhYUD;
+        "pkg-26.3-1.2.2" = _VNK0jOfH;
+        "default" = _VNK0jOfH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-blueprints";

@@ -146,6 +146,11 @@ let
             "file" = "AuroraQuests-2.5.0-b168.jar";
             "hash" = "sha512-VW4oMDYznnoiy5TebqZSia6u4FjVx3f3mDIdNW9UxjWjWxRIEIMmrja1cZnMKNy8ugA/miyxbWoctb0EKKEP4g==";
         };
+        _H1gzWmxg = {
+            "id" = "H1gzWmxg";
+            "file" = "AuroraQuests-2.6.0-b170.jar";
+            "hash" = "sha512-x1NgLlzZ9usrDzVizXLNEKti7StQ3N9fekIoKi5opQeA3McBA1mJAfFPLl6MZ6EaH1vW8ghZJKSL766XP+Dejg==";
+        };
     in {
         "HSKRVOoe" = _HSKRVOoe;
         "Gt7LwnaC" = _Gt7LwnaC;
@@ -176,6 +181,7 @@ let
         "nvRjnDSp" = _nvRjnDSp;
         "5yd0yi6g" = _5yd0yi6g;
         "EmjbZJtY" = _EmjbZJtY;
+        "H1gzWmxg" = _H1gzWmxg;
         "folia-1.20" = _P4tdDVle;
         "folia-1.20.1" = _P4tdDVle;
         "folia-1.20.2" = _P4tdDVle;
@@ -195,7 +201,7 @@ let
         "folia-1.21.9" = _5yd0yi6g;
         "folia-1.21.10" = _5yd0yi6g;
         "folia-1.21.11" = _5yd0yi6g;
-        "folia-26.2" = _EmjbZJtY;
+        "folia-26.2" = _H1gzWmxg;
         "paper-1.20" = _P4tdDVle;
         "paper-1.20.1" = _P4tdDVle;
         "paper-1.20.2" = _P4tdDVle;
@@ -215,7 +221,7 @@ let
         "paper-1.21.9" = _5yd0yi6g;
         "paper-1.21.10" = _5yd0yi6g;
         "paper-1.21.11" = _5yd0yi6g;
-        "paper-26.2" = _EmjbZJtY;
+        "paper-26.2" = _H1gzWmxg;
         "purpur-1.20" = _P4tdDVle;
         "purpur-1.20.1" = _P4tdDVle;
         "purpur-1.20.2" = _P4tdDVle;
@@ -235,7 +241,7 @@ let
         "purpur-1.21.9" = _5yd0yi6g;
         "purpur-1.21.10" = _5yd0yi6g;
         "purpur-1.21.11" = _5yd0yi6g;
-        "purpur-26.2" = _EmjbZJtY;
+        "purpur-26.2" = _H1gzWmxg;
         "pkg-1.0.0" = _HSKRVOoe;
         "pkg-1.0.1" = _Gt7LwnaC;
         "pkg-1.1.0" = _HjpPhmVV;
@@ -265,7 +271,8 @@ let
         "pkg-2.1.0" = _nvRjnDSp;
         "pkg-2.2.0" = _5yd0yi6g;
         "pkg-2.5.0-b168" = _EmjbZJtY;
-        "default" = _EmjbZJtY;
+        "pkg-2.6.0-b170" = _H1gzWmxg;
+        "default" = _H1gzWmxg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "auroraquests";

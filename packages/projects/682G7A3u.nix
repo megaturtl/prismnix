@@ -81,6 +81,11 @@ let
             "file" = "ExplosiveParty-3.1.1-1.26.2.jar";
             "hash" = "sha512-KlVxTsTPgXOXAtJj1TqfRjXga+ogiMca0DoQWzByJRd38S0J3v1N6ZaHBCrqY289iKtF/MOFSEivkn/rpTpiJQ==";
         };
+        _xmobT2iG = {
+            "id" = "xmobT2iG";
+            "file" = "ExplosiveParty-3.1.2-1.26.3.jar";
+            "hash" = "sha512-9ZURKSPRryUm77xkKRh0OS6k26qw1YdZgba6kd5P+01dBf2X77Y+t2viWeYb+0XSy40P7X65iRmtxNkH54r+qg==";
+        };
     in {
         "phnDUCsP" = _phnDUCsP;
         "1EiuFfuA" = _1EiuFfuA;
@@ -98,6 +103,7 @@ let
         "Z875ZBE5" = _Z875ZBE5;
         "dMCW6Kgt" = _dMCW6Kgt;
         "IlQCvXk9" = _IlQCvXk9;
+        "xmobT2iG" = _xmobT2iG;
         "fabric-1.20" = _1VJxPftO;
         "fabric-1.20.1" = _1VJxPftO;
         "fabric-1.20.2" = _lrfeDGJA;
@@ -121,6 +127,7 @@ let
         "fabric-26.1.1" = _Z875ZBE5;
         "fabric-26.1.2" = _Z875ZBE5;
         "fabric-26.2" = _IlQCvXk9;
+        "fabric-26.3" = _xmobT2iG;
         "pkg-1.0.0-1.20" = _phnDUCsP;
         "pkg-1.0.1-1.20.2" = _1EiuFfuA;
         "pkg-1.0.1-1.20.3" = _BpZXxBKs;
@@ -137,7 +144,8 @@ let
         "pkg-3.0.0-1.26.1" = _Z875ZBE5;
         "pkg-3.1.0-1.26.2" = _dMCW6Kgt;
         "pkg-3.1.1-1.26.2" = _IlQCvXk9;
-        "default" = _IlQCvXk9;
+        "pkg-3.1.2-1.26.3" = _xmobT2iG;
+        "default" = _xmobT2iG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "explosive-party";

@@ -571,6 +571,26 @@ let
             "file" = "readyplayerfun-26.2-neoforge-3.1.0.5-NEOFORGE.jar";
             "hash" = "sha512-5OEoTUJIwpXU/Z9WdBgsqfcOGvssGDR9RMF4xJoGKLWrY+WtRxZLbAd/Ke5Vl6ZtyUn77Km+SzRakB2XoNgMRg==";
         };
+        _lT41uKyg = {
+            "id" = "lT41uKyg";
+            "file" = "readyplayerfun-26.3-fabric-3.1.0.5-FABRIC.jar";
+            "hash" = "sha512-edq0l27mpJjmyM33RvgCJdO1ZbhAgNY/W/OLi7qCzKY1rLmYv0uqbdJ8NyoOyn6nMvc5iLvYEhu8F5zedAGkeg==";
+        };
+        _rKkoKuu1 = {
+            "id" = "rKkoKuu1";
+            "file" = "readyplayerfun-26.3-neoforge-3.1.0.5-NEOFORGE.jar";
+            "hash" = "sha512-yFR0RPtVhjwKzb+t+ShmFlbeZgWudYnHbSI+xzrDQbnfRRIbczJ6QwWaLPOo7eU3UZXQbYCrrAiqzZGUhJOZZw==";
+        };
+        _P1wtlt7z = {
+            "id" = "P1wtlt7z";
+            "file" = "readyplayerfun-26.3-fabric-3.1.0.5-FABRIC.jar";
+            "hash" = "sha512-h3pOBt2FHViEEwJSwLRULwK9c4OWClEszaWTrPNnpQ4B+U5z73GZui5QCY8G4aIn64ZS3hXGic/tAWpagwdCbw==";
+        };
+        _GRmnIMYE = {
+            "id" = "GRmnIMYE";
+            "file" = "readyplayerfun-26.3-neoforge-3.1.0.5-NEOFORGE.jar";
+            "hash" = "sha512-nYquGqS4Gg2jijI+RdztmG2o+ICp1m3MDeyhl2m2BPIfyqWVD/0/sXoXFVwHJQYVou1RfxhR58yb6N8c1/RVVw==";
+        };
     in {
         "hhyiafeU" = _hhyiafeU;
         "tOJRbMEr" = _tOJRbMEr;
@@ -686,6 +706,10 @@ let
         "Voy8L7v1" = _Voy8L7v1;
         "bxLRRYxs" = _bxLRRYxs;
         "CTufKHCX" = _CTufKHCX;
+        "lT41uKyg" = _lT41uKyg;
+        "rKkoKuu1" = _rKkoKuu1;
+        "P1wtlt7z" = _P1wtlt7z;
+        "GRmnIMYE" = _GRmnIMYE;
         "forge-1.18.1" = _uM5xI3CH;
         "forge-1.18.2" = _HmSD9A3t;
         "forge-1.19.4" = _YJMFxjfH;
@@ -708,6 +732,7 @@ let
         "fabric-26.1.1" = _CZxZLWcx;
         "fabric-26.1.2" = _CZxZLWcx;
         "fabric-26.2" = _bxLRRYxs;
+        "fabric-26.3" = _P1wtlt7z;
         "neoforge-1.20.6" = _F1zyI9Qn;
         "neoforge-1.20.4" = _mVFt1q5d;
         "neoforge-1.21" = _WeKWKqwB;
@@ -722,6 +747,7 @@ let
         "neoforge-26.1.1" = _Voy8L7v1;
         "neoforge-26.1.2" = _Voy8L7v1;
         "neoforge-26.2" = _CTufKHCX;
+        "neoforge-26.3" = _GRmnIMYE;
         "pkg-1.18.2-1.4.1.9" = _hhyiafeU;
         "pkg-1.19.4-2.6.1.1-FORGE" = _tOJRbMEr;
         "pkg-1.19.4-2.6.1.1-FABRIC" = _lbo9egAQ;
@@ -834,7 +860,9 @@ let
         "pkg-26.1.2-3.1.0.5-NEOFORGE" = _Voy8L7v1;
         "pkg-26.2-3.1.0.5-FABRIC" = _bxLRRYxs;
         "pkg-26.2-3.1.0.5-NEOFORGE" = _CTufKHCX;
-        "default" = _CTufKHCX;
+        "pkg-26.3-3.1.0.5-FABRIC" = _P1wtlt7z;
+        "pkg-26.3-3.1.0.5-NEOFORGE" = _GRmnIMYE;
+        "default" = _GRmnIMYE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ready-player-fun";

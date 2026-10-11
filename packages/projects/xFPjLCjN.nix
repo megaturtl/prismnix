@@ -26,12 +26,18 @@ let
             "file" = "CS Crosshair v1.4.zip";
             "hash" = "sha512-wevKvr5Vkg56aAs61wK14o8ZRpyxTP+tOcY+wmHMkqaSoXHhuShDQNHsRd5J+LqMqk9Y6Nuw3NZoQR3kGQsG1w==";
         };
+        _1Gj4AiOJ = {
+            "id" = "1Gj4AiOJ";
+            "file" = "CS Crosshair v1.5.zip";
+            "hash" = "sha512-y3q80GYk4o0PZkNCojX77zxoerW8X6ipZkSB8LDpzxgO9nVOg52i0F/WSn1Wv0SmX9+2UC0wLbW2b73GJIcoCQ==";
+        };
     in {
         "w7edyyio" = _w7edyyio;
         "cTkVzv7j" = _cTkVzv7j;
         "j5606GlA" = _j5606GlA;
         "8viskFLa" = _8viskFLa;
         "aiHGoFwE" = _aiHGoFwE;
+        "1Gj4AiOJ" = _1Gj4AiOJ;
         "minecraft-1.21.1" = _8viskFLa;
         "minecraft-1.21" = _8viskFLa;
         "minecraft-1.21.2" = _8viskFLa;
@@ -98,12 +104,15 @@ let
         "minecraft-1.21.11" = _aiHGoFwE;
         "minecraft-26.1" = _aiHGoFwE;
         "minecraft-26.1.1" = _aiHGoFwE;
+        "minecraft-26.2" = _1Gj4AiOJ;
+        "minecraft-26.3" = _1Gj4AiOJ;
         "pkg-v1.0" = _w7edyyio;
         "pkg-v1.1" = _cTkVzv7j;
         "pkg-v1.2" = _j5606GlA;
         "pkg-v1.3" = _8viskFLa;
         "pkg-v1.4" = _aiHGoFwE;
-        "default" = _aiHGoFwE;
+        "pkg-v1.5" = _1Gj4AiOJ;
+        "default" = _1Gj4AiOJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cs-style-crosshair";

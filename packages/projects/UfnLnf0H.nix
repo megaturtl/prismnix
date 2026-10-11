@@ -281,6 +281,16 @@ let
             "file" = "ParticleGenerator-FABRIC-26.2-1.2.jar";
             "hash" = "sha512-WUyAQybAKlR4VgreskSH/lV0WPMveWZmEQDnSEJcPQy1bseGm4s5Fp4G09Wq5hOLBNc0xcd9MU7v3wRwzCBQdg==";
         };
+        _6jEnF0nb = {
+            "id" = "6jEnF0nb";
+            "file" = "ParticleGenerator-NEOFORGE-26.3-1.2.1.jar";
+            "hash" = "sha512-WFMIlWfkPpbwVe5wjGTxYk4yAue51/BTUWKs7FYaMGV7EdXZFzhB9CgltfmnuIOK4zFeq92aRhMY5v56UQ/sng==";
+        };
+        _GuV2l0Xz = {
+            "id" = "GuV2l0Xz";
+            "file" = "ParticleGenerator-FABRIC-26.3-1.2.1.jar";
+            "hash" = "sha512-zMYwlAWu9l244qheJqlq3fNGMGnukbpYVAzV5VokigOPuF2eNE/N7aqwXcQHHbnHZYXmE4lcIyrJeMwQjD108w==";
+        };
     in {
         "mMhzjv4U" = _mMhzjv4U;
         "tjdCr1pc" = _tjdCr1pc;
@@ -338,6 +348,8 @@ let
         "TsGieZmF" = _TsGieZmF;
         "zeRpjkW1" = _zeRpjkW1;
         "lWS6bnem" = _lWS6bnem;
+        "6jEnF0nb" = _6jEnF0nb;
+        "GuV2l0Xz" = _GuV2l0Xz;
         "forge-1.16.5" = _mMhzjv4U;
         "forge-1.18.2" = _onTAxkoW;
         "forge-1.19.2" = _bb1MtvdO;
@@ -382,6 +394,7 @@ let
         "fabric-26.1.1" = _TsGieZmF;
         "fabric-26.1.2" = _TsGieZmF;
         "fabric-26.2" = _lWS6bnem;
+        "fabric-26.3" = _GuV2l0Xz;
         "neoforge-1.21" = _gGNKHuc2;
         "neoforge-1.21.1" = _gGNKHuc2;
         "neoforge-1.21.2" = _S50yju8l;
@@ -398,6 +411,7 @@ let
         "neoforge-26.1.1" = _5qDjDEFb;
         "neoforge-26.1.2" = _5qDjDEFb;
         "neoforge-26.2" = _zeRpjkW1;
+        "neoforge-26.3" = _6jEnF0nb;
         "pkg-1.0.1" = _VhVDTkvZ;
         "pkg-1.0.2" = _mipe18aI;
         "pkg-1.0.3" = _LAuKeQzC;
@@ -421,7 +435,9 @@ let
         "pkg-1.2-fabric-26.1" = _TsGieZmF;
         "pkg-1.2-neoforge-26.2" = _zeRpjkW1;
         "pkg-1.2-fabric-26.2" = _lWS6bnem;
-        "default" = _lWS6bnem;
+        "pkg-1.2.1-neoforge-26.3" = _6jEnF0nb;
+        "pkg-1.2.1-fabric-26.3" = _GuV2l0Xz;
+        "default" = _GuV2l0Xz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "particlegenerator";

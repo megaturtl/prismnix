@@ -466,6 +466,36 @@ let
             "file" = "palegardenfx-1.3.3-fabric+26.3.jar";
             "hash" = "sha512-wyQCjut1OZD70MsShi91kvbCVy7ZUcAFgK83P35+H9A95YBTEhLeGSMTQObF4t8zBem8TKUQw5z9FWajAsC98w==";
         };
+        _BOReIhPz = {
+            "id" = "BOReIhPz";
+            "file" = "palegardenfx-1.3.4-fabric+26.1.2.jar";
+            "hash" = "sha512-vCbzxYFStQuXwqpw0MDJdNcRHkuOZmm0fTIeIoqQhC4zcKLAZg40kEBqESjrkk/hQZ+5Hfcvu4LGRoWXf2NNcQ==";
+        };
+        _qObw6zwy = {
+            "id" = "qObw6zwy";
+            "file" = "palegardenfx-1.3.4-neoforge+26.1.2.jar";
+            "hash" = "sha512-h5NYkL7sR+anqech198vZgHVpPmR6Ml/ymUb7hHB1OCchL0ZwKMMkJht2U9GX1i6RVfg5577LPHBpHK/ct0W9g==";
+        };
+        _7kVR0XUR = {
+            "id" = "7kVR0XUR";
+            "file" = "palegardenfx-1.3.4-fabric+26.2.jar";
+            "hash" = "sha512-2O8mKxsKiUPxYOn6v7gPZ543luygGnO3eDPBGX4dT4AERpvgB5AwqUs3k1MS2fXv7FLtEijG7nhSYpt4s8B7eQ==";
+        };
+        _sjGTMomM = {
+            "id" = "sjGTMomM";
+            "file" = "palegardenfx-1.3.4-neoforge+26.2.jar";
+            "hash" = "sha512-1BzN31Yx0XjdVctsgNOOIjni+5kNygMkDX6RhXQt03aasiUVOeuuHgh1irRY+fcblrUVqtnNlB/lY0Qxn0ouNw==";
+        };
+        _zu2sFXQq = {
+            "id" = "zu2sFXQq";
+            "file" = "palegardenfx-1.3.4-neoforge+26.3.jar";
+            "hash" = "sha512-dgqchQqBxFYPLwnPmlnHzvw4ovLoLNRIw++4T0JAb1xSCn/B/Ojxf6/zJm99ZI/KE2X4Izqs+jiFFQNdBVcMBQ==";
+        };
+        _SHI4GWj9 = {
+            "id" = "SHI4GWj9";
+            "file" = "palegardenfx-1.3.4-fabric+26.3.jar";
+            "hash" = "sha512-tW7ykL5EWRD7sThUN/DGONtON77pSbsXdL6jSCC2hC2gHoaXtHvRZCQrl/1XVfgUAYyGRYsdYQqsSyl5rHQOXw==";
+        };
     in {
         "k4LYUbjG" = _k4LYUbjG;
         "YsClNifc" = _YsClNifc;
@@ -560,6 +590,12 @@ let
         "kDQZt7zA" = _kDQZt7zA;
         "bgmJObtO" = _bgmJObtO;
         "WTXUWzuj" = _WTXUWzuj;
+        "BOReIhPz" = _BOReIhPz;
+        "qObw6zwy" = _qObw6zwy;
+        "7kVR0XUR" = _7kVR0XUR;
+        "sjGTMomM" = _sjGTMomM;
+        "zu2sFXQq" = _zu2sFXQq;
+        "SHI4GWj9" = _SHI4GWj9;
         "fabric-1.21.4" = _tqiAjppp;
         "fabric-1.21.5" = _gGmpbYuw;
         "fabric-25w14craftmine" = _irTOt8ht;
@@ -569,11 +605,11 @@ let
         "fabric-1.21.9" = _UmOTtmOx;
         "fabric-1.21.10" = _UmOTtmOx;
         "fabric-1.21.11" = _dXFYjwKJ;
-        "fabric-26.1" = _AmOk7Xui;
-        "fabric-26.1.1" = _AmOk7Xui;
-        "fabric-26.1.2" = _AmOk7Xui;
-        "fabric-26.2" = _kDQZt7zA;
-        "fabric-26.3" = _WTXUWzuj;
+        "fabric-26.1" = _BOReIhPz;
+        "fabric-26.1.1" = _BOReIhPz;
+        "fabric-26.1.2" = _BOReIhPz;
+        "fabric-26.2" = _7kVR0XUR;
+        "fabric-26.3" = _SHI4GWj9;
         "quilt-1.21.4" = _HzeFOzDR;
         "quilt-1.21.5" = _gGmpbYuw;
         "quilt-25w14craftmine" = _irTOt8ht;
@@ -590,11 +626,11 @@ let
         "neoforge-1.21.10" = _Xq38F6h5;
         "neoforge-1.21.11" = _WwNSgZQv;
         "neoforge-1.21.4" = _cvYokTeM;
-        "neoforge-26.1" = _Alo11gdV;
-        "neoforge-26.1.1" = _Alo11gdV;
-        "neoforge-26.1.2" = _Alo11gdV;
-        "neoforge-26.2" = _sR1IqBOQ;
-        "neoforge-26.3" = _bgmJObtO;
+        "neoforge-26.1" = _qObw6zwy;
+        "neoforge-26.1.1" = _qObw6zwy;
+        "neoforge-26.1.2" = _qObw6zwy;
+        "neoforge-26.2" = _sjGTMomM;
+        "neoforge-26.3" = _zu2sFXQq;
         "pkg-1.0.0" = _k4LYUbjG;
         "pkg-1.0.1" = _YsClNifc;
         "pkg-1.1.0" = _CfphOSPY;
@@ -686,7 +722,13 @@ let
         "pkg-1.3.2-fabric+26.2" = _kDQZt7zA;
         "pkg-1.3.3-neoforge+26.3" = _bgmJObtO;
         "pkg-1.3.3-fabric+26.3" = _WTXUWzuj;
-        "default" = _WTXUWzuj;
+        "pkg-1.3.4-fabric+26.1.2" = _BOReIhPz;
+        "pkg-1.3.4-neoforge+26.1.2" = _qObw6zwy;
+        "pkg-1.3.4-fabric+26.2" = _7kVR0XUR;
+        "pkg-1.3.4-neoforge+26.2" = _sjGTMomM;
+        "pkg-1.3.4-neoforge+26.3" = _zu2sFXQq;
+        "pkg-1.3.4-fabric+26.3" = _SHI4GWj9;
+        "default" = _SHI4GWj9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "palegardenfx";

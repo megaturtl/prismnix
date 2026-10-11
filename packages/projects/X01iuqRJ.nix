@@ -241,6 +241,106 @@ let
             "file" = "visualhealth-forge-1.20.1-2.0.3.jar";
             "hash" = "sha512-JGHfCCcm5l8JSna416VFapkD9N45ovQBVtbnxF8u931vp07BJ8m/jZE6ZKO3i7giLw0e+2xECYPMmb2pY9gzsA==";
         };
+        _D8PL0aBN = {
+            "id" = "D8PL0aBN";
+            "file" = "visualhealth-fabric-26.2-2.0.4.jar";
+            "hash" = "sha512-lxiJaVOSeQk49WrNj1a1b/L1g/YtldSXvplu12QzbXNK9MaKoxsO9B14IqwLC5Xm6b8Q3UL6XiBk/QjwrmhZ0g==";
+        };
+        _Cbcgi8tG = {
+            "id" = "Cbcgi8tG";
+            "file" = "visualhealth-neoforge-26.2-2.0.4.jar";
+            "hash" = "sha512-d8Hr2AjsYJmrZTAKuRShWaY277HkkOK+k7XH3E6iUvVquys+oB0NMIcQK9rcKXgpLA2GxdxhF3tDQR1RQvFKPA==";
+        };
+        _B0SP92Ri = {
+            "id" = "B0SP92Ri";
+            "file" = "visualhealth-fabric-26.3-2.0.4.jar";
+            "hash" = "sha512-fA1NKecz48ZoxyPvDVHmtxmG7nsIY/MC45KNHxKN4KpLK8LYtYjY4piob/xytm9wpN/vx9TGC3qZqYpMNpOeeg==";
+        };
+        _tIgEwRKi = {
+            "id" = "tIgEwRKi";
+            "file" = "visualhealth-fabric-1.21.1-2.0.4.jar";
+            "hash" = "sha512-h/Pvf00TjgWtfaoN/AEpA9Ntgoa9X44nnUQ0xbxZRmLC2WrG6ZrowOn8jD0lewzalPyoxkdkBx+357e/F+Pusw==";
+        };
+        _8l3aRsYb = {
+            "id" = "8l3aRsYb";
+            "file" = "visualhealth-fabric-1.21.11-2.0.4.jar";
+            "hash" = "sha512-ay2l7DETYNW5yYEZ6k7E+zRxOXlRzS0c4pvIfn27illcVGcihT/gzkYje0MMDa3KM7k9mtnJFdMCq66Q4mCA9w==";
+        };
+        _fUYWr7A9 = {
+            "id" = "fUYWr7A9";
+            "file" = "visualhealth-neoforge-1.21.11-2.0.4.jar";
+            "hash" = "sha512-eE0yQ8ZDkfPkM+iDL+1hmF4/eLSSpMVnxJEfFpoAirQDYuGPZ4d19+S91SxqsQJBBgQVD7ZZIBXmZf0VUpqTRg==";
+        };
+        _qAloGOHb = {
+            "id" = "qAloGOHb";
+            "file" = "visualhealth-neoforge-26.3-2.0.4.jar";
+            "hash" = "sha512-oH2eiv6u76gXiP+iAtnqB2L9FUpsP09MCedsz8PJbMG9oe4vQxzmucejlNfFBCoVc59WewMtcPWOjWL0GSMnUg==";
+        };
+        _rL7DXTI2 = {
+            "id" = "rL7DXTI2";
+            "file" = "visualhealth-neoforge-1.21.1-2.0.4.jar";
+            "hash" = "sha512-aapWgMw9dXzr1Ba+l0uCCehla/fNe8LoE8R5hIiyw9k4tfVnNurLsDvMK0KE8o/hbBHJuIPCSFEqReQxV9aeYw==";
+        };
+        _BI3E6s1a = {
+            "id" = "BI3E6s1a";
+            "file" = "visualhealth-fabric-26.1-2.0.4.jar";
+            "hash" = "sha512-hOlGwEdRm/05XeBD4MDeI1gUWa1SGxK7Jg90rXhuOLQM/7jXUpKGqkMHCCLiA1lhKdkSLTYJpVyVLMdHk7IRYw==";
+        };
+        _de982tvG = {
+            "id" = "de982tvG";
+            "file" = "visualhealth-neoforge-26.1-2.0.4.jar";
+            "hash" = "sha512-ST4Pyzl4y+N/MX6HZUG5wamTb2Iq93ABUGnqr0n2IHz5qOFvApCPJSzEf1b6yEk1zgn02VXNj+NXpBrdean9RQ==";
+        };
+        _Fcsdg2Vd = {
+            "id" = "Fcsdg2Vd";
+            "file" = "visualhealth-fabric-1.20.1-2.0.4.jar";
+            "hash" = "sha512-r4nSdj0rRij2PNSX+gJg4yLImY/wcxCsMHd7RB+0sLbRw8WBigTDI62tGjMueUO0+PJw+cvp8Oz5SHeEOs9jIg==";
+        };
+        _qg6ttz3q = {
+            "id" = "qg6ttz3q";
+            "file" = "visualhealth-forge-1.20.1-2.0.4.jar";
+            "hash" = "sha512-tQQKsLahht9hLaPerMdNF4mvd/y9pLkkUmYfBK0f3oxQH5rCCW78QbmM5KwDXxmBEej1A59ZaAYSL9uzpIlO6g==";
+        };
+        _KuIZvID8 = {
+            "id" = "KuIZvID8";
+            "file" = "visualhealth-fabric-1.21.11-2.0.5.jar";
+            "hash" = "sha512-Q44WKlYFME4TdOtRt71iupWR92UojdXDAg1YYdVcprfV3abBqrdw5jZgnYK4STc9KVo+/ZCh8ggSYzhzQy99Dw==";
+        };
+        _NHBLYV9J = {
+            "id" = "NHBLYV9J";
+            "file" = "visualhealth-neoforge-1.21.11-2.0.5.jar";
+            "hash" = "sha512-rOMknSF0200IYa9Rv3glZfJ+ZmtLY2715USGkfYBjm0wAEPHaduOR3avu60h4bCOMzQvCYL5UVpmSthqT6aT3w==";
+        };
+        _DG64ZZBp = {
+            "id" = "DG64ZZBp";
+            "file" = "visualhealth-fabric-26.1-2.0.5.jar";
+            "hash" = "sha512-u79hb7ZAQgRaWTXryKunIzku4C+O5I78Uu7kborqpBsUjJb72Mqq/6PVEA08zWMt/H4GgPQ03IWSjiXPFT8qUQ==";
+        };
+        _nBP8LmEu = {
+            "id" = "nBP8LmEu";
+            "file" = "visualhealth-neoforge-26.1-2.0.5.jar";
+            "hash" = "sha512-OhkKAhRHkc1UtT6sWzoWn0Z/OXnYjDMzYTz51pbvbHsmGIeiztZVEr22Sg8raoRf4hAmTM/cy/5pOznhzix8cA==";
+        };
+        _XQHwJn3b = {
+            "id" = "XQHwJn3b";
+            "file" = "visualhealth-fabric-26.3-2.0.5.jar";
+            "hash" = "sha512-54sME5Ygaujd0fvUpwTGN77AvFbYcWuIlWVJ0kpW+8z91Rdq0TP+2BvHrriTCg3O3XLoDi3jAhUXgv3NovffTQ==";
+        };
+        _WKkfcyAF = {
+            "id" = "WKkfcyAF";
+            "file" = "visualhealth-neoforge-26.3-2.0.5.jar";
+            "hash" = "sha512-/AqpYszqEWko7dgVqPfAz+C40Y+TuWgkb5Ew2oXkpmYXlha9v2AyIH07m+hvEP7ZKeiAiBTvj4iRZF/dHvUefQ==";
+        };
+        _Luj22s4d = {
+            "id" = "Luj22s4d";
+            "file" = "visualhealth-fabric-26.2-2.0.5.jar";
+            "hash" = "sha512-GyubJsq57crwLii3awFGNUXAqABE+hKfD2ET9CrxWewU+Y0DlMnbLfAbMqb0kDfQNM6dSWfTwoJdZ7dRHBWcsw==";
+        };
+        _ySb5Ty7Z = {
+            "id" = "ySb5Ty7Z";
+            "file" = "visualhealth-neoforge-26.2-2.0.5.jar";
+            "hash" = "sha512-n0WvqFdc5VI9oHqrFRcHvZLMCDEHlBvbr0a9tRvKf7mV1ww8w1oI8tJsmI+WaY1E61PjCr52Q14xnB+msDT7jA==";
+        };
     in {
         "sU020ea0" = _sU020ea0;
         "wnueaVAq" = _wnueaVAq;
@@ -290,22 +390,44 @@ let
         "GLOhFyiM" = _GLOhFyiM;
         "ERCs5Wp4" = _ERCs5Wp4;
         "uHJCRuPT" = _uHJCRuPT;
-        "fabric-1.21.11" = _oWDA7yVc;
-        "fabric-1.21.1" = _2C1GqyPH;
-        "fabric-1.20.1" = _ERCs5Wp4;
-        "fabric-26.1" = _ATokE1dp;
-        "fabric-26.1.1" = _ATokE1dp;
-        "fabric-26.1.2" = _ATokE1dp;
+        "D8PL0aBN" = _D8PL0aBN;
+        "Cbcgi8tG" = _Cbcgi8tG;
+        "B0SP92Ri" = _B0SP92Ri;
+        "tIgEwRKi" = _tIgEwRKi;
+        "8l3aRsYb" = _8l3aRsYb;
+        "fUYWr7A9" = _fUYWr7A9;
+        "qAloGOHb" = _qAloGOHb;
+        "rL7DXTI2" = _rL7DXTI2;
+        "BI3E6s1a" = _BI3E6s1a;
+        "de982tvG" = _de982tvG;
+        "Fcsdg2Vd" = _Fcsdg2Vd;
+        "qg6ttz3q" = _qg6ttz3q;
+        "KuIZvID8" = _KuIZvID8;
+        "NHBLYV9J" = _NHBLYV9J;
+        "DG64ZZBp" = _DG64ZZBp;
+        "nBP8LmEu" = _nBP8LmEu;
+        "XQHwJn3b" = _XQHwJn3b;
+        "WKkfcyAF" = _WKkfcyAF;
+        "Luj22s4d" = _Luj22s4d;
+        "ySb5Ty7Z" = _ySb5Ty7Z;
+        "fabric-1.21.11" = _KuIZvID8;
+        "fabric-1.21.1" = _tIgEwRKi;
+        "fabric-1.20.1" = _Fcsdg2Vd;
+        "fabric-26.1" = _DG64ZZBp;
+        "fabric-26.1.1" = _DG64ZZBp;
+        "fabric-26.1.2" = _DG64ZZBp;
         "fabric-1.21.10" = _hxaO233j;
-        "fabric-26.2" = _mGi1o0gP;
-        "neoforge-1.21.11" = _DNuJGv34;
-        "neoforge-1.21.1" = _e4b8Zxan;
-        "neoforge-26.1" = _zkkhVa4e;
-        "neoforge-26.1.1" = _zkkhVa4e;
-        "neoforge-26.1.2" = _zkkhVa4e;
+        "fabric-26.2" = _Luj22s4d;
+        "fabric-26.3" = _XQHwJn3b;
+        "neoforge-1.21.11" = _NHBLYV9J;
+        "neoforge-1.21.1" = _rL7DXTI2;
+        "neoforge-26.1" = _nBP8LmEu;
+        "neoforge-26.1.1" = _nBP8LmEu;
+        "neoforge-26.1.2" = _nBP8LmEu;
         "neoforge-1.21.10" = _7E5sqa6D;
-        "neoforge-26.2" = _GLOhFyiM;
-        "forge-1.20.1" = _uHJCRuPT;
+        "neoforge-26.2" = _ySb5Ty7Z;
+        "neoforge-26.3" = _WKkfcyAF;
+        "forge-1.20.1" = _qg6ttz3q;
         "pkg-1.21.11-1.0.0" = _wnueaVAq;
         "pkg-1.0.1-fabric" = _l8u84mnM;
         "pkg-1.0.1-neoforge" = _SRqKxIf8;
@@ -328,7 +450,12 @@ let
         "pkg-2.0.3-fabric" = _ERCs5Wp4;
         "pkg-2.0.3-neoforge" = _GLOhFyiM;
         "pkg-2.0.3-forge" = _uHJCRuPT;
-        "default" = _uHJCRuPT;
+        "pkg-2.0.4-fabric" = _Fcsdg2Vd;
+        "pkg-2.0.4-neoforge" = _de982tvG;
+        "pkg-2.0.4-forge" = _qg6ttz3q;
+        "pkg-2.0.5-fabric" = _Luj22s4d;
+        "pkg-2.0.5-neoforge" = _ySb5Ty7Z;
+        "default" = _ySb5Ty7Z;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "visualhealth";

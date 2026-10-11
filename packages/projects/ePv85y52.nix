@@ -401,6 +401,16 @@ let
             "file" = "EnchantingInfuser-v26.2.0-mc26.2.x-NeoForge.jar";
             "hash" = "sha512-DDeSKP+W9B7sLG/B0jXD2r4Q6mVGAq5+40+ntP8VnJ050Gr2JXst3ahunNlEwg140vVijWAL/A0/wbwEkQSTGA==";
         };
+        _gGpFJLO5 = {
+            "id" = "gGpFJLO5";
+            "file" = "enchantinginfuser-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-5o5qmKdTWKC/+LzUl4AW0fzuq+TE9TBiXm86X0NLvPLhSMjr5dZ9hfR5AOdjZsJA7kztr24iYgzTFHnsYZIQZA==";
+        };
+        _SpiyGUzJ = {
+            "id" = "SpiyGUzJ";
+            "file" = "enchantinginfuser-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-hiG/PtFs/V10Dwin+KdFvbL4PSvqIrNbKw3me886lEqcwwhFqZ+e6vs+ECwiGoWQ5bJTb8SJgYpvuLHLNGZo9A==";
+        };
     in {
         "zikU9c7J" = _zikU9c7J;
         "P7AMhPmR" = _P7AMhPmR;
@@ -482,6 +492,8 @@ let
         "678lcTJL" = _678lcTJL;
         "C0FU8WvB" = _C0FU8WvB;
         "ntwhp9xH" = _ntwhp9xH;
+        "gGpFJLO5" = _gGpFJLO5;
+        "SpiyGUzJ" = _SpiyGUzJ;
         "fabric-1.19" = _7JJF6bmG;
         "fabric-1.19.1" = _UaIVbML9;
         "fabric-1.19.2" = _UaIVbML9;
@@ -504,6 +516,7 @@ let
         "fabric-26.1.1" = _c7EhUpXk;
         "fabric-26.1.2" = _c7EhUpXk;
         "fabric-26.2" = _C0FU8WvB;
+        "fabric-26.3" = _gGpFJLO5;
         "forge-1.19" = _MIZEVu00;
         "forge-1.19.1" = _9UD54Pev;
         "forge-1.19.2" = _9UD54Pev;
@@ -527,6 +540,7 @@ let
         "neoforge-26.1.1" = _678lcTJL;
         "neoforge-26.1.2" = _678lcTJL;
         "neoforge-26.2" = _ntwhp9xH;
+        "neoforge-26.3" = _SpiyGUzJ;
         "pkg-v4.0.0-1.19-Fabric" = _zikU9c7J;
         "pkg-v4.0.0-1.19-Forge" = _P7AMhPmR;
         "pkg-v4.0.1-1.19-Forge" = _MaMuEtzZ;
@@ -599,7 +613,8 @@ let
         "pkg-21.11.3" = _Lz1ZG5G0;
         "pkg-26.1.0" = _678lcTJL;
         "pkg-26.2.0" = _ntwhp9xH;
-        "default" = _ntwhp9xH;
+        "pkg-26.3.0" = _SpiyGUzJ;
+        "default" = _SpiyGUzJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchanting-infuser";

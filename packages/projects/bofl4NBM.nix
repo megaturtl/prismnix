@@ -56,6 +56,11 @@ let
             "file" = "PlayerHealthIndicators-1.1.3-26.2.jar";
             "hash" = "sha512-aRudWnuxjpiV214Lb4rynKw/v3t/rPQ9DnVb3ALsCBMxEO3AUsZq1IL0J83G25DngUvUZgcSuSmNrGb2AhIFYg==";
         };
+        _aPRW0vVx = {
+            "id" = "aPRW0vVx";
+            "file" = "PlayerHealthIndicators-1.1.3-26.3.jar";
+            "hash" = "sha512-x62JaL9cGRV39/Du3F6gWaOPfiA/+0GpPkPck8JazqBCTCohw6KKkT7wjOmh38+QSgHTQt574RVLpnnN8KhKQQ==";
+        };
     in {
         "WWQZ6Vwq" = _WWQZ6Vwq;
         "4mYpeUUY" = _4mYpeUUY;
@@ -68,6 +73,7 @@ let
         "lhwWpfbQ" = _lhwWpfbQ;
         "FQDsl7JS" = _FQDsl7JS;
         "slzjHWL3" = _slzjHWL3;
+        "aPRW0vVx" = _aPRW0vVx;
         "fabric-1.19" = _WWQZ6Vwq;
         "fabric-1.19.1" = _WWQZ6Vwq;
         "fabric-1.19.2" = _WWQZ6Vwq;
@@ -96,6 +102,7 @@ let
         "fabric-26.1.1" = _FQDsl7JS;
         "fabric-26.1.2" = _FQDsl7JS;
         "fabric-26.2" = _slzjHWL3;
+        "fabric-26.3" = _aPRW0vVx;
         "pkg-1.1.0-1.19-1.19.2" = _WWQZ6Vwq;
         "pkg-1.1.0-1.20.x" = _4mYpeUUY;
         "pkg-1.1.0-1.19.3-1.19.4" = _KL2g2rpq;
@@ -107,7 +114,8 @@ let
         "pkg-1.1.3-1.21.11" = _lhwWpfbQ;
         "pkg-1.1.3-26.1.x" = _FQDsl7JS;
         "pkg-1.1.3-26.2" = _slzjHWL3;
-        "default" = _slzjHWL3;
+        "pkg-1.1.3-26.3" = _aPRW0vVx;
+        "default" = _aPRW0vVx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "player-health-indicators-invisible-support";

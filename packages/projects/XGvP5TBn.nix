@@ -3191,6 +3191,16 @@ let
             "file" = "GrowableOres-3.8.0-1.20.1-Fabric.jar";
             "hash" = "sha512-fOH1jG4cjiR/i5qpl2Qq4SkwUv6bCO+iX7hjn1f5tcHPYlUVpoSVzqIVw+s0DDrct0d+Dm/8G1PKQiJ7sPq7NA==";
         };
+        _4ppzmj5C = {
+            "id" = "4ppzmj5C";
+            "file" = "GrowableOres-3.8.0-26.3-Fabric.jar";
+            "hash" = "sha512-eirKk/5q19uvbA7F1H8rtwmsQZ2fzLyMd7cHxoyM4ceNFLip7DAriM4AJjNf7zQXrZwdn8xSX8yQQwkRvtGhLg==";
+        };
+        _TmzFCXCO = {
+            "id" = "TmzFCXCO";
+            "file" = "GrowableOres-3.8.0-26.3-NeoForge.jar";
+            "hash" = "sha512-q4TOrTyiE0diKj83V9kQQUXmkQ1CaxwrtknLtUQIe/l+a91NGRrNQYWtohRHaYBy6Z8gEXZHFe9gZVJNwrvWVg==";
+        };
     in {
         "d9L4wmok" = _d9L4wmok;
         "FVsMBmCY" = _FVsMBmCY;
@@ -3830,6 +3840,8 @@ let
         "dPcrNbwW" = _dPcrNbwW;
         "Kd5d6mA2" = _Kd5d6mA2;
         "fhjtIHt7" = _fhjtIHt7;
+        "4ppzmj5C" = _4ppzmj5C;
+        "TmzFCXCO" = _TmzFCXCO;
         "fabric-1.20" = _bnPfLH6W;
         "fabric-1.20.1" = _fhjtIHt7;
         "fabric-1.18.2" = _5eHmtQx3;
@@ -3874,6 +3886,7 @@ let
         "fabric-26.1.1" = _UCW1Lo0Y;
         "fabric-26.1.2" = _UCW1Lo0Y;
         "fabric-26.2" = _fuAuejNi;
+        "fabric-26.3" = _4ppzmj5C;
         "forge-1.19.4" = _NBz3b9ML;
         "forge-1.20" = _J1vAoo6t;
         "forge-1.20.1" = _Kd5d6mA2;
@@ -3934,6 +3947,7 @@ let
         "neoforge-26.1.1" = _UyHwksRR;
         "neoforge-26.1.2" = _UyHwksRR;
         "neoforge-26.2" = _eQpBHUN1;
+        "neoforge-26.3" = _TmzFCXCO;
         "pkg-1.0.0-1.20.1" = _d9L4wmok;
         "pkg-1.0.1-1.20.1" = _FVsMBmCY;
         "pkg-1.0.1-1.18.2" = _2LSZCzzg;
@@ -4561,7 +4575,9 @@ let
         "pkg-3.8.0-1.21.1-Fabric" = _dPcrNbwW;
         "pkg-3.8.0-1.20.1-Forge" = _Kd5d6mA2;
         "pkg-3.8.0-1.20.1-Fabric" = _fhjtIHt7;
-        "default" = _fhjtIHt7;
+        "pkg-3.8.0-26.3-Fabric" = _4ppzmj5C;
+        "pkg-3.8.0-26.3-NeoForge" = _TmzFCXCO;
+        "default" = _TmzFCXCO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "growableores";

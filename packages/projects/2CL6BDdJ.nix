@@ -131,6 +131,16 @@ let
             "file" = "LuminousNetherV1.3.3 0 NeoForge 1.21.1.jar";
             "hash" = "sha512-X+W/pfu6FO4pf6n5ISOrU9M87IghJ6dG+vIB0oN4NgZdcOUjLjx+y7ClFqgDkp2U/F/ObjVmlr1WKvO63I2ZkQ==";
         };
+        _jbbEPI04 = {
+            "id" = "jbbEPI04";
+            "file" = "Luminous Nether V1.3.4 - Forge 1.20.1.jar";
+            "hash" = "sha512-Jmez2rg+kJCsNydtvvxvy14xEUw8+VuYzZzuJ1HUtQRgb6CXi+B64DSbeQAvv1ClZB6OwDI0qsUK7SzMoW2Q7g==";
+        };
+        _vjpgXRBu = {
+            "id" = "vjpgXRBu";
+            "file" = "Luminous Nether V1.3.4 - NeoForge 1.21.1.jar";
+            "hash" = "sha512-b1vET4j1yp15APBSAh9bMx0RYIRqYtg/H24RtZdanXxPux8WaJhjSfjUQLHcRJLyLzq+RZLSBt9Mh7R8wO83rQ==";
+        };
     in {
         "TkMprMsp" = _TkMprMsp;
         "oztoV6uX" = _oztoV6uX;
@@ -158,9 +168,11 @@ let
         "3t8THncN" = _3t8THncN;
         "b3lN4Qrs" = _b3lN4Qrs;
         "eejd3qvZ" = _eejd3qvZ;
-        "forge-1.20.1" = _b3lN4Qrs;
+        "jbbEPI04" = _jbbEPI04;
+        "vjpgXRBu" = _vjpgXRBu;
+        "forge-1.20.1" = _jbbEPI04;
         "neoforge-1.20.4" = _4hbhFIU6;
-        "neoforge-1.21.1" = _eejd3qvZ;
+        "neoforge-1.21.1" = _vjpgXRBu;
         "pkg-1.1.2" = _oztoV6uX;
         "pkg-1.2.0" = _qkHylFCt;
         "pkg-1.2.1" = _wHy6uXhQ;
@@ -174,7 +186,8 @@ let
         "pkg-1.3.1" = _bXsvlvKF;
         "pkg-1.3.2" = _3t8THncN;
         "pkg-1.3.3" = _eejd3qvZ;
-        "default" = _eejd3qvZ;
+        "pkg-1.3.4" = _vjpgXRBu;
+        "default" = _vjpgXRBu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "luminous-nether";

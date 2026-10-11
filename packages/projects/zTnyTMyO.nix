@@ -306,6 +306,31 @@ let
             "file" = "BBBoatHud-1.24.jar";
             "hash" = "sha512-4MAWnla2zFAT+v5xQ+zQJRP2pqaCn9UHJUWtelHNX5F4kp5mzGtawIBsJe/rE0VZQrPNI9A3UhjeKkHuj+DIyQ==";
         };
+        _Jglizk7r = {
+            "id" = "Jglizk7r";
+            "file" = "BBBoatHud-1.25.jar";
+            "hash" = "sha512-ZPRoZLrWNw3a1PEvfBfzGFnVS+JfbHyqIgtTU0gUX/2zIuXLgg6+LFLgx6yyL5e/gkJJKBZXnkPRevF12LLe5w==";
+        };
+        _qHABhvt8 = {
+            "id" = "qHABhvt8";
+            "file" = "BBBoatHud-1.25.jar";
+            "hash" = "sha512-pGdxNl5O0WfqpM/Io/sLCoGf9BIaTICVppJNpHvYjD3NFR3qZemXLfb6vxY8QAZIxkA9I7NDtQlmQIpx8azWhw==";
+        };
+        _JFwNy7fs = {
+            "id" = "JFwNy7fs";
+            "file" = "BBBoatHud-1.25.jar";
+            "hash" = "sha512-ZmLMIicqzpzMFjDkKxe2wxVHNZmh1+7FYYOed3H6I7umI5rmzAIZ7+K7fqa32XqQaazA9Y9wUGmb3cPs84xw7A==";
+        };
+        _hrnZZVzF = {
+            "id" = "hrnZZVzF";
+            "file" = "BBBoatHud-1.25.jar";
+            "hash" = "sha512-hckXF8ZCUAuqx99XMrxTIwUfX2f/7jruGQMx72UMTgFa7zVlUZHH9qqrYWL3R0KHvgoyUhSgcIyhjLZl+yVu8A==";
+        };
+        _NbYruDT0 = {
+            "id" = "NbYruDT0";
+            "file" = "BBBoatHud-1.25.jar";
+            "hash" = "sha512-tMDImf/Bd+urRpRkg3uSeC50AW79/+qXOtuDKXe4jZ3qRis5/6SUQwaRloHSqMSlGECe8CJI9rZ1v2XHibF6yA==";
+        };
     in {
         "TlGCpliB" = _TlGCpliB;
         "foWCa27J" = _foWCa27J;
@@ -368,11 +393,16 @@ let
         "eYWGl0cF" = _eYWGl0cF;
         "Nzu85n0Z" = _Nzu85n0Z;
         "9Z7gXdNi" = _9Z7gXdNi;
-        "fabric-1.21.1" = _MqoOVQ0w;
-        "fabric-1.21.4" = _wOnZVeW9;
-        "fabric-1.21.8" = _eYWGl0cF;
-        "fabric-1.21.10" = _Nzu85n0Z;
-        "fabric-1.21.11" = _9Z7gXdNi;
+        "Jglizk7r" = _Jglizk7r;
+        "qHABhvt8" = _qHABhvt8;
+        "JFwNy7fs" = _JFwNy7fs;
+        "hrnZZVzF" = _hrnZZVzF;
+        "NbYruDT0" = _NbYruDT0;
+        "fabric-1.21.1" = _Jglizk7r;
+        "fabric-1.21.4" = _qHABhvt8;
+        "fabric-1.21.8" = _JFwNy7fs;
+        "fabric-1.21.10" = _hrnZZVzF;
+        "fabric-1.21.11" = _NbYruDT0;
         "pkg-1.21.1" = _PpJWTurO;
         "pkg-1.21.4" = _KScvmK3R;
         "pkg-1.7" = _1VXvHOWU;
@@ -397,7 +427,12 @@ let
         "pkg-1.24+1.21.8" = _eYWGl0cF;
         "pkg-1.24+1.21.10" = _Nzu85n0Z;
         "pkg-1.24+1.21.11" = _9Z7gXdNi;
-        "default" = _9Z7gXdNi;
+        "pkg-1.25+1.21.1" = _Jglizk7r;
+        "pkg-1.25+1.21.4" = _qHABhvt8;
+        "pkg-1.25+1.21.8" = _JFwNy7fs;
+        "pkg-1.25+1.21.10" = _hrnZZVzF;
+        "pkg-1.25+1.21.11" = _NbYruDT0;
+        "default" = _NbYruDT0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bb_boat_hud";

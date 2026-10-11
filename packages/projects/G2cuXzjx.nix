@@ -151,6 +151,11 @@ let
             "file" = "sculktransporting-26.2-1.2.4.jar";
             "hash" = "sha512-/to/O7pfMTk5wmEOArqbmYPBj6dIDnJzELMbEOGu9r99UnwQoXeEvDUEmXFbnkGHFTDydl5ePrGd01g73pHPjw==";
         };
+        _QyTBTOnu = {
+            "id" = "QyTBTOnu";
+            "file" = "sculktransporting-26.3-1.2.4.jar";
+            "hash" = "sha512-KYIHW9g7TugFY+l4ypZJBRqm6+yN5BXdfNuhiO4FfvydxlqhtGHxtY/giIhGi0AsfvgiCUDcVTk8rVpBjXX57g==";
+        };
     in {
         "o3Op6NNM" = _o3Op6NNM;
         "CD15OQ8W" = _CD15OQ8W;
@@ -182,6 +187,7 @@ let
         "z9N3p7jQ" = _z9N3p7jQ;
         "2Ca80ys5" = _2Ca80ys5;
         "jSgN6hxb" = _jSgN6hxb;
+        "QyTBTOnu" = _QyTBTOnu;
         "forge-1.19" = _2ZKsxf4P;
         "forge-1.19.1" = _2ZKsxf4P;
         "forge-1.19.2" = _2ZKsxf4P;
@@ -209,6 +215,7 @@ let
         "neoforge-26.1.1" = _2Ca80ys5;
         "neoforge-26.1.2" = _2Ca80ys5;
         "neoforge-26.2" = _jSgN6hxb;
+        "neoforge-26.3" = _QyTBTOnu;
         "pkg-v1.0" = _CD15OQ8W;
         "pkg-v1.1" = _2ZKsxf4P;
         "pkg-v1.1.1" = _DK7A2NfI;
@@ -219,8 +226,8 @@ let
         "pkg-v1.2.1" = _8vrgyPci;
         "pkg-v1.2.2" = _OxLUQJ1N;
         "pkg-v1.2.3" = _v4UEsCWb;
-        "pkg-v1.2.4" = _jSgN6hxb;
-        "default" = _jSgN6hxb;
+        "pkg-v1.2.4" = _QyTBTOnu;
+        "default" = _QyTBTOnu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sculk-transporting";

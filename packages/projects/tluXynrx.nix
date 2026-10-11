@@ -131,6 +131,16 @@ let
             "file" = "portal-linking-compass-fabric-1.0.3+mc26.1.2.jar";
             "hash" = "sha512-pIDBRlQUQlpc40+CytKjE1vzSFLLVKOjN4djHXhwMEUC2BKxXst3L/JxLYlMXvqfWVBpoi28JFclNknZQf29qQ==";
         };
+        _XuteUuGz = {
+            "id" = "XuteUuGz";
+            "file" = "portal-linking-compass-forge-1.0.3+mc26.3.jar";
+            "hash" = "sha512-Bq1TYw3+6ZGxZhCrq2BJJSMxN81o8h+gXzmPoOtPdap0GtwPZrYjKC34ueRU5B7fh5lJL4Y7am8R/nIxVn+qQw==";
+        };
+        _xPr5y3zy = {
+            "id" = "xPr5y3zy";
+            "file" = "portal-linking-compass-fabric-1.0.3+mc26.3.jar";
+            "hash" = "sha512-Tv9gEmy9vSfRSqNkPYBZX9vdVOZJ+rS0GvzNhXsDeI63wq+vOiix67tGstTu+n8ePzwyU8Po1u+bq5Um03RFkw==";
+        };
     in {
         "DJmT74Ez" = _DJmT74Ez;
         "39PCpn65" = _39PCpn65;
@@ -158,6 +168,8 @@ let
         "DyF0xImL" = _DyF0xImL;
         "jyFv1kMj" = _jyFv1kMj;
         "Vn5DJ5Jl" = _Vn5DJ5Jl;
+        "XuteUuGz" = _XuteUuGz;
+        "xPr5y3zy" = _xPr5y3zy;
         "fabric-1.19.4" = _pIUu0OBs;
         "fabric-1.20" = _mTlqWsNF;
         "fabric-1.20.1" = _mTlqWsNF;
@@ -172,6 +184,7 @@ let
         "fabric-1.21.11" = _DyF0xImL;
         "fabric-26.1.2" = _Vn5DJ5Jl;
         "fabric-26.2" = _Vn5DJ5Jl;
+        "fabric-26.3" = _xPr5y3zy;
         "quilt-1.19.4" = _pIUu0OBs;
         "quilt-1.20" = _mTlqWsNF;
         "quilt-1.20.1" = _mTlqWsNF;
@@ -186,6 +199,7 @@ let
         "quilt-1.21.11" = _DyF0xImL;
         "quilt-26.1.2" = _Vn5DJ5Jl;
         "quilt-26.2" = _Vn5DJ5Jl;
+        "quilt-26.3" = _xPr5y3zy;
         "forge-1.19.4" = _GNJE1QC2;
         "forge-1.20" = _WFmt5mkS;
         "forge-1.20.1" = _WFmt5mkS;
@@ -199,6 +213,7 @@ let
         "forge-1.21.11" = _NeA6ruVm;
         "forge-26.1.2" = _jyFv1kMj;
         "forge-26.2" = _jyFv1kMj;
+        "forge-26.3" = _XuteUuGz;
         "pkg-1.0.0-alpha.1" = _DJmT74Ez;
         "pkg-1.0.0-beta.1" = _39PCpn65;
         "pkg-1.0.0-beta.1+mc1.20" = _JNW5a4Bb;
@@ -215,7 +230,8 @@ let
         "pkg-1.0.3+mc1.21.10" = _A3EuXFU8;
         "pkg-1.0.3+mc1.21.11" = _DyF0xImL;
         "pkg-1.0.3+mc26.1.2" = _Vn5DJ5Jl;
-        "default" = _Vn5DJ5Jl;
+        "pkg-1.0.3+mc26.3" = _xPr5y3zy;
+        "default" = _xPr5y3zy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "portal-linking-compass";

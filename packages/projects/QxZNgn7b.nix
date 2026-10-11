@@ -66,6 +66,11 @@ let
             "file" = "fnaf_universe_fanverse - AUTUMN 2026.jar";
             "hash" = "sha512-baIck7VWG833xzSorr0/a1xp1sMS2i/EU5X2++vWoupoRjSjh9wYwopU7k/8BCF9b35no71uQ69jpfjpskEHjw==";
         };
+        _8JPYqKpi = {
+            "id" = "8JPYqKpi";
+            "file" = "fnaf_universe_fanverse - HALLOWEEN FIX.jar";
+            "hash" = "sha512-eCTk+s352XSyjD4INTKrLKC/zBjIS82hpuw+f8blTOk+sww7dLZ5rArMuw7cx+2VC49ftLRNphwuwdcueifH4A==";
+        };
     in {
         "XjOqPWma" = _XjOqPWma;
         "eUBCi8LE" = _eUBCi8LE;
@@ -80,12 +85,13 @@ let
         "6cSC1PGs" = _6cSC1PGs;
         "o0MdarfV" = _o0MdarfV;
         "jxk31gyW" = _jxk31gyW;
+        "8JPYqKpi" = _8JPYqKpi;
         "forge-1.18.2" = _HVcqZeBA;
         "forge-1.19.2" = _6cSC1PGs;
         "forge-1.19.4" = _DpUJChi1;
-        "forge-1.20.1" = _jxk31gyW;
-        "pkg-1.0.0" = _jxk31gyW;
-        "default" = _jxk31gyW;
+        "forge-1.20.1" = _8JPYqKpi;
+        "pkg-1.0.0" = _8JPYqKpi;
+        "default" = _8JPYqKpi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fnafs-universe-fanverse";

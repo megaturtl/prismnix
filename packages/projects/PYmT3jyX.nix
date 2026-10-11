@@ -61,6 +61,11 @@ let
             "file" = "chesscraft-0.5.5-all.jar";
             "hash" = "sha512-KR5Aa6fhNuqTO9kBYmtzbCqtpL1BTPoF75hekeShvQZGwt05Ev6sFqKVOlth+cI6ZJa7TzRBbWRh/PV6iqrXdg==";
         };
+        _TiBrwLcl = {
+            "id" = "TiBrwLcl";
+            "file" = "chesscraft-0.5.6-all.jar";
+            "hash" = "sha512-nhvIEoWeF2SicO1pDkhzOYjnsGUiT7RK+3yqP2IWemvPMx1hBj7AAQD5lAPP7Xi9trPXzfx8/vlNyDfceZ4Omg==";
+        };
     in {
         "90S2F8tP" = _90S2F8tP;
         "fch0GQju" = _fch0GQju;
@@ -74,22 +79,24 @@ let
         "xvpbkfbF" = _xvpbkfbF;
         "4yidflA2" = _4yidflA2;
         "WOtPSe4k" = _WOtPSe4k;
+        "TiBrwLcl" = _TiBrwLcl;
         "paper-1.19.3" = _fch0GQju;
         "paper-1.19.4" = _pJXMGIgB;
         "paper-1.20.1" = _3QhqT1ke;
         "paper-1.20.2" = _pJXMGIgB;
-        "paper-1.21.4" = _WOtPSe4k;
-        "paper-1.21.5" = _WOtPSe4k;
-        "paper-1.21.6" = _WOtPSe4k;
-        "paper-1.21.7" = _WOtPSe4k;
-        "paper-1.21.8" = _WOtPSe4k;
-        "paper-1.21.9" = _WOtPSe4k;
-        "paper-1.21.10" = _WOtPSe4k;
-        "paper-1.21.11" = _WOtPSe4k;
-        "paper-26.1" = _WOtPSe4k;
-        "paper-26.1.1" = _WOtPSe4k;
-        "paper-26.1.2" = _WOtPSe4k;
-        "paper-26.2" = _WOtPSe4k;
+        "paper-1.21.4" = _TiBrwLcl;
+        "paper-1.21.5" = _TiBrwLcl;
+        "paper-1.21.6" = _TiBrwLcl;
+        "paper-1.21.7" = _TiBrwLcl;
+        "paper-1.21.8" = _TiBrwLcl;
+        "paper-1.21.9" = _TiBrwLcl;
+        "paper-1.21.10" = _TiBrwLcl;
+        "paper-1.21.11" = _TiBrwLcl;
+        "paper-26.1" = _TiBrwLcl;
+        "paper-26.1.1" = _TiBrwLcl;
+        "paper-26.1.2" = _TiBrwLcl;
+        "paper-26.2" = _TiBrwLcl;
+        "paper-26.3" = _TiBrwLcl;
         "pkg-0.1.0" = _90S2F8tP;
         "pkg-0.2.0" = _fch0GQju;
         "pkg-0.3.0" = _3VNlD2DA;
@@ -102,7 +109,8 @@ let
         "pkg-0.5.3" = _xvpbkfbF;
         "pkg-0.5.4" = _4yidflA2;
         "pkg-0.5.5" = _WOtPSe4k;
-        "default" = _WOtPSe4k;
+        "pkg-0.5.6" = _TiBrwLcl;
+        "default" = _TiBrwLcl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chesscraft";

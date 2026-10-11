@@ -56,6 +56,21 @@ let
             "file" = "FancyEconomy-1.0.3+10.jar";
             "hash" = "sha512-+cQ0J3k04/JRcrDNqzR7DmHr9g3PfxKmkFIje/AZJD2R74Tgi2gi/pX7ic8QbBBXfU8279PJwQV2i5b3W/gPxQ==";
         };
+        _hBQ0HRlX = {
+            "id" = "hBQ0HRlX";
+            "file" = "FancyEconomy-1.0.3+11.jar";
+            "hash" = "sha512-qq2//JfC3JsOMMovNjN08rMlN038FGcVuAOCoKB/rJIkgmVe8Ku1lULMGModwuQ0LW/R280lDL1XTP8dVJ5S4Q==";
+        };
+        _Vz6IFB4O = {
+            "id" = "Vz6IFB4O";
+            "file" = "FancyEconomy-1.0.3+12.jar";
+            "hash" = "sha512-hrXu7eyQVxt807enyFMrWqgBN+YnKcvb6wLAVWAkkyaxJwOZGq6yLvhOGpM6RIxLin3WWltCq38jLhMM+hV3qA==";
+        };
+        _W0YmfFQr = {
+            "id" = "W0YmfFQr";
+            "file" = "FancyEconomy-1.0.3+13.jar";
+            "hash" = "sha512-y8pNl6aH3Z/Cy1u1EJwet/Z8kkST0dCq6YmQ7fPgn00YlWA2GiLZxtxBJsAxG8CI8fZHVo0gJRhqEMkK5M9uNg==";
+        };
     in {
         "YhkveRpz" = _YhkveRpz;
         "waP041rM" = _waP041rM;
@@ -68,16 +83,21 @@ let
         "dIdzPk9l" = _dIdzPk9l;
         "UgMzhUhh" = _UgMzhUhh;
         "bZrEebNz" = _bZrEebNz;
+        "hBQ0HRlX" = _hBQ0HRlX;
+        "Vz6IFB4O" = _Vz6IFB4O;
+        "W0YmfFQr" = _W0YmfFQr;
         "paper-1.19.4" = _YhkveRpz;
         "paper-1.20" = _waP041rM;
         "paper-1.20.1" = _gtryAvBc;
         "paper-1.21.11" = _19zWjZHZ;
         "paper-26.1.2" = _dIdzPk9l;
         "paper-26.2" = _bZrEebNz;
+        "paper-26.3" = _W0YmfFQr;
         "folia-1.20.1" = _gtryAvBc;
         "folia-1.21.11" = _19zWjZHZ;
         "folia-26.1.2" = _dIdzPk9l;
         "folia-26.2" = _bZrEebNz;
+        "folia-26.3" = _W0YmfFQr;
         "pkg-1.0.0" = _YhkveRpz;
         "pkg-1.0.1" = _waP041rM;
         "pkg-1.0.2" = _bziIw7rp;
@@ -89,7 +109,10 @@ let
         "pkg-1.0.3+8" = _dIdzPk9l;
         "pkg-1.0.3+9" = _UgMzhUhh;
         "pkg-1.0.3+10" = _bZrEebNz;
-        "default" = _bZrEebNz;
+        "pkg-1.0.3+11" = _hBQ0HRlX;
+        "pkg-1.0.3+12" = _Vz6IFB4O;
+        "pkg-1.0.3+13" = _W0YmfFQr;
+        "default" = _W0YmfFQr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fancyeconomy";

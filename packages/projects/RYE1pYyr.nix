@@ -171,6 +171,16 @@ let
             "file" = "ae2omnicells-26.1.2-neoforge-1.1.7.jar";
             "hash" = "sha512-6Wcsb6KF5XwPyzujJvkwp+sw3fEb6RSUojFJB2bqtDGLHmFBKn4rythhNii1WozfG3CbRimlBrD/ZDb+qiSgog==";
         };
+        _5jFJSonu = {
+            "id" = "5jFJSonu";
+            "file" = "ae2omnicells-26.2-neoforge-1.1.7.jar";
+            "hash" = "sha512-PPv7MK/VcCjIchbMBmdMGZJ0qB8AHgdTBCPQ5LIMAiZiU54teDI1bl0Q3/7mWqvYLj/MPvj2klfNjtxu0e2nEw==";
+        };
+        _m9e4yY53 = {
+            "id" = "m9e4yY53";
+            "file" = "ae2omnicells-26.3-neoforge-1.1.7.jar";
+            "hash" = "sha512-Jv3jvSGv8IUCoURGXc69eEHKpHYerG8cxbD+Y+GVnQG8QGnIHOzyoAbJGJlYU7yT+eUbYiXyW8JtBT4oNwHFwA==";
+        };
     in {
         "3Jfy2iqj" = _3Jfy2iqj;
         "fNkpvkh2" = _fNkpvkh2;
@@ -206,9 +216,13 @@ let
         "lRNPwovQ" = _lRNPwovQ;
         "c2s3iMw8" = _c2s3iMw8;
         "wv0rLPsF" = _wv0rLPsF;
+        "5jFJSonu" = _5jFJSonu;
+        "m9e4yY53" = _m9e4yY53;
         "neoforge-1.21.1" = _k444ySGT;
         "neoforge-1.20.1" = _L7UNHCIl;
         "neoforge-26.1.2" = _wv0rLPsF;
+        "neoforge-26.2" = _5jFJSonu;
+        "neoforge-26.3" = _m9e4yY53;
         "forge-1.20.1" = _c2s3iMw8;
         "pkg-1.0.0" = _fNkpvkh2;
         "pkg-1.0.2" = _vWc7m2Pw;
@@ -236,7 +250,9 @@ let
         "pkg-1.1.6-26.1.2-neoforge" = _lRNPwovQ;
         "pkg-1.1.6-1.20.1-forge" = _c2s3iMw8;
         "pkg-1.1.7-26.1.2-neoforge" = _wv0rLPsF;
-        "default" = _wv0rLPsF;
+        "pkg-1.1.7-26.2-neoforge" = _5jFJSonu;
+        "pkg-1.1.7-26.3-neoforge" = _m9e4yY53;
+        "default" = _m9e4yY53;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ae2-omni-cells";

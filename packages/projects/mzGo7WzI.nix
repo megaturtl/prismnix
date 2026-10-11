@@ -26,19 +26,35 @@ let
             "file" = "customshieldsound-fabric-1.21.11.jar";
             "hash" = "sha512-TcMcb6IJXqP/8I7AHBi0whCGieAj/SVgBW0n6kMuYTOSbCRzPkm1J68ayM8ZgR8GsrE9yMn2NfWkj7sMKsfCEw==";
         };
+        _J6j4Im9Y = {
+            "id" = "J6j4Im9Y";
+            "file" = "customshieldsound-fabric-26.2.jar";
+            "hash" = "sha512-08ES4ScCIp6D0+b8q9/AN5YOTvDiv2Xkq4ZfsrugFkYH3Qk+mGHVwCyICR181fTaQVIt3+Q6McRk8B8if6cZ0g==";
+        };
+        _tfeVFefr = {
+            "id" = "tfeVFefr";
+            "file" = "customshieldsound-fabric-26.1.2.jar";
+            "hash" = "sha512-u/LIFjfoSRpE4xcn5IA0+85w0+ZRmz8XXtl0D5522YsmDTwY7zVBXNO33BhNEQuNNBWs1+akhTDzru1fXITyUA==";
+        };
     in {
         "gAZ9jCCK" = _gAZ9jCCK;
         "pcRMgSja" = _pcRMgSja;
         "BGZ1baqz" = _BGZ1baqz;
         "H28mdSVW" = _H28mdSVW;
         "17Fsftpw" = _17Fsftpw;
+        "J6j4Im9Y" = _J6j4Im9Y;
+        "tfeVFefr" = _tfeVFefr;
         "fabric-1.21.4" = _gAZ9jCCK;
         "fabric-1.21.5" = _pcRMgSja;
         "fabric-1.21.1" = _BGZ1baqz;
         "fabric-1.21.11" = _17Fsftpw;
+        "fabric-26.2" = _J6j4Im9Y;
+        "fabric-26.1.2" = _tfeVFefr;
         "pkg-1.0.0" = _H28mdSVW;
         "pkg-1.0.1" = _17Fsftpw;
-        "default" = _17Fsftpw;
+        "pkg-1.1.1+26.2" = _J6j4Im9Y;
+        "pkg-1.1.1+26.1.2" = _tfeVFefr;
+        "default" = _tfeVFefr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "custom-shield-break-sound";

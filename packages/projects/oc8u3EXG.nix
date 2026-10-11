@@ -126,6 +126,11 @@ let
             "file" = "Crossbow-Enchants-1.4.0+26.1-26.2.jar";
             "hash" = "sha512-qBH3EpnIi5z0sg/0IMPwVRqPFPYEqm7uwIEx+i3Y6jlFUQeA+pADbIkryZpa365xzaEzx7htiFCX2gQtxx2sxQ==";
         };
+        _OVqQOrmD = {
+            "id" = "OVqQOrmD";
+            "file" = "Crossbow-Enchants-1.4.0+26.1-26.3.jar";
+            "hash" = "sha512-luN2Lb34bcW6LZLi2JTCLBOXJSKlhrf0Am3R5nCqyufEoChzzJGCBDhE0W4JEzMnEvqE5QoWM4ma3YvaphohbA==";
+        };
     in {
         "MksVwzsq" = _MksVwzsq;
         "cwqwnNto" = _cwqwnNto;
@@ -152,6 +157,7 @@ let
         "bBYEC0qZ" = _bBYEC0qZ;
         "KBO1YYgU" = _KBO1YYgU;
         "si4k0bB6" = _si4k0bB6;
+        "OVqQOrmD" = _OVqQOrmD;
         "fabric-1.20.4" = _P3mXGV1V;
         "fabric-1.20.5" = _NqApPUWD;
         "fabric-1.20.6" = _NqApPUWD;
@@ -171,10 +177,11 @@ let
         "fabric-1.21.9" = _Y3lqBcVd;
         "fabric-1.21.10" = _Y3lqBcVd;
         "fabric-1.21.11" = _KpzzGoS6;
-        "fabric-26.1" = _si4k0bB6;
-        "fabric-26.1.1" = _si4k0bB6;
-        "fabric-26.1.2" = _si4k0bB6;
-        "fabric-26.2" = _si4k0bB6;
+        "fabric-26.1" = _OVqQOrmD;
+        "fabric-26.1.1" = _OVqQOrmD;
+        "fabric-26.1.2" = _OVqQOrmD;
+        "fabric-26.2" = _OVqQOrmD;
+        "fabric-26.3" = _OVqQOrmD;
         "quilt-1.20.4" = _P3mXGV1V;
         "quilt-1.20.5" = _NqApPUWD;
         "quilt-1.20.6" = _NqApPUWD;
@@ -194,10 +201,11 @@ let
         "quilt-1.21.9" = _Y3lqBcVd;
         "quilt-1.21.10" = _Y3lqBcVd;
         "quilt-1.21.11" = _KpzzGoS6;
-        "quilt-26.1" = _si4k0bB6;
-        "quilt-26.1.1" = _si4k0bB6;
-        "quilt-26.1.2" = _si4k0bB6;
-        "quilt-26.2" = _si4k0bB6;
+        "quilt-26.1" = _OVqQOrmD;
+        "quilt-26.1.1" = _OVqQOrmD;
+        "quilt-26.1.2" = _OVqQOrmD;
+        "quilt-26.2" = _OVqQOrmD;
+        "quilt-26.3" = _OVqQOrmD;
         "pkg-1.0.0+1.20.4" = _MksVwzsq;
         "pkg-1.0.1+1.20.4" = _cwqwnNto;
         "pkg-1.1.1+1.20.5" = _PAvieNfM;
@@ -223,7 +231,8 @@ let
         "pkg-1.4.0+26.1-26.1.1" = _bBYEC0qZ;
         "pkg-1.4.0+26.1-26.1.2" = _KBO1YYgU;
         "pkg-1.4.0+26.1-26.2" = _si4k0bB6;
-        "default" = _si4k0bB6;
+        "pkg-1.4.0+26.1-26.3" = _OVqQOrmD;
+        "default" = _OVqQOrmD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crossbow-enchants";

@@ -116,6 +116,21 @@ let
             "file" = "Trashed-26.1.1-13.0.0.jar";
             "hash" = "sha512-mdPydWqjNkbKyN4oG9IioHDUS4trPbqDZ56QezBDCWMIq6x38zKyOQGSoGJ+U9aqn4TVTJ9F+AHM7wo8mkVIUQ==";
         };
+        _l4ebCzn0 = {
+            "id" = "l4ebCzn0";
+            "file" = "Trashed-26.2-15.0.0.jar";
+            "hash" = "sha512-aNuzk+D1yFOLw+ocYRt05RqHW1ABCB1UGYuZvaRCoJdGtQzTttLKfxmfT9EcXucOabymu8LVin8fxpRkOwGE2g==";
+        };
+        _gWOTn5sV = {
+            "id" = "gWOTn5sV";
+            "file" = "Trashed-26.1.2-13.0.1.jar";
+            "hash" = "sha512-eUVn8cfs4KozsU9kiAO4fDB4njzTPqvbJK65MdOvZ74hDELeqAfcjBuU8huLUM8r3iEIZ8idKy+8uuCT6FILJw==";
+        };
+        _tQrkChau = {
+            "id" = "tQrkChau";
+            "file" = "Trashed-26.3-16.0.0.jar";
+            "hash" = "sha512-4OxIPYWy0wQHVufA44fOavL0CgRXC3Vdt5Ju0bj2/Ky6VFVhKpN0JI0LArMJp6HVDGozkvDUElo7LdSUMiZiLw==";
+        };
     in {
         "RKiWHFv5" = _RKiWHFv5;
         "jjQti5gA" = _jjQti5gA;
@@ -140,6 +155,9 @@ let
         "7UpNgz1E" = _7UpNgz1E;
         "Jk0K4Mrk" = _Jk0K4Mrk;
         "EIG3awiN" = _EIG3awiN;
+        "l4ebCzn0" = _l4ebCzn0;
+        "gWOTn5sV" = _gWOTn5sV;
+        "tQrkChau" = _tQrkChau;
         "forge-1.18.1" = _RKiWHFv5;
         "forge-1.18.2" = _RKiWHFv5;
         "forge-1.16.5" = _jjQti5gA;
@@ -160,6 +178,9 @@ let
         "neoforge-1.21.8" = _7UpNgz1E;
         "neoforge-1.21.10" = _Jk0K4Mrk;
         "neoforge-26.1.1" = _EIG3awiN;
+        "neoforge-26.2" = _l4ebCzn0;
+        "neoforge-26.1.2" = _gWOTn5sV;
+        "neoforge-26.3" = _tQrkChau;
         "pkg-1.1.7" = _GrveRi30;
         "pkg-1.1.6.1" = _jjQti5gA;
         "pkg-1.1.6.2" = _J9Pc9iMc;
@@ -180,7 +201,10 @@ let
         "pkg-10.0.0" = _7UpNgz1E;
         "pkg-11.0.0" = _Jk0K4Mrk;
         "pkg-13.0.0" = _EIG3awiN;
-        "default" = _EIG3awiN;
+        "pkg-15.0.0" = _l4ebCzn0;
+        "pkg-13.0.1" = _gWOTn5sV;
+        "pkg-16.0.0" = _tQrkChau;
+        "default" = _tQrkChau;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trashed";

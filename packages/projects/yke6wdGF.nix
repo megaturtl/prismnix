@@ -366,6 +366,11 @@ let
             "file" = "tweakerge-0.5.0+mc26.1.2.jar";
             "hash" = "sha512-j+tFdx6EZbdo4Tmxj3zH/LvpH1EbHaOfNo7YT5tRP4SNYf6wMCNpWzKbvfHRM4YeZy0nAB+Z5vgg73F5r/K9gQ==";
         };
+        _AUrvQo3i = {
+            "id" = "AUrvQo3i";
+            "file" = "tweakerge-0.5.0+mc26.2-sources.jar";
+            "hash" = "sha512-v4YVO4TD7iWBUSq1jms2wmHDD3VigO3UbCmqx7Blp7ZqtQzcQbLQ73eSsE2CiOaW1NRGHMj2dkygvOy76fWL9A==";
+        };
     in {
         "lLhxTFVo" = _lLhxTFVo;
         "vd1yS983" = _vd1yS983;
@@ -440,6 +445,7 @@ let
         "jqjV1M7j" = _jqjV1M7j;
         "701i2Xre" = _701i2Xre;
         "6c6JSTz9" = _6c6JSTz9;
+        "AUrvQo3i" = _AUrvQo3i;
         "forge-1.16.5" = _37qttlay;
         "forge-1.17" = _vd1yS983;
         "forge-1.17.1" = _vd1yS983;
@@ -475,6 +481,7 @@ let
         "neoforge-26.1" = _6c6JSTz9;
         "neoforge-26.1.1" = _6c6JSTz9;
         "neoforge-26.1.2" = _6c6JSTz9;
+        "neoforge-26.2" = _AUrvQo3i;
         "pkg-0.1.3-mc1.16.5" = _lLhxTFVo;
         "pkg-0.1.1-mc1.17.1" = _vd1yS983;
         "pkg-0.1.1-mc1.18.2" = _A2PjX6qM;
@@ -548,7 +555,8 @@ let
         "pkg-0.4.2+mc1.21.1" = _jqjV1M7j;
         "pkg-0.4.3+mc1.21.1" = _701i2Xre;
         "pkg-0.5.0+mc26.1.2" = _6c6JSTz9;
-        "default" = _6c6JSTz9;
+        "pkg-0.5.0+mc26.2" = _AUrvQo3i;
+        "default" = _AUrvQo3i;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tweakerge";

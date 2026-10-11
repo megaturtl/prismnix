@@ -191,6 +191,11 @@ let
             "file" = "Glowing Flash PvP Pack[2.1][26.2].zip";
             "hash" = "sha512-5c7rXdGztrY2L8o4+MLLqc0Jos6NrAd/Or0usKetEeAZ4g+i3cibXVglB2tl3XtA/Q8LjJZyJsM9S+ngeydWPw==";
         };
+        _eMCaz5zb = {
+            "id" = "eMCaz5zb";
+            "file" = "Glowing Flash PvP Pack[2.1][26.3].zip";
+            "hash" = "sha512-58UwgJuxnxObfHraMzS45NLZAIvZK7buOw7BjrnQIgrUIazex4euJlPFH1ur5QYWw86yWKw6eYZvLc6i8GDtwg==";
+        };
     in {
         "tM2Kzy4s" = _tM2Kzy4s;
         "KsSuPo3t" = _KsSuPo3t;
@@ -230,6 +235,7 @@ let
         "UCVdiwZP" = _UCVdiwZP;
         "SXsXG46q" = _SXsXG46q;
         "OoJJV1uz" = _OoJJV1uz;
+        "eMCaz5zb" = _eMCaz5zb;
         "minecraft-1.16" = _MwT9HJI4;
         "minecraft-1.16.1" = _MwT9HJI4;
         "minecraft-1.16.2" = _MwT9HJI4;
@@ -269,6 +275,9 @@ let
         "minecraft-26.1.1" = _SXsXG46q;
         "minecraft-26.1.2" = _SXsXG46q;
         "minecraft-26.2" = _OoJJV1uz;
+        "minecraft-26.3" = _eMCaz5zb;
+        "minecraft-26.4-snapshot-1" = _eMCaz5zb;
+        "minecraft-26.4-snapshot-2" = _eMCaz5zb;
         "pkg-1.16" = _tM2Kzy4s;
         "pkg-1.17" = _KsSuPo3t;
         "pkg-1.18" = _2KdZCl5h;
@@ -283,8 +292,8 @@ let
         "pkg-2" = _gv6L8gio;
         "pkg-1.21.6" = _PSQOSihJ;
         "pkg-2.0" = _eWAHNTLf;
-        "pkg-2.1" = _OoJJV1uz;
-        "default" = _OoJJV1uz;
+        "pkg-2.1" = _eMCaz5zb;
+        "default" = _eMCaz5zb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "glowing-flash-pvp-pack";

@@ -111,6 +111,16 @@ let
             "file" = "Enchantment Glows v1.11.1.zip";
             "hash" = "sha512-FKDtv0BiCnwQD+LycqL0q+CSOFUIE63g0lERUjdRn6e1dq0UhPg1erryXTIvX3+z3DORV/rUlefxXF/MovNcKQ==";
         };
+        _y28318y6 = {
+            "id" = "y28318y6";
+            "file" = "Enchantment Glows v1.12.zip";
+            "hash" = "sha512-m6OLHK11xizX0EHInufNAIDi0x9Ik7GBMXpPSp96ek0FlvQuhhCjSfMrywMmDrOzt2r1RaHt3YTjET9hwxWwKg==";
+        };
+        _uaBnfTpO = {
+            "id" = "uaBnfTpO";
+            "file" = "Enchantment Glows v1.12.1.zip";
+            "hash" = "sha512-YjLGot+ac67L0HMrYbw9jUGGtRDSc2Etmr7wIfiVu3Z6Nm2vN7DW9/KVjxDDJiCEcnWBpVD55YhtwOvXwrl7iQ==";
+        };
     in {
         "R9sKoTdw" = _R9sKoTdw;
         "LI5K9vpY" = _LI5K9vpY;
@@ -134,8 +144,10 @@ let
         "LTwrREJx" = _LTwrREJx;
         "Q2Wjh5aD" = _Q2Wjh5aD;
         "cb08IgBR" = _cb08IgBR;
-        "minecraft-1.21.4" = _cb08IgBR;
-        "minecraft-1.21.5" = _cb08IgBR;
+        "y28318y6" = _y28318y6;
+        "uaBnfTpO" = _uaBnfTpO;
+        "minecraft-1.21.4" = _uaBnfTpO;
+        "minecraft-1.21.5" = _uaBnfTpO;
         "minecraft-1.20" = _ThfXHZO8;
         "minecraft-1.20.1" = _ThfXHZO8;
         "minecraft-1.20.2" = _ThfXHZO8;
@@ -143,27 +155,27 @@ let
         "minecraft-1.20.4" = _ThfXHZO8;
         "minecraft-1.20.5" = _ThfXHZO8;
         "minecraft-1.20.6" = _ThfXHZO8;
-        "minecraft-1.21" = _cb08IgBR;
-        "minecraft-1.21.1" = _cb08IgBR;
-        "minecraft-1.21.2" = _cb08IgBR;
-        "minecraft-1.21.3" = _cb08IgBR;
+        "minecraft-1.21" = _uaBnfTpO;
+        "minecraft-1.21.1" = _uaBnfTpO;
+        "minecraft-1.21.2" = _uaBnfTpO;
+        "minecraft-1.21.3" = _uaBnfTpO;
         "minecraft-1.19.3" = _ThfXHZO8;
         "minecraft-1.19.4" = _ThfXHZO8;
-        "minecraft-1.21.6" = _cb08IgBR;
-        "minecraft-1.21.7" = _cb08IgBR;
-        "minecraft-1.21.8" = _cb08IgBR;
-        "minecraft-1.21.9" = _cb08IgBR;
-        "minecraft-1.21.10" = _cb08IgBR;
-        "minecraft-1.21.11" = _cb08IgBR;
+        "minecraft-1.21.6" = _uaBnfTpO;
+        "minecraft-1.21.7" = _uaBnfTpO;
+        "minecraft-1.21.8" = _uaBnfTpO;
+        "minecraft-1.21.9" = _uaBnfTpO;
+        "minecraft-1.21.10" = _uaBnfTpO;
+        "minecraft-1.21.11" = _uaBnfTpO;
         "minecraft-1.18.2" = _ThfXHZO8;
         "minecraft-1.19" = _ThfXHZO8;
         "minecraft-1.19.1" = _ThfXHZO8;
         "minecraft-1.19.2" = _ThfXHZO8;
-        "minecraft-26.1" = _cb08IgBR;
-        "minecraft-26.1.1" = _cb08IgBR;
-        "minecraft-26.1.2" = _cb08IgBR;
-        "minecraft-26.2" = _cb08IgBR;
-        "minecraft-26.3" = _cb08IgBR;
+        "minecraft-26.1" = _uaBnfTpO;
+        "minecraft-26.1.1" = _uaBnfTpO;
+        "minecraft-26.1.2" = _uaBnfTpO;
+        "minecraft-26.2" = _uaBnfTpO;
+        "minecraft-26.3" = _uaBnfTpO;
         "pkg-1.0" = _R9sKoTdw;
         "pkg-1.1" = _nnqZwyri;
         "pkg-1.2" = _EhnNvAXG;
@@ -180,7 +192,9 @@ let
         "pkg-1.10" = _LTwrREJx;
         "pkg-1.11" = _Q2Wjh5aD;
         "pkg-1.11.1" = _cb08IgBR;
-        "default" = _cb08IgBR;
+        "pkg-1.12" = _y28318y6;
+        "pkg-1.12.1" = _uaBnfTpO;
+        "default" = _uaBnfTpO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchantment-glows";

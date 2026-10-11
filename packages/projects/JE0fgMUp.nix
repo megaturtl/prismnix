@@ -46,6 +46,11 @@ let
             "file" = "lucent-1.20.4-1.7.0.jar";
             "hash" = "sha512-KVKTDtGs0sjGieP2gKD6F07KVZoqcJ6onb88hHUZDmzjHzyblV8YxctfE8Hn4Xr2tmlpHlG6CZUQnxFBTvk1gA==";
         };
+        _gNPedmmx = {
+            "id" = "gNPedmmx";
+            "file" = "lucent-26.1.2-1.8.0.jar";
+            "hash" = "sha512-dpfaL8YDX5gbPDcSb/Ys/ynUR+m1F5ynCY3K2ITJbmbEGUXwmdlP441A4J70H+v3uJCrg7gUSs8rQCGC5WQXJQ==";
+        };
     in {
         "diHabwSe" = _diHabwSe;
         "SAbq1z7i" = _SAbq1z7i;
@@ -56,6 +61,7 @@ let
         "YHpxVMDQ" = _YHpxVMDQ;
         "a8lRDDtB" = _a8lRDDtB;
         "qJ3svAPw" = _qJ3svAPw;
+        "gNPedmmx" = _gNPedmmx;
         "forge-1.16.5" = _diHabwSe;
         "forge-1.18.2" = _SAbq1z7i;
         "forge-1.19.2" = _s6Xm8fY6;
@@ -63,6 +69,7 @@ let
         "forge-1.20.1" = _YHpxVMDQ;
         "neoforge-1.20.1" = _YHpxVMDQ;
         "neoforge-1.20.4" = _qJ3svAPw;
+        "neoforge-26.1.2" = _gNPedmmx;
         "pkg-1.0.0" = _diHabwSe;
         "pkg-1.2.2" = _SAbq1z7i;
         "pkg-1.4.1" = _s6Xm8fY6;
@@ -72,7 +79,8 @@ let
         "pkg-1.5.5" = _YHpxVMDQ;
         "pkg-1.6.0" = _a8lRDDtB;
         "pkg-1.7.0" = _qJ3svAPw;
-        "default" = _qJ3svAPw;
+        "pkg-1.8.0" = _gNPedmmx;
+        "default" = _gNPedmmx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lucent";

@@ -1706,6 +1706,11 @@ let
             "file" = "moonstone-1.21.1-refactoring-1.4.1.5.jar";
             "hash" = "sha512-XFRj2j1MfpFGkxvS3xB1UELJG1SvaRVUf19acn18YfCxehuWezrvt8o8uJFVX8cuSeDXH5yBOWB1b9up4ZJRkA==";
         };
+        _ljOiZkti = {
+            "id" = "ljOiZkti";
+            "file" = "moonstone-1.21.1-refactoring-1.4.1.8.jar";
+            "hash" = "sha512-cQBjxRrET+EE/NpSlpxNsvGVvlkGH7pni6w0ED7+Q4xufBI3qWTNZI8a8YobWboYVPGO4RfiUrLo8WSlZPMAwg==";
+        };
     in {
         "YQKROC9r" = _YQKROC9r;
         "NEHyL5Po" = _NEHyL5Po;
@@ -2048,6 +2053,7 @@ let
         "kfv1Jli5" = _kfv1Jli5;
         "Xaodr6OY" = _Xaodr6OY;
         "7II333y7" = _7II333y7;
+        "ljOiZkti" = _ljOiZkti;
         "forge-1.19.2" = _vqpDBRtS;
         "forge-1.20.1" = _3akjlG25;
         "forge-1.19.3" = _J4rcnIqq;
@@ -2056,7 +2062,7 @@ let
         "forge-1.18.2" = _f1ZXiX0T;
         "neoforge-1.20.4" = _iRjoqZA0;
         "neoforge-1.21" = _cTjIwRGn;
-        "neoforge-1.21.1" = _7II333y7;
+        "neoforge-1.21.1" = _ljOiZkti;
         "neoforge-26.1.2" = _kfv1Jli5;
         "neoforge-26.2" = _bgP4qDrp;
         "pkg-1.19.2-6.8.5" = _YQKROC9r;
@@ -2390,7 +2396,8 @@ let
         "pkg-26.1.2-1.0.1.8" = _kfv1Jli5;
         "pkg-1.21.1-refactoring-1.4.0.8" = _Xaodr6OY;
         "pkg-1.21.1-refactoring-1.4.1.5" = _7II333y7;
-        "default" = _7II333y7;
+        "pkg-1.21.1-refactoring-1.4.1.8" = _ljOiZkti;
+        "default" = _ljOiZkti;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "moonstone";

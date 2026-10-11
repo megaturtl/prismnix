@@ -76,6 +76,36 @@ let
             "file" = "EasierSleeping-1.21.1-4.0.1.jar";
             "hash" = "sha512-cznMmZ13aVcZquqZYF3JovJ7WG3IPsXGCLkCJ8B7V6/kIV7IZhMr/vIQ+4dn5spV1SKEd5a27z222AeaGGFFiA==";
         };
+        _pB3J1C64 = {
+            "id" = "pB3J1C64";
+            "file" = "EasierSleeping-1.21.11-4.0.1.jar";
+            "hash" = "sha512-MNg8Iv9oQsHVTok+r8oYNN3oVqwYFPitVl+VC5VL4KWpzA9B1ARjdE+sbDLfr+lRM8XBdhlSYUOzG+eFsDdiQQ==";
+        };
+        _vhIDX815 = {
+            "id" = "vhIDX815";
+            "file" = "EasierSleeping-26.1-4.0.1.jar";
+            "hash" = "sha512-r+9/mfIoL4tHjEFxpJoeihpOgxPQa8vELb4dcarV5K57FV0yRVuVOOWwwiJxye44cXlEJvQJ90KZic10bNR7+Q==";
+        };
+        _uL3Ii6fS = {
+            "id" = "uL3Ii6fS";
+            "file" = "EasierSleeping-1.21.1-4.0.2.jar";
+            "hash" = "sha512-whGYvbNkde+p0HBNID6gcPgEJAW+YGQK+AKr6QFU4fL14Bct/ZmzeJWpAS32fGBmfBMPTPf7l2rVxAsEkuaxKg==";
+        };
+        _brsJCAmx = {
+            "id" = "brsJCAmx";
+            "file" = "EasierSleeping-1.21.11-4.0.2.jar";
+            "hash" = "sha512-Cyj9feYbzyMmdNK/fhwrJqy6joMBJRVIgSw4aLU5eYRIZYhxupBi8MhxbxXdKuJhc6KVTD7P+aDqvqfl8E019g==";
+        };
+        _AXyQgC36 = {
+            "id" = "AXyQgC36";
+            "file" = "EasierSleeping-26.1-4.0.2.jar";
+            "hash" = "sha512-l6kJOyniSJao8gHLLAzoQnPExyezp8m+nNPpBA2aED+7NUnH+zJuHVhh5qK5R+NUop52n6PFhe/JqNRCfjdnLQ==";
+        };
+        _nxy4gc4J = {
+            "id" = "nxy4gc4J";
+            "file" = "EasierSleeping-1.20.1-2.1.4.jar";
+            "hash" = "sha512-Sh1RTUnYbGoIPacsNFE8P7ZAxtQcFkqSbd0uKYYNCBYpZd2FKq8tLsaPK/tPNWcqATDBxWVctNVDYB33IpE6Gw==";
+        };
     in {
         "uf1IVhCT" = _uf1IVhCT;
         "u0Uam6wS" = _u0Uam6wS;
@@ -92,26 +122,38 @@ let
         "hDWqOviD" = _hDWqOviD;
         "i73UNjjp" = _i73UNjjp;
         "BpPkQf9O" = _BpPkQf9O;
+        "pB3J1C64" = _pB3J1C64;
+        "vhIDX815" = _vhIDX815;
+        "uL3Ii6fS" = _uL3Ii6fS;
+        "brsJCAmx" = _brsJCAmx;
+        "AXyQgC36" = _AXyQgC36;
+        "nxy4gc4J" = _nxy4gc4J;
         "forge-1.17.1" = _uf1IVhCT;
         "forge-1.18.2" = _6a4dDTCH;
         "forge-1.19.4" = _Wm5zq605;
         "forge-1.20" = _uFhr752U;
-        "forge-1.20.1" = _jS5od0UG;
+        "forge-1.20.1" = _nxy4gc4J;
         "forge-1.20.2" = _bWuc0ccP;
         "forge-1.20.4" = _LzrxJNC8;
         "forge-1.20.6" = _PMtZjd4N;
         "forge-1.21" = _KaGrY2Bh;
         "forge-1.21.1" = _hDWqOviD;
-        "neoforge-1.21.1" = _BpPkQf9O;
-        "neoforge-1.21.2" = _BpPkQf9O;
-        "neoforge-1.21.3" = _BpPkQf9O;
-        "neoforge-1.21.4" = _BpPkQf9O;
-        "neoforge-1.21.5" = _BpPkQf9O;
-        "neoforge-1.21.6" = _BpPkQf9O;
-        "neoforge-1.21.7" = _BpPkQf9O;
-        "neoforge-1.21.8" = _BpPkQf9O;
-        "neoforge-1.21.9" = _BpPkQf9O;
-        "neoforge-1.21.10" = _BpPkQf9O;
+        "neoforge-1.21.1" = _uL3Ii6fS;
+        "neoforge-1.21.2" = _uL3Ii6fS;
+        "neoforge-1.21.3" = _uL3Ii6fS;
+        "neoforge-1.21.4" = _uL3Ii6fS;
+        "neoforge-1.21.5" = _uL3Ii6fS;
+        "neoforge-1.21.6" = _uL3Ii6fS;
+        "neoforge-1.21.7" = _uL3Ii6fS;
+        "neoforge-1.21.8" = _uL3Ii6fS;
+        "neoforge-1.21.9" = _uL3Ii6fS;
+        "neoforge-1.21.10" = _uL3Ii6fS;
+        "neoforge-1.21.11" = _brsJCAmx;
+        "neoforge-26.1" = _AXyQgC36;
+        "neoforge-26.1.1" = _AXyQgC36;
+        "neoforge-26.1.2" = _AXyQgC36;
+        "neoforge-26.2" = _AXyQgC36;
+        "neoforge-26.3" = _AXyQgC36;
         "pkg-1.17.1-2.1.0" = _uf1IVhCT;
         "pkg-1.18.2-2.1.0" = _u0Uam6wS;
         "pkg-1.19.4-2.1.2" = _ESho6U5X;
@@ -127,7 +169,13 @@ let
         "pkg-1.21.1-3.0.0" = _hDWqOviD;
         "pkg-1.21.1-4.0.0" = _i73UNjjp;
         "pkg-1.21.1-4.0.1" = _BpPkQf9O;
-        "default" = _BpPkQf9O;
+        "pkg-1.21.11-4.0.1" = _pB3J1C64;
+        "pkg-26.1-4.0.1" = _vhIDX815;
+        "pkg-1.21.1-4.0.2" = _uL3Ii6fS;
+        "pkg-1.21.11-4.0.2" = _brsJCAmx;
+        "pkg-26.1-4.0.2" = _AXyQgC36;
+        "pkg-1.20.1-2.1.4" = _nxy4gc4J;
+        "default" = _nxy4gc4J;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "easier-sleeping";

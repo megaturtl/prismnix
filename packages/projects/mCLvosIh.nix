@@ -61,6 +61,11 @@ let
             "file" = "microfighters-1.1.1+26.1.jar";
             "hash" = "sha512-Tw4nTSR3yhvuc3dxcQYUQiUfGAuVVL3vJMz7bjucKLUKncabY50eu4rS6e4mBxrJz03SYU13MGBQmMlcCA8MqQ==";
         };
+        _uHkSdLuR = {
+            "id" = "uHkSdLuR";
+            "file" = "microfighters-1.1.3+26.3.jar";
+            "hash" = "sha512-ZQoTbrViErN+goXvWBI4kOVZwHbvndwjaZooORU17xcjSjQ5CjgrNbAGfX1EsJH9uv/Un1mOCRJh6QBj2MPKUA==";
+        };
     in {
         "KQ3DeWVe" = _KQ3DeWVe;
         "RA3BsRpa" = _RA3BsRpa;
@@ -74,6 +79,7 @@ let
         "c2MTJa0o" = _c2MTJa0o;
         "ADK50nuT" = _ADK50nuT;
         "i4ZA7EUR" = _i4ZA7EUR;
+        "uHkSdLuR" = _uHkSdLuR;
         "fabric-1.21" = _Ue2o7iug;
         "fabric-1.21.1" = _Ue2o7iug;
         "fabric-1.21.2-rc1" = _RA3BsRpa;
@@ -90,6 +96,7 @@ let
         "fabric-26.1" = _i4ZA7EUR;
         "fabric-26.1.1" = _i4ZA7EUR;
         "fabric-26.1.2" = _i4ZA7EUR;
+        "fabric-26.3" = _uHkSdLuR;
         "pkg-1.0.0+1.21" = _KQ3DeWVe;
         "pkg-1.0.0+1.21.2-rc1" = _RA3BsRpa;
         "pkg-1.0.1+1.21" = _Ue2o7iug;
@@ -102,7 +109,8 @@ let
         "pkg-1.0.6+1.21.9" = _c2MTJa0o;
         "pkg-1.1.0+1.21.11" = _ADK50nuT;
         "pkg-1.1.1+26.1" = _i4ZA7EUR;
-        "default" = _i4ZA7EUR;
+        "pkg-1.1.3+26.3" = _uHkSdLuR;
+        "default" = _uHkSdLuR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "micro-fighters";

@@ -1,0 +1,118 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _aBvz3GcE = {
+            "id" = "aBvz3GcE";
+            "file" = "Rem.zip";
+            "hash" = "sha512-wgmG3U4Xa3Hd01aX7DeRijA5ioprEXLUKemN5J388FodcopB5ehG1DU/XhzJjGspyxLm4565qtkaa1LbUO0L2g==";
+        };
+        _BGNABp2o = {
+            "id" = "BGNABp2o";
+            "file" = "Rem2.zip";
+            "hash" = "sha512-1Yhs1CNUwZFzXNtnHaW1aThD7Me/3tYtR3xVjA0kEe3mjd/gtMKFvybU9zEJXTAKYfw1bsAF3HYChPwc+yLsKg==";
+        };
+    in {
+        "aBvz3GcE" = _aBvz3GcE;
+        "BGNABp2o" = _BGNABp2o;
+        "minecraft-1.16.3" = _aBvz3GcE;
+        "minecraft-1.16.4" = _aBvz3GcE;
+        "minecraft-1.16.5" = _aBvz3GcE;
+        "minecraft-1.17" = _aBvz3GcE;
+        "minecraft-1.17.1" = _aBvz3GcE;
+        "minecraft-1.18" = _aBvz3GcE;
+        "minecraft-1.18.1" = _aBvz3GcE;
+        "minecraft-1.18.2" = _aBvz3GcE;
+        "minecraft-1.19" = _BGNABp2o;
+        "minecraft-1.19.1" = _BGNABp2o;
+        "minecraft-1.19.2" = _BGNABp2o;
+        "minecraft-1.19.3" = _BGNABp2o;
+        "minecraft-1.19.4" = _BGNABp2o;
+        "minecraft-1.20" = _BGNABp2o;
+        "minecraft-1.20.1" = _BGNABp2o;
+        "minecraft-23w31a" = _BGNABp2o;
+        "minecraft-23w32a" = _BGNABp2o;
+        "minecraft-23w33a" = _BGNABp2o;
+        "minecraft-23w35a" = _BGNABp2o;
+        "minecraft-1.20.2-pre1" = _BGNABp2o;
+        "minecraft-1.20.2" = _BGNABp2o;
+        "minecraft-23w42a" = _BGNABp2o;
+        "minecraft-23w43a" = _BGNABp2o;
+        "minecraft-23w43b" = _BGNABp2o;
+        "minecraft-23w44a" = _BGNABp2o;
+        "minecraft-23w45a" = _BGNABp2o;
+        "minecraft-23w46a" = _BGNABp2o;
+        "minecraft-1.20.3" = _BGNABp2o;
+        "minecraft-1.20.4" = _BGNABp2o;
+        "minecraft-24w03a" = _BGNABp2o;
+        "minecraft-24w03b" = _BGNABp2o;
+        "minecraft-24w04a" = _BGNABp2o;
+        "minecraft-24w05a" = _BGNABp2o;
+        "minecraft-24w05b" = _BGNABp2o;
+        "minecraft-24w06a" = _BGNABp2o;
+        "minecraft-24w07a" = _BGNABp2o;
+        "minecraft-24w09a" = _BGNABp2o;
+        "minecraft-24w10a" = _BGNABp2o;
+        "minecraft-24w11a" = _BGNABp2o;
+        "minecraft-24w12a" = _BGNABp2o;
+        "minecraft-24w13a" = _BGNABp2o;
+        "minecraft-24w14potato" = _BGNABp2o;
+        "minecraft-24w14a" = _BGNABp2o;
+        "minecraft-1.20.5-pre1" = _BGNABp2o;
+        "minecraft-1.20.5-pre2" = _BGNABp2o;
+        "minecraft-1.20.5-pre3" = _BGNABp2o;
+        "minecraft-1.20.5" = _BGNABp2o;
+        "minecraft-1.20.6" = _BGNABp2o;
+        "minecraft-24w18a" = _BGNABp2o;
+        "minecraft-24w19a" = _BGNABp2o;
+        "minecraft-24w19b" = _BGNABp2o;
+        "minecraft-24w20a" = _BGNABp2o;
+        "minecraft-1.21" = _BGNABp2o;
+        "minecraft-1.21.1" = _BGNABp2o;
+        "minecraft-24w33a" = _BGNABp2o;
+        "minecraft-24w34a" = _BGNABp2o;
+        "minecraft-24w35a" = _BGNABp2o;
+        "minecraft-24w36a" = _BGNABp2o;
+        "minecraft-24w37a" = _BGNABp2o;
+        "minecraft-24w38a" = _BGNABp2o;
+        "minecraft-24w39a" = _BGNABp2o;
+        "minecraft-24w40a" = _BGNABp2o;
+        "minecraft-1.21.2-pre1" = _BGNABp2o;
+        "minecraft-1.21.2-pre2" = _BGNABp2o;
+        "minecraft-1.21.2" = _BGNABp2o;
+        "minecraft-1.21.3" = _BGNABp2o;
+        "minecraft-24w44a" = _BGNABp2o;
+        "minecraft-24w45a" = _BGNABp2o;
+        "minecraft-24w46a" = _BGNABp2o;
+        "minecraft-1.21.4" = _BGNABp2o;
+        "minecraft-1.21.5" = _BGNABp2o;
+        "minecraft-1.21.6" = _BGNABp2o;
+        "minecraft-1.21.7" = _BGNABp2o;
+        "minecraft-1.21.8" = _BGNABp2o;
+        "minecraft-1.21.9" = _BGNABp2o;
+        "minecraft-1.21.10" = _BGNABp2o;
+        "minecraft-1.21.11" = _BGNABp2o;
+        "minecraft-26.1" = _BGNABp2o;
+        "minecraft-26.1.1" = _BGNABp2o;
+        "minecraft-26.1.2" = _BGNABp2o;
+        "minecraft-26.2" = _BGNABp2o;
+        "pkg-1.0" = _aBvz3GcE;
+        "pkg-2.0" = _BGNABp2o;
+        "default" = _BGNABp2o;
+    });
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "rezero-rem";
+        id = "ENMt6zrH";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "Apache-2.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Apache License 2.0";
+                shortName = "Apache-2.0";
+                url = null;
+            };
+        };
+    };
+in callPackage fn {}

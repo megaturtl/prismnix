@@ -126,6 +126,21 @@ let
             "file" = "block_variants-26.2-6.7.1.jar";
             "hash" = "sha512-F6H/tfaUhbhdmIWo6n+b8mYbVPuvIj35HcGnw2D0cQgjm3+iHZFV+l36J8WLSqPt/pwLfWc1iFTPifeMASXM9w==";
         };
+        _yNHJ52Zm = {
+            "id" = "yNHJ52Zm";
+            "file" = "block_variants-26.1.2-7.0.0.jar";
+            "hash" = "sha512-b5S719NkMQB6w8YqM56GtPmOmCm3MRk5t7V1S49+/8ML0oTIG6fcfbPgLCDIYWTf5GgKRefFMxod85EQzECA8A==";
+        };
+        _q3aAJZ20 = {
+            "id" = "q3aAJZ20";
+            "file" = "block_variants-26.3-7.1.0.jar";
+            "hash" = "sha512-5XIkXuv2jN6sfUnt/8DeoA73QEqwvO4dbEGTz+EeR1ofoCYxzjn4Hcn4xR4JX3LDkBKrVS6RBnq8zNQttvrAuQ==";
+        };
+        _xxK34kc3 = {
+            "id" = "xxK34kc3";
+            "file" = "block_variants-26.3-7.1.1.jar";
+            "hash" = "sha512-U1cJS69wNaLjADExNEzIwuzEkQIhrjqJRh31jN7h1hekOGItzAk4vdZfJ3LqrVD8QeWs4FIUE0Fpf8ZSwZnkqA==";
+        };
     in {
         "Qos2RvGt" = _Qos2RvGt;
         "9qcXfxvU" = _9qcXfxvU;
@@ -152,6 +167,9 @@ let
         "JauB2RtM" = _JauB2RtM;
         "LKhPDaSQ" = _LKhPDaSQ;
         "xKVjsxUv" = _xKVjsxUv;
+        "yNHJ52Zm" = _yNHJ52Zm;
+        "q3aAJZ20" = _q3aAJZ20;
+        "xxK34kc3" = _xxK34kc3;
         "neoforge-1.20.4" = _Qos2RvGt;
         "neoforge-1.20.6" = _nywZ4aa7;
         "neoforge-1.21" = _VAq8p7U5;
@@ -167,8 +185,9 @@ let
         "neoforge-1.21.11" = _u8OU7cFw;
         "neoforge-26.1" = _RcABNHze;
         "neoforge-26.1.1" = _197mN7Y7;
-        "neoforge-26.1.2" = _LKhPDaSQ;
+        "neoforge-26.1.2" = _yNHJ52Zm;
         "neoforge-26.2" = _xKVjsxUv;
+        "neoforge-26.3" = _xxK34kc3;
         "forge-1.19.4" = _9qcXfxvU;
         "forge-1.16.5" = _1LlDVJWC;
         "forge-1.20.4" = _3xijlFlz;
@@ -191,7 +210,10 @@ let
         "pkg-6.1.1" = _VAq8p7U5;
         "pkg-6.4.1" = _JauB2RtM;
         "pkg-6.7.1" = _xKVjsxUv;
-        "default" = _xKVjsxUv;
+        "pkg-7.0.0" = _yNHJ52Zm;
+        "pkg-7.1.0" = _q3aAJZ20;
+        "pkg-7.1.1" = _xxK34kc3;
+        "default" = _xxK34kc3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "block-variants";

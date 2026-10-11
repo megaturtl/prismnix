@@ -281,6 +281,16 @@ let
             "file" = "ArchaeologyBanners-neoforge-MC26.2-26.2.0.2.jar";
             "hash" = "sha512-ZP+RG6PiC6fo2AOg88X4c11uTVYyfpx7ztRlWUni0KY1AAwCjhX0HmpbDEps+HHcJgfJRTdcoIXmUPUbD5Ubvw==";
         };
+        _Jk9dqftJ = {
+            "id" = "Jk9dqftJ";
+            "file" = "ArchaeologyBanners-fabric-MC26.3-26.3.0.1.jar";
+            "hash" = "sha512-bcTf38AbT//kKdIBLaJjOCU9wHkJ5KVqIuOh8r8afOmBzTdg+OFmE5/N9m87bTSHK/g7IDzmUsnCXn/QPnBI1Q==";
+        };
+        _f30DMhkc = {
+            "id" = "f30DMhkc";
+            "file" = "ArchaeologyBanners-neoforge-MC26.3-26.3.0.1.jar";
+            "hash" = "sha512-2b2l1ftZVkdcdpUmDgxl7oBjDx62ApS1BQAi20vBUWjDN6vmYd9n4rvCujCJ6+4NJ9pIBcc54rrxn00wRluX4Q==";
+        };
     in {
         "E5WD5KCP" = _E5WD5KCP;
         "9HeTeJgo" = _9HeTeJgo;
@@ -338,6 +348,8 @@ let
         "dIlYRfrq" = _dIlYRfrq;
         "LTjk8NSx" = _LTjk8NSx;
         "l6BY2aOS" = _l6BY2aOS;
+        "Jk9dqftJ" = _Jk9dqftJ;
+        "f30DMhkc" = _f30DMhkc;
         "fabric-1.19.3" = _E5WD5KCP;
         "fabric-1.19.2" = _ioTwtB5G;
         "fabric-1.19.4" = _1exNoJAV;
@@ -350,6 +362,7 @@ let
         "fabric-26.1.1" = _CXCZpWb2;
         "fabric-26.1.2" = _CXCZpWb2;
         "fabric-26.2" = _LTjk8NSx;
+        "fabric-26.3" = _Jk9dqftJ;
         "quilt-1.19.3" = _E5WD5KCP;
         "quilt-1.19.2" = _ioTwtB5G;
         "quilt-1.19.4" = _1exNoJAV;
@@ -368,6 +381,7 @@ let
         "neoforge-26.1.1" = _mHEgYUOC;
         "neoforge-26.1.2" = _mHEgYUOC;
         "neoforge-26.2" = _l6BY2aOS;
+        "neoforge-26.3" = _f30DMhkc;
         "pkg-2.0.1" = _9HeTeJgo;
         "pkg-1.0.3" = _5LGi67dz;
         "pkg-3.0.1" = _nOOIUfqy;
@@ -392,7 +406,8 @@ let
         "pkg-26.1.2.2" = _CXCZpWb2;
         "pkg-26.2.0.1" = _dIlYRfrq;
         "pkg-26.2.0.2" = _l6BY2aOS;
-        "default" = _l6BY2aOS;
+        "pkg-26.3.0.1" = _f30DMhkc;
+        "default" = _f30DMhkc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "archaeology-banners";

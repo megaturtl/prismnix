@@ -111,6 +111,16 @@ let
             "file" = "cheaper-compasses-2.6.jar";
             "hash" = "sha512-7j2SwAGEiNBuAm1QzFlXSPKgcZxq427udhIsofSaFYL2MIQ0vWrhHLqhvYnjRp3Kh7ha3laHT6Z1DzY9TIgW/g==";
         };
+        _cMeBIDQd = {
+            "id" = "cMeBIDQd";
+            "file" = "Cheaper Compasses v3.0 (26.1-26.3).zip";
+            "hash" = "sha512-DxERAxjaSfeXhcKmIQRiUFMdgqo+J85H6CG5yqCOqns1OVjGStGv7mdQ9R6aXKjx8Qytb38fJG3frtzf1piJeQ==";
+        };
+        _45n28dSI = {
+            "id" = "45n28dSI";
+            "file" = "cheaper-compasses-3.0.jar";
+            "hash" = "sha512-owr9t4qfIaPOGnBSzC2UF5R2c03cqKJAolKTfkQNDdiLibNyzfwriqM0C36ms78NCNoLsjgvU9NI71ehyIrTVw==";
+        };
     in {
         "4WY4SC7e" = _4WY4SC7e;
         "fFVRawLk" = _fFVRawLk;
@@ -134,6 +144,8 @@ let
         "H3fGJoKi" = _H3fGJoKi;
         "ZTigGV8k" = _ZTigGV8k;
         "B2KtqZut" = _B2KtqZut;
+        "cMeBIDQd" = _cMeBIDQd;
+        "45n28dSI" = _45n28dSI;
         "datapack-1.20" = _ZTigGV8k;
         "datapack-1.20.1" = _ZTigGV8k;
         "datapack-1.20.2" = _ZTigGV8k;
@@ -155,6 +167,11 @@ let
         "datapack-1.21.9" = _ZTigGV8k;
         "datapack-1.21.10" = _ZTigGV8k;
         "datapack-1.21.11" = _ZTigGV8k;
+        "datapack-26.1" = _cMeBIDQd;
+        "datapack-26.1.1" = _cMeBIDQd;
+        "datapack-26.1.2" = _cMeBIDQd;
+        "datapack-26.2" = _cMeBIDQd;
+        "datapack-26.3" = _cMeBIDQd;
         "fabric-1.20" = _B2KtqZut;
         "fabric-1.20.1" = _B2KtqZut;
         "fabric-1.20.2" = _B2KtqZut;
@@ -174,6 +191,11 @@ let
         "fabric-1.21.9" = _B2KtqZut;
         "fabric-1.21.10" = _B2KtqZut;
         "fabric-1.21.11" = _B2KtqZut;
+        "fabric-26.1" = _45n28dSI;
+        "fabric-26.1.1" = _45n28dSI;
+        "fabric-26.1.2" = _45n28dSI;
+        "fabric-26.2" = _45n28dSI;
+        "fabric-26.3" = _45n28dSI;
         "forge-1.20" = _B2KtqZut;
         "forge-1.20.1" = _B2KtqZut;
         "forge-1.20.2" = _B2KtqZut;
@@ -193,6 +215,11 @@ let
         "forge-1.21.9" = _B2KtqZut;
         "forge-1.21.10" = _B2KtqZut;
         "forge-1.21.11" = _B2KtqZut;
+        "forge-26.1" = _45n28dSI;
+        "forge-26.1.1" = _45n28dSI;
+        "forge-26.1.2" = _45n28dSI;
+        "forge-26.2" = _45n28dSI;
+        "forge-26.3" = _45n28dSI;
         "quilt-1.20" = _B2KtqZut;
         "quilt-1.20.1" = _B2KtqZut;
         "quilt-1.20.2" = _B2KtqZut;
@@ -212,6 +239,11 @@ let
         "quilt-1.21.9" = _B2KtqZut;
         "quilt-1.21.10" = _B2KtqZut;
         "quilt-1.21.11" = _B2KtqZut;
+        "quilt-26.1" = _45n28dSI;
+        "quilt-26.1.1" = _45n28dSI;
+        "quilt-26.1.2" = _45n28dSI;
+        "quilt-26.2" = _45n28dSI;
+        "quilt-26.3" = _45n28dSI;
         "neoforge-1.20" = _B2KtqZut;
         "neoforge-1.20.1" = _B2KtqZut;
         "neoforge-1.20.2" = _B2KtqZut;
@@ -231,6 +263,11 @@ let
         "neoforge-1.21.9" = _B2KtqZut;
         "neoforge-1.21.10" = _B2KtqZut;
         "neoforge-1.21.11" = _B2KtqZut;
+        "neoforge-26.1" = _45n28dSI;
+        "neoforge-26.1.1" = _45n28dSI;
+        "neoforge-26.1.2" = _45n28dSI;
+        "neoforge-26.2" = _45n28dSI;
+        "neoforge-26.3" = _45n28dSI;
         "pkg-1" = _fFVRawLk;
         "pkg-1+mod" = _PhtLh7rd;
         "pkg-1.1" = _xSDZ985X;
@@ -250,7 +287,9 @@ let
         "pkg-2.5+mod" = _H3fGJoKi;
         "pkg-2.6" = _ZTigGV8k;
         "pkg-2.6+mod" = _B2KtqZut;
-        "default" = _B2KtqZut;
+        "pkg-3.0" = _cMeBIDQd;
+        "pkg-3.0+mod" = _45n28dSI;
+        "default" = _45n28dSI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cheaper-compasses";

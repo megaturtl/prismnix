@@ -156,6 +156,16 @@ let
             "file" = "DeleteWorldsToTrash-v26.2.0-mc26.2.x-NeoForge.jar";
             "hash" = "sha512-lyYNw7zbLJmx+7cU1MpSO5BTTG4iRYHI497JP7VMoBao8rbDnYviyMl2/Gj7MUu5LoohJr8tkFuJaGDaxBihcA==";
         };
+        _JsqB5enD = {
+            "id" = "JsqB5enD";
+            "file" = "deleteworldstotrash-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-evlROdzrPMeumv1KVCye5Bq9GA/LWuR53Mn2sRQSYOwX0YksTa2IfeyANPV/5OJ6ik8oDkEPBGctbDvahELiXA==";
+        };
+        _7X9pnPS3 = {
+            "id" = "7X9pnPS3";
+            "file" = "deleteworldstotrash-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-9SvdHH1EUkNLBrVMcym8tMjj7G6yY0uNuNMytBIWuVXv7fy12a5zZej1bDpNit8HoNoGESKFlzHpanldq53u1g==";
+        };
     in {
         "Ee8hSsMe" = _Ee8hSsMe;
         "39EBqKRP" = _39EBqKRP;
@@ -188,6 +198,8 @@ let
         "UXjZDPHq" = _UXjZDPHq;
         "wLWbSes5" = _wLWbSes5;
         "W9F9dd7F" = _W9F9dd7F;
+        "JsqB5enD" = _JsqB5enD;
+        "7X9pnPS3" = _7X9pnPS3;
         "forge-1.20.1" = _Ee8hSsMe;
         "forge-1.20.4" = _Z0Dzy00c;
         "fabric-1.20.1" = _39EBqKRP;
@@ -205,6 +217,7 @@ let
         "fabric-26.1.1" = _UXjZDPHq;
         "fabric-26.1.2" = _UXjZDPHq;
         "fabric-26.2" = _wLWbSes5;
+        "fabric-26.3" = _JsqB5enD;
         "neoforge-1.20.4" = _ALE0dmqL;
         "neoforge-1.21.1" = _vJUUjK3C;
         "neoforge-1.21.3" = _Lz6efU7f;
@@ -219,6 +232,7 @@ let
         "neoforge-26.1.1" = _moxWgKh4;
         "neoforge-26.1.2" = _moxWgKh4;
         "neoforge-26.2" = _W9F9dd7F;
+        "neoforge-26.3" = _7X9pnPS3;
         "pkg-v8.0.0-1.20.1-Forge" = _Ee8hSsMe;
         "pkg-v8.0.0-1.20.1-Fabric" = _39EBqKRP;
         "pkg-v20.4.0-1.20.4-Forge" = _Z0Dzy00c;
@@ -243,7 +257,8 @@ let
         "pkg-26.1.1" = _cYb0sKCe;
         "pkg-26.1.2" = _UXjZDPHq;
         "pkg-26.2.0" = _W9F9dd7F;
-        "default" = _W9F9dd7F;
+        "pkg-26.3.0" = _7X9pnPS3;
+        "default" = _7X9pnPS3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "delete-worlds-to-trash";

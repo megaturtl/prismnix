@@ -346,6 +346,36 @@ let
             "file" = "better_modlist-26.2.2.jar";
             "hash" = "sha512-IoZGEg36wJQJ6EgX9VcNDC4cBYYs0jK5hCZZyQBZw2m9rj6Xe77f89NOBbXIsu0cQjcDqx6S+/0PuM21bw9mMg==";
         };
+        _vqkTyIa1 = {
+            "id" = "vqkTyIa1";
+            "file" = "better_modlist-21.1.2.jar";
+            "hash" = "sha512-WamLtrq4RLHnxgtQx9VBMir/eF7Mj9PUaeb+LooJ2q1WobIiXQC8uQgA7FDzqjPp7EZ+FENIBxhXhi/TigZH5Q==";
+        };
+        _KOQwWTm5 = {
+            "id" = "KOQwWTm5";
+            "file" = "better_modlist-26.1.6.jar";
+            "hash" = "sha512-SdiCIxiFj0zlHD6NX8Eyxega4JwiLi9/VJQ3/7uV5EoR+yRgJyUBGqwTgXFxk0vFJmlXAuzw9NAZQlqRGOruTg==";
+        };
+        _fqJXu5Yc = {
+            "id" = "fqJXu5Yc";
+            "file" = "better_modlist-26.3.0.jar";
+            "hash" = "sha512-HFFCYuax/Y1cVbDHNW4U89VivMV6Fa2hpKj8QPKq1fYhY6MazFkgjAWI7915gAzlWvzLczOtXK1+TUefXt/22A==";
+        };
+        _ORRVBsst = {
+            "id" = "ORRVBsst";
+            "file" = "better_modlist-21.1.3.jar";
+            "hash" = "sha512-xDlqBrpoGi1VDgFPlSzSN/Q6tdiN6kbFs0J3oGWC44FSAnpRme/uuK+LTBrl8iwYbWGwUronM+rIHUUSWw+lMg==";
+        };
+        _FuS9shWc = {
+            "id" = "FuS9shWc";
+            "file" = "better_modlist-26.1.7.jar";
+            "hash" = "sha512-2+3Ck9rhutrrT4EDoArowYfXxG6bKR7SE6gPvJXz7Ckapn4GVavk+T5g0AXqT5M6gSpTEEF/BkWk0ZuP0dXyPw==";
+        };
+        _ZID4kkto = {
+            "id" = "ZID4kkto";
+            "file" = "better_modlist-21.1.4.jar";
+            "hash" = "sha512-kyq42LCV/Tzlph0c6RAxdONr9bHOKXWyS1cill8HVb4gxtTZUB9CtLaSMXuH8LNqIc/O/SWOLwD8/ZZl3nH7vg==";
+        };
     in {
         "V7ZltmRo" = _V7ZltmRo;
         "xeyAqqAm" = _xeyAqqAm;
@@ -416,8 +446,14 @@ let
         "erem2L3a" = _erem2L3a;
         "1l0a3eDt" = _1l0a3eDt;
         "gukFjDk4" = _gukFjDk4;
+        "vqkTyIa1" = _vqkTyIa1;
+        "KOQwWTm5" = _KOQwWTm5;
+        "fqJXu5Yc" = _fqJXu5Yc;
+        "ORRVBsst" = _ORRVBsst;
+        "FuS9shWc" = _FuS9shWc;
+        "ZID4kkto" = _ZID4kkto;
         "neoforge-1.21" = _dUiI4lk6;
-        "neoforge-1.21.1" = _XavNSFnf;
+        "neoforge-1.21.1" = _ZID4kkto;
         "neoforge-1.20" = _tslHpPrw;
         "neoforge-1.20.1" = _3lITuXoU;
         "neoforge-1.21.2" = _dihJmCzh;
@@ -430,10 +466,11 @@ let
         "neoforge-1.21.9" = _x2vdaIQl;
         "neoforge-1.21.10" = _x2vdaIQl;
         "neoforge-1.21.11" = _joenEtvI;
-        "neoforge-26.1" = _erem2L3a;
-        "neoforge-26.1.1" = _erem2L3a;
-        "neoforge-26.1.2" = _erem2L3a;
+        "neoforge-26.1" = _FuS9shWc;
+        "neoforge-26.1.1" = _FuS9shWc;
+        "neoforge-26.1.2" = _FuS9shWc;
         "neoforge-26.2" = _gukFjDk4;
+        "neoforge-26.3" = _fqJXu5Yc;
         "forge-1.20" = _tslHpPrw;
         "forge-1.20.1" = _3lITuXoU;
         "pkg-1.0.2" = _V7ZltmRo;
@@ -505,7 +542,13 @@ let
         "pkg-26.1.5" = _erem2L3a;
         "pkg-26.2.1" = _1l0a3eDt;
         "pkg-26.2.2" = _gukFjDk4;
-        "default" = _gukFjDk4;
+        "pkg-21.1.2" = _vqkTyIa1;
+        "pkg-26.1.6" = _KOQwWTm5;
+        "pkg-26.3.0" = _fqJXu5Yc;
+        "pkg-21.1.3" = _ORRVBsst;
+        "pkg-26.1.7" = _FuS9shWc;
+        "pkg-21.1.4" = _ZID4kkto;
+        "default" = _ZID4kkto;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-modlist";

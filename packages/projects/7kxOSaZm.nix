@@ -136,6 +136,21 @@ let
             "file" = "MoreTrapdoor-neoforge-26.1.2-1.3.0.jar";
             "hash" = "sha512-NU0VTz7UVEN0uhlODLJ14HRwttZ6Ip+Jm5zjPxlcrhvbQBuFbXZhHrRy08u4vjY9XuC7un2LGY1i0hkV+G26IQ==";
         };
+        _dduMEUQL = {
+            "id" = "dduMEUQL";
+            "file" = "MoreTrapdoor-fabric-26.1.2-1.4.0.jar";
+            "hash" = "sha512-SUIA9bI6jglg3P/U7Bhd1vH60nRJcOTt3BI1mDgdsOp5MTxWzv2xqZGx6UV7rQ5TT7kbMQC/fKBGQclLaA7YGg==";
+        };
+        _YzIB6v2L = {
+            "id" = "YzIB6v2L";
+            "file" = "MoreTrapdoor-forge-26.1.2-1.4.0.1.jar";
+            "hash" = "sha512-SdkQaprCRJOy0Iu72DaLTa81waoMXskVBe2OFusK6BewON/HdSPzRC1r4XbDmYiiHrTg1y7tmCsZ1lfztTQjzw==";
+        };
+        _Ae6Mavtr = {
+            "id" = "Ae6Mavtr";
+            "file" = "MoreTrapdoor-neoforge-26.1.2-1.4.0.jar";
+            "hash" = "sha512-XHkYeVxSpqbgNcZf/uiA1TRFusNQLbq0e8tLeXIqqWUEOqQ5Cb1uH3t5EyN2i87Oy5JOTwOKPK6FzEJ8VO8JIQ==";
+        };
     in {
         "C8R0AxyU" = _C8R0AxyU;
         "F70pRZWa" = _F70pRZWa;
@@ -164,6 +179,9 @@ let
         "1P3J5PFX" = _1P3J5PFX;
         "Jg7AHK8W" = _Jg7AHK8W;
         "gpYaSdwB" = _gpYaSdwB;
+        "dduMEUQL" = _dduMEUQL;
+        "YzIB6v2L" = _YzIB6v2L;
+        "Ae6Mavtr" = _Ae6Mavtr;
         "fabric-1.20.1" = _C8R0AxyU;
         "fabric-1.20.2" = _Skk4XMse;
         "fabric-1.20.4" = _xBTvZdxJ;
@@ -172,6 +190,7 @@ let
         "fabric-1.21.8" = _IHnEXGbw;
         "fabric-1.21.10" = _S1kLG8fE;
         "fabric-1.21.11" = _7w18KtUF;
+        "fabric-26.1.2" = _dduMEUQL;
         "forge-1.20.1" = _F70pRZWa;
         "forge-1.20.2" = _XGEkOCxi;
         "forge-1.20.4" = _tvtml7yG;
@@ -181,14 +200,14 @@ let
         "forge-1.21.9" = _ccVzRgp9;
         "forge-1.21.10" = _TD2mOyW7;
         "forge-1.21.11" = _WwUaO7Wg;
-        "forge-26.1.2" = _Jg7AHK8W;
+        "forge-26.1.2" = _YzIB6v2L;
         "neoforge-1.20.4" = _AElyBvmh;
         "neoforge-1.21" = _m94eWCFf;
         "neoforge-1.21.1" = _wHXSyn5a;
         "neoforge-1.21.8" = _ufMKpwDg;
         "neoforge-1.21.10" = _y1vTYS6S;
         "neoforge-1.21.11" = _1P3J5PFX;
-        "neoforge-26.1.2" = _gpYaSdwB;
+        "neoforge-26.1.2" = _Ae6Mavtr;
         "pkg-1.0.4" = _C8R0AxyU;
         "pkg-1.1.8" = _F70pRZWa;
         "pkg-1.1.9" = _ATMd083Y;
@@ -209,8 +228,9 @@ let
         "pkg-1.21.10-1.1.3" = _S1kLG8fE;
         "pkg-1.3.0" = _gpYaSdwB;
         "pkg-1.21.11-1.1.4" = _7w18KtUF;
-        "pkg-1.4.0" = _Jg7AHK8W;
-        "default" = _gpYaSdwB;
+        "pkg-1.4.0" = _Ae6Mavtr;
+        "pkg-1.4.0.1" = _YzIB6v2L;
+        "default" = _Ae6Mavtr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-beautiful-trapdoors";

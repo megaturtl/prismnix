@@ -121,6 +121,11 @@ let
             "file" = "StringDuper-1.0.3.jar";
             "hash" = "sha512-Wt/7XCx1qeuYKujMjN1g2CTl48TDCYQePbjimuBgT1dU4tO8njjddi22C1+Prd7aRDuyE2q3xA+CaXH1Lg39Sw==";
         };
+        _rkiGbTGy = {
+            "id" = "rkiGbTGy";
+            "file" = "StringDuper-1.0.3.jar";
+            "hash" = "sha512-T/An/i5uTIMBJCvj2DXKqi1HKljM5WATdAFGc/yXxbAyNtDSO29/P+7hgMKt5eNKP9T6uO6co3KxOXKGKezLdA==";
+        };
     in {
         "wDsrHLRy" = _wDsrHLRy;
         "ltLv6wvc" = _ltLv6wvc;
@@ -146,6 +151,7 @@ let
         "6lvaFLaY" = _6lvaFLaY;
         "2FIKIC86" = _2FIKIC86;
         "3GCIQ6Ht" = _3GCIQ6Ht;
+        "rkiGbTGy" = _rkiGbTGy;
         "forge-1.21.11" = _ylA36jqx;
         "forge-26.1" = _Q7zNy8Jj;
         "forge-26.1.1" = _Q7zNy8Jj;
@@ -162,6 +168,7 @@ let
         "forge-1.21.8" = _ylA36jqx;
         "forge-1.21.9" = _ylA36jqx;
         "forge-1.21.10" = _ylA36jqx;
+        "forge-26.3" = _rkiGbTGy;
         "fabric-1.21.11" = _X5N1eIui;
         "fabric-26.1" = _Lp40pQ8A;
         "fabric-26.1.1" = _Lp40pQ8A;
@@ -228,8 +235,8 @@ let
         "pkg-1.0.0" = _xcuIVr53;
         "pkg-1.0.1" = _MRNYwt2y;
         "pkg-1.0.2" = _6lvaFLaY;
-        "pkg-1.0.3" = _3GCIQ6Ht;
-        "default" = _3GCIQ6Ht;
+        "pkg-1.0.3" = _rkiGbTGy;
+        "default" = _rkiGbTGy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "string-dupe";

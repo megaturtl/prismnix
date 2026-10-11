@@ -1921,6 +1921,21 @@ let
             "file" = "toms_storage_fabric-26.3-2.12.0.jar";
             "hash" = "sha512-+9bTx+RgSBq0NnFkYhciRbMusYUiugxo1RTsgGsKklhnbIdojpmCHwYL1W6c5F2GaxnNkTed4wMVE63gmC3Dag==";
         };
+        _CSKYZTO8 = {
+            "id" = "CSKYZTO8";
+            "file" = "toms_storage-26.3-2.12.1.jar";
+            "hash" = "sha512-qnVoLOU3M8oKGlZVWD/nuM28nTTrDwV2Leojzy2qFTMjOS7mb58DSV338qedbIwt0+WERSHyWnZzQlzWoOeC8A==";
+        };
+        _znUwcb7Z = {
+            "id" = "znUwcb7Z";
+            "file" = "toms_storage_fabric-26.3-2.12.1.jar";
+            "hash" = "sha512-GmbJnYQyZ48oFI4DtBNYppfpYSfJJGSvsycrcEy4njjHBj9s9a4OS7MdHXXtoiQkcs5FWggVK33Mx+bO/Jtznw==";
+        };
+        _ctUMRmJQ = {
+            "id" = "ctUMRmJQ";
+            "file" = "toms_storage-26.3-2.12.2.jar";
+            "hash" = "sha512-jbzKLaNqGUiqNs5A0hCUiPvjHYJRnPm0LfVNcCkVJSXA3fJDehQHMfLmPFF29UVQ8mu2z6Q5zN3kXqiLKRNQJA==";
+        };
     in {
         "OuVq5op5" = _OuVq5op5;
         "MFFsa9k8" = _MFFsa9k8;
@@ -2306,6 +2321,9 @@ let
         "V1KIQDWS" = _V1KIQDWS;
         "o5IxrYts" = _o5IxrYts;
         "7rBEfM19" = _7rBEfM19;
+        "CSKYZTO8" = _CSKYZTO8;
+        "znUwcb7Z" = _znUwcb7Z;
+        "ctUMRmJQ" = _ctUMRmJQ;
         "forge-1.18" = _OuVq5op5;
         "forge-1.18.1" = _OuVq5op5;
         "forge-1.16.5" = _vA1AvvN1;
@@ -2376,7 +2394,7 @@ let
         "fabric-26.1.1" = _kaQdqIea;
         "fabric-26.1.2" = _kaQdqIea;
         "fabric-26.2" = _V1KIQDWS;
-        "fabric-26.3" = _7rBEfM19;
+        "fabric-26.3" = _znUwcb7Z;
         "quilt-1.18.2" = _D6WrGoAd;
         "quilt-22w17a" = _IdEpyr8t;
         "quilt-22w18a" = _IdEpyr8t;
@@ -2402,7 +2420,7 @@ let
         "neoforge-26.1.1" = _LJuuSq8p;
         "neoforge-26.1.2" = _4gfSOCkU;
         "neoforge-26.2" = _UdGowO79;
-        "neoforge-26.3" = _o5IxrYts;
+        "neoforge-26.3" = _ctUMRmJQ;
         "pkg-1.18-1.2.23" = _OuVq5op5;
         "pkg-1.2.19" = _MFFsa9k8;
         "pkg-1.1.16" = _BwKZgywB;
@@ -2779,7 +2797,10 @@ let
         "pkg-26.2-2.11.3-fabric" = _V1KIQDWS;
         "pkg-26.3-2.12.0" = _o5IxrYts;
         "pkg-26.3-2.12.0-fabric" = _7rBEfM19;
-        "default" = _7rBEfM19;
+        "pkg-26.3-2.12.1" = _CSKYZTO8;
+        "pkg-26.3-2.12.1-fabric" = _znUwcb7Z;
+        "pkg-26.3-2.12.2" = _ctUMRmJQ;
+        "default" = _ctUMRmJQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "toms-storage";

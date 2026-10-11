@@ -166,6 +166,11 @@ let
             "file" = "mods-command-mc26.2-1.1.16.jar";
             "hash" = "sha512-+Llr8rhSSPhQz0mXffMIT2r/A3zH66k0EV+jK+pIZe+rB/T/vnAl/Pcq/hezgCheZeCv7rrwU8Bl2F4Ro4dYTA==";
         };
+        _S2WtBEgc = {
+            "id" = "S2WtBEgc";
+            "file" = "mods-command-mc26.3-1.1.17.jar";
+            "hash" = "sha512-3oycYnQ2U3efUFUkP6pHm7OFosDhg0FtjBqwhGWZR8a1l1Gzpr3Wp+6HmEdvECd0c1ocWk27gQLcAGo+nkCWOA==";
+        };
     in {
         "WH4v4Tuc" = _WH4v4Tuc;
         "GDYcSDR8" = _GDYcSDR8;
@@ -200,6 +205,7 @@ let
         "kr5sf0TO" = _kr5sf0TO;
         "KhNMlgKF" = _KhNMlgKF;
         "KW1YTIeq" = _KW1YTIeq;
+        "S2WtBEgc" = _S2WtBEgc;
         "fabric-21w14a" = _WH4v4Tuc;
         "fabric-1.16.5" = _XhYAeFrA;
         "fabric-21w15a" = _wtn5fkDh;
@@ -225,6 +231,7 @@ let
         "fabric-1.21.11" = _kr5sf0TO;
         "fabric-26.1.2" = _KhNMlgKF;
         "fabric-26.2" = _KW1YTIeq;
+        "fabric-26.3" = _S2WtBEgc;
         "pkg-1.0.0+21w14a" = _WH4v4Tuc;
         "pkg-1.0.0+1.16.5" = _GDYcSDR8;
         "pkg-1.0.0+21w15a" = _CYrJcY2R;
@@ -258,7 +265,8 @@ let
         "pkg-1.1.14" = _kr5sf0TO;
         "pkg-1.1.15" = _KhNMlgKF;
         "pkg-1.1.16" = _KW1YTIeq;
-        "default" = _KW1YTIeq;
+        "pkg-1.1.17" = _S2WtBEgc;
+        "default" = _S2WtBEgc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mods-command";

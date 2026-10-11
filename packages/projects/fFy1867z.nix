@@ -16,10 +16,16 @@ let
             "file" = "Simple Foliage.zip";
             "hash" = "sha512-H4a5NbFEzdmeiEpV1ci3AgdrhlI5/POPNZ350IFTgMzn5XvL7qtgWgycTRM0srJG56QsojiFZBlG4wUUydaAjw==";
         };
+        _UnpQkd3q = {
+            "id" = "UnpQkd3q";
+            "file" = "Simple Foliage.zip";
+            "hash" = "sha512-H4a5NbFEzdmeiEpV1ci3AgdrhlI5/POPNZ350IFTgMzn5XvL7qtgWgycTRM0srJG56QsojiFZBlG4wUUydaAjw==";
+        };
     in {
         "HiIaF3ps" = _HiIaF3ps;
         "vtCqL0YF" = _vtCqL0YF;
         "uzKky180" = _uzKky180;
+        "UnpQkd3q" = _UnpQkd3q;
         "minecraft-1.21.4" = _HiIaF3ps;
         "minecraft-1.21.5-pre2" = _HiIaF3ps;
         "minecraft-1.21.9" = _uzKky180;
@@ -30,10 +36,12 @@ let
         "minecraft-26.1.2" = _uzKky180;
         "minecraft-1.21.8" = _uzKky180;
         "minecraft-26.2" = _uzKky180;
+        "minecraft-26.3" = _UnpQkd3q;
         "pkg-1.0" = _HiIaF3ps;
         "pkg-1.2" = _vtCqL0YF;
         "pkg-1.3" = _uzKky180;
-        "default" = _uzKky180;
+        "pkg-1.4" = _UnpQkd3q;
+        "default" = _UnpQkd3q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-foliage";

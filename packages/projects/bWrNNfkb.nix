@@ -351,6 +351,16 @@ let
             "file" = "Floodgate-Neoforge-2.2.6-b67.jar";
             "hash" = "sha512-yPhh23MWUzcFXoHS1tdSHpLg0hjJnUuaSTbf79kjd+l+8QhXqtkngwu99UuYk8BV1MjzNVW3+wBx5kawEIMYxQ==";
         };
+        _m9eO07Zi = {
+            "id" = "m9eO07Zi";
+            "file" = "Floodgate-Fabric-2.2.7-b69.jar";
+            "hash" = "sha512-kYX8lsDzAe4IZ9gwZcIQJ3BirT0VNunUIxJj+jLtMiPQCCaMSN6eAPDpoiQKLEXEOJNNAe+kCxtSOw0HLrMi1Q==";
+        };
+        _9mryDssz = {
+            "id" = "9mryDssz";
+            "file" = "Floodgate-Neoforge-2.2.7-b69.jar";
+            "hash" = "sha512-Y3XSMOvbk3cn5PCzr80tbrdfUwzrT4eUhZHL9kZgglKC4DEer5yHTkbhjyu7kj/vzwcaZgiCUSvqddld5Yw/cw==";
+        };
     in {
         "wue4ZawV" = _wue4ZawV;
         "e62TttaY" = _e62TttaY;
@@ -422,6 +432,8 @@ let
         "QblGyqiN" = _QblGyqiN;
         "urOFTrVX" = _urOFTrVX;
         "F88UjBuf" = _F88UjBuf;
+        "m9eO07Zi" = _m9eO07Zi;
+        "9mryDssz" = _9mryDssz;
         "fabric-1.19.4" = _vIbusVdM;
         "fabric-1.20" = _vIbusVdM;
         "fabric-1.20.2" = _zUrRGwbT;
@@ -444,6 +456,7 @@ let
         "fabric-26.1.1" = _fD4J9lnX;
         "fabric-26.1.2" = _fD4J9lnX;
         "fabric-26.2" = _urOFTrVX;
+        "fabric-26.3" = _m9eO07Zi;
         "neoforge-1.21" = _YapRHgnZ;
         "neoforge-1.21.1" = _YapRHgnZ;
         "neoforge-1.21.2" = _YapRHgnZ;
@@ -460,6 +473,7 @@ let
         "neoforge-26.1.1" = _y4adGmOp;
         "neoforge-26.1.2" = _y4adGmOp;
         "neoforge-26.2" = _F88UjBuf;
+        "neoforge-26.3" = _9mryDssz;
         "pkg-2.2.0-SNAPSHOT-3" = _wue4ZawV;
         "pkg-2.2.0-SNAPSHOT-4" = _e62TttaY;
         "pkg-2.2.0-SNAPSHOT-5" = _Cp8ca2gb;
@@ -507,7 +521,8 @@ let
         "pkg-2.2.6-b63" = _y4adGmOp;
         "pkg-2.2.6-b66" = _QblGyqiN;
         "pkg-2.2.6-b67" = _F88UjBuf;
-        "default" = _F88UjBuf;
+        "pkg-2.2.7-b69" = _9mryDssz;
+        "default" = _9mryDssz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "floodgate";

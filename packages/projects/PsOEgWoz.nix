@@ -61,6 +61,11 @@ let
             "file" = "Delight.map.-v1.6.zip";
             "hash" = "sha512-wM3RdAABRVcwYhxUouiyv1B6kOr44UBd8KE2GA7/JFrmuG3dAHzNvMqJuRcLhuDegvTTw9wN+OHQPqxrJHIHcQ==";
         };
+        _BVE6zqSn = {
+            "id" = "BVE6zqSn";
+            "file" = "Delight(map)-v1.6.1.zip";
+            "hash" = "sha512-mpUr5igt60kpxOvFUFaZqKu1N5GP6Lu6sr7IbK1RuVwJHm9R9rNWT2wclclbkfqeNaGSEj3vZcoIcPoNatJFVw==";
+        };
     in {
         "3DxD9Llr" = _3DxD9Llr;
         "QEvSuTVG" = _QEvSuTVG;
@@ -74,6 +79,7 @@ let
         "BtqPiYOW" = _BtqPiYOW;
         "h8hO7AM6" = _h8hO7AM6;
         "uWrDcI1o" = _uWrDcI1o;
+        "BVE6zqSn" = _BVE6zqSn;
         "minecraft-1.21.2" = _h8hO7AM6;
         "minecraft-1.21.3" = _h8hO7AM6;
         "minecraft-1.21.4" = _h8hO7AM6;
@@ -136,6 +142,7 @@ let
         "minecraft-26.1.1" = _uWrDcI1o;
         "minecraft-26.1.2" = _uWrDcI1o;
         "minecraft-26.2" = _uWrDcI1o;
+        "minecraft-26.3" = _BVE6zqSn;
         "pkg-1.0" = _3DxD9Llr;
         "pkg-1.1" = _QEvSuTVG;
         "pkg-1.2" = _6WQ3oSz3;
@@ -148,7 +155,8 @@ let
         "pkg-1.5.3" = _BtqPiYOW;
         "pkg-1.5.4" = _h8hO7AM6;
         "pkg-1.6" = _uWrDcI1o;
-        "default" = _uWrDcI1o;
+        "pkg-1.6.1" = _BVE6zqSn;
+        "default" = _BVE6zqSn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "delight-map";

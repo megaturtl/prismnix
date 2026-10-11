@@ -101,6 +101,56 @@ let
             "file" = "adchimneys-26.2.0.2-neoforge-build.0168.jar";
             "hash" = "sha512-A0ghpobYFTBrNssgQ6JEerfaF9yofmF1S9Zhmky/yNoGujU5NDhmqDVt3yZAR+moDGHyuWXbWPJHSuQMRXA9xg==";
         };
+        _DsuBuHcT = {
+            "id" = "DsuBuHcT";
+            "file" = "adchimneys-26.3.0.0-fabric-build.0062.jar";
+            "hash" = "sha512-ZEFVX3pTpr3hshEztqGzQDbPlN5y2Y4UHE3OV9jgrAur1QmFvPQc0t1GgHyV4ole3Xq75VmaV9JR86JlF1z2rQ==";
+        };
+        _wUiOhOhc = {
+            "id" = "wUiOhOhc";
+            "file" = "adchimneys-26.3.0.0-neoforge-build.0062.jar";
+            "hash" = "sha512-PU4B7TNgK0nobw0J/Q1yAAw3uhEYuELzZuelISH6GM/ZaX43Ca15GON3ACSku+qXPMRmCy7WJfwmJjTmP6njgA==";
+        };
+        _GbjIk4ST = {
+            "id" = "GbjIk4ST";
+            "file" = "adchimneys-26.3.0.0-forge-build.0068.jar";
+            "hash" = "sha512-4ns5BtFgI7FOQSSOfCqaqG0micfSYW9lhmoBb7HdsfWH782gnrJ/QxlF05bJ03mxlj1UbEKyn6T+znvRKX4ldg==";
+        };
+        _5uy7UvTS = {
+            "id" = "5uy7UvTS";
+            "file" = "AdChimneys-1.21.1-11.1.11.0-NeoForge-build.1161.jar";
+            "hash" = "sha512-7ZV2u3L8YWEezspxpno+NbOgqR37AXvir58dCoZrCO12qBogUZc0eGhqky7pK/tkiVTktQ2OjC8ZjRCUeBFwpw==";
+        };
+        _OZURCoPq = {
+            "id" = "OZURCoPq";
+            "file" = "adchimneys-26.2.0.3-fabric-build.0201.jar";
+            "hash" = "sha512-X76aRszFADbw1bsBJUv1wMhnKHgcGoMCACa5T6g+C820H4lvPMeU90hBufi0PRh9jWOLx+TR677Al04kXZ83yQ==";
+        };
+        _wsGyIcEm = {
+            "id" = "wsGyIcEm";
+            "file" = "adchimneys-26.2.0.3-forge-build.0201.jar";
+            "hash" = "sha512-l3xO9RtvUP1fvsrUCutCQIUFme0cHeNvalG8OR3gprALHTWOoBeQ1p1Kw0R/aiCv5NpQPa1K0fkKlif+OOUlEA==";
+        };
+        _CsaAlyxc = {
+            "id" = "CsaAlyxc";
+            "file" = "adchimneys-26.2.0.3-neoforge-build.0201.jar";
+            "hash" = "sha512-76aH14NOGxSB4xCnPpEriFlQxiVCvXxkOis3Unz2Pbw8C7RvC0bWaEuLM9a4RBdj326NBCHYSE4ir1jCVMauVg==";
+        };
+        _ASEt7Igg = {
+            "id" = "ASEt7Igg";
+            "file" = "adchimneys-26.3.0.1-fabric-build.0125.jar";
+            "hash" = "sha512-PMDEXNsVHNhLquOvWO0O5c/1evAlKQhi6rnlBpdnzHDf0a4GQqUWS6MVlKrFDn1Rr/v6I2KBVc2GR68OTtWRjg==";
+        };
+        _vksOC92K = {
+            "id" = "vksOC92K";
+            "file" = "adchimneys-26.3.0.1-forge-build.0125.jar";
+            "hash" = "sha512-HcNIrNQeATA/S5uQpizD12i+hwguzxjMZZjjXDOUHaESG4sq85e9PkzP0eURczL7CFIUdNzqLr3HN/ZM3LnN3Q==";
+        };
+        _iENhA298 = {
+            "id" = "iENhA298";
+            "file" = "adchimneys-26.3.0.1-neoforge-build.0125.jar";
+            "hash" = "sha512-wN7Az4Aqgf/yKUi7EZFvdoarQkEpu57Zb1uz8/upp5INinKxBW9ytaCd+JrmD2iHMFyPfdQO9TEsvbVKRftW0w==";
+        };
     in {
         "jvhEHBRv" = _jvhEHBRv;
         "DKAG5gSO" = _DKAG5gSO;
@@ -122,11 +172,24 @@ let
         "U1Fhw8p7" = _U1Fhw8p7;
         "sXMhnOhX" = _sXMhnOhX;
         "yEsfjBEA" = _yEsfjBEA;
-        "fabric-26.2" = _U1Fhw8p7;
-        "forge-26.2" = _sXMhnOhX;
+        "DsuBuHcT" = _DsuBuHcT;
+        "wUiOhOhc" = _wUiOhOhc;
+        "GbjIk4ST" = _GbjIk4ST;
+        "5uy7UvTS" = _5uy7UvTS;
+        "OZURCoPq" = _OZURCoPq;
+        "wsGyIcEm" = _wsGyIcEm;
+        "CsaAlyxc" = _CsaAlyxc;
+        "ASEt7Igg" = _ASEt7Igg;
+        "vksOC92K" = _vksOC92K;
+        "iENhA298" = _iENhA298;
+        "fabric-26.2" = _OZURCoPq;
+        "fabric-26.3" = _ASEt7Igg;
+        "forge-26.2" = _wsGyIcEm;
         "forge-1.20.1" = _E4CaagJy;
-        "neoforge-26.2" = _yEsfjBEA;
-        "neoforge-1.21.1" = _8yQlbwVK;
+        "forge-26.3" = _vksOC92K;
+        "neoforge-26.2" = _CsaAlyxc;
+        "neoforge-1.21.1" = _5uy7UvTS;
+        "neoforge-26.3" = _iENhA298;
         "pkg-26.2.0.0" = _cz7HgmoT;
         "pkg-11.1.6.1" = _NRr3OsWd;
         "pkg-11.1.7.0" = _saHm3vYW;
@@ -140,7 +203,11 @@ let
         "pkg-10.1.33.0" = _E4CaagJy;
         "pkg-11.1.10.0" = _8yQlbwVK;
         "pkg-26.2.0.2" = _yEsfjBEA;
-        "default" = _yEsfjBEA;
+        "pkg-26.3.0.0" = _GbjIk4ST;
+        "pkg-11.1.11.0" = _5uy7UvTS;
+        "pkg-26.2.0.3" = _CsaAlyxc;
+        "pkg-26.3.0.1" = _iENhA298;
+        "default" = _iENhA298;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "advanced-chimneys";

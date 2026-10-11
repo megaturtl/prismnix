@@ -221,6 +221,11 @@ let
             "file" = "dragonkind-evolved-by-kanokarob-v1.15.zip";
             "hash" = "sha512-S4I2NiEosWVrtEmbMmveXxiesLbkNrXUz/fCZPUQUZTG7iSQsojcNf3ux0YewDRtj3XnWRuSbUT8WsZpV4zhJA==";
         };
+        _eft9uYXU = {
+            "id" = "eft9uYXU";
+            "file" = "dragonkind-evolved-1.15.jar";
+            "hash" = "sha512-VgnU1LhK2TF71rGSq0hxEOyc9+qragUNqd9bzdlmA4yGhoaf0Ht4/XukpQhKoGNgVW/LOUro3lo2k7+5YbcTmQ==";
+        };
     in {
         "QrVo7XNF" = _QrVo7XNF;
         "QHYPW6wt" = _QHYPW6wt;
@@ -266,6 +271,7 @@ let
         "E3UZh2ua" = _E3UZh2ua;
         "uMr7NdOz" = _uMr7NdOz;
         "ukamYQGg" = _ukamYQGg;
+        "eft9uYXU" = _eft9uYXU;
         "datapack-1.20.3" = _Gytxg4NB;
         "datapack-1.20.4" = _Gytxg4NB;
         "datapack-1.20.2" = _Gytxg4NB;
@@ -309,6 +315,7 @@ let
         "fabric-26.1.1" = _MhASEiL3;
         "fabric-26.1.2" = _MhASEiL3;
         "fabric-26.2" = _uMr7NdOz;
+        "fabric-26.3" = _eft9uYXU;
         "forge-1.20.3" = _oa0WMeEv;
         "forge-1.20.4" = _oa0WMeEv;
         "forge-1.20.2" = _oa0WMeEv;
@@ -330,6 +337,7 @@ let
         "forge-26.1.1" = _MhASEiL3;
         "forge-26.1.2" = _MhASEiL3;
         "forge-26.2" = _uMr7NdOz;
+        "forge-26.3" = _eft9uYXU;
         "quilt-1.20.3" = _oa0WMeEv;
         "quilt-1.20.4" = _oa0WMeEv;
         "quilt-1.20.2" = _oa0WMeEv;
@@ -351,6 +359,7 @@ let
         "quilt-26.1.1" = _MhASEiL3;
         "quilt-26.1.2" = _MhASEiL3;
         "quilt-26.2" = _uMr7NdOz;
+        "quilt-26.3" = _eft9uYXU;
         "neoforge-1.21" = _xWCZpKMt;
         "neoforge-1.21.1" = _xWCZpKMt;
         "neoforge-1.21.2" = _WAbP6kV9;
@@ -367,6 +376,7 @@ let
         "neoforge-26.1.1" = _MhASEiL3;
         "neoforge-26.1.2" = _MhASEiL3;
         "neoforge-26.2" = _uMr7NdOz;
+        "neoforge-26.3" = _eft9uYXU;
         "pkg-1.0" = _QrVo7XNF;
         "pkg-1.0+mod" = _QHYPW6wt;
         "pkg-1.1" = _8SZEpZ8M;
@@ -410,7 +420,8 @@ let
         "pkg-1.14" = _E3UZh2ua;
         "pkg-1.14+mod" = _uMr7NdOz;
         "pkg-1.15" = _ukamYQGg;
-        "default" = _ukamYQGg;
+        "pkg-1.15+mod" = _eft9uYXU;
+        "default" = _eft9uYXU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dragonkind-evolved";

@@ -86,6 +86,16 @@ let
             "file" = "1.21.4 Mel's Vanilla+ v1.4.jar";
             "hash" = "sha512-xXM5ACJ+s4cxxmQWN1pbzVmWQ/5iYQ2cHkRhVsgR0jr11E1R1o1GKsFrScgJ1WXiEFZKJB84GrOY1uHbTC6uJg==";
         };
+        _TA1S1zNo = {
+            "id" = "TA1S1zNo";
+            "file" = "1.20.1 Mel's Vanilla+ v1.4.1.jar";
+            "hash" = "sha512-jKqS40Vbxadpup42DOldpDdsJZbvRcl3Ovq1ZUwcooMSfM5AXmfsjEKGefPxPibDEm6oizcWlHcx9iWG5PNyLw==";
+        };
+        _fiXHjlpu = {
+            "id" = "fiXHjlpu";
+            "file" = "1.21.1 Mel's Vanilla+ v1.4.1.jar";
+            "hash" = "sha512-qfj7f5J2pLghyF6ToCQDBxeQs/ZNoImRVoifHb/QL3REis0UL8640uk5bH/v1M34oambC5Z+O+DLtv+Xwj5VJQ==";
+        };
     in {
         "DWRPH2H2" = _DWRPH2H2;
         "51fBrJKR" = _51fBrJKR;
@@ -104,10 +114,12 @@ let
         "uTAuBdkM" = _uTAuBdkM;
         "vDijrgiP" = _vDijrgiP;
         "6sD7RHNF" = _6sD7RHNF;
+        "TA1S1zNo" = _TA1S1zNo;
+        "fiXHjlpu" = _fiXHjlpu;
         "forge-1.19.2" = _DWRPH2H2;
         "forge-1.19.4" = _51fBrJKR;
-        "forge-1.20.1" = _uTAuBdkM;
-        "neoforge-1.21.1" = _vDijrgiP;
+        "forge-1.20.1" = _TA1S1zNo;
+        "neoforge-1.21.1" = _fiXHjlpu;
         "neoforge-1.21.4" = _6sD7RHNF;
         "pkg-1.0.0" = _cU9L2nWi;
         "pkg-1.1.0" = _B2ZgHxxa;
@@ -119,7 +131,8 @@ let
         "pkg-1.2.2" = _YDZTFatS;
         "pkg-1.3" = _wsc1bzea;
         "pkg-1.4" = _6sD7RHNF;
-        "default" = _6sD7RHNF;
+        "pkg-1.4.1" = _fiXHjlpu;
+        "default" = _fiXHjlpu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mels-vanilla+";

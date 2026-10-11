@@ -16,10 +16,16 @@ let
             "file" = "§7§l§nBoss Bars Reloaded§8§k.zip";
             "hash" = "sha512-+5WnRPooy1livTrZebiKOhSkw5rdvcO3a1JPBdDAnKLp1N2EqvBvL91xANJ7X/lxNY1sEJb8TX6z7t8pjuUhBg==";
         };
+        _fjhyv3D9 = {
+            "id" = "fjhyv3D9";
+            "file" = "§7§l§nBoss Bars Reloaded§8§k.zip";
+            "hash" = "sha512-N6RrihBBCnXhfhptGRKAsONonGog3fp7iwD3EF/8OIZXVGConrL6hWlNMYmsSm9VIFjaaZAKTW8cUHEhJyK6iw==";
+        };
     in {
         "GBIgSgKI" = _GBIgSgKI;
         "by8lqXB3" = _by8lqXB3;
         "keoIS4vm" = _keoIS4vm;
+        "fjhyv3D9" = _fjhyv3D9;
         "minecraft-1.21.4" = _GBIgSgKI;
         "minecraft-1.21.5" = _by8lqXB3;
         "minecraft-1.21.6" = _keoIS4vm;
@@ -28,10 +34,12 @@ let
         "minecraft-1.21.9" = _keoIS4vm;
         "minecraft-1.21.10" = _keoIS4vm;
         "minecraft-1.21.11" = _keoIS4vm;
+        "minecraft-26.3" = _fjhyv3D9;
         "pkg-1.0.0" = _GBIgSgKI;
         "pkg-1.0.1" = _by8lqXB3;
         "pkg-1.0.2" = _keoIS4vm;
-        "default" = _keoIS4vm;
+        "pkg-1.0.3" = _fjhyv3D9;
+        "default" = _fjhyv3D9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "boss-bars-reloaded";

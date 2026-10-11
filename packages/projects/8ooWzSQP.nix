@@ -361,6 +361,26 @@ let
             "file" = "spell_power-fabric-1.6.0+1.20.1.jar";
             "hash" = "sha512-I+/Y6V80y6jzPlq7yYuIUFk/FOjEjM7KLQJXHmAoN8FVLaUnywyF+Ei6aPd8YPPtW4nRTJqyXhctMm9cDJix2A==";
         };
+        _7FbHvvWA = {
+            "id" = "7FbHvvWA";
+            "file" = "spell_power-fabric-1.6.1+1.20.1.jar";
+            "hash" = "sha512-J4zQnSru0302IDK4iwnMt39FLz4Oh7K0nhrCxLr08lqr8VIIRo5wTxr9wZEAtmo4jPAFoCCsC1u/KBPPTGdAfQ==";
+        };
+        _ko7p47uf = {
+            "id" = "ko7p47uf";
+            "file" = "spell_power-forge-1.6.1+1.20.1.jar";
+            "hash" = "sha512-2GpuAWcGMh7ZugcJ9AZNSUkZ/vQ0LK70h2uQIXyZ0lND4swAmcX+G26/K4BFpn7Tcx0HV6x6C+a1m8o1m7g3hQ==";
+        };
+        _YdRPWTj8 = {
+            "id" = "YdRPWTj8";
+            "file" = "spell_power-fabric-1.6.2+26.3.jar";
+            "hash" = "sha512-Jvv4JDkf1KzzoukdZgcFx0XGvxRNdu3fWnTgX4f6PQ/Bbj9ha5cuAGV6k8WQ7MhdgiiVEz6zz8NIgtKMq16b5A==";
+        };
+        _Pl5krjwF = {
+            "id" = "Pl5krjwF";
+            "file" = "spell_power-neoforge-1.6.2+26.3.jar";
+            "hash" = "sha512-ibyaQ1pjdMWI8AxEsLArR2jcR0abV1xNNBcM2ApdPSH57taDZ3OS9LRL4k/zimRnXj8O+orcxEZHsEx/6H8owA==";
+        };
     in {
         "OZt33z9y" = _OZt33z9y;
         "8JZtHM36" = _8JZtHM36;
@@ -434,24 +454,30 @@ let
         "O9s0d40b" = _O9s0d40b;
         "USJAOCPM" = _USJAOCPM;
         "ILAOxp49" = _ILAOxp49;
+        "7FbHvvWA" = _7FbHvvWA;
+        "ko7p47uf" = _ko7p47uf;
+        "YdRPWTj8" = _YdRPWTj8;
+        "Pl5krjwF" = _Pl5krjwF;
         "fabric-1.19" = _o5zzsgPA;
         "fabric-1.19.1" = _o5zzsgPA;
         "fabric-1.19.2" = _o5zzsgPA;
-        "fabric-1.20.1" = _ILAOxp49;
+        "fabric-1.20.1" = _7FbHvvWA;
         "fabric-1.21" = _IyVyrKj8;
         "fabric-1.21.1" = _IyVyrKj8;
         "fabric-26.1" = _1QnsfrhD;
         "fabric-26.1.1" = _1QnsfrhD;
         "fabric-26.1.2" = _1QnsfrhD;
         "fabric-26.2" = _hZSvBdgk;
+        "fabric-26.3" = _YdRPWTj8;
         "neoforge-1.21" = _RFCD8Aio;
         "neoforge-1.21.1" = _RFCD8Aio;
         "neoforge-26.1" = _O9s0d40b;
         "neoforge-26.1.1" = _O9s0d40b;
         "neoforge-26.1.2" = _O9s0d40b;
         "neoforge-26.2" = _JlBYCif9;
-        "neoforge-1.20.1" = _USJAOCPM;
-        "forge-1.20.1" = _USJAOCPM;
+        "neoforge-1.20.1" = _ko7p47uf;
+        "neoforge-26.3" = _Pl5krjwF;
+        "forge-1.20.1" = _ko7p47uf;
         "pkg-0.9.0+1.19-fabric" = _OZt33z9y;
         "pkg-0.9.3+1.19-fabric" = _8JZtHM36;
         "pkg-0.9.4+1.19-fabric" = _FOc76ayi;
@@ -524,7 +550,11 @@ let
         "pkg-1.6.2+26.1.2-neoforge" = _O9s0d40b;
         "pkg-1.6.0+1.20.1-forge" = _USJAOCPM;
         "pkg-1.6.0+1.20.1-fabric" = _ILAOxp49;
-        "default" = _ILAOxp49;
+        "pkg-1.6.1+1.20.1-fabric" = _7FbHvvWA;
+        "pkg-1.6.1+1.20.1-forge" = _ko7p47uf;
+        "pkg-1.6.2+26.3-fabric" = _YdRPWTj8;
+        "pkg-1.6.2+26.3-neoforge" = _Pl5krjwF;
+        "default" = _Pl5krjwF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spell-power";

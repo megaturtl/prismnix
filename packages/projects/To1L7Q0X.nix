@@ -131,6 +131,16 @@ let
             "file" = "menumusic-1.11.1+26.2-neoforge.jar";
             "hash" = "sha512-elf8b9dim2IhLToKP73V3wBXztxZGPLYU2r3HtEJdwetp+/YvJIA7F0b99l4G20jdAdJEoR2GaXUZxWnsnrBrA==";
         };
+        _wdPei7NH = {
+            "id" = "wdPei7NH";
+            "file" = "menumusic-1.11.2+26.2-fabric.jar";
+            "hash" = "sha512-6A1JF8+XSuZo+LPWmSUsDTnR1GtQImsUuy5vkqIGbHqiqCa/DTHJx+eAesCiKSkoiABB2s9urVY9PscEtKxEVA==";
+        };
+        _2Xni3unY = {
+            "id" = "2Xni3unY";
+            "file" = "menumusic-1.11.2+26.2-neoforge.jar";
+            "hash" = "sha512-06p7xx+tPO31DWVDURQxFzItU738TxARWP0zItzoDrD4Zvm5dDXOGbYUfKBwFEKa5CCUZLHnf/6lJsJaLpVz6g==";
+        };
     in {
         "CvKGI9So" = _CvKGI9So;
         "pGryqMhD" = _pGryqMhD;
@@ -158,6 +168,8 @@ let
         "Sj8LjCHw" = _Sj8LjCHw;
         "j8NiKxiL" = _j8NiKxiL;
         "DMq8BJHI" = _DMq8BJHI;
+        "wdPei7NH" = _wdPei7NH;
+        "2Xni3unY" = _2Xni3unY;
         "fabric-1.18.2" = _CvKGI9So;
         "fabric-1.19.2" = _pGryqMhD;
         "fabric-1.19.3" = _SKB8zBx8;
@@ -176,8 +188,8 @@ let
         "fabric-1.21.10" = _RB6neSWB;
         "fabric-1.21.11" = _Vp5MYoL6;
         "fabric-26.1.2" = _S89yUNRK;
-        "fabric-26.2" = _j8NiKxiL;
-        "neoforge-26.2" = _DMq8BJHI;
+        "fabric-26.2" = _wdPei7NH;
+        "neoforge-26.2" = _2Xni3unY;
         "pkg-1.0" = _CvKGI9So;
         "pkg-1.1" = _pGryqMhD;
         "pkg-1.2" = _SKB8zBx8;
@@ -202,7 +214,8 @@ let
         "pkg-1.10.0" = _OYgqA3aA;
         "pkg-1.11.0" = _Sj8LjCHw;
         "pkg-1.11.1" = _DMq8BJHI;
-        "default" = _DMq8BJHI;
+        "pkg-1.11.2" = _2Xni3unY;
+        "default" = _2Xni3unY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "menumusic";

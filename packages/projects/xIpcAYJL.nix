@@ -106,6 +106,11 @@ let
             "file" = "better-selection-1.9.jar";
             "hash" = "sha512-rpRZ3s7UQgf/YcX6CV3WSo8mzoy/5KER8tc44mfvqmNRaFg7ZLmjGxyloSzti+Em+cOLWjBcRsQ8HTAyKv2n7Q==";
         };
+        _5a2ogIKs = {
+            "id" = "5a2ogIKs";
+            "file" = "better-selection-mc-1.9.1.jar";
+            "hash" = "sha512-WsNs5pbfBY1lYUT4awdEqCPABMXsEWiFosEpo3RFkJwjZBNktG1PfKN4jco1Bf1rL6nJrN6dGpoNuYIKoI/v+Q==";
+        };
     in {
         "XTgmuctG" = _XTgmuctG;
         "i4vFjaDU" = _i4vFjaDU;
@@ -128,6 +133,7 @@ let
         "z4C9yszZ" = _z4C9yszZ;
         "OO0yafe4" = _OO0yafe4;
         "gmVdvtzF" = _gmVdvtzF;
+        "5a2ogIKs" = _5a2ogIKs;
         "fabric-1.19.3" = _XTgmuctG;
         "fabric-1.19.4" = _XTgmuctG;
         "fabric-1.20" = _uWIwswds;
@@ -149,7 +155,8 @@ let
         "fabric-1.21.9" = _z4C9yszZ;
         "fabric-1.21.10" = _z4C9yszZ;
         "fabric-1.21.11" = _OO0yafe4;
-        "fabric-26.2" = _gmVdvtzF;
+        "fabric-26.2" = _5a2ogIKs;
+        "fabric-26.3" = _5a2ogIKs;
         "pkg-1" = _XTgmuctG;
         "pkg-1.1" = _i4vFjaDU;
         "pkg-1.1.1" = _6dpRtq4X;
@@ -171,7 +178,8 @@ let
         "pkg-1.7.1" = _z4C9yszZ;
         "pkg-1.8" = _OO0yafe4;
         "pkg-1.9" = _gmVdvtzF;
-        "default" = _gmVdvtzF;
+        "pkg-1.9.1" = _5a2ogIKs;
+        "default" = _5a2ogIKs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-selection";

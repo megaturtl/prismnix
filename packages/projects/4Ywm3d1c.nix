@@ -66,6 +66,11 @@ let
             "file" = "simple-warp-tpa-home-back-26.3-1.3.jar";
             "hash" = "sha512-Qa9/K/BWIaaNQIZzFhgAP/sQgjxj2H+nDMrrAwvnVrpntvjjJhumbdqWpPnoFRs5ihMB+NSapz/eZK7+misoXQ==";
         };
+        _ieURGaWl = {
+            "id" = "ieURGaWl";
+            "file" = "simple-warp-tpa-home-back-neoforge-1.3-1.21.1.jar";
+            "hash" = "sha512-tuoxXRKUN8kcpTWnMD8lesM2JTKKLMMCkNZwFWc9jf5O/fzzXQBD9n3e+dRlenD0kpTqKtc3pE2X58dRXcuUkg==";
+        };
     in {
         "tNtAzpbG" = _tNtAzpbG;
         "8PEgzoPa" = _8PEgzoPa;
@@ -80,6 +85,7 @@ let
         "L9OzMaXn" = _L9OzMaXn;
         "ameNnpfN" = _ameNnpfN;
         "OPu4idjS" = _OPu4idjS;
+        "ieURGaWl" = _ieURGaWl;
         "fabric-1.20.1" = _mqzeX9Yg;
         "fabric-1.21.1" = _CmtPCacb;
         "fabric-1.21.11" = _4MNEQUaH;
@@ -88,15 +94,16 @@ let
         "fabric-1.21.4" = _L9OzMaXn;
         "fabric-26.3" = _OPu4idjS;
         "forge-1.20.1" = _ameNnpfN;
+        "neoforge-1.21.1" = _ieURGaWl;
         "pkg-1.20.1-1.2" = _tNtAzpbG;
         "pkg-1.21.1-1.2" = _8PEgzoPa;
         "pkg-1.21.11-1.2" = _tPtRueCu;
         "pkg-26.1.2-1.2" = _LGl73bPh;
         "pkg-26.2-1.2" = _gApyZU5F;
-        "pkg-1.3" = _OPu4idjS;
+        "pkg-1.3" = _ieURGaWl;
         "pkg-1.3.1" = _mqzeX9Yg;
         "pkg-1.3.0" = _ameNnpfN;
-        "default" = _OPu4idjS;
+        "default" = _ieURGaWl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ziy-swthb";

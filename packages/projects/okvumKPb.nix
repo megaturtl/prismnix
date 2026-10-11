@@ -171,6 +171,26 @@ let
             "file" = "farmtweaks-2.2.jar";
             "hash" = "sha512-Iad2eNDj9u9mpqfWC26BrZEWRLirSk2ZpvQaINrqfF0BuGlKetKJcKFh4xd3zIodqM9tYzBcnw3gpQYIpOi+lA==";
         };
+        _fox849wQ = {
+            "id" = "fox849wQ";
+            "file" = "farmtweaks-2.3.jar";
+            "hash" = "sha512-5rso1prKziUFBcgLuk4gw58vrQfgbpfA5dgJq0b/KePK2kdQVENZjZAyLvAty1tl9FPJftEQe+oo1QbfTxUOnA==";
+        };
+        _XhQWVRbm = {
+            "id" = "XhQWVRbm";
+            "file" = "farmtweaks-2.3-26.3.jar";
+            "hash" = "sha512-J2E5rM2wACtq3JwxPFoSK7g0QKKqnrnaQN0IvwUPUwhWE0t/Gf69rq33aMrFVjQ73EXEeI7POUzVxDPfj49a1A==";
+        };
+        _1Rwl4l40 = {
+            "id" = "1Rwl4l40";
+            "file" = "farmtweaks-2.3a.jar";
+            "hash" = "sha512-bTYnYdxjMYJf0MTYmySKBneVeEwR3IMJEyzTjNgJ7blXJ12KQ6GFQsxgOi1l4JEnLqEOQ1QV8FiJ9rPbuknTbg==";
+        };
+        _H3pt7jDS = {
+            "id" = "H3pt7jDS";
+            "file" = "farmtweaks-2.3a-26.1.jar";
+            "hash" = "sha512-d0BXOxYFuW82Ry5RCNE979RClD5STfgObapH29aeWeTSBiNLvst3lY80Y9+LUyzUsicj3HQkOmCJO1bzTl2u/w==";
+        };
     in {
         "vgFwCTpy" = _vgFwCTpy;
         "J8pVNLes" = _J8pVNLes;
@@ -206,6 +226,10 @@ let
         "Zi4SIwCp" = _Zi4SIwCp;
         "9YVIifRX" = _9YVIifRX;
         "yr8G6QXm" = _yr8G6QXm;
+        "fox849wQ" = _fox849wQ;
+        "XhQWVRbm" = _XhQWVRbm;
+        "1Rwl4l40" = _1Rwl4l40;
+        "H3pt7jDS" = _H3pt7jDS;
         "fabric-1.20" = _sDmGL71X;
         "fabric-1.20.1" = _sDmGL71X;
         "fabric-1.20.2" = _pSJpJKTi;
@@ -225,10 +249,11 @@ let
         "fabric-1.21.9" = _zPiBsWzJ;
         "fabric-1.21.10" = _zPiBsWzJ;
         "fabric-1.21.11" = _8WyJW1mZ;
-        "fabric-26.1" = _yr8G6QXm;
-        "fabric-26.1.1" = _yr8G6QXm;
-        "fabric-26.1.2" = _yr8G6QXm;
-        "fabric-26.2" = _yr8G6QXm;
+        "fabric-26.1" = _H3pt7jDS;
+        "fabric-26.1.1" = _H3pt7jDS;
+        "fabric-26.1.2" = _H3pt7jDS;
+        "fabric-26.2" = _H3pt7jDS;
+        "fabric-26.3" = _1Rwl4l40;
         "pkg-1.0+1.20" = _vgFwCTpy;
         "pkg-1.0+1.20.1" = _J8pVNLes;
         "pkg-1.0+1.20.2" = _XcMtpVKr;
@@ -263,7 +288,11 @@ let
         "pkg-2.0a" = _Zi4SIwCp;
         "pkg-2.1" = _9YVIifRX;
         "pkg-2.2" = _yr8G6QXm;
-        "default" = _yr8G6QXm;
+        "pkg-2.3" = _fox849wQ;
+        "pkg-2.3-26.3" = _XhQWVRbm;
+        "pkg-2.3a" = _1Rwl4l40;
+        "pkg-2.3a-26.1" = _H3pt7jDS;
+        "default" = _H3pt7jDS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "farmtweaks";

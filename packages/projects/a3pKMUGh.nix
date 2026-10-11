@@ -81,6 +81,11 @@ let
             "file" = "kastsize-1.0.0.jar";
             "hash" = "sha512-0JiKmwczQJjwJvTVloJQJnjI27NuF/mymD/I+02PNTfDrRjO0I53ob0DHCldACgFMlZtRLURvwt9DxBGx2Az2w==";
         };
+        _3IaMet44 = {
+            "id" = "3IaMet44";
+            "file" = "kastsize-1.0.0+26.3.jar";
+            "hash" = "sha512-5kpG+zGxanQJCymdQJgyvr4z5d2BRy6uCELUSleCCqNudIiYSg9kwjps45ZdoL2QBNfGxh6LMDx7FA0G1chTVw==";
+        };
     in {
         "67gufs6L" = _67gufs6L;
         "OKjWx9ts" = _OKjWx9ts;
@@ -98,6 +103,7 @@ let
         "IhQQcapR" = _IhQQcapR;
         "LLDB7Sze" = _LLDB7Sze;
         "KhQoQp8N" = _KhQoQp8N;
+        "3IaMet44" = _3IaMet44;
         "fabric-1.21.10" = _67gufs6L;
         "fabric-1.21.11" = _OKjWx9ts;
         "fabric-1.21.9" = _z5FnS858;
@@ -114,8 +120,9 @@ let
         "fabric-26.1" = _IhQQcapR;
         "fabric-26.1.1" = _LLDB7Sze;
         "fabric-26.2" = _KhQoQp8N;
-        "pkg-1.0.0" = _KhQoQp8N;
-        "default" = _KhQoQp8N;
+        "fabric-26.3" = _3IaMet44;
+        "pkg-1.0.0" = _3IaMet44;
+        "default" = _3IaMet44;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kastsize-aspect-ratio-stretch";

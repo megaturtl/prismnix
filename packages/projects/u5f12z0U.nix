@@ -96,6 +96,11 @@ let
             "file" = "theforgotten-2.2.6-1.20.1-forge.jar";
             "hash" = "sha512-zzs9JvpoiWvl0EgF15Xao+tRuVon90FBswtfiKgsVaHhVnN5IFINJv6mj1dGELx1XeIJmr4W5Ig2QU0pqlw1pA==";
         };
+        _tTJlCqQF = {
+            "id" = "tTJlCqQF";
+            "file" = "theforgotten-2.2.7-1.20.1-forge.jar";
+            "hash" = "sha512-fPYsaWTVwEN8wYa5rz79+joNHv6ujfCv7WUuI3WxMmGjGqrv+CU3KVjeJP03dp/mwo0GJ/mg2zBtdYy2O3OiVQ==";
+        };
     in {
         "QyJfjEwC" = _QyJfjEwC;
         "VQqdrBvF" = _VQqdrBvF;
@@ -116,7 +121,8 @@ let
         "dalUtc6u" = _dalUtc6u;
         "roKofymm" = _roKofymm;
         "DwzkZm7Q" = _DwzkZm7Q;
-        "forge-1.20.1" = _DwzkZm7Q;
+        "tTJlCqQF" = _tTJlCqQF;
+        "forge-1.20.1" = _tTJlCqQF;
         "pkg-0.1-1.20.1-forge" = _QyJfjEwC;
         "pkg-0.3-1.20.1-forge" = _VQqdrBvF;
         "pkg-0.4-1.20.1-forge" = _JPFTtTPb;
@@ -136,7 +142,8 @@ let
         "pkg-2.2.3-1.20.1-forge" = _dalUtc6u;
         "pkg-2.2.5-1.20.1-forge" = _roKofymm;
         "pkg-2.2.6-1.20.1-forge" = _DwzkZm7Q;
-        "default" = _DwzkZm7Q;
+        "pkg-2.2.7" = _tTJlCqQF;
+        "default" = _tTJlCqQF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-forgotten";

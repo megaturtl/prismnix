@@ -401,6 +401,26 @@ let
             "file" = "more_orn_plants-neoforge-1.21.1-1.3.2-bailu.jar";
             "hash" = "sha512-/qvTAO6+07h5NIY9lqx3FFzqWupB2BcjxYHMKazdNvRnJdI7UQV899NkK7qzPHCeEbLKup3HkOFfBOdmhQ1vqQ==";
         };
+        _E3T8mM2P = {
+            "id" = "E3T8mM2P";
+            "file" = "more_orn_plants-forge-1.20.1-1.3.3-Zhongqiu.jar";
+            "hash" = "sha512-7tBxggvGlMx+s4W8/IXGVrSXogoEwAFc1rtCOHmwntsMPGlmOKCIXH7Q1x5OhUEbik7iAmANBPxQs/wLHmsavg==";
+        };
+        _J0vo4Q3r = {
+            "id" = "J0vo4Q3r";
+            "file" = "more_orn_plants-neoforge-1.21.1-1.3.3-Zhongqiu.jar";
+            "hash" = "sha512-8r27eKdX0lkWjfFnCjpDSauDJ1uopsx2L2Dx6t7XDL9oKWdOSEpoArp/aKotNlekShZYGax5Lht1b7Gxl0b7Rw==";
+        };
+        _qcK28gLD = {
+            "id" = "qcK28gLD";
+            "file" = "more_orn_plants-forge-1.20.1-1.3.4-Hanlu.jar";
+            "hash" = "sha512-ds82vnuOwkqPHeRa4zkOlXMznEMrx0+1gdfPBv8Nap0m5vTabokr3KWSO31J2t5AnvlJa6Ii73IWucZh6Qykgw==";
+        };
+        _c8vWBPj8 = {
+            "id" = "c8vWBPj8";
+            "file" = "more_orn_plants-neoforge-1.21.1-1.3.4-Hanlu.jar";
+            "hash" = "sha512-SoR01lYrHejF3Ci0iPJtoNbHolZrrIrlhGy4I7Gpm84SQ1Cyf0qgG8M96T7dsXcchkQYu5cXMBpFopcikH5ROQ==";
+        };
     in {
         "5fas77mx" = _5fas77mx;
         "TAzsYw8I" = _TAzsYw8I;
@@ -482,8 +502,12 @@ let
         "FSk8Wqm8" = _FSk8Wqm8;
         "G8PVlvJO" = _G8PVlvJO;
         "wrcXgeVo" = _wrcXgeVo;
-        "forge-1.20.1" = _G8PVlvJO;
-        "neoforge-1.21.1" = _wrcXgeVo;
+        "E3T8mM2P" = _E3T8mM2P;
+        "J0vo4Q3r" = _J0vo4Q3r;
+        "qcK28gLD" = _qcK28gLD;
+        "c8vWBPj8" = _c8vWBPj8;
+        "forge-1.20.1" = _qcK28gLD;
+        "neoforge-1.21.1" = _c8vWBPj8;
         "pkg-1.0.0" = _MWirSIj7;
         "pkg-1.0.1" = _sV0rm8uT;
         "pkg-1.0.2" = _G9cYvFca;
@@ -526,7 +550,9 @@ let
         "pkg-1.3.0" = _JZux7bKk;
         "pkg-1.3.1.4-Qixi" = _FSk8Wqm8;
         "pkg-1.3.2-bailu" = _wrcXgeVo;
-        "default" = _wrcXgeVo;
+        "pkg-1.3.3-Zhongqiu" = _J0vo4Q3r;
+        "pkg-1.3.4-Hanlu" = _c8vWBPj8;
+        "default" = _c8vWBPj8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-ornamental-plants";

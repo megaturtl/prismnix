@@ -361,6 +361,16 @@ let
             "file" = "cullleaves-neoforge-4.1.2+26.2.jar";
             "hash" = "sha512-ZsLKPBuu+6T1H7aWIlYLRFX/9m/lHHCcZQkPKk2iYXrnx1Wc2CzMoq73G8FRA/gBrKl5/lMsTqGVB4U3xj5y2Q==";
         };
+        _jqOVPlQ8 = {
+            "id" = "jqOVPlQ8";
+            "file" = "cullleaves-fabric-4.1.2+26.3.jar";
+            "hash" = "sha512-jMHIFN0sKTE4y0+L7crIu1MfqyBW7WTahTY60m7dQXJpG7FrNzXEQzBrqEgNIABimub2cT1KdoB6NGCmrDjagA==";
+        };
+        _KGHG40f3 = {
+            "id" = "KGHG40f3";
+            "file" = "cullleaves-neoforge-4.1.2+26.3.jar";
+            "hash" = "sha512-5ysySObQa6iI5ORZeleXVygIU7/65jbeTljnLGPtV4d76PRF18+Em/VnT41mbjpHxKLxfrbOBsEUmw3/Gtw5Gg==";
+        };
     in {
         "DdSy1eAp" = _DdSy1eAp;
         "YVhVO5vK" = _YVhVO5vK;
@@ -434,6 +444,8 @@ let
         "yIvrAg8G" = _yIvrAg8G;
         "iDsSBWPv" = _iDsSBWPv;
         "858s49QX" = _858s49QX;
+        "jqOVPlQ8" = _jqOVPlQ8;
+        "KGHG40f3" = _KGHG40f3;
         "fabric-1.16" = _YVhVO5vK;
         "fabric-1.16.1" = _NfeMW5mF;
         "fabric-1.16.2" = _NfeMW5mF;
@@ -487,6 +499,7 @@ let
         "fabric-26.1.1" = _yIvrAg8G;
         "fabric-26.1.2" = _yIvrAg8G;
         "fabric-26.2" = _iDsSBWPv;
+        "fabric-26.3" = _jqOVPlQ8;
         "quilt-1.17" = _718Klypf;
         "quilt-1.17.1" = _718Klypf;
         "quilt-1.18" = _718Klypf;
@@ -519,6 +532,7 @@ let
         "quilt-26.1.1" = _yIvrAg8G;
         "quilt-26.1.2" = _yIvrAg8G;
         "quilt-26.2" = _iDsSBWPv;
+        "quilt-26.3" = _jqOVPlQ8;
         "forge-1.19.2" = _cx8ZZ7y9;
         "forge-1.19.3" = _G8pojeWM;
         "forge-1.20" = _yFZM1Bsc;
@@ -540,6 +554,7 @@ let
         "neoforge-26.1.1" = _LCAZCdCv;
         "neoforge-26.1.2" = _LCAZCdCv;
         "neoforge-26.2" = _858s49QX;
+        "neoforge-26.3" = _KGHG40f3;
         "pkg-1.0.0" = _DdSy1eAp;
         "pkg-2.0.0" = _YVhVO5vK;
         "pkg-2.1.0" = _NfeMW5mF;
@@ -612,7 +627,9 @@ let
         "pkg-4.1.2+26.1-fabric" = _yIvrAg8G;
         "pkg-4.1.2+26.2-fabric" = _iDsSBWPv;
         "pkg-4.1.2+26.2-neoforge" = _858s49QX;
-        "default" = _858s49QX;
+        "pkg-4.1.2+26.3-fabric" = _jqOVPlQ8;
+        "pkg-4.1.2+26.3-neoforge" = _KGHG40f3;
+        "default" = _KGHG40f3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cull-leaves";

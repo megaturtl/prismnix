@@ -26,27 +26,34 @@ let
             "file" = "Leah's Cehntro Pack v1.3.0 Pre-Release 1.zip";
             "hash" = "sha512-pO4xYiHpRmgUIUI7W7sHDroYoZtEsROVLTt9pgAkUtk+NJV5McC3CYK5whIC3BQr3T8w00z3W005RHFhczCr9A==";
         };
+        _X9yc06Ds = {
+            "id" = "X9yc06Ds";
+            "file" = "Leah's Cehntro Pack v2.0.0 Pre-Release 2.zip";
+            "hash" = "sha512-DEe/QEM0quiFENzZSgn6a7H3HCvLTFiGeukJTJ5RPfy+pxAYu7MnYJXW/thPgH5zK8THjbsjZA+kBwilygcScQ==";
+        };
     in {
         "5Jq6USie" = _5Jq6USie;
         "5XoT6FaR" = _5XoT6FaR;
         "mCqtWDo5" = _mCqtWDo5;
         "F1TqfX1S" = _F1TqfX1S;
         "pbQHSsje" = _pbQHSsje;
-        "minecraft-1.16.5" = _pbQHSsje;
-        "minecraft-1.17.1" = _pbQHSsje;
-        "minecraft-1.18.2" = _pbQHSsje;
-        "minecraft-1.19.2" = _pbQHSsje;
-        "minecraft-1.19.4" = _pbQHSsje;
-        "minecraft-1.20.1" = _pbQHSsje;
-        "minecraft-1.20.4" = _pbQHSsje;
-        "minecraft-1.21.1" = _pbQHSsje;
-        "minecraft-1.21.4" = _pbQHSsje;
+        "X9yc06Ds" = _X9yc06Ds;
+        "minecraft-1.16.5" = _X9yc06Ds;
+        "minecraft-1.17.1" = _X9yc06Ds;
+        "minecraft-1.18.2" = _X9yc06Ds;
+        "minecraft-1.19.2" = _X9yc06Ds;
+        "minecraft-1.19.4" = _X9yc06Ds;
+        "minecraft-1.20.1" = _X9yc06Ds;
+        "minecraft-1.20.4" = _X9yc06Ds;
+        "minecraft-1.21.1" = _X9yc06Ds;
+        "minecraft-1.21.4" = _X9yc06Ds;
         "pkg-v1.0.0" = _5Jq6USie;
         "pkg-v1.0.1" = _5XoT6FaR;
         "pkg-v1.1.0" = _mCqtWDo5;
         "pkg-v1.2.0" = _F1TqfX1S;
         "pkg-v2.0.0_Pre-Release_1" = _pbQHSsje;
-        "default" = _pbQHSsje;
+        "pkg-v2.0.0_Pre-Release_2" = _X9yc06Ds;
+        "default" = _X9yc06Ds;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cehntro";

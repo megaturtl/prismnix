@@ -331,6 +331,36 @@ let
             "file" = "SkyOcean-1.17.2-26.2.jar";
             "hash" = "sha512-JYkBRaoY2Usq8oU2XOZbojIOT99eXrsjQeskYAlaB4v7Gi0p7WTkZX2mqAw0Ae88DPDluhls8t9lPLVJA3/MMA==";
         };
+        _GbV5tHQZ = {
+            "id" = "GbV5tHQZ";
+            "file" = "SkyOcean-1.18.0-26.1.jar";
+            "hash" = "sha512-47znHzDPGycwXDCqHcqMgbPY0wXoPvKLS7a8xy5QnXnhdK6vfYdM28Y8mCssVmRH0hDK5JMLOQAq0XNkICg9mg==";
+        };
+        _RdoDn4Zp = {
+            "id" = "RdoDn4Zp";
+            "file" = "SkyOcean-1.18.0-26.2.jar";
+            "hash" = "sha512-qISzusst1Ex/fUjfwU6h8L4C8XhqapdQ/q6CTcHrbWhNuAQh5E3A/W7MOvAPB4N4ctN8uFludK2dL15F92OeKw==";
+        };
+        _1vu2w975 = {
+            "id" = "1vu2w975";
+            "file" = "SkyOcean-1.18.0-26.3.jar";
+            "hash" = "sha512-eXuWohjgJr7PWMHZtAw3XG+vJxDQQ4vPoqZR/oIeAHB5THY906KCeB44BvfNmrozfipWZGK9nVZ1z4/4hO0CXg==";
+        };
+        _wUmaLMwr = {
+            "id" = "wUmaLMwr";
+            "file" = "SkyOcean-1.18.1-26.1.jar";
+            "hash" = "sha512-1j9rXuHqGURfX6glzVFy6lm7Csmzy42lwIlGATynX82feSfSrW4siQVxxrLJEJDdOlq8oLrF74aE9WQY0k4mfA==";
+        };
+        _cpP6yTOr = {
+            "id" = "cpP6yTOr";
+            "file" = "SkyOcean-1.18.1-26.2.jar";
+            "hash" = "sha512-E8uMgfJ5pzF+1z2cY6TaMaCdMQfuCZqTHHk4hUEQfy0g3l4adYJe0Yk2thk+Gwi6XAn7thxZSjcrPMHQ2x1izw==";
+        };
+        _KcmwMzjN = {
+            "id" = "KcmwMzjN";
+            "file" = "SkyOcean-1.18.1-26.3.jar";
+            "hash" = "sha512-c9/L2sOSpeWwtpI0ml+xOcAPwVWikwQG9mecYL12PtttFWZzE3zXd/9QL5tRmLcsE7wz4PgMcFew6b5E1fAM6Q==";
+        };
     in {
         "Zz8EmTsT" = _Zz8EmTsT;
         "kTLHmk5G" = _kTLHmk5G;
@@ -398,6 +428,12 @@ let
         "pUUMI0Sl" = _pUUMI0Sl;
         "wwN6ghcO" = _wwN6ghcO;
         "10QpYKuY" = _10QpYKuY;
+        "GbV5tHQZ" = _GbV5tHQZ;
+        "RdoDn4Zp" = _RdoDn4Zp;
+        "1vu2w975" = _1vu2w975;
+        "wUmaLMwr" = _wUmaLMwr;
+        "cpP6yTOr" = _cpP6yTOr;
+        "KcmwMzjN" = _KcmwMzjN;
         "fabric-1.21.5" = _CIzfGPrH;
         "fabric-1.21.6" = _S0whFZLZ;
         "fabric-1.21.7" = _S0whFZLZ;
@@ -405,10 +441,11 @@ let
         "fabric-1.21.9" = _6P89nYHP;
         "fabric-1.21.10" = _6P89nYHP;
         "fabric-1.21.11" = _lwE5tLcN;
-        "fabric-26.1" = _wwN6ghcO;
-        "fabric-26.1.1" = _wwN6ghcO;
-        "fabric-26.1.2" = _wwN6ghcO;
-        "fabric-26.2" = _10QpYKuY;
+        "fabric-26.1" = _wUmaLMwr;
+        "fabric-26.1.1" = _wUmaLMwr;
+        "fabric-26.1.2" = _wUmaLMwr;
+        "fabric-26.2" = _cpP6yTOr;
+        "fabric-26.3" = _KcmwMzjN;
         "pkg-1.0.0" = _Zz8EmTsT;
         "pkg-1.1.0" = _kTLHmk5G;
         "pkg-1.2.0" = _HFg4yTpm;
@@ -465,7 +502,9 @@ let
         "pkg-1.17.0" = _xZCDr2tX;
         "pkg-1.17.1" = _pUUMI0Sl;
         "pkg-1.17.2" = _10QpYKuY;
-        "default" = _10QpYKuY;
+        "pkg-1.18.0" = _1vu2w975;
+        "pkg-1.18.1" = _KcmwMzjN;
+        "default" = _KcmwMzjN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skyocean";

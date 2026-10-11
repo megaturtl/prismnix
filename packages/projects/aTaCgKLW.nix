@@ -251,6 +251,11 @@ let
             "file" = "silk-all-1.12.0.jar";
             "hash" = "sha512-/QxOdL1OrD9SMDqp/O2L+R+0HrdqcSzJpobaGowaSUzSyv+px5q4nrkSYKeu4OzaxOL0RBjtD+rIz2zwIsYv6Q==";
         };
+        _5ZyMtMIJ = {
+            "id" = "5ZyMtMIJ";
+            "file" = "silk-all-1.12.1.jar";
+            "hash" = "sha512-21QDvDteyYhWNDsRo2N4NsdE/UPuE9TSLqZF90vxBpA/Q4fgHSvnkDKb/BcIUf0Qd5WVMmrm6TzvpwZ2DRKU1Q==";
+        };
     in {
         "d1glLpyJ" = _d1glLpyJ;
         "23Lu5rdb" = _23Lu5rdb;
@@ -302,6 +307,7 @@ let
         "r3ezZMMD" = _r3ezZMMD;
         "dm3Sfg3x" = _dm3Sfg3x;
         "JMCeeIMi" = _JMCeeIMi;
+        "5ZyMtMIJ" = _5ZyMtMIJ;
         "fabric-1.16.5" = _d1glLpyJ;
         "fabric-1.17.1" = _TjitZrKo;
         "fabric-1.18" = _m2Be2ziQ;
@@ -335,6 +341,7 @@ let
         "fabric-26.1.1" = _dm3Sfg3x;
         "fabric-26.1.2" = _dm3Sfg3x;
         "fabric-26.2" = _JMCeeIMi;
+        "fabric-26.3" = _5ZyMtMIJ;
         "pkg-0.1.1" = _d1glLpyJ;
         "pkg-1.2.0" = _23Lu5rdb;
         "pkg-1.2.1" = _O0LeJfea;
@@ -385,7 +392,8 @@ let
         "pkg-1.11.7" = _r3ezZMMD;
         "pkg-1.11.8" = _dm3Sfg3x;
         "pkg-1.12.0" = _JMCeeIMi;
-        "default" = _JMCeeIMi;
+        "pkg-1.12.1" = _5ZyMtMIJ;
+        "default" = _5ZyMtMIJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "silk";

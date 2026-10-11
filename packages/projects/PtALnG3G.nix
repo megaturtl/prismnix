@@ -526,6 +526,16 @@ let
             "file" = "minecart-trains-fork-2.5.0+26.2.jar";
             "hash" = "sha512-xvSj/CfJlIB+AitZeOzeuNJplILAgYWBp2Wdx4om+eoTe5llqferwrL9iKavVIj6rLA/3ZJYudQN2GCri2/k0g==";
         };
+        _YXsDZU2I = {
+            "id" = "YXsDZU2I";
+            "file" = "minecart-trains-fork-2.5.0+26.3.jar";
+            "hash" = "sha512-Mw1FJURTMMedN/l7GgoJZL4FXpYmS+9pWsBexqmqNKB/3wj1qwcoU4Yk986b1TvJwf5+LTUtbI0uvd9GHh4q7w==";
+        };
+        _roMUPLYF = {
+            "id" = "roMUPLYF";
+            "file" = "minecart_trains_fork-2.5.0+26.3.neoforge.jar";
+            "hash" = "sha512-YMbObLZtA1ahDtjA7uOzgZGkngRxr6NWclalyYCl7sIzaSjQ6uVK0dReoxFPlrRLkbLRLhKwploY3bebC1dQ2A==";
+        };
     in {
         "UR3nUJIF" = _UR3nUJIF;
         "yoKrRrE9" = _yoKrRrE9;
@@ -632,6 +642,8 @@ let
         "RWBxVgQS" = _RWBxVgQS;
         "g3qLKPVC" = _g3qLKPVC;
         "ob4Ns9kd" = _ob4Ns9kd;
+        "YXsDZU2I" = _YXsDZU2I;
+        "roMUPLYF" = _roMUPLYF;
         "fabric-1.21.9" = _w8Yq8yvH;
         "fabric-1.21.10" = _w8Yq8yvH;
         "fabric-1.21.6" = _k71tUBQb;
@@ -665,12 +677,14 @@ let
         "fabric-26.1.1" = _hgfjdGDB;
         "fabric-26.1.2" = _hgfjdGDB;
         "fabric-26.2" = _ob4Ns9kd;
+        "fabric-26.3" = _YXsDZU2I;
         "neoforge-26.1" = _3VE9R1PJ;
         "neoforge-26.1.1" = _3VE9R1PJ;
         "neoforge-26.1.2" = _3VE9R1PJ;
         "neoforge-1.21" = _RHsGBMAz;
         "neoforge-1.21.1" = _RHsGBMAz;
         "neoforge-26.2" = _ZE0zunwj;
+        "neoforge-26.3" = _roMUPLYF;
         "forge-1.20" = _7MAzZqel;
         "forge-1.20.1" = _7MAzZqel;
         "pkg-1.21.9-beta.1" = _UR3nUJIF;
@@ -778,7 +792,9 @@ let
         "pkg-2.5.0-beta.1+26.2" = _RWBxVgQS;
         "pkg-2.5.0-beta.2+26.2" = _g3qLKPVC;
         "pkg-2.5.0+26.2" = _ob4Ns9kd;
-        "default" = _ob4Ns9kd;
+        "pkg-2.5.0+26.3" = _YXsDZU2I;
+        "pkg-2.5.0+26.3.neoforge" = _roMUPLYF;
+        "default" = _roMUPLYF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "minecart-trains-fork";

@@ -11,21 +11,28 @@ let
             "file" = "Luminous Lanterns.zip";
             "hash" = "sha512-xTicfvhRhA+7deotMsA63mR+zIKx6W7fRfXelWdoPKmEjrfpN2me6oZyEUaO6DnAoTV2UQs6rVf5j1CQIHrd3Q==";
         };
+        _S2z4ITQ6 = {
+            "id" = "S2z4ITQ6";
+            "file" = "Luminous Lanterns.zip";
+            "hash" = "sha512-ekgKPXfWNrQhQtcHQUr/fstF0n731qd7Jr0NoD+cn5q2tFlP97me9EmLeisgw/Y5jpk0UwB8DbKOJB6VZlKA9g==";
+        };
     in {
         "TyEeSfha" = _TyEeSfha;
         "yrKKbuyh" = _yrKKbuyh;
-        "minecraft-1.20.1" = _yrKKbuyh;
-        "minecraft-1.21.1" = _yrKKbuyh;
-        "minecraft-1.21.9" = _yrKKbuyh;
-        "minecraft-1.21.10" = _yrKKbuyh;
-        "minecraft-1.21.11" = _yrKKbuyh;
-        "minecraft-26.1" = _yrKKbuyh;
-        "minecraft-26.1.1" = _yrKKbuyh;
-        "minecraft-26.1.2" = _yrKKbuyh;
-        "minecraft-26.2" = _yrKKbuyh;
+        "S2z4ITQ6" = _S2z4ITQ6;
+        "minecraft-1.20.1" = _S2z4ITQ6;
+        "minecraft-1.21.1" = _S2z4ITQ6;
+        "minecraft-1.21.9" = _S2z4ITQ6;
+        "minecraft-1.21.10" = _S2z4ITQ6;
+        "minecraft-1.21.11" = _S2z4ITQ6;
+        "minecraft-26.1" = _S2z4ITQ6;
+        "minecraft-26.1.1" = _S2z4ITQ6;
+        "minecraft-26.1.2" = _S2z4ITQ6;
+        "minecraft-26.2" = _S2z4ITQ6;
+        "minecraft-26.3" = _S2z4ITQ6;
         "pkg-1.0" = _TyEeSfha;
-        "pkg-1.1" = _yrKKbuyh;
-        "default" = _yrKKbuyh;
+        "pkg-1.1" = _S2z4ITQ6;
+        "default" = _S2z4ITQ6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "luminous-lanterns";

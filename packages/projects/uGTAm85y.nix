@@ -66,6 +66,16 @@ let
             "file" = "taczmagazines-1.20.1-0.2.0-Beta.jar";
             "hash" = "sha512-hPc7svQJw6gVKnXcazDyD6ht5LAXm46xvLVK9+dVIbYysh8WzOLUBlqccD+I1N7KD+lSKAwo+8H2FtTCxZVyTw==";
         };
+        _Cf3nMMTa = {
+            "id" = "Cf3nMMTa";
+            "file" = "taczmagazines-1.20.1-0.2.5-Beta.jar";
+            "hash" = "sha512-e6wJ/3WBOromKY0la3CNn+aMt3qn9y/kL7Uyz8XEsh6UPC8MIpUxXn8hmmlQCcQsPDjEfZs9ijuBGnmRKanXTA==";
+        };
+        _ALiJe9pQ = {
+            "id" = "ALiJe9pQ";
+            "file" = "taczmagazines-1.20.1-0.2.6-Beta.jar";
+            "hash" = "sha512-NfUwzueEfcjR3NG8Sn9niWeqjpW/aqmicMjWeJ4BX/LbcnfZFlESMlcpGxBvv1m+sCSD2XCXfiq2fBvhzKyJUg==";
+        };
     in {
         "yeObufLN" = _yeObufLN;
         "rqEEHXcz" = _rqEEHXcz;
@@ -80,7 +90,9 @@ let
         "tKaLRUk5" = _tKaLRUk5;
         "iGOhFjVD" = _iGOhFjVD;
         "Hp9l968G" = _Hp9l968G;
-        "forge-1.20.1" = _Hp9l968G;
+        "Cf3nMMTa" = _Cf3nMMTa;
+        "ALiJe9pQ" = _ALiJe9pQ;
+        "forge-1.20.1" = _ALiJe9pQ;
         "pkg-0.0.4" = _yeObufLN;
         "pkg-0.0.5" = _rqEEHXcz;
         "pkg-0.0.6" = _tsienLcc;
@@ -94,7 +106,9 @@ let
         "pkg-0.1.4" = _tKaLRUk5;
         "pkg-0.1.6" = _iGOhFjVD;
         "pkg-0.2.0-Beta" = _Hp9l968G;
-        "default" = _Hp9l968G;
+        "pkg-0.2.5-Beta" = _Cf3nMMTa;
+        "pkg-0.2.6-Beta" = _ALiJe9pQ;
+        "default" = _ALiJe9pQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tacz-magazines";

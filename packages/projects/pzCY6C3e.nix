@@ -301,6 +301,16 @@ let
             "file" = "MindfulDarkness-v26.2.0-mc26.2.x-Fabric.jar";
             "hash" = "sha512-H+0WiHt+KffbOZsWYOeHJ+tfhFBZRmzxG13wbfiQQRRH0qLIUBYWFgOVUpQe0kORdj8vuz21MDxgSazESPd7vg==";
         };
+        _WtWyxcXv = {
+            "id" = "WtWyxcXv";
+            "file" = "mindfuldarkness-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-AVQ3Af8IwG9MVbA9CW4AXt1BDvdRxuS9Xrdx2JCXhTURtgcZeyoyReGn/93CnI+aXrtRmRMu89NwGe3jvG0QVw==";
+        };
+        _jld9FC8M = {
+            "id" = "jld9FC8M";
+            "file" = "mindfuldarkness-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-/Q/tDHc5fI0g10P7SgkuF9QHOdqJphnXQ2qAJl48sCc1IwMJONRKi185pisPDKHv0dWs2/c+UJfgV3deowfcgw==";
+        };
     in {
         "HtkDyp2n" = _HtkDyp2n;
         "8FeCBhRQ" = _8FeCBhRQ;
@@ -362,6 +372,8 @@ let
         "PaFsVwE3" = _PaFsVwE3;
         "ef2lXTH3" = _ef2lXTH3;
         "AgnzB7Xb" = _AgnzB7Xb;
+        "WtWyxcXv" = _WtWyxcXv;
+        "jld9FC8M" = _jld9FC8M;
         "forge-1.19.2" = _e9dCKW7d;
         "forge-1.19.3" = _f18LnDAQ;
         "forge-1.19.4" = _SkN0nr9r;
@@ -384,6 +396,7 @@ let
         "fabric-26.1.1" = _PaFsVwE3;
         "fabric-26.1.2" = _PaFsVwE3;
         "fabric-26.2" = _AgnzB7Xb;
+        "fabric-26.3" = _WtWyxcXv;
         "neoforge-1.21.7" = _muOiDlm9;
         "neoforge-1.21.1" = _sGVDl8zH;
         "neoforge-1.21.8" = _YEt1yCtb;
@@ -394,6 +407,7 @@ let
         "neoforge-26.1.1" = _RlMYW4I8;
         "neoforge-26.1.2" = _RlMYW4I8;
         "neoforge-26.2" = _ef2lXTH3;
+        "neoforge-26.3" = _jld9FC8M;
         "pkg-v4.0.0-1.19.2-Forge" = _HtkDyp2n;
         "pkg-v4.0.0-1.19.2-Fabric" = _8FeCBhRQ;
         "pkg-v4.0.1-1.19.2-Fabric" = _YdZ7PrnU;
@@ -449,7 +463,8 @@ let
         "pkg-21.11.0" = _zi2M8QAc;
         "pkg-26.1.0" = _PaFsVwE3;
         "pkg-26.2.0" = _AgnzB7Xb;
-        "default" = _AgnzB7Xb;
+        "pkg-26.3.0" = _jld9FC8M;
+        "default" = _jld9FC8M;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mindful-darkness";

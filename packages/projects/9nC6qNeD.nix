@@ -36,6 +36,31 @@ let
             "file" = "notlag-mc26.2-2.0.0.jar";
             "hash" = "sha512-FIZUFM9b2DXU+a2iisBgrRv3h8eeKfzCR0Dwdq4QtgaB7YseP6m6cNs32VnA8qPGS9lmYpK1GUadZuzMuYryQA==";
         };
+        _8VUHmN8e = {
+            "id" = "8VUHmN8e";
+            "file" = "notlag-mc26.3-2.0.1.jar";
+            "hash" = "sha512-Uoe0MzqXgdZdyVWh6GqSTLtjlrjBoU+3PpbNvBDmvx0BoFHGymYj60YjgoBANzkcIvzVGfoi6v85abmAYyEEVw==";
+        };
+        _gLDUotRH = {
+            "id" = "gLDUotRH";
+            "file" = "notlag-mc26.3-2.0.2.jar";
+            "hash" = "sha512-PfdgSkSwRB4ioGmtTT3gneIryBoe4dwFJMNBQ19oFY3RGryaPF5u8K4QNYWNLEfcn9WQDN3QdgFJ7p5smfDERw==";
+        };
+        _ZSyJtwoR = {
+            "id" = "ZSyJtwoR";
+            "file" = "notlag-mc26.3-2.1.0.jar";
+            "hash" = "sha512-70ugv+juaULl/ZkvArKtVLoNxYmT/Em7daXn5VvXv3bWB0lkgtb2fmUM53n/XpswDHfKZaoL1lI9oSdhMgK+UA==";
+        };
+        _nZxYXG2N = {
+            "id" = "nZxYXG2N";
+            "file" = "notlag-mc26.3-2.1.1.jar";
+            "hash" = "sha512-2Y1kv27EE7e5Y2Dzyc8qDgIURgwCp2GlvcdXFrIaYMaYIOPXapzhN2e2MbxUkb3YLIS7NRCMAN1H9L0QgCMkbw==";
+        };
+        _ONmX5MMg = {
+            "id" = "ONmX5MMg";
+            "file" = "notlag-mc26.3-2.2.0.jar";
+            "hash" = "sha512-u9iFCWTo0+zKDPgiDQ1zmU7S+OhqTKLDi3yZYxoT0NVa7OBvZDb5LzJjHos5W/Myfs7g+NLuentOzRrYP8huhA==";
+        };
     in {
         "D15Az5VZ" = _D15Az5VZ;
         "41ti1fQO" = _41ti1fQO;
@@ -44,15 +69,26 @@ let
         "yL0V0hJI" = _yL0V0hJI;
         "n3mfmknL" = _n3mfmknL;
         "AM7yXVCo" = _AM7yXVCo;
+        "8VUHmN8e" = _8VUHmN8e;
+        "gLDUotRH" = _gLDUotRH;
+        "ZSyJtwoR" = _ZSyJtwoR;
+        "nZxYXG2N" = _nZxYXG2N;
+        "ONmX5MMg" = _ONmX5MMg;
         "fabric-1.21.4" = _41ti1fQO;
         "fabric-1.21.11" = _yL0V0hJI;
         "fabric-1.21.10" = _9tnjqXk4;
         "fabric-26.1.2" = _n3mfmknL;
         "fabric-26.2" = _AM7yXVCo;
+        "fabric-26.3" = _ONmX5MMg;
         "pkg-1.0.0" = _RCc3QN8S;
         "pkg-beta-1" = _41ti1fQO;
         "pkg-2.0.0" = _AM7yXVCo;
-        "default" = _AM7yXVCo;
+        "pkg-2.0.1" = _8VUHmN8e;
+        "pkg-2.0.2" = _gLDUotRH;
+        "pkg-2.1.0" = _ZSyJtwoR;
+        "pkg-2.1.1" = _nZxYXG2N;
+        "pkg-2.2.0" = _ONmX5MMg;
+        "default" = _ONmX5MMg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "!lag";

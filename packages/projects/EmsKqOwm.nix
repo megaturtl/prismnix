@@ -271,6 +271,11 @@ let
             "file" = "Reverse World[4.3][26.2].zip";
             "hash" = "sha512-MMmSuf5wOzYwwPsp0/nP2KBV/HpelTjSPj8t6nfBrevGJCuubpg+EDX+WWr8oTOcuh/KYvXkXqlXDIpECwJskw==";
         };
+        _3r3Bufrr = {
+            "id" = "3r3Bufrr";
+            "file" = "Reverse World[4.3][26.3].zip";
+            "hash" = "sha512-hIq4gbYotmrrBR50nKRy80rUfiXyBhn33L4AqibPvxpD8oCFUObHzBEowaGFIwpjis6hSzTEzkML/YovIM5OvQ==";
+        };
     in {
         "4sN4bhLO" = _4sN4bhLO;
         "1R0rQcqk" = _1R0rQcqk;
@@ -326,6 +331,7 @@ let
         "DAwDnLog" = _DAwDnLog;
         "IeDFW8T1" = _IeDFW8T1;
         "FysTO9qs" = _FysTO9qs;
+        "3r3Bufrr" = _3r3Bufrr;
         "minecraft-1.16.2" = _tWnQLQT1;
         "minecraft-1.16.3" = _tWnQLQT1;
         "minecraft-1.16.4" = _tWnQLQT1;
@@ -367,6 +373,8 @@ let
         "minecraft-26.1.1" = _IeDFW8T1;
         "minecraft-26.1.2" = _IeDFW8T1;
         "minecraft-26.2" = _FysTO9qs;
+        "minecraft-26.3" = _3r3Bufrr;
+        "minecraft-26.4-snapshot-1" = _3r3Bufrr;
         "pkg-1.16-1.16.5" = _xd7x0Rlu;
         "pkg-1.17-1.17.1" = _Rer5bKhY;
         "pkg-1.18-1.18.2" = _RJNmiOYO;
@@ -390,8 +398,8 @@ let
         "pkg-4.0" = _aDCmSsXu;
         "pkg-4.1" = _UvRF1Vim;
         "pkg-4.2" = _DAwDnLog;
-        "pkg-4.3" = _FysTO9qs;
-        "default" = _FysTO9qs;
+        "pkg-4.3" = _3r3Bufrr;
+        "default" = _3r3Bufrr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "reverse-world";

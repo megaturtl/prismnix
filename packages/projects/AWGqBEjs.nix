@@ -161,6 +161,16 @@ let
             "file" = "mine-mine-no-mi-1.20.1-0.11.5.jar";
             "hash" = "sha512-tegMOo9qWU8X9yACFKQRi7NveEvSN2+U87FB6jJBE3TVklVcQFfYI+mSY82KkDXnv2NbJf0yAEF2M+DIkFFu4Q==";
         };
+        _1DaNAiSW = {
+            "id" = "1DaNAiSW";
+            "file" = "mine-mine-no-mi-1.16.5-0.10.12.jar";
+            "hash" = "sha512-y7ph+Y8d5oA+t0Bc6zBh3VTmmVK2EUHLNx4trLG+mvzMbD22btzdAucPdovl7PToQoX8RDnKkYjzD0pt4n5rsw==";
+        };
+        _iEsz9XTH = {
+            "id" = "iEsz9XTH";
+            "file" = "mine-mine-no-mi-1.20.1-0.11.6.jar";
+            "hash" = "sha512-fQQOpW/kRZZmv+FOEqtczgTct6OUG+DB8MAEi4RS+1sd2hI5fQsM/dkdgWIPZ3ja6O2vseMEmfQskfVhzBT/aQ==";
+        };
     in {
         "eCqd0PhR" = _eCqd0PhR;
         "LCXB02zJ" = _LCXB02zJ;
@@ -194,9 +204,11 @@ let
         "5Zzn4hAe" = _5Zzn4hAe;
         "FBQOkYT6" = _FBQOkYT6;
         "k6g97JZP" = _k6g97JZP;
+        "1DaNAiSW" = _1DaNAiSW;
+        "iEsz9XTH" = _iEsz9XTH;
         "forge-1.15.2" = _2Ci8dV9s;
-        "forge-1.16.5" = _5K6FLhTh;
-        "forge-1.20.1" = _k6g97JZP;
+        "forge-1.16.5" = _1DaNAiSW;
+        "forge-1.20.1" = _iEsz9XTH;
         "modloader-b1.7.3" = _WVLTBIeM;
         "pkg-0.7.1" = _eCqd0PhR;
         "pkg-0.7.2" = _LCXB02zJ;
@@ -230,7 +242,9 @@ let
         "pkg-1.20.1-0.11.3" = _5Zzn4hAe;
         "pkg-1.20.1-0.11.4" = _FBQOkYT6;
         "pkg-1.20.1-0.11.5" = _k6g97JZP;
-        "default" = _k6g97JZP;
+        "pkg-1.16.5-0.10.12" = _1DaNAiSW;
+        "pkg-1.20.1-0.11.6" = _iEsz9XTH;
+        "default" = _iEsz9XTH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mine-mine-no-mi";

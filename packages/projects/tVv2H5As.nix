@@ -186,6 +186,11 @@ let
             "file" = "Carbon PvP Pack [2.31][26.2].zip";
             "hash" = "sha512-8YKjP0xPWVBBkHzrpy3brLRLDf7BfU4erMY2/e3XeQZcVbwhcPkQfUEkuSEE4pUg1pruPd1ePaoHUAOX1Czf+Q==";
         };
+        _OMkScx5M = {
+            "id" = "OMkScx5M";
+            "file" = "Carbon PvP Pack [2.31][26.3].zip";
+            "hash" = "sha512-Oa+1nyYgJY9UB9Doc7L2WXu0jGQkXOSxQuSsqNBZwbtltwpLgs3sMG4y3vQzABVwmrYzFsLEt5Zq3N+AVoPD6w==";
+        };
     in {
         "DgBUi6UP" = _DgBUi6UP;
         "Nj15kewq" = _Nj15kewq;
@@ -224,6 +229,7 @@ let
         "dfQBFxuw" = _dfQBFxuw;
         "BJYM9CJJ" = _BJYM9CJJ;
         "mdDsTcT7" = _mdDsTcT7;
+        "OMkScx5M" = _OMkScx5M;
         "minecraft-1.16" = _tRvt0xcq;
         "minecraft-1.16.1" = _tRvt0xcq;
         "minecraft-1.16.2" = _tRvt0xcq;
@@ -265,6 +271,8 @@ let
         "minecraft-26.1.1" = _dfQBFxuw;
         "minecraft-26.1.2" = _BJYM9CJJ;
         "minecraft-26.2" = _mdDsTcT7;
+        "minecraft-26.3" = _OMkScx5M;
+        "minecraft-26.4-snapshot-1" = _OMkScx5M;
         "pkg-1.16" = _DgBUi6UP;
         "pkg-1.17" = _Nj15kewq;
         "pkg-1.18" = _xCUiDtmG;
@@ -282,8 +290,8 @@ let
         "pkg-2.1" = _ky5wEMhq;
         "pkg-2.2" = _toBYh7xV;
         "pkg-2.3" = _dfQBFxuw;
-        "pkg-2.31" = _mdDsTcT7;
-        "default" = _mdDsTcT7;
+        "pkg-2.31" = _OMkScx5M;
+        "default" = _OMkScx5M;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "carbon-pvp-pack";

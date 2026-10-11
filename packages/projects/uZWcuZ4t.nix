@@ -176,6 +176,31 @@ let
             "file" = "pyrellium-0.4.0-1.21.11.jar";
             "hash" = "sha512-Hudjw8TLal4gBKQliq5R6u/ohKOKffubcAVgG1TsItB9iPi7bf65xhnEtMf+zoUgZmT/bLhJlpHKb+pEnSwTtQ==";
         };
+        _rDRigO34 = {
+            "id" = "rDRigO34";
+            "file" = "pyrellium-0.4.0-1.21.1-neo.jar";
+            "hash" = "sha512-avhECayBwoD+N1LGNcvZlCpSFDGOFtO6Ue5x9bsBtKXgZq1buRytyxOkuK6eqv+U6Sa5yRwKHmXOLzNpYJDOgA==";
+        };
+        _ECMGYgrW = {
+            "id" = "ECMGYgrW";
+            "file" = "pyrellium-0.4.1-1.20.1.jar";
+            "hash" = "sha512-4aFZoGer/PWavihrixkYx/MbQkWVq2K+3XMMm19JrnA22AJAkfoYJVQqBfkYwdiSBIL35f9O0B779GywPF5tDA==";
+        };
+        _RvxgIuCr = {
+            "id" = "RvxgIuCr";
+            "file" = "pyrellium-0.4.1-1.21.1.jar";
+            "hash" = "sha512-4ANR8SEPc/y4uIYuYG61osdefkGlSYnUMfzhirYtxgJN9LV2SUG6+iUuWfrnWhdMnCDjtehmESXsCfD0bfue+A==";
+        };
+        _tTzk7qb7 = {
+            "id" = "tTzk7qb7";
+            "file" = "pyrellium-0.4.1-1.21.11.jar";
+            "hash" = "sha512-hH6opIXu4PRNRbPwLPp4vYcyF05t9igX0JcQq0C/nNS9AjguQ7+igNDrEPnnvOzb3sU/EJdmqqkvzr+rMOn2cg==";
+        };
+        _2HWSo38m = {
+            "id" = "2HWSo38m";
+            "file" = "pyrellium-0.4.1-1.21.1-neo.jar";
+            "hash" = "sha512-rvmECSJHIMg/cwRQkofZ4C5VCHO6G5R5WomHyrHp007isxXBG21kLI52+A84Y292eO3GcehnE0waLHK8S9wbWQ==";
+        };
     in {
         "O80cldRU" = _O80cldRU;
         "mGZ2bZKj" = _mGZ2bZKj;
@@ -212,11 +237,17 @@ let
         "6F0aAWqO" = _6F0aAWqO;
         "F8ZsO8uj" = _F8ZsO8uj;
         "UsXbTJb0" = _UsXbTJb0;
-        "fabric-1.20.1" = _6F0aAWqO;
+        "rDRigO34" = _rDRigO34;
+        "ECMGYgrW" = _ECMGYgrW;
+        "RvxgIuCr" = _RvxgIuCr;
+        "tTzk7qb7" = _tTzk7qb7;
+        "2HWSo38m" = _2HWSo38m;
+        "fabric-1.20.1" = _ECMGYgrW;
         "fabric-1.20.2" = _nIElh6Nq;
         "fabric-1.20" = _KFELddCC;
-        "fabric-1.21.1" = _F8ZsO8uj;
-        "fabric-1.21.11" = _UsXbTJb0;
+        "fabric-1.21.1" = _RvxgIuCr;
+        "fabric-1.21.11" = _tTzk7qb7;
+        "neoforge-1.21.1" = _2HWSo38m;
         "pkg-0.1.0" = _O80cldRU;
         "pkg-0.1.1" = _mGZ2bZKj;
         "pkg-0.1.2" = _KFELddCC;
@@ -252,7 +283,12 @@ let
         "pkg-0.4.0-1.20.1" = _6F0aAWqO;
         "pkg-0.4.0-1.21.1" = _F8ZsO8uj;
         "pkg-0.4.0-1.21.11" = _UsXbTJb0;
-        "default" = _UsXbTJb0;
+        "pkg-0.4.0-1.21.1-neo" = _rDRigO34;
+        "pkg-0.4.1-1.20.1" = _ECMGYgrW;
+        "pkg-0.4.1-1.21.1" = _RvxgIuCr;
+        "pkg-0.4.1-1.21.11" = _tTzk7qb7;
+        "pkg-0.4.1-1.21.1-neo" = _2HWSo38m;
+        "default" = _2HWSo38m;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pyrellium";

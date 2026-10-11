@@ -356,6 +356,11 @@ let
             "file" = "neoforge-26.3.0.1-beta-26.3_freecam_by_jasonzli-26.3.0.jar";
             "hash" = "sha512-T/mLs1PopWHJUV+aKeIp7szd9QZKTwwnrZp7r1AH/uYgQG8CX+KHP9Rs7Bb1E3HRuc1Knnc3HhDaOUCwLLw8XQ==";
         };
+        _hOx8i0sb = {
+            "id" = "hOx8i0sb";
+            "file" = "forge-66.0.0-26.3_freecam_by_jasonzli-26.3.0.jar";
+            "hash" = "sha512-KnCDaIgOsmeBAaX52E6x2Qkiip2CusRiQnIHv7sefagrJwOtcI/k3lW3OY93skgJCxcMxSxOPdv2aJJ1EnKAnw==";
+        };
     in {
         "run5CnaM" = _run5CnaM;
         "Z8TEkhJU" = _Z8TEkhJU;
@@ -428,6 +433,7 @@ let
         "39c8eh5Q" = _39c8eh5Q;
         "XQNk0ypE" = _XQNk0ypE;
         "L7Hub7ik" = _L7Hub7ik;
+        "hOx8i0sb" = _hOx8i0sb;
         "fabric-1.21" = _run5CnaM;
         "fabric-1.21.1" = _run5CnaM;
         "fabric-1.20.6" = _yeCXKLtc;
@@ -512,6 +518,7 @@ let
         "forge-26.1.1" = _r0fRP8W5;
         "forge-26.1.2" = _r0fRP8W5;
         "forge-26.2" = _39c8eh5Q;
+        "forge-26.3" = _hOx8i0sb;
         "neoforge-1.21.11" = _bTxy6q6N;
         "neoforge-1.21.1" = _rN0lM5S8;
         "neoforge-1.21.2" = _UND91glG;
@@ -606,7 +613,8 @@ let
         "pkg-26.2Fo" = _39c8eh5Q;
         "pkg-26.3Fa" = _XQNk0ypE;
         "pkg-26.3NF" = _L7Hub7ik;
-        "default" = _L7Hub7ik;
+        "pkg-26.3Fo" = _hOx8i0sb;
+        "default" = _hOx8i0sb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "freecammc";

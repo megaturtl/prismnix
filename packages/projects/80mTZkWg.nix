@@ -156,6 +156,11 @@ let
             "file" = "music-fabric_26.2.jar";
             "hash" = "sha512-lFU6vKYe5sQ3VSo/fIjRcVoaAn+PH0WS0ietSF5hIo7eHYC7zWXFO/zcRoHWU6/GPYN/wPxqldTWk+wBHvt0Qw==";
         };
+        _oDZgZnKl = {
+            "id" = "oDZgZnKl";
+            "file" = "music-fabric_26.3.jar";
+            "hash" = "sha512-UVXx1wkPmZMMTdOeKKX51g1XzzfTSTdZRZFrj/o6IVcIcqoOd0LsalKTwN45CreYEI34/Vd1+5bLGS9aQsSxQg==";
+        };
     in {
         "eEoozbrE" = _eEoozbrE;
         "HvLNZ0Mr" = _HvLNZ0Mr;
@@ -188,6 +193,7 @@ let
         "4JAzTjgy" = _4JAzTjgy;
         "aA75bgDJ" = _aA75bgDJ;
         "XOEpY1nP" = _XOEpY1nP;
+        "oDZgZnKl" = _oDZgZnKl;
         "fabric-1.21" = _kT4XqzDW;
         "fabric-1.21.1" = _gMuXYre2;
         "fabric-1.21.2" = _2dHngYya;
@@ -204,9 +210,10 @@ let
         "fabric-26.1.1" = _4JAzTjgy;
         "fabric-26.1.2" = _aA75bgDJ;
         "fabric-26.2" = _XOEpY1nP;
-        "pkg-1.0.0" = _XOEpY1nP;
+        "fabric-26.3" = _oDZgZnKl;
+        "pkg-1.0.0" = _oDZgZnKl;
         "pkg-1.0.1" = _aA75bgDJ;
-        "default" = _XOEpY1nP;
+        "default" = _oDZgZnKl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-voice-chat-music-addon";

@@ -11,9 +11,15 @@ let
             "file" = "Enhanced-Item-Frame.zip";
             "hash" = "sha512-aedtgvm+D8oeFaJl2yH7aY/P9W9//7/IYCO2bNJYvjFw4HMF/pwthhV8vyTnpzc4xMuL524gVgEkD5OAzn2xsA==";
         };
+        _odtV0o2u = {
+            "id" = "odtV0o2u";
+            "file" = "enhanced-item-frame-26.3.zip";
+            "hash" = "sha512-OZ6qpb5D/A0zxORTCAQ2AfMzu1f/OrIpPaG+2C1kmzD8Umwaiigd0JfeWFTeFYOaM5yHVGO7HwIL0S/JeM99Qg==";
+        };
     in {
         "JvKnbCwn" = _JvKnbCwn;
         "x6xXvrhd" = _x6xXvrhd;
+        "odtV0o2u" = _odtV0o2u;
         "minecraft-1.18" = _JvKnbCwn;
         "minecraft-1.18.1" = _JvKnbCwn;
         "minecraft-1.18.2" = _JvKnbCwn;
@@ -45,9 +51,11 @@ let
         "minecraft-26.1.1" = _x6xXvrhd;
         "minecraft-26.1.2" = _x6xXvrhd;
         "minecraft-26.2" = _x6xXvrhd;
+        "minecraft-26.3" = _odtV0o2u;
         "pkg-1.21.10" = _JvKnbCwn;
         "pkg-26.2" = _x6xXvrhd;
-        "default" = _x6xXvrhd;
+        "pkg-26.3" = _odtV0o2u;
+        "default" = _odtV0o2u;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enhanced-item-frame";

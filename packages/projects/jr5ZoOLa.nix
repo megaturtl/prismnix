@@ -81,6 +81,11 @@ let
             "file" = "++relauncher-0.8.3-beta-shadow.jar";
             "hash" = "sha512-kQ1/Mhg2t0sO3OLBIliVq7BbHTbwRWN9s6espqNImI4q+bed5McdsLtTCzh7/M1528v5aUboDbaT6HPt5CysbA==";
         };
+        _3ZIpUBVp = {
+            "id" = "3ZIpUBVp";
+            "file" = "++relauncher-0.8.4-beta-shadow.jar";
+            "hash" = "sha512-QzKMEKGAydVlpBtlYi84ypAm2kLFZZtNsU4Yv+0r41K9sZe1VuE13R/QHQD0wa3EUF3quxujXGv449DJHNdWWw==";
+        };
     in {
         "RNC2TCZf" = _RNC2TCZf;
         "JoHAMQXu" = _JoHAMQXu;
@@ -98,7 +103,8 @@ let
         "Zro1ROdU" = _Zro1ROdU;
         "EGetBgU3" = _EGetBgU3;
         "7h1RIhQ8" = _7h1RIhQ8;
-        "forge-1.12.2" = _7h1RIhQ8;
+        "3ZIpUBVp" = _3ZIpUBVp;
+        "forge-1.12.2" = _3ZIpUBVp;
         "pkg-0.3.10-beta" = _RNC2TCZf;
         "pkg-0.3.12-beta" = _JoHAMQXu;
         "pkg-0.4.6-beta" = _AW3lT0sc;
@@ -115,7 +121,8 @@ let
         "pkg-0.8.1" = _Zro1ROdU;
         "pkg-0.8.2" = _EGetBgU3;
         "pkg-0.8.3-beta" = _7h1RIhQ8;
-        "default" = _7h1RIhQ8;
+        "pkg-0.8.4" = _3ZIpUBVp;
+        "default" = _3ZIpUBVp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cleanroom-relauncher-unofficial";

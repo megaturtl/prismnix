@@ -11,9 +11,27 @@ let
             "file" = "brutes-drops-scraps-v1.0.0.jar";
             "hash" = "sha512-Ydfk94Px6AW7nGbmDxIbP5M9kVsrIA6AFdGJrb9aZEyzPmYTpSYBv+3RHnSZqArCmhOUGv11m/0EkELbwhgmXw==";
         };
+        _KfRiQb7A = {
+            "id" = "KfRiQb7A";
+            "file" = "Brutes Drops Scraps v1.0.0 [26.3].zip";
+            "hash" = "sha512-ZJHqW5oyqdYr5AG+XWBIMs6lOGb7aT3J/UkyE4OFKYYkpD1TVK4qrKgDjkEDh1gtZwT8NjbuDvrKsrz1luMSnw==";
+        };
+        _DCktRhQq = {
+            "id" = "DCktRhQq";
+            "file" = "brutes-drops-scraps-1.0.0.jar";
+            "hash" = "sha512-RABTRNSirLMaYQPXsD1PsipdLVzaf4GP2E3VJmoDCc+sISzaYZgQUNs8sfTi7WXHFOyGAfR8tZVU4uPtDoYK/w==";
+        };
+        _qDbFE4cj = {
+            "id" = "qDbFE4cj";
+            "file" = "brutes-drops-scraps-1.0.0.jar";
+            "hash" = "sha512-RABTRNSirLMaYQPXsD1PsipdLVzaf4GP2E3VJmoDCc+sISzaYZgQUNs8sfTi7WXHFOyGAfR8tZVU4uPtDoYK/w==";
+        };
     in {
         "peoiRErm" = _peoiRErm;
         "wQtj4DSd" = _wQtj4DSd;
+        "KfRiQb7A" = _KfRiQb7A;
+        "DCktRhQq" = _DCktRhQq;
+        "qDbFE4cj" = _qDbFE4cj;
         "datapack-1.21" = _peoiRErm;
         "datapack-1.21.1" = _peoiRErm;
         "datapack-1.21.2" = _peoiRErm;
@@ -30,6 +48,7 @@ let
         "datapack-26.1.1" = _peoiRErm;
         "datapack-26.1.2" = _peoiRErm;
         "datapack-26.2" = _peoiRErm;
+        "datapack-26.3" = _KfRiQb7A;
         "fabric-1.21" = _wQtj4DSd;
         "fabric-1.21.1" = _wQtj4DSd;
         "fabric-1.21.2" = _wQtj4DSd;
@@ -46,6 +65,7 @@ let
         "fabric-26.1.1" = _wQtj4DSd;
         "fabric-26.1.2" = _wQtj4DSd;
         "fabric-26.2" = _wQtj4DSd;
+        "fabric-26.3" = _qDbFE4cj;
         "forge-1.21" = _wQtj4DSd;
         "forge-1.21.1" = _wQtj4DSd;
         "forge-1.21.2" = _wQtj4DSd;
@@ -62,6 +82,7 @@ let
         "forge-26.1.1" = _wQtj4DSd;
         "forge-26.1.2" = _wQtj4DSd;
         "forge-26.2" = _wQtj4DSd;
+        "forge-26.3" = _qDbFE4cj;
         "neoforge-1.21" = _wQtj4DSd;
         "neoforge-1.21.1" = _wQtj4DSd;
         "neoforge-1.21.2" = _wQtj4DSd;
@@ -78,6 +99,7 @@ let
         "neoforge-26.1.1" = _wQtj4DSd;
         "neoforge-26.1.2" = _wQtj4DSd;
         "neoforge-26.2" = _wQtj4DSd;
+        "neoforge-26.3" = _qDbFE4cj;
         "quilt-1.21" = _wQtj4DSd;
         "quilt-1.21.1" = _wQtj4DSd;
         "quilt-1.21.2" = _wQtj4DSd;
@@ -94,9 +116,12 @@ let
         "quilt-26.1.1" = _wQtj4DSd;
         "quilt-26.1.2" = _wQtj4DSd;
         "quilt-26.2" = _wQtj4DSd;
+        "quilt-26.3" = _qDbFE4cj;
         "pkg-v1.0.0" = _peoiRErm;
         "pkg-v1.0.0+mod" = _wQtj4DSd;
-        "default" = _wQtj4DSd;
+        "pkg-1.0.0" = _KfRiQb7A;
+        "pkg-1.0.0+mod" = _qDbFE4cj;
+        "default" = _qDbFE4cj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "brutes-drops-scraps";

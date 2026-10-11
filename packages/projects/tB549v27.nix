@@ -46,6 +46,11 @@ let
             "file" = "Mega TNT Mod 1.20.1-3.0.jar";
             "hash" = "sha512-dzpR4eODJ6pdMJbTJSyp52uh+jgdd59KSwDiiaM2Hxe0y/LZxgz3MhHC5i98AnClJtzYc1Svd/GnH/fQJuclOw==";
         };
+        _y52tYVMU = {
+            "id" = "y52tYVMU";
+            "file" = "Mega TNT Mod 1.20.1-4.0.jar";
+            "hash" = "sha512-bm8GVL+VDKM5oEAFtv69TdUOINxShI/FTszwy4CPT64wKCflRnGAcqF4BLtdyQH0BZJmFNYa0y2u/RX03Q4Buw==";
+        };
     in {
         "XaE4qwQ4" = _XaE4qwQ4;
         "ToW0kqQL" = _ToW0kqQL;
@@ -56,7 +61,8 @@ let
         "hMw6c0ed" = _hMw6c0ed;
         "zMRSFrqD" = _zMRSFrqD;
         "GFpOAxlg" = _GFpOAxlg;
-        "forge-1.20.1" = _GFpOAxlg;
+        "y52tYVMU" = _y52tYVMU;
+        "forge-1.20.1" = _y52tYVMU;
         "pkg-2.0" = _XaE4qwQ4;
         "pkg-2.1" = _ToW0kqQL;
         "pkg-2.2" = _BipBqcFj;
@@ -66,7 +72,8 @@ let
         "pkg-2.5.1" = _hMw6c0ed;
         "pkg-2.6" = _zMRSFrqD;
         "pkg-3.0" = _GFpOAxlg;
-        "default" = _GFpOAxlg;
+        "pkg-4.0" = _y52tYVMU;
+        "default" = _y52tYVMU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mega-tnt-mod";

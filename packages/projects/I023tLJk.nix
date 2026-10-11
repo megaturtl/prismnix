@@ -41,6 +41,16 @@ let
             "file" = "Pastoral Beta 1.5.2.zip";
             "hash" = "sha512-2MJBUngt7tUU/N6A6nehydz/kmFn/NxCNrJpdFYEc/l0d4efNH0jGZ7P3KSnA7uLZGUrfKSXJLYvugLMO9PUMA==";
         };
+        _Ee1Et5Xu = {
+            "id" = "Ee1Et5Xu";
+            "file" = "Pastoral Beta 1.5.3.zip";
+            "hash" = "sha512-VMxzmzS8fLwBaYjKms7OdHc/KGqzrcKbKLTW/EPuWe6vPUY5gSorzdpqlm9apL+jbGXfAmk/SII5tfFvIMMAcA==";
+        };
+        _okPj1fZ4 = {
+            "id" = "okPj1fZ4";
+            "file" = "Pastoral Beta 1.5.4.zip";
+            "hash" = "sha512-je2vwup3qNQ6Yq8MLFSS1hucyHXfO4ZcmJsdtJlb2NsZ4rOUVDK8b5SNBce/wNbJpx1q5otZACSXmvQsNJsDFQ==";
+        };
     in {
         "ZYvX4mS8" = _ZYvX4mS8;
         "GDubzRPj" = _GDubzRPj;
@@ -50,15 +60,18 @@ let
         "fAD4007N" = _fAD4007N;
         "Slk76sRr" = _Slk76sRr;
         "jbidOt5B" = _jbidOt5B;
-        "minecraft-26.1.2" = _jbidOt5B;
+        "Ee1Et5Xu" = _Ee1Et5Xu;
+        "okPj1fZ4" = _okPj1fZ4;
+        "minecraft-26.1.2" = _okPj1fZ4;
         "minecraft-1.21.9" = _fAD4007N;
         "minecraft-1.21.10" = _fAD4007N;
-        "minecraft-1.21.11" = _jbidOt5B;
-        "minecraft-26.1" = _jbidOt5B;
-        "minecraft-26.1.1" = _jbidOt5B;
-        "minecraft-26.2" = _jbidOt5B;
-        "minecraft-1.20.1" = _jbidOt5B;
-        "minecraft-1.21.1" = _jbidOt5B;
+        "minecraft-1.21.11" = _okPj1fZ4;
+        "minecraft-26.1" = _okPj1fZ4;
+        "minecraft-26.1.1" = _okPj1fZ4;
+        "minecraft-26.2" = _okPj1fZ4;
+        "minecraft-1.20.1" = _okPj1fZ4;
+        "minecraft-1.21.1" = _okPj1fZ4;
+        "minecraft-26.3" = _okPj1fZ4;
         "pkg-Beta1.0" = _ZYvX4mS8;
         "pkg-Beta1.1" = _GDubzRPj;
         "pkg-Beta1.2" = _VlcoOFWK;
@@ -67,7 +80,9 @@ let
         "pkg-Beta1.5" = _fAD4007N;
         "pkg-Beta1.5.1" = _Slk76sRr;
         "pkg-Beta1.5.2" = _jbidOt5B;
-        "default" = _jbidOt5B;
+        "pkg-Beta1.5.3" = _Ee1Et5Xu;
+        "pkg-Beta1.5.4" = _okPj1fZ4;
+        "default" = _okPj1fZ4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pastoral";

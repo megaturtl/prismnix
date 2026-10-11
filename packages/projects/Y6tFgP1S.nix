@@ -41,6 +41,11 @@ let
             "file" = "totemclean-26.2-1.0.0.jar";
             "hash" = "sha512-Ch0G4b6+ZvCzeSqWF1uRxuJ1rnabYpxkc6XvYJikwH1QcG6/tN7CFyvLBhlVStlS8B6vokIupaVpnPOtKRpfpQ==";
         };
+        _WDnEHf5B = {
+            "id" = "WDnEHf5B";
+            "file" = "totemclean-26.3-fabric-1.0.0.jar";
+            "hash" = "sha512-7P4jsk1C45ssUqiEEdoJGf0teGZot/SuM5/3iDj7ChX+M2fPETfMssddfdGCB17AQR8VOrb5KYD+C3DmNgIobw==";
+        };
     in {
         "TkHOSlcQ" = _TkHOSlcQ;
         "12jH4i2t" = _12jH4i2t;
@@ -50,6 +55,7 @@ let
         "L1gVCcmL" = _L1gVCcmL;
         "13LavlkJ" = _13LavlkJ;
         "di7qH4XM" = _di7qH4XM;
+        "WDnEHf5B" = _WDnEHf5B;
         "fabric-1.21" = _TkHOSlcQ;
         "fabric-1.21.1" = _TkHOSlcQ;
         "fabric-1.21.2" = _TkHOSlcQ;
@@ -76,9 +82,10 @@ let
         "fabric-1.19.3" = _L1gVCcmL;
         "fabric-1.19.4" = _L1gVCcmL;
         "fabric-26.2" = _di7qH4XM;
+        "fabric-26.3" = _WDnEHf5B;
         "forge-1.20.1" = _13LavlkJ;
-        "pkg-1.0.0" = _di7qH4XM;
-        "default" = _di7qH4XM;
+        "pkg-1.0.0" = _WDnEHf5B;
+        "default" = _WDnEHf5B;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "totemclean";

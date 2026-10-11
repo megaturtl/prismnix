@@ -76,6 +76,11 @@ let
             "file" = "Shader Panorama of 1.21.11：Mounts of Mayhem.zip";
             "hash" = "sha512-ZWhqCW4YyyWKjLh4vxm8W2hSq2OIJHHjtaZsaH0RfG1zTtk16C7X2nyhHpW/d5o5KtqP+TUftXgbnEh2e/tl+Q==";
         };
+        _iVdS05BY = {
+            "id" = "iVdS05BY";
+            "file" = "Shader Panorama of 1.21.11：Mounts of Mayhem.zip";
+            "hash" = "sha512-LHYz6tBXtZHXq0iQKZc29fH75oHMp3xLAIKVlNZ0qcR0Kelj0v8O6gHckRqyJla3KB47ncg8gD1eD/CvK8NO0Q==";
+        };
     in {
         "HDcYVrNL" = _HDcYVrNL;
         "FuqlH1PG" = _FuqlH1PG;
@@ -92,6 +97,7 @@ let
         "WgNxIHee" = _WgNxIHee;
         "5ChEJElS" = _5ChEJElS;
         "SZeTPBcb" = _SZeTPBcb;
+        "iVdS05BY" = _iVdS05BY;
         "minecraft-1.20" = _HDcYVrNL;
         "minecraft-1.20.1" = _FuqlH1PG;
         "minecraft-1.20.2" = _PjxeMqBo;
@@ -114,6 +120,7 @@ let
         "minecraft-26.1.1" = _WgNxIHee;
         "minecraft-26.1.2" = _5ChEJElS;
         "minecraft-26.2" = _SZeTPBcb;
+        "minecraft-26.3" = _iVdS05BY;
         "pkg-1.20" = _HDcYVrNL;
         "pkg-1.20.1" = _FuqlH1PG;
         "pkg-1.20.2-1.20.3" = _PjxeMqBo;
@@ -129,7 +136,8 @@ let
         "pkg-26.1.1" = _WgNxIHee;
         "pkg-26.1.2" = _5ChEJElS;
         "pkg-26.2" = _SZeTPBcb;
-        "default" = _SZeTPBcb;
+        "pkg-26.3" = _iVdS05BY;
+        "default" = _iVdS05BY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shader-panorama-of-1.21.11-mounts-of-mayhem";

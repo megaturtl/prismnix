@@ -101,6 +101,11 @@ let
             "file" = "reply-mod-1.4+1.21.10.jar";
             "hash" = "sha512-MDN9ali1Kakri0TdAY+Bpx3no6beYtK7tIzotWhP2sT5eiNIWmIfLQZLLSxh1EuIm9Bd6AcPujjgtC0948hOHQ==";
         };
+        _zrAydTOg = {
+            "id" = "zrAydTOg";
+            "file" = "replymod-1.4.0.jar";
+            "hash" = "sha512-Dim8AOl8Y4KD7vd2eiHwatTF5mb0n2LPaRuheJJzPsLdsBmTPgsYzkQw7ScWdvQ3HRDeXRNyUAO9gc7rYZwtkw==";
+        };
     in {
         "kedMAa3J" = _kedMAa3J;
         "UvZFsDOf" = _UvZFsDOf;
@@ -122,6 +127,7 @@ let
         "N20vFlFd" = _N20vFlFd;
         "oz5y2XKn" = _oz5y2XKn;
         "IaEIkzVw" = _IaEIkzVw;
+        "zrAydTOg" = _zrAydTOg;
         "fabric-1.19.3" = _AegdPiVF;
         "fabric-1.19.4" = _ROmDJmba;
         "fabric-1.20" = _SUd6lxsD;
@@ -189,9 +195,11 @@ let
         "fabric-1.21.9" = _IaEIkzVw;
         "fabric-1.21.10" = _IaEIkzVw;
         "fabric-1.21.11" = _IaEIkzVw;
-        "fabric-26.1" = _IaEIkzVw;
-        "fabric-26.1.1" = _IaEIkzVw;
-        "fabric-26.1.2" = _IaEIkzVw;
+        "fabric-26.1" = _zrAydTOg;
+        "fabric-26.1.1" = _zrAydTOg;
+        "fabric-26.1.2" = _zrAydTOg;
+        "fabric-26.2" = _zrAydTOg;
+        "fabric-26.3" = _zrAydTOg;
         "quilt-1.19.3" = _AegdPiVF;
         "quilt-1.20" = _SUd6lxsD;
         "quilt-1.20.1" = _SUd6lxsD;
@@ -258,9 +266,11 @@ let
         "quilt-1.21.9" = _IaEIkzVw;
         "quilt-1.21.10" = _IaEIkzVw;
         "quilt-1.21.11" = _IaEIkzVw;
-        "quilt-26.1" = _IaEIkzVw;
-        "quilt-26.1.1" = _IaEIkzVw;
-        "quilt-26.1.2" = _IaEIkzVw;
+        "quilt-26.1" = _zrAydTOg;
+        "quilt-26.1.1" = _zrAydTOg;
+        "quilt-26.1.2" = _zrAydTOg;
+        "quilt-26.2" = _zrAydTOg;
+        "quilt-26.3" = _zrAydTOg;
         "ornithe-1.8" = _Azj8ugFV;
         "ornithe-1.8.1" = _Azj8ugFV;
         "ornithe-1.8.2" = _Azj8ugFV;
@@ -329,7 +339,8 @@ let
         "pkg-fabric-1.21.8+1.3.3" = _N20vFlFd;
         "pkg-fabric-1.21.9+1.4" = _oz5y2XKn;
         "pkg-fabric-1.21.10+1.4" = _IaEIkzVw;
-        "default" = _IaEIkzVw;
+        "pkg-fabric-26.1+1.4" = _zrAydTOg;
+        "default" = _zrAydTOg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "replymod";

@@ -26,19 +26,26 @@ let
             "file" = "createatomic-1.3.1.jar";
             "hash" = "sha512-K950bOERv860iJgUcblCu4YmQ61YIrnSXnrf9laxDcZOfdd85qUWBbWaYi9881gopS8KfrZjx+D4/xBKTAt6pw==";
         };
+        _oThfqrw3 = {
+            "id" = "oThfqrw3";
+            "file" = "createatomic-1.3.2.jar";
+            "hash" = "sha512-nr7HAL2Aq105bu92q8EeSkbfGANqPU3K4Qy/btTUlesDc3wAmvuBR3kQ4nDUEmbiyl/WDsugN8PgAHp8ubYw0g==";
+        };
     in {
         "zpsdTYVk" = _zpsdTYVk;
         "qkDaRwvQ" = _qkDaRwvQ;
         "KDlUyfM8" = _KDlUyfM8;
         "CNHY4ast" = _CNHY4ast;
         "VMsakS57" = _VMsakS57;
-        "neoforge-1.21.1" = _VMsakS57;
+        "oThfqrw3" = _oThfqrw3;
+        "neoforge-1.21.1" = _oThfqrw3;
         "pkg-1.0.0" = _zpsdTYVk;
         "pkg-1.1.0" = _qkDaRwvQ;
         "pkg-1.2.0" = _KDlUyfM8;
         "pkg-1.3.0" = _CNHY4ast;
         "pkg-1.3.1" = _VMsakS57;
-        "default" = _VMsakS57;
+        "pkg-1.3.2" = _oThfqrw3;
+        "default" = _oThfqrw3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "createatomic";

@@ -196,6 +196,76 @@ let
             "file" = "custom-glow-enchantment-outline-fabric-1.21.1-1.2.2.jar";
             "hash" = "sha512-MYf2Yw+R+flADgYPl4+TTcvtsnLwhfa2kpDHXy+nPpRclEnvBzaF3bErTtA0zVXkdaUcqTs1/KcGCmgkwjdYRg==";
         };
+        _r4rkymWG = {
+            "id" = "r4rkymWG";
+            "file" = "custom-glow-enchantment-outline-neoforge-26.3-1.2.2.jar";
+            "hash" = "sha512-J0IHST3iSTbxMKAyYllMGRqHx1AsFdoz6uYRbtaADwxG173DXXu+IHiJVosiFWOOMUxnFub0m4NiUPp/ABtu/A==";
+        };
+        _yN8CjuLv = {
+            "id" = "yN8CjuLv";
+            "file" = "custom-glow-enchantment-outline-fabric-26.3-1.2.2.jar";
+            "hash" = "sha512-vOU/KL7pOGcwnDCmd4o6DPQo17McultL1LBU7K8E6Xp/gwof3lx6U0Vp7fgO6bxK5sQQic90cvf+4I41ENZP1g==";
+        };
+        _7R5zzQfR = {
+            "id" = "7R5zzQfR";
+            "file" = "custom-glow-enchantment-outline-forge-1.20.1-1.2.3.jar";
+            "hash" = "sha512-VTpv9pWY41w8gIp8rM4iqpvWLVV75iX57xOX2NQFoFlyFX4a54X6838OlyySjnyIs1Bk+sq0H8ajOMmeo7IJjg==";
+        };
+        _LZ8XLOiH = {
+            "id" = "LZ8XLOiH";
+            "file" = "custom-glow-enchantment-outline-fabric-1.20.1-1.2.3.jar";
+            "hash" = "sha512-ltjZ/+fMDvxzSIgZMfitvMxCr7oHbi+70kGtko7jAyM/iqmPrMdUoW87Ovbqyd4JmJcMKGQkjek2GdQgDYnS1Q==";
+        };
+        _93ZMCKHs = {
+            "id" = "93ZMCKHs";
+            "file" = "custom-glow-enchantment-outline-neoforge-1.21.1-1.2.3.jar";
+            "hash" = "sha512-fsUfUgadfvZYNUO4JNHtoQdTKg13lyHfEY0rTllbxmAmUsmr924gXe2/WDzNdHca+UIuFjQRObeQFXxAGTpfLQ==";
+        };
+        _CDws4Y7n = {
+            "id" = "CDws4Y7n";
+            "file" = "custom-glow-enchantment-outline-fabric-1.21.1-1.2.3.jar";
+            "hash" = "sha512-bsMYH4arBcSnBeVHFq3zO1FBdrt6qZZdmvCZZidxh3gx1cKV+LXxMNmmkZAA7vx6QWPHQZOfrp55oyhxhydb1A==";
+        };
+        _8sYL1dD4 = {
+            "id" = "8sYL1dD4";
+            "file" = "custom-glow-enchantment-outline-neoforge-1.21.11-1.2.3.jar";
+            "hash" = "sha512-x8yOoTfVYe7Dx6PDY1i+rarUSDp3IJhbEt7vCn02s3VnwRAC3IYwpXaF19UcgMOEZTO2WnYQTWtxtfp+v5SCKw==";
+        };
+        _s5cQ39tm = {
+            "id" = "s5cQ39tm";
+            "file" = "custom-glow-enchantment-outline-fabric-1.21.11-1.2.3.jar";
+            "hash" = "sha512-bUJD0nuPihqGdYvOp/K+XL5RE48Nv9ExGj2f0jD82zlcaRwGpvHdAUzakx1GMncz3VpDzATLJPkSLhBRQhyvAw==";
+        };
+        _UxdM6D14 = {
+            "id" = "UxdM6D14";
+            "file" = "custom-glow-enchantment-outline-neoforge-26.1.2-1.2.3.jar";
+            "hash" = "sha512-+9ckACV36TvmJSDGoQ/ARwSw9KMSED+94Nmm6hs2/fY95dmkA2DpUxmGSzJlX+BkmnNYQKBqMh9x4wRXKOPeLA==";
+        };
+        _GoXEKjwC = {
+            "id" = "GoXEKjwC";
+            "file" = "custom-glow-enchantment-outline-fabric-26.1.2-1.2.3.jar";
+            "hash" = "sha512-rKzxcUvvDvMx9wrULllv66CBXn66xXpkAI1F9M44TfN4L95tDRrdD9qpH3Qu4qE+go74MN1Kl7wdUe8doPOzGw==";
+        };
+        _iN0mittc = {
+            "id" = "iN0mittc";
+            "file" = "custom-glow-enchantment-outline-neoforge-26.2-1.2.3.jar";
+            "hash" = "sha512-TQCcSabodBD/LdIx5cxBN+cLa/7ZlsU/CQelxMdAfRNW7qCIA2JIa6f73Z3DpayXDqNIsoxUGXdyRM0vIG3erw==";
+        };
+        _GrMBG0Yr = {
+            "id" = "GrMBG0Yr";
+            "file" = "custom-glow-enchantment-outline-fabric-26.2-1.2.3.jar";
+            "hash" = "sha512-yICKfvgHWQe8OZKCGBlQpdfRv6mYpjBYTydOpFZYvQvBs5FtWwy6iG0nIdSPfYsQZM08fo98VBetByu7XjWvoA==";
+        };
+        _BRwWMXiZ = {
+            "id" = "BRwWMXiZ";
+            "file" = "custom-glow-enchantment-outline-neoforge-26.3-1.2.3.jar";
+            "hash" = "sha512-haBP38l5n8C1uyRLGBUmCC3tqf8GHi0J7HwhX0HWggjdJNqQkBuJq8iqSGzGSQnxqWE1zP/j7JDnEXx42//fpw==";
+        };
+        _SkACuFeW = {
+            "id" = "SkACuFeW";
+            "file" = "custom-glow-enchantment-outline-fabric-26.3-1.2.3.jar";
+            "hash" = "sha512-8YRTNN7oihoXaT/bEZnE7huZRLizk8cQM9g+FqJBgMZpDomzGVanO7g5U1ura88Q9r9C/jdNKjf6IkaD9/eFyA==";
+        };
     in {
         "j6GkPIdU" = _j6GkPIdU;
         "qTmXpaTD" = _qTmXpaTD;
@@ -236,25 +306,42 @@ let
         "yMqK62pY" = _yMqK62pY;
         "ucn0Ehgz" = _ucn0Ehgz;
         "b3YwMxdp" = _b3YwMxdp;
+        "r4rkymWG" = _r4rkymWG;
+        "yN8CjuLv" = _yN8CjuLv;
+        "7R5zzQfR" = _7R5zzQfR;
+        "LZ8XLOiH" = _LZ8XLOiH;
+        "93ZMCKHs" = _93ZMCKHs;
+        "CDws4Y7n" = _CDws4Y7n;
+        "8sYL1dD4" = _8sYL1dD4;
+        "s5cQ39tm" = _s5cQ39tm;
+        "UxdM6D14" = _UxdM6D14;
+        "GoXEKjwC" = _GoXEKjwC;
+        "iN0mittc" = _iN0mittc;
+        "GrMBG0Yr" = _GrMBG0Yr;
+        "BRwWMXiZ" = _BRwWMXiZ;
+        "SkACuFeW" = _SkACuFeW;
         "forge-1.19.2" = _j6GkPIdU;
-        "forge-1.20.1" = _4Z7VXyzB;
-        "fabric-1.20.1" = _ucn0Ehgz;
-        "fabric-1.21.1" = _b3YwMxdp;
-        "fabric-1.21.11" = _vTs6dqph;
-        "fabric-26.1.2" = _GxsIOMeV;
-        "fabric-26.2" = _yMqK62pY;
-        "neoforge-1.21.1" = _ok2XwDxL;
-        "neoforge-1.21.11" = _9JXco0Tn;
-        "neoforge-26.1.2" = _tXOZVPQy;
-        "neoforge-26.2" = _hxBAQb2P;
-        "neoforge-1.20.1" = _4Z7VXyzB;
+        "forge-1.20.1" = _7R5zzQfR;
+        "fabric-1.20.1" = _LZ8XLOiH;
+        "fabric-1.21.1" = _CDws4Y7n;
+        "fabric-1.21.11" = _s5cQ39tm;
+        "fabric-26.1.2" = _GoXEKjwC;
+        "fabric-26.2" = _GrMBG0Yr;
+        "fabric-26.3" = _SkACuFeW;
+        "neoforge-1.21.1" = _93ZMCKHs;
+        "neoforge-1.21.11" = _8sYL1dD4;
+        "neoforge-26.1.2" = _UxdM6D14;
+        "neoforge-26.2" = _iN0mittc;
+        "neoforge-1.20.1" = _7R5zzQfR;
+        "neoforge-26.3" = _BRwWMXiZ;
         "pkg-1.0.0" = _qPTqzqQn;
         "pkg-1.0.1" = _P3OfmNHX;
         "pkg-1.1.0" = _EmUhHh06;
         "pkg-1.2.0" = _H4IIJMUB;
         "pkg-1.2.1" = _yMqK62pY;
-        "pkg-1.2.2" = _b3YwMxdp;
-        "default" = _b3YwMxdp;
+        "pkg-1.2.2" = _yN8CjuLv;
+        "pkg-1.2.3" = _SkACuFeW;
+        "default" = _SkACuFeW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "custom-glow-enchantment-outline";

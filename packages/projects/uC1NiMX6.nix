@@ -11,20 +11,27 @@ let
             "file" = "LegacyOfUtopia-1.12.2-1.1.jar";
             "hash" = "sha512-qyEFviLEK+FP1c5Dx38RLu9arA/DOynBXftJLAaZY1Dj9BgfhmZ+W4LixYM1vyY00EPxBOUWUSaGQEggCJmPLw==";
         };
-        _KlOLDcE5 = {
-            "id" = "KlOLDcE5";
+        _jt0XOpXe = {
+            "id" = "jt0XOpXe";
             "file" = "LegacyOfUtopia-1.12.2-1.2.jar";
-            "hash" = "sha512-HNxasd+bY1DoJafhjyr7UGc/wWHaeCBTeVYhlHuqmZPLjM5h93jGv4TdV+gtE6xFvFQNzmzB6JXz3bEOyyGNFg==";
+            "hash" = "sha512-7mR6O4mt3bSAjMgOluBOu8XMjQShAHHAa0lJ3c1eV/LFhGpXuP8kmJRSGmaWewVadTDRquMbb1habsdNBmU2hg==";
+        };
+        _Z6nIoKt8 = {
+            "id" = "Z6nIoKt8";
+            "file" = "LegacyOfUtopia-1.12.2-1.3.jar";
+            "hash" = "sha512-WOpMgxYZdUKNL2H+AaTzc4tHQNN53RZGD/DIMMrFtKgmQfazJl7b+DsZPR8ksZaM/crYz/cjeaNBqGVDSWlWEg==";
         };
     in {
         "M06fWOEZ" = _M06fWOEZ;
         "4ThkHE9o" = _4ThkHE9o;
-        "KlOLDcE5" = _KlOLDcE5;
-        "forge-1.12.2" = _KlOLDcE5;
+        "jt0XOpXe" = _jt0XOpXe;
+        "Z6nIoKt8" = _Z6nIoKt8;
+        "forge-1.12.2" = _Z6nIoKt8;
         "pkg-1.0" = _M06fWOEZ;
         "pkg-1.1" = _4ThkHE9o;
-        "pkg-1.2" = _KlOLDcE5;
-        "default" = _KlOLDcE5;
+        "pkg-1.2" = _jt0XOpXe;
+        "pkg-1.3" = _Z6nIoKt8;
+        "default" = _Z6nIoKt8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "legacy-of-utopia";

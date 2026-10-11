@@ -56,6 +56,11 @@ let
             "file" = "Hitbox+ - 26.2.jar";
             "hash" = "sha512-JqwtTAFTyg/SeKue9yF2feXwD8vUtGoZJfe7iiEWD8NBt0rl+37BQLqgdhRKgeLtedQ24rTVMsz6cshSo9tbJw==";
         };
+        _l031szFx = {
+            "id" = "l031szFx";
+            "file" = "Hitbox+ - 26.3 .jar";
+            "hash" = "sha512-JSfbpXbtGwrQgZN3mqPot1YYkGPCWzPDJd9bgahAFVoMHaG1QBNOHVwQndqCvWARzC1vnL11RjmNQXoDIcKaqQ==";
+        };
     in {
         "Uu25zg36" = _Uu25zg36;
         "G7LwDexC" = _G7LwDexC;
@@ -68,11 +73,13 @@ let
         "B7AFH7QN" = _B7AFH7QN;
         "cACw3WpD" = _cACw3WpD;
         "gvb7pL8X" = _gvb7pL8X;
+        "l031szFx" = _l031szFx;
         "fabric-1.21.11" = _B7AFH7QN;
         "fabric-26.1" = _cACw3WpD;
         "fabric-26.1.1" = _cACw3WpD;
         "fabric-26.1.2" = _cACw3WpD;
         "fabric-26.2" = _gvb7pL8X;
+        "fabric-26.3" = _l031szFx;
         "pkg-1.21.11-Outdated" = _vZ6vqKxQ;
         "pkg-26.1-Outdated" = _G7LwDexC;
         "pkg-26.1.1-Outdated" = _CZi2KGFC;
@@ -82,7 +89,8 @@ let
         "pkg-1.21.11" = _B7AFH7QN;
         "pkg-26.1.X" = _cACw3WpD;
         "pkg-26.2" = _gvb7pL8X;
-        "default" = _gvb7pL8X;
+        "pkg-26.3" = _l031szFx;
+        "default" = _l031szFx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hitbox+";

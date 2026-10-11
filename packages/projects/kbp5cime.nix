@@ -16,10 +16,16 @@ let
             "file" = "god_sword-1.0.3-neoforge-1.21.4.jar";
             "hash" = "sha512-fqoD/cKPqBo0Qy3GO5/i1EUYktYvROJibmhi3phwQuUAcmKLQMOnhI/1Ez+Fw5EkScvGS50rAH7r73IsXkQqMg==";
         };
+        _Gxej4jXT = {
+            "id" = "Gxej4jXT";
+            "file" = "god_sword-1.0.4-neoforge-26.1.2.jar";
+            "hash" = "sha512-AiuZAmhrtA32kKFRwn1XP9f2fZIz9fxmZUVWnSg25xZhemRvFLE48b2hlWGzDVUKrZ/SQxJfR4pXZ0xUkDBe3w==";
+        };
     in {
         "VBrlKwn4" = _VBrlKwn4;
         "nT5prCzT" = _nT5prCzT;
         "OF1q9w8Z" = _OF1q9w8Z;
+        "Gxej4jXT" = _Gxej4jXT;
         "forge-1.20.1" = _VBrlKwn4;
         "neoforge-1.20.1" = _VBrlKwn4;
         "neoforge-1.21.1" = _nT5prCzT;
@@ -28,10 +34,12 @@ let
         "neoforge-1.21.6" = _OF1q9w8Z;
         "neoforge-1.21.7" = _OF1q9w8Z;
         "neoforge-1.21.8" = _OF1q9w8Z;
+        "neoforge-26.1.2" = _Gxej4jXT;
         "pkg-1.0.0" = _VBrlKwn4;
         "pkg-1.0.1" = _nT5prCzT;
         "pkg-1.0.3" = _OF1q9w8Z;
-        "default" = _OF1q9w8Z;
+        "pkg-1.0.4" = _Gxej4jXT;
+        "default" = _Gxej4jXT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "god-op-sword";

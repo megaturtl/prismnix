@@ -191,6 +191,36 @@ let
             "file" = "cookeymod-vanilla-1.7.18+26.2.jar";
             "hash" = "sha512-QUKVsVdJ/nqZvDuhF0HUjFoIMM7hpFX4EQh65RX3QSJzn4MjqwyiuEvadaZfK6uo0ky8ggMdVHg2PCdLYaiawA==";
         };
+        _ZGoBaVti = {
+            "id" = "ZGoBaVti";
+            "file" = "cookeymod-vanilla-1.7.19+26.1.2.jar";
+            "hash" = "sha512-t/48i5DPxp4nvDZoWGHRFXQqmZASBta5W0HRqaw5vR4gjusPgCls8gpJOICv7SY0QrMjjom1sYNE1AB7Hlnzrg==";
+        };
+        _1z7YUrvg = {
+            "id" = "1z7YUrvg";
+            "file" = "cookeymod-vanilla-1.7.19+26.2.jar";
+            "hash" = "sha512-54Acc+8OEmCBMCIQwKgbLMepaT3Zxy7DjKsOa8mTn7V3DRO544EuVSO4O8kfPuPQC6CJA2GR8mnEgUNY2Tjbcg==";
+        };
+        _TbMas3eb = {
+            "id" = "TbMas3eb";
+            "file" = "cookeymod-vanilla-1.7.19+26.3.jar";
+            "hash" = "sha512-xbWs91NlpboSoAiNhYtAQhOeqqCyySrUdyoLD+i/AxJbIUCsNQLtrkwFi01qsC1MqFXeDzebTmcpnYSlB4AcjQ==";
+        };
+        _1RRJHnct = {
+            "id" = "1RRJHnct";
+            "file" = "cookeymod-vanilla-1.7.20+26.1.2.jar";
+            "hash" = "sha512-Hx3zXRy4EvF/vPuavQ59LWICp12YlWIAASsUdUW4a0tqE2Zi6yi/QeA7tAF0fQhFVB2ebdzB/E9uMaReBjPwdQ==";
+        };
+        _9OJ8Fyrc = {
+            "id" = "9OJ8Fyrc";
+            "file" = "cookeymod-vanilla-1.7.20+26.2.jar";
+            "hash" = "sha512-14FkLVHlxxePsc8SdakCqZvG2xo3LapLk9uoRQuAawvzcMdtmuQTbSc4LSJv8KnuXNm86BXh6QGVe21bNPF06w==";
+        };
+        _ZDjpbs8w = {
+            "id" = "ZDjpbs8w";
+            "file" = "cookeymod-vanilla-1.7.20+26.3.jar";
+            "hash" = "sha512-Msldru5RYhZfN/0/I3nJnoIu71fHkUFimJix+RQ3fVyCVBbMoT4tJDJc3JaCak8xPo30ia3zz1peQ1MmN9Zt9A==";
+        };
     in {
         "W7DG585q" = _W7DG585q;
         "JQHy2zBi" = _JQHy2zBi;
@@ -230,6 +260,12 @@ let
         "gVV3DdlG" = _gVV3DdlG;
         "ewJpq11c" = _ewJpq11c;
         "9FFV2LJP" = _9FFV2LJP;
+        "ZGoBaVti" = _ZGoBaVti;
+        "1z7YUrvg" = _1z7YUrvg;
+        "TbMas3eb" = _TbMas3eb;
+        "1RRJHnct" = _1RRJHnct;
+        "9OJ8Fyrc" = _9OJ8Fyrc;
+        "ZDjpbs8w" = _ZDjpbs8w;
         "fabric-1.19.4" = _W7DG585q;
         "fabric-1.20.1" = _b4c7A6FT;
         "fabric-1.20.2" = _DlFZsLYL;
@@ -249,10 +285,11 @@ let
         "fabric-1.21.10" = _adRCc9w5;
         "fabric-1.21.11" = _WKf16zXo;
         "fabric-1.20" = _b4c7A6FT;
-        "fabric-26.1" = _ewJpq11c;
-        "fabric-26.1.1" = _ewJpq11c;
-        "fabric-26.1.2" = _ewJpq11c;
-        "fabric-26.2" = _9FFV2LJP;
+        "fabric-26.1" = _1RRJHnct;
+        "fabric-26.1.1" = _1RRJHnct;
+        "fabric-26.1.2" = _1RRJHnct;
+        "fabric-26.2" = _9OJ8Fyrc;
+        "fabric-26.3" = _ZDjpbs8w;
         "pkg-1.7.1+1.19.4" = _W7DG585q;
         "pkg-1.7.2+1.20.1" = _JQHy2zBi;
         "pkg-1.7.2+1.20.2" = _c0j7ByNu;
@@ -291,7 +328,13 @@ let
         "pkg-1.7.17+26.1.2" = _gVV3DdlG;
         "pkg-1.7.18+26.1.2" = _ewJpq11c;
         "pkg-1.7.18+26.2" = _9FFV2LJP;
-        "default" = _9FFV2LJP;
+        "pkg-1.7.19+26.1.2" = _ZGoBaVti;
+        "pkg-1.7.19+26.2" = _1z7YUrvg;
+        "pkg-1.7.19+26.3" = _TbMas3eb;
+        "pkg-1.7.20+26.1.2" = _1RRJHnct;
+        "pkg-1.7.20+26.2" = _9OJ8Fyrc;
+        "pkg-1.7.20+26.3" = _ZDjpbs8w;
+        "default" = _ZDjpbs8w;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cookeymod";

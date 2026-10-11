@@ -31,6 +31,36 @@ let
             "file" = "timber-enchantment-v1.0.1.jar";
             "hash" = "sha512-gUdApPitHHS+f+b2BJVX5b0zIvVlDLUrfGp9WHqL21OMz/4DCAgZSZochkdzAbObbDlLFxH6xmJDPqUZh4lCeQ==";
         };
+        _GbDdtWPe = {
+            "id" = "GbDdtWPe";
+            "file" = "Timber Enchantment v1.0.1 [26.3].zip";
+            "hash" = "sha512-g4YYlaoYm/mxpxMrBvvJC+f76YgB5h2o867erioDNaP7VAVvelqfTAfs1kLWiWcoJ+h8Bord2GJCNLYruEhZCg==";
+        };
+        _VPqHnhT1 = {
+            "id" = "VPqHnhT1";
+            "file" = "timber-enchantment-1.0.1.jar";
+            "hash" = "sha512-v+Ugzx5k3zYKmkqjvdpsE4acDlagV+V+tu6P1YFN0+Fid18Fz0ENJovLTLv904FjIq4HZExZ/uySdc8HK5IsyA==";
+        };
+        _FnwcJZqG = {
+            "id" = "FnwcJZqG";
+            "file" = "Timber Enchantment v1.2.0 [1.21-1.21.1].zip";
+            "hash" = "sha512-COdEMs/UVWkmWzmJHDs7SY2pPFdbtbkXwPkxpwM1T21cYiTj0fLm5UL+GtLo7zKQ8SjyLa4bXIIQcYcYV4lquw==";
+        };
+        _ToQAl5zz = {
+            "id" = "ToQAl5zz";
+            "file" = "timber-enchantment-1.2.0.jar";
+            "hash" = "sha512-pCDX4N7V9tS+Dp8PKpw9fwn+e3iav07UVBpPSarQk5fXePAKYj3lvkmWkU85w6RC+JiRbgQ+UEBp7Y38+CZnLw==";
+        };
+        _M4XRguJp = {
+            "id" = "M4XRguJp";
+            "file" = "Timber Enchantment v1.2.0 [26.3].zip";
+            "hash" = "sha512-iV+qJFHl1NM7qHIyNepk3flGND7y4pWTslN1rzVY3u5nzyGYpU0P/mDK/ePkAwbQdL8tg1CpJTo8YaU6P6oAng==";
+        };
+        _ZVzgC05X = {
+            "id" = "ZVzgC05X";
+            "file" = "timber-enchantment-1.2.0.jar";
+            "hash" = "sha512-fuc6EAB9oEU+Oby+aRRtFJvfhOmdPF6cxQwfogR20XIPGBMjRa0Io4EfSGAoikgk9dK1iziN5xx4kFjPDk8Nag==";
+        };
     in {
         "ZDwmODEk" = _ZDwmODEk;
         "aOTJcRNy" = _aOTJcRNy;
@@ -38,13 +68,19 @@ let
         "RpLNGfD0" = _RpLNGfD0;
         "HBefeOSJ" = _HBefeOSJ;
         "ley3D9R1" = _ley3D9R1;
+        "GbDdtWPe" = _GbDdtWPe;
+        "VPqHnhT1" = _VPqHnhT1;
+        "FnwcJZqG" = _FnwcJZqG;
+        "ToQAl5zz" = _ToQAl5zz;
+        "M4XRguJp" = _M4XRguJp;
+        "ZVzgC05X" = _ZVzgC05X;
         "datapack-1.21.4" = _ZDwmODEk;
         "datapack-1.21.5" = _ZDwmODEk;
         "datapack-1.21.6" = _ZDwmODEk;
         "datapack-1.21.7" = _ZDwmODEk;
         "datapack-1.21.8" = _ZDwmODEk;
-        "datapack-1.21" = _489KfOmL;
-        "datapack-1.21.1" = _489KfOmL;
+        "datapack-1.21" = _FnwcJZqG;
+        "datapack-1.21.1" = _FnwcJZqG;
         "datapack-1.21.2" = _489KfOmL;
         "datapack-1.21.3" = _489KfOmL;
         "datapack-1.21.9" = _HBefeOSJ;
@@ -54,13 +90,14 @@ let
         "datapack-26.1.1" = _HBefeOSJ;
         "datapack-26.1.2" = _HBefeOSJ;
         "datapack-26.2" = _HBefeOSJ;
+        "datapack-26.3" = _M4XRguJp;
         "fabric-1.21.4" = _aOTJcRNy;
         "fabric-1.21.5" = _aOTJcRNy;
         "fabric-1.21.6" = _aOTJcRNy;
         "fabric-1.21.7" = _aOTJcRNy;
         "fabric-1.21.8" = _aOTJcRNy;
-        "fabric-1.21" = _RpLNGfD0;
-        "fabric-1.21.1" = _RpLNGfD0;
+        "fabric-1.21" = _ToQAl5zz;
+        "fabric-1.21.1" = _ToQAl5zz;
         "fabric-1.21.2" = _RpLNGfD0;
         "fabric-1.21.3" = _RpLNGfD0;
         "fabric-1.21.9" = _ley3D9R1;
@@ -70,13 +107,14 @@ let
         "fabric-26.1.1" = _ley3D9R1;
         "fabric-26.1.2" = _ley3D9R1;
         "fabric-26.2" = _ley3D9R1;
+        "fabric-26.3" = _ZVzgC05X;
         "forge-1.21.4" = _aOTJcRNy;
         "forge-1.21.5" = _aOTJcRNy;
         "forge-1.21.6" = _aOTJcRNy;
         "forge-1.21.7" = _aOTJcRNy;
         "forge-1.21.8" = _aOTJcRNy;
-        "forge-1.21" = _RpLNGfD0;
-        "forge-1.21.1" = _RpLNGfD0;
+        "forge-1.21" = _ToQAl5zz;
+        "forge-1.21.1" = _ToQAl5zz;
         "forge-1.21.2" = _RpLNGfD0;
         "forge-1.21.3" = _RpLNGfD0;
         "forge-1.21.9" = _ley3D9R1;
@@ -86,13 +124,14 @@ let
         "forge-26.1.1" = _ley3D9R1;
         "forge-26.1.2" = _ley3D9R1;
         "forge-26.2" = _ley3D9R1;
+        "forge-26.3" = _ZVzgC05X;
         "neoforge-1.21.4" = _aOTJcRNy;
         "neoforge-1.21.5" = _aOTJcRNy;
         "neoforge-1.21.6" = _aOTJcRNy;
         "neoforge-1.21.7" = _aOTJcRNy;
         "neoforge-1.21.8" = _aOTJcRNy;
-        "neoforge-1.21" = _RpLNGfD0;
-        "neoforge-1.21.1" = _RpLNGfD0;
+        "neoforge-1.21" = _ToQAl5zz;
+        "neoforge-1.21.1" = _ToQAl5zz;
         "neoforge-1.21.2" = _RpLNGfD0;
         "neoforge-1.21.3" = _RpLNGfD0;
         "neoforge-1.21.9" = _ley3D9R1;
@@ -102,13 +141,14 @@ let
         "neoforge-26.1.1" = _ley3D9R1;
         "neoforge-26.1.2" = _ley3D9R1;
         "neoforge-26.2" = _ley3D9R1;
+        "neoforge-26.3" = _ZVzgC05X;
         "quilt-1.21.4" = _aOTJcRNy;
         "quilt-1.21.5" = _aOTJcRNy;
         "quilt-1.21.6" = _aOTJcRNy;
         "quilt-1.21.7" = _aOTJcRNy;
         "quilt-1.21.8" = _aOTJcRNy;
-        "quilt-1.21" = _RpLNGfD0;
-        "quilt-1.21.1" = _RpLNGfD0;
+        "quilt-1.21" = _ToQAl5zz;
+        "quilt-1.21.1" = _ToQAl5zz;
         "quilt-1.21.2" = _RpLNGfD0;
         "quilt-1.21.3" = _RpLNGfD0;
         "quilt-1.21.9" = _ley3D9R1;
@@ -118,11 +158,16 @@ let
         "quilt-26.1.1" = _ley3D9R1;
         "quilt-26.1.2" = _ley3D9R1;
         "quilt-26.2" = _ley3D9R1;
+        "quilt-26.3" = _ZVzgC05X;
         "pkg-v1.0.0" = _ZDwmODEk;
         "pkg-v1.0.0+mod" = _aOTJcRNy;
         "pkg-v1.0.1" = _HBefeOSJ;
         "pkg-v1.0.1+mod" = _ley3D9R1;
-        "default" = _ley3D9R1;
+        "pkg-1.0.1" = _GbDdtWPe;
+        "pkg-1.0.1+mod" = _VPqHnhT1;
+        "pkg-1.2.0" = _M4XRguJp;
+        "pkg-1.2.0+mod" = _ZVzgC05X;
+        "default" = _ZVzgC05X;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "timber-enchantment";

@@ -111,6 +111,16 @@ let
             "file" = "synchro-neoforge-1.8.0.jar";
             "hash" = "sha512-EAA49Habghxm8hjX2p1Z0SkHQPN5L9NnR0Ha4UZOS3/YiAgTp1RsdCDvA6VEThurawC71qRbfPyQzwBgqeSmbg==";
         };
+        _RM1bj4L4 = {
+            "id" = "RM1bj4L4";
+            "file" = "synchro-fabric-1.8.1.jar";
+            "hash" = "sha512-1CU5DHSWib5F/4ej36AUAVB20Ytrg5TjVpzblBjkYIbcN6w58+w2n2aL7oCCpYkdxIY7R1g4g/i+e7NOujphhw==";
+        };
+        _cylQlkm7 = {
+            "id" = "cylQlkm7";
+            "file" = "synchro-neoforge-1.8.1.jar";
+            "hash" = "sha512-3BC5LXwjWbEwAe7RHsrDh4QZIx2FkGJBUdhGd/kAlNR/qVNltPtc/SsTho1yYLahS5B5qUAUWCglc5BiWjfbyw==";
+        };
     in {
         "DgkM2FcH" = _DgkM2FcH;
         "ZH1YM36R" = _ZH1YM36R;
@@ -134,8 +144,10 @@ let
         "p4CHbxhr" = _p4CHbxhr;
         "LBu7hstO" = _LBu7hstO;
         "qB80mMDn" = _qB80mMDn;
-        "fabric-1.21.1" = _LBu7hstO;
-        "neoforge-1.21.1" = _qB80mMDn;
+        "RM1bj4L4" = _RM1bj4L4;
+        "cylQlkm7" = _cylQlkm7;
+        "fabric-1.21.1" = _RM1bj4L4;
+        "neoforge-1.21.1" = _cylQlkm7;
         "pkg-1.0.0" = _DgkM2FcH;
         "pkg-1.0.1" = _ZH1YM36R;
         "pkg-1.0.2" = _rUuwUFTU;
@@ -152,7 +164,8 @@ let
         "pkg-1.7.1" = _Rem5rjhH;
         "pkg-1.7.2" = _p4CHbxhr;
         "pkg-1.8.0" = _qB80mMDn;
-        "default" = _qB80mMDn;
+        "pkg-1.8.1" = _cylQlkm7;
+        "default" = _cylQlkm7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-synchro-machine";

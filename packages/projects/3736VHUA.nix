@@ -21,11 +21,17 @@ let
             "file" = "showservertime-fabric-mc26.2-1.1.0.jar";
             "hash" = "sha512-j1ZkOtZUsntSwXgls10EHWoQMC91SNaDbGWhCFL7HBgWMybF5t7pn3sBTqerJlyEvoIOLTLlp5GzGHKKpNCs8A==";
         };
+        _k1oGhM4M = {
+            "id" = "k1oGhM4M";
+            "file" = "showservertime-1.1.0+mc26.3-neoforge.jar";
+            "hash" = "sha512-/kpABZtYbAbsZL8ZolIBMpgcDhXS4kpXZiJ5/yi7HbW13eMAkX3OCGzXg081iRjFrl4Tyrqx3ZfcBGzx3v2GfA==";
+        };
     in {
         "3GJSelTM" = _3GJSelTM;
         "p3w9u1z8" = _p3w9u1z8;
         "ztrMZOYv" = _ztrMZOYv;
         "17T1iEu3" = _17T1iEu3;
+        "k1oGhM4M" = _k1oGhM4M;
         "fabric-1.19.2" = _3GJSelTM;
         "fabric-1.20.1" = _p3w9u1z8;
         "fabric-1.20.2" = _p3w9u1z8;
@@ -50,9 +56,15 @@ let
         "fabric-26.1.2" = _17T1iEu3;
         "fabric-26.2" = _17T1iEu3;
         "fabric-26.3-snapshot-10" = _17T1iEu3;
+        "neoforge-26.1" = _k1oGhM4M;
+        "neoforge-26.1.1" = _k1oGhM4M;
+        "neoforge-26.1.2" = _k1oGhM4M;
+        "neoforge-26.2" = _k1oGhM4M;
+        "neoforge-26.3" = _k1oGhM4M;
         "pkg-1.0.1" = _ztrMZOYv;
         "pkg-1.1.0" = _17T1iEu3;
-        "default" = _17T1iEu3;
+        "pkg-1.1+mc26.3-neoforge" = _k1oGhM4M;
+        "default" = _k1oGhM4M;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "show-server-time";

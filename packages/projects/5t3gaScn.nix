@@ -81,6 +81,16 @@ let
             "file" = "[v.2.02] Pokemon Grow and Gather Reborn.zip";
             "hash" = "sha512-Ik3ykuI3xz+FyYveX1bzH9NdKTBpp2wL8qzy86oOhxXle3vC59ipDqKQl48THKoLMZsVR35IccKHIS+supQwCw==";
         };
+        _cSDtzE4s = {
+            "id" = "cSDtzE4s";
+            "file" = "[v2.1] Pokemon Grow and Gather Rebirth.zip";
+            "hash" = "sha512-3HIULuc0uceCG2Kd5UNtTE5Bz+Vk86Z0usdbVBfBPOqKNrj//Mzxl/Jm7s389hYPZnDKlRhmjHM4v/LOeBb92A==";
+        };
+        _pt9QgaCw = {
+            "id" = "pt9QgaCw";
+            "file" = "[v2.11] Pokemon Grow and Gather Rebirth.zip";
+            "hash" = "sha512-19NLnimlMUpscgVeZQpxWusSNgMDea2FcKdNHCj1Uc5wR5YydlZHRClRmNu5FGuIyKBHOpNqOjLf7Oq66/zlCA==";
+        };
     in {
         "tP788G6U" = _tP788G6U;
         "Xt4rREwG" = _Xt4rREwG;
@@ -98,8 +108,10 @@ let
         "mvRn6Msf" = _mvRn6Msf;
         "tNGsnJbd" = _tNGsnJbd;
         "dqF8NLX4" = _dqF8NLX4;
-        "datapack-1.21.1" = _dqF8NLX4;
-        "minecraft-1.21.1" = _dqF8NLX4;
+        "cSDtzE4s" = _cSDtzE4s;
+        "pt9QgaCw" = _pt9QgaCw;
+        "datapack-1.21.1" = _pt9QgaCw;
+        "minecraft-1.21.1" = _pt9QgaCw;
         "pkg-1.0" = _tP788G6U;
         "pkg-1.1" = _Xt4rREwG;
         "pkg-1.2" = _TNAy1LZp;
@@ -116,7 +128,9 @@ let
         "pkg-2.0" = _mvRn6Msf;
         "pkg-2.01" = _tNGsnJbd;
         "pkg-2.02" = _dqF8NLX4;
-        "default" = _dqF8NLX4;
+        "pkg-2.1" = _cSDtzE4s;
+        "pkg-2.11" = _pt9QgaCw;
+        "default" = _pt9QgaCw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-grow-and-gather";

@@ -46,6 +46,16 @@ let
             "file" = "cobblemonmmoskills-1.21.1-neoforge-1.2.3.jar";
             "hash" = "sha512-yNbZxDCfYLN3dZLGALr1bKLV5sAZ2VVF4cB77Qw8wi4UiT48H/prN4zr1B3dOeL1njmZpG+hUMQke9caFyS3LQ==";
         };
+        _VuQbNLd2 = {
+            "id" = "VuQbNLd2";
+            "file" = "cobblemonmmoskills-1.21.1-neoforge-2.0.0.jar";
+            "hash" = "sha512-ZZZbmZdQt8bmlSFT0vv3dA1FGacjFLg69+ZIdR0ZcrtMC5yoNiSqccEsPHdJzxsNkF7wXe9H5Qv5TbJKay7yvg==";
+        };
+        _P2S2h3jv = {
+            "id" = "P2S2h3jv";
+            "file" = "cobblemonmmoskills-1.21.1-fabric-2.0.0.jar";
+            "hash" = "sha512-DSSga3ZivOCHGJnWgTGZ4OTvYOAyczflkMYrKeOLv0izyJ+DXVnCQDKedwxgkiAPNHFJgctPSljHI/Hlf0AetA==";
+        };
     in {
         "d0yFLAn5" = _d0yFLAn5;
         "sh778jlL" = _sh778jlL;
@@ -56,8 +66,10 @@ let
         "KJ3pHyRE" = _KJ3pHyRE;
         "MOfXhkHn" = _MOfXhkHn;
         "RnYvN2i4" = _RnYvN2i4;
-        "fabric-1.21.1" = _MOfXhkHn;
-        "neoforge-1.21.1" = _RnYvN2i4;
+        "VuQbNLd2" = _VuQbNLd2;
+        "P2S2h3jv" = _P2S2h3jv;
+        "fabric-1.21.1" = _P2S2h3jv;
+        "neoforge-1.21.1" = _VuQbNLd2;
         "pkg-1.1.0" = _sh778jlL;
         "pkg-1.2.0-Fabric" = _w2hyViMi;
         "pkg-1.2.0-NeoForge" = _VVcgwRI9;
@@ -66,7 +78,9 @@ let
         "pkg-1.2.2-NeoForge" = _KJ3pHyRE;
         "pkg-1.2.3-Fabric" = _MOfXhkHn;
         "pkg-1.2.3-NeoForge" = _RnYvN2i4;
-        "default" = _RnYvN2i4;
+        "pkg-2.0.0-NeoForge" = _VuQbNLd2;
+        "pkg-2.0.0-Fabric" = _P2S2h3jv;
+        "default" = _P2S2h3jv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-mmo-skills";

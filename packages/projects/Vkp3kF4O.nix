@@ -66,6 +66,11 @@ let
             "file" = "cleanview 26.2 V1.jar";
             "hash" = "sha512-xgum1b/cQcvRxKnjHgbVzxU64DsuDznIniVnn8IDGRuhCJ+BZjQdwOHO2eXO2UeG169cpesB88Y7LOhWHergyQ==";
         };
+        _83NJnoni = {
+            "id" = "83NJnoni";
+            "file" = "cleanview 26.2 - 26.3 V1.jar";
+            "hash" = "sha512-RWw43ii7y3xH6euYh1RedqUpL1LzNgwT3OqsRCLFyA/19mODfp8ISW1XPK3Yqn1/mXWDkEYg6UzwMXdNuWFxRQ==";
+        };
     in {
         "gj7v5avu" = _gj7v5avu;
         "3iofWNpW" = _3iofWNpW;
@@ -80,6 +85,7 @@ let
         "Fy77PWW3" = _Fy77PWW3;
         "RbWTOLuV" = _RbWTOLuV;
         "w8cWw4C7" = _w8cWw4C7;
+        "83NJnoni" = _83NJnoni;
         "neoforge-1.20.2" = _gj7v5avu;
         "neoforge-1.20.3" = _gj7v5avu;
         "neoforge-1.20.4" = _gj7v5avu;
@@ -100,9 +106,10 @@ let
         "neoforge-26.1" = _RbWTOLuV;
         "neoforge-26.1.1" = _RbWTOLuV;
         "neoforge-26.1.2" = _RbWTOLuV;
-        "neoforge-26.2" = _w8cWw4C7;
-        "pkg-1" = _w8cWw4C7;
-        "default" = _w8cWw4C7;
+        "neoforge-26.2" = _83NJnoni;
+        "neoforge-26.3" = _83NJnoni;
+        "pkg-1" = _83NJnoni;
+        "default" = _83NJnoni;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "clean-view";

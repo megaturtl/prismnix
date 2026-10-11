@@ -41,6 +41,11 @@ let
             "file" = "infinite-inventory-2.0.0-mc1.21.jar";
             "hash" = "sha512-t0m4SsVfow1a7dMuQEPQOXInD86ZrnPdO+wItlTo4wR5tOTlf1hB1z4W2I7lvt3tkMOtrOGVRb7p8iBBrOTffA==";
         };
+        _YdJ5ICC3 = {
+            "id" = "YdJ5ICC3";
+            "file" = "infinite-inventory-2.0.0-mc26.3.jar";
+            "hash" = "sha512-gIT7LCymcXzf+j6Ql1NNb3F5p+kBPzfuhmIQ/8yZjpenUYp94yQAXtB9Kl7POm2Vq45jZ7OFgxYshPYhmv5cFw==";
+        };
     in {
         "nspOJqFU" = _nspOJqFU;
         "rqqAR0vK" = _rqqAR0vK;
@@ -50,6 +55,7 @@ let
         "mnyhjXnf" = _mnyhjXnf;
         "HcJ1byoj" = _HcJ1byoj;
         "7965iibS" = _7965iibS;
+        "YdJ5ICC3" = _YdJ5ICC3;
         "fabric-1.21.6" = _7965iibS;
         "fabric-1.21.7" = _7965iibS;
         "fabric-1.21.8" = _7965iibS;
@@ -59,13 +65,14 @@ let
         "fabric-26.1.1" = _HcJ1byoj;
         "fabric-26.1.2" = _HcJ1byoj;
         "fabric-26.2" = _mnyhjXnf;
+        "fabric-26.3" = _YdJ5ICC3;
         "pkg-1.0.0" = _nspOJqFU;
         "pkg-1.1.0" = _rqqAR0vK;
         "pkg-1.2.0" = _6ljBf7DN;
         "pkg-1.3.0" = _Q04XjJMm;
-        "pkg-2.0.0" = _7965iibS;
+        "pkg-2.0.0" = _YdJ5ICC3;
         "pkg-2.0.1" = _mnyhjXnf;
-        "default" = _7965iibS;
+        "default" = _YdJ5ICC3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "infinite-inventory-mod";

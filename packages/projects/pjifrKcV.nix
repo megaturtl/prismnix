@@ -51,6 +51,16 @@ let
             "file" = "craftable-armour-trims-1.0.6.jar";
             "hash" = "sha512-0qrtqYCQl514vEa9jL3OcAq5C8G2hE5bn7XH/kks5+OU0kyBOi6MqSpRK53p0244NROq1MckxzWG5BYIBcb+lg==";
         };
+        _dSGUS7nO = {
+            "id" = "dSGUS7nO";
+            "file" = "cat1.1.0.zip";
+            "hash" = "sha512-HjwtgcOFkfO3xLNJL6CNFSbuHSU84ylReEFUShLcoKpLBdAIp8owItiWNm53Qq8J9BGinG4Im799VnpIj4js0w==";
+        };
+        _FPBfMYXC = {
+            "id" = "FPBfMYXC";
+            "file" = "craftable-armour-trims-1.1.0.jar";
+            "hash" = "sha512-j34jlC7LXXXI2Inp0K5QXU8u/Di9gAhmaiSflfhOewV5HZLjtagEr5eg9cQU9A3wdY1+bkp0+u8HTGl9U6DqSw==";
+        };
     in {
         "lzecgU3f" = _lzecgU3f;
         "ziilK0Ac" = _ziilK0Ac;
@@ -62,6 +72,8 @@ let
         "94mdbeRX" = _94mdbeRX;
         "CohZokQK" = _CohZokQK;
         "fsPIx7ZI" = _fsPIx7ZI;
+        "dSGUS7nO" = _dSGUS7nO;
+        "FPBfMYXC" = _FPBfMYXC;
         "datapack-1.20.1" = _lzecgU3f;
         "datapack-1.20.2" = _lzecgU3f;
         "datapack-1.20.3" = _lzecgU3f;
@@ -77,7 +89,9 @@ let
         "datapack-1.21.11" = _Xyc4hU7L;
         "datapack-26.1" = _CohZokQK;
         "datapack-26.1.1" = _CohZokQK;
-        "datapack-26.1.2" = _CohZokQK;
+        "datapack-26.1.2" = _dSGUS7nO;
+        "datapack-26.2" = _dSGUS7nO;
+        "datapack-26.3" = _dSGUS7nO;
         "fabric-1.20.1" = _ziilK0Ac;
         "fabric-1.20.2" = _ziilK0Ac;
         "fabric-1.20.3" = _ziilK0Ac;
@@ -93,7 +107,9 @@ let
         "fabric-1.21.11" = _94mdbeRX;
         "fabric-26.1" = _fsPIx7ZI;
         "fabric-26.1.1" = _fsPIx7ZI;
-        "fabric-26.1.2" = _fsPIx7ZI;
+        "fabric-26.1.2" = _FPBfMYXC;
+        "fabric-26.2" = _FPBfMYXC;
+        "fabric-26.3" = _FPBfMYXC;
         "forge-1.20.1" = _ziilK0Ac;
         "forge-1.20.2" = _ziilK0Ac;
         "forge-1.20.3" = _ziilK0Ac;
@@ -109,7 +125,9 @@ let
         "forge-1.21.11" = _94mdbeRX;
         "forge-26.1" = _fsPIx7ZI;
         "forge-26.1.1" = _fsPIx7ZI;
-        "forge-26.1.2" = _fsPIx7ZI;
+        "forge-26.1.2" = _FPBfMYXC;
+        "forge-26.2" = _FPBfMYXC;
+        "forge-26.3" = _FPBfMYXC;
         "neoforge-1.20.1" = _ziilK0Ac;
         "neoforge-1.20.2" = _ziilK0Ac;
         "neoforge-1.20.3" = _ziilK0Ac;
@@ -125,7 +143,9 @@ let
         "neoforge-1.21.11" = _94mdbeRX;
         "neoforge-26.1" = _fsPIx7ZI;
         "neoforge-26.1.1" = _fsPIx7ZI;
-        "neoforge-26.1.2" = _fsPIx7ZI;
+        "neoforge-26.1.2" = _FPBfMYXC;
+        "neoforge-26.2" = _FPBfMYXC;
+        "neoforge-26.3" = _FPBfMYXC;
         "quilt-1.20.1" = _ziilK0Ac;
         "quilt-1.20.2" = _ziilK0Ac;
         "quilt-1.20.3" = _ziilK0Ac;
@@ -141,7 +161,9 @@ let
         "quilt-1.21.11" = _94mdbeRX;
         "quilt-26.1" = _fsPIx7ZI;
         "quilt-26.1.1" = _fsPIx7ZI;
-        "quilt-26.1.2" = _fsPIx7ZI;
+        "quilt-26.1.2" = _FPBfMYXC;
+        "quilt-26.2" = _FPBfMYXC;
+        "quilt-26.3" = _FPBfMYXC;
         "pkg-1.0.2" = _ziilK0Ac;
         "pkg-1.0.3" = _FJomdpSr;
         "pkg-1.0.4d" = _Su0kW9mH;
@@ -150,7 +172,9 @@ let
         "pkg-1.0.5m" = _94mdbeRX;
         "pkg-1.0.6" = _CohZokQK;
         "pkg-1.0.6m" = _fsPIx7ZI;
-        "default" = _fsPIx7ZI;
+        "pkg-1.1.0" = _dSGUS7nO;
+        "pkg-1.1.0m" = _FPBfMYXC;
+        "default" = _FPBfMYXC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "craftable-armour-trims";

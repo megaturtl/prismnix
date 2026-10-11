@@ -76,6 +76,21 @@ let
             "file" = "beautyquests-2.1.0.jar";
             "hash" = "sha512-OKZtwD6UwyG8vsTUitYpUftqG0RHdmIvXmpZLnbVb6De5rNvDap1sY5RpphXy6v89V1cGhUuRZQROgf9JmTrsA==";
         };
+        _WBNrDRaA = {
+            "id" = "WBNrDRaA";
+            "file" = "beautyquests-2.2.0+build.156.jar";
+            "hash" = "sha512-3gdVPzOdktNZfS8w0DtNmim6IKlTXKcRwqvtuoW055Z2pODV/htJsNUI9r2EvXsHs11PAHGl0SLdKtWXEYTglA==";
+        };
+        _vR7txH7R = {
+            "id" = "vR7txH7R";
+            "file" = "beautyquests-2.2.0+build.157.jar";
+            "hash" = "sha512-gqZpcQ4Cbz9Dhj0GfGWoVppKI9x9TrLODTYWZ5V+iWVP3KgLvuqHizTMDvoQFxKQyuH/kb4PzdHfHsYmzGwxeg==";
+        };
+        _UZn18Zvf = {
+            "id" = "UZn18Zvf";
+            "file" = "beautyquests-2.2.0+build.158.jar";
+            "hash" = "sha512-jh8zEnxYWokIEhVeR5ll04He5yPOMhStdWzpbCkVhc+Q2ZkctqHb5ii+ZfJijaBog4x8VbdKNG1jWaQfO/IiVQ==";
+        };
     in {
         "tW6FHtYu" = _tW6FHtYu;
         "8eJXBtqe" = _8eJXBtqe;
@@ -92,6 +107,9 @@ let
         "JKDAEeVt" = _JKDAEeVt;
         "I7Ij0hzA" = _I7Ij0hzA;
         "VaifbCe7" = _VaifbCe7;
+        "WBNrDRaA" = _WBNrDRaA;
+        "vR7txH7R" = _vR7txH7R;
+        "UZn18Zvf" = _UZn18Zvf;
         "paper-1.9.2" = _yIHGXtW3;
         "paper-1.9.4" = _yIHGXtW3;
         "paper-1.12.2" = _yIHGXtW3;
@@ -110,27 +128,27 @@ let
         "paper-1.20.3" = _f5ZnXadS;
         "paper-1.20.4" = _f5ZnXadS;
         "paper-1.20.5" = _f5ZnXadS;
-        "paper-1.20.6" = _VaifbCe7;
-        "paper-1.21" = _VaifbCe7;
-        "paper-1.21.1" = _VaifbCe7;
-        "paper-1.21.4" = _VaifbCe7;
-        "paper-1.21.5" = _VaifbCe7;
+        "paper-1.20.6" = _UZn18Zvf;
+        "paper-1.21" = _UZn18Zvf;
+        "paper-1.21.1" = _UZn18Zvf;
+        "paper-1.21.4" = _UZn18Zvf;
+        "paper-1.21.5" = _UZn18Zvf;
         "paper-1.17" = _f5ZnXadS;
         "paper-1.18" = _f5ZnXadS;
         "paper-1.19" = _f5ZnXadS;
         "paper-1.19.1" = _f5ZnXadS;
-        "paper-1.21.2" = _VaifbCe7;
-        "paper-1.21.3" = _VaifbCe7;
-        "paper-1.21.6" = _VaifbCe7;
-        "paper-1.21.7" = _VaifbCe7;
-        "paper-1.21.8" = _VaifbCe7;
-        "paper-1.21.9" = _VaifbCe7;
-        "paper-1.21.10" = _VaifbCe7;
-        "paper-1.21.11" = _VaifbCe7;
-        "paper-26.1" = _VaifbCe7;
-        "paper-26.1.1" = _VaifbCe7;
-        "paper-26.1.2" = _VaifbCe7;
-        "paper-26.2" = _VaifbCe7;
+        "paper-1.21.2" = _UZn18Zvf;
+        "paper-1.21.3" = _UZn18Zvf;
+        "paper-1.21.6" = _UZn18Zvf;
+        "paper-1.21.7" = _UZn18Zvf;
+        "paper-1.21.8" = _UZn18Zvf;
+        "paper-1.21.9" = _UZn18Zvf;
+        "paper-1.21.10" = _UZn18Zvf;
+        "paper-1.21.11" = _UZn18Zvf;
+        "paper-26.1" = _UZn18Zvf;
+        "paper-26.1.1" = _UZn18Zvf;
+        "paper-26.1.2" = _UZn18Zvf;
+        "paper-26.2" = _UZn18Zvf;
         "spigot-1.9.2" = _yIHGXtW3;
         "spigot-1.9.4" = _yIHGXtW3;
         "spigot-1.12.2" = _yIHGXtW3;
@@ -180,7 +198,10 @@ let
         "pkg-2.1.0+build.144" = _JKDAEeVt;
         "pkg-2.1.0+build.151" = _I7Ij0hzA;
         "pkg-2.1.0" = _VaifbCe7;
-        "default" = _VaifbCe7;
+        "pkg-2.2.0+build.156" = _WBNrDRaA;
+        "pkg-2.2.0+build.157" = _vR7txH7R;
+        "pkg-2.2.0+build.158" = _UZn18Zvf;
+        "default" = _UZn18Zvf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "beautyquests";

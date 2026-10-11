@@ -41,6 +41,16 @@ let
             "file" = "shield-upgrades-1.1.2.jar";
             "hash" = "sha512-8JrXfLCbUj5wxmDNwSm2a33gnA8ibiNGsTA7hgHJktcfFo2TAlRGo6j7f13IqaVc/+b/Tt7xXfYdIwtElyTjmA==";
         };
+        _DvNGANuN = {
+            "id" = "DvNGANuN";
+            "file" = "Shield Upgrades v1.1.2 [26.3].zip";
+            "hash" = "sha512-wHjt2EmUjO7Ry56piO//V0sfZzHBmlpw+22nWDRmtQ73yzwXs6iioizUQ2tV3dj0uEKYb4Y+SvWWQOYFTw9Xdg==";
+        };
+        _pafBpIy9 = {
+            "id" = "pafBpIy9";
+            "file" = "shield-upgrades-1.1.2.jar";
+            "hash" = "sha512-AZ4bDvniqtP+5dCl/TUyxsx0O3YXCX90xT0GjYYaLDIn0527IbSFojISdOY/0twuejt/5kPK5WSDz95eQOJh/Q==";
+        };
     in {
         "p6hnrxEy" = _p6hnrxEy;
         "1oOhYrEl" = _1oOhYrEl;
@@ -50,6 +60,8 @@ let
         "hbB6suQb" = _hbB6suQb;
         "aOx5qlCI" = _aOx5qlCI;
         "FRNsqOsE" = _FRNsqOsE;
+        "DvNGANuN" = _DvNGANuN;
+        "pafBpIy9" = _pafBpIy9;
         "datapack-1.21.5" = _aOx5qlCI;
         "datapack-1.21.6" = _aOx5qlCI;
         "datapack-1.21.7" = _aOx5qlCI;
@@ -61,6 +73,7 @@ let
         "datapack-26.1.1" = _aOx5qlCI;
         "datapack-26.1.2" = _aOx5qlCI;
         "datapack-26.2" = _aOx5qlCI;
+        "datapack-26.3" = _DvNGANuN;
         "fabric-1.21.5" = _FRNsqOsE;
         "fabric-1.21.6" = _FRNsqOsE;
         "fabric-1.21.7" = _FRNsqOsE;
@@ -72,6 +85,7 @@ let
         "fabric-26.1.1" = _FRNsqOsE;
         "fabric-26.1.2" = _FRNsqOsE;
         "fabric-26.2" = _FRNsqOsE;
+        "fabric-26.3" = _pafBpIy9;
         "forge-1.21.5" = _FRNsqOsE;
         "forge-1.21.6" = _FRNsqOsE;
         "forge-1.21.7" = _FRNsqOsE;
@@ -83,6 +97,7 @@ let
         "forge-26.1.1" = _FRNsqOsE;
         "forge-26.1.2" = _FRNsqOsE;
         "forge-26.2" = _FRNsqOsE;
+        "forge-26.3" = _pafBpIy9;
         "neoforge-1.21.5" = _FRNsqOsE;
         "neoforge-1.21.6" = _FRNsqOsE;
         "neoforge-1.21.7" = _FRNsqOsE;
@@ -94,6 +109,7 @@ let
         "neoforge-26.1.1" = _FRNsqOsE;
         "neoforge-26.1.2" = _FRNsqOsE;
         "neoforge-26.2" = _FRNsqOsE;
+        "neoforge-26.3" = _pafBpIy9;
         "quilt-1.21.5" = _FRNsqOsE;
         "quilt-1.21.6" = _FRNsqOsE;
         "quilt-1.21.7" = _FRNsqOsE;
@@ -105,15 +121,16 @@ let
         "quilt-26.1.1" = _FRNsqOsE;
         "quilt-26.1.2" = _FRNsqOsE;
         "quilt-26.2" = _FRNsqOsE;
+        "quilt-26.3" = _pafBpIy9;
         "pkg-1.0.0" = _p6hnrxEy;
         "pkg-1.0.0+mod" = _1oOhYrEl;
         "pkg-1.1.0" = _YUhs8O6M;
         "pkg-1.1.0+mod" = _JNAGOmZw;
         "pkg-1.1.1" = _xOKv1ruf;
         "pkg-1.1.1+mod" = _hbB6suQb;
-        "pkg-1.1.2" = _aOx5qlCI;
-        "pkg-1.1.2+mod" = _FRNsqOsE;
-        "default" = _FRNsqOsE;
+        "pkg-1.1.2" = _DvNGANuN;
+        "pkg-1.1.2+mod" = _pafBpIy9;
+        "default" = _pafBpIy9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shield-upgrades";

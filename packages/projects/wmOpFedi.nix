@@ -131,6 +131,16 @@ let
             "file" = "minecartspawnerrevived-mc26.2-v26.2.1-fabric.jar";
             "hash" = "sha512-z7LddCSZR+g3X+Rm0aURlWAf3SF1ujoQ+r+b/QgnIUZK1h2m7KxNDtzBzv9D2w7P9jH/+CxKSOOYtl+1kwxfJg==";
         };
+        _OZIVcchp = {
+            "id" = "OZIVcchp";
+            "file" = "minecartspawnerrevived-mc26.3-v26.3.0-fabric.jar";
+            "hash" = "sha512-whex5bFS9jMdPwsNl1RlAp/W101kg504X026f0F8V8DPcnMdYTykocHAb3guYP+8e+/POiMD1hAJlELfF9nzEQ==";
+        };
+        _2n5zo8t6 = {
+            "id" = "2n5zo8t6";
+            "file" = "minecartspawnerrevived-mc26.3-v26.3.0-neoforge.jar";
+            "hash" = "sha512-og5li5NKPVUA0wOZZs64miZHV5iM4QhW2lHOXkpxUUtSxq6M6DYDLCmANHafjlM5sI+JzNCk2+5Nyp4Bt78GoQ==";
+        };
     in {
         "LU9xwXKx" = _LU9xwXKx;
         "2BbnwGd2" = _2BbnwGd2;
@@ -158,6 +168,8 @@ let
         "ooKvHCoW" = _ooKvHCoW;
         "cZQFhBch" = _cZQFhBch;
         "D7RR3Trq" = _D7RR3Trq;
+        "OZIVcchp" = _OZIVcchp;
+        "2n5zo8t6" = _2n5zo8t6;
         "forge-1.20.1" = _LU9xwXKx;
         "fabric-1.20.1" = _2BbnwGd2;
         "fabric-1.20.4" = _WrFC55GL;
@@ -175,6 +187,7 @@ let
         "fabric-26.1.1" = _S3ff2pB9;
         "fabric-26.1.2" = _S3ff2pB9;
         "fabric-26.2" = _D7RR3Trq;
+        "fabric-26.3" = _OZIVcchp;
         "quilt-1.20.1" = _2BbnwGd2;
         "quilt-1.20.4" = _WrFC55GL;
         "quilt-1.20.6" = _LAE3oSXI;
@@ -203,6 +216,7 @@ let
         "neoforge-26.1.1" = _HSeSZSPa;
         "neoforge-26.1.2" = _HSeSZSPa;
         "neoforge-26.2" = _cZQFhBch;
+        "neoforge-26.3" = _2n5zo8t6;
         "pkg-0.0.1-forge" = _LU9xwXKx;
         "pkg-0.0.1-fabric" = _S3ff2pB9;
         "pkg-0.0.1-neoforge" = _HSeSZSPa;
@@ -210,7 +224,9 @@ let
         "pkg-26.2.0-neoforge" = _ooKvHCoW;
         "pkg-26.2.1-neoforge" = _cZQFhBch;
         "pkg-26.2.1-fabric" = _D7RR3Trq;
-        "default" = _D7RR3Trq;
+        "pkg-26.3.0-fabric" = _OZIVcchp;
+        "pkg-26.3.0-neoforge" = _2n5zo8t6;
+        "default" = _2n5zo8t6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "minecart-spawner-revived";

@@ -621,6 +621,251 @@ let
             "file" = "bettercoppergolem-NEOFORGE-2.4.1-26.3.jar";
             "hash" = "sha512-DeofaFoybfGCwra2uA3y/fzlnIueoRJr9VBlne6reiX7IJN5R6VupdlEEJF2W1az8hgMnDYgnnJQT1S2Gm3YWA==";
         };
+        _tNLq7idB = {
+            "id" = "tNLq7idB";
+            "file" = "bettercoppergolem-FORGE-2.4.1-26.3.jar";
+            "hash" = "sha512-cuCTG6rQLptfGsFSuNbUZams1I8Pa1H46/AxbgEhoQJLUrGxNuNEs1mqwKs7/YpgM9+oHoPhnqcrzz+5e093eg==";
+        };
+        _ALLXUw72 = {
+            "id" = "ALLXUw72";
+            "file" = "bettercoppergolem-FABRIC-2.4.2-1.21.10.jar";
+            "hash" = "sha512-g+MhpvGkl3sE9OZDtVA+qr9fuUuwfiJE2uP98SD8xG4BJfUVHhcuvc1OGkJ0puCotEuqIx/+cRpAWjNTSeAM7g==";
+        };
+        _T1HERLGT = {
+            "id" = "T1HERLGT";
+            "file" = "bettercoppergolem-FABRIC-2.4.2-1.21.11.jar";
+            "hash" = "sha512-NF818O2AeKFg3pr9zXryxyHt57hs3PQPltC51Mu1+QWcqKPWbZi5azGws/8nvItAi6dFPRzMTrUYLEmSIk9OqA==";
+        };
+        _lItdxJvW = {
+            "id" = "lItdxJvW";
+            "file" = "bettercoppergolem-FABRIC-2.4.2-1.21.9.jar";
+            "hash" = "sha512-DUXVeK0OaLFbcuBtQ+F6Sjzdai7mb3mUJr+W33ph3FHfuGtExzSQze/Spm5+suCIZO4mpXyggR5XbQvYU4BG9A==";
+        };
+        _2YOBleQh = {
+            "id" = "2YOBleQh";
+            "file" = "bettercoppergolem-FABRIC-2.4.2-26.1.1.jar";
+            "hash" = "sha512-fH211QlU9ThS0/LRHiii757boveflRCvP0/xlxM/TwYxxEcdqvEXIwcGIqqzb9/gHwYBzFWfFISIlBuGRJErBA==";
+        };
+        _fXlHRA2M = {
+            "id" = "fXlHRA2M";
+            "file" = "bettercoppergolem-FABRIC-2.4.2-26.1.2.jar";
+            "hash" = "sha512-jhAYvfnlzbh6lMxnvXmedT0M7Tt/yGMpxiGMkVwI3dhi/4ovyh/yey4b44psJFqnK8rBIloPLIu2TjwLP16clg==";
+        };
+        _dYiK1Hlh = {
+            "id" = "dYiK1Hlh";
+            "file" = "bettercoppergolem-FABRIC-2.4.2-26.1.jar";
+            "hash" = "sha512-6K700F4xbvvwiIVud8/oYKGnxq9nK+EKTJCyPatukmsaCUAlePH384gCk6l5Hiwyq2QIBKKxCdRrt+S5+GPE7g==";
+        };
+        _LBnCVjrx = {
+            "id" = "LBnCVjrx";
+            "file" = "bettercoppergolem-FABRIC-2.4.2-26.2.jar";
+            "hash" = "sha512-fginDoOHqSEKu+hQTwrXcNgJZRbA20PuLpmZij3hWf5Gn7LK2HMdMT2R0/Hz8xXkT5tTQQuG1PrudRtLuRf9Fw==";
+        };
+        _8CWGorMo = {
+            "id" = "8CWGorMo";
+            "file" = "bettercoppergolem-FABRIC-2.4.2-26.3.jar";
+            "hash" = "sha512-08SvSkOz8sTu3aYI4zD7bO7MQP55nV2z6fvJlWDDbcqBNF/dntRdqfcOvUUMLPh9OyRJ2w6CcdMSK1Ym2HAgqg==";
+        };
+        _lQPkB94t = {
+            "id" = "lQPkB94t";
+            "file" = "bettercoppergolem-FORGE-2.4.2-1.21.10.jar";
+            "hash" = "sha512-itGYWV5Ahl2FU0BiDfIe1tB+Rw4+RphPafnRfeAT1axrqcsarY0qgCog9k3No95wlzuNgpVjz+p9V2n1isD1vA==";
+        };
+        _oeXmYAXR = {
+            "id" = "oeXmYAXR";
+            "file" = "bettercoppergolem-FORGE-2.4.2-1.21.11.jar";
+            "hash" = "sha512-z+XbrBkKoY9xmcmb2CuJCNO7DdNT2XEiWM8YxS40Urg8XNLjj0ZAT8jVnGLWbrPke0pcB4rvW4onQ51twyT8Qg==";
+        };
+        _kpnEMjvd = {
+            "id" = "kpnEMjvd";
+            "file" = "bettercoppergolem-FORGE-2.4.2-1.21.9.jar";
+            "hash" = "sha512-4Y8vMJGg0egWN+PSdsvtuPmI3ABHZpTUPN+BZaXPAdW3ZdzJNsRdMP5vnjmdtaWdzDijY2qY3b4UuC9YxuOUAw==";
+        };
+        _uAI5XWsA = {
+            "id" = "uAI5XWsA";
+            "file" = "bettercoppergolem-FORGE-2.4.2-26.1.1.jar";
+            "hash" = "sha512-ByMytUufOPLmUUCO2+04KAWC4jaD1n9/83ERaSTZGvVfx1Arj0VZMBeu+KyjA3Y4h75/H59idon9MnrSnXPncw==";
+        };
+        _Rkgyt3rJ = {
+            "id" = "Rkgyt3rJ";
+            "file" = "bettercoppergolem-FORGE-2.4.2-26.1.2.jar";
+            "hash" = "sha512-8bA7B75m6zYFtzLN3oR9AQxfla5xZxORCpDxTBfEzBTur/w3ugeDpJPNhWNyOhcIW8OLqJHDQsRH1uQNjr+yBg==";
+        };
+        _BSmJmzhV = {
+            "id" = "BSmJmzhV";
+            "file" = "bettercoppergolem-FORGE-2.4.2-26.1.jar";
+            "hash" = "sha512-9RN0XNdb4OCN6uSIdvN7gNIc9eVe2jTevnznz1Q3xadCZRTmUPIz0XZpZpuPF6RZXOL3cgc4/hiANmfF76wvfg==";
+        };
+        _3qgwOUmn = {
+            "id" = "3qgwOUmn";
+            "file" = "bettercoppergolem-FORGE-2.4.2-26.2.jar";
+            "hash" = "sha512-eJz5qbPEX5Y/y29WcNAgtODkpRPKfzYg0JZFixpvc+KsF4Rjy9YAXJeH/KBZ+qGkI17iZ/nmg6GudHXJXU7mdg==";
+        };
+        _MdmI32V1 = {
+            "id" = "MdmI32V1";
+            "file" = "bettercoppergolem-FORGE-2.4.2-26.3.jar";
+            "hash" = "sha512-QmmJdAypegthFEx3GGb4pZMRRKoRxodDtE/P+R6pe9osLIEITuCGnGcFHdJApIgYWik3zcZRjJSHODHSNT8xIQ==";
+        };
+        _4QAni7YU = {
+            "id" = "4QAni7YU";
+            "file" = "bettercoppergolem-NEOFORGE-2.4.2-1.21.10.jar";
+            "hash" = "sha512-iwVMIjYoa57UTMI8CO3pkhEku3fRZhg5qC9Mfo64Z5uKFtqSLFiXO/5c0Xi/gCe/Z6ING3FSrkro5ul3wpP1Vg==";
+        };
+        _1RfsiSHr = {
+            "id" = "1RfsiSHr";
+            "file" = "bettercoppergolem-NEOFORGE-2.4.2-1.21.11.jar";
+            "hash" = "sha512-U9lDjogIfFi4NQkGCjj4/CPz2Y+lJOfiAW1D5wlNLIRbjzJqjjJVLbeGOnc4RfrqDh2TrNsQUZvP7idqvuoZ8g==";
+        };
+        _ZVFk2aAr = {
+            "id" = "ZVFk2aAr";
+            "file" = "bettercoppergolem-NEOFORGE-2.4.2-1.21.9.jar";
+            "hash" = "sha512-kNZOkB7dsjTcz8MVz3QTwfs5fFhvezU4S6AP2jbE4LFToy/xxGx7JYrRZCMKXW+Ob5s9TWvK0cqfXcAEKLmmYA==";
+        };
+        _5Rmb1qL9 = {
+            "id" = "5Rmb1qL9";
+            "file" = "bettercoppergolem-NEOFORGE-2.4.2-26.1.1.jar";
+            "hash" = "sha512-jw8s7DAuiFe4yO27818VZ9XE7Mpgg+5podCp+Tu7viu1GfboIcLeCdcvGCwsiyTP0eswuRvk/UwiEgWznt85Zw==";
+        };
+        _oAsekDD5 = {
+            "id" = "oAsekDD5";
+            "file" = "bettercoppergolem-NEOFORGE-2.4.2-26.1.2.jar";
+            "hash" = "sha512-RHS96+993FQ6rHV4v95ynRTM8MHTDJrUuyVGAkGBy5zBXTU4gYkEjeGmCAUxN9ENWBTlutoCQjk2zIg5/lFIBQ==";
+        };
+        _6iFrjVxB = {
+            "id" = "6iFrjVxB";
+            "file" = "bettercoppergolem-NEOFORGE-2.4.2-26.1.jar";
+            "hash" = "sha512-ObSDVt9RW3xAW6eK+p97NIhrkzyDfeKk97OZXBzediJ82hO3BR/Ftv4GHzNj8yKc3dumRQzeaIG89+9OQt/rEQ==";
+        };
+        _Li4J0Pu3 = {
+            "id" = "Li4J0Pu3";
+            "file" = "bettercoppergolem-NEOFORGE-2.4.2-26.2.jar";
+            "hash" = "sha512-vCO5Tsvli/RSkpuZAShKE/IfGBklz98wYBqm4etfpCYLFRxp90zZ5sXqI8onHK+xoyhbHfCwA3ilOqQnlQ/RRw==";
+        };
+        _nCnUCiFF = {
+            "id" = "nCnUCiFF";
+            "file" = "bettercoppergolem-NEOFORGE-2.4.2-26.3.jar";
+            "hash" = "sha512-Athd7sefB1fp4pf4+cbK7KFondENjcdPA0akmCVje3+dZTfwKAJQQckiJJ3guFB3wl9jFG7AkS2gScLQPFUPQQ==";
+        };
+        _dC0DKiuC = {
+            "id" = "dC0DKiuC";
+            "file" = "bettercoppergolem-FABRIC-2.5.0-1.21.10.jar";
+            "hash" = "sha512-N7wBErpdzedWUUAHvU+NZCu2o10q42MIy2EbWf1WnZWOVKq47sLpL3l6VEdn8pN8JNS7vr9TsMImUVftKFKquQ==";
+        };
+        _COUGqEfR = {
+            "id" = "COUGqEfR";
+            "file" = "bettercoppergolem-FABRIC-2.5.0-1.21.11.jar";
+            "hash" = "sha512-z7AP4qWdFzt8geqyURgf+/8/0z+SmIU+57oJRXccBehAfTbstgvsavP1mDAPHMXlSoamxrS8hbtJv7FFM5Cmew==";
+        };
+        _jYPpHMdU = {
+            "id" = "jYPpHMdU";
+            "file" = "bettercoppergolem-FABRIC-2.5.0-1.21.9.jar";
+            "hash" = "sha512-LG5shgjXx6o7xiGI1n92lXGhT3OydjOINqwUrYEk9cjpLCD1PYpDYjnhdAhZclzN+SzghDC0dIhSzW081ijnxQ==";
+        };
+        _NDRolnul = {
+            "id" = "NDRolnul";
+            "file" = "bettercoppergolem-FABRIC-2.5.0-26.1.1.jar";
+            "hash" = "sha512-eJVXxn7BNHZ9mETpPK6sPGD/XkslxCKYnd7qmt2CnLov06k+2s/EU5Nu+sIabfihGYtNMbncE3CfR/cVmxPv/Q==";
+        };
+        _Hyh3DNOR = {
+            "id" = "Hyh3DNOR";
+            "file" = "bettercoppergolem-FABRIC-2.5.0-26.1.2.jar";
+            "hash" = "sha512-b96i4ZuRKEYYi56WEpCzAzkw3FHZG4O+eqRJPicBs/n0zZQmE3ru/14ehadJymeocEqXeWOuzClSsbPNXmyAYw==";
+        };
+        _uTrBFmgz = {
+            "id" = "uTrBFmgz";
+            "file" = "bettercoppergolem-FABRIC-2.5.0-26.1.jar";
+            "hash" = "sha512-su9h4JNo44bnaQe2fLOvTIVyetXQ/wLTGZ6c4t/yhdNoLFM6dIVB/bhuV11jlHynbY4WUijJt9ePwS8j5CEAKA==";
+        };
+        _KdHJSfFz = {
+            "id" = "KdHJSfFz";
+            "file" = "bettercoppergolem-FABRIC-2.5.0-26.2.jar";
+            "hash" = "sha512-1cp55I5B1PNeevnJ+Yrw8HqKSZAGvDeApCLehTMv3+IFkQBNAUpvZVBOAO8QmkyCgZ1LzCe3UkBvjfQIC533lQ==";
+        };
+        _1RrtVyR7 = {
+            "id" = "1RrtVyR7";
+            "file" = "bettercoppergolem-FABRIC-2.5.0-26.3.jar";
+            "hash" = "sha512-ipuAByitIqj/3bpVbtFwNznczorAp1ge6xA45lbPIQEZ6svfmTJ4ETm8X84+kSFRIcVEHpnxGXNHTbD6AJiQiQ==";
+        };
+        _1lcNzVJF = {
+            "id" = "1lcNzVJF";
+            "file" = "bettercoppergolem-FORGE-2.5.0-1.21.10.jar";
+            "hash" = "sha512-1Tkd09DkPQLpEIhRqUBIRWyeGk/HecqxjmSjXsWetiLoamzxADICJ46dlvokjeNOMYrWC4It/Ek7rrjqNQfYFw==";
+        };
+        _1ZneVccu = {
+            "id" = "1ZneVccu";
+            "file" = "bettercoppergolem-FORGE-2.5.0-1.21.11.jar";
+            "hash" = "sha512-J06bG6BaKieM0Ht36wfR0a6jvK51w2xqnBVIfBmYGGIxhAbyXA09eAGoYmpMxT8MYOeBegX9FCvfr5WWBNY9pg==";
+        };
+        _3kCt97XQ = {
+            "id" = "3kCt97XQ";
+            "file" = "bettercoppergolem-FORGE-2.5.0-1.21.9.jar";
+            "hash" = "sha512-Emu0qCfkRyObWDlyps3Oo4wJdpVIHjZ0cFi1UH3mVxLFfqq6G3Q5PB4bViLqF9NFd9HXfHN0N968bKOmPOHkew==";
+        };
+        _9eAc2oMf = {
+            "id" = "9eAc2oMf";
+            "file" = "bettercoppergolem-FORGE-2.5.0-26.1.1.jar";
+            "hash" = "sha512-7s1rTtMiLdYfl00mg6OGJIM3/aWUcpQMlkvaUDScgVOV16tsc4i1h7BYGOPkBLKomE1ZaEC5nNrsiLHp1TyCGw==";
+        };
+        _FZZYtxz3 = {
+            "id" = "FZZYtxz3";
+            "file" = "bettercoppergolem-FORGE-2.5.0-26.1.2.jar";
+            "hash" = "sha512-f4HLruknlxIkpmfH/zdA97F+ooUTTvH3LySwRDQxZc8+OdP2wmWfQzre6G26bByj2zmeNOfKAfBYVc1fh+9nNQ==";
+        };
+        _G0sebK0u = {
+            "id" = "G0sebK0u";
+            "file" = "bettercoppergolem-FORGE-2.5.0-26.1.jar";
+            "hash" = "sha512-5JXx1XrSvyEJcSbVjo1AGOmzLDo3r9jlecUODIKms2rMgxFL1YHrgOFyU9NyISVd2BbCUnWG75hzopXpSTj2Dw==";
+        };
+        _tgldQOjo = {
+            "id" = "tgldQOjo";
+            "file" = "bettercoppergolem-FORGE-2.5.0-26.2.jar";
+            "hash" = "sha512-70QIW5KYbVXsoFeBctgaECcAokc5B+G8VD1wj5vIWKAsuEnzCDGuZ/p7TnD1EazEGlc0Ngwg4BEOG9WthCxJmw==";
+        };
+        _D0bROmjC = {
+            "id" = "D0bROmjC";
+            "file" = "bettercoppergolem-FORGE-2.5.0-26.3.jar";
+            "hash" = "sha512-VpcEkbw7VW/58c/vGONTYFtNDZMiTXj2VkhAI/Z30o0D1n2sdRWqNxM8/YAVoee4gF5urKnLLnEaViTSVhj9vQ==";
+        };
+        _xSwrfRSe = {
+            "id" = "xSwrfRSe";
+            "file" = "bettercoppergolem-NEOFORGE-2.5.0-1.21.10.jar";
+            "hash" = "sha512-9AJRldqtDDFH09sdvnMtLMS3FiJNmxHYQDcj7jHKrcrAqNfyruuCYzA1hhrEk0l40FCcN//go518R9xuKH75wA==";
+        };
+        _Em9jBCX2 = {
+            "id" = "Em9jBCX2";
+            "file" = "bettercoppergolem-NEOFORGE-2.5.0-1.21.11.jar";
+            "hash" = "sha512-KEB0Yd9VBNS+1NKUR7v46YEwwtS2hnoqUWO8LkCKohBmjRinuajTNv2DxJ5U5SQAdhAE8krjdMY7K2bOyFTtSw==";
+        };
+        _YN13UkWo = {
+            "id" = "YN13UkWo";
+            "file" = "bettercoppergolem-NEOFORGE-2.5.0-1.21.9.jar";
+            "hash" = "sha512-TJwhDo571G+szar/GvMnyMD40rM0KSBV1fSQ8hllsM98GJJpXiQLvanobt6mLpmyyQaI0q/tDfdaQ3HWVkLGqw==";
+        };
+        _M0BxL02M = {
+            "id" = "M0BxL02M";
+            "file" = "bettercoppergolem-NEOFORGE-2.5.0-26.1.1.jar";
+            "hash" = "sha512-YogIGVlJjyDPuOQDPV8VTmOPzVfaIzoqigibcV8Ys/zZaVy0fK0UCEh9PX+zajdlIW/0g2zvI+b3pfJq8RBX5A==";
+        };
+        _zWlyQI2D = {
+            "id" = "zWlyQI2D";
+            "file" = "bettercoppergolem-NEOFORGE-2.5.0-26.1.2.jar";
+            "hash" = "sha512-u/15Tz6cXnQ7x1H7Q+TSpBj3rI4eC+ow8d0j3pMEYwk4qj+28Tm0R1dChUdWtPWfGJgjWIRjgH6TWlLUSL3RZg==";
+        };
+        _egWR9YJK = {
+            "id" = "egWR9YJK";
+            "file" = "bettercoppergolem-NEOFORGE-2.5.0-26.1.jar";
+            "hash" = "sha512-wLNIlknaSY2Q5TZxQcFLA5DPp5zSGbwLoXIQHkVnB7s5vkSitp23d27v39bsMm4SwINWhPbf5XkqGOBQaOo3Cg==";
+        };
+        _q0WVzMhl = {
+            "id" = "q0WVzMhl";
+            "file" = "bettercoppergolem-NEOFORGE-2.5.0-26.2.jar";
+            "hash" = "sha512-XHtCtI7f33TDtX4uE7gKnyimjYtzW981XU+sGGrQIi0F3j8q+K2T8LdW/61ohWFFgemd7nzk1slg192tzpzPvQ==";
+        };
+        _r7IyYXAR = {
+            "id" = "r7IyYXAR";
+            "file" = "bettercoppergolem-NEOFORGE-2.5.0-26.3.jar";
+            "hash" = "sha512-W6b8D+538mTBDd3GguDOkUpY1qaCUhKmOMOfcof1kokhgeEtfGK4gX5V0gHMEP6LZ+CU4WEK5sQbzZE0AruAVA==";
+        };
     in {
         "OXonldrw" = _OXonldrw;
         "QH8WohQ0" = _QH8WohQ0;
@@ -746,39 +991,89 @@ let
         "7kwzXaw9" = _7kwzXaw9;
         "i6SPnBNX" = _i6SPnBNX;
         "cAx4RKy6" = _cAx4RKy6;
-        "fabric-1.21.10" = _GB75ZSRT;
-        "fabric-1.21.11" = _PnvlsEPE;
-        "fabric-26.1.2" = _s81oovsI;
+        "tNLq7idB" = _tNLq7idB;
+        "ALLXUw72" = _ALLXUw72;
+        "T1HERLGT" = _T1HERLGT;
+        "lItdxJvW" = _lItdxJvW;
+        "2YOBleQh" = _2YOBleQh;
+        "fXlHRA2M" = _fXlHRA2M;
+        "dYiK1Hlh" = _dYiK1Hlh;
+        "LBnCVjrx" = _LBnCVjrx;
+        "8CWGorMo" = _8CWGorMo;
+        "lQPkB94t" = _lQPkB94t;
+        "oeXmYAXR" = _oeXmYAXR;
+        "kpnEMjvd" = _kpnEMjvd;
+        "uAI5XWsA" = _uAI5XWsA;
+        "Rkgyt3rJ" = _Rkgyt3rJ;
+        "BSmJmzhV" = _BSmJmzhV;
+        "3qgwOUmn" = _3qgwOUmn;
+        "MdmI32V1" = _MdmI32V1;
+        "4QAni7YU" = _4QAni7YU;
+        "1RfsiSHr" = _1RfsiSHr;
+        "ZVFk2aAr" = _ZVFk2aAr;
+        "5Rmb1qL9" = _5Rmb1qL9;
+        "oAsekDD5" = _oAsekDD5;
+        "6iFrjVxB" = _6iFrjVxB;
+        "Li4J0Pu3" = _Li4J0Pu3;
+        "nCnUCiFF" = _nCnUCiFF;
+        "dC0DKiuC" = _dC0DKiuC;
+        "COUGqEfR" = _COUGqEfR;
+        "jYPpHMdU" = _jYPpHMdU;
+        "NDRolnul" = _NDRolnul;
+        "Hyh3DNOR" = _Hyh3DNOR;
+        "uTrBFmgz" = _uTrBFmgz;
+        "KdHJSfFz" = _KdHJSfFz;
+        "1RrtVyR7" = _1RrtVyR7;
+        "1lcNzVJF" = _1lcNzVJF;
+        "1ZneVccu" = _1ZneVccu;
+        "3kCt97XQ" = _3kCt97XQ;
+        "9eAc2oMf" = _9eAc2oMf;
+        "FZZYtxz3" = _FZZYtxz3;
+        "G0sebK0u" = _G0sebK0u;
+        "tgldQOjo" = _tgldQOjo;
+        "D0bROmjC" = _D0bROmjC;
+        "xSwrfRSe" = _xSwrfRSe;
+        "Em9jBCX2" = _Em9jBCX2;
+        "YN13UkWo" = _YN13UkWo;
+        "M0BxL02M" = _M0BxL02M;
+        "zWlyQI2D" = _zWlyQI2D;
+        "egWR9YJK" = _egWR9YJK;
+        "q0WVzMhl" = _q0WVzMhl;
+        "r7IyYXAR" = _r7IyYXAR;
+        "fabric-1.21.10" = _dC0DKiuC;
+        "fabric-1.21.11" = _COUGqEfR;
+        "fabric-26.1.2" = _Hyh3DNOR;
         "fabric-26.2-snapshot-8" = _RgNe6w6t;
-        "fabric-26.2" = _qcJBMfhe;
-        "fabric-1.21.9" = _wN1Pa4hy;
-        "fabric-26.1.1" = _6rReawQ0;
-        "fabric-26.1" = _P9qGGLkV;
-        "fabric-26.3" = _xHV5Y8OG;
-        "quilt-1.21.10" = _GB75ZSRT;
-        "quilt-1.21.11" = _PnvlsEPE;
-        "quilt-26.1.2" = _s81oovsI;
+        "fabric-26.2" = _KdHJSfFz;
+        "fabric-1.21.9" = _jYPpHMdU;
+        "fabric-26.1.1" = _NDRolnul;
+        "fabric-26.1" = _uTrBFmgz;
+        "fabric-26.3" = _1RrtVyR7;
+        "quilt-1.21.10" = _dC0DKiuC;
+        "quilt-1.21.11" = _COUGqEfR;
+        "quilt-26.1.2" = _Hyh3DNOR;
         "quilt-26.2-snapshot-8" = _RgNe6w6t;
-        "quilt-26.2" = _qcJBMfhe;
-        "quilt-1.21.9" = _wN1Pa4hy;
-        "quilt-26.1.1" = _6rReawQ0;
-        "quilt-26.1" = _P9qGGLkV;
-        "quilt-26.3" = _xHV5Y8OG;
-        "forge-1.21.10" = _ZTM4OCUG;
-        "forge-1.21.11" = _gKv43M0f;
-        "forge-1.21.9" = _6VrElOh1;
-        "forge-26.1.1" = _pgSZ1tAM;
-        "forge-26.1.2" = _ntiEO0oN;
-        "forge-26.1" = _1LfYkN9s;
-        "forge-26.2" = _PDoBAOOj;
-        "neoforge-1.21.10" = _hxzeCqSa;
-        "neoforge-1.21.11" = _yeJWHGCb;
-        "neoforge-26.2" = _i6SPnBNX;
-        "neoforge-1.21.9" = _2f89KDIX;
-        "neoforge-26.1.1" = _bNdNhUcI;
-        "neoforge-26.1.2" = _2F1Oa2GN;
-        "neoforge-26.1" = _7kwzXaw9;
-        "neoforge-26.3" = _cAx4RKy6;
+        "quilt-26.2" = _KdHJSfFz;
+        "quilt-1.21.9" = _jYPpHMdU;
+        "quilt-26.1.1" = _NDRolnul;
+        "quilt-26.1" = _uTrBFmgz;
+        "quilt-26.3" = _1RrtVyR7;
+        "forge-1.21.10" = _1lcNzVJF;
+        "forge-1.21.11" = _1ZneVccu;
+        "forge-1.21.9" = _3kCt97XQ;
+        "forge-26.1.1" = _9eAc2oMf;
+        "forge-26.1.2" = _FZZYtxz3;
+        "forge-26.1" = _G0sebK0u;
+        "forge-26.2" = _tgldQOjo;
+        "forge-26.3" = _D0bROmjC;
+        "neoforge-1.21.10" = _xSwrfRSe;
+        "neoforge-1.21.11" = _Em9jBCX2;
+        "neoforge-26.2" = _q0WVzMhl;
+        "neoforge-1.21.9" = _YN13UkWo;
+        "neoforge-26.1.1" = _M0BxL02M;
+        "neoforge-26.1.2" = _zWlyQI2D;
+        "neoforge-26.1" = _egWR9YJK;
+        "neoforge-26.3" = _r7IyYXAR;
         "pkg-1.0.0-1.21.10" = _FNDJDqGB;
         "pkg-1.0.1-1.21.10" = _p87llcun;
         "pkg-1.1.0-1.21.10" = _a7bjr4nj;
@@ -893,7 +1188,56 @@ let
         "pkg-2.4.1+neoforge-26.1" = _7kwzXaw9;
         "pkg-2.4.1+neoforge-26.2" = _i6SPnBNX;
         "pkg-2.4.1+neoforge-26.3" = _cAx4RKy6;
-        "default" = _cAx4RKy6;
+        "pkg-2.4.1+forge-26.3" = _tNLq7idB;
+        "pkg-2.4.2+fabric-1.21.10" = _ALLXUw72;
+        "pkg-2.4.2+fabric-1.21.11" = _T1HERLGT;
+        "pkg-2.4.2+fabric-1.21.9" = _lItdxJvW;
+        "pkg-2.4.2+fabric-26.1.1" = _2YOBleQh;
+        "pkg-2.4.2+fabric-26.1.2" = _fXlHRA2M;
+        "pkg-2.4.2+fabric-26.1" = _dYiK1Hlh;
+        "pkg-2.4.2+fabric-26.2" = _LBnCVjrx;
+        "pkg-2.4.2+fabric-26.3" = _8CWGorMo;
+        "pkg-2.4.2+forge-1.21.10" = _lQPkB94t;
+        "pkg-2.4.2+forge-1.21.11" = _oeXmYAXR;
+        "pkg-2.4.2+forge-1.21.9" = _kpnEMjvd;
+        "pkg-2.4.2+forge-26.1.1" = _uAI5XWsA;
+        "pkg-2.4.2+forge-26.1.2" = _Rkgyt3rJ;
+        "pkg-2.4.2+forge-26.1" = _BSmJmzhV;
+        "pkg-2.4.2+forge-26.2" = _3qgwOUmn;
+        "pkg-2.4.2+forge-26.3" = _MdmI32V1;
+        "pkg-2.4.2+neoforge-1.21.10" = _4QAni7YU;
+        "pkg-2.4.2+neoforge-1.21.11" = _1RfsiSHr;
+        "pkg-2.4.2+neoforge-1.21.9" = _ZVFk2aAr;
+        "pkg-2.4.2+neoforge-26.1.1" = _5Rmb1qL9;
+        "pkg-2.4.2+neoforge-26.1.2" = _oAsekDD5;
+        "pkg-2.4.2+neoforge-26.1" = _6iFrjVxB;
+        "pkg-2.4.2+neoforge-26.2" = _Li4J0Pu3;
+        "pkg-2.4.2+neoforge-26.3" = _nCnUCiFF;
+        "pkg-2.5.0+fabric-1.21.10" = _dC0DKiuC;
+        "pkg-2.5.0+fabric-1.21.11" = _COUGqEfR;
+        "pkg-2.5.0+fabric-1.21.9" = _jYPpHMdU;
+        "pkg-2.5.0+fabric-26.1.1" = _NDRolnul;
+        "pkg-2.5.0+fabric-26.1.2" = _Hyh3DNOR;
+        "pkg-2.5.0+fabric-26.1" = _uTrBFmgz;
+        "pkg-2.5.0+fabric-26.2" = _KdHJSfFz;
+        "pkg-2.5.0+fabric-26.3" = _1RrtVyR7;
+        "pkg-2.5.0+forge-1.21.10" = _1lcNzVJF;
+        "pkg-2.5.0+forge-1.21.11" = _1ZneVccu;
+        "pkg-2.5.0+forge-1.21.9" = _3kCt97XQ;
+        "pkg-2.5.0+forge-26.1.1" = _9eAc2oMf;
+        "pkg-2.5.0+forge-26.1.2" = _FZZYtxz3;
+        "pkg-2.5.0+forge-26.1" = _G0sebK0u;
+        "pkg-2.5.0+forge-26.2" = _tgldQOjo;
+        "pkg-2.5.0+forge-26.3" = _D0bROmjC;
+        "pkg-2.5.0+neoforge-1.21.10" = _xSwrfRSe;
+        "pkg-2.5.0+neoforge-1.21.11" = _Em9jBCX2;
+        "pkg-2.5.0+neoforge-1.21.9" = _YN13UkWo;
+        "pkg-2.5.0+neoforge-26.1.1" = _M0BxL02M;
+        "pkg-2.5.0+neoforge-26.1.2" = _zWlyQI2D;
+        "pkg-2.5.0+neoforge-26.1" = _egWR9YJK;
+        "pkg-2.5.0+neoforge-26.2" = _q0WVzMhl;
+        "pkg-2.5.0+neoforge-26.3" = _r7IyYXAR;
+        "default" = _r7IyYXAR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-copper-golem";

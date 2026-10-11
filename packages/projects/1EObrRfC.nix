@@ -16,10 +16,16 @@ let
             "file" = "Background - Cherry Grove 26.2+.zip";
             "hash" = "sha512-WiUp+W9+RPOTktM8o7JHeOsRRIMbPpV6l32Kop571qFO6LXsgiSjYlgGQpR4A2P0w/7xjQ+3biTy4jyoi1gsAQ==";
         };
+        _SkDBsuLk = {
+            "id" = "SkDBsuLk";
+            "file" = "Background - Cherry Grove 26.3+.zip";
+            "hash" = "sha512-aW4cNRiEuE46Xh+sE3+cXlRhMTPeXoovAb3rv6OJRILyHdjn5x19cdOyKtfeUu/BUZ830CBLprfDpHjMHBxZ5A==";
+        };
     in {
         "ag3STDpT" = _ag3STDpT;
         "76M05Je1" = _76M05Je1;
         "HZWUub4g" = _HZWUub4g;
+        "SkDBsuLk" = _SkDBsuLk;
         "minecraft-1.21" = _ag3STDpT;
         "minecraft-1.21.1" = _ag3STDpT;
         "minecraft-1.21.2" = _ag3STDpT;
@@ -36,10 +42,12 @@ let
         "minecraft-26.1.1" = _76M05Je1;
         "minecraft-26.1.2" = _76M05Je1;
         "minecraft-26.2" = _HZWUub4g;
+        "minecraft-26.3" = _SkDBsuLk;
         "pkg-1.0" = _ag3STDpT;
         "pkg-1.1" = _76M05Je1;
         "pkg-1.2" = _HZWUub4g;
-        "default" = _HZWUub4g;
+        "pkg-1.3" = _SkDBsuLk;
+        "default" = _SkDBsuLk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "background-cherry-grove";

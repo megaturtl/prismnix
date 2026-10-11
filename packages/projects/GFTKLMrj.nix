@@ -326,6 +326,36 @@ let
             "file" = "Failskins 10.1.jar";
             "hash" = "sha512-Hluzjzb1M7l1Yq6ij+5/396L5cGYJ3ILvH7+eToqmAWkTTlDvs7lefiAjE5IoPgB+Bw5zq+gC9XObvAsiQnEFA==";
         };
+        _6f9SKq19 = {
+            "id" = "6f9SKq19";
+            "file" = "Failskins 10.11.zip";
+            "hash" = "sha512-219G7BC/JMeOGq6/oDHxhBJF8AJ1CxKS0fVyWnq/gkyH2aw1dGZLEH6DVYwjeoTOv6ljnFEELSdJZePhDj2ZEw==";
+        };
+        _I1IPo8ur = {
+            "id" = "I1IPo8ur";
+            "file" = "Failskins 10.11.jar";
+            "hash" = "sha512-tvYIUyxjEPygWT8Vct1CYVaXAZBVDMpQYRYEXi3mJhYVdH2YlEgl6Q+Qts5ees+5Dct6SdJF/GzhSp7HrFnNlw==";
+        };
+        _a5fcsTYg = {
+            "id" = "a5fcsTYg";
+            "file" = "Failskins 10.12.zip";
+            "hash" = "sha512-NfjxEiHA0PYPPebInjoBbCLyT0/FNz6J3/K3/fCB8pVNVgSY+eXhqZKmjLIj4hVdud9eSuO3crtbAT3YoIfXnQ==";
+        };
+        _O0WEBJuK = {
+            "id" = "O0WEBJuK";
+            "file" = "Failskins 10.12.jar";
+            "hash" = "sha512-qcfT/ALQv18tfBrADRIv7fOMHNGgKOSzZ5Wp4YHoQwiQD1Bj54tDw0sK91EjAZEpWkRdZXFXjCt4YUKSWeJ9HQ==";
+        };
+        _9zxx2voy = {
+            "id" = "9zxx2voy";
+            "file" = "Failskins 10.13.zip";
+            "hash" = "sha512-9o+J/2YAiILGRDINmZCq8g8iRG9vkaNNO5IWinXPzA/vRQVPrf146QB/e2swCy2nfN2VA5xYvRPJlJnIf21zYw==";
+        };
+        _fCE7hxSc = {
+            "id" = "fCE7hxSc";
+            "file" = "Failskins 10.13.jar";
+            "hash" = "sha512-okIk3BvEwKfMFVZZLyKknV6hOStpv9+T8CW+MzowyQ2mkUI6Q/YxBISh1ILC9y+UPXA6Eh+sDH4ZegLsiCZHwQ==";
+        };
     in {
         "MuvHyeWV" = _MuvHyeWV;
         "fWujAVjP" = _fWujAVjP;
@@ -392,13 +422,19 @@ let
         "DhOAp15G" = _DhOAp15G;
         "9ePVlmtd" = _9ePVlmtd;
         "aTEi7OaT" = _aTEi7OaT;
-        "datapack-1.21.1" = _9ePVlmtd;
+        "6f9SKq19" = _6f9SKq19;
+        "I1IPo8ur" = _I1IPo8ur;
+        "a5fcsTYg" = _a5fcsTYg;
+        "O0WEBJuK" = _O0WEBJuK;
+        "9zxx2voy" = _9zxx2voy;
+        "fCE7hxSc" = _fCE7hxSc;
+        "datapack-1.21.1" = _9zxx2voy;
         "datapack-1.20.1" = _E21nNjZi;
-        "datapack-24w03a" = _9ePVlmtd;
-        "datapack-24w03b" = _9ePVlmtd;
-        "datapack-24w04a" = _9ePVlmtd;
-        "fabric-1.21.1" = _aTEi7OaT;
-        "neoforge-1.21.1" = _aTEi7OaT;
+        "datapack-24w03a" = _9zxx2voy;
+        "datapack-24w03b" = _9zxx2voy;
+        "datapack-24w04a" = _9zxx2voy;
+        "fabric-1.21.1" = _fCE7hxSc;
+        "neoforge-1.21.1" = _fCE7hxSc;
         "forge-1.21.1" = _wk7RVi1O;
         "quilt-1.21.1" = _wk7RVi1O;
         "pkg-0.1" = _MuvHyeWV;
@@ -436,7 +472,10 @@ let
         "pkg-10.01" = _My0a24a9;
         "pkg-10.02" = _DhOAp15G;
         "pkg-10.1" = _aTEi7OaT;
-        "default" = _aTEi7OaT;
+        "pkg-10.11" = _I1IPo8ur;
+        "pkg-10.12" = _O0WEBJuK;
+        "pkg-10.13" = _fCE7hxSc;
+        "default" = _fCE7hxSc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-failskins";

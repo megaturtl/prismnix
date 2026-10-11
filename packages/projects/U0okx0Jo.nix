@@ -91,6 +91,16 @@ let
             "file" = "deepslatedubble-2.0.2.jar";
             "hash" = "sha512-zFDsiBkw+B969EsFyKJ+ez5ZQX7PBQ3Z/rc3IljbheEig0zrhqZvR2Yn3n0K7KSyMKJoHaK7/+D4NprqXcrVfg==";
         };
+        _3FEIFsTB = {
+            "id" = "3FEIFsTB";
+            "file" = "deepslate dubble (26.3).zip";
+            "hash" = "sha512-10CEXOYUKqumM+qcFyKDcV/WbcoUKKRJoGACK6jfQLSvGUxPF4/zgmtX0mMN75lJ5p3jpLyuOWFwqXTv58cJYw==";
+        };
+        _zt9j6dCN = {
+            "id" = "zt9j6dCN";
+            "file" = "deepslatedubble-26.3.jar";
+            "hash" = "sha512-FvY5HKHWro4stA3xuiTLsglRAATcuF0hbud//HnneEhbBsZV596dTHWmpi9xuB5fo7uOmgM7hRaYsi3VbgYmiQ==";
+        };
     in {
         "f6icvkS8" = _f6icvkS8;
         "vLCz1tSN" = _vLCz1tSN;
@@ -110,6 +120,8 @@ let
         "WrwXRMgH" = _WrwXRMgH;
         "nksRpwhi" = _nksRpwhi;
         "GbGMCzqV" = _GbGMCzqV;
+        "3FEIFsTB" = _3FEIFsTB;
+        "zt9j6dCN" = _zt9j6dCN;
         "forge-1.18.2" = _9t2OAWPB;
         "forge-1.19.2" = _9t2OAWPB;
         "forge-1.20.1" = _ePXntGqX;
@@ -141,6 +153,7 @@ let
         "forge-26.1.1" = _GbGMCzqV;
         "forge-26.1.2" = _GbGMCzqV;
         "forge-26.2" = _GbGMCzqV;
+        "forge-26.3" = _zt9j6dCN;
         "fabric-1.19.2" = _9t2OAWPB;
         "fabric-1.18" = _9t2OAWPB;
         "fabric-1.18.1" = _9t2OAWPB;
@@ -172,6 +185,7 @@ let
         "fabric-26.1.1" = _GbGMCzqV;
         "fabric-26.1.2" = _GbGMCzqV;
         "fabric-26.2" = _GbGMCzqV;
+        "fabric-26.3" = _zt9j6dCN;
         "quilt-1.19.2" = _9t2OAWPB;
         "quilt-1.18" = _9t2OAWPB;
         "quilt-1.18.1" = _9t2OAWPB;
@@ -203,6 +217,7 @@ let
         "quilt-26.1.1" = _GbGMCzqV;
         "quilt-26.1.2" = _GbGMCzqV;
         "quilt-26.2" = _GbGMCzqV;
+        "quilt-26.3" = _zt9j6dCN;
         "datapack-1.18" = _Onr20CIo;
         "datapack-1.18.1" = _Onr20CIo;
         "datapack-1.18.2" = _Onr20CIo;
@@ -234,6 +249,7 @@ let
         "datapack-26.1.1" = _nksRpwhi;
         "datapack-26.1.2" = _nksRpwhi;
         "datapack-26.2" = _nksRpwhi;
+        "datapack-26.3" = _3FEIFsTB;
         "neoforge-1.18" = _9t2OAWPB;
         "neoforge-1.18.1" = _9t2OAWPB;
         "neoforge-1.18.2" = _9t2OAWPB;
@@ -265,6 +281,7 @@ let
         "neoforge-26.1.1" = _GbGMCzqV;
         "neoforge-26.1.2" = _GbGMCzqV;
         "neoforge-26.2" = _GbGMCzqV;
+        "neoforge-26.3" = _zt9j6dCN;
         "pkg-001" = _f6icvkS8;
         "pkg-002" = _vLCz1tSN;
         "pkg-003" = _mNz7FTqV;
@@ -277,7 +294,9 @@ let
         "pkg-2.0.1+mod" = _WrwXRMgH;
         "pkg-2.0.2" = _nksRpwhi;
         "pkg-2.0.2+mod" = _GbGMCzqV;
-        "default" = _GbGMCzqV;
+        "pkg-2.0.3" = _3FEIFsTB;
+        "pkg-2.0.3+mod" = _zt9j6dCN;
+        "default" = _zt9j6dCN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "deepslatedubble";

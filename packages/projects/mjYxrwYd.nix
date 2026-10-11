@@ -311,6 +311,11 @@ let
             "file" = "passivemobs-neoforge-26.3-1.0.0.jar";
             "hash" = "sha512-m+yA/T0ggf5SVedPWBOwOQfphUiuTiLsZTtYII8Ifs5xBw00YtBax7Zc52HYt21m5oW4Mra96JNp+UfOV6GNSw==";
         };
+        _4v5uNZJo = {
+            "id" = "4v5uNZJo";
+            "file" = "passivemobs-forge-26.3-1.0.0.jar";
+            "hash" = "sha512-5Uk8c5AxWr/EsYYfIRYCqnCri/s9Sl62u/uQhZjYNRkBJarhlP+nKI53TW0YpmvrGmbrKOurdKWDIO701sbnJg==";
+        };
     in {
         "8eBd2UN3" = _8eBd2UN3;
         "Px1gqlZi" = _Px1gqlZi;
@@ -374,6 +379,7 @@ let
         "YXy2zlAM" = _YXy2zlAM;
         "TVAaNjHu" = _TVAaNjHu;
         "sCtgSSyr" = _sCtgSSyr;
+        "4v5uNZJo" = _4v5uNZJo;
         "fabric-1.19.3" = _3Wgk1QcG;
         "fabric-1.19" = _3Wgk1QcG;
         "fabric-1.19.1" = _3Wgk1QcG;
@@ -429,6 +435,7 @@ let
         "forge-26.1" = _CJOMnNfN;
         "forge-26.1.2" = _jKBsX3j4;
         "forge-26.2" = _5k6B89Df;
+        "forge-26.3" = _4v5uNZJo;
         "neoforge-1.20.4" = _p20UFOR6;
         "neoforge-1.20.2" = _iBUxc8aV;
         "neoforge-1.20.5" = _ZRoknO1i;
@@ -457,8 +464,8 @@ let
         "pkg-1.3.4" = _lEJyuqvb;
         "pkg-1.3.5" = _oZ2s12ft;
         "pkg-1.3.6" = _PpK8WRP7;
-        "pkg-1.0.0" = _sCtgSSyr;
-        "default" = _sCtgSSyr;
+        "pkg-1.0.0" = _4v5uNZJo;
+        "default" = _4v5uNZJo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "passivemobs";

@@ -186,6 +186,11 @@ let
             "file" = "Blue Flash PvP Pack[3.21][26.2].zip";
             "hash" = "sha512-tkSGn2XGB+ByDH2cIuS25ElKmdDXSpd2Qvg5+cBLd5dHwovDikskhApiA2KWv/gT2gBEcfi9/utsge0Vg5SLgw==";
         };
+        _8fKgVIp6 = {
+            "id" = "8fKgVIp6";
+            "file" = "Blue Flash PvP Pack[3.21][26.3].zip";
+            "hash" = "sha512-NpSar7G4atSvQIaKq/uTm9ApIZH/nTKpURVBcRsXPFBwPk71TclG2hE78tSyQIn/Em3ftzeTaEzp/uECgEL1ZQ==";
+        };
     in {
         "IjLOCEbq" = _IjLOCEbq;
         "49JTcQtb" = _49JTcQtb;
@@ -224,6 +229,7 @@ let
         "eFayUr58" = _eFayUr58;
         "6RtcbqJl" = _6RtcbqJl;
         "ivb1LLaJ" = _ivb1LLaJ;
+        "8fKgVIp6" = _8fKgVIp6;
         "minecraft-1.16" = _iJF2rnNc;
         "minecraft-1.16.1" = _iJF2rnNc;
         "minecraft-1.16.2" = _iJF2rnNc;
@@ -266,6 +272,9 @@ let
         "minecraft-26.1.1" = _eFayUr58;
         "minecraft-26.1.2" = _6RtcbqJl;
         "minecraft-26.2" = _ivb1LLaJ;
+        "minecraft-26.3" = _8fKgVIp6;
+        "minecraft-26.4-snapshot-1" = _8fKgVIp6;
+        "minecraft-26.4-snapshot-2" = _8fKgVIp6;
         "pkg-1.16-1.16.5" = _IjLOCEbq;
         "pkg-1.17-1.17.1" = _49JTcQtb;
         "pkg-1.18-1.18.2" = _GxZLosW5;
@@ -283,8 +292,8 @@ let
         "pkg-3.0" = _BNYQQZHs;
         "pkg-3.1" = _6vovmarq;
         "pkg-3.2" = _eFayUr58;
-        "pkg-3.21" = _ivb1LLaJ;
-        "default" = _ivb1LLaJ;
+        "pkg-3.21" = _8fKgVIp6;
+        "default" = _8fKgVIp6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blue-flash-pvp-pack";

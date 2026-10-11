@@ -111,6 +111,11 @@ let
             "file" = "worldreset-0.2.3+1.21.1-dev.jar";
             "hash" = "sha512-uEl2g/kpcIXliLBeoOaJoTMeGVNe+emHQmHDPYKqGJBtPFQMVcatYYDopOarTVVzxlY78Y7AXDqVD40dfCIg7g==";
         };
+        _WCQngVMa = {
+            "id" = "WCQngVMa";
+            "file" = "worldreset-0.2.2+26.3.jar";
+            "hash" = "sha512-pHgb5TR2WnJOkC9ITzuFthP/IyYSGhRMiIEqIIk5uLGP33U7YCTWFLzxuJm/hVDV+Mq3E01G96CA6x6cNh+DOw==";
+        };
     in {
         "xik7HPkZ" = _xik7HPkZ;
         "LBkyjkwJ" = _LBkyjkwJ;
@@ -134,6 +139,7 @@ let
         "DoF0GKRG" = _DoF0GKRG;
         "GrmWB9ue" = _GrmWB9ue;
         "D8NrH1Fd" = _D8NrH1Fd;
+        "WCQngVMa" = _WCQngVMa;
         "fabric-1.21.4" = _VIjqGEnw;
         "fabric-1.21.5" = _MfFDuLY4;
         "fabric-1.21.6" = _rXh5iGuD;
@@ -144,6 +150,7 @@ let
         "fabric-26.2" = _X14i8Puq;
         "fabric-1.21.9" = _DoF0GKRG;
         "fabric-1.21.1" = _D8NrH1Fd;
+        "fabric-26.3" = _WCQngVMa;
         "quilt-1.21.4" = _VIjqGEnw;
         "quilt-1.21.5" = _MfFDuLY4;
         "quilt-1.21.6" = _rXh5iGuD;
@@ -154,6 +161,7 @@ let
         "quilt-26.2" = _X14i8Puq;
         "quilt-1.21.9" = _DoF0GKRG;
         "quilt-1.21.1" = _D8NrH1Fd;
+        "quilt-26.3" = _WCQngVMa;
         "pkg-0.0.1+1.21.4" = _xik7HPkZ;
         "pkg-0.0.2+1.21.4" = _LBkyjkwJ;
         "pkg-0.0.3+1.21.4" = _VIjqGEnw;
@@ -173,7 +181,8 @@ let
         "pkg-0.0.8+1.21.9" = _DoF0GKRG;
         "pkg-0.1.1+1.21.11" = _GrmWB9ue;
         "pkg-0.2.3+1.21.1" = _D8NrH1Fd;
-        "default" = _D8NrH1Fd;
+        "pkg-0.2.2+26.3" = _WCQngVMa;
+        "default" = _WCQngVMa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "worldreset-fabric";

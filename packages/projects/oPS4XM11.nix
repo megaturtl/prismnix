@@ -61,6 +61,16 @@ let
             "file" = "ghastcontrols-neoforge-26.2-1.0.6.jar";
             "hash" = "sha512-rUCFVfFEFaNUv9FPw5OUdklrL6bUxklrylXGUXRMGbn9EqrhZvtW2mFiJdMAJRI2MiLdjMiXkCc9Rqog8BZ3Dw==";
         };
+        _vIUyqIsX = {
+            "id" = "vIUyqIsX";
+            "file" = "ghastcontrols-neoforge-26.3-1.0.6.jar";
+            "hash" = "sha512-zVqxU+24eSe0UXYVaXbdhSeC6rczB/8Eje2AtiLLeoRh62xMsSET2tZstwbIxc/37cHvjconb9DJwO/7O9ew/Q==";
+        };
+        _bi2Oy5VD = {
+            "id" = "bi2Oy5VD";
+            "file" = "ghastcontrols-fabric-26.3-1.0.6.jar";
+            "hash" = "sha512-xDX2cdDMZAyLipBiRZttot095wzcF8TSGJgyHkGaVupQ2RbY75tNktyzCRtBwfkaW55RqhySWpu+uDfuJBCFYg==";
+        };
     in {
         "NwEdwyY5" = _NwEdwyY5;
         "gc3r03Bo" = _gc3r03Bo;
@@ -74,14 +84,18 @@ let
         "MTTtx38n" = _MTTtx38n;
         "YEMNiOiQ" = _YEMNiOiQ;
         "k9XQHROk" = _k9XQHROk;
+        "vIUyqIsX" = _vIUyqIsX;
+        "bi2Oy5VD" = _bi2Oy5VD;
         "fabric-26.1" = _MTTtx38n;
         "fabric-26.1.1" = _MTTtx38n;
         "fabric-26.1.2" = _MTTtx38n;
         "fabric-26.2" = _YEMNiOiQ;
+        "fabric-26.3" = _bi2Oy5VD;
         "neoforge-26.1" = _krmbFb1o;
         "neoforge-26.1.1" = _krmbFb1o;
         "neoforge-26.1.2" = _krmbFb1o;
         "neoforge-26.2" = _k9XQHROk;
+        "neoforge-26.3" = _vIUyqIsX;
         "pkg-26.1.x-1.0.0-fabric" = _NwEdwyY5;
         "pkg-26.1.x-1.0.1-fabric" = _gc3r03Bo;
         "pkg-26.1.x-1.0.2-fabric" = _aJI9MWha;
@@ -94,7 +108,9 @@ let
         "pkg-26.1.x-1.0.6-fabric" = _MTTtx38n;
         "pkg-26.2-1.0.6-fabric" = _YEMNiOiQ;
         "pkg-26.2-1.0.6-neoforge" = _k9XQHROk;
-        "default" = _k9XQHROk;
+        "pkg-26.3-1.0.6-neoforge" = _vIUyqIsX;
+        "pkg-26.3-1.0.6-fabric" = _bi2Oy5VD;
+        "default" = _bi2Oy5VD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-happy-ghast-controls";

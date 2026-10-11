@@ -441,6 +441,16 @@ let
             "file" = "DiagonalFences-v26.2.0-mc26.2.x-NeoForge.jar";
             "hash" = "sha512-+wQG3TGct/9WvCPKJBq+gt79Fi8mRuOb2tuj68EebLoMJVzMBykGiU7h53k/LBAsX6XHTUVqoB8mY3WySvabpg==";
         };
+        _W0cmNrxC = {
+            "id" = "W0cmNrxC";
+            "file" = "diagonalfences-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-5fqNhdBT98gctASc1lCpxRZsdFTlyCwVCnqhNM3uZYUyCxePHtZfqcoMpf8pPqwm4CLkUbXNhSNWjKH0EpYO6Q==";
+        };
+        _CHD6edDK = {
+            "id" = "CHD6edDK";
+            "file" = "diagonalfences-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-WX91g5cLQZrnNaAWGydRuxegxPwkYExV0QV6wFVIu7HoxOJfywBTw59v4xvPRkzuMxV511nutQztFfUVuqXd/Q==";
+        };
     in {
         "bp4FJaKV" = _bp4FJaKV;
         "R3s9LanO" = _R3s9LanO;
@@ -530,6 +540,8 @@ let
         "UUuyVvvj" = _UUuyVvvj;
         "XxnvsgPA" = _XxnvsgPA;
         "lQWC1r8U" = _lQWC1r8U;
+        "W0cmNrxC" = _W0cmNrxC;
+        "CHD6edDK" = _CHD6edDK;
         "forge-1.19" = _heUWdlAs;
         "forge-1.19.1" = _caZE9dfG;
         "forge-1.19.2" = _KbmgjzHt;
@@ -563,6 +575,7 @@ let
         "fabric-26.1.1" = _UUuyVvvj;
         "fabric-26.1.2" = _UUuyVvvj;
         "fabric-26.2" = _XxnvsgPA;
+        "fabric-26.3" = _CHD6edDK;
         "neoforge-1.20.4" = _q5BqKwQX;
         "neoforge-1.21" = _vRSnDLGj;
         "neoforge-1.21.1" = _bgR1e0O5;
@@ -579,6 +592,7 @@ let
         "neoforge-26.1.1" = _LeJEFOb1;
         "neoforge-26.1.2" = _LeJEFOb1;
         "neoforge-26.2" = _lQWC1r8U;
+        "neoforge-26.3" = _W0cmNrxC;
         "pkg-v4.0.0-1.19-Forge" = _bp4FJaKV;
         "pkg-v4.0.0-1.19-Fabric" = _R3s9LanO;
         "pkg-v4.0.1-1.19-Forge" = _heUWdlAs;
@@ -661,7 +675,8 @@ let
         "pkg-21.11.1" = _bfHGiDIS;
         "pkg-26.1.0" = _UUuyVvvj;
         "pkg-26.2.0" = _lQWC1r8U;
-        "default" = _lQWC1r8U;
+        "pkg-26.3.0" = _CHD6edDK;
+        "default" = _CHD6edDK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "diagonal-fences";

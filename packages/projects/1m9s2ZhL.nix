@@ -301,6 +301,51 @@ let
             "file" = "CardinalIceBoats-neoforge-26.1.2-2.1.0.jar";
             "hash" = "sha512-+0Zl2OsifdsOt16HkIF2UsKIjUChv0slPcp9X7wK9kMDppMz3qsa1V+j7QVgE8yQuHSlhnKAsE4Yi74CXM31fw==";
         };
+        _6mfA0VmS = {
+            "id" = "6mfA0VmS";
+            "file" = "CardinalIceBoats-fabric-26.1.2-2.1.0.jar";
+            "hash" = "sha512-exu23vlQSHtxO/tGzxgZH9j+fEyXe8reJPn08vuWX/vCYOiU9ZYAWBofdhn0J83dV8y1dJ3/w8+w3T0XhC47Kw==";
+        };
+        _QKqMGlPE = {
+            "id" = "QKqMGlPE";
+            "file" = "CardinalIceBoats-fabric-26.3-2.1.0.jar";
+            "hash" = "sha512-lefuQkRK7LmOJuxPFuKArv1wMl9omVsiOTjmKFoCQVbrA+ScVQRPyX7JZZVQlt6GuOFp+fxI/NZJxLdHhRi9ow==";
+        };
+        _CKTfGdUJ = {
+            "id" = "CKTfGdUJ";
+            "file" = "CardinalIceBoats-fabric-26.2-2.1.0.jar";
+            "hash" = "sha512-LsWjfYa0xbtBSgi92pVq/4bIxJX3fWZ3RqF7AgQXVyzBHRUTh7ji6OuqCMwo1srEf/Abz2IG/WGTWRMhoCuQcw==";
+        };
+        _mNQCQ7H3 = {
+            "id" = "mNQCQ7H3";
+            "file" = "CardinalIceBoats-forge-26.3-2.1.0.jar";
+            "hash" = "sha512-bICjlN6cWLPKFku4zC9DLK/lJGDc5HN1l0m+KYaCmepChpxrt3vXgiSDkJeec/m4ZSHoYzqyvY63TZcOd5keag==";
+        };
+        _ZGB18Ec1 = {
+            "id" = "ZGB18Ec1";
+            "file" = "CardinalIceBoats-forge-26.2-2.1.0.jar";
+            "hash" = "sha512-t+y7OD+8aD+xjYwE75GNnT0FlqRt5fBX286Y0v+s9Sp1YEJPjJ0zIRh6/h0JxRyTEGrPyAP7hLxQbjE9vEgGAA==";
+        };
+        _yIS2AVDj = {
+            "id" = "yIS2AVDj";
+            "file" = "CardinalIceBoats-forge-26.1.2-2.1.0.jar";
+            "hash" = "sha512-DUmCD30Q6KpNB9bhQ18s25b63Qaar8ajkPuiJnoX8vrJ7W5TqYXp6WNI4RPIWNaVrldMiYM4sYwJ8KSU6vATiA==";
+        };
+        _QrryIAoN = {
+            "id" = "QrryIAoN";
+            "file" = "CardinalIceBoats-neoforge-26.3-2.1.0.jar";
+            "hash" = "sha512-Jh5bkhBvyBxqsSHqPJHPl3UmfEbBsV8ufCwrb6WwilbTl+q2ksol4NPtrNV7lG75o97sVnnoU7yZRBmopdurHQ==";
+        };
+        _5syTrAfS = {
+            "id" = "5syTrAfS";
+            "file" = "CardinalIceBoats-neoforge-26.2-2.1.0.jar";
+            "hash" = "sha512-PhcTBoxW6Lbmq72aWWzNCT9sjwaPkqb7/0DH5mJKkUTTule/uozVq7DM4OhnNayIJEfYMkJG6VY245wP3V9vhQ==";
+        };
+        _aYALdaKu = {
+            "id" = "aYALdaKu";
+            "file" = "CardinalIceBoats-neoforge-26.1.2-2.1.0.jar";
+            "hash" = "sha512-VOb7HLvRC3Of5Y5d8uujhJPIWilIcvJknUjG5JwCHyCcwrai2IhJLIbaOHwKwYOglk/ghQWusdERzCLVoORoqw==";
+        };
     in {
         "UzHPuXpG" = _UzHPuXpG;
         "ZuDddxVL" = _ZuDddxVL;
@@ -362,6 +407,15 @@ let
         "10yjlfj4" = _10yjlfj4;
         "qnVvWR9r" = _qnVvWR9r;
         "nCIvRYMf" = _nCIvRYMf;
+        "6mfA0VmS" = _6mfA0VmS;
+        "QKqMGlPE" = _QKqMGlPE;
+        "CKTfGdUJ" = _CKTfGdUJ;
+        "mNQCQ7H3" = _mNQCQ7H3;
+        "ZGB18Ec1" = _ZGB18Ec1;
+        "yIS2AVDj" = _yIS2AVDj;
+        "QrryIAoN" = _QrryIAoN;
+        "5syTrAfS" = _5syTrAfS;
+        "aYALdaKu" = _aYALdaKu;
         "fabric-1.17.1" = _cjKE1QIP;
         "fabric-1.18.2" = _3zU4P2Vy;
         "fabric-1.19" = _igrVNtL4;
@@ -386,9 +440,11 @@ let
         "fabric-1.21.1" = _MeRE5oYV;
         "fabric-1.21.10" = _U86oKSf4;
         "fabric-1.21.11" = _rBjQtvWW;
-        "fabric-26.1" = _qnVvWR9r;
-        "fabric-26.1.1" = _qnVvWR9r;
-        "fabric-26.1.2" = _qnVvWR9r;
+        "fabric-26.1" = _6mfA0VmS;
+        "fabric-26.1.1" = _6mfA0VmS;
+        "fabric-26.1.2" = _6mfA0VmS;
+        "fabric-26.3" = _QKqMGlPE;
+        "fabric-26.2" = _CKTfGdUJ;
         "forge-1.19" = _igrVNtL4;
         "forge-1.19.1" = _igrVNtL4;
         "forge-1.19.2" = _igrVNtL4;
@@ -397,6 +453,11 @@ let
         "forge-1.21.1" = _TA8k74Dr;
         "forge-1.20" = _mPmvd2aT;
         "forge-1.20.1" = _mPmvd2aT;
+        "forge-26.3" = _mNQCQ7H3;
+        "forge-26.2" = _ZGB18Ec1;
+        "forge-26.1" = _yIS2AVDj;
+        "forge-26.1.1" = _yIS2AVDj;
+        "forge-26.1.2" = _yIS2AVDj;
         "neoforge-1.21.6" = _sdXKKNHj;
         "neoforge-1.21.7" = _sdXKKNHj;
         "neoforge-1.21.8" = _sdXKKNHj;
@@ -405,9 +466,11 @@ let
         "neoforge-1.20" = _mPmvd2aT;
         "neoforge-1.20.1" = _mPmvd2aT;
         "neoforge-1.21.10" = _o8RbVKQp;
-        "neoforge-26.1" = _nCIvRYMf;
-        "neoforge-26.1.1" = _nCIvRYMf;
-        "neoforge-26.1.2" = _nCIvRYMf;
+        "neoforge-26.1" = _aYALdaKu;
+        "neoforge-26.1.1" = _aYALdaKu;
+        "neoforge-26.1.2" = _aYALdaKu;
+        "neoforge-26.3" = _QrryIAoN;
+        "neoforge-26.2" = _5syTrAfS;
         "pkg-1.0.0-1.17.1" = _UzHPuXpG;
         "pkg-1.0.0-1.18.2" = _ZuDddxVL;
         "pkg-1.0.0-1.19" = _TgWk3CJp;
@@ -466,9 +529,16 @@ let
         "pkg-forge-1.20.1-2.0.5" = _mPmvd2aT;
         "pkg-neoforge-1.21.10-2.0.5" = _o8RbVKQp;
         "pkg-neoforge-1.21.1-2.0.5" = _10yjlfj4;
-        "pkg-fabric-26.1-2.1.0" = _qnVvWR9r;
-        "pkg-neoforge-26.1-2.1.0" = _nCIvRYMf;
-        "default" = _nCIvRYMf;
+        "pkg-fabric-26.1-2.1.0" = _6mfA0VmS;
+        "pkg-neoforge-26.1-2.1.0" = _aYALdaKu;
+        "pkg-fabric-26.3-2.1.0" = _QKqMGlPE;
+        "pkg-fabric-26.2-2.1.0" = _CKTfGdUJ;
+        "pkg-forge-26.3-2.1.0" = _mNQCQ7H3;
+        "pkg-forge-26.2-2.1.0" = _ZGB18Ec1;
+        "pkg-forge-26.1-2.1.0" = _yIS2AVDj;
+        "pkg-neoforge-26.3-2.1.0" = _QrryIAoN;
+        "pkg-neoforge-26.2-2.1.0" = _5syTrAfS;
+        "default" = _aYALdaKu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cardinalboats";

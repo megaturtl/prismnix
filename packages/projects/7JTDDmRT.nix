@@ -176,6 +176,26 @@ let
             "file" = "dungeons-and-taverns-desert-temple-overhaul-v2.1.jar";
             "hash" = "sha512-WGxtIdbygRkKdWEBKZHARpnBrmDPjIlDpeP/F1ytoslHHiDVsbs0xDB8WeKDMkurj92L/HcTsW2fBNdxzKUKjw==";
         };
+        _7IBsU37o = {
+            "id" = "7IBsU37o";
+            "file" = "DnT Desert Temple Overhaul v2.2.zip";
+            "hash" = "sha512-htVWlzVL5qq2+JdodOZfpFsLXLIxskgBFb3PSizErNcibll1ePubig3yvueNp3cLxiPZLiEyWIOwPBS07hT3hQ==";
+        };
+        _Pz42qz4P = {
+            "id" = "Pz42qz4P";
+            "file" = "dungeons-and-taverns-desert-temple-overhaul-2.2.jar";
+            "hash" = "sha512-ACc6pMdY7iXUBTLM4IKtrj3nBOx6SP4XyrHjAjKxMrbAt2ts2+d4d+FqGZA0dOaIemf3Yiyqkf0mBErwnTnAgg==";
+        };
+        _1tYeQyTu = {
+            "id" = "1tYeQyTu";
+            "file" = "dungeons-and-taverns-desert-temple-overhaul-2.2.jar";
+            "hash" = "sha512-U20i5ZHhMv3rLsGZlQhUIqDq8TutzmVSC38aL6CYzLFEqDLlD0DS7N7KDpkTgt4qW8ro31ry7eTM+ErjOTTDGQ==";
+        };
+        _2tCWUBQ7 = {
+            "id" = "2tCWUBQ7";
+            "file" = "dungeons-and-taverns-desert-temple-overhaul-2.2.jar";
+            "hash" = "sha512-BRldNDslC+RKE7R7YjW4zEYNrl+HgrOmW9St9XP5mfBeTtAJah7RIwOWL6teJxKRazQcwQm/X2D1IIdZPW3Tog==";
+        };
     in {
         "qTmFssBh" = _qTmFssBh;
         "W5R9FQ7i" = _W5R9FQ7i;
@@ -212,6 +232,10 @@ let
         "5CxIf8Tt" = _5CxIf8Tt;
         "K2UQNEYD" = _K2UQNEYD;
         "RpT6m0wq" = _RpT6m0wq;
+        "7IBsU37o" = _7IBsU37o;
+        "Pz42qz4P" = _Pz42qz4P;
+        "1tYeQyTu" = _1tYeQyTu;
+        "2tCWUBQ7" = _2tCWUBQ7;
         "datapack-1.21" = _jWI6GI3r;
         "datapack-1.21.1" = _jWI6GI3r;
         "datapack-1.21.2" = _LO7Ps5Nb;
@@ -228,6 +252,7 @@ let
         "datapack-26.1.1" = _tOWwOzy4;
         "datapack-26.1.2" = _tOWwOzy4;
         "datapack-26.2" = _tOWwOzy4;
+        "datapack-26.3" = _7IBsU37o;
         "fabric-1.21" = _eY7abSSH;
         "fabric-1.21.1" = _eY7abSSH;
         "fabric-1.21.2" = _CU6vtwWp;
@@ -244,6 +269,7 @@ let
         "fabric-26.1.1" = _5CxIf8Tt;
         "fabric-26.1.2" = _5CxIf8Tt;
         "fabric-26.2" = _5CxIf8Tt;
+        "fabric-26.3" = _Pz42qz4P;
         "forge-1.21" = _ccbKWUDV;
         "forge-1.21.1" = _ccbKWUDV;
         "forge-1.21.2" = _wzRlJIWi;
@@ -260,6 +286,7 @@ let
         "forge-26.1.1" = _RpT6m0wq;
         "forge-26.1.2" = _RpT6m0wq;
         "forge-26.2" = _RpT6m0wq;
+        "forge-26.3" = _1tYeQyTu;
         "neoforge-1.21" = _jwKNecIA;
         "neoforge-1.21.1" = _jwKNecIA;
         "neoforge-1.21.2" = _oYtP2jiE;
@@ -276,6 +303,7 @@ let
         "neoforge-26.1.1" = _K2UQNEYD;
         "neoforge-26.1.2" = _K2UQNEYD;
         "neoforge-26.2" = _K2UQNEYD;
+        "neoforge-26.3" = _2tCWUBQ7;
         "pkg-v1" = _qTmFssBh;
         "pkg-v1+mod" = _IHoePtlm;
         "pkg-v1.1" = _PZjn3RR6;
@@ -294,7 +322,9 @@ let
         "pkg-v2+mod" = _IICrm84H;
         "pkg-v2.1" = _tOWwOzy4;
         "pkg-v2.1+mod" = _RpT6m0wq;
-        "default" = _RpT6m0wq;
+        "pkg-2.2" = _7IBsU37o;
+        "pkg-2.2+mod" = _2tCWUBQ7;
+        "default" = _2tCWUBQ7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dungeons-and-taverns-desert-temple-overhaul";

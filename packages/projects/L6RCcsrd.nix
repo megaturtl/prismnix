@@ -116,6 +116,11 @@ let
             "file" = "Trident-1.3.1+26.1.2.jar";
             "hash" = "sha512-z8y5WdOiwfIB78m6WWUvjC9BxsinvV6M84E515JdvgYvZOs0AZWOf/JU6NGGXuFV7JQc1FKqKJtRpCpC1PerLg==";
         };
+        _Iz6MAqgr = {
+            "id" = "Iz6MAqgr";
+            "file" = "Trident-1.4.0+26.2.jar";
+            "hash" = "sha512-D+1RAvQXbG3nE4ft6dDqzL50tLTgC4hGnFRzQ09KEV02Hue4QJ2Bvp3NGtggZ7kUa2/k0P1RuXlB0dl1Vx1E6w==";
+        };
     in {
         "EuiVJ35u" = _EuiVJ35u;
         "iHkqlrmm" = _iHkqlrmm;
@@ -140,9 +145,11 @@ let
         "eK4UCRkF" = _eK4UCRkF;
         "v1IxPRs5" = _v1IxPRs5;
         "kU6e7xVq" = _kU6e7xVq;
+        "Iz6MAqgr" = _Iz6MAqgr;
         "fabric-1.21.8" = _ZlJc2gkD;
         "fabric-1.21.11" = _v1IxPRs5;
         "fabric-26.1.2" = _kU6e7xVq;
+        "fabric-26.2" = _Iz6MAqgr;
         "pkg-1.0.0" = _EuiVJ35u;
         "pkg-1.0.1" = _iHkqlrmm;
         "pkg-1.0.2" = _fupcK0Uo;
@@ -164,7 +171,8 @@ let
         "pkg-1.2.4" = _9uZx1fvh;
         "pkg-1.3.0" = _eK4UCRkF;
         "pkg-1.3.1" = _kU6e7xVq;
-        "default" = _kU6e7xVq;
+        "pkg-1.4.0" = _Iz6MAqgr;
+        "default" = _Iz6MAqgr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trident-mcci";

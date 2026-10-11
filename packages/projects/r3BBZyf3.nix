@@ -861,6 +861,36 @@ let
             "file" = "CrazyCrates-26.1.2-01d78f5.jar";
             "hash" = "sha512-8tZ8Dfaz4ZWghCAbKlSMz+Wk+QGN9jow79BWLBmX9SG+XMd0Rfprkd0j/Bl5sVB6b5Qi/x2oxfcWo2K4Hmgllg==";
         };
+        _d4FEchgk = {
+            "id" = "d4FEchgk";
+            "file" = "CrazyCrates-26.1.2-3726eba.jar";
+            "hash" = "sha512-VOyZWfLIS3P8xmlo3ENAoVWA0IYI40OBsW0piPQaJe6pY3L/ENYKoc2TtuTj12SHaZUMatv0Fdckl1y7lMs+3A==";
+        };
+        _vA0pKPsc = {
+            "id" = "vA0pKPsc";
+            "file" = "CrazyCrates-26.1.2-c7fab16.jar";
+            "hash" = "sha512-fxVllAaTBkzWyH7gBaZlABqJi5NYt3owoAvX9v1rzZNYhY+bCYs+yZ/qhLKLk8B0pTsA/jADG3o+D8ukNpGoKA==";
+        };
+        _mGsWH9dV = {
+            "id" = "mGsWH9dV";
+            "file" = "CrazyCrates-26.1.2-51524f5.jar";
+            "hash" = "sha512-2GDfgpiVj/Fkh+ewgQsQGGP3Nf8VDu/IWVDfAy2v/d3S0IbA82mTfHhs8VX2zihhT/vCn7VSBerNNeAZo6pB+A==";
+        };
+        _glgOTyBz = {
+            "id" = "glgOTyBz";
+            "file" = "CrazyCrates-26.1.2-da371c5.jar";
+            "hash" = "sha512-uuQNUjoIrSyIYDu/BlRvAN1Tljz3VLNNFnxs4wGbmHslFu4yyQG3JteVrdxH5UMeq5eQRegR1R3KAA6v7mNX1Q==";
+        };
+        _5H8dIsmR = {
+            "id" = "5H8dIsmR";
+            "file" = "CrazyCrates-26.1.2-d132bde.jar";
+            "hash" = "sha512-9w1dJuSD4ZLqRm6pwQwQAubC//c/2iFY+Dbu1GL9kD1h1RLy1TE7R5qjVB5pMhNLGV5JMGfU/k0vdfqNxr5GDA==";
+        };
+        _HbYbWLPE = {
+            "id" = "HbYbWLPE";
+            "file" = "CrazyCrates-26.1.2-ba1cc9b.jar";
+            "hash" = "sha512-NdDRM0aIBDF3gzsOkr3TAMiH35KRfa3yYBHGbTlo3lwj6ooaMDZ6I0b+juZqylh6DRBp2Yx4gWvkCsEseGOaXA==";
+        };
     in {
         "o2SBLNdi" = _o2SBLNdi;
         "LvvjPICj" = _LvvjPICj;
@@ -1034,6 +1064,12 @@ let
         "lQgOWXTc" = _lQgOWXTc;
         "WpaZr42U" = _WpaZr42U;
         "AXYd6Uhq" = _AXYd6Uhq;
+        "d4FEchgk" = _d4FEchgk;
+        "vA0pKPsc" = _vA0pKPsc;
+        "mGsWH9dV" = _mGsWH9dV;
+        "glgOTyBz" = _glgOTyBz;
+        "5H8dIsmR" = _5H8dIsmR;
+        "HbYbWLPE" = _HbYbWLPE;
         "paper-1.19.4" = _o2SBLNdi;
         "paper-1.8.8" = _LvvjPICj;
         "paper-1.12.2" = _LvvjPICj;
@@ -1054,8 +1090,8 @@ let
         "paper-1.21.11" = _ua0RfxnL;
         "paper-26.1" = _ua0RfxnL;
         "paper-26.1.1" = _ua0RfxnL;
-        "paper-26.1.2" = _AXYd6Uhq;
-        "paper-26.2" = _AXYd6Uhq;
+        "paper-26.1.2" = _HbYbWLPE;
+        "paper-26.2" = _HbYbWLPE;
         "purpur-1.19.4" = _o2SBLNdi;
         "purpur-1.20.1" = _61LdIpXv;
         "purpur-1.20.2" = _IKDMMjgz;
@@ -1073,8 +1109,8 @@ let
         "purpur-1.21.11" = _ua0RfxnL;
         "purpur-26.1" = _ua0RfxnL;
         "purpur-26.1.1" = _ua0RfxnL;
-        "purpur-26.1.2" = _AXYd6Uhq;
-        "purpur-26.2" = _AXYd6Uhq;
+        "purpur-26.1.2" = _HbYbWLPE;
+        "purpur-26.2" = _HbYbWLPE;
         "spigot-1.8.8" = _LvvjPICj;
         "spigot-1.12.2" = _LvvjPICj;
         "spigot-1.16.5" = _LvvjPICj;
@@ -1092,8 +1128,8 @@ let
         "folia-1.21.11" = _ua0RfxnL;
         "folia-26.1" = _ua0RfxnL;
         "folia-26.1.1" = _ua0RfxnL;
-        "folia-26.1.2" = _AXYd6Uhq;
-        "folia-26.2" = _AXYd6Uhq;
+        "folia-26.1.2" = _HbYbWLPE;
+        "folia-26.2" = _HbYbWLPE;
         "pkg-1.11.13" = _o2SBLNdi;
         "pkg-1.10.2.2" = _LvvjPICj;
         "pkg-1.12" = _uENjXFu3;
@@ -1266,7 +1302,13 @@ let
         "pkg-26.1.2-07cfb3e" = _lQgOWXTc;
         "pkg-26.1.2-37fff31" = _WpaZr42U;
         "pkg-26.1.2-01d78f5" = _AXYd6Uhq;
-        "default" = _AXYd6Uhq;
+        "pkg-26.1.2-3726eba" = _d4FEchgk;
+        "pkg-26.1.2-c7fab16" = _vA0pKPsc;
+        "pkg-26.1.2-51524f5" = _mGsWH9dV;
+        "pkg-26.1.2-da371c5" = _glgOTyBz;
+        "pkg-26.1.2-d132bde" = _5H8dIsmR;
+        "pkg-26.1.2-ba1cc9b" = _HbYbWLPE;
+        "default" = _HbYbWLPE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crazycrates";

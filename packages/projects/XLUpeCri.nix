@@ -26,18 +26,38 @@ let
             "file" = "emf_compat_immersive_melodies_1.21.1_1.1.0.jar";
             "hash" = "sha512-+xaDYaiHnR+lqgiYbWEGRSJfmtR4I3/wALlKHtM//xCOji/Ijqm5/XxeqJVv04CB4iGBFT02xx0tDTgA1g3uOw==";
         };
+        _8AcmpdQr = {
+            "id" = "8AcmpdQr";
+            "file" = "emf_compat_immersive_melodies_forge_1.20.1_1.2.0.jar";
+            "hash" = "sha512-pPv5HLRWDSQaOIk8YYp/XVcvriUqH4+LCoIgPr8PwPQv7GRYOtP9VRiPe51EKSGYwrrscWZO2jy9/S7UAc26LA==";
+        };
+        _4fyuH5xF = {
+            "id" = "4fyuH5xF";
+            "file" = "emf_compat_immersive_melodies_neoforge_1.21.1_1.2.0.jar";
+            "hash" = "sha512-guiAHxsaAG5WrMSax7839c1IOaaY3GSeKb248PydANWFhrsNETO2DQaRtyK4i3YnR6AviB79UREQhlTGyMjNrA==";
+        };
+        _BvfSPX08 = {
+            "id" = "BvfSPX08";
+            "file" = "emf_compat_immersive_melodies_fabric_1.21.1_1.2.0.jar";
+            "hash" = "sha512-pSAU0od+cfHwC14R30mmOoSLWfuhGUDG60HTQnUoUoTcJmHZC9nOYJo5SPwI4z5r+X9W+Cu5D6MLAnNbdwHNQg==";
+        };
     in {
         "m1BQjLar" = _m1BQjLar;
         "Ji5RJvT9" = _Ji5RJvT9;
         "JPK04aeO" = _JPK04aeO;
         "y3LeJsvF" = _y3LeJsvF;
         "yyYmKqbA" = _yyYmKqbA;
-        "forge-1.20.1" = _y3LeJsvF;
-        "neoforge-1.21.1" = _yyYmKqbA;
+        "8AcmpdQr" = _8AcmpdQr;
+        "4fyuH5xF" = _4fyuH5xF;
+        "BvfSPX08" = _BvfSPX08;
+        "forge-1.20.1" = _8AcmpdQr;
+        "neoforge-1.21.1" = _4fyuH5xF;
+        "fabric-1.21.1" = _BvfSPX08;
         "pkg-1.0.0" = _Ji5RJvT9;
         "pkg-1.0.1" = _JPK04aeO;
         "pkg-1.1.0" = _yyYmKqbA;
-        "default" = _yyYmKqbA;
+        "pkg-1.2.0" = _BvfSPX08;
+        "default" = _BvfSPX08;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "emf-compat-immersive-melodies";

@@ -191,6 +191,16 @@ let
             "file" = "customguns-v2.3.0.jar";
             "hash" = "sha512-qJIMViRrRLJp9JU6yY0b4/p491F/3b+rpIeDvtWAYLdTvGu83Hvc2J0qTmUgaUix2mr2iBSLwypm82mb7gg2lg==";
         };
+        _hvTiIFNP = {
+            "id" = "hvTiIFNP";
+            "file" = "Custom Guns v2.3.0 - 26.3.zip";
+            "hash" = "sha512-OwTHBqEUVQRa9ddA/e2KWZv1dSZIv33fMSnCQ2EZpu9m6idyIRXyAUtHfTtuKEEd5DeehgPWziqR/qyl/3UZ/w==";
+        };
+        _YgwuPNB3 = {
+            "id" = "YgwuPNB3";
+            "file" = "customguns-v2.3.0.jar";
+            "hash" = "sha512-AUvRjXztznNop6YRVYirXtqubT+B097krcCzvdQdMAo6YYNB7+C1hZBZZ4K7v1lwFVgeYNfLYZAPwxbH/aPi7g==";
+        };
     in {
         "4ZfCCWWU" = _4ZfCCWWU;
         "GaF7LQIp" = _GaF7LQIp;
@@ -230,6 +240,8 @@ let
         "16rbFLd3" = _16rbFLd3;
         "GD0VB2EE" = _GD0VB2EE;
         "NjaYEvw0" = _NjaYEvw0;
+        "hvTiIFNP" = _hvTiIFNP;
+        "YgwuPNB3" = _YgwuPNB3;
         "datapack-1.20.2" = _4ZfCCWWU;
         "datapack-24w14a" = _GaF7LQIp;
         "datapack-1.20.5-pre1" = _GaF7LQIp;
@@ -256,6 +268,7 @@ let
         "datapack-26.1.1" = _GD0VB2EE;
         "datapack-26.1.2" = _GD0VB2EE;
         "datapack-26.2" = _GD0VB2EE;
+        "datapack-26.3" = _hvTiIFNP;
         "fabric-1.20.5" = _xfirGXFw;
         "fabric-1.20.6" = _xfirGXFw;
         "fabric-1.21" = _GtjAOHAL;
@@ -273,6 +286,7 @@ let
         "fabric-26.1.1" = _NjaYEvw0;
         "fabric-26.1.2" = _NjaYEvw0;
         "fabric-26.2" = _NjaYEvw0;
+        "fabric-26.3" = _YgwuPNB3;
         "forge-1.20.5" = _xfirGXFw;
         "forge-1.20.6" = _xfirGXFw;
         "forge-1.21" = _GtjAOHAL;
@@ -290,6 +304,7 @@ let
         "forge-26.1.1" = _NjaYEvw0;
         "forge-26.1.2" = _NjaYEvw0;
         "forge-26.2" = _NjaYEvw0;
+        "forge-26.3" = _YgwuPNB3;
         "quilt-1.20.5" = _xfirGXFw;
         "quilt-1.20.6" = _xfirGXFw;
         "quilt-1.21" = _GtjAOHAL;
@@ -307,6 +322,7 @@ let
         "quilt-26.1.1" = _NjaYEvw0;
         "quilt-26.1.2" = _NjaYEvw0;
         "quilt-26.2" = _NjaYEvw0;
+        "quilt-26.3" = _YgwuPNB3;
         "neoforge-1.21.2" = _SSJzO1GD;
         "neoforge-1.21.3" = _SSJzO1GD;
         "neoforge-1.21.5" = _XQObhzyd;
@@ -322,6 +338,7 @@ let
         "neoforge-26.1.1" = _NjaYEvw0;
         "neoforge-26.1.2" = _NjaYEvw0;
         "neoforge-26.2" = _NjaYEvw0;
+        "neoforge-26.3" = _YgwuPNB3;
         "pkg-1.0.1" = _4ZfCCWWU;
         "pkg-v2.0.0" = _GaF7LQIp;
         "pkg-2" = _i4IxPibF;
@@ -350,9 +367,9 @@ let
         "pkg-v2.2.8+mod" = _R13P7PAF;
         "pkg-v2.2.9" = _A7Iwo18s;
         "pkg-v2.2.9+mod" = _aJUWbTlb;
-        "pkg-v2.3.0" = _GD0VB2EE;
-        "pkg-v2.3.0+mod" = _NjaYEvw0;
-        "default" = _NjaYEvw0;
+        "pkg-v2.3.0" = _hvTiIFNP;
+        "pkg-v2.3.0+mod" = _YgwuPNB3;
+        "default" = _YgwuPNB3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "customguns";

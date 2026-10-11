@@ -26,18 +26,26 @@ let
             "file" = "end_watchers-1.2-forge-1.20.1.jar";
             "hash" = "sha512-xncTzL+smHljDFiChxX+QIcmeG/NK6umdcxAgJaTDnIPbIzHIIPPeFIM5m1KGKxGoxU5+QUSa68ZfyXkJu5GGA==";
         };
+        _SVdGJtp8 = {
+            "id" = "SVdGJtp8";
+            "file" = "end_watchers-1.3-neoforge-1.21.1.jar";
+            "hash" = "sha512-c6+sK4/AtTO/icRzag5QOQzpOyUPqeZ71rkainBPPeBy4JOjeszPOnrALWubCrcx9MvI50gwPJzRjPV7cUiuBA==";
+        };
     in {
         "unR4nkFA" = _unR4nkFA;
         "7umyy7Tb" = _7umyy7Tb;
         "XEucGIUN" = _XEucGIUN;
         "eZGRrS2C" = _eZGRrS2C;
         "ma1OCP2J" = _ma1OCP2J;
+        "SVdGJtp8" = _SVdGJtp8;
         "neoforge-1.20.6" = _XEucGIUN;
+        "neoforge-1.21.1" = _SVdGJtp8;
         "forge-1.20.1" = _ma1OCP2J;
         "pkg-1.0" = _7umyy7Tb;
         "pkg-1.1" = _eZGRrS2C;
         "pkg-1.2" = _ma1OCP2J;
-        "default" = _ma1OCP2J;
+        "pkg-1.3" = _SVdGJtp8;
+        "default" = _SVdGJtp8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "end-watchers";

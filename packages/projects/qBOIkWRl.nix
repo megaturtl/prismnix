@@ -1,0 +1,126 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _griDJmuy = {
+            "id" = "griDJmuy";
+            "file" = "AsBounty-1.0.0.jar";
+            "hash" = "sha512-pLi3y7h3ruYqDNjwX2Aa37cFHt+b7EOC8c0RV5SRGjZ7GKQhLEq+z+yfaCLGJGIHFfmu6r9VMZ/TJotWyfmInw==";
+        };
+        _jyk0GXgy = {
+            "id" = "jyk0GXgy";
+            "file" = "AsBounty-1.0.0.jar";
+            "hash" = "sha512-ZcqYGIDLTzT3XlVAFxbpA1mH/nhtqrEraxAi6EKqGYIhD81mEuV7CEaju0b4RVHigYCJZ1thE3YlsxJMzsJXog==";
+        };
+        _Mh1znGsM = {
+            "id" = "Mh1znGsM";
+            "file" = "AsBounty-1.0.0.jar";
+            "hash" = "sha512-9U0q3KJ64NJ4c9F1jMmBMjAhiEMIPu6DdGx9UTo0CbcSpXQGhuW+R+9WOtKfDVc1oo4MDouNTbMy4MsvuhPUVQ==";
+        };
+    in {
+        "griDJmuy" = _griDJmuy;
+        "jyk0GXgy" = _jyk0GXgy;
+        "Mh1znGsM" = _Mh1znGsM;
+        "bukkit-1.21" = _griDJmuy;
+        "bukkit-1.21.1" = _griDJmuy;
+        "bukkit-1.21.2" = _griDJmuy;
+        "bukkit-1.21.3" = _griDJmuy;
+        "bukkit-1.21.4" = _griDJmuy;
+        "bukkit-1.21.5" = _griDJmuy;
+        "bukkit-1.21.6" = _griDJmuy;
+        "bukkit-1.21.7" = _griDJmuy;
+        "bukkit-1.21.8" = _griDJmuy;
+        "bukkit-1.21.9" = _griDJmuy;
+        "bukkit-1.21.10" = _griDJmuy;
+        "bukkit-1.21.11" = _griDJmuy;
+        "bukkit-26.1" = _jyk0GXgy;
+        "bukkit-26.1.1" = _jyk0GXgy;
+        "bukkit-26.1.2" = _jyk0GXgy;
+        "bukkit-26.2" = _jyk0GXgy;
+        "bukkit-26.3" = _Mh1znGsM;
+        "folia-1.21" = _griDJmuy;
+        "folia-1.21.1" = _griDJmuy;
+        "folia-1.21.2" = _griDJmuy;
+        "folia-1.21.3" = _griDJmuy;
+        "folia-1.21.4" = _griDJmuy;
+        "folia-1.21.5" = _griDJmuy;
+        "folia-1.21.6" = _griDJmuy;
+        "folia-1.21.7" = _griDJmuy;
+        "folia-1.21.8" = _griDJmuy;
+        "folia-1.21.9" = _griDJmuy;
+        "folia-1.21.10" = _griDJmuy;
+        "folia-1.21.11" = _griDJmuy;
+        "folia-26.1" = _jyk0GXgy;
+        "folia-26.1.1" = _jyk0GXgy;
+        "folia-26.1.2" = _jyk0GXgy;
+        "folia-26.2" = _jyk0GXgy;
+        "folia-26.3" = _Mh1znGsM;
+        "paper-1.21" = _griDJmuy;
+        "paper-1.21.1" = _griDJmuy;
+        "paper-1.21.2" = _griDJmuy;
+        "paper-1.21.3" = _griDJmuy;
+        "paper-1.21.4" = _griDJmuy;
+        "paper-1.21.5" = _griDJmuy;
+        "paper-1.21.6" = _griDJmuy;
+        "paper-1.21.7" = _griDJmuy;
+        "paper-1.21.8" = _griDJmuy;
+        "paper-1.21.9" = _griDJmuy;
+        "paper-1.21.10" = _griDJmuy;
+        "paper-1.21.11" = _griDJmuy;
+        "paper-26.1" = _jyk0GXgy;
+        "paper-26.1.1" = _jyk0GXgy;
+        "paper-26.1.2" = _jyk0GXgy;
+        "paper-26.2" = _jyk0GXgy;
+        "paper-26.3" = _Mh1znGsM;
+        "purpur-1.21" = _griDJmuy;
+        "purpur-1.21.1" = _griDJmuy;
+        "purpur-1.21.2" = _griDJmuy;
+        "purpur-1.21.3" = _griDJmuy;
+        "purpur-1.21.4" = _griDJmuy;
+        "purpur-1.21.5" = _griDJmuy;
+        "purpur-1.21.6" = _griDJmuy;
+        "purpur-1.21.7" = _griDJmuy;
+        "purpur-1.21.8" = _griDJmuy;
+        "purpur-1.21.9" = _griDJmuy;
+        "purpur-1.21.10" = _griDJmuy;
+        "purpur-1.21.11" = _griDJmuy;
+        "purpur-26.1" = _jyk0GXgy;
+        "purpur-26.1.1" = _jyk0GXgy;
+        "purpur-26.1.2" = _jyk0GXgy;
+        "purpur-26.2" = _jyk0GXgy;
+        "spigot-1.21" = _griDJmuy;
+        "spigot-1.21.1" = _griDJmuy;
+        "spigot-1.21.2" = _griDJmuy;
+        "spigot-1.21.3" = _griDJmuy;
+        "spigot-1.21.4" = _griDJmuy;
+        "spigot-1.21.5" = _griDJmuy;
+        "spigot-1.21.6" = _griDJmuy;
+        "spigot-1.21.7" = _griDJmuy;
+        "spigot-1.21.8" = _griDJmuy;
+        "spigot-1.21.9" = _griDJmuy;
+        "spigot-1.21.10" = _griDJmuy;
+        "spigot-1.21.11" = _griDJmuy;
+        "spigot-26.1" = _jyk0GXgy;
+        "spigot-26.1.1" = _jyk0GXgy;
+        "spigot-26.1.2" = _jyk0GXgy;
+        "spigot-26.2" = _jyk0GXgy;
+        "spigot-26.3" = _Mh1znGsM;
+        "pkg-1.0.0" = _Mh1znGsM;
+        "default" = _Mh1znGsM;
+    });
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "asbounty";
+        id = "qBOIkWRl";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = null;
+            };
+        };
+    };
+in callPackage fn {}

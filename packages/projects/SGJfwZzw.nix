@@ -146,6 +146,26 @@ let
             "file" = "jeremyseqsdamageindicators-2.2.1-1.21.1-fabric.jar";
             "hash" = "sha512-KnY7rXjtdid/oub79GRtYxgfmz3JR7AWbfVz6Bmhyjz87rFiUFLhoug7PB5DlA4KfgLZJ/9zSr8LPZAEEM8dVg==";
         };
+        _Fx24woCQ = {
+            "id" = "Fx24woCQ";
+            "file" = "jdamageindicators-fabric-1.20.1-2.3.0.jar";
+            "hash" = "sha512-5WrHsnKZ+IP6LK+qWf0P3MQ5UxQ9UAG0gde92PH1aPYOlw0QAt43VjwLBCebrVOs+cBioXubywIyyYqd8XYSQQ==";
+        };
+        _UL0okkRK = {
+            "id" = "UL0okkRK";
+            "file" = "jdamageindicators-forge-1.20.1-2.3.0.jar";
+            "hash" = "sha512-J2wp6DXvoy21wNwAFOG8Kl3J+6XgGSKOoL2tDIMYaqopeEorfYb7m9a/TVToxeGORtacAKuRkAMIrTAGnfZegg==";
+        };
+        _b6u5OYfY = {
+            "id" = "b6u5OYfY";
+            "file" = "jdamageindicators-fabric-1.21.1-2.3.0.jar";
+            "hash" = "sha512-JPrSyD63y+IVw+qbcHb/tZeCkVe4/NDsJXRWEX3eCBTfVrRRToO4IsXI3BrJM3gcwXk7p2ToE6uSVgw2HQR72A==";
+        };
+        _txbDikTJ = {
+            "id" = "txbDikTJ";
+            "file" = "jdamageindicators-neoforge-1.21.1-2.3.0.jar";
+            "hash" = "sha512-YlM6yLCpk+D198LJlCOLymjR07gtKnhrjYGNS+BmL89ZvUPX6/9jCGJ2xv5b4Ie9tsX1He/EyLoeQpvT/A17Lw==";
+        };
     in {
         "Hb3pK65e" = _Hb3pK65e;
         "dhJns6qT" = _dhJns6qT;
@@ -176,16 +196,20 @@ let
         "dI93WDeZ" = _dI93WDeZ;
         "zzI9fyct" = _zzI9fyct;
         "jTn2oYV2" = _jTn2oYV2;
+        "Fx24woCQ" = _Fx24woCQ;
+        "UL0okkRK" = _UL0okkRK;
+        "b6u5OYfY" = _b6u5OYfY;
+        "txbDikTJ" = _txbDikTJ;
         "forge-1.19.2" = _P9RxpsyV;
         "forge-1.19.4" = _xqK3ehGC;
-        "forge-1.20.1" = _f0h68G96;
+        "forge-1.20.1" = _UL0okkRK;
         "forge-1.20.4" = _eStknogH;
         "forge-1.20.6" = _jELgtnKO;
         "forge-1.21" = _ZeyUpZQg;
         "forge-1.21.1" = _ZeyUpZQg;
-        "neoforge-1.21.1" = _dI93WDeZ;
-        "fabric-1.20.1" = _zzI9fyct;
-        "fabric-1.21.1" = _jTn2oYV2;
+        "neoforge-1.21.1" = _txbDikTJ;
+        "fabric-1.20.1" = _Fx24woCQ;
+        "fabric-1.21.1" = _b6u5OYfY;
         "pkg-1.0.0-1.19.2" = _Hb3pK65e;
         "pkg-1.0.0-1.19.4" = _dhJns6qT;
         "pkg-1.0.0-1.20.1" = _fMkbgDRw;
@@ -213,7 +237,9 @@ let
         "pkg-2.2.1-1.20.6" = _jELgtnKO;
         "pkg-2.2.1-1.21" = _ZeyUpZQg;
         "pkg-2.2.1-1.21.1" = _jTn2oYV2;
-        "default" = _jTn2oYV2;
+        "pkg-2.3.0-1.20.1" = _UL0okkRK;
+        "pkg-2.3.0-1.21.1" = _txbDikTJ;
+        "default" = _txbDikTJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jeremyseqs-damage-indicator";

@@ -46,6 +46,16 @@ let
             "file" = "SMP Basics 26.2 Fixed.zip";
             "hash" = "sha512-u9iQroFYfFls2kn7ZyqAHthsaaGknBSm2loDHkVKs3TZz2DAf0qWwZz68UVaGqOm9LXNIf9UIFqaXVz7Ws22YA==";
         };
+        _pZ6px3wh = {
+            "id" = "pZ6px3wh";
+            "file" = "SMP Basics 26.3.zip";
+            "hash" = "sha512-Qr8C+Tp1OBjVd7fUhMh6rGtXxxOza2koERmzR/+J6i+AbXJnp4H886QFoN540CsTerHCFlzGrf+qZ3MMqgj58A==";
+        };
+        _XBoSCUMg = {
+            "id" = "XBoSCUMg";
+            "file" = "SMP Basics 26.3 1.2.zip";
+            "hash" = "sha512-k2K2Gmq+8U1X4sVAa81aLZzQBpqjEiYViHzVutwhDKfhcRCimXrPdkCqLaQkPFfIt0JyK6/DaLA0kAvvg9a2EQ==";
+        };
     in {
         "R52RNzQq" = _R52RNzQq;
         "tQbTziva" = _tQbTziva;
@@ -56,6 +66,8 @@ let
         "AXLUxyzc" = _AXLUxyzc;
         "7GmfK0PD" = _7GmfK0PD;
         "yp2ZXt2L" = _yp2ZXt2L;
+        "pZ6px3wh" = _pZ6px3wh;
+        "XBoSCUMg" = _XBoSCUMg;
         "minecraft-1.21" = _R52RNzQq;
         "minecraft-1.21.1" = _R52RNzQq;
         "minecraft-1.21.4" = _tQbTziva;
@@ -70,9 +82,12 @@ let
         "minecraft-26.1.1" = _AXLUxyzc;
         "minecraft-26.1.2" = _AXLUxyzc;
         "minecraft-26.2" = _yp2ZXt2L;
+        "minecraft-26.3" = _XBoSCUMg;
         "pkg-1.0" = _AXLUxyzc;
         "pkg-26.2" = _yp2ZXt2L;
-        "default" = _yp2ZXt2L;
+        "pkg-26.3" = _pZ6px3wh;
+        "pkg-1.2" = _XBoSCUMg;
+        "default" = _XBoSCUMg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "smp-basics";

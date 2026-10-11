@@ -41,6 +41,11 @@ let
             "file" = "mcef-modern-0.3.3+mc26.2.jcef146.0.10.jar";
             "hash" = "sha512-EkloeBTZBv74qE1C477AurfA4duPfNrT/AOvGWaBB3d+FoPjc9KeX/xEeVWNEVE9KuT0D49Z/XTuJh/05pV01w==";
         };
+        _dwiy9wKy = {
+            "id" = "dwiy9wKy";
+            "file" = "mcef-modern-0.3.3+mc26.3.jcef146.0.10.jar";
+            "hash" = "sha512-STOWwdY+jUojnLW1HTjfeM3ObOpBkkrIDALea7Nsql83X4nTsVlz0zaa8SrUlB4/eG4CX5tKEfM9c3NFLKg+MA==";
+        };
     in {
         "GyWdvfMy" = _GyWdvfMy;
         "bAdvW4p3" = _bAdvW4p3;
@@ -50,12 +55,14 @@ let
         "NfheQM6w" = _NfheQM6w;
         "KY2bRqq2" = _KY2bRqq2;
         "FOXbUPNd" = _FOXbUPNd;
+        "dwiy9wKy" = _dwiy9wKy;
         "fabric-1.21.10" = _ZO7DfjID;
         "fabric-1.21.11" = _NfheQM6w;
         "fabric-26.1" = _KY2bRqq2;
         "fabric-26.1.1" = _XNXrKWCU;
         "fabric-26.1.2" = _XNXrKWCU;
         "fabric-26.2" = _FOXbUPNd;
+        "fabric-26.3" = _dwiy9wKy;
         "pkg-0.3.0+mc1.21.10.jcef135.0.20" = _GyWdvfMy;
         "pkg-0.3.2+mc1.21.10.jcef143.0.14" = _bAdvW4p3;
         "pkg-0.3.2+mc1.21.11.jcef143.0.14" = _pSnBxJpf;
@@ -64,7 +71,8 @@ let
         "pkg-0.3.3+mc1.21.11.jcef146.0.10" = _NfheQM6w;
         "pkg-0.3.3+mc26.1.jcef146.0.10" = _KY2bRqq2;
         "pkg-0.3.3+mc26.2.jcef146.0.10" = _FOXbUPNd;
-        "default" = _FOXbUPNd;
+        "pkg-0.3.3+mc26.3.jcef146.0.10" = _dwiy9wKy;
+        "default" = _dwiy9wKy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mcef-modern";

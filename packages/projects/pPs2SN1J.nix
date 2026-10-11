@@ -31,6 +31,11 @@ let
             "file" = "hotbarrefill-1.2-mc26.2.jar";
             "hash" = "sha512-shZSESc8U+IdsEIt2xD/UsxWXgz3tLgy18a3KqiIF6uMzIwW/5xECYr/yfGY+YsJymJmAxE4Ywj5o2gpEwvtgQ==";
         };
+        _1px611gN = {
+            "id" = "1px611gN";
+            "file" = "hotbarrefill-1.2-mc26.3.jar";
+            "hash" = "sha512-eDP2jmpNvIHhFCh9oOi13JrZA78ue6ZW8i8kKOJl9kk4r7b/cWrxhWb14noqoiQoZOQuvkmT4qiA631d58xeJg==";
+        };
     in {
         "ES8zW44c" = _ES8zW44c;
         "AH1HnaM7" = _AH1HnaM7;
@@ -38,6 +43,7 @@ let
         "xFVgmsR1" = _xFVgmsR1;
         "JdkIw4do" = _JdkIw4do;
         "QsJnzrx1" = _QsJnzrx1;
+        "1px611gN" = _1px611gN;
         "fabric-1.20.1" = _AH1HnaM7;
         "fabric-1.20.2" = _AH1HnaM7;
         "fabric-1.20.3" = _AH1HnaM7;
@@ -60,10 +66,11 @@ let
         "fabric-26.1.1" = _JdkIw4do;
         "fabric-26.1.2" = _JdkIw4do;
         "fabric-26.2" = _QsJnzrx1;
+        "fabric-26.3" = _1px611gN;
         "pkg-1.0" = _ES8zW44c;
         "pkg-1.1" = _AH1HnaM7;
-        "pkg-1.2" = _QsJnzrx1;
-        "default" = _QsJnzrx1;
+        "pkg-1.2" = _1px611gN;
+        "default" = _1px611gN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hotbar-refill";

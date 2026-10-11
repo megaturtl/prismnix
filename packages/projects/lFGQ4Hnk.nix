@@ -851,6 +851,16 @@ let
             "file" = "DarkPaintings-fabric-MC26.2-26.2.0.1.jar";
             "hash" = "sha512-te7H92rSfc9tWBzLLjQg5grNJEk4p3xtC808acIINDiKg+mF/nKrOQb3MH+TxZU1tcnRyyMvINOY4jxtEYpbCg==";
         };
+        _SMj4ifBH = {
+            "id" = "SMj4ifBH";
+            "file" = "DarkPaintings-fabric-MC26.3-26.3.0.1.jar";
+            "hash" = "sha512-Vw1NnlMv1tZ331KQj7ShkLUy6/clAZtCzcO17PSGxWjQ8qCf5O0dTI9/ivIJYeWcyo2a/U7RL+dfdK9y+RJPNg==";
+        };
+        _lbhVhvTE = {
+            "id" = "lbhVhvTE";
+            "file" = "DarkPaintings-neoforge-MC26.3-26.3.0.1.jar";
+            "hash" = "sha512-/1+lG/ljM0CAe6UK9BKrQiGINUbIiTcrjANR33bFwZdFz3dQI1HTpAwe0sKptp2n2tVb6Cshcx1gmKSjCkLY/w==";
+        };
     in {
         "VdOCLDUA" = _VdOCLDUA;
         "1jULLnK5" = _1jULLnK5;
@@ -1022,6 +1032,8 @@ let
         "aN474vp4" = _aN474vp4;
         "cVHbhUWD" = _cVHbhUWD;
         "aymsGrDY" = _aymsGrDY;
+        "SMj4ifBH" = _SMj4ifBH;
+        "lbhVhvTE" = _lbhVhvTE;
         "forge-1.15.2" = _6HoQ936m;
         "forge-1.16.1" = _2q8Ze0qG;
         "forge-1.16.2" = _gbgfVEHx;
@@ -1081,6 +1093,7 @@ let
         "fabric-26.1.1" = _aN474vp4;
         "fabric-26.1.2" = _aN474vp4;
         "fabric-26.2" = _aymsGrDY;
+        "fabric-26.3" = _SMj4ifBH;
         "quilt-1.19" = _UJeOBYeu;
         "quilt-1.19.2" = _fZH4vHqL;
         "quilt-1.19.3" = _d16C5ea6;
@@ -1114,6 +1127,7 @@ let
         "neoforge-26.1.1" = _20ZdBjXY;
         "neoforge-26.1.2" = _20ZdBjXY;
         "neoforge-26.2" = _cVHbhUWD;
+        "neoforge-26.3" = _lbhVhvTE;
         "pkg-1.0.1" = _VdOCLDUA;
         "pkg-1.0.2" = _1jULLnK5;
         "pkg-1.0.4" = _RAKr88lQ;
@@ -1204,7 +1218,8 @@ let
         "pkg-26.1.2.1" = _aU5ZnI6k;
         "pkg-26.1.2.2" = _aN474vp4;
         "pkg-26.2.0.1" = _aymsGrDY;
-        "default" = _aymsGrDY;
+        "pkg-26.3.0.1" = _lbhVhvTE;
+        "default" = _lbhVhvTE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dark-paintings";

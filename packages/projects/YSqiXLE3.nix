@@ -201,6 +201,26 @@ let
             "file" = "cobblebrain-fabric-1.5.3.jar";
             "hash" = "sha512-fF/ske5JMLjd3rKymP61Je+jdb4sAGmwxs3nJ9ONSrMzS84ujxpklMXsqLPT9WU/nIZ7gdVC5KQIpSIiQSYJ4Q==";
         };
+        _U84SosAI = {
+            "id" = "U84SosAI";
+            "file" = "cobblebrain-fabric-1.6.0.jar";
+            "hash" = "sha512-00b+3WPWeiZ/ZhwMd68u2nrUuz43GDywqmR02So1XKaGdukkyxleks9zo5xvm1Mqn0XzMA7B/Oqn/Lw8r8Y7CA==";
+        };
+        _6v2YJR9i = {
+            "id" = "6v2YJR9i";
+            "file" = "cobblebrain-neoforge-1.6.0.jar";
+            "hash" = "sha512-U1+bc2zQvupmrHhZyhM545l+kRBvCbKw79qJxJyoEJz9R23l/J1mijQdUGFW88PG6bMD0ptHe1GKz6CIhQ8aUQ==";
+        };
+        _6FUu5xGB = {
+            "id" = "6FUu5xGB";
+            "file" = "cobblebrain-neoforge-1.6.1.jar";
+            "hash" = "sha512-F+J30hAojWXrlPj8bCPlfAtlmLO7QoK6B25NvgGbDrG6PbYfl7J+PtbwJpngIOz2E1rMQRgsVULkEqnjV2ws8w==";
+        };
+        _ZXiYgKm5 = {
+            "id" = "ZXiYgKm5";
+            "file" = "cobblebrain-fabric-1.6.1.jar";
+            "hash" = "sha512-fY45xXAGgjv+AK4jqgaypju+PG12WiKYNZTEyMv7efTrLrEkFsq0U4VaLQ/v2r4iLmFGDFDNwkgJlCKrfeuScg==";
+        };
     in {
         "T8zj4XeF" = _T8zj4XeF;
         "LBvtkltP" = _LBvtkltP;
@@ -242,8 +262,12 @@ let
         "1gWejmh6" = _1gWejmh6;
         "29P5rI1c" = _29P5rI1c;
         "bOa8d0X8" = _bOa8d0X8;
-        "fabric-1.21.1" = _bOa8d0X8;
-        "neoforge-1.21.1" = _29P5rI1c;
+        "U84SosAI" = _U84SosAI;
+        "6v2YJR9i" = _6v2YJR9i;
+        "6FUu5xGB" = _6FUu5xGB;
+        "ZXiYgKm5" = _ZXiYgKm5;
+        "fabric-1.21.1" = _ZXiYgKm5;
+        "neoforge-1.21.1" = _6FUu5xGB;
         "pkg-0.6.0" = _T8zj4XeF;
         "pkg-0.7.0" = _LBvtkltP;
         "pkg-0.8.0" = _POEijBJQ;
@@ -284,7 +308,11 @@ let
         "pkg-Neoforge-1.5.2" = _1gWejmh6;
         "pkg-Neoforge-1.5.3" = _29P5rI1c;
         "pkg-Fabric-1.5.3" = _bOa8d0X8;
-        "default" = _bOa8d0X8;
+        "pkg-Fabric-1.6.0" = _U84SosAI;
+        "pkg-Neoforge-1.6.0" = _6v2YJR9i;
+        "pkg-Neoforge-1.6.1" = _6FUu5xGB;
+        "pkg-Fabric-1.6.1" = _ZXiYgKm5;
+        "default" = _ZXiYgKm5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblebrain-ai-dialogue-system-for-cobblemon";

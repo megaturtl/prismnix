@@ -91,6 +91,11 @@ let
             "file" = "SmelterTheHedgehog-2.1.1-1.26.2.jar";
             "hash" = "sha512-W/vowyl3oJ4NOOQ5sZBYmMd25K1r0Jpyb+PMkH3HyyFI0YcF5ljecGZvJMwGbYNOJo7kLirwKWp7rp4Ub71ilA==";
         };
+        _1cL7TYLY = {
+            "id" = "1cL7TYLY";
+            "file" = "SmelterTheHedgehog-2.2.0-1.26.3.jar";
+            "hash" = "sha512-NmQTliHvKQmakRVkm3MyaG3xPEgqZeyq43ExCi6f4fuh/NMJfv4hrhdTnhSdqHJEbWxS/6ftbaBLj7gDbxZw/A==";
+        };
     in {
         "9GmSOyxg" = _9GmSOyxg;
         "afvEnc3W" = _afvEnc3W;
@@ -110,6 +115,7 @@ let
         "XlmrohKD" = _XlmrohKD;
         "uuiBPLrU" = _uuiBPLrU;
         "NSI1jDtA" = _NSI1jDtA;
+        "1cL7TYLY" = _1cL7TYLY;
         "fabric-1.20" = _yaes9v8B;
         "fabric-1.20.1" = _yaes9v8B;
         "fabric-1.20.2" = _ZQGdSz6x;
@@ -133,6 +139,7 @@ let
         "fabric-26.1.1" = _XlmrohKD;
         "fabric-26.1.2" = _XlmrohKD;
         "fabric-26.2" = _NSI1jDtA;
+        "fabric-26.3" = _1cL7TYLY;
         "pkg-1.0.0-1.20" = _9GmSOyxg;
         "pkg-1.0.0-1.20.2" = _afvEnc3W;
         "pkg-1.0.0-1.21" = _iuttBqss;
@@ -151,7 +158,8 @@ let
         "pkg-2.0.1-1.26.1" = _XlmrohKD;
         "pkg-2.1.0-1.26.2" = _uuiBPLrU;
         "pkg-2.1.1-1.26.2" = _NSI1jDtA;
-        "default" = _NSI1jDtA;
+        "pkg-2.2.0-1.26.3" = _1cL7TYLY;
+        "default" = _1cL7TYLY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "smelter-the-hedgehog";

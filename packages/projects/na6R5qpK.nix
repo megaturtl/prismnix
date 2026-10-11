@@ -116,6 +116,11 @@ let
             "file" = "Blood Environment[2.2][26.2].zip";
             "hash" = "sha512-zOmbXH5Z9qcQ9U9tdNaforaDMgrciIspI6w3DOp9VMSvv8JQRAKUb5r/55rq8gBRBVqth7VkVjBsuM/5AWfbsw==";
         };
+        _IjUzNFPh = {
+            "id" = "IjUzNFPh";
+            "file" = "Blood Environment[2.2][26.3].zip";
+            "hash" = "sha512-cCutk31psjyzAbgfEIVtfIC2ZXLpQUf4p5hMNgNqLR8zGN8KdJli3Zmwt5GRfEE/Ni3gla7/57UKCzDqHHi7xQ==";
+        };
     in {
         "mR74DEZu" = _mR74DEZu;
         "gTKdwzC3" = _gTKdwzC3;
@@ -140,6 +145,7 @@ let
         "pAZi6hyA" = _pAZi6hyA;
         "ajqkm3Oy" = _ajqkm3Oy;
         "MkAYVu4C" = _MkAYVu4C;
+        "IjUzNFPh" = _IjUzNFPh;
         "minecraft-1.16" = _mR74DEZu;
         "minecraft-1.16.1" = _mR74DEZu;
         "minecraft-1.16.2" = _mR74DEZu;
@@ -179,10 +185,13 @@ let
         "minecraft-26.1.1" = _ajqkm3Oy;
         "minecraft-26.1.2" = _ajqkm3Oy;
         "minecraft-26.2" = _MkAYVu4C;
+        "minecraft-26.3" = _IjUzNFPh;
+        "minecraft-26.4-snapshot-1" = _IjUzNFPh;
+        "minecraft-26.4-snapshot-2" = _IjUzNFPh;
         "pkg-2.0" = _ThFfyGmp;
         "pkg-2.1" = _pAZi6hyA;
-        "pkg-2.2" = _MkAYVu4C;
-        "default" = _MkAYVu4C;
+        "pkg-2.2" = _IjUzNFPh;
+        "default" = _IjUzNFPh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blood-environment";

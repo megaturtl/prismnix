@@ -336,6 +336,16 @@ let
             "file" = "MagnumTorch-v26.2.0-mc26.2.x-NeoForge.jar";
             "hash" = "sha512-QLSNO8un6xi85MpaH2S9UG915G0dhmLo01nG/OB3G2kF/s4/j8tsFGt9fTr0jk/de3P5Jq17e4UHjcoHp6BaqQ==";
         };
+        _cPBvZvag = {
+            "id" = "cPBvZvag";
+            "file" = "magnumtorch-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-RIICUOK6zC0ZkIYx+9M7wwtBEIceAy8SouRj/YYDV1OpR88KEJ077oMxskclYq7j299/EAUZphVWW8D56jLKlg==";
+        };
+        _FfbxVEqL = {
+            "id" = "FfbxVEqL";
+            "file" = "magnumtorch-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-qINdfxu3Xw3+0MOEUy5vK5H218z3tVSx6/GTYvJxB6m5NS3OFvsyJptLHbIWwVbn1wvKWzpvrLXbsNlFmK2m1A==";
+        };
     in {
         "rBYWE9c2" = _rBYWE9c2;
         "BOF4atwx" = _BOF4atwx;
@@ -404,6 +414,8 @@ let
         "TIbKyLET" = _TIbKyLET;
         "HTUPKGMb" = _HTUPKGMb;
         "Gvcc2Prl" = _Gvcc2Prl;
+        "cPBvZvag" = _cPBvZvag;
+        "FfbxVEqL" = _FfbxVEqL;
         "fabric-1.19" = _BsFle2vV;
         "fabric-1.19.1" = _n5QQRSeT;
         "fabric-1.19.2" = _GFyG7nKa;
@@ -428,6 +440,7 @@ let
         "fabric-26.1.1" = _1pdmsPhL;
         "fabric-26.1.2" = _1pdmsPhL;
         "fabric-26.2" = _HTUPKGMb;
+        "fabric-26.3" = _cPBvZvag;
         "forge-1.19" = _3XaBAD5b;
         "forge-1.19.1" = _Fb0Zaoti;
         "forge-1.19.2" = _ZVPHXuR1;
@@ -453,6 +466,7 @@ let
         "neoforge-26.1.1" = _TIbKyLET;
         "neoforge-26.1.2" = _TIbKyLET;
         "neoforge-26.2" = _Gvcc2Prl;
+        "neoforge-26.3" = _FfbxVEqL;
         "pkg-v4.0.0-1.19-Fabric" = _rBYWE9c2;
         "pkg-v4.0.0-1.19-Forge" = _BOF4atwx;
         "pkg-v4.0.1-1.19-Forge" = _3XaBAD5b;
@@ -514,7 +528,8 @@ let
         "pkg-21.11.0" = _ggEj5Dcf;
         "pkg-26.1.0" = _TIbKyLET;
         "pkg-26.2.0" = _Gvcc2Prl;
-        "default" = _Gvcc2Prl;
+        "pkg-26.3.0" = _FfbxVEqL;
+        "default" = _FfbxVEqL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "magnum-torch";

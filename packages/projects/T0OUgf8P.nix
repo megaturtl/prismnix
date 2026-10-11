@@ -141,6 +141,11 @@ let
             "file" = "getittogetherdrops-fabric-26.1.1-1.5.1.jar";
             "hash" = "sha512-mjuupE7m3+9pVwJ3mPeq5nLDwYxUB2wYG5uzGQwm/gnx5Us80TDxYpDncPP2Q5il1d12NwQ/5KoBLQSWMdUNfw==";
         };
+        _tNbrO0HF = {
+            "id" = "tNbrO0HF";
+            "file" = "getittogetherdrops-neoforge-26.3-1.5.2.jar";
+            "hash" = "sha512-hLIdI6/nq7HsHKk4cbQU8DmOBvI+30+RGonRZ+zyebu4QSGPgQzj1DyoZ25S6nfWDmh5LBa1JRRbwTVPWpYv8g==";
+        };
     in {
         "WJuCpwMZ" = _WJuCpwMZ;
         "iQtHmbTD" = _iQtHmbTD;
@@ -170,6 +175,7 @@ let
         "G2xEhDC1" = _G2xEhDC1;
         "4rVrvqip" = _4rVrvqip;
         "BOGqc3kp" = _BOGqc3kp;
+        "tNbrO0HF" = _tNbrO0HF;
         "forge-1.12.2" = _WJuCpwMZ;
         "forge-1.15.2" = _iQtHmbTD;
         "forge-1.16.5" = _k3M3Oi9G;
@@ -249,6 +255,7 @@ let
         "neoforge-26.1.1" = _G2xEhDC1;
         "neoforge-26.1.2" = _G2xEhDC1;
         "neoforge-26.2" = _G2xEhDC1;
+        "neoforge-26.3" = _tNbrO0HF;
         "pkg-v1.0.2" = _WJuCpwMZ;
         "pkg-v1.1.1" = _qohQWe5n;
         "pkg-v1.2" = _k3M3Oi9G;
@@ -259,7 +266,8 @@ let
         "pkg-v1.4" = _rDXEE33H;
         "pkg-v1.5" = _4rVrvqip;
         "pkg-v1.5.1" = _BOGqc3kp;
-        "default" = _BOGqc3kp;
+        "pkg-v1.5.2" = _tNbrO0HF;
+        "default" = _tNbrO0HF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "get-it-together-drops";

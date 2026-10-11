@@ -1206,6 +1206,26 @@ let
             "file" = "gtnhlib-0.11.48.jar";
             "hash" = "sha512-Q9WwqyHj6uBZc3zlgNBAhhbLrWWj6ep43wJQZCKHIs9H/WeO1mjv0MAXCtVrvH5qOaHoCwNZdLn3cbRS48k1tQ==";
         };
+        _FsgTSQDE = {
+            "id" = "FsgTSQDE";
+            "file" = "gtnhlib-0.11.49.jar";
+            "hash" = "sha512-ZJDovee60lAaNnieBr+Z8dwyyyZ2RFZHLu+c8p0wg4Lv/DC6qgohW9S6Ez03qItW63Ts/BwE+pXp8q0hRQQadg==";
+        };
+        _i30ZZ1Yw = {
+            "id" = "i30ZZ1Yw";
+            "file" = "gtnhlib-0.11.50.jar";
+            "hash" = "sha512-kEmui6wKtiDcqXtnfvV+GpZlutctlvTsuuf5gTViNwPuCc3QwbnlSI+eGbiAGKzq0MmXSJn7GmbOqfCjODNEmg==";
+        };
+        _NxlHCf0W = {
+            "id" = "NxlHCf0W";
+            "file" = "gtnhlib-0.11.51.jar";
+            "hash" = "sha512-kcVK2hHG1n3rcHA7OLOwuSpK8Z7WYfGMgcaZ45rmmY8MneKBDC0SkCXSSRwMuunvWscmuvSwLHs7KeO9xSkxKA==";
+        };
+        _SKm08f5m = {
+            "id" = "SKm08f5m";
+            "file" = "gtnhlib-0.11.52.jar";
+            "hash" = "sha512-TDCYFTYkzZLw7h+5ySfgiKgEtNlapAKFGLwjKC3yypwDyNxLCLPD8ukR7jdf0iqd+yvkewCZrG5Hu72kLT5jow==";
+        };
     in {
         "lyEHl5yr" = _lyEHl5yr;
         "Xn4O8qI1" = _Xn4O8qI1;
@@ -1448,7 +1468,11 @@ let
         "7IpjX4qW" = _7IpjX4qW;
         "cFkx4Pry" = _cFkx4Pry;
         "XIdscrkg" = _XIdscrkg;
-        "forge-1.7.10" = _XIdscrkg;
+        "FsgTSQDE" = _FsgTSQDE;
+        "i30ZZ1Yw" = _i30ZZ1Yw;
+        "NxlHCf0W" = _NxlHCf0W;
+        "SKm08f5m" = _SKm08f5m;
+        "forge-1.7.10" = _SKm08f5m;
         "pkg-0.0.6" = _lyEHl5yr;
         "pkg-0.0.13" = _Xn4O8qI1;
         "pkg-0.2.1" = _gKLWh1TA;
@@ -1690,7 +1714,11 @@ let
         "pkg-0.11.46" = _7IpjX4qW;
         "pkg-0.11.47" = _cFkx4Pry;
         "pkg-0.11.48" = _XIdscrkg;
-        "default" = _XIdscrkg;
+        "pkg-0.11.49" = _FsgTSQDE;
+        "pkg-0.11.50" = _i30ZZ1Yw;
+        "pkg-0.11.51" = _NxlHCf0W;
+        "pkg-0.11.52" = _SKm08f5m;
+        "default" = _SKm08f5m;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gtnhlib";

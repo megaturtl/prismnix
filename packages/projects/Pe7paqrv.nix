@@ -171,6 +171,11 @@ let
             "file" = "boundless-1.20.1-fabric-11.1.jar";
             "hash" = "sha512-WujOW8RR00uSnRWvwCc0FwUzlZktge78IjapOnXEcnxJKFUAfM3oAR8MryYvWmxBXsDIXM9fHG5moMMDTpkslA==";
         };
+        _ZRXwfET8 = {
+            "id" = "ZRXwfET8";
+            "file" = "boundless-1.21.1-neo-11.2.jar";
+            "hash" = "sha512-N2kD1AznFHE82lm1UAvpwVHv/+us3x1v1u1tvUn1qOR4kjKsdPKT7iK0vIrnBtdo1swshEjByOKI9qco8BXKlA==";
+        };
     in {
         "yxjpkGDF" = _yxjpkGDF;
         "1yl1pWAX" = _1yl1pWAX;
@@ -206,7 +211,8 @@ let
         "jwX7vJ5n" = _jwX7vJ5n;
         "Tnw5tr2I" = _Tnw5tr2I;
         "yTPhP5ag" = _yTPhP5ag;
-        "neoforge-1.21.1" = _Tnw5tr2I;
+        "ZRXwfET8" = _ZRXwfET8;
+        "neoforge-1.21.1" = _ZRXwfET8;
         "neoforge-1.21.2" = _v9QEcQk9;
         "neoforge-1.20.1" = _ys2XZqv9;
         "forge-1.20.1" = _jwX7vJ5n;
@@ -243,7 +249,8 @@ let
         "pkg-1.20.1-forge-11.1" = _jwX7vJ5n;
         "pkg-1.21.1-Fabric-11.1" = _Tnw5tr2I;
         "pkg-1.20.1-fabric-11.1" = _yTPhP5ag;
-        "default" = _yTPhP5ag;
+        "pkg-1.21.1-neo-11.2" = _ZRXwfET8;
+        "default" = _ZRXwfET8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "boundless-quests";

@@ -61,6 +61,11 @@ let
             "file" = "resonant_synthesis-0.3.0.jar";
             "hash" = "sha512-+vGvl36d+5upASSdwwq03hS2/4z1l9aJMcMEHc4UUz3P3exLgDVF6GJQeUMX4xzzusZt4C0g4JNwPj+XUHIZgA==";
         };
+        _OAQ2mEaM = {
+            "id" = "OAQ2mEaM";
+            "file" = "resonant_synthesis-0.3.1.jar";
+            "hash" = "sha512-roQLjArp6EP5G8jOSdKA2lh9jVkXp8W2sjBQpMsxk5t01ocnwix7HSm0QRq7uxn+nMo3odRpvXEZ/5XSA2IhFA==";
+        };
     in {
         "vGHf0XwX" = _vGHf0XwX;
         "qzRbduDp" = _qzRbduDp;
@@ -74,8 +79,9 @@ let
         "Mqq9NRS2" = _Mqq9NRS2;
         "oYHfy8Nd" = _oYHfy8Nd;
         "sq2R7mSv" = _sq2R7mSv;
+        "OAQ2mEaM" = _OAQ2mEaM;
         "forge-1.20.1" = _oYHfy8Nd;
-        "neoforge-1.21.1" = _sq2R7mSv;
+        "neoforge-1.21.1" = _OAQ2mEaM;
         "pkg-0.1.0" = _vGHf0XwX;
         "pkg-0.2.0" = _qzRbduDp;
         "pkg-0.2.1" = _eWTflzVd;
@@ -87,7 +93,8 @@ let
         "pkg-0.2.7" = _ynovvbPq;
         "pkg-0.3.0-beta.1" = _Mqq9NRS2;
         "pkg-0.3.0" = _sq2R7mSv;
-        "default" = _sq2R7mSv;
+        "pkg-0.3.1-1.21.1" = _OAQ2mEaM;
+        "default" = _OAQ2mEaM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "resonant-synthesis";

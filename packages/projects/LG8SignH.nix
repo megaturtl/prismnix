@@ -61,6 +61,46 @@ let
             "file" = "RecipesLibrary-1.21.1-4.0.1.jar";
             "hash" = "sha512-/j7z9labj6PObJn1pcmBEQdTZfC840sePzS3pG4V/njubm+s6lurvdHHQPbEime5VVFw+wzIPyRpSatZ1E7SFA==";
         };
+        _s1d59AFI = {
+            "id" = "s1d59AFI";
+            "file" = "RecipesLibrary-1.21.2-4.0.1.jar";
+            "hash" = "sha512-Y1ZdgZbSqWSUw26o/hratqPS3U1jCof9PwGaLGuPNvNimmPLmwsN1Gy0M8blDxfvKtUI/DM5nJA4uSwxuhPdMw==";
+        };
+        _iWnZpI8p = {
+            "id" = "iWnZpI8p";
+            "file" = "RecipesLibrary-1.21.11-4.0.1.jar";
+            "hash" = "sha512-ZGaVzB2WSeJmKA9lOO+FRGfYfXiSzNtfm+e2yHdDAT8jlUN70/AVCkrtDKNY1SBCqm1gqh+CyY31QelcokmkGg==";
+        };
+        _wG8dN86S = {
+            "id" = "wG8dN86S";
+            "file" = "RecipesLibrary-26.1-4.0.1.jar";
+            "hash" = "sha512-17vHF6lXnGt3Apz7jNqDpOmLudN0gmv8ew+sFvEXccGwiqWP//KN51+7JWzBJm/bTE5bLTKzwKYJZU1/azFipw==";
+        };
+        _F5q6XPCk = {
+            "id" = "F5q6XPCk";
+            "file" = "RecipesLibrary-1.20.1-2.0.2.jar";
+            "hash" = "sha512-XgpxwBP9M8h1O3g3m+IFev/gKmKdEsDqRcvS77lkBu/rPkvQG4kgRr2mKB7TZOB9osbSXrRsjZXWidCvKbwEXA==";
+        };
+        _S1H3kTNa = {
+            "id" = "S1H3kTNa";
+            "file" = "RecipesLibrary-1.21.1-4.0.2.jar";
+            "hash" = "sha512-TvU7RPDXmLAjeGbQFZh4qAbHAXoVIily+0vVyVy8ILp0mxEsc+jvTQUkvQ3KAGlz+Kv3w9zuzKUVnzBH3q1ZIQ==";
+        };
+        _G5BHJ4Ez = {
+            "id" = "G5BHJ4Ez";
+            "file" = "RecipesLibrary-1.21.2-4.0.2.jar";
+            "hash" = "sha512-v7n5Czv8DCiSaha37Bw0ZBv/RSDT3LStC++aPYDXZcVASb8rbBI6f9wdLFhgOBgjfXBV0MX08A5e7O06lgZ3Lg==";
+        };
+        _BVNcMFep = {
+            "id" = "BVNcMFep";
+            "file" = "RecipesLibrary-1.21.11-4.0.2.jar";
+            "hash" = "sha512-98WZx6+pQ2O+kQU6MlKaG5gWVjRoLILlWULuDiOxsuU09rvGjpSOdNmOB2acVGFQ+gTp0HUJO3w61s4R8WhJZQ==";
+        };
+        _cdzJ3CUg = {
+            "id" = "cdzJ3CUg";
+            "file" = "RecipesLibrary-26.1-4.0.2.jar";
+            "hash" = "sha512-e0Fs51RAMnbPng8oUEPVGMqQ7BCrSKjHS4uJAhz/GLWRw48Z82to70rTKs5a5CE6GeBz8UOfdc6pjd/+QhY67g==";
+        };
     in {
         "p7OHHqlb" = _p7OHHqlb;
         "dFVXnEQl" = _dFVXnEQl;
@@ -74,17 +114,40 @@ let
         "jPohxOI9" = _jPohxOI9;
         "O2vYaKbv" = _O2vYaKbv;
         "9t0yo6Ut" = _9t0yo6Ut;
+        "s1d59AFI" = _s1d59AFI;
+        "iWnZpI8p" = _iWnZpI8p;
+        "wG8dN86S" = _wG8dN86S;
+        "F5q6XPCk" = _F5q6XPCk;
+        "S1H3kTNa" = _S1H3kTNa;
+        "G5BHJ4Ez" = _G5BHJ4Ez;
+        "BVNcMFep" = _BVNcMFep;
+        "cdzJ3CUg" = _cdzJ3CUg;
         "forge-1.17.1" = _p7OHHqlb;
         "forge-1.18.2" = _dFVXnEQl;
         "forge-1.19.4" = _rErYEe0C;
         "forge-1.20" = _m51PN4jE;
-        "forge-1.20.1" = _OtGXMRkh;
+        "forge-1.20.1" = _F5q6XPCk;
         "forge-1.20.2" = _DlYzBDNl;
         "forge-1.20.4" = _siUYXMIq;
         "forge-1.20.6" = _oz3M6fRp;
         "forge-1.21" = _8nrjAG56;
         "forge-1.21.1" = _jPohxOI9;
-        "neoforge-1.21.1" = _9t0yo6Ut;
+        "neoforge-1.21.1" = _S1H3kTNa;
+        "neoforge-1.21.2" = _G5BHJ4Ez;
+        "neoforge-1.21.3" = _G5BHJ4Ez;
+        "neoforge-1.21.4" = _G5BHJ4Ez;
+        "neoforge-1.21.5" = _G5BHJ4Ez;
+        "neoforge-1.21.6" = _G5BHJ4Ez;
+        "neoforge-1.21.7" = _G5BHJ4Ez;
+        "neoforge-1.21.8" = _G5BHJ4Ez;
+        "neoforge-1.21.9" = _G5BHJ4Ez;
+        "neoforge-1.21.10" = _G5BHJ4Ez;
+        "neoforge-1.21.11" = _BVNcMFep;
+        "neoforge-26.1" = _cdzJ3CUg;
+        "neoforge-26.1.1" = _cdzJ3CUg;
+        "neoforge-26.1.2" = _cdzJ3CUg;
+        "neoforge-26.2" = _cdzJ3CUg;
+        "neoforge-26.3" = _cdzJ3CUg;
         "pkg-1.17.1-2.0.0" = _p7OHHqlb;
         "pkg-1.18.2-2.0.0" = _dFVXnEQl;
         "pkg-1.19.4-2.0.1" = _rErYEe0C;
@@ -97,7 +160,15 @@ let
         "pkg-1.21.1-3.0.0" = _jPohxOI9;
         "pkg-1.21.1-4.0.0" = _O2vYaKbv;
         "pkg-1.21.1-4.0.1" = _9t0yo6Ut;
-        "default" = _9t0yo6Ut;
+        "pkg-1.21.2-4.0.1" = _s1d59AFI;
+        "pkg-1.21.11-4.0.1" = _iWnZpI8p;
+        "pkg-26.1-4.0.1" = _wG8dN86S;
+        "pkg-1.20.1-2.0.2" = _F5q6XPCk;
+        "pkg-1.21.1-4.0.2" = _S1H3kTNa;
+        "pkg-1.21.2-4.0.2" = _G5BHJ4Ez;
+        "pkg-1.21.11-4.0.2" = _BVNcMFep;
+        "pkg-26.1-4.0.2" = _cdzJ3CUg;
+        "default" = _cdzJ3CUg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "recipes-library";

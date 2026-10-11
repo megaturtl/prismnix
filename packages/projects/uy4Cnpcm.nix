@@ -6056,6 +6056,46 @@ let
             "file" = "Bookshelf-fabric-MC26.1.2-26.1.2.15.jar";
             "hash" = "sha512-xKmsAlOR4B0cwUhZICVifrFQ6wr8C4YBnCpOw+SLjRtc2m0CbWX1AfBW/wJb/4RT9nB1FYcdkZWy/UXpPiM3Tg==";
         };
+        _ualbMEdC = {
+            "id" = "ualbMEdC";
+            "file" = "Bookshelf-fabric-MC26.3-26.3.0.1.jar";
+            "hash" = "sha512-kvkg0m5B4MdKgxNK84iFyn1mqKxcgpR0EPRxiOfZDnqMAE84Ks5+N8lfxwr37gAZtQAA+kp7hJKhz1OlUGjh2g==";
+        };
+        _d0lm3A2R = {
+            "id" = "d0lm3A2R";
+            "file" = "Bookshelf-neoforge-MC26.3-26.3.0.1.jar";
+            "hash" = "sha512-iOnSiAsTo2foPj6m/kyi3G7rY3jOtOYu0ZB0AC1BZutoOz0hsJxVek3f7sfsSmzZo+QVmVD/D66u5n0gNAbhGw==";
+        };
+        _FbSNteP4 = {
+            "id" = "FbSNteP4";
+            "file" = "Bookshelf-fabric-MC26.3-26.3.0.2.jar";
+            "hash" = "sha512-UrQYGuRYwUn56v7TdbIAnfbT+JmsIv19y41WIOc4JUdmNY/wpWAPWKJtI48fzqmwj6XPw6HGz1sbNljE7NpVvw==";
+        };
+        _a6p5q1uJ = {
+            "id" = "a6p5q1uJ";
+            "file" = "Bookshelf-neoforge-MC26.3-26.3.0.2.jar";
+            "hash" = "sha512-5SjO02As2+NOob19D49TfMtzWFqAZJQscIfAK3AYt/F3ui++OEoQpEwpR+v8k1Jn32dGSN69roZkj+Qy0Ed7fw==";
+        };
+        _f32bC8PD = {
+            "id" = "f32bC8PD";
+            "file" = "Bookshelf-fabric-MC26.3-26.3.0.3.jar";
+            "hash" = "sha512-T3A6kVtkMnYMfciXdb0h+x0Agbj64vudXJ2JvTcCAIweg1sieulz8C44kv2MUAnLYEwz7evCMHCXsEBP78T3QQ==";
+        };
+        _9MhDZaWw = {
+            "id" = "9MhDZaWw";
+            "file" = "Bookshelf-neoforge-MC26.3-26.3.0.3.jar";
+            "hash" = "sha512-bgYLB6aCSD3+cqfZQomddVK3RNea8QbicA9mZ2igADkoHnFrHAPpDKW1or/ZMkbss2t6eRWiGl4GT6KQobexUg==";
+        };
+        _gXFicDKO = {
+            "id" = "gXFicDKO";
+            "file" = "Bookshelf-fabric-MC26.3-26.3.0.4.jar";
+            "hash" = "sha512-/DEO9xfepTIEYeeDKZX6GgdE3MZiGhM/1EoxikqOSxmSjyro7Hxdqiy8RUr4G2h5083BJHprBFx2W1YGggVfbA==";
+        };
+        _JHg3Kz4E = {
+            "id" = "JHg3Kz4E";
+            "file" = "Bookshelf-neoforge-MC26.3-26.3.0.4.jar";
+            "hash" = "sha512-z3IbErbxqhDxj07YyjCZx8eXiDEveYGd0hcmch2LbeQZvxx/58pZi/Agd1yr9GLNcSTv6+RX64Bl9Jy16MdbOw==";
+        };
     in {
         "xjeNGLnn" = _xjeNGLnn;
         "56i8eRKh" = _56i8eRKh;
@@ -7268,6 +7308,14 @@ let
         "LCtizH5g" = _LCtizH5g;
         "YuP6ZYfM" = _YuP6ZYfM;
         "QW2ZBrR2" = _QW2ZBrR2;
+        "ualbMEdC" = _ualbMEdC;
+        "d0lm3A2R" = _d0lm3A2R;
+        "FbSNteP4" = _FbSNteP4;
+        "a6p5q1uJ" = _a6p5q1uJ;
+        "f32bC8PD" = _f32bC8PD;
+        "9MhDZaWw" = _9MhDZaWw;
+        "gXFicDKO" = _gXFicDKO;
+        "JHg3Kz4E" = _JHg3Kz4E;
         "forge-1.7.10" = _oRWvMKUU;
         "forge-1.8.9" = _SMSiMuAU;
         "forge-1.9" = _JKJdxQj1;
@@ -7322,6 +7370,7 @@ let
         "fabric-26.1" = _QW2ZBrR2;
         "fabric-26.1.2" = _QW2ZBrR2;
         "fabric-26.2" = _LCtizH5g;
+        "fabric-26.3" = _gXFicDKO;
         "quilt-1.17.1" = _gr256ktZ;
         "quilt-1.18.1" = _LXRWFfNc;
         "quilt-1.18.2" = _eE9qhKqL;
@@ -7341,6 +7390,7 @@ let
         "neoforge-26.1" = _YuP6ZYfM;
         "neoforge-26.1.2" = _YuP6ZYfM;
         "neoforge-26.2" = _qoYtJsvz;
+        "neoforge-26.3" = _JHg3Kz4E;
         "pkg-1.0.0.15" = _xjeNGLnn;
         "pkg-1.0.1.0" = _56i8eRKh;
         "pkg-1.0.1.44" = _PZGsWc8g;
@@ -8225,7 +8275,11 @@ let
         "pkg-26.2.0.3" = _O2L7IPkn;
         "pkg-26.2.0.4" = _LCtizH5g;
         "pkg-26.1.2.15" = _QW2ZBrR2;
-        "default" = _QW2ZBrR2;
+        "pkg-26.3.0.1" = _d0lm3A2R;
+        "pkg-26.3.0.2" = _a6p5q1uJ;
+        "pkg-26.3.0.3" = _9MhDZaWw;
+        "pkg-26.3.0.4" = _JHg3Kz4E;
+        "default" = _JHg3Kz4E;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bookshelf-lib";

@@ -86,6 +86,11 @@ let
             "file" = "three_in_one_uncrafting_table-1.21.1-neoforge-1.0.5.jar";
             "hash" = "sha512-y3vMXIg2IoJ7Fk/JXdzUQmrE6aNGHkN9Oq4fypkD1uDBdfnCRyXJGukbxnHmBnlPa1CybW1juVkhTHH5P28fHg==";
         };
+        _4pYGoV7o = {
+            "id" = "4pYGoV7o";
+            "file" = "three_in_one_uncrafting_table-1.20.1-1.0.4.jar";
+            "hash" = "sha512-hRqH2bRSwxqTfciQH2ItwUBel0OqCJt0glYzERjhlu89dRAlw4l3P3xEwVbmlbe27lqnTGlDDER8TcI4Op/h7g==";
+        };
     in {
         "GHLC6zgC" = _GHLC6zgC;
         "2VH0hUsf" = _2VH0hUsf;
@@ -104,7 +109,8 @@ let
         "MgzdxqGU" = _MgzdxqGU;
         "xHtK4YKY" = _xHtK4YKY;
         "PrKaV1Op" = _PrKaV1Op;
-        "fabric-1.20.1" = _MgzdxqGU;
+        "4pYGoV7o" = _4pYGoV7o;
+        "fabric-1.20.1" = _4pYGoV7o;
         "fabric-1.21.1" = _xHtK4YKY;
         "fabric-1.21.11" = _v5NSR25c;
         "neoforge-1.21.1" = _PrKaV1Op;
@@ -115,10 +121,10 @@ let
         "pkg-1.0.3" = _ybxuddBf;
         "pkg-1.0.3-beta" = _XyX9UfMM;
         "pkg-1.0.4-beta" = _MgzdxqGU;
-        "pkg-1.0.4" = _HKEVsawK;
+        "pkg-1.0.4" = _4pYGoV7o;
         "pkg-1.0.5-alpha" = _RdU3cVxT;
         "pkg-1.0.5" = _PrKaV1Op;
-        "default" = _PrKaV1Op;
+        "default" = _4pYGoV7o;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "three-in-one-uncrafting-table";

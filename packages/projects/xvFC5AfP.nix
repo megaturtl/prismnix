@@ -41,6 +41,11 @@ let
             "file" = "Smaller_Wind_Charge_26.2.zip";
             "hash" = "sha512-jmRnINJsLpBQxFgj9IdSBPdHcXA8uIvcNLVoM6vNh8FGs8JpHAEPIbQwZlIxwlQAydERMeqC4kux6+8qrfAfRA==";
         };
+        _OCkueFqm = {
+            "id" = "OCkueFqm";
+            "file" = "Smaller_Wind_Charge_26.3.zip";
+            "hash" = "sha512-uMn5X6cYORDRqcMdfiK7eFcKLpjj0mzU4Sr5lCF9pzug+zhW2i4eh2Fqsvs1y4AYlvNtSwWGcbmTi7aUXYIm0g==";
+        };
     in {
         "W5Oc3G4H" = _W5Oc3G4H;
         "8YzKuxjA" = _8YzKuxjA;
@@ -50,6 +55,7 @@ let
         "fMZ9AgS4" = _fMZ9AgS4;
         "lZi0vJQ3" = _lZi0vJQ3;
         "w1uzR5rh" = _w1uzR5rh;
+        "OCkueFqm" = _OCkueFqm;
         "minecraft-1.21" = _W5Oc3G4H;
         "minecraft-1.21.1" = _W5Oc3G4H;
         "minecraft-1.21.2" = _W5Oc3G4H;
@@ -66,6 +72,7 @@ let
         "minecraft-26.1.1" = _lZi0vJQ3;
         "minecraft-26.1.2" = _lZi0vJQ3;
         "minecraft-26.2" = _w1uzR5rh;
+        "minecraft-26.3" = _OCkueFqm;
         "pkg-0.1" = _W5Oc3G4H;
         "pkg-0.2" = _8YzKuxjA;
         "pkg-0.3" = _O9sQipHR;
@@ -73,7 +80,8 @@ let
         "pkg-0.5" = _fMZ9AgS4;
         "pkg-0.7" = _lZi0vJQ3;
         "pkg-0.8" = _w1uzR5rh;
-        "default" = _w1uzR5rh;
+        "pkg-0.9" = _OCkueFqm;
+        "default" = _OCkueFqm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "smaller-wind-charges";

@@ -236,6 +236,11 @@ let
             "file" = "torosautoattack-26.2-1.0.jar";
             "hash" = "sha512-OUSOc2cg8T9onESBTUB8SUXIDiaprLZHY+Af2eqZjPX3FxXZIZVQ363Zr5Te7uouwNBO1bWz2tGB8gG5W/Zr3w==";
         };
+        _A7qeZWfF = {
+            "id" = "A7qeZWfF";
+            "file" = "torosautoattack-26.3-1.0.jar";
+            "hash" = "sha512-OSQSq0ZnWYtyA5dIm80Hf1/IQB0KOOIXY6TF1j3An/fIWwB0N8uyIXrI9FE9+7GA+XL0R1xCFEQB0Rxb3JP57w==";
+        };
     in {
         "S8AU5Gkc" = _S8AU5Gkc;
         "NP6Vtxry" = _NP6Vtxry;
@@ -284,6 +289,7 @@ let
         "8dPzmfvC" = _8dPzmfvC;
         "Aqt0vxOF" = _Aqt0vxOF;
         "WRD4QEEN" = _WRD4QEEN;
+        "A7qeZWfF" = _A7qeZWfF;
         "fabric-1.20.4" = _AucCPbzm;
         "fabric-1.18.2" = _B0kZae0Z;
         "fabric-1.19.4" = _uoImynC0;
@@ -305,7 +311,8 @@ let
         "fabric-26.1.1" = _8dPzmfvC;
         "fabric-26.1.2" = _Aqt0vxOF;
         "fabric-26.2" = _WRD4QEEN;
-        "pkg-1.0" = _WRD4QEEN;
+        "fabric-26.3" = _A7qeZWfF;
+        "pkg-1.0" = _A7qeZWfF;
         "pkg-1.1" = _f3jgc2Bn;
         "pkg-1.2" = _mftHM0Xq;
         "pkg-1.3" = _eewKN13s;
@@ -314,7 +321,7 @@ let
         "pkg-1.6" = _Mb17W9dV;
         "pkg-1.7" = _qk0p0e7U;
         "pkg-1.8" = _AucCPbzm;
-        "default" = _WRD4QEEN;
+        "default" = _A7qeZWfF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "toros-auto-attack";

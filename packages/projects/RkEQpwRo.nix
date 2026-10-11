@@ -111,6 +111,11 @@ let
             "file" = "autothirdperson-1.1.0+1.21.11.jar";
             "hash" = "sha512-QddORlJo89nhq5Bf83KZjvImPiol85IeXk2Ic8sabdg36Cfw74/CPunA5tkBzdHlPIIaHE/GSXeVxaPoJinwAg==";
         };
+        _bBr4llwJ = {
+            "id" = "bBr4llwJ";
+            "file" = "AutoThirdPerson-26.3.jar";
+            "hash" = "sha512-xMlhsW98VNi3R1c1QeZAk0WCkr2aPBB4sbIFCrIPKwwKdgVDbPxNjxtdAcTja7MPFg/KQGl+mXa+DYplPEAS7Q==";
+        };
     in {
         "LcnLF0bD" = _LcnLF0bD;
         "uHmhqLwH" = _uHmhqLwH;
@@ -134,6 +139,7 @@ let
         "N38UjMXu" = _N38UjMXu;
         "19VFlSl0" = _19VFlSl0;
         "rcoGDptY" = _rcoGDptY;
+        "bBr4llwJ" = _bBr4llwJ;
         "fabric-1.21.6" = _LcnLF0bD;
         "fabric-1.21.7" = _uHmhqLwH;
         "fabric-1.21.8" = _fcpvBxvX;
@@ -151,11 +157,13 @@ let
         "fabric-1.20.5" = _GE9VjBa1;
         "fabric-1.20.6" = _GE9VjBa1;
         "fabric-1.21.1" = _28TowPoV;
+        "fabric-26.3" = _bBr4llwJ;
         "forge-26.1" = _p2x7vU6s;
         "forge-26.1.1" = _p2x7vU6s;
         "forge-26.1.2" = _p2x7vU6s;
         "forge-26.2" = _p2x7vU6s;
         "forge-1.20.1" = _2bXFmMOI;
+        "forge-26.3" = _bBr4llwJ;
         "neoforge-26.1" = _N38UjMXu;
         "neoforge-26.1.1" = _N38UjMXu;
         "neoforge-26.1.2" = _N38UjMXu;
@@ -164,9 +172,10 @@ let
         "neoforge-1.21.5" = _NZ4cG3Q1;
         "neoforge-1.21.8" = _19VFlSl0;
         "neoforge-1.21.11" = _rcoGDptY;
-        "pkg-1.0" = _RHHpijIm;
+        "neoforge-26.3" = _bBr4llwJ;
+        "pkg-1.0" = _bBr4llwJ;
         "pkg-1.1" = _rcoGDptY;
-        "default" = _rcoGDptY;
+        "default" = _bBr4llwJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "auto-third-person-official";

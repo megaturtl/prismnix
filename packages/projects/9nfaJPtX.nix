@@ -71,6 +71,31 @@ let
             "file" = "irons_lib-26.1.2-2.1.0.3.jar";
             "hash" = "sha512-y51xFeCBXFQBYQX5EAAled4KU/OQvrjFsavjqcfsfRb/vT/V7fFoHIVI/rSKw0Fk2LEi3yA9IgwJfTiCkqXUnA==";
         };
+        _LCz9eJnc = {
+            "id" = "LCz9eJnc";
+            "file" = "irons_lib-1.21.1-2.1.1.jar";
+            "hash" = "sha512-pEjlV1fPBmAfqTJgrvD/TwgiuZ9T9mCDuU1zE64iXxmytZELcqNZaD/RH3pb5rBbbHPutuvou6zJVKYKy4uZAw==";
+        };
+        _ESO95eEr = {
+            "id" = "ESO95eEr";
+            "file" = "irons_lib-26.1.2-2.1.1.jar";
+            "hash" = "sha512-uNjPRMORV6eajv46IJSpe1HIkE5i146h35R09P2JWh2A9BfIWHSPlJHIOpyeB5ch7mBz+ygKagOHtvnG5o5avg==";
+        };
+        _lUwUKYPl = {
+            "id" = "lUwUKYPl";
+            "file" = "irons_lib-1.21.1-2.2.0.jar";
+            "hash" = "sha512-KnxhhDtXqT2A+WNGnExMrQJ6C/Ebw5ESESREpB2iKDcEVHA3JUzXMvEteBo7ij8X89DUXJZfPrxf6NY62+ahqw==";
+        };
+        _jckjV2ei = {
+            "id" = "jckjV2ei";
+            "file" = "irons_lib-26.1.2-2.2.0.jar";
+            "hash" = "sha512-PHhwOVK90DAEdJ2shfBntBaJGvlv/nts3IM2b2g78DH7eFgtCDrIBaWOKUKr8La7wNlCY4f61nDSeorcG0PP3g==";
+        };
+        _6HqXQkgC = {
+            "id" = "6HqXQkgC";
+            "file" = "irons_lib-1.20.1-2.2.0.jar";
+            "hash" = "sha512-XTzliPaSIzZy9QWeUn+gk6Oj1A8hIakBAapcgVwWd9ydXuygUooBDArW1BeyRJQ/yTW8CT5mr3LJpuGwtnTuqw==";
+        };
     in {
         "8OL8fkBr" = _8OL8fkBr;
         "HtBJ3Dmt" = _HtBJ3Dmt;
@@ -86,9 +111,14 @@ let
         "iQWDmCnb" = _iQWDmCnb;
         "n00NoujC" = _n00NoujC;
         "Amh0zJOl" = _Amh0zJOl;
-        "forge-1.20.1" = _DbpRfa2k;
-        "neoforge-1.21.1" = _sQyzhxuH;
-        "neoforge-26.1.2" = _Amh0zJOl;
+        "LCz9eJnc" = _LCz9eJnc;
+        "ESO95eEr" = _ESO95eEr;
+        "lUwUKYPl" = _lUwUKYPl;
+        "jckjV2ei" = _jckjV2ei;
+        "6HqXQkgC" = _6HqXQkgC;
+        "forge-1.20.1" = _6HqXQkgC;
+        "neoforge-1.21.1" = _lUwUKYPl;
+        "neoforge-26.1.2" = _jckjV2ei;
         "pkg-1.20.1-1.0.0" = _8OL8fkBr;
         "pkg-1.21.1-1.0.0" = _HtBJ3Dmt;
         "pkg-1.20.1-1.0.1" = _cDcVfrkg;
@@ -103,7 +133,12 @@ let
         "pkg-26.1.2-2.1.0" = _iQWDmCnb;
         "pkg-26.1.2-2.1.0.2" = _n00NoujC;
         "pkg-26.1.2-2.1.0.3" = _Amh0zJOl;
-        "default" = _Amh0zJOl;
+        "pkg-1.21.1-2.1.1" = _LCz9eJnc;
+        "pkg-26.1.2-2.1.1" = _ESO95eEr;
+        "pkg-1.21.1-2.2.0" = _lUwUKYPl;
+        "pkg-26.1.2-2.2.0" = _jckjV2ei;
+        "pkg-1.20.1-2.2.0" = _6HqXQkgC;
+        "default" = _6HqXQkgC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "irons-lib";

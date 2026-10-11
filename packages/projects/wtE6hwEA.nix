@@ -166,6 +166,11 @@ let
             "file" = "craftableinvframes-2.4.1.jar";
             "hash" = "sha512-MSvXJscrPcfoRk8iHkocTihJDTckjo2v+sQ+d1YabWwtbD6vyUySdmFitMdOQVpPeet4lvseOnimIArW0vtdug==";
         };
+        _3u8ogZwD = {
+            "id" = "3u8ogZwD";
+            "file" = "craftableinvframes-2.4.2-SNAPSHOT1.jar";
+            "hash" = "sha512-6G7dhbteyPYjjlmEDt91xk6u+JGTOUYWSqBC/q2wTIh+dcfzjcKVefBYpW+ULCx7M0vFLsOxy9H3acjvx3IYyA==";
+        };
     in {
         "iTAiqAol" = _iTAiqAol;
         "Nj4xNMzL" = _Nj4xNMzL;
@@ -200,6 +205,7 @@ let
         "8QJ5bqLE" = _8QJ5bqLE;
         "NZdsT8Tn" = _NZdsT8Tn;
         "snCgr9QJ" = _snCgr9QJ;
+        "3u8ogZwD" = _3u8ogZwD;
         "bukkit-1.18" = _2CKm5VAw;
         "bukkit-1.18.1" = _2CKm5VAw;
         "bukkit-1.18.2" = _2CKm5VAw;
@@ -291,6 +297,7 @@ let
         "paper-1.21.11" = _Hr5pMypq;
         "paper-26.1.2" = _NZdsT8Tn;
         "paper-26.2" = _snCgr9QJ;
+        "paper-26.3" = _3u8ogZwD;
         "spigot-1.18" = _2CKm5VAw;
         "spigot-1.18.1" = _2CKm5VAw;
         "spigot-1.18.2" = _2CKm5VAw;
@@ -382,8 +389,10 @@ let
         "purpur-1.21.11" = _7Sm7uaRu;
         "purpur-26.1.2" = _NZdsT8Tn;
         "purpur-26.2" = _snCgr9QJ;
+        "purpur-26.3" = _3u8ogZwD;
         "folia-26.1.2" = _NZdsT8Tn;
         "folia-26.2" = _snCgr9QJ;
+        "folia-26.3" = _3u8ogZwD;
         "pkg-2.1.4" = _iTAiqAol;
         "pkg-2.1.5" = _Nj4xNMzL;
         "pkg-2.1.6" = _VSjDPSwC;
@@ -413,7 +422,8 @@ let
         "pkg-2.3.4" = _8QJ5bqLE;
         "pkg-2.4.0" = _NZdsT8Tn;
         "pkg-2.4.1" = _snCgr9QJ;
-        "default" = _snCgr9QJ;
+        "pkg-2.4.2-Snapshot1" = _3u8ogZwD;
+        "default" = _3u8ogZwD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "craftableinvframes";

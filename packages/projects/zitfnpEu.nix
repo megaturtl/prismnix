@@ -21,11 +21,17 @@ let
             "file" = "Background - RTX Mineshaft 26.2+.zip";
             "hash" = "sha512-+ODlMpbUqmqtgoP1liLg7EBmfocClvqW4h0f6pF76NwOjoDi4PQW/YDR+MvXKSAZryoPvCuDvL5LamehoycMng==";
         };
+        _gtm1UNFz = {
+            "id" = "gtm1UNFz";
+            "file" = "Background - RTX Mineshaft 26.3+.zip";
+            "hash" = "sha512-v+mjCgtimiwTaAjXDz17bZAD+0t/8ZFzc+sD/FEd0R2Z2i8x9IdqPBtF8Vq+2Btx8HeJfYcJ1vZwXryMTz5A7w==";
+        };
     in {
         "8ueG3ZOC" = _8ueG3ZOC;
         "nypA4s24" = _nypA4s24;
         "zGRLGd4r" = _zGRLGd4r;
         "O7aB9HeD" = _O7aB9HeD;
+        "gtm1UNFz" = _gtm1UNFz;
         "minecraft-1.20" = _8ueG3ZOC;
         "minecraft-1.20.1" = _8ueG3ZOC;
         "minecraft-1.20.2" = _8ueG3ZOC;
@@ -49,11 +55,13 @@ let
         "minecraft-26.1.1" = _zGRLGd4r;
         "minecraft-26.1.2" = _zGRLGd4r;
         "minecraft-26.2" = _O7aB9HeD;
+        "minecraft-26.3" = _gtm1UNFz;
         "pkg-1.0" = _8ueG3ZOC;
         "pkg-1.1" = _nypA4s24;
         "pkg-1.2" = _zGRLGd4r;
         "pkg-1.3" = _O7aB9HeD;
-        "default" = _O7aB9HeD;
+        "pkg-1.4" = _gtm1UNFz;
+        "default" = _gtm1UNFz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "background-rtx-mineshaft";

@@ -436,6 +436,7 @@ let
         "bukkit-26.1.1" = _fO8gas7m;
         "bukkit-26.1.2" = _fO8gas7m;
         "bukkit-26.2" = _fO8gas7m;
+        "bukkit-26.3" = _fO8gas7m;
         "paper-1.8" = _fO8gas7m;
         "paper-1.8.1" = _fO8gas7m;
         "paper-1.8.2" = _fO8gas7m;
@@ -510,6 +511,7 @@ let
         "paper-26.1.1" = _fO8gas7m;
         "paper-26.1.2" = _fO8gas7m;
         "paper-26.2" = _fO8gas7m;
+        "paper-26.3" = _fO8gas7m;
         "spigot-1.8" = _fO8gas7m;
         "spigot-1.8.1" = _fO8gas7m;
         "spigot-1.8.2" = _fO8gas7m;
@@ -584,6 +586,7 @@ let
         "spigot-26.1.1" = _fO8gas7m;
         "spigot-26.1.2" = _fO8gas7m;
         "spigot-26.2" = _fO8gas7m;
+        "spigot-26.3" = _fO8gas7m;
         "purpur-1.8" = _fO8gas7m;
         "purpur-1.8.1" = _fO8gas7m;
         "purpur-1.8.2" = _fO8gas7m;
@@ -658,6 +661,7 @@ let
         "purpur-26.1.1" = _fO8gas7m;
         "purpur-26.1.2" = _fO8gas7m;
         "purpur-26.2" = _fO8gas7m;
+        "purpur-26.3" = _fO8gas7m;
         "pkg-1.1.5" = _IgbNQA2n;
         "pkg-1.1.6f" = _hSaydK38;
         "pkg-1.1.7" = _ZthhhfeB;

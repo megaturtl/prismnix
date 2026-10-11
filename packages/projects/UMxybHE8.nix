@@ -2151,6 +2151,21 @@ let
             "file" = "minihud-fabric-26.2-0.40.7.jar";
             "hash" = "sha512-Jw7hgyv/sBDGn1yi8K9rzP0jAGkm40bYzWb0biLQvOvJDgd16p0ATtJ4f64pCxLBFMPvCvHBipR4VrXFYbkI8w==";
         };
+        _tU5dpGKw = {
+            "id" = "tU5dpGKw";
+            "file" = "minihud-fabric-26.3-0.41.0.jar";
+            "hash" = "sha512-6kv7C3yOW7IUcCNd9rLOt0hKgtyFQ7xxMeOMCXkswox4Jjv5zdhL8q5Ue/HabIwk0ZO2qeIAGEQl1fEo/xBx0Q==";
+        };
+        _XJPHdWmz = {
+            "id" = "XJPHdWmz";
+            "file" = "minihud-fabric-26.3-0.41.1.jar";
+            "hash" = "sha512-Xfe3thV2Oyx2Cxm/TxKa8A3UmzGelY5tMSopv9bg62jgSVuzHk/h90uSoZyUAtP+SYZ0vFhT8l6hUE1VBxVFPA==";
+        };
+        _WfIgkxnf = {
+            "id" = "WfIgkxnf";
+            "file" = "minihud-fabric-26.3-0.41.2.jar";
+            "hash" = "sha512-vGkVKni0twwGVBX/ZpXPUoXXaeM+jbwhCdZFwBLMgRtVNJlmv0WY7apRSGnK7R/dOOF1ByOUEPdnQNf9ZrjFGA==";
+        };
     in {
         "3HlbsRSK" = _3HlbsRSK;
         "14DzH1N6" = _14DzH1N6;
@@ -2582,6 +2597,9 @@ let
         "EAAbwohB" = _EAAbwohB;
         "U1vpCrw9" = _U1vpCrw9;
         "K5zZmb6o" = _K5zZmb6o;
+        "tU5dpGKw" = _tU5dpGKw;
+        "XJPHdWmz" = _XJPHdWmz;
+        "WfIgkxnf" = _WfIgkxnf;
         "forge-1.9" = _usdfZutZ;
         "forge-1.8.9" = _ZCirikWd;
         "forge-1.8" = _30D9M9E9;
@@ -2678,6 +2696,7 @@ let
         "fabric-26.1.1" = _U1vpCrw9;
         "fabric-26.1.2" = _U1vpCrw9;
         "fabric-26.2" = _K5zZmb6o;
+        "fabric-26.3" = _WfIgkxnf;
         "ornithe-1.12.2" = _lG1Yn0gb;
         "pkg-0.1.0" = _5efJzUCt;
         "pkg-0.2.0" = _rcyw4PH1;
@@ -2940,13 +2959,13 @@ let
         "pkg-0.22.0" = _FMksynOc;
         "pkg-0.22.0-infolineblocklightonly.1" = _6V3ZDpJH;
         "pkg-0.40.0" = _WCwdUTyu;
-        "pkg-0.41.0" = _TM6Si4mc;
+        "pkg-0.41.0" = _tU5dpGKw;
         "pkg-0.22.1-test.1" = _SqQqd6Vq;
         "pkg-0.23.0-pre.1" = _zqhty850;
         "pkg-0.23.0" = _w2h5szUG;
         "pkg-0.22.1" = _KrxnIkCA;
         "pkg-0.23.1" = _ryTiW46f;
-        "pkg-0.41.1" = _mCZPGkQp;
+        "pkg-0.41.1" = _XJPHdWmz;
         "pkg-0.23.2" = _TtD3hE7y;
         "pkg-0.23.3" = _lubuVpiX;
         "pkg-0.24.0-pre.1" = _F3fU1RRz;
@@ -3056,7 +3075,8 @@ let
         "pkg-0.38.16" = _EAAbwohB;
         "pkg-0.39.11" = _U1vpCrw9;
         "pkg-0.40.7" = _K5zZmb6o;
-        "default" = _K5zZmb6o;
+        "pkg-0.41.2" = _WfIgkxnf;
+        "default" = _WfIgkxnf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "minihud";

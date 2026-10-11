@@ -26,24 +26,32 @@ let
             "file" = "loadstone-3.0.jar";
             "hash" = "sha512-+TRSaNqnq7Hl1ZWUEkP+9NrrLkDz80zqTNuAAXSvAXaOXT/X1CQWkvu1JsNq6fxFz0nWZjbyCKfh3QWU9W24Lw==";
         };
+        _DRJcaPO6 = {
+            "id" = "DRJcaPO6";
+            "file" = "loadstone-3.0+26.3.jar";
+            "hash" = "sha512-LNeK0p8Rcdkwi83amCIZQZd7+nG7zhzDZhDT73PJMaA/pbt5Zu3g1S40ZhKwfTPO7bLHIeSApP9ZDXhWlM1m4A==";
+        };
     in {
         "UFUmBDEQ" = _UFUmBDEQ;
         "4mJcxDua" = _4mJcxDua;
         "zv1YHjYm" = _zv1YHjYm;
         "QzVxn3gw" = _QzVxn3gw;
         "sikTvnjB" = _sikTvnjB;
+        "DRJcaPO6" = _DRJcaPO6;
         "fabric-1.21.10" = _UFUmBDEQ;
         "fabric-1.21.11" = _4mJcxDua;
         "fabric-26.1" = _zv1YHjYm;
         "fabric-26.1.1" = _zv1YHjYm;
         "fabric-26.1.2" = _zv1YHjYm;
         "fabric-26.2" = _sikTvnjB;
+        "fabric-26.3" = _DRJcaPO6;
         "pkg-1.0" = _UFUmBDEQ;
         "pkg-2.0" = _4mJcxDua;
         "pkg-2.1" = _zv1YHjYm;
         "pkg-2.1+26.2" = _QzVxn3gw;
         "pkg-3.0" = _sikTvnjB;
-        "default" = _sikTvnjB;
+        "pkg-3.0+26.3" = _DRJcaPO6;
+        "default" = _DRJcaPO6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "load-stone";

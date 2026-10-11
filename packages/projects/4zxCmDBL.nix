@@ -231,6 +231,11 @@ let
             "file" = "TheBrewingProject-3.3.3.jar";
             "hash" = "sha512-+mZD7GxU19r6stoVk0jH/rzoBWqYQzRHVGiDovHo7hzl+cxEP+28YZfSmg+3UYaZZNw8cIGIjCaZBISX4J+CUg==";
         };
+        _U5fyH0RU = {
+            "id" = "U5fyH0RU";
+            "file" = "TheBrewingProject-3.4.0-beta.jar";
+            "hash" = "sha512-9Hh/sALbydV/f4vxjh2MWuasKnvG1M23Efmruf8snG9mqEVfKL6gaucqk2C97lpgVe31rDRpJlI1gydYrwnVKA==";
+        };
     in {
         "dERk5u36" = _dERk5u36;
         "KTfEAE8M" = _KTfEAE8M;
@@ -278,6 +283,7 @@ let
         "AYRGQJPi" = _AYRGQJPi;
         "pOOIJsli" = _pOOIJsli;
         "SEgGTh4R" = _SEgGTh4R;
+        "U5fyH0RU" = _U5fyH0RU;
         "paper-1.21.3" = _A2Hclvib;
         "paper-1.21.4" = _A2Hclvib;
         "paper-1.21.5" = _A2Hclvib;
@@ -286,11 +292,12 @@ let
         "paper-1.21" = _A2Hclvib;
         "paper-1.21.1" = _A2Hclvib;
         "paper-1.21.2" = _A2Hclvib;
-        "paper-1.21.8" = _SEgGTh4R;
-        "paper-1.21.9" = _SEgGTh4R;
-        "paper-1.21.10" = _SEgGTh4R;
-        "paper-1.21.11" = _SEgGTh4R;
-        "paper-26.1.2" = _SEgGTh4R;
+        "paper-1.21.8" = _U5fyH0RU;
+        "paper-1.21.9" = _U5fyH0RU;
+        "paper-1.21.10" = _U5fyH0RU;
+        "paper-1.21.11" = _U5fyH0RU;
+        "paper-26.1.2" = _U5fyH0RU;
+        "paper-26.2" = _U5fyH0RU;
         "purpur-1.21" = _A2Hclvib;
         "purpur-1.21.1" = _A2Hclvib;
         "purpur-1.21.2" = _A2Hclvib;
@@ -299,11 +306,12 @@ let
         "purpur-1.21.5" = _A2Hclvib;
         "purpur-1.21.6" = _A2Hclvib;
         "purpur-1.21.7" = _wpag3kq9;
-        "purpur-1.21.8" = _SEgGTh4R;
-        "purpur-1.21.9" = _SEgGTh4R;
-        "purpur-1.21.10" = _SEgGTh4R;
-        "purpur-1.21.11" = _SEgGTh4R;
-        "purpur-26.1.2" = _SEgGTh4R;
+        "purpur-1.21.8" = _U5fyH0RU;
+        "purpur-1.21.9" = _U5fyH0RU;
+        "purpur-1.21.10" = _U5fyH0RU;
+        "purpur-1.21.11" = _U5fyH0RU;
+        "purpur-26.1.2" = _U5fyH0RU;
+        "purpur-26.2" = _U5fyH0RU;
         "pkg-1.3.0" = _dERk5u36;
         "pkg-1.5.0" = _KTfEAE8M;
         "pkg-1.6.3" = _IAjwz87b;
@@ -350,7 +358,8 @@ let
         "pkg-3.3.1" = _AYRGQJPi;
         "pkg-3.3.2" = _pOOIJsli;
         "pkg-3.3.3" = _SEgGTh4R;
-        "default" = _SEgGTh4R;
+        "pkg-3.4.0-beta" = _U5fyH0RU;
+        "default" = _U5fyH0RU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "thebrewingproject";

@@ -71,6 +71,11 @@ let
             "file" = "LRT - Java Texture Pack - RT30.2 - 128x.zip";
             "hash" = "sha512-rfYEGkNUxJ54KT0VwQzc7LyJqTvjd2Iqp45cffQtQ3EN0ry6BuUWLmucXvhpXtoy4kS5El6w0/H/tceiMZA8Gg==";
         };
+        _p1L0f2Aq = {
+            "id" = "p1L0f2Aq";
+            "file" = "LRT - Java Texture Pack - RT30.5 - 128x.zip";
+            "hash" = "sha512-Qa51fA6X3+26n6v1I3VAvyC58IOMt+yvOCaZhRGyCiEpRstY4yTlIZp0TJK1+GMwXwDuMIzHdiOQhLcVlow8zw==";
+        };
     in {
         "iTvj1iw5" = _iTvj1iw5;
         "dCKvVRJc" = _dCKvVRJc;
@@ -86,6 +91,7 @@ let
         "xUKPZZFl" = _xUKPZZFl;
         "9lxdYSY4" = _9lxdYSY4;
         "yvwg7JL2" = _yvwg7JL2;
+        "p1L0f2Aq" = _p1L0f2Aq;
         "minecraft-1.14" = _vPw80oBR;
         "minecraft-1.14.1" = _vPw80oBR;
         "minecraft-1.14.2" = _vPw80oBR;
@@ -117,20 +123,20 @@ let
         "minecraft-1.20.4" = _9lxdYSY4;
         "minecraft-1.20.5" = _9lxdYSY4;
         "minecraft-1.20.6" = _9lxdYSY4;
-        "minecraft-1.21" = _yvwg7JL2;
-        "minecraft-1.21.1" = _yvwg7JL2;
-        "minecraft-1.21.2" = _yvwg7JL2;
-        "minecraft-1.21.3" = _yvwg7JL2;
-        "minecraft-1.21.4" = _yvwg7JL2;
-        "minecraft-1.21.5" = _yvwg7JL2;
-        "minecraft-1.21.6" = _yvwg7JL2;
-        "minecraft-1.21.7" = _yvwg7JL2;
-        "minecraft-1.21.8" = _yvwg7JL2;
-        "minecraft-1.21.9" = _yvwg7JL2;
-        "minecraft-1.21.10" = _yvwg7JL2;
-        "minecraft-1.21.11" = _yvwg7JL2;
-        "minecraft-26.1" = _yvwg7JL2;
-        "minecraft-26.1.1" = _yvwg7JL2;
+        "minecraft-1.21" = _p1L0f2Aq;
+        "minecraft-1.21.1" = _p1L0f2Aq;
+        "minecraft-1.21.2" = _p1L0f2Aq;
+        "minecraft-1.21.3" = _p1L0f2Aq;
+        "minecraft-1.21.4" = _p1L0f2Aq;
+        "minecraft-1.21.5" = _p1L0f2Aq;
+        "minecraft-1.21.6" = _p1L0f2Aq;
+        "minecraft-1.21.7" = _p1L0f2Aq;
+        "minecraft-1.21.8" = _p1L0f2Aq;
+        "minecraft-1.21.9" = _p1L0f2Aq;
+        "minecraft-1.21.10" = _p1L0f2Aq;
+        "minecraft-1.21.11" = _p1L0f2Aq;
+        "minecraft-26.1" = _p1L0f2Aq;
+        "minecraft-26.1.1" = _p1L0f2Aq;
         "minecraft-23w42a" = _9lxdYSY4;
         "minecraft-23w43a" = _9lxdYSY4;
         "minecraft-23w43b" = _9lxdYSY4;
@@ -171,8 +177,9 @@ let
         "minecraft-24w44a" = _9lxdYSY4;
         "minecraft-24w45a" = _9lxdYSY4;
         "minecraft-24w46a" = _9lxdYSY4;
-        "minecraft-26.1.2" = _yvwg7JL2;
-        "minecraft-26.2" = _yvwg7JL2;
+        "minecraft-26.1.2" = _p1L0f2Aq;
+        "minecraft-26.2" = _p1L0f2Aq;
+        "minecraft-26.3" = _p1L0f2Aq;
         "pkg-RT15" = _iTvj1iw5;
         "pkg-RT21" = _dCKvVRJc;
         "pkg-RT22" = _rTVJcMhp;
@@ -187,7 +194,8 @@ let
         "pkg-RT30" = _xUKPZZFl;
         "pkg-RT30.1" = _9lxdYSY4;
         "pkg-RT30.2" = _yvwg7JL2;
-        "default" = _yvwg7JL2;
+        "pkg-30.5" = _p1L0f2Aq;
+        "default" = _p1L0f2Aq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "legendary-rt-textures";

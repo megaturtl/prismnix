@@ -276,6 +276,26 @@ let
             "file" = "compact-fishing-message+1.11+26.2.jar";
             "hash" = "sha512-0ybEPrZ/Dq/ChxycLKRCE2TZjVcmP5R8a32qLvexf66Qk96cEgsroWiE8oVw+MPO05FocJJucV8pgFLNPqL/mQ==";
         };
+        _TMm1BjKA = {
+            "id" = "TMm1BjKA";
+            "file" = "compact-fishing-message+1.12+26.3.jar";
+            "hash" = "sha512-QmEvTbK+3NDKExfBBSak283mAbH/q364NsT1nb9LqCJLVgr2GiIaq5sRvdkhzfayhqkUKA2D9wAhTsriP6tazw==";
+        };
+        _U8hN3ZYz = {
+            "id" = "U8hN3ZYz";
+            "file" = "compact-fishing-message+1.12+26.2.jar";
+            "hash" = "sha512-XDd/qqjZgvBdpMneFCEuH/pg2bA3g1XF8kvr8QCN2z+NHC8XPmkavWb15vSQlqAiE0MX6K7925Iiiwt57gk4AQ==";
+        };
+        _U7lrEWqW = {
+            "id" = "U7lrEWqW";
+            "file" = "compact-fishing-message+1.12+26.1-26.1.2.jar";
+            "hash" = "sha512-imBuiIrdBz2NMPjyP0V4zxUjdqeJhJB25vCfm1nsUtqc26EEX1IAMi5Yw7OMb/l/4LR5PSkV9jJTMX6mTO0hyA==";
+        };
+        _FsIDUPGI = {
+            "id" = "FsIDUPGI";
+            "file" = "compact-fishing-message+1.12+1.21.11.jar";
+            "hash" = "sha512-PQDhl0LWmgYEm25KWR2B0EWB25NeCtQtkmNYmQA0lUXYPHoUAVvktrVY0CKSOMNAIAjwD6e2fu2ijgJCowT3Fw==";
+        };
     in {
         "qKH7sMrR" = _qKH7sMrR;
         "FyDOIidz" = _FyDOIidz;
@@ -332,6 +352,10 @@ let
         "rUDVkaDi" = _rUDVkaDi;
         "gIw6cWC2" = _gIw6cWC2;
         "B7PMUIK2" = _B7PMUIK2;
+        "TMm1BjKA" = _TMm1BjKA;
+        "U8hN3ZYz" = _U8hN3ZYz;
+        "U7lrEWqW" = _U7lrEWqW;
+        "FsIDUPGI" = _FsIDUPGI;
         "fabric-1.21.4" = _vj2r6jqq;
         "fabric-1.21.5" = _5Fvk7uq5;
         "fabric-1.21.1" = _1KttvQCo;
@@ -342,11 +366,12 @@ let
         "fabric-1.21.8" = _nb1PXigT;
         "fabric-1.21.9" = _Y7EsZHs6;
         "fabric-1.21.10" = _Y7EsZHs6;
-        "fabric-1.21.11" = _rUDVkaDi;
-        "fabric-26.1" = _gIw6cWC2;
-        "fabric-26.1.1" = _gIw6cWC2;
-        "fabric-26.1.2" = _gIw6cWC2;
-        "fabric-26.2" = _B7PMUIK2;
+        "fabric-1.21.11" = _FsIDUPGI;
+        "fabric-26.1" = _U7lrEWqW;
+        "fabric-26.1.1" = _U7lrEWqW;
+        "fabric-26.1.2" = _U7lrEWqW;
+        "fabric-26.2" = _U8hN3ZYz;
+        "fabric-26.3" = _TMm1BjKA;
         "pkg-1.0.1" = _FyDOIidz;
         "pkg-1.0.2" = _NpJvLm5P;
         "pkg-1.0.3" = _3lOISBhi;
@@ -366,7 +391,8 @@ let
         "pkg-1.9" = _2Ky8bskP;
         "pkg-1.10" = _gfAEuv8E;
         "pkg-1.11" = _B7PMUIK2;
-        "default" = _B7PMUIK2;
+        "pkg-1.12" = _FsIDUPGI;
+        "default" = _FsIDUPGI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mcci-compact-fishing-message";

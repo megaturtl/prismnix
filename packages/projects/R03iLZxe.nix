@@ -291,6 +291,21 @@ let
             "file" = "survivalfly-1.3.5_fabric-mc26.2.jar";
             "hash" = "sha512-BT4n7YfqU+TcprsHBx/IQuYzpfl6Kxk36rac6YguJkg6xfd98b2lcIG6DtF5tdwaj987e3qfU5TV+Uu1gSKv7w==";
         };
+        _7bWPwcQF = {
+            "id" = "7bWPwcQF";
+            "file" = "survivalfly-1.3.6_fabric-mc26.3.jar";
+            "hash" = "sha512-tFnx0I4g33wU675xjGhnUA3dG0mk7HyQTc775a2HZyaAJ1hnDZpINw6o3FgYOOTkDpn1s1mjqHxTHDbpsmABbQ==";
+        };
+        _dA688jIg = {
+            "id" = "dA688jIg";
+            "file" = "survivalfly-1.3.7_neoforge-mc26.3.jar";
+            "hash" = "sha512-jTdO0PR9qkU32axoWrSA4Z7EYZvyf2QO9tHuXgaKbnFJMXCMRXc5+QwC30df2oscpNTSMGyy3fG3PNMKuclXfw==";
+        };
+        _OMfLtIjl = {
+            "id" = "OMfLtIjl";
+            "file" = "survivalfly-1.3.7_fabric-mc26.3.jar";
+            "hash" = "sha512-RH5y17g2NO3pv5LmosmVR1nn6Zs7DViqyExP/KrNvXGmpVExMHsK1fImu/uok62M/r4sidFkNF+3kllNRZjuvg==";
+        };
     in {
         "7cRtJYpM" = _7cRtJYpM;
         "QljDvzo3" = _QljDvzo3;
@@ -350,6 +365,9 @@ let
         "wMofTD0N" = _wMofTD0N;
         "KNfcG0ZP" = _KNfcG0ZP;
         "Jl7O1USl" = _Jl7O1USl;
+        "7bWPwcQF" = _7bWPwcQF;
+        "dA688jIg" = _dA688jIg;
+        "OMfLtIjl" = _OMfLtIjl;
         "fabric-1.21.5" = _tVhwgYtn;
         "fabric-1.21" = _MHtvyhZQ;
         "fabric-1.21.1" = _czoOe7R7;
@@ -368,6 +386,7 @@ let
         "fabric-26.1.1" = _vb6Lbs4h;
         "fabric-26.1.2" = _vb6Lbs4h;
         "fabric-26.2" = _Jl7O1USl;
+        "fabric-26.3" = _OMfLtIjl;
         "forge-1.20.1" = _g1d5fx0i;
         "forge-1.21.1" = _B4AA3a4W;
         "forge-1.21.3" = _olvCb2u6;
@@ -386,6 +405,7 @@ let
         "neoforge-26.1.2" = _jZoSpL2E;
         "neoforge-1.21.1" = _jXkcIHtb;
         "neoforge-26.2" = _KNfcG0ZP;
+        "neoforge-26.3" = _dA688jIg;
         "pkg-1.0.0" = _QljDvzo3;
         "pkg-1.1.0" = _NxKq98Hp;
         "pkg-1.1.1" = _MHtvyhZQ;
@@ -403,7 +423,9 @@ let
         "pkg-1.3.3" = _qcOqNo3z;
         "pkg-1.3.4" = _wMofTD0N;
         "pkg-1.3.5" = _Jl7O1USl;
-        "default" = _Jl7O1USl;
+        "pkg-1.3.6" = _7bWPwcQF;
+        "pkg-1.3.7" = _OMfLtIjl;
+        "default" = _OMfLtIjl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "survival-fly";

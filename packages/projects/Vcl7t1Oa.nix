@@ -221,6 +221,31 @@ let
             "file" = "MCXboxBroadcastExtension.jar";
             "hash" = "sha512-CDhtzVKyOEiuHv9NSmvUQcHSFV4WEZ1DYsHZvkewRwJ0sCXYplHkYZNRvlCAIeoKN4IeGFFHwr93Np+2bPtI6g==";
         };
+        _LQ4DXQpG = {
+            "id" = "LQ4DXQpG";
+            "file" = "MCXboxBroadcastExtension.jar";
+            "hash" = "sha512-adq78tIaao5m+dyPyFFfDFWyM1UuyqjxUdWD6KJkD9i8/uheSbs5Qc4bLSHOgZUuWfeYy4cCBbpDS1Q4zep3YA==";
+        };
+        _crOmQjwi = {
+            "id" = "crOmQjwi";
+            "file" = "MCXboxBroadcastExtension.jar";
+            "hash" = "sha512-i8Q/RNZo3wuCSTyYGKqwtk/rVJz1xAtIXZ8800dTAcrxtmW6fnQjJRzEGffiGDFk/QJwCtMDOZ3jrXvNQNEw9A==";
+        };
+        _FwiDUUN6 = {
+            "id" = "FwiDUUN6";
+            "file" = "MCXboxBroadcastExtension.jar";
+            "hash" = "sha512-LG88szCqSW10YG3dqonNxelRiio5K3X23gW54dywUXguLde8At17JXBBgxlZLUv3rc83UJ80R6EOSQzDKq5aVQ==";
+        };
+        _FlmWAsBB = {
+            "id" = "FlmWAsBB";
+            "file" = "MCXboxBroadcastExtension.jar";
+            "hash" = "sha512-VuyAARl03Vt/OgiFJcfdRVI+jYZl9lh88vnsVXAdE6jUT39RP7mIHP/kHEGt3Xw0o1qmljcjzBqJnqGM9CXHAw==";
+        };
+        _laiRMgHM = {
+            "id" = "laiRMgHM";
+            "file" = "MCXboxBroadcastExtension.jar";
+            "hash" = "sha512-EkvqmJQdg+onWCgQe24uH9bHRhYP3/LfIGzSxMCrY03t1ARbipWx+BLt9mGDefNeVFfp3ILzskfWoNZjUJa09g==";
+        };
     in {
         "ZcJOFebe" = _ZcJOFebe;
         "fZhuY9hN" = _fZhuY9hN;
@@ -266,12 +291,17 @@ let
         "X1zD5rNI" = _X1zD5rNI;
         "XqdLTMoi" = _XqdLTMoi;
         "s1OAVoyW" = _s1OAVoyW;
+        "LQ4DXQpG" = _LQ4DXQpG;
+        "crOmQjwi" = _crOmQjwi;
+        "FwiDUUN6" = _FwiDUUN6;
+        "FlmWAsBB" = _FlmWAsBB;
+        "laiRMgHM" = _laiRMgHM;
         "geyser-1.21.10" = _oHkGgTYZ;
         "geyser-1.21.11" = _u2egBU50;
         "geyser-26.1" = _MAqjdI2q;
         "geyser-26.1.1" = _MAqjdI2q;
         "geyser-26.1.2" = _MAqjdI2q;
-        "geyser-26.2" = _s1OAVoyW;
+        "geyser-26.2" = _laiRMgHM;
         "pkg-111" = _ZcJOFebe;
         "pkg-112" = _fZhuY9hN;
         "pkg-113" = _vXDboFQ2;
@@ -316,7 +346,12 @@ let
         "pkg-152" = _X1zD5rNI;
         "pkg-153" = _XqdLTMoi;
         "pkg-154" = _s1OAVoyW;
-        "default" = _s1OAVoyW;
+        "pkg-155" = _LQ4DXQpG;
+        "pkg-156" = _crOmQjwi;
+        "pkg-157" = _FwiDUUN6;
+        "pkg-158" = _FlmWAsBB;
+        "pkg-159" = _laiRMgHM;
+        "default" = _laiRMgHM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mcxboxbroadcast";

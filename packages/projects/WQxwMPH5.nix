@@ -56,6 +56,11 @@ let
             "file" = "ImprovedPillagerOutpost-v6.zip";
             "hash" = "sha512-Pq5x5oIEoO4ShwaJw8uRcpJU9s0NQuxEJBALzYdepjCdVW8iGa0LAYqbCAXDEtCVg7aqQ05YwywupJoY+AqPsg==";
         };
+        _U1zuC1Ts = {
+            "id" = "U1zuC1Ts";
+            "file" = "ImprovedPillagerOutpost-v7.jar";
+            "hash" = "sha512-HSez+vjjJiiiqCiYowZSJce4HJbOfeVA2+n+VdFRmo7mxgVQqk3VVHjFuWN2wrXArBmWD3rhBkZXwzCGg72byw==";
+        };
     in {
         "yHjAk9Ax" = _yHjAk9Ax;
         "QRFRFxtk" = _QRFRFxtk;
@@ -68,6 +73,7 @@ let
         "QmgBowqy" = _QmgBowqy;
         "UqNxyorq" = _UqNxyorq;
         "7R3rXTR9" = _7R3rXTR9;
+        "U1zuC1Ts" = _U1zuC1Ts;
         "datapack-1.16.5" = _QmgBowqy;
         "datapack-1.17" = _QmgBowqy;
         "datapack-1.17.1" = _QmgBowqy;
@@ -127,6 +133,11 @@ let
         "fabric-1.21.2" = _UqNxyorq;
         "fabric-1.21.3" = _UqNxyorq;
         "fabric-1.21.4" = _UqNxyorq;
+        "fabric-26.1" = _U1zuC1Ts;
+        "fabric-26.1.1" = _U1zuC1Ts;
+        "fabric-26.1.2" = _U1zuC1Ts;
+        "fabric-26.2" = _U1zuC1Ts;
+        "fabric-26.3" = _U1zuC1Ts;
         "forge-1.16.5" = _UqNxyorq;
         "forge-1.17" = _UqNxyorq;
         "forge-1.17.1" = _UqNxyorq;
@@ -153,6 +164,11 @@ let
         "forge-1.21.2" = _UqNxyorq;
         "forge-1.21.3" = _UqNxyorq;
         "forge-1.21.4" = _UqNxyorq;
+        "forge-26.1" = _U1zuC1Ts;
+        "forge-26.1.1" = _U1zuC1Ts;
+        "forge-26.1.2" = _U1zuC1Ts;
+        "forge-26.2" = _U1zuC1Ts;
+        "forge-26.3" = _U1zuC1Ts;
         "neoforge-1.16.5" = _UqNxyorq;
         "neoforge-1.17" = _UqNxyorq;
         "neoforge-1.17.1" = _UqNxyorq;
@@ -179,6 +195,11 @@ let
         "neoforge-1.21.2" = _UqNxyorq;
         "neoforge-1.21.3" = _UqNxyorq;
         "neoforge-1.21.4" = _UqNxyorq;
+        "neoforge-26.1" = _U1zuC1Ts;
+        "neoforge-26.1.1" = _U1zuC1Ts;
+        "neoforge-26.1.2" = _U1zuC1Ts;
+        "neoforge-26.2" = _U1zuC1Ts;
+        "neoforge-26.3" = _U1zuC1Ts;
         "quilt-1.16.5" = _UqNxyorq;
         "quilt-1.17" = _UqNxyorq;
         "quilt-1.17.1" = _UqNxyorq;
@@ -205,13 +226,19 @@ let
         "quilt-1.21.2" = _UqNxyorq;
         "quilt-1.21.3" = _UqNxyorq;
         "quilt-1.21.4" = _UqNxyorq;
+        "quilt-26.1" = _U1zuC1Ts;
+        "quilt-26.1.1" = _U1zuC1Ts;
+        "quilt-26.1.2" = _U1zuC1Ts;
+        "quilt-26.2" = _U1zuC1Ts;
+        "quilt-26.3" = _U1zuC1Ts;
         "pkg-v1" = _QRFRFxtk;
         "pkg-v2" = _k76EYNnt;
         "pkg-3" = _ljHLpPS7;
         "pkg-4" = _X7YrGibt;
         "pkg-5" = _UqNxyorq;
         "pkg-6" = _7R3rXTR9;
-        "default" = _7R3rXTR9;
+        "pkg-7" = _U1zuC1Ts;
+        "default" = _U1zuC1Ts;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "improved-pillager-outpost";

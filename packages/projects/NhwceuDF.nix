@@ -96,6 +96,36 @@ let
             "file" = "smelting-enchantment-v1.1.0.jar";
             "hash" = "sha512-9juZ3j6nK36kRf3+R1Lv/DNOVldbCkiT63Bg/ujOFSCXlFGC/XyQlEcXDSvFvZlOUyUTcVQaY5tKgg6sR7vXIw==";
         };
+        _puv1FTrx = {
+            "id" = "puv1FTrx";
+            "file" = "Smelting Enchantment v1.1.0 [26.3].zip";
+            "hash" = "sha512-xqpmuLNco33YoSBehl1OJ6gg5j9zQwhlklSpnUxA8GnBDe1eZoLLjGs9Ee5kwO14JQ51MaKfgo0wFrcydE+fRA==";
+        };
+        _kItnOxQa = {
+            "id" = "kItnOxQa";
+            "file" = "smelting-enchantment-1.1.0.jar";
+            "hash" = "sha512-kj4Uhsln521qVyIkTpWKW8IM0tsoinL6VYtpzIIPAjxetOSyAPJhIxBaa+M8WcMGXhJit7tMitNlOQx2xSd6og==";
+        };
+        _zmim4zzK = {
+            "id" = "zmim4zzK";
+            "file" = "Smelting Enchantment v1.2.0 [1.21-1.21.1].zip";
+            "hash" = "sha512-H8ufLxrQkPjf4pSCWuSxjHDYMqGOezjryQmhnk8qx3Bt5aPoKYbWfOII/tL3POnor92X33kuNrQS4hRIeQVOsA==";
+        };
+        _rTwomfyF = {
+            "id" = "rTwomfyF";
+            "file" = "smelting-enchantment-1.2.0.jar";
+            "hash" = "sha512-B7JxVEqzLZIXYUAE78O/kMozz5AwMBEWonnC1NzJpPOtU5FncWRp9UIi/jbzaJ968dlUULO6yuVe0FTHZrO0Ew==";
+        };
+        _Q20JhFK0 = {
+            "id" = "Q20JhFK0";
+            "file" = "Smelting Enchantment v1.2.0 [26.3].zip";
+            "hash" = "sha512-g+FGwQtwGLizZGHopWNibjHgyeFtCdwZVtMS65pIKB/oo+iE0G1nNIcXlDXE5jVBKzLUrYbF2iHXL+HBO1kaPQ==";
+        };
+        _3JGGpXkw = {
+            "id" = "3JGGpXkw";
+            "file" = "smelting-enchantment-1.2.0.jar";
+            "hash" = "sha512-jB2E8ArwXlsVlmghoKYiN7d/HPfFCy9mCZJ9olOYY3R6G1VDugBCSJb2JkGJRLjoxPgeFCdhpM2i3YhVFg5HQg==";
+        };
     in {
         "Jn6wuiXs" = _Jn6wuiXs;
         "HYo1GHkC" = _HYo1GHkC;
@@ -116,8 +146,14 @@ let
         "YgMESWHX" = _YgMESWHX;
         "3r1LFYOv" = _3r1LFYOv;
         "TUISZeFK" = _TUISZeFK;
-        "datapack-1.21" = _LBGgZ1Vw;
-        "datapack-1.21.1" = _LBGgZ1Vw;
+        "puv1FTrx" = _puv1FTrx;
+        "kItnOxQa" = _kItnOxQa;
+        "zmim4zzK" = _zmim4zzK;
+        "rTwomfyF" = _rTwomfyF;
+        "Q20JhFK0" = _Q20JhFK0;
+        "3JGGpXkw" = _3JGGpXkw;
+        "datapack-1.21" = _zmim4zzK;
+        "datapack-1.21.1" = _zmim4zzK;
         "datapack-1.21.2" = _LBGgZ1Vw;
         "datapack-1.21.3" = _LBGgZ1Vw;
         "datapack-1.21.4" = _LBGgZ1Vw;
@@ -132,8 +168,9 @@ let
         "datapack-26.1.1" = _3r1LFYOv;
         "datapack-26.1.2" = _3r1LFYOv;
         "datapack-26.2" = _3r1LFYOv;
-        "fabric-1.21" = _YgMESWHX;
-        "fabric-1.21.1" = _YgMESWHX;
+        "datapack-26.3" = _Q20JhFK0;
+        "fabric-1.21" = _rTwomfyF;
+        "fabric-1.21.1" = _rTwomfyF;
         "fabric-1.21.2" = _YgMESWHX;
         "fabric-1.21.3" = _YgMESWHX;
         "fabric-1.21.4" = _YgMESWHX;
@@ -148,8 +185,9 @@ let
         "fabric-26.1.1" = _TUISZeFK;
         "fabric-26.1.2" = _TUISZeFK;
         "fabric-26.2" = _TUISZeFK;
-        "forge-1.21" = _YgMESWHX;
-        "forge-1.21.1" = _YgMESWHX;
+        "fabric-26.3" = _3JGGpXkw;
+        "forge-1.21" = _rTwomfyF;
+        "forge-1.21.1" = _rTwomfyF;
         "forge-1.21.2" = _YgMESWHX;
         "forge-1.21.3" = _YgMESWHX;
         "forge-1.21.4" = _YgMESWHX;
@@ -164,8 +202,9 @@ let
         "forge-26.1.1" = _TUISZeFK;
         "forge-26.1.2" = _TUISZeFK;
         "forge-26.2" = _TUISZeFK;
-        "neoforge-1.21" = _YgMESWHX;
-        "neoforge-1.21.1" = _YgMESWHX;
+        "forge-26.3" = _3JGGpXkw;
+        "neoforge-1.21" = _rTwomfyF;
+        "neoforge-1.21.1" = _rTwomfyF;
         "neoforge-1.21.2" = _YgMESWHX;
         "neoforge-1.21.3" = _YgMESWHX;
         "neoforge-1.21.4" = _YgMESWHX;
@@ -180,8 +219,9 @@ let
         "neoforge-26.1.1" = _TUISZeFK;
         "neoforge-26.1.2" = _TUISZeFK;
         "neoforge-26.2" = _TUISZeFK;
-        "quilt-1.21" = _YgMESWHX;
-        "quilt-1.21.1" = _YgMESWHX;
+        "neoforge-26.3" = _3JGGpXkw;
+        "quilt-1.21" = _rTwomfyF;
+        "quilt-1.21.1" = _rTwomfyF;
         "quilt-1.21.2" = _YgMESWHX;
         "quilt-1.21.3" = _YgMESWHX;
         "quilt-1.21.4" = _YgMESWHX;
@@ -196,6 +236,7 @@ let
         "quilt-26.1.1" = _TUISZeFK;
         "quilt-26.1.2" = _TUISZeFK;
         "quilt-26.2" = _TUISZeFK;
+        "quilt-26.3" = _3JGGpXkw;
         "pkg-1.0.0" = _Jn6wuiXs;
         "pkg-v1.0.1" = _HYo1GHkC;
         "pkg-v1.0.1+mod" = _eJdETs7d;
@@ -209,7 +250,11 @@ let
         "pkg-v1.0.5+mod" = _aHfwkxHo;
         "pkg-v1.1.0" = _3r1LFYOv;
         "pkg-v1.1.0+mod" = _TUISZeFK;
-        "default" = _TUISZeFK;
+        "pkg-1.1.0" = _puv1FTrx;
+        "pkg-1.1.0+mod" = _kItnOxQa;
+        "pkg-1.2.0" = _Q20JhFK0;
+        "pkg-1.2.0+mod" = _3JGGpXkw;
+        "default" = _3JGGpXkw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "smelting-enchantment";

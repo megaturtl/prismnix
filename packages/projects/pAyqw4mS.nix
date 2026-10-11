@@ -91,6 +91,26 @@ let
             "file" = "cobblemongrassspawn-fabric-2.0.0.jar";
             "hash" = "sha512-/d3gsItzENz0WnMEaOCITjFibmED1emDREq/3Ru8T0jDEDKZyMAnRDli0YEPAVIcd40JW59rliYGLmglBJ4cyQ==";
         };
+        _ag4ySDRz = {
+            "id" = "ag4ySDRz";
+            "file" = "cobblemongrassspawn-fabric-2.1.0+cobblemon1.7.3.jar";
+            "hash" = "sha512-/VFHGVo0ryqm88ehXJaJidap2vDGekVsWoS6rTGD622b38LKCuL4K5S4+ZPWZKqP0cIr6P6Y6/IpB+F8IAYoDg==";
+        };
+        _mXK9FF12 = {
+            "id" = "mXK9FF12";
+            "file" = "cobblemongrassspawn-neoforge-2.1.0+cobblemon1.7.3.jar";
+            "hash" = "sha512-+++S//AwViXmKzwmZI3dX8zQJQEFQwafEKCwEBZvML642ps7JAWMLTIWu/59f66eVqPqZxD0NaJODZqkK1sQqw==";
+        };
+        _gTs2Mcig = {
+            "id" = "gTs2Mcig";
+            "file" = "cobblemongrassspawn-fabric-2.1.0+cobblemon1.8.0.jar";
+            "hash" = "sha512-bLRsGFW2TEniNY/lQnEvu9VrDVQeYH4WJj0HXczZJbMFBqNzdxcCBV9icyEftiWrYd7/+mC9p4blNF3C2hN92g==";
+        };
+        _hBStSmgA = {
+            "id" = "hBStSmgA";
+            "file" = "cobblemongrassspawn-neoforge-2.1.0+cobblemon1.8.0.jar";
+            "hash" = "sha512-fz3FSnkNDwZQJZgklK/VHnuZIbAgJhCH2Nyf6Gi+y12d53Hs0+Z8PK8XPCWGi6q4k2DxM9FaFVCT4bU3YjZ8zQ==";
+        };
     in {
         "xea5VkpI" = _xea5VkpI;
         "GkUwPa2u" = _GkUwPa2u;
@@ -110,8 +130,12 @@ let
         "76unD6Jr" = _76unD6Jr;
         "Fwx0tZPS" = _Fwx0tZPS;
         "RGPT4zb7" = _RGPT4zb7;
-        "neoforge-1.21.1" = _Fwx0tZPS;
-        "fabric-1.21.1" = _RGPT4zb7;
+        "ag4ySDRz" = _ag4ySDRz;
+        "mXK9FF12" = _mXK9FF12;
+        "gTs2Mcig" = _gTs2Mcig;
+        "hBStSmgA" = _hBStSmgA;
+        "neoforge-1.21.1" = _hBStSmgA;
+        "fabric-1.21.1" = _gTs2Mcig;
         "pkg-1.0.0" = _GkUwPa2u;
         "pkg-1.0.1" = _Yl0FaU6I;
         "pkg-1.0.2" = _vweg5DeR;
@@ -121,7 +145,9 @@ let
         "pkg-1.0.6" = _4yJ1HWDk;
         "pkg-1.0.7" = _76unD6Jr;
         "pkg-2.0.0" = _RGPT4zb7;
-        "default" = _RGPT4zb7;
+        "pkg-2.1.0+cobblemon1.7.3" = _mXK9FF12;
+        "pkg-2.1.0+cobblemon1.8.0" = _hBStSmgA;
+        "default" = _hBStSmgA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-wild-spawn";

@@ -51,6 +51,16 @@ let
             "file" = "StickyNotes-0.0.8+26.1.jar";
             "hash" = "sha512-P/zAUMXfMia8KREcMFwHSY4LUrUM3ysf0Rp5xDOGEDLXBABGhc0rbmfqrJhuZrMLYx9BB0BQhJmbSEbOdxbt5Q==";
         };
+        _BsJvv6ov = {
+            "id" = "BsJvv6ov";
+            "file" = "StickyNotes-0.0.8+26.2.jar";
+            "hash" = "sha512-H6QO5DiU1qSRmDHxJpADyqKMH+WAo9AHHNDKZhInlGXUVuaR9Eeu8BcnSVis3KCoD4Mw3H4MeYAMwaZmhjjThw==";
+        };
+        _Uy2peNMU = {
+            "id" = "Uy2peNMU";
+            "file" = "StickyNotes-0.0.8+26.3.jar";
+            "hash" = "sha512-Gqd6IRZ/m3Rcuz06kmkLLWDfAFdOiVY4CSlP04gLXZi7zunq7iYxs64uMTyMBk3GycbuHMsRMQmkOYivR05oug==";
+        };
     in {
         "koZYL94t" = _koZYL94t;
         "zmCcCocR" = _zmCcCocR;
@@ -62,6 +72,8 @@ let
         "Qn4tJDn6" = _Qn4tJDn6;
         "hBQwlyPx" = _hBQwlyPx;
         "AxaPRbqn" = _AxaPRbqn;
+        "BsJvv6ov" = _BsJvv6ov;
+        "Uy2peNMU" = _Uy2peNMU;
         "fabric-1.21.1" = _koZYL94t;
         "fabric-1.21.3" = _zmCcCocR;
         "fabric-1.21.4" = _zfaRhY7I;
@@ -75,6 +87,8 @@ let
         "fabric-26.1" = _AxaPRbqn;
         "fabric-26.1.1" = _AxaPRbqn;
         "fabric-26.1.2" = _AxaPRbqn;
+        "fabric-26.2" = _BsJvv6ov;
+        "fabric-26.3" = _Uy2peNMU;
         "pkg-0.0.7+1.21" = _koZYL94t;
         "pkg-0.0.7+1.21.3" = _zmCcCocR;
         "pkg-0.0.7+1.21.4" = _zfaRhY7I;
@@ -85,7 +99,9 @@ let
         "pkg-0.0.8+1.21.9" = _Qn4tJDn6;
         "pkg-0.0.8+1.21.11" = _hBQwlyPx;
         "pkg-0.0.8+26.1" = _AxaPRbqn;
-        "default" = _AxaPRbqn;
+        "pkg-0.0.8+26.2" = _BsJvv6ov;
+        "pkg-0.0.8+26.3" = _Uy2peNMU;
+        "default" = _Uy2peNMU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stickynotes";

@@ -91,6 +91,36 @@ let
             "file" = "cave_dust-3.3.1+26.2-fabric.jar";
             "hash" = "sha512-ylXQk4wPLVwJFrlCfgOdl7p2DytMKXfdppadfaQqU5SN3EyXd2282q8MqRBxmJRppzXyW4I/ktb/KH2SUAiZ7g==";
         };
+        _RudBCPnL = {
+            "id" = "RudBCPnL";
+            "file" = "cave_dust_rethinking-3.4.0+1.20.1-forge.jar";
+            "hash" = "sha512-xy2ko1f1BMxkvkmgwQca+7KCskfmhzxRwP5UCigOjF9oQyq0aakgCwPcZBpm+N2z45E0Fqz+LTczFjFx10KclQ==";
+        };
+        _lPnsGznY = {
+            "id" = "lPnsGznY";
+            "file" = "cave_dust_rethinking-3.4.0+1.21.1-neoforge.jar";
+            "hash" = "sha512-lXqL0rMqp4RGC08xZ/rEVlYyrn4X+VXIAbmxv9cMlbxnAhQGd2QVY2DCW4KJdWXMzX3FoDjftGaa9qOD+BrGyA==";
+        };
+        _kVAE5J7n = {
+            "id" = "kVAE5J7n";
+            "file" = "cave_dust_rethinking-3.4.0+1.21.11-fabric.jar";
+            "hash" = "sha512-2WPrytemJIIyVUKcv+kV67TWK+cx5P9phMQB4ma5kqyx7FOjT4z80uVl+MZc/Dek9x3aOf9gkaqjKI03AtsM/Q==";
+        };
+        _tpVgYEfM = {
+            "id" = "tpVgYEfM";
+            "file" = "cave_dust_rethinking-3.4.0+26.1.2-neoforge.jar";
+            "hash" = "sha512-dr49Qjis0DnyG05lhcYfAFMKyqXclBCsvRglUxb1Jiy6AMWPohQrXiDnqzPzfo1SISMBFZCEhZDiS4DJX/6IDw==";
+        };
+        _561Azqm2 = {
+            "id" = "561Azqm2";
+            "file" = "cave_dust_rethinking-3.4.0+26.2-fabric.jar";
+            "hash" = "sha512-t4oJ3E2j3JuuIOfLy7iePZs7USN1GyQVcA1x54VMZf03EvLbKHEChLIB7fnf4RA6net7CYoNNWf4cPu6AyIqfg==";
+        };
+        _lnC4TNSD = {
+            "id" = "lnC4TNSD";
+            "file" = "cave_dust_rethinking-3.4.0+26.3-fabric-neoforge.jar";
+            "hash" = "sha512-TJJswYXrXZ8XCQuSBXEsqaOC/6QxO5KLvtx2VZ9y6MSf/c+AGkLane16ahE3FSbQ/vpD9LNqjR1LfvtK82tGdg==";
+        };
     in {
         "98nYJ3PF" = _98nYJ3PF;
         "Hlu9Vof8" = _Hlu9Vof8;
@@ -110,12 +140,20 @@ let
         "yJHBPp2f" = _yJHBPp2f;
         "IdFZYQaD" = _IdFZYQaD;
         "xnwHSzdj" = _xnwHSzdj;
-        "forge-1.20.1" = _2mBCqQ0q;
-        "neoforge-1.21.1" = _jcxbhkXe;
-        "neoforge-26.1.2" = _IdFZYQaD;
-        "fabric-1.21.11" = _yJHBPp2f;
+        "RudBCPnL" = _RudBCPnL;
+        "lPnsGznY" = _lPnsGznY;
+        "kVAE5J7n" = _kVAE5J7n;
+        "tpVgYEfM" = _tpVgYEfM;
+        "561Azqm2" = _561Azqm2;
+        "lnC4TNSD" = _lnC4TNSD;
+        "forge-1.20.1" = _RudBCPnL;
+        "neoforge-1.21.1" = _lPnsGznY;
+        "neoforge-26.1.2" = _tpVgYEfM;
+        "neoforge-26.3" = _lnC4TNSD;
+        "fabric-1.21.11" = _kVAE5J7n;
         "fabric-26.1.1" = _rNLiJtCO;
-        "fabric-26.2" = _xnwHSzdj;
+        "fabric-26.2" = _561Azqm2;
+        "fabric-26.3" = _lnC4TNSD;
         "pkg-3.2.0+1.20.1-forge" = _98nYJ3PF;
         "pkg-3.2.0+1.21.1-neoforge" = _Hlu9Vof8;
         "pkg-3.2.0+1.21.11-fabric" = _6zx1CDuc;
@@ -134,7 +172,13 @@ let
         "pkg-3.3.1+1.21.11-fabric" = _yJHBPp2f;
         "pkg-3.3.1+26.1.2-neoforge" = _IdFZYQaD;
         "pkg-3.3.1+26.2-fabric" = _xnwHSzdj;
-        "default" = _xnwHSzdj;
+        "pkg-3.4.0+1.20.1-forge" = _RudBCPnL;
+        "pkg-3.4.0+1.21.1-neoforge" = _lPnsGznY;
+        "pkg-3.4.0+1.21.11-fabric" = _kVAE5J7n;
+        "pkg-3.4.0+26.1.2-neoforge" = _tpVgYEfM;
+        "pkg-3.4.0+26.2-fabric" = _561Azqm2;
+        "pkg-3.4.0+26.3" = _lnC4TNSD;
+        "default" = _lnC4TNSD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cave-dust-rethinking";

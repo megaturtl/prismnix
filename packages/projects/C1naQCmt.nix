@@ -166,6 +166,31 @@ let
             "file" = "autotrade-fabric-1.21.10-0.0.17.jar";
             "hash" = "sha512-ZIFfAd52FcW79IjM/0bSlHFZXSNCwXeaiIPXpDfRp514BnKuItK3050dhdN7ZgIBmz+QM5jebIu8xA29/oyBug==";
         };
+        _jpvspwos = {
+            "id" = "jpvspwos";
+            "file" = "autotrade-fabric-1.21.11-0.0.18.jar";
+            "hash" = "sha512-HBri66GZvBXXYoPYbGgLovwp197JfIyHMMVNt5cR5+HbpHaRMgmbF/285TRCjJr7C9IJ9dbgV0Do592WNgmhPg==";
+        };
+        _XR7eskx3 = {
+            "id" = "XR7eskx3";
+            "file" = "autotrade-fabric-26.1.2-0.0.18.jar";
+            "hash" = "sha512-8lZCJZztff6IEsTsMviFfUAOJ6i9SSAv4Bj31+Gl8HqEJyVzXoZGiE3LYBDs0kNp+PwPjRPcgzLQNa5gmEuQ/A==";
+        };
+        _9eEkkZ1z = {
+            "id" = "9eEkkZ1z";
+            "file" = "autotrade-fabric-26.2-0.0.18.jar";
+            "hash" = "sha512-yzHA5KUJ5wJniKhf9MBTchNEvw2TOyXCWOQlmKIolmBUTnfy8DJIpZ7kV9oKV9yoiUBsEhJzXN1qxfcFovaHpw==";
+        };
+        _2aDHSvCv = {
+            "id" = "2aDHSvCv";
+            "file" = "autotrade-fabric-1.21.10-0.0.18.jar";
+            "hash" = "sha512-oPF/CUbcyhCGDzprYyPWP3V+NyPZrEiV2FM2N2uGyoyouN18MCh7G5EOhLoQFJuTF6l5vx4HbbIqQHaFczgsOA==";
+        };
+        _xD1JUFUh = {
+            "id" = "xD1JUFUh";
+            "file" = "autotrade-fabric-26.3-0.0.18.jar";
+            "hash" = "sha512-ggLbJAE4zRhZ7VYZH7IugmxBzAnGUgHHjIVGsX04wVktqqM4/62oCoAgAJxdHAMyUg+C2qlIK7PWn8Hsauy/8g==";
+        };
     in {
         "xjzkYZfH" = _xjzkYZfH;
         "lWNrpqDN" = _lWNrpqDN;
@@ -200,16 +225,22 @@ let
         "TunR0xQU" = _TunR0xQU;
         "yZEyxTSW" = _yZEyxTSW;
         "HUcjXwyD" = _HUcjXwyD;
+        "jpvspwos" = _jpvspwos;
+        "XR7eskx3" = _XR7eskx3;
+        "9eEkkZ1z" = _9eEkkZ1z;
+        "2aDHSvCv" = _2aDHSvCv;
+        "xD1JUFUh" = _xD1JUFUh;
         "fabric-1.20" = _e79PzG6A;
         "fabric-1.20.1" = _e79PzG6A;
         "fabric-1.20.2" = _QueBgK7V;
         "fabric-1.20.3" = _WragVyby;
         "fabric-1.20.4" = _WragVyby;
         "fabric-1.19.4" = _XyeQfdtX;
-        "fabric-1.21.11" = _yZEyxTSW;
-        "fabric-26.1.2" = _TunR0xQU;
-        "fabric-1.21.10" = _HUcjXwyD;
-        "fabric-26.2" = _AH45pdeP;
+        "fabric-1.21.11" = _jpvspwos;
+        "fabric-26.1.2" = _XR7eskx3;
+        "fabric-1.21.10" = _2aDHSvCv;
+        "fabric-26.2" = _9eEkkZ1z;
+        "fabric-26.3" = _xD1JUFUh;
         "pkg-0.0.1" = _xjzkYZfH;
         "pkg-0.0.2" = _lWNrpqDN;
         "pkg-0.0.3" = _ISitSSwM;
@@ -225,7 +256,8 @@ let
         "pkg-0.0.14" = _6s9YWghV;
         "pkg-0.0.16" = _TWCshUuZ;
         "pkg-0.0.17" = _HUcjXwyD;
-        "default" = _HUcjXwyD;
+        "pkg-0.0.18" = _xD1JUFUh;
+        "default" = _xD1JUFUh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "autotrade-fabric";

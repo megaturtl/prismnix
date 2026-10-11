@@ -51,6 +51,11 @@ let
             "file" = "sharedinv-1.2.3+26.2.jar";
             "hash" = "sha512-Bpw0bzDGDqpvPtQL7vEOudsmEeqX6I8QpeJ0Sqm+VU00LhPqXVF3wjsBTPvaerJzhjadd1AoTELzddJBzKecAA==";
         };
+        _iZUteHK4 = {
+            "id" = "iZUteHK4";
+            "file" = "sharedinv-1.2.4.jar";
+            "hash" = "sha512-P120leBNrpBln6Xx0gDw7DP+AvmWAVUHv0ZdrJxPYiGt3PjRCvEI36KnuVxYpIpHYbQekkO95t6uMpOM3ALExg==";
+        };
     in {
         "SKvFCgdD" = _SKvFCgdD;
         "CbTpsmUs" = _CbTpsmUs;
@@ -62,6 +67,7 @@ let
         "9akUG6Sk" = _9akUG6Sk;
         "f3AXkl1K" = _f3AXkl1K;
         "dWbgTFSO" = _dWbgTFSO;
+        "iZUteHK4" = _iZUteHK4;
         "fabric-1.21.4" = _XFlgkgyM;
         "fabric-1.21.5" = _zedaAH8F;
         "fabric-1.21.8" = _lx1ivNQH;
@@ -71,6 +77,7 @@ let
         "fabric-26.1.1" = _f3AXkl1K;
         "fabric-26.1.2" = _f3AXkl1K;
         "fabric-26.2" = _dWbgTFSO;
+        "fabric-26.3" = _iZUteHK4;
         "pkg-1.1.2" = _SKvFCgdD;
         "pkg-1.2.0" = _CbTpsmUs;
         "pkg-1.2.1" = _XFlgkgyM;
@@ -81,7 +88,8 @@ let
         "pkg-1.2.2+26.1" = _9akUG6Sk;
         "pkg-1.2.3" = _f3AXkl1K;
         "pkg-1.2.3+26.2" = _dWbgTFSO;
-        "default" = _dWbgTFSO;
+        "pkg-1.2.4" = _iZUteHK4;
+        "default" = _iZUteHK4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sharedinv";

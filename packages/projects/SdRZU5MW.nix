@@ -86,6 +86,16 @@ let
             "file" = "nies-british-weather-1.5.jar";
             "hash" = "sha512-QqBisZ58TkSUdrbKbqazQtKwfQP567r8GGJqOW+cH6S2MRoQ4R5zF10RA+pFM82QHcjSdOQxlXHc3WF2PRFqbA==";
         };
+        _KS3uLcTx = {
+            "id" = "KS3uLcTx";
+            "file" = "Nie's British Weather 26.3.zip";
+            "hash" = "sha512-/L0hPrtD19dFBlKAYlgXlt3xO3tuYibEM/SYHqbboRtBnnbsU/ypBGoKHPqpsbVczpr1psfUzRFQ4GQGrZpphg==";
+        };
+        _Bhe8v6PL = {
+            "id" = "Bhe8v6PL";
+            "file" = "nies-british-weather-1.5.1.jar";
+            "hash" = "sha512-62rjT5kDBZqkdOb0MrGxj8YOjVq1m7y9oqG1Pz9f96gi5w97HbCyrGB8o53R6on8X2PmbGPZhx+llP8Pf2hrxg==";
+        };
     in {
         "c9xdM7wH" = _c9xdM7wH;
         "60wy1Ovq" = _60wy1Ovq;
@@ -104,6 +114,8 @@ let
         "lFb4EWge" = _lFb4EWge;
         "ivmfbfiZ" = _ivmfbfiZ;
         "7F6xJJOE" = _7F6xJJOE;
+        "KS3uLcTx" = _KS3uLcTx;
+        "Bhe8v6PL" = _Bhe8v6PL;
         "datapack-1.21" = _WJayNwL4;
         "datapack-1.21.1" = _WJayNwL4;
         "datapack-1.15" = _jtM6WbIR;
@@ -167,6 +179,7 @@ let
         "datapack-26.1" = _ivmfbfiZ;
         "datapack-26.1.1" = _ivmfbfiZ;
         "datapack-26.1.2" = _ivmfbfiZ;
+        "datapack-26.3" = _KS3uLcTx;
         "fabric-1.15" = _3DQyzJFE;
         "fabric-1.15.1" = _3DQyzJFE;
         "fabric-1.15.2" = _3DQyzJFE;
@@ -206,6 +219,7 @@ let
         "fabric-26.1" = _7F6xJJOE;
         "fabric-26.1.1" = _7F6xJJOE;
         "fabric-26.1.2" = _7F6xJJOE;
+        "fabric-26.3" = _Bhe8v6PL;
         "forge-1.15" = _3DQyzJFE;
         "forge-1.15.1" = _3DQyzJFE;
         "forge-1.15.2" = _3DQyzJFE;
@@ -245,6 +259,7 @@ let
         "forge-26.1" = _7F6xJJOE;
         "forge-26.1.1" = _7F6xJJOE;
         "forge-26.1.2" = _7F6xJJOE;
+        "forge-26.3" = _Bhe8v6PL;
         "neoforge-1.15" = _3DQyzJFE;
         "neoforge-1.15.1" = _3DQyzJFE;
         "neoforge-1.15.2" = _3DQyzJFE;
@@ -284,6 +299,7 @@ let
         "neoforge-26.1" = _7F6xJJOE;
         "neoforge-26.1.1" = _7F6xJJOE;
         "neoforge-26.1.2" = _7F6xJJOE;
+        "neoforge-26.3" = _Bhe8v6PL;
         "quilt-1.15" = _3DQyzJFE;
         "quilt-1.15.1" = _3DQyzJFE;
         "quilt-1.15.2" = _3DQyzJFE;
@@ -323,6 +339,7 @@ let
         "quilt-26.1" = _7F6xJJOE;
         "quilt-26.1.1" = _7F6xJJOE;
         "quilt-26.1.2" = _7F6xJJOE;
+        "quilt-26.3" = _Bhe8v6PL;
         "pkg-1.0" = _c9xdM7wH;
         "pkg-1.1" = _60wy1Ovq;
         "pkg-1.2" = _xvvsvg5O;
@@ -334,7 +351,9 @@ let
         "pkg-1.4+mod" = _yn7noLUW;
         "pkg-1.5" = _ivmfbfiZ;
         "pkg-1.5+mod" = _7F6xJJOE;
-        "default" = _7F6xJJOE;
+        "pkg-1.5.1" = _KS3uLcTx;
+        "pkg-1.5.1+mod" = _Bhe8v6PL;
+        "default" = _Bhe8v6PL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nies-british-weather";

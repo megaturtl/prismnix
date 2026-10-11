@@ -71,6 +71,16 @@ let
             "file" = "hoesarescythes-1.4.1+mc1.21.10.jar";
             "hash" = "sha512-XL3Ts8p3FhkUICU0pJN+HyBT4b/5DudytjFsccCbUprAReuQUi6AjelPqvjoaLDS/Q4l87vRJ/Ru44nyVeU+uQ==";
         };
+        _44d7U5DL = {
+            "id" = "44d7U5DL";
+            "file" = "hoesarescythes-1.5.0+26.1-26.3.jar";
+            "hash" = "sha512-3DYLx2nHGlxQTvv1JFxaao6fUYbteBSTYbLS/hB2AxurNeXheQTFDGstKgIs3G7zVhgyeZZTZcKoRxnVpM9loA==";
+        };
+        _Ld7lvZuc = {
+            "id" = "Ld7lvZuc";
+            "file" = "hoesarescythes-1.6.0+26.1-26.3.jar";
+            "hash" = "sha512-aDjvcUflntQL0pcX1DIvcYK62O62I090nsuvdjKNs23NnrRkjPy3oIwgSXsm0M2MtP04QCdk2Alcx7nWwfq4vg==";
+        };
     in {
         "4BnU8Zsp" = _4BnU8Zsp;
         "BAms42K3" = _BAms42K3;
@@ -86,6 +96,8 @@ let
         "Kc8s8RAf" = _Kc8s8RAf;
         "6vYFCtoZ" = _6vYFCtoZ;
         "vPBIxVlK" = _vPBIxVlK;
+        "44d7U5DL" = _44d7U5DL;
+        "Ld7lvZuc" = _Ld7lvZuc;
         "fabric-1.20.1" = _lD41LrDa;
         "fabric-1.20.2" = _TzzhEhAl;
         "fabric-1.20.4" = _Dvc8f2Ij;
@@ -98,6 +110,11 @@ let
         "fabric-1.21.7" = _Kc8s8RAf;
         "fabric-1.21.9" = _6vYFCtoZ;
         "fabric-1.21.10" = _vPBIxVlK;
+        "fabric-26.1" = _Ld7lvZuc;
+        "fabric-26.1.1" = _Ld7lvZuc;
+        "fabric-26.1.2" = _Ld7lvZuc;
+        "fabric-26.2" = _Ld7lvZuc;
+        "fabric-26.3" = _Ld7lvZuc;
         "pkg-0.1-1.20.1" = _4BnU8Zsp;
         "pkg-0.2-1.20.1" = _BAms42K3;
         "pkg-0.3-1.20.1" = _MQBACRzf;
@@ -112,7 +129,9 @@ let
         "pkg-1.4.0+mc1.21" = _Kc8s8RAf;
         "pkg-1.4.1+mc1.21.9" = _6vYFCtoZ;
         "pkg-1.4.1+mc1.21.10" = _vPBIxVlK;
-        "default" = _vPBIxVlK;
+        "pkg-1.5.0+26.1-26.3" = _44d7U5DL;
+        "pkg-1.6.0+26.1-26.3" = _Ld7lvZuc;
+        "default" = _Ld7lvZuc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hoes-are-scythes";

@@ -21,13 +21,20 @@ let
             "file" = "prisma-craft-2.1.jar";
             "hash" = "sha512-pRQCf7g+X0W4tFjk7z/4lt8LVyMy2mmWVOiIkbEJG6RsHJW0Xw5w/jbhpHyqtYkd3t2juO7JkSd1wChXV7Ir9Q==";
         };
+        _8zVWBvZE = {
+            "id" = "8zVWBvZE";
+            "file" = "PrismaCraft (dp).zip";
+            "hash" = "sha512-+Q+APFhpmBwWKjq1GMb+1CMBNbgk160VVWy0Ki2KHvDmQtk2AGQqGm6AYIc5vG0KM++iqpbI9vz9h6yo5hBeKg==";
+        };
     in {
         "g3PK68HA" = _g3PK68HA;
         "eMtsjK56" = _eMtsjK56;
         "AgcGNUoN" = _AgcGNUoN;
         "VyNng2Dc" = _VyNng2Dc;
+        "8zVWBvZE" = _8zVWBvZE;
         "datapack-1.21.11" = _AgcGNUoN;
         "datapack-26.1" = _AgcGNUoN;
+        "datapack-26.3" = _8zVWBvZE;
         "fabric-1.21.11" = _VyNng2Dc;
         "fabric-26.1" = _VyNng2Dc;
         "forge-1.21.11" = _VyNng2Dc;
@@ -40,7 +47,8 @@ let
         "pkg-2.0+mod" = _eMtsjK56;
         "pkg-2.1" = _AgcGNUoN;
         "pkg-2.1+mod" = _VyNng2Dc;
-        "default" = _VyNng2Dc;
+        "pkg-2.2" = _8zVWBvZE;
+        "default" = _8zVWBvZE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "prisma-craft";

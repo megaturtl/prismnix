@@ -31,6 +31,16 @@ let
             "file" = "xp-boost-enchantment-v1.0.2.jar";
             "hash" = "sha512-CDacTwC7nyWXqO+ObtKxDGA+v7ZkYRkpK18vX+IH9BI46OwfUITS/zdpJEmo2d8pE+GxFBrbn1g0S3B6Z7UnTQ==";
         };
+        _JpaMcoye = {
+            "id" = "JpaMcoye";
+            "file" = "XP Boost Enchantment v1.0.2 [26.3].zip";
+            "hash" = "sha512-mstkZWwIOBU5FNjXQinATJhrH/h7YqpCaKTK4bbgy3wyT5tKihiRQskwblFLNb+PlBiopYUR951xYz9HE4SWzA==";
+        };
+        _8gV8xwDb = {
+            "id" = "8gV8xwDb";
+            "file" = "xp-boost-enchantment-1.0.2.jar";
+            "hash" = "sha512-aqCR/CKpWT2uhiw4s/wgWieugAFyeqmMFjcggo6X+K+vfbukbsndqTMyINfptsfwC/SeMXMwpaVSvSwY/U+cWQ==";
+        };
     in {
         "G9C6my0T" = _G9C6my0T;
         "tXkNWSwn" = _tXkNWSwn;
@@ -38,6 +48,8 @@ let
         "8IDNj4JI" = _8IDNj4JI;
         "xlLtYAml" = _xlLtYAml;
         "u5vcTfUW" = _u5vcTfUW;
+        "JpaMcoye" = _JpaMcoye;
+        "8gV8xwDb" = _8gV8xwDb;
         "datapack-1.21.9" = _xlLtYAml;
         "datapack-1.21.10" = _xlLtYAml;
         "datapack-1.21" = _xlLtYAml;
@@ -54,6 +66,7 @@ let
         "datapack-26.1.1" = _xlLtYAml;
         "datapack-26.1.2" = _xlLtYAml;
         "datapack-26.2" = _xlLtYAml;
+        "datapack-26.3" = _JpaMcoye;
         "fabric-1.21.9" = _u5vcTfUW;
         "fabric-1.21.10" = _u5vcTfUW;
         "fabric-1.21" = _u5vcTfUW;
@@ -70,6 +83,7 @@ let
         "fabric-26.1.1" = _u5vcTfUW;
         "fabric-26.1.2" = _u5vcTfUW;
         "fabric-26.2" = _u5vcTfUW;
+        "fabric-26.3" = _8gV8xwDb;
         "forge-1.21.9" = _u5vcTfUW;
         "forge-1.21.10" = _u5vcTfUW;
         "forge-1.21" = _u5vcTfUW;
@@ -86,6 +100,7 @@ let
         "forge-26.1.1" = _u5vcTfUW;
         "forge-26.1.2" = _u5vcTfUW;
         "forge-26.2" = _u5vcTfUW;
+        "forge-26.3" = _8gV8xwDb;
         "neoforge-1.21.9" = _u5vcTfUW;
         "neoforge-1.21.10" = _u5vcTfUW;
         "neoforge-1.21" = _u5vcTfUW;
@@ -102,6 +117,7 @@ let
         "neoforge-26.1.1" = _u5vcTfUW;
         "neoforge-26.1.2" = _u5vcTfUW;
         "neoforge-26.2" = _u5vcTfUW;
+        "neoforge-26.3" = _8gV8xwDb;
         "quilt-1.21.9" = _u5vcTfUW;
         "quilt-1.21.10" = _u5vcTfUW;
         "quilt-1.21" = _u5vcTfUW;
@@ -118,13 +134,16 @@ let
         "quilt-26.1.1" = _u5vcTfUW;
         "quilt-26.1.2" = _u5vcTfUW;
         "quilt-26.2" = _u5vcTfUW;
+        "quilt-26.3" = _8gV8xwDb;
         "pkg-v1.0.0" = _G9C6my0T;
         "pkg-v1.0.0+mod" = _tXkNWSwn;
         "pkg-v1.0.1" = _otMCYbeQ;
         "pkg-v1.0.1+mod" = _8IDNj4JI;
         "pkg-v1.0.2" = _xlLtYAml;
         "pkg-v1.0.2+mod" = _u5vcTfUW;
-        "default" = _u5vcTfUW;
+        "pkg-1.0.2" = _JpaMcoye;
+        "pkg-1.0.2+mod" = _8gV8xwDb;
+        "default" = _8gV8xwDb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "xp-boost-enchantment";

@@ -1096,6 +1096,21 @@ let
             "file" = "mcw-fences-1.2.1-mc26.2fabric.jar";
             "hash" = "sha512-qw9IKNmLmfBFpBXhZNZHH+R7vF1PAcoUQsAUS+n4njXbTmsw/4R+yRlAngQNY5BPVPPxE4mKkVX9MuV59G13ag==";
         };
+        _IYu8DBo9 = {
+            "id" = "IYu8DBo9";
+            "file" = "mcw-fences-1.2.1-mc26.3fabric.jar";
+            "hash" = "sha512-0uxyCwl2AEh2x3oguG1QnzOR3PsNtYJ9Ah/v1pPanyzzTw7FjF47COK9Rs0nR0O0WVGzIfmGDJOm+/cA8X7mHQ==";
+        };
+        _cpkRCvGz = {
+            "id" = "cpkRCvGz";
+            "file" = "mcw-fences-1.2.1-mc26.3forge.jar";
+            "hash" = "sha512-vByd0giGh6ngmGV6ToV3EfMNh0GKNVlIhge0zFRJL8NSU8bb5nEpKjWhFR2pxxTJF+EB0tEx0Ufm0eRIaThmiA==";
+        };
+        _FqeBH5BQ = {
+            "id" = "FqeBH5BQ";
+            "file" = "mcw-fences-1.2.1-mc26.3neoforge.jar";
+            "hash" = "sha512-NQEJv898YNyCPlulpKfc2r7A5U6/efoYftukiuFjWWTstppr7R8m/NEMtzsB25iv3wLwu9P17uJYNTGkP14Jxw==";
+        };
     in {
         "BHh7EivA" = _BHh7EivA;
         "5SA7u6MX" = _5SA7u6MX;
@@ -1316,6 +1331,9 @@ let
         "fgp6p9c8" = _fgp6p9c8;
         "j11V8ma4" = _j11V8ma4;
         "95mwakGs" = _95mwakGs;
+        "IYu8DBo9" = _IYu8DBo9;
+        "cpkRCvGz" = _cpkRCvGz;
+        "FqeBH5BQ" = _FqeBH5BQ;
         "fabric-1.18.2" = _X61XkxpB;
         "fabric-1.19" = _BUQ940v5;
         "fabric-1.19.1" = _ejtAmWSR;
@@ -1343,6 +1361,7 @@ let
         "fabric-26.1.1" = _oWA108EY;
         "fabric-26.1.2" = _oWA108EY;
         "fabric-26.2" = _95mwakGs;
+        "fabric-26.3" = _IYu8DBo9;
         "forge-1.16.5" = _BqQmeCmN;
         "forge-1.17.1" = _Uu7QVoxO;
         "forge-1.18.2" = _qnBQGOyr;
@@ -1373,6 +1392,7 @@ let
         "forge-26.1.1" = _yDdMxjyL;
         "forge-26.1.2" = _yDdMxjyL;
         "forge-26.2" = _fgp6p9c8;
+        "forge-26.3" = _cpkRCvGz;
         "neoforge-1.20.4" = _MAFPJ0rp;
         "neoforge-1.20.6" = _brveiZdB;
         "neoforge-1.21" = _oWWQP62h;
@@ -1390,13 +1410,14 @@ let
         "neoforge-26.1.1" = _GRlsvpLQ;
         "neoforge-26.1.2" = _GRlsvpLQ;
         "neoforge-26.2" = _j11V8ma4;
+        "neoforge-26.3" = _FqeBH5BQ;
         "pkg-1.0.7" = _6LaRjQji;
         "pkg-1.1.0" = _pm7OsY4i;
         "pkg-1.1.1" = _AJiwAliw;
         "pkg-1.1.2" = _3Ve4L1DA;
         "pkg-1.2.0" = _tSpSPvsP;
-        "pkg-1.2.1" = _95mwakGs;
-        "default" = _95mwakGs;
+        "pkg-1.2.1" = _FqeBH5BQ;
+        "default" = _FqeBH5BQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "macaws-fences-and-walls";

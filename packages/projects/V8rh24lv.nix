@@ -66,6 +66,51 @@ let
             "file" = "spearcore-1.21.1-neo-2.0.7.jar";
             "hash" = "sha512-whyTPXusgSfwSCI1mnR8biPSylhHxODHTMiWCrj1wt83S1LvL/g+b7nz62lqyNuIPs7EtzsSp03GKJ9thEuV8g==";
         };
+        _sCNJ9f3H = {
+            "id" = "sCNJ9f3H";
+            "file" = "spearcore-1.21.1-neo-2.0.8.jar";
+            "hash" = "sha512-8yF6GYOtO/4hSn/FTWrxNZsNKjoiiofd7cMxQga+cyqkDU3uDIq3LS3I6NuxxLK2dRv4wQGPHSJNtP0cVIAHeA==";
+        };
+        _j2vdallq = {
+            "id" = "j2vdallq";
+            "file" = "spearcore-1.21.1-neo-3.0.0.jar";
+            "hash" = "sha512-/aBHnVysgHerOUPIqCSArmxBDULX+LBjMljll1ERMpBC4TH53LEA3zxYzzKht4KBVRiTe6JtDRon56w1LcmTGA==";
+        };
+        _pGiTVXZp = {
+            "id" = "pGiTVXZp";
+            "file" = "spearcore-1.21.1-neo-3.0.1.jar";
+            "hash" = "sha512-LdddL99Ogs9s9v45ENJD40rQERF5bYlCkERIyNpNc6m6mUVUPwKhukqztdy5Fam6bkLhbZu551wa0MMmawBIrA==";
+        };
+        _rkWRggTk = {
+            "id" = "rkWRggTk";
+            "file" = "spearcore-1.20.1-forge-3.0.0.jar";
+            "hash" = "sha512-rJrjAgXZog8zVKYbR6WvLCW8B4IDNG3fyZURregp1AdM/SrIHAsKtkxIi0jRZV5zw6rBvpQNvBR/1Ko0SceXyA==";
+        };
+        _Y3fFyndf = {
+            "id" = "Y3fFyndf";
+            "file" = "spearcore-1.20.1-forge-3.0.1.jar";
+            "hash" = "sha512-zUBSf1f16So0AZSpOI/qll7RjwCVBGHqG+7UROEPK7zJBcg3SdHXRlugiKC6/KoIW7rmEEtv6PFwjDz+pwlK+Q==";
+        };
+        _VACE3YyE = {
+            "id" = "VACE3YyE";
+            "file" = "spearcore-1.20.1-forge-3.0.2.jar";
+            "hash" = "sha512-oDjtVaNwjfyOxSrJEYHRwQFf09IagPO5hYwSLKV8TShL0Cy8bHG8OHUGaNwdw9noiWNbAA3QTfVU5zwqYfLaQw==";
+        };
+        _yqgRboZ3 = {
+            "id" = "yqgRboZ3";
+            "file" = "spearcore-1.20.1-forge-3.0.3.jar";
+            "hash" = "sha512-bkpip8+fJvdwJJqEnkyyBJdip4QzmXP5dPIAD0p3xv2dJuIm+3mt+ov53Q5TZkP0Of2X3vIeZE3yBNdqToUIug==";
+        };
+        _xY1JShfy = {
+            "id" = "xY1JShfy";
+            "file" = "spearcore-1.21.1-neo-3.1.0.jar";
+            "hash" = "sha512-qUFEHLzatytFH1JC5rRa0obJq6BQZIjn88Dn+5yEui6Nu2dPovMMORPP3Xx1hjKQ6pVjiMbNforxbqv25QF6Zw==";
+        };
+        _a7CYJ826 = {
+            "id" = "a7CYJ826";
+            "file" = "spearcore-1.20.1-forge-3.1.0.jar";
+            "hash" = "sha512-h9GI2aMOFaBxCR1sJsPJuyGIGhS4ET9r9bQN1f0JdxkuU6dJ/SfiuDB1+eugbdZ5VLukkocYADCTxEvFc3v7Sg==";
+        };
     in {
         "XKgNFzEv" = _XKgNFzEv;
         "Nk8Aj7TN" = _Nk8Aj7TN;
@@ -80,7 +125,17 @@ let
         "EIoWtnfa" = _EIoWtnfa;
         "tkc4M5tY" = _tkc4M5tY;
         "Y1KWrXQc" = _Y1KWrXQc;
-        "neoforge-1.21.1" = _Y1KWrXQc;
+        "sCNJ9f3H" = _sCNJ9f3H;
+        "j2vdallq" = _j2vdallq;
+        "pGiTVXZp" = _pGiTVXZp;
+        "rkWRggTk" = _rkWRggTk;
+        "Y3fFyndf" = _Y3fFyndf;
+        "VACE3YyE" = _VACE3YyE;
+        "yqgRboZ3" = _yqgRboZ3;
+        "xY1JShfy" = _xY1JShfy;
+        "a7CYJ826" = _a7CYJ826;
+        "neoforge-1.21.1" = _xY1JShfy;
+        "forge-1.20.1" = _a7CYJ826;
         "pkg-1.0.0" = _XKgNFzEv;
         "pkg-1.1.0" = _Nk8Aj7TN;
         "pkg-1.2.0" = _9hMYuK9b;
@@ -94,7 +149,14 @@ let
         "pkg-2.0.5" = _EIoWtnfa;
         "pkg-2.0.6" = _tkc4M5tY;
         "pkg-2.0.7" = _Y1KWrXQc;
-        "default" = _Y1KWrXQc;
+        "pkg-2.0.8" = _sCNJ9f3H;
+        "pkg-3.0.0" = _rkWRggTk;
+        "pkg-3.0.0.1" = _pGiTVXZp;
+        "pkg-3.0.1" = _Y3fFyndf;
+        "pkg-3.0.2" = _VACE3YyE;
+        "pkg-3.0.3" = _yqgRboZ3;
+        "pkg-3.1.0" = _a7CYJ826;
+        "default" = _a7CYJ826;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spear-core";

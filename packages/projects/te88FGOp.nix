@@ -116,6 +116,16 @@ let
             "file" = "CollapsingCaves-26.2-NeoForge-1.7.jar";
             "hash" = "sha512-vWJ8TDix6yrkvSDVBVQJNC/nMLOvx4SI0mxE8V2I8/pDVuh+fC45XAVKkXVFRvdypbnjdPBnGVpdhWoPNaRvfw==";
         };
+        _n2jAyNkE = {
+            "id" = "n2jAyNkE";
+            "file" = "CollapsingCaves-26.3-Fabric-1.7.jar";
+            "hash" = "sha512-CruTJh7IVfotA2TQ3mVx+rb0aT5pzICuzONdZAnJq2cO/SbRCfibLoIhoUStuCnCLQTrexN9i9Em7zUtWuvYGg==";
+        };
+        _uP6RP0yR = {
+            "id" = "uP6RP0yR";
+            "file" = "CollapsingCaves-26.3-NeoForge-1.7.jar";
+            "hash" = "sha512-PcZJsXBTJ5eRGlUWD3KQt3MGSo1qwPvEpCj3vx1HcT6jGLvbxC3OUVtyTEAMg753e6cnfeJPZLbtqPXBHYxkkw==";
+        };
     in {
         "YBYdyJ85" = _YBYdyJ85;
         "m91nB2bj" = _m91nB2bj;
@@ -140,14 +150,18 @@ let
         "G2ickjLy" = _G2ickjLy;
         "lRnEepMD" = _lRnEepMD;
         "trLAQYih" = _trLAQYih;
+        "n2jAyNkE" = _n2jAyNkE;
+        "uP6RP0yR" = _uP6RP0yR;
         "fabric-26.2" = _lRnEepMD;
         "fabric-1.21.1" = _WVdci2ry;
         "fabric-1.20.1" = _zvL78cw8;
         "fabric-26.1.2" = _lRnEepMD;
+        "fabric-26.3" = _n2jAyNkE;
         "neoforge-26.2" = _trLAQYih;
         "neoforge-1.21.1" = _dt7m73G1;
         "neoforge-1.20.1" = _zrl60aM1;
         "neoforge-26.1.2" = _trLAQYih;
+        "neoforge-26.3" = _uP6RP0yR;
         "forge-26.2" = _4sjybK4W;
         "forge-1.21.1" = _mt3Lmmp6;
         "forge-1.20.1" = _NYgmKtr6;
@@ -174,7 +188,9 @@ let
         "pkg-1.7-NeoForge-26.2" = _G2ickjLy;
         "pkg-1.7-Fabric-26.2-Hotfix-1" = _lRnEepMD;
         "pkg-1.7-NeoForge-26.2-Hotfix-1" = _trLAQYih;
-        "default" = _trLAQYih;
+        "pkg-1.7-Fabric-26.3" = _n2jAyNkE;
+        "pkg-1.7-NeoForge-26.3" = _uP6RP0yR;
+        "default" = _uP6RP0yR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "collapsing-caves";

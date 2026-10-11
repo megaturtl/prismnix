@@ -236,6 +236,21 @@ let
             "file" = "squakeported-2-26.2-neoforge.jar";
             "hash" = "sha512-vwawcGb6WYkwiNdmaelJRYFSKrydFTFD0LKbQm7bOqtJtB6ujaX0RWGEtuyochMDaenzcygKYoDV4b3Ii2++vA==";
         };
+        _GIsomvQL = {
+            "id" = "GIsomvQL";
+            "file" = "squakeported-2-26.3.jar";
+            "hash" = "sha512-NP1ySKruV6VwOfBpyRCd6bY3AH5J0YTWvPLXXHx7iz3BgQvRI9NRG0t3VElKUgZUkDkorTAeZXSCCXRNoKU9WA==";
+        };
+        _UZyQwW6B = {
+            "id" = "UZyQwW6B";
+            "file" = "squakeported-2.1-26.3-neoforge.jar";
+            "hash" = "sha512-rVlhwjJemlihg4x0qAKvHfTz8A7q8v7UL6ygPW77d27eo+nxlgq61QbtuScOhz/hvI6B6QCjHIPhwsffdg3ILw==";
+        };
+        _ZiY5L2Gt = {
+            "id" = "ZiY5L2Gt";
+            "file" = "squakeported-2-1.21.1-neoforge.jar";
+            "hash" = "sha512-Gm6eVGz+lSA8UjwOn3DV+QTFRcdGyRr95bpWyBgPczjFksiFcIrLFztndqq34e0AoUG9vJqAhOtXq5dwrbz32w==";
+        };
     in {
         "BtEWVLME" = _BtEWVLME;
         "guuaMopi" = _guuaMopi;
@@ -284,6 +299,9 @@ let
         "IZiTI43i" = _IZiTI43i;
         "P3uvQiat" = _P3uvQiat;
         "KEPkiHHZ" = _KEPkiHHZ;
+        "GIsomvQL" = _GIsomvQL;
+        "UZyQwW6B" = _UZyQwW6B;
+        "ZiY5L2Gt" = _ZiY5L2Gt;
         "forge-1.20" = _lni3IdeP;
         "forge-1.20.1" = _lni3IdeP;
         "forge-1.20.2" = _J9o0WdOd;
@@ -305,6 +323,7 @@ let
         "forge-26.1.2" = _APqPQchZ;
         "forge-26.2" = _RTMsrLkP;
         "forge-26.1" = _APqPQchZ;
+        "forge-26.3" = _GIsomvQL;
         "neoforge-1.21.6" = _vxfSxivn;
         "neoforge-1.21.7" = _gKbsbfMe;
         "neoforge-1.21.8" = _UwD4Kysk;
@@ -314,6 +333,8 @@ let
         "neoforge-26.1.1" = _XwZeps0B;
         "neoforge-26.1.2" = _P3uvQiat;
         "neoforge-26.2" = _KEPkiHHZ;
+        "neoforge-26.3" = _UZyQwW6B;
+        "neoforge-1.21.1" = _ZiY5L2Gt;
         "pkg-1_04" = _BtEWVLME;
         "pkg-1_05" = _guuaMopi;
         "pkg-1_07" = _6SZmUi79;
@@ -361,7 +382,10 @@ let
         "pkg-2-1.21.11-neoforge" = _IZiTI43i;
         "pkg-2-26.1.2-neoforge" = _P3uvQiat;
         "pkg-2-26.2-neoforge" = _KEPkiHHZ;
-        "default" = _KEPkiHHZ;
+        "pkg-2-26.3" = _GIsomvQL;
+        "pkg-2.1-26.3-neoforge" = _UZyQwW6B;
+        "pkg-2-1.21.1-neoforge" = _ZiY5L2Gt;
+        "default" = _ZiY5L2Gt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "squake-ported";

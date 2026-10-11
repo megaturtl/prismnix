@@ -226,6 +226,16 @@ let
             "file" = "TACZ-Refabricated-1.21.1-0.7.0-forge1.1.8-hotfix.jar";
             "hash" = "sha512-4MEZW19vCBrjHfsRGro3RoL7IpvuZP9/h9zUMwWt0XZ6JNM2JHIWNWqmcFAsEuw+oaTCKlZbrNZLcba58wFXVA==";
         };
+        _3ShZi2cZ = {
+            "id" = "3ShZi2cZ";
+            "file" = "TACZ-Refabricated-1.20.1-0.7.1-forge1.1.8-hotfix2.jar";
+            "hash" = "sha512-4oMDwzS9NXxBaLcZdnVJnAx9AaXFW8zgkVpfYi7PntkQ67moIOcCFTKHpPbWWzw3sZkPz2X/zOCXdZBL44TYQA==";
+        };
+        _veM4XOhW = {
+            "id" = "veM4XOhW";
+            "file" = "TACZ-Refabricated-1.21.1-0.7.1-forge1.1.8-hotfix2.jar";
+            "hash" = "sha512-8+81D2fNJRr1nGsn5MozSfiEDXY+E7byZi3qhoQo+puheynC6OLVb5kQVeQbBK1htRvGO5aDMaA/N7r1pjJ4/Q==";
+        };
     in {
         "Bk2IbZei" = _Bk2IbZei;
         "VJwy0aHc" = _VJwy0aHc;
@@ -272,10 +282,12 @@ let
         "q6J3Htny" = _q6J3Htny;
         "c6sOTqZb" = _c6sOTqZb;
         "sqMweCpe" = _sqMweCpe;
+        "3ShZi2cZ" = _3ShZi2cZ;
+        "veM4XOhW" = _veM4XOhW;
         "fabric-1.20" = _u7C7n2bV;
-        "fabric-1.20.1" = _c6sOTqZb;
+        "fabric-1.20.1" = _3ShZi2cZ;
         "fabric-1.21" = _GRk0Kp45;
-        "fabric-1.21.1" = _sqMweCpe;
+        "fabric-1.21.1" = _veM4XOhW;
         "pkg-1.20.1-0.0.1-forge1.1.6-hotfix" = _Bk2IbZei;
         "pkg-1.20.1-0.0.2-forge1.1.6-hotfix" = _VJwy0aHc;
         "pkg-1.21.1-0.0.2-forge1.1.6-hotfix" = _Xt3ufVtV;
@@ -321,7 +333,9 @@ let
         "pkg-1.21.1-0.6.1-forge1.1.8" = _q6J3Htny;
         "pkg-1.20.1-0.7.0-forge1.1.8-hotfix" = _c6sOTqZb;
         "pkg-1.21.1-0.7.0-forge1.1.8-hotfix" = _sqMweCpe;
-        "default" = _sqMweCpe;
+        "pkg-1.20.1-0.7.1-forge1.1.8-hotfix2" = _3ShZi2cZ;
+        "pkg-1.21.1-0.7.1-forge1.1.8-hotfix2" = _veM4XOhW;
+        "default" = _veM4XOhW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tacz-refabricated";

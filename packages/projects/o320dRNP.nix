@@ -51,6 +51,21 @@ let
             "file" = "create_nerfad-1-2-6.jar";
             "hash" = "sha512-FUoAms+D1HuFh2+HxBkkXeiLzjW2YrnfkbXwTuuUfRO/DR2E59Cxy2HYH2dijMq9v5OTLm7nxM5u3zi09nhl+A==";
         };
+        _VT2c489M = {
+            "id" = "VT2c489M";
+            "file" = "create_nerfad-1-2-7.jar";
+            "hash" = "sha512-mVJV3uKNltJP7vD2u2NhNks+0ZlLhHpDW0mLApfPnyAk8LYmQN3Is5/6AHNEELnAkin87KqA5TwS6ec6AG+R8A==";
+        };
+        _AOdOyD9N = {
+            "id" = "AOdOyD9N";
+            "file" = "create_nerfad-1-2-8.jar";
+            "hash" = "sha512-vQu84f2APZW+SJNXqDkCy3Dceg/sFywB8Jh1eBTbBbvFJ690qUSebzWAKuE35LW0cC5z4rKEGXzaUGWfE6vGEA==";
+        };
+        _tty3F8ME = {
+            "id" = "tty3F8ME";
+            "file" = "create_nerfad-1-2-9.jar";
+            "hash" = "sha512-t5DOzlM4kKXJko0qmWTplIzn9RmyNBPw9L7gzNhoLSLPduzYy9zMGhSwAeo/FbzsvIZ4QJRNzL4fJzRDYlIwsA==";
+        };
     in {
         "MV6dQh16" = _MV6dQh16;
         "6E35h3W4" = _6E35h3W4;
@@ -62,10 +77,15 @@ let
         "jab13nXD" = _jab13nXD;
         "OxPoLsOV" = _OxPoLsOV;
         "db16HW4f" = _db16HW4f;
-        "fabric-1.21.11" = _db16HW4f;
-        "fabric-26.1.2" = _db16HW4f;
+        "VT2c489M" = _VT2c489M;
+        "AOdOyD9N" = _AOdOyD9N;
+        "tty3F8ME" = _tty3F8ME;
+        "fabric-1.21.11" = _tty3F8ME;
+        "fabric-26.1.2" = _tty3F8ME;
         "fabric-26.2-rc-2" = _OxPoLsOV;
-        "fabric-26.2" = _db16HW4f;
+        "fabric-26.2" = _tty3F8ME;
+        "fabric-26.1.1" = _VT2c489M;
+        "fabric-26.3" = _tty3F8ME;
         "pkg-1.0.0" = _MV6dQh16;
         "pkg-1.1.0" = _6E35h3W4;
         "pkg-1.1.1" = _9dVoOvJD;
@@ -76,7 +96,10 @@ let
         "pkg-1.2.4" = _jab13nXD;
         "pkg-1.2.5" = _OxPoLsOV;
         "pkg-1.2.6" = _db16HW4f;
-        "default" = _db16HW4f;
+        "pkg-1.2.7" = _VT2c489M;
+        "pkg-1.2.8" = _AOdOyD9N;
+        "pkg-1.2.9" = _tty3F8ME;
+        "default" = _tty3F8ME;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-nerfad";

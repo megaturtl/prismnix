@@ -186,6 +186,11 @@ let
             "file" = "Holy-Demonic [PvP]Pack[2.1][26.2].zip";
             "hash" = "sha512-cAOcjq154TA3JJG823Ah9JM5PzzViY1UZB59eBDsGIL5vavyWMB7/13Id91wEi/QeoTe8vf3SJ/B586VQEpR9Q==";
         };
+        _qxegYBTi = {
+            "id" = "qxegYBTi";
+            "file" = "Holy-Demonic [PvP]Pack[2.1][26.3].zip";
+            "hash" = "sha512-J8ovJP2ydconJTIbNAsUqTKf3S/bnPyeAyvfz6kLRHHiKjK5i0aUnKCA1b/v2xYcI/sb8ErIMtApIn2NsvhhSw==";
+        };
     in {
         "nQTYcGwQ" = _nQTYcGwQ;
         "jltuHd96" = _jltuHd96;
@@ -224,6 +229,7 @@ let
         "Q4r9kLN0" = _Q4r9kLN0;
         "ta9i8tcs" = _ta9i8tcs;
         "r1awDOza" = _r1awDOza;
+        "qxegYBTi" = _qxegYBTi;
         "minecraft-1.16" = _BWM6l63L;
         "minecraft-1.16.1" = _BWM6l63L;
         "minecraft-1.16.2" = _BWM6l63L;
@@ -263,6 +269,9 @@ let
         "minecraft-26.1.1" = _ta9i8tcs;
         "minecraft-26.1.2" = _ta9i8tcs;
         "minecraft-26.2" = _r1awDOza;
+        "minecraft-26.3" = _qxegYBTi;
+        "minecraft-26.4-snapshot-1" = _qxegYBTi;
+        "minecraft-26.4-snapshot-2" = _qxegYBTi;
         "pkg-1.16" = _nQTYcGwQ;
         "pkg-1.17" = _jltuHd96;
         "pkg-1.18" = _Q2FKElwS;
@@ -280,8 +289,8 @@ let
         "pkg-2" = _7P9Bcc9S;
         "pkg-1.21.6" = _G2xDl4BN;
         "pkg-2.0" = _nyTUMRAe;
-        "pkg-2.1" = _r1awDOza;
-        "default" = _r1awDOza;
+        "pkg-2.1" = _qxegYBTi;
+        "default" = _qxegYBTi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "holy-demonic-pvp-pack";

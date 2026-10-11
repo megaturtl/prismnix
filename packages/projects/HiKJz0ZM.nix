@@ -141,6 +141,11 @@ let
             "file" = "BTPmod-forge-1.20.1-1.6.2.jar";
             "hash" = "sha512-4zorrrbFdhkJE21qAD58mK8KpMtCIizrwItIj081j/Bqo1mcQRiV8f5fG/QIcuT1d/Flh6Wqfom11jpZVtyALg==";
         };
+        _P0JKOqxD = {
+            "id" = "P0JKOqxD";
+            "file" = "BTPmod-forge-1.20.1-1.7.0.jar";
+            "hash" = "sha512-Bi3u1rVlg4XxUWKKZpqETgigJnIMau1+ikS+UjDw7ZKKxikuWus9N/2yOH2UEWt7o4Q2whQ9q+vcrJegPDV5OQ==";
+        };
     in {
         "lbde5QWN" = _lbde5QWN;
         "ulSiUrud" = _ulSiUrud;
@@ -170,7 +175,8 @@ let
         "Go1mwcZ9" = _Go1mwcZ9;
         "A6pAuLMT" = _A6pAuLMT;
         "Bylh0pTo" = _Bylh0pTo;
-        "forge-1.20.1" = _Bylh0pTo;
+        "P0JKOqxD" = _P0JKOqxD;
+        "forge-1.20.1" = _P0JKOqxD;
         "pkg-1.0.0" = _lbde5QWN;
         "pkg-1.1.0" = _ulSiUrud;
         "pkg-1.1.1" = _6LU7uN5h;
@@ -199,7 +205,8 @@ let
         "pkg-1.6.0" = _Go1mwcZ9;
         "pkg-1.6.1" = _A6pAuLMT;
         "pkg-1.6.2" = _Bylh0pTo;
-        "default" = _Bylh0pTo;
+        "pkg-1.7.0" = _P0JKOqxD;
+        "default" = _P0JKOqxD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "btpmod";

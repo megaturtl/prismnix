@@ -76,6 +76,11 @@ let
             "file" = "tsa-concrete-1.1.3+26.1.jar";
             "hash" = "sha512-Iyq4AJ2OzO+Pc1pdunYU52+jMs1OyK2N0tgh85FOWLaqZpbw6gHARqX4yEieK5txagedXCiSrvMVoW00jlxgXw==";
         };
+        _xk5xwmHr = {
+            "id" = "xk5xwmHr";
+            "file" = "tsa-concrete-1.1.6+26.3.jar";
+            "hash" = "sha512-TH5E/ENLTV/XMu2eD4y+AArFQzSuYYdu4M/tNPShNC4wrJywZrMMRej5xx4boMcFYiKwFgq555MuGLFdiDjQjQ==";
+        };
     in {
         "LmWidovk" = _LmWidovk;
         "iiU2gQZC" = _iiU2gQZC;
@@ -92,6 +97,7 @@ let
         "HT4hFud3" = _HT4hFud3;
         "jNZpwEY1" = _jNZpwEY1;
         "2Vb6eFSM" = _2Vb6eFSM;
+        "xk5xwmHr" = _xk5xwmHr;
         "fabric-1.20.1" = _m2OQr2SP;
         "fabric-1.20.4" = _R56RozZK;
         "fabric-1.20.6" = _HVi7IHUi;
@@ -113,6 +119,7 @@ let
         "fabric-26.1" = _2Vb6eFSM;
         "fabric-26.1.1" = _2Vb6eFSM;
         "fabric-26.1.2" = _2Vb6eFSM;
+        "fabric-26.3" = _xk5xwmHr;
         "pkg-1.0+1.20.1" = _LmWidovk;
         "pkg-1.0+1.20.4" = _iiU2gQZC;
         "pkg-1.0.1+1.20.1" = _JEluSFoB;
@@ -128,7 +135,8 @@ let
         "pkg-1.1.1+1.21.2-rc1-1.21.2-rc1" = _HT4hFud3;
         "pkg-1.1.2+26.1" = _jNZpwEY1;
         "pkg-1.1.3+26.1" = _2Vb6eFSM;
-        "default" = _2Vb6eFSM;
+        "pkg-1.1.6+26.3" = _xk5xwmHr;
+        "default" = _xk5xwmHr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tsa-concrete";

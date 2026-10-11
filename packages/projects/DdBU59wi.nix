@@ -216,6 +216,16 @@ let
             "file" = "vegan-hostile-mob-drops-2.8.jar";
             "hash" = "sha512-ud/CcgZR5J622R0WU/XP46vRKC4aYlnGkbuUhZzys5KkN8id9ejDxctqykuicPXOrf7jlxw41WBG7to+yGiXHw==";
         };
+        _KtNeoqSI = {
+            "id" = "KtNeoqSI";
+            "file" = "Vegan Hostile Mob Drops v3.0 (26.1-26.3).zip";
+            "hash" = "sha512-DcatzPWzMAfkuU2Kopk+x+/MMtDpdA74/+byY5LF7vkQBktALGGYkBVkwou5TGJQ86AkItG06owVBTnPzjd0Rg==";
+        };
+        _Ktu7OMxM = {
+            "id" = "Ktu7OMxM";
+            "file" = "vegan-hostile-mob-drops-3.0.jar";
+            "hash" = "sha512-xh8EX6J0StL8yNV+rfbYwOnYQx4/9oSCtsY0+FRqJ+rps8HG+RPObp8ioyrudwtMmameCsTsyYaom8dztYvU/w==";
+        };
     in {
         "rWiBSrKN" = _rWiBSrKN;
         "VGlM4P2T" = _VGlM4P2T;
@@ -260,6 +270,8 @@ let
         "qRQACRtk" = _qRQACRtk;
         "Kqeq6l06" = _Kqeq6l06;
         "aZi9TBlV" = _aZi9TBlV;
+        "KtNeoqSI" = _KtNeoqSI;
+        "Ktu7OMxM" = _Ktu7OMxM;
         "datapack-1.20" = _xZitzJKh;
         "datapack-1.20.1" = _xZitzJKh;
         "datapack-1.20.2" = _xZitzJKh;
@@ -287,6 +299,11 @@ let
         "datapack-1.21.9" = _Kqeq6l06;
         "datapack-1.21.10" = _Kqeq6l06;
         "datapack-1.21.11" = _Kqeq6l06;
+        "datapack-26.1" = _KtNeoqSI;
+        "datapack-26.1.1" = _KtNeoqSI;
+        "datapack-26.1.2" = _KtNeoqSI;
+        "datapack-26.2" = _KtNeoqSI;
+        "datapack-26.3" = _KtNeoqSI;
         "fabric-1.20" = _9anPXKBK;
         "fabric-1.20.1" = _9anPXKBK;
         "fabric-1.20.2" = _9anPXKBK;
@@ -306,6 +323,11 @@ let
         "fabric-1.21.9" = _aZi9TBlV;
         "fabric-1.21.10" = _aZi9TBlV;
         "fabric-1.21.11" = _aZi9TBlV;
+        "fabric-26.1" = _Ktu7OMxM;
+        "fabric-26.1.1" = _Ktu7OMxM;
+        "fabric-26.1.2" = _Ktu7OMxM;
+        "fabric-26.2" = _Ktu7OMxM;
+        "fabric-26.3" = _Ktu7OMxM;
         "forge-1.20" = _9anPXKBK;
         "forge-1.20.1" = _9anPXKBK;
         "forge-1.20.2" = _9anPXKBK;
@@ -325,6 +347,11 @@ let
         "forge-1.21.9" = _aZi9TBlV;
         "forge-1.21.10" = _aZi9TBlV;
         "forge-1.21.11" = _aZi9TBlV;
+        "forge-26.1" = _Ktu7OMxM;
+        "forge-26.1.1" = _Ktu7OMxM;
+        "forge-26.1.2" = _Ktu7OMxM;
+        "forge-26.2" = _Ktu7OMxM;
+        "forge-26.3" = _Ktu7OMxM;
         "quilt-1.20" = _9anPXKBK;
         "quilt-1.20.1" = _9anPXKBK;
         "quilt-1.20.2" = _9anPXKBK;
@@ -344,6 +371,11 @@ let
         "quilt-1.21.9" = _aZi9TBlV;
         "quilt-1.21.10" = _aZi9TBlV;
         "quilt-1.21.11" = _aZi9TBlV;
+        "quilt-26.1" = _Ktu7OMxM;
+        "quilt-26.1.1" = _Ktu7OMxM;
+        "quilt-26.1.2" = _Ktu7OMxM;
+        "quilt-26.2" = _Ktu7OMxM;
+        "quilt-26.3" = _Ktu7OMxM;
         "neoforge-1.20" = _9anPXKBK;
         "neoforge-1.20.1" = _9anPXKBK;
         "neoforge-1.20.2" = _9anPXKBK;
@@ -363,6 +395,11 @@ let
         "neoforge-1.21.9" = _aZi9TBlV;
         "neoforge-1.21.10" = _aZi9TBlV;
         "neoforge-1.21.11" = _aZi9TBlV;
+        "neoforge-26.1" = _Ktu7OMxM;
+        "neoforge-26.1.1" = _Ktu7OMxM;
+        "neoforge-26.1.2" = _Ktu7OMxM;
+        "neoforge-26.2" = _Ktu7OMxM;
+        "neoforge-26.3" = _Ktu7OMxM;
         "pkg-1" = _VGlM4P2T;
         "pkg-1+mod" = _kDfpdrxn;
         "pkg-1.1" = _lTzeHniU;
@@ -400,7 +437,9 @@ let
         "pkg-2.7.1+mod" = _qRQACRtk;
         "pkg-2.8" = _Kqeq6l06;
         "pkg-2.8+mod" = _aZi9TBlV;
-        "default" = _aZi9TBlV;
+        "pkg-3.0" = _KtNeoqSI;
+        "pkg-3.0+mod" = _Ktu7OMxM;
+        "default" = _Ktu7OMxM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vegan-hostile-mob-drops";

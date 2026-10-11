@@ -61,6 +61,21 @@ let
             "file" = "portable_villager-21.11.1-neoforge.jar";
             "hash" = "sha512-t4Sy3vtUyVi9W55o/+MgDqtfn+xS0vGj8+GTmLi15v2q8srjNMD5pvvQEMzkhrepCUYes3YarjDXWBHBNt6IXg==";
         };
+        _bOyMehJk = {
+            "id" = "bOyMehJk";
+            "file" = "portable_villager-26.3.0-neoforge.jar";
+            "hash" = "sha512-buBlkHiDqxlnZu/FbVC8Zq1psJQeM2W+AVPHHIyhADpPnhXSOmhBRkbOG7Ns947t0v+xmizosIHhfGQsqLoHCA==";
+        };
+        _wAXFfZo3 = {
+            "id" = "wAXFfZo3";
+            "file" = "portable_villager-26.3.0-fabric.jar";
+            "hash" = "sha512-Duif9Ge0K/Ef7mGyF+KLL1UmGsconxZ92akU/L7DAA3+OYfmchflKycuLOyqCT/Co0m69xaqiU/DZOTBQCuEAw==";
+        };
+        _vIy78wkt = {
+            "id" = "vIy78wkt";
+            "file" = "portable_villager-26.2.2-neoforge.jar";
+            "hash" = "sha512-ZhHJXyFWJr52U+JBeDmIvZHtDcGPVL3DUXSN6B+sJYZcLaJVc8u01g1w0UAoOYcGZFrK5Dur+cmpz75TnuCj1g==";
+        };
     in {
         "hFC4pLAe" = _hFC4pLAe;
         "VRDSjt6F" = _VRDSjt6F;
@@ -74,16 +89,21 @@ let
         "Fqa4b8YM" = _Fqa4b8YM;
         "Jrbp3Q7i" = _Jrbp3Q7i;
         "FdtKEgdS" = _FdtKEgdS;
+        "bOyMehJk" = _bOyMehJk;
+        "wAXFfZo3" = _wAXFfZo3;
+        "vIy78wkt" = _vIy78wkt;
         "fabric-1.21.11" = _Jrbp3Q7i;
         "fabric-26.1" = _IQ3iQKjT;
         "fabric-26.1.1" = _IQ3iQKjT;
         "fabric-26.1.2" = _IQ3iQKjT;
         "fabric-26.2" = _u3Z5LFvh;
+        "fabric-26.3" = _wAXFfZo3;
         "neoforge-26.1" = _Fqa4b8YM;
         "neoforge-26.1.1" = _Fqa4b8YM;
         "neoforge-26.1.2" = _Fqa4b8YM;
-        "neoforge-26.2" = _qMwu5qIF;
+        "neoforge-26.2" = _vIy78wkt;
         "neoforge-1.21.11" = _FdtKEgdS;
+        "neoforge-26.3" = _bOyMehJk;
         "pkg-21.11.0" = _hFC4pLAe;
         "pkg-26.1.0" = _VRDSjt6F;
         "pkg-26.1.1" = _6GV2Rm2t;
@@ -91,7 +111,9 @@ let
         "pkg-26.2.1" = _qMwu5qIF;
         "pkg-26.1.2" = _Fqa4b8YM;
         "pkg-21.11.1" = _FdtKEgdS;
-        "default" = _FdtKEgdS;
+        "pkg-26.3.0" = _wAXFfZo3;
+        "pkg-26.2.2" = _vIy78wkt;
+        "default" = _vIy78wkt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "portable-villager";

@@ -131,6 +131,26 @@ let
             "file" = "Easy Emerald-forge-26.1.2-3.4.0.jar";
             "hash" = "sha512-7dUs7OPlS7EQz4wuMXeyjUs/tz0zXWK01DT6agtnjH1QYu6H9SGNUH6ReXzTvEyLoqJ+epncPIph9Y8XNEQRiw==";
         };
+        _5ZJ8xifu = {
+            "id" = "5ZJ8xifu";
+            "file" = "EasyEmerald-fabric-26.1.2-3.4.0.jar";
+            "hash" = "sha512-tan2zibqbhSafzvzJ81HpCuiWk1gm6ZOO3HXay9HtZp74hIJtjqrMjvty4HCUCAokEr3rHXHzutMolmA8hL6Aw==";
+        };
+        _eay4oJFj = {
+            "id" = "eay4oJFj";
+            "file" = "EasyEmerald-neoforge-26.3-3.4.1.jar";
+            "hash" = "sha512-hu7Pf/YcVr+PwStdcbBgcdABAGydlqh7tue444BSgEPVSRA0NQslnnzz83DMG4aupnDVlP970bOdziVGFesTfg==";
+        };
+        _JBfn3Dq2 = {
+            "id" = "JBfn3Dq2";
+            "file" = "EasyEmerald-forge-26.3-3.4.1.jar";
+            "hash" = "sha512-ARzfiW9o3Ah3xiEuDrm5DwrldWXwq0Vzl7mCix2z/lhY2Xzbfht5slyAGkborBBSq8B62L5gkxSF62WD1iQ2tA==";
+        };
+        _loqsETg2 = {
+            "id" = "loqsETg2";
+            "file" = "EasyEmerald-fabric-26.3-3.4.1.jar";
+            "hash" = "sha512-6iMAa/PGfTUhUp/GuNmY+DaX/qtJkUyFxHBNHtIGRaUp0clypGtWJFz0xumRe/mWhI+WCNJJY5Ezw+2MhUi7jw==";
+        };
     in {
         "rpWaDLmj" = _rpWaDLmj;
         "XfZPK34N" = _XfZPK34N;
@@ -158,6 +178,10 @@ let
         "RO9UHGdU" = _RO9UHGdU;
         "GrwZUVk4" = _GrwZUVk4;
         "cOPOt6Bf" = _cOPOt6Bf;
+        "5ZJ8xifu" = _5ZJ8xifu;
+        "eay4oJFj" = _eay4oJFj;
+        "JBfn3Dq2" = _JBfn3Dq2;
+        "loqsETg2" = _loqsETg2;
         "forge-1.20.1" = _rpWaDLmj;
         "forge-1.20.2" = _iWqw8bw7;
         "forge-1.20.4" = _Hip0j1NL;
@@ -168,6 +192,7 @@ let
         "forge-1.21.10" = _HgMcXNm0;
         "forge-1.21.11" = _j9dLiEJP;
         "forge-26.1.2" = _cOPOt6Bf;
+        "forge-26.3" = _JBfn3Dq2;
         "fabric-1.20.1" = _XfZPK34N;
         "fabric-1.20.2" = _WMR0sIX0;
         "fabric-1.20.4" = _rsNuQtHa;
@@ -177,6 +202,8 @@ let
         "fabric-1.21.8" = _Yte9VMCb;
         "fabric-1.21.10" = _LJkyOFgw;
         "fabric-1.21.11" = _lIuT5mzn;
+        "fabric-26.1.2" = _5ZJ8xifu;
+        "fabric-26.3" = _loqsETg2;
         "neoforge-1.20.4" = _zfGB1nUw;
         "neoforge-1.21" = _uImRlCzM;
         "neoforge-1.21.1" = _AHTrS2by;
@@ -184,7 +211,8 @@ let
         "neoforge-1.21.10" = _cQRSEDa8;
         "neoforge-1.21.11" = _RO9UHGdU;
         "neoforge-26.1.2" = _GrwZUVk4;
-        "pkg-3.4.1" = _rpWaDLmj;
+        "neoforge-26.3" = _eay4oJFj;
+        "pkg-3.4.1" = _loqsETg2;
         "pkg-1.6.4" = _XfZPK34N;
         "pkg-3.4.2" = _iWqw8bw7;
         "pkg-1.6.5" = _WMR0sIX0;
@@ -208,8 +236,8 @@ let
         "pkg-1.21.11-1.7.3" = _lIuT5mzn;
         "pkg-3.5.1" = _RO9UHGdU;
         "pkg-3.6.0" = _GrwZUVk4;
-        "pkg-3.4.0" = _cOPOt6Bf;
-        "default" = _cOPOt6Bf;
+        "pkg-3.4.0" = _5ZJ8xifu;
+        "default" = _loqsETg2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "easy-emerald";

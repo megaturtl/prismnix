@@ -11,14 +11,21 @@ let
             "file" = "bm21.zip";
             "hash" = "sha512-B9M/C381u+exB+O2bC72FIgvkZtJvZx5kvamE6YU7oOzQzIN2myLNVcK1Ike8r0BNXjKabjaXk+e0KRAQheLBQ==";
         };
+        _6HVHMOYK = {
+            "id" = "6HVHMOYK";
+            "file" = "bm21 - 0.1.1.zip";
+            "hash" = "sha512-j9iECqzfRfWuQbioo7cJY0TKVSlMtSjiItufKASK/5cT6DOhhuLjbY1oDhMUzo0IBjhtACoHoe57c7KryyW7Xw==";
+        };
     in {
         "Q0TQW4Bl" = _Q0TQW4Bl;
         "cKODASBS" = _cKODASBS;
-        "minecraft-1.20.4" = _cKODASBS;
-        "minecraft-1.20.3" = _cKODASBS;
+        "6HVHMOYK" = _6HVHMOYK;
+        "minecraft-1.20.4" = _6HVHMOYK;
+        "minecraft-1.20.3" = _6HVHMOYK;
         "pkg-0.02" = _Q0TQW4Bl;
         "pkg-0.1" = _cKODASBS;
-        "default" = _cKODASBS;
+        "pkg-0.1.1" = _6HVHMOYK;
+        "default" = _6HVHMOYK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mtr4-bombardier-movia-bm21";

@@ -126,6 +126,11 @@ let
             "file" = "oneworldfolder-1.1.3-26.2.jar";
             "hash" = "sha512-z1PrKPqnfGTm1ZeRu2uEwi/bn9VofFyLhiTuSaIv8/Il3mWtLap2tPlwt2mqBz9+D9qr2YjoWVRB7gawMN22WA==";
         };
+        _T7GQjqQ8 = {
+            "id" = "T7GQjqQ8";
+            "file" = "oneworldfolder-1.1.4-26.3.jar";
+            "hash" = "sha512-y93T44rVssKoxYtSXu1AUCAFRp+W8HAph7IXkNyKcRKiQGEQ5KhZ30oihbgbrbMDI5cfgsgmC5dPIhl3uX8KYQ==";
+        };
     in {
         "FWDTR0Ff" = _FWDTR0Ff;
         "l5qqfnn2" = _l5qqfnn2;
@@ -152,6 +157,7 @@ let
         "TJzXOVRC" = _TJzXOVRC;
         "P3WmKWRe" = _P3WmKWRe;
         "YTF5TYVL" = _YTF5TYVL;
+        "T7GQjqQ8" = _T7GQjqQ8;
         "fabric-1.20.1" = _FWDTR0Ff;
         "fabric-1.20.2" = _l5qqfnn2;
         "fabric-1.20.4" = _YG3MppA0;
@@ -173,6 +179,7 @@ let
         "fabric-26.1.1" = _P3WmKWRe;
         "fabric-26.1.2" = _P3WmKWRe;
         "fabric-26.2" = _YTF5TYVL;
+        "fabric-26.3" = _T7GQjqQ8;
         "pkg-1.0.2" = _FWDTR0Ff;
         "pkg-1.0.3" = _l5qqfnn2;
         "pkg-1.0.4" = _BMY0KlEE;
@@ -193,7 +200,8 @@ let
         "pkg-1.1.0" = _encYRtX5;
         "pkg-1.1.2" = _SzguDt0V;
         "pkg-1.1.3" = _YTF5TYVL;
-        "default" = _YTF5TYVL;
+        "pkg-1.1.4" = _T7GQjqQ8;
+        "default" = _T7GQjqQ8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "one-world-folder";

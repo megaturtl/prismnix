@@ -16,25 +16,33 @@ let
             "file" = "Turnips_Animated_Lanterns_26.1.zip";
             "hash" = "sha512-B0+6OZT84b6upATpKH94nLaX6fkz2GdVTFVGL8zwJcVeQy4yX7Jhs3khcTZ5/wVJnDjCC6vBgVtvVhFUuQ2vYw==";
         };
+        _7n7hP6ND = {
+            "id" = "7n7hP6ND";
+            "file" = "Turnips_Animated_Lanterns.zip";
+            "hash" = "sha512-b3IgZD/lruQ+siyjJ2cniTxrdt8lkSaALjVeH5NQtXwrxJbCpUVEyTJ+98Ns9v7+5H3SEER2oKicuzCm0oFZrg==";
+        };
     in {
         "8izIJRPO" = _8izIJRPO;
         "s7ERyqY0" = _s7ERyqY0;
         "BGJnliGC" = _BGJnliGC;
+        "7n7hP6ND" = _7n7hP6ND;
         "minecraft-1.21.5" = _BGJnliGC;
         "minecraft-1.21.6" = _BGJnliGC;
         "minecraft-1.21.7" = _BGJnliGC;
         "minecraft-1.21.8" = _BGJnliGC;
-        "minecraft-1.21.9" = _BGJnliGC;
-        "minecraft-1.21.10" = _BGJnliGC;
-        "minecraft-1.21.11" = _BGJnliGC;
-        "minecraft-26.1" = _BGJnliGC;
-        "minecraft-26.1.1" = _BGJnliGC;
-        "minecraft-26.1.2" = _BGJnliGC;
-        "minecraft-26.2" = _BGJnliGC;
+        "minecraft-1.21.9" = _7n7hP6ND;
+        "minecraft-1.21.10" = _7n7hP6ND;
+        "minecraft-1.21.11" = _7n7hP6ND;
+        "minecraft-26.1" = _7n7hP6ND;
+        "minecraft-26.1.1" = _7n7hP6ND;
+        "minecraft-26.1.2" = _7n7hP6ND;
+        "minecraft-26.2" = _7n7hP6ND;
+        "minecraft-26.3" = _7n7hP6ND;
         "pkg-1.0.1" = _8izIJRPO;
         "pkg-1.0.2" = _s7ERyqY0;
         "pkg-2.0" = _BGJnliGC;
-        "default" = _BGJnliGC;
+        "pkg-2.0.1" = _7n7hP6ND;
+        "default" = _7n7hP6ND;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "turnips-animated-lanterns";

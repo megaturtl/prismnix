@@ -1056,6 +1056,26 @@ let
             "file" = "Safra-forge-1.16.5-3.0.jar";
             "hash" = "sha512-KfRWhBzLO9YNll+HqZQk8DjRh85A30AnsIF3uavXNcEbtpEWreADOfHxs8ipFxF78L5bBfNWvDw/rP7QTsgtEw==";
         };
+        _aSjnz8S9 = {
+            "id" = "aSjnz8S9";
+            "file" = "Safra-fabric-26.3-3.2.jar";
+            "hash" = "sha512-WspRihtZVNb/Y5onyTympGWeh4qAB/52y0A1zkUma2lmGQtNwQMQADC6tYQxWyX0w57LM+ULpe/JXHrB8bMYRA==";
+        };
+        _n8EzHfIf = {
+            "id" = "n8EzHfIf";
+            "file" = "Safra-neoforge-26.3-3.2.jar";
+            "hash" = "sha512-yU9Llc/EQB2qITzyqGO/P608zY2sKV8kMTeAhDHg8/mBinnFKMSlzxmJD4ELCSCNAHBhZ322JX53dRb1Byrp2g==";
+        };
+        _dEQy9JV4 = {
+            "id" = "dEQy9JV4";
+            "file" = "Safra-neoforge-1.21.1-3.2.jar";
+            "hash" = "sha512-BgyAwMiIeSzwmAn3t2CWCH85uQSN6aU44GB/v9AvOf13OxmyLoRo6LXEfdMIk7Fr2njv4A07YE2C/DAj1YrUpQ==";
+        };
+        _zG7CaKTC = {
+            "id" = "zG7CaKTC";
+            "file" = "Safra-forge-26.3-3.2.jar";
+            "hash" = "sha512-cYS3l0yvTZWexJ4Z6ksnAnkx6e4xmOSc8PNtTV55pEca6UJhLOKLZLXO+SSatqVMD+qC0wQ0hLDTK8jcH6D5Yw==";
+        };
     in {
         "GwnaEaJ4" = _GwnaEaJ4;
         "OZvU4X1N" = _OZvU4X1N;
@@ -1268,6 +1288,10 @@ let
         "IDE14Jrs" = _IDE14Jrs;
         "rn1m2sLC" = _rn1m2sLC;
         "zGjuQeFM" = _zGjuQeFM;
+        "aSjnz8S9" = _aSjnz8S9;
+        "n8EzHfIf" = _n8EzHfIf;
+        "dEQy9JV4" = _dEQy9JV4;
+        "zG7CaKTC" = _zG7CaKTC;
         "fabric-26.1" = _g2SWzVpV;
         "fabric-1.21.11" = _nGMSZTMe;
         "fabric-26.1.1" = _3L9cpNNS;
@@ -1307,6 +1331,7 @@ let
         "fabric-1.17.1" = _va2l0y8h;
         "fabric-1.16.4" = _X293X8wA;
         "fabric-1.16.5" = _hzRltxW6;
+        "fabric-26.3" = _aSjnz8S9;
         "forge-26.1" = _RHbDMPSs;
         "forge-26.1.1" = _AyC5doki;
         "forge-26.1.2" = _KMUeeUvk;
@@ -1343,10 +1368,11 @@ let
         "forge-1.17.1" = _7BeLLuzS;
         "forge-1.16.5" = _zGjuQeFM;
         "forge-1.16.4" = _rn1m2sLC;
+        "forge-26.3" = _zG7CaKTC;
         "neoforge-26.1" = _SoWSAT6Q;
         "neoforge-1.21.11" = _f3MWX4Jg;
         "neoforge-26.1.2" = _TxSX9IyQ;
-        "neoforge-1.21.1" = _vpLLxwZn;
+        "neoforge-1.21.1" = _dEQy9JV4;
         "neoforge-1.21.7" = _fukjOegW;
         "neoforge-1.21.6" = _tQllyo4j;
         "neoforge-1.21.4" = _T2hwIUW0;
@@ -1362,6 +1388,7 @@ let
         "neoforge-1.21.2" = _EgNiAjZT;
         "neoforge-1.20.5" = _sDD3yQUh;
         "neoforge-1.20.6" = _sDD3yQUh;
+        "neoforge-26.3" = _n8EzHfIf;
         "pkg-1.0" = _Yrf74HJF;
         "pkg-2.0" = _TXx7JPgJ;
         "pkg-2.0.1" = _74DhgPAE;
@@ -1369,7 +1396,8 @@ let
         "pkg-2.5" = _ae3zpMV6;
         "pkg-2.6" = _B0eWzgd2;
         "pkg-3.0" = _zGjuQeFM;
-        "default" = _zGjuQeFM;
+        "pkg-3.2" = _zG7CaKTC;
+        "default" = _zG7CaKTC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "safra";

@@ -11,9 +11,15 @@ let
             "file" = "Circular-Sun-and-Moon.zip";
             "hash" = "sha512-5GZx0o+AYUj8YsKzw9gTo5yzdAojeGYTL299Eh6Wsg0DVnGYqepCDy71nz//7jAZvsR7nqIiHbwV2Uki2Miq7g==";
         };
+        _zTqdw8zj = {
+            "id" = "zTqdw8zj";
+            "file" = "circular-sun-and-moon-26.3.zip";
+            "hash" = "sha512-qv6e0G7yhuM9TcD1CbHElpUyeD+w3l4N23hwWXRfvPPXn3xiDR+8urxUo2jwC/AbtxxZ6hXa+HfxYwhNFgiSzw==";
+        };
     in {
         "FtU0kTeP" = _FtU0kTeP;
         "WjCtkN80" = _WjCtkN80;
+        "zTqdw8zj" = _zTqdw8zj;
         "minecraft-1.17" = _FtU0kTeP;
         "minecraft-1.17.1" = _FtU0kTeP;
         "minecraft-1.18" = _FtU0kTeP;
@@ -47,9 +53,11 @@ let
         "minecraft-26.1.1" = _WjCtkN80;
         "minecraft-26.1.2" = _WjCtkN80;
         "minecraft-26.2" = _WjCtkN80;
+        "minecraft-26.3" = _zTqdw8zj;
         "pkg-1.21.10" = _FtU0kTeP;
         "pkg-26.2" = _WjCtkN80;
-        "default" = _WjCtkN80;
+        "pkg-26.3" = _zTqdw8zj;
+        "default" = _zTqdw8zj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "circular_sun_and_moon";

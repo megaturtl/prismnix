@@ -56,6 +56,21 @@ let
             "file" = "flimsytorches-1.21.1-1.1.3.1.jar";
             "hash" = "sha512-XbDF/JHS2vBLd5MFiCBAUxbGo4t9anJIn5OHcs597fu3QxQ0v98benR1KRCqt8MwQVhLzkIDFkVQO2DNNoZUOw==";
         };
+        _PQU71WBp = {
+            "id" = "PQU71WBp";
+            "file" = "flimsytorches-1.19.2-1.1.4.0.jar";
+            "hash" = "sha512-/5OJ5Ga+sBwC6axWsktFjQ6mnZK9F1F9MaYbaQoBdJnBvkhFI18+lDrvB7VJ6Nmoc3tv3F2EyhVvZwelQ+4aCQ==";
+        };
+        _nc1VGyEH = {
+            "id" = "nc1VGyEH";
+            "file" = "flimsytorches-1.20.1-1.1.4.0.jar";
+            "hash" = "sha512-mCwl5z0FaLp5YHFaTfdnXQD7/lIFjyZ18GBsZaTPr2Rz0YZQJl5yxBpZ2zV27BIYAb42V7oWiXD0YCWquTRGxA==";
+        };
+        _nwEzM5lu = {
+            "id" = "nwEzM5lu";
+            "file" = "flimsytorches-1.21.1-1.1.4.0.jar";
+            "hash" = "sha512-wx2XnEoZA/v7a+4KkD617Znngvp81nJjKFrbUshth/mGsrtVYQAwbzsn8TxSPeyzSap/NaXlXFG62I79jz8VNg==";
+        };
     in {
         "YToK0Ksa" = _YToK0Ksa;
         "i0SqyMB6" = _i0SqyMB6;
@@ -68,11 +83,14 @@ let
         "7CFGI2K8" = _7CFGI2K8;
         "ScjMPwrk" = _ScjMPwrk;
         "ovKaZIxs" = _ovKaZIxs;
+        "PQU71WBp" = _PQU71WBp;
+        "nc1VGyEH" = _nc1VGyEH;
+        "nwEzM5lu" = _nwEzM5lu;
         "forge-1.16.4" = _YToK0Ksa;
         "forge-1.16.5" = _YToK0Ksa;
-        "forge-1.20.1" = _nrc4W0mG;
-        "forge-1.19.2" = _ScjMPwrk;
-        "neoforge-1.21.1" = _ovKaZIxs;
+        "forge-1.20.1" = _nc1VGyEH;
+        "forge-1.19.2" = _PQU71WBp;
+        "neoforge-1.21.1" = _nwEzM5lu;
         "pkg-1.16.4-1.0.0" = _YToK0Ksa;
         "pkg-1.20.1-1.0.0.0" = _i0SqyMB6;
         "pkg-1.20.1-1.0.1.1" = _VkZyOY2v;
@@ -84,7 +102,10 @@ let
         "pkg-1.21.1-1.1.3.0" = _7CFGI2K8;
         "pkg-1.19.2-1.1.3.0" = _ScjMPwrk;
         "pkg-1.21.1-1.1.3.1" = _ovKaZIxs;
-        "default" = _ovKaZIxs;
+        "pkg-1.19.2-1.1.4.0" = _PQU71WBp;
+        "pkg-1.20.1-1.1.4.0" = _nc1VGyEH;
+        "pkg-1.21.1-1.1.4.0" = _nwEzM5lu;
+        "default" = _nwEzM5lu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "flimsy-torches";

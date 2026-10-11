@@ -216,6 +216,66 @@ let
             "file" = "dungeons-and-taverns-pillager-outpost-overhaul-v3.3.jar";
             "hash" = "sha512-QdwwpL5v9h9x43oS8p/WqH0tzTs4HWdWlOWekUL8CWXVqIVQFbUDG9vku0nEWfIu3bXx6VZoa7ISQfcX59mD8Q==";
         };
+        _txa92mNq = {
+            "id" = "txa92mNq";
+            "file" = "DnT Pillager Outpost Overhaul v3.4.zip";
+            "hash" = "sha512-D48+STth2FIyYasPvGsUV08SwHKlLQOmBIj2+0Y9JkQ3Flsc5pyojbzS3taujkuoAlEs2GVKlQFPjoUVW27VyA==";
+        };
+        _VTSOfGzA = {
+            "id" = "VTSOfGzA";
+            "file" = "dungeons-and-taverns-pillager-outpost-overhaul-3.4.jar";
+            "hash" = "sha512-SUhXT259Sp1ahfTEHgXOToTj1XiGVcgB6WpMt72FE3mx/WeSP5/Co1+9xOm89SDOthZs6I9zit72vB5XxRIguA==";
+        };
+        _ItFZlwSP = {
+            "id" = "ItFZlwSP";
+            "file" = "dungeons-and-taverns-pillager-outpost-overhaul-3.4.jar";
+            "hash" = "sha512-Yp6erzWPUIJOJYi8kgTP4jtL7Zzahc9vFvEScmMY2ihkSLhXprstbIYlS/FcaCoNGucry9MviJN67KHDUA1FDQ==";
+        };
+        _Eg6aMIVu = {
+            "id" = "Eg6aMIVu";
+            "file" = "dungeons-and-taverns-pillager-outpost-overhaul-3.4.jar";
+            "hash" = "sha512-JezdfGgWVUGghjQGfBJa59picdrTx1Vjp+iHnGqqNRo8kptLx8YRuSYvlvq+oR6ggf39lRB8wBXjS6+Q//QXzA==";
+        };
+        _a9mTOT0B = {
+            "id" = "a9mTOT0B";
+            "file" = "DnT Pillager Outpost Overhaul v3.4.1.zip";
+            "hash" = "sha512-0NnOdizodU6NXO/Or4EmvTBQRhKv1ewK6yQs5g+iEFWdjtyLCxLnsg9aNBUTSbwLO13hur6fjJ0HKv9Tn8hifg==";
+        };
+        _f2s0UqkH = {
+            "id" = "f2s0UqkH";
+            "file" = "dungeons-and-taverns-pillager-outpost-overhaul-3.4.1.jar";
+            "hash" = "sha512-+97SrzzL03JgViEevdmRLeXLnDxefbeFrbykuKk79KIoTvkqfvz5zyzDA3bxaDaOAIsfpghRnnjvaX2O3b/pvw==";
+        };
+        _K3vMx1bb = {
+            "id" = "K3vMx1bb";
+            "file" = "dungeons-and-taverns-pillager-outpost-overhaul-3.4.1.jar";
+            "hash" = "sha512-yKNbtsEr5vqnAhsnZMiKv+uoaL13R66Z7+E7Yj6MD5rxi/wO+xZ3vApB0/wSxWtV0EBjH8etC3+m+iEVB3lSrg==";
+        };
+        _gn3kHLCn = {
+            "id" = "gn3kHLCn";
+            "file" = "dungeons-and-taverns-pillager-outpost-overhaul-3.4.1.jar";
+            "hash" = "sha512-rdUJ+e/pVLWEK2buffeKfB8Hz3ONXpEFzUy19hB7gBdPUli88b1CEFUjZLto8wmZMceySsKpFSykw743olnZuA==";
+        };
+        _VVgeqtuj = {
+            "id" = "VVgeqtuj";
+            "file" = "DnT Pillager Outpost Overhaul 3.4.2.zip";
+            "hash" = "sha512-cjEOOr1A0XfiZCn990kGQfH2IAUNBBDTdi0tzuUyrScEUxhJmgesygd/6xbyX/L62wessrLMJt4wJjtQ6g6/HQ==";
+        };
+        _nCmbkuPY = {
+            "id" = "nCmbkuPY";
+            "file" = "dungeons-and-taverns-pillager-outpost-overhaul-3.4.2.jar";
+            "hash" = "sha512-rK2THHsVrJzo30TQEnrrzmzoSAXePYQcxVtZ0xryRn3jFLTg9NE3q+gMTJIVDJ5qTrT4E9sxHN0f6jbPCAOChQ==";
+        };
+        _fVpU9NIq = {
+            "id" = "fVpU9NIq";
+            "file" = "dungeons-and-taverns-pillager-outpost-overhaul-3.4.2.jar";
+            "hash" = "sha512-A/d/BZWm2IuKdfLmc4aD+KOyo5zadLDKdKI/ann/e58/+6KTMH/6QGoaWmK/JK34tAw8YNQysvIkLnEu1/jrqA==";
+        };
+        _EOeYYGWK = {
+            "id" = "EOeYYGWK";
+            "file" = "dungeons-and-taverns-pillager-outpost-overhaul-3.4.2.jar";
+            "hash" = "sha512-cBkzlhzOUlLcbLohrJ/QrSi18bX9qWC7BuKykDefubCCcEA3UQ/iscoV2t7IViHBZru/eZ551qRNzKSiccQe6w==";
+        };
     in {
         "Zks6mgDA" = _Zks6mgDA;
         "6NLolIXw" = _6NLolIXw;
@@ -260,6 +320,18 @@ let
         "GPXkMYNM" = _GPXkMYNM;
         "lMTVSUBG" = _lMTVSUBG;
         "Lq3asUK6" = _Lq3asUK6;
+        "txa92mNq" = _txa92mNq;
+        "VTSOfGzA" = _VTSOfGzA;
+        "ItFZlwSP" = _ItFZlwSP;
+        "Eg6aMIVu" = _Eg6aMIVu;
+        "a9mTOT0B" = _a9mTOT0B;
+        "f2s0UqkH" = _f2s0UqkH;
+        "K3vMx1bb" = _K3vMx1bb;
+        "gn3kHLCn" = _gn3kHLCn;
+        "VVgeqtuj" = _VVgeqtuj;
+        "nCmbkuPY" = _nCmbkuPY;
+        "fVpU9NIq" = _fVpU9NIq;
+        "EOeYYGWK" = _EOeYYGWK;
         "datapack-1.20" = _SoS3zxpO;
         "datapack-1.20.1" = _SoS3zxpO;
         "datapack-1.20.2" = _SoS3zxpO;
@@ -283,6 +355,7 @@ let
         "datapack-26.1.1" = _uAHOlrKb;
         "datapack-26.1.2" = _uAHOlrKb;
         "datapack-26.2" = _uAHOlrKb;
+        "datapack-26.3" = _VVgeqtuj;
         "forge-1.20" = _kAjXYon3;
         "forge-1.20.1" = _kAjXYon3;
         "forge-1.20.2" = _kAjXYon3;
@@ -305,6 +378,7 @@ let
         "forge-26.1.1" = _Lq3asUK6;
         "forge-26.1.2" = _Lq3asUK6;
         "forge-26.2" = _Lq3asUK6;
+        "forge-26.3" = _fVpU9NIq;
         "fabric-1.20" = _rXFz7ljL;
         "fabric-1.20.1" = _rXFz7ljL;
         "fabric-1.20.2" = _rXFz7ljL;
@@ -327,6 +401,7 @@ let
         "fabric-26.1.1" = _GPXkMYNM;
         "fabric-26.1.2" = _GPXkMYNM;
         "fabric-26.2" = _GPXkMYNM;
+        "fabric-26.3" = _nCmbkuPY;
         "neoforge-1.21" = _4XIbhTdE;
         "neoforge-1.21.1" = _4XIbhTdE;
         "neoforge-1.21.2" = _XFhPNBEC;
@@ -343,6 +418,7 @@ let
         "neoforge-26.1.1" = _lMTVSUBG;
         "neoforge-26.1.2" = _lMTVSUBG;
         "neoforge-26.2" = _lMTVSUBG;
+        "neoforge-26.3" = _EOeYYGWK;
         "pkg-1" = _Zks6mgDA;
         "pkg-1+mod" = _Y8fDTpiv;
         "pkg-1.1" = _sqYXceFm;
@@ -368,7 +444,13 @@ let
         "pkg-v3.2.1+mod" = _IZmOkxf6;
         "pkg-v3.3" = _uAHOlrKb;
         "pkg-v3.3+mod" = _Lq3asUK6;
-        "default" = _Lq3asUK6;
+        "pkg-3.4" = _txa92mNq;
+        "pkg-3.4+mod" = _Eg6aMIVu;
+        "pkg-3.4.1" = _a9mTOT0B;
+        "pkg-3.4.1+mod" = _gn3kHLCn;
+        "pkg-3.4.2" = _VVgeqtuj;
+        "pkg-3.4.2+mod" = _EOeYYGWK;
+        "default" = _EOeYYGWK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dungeons-and-taverns-pillager-outpost-overhaul";

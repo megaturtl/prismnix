@@ -11,14 +11,22 @@ let
             "file" = "gamediscs-0.4.0-fabric-mc26.2.jar";
             "hash" = "sha512-VnhjjnJkFs5Xph8CigmqxRc0jFSQ0id7EKI7KmBYpdhHGbDqjvST0w6wEpsidFTjW9ZReofYsHdCeeOt1YBSrQ==";
         };
+        _eOCUano6 = {
+            "id" = "eOCUano6";
+            "file" = "gamediscs-0.4.0-fabric-mc26.3.jar";
+            "hash" = "sha512-a30AM+Hwm4feGJflYc17rhyil+R3JlmTU+9BQHPmJI8kDi7gQf5/IMVDPlQ+A52vmEH4/hOf7WjnGZNWCGQRzA==";
+        };
     in {
         "pCneexFW" = _pCneexFW;
         "tFSbFEb0" = _tFSbFEb0;
+        "eOCUano6" = _eOCUano6;
         "fabric-1.21.1" = _pCneexFW;
         "fabric-26.2" = _tFSbFEb0;
+        "fabric-26.3" = _eOCUano6;
         "pkg-0.3.8-fabric" = _pCneexFW;
         "pkg-0.4.0-fabric-mc26.2" = _tFSbFEb0;
-        "default" = _tFSbFEb0;
+        "pkg-0.4.0-fabric-mc26.3" = _eOCUano6;
+        "default" = _eOCUano6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "game-disc-plus";

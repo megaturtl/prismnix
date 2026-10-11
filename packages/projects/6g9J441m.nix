@@ -96,6 +96,11 @@ let
             "file" = "keybindprofiles-1.0.3-26.2.jar";
             "hash" = "sha512-5p+Gzim90431r7vkVR3kMHuwuw0u0PXCgWmCnkSVw8ZiX80O2thnCLu23VT6uzIGTBaivEClNPo3sDP7TDGtUA==";
         };
+        _EsZ7NdGr = {
+            "id" = "EsZ7NdGr";
+            "file" = "keybindprofiles-1.0.3-26.3.jar";
+            "hash" = "sha512-p+y/eST9pra6QnktBkgbwWAR7mcjwWrz1lbTIP2dprxOVYd7VrvGeqDGbVi7PODT04UE8W1UIdKh0LegVW5oTw==";
+        };
     in {
         "dmoxDBxr" = _dmoxDBxr;
         "eNL8qOh0" = _eNL8qOh0;
@@ -116,6 +121,7 @@ let
         "OvlI1B7I" = _OvlI1B7I;
         "ZTNfCKko" = _ZTNfCKko;
         "AE8Izh15" = _AE8Izh15;
+        "EsZ7NdGr" = _EsZ7NdGr;
         "fabric-1.21" = _8REyZECn;
         "fabric-1.21.1" = _9Cnnmc7W;
         "fabric-1.21.2" = _9Cnnmc7W;
@@ -132,13 +138,14 @@ let
         "fabric-26.1.1" = _ZTNfCKko;
         "fabric-26.1.2" = _ZTNfCKko;
         "fabric-26.2" = _AE8Izh15;
+        "fabric-26.3" = _EsZ7NdGr;
         "pkg-0.1.0" = _dmoxDBxr;
         "pkg-0.2.0" = _MQQOPP0V;
         "pkg-1.0.0" = _gwSuEKnU;
         "pkg-1.0.1" = _OfK4eUzu;
         "pkg-1.0.2" = _ULKguTDT;
-        "pkg-1.0.3" = _AE8Izh15;
-        "default" = _AE8Izh15;
+        "pkg-1.0.3" = _EsZ7NdGr;
+        "default" = _EsZ7NdGr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "keybindprofiles";

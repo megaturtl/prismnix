@@ -26,18 +26,31 @@ let
             "file" = "1.21.4 Fantasy Illagers v1.1.jar";
             "hash" = "sha512-+CXSYOM6PeCxHz1QjUe/XZm0+nU63CGmf1YG1KAa00nEC7m57smgy2ApCaZo5aEydaVOissn5IK/vhE9UoEYCw==";
         };
+        _SWqtdlcJ = {
+            "id" = "SWqtdlcJ";
+            "file" = "1.20.1 Fantasy Illagers v1.1.1.jar";
+            "hash" = "sha512-aiatqvVS7wvgYCnFB6Zb1kia2dSX0W4OfluIVa5TmypQuQ0B8z9Qe5fseVvWUmq0pnpDIVNe8z3ioZgwqvaQqQ==";
+        };
+        _gGkTiG8t = {
+            "id" = "gGkTiG8t";
+            "file" = "1.21.1 Fantasy Illagers v1.1.1.jar";
+            "hash" = "sha512-81du1rGPkgWLrfTM82gUPLsUWft0rikeq+sJPrb0CubmNwLgB2rRedrfL4lHN9r+u0IivqBgB3F9ORfOuw6KGQ==";
+        };
     in {
         "21XiJsqp" = _21XiJsqp;
         "jcpFBglr" = _jcpFBglr;
         "xos6LEmX" = _xos6LEmX;
         "JcVPPYa9" = _JcVPPYa9;
         "2L0J2aT4" = _2L0J2aT4;
-        "neoforge-1.21.1" = _JcVPPYa9;
+        "SWqtdlcJ" = _SWqtdlcJ;
+        "gGkTiG8t" = _gGkTiG8t;
+        "neoforge-1.21.1" = _gGkTiG8t;
         "neoforge-1.21.4" = _2L0J2aT4;
-        "forge-1.20.1" = _xos6LEmX;
+        "forge-1.20.1" = _SWqtdlcJ;
         "pkg-1.0.0" = _jcpFBglr;
         "pkg-1.1.0" = _2L0J2aT4;
-        "default" = _2L0J2aT4;
+        "pkg-1.1.1" = _gGkTiG8t;
+        "default" = _gGkTiG8t;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fantasy-illagers";

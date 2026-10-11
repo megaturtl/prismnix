@@ -51,6 +51,11 @@ let
             "file" = "stringduperfix-1.9.jar";
             "hash" = "sha512-ux3quV0XklsP7a3LCeTlT3ErxKHcDFwZIeXaG1UfeSpVvpbkwhzCZlwFeFB9/OxvcyQMue2oxHGLW/m2FWsWrw==";
         };
+        _tUV01MIE = {
+            "id" = "tUV01MIE";
+            "file" = "stringduperfix-1.10.jar";
+            "hash" = "sha512-G6dpbgQERtiQrrxvbLxk3D1SS3w3NJGxpNpap/z9kVTROYQuNbzLG0EsmBjEcje/02l8hZGuy5CXKWUKkJXhmg==";
+        };
     in {
         "SSsDhc2m" = _SSsDhc2m;
         "EoFOcSDE" = _EoFOcSDE;
@@ -62,6 +67,7 @@ let
         "zL97JN0R" = _zL97JN0R;
         "yd3qnl8c" = _yd3qnl8c;
         "Gepc42F0" = _Gepc42F0;
+        "tUV01MIE" = _tUV01MIE;
         "fabric-1.21.3" = _j8Z92xRp;
         "fabric-1.21.4" = _j8Z92xRp;
         "fabric-1.21.5" = _j8Z92xRp;
@@ -78,6 +84,7 @@ let
         "fabric-26.1.1" = _yd3qnl8c;
         "fabric-26.1.2" = _yd3qnl8c;
         "fabric-26.2" = _Gepc42F0;
+        "fabric-26.3" = _tUV01MIE;
         "pkg-1.0" = _SSsDhc2m;
         "pkg-1.1" = _EoFOcSDE;
         "pkg-1.2" = _Ew0uEgjj;
@@ -88,7 +95,8 @@ let
         "pkg-1.7" = _zL97JN0R;
         "pkg-1.8" = _yd3qnl8c;
         "pkg-1.9" = _Gepc42F0;
-        "default" = _Gepc42F0;
+        "pkg-1.10" = _tUV01MIE;
+        "default" = _tUV01MIE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "string-duper-fix-remover";

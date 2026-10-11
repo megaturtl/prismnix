@@ -16,15 +16,22 @@ let
             "file" = "clumpedindistortionworld-1.0.2.jar";
             "hash" = "sha512-tJ+RKraldR6C6uWk49V5VI87e5bpqMBcj08IH5foPo4QIHArUbxida7PDUnCfxd5gFXpe5eTIy1o6Kl/sHxFDQ==";
         };
+        _Qdb360Ne = {
+            "id" = "Qdb360Ne";
+            "file" = "clumpedindistortionworld-1.0.3.jar";
+            "hash" = "sha512-96ZbcFPrgTYc8Oo3LkK8j+MU0LFym++i7ZJwaF+AFmUPcabiHQ2IIaP9JS0trlytxL3/VqDnv6qhNKDr7ORhlQ==";
+        };
     in {
         "5Mor2Zul" = _5Mor2Zul;
         "a0Aa3Hf2" = _a0Aa3Hf2;
         "cl3y8KSG" = _cl3y8KSG;
-        "fabric-1.21.1" = _cl3y8KSG;
+        "Qdb360Ne" = _Qdb360Ne;
+        "fabric-1.21.1" = _Qdb360Ne;
         "pkg-1.0.0" = _5Mor2Zul;
         "pkg-1.0.1" = _a0Aa3Hf2;
         "pkg-1.0.2" = _cl3y8KSG;
-        "default" = _cl3y8KSG;
+        "pkg-1.0.3" = _Qdb360Ne;
+        "default" = _Qdb360Ne;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-distortion-world";

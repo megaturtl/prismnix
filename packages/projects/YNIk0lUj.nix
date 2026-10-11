@@ -31,6 +31,16 @@ let
             "file" = "diet-forge-3.0.2+1.20.1.jar";
             "hash" = "sha512-xNS1vMgUv5BPa8OmNGIwaUTaHQqr8lGdhk7aSJIwgoeiE4Y8Y536iofgMNt/S1qshdmVrdsstXTIjo0P4haZpw==";
         };
+        _CR7XWWxE = {
+            "id" = "CR7XWWxE";
+            "file" = "diet-fabric-3.1.0+1.20.1.jar";
+            "hash" = "sha512-T19Q1dKXwO5e5EDSgSq59lY9xhiZVRKiY4Lm/fOPnRMgYCyFGQbFne87F3Ta5dEVuutr56UAYmYgbB1C0MoCDg==";
+        };
+        _nbWVyghE = {
+            "id" = "nbWVyghE";
+            "file" = "diet-forge-3.1.0+1.20.1.jar";
+            "hash" = "sha512-GRU77mwGwjrOfrTp40lhcYGE/OggkUvcljb5/GUd8zLxPe/x7idDwFxOgWsN0cAHTVrExRvYNiYXSiCdBbx9WQ==";
+        };
     in {
         "xI3FvLgU" = _xI3FvLgU;
         "o5MXkAwd" = _o5MXkAwd;
@@ -38,24 +48,27 @@ let
         "bb7S6Aox" = _bb7S6Aox;
         "f577mNoF" = _f577mNoF;
         "QNYPKWEx" = _QNYPKWEx;
-        "fabric-1.20" = _f577mNoF;
-        "fabric-1.20.1" = _f577mNoF;
-        "fabric-1.20.2" = _f577mNoF;
-        "fabric-1.20.3" = _f577mNoF;
-        "fabric-1.20.4" = _f577mNoF;
-        "fabric-1.20.5" = _f577mNoF;
-        "fabric-1.20.6" = _f577mNoF;
-        "forge-1.20" = _QNYPKWEx;
-        "forge-1.20.1" = _QNYPKWEx;
-        "forge-1.20.2" = _QNYPKWEx;
-        "forge-1.20.3" = _QNYPKWEx;
-        "forge-1.20.4" = _QNYPKWEx;
-        "forge-1.20.5" = _QNYPKWEx;
-        "forge-1.20.6" = _QNYPKWEx;
+        "CR7XWWxE" = _CR7XWWxE;
+        "nbWVyghE" = _nbWVyghE;
+        "fabric-1.20" = _CR7XWWxE;
+        "fabric-1.20.1" = _CR7XWWxE;
+        "fabric-1.20.2" = _CR7XWWxE;
+        "fabric-1.20.3" = _CR7XWWxE;
+        "fabric-1.20.4" = _CR7XWWxE;
+        "fabric-1.20.5" = _CR7XWWxE;
+        "fabric-1.20.6" = _CR7XWWxE;
+        "forge-1.20" = _nbWVyghE;
+        "forge-1.20.1" = _nbWVyghE;
+        "forge-1.20.2" = _nbWVyghE;
+        "forge-1.20.3" = _nbWVyghE;
+        "forge-1.20.4" = _nbWVyghE;
+        "forge-1.20.5" = _nbWVyghE;
+        "forge-1.20.6" = _nbWVyghE;
         "pkg-3.0.0+1.20.1" = _o5MXkAwd;
         "pkg-3.0.1+1.20.1" = _bb7S6Aox;
         "pkg-3.0.2+1.20.1" = _QNYPKWEx;
-        "default" = _QNYPKWEx;
+        "pkg-3.1.0+1.20.1" = _nbWVyghE;
+        "default" = _nbWVyghE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "a-balanced-diet";

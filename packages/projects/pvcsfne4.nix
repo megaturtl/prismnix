@@ -106,6 +106,16 @@ let
             "file" = "chefsdelight-1.0.6-fabric-26.2.jar";
             "hash" = "sha512-lVOhBatbmGpDD4MIdRUrUG73RWdJ+ncUOYrlnHVHRF51xgp0QaMdfSXd+tpmJSq31CKzoVBQpPSMIaPsPXMMdA==";
         };
+        _N8hZwT7r = {
+            "id" = "N8hZwT7r";
+            "file" = "chefsdelight-1.0.6.jar";
+            "hash" = "sha512-qQUsc0Pq2Hb9PHcuLGvSdORAG9rWZFhmf5qc9epSwneOy7QFGpI4q59kMKDYO+BhkkCpxv8ycyoZFryW2CFI9g==";
+        };
+        _2xW9d8wE = {
+            "id" = "2xW9d8wE";
+            "file" = "chefs-delight-1.0.5-forge-1.20.1.jar";
+            "hash" = "sha512-qloOgrF0XDLFb9TVtrRk9BV85ii1ASWymKvoeSryU+cEXgnN8HKvuxLEPPvvfF1bpj2npUQ4+zTkHObLJ5p38Q==";
+        };
     in {
         "2V2eUK6V" = _2V2eUK6V;
         "DVvpPN0G" = _DVvpPN0G;
@@ -128,10 +138,12 @@ let
         "XggiVYeE" = _XggiVYeE;
         "EXu0Q4KH" = _EXu0Q4KH;
         "ArJ8wpA5" = _ArJ8wpA5;
+        "N8hZwT7r" = _N8hZwT7r;
+        "2xW9d8wE" = _2xW9d8wE;
         "forge-1.18.2" = _dS6ouy8c;
         "forge-1.19.2" = _fDgIzV8G;
         "forge-1.20" = _5tGfF2Ok;
-        "forge-1.20.1" = _Sfp59yfH;
+        "forge-1.20.1" = _2xW9d8wE;
         "fabric-1.18.2" = _LapAm0yv;
         "fabric-1.19.2" = _9IhdnUKg;
         "fabric-1.20.1" = _XYvlR0wq;
@@ -142,7 +154,7 @@ let
         "fabric-1.21.10" = _XggiVYeE;
         "fabric-1.21.11" = _EXu0Q4KH;
         "fabric-26.2" = _ArJ8wpA5;
-        "neoforge-1.21.1" = _csBO1q5h;
+        "neoforge-1.21.1" = _N8hZwT7r;
         "pkg-1.0.2-forge-1.18.2" = _2V2eUK6V;
         "pkg-1.0.3-fabric-1.18.2" = _DVvpPN0G;
         "pkg-1.0.2-forge-1.19.2" = _CwV7mj5e;
@@ -164,7 +176,9 @@ let
         "pkg-1.0.5-fabric-1.21.10" = _XggiVYeE;
         "pkg-1.0.5-fabric-1.21.11" = _EXu0Q4KH;
         "pkg-1.0.6-fabric-26.2" = _ArJ8wpA5;
-        "default" = _ArJ8wpA5;
+        "pkg-1.0.6-neoforge-1.21.1" = _N8hZwT7r;
+        "pkg-1.0.5-forge-1.20.1" = _2xW9d8wE;
+        "default" = _2xW9d8wE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chefs-delight";

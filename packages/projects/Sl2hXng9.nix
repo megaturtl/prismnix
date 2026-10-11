@@ -56,6 +56,21 @@ let
             "file" = "TreeCapitator v4.7.zip";
             "hash" = "sha512-P0+4T/y54TccFNmeNRktqPV1Y0vuYndwIfOxslsef11/63Ioo9gIFPTd7TZAOov4KOIOnD9Obrp5OCWk44B5kA==";
         };
+        _mq0pndB4 = {
+            "id" = "mq0pndB4";
+            "file" = "TreeCapitator v4.6.2.zip";
+            "hash" = "sha512-lXXDT/zCl2VCtvVj1T7pIxAoQjrQH4KEFjujKLbZbcKDY1n78HdwBaBPgK5nIIiV/csFORywAOcbT1v+TxtvNg==";
+        };
+        _p4E9qNnV = {
+            "id" = "p4E9qNnV";
+            "file" = "TreeCapitator v4.7.2.zip";
+            "hash" = "sha512-/zaGO+TzG3Ju5uTLxOtnQBRjB8bfOixRscis8xjjRhpdEnfL+/XjWVkVNw9t5fkPpSulbGXwsyS6DIJTTld4Fw==";
+        };
+        _Ym38p2HO = {
+            "id" = "Ym38p2HO";
+            "file" = "TreeCapitator v4.8_Beta.zip";
+            "hash" = "sha512-jeBdmBi8roLlYGiAvGlj/XXACudwzS7J+fJ59x/79oKpJuLIwP8Cet3xQUYHTt5IMiBEr4XtaQDylB3m+Qq4kw==";
+        };
     in {
         "4Wr1eR88" = _4Wr1eR88;
         "yrIx4r0w" = _yrIx4r0w;
@@ -68,6 +83,9 @@ let
         "nclAjhba" = _nclAjhba;
         "1cbGgWPi" = _1cbGgWPi;
         "jlr4Zy98" = _jlr4Zy98;
+        "mq0pndB4" = _mq0pndB4;
+        "p4E9qNnV" = _p4E9qNnV;
+        "Ym38p2HO" = _Ym38p2HO;
         "datapack-1.19" = _4Wr1eR88;
         "datapack-1.19.1" = _4Wr1eR88;
         "datapack-1.19.2" = _4Wr1eR88;
@@ -89,9 +107,10 @@ let
         "datapack-1.21.6" = _IUsZxK2r;
         "datapack-1.21.7" = _nclAjhba;
         "datapack-1.21.8" = _nclAjhba;
-        "datapack-1.21.9" = _1cbGgWPi;
-        "datapack-1.21.10" = _1cbGgWPi;
-        "datapack-1.21.11" = _jlr4Zy98;
+        "datapack-1.21.9" = _mq0pndB4;
+        "datapack-1.21.10" = _mq0pndB4;
+        "datapack-1.21.11" = _p4E9qNnV;
+        "datapack-26.3" = _Ym38p2HO;
         "fabric-1.20.5" = _2XHTVph3;
         "fabric-1.20.6" = _2XHTVph3;
         "pkg-2.8-2" = _4Wr1eR88;
@@ -105,7 +124,10 @@ let
         "pkg-4.5" = _nclAjhba;
         "pkg-4.6" = _1cbGgWPi;
         "pkg-4.7" = _jlr4Zy98;
-        "default" = _jlr4Zy98;
+        "pkg-4.6.2" = _mq0pndB4;
+        "pkg-4.7.2" = _p4E9qNnV;
+        "pkg-4.8_Beta" = _Ym38p2HO;
+        "default" = _Ym38p2HO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tree-chopping";

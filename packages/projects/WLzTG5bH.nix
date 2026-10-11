@@ -86,6 +86,11 @@ let
             "file" = "experienceprogress-fabric-2.0.0+26.3.jar";
             "hash" = "sha512-9SlvOPtzNR5i/boV5FRUXePwgISbYz4/ANKngWW0rZIwkwvJS3IZ2mA0/u0UnoxzJByKqPlBNWgXOLIAO6q3Rw==";
         };
+        _f8uIeqVf = {
+            "id" = "f8uIeqVf";
+            "file" = "experienceprogress-forge-2.0.0+26.3.jar";
+            "hash" = "sha512-pAInHUOmYqlcUWeThgTt2xA2L7f5sQ+cBKEAH6Gj3pQkYYWh5JEozxsZ1jEZe38SHaHyUjYWvZO9eRPr5ET/jg==";
+        };
     in {
         "HI4x6DDj" = _HI4x6DDj;
         "crGptPIk" = _crGptPIk;
@@ -104,6 +109,7 @@ let
         "fOnuYA78" = _fOnuYA78;
         "cd5NThaR" = _cd5NThaR;
         "gHwqABOZ" = _gHwqABOZ;
+        "f8uIeqVf" = _f8uIeqVf;
         "fabric-1.19" = _HI4x6DDj;
         "fabric-1.19.1" = _HI4x6DDj;
         "fabric-1.19.2" = _HI4x6DDj;
@@ -160,10 +166,12 @@ let
         "quilt-26.1" = _yAnkoAIU;
         "quilt-26.1.1" = _yAnkoAIU;
         "quilt-26.1.2" = _yAnkoAIU;
+        "quilt-26.3" = _gHwqABOZ;
         "forge-26.1" = _ejfm0sdC;
         "forge-26.1.1" = _ejfm0sdC;
         "forge-26.1.2" = _ejfm0sdC;
         "forge-26.2" = _KCCwQ5zH;
+        "forge-26.3" = _f8uIeqVf;
         "neoforge-26.1" = _C3YsFb2W;
         "neoforge-26.1.1" = _C3YsFb2W;
         "neoforge-26.1.2" = _C3YsFb2W;
@@ -186,7 +194,8 @@ let
         "pkg-2.0.0+26.2-fabric" = _fOnuYA78;
         "pkg-2.0.0+26.3-neoforge" = _cd5NThaR;
         "pkg-2.0.0+26.3-fabric" = _gHwqABOZ;
-        "default" = _gHwqABOZ;
+        "pkg-2.0.0+26.3-forge" = _f8uIeqVf;
+        "default" = _f8uIeqVf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "experience-progress";

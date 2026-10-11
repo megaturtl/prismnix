@@ -21,18 +21,25 @@ let
             "file" = "Oreganized Carcinogenius 1.20.1-4.1.0.jar";
             "hash" = "sha512-2rcFNjzBzI5WMIset0E78ZtXu5LqMpwjzJXTzaEhLH1WKs6S6EwxDc36bk9Ex3lHzE0UnqBuAhvOGTl1ImpTFQ==";
         };
+        _jEruVNl9 = {
+            "id" = "jEruVNl9";
+            "file" = "Oreganized Carcinogenius 1.21.1-5.1.0+mc1.21.1.jar";
+            "hash" = "sha512-ZmW6/s+8nQ3sIautCFve//hxMHvqz+LitBorTQpOY0GaeE1DcTy7+8jEq9f2x6O9L6EmYA9F8AikRMblcKi7AQ==";
+        };
     in {
         "mxkbmaBg" = _mxkbmaBg;
         "v2FDwJNa" = _v2FDwJNa;
         "gvKMyOiJ" = _gvKMyOiJ;
         "GTSIdqqo" = _GTSIdqqo;
+        "jEruVNl9" = _jEruVNl9;
         "forge-1.20.1" = _GTSIdqqo;
-        "neoforge-1.21.1" = _gvKMyOiJ;
+        "neoforge-1.21.1" = _jEruVNl9;
         "pkg-4.0.1" = _mxkbmaBg;
         "pkg-4.0.2" = _v2FDwJNa;
         "pkg-5.0.0" = _gvKMyOiJ;
         "pkg-4.1.0" = _GTSIdqqo;
-        "default" = _GTSIdqqo;
+        "pkg-5.1.0" = _jEruVNl9;
+        "default" = _jEruVNl9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "oreganized-carcinogenius";

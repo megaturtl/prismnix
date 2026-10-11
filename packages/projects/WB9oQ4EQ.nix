@@ -21,17 +21,24 @@ let
             "file" = "ironsable-1.2.0.jar";
             "hash" = "sha512-rwsxDBOrUHNleJNvJFnV/Kvo9K/PyZVqcwjcV111YFKzShruUgrux9xB/PkepAHW3mxKOb82Ao9zNsCBBkBdSQ==";
         };
+        _FLthsOQd = {
+            "id" = "FLthsOQd";
+            "file" = "ironsable-1.2.1.jar";
+            "hash" = "sha512-ReKLR0tEGVaxdtpcjnr7gloUjjaBnGmVBqe5GVNuynY/dDcILNQ0Ezb6habq2aDd2Dy2HGTo5aqo4eIZH67znQ==";
+        };
     in {
         "rAcytUbj" = _rAcytUbj;
         "cZG2McJ7" = _cZG2McJ7;
         "oBf8Ra6o" = _oBf8Ra6o;
         "YygBtBBY" = _YygBtBBY;
-        "neoforge-1.21.1" = _YygBtBBY;
+        "FLthsOQd" = _FLthsOQd;
+        "neoforge-1.21.1" = _FLthsOQd;
         "pkg-1.0.0" = _rAcytUbj;
         "pkg-1.1.0" = _cZG2McJ7;
         "pkg-1.1.1" = _oBf8Ra6o;
         "pkg-1.2.0" = _YygBtBBY;
-        "default" = _YygBtBBY;
+        "pkg-1.2.1" = _FLthsOQd;
+        "default" = _FLthsOQd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ironsable";

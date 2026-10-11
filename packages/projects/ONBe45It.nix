@@ -26,12 +26,18 @@ let
             "file" = "nbt-display-1.0.2+26.1.jar";
             "hash" = "sha512-M7cFdSEV8u9vzpj2EFeGgokF90AMPChDL9IYkAUkRJprGYf5QQSmnPNlwT1vY/IBaQPztbo84F7QcQWbVhHggQ==";
         };
+        _si3FBqTA = {
+            "id" = "si3FBqTA";
+            "file" = "nbt-display-1.0.2+26.3.jar";
+            "hash" = "sha512-dFjLZ9sl0mnUqSJgivbz1lKQwq+yNRA7Hn6r2TfoYbOKe5DYFxKCWnVjDM9pEkrOSSAbn6Qjp3V0hx0T2NG9pQ==";
+        };
     in {
         "cMvra0MS" = _cMvra0MS;
         "UR0dyDFV" = _UR0dyDFV;
         "vd0BAQDs" = _vd0BAQDs;
         "rinJ6uo6" = _rinJ6uo6;
         "zVkQvdNc" = _zVkQvdNc;
+        "si3FBqTA" = _si3FBqTA;
         "fabric-1.21.5" = _cMvra0MS;
         "fabric-1.21.6" = _UR0dyDFV;
         "fabric-1.21.7" = _UR0dyDFV;
@@ -50,12 +56,14 @@ let
         "fabric-26.1.1" = _zVkQvdNc;
         "fabric-26.1.2" = _zVkQvdNc;
         "fabric-26.2" = _zVkQvdNc;
+        "fabric-26.3" = _si3FBqTA;
         "pkg-1.0.0+1.21.5" = _cMvra0MS;
         "pkg-1.0.1+1.21.6" = _UR0dyDFV;
         "pkg-1.0.1+1.21.9-pre1" = _vd0BAQDs;
         "pkg-1.0.2+1.21.9" = _rinJ6uo6;
         "pkg-1.0.2+26.1" = _zVkQvdNc;
-        "default" = _zVkQvdNc;
+        "pkg-1.0.2+26.3" = _si3FBqTA;
+        "default" = _si3FBqTA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nbt-display";

@@ -196,6 +196,16 @@ let
             "file" = "promenade-5.6.0.jar";
             "hash" = "sha512-2kyEtGspxrvncMUstEQiwjPNf5sXPqXrBE3Jvt5OE37Uhu0EqRdq+bZycJ14j/G9WIipr4VGPIpA0zk7cKB7Ig==";
         };
+        _clicF1M5 = {
+            "id" = "clicF1M5";
+            "file" = "promenade-fabric-6.0.0.jar";
+            "hash" = "sha512-9CebyXEXR6Hc8CivNXja5mF78M9yhoBfTwetGB5BDBYFYXENMK37WJqOUEBqJoHt/r8WwNu17V9vXE22Vq0KBQ==";
+        };
+        _Sk8JeW02 = {
+            "id" = "Sk8JeW02";
+            "file" = "promenade-neoforge-6.0.0.jar";
+            "hash" = "sha512-7JGGTB40iiaVvE1A1DGuTnJ5Ul1iu5O75HpHq+/BaDGx0kEAz3MfJGuQrdqD/wa5DWq6sp48iR9izodEfUaa8g==";
+        };
     in {
         "FW8Jsy6b" = _FW8Jsy6b;
         "AnQZPALY" = _AnQZPALY;
@@ -236,6 +246,8 @@ let
         "BjPhwjDV" = _BjPhwjDV;
         "828FQBS6" = _828FQBS6;
         "ldF03LkA" = _ldF03LkA;
+        "clicF1M5" = _clicF1M5;
+        "Sk8JeW02" = _Sk8JeW02;
         "fabric-1.16.2" = _J3w72Yuv;
         "fabric-1.16.3" = _J3w72Yuv;
         "fabric-1.16.4" = _J3w72Yuv;
@@ -264,6 +276,7 @@ let
         "fabric-26.1.1" = _828FQBS6;
         "fabric-26.1.2" = _828FQBS6;
         "fabric-26.2" = _ldF03LkA;
+        "fabric-26.3" = _clicF1M5;
         "quilt-1.19.3" = _obpRw4SX;
         "quilt-1.19.4" = _yzCPompk;
         "quilt-1.20" = _A5YD9uS3;
@@ -281,6 +294,8 @@ let
         "quilt-26.1.1" = _828FQBS6;
         "quilt-26.1.2" = _828FQBS6;
         "quilt-26.2" = _ldF03LkA;
+        "quilt-26.3" = _clicF1M5;
+        "neoforge-26.3" = _Sk8JeW02;
         "pkg-v1.3.1" = _FW8Jsy6b;
         "pkg-1.3.2" = _AnQZPALY;
         "pkg-1.3.3" = _WP8At0cA;
@@ -320,7 +335,9 @@ let
         "pkg-5.5.1" = _BjPhwjDV;
         "pkg-5.5.2" = _828FQBS6;
         "pkg-5.6.0" = _ldF03LkA;
-        "default" = _ldF03LkA;
+        "pkg-6.0.0+fabric" = _clicF1M5;
+        "pkg-6.0.0+neoforge" = _Sk8JeW02;
+        "default" = _Sk8JeW02;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "promenade";

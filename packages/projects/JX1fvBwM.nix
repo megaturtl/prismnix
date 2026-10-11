@@ -151,6 +151,11 @@ let
             "file" = "bettermaps+26.1-0.9.1.jar";
             "hash" = "sha512-Xg62DjQMwdcSJmb2n+YSvwuPxpFYjPlMGDe7KgTRqXGfOi3ohGWAHpujopbIHI5Pla2LsbMwlhBiF4xrgVpVsA==";
         };
+        _q7SVubjm = {
+            "id" = "q7SVubjm";
+            "file" = "bettermaps+26.2-0.9.1.jar";
+            "hash" = "sha512-ciK7SjISSnT/L3Kw7T+w8H/LwMGSWS072lV0p9PVCoagtH6iM3K/Wplbog1nXlrySlFcNL7qw2I3Evd5R4mD1w==";
+        };
     in {
         "9Ho81Vqv" = _9Ho81Vqv;
         "JmZxvz8P" = _JmZxvz8P;
@@ -182,6 +187,7 @@ let
         "Sli7UEim" = _Sli7UEim;
         "G1avZDeH" = _G1avZDeH;
         "CK9LDmPf" = _CK9LDmPf;
+        "q7SVubjm" = _q7SVubjm;
         "fabric-1.19" = _GRJyCVlT;
         "fabric-1.19.1" = _GRJyCVlT;
         "fabric-1.19.2" = _GRJyCVlT;
@@ -208,6 +214,8 @@ let
         "fabric-26.1" = _CK9LDmPf;
         "fabric-26.1.1" = _CK9LDmPf;
         "fabric-26.1.2" = _CK9LDmPf;
+        "fabric-26.2" = _q7SVubjm;
+        "fabric-26.3" = _q7SVubjm;
         "quilt-1.19" = _GRJyCVlT;
         "quilt-1.19.1" = _GRJyCVlT;
         "quilt-1.19.2" = _GRJyCVlT;
@@ -247,7 +255,8 @@ let
         "pkg-0.8.0+1.21.11" = _Sli7UEim;
         "pkg-0.9.0" = _G1avZDeH;
         "pkg-0.9.1" = _CK9LDmPf;
-        "default" = _CK9LDmPf;
+        "pkg-0.9.1-26.2" = _q7SVubjm;
+        "default" = _q7SVubjm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bettermaps";

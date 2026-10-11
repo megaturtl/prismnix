@@ -16,18 +16,26 @@ let
             "file" = "mysti-1.20.1-0.3.jar";
             "hash" = "sha512-23jhaNQW/9Rgdp/BSwDdhN0fDX8EqGxkA6kg0qtSqv8EGZuVEi730dVblRFHC2FiaBiuUs86bDefMcfqdSeUog==";
         };
+        _yNH5iEy1 = {
+            "id" = "yNH5iEy1";
+            "file" = "mystigrecia-1.21.1-1.0.jar";
+            "hash" = "sha512-EOZIYuLgD7EHpntKBQaiSJRV3s889c1LGMq3XaZJZyg+XFtzUJSTM7Y4ORIX86elVJ+nsQxyc/aWiq4QjSs/Cw==";
+        };
     in {
         "5WA8eGGk" = _5WA8eGGk;
         "6bgME84p" = _6bgME84p;
         "A4YR0koK" = _A4YR0koK;
+        "yNH5iEy1" = _yNH5iEy1;
         "forge-1.19" = _5WA8eGGk;
         "forge-1.19.1" = _5WA8eGGk;
         "forge-1.19.2" = _5WA8eGGk;
         "forge-1.20.1" = _A4YR0koK;
+        "neoforge-1.21.1" = _yNH5iEy1;
         "pkg-0.0.1-19" = _5WA8eGGk;
         "pkg-0.0.2r-1.20-release" = _6bgME84p;
         "pkg-1.20.1-0.3" = _A4YR0koK;
-        "default" = _A4YR0koK;
+        "pkg-1.21.1-1.0" = _yNH5iEy1;
+        "default" = _yNH5iEy1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mysti-grecia";

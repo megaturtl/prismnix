@@ -71,6 +71,46 @@ let
             "file" = "assorteddecor-fabric-26.2-11.0.0.jar";
             "hash" = "sha512-QweW1yk9l2Z831IpYHkTdobCTSQxl3I3VhNYbDMaLBb5+UHqA0Szvg/U5ET9FvYGIJdR/PoZuGOLZduMp5oE9A==";
         };
+        _drjA825D = {
+            "id" = "drjA825D";
+            "file" = "assorteddecor-neoforge-26.2-11.1.0.jar";
+            "hash" = "sha512-RpXgnLCCYVfzO8Dt0zYf4tnBHWk7BznNBEOXMC4JN9Q7BPTfl12FYDVMSwlYDbp794k/9201vrzZjjTElEEVNQ==";
+        };
+        _CQb2E42N = {
+            "id" = "CQb2E42N";
+            "file" = "assorteddecor-fabric-26.2-11.1.0.jar";
+            "hash" = "sha512-KA0sZGd05d/mIbJZ4RZwXSSDqCwvm8XZsJfAtEhNwl/mFSyaCVbE8qeEJiT+IZcoID77wmeDhk+Xr/ZhzTr22A==";
+        };
+        _Z43pnDZ9 = {
+            "id" = "Z43pnDZ9";
+            "file" = "assorteddecor-neoforge-26.2-11.1.1.jar";
+            "hash" = "sha512-HH+yKmhaCFgPtlHsK8NQBj1jlZ6LFlw65bFiOc3JKkKOBwg/FVxsV1PGzTu5To3yT1lgLWk0v76/Np0q4fm6RQ==";
+        };
+        _2ddUeH2D = {
+            "id" = "2ddUeH2D";
+            "file" = "assorteddecor-fabric-26.2-11.1.1.jar";
+            "hash" = "sha512-u39QI9g9dDsjIyh7rcZclGMzwgZ7GYoB2/nBxaBCnT3+a7ueUqwkLxyqt5/qX/GreV+kJ+86gYOONRxK6iAcAQ==";
+        };
+        _TSlrbDKB = {
+            "id" = "TSlrbDKB";
+            "file" = "assorteddecor-neoforge-26.2-11.1.2.jar";
+            "hash" = "sha512-To+xFJSt4BtF1rKGP0y63A6b6ZHBmcoIieXrTvWxQQvTOfxBQeJ0JhLHuGilcCGP0pW8F9ZShDEkQpVvhDuNCg==";
+        };
+        _JqfnHkwr = {
+            "id" = "JqfnHkwr";
+            "file" = "assorteddecor-fabric-26.2-11.1.2.jar";
+            "hash" = "sha512-6HWoguq61HUCJWoZIg80PTcrFXUfGP3y7x0eNBMNg84QWrTtL+5yhB49Wg2H5MEdT23T4/Yjv0dftH6Et2BO6g==";
+        };
+        _YEK12apK = {
+            "id" = "YEK12apK";
+            "file" = "assorteddecor-neoforge-26.2-12.0.0.jar";
+            "hash" = "sha512-X4inpJxFNnVWLuA4w6vkGrvPV3Tf/m9h3qsThpizZ34cvlRGXSWPj7bZpQmWDaNM3ni4qxvEAa8w+Byf321gcQ==";
+        };
+        _2gIhEufi = {
+            "id" = "2gIhEufi";
+            "file" = "assorteddecor-fabric-26.2-12.0.0.jar";
+            "hash" = "sha512-B8UHFHXKsY2b5HA7PJmg5zoPq0AA527HibOo1YlNrliO5vzGMRtT4bns2yeL5lpamlEVJkhqbhwJnZXyWbhmnQ==";
+        };
     in {
         "oQaoPOSI" = _oQaoPOSI;
         "sUraHGv2" = _sUraHGv2;
@@ -86,6 +126,14 @@ let
         "xdXD794F" = _xdXD794F;
         "RJELpOJs" = _RJELpOJs;
         "jDJVBmfU" = _jDJVBmfU;
+        "drjA825D" = _drjA825D;
+        "CQb2E42N" = _CQb2E42N;
+        "Z43pnDZ9" = _Z43pnDZ9;
+        "2ddUeH2D" = _2ddUeH2D;
+        "TSlrbDKB" = _TSlrbDKB;
+        "JqfnHkwr" = _JqfnHkwr;
+        "YEK12apK" = _YEK12apK;
+        "2gIhEufi" = _2gIhEufi;
         "forge-1.18.2" = _oQaoPOSI;
         "forge-1.19.2" = _sUraHGv2;
         "forge-1.19.3" = _tiFbU8pt;
@@ -94,8 +142,8 @@ let
         "fabric-1.19.3" = _iYvvZfhu;
         "fabric-1.19.4" = _uT4yO3d6;
         "fabric-1.20.1" = _MYKdVyLJ;
-        "fabric-26.2" = _jDJVBmfU;
-        "neoforge-26.2" = _RJELpOJs;
+        "fabric-26.2" = _2gIhEufi;
+        "neoforge-26.2" = _YEK12apK;
         "pkg-1.18.2-5.2.0" = _oQaoPOSI;
         "pkg-assorteddecor-1.19.2-6.1.4" = _sUraHGv2;
         "pkg-1.19.3-7.0.1" = _4qSQr5dy;
@@ -107,7 +155,15 @@ let
         "pkg-10.0.1" = _xdXD794F;
         "pkg-11.0.0+neoforge" = _RJELpOJs;
         "pkg-11.0.0+fabric" = _jDJVBmfU;
-        "default" = _jDJVBmfU;
+        "pkg-11.1.0+neoforge" = _drjA825D;
+        "pkg-11.1.0+fabric" = _CQb2E42N;
+        "pkg-11.1.1+neoforge" = _Z43pnDZ9;
+        "pkg-11.1.1+fabric" = _2ddUeH2D;
+        "pkg-11.1.2+neoforge" = _TSlrbDKB;
+        "pkg-11.1.2+fabric" = _JqfnHkwr;
+        "pkg-12.0.0+neoforge" = _YEK12apK;
+        "pkg-12.0.0+fabric" = _2gIhEufi;
+        "default" = _2gIhEufi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "assorted-decor";

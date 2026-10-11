@@ -91,6 +91,16 @@ let
             "file" = "thuns-structures-1.3.3.jar";
             "hash" = "sha512-g7N4G1PykQ1Cqw5kHUy0LFlVxjdAlUhmdsIarmzFSj2sPB3FpwpzYn0GoF4SWsG6JBPIxUDe7ji+Jg9rBWQ8Aw==";
         };
+        _23Gin9af = {
+            "id" = "23Gin9af";
+            "file" = "Thuns-structures-1-3-4.zip";
+            "hash" = "sha512-+/o/kK0nM3XDIfvoNQaxjki9I4soZjHphaOx8YFdBR2iUdM1mqVO5wdM7wpz0TAB1uZcYr3w9hRh/MB50kvV8Q==";
+        };
+        _Son5JVTS = {
+            "id" = "Son5JVTS";
+            "file" = "thuns-structures-1.3.4.jar";
+            "hash" = "sha512-keKIw1GLcA8moPmyuX/YOhUTMyLCl7gF1x7Yd4YPvXoT+DV06LjhimF9wJBcTE0aQxObrzUXGpydKFF6uu/+Ug==";
+        };
     in {
         "gh0r42eW" = _gh0r42eW;
         "RnHrR4Bl" = _RnHrR4Bl;
@@ -110,6 +120,8 @@ let
         "9O7Gqu4j" = _9O7Gqu4j;
         "vlC8Otah" = _vlC8Otah;
         "D1KSAtD2" = _D1KSAtD2;
+        "23Gin9af" = _23Gin9af;
+        "Son5JVTS" = _Son5JVTS;
         "datapack-1.21.8" = _BFJL0pJg;
         "datapack-1.21" = _BFJL0pJg;
         "datapack-1.21.1" = _BFJL0pJg;
@@ -133,6 +145,7 @@ let
         "datapack-1.20.5" = _77P1yjvq;
         "datapack-1.20.6" = _77P1yjvq;
         "datapack-26.2" = _vlC8Otah;
+        "datapack-26.3" = _23Gin9af;
         "fabric-1.21.8" = _9O7Gqu4j;
         "fabric-1.21" = _9O7Gqu4j;
         "fabric-1.21.1" = _9O7Gqu4j;
@@ -156,6 +169,7 @@ let
         "fabric-1.20.5" = _OEADURzR;
         "fabric-1.20.6" = _OEADURzR;
         "fabric-26.2" = _D1KSAtD2;
+        "fabric-26.3" = _Son5JVTS;
         "forge-1.21.8" = _9O7Gqu4j;
         "forge-1.21" = _9O7Gqu4j;
         "forge-1.21.1" = _9O7Gqu4j;
@@ -179,6 +193,7 @@ let
         "forge-1.20.5" = _OEADURzR;
         "forge-1.20.6" = _OEADURzR;
         "forge-26.2" = _D1KSAtD2;
+        "forge-26.3" = _Son5JVTS;
         "neoforge-1.21.8" = _9O7Gqu4j;
         "neoforge-1.21" = _9O7Gqu4j;
         "neoforge-1.21.1" = _9O7Gqu4j;
@@ -202,6 +217,7 @@ let
         "neoforge-1.20.5" = _OEADURzR;
         "neoforge-1.20.6" = _OEADURzR;
         "neoforge-26.2" = _D1KSAtD2;
+        "neoforge-26.3" = _Son5JVTS;
         "quilt-1.21.8" = _9O7Gqu4j;
         "quilt-1.21" = _9O7Gqu4j;
         "quilt-1.21.1" = _9O7Gqu4j;
@@ -225,6 +241,7 @@ let
         "quilt-1.20.5" = _OEADURzR;
         "quilt-1.20.6" = _OEADURzR;
         "quilt-26.2" = _D1KSAtD2;
+        "quilt-26.3" = _Son5JVTS;
         "pkg-1.0.1" = _RnHrR4Bl;
         "pkg-1.0.2" = _c4Q3tXz8;
         "pkg-1.1.0" = _NDSp9rrE;
@@ -233,7 +250,8 @@ let
         "pkg-1.3.1" = _OEADURzR;
         "pkg-1.3.2" = _9O7Gqu4j;
         "pkg-1.3.3" = _D1KSAtD2;
-        "default" = _D1KSAtD2;
+        "pkg-1.3.4" = _Son5JVTS;
+        "default" = _Son5JVTS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "thuns-structures";

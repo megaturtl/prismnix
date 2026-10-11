@@ -131,6 +131,11 @@ let
             "file" = "discerning_furnace-1.3.1+MC26.1-26.2.x.jar";
             "hash" = "sha512-v8e53r5QZ47TOKVCCtZIwbllU4lOCqycGUqxH5WwXuapHlr7chbAwSdVG7rml5seb8qJpF6urMpoQMn7WYOE0g==";
         };
+        _1QkPh6pf = {
+            "id" = "1QkPh6pf";
+            "file" = "discerning_furnace-1.3.2+MC26.1-26.3.x.jar";
+            "hash" = "sha512-rPEpufO9yixBX8jH3r7Oxi9cyFqGOdF/X53g4lSTJwwGA23EdMm5HnkdajGPsZtU3o+rmteHg4e5WdIbcag/fw==";
+        };
     in {
         "E2hHpkui" = _E2hHpkui;
         "LlCSzYT6" = _LlCSzYT6;
@@ -158,6 +163,7 @@ let
         "smxiYt1d" = _smxiYt1d;
         "KHKQEgjI" = _KHKQEgjI;
         "iHhAYpnj" = _iHhAYpnj;
+        "1QkPh6pf" = _1QkPh6pf;
         "fabric-1.17" = _LlCSzYT6;
         "fabric-1.17.1" = _LlCSzYT6;
         "fabric-1.18" = _ioEkTiNz;
@@ -187,10 +193,11 @@ let
         "fabric-1.21.9" = _smxiYt1d;
         "fabric-1.21.10" = _smxiYt1d;
         "fabric-1.21.11" = _smxiYt1d;
-        "fabric-26.1" = _KHKQEgjI;
-        "fabric-26.1.1" = _KHKQEgjI;
-        "fabric-26.1.2" = _KHKQEgjI;
-        "fabric-26.2" = _iHhAYpnj;
+        "fabric-26.1" = _1QkPh6pf;
+        "fabric-26.1.1" = _1QkPh6pf;
+        "fabric-26.1.2" = _1QkPh6pf;
+        "fabric-26.2" = _1QkPh6pf;
+        "fabric-26.3" = _1QkPh6pf;
         "quilt-1.19" = _xEFLXNFg;
         "quilt-1.19.1" = _xEFLXNFg;
         "quilt-1.19.2" = _xEFLXNFg;
@@ -215,10 +222,11 @@ let
         "quilt-1.21.9" = _smxiYt1d;
         "quilt-1.21.10" = _smxiYt1d;
         "quilt-1.21.11" = _smxiYt1d;
-        "quilt-26.1" = _KHKQEgjI;
-        "quilt-26.1.1" = _KHKQEgjI;
-        "quilt-26.1.2" = _KHKQEgjI;
-        "quilt-26.2" = _iHhAYpnj;
+        "quilt-26.1" = _1QkPh6pf;
+        "quilt-26.1.1" = _1QkPh6pf;
+        "quilt-26.1.2" = _1QkPh6pf;
+        "quilt-26.2" = _1QkPh6pf;
+        "quilt-26.3" = _1QkPh6pf;
         "pkg-1.0.2+MC1.17" = _E2hHpkui;
         "pkg-1.0.3+MC1.17-1.17.1" = _LlCSzYT6;
         "pkg-1.0.4+MC1.18" = _OwqHhDEH;
@@ -245,7 +253,8 @@ let
         "pkg-1.2.7+MC1.21.2-1.21.11" = _smxiYt1d;
         "pkg-1.3.0+MC26.1-26.1.x" = _KHKQEgjI;
         "pkg-1.3.1+MC26.1-26.2.x" = _iHhAYpnj;
-        "default" = _iHhAYpnj;
+        "pkg-1.3.2+MC26.1-26.3.x" = _1QkPh6pf;
+        "default" = _1QkPh6pf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "discerning-furnace";

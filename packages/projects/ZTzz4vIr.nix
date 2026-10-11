@@ -96,6 +96,16 @@ let
             "file" = "OnePunchMan-forge-26.1.2-2.8.0.jar";
             "hash" = "sha512-D/aipzWgLWqGkJDoqXzby9z85PVTSRYTLeammzCOb61LdAD2yX/wwg/u9K1xI3k5PvJ4eV7Y1ge74bN6P0PSNA==";
         };
+        _8qLXu9uZ = {
+            "id" = "8qLXu9uZ";
+            "file" = "OnePunchMan-fabric-26.1.2-2.9.0.jar";
+            "hash" = "sha512-IU5JcJw77In3femUax0s+zNcy/91xL/kedt7QLslgnfsBNUiMVPHD35S7HzP8xmS9bst0Mp9ChmWC2EQCYwFSw==";
+        };
+        _q7h3hF4k = {
+            "id" = "q7h3hF4k";
+            "file" = "OnePunchMan-neoforge-26.1.2-2.9.0.jar";
+            "hash" = "sha512-h7A59fD66osZbIEq9S7ooaEv92Y19v8zC+mOQyB+R3TdP6nYEub0wvYX9PsXGGCEr3SyfhCvV7dpvqCPOXXrQw==";
+        };
     in {
         "8yBWsliu" = _8yBWsliu;
         "hp3PyV0d" = _hp3PyV0d;
@@ -116,6 +126,8 @@ let
         "6Cr33wek" = _6Cr33wek;
         "eO9OzLf5" = _eO9OzLf5;
         "GA7tjVJm" = _GA7tjVJm;
+        "8qLXu9uZ" = _8qLXu9uZ;
+        "q7h3hF4k" = _q7h3hF4k;
         "forge-1.20.1" = _8yBWsliu;
         "forge-1.20.2" = _NDQo91bj;
         "forge-1.20.4" = _hQfcoceC;
@@ -132,9 +144,11 @@ let
         "fabric-1.21.1" = _gCMbOyca;
         "fabric-1.21.10" = _fPfQQQ59;
         "fabric-1.21.11" = _6Cr33wek;
+        "fabric-26.1.2" = _8qLXu9uZ;
         "neoforge-1.21.10" = _1N2l7O6s;
         "neoforge-1.21.1" = _GcVpjomN;
         "neoforge-1.21.11" = _eO9OzLf5;
+        "neoforge-26.1.2" = _q7h3hF4k;
         "pkg-2.6.7" = _8yBWsliu;
         "pkg-1.6.4" = _hp3PyV0d;
         "pkg-2.6.8" = _NDQo91bj;
@@ -153,7 +167,8 @@ let
         "pkg-1.21.11-1.7.0" = _6Cr33wek;
         "pkg-2.7.7" = _eO9OzLf5;
         "pkg-2.8.0" = _GA7tjVJm;
-        "default" = _GA7tjVJm;
+        "pkg-2.9.0" = _q7h3hF4k;
+        "default" = _q7h3hF4k;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "saitama-onepunchman";

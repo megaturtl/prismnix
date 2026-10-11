@@ -942,6 +942,13 @@ let
         "minecraft-26.3-snapshot-10" = _jjNuasj0;
         "minecraft-26.3-pre-1" = _jjNuasj0;
         "minecraft-26.3-pre-2" = _jjNuasj0;
+        "minecraft-26.3-pre-3" = _jjNuasj0;
+        "minecraft-26.3-rc-1" = _jjNuasj0;
+        "minecraft-26.3-rc-2" = _jjNuasj0;
+        "minecraft-26.3-rc-3" = _jjNuasj0;
+        "minecraft-26.3" = _jjNuasj0;
+        "minecraft-26.4-snapshot-1" = _jjNuasj0;
+        "minecraft-26.4-snapshot-2" = _jjNuasj0;
         "pkg-1.0." = _B9cVV1Kw;
         "pkg-2.0" = _qM8Cdem4;
         "pkg-3.0" = _oi6ZcEts;

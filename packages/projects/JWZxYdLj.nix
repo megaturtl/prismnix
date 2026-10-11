@@ -206,6 +206,11 @@ let
             "file" = "horse-spawn-26.1-1.9.1.jar";
             "hash" = "sha512-yyju0gk3zhk0zrqJhR7z4A/23CjW4Bi+NXtSy9TojoFGOKRQDg1B1l5vJdt/6YK/q8B6QldNee96xAcpHOQJcg==";
         };
+        _nczEorCt = {
+            "id" = "nczEorCt";
+            "file" = "26.2-1.9.2.jar";
+            "hash" = "sha512-Fjvs+aZegSRgCUBtNh2grxrS+rMhCij7zMLAltYYs2VblEzS6acHh4kkyG+icocwp33cdaMadl4WGPf0YaBs4A==";
+        };
     in {
         "EirtEwp7" = _EirtEwp7;
         "BFoMNDhQ" = _BFoMNDhQ;
@@ -248,6 +253,7 @@ let
         "blGhpomr" = _blGhpomr;
         "QcwSEEhE" = _QcwSEEhE;
         "Ek7ZwKbu" = _Ek7ZwKbu;
+        "nczEorCt" = _nczEorCt;
         "fabric-1.20.1" = _hwus2uQe;
         "fabric-1.20.2" = _BFoMNDhQ;
         "fabric-1.20.3" = _R9mjTd7V;
@@ -264,7 +270,8 @@ let
         "fabric-26.1" = _Ek7ZwKbu;
         "fabric-26.1.1" = _Ek7ZwKbu;
         "fabric-26.1.2" = _Ek7ZwKbu;
-        "fabric-26.2" = _Ek7ZwKbu;
+        "fabric-26.2" = _nczEorCt;
+        "fabric-26.3" = _nczEorCt;
         "pkg-1.0" = _EirtEwp7;
         "pkg-1.1" = _BFoMNDhQ;
         "pkg-1.2" = _3ja8by2S;
@@ -306,7 +313,8 @@ let
         "pkg-1.9.1+1.21.4" = _blGhpomr;
         "pkg-1.9.1+1.21.10" = _QcwSEEhE;
         "pkg-1.9.1+26.1" = _Ek7ZwKbu;
-        "default" = _Ek7ZwKbu;
+        "pkg-1.9.2+26.2" = _nczEorCt;
+        "default" = _nczEorCt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "horse-spawn";

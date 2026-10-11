@@ -281,6 +281,31 @@ let
             "file" = "currentgamemusictrack-26.2.0-2.5.jar";
             "hash" = "sha512-dnp1q6Iyams8KyLs3eKhUTfSx2KoX22ks6i12UmF964OaYQiSejh3WEau5Jdh35su69Zl5HodVZuJvY0IkozuA==";
         };
+        _96nhmJA2 = {
+            "id" = "96nhmJA2";
+            "file" = "currentgamemusictrack-26.3.0-2.5.jar";
+            "hash" = "sha512-QO7N578UaVzHi5nFjr8NsXOllIc1AMhBqtgJ3w3oE90jucU5AfTB+TzJM2Q/1CoHGQy45r++gA9Yji9f/E/gCw==";
+        };
+        _NpupEghK = {
+            "id" = "NpupEghK";
+            "file" = "currentgamemusictrack-1.20.1-2.6.jar";
+            "hash" = "sha512-ON7U3cxwbnzBFYfBkLQZNzpVI0ls5b98BRfdbmzerL816QycnDubPzahSnSk8Obnfjdjg/58yaC7hFOvCudWQw==";
+        };
+        _pCJXs59l = {
+            "id" = "pCJXs59l";
+            "file" = "currentgamemusictrack-1.21.1-2.6.jar";
+            "hash" = "sha512-QL4mQNB8V1iZNIWtUtA2cIF4ocSDP/1fLlB45xXsJeTNMI0kpj1DMod6ZoegjGqCWvoPJQnCPHCVyt7zuL/4DQ==";
+        };
+        _diHgBqsA = {
+            "id" = "diHgBqsA";
+            "file" = "currentgamemusictrack-26.2.0-2.6.jar";
+            "hash" = "sha512-FjHE59pcKHBkIQLuvV2+3H0qSx8h5FhXUU0hzdBdfFZ6oLFGhsZKQBLrXwrX62OJ3GhAKFQPSwPNhFAfnWUEEQ==";
+        };
+        _owI5PQyX = {
+            "id" = "owI5PQyX";
+            "file" = "currentgamemusictrack-26.3.0-2.6.jar";
+            "hash" = "sha512-L8aasUhBzytHQRM/X6CvK9TBw17dtrven18Kt69XLpSeFA1LgnmxY/l2LsbMLvG3epWCfuVJeYWyFMN8bTacGw==";
+        };
     in {
         "jY9BWUBb" = _jY9BWUBb;
         "W2tna3Db" = _W2tna3Db;
@@ -338,16 +363,21 @@ let
         "PMC9SuTh" = _PMC9SuTh;
         "f1ABSCDb" = _f1ABSCDb;
         "yETWjbD9" = _yETWjbD9;
+        "96nhmJA2" = _96nhmJA2;
+        "NpupEghK" = _NpupEghK;
+        "pCJXs59l" = _pCJXs59l;
+        "diHgBqsA" = _diHgBqsA;
+        "owI5PQyX" = _owI5PQyX;
         "fabric-1.18.2" = _jB3AE3gK;
         "fabric-1.19.2" = _ahIi4B0h;
-        "fabric-1.20.1" = _IYK7je2o;
+        "fabric-1.20.1" = _NpupEghK;
         "fabric-1.20.2" = _UGWOe5eL;
         "fabric-1.20.3" = _7ZuCTiPP;
         "fabric-1.20.4" = _t87Sm1oy;
         "fabric-1.20.5" = _tkVSjgs8;
         "fabric-1.20.6" = _R5LA76B5;
-        "fabric-1.21" = _YY2aeHXl;
-        "fabric-1.21.1" = _YY2aeHXl;
+        "fabric-1.21" = _pCJXs59l;
+        "fabric-1.21.1" = _pCJXs59l;
         "fabric-1.21.2" = _1N4bkqEl;
         "fabric-1.21.3" = _S93PGjFb;
         "fabric-1.21.4" = _ne2ll2MP;
@@ -361,16 +391,17 @@ let
         "fabric-26.1" = _GtqtKHfl;
         "fabric-26.1.1" = _PMC9SuTh;
         "fabric-26.1.2" = _f1ABSCDb;
-        "fabric-26.2" = _yETWjbD9;
+        "fabric-26.2" = _diHgBqsA;
+        "fabric-26.3" = _owI5PQyX;
         "forge-1.18.2" = _jB3AE3gK;
         "forge-1.19.2" = _ahIi4B0h;
-        "forge-1.20.1" = _IYK7je2o;
+        "forge-1.20.1" = _NpupEghK;
         "forge-1.20.2" = _UGWOe5eL;
         "forge-1.20.3" = _7ZuCTiPP;
         "forge-1.20.4" = _t87Sm1oy;
         "forge-1.20.6" = _R5LA76B5;
-        "forge-1.21" = _YY2aeHXl;
-        "forge-1.21.1" = _YY2aeHXl;
+        "forge-1.21" = _pCJXs59l;
+        "forge-1.21.1" = _pCJXs59l;
         "forge-1.21.3" = _S93PGjFb;
         "forge-1.21.4" = _ne2ll2MP;
         "forge-1.21.5" = _hL8qruP9;
@@ -383,17 +414,18 @@ let
         "forge-26.1" = _GtqtKHfl;
         "forge-26.1.1" = _PMC9SuTh;
         "forge-26.1.2" = _f1ABSCDb;
-        "forge-26.2" = _yETWjbD9;
+        "forge-26.2" = _diHgBqsA;
+        "forge-26.3" = _owI5PQyX;
         "quilt-1.18.2" = _jB3AE3gK;
         "quilt-1.19.2" = _ahIi4B0h;
-        "quilt-1.20.1" = _IYK7je2o;
+        "quilt-1.20.1" = _NpupEghK;
         "quilt-1.20.2" = _UGWOe5eL;
         "quilt-1.20.3" = _7ZuCTiPP;
         "quilt-1.20.4" = _t87Sm1oy;
         "quilt-1.20.5" = _tkVSjgs8;
         "quilt-1.20.6" = _R5LA76B5;
-        "quilt-1.21" = _YY2aeHXl;
-        "quilt-1.21.1" = _YY2aeHXl;
+        "quilt-1.21" = _pCJXs59l;
+        "quilt-1.21.1" = _pCJXs59l;
         "quilt-1.21.2" = _1N4bkqEl;
         "quilt-1.21.3" = _S93PGjFb;
         "quilt-1.21.4" = _ne2ll2MP;
@@ -407,15 +439,16 @@ let
         "quilt-26.1" = _GtqtKHfl;
         "quilt-26.1.1" = _PMC9SuTh;
         "quilt-26.1.2" = _f1ABSCDb;
-        "quilt-26.2" = _yETWjbD9;
-        "neoforge-1.20.1" = _IYK7je2o;
+        "quilt-26.2" = _diHgBqsA;
+        "quilt-26.3" = _owI5PQyX;
+        "neoforge-1.20.1" = _NpupEghK;
         "neoforge-1.20.2" = _UGWOe5eL;
         "neoforge-1.20.3" = _7ZuCTiPP;
         "neoforge-1.20.4" = _t87Sm1oy;
         "neoforge-1.20.5" = _tkVSjgs8;
         "neoforge-1.20.6" = _R5LA76B5;
-        "neoforge-1.21" = _YY2aeHXl;
-        "neoforge-1.21.1" = _YY2aeHXl;
+        "neoforge-1.21" = _pCJXs59l;
+        "neoforge-1.21.1" = _pCJXs59l;
         "neoforge-1.21.2" = _1N4bkqEl;
         "neoforge-1.21.3" = _S93PGjFb;
         "neoforge-1.21.4" = _ne2ll2MP;
@@ -429,7 +462,8 @@ let
         "neoforge-26.1" = _GtqtKHfl;
         "neoforge-26.1.1" = _PMC9SuTh;
         "neoforge-26.1.2" = _f1ABSCDb;
-        "neoforge-26.2" = _yETWjbD9;
+        "neoforge-26.2" = _diHgBqsA;
+        "neoforge-26.3" = _owI5PQyX;
         "pkg-1.18.2-1.0-forge+fabric" = _jY9BWUBb;
         "pkg-1.19.2-1.0-forge+fabric" = _W2tna3Db;
         "pkg-1.20.1-1.0-forge+fabric" = _ZLTIm2Uc;
@@ -486,7 +520,12 @@ let
         "pkg-26.1.1-2.5-fabric+forge+neo" = _PMC9SuTh;
         "pkg-26.1.2-2.5-fabric+forge+neo" = _f1ABSCDb;
         "pkg-26.2.0-2.5-fabric+forge+neo" = _yETWjbD9;
-        "default" = _yETWjbD9;
+        "pkg-26.3.0-2.5-fabric+forge+neo" = _96nhmJA2;
+        "pkg-1.20.1-2.6-fabric+forge+neo" = _NpupEghK;
+        "pkg-1.21.1-2.6-fabric+forge+neo" = _pCJXs59l;
+        "pkg-26.2.0-2.6-fabric+forge+neo" = _diHgBqsA;
+        "pkg-26.3.0-2.6-fabric+forge+neo" = _owI5PQyX;
+        "default" = _owI5PQyX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "current-game-music-track";

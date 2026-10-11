@@ -141,6 +141,16 @@ let
             "file" = "custom-breed-cooldown-v2.6.3.jar";
             "hash" = "sha512-/umuKVA16Upu7leXEjqJk9SKmsOgZ2mI+J2RaaeqNbJ3WtmH2RjAXd1300SnUNa/rEw9jgvgjU/ZwMkZ7jDgTw==";
         };
+        _HVEMsw53 = {
+            "id" = "HVEMsw53";
+            "file" = "custom-breed-cooldown-v2.7.0.zip";
+            "hash" = "sha512-56y6wo+lRzVm2Q0D0lNqIGQiE7r7BMpqwtYCa9Xjof7FvVqnxA+AGEayqgjJGbtAsFPOrbXSq2mgZIKfur0TdQ==";
+        };
+        _UKqfZLE2 = {
+            "id" = "UKqfZLE2";
+            "file" = "custom-breed-cooldown-v2.7.0.jar";
+            "hash" = "sha512-QccNBDAZpQ0eJ76d1+XDystYz07gqbTKLMr7xVCCrDvHNY0zIf/4eY7ZQ1C1T7GmULQV2XE7kVx/+b4UtpioNw==";
+        };
     in {
         "zhCKOpb4" = _zhCKOpb4;
         "BufEQrga" = _BufEQrga;
@@ -170,6 +180,8 @@ let
         "owXeg6Eg" = _owXeg6Eg;
         "eaxEuahx" = _eaxEuahx;
         "Im3HVCNt" = _Im3HVCNt;
+        "HVEMsw53" = _HVEMsw53;
+        "UKqfZLE2" = _UKqfZLE2;
         "datapack-1.20.4" = _zhCKOpb4;
         "datapack-1.20.5" = _xfWbjUzC;
         "datapack-1.21" = _Qgs7wPjW;
@@ -188,6 +200,7 @@ let
         "datapack-26.1.1" = _eaxEuahx;
         "datapack-26.1.2" = _eaxEuahx;
         "datapack-26.2" = _eaxEuahx;
+        "datapack-26.3" = _HVEMsw53;
         "fabric-1.20.4" = _BufEQrga;
         "fabric-1.20.5" = _dkiJOsFU;
         "fabric-1.20.6" = _dkiJOsFU;
@@ -207,6 +220,7 @@ let
         "fabric-26.1.1" = _Im3HVCNt;
         "fabric-26.1.2" = _Im3HVCNt;
         "fabric-26.2" = _Im3HVCNt;
+        "fabric-26.3" = _UKqfZLE2;
         "forge-1.20.4" = _BufEQrga;
         "forge-1.20.5" = _dkiJOsFU;
         "forge-1.20.6" = _dkiJOsFU;
@@ -226,6 +240,7 @@ let
         "forge-26.1.1" = _Im3HVCNt;
         "forge-26.1.2" = _Im3HVCNt;
         "forge-26.2" = _Im3HVCNt;
+        "forge-26.3" = _UKqfZLE2;
         "quilt-1.20.4" = _BufEQrga;
         "quilt-1.20.5" = _dkiJOsFU;
         "quilt-1.20.6" = _dkiJOsFU;
@@ -245,6 +260,7 @@ let
         "quilt-26.1.1" = _Im3HVCNt;
         "quilt-26.1.2" = _Im3HVCNt;
         "quilt-26.2" = _Im3HVCNt;
+        "quilt-26.3" = _UKqfZLE2;
         "neoforge-1.21" = _fuFPRzrc;
         "neoforge-1.21.1" = _fuFPRzrc;
         "neoforge-1.21.2" = _fuFPRzrc;
@@ -261,6 +277,7 @@ let
         "neoforge-26.1.1" = _Im3HVCNt;
         "neoforge-26.1.2" = _Im3HVCNt;
         "neoforge-26.2" = _Im3HVCNt;
+        "neoforge-26.3" = _UKqfZLE2;
         "pkg-v.1.0.0" = _zhCKOpb4;
         "pkg-v.1.0.0+mod" = _BufEQrga;
         "pkg-v.2.0.0" = _xFEVH077;
@@ -285,7 +302,9 @@ let
         "pkg-v2.6.2.1+mod" = _owXeg6Eg;
         "pkg-v2.6.3" = _eaxEuahx;
         "pkg-v2.6.3+mod" = _Im3HVCNt;
-        "default" = _Im3HVCNt;
+        "pkg-v2.7.0" = _HVEMsw53;
+        "pkg-v2.7.0+mod" = _UKqfZLE2;
+        "default" = _UKqfZLE2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "custom-breed-cooldown";

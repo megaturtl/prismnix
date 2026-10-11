@@ -86,6 +86,11 @@ let
             "file" = "personalspace-1.0.40.jar";
             "hash" = "sha512-wGOpjqJAW6OuoTB8fI5R+U+WPZ1twod+e4y/OxejAmSDT+CsHsFQ29pYziYTnOo3cvAenfxRFJ4z7wopE/PJVw==";
         };
+        _xkyWqLCr = {
+            "id" = "xkyWqLCr";
+            "file" = "personalspace-1.0.41.jar";
+            "hash" = "sha512-WIjcI+3NoHYgh5yejpTp89l8FnReHvjW2YDACrt9W+V/f/OOqradCAY66MZgkCGL6zLQxcXAXcTaCWC56tTCpA==";
+        };
     in {
         "4dTO5cYV" = _4dTO5cYV;
         "mhYd8RtX" = _mhYd8RtX;
@@ -104,7 +109,8 @@ let
         "HCEz75bu" = _HCEz75bu;
         "MAxaJhl6" = _MAxaJhl6;
         "K00RScCO" = _K00RScCO;
-        "forge-1.7.10" = _K00RScCO;
+        "xkyWqLCr" = _xkyWqLCr;
+        "forge-1.7.10" = _xkyWqLCr;
         "pkg-1.0.23" = _4dTO5cYV;
         "pkg-1.0.24" = _mhYd8RtX;
         "pkg-1.0.25" = _OGCbkxrn;
@@ -122,7 +128,8 @@ let
         "pkg-1.0.38" = _HCEz75bu;
         "pkg-1.0.39" = _MAxaJhl6;
         "pkg-1.0.40" = _K00RScCO;
-        "default" = _K00RScCO;
+        "pkg-1.0.41" = _xkyWqLCr;
+        "default" = _xkyWqLCr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "personal-space";

@@ -166,6 +166,11 @@ let
             "file" = "vintagefix-0.7.1.jar";
             "hash" = "sha512-SolVjiHwbCgQnUyVEkh4oSgrhiSrgQ2am3A/gpt0SPMFaL3geyuRlw96ZgMWHH0a3GrQyS9MVjhaIgw/cEDVIg==";
         };
+        _CutuuVKA = {
+            "id" = "CutuuVKA";
+            "file" = "vintagefix-0.7.2.jar";
+            "hash" = "sha512-Lp5HNOOBacXyroFb5H1N5XEMAZ7HCSOyyPP8r39VZyYw5IlTkfrAXCkxOytZJ0nf1Lne4181Po6QMOqGmkKqyQ==";
+        };
     in {
         "zKDRugju" = _zKDRugju;
         "ysg7pQcK" = _ysg7pQcK;
@@ -200,7 +205,8 @@ let
         "6MuNBnRe" = _6MuNBnRe;
         "I7Wki0yF" = _I7Wki0yF;
         "rdPtgrFV" = _rdPtgrFV;
-        "forge-1.12.2" = _rdPtgrFV;
+        "CutuuVKA" = _CutuuVKA;
+        "forge-1.12.2" = _CutuuVKA;
         "pkg-0.1.0" = _zKDRugju;
         "pkg-0.2.0" = _ysg7pQcK;
         "pkg-0.2.1" = _1nmygwXz;
@@ -233,7 +239,8 @@ let
         "pkg-0.6.2" = _sxxcjjGY;
         "pkg-0.7.0" = _6MuNBnRe;
         "pkg-0.7.1" = _rdPtgrFV;
-        "default" = _rdPtgrFV;
+        "pkg-0.7.2" = _CutuuVKA;
+        "default" = _CutuuVKA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vintagefix";

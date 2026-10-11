@@ -46,6 +46,11 @@ let
             "file" = "redstonemanager-neoforge_1.21.1-0.0.9.jar";
             "hash" = "sha512-4pOKP6TtumSo6N6ak7lYtWL4n8MDMpVW47ZWAsrtceACw2/HYs5xtA2qzi55pGtC/dsTC/cmzqhPZrgSZ4TwtQ==";
         };
+        _Smu3dJI8 = {
+            "id" = "Smu3dJI8";
+            "file" = "redstonemanager-neoforge_26.1.2-1.0.0.jar";
+            "hash" = "sha512-TGLgjBwcNgO2uvqd6QAx2t5oCchyww91CI2dJhkLjcbIDcNEG4iY0dBnu2eMHWOtQT+Dl0t4j5Ca1R8ahU5V9g==";
+        };
     in {
         "JHjJYSdd" = _JHjJYSdd;
         "sCD44WJ0" = _sCD44WJ0;
@@ -56,7 +61,9 @@ let
         "Dg6ssrn8" = _Dg6ssrn8;
         "IY1pRfu4" = _IY1pRfu4;
         "xHbjEbNr" = _xHbjEbNr;
+        "Smu3dJI8" = _Smu3dJI8;
         "neoforge-1.21.1" = _xHbjEbNr;
+        "neoforge-26.1.2" = _Smu3dJI8;
         "pkg-0.0.1" = _JHjJYSdd;
         "pkg-0.0.2" = _sCD44WJ0;
         "pkg-0.0.3" = _Z7BEI87v;
@@ -66,7 +73,8 @@ let
         "pkg-0.0.7" = _Dg6ssrn8;
         "pkg-0.0.8" = _IY1pRfu4;
         "pkg-0.0.9" = _xHbjEbNr;
-        "default" = _xHbjEbNr;
+        "pkg-26.1.2-1.0.0" = _Smu3dJI8;
+        "default" = _Smu3dJI8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "redstone-manager";

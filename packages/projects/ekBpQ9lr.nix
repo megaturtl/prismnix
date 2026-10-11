@@ -46,6 +46,11 @@ let
             "file" = "KatanaTachi (R).zip";
             "hash" = "sha512-PAOkSzZ2MUXofBlmPgGmweWZV1gOxwZhC3sctDh7VegRM9vIauwx5nwHaTWoFGuvUHLaCGqzYekUD7Nmt4cYrQ==";
         };
+        _6w5NpXvX = {
+            "id" = "6w5NpXvX";
+            "file" = "KatanaTachi.zip";
+            "hash" = "sha512-E7Ddo44v6NDOpiPIu7VnG7jQOIwdfVWVqsMUTIOuFYp2RUSAlJQpf04iwzpmpIA8Y94jAwaOKz8MZ4TC88lpRg==";
+        };
     in {
         "NAhtd3PX" = _NAhtd3PX;
         "ulGub2s5" = _ulGub2s5;
@@ -56,17 +61,20 @@ let
         "TbQ1QJk0" = _TbQ1QJk0;
         "6X66L4WR" = _6X66L4WR;
         "PmtSrHQ8" = _PmtSrHQ8;
+        "6w5NpXvX" = _6w5NpXvX;
         "minecraft-1.21.4" = _CHDUrZyF;
         "minecraft-1.21.5" = _CHDUrZyF;
         "minecraft-1.21.9" = _PmtSrHQ8;
         "minecraft-1.21.10" = _PmtSrHQ8;
         "minecraft-1.21.11" = _PmtSrHQ8;
+        "minecraft-26.3" = _6w5NpXvX;
         "pkg-1.0" = _NAhtd3PX;
         "pkg-2.0" = _WplGrdS5;
         "pkg-2.1" = _CHDUrZyF;
         "pkg-3.0" = _TbQ1QJk0;
         "pkg-4.0" = _PmtSrHQ8;
-        "default" = _PmtSrHQ8;
+        "pkg-5.1+mc26.3" = _6w5NpXvX;
+        "default" = _6w5NpXvX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hots-katana";

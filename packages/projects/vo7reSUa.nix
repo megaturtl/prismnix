@@ -41,6 +41,11 @@ let
             "file" = "bloxysstructures-1.17.2-neoforge-1.21.4.jar";
             "hash" = "sha512-715gZGlM5urA/pZloLR2C5kosOVERWfqUIuOfx5E+2qxjKIuGwkEhrrjpJWXEHCAzFL0SeG1UMdiUMqb9BOX8Q==";
         };
+        _ZcA9ntAA = {
+            "id" = "ZcA9ntAA";
+            "file" = "bloxysstructures-1.18-neoforge-26.2.jar";
+            "hash" = "sha512-iJ2v3jzjHmmvZtRQAnB4LuT9MrTXXQc/ZcgNyx1pSCHLrku5tZbjk4XYrzox7OhNBMIbs+JSwUx4nd2PIEb4ug==";
+        };
     in {
         "LRDxcmhk" = _LRDxcmhk;
         "ioEzLzqo" = _ioEzLzqo;
@@ -50,12 +55,14 @@ let
         "oTTFcQCD" = _oTTFcQCD;
         "lVNORyR5" = _lVNORyR5;
         "XVZnKWsi" = _XVZnKWsi;
+        "ZcA9ntAA" = _ZcA9ntAA;
         "forge-1.16.4" = _ioEzLzqo;
         "forge-1.16.5" = _B2xL69QL;
         "forge-1.20.1" = _vTYgavOZ;
         "neoforge-1.21" = _lVNORyR5;
         "neoforge-1.21.1" = _lVNORyR5;
         "neoforge-1.21.4" = _XVZnKWsi;
+        "neoforge-26.2" = _ZcA9ntAA;
         "pkg-1.12" = _LRDxcmhk;
         "pkg-1.13.0" = _ioEzLzqo;
         "pkg-1.14.0" = _B2xL69QL;
@@ -64,7 +71,8 @@ let
         "pkg-1.17.0" = _oTTFcQCD;
         "pkg-1.17.1" = _lVNORyR5;
         "pkg-1.17.2" = _XVZnKWsi;
-        "default" = _XVZnKWsi;
+        "pkg-1.18" = _ZcA9ntAA;
+        "default" = _ZcA9ntAA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bloxys-structures";

@@ -746,6 +746,11 @@ let
             "file" = "BetterHitreg-1.0.7+26.2.jar";
             "hash" = "sha512-/1oytO0cX3R4rJZQ5DvO7EjQe1QkNsONLJ1OPWPLbuZOGU7ctnGFXPv9vy6RL6WRLRl/xGKNtb/pnp97WFYNNg==";
         };
+        _SWqm9T7e = {
+            "id" = "SWqm9T7e";
+            "file" = "BetterHitreg-1.0.8-BETA+26.3.jar";
+            "hash" = "sha512-0Y17TA3882ttsxvjKaVU5K72d9p6sw5KASU5MHSQc2AhjXI0ozYmiabyqZ5TlR6XZ8JYelpaa885eIq7aySuug==";
+        };
     in {
         "6U0pkZtY" = _6U0pkZtY;
         "F8ZDrfku" = _F8ZDrfku;
@@ -896,6 +901,7 @@ let
         "qWnqThtx" = _qWnqThtx;
         "gTXlpRvD" = _gTXlpRvD;
         "11SC2RjO" = _11SC2RjO;
+        "SWqm9T7e" = _SWqm9T7e;
         "fabric-1.19.4" = _wwddr96S;
         "fabric-1.20" = _lUQwfBFz;
         "fabric-1.20.1" = _MuJnsIRq;
@@ -920,6 +926,7 @@ let
         "fabric-26.1.1" = _qWnqThtx;
         "fabric-26.1.2" = _gTXlpRvD;
         "fabric-26.2" = _11SC2RjO;
+        "fabric-26.3" = _SWqm9T7e;
         "pkg-1.0.0+1.19.4" = _6U0pkZtY;
         "pkg-1.0.0+1.20" = _F8ZDrfku;
         "pkg-1.0.0+1.20.1" = _C0JVg7mw;
@@ -1069,7 +1076,8 @@ let
         "pkg-1.0.7+26.1.1" = _qWnqThtx;
         "pkg-1.0.7+26.1.2" = _gTXlpRvD;
         "pkg-1.0.7+26.2" = _11SC2RjO;
-        "default" = _11SC2RjO;
+        "pkg-1.0.8-BETA+26.3" = _SWqm9T7e;
+        "default" = _SWqm9T7e;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "betterhitreg";

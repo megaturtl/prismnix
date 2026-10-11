@@ -201,6 +201,26 @@ let
             "file" = "FantasticWings-v26.1.2-mc26.1.x-NeoForge.jar";
             "hash" = "sha512-qxUzNoTmON3BwKp5/pVyX+gqskqybnpfVdhBGIKsofmTnMF5qNkL6viibyyENoifihqBqDLl28yebvpgB6DiLw==";
         };
+        _C7xkW4zc = {
+            "id" = "C7xkW4zc";
+            "file" = "fantasticwings-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-bhHnFjxbCuYUejR5YJEShI76i9+6h8t1Iug5EzPdlw7rFtuPtO2BdD20zj7hYoBTSwhFLGIqskloEmPW9g4zRQ==";
+        };
+        _Ho6D30pC = {
+            "id" = "Ho6D30pC";
+            "file" = "fantasticwings-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-Zo7Ju8egp8Iqg0jNk4B/8ghkTkEphOG4Zzbw81Yymj2FughAwWussXGg9ylnTxYqun0WA5VflbZPTNKCQE7ySg==";
+        };
+        _aVaN92u8 = {
+            "id" = "aVaN92u8";
+            "file" = "fantasticwings-v20.1.2-mc1.20.1+fabric.jar";
+            "hash" = "sha512-QIne7JzCwAu7tKqkaiGz8yIPRf+pEcSWBbJco71njl/HjYARSn8bAcZbvio3Ksks6hsD3NFHzNuNJ1NGZQZzlg==";
+        };
+        _Qgx2TOmF = {
+            "id" = "Qgx2TOmF";
+            "file" = "fantasticwings-v20.1.2-mc1.20.1+forge.jar";
+            "hash" = "sha512-Bf01zYCFo2Gb/Kf45/fotsXvT0lLLKhC8LFFBHrnny9ciieMGRrUKQs0pTDPPwTlFMGF5oX570rzC7GoOWUZJg==";
+        };
     in {
         "Z6Vfcp4d" = _Z6Vfcp4d;
         "gyaMjMVZ" = _gyaMjMVZ;
@@ -242,6 +262,10 @@ let
         "4z1zNjqN" = _4z1zNjqN;
         "pA8wcdq0" = _pA8wcdq0;
         "8bWRlYKq" = _8bWRlYKq;
+        "C7xkW4zc" = _C7xkW4zc;
+        "Ho6D30pC" = _Ho6D30pC;
+        "aVaN92u8" = _aVaN92u8;
+        "Qgx2TOmF" = _Qgx2TOmF;
         "fabric-1.21.10" = _Z6Vfcp4d;
         "fabric-1.20.4" = _u9lufKqf;
         "fabric-1.21.1" = _edLa7tJj;
@@ -253,8 +277,9 @@ let
         "fabric-26.1" = _pA8wcdq0;
         "fabric-26.1.1" = _pA8wcdq0;
         "fabric-26.1.2" = _pA8wcdq0;
-        "fabric-1.20.1" = _6yTHvCv9;
+        "fabric-1.20.1" = _aVaN92u8;
         "fabric-26.2" = _xNHD3I9W;
+        "fabric-26.3" = _Ho6D30pC;
         "neoforge-1.21.10" = _gyaMjMVZ;
         "neoforge-1.20.4" = _zxkx0fxU;
         "neoforge-1.21.1" = _hX5hYT5c;
@@ -267,8 +292,9 @@ let
         "neoforge-26.1.1" = _8bWRlYKq;
         "neoforge-26.1.2" = _8bWRlYKq;
         "neoforge-26.2" = _4z1zNjqN;
+        "neoforge-26.3" = _C7xkW4zc;
         "forge-1.20.4" = _tUq1oX7a;
-        "forge-1.20.1" = _IMo3JqE9;
+        "forge-1.20.1" = _Qgx2TOmF;
         "pkg-21.10.0" = _gyaMjMVZ;
         "pkg-v20.4.0-1.20.4-Fabric" = _JSLi9HIa;
         "pkg-v20.4.0-1.20.4-Forge" = _kCj7cPKQ;
@@ -302,7 +328,9 @@ let
         "pkg-v20.4.1-1.20.4-NeoForge" = _zxkx0fxU;
         "pkg-26.2.0" = _4z1zNjqN;
         "pkg-26.1.2" = _8bWRlYKq;
-        "default" = _8bWRlYKq;
+        "pkg-26.3.0" = _Ho6D30pC;
+        "pkg-20.1.2" = _Qgx2TOmF;
+        "default" = _Qgx2TOmF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fantastic-wings";

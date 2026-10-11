@@ -241,6 +241,26 @@ let
             "file" = "bottle-o-enchanting-recipe-1.0.jar";
             "hash" = "sha512-vZU2gLk3e4Qfj29aMA4pYVd/p92nsupmcAjvS0Mt9kH108onbguFM/6uONluC8HpLmIsAb4y8CuVArA1YgidXQ==";
         };
+        _FhJ2i8co = {
+            "id" = "FhJ2i8co";
+            "file" = "bottle_o_enchanting-26.3.zip";
+            "hash" = "sha512-3qS86d3kxNa7s3ePp+GdxzoWSQXm0zPoXOanv2dP71eFdlOPhcokzoTHSSE9b0UkyRKlDyc33HLwJPjws1xlVw==";
+        };
+        _gfY4qwR5 = {
+            "id" = "gfY4qwR5";
+            "file" = "bottle-o-enchanting-recipe-1.0.jar";
+            "hash" = "sha512-G8zyrB3RE0pZ8QuqbaEEe8b4zroLpDyzNQ97FDZakAVrird4jZ43PxZ0Z8bRJXcMoCzTl3Ua4ql2+Ze+ZtdgEg==";
+        };
+        _rVFCe5nt = {
+            "id" = "rVFCe5nt";
+            "file" = "Bottle_o_Enchanting-1.19-datapack.zip";
+            "hash" = "sha512-+gW5JApy/GElnNOOzGD0SNBGGJQq1VCPzwbXW6sbOpok2hEVV8L8BjEZGceo5WVoW94ML+mSUBLaLeZLbieGmQ==";
+        };
+        _4bw2hHhz = {
+            "id" = "4bw2hHhz";
+            "file" = "bottle-o-enchanting-recipe-1.0.jar";
+            "hash" = "sha512-lWBDisvWp85rNhx3tV45dA9zS0Uk+zuQ5vqC9HyIT9H7oOJKOt3Fs2zrqEeAfPIHG/FG2qfkdz9r+i4N5z7gyw==";
+        };
     in {
         "DDIPYrP4" = _DDIPYrP4;
         "728FQYTC" = _728FQYTC;
@@ -290,6 +310,10 @@ let
         "UlSTJB4x" = _UlSTJB4x;
         "k0NZGOi5" = _k0NZGOi5;
         "mK037hZ7" = _mK037hZ7;
+        "FhJ2i8co" = _FhJ2i8co;
+        "gfY4qwR5" = _gfY4qwR5;
+        "rVFCe5nt" = _rVFCe5nt;
+        "4bw2hHhz" = _4bw2hHhz;
         "datapack-1.13" = _DDIPYrP4;
         "datapack-1.13.1" = _DDIPYrP4;
         "datapack-1.13.2" = _DDIPYrP4;
@@ -311,12 +335,12 @@ let
         "datapack-1.17.1" = _BfYvsqiu;
         "datapack-1.18" = _rokKR5iE;
         "datapack-1.18.1" = _rokKR5iE;
-        "datapack-1.18.2" = _GHxHLrwp;
-        "datapack-1.19" = _GHxHLrwp;
-        "datapack-1.19.1" = _GHxHLrwp;
-        "datapack-1.19.2" = _GHxHLrwp;
-        "datapack-1.19.3" = _GHxHLrwp;
-        "datapack-1.19.4" = _3KaopvCT;
+        "datapack-1.18.2" = _rVFCe5nt;
+        "datapack-1.19" = _rVFCe5nt;
+        "datapack-1.19.1" = _rVFCe5nt;
+        "datapack-1.19.2" = _rVFCe5nt;
+        "datapack-1.19.3" = _rVFCe5nt;
+        "datapack-1.19.4" = _rVFCe5nt;
         "datapack-1.20" = _3KaopvCT;
         "datapack-1.20.1" = _3KaopvCT;
         "datapack-1.20.2" = _3KaopvCT;
@@ -359,6 +383,7 @@ let
         "datapack-26.2-snapshot-2" = _iMJmHnPd;
         "datapack-26.2" = _k0NZGOi5;
         "datapack-26.3-snapshot-1" = _k0NZGOi5;
+        "datapack-26.3" = _FhJ2i8co;
         "fabric-1.13" = _728FQYTC;
         "fabric-1.13.1" = _728FQYTC;
         "fabric-1.13.2" = _728FQYTC;
@@ -380,12 +405,12 @@ let
         "fabric-1.17.1" = _STbBARbC;
         "fabric-1.18" = _SSoFNWK1;
         "fabric-1.18.1" = _SSoFNWK1;
-        "fabric-1.18.2" = _sTmrRkR5;
-        "fabric-1.19" = _sTmrRkR5;
-        "fabric-1.19.1" = _sTmrRkR5;
-        "fabric-1.19.2" = _sTmrRkR5;
-        "fabric-1.19.3" = _sTmrRkR5;
-        "fabric-1.19.4" = _UlSTJB4x;
+        "fabric-1.18.2" = _4bw2hHhz;
+        "fabric-1.19" = _4bw2hHhz;
+        "fabric-1.19.1" = _4bw2hHhz;
+        "fabric-1.19.2" = _4bw2hHhz;
+        "fabric-1.19.3" = _4bw2hHhz;
+        "fabric-1.19.4" = _4bw2hHhz;
         "fabric-1.20" = _UlSTJB4x;
         "fabric-1.20.1" = _UlSTJB4x;
         "fabric-1.20.2" = _UlSTJB4x;
@@ -428,6 +453,7 @@ let
         "fabric-26.2-snapshot-2" = _iC0Yba6b;
         "fabric-26.2" = _mK037hZ7;
         "fabric-26.3-snapshot-1" = _mK037hZ7;
+        "fabric-26.3" = _gfY4qwR5;
         "forge-1.13" = _728FQYTC;
         "forge-1.13.1" = _728FQYTC;
         "forge-1.13.2" = _728FQYTC;
@@ -449,12 +475,12 @@ let
         "forge-1.17.1" = _STbBARbC;
         "forge-1.18" = _SSoFNWK1;
         "forge-1.18.1" = _SSoFNWK1;
-        "forge-1.18.2" = _sTmrRkR5;
-        "forge-1.19" = _sTmrRkR5;
-        "forge-1.19.1" = _sTmrRkR5;
-        "forge-1.19.2" = _sTmrRkR5;
-        "forge-1.19.3" = _sTmrRkR5;
-        "forge-1.19.4" = _UlSTJB4x;
+        "forge-1.18.2" = _4bw2hHhz;
+        "forge-1.19" = _4bw2hHhz;
+        "forge-1.19.1" = _4bw2hHhz;
+        "forge-1.19.2" = _4bw2hHhz;
+        "forge-1.19.3" = _4bw2hHhz;
+        "forge-1.19.4" = _4bw2hHhz;
         "forge-1.20" = _UlSTJB4x;
         "forge-1.20.1" = _UlSTJB4x;
         "forge-1.20.2" = _UlSTJB4x;
@@ -497,6 +523,7 @@ let
         "forge-26.2-snapshot-2" = _iC0Yba6b;
         "forge-26.2" = _mK037hZ7;
         "forge-26.3-snapshot-1" = _mK037hZ7;
+        "forge-26.3" = _gfY4qwR5;
         "neoforge-1.13" = _728FQYTC;
         "neoforge-1.13.1" = _728FQYTC;
         "neoforge-1.13.2" = _728FQYTC;
@@ -518,12 +545,12 @@ let
         "neoforge-1.17.1" = _STbBARbC;
         "neoforge-1.18" = _SSoFNWK1;
         "neoforge-1.18.1" = _SSoFNWK1;
-        "neoforge-1.18.2" = _sTmrRkR5;
-        "neoforge-1.19" = _sTmrRkR5;
-        "neoforge-1.19.1" = _sTmrRkR5;
-        "neoforge-1.19.2" = _sTmrRkR5;
-        "neoforge-1.19.3" = _sTmrRkR5;
-        "neoforge-1.19.4" = _UlSTJB4x;
+        "neoforge-1.18.2" = _4bw2hHhz;
+        "neoforge-1.19" = _4bw2hHhz;
+        "neoforge-1.19.1" = _4bw2hHhz;
+        "neoforge-1.19.2" = _4bw2hHhz;
+        "neoforge-1.19.3" = _4bw2hHhz;
+        "neoforge-1.19.4" = _4bw2hHhz;
         "neoforge-1.20" = _UlSTJB4x;
         "neoforge-1.20.1" = _UlSTJB4x;
         "neoforge-1.20.2" = _UlSTJB4x;
@@ -566,6 +593,7 @@ let
         "neoforge-26.2-snapshot-2" = _iC0Yba6b;
         "neoforge-26.2" = _mK037hZ7;
         "neoforge-26.3-snapshot-1" = _mK037hZ7;
+        "neoforge-26.3" = _gfY4qwR5;
         "quilt-1.13" = _728FQYTC;
         "quilt-1.13.1" = _728FQYTC;
         "quilt-1.13.2" = _728FQYTC;
@@ -587,12 +615,12 @@ let
         "quilt-1.17.1" = _STbBARbC;
         "quilt-1.18" = _SSoFNWK1;
         "quilt-1.18.1" = _SSoFNWK1;
-        "quilt-1.18.2" = _sTmrRkR5;
-        "quilt-1.19" = _sTmrRkR5;
-        "quilt-1.19.1" = _sTmrRkR5;
-        "quilt-1.19.2" = _sTmrRkR5;
-        "quilt-1.19.3" = _sTmrRkR5;
-        "quilt-1.19.4" = _UlSTJB4x;
+        "quilt-1.18.2" = _4bw2hHhz;
+        "quilt-1.19" = _4bw2hHhz;
+        "quilt-1.19.1" = _4bw2hHhz;
+        "quilt-1.19.2" = _4bw2hHhz;
+        "quilt-1.19.3" = _4bw2hHhz;
+        "quilt-1.19.4" = _4bw2hHhz;
         "quilt-1.20" = _UlSTJB4x;
         "quilt-1.20.1" = _UlSTJB4x;
         "quilt-1.20.2" = _UlSTJB4x;
@@ -635,9 +663,10 @@ let
         "quilt-26.2-snapshot-2" = _iC0Yba6b;
         "quilt-26.2" = _mK037hZ7;
         "quilt-26.3-snapshot-1" = _mK037hZ7;
-        "pkg-1.0" = _k0NZGOi5;
-        "pkg-1.0+mod" = _mK037hZ7;
-        "default" = _mK037hZ7;
+        "quilt-26.3" = _gfY4qwR5;
+        "pkg-1.0" = _rVFCe5nt;
+        "pkg-1.0+mod" = _4bw2hHhz;
+        "default" = _4bw2hHhz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bottle-o-enchanting-recipe";

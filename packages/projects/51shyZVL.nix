@@ -866,6 +866,16 @@ let
             "file" = "moreculling-fabric-26.3-1.9.0-beta.1.jar";
             "hash" = "sha512-mi6Q5lpO19DjMvXJUdYDvh1NYMkrHNGIZIOJL86hMwyMZWwpGB5jZ70yEBt0ktcy2TY0N3vBv8BCdr35BmTWyA==";
         };
+        _1of2eSie = {
+            "id" = "1of2eSie";
+            "file" = "moreculling-neoforge-26.3-1.9.0.jar";
+            "hash" = "sha512-MByQ8zMszXT7b96LIvQ+FSIaP5khPQsOcRaSvPNNDO78R0Q4jF9siBOWDGm1/LaxbprpafFaU5O5mwuxX+30CQ==";
+        };
+        _t7vAlfgO = {
+            "id" = "t7vAlfgO";
+            "file" = "moreculling-fabric-26.3-1.9.0.jar";
+            "hash" = "sha512-sZde9DYGo7qhyToED775ar+/Rq5qHjZMYO/9A6QlaPlF7eC94ykkHoetxqnCdp3R0TrShoacaJAYA17/Z3RCsg==";
+        };
     in {
         "bey0UTtY" = _bey0UTtY;
         "kyoVWOaa" = _kyoVWOaa;
@@ -1040,6 +1050,8 @@ let
         "wUYbHzXF" = _wUYbHzXF;
         "U1j9RSbg" = _U1j9RSbg;
         "zL2UEFXS" = _zL2UEFXS;
+        "1of2eSie" = _1of2eSie;
+        "t7vAlfgO" = _t7vAlfgO;
         "fabric-1.18" = _kyoVWOaa;
         "fabric-1.18.1" = _kyoVWOaa;
         "fabric-1.18.2" = _d2OS47y6;
@@ -1103,7 +1115,7 @@ let
         "fabric-26.1.1" = _PX8FzP3c;
         "fabric-26.1.2" = _PX8FzP3c;
         "fabric-26.2" = _D5oVCouK;
-        "fabric-26.3" = _zL2UEFXS;
+        "fabric-26.3" = _t7vAlfgO;
         "quilt-1.19" = _dMVy7Ytv;
         "quilt-1.18.2" = _d2OS47y6;
         "quilt-1.19.1" = _5hjaMcPN;
@@ -1133,7 +1145,7 @@ let
         "quilt-26.1.1" = _PX8FzP3c;
         "quilt-26.1.2" = _PX8FzP3c;
         "quilt-26.2" = _D5oVCouK;
-        "quilt-26.3" = _zL2UEFXS;
+        "quilt-26.3" = _t7vAlfgO;
         "neoforge-1.21.1" = _5M4T2FfG;
         "neoforge-1.21" = _5M4T2FfG;
         "neoforge-1.21.2" = _3cvtb5VL;
@@ -1150,7 +1162,7 @@ let
         "neoforge-26.1.1" = _3pwnQv9b;
         "neoforge-26.1.2" = _3pwnQv9b;
         "neoforge-26.2" = _dKLDGs8Q;
-        "neoforge-26.3" = _U1j9RSbg;
+        "neoforge-26.3" = _1of2eSie;
         "pkg-0.1.0" = _bey0UTtY;
         "pkg-v0.1.2" = _kyoVWOaa;
         "pkg-v0.1.3" = _rk6iCKkw;
@@ -1269,7 +1281,8 @@ let
         "pkg-1.8.1" = _D5oVCouK;
         "pkg-1.0.10" = _wUYbHzXF;
         "pkg-1.9.0-beta.1" = _zL2UEFXS;
-        "default" = _zL2UEFXS;
+        "pkg-1.9.0" = _t7vAlfgO;
+        "default" = _t7vAlfgO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "moreculling";

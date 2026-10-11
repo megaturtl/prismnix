@@ -51,6 +51,11 @@ let
             "file" = "betterfishing-1.4.0-26.2.jar";
             "hash" = "sha512-WIlJyCBSQGwn/O7br3nSY6L3P4WseL5pLkxZiz0T1LnVzQMkvXIUQJq3mQDS9RdpVSxK9tr2P1xEQJzvnT2MXg==";
         };
+        _nk1eGqL2 = {
+            "id" = "nk1eGqL2";
+            "file" = "betterfishing-1.4.1-26.3.jar";
+            "hash" = "sha512-VVitYN0v7NiQJ4LyKQbfXcusJP68n+2iSUs4jhmdQJYL8ibZDeO9HhyUqyxJpavx5yq/44my3ukTD92uTkoI/A==";
+        };
     in {
         "zb0FOobY" = _zb0FOobY;
         "ANwsfYTW" = _ANwsfYTW;
@@ -62,6 +67,7 @@ let
         "llvWn9Wk" = _llvWn9Wk;
         "aqc3guu5" = _aqc3guu5;
         "Oc74E6bv" = _Oc74E6bv;
+        "nk1eGqL2" = _nk1eGqL2;
         "fabric-1.21.10" = _aXO12C0C;
         "fabric-1.21.8" = _25uGhnd3;
         "fabric-1.21.6" = _25uGhnd3;
@@ -72,6 +78,7 @@ let
         "fabric-26.1.1" = _aqc3guu5;
         "fabric-26.1.2" = _aqc3guu5;
         "fabric-26.2" = _Oc74E6bv;
+        "fabric-26.3" = _nk1eGqL2;
         "pkg-1.1.0" = _zb0FOobY;
         "pkg-1.0.0" = _ANwsfYTW;
         "pkg-1.0.1-1.21.8" = _fEZc1xaO;
@@ -82,7 +89,8 @@ let
         "pkg-1.2.0-1.21.11" = _llvWn9Wk;
         "pkg-1.3.0-26.1" = _aqc3guu5;
         "pkg-1.4.0-26.2" = _Oc74E6bv;
-        "default" = _Oc74E6bv;
+        "pkg-1.4.1-26.3" = _nk1eGqL2;
+        "default" = _nk1eGqL2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "betterfishing";

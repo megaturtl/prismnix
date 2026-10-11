@@ -211,6 +211,11 @@ let
             "file" = "Enhanced_Discoveries_Language_Pack.zip";
             "hash" = "sha512-vrKFOdHIlFKIuqeqhP0ujEEEXqqaaUfiblu2nivgsKsI3cERlYL6wW6UzeIu07yfFDd3aQ7s+ETlG+P8MOlKBw==";
         };
+        _MTcPQwAC = {
+            "id" = "MTcPQwAC";
+            "file" = "Enhanced_Discoveries_Language_Pack.zip";
+            "hash" = "sha512-0xiWwNsSGURb4qFjwB6/WVR3NKTqxbsibU0LoRWOcdokTuoWZugcMhdW1vn/XyEUK8QDqpjXxjBAqju6LrC3Wg==";
+        };
     in {
         "mz6ZrhrF" = _mz6ZrhrF;
         "JpDft9Fj" = _JpDft9Fj;
@@ -254,6 +259,7 @@ let
         "BItBGCl9" = _BItBGCl9;
         "QtNYrx7M" = _QtNYrx7M;
         "OohlljQ3" = _OohlljQ3;
+        "MTcPQwAC" = _MTcPQwAC;
         "minecraft-1.20.4" = _2MC0yO1x;
         "minecraft-1.20.5" = _2MC0yO1x;
         "minecraft-1.20.6" = _2MC0yO1x;
@@ -273,7 +279,7 @@ let
         "minecraft-26.2" = _BItBGCl9;
         "minecraft-26.3-rc-1" = _QtNYrx7M;
         "minecraft-26.3-rc-2" = _QtNYrx7M;
-        "minecraft-26.3" = _OohlljQ3;
+        "minecraft-26.3" = _MTcPQwAC;
         "pkg-1.0" = _mz6ZrhrF;
         "pkg-1.1" = _JpDft9Fj;
         "pkg-1.2" = _iGNuUijV;
@@ -316,7 +322,8 @@ let
         "pkg-2.9.2" = _BItBGCl9;
         "pkg-2.9.3-beta_1" = _QtNYrx7M;
         "pkg-2.9.3" = _OohlljQ3;
-        "default" = _OohlljQ3;
+        "pkg-2.9.4" = _MTcPQwAC;
+        "default" = _MTcPQwAC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bacaped-language-pack";

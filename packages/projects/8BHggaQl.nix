@@ -171,6 +171,46 @@ let
             "file" = "czsk-tier-tagger-2.0.1-b33+26.1-26.x.jar";
             "hash" = "sha512-paGxrO5BV8tRmNg8LayJvTZmcdEbChVMDs57g/PfvI2pwfCjjg/2Z2e61znyXQUmNMiO+IdfdYnhZleJSNP39w==";
         };
+        _zNw30TEU = {
+            "id" = "zNw30TEU";
+            "file" = "CZ-SK TierTagger-2.1.0+1.21-1.21.1.jar";
+            "hash" = "sha512-wsDoEOZl8f3NHb+8IVtWrS7ND4lokjj8q17psX39hbQHUXwzz6bUadSzFmxWqbsHrcs5vnjxM4hQm9WiCSQVSw==";
+        };
+        _hWmPLGZv = {
+            "id" = "hWmPLGZv";
+            "file" = "CZ-SK TierTagger-2.1.0+1.21.2-1.21.4.jar";
+            "hash" = "sha512-XEByl+Q9wgZJb49oChHVAvxHV3ZUcdRMc6hbQ92QbdpyL1a/edW2kXnqvjOkVmAqU5dDnmRt48sk3uGPsAlRRw==";
+        };
+        _bBFvehz7 = {
+            "id" = "bBFvehz7";
+            "file" = "CZ-SK TierTagger-2.1.0+1.21.5.jar";
+            "hash" = "sha512-IUEEsEord+ns2vpQgP1jeCHfcEvGEei3S/nTiJlWgwmCVrGUZygb9n6rEzG02epOcMV+Pb7Pdp9JGZWWU29ONg==";
+        };
+        _JBQJTbsq = {
+            "id" = "JBQJTbsq";
+            "file" = "CZ-SK TierTagger-2.1.0+1.21.6-1.21.8.jar";
+            "hash" = "sha512-N9HtdaIJvdnMBMifxGARC602Jp2DyJy8JQ3Mh9Qg4q87eKbAAtugNy/JkmJ3ZN+EsSgyUB1eU12Ln/Q7QSKuGg==";
+        };
+        _Zrv7Uing = {
+            "id" = "Zrv7Uing";
+            "file" = "CZ-SK TierTagger-2.1.0+1.21.9-1.21.11.jar";
+            "hash" = "sha512-Z4PQEm30xBXRR4OejWR+NBUeI4cAseZQf/eFe83hA5jHOPYybwihF/BCcg5erOjtvYX3Xvbqx8Xzmc7UrYw+MA==";
+        };
+        _yZhW6BRV = {
+            "id" = "yZhW6BRV";
+            "file" = "CZ-SK TierTagger-2.1.0+26.1.x.jar";
+            "hash" = "sha512-JozodEiI0tHbE9lOi8aiG1oMe4DIWjt9Yimv+1eLMSHA/qwUg4jGdyatmE0UkyYbtFuz4ULYqnqvOBqVqLUmrg==";
+        };
+        _CRUPc0zj = {
+            "id" = "CRUPc0zj";
+            "file" = "CZ-SK TierTagger-2.1.0+26.2.x.jar";
+            "hash" = "sha512-C7BabSa+uZYVsC0F36BjEOQJJTb3KKtb9qQ96Rvzcshau94oJgqWipNdB6DeMlTBYvRPoRbdDsqpojyQMNrLug==";
+        };
+        _GP7kN9Ol = {
+            "id" = "GP7kN9Ol";
+            "file" = "CZ-SK TierTagger-2.1.0+26.3.x.jar";
+            "hash" = "sha512-fi6UjSgRwzYMaDQfr1SokT4VSUAMqWvFh7+wSHzBUiz1X/R44y1sBCYJFJGBRyJOUOsa3Y3g93FyA7lZBLmOeQ==";
+        };
     in {
         "CwsPCGGe" = _CwsPCGGe;
         "HOEnqWZe" = _HOEnqWZe;
@@ -206,22 +246,31 @@ let
         "fICC2ccQ" = _fICC2ccQ;
         "qjQaexso" = _qjQaexso;
         "IOB7nNJ3" = _IOB7nNJ3;
-        "fabric-1.21.4" = _xQlV6JfS;
-        "fabric-1.21.5" = _L9I1bUuI;
-        "fabric-1.21.6" = _fICC2ccQ;
-        "fabric-1.21.10" = _qjQaexso;
-        "fabric-1.21.7" = _fICC2ccQ;
-        "fabric-1.21.8" = _fICC2ccQ;
-        "fabric-1.21.9" = _qjQaexso;
-        "fabric-1.21.11" = _qjQaexso;
-        "fabric-1.21.1" = _xBLyg1Z8;
-        "fabric-1.21.2" = _xQlV6JfS;
-        "fabric-1.21.3" = _xQlV6JfS;
-        "fabric-1.21" = _xBLyg1Z8;
-        "fabric-26.1" = _IOB7nNJ3;
-        "fabric-26.1.1" = _IOB7nNJ3;
-        "fabric-26.1.2" = _IOB7nNJ3;
-        "fabric-26.2" = _IOB7nNJ3;
+        "zNw30TEU" = _zNw30TEU;
+        "hWmPLGZv" = _hWmPLGZv;
+        "bBFvehz7" = _bBFvehz7;
+        "JBQJTbsq" = _JBQJTbsq;
+        "Zrv7Uing" = _Zrv7Uing;
+        "yZhW6BRV" = _yZhW6BRV;
+        "CRUPc0zj" = _CRUPc0zj;
+        "GP7kN9Ol" = _GP7kN9Ol;
+        "fabric-1.21.4" = _hWmPLGZv;
+        "fabric-1.21.5" = _bBFvehz7;
+        "fabric-1.21.6" = _JBQJTbsq;
+        "fabric-1.21.10" = _Zrv7Uing;
+        "fabric-1.21.7" = _JBQJTbsq;
+        "fabric-1.21.8" = _JBQJTbsq;
+        "fabric-1.21.9" = _Zrv7Uing;
+        "fabric-1.21.11" = _Zrv7Uing;
+        "fabric-1.21.1" = _zNw30TEU;
+        "fabric-1.21.2" = _hWmPLGZv;
+        "fabric-1.21.3" = _hWmPLGZv;
+        "fabric-1.21" = _zNw30TEU;
+        "fabric-26.1" = _yZhW6BRV;
+        "fabric-26.1.1" = _yZhW6BRV;
+        "fabric-26.1.2" = _yZhW6BRV;
+        "fabric-26.2" = _CRUPc0zj;
+        "fabric-26.3" = _GP7kN9Ol;
         "pkg-1.0.0" = _59JwLjLT;
         "pkg-1.1.0." = _HOEnqWZe;
         "pkg-2.0.0" = _8aqvBiUL;
@@ -238,7 +287,15 @@ let
         "pkg-2.0.1-b33+1.21.6-1.21.8" = _fICC2ccQ;
         "pkg-2.0.1-b33+1.21.9-1.21.11" = _qjQaexso;
         "pkg-2.0.1-b33+26.1-26.x" = _IOB7nNJ3;
-        "default" = _IOB7nNJ3;
+        "pkg-2.1.0+1.21-1.21.1" = _zNw30TEU;
+        "pkg-2.1.0+1.21.2-1.21.4" = _hWmPLGZv;
+        "pkg-2.1.0+1.21.5" = _bBFvehz7;
+        "pkg-2.1.0+1.21.6-1.21.8" = _JBQJTbsq;
+        "pkg-2.1.0+1.21.9-1.21.11" = _Zrv7Uing;
+        "pkg-2.1.0+26.1.x" = _yZhW6BRV;
+        "pkg-2.1.0+26.2.x" = _CRUPc0zj;
+        "pkg-2.1.0+26.3.x" = _GP7kN9Ol;
+        "default" = _GP7kN9Ol;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "czsk-tiertagger";

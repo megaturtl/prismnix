@@ -31,6 +31,11 @@ let
             "file" = "QuartzUI-6.0-MC1.21.10.zip";
             "hash" = "sha512-6o8j0t24SrWX29/FG3no+sDzrH0PXDwcHE32jB/E1uC6fj9NKOWMLZhQEeP+uUkRIQWIq4qzcFU+w9tktgbhVQ==";
         };
+        _3pl5Gobu = {
+            "id" = "3pl5Gobu";
+            "file" = "QuartzUI-7.0.zip";
+            "hash" = "sha512-dZskGTBFJSw5L0x+0/KIErW14xbDMzgY78ZeOf9pTCJnHbellYGQ+qabcn2OKBevG3EUT3dFFl83r0Cd8Z7bqg==";
+        };
     in {
         "Vyvh4mVz" = _Vyvh4mVz;
         "qvZlUe9K" = _qvZlUe9K;
@@ -38,6 +43,7 @@ let
         "3BZQ7tsP" = _3BZQ7tsP;
         "oQ2MAA0I" = _oQ2MAA0I;
         "D7NuIgwl" = _D7NuIgwl;
+        "3pl5Gobu" = _3pl5Gobu;
         "minecraft-1.19.4" = _Vyvh4mVz;
         "minecraft-1.20" = _qvZlUe9K;
         "minecraft-1.20.1" = _qvZlUe9K;
@@ -55,20 +61,22 @@ let
         "minecraft-1.21.6" = _oQ2MAA0I;
         "minecraft-1.21.7" = _oQ2MAA0I;
         "minecraft-1.21.8" = _oQ2MAA0I;
-        "minecraft-1.21.9" = _D7NuIgwl;
-        "minecraft-1.21.10" = _D7NuIgwl;
-        "minecraft-1.21.11" = _D7NuIgwl;
-        "minecraft-26.1" = _D7NuIgwl;
-        "minecraft-26.1.1" = _D7NuIgwl;
-        "minecraft-26.1.2" = _D7NuIgwl;
-        "minecraft-26.2" = _D7NuIgwl;
+        "minecraft-1.21.9" = _3pl5Gobu;
+        "minecraft-1.21.10" = _3pl5Gobu;
+        "minecraft-1.21.11" = _3pl5Gobu;
+        "minecraft-26.1" = _3pl5Gobu;
+        "minecraft-26.1.1" = _3pl5Gobu;
+        "minecraft-26.1.2" = _3pl5Gobu;
+        "minecraft-26.2" = _3pl5Gobu;
+        "minecraft-26.3" = _3pl5Gobu;
         "pkg-3.3" = _Vyvh4mVz;
         "pkg-4.0" = _qvZlUe9K;
         "pkg-5.0" = _kZWd9bdt;
         "pkg-5.1" = _3BZQ7tsP;
         "pkg-5.2" = _oQ2MAA0I;
         "pkg-6.0" = _D7NuIgwl;
-        "default" = _D7NuIgwl;
+        "pkg-7.0" = _3pl5Gobu;
+        "default" = _3pl5Gobu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "quartz-ui";

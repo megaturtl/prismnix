@@ -66,6 +66,11 @@ let
             "file" = "WhereWaterGo-2.1.1-1.26.2.jar";
             "hash" = "sha512-4sYY1aM2Pwr9A2eVlz2msoL7H+NsZOvDSZ/gQATpjs6VpWUZk2SF6/L252Nf75WoumwUDLXnRVEwntnxlkKzBA==";
         };
+        _tOUisvkR = {
+            "id" = "tOUisvkR";
+            "file" = "WhereWaterGo-2.1.2-1.26.3.jar";
+            "hash" = "sha512-yTfkwf3YHDZMZAaDfeaIEPx77alHCF3eRNnUnHhKaMzkr6qyQvYFdgpbwLBQU6dMsmMEXnRF+6SjI4/peeabHA==";
+        };
     in {
         "r0jm9F6Q" = _r0jm9F6Q;
         "OXk3RPq3" = _OXk3RPq3;
@@ -80,6 +85,7 @@ let
         "34ph6Mbj" = _34ph6Mbj;
         "taAj2jxp" = _taAj2jxp;
         "cNapg7Pk" = _cNapg7Pk;
+        "tOUisvkR" = _tOUisvkR;
         "fabric-1.20" = _r0jm9F6Q;
         "fabric-1.20.1" = _r0jm9F6Q;
         "fabric-1.20.2" = _OXk3RPq3;
@@ -103,6 +109,7 @@ let
         "fabric-26.1.1" = _34ph6Mbj;
         "fabric-26.1.2" = _34ph6Mbj;
         "fabric-26.2" = _cNapg7Pk;
+        "fabric-26.3" = _tOUisvkR;
         "pkg-1.0.0-1.20" = _r0jm9F6Q;
         "pkg-1.0.0-1.20.2" = _OXk3RPq3;
         "pkg-1.0.0-1.20.3" = _bQ05Ytz4;
@@ -116,7 +123,8 @@ let
         "pkg-2.0.0-1.26.1" = _34ph6Mbj;
         "pkg-2.1.0-1.26.2" = _taAj2jxp;
         "pkg-2.1.1-1.26.2" = _cNapg7Pk;
-        "default" = _cNapg7Pk;
+        "pkg-2.1.2-1.26.3" = _tOUisvkR;
+        "default" = _tOUisvkR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wwg";

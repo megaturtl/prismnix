@@ -186,6 +186,21 @@ let
             "file" = "Bucket-of-Frog-26.2-neoforge-1.2.jar";
             "hash" = "sha512-yqAR+fgFHNVpaZehhWNp4h4dFAECrFuAh0EjWtH9F/SJoCnh+MNFEHOs48wrEuAZIK3ZVGDxlH5C8egwkfUBgg==";
         };
+        _ABjZq8tM = {
+            "id" = "ABjZq8tM";
+            "file" = "Bucket-of-Frog-26.3-fabric-1.2.jar";
+            "hash" = "sha512-FB+ad6leQgLK+3LcjavRq29RdpAT3V5ySCi94DKRfFZ6hSGVncMnMMOBuecIH4+WOna1XegmNnOF+ElGMzczUQ==";
+        };
+        _jyWjNVph = {
+            "id" = "jyWjNVph";
+            "file" = "Bucket-of-Frog-26.3-forge-1.2.jar";
+            "hash" = "sha512-31HzyoZ2/75SztDdhm3BaCypzogN7lNWtork2kLasxe9FAc+8yITNI4BY9/nkTKGpP5Hh43tTJ5IzoWcnxrnOA==";
+        };
+        _1mwfUHUH = {
+            "id" = "1mwfUHUH";
+            "file" = "Bucket-of-Frog-26.3-neoforge-1.2.jar";
+            "hash" = "sha512-PNM+YifZfhe2XtCJkYPBT4VnSOfLzN2JqLzYSBaQsji0BpSh2ifkRI09yYqwF1S4auw4eyZAisYTAlNOPrC22w==";
+        };
     in {
         "4cmnYqG3" = _4cmnYqG3;
         "6zBjIN2A" = _6zBjIN2A;
@@ -224,6 +239,9 @@ let
         "J0uZAZdK" = _J0uZAZdK;
         "3M7HOBpP" = _3M7HOBpP;
         "F5L1uSyd" = _F5L1uSyd;
+        "ABjZq8tM" = _ABjZq8tM;
+        "jyWjNVph" = _jyWjNVph;
+        "1mwfUHUH" = _1mwfUHUH;
         "fabric-1.21.8" = _zwSOb2PQ;
         "fabric-1.21.9" = _lBvL7vlU;
         "fabric-1.21.10" = _lBvL7vlU;
@@ -232,6 +250,7 @@ let
         "fabric-1.21.1" = _tpkanuTj;
         "fabric-26.1" = _89rq1HIz;
         "fabric-26.2" = _J0uZAZdK;
+        "fabric-26.3" = _ABjZq8tM;
         "forge-1.21.8" = _i7LWM5gi;
         "forge-1.21.9" = _F9w6detg;
         "forge-1.21.10" = _F9w6detg;
@@ -240,6 +259,7 @@ let
         "forge-1.21.1" = _87znh7Sw;
         "forge-26.1" = _9N09tUQW;
         "forge-26.2" = _3M7HOBpP;
+        "forge-26.3" = _jyWjNVph;
         "neoforge-1.21.8" = _SAyM0whu;
         "neoforge-1.21.9" = _WQhBdJj5;
         "neoforge-1.21.10" = _WQhBdJj5;
@@ -248,12 +268,13 @@ let
         "neoforge-26.1" = _c8ipJLWk;
         "neoforge-26.1.2" = _YtkPPYSo;
         "neoforge-26.2" = _F5L1uSyd;
+        "neoforge-26.3" = _1mwfUHUH;
         "pkg-1.0" = _4cmnYqG3;
         "pkg-1.0.1" = _EBDeChNK;
         "pkg-1.1" = _lfKryeNn;
-        "pkg-1.2" = _F5L1uSyd;
+        "pkg-1.2" = _1mwfUHUH;
         "pkg-1.2+alexcaves" = _GdwwfBh3;
-        "default" = _F5L1uSyd;
+        "default" = _1mwfUHUH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bucket-of-frog";

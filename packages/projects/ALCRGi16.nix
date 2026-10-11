@@ -581,6 +581,21 @@ let
             "file" = "huskssand-26.2-neoforge-10.1.1.jar";
             "hash" = "sha512-jvHGCYUknaXiCpHiGlDSaAEw/i/sp9gMM7AP1SBeO1RuNKkUtTH2DSByL+VnOWflr337eemQY27ZykGN/6aLaw==";
         };
+        _hGhxEAZI = {
+            "id" = "hGhxEAZI";
+            "file" = "huskssand-26.3-fabric-10.1.1.jar";
+            "hash" = "sha512-+bNo2zrW77XgOYdkkF2mvlWjjS+3EtdCKv9ILbEsaQWMJ3s4KE2mWtru05O3iLRuQhvnw/vIgKhIyY+3/aGChA==";
+        };
+        _abgmXAcw = {
+            "id" = "abgmXAcw";
+            "file" = "huskssand-26.3-forge-10.1.1.jar";
+            "hash" = "sha512-lZ9wJTiqqIoug+TfFwlLh2+Ld8VNfA6M3Nf7cl6fOnZekjOPw/8Mu6TAoHM9wPwM2aTqTbBvaRheGkrLC9BpJQ==";
+        };
+        _zbnVkjkm = {
+            "id" = "zbnVkjkm";
+            "file" = "huskssand-26.3-neoforge-10.1.1.jar";
+            "hash" = "sha512-6gc8OBApPv6YSBG/xrf8kSOgYWOlTm34gRmuaaSnkezrV/t5sKw4RuDfP8TVLGJ7wU6vNIR+Z0B2HY9SdZCwiQ==";
+        };
     in {
         "3OqQjq26" = _3OqQjq26;
         "jGJkcvZe" = _jGJkcvZe;
@@ -698,6 +713,9 @@ let
         "5wwXLfju" = _5wwXLfju;
         "x6P3eFhh" = _x6P3eFhh;
         "e3rXwBYt" = _e3rXwBYt;
+        "hGhxEAZI" = _hGhxEAZI;
+        "abgmXAcw" = _abgmXAcw;
+        "zbnVkjkm" = _zbnVkjkm;
         "fabric-1.16.5" = _6wNpOPCc;
         "fabric-1.18.1" = _fJ89B8t7;
         "fabric-1.18.2" = _fJ89B8t7;
@@ -730,6 +748,7 @@ let
         "fabric-26.1.1" = _5JbPNLOb;
         "fabric-26.1.2" = _5JbPNLOb;
         "fabric-26.2" = _5wwXLfju;
+        "fabric-26.3" = _hGhxEAZI;
         "quilt-1.16.5" = _6wNpOPCc;
         "quilt-1.18.1" = _fJ89B8t7;
         "quilt-1.18.2" = _fJ89B8t7;
@@ -762,6 +781,7 @@ let
         "quilt-26.1.1" = _5JbPNLOb;
         "quilt-26.1.2" = _5JbPNLOb;
         "quilt-26.2" = _5wwXLfju;
+        "quilt-26.3" = _hGhxEAZI;
         "forge-1.16.5" = _gaKVurfk;
         "forge-1.17.1" = _wHkcTEeo;
         "forge-1.18" = _mQflQ8OX;
@@ -795,6 +815,7 @@ let
         "forge-26.1.1" = _KyOiH8WO;
         "forge-26.1.2" = _KyOiH8WO;
         "forge-26.2" = _x6P3eFhh;
+        "forge-26.3" = _abgmXAcw;
         "neoforge-1.20.4" = _VmRZmCyw;
         "neoforge-1.20.6" = _vsSQzhwp;
         "neoforge-1.21" = _Tz4bEbze;
@@ -816,6 +837,7 @@ let
         "neoforge-26.1.1" = _W3sUPqZQ;
         "neoforge-26.1.2" = _W3sUPqZQ;
         "neoforge-26.2" = _e3rXwBYt;
+        "neoforge-26.3" = _zbnVkjkm;
         "pkg-1.16.5-2" = _3OqQjq26;
         "pkg-1.18.1-3" = _jGJkcvZe;
         "pkg-1.18.2-4" = _s7ArZzeo;
@@ -930,7 +952,10 @@ let
         "pkg-26.2-fabric-10.1.1" = _5wwXLfju;
         "pkg-26.2-forge-10.1.1" = _x6P3eFhh;
         "pkg-26.2-neoforge-10.1.1" = _e3rXwBYt;
-        "default" = _e3rXwBYt;
+        "pkg-26.3-fabric-10.1.1" = _hGhxEAZI;
+        "pkg-26.3-forge-10.1.1" = _abgmXAcw;
+        "pkg-26.3-neoforge-10.1.1" = _zbnVkjkm;
+        "default" = _zbnVkjkm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "husks-drop-sand";

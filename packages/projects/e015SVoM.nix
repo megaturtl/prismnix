@@ -206,6 +206,26 @@ let
             "file" = "Captcha-neoforge-26.2-16.0.0.jar";
             "hash" = "sha512-NSLtn051rjxyf7VRmM6JWGvqRkcBc85PK59oafBF/hQY1lEZbYNA9Jp6qK38n9JMiE2pEUub6D6P/NOgPam8ww==";
         };
+        _YaYSm68I = {
+            "id" = "YaYSm68I";
+            "file" = "Captcha-fabric-26.3-17.0.0.jar";
+            "hash" = "sha512-jslsvwYbFIYsxJgbtuu9aUIvrKa+uekJts+fi/XBrA7bk56njVAPmrckPuGuFel1oVroWPj4/1JD2/Rfirr7Ow==";
+        };
+        _1tEdnq8J = {
+            "id" = "1tEdnq8J";
+            "file" = "Captcha-neoforge-26.3-17.0.0.jar";
+            "hash" = "sha512-ObeuGq9ub+FDI2pZCd46G9as4xeTKtUWWiiQ5fWeY4dHBfCBZt9Wo8pGtnIg6ywj6XvcxiwyRp7g3QKK87CGdw==";
+        };
+        _uCLHmbj9 = {
+            "id" = "uCLHmbj9";
+            "file" = "Captcha-fabric-26.3-17.0.1.jar";
+            "hash" = "sha512-TCIU3PJJHJDzZwir847i36prNqya1MI4iIttUQSpkFOOMDtVSVhRSiFYCbdDa72K0gL4mEfmX+sixTqmjMAVmA==";
+        };
+        _X5HoF1JQ = {
+            "id" = "X5HoF1JQ";
+            "file" = "Captcha-neoforge-26.3-17.0.1.jar";
+            "hash" = "sha512-kx83eKK9JFcEusk/12sgRa+pduJPv1g03kmWZpWXUg18cESxtZRRFkLQOXfvRWBZ7MZDi6Leitqai+FUyiS3kQ==";
+        };
     in {
         "iU9OTXUd" = _iU9OTXUd;
         "OEcSqTyb" = _OEcSqTyb;
@@ -248,6 +268,10 @@ let
         "Htq10y9t" = _Htq10y9t;
         "gHdPa1rv" = _gHdPa1rv;
         "8F2qpVra" = _8F2qpVra;
+        "YaYSm68I" = _YaYSm68I;
+        "1tEdnq8J" = _1tEdnq8J;
+        "uCLHmbj9" = _uCLHmbj9;
+        "X5HoF1JQ" = _X5HoF1JQ;
         "forge-1.18.2" = _pzjdUpzE;
         "forge-1.19" = _OEcSqTyb;
         "forge-1.19.1" = _OEcSqTyb;
@@ -269,6 +293,7 @@ let
         "neoforge-1.21.11" = _Vh3GCsYR;
         "neoforge-26.1.1" = _IRyTmTZ1;
         "neoforge-26.2" = _8F2qpVra;
+        "neoforge-26.3" = _X5HoF1JQ;
         "fabric-1.20.1" = _IyAqgT9x;
         "fabric-1.20.4" = _PGHVQnUw;
         "fabric-1.20.6" = _yXOtOQL6;
@@ -281,6 +306,7 @@ let
         "fabric-1.21.11" = _ipfJTRVf;
         "fabric-26.1.1" = _Htq10y9t;
         "fabric-26.2" = _gHdPa1rv;
+        "fabric-26.3" = _uCLHmbj9;
         "pkg-1.0.7" = _iU9OTXUd;
         "pkg-2.0.1" = _OEcSqTyb;
         "pkg-1.1.0" = _VO7JAfmz;
@@ -309,7 +335,9 @@ let
         "pkg-14.0.0" = _ipfJTRVf;
         "pkg-15.0.0" = _Htq10y9t;
         "pkg-16.0.0" = _8F2qpVra;
-        "default" = _8F2qpVra;
+        "pkg-17.0.0" = _1tEdnq8J;
+        "pkg-17.0.1" = _X5HoF1JQ;
+        "default" = _X5HoF1JQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "captcha";

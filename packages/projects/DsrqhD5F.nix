@@ -81,6 +81,16 @@ let
             "file" = "mc100days-1.1.0-neoforge-mc26.2.jar";
             "hash" = "sha512-1JomobAHrHfEMoX081gRaJ8lobDCYCHWskY0DX3VvBcQbqP3jQ2NHwK3rmAPq+OXvprvp0qSYDKfBxd/ucJMlg==";
         };
+        _AF200sGZ = {
+            "id" = "AF200sGZ";
+            "file" = "mc100days-1.1.0-fabric-mc26.3.jar";
+            "hash" = "sha512-OHV6sjfFYqj6F3ylQwdgHQdLMzNU17M590IqdzQ+zu3xQkhFg1/QykXH3KTntc3X6TjHJ9f8UoXUidjOoc63ng==";
+        };
+        _bkfFskrI = {
+            "id" = "bkfFskrI";
+            "file" = "mc100days-1.1.0-neoforge-mc26.3.jar";
+            "hash" = "sha512-sh+Itfo6/mJgMtsk0neS97kWyHxl+iSvuGgCk0CSLr0mfF2AKl8n0d8G66ILoBZ4ZjuVP2ROaEjMTu6fY4lW4w==";
+        };
     in {
         "BlPLjaBU" = _BlPLjaBU;
         "c5jVvLeR" = _c5jVvLeR;
@@ -98,6 +108,8 @@ let
         "dCQLxqwp" = _dCQLxqwp;
         "oDt5LQDP" = _oDt5LQDP;
         "HRt1eJLs" = _HRt1eJLs;
+        "AF200sGZ" = _AF200sGZ;
+        "bkfFskrI" = _bkfFskrI;
         "fabric-1.19.3" = _BlPLjaBU;
         "fabric-1.20.4" = _5MT4S3g5;
         "fabric-1.21" = _FV25Xf9V;
@@ -108,11 +120,13 @@ let
         "fabric-26.1.1" = _v8SitvsW;
         "fabric-26.1.2" = _CRNQlZlx;
         "fabric-26.2" = _oDt5LQDP;
+        "fabric-26.3" = _AF200sGZ;
         "neoforge-1.21.10" = _FzpzVSjj;
         "neoforge-1.21.11" = _KqZIEFZo;
         "neoforge-26.1.1" = _nVL5LFEI;
         "neoforge-26.1.2" = _dCQLxqwp;
         "neoforge-26.2" = _HRt1eJLs;
+        "neoforge-26.3" = _bkfFskrI;
         "pkg-1.0.0" = _5MT4S3g5;
         "pkg-v1.0.0-mc1.21" = _BiQN2Q2o;
         "pkg-v1.1.0-mc1.21" = _FV25Xf9V;
@@ -127,7 +141,9 @@ let
         "pkg-v1.1.0-mc26.1.2-neoforge" = _dCQLxqwp;
         "pkg-v1.1.0-mc26.2-fabric" = _oDt5LQDP;
         "pkg-v1.1.0-mc26.2-neoforge" = _HRt1eJLs;
-        "default" = _HRt1eJLs;
+        "pkg-v1.1.0+fabric-mc26.3" = _AF200sGZ;
+        "pkg-v1.1.0+neoforge-mc26.3" = _bkfFskrI;
+        "default" = _bkfFskrI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "100days-plugin";

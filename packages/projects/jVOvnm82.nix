@@ -16,10 +16,16 @@ let
             "file" = "3D Door,Trapdoor.zip";
             "hash" = "sha512-VQIhk8eT+3VnE66RmaVjVHdv3GGuE9eAAlDgJoIFb7QG3vq2lHiInJKQtAV1tQYcHkKGmDvp77/fS9NiRD7VPA==";
         };
+        _gZBudfGU = {
+            "id" = "gZBudfGU";
+            "file" = "3D Door, Trapdoor.zip";
+            "hash" = "sha512-EvLG13Th0heGlHC/d/0zUfA+xn6eobEt9HmRqhoajA0Objde12nKUFKZDwhxKLGgT4xts7Qx4y3N/0CQMgb4AQ==";
+        };
     in {
         "9lYJCdzH" = _9lYJCdzH;
         "nYnzrYYm" = _nYnzrYYm;
         "3BMLAOuf" = _3BMLAOuf;
+        "gZBudfGU" = _gZBudfGU;
         "minecraft-1.21" = _9lYJCdzH;
         "minecraft-1.21.1" = _9lYJCdzH;
         "minecraft-1.21.2" = _9lYJCdzH;
@@ -36,10 +42,12 @@ let
         "minecraft-26.1.1" = _3BMLAOuf;
         "minecraft-26.1.2" = _3BMLAOuf;
         "minecraft-26.2" = _3BMLAOuf;
+        "minecraft-26.3" = _gZBudfGU;
         "pkg-1.0" = _9lYJCdzH;
         "pkg-2.0" = _nYnzrYYm;
         "pkg-3.0" = _3BMLAOuf;
-        "default" = _3BMLAOuf;
+        "pkg-4.0" = _gZBudfGU;
+        "default" = _gZBudfGU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "3d-door-trapdoor";

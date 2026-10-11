@@ -791,6 +791,26 @@ let
             "file" = "exposure-fabric-1.21.1-1.9.18.jar";
             "hash" = "sha512-WdsWkfpVO9hijYxYBNhiCgP3GwdD/jxTWg0jk7CW+YGETBal5wMRKRwWZVpkM7MitzWKLBREA1bkUYZdVj9U0w==";
         };
+        _iBvaR6AK = {
+            "id" = "iBvaR6AK";
+            "file" = "exposure-neoforge-1.21.1-1.9.19.jar";
+            "hash" = "sha512-trGGONYRlsO1edy1zZd7ElWGyEiCL/o7skez003AGePKU2KTA8u1fAh19+Kb4wrgNugdkN2P613YcJCyuBwItw==";
+        };
+        _hFzJX9hg = {
+            "id" = "hFzJX9hg";
+            "file" = "exposure-fabric-1.21.1-1.9.19.jar";
+            "hash" = "sha512-PWc3qX3OXzEw+i8B/IYOJZPNRzpp0yNHy6n870lnatGrsnS0KwNc2f/zYcLc4VijWjg5PQQ1eOQfLXbniau7Ug==";
+        };
+        _P0Y8dFLl = {
+            "id" = "P0Y8dFLl";
+            "file" = "exposure-forge-1.20.1-1.9.22.jar";
+            "hash" = "sha512-PjDQVgQXqsP/QOKl9+eI878Mm/clYD2q45h1x8IodCuDcO4tQ50eHgu1uDDcN39CB8hKWjs67FyVepbBcFv9jw==";
+        };
+        _YDTArQ4T = {
+            "id" = "YDTArQ4T";
+            "file" = "exposure-fabric-1.20.1-1.9.22.jar";
+            "hash" = "sha512-j+nVZtw0YzsXjHTuemUtaEcq4bXH+btFomYQQyy4C3LfQhNCP0Yt25smAkh+e6Rhvn01w3bnVrAG+98RTahQQg==";
+        };
     in {
         "wwDjZCAW" = _wwDjZCAW;
         "4x5cnNoe" = _4x5cnNoe;
@@ -950,15 +970,19 @@ let
         "ob6nJLBU" = _ob6nJLBU;
         "KZR7AUbh" = _KZR7AUbh;
         "nGYKDVKj" = _nGYKDVKj;
+        "iBvaR6AK" = _iBvaR6AK;
+        "hFzJX9hg" = _hFzJX9hg;
+        "P0Y8dFLl" = _P0Y8dFLl;
+        "YDTArQ4T" = _YDTArQ4T;
         "forge-1.19.2" = _nCcagXCN;
-        "forge-1.20.1" = _ob6nJLBU;
-        "fabric-1.20.1" = _cyxATYtc;
+        "forge-1.20.1" = _P0Y8dFLl;
+        "fabric-1.20.1" = _YDTArQ4T;
         "fabric-1.19.2" = _ErslykH9;
-        "fabric-1.21.1" = _nGYKDVKj;
+        "fabric-1.21.1" = _hFzJX9hg;
         "quilt-1.20.1" = _fiezBPPG;
         "quilt-1.19.2" = _ErslykH9;
         "neoforge-1.20.1" = _3o0pJdF1;
-        "neoforge-1.21.1" = _KZR7AUbh;
+        "neoforge-1.21.1" = _iBvaR6AK;
         "pkg-1.0.0" = _4x5cnNoe;
         "pkg-1.0.1" = _IXQ5vSZq;
         "pkg-1.0.2" = _l48oWUlX;
@@ -1022,10 +1046,11 @@ let
         "pkg-1.9.16" = _ftlapnvy;
         "pkg-1.9.17" = _k1TYMzSd;
         "pkg-1.9.18" = _nGYKDVKj;
-        "pkg-1.9.19" = _2PcQ6I0F;
+        "pkg-1.9.19" = _hFzJX9hg;
         "pkg-1.9.20" = _cyxATYtc;
         "pkg-1.9.21" = _ob6nJLBU;
-        "default" = _nGYKDVKj;
+        "pkg-1.9.22" = _YDTArQ4T;
+        "default" = _YDTArQ4T;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "exposure";

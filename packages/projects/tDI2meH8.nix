@@ -91,6 +91,46 @@ let
             "file" = "Redstone-Signal-Visualizer-2.0.0.jar";
             "hash" = "sha512-J1vInmEB1Nlmph8BVNAG1srfY0+ROgrMh7AxszP4u8M92py13sGuEE3OMlWXDXC/FgjkoAKT5gc4TFlxfzHv1g==";
         };
+        _EBcUfw6L = {
+            "id" = "EBcUfw6L";
+            "file" = "Redstone-Signal-Visualizer-2.1.0-1.21.11.jar";
+            "hash" = "sha512-j7sJSnqR+KBHpaa44oNorvK8d49CZYFQe1du3Z62Rk81isffoY8Nszjpw3hrgC45ZVUvbnFchjpunfFNs2q/8w==";
+        };
+        _GQyhxmaF = {
+            "id" = "GQyhxmaF";
+            "file" = "Redstone-Signal-Visualizer-2.1.0-26.1.jar";
+            "hash" = "sha512-rrhjYuN92B996FUHTBD8gJ6h0EsD+i8/xD2immwyay5cC3gHa1y3CF9NZQ3LEK3cUaVeSgwdCKb0Pd9uK2dBKA==";
+        };
+        _F2sUfW5V = {
+            "id" = "F2sUfW5V";
+            "file" = "Redstone-Signal-Visualizer-2.1.0-26.2.jar";
+            "hash" = "sha512-apjewct9KvX9s1h7mvf8L1yAxafK1WWX9RX0agd0xQ2iTUlRxR2ew70fTr2XNfk/pva/mFj6N/OC8FhNEdH3BQ==";
+        };
+        _vecFoKjz = {
+            "id" = "vecFoKjz";
+            "file" = "Redstone-Signal-Visualizer-2.1.0-26.3.jar";
+            "hash" = "sha512-NzJtsKshywvIE06QnJWMVr9kk4VICAh5BFsXfmau5GzmdRUOD8UmwEbs1qr5GVwyoOZv+5sKTdGxyUelmrmYwg==";
+        };
+        _7XX2SKNK = {
+            "id" = "7XX2SKNK";
+            "file" = "Redstone-Signal-Visualizer-2.1.0-1.21.11.jar";
+            "hash" = "sha512-jIqEN1uwFguxu+pxxHgSko0QZUYSfvCSxpF3sHBEO8xlhrpbEUpeum1GpeGk7VxhrR+i9rUZ02jmMsU1Oa8D8Q==";
+        };
+        _EcUILPGi = {
+            "id" = "EcUILPGi";
+            "file" = "Redstone-Signal-Visualizer-2.1.0-26.1.jar";
+            "hash" = "sha512-CQsKYKoArL9kX+2UxRpN2zCB6XSg6movzK+7vqTyw5+lrSudvMD8tofREfc1Gvb6a3l1Miqsx3/CDWQsFOAJ7g==";
+        };
+        _JKsuW3Wn = {
+            "id" = "JKsuW3Wn";
+            "file" = "Redstone-Signal-Visualizer-2.1.0-26.2.jar";
+            "hash" = "sha512-13iOOhUET14viOwLIxThjW6QUW5l+WKtNOk1etSoef1U9E3JzIpA1WQQZdotDywmeyNBYqIKhB1sv7i2LQwihA==";
+        };
+        _NhQ73Go2 = {
+            "id" = "NhQ73Go2";
+            "file" = "Redstone-Signal-Visualizer-2.1.0-26.3.jar";
+            "hash" = "sha512-xSlu8yA1BR+FMcIHeQpwicqqq4NXnZrY3+/bZ7k73UObQmklw8e2FtypyXfNJ5HB3a+hV8On8Zvwr0JtSFy1rg==";
+        };
     in {
         "5atdl1kf" = _5atdl1kf;
         "yfYsUCLJ" = _yfYsUCLJ;
@@ -110,6 +150,14 @@ let
         "wrENNUx8" = _wrENNUx8;
         "aDcjvVjG" = _aDcjvVjG;
         "oK1ZhQDC" = _oK1ZhQDC;
+        "EBcUfw6L" = _EBcUfw6L;
+        "GQyhxmaF" = _GQyhxmaF;
+        "F2sUfW5V" = _F2sUfW5V;
+        "vecFoKjz" = _vecFoKjz;
+        "7XX2SKNK" = _7XX2SKNK;
+        "EcUILPGi" = _EcUILPGi;
+        "JKsuW3Wn" = _JKsuW3Wn;
+        "NhQ73Go2" = _NhQ73Go2;
         "fabric-1.21.4" = _micrauhO;
         "fabric-1.21.3" = _ksKy0XEU;
         "fabric-1.20.6" = _AZNpq2ia;
@@ -123,13 +171,29 @@ let
         "fabric-1.21.7" = _atdZxJRh;
         "fabric-1.21.8" = _wrENNUx8;
         "fabric-1.21.10" = _aDcjvVjG;
-        "fabric-1.21.11" = _oK1ZhQDC;
+        "fabric-1.21.11" = _7XX2SKNK;
+        "fabric-26.1" = _EcUILPGi;
+        "fabric-26.2" = _JKsuW3Wn;
+        "fabric-26.3" = _NhQ73Go2;
+        "forge-1.21.11" = _7XX2SKNK;
+        "forge-26.1" = _EcUILPGi;
+        "forge-26.2" = _JKsuW3Wn;
+        "forge-26.3" = _NhQ73Go2;
+        "neoforge-1.21.11" = _7XX2SKNK;
+        "neoforge-26.1" = _EcUILPGi;
+        "neoforge-26.2" = _JKsuW3Wn;
+        "neoforge-26.3" = _NhQ73Go2;
+        "quilt-1.21.11" = _7XX2SKNK;
+        "quilt-26.1" = _EcUILPGi;
+        "quilt-26.2" = _JKsuW3Wn;
+        "quilt-26.3" = _NhQ73Go2;
         "pkg-1.0-SNAPSHOT" = _5atdl1kf;
         "pkg-1.0.1" = _yfYsUCLJ;
         "pkg-1.0.2" = _J8TEb6Bl;
         "pkg-1.0.3" = _rQ35V62C;
         "pkg-2.0.0" = _oK1ZhQDC;
-        "default" = _oK1ZhQDC;
+        "pkg-2.1.0" = _NhQ73Go2;
+        "default" = _NhQ73Go2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "redstone_signal_visualizer";

@@ -216,6 +216,16 @@ let
             "file" = "ProPlacer-v26.2.0-mc26.2.x-NeoForge.jar";
             "hash" = "sha512-+pEPTwyDwVcdDYYE/Cmx9yBqDtKefPZhHv6DOLqLIfogkZS/4E7SsWZKHIFMtK35SqmtEzBHiAqii/hADn5oIw==";
         };
+        _CFvXjMRS = {
+            "id" = "CFvXjMRS";
+            "file" = "proplacer-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-jWfmhDUigSskApyoDvnz34cJ39Aj+1zGjAtRBZxtFLTLXhjl0eiZGqKkZu2U5HOwHBrLyGyObNJY3cAwj6rTiA==";
+        };
+        _r4JxEojj = {
+            "id" = "r4JxEojj";
+            "file" = "proplacer-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-rjAE8p3RciwgF0zRRZfaqmOrT49Q2T/TrpsmbH8HGGcQn2TqTwticF820xLmH0awswauYsIX733ZjmguMIA5gA==";
+        };
     in {
         "K5iiA4PV" = _K5iiA4PV;
         "ry75mOJF" = _ry75mOJF;
@@ -260,6 +270,8 @@ let
         "mdk3WRWv" = _mdk3WRWv;
         "nsAVULUl" = _nsAVULUl;
         "diK6xr5D" = _diK6xr5D;
+        "CFvXjMRS" = _CFvXjMRS;
+        "r4JxEojj" = _r4JxEojj;
         "forge-1.20.1" = _nAAkM9HI;
         "forge-1.20.4" = _nrwCEppr;
         "fabric-1.20.1" = _GBBwWl2l;
@@ -278,6 +290,7 @@ let
         "fabric-26.1.1" = _xBE4TGtn;
         "fabric-26.1.2" = _xBE4TGtn;
         "fabric-26.2" = _nsAVULUl;
+        "fabric-26.3" = _CFvXjMRS;
         "neoforge-1.20.4" = _Dd9wOQlD;
         "neoforge-1.21" = _lxqws0Kj;
         "neoforge-1.21.1" = _gxFLjZrq;
@@ -293,6 +306,7 @@ let
         "neoforge-26.1.1" = _mdk3WRWv;
         "neoforge-26.1.2" = _mdk3WRWv;
         "neoforge-26.2" = _diK6xr5D;
+        "neoforge-26.3" = _r4JxEojj;
         "pkg-v8.0.0-1.20.1-Forge" = _K5iiA4PV;
         "pkg-v8.0.0-1.20.1-Fabric" = _ry75mOJF;
         "pkg-v20.4.0-1.20.4-Fabric" = _i2QJ0Mlb;
@@ -330,7 +344,8 @@ let
         "pkg-21.11.0" = _xRmlwu1T;
         "pkg-26.1.0" = _mdk3WRWv;
         "pkg-26.2.0" = _diK6xr5D;
-        "default" = _diK6xr5D;
+        "pkg-26.3.0" = _r4JxEojj;
+        "default" = _r4JxEojj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pro-placer";

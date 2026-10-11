@@ -91,6 +91,16 @@ let
             "file" = "poses-neoforge-1.21.6-1.21.8-1.7.0.jar";
             "hash" = "sha512-dhjMirsIFHVzmJWusESwL5s/Cmkul5Bf0jJfemw8bhqZlOqgL/3ddTl8KjlDhUkNTPgcjFL71op0cvaVQgiXjQ==";
         };
+        _sucicDar = {
+            "id" = "sucicDar";
+            "file" = "armor-stand-poses-neoforge-26.3-1.4.0.jar";
+            "hash" = "sha512-fNnYeeQHeDLC4uqyHyKWz3wady5qqjWltf053Y2YWdLqxidcx/QpAp2N8kKlue28nyuVgOoSfI8OWCvKkZrIbg==";
+        };
+        _GeyJ26hg = {
+            "id" = "GeyJ26hg";
+            "file" = "armor-stand-poses-fabric-26.3-1.4.0.jar";
+            "hash" = "sha512-07IRU6SnIZUUGYj//8q7XByEbQEHfGV6ve11Rncgo/zREZG1+vQtPOam3cDi51tfT6t3HHJu4+SRXY3Sum2luA==";
+        };
     in {
         "9U5tsASl" = _9U5tsASl;
         "tqMYj5jU" = _tqMYj5jU;
@@ -110,6 +120,8 @@ let
         "GMPC2MyY" = _GMPC2MyY;
         "4DqVicVI" = _4DqVicVI;
         "OMRKqbvX" = _OMRKqbvX;
+        "sucicDar" = _sucicDar;
+        "GeyJ26hg" = _GeyJ26hg;
         "fabric-1.20" = _9U5tsASl;
         "fabric-1.20.1" = _9U5tsASl;
         "fabric-1.20.2" = _tqMYj5jU;
@@ -122,6 +134,11 @@ let
         "fabric-1.21.6" = _4DqVicVI;
         "fabric-1.21.7" = _4DqVicVI;
         "fabric-1.21.8" = _4DqVicVI;
+        "fabric-26.1" = _GeyJ26hg;
+        "fabric-26.1.1" = _GeyJ26hg;
+        "fabric-26.1.2" = _GeyJ26hg;
+        "fabric-26.2" = _GeyJ26hg;
+        "fabric-26.3" = _GeyJ26hg;
         "neoforge-1.21.1" = _Zi88FdhO;
         "neoforge-1.21.3" = _oNuUh4d9;
         "neoforge-1.21.4" = _DWEdP0nI;
@@ -129,6 +146,11 @@ let
         "neoforge-1.21.6" = _OMRKqbvX;
         "neoforge-1.21.7" = _OMRKqbvX;
         "neoforge-1.21.8" = _OMRKqbvX;
+        "neoforge-26.1" = _sucicDar;
+        "neoforge-26.1.1" = _sucicDar;
+        "neoforge-26.1.2" = _sucicDar;
+        "neoforge-26.2" = _sucicDar;
+        "neoforge-26.3" = _sucicDar;
         "forge-1.21.1" = _qa9RO3P0;
         "forge-1.21.3" = _W1JCOCDm;
         "forge-1.21.4" = _qiPUYwmh;
@@ -151,7 +173,9 @@ let
         "pkg-fabric-1.21.5-1.6.0" = _GMPC2MyY;
         "pkg-fabric-1.21.6-1.21.8-1.7.0" = _4DqVicVI;
         "pkg-neoforge-1.21.6-1.21.8-1.7.0" = _OMRKqbvX;
-        "default" = _OMRKqbvX;
+        "pkg-neoforge-26.3-1.4.0" = _sucicDar;
+        "pkg-fabric-26.3-1.4.0" = _GeyJ26hg;
+        "default" = _GeyJ26hg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "armor-stand-poses";

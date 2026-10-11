@@ -141,6 +141,11 @@ let
             "file" = "CustomMachineryMekanism-1.21.1-1.4.16.jar";
             "hash" = "sha512-CS5/dwM7p/2sD5X6RwnNHMxl3QpDuTHBDH3f7I1gvOa3Ss9gpX4J2hiiUBAHgVqToOrp9nVB3V9Kz+uwrZzaVQ==";
         };
+        _bKaAlXiC = {
+            "id" = "bKaAlXiC";
+            "file" = "CustomMachineryMekanism-1.21.1-1.4.17.jar";
+            "hash" = "sha512-gusUnxnMeTn2SyLscd6ttFcsKGXZBb2Koi4kx8vm3nkUcUcw7XrE3d/xfN5dajx9PT9GyxirgCW1Ch6UxYScQw==";
+        };
     in {
         "moOY9REB" = _moOY9REB;
         "BKcrOfhq" = _BKcrOfhq;
@@ -170,10 +175,11 @@ let
         "cgYbnK0J" = _cgYbnK0J;
         "goYuRBwZ" = _goYuRBwZ;
         "Ui7de88C" = _Ui7de88C;
+        "bKaAlXiC" = _bKaAlXiC;
         "forge-1.18.2" = _JTLWlW3h;
         "forge-1.19.2" = _PXi5nPLl;
         "neoforge-1.21" = _Ui7de88C;
-        "neoforge-1.21.1" = _Ui7de88C;
+        "neoforge-1.21.1" = _bKaAlXiC;
         "pkg-1.18.2-1.0.0" = _moOY9REB;
         "pkg-1.0.1" = _BKcrOfhq;
         "pkg-1.1.0" = _AalCHano;
@@ -201,7 +207,8 @@ let
         "pkg-1.21.1-1.4.14" = _cgYbnK0J;
         "pkg-1.21.1-1.4.15" = _goYuRBwZ;
         "pkg-1.21.1-1.4.16" = _Ui7de88C;
-        "default" = _Ui7de88C;
+        "pkg-1.21.1-1.4.17" = _bKaAlXiC;
+        "default" = _bKaAlXiC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "custom-machinery-mekanism";

@@ -26,20 +26,33 @@ let
             "file" = "MoBends-neoforge-1.21.1-5.1.5.jar";
             "hash" = "sha512-QiRFXBvu3A0EX/e20gO3Qa5/ivy9zSUWUtCk/YKB4yafiilZbGLWZZ91/KWCz4Sc4dXX8vfm5AP6Hvdbh8yp6A==";
         };
+        _ts53zFVC = {
+            "id" = "ts53zFVC";
+            "file" = "mobends-1.21.1-5.6-neoforge.jar";
+            "hash" = "sha512-kx3ft7EGVoBXItJRRS4b6+7jFz33rB2JvjwvfvQQ0qWof+wC8QL65fU3kooPH8JG5YxbM/i50CyAYRWH3HudJA==";
+        };
+        _aMKHQj4A = {
+            "id" = "aMKHQj4A";
+            "file" = "mobends-1.20.1-5.6-forge.jar";
+            "hash" = "sha512-PVR4j0D+RJANWB65Eq/m+CRyB9IYe22iKKp4bkEj110JjTGVZLYD2B1lgEaQybPfzZKekFXS7DXoS14eLDVoaw==";
+        };
     in {
         "kLZJgQo4" = _kLZJgQo4;
         "c6ukT3i0" = _c6ukT3i0;
         "B9Z2m8HK" = _B9Z2m8HK;
         "M0l996e0" = _M0l996e0;
         "dmQsTQRb" = _dmQsTQRb;
-        "forge-1.20.1" = _M0l996e0;
-        "neoforge-1.21.1" = _dmQsTQRb;
+        "ts53zFVC" = _ts53zFVC;
+        "aMKHQj4A" = _aMKHQj4A;
+        "forge-1.20.1" = _aMKHQj4A;
+        "neoforge-1.21.1" = _ts53zFVC;
         "pkg-3.0.1" = _kLZJgQo4;
         "pkg-3.0.0" = _c6ukT3i0;
         "pkg-4.0.0" = _B9Z2m8HK;
         "pkg-1.20.1-5.1.5" = _M0l996e0;
         "pkg-1.21.1-5.1.5" = _dmQsTQRb;
-        "default" = _dmQsTQRb;
+        "pkg-5.6" = _aMKHQj4A;
+        "default" = _aMKHQj4A;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mo-bends-unofficial-modern-port";

@@ -56,6 +56,11 @@ let
             "file" = "adventurez-1.5.0.jar";
             "hash" = "sha512-csNxzKgtgLa6fuRKVBmnG3bIsx5tR2df1b0U445Kue/7ysbXfXerb7mkl32SiQfdMpjaGUq42vhMj0I6CQ7cDg==";
         };
+        _aZTkDIeN = {
+            "id" = "aZTkDIeN";
+            "file" = "adventurez-1.5.1.jar";
+            "hash" = "sha512-H1glaV+mCdQuc9Cs8n6zIJf2e4QzCS8kiR4z2FAyFkzFBFrcqILG8UDuuOjOQfhoOxkMqHXuDSJ9RG29Si53Dg==";
+        };
     in {
         "BI8491T1" = _BI8491T1;
         "V4ZECTUP" = _V4ZECTUP;
@@ -68,11 +73,12 @@ let
         "Q5NMlMGX" = _Q5NMlMGX;
         "LxZfB2Kk" = _LxZfB2Kk;
         "gDZXNqOx" = _gDZXNqOx;
+        "aZTkDIeN" = _aZTkDIeN;
         "fabric-1.19.2" = _V4ZECTUP;
         "fabric-1.20" = _6483KEb7;
         "fabric-1.20.1" = _mBYmRou0;
         "fabric-1.21" = _acNWrg1d;
-        "fabric-1.21.1" = _gDZXNqOx;
+        "fabric-1.21.1" = _aZTkDIeN;
         "pkg-1.4.17" = _BI8491T1;
         "pkg-1.4.18+1.19.2" = _V4ZECTUP;
         "pkg-1.4.18+1.20" = _6483KEb7;
@@ -84,7 +90,8 @@ let
         "pkg-1.4.23+1.21.1" = _Q5NMlMGX;
         "pkg-1.4.24+1.21.1" = _LxZfB2Kk;
         "pkg-1.5.0+1.21.1" = _gDZXNqOx;
-        "default" = _gDZXNqOx;
+        "pkg-1.5.1+1.21.1" = _aZTkDIeN;
+        "default" = _aZTkDIeN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "adventurez";

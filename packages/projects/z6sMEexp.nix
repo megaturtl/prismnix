@@ -66,6 +66,11 @@ let
             "file" = "tiered-1.3.7.jar";
             "hash" = "sha512-xpKhuW9Jg7NScKg+G1+k8vCnysDbPBmKLEcdEyk/BXcwUh478LZubXJAUZimDAw8KhGWLbSl9IJCBx6XgR2Nag==";
         };
+        _6qL4yFsW = {
+            "id" = "6qL4yFsW";
+            "file" = "tiered-1.3.8.jar";
+            "hash" = "sha512-TWA1nIpft+P6KLdzYyvm0XiKkdo3LHnkHRxV6dME+UZ6gdqfcFtDb+0ql5PZNuPjgdLB9HarpbKH9raEoHoI/A==";
+        };
     in {
         "ks3NpqRt" = _ks3NpqRt;
         "p6O5T5sE" = _p6O5T5sE;
@@ -80,9 +85,10 @@ let
         "dqXf10KO" = _dqXf10KO;
         "qmz1yXyK" = _qmz1yXyK;
         "4wft2iIh" = _4wft2iIh;
+        "6qL4yFsW" = _6qL4yFsW;
         "fabric-1.19.2" = _p6O5T5sE;
         "fabric-1.20.1" = _GFUW7N2P;
-        "fabric-1.21.1" = _4wft2iIh;
+        "fabric-1.21.1" = _6qL4yFsW;
         "pkg-1.2.6" = _ks3NpqRt;
         "pkg-1.2.7" = _p6O5T5sE;
         "pkg-1.2.7+1.20.1" = _frMnqIvd;
@@ -96,7 +102,8 @@ let
         "pkg-1.3.5+1.21.1" = _dqXf10KO;
         "pkg-1.3.6+1.21.1" = _qmz1yXyK;
         "pkg-1.3.7+1.21.1" = _4wft2iIh;
-        "default" = _4wft2iIh;
+        "pkg-1.3.8+1.21.1" = _6qL4yFsW;
+        "default" = _6qL4yFsW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tieredz";

@@ -41,6 +41,11 @@ let
             "file" = "cosmos-1.0.3-26.1.2.jar";
             "hash" = "sha512-Vwm4oEfKuKKrspu3tX9omiZtr1IBMhqrdU8PUuxxtOhkYNKYmw1DYth5QtXYI5uAmrdNb20zyMEXXVNhnHFRiQ==";
         };
+        _ptSxOyVP = {
+            "id" = "ptSxOyVP";
+            "file" = "cosmos-1.0.3-26.3.jar";
+            "hash" = "sha512-PcwDGacb7uAfBZKJJjjdisJlzzJ3BJI02B0t2vlrFNzZ/dKJfQY0cXugXM+DapU67+Tyt539/eMjYFjczE3YMw==";
+        };
     in {
         "KuuFiPL7" = _KuuFiPL7;
         "mDKMfkfB" = _mDKMfkfB;
@@ -50,6 +55,7 @@ let
         "o3tRRRRu" = _o3tRRRRu;
         "OZcYUnG8" = _OZcYUnG8;
         "jn5BzgtZ" = _jn5BzgtZ;
+        "ptSxOyVP" = _ptSxOyVP;
         "fabric-1.21.8" = _mDKMfkfB;
         "fabric-1.21.9" = _mDKMfkfB;
         "fabric-1.21.10" = _mDKMfkfB;
@@ -58,6 +64,7 @@ let
         "fabric-26.1" = _jn5BzgtZ;
         "fabric-26.1.1" = _jn5BzgtZ;
         "fabric-26.1.2" = _jn5BzgtZ;
+        "fabric-26.3" = _ptSxOyVP;
         "pkg-1.0.0-1.21.8" = _KuuFiPL7;
         "pkg-1.0.0-1.21.10" = _mDKMfkfB;
         "pkg-1.0.0-1.21.11" = _1GCjrIvF;
@@ -66,7 +73,8 @@ let
         "pkg-1.0.2-26.2" = _o3tRRRRu;
         "pkg-1.0.3-26.2" = _OZcYUnG8;
         "pkg-1.0.3-26.1.2" = _jn5BzgtZ;
-        "default" = _jn5BzgtZ;
+        "pkg-1.0.3-26.3" = _ptSxOyVP;
+        "default" = _ptSxOyVP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cosmos-mod";

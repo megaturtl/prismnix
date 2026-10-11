@@ -211,6 +211,11 @@ let
             "file" = "SiliconeDolls-neoforge-1.21.8-1.0.0+build.70.jar";
             "hash" = "sha512-QGRGX+LLV3ywsui8XGZlm/Ctckk7NvI371M4zI4uZ9Nsesm5zHGFgUXjk9rI/0uSeUuYxKPHzAGsrp28xh7wNg==";
         };
+        _Z17JLQ3N = {
+            "id" = "Z17JLQ3N";
+            "file" = "SiliconeDolls-neoforge-26.3-1.0.0+build.72.jar";
+            "hash" = "sha512-RZ3Pef077JkQg1A5WtxYHihqJjOI0bI/+NsEn2ibbdbQkXmDvvHrd4f8xcfW4rPwqrzkvjz5omc0izGAsjvTng==";
+        };
     in {
         "OOcfyWCH" = _OOcfyWCH;
         "1HLoO8ND" = _1HLoO8ND;
@@ -254,11 +259,13 @@ let
         "XRS7zU5d" = _XRS7zU5d;
         "zlmAclQM" = _zlmAclQM;
         "Q1OaLXSG" = _Q1OaLXSG;
+        "Z17JLQ3N" = _Z17JLQ3N;
         "neoforge-1.21.1" = _Lif5JATe;
         "neoforge-1.21.8" = _Q1OaLXSG;
         "neoforge-1.21.10" = _zlmAclQM;
         "neoforge-26.1.2" = _XRS7zU5d;
         "neoforge-26.2" = _7L9R7Utc;
+        "neoforge-26.3" = _Z17JLQ3N;
         "pkg-1.0.0+build.20" = _OOcfyWCH;
         "pkg-1.0.0+build.22" = _1HLoO8ND;
         "pkg-1.0.0+build.23" = _fGzTI2lg;
@@ -301,7 +308,8 @@ let
         "pkg-1.0.0+build.68" = _XRS7zU5d;
         "pkg-1.0.0+build.69" = _zlmAclQM;
         "pkg-1.0.0+build.70" = _Q1OaLXSG;
-        "default" = _Q1OaLXSG;
+        "pkg-1.0.0+build.72" = _Z17JLQ3N;
+        "default" = _Z17JLQ3N;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "silicone-dolls";

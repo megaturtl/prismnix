@@ -41,6 +41,16 @@ let
             "file" = "fictional-1.20.1-0.0.9.jar";
             "hash" = "sha512-odBWrNMCsAA3NYA4+xrEAvFQgSawEvmX3vdBuYK4+XqO8BxbN1u92quzMZQdq//xOsM051N2wMPdXIPUiNycPw==";
         };
+        _oE3JrRHF = {
+            "id" = "oE3JrRHF";
+            "file" = "fictional-1.20.1-0.0.10.jar";
+            "hash" = "sha512-by937I4MwnwdlTf401634pSpemnvXwisfefcWQBWzd/hWG2/lLMTU1TtLlawXF1XHXuzV8s4OPXmPkp3EbNJ2Q==";
+        };
+        _kMdGcIoe = {
+            "id" = "kMdGcIoe";
+            "file" = "fictional-1.20.1-0.0.11.jar";
+            "hash" = "sha512-XTtkX6R3Ou5IBqM+Ibo3P5DnTdX4p654bba1iOQtA6NZWNSRkK72L+Q+3QKg9NyKKVPiWIdHxWktbX/S/PemWQ==";
+        };
     in {
         "MzmAbBkz" = _MzmAbBkz;
         "wVlqGROk" = _wVlqGROk;
@@ -50,7 +60,9 @@ let
         "6FGRPt9N" = _6FGRPt9N;
         "sQnweVpS" = _sQnweVpS;
         "HHb0I2Nj" = _HHb0I2Nj;
-        "forge-1.20.1" = _HHb0I2Nj;
+        "oE3JrRHF" = _oE3JrRHF;
+        "kMdGcIoe" = _kMdGcIoe;
+        "forge-1.20.1" = _kMdGcIoe;
         "pkg-1.20.1-0.0.1" = _MzmAbBkz;
         "pkg-1.20.1-0.0.2" = _wVlqGROk;
         "pkg-1.20.1-0.0.3" = _1H0XwwMR;
@@ -59,7 +71,9 @@ let
         "pkg-1.20.1-0.0.7" = _6FGRPt9N;
         "pkg-1.20.1-0.0.8" = _sQnweVpS;
         "pkg-1.20.1-0.0.9" = _HHb0I2Nj;
-        "default" = _HHb0I2Nj;
+        "pkg-1.20.1-0.0.10" = _oE3JrRHF;
+        "pkg-1.20.1-0.0.11" = _kMdGcIoe;
+        "default" = _kMdGcIoe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fictional";

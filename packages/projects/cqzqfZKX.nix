@@ -661,6 +661,26 @@ let
             "file" = "chargedcharms-26.1.2-neoforge-2.1.1.4-NEOFORGE.jar";
             "hash" = "sha512-nd+5SZwMw4K1gbsJxI+P2pvMMjHxJw76iXjOlj3hV+DYXZmCNSiLoGIkEj/EvNjkAdBBbOS/rcIj2EBx79xTUA==";
         };
+        _njNNca7k = {
+            "id" = "njNNca7k";
+            "file" = "chargedcharms-26.2-fabric-2.1.1.4-FABRIC.jar";
+            "hash" = "sha512-bq5JC9/yoWvgcZA1+jEmvhIAuDy40jchzkKCSWy0lZhO62GE9UtHPpxcpQM88MlcSEeNSW2QUj+tcgvDvkAxIg==";
+        };
+        _qFV1tMcg = {
+            "id" = "qFV1tMcg";
+            "file" = "chargedcharms-26.2-neoforge-2.1.1.4-NEOFORGE.jar";
+            "hash" = "sha512-4jIC4qag2cwigB/Sj7/XQxtHPtkkCtoltprL0J/G+oLT47+/ZpQQ6M9QNm53esjHM13yYa0KfkFipC1ldCHeHw==";
+        };
+        _nVeCN8x0 = {
+            "id" = "nVeCN8x0";
+            "file" = "chargedcharms-26.3-fabric-2.1.1.4-FABRIC.jar";
+            "hash" = "sha512-Y56A49XamFKAXYqJ8dGVq7kCMoU53eXmDPD3i5kwQ6gITI5+HYy8AQWtTONqgchO/ZUFGJIHAOrp8TuIAHl8Sg==";
+        };
+        _9dAgmEC5 = {
+            "id" = "9dAgmEC5";
+            "file" = "chargedcharms-26.3-neoforge-2.1.1.4-NEOFORGE.jar";
+            "hash" = "sha512-d3+75EI1g4FwZhCklTKgczlSVSVNAZq8LasgBu7kmwK57d/nO7Vcjp+olWlKqudFNBtrsKe8A1MtrghUQxcdIA==";
+        };
     in {
         "7jQf53OA" = _7jQf53OA;
         "TLtoRNRr" = _TLtoRNRr;
@@ -794,6 +814,10 @@ let
         "Rvvd1kCp" = _Rvvd1kCp;
         "mLG6SB6G" = _mLG6SB6G;
         "TTL8n99s" = _TTL8n99s;
+        "njNNca7k" = _njNNca7k;
+        "qFV1tMcg" = _qFV1tMcg;
+        "nVeCN8x0" = _nVeCN8x0;
+        "9dAgmEC5" = _9dAgmEC5;
         "forge-1.19" = _7jQf53OA;
         "forge-1.19.1" = _7jQf53OA;
         "forge-1.19.2" = _FGmf0NVf;
@@ -820,6 +844,8 @@ let
         "fabric-26.1" = _mLG6SB6G;
         "fabric-26.1.1" = _mLG6SB6G;
         "fabric-26.1.2" = _mLG6SB6G;
+        "fabric-26.2" = _njNNca7k;
+        "fabric-26.3" = _nVeCN8x0;
         "neoforge-1.20" = _7lHgAE5F;
         "neoforge-1.20.1" = _eHvIhyAT;
         "neoforge-1.20.4" = _QZhfEiL7;
@@ -832,6 +858,8 @@ let
         "neoforge-26.1" = _TTL8n99s;
         "neoforge-26.1.1" = _TTL8n99s;
         "neoforge-26.1.2" = _TTL8n99s;
+        "neoforge-26.2" = _qFV1tMcg;
+        "neoforge-26.3" = _9dAgmEC5;
         "pkg-1.19-1.19.2-1.7.0.1-FORGE" = _7jQf53OA;
         "pkg-1.19-1.19.2-1.7.0.1-FABRIC" = _TLtoRNRr;
         "pkg-1.19.3-1.8.0.2-FORGE" = _Fv4y0dyj;
@@ -964,7 +992,11 @@ let
         "pkg-1.21.1-2.2.1.4-NEOFORGE" = _Rvvd1kCp;
         "pkg-26.1.2-2.1.1.4-FABRIC" = _mLG6SB6G;
         "pkg-26.1.2-2.1.1.4-NEOFORGE" = _TTL8n99s;
-        "default" = _TTL8n99s;
+        "pkg-26.2-2.1.1.4-FABRIC" = _njNNca7k;
+        "pkg-26.2-2.1.1.4-NEOFORGE" = _qFV1tMcg;
+        "pkg-26.3-2.1.1.4-FABRIC" = _nVeCN8x0;
+        "pkg-26.3-2.1.1.4-NEOFORGE" = _9dAgmEC5;
+        "default" = _9dAgmEC5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "charged-charms";

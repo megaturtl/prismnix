@@ -381,6 +381,31 @@ let
             "file" = "openminemap-1.8.2-1.21.11.jar";
             "hash" = "sha512-LVPyuPZu6XBYb61Aw/wDEFrLJZ7s9iBQl9TMFl2Q4DzgxYCg2h8nGhfUQ7TFnV7CznNNyxGukdIFEgkiCxXXqA==";
         };
+        _Qsqy4MDM = {
+            "id" = "Qsqy4MDM";
+            "file" = "openminemap-1.8.3-1.21.10.jar";
+            "hash" = "sha512-Xkzr2MNqqZUuVxDLeh/75a8d/tZjvWRWgN6iEkcJMvZCMIL9HuHDWBkRlYS1fS8Uc9uoPKZ5kZy2p2dTrlJXuQ==";
+        };
+        _hnxe4zoo = {
+            "id" = "hnxe4zoo";
+            "file" = "openminemap-1.8.3-1.21.11.jar";
+            "hash" = "sha512-el+/pUumEehYnCiHLD9UC2v6E2uSF3I8wZOp9heSzW1Dk0ZdK8lYxYibBzfyccKKUUioLfPvlAZPy7qmmuDlHg==";
+        };
+        _xZuObWDc = {
+            "id" = "xZuObWDc";
+            "file" = "openminemap-1.8.3-26.1.jar";
+            "hash" = "sha512-LLS1KNVW0D23rFeKmm5pGuDtSuUlz2q6fNMJ6HN1e+OFc9LYEdMrroB++QhzkBl1PiM0e4z7YFpJawa+lK3MyA==";
+        };
+        _vCvPESED = {
+            "id" = "vCvPESED";
+            "file" = "openminemap-1.8.3-26.2.jar";
+            "hash" = "sha512-Ev3mcViKl9jnAtvK87Ii42g8Ys9R0fYJ1qez6+eq+MaADu+jWrBcoAkMe7kAZCbQzQWm0QcwqO5KkJYEWJuZMQ==";
+        };
+        _NPfe2sZS = {
+            "id" = "NPfe2sZS";
+            "file" = "openminemap-1.8.3-26.3.jar";
+            "hash" = "sha512-bJKbv1eXmSJS2yyctS56EXZWECR/xrZP7LdzCJZmpiQrnNNMQriSOUP+XmfKIbmB5TKxkHZ37qAVkkAznVE84w==";
+        };
     in {
         "K91YWlKA" = _K91YWlKA;
         "be8rSf8g" = _be8rSf8g;
@@ -458,8 +483,13 @@ let
         "TyrWyQar" = _TyrWyQar;
         "Tm3urGHP" = _Tm3urGHP;
         "kGGIydZM" = _kGGIydZM;
-        "fabric-1.21.10" = _9pSomz6z;
-        "fabric-1.21.11" = _kGGIydZM;
+        "Qsqy4MDM" = _Qsqy4MDM;
+        "hnxe4zoo" = _hnxe4zoo;
+        "xZuObWDc" = _xZuObWDc;
+        "vCvPESED" = _vCvPESED;
+        "NPfe2sZS" = _NPfe2sZS;
+        "fabric-1.21.10" = _Qsqy4MDM;
+        "fabric-1.21.11" = _hnxe4zoo;
         "fabric-1.21.9" = _omoq9atx;
         "fabric-1.21.8" = _nMWjkkAM;
         "fabric-1.21.1" = _smfXZtkR;
@@ -469,8 +499,9 @@ let
         "fabric-1.21.5" = _IMKwAECP;
         "fabric-1.21.6" = _bypKzoeM;
         "fabric-1.21.7" = _orsX3Umc;
-        "fabric-26.1.2" = _TyrWyQar;
-        "fabric-26.2" = _Tm3urGHP;
+        "fabric-26.1.2" = _xZuObWDc;
+        "fabric-26.2" = _vCvPESED;
+        "fabric-26.3" = _NPfe2sZS;
         "pkg-1.6.2" = _7cYnRpET;
         "pkg-1.6.3" = _rLHLzrjl;
         "pkg-1.7.0" = _iQufv1HB;
@@ -479,7 +510,8 @@ let
         "pkg-1.8.0" = _MQvK68ww;
         "pkg-1.8.1" = _jvjDaLi7;
         "pkg-1.8.2" = _kGGIydZM;
-        "default" = _kGGIydZM;
+        "pkg-1.8.3" = _NPfe2sZS;
+        "default" = _NPfe2sZS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "openminemap";

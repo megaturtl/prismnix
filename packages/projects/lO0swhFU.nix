@@ -111,6 +111,11 @@ let
             "file" = "TheFenceUnleashed-1.0.2-26.2-0.0.jar";
             "hash" = "sha512-bI9bfp7RoSxKlWlKYp0hNogmCLiwszNO9ws6NBvKm6vPCKPqhlxJMp3oE/xny1K0ZNYD58Nw9AovuE88NlaG6g==";
         };
+        _LvKQm5fv = {
+            "id" = "LvKQm5fv";
+            "file" = "TheFenceUnleashed-1.0.2-26.3-0.0.jar";
+            "hash" = "sha512-p24U/07XwG2v9FDt5HgeDPfXnUv75+XS2bIXvEbu3GLdIWsDltJ7zbQKHYEMhUGA5AZoJg58QVnBVyIDIKrCxA==";
+        };
     in {
         "AQrZHXgW" = _AQrZHXgW;
         "NtXhwAAg" = _NtXhwAAg;
@@ -134,6 +139,7 @@ let
         "Tmh2iGLY" = _Tmh2iGLY;
         "EScYS1bC" = _EScYS1bC;
         "BYLLWXOq" = _BYLLWXOq;
+        "LvKQm5fv" = _LvKQm5fv;
         "forge-1.19.2" = _AQrZHXgW;
         "forge-1.19.3" = _NtXhwAAg;
         "forge-1.19.4" = _mg08dqmf;
@@ -158,6 +164,7 @@ let
         "neoforge-26.1.1" = _EScYS1bC;
         "neoforge-26.1.2" = _EScYS1bC;
         "neoforge-26.2" = _BYLLWXOq;
+        "neoforge-26.3" = _LvKQm5fv;
         "pkg-1.0.2-1.19.2-1.1" = _AQrZHXgW;
         "pkg-1.0.2-1.19.3-0.0" = _NtXhwAAg;
         "pkg-1.0.2-1.19.4-0.0" = _mg08dqmf;
@@ -180,7 +187,8 @@ let
         "pkg-1.0.2-1.21.11-0.0" = _Tmh2iGLY;
         "pkg-1.0.2-26.1-0.0" = _EScYS1bC;
         "pkg-1.0.2-26.2-0.0" = _BYLLWXOq;
-        "default" = _BYLLWXOq;
+        "pkg-1.0.2-26.3-0.0" = _LvKQm5fv;
+        "default" = _LvKQm5fv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fency";

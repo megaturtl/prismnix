@@ -111,6 +111,16 @@ let
             "file" = "ly-lucky-blocks-v1.3.3.jar";
             "hash" = "sha512-ITMEJlsuR89EitrhIQqhve5pdnoQMw4nNZYpWspCtVNtXeArd4IZJm4es/HQwI4WBiIkW+XEPedyiN43jm4XUg==";
         };
+        _zbmz8DKR = {
+            "id" = "zbmz8DKR";
+            "file" = "Lucky Blocks v1.3.3 [26.3].zip";
+            "hash" = "sha512-1ERyt7OtANR3cvxBNpTB3hrPJ6ck6zzMFM4PunHUAYdi1cdKEM56C+Aoq6w+euuveK3UZCOTUlUiFofdXDOmTg==";
+        };
+        _s9MHmUCR = {
+            "id" = "s9MHmUCR";
+            "file" = "ly-lucky-blocks-1.3.3.jar";
+            "hash" = "sha512-xItApQIX3ySh46alJA+NJfwRr8YB7X86JQA49td1Ub5Je9wVdxnWwhQgrgVz+NmWluYz+2jNalIgt2q3dzTLjw==";
+        };
     in {
         "GUXWmSK9" = _GUXWmSK9;
         "vkLu257m" = _vkLu257m;
@@ -134,6 +144,8 @@ let
         "YTkvfH8n" = _YTkvfH8n;
         "Qw12dpdg" = _Qw12dpdg;
         "W0d259j1" = _W0d259j1;
+        "zbmz8DKR" = _zbmz8DKR;
+        "s9MHmUCR" = _s9MHmUCR;
         "datapack-1.21" = _K44g2lbG;
         "datapack-1.21.1" = _K44g2lbG;
         "datapack-1.21.2" = _rRuxAJwt;
@@ -150,6 +162,7 @@ let
         "datapack-26.1.1" = _Qw12dpdg;
         "datapack-26.1.2" = _Qw12dpdg;
         "datapack-26.2" = _Qw12dpdg;
+        "datapack-26.3" = _zbmz8DKR;
         "fabric-1.21.2" = _yE34CHlp;
         "fabric-1.21.3" = _yE34CHlp;
         "fabric-1.21.4" = _yE34CHlp;
@@ -166,6 +179,7 @@ let
         "fabric-26.1.1" = _W0d259j1;
         "fabric-26.1.2" = _W0d259j1;
         "fabric-26.2" = _W0d259j1;
+        "fabric-26.3" = _s9MHmUCR;
         "forge-1.21.2" = _yE34CHlp;
         "forge-1.21.3" = _yE34CHlp;
         "forge-1.21.4" = _yE34CHlp;
@@ -182,6 +196,7 @@ let
         "forge-26.1.1" = _W0d259j1;
         "forge-26.1.2" = _W0d259j1;
         "forge-26.2" = _W0d259j1;
+        "forge-26.3" = _s9MHmUCR;
         "neoforge-1.21.2" = _yE34CHlp;
         "neoforge-1.21.3" = _yE34CHlp;
         "neoforge-1.21.4" = _yE34CHlp;
@@ -198,6 +213,7 @@ let
         "neoforge-26.1.1" = _W0d259j1;
         "neoforge-26.1.2" = _W0d259j1;
         "neoforge-26.2" = _W0d259j1;
+        "neoforge-26.3" = _s9MHmUCR;
         "quilt-1.21.2" = _yE34CHlp;
         "quilt-1.21.3" = _yE34CHlp;
         "quilt-1.21.4" = _yE34CHlp;
@@ -214,6 +230,7 @@ let
         "quilt-26.1.1" = _W0d259j1;
         "quilt-26.1.2" = _W0d259j1;
         "quilt-26.2" = _W0d259j1;
+        "quilt-26.3" = _s9MHmUCR;
         "pkg-1.0" = _GUXWmSK9;
         "pkg-v1.0.0" = _vkLu257m;
         "pkg-v1.0.1" = _zBwivHqN;
@@ -229,7 +246,9 @@ let
         "pkg-v1.3.2-old-vs" = _EsJKzlsp;
         "pkg-v1.3.3" = _Qw12dpdg;
         "pkg-v1.3.3+mod" = _W0d259j1;
-        "default" = _W0d259j1;
+        "pkg-1.3.3" = _zbmz8DKR;
+        "pkg-1.3.3+mod" = _s9MHmUCR;
+        "default" = _s9MHmUCR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ly-lucky-blocks";

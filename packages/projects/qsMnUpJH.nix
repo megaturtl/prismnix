@@ -66,6 +66,11 @@ let
             "file" = "fightcam-ported-26.2-1.0.0.jar";
             "hash" = "sha512-sm1A/P9fIoIIBDWvJCIfa0jPq3eO5wcqMJVr9leZ5Ph8LSO63O19yPP2xCfCaJXK8osAMXJiA+61FV7A1ttmsg==";
         };
+        _YU6wj9Ky = {
+            "id" = "YU6wj9Ky";
+            "file" = "fight-camera-26.3-1.0.0.jar";
+            "hash" = "sha512-iadmerNdskxe780EOcvn5evhIytNZSpbDm2F1UkWJBVDsWniNU67phnRnMPCq4zq4asGZEJL51hhLha9g61pxw==";
+        };
     in {
         "citScKWx" = _citScKWx;
         "kDxFaOpP" = _kDxFaOpP;
@@ -80,6 +85,7 @@ let
         "wfKTpqoW" = _wfKTpqoW;
         "6Z1r0oBG" = _6Z1r0oBG;
         "WA2YAmGB" = _WA2YAmGB;
+        "YU6wj9Ky" = _YU6wj9Ky;
         "fabric-1.21.2" = _citScKWx;
         "fabric-1.21.3" = _kDxFaOpP;
         "fabric-1.21.5" = _1F3Cnsai;
@@ -93,6 +99,7 @@ let
         "fabric-26.1.1" = _wfKTpqoW;
         "fabric-26.1.2" = _6Z1r0oBG;
         "fabric-26.2" = _WA2YAmGB;
+        "fabric-26.3" = _YU6wj9Ky;
         "pkg-1.21.2-1.0.0" = _citScKWx;
         "pkg-1.21.3-1.0.0" = _kDxFaOpP;
         "pkg-1.21.5-1.0.0" = _1F3Cnsai;
@@ -106,7 +113,8 @@ let
         "pkg-26.1.1-1.0.0" = _wfKTpqoW;
         "pkg-26.1.2-1.0.0" = _6Z1r0oBG;
         "pkg-26.2-1.0.0" = _WA2YAmGB;
-        "default" = _WA2YAmGB;
+        "pkg-26.3-1.0" = _YU6wj9Ky;
+        "default" = _YU6wj9Ky;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fightcam-ported";

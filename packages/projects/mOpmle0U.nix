@@ -21,11 +21,23 @@ let
             "file" = "ly-fangs-enchantment-v1.0.0.jar";
             "hash" = "sha512-ME/kWFsj6gS5LMqMzTLsNUxiYXtY6r7Jz8d1BcYEpPczSsZnebaJecYk2OF4d1upetAtfi+jKcDYYHkgnslMQw==";
         };
+        _8FI3ZFwR = {
+            "id" = "8FI3ZFwR";
+            "file" = "Fangs Enchantment v1.0.0 [26.3].zip";
+            "hash" = "sha512-vXYKXYD6l908rX/zrHGILMYadpDHRtqz3YDAWGBs+KPJ+ukuYpHhP4ziO4xzDuZGJj0YFmwGy9gU4AGbK0ytPg==";
+        };
+        _kfL5ONtH = {
+            "id" = "kfL5ONtH";
+            "file" = "ly-fangs-enchantment-1.0.0.jar";
+            "hash" = "sha512-7puzG27iXsBSCkN3krl5g55Epq4lNGXMLDlPkjZyn9MpmWtBB6uB5oJLIpYh72b+bQvMv3BYJL18kJk/ufcScA==";
+        };
     in {
         "9KQf1MZ7" = _9KQf1MZ7;
         "eQWZWah8" = _eQWZWah8;
         "xj9UZe5m" = _xj9UZe5m;
         "rsRrpTue" = _rsRrpTue;
+        "8FI3ZFwR" = _8FI3ZFwR;
+        "kfL5ONtH" = _kfL5ONtH;
         "datapack-1.21.2" = _9KQf1MZ7;
         "datapack-1.21.3" = _9KQf1MZ7;
         "datapack-1.21.4" = _9KQf1MZ7;
@@ -42,6 +54,7 @@ let
         "datapack-26.2" = _9KQf1MZ7;
         "datapack-1.21" = _xj9UZe5m;
         "datapack-1.21.1" = _xj9UZe5m;
+        "datapack-26.3" = _8FI3ZFwR;
         "fabric-1.21.2" = _eQWZWah8;
         "fabric-1.21.3" = _eQWZWah8;
         "fabric-1.21.4" = _eQWZWah8;
@@ -58,6 +71,7 @@ let
         "fabric-26.2" = _eQWZWah8;
         "fabric-1.21" = _rsRrpTue;
         "fabric-1.21.1" = _rsRrpTue;
+        "fabric-26.3" = _kfL5ONtH;
         "forge-1.21.2" = _eQWZWah8;
         "forge-1.21.3" = _eQWZWah8;
         "forge-1.21.4" = _eQWZWah8;
@@ -74,6 +88,7 @@ let
         "forge-26.2" = _eQWZWah8;
         "forge-1.21" = _rsRrpTue;
         "forge-1.21.1" = _rsRrpTue;
+        "forge-26.3" = _kfL5ONtH;
         "neoforge-1.21.2" = _eQWZWah8;
         "neoforge-1.21.3" = _eQWZWah8;
         "neoforge-1.21.4" = _eQWZWah8;
@@ -90,6 +105,7 @@ let
         "neoforge-26.2" = _eQWZWah8;
         "neoforge-1.21" = _rsRrpTue;
         "neoforge-1.21.1" = _rsRrpTue;
+        "neoforge-26.3" = _kfL5ONtH;
         "quilt-1.21.2" = _eQWZWah8;
         "quilt-1.21.3" = _eQWZWah8;
         "quilt-1.21.4" = _eQWZWah8;
@@ -106,9 +122,12 @@ let
         "quilt-26.2" = _eQWZWah8;
         "quilt-1.21" = _rsRrpTue;
         "quilt-1.21.1" = _rsRrpTue;
+        "quilt-26.3" = _kfL5ONtH;
         "pkg-v1.0.0" = _xj9UZe5m;
         "pkg-v1.0.0+mod" = _rsRrpTue;
-        "default" = _rsRrpTue;
+        "pkg-1.0.0" = _8FI3ZFwR;
+        "pkg-1.0.0+mod" = _kfL5ONtH;
+        "default" = _kfL5ONtH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ly-fangs-enchantment";

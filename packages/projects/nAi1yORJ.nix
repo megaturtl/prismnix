@@ -231,6 +231,16 @@ let
             "file" = "ThaiFontFix-1.0.5.zip";
             "hash" = "sha512-faivpj5jmSwIpt1Ufdh95NxwdL8D3N5PNPd+Li2yprLKLYnChijP2CMHztEF8WwhxqRb42vrzXi8Y/zYzW+cwg==";
         };
+        _Vuvk9zeN = {
+            "id" = "Vuvk9zeN";
+            "file" = "ThaiFontFix-1.0.6.zip";
+            "hash" = "sha512-dP1CMr4zeqBcTwL1Ro/K0IGlhK1kb10mYfMRF2mVJbZLA2jH5lVk5wTRKO4oaqM7hLNGE1TDa3LV3MkgU6/k4A==";
+        };
+        _2twKUIU3 = {
+            "id" = "2twKUIU3";
+            "file" = "ThaiFontFix-1.0.8.zip";
+            "hash" = "sha512-yiHdYkXproNOOmTFHNS+nDVlQNlddeXW/F/R2oCVxwCdQbpfx9uouq2lyMsy3bTsBXvtSd3jZ/x7cqHZWTRY+w==";
+        };
     in {
         "C1YIwJjL" = _C1YIwJjL;
         "MJl0uOUI" = _MJl0uOUI;
@@ -278,6 +288,8 @@ let
         "8pXg9FzW" = _8pXg9FzW;
         "RtQ5YZsm" = _RtQ5YZsm;
         "bln8KOCO" = _bln8KOCO;
+        "Vuvk9zeN" = _Vuvk9zeN;
+        "2twKUIU3" = _2twKUIU3;
         "minecraft-1.13" = _C1YIwJjL;
         "minecraft-1.13.1" = _MJl0uOUI;
         "minecraft-1.13.2" = _bTecbi6W;
@@ -305,27 +317,30 @@ let
         "minecraft-1.19.2" = _wl85rlRs;
         "minecraft-1.19.3" = _bQruhZct;
         "minecraft-1.19.4" = _DpiRU0mi;
-        "minecraft-1.20" = _X0KQ4xUz;
-        "minecraft-1.20.1" = _xWBIIklt;
-        "minecraft-1.20.2" = _u0n6x7QV;
-        "minecraft-1.20.3" = _HrkcTXnF;
-        "minecraft-1.20.4" = _8GlA5Bow;
-        "minecraft-1.21" = _bln8KOCO;
-        "minecraft-1.21.1" = _bln8KOCO;
-        "minecraft-1.21.2" = _bln8KOCO;
-        "minecraft-1.21.3" = _bln8KOCO;
-        "minecraft-1.21.4" = _bln8KOCO;
-        "minecraft-1.21.5" = _bln8KOCO;
-        "minecraft-1.21.6" = _bln8KOCO;
-        "minecraft-1.21.7" = _bln8KOCO;
-        "minecraft-1.21.8" = _bln8KOCO;
-        "minecraft-1.21.9" = _bln8KOCO;
-        "minecraft-1.21.10" = _bln8KOCO;
-        "minecraft-1.21.11" = _bln8KOCO;
-        "minecraft-26.1" = _bln8KOCO;
-        "minecraft-26.1.1" = _bln8KOCO;
-        "minecraft-26.1.2" = _bln8KOCO;
-        "minecraft-26.2" = _bln8KOCO;
+        "minecraft-1.20" = _2twKUIU3;
+        "minecraft-1.20.1" = _2twKUIU3;
+        "minecraft-1.20.2" = _2twKUIU3;
+        "minecraft-1.20.3" = _2twKUIU3;
+        "minecraft-1.20.4" = _2twKUIU3;
+        "minecraft-1.21" = _2twKUIU3;
+        "minecraft-1.21.1" = _2twKUIU3;
+        "minecraft-1.21.2" = _2twKUIU3;
+        "minecraft-1.21.3" = _2twKUIU3;
+        "minecraft-1.21.4" = _2twKUIU3;
+        "minecraft-1.21.5" = _2twKUIU3;
+        "minecraft-1.21.6" = _2twKUIU3;
+        "minecraft-1.21.7" = _2twKUIU3;
+        "minecraft-1.21.8" = _2twKUIU3;
+        "minecraft-1.21.9" = _2twKUIU3;
+        "minecraft-1.21.10" = _2twKUIU3;
+        "minecraft-1.21.11" = _2twKUIU3;
+        "minecraft-26.1" = _2twKUIU3;
+        "minecraft-26.1.1" = _2twKUIU3;
+        "minecraft-26.1.2" = _2twKUIU3;
+        "minecraft-26.2" = _2twKUIU3;
+        "minecraft-1.20.5" = _2twKUIU3;
+        "minecraft-1.20.6" = _2twKUIU3;
+        "minecraft-26.3" = _2twKUIU3;
         "pkg-thaifontfix-1.13" = _C1YIwJjL;
         "pkg-thaifontfix-1.13.1" = _MJl0uOUI;
         "pkg-thaifontfix-1.13.2" = _bTecbi6W;
@@ -372,7 +387,9 @@ let
         "pkg-1.0.3-01" = _8pXg9FzW;
         "pkg-1.0.4" = _RtQ5YZsm;
         "pkg-1.0.5" = _bln8KOCO;
-        "default" = _bln8KOCO;
+        "pkg-1.0.6" = _Vuvk9zeN;
+        "pkg-1.0.8" = _2twKUIU3;
+        "default" = _2twKUIU3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "thaifontfix";

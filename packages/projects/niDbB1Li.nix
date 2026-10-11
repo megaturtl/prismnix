@@ -81,6 +81,11 @@ let
             "file" = "selling_bin-1.6-NEOFORGE-26.2.jar";
             "hash" = "sha512-qknlyQHrTeIBckKPpBv5eoSxrx2gMtQ0GkCQ8lMmz4u0Wn3Ydg0hSdkuztXCHh1iy0zbRA0V0AiODzf6T72SFg==";
         };
+        _be11cLxu = {
+            "id" = "be11cLxu";
+            "file" = "selling_bin-1.6-NEOFORGE-26.3.jar";
+            "hash" = "sha512-s1dWvp2+8IRn5VbE/6L//EoNyUew2pa4uJ2qVWcPTwW1lfAduUGykb2ULkd25BIxs3VHtY//pd22rOxUxWqgQg==";
+        };
     in {
         "M4DNGsaH" = _M4DNGsaH;
         "a1l06fUw" = _a1l06fUw;
@@ -98,11 +103,13 @@ let
         "e5VBKVsh" = _e5VBKVsh;
         "GeOtEWNo" = _GeOtEWNo;
         "5djygP7H" = _5djygP7H;
+        "be11cLxu" = _be11cLxu;
         "neoforge-1.21.1" = _e5VBKVsh;
         "neoforge-26.1" = _WNjZsP2i;
         "neoforge-26.1.1" = _WNjZsP2i;
         "neoforge-26.1.2" = _GeOtEWNo;
         "neoforge-26.2" = _5djygP7H;
+        "neoforge-26.3" = _be11cLxu;
         "forge-1.20.1" = _nwMVjLFa;
         "pkg-1.0-NEOFORGE-1.21.1" = _M4DNGsaH;
         "pkg-1.1-NEOFORGE-1.21.1" = _a1l06fUw;
@@ -120,7 +127,8 @@ let
         "pkg-1.6-NEOFORGE-1.21.1" = _e5VBKVsh;
         "pkg-1.6-NEOFORGE-26.1.2" = _GeOtEWNo;
         "pkg-1.6-NEOFORGE-26.2" = _5djygP7H;
-        "default" = _5djygP7H;
+        "pkg-1.6-NEOFORGE-26.3" = _be11cLxu;
+        "default" = _be11cLxu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wds-selling-bin";

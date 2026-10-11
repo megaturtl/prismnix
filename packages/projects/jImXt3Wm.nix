@@ -26,23 +26,31 @@ let
             "file" = "shulkerboxutils-1.3.0.jar";
             "hash" = "sha512-gi0VZH255k3508i+rUEQTQvJoedu5jg4mLpiMils3T2VarfyU4jTYPjYDvSB+McAKS1+wIJwRpEpqTzWD8ziFw==";
         };
+        _d0nLQvNd = {
+            "id" = "d0nLQvNd";
+            "file" = "shulkerboxutils-1.4.0.jar";
+            "hash" = "sha512-RFHDQFocpXdd5Q9U4eqxFYK8UttmK9Bq7KJIvZZKvokNM+YOst0xp+0l99c1QL6cMWki1pKie05pcvHia3gIRg==";
+        };
     in {
         "qKbhviRK" = _qKbhviRK;
         "JSIXDzk8" = _JSIXDzk8;
         "K7AKtu6n" = _K7AKtu6n;
         "nWnulV3u" = _nWnulV3u;
         "OceyUVZ1" = _OceyUVZ1;
+        "d0nLQvNd" = _d0nLQvNd;
         "fabric-1.21.11" = _qKbhviRK;
         "fabric-26.1" = _nWnulV3u;
         "fabric-26.1.1" = _nWnulV3u;
         "fabric-26.1.2" = _nWnulV3u;
         "fabric-26.2" = _OceyUVZ1;
+        "fabric-26.3" = _d0nLQvNd;
         "pkg-1.0.0" = _qKbhviRK;
         "pkg-1.1.0" = _JSIXDzk8;
         "pkg-1.2.0" = _K7AKtu6n;
         "pkg-1.2.1" = _nWnulV3u;
         "pkg-1.3.0" = _OceyUVZ1;
-        "default" = _OceyUVZ1;
+        "pkg-1.4.0" = _d0nLQvNd;
+        "default" = _d0nLQvNd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shulkerboxutils";

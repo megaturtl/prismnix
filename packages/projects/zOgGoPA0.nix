@@ -46,6 +46,11 @@ let
             "file" = "pnf404-1.1.0-neoforge-1.21.1.jar";
             "hash" = "sha512-DsDAOBrxOII2/xcIkV+BTaFHGiC6gQJWKsiIRpBjFSVW9UObY6+/FQBX3Aq7Li1j511UCJ5bDfDtI/E5zTq8fw==";
         };
+        _UkM2VO7S = {
+            "id" = "UkM2VO7S";
+            "file" = "pnf404-1.1.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-K0n3M6ybMTcxzZZbkYXCKNUAgiOSYUQl4Nr/WzT+SIJz4b2GDzsR1piW298NHcByGikTFU65r6zJ4/M1rfxlwg==";
+        };
     in {
         "bJceXlH0" = _bJceXlH0;
         "nz4TtWsO" = _nz4TtWsO;
@@ -56,7 +61,8 @@ let
         "Gy68iJgi" = _Gy68iJgi;
         "ZvNmGISl" = _ZvNmGISl;
         "eG5DNHMp" = _eG5DNHMp;
-        "neoforge-1.21.1" = _eG5DNHMp;
+        "UkM2VO7S" = _UkM2VO7S;
+        "neoforge-1.21.1" = _UkM2VO7S;
         "neoforge-1.20.1" = _72RCC2Lj;
         "forge-1.20.1" = _72RCC2Lj;
         "pkg-0.8.2" = _bJceXlH0;
@@ -67,7 +73,8 @@ let
         "pkg-0.8.8" = _Gy68iJgi;
         "pkg-1.0.0" = _ZvNmGISl;
         "pkg-1.1.0" = _eG5DNHMp;
-        "default" = _eG5DNHMp;
+        "pkg-1.1.1" = _UkM2VO7S;
+        "default" = _UkM2VO7S;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pnf-404";

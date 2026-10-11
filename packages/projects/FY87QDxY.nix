@@ -341,6 +341,31 @@ let
             "file" = "VoluminousEnergy-1.20.4-0.5 Alpha 1a.jar";
             "hash" = "sha512-hsh67gVhsPECQcofAVUJ5r57ScREe0s9vqStQgoT+t4gOWGuaVnHicWsede/DR8eqfJLQAs311vw1S+oZ3ZKdg==";
         };
+        _JajySpOP = {
+            "id" = "JajySpOP";
+            "file" = "VoluminousEnergy-1.21.1-0.5 Alpha 1.jar";
+            "hash" = "sha512-SrRwYPmGksImWFryuVH3hpmDYgKilCR7yhT+yAaFXrvKxMsNqCQeYUOUcWMNlhTiviBcskqrDQtkmwss6DvRPw==";
+        };
+        _ZFoWiKLF = {
+            "id" = "ZFoWiKLF";
+            "file" = "VoluminousEnergy-1.21.1-0.5 Alpha 1a.jar";
+            "hash" = "sha512-1irzKgNS0PoNvAJWr0pjfyHUV/aRZDAmLwmNAn/xCCQu3xMELE86TS5AfBd4XI2YUYsdAX6F7m7d87YQ05w56g==";
+        };
+        _yiDelt4b = {
+            "id" = "yiDelt4b";
+            "file" = "VoluminousEnergy-1.21.1-0.5 Alpha 1b.jar";
+            "hash" = "sha512-PyXHiTWpg+aIHuOByTk2A+yBAwnz3TYOvG1Hb/tBdpbu0RJMN6/k2i421zOmJMz0QaIoiTP3XsKnGWnPtCb+bQ==";
+        };
+        _vF6o67No = {
+            "id" = "vF6o67No";
+            "file" = "VoluminousEnergy-26.1.2-0.5 Alpha 1.jar";
+            "hash" = "sha512-Q2kyPbPqm7M/5fFW5gcddlL6D2G7pmqczwMlHXJJW895D+/VdxcbkOtNnU2tpovUbvAx3j1Sy6zk/v6tzV935w==";
+        };
+        _rpuMQpmg = {
+            "id" = "rpuMQpmg";
+            "file" = "VoluminousEnergy-26.2-0.5 Alpha 1.jar";
+            "hash" = "sha512-sdhIOSPrHn69QTdgbnggl78ckyuqYZzTrXqnbUK/a997cJs3Gtpj7gF6QStLahVHgsR2UD5EdgG3SwfEuPcJag==";
+        };
     in {
         "fCkmvLa5" = _fCkmvLa5;
         "pAfzSr7Z" = _pAfzSr7Z;
@@ -410,6 +435,11 @@ let
         "9IMvp0dg" = _9IMvp0dg;
         "c2c9Mmv4" = _c2c9Mmv4;
         "tAAza6rF" = _tAAza6rF;
+        "JajySpOP" = _JajySpOP;
+        "ZFoWiKLF" = _ZFoWiKLF;
+        "yiDelt4b" = _yiDelt4b;
+        "vF6o67No" = _vF6o67No;
+        "rpuMQpmg" = _rpuMQpmg;
         "forge-1.17.1" = _fCkmvLa5;
         "forge-1.18.2" = _CIX9dVM3;
         "forge-1.19" = _EZVjdsXm;
@@ -421,6 +451,9 @@ let
         "forge-1.20.1" = _yXwuBIKX;
         "forge-1.20.2" = _9IMvp0dg;
         "forge-1.20.4" = _tAAza6rF;
+        "neoforge-1.21.1" = _yiDelt4b;
+        "neoforge-26.1.2" = _vF6o67No;
+        "neoforge-26.2" = _rpuMQpmg;
         "pkg-1.17.1-0.2 Alpha 4" = _fCkmvLa5;
         "pkg-1.18.2-0.3.1.0" = _pAfzSr7Z;
         "pkg-1.19-0.3.0.0" = _3vE2bNRT;
@@ -489,7 +522,12 @@ let
         "pkg-1.20.2-0.5_Alpha_1" = _9IMvp0dg;
         "pkg-1.20.4-0.5_Alpha_1" = _c2c9Mmv4;
         "pkg-1.20.4-0.5_Alpha_1a" = _tAAza6rF;
-        "default" = _tAAza6rF;
+        "pkg-1.21.1-0.5_Alpha_1" = _JajySpOP;
+        "pkg-1.21.1-0.5_Alpha_1a" = _ZFoWiKLF;
+        "pkg-1.21.1-0.5_Alpha_1b" = _yiDelt4b;
+        "pkg-26.1.2-0.5_Alpha_1" = _vF6o67No;
+        "pkg-26.2-0.5_Alpha_1" = _rpuMQpmg;
+        "default" = _rpuMQpmg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "voluminous_energy";

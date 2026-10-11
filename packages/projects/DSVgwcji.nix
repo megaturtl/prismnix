@@ -96,6 +96,11 @@ let
             "file" = "AI-Improvements-26.1.1-0.5.4.jar";
             "hash" = "sha512-ukgPknPS9X+n8CEQb0ilvx7sUk7W4Q0iKEyuj71glRM7/axAEUwLafp4f4ziiKSddRUk9p1QLDDfpTH20piSFw==";
         };
+        _d4SRGMZz = {
+            "id" = "d4SRGMZz";
+            "file" = "AI-Improvements-26.3-0.5.5.jar";
+            "hash" = "sha512-su6O6wyTWqhWWGwJ8Viyi2Remlvlq6tYavGb6zaEP6PvnEbtkk83+O819jJczQDc9Dm5JXOIbqs3YM2Dl0Hf2w==";
+        };
     in {
         "tSHaOkjT" = _tSHaOkjT;
         "eJihmpNQ" = _eJihmpNQ;
@@ -116,6 +121,7 @@ let
         "izd4sbpF" = _izd4sbpF;
         "TztiKTxi" = _TztiKTxi;
         "2N8rYJgE" = _2N8rYJgE;
+        "d4SRGMZz" = _d4SRGMZz;
         "forge-1.19.2" = _tSHaOkjT;
         "forge-1.19.3" = _tSHaOkjT;
         "forge-1.19.4" = _tSHaOkjT;
@@ -150,6 +156,7 @@ let
         "neoforge-26.1.1" = _2N8rYJgE;
         "neoforge-26.1.2" = _2N8rYJgE;
         "neoforge-26.2" = _2N8rYJgE;
+        "neoforge-26.3" = _d4SRGMZz;
         "pkg-0.5.2" = _Z2jNP6b2;
         "pkg-0.5.3" = _URbYMXSB;
         "pkg-0.0.1b8" = _Nv6G28rf;
@@ -160,7 +167,8 @@ let
         "pkg-0.5.0" = _ntR8zSWe;
         "pkg-0.4.0" = _Nk5NP91m;
         "pkg-0.5.4" = _2N8rYJgE;
-        "default" = _2N8rYJgE;
+        "pkg-0.5.5" = _d4SRGMZz;
+        "default" = _d4SRGMZz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ai-improvements";

@@ -76,6 +76,11 @@ let
             "file" = "chatwaypoint-2.0.2-mc26.2.jar";
             "hash" = "sha512-y5B81KfGuc0utasiVjiZnkoNtdwiUS/g8OKvCXsKTcnu+fhECnOoNbeaKPv/T9jRImE+VWBB5X12helB0BD0GA==";
         };
+        _gt0Y7Rqk = {
+            "id" = "gt0Y7Rqk";
+            "file" = "chatwaypoint-2.0.2-mc26.3.jar";
+            "hash" = "sha512-hvNZUgVDyN18B59kilgiLDDOd+INRv6342CStqMJB35ahFx1venXWckHlHXPV0146fdB0aDktORUIxVK/cf9PA==";
+        };
     in {
         "rxsmWuX2" = _rxsmWuX2;
         "YRsZI7jZ" = _YRsZI7jZ;
@@ -92,6 +97,7 @@ let
         "XhXywx0J" = _XhXywx0J;
         "MAO1h5m2" = _MAO1h5m2;
         "j46PUqzk" = _j46PUqzk;
+        "gt0Y7Rqk" = _gt0Y7Rqk;
         "fabric-1.21.11" = _joJVXHZx;
         "fabric-1.21.10" = _jD2nzM2Z;
         "fabric-1.21.9" = _U02mIY8o;
@@ -105,10 +111,11 @@ let
         "fabric-1.21" = _XhXywx0J;
         "fabric-26.1.2" = _MAO1h5m2;
         "fabric-26.2" = _j46PUqzk;
+        "fabric-26.3" = _gt0Y7Rqk;
         "pkg-2.0.0" = _rxsmWuX2;
         "pkg-2.0.1" = _YRsZI7jZ;
-        "pkg-2.0.2" = _j46PUqzk;
-        "default" = _j46PUqzk;
+        "pkg-2.0.2" = _gt0Y7Rqk;
+        "default" = _gt0Y7Rqk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chatwaypoint";

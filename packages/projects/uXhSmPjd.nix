@@ -1181,6 +1181,11 @@ let
             "file" = "ColdSweat-2.4.3.1.jar";
             "hash" = "sha512-dj6YsyqTGjlqPx/KQLOcMy6wERjkUt1dpwTCuVNFSksQRJnzOgVkc9xg3KCeh2K+ANmDNdKFdpqODtrRpBB+1A==";
         };
+        _VCWBWOkR = {
+            "id" = "VCWBWOkR";
+            "file" = "ColdSweat-2.4.3.2.jar";
+            "hash" = "sha512-TUiT+f9S7nHxJjm4IjAWHO/S9Qw2hCEul14nJAbbUe9G+iPy07+vVz7XzjZ+LCOzptwGPZFtLlSkAYtrrb7Jog==";
+        };
     in {
         "RU557STd" = _RU557STd;
         "fkRKOzcn" = _fkRKOzcn;
@@ -1418,11 +1423,12 @@ let
         "tTFQxyBz" = _tTFQxyBz;
         "r2cD4Llq" = _r2cD4Llq;
         "ngCUm7il" = _ngCUm7il;
+        "VCWBWOkR" = _VCWBWOkR;
         "forge-1.19.2" = _YeDAa4JT;
         "forge-1.18.2" = _YNEOXChH;
         "forge-1.16.5" = _tTFQxyBz;
         "forge-1.19.4" = _9Cl3Npow;
-        "forge-1.20.1" = _ngCUm7il;
+        "forge-1.20.1" = _VCWBWOkR;
         "forge-1.18.1" = _tgKqrEgr;
         "forge-1.20" = _bVLCpmBw;
         "neoforge-1.20.1" = _2rCY4DrY;
@@ -1480,7 +1486,8 @@ let
         "pkg-2.4.2" = _QcRCkOrF;
         "pkg-2.4.3" = _tTFQxyBz;
         "pkg-2.4.3.1" = _ngCUm7il;
-        "default" = _ngCUm7il;
+        "pkg-2.4.3.2" = _VCWBWOkR;
+        "default" = _VCWBWOkR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cold-sweat";

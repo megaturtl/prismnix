@@ -46,6 +46,16 @@ let
             "file" = "jcraft-tusk-act-4-addon-fabric-2.0.1.jar";
             "hash" = "sha512-/5xCwF+Cd5XEwbI4DDrRdKfNHoDQtYr9ZgvoyOhEPMs3JGRjTImj43Z23vUk/FcimhKiAIq09maQikfTWdeoxw==";
         };
+        _xhPz7U0N = {
+            "id" = "xhPz7U0N";
+            "file" = "jcraft-tusk-act-4-addon-forge-2.0.3.jar";
+            "hash" = "sha512-kOJidIOe6Igl8LZow6t0OryyeNvQG/FE4GnbTdhhuD5gZBQWf7a66949ojbVCOHqLEtnIJuIoIIIYLHouuUbtw==";
+        };
+        _xKF2ZptM = {
+            "id" = "xKF2ZptM";
+            "file" = "jcraft-tusk-act-4-addon-fabric-2.0.3.jar";
+            "hash" = "sha512-6JnXShQP7JzfsahlMMOOnWrMHrobcML6Dd8AFyI5f2VtzNUVjxAS4eEOau75gl2bnuO/Upi4AISCXD46j3LVhg==";
+        };
     in {
         "mr4xgrfl" = _mr4xgrfl;
         "VGUWUEzm" = _VGUWUEzm;
@@ -56,14 +66,17 @@ let
         "BQe1O0uG" = _BQe1O0uG;
         "zZMQu0dc" = _zZMQu0dc;
         "vXq6S8dq" = _vXq6S8dq;
-        "forge-1.20.1" = _zZMQu0dc;
-        "fabric-1.20.1" = _vXq6S8dq;
+        "xhPz7U0N" = _xhPz7U0N;
+        "xKF2ZptM" = _xKF2ZptM;
+        "forge-1.20.1" = _xhPz7U0N;
+        "fabric-1.20.1" = _xKF2ZptM;
         "pkg-1.0.0" = _VGUWUEzm;
         "pkg-1.0.1" = _OjN3xfsf;
         "pkg-1.0.1-hotfix" = _jeQfnPGH;
         "pkg-1.0.2" = _BQe1O0uG;
         "pkg-2.0.1" = _vXq6S8dq;
-        "default" = _vXq6S8dq;
+        "pkg-2.0.3" = _xKF2ZptM;
+        "default" = _xKF2ZptM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tusk-act-4-(jcraft-addon)";

@@ -151,6 +151,16 @@ let
             "file" = "tillitbreaks-1.1.5+26.1-fabric.jar";
             "hash" = "sha512-ZTMQIZh+RxDbmEDKUE5Xldxpk46Tc/Wn6llx3hlYpY8E22rf5JYhBuYelHBBrPNL0ftqeyDEpMUAKpB1/DKg/g==";
         };
+        _llxaliaw = {
+            "id" = "llxaliaw";
+            "file" = "tillitbreaks-neoforge-1.1.5+26.2.jar";
+            "hash" = "sha512-0dnhXcatR7Y5P1KHbVBQab7eMMVqLL3U50XOf/smzRglFTTr1tbmMZ9buX79MP+oe5SVB/GT0Eyo6pIrYkuwTA==";
+        };
+        _EUMNeLZL = {
+            "id" = "EUMNeLZL";
+            "file" = "tillitbreaks-fabric-1.1.5+26.3.jar";
+            "hash" = "sha512-3ZV8hEvoAltLaR23A2HbZsNtpLCi84isyZXZj7z6A4Iv9qQUlctPu4nQyNmawrKn+uRxAWv8Fm+PKx/t9ToWtQ==";
+        };
     in {
         "nSQxxaz3" = _nSQxxaz3;
         "pp8PyGmH" = _pp8PyGmH;
@@ -182,6 +192,8 @@ let
         "K0fNBoZk" = _K0fNBoZk;
         "Afzuw1j8" = _Afzuw1j8;
         "340t5YTR" = _340t5YTR;
+        "llxaliaw" = _llxaliaw;
+        "EUMNeLZL" = _EUMNeLZL;
         "fabric-1.21" = _V5wdugDQ;
         "fabric-1.21.1" = _V5wdugDQ;
         "fabric-1.21.2" = _V5wdugDQ;
@@ -198,6 +210,7 @@ let
         "fabric-26.1.1" = _340t5YTR;
         "fabric-26.1.2" = _340t5YTR;
         "fabric-26.2" = _340t5YTR;
+        "fabric-26.3" = _EUMNeLZL;
         "neoforge-1.21.1" = _vKCn89n1;
         "neoforge-1.21.9" = _7yYU0K4C;
         "neoforge-1.21.10" = _7yYU0K4C;
@@ -205,6 +218,7 @@ let
         "neoforge-26.1" = _Afzuw1j8;
         "neoforge-26.1.1" = _Afzuw1j8;
         "neoforge-26.1.2" = _Afzuw1j8;
+        "neoforge-26.2" = _llxaliaw;
         "pkg-0.6+1.21" = _nSQxxaz3;
         "pkg-0.6.1+1.21" = _pp8PyGmH;
         "pkg-0.6.2+1.21" = _tpl8jVwu;
@@ -234,7 +248,9 @@ let
         "pkg-1.1.4+26.1-fabric" = _K0fNBoZk;
         "pkg-1.1.5+26.1-neoforge" = _Afzuw1j8;
         "pkg-1.1.5+26.1-fabric" = _340t5YTR;
-        "default" = _340t5YTR;
+        "pkg-1.1.5+26.2" = _llxaliaw;
+        "pkg-1.1.5+26.3" = _EUMNeLZL;
+        "default" = _EUMNeLZL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "till-it-breaks-updated";

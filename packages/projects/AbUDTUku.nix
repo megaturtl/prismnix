@@ -11,13 +11,20 @@ let
             "file" = "logfilter-101.beta.jar";
             "hash" = "sha512-8+S+4T+klm41wrNcm8B9e1FCifVcI8wIyOtfkOVVI1dEYCFt4kUJDPpNpxp/p6UKdsGEhNFHrminFBpQB1KUIw==";
         };
+        _5C84TNoC = {
+            "id" = "5C84TNoC";
+            "file" = "logfilter-1.1.1+1.20.1-forge.jar";
+            "hash" = "sha512-N1dZ28lh937aOmB8skJpAC+J9rcTHcNjLHgwocNRZM+U+ukWII+of8FnOLic56jFUyHdvWKFchWxt//eyu21/A==";
+        };
     in {
         "opnpLVZQ" = _opnpLVZQ;
         "a2Vhm5Su" = _a2Vhm5Su;
-        "forge-1.20.1" = _a2Vhm5Su;
+        "5C84TNoC" = _5C84TNoC;
+        "forge-1.20.1" = _5C84TNoC;
         "pkg-1.0.0" = _opnpLVZQ;
         "pkg-101.beta" = _a2Vhm5Su;
-        "default" = _a2Vhm5Su;
+        "pkg-1.1.1+1.20.1-forge" = _5C84TNoC;
+        "default" = _5C84TNoC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "log-filter1";

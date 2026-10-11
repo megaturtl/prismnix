@@ -86,6 +86,11 @@ let
             "file" = "MonsterEggs-26.1.2-11.0.0.jar";
             "hash" = "sha512-qq0DGwmtm/Cf6CUF8QdwdNb8O5X3JdLoHaF2S1FsaSgGUhkz0DCzhffhn6HHor5nCOG7oHwLkuig1Fb/5d3fLg==";
         };
+        _kqX0i42s = {
+            "id" = "kqX0i42s";
+            "file" = "MonsterEggs-26.3-12.0.0.jar";
+            "hash" = "sha512-t9Tn4jPFgjeKiNBt3Jt9PCF8HjWgFk7S40+PeT+6Hqe3V6ySH9PY9eDzxRx+tE6uY5lxUAPL/Qk77UqRR0y5vg==";
+        };
     in {
         "5UvIc7Gb" = _5UvIc7Gb;
         "R4Pu8KKO" = _R4Pu8KKO;
@@ -104,6 +109,7 @@ let
         "aGlMrFlb" = _aGlMrFlb;
         "6ZNjF1fg" = _6ZNjF1fg;
         "8n7XfKKC" = _8n7XfKKC;
+        "kqX0i42s" = _kqX0i42s;
         "forge-1.18.2" = _5UvIc7Gb;
         "forge-1.19" = _R4Pu8KKO;
         "forge-1.19.1" = _R4Pu8KKO;
@@ -122,6 +128,7 @@ let
         "neoforge-1.21.1" = _aGlMrFlb;
         "neoforge-1.21.11" = _6ZNjF1fg;
         "neoforge-26.1.2" = _8n7XfKKC;
+        "neoforge-26.3" = _kqX0i42s;
         "pkg-1.0.0" = _5UvIc7Gb;
         "pkg-1.1.1" = _R4Pu8KKO;
         "pkg-1.2.0" = _sOxCJzcF;
@@ -139,7 +146,8 @@ let
         "pkg-6.0.1" = _aGlMrFlb;
         "pkg-10.0.0" = _6ZNjF1fg;
         "pkg-11.0.0" = _8n7XfKKC;
-        "default" = _8n7XfKKC;
+        "pkg-12.0.0" = _kqX0i42s;
+        "default" = _kqX0i42s;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "monster-eggs";

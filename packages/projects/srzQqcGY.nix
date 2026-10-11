@@ -506,6 +506,16 @@ let
             "file" = "arrowplus-fabric-26.3-26.3.0.0.jar";
             "hash" = "sha512-TzQSdPtPTuE2dowvx9o6hGqBUQDS9EkECpmWLnvT1kNqWkK4ZoJgoFiG2LoEEgyLptL4EZfE6KiHedyaQzqGVw==";
         };
+        _zP3NXMvS = {
+            "id" = "zP3NXMvS";
+            "file" = "arrowplus-neoforge-26.3-26.3.0.1.jar";
+            "hash" = "sha512-zwv6dQycTyiLnk+VxOspsf8UiZMUMqkf+kUXDKZXCQcXbQoeifg59JmDt96zspAE37SvBFBOc3Z54vuxcoa/eA==";
+        };
+        _DYjpCtDt = {
+            "id" = "DYjpCtDt";
+            "file" = "arrowplus-fabric-26.3-26.3.0.1.jar";
+            "hash" = "sha512-KZREfdjfbApsh3LlMrle5PI8xv3OopoLGXpqC13IdRpTEo87s3TYrlJSyNLKUJSObj/Es/Tt82ylnzXgfKQ9mg==";
+        };
     in {
         "ObwKqlD2" = _ObwKqlD2;
         "84Qv7WUj" = _84Qv7WUj;
@@ -608,6 +618,8 @@ let
         "CGwGL544" = _CGwGL544;
         "m99CtHXA" = _m99CtHXA;
         "GRJPL2FR" = _GRJPL2FR;
+        "zP3NXMvS" = _zP3NXMvS;
+        "DYjpCtDt" = _DYjpCtDt;
         "neoforge-1.21.1" = _yb47poBX;
         "neoforge-1.21.4" = _84Qv7WUj;
         "neoforge-1.21.5" = _7dKj6JwK;
@@ -622,7 +634,7 @@ let
         "neoforge-26.1.1" = _xGUAQWld;
         "neoforge-26.1.2" = _xGUAQWld;
         "neoforge-26.2" = _5XZm7aya;
-        "neoforge-26.3" = _m99CtHXA;
+        "neoforge-26.3" = _zP3NXMvS;
         "forge-1.20.1" = _JW87LBE9;
         "forge-1.21.1" = _Hkzx5uvK;
         "forge-1.21.4" = _Ls0FzeF4;
@@ -648,7 +660,7 @@ let
         "fabric-26.1.1" = _CGwGL544;
         "fabric-26.1.2" = _CGwGL544;
         "fabric-26.2" = _P0rINN1D;
-        "fabric-26.3" = _GRJPL2FR;
+        "fabric-26.3" = _DYjpCtDt;
         "pkg-1.0.0-1.21.1-neoforge" = _ObwKqlD2;
         "pkg-1.0.0-1.21.4-neoforge" = _84Qv7WUj;
         "pkg-1.0.0-1.21.5-neoforge" = _7dKj6JwK;
@@ -741,7 +753,8 @@ let
         "pkg-26.2.0.1" = _P0rINN1D;
         "pkg-26.1.2.103" = _CGwGL544;
         "pkg-26.3.0.0" = _GRJPL2FR;
-        "default" = _GRJPL2FR;
+        "pkg-26.3.0.1" = _DYjpCtDt;
+        "default" = _DYjpCtDt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "arrow+";

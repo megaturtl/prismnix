@@ -41,6 +41,11 @@ let
             "file" = "blastfromthepast-1.0.6+1.21.1.jar";
             "hash" = "sha512-AiinCskvdtzLwOiXH8zPY/HrzwFeRKByJBXGGGpgKatuCmORtLhvo1gClxk1R7guzhHHmE+hthLMd2zC3uc66g==";
         };
+        _atvlYwsu = {
+            "id" = "atvlYwsu";
+            "file" = "blastfromthepast-1.0.7+1.21.1.jar";
+            "hash" = "sha512-qZNBcYVEYj/ZeBfDTedMh1nA/91+YMAWWoXNhJLJQwWdQDPdTWXpdwVLCZA08uzVJsItFLucYMEo5ltMntR+JQ==";
+        };
     in {
         "SYdTao6N" = _SYdTao6N;
         "Kn984wxF" = _Kn984wxF;
@@ -50,7 +55,8 @@ let
         "9e6bjR6m" = _9e6bjR6m;
         "SrJE9DqP" = _SrJE9DqP;
         "OU69vNKP" = _OU69vNKP;
-        "neoforge-1.21.1" = _OU69vNKP;
+        "atvlYwsu" = _atvlYwsu;
+        "neoforge-1.21.1" = _atvlYwsu;
         "forge-1.20.1" = _9e6bjR6m;
         "pkg-1.0.0" = _SYdTao6N;
         "pkg-1.0.2" = _Kn984wxF;
@@ -60,7 +66,8 @@ let
         "pkg-1.0.4" = _9e6bjR6m;
         "pkg-1.0.5+1.21.1" = _SrJE9DqP;
         "pkg-1.0.6+1.21.1" = _OU69vNKP;
-        "default" = _OU69vNKP;
+        "pkg-1.0.7+1.21.1" = _atvlYwsu;
+        "default" = _atvlYwsu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blast-from-the-past";

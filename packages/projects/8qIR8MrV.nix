@@ -86,6 +86,16 @@ let
             "file" = "ly-combat-log-1.0.3.jar";
             "hash" = "sha512-GD6iA/1uG25xXcsVOEcK8gxXSVqzm29NpqSJMEioBGvIzllFIp9OZt4AGhPZ8WbwdyE2KrTCzkiaMUWOqZKmnA==";
         };
+        _J7qhPNNy = {
+            "id" = "J7qhPNNy";
+            "file" = "Combat Log v1.0.3 [26.3].zip";
+            "hash" = "sha512-gCh6M7aMj4QuopiRqsioMfb6Ljo2Q0KJHhDoQg6Ex7mOiRa6X+lvn7v6UvSzmVBnjB570vtX5ck5b59Xvu9QaQ==";
+        };
+        _llK3CLps = {
+            "id" = "llK3CLps";
+            "file" = "ly-combat-log-1.0.3.jar";
+            "hash" = "sha512-kN2dtatz3wsUOcYF2lash6H6aNSoms2hmUJEOnp15zpJrMSKl1Z1PHEXGBb099U+D+aTbTqXlHPpPDvpme2kPg==";
+        };
     in {
         "ZOmH9ymJ" = _ZOmH9ymJ;
         "nPke0bni" = _nPke0bni;
@@ -104,6 +114,8 @@ let
         "gyOuV6DV" = _gyOuV6DV;
         "UsV5gMke" = _UsV5gMke;
         "kRxypUQv" = _kRxypUQv;
+        "J7qhPNNy" = _J7qhPNNy;
+        "llK3CLps" = _llK3CLps;
         "datapack-1.21" = _viYz3RBQ;
         "datapack-1.21.1" = _viYz3RBQ;
         "datapack-1.21.2" = _viYz3RBQ;
@@ -120,6 +132,7 @@ let
         "datapack-26.1.1" = _sTD0ve0D;
         "datapack-26.1.2" = _sTD0ve0D;
         "datapack-26.2" = _UsV5gMke;
+        "datapack-26.3" = _J7qhPNNy;
         "fabric-1.21" = _vJoIeBIv;
         "fabric-1.21.1" = _vJoIeBIv;
         "fabric-1.21.2" = _vJoIeBIv;
@@ -136,6 +149,7 @@ let
         "fabric-26.1.1" = _gyOuV6DV;
         "fabric-26.1.2" = _gyOuV6DV;
         "fabric-26.2" = _kRxypUQv;
+        "fabric-26.3" = _llK3CLps;
         "forge-1.21" = _vJoIeBIv;
         "forge-1.21.1" = _vJoIeBIv;
         "forge-1.21.2" = _vJoIeBIv;
@@ -152,6 +166,7 @@ let
         "forge-26.1.1" = _gyOuV6DV;
         "forge-26.1.2" = _gyOuV6DV;
         "forge-26.2" = _kRxypUQv;
+        "forge-26.3" = _llK3CLps;
         "neoforge-1.21" = _vJoIeBIv;
         "neoforge-1.21.1" = _vJoIeBIv;
         "neoforge-1.21.2" = _vJoIeBIv;
@@ -168,6 +183,7 @@ let
         "neoforge-26.1.1" = _gyOuV6DV;
         "neoforge-26.1.2" = _gyOuV6DV;
         "neoforge-26.2" = _kRxypUQv;
+        "neoforge-26.3" = _llK3CLps;
         "quilt-1.21" = _vJoIeBIv;
         "quilt-1.21.1" = _vJoIeBIv;
         "quilt-1.21.2" = _vJoIeBIv;
@@ -184,6 +200,7 @@ let
         "quilt-26.1.1" = _gyOuV6DV;
         "quilt-26.1.2" = _gyOuV6DV;
         "quilt-26.2" = _kRxypUQv;
+        "quilt-26.3" = _llK3CLps;
         "pkg-v1.0.0" = _ZOmH9ymJ;
         "pkg-v1.0.1" = _nPke0bni;
         "pkg-v1.0.1+mod" = _OrnYcBT5;
@@ -193,9 +210,9 @@ let
         "pkg-v1.0.3+mod" = _gyOuV6DV;
         "pkg-v1.0.2.5" = _mdsLDkL0;
         "pkg-v1.0.2.5+mod" = _Pm4hgyyS;
-        "pkg-1.0.3" = _UsV5gMke;
-        "pkg-1.0.3+mod" = _kRxypUQv;
-        "default" = _kRxypUQv;
+        "pkg-1.0.3" = _J7qhPNNy;
+        "pkg-1.0.3+mod" = _llK3CLps;
+        "default" = _llK3CLps;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ly-combat-log";

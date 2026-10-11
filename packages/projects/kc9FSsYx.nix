@@ -391,6 +391,11 @@ let
             "file" = "Glassential-renewed-26.2-5.1.2.jar";
             "hash" = "sha512-/AMbSQDxhEb31ok26+GTqTnWsZ2gqrZBCnJBp5ktW3mOzNiUfBXwnSOJj4/hjo8LfRazxOTxLJnnZV3bsTK/cA==";
         };
+        _mcSrIznp = {
+            "id" = "mcSrIznp";
+            "file" = "Glassential-renewed-26.3-5.2.0.jar";
+            "hash" = "sha512-/x9s8w+OzeKwe2wIPlqOQoHHanzuZf0SbirEwKB/bzyJ7ijT3CBGvAq6xXtya4MyIncEYcaaJa2h05/65CBi1Q==";
+        };
     in {
         "999aBDxl" = _999aBDxl;
         "oyr3KRJM" = _oyr3KRJM;
@@ -470,6 +475,7 @@ let
         "knYwchce" = _knYwchce;
         "S50SNzuh" = _S50SNzuh;
         "ul7oqB1K" = _ul7oqB1K;
+        "mcSrIznp" = _mcSrIznp;
         "forge-1.20.1" = _OUSroj0z;
         "forge-1.20.2" = _oyr3KRJM;
         "forge-1.20.4" = _nvLUkd4o;
@@ -486,6 +492,7 @@ let
         "neoforge-1.21.11" = _qK8To6Uo;
         "neoforge-26.1.2" = _S50SNzuh;
         "neoforge-26.2" = _ul7oqB1K;
+        "neoforge-26.3" = _mcSrIznp;
         "pkg-1.20.1-1.3.0" = _999aBDxl;
         "pkg-1.20.2-1.3.0" = _oyr3KRJM;
         "pkg-1.20.1-1.4.0" = _SKaEaVHS;
@@ -535,7 +542,8 @@ let
         "pkg-3.4.7" = _knYwchce;
         "pkg-5.0.2" = _S50SNzuh;
         "pkg-5.1.2" = _ul7oqB1K;
-        "default" = _ul7oqB1K;
+        "pkg-5.2.0" = _mcSrIznp;
+        "default" = _mcSrIznp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "glassential-renewed";

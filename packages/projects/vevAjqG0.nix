@@ -121,6 +121,16 @@ let
             "file" = "ijm-tweaks-1.7.0+26.1.jar";
             "hash" = "sha512-fWzl9gHBent2XjUqCWkidyQnTnY4yVdKcBKM7hKenTYKwSj6NmWtK897Hv2+zSjq302Mskf6rEdI6IMnbELUrQ==";
         };
+        _VIGl63W1 = {
+            "id" = "VIGl63W1";
+            "file" = "ijm-tweaks-1.8.0+26.2.jar";
+            "hash" = "sha512-KpWWB/yAKPc2L3tQoVVxNWA3AHDYrrcEZGBaoA+ec+qHBTXEreh/lJ/8o0Et7ARU0U0FmORhrsqIRmCccuNwRQ==";
+        };
+        _2M0NCtqc = {
+            "id" = "2M0NCtqc";
+            "file" = "ijm-tweaks-1.8.0+26.3.jar";
+            "hash" = "sha512-hD377DQ32XSUrJKFspjU9oLLsWEYG5TOZSwg4bDHU2jnRqqzKr98Soop40XXwmrxMqqN0o7alV4RAviGhzvNdQ==";
+        };
     in {
         "zIn21c6w" = _zIn21c6w;
         "XuzlAsjh" = _XuzlAsjh;
@@ -146,6 +156,8 @@ let
         "iFrF5MFX" = _iFrF5MFX;
         "BcP0xSAT" = _BcP0xSAT;
         "x52bR1Yk" = _x52bR1Yk;
+        "VIGl63W1" = _VIGl63W1;
+        "2M0NCtqc" = _2M0NCtqc;
         "fabric-1.20" = _Jq4UH8La;
         "fabric-1.20.1" = _Jq4UH8La;
         "fabric-1.20.2" = _Jq4UH8La;
@@ -166,6 +178,8 @@ let
         "fabric-1.21.10" = _7cmo2VCf;
         "fabric-1.21.11" = _BcP0xSAT;
         "fabric-26.1" = _x52bR1Yk;
+        "fabric-26.2" = _VIGl63W1;
+        "fabric-26.3" = _2M0NCtqc;
         "pkg-1.2.0+1.20.X" = _zIn21c6w;
         "pkg-1.2.1+1.20.3-4" = _XuzlAsjh;
         "pkg-1.3.0+1.20.3-4" = _GU00Ga03;
@@ -190,7 +204,9 @@ let
         "pkg-1.6.0+1.21.11" = _iFrF5MFX;
         "pkg-1.6.1+1.21.11" = _BcP0xSAT;
         "pkg-1.7.0+26.1" = _x52bR1Yk;
-        "default" = _x52bR1Yk;
+        "pkg-1.8.0+26.2" = _VIGl63W1;
+        "pkg-1.8.0+26.3" = _2M0NCtqc;
+        "default" = _2M0NCtqc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ijm-tweaks";

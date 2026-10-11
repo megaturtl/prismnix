@@ -146,6 +146,11 @@ let
             "file" = "CodeClient-2.0.1.jar";
             "hash" = "sha512-Kv96zuGrAZBXu2phhqkZB71oBIVsSAcn0JV5UV2cdvUxzzMazg/o9x12WnhGmWD2Pik1WO6WZLHxORQk0eZGFw==";
         };
+        _I8OqvxH5 = {
+            "id" = "I8OqvxH5";
+            "file" = "CodeClient-2.1.0.jar";
+            "hash" = "sha512-Hp/hdbrJqqWH9Clx53r/hlmQTsr2JJZj9ypcWMM1qoYNdzA8CF7YnGohajc3vcnWRc6Zg298Oqich1E/97RyNA==";
+        };
     in {
         "wkUDFmfx" = _wkUDFmfx;
         "4xca069S" = _4xca069S;
@@ -176,6 +181,7 @@ let
         "gDr4t6RK" = _gDr4t6RK;
         "xyk5A4RB" = _xyk5A4RB;
         "DExhSfde" = _DExhSfde;
+        "I8OqvxH5" = _I8OqvxH5;
         "fabric-1.19.4" = _4xca069S;
         "fabric-1.20" = _PWoRvNX0;
         "fabric-1.20.1" = _PWoRvNX0;
@@ -185,6 +191,7 @@ let
         "fabric-1.21.3" = _3O2sJEMc;
         "fabric-1.21.8" = _f6K7aSaV;
         "fabric-1.21.11" = _DExhSfde;
+        "fabric-26.2" = _I8OqvxH5;
         "pkg-1.1" = _4xca069S;
         "pkg-1.2" = _jdkXBRs2;
         "pkg-1.4.1" = _AlakIPWG;
@@ -209,7 +216,8 @@ let
         "pkg-2.0.0-beta.4" = _3O2sJEMc;
         "pkg-2.0.0" = _f6K7aSaV;
         "pkg-2.0.1" = _DExhSfde;
-        "default" = _DExhSfde;
+        "pkg-2.1.0" = _I8OqvxH5;
+        "default" = _I8OqvxH5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "codeclient";

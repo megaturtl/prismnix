@@ -91,6 +91,11 @@ let
             "file" = "leukocyte-0.4.0+26.2.jar";
             "hash" = "sha512-BivnY8ULSCtUq+m9lyYbRVO+7eETUEFgRrn+J5EpuMIB8acII7UVRD3sNWliwhOzmOIiWM8qvGmC32I+CIgt6Q==";
         };
+        _VCTHdh3R = {
+            "id" = "VCTHdh3R";
+            "file" = "leukocyte-0.4.1+26.3.jar";
+            "hash" = "sha512-nDtCPwP5FKrIBQi6Mjr+rqU7V0HF9IEAjGQt60OGwH3IeZH/43ogvmvV/XA5+2cXCcPLVBFkmyC/GGPdtNBJUw==";
+        };
     in {
         "YbyKAcA8" = _YbyKAcA8;
         "6D1m7RvD" = _6D1m7RvD;
@@ -110,6 +115,7 @@ let
         "ILX1D0qZ" = _ILX1D0qZ;
         "426DVJLQ" = _426DVJLQ;
         "Sn21oQvF" = _Sn21oQvF;
+        "VCTHdh3R" = _VCTHdh3R;
         "fabric-1.18" = _YbyKAcA8;
         "fabric-1.18.2" = _YbyKAcA8;
         "fabric-1.19" = _6D1m7RvD;
@@ -132,6 +138,7 @@ let
         "fabric-1.21.10" = _ILX1D0qZ;
         "fabric-26.1.2" = _426DVJLQ;
         "fabric-26.2" = _Sn21oQvF;
+        "fabric-26.3" = _VCTHdh3R;
         "quilt-1.18" = _YbyKAcA8;
         "quilt-1.18.2" = _YbyKAcA8;
         "quilt-1.19" = _6D1m7RvD;
@@ -153,7 +160,8 @@ let
         "pkg-0.3.14+1.21.9" = _ILX1D0qZ;
         "pkg-0.3.15+26.1.2" = _426DVJLQ;
         "pkg-0.4.0+26.2" = _Sn21oQvF;
-        "default" = _Sn21oQvF;
+        "pkg-0.4.1+26.3" = _VCTHdh3R;
+        "default" = _VCTHdh3R;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "leukocyte";

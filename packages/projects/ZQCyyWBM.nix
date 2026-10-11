@@ -56,6 +56,11 @@ let
             "file" = "beautify-neoforge+26.2-2.0.0.jar";
             "hash" = "sha512-sSrUMS8/t+/5sY2E4vaWcM2F91N9fkoshnHV7yETGo0mDWDy2A1MPFYSobDVUJ9DCAh0ZZ098u5ijGtlI48nGw==";
         };
+        _oFWCciNE = {
+            "id" = "oFWCciNE";
+            "file" = "beautify-neoforge+26.3-2.0.0.jar";
+            "hash" = "sha512-rWets+Y3CN2xbD2jjWCnG6PQ8ewMRpMLRL1UzGnUfQ3a4p1/HpMfvSyFrh0rn2CaIIqWDcNEOZtuG11uPBYVJw==";
+        };
     in {
         "glAMEtDd" = _glAMEtDd;
         "UuSa5mKv" = _UuSa5mKv;
@@ -68,6 +73,7 @@ let
         "VDEKbd4I" = _VDEKbd4I;
         "rHZtuvNe" = _rHZtuvNe;
         "Jn2kTxYx" = _Jn2kTxYx;
+        "oFWCciNE" = _oFWCciNE;
         "neoforge-1.21.1" = _fkkocn59;
         "neoforge-1.21.3" = _UuSa5mKv;
         "neoforge-1.21.4" = _bfjNgLba;
@@ -82,6 +88,7 @@ let
         "neoforge-26.1.1" = _rHZtuvNe;
         "neoforge-26.1.2" = _rHZtuvNe;
         "neoforge-26.2" = _Jn2kTxYx;
+        "neoforge-26.3" = _oFWCciNE;
         "pkg-1.0.0" = _bfjNgLba;
         "pkg-1.5.0" = _XptfPv9w;
         "pkg-1.6.0" = _ho1mQEQi;
@@ -89,8 +96,8 @@ let
         "pkg-1.8.0" = _eX7lepbM;
         "pkg-1.9.0" = _fkkocn59;
         "pkg-2.0.0+26.1" = _VDEKbd4I;
-        "pkg-2.0.0" = _Jn2kTxYx;
-        "default" = _Jn2kTxYx;
+        "pkg-2.0.0" = _oFWCciNE;
+        "default" = _oFWCciNE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "beautify-refoxed";

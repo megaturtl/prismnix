@@ -206,6 +206,21 @@ let
             "file" = "pickupnotifications-fabric-3.0.1+26.2.jar";
             "hash" = "sha512-z/z3icuV9aIXRXLbPmoWxNz72nsSFdTzPQBp9DrC8iIcVaG/iIA0jESbQb1DlQRt9hx3hiwArfmZv8h9/opp8Q==";
         };
+        _LXPB3XKi = {
+            "id" = "LXPB3XKi";
+            "file" = "pickupnotifications-neoforge-3.0.1+26.3.jar";
+            "hash" = "sha512-zr/4YKmOxFTVoqVKR1MsDlC7cqvuaZHnWG71Xbk86FucjmUToUEXwC4zUFrlXm0dqJoMk7SCnS7jKWXn2mnCwQ==";
+        };
+        _hsHgcDdb = {
+            "id" = "hsHgcDdb";
+            "file" = "pickupnotifications-fabric-3.0.1+26.3.jar";
+            "hash" = "sha512-oDrgfC18mS1hTViir0GHUWuV4s1P8xb7QS1fnesf+fV4BOrxzrd3gbvX+AHFJRW3doegDmdZblxsFniQMWPk4Q==";
+        };
+        _s8mxiDXf = {
+            "id" = "s8mxiDXf";
+            "file" = "pickupnotifications-forge-3.0.1+26.3.jar";
+            "hash" = "sha512-NGernOX4oLQwszU2bqo7hVLECjg+vcXbAFZVIAqkpYot+zFKNk2laZcVn3EhpWn6OgeRHTy6Nqq5zqKMBEsC+g==";
+        };
     in {
         "nVUqOIX3" = _nVUqOIX3;
         "dH6kg8kg" = _dH6kg8kg;
@@ -248,6 +263,9 @@ let
         "SRX4Y3d2" = _SRX4Y3d2;
         "eMYVCFkg" = _eMYVCFkg;
         "LAXLx6E9" = _LAXLx6E9;
+        "LXPB3XKi" = _LXPB3XKi;
+        "hsHgcDdb" = _hsHgcDdb;
+        "s8mxiDXf" = _s8mxiDXf;
         "fabric-1.18.2" = _IMcT3jBq;
         "fabric-1.19" = _lyLpQtJ0;
         "fabric-1.19.1" = _lyLpQtJ0;
@@ -277,6 +295,7 @@ let
         "fabric-26.1.1" = _hWeaC0Nm;
         "fabric-26.1.2" = _hWeaC0Nm;
         "fabric-26.2" = _LAXLx6E9;
+        "fabric-26.3" = _hsHgcDdb;
         "quilt-1.18.2" = _IMcT3jBq;
         "quilt-1.19" = _lyLpQtJ0;
         "quilt-1.19.1" = _lyLpQtJ0;
@@ -306,14 +325,17 @@ let
         "quilt-26.1.1" = _hWeaC0Nm;
         "quilt-26.1.2" = _hWeaC0Nm;
         "quilt-26.2" = _LAXLx6E9;
+        "quilt-26.3" = _hsHgcDdb;
         "forge-26.1" = _w2F8SwPK;
         "forge-26.1.1" = _w2F8SwPK;
         "forge-26.1.2" = _w2F8SwPK;
         "forge-26.2" = _SRX4Y3d2;
+        "forge-26.3" = _s8mxiDXf;
         "neoforge-26.1" = _WY8Uzgqz;
         "neoforge-26.1.1" = _WY8Uzgqz;
         "neoforge-26.1.2" = _WY8Uzgqz;
         "neoforge-26.2" = _eMYVCFkg;
+        "neoforge-26.3" = _LXPB3XKi;
         "pkg-1.0.2" = _nVUqOIX3;
         "pkg-1.0.3" = _dH6kg8kg;
         "pkg-1.1.0+1.19" = _iGIra28Y;
@@ -355,7 +377,10 @@ let
         "pkg-3.0.1+26.2-forge" = _SRX4Y3d2;
         "pkg-3.0.1+26.2-neoforge" = _eMYVCFkg;
         "pkg-3.0.1+26.2-fabric" = _LAXLx6E9;
-        "default" = _LAXLx6E9;
+        "pkg-3.0.1+26.3-neoforge" = _LXPB3XKi;
+        "pkg-3.0.1+26.3-fabric" = _hsHgcDdb;
+        "pkg-3.0.1+26.3-forge" = _s8mxiDXf;
+        "default" = _s8mxiDXf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pickup-notifications";

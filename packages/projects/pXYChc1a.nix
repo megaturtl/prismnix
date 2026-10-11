@@ -1081,6 +1081,21 @@ let
             "file" = "morediscs-26.2-neoforge-35.1.1.jar";
             "hash" = "sha512-jjHxZoQgdO6wmpYUBs5JnzPE1a/rUPxOyi/AmQeveRO5/QDgU8c6i5m+E+y8V1l2Eirra6QOBeT3LKdpPpVh9w==";
         };
+        _5dbpeGyD = {
+            "id" = "5dbpeGyD";
+            "file" = "morediscs-26.3-fabric-35.1.1.jar";
+            "hash" = "sha512-RWsKnPdWNu2Ppb4zcoHzRDXWzd/wD//nN5vmUILxxjfCZhgrXFuz47pfSe44ynla2G2T9uV6Ay0QBZlo0g+Pqg==";
+        };
+        _Tdi9Fdh6 = {
+            "id" = "Tdi9Fdh6";
+            "file" = "morediscs-26.3-forge-35.1.1.jar";
+            "hash" = "sha512-zYX6PgCAv9J+BU+hTzVFBFi66HGSWBQcGbeXF8IBlaCeMRHwUCAomAWnzyjwPm+sOeUmgUrabFVGbRDN6HZjxQ==";
+        };
+        _s0no5qEy = {
+            "id" = "s0no5qEy";
+            "file" = "morediscs-26.3-neoforge-35.1.1.jar";
+            "hash" = "sha512-3Ojlh//0XNEc/W0GtmFQ/m85LKqpOcpm6/5Z9Am5gAVoyugteCkRsHJvoC4cMpmo4unsUozECBcxc69iCKEwzw==";
+        };
     in {
         "zLRSc8ma" = _zLRSc8ma;
         "6XOMqoTB" = _6XOMqoTB;
@@ -1298,6 +1313,9 @@ let
         "EAODVfey" = _EAODVfey;
         "CL1mtIuF" = _CL1mtIuF;
         "yuPMRkdb" = _yuPMRkdb;
+        "5dbpeGyD" = _5dbpeGyD;
+        "Tdi9Fdh6" = _Tdi9Fdh6;
+        "s0no5qEy" = _s0no5qEy;
         "fabric-1.19.2" = _Ctc43BWS;
         "fabric-1.16.5" = _dItAyr3l;
         "fabric-1.17.1" = _PS9P5LEx;
@@ -1331,6 +1349,7 @@ let
         "fabric-26.1.1" = _U36HZeKr;
         "fabric-26.1.2" = _U36HZeKr;
         "fabric-26.2" = _EAODVfey;
+        "fabric-26.3" = _5dbpeGyD;
         "quilt-1.19.2" = _Ctc43BWS;
         "quilt-1.16.5" = _dItAyr3l;
         "quilt-1.17.1" = _PS9P5LEx;
@@ -1364,6 +1383,7 @@ let
         "quilt-26.1.1" = _U36HZeKr;
         "quilt-26.1.2" = _U36HZeKr;
         "quilt-26.2" = _EAODVfey;
+        "quilt-26.3" = _5dbpeGyD;
         "forge-1.16.5" = _Lfiw5ihH;
         "forge-1.17.1" = _Lu044g4W;
         "forge-1.18.2" = _TzcvgQvD;
@@ -1398,6 +1418,7 @@ let
         "forge-26.1.1" = _aLo8bfgp;
         "forge-26.1.2" = _aLo8bfgp;
         "forge-26.2" = _CL1mtIuF;
+        "forge-26.3" = _Tdi9Fdh6;
         "neoforge-1.20.4" = _8TfccFsT;
         "neoforge-1.20.6" = _dP5CAO4o;
         "neoforge-1.21" = _Olq5QZaS;
@@ -1419,6 +1440,7 @@ let
         "neoforge-26.1.1" = _SZne1uyX;
         "neoforge-26.1.2" = _SZne1uyX;
         "neoforge-26.2" = _yuPMRkdb;
+        "neoforge-26.3" = _s0no5qEy;
         "pkg-1.19.2-17" = _zLRSc8ma;
         "pkg-1.16.5-9" = _6XOMqoTB;
         "pkg-1.17.1-10" = _PS9P5LEx;
@@ -1632,7 +1654,10 @@ let
         "pkg-26.2-fabric-35.1.1" = _EAODVfey;
         "pkg-26.2-forge-35.1.1" = _CL1mtIuF;
         "pkg-26.2-neoforge-35.1.1" = _yuPMRkdb;
-        "default" = _yuPMRkdb;
+        "pkg-26.3-fabric-35.1.1" = _5dbpeGyD;
+        "pkg-26.3-forge-35.1.1" = _Tdi9Fdh6;
+        "pkg-26.3-neoforge-35.1.1" = _s0no5qEy;
+        "default" = _s0no5qEy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-music-discs";

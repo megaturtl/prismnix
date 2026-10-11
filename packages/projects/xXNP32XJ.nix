@@ -136,6 +136,11 @@ let
             "file" = "illagersweararmor-26.2.0-4.0.0.jar";
             "hash" = "sha512-tmKuAjCw6pSp+nGqH+zoT5oojEhJH+2bmjd61Iu0uzKjLiHbTRzJ/3aD85AMLF76ZO3f4VeoSnb+yXsGx1AOEw==";
         };
+        _r8wfodRD = {
+            "id" = "r8wfodRD";
+            "file" = "illagersweararmor-26.3.0-5.0.0.jar";
+            "hash" = "sha512-KjeqnNdWV5b4Vvre4tUxuALIeFEhIiBKFSo8XKqQzVVU1iVBN4PW5EGXIVQHHBZuh7kh7qd9AAcxpMhPQz7dRw==";
+        };
     in {
         "UpsToi4g" = _UpsToi4g;
         "Fc39LzZh" = _Fc39LzZh;
@@ -164,6 +169,7 @@ let
         "CZuRtcSr" = _CZuRtcSr;
         "bSzC0MGk" = _bSzC0MGk;
         "sm0jz3FT" = _sm0jz3FT;
+        "r8wfodRD" = _r8wfodRD;
         "forge-1.19.3" = _wI1l3MTw;
         "forge-1.19.2" = _wI1l3MTw;
         "forge-1.19.4" = _wI1l3MTw;
@@ -180,7 +186,7 @@ let
         "neoforge-1.21.1" = _CZuRtcSr;
         "neoforge-26.1.1" = _oz2TZJxm;
         "neoforge-26.1.2" = _oz2TZJxm;
-        "neoforge-26.2" = _sm0jz3FT;
+        "neoforge-26.2" = _r8wfodRD;
         "pkg-1.2.5" = _UpsToi4g;
         "pkg-1.2.6" = _Fc39LzZh;
         "pkg-1.2.6-1.19.2" = _p5wCKglx;
@@ -207,7 +213,8 @@ let
         "pkg-2.4.0" = _CZuRtcSr;
         "pkg-1.20.1-1.5.0" = _bSzC0MGk;
         "pkg-4.0.0" = _sm0jz3FT;
-        "default" = _sm0jz3FT;
+        "pkg-5.0.0" = _r8wfodRD;
+        "default" = _r8wfodRD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "illagers-wear-armor";

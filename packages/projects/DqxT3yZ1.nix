@@ -101,6 +101,26 @@ let
             "file" = "create_labor-1.5.2.1-neoforge-1.21.1.jar";
             "hash" = "sha512-/3yJ07y3RIpRBsYwolYV5Ldql68vDlTOkSbhSfsIhQOZfqngwAmDaaaxNvUNIS7LbAc+dIX3NFj815SuyYSi9w==";
         };
+        _wT6Il85N = {
+            "id" = "wT6Il85N";
+            "file" = "create_labor-1.5.3-neoforge-1.21.1.jar";
+            "hash" = "sha512-nQu8bIDNE03/Gm67oshNbLClp9PFuXoYJi7utvWtF/Up7defrKmvZBT79XgHcaR2umhqdymADIKOzlqiAwPuUg==";
+        };
+        _gJSMK1rE = {
+            "id" = "gJSMK1rE";
+            "file" = "create_labor-1.5.3-forge-1.20.1.jar";
+            "hash" = "sha512-oPZC9TIPenD0dJH8Ulm2Wqx3oH4pN78M8+/HvNq8aZm7ayklqLgBo48GXhBGEBI01mKoeUtCFKCYtN4VtaBATw==";
+        };
+        _Xxn8udDc = {
+            "id" = "Xxn8udDc";
+            "file" = "create_labor-1.5.3.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-nOfVMButNBvfQzC47Ve7k09YDHzkcldHqlcOe9Vc7Yza3fIbMxoQwS30qWo2NkyQLN13OVzFhiUTzYu+w93Q8A==";
+        };
+        _J7FtHcm6 = {
+            "id" = "J7FtHcm6";
+            "file" = "create_labor-1.5.3.1-forge-1.20.1.jar";
+            "hash" = "sha512-Zz6gZVE8sq550qtpXk0tGB6ssKFlovP3Kwz0FfnQsEeq4bi75iBCkRnwwh8UCz7kcfqoKk/GltGI5LpjamzCTA==";
+        };
     in {
         "gB4WKJw9" = _gB4WKJw9;
         "PwRsQwPj" = _PwRsQwPj;
@@ -122,8 +142,12 @@ let
         "G8qRizDj" = _G8qRizDj;
         "9uoR4NYS" = _9uoR4NYS;
         "NXsoS5Ud" = _NXsoS5Ud;
-        "neoforge-1.21.1" = _NXsoS5Ud;
-        "forge-1.20.1" = _9uoR4NYS;
+        "wT6Il85N" = _wT6Il85N;
+        "gJSMK1rE" = _gJSMK1rE;
+        "Xxn8udDc" = _Xxn8udDc;
+        "J7FtHcm6" = _J7FtHcm6;
+        "neoforge-1.21.1" = _Xxn8udDc;
+        "forge-1.20.1" = _J7FtHcm6;
         "pkg-1.0.0" = _gB4WKJw9;
         "pkg-1.1.0" = _PwRsQwPj;
         "pkg-1.2.0" = _zYv8YT9L;
@@ -143,7 +167,11 @@ let
         "pkg-1.5.2-forge-1.20.1" = _G8qRizDj;
         "pkg-1.5.2.1-forge-1.20.1" = _9uoR4NYS;
         "pkg-1.5.2.1-neoforge-1.21.1" = _NXsoS5Ud;
-        "default" = _NXsoS5Ud;
+        "pkg-1.5.3-neoforge-1.21.1" = _wT6Il85N;
+        "pkg-1.5.3-forge-1.20.1" = _gJSMK1rE;
+        "pkg-1.5.3.1-neoforge-1.21.1" = _Xxn8udDc;
+        "pkg-1.5.3.1-forge-1.20.1" = _J7FtHcm6;
+        "default" = _J7FtHcm6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-villager-labor";

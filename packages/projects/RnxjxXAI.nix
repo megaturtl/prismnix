@@ -236,6 +236,31 @@ let
             "file" = "horsestatsmod-neoforge-26.2-3.5.3.jar";
             "hash" = "sha512-rllU5u2W68MuJoyx4sUOx3sU7A9pt1Hj6BOizI2ImwH4oLn6eN2ec/PGKKNAjIpqP7xCWlXmy7UfRd9OeRMm6g==";
         };
+        _3wbr4kOR = {
+            "id" = "3wbr4kOR";
+            "file" = "horsestatsmod-neoforge-26.3-3.6.0.jar";
+            "hash" = "sha512-fgIP/JLPAUe5LtIbF+BPVFOr8Px6aG9KFcsNGFiGV0Y4jmbekeyAGjMpQUp2ck8kynpmyArr0ErsV8x59CGyag==";
+        };
+        _WNezH76E = {
+            "id" = "WNezH76E";
+            "file" = "horsestatsmod-fabric-26.3-3.6.0.jar";
+            "hash" = "sha512-8zFdWZIDJi3JvTq/MMmSJb40bJ2FF+Q8jvKH6fTZcmDh9AtujPhDq50RpOXo/jWOZ5XaB1afrjUCkT8SIcHiuQ==";
+        };
+        _iBnkIRDQ = {
+            "id" = "iBnkIRDQ";
+            "file" = "horsestatsmod-fabric-26.3-3.6.0.jar";
+            "hash" = "sha512-9dwPLKKetRXvfx8Wt1Y26KyUXIzZt0lBw4APFUvcymjgvsIeBllM+Z6svp+gmToVxffuLGrTRE7X9CiK+VGcSw==";
+        };
+        _A56vwUUm = {
+            "id" = "A56vwUUm";
+            "file" = "horsestatsmod-forge-26.3-3.6.0.jar";
+            "hash" = "sha512-zPj8Tr+BCJEwrQTobAzRAigraI7ljWo9pZ8DEv7uuPdGquLPOlvJgFtVLsUNOesQX6LgUcrVOtF3z68+motpCQ==";
+        };
+        _cVSjzu1S = {
+            "id" = "cVSjzu1S";
+            "file" = "horsestatsmod-neoforge-26.3-3.6.0.jar";
+            "hash" = "sha512-eznz5IezvxhtP9OgNdgNFTj7iHoS03pn5Z1SCCU3CmLyQhI0+UJkOOO/anB8YfwOC39eaxJ/O3W6WdZ3Es1t/w==";
+        };
     in {
         "X7iBGCY0" = _X7iBGCY0;
         "rMfYye8P" = _rMfYye8P;
@@ -284,6 +309,11 @@ let
         "gisWqZY4" = _gisWqZY4;
         "vBaHKDDL" = _vBaHKDDL;
         "Hy4gZ7jn" = _Hy4gZ7jn;
+        "3wbr4kOR" = _3wbr4kOR;
+        "WNezH76E" = _WNezH76E;
+        "iBnkIRDQ" = _iBnkIRDQ;
+        "A56vwUUm" = _A56vwUUm;
+        "cVSjzu1S" = _cVSjzu1S;
         "forge-1.19" = _X7iBGCY0;
         "forge-1.18" = _rMfYye8P;
         "forge-1.18.1" = _rMfYye8P;
@@ -304,6 +334,7 @@ let
         "forge-1.21" = _2Togn5TD;
         "forge-1.21.1" = _2Togn5TD;
         "forge-26.2" = _vBaHKDDL;
+        "forge-26.3" = _A56vwUUm;
         "fabric-1.21.1" = _bh7SkQl4;
         "fabric-1.21.3" = _UsRc9TFQ;
         "fabric-1.21.4" = _mTrJpCHk;
@@ -317,6 +348,7 @@ let
         "fabric-26.1.1" = _eh8g6LAt;
         "fabric-26.1.2" = _pfzAOYVi;
         "fabric-26.2" = _srBxHeQV;
+        "fabric-26.3" = _iBnkIRDQ;
         "neoforge-1.21.1" = _gF1yJMUZ;
         "neoforge-1.21.3" = _BBzqe80u;
         "neoforge-1.21.4" = _aCoFAiXw;
@@ -330,6 +362,7 @@ let
         "neoforge-26.1.1" = _ZmJxtRJe;
         "neoforge-26.1.2" = _1GwBBBsr;
         "neoforge-26.2" = _Hy4gZ7jn;
+        "neoforge-26.3" = _cVSjzu1S;
         "pkg-1.4.4" = _X7iBGCY0;
         "pkg-1.4.3" = _rMfYye8P;
         "pkg-1.4.2" = _LQfKGXDG;
@@ -352,7 +385,12 @@ let
         "pkg-3.5.2-MC26.2-neoforge" = _gisWqZY4;
         "pkg-3.5.2-MC26.2-forge" = _vBaHKDDL;
         "pkg-3.5.3-MC26.2-neoforge" = _Hy4gZ7jn;
-        "default" = _Hy4gZ7jn;
+        "pkg-3.5.2-MC26.3-neoforge" = _3wbr4kOR;
+        "pkg-3.5.2-MC26.3-fabric" = _WNezH76E;
+        "pkg-3.6.0-MC26.3-fabric" = _iBnkIRDQ;
+        "pkg-3.6.0-MC26.3-forge" = _A56vwUUm;
+        "pkg-3.6.0-MC26.3-neoforge" = _cVSjzu1S;
+        "default" = _cVSjzu1S;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "horse-statistics";

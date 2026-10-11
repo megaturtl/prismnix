@@ -401,6 +401,46 @@ let
             "file" = "White_And_Black_World-26.3-pre-2.zip";
             "hash" = "sha512-TTf7fISWtNhJclmxYIwsGkK9wK91H9WtKXu3o7c2QwjWoqPM800S5XHzaU2NsXiEXGc5mCVzuQN3UbtTsuPmUw==";
         };
+        _sfneMP4Q = {
+            "id" = "sfneMP4Q";
+            "file" = "White_And_Black_World-26.3-pre-3.zip";
+            "hash" = "sha512-A+flt1GfS2gDVcA9Us7qwO1r7UvrYPQaZAkFryjL+2rRTs4Mxqa4Bmpis1F7OqcHAHuCcoR3UHGKU++CVwjfMg==";
+        };
+        _FPWP53PL = {
+            "id" = "FPWP53PL";
+            "file" = "White_And_Black_World-26.3-rc-1.zip";
+            "hash" = "sha512-qM5SdGDJaDR1oVkxaUbhrfu3xmL7wZCFNKX2yn3RU27+h0Vze72RQFfV+k3oTMl9shO8PbR+Y7KnW4Kboy1knQ==";
+        };
+        _Z3PwHRt4 = {
+            "id" = "Z3PwHRt4";
+            "file" = "White_And_Black_World-26.3-rc-2.zip";
+            "hash" = "sha512-QSuHS3MBG51rXwZR3+GtEI7GoyzMotQx2lvMjHQy8doLhyppl5Kb5Kq1E+VLX4+5OSVZpwm4YQ+gTIEB2Mx8Lw==";
+        };
+        _msocLzyL = {
+            "id" = "msocLzyL";
+            "file" = "White_And_Black_World-26.3-rc-3.zip";
+            "hash" = "sha512-dNxD0jjfA2SeA6zOfCumrStucWe9DXk/zJfnp2wskupvwMUFqReS8DfLKYZgDjBE0YwG3NXbjtXWaP4Tn1svyQ==";
+        };
+        _bN0vBtTv = {
+            "id" = "bN0vBtTv";
+            "file" = "White_And_Black_World-26.3.zip";
+            "hash" = "sha512-lmdIL6+rWGdmB+jqx6YuLdxrvQxz7HYfuqvrS6sOncJ2sxmc3c6hCKP6INp2BIOdq7O84+UrB31L4J1A8jTI+A==";
+        };
+        _CcfhfQJx = {
+            "id" = "CcfhfQJx";
+            "file" = "White_And_Black_World-26.4-snapshot-1.zip";
+            "hash" = "sha512-wwi85rgIXU3BcucAKMxJetN5eVYJIRwB2LsRmXHVLi1EEb9KAxRfM03u9RjmtQuyxPN7FhQvcI+GDHVvAEEhKA==";
+        };
+        _f5sVkYpf = {
+            "id" = "f5sVkYpf";
+            "file" = "White_And_Black_World-26.4-snapshot-2.zip";
+            "hash" = "sha512-i97H7+uDD5TAobvu1EM5Ni0drZfDFKmCEu2SMtSyYEeLzWTJASIhdPoEChN0GGcMLgq4nw0Oo8OWKbrqhP8xNQ==";
+        };
+        _YwwoewEf = {
+            "id" = "YwwoewEf";
+            "file" = "White_And_Black_World-26.4-snapshot-3.zip";
+            "hash" = "sha512-eUFyHtg5/NFqc0bMuXIPRomU5r0t2WhYDOQYOEHLCkRHl8eFeUOo0c0CoDl1TyUqz3LlE2z4lR2PrLYsVt/5zg==";
+        };
     in {
         "4rhH2YKq" = _4rhH2YKq;
         "3iyDvOgC" = _3iyDvOgC;
@@ -482,6 +522,14 @@ let
         "ProdiAB2" = _ProdiAB2;
         "RcexqGV9" = _RcexqGV9;
         "68SXGTSw" = _68SXGTSw;
+        "sfneMP4Q" = _sfneMP4Q;
+        "FPWP53PL" = _FPWP53PL;
+        "Z3PwHRt4" = _Z3PwHRt4;
+        "msocLzyL" = _msocLzyL;
+        "bN0vBtTv" = _bN0vBtTv;
+        "CcfhfQJx" = _CcfhfQJx;
+        "f5sVkYpf" = _f5sVkYpf;
+        "YwwoewEf" = _YwwoewEf;
         "minecraft-1.21.1" = _psKwuyph;
         "minecraft-1.20" = _7MBOvmVB;
         "minecraft-1.20.1" = _7MBOvmVB;
@@ -546,11 +594,19 @@ let
         "minecraft-26.3-snapshot-10" = _ProdiAB2;
         "minecraft-26.3-pre-1" = _RcexqGV9;
         "minecraft-26.3-pre-2" = _68SXGTSw;
+        "minecraft-26.3-pre-3" = _sfneMP4Q;
+        "minecraft-26.3-rc-1" = _FPWP53PL;
+        "minecraft-26.3-rc-2" = _Z3PwHRt4;
+        "minecraft-26.3-rc-3" = _msocLzyL;
+        "minecraft-26.3" = _bN0vBtTv;
+        "minecraft-26.4-snapshot-1" = _CcfhfQJx;
+        "minecraft-26.4-snapshot-2" = _f5sVkYpf;
+        "minecraft-26.4-snapshot-3" = _YwwoewEf;
         "pkg-1.0" = _4rhH2YKq;
         "pkg-1.1" = _rT2ZcizL;
         "pkg-1.2" = _AnLd0RaK;
-        "pkg-1.3" = _68SXGTSw;
-        "default" = _68SXGTSw;
+        "pkg-1.3" = _YwwoewEf;
+        "default" = _YwwoewEf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "white-and-black-world";

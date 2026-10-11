@@ -36,6 +36,11 @@ let
             "file" = "MotionBlurX-mc+26.2.jar";
             "hash" = "sha512-vHyEJUMMejYknM3CRMs+rvRnAVMYAH0haHoavfsyH2BWIuC7BkcUBdYIs87ULZ1FBPh5gkgIgaQLZhLFwf7A0g==";
         };
+        _ODDVGYNb = {
+            "id" = "ODDVGYNb";
+            "file" = "MotionBlurX-mc+26.3.jar";
+            "hash" = "sha512-lKDpivq/rMb5s5loTtmW9VECc0b17xULNa+aaE9LXVOIAH7y1tKEODpzv7KlgYdS3bcBBnIyKeYujLrv+VJjHA==";
+        };
     in {
         "jcZkX8qu" = _jcZkX8qu;
         "P5NcvyCr" = _P5NcvyCr;
@@ -44,6 +49,7 @@ let
         "5OisHY4q" = _5OisHY4q;
         "SUTj3Rdb" = _SUTj3Rdb;
         "YaUGxQr1" = _YaUGxQr1;
+        "ODDVGYNb" = _ODDVGYNb;
         "fabric-1.21.11" = _jcZkX8qu;
         "fabric-26.1" = _P5NcvyCr;
         "fabric-26.1.1" = _P5NcvyCr;
@@ -58,8 +64,9 @@ let
         "fabric-1.21.3" = _SUTj3Rdb;
         "fabric-1.21.4" = _SUTj3Rdb;
         "fabric-26.2" = _YaUGxQr1;
-        "pkg-1.0" = _YaUGxQr1;
-        "default" = _YaUGxQr1;
+        "fabric-26.3" = _ODDVGYNb;
+        "pkg-1.0" = _ODDVGYNb;
+        "default" = _ODDVGYNb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "motion-blur-x";

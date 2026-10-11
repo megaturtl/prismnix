@@ -121,6 +121,26 @@ let
             "file" = "gaia-fabric-mc26.2-2.0.11.jar";
             "hash" = "sha512-Ps054kgZqLkXyGGdUroRtH+s8KDMuSXxUS6LRaI8tNPsq+dCO+zzPzJPi9wYzqEuDAMzIF6bQBZqpCKGSmvQyw==";
         };
+        _lDfIWru4 = {
+            "id" = "lDfIWru4";
+            "file" = "gaia-paper-2.0.12.jar";
+            "hash" = "sha512-LgVCKRfIb1TTkpF3gSm59V9+l37BCSx+pX4UkPf9tbiVU8b2abKKCk8y03+UhJXfr9wYCXezZTliNKu4FIw6ew==";
+        };
+        _GLtESkJ8 = {
+            "id" = "GLtESkJ8";
+            "file" = "gaia-fabric-mc26.3-2.0.12.jar";
+            "hash" = "sha512-V2VWRWADDOKxboWH8ERLJ1DLFdUiHFqwIPw4ipZ4T3xxFGZ6nuAPbDDDn2UzTXLtkDTD3u3513745b5DYTfToA==";
+        };
+        _eCEG1Uoq = {
+            "id" = "eCEG1Uoq";
+            "file" = "gaia-paper-2.0.13.jar";
+            "hash" = "sha512-JXyGa+/qQ57O+o9KGzLG9TFHumnyZToGQAc0HE/xVo5z31MiHZcCoeN6Qq7vktIofpNXlggHi5+pU9WHwBrn7g==";
+        };
+        _cEs7cROq = {
+            "id" = "cEs7cROq";
+            "file" = "gaia-fabric-mc26.3-2.0.13.jar";
+            "hash" = "sha512-a+3+j5AilibkMEpOjoJuZLGzA/UnrKb/9xpw8d2tcG2mgNnIZ4qdvxEFlru4XefXE91V+aVIEN4zs1fklcTqBQ==";
+        };
     in {
         "KXftkv4L" = _KXftkv4L;
         "uXt5BNcQ" = _uXt5BNcQ;
@@ -146,6 +166,10 @@ let
         "lsJZwgAO" = _lsJZwgAO;
         "BZEl29UU" = _BZEl29UU;
         "H8YvUnL6" = _H8YvUnL6;
+        "lDfIWru4" = _lDfIWru4;
+        "GLtESkJ8" = _GLtESkJ8;
+        "eCEG1Uoq" = _eCEG1Uoq;
+        "cEs7cROq" = _cEs7cROq;
         "folia-1.20" = _KXftkv4L;
         "folia-1.20.1" = _KXftkv4L;
         "folia-1.20.2" = _Zei3OGE9;
@@ -159,6 +183,7 @@ let
         "folia-1.21.11" = _CaxVOdtn;
         "folia-26.1.2" = _qs7WKqwI;
         "folia-26.2" = _BZEl29UU;
+        "folia-26.3" = _eCEG1Uoq;
         "paper-1.20" = _KXftkv4L;
         "paper-1.20.1" = _KXftkv4L;
         "paper-1.20.2" = _Zei3OGE9;
@@ -172,6 +197,7 @@ let
         "paper-1.21.11" = _CaxVOdtn;
         "paper-26.1.2" = _qs7WKqwI;
         "paper-26.2" = _BZEl29UU;
+        "paper-26.3" = _eCEG1Uoq;
         "purpur-1.20" = _KXftkv4L;
         "purpur-1.20.1" = _KXftkv4L;
         "purpur-1.20.2" = _Zei3OGE9;
@@ -192,6 +218,7 @@ let
         "fabric-1.21.11" = _D53EC42z;
         "fabric-26.1.2" = _lsJZwgAO;
         "fabric-26.2" = _H8YvUnL6;
+        "fabric-26.3" = _cEs7cROq;
         "pkg-2.0.0" = _uXt5BNcQ;
         "pkg-2.0.1" = _mnnszeo1;
         "pkg-2.0.2" = _CGtYtCXa;
@@ -204,7 +231,9 @@ let
         "pkg-2.0.9" = _D53EC42z;
         "pkg-2.0.10" = _lsJZwgAO;
         "pkg-2.0.11" = _H8YvUnL6;
-        "default" = _H8YvUnL6;
+        "pkg-2.0.12" = _GLtESkJ8;
+        "pkg-2.0.13" = _cEs7cROq;
+        "default" = _cEs7cROq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gaia";

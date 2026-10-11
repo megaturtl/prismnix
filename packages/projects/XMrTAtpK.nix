@@ -31,6 +31,16 @@ let
             "file" = "burnless-enchantment-v1.0.0.jar";
             "hash" = "sha512-5qxkfuclfq/vn79tuEX3KUFhq9cabpZLFyWvt5efPReN/RS59RP2rBwEjTf8F+yKDG7TEdsZf9re6CCUjsKbvg==";
         };
+        _fAqvo7a7 = {
+            "id" = "fAqvo7a7";
+            "file" = "Burnless Enchantment v1.0.0 [26.3].zip";
+            "hash" = "sha512-SXozzxP+WnPWpCZAZkcILI/27NOqapY+1grTPYnajMCJ5QtVJQrbs4Yodbo55YmS+BaxVtwoT5zWWnube/t2EA==";
+        };
+        _q63RWg93 = {
+            "id" = "q63RWg93";
+            "file" = "burnless-enchantment-1.0.0.jar";
+            "hash" = "sha512-K58M/BuDiZkFKdhE1+9YSGzAnQc3PzVzB1KkFi6x8DeHS1n17RtFs9zdcyzttfeHrdEhQWR5pKj48vuzEUtCpA==";
+        };
     in {
         "uc83q5fW" = _uc83q5fW;
         "ju4jaW1p" = _ju4jaW1p;
@@ -38,6 +48,8 @@ let
         "sOl2c5xB" = _sOl2c5xB;
         "hkTaXmi9" = _hkTaXmi9;
         "soL0d4q5" = _soL0d4q5;
+        "fAqvo7a7" = _fAqvo7a7;
+        "q63RWg93" = _q63RWg93;
         "datapack-1.21.2" = _hkTaXmi9;
         "datapack-1.21.3" = _hkTaXmi9;
         "datapack-1.21.4" = _hkTaXmi9;
@@ -54,6 +66,7 @@ let
         "datapack-26.1.1" = _hkTaXmi9;
         "datapack-26.1.2" = _hkTaXmi9;
         "datapack-26.2" = _hkTaXmi9;
+        "datapack-26.3" = _fAqvo7a7;
         "fabric-1.21.2" = _soL0d4q5;
         "fabric-1.21.3" = _soL0d4q5;
         "fabric-1.21.4" = _soL0d4q5;
@@ -70,6 +83,7 @@ let
         "fabric-26.1.1" = _soL0d4q5;
         "fabric-26.1.2" = _soL0d4q5;
         "fabric-26.2" = _soL0d4q5;
+        "fabric-26.3" = _q63RWg93;
         "forge-1.21.2" = _soL0d4q5;
         "forge-1.21.3" = _soL0d4q5;
         "forge-1.21.4" = _soL0d4q5;
@@ -86,6 +100,7 @@ let
         "forge-26.1.1" = _soL0d4q5;
         "forge-26.1.2" = _soL0d4q5;
         "forge-26.2" = _soL0d4q5;
+        "forge-26.3" = _q63RWg93;
         "neoforge-1.21.2" = _soL0d4q5;
         "neoforge-1.21.3" = _soL0d4q5;
         "neoforge-1.21.4" = _soL0d4q5;
@@ -102,6 +117,7 @@ let
         "neoforge-26.1.1" = _soL0d4q5;
         "neoforge-26.1.2" = _soL0d4q5;
         "neoforge-26.2" = _soL0d4q5;
+        "neoforge-26.3" = _q63RWg93;
         "quilt-1.21.2" = _soL0d4q5;
         "quilt-1.21.3" = _soL0d4q5;
         "quilt-1.21.4" = _soL0d4q5;
@@ -118,11 +134,14 @@ let
         "quilt-26.1.1" = _soL0d4q5;
         "quilt-26.1.2" = _soL0d4q5;
         "quilt-26.2" = _soL0d4q5;
+        "quilt-26.3" = _q63RWg93;
         "pkg-v1.0.0" = _hkTaXmi9;
         "pkg-v1.0.0+mod" = _soL0d4q5;
         "pkg-v1.0.0-1.21-1.21.1" = _YaUfbfAH;
         "pkg-v1.0.0-1.21-1.21.1+mod" = _sOl2c5xB;
-        "default" = _soL0d4q5;
+        "pkg-1.0.0" = _fAqvo7a7;
+        "pkg-1.0.0+mod" = _q63RWg93;
+        "default" = _q63RWg93;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "burnless-enchantment";

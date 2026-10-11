@@ -31,6 +31,16 @@ let
             "file" = "multiplieddrops-1.1.2.jar";
             "hash" = "sha512-AhzFLmYala77sufsSVaA/d4Bp/MEHD942vQ9Me4PfYHs+KIFS10veIMKY0SLY2sAlm6MMXozBksbf7tDFRmC0Q==";
         };
+        _MNNYCcQY = {
+            "id" = "MNNYCcQY";
+            "file" = "multiplieddrops-1.1.3.jar";
+            "hash" = "sha512-QCjKUCYPNgbLXesj/bxeYq7Za9HkzjDYJ3sywk6H/cXGIOuWDWKrsY2GFhEi4XGPJrNR+VY80wwuKUJYfDvx6Q==";
+        };
+        _KwQ0m35O = {
+            "id" = "KwQ0m35O";
+            "file" = "multiplieddrops-1.1.4.jar";
+            "hash" = "sha512-QSVfs8GZ+ABuQL143Uk6wFyp6EPBv7rYF3Qd3iklL27hcJ5iFv4zgaMGTA3Pgt6enV+wuaWXwacQWi3mwQ4/7Q==";
+        };
     in {
         "2VvFE8h9" = _2VvFE8h9;
         "xqsVxx4H" = _xqsVxx4H;
@@ -38,17 +48,23 @@ let
         "6GVy1lXO" = _6GVy1lXO;
         "BTNt3R1r" = _BTNt3R1r;
         "y5KsCDnK" = _y5KsCDnK;
+        "MNNYCcQY" = _MNNYCcQY;
+        "KwQ0m35O" = _KwQ0m35O;
         "fabric-1.21.11" = _EdLcxuL5;
         "fabric-26.1" = _y5KsCDnK;
         "fabric-26.1.1" = _y5KsCDnK;
         "fabric-26.1.2" = _y5KsCDnK;
+        "fabric-26.2" = _MNNYCcQY;
+        "fabric-26.3" = _KwQ0m35O;
         "pkg-1.0.0" = _2VvFE8h9;
         "pkg-1.0.1" = _xqsVxx4H;
         "pkg-1.0.2" = _EdLcxuL5;
         "pkg-1.1.0" = _6GVy1lXO;
         "pkg-1.1.1" = _BTNt3R1r;
         "pkg-1.1.2" = _y5KsCDnK;
-        "default" = _y5KsCDnK;
+        "pkg-1.1.3" = _MNNYCcQY;
+        "pkg-1.1.4" = _KwQ0m35O;
+        "default" = _KwQ0m35O;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "multiplieddrops";

@@ -96,6 +96,11 @@ let
             "file" = "MTA NYC Subway Signs - Fabric 26.2 - v2.0.0.jar";
             "hash" = "sha512-koVXXOcxY8cFNYr5CvVQLQuFV7zCNRDi3AjuJXaccfNdEg059RoefddjpcMhLVp+ZKt+FqDZ02KpAqXm6OTM2Q==";
         };
+        _JJjyVPfX = {
+            "id" = "JJjyVPfX";
+            "file" = "MTA NYC Subway Signs - Fabric 26.3 - v2.0.0.jar";
+            "hash" = "sha512-SLmTGrfLQ+P6QJyX5X6sBYK+8m1b/mFEcLhwqhQJ2lZEG6U2ccIJgkvmR1sDx1dPwE1Fvby08HyLsPaXw/Xi0w==";
+        };
     in {
         "ZsJcgkWl" = _ZsJcgkWl;
         "K3SePn9C" = _K3SePn9C;
@@ -116,6 +121,7 @@ let
         "i0MiiNeV" = _i0MiiNeV;
         "u179wgR9" = _u179wgR9;
         "GDKDQK2U" = _GDKDQK2U;
+        "JJjyVPfX" = _JJjyVPfX;
         "forge-1.19.2" = _fJUfOQqT;
         "forge-1.20.1" = _eKNLREUv;
         "neoforge-1.21.4" = _nZilGYWt;
@@ -131,11 +137,12 @@ let
         "fabric-1.21.11" = _i0MiiNeV;
         "fabric-26.1" = _u179wgR9;
         "fabric-26.2" = _GDKDQK2U;
+        "fabric-26.3" = _JJjyVPfX;
         "pkg-1.0.0b" = _ZsJcgkWl;
         "pkg-V1" = _K3SePn9C;
         "pkg-1.0.0" = _QQ10P3Ic;
-        "pkg-2.0.0" = _GDKDQK2U;
-        "default" = _GDKDQK2U;
+        "pkg-2.0.0" = _JJjyVPfX;
+        "default" = _JJjyVPfX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mta-new-york-city-subway-signs";

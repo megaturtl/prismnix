@@ -46,6 +46,11 @@ let
             "file" = "glowing_trims-1.0.26.2.x.jar";
             "hash" = "sha512-EY9tlk6qbIRD2cBeWHf9OQD4HW4Cm4TUn/ZYJwp7HZmQBXho1cpXhJT94Um1qf369rLEpr+bC034Y/+sWUenGw==";
         };
+        _TSDuWsfM = {
+            "id" = "TSDuWsfM";
+            "file" = "glowing_trims-1.0.26.3.x.jar";
+            "hash" = "sha512-0Xpia77DshBtgDU0OwMZCDCNyOdK76RT1H5TNaj896S4dnFqidlHOPzQ7FfOyRxyMq5NNZr0bQNzKTdfoOUSMQ==";
+        };
     in {
         "I6zrjzFg" = _I6zrjzFg;
         "gf1xNIN2" = _gf1xNIN2;
@@ -56,6 +61,7 @@ let
         "SXemHQ5d" = _SXemHQ5d;
         "dtXZiKZx" = _dtXZiKZx;
         "K7puuWAQ" = _K7puuWAQ;
+        "TSDuWsfM" = _TSDuWsfM;
         "fabric-1.21.6" = _9OT96BQl;
         "fabric-1.21.7" = _9OT96BQl;
         "fabric-1.21.8" = _9OT96BQl;
@@ -67,6 +73,7 @@ let
         "fabric-26.1.1" = _dtXZiKZx;
         "fabric-26.1.2" = _dtXZiKZx;
         "fabric-26.2" = _K7puuWAQ;
+        "fabric-26.3" = _TSDuWsfM;
         "pkg-1.0" = _4TSupoXM;
         "pkg-1.1" = _KK8bAdUR;
         "pkg-fabric-1.0.1" = _deTDITCP;
@@ -74,7 +81,8 @@ let
         "pkg-fabric-1.0.9-11" = _SXemHQ5d;
         "pkg-fabric-1.0.26.1.x" = _dtXZiKZx;
         "pkg-fabric-1.0.26.2.x" = _K7puuWAQ;
-        "default" = _K7puuWAQ;
+        "pkg-fabric-1.0.26.3.x" = _TSDuWsfM;
+        "default" = _TSDuWsfM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "glowing-trims-mod";

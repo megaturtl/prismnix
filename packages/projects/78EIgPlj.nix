@@ -271,6 +271,21 @@ let
             "file" = "sharedadvancements-neoforge-26.2-6.1.0.jar";
             "hash" = "sha512-voSgFOdKmyHoOVeBZOg5XK7gA41RMoK9i1GGEbIFgaYINpcZl8vFAsyFZLeLRX3xMOUomqBGGXZFpgoo6S97oQ==";
         };
+        _cbhS9PTE = {
+            "id" = "cbhS9PTE";
+            "file" = "sharedadvancements-fabric-26.3-6.1.0.jar";
+            "hash" = "sha512-glhvuUZZKwqSsFm8hhfM/IbyCEoPF/cXeUhQpV6m5kqZ+LqMAHUiCqSsHyYL4CVNvNIqNiJNaMPbaAWDcfbZDw==";
+        };
+        _6kRUywiW = {
+            "id" = "6kRUywiW";
+            "file" = "sharedadvancements-forge-26.3-6.1.0.jar";
+            "hash" = "sha512-64ZRdBF0XQN5r99ZHI6L0Q/ctyaFc7J+62UMwnG55e8CdUZv1ZjAY5dYY3MIKqYulgmSnzdjCQYy9zgq2i/Dcw==";
+        };
+        _KV9wjOw1 = {
+            "id" = "KV9wjOw1";
+            "file" = "sharedadvancements-neoforge-26.3-6.1.0.jar";
+            "hash" = "sha512-CIDn+JL49pl36696XC02FaHZWE2Bgsp4/qongZetLLMPqda1QLOPcUo/poGj5oJ96n1uoZo//VMe9ON+j2/0Zg==";
+        };
     in {
         "orZQX5BJ" = _orZQX5BJ;
         "VuVbK21S" = _VuVbK21S;
@@ -326,6 +341,9 @@ let
         "2F9XsA5X" = _2F9XsA5X;
         "K8zV6Pfm" = _K8zV6Pfm;
         "gaDmaha2" = _gaDmaha2;
+        "cbhS9PTE" = _cbhS9PTE;
+        "6kRUywiW" = _6kRUywiW;
+        "KV9wjOw1" = _KV9wjOw1;
         "forge-1.19.3" = _LseccB3p;
         "forge-1.19.4" = _LseccB3p;
         "forge-1.20" = _LseccB3p;
@@ -354,6 +372,7 @@ let
         "forge-26.1.1" = _s1ZXWThs;
         "forge-26.1.2" = _s1ZXWThs;
         "forge-26.2" = _K8zV6Pfm;
+        "forge-26.3" = _6kRUywiW;
         "neoforge-1.20.1" = _qjzwV0D0;
         "neoforge-1.20.2" = _7rJv95N4;
         "neoforge-1.20.4" = _AtWeLVdx;
@@ -376,6 +395,7 @@ let
         "neoforge-26.1.1" = _HM5TVznz;
         "neoforge-26.1.2" = _HM5TVznz;
         "neoforge-26.2" = _gaDmaha2;
+        "neoforge-26.3" = _KV9wjOw1;
         "fabric-1.20.2" = _nrjSXWTQ;
         "fabric-1.20.4" = _BU8nIUdy;
         "fabric-1.20.1" = _R62RiHAk;
@@ -407,6 +427,7 @@ let
         "fabric-26.1.1" = _wC1vL4NH;
         "fabric-26.1.2" = _wC1vL4NH;
         "fabric-26.2" = _2F9XsA5X;
+        "fabric-26.3" = _cbhS9PTE;
         "quilt-1.21" = _pUjd4bWy;
         "quilt-1.21.1" = _pUjd4bWy;
         "quilt-1.21.2" = _pUjd4bWy;
@@ -423,6 +444,7 @@ let
         "quilt-26.1.1" = _wC1vL4NH;
         "quilt-26.1.2" = _wC1vL4NH;
         "quilt-26.2" = _2F9XsA5X;
+        "quilt-26.3" = _cbhS9PTE;
         "pkg-1.19.4-1.0.3" = _orZQX5BJ;
         "pkg-1.20-1.0.4" = _VuVbK21S;
         "pkg-1.20.1-1.0.5" = _FeGQ1Oku;
@@ -477,7 +499,10 @@ let
         "pkg-26.2-6.1.0+fabric" = _2F9XsA5X;
         "pkg-26.2-6.1.0+forge" = _K8zV6Pfm;
         "pkg-26.2-6.1.0+neoforge" = _gaDmaha2;
-        "default" = _gaDmaha2;
+        "pkg-26.3-6.1.0+fabric" = _cbhS9PTE;
+        "pkg-26.3-6.1.0+forge" = _6kRUywiW;
+        "pkg-26.3-6.1.0+neoforge" = _KV9wjOw1;
+        "default" = _KV9wjOw1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shared-advancements";

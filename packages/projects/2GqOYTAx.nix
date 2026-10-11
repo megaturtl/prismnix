@@ -111,6 +111,16 @@ let
             "file" = "improved-weather-26.2v1-mod.jar";
             "hash" = "sha512-o1zJJZakOHqly0RwcwdXS/NxGzv2dh+koC581D1E9t34bm/tq9O4Jkix39c+h/gd3KUfRvPeDQ5DDNODfCCh7g==";
         };
+        _baJODrvD = {
+            "id" = "baJODrvD";
+            "file" = "improved-weather-26.3v1-dp.zip";
+            "hash" = "sha512-9rf9xbYmfjO/OBDB+hZjzzCWUbOwyDPEcvE44UVWzLnAFV+WI1Y7GtuEZo5olDlWfoZeQhntG2FnkrlB3riZlQ==";
+        };
+        _8eaioPyL = {
+            "id" = "8eaioPyL";
+            "file" = "improved-weather-26.3v1-mod.jar";
+            "hash" = "sha512-Oa1VDITp4CD4SlQC1g7TPrK+ia+FmdkN3vMcQ7taaW1qSyzfvmRfS9n4CsSuSbMJYUm3RrlpQbmAwCoMGvhSag==";
+        };
     in {
         "89PSl2G0" = _89PSl2G0;
         "cxMMQ4hN" = _cxMMQ4hN;
@@ -134,6 +144,8 @@ let
         "LB3pwqZg" = _LB3pwqZg;
         "ljhEajVx" = _ljhEajVx;
         "s9zPh9Qf" = _s9zPh9Qf;
+        "baJODrvD" = _baJODrvD;
+        "8eaioPyL" = _8eaioPyL;
         "datapack-1.19.4" = _89PSl2G0;
         "datapack-1.20" = _cxMMQ4hN;
         "datapack-1.20.1" = _cxMMQ4hN;
@@ -155,6 +167,7 @@ let
         "datapack-26.1" = _Mzq5ByPV;
         "datapack-26.1.1" = _Mzq5ByPV;
         "datapack-26.2" = _ljhEajVx;
+        "datapack-26.3" = _baJODrvD;
         "fabric-1.21" = _vFNV4SF9;
         "fabric-1.21.1" = _vFNV4SF9;
         "fabric-1.21.2" = _AleOi3hp;
@@ -170,6 +183,7 @@ let
         "fabric-26.1" = _LB3pwqZg;
         "fabric-26.1.1" = _LB3pwqZg;
         "fabric-26.2" = _s9zPh9Qf;
+        "fabric-26.3" = _8eaioPyL;
         "forge-1.21" = _vFNV4SF9;
         "forge-1.21.1" = _vFNV4SF9;
         "forge-1.21.2" = _AleOi3hp;
@@ -185,6 +199,7 @@ let
         "forge-26.1" = _LB3pwqZg;
         "forge-26.1.1" = _LB3pwqZg;
         "forge-26.2" = _s9zPh9Qf;
+        "forge-26.3" = _8eaioPyL;
         "neoforge-1.21" = _vFNV4SF9;
         "neoforge-1.21.1" = _vFNV4SF9;
         "neoforge-1.21.2" = _AleOi3hp;
@@ -200,6 +215,7 @@ let
         "neoforge-26.1" = _LB3pwqZg;
         "neoforge-26.1.1" = _LB3pwqZg;
         "neoforge-26.2" = _s9zPh9Qf;
+        "neoforge-26.3" = _8eaioPyL;
         "quilt-1.21" = _vFNV4SF9;
         "quilt-1.21.1" = _vFNV4SF9;
         "quilt-1.21.2" = _AleOi3hp;
@@ -215,6 +231,7 @@ let
         "quilt-26.1" = _LB3pwqZg;
         "quilt-26.1.1" = _LB3pwqZg;
         "quilt-26.2" = _s9zPh9Qf;
+        "quilt-26.3" = _8eaioPyL;
         "pkg-v1.4" = _89PSl2G0;
         "pkg-v1.6" = _cxMMQ4hN;
         "pkg-v1.7" = _OE5ipzBk;
@@ -236,7 +253,9 @@ let
         "pkg-26.1v2-mod" = _LB3pwqZg;
         "pkg-26.2v1-dp" = _ljhEajVx;
         "pkg-26.2v1-mod" = _s9zPh9Qf;
-        "default" = _s9zPh9Qf;
+        "pkg-26.3v1-dp" = _baJODrvD;
+        "pkg-26.3v1-mod" = _8eaioPyL;
+        "default" = _8eaioPyL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "improved-weather";

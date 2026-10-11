@@ -131,6 +131,16 @@ let
             "file" = "genesis-1.8.0.jar";
             "hash" = "sha512-yPlQXRAeKkiPDk5lZHTK8RbFK4YRcdbKE4QgJCRYILxRSRqSu4dPmXR5mUmBsvGpOl0uL2A7KMdeQopRWMTFaQ==";
         };
+        _wamUVK87 = {
+            "id" = "wamUVK87";
+            "file" = "genesis-1.9.0.jar";
+            "hash" = "sha512-AWJiKB+DVFFvYBunSNOrSPkpxa8X2nWU/gZvQLJbbkGX+HQ7HvX6XO80MwjAkCQXS4OMrmFdtz/N1BDUM8sv0A==";
+        };
+        _SECoXxLj = {
+            "id" = "SECoXxLj";
+            "file" = "genesis-1.9.1.jar";
+            "hash" = "sha512-W71Ew8C0By/tcu/WDCDFQgN2TGQ65RjQGVZzXgLZw6MngJn0Ik26ZPFlqnHNfArRmEwWoqwSWtXypTTb7trkWw==";
+        };
     in {
         "Yrx1oU9J" = _Yrx1oU9J;
         "idZ3pXh6" = _idZ3pXh6;
@@ -158,12 +168,15 @@ let
         "zPiT9LiM" = _zPiT9LiM;
         "mm9ZDaGS" = _mm9ZDaGS;
         "VAF6hOw5" = _VAF6hOw5;
+        "wamUVK87" = _wamUVK87;
+        "SECoXxLj" = _SECoXxLj;
         "fabric-1.21.6" = _mGFpQCJW;
         "fabric-1.21.7" = _mGFpQCJW;
         "fabric-1.21.8" = _mGFpQCJW;
         "fabric-1.21.9" = _y32VuPPv;
         "fabric-1.21.10" = _y32VuPPv;
         "fabric-26.2" = _VAF6hOw5;
+        "fabric-26.3" = _SECoXxLj;
         "pkg-1.0.0" = _Yrx1oU9J;
         "pkg-1.0.1" = _idZ3pXh6;
         "pkg-1.0.2" = _EJXpDwar;
@@ -190,7 +203,9 @@ let
         "pkg-1.6.5" = _zPiT9LiM;
         "pkg-1.7.0" = _mm9ZDaGS;
         "pkg-1.8.0" = _VAF6hOw5;
-        "default" = _VAF6hOw5;
+        "pkg-1.9.0" = _wamUVK87;
+        "pkg-1.9.1" = _SECoXxLj;
+        "default" = _SECoXxLj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "genesis-official";

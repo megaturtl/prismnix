@@ -141,6 +141,21 @@ let
             "file" = "earth-and-water-1.0.5-26.2.jar";
             "hash" = "sha512-suaCyqIWodWk53belcAlw1TTfmYddMZc3goACAq1wEf03ysvp4hZlEZMpv6Il3qgJPrNsVEE/4ijg/N6MxeBmw==";
         };
+        _j9BnjA80 = {
+            "id" = "j9BnjA80";
+            "file" = "earth-and-water-1.0.6.jar";
+            "hash" = "sha512-h6I6QSHo25Eimu8pyeBavPDQxWLavDm3PWoXc00SvF00/rHSdSahJNxyqLuY/UV/uQ7k/G2rPGIEKNBmU10mRA==";
+        };
+        _uLbkwZSx = {
+            "id" = "uLbkwZSx";
+            "file" = "earth-and-water-1.0.6-hotfix.jar";
+            "hash" = "sha512-2QMwqJkfTlBHRRT/iGfyHiDisTY3cP1unJqr7WMUlQYiZw43nEvW1tFZhQIy8AmvF7//1zDZBsHWqEbzWykySA==";
+        };
+        _Rm2ilAKu = {
+            "id" = "Rm2ilAKu";
+            "file" = "earth-and-water-1.0.6-26.2-hotfix.jar";
+            "hash" = "sha512-HlUq6YkLMY+jXkh6puK/peb/SRuYUpRqBIFjzFS0lZeqrvCfU59Vp2YkNCCG+ayTUsrcDJ5ieDb49dVZ+1SZtg==";
+        };
     in {
         "FRrbw517" = _FRrbw517;
         "HugEiQ2p" = _HugEiQ2p;
@@ -170,6 +185,9 @@ let
         "R4fqgXaq" = _R4fqgXaq;
         "TnAW8TCH" = _TnAW8TCH;
         "iBJjbKLd" = _iBJjbKLd;
+        "j9BnjA80" = _j9BnjA80;
+        "uLbkwZSx" = _uLbkwZSx;
+        "Rm2ilAKu" = _Rm2ilAKu;
         "fabric-1.21.11" = _sCTJF8Mr;
         "fabric-1.21" = _U9yJauSG;
         "fabric-1.21.1" = _U9yJauSG;
@@ -192,15 +210,16 @@ let
         "fabric-26.1" = _TnAW8TCH;
         "fabric-26.1.1" = _TnAW8TCH;
         "fabric-26.1.2" = _TnAW8TCH;
-        "fabric-26.2" = _iBJjbKLd;
+        "fabric-26.2" = _Rm2ilAKu;
+        "fabric-26.3" = _uLbkwZSx;
         "pkg-1.0.0" = _FRrbw517;
         "pkg-1.0.1" = _HugEiQ2p;
         "pkg-1.0.2" = _NgJcPwg2;
         "pkg-1.0.3" = _CAgvcC9W;
         "pkg-1.0.4" = _aZHYQELA;
         "pkg-1.0.5" = _TnAW8TCH;
-        "pkg-1.0.6" = _iBJjbKLd;
-        "default" = _iBJjbKLd;
+        "pkg-1.0.6" = _Rm2ilAKu;
+        "default" = _Rm2ilAKu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "earth-and-water";

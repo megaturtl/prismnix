@@ -51,6 +51,16 @@ let
             "file" = "ly-agility-enchantment-v1.0.2.jar";
             "hash" = "sha512-y83dERp4eMSUKsFcw/yhq944FrEmyFoxYP6vKgp5I9+O4Zge4nLjOB7IEoBEH893VMDkihGkzLCkYPWWzCcc8w==";
         };
+        _lcf4MAWS = {
+            "id" = "lcf4MAWS";
+            "file" = "Agility Enchantment v1.0.2 [26.3].zip";
+            "hash" = "sha512-aOBW3xUQ5YTGUyZKXijuAlzj0lhrE+JaWwO7DsQYumPA9jpLrepwcmSvdKv/mAneUgYei5wU1HY19AN6Hz7iCA==";
+        };
+        _VPl1LNby = {
+            "id" = "VPl1LNby";
+            "file" = "ly-agility-enchantment-1.0.2.jar";
+            "hash" = "sha512-mOV9ink37rpULEDTYXTy7NC6XYkg1MrB593SCfu8XxNAaM6EPP/vMb4AmPQKa3XbbZ4oBlbCzKiB50Hv06qyIQ==";
+        };
     in {
         "awppFTM3" = _awppFTM3;
         "KrCt349b" = _KrCt349b;
@@ -62,6 +72,8 @@ let
         "raNAZUVe" = _raNAZUVe;
         "DoehGR8A" = _DoehGR8A;
         "CS6IGv3X" = _CS6IGv3X;
+        "lcf4MAWS" = _lcf4MAWS;
+        "VPl1LNby" = _VPl1LNby;
         "datapack-1.21.2" = _DoehGR8A;
         "datapack-1.21.3" = _DoehGR8A;
         "datapack-1.21.4" = _DoehGR8A;
@@ -78,6 +90,7 @@ let
         "datapack-26.1.1" = _DoehGR8A;
         "datapack-26.1.2" = _DoehGR8A;
         "datapack-26.2" = _DoehGR8A;
+        "datapack-26.3" = _lcf4MAWS;
         "fabric-1.21.2" = _CS6IGv3X;
         "fabric-1.21.3" = _CS6IGv3X;
         "fabric-1.21.4" = _CS6IGv3X;
@@ -94,6 +107,7 @@ let
         "fabric-26.1.1" = _CS6IGv3X;
         "fabric-26.1.2" = _CS6IGv3X;
         "fabric-26.2" = _CS6IGv3X;
+        "fabric-26.3" = _VPl1LNby;
         "forge-1.21.2" = _CS6IGv3X;
         "forge-1.21.3" = _CS6IGv3X;
         "forge-1.21.4" = _CS6IGv3X;
@@ -110,6 +124,7 @@ let
         "forge-26.1.1" = _CS6IGv3X;
         "forge-26.1.2" = _CS6IGv3X;
         "forge-26.2" = _CS6IGv3X;
+        "forge-26.3" = _VPl1LNby;
         "neoforge-1.21.2" = _CS6IGv3X;
         "neoforge-1.21.3" = _CS6IGv3X;
         "neoforge-1.21.4" = _CS6IGv3X;
@@ -126,6 +141,7 @@ let
         "neoforge-26.1.1" = _CS6IGv3X;
         "neoforge-26.1.2" = _CS6IGv3X;
         "neoforge-26.2" = _CS6IGv3X;
+        "neoforge-26.3" = _VPl1LNby;
         "quilt-1.21.2" = _CS6IGv3X;
         "quilt-1.21.3" = _CS6IGv3X;
         "quilt-1.21.4" = _CS6IGv3X;
@@ -142,6 +158,7 @@ let
         "quilt-26.1.1" = _CS6IGv3X;
         "quilt-26.1.2" = _CS6IGv3X;
         "quilt-26.2" = _CS6IGv3X;
+        "quilt-26.3" = _VPl1LNby;
         "pkg-v1.0.0" = _awppFTM3;
         "pkg-v1.0.0+mod" = _KrCt349b;
         "pkg-v1.0.1" = _6EHymCbD;
@@ -150,7 +167,9 @@ let
         "pkg-v1.0.0-1.21-1.21.1+mod" = _gTPDkWZt;
         "pkg-v1.0.2" = _DoehGR8A;
         "pkg-v1.0.2+mod" = _CS6IGv3X;
-        "default" = _CS6IGv3X;
+        "pkg-1.0.2" = _lcf4MAWS;
+        "pkg-1.0.2+mod" = _VPl1LNby;
+        "default" = _VPl1LNby;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ly-agility-enchantment";

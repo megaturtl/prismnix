@@ -61,6 +61,51 @@ let
             "file" = "raccoons-rabies-2.2.1.jar";
             "hash" = "sha512-nX//eQ38OY231iLTlS5A37RvcAGEepOc5aW/FZuXyGx4FyXIdFzGezdeHxGVtaRobanPARYNErUc15cftyn8QQ==";
         };
+        _ovSvsNcB = {
+            "id" = "ovSvsNcB";
+            "file" = "racoons-rabies+26.3-2.2.2.jar";
+            "hash" = "sha512-qyO0zUsf1TJC26kzrHXrTEtXDLCke9/AL/kNsDTEF0GjeKm8sKY6A8nFH7SNDtgaU+brGr3jQHtMvnBUz6QcOg==";
+        };
+        _94R7OIRA = {
+            "id" = "94R7OIRA";
+            "file" = "racoons-rabies+26.2-2.2.2.jar";
+            "hash" = "sha512-lblAII0wX+IfT/XN/co0sLDyxaaTQ0uDopBdjZauQH+NncIIp9blKhMIyOssIggvZtOwfnDE9ktjlREEo4Svlg==";
+        };
+        _1IykPYPI = {
+            "id" = "1IykPYPI";
+            "file" = "racoons-rabies+26.1.2-2.2.2.jar";
+            "hash" = "sha512-bKE90Zj7LB9TvNuM/ePIHtU77n3HPjZGdMujWkpxT+WoYwvoTyJ0a19g2V5zt8oUkYvIz6Uo93taw2CesEJ3cQ==";
+        };
+        _3e2nYVXN = {
+            "id" = "3e2nYVXN";
+            "file" = "racoons-rabies+1.21.11-2.2.2.jar";
+            "hash" = "sha512-6ijgwTV1Oph0/1U0hxnGL19X+nuOOiHsT183MOQgmZFZ6yj1dhsxPNEi34ldJn6aeXwQVa43QthQUoWu4lsrhQ==";
+        };
+        _mIkU9tcS = {
+            "id" = "mIkU9tcS";
+            "file" = "racoons-rabies+1.21.4-2.2.2.jar";
+            "hash" = "sha512-Xz3bDnimJhthNBVMrrC2QDFukDvprbS0xdOgTh4N//kBmrZ/f7ILnI2Ip8q8YDdCWjoAyf3bh3Jj+iseNXE1Jw==";
+        };
+        _7HreNJmp = {
+            "id" = "7HreNJmp";
+            "file" = "racoons-rabies+1.21.1-2.2.2.jar";
+            "hash" = "sha512-XuNY+gMt450v0jyNsUMUDtCz8CbifPrGrCuza3CHlRqvyqtshJG9LsMnwUwulKQ6a5cEx/ElZ8vPelnoNBIIeQ==";
+        };
+        _uU3YMMUS = {
+            "id" = "uU3YMMUS";
+            "file" = "racoons-rabies+1.20.4-2.2.2.jar";
+            "hash" = "sha512-FPG9sCohDqHsiIom3c07Q+0YrPh61l91o7AOgdJVXn9kltElUWWgpwly+3OuyOS83Du7RxEbIT5Uv5kIHDobog==";
+        };
+        _WumZfrOE = {
+            "id" = "WumZfrOE";
+            "file" = "racoons-rabies+1.20.1-2.2.2.jar";
+            "hash" = "sha512-hjF/2/PB6yTh+OiWUHkuVx2GAC6tU3BrQBHnyuLpWYkdeylIoOVmhYzcFwZx42evhMjsr9hp94tEDvhUfmIGbQ==";
+        };
+        _g2H8dvvv = {
+            "id" = "g2H8dvvv";
+            "file" = "racoons-rabies+1.19.4-2.2.2.jar";
+            "hash" = "sha512-gU5fzf1svVoVN+s2ZCSIxuVVjiI0ZfbtSuDHo42Ss7oeU9UbT5ywJwb5tPns9Mmass5hTwUbATINWbeMRZzXmw==";
+        };
     in {
         "ieowMgDP" = _ieowMgDP;
         "PP8m3zil" = _PP8m3zil;
@@ -74,8 +119,26 @@ let
         "BRwyoMUG" = _BRwyoMUG;
         "PFYUctHG" = _PFYUctHG;
         "R4wsT90R" = _R4wsT90R;
-        "fabric-1.20.1" = _BRwyoMUG;
-        "fabric-1.21.1" = _R4wsT90R;
+        "ovSvsNcB" = _ovSvsNcB;
+        "94R7OIRA" = _94R7OIRA;
+        "1IykPYPI" = _1IykPYPI;
+        "3e2nYVXN" = _3e2nYVXN;
+        "mIkU9tcS" = _mIkU9tcS;
+        "7HreNJmp" = _7HreNJmp;
+        "uU3YMMUS" = _uU3YMMUS;
+        "WumZfrOE" = _WumZfrOE;
+        "g2H8dvvv" = _g2H8dvvv;
+        "fabric-1.20.1" = _WumZfrOE;
+        "fabric-1.21.1" = _7HreNJmp;
+        "fabric-26.3" = _ovSvsNcB;
+        "fabric-26.2" = _94R7OIRA;
+        "fabric-26.1" = _1IykPYPI;
+        "fabric-26.1.1" = _1IykPYPI;
+        "fabric-26.1.2" = _1IykPYPI;
+        "fabric-1.21.11" = _3e2nYVXN;
+        "fabric-1.21.4" = _mIkU9tcS;
+        "fabric-1.20.4" = _uU3YMMUS;
+        "fabric-1.19.4" = _g2H8dvvv;
         "pkg-1.0.0" = _ieowMgDP;
         "pkg-1.1.0" = _PP8m3zil;
         "pkg-1.1.1" = _M1iLEHY2;
@@ -88,7 +151,8 @@ let
         "pkg-2.1.1" = _BRwyoMUG;
         "pkg-2.2.0" = _PFYUctHG;
         "pkg-2.2.1" = _R4wsT90R;
-        "default" = _R4wsT90R;
+        "pkg-2.2.2" = _g2H8dvvv;
+        "default" = _g2H8dvvv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "raccoons-rabies";

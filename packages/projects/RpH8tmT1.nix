@@ -106,6 +106,16 @@ let
             "file" = "azimuth-1.4.8.jar";
             "hash" = "sha512-v7oWaLy/nStP/KpeuJCWX6NfLoguTNf/CQVmQm484erznOWD23AQewayXll5vmFwpfXShjp9d5tAfO8SqUF7Ng==";
         };
+        _j7UkVY7e = {
+            "id" = "j7UkVY7e";
+            "file" = "azimuth-1.4.9.jar";
+            "hash" = "sha512-cYa0tMr8/GkOdvrkTx/5lNLwLc3dMLFIRSyWDI9i0C9OUUUj+KxM2iC493Tt+H1KB0G0dXVMclfmSkCyQLhT5A==";
+        };
+        _dxtZVosY = {
+            "id" = "dxtZVosY";
+            "file" = "azimuth-1.4.10.jar";
+            "hash" = "sha512-KdLuGxRtkQR7wmWkkC1DwgqCUAWSGuucfE6WvgrogLG8hCyl4rnGB9xGvt50SrAj3Fuoh2rIiS8G01UGN4GTSQ==";
+        };
     in {
         "Yg2McGEI" = _Yg2McGEI;
         "kcSfVue0" = _kcSfVue0;
@@ -128,7 +138,9 @@ let
         "O3caj5PW" = _O3caj5PW;
         "82WgkpfK" = _82WgkpfK;
         "GHZW54v8" = _GHZW54v8;
-        "neoforge-1.21.1" = _GHZW54v8;
+        "j7UkVY7e" = _j7UkVY7e;
+        "dxtZVosY" = _dxtZVosY;
+        "neoforge-1.21.1" = _dxtZVosY;
         "pkg-1.0.0-SNAPSHOT" = _Yg2McGEI;
         "pkg-1.1.0" = _kcSfVue0;
         "pkg-1.1.1" = _VL6NS4lD;
@@ -147,7 +159,9 @@ let
         "pkg-1.4.6" = _J0DLzvA9;
         "pkg-1.4.7" = _O3caj5PW;
         "pkg-1.4.8" = _GHZW54v8;
-        "default" = _GHZW54v8;
+        "pkg-1.4.9" = _j7UkVY7e;
+        "pkg-1.4.10" = _dxtZVosY;
+        "default" = _dxtZVosY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "azimuth-api";

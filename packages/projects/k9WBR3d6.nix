@@ -211,6 +211,11 @@ let
             "file" = "NemosBloomingBlossom-26.2-1.3.jar";
             "hash" = "sha512-U8x95WzfgrCZW4Do49/s+Yvnuda3euec7M6vRuEQvD8slVVUeKpZbJo/bO+YiRjrcGKBlsG0IN9YKMnzyEXs/w==";
         };
+        _26Maodms = {
+            "id" = "26Maodms";
+            "file" = "NemosBloomingBlossom-26.3-1.3.jar";
+            "hash" = "sha512-XQPQ1Qyvy7ZSZQWD4lQdTfRmqCL909RMIeA+8rgvyJ6wK4Y+y3B4QbGBXNTHPJgDLXEcUMWQ8kinPuHd7ATyWQ==";
+        };
     in {
         "CvAhaJrc" = _CvAhaJrc;
         "LcIoy1Cq" = _LcIoy1Cq;
@@ -254,6 +259,7 @@ let
         "tNqz01JV" = _tNqz01JV;
         "IeI0kDUs" = _IeI0kDUs;
         "FMGQMHMz" = _FMGQMHMz;
+        "26Maodms" = _26Maodms;
         "fabric-1.20.1" = _vbOHACpb;
         "fabric-1.20.2" = _74rn2jtU;
         "fabric-1.20" = _QIk2vstJ;
@@ -271,6 +277,7 @@ let
         "fabric-1.21.11" = _tNqz01JV;
         "fabric-26.1.2" = _IeI0kDUs;
         "fabric-26.2" = _FMGQMHMz;
+        "fabric-26.3" = _26Maodms;
         "neoforge-1.21.3" = _pXHiRLUL;
         "neoforge-1.21" = _vbuo9Q6v;
         "neoforge-1.21.1" = _vbuo9Q6v;
@@ -308,7 +315,8 @@ let
         "pkg-1.21.11-1.3" = _tNqz01JV;
         "pkg-26.1.2-1.3" = _IeI0kDUs;
         "pkg-26.2-1.3" = _FMGQMHMz;
-        "default" = _FMGQMHMz;
+        "pkg-26.3-1.3" = _26Maodms;
+        "default" = _26Maodms;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nemos-blooming-blossom";

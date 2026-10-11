@@ -1721,6 +1721,16 @@ let
             "file" = "puffish_attributes-0.8.3-1.21.5-neoforge.jar";
             "hash" = "sha512-0nZXkWv7Fn1lyh7gkZ2MFPX1jvypxt2AkKqhK45HXGCBJ7py1o5BUbl4FHVkVBLMOTcFzatc/+66wBQo1jQDTA==";
         };
+        _u444ITLb = {
+            "id" = "u444ITLb";
+            "file" = "puffish_attributes-0.8.3-26.3-fabric.jar";
+            "hash" = "sha512-CcBm4cYNjt05KaXdJlUPuN7oA/BOOblF3HVXUsbumLKzOw3XAyXYB6X75+7uyNmHlnaUL1FCqDcvlgmtLF1ApA==";
+        };
+        _nwZ1LWDL = {
+            "id" = "nwZ1LWDL";
+            "file" = "puffish_attributes-0.8.3-26.3-neoforge.jar";
+            "hash" = "sha512-4JjeQePV10FaZZrmbhH5y+sYc6crlqRiYdkY/9LsZfiEVBjQr1w4JD6vH/n03BgZoELrTfm3nvB0dKR06jEmAQ==";
+        };
     in {
         "vjyrgZ4t" = _vjyrgZ4t;
         "aEXrd6Gk" = _aEXrd6Gk;
@@ -2066,6 +2076,8 @@ let
         "3aHDyaiE" = _3aHDyaiE;
         "n0zA1zQI" = _n0zA1zQI;
         "UvC1C2Ov" = _UvC1C2Ov;
+        "u444ITLb" = _u444ITLb;
+        "nwZ1LWDL" = _nwZ1LWDL;
         "neoforge-1.20.4" = _ePOPPXUD;
         "neoforge-1.21" = _ZySEqrUb;
         "neoforge-1.21.1" = _ZySEqrUb;
@@ -2082,6 +2094,7 @@ let
         "neoforge-26.1.1" = _gyoJ3TXS;
         "neoforge-26.1.2" = _gyoJ3TXS;
         "neoforge-26.2" = _gyoJ3TXS;
+        "neoforge-26.3" = _nwZ1LWDL;
         "fabric-1.20.4" = _WwpxDJgN;
         "fabric-1.20.2" = _qhgeZpzf;
         "fabric-1.20" = _GoArx0qR;
@@ -2104,6 +2117,7 @@ let
         "fabric-26.1.1" = _uqhZQ481;
         "fabric-26.1.2" = _uqhZQ481;
         "fabric-26.2" = _uqhZQ481;
+        "fabric-26.3" = _u444ITLb;
         "forge-1.20.2" = _S8AvLSi1;
         "forge-1.20" = _IG5KY4Qf;
         "forge-1.20.1" = _IG5KY4Qf;
@@ -2134,8 +2148,8 @@ let
         "pkg-0.8.0" = _SMLiYNUT;
         "pkg-0.8.1" = _ODjRS3Jx;
         "pkg-0.8.2" = _gyoJ3TXS;
-        "pkg-0.8.3" = _UvC1C2Ov;
-        "default" = _UvC1C2Ov;
+        "pkg-0.8.3" = _nwZ1LWDL;
+        "default" = _nwZ1LWDL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "attributes";

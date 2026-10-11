@@ -201,6 +201,16 @@ let
             "file" = "shape-shifter-curse-addon-8.0.0-dev.1+1.21.1.jar";
             "hash" = "sha512-fTBv9W7/nOvzRNrOKgTqbraXyof66PEQwFT4ezPVb/mAZ7++tvIOtK5BMGNPZqkFE697L6zq2+CdYkvt7TjSbA==";
         };
+        _gowfpqG2 = {
+            "id" = "gowfpqG2";
+            "file" = "shape-shifter-curse-addon-8.0.0-magic-dev.1.jar";
+            "hash" = "sha512-ykpT+ZvHCspZjMtiRUgSfnCYHeFWTGcfSP6IMCqzYgomfCeSp8g6sZHM/DjwuMiynYnpI2XVzwQcTMSkMc9PSQ==";
+        };
+        _B4JDtv9n = {
+            "id" = "B4JDtv9n";
+            "file" = "shape-shifter-curse-addon-8.0.0-magic-dev.1-ssc-1.9.2.jar";
+            "hash" = "sha512-af2fMapuD5+Wxpe+edOSogdVQTOQrpzKCkSMiuP65o3QJSpM3c4a1uD9YT1qjuS19tkYGVDuKD7STnlRvUHQ/Q==";
+        };
     in {
         "LworypNJ" = _LworypNJ;
         "zWsJexDC" = _zWsJexDC;
@@ -242,7 +252,9 @@ let
         "upMW4wtt" = _upMW4wtt;
         "nM0Qps3h" = _nM0Qps3h;
         "bTCxBm3J" = _bTCxBm3J;
-        "fabric-1.20.1" = _nM0Qps3h;
+        "gowfpqG2" = _gowfpqG2;
+        "B4JDtv9n" = _B4JDtv9n;
+        "fabric-1.20.1" = _B4JDtv9n;
         "fabric-1.21.1" = _bTCxBm3J;
         "neoforge-1.21.1" = _bTCxBm3J;
         "pkg-1.0.0" = _LworypNJ;
@@ -285,7 +297,9 @@ let
         "pkg-v8.0.0-beta.3-ssc-1.9.2" = _upMW4wtt;
         "pkg-8.0.0-beta.4-ssc-1.9.2" = _nM0Qps3h;
         "pkg-8.0.0-dev.1+1.21.1" = _bTCxBm3J;
-        "default" = _bTCxBm3J;
+        "pkg-v8.0.0-magic-dev.1" = _gowfpqG2;
+        "pkg-v8.0.0-magic-dev.1-ssc-1.9.2" = _B4JDtv9n;
+        "default" = _B4JDtv9n;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shape-shifter-curse-addon";

@@ -31,6 +31,16 @@ let
             "file" = "axe-trims-26.2.jar";
             "hash" = "sha512-6MRyFI5Pp/mu9X1FSOd9J5AIIdtq+SiQPfoTLrWuS6urYeNpOt6IMT75QKTnKGOxvqAlcgS8FopL9Ojbsb/56w==";
         };
+        _m28NSJJK = {
+            "id" = "m28NSJJK";
+            "file" = "axe_trims_26.3.zip";
+            "hash" = "sha512-y2jelxOXllu6rA/1t1QIodzxZ6JB51YguOEqlnKyLjTxDAWBg0OxWwDvbMzY7cHKVp4Q1LGOFMEi1Ee0e0BWjQ==";
+        };
+        _gTdboLjE = {
+            "id" = "gTdboLjE";
+            "file" = "axe-trims-26.3.jar";
+            "hash" = "sha512-i1hptO6jZK+pdjOjl/tHFENtbfGgPbrGC7sMBGOdRaYAX6rl7h72x4i7byBaQI415TCKrQWddwAeS47cqKomng==";
+        };
     in {
         "pFOATDGJ" = _pFOATDGJ;
         "P7R077iX" = _P7R077iX;
@@ -38,33 +48,42 @@ let
         "zvM6XH9W" = _zvM6XH9W;
         "I81h77Hy" = _I81h77Hy;
         "LmTR6DF0" = _LmTR6DF0;
+        "m28NSJJK" = _m28NSJJK;
+        "gTdboLjE" = _gTdboLjE;
         "datapack-26.1" = _B8zlGZ8f;
         "datapack-26.1.1" = _B8zlGZ8f;
         "datapack-26.1.2" = _B8zlGZ8f;
         "datapack-26.2" = _I81h77Hy;
+        "datapack-26.3" = _m28NSJJK;
         "fabric-26.1" = _zvM6XH9W;
         "fabric-26.1.1" = _zvM6XH9W;
         "fabric-26.1.2" = _zvM6XH9W;
         "fabric-26.2" = _LmTR6DF0;
+        "fabric-26.3" = _gTdboLjE;
         "forge-26.1" = _zvM6XH9W;
         "forge-26.1.1" = _zvM6XH9W;
         "forge-26.1.2" = _zvM6XH9W;
         "forge-26.2" = _LmTR6DF0;
+        "forge-26.3" = _gTdboLjE;
         "neoforge-26.1" = _zvM6XH9W;
         "neoforge-26.1.1" = _zvM6XH9W;
         "neoforge-26.1.2" = _zvM6XH9W;
         "neoforge-26.2" = _LmTR6DF0;
+        "neoforge-26.3" = _gTdboLjE;
         "quilt-26.1" = _zvM6XH9W;
         "quilt-26.1.1" = _zvM6XH9W;
         "quilt-26.1.2" = _zvM6XH9W;
         "quilt-26.2" = _LmTR6DF0;
+        "quilt-26.3" = _gTdboLjE;
         "pkg-26.1" = _pFOATDGJ;
         "pkg-26.1+mod" = _P7R077iX;
         "pkg-26.1.x-1" = _B8zlGZ8f;
         "pkg-26.1.x-1+mod" = _zvM6XH9W;
         "pkg-26.2" = _I81h77Hy;
         "pkg-26.2+mod" = _LmTR6DF0;
-        "default" = _LmTR6DF0;
+        "pkg-26.3" = _m28NSJJK;
+        "pkg-26.3+mod" = _gTdboLjE;
+        "default" = _gTdboLjE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "axe-trims";

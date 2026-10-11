@@ -161,6 +161,21 @@ let
             "file" = "animal-garden-mouse-1.0.6-forge-1.20.1-47.4.0.jar";
             "hash" = "sha512-m9pbl/M0AqI41RDzQAmX8SiXDqZkP6GPU539v+tCxgLNLF0Ugz/+JNP2ULz6gDneOM6xLCxbntAxSP9fuAjnMg==";
         };
+        _RvEFnsCF = {
+            "id" = "RvEFnsCF";
+            "file" = "animalgarden-mouse-1.0.6-fabric-26.3-0.161.0.jar";
+            "hash" = "sha512-Pwr3EhMgYj18wxVsx+EpSVEMcPcaHzeoXoRiWwKhhh9UpDgqqzylIdHcZ9H2O9mAyLfOgJTQBP8dWIrJxHYsTw==";
+        };
+        _ds0Bnylc = {
+            "id" = "ds0Bnylc";
+            "file" = "animalgarden-mouse-1.0.6-neoforge-26.3.0.8.jar";
+            "hash" = "sha512-IhoumX+5vOTNnsA3v7OSFrVoFxbsUnBUBc4q1AFbmjpLNgWuryfpXwVHo5ANwylcOLBYZVGijRu/tFHJwf0WXw==";
+        };
+        _W2x5m8ID = {
+            "id" = "W2x5m8ID";
+            "file" = "animalgarden-mouse-1.0.6-forge-26.3-66.0.2.jar";
+            "hash" = "sha512-zDdCeCTeepj88WVmtbUByxkJvuQsXDNoBSoIOMjW9u8+ULI/QWFA1rNIGaKu/TnKoLTK6DHCuuSNz3hyJ+n9Iw==";
+        };
     in {
         "rrjTloZD" = _rrjTloZD;
         "ynQqkJVt" = _ynQqkJVt;
@@ -194,6 +209,9 @@ let
         "WMTfBHF0" = _WMTfBHF0;
         "GipYxlPN" = _GipYxlPN;
         "KSxio5CJ" = _KSxio5CJ;
+        "RvEFnsCF" = _RvEFnsCF;
+        "ds0Bnylc" = _ds0Bnylc;
+        "W2x5m8ID" = _W2x5m8ID;
         "fabric-1.20.1" = _rrjTloZD;
         "fabric-1.21.1" = _ynQqkJVt;
         "fabric-1.21.4" = _BCiwil6C;
@@ -208,6 +226,7 @@ let
         "fabric-26.1.1" = _EAHBvpZ1;
         "fabric-26.1.2" = _EAHBvpZ1;
         "fabric-26.2" = _EAHBvpZ1;
+        "fabric-26.3" = _RvEFnsCF;
         "forge-1.20.1" = _KSxio5CJ;
         "forge-1.21.1" = _APx5tU4R;
         "forge-1.21.4" = _hABKk0s8;
@@ -222,6 +241,7 @@ let
         "forge-26.1.1" = _WMTfBHF0;
         "forge-26.1.2" = _WMTfBHF0;
         "forge-26.2" = _WMTfBHF0;
+        "forge-26.3" = _W2x5m8ID;
         "neoforge-1.21.6" = _98sw2nJo;
         "neoforge-1.21.7" = _98sw2nJo;
         "neoforge-1.21.8" = _98sw2nJo;
@@ -234,6 +254,7 @@ let
         "neoforge-26.1.1" = _GipYxlPN;
         "neoforge-26.1.2" = _GipYxlPN;
         "neoforge-26.2" = _GipYxlPN;
+        "neoforge-26.3" = _ds0Bnylc;
         "pkg-v1.0.1-fabric-1.20.1" = _rrjTloZD;
         "pkg-v1.0.1-fabric-1.21.1" = _ynQqkJVt;
         "pkg-v1.0.1-fabric-1.21.4" = _AiIcnfnf;
@@ -266,7 +287,10 @@ let
         "pkg-1.0.6-forge-26.1.2-64.0.0" = _WMTfBHF0;
         "pkg-1.0.6-neoforge-26.1.2.4" = _GipYxlPN;
         "pkg-1.0.6-forge-1.20.1-47.4.0" = _KSxio5CJ;
-        "default" = _KSxio5CJ;
+        "pkg-1.0.6-fabric-26.3-0.161.0" = _RvEFnsCF;
+        "pkg-1.0.6-neoforge-26.3.0.8" = _ds0Bnylc;
+        "pkg-1.0.6-forge-26.3-66.0.2" = _W2x5m8ID;
+        "default" = _W2x5m8ID;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "animal-garden-mouse";

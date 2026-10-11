@@ -646,6 +646,11 @@ let
             "file" = "reactive-1.21.1-10.2.0.jar";
             "hash" = "sha512-P91kidVP6jTA9X2sUg7BH/ZgNYKrDDg6A0JRLNC3syEbu+XuWFBhqkv6YT3Diu1TXF2dDQAEAroshQtrQWaAdA==";
         };
+        _z2C7ikEP = {
+            "id" = "z2C7ikEP";
+            "file" = "reactive-1.21.1-10.2.1.jar";
+            "hash" = "sha512-wWLMNYBSNdrMXa3KQjSA8Vbw4xinD6srMekYYdPby9rLtQpd8KXBIyd+8T1J0HsyHZzgT+RsSL+T9rzPb5J3+w==";
+        };
     in {
         "NO4BWavN" = _NO4BWavN;
         "qaIg1gTJ" = _qaIg1gTJ;
@@ -776,6 +781,7 @@ let
         "Y6FgJoLO" = _Y6FgJoLO;
         "pY0Lty76" = _pY0Lty76;
         "BRaEe9cb" = _BRaEe9cb;
+        "z2C7ikEP" = _z2C7ikEP;
         "forge-1.19.2" = _UhLP55pY;
         "forge-1.18.2" = _4AfnzWD7;
         "forge-1.20.1" = _pY0Lty76;
@@ -783,7 +789,7 @@ let
         "neoforge-1.20" = _mZs7WXib;
         "neoforge-1.20.1" = _uWKOFiT8;
         "neoforge-1.21" = _BRaEe9cb;
-        "neoforge-1.21.1" = _BRaEe9cb;
+        "neoforge-1.21.1" = _z2C7ikEP;
         "pkg-1.19.2-1" = _NO4BWavN;
         "pkg-1.19.2-1a" = _qaIg1gTJ;
         "pkg-1.19.2-1b" = _AO5WaLfY;
@@ -913,7 +919,8 @@ let
         "pkg-1.20.1-10.1.5" = _Y6FgJoLO;
         "pkg-1.20.1-10.2.0" = _pY0Lty76;
         "pkg-1.21.1-10.2.0" = _BRaEe9cb;
-        "default" = _BRaEe9cb;
+        "pkg-1.21.1-10.2.1" = _z2C7ikEP;
+        "default" = _z2C7ikEP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "reactive";

@@ -156,6 +156,31 @@ let
             "file" = "JustEnoughMekanismMultiblocks-1.21.1-7.7.jar";
             "hash" = "sha512-MssXBbgyytxWnIjTrtESAtJ9DUWP8riLcMRszYMtES17PyWoWY5MVTPAenOqTKFwM9YkWxUoKya9tJiL/6QIVQ==";
         };
+        _iv7jq0Al = {
+            "id" = "iv7jq0Al";
+            "file" = "JustEnoughMekanismMultiblocks-1.16.5-1.18.jar";
+            "hash" = "sha512-4ilMd/xQxw5BUxae5vRe741K1w14N0lrdjAPrb6RSukXuuXWw8xFTT2XWQ2nixNviEtxjIQwO7I+IiPFgFt/TQ==";
+        };
+        _V5Utawrb = {
+            "id" = "V5Utawrb";
+            "file" = "JustEnoughMekanismMultiblocks-1.18.2-2.18.jar";
+            "hash" = "sha512-FhuglGne5nqjPDByxnTj33zKmpq7yBQdEcwF2rYTz4vOxSDsS+DhxDHBtky04wHlNec526dKvZW8Y92I3Tpb2A==";
+        };
+        _wcqTC4kH = {
+            "id" = "wcqTC4kH";
+            "file" = "JustEnoughMekanismMultiblocks-1.19.2-3.19.jar";
+            "hash" = "sha512-ErlIeY/rnr0Vt3aQpfHFaNX4/ttjvhT3yF3g4sUUD0uCEcg0HGTa14PWN6VGFVDVFVI/OnX+3hBrh6EIwGQ7jw==";
+        };
+        _Z2NziI6r = {
+            "id" = "Z2NziI6r";
+            "file" = "JustEnoughMekanismMultiblocks-1.20.1-4.25.jar";
+            "hash" = "sha512-JYHN7OaXPdg74o5AnKe7mB84oa00zh0OOhwgfqK12BDZS+g983Bt+9Je9PpGtEk+ymSScHLuNfN16GGrJJwGiw==";
+        };
+        _4OlLf9A1 = {
+            "id" = "4OlLf9A1";
+            "file" = "JustEnoughMekanismMultiblocks-1.21.1-7.21.jar";
+            "hash" = "sha512-SZXJRvJUVQQ8DcB4UopH0xqlhgE8uVY5ng94UIPZwgzHu4E55ol18xiIhxmB9JQjNEZfnW33hHqzGxl+4EuzvQ==";
+        };
     in {
         "38kJdwYq" = _38kJdwYq;
         "cIZ8uaNN" = _cIZ8uaNN;
@@ -188,12 +213,17 @@ let
         "A0Kr2uI9" = _A0Kr2uI9;
         "ctXhNmM5" = _ctXhNmM5;
         "g0Exmy3H" = _g0Exmy3H;
-        "forge-1.16.5" = _mH2K60kW;
-        "forge-1.18.2" = _AThxRlUS;
-        "forge-1.19.2" = _A0Kr2uI9;
-        "forge-1.20.1" = _3BODBkqD;
+        "iv7jq0Al" = _iv7jq0Al;
+        "V5Utawrb" = _V5Utawrb;
+        "wcqTC4kH" = _wcqTC4kH;
+        "Z2NziI6r" = _Z2NziI6r;
+        "4OlLf9A1" = _4OlLf9A1;
+        "forge-1.16.5" = _iv7jq0Al;
+        "forge-1.18.2" = _V5Utawrb;
+        "forge-1.19.2" = _wcqTC4kH;
+        "forge-1.20.1" = _Z2NziI6r;
         "neoforge-1.20.4" = _W0ruRIAC;
-        "neoforge-1.21.1" = _g0Exmy3H;
+        "neoforge-1.21.1" = _4OlLf9A1;
         "pkg-1.0" = _38kJdwYq;
         "pkg-2.0" = _cIZ8uaNN;
         "pkg-3.0" = _nibvP9Qe;
@@ -225,7 +255,12 @@ let
         "pkg-3.9" = _A0Kr2uI9;
         "pkg-7.6" = _ctXhNmM5;
         "pkg-7.7" = _g0Exmy3H;
-        "default" = _g0Exmy3H;
+        "pkg-1.18" = _iv7jq0Al;
+        "pkg-2.18" = _V5Utawrb;
+        "pkg-3.19" = _wcqTC4kH;
+        "pkg-4.25" = _Z2NziI6r;
+        "pkg-7.21" = _4OlLf9A1;
+        "default" = _4OlLf9A1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "just-enough-mekanism-multiblocks";

@@ -221,6 +221,11 @@ let
             "file" = "Black Flash PvP Pack[3.2][26.2].zip";
             "hash" = "sha512-IkIXACme/0996kMYrYXOQ/mof2AoEbPNBVmZwuyfBxU59TaUTB20X8qCoE8Moa6+FIufaREf3zhQjWnht/qkQA==";
         };
+        _RVHeFu3l = {
+            "id" = "RVHeFu3l";
+            "file" = "Black Flash PvP Pack[3.2][26.3].zip";
+            "hash" = "sha512-vy77GpILeSnqe2cWOhEM1FAMibNYI3Ff02DQdEGFY6mg37MV1hJUJUNUmkp1KaA6vFq4+wfqmuZrbSOPZYdhHw==";
+        };
     in {
         "mfgIhEbS" = _mfgIhEbS;
         "JL3zjNUJ" = _JL3zjNUJ;
@@ -266,6 +271,7 @@ let
         "hJ5wSnud" = _hJ5wSnud;
         "FcEBeIKr" = _FcEBeIKr;
         "ug9jUc5Q" = _ug9jUc5Q;
+        "RVHeFu3l" = _RVHeFu3l;
         "minecraft-1.16.2" = _vM1TRnWw;
         "minecraft-1.16.3" = _vM1TRnWw;
         "minecraft-1.16.4" = _vM1TRnWw;
@@ -308,6 +314,9 @@ let
         "minecraft-26.1.1" = _FcEBeIKr;
         "minecraft-26.1.2" = _FcEBeIKr;
         "minecraft-26.2" = _ug9jUc5Q;
+        "minecraft-26.3" = _RVHeFu3l;
+        "minecraft-26.4-snapshot-1" = _RVHeFu3l;
+        "minecraft-26.4-snapshot-2" = _RVHeFu3l;
         "pkg-1.16-1.16.5" = _capphzLs;
         "pkg-1.17" = _JL3zjNUJ;
         "pkg-1.18-1.18.2" = _fyD8WR8N;
@@ -326,8 +335,8 @@ let
         "pkg-1.21.4" = _kn4m8MaG;
         "pkg-3.0" = _4j5PwlYA;
         "pkg-3.1" = _Fc2lgf5g;
-        "pkg-3.2" = _ug9jUc5Q;
-        "default" = _ug9jUc5Q;
+        "pkg-3.2" = _RVHeFu3l;
+        "default" = _RVHeFu3l;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "black-flash-pvp-pack";

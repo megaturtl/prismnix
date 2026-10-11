@@ -41,6 +41,11 @@ let
             "file" = "create_skyblock_addon-0.7.4.1-forge-1.20.1.jar";
             "hash" = "sha512-8+4KUs1OuMtlHdOhjhNVOpvT9KumMrd7lLX0THCyIezlgA5rUB2p+ANx2rtwgPVom5cf7MC1aFJORG71JIVlwA==";
         };
+        _AZRjgAmB = {
+            "id" = "AZRjgAmB";
+            "file" = "create_skyblock_addon-1.0.jar";
+            "hash" = "sha512-ar+SyVfFRrBYx9SBop4EJ3nF0X99HMXRLbeR9o/t58u+4C8MTCxnwcHKo1boQkdIEHRaDKIZmrw0h5+wQeX8TA==";
+        };
     in {
         "GmMeYdME" = _GmMeYdME;
         "KWJXPmG4" = _KWJXPmG4;
@@ -50,8 +55,10 @@ let
         "6eyfFy7b" = _6eyfFy7b;
         "mVz8uGl1" = _mVz8uGl1;
         "S0zLMLze" = _S0zLMLze;
+        "AZRjgAmB" = _AZRjgAmB;
         "forge-1.19.2" = _GmMeYdME;
         "forge-1.20.1" = _S0zLMLze;
+        "neoforge-1.21.1" = _AZRjgAmB;
         "pkg-0.5.0" = _GmMeYdME;
         "pkg-0.6" = _KWJXPmG4;
         "pkg-0.7" = _tdF6yjK1;
@@ -60,7 +67,8 @@ let
         "pkg-0.7.3" = _6eyfFy7b;
         "pkg-0.7.4" = _mVz8uGl1;
         "pkg-0.7.4.1" = _S0zLMLze;
-        "default" = _S0zLMLze;
+        "pkg-1.0" = _AZRjgAmB;
+        "default" = _AZRjgAmB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-skyblock-addon";

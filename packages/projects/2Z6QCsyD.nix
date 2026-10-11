@@ -66,6 +66,61 @@ let
             "file" = "Mellow-1.8.9-forge-6.1.0.jar";
             "hash" = "sha512-4KFoim9vRUqjvrH6f/r04y9MnqwMe+p48dYzgDCB2EWB2YlK4VgwYobX8ANumLETk1sw6F6+vqAQycujIIp/kw==";
         };
+        _TP4iXvej = {
+            "id" = "TP4iXvej";
+            "file" = "Mellow-1.8.9-forge-6.1.1.jar";
+            "hash" = "sha512-4xLANeUxBsBFAxmH6T5CyHnmTR4B4V72gJiIUpR27CTuIgGrZrWAUW/Qevgl17Tr7d4DDPL0uPMTtuS2oYzB3w==";
+        };
+        _ghgoneVX = {
+            "id" = "ghgoneVX";
+            "file" = "Mellow-1.8.9-ornithe-7.0.0.jar";
+            "hash" = "sha512-V+oA1lsQR1/hfBX/H6oyMH05EMVPuej6ZCUXWTqFFgcQnBZQ5RJ3ojALDvqdxk8wQyqRcq9cSnr5LiiLl8kgVA==";
+        };
+        _ocmQFCyS = {
+            "id" = "ocmQFCyS";
+            "file" = "Mellow-1.8.9-ornithe-7.0.1.jar";
+            "hash" = "sha512-HoUI6HtlHtRjJWhuE2mb/Dhncl+Ge8DG558VDhyZCeK7xbxTmDwkWuYX5ZhJ8XuGYavGfARxJmS3JHiMZAiNMw==";
+        };
+        _vHOteF07 = {
+            "id" = "vHOteF07";
+            "file" = "Mellow-1.8.9-forge-7.0.2.jar";
+            "hash" = "sha512-xvE2bGin+VBQM6U4kC/2DvPed6BGdJwnmjDbglSW4ma9pp+T7/VKex+byWCQatwkARNybJ4uWMHS7PZTjg1Nrg==";
+        };
+        _90aI8WDU = {
+            "id" = "90aI8WDU";
+            "file" = "Mellow-1.8.9-ornithe-7.0.2.jar";
+            "hash" = "sha512-uiZfIN+zHMD7Fvuipn+IqJLVVew2AvdrYcoo70wugg53/tIVn9k34mx/AOZ+Py+KdCFAYp/XqBvz4D/O4aiQ1Q==";
+        };
+        _VRY6IHHA = {
+            "id" = "VRY6IHHA";
+            "file" = "Mellow-1.8.9-forge-7.0.3.jar";
+            "hash" = "sha512-jx48g48hmSszxe0YPvyy3XJ2kf8Z1fiO2u1OpRIzfa9+nUyQdpdZsxhA7h0yUNXoxKGjxgGsFlMEybeWmwcxaQ==";
+        };
+        _tsUcLSKS = {
+            "id" = "tsUcLSKS";
+            "file" = "Mellow-1.8.9-ornithe-7.0.3.jar";
+            "hash" = "sha512-IEID5NsqtJVM9+9/Nqc77xBE4ILGEvJlMdLeMlZMiYrJ35Od/uNoZP1Qn6HSY0uWVz8naIfqAtgfLYlD3oJ3Hg==";
+        };
+        _c4hFUYQE = {
+            "id" = "c4hFUYQE";
+            "file" = "Mellow-1.8.9-forge-7.0.4.jar";
+            "hash" = "sha512-o/774bTfSZuNl9vAZWWe5LIOjdEnJUQwpmoGgQFacdgERwG/w0qMIEVS8ARppHxATDEO+I1NMizTYJMug260NQ==";
+        };
+        _hAeYCiSp = {
+            "id" = "hAeYCiSp";
+            "file" = "Mellow-1.8.9-ornithe-7.0.4.jar";
+            "hash" = "sha512-ykrmmm59ZunrOKlm1vufLKdxwXTBVwkenLyEsrLIrDpmYwW5Gd3Q7IklIQdsKueC2O9dOXVmlbPK2EOSeZ7IKw==";
+        };
+        _HEcvHWMP = {
+            "id" = "HEcvHWMP";
+            "file" = "Mellow-1.8.9-forge-7.0.5.jar";
+            "hash" = "sha512-YaG4uXf0nHUiXXCQ+WUvS0UU/ZKZYwwBw/a2z2a7DhRmxkVNhGxmYnXRxTcQuk9NjoirpV8N2UKW/siSPoiTKw==";
+        };
+        _DfOvynNT = {
+            "id" = "DfOvynNT";
+            "file" = "Mellow-1.8.9-ornithe-7.0.5.jar";
+            "hash" = "sha512-7xdbhKxdgwKSVZcDA7/T6jA1zPSbtGMaGyuhU+KHvah0fKKpef7hHGBBPVuW6y9LmaN/9+HW/+J36Y7cQmTfsg==";
+        };
     in {
         "sTpsNuaX" = _sTpsNuaX;
         "MUJkHNPV" = _MUJkHNPV;
@@ -80,7 +135,19 @@ let
         "NcFx0dms" = _NcFx0dms;
         "ERjlZRw1" = _ERjlZRw1;
         "S4JSDkGT" = _S4JSDkGT;
-        "forge-1.8.9" = _S4JSDkGT;
+        "TP4iXvej" = _TP4iXvej;
+        "ghgoneVX" = _ghgoneVX;
+        "ocmQFCyS" = _ocmQFCyS;
+        "vHOteF07" = _vHOteF07;
+        "90aI8WDU" = _90aI8WDU;
+        "VRY6IHHA" = _VRY6IHHA;
+        "tsUcLSKS" = _tsUcLSKS;
+        "c4hFUYQE" = _c4hFUYQE;
+        "hAeYCiSp" = _hAeYCiSp;
+        "HEcvHWMP" = _HEcvHWMP;
+        "DfOvynNT" = _DfOvynNT;
+        "forge-1.8.9" = _HEcvHWMP;
+        "ornithe-1.8.9" = _DfOvynNT;
         "pkg-4.0.0" = _sTpsNuaX;
         "pkg-4.1.0" = _MUJkHNPV;
         "pkg-4.1.1" = _k8Exmw64;
@@ -94,7 +161,14 @@ let
         "pkg-5.2.1" = _NcFx0dms;
         "pkg-6.0.0" = _ERjlZRw1;
         "pkg-6.1.0" = _S4JSDkGT;
-        "default" = _S4JSDkGT;
+        "pkg-6.1.1" = _TP4iXvej;
+        "pkg-7.0.0" = _ghgoneVX;
+        "pkg-7.0.1" = _ocmQFCyS;
+        "pkg-7.0.2" = _90aI8WDU;
+        "pkg-7.0.3" = _tsUcLSKS;
+        "pkg-7.0.4" = _hAeYCiSp;
+        "pkg-7.0.5" = _DfOvynNT;
+        "default" = _DfOvynNT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "statsify";

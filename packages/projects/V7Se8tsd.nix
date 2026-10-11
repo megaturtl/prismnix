@@ -71,6 +71,16 @@ let
             "file" = "lategameplus-1.4.3.jar";
             "hash" = "sha512-lEDFlxMAbYAcm2dsy5xBGMKqtLryADnk6mAn+Yw/xfWFrTAfbzl9YeKExn0CB+3DKo6bF6GfTUo228WbnYP3mg==";
         };
+        _fBm1A6hW = {
+            "id" = "fBm1A6hW";
+            "file" = "lategameplus-mc26.3-1.4.4.jar";
+            "hash" = "sha512-ttHrN1BNl7IgTZshyodrNrHKfgkKuI4YpzZVFM5cAi28T5iDnTW70paIiq2W1S9uJAH7SqqXoA5NoShtr36/GA==";
+        };
+        _XsQyi0ca = {
+            "id" = "XsQyi0ca";
+            "file" = "lategameplus-mc26.3-1.4.5.jar";
+            "hash" = "sha512-pVPSc5mjOiSTmDizTE5HpA1hcXARgt+QWxR8cE7Uqo9mCWgHlxy63O3pEnwsNyQnZBTMfpKswUNWQ7GvkCDMOA==";
+        };
     in {
         "wNACdXDo" = _wNACdXDo;
         "KnxoSfJ4" = _KnxoSfJ4;
@@ -86,6 +96,8 @@ let
         "Ukp6Q26S" = _Ukp6Q26S;
         "NVemqTwx" = _NVemqTwx;
         "re95x89W" = _re95x89W;
+        "fBm1A6hW" = _fBm1A6hW;
+        "XsQyi0ca" = _XsQyi0ca;
         "fabric-1.21.8" = _oGXuiv5N;
         "fabric-1.21.4" = _oGXuiv5N;
         "fabric-1.21.5" = _oGXuiv5N;
@@ -94,6 +106,7 @@ let
         "fabric-1.21.9" = _pZaqmjRf;
         "fabric-1.21.10" = _pZaqmjRf;
         "fabric-1.21.11" = _re95x89W;
+        "fabric-26.3" = _XsQyi0ca;
         "quilt-1.21.4" = _oGXuiv5N;
         "quilt-1.21.5" = _oGXuiv5N;
         "quilt-1.21.6" = _oGXuiv5N;
@@ -102,6 +115,7 @@ let
         "quilt-1.21.9" = _pZaqmjRf;
         "quilt-1.21.10" = _pZaqmjRf;
         "quilt-1.21.11" = _re95x89W;
+        "quilt-26.3" = _XsQyi0ca;
         "pkg-1.0.0" = _wNACdXDo;
         "pkg-1.1.0" = _KnxoSfJ4;
         "pkg-1.1.1" = _EtmBqRbF;
@@ -114,7 +128,9 @@ let
         "pkg-1.3.3" = _Ukp6Q26S;
         "pkg-1.4BETA" = _NVemqTwx;
         "pkg-1.4.3" = _re95x89W;
-        "default" = _re95x89W;
+        "pkg-1.4.4" = _fBm1A6hW;
+        "pkg-1.4.5" = _XsQyi0ca;
+        "default" = _XsQyi0ca;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "late-game-plus";

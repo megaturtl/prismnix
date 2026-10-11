@@ -206,6 +206,21 @@ let
             "file" = "saros_construction_mod-2.4.jar";
             "hash" = "sha512-H04619lMuvA5XU6obdAPSZPbVRQfZXiO3sIDRpedTC/DND3E3PVs340z5V1JkkV49I5J20q/iMIDgTWIhVDh/Q==";
         };
+        _wQYKeMPI = {
+            "id" = "wQYKeMPI";
+            "file" = "Saros-Construction-Fabric-26.3-2.5.jar";
+            "hash" = "sha512-451acxIxGHZSAuJW/ZLH6Pc1qtMTjIUDUh9RgIQHv67XLk+2LvyL2jPz07/p7BxXNUtCE9fiiwrEPS3BTDIjqQ==";
+        };
+        _Ahg5KGek = {
+            "id" = "Ahg5KGek";
+            "file" = "saros_construction_mod-2.6.jar";
+            "hash" = "sha512-ML0xfjw9SM0rx59xeWmAkHS7JNGqsjdixAKoEnjvMIggJoui1LJ6985I/Ekyb89SP73qOU/rBOIPDicZBlHplg==";
+        };
+        _OGWJTMrP = {
+            "id" = "OGWJTMrP";
+            "file" = "Saros-Construction-NeoForge-26.3-2.7.jar";
+            "hash" = "sha512-ZcQ3HPvps0uRSCnJt3Si1jHh7mqad3V2qFp+EmFADA4L+a+J8yxz4nhv05MkdzmCcYK3/NXflwWVf3Q/BZc+gw==";
+        };
     in {
         "HNABQ9uJ" = _HNABQ9uJ;
         "Xxs0iS8R" = _Xxs0iS8R;
@@ -248,6 +263,9 @@ let
         "o4cVI1hk" = _o4cVI1hk;
         "pfre7NKE" = _pfre7NKE;
         "tA1EvuNf" = _tA1EvuNf;
+        "wQYKeMPI" = _wQYKeMPI;
+        "Ahg5KGek" = _Ahg5KGek;
+        "OGWJTMrP" = _OGWJTMrP;
         "forge-1.16.5" = _m7zK59Lm;
         "forge-1.18.2" = _fUWQvSpK;
         "forge-1.19.2" = _W2cPbIMO;
@@ -262,12 +280,14 @@ let
         "fabric-1.21.1" = _YQ8t2Q3F;
         "fabric-26.1.2" = _KDsrTCs2;
         "fabric-26.2" = _tA1EvuNf;
+        "fabric-26.3" = _Ahg5KGek;
         "quilt-1.19.2" = _umnhhwur;
         "quilt-1.20.1" = _knefUmmx;
         "neoforge-1.21.1" = _EwguMp68;
         "neoforge-26.1" = _eylW2c0k;
         "neoforge-26.1.2" = _o4cVI1hk;
         "neoforge-26.2" = _pfre7NKE;
+        "neoforge-26.3" = _OGWJTMrP;
         "pkg-1.5" = _HFV3qqmY;
         "pkg-1.0" = _GGvpLp9U;
         "pkg-1.6" = _m7zK59Lm;
@@ -288,7 +308,10 @@ let
         "pkg-2.2-fabric-26.1.2" = _KDsrTCs2;
         "pkg-2.2-neoforge-26.1.2" = _o4cVI1hk;
         "pkg-2.4" = _tA1EvuNf;
-        "default" = _tA1EvuNf;
+        "pkg-2.5" = _wQYKeMPI;
+        "pkg-2.6" = _Ahg5KGek;
+        "pkg-2.7" = _OGWJTMrP;
+        "default" = _OGWJTMrP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "saros-construction";

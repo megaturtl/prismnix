@@ -731,6 +731,16 @@ let
             "file" = "Sparkweave-NeoForge-0.600.0-alpha.18.jar";
             "hash" = "sha512-28C5M/XBNGlc2Jz7K2okeyXk2glaBb+Af1q1HtLXqWRCN2GB+C1k5RX9n1OeYFS8VrQVtnq/zt4/q5dHO2ZgzA==";
         };
+        _sy3L6wAx = {
+            "id" = "sy3L6wAx";
+            "file" = "Sparkweave-NeoForge-0.600.0-alpha.19.jar";
+            "hash" = "sha512-1L+TFMhqlcb8nrt+9/Pyeemz69t+LQgSUBtzyVZHsEfYqm13R72GXe9BAaBJABb9GDoC3RGlgPa66EvfLOciTA==";
+        };
+        _CpdOMDnq = {
+            "id" = "CpdOMDnq";
+            "file" = "Sparkweave-Fabric-0.600.0-alpha.19.jar";
+            "hash" = "sha512-uHYtuIdBhRkuk+/D3/xFA63NvdxRVWxur4oEiLqrLJ83amjNeehv8mWVwWaKrPmw9JFEgxNdmnHGNbkVFsqMyg==";
+        };
     in {
         "wuBGLCqT" = _wuBGLCqT;
         "qLLV6vj3" = _qLLV6vj3;
@@ -878,18 +888,20 @@ let
         "Pyc49cEq" = _Pyc49cEq;
         "zM95Ai4O" = _zM95Ai4O;
         "YwJGMZTM" = _YwJGMZTM;
+        "sy3L6wAx" = _sy3L6wAx;
+        "CpdOMDnq" = _CpdOMDnq;
         "quilt-1.20.1" = _JKx2dI3P;
         "quilt-1.20.2" = _ICVcVnTm;
         "quilt-1.20.4" = _vuaiG6hK;
         "quilt-1.21.1" = _UQuUW6MR;
         "quilt-1.21.3" = _FZWqlkEY;
-        "quilt-26.1.2" = _zM95Ai4O;
+        "quilt-26.1.2" = _CpdOMDnq;
         "neoforge-1.20.2" = _S16y2j2I;
         "neoforge-1.20.4" = _FLcfNfnd;
         "neoforge-1.20.6" = _yUKMWeHQ;
         "neoforge-1.21.1" = _j8reYKe3;
         "neoforge-1.21.3" = _s14nI6rQ;
-        "neoforge-26.1.2" = _YwJGMZTM;
+        "neoforge-26.1.2" = _sy3L6wAx;
         "fabric-1.20.4" = _cOZAqKu7;
         "fabric-1.20.6" = _kvENgsRV;
         "fabric-1.21-pre1" = _FBdrZaQF;
@@ -899,7 +911,7 @@ let
         "fabric-1.21.1" = _UQuUW6MR;
         "fabric-1.21.3" = _FZWqlkEY;
         "fabric-1.20.1" = _JKx2dI3P;
-        "fabric-26.1.2" = _zM95Ai4O;
+        "fabric-26.1.2" = _CpdOMDnq;
         "pkg-0.1.0" = _wuBGLCqT;
         "pkg-0.2.0" = _qLLV6vj3;
         "pkg-0.3.0" = _KaQyY3NI;
@@ -1046,7 +1058,9 @@ let
         "pkg-0.600.0-alpha.17+Fabric" = _Pyc49cEq;
         "pkg-0.600.0-alpha.18+Fabric" = _zM95Ai4O;
         "pkg-0.600.0-alpha.18+NeoForge" = _YwJGMZTM;
-        "default" = _YwJGMZTM;
+        "pkg-0.600.0-alpha.19+NeoForge" = _sy3L6wAx;
+        "pkg-0.600.0-alpha.19+Fabric" = _CpdOMDnq;
+        "default" = _CpdOMDnq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sparkweave";

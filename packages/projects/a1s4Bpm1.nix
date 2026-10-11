@@ -106,6 +106,41 @@ let
             "file" = "ElementalSwords-forge-26.1.2-2.9.0.jar";
             "hash" = "sha512-ETjEcF08f5Rnij8Uk0gmCYC50mCo4D3+RQEtEawUNs+D1zr6TnMRMbDEZzJOipUhhb5Gudw9hymj+IIIngpn9Q==";
         };
+        _DfmaoUQ7 = {
+            "id" = "DfmaoUQ7";
+            "file" = "ElementalSwords-neoforge-1.21.11-2.8.4.jar";
+            "hash" = "sha512-Qku+rka/f7GbtHrbIZsy6OVlujDrFY17eGRV362idQnXkv0z+9Ec4MPza0M9eXvYlfevaOfTVbXD0WG2eLhS/Q==";
+        };
+        _ePjZlATC = {
+            "id" = "ePjZlATC";
+            "file" = "ElementalSwords-neoforge-26.1.2-2.10.0.jar";
+            "hash" = "sha512-x7XyPA9GX5FjgU+P2gOXypJa/YklFy8paAR8AxA6WT5NRDUZLR1WHLwrdtIyqUguPMc9vlKAH3qQe9NxvUnCkQ==";
+        };
+        _i6dKgDEc = {
+            "id" = "i6dKgDEc";
+            "file" = "ElementalSwords-forge-26.1.2-2.10.0.jar";
+            "hash" = "sha512-qL1fnaI6dN18vItgI7mUGWP/u1Ei75eFkxlp11gZ5pY0Xwhsl63CUBMyWGBZx3oAYOPqXfEGRjCOYm83HUVwJA==";
+        };
+        _A4rADEd2 = {
+            "id" = "A4rADEd2";
+            "file" = "ElementalSwords-fabric-26.1.2-2.10.0.jar";
+            "hash" = "sha512-7FzwOWjHNR/IPxYLy6ko2p19Pxk0/mTCZBiCOzl06Q++y7ic4I++XdaUUznorl/ynQ4GT/ZrPSPrNF6oipBQMw==";
+        };
+        _l60hyjXm = {
+            "id" = "l60hyjXm";
+            "file" = "ElementalSwords-neoforge-26.3-2.10.1.jar";
+            "hash" = "sha512-mh6PMEl7flHzkZsjZY1WjMyxK0oFFaB44VjBMn7x+MLLG2MbOy+AcH2GPSn2RO05YWhjUWzqeBeV9UDW5ZBHjg==";
+        };
+        _vWVEwGNK = {
+            "id" = "vWVEwGNK";
+            "file" = "ElementalSwords-forge-26.3-2.10.1.jar";
+            "hash" = "sha512-V8zG0yXkXRHG75s+KB0S4rzP1epd3+jTyX5tZJXJh5kbX2OCmTWJ1NsRssSrNmJywahk31kRlXmD0Dxxv/HLlg==";
+        };
+        _bIpHvPE8 = {
+            "id" = "bIpHvPE8";
+            "file" = "ElementalSwords-fabric-26.3-2.10.1.jar";
+            "hash" = "sha512-NwF9ObJSdx1vhtCDBLrpRfXs9XZrRYdwAT+Oz7nsHMIhzVIC9esNhmpjKZLiw/YiRsDQPBkSUJc5fljJq8A3nw==";
+        };
     in {
         "p1gkxPUF" = _p1gkxPUF;
         "3f90nckY" = _3f90nckY;
@@ -128,6 +163,13 @@ let
         "PXi5pKH0" = _PXi5pKH0;
         "q2r5odQN" = _q2r5odQN;
         "r0XMkIBs" = _r0XMkIBs;
+        "DfmaoUQ7" = _DfmaoUQ7;
+        "ePjZlATC" = _ePjZlATC;
+        "i6dKgDEc" = _i6dKgDEc;
+        "A4rADEd2" = _A4rADEd2;
+        "l60hyjXm" = _l60hyjXm;
+        "vWVEwGNK" = _vWVEwGNK;
+        "bIpHvPE8" = _bIpHvPE8;
         "forge-1.20.1" = _p1gkxPUF;
         "forge-1.20.2" = _Z687dh46;
         "forge-1.20.4" = _HMJr8qzs;
@@ -137,7 +179,8 @@ let
         "forge-1.21.9" = _TNhVozo2;
         "forge-1.21.10" = _aOOZQgPb;
         "forge-1.21.11" = _PXi5pKH0;
-        "forge-26.1.2" = _r0XMkIBs;
+        "forge-26.1.2" = _i6dKgDEc;
+        "forge-26.3" = _vWVEwGNK;
         "fabric-1.20.1" = _3f90nckY;
         "fabric-1.20.2" = _B1R8VNAH;
         "fabric-1.20.4" = _ExnGAcnX;
@@ -146,6 +189,11 @@ let
         "fabric-1.21.8" = _rgFHhpzI;
         "fabric-1.21.10" = _AQc8nuVs;
         "fabric-1.21.11" = _q2r5odQN;
+        "fabric-26.1.2" = _A4rADEd2;
+        "fabric-26.3" = _bIpHvPE8;
+        "neoforge-1.21.11" = _DfmaoUQ7;
+        "neoforge-26.1.2" = _ePjZlATC;
+        "neoforge-26.3" = _l60hyjXm;
         "pkg-2.7.3" = _p1gkxPUF;
         "pkg-1.7.5" = _3f90nckY;
         "pkg-2.7.4" = _sgnLqvdt;
@@ -164,10 +212,12 @@ let
         "pkg-1.21.8-1.8.2" = _rgFHhpzI;
         "pkg-2.8.3" = _aOOZQgPb;
         "pkg-1.21.10-1.8.3" = _AQc8nuVs;
-        "pkg-2.8.4" = _PXi5pKH0;
+        "pkg-2.8.4" = _DfmaoUQ7;
         "pkg-1.21.11-1.8.4" = _q2r5odQN;
         "pkg-2.9.0" = _r0XMkIBs;
-        "default" = _r0XMkIBs;
+        "pkg-2.10.0" = _A4rADEd2;
+        "pkg-2.10.1" = _bIpHvPE8;
+        "default" = _bIpHvPE8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "four-elemental-swords";

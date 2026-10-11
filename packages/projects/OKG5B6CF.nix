@@ -146,6 +146,11 @@ let
             "file" = "ghastly_wail-1.9.0+MC26.2.x.jar";
             "hash" = "sha512-Wo2xNXhQLw0R08WZtg4odPo2d1SIFS8O9LPndR73P4LpW3tD6f6IVKUXINouECZxPQgSBNSAoIvUNUUzP3biKQ==";
         };
+        _pNZ1aTTe = {
+            "id" = "pNZ1aTTe";
+            "file" = "ghastly_wail-1.10.0+MC26.3.x.jar";
+            "hash" = "sha512-Qw+agubIrgr6Zd8TBAvJTz+NhGMIRG3MS/Z9B1GGc7XRtGYaq4aakfAJAldIADsGkKYXe0y3q444XAuuAjg7PQ==";
+        };
     in {
         "E5sZZMWm" = _E5sZZMWm;
         "NyNVj4gg" = _NyNVj4gg;
@@ -176,6 +181,7 @@ let
         "501QnTEs" = _501QnTEs;
         "yiFHTR51" = _yiFHTR51;
         "nH4eUiu7" = _nH4eUiu7;
+        "pNZ1aTTe" = _pNZ1aTTe;
         "fabric-1.17" = _NyNVj4gg;
         "fabric-1.17.1" = _NyNVj4gg;
         "fabric-1.18" = _SDJb3YjH;
@@ -209,6 +215,7 @@ let
         "fabric-26.1.1" = _yiFHTR51;
         "fabric-26.1.2" = _yiFHTR51;
         "fabric-26.2" = _nH4eUiu7;
+        "fabric-26.3" = _pNZ1aTTe;
         "quilt-1.18" = _SDJb3YjH;
         "quilt-1.18.1" = _SDJb3YjH;
         "quilt-1.18.2" = _SDJb3YjH;
@@ -240,6 +247,7 @@ let
         "quilt-26.1.1" = _yiFHTR51;
         "quilt-26.1.2" = _yiFHTR51;
         "quilt-26.2" = _nH4eUiu7;
+        "quilt-26.3" = _pNZ1aTTe;
         "pkg-1.0.2+MC1.17" = _E5sZZMWm;
         "pkg-1.0.3+MC1.17-1.17.1" = _NyNVj4gg;
         "pkg-1.0.4+MC1.18" = _fhoWF2J5;
@@ -269,7 +277,8 @@ let
         "pkg-1.7.0+MC1.21.11" = _501QnTEs;
         "pkg-1.8.0+MC26.1-26.1.x" = _yiFHTR51;
         "pkg-1.9.0+MC26.2.x" = _nH4eUiu7;
-        "default" = _nH4eUiu7;
+        "pkg-1.10.0+MC26.3.x" = _pNZ1aTTe;
+        "default" = _pNZ1aTTe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ghastly-wail";

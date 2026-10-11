@@ -76,6 +76,36 @@ let
             "file" = "AutoRestart-1.21.1-3.0.1.jar";
             "hash" = "sha512-FWxtzpuGEsY1F4sRiXLSkbQIcAzlt+ljaIinDYsIRHqUTXK5DnVW7DQifd84R1hPsxSpA7zPOq9VPhL7UL5WWA==";
         };
+        _mGM4oJfH = {
+            "id" = "mGM4oJfH";
+            "file" = "AutoRestart-1.21.11-3.0.1.jar";
+            "hash" = "sha512-yDj85KHuh+XahSEPyukKYkmllJidWEv5H3Wa1JGH7fPONB+fZ+tnRWJx1h9Pa4o4uQBWHEE2SHTpXK/BkP+6pw==";
+        };
+        _1M6I3DBT = {
+            "id" = "1M6I3DBT";
+            "file" = "AutoRestart-26.1-3.0.1.jar";
+            "hash" = "sha512-7E+2w324e1zfEeyDwIKm2FF13AdajjE/4xuQ9B5DjqruV9FCmKnNKcoR6RriD3d+0LNW/PmYHq2b2Hh+37I6HA==";
+        };
+        _2VcSvEuN = {
+            "id" = "2VcSvEuN";
+            "file" = "AutoRestart-1.20.1-2.0.3.jar";
+            "hash" = "sha512-2ABTu48WPjNIp8Wl3+8H2IDc8Q/u+cXRAN8/HFj93m8AQQfM+YmDMY+AAoGSxEB9lHb/FUvhJuz5TgMRcYyg4g==";
+        };
+        _IynqIxMn = {
+            "id" = "IynqIxMn";
+            "file" = "AutoRestart-1.21.1-3.0.2.jar";
+            "hash" = "sha512-soSyoORusP8Q37ycWxcF1YgwWGRl4c07YsRYkSyF1s2XWik3BYNO/LWuURw/CfEIHgvLYsPAD0HC3YXR37FwvA==";
+        };
+        _5BpgpIJa = {
+            "id" = "5BpgpIJa";
+            "file" = "AutoRestart-1.21.11-3.0.2.jar";
+            "hash" = "sha512-mS3VKQTIto8QwSNmBmvcVrEKw/CMFponSKSw7//4NxdbyhDO0s5GYdNjxhw10jnAYXl/t/CS809horaM0N65hw==";
+        };
+        _Qru7wL2c = {
+            "id" = "Qru7wL2c";
+            "file" = "AutoRestart-26.1-3.0.2.jar";
+            "hash" = "sha512-iy8WHQuLC1XcSjyZ310rlUol6/GvLUqEOZ2VkCny1/vXagYRl7e8Ql2NmLUblOivVJbUoy8IkdkbchnpCBbDDw==";
+        };
     in {
         "26Ui0sDV" = _26Ui0sDV;
         "MeRoVkOF" = _MeRoVkOF;
@@ -92,26 +122,38 @@ let
         "5vyrqwhj" = _5vyrqwhj;
         "b2iystOl" = _b2iystOl;
         "c0Wg21oP" = _c0Wg21oP;
+        "mGM4oJfH" = _mGM4oJfH;
+        "1M6I3DBT" = _1M6I3DBT;
+        "2VcSvEuN" = _2VcSvEuN;
+        "IynqIxMn" = _IynqIxMn;
+        "5BpgpIJa" = _5BpgpIJa;
+        "Qru7wL2c" = _Qru7wL2c;
         "forge-1.17.1" = _26Ui0sDV;
         "forge-1.18.2" = _MeRoVkOF;
         "forge-1.19.4" = _mpRJ0zpX;
         "forge-1.20" = _y38yojyz;
-        "forge-1.20.1" = _nH7LrRhA;
+        "forge-1.20.1" = _2VcSvEuN;
         "forge-1.20.2" = _6VhHzkRN;
         "forge-1.20.4" = _xj2sHxmt;
         "forge-1.20.6" = _VKQpcAG6;
         "forge-1.21" = _pwJeZ76c;
         "forge-1.21.1" = _5vyrqwhj;
-        "neoforge-1.21.1" = _c0Wg21oP;
-        "neoforge-1.21.2" = _c0Wg21oP;
-        "neoforge-1.21.3" = _c0Wg21oP;
-        "neoforge-1.21.4" = _c0Wg21oP;
-        "neoforge-1.21.5" = _c0Wg21oP;
-        "neoforge-1.21.6" = _c0Wg21oP;
-        "neoforge-1.21.7" = _c0Wg21oP;
-        "neoforge-1.21.8" = _c0Wg21oP;
-        "neoforge-1.21.9" = _c0Wg21oP;
-        "neoforge-1.21.10" = _c0Wg21oP;
+        "neoforge-1.21.1" = _IynqIxMn;
+        "neoforge-1.21.2" = _IynqIxMn;
+        "neoforge-1.21.3" = _IynqIxMn;
+        "neoforge-1.21.4" = _IynqIxMn;
+        "neoforge-1.21.5" = _IynqIxMn;
+        "neoforge-1.21.6" = _IynqIxMn;
+        "neoforge-1.21.7" = _IynqIxMn;
+        "neoforge-1.21.8" = _IynqIxMn;
+        "neoforge-1.21.9" = _IynqIxMn;
+        "neoforge-1.21.10" = _IynqIxMn;
+        "neoforge-1.21.11" = _5BpgpIJa;
+        "neoforge-26.1" = _Qru7wL2c;
+        "neoforge-26.1.1" = _Qru7wL2c;
+        "neoforge-26.1.2" = _Qru7wL2c;
+        "neoforge-26.2" = _Qru7wL2c;
+        "neoforge-26.3" = _Qru7wL2c;
         "pkg-1.17.1-2.0.0" = _26Ui0sDV;
         "pkg-1.18.2-2.0.0" = _MeRoVkOF;
         "pkg-1.19.4-2.0.1" = _mpRJ0zpX;
@@ -127,7 +169,13 @@ let
         "pkg-1.21.1-2.0.2" = _5vyrqwhj;
         "pkg-1.21.1-3.0.0" = _b2iystOl;
         "pkg-1.21.1-3.0.1" = _c0Wg21oP;
-        "default" = _c0Wg21oP;
+        "pkg-1.21.11-3.0.1" = _mGM4oJfH;
+        "pkg-26.1-3.0.1" = _1M6I3DBT;
+        "pkg-1.20.1-2.0.3" = _2VcSvEuN;
+        "pkg-1.21.1-3.0.2" = _IynqIxMn;
+        "pkg-1.21.11-3.0.2" = _5BpgpIJa;
+        "pkg-26.1-3.0.2" = _Qru7wL2c;
+        "default" = _Qru7wL2c;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "auto-restart";

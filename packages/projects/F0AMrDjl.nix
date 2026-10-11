@@ -381,6 +381,26 @@ let
             "file" = "classicperipherals-neoforge-1.21.1-0.6.3.jar";
             "hash" = "sha512-+gBrwMqY/qarvjflLDs8qMRHTfssfkiRxeB+dtqrDDDvlm1GdG0b6vZEmO0ylFy1LR94V7nvMdtHRDrXf4QC2w==";
         };
+        _cFixpmkd = {
+            "id" = "cFixpmkd";
+            "file" = "classicperipherals-fabric-1.21.1-0.6.4.jar";
+            "hash" = "sha512-RWr9+dOiD1Va0rbnon1xaWzFDrgkts+p16HvzRAAeIEVSjxCT0hosVl/GPqI3jMRC/hDyT43ct+t8+xainI2wg==";
+        };
+        _Jo9NtC5X = {
+            "id" = "Jo9NtC5X";
+            "file" = "classicperipherals-neoforge-1.21.1-0.6.4.jar";
+            "hash" = "sha512-B+yUsv5mgvWVAWRiEsuY4TOcpq08cyH6d9ugbU4O3cM82z/Vq0Jq0W49fhSkWOxt584l1or3INlgFoxPQXxFAA==";
+        };
+        _ca4KlgPr = {
+            "id" = "ca4KlgPr";
+            "file" = "classicperipherals-fabric-1.21.1-0.6.5.jar";
+            "hash" = "sha512-baIYqdCeCfIGTKSDblUwjVKu2nxBeLTLZTlssqjW7Rw318w8WvrgC95ye6Fl8KnptMqceopndNci/ZBACPDQ7A==";
+        };
+        _gh1FbBVy = {
+            "id" = "gh1FbBVy";
+            "file" = "classicperipherals-neoforge-1.21.1-0.6.5.jar";
+            "hash" = "sha512-WeH8PkIiOVATQwkdghzmm9EYEz7Oqts5P4OkwIRu0UVwJrzJkcCBHR+1rUxpp0TGSQVj1f4z7zXQHbgG/IILqw==";
+        };
     in {
         "WyQhbyX5" = _WyQhbyX5;
         "rODQkmkB" = _rODQkmkB;
@@ -458,9 +478,13 @@ let
         "cRm4HxZE" = _cRm4HxZE;
         "sa4OROSQ" = _sa4OROSQ;
         "MCYePQRG" = _MCYePQRG;
+        "cFixpmkd" = _cFixpmkd;
+        "Jo9NtC5X" = _Jo9NtC5X;
+        "ca4KlgPr" = _ca4KlgPr;
+        "gh1FbBVy" = _gh1FbBVy;
         "fabric-1.20.1" = _EThgIMBg;
-        "fabric-1.21.1" = _sa4OROSQ;
-        "neoforge-1.21.1" = _MCYePQRG;
+        "fabric-1.21.1" = _ca4KlgPr;
+        "neoforge-1.21.1" = _gh1FbBVy;
         "forge-1.20.1" = _1F83I46I;
         "pkg-0.1.0" = _jxJnfrsK;
         "pkg-0.2.0" = _DbXIrtaD;
@@ -490,7 +514,9 @@ let
         "pkg-0.6.1" = _x5vHnZtl;
         "pkg-0.6.2" = _cRm4HxZE;
         "pkg-0.6.3" = _MCYePQRG;
-        "default" = _MCYePQRG;
+        "pkg-0.6.4" = _Jo9NtC5X;
+        "pkg-0.6.5" = _gh1FbBVy;
+        "default" = _gh1FbBVy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "classicperipherals";

@@ -271,6 +271,16 @@ let
             "file" = "apocalypse_ends-4.0.0.4.jar";
             "hash" = "sha512-UJlOt7in/BA+dQ3D31qDmoYthpwOHKTNW4yNysFHgoo6wRAbN9gB2qbTAl2jw766TfCdeVVpBatuVDEY1uExwQ==";
         };
+        _JLzrgVIr = {
+            "id" = "JLzrgVIr";
+            "file" = "apocalypse_ends-4.0.1.0.jar";
+            "hash" = "sha512-bjjmN/B6OUOXT9oJPL0yLB30yXXwcIq2Eb6EojonxrV9acTyTapKMZHjznWDBXkzkSAFJpGvFAArYnTy8KBLkA==";
+        };
+        _icBm3Tjc = {
+            "id" = "icBm3Tjc";
+            "file" = "apocalypse_ends-4.0.1.0.jar";
+            "hash" = "sha512-NzwBDrBs15v7oYbADtrotpy9/HHfeQ0KIRSTbgK/Qd/1P16et3nC4zKymIBvxMu2GJeBUNpoLxcuU1a3L/4uRQ==";
+        };
     in {
         "dWuJ0jGJ" = _dWuJ0jGJ;
         "aKUCe1Rh" = _aKUCe1Rh;
@@ -326,8 +336,10 @@ let
         "aIuCQ0fH" = _aIuCQ0fH;
         "ZecwQynF" = _ZecwQynF;
         "WrWn6ZXw" = _WrWn6ZXw;
-        "forge-1.20.1" = _WrWn6ZXw;
-        "neoforge-1.21.1" = _2s568kbx;
+        "JLzrgVIr" = _JLzrgVIr;
+        "icBm3Tjc" = _icBm3Tjc;
+        "forge-1.20.1" = _JLzrgVIr;
+        "neoforge-1.21.1" = _icBm3Tjc;
         "neoforge-1.21.2" = _2s568kbx;
         "neoforge-1.21.3" = _2s568kbx;
         "neoforge-1.21.4" = _2s568kbx;
@@ -391,7 +403,8 @@ let
         "pkg-4.0.0.2" = _aIuCQ0fH;
         "pkg-4.0.0.3" = _ZecwQynF;
         "pkg-4.0.0.4" = _WrWn6ZXw;
-        "default" = _WrWn6ZXw;
+        "pkg-4.0.1.0" = _icBm3Tjc;
+        "default" = _icBm3Tjc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "apocalypse_end";

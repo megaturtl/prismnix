@@ -101,6 +101,26 @@ let
             "file" = "wunderlib-26.301.0.jar";
             "hash" = "sha512-zoTzs/Kbv0jx4XQKIgWdYabar7zR76CD9QQgsokKELa8Olxn6CSY2SstwGDdIk9DyY/X8A3IFtEorTcx1+oOrw==";
         };
+        _9OGflBsa = {
+            "id" = "9OGflBsa";
+            "file" = "wunderlib-21.800.2.jar";
+            "hash" = "sha512-gqEd2OVtPgyXHNfKioc/v7skcqkIDrfv8oPDrjZYtzfdH9XaAvxC32CxGI7x+jZOLAztoeK+0AcM7oohgoaf+A==";
+        };
+        _rK6I2eli = {
+            "id" = "rK6I2eli";
+            "file" = "wunderlib-26.101.2.jar";
+            "hash" = "sha512-zWTFOs7UTUlgy5JvGIOYxopB8IlTxw5DosCLp/p75BIJy4InUEcK2BGSUEqENCGNFvmzWhyhn8kxdaIbt9bgiQ==";
+        };
+        _Iu7YRLkg = {
+            "id" = "Iu7YRLkg";
+            "file" = "wunderlib-26.201.1.jar";
+            "hash" = "sha512-Xu+S9W5NtUYaX/WAftwizZLV6A+RxNVgxbm/rabOa8EAUwRHJcsCovq4UV2MLACsrkxb8JYpAlXu8fbRkilFvQ==";
+        };
+        _R7LxxKqV = {
+            "id" = "R7LxxKqV";
+            "file" = "wunderlib-26.301.1.jar";
+            "hash" = "sha512-vhDuzmK/cZ6u/rq404tUZUsexE4wfTF1IBk/A+q9Wodq4W8LnY2lAX0o9LIGYam2XwGYCAnTGL3XsXMOzXrmnQ==";
+        };
     in {
         "Ql6bYH4v" = _Ql6bYH4v;
         "NWOZ9B7R" = _NWOZ9B7R;
@@ -122,17 +142,22 @@ let
         "FwXAGE25" = _FwXAGE25;
         "QHUogGmi" = _QHUogGmi;
         "1tlKntEn" = _1tlKntEn;
+        "9OGflBsa" = _9OGflBsa;
+        "rK6I2eli" = _rK6I2eli;
+        "Iu7YRLkg" = _Iu7YRLkg;
+        "R7LxxKqV" = _R7LxxKqV;
         "fabric-1.21" = _NWOZ9B7R;
         "fabric-1.21.1" = _NWOZ9B7R;
-        "fabric-26.1" = _FwXAGE25;
-        "fabric-26.1.1" = _FwXAGE25;
-        "fabric-26.1.2" = _FwXAGE25;
-        "fabric-1.21.6" = _QHUogGmi;
-        "fabric-1.21.7" = _QHUogGmi;
-        "fabric-1.21.8" = _QHUogGmi;
+        "fabric-26.1" = _rK6I2eli;
+        "fabric-26.1.1" = _rK6I2eli;
+        "fabric-26.1.2" = _rK6I2eli;
+        "fabric-1.21.6" = _9OGflBsa;
+        "fabric-1.21.7" = _9OGflBsa;
+        "fabric-1.21.8" = _9OGflBsa;
         "fabric-26.3-snapshot-5" = _c3ohD88a;
         "fabric-26.3-snapshot-6" = _1tlKntEn;
-        "fabric-26.2" = _x1Ln5h2L;
+        "fabric-26.2" = _Iu7YRLkg;
+        "fabric-26.3" = _R7LxxKqV;
         "pkg-21.0.6" = _Ql6bYH4v;
         "pkg-21.0.8" = _NWOZ9B7R;
         "pkg-26.0.0" = _N6fq9zK4;
@@ -153,7 +178,11 @@ let
         "pkg-26.101.1" = _FwXAGE25;
         "pkg-21.800.1" = _QHUogGmi;
         "pkg-26.301.0" = _1tlKntEn;
-        "default" = _1tlKntEn;
+        "pkg-21.800.2" = _9OGflBsa;
+        "pkg-26.101.2" = _rK6I2eli;
+        "pkg-26.201.1" = _Iu7YRLkg;
+        "pkg-26.301.1" = _R7LxxKqV;
+        "default" = _R7LxxKqV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wunderlib";

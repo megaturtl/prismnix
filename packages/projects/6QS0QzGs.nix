@@ -106,6 +106,11 @@ let
             "file" = "teabs_doctor_who_mod-17.0.0-forge-1.20.1.jar";
             "hash" = "sha512-VKwg8uJ91qfU8fk4Dbnxi1r5yvmLWOM7vva5RKeHlrSsvAO9u5V+GpTpYt722Kb+gmmvE0ygVPuBfGPS8m9Deg==";
         };
+        _iw9yupQk = {
+            "id" = "iw9yupQk";
+            "file" = "teabs_doctor_who_mod-18.0.0-forge-1.20.1.jar";
+            "hash" = "sha512-FC8oC8uJZ3azvugK0mK32bVXwz9wgSE6VMoJP4BqunTXCWS1GXoZUZJUA7GS83eIQUFFblTdYNic9/i9MeI35w==";
+        };
     in {
         "zo3GRiLd" = _zo3GRiLd;
         "upHLpDVD" = _upHLpDVD;
@@ -128,7 +133,8 @@ let
         "xCV4UlcS" = _xCV4UlcS;
         "ZdIMVVVU" = _ZdIMVVVU;
         "nZvfCSRu" = _nZvfCSRu;
-        "forge-1.20.1" = _nZvfCSRu;
+        "iw9yupQk" = _iw9yupQk;
+        "forge-1.20.1" = _iw9yupQk;
         "pkg-1.0.0" = _zo3GRiLd;
         "pkg-2.0.0" = _upHLpDVD;
         "pkg-3.0.0" = _DYriy3mD;
@@ -150,7 +156,8 @@ let
         "pkg-16.0.0" = _xCV4UlcS;
         "pkg-16.5.0" = _ZdIMVVVU;
         "pkg-17.0.0" = _nZvfCSRu;
-        "default" = _nZvfCSRu;
+        "pkg-18.0.0" = _iw9yupQk;
+        "default" = _iw9yupQk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "teabs-doctor-who-mod";

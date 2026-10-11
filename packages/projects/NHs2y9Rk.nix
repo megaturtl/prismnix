@@ -41,6 +41,11 @@ let
             "file" = "Faithless PvP Edit 26.2.zip";
             "hash" = "sha512-GyB5xqKdFpVzr9OstTNmlxUfkRPdm7RuFGiumBfH0mXl3brXTJW2IRPn91IaC4LmtgjvMvIcortFqn5oHlNnqw==";
         };
+        _hhBLIOlx = {
+            "id" = "hhBLIOlx";
+            "file" = "Faithless PvP Edit 26.3.zip";
+            "hash" = "sha512-amhP2SJJi5Qhphc3GWjpuDs0/p4XZ8dgLOwVBsjgOyXvUhC/rOnbm7wjKkYYYWJXncobrDzzUbCqcHA0MgKeoQ==";
+        };
     in {
         "5XcJD5Lc" = _5XcJD5Lc;
         "JPeyv0ta" = _JPeyv0ta;
@@ -50,6 +55,7 @@ let
         "YDufK5IF" = _YDufK5IF;
         "tdgnq7il" = _tdgnq7il;
         "tlkBhTXs" = _tlkBhTXs;
+        "hhBLIOlx" = _hhBLIOlx;
         "minecraft-1.21" = _5XcJD5Lc;
         "minecraft-1.21.1" = _5XcJD5Lc;
         "minecraft-1.21.4" = _JPeyv0ta;
@@ -64,9 +70,11 @@ let
         "minecraft-26.1.1" = _tdgnq7il;
         "minecraft-26.1.2" = _tdgnq7il;
         "minecraft-26.2" = _tlkBhTXs;
+        "minecraft-26.3" = _hhBLIOlx;
         "pkg-1.0" = _tdgnq7il;
         "pkg-26.2" = _tlkBhTXs;
-        "default" = _tlkBhTXs;
+        "pkg-26.3" = _hhBLIOlx;
+        "default" = _hhBLIOlx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "faithless-pvp-edit";

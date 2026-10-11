@@ -71,6 +71,11 @@ let
             "file" = "bedrock-flavor-12.0.0.zip";
             "hash" = "sha512-diYNlBfLE8hbzuOk9AnAmzTtyKsjx7DQPAoHd7P3igayDkkW2DutMPY5d5EoBV7L4aSlcg8lb2/2keVj7UkjfQ==";
         };
+        _S6RuJfWg = {
+            "id" = "S6RuJfWg";
+            "file" = "bedrock-flavor-13.0.0.zip";
+            "hash" = "sha512-3ybXsVXWdPn9vmFkx6Dkrt0SKgBVtpo1oDdhI5Ec11JZK1hdGSqwgnYoC6MyKs9JH1qHV3SrHrOb6vxSbHkfYw==";
+        };
     in {
         "Xz5VRKW0" = _Xz5VRKW0;
         "z5D6hxnV" = _z5D6hxnV;
@@ -86,19 +91,20 @@ let
         "tB1dlfHD" = _tB1dlfHD;
         "id9wCxkG" = _id9wCxkG;
         "NPNaNGZC" = _NPNaNGZC;
-        "minecraft-1.21.4" = _NPNaNGZC;
-        "minecraft-1.21.5" = _NPNaNGZC;
-        "minecraft-1.21.6" = _NPNaNGZC;
-        "minecraft-1.21.7" = _NPNaNGZC;
-        "minecraft-1.21.8" = _NPNaNGZC;
-        "minecraft-1.21.9" = _NPNaNGZC;
-        "minecraft-1.21.10" = _NPNaNGZC;
-        "minecraft-1.21.11" = _NPNaNGZC;
-        "minecraft-26.1" = _NPNaNGZC;
-        "minecraft-26.1.1" = _NPNaNGZC;
-        "minecraft-26.1.2" = _NPNaNGZC;
-        "minecraft-26.2" = _NPNaNGZC;
-        "minecraft-26.3" = _NPNaNGZC;
+        "S6RuJfWg" = _S6RuJfWg;
+        "minecraft-1.21.4" = _S6RuJfWg;
+        "minecraft-1.21.5" = _S6RuJfWg;
+        "minecraft-1.21.6" = _S6RuJfWg;
+        "minecraft-1.21.7" = _S6RuJfWg;
+        "minecraft-1.21.8" = _S6RuJfWg;
+        "minecraft-1.21.9" = _S6RuJfWg;
+        "minecraft-1.21.10" = _S6RuJfWg;
+        "minecraft-1.21.11" = _S6RuJfWg;
+        "minecraft-26.1" = _S6RuJfWg;
+        "minecraft-26.1.1" = _S6RuJfWg;
+        "minecraft-26.1.2" = _S6RuJfWg;
+        "minecraft-26.2" = _S6RuJfWg;
+        "minecraft-26.3" = _S6RuJfWg;
         "pkg-0.0.1" = _Xz5VRKW0;
         "pkg-1.0.0" = _z5D6hxnV;
         "pkg-2.0.0" = _vAA4zBy5;
@@ -113,7 +119,8 @@ let
         "pkg-10.0.0" = _tB1dlfHD;
         "pkg-11.0.0" = _id9wCxkG;
         "pkg-12.0.0" = _NPNaNGZC;
-        "default" = _NPNaNGZC;
+        "pkg-13.0.0" = _S6RuJfWg;
+        "default" = _S6RuJfWg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bedrock-flavor";

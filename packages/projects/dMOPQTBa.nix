@@ -81,6 +81,21 @@ let
             "file" = "sivage-1.1.3-mc26.2.jar";
             "hash" = "sha512-49SWOphBIgPiKLnL++vXf+cv0VzZumg5yeDA9eZawaT9P6c/So8pI210ci/ezDvaesn9MqkaH0bnQqlE+1OE2w==";
         };
+        _jFujNDul = {
+            "id" = "jFujNDul";
+            "file" = "sivage-1.2.0+mc26.1.2.jar";
+            "hash" = "sha512-0AMjZJLHyftom7ynt491+iQ4o2/6PzRYOP6xPs2QwksLDBg0QDHsCfB2uY1iXodTN7+d0B2JTYxJiJfHnBi5GQ==";
+        };
+        _BlwCKW12 = {
+            "id" = "BlwCKW12";
+            "file" = "sivage-1.2.0+mc26.2.jar";
+            "hash" = "sha512-z67qA+yavYsyHUUQYwvBqBCqZ/H9ycJr4L1mNGhkAKbICoqn/fQBBI6GssULNdCrYLGJMboB3i3QeMMPNMSJLg==";
+        };
+        _rgr6MPq7 = {
+            "id" = "rgr6MPq7";
+            "file" = "sivage-1.2.0+mc26.3.jar";
+            "hash" = "sha512-gr7dqUNzX2aY3BTVFzb1rQAa36+tpxf9vWlLzvaWAB4V7Mr8YOEVtedGmLk5Io3duhyK/o7S5soPq5e8Y/Z1mw==";
+        };
     in {
         "ELr3fQ3U" = _ELr3fQ3U;
         "O4AcXC06" = _O4AcXC06;
@@ -98,16 +113,20 @@ let
         "FgwqCuMQ" = _FgwqCuMQ;
         "sItbWmDy" = _sItbWmDy;
         "mmFsYn0m" = _mmFsYn0m;
+        "jFujNDul" = _jFujNDul;
+        "BlwCKW12" = _BlwCKW12;
+        "rgr6MPq7" = _rgr6MPq7;
         "fabric-1.21.9" = _rJgjLtqu;
         "fabric-1.21.10" = _rJgjLtqu;
         "fabric-1.21.6" = _guQSMz8B;
         "fabric-1.21.7" = _guQSMz8B;
         "fabric-1.21.8" = _guQSMz8B;
         "fabric-1.21.11" = _sItbWmDy;
-        "fabric-26.1" = _FgwqCuMQ;
-        "fabric-26.1.1" = _FgwqCuMQ;
-        "fabric-26.1.2" = _FgwqCuMQ;
-        "fabric-26.2" = _mmFsYn0m;
+        "fabric-26.1" = _jFujNDul;
+        "fabric-26.1.1" = _jFujNDul;
+        "fabric-26.1.2" = _jFujNDul;
+        "fabric-26.2" = _BlwCKW12;
+        "fabric-26.3" = _rgr6MPq7;
         "pkg-0.1.0" = _ELr3fQ3U;
         "pkg-0.5.0" = _O4AcXC06;
         "pkg-1.0.0" = _MkpajAZ9;
@@ -115,7 +134,10 @@ let
         "pkg-1.1.1" = _wE3Mu4wm;
         "pkg-1.1.2" = _guQSMz8B;
         "pkg-1.1.3" = _mmFsYn0m;
-        "default" = _mmFsYn0m;
+        "pkg-1.2.0+mc26.1.2" = _jFujNDul;
+        "pkg-1.2.0+mc26.2" = _BlwCKW12;
+        "pkg-1.2.0+mc26.3" = _rgr6MPq7;
+        "default" = _rgr6MPq7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sivage";

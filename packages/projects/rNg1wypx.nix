@@ -101,6 +101,26 @@ let
             "file" = "pantrywork-0.7.0-neoforge-mc26.jar";
             "hash" = "sha512-9JLqWrFBN9HRwiBlXh8gIkEjbbgxg6ziE9WqSJJV+eYAnJlmnm9gwLd57yWknWA9l3I/Wz/2w7s3xcEPC7Zbpg==";
         };
+        _uCWCdzDI = {
+            "id" = "uCWCdzDI";
+            "file" = "pantrywork-0.8.0.jar";
+            "hash" = "sha512-+2h/bgDCKnDO8L/WAEGXvt3oM7QPRBrpykADVWaOfIB1TJmpAM5yH0DcbAjYie5gdEmV6LL6Bf+t3S1vbv+Bqw==";
+        };
+        _wFtiO9Xp = {
+            "id" = "wFtiO9Xp";
+            "file" = "pantrywork-0.8.0-fabric.jar";
+            "hash" = "sha512-POTn+QWIOBqxnCddG/+zF66mjE0XPPZ8Ehdj47qs7vp1NgV6VMIuSY6Stx5GyCKFF29B+jdiDNE/xpDT+x27Bg==";
+        };
+        _kRb3sPpB = {
+            "id" = "kRb3sPpB";
+            "file" = "pantrywork-0.8.0-fabric-mc26.jar";
+            "hash" = "sha512-r+/kQRHUfSVb10IG54D7ByWX6O/958RL3089OME+9XlvzqCm81Jrq3U6z7bBMgFf6iSEAIddfhzjKm0ZBnK2CA==";
+        };
+        _r6PivTBK = {
+            "id" = "r6PivTBK";
+            "file" = "pantrywork-0.8.0-neoforge-mc26.jar";
+            "hash" = "sha512-m7FZRBxb0x8M50+3W75gQCTEMdiwYafFuPBTW8fzPiy1FkAZG8OuQHX8Eakg4FAXoz0MbRP6xf8VVeaO5ou5bA==";
+        };
     in {
         "F9FSp4Rj" = _F9FSp4Rj;
         "sCFEz6LL" = _sCFEz6LL;
@@ -122,22 +142,26 @@ let
         "h49de57b" = _h49de57b;
         "S4xy0T4q" = _S4xy0T4q;
         "5qeBbfb4" = _5qeBbfb4;
-        "neoforge-1.21.1" = _tKKiqNdJ;
-        "neoforge-26.1.2" = _5qeBbfb4;
-        "neoforge-26.2" = _5qeBbfb4;
-        "fabric-1.21.1" = _h49de57b;
-        "fabric-1.21.3" = _h49de57b;
-        "fabric-1.21.5" = _h49de57b;
-        "fabric-1.21.6" = _h49de57b;
-        "fabric-1.21.7" = _h49de57b;
-        "fabric-1.21.8" = _h49de57b;
-        "fabric-1.21.9" = _h49de57b;
-        "fabric-1.21.10" = _h49de57b;
-        "fabric-1.21.11" = _h49de57b;
-        "fabric-1.21.2" = _h49de57b;
-        "fabric-1.21.4" = _h49de57b;
-        "fabric-26.1.2" = _S4xy0T4q;
-        "fabric-26.2" = _S4xy0T4q;
+        "uCWCdzDI" = _uCWCdzDI;
+        "wFtiO9Xp" = _wFtiO9Xp;
+        "kRb3sPpB" = _kRb3sPpB;
+        "r6PivTBK" = _r6PivTBK;
+        "neoforge-1.21.1" = _uCWCdzDI;
+        "neoforge-26.1.2" = _r6PivTBK;
+        "neoforge-26.2" = _r6PivTBK;
+        "fabric-1.21.1" = _wFtiO9Xp;
+        "fabric-1.21.3" = _wFtiO9Xp;
+        "fabric-1.21.5" = _wFtiO9Xp;
+        "fabric-1.21.6" = _wFtiO9Xp;
+        "fabric-1.21.7" = _wFtiO9Xp;
+        "fabric-1.21.8" = _wFtiO9Xp;
+        "fabric-1.21.9" = _wFtiO9Xp;
+        "fabric-1.21.10" = _wFtiO9Xp;
+        "fabric-1.21.11" = _wFtiO9Xp;
+        "fabric-1.21.2" = _wFtiO9Xp;
+        "fabric-1.21.4" = _wFtiO9Xp;
+        "fabric-26.1.2" = _kRb3sPpB;
+        "fabric-26.2" = _kRb3sPpB;
         "pkg-0.1.0" = _sCFEz6LL;
         "pkg-0.2.0+mc1.21.1" = _4yygEyyu;
         "pkg-0.2.0+mc1.21.x-fabric" = _sUEuUMNj;
@@ -157,7 +181,11 @@ let
         "pkg-0.7.0+mc1.21.x-fabric" = _h49de57b;
         "pkg-0.7.0+mc26-fabric" = _S4xy0T4q;
         "pkg-0.7.0+mc26" = _5qeBbfb4;
-        "default" = _5qeBbfb4;
+        "pkg-0.8.0+mc1.21.1" = _uCWCdzDI;
+        "pkg-0.8.0+mc1.21.x-fabric" = _wFtiO9Xp;
+        "pkg-0.8.0+mc26-fabric" = _kRb3sPpB;
+        "pkg-0.8.0+mc26" = _r6PivTBK;
+        "default" = _r6PivTBK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pantrywork";

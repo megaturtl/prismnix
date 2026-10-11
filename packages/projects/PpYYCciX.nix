@@ -106,6 +106,31 @@ let
             "file" = "motorassistancemod-forge-26.2-3.1.2.jar";
             "hash" = "sha512-iUs77WC/yfXo7tvQ29DPFKgmjgeyxTAk42wE3h1w3Qog5aEHTlUpyBSQclExjlzlc0fqxIVO99czTeFLXb1zcw==";
         };
+        _IjnuyQv5 = {
+            "id" = "IjnuyQv5";
+            "file" = "motorassistancemod-fabric-26.3-3.2.0.jar";
+            "hash" = "sha512-9G96LaZz8A3ckvevTPj4OiF98wzMNb8eVhzaDYQ2A6QM5u322WAE4whphnTzZGfCgUqJfi19FhqATb6RYUtFBg==";
+        };
+        _nvMjdFvh = {
+            "id" = "nvMjdFvh";
+            "file" = "motorassistancemod-neoforge-26.3-3.2.0.jar";
+            "hash" = "sha512-Xf7ZLe6XsjIKU7OVMnq/I5yDXtHmqP19PqtDR/Uc9xcdKRe/jXkl2vOFaUDoAjrnWxP0B1URtCl2jQ5Ma+XGrg==";
+        };
+        _RvRQIZLP = {
+            "id" = "RvRQIZLP";
+            "file" = "motorassistancemod-forge-26.3-3.2.0.jar";
+            "hash" = "sha512-NvsWzwH7mbThZ852NZ+ub/cm2hV7UwgeWDqo+XGuiFVD5gqxMtLkh8nNvkrNA8YhuS8fPfQUSQqSBwV5SsmTNA==";
+        };
+        _Lvpo9ZVd = {
+            "id" = "Lvpo9ZVd";
+            "file" = "motorassistancemod-fabric-26.3-3.2.0.jar";
+            "hash" = "sha512-HNQy2WHllCcsnD3sy0h2CnSnieZ5n92sZb5CU/GkDIGVsEmBV71BdTyvyEidBfkYdk2EdS+VjiRkpTD7GmV76A==";
+        };
+        _WHnfJKSe = {
+            "id" = "WHnfJKSe";
+            "file" = "motorassistancemod-neoforge-26.3-3.2.0.jar";
+            "hash" = "sha512-n6tI2CsvvNt0W2MmKFnZj4vxIEgujD2H7hGmzxg47EeIlG1lV1ssy4tLDYP8UdASfxmKjeB9jGcyRe+BbRiPWw==";
+        };
     in {
         "x29WVXQL" = _x29WVXQL;
         "3yAiQGwC" = _3yAiQGwC;
@@ -128,6 +153,11 @@ let
         "xyiXcQxM" = _xyiXcQxM;
         "SLOQXBTz" = _SLOQXBTz;
         "qsCutA3S" = _qsCutA3S;
+        "IjnuyQv5" = _IjnuyQv5;
+        "nvMjdFvh" = _nvMjdFvh;
+        "RvRQIZLP" = _RvRQIZLP;
+        "Lvpo9ZVd" = _Lvpo9ZVd;
+        "WHnfJKSe" = _WHnfJKSe;
         "fabric-1.20.1" = _xyiXcQxM;
         "fabric-1.21.1" = _E8cOvdHx;
         "fabric-1.21.2" = _E8cOvdHx;
@@ -144,8 +174,10 @@ let
         "fabric-26.1.1" = _6aaZ1cnr;
         "fabric-26.1.2" = _6aaZ1cnr;
         "fabric-26.2" = _AP8HcfRa;
+        "fabric-26.3" = _Lvpo9ZVd;
         "forge-1.20.1" = _SLOQXBTz;
         "forge-26.2" = _qsCutA3S;
+        "forge-26.3" = _RvRQIZLP;
         "neoforge-1.21.1" = _DmJhAeXI;
         "neoforge-1.21.2" = _DmJhAeXI;
         "neoforge-1.21.3" = _DmJhAeXI;
@@ -161,6 +193,7 @@ let
         "neoforge-26.1.1" = _u874NYHv;
         "neoforge-26.1.2" = _u874NYHv;
         "neoforge-26.2" = _TF5ZIkbu;
+        "neoforge-26.3" = _WHnfJKSe;
         "pkg-2.0.0" = _x29WVXQL;
         "pkg-2.1.0" = _1kkdEDhA;
         "pkg-3.0.0" = _6aaZ1cnr;
@@ -173,7 +206,12 @@ let
         "pkg-2.1.1-MC1.20.1-fabric" = _xyiXcQxM;
         "pkg-2.1.1-MC1.20.1-forge" = _SLOQXBTz;
         "pkg-3.1.2-MC26.2-forge" = _qsCutA3S;
-        "default" = _qsCutA3S;
+        "pkg-3.1.2-MC26.3-fabric" = _IjnuyQv5;
+        "pkg-3.1.2-MC26.3-neoforge" = _nvMjdFvh;
+        "pkg-3.2.0-MC26.3-forge" = _RvRQIZLP;
+        "pkg-3.2.0-MC26.3-fabric" = _Lvpo9ZVd;
+        "pkg-3.2.0-MC26.3-neoforge" = _WHnfJKSe;
+        "default" = _WHnfJKSe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "motor-assistance";

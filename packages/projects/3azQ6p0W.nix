@@ -531,6 +531,21 @@ let
             "file" = "cherishedworlds-neoforge-17.0.0+26.2.jar";
             "hash" = "sha512-mDvQClRL2dV2SNA3vLBL+L6ePk0a4K5OO3bLxjDf3g1KMDn1CHu8GbyRKKPiadDX5tME6Lu0jivHjaSNuQiMWA==";
         };
+        _ZuajuYr3 = {
+            "id" = "ZuajuYr3";
+            "file" = "cherishedworlds-forge-18.0.0+26.3.jar";
+            "hash" = "sha512-ntl+9Psax9RHKI1GjdKcAhITLehuqSg6cFO5V5sZ4fqjQAzApu5uDBrAHcUgWvy+3b11RfpoC6umIbBy0oCZBQ==";
+        };
+        _iPYipo7j = {
+            "id" = "iPYipo7j";
+            "file" = "cherishedworlds-fabric-18.0.0+26.3.jar";
+            "hash" = "sha512-TvnCo/czA4VGMLo7vW/9hXoeOyulhIh3vDQ4UQ7yueGY6orATI3f+t1g1Q3s+BADUL4EKGxDaKmuTBwCHjnLhw==";
+        };
+        _7JRzs33f = {
+            "id" = "7JRzs33f";
+            "file" = "cherishedworlds-neoforge-18.0.0+26.3.jar";
+            "hash" = "sha512-ggOF2sxv6FrVmVpWimS7QLOieOFvOtDOs0KRLFxmUrjyPmHMwqDq7MbPRIkU1kmZodaxgJmXT8JD9bq9bH2aDg==";
+        };
     in {
         "NKPlBLC1" = _NKPlBLC1;
         "pwxWkd2O" = _pwxWkd2O;
@@ -638,6 +653,9 @@ let
         "djLrdCPK" = _djLrdCPK;
         "VhoXPFdC" = _VhoXPFdC;
         "qfH3GNXv" = _qfH3GNXv;
+        "ZuajuYr3" = _ZuajuYr3;
+        "iPYipo7j" = _iPYipo7j;
+        "7JRzs33f" = _7JRzs33f;
         "forge-1.12.2" = _NKPlBLC1;
         "forge-1.13.2" = _pwxWkd2O;
         "forge-1.14.4" = _qnDN788i;
@@ -669,6 +687,7 @@ let
         "forge-26.1" = _xsCLDSj4;
         "forge-26.1.1" = _xsCLDSj4;
         "forge-26.1.2" = _xsCLDSj4;
+        "forge-26.3" = _ZuajuYr3;
         "fabric-1.16.5" = _mQ94ChQ3;
         "fabric-1.17" = _wGtvU9RG;
         "fabric-1.17.1" = _wGtvU9RG;
@@ -698,6 +717,7 @@ let
         "fabric-26.1.1" = _WQJIIT05;
         "fabric-26.1.2" = _WQJIIT05;
         "fabric-26.2" = _VhoXPFdC;
+        "fabric-26.3" = _iPYipo7j;
         "quilt-1.19.3" = _gxsQx3pW;
         "quilt-1.19.2" = _gxsQx3pW;
         "quilt-1.19.4" = _gxsQx3pW;
@@ -719,6 +739,7 @@ let
         "neoforge-26.1.1" = _djLrdCPK;
         "neoforge-26.1.2" = _djLrdCPK;
         "neoforge-26.2" = _qfH3GNXv;
+        "neoforge-26.3" = _7JRzs33f;
         "pkg-1.12.2-1.0.1" = _NKPlBLC1;
         "pkg-1.13.2-2.0-beta1" = _pwxWkd2O;
         "pkg-FORGE-1.14.4-2.0" = _qnDN788i;
@@ -765,7 +786,8 @@ let
         "pkg-16.0.0+26.1.2" = _bK316SkZ;
         "pkg-16.0.1+26.1.2" = _djLrdCPK;
         "pkg-17.0.0+26.2" = _qfH3GNXv;
-        "default" = _qfH3GNXv;
+        "pkg-18.0.0+26.3" = _7JRzs33f;
+        "default" = _7JRzs33f;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cherished-worlds";

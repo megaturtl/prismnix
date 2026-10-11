@@ -311,6 +311,16 @@ let
             "file" = "nemos_mossy_blocks-26.2-2.4.jar";
             "hash" = "sha512-Yg0OyDwHTOoU1rNL9bNp1eQ2iPXJ0Ew+a09hEgUyFRo/7ope8bb/eB9ye1xRVVl9iIfbn+34tresrEUJzFLZsg==";
         };
+        _5u4mK8G0 = {
+            "id" = "5u4mK8G0";
+            "file" = "nemos_mossy_blocks-26.3-2.4.jar";
+            "hash" = "sha512-NrjHBxUWu9GbTiHb8saSHoW6rODiEJioBnR9kvO3mk61n257BUkIZwWtFdMRWpoAF6EN8/iq9eitV3KR8WozdQ==";
+        };
+        _uJCtk4Qr = {
+            "id" = "uJCtk4Qr";
+            "file" = "nemos_mossy_blocks-26.3-2.4.1.jar";
+            "hash" = "sha512-3pmz8O3NPpQm9IQc06PaVkb5f+2xqKHb+0naLaGE0LXpOH+yPJxdzOZ1rMoeiMIURffNuHUGgwsCrLBWuLhxcA==";
+        };
     in {
         "UCqWWM4V" = _UCqWWM4V;
         "7H3nEPJT" = _7H3nEPJT;
@@ -374,6 +384,8 @@ let
         "qWlD4URp" = _qWlD4URp;
         "9MOv6Bzj" = _9MOv6Bzj;
         "IHINnUl1" = _IHINnUl1;
+        "5u4mK8G0" = _5u4mK8G0;
+        "uJCtk4Qr" = _uJCtk4Qr;
         "fabric-1.20.1" = _aJ8t7yVh;
         "fabric-1.20.4" = _H47ORpez;
         "fabric-1.20.5" = _AQ0XsFQd;
@@ -390,6 +402,7 @@ let
         "fabric-1.21.11" = _9nrVnZlb;
         "fabric-26.1.2" = _9MOv6Bzj;
         "fabric-26.2" = _IHINnUl1;
+        "fabric-26.3" = _uJCtk4Qr;
         "forge-1.21.8" = _mpAsQyaF;
         "forge-1.21.10" = _21LdAdco;
         "forge-1.21.11" = _QXHyqZYw;
@@ -452,7 +465,9 @@ let
         "pkg-1.21.11-2.0" = _qWlD4URp;
         "pkg-26.1.2-2.4" = _9MOv6Bzj;
         "pkg-26.2-2.4" = _IHINnUl1;
-        "default" = _IHINnUl1;
+        "pkg-26.3-2.4" = _5u4mK8G0;
+        "pkg-26.3-2.4.1" = _uJCtk4Qr;
+        "default" = _uJCtk4Qr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nemos-mossy-blocks";

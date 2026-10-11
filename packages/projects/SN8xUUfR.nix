@@ -81,6 +81,61 @@ let
             "file" = "adpother-26.2.0.1-neoforge-build.0168.jar";
             "hash" = "sha512-ogGsdA4qWjqZvLcjYwkxoyDLYcICTz+A5UAqpuxKeoL6lOvjD2+3LXlVvwKsSCvBnlhIzcQq7rg1pEcM+C2TyQ==";
         };
+        _VUXCgN29 = {
+            "id" = "VUXCgN29";
+            "file" = "adpother-26.3.0.0-neoforge-build.0062.jar";
+            "hash" = "sha512-n3qiMcPm7m5OSN5dPBV8AigNPyC0vfiblUD8qkH7SV+QgJNOwrNlHtDWq8i1VB2xE94vOgSwPPO7SXRdoqIf8w==";
+        };
+        _VF1IHnjQ = {
+            "id" = "VF1IHnjQ";
+            "file" = "adpother-26.3.0.0-fabric-build.0062.jar";
+            "hash" = "sha512-aoOnuqlWVFKExC7I5xgUJQqJRDp9HPlyF7N5469bQBhPcYxMXaSHCVcySwM9P+ifuXRtNXYxhQQnSYS7ztePcw==";
+        };
+        _df60mu5e = {
+            "id" = "df60mu5e";
+            "file" = "adpother-26.3.0.0-forge-build.0068.jar";
+            "hash" = "sha512-8p5rWrysv0yTMyPMRObAyPVox3yx+oVybLHL4YIH0yfjh+i8+vQkkUNmkzR6X0/swPB/YwRYNMoeUs/UKFfCjg==";
+        };
+        _CQLzhxfU = {
+            "id" = "CQLzhxfU";
+            "file" = "AdPother-1.21.1-9.1.11.0-NeoForge-build.1161.jar";
+            "hash" = "sha512-iqTGWjgqsqCL+2mPbJUZLnGFfD7Yn+EKt8fNlUPGiN7k1Hvnm96EhpKs4VPI/V2E3qAN5890qhBxNKFX9TgYmg==";
+        };
+        _s7kB7wTY = {
+            "id" = "s7kB7wTY";
+            "file" = "adpother-26.2.0.2-fabric-build.0201.jar";
+            "hash" = "sha512-MYerNjOvUxP3SRhOi9lo6RbgL5VPabO/gGpkVUpQnHUsEOR2NEPKq71v6C7VYOyuFKYxqT+zeeH5nt/gi9wveg==";
+        };
+        _CNQgjjJV = {
+            "id" = "CNQgjjJV";
+            "file" = "adpother-26.2.0.2-forge-build.0201.jar";
+            "hash" = "sha512-YxpNThZUuhXQ4d08rChGPPYwqP67PvS4SVWWgqBCtSptHHdie8N8gxYl3iY/lgQOch3JnheB/FzJV7YLNZeNxw==";
+        };
+        _WfD0R3Lx = {
+            "id" = "WfD0R3Lx";
+            "file" = "adpother-26.2.0.2-neoforge-build.0201.jar";
+            "hash" = "sha512-YHXdlYYhMPgq+hahI/nxgrzCYKcTa8anFBq2HxlHOVMQi1KrQcJTzeHxtG2m2miGusk/hRGhQLmMea8P1H/56w==";
+        };
+        _7biB1xfy = {
+            "id" = "7biB1xfy";
+            "file" = "AdPother-1.21.1-9.1.12.0-NeoForge-build.1184.jar";
+            "hash" = "sha512-dRV6Zvsfxdb+Pn1MZQW/GF2+sEOuGLFxNcaW0RivhqX9gNe3/xsEQX3CGlllhMkBlducIt7Ol/Dz7fy9tolm3w==";
+        };
+        _TP26wIXJ = {
+            "id" = "TP26wIXJ";
+            "file" = "adpother-26.3.0.1-fabric-build.0125.jar";
+            "hash" = "sha512-dGLbjsEWOreIrk4mIpGrgO75Cr0YbbGkLJqki5/JGQAPSbf2amwlKpff125Whc3Tn5gOm8LEK9jqRrLMGTSfaw==";
+        };
+        _npWpR5Mb = {
+            "id" = "npWpR5Mb";
+            "file" = "adpother-26.3.0.1-forge-build.0125.jar";
+            "hash" = "sha512-4rPfq7O3XzQpUiAKHWLiPscBo9K1fnm+bxB9l06Yl9L8Vf2W8Ts+oQbV6siBbpu8R4HhQRgKY19Det+pddCq2A==";
+        };
+        _W63usPto = {
+            "id" = "W63usPto";
+            "file" = "adpother-26.3.0.1-neoforge-build.0125.jar";
+            "hash" = "sha512-S9823DVwHpVfW2IRm6bFYn01vPO9TlqBMAuIoASiGOGT0wTgVCSTZ1i6pSausv82hHr0s9gDhDlW3fddvbOovg==";
+        };
     in {
         "OhXpN84v" = _OhXpN84v;
         "D2L4WQIM" = _D2L4WQIM;
@@ -98,11 +153,25 @@ let
         "DQVVms8V" = _DQVVms8V;
         "9u9O5UyF" = _9u9O5UyF;
         "yblXmef5" = _yblXmef5;
-        "fabric-26.2" = _DQVVms8V;
-        "forge-26.2" = _9u9O5UyF;
+        "VUXCgN29" = _VUXCgN29;
+        "VF1IHnjQ" = _VF1IHnjQ;
+        "df60mu5e" = _df60mu5e;
+        "CQLzhxfU" = _CQLzhxfU;
+        "s7kB7wTY" = _s7kB7wTY;
+        "CNQgjjJV" = _CNQgjjJV;
+        "WfD0R3Lx" = _WfD0R3Lx;
+        "7biB1xfy" = _7biB1xfy;
+        "TP26wIXJ" = _TP26wIXJ;
+        "npWpR5Mb" = _npWpR5Mb;
+        "W63usPto" = _W63usPto;
+        "fabric-26.2" = _s7kB7wTY;
+        "fabric-26.3" = _TP26wIXJ;
+        "forge-26.2" = _CNQgjjJV;
         "forge-1.20.1" = _R8wuN5f7;
-        "neoforge-26.2" = _yblXmef5;
-        "neoforge-1.21.1" = _Pk8F88mH;
+        "forge-26.3" = _npWpR5Mb;
+        "neoforge-26.2" = _WfD0R3Lx;
+        "neoforge-1.21.1" = _7biB1xfy;
+        "neoforge-26.3" = _W63usPto;
         "pkg-26.2.0.0" = _TcTYIqsW;
         "pkg-9.1.8.0" = _tDUTQWaM;
         "pkg-8.1.47.0" = _VxrvUfvB;
@@ -114,7 +183,12 @@ let
         "pkg-8.1.51.0" = _R8wuN5f7;
         "pkg-9.1.10.0" = _Pk8F88mH;
         "pkg-26.2.0.1" = _yblXmef5;
-        "default" = _yblXmef5;
+        "pkg-26.3.0.0" = _df60mu5e;
+        "pkg-9.1.11.0" = _CQLzhxfU;
+        "pkg-26.2.0.2" = _WfD0R3Lx;
+        "pkg-9.1.12.0" = _7biB1xfy;
+        "pkg-26.3.0.1" = _W63usPto;
+        "default" = _W63usPto;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pollution-of-the-realms";

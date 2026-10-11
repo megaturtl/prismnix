@@ -206,6 +206,11 @@ let
             "file" = "allomancy-6.4.0.jar";
             "hash" = "sha512-ZHfwTyE+0YDolwLDsewmGKyFT8EgsE9QCL6+03UxLSw9EjfGYGMr+UkI+OYPC8weun0Am79zzM5ESI1ZDxSXHQ==";
         };
+        _EUEPTon1 = {
+            "id" = "EUEPTon1";
+            "file" = "allomancy-6.5.0.jar";
+            "hash" = "sha512-qTlWq2g11iKeS+u5FooMgTuptE0T6Lgqu3tjGsRUKV248/xjkQ9uNAPoU07IJox7/5lxSd94TLFE7q1nYpeaUQ==";
+        };
     in {
         "t2twc31r" = _t2twc31r;
         "BuJvHbzV" = _BuJvHbzV;
@@ -248,6 +253,7 @@ let
         "EK1rowU3" = _EK1rowU3;
         "Q1OvA23a" = _Q1OvA23a;
         "VoD30fPD" = _VoD30fPD;
+        "EUEPTon1" = _EUEPTon1;
         "forge-1.10.2" = _t2twc31r;
         "forge-1.11.2" = _BuJvHbzV;
         "forge-1.12.2" = _BrOVD9Ta;
@@ -272,6 +278,7 @@ let
         "neoforge-1.21.11" = _GYIlJcuD;
         "neoforge-26.1.2" = _EK1rowU3;
         "neoforge-26.2" = _VoD30fPD;
+        "neoforge-26.3" = _EUEPTon1;
         "pkg-2.2.1" = _t2twc31r;
         "pkg-2.7.0b" = _BuJvHbzV;
         "pkg-2.9.1" = _BrOVD9Ta;
@@ -313,7 +320,8 @@ let
         "pkg-6.3.1" = _EK1rowU3;
         "pkg-6.1.0-backport3" = _Q1OvA23a;
         "pkg-6.4.0" = _VoD30fPD;
-        "default" = _VoD30fPD;
+        "pkg-6.5.0" = _EUEPTon1;
+        "default" = _EUEPTon1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "allomancy";

@@ -21,11 +21,17 @@ let
             "file" = "Hold-That-Chunk-V2-2.0.0+26.1.jar";
             "hash" = "sha512-iZbAem9Im3eXYsGmrQTWD4rRP6aES01sKqUNTtgwKyWJlhEtCbps8cAbcfF/ENJTyRSi6qV1RwyRaeqgNVjbnA==";
         };
+        _MQdgVyql = {
+            "id" = "MQdgVyql";
+            "file" = "Hold-That-Chunk-V2-2.0.0+26.3.jar";
+            "hash" = "sha512-jFbEcaH7P9Lbqk3tR3r3lC3Htc9bug8KmG6zhFpUZYq2g0P764cTASNWwL8zoWZHwKpiGRATR8MMBGPwSxMVWw==";
+        };
     in {
         "Z62rV7YU" = _Z62rV7YU;
         "tvN3Rgaw" = _tvN3Rgaw;
         "xRQGHfc9" = _xRQGHfc9;
         "XUOmDHl7" = _XUOmDHl7;
+        "MQdgVyql" = _MQdgVyql;
         "fabric-1.21" = _tvN3Rgaw;
         "fabric-1.21.1" = _tvN3Rgaw;
         "fabric-1.21.2" = _tvN3Rgaw;
@@ -42,11 +48,13 @@ let
         "fabric-26.1.1" = _XUOmDHl7;
         "fabric-26.1.2" = _XUOmDHl7;
         "fabric-26.2" = _XUOmDHl7;
+        "fabric-26.3" = _MQdgVyql;
         "pkg-1.0.0+1.21" = _Z62rV7YU;
         "pkg-2.0.0+1.21" = _tvN3Rgaw;
         "pkg-2.0.0+1.21.9" = _xRQGHfc9;
         "pkg-2.0.0+26.1" = _XUOmDHl7;
-        "default" = _XUOmDHl7;
+        "pkg-2.0.0+26.3" = _MQdgVyql;
+        "default" = _MQdgVyql;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hold-that-chunk-v2";

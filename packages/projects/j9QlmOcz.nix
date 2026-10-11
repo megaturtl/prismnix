@@ -31,6 +31,16 @@ let
             "file" = "redstone-torch-update-1.1.jar";
             "hash" = "sha512-uLFHPd5jDA0lSzbuuNqXrtcsbBTKtM4fpcJLgF/IdDPzzxFbxP8zxQj3YNZHZGfnvC74uJCBQ9Lu6xDksy2ymw==";
         };
+        _GukmKWfF = {
+            "id" = "GukmKWfF";
+            "file" = "moreredtorches.zip";
+            "hash" = "sha512-x88MhO7eTJI1w2DmNHFMh5zRKgnyalm8GZZCUkhqM6f8JfPnhDzlp2Y8mFsitzCQko4EDxA0L1m5vZab4rFq8g==";
+        };
+        _dIjxiU5f = {
+            "id" = "dIjxiU5f";
+            "file" = "moreredtorches.jar";
+            "hash" = "sha512-QlFv6skGr86DsZrdriVyBNpm9tjKSna17fsSNsUNS7DET0y/EHLM5nwLXMqp33olgujZZ1hGBxloK32JfRSkFg==";
+        };
     in {
         "4j9cUcw4" = _4j9cUcw4;
         "FJg851Fv" = _FJg851Fv;
@@ -38,6 +48,8 @@ let
         "sWh0ACih" = _sWh0ACih;
         "Qf6vs69U" = _Qf6vs69U;
         "wlLCHNt7" = _wlLCHNt7;
+        "GukmKWfF" = _GukmKWfF;
+        "dIjxiU5f" = _dIjxiU5f;
         "datapack-1.15" = _FJg851Fv;
         "datapack-1.15.1" = _FJg851Fv;
         "datapack-1.15.2" = _FJg851Fv;
@@ -68,6 +80,12 @@ let
         "datapack-1.21.1" = _FJg851Fv;
         "datapack-1.21.2" = _FJg851Fv;
         "datapack-1.21.3" = _FJg851Fv;
+        "datapack-1.21.11" = _GukmKWfF;
+        "datapack-26.1" = _GukmKWfF;
+        "datapack-26.1.1" = _GukmKWfF;
+        "datapack-26.1.2" = _GukmKWfF;
+        "datapack-26.2" = _GukmKWfF;
+        "datapack-26.3" = _GukmKWfF;
         "fabric-1.15" = _Qf6vs69U;
         "fabric-1.15.1" = _Qf6vs69U;
         "fabric-1.15.2" = _Qf6vs69U;
@@ -126,6 +144,12 @@ let
         "fabric-1.21.8" = _wlLCHNt7;
         "fabric-1.21.9" = _wlLCHNt7;
         "fabric-1.21.10" = _wlLCHNt7;
+        "fabric-1.21.11" = _dIjxiU5f;
+        "fabric-26.1" = _dIjxiU5f;
+        "fabric-26.1.1" = _dIjxiU5f;
+        "fabric-26.1.2" = _dIjxiU5f;
+        "fabric-26.2" = _dIjxiU5f;
+        "fabric-26.3" = _dIjxiU5f;
         "forge-1.15" = _Qf6vs69U;
         "forge-1.15.1" = _Qf6vs69U;
         "forge-1.15.2" = _Qf6vs69U;
@@ -184,6 +208,12 @@ let
         "forge-1.21.8" = _wlLCHNt7;
         "forge-1.21.9" = _wlLCHNt7;
         "forge-1.21.10" = _wlLCHNt7;
+        "forge-1.21.11" = _dIjxiU5f;
+        "forge-26.1" = _dIjxiU5f;
+        "forge-26.1.1" = _dIjxiU5f;
+        "forge-26.1.2" = _dIjxiU5f;
+        "forge-26.2" = _dIjxiU5f;
+        "forge-26.3" = _dIjxiU5f;
         "neoforge-1.15" = _Qf6vs69U;
         "neoforge-1.15.1" = _Qf6vs69U;
         "neoforge-1.15.2" = _Qf6vs69U;
@@ -242,6 +272,12 @@ let
         "neoforge-1.21.8" = _wlLCHNt7;
         "neoforge-1.21.9" = _wlLCHNt7;
         "neoforge-1.21.10" = _wlLCHNt7;
+        "neoforge-1.21.11" = _dIjxiU5f;
+        "neoforge-26.1" = _dIjxiU5f;
+        "neoforge-26.1.1" = _dIjxiU5f;
+        "neoforge-26.1.2" = _dIjxiU5f;
+        "neoforge-26.2" = _dIjxiU5f;
+        "neoforge-26.3" = _dIjxiU5f;
         "quilt-1.15" = _Qf6vs69U;
         "quilt-1.15.1" = _Qf6vs69U;
         "quilt-1.15.2" = _Qf6vs69U;
@@ -300,13 +336,21 @@ let
         "quilt-1.21.8" = _wlLCHNt7;
         "quilt-1.21.9" = _wlLCHNt7;
         "quilt-1.21.10" = _wlLCHNt7;
+        "quilt-1.21.11" = _dIjxiU5f;
+        "quilt-26.1" = _dIjxiU5f;
+        "quilt-26.1.1" = _dIjxiU5f;
+        "quilt-26.1.2" = _dIjxiU5f;
+        "quilt-26.2" = _dIjxiU5f;
+        "quilt-26.3" = _dIjxiU5f;
         "pkg-1.0" = _4j9cUcw4;
         "pkg-1.1" = _FJg851Fv;
         "pkg-1.1+mod" = _Ot3vNJFl;
         "pkg-1.0+mod" = _sWh0ACih;
         "pkg-1.5+mod" = _Qf6vs69U;
         "pkg-2.0+mod" = _wlLCHNt7;
-        "default" = _wlLCHNt7;
+        "pkg-2.5" = _GukmKWfF;
+        "pkg-2.5+mod" = _dIjxiU5f;
+        "default" = _dIjxiU5f;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "redstone-torch-update";

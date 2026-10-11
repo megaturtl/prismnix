@@ -281,6 +281,21 @@ let
             "file" = "Origins-Legacy-1.12.18+26.3.jar";
             "hash" = "sha512-riKDhxZfTiL4KFqnlLsPrMKssjLzKgQZdDppLJmfqmWqx78f6kqCebnkHhfMRI9E1OIh3oYV1CSlUnX5yW4sLQ==";
         };
+        _91Kplowz = {
+            "id" = "91Kplowz";
+            "file" = "Origins-Legacy-1.12.17+1.21.11.jar";
+            "hash" = "sha512-XDNDDZykhxhqRHi7Y9BBc4/u7gFMeneTiCEqNZNZlTvzMQaVVRA7aeWr0plaY17Srphwzwm+wgOpJaTIS0q2XA==";
+        };
+        _8vVu8FGY = {
+            "id" = "8vVu8FGY";
+            "file" = "Origins-Legacy-1.12.19+26.2.jar";
+            "hash" = "sha512-ys+aeMtoC2g3M6pJ88t6XUMZCX5+lGKOtgWOFqtsuRHvMvHvUV15wS0Fw9rgVJ4edCrareJjUyWFMWSwNGpmVw==";
+        };
+        _NewIs2H1 = {
+            "id" = "NewIs2H1";
+            "file" = "Origins-Legacy-1.12.19+26.3.jar";
+            "hash" = "sha512-trn0u2WhcNTgLCdtgiLznEiUnfNkhxNrt83Vi2rytVsRLSMYHuUL8zhx2CnPqLyr2iQvkrGLDdUZYvvowgll2w==";
+        };
     in {
         "fCnoEmHk" = _fCnoEmHk;
         "CzAIa7D3" = _CzAIa7D3;
@@ -338,17 +353,20 @@ let
         "EjUwFGt5" = _EjUwFGt5;
         "VeuMEQvA" = _VeuMEQvA;
         "2VSL3hML" = _2VSL3hML;
+        "91Kplowz" = _91Kplowz;
+        "8vVu8FGY" = _8vVu8FGY;
+        "NewIs2H1" = _NewIs2H1;
         "fabric-1.21.5" = _AwSwxNDd;
         "fabric-1.21.1" = _VeuMEQvA;
-        "fabric-1.21.11" = _loQes5GW;
+        "fabric-1.21.11" = _91Kplowz;
         "fabric-1.21.6" = _71s9ewRb;
         "fabric-1.21.7" = _aFkhvKlh;
         "fabric-1.21.8" = _71s9ewRb;
         "fabric-26.1" = _tP3XDjlk;
         "fabric-26.1.1" = _tP3XDjlk;
         "fabric-26.1.2" = _tP3XDjlk;
-        "fabric-26.2" = _Kj68jTnz;
-        "fabric-26.3" = _2VSL3hML;
+        "fabric-26.2" = _8vVu8FGY;
+        "fabric-26.3" = _NewIs2H1;
         "pkg-1.10.0+1.21.5" = _fCnoEmHk;
         "pkg-1.10.0+1.21.1" = _CzAIa7D3;
         "pkg-1.10.1+1.21.5" = _VWFWmpam;
@@ -405,7 +423,10 @@ let
         "pkg-1.11.9+1.21.1" = _EjUwFGt5;
         "pkg-1.11.10+1.21.1" = _VeuMEQvA;
         "pkg-1.12.18+26.3" = _2VSL3hML;
-        "default" = _2VSL3hML;
+        "pkg-1.12.17+1.21.11" = _91Kplowz;
+        "pkg-1.12.19+26.2" = _8vVu8FGY;
+        "pkg-1.12.19+26.3" = _NewIs2H1;
+        "default" = _NewIs2H1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "origins-legacy";

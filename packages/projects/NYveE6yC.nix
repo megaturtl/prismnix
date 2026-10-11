@@ -166,6 +166,11 @@ let
             "file" = "ji-afk-cinematic-26.1-26.2-2.3.1.jar";
             "hash" = "sha512-XQF/q9lVrPb3+9Xxy61O04pB4EjX40PW1W49vzZR7paeoAXMIG/rtg90zUp214OpgEPb3pVloYfSJU1VOd+kYA==";
         };
+        _7BvkctiX = {
+            "id" = "7BvkctiX";
+            "file" = "ji-afk-cinematic-26.3-2.3.2.jar";
+            "hash" = "sha512-TNfzWIhHGtPHDQ85Q3dmBqVAcjUrJMJKLSFBV385O3kXitk/swB0At+gGQ3XLYVYYk7OXB+L+XKy2VWLZ7rbZQ==";
+        };
     in {
         "T8ffiWQV" = _T8ffiWQV;
         "JeryP1dJ" = _JeryP1dJ;
@@ -200,6 +205,7 @@ let
         "iUsLbQt3" = _iUsLbQt3;
         "ViJLxeFd" = _ViJLxeFd;
         "FTFzUl1u" = _FTFzUl1u;
+        "7BvkctiX" = _7BvkctiX;
         "fabric-1.21.11" = _ViJLxeFd;
         "fabric-1.21" = _G8Mmx0PA;
         "fabric-1.21.1" = _G8Mmx0PA;
@@ -216,12 +222,14 @@ let
         "fabric-26.1.1" = _FTFzUl1u;
         "fabric-26.1.2" = _FTFzUl1u;
         "fabric-26.2" = _FTFzUl1u;
+        "fabric-26.3" = _7BvkctiX;
         "pkg-2.0.0" = _T8ffiWQV;
         "pkg-2.2.0" = _io5xpz0f;
         "pkg-2.2.1" = _gbljkq7f;
         "pkg-2.3.0" = _eVWpLMwP;
         "pkg-2.3.1" = _FTFzUl1u;
-        "default" = _FTFzUl1u;
+        "pkg-2.3.2" = _7BvkctiX;
+        "default" = _7BvkctiX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ji-afk-cinematic";

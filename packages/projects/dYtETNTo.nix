@@ -56,6 +56,11 @@ let
             "file" = "villagerdrops-v1.0.0-fabric-1.21.10.jar";
             "hash" = "sha512-xFrL87/zKuYeeu6QIYhjkZItqwVnYXhEjDiS8/FB5n2OuaoAd+xJbbfifvHtLIqGBaW6s0k2QablVgMHUhqU7g==";
         };
+        _llDjCsdR = {
+            "id" = "llDjCsdR";
+            "file" = "villagerdrops-neoforge-1.0.0+26.1.2.jar";
+            "hash" = "sha512-NUB1+vGTqGgeNhdNOI0EsMcZSssSFsmQKTpnbPJZBRkqplr5q3E4LDXVL/tC7C71eGM0hOyQuVwqZ422Fixf2w==";
+        };
     in {
         "dulKWTCy" = _dulKWTCy;
         "Tp9zLHYh" = _Tp9zLHYh;
@@ -68,6 +73,7 @@ let
         "8okF1BCy" = _8okF1BCy;
         "v93IEkjx" = _v93IEkjx;
         "1WsL9Z8e" = _1WsL9Z8e;
+        "llDjCsdR" = _llDjCsdR;
         "fabric-1.19.4" = _dulKWTCy;
         "fabric-1.20.1" = _Tp9zLHYh;
         "fabric-1.20.2" = _Uw6NNHmA;
@@ -80,14 +86,15 @@ let
         "quilt-1.20.1" = _Tp9zLHYh;
         "forge-1.20.1" = _kuh2PqVf;
         "forge-1.20" = _LTbJvHIQ;
+        "neoforge-26.1.2" = _llDjCsdR;
         "pkg-1.1.4" = _dulKWTCy;
         "pkg-1.1.6" = _Tp9zLHYh;
         "pkg-1.3.0" = _LTbJvHIQ;
         "pkg-1.1.8" = _Uw6NNHmA;
         "pkg-1.5.1" = _oEB4VLoo;
-        "pkg-1.0.0" = _1WsL9Z8e;
+        "pkg-1.0.0" = _llDjCsdR;
         "pkg-1.1.0" = _Spp2OJnB;
-        "default" = _1WsL9Z8e;
+        "default" = _llDjCsdR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "villagers-drop-emeralds-on-death";

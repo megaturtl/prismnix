@@ -336,6 +336,11 @@ let
             "file" = "DetailArmorBarReconstructed-5.3.2-26.3-neoforge.jar";
             "hash" = "sha512-dfXYw2OX2W/zWgRoLdHvALrUGK74UtJQTtQaSX73oFcblYjr9hJm355RqocE8jTzxeCBqAoSjBk96C6QnmNFuA==";
         };
+        _UTWbh8F4 = {
+            "id" = "UTWbh8F4";
+            "file" = "DetailArmorBarReconstructed-5.3.2-26.4-snapshot-1-fabric.jar";
+            "hash" = "sha512-zQL1ZIlvF3G2ISOJTd8JUrb7h87h6qtvdLH+OKvYm6WlI5Ju5WG1LB0NHEKc5uT+R9FU+FLVtp8mwxMi7PiJjQ==";
+        };
     in {
         "SUwF00A4" = _SUwF00A4;
         "qyngBZL0" = _qyngBZL0;
@@ -404,6 +409,7 @@ let
         "4VNIlCSx" = _4VNIlCSx;
         "A5X8OkYf" = _A5X8OkYf;
         "DdKjwzPs" = _DdKjwzPs;
+        "UTWbh8F4" = _UTWbh8F4;
         "fabric-1.21.5" = _XuMHXLZJ;
         "fabric-1.21.6" = _RIz58xSo;
         "fabric-1.21.7" = _RIz58xSo;
@@ -461,6 +467,8 @@ let
         "fabric-26.3-snapshot-1" = _WQdULtGc;
         "fabric-26.3-snapshot-2" = _4VNIlCSx;
         "fabric-26.3" = _A5X8OkYf;
+        "fabric-26.4-snapshot-1" = _UTWbh8F4;
+        "fabric-26.4-snapshot-2" = _UTWbh8F4;
         "neoforge-1.21" = _qePsyQOP;
         "neoforge-1.21.1" = _qePsyQOP;
         "neoforge-1.21.9" = _KZIPIcsB;
@@ -552,7 +560,8 @@ let
         "pkg-5.3.2-26.3-snapshot-2-fabric" = _4VNIlCSx;
         "pkg-5.3.2-26.3-fabric" = _A5X8OkYf;
         "pkg-5.3.2-26.3-neoforge" = _DdKjwzPs;
-        "default" = _DdKjwzPs;
+        "pkg-5.3.2-26.4-snapshot-1-fabric" = _UTWbh8F4;
+        "default" = _UTWbh8F4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "detail-armor-bar-reconstructed";

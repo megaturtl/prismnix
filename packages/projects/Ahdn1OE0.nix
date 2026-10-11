@@ -466,6 +466,16 @@ let
             "file" = "quality_food-1.20.1-2.4.3-all.jar";
             "hash" = "sha512-xBKRbhbftvYkpemMOLrtnNETIwHopD55D1QBa95LFYd5v+MCrP6mA2fr9NK65DPzft7ie4uejGSZgUzMnCec0w==";
         };
+        _pJH6Rbyt = {
+            "id" = "pJH6Rbyt";
+            "file" = "quality_food-1.20.1-2.4.4-all.jar";
+            "hash" = "sha512-5b0l5kV6mESLxlNgnIMK8i2tqYHZT4SSdFuSpzr0IDTzVMAkfrPBil13IG4YsJRwzHemZ1czsZlC+/mdXu4Fgg==";
+        };
+        _ZlbliS3h = {
+            "id" = "ZlbliS3h";
+            "file" = "quality_food-1.21.1-2.4.4.jar";
+            "hash" = "sha512-O39GP58kfogBKEsbOTtX7rK5BhWKAB4ZqR+ecI4k8Eb0oaAfivJW5yXmYIW4+aer13OQKeFGa/o917rNGX8qiA==";
+        };
     in {
         "OuSdx639" = _OuSdx639;
         "wcRtlwee" = _wcRtlwee;
@@ -560,14 +570,16 @@ let
         "4d9vfDsw" = _4d9vfDsw;
         "YRNizPJr" = _YRNizPJr;
         "Ja8x1NgV" = _Ja8x1NgV;
+        "pJH6Rbyt" = _pJH6Rbyt;
+        "ZlbliS3h" = _ZlbliS3h;
         "forge-1.19.2" = _Y4vDkvA6;
-        "forge-1.20" = _Ja8x1NgV;
-        "forge-1.20.1" = _Ja8x1NgV;
+        "forge-1.20" = _pJH6Rbyt;
+        "forge-1.20.1" = _pJH6Rbyt;
         "forge-1.18.2" = _KQ2NjHLp;
-        "neoforge-1.20" = _Ja8x1NgV;
-        "neoforge-1.20.1" = _Ja8x1NgV;
-        "neoforge-1.21" = _Z0Go9O9y;
-        "neoforge-1.21.1" = _Z0Go9O9y;
+        "neoforge-1.20" = _pJH6Rbyt;
+        "neoforge-1.20.1" = _pJH6Rbyt;
+        "neoforge-1.21" = _ZlbliS3h;
+        "neoforge-1.21.1" = _ZlbliS3h;
         "pkg-0.0.1" = _OuSdx639;
         "pkg-1.0.0" = _JkbpJ007;
         "pkg-1.0.2" = _B5GANcqI;
@@ -624,7 +636,8 @@ let
         "pkg-2.4.1" = _4d9vfDsw;
         "pkg-2.4.2" = _YRNizPJr;
         "pkg-2.4.3" = _Ja8x1NgV;
-        "default" = _Ja8x1NgV;
+        "pkg-2.4.4" = _ZlbliS3h;
+        "default" = _ZlbliS3h;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "quality-food";

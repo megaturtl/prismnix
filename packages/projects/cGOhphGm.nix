@@ -81,6 +81,16 @@ let
             "file" = "mineable-trial-spawner-v1.1.3.jar";
             "hash" = "sha512-WlRGLzTWqNRw3h/yPpN2olUJyL1OzRKoTHtGKXJwLd6sq2B/KK98uSThbGrC54eDuMFo7YZvC6yu0EXlzzUGiw==";
         };
+        _gzvGMCer = {
+            "id" = "gzvGMCer";
+            "file" = "mineable-trial-spawner-v1.2.0.zip";
+            "hash" = "sha512-xxpP3K1XKEpCGoktEPsonH9+7h6Aa3OH2frFU4lL9IAi5carUa1UY/cNM4gVp1Vig2S8tfOkyvLGDyadacFcYg==";
+        };
+        _SATeGXOo = {
+            "id" = "SATeGXOo";
+            "file" = "mineable-trial-spawner-v1.2.0.jar";
+            "hash" = "sha512-8chemXNdCWtDCf+YFG3O6B0esm/u6OaJuAOnG2PRubJ+bm2CsHGXAy66zMMGUANA6wHXg2JdmLEfbLneuM7Hlw==";
+        };
     in {
         "ep191NN8" = _ep191NN8;
         "UaiOP1F6" = _UaiOP1F6;
@@ -98,6 +108,8 @@ let
         "4W8jgzMK" = _4W8jgzMK;
         "7mE7GXZu" = _7mE7GXZu;
         "DnNhHjs8" = _DnNhHjs8;
+        "gzvGMCer" = _gzvGMCer;
+        "SATeGXOo" = _SATeGXOo;
         "datapack-1.21.5" = _ep191NN8;
         "datapack-1.21.6" = _7mE7GXZu;
         "datapack-1.21.7" = _7mE7GXZu;
@@ -109,6 +121,7 @@ let
         "datapack-26.1.1" = _7mE7GXZu;
         "datapack-26.1.2" = _7mE7GXZu;
         "datapack-26.2" = _7mE7GXZu;
+        "datapack-26.3" = _gzvGMCer;
         "fabric-1.21.5" = _UaiOP1F6;
         "fabric-1.21.6" = _DnNhHjs8;
         "fabric-1.21.7" = _DnNhHjs8;
@@ -120,6 +133,7 @@ let
         "fabric-26.1.1" = _DnNhHjs8;
         "fabric-26.1.2" = _DnNhHjs8;
         "fabric-26.2" = _DnNhHjs8;
+        "fabric-26.3" = _SATeGXOo;
         "forge-1.21.5" = _UaiOP1F6;
         "forge-1.21.6" = _DnNhHjs8;
         "forge-1.21.7" = _DnNhHjs8;
@@ -131,6 +145,7 @@ let
         "forge-26.1.1" = _DnNhHjs8;
         "forge-26.1.2" = _DnNhHjs8;
         "forge-26.2" = _DnNhHjs8;
+        "forge-26.3" = _SATeGXOo;
         "neoforge-1.21.5" = _UaiOP1F6;
         "neoforge-1.21.6" = _DnNhHjs8;
         "neoforge-1.21.7" = _DnNhHjs8;
@@ -142,6 +157,7 @@ let
         "neoforge-26.1.1" = _DnNhHjs8;
         "neoforge-26.1.2" = _DnNhHjs8;
         "neoforge-26.2" = _DnNhHjs8;
+        "neoforge-26.3" = _SATeGXOo;
         "quilt-1.21.5" = _UaiOP1F6;
         "quilt-1.21.6" = _DnNhHjs8;
         "quilt-1.21.7" = _DnNhHjs8;
@@ -153,6 +169,7 @@ let
         "quilt-26.1.1" = _DnNhHjs8;
         "quilt-26.1.2" = _DnNhHjs8;
         "quilt-26.2" = _DnNhHjs8;
+        "quilt-26.3" = _SATeGXOo;
         "pkg-v.1.0.0" = _ep191NN8;
         "pkg-v.1.0.0+mod" = _UaiOP1F6;
         "pkg-v1.1.0" = _RVk92y4J;
@@ -165,7 +182,9 @@ let
         "pkg-v1.1.2.1+mod" = _4W8jgzMK;
         "pkg-v1.1.3" = _7mE7GXZu;
         "pkg-v1.1.3+mod" = _DnNhHjs8;
-        "default" = _DnNhHjs8;
+        "pkg-v1.2.0" = _gzvGMCer;
+        "pkg-v1.2.0+mod" = _SATeGXOo;
+        "default" = _SATeGXOo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mineable-trial-spawner";

@@ -301,6 +301,21 @@ let
             "file" = "globalxp-fabric-26.2-1.13.jar";
             "hash" = "sha512-GYAk8HxQ/GNYfhmtCsReSUNS8LtGF8IBgzSIMCw5m6LX1zWcxTpdoNd1iQwH/Ec1h4jA/214z+Ukv65YwWGVog==";
         };
+        _CtYU6Z1P = {
+            "id" = "CtYU6Z1P";
+            "file" = "globalxp-neoforge-26.3-1.13.jar";
+            "hash" = "sha512-kmXhy8s3cecL2qGVfX/9hmspfRxzdsJtT+fawxiiRVZ5P0LFJLhKcAMz/cgmIV0MJVILvCnMAgVLqtB3Cw0T7Q==";
+        };
+        _AZ843aeH = {
+            "id" = "AZ843aeH";
+            "file" = "globalxp-fabric-26.3-1.13.jar";
+            "hash" = "sha512-MWXTY352uUbBad8+6JxEPkUwPbbv/mzhRDBTVnSq2IHy6n0XtAwBH4T6HC5+rWifnY2J5r9jN3J9pMqaeOoEdA==";
+        };
+        _A9f9IVHt = {
+            "id" = "A9f9IVHt";
+            "file" = "globalxp-neoforge-26.3-1.13.1.jar";
+            "hash" = "sha512-0crmRRXWXLYjOJSWBGMO4221m8XjYBCtdi2UyV9+S+l2+XqAPxaVj2lhBP8FsMPEIIRRpSwvlsFgbGyQTpZ7Gw==";
+        };
     in {
         "idv8Qmjh" = _idv8Qmjh;
         "N349khZl" = _N349khZl;
@@ -362,6 +377,9 @@ let
         "hc6aczMI" = _hc6aczMI;
         "XHYMK33j" = _XHYMK33j;
         "gvfWADGy" = _gvfWADGy;
+        "CtYU6Z1P" = _CtYU6Z1P;
+        "AZ843aeH" = _AZ843aeH;
+        "A9f9IVHt" = _A9f9IVHt;
         "forge-1.10.2" = _idv8Qmjh;
         "forge-1.11.2" = _N349khZl;
         "forge-1.12.2" = _rENQ2BpG;
@@ -396,6 +414,7 @@ let
         "fabric-26.1.1" = _hc6aczMI;
         "fabric-26.1.2" = _hc6aczMI;
         "fabric-26.2" = _gvfWADGy;
+        "fabric-26.3" = _AZ843aeH;
         "quilt-1.20.1" = _j2t9l6LR;
         "quilt-1.20.2" = _eV0BZhvO;
         "quilt-1.20.3" = _AnkHjCtV;
@@ -414,6 +433,7 @@ let
         "quilt-26.1.1" = _hc6aczMI;
         "quilt-26.1.2" = _hc6aczMI;
         "quilt-26.2" = _gvfWADGy;
+        "quilt-26.3" = _AZ843aeH;
         "neoforge-1.20.2" = _1hsSP30z;
         "neoforge-1.20.3" = _Vd2JN8yB;
         "neoforge-1.20.4" = _99Y12cbZ;
@@ -432,6 +452,7 @@ let
         "neoforge-26.1.1" = _fdPrpq21;
         "neoforge-26.1.2" = _fdPrpq21;
         "neoforge-26.2" = _XHYMK33j;
+        "neoforge-26.3" = _A9f9IVHt;
         "pkg-v1.4" = _N349khZl;
         "pkg-v1.4.10" = _myu4ZeE6;
         "pkg-v1.4.3" = _imUGfHi9;
@@ -448,8 +469,9 @@ let
         "pkg-v1.12" = _IsHozHo8;
         "pkg-v1.12.1" = _XsboH51Q;
         "pkg-v1.12.2" = _3cd7G7yy;
-        "pkg-v1.13" = _gvfWADGy;
-        "default" = _gvfWADGy;
+        "pkg-v1.13" = _AZ843aeH;
+        "pkg-v1.13.1" = _A9f9IVHt;
+        "default" = _A9f9IVHt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "global-xp";

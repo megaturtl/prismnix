@@ -296,6 +296,26 @@ let
             "file" = "UniversalBoneMeal-v26.2.0-mc26.2.x-Fabric.jar";
             "hash" = "sha512-EhxzOFVW/ttEpmDhJVRw+wiGorbjqFUVWzJoRZEojrjPjoF3H6Kxhs2d7854LoxMPhpRazCNH5P3TLjXsQBqyQ==";
         };
+        _J8ZBq7ux = {
+            "id" = "J8ZBq7ux";
+            "file" = "universalbonemeal-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-eAojCv16CB7ypNiWuXQZdKVm93IdaS2HnjDXaoSO6PDunrnzJ3R77+htU3zU4sXYU5YV3zjrIj5vFLMW7pVjbg==";
+        };
+        _LeYC1anz = {
+            "id" = "LeYC1anz";
+            "file" = "universalbonemeal-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-rhrUhBYj+7HWShvxZ52m9F+lnBKdh5wU+iMCJvofpWTAnvI3DJOKfWC7kYOwptv1yWbnJKUmfAIVcdJFG507PA==";
+        };
+        _uiF1k0NV = {
+            "id" = "uiF1k0NV";
+            "file" = "universalbonemeal-v26.3.1-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-gec8xdXEYijF0xMi+GaP5mPaJYefUoSkCgkgeksdXr2R8jJYOlHf78ykhW8LO49tjFhH3/3osYoGVfIAf6r33w==";
+        };
+        _ikcuA9Cf = {
+            "id" = "ikcuA9Cf";
+            "file" = "universalbonemeal-v26.3.1-mc26.3.x+fabric.jar";
+            "hash" = "sha512-pChqlPyLYsCTVlhYpWTHa0nlBGvziUqKcvKXuUgnwAv97tCjDiJOXwWNzE8rJiP4GugV2cxH30/QOQp9+/RSAg==";
+        };
     in {
         "smmFyvzR" = _smmFyvzR;
         "8uQv8Tvu" = _8uQv8Tvu;
@@ -356,6 +376,10 @@ let
         "wuGuZd3d" = _wuGuZd3d;
         "jyUayu3e" = _jyUayu3e;
         "DBr4XW76" = _DBr4XW76;
+        "J8ZBq7ux" = _J8ZBq7ux;
+        "LeYC1anz" = _LeYC1anz;
+        "uiF1k0NV" = _uiF1k0NV;
+        "ikcuA9Cf" = _ikcuA9Cf;
         "forge-1.19" = _240sWFba;
         "forge-1.19.1" = _uuvhNgzJ;
         "forge-1.19.2" = _uuvhNgzJ;
@@ -389,6 +413,7 @@ let
         "fabric-26.1.1" = _wuGuZd3d;
         "fabric-26.1.2" = _wuGuZd3d;
         "fabric-26.2" = _DBr4XW76;
+        "fabric-26.3" = _ikcuA9Cf;
         "neoforge-1.20.4" = _IoEv8x7w;
         "neoforge-1.21" = _X18P3NAh;
         "neoforge-1.21.1" = _5g9aZDW0;
@@ -405,6 +430,7 @@ let
         "neoforge-26.1.1" = _HYSsFTfE;
         "neoforge-26.1.2" = _HYSsFTfE;
         "neoforge-26.2" = _jyUayu3e;
+        "neoforge-26.3" = _uiF1k0NV;
         "pkg-v4.0.0-1.19-Forge" = _smmFyvzR;
         "pkg-v4.0.0-1.19-Fabric" = _8uQv8Tvu;
         "pkg-v4.0.1-1.19-Forge" = _240sWFba;
@@ -459,7 +485,9 @@ let
         "pkg-21.11.0" = _Dl9E9WFG;
         "pkg-26.1.0" = _wuGuZd3d;
         "pkg-26.2.0" = _DBr4XW76;
-        "default" = _DBr4XW76;
+        "pkg-26.3.0" = _LeYC1anz;
+        "pkg-26.3.1" = _ikcuA9Cf;
+        "default" = _ikcuA9Cf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "universal-bone-meal";

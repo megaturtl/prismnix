@@ -171,6 +171,11 @@ let
             "file" = "cookyourfood--mc1.21--fabric--1.12.3T.jar";
             "hash" = "sha512-Wm4ie3GMnIVl+JgSHi1IRpMZu3V//W6iRXBX8UDDq7nbib8LuVSo5ThpfEL28gOVS+j6+jwbbBmZ9dwSoYdh/A==";
         };
+        _DtA50HzH = {
+            "id" = "DtA50HzH";
+            "file" = "cookyourfood--mc26.3--fabric--1.14.2.jar";
+            "hash" = "sha512-L0xyosoz2bH/P+WQ5S/TTvFe1qT5Xn/m1eO7OAZZmm3dWez2wc+Sup5iqd4IKwhmwr3BFCz9EDF6VCrLi4tsvw==";
+        };
     in {
         "l2ciCs2h" = _l2ciCs2h;
         "S8KPdvm5" = _S8KPdvm5;
@@ -206,6 +211,7 @@ let
         "BBhmxvqB" = _BBhmxvqB;
         "rwDl5zX6" = _rwDl5zX6;
         "MJFeMAzA" = _MJFeMAzA;
+        "DtA50HzH" = _DtA50HzH;
         "forge-1.16.5" = _l2ciCs2h;
         "forge-1.18.2" = _OmFy5LN8;
         "forge-1.19.2" = _B5htLaAd;
@@ -221,6 +227,7 @@ let
         "quilt-26.1.1" = _YElaqxSt;
         "quilt-26.1.2" = _YElaqxSt;
         "quilt-26.2" = _uS46xe0k;
+        "quilt-26.3" = _DtA50HzH;
         "neoforge-1.20.1" = _kcuZ8ohc;
         "neoforge-1.20.4" = _rAijRCZK;
         "neoforge-1.20.6" = _71egiE5H;
@@ -243,6 +250,7 @@ let
         "fabric-26.1.1" = _vasUsd0S;
         "fabric-26.1.2" = _vasUsd0S;
         "fabric-26.2" = _uS46xe0k;
+        "fabric-26.3" = _DtA50HzH;
         "pkg-mc1.16--1.00" = _l2ciCs2h;
         "pkg-mc1.18--1.00" = _S8KPdvm5;
         "pkg-mc1.19--1.00" = _bVFo8neP;
@@ -263,9 +271,9 @@ let
         "pkg-1.14.1" = _E8wexdCd;
         "pkg-1.12.1" = _DqHsdvQ0;
         "pkg-1.12.2" = _Cq8nr9Ry;
-        "pkg-1.14.2" = _vasUsd0S;
+        "pkg-1.14.2" = _DtA50HzH;
         "pkg-1.12.3" = _MJFeMAzA;
-        "default" = _MJFeMAzA;
+        "default" = _DtA50HzH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cook-your-food";

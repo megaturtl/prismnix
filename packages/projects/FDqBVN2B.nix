@@ -86,6 +86,61 @@ let
             "file" = "punchy_puppies-2.0.1-fabric-1.20.1.jar";
             "hash" = "sha512-VlzcyRhVihlR3h8F9N6jUu1MiFohS5CFXycJvVBO+sCTMQexMZQ2EDBZACBp3iDGkCVWK+gVxZdJzmkR+K4bvw==";
         };
+        _NWOP94Kn = {
+            "id" = "NWOP94Kn";
+            "file" = "punchy_puppies-2.0.2-fabric-26.3.jar";
+            "hash" = "sha512-ViHyIW+FXRopt+/hSbA/ouZqHkVuQaKs+v2ruiI240eGhfvv75A7eejQ0yS+SCclT+i0GyeNeMvS4jYJy0Er0Q==";
+        };
+        _IpQxbqNh = {
+            "id" = "IpQxbqNh";
+            "file" = "punchy_puppies-2.0.2-forge-26.3.jar";
+            "hash" = "sha512-g/F2ZUsyk+s7zwkJRDhoxxtZYQtJBxWktlNnithPcs30gL0vcOSsn3xTldNQ+wflbrQezxTDNYRMLS/UIG6ikw==";
+        };
+        _npkZWiqd = {
+            "id" = "npkZWiqd";
+            "file" = "punchy_puppies-2.0.2-neoforge-26.3.jar";
+            "hash" = "sha512-Z5LFLatRLTQBoIsfwK84yqK4BcrFBDPqD7kD0zV/UYNrq5PSPqVrEkfz5icGDsPaAMinQOY/KT0Wp9HftCP+jg==";
+        };
+        _5xwF1TLP = {
+            "id" = "5xwF1TLP";
+            "file" = "punchy_puppies-2.0.4-fabric-1.20.1.jar";
+            "hash" = "sha512-Kr3JD/DHywoB013HQanGvchiqTq7az7ZwVUowhSZBpKyw/JeE4WfVh3Ox6HEiLtX/7YnEAMB+6b5HrHjs4k4zw==";
+        };
+        _FzFVjKLK = {
+            "id" = "FzFVjKLK";
+            "file" = "punchy_puppies-2.0.4-forge-1.20.1.jar";
+            "hash" = "sha512-D1ZAniQ2QMCHdSqRYCo62FE8dNDO+TPQsL5AbQNuBXWEg67tFcxwzu6+v07M6y3LMUPG8IyhpHGEaVyokeZsSA==";
+        };
+        _b35dvdxA = {
+            "id" = "b35dvdxA";
+            "file" = "punchy_puppies-2.0.4-fabric-1.21.1.jar";
+            "hash" = "sha512-e/gYoUYcEveBCsy7fy6b9l2uigGFH8h1Jpjc12bnPAXkEJft8a9+t1nIYRHbmch2LLGPNpQ884NFSGTQDGwrkw==";
+        };
+        _gBsjbdCR = {
+            "id" = "gBsjbdCR";
+            "file" = "punchy_puppies-2.0.4-neoforge-1.21.1.jar";
+            "hash" = "sha512-npEtFABD5UvVKJkyNAG0qGNEOICW36TUZjBClnLCvZxCKKI/AbaC7qDe7bs1uBc8TXouAwy+vKNwIbxCW3WYsw==";
+        };
+        _2tziFN0Y = {
+            "id" = "2tziFN0Y";
+            "file" = "punchy_puppies-2.0.4-fabric-26.2.jar";
+            "hash" = "sha512-2oqQ3WXpYkMno23FQWlSta4XKQfIuQVBve8KdI1v9rl/Em0bW04dgW5L781Gt6Cy3+RZ/0cwT/ZjHZyX4bVP0Q==";
+        };
+        _r9i8hrrk = {
+            "id" = "r9i8hrrk";
+            "file" = "punchy_puppies-2.0.4-fabric-26.3.jar";
+            "hash" = "sha512-t1uAH1i1xLuSFWqNP7qg/2qL7p5rB6nrIRhOxUlZIN76zoa7XM7B79glhLGGSfQKLDrIJD8U5eBQ0inJiEBLlw==";
+        };
+        _DJlzxXjy = {
+            "id" = "DJlzxXjy";
+            "file" = "punchy_puppies-2.0.4-forge-26.3.jar";
+            "hash" = "sha512-7JHuPAu1rNLK9H8510rPq/qQbYUFDng/eFyNBR3VVs2sWSQs2L1xFjsPw+L11ay1W7ILnzlUWZ1CzKgOHZXUgg==";
+        };
+        _sXSnsuy0 = {
+            "id" = "sXSnsuy0";
+            "file" = "punchy_puppies-2.0.4-neoforge-26.3.jar";
+            "hash" = "sha512-3Nnlt2Ptg81cPYe6ep5JietlZduLp+mw+bIq5MwIhfzIHL8VqWpVgAimVhlbuSJsbwL1F9V1nu7hqRk/Tmr/fw==";
+        };
     in {
         "oJuVvyvH" = _oJuVvyvH;
         "4JTFXx0K" = _4JTFXx0K;
@@ -104,20 +159,36 @@ let
         "PpY5OsbE" = _PpY5OsbE;
         "f98Mft8b" = _f98Mft8b;
         "TyxBXAjy" = _TyxBXAjy;
+        "NWOP94Kn" = _NWOP94Kn;
+        "IpQxbqNh" = _IpQxbqNh;
+        "npkZWiqd" = _npkZWiqd;
+        "5xwF1TLP" = _5xwF1TLP;
+        "FzFVjKLK" = _FzFVjKLK;
+        "b35dvdxA" = _b35dvdxA;
+        "gBsjbdCR" = _gBsjbdCR;
+        "2tziFN0Y" = _2tziFN0Y;
+        "r9i8hrrk" = _r9i8hrrk;
+        "DJlzxXjy" = _DJlzxXjy;
+        "sXSnsuy0" = _sXSnsuy0;
         "fabric-26.1" = _PpY5OsbE;
         "fabric-26.1.1" = _PpY5OsbE;
         "fabric-26.1.2" = _PpY5OsbE;
-        "fabric-26.2" = _FWj1rMBz;
-        "fabric-1.20.1" = _TyxBXAjy;
-        "fabric-1.21.1" = _f98Mft8b;
-        "forge-1.20.1" = _OFVWOAZY;
-        "neoforge-1.21.1" = _cCgFI4X8;
+        "fabric-26.2" = _2tziFN0Y;
+        "fabric-1.20.1" = _5xwF1TLP;
+        "fabric-1.21.1" = _b35dvdxA;
+        "fabric-26.3" = _r9i8hrrk;
+        "forge-1.20.1" = _FzFVjKLK;
+        "forge-26.3" = _DJlzxXjy;
+        "neoforge-1.21.1" = _gBsjbdCR;
+        "neoforge-26.3" = _sXSnsuy0;
         "pkg-26.1" = _4JTFXx0K;
         "pkg-26.1.x" = _o0lRTPtd;
         "pkg-1.0.2" = _kZSpY7AE;
         "pkg-2.0" = _MzMdTukb;
         "pkg-2.0.1" = _TyxBXAjy;
-        "default" = _TyxBXAjy;
+        "pkg-2.0.2" = _npkZWiqd;
+        "pkg-2.0.4" = _sXSnsuy0;
+        "default" = _sXSnsuy0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tiny-takeover-x-punchy";

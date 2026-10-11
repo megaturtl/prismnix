@@ -181,6 +181,26 @@ let
             "file" = "gemsrealm-1.20-2.9.9-forge.jar";
             "hash" = "sha512-7gA6FASuLK2sNdvVOPRUI17XEqMxSjEbIuNRwwBUjfi2uIWVN0FDhvR+Zzfl1voEI4jprXxYZTK+JPR+TgHUGg==";
         };
+        _sImxzIKF = {
+            "id" = "sImxzIKF";
+            "file" = "gemsrealm-1.21-2.11.4-fabric.jar";
+            "hash" = "sha512-q7Zh+AVVY5KIeWa5iLNGbSp7K62R9a2KF2X1auy1FLxyFX7E5WjQ4TSAB15pD7Bf+jV4cupRy7mU84Ay8oacZQ==";
+        };
+        _YISptdT0 = {
+            "id" = "YISptdT0";
+            "file" = "gemsrealm-1.21-2.11.4-neoforge.jar";
+            "hash" = "sha512-1kSMHadj7j9SXo0bySCl/z67t4dMbfP/Kr09+n9WNvIpQLZlroZBn1woKAAPBIFIiLWQ6BxEpSAPgi1JYedG0Q==";
+        };
+        _teIUKIyD = {
+            "id" = "teIUKIyD";
+            "file" = "gemsrealm-1.21-2.11.5-fabric.jar";
+            "hash" = "sha512-J/Zpz43Axe1wqaTJLz4FdS7DKEapzNWtjCK5nGAOLmH1z+piapYn686Cux7AjLF5P5CgL8GcDkW1u9lOm64LOQ==";
+        };
+        _iMuPtOS2 = {
+            "id" = "iMuPtOS2";
+            "file" = "gemsrealm-1.21-2.11.5-neoforge.jar";
+            "hash" = "sha512-RPFL3qXYvVdlCKzwK12jJeHqZ41Uui9LOJ6fWq2yCauYAB4fnCTxuj9VZSI4GqbVV/G0BpYda0xe/PS+AkA2uA==";
+        };
     in {
         "FkmAO0KL" = _FkmAO0KL;
         "OVIAVjv0" = _OVIAVjv0;
@@ -218,12 +238,16 @@ let
         "XIE0asyq" = _XIE0asyq;
         "obrctoRO" = _obrctoRO;
         "NXs2oCVM" = _NXs2oCVM;
+        "sImxzIKF" = _sImxzIKF;
+        "YISptdT0" = _YISptdT0;
+        "teIUKIyD" = _teIUKIyD;
+        "iMuPtOS2" = _iMuPtOS2;
         "fabric-1.20.1" = _obrctoRO;
         "fabric-1.21" = _dURHN7PY;
-        "fabric-1.21.1" = _dURHN7PY;
+        "fabric-1.21.1" = _teIUKIyD;
         "forge-1.20.1" = _NXs2oCVM;
         "neoforge-1.21" = _XIE0asyq;
-        "neoforge-1.21.1" = _XIE0asyq;
+        "neoforge-1.21.1" = _iMuPtOS2;
         "pkg-1.20-2.8.0-fabric" = _FkmAO0KL;
         "pkg-1.20-2.8.0-forge" = _OVIAVjv0;
         "pkg-1.20-2.8.1-fabric" = _wJl96Pm3;
@@ -260,7 +284,9 @@ let
         "pkg-1.21-2.11.3-neoforge" = _XIE0asyq;
         "pkg-1.20-2.9.9-fabric" = _obrctoRO;
         "pkg-1.20-2.9.9-forge" = _NXs2oCVM;
-        "default" = _NXs2oCVM;
+        "pkg-1.21-2.11.4" = _YISptdT0;
+        "pkg-1.21" = _iMuPtOS2;
+        "default" = _iMuPtOS2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gems-realm";

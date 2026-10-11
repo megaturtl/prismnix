@@ -516,6 +516,66 @@ let
             "file" = "Common Sense (NeoForge 1.21.1) V1.4.7.jar";
             "hash" = "sha512-+ghdPkC/AKAKUi7KlbZ9CQdn5bK0Q+VyM12x9rbEpvavugwHsr7CrEHa3X8UiqCa4puHkd3DlWKBV40G7fBBBA==";
         };
+        _23PSyyGv = {
+            "id" = "23PSyyGv";
+            "file" = "Common Sense (NeoForge 26.1.2) V1.0.0.jar";
+            "hash" = "sha512-Jkk2PP8zTD9vp9lNlnF4bX9uvbGTcnYzzx/zcZCqtvHoAxU3jx0mjwgcc3ZIeSrbp05+P9BSU8qjxjm8eAZ0+g==";
+        };
+        _It04MTwB = {
+            "id" = "It04MTwB";
+            "file" = "Common Sense (NeoForge 1.21.1) V1.4.8.jar";
+            "hash" = "sha512-Tbdd7Q3/cX2Mm3gdfZcv34QBiheECu0NyzCEzFIdpAcbjsGpf2JOsSyc5CGUbhKpt3EY3y/XkD0nYDaRq659cQ==";
+        };
+        _VIx4M7DE = {
+            "id" = "VIx4M7DE";
+            "file" = "Common Sense (NeoForge 1.21.1) V1.5.0.jar";
+            "hash" = "sha512-dI2A67KdGVLYhpFGT0G+cHCykbDvCLSh1Vil9dUc5YDzPbcleXlR75xvTpdziBlllRJ0OrcDKAccxxA+kfHLrQ==";
+        };
+        _IFUos4Zj = {
+            "id" = "IFUos4Zj";
+            "file" = "Common Sense (NeoForge 1.21.1) V1.5.1.jar";
+            "hash" = "sha512-t1bYEEXqb2AzrqewLrdH48z74uzFeC2bquKCb1zDRZTjcLiiA4S5pvwLmNYkLqG5jDRONSsDvr/S7Ht+La68Nw==";
+        };
+        _2TRK1HsU = {
+            "id" = "2TRK1HsU";
+            "file" = "Common Sense (NeoForge 1.21.1) V1.5.2.jar";
+            "hash" = "sha512-y2/uVQ5rxt9VfqVQ1o+hrrF7CxcdsEiUF68ZcFgjFb9nb7N/XRkPYI9mq0QKqJESoAGATrqmx2ooTZERQnZ/Fw==";
+        };
+        _Dk4uK5iZ = {
+            "id" = "Dk4uK5iZ";
+            "file" = "Common Sense (NeoForge 1.21.1) V1.5.4.jar";
+            "hash" = "sha512-de5pvSk5QBML/+lBGajM0F9rJsplH1JxwB9UT6Ua4bXWPAeeS+/DMWRnU7LU28MLgm7U1oTDDdzN0pBbe3Rc+A==";
+        };
+        _uN5qae2U = {
+            "id" = "uN5qae2U";
+            "file" = "Common Sense (NeoForge 1.21.1) V1.5.5.jar";
+            "hash" = "sha512-7xNdl6n7kJLEuLwosFoteZW2K1TdK1CxZIfuLpSnDKBAtFXLv4wNkasaA2a7gFD+KYRqf44Ycx55/uy8sreSgw==";
+        };
+        _GenGEx2l = {
+            "id" = "GenGEx2l";
+            "file" = "Common Sense (NeoForge 1.21.1) V1.5.6.jar";
+            "hash" = "sha512-5mQqP7s9LLsgkN5fagWjKubmWDgyIxQzDJGNkpHF5NAhXFTNcs6FY8vKDl6kQzyk1MBszMmtqW+zn635KC8Yiw==";
+        };
+        _k3xqih5r = {
+            "id" = "k3xqih5r";
+            "file" = "Common Sense (NeoForge 1.21.1) V1.5.7.jar";
+            "hash" = "sha512-OQ7/4IdsRmdLnwNwJrSqK4EdkGz8nc8G0HwMyfv1HWrRGriSwnwdB5Zqm8xWvbRFK10GA2w0FnufmnB1Fu3RLg==";
+        };
+        _mwAQ3PW8 = {
+            "id" = "mwAQ3PW8";
+            "file" = "Common Sense (NeoForge 1.21.1) V1.5.8.jar";
+            "hash" = "sha512-ZcJXzFLz7djMjyyj+4iWlxYZEQUUohpYJXFPCg20u/m+t5xtVxv38+FBZ3U5n0gL9QyG25X+f5vYgoCiSShkOA==";
+        };
+        _3fMHuWVv = {
+            "id" = "3fMHuWVv";
+            "file" = "Common Sense (NeoForge 1.21.1) V1.5.9.jar";
+            "hash" = "sha512-xX3TMxw9JKYO0ZnEyUuTlkC0kaH3kWjjallLDgN+E2/qGWfPT0RPFWAV+HqTPsJ3AOd9pUXIHdvaYHlOhiDUDA==";
+        };
+        _lyLtMkiI = {
+            "id" = "lyLtMkiI";
+            "file" = "Common Sense (NeoForge 1.21.1) V1.5.10.jar";
+            "hash" = "sha512-8/jlj/5GajVbvK2BatOpO92mx/SGDLNhFZ3flx+u/sJn80njZWmyAmHzFpIDuJ1vid4xiop443JiuAxDbYPSSA==";
+        };
     in {
         "4QbaKbbK" = _4QbaKbbK;
         "GgspiFFA" = _GgspiFFA;
@@ -620,6 +680,18 @@ let
         "9XJ8ksT7" = _9XJ8ksT7;
         "U228CnOc" = _U228CnOc;
         "ihg8DEtb" = _ihg8DEtb;
+        "23PSyyGv" = _23PSyyGv;
+        "It04MTwB" = _It04MTwB;
+        "VIx4M7DE" = _VIx4M7DE;
+        "IFUos4Zj" = _IFUos4Zj;
+        "2TRK1HsU" = _2TRK1HsU;
+        "Dk4uK5iZ" = _Dk4uK5iZ;
+        "uN5qae2U" = _uN5qae2U;
+        "GenGEx2l" = _GenGEx2l;
+        "k3xqih5r" = _k3xqih5r;
+        "mwAQ3PW8" = _mwAQ3PW8;
+        "3fMHuWVv" = _3fMHuWVv;
+        "lyLtMkiI" = _lyLtMkiI;
         "forge-1.19.2" = _9Uw9mVar;
         "forge-1.19.4" = _AkFtt4Pc;
         "forge-1.18.2" = _dgGssKhA;
@@ -632,13 +704,14 @@ let
         "neoforge-1.20.1" = _jErM0HM0;
         "neoforge-1.20.4" = _r7iGtN3p;
         "neoforge-1.20.6" = _3ZFbKune;
-        "neoforge-1.21.1" = _ihg8DEtb;
+        "neoforge-1.21.1" = _lyLtMkiI;
         "neoforge-1.21.4" = _qBP8P1Mn;
         "neoforge-1.21.8" = _pDoJve8v;
+        "neoforge-26.1.2" = _23PSyyGv;
         "pkg-2.1.1" = _WuGUBjpw;
         "pkg-2.0.8" = _eeHvs7gk;
         "pkg-1.0.4" = _ZKyP0eLC;
-        "pkg-1.0.0" = _FQoYRWDo;
+        "pkg-1.0.0" = _23PSyyGv;
         "pkg-2.0.1" = _mftRSZwd;
         "pkg-2.1.3" = _GIpH57JJ;
         "pkg-1.0.5" = _B8QWSTbw;
@@ -699,7 +772,18 @@ let
         "pkg-1.4.5" = _9XJ8ksT7;
         "pkg-1.4.6" = _U228CnOc;
         "pkg-1.4.7" = _ihg8DEtb;
-        "default" = _ihg8DEtb;
+        "pkg-1.4.8" = _It04MTwB;
+        "pkg-1.5.0" = _VIx4M7DE;
+        "pkg-1.5.1" = _IFUos4Zj;
+        "pkg-1.5.2" = _2TRK1HsU;
+        "pkg-1.5.4" = _Dk4uK5iZ;
+        "pkg-1.5.5" = _uN5qae2U;
+        "pkg-1.5.6" = _GenGEx2l;
+        "pkg-1.5.7" = _k3xqih5r;
+        "pkg-1.5.8" = _mwAQ3PW8;
+        "pkg-1.5.9" = _3fMHuWVv;
+        "pkg-1.5.10" = _lyLtMkiI;
+        "default" = _lyLtMkiI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-common-sense";

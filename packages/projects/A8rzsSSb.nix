@@ -1241,6 +1241,21 @@ let
             "file" = "Mini-boss Boss Bars 1.21.1 1.0.36.jar";
             "hash" = "sha512-C2gWsvNiLbJF0SzfNLewzHTqRcZgTJRenoMRQj7UMUpboM5hnf0LPrAvJSZgNMnIkMy1MPCSlZn2RDuI6aJrjA==";
         };
+        _UhWdVX5I = {
+            "id" = "UhWdVX5I";
+            "file" = "Mini-boss Boss Bars 1.20.1 1.0.179.jar";
+            "hash" = "sha512-WVz+KueqS3hKcrKfc+Tlyj0jEIK4N7LcfpiBdTzxyRLdA9JzLvZ5X7uaVNHLdthegr+oF7djNdnM0vvI5FUp/g==";
+        };
+        _iX83H8Om = {
+            "id" = "iX83H8Om";
+            "file" = "Mini-boss Boss Bars 1.21.1 1.0.37.zip";
+            "hash" = "sha512-CnycN6ZmxL85cqgRXC+vf9elBPI0TYsuLPTlOCmy5K1abYpzwb2QoVLORYU/2RvC6vUVqhUi6tazzKrOb9TuxA==";
+        };
+        _lbj1cuOl = {
+            "id" = "lbj1cuOl";
+            "file" = "Mini-boss Boss Bars 1.21.1 1.0.37.jar";
+            "hash" = "sha512-3+2nDFC/Iq+b2fitu/Fk9XyCQPlllQea6ke/QSJDoHQUPm/bXZ25riA+Ar+eOM8m6hyTvtwbe43mmnVaR0O4nw==";
+        };
     in {
         "r3AnSt4Q" = _r3AnSt4Q;
         "ErXtzrSI" = _ErXtzrSI;
@@ -1490,18 +1505,21 @@ let
         "DrFIX5nk" = _DrFIX5nk;
         "rxuDQ7yV" = _rxuDQ7yV;
         "nmMNy3a4" = _nmMNy3a4;
-        "forge-1.20.1" = _DrFIX5nk;
-        "forge-1.21" = _nmMNy3a4;
-        "forge-1.21.1" = _nmMNy3a4;
-        "neoforge-1.20.1" = _DrFIX5nk;
-        "neoforge-1.21" = _nmMNy3a4;
-        "neoforge-1.21.1" = _nmMNy3a4;
-        "datapack-1.21" = _rxuDQ7yV;
-        "datapack-1.21.1" = _rxuDQ7yV;
-        "fabric-1.21" = _nmMNy3a4;
-        "fabric-1.21.1" = _nmMNy3a4;
-        "quilt-1.21" = _nmMNy3a4;
-        "quilt-1.21.1" = _nmMNy3a4;
+        "UhWdVX5I" = _UhWdVX5I;
+        "iX83H8Om" = _iX83H8Om;
+        "lbj1cuOl" = _lbj1cuOl;
+        "forge-1.20.1" = _UhWdVX5I;
+        "forge-1.21" = _lbj1cuOl;
+        "forge-1.21.1" = _lbj1cuOl;
+        "neoforge-1.20.1" = _UhWdVX5I;
+        "neoforge-1.21" = _lbj1cuOl;
+        "neoforge-1.21.1" = _lbj1cuOl;
+        "datapack-1.21" = _iX83H8Om;
+        "datapack-1.21.1" = _iX83H8Om;
+        "fabric-1.21" = _lbj1cuOl;
+        "fabric-1.21.1" = _lbj1cuOl;
+        "quilt-1.21" = _lbj1cuOl;
+        "quilt-1.21.1" = _lbj1cuOl;
         "pkg-1.0.0" = _ncFPTY3L;
         "pkg-1.0.1" = _aP5beT8w;
         "pkg-1.0.2" = _IIlhcUNs;
@@ -1539,7 +1557,7 @@ let
         "pkg-1.0.34" = _HaSFZckf;
         "pkg-1.0.35" = _nWBFaslG;
         "pkg-1.0.36" = _nmMNy3a4;
-        "pkg-1.0.37" = _6BUGZPbV;
+        "pkg-1.0.37" = _lbj1cuOl;
         "pkg-1.0.38" = _7HFs0mVk;
         "pkg-1.0.39" = _3VxVg1oX;
         "pkg-1.0.40" = _VNnFgOQs;
@@ -1676,7 +1694,8 @@ let
         "pkg-1.0.176" = _j2KqazLQ;
         "pkg-1.0.177" = _GONL8osT;
         "pkg-1.0.178" = _DrFIX5nk;
-        "default" = _nmMNy3a4;
+        "pkg-1.0.179" = _UhWdVX5I;
+        "default" = _lbj1cuOl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mini-boss-boss-bars";

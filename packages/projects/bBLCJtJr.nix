@@ -81,6 +81,11 @@ let
             "file" = "Pretty Clear Water(1.19-1.19.2).zip";
             "hash" = "sha512-gkqcTr1w/lVpdnTtoiNsvdz0duCWJtdd4jSKu6kVI5LitifiChPrdkleDvsXBbxqBhoEggHNJzUG8MUksU6mrw==";
         };
+        _Fu4NIO5s = {
+            "id" = "Fu4NIO5s";
+            "file" = "Pretty Clear Water(26.3).zip";
+            "hash" = "sha512-HN6bQLMS2dOQkdCJMaazcY7uG1LUcoqikJwzAgsIuO08WTmJFhhQMVOydoMZAdIXPt72+RKcYDvUDwrq9G+o7w==";
+        };
     in {
         "vIPZYIt8" = _vIPZYIt8;
         "UNBaYvQR" = _UNBaYvQR;
@@ -98,6 +103,7 @@ let
         "mVSOpyPi" = _mVSOpyPi;
         "AmzAEhjx" = _AmzAEhjx;
         "yztfIQoM" = _yztfIQoM;
+        "Fu4NIO5s" = _Fu4NIO5s;
         "minecraft-1.21.11" = _5VlWdKBx;
         "minecraft-1.20" = _UNBaYvQR;
         "minecraft-1.20.1" = _UNBaYvQR;
@@ -223,6 +229,7 @@ let
         "minecraft-1.19" = _yztfIQoM;
         "minecraft-1.19.1" = _yztfIQoM;
         "minecraft-1.19.2" = _yztfIQoM;
+        "minecraft-26.3" = _Fu4NIO5s;
         "pkg-1.0" = _vIPZYIt8;
         "pkg-1.20-1.21.11" = _UNBaYvQR;
         "pkg-26.1" = _sbpZ7xuE;
@@ -239,7 +246,8 @@ let
         "pkg-1.19.3" = _mVSOpyPi;
         "pkg-1.19.4" = _AmzAEhjx;
         "pkg-1.19-1.19.2" = _yztfIQoM;
-        "default" = _yztfIQoM;
+        "pkg-26.3" = _Fu4NIO5s;
+        "default" = _Fu4NIO5s;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pretty-clear-water";

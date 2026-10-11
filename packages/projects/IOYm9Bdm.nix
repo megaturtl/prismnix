@@ -76,6 +76,11 @@ let
             "file" = "waig-1.1.12-mc26.2.jar";
             "hash" = "sha512-KcIp512HiLquTZ5f4c9jZrVcuUSgyXRNSxgl1ty88ESnKkfVcuoE0Mc34PkAcccivE7hxVnoBvV7zg/obJkTJg==";
         };
+        _9X8OUP3H = {
+            "id" = "9X8OUP3H";
+            "file" = "waig-1.1.13-mc26.3.jar";
+            "hash" = "sha512-9BFIsdacilAqkZp+KLIcpKpvK3Q4K6f4tP+HjrDJkgXmyg/RSibo2PnA8bd9x4F/wrgPCGgnt6vA2jtbEKUcKA==";
+        };
     in {
         "4PguhYIA" = _4PguhYIA;
         "9k08DDdx" = _9k08DDdx;
@@ -92,6 +97,7 @@ let
         "62wsEDee" = _62wsEDee;
         "1dwPdqLL" = _1dwPdqLL;
         "84tCGwQz" = _84tCGwQz;
+        "9X8OUP3H" = _9X8OUP3H;
         "fabric-1.18" = _JzdGzo1f;
         "fabric-1.18.1" = _JzdGzo1f;
         "fabric-1.18.2" = _JzdGzo1f;
@@ -123,6 +129,7 @@ let
         "fabric-26.1.1" = _1dwPdqLL;
         "fabric-26.1.2" = _1dwPdqLL;
         "fabric-26.2" = _84tCGwQz;
+        "fabric-26.3" = _9X8OUP3H;
         "pkg-1.1.3" = _4PguhYIA;
         "pkg-1.1.4" = _4Xhw2Qzs;
         "pkg-1.1.5" = _epxHQRhx;
@@ -133,7 +140,8 @@ let
         "pkg-1.1.10" = _62wsEDee;
         "pkg-1.1.11" = _1dwPdqLL;
         "pkg-1.1.12" = _84tCGwQz;
-        "default" = _84tCGwQz;
+        "pkg-1.1.13" = _9X8OUP3H;
+        "default" = _9X8OUP3H;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "waig";

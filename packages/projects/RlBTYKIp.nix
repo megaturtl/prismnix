@@ -131,6 +131,11 @@ let
             "file" = "camera-obscura-fabric-2.0.0+26.1.2.jar";
             "hash" = "sha512-3/UH9Jr/Zbi76mTd/iH5BoUuSOxEocpH8TCNKUApS7gA91KceoorY23SzCJGu4RmkOWbhruthgkrLPFFwJAeLg==";
         };
+        _KWj6GEgT = {
+            "id" = "KWj6GEgT";
+            "file" = "camera-obscura-fabric-2.1.1+26.3.jar";
+            "hash" = "sha512-hlsFp4ASCqnx3TzAeftRnkdchfwtCg13A4sCJQOBHahf6mb7zIYSOQw1/B3frW2F+UFIaa3/3mFoFZF77ftDnA==";
+        };
     in {
         "w8EqMYhv" = _w8EqMYhv;
         "uI9I1CSV" = _uI9I1CSV;
@@ -158,6 +163,7 @@ let
         "YivkxQXz" = _YivkxQXz;
         "tBBv79hS" = _tBBv79hS;
         "cVSrHECt" = _cVSrHECt;
+        "KWj6GEgT" = _KWj6GEgT;
         "fabric-1.20.1" = _Vw2vrDc0;
         "fabric-1.20.4" = _nw7VNz9L;
         "fabric-1.20.6" = _fL2rjueH;
@@ -179,6 +185,7 @@ let
         "fabric-26.1" = _cVSrHECt;
         "fabric-26.1.1" = _cVSrHECt;
         "fabric-26.1.2" = _cVSrHECt;
+        "fabric-26.3" = _KWj6GEgT;
         "pkg-1.0.0+1.20.1" = _w8EqMYhv;
         "pkg-1.0.0+1.20.4" = _uI9I1CSV;
         "pkg-1.0.0+1.20.6" = _ZjgyYoBD;
@@ -205,7 +212,8 @@ let
         "pkg-1.2.3+26.1" = _YivkxQXz;
         "pkg-2.0.0-beta.1+26.1" = _tBBv79hS;
         "pkg-2.0.0+26.1.2" = _cVSrHECt;
-        "default" = _cVSrHECt;
+        "pkg-2.1.1+26.3" = _KWj6GEgT;
+        "default" = _KWj6GEgT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "camera-obscura";

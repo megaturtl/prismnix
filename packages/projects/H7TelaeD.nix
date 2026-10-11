@@ -211,6 +211,16 @@ let
             "file" = "Color Splash [DP] v1.3.5 - 26.3+.zip";
             "hash" = "sha512-TKgVsvmnRcmsVwbokcdheAeyZ4FZvba2tomHJJZZ2KhfEW0kR/rvizZHOjGJujRACFxN2Y+i3E55cPg9t0ukMw==";
         };
+        _svPjclia = {
+            "id" = "svPjclia";
+            "file" = "colorsplash-neoforge-1.0.0.jar";
+            "hash" = "sha512-Nqx+gFBFK5Mv0o2dacbljChaTU/xZ38UA4EMXom2f356IKHlK1ob/Lgm3Rz2nV1glu5Eqk2jsLLFFqBKLCEctg==";
+        };
+        _NaSXBkmq = {
+            "id" = "NaSXBkmq";
+            "file" = "Color Splash [DP] v1.3.6 - 26.3+.zip";
+            "hash" = "sha512-TKgVsvmnRcmsVwbokcdheAeyZ4FZvba2tomHJJZZ2KhfEW0kR/rvizZHOjGJujRACFxN2Y+i3E55cPg9t0ukMw==";
+        };
     in {
         "CeuqMQrS" = _CeuqMQrS;
         "NAHaZOgb" = _NAHaZOgb;
@@ -254,6 +264,8 @@ let
         "80eZV0GK" = _80eZV0GK;
         "2HmOxCAw" = _2HmOxCAw;
         "hJ3lzFCR" = _hJ3lzFCR;
+        "svPjclia" = _svPjclia;
+        "NaSXBkmq" = _NaSXBkmq;
         "datapack-1.21.5" = _nZr6tJFu;
         "datapack-1.21.6" = _nZr6tJFu;
         "datapack-1.21.7" = _nZr6tJFu;
@@ -272,7 +284,7 @@ let
         "datapack-1.21.2" = _vJyjaujD;
         "datapack-1.21.3" = _vJyjaujD;
         "datapack-1.21.4" = _vJyjaujD;
-        "datapack-1.21.11" = _hJ3lzFCR;
+        "datapack-1.21.11" = _NaSXBkmq;
         "datapack-23w31a" = _cNi7YNYD;
         "datapack-23w32a" = _cNi7YNYD;
         "datapack-23w33a" = _cNi7YNYD;
@@ -325,14 +337,14 @@ let
         "datapack-24w44a" = _vJyjaujD;
         "datapack-24w45a" = _vJyjaujD;
         "datapack-24w46a" = _vJyjaujD;
-        "datapack-26.1" = _hJ3lzFCR;
-        "datapack-26.1.1" = _hJ3lzFCR;
-        "datapack-26.1.2" = _hJ3lzFCR;
-        "datapack-26.2" = _hJ3lzFCR;
+        "datapack-26.1" = _NaSXBkmq;
+        "datapack-26.1.1" = _NaSXBkmq;
+        "datapack-26.1.2" = _NaSXBkmq;
+        "datapack-26.2" = _NaSXBkmq;
         "datapack-26.3-snapshot-1" = _59ymjviV;
         "datapack-26.3-snapshot-2" = _59ymjviV;
         "datapack-26.3-snapshot-3" = _59ymjviV;
-        "datapack-26.3" = _hJ3lzFCR;
+        "datapack-26.3" = _NaSXBkmq;
         "fabric-1.20" = _oI50OgDZ;
         "fabric-1.20.1" = _oI50OgDZ;
         "fabric-1.20.2" = _oI50OgDZ;
@@ -503,7 +515,7 @@ let
         "neoforge-1.21.7" = _d5TrkRHm;
         "neoforge-1.21.8" = _d5TrkRHm;
         "neoforge-1.21" = _ejq6ozLv;
-        "neoforge-1.21.1" = _ejq6ozLv;
+        "neoforge-1.21.1" = _svPjclia;
         "neoforge-1.21.2" = _ejq6ozLv;
         "neoforge-1.21.3" = _ejq6ozLv;
         "neoforge-1.21.4" = _ejq6ozLv;
@@ -667,7 +679,9 @@ let
         "pkg-v1.3.4" = _80eZV0GK;
         "pkg-v1.3.4+packaged" = _2HmOxCAw;
         "pkg-v1.3.5" = _hJ3lzFCR;
-        "default" = _hJ3lzFCR;
+        "pkg-v1.0.0+neoforge" = _svPjclia;
+        "pkg-v1.3.6" = _NaSXBkmq;
+        "default" = _NaSXBkmq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trims-color-splash";

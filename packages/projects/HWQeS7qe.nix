@@ -41,6 +41,26 @@ let
             "file" = "sensible_survival-neoforge-1.1.1+1.21.1.jar";
             "hash" = "sha512-PBVcxEim9g9nXh2GM5NyiOGzs+oxh5QBZm6kZZ7IwQYzMPikARhDWfWJOSWYPCT0jVdUb+Ah03Q5OaEsUXJkPg==";
         };
+        _EtLUaaGa = {
+            "id" = "EtLUaaGa";
+            "file" = "sensible_survival-fabric-1.1.2+1.21.1.jar";
+            "hash" = "sha512-+sBh/7hr0vyYKKUirszFbTyNr4Xklc+SERuEqw5/DxqhRhAFkBpedw47gDS+B/Tt8P1/uVDsdJtSIEjyFIoFtg==";
+        };
+        _gTpc15TU = {
+            "id" = "gTpc15TU";
+            "file" = "sensible_survival-neoforge-1.1.2+1.21.1.jar";
+            "hash" = "sha512-h6NDxARmWjVnmjntliWEYgrqW7GznSglFBov02a+SvP7UwIMfE1V8Zq0JsT2mQermh7XPKwsAMiJ6dlbhrdHdQ==";
+        };
+        _Fc9Sd9Wm = {
+            "id" = "Fc9Sd9Wm";
+            "file" = "sensible_survival-neoforge-1.1.2+1.21.1.jar";
+            "hash" = "sha512-zTrtxRGVwtMeGjU3NMPr/mMV1kdQcujCoHnBX1zEUovJ8lNppxBLmQUk/7o7qlKnIDmfhdg/ldI2Xi1a+BDoGw==";
+        };
+        _7vY6jxho = {
+            "id" = "7vY6jxho";
+            "file" = "sensible_survival-fabric-1.1.2+1.21.1.jar";
+            "hash" = "sha512-RoGX7bacJ+q9egx9DyyLTxTnxz1W8bbvVtYh+LylJ/AUAq2aEhseblgFa78FFpauMLmJREIUipJPI1nYW+ISjA==";
+        };
     in {
         "8GNJinmL" = _8GNJinmL;
         "54k7rJXR" = _54k7rJXR;
@@ -50,8 +70,12 @@ let
         "W6zCJhdF" = _W6zCJhdF;
         "rLpfc5hM" = _rLpfc5hM;
         "VLysUazT" = _VLysUazT;
-        "fabric-1.21.1" = _rLpfc5hM;
-        "neoforge-1.21.1" = _VLysUazT;
+        "EtLUaaGa" = _EtLUaaGa;
+        "gTpc15TU" = _gTpc15TU;
+        "Fc9Sd9Wm" = _Fc9Sd9Wm;
+        "7vY6jxho" = _7vY6jxho;
+        "fabric-1.21.1" = _7vY6jxho;
+        "neoforge-1.21.1" = _Fc9Sd9Wm;
         "pkg-1.0.0-fabric" = _8GNJinmL;
         "pkg-1.0.0-neoforge" = _54k7rJXR;
         "pkg-1.0.1-neoforge" = _5qXtGkJf;
@@ -60,7 +84,9 @@ let
         "pkg-1.1.0+1.21.1-fabric" = _W6zCJhdF;
         "pkg-1.1.1+1.21.1-fabric" = _rLpfc5hM;
         "pkg-1.1.1+1.21.1-neoforge" = _VLysUazT;
-        "default" = _VLysUazT;
+        "pkg-1.1.2+1.21.1-fabric" = _7vY6jxho;
+        "pkg-1.1.2+1.21.1-neoforge" = _Fc9Sd9Wm;
+        "default" = _7vY6jxho;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sensible-survival";

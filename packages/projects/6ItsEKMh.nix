@@ -271,6 +271,26 @@ let
             "file" = "homesteads-2.0.2-for-neoforge-1.21.1.jar";
             "hash" = "sha512-EVaYuF3ssLHTxLLcdGTRNhqpoFhAY6XmbnANE5WAX1CwGlMB8ZV/vkce+nM3hmY/Y5Au5auqFsavuqK0p+UzEw==";
         };
+        _6HNKw8Io = {
+            "id" = "6HNKw8Io";
+            "file" = "homesteads-2.0.2-for-fabric-26.3.jar";
+            "hash" = "sha512-g8mdbIsg3D2jB1TVM5uZI8b+L3xNvtbQcelsDxDwtlXQl5x48/1jslryDhDh4ORDp6yoJf4/h+nwE3z+e3n/Eg==";
+        };
+        _f5JC3TEH = {
+            "id" = "f5JC3TEH";
+            "file" = "homesteads-2.0.2-for-neoforge-26.3.jar";
+            "hash" = "sha512-KDJHjWKvrs0rcu2XbEXhwWOX7VHWErFM7JxiYyD4HeDdVbwx7+wlAMrWTier5DmAgVbcSJdSEdMAJ5SzGh3ttA==";
+        };
+        _frkAwiAs = {
+            "id" = "frkAwiAs";
+            "file" = "homesteads-2.0.3-for-fabric-26.3.jar";
+            "hash" = "sha512-rJqjNrQPE9qAs/x30g4l8aPxenjbOv2bka+V79vu4j6QLEo4AuMHudkBlSKyFccIRbRi5bgIyXLWTj6DwWgqmg==";
+        };
+        _nVy350zS = {
+            "id" = "nVy350zS";
+            "file" = "homesteads-2.0.3-for-neoforge-26.3.jar";
+            "hash" = "sha512-g+hSMhkc3bnCc5KjSFi28cQB4rT736u7lxKDgBnhZG/j7TKlNdViCTGgPa2YGrCZfUcuAaz/Fs5VIqnu2tlO4A==";
+        };
     in {
         "MGqMdIzV" = _MGqMdIzV;
         "kTr4cdgj" = _kTr4cdgj;
@@ -326,6 +346,10 @@ let
         "v42Bl0N6" = _v42Bl0N6;
         "frhpGFWE" = _frhpGFWE;
         "BJknEPC5" = _BJknEPC5;
+        "6HNKw8Io" = _6HNKw8Io;
+        "f5JC3TEH" = _f5JC3TEH;
+        "frkAwiAs" = _frkAwiAs;
+        "nVy350zS" = _nVy350zS;
         "forge-1.20.1" = _NCdJwlUp;
         "forge-1.20.4" = _kTr4cdgj;
         "neoforge-1.21.1" = _BJknEPC5;
@@ -340,6 +364,7 @@ let
         "neoforge-26.1.1" = _ncqv6cHj;
         "neoforge-26.1.2" = _v42Bl0N6;
         "neoforge-26.2" = _frhpGFWE;
+        "neoforge-26.3" = _nVy350zS;
         "fabric-1.21.5" = _LNHhpzOe;
         "fabric-1.21.7" = _HyObqHFs;
         "fabric-1.21.8" = _UweXSmTS;
@@ -352,13 +377,15 @@ let
         "fabric-26.1.1" = _v7DdSNDx;
         "fabric-26.1.2" = _3rnY811V;
         "fabric-26.2" = _MrjsgJwR;
+        "fabric-26.3" = _frkAwiAs;
         "pkg-1.0.0" = _n8swKPuB;
         "pkg-1.0.1" = _XVVhtZS7;
         "pkg-1.0.2" = _4Jrvdk9L;
         "pkg-2.0.0" = _AU9B1eRZ;
         "pkg-2.0.1" = _frhpGFWE;
-        "pkg-2.0.2" = _BJknEPC5;
-        "default" = _BJknEPC5;
+        "pkg-2.0.2" = _f5JC3TEH;
+        "pkg-2.0.3" = _nVy350zS;
+        "default" = _nVy350zS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "homesteads";

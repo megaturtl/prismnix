@@ -161,6 +161,16 @@ let
             "file" = "elytra_physics-fabric-2.6.2_mc26.2.jar";
             "hash" = "sha512-BDNdyITGW91ztLPHBBoO4oMVB5UcImy2/XRL/Z8f3ETzU0FMN5csnly8Bk/TYlJqOhlAOVzPtOKujMj9BVQsEw==";
         };
+        _izD1FgSi = {
+            "id" = "izD1FgSi";
+            "file" = "elytra_physics-neoforge-2.6.3_mc26.3.jar";
+            "hash" = "sha512-UWejZni/YjhfOTLuLDjo/jsLDER+un4UFxhr6tSyP+mjrHUvqo1ERKXMv5vYyO7BUA3i/ZYUD1MCliMxjPHK4Q==";
+        };
+        _gWeGx7Ew = {
+            "id" = "gWeGx7Ew";
+            "file" = "elytra_physics-fabric-2.6.3_mc26.3.jar";
+            "hash" = "sha512-E+PggH6oYHSV9176WNAPvloMKRC88dsfdX4C7u+CNnAoW3dAJZG+qUIRztIouSjSNe3D6dK0X4ZIftvbQ4nMkw==";
+        };
     in {
         "uiihaj2v" = _uiihaj2v;
         "btsBRRLa" = _btsBRRLa;
@@ -194,6 +204,8 @@ let
         "qBoDyl55" = _qBoDyl55;
         "B08s3Kun" = _B08s3Kun;
         "FALV3Yz5" = _FALV3Yz5;
+        "izD1FgSi" = _izD1FgSi;
+        "gWeGx7Ew" = _gWeGx7Ew;
         "fabric-1.19.3" = _yAUOaj4e;
         "fabric-1.19.4" = _yAUOaj4e;
         "fabric-1.20" = _LjiOYh5s;
@@ -227,6 +239,7 @@ let
         "fabric-26.1.1" = _dgN7yrvj;
         "fabric-26.1.2" = _dgN7yrvj;
         "fabric-26.2" = _FALV3Yz5;
+        "fabric-26.3" = _gWeGx7Ew;
         "forge-1.20.1" = _O5WBZsjC;
         "forge-1.20.2" = _f7h654DL;
         "forge-1.20.3" = _f7h654DL;
@@ -271,6 +284,7 @@ let
         "neoforge-26.2" = _B08s3Kun;
         "neoforge-1.20" = _O5WBZsjC;
         "neoforge-1.20.1" = _O5WBZsjC;
+        "neoforge-26.3" = _izD1FgSi;
         "pkg-2.0" = _btsBRRLa;
         "pkg-1.1.1" = _CcYl7Pnu;
         "pkg-2.1_mc1.19.3-1.20.4" = _bKktSqKA;
@@ -288,7 +302,8 @@ let
         "pkg-2.6.2_mc1.20.1" = _LjiOYh5s;
         "pkg-2.6.2_mc1.21.1" = _qBoDyl55;
         "pkg-2.6.2_mc26.2" = _FALV3Yz5;
-        "default" = _FALV3Yz5;
+        "pkg-2.6.3_mc26.3" = _gWeGx7Ew;
+        "default" = _gWeGx7Ew;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elytra-physics";

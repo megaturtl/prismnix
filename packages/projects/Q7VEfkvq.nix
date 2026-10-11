@@ -201,6 +201,26 @@ let
             "file" = "skyrecipes-0.5.11+26.2.jar";
             "hash" = "sha512-kT2mvo4X/Gcl/6sGb+lEzFCmqEoNnhQiIvd1Fi38HIGM5obiY+y/D1UuItOLgZloKQW+uMvNwpjBNlbBjS13Dw==";
         };
+        _NHIV35Ia = {
+            "id" = "NHIV35Ia";
+            "file" = "skyrecipes-0.5.12+26.1.2.jar";
+            "hash" = "sha512-wSWzLFm4piDmA1o4ge6s68F8DXnXICxF4+I6/uuqaOX/dqk9HVqTAGMbo22LYFYdvJ3Oof6YSHI57pBG8vYBuQ==";
+        };
+        _rMYF3vpw = {
+            "id" = "rMYF3vpw";
+            "file" = "skyrecipes-0.5.12+26.2.jar";
+            "hash" = "sha512-5O8w3BJVXDHV/yiLJ7mKKxJebp7GVGJGJyF1NhsuVjOK9/xYGzgr040obaADnC6okX1El4SqqyNXoEW0chO9jA==";
+        };
+        _3oXGzOkQ = {
+            "id" = "3oXGzOkQ";
+            "file" = "skyrecipes-0.5.13+26.1.2.jar";
+            "hash" = "sha512-aanGw7usYriBYZUYD/Su8ORGNkG5uWIPF0Lb6sIt9wp+DAZYzUjmX/kTGYfYbkfBwIxlFYkVxCFOTui9fr68hA==";
+        };
+        _RuqdGQIT = {
+            "id" = "RuqdGQIT";
+            "file" = "skyrecipes-0.5.13+26.2.jar";
+            "hash" = "sha512-MvXE29o9wUK8ic3D43R7X/aiCu2cri4+CPISnVHWZt0aHdGZDIjn1luJpjOR3UC0zHR20j8dOxL9xzNra10APg==";
+        };
     in {
         "WbrS3DNQ" = _WbrS3DNQ;
         "u3W1qY5A" = _u3W1qY5A;
@@ -242,10 +262,14 @@ let
         "zdCKOw7N" = _zdCKOw7N;
         "PzrUZy6V" = _PzrUZy6V;
         "9chBQa9p" = _9chBQa9p;
-        "fabric-26.1" = _PzrUZy6V;
-        "fabric-26.1.1" = _PzrUZy6V;
-        "fabric-26.1.2" = _PzrUZy6V;
-        "fabric-26.2" = _9chBQa9p;
+        "NHIV35Ia" = _NHIV35Ia;
+        "rMYF3vpw" = _rMYF3vpw;
+        "3oXGzOkQ" = _3oXGzOkQ;
+        "RuqdGQIT" = _RuqdGQIT;
+        "fabric-26.1" = _3oXGzOkQ;
+        "fabric-26.1.1" = _3oXGzOkQ;
+        "fabric-26.1.2" = _3oXGzOkQ;
+        "fabric-26.2" = _RuqdGQIT;
         "pkg-v0.1.0-mc26.1.2" = _WbrS3DNQ;
         "pkg-v0.2.0-mc26.1.2" = _u3W1qY5A;
         "pkg-v0.2.1-mc26.1.2" = _Dphii8pL;
@@ -286,7 +310,11 @@ let
         "pkg-v0.5.10-mc26.2" = _zdCKOw7N;
         "pkg-v0.5.11-mc26.1.2" = _PzrUZy6V;
         "pkg-v0.5.11-mc26.2" = _9chBQa9p;
-        "default" = _9chBQa9p;
+        "pkg-v0.5.12-mc26.1.2" = _NHIV35Ia;
+        "pkg-v0.5.12-mc26.2" = _rMYF3vpw;
+        "pkg-v0.5.13-mc26.1.2" = _3oXGzOkQ;
+        "pkg-v0.5.13-mc26.2" = _RuqdGQIT;
+        "default" = _RuqdGQIT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enhanced-skyrecipes";

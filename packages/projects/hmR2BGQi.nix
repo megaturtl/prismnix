@@ -46,6 +46,11 @@ let
             "file" = "hypixel-chat-tabs-26.1.2-1.0.6.jar";
             "hash" = "sha512-Y476+gYEhm19rBF/fxWoRJVNaA2M8ZlrYPriDhoNj0s3Q5UvOt9Soe/vHQoJVp9MA0jSVKaJ3552W6FvL0cySw==";
         };
+        _rdNbTqLN = {
+            "id" = "rdNbTqLN";
+            "file" = "hypixel-chat-tabs-26.2-1.0.6.jar";
+            "hash" = "sha512-d2HYWrBarPbMGrfV53wklcdN0KIL4aBLFrfyy6O1qd2YqLXvkd+immKLNZ4yN+DL+3Uvm4S4vau+5mr3Ojy4Yw==";
+        };
     in {
         "6gwNMmyu" = _6gwNMmyu;
         "anaEPTV6" = _anaEPTV6;
@@ -56,17 +61,19 @@ let
         "bV9P6Myo" = _bV9P6Myo;
         "ktZ0EE1C" = _ktZ0EE1C;
         "VFHCfoTH" = _VFHCfoTH;
+        "rdNbTqLN" = _rdNbTqLN;
         "fabric-1.21.8" = _Sqv4g76W;
         "fabric-1.21.9" = _brkLcLNd;
         "fabric-1.21.10" = _brkLcLNd;
         "fabric-1.21.11" = _bV9P6Myo;
         "fabric-26.1.2" = _VFHCfoTH;
+        "fabric-26.2" = _rdNbTqLN;
         "pkg-1.0.2" = _6gwNMmyu;
         "pkg-1.0.3" = _YEJ5NXFe;
         "pkg-1.0.4" = _bV9P6Myo;
         "pkg-1.0.5" = _ktZ0EE1C;
-        "pkg-1.0.6" = _VFHCfoTH;
-        "default" = _VFHCfoTH;
+        "pkg-1.0.6" = _rdNbTqLN;
+        "default" = _rdNbTqLN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hypixel-chat-tabs";

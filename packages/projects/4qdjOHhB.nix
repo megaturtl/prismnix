@@ -36,6 +36,11 @@ let
             "file" = "tooltiptoggles-1.2.4.jar";
             "hash" = "sha512-OIoR4hrcm/XGXjblwZnpxfmkapAIGjtxKPVhfkeoTNCU3fn6LwJJHEf1LpxMdnO1nPaIJUY/48IZ3Hx3K226QA==";
         };
+        _ksf7dyia = {
+            "id" = "ksf7dyia";
+            "file" = "tooltiptoggles-1.3.2+26.2.jar";
+            "hash" = "sha512-KuyFAwQg1g3y8wDWHibQ9jlimgFnYvKsRsc/srgs0j/LNIohPL7fuUseb9iJ0Edu/xafrEZL8Ed170v1wAbzgQ==";
+        };
     in {
         "qfEzBSB1" = _qfEzBSB1;
         "anLUn0aO" = _anLUn0aO;
@@ -44,6 +49,7 @@ let
         "Rs9IzWzh" = _Rs9IzWzh;
         "Egk5VS3J" = _Egk5VS3J;
         "bs2gYoEE" = _bs2gYoEE;
+        "ksf7dyia" = _ksf7dyia;
         "fabric-1.21" = _bs2gYoEE;
         "fabric-1.21.1" = _bs2gYoEE;
         "fabric-1.21.2" = _bs2gYoEE;
@@ -59,14 +65,16 @@ let
         "fabric-26.1" = _Rs9IzWzh;
         "fabric-26.1.1" = _Rs9IzWzh;
         "fabric-26.1.2" = _Rs9IzWzh;
-        "fabric-26.2" = _Egk5VS3J;
+        "fabric-26.2" = _ksf7dyia;
+        "fabric-26.3" = _ksf7dyia;
         "pkg-1.2.0" = _qfEzBSB1;
         "pkg-1.2.1" = _anLUn0aO;
         "pkg-1.2.3" = _B5AofYkE;
         "pkg-1.2.4" = _bs2gYoEE;
         "pkg-1.3.0" = _Rs9IzWzh;
         "pkg-1.3.1" = _Egk5VS3J;
-        "default" = _bs2gYoEE;
+        "pkg-1.3.2+26.2" = _ksf7dyia;
+        "default" = _ksf7dyia;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tooltiptoggles";

@@ -131,6 +131,21 @@ let
             "file" = "HotVP-forge-1.21.10.jar";
             "hash" = "sha512-HO5w9xg+1pcNYlodhMaYKf4sCJizKURHlKLqOM/Ftbn59PrCdzPOEBm1rFSkcnQEHkvpw55FdsKQpxH5Z8U/Yw==";
         };
+        _UUWjqLJZ = {
+            "id" = "UUWjqLJZ";
+            "file" = "HotVP-neoforge-26.3.jar";
+            "hash" = "sha512-+J6GynQ+/FEsvOLgXP8AZy2kpiTR3znd4VOTfD1rk052rj8Hls4WVTdQn3LHTTcabH+ZsGRG1WCeMzcDfp91Lw==";
+        };
+        _eM1dizjV = {
+            "id" = "eM1dizjV";
+            "file" = "HotVP-fabric-26.3.jar";
+            "hash" = "sha512-pKaYRPBVNdo24jmwx1aryO7Dj3BouRAjyUMMjoDaH+E2DfXm6I7eiKDVTr2mMdMmwl7E1N94oPslPiiFgKT6HA==";
+        };
+        _T6s81dWP = {
+            "id" = "T6s81dWP";
+            "file" = "HotVP-neoforge-26.3.jar";
+            "hash" = "sha512-wdbuWV1QHpB8TXsMcy667EhHzGZQyrWLNZREmvaFMv47q8q66oZTKIxQ1kcUykAlkDbAvLBGTZ02foDGK3EDrA==";
+        };
     in {
         "c7IGwhPs" = _c7IGwhPs;
         "D9iwRm94" = _D9iwRm94;
@@ -158,6 +173,9 @@ let
         "WDihG2P3" = _WDihG2P3;
         "AWSMKjio" = _AWSMKjio;
         "LB81zU5B" = _LB81zU5B;
+        "UUWjqLJZ" = _UUWjqLJZ;
+        "eM1dizjV" = _eM1dizjV;
+        "T6s81dWP" = _T6s81dWP;
         "fabric-1.21.11" = _MM34ZyqR;
         "fabric-1.14" = _D9iwRm94;
         "fabric-1.14.1" = _D9iwRm94;
@@ -205,6 +223,7 @@ let
         "fabric-26.1.1" = _W5IEHOTe;
         "fabric-26.1.2" = _W5IEHOTe;
         "fabric-26.2" = _kSwgipKD;
+        "fabric-26.3" = _eM1dizjV;
         "forge-1.20.1" = _331Tln6T;
         "forge-1.20.2" = _331Tln6T;
         "forge-1.20.3" = _331Tln6T;
@@ -218,8 +237,9 @@ let
         "neoforge-26.1.1" = _dTfmv8Yg;
         "neoforge-26.1.2" = _dTfmv8Yg;
         "neoforge-26.2" = _WDihG2P3;
-        "pkg-1.0.0" = _LB81zU5B;
-        "default" = _LB81zU5B;
+        "neoforge-26.3" = _T6s81dWP;
+        "pkg-1.0.0" = _T6s81dWP;
+        "default" = _T6s81dWP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hero-of-the-village-plus-better-villagers-and-extra-trades";

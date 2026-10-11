@@ -66,6 +66,11 @@ let
             "file" = "Minepedia-1.7.jar";
             "hash" = "sha512-4a9xH+WRgAHRWW48D2jiH7U5+yHfNMQhKjZ4OVLSz/UMMMquwPzco9x7x0vOo68XtyT/4Az9r61n5+S7pTEB6A==";
         };
+        _AiedAVex = {
+            "id" = "AiedAVex";
+            "file" = "Minepedia-1.7.jar";
+            "hash" = "sha512-X5hOJbl1pyozsTsDfJNQbwUKisIbonxSj8X48HSICUxF6wTciPs5hCUm+yUZ45zpJ2T3HsAu0E0A3vGU6CG2uA==";
+        };
     in {
         "YMhLTdeQ" = _YMhLTdeQ;
         "ZdrQYV11" = _ZdrQYV11;
@@ -80,6 +85,7 @@ let
         "AOgND4dH" = _AOgND4dH;
         "BvMo9E8j" = _BvMo9E8j;
         "omnEnRf0" = _omnEnRf0;
+        "AiedAVex" = _AiedAVex;
         "fabric-1.20.4" = _YMhLTdeQ;
         "fabric-1.20.6" = _ZdrQYV11;
         "fabric-1.21.1" = _7bupV5J1;
@@ -92,6 +98,7 @@ let
         "fabric-1.21.11" = _EM42WkEZ;
         "fabric-26.1.2" = _BvMo9E8j;
         "fabric-26.2" = _omnEnRf0;
+        "fabric-26.3" = _AiedAVex;
         "pkg-1.0" = _YMhLTdeQ;
         "pkg-1.1" = _ZdrQYV11;
         "pkg-1.2" = _7bupV5J1;
@@ -103,7 +110,8 @@ let
         "pkg-1.6" = _AOgND4dH;
         "pkg-1.6.1" = _BvMo9E8j;
         "pkg-1.7" = _omnEnRf0;
-        "default" = _omnEnRf0;
+        "pkg-1.7-26.3" = _AiedAVex;
+        "default" = _AiedAVex;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "minepedia";

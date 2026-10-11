@@ -296,6 +296,11 @@ let
             "file" = "manametalmod-8.0.6.jar";
             "hash" = "sha512-ytDbZdIsQ8JjTjVY2O7ouKrlROhzW/vxDQgOsYp6rY30PQyqFk7m3NExcDK0Lvp5bnD3Z6GKpTzvisDTcGEB4w==";
         };
+        _ZRYHvxOI = {
+            "id" = "ZRYHvxOI";
+            "file" = "manametalmod-8.0.7.jar";
+            "hash" = "sha512-7Cdh5iwwBsUqOox3DV6lQqi/IpqCmCkmsTWqsvDd9VL/bvlDFRDs6BJrp1z470OBFwKGLdfS4JkV9tOy/7mOTw==";
+        };
     in {
         "umMFDhX2" = _umMFDhX2;
         "m1WuJyU0" = _m1WuJyU0;
@@ -356,7 +361,8 @@ let
         "5Lp2qo7Y" = _5Lp2qo7Y;
         "mrooNrbI" = _mrooNrbI;
         "xP8qHDj5" = _xP8qHDj5;
-        "forge-1.7.10" = _xP8qHDj5;
+        "ZRYHvxOI" = _ZRYHvxOI;
+        "forge-1.7.10" = _ZRYHvxOI;
         "pkg-7.2.7" = _m1WuJyU0;
         "pkg-7.2.8" = _jPpGJHDA;
         "pkg-7.2.8-2" = _KBsUEK5w;
@@ -414,7 +420,8 @@ let
         "pkg-8.0.4-2" = _5Lp2qo7Y;
         "pkg-8.0.5" = _mrooNrbI;
         "pkg-8.0.6" = _xP8qHDj5;
-        "default" = _xP8qHDj5;
+        "pkg-8.0.7" = _ZRYHvxOI;
+        "default" = _ZRYHvxOI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "manametal";

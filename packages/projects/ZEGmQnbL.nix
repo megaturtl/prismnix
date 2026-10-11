@@ -46,6 +46,16 @@ let
             "file" = "sttn-1.1.0-1.20.1.jar";
             "hash" = "sha512-7rF1V7T9Kp9oyuW52lPlIi4MT9Ro+vvhQ4a3sefy9Wplz2tcng2SeZsQxPdSzxkvMn924Ts0ksQLpAVqg3IS/A==";
         };
+        _vTSCzN7E = {
+            "id" = "vTSCzN7E";
+            "file" = "sttn-1.2.0-neoforge-1.21.1.jar";
+            "hash" = "sha512-P8io8HVM1Y2j3pNLUvk1k2pDXWS+vteenBstuMJu+k3FRCc3B8hwQ4A8Izfyko+ZJW/7gqtAYquOBaoax5uvJg==";
+        };
+        _xZeztI03 = {
+            "id" = "xZeztI03";
+            "file" = "sleep_through_the_night-1.2.0-forge-1.20.1.jar";
+            "hash" = "sha512-P2Uo5+jBvoDUX/6Whekw2vK4ERPWqPNU8vAI7CB9RzObYNB19Aa2cuiaIwwWh74VV+52I81r+MirX6qloRol4g==";
+        };
     in {
         "HJJab1gK" = _HJJab1gK;
         "uSJCw9iX" = _uSJCw9iX;
@@ -56,9 +66,11 @@ let
         "jFlXgwbK" = _jFlXgwbK;
         "VRxQ3nfG" = _VRxQ3nfG;
         "o8igR4xq" = _o8igR4xq;
+        "vTSCzN7E" = _vTSCzN7E;
+        "xZeztI03" = _xZeztI03;
         "neoforge-1.21.8" = _HJJab1gK;
-        "neoforge-1.21.1" = _jFlXgwbK;
-        "forge-1.20.1" = _9NKwqy1s;
+        "neoforge-1.21.1" = _vTSCzN7E;
+        "forge-1.20.1" = _xZeztI03;
         "forge-1.19.2" = _VRxQ3nfG;
         "fabric-1.19.2" = _44jg84kx;
         "fabric-1.20.1" = _o8igR4xq;
@@ -66,7 +78,8 @@ let
         "pkg-1.1.0" = _44jg84kx;
         "pkg-1.1.1" = _VRxQ3nfG;
         "pkg-1.1.0-1.20.1" = _o8igR4xq;
-        "default" = _o8igR4xq;
+        "pkg-1.2.0" = _xZeztI03;
+        "default" = _xZeztI03;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sleep-through-the-night";

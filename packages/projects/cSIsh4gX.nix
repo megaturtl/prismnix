@@ -346,6 +346,16 @@ let
             "file" = "display_case-fabric-1.21.11-1.4.1.jar";
             "hash" = "sha512-Q0hgBW5IuPvqi3ool3gPawdMZ6hpRVv1SWJ5/bJyrLLmqF50xo3zHybFIIYMjEn5EU6x6e4qDuIDxXegwEetQg==";
         };
+        _DBawnQz5 = {
+            "id" = "DBawnQz5";
+            "file" = "display_case-fabric-26.2-1.4.2.jar";
+            "hash" = "sha512-r/6REhu9+xuNl0CLbVV9sy37D0o8bGZTjfSONJHmGLqtAFlNSkUKtWbmoN0A+W+Myn46yyJQRmcqoQpmNhwEjA==";
+        };
+        _hQZuEwCW = {
+            "id" = "hQZuEwCW";
+            "file" = "display_case-fabric-26.3-1.4.3.jar";
+            "hash" = "sha512-QJm/R9qa1S30f+BL7Uo0J6kDZwclocJEk9tRd/Hft4t50yf/WHzJJ6Wi5WEEb/oWW6UQ7hnkuPq1spD9ejw5Tw==";
+        };
     in {
         "7cy4yfln" = _7cy4yfln;
         "rlCKmU4Y" = _rlCKmU4Y;
@@ -416,6 +426,8 @@ let
         "tWUElAOD" = _tWUElAOD;
         "zNLrDgJA" = _zNLrDgJA;
         "63ckggww" = _63ckggww;
+        "DBawnQz5" = _DBawnQz5;
+        "hQZuEwCW" = _hQZuEwCW;
         "forge-1.18.2" = _6jXLdlj2;
         "forge-1.19" = _W2Hbbhqn;
         "forge-1.19.1" = _W2Hbbhqn;
@@ -463,6 +475,8 @@ let
         "fabric-26.1" = _zNLrDgJA;
         "fabric-26.1.1" = _zNLrDgJA;
         "fabric-26.1.2" = _zNLrDgJA;
+        "fabric-26.2" = _DBawnQz5;
+        "fabric-26.3" = _hQZuEwCW;
         "quilt-1.18.2" = _A5jHec61;
         "quilt-1.19" = _WUdXR9uN;
         "quilt-1.19.1" = _WUdXR9uN;
@@ -488,6 +502,8 @@ let
         "neoforge-26.1" = _zNLrDgJA;
         "neoforge-26.1.1" = _zNLrDgJA;
         "neoforge-26.1.2" = _zNLrDgJA;
+        "neoforge-26.2" = _DBawnQz5;
+        "neoforge-26.3" = _hQZuEwCW;
         "pkg-1.0.0" = _7cy4yfln;
         "pkg-1.0.0-fabric" = _rlCKmU4Y;
         "pkg-1.0.0-quilt" = _xjpdOpj0;
@@ -508,7 +524,9 @@ let
         "pkg-1.3" = _tWUElAOD;
         "pkg-1.4" = _zNLrDgJA;
         "pkg-1.4.1" = _63ckggww;
-        "default" = _63ckggww;
+        "pkg-1.4.2" = _DBawnQz5;
+        "pkg-1.4.3" = _hQZuEwCW;
+        "default" = _hQZuEwCW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "displaycase";

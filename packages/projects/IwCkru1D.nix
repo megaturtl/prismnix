@@ -1096,6 +1096,21 @@ let
             "file" = "cicada-lib-0.15.2+26.2.jar";
             "hash" = "sha512-nK/ihGEcury/Rl42iAncJe7S2hFNAuetzqLHe8MTNgT1723feRZXd/+EgoaiweJKp1nnhtYkrC5bKipa10g1TA==";
         };
+        _gBbqA6lp = {
+            "id" = "gBbqA6lp";
+            "file" = "cicada-lib-0.15.3+26.2.jar";
+            "hash" = "sha512-Jq+6L/H1aNLFsRPxMu+YkainpCt/WeYvdXqCtzbprNFxy3TgcwfoX5Ansl4gj7BNdUFL74m0k3grVmwgmfoNZQ==";
+        };
+        _f5sDzSl6 = {
+            "id" = "f5sDzSl6";
+            "file" = "cicada-lib-0.15.3+26.3.jar";
+            "hash" = "sha512-H3FogNutxIv0jqsGnqiSs0vCu2MBYGWPpI5eI0hxbdDClm0aTp0SIdKzJaD1WUKjMopPI/Ly9ynu0sxoLnyUYg==";
+        };
+        _4mer2Cys = {
+            "id" = "4mer2Cys";
+            "file" = "cicada-lib-0.15.3+26.1.jar";
+            "hash" = "sha512-Fd+DmtkNvCRv/VNIGnzzoXjMu/r0j6FApeJEBv27UBliuYkBjmksLoEIVcf2l+Tbg/7PNKgMthTfljBYsCgaTg==";
+        };
     in {
         "bWtPSAFA" = _bWtPSAFA;
         "ncp8WgC9" = _ncp8WgC9;
@@ -1316,6 +1331,9 @@ let
         "SKXslujb" = _SKXslujb;
         "qUoRmDGM" = _qUoRmDGM;
         "3hUl5ch8" = _3hUl5ch8;
+        "gBbqA6lp" = _gBbqA6lp;
+        "f5sDzSl6" = _f5sDzSl6;
+        "4mer2Cys" = _4mer2Cys;
         "fabric-1.16.5" = _AeKVY91b;
         "fabric-1.17" = _AeKVY91b;
         "fabric-1.17.1" = _AeKVY91b;
@@ -1351,10 +1369,11 @@ let
         "fabric-1.21.9" = _CqAskfnS;
         "fabric-1.21.10" = _CqAskfnS;
         "fabric-1.21.11" = _CqAskfnS;
-        "fabric-26.1" = _qUoRmDGM;
-        "fabric-26.1.1" = _qUoRmDGM;
-        "fabric-26.1.2" = _qUoRmDGM;
-        "fabric-26.2" = _3hUl5ch8;
+        "fabric-26.1" = _4mer2Cys;
+        "fabric-26.1.1" = _4mer2Cys;
+        "fabric-26.1.2" = _4mer2Cys;
+        "fabric-26.2" = _gBbqA6lp;
+        "fabric-26.3" = _f5sDzSl6;
         "pkg-0.6.1+1.20.1-and-below" = _bWtPSAFA;
         "pkg-0.6.1+1.20.2-and-above" = _ncp8WgC9;
         "pkg-0.6.2+1.20.2-and-above" = _FOQRMzuP;
@@ -1568,7 +1587,10 @@ let
         "pkg-0.15.1+26.1" = _SKXslujb;
         "pkg-0.15.2+26.1" = _qUoRmDGM;
         "pkg-0.15.2+26.2" = _3hUl5ch8;
-        "default" = _3hUl5ch8;
+        "pkg-0.15.3+26.2" = _gBbqA6lp;
+        "pkg-0.15.3+26.3" = _f5sDzSl6;
+        "pkg-0.15.3+26.1" = _4mer2Cys;
+        "default" = _4mer2Cys;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cicada";

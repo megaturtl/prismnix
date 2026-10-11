@@ -16,16 +16,37 @@ let
             "file" = "ars_sable-1.21.1-1.1.2.jar";
             "hash" = "sha512-hpbK2yq0XhTyNRCmxoN9Bjsdm2sb60pX+IQP5xMzNd8UBrzPWIGH6J0QmOCS87TjFWGYLtrZaiXEuMtwyPzBeA==";
         };
+        _dFDAPHpX = {
+            "id" = "dFDAPHpX";
+            "file" = "ars_sable-1.21.1-1.1.3.jar";
+            "hash" = "sha512-A0hXieThr7ag6JzPY1uAwhwo/zXN9/a8LQx7wwP9Ts/XvlIIsFNgSgsjK+GcO/4wsV+skaNngGIkINyQFg9JdA==";
+        };
+        _mLHvoc3C = {
+            "id" = "mLHvoc3C";
+            "file" = "ars_sable-1.21.1-1.1.4.jar";
+            "hash" = "sha512-3E4JYhV6aIVmXYRbNZsa0rrGd2FRgSjoeJScIAmXbGO+3lCx2qG6yvpFFVQkoW3ddHgsFWAPzJLyeu4uUzey6g==";
+        };
+        _Dfd7emSI = {
+            "id" = "Dfd7emSI";
+            "file" = "ars_sable-1.21.1-1.2.0.jar";
+            "hash" = "sha512-BKvRJi2zy8ZMcg18XVPGKnL362/N/jgUypPW9p/OCBDZ8bmr0+EJm27plJMVLT33oTtzcWAnysVYCfuuwBY9dQ==";
+        };
     in {
         "g0qNDrzq" = _g0qNDrzq;
         "WWDh3QyK" = _WWDh3QyK;
         "zGMfKGIU" = _zGMfKGIU;
-        "neoforge-1.21.1" = _zGMfKGIU;
-        "neoforge-1.21" = _zGMfKGIU;
+        "dFDAPHpX" = _dFDAPHpX;
+        "mLHvoc3C" = _mLHvoc3C;
+        "Dfd7emSI" = _Dfd7emSI;
+        "neoforge-1.21.1" = _Dfd7emSI;
+        "neoforge-1.21" = _Dfd7emSI;
         "pkg-1.1.0" = _g0qNDrzq;
         "pkg-1.1.1" = _WWDh3QyK;
         "pkg-1.1.2" = _zGMfKGIU;
-        "default" = _zGMfKGIU;
+        "pkg-1.1.3" = _dFDAPHpX;
+        "pkg-1.1.4" = _mLHvoc3C;
+        "pkg-1.2.0" = _Dfd7emSI;
+        "default" = _Dfd7emSI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ars-sable";

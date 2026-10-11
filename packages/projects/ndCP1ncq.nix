@@ -191,6 +191,46 @@ let
             "file" = "nice-keep-inventory-3.6.jar";
             "hash" = "sha512-f4XZxnzYoWZ82GgMShfT2C00nPUvNMkNyVKIwlVZkFyHYqvYpPW7TXFjxrfcnZcCagu8dB71hDfYRIqR0VQ7Pw==";
         };
+        _DUWFDc4G = {
+            "id" = "DUWFDc4G";
+            "file" = "nice_keep_inventory_3.7.zip";
+            "hash" = "sha512-ePnyHbKjGXEUMnAUzxQTRXWdMevkH8s5Fy1e+jjrDBL2Z4JhZmv2mWrUfcxwO01BswQkH9TOjldZbMjrTd1YEQ==";
+        };
+        _nNvLCZhX = {
+            "id" = "nNvLCZhX";
+            "file" = "nice-keep-inventory-3.7.jar";
+            "hash" = "sha512-B8czuCRX6wEBTabN2ucPdDNPIudpYki7Cnqo5GR50sAMZCEbyD0p1rQzg6H8HU1/VK6rf7HrWG3aIHT+KJ6AsA==";
+        };
+        _PGCZZV3X = {
+            "id" = "PGCZZV3X";
+            "file" = "nice_keep_inventory_3.8.zip";
+            "hash" = "sha512-LVZkUixwn/6QweW34r6fJuD8OF40aJNni+XcP63R9RgTD0tc/vFeFZQJRQvLVn4+UvDBBbcbtbvP3F+dmQnXzg==";
+        };
+        _hETpWYqs = {
+            "id" = "hETpWYqs";
+            "file" = "nice-keep-inventory-3.8.jar";
+            "hash" = "sha512-hycAORCrPXV+lofz4P7yCLVpwK6sVY4UJDGf31TTrwBvnTiEaUUxvbgY3k7Kl92bVlaANpVC685S6gqi1Jr3Ug==";
+        };
+        _FlYjFFNP = {
+            "id" = "FlYjFFNP";
+            "file" = "nice_keep_inventory_3.9.zip";
+            "hash" = "sha512-LNOdJGQgVOWULZiXHziD5NR3vRWeJQTNvOdVspaLE5lw0Zgjt8rX0CtY+AvlxehfJD7j5gO3B7yxBo7Aj7WvJQ==";
+        };
+        _FvoJ8LGR = {
+            "id" = "FvoJ8LGR";
+            "file" = "nice-keep-inventory-3.9.jar";
+            "hash" = "sha512-dv7kVhV7USzdKZOR8sEjr+OHjWGKOd7RZe0/v9xrAc6JF52z0+rGSdfNYkLHIEGJZlEHjktJoIIMDuFGlUNA9g==";
+        };
+        _mS5bguxe = {
+            "id" = "mS5bguxe";
+            "file" = "nice_keep_inventory_4.0.zip";
+            "hash" = "sha512-xiaCUAyGkdoH3lvBJr3Dw3iNeRnqecbueBXBmpaVu5wZDpUCyYCSuCROsGqvlJts5FHeZp8zDQQWM2xKP0523g==";
+        };
+        _c997yAOh = {
+            "id" = "c997yAOh";
+            "file" = "nice-keep-inventory-4.0.jar";
+            "hash" = "sha512-JORlASoU+dbtc1O3ssNmsWu77ScWWU5deQbqDOBOSukt4NVsnRSNTlpsvHC+fHPn3oNiMZ4V6Xa5fXWCDyXYzA==";
+        };
     in {
         "XejDHhuB" = _XejDHhuB;
         "WJsRBl8U" = _WJsRBl8U;
@@ -230,6 +270,14 @@ let
         "mzIlNdJZ" = _mzIlNdJZ;
         "GsokTLeA" = _GsokTLeA;
         "NGud1xmz" = _NGud1xmz;
+        "DUWFDc4G" = _DUWFDc4G;
+        "nNvLCZhX" = _nNvLCZhX;
+        "PGCZZV3X" = _PGCZZV3X;
+        "hETpWYqs" = _hETpWYqs;
+        "FlYjFFNP" = _FlYjFFNP;
+        "FvoJ8LGR" = _FvoJ8LGR;
+        "mS5bguxe" = _mS5bguxe;
+        "c997yAOh" = _c997yAOh;
         "datapack-1.21.4" = _iCNYt0hb;
         "datapack-1.21.5" = _mxnFgLG7;
         "datapack-1.21.6" = _9azYJIQK;
@@ -242,7 +290,7 @@ let
         "datapack-26.1.1" = _BLdoqYh9;
         "datapack-26.1.2" = _BLdoqYh9;
         "datapack-26.2" = _XcehGgxd;
-        "datapack-26.3" = _GsokTLeA;
+        "datapack-26.3" = _mS5bguxe;
         "fabric-1.21.4" = _3iy5JsXm;
         "fabric-1.21.5" = _G8xW9TPP;
         "fabric-1.21.6" = _FnjfS5dE;
@@ -255,7 +303,7 @@ let
         "fabric-26.1.1" = _vMAqO4PP;
         "fabric-26.1.2" = _vMAqO4PP;
         "fabric-26.2" = _mzIlNdJZ;
-        "fabric-26.3" = _NGud1xmz;
+        "fabric-26.3" = _c997yAOh;
         "forge-1.21.4" = _3iy5JsXm;
         "forge-1.21.5" = _G8xW9TPP;
         "forge-1.21.6" = _FnjfS5dE;
@@ -268,7 +316,7 @@ let
         "forge-26.1.1" = _vMAqO4PP;
         "forge-26.1.2" = _vMAqO4PP;
         "forge-26.2" = _mzIlNdJZ;
-        "forge-26.3" = _NGud1xmz;
+        "forge-26.3" = _c997yAOh;
         "neoforge-1.21.4" = _3iy5JsXm;
         "neoforge-1.21.5" = _G8xW9TPP;
         "neoforge-1.21.6" = _FnjfS5dE;
@@ -281,7 +329,7 @@ let
         "neoforge-26.1.1" = _vMAqO4PP;
         "neoforge-26.1.2" = _vMAqO4PP;
         "neoforge-26.2" = _mzIlNdJZ;
-        "neoforge-26.3" = _NGud1xmz;
+        "neoforge-26.3" = _c997yAOh;
         "quilt-1.21.4" = _3iy5JsXm;
         "quilt-1.21.5" = _G8xW9TPP;
         "quilt-1.21.6" = _FnjfS5dE;
@@ -294,7 +342,7 @@ let
         "quilt-26.1.1" = _vMAqO4PP;
         "quilt-26.1.2" = _vMAqO4PP;
         "quilt-26.2" = _mzIlNdJZ;
-        "quilt-26.3" = _NGud1xmz;
+        "quilt-26.3" = _c997yAOh;
         "pkg-1.0" = _XejDHhuB;
         "pkg-1.0+mod" = _WJsRBl8U;
         "pkg-1.1" = _iCNYt0hb;
@@ -333,7 +381,15 @@ let
         "pkg-3.4-mod" = _mzIlNdJZ;
         "pkg-3.6" = _GsokTLeA;
         "pkg-3.6-mod" = _NGud1xmz;
-        "default" = _NGud1xmz;
+        "pkg-3.7" = _DUWFDc4G;
+        "pkg-3.7-mod" = _nNvLCZhX;
+        "pkg-3.8" = _PGCZZV3X;
+        "pkg-3.8-mod" = _hETpWYqs;
+        "pkg-3.9" = _FlYjFFNP;
+        "pkg-3.9-mod" = _FvoJ8LGR;
+        "pkg-4.0" = _mS5bguxe;
+        "pkg-4.0-mod" = _c997yAOh;
+        "default" = _c997yAOh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nice-keep-inventory";

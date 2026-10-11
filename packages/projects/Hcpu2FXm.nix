@@ -51,6 +51,16 @@ let
             "file" = "jcraft-forge-0.18.1.jar";
             "hash" = "sha512-htIryidin0sDccmg3E2VeldnxkrNsshIUIxT31VdeiAOdtWYh15h7XTDMnaV4QyynneohjNRRh5kvf64thJuaA==";
         };
+        _SCaL6fEQ = {
+            "id" = "SCaL6fEQ";
+            "file" = "jcraft-forge-0.18.2.jar";
+            "hash" = "sha512-XJveUMvnSRJ2R21qDH6tZPWPCT1oWMrI8pk6Mzw7l15t8aeiWYGKehreqxZPsteldqZu9lltCwARywcEe3tPpw==";
+        };
+        _HxiSNsxZ = {
+            "id" = "HxiSNsxZ";
+            "file" = "jcraft-fabric-0.18.2.jar";
+            "hash" = "sha512-P8Eo9e8HtALeyrWTdBa78cAdDrGGjeUoE0p4uXU0D0XIdwwwGhsMjFYA9H5Rg3Sdti56987FeNlOxrYHfnIzcg==";
+        };
     in {
         "2nDojIBJ" = _2nDojIBJ;
         "JQNTNZZd" = _JQNTNZZd;
@@ -62,15 +72,18 @@ let
         "8bJqiFlx" = _8bJqiFlx;
         "99uyvu5a" = _99uyvu5a;
         "ERhLZr59" = _ERhLZr59;
-        "fabric-1.20.1" = _99uyvu5a;
-        "forge-1.20.1" = _ERhLZr59;
+        "SCaL6fEQ" = _SCaL6fEQ;
+        "HxiSNsxZ" = _HxiSNsxZ;
+        "fabric-1.20.1" = _HxiSNsxZ;
+        "forge-1.20.1" = _SCaL6fEQ;
         "pkg-0.17.2" = _JQNTNZZd;
         "pkg-0.17.3" = _Yh32fYro;
         "pkg-0.17.4" = _wxuuR0Y2;
         "pkg-0.17.6" = _MD0oeVdE;
         "pkg-0.18.0" = _8bJqiFlx;
         "pkg-0.18.1" = _ERhLZr59;
-        "default" = _ERhLZr59;
+        "pkg-0.18.2" = _HxiSNsxZ;
+        "default" = _HxiSNsxZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jojo-eyes-of-ender";

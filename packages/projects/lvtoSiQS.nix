@@ -71,6 +71,21 @@ let
             "file" = "iden_decor-beta1-3.0.0.jar";
             "hash" = "sha512-xe4dEuQBf3aBA92RsLxvnST7KVmDOaFI/Ti9VxXio+p5nRAwXwGzYwLaJOu7LL1Bp72JN+FEpnChytKW7Y/isw==";
         };
+        _Jy9S6yMu = {
+            "id" = "Jy9S6yMu";
+            "file" = "iden_decor-beta-3.0.1.jar";
+            "hash" = "sha512-tUJzNGAdZouObLayw4o6dSKClJsvL5K5pn/E4rJRlIKELoaPELLBHAOc3Ey8asGZsVhkNCKsn2KIKHKFjcZHyQ==";
+        };
+        _BrxpBVzA = {
+            "id" = "BrxpBVzA";
+            "file" = "iden_decor-beta-3.0.2.jar";
+            "hash" = "sha512-jjp3mE9a41O+gLHFewHn61aulB5wUPMGTlp+YQQ3UOQsUlNJSBenEmu0qSm84xDd2HRJd9+LHuc+BF41scPxKg==";
+        };
+        _RZGZK8qD = {
+            "id" = "RZGZK8qD";
+            "file" = "iden_decor-beta-3.0.3.jar";
+            "hash" = "sha512-P6frZeYQ6uyTngzweAinoAyMOSte6j8qBMpBqRwQijDc5KIbsZR0tOvJAD0yS8U6Ed9t6plUOk0x/KFQnl4fvw==";
+        };
     in {
         "eTFfia8V" = _eTFfia8V;
         "4CF8dR4B" = _4CF8dR4B;
@@ -86,7 +101,10 @@ let
         "VXFkSfhJ" = _VXFkSfhJ;
         "m84BvYXp" = _m84BvYXp;
         "1rC5CqUf" = _1rC5CqUf;
-        "neoforge-1.21.1" = _1rC5CqUf;
+        "Jy9S6yMu" = _Jy9S6yMu;
+        "BrxpBVzA" = _BrxpBVzA;
+        "RZGZK8qD" = _RZGZK8qD;
+        "neoforge-1.21.1" = _RZGZK8qD;
         "pkg-1.0.3" = _eTFfia8V;
         "pkg-1.1.0" = _4CF8dR4B;
         "pkg-1.1.1" = _ev6xHoWq;
@@ -101,7 +119,10 @@ let
         "pkg-2.2.3" = _VXFkSfhJ;
         "pkg-2.2.4" = _m84BvYXp;
         "pkg-3.0.0" = _1rC5CqUf;
-        "default" = _1rC5CqUf;
+        "pkg-3.0.1" = _Jy9S6yMu;
+        "pkg-3.0.2" = _BrxpBVzA;
+        "pkg-3.0.3" = _RZGZK8qD;
+        "default" = _RZGZK8qD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "idens-decor";

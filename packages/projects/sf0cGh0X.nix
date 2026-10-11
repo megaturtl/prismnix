@@ -156,6 +156,16 @@ let
             "file" = "snowmancy-fabric-26.2-1.2.jar";
             "hash" = "sha512-vjabi8q76SN+2NcK4ltD5AD8C9oBTzWQ6SXL7tWojUx6apMpDdjeQV7gndv5CoOnCnN/0D8ZsrrZvV0QKBIYqg==";
         };
+        _FOpnPm99 = {
+            "id" = "FOpnPm99";
+            "file" = "snowmancy-neoforge-26.3-1.2.jar";
+            "hash" = "sha512-eTvYASiXXs2/MDWNgbHWDM/ExilnjTlGJpIgWsWhCFpg4NsuxI8rKmuXZ92I9Y2NiXPAjuUbeld8TLxkZ5AePg==";
+        };
+        _5XhA7S6P = {
+            "id" = "5XhA7S6P";
+            "file" = "snowmancy-fabric-26.3-1.2.jar";
+            "hash" = "sha512-UM72DrzGLlrZenvxm4N79x1p2VfX9GBUgt+YBMa5wSyhSuINgYl3FLyX0oT209J8IVHUCPOBRQ0iXh5bRLBNOw==";
+        };
     in {
         "O6f5rQVV" = _O6f5rQVV;
         "siU2jHYp" = _siU2jHYp;
@@ -188,6 +198,8 @@ let
         "OpfnX63f" = _OpfnX63f;
         "DFMTYf7W" = _DFMTYf7W;
         "95sc2GhZ" = _95sc2GhZ;
+        "FOpnPm99" = _FOpnPm99;
+        "5XhA7S6P" = _5XhA7S6P;
         "forge-1.12.2" = _O6f5rQVV;
         "forge-1.13.2" = _siU2jHYp;
         "forge-1.14.4" = _OPQUnUil;
@@ -221,14 +233,17 @@ let
         "neoforge-26.1.1" = _Lj3b13vh;
         "neoforge-26.1.2" = _Lj3b13vh;
         "neoforge-26.2" = _DFMTYf7W;
+        "neoforge-26.3" = _FOpnPm99;
         "fabric-26.1" = _OpfnX63f;
         "fabric-26.1.1" = _OpfnX63f;
         "fabric-26.1.2" = _OpfnX63f;
         "fabric-26.2" = _95sc2GhZ;
+        "fabric-26.3" = _5XhA7S6P;
         "quilt-26.1" = _OpfnX63f;
         "quilt-26.1.1" = _OpfnX63f;
         "quilt-26.1.2" = _OpfnX63f;
         "quilt-26.2" = _95sc2GhZ;
+        "quilt-26.3" = _5XhA7S6P;
         "pkg-b2" = _O6f5rQVV;
         "pkg-v1.0.1" = _siU2jHYp;
         "pkg-v1.0.3" = _OPQUnUil;
@@ -241,8 +256,8 @@ let
         "pkg-v1.1.3" = _6aF8WtzS;
         "pkg-v1.4.4" = _ujoO84Iy;
         "pkg-v1.1.4" = _Fo1c52Lm;
-        "pkg-v1.2" = _95sc2GhZ;
-        "default" = _95sc2GhZ;
+        "pkg-v1.2" = _5XhA7S6P;
+        "default" = _5XhA7S6P;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "snowmancy";

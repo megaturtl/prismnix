@@ -2386,6 +2386,16 @@ let
             "file" = "ImmediatelyFast-Fabric-1.17.0+26.3.jar";
             "hash" = "sha512-4rbND6Zh7g+tBEQexPETeaDUMczRKlWwCw2RIcg8VFZWQq9Medfg3FbsEkZgJzQJMkpSL6stwxDd4S9DUOEKYA==";
         };
+        _3MP9UR23 = {
+            "id" = "3MP9UR23";
+            "file" = "ImmediatelyFast-Fabric-1.17.1+26.3.jar";
+            "hash" = "sha512-jhOVif2ZW849SFo02SoHJDlkIS9+0uT8L23luadND1mwMlLnzkDGTgBs8+Ib7V3ie4MNM+8EiyhuBB9heK2EKA==";
+        };
+        _4SovUFpn = {
+            "id" = "4SovUFpn";
+            "file" = "ImmediatelyFast-NeoForge-1.17.1+26.3.jar";
+            "hash" = "sha512-b93Pfp3ivxeb3RjMMX+hzFDqnDpAsGoOBnPssduin7KsJ0Oto2HjL1LCwfMzBDeVpRSbi4nuRnZlwrc059XZUQ==";
+        };
     in {
         "ybGjtkj1" = _ybGjtkj1;
         "R8MXsvBe" = _R8MXsvBe;
@@ -2864,6 +2874,8 @@ let
         "pMWERcSu" = _pMWERcSu;
         "CRMLDZp0" = _CRMLDZp0;
         "ugNfVpVH" = _ugNfVpVH;
+        "3MP9UR23" = _3MP9UR23;
+        "4SovUFpn" = _4SovUFpn;
         "fabric-1.19" = _gPV1o5PO;
         "fabric-1.19.1" = _gPV1o5PO;
         "fabric-1.19.2" = _gPV1o5PO;
@@ -2893,7 +2905,7 @@ let
         "fabric-26.1.1" = _xOA9hbpf;
         "fabric-26.1.2" = _xOA9hbpf;
         "fabric-26.2" = _pMWERcSu;
-        "fabric-26.3" = _ugNfVpVH;
+        "fabric-26.3" = _3MP9UR23;
         "quilt-1.19" = _gPV1o5PO;
         "quilt-1.19.1" = _gPV1o5PO;
         "quilt-1.19.2" = _gPV1o5PO;
@@ -2923,7 +2935,7 @@ let
         "quilt-26.1.1" = _xOA9hbpf;
         "quilt-26.1.2" = _xOA9hbpf;
         "quilt-26.2" = _pMWERcSu;
-        "quilt-26.3" = _ugNfVpVH;
+        "quilt-26.3" = _3MP9UR23;
         "forge-1.19" = _OWO57F2j;
         "forge-1.19.1" = _OWO57F2j;
         "forge-1.19.2" = _OWO57F2j;
@@ -2963,7 +2975,7 @@ let
         "neoforge-26.1.1" = _adbrNJLm;
         "neoforge-26.1.2" = _adbrNJLm;
         "neoforge-26.2" = _4C8Vb9ab;
-        "neoforge-26.3" = _CRMLDZp0;
+        "neoforge-26.3" = _4SovUFpn;
         "pkg-1.0.0" = _ybGjtkj1;
         "pkg-1.0.1" = _R8MXsvBe;
         "pkg-1.0.2" = _56ly78y2;
@@ -3438,7 +3450,9 @@ let
         "pkg-1.16.5+26.2-fabric" = _pMWERcSu;
         "pkg-1.17.0+26.3-neoforge" = _CRMLDZp0;
         "pkg-1.17.0+26.3-fabric" = _ugNfVpVH;
-        "default" = _ugNfVpVH;
+        "pkg-1.17.1+26.3-fabric" = _3MP9UR23;
+        "pkg-1.17.1+26.3-neoforge" = _4SovUFpn;
+        "default" = _4SovUFpn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immediatelyfast";

@@ -66,6 +66,11 @@ let
             "file" = "SlickPack.zip";
             "hash" = "sha512-kQSHDh/MYnjKks90TZVzjRc5Bm4U9K2bkttGe7+ld9niTopA2sXQGJPdbkondFGSfBPNQMOhNTz7kCGJYTaFrg==";
         };
+        _kKjpgtvF = {
+            "id" = "kKjpgtvF";
+            "file" = "§2§lS§a§ll§2§li§a§lc§2§lk§a§lP§2§la§a§lc§2§lk.zip";
+            "hash" = "sha512-S8CrsvSaLyHFkF9HahupNYrJuXL2jnNn6fTt46Zzsr1iXdkll087IQOSgVXP/bZZNycQicNDfB33LDMof5J3rA==";
+        };
     in {
         "NOpBNh4e" = _NOpBNh4e;
         "s1l5JI4A" = _s1l5JI4A;
@@ -80,6 +85,7 @@ let
         "JXCUB4Sr" = _JXCUB4Sr;
         "lORMNd2V" = _lORMNd2V;
         "TRbkZhZB" = _TRbkZhZB;
+        "kKjpgtvF" = _kKjpgtvF;
         "minecraft-1.21.8" = _QME88PtJ;
         "minecraft-1.21.4" = _PVgBl4eu;
         "minecraft-1.21.5" = _heX48lEx;
@@ -87,7 +93,7 @@ let
         "minecraft-1.21.7" = _R2Zy7Aqi;
         "minecraft-1.21.9" = _heX48lEx;
         "minecraft-1.21.10" = _heX48lEx;
-        "minecraft-1.21.11" = _TRbkZhZB;
+        "minecraft-1.21.11" = _kKjpgtvF;
         "pkg-1.0" = _NOpBNh4e;
         "pkg-1.1" = _s1l5JI4A;
         "pkg-1.2" = _R2Zy7Aqi;
@@ -100,7 +106,8 @@ let
         "pkg-2.1.1" = _JXCUB4Sr;
         "pkg-2.2.0" = _lORMNd2V;
         "pkg-2.3.0" = _TRbkZhZB;
-        "default" = _TRbkZhZB;
+        "pkg-2.4.0" = _kKjpgtvF;
+        "default" = _kKjpgtvF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "slickpack";

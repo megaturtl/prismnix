@@ -216,6 +216,21 @@ let
             "file" = "attackthroughgrass-neoforge-2.1.0-26.1.jar";
             "hash" = "sha512-A3is4Z1rgEmg98mt4jNsC2Hv221oWR0xU9dlem0680oQXiTDkDMQWs85R1HaDGOXhPQnrbNjWALihlzHflEayg==";
         };
+        _RJZ0KMHN = {
+            "id" = "RJZ0KMHN";
+            "file" = "attackthroughgrass-neoforge-2.1.1-26.1.jar";
+            "hash" = "sha512-Xw841Gf3FwkJp4xhi94+uww3UavKw8F2aHbk66b9XV0v2U1X3QL8z3xXM4ZjZ07tNdgvm0/kw8efZx2dmA18XA==";
+        };
+        _zbWFkUjE = {
+            "id" = "zbWFkUjE";
+            "file" = "attackthroughgrass-forge-2.1.1-26.1.jar";
+            "hash" = "sha512-jLdAqWgkD2AwrdQBZQlwyFoVRxw7LBjKr+qbqxM2x7YrHAIVh/Ucyk8yJEJntlHnARPSgEeZR/t2KuqXUnD10w==";
+        };
+        _q0lXkAq1 = {
+            "id" = "q0lXkAq1";
+            "file" = "attackthroughgrass-fabric-2.1.1-26.1.jar";
+            "hash" = "sha512-XgCvDQ7lnYb2Ql9D5RlqvbzKlPlV+3VJiWUoUFqVom3G9nJ0ZRsYY0xBjRR9NwJwUmAkYe3Gmd+ushfQmGpcGQ==";
+        };
     in {
         "FTgHhV1N" = _FTgHhV1N;
         "Cj4lswbj" = _Cj4lswbj;
@@ -260,6 +275,9 @@ let
         "btOysWCR" = _btOysWCR;
         "T63cfbDL" = _T63cfbDL;
         "cU8aJajM" = _cU8aJajM;
+        "RJZ0KMHN" = _RJZ0KMHN;
+        "zbWFkUjE" = _zbWFkUjE;
+        "q0lXkAq1" = _q0lXkAq1;
         "fabric-1.18.2" = _1ehHtLr8;
         "fabric-1.19.2" = _kUlR2Y1B;
         "fabric-1.20.1" = _GvT8NDae;
@@ -308,10 +326,11 @@ let
         "fabric-1.21.7" = _WPBMrQxy;
         "fabric-1.21.8" = _WPBMrQxy;
         "fabric-1.21.11" = _PxHTwRPi;
-        "fabric-26.1" = _btOysWCR;
-        "fabric-26.1.1" = _btOysWCR;
-        "fabric-26.1.2" = _btOysWCR;
-        "fabric-26.2" = _btOysWCR;
+        "fabric-26.1" = _q0lXkAq1;
+        "fabric-26.1.1" = _q0lXkAq1;
+        "fabric-26.1.2" = _q0lXkAq1;
+        "fabric-26.2" = _q0lXkAq1;
+        "fabric-26.3" = _q0lXkAq1;
         "forge-1.20.5" = _HeC5IbBq;
         "forge-1.20.6-rc1" = _HeC5IbBq;
         "forge-1.20.6" = _HeC5IbBq;
@@ -355,10 +374,11 @@ let
         "forge-1.21.9" = _MfRykIlD;
         "forge-1.21.10" = _MfRykIlD;
         "forge-1.21.11" = _NuqEDV8s;
-        "forge-26.1" = _T63cfbDL;
-        "forge-26.1.1" = _T63cfbDL;
-        "forge-26.1.2" = _T63cfbDL;
-        "forge-26.2" = _T63cfbDL;
+        "forge-26.1" = _zbWFkUjE;
+        "forge-26.1.1" = _zbWFkUjE;
+        "forge-26.1.2" = _zbWFkUjE;
+        "forge-26.2" = _zbWFkUjE;
+        "forge-26.3" = _zbWFkUjE;
         "neoforge-1.20.5" = _4I1fYbSs;
         "neoforge-1.20.6-rc1" = _4I1fYbSs;
         "neoforge-1.20.6" = _4I1fYbSs;
@@ -401,10 +421,11 @@ let
         "neoforge-1.21.9" = _f9qHvlvU;
         "neoforge-1.21.10" = _f9qHvlvU;
         "neoforge-1.21.11" = _aTBWjMKL;
-        "neoforge-26.1" = _cU8aJajM;
-        "neoforge-26.1.1" = _cU8aJajM;
-        "neoforge-26.1.2" = _cU8aJajM;
-        "neoforge-26.2" = _cU8aJajM;
+        "neoforge-26.1" = _RJZ0KMHN;
+        "neoforge-26.1.1" = _RJZ0KMHN;
+        "neoforge-26.1.2" = _RJZ0KMHN;
+        "neoforge-26.2" = _RJZ0KMHN;
+        "neoforge-26.3" = _RJZ0KMHN;
         "pkg-1.0.0+1.18.2" = _FTgHhV1N;
         "pkg-1.0.0+1.19.2" = _Cj4lswbj;
         "pkg-1.0.0+1.20.1" = _dAQZQBhG;
@@ -435,7 +456,10 @@ let
         "pkg-fabric-2.1.0-26.1" = _btOysWCR;
         "pkg-forge-2.1.0-26.1" = _T63cfbDL;
         "pkg-neoforge-2.1.0-26.1" = _cU8aJajM;
-        "default" = _cU8aJajM;
+        "pkg-neoforge-2.1.1-26.1" = _RJZ0KMHN;
+        "pkg-forge-2.1.1-26.1" = _zbWFkUjE;
+        "pkg-fabric-2.1.1-26.1" = _q0lXkAq1;
+        "default" = _q0lXkAq1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "attack-through-grass";

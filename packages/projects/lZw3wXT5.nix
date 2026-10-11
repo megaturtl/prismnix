@@ -21,20 +21,28 @@ let
             "file" = "exlinefishing-v1.0.0-forge-1.16.5.jar";
             "hash" = "sha512-cwE+xqwILBDUMMEgKwuGKQB1y01CA7k8gpF9D5ZuBTw1s2ay3ejyMCbASHjjmlk2he3+OJ4BTFSJgKE3xEpy2Q==";
         };
+        _8OQUY2En = {
+            "id" = "8OQUY2En";
+            "file" = "exlinefishing-v1.0.1-neoforge+26.3.jar";
+            "hash" = "sha512-X1Ra+9ifjmgCcZICBczGulCaSJzGLTCj8pVbf0k/wQ5DCM+V3Rp20RRdeZzQYPj2RTVcixbSVBAR3yhWT0rTyg==";
+        };
     in {
         "t62S0qWb" = _t62S0qWb;
         "LKUiKzMl" = _LKUiKzMl;
         "bag7AZgz" = _bag7AZgz;
         "DlbFp7dw" = _DlbFp7dw;
+        "8OQUY2En" = _8OQUY2En;
         "fabric-1.19.4" = _t62S0qWb;
         "fabric-1.20.1" = _LKUiKzMl;
         "quilt-1.20.1" = _LKUiKzMl;
         "forge-1.20.1" = _bag7AZgz;
         "forge-1.16.5" = _DlbFp7dw;
+        "neoforge-26.3" = _8OQUY2En;
         "pkg-1.0.0" = _bag7AZgz;
         "pkg-1.0.4" = _LKUiKzMl;
         "pkg-1.0" = _DlbFp7dw;
-        "default" = _DlbFp7dw;
+        "pkg-1.0.1" = _8OQUY2En;
+        "default" = _8OQUY2En;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "exlines-fishing";

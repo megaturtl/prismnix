@@ -1,0 +1,134 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _UnLUk2dT = {
+            "id" = "UnLUk2dT";
+            "file" = "[DP] Cleric Heal VIllager 1.6.0.zip";
+            "hash" = "sha512-pc4CcGcNUG1ujFquTUKLo3ZCz9k6nSjxukH5O+F7iuKGg97Irjltfv4/h0ovzD7sj8IsIRS4uUU39hanJEWTRg==";
+        };
+        _3l5UItTd = {
+            "id" = "3l5UItTd";
+            "file" = "cleric-heal-villager-1.6.0.jar";
+            "hash" = "sha512-QSXZYGNyCylFmgyVnKIJZFgSnhE/iJsaQX/dY6nsu4zYuRucMVBnWNmhMtwRY7o2hWWx2ZyKEgsawEvGMPE+XQ==";
+        };
+        _1AN7xVwY = {
+            "id" = "1AN7xVwY";
+            "file" = "[DP] Cleric Heal Villager 1.7.0.zip";
+            "hash" = "sha512-MNVq6tyBRFekUyzEKwlkVXzAylT+url78SRDUQO4WnuQpudcn9pA+Q/ymg10AeaohjnJiu4mqzmwRJDdCHuxsA==";
+        };
+        _H9f2hSX4 = {
+            "id" = "H9f2hSX4";
+            "file" = "cleric-heal-villager-1.7.0.jar";
+            "hash" = "sha512-RbVZOtVpmXh83RMrp3Ss41VBf58KjyjY8RWax5tOERCCgB8aaWfHsJpJGTwr2kiEzO36DVMXPVYrk/WcY1lUoA==";
+        };
+        _3Vt6tche = {
+            "id" = "3Vt6tche";
+            "file" = "[DP] Cleric Heal Villager 1.7.1.zip";
+            "hash" = "sha512-RIEvG175LDQEekKmSshU6cZkeAAw8TrR4reCd8K6wgk90Y5O/6gqTs0X3FnuKhPqHLgGgzR4prP4GAczGtui8A==";
+        };
+        _EZYQLecP = {
+            "id" = "EZYQLecP";
+            "file" = "cleric-heal-villager-1.7.1.jar";
+            "hash" = "sha512-9q3HglJ6Zo8Na09LOcSQqr2aG3hUOL9TCRyGG7i914VUZxtvDkD1VRJxW9lSDvYewyeUtPX7U/HT60QaCvG7aQ==";
+        };
+        _oqkt5JvE = {
+            "id" = "oqkt5JvE";
+            "file" = "[DP] Cleric Heal Villager 1.7.2.zip";
+            "hash" = "sha512-yyFO2GpHS+DM4KiL3Uv907wjOrUt/8N7rqY1EY3ING02QnqDdelzRYmWuQn71oo667AINjQnc1KTjybpTylzMw==";
+        };
+        _TokSp4k9 = {
+            "id" = "TokSp4k9";
+            "file" = "cleric-heal-villager-1.7.2.jar";
+            "hash" = "sha512-VhSWygvfFNF2rbCRYTXkGwICl3ma7UvjXkEmO+N3fv9KiVtbhWCWfeFa+5IK9d0fN5fmqzCmvQX9hel+SPGF9g==";
+        };
+    in {
+        "UnLUk2dT" = _UnLUk2dT;
+        "3l5UItTd" = _3l5UItTd;
+        "1AN7xVwY" = _1AN7xVwY;
+        "H9f2hSX4" = _H9f2hSX4;
+        "3Vt6tche" = _3Vt6tche;
+        "EZYQLecP" = _EZYQLecP;
+        "oqkt5JvE" = _oqkt5JvE;
+        "TokSp4k9" = _TokSp4k9;
+        "datapack-1.21.9" = _oqkt5JvE;
+        "datapack-1.21.10" = _oqkt5JvE;
+        "datapack-1.21.11" = _oqkt5JvE;
+        "datapack-26.1" = _oqkt5JvE;
+        "datapack-26.1.1" = _oqkt5JvE;
+        "datapack-26.1.2" = _oqkt5JvE;
+        "datapack-26.2" = _oqkt5JvE;
+        "datapack-26.3" = _oqkt5JvE;
+        "datapack-26.4-snapshot-1" = _oqkt5JvE;
+        "datapack-26.4-snapshot-2" = _oqkt5JvE;
+        "datapack-26.4-snapshot-3" = _oqkt5JvE;
+        "fabric-1.21.9" = _TokSp4k9;
+        "fabric-1.21.10" = _TokSp4k9;
+        "fabric-1.21.11" = _TokSp4k9;
+        "fabric-26.1" = _TokSp4k9;
+        "fabric-26.1.1" = _TokSp4k9;
+        "fabric-26.1.2" = _TokSp4k9;
+        "fabric-26.2" = _TokSp4k9;
+        "fabric-26.3" = _TokSp4k9;
+        "fabric-26.4-snapshot-1" = _TokSp4k9;
+        "fabric-26.4-snapshot-2" = _TokSp4k9;
+        "fabric-26.4-snapshot-3" = _TokSp4k9;
+        "forge-1.21.9" = _TokSp4k9;
+        "forge-1.21.10" = _TokSp4k9;
+        "forge-1.21.11" = _TokSp4k9;
+        "forge-26.1" = _TokSp4k9;
+        "forge-26.1.1" = _TokSp4k9;
+        "forge-26.1.2" = _TokSp4k9;
+        "forge-26.2" = _TokSp4k9;
+        "forge-26.3" = _TokSp4k9;
+        "forge-26.4-snapshot-1" = _TokSp4k9;
+        "forge-26.4-snapshot-2" = _TokSp4k9;
+        "forge-26.4-snapshot-3" = _TokSp4k9;
+        "neoforge-1.21.9" = _TokSp4k9;
+        "neoforge-1.21.10" = _TokSp4k9;
+        "neoforge-1.21.11" = _TokSp4k9;
+        "neoforge-26.1" = _TokSp4k9;
+        "neoforge-26.1.1" = _TokSp4k9;
+        "neoforge-26.1.2" = _TokSp4k9;
+        "neoforge-26.2" = _TokSp4k9;
+        "neoforge-26.3" = _TokSp4k9;
+        "neoforge-26.4-snapshot-1" = _TokSp4k9;
+        "neoforge-26.4-snapshot-2" = _TokSp4k9;
+        "neoforge-26.4-snapshot-3" = _TokSp4k9;
+        "quilt-1.21.9" = _TokSp4k9;
+        "quilt-1.21.10" = _TokSp4k9;
+        "quilt-1.21.11" = _TokSp4k9;
+        "quilt-26.1" = _TokSp4k9;
+        "quilt-26.1.1" = _TokSp4k9;
+        "quilt-26.1.2" = _TokSp4k9;
+        "quilt-26.2" = _TokSp4k9;
+        "quilt-26.3" = _TokSp4k9;
+        "quilt-26.4-snapshot-1" = _TokSp4k9;
+        "quilt-26.4-snapshot-2" = _TokSp4k9;
+        "quilt-26.4-snapshot-3" = _TokSp4k9;
+        "pkg-1.6.0" = _UnLUk2dT;
+        "pkg-1.6.0+mod" = _3l5UItTd;
+        "pkg-1.7.0" = _1AN7xVwY;
+        "pkg-1.7.0+mod" = _H9f2hSX4;
+        "pkg-1.7.1" = _3Vt6tche;
+        "pkg-1.7.1+mod" = _EZYQLecP;
+        "pkg-1.7.2" = _oqkt5JvE;
+        "pkg-1.7.2+mod" = _TokSp4k9;
+        "default" = _TokSp4k9;
+    });
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "cleric-heal-villager";
+        id = "nLJY3BEU";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "CC-BY-4.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Creative Commons Attribution 4.0 International";
+                shortName = "CC-BY-4.0";
+                url = null;
+            };
+        };
+    };
+in callPackage fn {}

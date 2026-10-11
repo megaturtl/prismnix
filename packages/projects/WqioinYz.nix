@@ -146,6 +146,21 @@ let
             "file" = "gentlehurtcam-neoforge-2.1.0+26.1.2.jar";
             "hash" = "sha512-8Ln9i8V4Bv14MRVWu6KUOSPuaeANYICO56CqF3yHxxrcG4xJUzGjnSbdOTHa+QqlbEreK6ZNRt2oKnxeqgbdsw==";
         };
+        _AIXEmANd = {
+            "id" = "AIXEmANd";
+            "file" = "gentlehurtcam-fabric-2.2.0+26.3.jar";
+            "hash" = "sha512-JaZuKozQ9nhsTsdPoaHtvwcVixrXvLJcYuGXDcYCKGFLMvodYN93lE7KJVqdErUW9dpCB86MFq74cBg9JZ67vQ==";
+        };
+        _eUV48zNZ = {
+            "id" = "eUV48zNZ";
+            "file" = "gentlehurtcam-neoforge-2.2.0+26.3.jar";
+            "hash" = "sha512-n3KhN0ftrQVfRT8h18zafcpPTgojDSeWg8Lqh6YP4xpn3m6PtjP2C0C8+ryr/PLUX15fdUr+MVAuRTAtPsrLKw==";
+        };
+        _3ezvnMS4 = {
+            "id" = "3ezvnMS4";
+            "file" = "gentlehurtcam-forge-2.2.0+26.3.jar";
+            "hash" = "sha512-CHKbEwi/zb1iyBgaDlzBeZ0lxZt7vMWMDSor7CurrBunJ2bL3Tl8CjTzEfV0IFxlp/B3VmhJqKG61joLLS7Nog==";
+        };
     in {
         "2WpVDEgf" = _2WpVDEgf;
         "k0TFF0lw" = _k0TFF0lw;
@@ -176,24 +191,30 @@ let
         "3Ynq9CVW" = _3Ynq9CVW;
         "D2pMZiCm" = _D2pMZiCm;
         "OaOlS606" = _OaOlS606;
+        "AIXEmANd" = _AIXEmANd;
+        "eUV48zNZ" = _eUV48zNZ;
+        "3ezvnMS4" = _3ezvnMS4;
         "fabric-1.21.10" = _2WpVDEgf;
         "fabric-1.21.11" = _W6Abr6o0;
         "fabric-26.1" = _TxcZSfvZ;
         "fabric-26.1.1" = _LuRCHyM2;
         "fabric-26.1.2" = _3Ynq9CVW;
         "fabric-26.2" = _5xEWPAMu;
+        "fabric-26.3" = _AIXEmANd;
         "forge-1.21.10" = _k0TFF0lw;
         "forge-26.1" = _cR72g6Xh;
         "forge-26.1.1" = _aVLwR7rO;
         "forge-26.1.2" = _D2pMZiCm;
         "forge-26.2" = _SZNCw4gq;
         "forge-1.21.11" = _t5XYUnLs;
+        "forge-26.3" = _3ezvnMS4;
         "neoforge-1.21.10" = _ShW3lZj5;
         "neoforge-1.21.11" = _5bNnaGik;
         "neoforge-26.1" = _5hOhtap4;
         "neoforge-26.1.1" = _o06XIGSX;
         "neoforge-26.1.2" = _OaOlS606;
         "neoforge-26.2" = _WX9nL2hs;
+        "neoforge-26.3" = _eUV48zNZ;
         "pkg-1.0.0+1.21.10" = _ShW3lZj5;
         "pkg-1.0.0+1.21.11" = _y7PKxtlo;
         "pkg-2.0.0+26.1" = _8mqbEkMc;
@@ -204,7 +225,8 @@ let
         "pkg-2.1.0+26.1" = _5hOhtap4;
         "pkg-2.1.0+26.1.1" = _o06XIGSX;
         "pkg-2.1.0+26.1.2" = _OaOlS606;
-        "default" = _OaOlS606;
+        "pkg-2.2.0+26.3" = _3ezvnMS4;
+        "default" = _3ezvnMS4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gentlehurtcam";

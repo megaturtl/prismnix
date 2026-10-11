@@ -16,27 +16,39 @@ let
             "file" = "Better Fresher 3D Books VR v1.5.0.zip";
             "hash" = "sha512-hYQ+XvFI/MdesJ5+o0zPIc6Y0yePAs/ZBBppGEwTcxVLMF9blI7Jqh1EmsafkQer+IU3cnjKDCa4fWxvGtYE+Q==";
         };
+        _AHkhmVyF = {
+            "id" = "AHkhmVyF";
+            "file" = "Better Fresher 3D Books VR 1.5.1.zip";
+            "hash" = "sha512-dF0kzDwfEqklzj6YBsdK8bgxyWHYYGN1v6i9KpnKD4/elqoqVImeUlRf3lzFaJ2xbtvB0TbXwEoXq4V3Lg99kg==";
+        };
     in {
         "yGiRWI4e" = _yGiRWI4e;
         "pkY55qIM" = _pkY55qIM;
         "KbggI0ul" = _KbggI0ul;
-        "minecraft-1.21.5" = _KbggI0ul;
-        "minecraft-1.21.6" = _KbggI0ul;
-        "minecraft-1.21.7" = _KbggI0ul;
-        "minecraft-1.21.8" = _KbggI0ul;
+        "AHkhmVyF" = _AHkhmVyF;
+        "minecraft-1.21.5" = _AHkhmVyF;
+        "minecraft-1.21.6" = _AHkhmVyF;
+        "minecraft-1.21.7" = _AHkhmVyF;
+        "minecraft-1.21.8" = _AHkhmVyF;
         "minecraft-1.20.1" = _pkY55qIM;
         "minecraft-1.21" = _KbggI0ul;
         "minecraft-1.21.1" = _KbggI0ul;
-        "minecraft-1.21.9" = _KbggI0ul;
-        "minecraft-1.21.10" = _KbggI0ul;
+        "minecraft-1.21.9" = _AHkhmVyF;
+        "minecraft-1.21.10" = _AHkhmVyF;
         "minecraft-1.21.2" = _KbggI0ul;
         "minecraft-1.21.3" = _KbggI0ul;
         "minecraft-1.21.4" = _KbggI0ul;
-        "minecraft-1.21.11" = _KbggI0ul;
+        "minecraft-1.21.11" = _AHkhmVyF;
+        "minecraft-26.1" = _AHkhmVyF;
+        "minecraft-26.1.1" = _AHkhmVyF;
+        "minecraft-26.1.2" = _AHkhmVyF;
+        "minecraft-26.2" = _AHkhmVyF;
+        "minecraft-26.3" = _AHkhmVyF;
         "pkg-1.3.2" = _yGiRWI4e;
         "pkg-1.4.0" = _pkY55qIM;
         "pkg-1.5.0" = _KbggI0ul;
-        "default" = _KbggI0ul;
+        "pkg-1.5.1" = _AHkhmVyF;
+        "default" = _AHkhmVyF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-fresher-3d-books-vr";

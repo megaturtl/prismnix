@@ -231,6 +231,16 @@ let
             "file" = "pointed-dripstone-recipe-1.0.jar";
             "hash" = "sha512-oY8/FyNTVzVxPTPTdLyo5/SzIH+sKhmw6bs41DEqNtsmHI3wt9VumOYoQN+SdFzcA+F0mvkicnl4ZtBEMG0FBg==";
         };
+        _SNJBOoFe = {
+            "id" = "SNJBOoFe";
+            "file" = "pointed_dripstone-26.3.zip";
+            "hash" = "sha512-sONAbPupRPV8yOiNv3zvp34hJ4v7JvmR84VMJHmYSyaRezMRvmKxbjPEe8Tgzb4pWL53YNhfG/rVPWbiQ0LAug==";
+        };
+        _rvnC7MMT = {
+            "id" = "rvnC7MMT";
+            "file" = "pointed-dripstone-recipe-1.0.jar";
+            "hash" = "sha512-q1nIKpt49/3iX7oI0PReUlByL9vZiPdVDTk+qa/rnv6SWnDtlFHEYPN12Ei2qYFwfd2WjJeRM32TzBmfqpTTJw==";
+        };
     in {
         "bek8nuXF" = _bek8nuXF;
         "e35n5rvq" = _e35n5rvq;
@@ -278,6 +288,8 @@ let
         "sDtWWr1p" = _sDtWWr1p;
         "vorMaV3N" = _vorMaV3N;
         "bcg75eOb" = _bcg75eOb;
+        "SNJBOoFe" = _SNJBOoFe;
+        "rvnC7MMT" = _rvnC7MMT;
         "datapack-1.17" = _bek8nuXF;
         "datapack-1.17.1" = _bek8nuXF;
         "datapack-1.18" = _e35n5rvq;
@@ -329,6 +341,7 @@ let
         "datapack-1.20.5" = _cgMNAPuf;
         "datapack-26.2" = _vorMaV3N;
         "datapack-26.3-snapshot-1" = _vorMaV3N;
+        "datapack-26.3" = _SNJBOoFe;
         "fabric-1.17" = _iWWpUNNM;
         "fabric-1.17.1" = _iWWpUNNM;
         "fabric-1.18" = _NfNIyEXd;
@@ -380,6 +393,7 @@ let
         "fabric-1.20.5" = _sDtWWr1p;
         "fabric-26.2" = _bcg75eOb;
         "fabric-26.3-snapshot-1" = _bcg75eOb;
+        "fabric-26.3" = _rvnC7MMT;
         "forge-1.17" = _iWWpUNNM;
         "forge-1.17.1" = _iWWpUNNM;
         "forge-1.18" = _NfNIyEXd;
@@ -431,6 +445,7 @@ let
         "forge-1.20.5" = _sDtWWr1p;
         "forge-26.2" = _bcg75eOb;
         "forge-26.3-snapshot-1" = _bcg75eOb;
+        "forge-26.3" = _rvnC7MMT;
         "neoforge-1.17" = _iWWpUNNM;
         "neoforge-1.17.1" = _iWWpUNNM;
         "neoforge-1.18" = _NfNIyEXd;
@@ -482,6 +497,7 @@ let
         "neoforge-1.20.5" = _sDtWWr1p;
         "neoforge-26.2" = _bcg75eOb;
         "neoforge-26.3-snapshot-1" = _bcg75eOb;
+        "neoforge-26.3" = _rvnC7MMT;
         "quilt-1.17" = _iWWpUNNM;
         "quilt-1.17.1" = _iWWpUNNM;
         "quilt-1.18" = _NfNIyEXd;
@@ -533,9 +549,10 @@ let
         "quilt-1.20.5" = _sDtWWr1p;
         "quilt-26.2" = _bcg75eOb;
         "quilt-26.3-snapshot-1" = _bcg75eOb;
-        "pkg-1.0" = _vorMaV3N;
-        "pkg-1.0+mod" = _bcg75eOb;
-        "default" = _bcg75eOb;
+        "quilt-26.3" = _rvnC7MMT;
+        "pkg-1.0" = _SNJBOoFe;
+        "pkg-1.0+mod" = _rvnC7MMT;
+        "default" = _rvnC7MMT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pointed-dripstone-recipe";

@@ -396,6 +396,26 @@ let
             "file" = "stacksizetweaks-neoforge-0.4.0+26.2.jar";
             "hash" = "sha512-Fk1qtLcfaXDdUAzRMuzfA9DaLaTEQfa47sMHJ0ZCTPL4uf4kjIeFM9eO2fswDsUTCqyrZNWy8vdu1znuqWLyYA==";
         };
+        _iPDqLnKD = {
+            "id" = "iPDqLnKD";
+            "file" = "stacksizetweaks-neoforge-0.4.1+26.2.jar";
+            "hash" = "sha512-lu/vxcszSlvbb36nIga0/7aZ6//CBjSkilV5/wnntNSiYuHCiEmWXTFcsnesgR8I3zkALJMUlb+5MhXH7k86Pg==";
+        };
+        _cCKsV1qV = {
+            "id" = "cCKsV1qV";
+            "file" = "stacksizetweaks-fabric-0.4.1+26.2.jar";
+            "hash" = "sha512-wYzd0Xbm5gnN+LBfXgHA0HCM2e2lzwW2e8x2Qi/BVxZvy9vvpezdocxLH6rrysaQt/75umKVNba5X9R1k2IXrg==";
+        };
+        _lKkqrpNl = {
+            "id" = "lKkqrpNl";
+            "file" = "stacksizetweaks-neoforge-0.4.1+26.3.jar";
+            "hash" = "sha512-VJ9uoO+Dox70yVHpEjjuCp+ZrM21NsGd3KlIGCkNcdQWyr4wOLUfYLLh8+a7+X67xrlDhvXNF7SMER6bOTtVag==";
+        };
+        _rTwPt2rt = {
+            "id" = "rTwPt2rt";
+            "file" = "stacksizetweaks-fabric-0.4.1+26.3.jar";
+            "hash" = "sha512-6v7uwxs26EMIYGj8dhmXHmUebD97bf8DmkU9U/PoHhNBa2WY38zDsXkssuLG2xxhLsa/WnB4nwVZ5ZoPUhSqYw==";
+        };
     in {
         "pKL6Xxbm" = _pKL6Xxbm;
         "1tU8wHCD" = _1tU8wHCD;
@@ -476,6 +496,10 @@ let
         "IoHG8IDI" = _IoHG8IDI;
         "AkYnN7Z7" = _AkYnN7Z7;
         "DU36udOx" = _DU36udOx;
+        "iPDqLnKD" = _iPDqLnKD;
+        "cCKsV1qV" = _cCKsV1qV;
+        "lKkqrpNl" = _lKkqrpNl;
+        "rTwPt2rt" = _rTwPt2rt;
         "fabric-1.21.9" = _GfmRqq7Z;
         "fabric-1.21.10" = _GfmRqq7Z;
         "fabric-1.21.11" = _ojE6GnYh;
@@ -489,7 +513,8 @@ let
         "fabric-26.1" = _dPZXExJP;
         "fabric-26.1.1" = _dPZXExJP;
         "fabric-26.1.2" = _dPZXExJP;
-        "fabric-26.2" = _AkYnN7Z7;
+        "fabric-26.2" = _cCKsV1qV;
+        "fabric-26.3" = _rTwPt2rt;
         "neoforge-1.21" = _dnT3Gnyj;
         "neoforge-1.21.1" = _dnT3Gnyj;
         "neoforge-1.21.2" = _1wIdx7pW;
@@ -503,7 +528,8 @@ let
         "neoforge-26.1" = _s0MdUSwp;
         "neoforge-26.1.1" = _s0MdUSwp;
         "neoforge-26.1.2" = _s0MdUSwp;
-        "neoforge-26.2" = _DU36udOx;
+        "neoforge-26.2" = _iPDqLnKD;
+        "neoforge-26.3" = _lKkqrpNl;
         "pkg-0.1.0" = _pKL6Xxbm;
         "pkg-0.2.0" = _1tU8wHCD;
         "pkg-0.3.0+1.21" = _dGD43eh2;
@@ -545,7 +571,9 @@ let
         "pkg-0.3.4+26.1" = _dPZXExJP;
         "pkg-0.3.4+26.2" = _IoHG8IDI;
         "pkg-0.4.0+26.2" = _DU36udOx;
-        "default" = _DU36udOx;
+        "pkg-0.4.1+26.2" = _cCKsV1qV;
+        "pkg-0.4.1+26.3" = _rTwPt2rt;
+        "default" = _rTwPt2rt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stacksizetweaks";

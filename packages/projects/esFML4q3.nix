@@ -96,6 +96,21 @@ let
             "file" = "zombie-horde-mc26.2-1.3.0.jar";
             "hash" = "sha512-KFvX3d473bp3keeytAyc4bKF1yAFC3+LyXx1Ts43N64VFIsYn3uDi9qWeCzod6vt61KXHfLAD41gd0xlTsnSNA==";
         };
+        _gDpfQ5uN = {
+            "id" = "gDpfQ5uN";
+            "file" = "zombie-horde-mc26.3-1.3.0.jar";
+            "hash" = "sha512-QL/ChF021m+V6/y9JxCEYcye+c1yS4UyHN4XBGrs+7iefm7A+c4KT/Px3wS+zoO2VLYPJLVjU2r5cM2M4ie0ow==";
+        };
+        _D2lYbC52 = {
+            "id" = "D2lYbC52";
+            "file" = "zombie-horde-mc26.2-1.3.1.jar";
+            "hash" = "sha512-NcuTSNiXjfmhCjEWc+mEot/EVYSOfHVClyh5Bzd8+3fEmGzXp+QEdzwNd+iJ/MWgO6p2JtiRTXJ8u5ygPNWSQw==";
+        };
+        _Tb0B8TXY = {
+            "id" = "Tb0B8TXY";
+            "file" = "zombie-horde-mc26.3-1.3.1.jar";
+            "hash" = "sha512-gj2S7guehT0sjamT+joUjShIUdflwbtqp69HG5QJe72/1aAeputTzOrXguWBP55rf9FFZg225EipXFEFkv82sg==";
+        };
     in {
         "mZ8PfrUi" = _mZ8PfrUi;
         "wBoDbO2F" = _wBoDbO2F;
@@ -116,11 +131,15 @@ let
         "kzMMqnnH" = _kzMMqnnH;
         "WbLmL6Lx" = _WbLmL6Lx;
         "gAOfygde" = _gAOfygde;
+        "gDpfQ5uN" = _gDpfQ5uN;
+        "D2lYbC52" = _D2lYbC52;
+        "Tb0B8TXY" = _Tb0B8TXY;
         "fabric-1.21.11" = _fLMWfmgP;
         "fabric-26.1" = _CfHxIF83;
         "fabric-26.1.1" = _NIpp2zg8;
         "fabric-26.1.2" = _kzMMqnnH;
-        "fabric-26.2" = _gAOfygde;
+        "fabric-26.2" = _D2lYbC52;
+        "fabric-26.3" = _Tb0B8TXY;
         "pkg-1.0.0" = _mZ8PfrUi;
         "pkg-1.1.0" = _wBoDbO2F;
         "pkg-1.1.1" = _iqSosuKq;
@@ -132,8 +151,9 @@ let
         "pkg-1.2.3" = _VTXYVXF2;
         "pkg-1.2.4" = _I5zBV431;
         "pkg-1.2.5" = _WbLmL6Lx;
-        "pkg-1.3.0" = _gAOfygde;
-        "default" = _gAOfygde;
+        "pkg-1.3.0" = _gDpfQ5uN;
+        "pkg-1.3.1" = _Tb0B8TXY;
+        "default" = _Tb0B8TXY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zombie-horde-mod";

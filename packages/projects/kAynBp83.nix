@@ -46,6 +46,16 @@ let
             "file" = "solarpunk-0.4.0-1.21.1.jar";
             "hash" = "sha512-QU6ZzFHIT66/rihsd6I2NJDaR00JKPlArWYfK9HZm+QJFG6NynTlfx0HQTGbottqmNfqJFmFebJPYusz+lpOPQ==";
         };
+        _KqbEba9S = {
+            "id" = "KqbEba9S";
+            "file" = "solarpunk-1.0.0-1.21.1.jar";
+            "hash" = "sha512-fkgMiy6m9Plg8VKVG32CSja2hGerH6+mF7K407SCoNn8eb6OmdqtFLgvdubpDr1C7Zlm8sYacpzIEv6MnrPxNQ==";
+        };
+        _xE8ejjr9 = {
+            "id" = "xE8ejjr9";
+            "file" = "solarpunk-1.1.0-1.21.1.jar";
+            "hash" = "sha512-JCtOC+AfUB8k/VnUdTFGUNpUQdZrL3sRObg6dhJTbp76ZnkcJQqQzAGeeWSPekkKqo+RvHDSfEyiKeIlciGNPw==";
+        };
     in {
         "OrZpzkoh" = _OrZpzkoh;
         "mvldEFUb" = _mvldEFUb;
@@ -56,17 +66,19 @@ let
         "Vatjbz1u" = _Vatjbz1u;
         "xK4pEdqO" = _xK4pEdqO;
         "8k1JYDFT" = _8k1JYDFT;
-        "neoforge-1.21.1" = _8k1JYDFT;
-        "neoforge-1.21.2" = _8k1JYDFT;
-        "neoforge-1.21.3" = _8k1JYDFT;
-        "neoforge-1.21.4" = _8k1JYDFT;
-        "neoforge-1.21.5" = _8k1JYDFT;
-        "neoforge-1.21.6" = _8k1JYDFT;
-        "neoforge-1.21.7" = _8k1JYDFT;
-        "neoforge-1.21.8" = _8k1JYDFT;
-        "neoforge-1.21.9" = _8k1JYDFT;
-        "neoforge-1.21.10" = _8k1JYDFT;
-        "neoforge-1.21.11" = _8k1JYDFT;
+        "KqbEba9S" = _KqbEba9S;
+        "xE8ejjr9" = _xE8ejjr9;
+        "neoforge-1.21.1" = _xE8ejjr9;
+        "neoforge-1.21.2" = _xE8ejjr9;
+        "neoforge-1.21.3" = _xE8ejjr9;
+        "neoforge-1.21.4" = _xE8ejjr9;
+        "neoforge-1.21.5" = _xE8ejjr9;
+        "neoforge-1.21.6" = _xE8ejjr9;
+        "neoforge-1.21.7" = _xE8ejjr9;
+        "neoforge-1.21.8" = _xE8ejjr9;
+        "neoforge-1.21.9" = _xE8ejjr9;
+        "neoforge-1.21.10" = _xE8ejjr9;
+        "neoforge-1.21.11" = _xE8ejjr9;
         "pkg-0.0.0-1.21.1" = _OrZpzkoh;
         "pkg-0.0.1-1.21.1" = _mvldEFUb;
         "pkg-0.1.1-1.21.1" = _jsL12M6N;
@@ -76,7 +88,9 @@ let
         "pkg-0.3.1-1.21.1" = _Vatjbz1u;
         "pkg-0.3.2-1.21.1" = _xK4pEdqO;
         "pkg-0.4.0-1.21.1" = _8k1JYDFT;
-        "default" = _8k1JYDFT;
+        "pkg-1.0.0-1.21.1" = _KqbEba9S;
+        "pkg-1.1.0-1.21.1" = _xE8ejjr9;
+        "default" = _xE8ejjr9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-solar-punk";

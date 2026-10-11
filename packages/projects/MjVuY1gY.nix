@@ -86,6 +86,11 @@ let
             "file" = "afk-cinematics-1.0.5+26.2.jar";
             "hash" = "sha512-Z2H6S69xQgBtHTcYG4+fju24KBjY0WrGeHvBZ/RdlAdizEz0EFCvsVH+/Rh1/mC+6y4ep9YErYNHLMk4LTpbLg==";
         };
+        _q7nT1JY4 = {
+            "id" = "q7nT1JY4";
+            "file" = "afk-cinematics-1.0.6+26.3.jar";
+            "hash" = "sha512-Hvy37vUp1sH0/3qYptBOl6HuKhIC2ECzKq8koe37vGetCRnJ4zZ4E7V6Y+fQh4Z2SF2FOL6chXjqysGt+/LZbg==";
+        };
     in {
         "UxoI2zMA" = _UxoI2zMA;
         "ADvKwfyK" = _ADvKwfyK;
@@ -104,6 +109,7 @@ let
         "oLEGp0ZH" = _oLEGp0ZH;
         "Oucp0E4e" = _Oucp0E4e;
         "ggKNg45G" = _ggKNg45G;
+        "q7nT1JY4" = _q7nT1JY4;
         "fabric-1.21.1" = _UxoI2zMA;
         "fabric-1.21.2" = _ADvKwfyK;
         "fabric-1.21.3" = _nMtgRoaZ;
@@ -119,6 +125,7 @@ let
         "fabric-26.1.1" = _oLEGp0ZH;
         "fabric-26.1.2" = _Oucp0E4e;
         "fabric-26.2" = _ggKNg45G;
+        "fabric-26.3" = _q7nT1JY4;
         "pkg-1.21.1" = _UxoI2zMA;
         "pkg-1.21.2" = _ADvKwfyK;
         "pkg-1.21.3" = _nMtgRoaZ;
@@ -136,7 +143,8 @@ let
         "pkg-1.0.3+26.1.1" = _oLEGp0ZH;
         "pkg-1.0.4+26.1.2" = _Oucp0E4e;
         "pkg-1.0.5+26.2" = _ggKNg45G;
-        "default" = _ggKNg45G;
+        "pkg-1.0.6+26.3" = _q7nT1JY4;
+        "default" = _q7nT1JY4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "afk-cinematics";

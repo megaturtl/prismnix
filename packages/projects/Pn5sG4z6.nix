@@ -21,19 +21,31 @@ let
             "file" = "golemforgetmenot-1.2.0-1.21.9.jar";
             "hash" = "sha512-hm7VE26AHFuTqt/s55vKcQhlDLcHJbwf/rn3PxCmFsdg3pPSqjn53ZrUfot1neFhHsMnh0rUIV9QckfJmyY65g==";
         };
+        _QjmYALmC = {
+            "id" = "QjmYALmC";
+            "file" = "golemforgetmenot-1.2.2-26.3.jar";
+            "hash" = "sha512-ndgvz+lYdFEHwrkKYj4JcMW4jFIFo+feM9CMeHlvrFDQ4KAWmeJG3C4nwRQFEuP63M3FkQiyoJYkNg163l0rVA==";
+        };
     in {
         "JSvhwIJl" = _JSvhwIJl;
         "kkaAdpZ9" = _kkaAdpZ9;
         "9V0Qf9B3" = _9V0Qf9B3;
         "dEZWMpDo" = _dEZWMpDo;
+        "QjmYALmC" = _QjmYALmC;
         "fabric-1.21.9" = _dEZWMpDo;
         "fabric-1.21.10" = _dEZWMpDo;
         "fabric-1.21.11" = _dEZWMpDo;
+        "fabric-26.1" = _QjmYALmC;
+        "fabric-26.1.1" = _QjmYALmC;
+        "fabric-26.1.2" = _QjmYALmC;
+        "fabric-26.2" = _QjmYALmC;
+        "fabric-26.3" = _QjmYALmC;
         "pkg-1.0.0" = _JSvhwIJl;
         "pkg-1.1.0" = _kkaAdpZ9;
         "pkg-1.1.1" = _9V0Qf9B3;
         "pkg-1.2.0" = _dEZWMpDo;
-        "default" = _dEZWMpDo;
+        "pkg-1.2.2" = _QjmYALmC;
+        "default" = _QjmYALmC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "golem-forget-me-not";

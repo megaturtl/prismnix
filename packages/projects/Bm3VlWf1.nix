@@ -101,6 +101,16 @@ let
             "file" = "JunkDrawers-26.1.2-14.0.0.jar";
             "hash" = "sha512-ILVy34jDHCeSBfhbXC0md3zW3KlFJ1Kzv8xim6VEtrt/v6PC9zEEsME+jt2SYRqv9tFCElqQR/11G4taSB/J6g==";
         };
+        _HylQ9uk6 = {
+            "id" = "HylQ9uk6";
+            "file" = "JunkDrawers-1.21.1-9.1.3.jar";
+            "hash" = "sha512-TJYj0eVUmaGRBLNQwAY8hH/cE190RK8SBIes9lzhhMJo0NDpQr/eQ3BIUoz22VotaqWMRHSVknr3j3mRFatRBQ==";
+        };
+        _fBAKnwMo = {
+            "id" = "fBAKnwMo";
+            "file" = "JunkDrawers-1.21.1-9.1.4.jar";
+            "hash" = "sha512-38WgIZ00chKHNEMH8kWm5QUuViGcPftecbbv3S5ZDy9I7hc2CjABTmNtnmP5CBiaggV8SkEtnzzak+EcsUWLKg==";
+        };
     in {
         "FdCAiOrL" = _FdCAiOrL;
         "7uWaKdYn" = _7uWaKdYn;
@@ -122,6 +132,8 @@ let
         "6mPjjl1H" = _6mPjjl1H;
         "dIuSCB2H" = _dIuSCB2H;
         "M8Q5NtR5" = _M8Q5NtR5;
+        "HylQ9uk6" = _HylQ9uk6;
+        "fBAKnwMo" = _fBAKnwMo;
         "forge-1.18.2" = _FdCAiOrL;
         "forge-1.19.2" = _7uWaKdYn;
         "forge-1.19.3" = _aG64FI7j;
@@ -135,7 +147,7 @@ let
         "neoforge-1.20.5" = _U9h3sXq1;
         "neoforge-1.20.6" = _SOvGd8mT;
         "neoforge-1.21" = _vqAEspMr;
-        "neoforge-1.21.1" = _vqAEspMr;
+        "neoforge-1.21.1" = _fBAKnwMo;
         "neoforge-1.21.4" = _lnq95mZ7;
         "neoforge-1.21.5" = _SrLrQZAf;
         "neoforge-1.21.8" = _6mPjjl1H;
@@ -161,7 +173,9 @@ let
         "pkg-12.0.0" = _6mPjjl1H;
         "pkg-13.0.0" = _dIuSCB2H;
         "pkg-14.0.0" = _M8Q5NtR5;
-        "default" = _M8Q5NtR5;
+        "pkg-9.1.3" = _HylQ9uk6;
+        "pkg-9.1.4" = _fBAKnwMo;
+        "default" = _fBAKnwMo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "junk-drawers";

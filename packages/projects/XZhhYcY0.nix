@@ -26,12 +26,24 @@ let
             "file" = "Fresh Skeleton Physics.zip";
             "hash" = "sha512-aBmtVELJvl+hGYcUFg8c1tQSQLtH6XmfmD67X81gcyMJFJSBkkoN7nItEGQwyNB7RA9W8nMLwvGe2gb5sXk+ig==";
         };
+        _CEo0BuyL = {
+            "id" = "CEo0BuyL";
+            "file" = "Fresh Skeleton Physics.zip";
+            "hash" = "sha512-o2dNX61nGWyW+WUKNjZ5g5l7qeE1CeM8R7vdrZOBpgz/eyx8gqhfn6WO6VcwDtNF3WKBQ2MYex2KJ2eyhKK7ZQ==";
+        };
+        _y00ccPM4 = {
+            "id" = "y00ccPM4";
+            "file" = "Fresh Skeleton Physics.zip";
+            "hash" = "sha512-qFG4umSZz/Sa4u4zq4WBWbMDMTotXAdBUt2weKePTQ/1uBEBhfRHbhqzQySkokUAlvSOl/1PmaWMcM+KTtElTQ==";
+        };
     in {
         "zpPkiElr" = _zpPkiElr;
         "Or8xQn91" = _Or8xQn91;
         "nVhaSIQ1" = _nVhaSIQ1;
         "g77kDKoD" = _g77kDKoD;
         "wHqKIDhw" = _wHqKIDhw;
+        "CEo0BuyL" = _CEo0BuyL;
+        "y00ccPM4" = _y00ccPM4;
         "minecraft-1.20.2" = _zpPkiElr;
         "minecraft-1.20.3" = _zpPkiElr;
         "minecraft-1.20.4" = _zpPkiElr;
@@ -48,12 +60,19 @@ let
         "minecraft-1.21.9" = _wHqKIDhw;
         "minecraft-1.21.10" = _wHqKIDhw;
         "minecraft-1.21.11" = _wHqKIDhw;
+        "minecraft-26.1" = _y00ccPM4;
+        "minecraft-26.1.1" = _y00ccPM4;
+        "minecraft-26.1.2" = _y00ccPM4;
+        "minecraft-26.2" = _y00ccPM4;
+        "minecraft-26.3" = _y00ccPM4;
         "pkg-1.0.0" = _zpPkiElr;
         "pkg-1.1.0" = _Or8xQn91;
         "pkg-1.2.0" = _nVhaSIQ1;
         "pkg-1.3.0" = _g77kDKoD;
         "pkg-1.3.1" = _wHqKIDhw;
-        "default" = _wHqKIDhw;
+        "pkg-2.0.0" = _CEo0BuyL;
+        "pkg-2.0.1" = _y00ccPM4;
+        "default" = _y00ccPM4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fresh-skeleton-physics";

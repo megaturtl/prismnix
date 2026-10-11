@@ -141,6 +141,16 @@ let
             "file" = "ArmoredFoes-v26.2.0-mc26.2.x-NeoForge.jar";
             "hash" = "sha512-bGvRntO6kyMMPaeNSCj7VRJVz8regBnV3voYBtD/gTExXu8geAras9oDp8njGBy3UtYUSc+CJgRB7ZFlI8n6qg==";
         };
+        _Bt9Maxjw = {
+            "id" = "Bt9Maxjw";
+            "file" = "armoredfoes-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-B1jrqKQySF6NGLiWCDRbgUPStPbu4KA80ji7D4lfY1IMvSubZtDdES+q1b/gVRYzwGT1nIJ0/CbbvF9I2bKO/A==";
+        };
+        _PEU7vsJj = {
+            "id" = "PEU7vsJj";
+            "file" = "armoredfoes-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-K1+Lw1jxzbZIKxmpcLWFQi5AwAztkL09nQcwxF6b52yNRqCKaLLDgQQPPzP+oz7lrtNUK5S1D1KA5bg7ZNsOQA==";
+        };
     in {
         "NF2yh3hF" = _NF2yh3hF;
         "xB8U6bLi" = _xB8U6bLi;
@@ -170,6 +180,8 @@ let
         "Vtib7s2F" = _Vtib7s2F;
         "7agsNcDI" = _7agsNcDI;
         "8xEmNCwB" = _8xEmNCwB;
+        "Bt9Maxjw" = _Bt9Maxjw;
+        "PEU7vsJj" = _PEU7vsJj;
         "fabric-1.21.10" = _2WmXpetr;
         "fabric-1.21.8" = _G5bFO0Uy;
         "fabric-1.21.11" = _lDgTIEk5;
@@ -178,6 +190,7 @@ let
         "fabric-26.1.2" = _E756XdlL;
         "fabric-1.21.1" = _HyCslMiW;
         "fabric-26.2" = _7agsNcDI;
+        "fabric-26.3" = _PEU7vsJj;
         "neoforge-1.21.10" = _Q2C6f6Kp;
         "neoforge-1.21.8" = _jkaAI4e9;
         "neoforge-1.21.11" = _Ze3MuxVu;
@@ -186,6 +199,7 @@ let
         "neoforge-26.1.2" = _bttWoD7x;
         "neoforge-1.21.1" = _Vtib7s2F;
         "neoforge-26.2" = _8xEmNCwB;
+        "neoforge-26.3" = _Bt9Maxjw;
         "pkg-21.10.0" = _xB8U6bLi;
         "pkg-v21.8.0-1.21.8-Fabric" = _OYnklnO7;
         "pkg-v21.8.0-1.21.8-NeoForge" = _YZVnFSVo;
@@ -203,7 +217,8 @@ let
         "pkg-26.1.0" = _bttWoD7x;
         "pkg-21.1.0" = _Vtib7s2F;
         "pkg-26.2.0" = _8xEmNCwB;
-        "default" = _8xEmNCwB;
+        "pkg-26.3.0" = _PEU7vsJj;
+        "default" = _PEU7vsJj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "armored-foes";

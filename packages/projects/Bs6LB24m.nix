@@ -21,11 +21,23 @@ let
             "file" = "villager-shop-1.0.0.jar";
             "hash" = "sha512-mM7VFcyNRK5vfCmAkbOmO0Fp0FDHHYbDpK5ravBIoIew5aSeY35nriDcA3RYeGYex/VYRQ4GC/9CTWRPDpxe4A==";
         };
+        _BzTik892 = {
+            "id" = "BzTik892";
+            "file" = "Villager Shop v1.0.0 [26.3].zip";
+            "hash" = "sha512-NzhmKlHBdeK7AH2aV1hY8PRvrmhBr8YINF8QHbW4xHGZWBcDArRWewu8+OH3dGVJZXmGfnhhBjFIVWizlF+cJA==";
+        };
+        _upiDpfvC = {
+            "id" = "upiDpfvC";
+            "file" = "villager-shop-1.0.0.jar";
+            "hash" = "sha512-SItc38kE3ktlXgaVuT2oAxcsGVhSAPM1DYhciVBxlsMFVKbZx9j07gtxUcdbm6a9SNv9nXYC9H9I5T/SsnKE3g==";
+        };
     in {
         "Udhx6qsq" = _Udhx6qsq;
         "aT3zoHBH" = _aT3zoHBH;
         "ws4O0GSw" = _ws4O0GSw;
         "hWhaTsST" = _hWhaTsST;
+        "BzTik892" = _BzTik892;
+        "upiDpfvC" = _upiDpfvC;
         "datapack-1.21.5" = _Udhx6qsq;
         "datapack-1.21.6" = _Udhx6qsq;
         "datapack-1.21.7" = _Udhx6qsq;
@@ -37,6 +49,7 @@ let
         "datapack-26.1.1" = _Udhx6qsq;
         "datapack-26.1.2" = _Udhx6qsq;
         "datapack-26.2" = _ws4O0GSw;
+        "datapack-26.3" = _BzTik892;
         "fabric-1.21.5" = _aT3zoHBH;
         "fabric-1.21.6" = _aT3zoHBH;
         "fabric-1.21.7" = _aT3zoHBH;
@@ -48,6 +61,7 @@ let
         "fabric-26.1.1" = _aT3zoHBH;
         "fabric-26.1.2" = _aT3zoHBH;
         "fabric-26.2" = _hWhaTsST;
+        "fabric-26.3" = _upiDpfvC;
         "forge-1.21.5" = _aT3zoHBH;
         "forge-1.21.6" = _aT3zoHBH;
         "forge-1.21.7" = _aT3zoHBH;
@@ -59,6 +73,7 @@ let
         "forge-26.1.1" = _aT3zoHBH;
         "forge-26.1.2" = _aT3zoHBH;
         "forge-26.2" = _hWhaTsST;
+        "forge-26.3" = _upiDpfvC;
         "neoforge-1.21.5" = _aT3zoHBH;
         "neoforge-1.21.6" = _aT3zoHBH;
         "neoforge-1.21.7" = _aT3zoHBH;
@@ -70,6 +85,7 @@ let
         "neoforge-26.1.1" = _aT3zoHBH;
         "neoforge-26.1.2" = _aT3zoHBH;
         "neoforge-26.2" = _hWhaTsST;
+        "neoforge-26.3" = _upiDpfvC;
         "quilt-1.21.5" = _aT3zoHBH;
         "quilt-1.21.6" = _aT3zoHBH;
         "quilt-1.21.7" = _aT3zoHBH;
@@ -81,11 +97,12 @@ let
         "quilt-26.1.1" = _aT3zoHBH;
         "quilt-26.1.2" = _aT3zoHBH;
         "quilt-26.2" = _hWhaTsST;
+        "quilt-26.3" = _upiDpfvC;
         "pkg-v1.0.0" = _Udhx6qsq;
         "pkg-v1.0.0+mod" = _aT3zoHBH;
-        "pkg-1.0.0" = _ws4O0GSw;
-        "pkg-1.0.0+mod" = _hWhaTsST;
-        "default" = _hWhaTsST;
+        "pkg-1.0.0" = _BzTik892;
+        "pkg-1.0.0+mod" = _upiDpfvC;
+        "default" = _upiDpfvC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "villager-shop";

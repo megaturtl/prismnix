@@ -366,6 +366,16 @@ let
             "file" = "createoreexcavation-fabric-1.20-1.6.1.jar";
             "hash" = "sha512-FM6qxUtZRE0X1kp7r+N7xXNSZU6gHxGpX14CmRicJL5A7S5kc/XbW9/Gj5RLPG9L9H9fdf7nmbLh4rfTYIe57g==";
         };
+        _J3rjB9Lq = {
+            "id" = "J3rjB9Lq";
+            "file" = "createoreexcavation-1.20-1.6.6.jar";
+            "hash" = "sha512-bDHqJXMMOeRpTq+KnWlbAVM2zoUbtpBa6sXhW999XiszVtg9ECtYSeqV5zesD/0zk+1/3hFV/59npplO/u3pMg==";
+        };
+        _7ATSqt1i = {
+            "id" = "7ATSqt1i";
+            "file" = "createoreexcavation-fabric-1.20-1.6.2.jar";
+            "hash" = "sha512-CfR9/z6yhyCXHXbphcggYZkjI6dCRtBj/iQWwht7fYBQMe6UMGmkomPmmT3+2pBFfyvk5UwwEmq10ZpTHAL2HA==";
+        };
     in {
         "uPzM2Scc" = _uPzM2Scc;
         "ECBHSev9" = _ECBHSev9;
@@ -440,13 +450,15 @@ let
         "F6Ov6y5W" = _F6Ov6y5W;
         "tivxiPTo" = _tivxiPTo;
         "sHml8IJO" = _sHml8IJO;
+        "J3rjB9Lq" = _J3rjB9Lq;
+        "7ATSqt1i" = _7ATSqt1i;
         "forge-1.18.2" = _zu2rP6jD;
         "forge-1.19" = _oe61cDtb;
         "forge-1.19.1" = _oe61cDtb;
         "forge-1.19.2" = _S7PPrW1M;
-        "forge-1.20.1" = _9mCy0ePP;
+        "forge-1.20.1" = _J3rjB9Lq;
         "fabric-1.19.2" = _W8TwPNaE;
-        "fabric-1.20.1" = _sHml8IJO;
+        "fabric-1.20.1" = _7ATSqt1i;
         "neoforge-1.21.1" = _tivxiPTo;
         "pkg-1.18-0.1.0" = _uPzM2Scc;
         "pkg-1.18-0.1.1" = _ECBHSev9;
@@ -521,7 +533,9 @@ let
         "pkg-1.21.1-1.6.7" = _F6Ov6y5W;
         "pkg-1.21.1-1.6.8" = _tivxiPTo;
         "pkg-1.20.1-1.6.1-fabric" = _sHml8IJO;
-        "default" = _sHml8IJO;
+        "pkg-1.20.1-1.6.6" = _J3rjB9Lq;
+        "pkg-1.20.1-1.6.2-fabric" = _7ATSqt1i;
+        "default" = _7ATSqt1i;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-ore-excavation";

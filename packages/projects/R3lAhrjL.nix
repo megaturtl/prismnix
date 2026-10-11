@@ -31,6 +31,16 @@ let
             "file" = "thermodynamica-1.0.0-pre2.jar";
             "hash" = "sha512-OejnZ58D16p6ukGtKNKwRhwzoE2vU7Jk4pHtAcm3THfDcrwspzxMxMLN/+WXH2eeOZmqQsKtktRSf9fA4wv3Mg==";
         };
+        _5cY3iBMU = {
+            "id" = "5cY3iBMU";
+            "file" = "thermodynamica-fabric-1.20.1-1.1.0.jar";
+            "hash" = "sha512-ICr8iAvo6XfWQMYa4EXpbCGvdQ8BZQjEu4Lv+o2qKCxCyS3uAl9a0PXlvOFicXT0DgHfHJ//ZJPVs/MEuM1Huw==";
+        };
+        _rgsAGURq = {
+            "id" = "rgsAGURq";
+            "file" = "thermodynamica-forge-1.20.1-1.1.0.jar";
+            "hash" = "sha512-8YwoPfu8zm7vtuMdP6IYm6KjMXvlpTVBVAhRMXmDZDDAnEBc/3e2N+hWkexmufbVR5QDR0Vy+801l3Ci8dk1aA==";
+        };
     in {
         "xzfYRsUI" = _xzfYRsUI;
         "WV7Khts0" = _WV7Khts0;
@@ -38,19 +48,23 @@ let
         "FpWqULwm" = _FpWqULwm;
         "B89jyTJ6" = _B89jyTJ6;
         "V79qLcpl" = _V79qLcpl;
-        "forge-1.20.1" = _V79qLcpl;
+        "5cY3iBMU" = _5cY3iBMU;
+        "rgsAGURq" = _rgsAGURq;
+        "forge-1.20.1" = _rgsAGURq;
         "forge-1.20.2" = _FpWqULwm;
         "forge-1.20.3" = _FpWqULwm;
         "forge-1.20.4" = _FpWqULwm;
         "forge-1.20.5" = _FpWqULwm;
         "forge-1.20.6" = _FpWqULwm;
+        "fabric-1.20.1" = _5cY3iBMU;
         "pkg-0.1.2" = _xzfYRsUI;
         "pkg-0.2.3" = _WV7Khts0;
         "pkg-0.3.1" = _6IRcoEJG;
         "pkg-0.4.1" = _FpWqULwm;
         "pkg-1.0.0-pre1" = _B89jyTJ6;
         "pkg-1.0.0-pre2" = _V79qLcpl;
-        "default" = _V79qLcpl;
+        "pkg-1.1.0" = _rgsAGURq;
+        "default" = _rgsAGURq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "thermodynamica";

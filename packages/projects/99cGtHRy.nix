@@ -81,6 +81,16 @@ let
             "file" = "EclipseUI-neoforge-1.0.5-neoforge-26.3.jar";
             "hash" = "sha512-941jxjk7uh3f9Q1glZAYYfu4MF7tMO71RTDw4BJNpfVAbEdPetb0vCh26Bo5DxSLqVfLxxtp+TNSIRbsvLdU7A==";
         };
+        _WGC34ZtC = {
+            "id" = "WGC34ZtC";
+            "file" = "EclipseUI-fabric-1.0.5-fabric-26.4-snapshot-1.jar";
+            "hash" = "sha512-lJ5JdL46jmmRFFqOiQPjHn2xURsBv2ydvWMdjbB9i5QNVwGf1U/kbnX/m4DgegB7HQ+X9M9+fKbHMQ4fOL7GAw==";
+        };
+        _G2DdNUiJ = {
+            "id" = "G2DdNUiJ";
+            "file" = "EclipseUI-fabric-1.0.5-fabric-26.4-snapshot-3.jar";
+            "hash" = "sha512-FH8ugReVTpkopThZsKGgCd4UOrhYHVG8ahn1rZeHOBZDsEn7/h55KVXaca40nKmpFuxtIHfzrMr9mf1/bNuYTQ==";
+        };
     in {
         "KUUodpwz" = _KUUodpwz;
         "TxmPArZV" = _TxmPArZV;
@@ -98,6 +108,8 @@ let
         "qMqhOSML" = _qMqhOSML;
         "OzaItfKs" = _OzaItfKs;
         "RtDdeIM5" = _RtDdeIM5;
+        "WGC34ZtC" = _WGC34ZtC;
+        "G2DdNUiJ" = _G2DdNUiJ;
         "fabric-1.21.11" = _KUUodpwz;
         "fabric-26.1" = _gh05XE4Y;
         "fabric-26.1.1" = _gh05XE4Y;
@@ -114,6 +126,9 @@ let
         "fabric-26.3-snapshot-2" = _UknupNrO;
         "fabric-26.3-snapshot-8" = _qMqhOSML;
         "fabric-26.3" = _OzaItfKs;
+        "fabric-26.4-snapshot-1" = _WGC34ZtC;
+        "fabric-26.4-snapshot-2" = _WGC34ZtC;
+        "fabric-26.4-snapshot-3" = _G2DdNUiJ;
         "neoforge-1.21.11" = _TxmPArZV;
         "neoforge-26.1" = _BnyvBfTX;
         "neoforge-26.1.1" = _BnyvBfTX;
@@ -132,7 +147,9 @@ let
         "pkg-1.0.5+mc26.3-snapshot-8-fabric" = _qMqhOSML;
         "pkg-1.0.5+mc26.3-fabric" = _OzaItfKs;
         "pkg-1.0.5+mc26.3-neoforge" = _RtDdeIM5;
-        "default" = _RtDdeIM5;
+        "pkg-1.0.5+mc26.4-snapshot-1-fabric" = _WGC34ZtC;
+        "pkg-1.0.5+mc26.4-snapshot-3-fabric" = _G2DdNUiJ;
+        "default" = _G2DdNUiJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "eclipseui";

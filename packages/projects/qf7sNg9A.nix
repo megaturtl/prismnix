@@ -181,6 +181,16 @@ let
             "file" = "BetterGoPaint-1.1.0.jar";
             "hash" = "sha512-tYxVQ6bOC9jkcNoQR8fNDK/AnBKTEd7PoF9v2NhIMmKbBiBo+sKjTQEOguDF8rkSTC1mUETaeWhz1Srab/0QHQ==";
         };
+        _5DETDJsE = {
+            "id" = "5DETDJsE";
+            "file" = "BetterGoPaint-2.0.0.jar";
+            "hash" = "sha512-hhijTpd9Z77KTupNzUuAMFRyOJefyfF++tgZU7sqn6OjpbxIgEcGnqEdw7Sr9Vz3mSJygOjKr8aLeAnxunVHnQ==";
+        };
+        _uoPbAao8 = {
+            "id" = "uoPbAao8";
+            "file" = "BetterGoPaint-2.0.1.jar";
+            "hash" = "sha512-FhVLV8IL/FetZKnaCxY6/VZwiBfRZONnMhLIsuVJeFd5WF4P1SaTMA+4PcG5kzmWqeZq56CIhUvSdoCFjRqLwA==";
+        };
     in {
         "Lf05EDx4" = _Lf05EDx4;
         "I0KoM8Gu" = _I0KoM8Gu;
@@ -218,6 +228,8 @@ let
         "d1NwyS0R" = _d1NwyS0R;
         "uhZADgN3" = _uhZADgN3;
         "iCJRYAlJ" = _iCJRYAlJ;
+        "5DETDJsE" = _5DETDJsE;
+        "uoPbAao8" = _uoPbAao8;
         "bukkit-1.16.5" = _Sii19gPj;
         "bukkit-1.17" = _Sii19gPj;
         "bukkit-1.17.1" = _Sii19gPj;
@@ -323,6 +335,10 @@ let
         "paper-1.20.5" = _u8FK8MZY;
         "paper-1.20.6" = _NP9OzpkK;
         "paper-1.21" = _iCJRYAlJ;
+        "paper-26.1.1" = _uoPbAao8;
+        "paper-26.1.2" = _uoPbAao8;
+        "paper-26.2" = _uoPbAao8;
+        "paper-26.3" = _uoPbAao8;
         "pkg-1.0.0-SNAPSHOT+f380d83" = _Lf05EDx4;
         "pkg-1.0.0-SNAPSHOT+0aa6d6b" = _I0KoM8Gu;
         "pkg-1.0.0-SNAPSHOT+2ffc72f" = _xOGxa5hs;
@@ -358,7 +374,9 @@ let
         "pkg-1.2.0-SNAPSHOT+31" = _d1NwyS0R;
         "pkg-1.1.0-SNAPSHOT+32" = _uhZADgN3;
         "pkg-1.1.0" = _iCJRYAlJ;
-        "default" = _iCJRYAlJ;
+        "pkg-2.0.0" = _5DETDJsE;
+        "pkg-2.0.1" = _uoPbAao8;
+        "default" = _uoPbAao8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bettergopaint";

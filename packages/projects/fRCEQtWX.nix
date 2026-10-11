@@ -341,6 +341,11 @@ let
             "file" = "fdm-26.9-fabric-26.2.jar";
             "hash" = "sha512-KbCgJOZCtmRzAhOnsxFbnC//rzg7FcWEY4Dtzs0EeM2rydPn4Ph0l6b37uPyI3FR6a5YV+EnGKK2aQHWL3Dyow==";
         };
+        _L2ZOKDW2 = {
+            "id" = "L2ZOKDW2";
+            "file" = "fdm-26.9-fabric-26.3.jar";
+            "hash" = "sha512-LT49M6HpPzyAQ2I43wz0ZRmI7A/AyKeZS33In6tkARYQz1dwFyLLbC9bfvkwtTHZ9hRzcbVML+g9Xyt1l/SSjA==";
+        };
     in {
         "yDo6KhJp" = _yDo6KhJp;
         "NZSxLvMQ" = _NZSxLvMQ;
@@ -410,6 +415,7 @@ let
         "43QstnKk" = _43QstnKk;
         "VPKAWfDz" = _VPKAWfDz;
         "P4psZk1i" = _P4psZk1i;
+        "L2ZOKDW2" = _L2ZOKDW2;
         "forge-1.20.1" = _7JWZi5Wa;
         "forge-1.19.2" = _y5hlip0i;
         "forge-1.19.4" = _Cv58Z3Wr;
@@ -432,6 +438,7 @@ let
         "fabric-1.21.11" = _43QstnKk;
         "fabric-26.1.2" = _VPKAWfDz;
         "fabric-26.2" = _P4psZk1i;
+        "fabric-26.3" = _L2ZOKDW2;
         "pkg-1.0.1" = _yDo6KhJp;
         "pkg-1.1.0" = _6EWGekn1;
         "pkg-1.1.1" = _xj2grVh2;
@@ -440,8 +447,8 @@ let
         "pkg-26.4.0" = _898zfhYx;
         "pkg-26.4.0+1.20.1-fabric" = _BsD89ziG;
         "pkg-26.4.1" = _NzwCIkez;
-        "pkg-26.9" = _P4psZk1i;
-        "default" = _P4psZk1i;
+        "pkg-26.9" = _L2ZOKDW2;
+        "default" = _L2ZOKDW2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "farmhouse-decorations";

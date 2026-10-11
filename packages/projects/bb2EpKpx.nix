@@ -181,6 +181,26 @@ let
             "file" = "argonauts-fabric-1.20.1-1.0.10.jar";
             "hash" = "sha512-8mhcbJw4hYTtKq03GHrggIfWF7Jpo0VLUzRJ/Sfp8hrQICtsdogh6RgBk03wxYSHmWW6Ooeo1kmmoHMjUBYQjQ==";
         };
+        _10ynw870 = {
+            "id" = "10ynw870";
+            "file" = "odyssey_allies-neoforge-1.21-2.0.0-alpha.6.jar";
+            "hash" = "sha512-Ttjp+Rdl5MmbbEyvZNPR/7FPHn+Fh2kjTM91xCFaTMY7IDO7ol3FiLwqy2khGJhwPeUHU1A/aEFkQNg+EVP13Q==";
+        };
+        _SwyXAEZt = {
+            "id" = "SwyXAEZt";
+            "file" = "odyssey_allies-fabric-1.21-2.0.0-alpha.6.jar";
+            "hash" = "sha512-wwe3blSjZXhW0D2dYIjTRel145Hel0VlqayTbmOjdE0YPjReAvXZoc27zeMk4D8y4f8p6uNVrIr1fxZlG3FdeA==";
+        };
+        _5XYm1pVc = {
+            "id" = "5XYm1pVc";
+            "file" = "odyssey_allies-neoforge-1.21-2.0.0.jar";
+            "hash" = "sha512-KYImEXNT5VVhVdvCesSBsbb9aYTaIo+OeFAaTirtfzHiZR0/AuB6p3VBJlC7dLDJ+rqv2uWqzRkJyEY64lQj4g==";
+        };
+        _QqOsdQvu = {
+            "id" = "QqOsdQvu";
+            "file" = "odyssey_allies-fabric-1.21-2.0.0.jar";
+            "hash" = "sha512-qGcKtPw0DnCoIED89mMR6RqbJe6/W6TL+f7NhJNUnXfnRLdciaL4pavyWWn3zti2D6kxOp1SPeMWFz3AnkdmWA==";
+        };
     in {
         "ua5WCyVc" = _ua5WCyVc;
         "s6aYAqG9" = _s6aYAqG9;
@@ -218,16 +238,22 @@ let
         "nP4rBNWT" = _nP4rBNWT;
         "r0eKAc5z" = _r0eKAc5z;
         "wLI6JsqG" = _wLI6JsqG;
+        "10ynw870" = _10ynw870;
+        "SwyXAEZt" = _SwyXAEZt;
+        "5XYm1pVc" = _5XYm1pVc;
+        "QqOsdQvu" = _QqOsdQvu;
         "forge-1.20" = _fvHqltx4;
         "forge-1.20.1" = _r0eKAc5z;
         "fabric-1.20" = _FAs8No0k;
         "fabric-1.20.1" = _wLI6JsqG;
         "fabric-1.20.2" = _fQP9S8Yw;
         "fabric-1.20.4" = _nP4rBNWT;
+        "fabric-1.21" = _QqOsdQvu;
         "neoforge-1.20" = _itpopxed;
         "neoforge-1.20.1" = _itpopxed;
         "neoforge-1.20.2" = _axA0dUnz;
         "neoforge-1.20.4" = _EBD0qDzw;
+        "neoforge-1.21" = _5XYm1pVc;
         "pkg-0.0.0" = _s6aYAqG9;
         "pkg-0.1.0" = _wxjTKLo3;
         "pkg-0.1.1" = _IH2HFcvL;
@@ -246,7 +272,9 @@ let
         "pkg-1.0.9" = _WWdnpWiV;
         "pkg-1.2.4" = _nP4rBNWT;
         "pkg-1.0.10" = _wLI6JsqG;
-        "default" = _wLI6JsqG;
+        "pkg-2.0.0-alpha.6" = _SwyXAEZt;
+        "pkg-2.0.0" = _QqOsdQvu;
+        "default" = _QqOsdQvu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "odyssey-allies";

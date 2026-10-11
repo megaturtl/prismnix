@@ -61,6 +61,21 @@ let
             "file" = "mace-hitboxes-1.0.5-26.1.2.jar";
             "hash" = "sha512-PCyG8r7KwRJOaYvzdXxmOXWpz6R9aofHM50F35lkK09vX5+gHlniOXIx+yW+dhIufuTglZ31pwwGy2TQ5F1SZQ==";
         };
+        _x62jN07B = {
+            "id" = "x62jN07B";
+            "file" = "mace-hitboxes-1.0.6-1.21.11.jar";
+            "hash" = "sha512-xp1t+wTw06xwSjUutglu2WhqY3yfmpgpvRUH8RVJpkrArvtEwk+jebPt8b4uI+N8xzN4I3BhupS8Rg8s6xNT8A==";
+        };
+        _iD8tLSNw = {
+            "id" = "iD8tLSNw";
+            "file" = "mace-hitboxes-1.0.6-26.1.2.jar";
+            "hash" = "sha512-Z2sfo0Sl/Ozvomk7rLWUKQ4wCdqoyRfNmaqNcU4ZWXowLcMfQ9owFqUfgvGnUJnbQpx4Co6J3BBmKYmeChkB5g==";
+        };
+        _AOHvx6y0 = {
+            "id" = "AOHvx6y0";
+            "file" = "mace-hitboxes-1.0.6-26.3.jar";
+            "hash" = "sha512-x2fnxkFc7O6CgK/9atdcer5w/hCCGfxjDXLPNQtf1hySLAot1yY0Z9aHcgvnS9l5Q1YPQ4cP1vhVnadFkoV40Q==";
+        };
     in {
         "uxHTPfbC" = _uxHTPfbC;
         "VxZjAAZV" = _VxZjAAZV;
@@ -74,21 +89,28 @@ let
         "NWhsJYno" = _NWhsJYno;
         "K0bs6rsX" = _K0bs6rsX;
         "IBn0yBNt" = _IBn0yBNt;
+        "x62jN07B" = _x62jN07B;
+        "iD8tLSNw" = _iD8tLSNw;
+        "AOHvx6y0" = _AOHvx6y0;
         "fabric-1.21.10" = _wdGVPGT9;
-        "fabric-1.21.11" = _K0bs6rsX;
+        "fabric-1.21.11" = _x62jN07B;
         "fabric-1.21.2" = _nxUJBp4L;
         "fabric-1.21.8" = _M6uBBZUO;
         "fabric-1.21.9" = _yDgdxAIc;
         "fabric-26.1" = _IBn0yBNt;
         "fabric-26.1.1" = _IBn0yBNt;
-        "fabric-26.1.2" = _IBn0yBNt;
+        "fabric-26.1.2" = _iD8tLSNw;
+        "fabric-26.3" = _AOHvx6y0;
         "pkg-1.0.0" = _uxHTPfbC;
         "pkg-1.0.1" = _VxZjAAZV;
         "pkg-1.0.2" = _yDgdxAIc;
         "pkg-1.0.3" = _GGGj2HVW;
         "pkg-1.0.4" = _NWhsJYno;
         "pkg-1.0.5" = _IBn0yBNt;
-        "default" = _IBn0yBNt;
+        "pkg-1.0.6-1.21.11" = _x62jN07B;
+        "pkg-1.0.6-26.1.2" = _iD8tLSNw;
+        "pkg-1.0.6-26.3" = _AOHvx6y0;
+        "default" = _AOHvx6y0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mace-hitboxes";

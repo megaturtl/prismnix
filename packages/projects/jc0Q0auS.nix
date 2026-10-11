@@ -41,6 +41,16 @@ let
             "file" = "gilded-food-v1.0.0.jar";
             "hash" = "sha512-m3YPIRQmrDp+6By515s2KDyzB2JE0YG7Quj24wp3OFHSAM8YGv7Dy7Jer10Kw1oG1fHCMT/FoqFq6oKl+lDmHQ==";
         };
+        _JexYQKar = {
+            "id" = "JexYQKar";
+            "file" = "Gilded_v1.0.1-26.3_Data_Resource.zip";
+            "hash" = "sha512-wqPNm2/9MEOyT8s+Ohy9GyxyfROMfA3cISGEnMA+uHdYMLMNRQRsXxggA35PuQc7M7PjVprVB5HxL4zOjb9QpQ==";
+        };
+        _vOa0UV6E = {
+            "id" = "vOa0UV6E";
+            "file" = "gilded-food-v1.0.1-26.3.jar";
+            "hash" = "sha512-9aBwmyUoeFT3ZGzZRUWsI58OMUEP8ve8j78zXLd7+f2OnwSpQdZV0YM57mfKZhHjueYY1EO4xIgVLEOoLfHEhg==";
+        };
     in {
         "SgcDwrlw" = _SgcDwrlw;
         "9HEoNki4" = _9HEoNki4;
@@ -50,6 +60,8 @@ let
         "AtePQHd3" = _AtePQHd3;
         "2G6wT0Ez" = _2G6wT0Ez;
         "JLDovcWc" = _JLDovcWc;
+        "JexYQKar" = _JexYQKar;
+        "vOa0UV6E" = _vOa0UV6E;
         "datapack-1.21" = _SgcDwrlw;
         "datapack-1.21.1" = _SgcDwrlw;
         "datapack-1.21.4" = _xsR75XNf;
@@ -64,6 +76,7 @@ let
         "datapack-26.1.1" = _2G6wT0Ez;
         "datapack-26.1.2" = _2G6wT0Ez;
         "datapack-26.2" = _2G6wT0Ez;
+        "datapack-26.3" = _JexYQKar;
         "fabric-1.21" = _9HEoNki4;
         "fabric-1.21.1" = _9HEoNki4;
         "fabric-1.21.4" = _wsuu3RIe;
@@ -78,6 +91,7 @@ let
         "fabric-26.1.1" = _JLDovcWc;
         "fabric-26.1.2" = _JLDovcWc;
         "fabric-26.2" = _JLDovcWc;
+        "fabric-26.3" = _vOa0UV6E;
         "forge-1.21" = _9HEoNki4;
         "forge-1.21.1" = _9HEoNki4;
         "forge-1.21.4" = _wsuu3RIe;
@@ -92,6 +106,7 @@ let
         "forge-26.1.1" = _JLDovcWc;
         "forge-26.1.2" = _JLDovcWc;
         "forge-26.2" = _JLDovcWc;
+        "forge-26.3" = _vOa0UV6E;
         "neoforge-1.21" = _9HEoNki4;
         "neoforge-1.21.1" = _9HEoNki4;
         "neoforge-1.21.4" = _wsuu3RIe;
@@ -106,6 +121,7 @@ let
         "neoforge-26.1.1" = _JLDovcWc;
         "neoforge-26.1.2" = _JLDovcWc;
         "neoforge-26.2" = _JLDovcWc;
+        "neoforge-26.3" = _vOa0UV6E;
         "quilt-1.21" = _9HEoNki4;
         "quilt-1.21.1" = _9HEoNki4;
         "quilt-1.21.4" = _wsuu3RIe;
@@ -120,9 +136,12 @@ let
         "quilt-26.1.1" = _JLDovcWc;
         "quilt-26.1.2" = _JLDovcWc;
         "quilt-26.2" = _JLDovcWc;
+        "quilt-26.3" = _vOa0UV6E;
         "pkg-v1.0.0" = _2G6wT0Ez;
         "pkg-v1.0.0+mod" = _JLDovcWc;
-        "default" = _JLDovcWc;
+        "pkg-v1.0.1-26.3" = _JexYQKar;
+        "pkg-v1.0.1-26.3+mod" = _vOa0UV6E;
+        "default" = _vOa0UV6E;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gilded-food";

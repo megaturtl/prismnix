@@ -106,6 +106,16 @@ let
             "file" = "copper-recycling-3.1.jar";
             "hash" = "sha512-M9EntrxNz8lW2dQFyvawCubgARqEIYLn30NL8qFvIwyRsv756w/cDQDdtLP/igfU9STkbqTvYsUYNMDcLOfMcg==";
         };
+        _gx1XK4fZ = {
+            "id" = "gx1XK4fZ";
+            "file" = "Better Copper Recycling v3.2 (1.21.9-26.3).zip";
+            "hash" = "sha512-ZnZfZQ94fv3Y3+8fKM5Z260SAkurV1i/oBEJW33dBwl9FQy/P2curGDdCMeNZtxGPOZ6NS1TAv4s43tKKhgzDw==";
+        };
+        _2EMVz0Ky = {
+            "id" = "2EMVz0Ky";
+            "file" = "copper-recycling-3.2.jar";
+            "hash" = "sha512-0fygXAeATsrhttv2GGKiCZflWjtq49Qg/nOrwTvAPJWrI6HqCQWYHyisVjT+1PDDb3Ew/+YSVpqwjV4rLiyf7w==";
+        };
     in {
         "YKxllpfo" = _YKxllpfo;
         "UKtXJmhU" = _UKtXJmhU;
@@ -128,6 +138,8 @@ let
         "fch77Utn" = _fch77Utn;
         "NIRuAJN3" = _NIRuAJN3;
         "iKvGo8w3" = _iKvGo8w3;
+        "gx1XK4fZ" = _gx1XK4fZ;
+        "2EMVz0Ky" = _2EMVz0Ky;
         "datapack-1.21" = _HTClMXTd;
         "datapack-1.20" = _9imfcmst;
         "datapack-1.20.1" = _9imfcmst;
@@ -144,9 +156,14 @@ let
         "datapack-1.21.6" = _HTClMXTd;
         "datapack-1.21.7" = _HTClMXTd;
         "datapack-1.21.8" = _HTClMXTd;
-        "datapack-1.21.9" = _NIRuAJN3;
-        "datapack-1.21.10" = _NIRuAJN3;
-        "datapack-1.21.11" = _NIRuAJN3;
+        "datapack-1.21.9" = _gx1XK4fZ;
+        "datapack-1.21.10" = _gx1XK4fZ;
+        "datapack-1.21.11" = _gx1XK4fZ;
+        "datapack-26.1" = _gx1XK4fZ;
+        "datapack-26.1.1" = _gx1XK4fZ;
+        "datapack-26.1.2" = _gx1XK4fZ;
+        "datapack-26.2" = _gx1XK4fZ;
+        "datapack-26.3" = _gx1XK4fZ;
         "fabric-1.21" = _6MnADGIG;
         "fabric-1.20" = _lPVHChL0;
         "fabric-1.20.1" = _lPVHChL0;
@@ -163,9 +180,14 @@ let
         "fabric-1.21.6" = _6MnADGIG;
         "fabric-1.21.7" = _6MnADGIG;
         "fabric-1.21.8" = _6MnADGIG;
-        "fabric-1.21.9" = _iKvGo8w3;
-        "fabric-1.21.10" = _iKvGo8w3;
-        "fabric-1.21.11" = _iKvGo8w3;
+        "fabric-1.21.9" = _2EMVz0Ky;
+        "fabric-1.21.10" = _2EMVz0Ky;
+        "fabric-1.21.11" = _2EMVz0Ky;
+        "fabric-26.1" = _2EMVz0Ky;
+        "fabric-26.1.1" = _2EMVz0Ky;
+        "fabric-26.1.2" = _2EMVz0Ky;
+        "fabric-26.2" = _2EMVz0Ky;
+        "fabric-26.3" = _2EMVz0Ky;
         "forge-1.21" = _6MnADGIG;
         "forge-1.20" = _lPVHChL0;
         "forge-1.20.1" = _lPVHChL0;
@@ -182,9 +204,14 @@ let
         "forge-1.21.6" = _6MnADGIG;
         "forge-1.21.7" = _6MnADGIG;
         "forge-1.21.8" = _6MnADGIG;
-        "forge-1.21.9" = _iKvGo8w3;
-        "forge-1.21.10" = _iKvGo8w3;
-        "forge-1.21.11" = _iKvGo8w3;
+        "forge-1.21.9" = _2EMVz0Ky;
+        "forge-1.21.10" = _2EMVz0Ky;
+        "forge-1.21.11" = _2EMVz0Ky;
+        "forge-26.1" = _2EMVz0Ky;
+        "forge-26.1.1" = _2EMVz0Ky;
+        "forge-26.1.2" = _2EMVz0Ky;
+        "forge-26.2" = _2EMVz0Ky;
+        "forge-26.3" = _2EMVz0Ky;
         "quilt-1.21" = _6MnADGIG;
         "quilt-1.20" = _lPVHChL0;
         "quilt-1.20.1" = _lPVHChL0;
@@ -201,9 +228,14 @@ let
         "quilt-1.21.6" = _6MnADGIG;
         "quilt-1.21.7" = _6MnADGIG;
         "quilt-1.21.8" = _6MnADGIG;
-        "quilt-1.21.9" = _iKvGo8w3;
-        "quilt-1.21.10" = _iKvGo8w3;
-        "quilt-1.21.11" = _iKvGo8w3;
+        "quilt-1.21.9" = _2EMVz0Ky;
+        "quilt-1.21.10" = _2EMVz0Ky;
+        "quilt-1.21.11" = _2EMVz0Ky;
+        "quilt-26.1" = _2EMVz0Ky;
+        "quilt-26.1.1" = _2EMVz0Ky;
+        "quilt-26.1.2" = _2EMVz0Ky;
+        "quilt-26.2" = _2EMVz0Ky;
+        "quilt-26.3" = _2EMVz0Ky;
         "neoforge-1.20" = _lPVHChL0;
         "neoforge-1.20.1" = _lPVHChL0;
         "neoforge-1.20.2" = _lPVHChL0;
@@ -220,9 +252,14 @@ let
         "neoforge-1.21.6" = _6MnADGIG;
         "neoforge-1.21.7" = _6MnADGIG;
         "neoforge-1.21.8" = _6MnADGIG;
-        "neoforge-1.21.9" = _iKvGo8w3;
-        "neoforge-1.21.10" = _iKvGo8w3;
-        "neoforge-1.21.11" = _iKvGo8w3;
+        "neoforge-1.21.9" = _2EMVz0Ky;
+        "neoforge-1.21.10" = _2EMVz0Ky;
+        "neoforge-1.21.11" = _2EMVz0Ky;
+        "neoforge-26.1" = _2EMVz0Ky;
+        "neoforge-26.1.1" = _2EMVz0Ky;
+        "neoforge-26.1.2" = _2EMVz0Ky;
+        "neoforge-26.2" = _2EMVz0Ky;
+        "neoforge-26.3" = _2EMVz0Ky;
         "pkg-1" = _YKxllpfo;
         "pkg-1+mod" = _UKtXJmhU;
         "pkg-2" = _r3Dz2YRf;
@@ -243,7 +280,9 @@ let
         "pkg-3+mod" = _fch77Utn;
         "pkg-3.1" = _NIRuAJN3;
         "pkg-3.1+mod" = _iKvGo8w3;
-        "default" = _iKvGo8w3;
+        "pkg-3.2" = _gx1XK4fZ;
+        "pkg-3.2+mod" = _2EMVz0Ky;
+        "default" = _2EMVz0Ky;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "copper-recycling";

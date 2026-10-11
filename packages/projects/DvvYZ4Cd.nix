@@ -51,6 +51,26 @@ let
             "file" = "MagicalPsiRevival-1.21.1-1.1.0.5.jar";
             "hash" = "sha512-4ft7+1xR/Ib7YUcCHzrHoYrd921qJmK1c7rgLoQlK/N/jaIlGh69pVz49Ix/lBsmUK8xtNXnF3r4721HPpvU2w==";
         };
+        _CB1zVCqg = {
+            "id" = "CB1zVCqg";
+            "file" = "magipsi-1.21.1-fabric-1.1.0.6.jar";
+            "hash" = "sha512-WKDrSjn4HZ0CFeClp9hb5U3pr/0HdqmBIF51qzhTZtzLzVnzMVj10s+4WKm7aTB1RdDQPhQPIakg32J2sZbJTg==";
+        };
+        _dsT7vGgm = {
+            "id" = "dsT7vGgm";
+            "file" = "magipsi-1.21.1-neoforge-1.1.0.6.jar";
+            "hash" = "sha512-DuUA6CYs+V3OD4S2hbFNSAJQ3IEmG9GZNr4ZsMArmKifRkbPmW8yqsfj49SCKyXgovKflEvkAbTNDTo1pcPFLA==";
+        };
+        _qO2SkcQy = {
+            "id" = "qO2SkcQy";
+            "file" = "magipsi-1.21.1-fabric-1.1.0.7.jar";
+            "hash" = "sha512-s+7LPxC6nAN6UOWLK/02zq2CgJaDCNRi53mw7CAGUxnbmlAMMoUJiOvgmF4V3qdFO3HkwdC2PblPLQxv77Fg+A==";
+        };
+        _HG2KUol9 = {
+            "id" = "HG2KUol9";
+            "file" = "magipsi-1.21.1-neoforge-1.1.0.7.jar";
+            "hash" = "sha512-2+bQDB1Fl/4r9OxnE5Xvg8VibR4Gw1rKLcitEewGVxDCx4u5Rb+zH9KmbvzRTt7IaJwkR6srnRQUwu8fDX+UlQ==";
+        };
     in {
         "eGOo4V6C" = _eGOo4V6C;
         "dm9EZgQS" = _dm9EZgQS;
@@ -62,10 +82,15 @@ let
         "kdpi6bL8" = _kdpi6bL8;
         "5KAnwnPB" = _5KAnwnPB;
         "OSRiGh5F" = _OSRiGh5F;
+        "CB1zVCqg" = _CB1zVCqg;
+        "dsT7vGgm" = _dsT7vGgm;
+        "qO2SkcQy" = _qO2SkcQy;
+        "HG2KUol9" = _HG2KUol9;
         "forge-1.20" = _eGOo4V6C;
         "forge-1.20.1" = _kdpi6bL8;
         "neoforge-1.20.1" = _kdpi6bL8;
-        "neoforge-1.21.1" = _OSRiGh5F;
+        "neoforge-1.21.1" = _HG2KUol9;
+        "fabric-1.21.1" = _qO2SkcQy;
         "pkg-1.20.1-1.0.0.1" = _eGOo4V6C;
         "pkg-1.20.1-1.1.0.1" = _dm9EZgQS;
         "pkg-1.21.1-1.1.0.1" = _cp3qDUex;
@@ -76,7 +101,9 @@ let
         "pkg-1.20.1-1.1.0.4" = _kdpi6bL8;
         "pkg-1.21.1-1.1.0.4" = _5KAnwnPB;
         "pkg-1.21.1-1.1.0.5" = _OSRiGh5F;
-        "default" = _OSRiGh5F;
+        "pkg-1.21.1-1.1.0.6" = _dsT7vGgm;
+        "pkg-1.21.1-1.1.0.7" = _HG2KUol9;
+        "default" = _HG2KUol9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "magical-psi-revival";

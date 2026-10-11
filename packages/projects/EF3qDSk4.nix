@@ -91,6 +91,21 @@ let
             "file" = "animalgarden-springhare-1.0.1-fabric-26.1.1-0.145.3.jar";
             "hash" = "sha512-PA7wTa12yJL8qP+yJjMLKjp19y27s7TDwSLu5S0YwliTo9duy9WX4+HSQhU7HEvEKMUT/pby5rX++gyo9jmHUg==";
         };
+        _7tzVrCJd = {
+            "id" = "7tzVrCJd";
+            "file" = "animalgarden-springhare-1.0.1-forge-26.3-66.0.2.jar";
+            "hash" = "sha512-FIxGtUrxY6czkwccwpEQ07q2rt3GlywzTcGIT28gatp92MZGg0D/mx4/SbKvltlNxge3Bb9GapE+ETR1lXFd0w==";
+        };
+        _8FrfXVdZ = {
+            "id" = "8FrfXVdZ";
+            "file" = "animalgarden-springhare-1.0.1-neoforge-26.3.0.10.jar";
+            "hash" = "sha512-a1YrShVAX8X8klN76IFBUPbBvIVKWgd81JBgWZ2WeROMTL3tOqyxlZjUl3Z8PgZGwq1YjyrihjQKvcCFmUYHOw==";
+        };
+        _nzToCnJW = {
+            "id" = "nzToCnJW";
+            "file" = "animalgarden-springhare-1.0.1-fabric-26.3-0.161.0.jar";
+            "hash" = "sha512-BfixhehVxnxwB3dVwvplrDFxXTsubqNy2FEXM8yGbhEWKp3L2HFswFX91P2IiIcZSoHrw7by+rnWndPNWGpWRA==";
+        };
     in {
         "3lqQjcjG" = _3lqQjcjG;
         "CeL4Xvxm" = _CeL4Xvxm;
@@ -110,6 +125,9 @@ let
         "DYByLdEA" = _DYByLdEA;
         "aDP5MqgP" = _aDP5MqgP;
         "H7NjxPdk" = _H7NjxPdk;
+        "7tzVrCJd" = _7tzVrCJd;
+        "8FrfXVdZ" = _8FrfXVdZ;
+        "nzToCnJW" = _nzToCnJW;
         "forge-1.21.11" = _3lqQjcjG;
         "forge-1.21.9" = _CeL4Xvxm;
         "forge-1.21.10" = _CeL4Xvxm;
@@ -126,6 +144,7 @@ let
         "forge-26.1.1" = _DYByLdEA;
         "forge-26.1.2" = _DYByLdEA;
         "forge-26.2" = _DYByLdEA;
+        "forge-26.3" = _7tzVrCJd;
         "fabric-1.20.1" = _KEuby3nl;
         "fabric-1.21.1" = _xLFNvmQU;
         "fabric-1.21.3" = _Y38YnK2a;
@@ -141,6 +160,7 @@ let
         "fabric-26.1.1" = _H7NjxPdk;
         "fabric-26.1.2" = _H7NjxPdk;
         "fabric-26.2" = _H7NjxPdk;
+        "fabric-26.3" = _nzToCnJW;
         "neoforge-1.21.11" = _UKMCkR3F;
         "neoforge-1.21.9" = _IR9VeLeT;
         "neoforge-1.21.10" = _IR9VeLeT;
@@ -155,6 +175,7 @@ let
         "neoforge-26.1.1" = _aDP5MqgP;
         "neoforge-26.1.2" = _aDP5MqgP;
         "neoforge-26.2" = _aDP5MqgP;
+        "neoforge-26.3" = _8FrfXVdZ;
         "pkg-1.0.0-forge-1.21.11-61.0.10" = _3lqQjcjG;
         "pkg-1.0.0-forge-1.21.10-60.1.0" = _CeL4Xvxm;
         "pkg-1.0.0-forge-1.21.8-58.1.11" = _F255SZgb;
@@ -173,7 +194,10 @@ let
         "pkg-1.0.1-forge-26.1.1-63.0.0" = _DYByLdEA;
         "pkg-1.0.1-neoforge-26.1.1.1" = _aDP5MqgP;
         "pkg-1.0.1-fabric-26.1.1-0.145.3" = _H7NjxPdk;
-        "default" = _H7NjxPdk;
+        "pkg-1.0.1-forge-26.3-66.0.2" = _7tzVrCJd;
+        "pkg-1.0.1-neoforge-26.3.0.10" = _8FrfXVdZ;
+        "pkg-1.0.1-fabric-26.3-0.161.0" = _nzToCnJW;
+        "default" = _nzToCnJW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "animal-garden-springhare";

@@ -91,6 +91,11 @@ let
             "file" = "snuffles-1.8.0+26.2.jar";
             "hash" = "sha512-gMnb0fwWmlrcdZSHuKDvqmC8KaoG1zlgkJIfERg7JGl3BeLvphX/QUbJQ2tumitmk8j9/t8vj5gx1B/RmtZ1aQ==";
         };
+        _4bQBmBFe = {
+            "id" = "4bQBmBFe";
+            "file" = "snuffles-1.8.0+26.3.jar";
+            "hash" = "sha512-5wmdKPXv6/6BJQ6yeSrd6UGP4UWyfa/kzYe+71mcPOVWeBfzWj6306rfYaJCycNdF7j2oq4l2aSKka0qSHCm7Q==";
+        };
     in {
         "Q1X4p2SZ" = _Q1X4p2SZ;
         "5zRjIGj0" = _5zRjIGj0;
@@ -110,6 +115,7 @@ let
         "inQ6TXrT" = _inQ6TXrT;
         "iZZl3Sii" = _iZZl3Sii;
         "SM8neR3c" = _SM8neR3c;
+        "4bQBmBFe" = _4bQBmBFe;
         "fabric-1.19.2" = _Q1X4p2SZ;
         "fabric-1.19.3" = _5zRjIGj0;
         "fabric-1.19.4" = _dCl0JXYg;
@@ -135,6 +141,7 @@ let
         "fabric-26.1.1" = _iZZl3Sii;
         "fabric-26.1.2" = _iZZl3Sii;
         "fabric-26.2" = _SM8neR3c;
+        "fabric-26.3" = _4bQBmBFe;
         "pkg-1.0.0+1.19.2" = _Q1X4p2SZ;
         "pkg-1.0.0+1.19.3" = _5zRjIGj0;
         "pkg-1.0.0+1.19.4" = _dCl0JXYg;
@@ -153,7 +160,8 @@ let
         "pkg-1.7.0+1.21.11" = _inQ6TXrT;
         "pkg-1.8.0+26.1" = _iZZl3Sii;
         "pkg-1.8.0+26.2" = _SM8neR3c;
-        "default" = _SM8neR3c;
+        "pkg-1.8.0+26.3" = _4bQBmBFe;
+        "default" = _4bQBmBFe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "snuffles-fabric";

@@ -66,6 +66,21 @@ let
             "file" = "unlocked_typing-neoforge-26.1.2-2.0.0.jar";
             "hash" = "sha512-BQlQQVx1KAjZqSmb5LArt5hdD6hhAg5GY1EYvKXMRt6puMYRQecRL+T+jX9gL5Ibtxij8oaRbtey2UuzOvPxBw==";
         };
+        _P8xq6P8W = {
+            "id" = "P8xq6P8W";
+            "file" = "unlocked_typing-merged-1.20.1-3.0.1.jar";
+            "hash" = "sha512-HVEvwKf+Ifh+jMvYqFlUKQe6lRUX3boRlLnE8eba6cPJsh4XiJ7xPYtwiOA0dWJr1k7xISqYNi3zFmViMexuBg==";
+        };
+        _BltzaQX7 = {
+            "id" = "BltzaQX7";
+            "file" = "unlocked_typing-merged-1.21.1-3.0.1.jar";
+            "hash" = "sha512-gIjV4nQKNBzHnbbEewO6/vZx9BEe+7NBoSAxAQeYB2XB1s86TXCt02zAyc5xFoSGTKAmXBxG4ZK/smPxaLKNYQ==";
+        };
+        _8v7X1FkF = {
+            "id" = "8v7X1FkF";
+            "file" = "unlocked_typing-merged-26.1.2-3.0.1.jar";
+            "hash" = "sha512-coSoedT20emmHeBAf6wjnnmVq8Gj1YwSKqqyeHDoqb10qyixnAhjPHNiOyz0eKz3n2k4pO8uV/kG2s2FavGZ0Q==";
+        };
     in {
         "y9sj4cno" = _y9sj4cno;
         "2kjMVGTp" = _2kjMVGTp;
@@ -80,27 +95,31 @@ let
         "17K9bQRq" = _17K9bQRq;
         "v8ocsd9w" = _v8ocsd9w;
         "K0Gn6saO" = _K0Gn6saO;
-        "fabric-1.20.1" = _d20CQLQZ;
-        "fabric-1.21" = _1HSzMTuY;
-        "fabric-1.21.1" = _1HSzMTuY;
+        "P8xq6P8W" = _P8xq6P8W;
+        "BltzaQX7" = _BltzaQX7;
+        "8v7X1FkF" = _8v7X1FkF;
+        "fabric-1.20.1" = _P8xq6P8W;
+        "fabric-1.21" = _BltzaQX7;
+        "fabric-1.21.1" = _BltzaQX7;
         "fabric-1.21.9" = _AHEUl2d8;
         "fabric-1.21.10" = _AHEUl2d8;
-        "fabric-26.1" = _v8ocsd9w;
-        "fabric-26.1.1" = _v8ocsd9w;
-        "fabric-26.1.2" = _v8ocsd9w;
-        "forge-1.20.1" = _d20CQLQZ;
-        "neoforge-1.21" = _17K9bQRq;
-        "neoforge-1.21.1" = _17K9bQRq;
+        "fabric-26.1" = _8v7X1FkF;
+        "fabric-26.1.1" = _8v7X1FkF;
+        "fabric-26.1.2" = _8v7X1FkF;
+        "forge-1.20.1" = _P8xq6P8W;
+        "neoforge-1.21" = _BltzaQX7;
+        "neoforge-1.21.1" = _BltzaQX7;
         "neoforge-1.21.9" = _AHEUl2d8;
         "neoforge-1.21.10" = _AHEUl2d8;
-        "neoforge-26.1" = _K0Gn6saO;
-        "neoforge-26.1.1" = _K0Gn6saO;
-        "neoforge-26.1.2" = _K0Gn6saO;
+        "neoforge-26.1" = _8v7X1FkF;
+        "neoforge-26.1.1" = _8v7X1FkF;
+        "neoforge-26.1.2" = _8v7X1FkF;
         "pkg-1.0.0" = _dPjQh3Q7;
         "pkg-1.0.1" = _AHEUl2d8;
         "pkg-1.1.0" = _d20CQLQZ;
         "pkg-2.0.0" = _K0Gn6saO;
-        "default" = _K0Gn6saO;
+        "pkg-3.0.1" = _8v7X1FkF;
+        "default" = _8v7X1FkF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "unlocked-typing";

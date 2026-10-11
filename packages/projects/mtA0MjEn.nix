@@ -11,23 +11,37 @@ let
             "file" = "CreateRadiologistics-1.1.1.jar";
             "hash" = "sha512-5EwQgV1VOUiDlWHEVSEKTpCgrkKUBhs/INogr5gcNE0xFPuEgCCsllM79nob39ZzKePNeVin8gEgp6u4HGDgMQ==";
         };
+        _nLR7F2FF = {
+            "id" = "nLR7F2FF";
+            "file" = "CreateRadiologistics-1.1.2.jar";
+            "hash" = "sha512-c3lZOzaohLYlXc22CpDbdaUlKBtsWrI9oF02VL3LQBOnUHgqjjgxskDneCP3ndr8XkhIhfRiMvfNVK6Hyrb53Q==";
+        };
+        _itGbK3IZ = {
+            "id" = "itGbK3IZ";
+            "file" = "CreateRadiologistics-1.1.3.jar";
+            "hash" = "sha512-ggWvqJEijiaC9YngK6KNR4eCpoD/mi1S8MESaF/juTrra3saiOgrKcLFJ/By+4UYKDgbONlaFLFIp5GyUUgUBg==";
+        };
     in {
         "RARmhHr3" = _RARmhHr3;
         "nu9mL1zt" = _nu9mL1zt;
-        "neoforge-1.21.1" = _nu9mL1zt;
-        "neoforge-1.21.2" = _nu9mL1zt;
-        "neoforge-1.21.3" = _nu9mL1zt;
-        "neoforge-1.21.4" = _nu9mL1zt;
-        "neoforge-1.21.5" = _nu9mL1zt;
-        "neoforge-1.21.6" = _nu9mL1zt;
-        "neoforge-1.21.7" = _nu9mL1zt;
-        "neoforge-1.21.8" = _nu9mL1zt;
-        "neoforge-1.21.9" = _nu9mL1zt;
-        "neoforge-1.21.10" = _nu9mL1zt;
-        "neoforge-1.21.11" = _nu9mL1zt;
+        "nLR7F2FF" = _nLR7F2FF;
+        "itGbK3IZ" = _itGbK3IZ;
+        "neoforge-1.21.1" = _itGbK3IZ;
+        "neoforge-1.21.2" = _nLR7F2FF;
+        "neoforge-1.21.3" = _nLR7F2FF;
+        "neoforge-1.21.4" = _nLR7F2FF;
+        "neoforge-1.21.5" = _nLR7F2FF;
+        "neoforge-1.21.6" = _nLR7F2FF;
+        "neoforge-1.21.7" = _nLR7F2FF;
+        "neoforge-1.21.8" = _nLR7F2FF;
+        "neoforge-1.21.9" = _nLR7F2FF;
+        "neoforge-1.21.10" = _nLR7F2FF;
+        "neoforge-1.21.11" = _nLR7F2FF;
         "pkg-1.1.0" = _RARmhHr3;
         "pkg-1.1.1" = _nu9mL1zt;
-        "default" = _nu9mL1zt;
+        "pkg-1.1.2" = _nLR7F2FF;
+        "pkg-1.1.3" = _itGbK3IZ;
+        "default" = _itGbK3IZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-radiologistics";

@@ -81,6 +81,16 @@ let
             "file" = "soullink-v1.4.1+26.2.jar";
             "hash" = "sha512-A7gA3miqn3Gopdloiv6cuqaG43R8nK6LTivZWCL/oYEbaGImtXs82OFMkoD93ZpzQsIrwi+24jQMmMiEKszAEA==";
         };
+        _xQNRISbS = {
+            "id" = "xQNRISbS";
+            "file" = "soullink-v1.4.1+26.3.jar";
+            "hash" = "sha512-kZC7cn1tK+Yw+GjLPQ7fP5SzI1WDgw82dUCSrFav20nKGhIKzRKznCqK3phCIu2gtxacV4T88+mru8M7vOFngQ==";
+        };
+        _qVKxJ8Wp = {
+            "id" = "qVKxJ8Wp";
+            "file" = "soullink-v1.5.0-beta+26.2.jar";
+            "hash" = "sha512-BY+PZDITB93JgprLnzJQZYMHjdAqg8rjghO+l/EbgRmO+n+ZJWdERlkri+wz2iq6Y2tF99kJVzWiJ6Gc4zICrQ==";
+        };
     in {
         "mWeIiI3e" = _mWeIiI3e;
         "pDGPpPVt" = _pDGPpPVt;
@@ -98,12 +108,15 @@ let
         "MHgXLzAD" = _MHgXLzAD;
         "iVnJ5B7O" = _iVnJ5B7O;
         "NNX4ODIT" = _NNX4ODIT;
+        "xQNRISbS" = _xQNRISbS;
+        "qVKxJ8Wp" = _qVKxJ8Wp;
         "fabric-1.21.11" = _5umGTxgL;
         "fabric-1.21.1" = _g1zhiLWR;
         "fabric-26.1" = _iVnJ5B7O;
         "fabric-26.1.1" = _iVnJ5B7O;
         "fabric-26.1.2" = _iVnJ5B7O;
-        "fabric-26.2" = _NNX4ODIT;
+        "fabric-26.2" = _qVKxJ8Wp;
+        "fabric-26.3" = _xQNRISbS;
         "pkg-1.0.0" = _mWeIiI3e;
         "pkg-1.1.0" = _pDGPpPVt;
         "pkg-1.1.1" = _xKV8JiBJ;
@@ -120,7 +133,9 @@ let
         "pkg-v1.4.0+26.2" = _MHgXLzAD;
         "pkg-v1.4.1+26.1" = _iVnJ5B7O;
         "pkg-v1.4.1+26.2" = _NNX4ODIT;
-        "default" = _NNX4ODIT;
+        "pkg-v1.4.1+26.3" = _xQNRISbS;
+        "pkg-v1.5.0-beta+26.2" = _qVKxJ8Wp;
+        "default" = _qVKxJ8Wp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "soul-link-speedrun";

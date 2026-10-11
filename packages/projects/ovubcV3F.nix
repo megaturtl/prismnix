@@ -406,6 +406,26 @@ let
             "file" = "integratedrest-26.1.2-neoforge-1.1.15-213.jar";
             "hash" = "sha512-p9/FCIiOHE4XDRN+HNJbF70IPvvix7kKIbqW9gUIUGa5HhTk3ixyePGmkD0rC27Yl9nCuvMqGgW5PSjUM8ap6Q==";
         };
+        _u5RteJo3 = {
+            "id" = "u5RteJo3";
+            "file" = "integratedrest-26.2-neoforge-1.1.15-214.jar";
+            "hash" = "sha512-KsJlNuSwzlYRUqU5rXhr4Bdh1MP/y/mRLlDmZa/C2sTRpU8pm8TvedOHoarrDI8Z4Bhx0OH9xTmO1mLNGNWWBw==";
+        };
+        _WLugvlZY = {
+            "id" = "WLugvlZY";
+            "file" = "integratedrest-26.3-neoforge-1.1.15-217.jar";
+            "hash" = "sha512-5P95LyKbGp6KIMT+wa/JEK7jkdM510RgYvS/IGYlQ4nZ1eVSJMq56riuCafzqmlggImy4zaHPuzN+q8txNSjpQ==";
+        };
+        _RfhWTq3G = {
+            "id" = "RfhWTq3G";
+            "file" = "integratedrest-26.3-neoforge-1.1.15-220.jar";
+            "hash" = "sha512-UA3LrTxbi9hzLNfD6IXmO0ADmTxFziGAUc8ijXqVKHebTBjn/IFi3XRgr6eZUD7y8WAqFM2YirN5gTZ5fFw+pw==";
+        };
+        _vo4tpRyX = {
+            "id" = "vo4tpRyX";
+            "file" = "integratedrest-26.3-neoforge-1.1.15-221.jar";
+            "hash" = "sha512-s7+bKdYP8uEUlxhFtzCRaUHLm9tX0Zhr1zKLlBY81snAoNIqQI9saNMsJ0E0mG237kmSDyqlHCoTYiPMHIb3+A==";
+        };
     in {
         "T4cLoKO5" = _T4cLoKO5;
         "VllEbp8z" = _VllEbp8z;
@@ -488,6 +508,10 @@ let
         "Gr5UxjKN" = _Gr5UxjKN;
         "CnDNDQEo" = _CnDNDQEo;
         "2ojEOHQ2" = _2ojEOHQ2;
+        "u5RteJo3" = _u5RteJo3;
+        "WLugvlZY" = _WLugvlZY;
+        "RfhWTq3G" = _RfhWTq3G;
+        "vo4tpRyX" = _vo4tpRyX;
         "forge-1.18.2" = _4D35R7tr;
         "forge-1.19" = _o4VByKVQ;
         "forge-1.19.2" = _E1UdKHZk;
@@ -503,7 +527,8 @@ let
         "neoforge-1.21.11" = _ggxq6oL4;
         "neoforge-26.1.1" = _w4slQbMF;
         "neoforge-26.1.2" = _2ojEOHQ2;
-        "neoforge-26.2" = _CnDNDQEo;
+        "neoforge-26.2" = _u5RteJo3;
+        "neoforge-26.3" = _vo4tpRyX;
         "pkg-1.1.5" = _T4cLoKO5;
         "pkg-1.19-1.1.5" = _VllEbp8z;
         "pkg-1.19-1.1.6" = _o4VByKVQ;
@@ -585,7 +610,11 @@ let
         "pkg-26.1.2-1.1.15-211" = _Gr5UxjKN;
         "pkg-26.2-1.1.15-212" = _CnDNDQEo;
         "pkg-26.1.2-1.1.15-213" = _2ojEOHQ2;
-        "default" = _2ojEOHQ2;
+        "pkg-26.2-1.1.15-214" = _u5RteJo3;
+        "pkg-26.3-1.1.15-217" = _WLugvlZY;
+        "pkg-26.3-1.1.15-220" = _RfhWTq3G;
+        "pkg-26.3-1.1.15-221" = _vo4tpRyX;
+        "default" = _vo4tpRyX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "integrated-rest";

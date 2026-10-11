@@ -51,6 +51,11 @@ let
             "file" = "applied-experienced-1.21.1-1.3.2.jar";
             "hash" = "sha512-euRrpBZ8koCHoghOtlHyu4fjnivfSMNh/rrDLqqMyYWxYwSuHUk+jdB4SGZYlwQc2gqxgKtnwkoJ/wNpCDKkxA==";
         };
+        _RYOlzJlL = {
+            "id" = "RYOlzJlL";
+            "file" = "applied-experienced-26.1.2-2.0.0.jar";
+            "hash" = "sha512-7WpMn5z9fkTUIsYglxS0jrF/EJXlrEn/NJON5arIDFzU0S2uup9WJnPvPylBXwzJWcpkxpywte9x1SSKuabNgg==";
+        };
     in {
         "LKMYhBo2" = _LKMYhBo2;
         "fjvE2kxv" = _fjvE2kxv;
@@ -62,8 +67,10 @@ let
         "Io3RmdEg" = _Io3RmdEg;
         "grgfbNOg" = _grgfbNOg;
         "OIa8aSku" = _OIa8aSku;
+        "RYOlzJlL" = _RYOlzJlL;
         "neoforge-1.21" = _OIa8aSku;
         "neoforge-1.21.1" = _OIa8aSku;
+        "neoforge-26.1.2" = _RYOlzJlL;
         "pkg-1.21.1-1.0.0" = _LKMYhBo2;
         "pkg-1.21.1-1.0.1" = _fjvE2kxv;
         "pkg-1.21.1-1.0.2" = _zsoiPnds;
@@ -74,7 +81,8 @@ let
         "pkg-1.21.1-1.3.0" = _Io3RmdEg;
         "pkg-1.21.1-1.3.1" = _grgfbNOg;
         "pkg-1.21.1-1.3.2" = _OIa8aSku;
-        "default" = _OIa8aSku;
+        "pkg-26.1.2-2.0.0" = _RYOlzJlL;
+        "default" = _RYOlzJlL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "applied-experienced";

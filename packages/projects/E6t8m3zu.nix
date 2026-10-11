@@ -131,6 +131,11 @@ let
             "file" = "True_POWER-1.21.1-1.3.1.jar";
             "hash" = "sha512-cykmAc9Qj8igYC6hgFwKYadQDBQI9R4nDVRd09AT+CTT0BEmTWo9m1IcAgB5h+JmOzWavlG7Uik7sU6OaFQC6g==";
         };
+        _iYK2aqxI = {
+            "id" = "iYK2aqxI";
+            "file" = "True_POWER-1.21.1-1.3.2.jar";
+            "hash" = "sha512-tQVwCorXCeb6UnXc1OKxxJpSkUS0y/ah0ankHoRCdWYSa2dxmPBESTspxLDKQ9kDon6lvHH9hZize7wvrKz4Jw==";
+        };
     in {
         "QqZxDnX4" = _QqZxDnX4;
         "m7amr342" = _m7amr342;
@@ -158,8 +163,9 @@ let
         "TYtnsCqQ" = _TYtnsCqQ;
         "WOwB3514" = _WOwB3514;
         "lyR7j4LT" = _lyR7j4LT;
+        "iYK2aqxI" = _iYK2aqxI;
         "forge-1.20.1" = _AnXcYTm6;
-        "neoforge-1.21.1" = _lyR7j4LT;
+        "neoforge-1.21.1" = _iYK2aqxI;
         "pkg-1.0.0" = _QqZxDnX4;
         "pkg-1.0.1" = _m7amr342;
         "pkg-1.0.2" = _chWm9CiX;
@@ -181,7 +187,8 @@ let
         "pkg-1.2.1-hotfix1" = _TYtnsCqQ;
         "pkg-1.3.0" = _WOwB3514;
         "pkg-1.3.1" = _lyR7j4LT;
-        "default" = _lyR7j4LT;
+        "pkg-1.3.2" = _iYK2aqxI;
+        "default" = _iYK2aqxI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "true-power";

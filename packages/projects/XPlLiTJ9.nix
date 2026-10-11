@@ -16,10 +16,16 @@ let
             "file" = "better-left-click-1.0.0+26.2.jar";
             "hash" = "sha512-2FrRzKg9JhX4uhRq6yzPgc8TZUPgWOxpgbSZSqnPoqC9j+tCkK0DJPE+W8hfrI7PIDuFFBLJouQMH87M8OKZ+w==";
         };
+        _BX38Rfcn = {
+            "id" = "BX38Rfcn";
+            "file" = "better-left-click-1.0.0+26.3.jar";
+            "hash" = "sha512-+5Bjk3OI9HEkju6d7e+pPp5ihL3YWztDQLGFKV9V5WFW2YOWbuNvOHRKLaCE+GvvIFof8u/1LpSAX+2GtQ2aJA==";
+        };
     in {
         "EddRw2QP" = _EddRw2QP;
         "vA2w9qsS" = _vA2w9qsS;
         "UoyQz8g4" = _UoyQz8g4;
+        "BX38Rfcn" = _BX38Rfcn;
         "fabric-1.21" = _EddRw2QP;
         "fabric-1.21.1" = _EddRw2QP;
         "fabric-1.21.2" = _EddRw2QP;
@@ -36,8 +42,9 @@ let
         "fabric-26.1.1" = _vA2w9qsS;
         "fabric-26.1.2" = _vA2w9qsS;
         "fabric-26.2" = _UoyQz8g4;
-        "pkg-1.0.0" = _UoyQz8g4;
-        "default" = _UoyQz8g4;
+        "fabric-26.3" = _BX38Rfcn;
+        "pkg-1.0.0" = _BX38Rfcn;
+        "default" = _BX38Rfcn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-left-click";

@@ -106,6 +106,11 @@ let
             "file" = "Fresh Flowers and Plants.zip";
             "hash" = "sha512-8q9xdXA3WOC8/ReIQRu6M7H5nqY8/aZqkkHZcjNYqPUAgVxmYjjTXjP1nyF4tJDHPx2OUwckObeNTlaUpqxBkw==";
         };
+        _MQ2mDJwU = {
+            "id" = "MQ2mDJwU";
+            "file" = "Fresh Flowers and Plants.zip";
+            "hash" = "sha512-qqtUadk1bIR1M593BRVxqwtJ6xe3pYzLeAM+2dgrio9z+ET0EXauYJTwHBoU3lPnTfj6Oq2Y42QJ9gcmv9TGww==";
+        };
     in {
         "lrDao05G" = _lrDao05G;
         "OtiyVEIs" = _OtiyVEIs;
@@ -128,22 +133,24 @@ let
         "i0GjqjnL" = _i0GjqjnL;
         "cEvoLuXa" = _cEvoLuXa;
         "ZwayRyOW" = _ZwayRyOW;
-        "minecraft-1.21.4" = _ZwayRyOW;
-        "minecraft-1.21.5" = _ZwayRyOW;
-        "minecraft-1.21.6" = _ZwayRyOW;
-        "minecraft-1.21.7" = _ZwayRyOW;
-        "minecraft-1.21.8" = _ZwayRyOW;
-        "minecraft-1.20.1" = _ZwayRyOW;
-        "minecraft-1.21.9" = _ZwayRyOW;
-        "minecraft-1.21.10" = _ZwayRyOW;
-        "minecraft-1.21" = _i0GjqjnL;
-        "minecraft-1.21.1" = _i0GjqjnL;
-        "minecraft-1.21.2" = _i0GjqjnL;
-        "minecraft-1.21.11" = _ZwayRyOW;
-        "minecraft-26.1" = _ZwayRyOW;
-        "minecraft-26.1.1" = _ZwayRyOW;
-        "minecraft-26.1.2" = _ZwayRyOW;
-        "minecraft-26.2" = _ZwayRyOW;
+        "MQ2mDJwU" = _MQ2mDJwU;
+        "minecraft-1.21.4" = _MQ2mDJwU;
+        "minecraft-1.21.5" = _MQ2mDJwU;
+        "minecraft-1.21.6" = _MQ2mDJwU;
+        "minecraft-1.21.7" = _MQ2mDJwU;
+        "minecraft-1.21.8" = _MQ2mDJwU;
+        "minecraft-1.20.1" = _MQ2mDJwU;
+        "minecraft-1.21.9" = _MQ2mDJwU;
+        "minecraft-1.21.10" = _MQ2mDJwU;
+        "minecraft-1.21" = _MQ2mDJwU;
+        "minecraft-1.21.1" = _MQ2mDJwU;
+        "minecraft-1.21.2" = _MQ2mDJwU;
+        "minecraft-1.21.11" = _MQ2mDJwU;
+        "minecraft-26.1" = _MQ2mDJwU;
+        "minecraft-26.1.1" = _MQ2mDJwU;
+        "minecraft-26.1.2" = _MQ2mDJwU;
+        "minecraft-26.2" = _MQ2mDJwU;
+        "minecraft-26.3" = _MQ2mDJwU;
         "pkg-1.0" = _OtiyVEIs;
         "pkg-1.1" = _e52Zkpx8;
         "pkg-1.2" = _DJess7HO;
@@ -160,7 +167,8 @@ let
         "pkg-1.4.7" = _i0GjqjnL;
         "pkg-1.4.8" = _cEvoLuXa;
         "pkg-1.4.9" = _ZwayRyOW;
-        "default" = _ZwayRyOW;
+        "pkg-1.4.10" = _MQ2mDJwU;
+        "default" = _MQ2mDJwU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fresh-flowers-and-plants";

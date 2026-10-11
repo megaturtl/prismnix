@@ -31,6 +31,16 @@ let
             "file" = "Applied-Replicatics-21.1-1.1.1.jar";
             "hash" = "sha512-niDfJv1hwry3FGqrfErtGb/SaoZVK0SmLK9/kO0R/vlATjtHKCQywdm5nBj/oYIjv4PLLjFJBtHvZ+0jZP7eig==";
         };
+        _68c8YXgd = {
+            "id" = "68c8YXgd";
+            "file" = "Applied-Replicatics-21.1-1.2.0.jar";
+            "hash" = "sha512-LgrnTNnBzmp6K5oYmpt0e7K53TlmupnPPnV2ksoWSasXIm4JPb+0PO12jyz65ceLlT9W5Ky+wWuBVwjy6aheqA==";
+        };
+        _nQ4pLTkV = {
+            "id" = "nQ4pLTkV";
+            "file" = "Applied-Replicatics-21.1-1.2.1.jar";
+            "hash" = "sha512-eN8ZNk/sw5lR8BZ8ZlUfCUZOOk8hdyhUDJw4JdNC/v1AK/oBOqi0hAWttOgx7fPVMndyzL1ts3wQC3ZX851z8A==";
+        };
     in {
         "f9Ii0ORA" = _f9Ii0ORA;
         "AYMeNOuT" = _AYMeNOuT;
@@ -38,14 +48,18 @@ let
         "HOgNBqpr" = _HOgNBqpr;
         "HXhszuwb" = _HXhszuwb;
         "WfbvAL7S" = _WfbvAL7S;
-        "neoforge-1.21.1" = _WfbvAL7S;
+        "68c8YXgd" = _68c8YXgd;
+        "nQ4pLTkV" = _nQ4pLTkV;
+        "neoforge-1.21.1" = _nQ4pLTkV;
         "pkg-21.1-1.0.1" = _f9Ii0ORA;
         "pkg-21.1-1.0.2" = _AYMeNOuT;
         "pkg-21.1-1.0.3" = _VNVGliOt;
         "pkg-21.1-1.0.4" = _HOgNBqpr;
         "pkg-21.1-1.1.0" = _HXhszuwb;
         "pkg-21.1-1.1.1" = _WfbvAL7S;
-        "default" = _WfbvAL7S;
+        "pkg-21.1-1.2.0" = _68c8YXgd;
+        "pkg-21.1-1.2.1" = _nQ4pLTkV;
+        "default" = _nQ4pLTkV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "applied-replicatics";

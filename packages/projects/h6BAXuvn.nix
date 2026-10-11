@@ -231,6 +231,26 @@ let
             "file" = "fxntstorage-1.2.7+mc-1.20.1-forge.jar";
             "hash" = "sha512-jyT8UOsyZA7TcLVVQiJnvgmasPO2xEW7eFDciZhSqjOKGvYLmdPnR28kF/4hVv3SaHd1fpQlW07Mrt7LSKEqSw==";
         };
+        _d7koEgXy = {
+            "id" = "d7koEgXy";
+            "file" = "fxntstorage-1.3.5+mc-1.21.1-neoforge.jar";
+            "hash" = "sha512-L3OmhmSm+lzw6ErL9SK4xCFuAq5F7WgXILO/mif5t+QozXFJN/EK56UaG4BuB4igY9L0Yp/pXVXD5qNFercOcA==";
+        };
+        _jhKSNezR = {
+            "id" = "jhKSNezR";
+            "file" = "fxntstorage-1.3.6+mc-1.21.1-neoforge.jar";
+            "hash" = "sha512-Gvn5QjYqp49uslkgBSpApfyi1+diX1nVEyeoTRxdYn5oNV04h6fiLILbAxxe8mPgU7fkBu3A1V64FP7WgqXrxQ==";
+        };
+        _sfqk5eWk = {
+            "id" = "sfqk5eWk";
+            "file" = "fxntstorage-1.3.7+mc-1.21.1-neoforge.jar";
+            "hash" = "sha512-WTwMnezbfNg6KNQI/zER2+/bNEE329YXWkhaudAqBSgeIKHIYd/uT1kWYvaBCqV/3lxTgg5EshImNG5j3OzDIQ==";
+        };
+        _cfugvAt6 = {
+            "id" = "cfugvAt6";
+            "file" = "fxntstorage-1.3.8+mc-1.21.1-neoforge.jar";
+            "hash" = "sha512-dN+PAP8diye77YpN1oZcGt0F+yP6hFlhyXSdXtiDn1KcA1JE0x4R0CgF+FHFHb0ji4xAhvFJ+VGQkwwfJHudUA==";
+        };
     in {
         "Y6yCBmsS" = _Y6yCBmsS;
         "rJjsqmnN" = _rJjsqmnN;
@@ -278,7 +298,11 @@ let
         "2Fmql6Uo" = _2Fmql6Uo;
         "mv90qduJ" = _mv90qduJ;
         "oSsfZYxj" = _oSsfZYxj;
-        "neoforge-1.21.1" = _mv90qduJ;
+        "d7koEgXy" = _d7koEgXy;
+        "jhKSNezR" = _jhKSNezR;
+        "sfqk5eWk" = _sfqk5eWk;
+        "cfugvAt6" = _cfugvAt6;
+        "neoforge-1.21.1" = _cfugvAt6;
         "forge-1.20.1" = _oSsfZYxj;
         "pkg-1.0.0" = _rJjsqmnN;
         "pkg-1.0.1" = _umQdbPMZ;
@@ -307,7 +331,11 @@ let
         "pkg-1.3.2" = _mqnmowII;
         "pkg-1.3.3" = _2Fmql6Uo;
         "pkg-1.3.4" = _mv90qduJ;
-        "default" = _oSsfZYxj;
+        "pkg-1.3.5" = _d7koEgXy;
+        "pkg-1.3.6" = _jhKSNezR;
+        "pkg-1.3.7" = _sfqk5eWk;
+        "pkg-1.3.8" = _cfugvAt6;
+        "default" = _cfugvAt6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-storage-neo-forge";

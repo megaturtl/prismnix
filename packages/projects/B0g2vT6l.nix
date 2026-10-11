@@ -2701,6 +2701,16 @@ let
             "file" = "rechiseled-1.2.6-neoforge-mc26.3.jar";
             "hash" = "sha512-3dONKoxsKe6Wf1ztV6ARKTt83jxhGFpb7hJXluSczu/o/iGdaqYx+TjrYIjB1Fgclu4UKCuUgAuxQB8K6Ni8sg==";
         };
+        _iYQqkBMI = {
+            "id" = "iYQqkBMI";
+            "file" = "rechiseled-1.2.6a-fabric-mc26.3.jar";
+            "hash" = "sha512-TMK0LF0GbsO1EzGKHR/MK1hCXODRFKdfySptGeihvWg63K3Qp1dqQEP0K2Z143ayTd4PMtvF1E3sx3pf/3+0fQ==";
+        };
+        _63RbtVZs = {
+            "id" = "63RbtVZs";
+            "file" = "rechiseled-1.2.6a-neoforge-mc26.3.jar";
+            "hash" = "sha512-6vodHPmV0i+PPdoqLYJ8yMjQH0hcDygG/7nNwQQqzXwdJllIZTVN76TZugJVorar5ch1RCgQEW/KrMH9LIK5cg==";
+        };
     in {
         "NvotoSeA" = _NvotoSeA;
         "fSsZbkCM" = _fSsZbkCM;
@@ -3242,6 +3252,8 @@ let
         "1skiNH4v" = _1skiNH4v;
         "88095LbC" = _88095LbC;
         "5Kwa4rlC" = _5Kwa4rlC;
+        "iYQqkBMI" = _iYQqkBMI;
+        "63RbtVZs" = _63RbtVZs;
         "forge-1.12" = _j7NBe6kO;
         "forge-1.12.1" = _j7NBe6kO;
         "forge-1.12.2" = _j7NBe6kO;
@@ -3320,7 +3332,7 @@ let
         "fabric-26.1.1" = _MSyzZAAt;
         "fabric-26.1.2" = _MSyzZAAt;
         "fabric-26.2" = _u535HhZe;
-        "fabric-26.3" = _88095LbC;
+        "fabric-26.3" = _iYQqkBMI;
         "neoforge-1.12" = _CkduFmKC;
         "neoforge-1.12.1" = _CkduFmKC;
         "neoforge-1.12.2" = _CkduFmKC;
@@ -3371,7 +3383,7 @@ let
         "neoforge-26.1.1" = _V6Edgo0h;
         "neoforge-26.1.2" = _V6Edgo0h;
         "neoforge-26.2" = _1skiNH4v;
-        "neoforge-26.3" = _5Kwa4rlC;
+        "neoforge-26.3" = _63RbtVZs;
         "quilt-1.18" = _OEAXYdep;
         "quilt-1.18.1" = _OEAXYdep;
         "quilt-1.18.2" = _OEAXYdep;
@@ -3400,7 +3412,7 @@ let
         "quilt-26.1.1" = _MSyzZAAt;
         "quilt-26.1.2" = _MSyzZAAt;
         "quilt-26.2" = _u535HhZe;
-        "quilt-26.3" = _88095LbC;
+        "quilt-26.3" = _iYQqkBMI;
         "pkg-1.0.10-forge-mc1.12" = _NvotoSeA;
         "pkg-1.0.10-forge-mc1.14" = _fSsZbkCM;
         "pkg-1.0.10-forge-mc1.15" = _p6kWXa9g;
@@ -3938,7 +3950,9 @@ let
         "pkg-1.2.6-neoforge-mc26.2" = _1skiNH4v;
         "pkg-1.2.6-fabric-mc26.3" = _88095LbC;
         "pkg-1.2.6-neoforge-mc26.3" = _5Kwa4rlC;
-        "default" = _5Kwa4rlC;
+        "pkg-1.2.6a-fabric-mc26.3" = _iYQqkBMI;
+        "pkg-1.2.6a-neoforge-mc26.3" = _63RbtVZs;
+        "default" = _63RbtVZs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rechiseled";

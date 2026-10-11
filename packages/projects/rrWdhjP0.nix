@@ -36,6 +36,16 @@ let
             "file" = "hotbarlagfixer-1.1.1.jar";
             "hash" = "sha512-aAjpjudPpOShD0X2Z0WTrB1CdjrGguow7uva2rXayHi8KMAlz6aI6/VdC94jFMKsC6p1tH16XOeuPgItXg5dHw==";
         };
+        _1xxXGpcH = {
+            "id" = "1xxXGpcH";
+            "file" = "hotbarlagfixer-1.1.1.jar";
+            "hash" = "sha512-+6FlkF3ERqCc+6s2W/xQOv9FuANS/wNhBbsYQLWkPAF0VW7TgfjltEbrulE1X2/r8qP+DZGf6bDIUA+EQ8SOpA==";
+        };
+        _f9ivejb0 = {
+            "id" = "f9ivejb0";
+            "file" = "hotbarlagfixer-1.1.1.jar";
+            "hash" = "sha512-PacUl3Mf1i2iVUaVsc1eW8e+1DrPSHD/ErWmU05vbovgKWqTl0i74XNMxI3gKM5NtN9CkCpqpeLNH3lBZBel6Q==";
+        };
     in {
         "3SkLkN4h" = _3SkLkN4h;
         "lv6QEmOf" = _lv6QEmOf;
@@ -44,6 +54,8 @@ let
         "HGfZFflg" = _HGfZFflg;
         "juGrgHZN" = _juGrgHZN;
         "sfNLjH6G" = _sfNLjH6G;
+        "1xxXGpcH" = _1xxXGpcH;
+        "f9ivejb0" = _f9ivejb0;
         "fabric-1.21.6" = _lv6QEmOf;
         "fabric-1.21.5" = _lv6QEmOf;
         "fabric-1.21.7" = _lv6QEmOf;
@@ -52,12 +64,14 @@ let
         "fabric-26.1" = _juGrgHZN;
         "fabric-26.1.1" = _juGrgHZN;
         "fabric-26.2" = _sfNLjH6G;
+        "fabric-26.3" = _1xxXGpcH;
+        "fabric-26.1.2" = _f9ivejb0;
         "pkg-1.0.2" = _EIIDFjFu;
         "pkg-1.0.1" = _lv6QEmOf;
         "pkg-1.0.3" = _8svhijFc;
         "pkg-1.1.0" = _HGfZFflg;
-        "pkg-1.1.1" = _sfNLjH6G;
-        "default" = _sfNLjH6G;
+        "pkg-1.1.1" = _f9ivejb0;
+        "default" = _f9ivejb0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hotbar-lag-fixer";

@@ -46,6 +46,11 @@ let
             "file" = "BetterCobblemonSpectation-2.0.3.jar";
             "hash" = "sha512-MDphm86s58mEcQVY63PWoQ3ZV4u/8TR2mNQzmGaMlefcffVjFeIiVye2Lv4oGThaXUdFDD079MyuPNopJ0XvTw==";
         };
+        _R5sI3yFR = {
+            "id" = "R5sI3yFR";
+            "file" = "BattleCam-2.0.0-1.8.jar";
+            "hash" = "sha512-YdH3QHvZfuVwBFJaRj+n7eYBWitq6Of3EHLk1IgA84WpOCFy0rK2A/aS0xM3mOQ7fC9boiWlNJXVhGjLnkKIdw==";
+        };
     in {
         "9RIYHMr8" = _9RIYHMr8;
         "TR3qfvoM" = _TR3qfvoM;
@@ -56,7 +61,8 @@ let
         "KUJY2P7J" = _KUJY2P7J;
         "MhmPUOxr" = _MhmPUOxr;
         "VSd4vQbc" = _VSd4vQbc;
-        "fabric-1.21.1" = _VSd4vQbc;
+        "R5sI3yFR" = _R5sI3yFR;
+        "fabric-1.21.1" = _R5sI3yFR;
         "pkg-0.1.0-alpha" = _9RIYHMr8;
         "pkg-1.0.0" = _TR3qfvoM;
         "pkg-1.0.1" = _QIU6XEQm;
@@ -66,7 +72,8 @@ let
         "pkg-2.0.1" = _KUJY2P7J;
         "pkg-2.0.2" = _MhmPUOxr;
         "pkg-2.0.3" = _VSd4vQbc;
-        "default" = _VSd4vQbc;
+        "pkg-0.0.0-1.8" = _R5sI3yFR;
+        "default" = _R5sI3yFR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-cobblemon-spectation";

@@ -96,6 +96,11 @@ let
             "file" = "mute-100.0.0.jar";
             "hash" = "sha512-d29lXazgz9eTvc5HdbJnqsBONHWlIO7uR7C9rGshB1IQCwePc1IBUofCrBcxRQwe2D9M4AUKrOpm2Taqe/Jz9A==";
         };
+        _zKhLQmAv = {
+            "id" = "zKhLQmAv";
+            "file" = "mute-26.3.0.1.jar";
+            "hash" = "sha512-9kRv5XnW9Hkb3rISiSn+zrsOHAVTWgWtLpikR3fvuuynZ/M+HWlNGoWPqT8o/a2uC2MMbVN5t6vJeEfx7DIeaA==";
+        };
     in {
         "9o23W6p6" = _9o23W6p6;
         "g13UMbEv" = _g13UMbEv;
@@ -116,6 +121,7 @@ let
         "46PL6O03" = _46PL6O03;
         "qihlr1c7" = _qihlr1c7;
         "2wrGNMK4" = _2wrGNMK4;
+        "zKhLQmAv" = _zKhLQmAv;
         "forge-1.20.1" = _g13UMbEv;
         "forge-1.20" = _Q8A6LLUP;
         "forge-1.18.2" = _36s8vmJE;
@@ -133,6 +139,7 @@ let
         "neoforge-1.21" = _46PL6O03;
         "neoforge-26.1" = _qihlr1c7;
         "neoforge-26.2" = _2wrGNMK4;
+        "neoforge-26.3" = _zKhLQmAv;
         "pkg-2.0.1" = _9o23W6p6;
         "pkg-build.10+mc1.20.1" = _g13UMbEv;
         "pkg-build.9+mc1.20" = _Q8A6LLUP;
@@ -149,7 +156,8 @@ let
         "pkg-87.0.0" = _46PL6O03;
         "pkg-99.0.0" = _qihlr1c7;
         "pkg-100.0.0" = _2wrGNMK4;
-        "default" = _2wrGNMK4;
+        "pkg-26.3.0.1" = _zKhLQmAv;
+        "default" = _zKhLQmAv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mute-mod";

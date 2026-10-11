@@ -41,6 +41,11 @@ let
             "file" = "simple-voice-chat-group-player-names-1.21.10-1.1.1.jar";
             "hash" = "sha512-ARQFAlet7Tv0I9QPG6/4p0ll51xeXIeOjIJ5NIAPyUrc2Ilenuh+QW/wNk5FPEhLj3O95Wuw8wWEimB5gJWoWw==";
         };
+        _coSDnqOs = {
+            "id" = "coSDnqOs";
+            "file" = "Simple Voice Chat Group Player Names-1.2.0+26.3.jar";
+            "hash" = "sha512-1Lz81Yt5RcafGdYmUMvVqjIDLj7UIdWARcsDcML+BTZpgLcaSUuiN7StpunmWI/pcy6AHZ9bKBuQW+dJMK74eA==";
+        };
     in {
         "aNmAaFUq" = _aNmAaFUq;
         "dzshRGC4" = _dzshRGC4;
@@ -50,9 +55,11 @@ let
         "7enoFuwr" = _7enoFuwr;
         "Of3TBhly" = _Of3TBhly;
         "vICm7mKb" = _vICm7mKb;
+        "coSDnqOs" = _coSDnqOs;
         "fabric-1.21.10" = _vICm7mKb;
         "fabric-1.21.9" = _yi7FPGaB;
         "fabric-1.21.8" = _Of3TBhly;
+        "fabric-26.3" = _coSDnqOs;
         "pkg-1.0.0" = _aNmAaFUq;
         "pkg-1.21.10-1.0.0" = _dzshRGC4;
         "pkg-1.21.9-1.0.0" = _yi7FPGaB;
@@ -61,7 +68,8 @@ let
         "pkg-1.21.10-1.1.0" = _7enoFuwr;
         "pkg-1.21.8-1.1.1" = _Of3TBhly;
         "pkg-1.21.10-1.1.1" = _vICm7mKb;
-        "default" = _vICm7mKb;
+        "pkg-1.2.0+26.3" = _coSDnqOs;
+        "default" = _coSDnqOs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-voice-chat-group-player-names";

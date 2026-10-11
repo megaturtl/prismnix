@@ -111,6 +111,26 @@ let
             "file" = "fairylights-neoforge-1.21.1-1.2.6.jar";
             "hash" = "sha512-1kb25jMjBV0i6tpdUNo1quFgZXKEJg7mCUGg7bj8JjvMQ7BZuDuJhz3gSCwijye540anS2HcVJ6gaEXd2w0jvw==";
         };
+        _aL29QiNv = {
+            "id" = "aL29QiNv";
+            "file" = "fairylights-neoforge-1.21.1-1.3.jar";
+            "hash" = "sha512-yEmt8NdYawU2vs8TUD6gpuV5ASJVIuFwF+5hMOVHYWoKCH4z72XcTibS4jpbrt+23RjzeaiBpH7zerPOatGN9A==";
+        };
+        _6DdgPkep = {
+            "id" = "6DdgPkep";
+            "file" = "fairylights-fabric-1.21.1-1.3.jar";
+            "hash" = "sha512-a0/EWKs/E91Yz39O5Rykvk/evh68/QXxHuXTZchZ3h3Ed8sfNgyycK7ejn/CBIJTwswddCsIYNHhK0ZTDOIXGA==";
+        };
+        _fvZqP3UQ = {
+            "id" = "fvZqP3UQ";
+            "file" = "fairylights-fabric-1.21.1-1.3.1.jar";
+            "hash" = "sha512-M7N5koBKjzFkxaRfA5UY8CY7KrxdsznZfEBLP0TT6ocSIJQgBMrs/QOHiFHBu6Tk3o4Doha718oqNkuz0n0WDA==";
+        };
+        _FbQyjAdN = {
+            "id" = "FbQyjAdN";
+            "file" = "fairylights-neoforge-1.21.1-1.3.1.jar";
+            "hash" = "sha512-nPaRiKkLlmRzDkrys+b/33eu/p0R4N0OMslJU7PwfyAvNXkznVHQKvojFOyKK28H2n0w9h2YROX2ke2ogR5ooQ==";
+        };
     in {
         "7JczpNWT" = _7JczpNWT;
         "YFFyLSPY" = _YFFyLSPY;
@@ -134,8 +154,12 @@ let
         "jjPFmew9" = _jjPFmew9;
         "XI1sJMOJ" = _XI1sJMOJ;
         "pLPcxLib" = _pLPcxLib;
-        "neoforge-1.21.1" = _pLPcxLib;
-        "fabric-1.21.1" = _XI1sJMOJ;
+        "aL29QiNv" = _aL29QiNv;
+        "6DdgPkep" = _6DdgPkep;
+        "fvZqP3UQ" = _fvZqP3UQ;
+        "FbQyjAdN" = _FbQyjAdN;
+        "neoforge-1.21.1" = _FbQyjAdN;
+        "fabric-1.21.1" = _fvZqP3UQ;
         "pkg-1.0.0" = _7JczpNWT;
         "pkg-1.0.1" = _YFFyLSPY;
         "pkg-1.1.0" = _aLJdrSOM;
@@ -148,7 +172,9 @@ let
         "pkg-1.2.4" = _2u2Isijw;
         "pkg-1.2.5" = _jjPFmew9;
         "pkg-1.2.6" = _pLPcxLib;
-        "default" = _pLPcxLib;
+        "pkg-1.3" = _6DdgPkep;
+        "pkg-1.3.1" = _FbQyjAdN;
+        "default" = _FbQyjAdN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fairylights";

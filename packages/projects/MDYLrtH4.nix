@@ -371,6 +371,21 @@ let
             "file" = "simpleexcavators-forge-26.2-1.0.5.jar";
             "hash" = "sha512-NmjVrlFQx04cXUvEeSjOEtze+OpoYyp4oSIZ8w22IU2zskqnvJAc2FtszHTLFX7iFKTJnQH/JIBDG3N/VIRI/g==";
         };
+        _cIcDR8cq = {
+            "id" = "cIcDR8cq";
+            "file" = "simpleexcavators-fabric-26.3-1.0.5.jar";
+            "hash" = "sha512-yhecyh+Ljgy2OcfbCKTGuT2GCWlM/o0lkAjWaOwpVhIYK63x+kLPQihqfujYJvHwFi1bBHconzCzerNShPCa6A==";
+        };
+        _akfDIEyx = {
+            "id" = "akfDIEyx";
+            "file" = "simpleexcavators-neoforge-26.3-1.0.5.jar";
+            "hash" = "sha512-RNMdeHkG9e3BoO1y2gOO+S0oLg7qSIRdzSOc1zogtsibqW3r9bRZhQmhQUu7ciFeOc3kd5TJPX+ytIyqKSI9SA==";
+        };
+        _3O6fwGxP = {
+            "id" = "3O6fwGxP";
+            "file" = "simpleexcavators-forge-26.3-1.0.5.jar";
+            "hash" = "sha512-yUeM/e4mDFzi2RvjMUGbcfmmLJFV2hlWpE1G3fKih5EMNdELwyV2ZuudSHW5GgH9meiO3POdHRO2uzmoX7EYrQ==";
+        };
     in {
         "TUFSJswh" = _TUFSJswh;
         "QYyCvA26" = _QYyCvA26;
@@ -446,6 +461,9 @@ let
         "tJvps8rV" = _tJvps8rV;
         "lFr8pNXk" = _lFr8pNXk;
         "6YTZc2qc" = _6YTZc2qc;
+        "cIcDR8cq" = _cIcDR8cq;
+        "akfDIEyx" = _akfDIEyx;
+        "3O6fwGxP" = _3O6fwGxP;
         "fabric-1.20.1" = _VfPBb0Ha;
         "fabric-1.20.2" = _TUFSJswh;
         "fabric-1.20.3" = _TUFSJswh;
@@ -462,6 +480,7 @@ let
         "fabric-26.1.1" = _J7Bsuhr9;
         "fabric-26.1.2" = _wvt92VI6;
         "fabric-26.2" = _tJvps8rV;
+        "fabric-26.3" = _cIcDR8cq;
         "forge-1.20.1" = _Wx80n6gI;
         "forge-1.21.1" = _2wtJtrTO;
         "forge-1.21.11" = _b0rkYWNx;
@@ -469,19 +488,21 @@ let
         "forge-26.1.1" = _PTDYgOtn;
         "forge-26.1.2" = _HOcEfkPi;
         "forge-26.2" = _6YTZc2qc;
+        "forge-26.3" = _3O6fwGxP;
         "neoforge-1.21.1" = _135F6iia;
         "neoforge-1.21.11" = _hKT8LEED;
         "neoforge-26.1" = _PBZjWAul;
         "neoforge-26.1.1" = _A4sYndNR;
         "neoforge-26.1.2" = _weDJpzJB;
         "neoforge-26.2" = _lFr8pNXk;
+        "neoforge-26.3" = _akfDIEyx;
         "pkg-v1.0.0" = _BDaQSpS5;
         "pkg-v1.0.1" = _x78nCFTB;
         "pkg-v1.0.2" = _d8bocyAy;
         "pkg-v1.0.3" = _7iLVyb6o;
         "pkg-v1.0.4" = _YNmZSymL;
-        "pkg-v1.0.5" = _6YTZc2qc;
-        "default" = _6YTZc2qc;
+        "pkg-v1.0.5" = _3O6fwGxP;
+        "default" = _3O6fwGxP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simpleexcavators";

@@ -236,6 +236,16 @@ let
             "file" = "droppeditemtweaks-2.0.0+26.2-fabric.jar";
             "hash" = "sha512-IyKEXodkLsJy0t39DK5ZjITcgyQSlCwZe/TsHP13PtK7n1u4aQ9eFnWn/33Q8EW/nWahIE9+VF3ExQx+Ravjuw==";
         };
+        _RFQnu1Qa = {
+            "id" = "RFQnu1Qa";
+            "file" = "droppeditemtweaks-2.0.1+26.3-fabric.jar";
+            "hash" = "sha512-JiFWvQNyqAa1mFf8JqWd/KNN7EAaIGyLcZfyEt/WUkY2b/LcfajWJXPymzJx5IGh+1iFOqPtghskQafQPC1FwA==";
+        };
+        _8GoRmVgm = {
+            "id" = "8GoRmVgm";
+            "file" = "droppeditemtweaks-2.0.1+1.8.9-fabric.jar";
+            "hash" = "sha512-BR6gmwWrsAxEKMiXP3giNF4T87E3A602D/ntC7lwklgMqdjDVmNDT3/rOBWh+8YAlpswPOHtxZsZdwMJ8Tap0Q==";
+        };
     in {
         "wUDzNixL" = _wUDzNixL;
         "tv8CIthp" = _tv8CIthp;
@@ -284,6 +294,8 @@ let
         "59OOysc5" = _59OOysc5;
         "BvifgxvO" = _BvifgxvO;
         "J1invMb1" = _J1invMb1;
+        "RFQnu1Qa" = _RFQnu1Qa;
+        "8GoRmVgm" = _8GoRmVgm;
         "fabric-1.20" = _XtrqXPhU;
         "fabric-1.20.1" = _XtrqXPhU;
         "fabric-1.20.3" = _XtrqXPhU;
@@ -302,10 +314,11 @@ let
         "fabric-1.21.8" = _lcMAQIRw;
         "fabric-1.21.10" = _tNlswt4E;
         "fabric-1.21.11" = _59OOysc5;
-        "fabric-26.1" = _BvifgxvO;
-        "fabric-26.1.1" = _BvifgxvO;
-        "fabric-26.1.2" = _BvifgxvO;
-        "fabric-26.2" = _J1invMb1;
+        "fabric-26.1" = _RFQnu1Qa;
+        "fabric-26.1.1" = _RFQnu1Qa;
+        "fabric-26.1.2" = _RFQnu1Qa;
+        "fabric-26.2" = _RFQnu1Qa;
+        "fabric-26.3" = _RFQnu1Qa;
         "neoforge-1.21" = _6EvGA0Dc;
         "neoforge-1.21.1" = _6EvGA0Dc;
         "neoforge-1.21.2" = _IyN5qIIB;
@@ -315,6 +328,7 @@ let
         "neoforge-1.21.6" = _mFHurA8W;
         "neoforge-1.21.7" = _mFHurA8W;
         "neoforge-1.21.8" = _mFHurA8W;
+        "ornithe-1.8.9" = _8GoRmVgm;
         "pkg-1.0.0" = _tvJPHgi6;
         "pkg-1.0.1" = _O7W5Pqs4;
         "pkg-1.1.0" = _8HzOqMP0;
@@ -329,7 +343,8 @@ let
         "pkg-1.2.8" = _59OOysc5;
         "pkg-1.2.9" = _BvifgxvO;
         "pkg-2.0.0" = _J1invMb1;
-        "default" = _J1invMb1;
+        "pkg-2.0.1" = _8GoRmVgm;
+        "default" = _8GoRmVgm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "droppeditemtweaks";

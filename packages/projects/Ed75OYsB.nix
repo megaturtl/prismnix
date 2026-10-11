@@ -56,6 +56,11 @@ let
             "file" = "HotbarReplace-0.1.4.jar";
             "hash" = "sha512-38Du74tMcAg256deyNTfLsyJTN1poxegTv6pua5hbEDMDZB42zgUxP/IdeJBtSbiJeeE8qIHT20/XMdMr6tsxQ==";
         };
+        _YdJ2Sp9p = {
+            "id" = "YdJ2Sp9p";
+            "file" = "hotbarreplace-0.1.6.jar";
+            "hash" = "sha512-9X1nn/t25eQERpR/fEKy7TnRH6LSVwJfBm+/ENGT2O579DtrH3uBWInstai7L7cfGM3FASnzw1JdmJLBeVyuyg==";
+        };
     in {
         "83GRbSaQ" = _83GRbSaQ;
         "w6km8iTf" = _w6km8iTf;
@@ -68,6 +73,7 @@ let
         "aLrAqBax" = _aLrAqBax;
         "TZhUUGXb" = _TZhUUGXb;
         "F3Jr9bBL" = _F3Jr9bBL;
+        "YdJ2Sp9p" = _YdJ2Sp9p;
         "fabric-1.19.3" = _83GRbSaQ;
         "fabric-1.19.4" = _w6km8iTf;
         "fabric-1.20" = _yoBGHyM2;
@@ -78,11 +84,13 @@ let
         "fabric-1.21" = _8vkGcLAi;
         "fabric-1.21.5" = _TZhUUGXb;
         "fabric-1.21.4" = _F3Jr9bBL;
+        "fabric-26.3" = _YdJ2Sp9p;
         "pkg-0.1.2" = _JipQxW7k;
         "pkg-0.1.3" = _D8zozdcb;
         "pkg-0.1.4" = _F3Jr9bBL;
         "pkg-0.1.5" = _TZhUUGXb;
-        "default" = _F3Jr9bBL;
+        "pkg-0.1.6" = _YdJ2Sp9p;
+        "default" = _YdJ2Sp9p;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hotbarreplace";

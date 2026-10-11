@@ -371,6 +371,26 @@ let
             "file" = "more_quest_types-neoforge-1.3.8.jar";
             "hash" = "sha512-QCzOa+NKgkVDT0lOb523LFxd8HRneZT1f6Lw/RFaMhL+nzG3ePz4iyp9WoQf+LisnMzLy4A37GNYiMZtP04GvQ==";
         };
+        _dGMjg2s3 = {
+            "id" = "dGMjg2s3";
+            "file" = "more_quest_types-fabric-1.3.9.jar";
+            "hash" = "sha512-j2LyH4lpJV/2YQk17Km6xx5wrbve+1QoTSf4uZzkDCCU+eYA1E5SfPE2TfVuryfqInqTkKMyQEDHxlJPOwPHiw==";
+        };
+        _eqyks1u9 = {
+            "id" = "eqyks1u9";
+            "file" = "more_quest_types-neoforge-1.3.9.jar";
+            "hash" = "sha512-V/UqII63v+d43nAwY1YYvO1PoCO9m4z6tERxQEqkcP9CU1AyGpYJI8sEGfuu4nT/0ICfbgnnQLB0ABd1I/Pn9g==";
+        };
+        _zofZ54yW = {
+            "id" = "zofZ54yW";
+            "file" = "more_quest_types-neoforge-1.4.0.jar";
+            "hash" = "sha512-jrb7rQSqQ+ircyunfZRKzp0miixIE/aneZmRQqf6mFxV58BhYG237+lW1LKFbiGfj0E9G2vJvvzxqLNMTgULcg==";
+        };
+        _aDXX3SMx = {
+            "id" = "aDXX3SMx";
+            "file" = "more_quest_types-fabric-1.4.0.jar";
+            "hash" = "sha512-ZdCqIbOQYYbAsLXPG1vnY3y2cUjSrZhX5/u8sGVADdzRukwg0DOHgDT4NlLgPB6wkw5q5lPZaP86QSOJC8Q7LA==";
+        };
     in {
         "lR6i7DM4" = _lR6i7DM4;
         "Ggjyfxft" = _Ggjyfxft;
@@ -446,8 +466,12 @@ let
         "qNQ9XGKx" = _qNQ9XGKx;
         "g1Lq99bT" = _g1Lq99bT;
         "wONsUC5U" = _wONsUC5U;
-        "fabric-1.21.1" = _g1Lq99bT;
-        "neoforge-1.21.1" = _wONsUC5U;
+        "dGMjg2s3" = _dGMjg2s3;
+        "eqyks1u9" = _eqyks1u9;
+        "zofZ54yW" = _zofZ54yW;
+        "aDXX3SMx" = _aDXX3SMx;
+        "fabric-1.21.1" = _aDXX3SMx;
+        "neoforge-1.21.1" = _zofZ54yW;
         "pkg-1.0.4" = _Ggjyfxft;
         "pkg-1.0.4.2" = _jto74Q2q;
         "pkg-1.0.5" = _o1zgTCcW;
@@ -485,7 +509,9 @@ let
         "pkg-1.3.6" = _amU3p2VB;
         "pkg-1.3.7" = _qNQ9XGKx;
         "pkg-1.3.8" = _wONsUC5U;
-        "default" = _wONsUC5U;
+        "pkg-1.3.9" = _eqyks1u9;
+        "pkg-1.4.0" = _aDXX3SMx;
+        "default" = _aDXX3SMx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-quest-types";

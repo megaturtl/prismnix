@@ -6,8 +6,14 @@ let
             "file" = "§a§l§nBeyond Vanilla§0.zip";
             "hash" = "sha512-IA5ZmEkMcdKRLIn0HMYVdE6YHbDEjl3taJrpcLYBOm7P9E7ZtmVA7zrtgrll3nLg5YNi7L7hwEPXb1rxnyghbQ==";
         };
+        _XJm11gha = {
+            "id" = "XJm11gha";
+            "file" = "§a§l§nBeyond Vanilla§0.zip";
+            "hash" = "sha512-L64/Elm6ZgzzBkwJzJHIiWhKEKpTckvoc+FbBnlu6NKBdBJFllQg4ueEDMFRV+uudA0opOhWdoesp/lcuWUesg==";
+        };
     in {
         "FY4EdENV" = _FY4EdENV;
+        "XJm11gha" = _XJm11gha;
         "minecraft-1.20.4" = _FY4EdENV;
         "minecraft-24w03a" = _FY4EdENV;
         "minecraft-24w03b" = _FY4EdENV;
@@ -41,11 +47,16 @@ let
         "minecraft-1.21.8" = _FY4EdENV;
         "minecraft-1.21.9" = _FY4EdENV;
         "minecraft-1.21.10" = _FY4EdENV;
-        "minecraft-1.21.11" = _FY4EdENV;
-        "minecraft-26.2" = _FY4EdENV;
+        "minecraft-1.21.11" = _XJm11gha;
+        "minecraft-26.2" = _XJm11gha;
         "minecraft-26.3-pre-1" = _FY4EdENV;
+        "minecraft-26.1" = _XJm11gha;
+        "minecraft-26.1.1" = _XJm11gha;
+        "minecraft-26.1.2" = _XJm11gha;
+        "minecraft-26.3" = _XJm11gha;
         "pkg-1.1.0" = _FY4EdENV;
-        "default" = _FY4EdENV;
+        "pkg-1.1.2" = _XJm11gha;
+        "default" = _XJm11gha;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "above-beyond-vanilla";

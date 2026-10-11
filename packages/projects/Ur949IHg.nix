@@ -131,6 +131,11 @@ let
             "file" = "chest-colorizer-2.0.0-26.2.jar";
             "hash" = "sha512-PmcXO4SLK+Peop8phvntNxv/YORRL81m20x+Eyb/P+dlpPJVOcaGkajsmkcFTAavAt0rtCdQNAbgoOmh/wttnA==";
         };
+        _TsA9pJpO = {
+            "id" = "TsA9pJpO";
+            "file" = "chest-colorizer-2.1.0-26.3.jar";
+            "hash" = "sha512-HkL6j6ga7Sy47h6E6AK4As/VtDqxwy9ZfSxrTnFHW5tC+HenT9xivflso2u0cE1gq2vC5nWvw1GpaOxCv6GQxQ==";
+        };
     in {
         "p0Oi74uQ" = _p0Oi74uQ;
         "yu7SBDg7" = _yu7SBDg7;
@@ -158,6 +163,7 @@ let
         "ijOEsCVe" = _ijOEsCVe;
         "pgATkwj7" = _pgATkwj7;
         "JqWifNmE" = _JqWifNmE;
+        "TsA9pJpO" = _TsA9pJpO;
         "fabric-1.19.4" = _Ft1bG9SY;
         "fabric-1.20" = _9tw3c5NC;
         "fabric-1.20.1" = _9tw3c5NC;
@@ -187,6 +193,7 @@ let
         "fabric-26.1.1" = _pgATkwj7;
         "fabric-26.1.2" = _pgATkwj7;
         "fabric-26.2" = _JqWifNmE;
+        "fabric-26.3" = _TsA9pJpO;
         "pkg-1.0.0" = _yu7SBDg7;
         "pkg-1.0.1" = _3qSEtzP0;
         "pkg-1.1.0" = _GmFDOmet;
@@ -207,7 +214,8 @@ let
         "pkg-1.6.1" = _pjHW7z49;
         "pkg-2.0.0-rc.1" = _ijOEsCVe;
         "pkg-2.0.0" = _JqWifNmE;
-        "default" = _JqWifNmE;
+        "pkg-2.1.0" = _TsA9pJpO;
+        "default" = _TsA9pJpO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chest-colorizer";

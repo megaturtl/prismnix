@@ -491,6 +491,16 @@ let
             "file" = "realcamera-26.2-fabric-0.7.8-beta.jar";
             "hash" = "sha512-a/TCRH8Ni8NLozi/E3Hnjz2fPG618BusH9EwQ0xR4LWiPwlwPqdnYvpkA7WHW7w5AxjXSlsLKdAhfZ1j+X1u+w==";
         };
+        _UlS34FcA = {
+            "id" = "UlS34FcA";
+            "file" = "realcamera-26.3-neoforge-0.7.8-beta.jar";
+            "hash" = "sha512-TnA5Q3IBpAZHN4muq+o+xyq1dEWDmzVUhjV9OHLwIhmXj+dj+3JFm4Vp790z19tdYxUpOMglm59+XkVzhJiCRg==";
+        };
+        _ROhlZqcT = {
+            "id" = "ROhlZqcT";
+            "file" = "realcamera-26.3-fabric-0.7.8-beta.jar";
+            "hash" = "sha512-t2/pHMR0agj6kN33vsBuO5xDrwSg/GBqeS3rZPTAp3NEvQ9ZCqDrZS6KmoQLKj7SiU09oxG8y4DCY/gwKy2oeg==";
+        };
     in {
         "EB6OB6I8" = _EB6OB6I8;
         "y2DbveEg" = _y2DbveEg;
@@ -590,6 +600,8 @@ let
         "8iDFFsGL" = _8iDFFsGL;
         "wfgL3JCe" = _wfgL3JCe;
         "FawEpnhn" = _FawEpnhn;
+        "UlS34FcA" = _UlS34FcA;
+        "ROhlZqcT" = _ROhlZqcT;
         "fabric-1.19.4" = _MVInCzUG;
         "fabric-1.18.2" = _IBEFX64u;
         "fabric-1.19.2" = _ZTkPgHCk;
@@ -609,6 +621,7 @@ let
         "fabric-26.1.1" = _8iDFFsGL;
         "fabric-26.1.2" = _8iDFFsGL;
         "fabric-26.2" = _FawEpnhn;
+        "fabric-26.3" = _ROhlZqcT;
         "forge-1.18.2" = _3Zqliu93;
         "forge-1.19.4" = _jkl9bQgs;
         "forge-1.19.2" = _cf7oM5pL;
@@ -627,6 +640,7 @@ let
         "neoforge-26.1.1" = _tPhOLg40;
         "neoforge-26.1.2" = _tPhOLg40;
         "neoforge-26.2" = _wfgL3JCe;
+        "neoforge-26.3" = _UlS34FcA;
         "pkg-0.4.0-alpha+fabric" = _y2DbveEg;
         "pkg-0.4.0-alpha+forge" = _DUObUCcs;
         "pkg-0.4.1-alpha+forge" = _V3E8k2QO;
@@ -676,7 +690,8 @@ let
         "pkg-0.7.8-beta-1.21.1" = _ERGbfBFO;
         "pkg-0.7.8-beta-26.1" = _8iDFFsGL;
         "pkg-0.7.8-beta-26.2" = _FawEpnhn;
-        "default" = _FawEpnhn;
+        "pkg-0.7.8-beta-26.3" = _ROhlZqcT;
+        "default" = _ROhlZqcT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "real-camera";

@@ -506,6 +506,21 @@ let
             "file" = "key_language_pack.zip";
             "hash" = "sha512-PxFIh5P1waiO9HgIHSDPALkYgZOCmjBCsAL5BP8GLlC0AbqtGGMfXi1B+7U2fkVzuID19eE0+Tcdqz+pCsPEZw==";
         };
+        _9c0m95Ju = {
+            "id" = "9c0m95Ju";
+            "file" = "key_language_pack.zip";
+            "hash" = "sha512-pGOHoMYGcZtd6Nq9lP7bGkiavbY9K7tT2Nn3ESzFhkrBptPwYMM5VwP8ViK7mnY/kZlRE/G8XQsEOaRfErOrfA==";
+        };
+        _y6jeVHF4 = {
+            "id" = "y6jeVHF4";
+            "file" = "key_language_pack.zip";
+            "hash" = "sha512-7uGQ528PO8UouzoWLpGhXed/y48mIJRpr9bB5ro+NUIggZEBA9iunu0TVRUl/fy2D5zyXGNuKZe1qrDOTIgBtg==";
+        };
+        _AYyVTsWa = {
+            "id" = "AYyVTsWa";
+            "file" = "key_language_pack.zip";
+            "hash" = "sha512-789EcORPQqqw3RWsqg/cZjwvvTVae4Ov3hvZE88dyvJt4ueox/UIYiEORzW1yVu906f5FvvUfS35elY9itGGCQ==";
+        };
     in {
         "XzJb4InQ" = _XzJb4InQ;
         "cFYVmTXZ" = _cFYVmTXZ;
@@ -608,27 +623,30 @@ let
         "KB90AH43" = _KB90AH43;
         "CgRHlJGX" = _CgRHlJGX;
         "AyyyrmTN" = _AyyyrmTN;
-        "minecraft-1.19.3" = _AyyyrmTN;
-        "minecraft-1.19.4" = _AyyyrmTN;
-        "minecraft-1.20" = _AyyyrmTN;
-        "minecraft-1.20.1" = _AyyyrmTN;
-        "minecraft-1.20.2" = _AyyyrmTN;
-        "minecraft-1.20.3" = _AyyyrmTN;
-        "minecraft-1.20.4" = _AyyyrmTN;
-        "minecraft-1.20.5" = _AyyyrmTN;
-        "minecraft-1.20.6" = _AyyyrmTN;
-        "minecraft-1.21" = _AyyyrmTN;
-        "minecraft-1.21.1" = _AyyyrmTN;
-        "minecraft-1.21.2" = _AyyyrmTN;
-        "minecraft-1.21.3" = _AyyyrmTN;
-        "minecraft-1.21.4" = _AyyyrmTN;
-        "minecraft-1.21.5" = _AyyyrmTN;
-        "minecraft-1.21.6" = _AyyyrmTN;
-        "minecraft-1.21.7" = _AyyyrmTN;
-        "minecraft-1.21.8" = _AyyyrmTN;
-        "minecraft-1.21.9" = _AyyyrmTN;
-        "minecraft-1.21.10" = _AyyyrmTN;
-        "minecraft-1.21.11" = _AyyyrmTN;
+        "9c0m95Ju" = _9c0m95Ju;
+        "y6jeVHF4" = _y6jeVHF4;
+        "AYyVTsWa" = _AYyVTsWa;
+        "minecraft-1.19.3" = _AYyVTsWa;
+        "minecraft-1.19.4" = _AYyVTsWa;
+        "minecraft-1.20" = _AYyVTsWa;
+        "minecraft-1.20.1" = _AYyVTsWa;
+        "minecraft-1.20.2" = _AYyVTsWa;
+        "minecraft-1.20.3" = _AYyVTsWa;
+        "minecraft-1.20.4" = _AYyVTsWa;
+        "minecraft-1.20.5" = _AYyVTsWa;
+        "minecraft-1.20.6" = _AYyVTsWa;
+        "minecraft-1.21" = _AYyVTsWa;
+        "minecraft-1.21.1" = _AYyVTsWa;
+        "minecraft-1.21.2" = _AYyVTsWa;
+        "minecraft-1.21.3" = _AYyVTsWa;
+        "minecraft-1.21.4" = _AYyVTsWa;
+        "minecraft-1.21.5" = _AYyVTsWa;
+        "minecraft-1.21.6" = _AYyVTsWa;
+        "minecraft-1.21.7" = _AYyVTsWa;
+        "minecraft-1.21.8" = _AYyVTsWa;
+        "minecraft-1.21.9" = _AYyVTsWa;
+        "minecraft-1.21.10" = _AYyVTsWa;
+        "minecraft-1.21.11" = _AYyVTsWa;
         "minecraft-26.1-snapshot-1" = _LOcENWVj;
         "pkg-1.20.6" = _XzJb4InQ;
         "pkg-1.21" = _cFYVmTXZ;
@@ -730,7 +748,10 @@ let
         "pkg-26.3-rc-2" = _KB90AH43;
         "pkg-26.3-rc-3" = _CgRHlJGX;
         "pkg-26.3" = _AyyyrmTN;
-        "default" = _AyyyrmTN;
+        "pkg-26.4-snapshot-1" = _9c0m95Ju;
+        "pkg-26.4-snapshot-2" = _y6jeVHF4;
+        "pkg-26.4-snapshot-3" = _AYyVTsWa;
+        "default" = _AYyVTsWa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "key-language-pack";

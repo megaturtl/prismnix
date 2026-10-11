@@ -191,6 +191,26 @@ let
             "file" = "Katters Structures Only Ambient v2.6.jar";
             "hash" = "sha512-gCQZCrlwVexnKlcn/VG4Pn5a6CJoLDmZJfrPbP1PAzZ6W7ia4TVs4RRDDxCFr1X8pifa9uqI6uUO7e6cxgfsxg==";
         };
+        _wyU9pnmK = {
+            "id" = "wyU9pnmK";
+            "file" = "Katters Structures Only Ambient v2.6.1.zip";
+            "hash" = "sha512-jGnxT4b6ASJQUnrsoJvgn2gwP3iRxd6pg/BIdLMjRapUM7Wrdm2F8Rgvhpo1ErIwoJQhljDoRw1HAuirl8MxQw==";
+        };
+        _j1AkhMlL = {
+            "id" = "j1AkhMlL";
+            "file" = "katters-structures-only-ambient-2.6.1.jar";
+            "hash" = "sha512-RZ0MkPVKvoqyLKUOE4B0Lhe9/u/fQRd/glvoLGL9rmntiF864IlyGDX7cQRRSChLplYto2kn/R/4/+v5iIkNqQ==";
+        };
+        _bwwBWVZY = {
+            "id" = "bwwBWVZY";
+            "file" = "Katters Structures Only Ambient v2.7.zip";
+            "hash" = "sha512-ZPfVYcrzoWhGxu9+1Ak6bUwmWiG50rRqd7+vTVzj49iNgTxO6hcQtnKi3u9MrkADYTF2kM3aDl+bEb7ft+iCGA==";
+        };
+        _kwXuz0en = {
+            "id" = "kwXuz0en";
+            "file" = "Katters Structures Only Ambient v2.7.jar";
+            "hash" = "sha512-brEe2DJFmLMTHtaUPhNtg9rsB2K+TlZyCwKNtduSre17OJeL1IOXdhnelLegpEhPjlbAjiTj6S9edi9BRsi9aw==";
+        };
     in {
         "Ui6fJYjn" = _Ui6fJYjn;
         "i73DIv9n" = _i73DIv9n;
@@ -230,6 +250,10 @@ let
         "KMR9Fwrg" = _KMR9Fwrg;
         "WVox7W1c" = _WVox7W1c;
         "gKuBY19A" = _gKuBY19A;
+        "wyU9pnmK" = _wyU9pnmK;
+        "j1AkhMlL" = _j1AkhMlL;
+        "bwwBWVZY" = _bwwBWVZY;
+        "kwXuz0en" = _kwXuz0en;
         "datapack-23w31a" = _ifq3V5rM;
         "datapack-1.20.2" = _ifq3V5rM;
         "datapack-1.20.3" = _ifq3V5rM;
@@ -251,7 +275,7 @@ let
         "datapack-26.1.1" = _yB2rqt4K;
         "datapack-26.1.2" = _yB2rqt4K;
         "datapack-26.2" = _ZapBzyHV;
-        "datapack-26.3" = _WVox7W1c;
+        "datapack-26.3" = _bwwBWVZY;
         "fabric-23w31a" = _hAVxR0Mf;
         "fabric-1.20.2" = _hAVxR0Mf;
         "fabric-1.20.3" = _hAVxR0Mf;
@@ -273,7 +297,7 @@ let
         "fabric-26.1.1" = _xzrW1pIX;
         "fabric-26.1.2" = _xzrW1pIX;
         "fabric-26.2" = _KMR9Fwrg;
-        "fabric-26.3" = _gKuBY19A;
+        "fabric-26.3" = _kwXuz0en;
         "forge-23w31a" = _hAVxR0Mf;
         "forge-1.20.2" = _hAVxR0Mf;
         "forge-1.20.3" = _hAVxR0Mf;
@@ -295,7 +319,7 @@ let
         "forge-26.1.1" = _xzrW1pIX;
         "forge-26.1.2" = _xzrW1pIX;
         "forge-26.2" = _KMR9Fwrg;
-        "forge-26.3" = _gKuBY19A;
+        "forge-26.3" = _kwXuz0en;
         "quilt-23w31a" = _hAVxR0Mf;
         "quilt-1.20.2" = _hAVxR0Mf;
         "quilt-1.20.3" = _hAVxR0Mf;
@@ -317,7 +341,7 @@ let
         "quilt-26.1.1" = _xzrW1pIX;
         "quilt-26.1.2" = _xzrW1pIX;
         "quilt-26.2" = _KMR9Fwrg;
-        "quilt-26.3" = _gKuBY19A;
+        "quilt-26.3" = _kwXuz0en;
         "neoforge-1.21" = _ealrpT96;
         "neoforge-1.21.1" = _ealrpT96;
         "neoforge-1.21.2" = _wqoTtRhh;
@@ -333,7 +357,7 @@ let
         "neoforge-26.1.1" = _xzrW1pIX;
         "neoforge-26.1.2" = _xzrW1pIX;
         "neoforge-26.2" = _KMR9Fwrg;
-        "neoforge-26.3" = _gKuBY19A;
+        "neoforge-26.3" = _kwXuz0en;
         "pkg-1.7" = _Ui6fJYjn;
         "pkg-1.7+mod" = _i73DIv9n;
         "pkg-1.8" = _hiCEz3TO;
@@ -372,7 +396,11 @@ let
         "pkg-2.5-mod" = _KMR9Fwrg;
         "pkg-2.6" = _WVox7W1c;
         "pkg-2.6-mod" = _gKuBY19A;
-        "default" = _gKuBY19A;
+        "pkg-2.6.1" = _wyU9pnmK;
+        "pkg-2.6.1+mod" = _j1AkhMlL;
+        "pkg-2.7" = _bwwBWVZY;
+        "pkg-2.7-mod" = _kwXuz0en;
+        "default" = _kwXuz0en;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "katters-structures-only-ambient";

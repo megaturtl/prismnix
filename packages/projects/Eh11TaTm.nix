@@ -191,6 +191,16 @@ let
             "file" = "letsdo-herbalbrews-fabric-1.1.3.jar";
             "hash" = "sha512-UM8xXc2kVQedOuVMAokiOWm5iQDIz/A5SvqUHwKA0F8dU7ZjZE2EKIIH1V5M8td/NYnhJBrPzNXipCpMD5Y+4w==";
         };
+        _kGYbyn9P = {
+            "id" = "kGYbyn9P";
+            "file" = "letsdo-herbalbrews-neoforge-1.1.4.jar";
+            "hash" = "sha512-KBusECURv3dTNxq37UiNaZDfsMquDyFrkx06BcdK374oMwkQ521+6gJo8KfWSZenwNfZs/ye+0PZcRSH82tJiQ==";
+        };
+        _43g8sVYA = {
+            "id" = "43g8sVYA";
+            "file" = "letsdo-herbalbrews-fabric-1.1.4.jar";
+            "hash" = "sha512-CNx1YJK1/6e/ggdhrUP/TofLELRvTJ+/5UtLLckXwVxcqYpnLtfxRtlW5WuT89VtYD0wfFto1XVvymydn4kEkA==";
+        };
     in {
         "tNIvESlh" = _tNIvESlh;
         "Zr1vPAc3" = _Zr1vPAc3;
@@ -230,11 +240,13 @@ let
         "3WAXgvaW" = _3WAXgvaW;
         "gtG21Zrn" = _gtG21Zrn;
         "E7Okput0" = _E7Okput0;
+        "kGYbyn9P" = _kGYbyn9P;
+        "43g8sVYA" = _43g8sVYA;
         "fabric-1.20.1" = _txZ8qKXK;
-        "fabric-1.21.1" = _E7Okput0;
+        "fabric-1.21.1" = _43g8sVYA;
         "forge-1.20.1" = _qKfEj2BA;
         "neoforge-1.20.1" = _qKfEj2BA;
-        "neoforge-1.21.1" = _gtG21Zrn;
+        "neoforge-1.21.1" = _kGYbyn9P;
         "quilt-1.20.1" = _8Yqna5gX;
         "pkg-1.0.0" = _Zr1vPAc3;
         "pkg-1.0.1" = _TL50YImk;
@@ -255,7 +267,8 @@ let
         "pkg-1.1.1" = _SGCW0B2T;
         "pkg-1.1.2" = _3WAXgvaW;
         "pkg-1.1.3" = _E7Okput0;
-        "default" = _E7Okput0;
+        "pkg-1.1.4" = _43g8sVYA;
+        "default" = _43g8sVYA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lets-do-herbalbrews";

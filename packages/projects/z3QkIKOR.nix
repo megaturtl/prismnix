@@ -51,6 +51,26 @@ let
             "file" = "endrem_additions-neoforge-1.1.2.jar";
             "hash" = "sha512-6fA0KIyWsh0Wp5R1opBoeFbm8sIPlVTzfUhsYZIiP+hsYvV/GRNuFN6uAYzW+9y7UIVdGQ1z59PCg/bCjSjIjw==";
         };
+        _Kaao8eid = {
+            "id" = "Kaao8eid";
+            "file" = "endrem_additions-fabric-1.2.0.jar";
+            "hash" = "sha512-ejXUSGDPCz78/NesBToXZaQbxVD+5bRumj06Dyn944AJxuq9rNOXXaPG0Ajce8/ckLOhSgP3dt+WkU+WSFAToA==";
+        };
+        _fO0OPcla = {
+            "id" = "fO0OPcla";
+            "file" = "endrem_additions-neoforge-1.2.0.jar";
+            "hash" = "sha512-uSfbkevt+2JuVBQ5fFu7XWGmVLFFrlPKOS+5q0PfeyZpRgw8sGehKG/BqEoOoMbzvQKxl06sULz/xMpAmbhkUA==";
+        };
+        _qVAdNuBP = {
+            "id" = "qVAdNuBP";
+            "file" = "endrem_additions-neoforge-1.2.0.jar";
+            "hash" = "sha512-xsQqMBcr4hv0fhVhNQ3h510DKHjWltkx9s7ayupl5pQE/s0mNRHFMfzbJht5yWMgrewb2snVYqdUn9JaO8dOyg==";
+        };
+        _RI9Al29h = {
+            "id" = "RI9Al29h";
+            "file" = "endrem_additions-fabric-1.2.0.jar";
+            "hash" = "sha512-yNF9n9iSHG4E2Tkcn+DTAwrRTQnzaREB2pQScEKwiTyN5Q/W2b7+GR/d+5RPZ7EE+0AjaJWcfxmwWFjfGldyQQ==";
+        };
     in {
         "TfWDoeLR" = _TfWDoeLR;
         "6v70YDjv" = _6v70YDjv;
@@ -62,23 +82,30 @@ let
         "Yjdj8yR2" = _Yjdj8yR2;
         "yOrbD4CS" = _yOrbD4CS;
         "kpk4g0ld" = _kpk4g0ld;
-        "fabric-1.21.1" = _yOrbD4CS;
+        "Kaao8eid" = _Kaao8eid;
+        "fO0OPcla" = _fO0OPcla;
+        "qVAdNuBP" = _qVAdNuBP;
+        "RI9Al29h" = _RI9Al29h;
+        "fabric-1.21.1" = _Kaao8eid;
         "fabric-1.21.5" = _Lf0P7fmE;
-        "fabric-26.1" = _HKHWlLjX;
-        "fabric-26.1.1" = _HKHWlLjX;
-        "fabric-26.1.2" = _HKHWlLjX;
+        "fabric-26.1" = _RI9Al29h;
+        "fabric-26.1.1" = _RI9Al29h;
+        "fabric-26.1.2" = _RI9Al29h;
         "fabric-1.21" = _yOrbD4CS;
-        "neoforge-1.21.1" = _kpk4g0ld;
+        "fabric-26.2" = _RI9Al29h;
+        "neoforge-1.21.1" = _fO0OPcla;
         "neoforge-1.21.5" = _le8Ndw2j;
-        "neoforge-26.1" = _Yjdj8yR2;
-        "neoforge-26.1.1" = _Yjdj8yR2;
-        "neoforge-26.1.2" = _Yjdj8yR2;
+        "neoforge-26.1" = _qVAdNuBP;
+        "neoforge-26.1.1" = _qVAdNuBP;
+        "neoforge-26.1.2" = _qVAdNuBP;
         "neoforge-1.21" = _kpk4g0ld;
+        "neoforge-26.2" = _qVAdNuBP;
         "pkg-1.0.0" = _6v70YDjv;
         "pkg-1.1.0" = _vxsfpqwm;
         "pkg-1.1.1" = _le8Ndw2j;
         "pkg-1.1.2" = _kpk4g0ld;
-        "default" = _kpk4g0ld;
+        "pkg-1.2.0" = _RI9Al29h;
+        "default" = _RI9Al29h;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "end-remastered-additions";

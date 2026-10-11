@@ -46,6 +46,16 @@ let
             "file" = "necropolis-ancient-city-overhaul-2.0.3.jar";
             "hash" = "sha512-mZif/XhWHX9yJCIMbdraSpLRYRTrWYFEhs1cXW2rlwfVXkJlGL63MUL8LshN0RsVC5W0F5hfFzvHHUE0VN6tIg==";
         };
+        _9MkKWmhC = {
+            "id" = "9MkKWmhC";
+            "file" = "Necropolis v2.0.4.zip";
+            "hash" = "sha512-nO/juhUlvCFpea9SqlFa3O6hR8JLzcsN9hABUSf59uaulWqiU1VRhMZ1WheQ8+tUCXcFTuzRWY9mHyYsRTPZ4g==";
+        };
+        _bpHAQ4ee = {
+            "id" = "bpHAQ4ee";
+            "file" = "necropolis-ancient-city-overhaul-2.0.4.jar";
+            "hash" = "sha512-znCnWS3SE58aFw9A/mwV30wCjTby+TKZi3hCUfTxMr+CQg2AqQJmZXSQJHgpPO9Aq0/z/GwCa10dp/2GztTuSg==";
+        };
     in {
         "vrFDWh7o" = _vrFDWh7o;
         "bPpB1Tzh" = _bPpB1Tzh;
@@ -56,32 +66,44 @@ let
         "uuJC8mfM" = _uuJC8mfM;
         "BBhtQvtS" = _BBhtQvtS;
         "2BjcRitQ" = _2BjcRitQ;
+        "9MkKWmhC" = _9MkKWmhC;
+        "bpHAQ4ee" = _bpHAQ4ee;
         "datapack-1.21" = _vrFDWh7o;
         "datapack-1.21.4" = _bPpB1Tzh;
         "datapack-1.21.6" = _SnLCbrXb;
         "datapack-1.21.9" = _BBhtQvtS;
         "datapack-1.21.10" = _BBhtQvtS;
         "datapack-1.21.11" = _BBhtQvtS;
+        "datapack-26.2" = _9MkKWmhC;
+        "datapack-26.3" = _9MkKWmhC;
         "fabric-1.21.4" = _wDJNFzjJ;
         "fabric-1.21.6" = _adT7eic0;
         "fabric-1.21.9" = _2BjcRitQ;
         "fabric-1.21.10" = _2BjcRitQ;
         "fabric-1.21.11" = _2BjcRitQ;
+        "fabric-26.2" = _bpHAQ4ee;
+        "fabric-26.3" = _bpHAQ4ee;
         "forge-1.21.4" = _wDJNFzjJ;
         "forge-1.21.6" = _adT7eic0;
         "forge-1.21.9" = _2BjcRitQ;
         "forge-1.21.10" = _2BjcRitQ;
         "forge-1.21.11" = _2BjcRitQ;
+        "forge-26.2" = _bpHAQ4ee;
+        "forge-26.3" = _bpHAQ4ee;
         "neoforge-1.21.4" = _wDJNFzjJ;
         "neoforge-1.21.6" = _adT7eic0;
         "neoforge-1.21.9" = _2BjcRitQ;
         "neoforge-1.21.10" = _2BjcRitQ;
         "neoforge-1.21.11" = _2BjcRitQ;
+        "neoforge-26.2" = _bpHAQ4ee;
+        "neoforge-26.3" = _bpHAQ4ee;
         "quilt-1.21.4" = _wDJNFzjJ;
         "quilt-1.21.6" = _adT7eic0;
         "quilt-1.21.9" = _2BjcRitQ;
         "quilt-1.21.10" = _2BjcRitQ;
         "quilt-1.21.11" = _2BjcRitQ;
+        "quilt-26.2" = _bpHAQ4ee;
+        "quilt-26.3" = _bpHAQ4ee;
         "pkg-1.0" = _vrFDWh7o;
         "pkg-2.0" = _wDJNFzjJ;
         "pkg-2.0.1" = _SnLCbrXb;
@@ -90,7 +112,9 @@ let
         "pkg-2.0.2+mod" = _uuJC8mfM;
         "pkg-2.0.3" = _BBhtQvtS;
         "pkg-2.0.3+mod" = _2BjcRitQ;
-        "default" = _2BjcRitQ;
+        "pkg-2.0.4" = _9MkKWmhC;
+        "pkg-2.0.4+mod" = _bpHAQ4ee;
+        "default" = _bpHAQ4ee;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "necropolis-ancient-city-overhaul";

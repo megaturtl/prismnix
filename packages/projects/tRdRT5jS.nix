@@ -456,6 +456,11 @@ let
             "file" = "ClickMobs-1.3.4+1.21.11-neoforge.jar";
             "hash" = "sha512-2eAj5897JvrDsLryduUKlMCxQUBHpmSY2GhjNPBM97gXUf1ceI3GXRoVT13RZVqSXZLf6ep4/N2ymXu9kcUmBA==";
         };
+        _OQVFPmKo = {
+            "id" = "OQVFPmKo";
+            "file" = "ClickMobs-1.3.4+26.3-fabric.jar";
+            "hash" = "sha512-TLQsM4VAjMV+RZl+HzhI7gXI0nuTyca0qYO2ROphOkyGr279H84f9SILYzch1uT3XXoGgrHJJGv96tI1vGgPeQ==";
+        };
     in {
         "D54pjIWJ" = _D54pjIWJ;
         "WESzychE" = _WESzychE;
@@ -548,6 +553,7 @@ let
         "7vCQ9NB9" = _7vCQ9NB9;
         "W8Uffpdo" = _W8Uffpdo;
         "cqfj30u2" = _cqfj30u2;
+        "OQVFPmKo" = _OQVFPmKo;
         "fabric-1.21" = _isNUV7LN;
         "fabric-1.21.1" = _isNUV7LN;
         "fabric-1.20.1" = _4ttcY18B;
@@ -563,6 +569,7 @@ let
         "fabric-26.1.1" = _aZ8S7tya;
         "fabric-26.1.2" = _aZ8S7tya;
         "fabric-26.2" = _61DYDeEu;
+        "fabric-26.3" = _OQVFPmKo;
         "bukkit-1.20" = _QWcurzKi;
         "bukkit-1.20.1" = _QWcurzKi;
         "bukkit-1.20.2" = _QWcurzKi;
@@ -749,7 +756,8 @@ let
         "pkg-1.3.4+1.21.11-fabric" = _7vCQ9NB9;
         "pkg-1.3.4+1.21.1-neoforge" = _W8Uffpdo;
         "pkg-1.3.4+1.21.11-neoforge" = _cqfj30u2;
-        "default" = _cqfj30u2;
+        "pkg-1.3.4+26.3-fabric" = _OQVFPmKo;
+        "default" = _OQVFPmKo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "clickmobs";

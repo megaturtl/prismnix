@@ -41,6 +41,11 @@ let
             "file" = "wet-sand-beta-0.0.2-26.3.jar";
             "hash" = "sha512-YBBqm2bMliIs1a0bkhaoAtTY73v90mxX7iHuPRpdMpQ6pZjuIwx9blWm0MZHbJhGjeZFoSFaU8/dK7Rgp3C50g==";
         };
+        _aVGYKMSK = {
+            "id" = "aVGYKMSK";
+            "file" = "wet-sand-0.1.0-26.3-beta.jar";
+            "hash" = "sha512-CkjTegh7WLCzfjLSaP99vYB1XXvWdnv3YA+x40EMqFY1XU9vnllV8z7fMU5hXDyoltw0WLOuJ5kt0n79oA2Tzg==";
+        };
     in {
         "ON1TTB18" = _ON1TTB18;
         "wKzBNPXg" = _wKzBNPXg;
@@ -50,6 +55,7 @@ let
         "bmP4764F" = _bmP4764F;
         "nCJoknuP" = _nCJoknuP;
         "zUesn19Y" = _zUesn19Y;
+        "aVGYKMSK" = _aVGYKMSK;
         "fabric-1.21.4" = _ON1TTB18;
         "fabric-1.21.5" = _ON1TTB18;
         "fabric-1.21.6" = _ON1TTB18;
@@ -60,7 +66,7 @@ let
         "fabric-1.21.11" = _omSFSfRE;
         "fabric-26.1" = _bmP4764F;
         "fabric-26.2" = _nCJoknuP;
-        "fabric-26.3" = _zUesn19Y;
+        "fabric-26.3" = _aVGYKMSK;
         "pkg-beta-0.0.1-1.21.5" = _ON1TTB18;
         "pkg-beta-0.0.2-1.20.1" = _wKzBNPXg;
         "pkg-beta-0.0.3-1.20.1" = _gIejCfuk;
@@ -69,7 +75,8 @@ let
         "pkg-beta-0.0.2-26.1" = _bmP4764F;
         "pkg-beta-0.0.2-26.2" = _nCJoknuP;
         "pkg-beta-0.0.2-26.3" = _zUesn19Y;
-        "default" = _zUesn19Y;
+        "pkg-0.1.0-26.3-beta" = _aVGYKMSK;
+        "default" = _aVGYKMSK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wet-sand";

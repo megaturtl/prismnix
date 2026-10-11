@@ -141,6 +141,11 @@ let
             "file" = "not-enough-vulkan-fabric-1.6.2+mc1.21.11.jar";
             "hash" = "sha512-3F+UzWWGvtUOtgbkZHXurzub8901WfBXH97r8Z4HpTxDEYP+iU08F28I+VMQt2tLyemSckK5iIubXcuI/q5NTA==";
         };
+        _KeP6alcQ = {
+            "id" = "KeP6alcQ";
+            "file" = "not-enough-vulkan-fabric-1.6.3-snapshot+mc1.21.1-local.jar";
+            "hash" = "sha512-/t67mFH4fdC/K+1DC/IGPaMLLvQC3646yKbe/Y3Ui1LlDMk5eF396p18XQc5XllKzxEdobWn5w/fg4hrLhnnHw==";
+        };
     in {
         "PIDjSRRG" = _PIDjSRRG;
         "6W49N4SY" = _6W49N4SY;
@@ -170,12 +175,13 @@ let
         "k1dtm9LV" = _k1dtm9LV;
         "5uimowd4" = _5uimowd4;
         "MBkEEkSD" = _MBkEEkSD;
+        "KeP6alcQ" = _KeP6alcQ;
         "fabric-1.21.11" = _MBkEEkSD;
         "fabric-26.1" = _5uimowd4;
         "fabric-26.1.1" = _5uimowd4;
         "fabric-26.1.2" = _5uimowd4;
         "fabric-1.21.10" = _SRjlYNAf;
-        "fabric-1.21.1" = _k1dtm9LV;
+        "fabric-1.21.1" = _KeP6alcQ;
         "pkg-1.0.1" = _PIDjSRRG;
         "pkg-1.1.0" = _6W49N4SY;
         "pkg-1.2.0" = _J5VMdayj;
@@ -204,7 +210,8 @@ let
         "pkg-1.6.2+1.21.1" = _k1dtm9LV;
         "pkg-1.6.2+26.1.1" = _5uimowd4;
         "pkg-1.6.2+1.21.11" = _MBkEEkSD;
-        "default" = _MBkEEkSD;
+        "pkg-1.6.3+1.21.1" = _KeP6alcQ;
+        "default" = _KeP6alcQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "not-enough-vulkan";

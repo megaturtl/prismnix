@@ -321,6 +321,16 @@ let
             "file" = "superbwarfare-0.8.9.1-final-mc1.21.1-5b92ebe1.jar";
             "hash" = "sha512-xlF3nLL5UpCJLuZ8OMjJogDZrCs/XarDtkeYg2O9zYnwzsthjv3ETAomUHS7BxLrzKAYqgNNdqbkSDWh9aQ9Ow==";
         };
+        _bl7W8fjU = {
+            "id" = "bl7W8fjU";
+            "file" = "superbwarfare-0.8.9.2-mc1.21.1-c22d98c2.jar";
+            "hash" = "sha512-+wNdaNbuMMF+jq3o3m4gGcz58+UX+kZ75ZRBo5dVPIG9KXePkvoEBvGsOqc/aK1SKu1dZYJTNsNmhnFMkAh3pQ==";
+        };
+        _81Iyv9ao = {
+            "id" = "81Iyv9ao";
+            "file" = "superbwarfare-0.8.9.2-mc1.20.1-65d985a64-all.jar";
+            "hash" = "sha512-mF4KPwLe3frsldtyo3YZlAMPwrcszVPpDAJlxZ2UZ+Cfq6wRGxqx13e0pmwD4fo/n1jJY8Rx70BGLPJVc7vkrQ==";
+        };
     in {
         "GPsZU5Cx" = _GPsZU5Cx;
         "k1Ts1coT" = _k1Ts1coT;
@@ -386,8 +396,10 @@ let
         "mHmtMuKF" = _mHmtMuKF;
         "kFsZhNpg" = _kFsZhNpg;
         "61I8C3YC" = _61I8C3YC;
-        "forge-1.20.1" = _mHmtMuKF;
-        "neoforge-1.21.1" = _61I8C3YC;
+        "bl7W8fjU" = _bl7W8fjU;
+        "81Iyv9ao" = _81Iyv9ao;
+        "forge-1.20.1" = _81Iyv9ao;
+        "neoforge-1.21.1" = _bl7W8fjU;
         "pkg-0.6.3" = _GPsZU5Cx;
         "pkg-0.6.4" = _k1Ts1coT;
         "pkg-0.6.5" = _QFI45waL;
@@ -420,7 +432,8 @@ let
         "pkg-0.8.9.1" = _oVcZKrfn;
         "pkg-0.8.9.1-hotfix" = _kFsZhNpg;
         "pkg-0.8.9.1-final" = _61I8C3YC;
-        "default" = _61I8C3YC;
+        "pkg-0.8.9.2" = _81Iyv9ao;
+        "default" = _81Iyv9ao;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "superb-warfare";

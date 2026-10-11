@@ -131,6 +131,11 @@ let
             "file" = "Ore Outlines  Glow V1.0.0 (26.2).zip";
             "hash" = "sha512-7qRnTkVFEwipZMdJhr73iFr3r6htWaz5Jni87HWiodjzlPQueNluQcxH8gZL/5HdMnAKVWHBL6I5hfEOWzhJWg==";
         };
+        _xamFwG1C = {
+            "id" = "xamFwG1C";
+            "file" = "Ore Outlines  Glow V1.0.0 (26.3).zip";
+            "hash" = "sha512-Zn09CXYhzlRMEsX6LuShvqOEIYSE61AQRn1SnlZM0OcdwmJThPnGCvecQcncWcQ2NwHK84q2FsC048ySNqKINg==";
+        };
     in {
         "aC2aPlCo" = _aC2aPlCo;
         "HxGeuDEY" = _HxGeuDEY;
@@ -158,6 +163,7 @@ let
         "B07RF7jz" = _B07RF7jz;
         "NRMbLzX6" = _NRMbLzX6;
         "PcRGQWvR" = _PcRGQWvR;
+        "xamFwG1C" = _xamFwG1C;
         "minecraft-1.6.1" = _aC2aPlCo;
         "minecraft-1.6.2" = _aC2aPlCo;
         "minecraft-1.6.4" = _aC2aPlCo;
@@ -242,8 +248,9 @@ let
         "minecraft-26.1.1" = _NRMbLzX6;
         "minecraft-26.1.2" = _NRMbLzX6;
         "minecraft-26.2" = _PcRGQWvR;
-        "pkg-1.0.0" = _PcRGQWvR;
-        "default" = _PcRGQWvR;
+        "minecraft-26.3" = _xamFwG1C;
+        "pkg-1.0.0" = _xamFwG1C;
+        "default" = _xamFwG1C;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ore-outlines-glow";

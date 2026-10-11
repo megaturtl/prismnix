@@ -211,6 +211,16 @@ let
             "file" = "HeldItemTooltips-v26.2.0-mc26.2.x-Fabric.jar";
             "hash" = "sha512-+VYBIBeM4nCHadSEuGod/du80gl+ScDj3jNlLpH1YItJ2Er4xmhix3nN40QJ/R/aYE94cJhid9ij5KYmjrzuwA==";
         };
+        _3uxwamnO = {
+            "id" = "3uxwamnO";
+            "file" = "helditemtooltips-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-ujjWZjdHtWhl2XEH1c65uY73bAnCqyPcz37ivRvGDOFAA1GPVjk/dGZB/UJSCB26M0i9QHOjzANJw5DWOHxQSA==";
+        };
+        _bCaIXr3p = {
+            "id" = "bCaIXr3p";
+            "file" = "helditemtooltips-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-fEEmZh6XT3qfxehscvBFbu/+ZmlWAv0AESjRSg6wfJcsgy2eAo49xGZbFzuiOZYE+0VhAWDK8TID7FHfuywgaQ==";
+        };
     in {
         "q3WY4GQl" = _q3WY4GQl;
         "tLUWTl3e" = _tLUWTl3e;
@@ -254,6 +264,8 @@ let
         "ICBcNKiA" = _ICBcNKiA;
         "JgPYTlnq" = _JgPYTlnq;
         "a9PRB0aK" = _a9PRB0aK;
+        "3uxwamnO" = _3uxwamnO;
+        "bCaIXr3p" = _bCaIXr3p;
         "forge-1.19.2" = _q3WY4GQl;
         "forge-1.19.3" = _PNGvUyIg;
         "forge-1.19.4" = _fG06ALW8;
@@ -279,6 +291,7 @@ let
         "fabric-26.1.1" = _yIcgS2IU;
         "fabric-26.1.2" = _yIcgS2IU;
         "fabric-26.2" = _a9PRB0aK;
+        "fabric-26.3" = _3uxwamnO;
         "neoforge-1.20.4" = _gfwyM0Mn;
         "neoforge-1.21.1" = _GLzG8UbN;
         "neoforge-1.21.3" = _NrxxieZW;
@@ -293,6 +306,7 @@ let
         "neoforge-26.1.1" = _ICBcNKiA;
         "neoforge-26.1.2" = _ICBcNKiA;
         "neoforge-26.2" = _JgPYTlnq;
+        "neoforge-26.3" = _bCaIXr3p;
         "pkg-v4.0.0-1.19.2-Forge" = _q3WY4GQl;
         "pkg-v4.0.0-1.19.2-Fabric" = _tLUWTl3e;
         "pkg-v5.0.0-1.19.3-Fabric" = _MVKq40fY;
@@ -328,7 +342,8 @@ let
         "pkg-26.1.1" = _hINsMOVq;
         "pkg-26.1.2" = _ICBcNKiA;
         "pkg-26.2.0" = _a9PRB0aK;
-        "default" = _a9PRB0aK;
+        "pkg-26.3.0" = _bCaIXr3p;
+        "default" = _bCaIXr3p;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "held-item-tooltips";

@@ -191,6 +191,26 @@ let
             "file" = "cadeditor-26.2-0.5.5-neoforge.jar";
             "hash" = "sha512-UBKPgpVGh2Y/dYRaoUtl50tsox8E+SkrcZ7X+i6IwgiWIuhF0MccP5eNAcjUvMzN7uG3Q/musDroLw2k0Jn3rg==";
         };
+        _x9M0hfHu = {
+            "id" = "x9M0hfHu";
+            "file" = "cadeditor-26.2-0.5.6-fabric.jar";
+            "hash" = "sha512-OaZtf7ru5EEVkBa7MppKwPHB35BAl28KKyZASyrk7yURQC2FLj5Cw7xbz6G6zHI+t7MsHNpo1hHL2bspYuq/xQ==";
+        };
+        _ZrI1OnZC = {
+            "id" = "ZrI1OnZC";
+            "file" = "cadeditor-26.2-0.5.6-neoforge.jar";
+            "hash" = "sha512-4GpZoFFlT3wbonb2Qbc4x0J2amn8s8oJpdRMCzF1UrGZxQBr5gfpu+euRzV6KyB0rG+3yR9fGR5gfGABm06RNA==";
+        };
+        _dcWu3DoC = {
+            "id" = "dcWu3DoC";
+            "file" = "cadeditor-26.3-0.5.6-fabric.jar";
+            "hash" = "sha512-404QddsBhgkbXRQiOaJoGQtOseCAedNSQpai+4rfL9O6Wqnn7xIev0GmMS0+R+y22pP2PkUh/hQ6dsJ2cBOSgA==";
+        };
+        _R7H8vHWk = {
+            "id" = "R7H8vHWk";
+            "file" = "cadeditor-26.3-0.5.6-neoforge.jar";
+            "hash" = "sha512-QVCsefsxIzwHJALQ5uGf67QSfp35St3ZxIT1SzaoJn2Ia9PUtaTwYZ4gFGxbXnqyPx9IrtXJEXrVeDntmTBm/A==";
+        };
     in {
         "zgw1MiTE" = _zgw1MiTE;
         "9FbPXuRY" = _9FbPXuRY;
@@ -230,6 +250,10 @@ let
         "j4LVeCqT" = _j4LVeCqT;
         "Cbse0Gvy" = _Cbse0Gvy;
         "1japKa2c" = _1japKa2c;
+        "x9M0hfHu" = _x9M0hfHu;
+        "ZrI1OnZC" = _ZrI1OnZC;
+        "dcWu3DoC" = _dcWu3DoC;
+        "R7H8vHWk" = _R7H8vHWk;
         "neoforge-1.21.1" = _5qgNO9fQ;
         "neoforge-1.21.4" = _LAjRGLSU;
         "neoforge-1.21.8" = _M06idNsk;
@@ -237,7 +261,8 @@ let
         "neoforge-1.21.11" = _leIdR9aF;
         "neoforge-26.1" = _AjuZ6AO4;
         "neoforge-26.1.2" = _j4LVeCqT;
-        "neoforge-26.2" = _1japKa2c;
+        "neoforge-26.2" = _ZrI1OnZC;
+        "neoforge-26.3" = _R7H8vHWk;
         "fabric-1.21.1" = _9zFqxgjW;
         "fabric-1.21.4" = _kBKQnT6q;
         "fabric-1.21.8" = _qEE09Gml;
@@ -245,7 +270,8 @@ let
         "fabric-1.21.11" = _ddluRldu;
         "fabric-26.1" = _GDY5dqHs;
         "fabric-26.1.2" = _PqIzHqoR;
-        "fabric-26.2" = _Cbse0Gvy;
+        "fabric-26.2" = _x9M0hfHu;
+        "fabric-26.3" = _dcWu3DoC;
         "forge-1.21.11" = _leIdR9aF;
         "pkg-0.0.1" = _9FbPXuRY;
         "pkg-0.0.2" = _vsmAb21N;
@@ -262,7 +288,8 @@ let
         "pkg-0.5.3" = _leIdR9aF;
         "pkg-0.5.4" = _7fItNsb9;
         "pkg-0.5.5" = _1japKa2c;
-        "default" = _1japKa2c;
+        "pkg-0.5.6" = _R7H8vHWk;
+        "default" = _R7H8vHWk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cad-editor";

@@ -1,0 +1,174 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _VOpSByYl = {
+            "id" = "VOpSByYl";
+            "file" = "lordphenex-mailbox-1-20-5-alpha-v0-1.zip";
+            "hash" = "sha512-XLicr5fiY6l6r/nyyUuzvIPThHOjqnqRpOvN4/hQ9w3cjCDNtK1vAFdBeGMqd2w+/BYl5hVrhSgFCNE1DRxDng==";
+        };
+        _o9NDTcMF = {
+            "id" = "o9NDTcMF";
+            "file" = "lordphenex-mailbox-1-20-6-v1-0.zip";
+            "hash" = "sha512-ESYUpKmTGFMT0+WV7w3Qr0MFhZItRTNThr9UY3YWXbFmxuDTSkV167S0JrMxdDDnfanWcV+uJZaWdh89blEjdQ==";
+        };
+        _VIkWHby8 = {
+            "id" = "VIkWHby8";
+            "file" = "lordphenex-mailbox-mod-1-20-6-v1-0-1.jar";
+            "hash" = "sha512-4/lngh2aTXnxDSby3jjPUAaOhaouEzKWJxMXgyERaEs+QkrQoskKJbTeNc1gpATdwFyfcaNAF0abBvnRhd2tMA==";
+        };
+        _VhNcwNlO = {
+            "id" = "VhNcwNlO";
+            "file" = "lordphenex-mailbox-1-20-6-v1-0-1.zip";
+            "hash" = "sha512-FXC/q0zgti3w9MaDiNCyCXAkqXcs+3Ulaw1hMN67MLTX5ztR0CpsanZcGp7gRuwwEJDXaB/MF+do3PiTuxtQuw==";
+        };
+        _2h1DY2hO = {
+            "id" = "2h1DY2hO";
+            "file" = "lordphenex-mailbox-dp-1-20-6+-v1-0-2.zip";
+            "hash" = "sha512-y1wKzO2DbbqVZcpvm+wOrXBMDvEqzs7bPuYUPDYIKqNKZn7TkxnfJWUrRWgjSj4YpUn1s4dTTTXND1kRMHX1mQ==";
+        };
+        _p2A4v6BT = {
+            "id" = "p2A4v6BT";
+            "file" = "lordphenex-mailbox-mod-1-20-6+-v1-0-2.jar";
+            "hash" = "sha512-my1A119xFVuebJPwoGiw+1E60kL82uKxSvZVmM1xudBh/oTPOSba12Vr4b2M1w3IBT9LVY5KYmHFQo+9Oq03PA==";
+        };
+        _7GAyIqb7 = {
+            "id" = "7GAyIqb7";
+            "file" = "lordphenex-mailbox-dp-1-20-6+-v1-2-0.zip";
+            "hash" = "sha512-C3v0ItM6+BZJXixVCXO2Q+fUhI9gcMnrwTWp20l1tPchT2GD8EXWqixn6qnvQsHta2+KVgfsy/W3iU4xDKZVEQ==";
+        };
+        _pX2bgjVe = {
+            "id" = "pX2bgjVe";
+            "file" = "lordphenex-mailbox-mod-1-20-6+-v1-2-0.jar";
+            "hash" = "sha512-IBDsRfCYWx3weZBAdRcq9b5GlsFhUk4zGA+vBLQcypbd8grQsWb1K7U7kA4Hi5OveNOAMsHBAAAaxyXuajBrJw==";
+        };
+    in {
+        "VOpSByYl" = _VOpSByYl;
+        "o9NDTcMF" = _o9NDTcMF;
+        "VIkWHby8" = _VIkWHby8;
+        "VhNcwNlO" = _VhNcwNlO;
+        "2h1DY2hO" = _2h1DY2hO;
+        "p2A4v6BT" = _p2A4v6BT;
+        "7GAyIqb7" = _7GAyIqb7;
+        "pX2bgjVe" = _pX2bgjVe;
+        "datapack-1.20.5" = _7GAyIqb7;
+        "datapack-1.20.6" = _7GAyIqb7;
+        "datapack-1.21" = _7GAyIqb7;
+        "datapack-1.21.1" = _7GAyIqb7;
+        "datapack-1.21.2" = _7GAyIqb7;
+        "datapack-1.21.3" = _7GAyIqb7;
+        "datapack-1.21.4" = _7GAyIqb7;
+        "datapack-1.21.5" = _7GAyIqb7;
+        "datapack-1.21.6" = _7GAyIqb7;
+        "datapack-1.21.7" = _7GAyIqb7;
+        "datapack-1.21.8" = _7GAyIqb7;
+        "datapack-1.21.9" = _7GAyIqb7;
+        "datapack-1.21.10" = _7GAyIqb7;
+        "datapack-1.21.11" = _7GAyIqb7;
+        "datapack-26.1" = _7GAyIqb7;
+        "datapack-26.1.1" = _7GAyIqb7;
+        "datapack-26.1.2" = _7GAyIqb7;
+        "datapack-26.2-snapshot-7" = _2h1DY2hO;
+        "datapack-26.2-pre-4" = _7GAyIqb7;
+        "fabric-1.20.5" = _pX2bgjVe;
+        "fabric-1.20.6" = _pX2bgjVe;
+        "fabric-1.21" = _pX2bgjVe;
+        "fabric-1.21.1" = _pX2bgjVe;
+        "fabric-1.21.2" = _pX2bgjVe;
+        "fabric-1.21.3" = _pX2bgjVe;
+        "fabric-1.21.4" = _pX2bgjVe;
+        "fabric-1.21.5" = _pX2bgjVe;
+        "fabric-1.21.6" = _pX2bgjVe;
+        "fabric-1.21.7" = _pX2bgjVe;
+        "fabric-1.21.8" = _pX2bgjVe;
+        "fabric-1.21.9" = _pX2bgjVe;
+        "fabric-1.21.10" = _pX2bgjVe;
+        "fabric-1.21.11" = _pX2bgjVe;
+        "fabric-26.1" = _pX2bgjVe;
+        "fabric-26.1.1" = _pX2bgjVe;
+        "fabric-26.1.2" = _pX2bgjVe;
+        "fabric-26.2-snapshot-7" = _p2A4v6BT;
+        "fabric-26.2-pre-4" = _pX2bgjVe;
+        "forge-1.20.5" = _pX2bgjVe;
+        "forge-1.20.6" = _pX2bgjVe;
+        "forge-1.21" = _pX2bgjVe;
+        "forge-1.21.1" = _pX2bgjVe;
+        "forge-1.21.2" = _pX2bgjVe;
+        "forge-1.21.3" = _pX2bgjVe;
+        "forge-1.21.4" = _pX2bgjVe;
+        "forge-1.21.5" = _pX2bgjVe;
+        "forge-1.21.6" = _pX2bgjVe;
+        "forge-1.21.7" = _pX2bgjVe;
+        "forge-1.21.8" = _pX2bgjVe;
+        "forge-1.21.9" = _pX2bgjVe;
+        "forge-1.21.10" = _pX2bgjVe;
+        "forge-1.21.11" = _pX2bgjVe;
+        "forge-26.1" = _pX2bgjVe;
+        "forge-26.1.1" = _pX2bgjVe;
+        "forge-26.1.2" = _pX2bgjVe;
+        "forge-26.2-snapshot-7" = _p2A4v6BT;
+        "forge-26.2-pre-4" = _pX2bgjVe;
+        "neoforge-1.20.5" = _pX2bgjVe;
+        "neoforge-1.20.6" = _pX2bgjVe;
+        "neoforge-1.21" = _pX2bgjVe;
+        "neoforge-1.21.1" = _pX2bgjVe;
+        "neoforge-1.21.2" = _pX2bgjVe;
+        "neoforge-1.21.3" = _pX2bgjVe;
+        "neoforge-1.21.4" = _pX2bgjVe;
+        "neoforge-1.21.5" = _pX2bgjVe;
+        "neoforge-1.21.6" = _pX2bgjVe;
+        "neoforge-1.21.7" = _pX2bgjVe;
+        "neoforge-1.21.8" = _pX2bgjVe;
+        "neoforge-1.21.9" = _pX2bgjVe;
+        "neoforge-1.21.10" = _pX2bgjVe;
+        "neoforge-1.21.11" = _pX2bgjVe;
+        "neoforge-26.1" = _pX2bgjVe;
+        "neoforge-26.1.1" = _pX2bgjVe;
+        "neoforge-26.1.2" = _pX2bgjVe;
+        "neoforge-26.2-snapshot-7" = _p2A4v6BT;
+        "neoforge-26.2-pre-4" = _pX2bgjVe;
+        "quilt-1.20.5" = _pX2bgjVe;
+        "quilt-1.20.6" = _pX2bgjVe;
+        "quilt-1.21" = _pX2bgjVe;
+        "quilt-1.21.1" = _pX2bgjVe;
+        "quilt-1.21.2" = _pX2bgjVe;
+        "quilt-1.21.3" = _pX2bgjVe;
+        "quilt-1.21.4" = _pX2bgjVe;
+        "quilt-1.21.5" = _pX2bgjVe;
+        "quilt-1.21.6" = _pX2bgjVe;
+        "quilt-1.21.7" = _pX2bgjVe;
+        "quilt-1.21.8" = _pX2bgjVe;
+        "quilt-1.21.9" = _pX2bgjVe;
+        "quilt-1.21.10" = _pX2bgjVe;
+        "quilt-1.21.11" = _pX2bgjVe;
+        "quilt-26.1" = _pX2bgjVe;
+        "quilt-26.1.1" = _pX2bgjVe;
+        "quilt-26.1.2" = _pX2bgjVe;
+        "quilt-26.2-snapshot-7" = _p2A4v6BT;
+        "quilt-26.2-pre-4" = _pX2bgjVe;
+        "pkg-Alpha-0.1" = _VOpSByYl;
+        "pkg-1.20.6_V1.0" = _o9NDTcMF;
+        "pkg-1.20.6_v1.0.1_mod" = _VIkWHby8;
+        "pkg-1.20.6_v1.0.1" = _VhNcwNlO;
+        "pkg-1.20.6+_v1.1.0" = _2h1DY2hO;
+        "pkg-1.20.6+_modv1.1.0" = _p2A4v6BT;
+        "pkg-1.20.6+_DP_V1.2.0" = _7GAyIqb7;
+        "pkg-1.20.6+_mod_V1.2.0" = _pX2bgjVe;
+        "default" = _pX2bgjVe;
+    });
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "lordphenex-mailbox";
+        id = "EPUUcwQk";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-ND-4.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Creative Commons Attribution Non Commercial No Derivatives 4.0 International";
+                shortName = "CC-BY-NC-ND-4.0";
+                url = null;
+            };
+        };
+    };
+in callPackage fn {}

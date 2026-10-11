@@ -26,18 +26,31 @@ let
             "file" = "FF-Forge-1.20.1-v0.2.0.jar";
             "hash" = "sha512-RF/heDELH3JVZBzIwNRSSbnbp437/pPZmC7KCRin5ltMEJLVjnCRIbMRngzPllRQ8YMBePzWGUm8h/KgkywUbQ==";
         };
+        _q1Uq6jPv = {
+            "id" = "q1Uq6jPv";
+            "file" = "FF-1.21.1-beta-0.2.1.jar";
+            "hash" = "sha512-Nyq3j1BSJgsBu+2zQPlJXmG1cS2RlbnrKFtvlljoyRC/7HI9BKHwZd/4EQA7vcVntXzq+SUxVwEHslzjG8QvMA==";
+        };
+        _DoG078ME = {
+            "id" = "DoG078ME";
+            "file" = "FF-forge-1.20.1-beta-0.2.1.jar";
+            "hash" = "sha512-hJ3GdghKVJrhmQCqEVymn3pMy2cpqgAeX4b8kVcUTl9Lw4kK0Ej0QoUWlPUhsAVhUQMR2TpRcQa14XC5rlQeww==";
+        };
     in {
         "omV8JFFK" = _omV8JFFK;
         "Qe11V9LD" = _Qe11V9LD;
         "iBe2ewAL" = _iBe2ewAL;
         "yX9zA4bc" = _yX9zA4bc;
         "QXv9samS" = _QXv9samS;
-        "fabric-1.21.1" = _yX9zA4bc;
-        "neoforge-1.21.1" = _iBe2ewAL;
-        "forge-1.20.1" = _QXv9samS;
+        "q1Uq6jPv" = _q1Uq6jPv;
+        "DoG078ME" = _DoG078ME;
+        "fabric-1.21.1" = _q1Uq6jPv;
+        "neoforge-1.21.1" = _q1Uq6jPv;
+        "forge-1.20.1" = _DoG078ME;
         "pkg-0.1.0-beta" = _Qe11V9LD;
         "pkg-0.2.0-beta" = _QXv9samS;
-        "default" = _QXv9samS;
+        "pkg-0.2.1-beta" = _DoG078ME;
+        "default" = _DoG078ME;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fabulous-furniture-java";

@@ -131,6 +131,16 @@ let
             "file" = "tiny_flowers-neoforge-26.2-2.0.2+26.2.jar";
             "hash" = "sha512-dLTsVHJHWfp2Rztn+u7d/bOaoQDNziSKy0lWlJe2v7KtO37ZWuRmejtxc1PGshtscGP+A17iOIKbZ7i0O10w5A==";
         };
+        _siwxNaLF = {
+            "id" = "siwxNaLF";
+            "file" = "tiny_flowers-neoforge-26.3-2.0.3+26.3.jar";
+            "hash" = "sha512-BK49D27MEKCMJX1Topqzb0qXi4+fRK2HbO0DRJShIv5/CGVhZhKwhBAqGRA5J2lELiBeNgWsR2D+A707oiaEew==";
+        };
+        _liFeGKLp = {
+            "id" = "liFeGKLp";
+            "file" = "tiny_flowers-fabric-26.3-2.0.3+26.3.jar";
+            "hash" = "sha512-HWzdCOAm8/Kee74NCnxIXfr7PcZPUhnpUGVK/0eR02rq7jqqfKCd5TUjmCzJCtcTpgGAcVv8emwaQfvAwJPztw==";
+        };
     in {
         "bNkmc8Wg" = _bNkmc8Wg;
         "I7qwje7e" = _I7qwje7e;
@@ -158,6 +168,8 @@ let
         "lNE5Cyag" = _lNE5Cyag;
         "HJ9ifIEe" = _HJ9ifIEe;
         "vYzm000s" = _vYzm000s;
+        "siwxNaLF" = _siwxNaLF;
+        "liFeGKLp" = _liFeGKLp;
         "fabric-1.21.4" = _pP0hSFkS;
         "fabric-1.21.1" = _VX02tNMb;
         "fabric-1.21.5" = _K0TBzmev;
@@ -171,10 +183,12 @@ let
         "fabric-26.1.1" = _ijdYjPIi;
         "fabric-26.1.2" = _YdiFAXND;
         "fabric-26.2" = _HJ9ifIEe;
+        "fabric-26.3" = _liFeGKLp;
         "neoforge-26.1" = _OkgaolPm;
         "neoforge-26.1.1" = _OkgaolPm;
         "neoforge-26.1.2" = _lNE5Cyag;
         "neoforge-26.2" = _vYzm000s;
+        "neoforge-26.3" = _siwxNaLF;
         "pkg-1.0.0+1.21.4" = _bNkmc8Wg;
         "pkg-v1.1.0+1.21.1" = _I7qwje7e;
         "pkg-v1.1.0+1.21.4" = _v93A3i9n;
@@ -201,7 +215,9 @@ let
         "pkg-v2.0.2+26.1.2-neoforge" = _lNE5Cyag;
         "pkg-v2.0.2+26.2-fabric" = _HJ9ifIEe;
         "pkg-v2.0.2+26.2-neoforge" = _vYzm000s;
-        "default" = _vYzm000s;
+        "pkg-v2.0.3+26.3-neoforge" = _siwxNaLF;
+        "pkg-v2.0.3+26.3-fabric" = _liFeGKLp;
+        "default" = _liFeGKLp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tiny-flowers";

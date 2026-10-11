@@ -141,6 +141,16 @@ let
             "file" = "lightningmod-2.4-mc26.2.jar";
             "hash" = "sha512-CBfDrAki60fHFbrO01LMuaF4m/uWceWfwfkvLwIonJH/mjmVDmr8+jsSPo1Hq/ik/8z4skZdSkM2nlIhRMTIVw==";
         };
+        _iqpo2Axt = {
+            "id" = "iqpo2Axt";
+            "file" = "lightningmod-2.4-mc26.3.jar";
+            "hash" = "sha512-hnfm30r5xPylSliGJeYuQx/4RERn4tHncB03zRbxtvqV9d7h3VrVLRsasqaEa0zZnWzv46QipfKFUlVlYQwW3g==";
+        };
+        _r3p6eHjz = {
+            "id" = "r3p6eHjz";
+            "file" = "lightningmod-2.4-neoforge-mc26.3.jar";
+            "hash" = "sha512-h6U0DumNHIYbTA8a01gLunfCEvnXm6FtqQntRRtkMeVVvOZukAd+U7ulRNim+mkEB0axB37RZ0v1BYYF1O3eJw==";
+        };
     in {
         "PPFP0Qzs" = _PPFP0Qzs;
         "qdIIJYw9" = _qdIIJYw9;
@@ -170,6 +180,8 @@ let
         "AmBo4kZG" = _AmBo4kZG;
         "AUhUMZB7" = _AUhUMZB7;
         "Lew4Mfuh" = _Lew4Mfuh;
+        "iqpo2Axt" = _iqpo2Axt;
+        "r3p6eHjz" = _r3p6eHjz;
         "fabric-1.20.1" = _zvjUpOYh;
         "fabric-1.20.2" = _zvjUpOYh;
         "fabric-1.20.3" = _zvjUpOYh;
@@ -192,6 +204,7 @@ let
         "fabric-26.1.1" = _AUhUMZB7;
         "fabric-26.1.2" = _AUhUMZB7;
         "fabric-26.2" = _Lew4Mfuh;
+        "fabric-26.3" = _iqpo2Axt;
         "paper-1.21.1" = _lWNlHKxn;
         "paper-1.21.3" = _KZSow4KQ;
         "paper-1.21.4" = _8NUkjVcU;
@@ -212,6 +225,7 @@ let
         "bukkit-1.21.9" = _Q3UgmABz;
         "bukkit-1.21.10" = _Q3UgmABz;
         "bukkit-1.21.11" = _Q3UgmABz;
+        "neoforge-26.3" = _r3p6eHjz;
         "pkg-1.0" = _hQzhjjKA;
         "pkg-1.1" = _lWNlHKxn;
         "pkg-1.2" = _KZSow4KQ;
@@ -235,7 +249,9 @@ let
         "pkg-2.3-mc26.1.2" = _AmBo4kZG;
         "pkg-2.4-mc26.1" = _AUhUMZB7;
         "pkg-2.4-mc26.2" = _Lew4Mfuh;
-        "default" = _Lew4Mfuh;
+        "pkg-2.4-mc26.3" = _iqpo2Axt;
+        "pkg-2.4-neoforge-mc26.3" = _r3p6eHjz;
+        "default" = _r3p6eHjz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lightingmod";

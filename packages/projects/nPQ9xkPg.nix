@@ -161,6 +161,16 @@ let
             "file" = "markdown_manual-MC1.21.11-neoforge-1.2.7+ed0288b.jar";
             "hash" = "sha512-o9OsZNufoQ/CNr3XXoRt5CU4wysF0A32Hx8N+VhxEGT16I+4SN+VmNL/U74PVsruKerzn68/nqwAvol5Qk85gQ==";
         };
+        _z7eILdEi = {
+            "id" = "z7eILdEi";
+            "file" = "markdown_manual-MC1.21.1-fabric-1.2.8+f9b4895.jar";
+            "hash" = "sha512-HpesSYrrLo5HeaWLWxaUfj/N45PqsoPWOjhYCC4lkQPYmxhrAPTs1brb5DEvkxQEzZy5pIYLWLCMXyGl1LlUVg==";
+        };
+        _1UL3EMjx = {
+            "id" = "1UL3EMjx";
+            "file" = "markdown_manual-MC1.21.1-neoforge-1.2.8+f9b4895.jar";
+            "hash" = "sha512-s/itnu+vhCJyD8tXJeZV4qXAm89DDakg5zlf9mLsZEkbNPr5EZ1xOi6CQ0ho4oHG3N6TfRd2KL9XtKruX43cNQ==";
+        };
     in {
         "g77jmJ8L" = _g77jmJ8L;
         "bYjS7v5X" = _bYjS7v5X;
@@ -194,6 +204,8 @@ let
         "DXJD7b8A" = _DXJD7b8A;
         "WBISlAhD" = _WBISlAhD;
         "7PttBwrv" = _7PttBwrv;
+        "z7eILdEi" = _z7eILdEi;
+        "1UL3EMjx" = _1UL3EMjx;
         "forge-1.18.2" = _g77jmJ8L;
         "forge-1.19" = _VzD9aivO;
         "forge-1.19.2" = _RjWNbcQa;
@@ -206,10 +218,10 @@ let
         "fabric-1.20.1" = _WahW4kDQ;
         "fabric-1.20.2" = _oHQ8oCeE;
         "fabric-1.20.4" = _NjJcNTQZ;
-        "fabric-1.21.1" = _vwzM3l5u;
+        "fabric-1.21.1" = _z7eILdEi;
         "fabric-1.21.11" = _WBISlAhD;
         "neoforge-1.20.4" = _M3Sldvib;
-        "neoforge-1.21.1" = _DXJD7b8A;
+        "neoforge-1.21.1" = _1UL3EMjx;
         "neoforge-1.21.11" = _7PttBwrv;
         "pkg-MC1.18.2-forge-1.2.1" = _g77jmJ8L;
         "pkg-MC1.19-forge-1.2.1" = _bYjS7v5X;
@@ -241,7 +253,9 @@ let
         "pkg-MC1.21.1-fabric-1.2.7" = _vwzM3l5u;
         "pkg-MC1.21.11-fabric-1.2.7" = _WBISlAhD;
         "pkg-MC1.21.11-neoforge-1.2.7" = _7PttBwrv;
-        "default" = _7PttBwrv;
+        "pkg-MC1.21.1-fabric-1.2.8" = _z7eILdEi;
+        "pkg-MC1.21.1-neoforge-1.2.8" = _1UL3EMjx;
+        "default" = _1UL3EMjx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "markdownmanual";

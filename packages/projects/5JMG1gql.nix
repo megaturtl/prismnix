@@ -541,6 +541,16 @@ let
             "file" = "ExtendedCrafting-26.1.2-8.0.1.jar";
             "hash" = "sha512-HpfKGxHf29yNXVNsUGww64mZvRv2zpjbD1eJAVrdoGqHxsEFiU0y2Cs7PZD5BwYZiczS00AhinzsneJs/cGqyA==";
         };
+        _JNqZA1Du = {
+            "id" = "JNqZA1Du";
+            "file" = "ExtendedCrafting-26.1.2-8.0.2.jar";
+            "hash" = "sha512-cP9Wfbue6QSpX+mCiy1rfgwO4lu7JzEDTpJwh4+8o8V/ygdz2wiLPXMO5HOYNJB1KG5pebnjtsh4GeuypHiaiw==";
+        };
+        _soXMrjKe = {
+            "id" = "soXMrjKe";
+            "file" = "ExtendedCrafting-26.1.2-8.0.3.jar";
+            "hash" = "sha512-V32I6Ip+3buREldXiB9CNWV2McQRL0glrX1FXsn8a99CwpgbanclwR8MYKBjKSJo+WhaXZUXkE4UVl561hxPWA==";
+        };
     in {
         "691qoLcU" = _691qoLcU;
         "A56lV2Ec" = _A56lV2Ec;
@@ -650,6 +660,8 @@ let
         "Y8iQIvdn" = _Y8iQIvdn;
         "Oxp773uX" = _Oxp773uX;
         "yS7C2uwd" = _yS7C2uwd;
+        "JNqZA1Du" = _JNqZA1Du;
+        "soXMrjKe" = _soXMrjKe;
         "forge-1.12" = _J2PMWx1o;
         "forge-1.12.2" = _V6KYgjKP;
         "forge-1.15.2" = _Edykl0EN;
@@ -669,7 +681,7 @@ let
         "neoforge-1.21" = _Oxp773uX;
         "neoforge-1.21.1" = _Oxp773uX;
         "neoforge-1.20.1" = _unX9JMTX;
-        "neoforge-26.1.2" = _yS7C2uwd;
+        "neoforge-26.1.2" = _soXMrjKe;
         "pkg-1.0.0" = _691qoLcU;
         "pkg-1.0.1" = _A56lV2Ec;
         "pkg-1.0.2" = _1LQKZdb7;
@@ -778,7 +790,9 @@ let
         "pkg-8.0.0" = _Y8iQIvdn;
         "pkg-7.0.9" = _Oxp773uX;
         "pkg-8.0.1" = _yS7C2uwd;
-        "default" = _yS7C2uwd;
+        "pkg-8.0.2" = _JNqZA1Du;
+        "pkg-8.0.3" = _soXMrjKe;
+        "default" = _soXMrjKe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "extended-crafting";

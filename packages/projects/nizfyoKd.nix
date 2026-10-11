@@ -291,6 +291,11 @@ let
             "file" = "GlowTools-fabric-mc1.20-1.0.0-beta.7.jar";
             "hash" = "sha512-FmgD+q+M7xblTp4Gj+vbTHY7dTUA9Zbb7FG3z0wOZbNU44PsrAqxLCdkwmKceuJt6Sl1VhpoMSNJ0SB1MnDwNQ==";
         };
+        _9ojVUeLT = {
+            "id" = "9ojVUeLT";
+            "file" = "GlowTools-fabric-mc26.3-1.0.0-alpha.7.0.jar";
+            "hash" = "sha512-hmOtIVXFYNjQkod3xfJCcL9OFfxG/y0D7yGW9lfEaS7J1ULY89KRoE4pUaGzmMxLzbIskd7F/7gLte6cxkbLPg==";
+        };
     in {
         "vWdJCQgv" = _vWdJCQgv;
         "8rXEyUVO" = _8rXEyUVO;
@@ -350,6 +355,7 @@ let
         "aOzqfvjF" = _aOzqfvjF;
         "tjfWea6j" = _tjfWea6j;
         "eoTh2QqP" = _eoTh2QqP;
+        "9ojVUeLT" = _9ojVUeLT;
         "fabric-1.21" = _aOzqfvjF;
         "fabric-1.21.1" = _aOzqfvjF;
         "fabric-1.21.9" = _WW3N3rWR;
@@ -370,6 +376,7 @@ let
         "fabric-26.1.1" = _DaKZ80SD;
         "fabric-26.1.2" = _DaKZ80SD;
         "fabric-26.2" = _QYbyi2Mh;
+        "fabric-26.3" = _9ojVUeLT;
         "pkg-1.0.0-beta.0" = _Naxh53dn;
         "pkg-1.0.0-beta.1" = _H2jOubLn;
         "pkg-1.0.0-beta.3" = _bQa5UvfK;
@@ -403,7 +410,8 @@ let
         "pkg-1.0.0-beta.7-mc1.21" = _aOzqfvjF;
         "pkg-1.0.0-beta.7-mc1.20.3" = _tjfWea6j;
         "pkg-1.0.0-beta.7-mc1.20" = _eoTh2QqP;
-        "default" = _eoTh2QqP;
+        "pkg-1.0.0-alpha.7.0-mc26.3" = _9ojVUeLT;
+        "default" = _9ojVUeLT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "glowtools";

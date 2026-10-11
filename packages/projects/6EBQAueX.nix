@@ -101,6 +101,21 @@ let
             "file" = "Armageddon for Neoforge 1.21.1 (v3.0.07) - Polished.jar";
             "hash" = "sha512-+iUdQ6CwgnqT+f88hs0kBa+79YdYWiOAOVPRe+rcEnN6t31J3wgIugxSDngCcqFHtyqxkMo+ngvdQGP7PqM7wA==";
         };
+        _5OixWECa = {
+            "id" = "5OixWECa";
+            "file" = "Armageddon for Forge 1.20.1 (v3.2.0b) - Polished.jar";
+            "hash" = "sha512-qRLSFj+Rz9U3a14KVjPJSWJvIhu9vNM8v4znf+XkbKLFdjTzxd3fSjKB1hZp8pb5nGLIwHtNGCR7RidppNV6AA==";
+        };
+        _Y7omntCC = {
+            "id" = "Y7omntCC";
+            "file" = "Armageddon for NeoForge 1.21.1 (v3.2.0) - Polished.jar";
+            "hash" = "sha512-zGueiU752gDtVSuHTFDmWjvC2UUejk0S9Otc9pi/80Opsn1jcYIMfWHo1DJDXVlbu8daLgZO+XmaM7Ua5cDyrg==";
+        };
+        _lHLcmxcD = {
+            "id" = "lHLcmxcD";
+            "file" = "Armageddon for Forge 1.20.1 (v3.3.0) - Polished.jar";
+            "hash" = "sha512-v3nZT1kmFmP1q5MXlcgh/Yd7Hy4t6Pz31soTwy/ENI/fd58Eb5qdH32UPUbJNBGp2FQ1h1uwrRtwJsY14WiHrQ==";
+        };
     in {
         "LKvhK3Ot" = _LKvhK3Ot;
         "9DsQX5om" = _9DsQX5om;
@@ -122,8 +137,11 @@ let
         "Z0JrlPcD" = _Z0JrlPcD;
         "RBafGQnQ" = _RBafGQnQ;
         "rVIl8NYc" = _rVIl8NYc;
-        "forge-1.20.1" = _RBafGQnQ;
-        "neoforge-1.21.1" = _rVIl8NYc;
+        "5OixWECa" = _5OixWECa;
+        "Y7omntCC" = _Y7omntCC;
+        "lHLcmxcD" = _lHLcmxcD;
+        "forge-1.20.1" = _lHLcmxcD;
+        "neoforge-1.21.1" = _Y7omntCC;
         "pkg-0.1.5" = _LKvhK3Ot;
         "pkg-1.5.2" = _9DsQX5om;
         "pkg-1.5.3" = _6DKShyOK;
@@ -140,7 +158,9 @@ let
         "pkg-v3.0.04" = _WpjqlwCo;
         "pkg-3.0.06" = _Z0JrlPcD;
         "pkg-v3.0.07" = _rVIl8NYc;
-        "default" = _rVIl8NYc;
+        "pkg-v3.1.2" = _Y7omntCC;
+        "pkg-v3.3.0" = _lHLcmxcD;
+        "default" = _lHLcmxcD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "armageddon";

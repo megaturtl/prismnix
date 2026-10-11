@@ -311,6 +311,11 @@ let
             "file" = "hopper-barrels-v1.5.18-26.3snapshotX.jar";
             "hash" = "sha512-ryYr46o0ymy/+2lnrPjpPDhvkfb3/69TgoO3n6dzh7XQuhBGhTmf1NkrYCrAmQxptJh2mZvwNIFsmxQcqK2pDA==";
         };
+        _5tGDlzf6 = {
+            "id" = "5tGDlzf6";
+            "file" = "Hopper_Barrels 1.5.19 Release.zip";
+            "hash" = "sha512-pOCfszvCqpiMro6I0K93/ghVlD+DlQ812MpBjUAmwP6n8EEcUMU6nV8fKPAzKWtQWArXJoIJfTOroT4bNwUQSw==";
+        };
     in {
         "2UYzKAW6" = _2UYzKAW6;
         "sC766qX2" = _sC766qX2;
@@ -374,6 +379,7 @@ let
         "6jXtlKMW" = _6jXtlKMW;
         "S4CP8Oes" = _S4CP8Oes;
         "gtV7rBpw" = _gtV7rBpw;
+        "5tGDlzf6" = _5tGDlzf6;
         "datapack-1.21" = _2UYzKAW6;
         "datapack-1.21.1" = _2UYzKAW6;
         "datapack-1.21.2" = _S4XaJ9pI;
@@ -443,6 +449,7 @@ let
         "datapack-26.3-snapshot-6" = _S4CP8Oes;
         "datapack-26.3-snapshot-7" = _S4CP8Oes;
         "datapack-26.3-snapshot-8" = _S4CP8Oes;
+        "datapack-26.3" = _5tGDlzf6;
         "fabric-1.21" = _sC766qX2;
         "fabric-1.21.1" = _sC766qX2;
         "fabric-1.21.2" = _oDtv17SI;
@@ -795,7 +802,8 @@ let
         "pkg-v1.5.17-snapshot6+mod" = _6jXtlKMW;
         "pkg-v1.5.18-26.3snapshotX" = _S4CP8Oes;
         "pkg-v1.5.18-26.3snapshotX+mod" = _gtV7rBpw;
-        "default" = _gtV7rBpw;
+        "pkg-v1.5.19" = _5tGDlzf6;
+        "default" = _5tGDlzf6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hopper-barrels";

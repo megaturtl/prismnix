@@ -1281,6 +1281,16 @@ let
             "file" = "betterstats-5.5.6+fn-26.1.jar";
             "hash" = "sha512-AVptvvA3XewBKHr6I7o3SQoPFjejeUFKJ0+F3fTsUaEzGLV+BocYBsRXOlz4VKfaGIOb841mwzKgvw2kChZh1g==";
         };
+        _2oDU8MV5 = {
+            "id" = "2oDU8MV5";
+            "file" = "betterstats-5.6.0-beta.1+fn-26.3.jar";
+            "hash" = "sha512-ZR1USo9iKFIYOjUycpgjViatjHV4SSiGicUtvh3H4gWwOk0YepSaG0p4PObQGxKmREt4/9XHqrYQyg9DmdZmUg==";
+        };
+        _9bTgB5wS = {
+            "id" = "9bTgB5wS";
+            "file" = "betterstats-5.6.0-beta.2+fn-26.3.jar";
+            "hash" = "sha512-ftuNYVVb9fW7SqtDFq4w3Q6RgWoE5AZPYOgagC81BkHUBCphOrBKlXXCjKrKbEdMty5Yu28Y8JJHSaU6npU3tw==";
+        };
     in {
         "EnelgdHp" = _EnelgdHp;
         "Fk8W9xAv" = _Fk8W9xAv;
@@ -1538,6 +1548,8 @@ let
         "Tw3l7SPi" = _Tw3l7SPi;
         "ga3HGfK0" = _ga3HGfK0;
         "LqOH9k7B" = _LqOH9k7B;
+        "2oDU8MV5" = _2oDU8MV5;
+        "9bTgB5wS" = _9bTgB5wS;
         "fabric-1.18.1" = _WajeE658;
         "fabric-1.18.2" = _I0YaiUKC;
         "fabric-1.19" = _H4ve3iC9;
@@ -1571,6 +1583,7 @@ let
         "fabric-26w14a" = _LqOH9k7B;
         "fabric-26.1.2" = _LqOH9k7B;
         "fabric-26.2" = _ga3HGfK0;
+        "fabric-26.3" = _9bTgB5wS;
         "forge-1.18.2" = _RM7Dy7vu;
         "forge-1.19.2" = _9PPcvO4i;
         "quilt-1.20" = _L2ERNR7d;
@@ -1600,6 +1613,7 @@ let
         "neoforge-26w14a" = _LqOH9k7B;
         "neoforge-26.1.2" = _LqOH9k7B;
         "neoforge-26.2" = _ga3HGfK0;
+        "neoforge-26.3" = _9bTgB5wS;
         "pkg-v1.0" = _EnelgdHp;
         "pkg-v1.0b" = _Fk8W9xAv;
         "pkg-v1.0.1" = _8RhZhQYw;
@@ -1854,7 +1868,9 @@ let
         "pkg-5.5.5+fn-26.1" = _Tw3l7SPi;
         "pkg-5.5.6+fn-26.2" = _ga3HGfK0;
         "pkg-5.5.6+fn-26.1" = _LqOH9k7B;
-        "default" = _LqOH9k7B;
+        "pkg-5.6.0-beta.1+fn-26.3" = _2oDU8MV5;
+        "pkg-5.6.0-beta.2+fn-26.3" = _9bTgB5wS;
+        "default" = _9bTgB5wS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-stats";

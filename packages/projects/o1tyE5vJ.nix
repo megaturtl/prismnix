@@ -331,6 +331,51 @@ let
             "file" = "custom-crosshair-mod-v1.6.7-neoforge-mc26.2.jar";
             "hash" = "sha512-B4XqdL57RTEhsMP5iAUEAn0Q/tXHQuxl1CGvyh+7pZdvMyFD9oa+c/fZJNYGKI3meqB9ppbSTHKWf4bB62KI6A==";
         };
+        _YUJIO87Z = {
+            "id" = "YUJIO87Z";
+            "file" = "custom-crosshair-mod-v1.6.7-fabric-mc26.3.jar";
+            "hash" = "sha512-P4sg6SyoKyTBxdN+sUvUPAaKUEf5yegQOy08wze2A0DrfO2LYb45JR9oPCmANA2QrFmQ96lGK0nc/jYxRZ+EgQ==";
+        };
+        _cgqUhh2N = {
+            "id" = "cgqUhh2N";
+            "file" = "custom-crosshair-mod-v1.6.7-forge-mc26.3.jar";
+            "hash" = "sha512-k+QBlgY/W5n7AWFaxigc7uiXkLyqPWG2bZKbgCjTN35LGg0APkk6ZMoguFwADHVWLueqTDMRwyrXyDY79Irgng==";
+        };
+        _T00mtNFJ = {
+            "id" = "T00mtNFJ";
+            "file" = "custom-crosshair-mod-v1.6.7-neoforge-mc26.3.jar";
+            "hash" = "sha512-QRxKQ/CgwmrrkapIA0oENbehhnkyAeV09P6qOOu+xccJubOclUO5iDJg88U1+KcOBgXCL2DgDEXgVObsDtvzRw==";
+        };
+        _Pir8pbDm = {
+            "id" = "Pir8pbDm";
+            "file" = "custom-crosshair-mod-v1.6.8-fabric-mc26.3.jar";
+            "hash" = "sha512-5LIHKXOBXcXqBwPSlJAQZuE+XIcLpRVHpoimDPo66QJ/gGZBbvVhjGF7U37XgOK1SADawJqKW2U1niv4a685iA==";
+        };
+        _t7rXGxA7 = {
+            "id" = "t7rXGxA7";
+            "file" = "custom-crosshair-mod-v1.6.8-forge-mc26.3.jar";
+            "hash" = "sha512-pQxnY/Mvhh3rm05IQuwzM5HyCJnQxrv9+m/e83A/1AvyWE2yT2s662U9FHzKTKgkMXd+Q35MozME9F/jA23DuQ==";
+        };
+        _LbcxcVPi = {
+            "id" = "LbcxcVPi";
+            "file" = "custom-crosshair-mod-v1.6.8-neoforge-mc26.3.jar";
+            "hash" = "sha512-wcwjw9AIlrJ9vd0Tc9WL6u4FmbxcJV6mXMbo1D49GORZU6LXVwUkKqveW9X6Z82b4AuMz7WQJAjgD3Nh2vgVmg==";
+        };
+        _ISX5VYSn = {
+            "id" = "ISX5VYSn";
+            "file" = "custom-crosshair-mod-v1.6.9-fabric-mc26.3.jar";
+            "hash" = "sha512-vd2fjmkfDl+dlk14UkcTn8sDpv3Zp0T45w281kf6Qo8U2psz1NhcZ6RfJRnLfpecq1CDyPpWXSXQsAuvpr+NAw==";
+        };
+        _cQcUDWmn = {
+            "id" = "cQcUDWmn";
+            "file" = "custom-crosshair-mod-v1.6.9-forge-mc26.3.jar";
+            "hash" = "sha512-gXcj5Uw0Gg+ZdqHAxRU6UuSEnSXfE+uX1ZJoH4k59fk7oTvB6FPkzqagYWM1GF0Y4QuaHMKXNQlpaWK+ApoCrA==";
+        };
+        _b5JD9jlE = {
+            "id" = "b5JD9jlE";
+            "file" = "custom-crosshair-mod-v1.6.9-neoforge-mc26.3.jar";
+            "hash" = "sha512-UBFbOBC9AuZTggDqnexKHPOHtVwXQR9DrVZoQ8vVTqw+XIdaZ1ufnODlL3JDlK44GkZ6qGvtHnfhxmmoN08ONA==";
+        };
     in {
         "48JNmTlI" = _48JNmTlI;
         "tZyYBnrG" = _tZyYBnrG;
@@ -398,6 +443,15 @@ let
         "Cecs5C4L" = _Cecs5C4L;
         "gq2jkPDG" = _gq2jkPDG;
         "HKyRb81M" = _HKyRb81M;
+        "YUJIO87Z" = _YUJIO87Z;
+        "cgqUhh2N" = _cgqUhh2N;
+        "T00mtNFJ" = _T00mtNFJ;
+        "Pir8pbDm" = _Pir8pbDm;
+        "t7rXGxA7" = _t7rXGxA7;
+        "LbcxcVPi" = _LbcxcVPi;
+        "ISX5VYSn" = _ISX5VYSn;
+        "cQcUDWmn" = _cQcUDWmn;
+        "b5JD9jlE" = _b5JD9jlE;
         "forge-1.19.2" = _26M5NY11;
         "forge-1.18.2" = _vV7ASwQI;
         "forge-1.19.3" = _EkmQxli3;
@@ -416,6 +470,7 @@ let
         "forge-1.21.11" = _6rfcQv3i;
         "forge-26.1.2" = _DSYswgmq;
         "forge-26.2" = _gq2jkPDG;
+        "forge-26.3" = _cQcUDWmn;
         "fabric-1.19.2" = _IewBlyX7;
         "fabric-1.18.2" = _VBMjngYo;
         "fabric-1.19.3" = _yUHFSfVR;
@@ -440,6 +495,7 @@ let
         "fabric-26.1.1" = _MD0t3143;
         "fabric-26.1.2" = _MD0t3143;
         "fabric-26.2" = _Cecs5C4L;
+        "fabric-26.3" = _ISX5VYSn;
         "neoforge-1.21.5" = _FkRQPKrU;
         "neoforge-1.21.7" = _ECiQeFRc;
         "neoforge-1.21.8" = _kZIV1TjI;
@@ -447,6 +503,7 @@ let
         "neoforge-1.21.11" = _a7W3ciUO;
         "neoforge-26.1.2" = _JzHruifB;
         "neoforge-26.2" = _HKyRb81M;
+        "neoforge-26.3" = _b5JD9jlE;
         "pkg-v1.5.1-forge-mc1.19.2" = _48JNmTlI;
         "pkg-v1.5.0-fabric-mc1.19.2" = _tZyYBnrG;
         "pkg-v1.4.0-forge-mc1.18.2" = _vV7ASwQI;
@@ -512,7 +569,16 @@ let
         "pkg-v1.6.7-fabric-mc26.2" = _Cecs5C4L;
         "pkg-v1.6.7-forge-mc26.2" = _gq2jkPDG;
         "pkg-v1.6.7-neoforge-mc26.2" = _HKyRb81M;
-        "default" = _HKyRb81M;
+        "pkg-v1.6.7-fabric-mc26.3" = _YUJIO87Z;
+        "pkg-v1.6.7-forge-mc26.3" = _cgqUhh2N;
+        "pkg-v1.6.7-neoforge-mc26.3" = _T00mtNFJ;
+        "pkg-v1.6.8-fabric-mc26.3" = _Pir8pbDm;
+        "pkg-v1.6.8-forge-mc26.3" = _t7rXGxA7;
+        "pkg-v1.6.8-neoforge-mc26.3" = _LbcxcVPi;
+        "pkg-v1.6.9-fabric-mc26.3" = _ISX5VYSn;
+        "pkg-v1.6.9-forge-mc26.3" = _cQcUDWmn;
+        "pkg-v1.6.9-neoforge-mc26.3" = _b5JD9jlE;
+        "default" = _b5JD9jlE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "custom-crosshair-mod";

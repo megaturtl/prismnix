@@ -211,6 +211,16 @@ let
             "file" = "yamlconfig-fabric-21.1.0.jar";
             "hash" = "sha512-XhBSkouAQkDRehojwmS3Ch5pTd0vfnkAoO0kO4DpkJXd6OzRDDo0Nhwf6/lm7l00mUa6xR/DXI9Q1U4Yg+HCgA==";
         };
+        _inwgGPVs = {
+            "id" = "inwgGPVs";
+            "file" = "yamlconfig-fabric-22.1.0.jar";
+            "hash" = "sha512-EpHkfuBgbvDD1XOjxN3x6EJnUWmnddsKK4yr5txV8jHh4v93ayNgBCKEY2iJ/mXquWNn4R8WUK7N572TwnuMkg==";
+        };
+        _Hex2qzTq = {
+            "id" = "Hex2qzTq";
+            "file" = "yamlconfig-neoforge-22.1.0.jar";
+            "hash" = "sha512-/90B6rV8mJfybt99ZM9V/ukncr+vjyNGv6zk4dgDtow/EgJRzLdPV5id8q6VAawY305pKy2JS04Q+APe66YzeQ==";
+        };
     in {
         "REPjjcMT" = _REPjjcMT;
         "JtVezp9z" = _JtVezp9z;
@@ -254,6 +264,8 @@ let
         "D9FwmqmG" = _D9FwmqmG;
         "ju3VMjkh" = _ju3VMjkh;
         "LH2eYVtM" = _LH2eYVtM;
+        "inwgGPVs" = _inwgGPVs;
+        "Hex2qzTq" = _Hex2qzTq;
         "fabric-1.21" = _ZkxIJR6Z;
         "fabric-1.21.1" = _ZkxIJR6Z;
         "fabric-1.21.5" = _vCie21NC;
@@ -266,6 +278,7 @@ let
         "fabric-26.1.1" = _DCaWQ8DE;
         "fabric-26.1.2" = _DCaWQ8DE;
         "fabric-26.2" = _LH2eYVtM;
+        "fabric-26.3" = _inwgGPVs;
         "neoforge-1.21" = _KDUgkC1O;
         "neoforge-1.21.1" = _KDUgkC1O;
         "neoforge-1.21.5" = _cA3AzDHx;
@@ -278,6 +291,7 @@ let
         "neoforge-26.1.1" = _3n1ue28Z;
         "neoforge-26.1.2" = _3n1ue28Z;
         "neoforge-26.2" = _ju3VMjkh;
+        "neoforge-26.3" = _Hex2qzTq;
         "pkg-0.1-1.21" = _JtVezp9z;
         "pkg-1.0-1.21" = _2mVMPhCk;
         "pkg-1.0-1.21.5" = _wXHb1RnH;
@@ -299,7 +313,8 @@ let
         "pkg-20.1.2" = _3n1ue28Z;
         "pkg-19.1.2" = _D9FwmqmG;
         "pkg-21.1.0" = _LH2eYVtM;
-        "default" = _LH2eYVtM;
+        "pkg-22.1.0" = _Hex2qzTq;
+        "default" = _Hex2qzTq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "yaml-config";

@@ -241,6 +241,16 @@ let
             "file" = "heart-of-the-sea-recipe-1.0.jar";
             "hash" = "sha512-iez7auB1cNYP75cjDYEpIEIbIIXS3IeOi4UvAqEUwRZbBW9Wbk6vmWzzlIZOP9ea0shtQRBWnn9hSpgETd/jKQ==";
         };
+        _Uc8ADGgn = {
+            "id" = "Uc8ADGgn";
+            "file" = "heart_of_the_sea-26.3.zip";
+            "hash" = "sha512-vfeOhMBU5/4uVZYxhEw4Qyppkqcs1tkaEjjF1n1OSNh4hESa8IXVG5KPynjhC3EgUkjVrhVC211QkEL/Zxpriw==";
+        };
+        _jtECRRIR = {
+            "id" = "jtECRRIR";
+            "file" = "heart-of-the-sea-recipe-1.0.jar";
+            "hash" = "sha512-kkFBMrEuOq9jcYmhF6ikvxU2JQhyxy3nDoCDYy0xufiK5fi+wh6XXOaF5AdZDMT+j7MxaR1kk5f84uD9wqdG3Q==";
+        };
     in {
         "W7ApvOOd" = _W7ApvOOd;
         "Hitda5je" = _Hitda5je;
@@ -290,6 +300,8 @@ let
         "n4LanATN" = _n4LanATN;
         "yTsaZcd1" = _yTsaZcd1;
         "rZosmFwL" = _rZosmFwL;
+        "Uc8ADGgn" = _Uc8ADGgn;
+        "jtECRRIR" = _jtECRRIR;
         "datapack-1.13" = _W7ApvOOd;
         "datapack-1.13.1" = _W7ApvOOd;
         "datapack-1.13.2" = _W7ApvOOd;
@@ -358,6 +370,7 @@ let
         "datapack-1.20.5" = _4cQcS9pl;
         "datapack-26.2" = _yTsaZcd1;
         "datapack-26.3-snapshot-1" = _yTsaZcd1;
+        "datapack-26.3" = _Uc8ADGgn;
         "fabric-1.13" = _eDT7KWCs;
         "fabric-1.13.1" = _eDT7KWCs;
         "fabric-1.13.2" = _eDT7KWCs;
@@ -426,6 +439,7 @@ let
         "fabric-1.20.5" = _n4LanATN;
         "fabric-26.2" = _rZosmFwL;
         "fabric-26.3-snapshot-1" = _rZosmFwL;
+        "fabric-26.3" = _jtECRRIR;
         "forge-1.13" = _eDT7KWCs;
         "forge-1.13.1" = _eDT7KWCs;
         "forge-1.13.2" = _eDT7KWCs;
@@ -494,6 +508,7 @@ let
         "forge-1.20.5" = _n4LanATN;
         "forge-26.2" = _rZosmFwL;
         "forge-26.3-snapshot-1" = _rZosmFwL;
+        "forge-26.3" = _jtECRRIR;
         "neoforge-1.13" = _eDT7KWCs;
         "neoforge-1.13.1" = _eDT7KWCs;
         "neoforge-1.13.2" = _eDT7KWCs;
@@ -562,6 +577,7 @@ let
         "neoforge-1.20.5" = _n4LanATN;
         "neoforge-26.2" = _rZosmFwL;
         "neoforge-26.3-snapshot-1" = _rZosmFwL;
+        "neoforge-26.3" = _jtECRRIR;
         "quilt-1.13" = _eDT7KWCs;
         "quilt-1.13.1" = _eDT7KWCs;
         "quilt-1.13.2" = _eDT7KWCs;
@@ -630,9 +646,10 @@ let
         "quilt-1.20.5" = _n4LanATN;
         "quilt-26.2" = _rZosmFwL;
         "quilt-26.3-snapshot-1" = _rZosmFwL;
-        "pkg-1.0" = _yTsaZcd1;
-        "pkg-1.0+mod" = _rZosmFwL;
-        "default" = _rZosmFwL;
+        "quilt-26.3" = _jtECRRIR;
+        "pkg-1.0" = _Uc8ADGgn;
+        "pkg-1.0+mod" = _jtECRRIR;
+        "default" = _jtECRRIR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "heart-of-the-sea-recipe";

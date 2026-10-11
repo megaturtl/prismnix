@@ -101,6 +101,96 @@ let
             "file" = "musicinterface-neoforge-1.9.jar";
             "hash" = "sha512-OvX3CORGhjo6USrDbmlOnmR/K1SbJEUryejltc6lGm5LNSja7SssoH0xhANFyWFsCLvR7hA7fzvNcxLtqKoM8g==";
         };
+        _dQcPwQdR = {
+            "id" = "dQcPwQdR";
+            "file" = "musicinterface-fabric-1.21.1-2.0.jar";
+            "hash" = "sha512-XlMDEfytKkYaPfVxGLlxcmsZUyYYq7TiNfQHpH1zRaIeiPe+zFe9BUVlSm7Wd0+Xbu+cc2nvcg52dXu5y/Y4qg==";
+        };
+        _MQNsuQJk = {
+            "id" = "MQNsuQJk";
+            "file" = "musicinterface-fabric-1.21.4-2.0.jar";
+            "hash" = "sha512-Cp418FB7rsIZ2LnbXGKK2SWEuBsgQuU1czuMPJSZI+5JfqhU19HhOyMCmmNsuplK74mqA2smgP/bCmze3oLmnw==";
+        };
+        _b4jIdHbf = {
+            "id" = "b4jIdHbf";
+            "file" = "musicinterface-fabric-1.21.5-2.0.jar";
+            "hash" = "sha512-zUoj4XwT/G+EGNYir9eCzRZg2zYkYx/MiiOTP55DD09MoJOT+fJ3NscmcJ3Xi664gLo0wC7Xp/9K5EM6Al9ksw==";
+        };
+        _se2F3ZC2 = {
+            "id" = "se2F3ZC2";
+            "file" = "musicinterface-fabric-1.21.8-2.0.jar";
+            "hash" = "sha512-XXc9mUFCyIApleD5rOWNMsoZeJOjFUT0iBYT+YJieXdgXv9fBoDmoFz1s92DimcMt68t5T67J0OdX+4Mt8Eg8Q==";
+        };
+        _4kKO60sW = {
+            "id" = "4kKO60sW";
+            "file" = "musicinterface-fabric-1.21.10-2.0.jar";
+            "hash" = "sha512-JqO42pxM2rcVweBNBNT/WO0MzpE1fzXxqNAHwTL3BID5mC6ChjB1sGcpdHDHA0LMKJzMg9y3/3SdzftcLpPqSA==";
+        };
+        _PcM3KHuU = {
+            "id" = "PcM3KHuU";
+            "file" = "musicinterface-fabric-1.21.11-2.0.jar";
+            "hash" = "sha512-UH1Pb4tRsTkW67MR6kQC0mCRkEczULWE6WrFqKBQ/aSVjOCFTG9GcVkIQ9Nbj0maU4RFX5O0FI2VPDbn6MIy0Q==";
+        };
+        _KjnetTlj = {
+            "id" = "KjnetTlj";
+            "file" = "musicinterface-fabric-26.1-2.0.jar";
+            "hash" = "sha512-DJ1iB7lgcxoX1E3aJWTwlSqAIvWxnlLsLNZK0nCqsZwg3OncKxCwUpC9gl8XbMWiqE1Yg7uvkJjHg51ruloYgg==";
+        };
+        _E6TYv8AB = {
+            "id" = "E6TYv8AB";
+            "file" = "musicinterface-fabric-26.2-2.0.jar";
+            "hash" = "sha512-9FwwqzPNXxffqVG3qYwNBbFH1z4O0nKFzkqDJec/kVjn2KuTME7QbfePL9riVZqQY5XtaREFAqfVDlNpxey67w==";
+        };
+        _bhAaF92J = {
+            "id" = "bhAaF92J";
+            "file" = "musicinterface-fabric-26.3-2.0.jar";
+            "hash" = "sha512-atUPXijENJFcqjACiJjVy9Uvq+L5M388vEThyfVPbwheN0VmImabfCiG4mViXGggElOKZytWcwUpAdlVmSZRIw==";
+        };
+        _Xl87gPn2 = {
+            "id" = "Xl87gPn2";
+            "file" = "musicinterface-neoforge-1.21.1-2.0.jar";
+            "hash" = "sha512-UmWSeHVHrz1aodv6a2F4ilm3SjFCrUL2G911+zMv4Om6l+m9KKcF1QhjSEzqA6qW4ZZ4J4Y6kTBfHgxfqmxzrg==";
+        };
+        _gKyk3JKn = {
+            "id" = "gKyk3JKn";
+            "file" = "musicinterface-neoforge-1.21.4-2.0.jar";
+            "hash" = "sha512-xhIUVOpUvSsLF1pq2euA3Yyyrb3sLytx6mDzIQ/aw/g3qCoQroZ+cLDj2gX7KzP06NzfAZOH2grf2AMrserx6Q==";
+        };
+        _NK0TjsnK = {
+            "id" = "NK0TjsnK";
+            "file" = "musicinterface-neoforge-1.21.5-2.0.jar";
+            "hash" = "sha512-XY9fS10LP29JnBbe3ktl9Ot8cWJUcWLlmWjk9dzBi4blr6wKEMS9OKCkKsqxbqrz1MXoVHUtKfLiWmt2FhqzMQ==";
+        };
+        _pN1I9Dls = {
+            "id" = "pN1I9Dls";
+            "file" = "musicinterface-neoforge-1.21.8-2.0.jar";
+            "hash" = "sha512-ffPn0TQYsCu0KFHcK6rqdos5U/Wrb0tUT+h8CEtV6o9Yx9RpsaOhFf5pmUHST43aMvb+3fseCTbEqU2/YBDrdQ==";
+        };
+        _zM5Prhre = {
+            "id" = "zM5Prhre";
+            "file" = "musicinterface-neoforge-1.21.10-2.0.jar";
+            "hash" = "sha512-hKOo4Bo5sM6Bo99d4mct+NVSUlKSi4zPdckCyM5+4kKzA9y4D2yX3wL03lYZbERv7Opjw0AmKOp1prnZ0HFWUw==";
+        };
+        _HmMCVpRh = {
+            "id" = "HmMCVpRh";
+            "file" = "musicinterface-neoforge-1.21.11-2.0.jar";
+            "hash" = "sha512-ByPMEyteZxWfVsCcmrE5ZixftXtk7z8VTA9dlB+D0vqzT+hkScMfKjYZasPVxbGtfE9DbQ5wFGZTMrJchRhssw==";
+        };
+        _hMXHGnK4 = {
+            "id" = "hMXHGnK4";
+            "file" = "musicinterface-neoforge-26.1-2.0.jar";
+            "hash" = "sha512-otEQ9dztieXrJ3avZATDrRA9MQodqL3U/zVo6jMEo4DBYJx7cDU1LUocWx7F1vfhgei1GiItjTufFQ8yXvSfGA==";
+        };
+        _ob9uhxXA = {
+            "id" = "ob9uhxXA";
+            "file" = "musicinterface-neoforge-26.2-2.0.jar";
+            "hash" = "sha512-Yiq3nHitwmxKIk8U9jZV/pgJ3uHQWlrezC4B8qNFiVnDGhq2fhurjycG5viV9X6ILjWFi3NbXKOvAwaqm2tH9w==";
+        };
+        _OmKvd3sa = {
+            "id" = "OmKvd3sa";
+            "file" = "musicinterface-neoforge-26.3-2.0.jar";
+            "hash" = "sha512-9jvhlm3pxdm2XlQgcKdA5DZaD4TQQkJrj+ICKycgnsO9PmA837Ahy/8YydhT+7kPTM5UoxKh3PYEnyBffGOnmQ==";
+        };
     in {
         "DJaOphU0" = _DJaOphU0;
         "87IYLKsl" = _87IYLKsl;
@@ -122,8 +212,42 @@ let
         "jAGDH3CE" = _jAGDH3CE;
         "7r4HIyei" = _7r4HIyei;
         "bbPnMk3R" = _bbPnMk3R;
-        "neoforge-1.21.1" = _bbPnMk3R;
-        "fabric-1.21.1" = _7r4HIyei;
+        "dQcPwQdR" = _dQcPwQdR;
+        "MQNsuQJk" = _MQNsuQJk;
+        "b4jIdHbf" = _b4jIdHbf;
+        "se2F3ZC2" = _se2F3ZC2;
+        "4kKO60sW" = _4kKO60sW;
+        "PcM3KHuU" = _PcM3KHuU;
+        "KjnetTlj" = _KjnetTlj;
+        "E6TYv8AB" = _E6TYv8AB;
+        "bhAaF92J" = _bhAaF92J;
+        "Xl87gPn2" = _Xl87gPn2;
+        "gKyk3JKn" = _gKyk3JKn;
+        "NK0TjsnK" = _NK0TjsnK;
+        "pN1I9Dls" = _pN1I9Dls;
+        "zM5Prhre" = _zM5Prhre;
+        "HmMCVpRh" = _HmMCVpRh;
+        "hMXHGnK4" = _hMXHGnK4;
+        "ob9uhxXA" = _ob9uhxXA;
+        "OmKvd3sa" = _OmKvd3sa;
+        "neoforge-1.21.1" = _Xl87gPn2;
+        "neoforge-1.21.4" = _gKyk3JKn;
+        "neoforge-1.21.5" = _NK0TjsnK;
+        "neoforge-1.21.8" = _pN1I9Dls;
+        "neoforge-1.21.10" = _zM5Prhre;
+        "neoforge-1.21.11" = _HmMCVpRh;
+        "neoforge-26.1" = _hMXHGnK4;
+        "neoforge-26.2" = _ob9uhxXA;
+        "neoforge-26.3" = _OmKvd3sa;
+        "fabric-1.21.1" = _dQcPwQdR;
+        "fabric-1.21.4" = _MQNsuQJk;
+        "fabric-1.21.5" = _b4jIdHbf;
+        "fabric-1.21.8" = _se2F3ZC2;
+        "fabric-1.21.10" = _4kKO60sW;
+        "fabric-1.21.11" = _PcM3KHuU;
+        "fabric-26.1" = _KjnetTlj;
+        "fabric-26.2" = _E6TYv8AB;
+        "fabric-26.3" = _bhAaF92J;
         "pkg-1.1" = _87IYLKsl;
         "pkg-1.2" = _SFgRD2l0;
         "pkg-1.3" = _beLnOizx;
@@ -134,7 +258,8 @@ let
         "pkg-1.7" = _2IIbUnH6;
         "pkg-1.8" = _jAGDH3CE;
         "pkg-1.9" = _bbPnMk3R;
-        "default" = _bbPnMk3R;
+        "pkg-2.0" = _OmKvd3sa;
+        "default" = _OmKvd3sa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "music-interface";

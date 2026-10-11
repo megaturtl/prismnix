@@ -251,6 +251,21 @@ let
             "file" = "CMDCam_NEOFORGE_v2.2.10_mc26.2.jar";
             "hash" = "sha512-AN8Eu/NzZbF8jaGjxpn7dnkOUz4dCw4z/j0mfBqJRZoh76WlrYle3n2FOdGUejQ7X4KEPNZIiksZFg97oCjHKQ==";
         };
+        _j6CcGyVE = {
+            "id" = "j6CcGyVE";
+            "file" = "CMDCam_NEOFORGE_v2.2.10_mc26.3.jar";
+            "hash" = "sha512-81galwrOE5HzRr+96HKUTDMhm9bTfGTPpQCaU50NFN2dANrA3NH8lYK5K5cykEai3DbntIXyuH0Z6XVy/LsVGQ==";
+        };
+        _eBVYGtet = {
+            "id" = "eBVYGtet";
+            "file" = "CMDCam_NEOFORGE_v2.2.11_mc26.3.jar";
+            "hash" = "sha512-jh6/XxpqMVTnhpYXFFwYEy26dYpR7TDMP7CFKjsL8TymunnqKByX8BdC+RXYeprmw52EZ/F8OBDtbzBzAfADvg==";
+        };
+        _hZ3XDbb5 = {
+            "id" = "hZ3XDbb5";
+            "file" = "CMDCam_NEOFORGE_v2.2.8_mc26.1.2.jar";
+            "hash" = "sha512-Wj8yn+jRiOnO2qFeDtOrMKHGpWYa40z2oiKhucuQgKSi9C/axRMAh2dm2lhoXaxrLT7uJgrpagtp+t1xm9wXQg==";
+        };
     in {
         "7lNBUnNE" = _7lNBUnNE;
         "GbhJofTY" = _GbhJofTY;
@@ -302,6 +317,9 @@ let
         "VoWJCDvm" = _VoWJCDvm;
         "ZibX3UR8" = _ZibX3UR8;
         "I44NG29j" = _I44NG29j;
+        "j6CcGyVE" = _j6CcGyVE;
+        "eBVYGtet" = _eBVYGtet;
+        "hZ3XDbb5" = _hZ3XDbb5;
         "forge-1.18.2" = _9eGKfwxF;
         "forge-1.19.2" = _FeVeKmKI;
         "forge-1.19.3" = _PJApOW1L;
@@ -324,8 +342,9 @@ let
         "neoforge-1.21.10" = _9VyUQpU3;
         "neoforge-1.21.11" = _YUmiKpas;
         "neoforge-26.1" = _438WR7i9;
-        "neoforge-26.1.2" = _RYWnbMwO;
+        "neoforge-26.1.2" = _hZ3XDbb5;
         "neoforge-26.2" = _I44NG29j;
+        "neoforge-26.3" = _eBVYGtet;
         "pkg-2.0.15" = _DsGTTkDv;
         "pkg-2.0.16" = _PJApOW1L;
         "pkg-2.0.17" = _HJsR4D91;
@@ -345,10 +364,11 @@ let
         "pkg-2.2.5" = _pHM30iSL;
         "pkg-2.2.6" = _OJpQqLOu;
         "pkg-2.2.7" = _NsLFf0N7;
-        "pkg-2.2.8" = _p1C7Do8m;
+        "pkg-2.2.8" = _hZ3XDbb5;
         "pkg-2.2.9" = _ZibX3UR8;
-        "pkg-2.2.10" = _I44NG29j;
-        "default" = _I44NG29j;
+        "pkg-2.2.10" = _j6CcGyVE;
+        "pkg-2.2.11" = _eBVYGtet;
+        "default" = _hZ3XDbb5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cmdcam";

@@ -51,6 +51,11 @@ let
             "file" = "hexchanting-1.2.0.jar";
             "hash" = "sha512-XiBr0Lu6d0ntaFagQlyA6/8jtjN2TtdES92UB131O25q2LwKjfan70qyHX1uyUP7zgjmt29mtWkzWjUfvbCYkA==";
         };
+        _Bv9VLS8I = {
+            "id" = "Bv9VLS8I";
+            "file" = "hexchanting-1.3.0-beta1.jar";
+            "hash" = "sha512-jm+WkIb3ysbiLXLOcpqfGcvdxQ5oliz0d4VebPUbQDjjgJ50F04NAnVG1EzwT9zCJGYsLkh7XV/ZFlnF+yTy4A==";
+        };
     in {
         "EAokqwHm" = _EAokqwHm;
         "CDIFVNwh" = _CDIFVNwh;
@@ -62,7 +67,8 @@ let
         "GXgD69WU" = _GXgD69WU;
         "DAbuepJX" = _DAbuepJX;
         "VUs2loSx" = _VUs2loSx;
-        "fabric-1.20.1" = _VUs2loSx;
+        "Bv9VLS8I" = _Bv9VLS8I;
+        "fabric-1.20.1" = _Bv9VLS8I;
         "pkg-1.0.1" = _EAokqwHm;
         "pkg-1.1.0" = _CDIFVNwh;
         "pkg-1.1.1" = _R9gfG49k;
@@ -73,7 +79,8 @@ let
         "pkg-1.1.7" = _GXgD69WU;
         "pkg-1.2.0-beta1" = _DAbuepJX;
         "pkg-1.2.0" = _VUs2loSx;
-        "default" = _VUs2loSx;
+        "pkg-1.3.0-beta1" = _Bv9VLS8I;
+        "default" = _Bv9VLS8I;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hexchanting";

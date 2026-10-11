@@ -271,6 +271,16 @@ let
             "file" = "dopedhorses-neoforge-1.3.1-26.2.jar";
             "hash" = "sha512-L2vKmQw2lgnHx0K1LhXGotnSDqf9LrRfjzU8rODgUsXW7PM4nSZBMuJkT8NgegQ0qPBK5U/2ajDoamOgzo2rDw==";
         };
+        _fwQo5BQo = {
+            "id" = "fwQo5BQo";
+            "file" = "dopedhorses-fabric-1.3.1-26.3.jar";
+            "hash" = "sha512-VofM3cxiixcjqnbWwyhFLdBCz6bg1z6VrJnqf5Dh4ioiOME/jLChZ6/UZcEBfqlxzyd/MAsG2S6bSe11o7mLDw==";
+        };
+        _Wr4WJzb2 = {
+            "id" = "Wr4WJzb2";
+            "file" = "dopedhorses-neoforge-1.3.1-26.3.jar";
+            "hash" = "sha512-r66Mw7qRvxJEY06tF/sH7lWyR9mpD3d0o/0V7vgWwunp7hGpEwMbVH+aHT0YkGkGEluHS+Iwf5LaHuu10PFDVQ==";
+        };
     in {
         "CvoiwW7E" = _CvoiwW7E;
         "45RM3zJf" = _45RM3zJf;
@@ -326,6 +336,8 @@ let
         "KmaVByRl" = _KmaVByRl;
         "72TApVkB" = _72TApVkB;
         "tjDWHrnW" = _tjDWHrnW;
+        "fwQo5BQo" = _fwQo5BQo;
+        "Wr4WJzb2" = _Wr4WJzb2;
         "fabric-1.21.4" = _tDswuTSr;
         "fabric-1.21.1" = _n8HW9Soq;
         "fabric-1.21.5" = _sjbOdaRf;
@@ -339,6 +351,7 @@ let
         "fabric-26.1.1" = _KmaVByRl;
         "fabric-26.1.2" = _KmaVByRl;
         "fabric-26.2" = _72TApVkB;
+        "fabric-26.3" = _fwQo5BQo;
         "neoforge-1.21.4" = _UZYFpzWN;
         "neoforge-1.21.1" = _Ws1vos64;
         "neoforge-1.21.5" = _qvmcr4tW;
@@ -350,6 +363,7 @@ let
         "neoforge-1.21.11" = _63bem1Q1;
         "neoforge-26.1.2" = _Qv9FGmbv;
         "neoforge-26.2" = _tjDWHrnW;
+        "neoforge-26.3" = _Wr4WJzb2;
         "pkg-1.0.0-1.21.4" = _45RM3zJf;
         "pkg-1.0.1-1.21.1" = _KHx0pQd6;
         "pkg-1.0.1-1.21.4" = _nis9HfGW;
@@ -377,7 +391,8 @@ let
         "pkg-1.2.4-1.21.1" = _n8HW9Soq;
         "pkg-1.3.0-26.1" = _KmaVByRl;
         "pkg-1.3.1-26.2" = _tjDWHrnW;
-        "default" = _tjDWHrnW;
+        "pkg-1.3.1-26.3" = _Wr4WJzb2;
+        "default" = _Wr4WJzb2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "doped-horses";

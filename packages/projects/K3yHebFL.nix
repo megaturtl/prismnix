@@ -346,6 +346,26 @@ let
             "file" = "forcemaster_rpg-fabric-3.1.1+1.21.1.jar";
             "hash" = "sha512-vfGQ0B3jDyD6ZwTxpoJYtTmwQNDFjK8Yj2EEe5ckUCsB+bfxsto6Iq7EZR6M/IH7H67HScaFJSDcDJr0YYZX3Q==";
         };
+        _IgbGb6PD = {
+            "id" = "IgbGb6PD";
+            "file" = "forcemaster_rpg-forge-3.1.1+1.20.1.jar";
+            "hash" = "sha512-dyFIBx+hhq1Jf2+yMNcf+/p5mNiYDwdMzUoy23KmsFfp8/hkHyXiWC2Bhhr6VcbUhXB8nsLNuD0xR6fgAbzo1w==";
+        };
+        _TXye9zDJ = {
+            "id" = "TXye9zDJ";
+            "file" = "forcemaster_rpg-fabric-3.1.1+1.20.1.jar";
+            "hash" = "sha512-1UU3m3MF3r+g4nhpR0ivPTAiQReFzJGJ9j/zLC1fZT61FYwIFzqNHEp7q/OiNnLwVqKjaeWfey7XYzhg5wjX/w==";
+        };
+        _ZWiNcffz = {
+            "id" = "ZWiNcffz";
+            "file" = "forcemaster_rpg-forge-3.1.2+1.20.1.jar";
+            "hash" = "sha512-QOfrxVNnTzTqPSJ/VAR+/XUmzOujWFZyt2byF+kInzW5B23hGrg5YjXEMfkR6YM3CimPGbaHFPeyT4qrgF4CXA==";
+        };
+        _SWxqPwyk = {
+            "id" = "SWxqPwyk";
+            "file" = "forcemaster_rpg-fabric-3.1.2+1.20.1.jar";
+            "hash" = "sha512-tdkno7NQRIICuxCXwnzoyCRPnuQP+oxY+P37BWBxJUKCueKSG66UPORaPmVeIRGw347/fwqDvAEvZ2AlgfLz5A==";
+        };
     in {
         "gtmt4nxC" = _gtmt4nxC;
         "ykMKn30A" = _ykMKn30A;
@@ -416,10 +436,16 @@ let
         "JoDQSIOO" = _JoDQSIOO;
         "2yMJPJK9" = _2yMJPJK9;
         "bxCnGsxg" = _bxCnGsxg;
-        "fabric-1.20.1" = _mpMlv1RJ;
+        "IgbGb6PD" = _IgbGb6PD;
+        "TXye9zDJ" = _TXye9zDJ;
+        "ZWiNcffz" = _ZWiNcffz;
+        "SWxqPwyk" = _SWxqPwyk;
+        "fabric-1.20.1" = _SWxqPwyk;
         "fabric-1.21" = _9cktt524;
         "fabric-1.21.1" = _bxCnGsxg;
         "neoforge-1.21.1" = _2yMJPJK9;
+        "neoforge-1.20.1" = _ZWiNcffz;
+        "forge-1.20.1" = _ZWiNcffz;
         "pkg-1.0.0" = _gtmt4nxC;
         "pkg-1.0.1" = _ykMKn30A;
         "pkg-1.0.2" = _ISIgahjH;
@@ -489,7 +515,11 @@ let
         "pkg-3.1.0+1.21.1-neoforge" = _JoDQSIOO;
         "pkg-3.1.1+1.21.1-neoforge" = _2yMJPJK9;
         "pkg-3.1.1+1.21.1-fabric" = _bxCnGsxg;
-        "default" = _bxCnGsxg;
+        "pkg-3.1.1+1.20.1-forge" = _IgbGb6PD;
+        "pkg-3.1.1+1.20.1-fabric" = _TXye9zDJ;
+        "pkg-3.1.2+1.20.1-forge" = _ZWiNcffz;
+        "pkg-3.1.2+1.20.1-fabric" = _SWxqPwyk;
+        "default" = _SWxqPwyk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "forcemaster-rpg-class";

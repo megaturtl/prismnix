@@ -741,6 +741,11 @@ let
             "file" = "enchantmentdisabler-fabric-3.4.9+1.21.1.jar";
             "hash" = "sha512-qSk7y901c3+vHGCyFvjEE9f41KEvFto3TFZngxeknyyKFYPxMo7/5+ZtTaxAVgqtQBTnCmAXpR2dv9hoUL0msw==";
         };
+        _V3NIVkpR = {
+            "id" = "V3NIVkpR";
+            "file" = "enchantmentdisabler-fabric-3.4.9+26.3.jar";
+            "hash" = "sha512-ie7WwTOQ35o6UrT1rjYI6QBv3cQjmudqlSpohS/zY+4fqkR/pgYEdZU90k/GCNy0rOLBA7IPI2nS7MOGeXRaog==";
+        };
     in {
         "yxcYoDi3" = _yxcYoDi3;
         "mODLjtuE" = _mODLjtuE;
@@ -890,6 +895,7 @@ let
         "arLcmNjp" = _arLcmNjp;
         "UbzgfxNT" = _UbzgfxNT;
         "yQEKMupT" = _yQEKMupT;
+        "V3NIVkpR" = _V3NIVkpR;
         "fabric-1.20.1" = _pJ60xb1I;
         "fabric-1.19.4" = _pJ60xb1I;
         "fabric-1.19.2" = _dcGYBM2V;
@@ -918,6 +924,7 @@ let
         "fabric-26.1.1" = _UbzgfxNT;
         "fabric-26.1.2" = _UbzgfxNT;
         "fabric-26.2" = _arLcmNjp;
+        "fabric-26.3" = _V3NIVkpR;
         "neoforge-1.21" = _IJlGWodG;
         "neoforge-1.21.1" = _IJlGWodG;
         "neoforge-1.21.2" = _nqZq27sT;
@@ -1032,7 +1039,8 @@ let
         "pkg-3.4.9+26.1.2" = _UbzgfxNT;
         "pkg-3.4.9+26.2" = _arLcmNjp;
         "pkg-3.4.9+1.21.1" = _yQEKMupT;
-        "default" = _yQEKMupT;
+        "pkg-3.4.9+26.3" = _V3NIVkpR;
+        "default" = _V3NIVkpR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchantment-disabler";

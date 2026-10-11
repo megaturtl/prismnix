@@ -21,36 +21,55 @@ let
             "file" = "jetpack-boots-1.0.1.jar";
             "hash" = "sha512-rBo+YX0EEmCbfaY5Prn3EO26X11xFfU8QkVg1YUawxE/pOBBeQU0buzdrayPN7Z+5hIJ7M2uAwdAPsnT1K9FxA==";
         };
+        _DpbKMCq3 = {
+            "id" = "DpbKMCq3";
+            "file" = "Jetpack Boots [v1.0.2].zip";
+            "hash" = "sha512-w8xLyxy/017s79/5Afjtr3+6N6v5edG4SFznx2VetBcjMF32GvRVP/DVRKplc3tsXhCHq/OjDFsV1wpHSmxChg==";
+        };
+        _nx4iitxx = {
+            "id" = "nx4iitxx";
+            "file" = "jetpack-boots-1.0.2.jar";
+            "hash" = "sha512-8yzteu8Wby4U2HCVN4J4qugFQs74pYOHpj3AAyTthOAxfC3hA6car49XrFRDT5YpznJsepom3pn6XSCLTX3Zug==";
+        };
     in {
         "cdtrXfBU" = _cdtrXfBU;
         "LjlWNFn4" = _LjlWNFn4;
         "JA6Thet3" = _JA6Thet3;
         "9yGKVc7u" = _9yGKVc7u;
+        "DpbKMCq3" = _DpbKMCq3;
+        "nx4iitxx" = _nx4iitxx;
         "datapack-26.1" = _cdtrXfBU;
         "datapack-26.1.1" = _cdtrXfBU;
         "datapack-26.1.2" = _cdtrXfBU;
         "datapack-26.2" = _JA6Thet3;
+        "datapack-26.3" = _DpbKMCq3;
         "fabric-26.1" = _LjlWNFn4;
         "fabric-26.1.1" = _LjlWNFn4;
         "fabric-26.1.2" = _LjlWNFn4;
         "fabric-26.2" = _9yGKVc7u;
+        "fabric-26.3" = _nx4iitxx;
         "forge-26.1" = _LjlWNFn4;
         "forge-26.1.1" = _LjlWNFn4;
         "forge-26.1.2" = _LjlWNFn4;
         "forge-26.2" = _9yGKVc7u;
+        "forge-26.3" = _nx4iitxx;
         "neoforge-26.1" = _LjlWNFn4;
         "neoforge-26.1.1" = _LjlWNFn4;
         "neoforge-26.1.2" = _LjlWNFn4;
         "neoforge-26.2" = _9yGKVc7u;
+        "neoforge-26.3" = _nx4iitxx;
         "quilt-26.1" = _LjlWNFn4;
         "quilt-26.1.1" = _LjlWNFn4;
         "quilt-26.1.2" = _LjlWNFn4;
         "quilt-26.2" = _9yGKVc7u;
+        "quilt-26.3" = _nx4iitxx;
         "pkg-1.0.0" = _cdtrXfBU;
         "pkg-1.0.0+mod" = _LjlWNFn4;
         "pkg-1.0.1" = _JA6Thet3;
         "pkg-1.0.1+mod" = _9yGKVc7u;
-        "default" = _9yGKVc7u;
+        "pkg-1.0.2" = _DpbKMCq3;
+        "pkg-1.0.2+mod" = _nx4iitxx;
+        "default" = _nx4iitxx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jetpack-boots";

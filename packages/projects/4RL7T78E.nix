@@ -51,6 +51,11 @@ let
             "file" = "panoramamod-1.1.0+mc26.1-26.2-universal.jar";
             "hash" = "sha512-eq3bBWL2sE1SQW6/zhBF7xa8UMFAjSzxYqjh2xQ59otY8vpedcespyJEdz7tIY3eC2pwpzra4uYofP17QLEZ/g==";
         };
+        _D8pcVgdT = {
+            "id" = "D8pcVgdT";
+            "file" = "panoramamod-1.1.0+mc26.3.jar";
+            "hash" = "sha512-DEvzEu/hfJaJIOU1jeiOPpQzp8J6YP9LBppeLyC5vFZeXRFBjy4Zhijmdh/YcSZA2DJn+VFk9X15s/ncgA0Esw==";
+        };
     in {
         "arpZG0Q1" = _arpZG0Q1;
         "FNZ1dI8L" = _FNZ1dI8L;
@@ -62,6 +67,7 @@ let
         "pRyMtpgP" = _pRyMtpgP;
         "3vpa5eS3" = _3vpa5eS3;
         "NLGK8tRh" = _NLGK8tRh;
+        "D8pcVgdT" = _D8pcVgdT;
         "fabric-1.21.10" = _3vpa5eS3;
         "fabric-1.21.9" = _3vpa5eS3;
         "fabric-1.21.8" = _3vpa5eS3;
@@ -78,6 +84,7 @@ let
         "fabric-26.1.1" = _NLGK8tRh;
         "fabric-26.1.2" = _NLGK8tRh;
         "fabric-26.2" = _NLGK8tRh;
+        "fabric-26.3" = _D8pcVgdT;
         "pkg-1.0.0+mc1.21.10" = _arpZG0Q1;
         "pkg-1.0.0+mc1.21.9" = _FNZ1dI8L;
         "pkg-1.0.0+mc1.21.8" = _CXwDM6yG;
@@ -88,7 +95,8 @@ let
         "pkg-1.0.0+mc26.1" = _pRyMtpgP;
         "pkg-1.1.0+mc1.21-1.21.11" = _3vpa5eS3;
         "pkg-1.1.0+mc26.1-26.2" = _NLGK8tRh;
-        "default" = _NLGK8tRh;
+        "pkg-1.1.0+mc26.3" = _D8pcVgdT;
+        "default" = _D8pcVgdT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "panorama-mod-recreated";

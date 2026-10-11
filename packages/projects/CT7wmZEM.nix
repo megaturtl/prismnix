@@ -81,6 +81,11 @@ let
             "file" = "astrological-1.21.1-1.7.0.jar";
             "hash" = "sha512-R4KXjdkWn/CrgEaQNeyernoh5MVf+xeyfsiKn9uYfV7V1dwm3cEVO7sLZkWbZORx9u/Ybq2fRPTEgY1MUwHA3A==";
         };
+        _IP6xhect = {
+            "id" = "IP6xhect";
+            "file" = "astrological-1.21.1-1.7.1.jar";
+            "hash" = "sha512-pYQlCMW2JuvXx+WA0qBOTf73wpsTnBt3Yi+xekBN+ajf7FaDLm8B9yvA4fEb43u6v8Un7395NdKTS7fnOEItzw==";
+        };
     in {
         "uH8WN1dQ" = _uH8WN1dQ;
         "jQlrdDyF" = _jQlrdDyF;
@@ -98,9 +103,10 @@ let
         "cdTyDPgG" = _cdTyDPgG;
         "tZMn8Ixq" = _tZMn8Ixq;
         "FZp1CNPe" = _FZp1CNPe;
+        "IP6xhect" = _IP6xhect;
         "forge-1.18.2" = _uH8WN1dQ;
         "forge-1.20.1" = _tZMn8Ixq;
-        "neoforge-1.21.1" = _FZp1CNPe;
+        "neoforge-1.21.1" = _IP6xhect;
         "pkg-0.2.0" = _uH8WN1dQ;
         "pkg-1.0.0" = _jQlrdDyF;
         "pkg-1.0.1" = _rprivh1e;
@@ -115,7 +121,8 @@ let
         "pkg-1.5.0" = _Iyipwgv5;
         "pkg-1.6.0" = _cdTyDPgG;
         "pkg-1.7.0" = _FZp1CNPe;
-        "default" = _FZp1CNPe;
+        "pkg-1.7.1" = _IP6xhect;
+        "default" = _IP6xhect;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "astrological";

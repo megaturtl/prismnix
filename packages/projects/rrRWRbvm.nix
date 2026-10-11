@@ -41,6 +41,11 @@ let
             "file" = "FA+Classic_Horses-v1.6.zip";
             "hash" = "sha512-InX54v2MoCLDadhvXX71RjIH2q1ahVERO42aJJyX9FJ+QefOYoNnxyC0iSxxg1K6hxtzlOXy1cjzPA2cto5bXQ==";
         };
+        _MrN2yz06 = {
+            "id" = "MrN2yz06";
+            "file" = "FA+Classic_Horses-v1.6.1.zip";
+            "hash" = "sha512-z2u5CR4MVfbUKshmStW/2iEoMVwNxi8ucB+RzT6B0AZAjh6prip0jf1C1b8zoPLoQAvLkKm6gtopoMnbMK3KmA==";
+        };
     in {
         "OFwTP2sC" = _OFwTP2sC;
         "Ht5sF23N" = _Ht5sF23N;
@@ -50,6 +55,7 @@ let
         "swGJSVSG" = _swGJSVSG;
         "WHIXEmWJ" = _WHIXEmWJ;
         "4KS4cgoO" = _4KS4cgoO;
+        "MrN2yz06" = _MrN2yz06;
         "minecraft-1.19.2" = _OFwTP2sC;
         "minecraft-1.19.4" = _jVoatsVz;
         "minecraft-1.20" = _WHIXEmWJ;
@@ -71,10 +77,11 @@ let
         "minecraft-1.21.9" = _WHIXEmWJ;
         "minecraft-1.21.10" = _WHIXEmWJ;
         "minecraft-1.21.11" = _WHIXEmWJ;
-        "minecraft-26.1" = _4KS4cgoO;
-        "minecraft-26.1.1" = _4KS4cgoO;
-        "minecraft-26.1.2" = _4KS4cgoO;
-        "minecraft-26.2" = _4KS4cgoO;
+        "minecraft-26.1" = _MrN2yz06;
+        "minecraft-26.1.1" = _MrN2yz06;
+        "minecraft-26.1.2" = _MrN2yz06;
+        "minecraft-26.2" = _MrN2yz06;
+        "minecraft-26.3" = _MrN2yz06;
         "pkg-1.0.0" = _OFwTP2sC;
         "pkg-1.1.0" = _Ht5sF23N;
         "pkg-1.2.0" = _jVoatsVz;
@@ -83,7 +90,8 @@ let
         "pkg-1.4.1" = _swGJSVSG;
         "pkg-1.5.0" = _WHIXEmWJ;
         "pkg-1.6.0" = _4KS4cgoO;
-        "default" = _4KS4cgoO;
+        "pkg-1.6.1" = _MrN2yz06;
+        "default" = _MrN2yz06;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fresh-animations-classic-horses";

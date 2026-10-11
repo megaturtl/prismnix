@@ -96,6 +96,16 @@ let
             "file" = "better-arthropods-26.2v1-mod.jar";
             "hash" = "sha512-evZe0E5hAie8bs+e+BrzjW/rO8TCK6arM5Xzn0NHY1vvIG7ra3iLglt8G+iosX9m+f9pAC951uB8veJVCRp7Vw==";
         };
+        _eEEUAOXi = {
+            "id" = "eEEUAOXi";
+            "file" = "mcs-arthropods-26.3v1-dp.zip";
+            "hash" = "sha512-+pVuBzB1BI128hHCPJUUA4zhFJDzRfLZAir09tdmKzZrezBcokK1odCwoGDJb0u7e3micqlGzOSfjniHf+tEPA==";
+        };
+        _rHA69Hy0 = {
+            "id" = "rHA69Hy0";
+            "file" = "better-arthropods-26.3v1-mod.jar";
+            "hash" = "sha512-bUAn79DKV124QWaMfA80mur6z27Bq3UaLYzSHiS3yHlc/FWvIWaOTc/kg0RN3Q1DGxYY5BC9chmGF1jFuhTJCw==";
+        };
     in {
         "ogw8avpL" = _ogw8avpL;
         "F9r0Dc3n" = _F9r0Dc3n;
@@ -116,6 +126,8 @@ let
         "SSetCDA5" = _SSetCDA5;
         "1CXVurPb" = _1CXVurPb;
         "KE0fzRwO" = _KE0fzRwO;
+        "eEEUAOXi" = _eEEUAOXi;
+        "rHA69Hy0" = _rHA69Hy0;
         "datapack-1.19.4" = _ogw8avpL;
         "datapack-1.20" = _F9r0Dc3n;
         "datapack-1.20.1" = _F9r0Dc3n;
@@ -133,6 +145,7 @@ let
         "datapack-26.1" = _dk805x3d;
         "datapack-26.1.1" = _dk805x3d;
         "datapack-26.2" = _1CXVurPb;
+        "datapack-26.3" = _eEEUAOXi;
         "fabric-1.21" = _fvOjrtKg;
         "fabric-1.21.1" = _fvOjrtKg;
         "fabric-1.21.2" = _ybQZUlkq;
@@ -146,6 +159,7 @@ let
         "fabric-26.1" = _SSetCDA5;
         "fabric-26.1.1" = _SSetCDA5;
         "fabric-26.2" = _KE0fzRwO;
+        "fabric-26.3" = _rHA69Hy0;
         "forge-1.21" = _fvOjrtKg;
         "forge-1.21.1" = _fvOjrtKg;
         "forge-1.21.2" = _ybQZUlkq;
@@ -159,6 +173,7 @@ let
         "forge-26.1" = _SSetCDA5;
         "forge-26.1.1" = _SSetCDA5;
         "forge-26.2" = _KE0fzRwO;
+        "forge-26.3" = _rHA69Hy0;
         "neoforge-1.21" = _fvOjrtKg;
         "neoforge-1.21.1" = _fvOjrtKg;
         "neoforge-1.21.2" = _ybQZUlkq;
@@ -172,6 +187,7 @@ let
         "neoforge-26.1" = _SSetCDA5;
         "neoforge-26.1.1" = _SSetCDA5;
         "neoforge-26.2" = _KE0fzRwO;
+        "neoforge-26.3" = _rHA69Hy0;
         "quilt-1.21" = _fvOjrtKg;
         "quilt-1.21.1" = _fvOjrtKg;
         "quilt-1.21.2" = _ybQZUlkq;
@@ -185,6 +201,7 @@ let
         "quilt-26.1" = _SSetCDA5;
         "quilt-26.1.1" = _SSetCDA5;
         "quilt-26.2" = _KE0fzRwO;
+        "quilt-26.3" = _rHA69Hy0;
         "pkg-v1.7" = _ogw8avpL;
         "pkg-v1.8" = _F9r0Dc3n;
         "pkg-v1.9" = _qRUDSG2S;
@@ -204,7 +221,9 @@ let
         "pkg-26.1v1-mod" = _SSetCDA5;
         "pkg-26.2v1-dp" = _1CXVurPb;
         "pkg-26.2v1-mod" = _KE0fzRwO;
-        "default" = _KE0fzRwO;
+        "pkg-26.3v1-dp" = _eEEUAOXi;
+        "pkg-26.3v1-mod" = _rHA69Hy0;
+        "default" = _rHA69Hy0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-arthropods";

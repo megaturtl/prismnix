@@ -166,6 +166,21 @@ let
             "file" = "notenoughcalculator-3.0.0.jar";
             "hash" = "sha512-SaUhZQewmOflf13mRLrJWclyLuFh616VCbr83PocCDjblom/Pbf+FpzrDQ9egEDy2/yZIOBMOwUDlI39xEWb5w==";
         };
+        _TEhDiYNE = {
+            "id" = "TEhDiYNE";
+            "file" = "notenoughcalculator-3.0.1.jar";
+            "hash" = "sha512-WaI8kT+C0Nwd8Zh6/JMWodkpeTkfcI8Mh9r0CSa/a2RhhvOeJEhCZVO2W2+GEcvs3REoneXZbHYX8DRnBE192w==";
+        };
+        _3nwmNXfw = {
+            "id" = "3nwmNXfw";
+            "file" = "notenoughcalculator-3.0.2.jar";
+            "hash" = "sha512-2pcCjWac2MKRhLe2679iKT7lX+ET1PTWTmA20usG27NzoYSFhAjaC8f5rzFZWIElyTf2xEoG+KL54UDck0ItCA==";
+        };
+        _X2ubYBf3 = {
+            "id" = "X2ubYBf3";
+            "file" = "notenoughcalculator-3.1.0.jar";
+            "hash" = "sha512-k1v8d937TdfgicIzuQgQN44tsIMrD6H4T2d/O+btfB7fABg1WnoxSGwVi+0joh7XPi23yCr2zYL/mvlRk0tHVQ==";
+        };
     in {
         "JeAQMdYk" = _JeAQMdYk;
         "kbtK6lz2" = _kbtK6lz2;
@@ -200,6 +215,9 @@ let
         "3P6bsab5" = _3P6bsab5;
         "NGtvwh02" = _NGtvwh02;
         "kA2HHBMA" = _kA2HHBMA;
+        "TEhDiYNE" = _TEhDiYNE;
+        "3nwmNXfw" = _3nwmNXfw;
+        "X2ubYBf3" = _X2ubYBf3;
         "fabric-1.21.5" = _hQeqDw7g;
         "fabric-1.21.6" = _hQeqDw7g;
         "fabric-1.21.7" = _hQeqDw7g;
@@ -207,10 +225,11 @@ let
         "fabric-1.21.9" = _ChXGDICl;
         "fabric-1.21.10" = _ChXGDICl;
         "fabric-1.21.11" = _vpYRQvvE;
-        "fabric-26.1" = _kA2HHBMA;
-        "fabric-26.1.1" = _kA2HHBMA;
-        "fabric-26.1.2" = _kA2HHBMA;
-        "fabric-26.2" = _NGtvwh02;
+        "fabric-26.1" = _TEhDiYNE;
+        "fabric-26.1.1" = _TEhDiYNE;
+        "fabric-26.1.2" = _TEhDiYNE;
+        "fabric-26.2" = _3nwmNXfw;
+        "fabric-26.3" = _X2ubYBf3;
         "pkg-1.0.0" = _JeAQMdYk;
         "pkg-1.0.1" = _kbtK6lz2;
         "pkg-1.0.2" = _AmaOz1q8;
@@ -242,9 +261,11 @@ let
         "pkg-2.7.0" = _dYxniXxh;
         "pkg-2.7.1" = _r0nttzy7;
         "pkg-3.0.0" = _3P6bsab5;
-        "pkg-3.0.1" = _NGtvwh02;
+        "pkg-3.0.1" = _TEhDiYNE;
         "pkg-3.0.0+26.1.x" = _kA2HHBMA;
-        "default" = _kA2HHBMA;
+        "pkg-3.0.2" = _3nwmNXfw;
+        "pkg-3.1.0" = _X2ubYBf3;
+        "default" = _X2ubYBf3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "notenoughcalculator";

@@ -11,9 +11,15 @@ let
             "file" = "mcvpn-1.0.0.jar";
             "hash" = "sha512-vjj2OZaSQyC2ts+e0ccUuB2iQNTyG2g1pNSsr41g4haeuTZ1gX9J7R2vFI8rf9+7TqZbMVkga56nGNEABS954g==";
         };
+        _GUEYKSGs = {
+            "id" = "GUEYKSGs";
+            "file" = "mcvpn-1.1.1.jar";
+            "hash" = "sha512-/gsSMWXTfaQpZC21hQvUJThET8e/3FLcTpxZJrz+YBkmISSOvCESIR5zpKG77NsrWkHfkvWt9tKD5QavrzMKLg==";
+        };
     in {
         "qk9KlbI7" = _qk9KlbI7;
         "jDSpQcfE" = _jDSpQcfE;
+        "GUEYKSGs" = _GUEYKSGs;
         "fabric-1.21" = _qk9KlbI7;
         "fabric-1.21.1" = _qk9KlbI7;
         "fabric-1.21.2" = _qk9KlbI7;
@@ -25,10 +31,11 @@ let
         "fabric-1.21.8" = _qk9KlbI7;
         "fabric-1.21.9" = _qk9KlbI7;
         "fabric-1.21.10" = _qk9KlbI7;
-        "fabric-1.21.11" = _qk9KlbI7;
+        "fabric-1.21.11" = _GUEYKSGs;
         "pkg-1.0.0" = _qk9KlbI7;
         "pkg-1.1.0" = _jDSpQcfE;
-        "default" = _jDSpQcfE;
+        "pkg-2.0" = _GUEYKSGs;
+        "default" = _GUEYKSGs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ingamevpn";

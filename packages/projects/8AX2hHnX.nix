@@ -536,6 +536,11 @@ let
             "file" = "simple_music_control-fabric-1.5.3+26.3.jar";
             "hash" = "sha512-loTvpDx5c0hWfhOt1dU1S2J9ZWWXYyBWnmM3WZXgHy4lNXucyD7yB+lhAGvbQgYzCZ8N8svlhDvsXlLw4AccFA==";
         };
+        _SunwaNDk = {
+            "id" = "SunwaNDk";
+            "file" = "simple_music_control-fabric-1.5.4+26.3.jar";
+            "hash" = "sha512-yUZ/CcEnyZZTHLWzIsB4FIT98mH9m7BZjBjMBnUwQ0wBeLSywgtI11QwlvGY4yDAPcKgxrINwVN/G4DDY7i02w==";
+        };
     in {
         "qu5dyd3b" = _qu5dyd3b;
         "n6V0cbf4" = _n6V0cbf4;
@@ -644,6 +649,7 @@ let
         "uR7WeU5U" = _uR7WeU5U;
         "CSAup1iC" = _CSAup1iC;
         "LGrSGuig" = _LGrSGuig;
+        "SunwaNDk" = _SunwaNDk;
         "fabric-1.21" = _qJvTsNVn;
         "fabric-1.21.1" = _qJvTsNVn;
         "fabric-1.21.4" = _Q6Q3t45U;
@@ -658,7 +664,7 @@ let
         "fabric-26.1.1" = _uR7WeU5U;
         "fabric-26.1.2" = _uR7WeU5U;
         "fabric-26.2" = _D3yprEuc;
-        "fabric-26.3" = _LGrSGuig;
+        "fabric-26.3" = _SunwaNDk;
         "neoforge-1.21" = _U19mhrMS;
         "neoforge-1.21.1" = _U19mhrMS;
         "neoforge-1.21.4" = _gP417CQA;
@@ -731,7 +737,8 @@ let
         "pkg-1.5.3+1.21.1" = _qJvTsNVn;
         "pkg-1.5.3+26.1.2" = _CSAup1iC;
         "pkg-1.5.3+26.3" = _LGrSGuig;
-        "default" = _LGrSGuig;
+        "pkg-1.5.4+26.3" = _SunwaNDk;
+        "default" = _SunwaNDk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-music-control";

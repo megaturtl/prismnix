@@ -226,6 +226,11 @@ let
             "file" = "treetimberneo-1.0.2.jar";
             "hash" = "sha512-K2qfP84B4/q1KZhY7RsEdb245aY0UXo15sZ8lxcODzLpQF5NAWNHZOrx8qWr7L31/uKAtkS7C7tbx7wGFvWJQg==";
         };
+        _n8wwdTAM = {
+            "id" = "n8wwdTAM";
+            "file" = "timbermod-1.0.2.jar";
+            "hash" = "sha512-YvUR87dqoVD0xINw2L/IYs2am1L9KvY/onOAR+TbaFCJ3xYRPvDGtQMOnkDuVaLDf4zJjBUYO+LdD4Q3hO9HZQ==";
+        };
     in {
         "9Acly415" = _9Acly415;
         "fDfEEHFT" = _fDfEEHFT;
@@ -272,6 +277,7 @@ let
         "1xsMyzJ4" = _1xsMyzJ4;
         "fpAAdJyk" = _fpAAdJyk;
         "V5YVQbCy" = _V5YVQbCy;
+        "n8wwdTAM" = _n8wwdTAM;
         "forge-1.21.4" = _ixeSmy18;
         "forge-1.21.1" = _ixeSmy18;
         "forge-1.21.2" = _ixeSmy18;
@@ -287,6 +293,7 @@ let
         "forge-26.1.1" = _9S1wM6dx;
         "forge-26.1.2" = _DU2lZNf7;
         "forge-26.2" = _MeH7joN3;
+        "forge-26.3" = _n8wwdTAM;
         "fabric-1.21.4" = _qD3r3uGX;
         "fabric-1.21" = _vGouK15d;
         "fabric-1.21.1" = _QlaAfPUN;
@@ -323,8 +330,8 @@ let
         "neoforge-26.3" = _V5YVQbCy;
         "pkg-1.0.0" = _qD3r3uGX;
         "pkg-1.0.1" = _DmaQZh2q;
-        "pkg-1.0.2" = _V5YVQbCy;
-        "default" = _V5YVQbCy;
+        "pkg-1.0.2" = _n8wwdTAM;
+        "default" = _n8wwdTAM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "treetimber-treecapitator";

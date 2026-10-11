@@ -116,6 +116,21 @@ let
             "file" = "explosiveenhancement-neoforge-26.1.0-1.1.2.jar";
             "hash" = "sha512-qRjNl6iZQVxzYZLe/yBBqAjGMWIViSj+U8F1B3T2z13C49ySGOQKFOWJmvXve6RxQ2zQzg8mUQ0Iv9GzZ7cSXg==";
         };
+        _UkoG8ZFw = {
+            "id" = "UkoG8ZFw";
+            "file" = "explosiveenhancement-1.2.0.jar";
+            "hash" = "sha512-XnsERolt3oYRy0FSLvnf7FoZ+lTx+Tlavo4umT1d1kJlssDaRsVZVSwPyL1Cw4Dqobl7r1cfNOOYFVkjPuSpjw==";
+        };
+        _GYn7YRXz = {
+            "id" = "GYn7YRXz";
+            "file" = "explosiveenhancement-neoforge-1.21.1-1.2.0.jar";
+            "hash" = "sha512-grSSayDXpmckyX2JiOzYPCRwi4A3QzhaV46famRl2hH8cxFYcqve9N2iXOdTKRQ9R/VKgr/zqLLOjhecbBXZQQ==";
+        };
+        _hzzvfKMj = {
+            "id" = "hzzvfKMj";
+            "file" = "explosiveenhancement-forge-1.21.1-1.2.0.jar";
+            "hash" = "sha512-7i2YXBUJW3LYITPv0wERrCKw3zrFwk0ELuxPbOq3ABiflqnVMnNe6xjls8iemuy3Qn8diwMy+W36OEc6L2RqRg==";
+        };
     in {
         "i6lzOZ7z" = _i6lzOZ7z;
         "odfOCVAp" = _odfOCVAp;
@@ -140,22 +155,25 @@ let
         "IQ5CBE5o" = _IQ5CBE5o;
         "V0bN62K2" = _V0bN62K2;
         "v1cUfzoK" = _v1cUfzoK;
-        "forge-1.20" = _WZmrfQAK;
-        "forge-1.20.1" = _WZmrfQAK;
+        "UkoG8ZFw" = _UkoG8ZFw;
+        "GYn7YRXz" = _GYn7YRXz;
+        "hzzvfKMj" = _hzzvfKMj;
+        "forge-1.20" = _UkoG8ZFw;
+        "forge-1.20.1" = _UkoG8ZFw;
         "forge-1.19" = _nBsoYZvB;
         "forge-1.19.1" = _nBsoYZvB;
         "forge-1.19.2" = _nBsoYZvB;
-        "forge-1.21" = _EboLAY5w;
+        "forge-1.21" = _hzzvfKMj;
         "forge-1.18" = _vIQhivQZ;
         "forge-1.18.1" = _vIQhivQZ;
         "forge-1.18.2" = _vIQhivQZ;
         "forge-1.16.5" = _cFNBBiF0;
-        "forge-1.21.1" = _EboLAY5w;
+        "forge-1.21.1" = _hzzvfKMj;
         "forge-1.21.5" = _l0vR3eSZ;
         "forge-1.21.4" = _N9oN44AA;
         "forge-1.21.11" = _IQ5CBE5o;
-        "neoforge-1.21" = _XVYkZnNg;
-        "neoforge-1.21.1" = _XVYkZnNg;
+        "neoforge-1.21" = _GYn7YRXz;
+        "neoforge-1.21.1" = _GYn7YRXz;
         "neoforge-1.21.5" = _cAxTahjD;
         "neoforge-1.21.4" = _fD7MXlg0;
         "neoforge-1.21.11" = _V0bN62K2;
@@ -166,7 +184,8 @@ let
         "pkg-1.1.0" = _MCHGH6TT;
         "pkg-1.1.1" = _EboLAY5w;
         "pkg-1.1.2" = _v1cUfzoK;
-        "default" = _v1cUfzoK;
+        "pkg-1.2.0" = _hzzvfKMj;
+        "default" = _hzzvfKMj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "explosive-enhancement-forge";

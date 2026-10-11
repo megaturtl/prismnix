@@ -51,6 +51,11 @@ let
             "file" = "WanderingTrades-1.9.5.jar";
             "hash" = "sha512-TSVH9MsIH3CznY9dez26Fp7xxXSic+SoMI+Kka2nrdr8UTVFTFj1wyExknSunF6HoMQ8BJYRDk+/GxiQHgp9gQ==";
         };
+        _XjfxN4Qf = {
+            "id" = "XjfxN4Qf";
+            "file" = "WanderingTrades-1.9.6.jar";
+            "hash" = "sha512-7T/eonmcd0sYU52YR153FwTtiy66dsVkhjOzYniWqzjf34E7BexXc0rsvS1CMulrZvdyCVFIHFELKnab9dae0Q==";
+        };
     in {
         "LprYrq7g" = _LprYrq7g;
         "YtrSjfi6" = _YtrSjfi6;
@@ -62,24 +67,26 @@ let
         "MgbzmUQ8" = _MgbzmUQ8;
         "AjkdDJ2R" = _AjkdDJ2R;
         "hFXagHpi" = _hFXagHpi;
+        "XjfxN4Qf" = _XjfxN4Qf;
         "paper-1.16.5" = _JUCU7KkE;
         "paper-1.17.1" = _JUCU7KkE;
         "paper-1.18.2" = _JUCU7KkE;
         "paper-1.19.4" = _JUCU7KkE;
         "paper-1.20.6" = _JUCU7KkE;
         "paper-1.21.1" = _LprYrq7g;
-        "paper-1.21.8" = _hFXagHpi;
-        "paper-1.21.4" = _hFXagHpi;
-        "paper-1.21.5" = _hFXagHpi;
-        "paper-1.21.6" = _hFXagHpi;
-        "paper-1.21.7" = _hFXagHpi;
-        "paper-1.21.9" = _hFXagHpi;
-        "paper-1.21.10" = _hFXagHpi;
-        "paper-1.21.11" = _hFXagHpi;
-        "paper-26.1" = _hFXagHpi;
-        "paper-26.1.1" = _hFXagHpi;
-        "paper-26.1.2" = _hFXagHpi;
-        "paper-26.2" = _hFXagHpi;
+        "paper-1.21.8" = _XjfxN4Qf;
+        "paper-1.21.4" = _XjfxN4Qf;
+        "paper-1.21.5" = _XjfxN4Qf;
+        "paper-1.21.6" = _XjfxN4Qf;
+        "paper-1.21.7" = _XjfxN4Qf;
+        "paper-1.21.9" = _XjfxN4Qf;
+        "paper-1.21.10" = _XjfxN4Qf;
+        "paper-1.21.11" = _XjfxN4Qf;
+        "paper-26.1" = _XjfxN4Qf;
+        "paper-26.1.1" = _XjfxN4Qf;
+        "paper-26.1.2" = _XjfxN4Qf;
+        "paper-26.2" = _XjfxN4Qf;
+        "paper-26.3" = _XjfxN4Qf;
         "pkg-1.8.5" = _LprYrq7g;
         "pkg-1.8.6" = _YtrSjfi6;
         "pkg-1.8.7" = _OBd61cpC;
@@ -90,7 +97,8 @@ let
         "pkg-1.9.3" = _MgbzmUQ8;
         "pkg-1.9.4" = _AjkdDJ2R;
         "pkg-1.9.5" = _hFXagHpi;
-        "default" = _hFXagHpi;
+        "pkg-1.9.6" = _XjfxN4Qf;
+        "default" = _XjfxN4Qf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wanderingtrades";

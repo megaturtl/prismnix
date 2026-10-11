@@ -286,6 +286,11 @@ let
             "file" = "vanillapings-26.2-v1.11.1.jar";
             "hash" = "sha512-18i7fY0w8Qm5n9yCCBOuR4xK/n5ti7aojAUoLWK3TiWYUjhFZFWqAiaEglK4XJzwI06Mq1HR5kr5Fyh/l1gnRw==";
         };
+        _Fu7RVVco = {
+            "id" = "Fu7RVVco";
+            "file" = "vanillapings-26.3-v1.11.1.jar";
+            "hash" = "sha512-dFbL1tegAwT8o18rPLKYt0K5RO8ck/IJJm0XKX2ftC7ivbF1wsCG57LJPuatOFCsggYXUJnE0ieTnEOPL0H0/w==";
+        };
     in {
         "e99k0P0l" = _e99k0P0l;
         "p2bGd88Q" = _p2bGd88Q;
@@ -344,6 +349,7 @@ let
         "gz9xzaFA" = _gz9xzaFA;
         "kS5Od3VZ" = _kS5Od3VZ;
         "UFcOEAnB" = _UFcOEAnB;
+        "Fu7RVVco" = _Fu7RVVco;
         "fabric-1.20" = _j7qBrKSr;
         "fabric-1.20.1" = _j7qBrKSr;
         "fabric-1.20.2" = _j7qBrKSr;
@@ -371,6 +377,7 @@ let
         "fabric-26.1.1" = _kS5Od3VZ;
         "fabric-26.1.2" = _kS5Od3VZ;
         "fabric-26.2" = _UFcOEAnB;
+        "fabric-26.3" = _Fu7RVVco;
         "pkg-1.0" = _e99k0P0l;
         "pkg-1.1" = _p2bGd88Q;
         "pkg-1.2" = _1KKdaaeb;
@@ -386,8 +393,8 @@ let
         "pkg-1.10.1" = _cI0KYwDg;
         "pkg-1.10.2" = _KkqyenmF;
         "pkg-1.10.3" = _e2TGjopS;
-        "pkg-1.11.1" = _UFcOEAnB;
-        "default" = _UFcOEAnB;
+        "pkg-1.11.1" = _Fu7RVVco;
+        "default" = _Fu7RVVco;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanilla-pings";

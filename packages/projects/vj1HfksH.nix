@@ -226,6 +226,26 @@ let
             "file" = "mineable-spawner-v2.3.9.jar";
             "hash" = "sha512-2nkGCBU3ft1uyjEW5rTSWoh9oPm8Wusf535i9wb16i6UtDqlyGouywgz/g9aXGFeKuTO38GwQ4eug9sU35yL8A==";
         };
+        _uHAmer6a = {
+            "id" = "uHAmer6a";
+            "file" = "mineable-spawner-v2.4.1.zip";
+            "hash" = "sha512-A0rdHYOn7uuFja+e9IC6vpgWDN+XWNaOWnjhwc4JED/gqMRZEKnzYXdYj+dDZCYa7QqJexEc7/9WUe+FtwIkYA==";
+        };
+        _xtGcRmrt = {
+            "id" = "xtGcRmrt";
+            "file" = "mineable-spawner-v2.4.1.jar";
+            "hash" = "sha512-05SGA9biS/NncpUMLVIlo7kO0FL132LKcyUvdLZL68V0ZWZMaR/4bPozjUEtussDi1aV2YIUgi/9NGw4aHiY/Q==";
+        };
+        _g8VVrvvo = {
+            "id" = "g8VVrvvo";
+            "file" = "mineable-spawner-v2.4.1.0.zip";
+            "hash" = "sha512-BMgVEZt/E8G6qv3PDsJEk4g1mumUa/PxMLYBYdhBaCFqgEFH6M0+kV/VQRzM0HoiWcP8TfWYIGCsQbQxKxOWqg==";
+        };
+        _mRvRqzLb = {
+            "id" = "mRvRqzLb";
+            "file" = "mineable-spawner-v2.4.1.0.jar";
+            "hash" = "sha512-ofrJOTTnDtWdhSjYOdfodyORWpRxP/k3OqVZt6lbG7QJINQUcHaffoUeSl+RANoZQI4mAU4fsUwdJu+8H45Qmw==";
+        };
     in {
         "nMBVX5kw" = _nMBVX5kw;
         "tF6cvs57" = _tF6cvs57;
@@ -272,6 +292,10 @@ let
         "bvMhS1NI" = _bvMhS1NI;
         "hv9TRWUi" = _hv9TRWUi;
         "c1mAd11O" = _c1mAd11O;
+        "uHAmer6a" = _uHAmer6a;
+        "xtGcRmrt" = _xtGcRmrt;
+        "g8VVrvvo" = _g8VVrvvo;
+        "mRvRqzLb" = _mRvRqzLb;
         "datapack-1.20.4" = _nMBVX5kw;
         "datapack-1.20.5" = _6fMIoM0Z;
         "datapack-1.20.6" = _6fMIoM0Z;
@@ -291,6 +315,7 @@ let
         "datapack-26.1.1" = _hv9TRWUi;
         "datapack-26.1.2" = _hv9TRWUi;
         "datapack-26.2" = _hv9TRWUi;
+        "datapack-26.3" = _g8VVrvvo;
         "fabric-1.20.4" = _tF6cvs57;
         "fabric-1.20.5" = _vFvKnBqR;
         "fabric-1.20.6" = _vFvKnBqR;
@@ -310,6 +335,7 @@ let
         "fabric-26.1.1" = _c1mAd11O;
         "fabric-26.1.2" = _c1mAd11O;
         "fabric-26.2" = _c1mAd11O;
+        "fabric-26.3" = _mRvRqzLb;
         "forge-1.20.4" = _tF6cvs57;
         "forge-1.20.5" = _vFvKnBqR;
         "forge-1.20.6" = _vFvKnBqR;
@@ -329,6 +355,7 @@ let
         "forge-26.1.1" = _c1mAd11O;
         "forge-26.1.2" = _c1mAd11O;
         "forge-26.2" = _c1mAd11O;
+        "forge-26.3" = _mRvRqzLb;
         "quilt-1.20.4" = _tF6cvs57;
         "quilt-1.20.5" = _vFvKnBqR;
         "quilt-1.20.6" = _vFvKnBqR;
@@ -348,6 +375,7 @@ let
         "quilt-26.1.1" = _c1mAd11O;
         "quilt-26.1.2" = _c1mAd11O;
         "quilt-26.2" = _c1mAd11O;
+        "quilt-26.3" = _mRvRqzLb;
         "neoforge-1.21" = _Ily08INY;
         "neoforge-1.21.1" = _Ily08INY;
         "neoforge-1.21.2" = _Ily08INY;
@@ -364,6 +392,7 @@ let
         "neoforge-26.1.1" = _c1mAd11O;
         "neoforge-26.1.2" = _c1mAd11O;
         "neoforge-26.2" = _c1mAd11O;
+        "neoforge-26.3" = _mRvRqzLb;
         "pkg-v.1.0.0" = _H48e0PRq;
         "pkg-v.1.0.0+mod" = _eOkj5LPA;
         "pkg-v.1.1.0" = _uxpKQ6xT;
@@ -398,7 +427,11 @@ let
         "pkg-v2.3.8+mod" = _bvMhS1NI;
         "pkg-v2.3.9" = _hv9TRWUi;
         "pkg-v2.3.9+mod" = _c1mAd11O;
-        "default" = _c1mAd11O;
+        "pkg-v2.4.1" = _uHAmer6a;
+        "pkg-v2.4.1+mod" = _xtGcRmrt;
+        "pkg-v2.4.1.0" = _g8VVrvvo;
+        "pkg-v2.4.1.0+mod" = _mRvRqzLb;
+        "default" = _mRvRqzLb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mineable-spawner";

@@ -431,6 +431,16 @@ let
             "file" = "woodenbucket-fabric-1.21.9-4.6.2.0.jar";
             "hash" = "sha512-Hc8Z/i8WVrhKONQHJf7mRPjazcLsmC7PIa8PxIDaRZ18y4kyytV878dTuSzVTKT8Ejbn9CG7tDOg54if7JMMBg==";
         };
+        _voYmS6Sc = {
+            "id" = "voYmS6Sc";
+            "file" = "woodenbucket-neoforge-26.3-5.2.0.0.jar";
+            "hash" = "sha512-GhyksKmMlvcpj6cXCKveJt/C0xAFAKuttXuIOL87enKAucqF6SzbiMb/UvjnsXid5ErEppv6QWqpYcCf91qLyA==";
+        };
+        _cSkU8MDY = {
+            "id" = "cSkU8MDY";
+            "file" = "woodenbucket-fabric-26.3-5.2.0.0.jar";
+            "hash" = "sha512-W7uFaEkxSBGbryEpEwUPxRhCWxD5TPrgfayCdJ1m3ZpeD3ilPm1wGueYuPiOuMrQFT75fsvn13GRXOhjzjJFEA==";
+        };
     in {
         "eRl01kdJ" = _eRl01kdJ;
         "AXr9vEk8" = _AXr9vEk8;
@@ -518,6 +528,8 @@ let
         "1eI0VTLt" = _1eI0VTLt;
         "XK9o1tkT" = _XK9o1tkT;
         "JtmzbVmP" = _JtmzbVmP;
+        "voYmS6Sc" = _voYmS6Sc;
+        "cSkU8MDY" = _cSkU8MDY;
         "forge-1.18.2" = _eRl01kdJ;
         "forge-1.19" = _AXr9vEk8;
         "forge-1.19.1" = _AXr9vEk8;
@@ -545,6 +557,7 @@ let
         "neoforge-26.1.1" = _xvjfApWT;
         "neoforge-26.1.2" = _xvjfApWT;
         "neoforge-26.2" = _HNFVXz38;
+        "neoforge-26.3" = _voYmS6Sc;
         "fabric-1.20.4" = _S79mISRc;
         "fabric-1.20.6" = _2Zhdd4aY;
         "fabric-1.21" = _5f03M1Mw;
@@ -561,6 +574,7 @@ let
         "fabric-26.1.1" = _Krxy3Swi;
         "fabric-26.1.2" = _Krxy3Swi;
         "fabric-26.2" = _AWWwhZpd;
+        "fabric-26.3" = _cSkU8MDY;
         "quilt-1.20.4" = _S79mISRc;
         "quilt-1.20.6" = _2Zhdd4aY;
         "quilt-1.21" = _5f03M1Mw;
@@ -577,6 +591,7 @@ let
         "quilt-26.1.1" = _Krxy3Swi;
         "quilt-26.1.2" = _Krxy3Swi;
         "quilt-26.2" = _AWWwhZpd;
+        "quilt-26.3" = _cSkU8MDY;
         "pkg-1.18.2-1.0.2.1" = _eRl01kdJ;
         "pkg-1.19-1.1.0.0" = _AXr9vEk8;
         "pkg-1.19.3-1.2.0.0" = _R9aObI7r;
@@ -623,7 +638,8 @@ let
         "pkg-1.21.5-4.4.2.0" = _tCkei9GL;
         "pkg-1.21.7-4.5.2.0" = _1eI0VTLt;
         "pkg-1.21.9-4.6.2.0" = _JtmzbVmP;
-        "default" = _JtmzbVmP;
+        "pkg-26.3-5.2.0.0" = _cSkU8MDY;
+        "default" = _cSkU8MDY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wooden-bucket";

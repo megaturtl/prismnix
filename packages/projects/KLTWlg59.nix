@@ -431,6 +431,16 @@ let
             "file" = "webcam-neoforge-4.4.1-26.2.jar";
             "hash" = "sha512-BNg0JNR/eQKjCS0a3wqFffx0pox+sKzbbcfvJoN+nk9toyvMQ6I4LlfyJDMUrFUTM1tnwAv76p6sx6XLyuoRBQ==";
         };
+        _T5Q0DYyg = {
+            "id" = "T5Q0DYyg";
+            "file" = "webcam-neoforge-4.4.1-26.3.jar";
+            "hash" = "sha512-+rmsrR2AE2H/Sg7W3u7j34HMyb1/nUzpQwqN45ExAfyr5iR6pzkRg5QDsPrhMVWM0HC3rMp7SxD2B7dqj18vcA==";
+        };
+        _SOF9XznV = {
+            "id" = "SOF9XznV";
+            "file" = "webcam-fabric-4.4.1-26.3.jar";
+            "hash" = "sha512-tiAA/VbI+O7T3RHjzTZICeF0o19DZTRMCznG66Lw7e0RFrgCeBZ6KU1nXiYBnB6c8HySW5cn2UWWBTOJz/fFRQ==";
+        };
     in {
         "IJIRKIpa" = _IJIRKIpa;
         "YoDYp2vf" = _YoDYp2vf;
@@ -518,6 +528,8 @@ let
         "ElV9e1Vb" = _ElV9e1Vb;
         "TXsyZakL" = _TXsyZakL;
         "MqXn7ovo" = _MqXn7ovo;
+        "T5Q0DYyg" = _T5Q0DYyg;
+        "SOF9XznV" = _SOF9XznV;
         "fabric-1.21.4" = _nJHlNqis;
         "fabric-1.21.5" = _t5Zrkkjd;
         "fabric-1.21.6" = _ehiVMGwk;
@@ -532,6 +544,7 @@ let
         "fabric-26.1.1" = _ElV9e1Vb;
         "fabric-26.1.2" = _ElV9e1Vb;
         "fabric-26.2" = _TXsyZakL;
+        "fabric-26.3" = _SOF9XznV;
         "quilt-1.21.4" = _nJHlNqis;
         "quilt-1.21.5" = _t5Zrkkjd;
         "quilt-1.21.6" = _ehiVMGwk;
@@ -546,6 +559,7 @@ let
         "quilt-26.1.1" = _ElV9e1Vb;
         "quilt-26.1.2" = _ElV9e1Vb;
         "quilt-26.2" = _TXsyZakL;
+        "quilt-26.3" = _SOF9XznV;
         "bukkit-1.21.4" = _ytZ6pvYZ;
         "bukkit-1.21.5" = _ytZ6pvYZ;
         "bukkit-1.21.6" = _Gf2C5QGe;
@@ -643,6 +657,7 @@ let
         "neoforge-26.1.1" = _maNT0RF6;
         "neoforge-26.1.2" = _maNT0RF6;
         "neoforge-26.2" = _MqXn7ovo;
+        "neoforge-26.3" = _T5Q0DYyg;
         "pkg-fabric-1.0.0-1.21.4" = _IJIRKIpa;
         "pkg-spigot-1.0.0" = _YoDYp2vf;
         "pkg-fabric-1.0.1-1.21.4" = _O4IHDAjW;
@@ -729,7 +744,9 @@ let
         "pkg-fabric-4.4.1-26.1.1" = _ElV9e1Vb;
         "pkg-fabric-4.4.1-26.2" = _TXsyZakL;
         "pkg-neoforge-4.4.1-26.2" = _MqXn7ovo;
-        "default" = _MqXn7ovo;
+        "pkg-neoforge-4.4.1-26.3" = _T5Q0DYyg;
+        "pkg-fabric-4.4.1-26.3" = _SOF9XznV;
+        "default" = _SOF9XznV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "webcam-mod";

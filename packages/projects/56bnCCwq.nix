@@ -31,6 +31,16 @@ let
             "file" = "Slag-n-Embers-1.21.1-1.1a.jar";
             "hash" = "sha512-G3IJ+sVXOkqG7N8Yq98+aoEmDq+jz2F/uh8pX3d7q4h8lMuTtvIJD6y8g2FuOFsdu78xQbrffSRdqf13VPCQMw==";
         };
+        _JX1tQLdh = {
+            "id" = "JX1tQLdh";
+            "file" = "Slag-n-Embers-1.21.1-1.2a.jar";
+            "hash" = "sha512-mdghG6qRl6GsTX8qB7hBpZU1geptVa5zh0mxjLACX/sJjgGLVOr6YGexA6scltIAuRu+PJ7LyyuWCYkiPy2jAg==";
+        };
+        _KfV9qBiR = {
+            "id" = "KfV9qBiR";
+            "file" = "Slag-n-Embers-1.21.1-1.2b.jar";
+            "hash" = "sha512-tIbb9bnpJ685KX22cAMiRlXXX0FavHuoc+1OyhC0jBYA/GuZ3/7tHo7/Rwfq32KFfyZeJluIgWPOtbzVwRg1Cg==";
+        };
     in {
         "KsZ7bAwp" = _KsZ7bAwp;
         "TVFlR1WC" = _TVFlR1WC;
@@ -38,14 +48,18 @@ let
         "h2HGY0GD" = _h2HGY0GD;
         "APj6gw8D" = _APj6gw8D;
         "CGRQn5ML" = _CGRQn5ML;
-        "neoforge-1.21.1" = _CGRQn5ML;
+        "JX1tQLdh" = _JX1tQLdh;
+        "KfV9qBiR" = _KfV9qBiR;
+        "neoforge-1.21.1" = _KfV9qBiR;
         "pkg-1.0" = _KsZ7bAwp;
         "pkg-1.0b" = _TVFlR1WC;
         "pkg-1.0c" = _d8Ke07XG;
         "pkg-1.21.1-1.1-snapshot" = _h2HGY0GD;
         "pkg-1.1c-snapshot" = _APj6gw8D;
         "pkg-1.1a" = _CGRQn5ML;
-        "default" = _CGRQn5ML;
+        "pkg-1.21.1-1.2a" = _JX1tQLdh;
+        "pkg-1.21.1-1.2b" = _KfV9qBiR;
+        "default" = _KfV9qBiR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "slag-n-embers";

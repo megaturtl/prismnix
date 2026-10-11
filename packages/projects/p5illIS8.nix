@@ -36,6 +36,11 @@ let
             "file" = "omnichunk-1.2.2-1.21.11.jar";
             "hash" = "sha512-YzWFjxV0Zdpeoz1hYEMGUFgxmUrhtkTn1IJQhJ/irlUHxq2D3ojizFcGFm0WaZgjlhSXDPLrMkabG73LazAOpA==";
         };
+        _QWHcZBre = {
+            "id" = "QWHcZBre";
+            "file" = "omnichunk-1.2.3-26.1-26.3.jar";
+            "hash" = "sha512-KdLvhm4PzSW2qKGX/toe2vkggSBNENq41vkW/Hmt3wn5qrCixJcHWu5jJVg1wXPH3A/+MiPdB+D9oSg7/pdtYQ==";
+        };
     in {
         "P8rOGi6h" = _P8rOGi6h;
         "YdxmWLcC" = _YdxmWLcC;
@@ -44,10 +49,11 @@ let
         "FMGAkYWW" = _FMGAkYWW;
         "MRZVIlB7" = _MRZVIlB7;
         "8C6goXWt" = _8C6goXWt;
-        "fabric-26.1" = _jbC2jDnU;
-        "fabric-26.1.1" = _jbC2jDnU;
-        "fabric-26.1.2" = _jbC2jDnU;
-        "fabric-26.2" = _jbC2jDnU;
+        "QWHcZBre" = _QWHcZBre;
+        "fabric-26.1" = _QWHcZBre;
+        "fabric-26.1.1" = _QWHcZBre;
+        "fabric-26.1.2" = _QWHcZBre;
+        "fabric-26.2" = _QWHcZBre;
         "fabric-1.21" = _TpZb34Kz;
         "fabric-1.21.1" = _TpZb34Kz;
         "fabric-1.21.2" = _FMGAkYWW;
@@ -60,9 +66,11 @@ let
         "fabric-1.21.9" = _MRZVIlB7;
         "fabric-1.21.10" = _MRZVIlB7;
         "fabric-1.21.11" = _8C6goXWt;
+        "fabric-26.3" = _QWHcZBre;
         "pkg-1.2.1" = _YdxmWLcC;
         "pkg-1.2.2" = _8C6goXWt;
-        "default" = _8C6goXWt;
+        "pkg-1.2.3" = _QWHcZBre;
+        "default" = _QWHcZBre;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "omni-chunk";

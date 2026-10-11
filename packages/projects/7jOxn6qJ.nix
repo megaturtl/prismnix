@@ -291,6 +291,11 @@ let
             "file" = "mahoutsukai-26.1.2-v1.36.33.jar";
             "hash" = "sha512-YTHqLVHxK9Tb9UIIQxG9gBkDsZv8Uc7o/gth7ctmJl1FNNAQgSoc79R2lZYYMGancye2OkwmZzBChYQoVh/n6w==";
         };
+        _oefeHh9w = {
+            "id" = "oefeHh9w";
+            "file" = "mahoutsukai-26.1.2-v1.36.36.jar";
+            "hash" = "sha512-BaCWiY+76sjAIyzeLjp44wyeq2iZkpMD+vBvxrwiPhWEzntANX2xiUaRf4f2vh/0BxkL133vhTivn8Ln36dGcQ==";
+        };
     in {
         "wYw40dPb" = _wYw40dPb;
         "VTyEYc8z" = _VTyEYc8z;
@@ -350,6 +355,7 @@ let
         "qAJ0gGH9" = _qAJ0gGH9;
         "L1uDltZv" = _L1uDltZv;
         "50K7jcpR" = _50K7jcpR;
+        "oefeHh9w" = _oefeHh9w;
         "forge-1.18.2" = _W0K3QjOi;
         "forge-1.17.1" = _VTyEYc8z;
         "forge-1.16.5" = _mEPCKMdV;
@@ -365,7 +371,7 @@ let
         "neoforge-1.21" = _nQ1eUjfc;
         "neoforge-1.21.1" = _qAJ0gGH9;
         "neoforge-1.20.1" = _iP9fAEwX;
-        "neoforge-26.1.2" = _50K7jcpR;
+        "neoforge-26.1.2" = _oefeHh9w;
         "pkg-1.18.2-v1.34.14" = _wYw40dPb;
         "pkg-1.17.1-v1.33.3" = _VTyEYc8z;
         "pkg-1.16.5-v1.34.13" = _CLwD3uSD;
@@ -423,7 +429,8 @@ let
         "pkg-1.36.27" = _qAJ0gGH9;
         "pkg-1.36.30" = _L1uDltZv;
         "pkg-1.36.33" = _50K7jcpR;
-        "default" = _50K7jcpR;
+        "pkg-1.36.36" = _oefeHh9w;
+        "default" = _oefeHh9w;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mahou-tsukai";

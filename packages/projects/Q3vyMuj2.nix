@@ -301,6 +301,21 @@ let
             "file" = "snowundertrees-fabric-26.1.2-1.6.1.jar";
             "hash" = "sha512-iLPr0XsYRNx1hpIb8bn8CebZBPTzW+48xGkKQmliB8Zlp6TootsmCaWnF/GAfe6Fw9BEOwOwrKqTGKMcddAGbA==";
         };
+        _Po4T55d0 = {
+            "id" = "Po4T55d0";
+            "file" = "snowundertrees-neoforge-26.3-1.6.1.jar";
+            "hash" = "sha512-4xigINO60oP9A9ihxugtPhoaAK2zi1D7tNoa6X24MRq007yFp07/4uOAK/MkjlejsSvzTwiDfigRGMOd0PMdAA==";
+        };
+        _1uigvyyM = {
+            "id" = "1uigvyyM";
+            "file" = "snowundertrees-fabric-26.3-1.6.1.jar";
+            "hash" = "sha512-GGXSzUecOjpaN2jxAMynsDcBBPd/Ook2t+WROVIvxC0wOUXowt8WjreZRaxGhqy/3F2KMDmyyEX6slanqqdbKg==";
+        };
+        _EZA6uTIa = {
+            "id" = "EZA6uTIa";
+            "file" = "snowundertrees-neoforge-26.3-1.6.2.jar";
+            "hash" = "sha512-A9Rec58XIoWZgP70b7nW2+nq37AfpT4QBwPq3PBVLC6dO6WGh3EGZfUI6rlRSKG/xVPFBhjDfDJIoUpzIyjypA==";
+        };
     in {
         "85KGx8j1" = _85KGx8j1;
         "VoViJ3JX" = _VoViJ3JX;
@@ -362,6 +377,9 @@ let
         "MWz6mhd4" = _MWz6mhd4;
         "PXC8L6ZG" = _PXC8L6ZG;
         "ubJYO77l" = _ubJYO77l;
+        "Po4T55d0" = _Po4T55d0;
+        "1uigvyyM" = _1uigvyyM;
+        "EZA6uTIa" = _EZA6uTIa;
         "forge-1.14.4" = _85KGx8j1;
         "forge-1.15.2" = _VoViJ3JX;
         "forge-1.16.5" = _iY5GJjbW;
@@ -391,14 +409,17 @@ let
         "neoforge-26.1.1" = _PXC8L6ZG;
         "neoforge-26.1.2" = _PXC8L6ZG;
         "neoforge-26.2" = _PXC8L6ZG;
+        "neoforge-26.3" = _EZA6uTIa;
         "fabric-26.1" = _ubJYO77l;
         "fabric-26.1.1" = _ubJYO77l;
         "fabric-26.1.2" = _ubJYO77l;
         "fabric-26.2" = _ubJYO77l;
+        "fabric-26.3" = _1uigvyyM;
         "quilt-26.1" = _ubJYO77l;
         "quilt-26.1.1" = _ubJYO77l;
         "quilt-26.1.2" = _ubJYO77l;
         "quilt-26.2" = _ubJYO77l;
+        "quilt-26.3" = _1uigvyyM;
         "pkg-v1.1.1" = _85KGx8j1;
         "pkg-v1.1.4" = _VoViJ3JX;
         "pkg-v1.3" = _IzNdMwzN;
@@ -420,8 +441,9 @@ let
         "pkg-v1.5" = _3okkMHY1;
         "pkg-v1.6" = _CtyrwIxX;
         "pkg-v1.5.1" = _MWz6mhd4;
-        "pkg-v1.6.1" = _ubJYO77l;
-        "default" = _ubJYO77l;
+        "pkg-v1.6.1" = _1uigvyyM;
+        "pkg-v1.6.2" = _EZA6uTIa;
+        "default" = _EZA6uTIa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "snow-under-trees";

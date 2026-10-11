@@ -56,6 +56,16 @@ let
             "file" = "cobblemondungeon-2.0.1.jar";
             "hash" = "sha512-JFrkjZwxNoh7N9+qSaOsHH6Mk7G/TTEoX2bez3nioH3Cc24Ps4BmoXsJtLxKplJ0rZw1ilXUNTcS4O4BXtcsng==";
         };
+        _q3lwXKv5 = {
+            "id" = "q3lwXKv5";
+            "file" = "cobblemondungeon-3.0.0.jar";
+            "hash" = "sha512-+7cifz2mNajwfv62Lsac85l+yCjn5K/MPxb/IiO5AmTiPuqZ4mH4QVFSgZ7tyz1TwM/DACjGNqkMitaPTsJqwg==";
+        };
+        _UhclCCoK = {
+            "id" = "UhclCCoK";
+            "file" = "cobblemondungeon-3.0.1.jar";
+            "hash" = "sha512-BJPMpyffbej1rJxk9TEfomMy2QwXtDIhCW1Sw1O12TU0PKTQv930SDRBXLoSKOfhXSd8MMRQZEjt/H+6ZJ1Zmw==";
+        };
     in {
         "rZfdDcFE" = _rZfdDcFE;
         "is4NBvqy" = _is4NBvqy;
@@ -68,7 +78,9 @@ let
         "8D5rUPSm" = _8D5rUPSm;
         "H8ggEMGQ" = _H8ggEMGQ;
         "aGuez406" = _aGuez406;
-        "fabric-1.21.1" = _aGuez406;
+        "q3lwXKv5" = _q3lwXKv5;
+        "UhclCCoK" = _UhclCCoK;
+        "fabric-1.21.1" = _UhclCCoK;
         "pkg-1.0" = _rZfdDcFE;
         "pkg-1.1" = _is4NBvqy;
         "pkg-1.2" = _8zETz7FN;
@@ -80,7 +92,9 @@ let
         "pkg-1.7.0" = _8D5rUPSm;
         "pkg-2.0.0" = _H8ggEMGQ;
         "pkg-2.0.1" = _aGuez406;
-        "default" = _aGuez406;
+        "pkg-3.0.0" = _q3lwXKv5;
+        "pkg-3.0.1" = _UhclCCoK;
+        "default" = _UhclCCoK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-dungeon";

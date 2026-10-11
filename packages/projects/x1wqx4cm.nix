@@ -236,6 +236,21 @@ let
             "file" = "InfuseSMP-2.4.5-beta16.jar";
             "hash" = "sha512-ctzKCRz/TFszcvmzj+VxjkSrvQin2gP6EyXAUV6OFq/CmvU7c4Eb7QoyYQztd+hL4SbeOhemos/qpTfdysq3nQ==";
         };
+        _buwWAasy = {
+            "id" = "buwWAasy";
+            "file" = "InfuseSMP-2.4.5-beta17.jar";
+            "hash" = "sha512-MVDy3FsXW3GSSFAJAUhrsAJTb3GJ4VQf4czsrCAeuxrSKJ45ZwkI2mI6hJbItat+7f2C1HwavgrBzRkF1FRLwg==";
+        };
+        _yHba8WuW = {
+            "id" = "yHba8WuW";
+            "file" = "InfuseSMP-2.4.5-beta18.jar";
+            "hash" = "sha512-Ny240SPdqb+c//JMUPVVNvSiZwdPp8CWqdBIkFfQLWrpMr3mHLXHlKNxm2aVi7ofyD798x8CotonQJ0lX4sawA==";
+        };
+        _EoBu9ziF = {
+            "id" = "EoBu9ziF";
+            "file" = "InfuseSMP-2.4.5-beta19.jar";
+            "hash" = "sha512-QbbW1E9mYVdTHP7p3HpXqY0MmkWLfwu+6hduoBYdBtPmvjnEDtmgJJ/JKAxzVMPyQ0ylXlVe642XgdzF41yWKg==";
+        };
     in {
         "IgJYgW0r" = _IgJYgW0r;
         "qXu3cY8x" = _qXu3cY8x;
@@ -284,6 +299,9 @@ let
         "cGGyQ3xa" = _cGGyQ3xa;
         "DLnxHDtM" = _DLnxHDtM;
         "SQhvVw8T" = _SQhvVw8T;
+        "buwWAasy" = _buwWAasy;
+        "yHba8WuW" = _yHba8WuW;
+        "EoBu9ziF" = _EoBu9ziF;
         "paper-1.21" = _DbWHs7O2;
         "paper-1.21.1" = _DbWHs7O2;
         "paper-1.21.2" = _DbWHs7O2;
@@ -295,11 +313,11 @@ let
         "paper-1.21.8" = _1TOlA44I;
         "paper-1.21.9" = _1TOlA44I;
         "paper-1.21.10" = _1TOlA44I;
-        "paper-1.21.11" = _SQhvVw8T;
-        "paper-26.1" = _SQhvVw8T;
-        "paper-26.1.1" = _SQhvVw8T;
-        "paper-26.1.2" = _SQhvVw8T;
-        "paper-26.2" = _SQhvVw8T;
+        "paper-1.21.11" = _EoBu9ziF;
+        "paper-26.1" = _EoBu9ziF;
+        "paper-26.1.1" = _EoBu9ziF;
+        "paper-26.1.2" = _EoBu9ziF;
+        "paper-26.2" = _EoBu9ziF;
         "purpur-1.21" = _DbWHs7O2;
         "purpur-1.21.1" = _DbWHs7O2;
         "purpur-1.21.2" = _DbWHs7O2;
@@ -311,11 +329,11 @@ let
         "purpur-1.21.8" = _1TOlA44I;
         "purpur-1.21.9" = _1TOlA44I;
         "purpur-1.21.10" = _1TOlA44I;
-        "purpur-1.21.11" = _SQhvVw8T;
-        "purpur-26.1" = _SQhvVw8T;
-        "purpur-26.1.1" = _SQhvVw8T;
-        "purpur-26.1.2" = _SQhvVw8T;
-        "purpur-26.2" = _SQhvVw8T;
+        "purpur-1.21.11" = _EoBu9ziF;
+        "purpur-26.1" = _EoBu9ziF;
+        "purpur-26.1.1" = _EoBu9ziF;
+        "purpur-26.1.2" = _EoBu9ziF;
+        "purpur-26.2" = _EoBu9ziF;
         "pkg-1.2.6" = _IgJYgW0r;
         "pkg-1.3.0" = _qXu3cY8x;
         "pkg-1.4.0" = _oGpuR3b7;
@@ -356,7 +374,10 @@ let
         "pkg-2.4.5-beta14" = _cGGyQ3xa;
         "pkg-2.4.5-beta15" = _DLnxHDtM;
         "pkg-2.4.5-beta16" = _SQhvVw8T;
-        "default" = _SQhvVw8T;
+        "pkg-2.4.5-beta17" = _buwWAasy;
+        "pkg-2.4.5-beta18" = _yHba8WuW;
+        "pkg-2.4.5-beta19" = _EoBu9ziF;
+        "default" = _EoBu9ziF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "infusesmp";

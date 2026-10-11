@@ -16,18 +16,26 @@ let
             "file" = "advancementinfo-26.1.1-fabric-1.3.1.jar";
             "hash" = "sha512-grJ4k38GYaV6WQwhL/gqLNSFYaUi1dlIzT42durfJvmYUHWkyQ11XxIR52zoAB2mYcI0WdSJENq72BN8H8b9NQ==";
         };
+        _CBwAJxaY = {
+            "id" = "CBwAJxaY";
+            "file" = "advancementinfo-26.3-fabric-1.4.0.jar";
+            "hash" = "sha512-0k7zln/euAheBvb2NGhKSeKHTeaFR5uhgZHkfERkt6chWfIjGswVkNr8NXDZS7sbNErQikOA9mW6kRtCZoNtUQ==";
+        };
     in {
         "dhIcDNsO" = _dhIcDNsO;
         "6RHBz4A4" = _6RHBz4A4;
         "UhoEk2GH" = _UhoEk2GH;
+        "CBwAJxaY" = _CBwAJxaY;
         "fabric-1.21.9" = _dhIcDNsO;
         "fabric-1.21.10" = _dhIcDNsO;
         "fabric-1.21.11" = _6RHBz4A4;
         "fabric-26.1.1" = _UhoEk2GH;
+        "fabric-26.3" = _CBwAJxaY;
         "pkg-1.21.9-fabric0.134.0-1.3.1" = _dhIcDNsO;
         "pkg-1.21.11-fabric-1.3.1" = _6RHBz4A4;
         "pkg-26.1.1-fabric-1.3.1" = _UhoEk2GH;
-        "default" = _UhoEk2GH;
+        "pkg-26.3-fabric-1.4.0" = _CBwAJxaY;
+        "default" = _CBwAJxaY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "advancement-info";

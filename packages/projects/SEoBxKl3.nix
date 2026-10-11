@@ -46,6 +46,11 @@ let
             "file" = "Better Clearer Glass v. 1.0.7.zip";
             "hash" = "sha512-ae8NmUH4Xf+na5KXmzNsowBydqRAu0392bYYkcugettguFddUs5z4dW/+11EkWtQyVoB5DSlhk7iQvyatCNi+A==";
         };
+        _nJtl3HUI = {
+            "id" = "nJtl3HUI";
+            "file" = "Better Clearer Glass v. 1.0.8.zip";
+            "hash" = "sha512-RIXtnT94JZZlxiXNODSlPmiKzq4XS9S7YeSLnof0LqkjXe+VWJFGpHsRnTLSBMKTfbdISbZKSDlIt/yz5LooBg==";
+        };
     in {
         "7bp26C1L" = _7bp26C1L;
         "iOoO8UMl" = _iOoO8UMl;
@@ -56,22 +61,24 @@ let
         "GyC7zyTK" = _GyC7zyTK;
         "rb6VPgXw" = _rb6VPgXw;
         "YhPZ7vLC" = _YhPZ7vLC;
-        "minecraft-1.21" = _YhPZ7vLC;
-        "minecraft-1.21.1" = _YhPZ7vLC;
-        "minecraft-1.21.2" = _YhPZ7vLC;
-        "minecraft-1.21.3" = _YhPZ7vLC;
-        "minecraft-1.21.4" = _YhPZ7vLC;
-        "minecraft-1.21.5" = _YhPZ7vLC;
-        "minecraft-1.21.6" = _YhPZ7vLC;
-        "minecraft-1.21.7" = _YhPZ7vLC;
-        "minecraft-1.21.8" = _YhPZ7vLC;
-        "minecraft-1.21.9" = _YhPZ7vLC;
-        "minecraft-1.21.10" = _YhPZ7vLC;
-        "minecraft-1.21.11" = _YhPZ7vLC;
-        "minecraft-26.1" = _YhPZ7vLC;
-        "minecraft-26.1.1" = _YhPZ7vLC;
-        "minecraft-26.1.2" = _YhPZ7vLC;
-        "minecraft-26.2" = _YhPZ7vLC;
+        "nJtl3HUI" = _nJtl3HUI;
+        "minecraft-1.21" = _nJtl3HUI;
+        "minecraft-1.21.1" = _nJtl3HUI;
+        "minecraft-1.21.2" = _nJtl3HUI;
+        "minecraft-1.21.3" = _nJtl3HUI;
+        "minecraft-1.21.4" = _nJtl3HUI;
+        "minecraft-1.21.5" = _nJtl3HUI;
+        "minecraft-1.21.6" = _nJtl3HUI;
+        "minecraft-1.21.7" = _nJtl3HUI;
+        "minecraft-1.21.8" = _nJtl3HUI;
+        "minecraft-1.21.9" = _nJtl3HUI;
+        "minecraft-1.21.10" = _nJtl3HUI;
+        "minecraft-1.21.11" = _nJtl3HUI;
+        "minecraft-26.1" = _nJtl3HUI;
+        "minecraft-26.1.1" = _nJtl3HUI;
+        "minecraft-26.1.2" = _nJtl3HUI;
+        "minecraft-26.2" = _nJtl3HUI;
+        "minecraft-26.3" = _nJtl3HUI;
         "pkg-1.0.0" = _7bp26C1L;
         "pkg-1.0.1" = _iOoO8UMl;
         "pkg-1.0.2" = _6G4du0LW;
@@ -80,7 +87,8 @@ let
         "pkg-1.0.5" = _GyC7zyTK;
         "pkg-1.0.6" = _rb6VPgXw;
         "pkg-1.0.7" = _YhPZ7vLC;
-        "default" = _YhPZ7vLC;
+        "pkg-1.0.8" = _nJtl3HUI;
+        "default" = _nJtl3HUI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-clearer-glass";

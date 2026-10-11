@@ -81,6 +81,11 @@ let
             "file" = "NoFortuneChest-2.0.0+26.2.jar";
             "hash" = "sha512-CZ3YcgKZiRBjel9XkwU/+j3aSW7uRYpsc+dsWG3VFaGOPPh6hZt0jqsE79/SEXv87w7yU8Dwa+NP4AkmT68ATw==";
         };
+        _lBPhWLYl = {
+            "id" = "lBPhWLYl";
+            "file" = "NoFortuneChest-2.0.0+26.3.jar";
+            "hash" = "sha512-oOjnTzUz1COIt4wk9a50tzSe9cSJ0kLuVVsNnOzMbYynwFWmewQHl5WCv1uPJ/KCv1Z9tflRkkA4DmctrwtdLQ==";
+        };
     in {
         "qHI9lhGp" = _qHI9lhGp;
         "ErXNdWXv" = _ErXNdWXv;
@@ -98,6 +103,7 @@ let
         "rUWwS4QW" = _rUWwS4QW;
         "1yextvOS" = _1yextvOS;
         "o5OMIUo3" = _o5OMIUo3;
+        "lBPhWLYl" = _lBPhWLYl;
         "fabric-1.20.4" = _ErXNdWXv;
         "fabric-1.20.6" = _vcrnzkw0;
         "fabric-1.21" = _45oxzQZc;
@@ -115,6 +121,7 @@ let
         "fabric-26.1.1" = _1yextvOS;
         "fabric-26.1.2" = _1yextvOS;
         "fabric-26.2" = _o5OMIUo3;
+        "fabric-26.3" = _lBPhWLYl;
         "pkg-1.0" = _qHI9lhGp;
         "pkg-1.0.1" = _ErXNdWXv;
         "pkg-1.0.2" = _vcrnzkw0;
@@ -131,7 +138,8 @@ let
         "pkg-1.2+1.21.11" = _rUWwS4QW;
         "pkg-2.0.0+26.1.x" = _1yextvOS;
         "pkg-2.0.0+26.2" = _o5OMIUo3;
-        "default" = _o5OMIUo3;
+        "pkg-2.0.0+26.3" = _lBPhWLYl;
+        "default" = _lBPhWLYl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nofortunechest";

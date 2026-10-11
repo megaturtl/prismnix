@@ -41,6 +41,16 @@ let
             "file" = "fix_cobblemon_pokemon_experience-1.1.1+1.21.1-fabric.jar";
             "hash" = "sha512-ENJIzHIhSVtXbAO1O+oj3dmquLqVhTL1uxpS3aj/798In00xRTkyNfLRVWNs651egHwEcCUfu5/dLyKVtQbpqQ==";
         };
+        _hD19FSQ5 = {
+            "id" = "hD19FSQ5";
+            "file" = "fix_cobblemon_pokemon_experience-1.2.0+1.21.1-neoforge.jar";
+            "hash" = "sha512-QNgwfrsu0BToe5YIah+BsQcTQh3jW8OtB801jpU9xZN0Q66jgij6Pqn0YWMFgRql4cEIWvAsKQgIbDsq2br71Q==";
+        };
+        _OjZ0T9Yy = {
+            "id" = "OjZ0T9Yy";
+            "file" = "fix_cobblemon_pokemon_experience-1.2.0+1.21.1-fabric.jar";
+            "hash" = "sha512-toh+6DHVWxFEiogl8Lp4xkfQzOwujxOZZWsXN89xq0PQ+Tg9XQTVZhiKpoA8p2bNXDW+BHYR+VwMCRHvoHO0ng==";
+        };
     in {
         "Yp6hPkdQ" = _Yp6hPkdQ;
         "NMsQIkol" = _NMsQIkol;
@@ -50,15 +60,19 @@ let
         "iiTwJlH3" = _iiTwJlH3;
         "5XJQbNBl" = _5XJQbNBl;
         "grAPZgay" = _grAPZgay;
-        "fabric-1.21.1" = _grAPZgay;
-        "neoforge-1.21.1" = _5XJQbNBl;
+        "hD19FSQ5" = _hD19FSQ5;
+        "OjZ0T9Yy" = _OjZ0T9Yy;
+        "fabric-1.21.1" = _OjZ0T9Yy;
+        "neoforge-1.21.1" = _hD19FSQ5;
         "pkg-1.0.0+1.21.1-fabric" = _Yp6hPkdQ;
         "pkg-1.0.0+1.21.1-neoforge" = _NMsQIkol;
         "pkg-1.1.0+1.21.1-neoforge" = _dUwb7UoY;
         "pkg-1.1.0+1.21.1-fabric" = _iiTwJlH3;
         "pkg-1.1.1+1.21.1-neoforge" = _5XJQbNBl;
         "pkg-1.1.1+1.21.1-fabric" = _grAPZgay;
-        "default" = _grAPZgay;
+        "pkg-1.2.0+1.21.1-neoforge" = _hD19FSQ5;
+        "pkg-1.2.0+1.21.1-fabric" = _OjZ0T9Yy;
+        "default" = _OjZ0T9Yy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fix-cobblemon-pokemon-experience";

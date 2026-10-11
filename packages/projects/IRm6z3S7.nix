@@ -106,6 +106,11 @@ let
             "file" = "elytraassistant-fabric-1.1.0-mc26.2.jar";
             "hash" = "sha512-Ygg1SXD5olgV/5ZP0XfgdZKxgrLBxTRLCTVaSXdC5TfP1eSUi0BAMTVitiB7QRSTthZy0P8ceCQb0BdrszWFBA==";
         };
+        _Em6hftvc = {
+            "id" = "Em6hftvc";
+            "file" = "elytraassistant-fabric-1.1.1-mc26.3.jar";
+            "hash" = "sha512-XSuThkLcc6EWrzsUBDqMF6pleX9qPGyQshNjOuz9M+Z7zOI0tIi+U5hKiVBHEx95OjyJEPp8nrRhaUpcSC/Clw==";
+        };
     in {
         "da9yVZOA" = _da9yVZOA;
         "ponGVthi" = _ponGVthi;
@@ -128,6 +133,7 @@ let
         "p17efuo3" = _p17efuo3;
         "zwt3u58t" = _zwt3u58t;
         "gq8RJcmB" = _gq8RJcmB;
+        "Em6hftvc" = _Em6hftvc;
         "fabric-1.21" = _iIl9g9h9;
         "fabric-1.21.1" = _iIl9g9h9;
         "fabric-1.21.2" = _LYAohtpS;
@@ -145,6 +151,7 @@ let
         "fabric-26.1.1" = _zwt3u58t;
         "fabric-26.1.2" = _zwt3u58t;
         "fabric-26.2" = _gq8RJcmB;
+        "fabric-26.3" = _Em6hftvc;
         "pkg-1.0.0" = _da9yVZOA;
         "pkg-1.0.2" = _ponGVthi;
         "pkg-mc1.21.4-v1.0.2" = _OdIF5ktL;
@@ -166,7 +173,8 @@ let
         "pkg-mc1.21.11-v1.0.6" = _p17efuo3;
         "pkg-mc26.1.2-v1.1.0" = _zwt3u58t;
         "pkg-mc26.2-v1.1.0" = _gq8RJcmB;
-        "default" = _gq8RJcmB;
+        "pkg-mc26.3-v1.1.1" = _Em6hftvc;
+        "default" = _Em6hftvc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elytra-assistant";

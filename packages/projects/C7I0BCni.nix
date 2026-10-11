@@ -1121,6 +1121,21 @@ let
             "file" = "mcw-windows-2.4.2-mc26.2fabric.jar";
             "hash" = "sha512-dDIbqcwc8/CpsfO3ewdweIDfoqmEdgWFoNWez4S/TxnLNhFCcq+AZ700G3aNpksm66gZu/IBZr5gkZQ953BK3A==";
         };
+        _GIK1xDxr = {
+            "id" = "GIK1xDxr";
+            "file" = "mcw-windows-2.4.2-mc26.3fabric.jar";
+            "hash" = "sha512-7wxBqDy1e8O0zAQUf2SksOlkbUCb/YCUvncNvktXVx83sARQg11Pjf3Pypdr4P/cDM1m5KfW2eh6bTFlb8yQ9w==";
+        };
+        _Zd88JogC = {
+            "id" = "Zd88JogC";
+            "file" = "mcw-windows-2.4.2-mc26.3neoforge.jar";
+            "hash" = "sha512-uEFhhnqXlWSA/jeMI0+JjbQChCFzb7JZvhDrf+9IsQMJDZc7ZQtalRGLoAmVll20B6b8V+892fiPsaEcEGTo7Q==";
+        };
+        _l9XasDfZ = {
+            "id" = "l9XasDfZ";
+            "file" = "mcw-windows-2.4.2-mc26.3forge.jar";
+            "hash" = "sha512-/BnvnJnG4rugyQp3x4P6c9wYSzXwkQILfGT0md6YvKuprtEH8pyG1/SgqaliuDk4h5ts0EmmKJ4wpDbAQfnEyQ==";
+        };
     in {
         "FBGQ902p" = _FBGQ902p;
         "dqdUAyfT" = _dqdUAyfT;
@@ -1346,6 +1361,9 @@ let
         "fFm01AO8" = _fFm01AO8;
         "miNdJSEk" = _miNdJSEk;
         "sNXCQQn1" = _sNXCQQn1;
+        "GIK1xDxr" = _GIK1xDxr;
+        "Zd88JogC" = _Zd88JogC;
+        "l9XasDfZ" = _l9XasDfZ;
         "forge-1.20.4" = _6821rPBE;
         "forge-1.16.5" = _IfFolNE8;
         "forge-1.17.1" = _HqAs7u2T;
@@ -1376,6 +1394,7 @@ let
         "forge-26.1.1" = _dKGZXdtY;
         "forge-26.1.2" = _dKGZXdtY;
         "forge-26.2" = _fFm01AO8;
+        "forge-26.3" = _l9XasDfZ;
         "fabric-1.20.4" = _DbNK4q5P;
         "fabric-1.20.3" = _vV7rAs88;
         "fabric-1.20.2" = _1IGkyjqz;
@@ -1403,6 +1422,7 @@ let
         "fabric-26.1.1" = _YAGJmlsb;
         "fabric-26.1.2" = _YAGJmlsb;
         "fabric-26.2" = _sNXCQQn1;
+        "fabric-26.3" = _GIK1xDxr;
         "neoforge-1.20.4" = _vtK2unrr;
         "neoforge-1.20.6" = _pGAEwJZt;
         "neoforge-1.21" = _kW7t5UOx;
@@ -1420,14 +1440,15 @@ let
         "neoforge-26.1.1" = _LeFUseF5;
         "neoforge-26.1.2" = _LeFUseF5;
         "neoforge-26.2" = _miNdJSEk;
+        "neoforge-26.3" = _Zd88JogC;
         "pkg-2.2.1" = _cJHm3kwe;
         "pkg-2.3.0" = _3zgCKbrR;
         "pkg-2.3.1" = _MPOPGLD0;
         "pkg-2.3.2" = _wkCXAzIM;
         "pkg-2.4.0" = _lE2yH6Dd;
         "pkg-2.4.1" = _I7EBrmQ9;
-        "pkg-2.4.2" = _sNXCQQn1;
-        "default" = _sNXCQQn1;
+        "pkg-2.4.2" = _l9XasDfZ;
+        "default" = _l9XasDfZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "macaws-windows";

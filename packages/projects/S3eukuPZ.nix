@@ -111,6 +111,16 @@ let
             "file" = "shellbound_for_airship-1.0.0-neoforge.jar";
             "hash" = "sha512-zUQG8poylFi1FPyJx2ul9w3zyQ1JbmasfrwR15IZO4rJ/msGZ3bT7lAZodL3VIcvi2pKc3fp/VpCCCy8ylc58Q==";
         };
+        _AY3Colek = {
+            "id" = "AY3Colek";
+            "file" = "shellbound-for-airship-forge-1.2.1.jar";
+            "hash" = "sha512-1o4dbpdUu8roIbx6xTcClRldv0mkiU+mx+Gc0Sq0jQxhSfOo+EXEA6kTIkE/ZQmAQ9hQJM1urAPEjjy0xFLzVw==";
+        };
+        _33tQCq5C = {
+            "id" = "33tQCq5C";
+            "file" = "shellbound-for-airship-1.2.1.jar";
+            "hash" = "sha512-QrmHJZRzzAbWKBXNBdFoHdvVwIp3ZL+iXAm4m0O1F7OcgoQ1JDOXjsa0DrR/Bn1WTw59/mkK4koa08r2kltKRw==";
+        };
     in {
         "eQWdHGbC" = _eQWdHGbC;
         "OtFNinbJ" = _OtFNinbJ;
@@ -134,6 +144,8 @@ let
         "8QArFRro" = _8QArFRro;
         "JnnyJTxT" = _JnnyJTxT;
         "cwcRVI2o" = _cwcRVI2o;
+        "AY3Colek" = _AY3Colek;
+        "33tQCq5C" = _33tQCq5C;
         "fabric-1.21.9" = _eQWdHGbC;
         "fabric-1.21.10" = _eQWdHGbC;
         "fabric-1.21.6" = _OtFNinbJ;
@@ -146,8 +158,8 @@ let
         "fabric-1.21" = _s511WoyI;
         "fabric-1.21.1" = _s511WoyI;
         "fabric-1.21.11" = _Dd8m7WeS;
-        "fabric-1.20" = _6tOKTsIN;
-        "fabric-1.20.1" = _6tOKTsIN;
+        "fabric-1.20" = _33tQCq5C;
+        "fabric-1.20.1" = _33tQCq5C;
         "fabric-1.20.2" = _POFore15;
         "fabric-1.20.3" = _rdxPJeWD;
         "fabric-1.20.4" = _rdxPJeWD;
@@ -169,11 +181,12 @@ let
         "neoforge-1.21" = _JZtRFKlv;
         "neoforge-1.21.1" = _JZtRFKlv;
         "neoforge-1.21.11" = _cwcRVI2o;
-        "forge-1.20" = _t80Sjk9P;
-        "forge-1.20.1" = _t80Sjk9P;
+        "forge-1.20" = _AY3Colek;
+        "forge-1.20.1" = _AY3Colek;
         "pkg-1.0.0" = _cwcRVI2o;
         "pkg-1.0.1" = _JnnyJTxT;
-        "default" = _cwcRVI2o;
+        "pkg-1.2.1" = _33tQCq5C;
+        "default" = _33tQCq5C;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shellbound-for-airship";

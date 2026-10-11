@@ -26,20 +26,27 @@ let
             "file" = "mekanism-ad-astra-ores-forge-1.20.1-1.1.0.jar";
             "hash" = "sha512-5qM5QJXtQkFC0gqtl56IidXRkMJ+Z9+YgidEugJ+CIQyRg0SnGVsJUCaj2iVCF7vxxuRb4T2B4wOEUJjzYyXgw==";
         };
+        _xzMvcc9M = {
+            "id" = "xzMvcc9M";
+            "file" = "mekanism-ad-astra-ores-neoforge-1.21.1-1.1.0.jar";
+            "hash" = "sha512-SoSmiN8PowLVHbgXYmg82tLI8N0wzBtFuljLJ0S/Kr1BXb1IT2fWHH/id8Q7BUSEiumw9bNQOUhkXg6cywqCgQ==";
+        };
     in {
         "GdHHQGd4" = _GdHHQGd4;
         "5cMDJkCf" = _5cMDJkCf;
         "6ETQVbWX" = _6ETQVbWX;
         "vZ8spYnj" = _vZ8spYnj;
         "ScHGqHJq" = _ScHGqHJq;
+        "xzMvcc9M" = _xzMvcc9M;
         "forge-1.20.1" = _ScHGqHJq;
         "neoforge-1.20.1" = _ScHGqHJq;
         "neoforge-1.20.4" = _vZ8spYnj;
+        "neoforge-1.21.1" = _xzMvcc9M;
         "pkg-0.2.0" = _GdHHQGd4;
         "pkg-0.3.0" = _5cMDJkCf;
         "pkg-1.0.0" = _6ETQVbWX;
-        "pkg-1.1.0" = _ScHGqHJq;
-        "default" = _ScHGqHJq;
+        "pkg-1.1.0" = _xzMvcc9M;
+        "default" = _xzMvcc9M;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mekanism-ad-astra-ores";

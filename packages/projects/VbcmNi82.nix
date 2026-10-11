@@ -536,6 +536,11 @@ let
             "file" = "deactivateriptideflight-NEOFORGE-1.2.1-26.3.jar";
             "hash" = "sha512-dy/gv3P2SaZ19RhWn0knbSog+MT/K+g/zzka5oWVtbtWBqdWhPUQOFL4IcK19DO7JS6cHs86NP09D14NF2fliw==";
         };
+        _IrGt8T7u = {
+            "id" = "IrGt8T7u";
+            "file" = "deactivateriptideflight-FORGE-1.2.1-26.3.jar";
+            "hash" = "sha512-Sf+Tc8QteQIJLP/6qNcqRkaMu5Pa0ExQ2gPPSeigXccegAMNISBa7eRoK30O3l2pV2hDg/rkHtH5qebP/D+x+Q==";
+        };
     in {
         "kxrBny2b" = _kxrBny2b;
         "aQrKQqoP" = _aQrKQqoP;
@@ -644,6 +649,7 @@ let
         "u3cF65ry" = _u3cF65ry;
         "mgKagYzG" = _mgKagYzG;
         "RScZYoij" = _RScZYoij;
+        "IrGt8T7u" = _IrGt8T7u;
         "fabric-1.14" = _kxrBny2b;
         "fabric-1.14.1" = _kxrBny2b;
         "fabric-1.14.2" = _kxrBny2b;
@@ -712,6 +718,7 @@ let
         "forge-26.1.2" = _XV1jh2SE;
         "forge-26.1" = _pQiMCzvN;
         "forge-26.2" = _xu4fRexO;
+        "forge-26.3" = _IrGt8T7u;
         "quilt-1.21" = _wqqDb1hB;
         "quilt-1.21.1" = _FrFlk2IW;
         "quilt-1.21.4" = _LrH7bpQR;
@@ -814,7 +821,8 @@ let
         "pkg-1.2.1+neoforge-26.2" = _u3cF65ry;
         "pkg-1.2.1+fabric-26.3" = _mgKagYzG;
         "pkg-1.2.1+neoforge-26.3" = _RScZYoij;
-        "default" = _RScZYoij;
+        "pkg-1.2.1+forge-26.3" = _IrGt8T7u;
+        "default" = _IrGt8T7u;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "deactivate-riptide-flight";

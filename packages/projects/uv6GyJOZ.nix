@@ -231,6 +231,16 @@ let
             "file" = "crosshairtweaks-1.5.3+26.2-fabric.jar";
             "hash" = "sha512-6dZgQvM1MNRX/2z8IEg4zBTz5q1X4I7jX9RsqEJjayPYjs7DELsDgVsr7N9SGZgkJPlIHdLTqQ4YxfA8NspdSA==";
         };
+        _uls45UTI = {
+            "id" = "uls45UTI";
+            "file" = "crosshairtweaks-1.5.4+26.3-fabric.jar";
+            "hash" = "sha512-CZ5kRala1nbUaO9p8oByHZHJuyTLIsoIYN6vDbHm1kBpMQgP8ZxkHVLTm8Oc9mE/coqMkhRVXZDeae5JudbiTw==";
+        };
+        _dHYGkXGc = {
+            "id" = "dHYGkXGc";
+            "file" = "crosshairtweaks-1.5.4+1.8.9-fabric.jar";
+            "hash" = "sha512-NW+/Wa1aGAF89zjRPsZf2GHQV7W3iIN0FJWPWoszXR2UhTaIsimNvZWaIU3G/ZwqWRbRlrYuLekE4mh+sq7zBQ==";
+        };
     in {
         "l4VEukuV" = _l4VEukuV;
         "hVvgSOm5" = _hVvgSOm5;
@@ -278,6 +288,8 @@ let
         "mlmvxO2x" = _mlmvxO2x;
         "w9NtL7zr" = _w9NtL7zr;
         "7fE0CKfQ" = _7fE0CKfQ;
+        "uls45UTI" = _uls45UTI;
+        "dHYGkXGc" = _dHYGkXGc;
         "fabric-1.20" = _qcWRI2IC;
         "fabric-1.20.1" = _qcWRI2IC;
         "fabric-1.19.4" = _Ig4SbiMl;
@@ -300,6 +312,7 @@ let
         "fabric-26.1.1" = _w9NtL7zr;
         "fabric-26.1.2" = _w9NtL7zr;
         "fabric-26.2" = _7fE0CKfQ;
+        "fabric-26.3" = _uls45UTI;
         "neoforge-1.21" = _jfSmUplh;
         "neoforge-1.21.1" = _jfSmUplh;
         "neoforge-1.21.2" = _IiL00Qez;
@@ -309,6 +322,7 @@ let
         "neoforge-1.21.6" = _kMJxfOtf;
         "neoforge-1.21.7" = _kMJxfOtf;
         "neoforge-1.21.8" = _kMJxfOtf;
+        "ornithe-1.8.9" = _dHYGkXGc;
         "pkg-1.0.0" = _hVvgSOm5;
         "pkg-1.0.1" = _Eu3PghSO;
         "pkg-1.1.0" = _eMSuS5l1;
@@ -326,7 +340,8 @@ let
         "pkg-1.5.1" = _mlmvxO2x;
         "pkg-1.5.2" = _w9NtL7zr;
         "pkg-1.5.3" = _7fE0CKfQ;
-        "default" = _7fE0CKfQ;
+        "pkg-1.5.4" = _dHYGkXGc;
+        "default" = _dHYGkXGc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crosshairtweaks";

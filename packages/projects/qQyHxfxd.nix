@@ -821,6 +821,21 @@ let
             "file" = "NoChatReports-FORGE-1.20.1-v2.2.3.jar";
             "hash" = "sha512-SG5hQ0JuzOfkeEtvNxfWEg3mop7nPI+h1kEiH3SQ5SfBPZQuwGHFhTok4f641AEmOX5AVRHDhoU3Vn7xuR9Eew==";
         };
+        _6g96avt2 = {
+            "id" = "6g96avt2";
+            "file" = "NoChatReports-FABRIC-26.3-v2.21.0.jar";
+            "hash" = "sha512-7ncz9QBJufhH86vup6HctCmTKl6b4W6atOHX23Uv9+Q/WkSfjZcfpg5vlpF+UJoF2GoDOZpxvidJRJ75HsOfZw==";
+        };
+        _TgBmmJgQ = {
+            "id" = "TgBmmJgQ";
+            "file" = "NoChatReports-FORGE-26.3-v2.21.0.jar";
+            "hash" = "sha512-eH+3WyeFGGtCI+cxMo3aj+l85wjd1NjQC2Q6hwyrkYpToMa4VhcwnhUoWh/PCGXXFaXpE7Vt2nxlpHGnPnTg0w==";
+        };
+        _RzXG2uJB = {
+            "id" = "RzXG2uJB";
+            "file" = "NoChatReports-NEOFORGE-26.3-v2.21.0.jar";
+            "hash" = "sha512-dUNUpo5Zb2fZ8LLkKBmr+rT7lQqQCTlqghbggGUubx4tFxnbuZh5M/tjxDp40RDfIUhZGVKxhzE7ng8dwpELkg==";
+        };
     in {
         "pRgCDYtw" = _pRgCDYtw;
         "s83qSm91" = _s83qSm91;
@@ -986,6 +1001,9 @@ let
         "6Odun2uz" = _6Odun2uz;
         "nBoj6rD0" = _nBoj6rD0;
         "2XUIKIAa" = _2XUIKIAa;
+        "6g96avt2" = _6g96avt2;
+        "TgBmmJgQ" = _TgBmmJgQ;
+        "RzXG2uJB" = _RzXG2uJB;
         "forge-1.19" = _iGz16nLR;
         "forge-1.19.1" = _USEfzIcD;
         "forge-1.19.2" = _RNAG69Zu;
@@ -1014,6 +1032,7 @@ let
         "forge-26.1.1" = _O7kQenHV;
         "forge-26.1.2" = _O7kQenHV;
         "forge-26.2" = _41WMFfGj;
+        "forge-26.3" = _TgBmmJgQ;
         "fabric-1.19" = _SDIvxcje;
         "fabric-1.19.1-pre2" = _UjWkOEop;
         "fabric-1.19.1-pre3" = _zTkuPqOt;
@@ -1049,6 +1068,7 @@ let
         "fabric-26.1.1" = _2yrLNE3S;
         "fabric-26.1.2" = _2yrLNE3S;
         "fabric-26.2" = _aDbxaVTi;
+        "fabric-26.3" = _6g96avt2;
         "quilt-1.19" = _SDIvxcje;
         "quilt-1.19.1-pre2" = _UjWkOEop;
         "quilt-1.19.1-pre3" = _zTkuPqOt;
@@ -1082,6 +1102,7 @@ let
         "neoforge-26.2" = _6Odun2uz;
         "neoforge-1.20" = _2XUIKIAa;
         "neoforge-1.20.1" = _2XUIKIAa;
+        "neoforge-26.3" = _RzXG2uJB;
         "pkg-Forge-1.19-v1.0.0" = _pRgCDYtw;
         "pkg-Fabric-1.19-v1.0.0" = _s83qSm91;
         "pkg-Fabric-1.19-v1.1.0" = _XGQE5ktC;
@@ -1246,7 +1267,10 @@ let
         "pkg-NeoForge-26.2-v2.20.2" = _6Odun2uz;
         "pkg-Fabric-1.20.1-v2.2.3" = _nBoj6rD0;
         "pkg-Forge-1.20.1-v2.2.3" = _2XUIKIAa;
-        "default" = _2XUIKIAa;
+        "pkg-Fabric-26.3-v2.21.0" = _6g96avt2;
+        "pkg-Forge-26.3-v2.21.0" = _TgBmmJgQ;
+        "pkg-NeoForge-26.3-v2.21.0" = _RzXG2uJB;
+        "default" = _RzXG2uJB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "no-chat-reports";

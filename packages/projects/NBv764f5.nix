@@ -106,6 +106,26 @@ let
             "file" = "ai-diary-3.1.0-neoforge-mc26.2.jar";
             "hash" = "sha512-K2OvtZhtFtDhGEPoePg1kYl8g47m70y9aBZ1V6YqZzpz/s4wSw/100RgQoBgQMxrPaafq3KLVl3jT9O7zkFp8g==";
         };
+        _ypXVOlPf = {
+            "id" = "ypXVOlPf";
+            "file" = "ai-diary-3.2.0-fabric-mc26.3.jar";
+            "hash" = "sha512-YfLA1E71lfZ81acUXefqsiWcDkgfKTmlAl6I6xKVezMlQghEI9sU7d8lTse2XXPMrbBhvj9pqQ+B7jwWc0MJRg==";
+        };
+        _DghH56Xg = {
+            "id" = "DghH56Xg";
+            "file" = "ai-diary-3.2.0-neoforge-mc26.3.jar";
+            "hash" = "sha512-LqfoC04Xr49otyX0NjydbdM/7O5BlV56Y8GyDwfaye70D2S+30SpXf5eilQo4sDz0DK6gQeLlOBszr4JPvNIOw==";
+        };
+        _oQ6QHYOX = {
+            "id" = "oQ6QHYOX";
+            "file" = "ai-diary-4.0.0-fabric-mc26.3.jar";
+            "hash" = "sha512-dpGkEJBO6ZzNZQVpt1zfGmNRDgzY5G2bMV+xe5/fELmA4HZTVJEM7CzJ+EKVc4fDLitTQ+09RPte/5p6NbY1NQ==";
+        };
+        _LBfcxYB1 = {
+            "id" = "LBfcxYB1";
+            "file" = "ai-diary-4.0.0-neoforge-mc26.3.jar";
+            "hash" = "sha512-zHPaexcbZBDExaEIGv0ck8AM2Kujn9FcVmXHsjAyNK6LkbdnnalnErODnjgZgdTA+zR/NJXyEzyOL3Ns5f+yAg==";
+        };
     in {
         "OaulttS4" = _OaulttS4;
         "LzQwZpgz" = _LzQwZpgz;
@@ -128,6 +148,10 @@ let
         "TZ6831PE" = _TZ6831PE;
         "x6qgreAt" = _x6qgreAt;
         "acmcdXSi" = _acmcdXSi;
+        "ypXVOlPf" = _ypXVOlPf;
+        "DghH56Xg" = _DghH56Xg;
+        "oQ6QHYOX" = _oQ6QHYOX;
+        "LBfcxYB1" = _LBfcxYB1;
         "fabric-1.20.4" = _LzQwZpgz;
         "fabric-1.21" = _KGL2ieEp;
         "fabric-1.21.8" = _RHNqAieH;
@@ -136,11 +160,13 @@ let
         "fabric-26.1.1" = _tJ6A8eNJ;
         "fabric-26.1.2" = _mEObGF56;
         "fabric-26.2" = _x6qgreAt;
+        "fabric-26.3" = _oQ6QHYOX;
         "neoforge-1.21.10" = _Q3YBZfTW;
         "neoforge-1.21.11" = _TZ6831PE;
         "neoforge-26.1.1" = _1wLsnV1h;
         "neoforge-26.1.2" = _EmPzZYfA;
         "neoforge-26.2" = _acmcdXSi;
+        "neoforge-26.3" = _LBfcxYB1;
         "pkg-1.0.0" = _OaulttS4;
         "pkg-1.1.0" = _LzQwZpgz;
         "pkg-2.1.0" = _xlzjXnCC;
@@ -156,7 +182,11 @@ let
         "pkg-v3.1.0-NeoForge-mc1.21.11" = _TZ6831PE;
         "pkg-v3.1.0-Fabric-mc26.2" = _x6qgreAt;
         "pkg-v3.1.0-NeoForge-mc26.2" = _acmcdXSi;
-        "default" = _acmcdXSi;
+        "pkg-v3.2.0+fabric-mc26.3" = _ypXVOlPf;
+        "pkg-v3.2.0+neoforge-mc26.3" = _DghH56Xg;
+        "pkg-v4.0.0+fabric-mc26.3" = _oQ6QHYOX;
+        "pkg-v4.0.0+neoforge-mc26.3" = _LBfcxYB1;
+        "default" = _LBfcxYB1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ai-diary";

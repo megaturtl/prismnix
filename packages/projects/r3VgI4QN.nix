@@ -186,6 +186,11 @@ let
             "file" = "reacharound+26.2-1.4.2.jar";
             "hash" = "sha512-S/sqd5Z1VwKWedZUyEef6fEoN8JDfm/sEiquaXGxU3RwwRX69OGz+9A4ipuj0bo4FM0+v+ei3kpEu5g/YIojag==";
         };
+        _KeOiBF6k = {
+            "id" = "KeOiBF6k";
+            "file" = "reacharound+26.3-1.4.2.jar";
+            "hash" = "sha512-q897Ogop7woG9/CdgyNxvJP8F8hPFYoBdnhJlmuT1CEqMWJttri+H3qWp/6bky2S8EiSGJmM1pbc1lGxVOU9WQ==";
+        };
     in {
         "oTJh3hyu" = _oTJh3hyu;
         "cBbhYoW2" = _cBbhYoW2;
@@ -224,6 +229,7 @@ let
         "AZtjGmCx" = _AZtjGmCx;
         "E7BWZTZa" = _E7BWZTZa;
         "eHX4ydhb" = _eHX4ydhb;
+        "KeOiBF6k" = _KeOiBF6k;
         "fabric-1.19" = _iGZcnOtt;
         "fabric-1.19.1" = _iGZcnOtt;
         "fabric-1.19.2" = _iGZcnOtt;
@@ -254,6 +260,7 @@ let
         "fabric-26.1.1" = _E7BWZTZa;
         "fabric-26.1.2" = _E7BWZTZa;
         "fabric-26.2" = _eHX4ydhb;
+        "fabric-26.3" = _KeOiBF6k;
         "quilt-1.19" = _iGZcnOtt;
         "quilt-1.19.1" = _iGZcnOtt;
         "quilt-1.19.2" = _iGZcnOtt;
@@ -293,8 +300,8 @@ let
         "pkg-1.3.1" = _rSXe0bUS;
         "pkg-1.4.0" = _E5XgPnPH;
         "pkg-1.4.1" = _myOxLaHP;
-        "pkg-1.4.2" = _eHX4ydhb;
-        "default" = _eHX4ydhb;
+        "pkg-1.4.2" = _KeOiBF6k;
+        "default" = _KeOiBF6k;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "reacharound";

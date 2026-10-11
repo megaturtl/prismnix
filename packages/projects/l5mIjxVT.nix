@@ -156,6 +156,16 @@ let
             "file" = "kazeran-eeveelutions-1.5.1.jar";
             "hash" = "sha512-/Vn59+oluLjsG5bSt5zwG6jZu9B7MlkIdJrYXzAqVvSuX457oAILkcyw4rucYgyLTPEpXopYmDvxr/cca0Bu3A==";
         };
+        _eqRzn4ZN = {
+            "id" = "eqRzn4ZN";
+            "file" = "Kazeran_Eeveelutions_v1.6.1.zip";
+            "hash" = "sha512-MFKTqb485NowTAhXCOvtc1PO1AqeoQ7RGnAlknEINIdcyV+bwmlgQHpTJ75nf2WpgZA0sukF2OU/5yNp4yr4VA==";
+        };
+        _qi0PqivC = {
+            "id" = "qi0PqivC";
+            "file" = "kazeran-eeveelutions-1.6.jar";
+            "hash" = "sha512-1hcuQwUOe/IsAgFSOJh9suThZJZtjUnLhRUuYMQtxhO3wNiAdhrZpoOV21cbz9mCKDSsfcKte30s9mlJXlduOA==";
+        };
     in {
         "Oi1pJY4n" = _Oi1pJY4n;
         "fmlhCH6m" = _fmlhCH6m;
@@ -188,10 +198,12 @@ let
         "ewH5k6gQ" = _ewH5k6gQ;
         "byN4PjJF" = _byN4PjJF;
         "lpZfpuhD" = _lpZfpuhD;
-        "datapack-1.21.1" = _byN4PjJF;
-        "fabric-1.21.1" = _lpZfpuhD;
-        "neoforge-1.21.1" = _lpZfpuhD;
-        "minecraft-1.21.1" = _byN4PjJF;
+        "eqRzn4ZN" = _eqRzn4ZN;
+        "qi0PqivC" = _qi0PqivC;
+        "datapack-1.21.1" = _eqRzn4ZN;
+        "fabric-1.21.1" = _qi0PqivC;
+        "neoforge-1.21.1" = _qi0PqivC;
+        "minecraft-1.21.1" = _eqRzn4ZN;
         "pkg-0.1" = _Oi1pJY4n;
         "pkg-0.1.1" = _fmlhCH6m;
         "pkg-0.1.2" = _blqSz67T;
@@ -223,7 +235,9 @@ let
         "pkg-1.5+mod" = _ewH5k6gQ;
         "pkg-1.5.1" = _byN4PjJF;
         "pkg-1.5.1+mod" = _lpZfpuhD;
-        "default" = _lpZfpuhD;
+        "pkg-1.6" = _eqRzn4ZN;
+        "pkg-1.6+mod" = _qi0PqivC;
+        "default" = _qi0PqivC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kazeran-eeveelutions";

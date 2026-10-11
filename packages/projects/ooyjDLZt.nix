@@ -241,6 +241,16 @@ let
             "file" = "ConstructionSticks-1.21.1-1.5.0.jar";
             "hash" = "sha512-isA+8iHmV9jIZBMOA9vAtfRWJ4NlRxKPzYZvxfBKClrWbXLBx6PM7skGFG7HKPup3B+XakimLfpA0++r7q1a1g==";
         };
+        _Xtl641cj = {
+            "id" = "Xtl641cj";
+            "file" = "ConstructionSticks-26.3-5.0.0.jar";
+            "hash" = "sha512-+Aq5kKZyK1AyjkdI2h8uNxxQa5ZL1xNeyMIZW0eAimw+oqgICUlclleJQ1qyfx6HpgPEBGgqOQtDlZvnMjGd4g==";
+        };
+        _IHKUzTQn = {
+            "id" = "IHKUzTQn";
+            "file" = "ConstructionSticks-26.1.2-3.2.1.jar";
+            "hash" = "sha512-cW/iKIuMEyZ+lF2wr+vvszmXBwUxrVqsV08o0iyOanN07yK1IAF6Ya/2iAfs7W0N/IsQ/c/lK5c5mlGceWqrRw==";
+        };
     in {
         "8oDr2gK6" = _8oDr2gK6;
         "FQC3qXBa" = _FQC3qXBa;
@@ -290,6 +300,8 @@ let
         "FtgW0hmT" = _FtgW0hmT;
         "FVbTkTMs" = _FVbTkTMs;
         "5dwDOCYP" = _5dwDOCYP;
+        "Xtl641cj" = _Xtl641cj;
+        "IHKUzTQn" = _IHKUzTQn;
         "neoforge-1.21.1" = _5dwDOCYP;
         "neoforge-1.21.4" = _DFDiPSuy;
         "neoforge-1.21.5" = _PaF7tC1h;
@@ -300,8 +312,9 @@ let
         "neoforge-1.21.11" = _txS9AHF2;
         "neoforge-1.20.1" = _WotgB3nY;
         "neoforge-26.1" = _kvdeoDLA;
-        "neoforge-26.1.2" = _FVbTkTMs;
+        "neoforge-26.1.2" = _IHKUzTQn;
         "neoforge-26.2" = _FtgW0hmT;
+        "neoforge-26.3" = _Xtl641cj;
         "forge-1.20.1" = _WotgB3nY;
         "pkg-1.0.0" = _8oDr2gK6;
         "pkg-1.0.1" = _FQC3qXBa;
@@ -350,7 +363,9 @@ let
         "pkg-4.1.0" = _FtgW0hmT;
         "pkg-3.2.0" = _FVbTkTMs;
         "pkg-1.5.0" = _5dwDOCYP;
-        "default" = _5dwDOCYP;
+        "pkg-5.0.0" = _Xtl641cj;
+        "pkg-3.2.1" = _IHKUzTQn;
+        "default" = _IHKUzTQn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "construction-sticks";

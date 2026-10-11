@@ -21,11 +21,17 @@ let
             "file" = "fastcrystalspin-2.0.2.jar";
             "hash" = "sha512-gZgDuLBsG26b2TxKXAMb3orqKo5z9WdLFjLXcuDaCNv/ld7igflnxWVfX6s7dTOTxeBka39unHSJA8kDQvvZ8g==";
         };
+        _ZBliwWmw = {
+            "id" = "ZBliwWmw";
+            "file" = "fastcrystalspin-2.0.3.jar";
+            "hash" = "sha512-8cJFL7dJ9tii0LfO6dZy5VGksBY1UxcLESpxc/4t6uwzrF2RV2c2myMRCtKEM/7/Z0kJB0NdRrQrnleBwXHmNA==";
+        };
     in {
         "KeWPLygE" = _KeWPLygE;
         "iaGdr6i6" = _iaGdr6i6;
         "d5kYGNEX" = _d5kYGNEX;
         "Yj5CaNc9" = _Yj5CaNc9;
+        "ZBliwWmw" = _ZBliwWmw;
         "fabric-1.20.1" = _KeWPLygE;
         "fabric-1.20.2" = _KeWPLygE;
         "fabric-1.20.3" = _KeWPLygE;
@@ -48,10 +54,12 @@ let
         "fabric-26.1.1" = _d5kYGNEX;
         "fabric-26.1.2" = _d5kYGNEX;
         "fabric-26.2" = _Yj5CaNc9;
+        "fabric-26.3" = _ZBliwWmw;
         "pkg-1.0.3" = _iaGdr6i6;
         "pkg-2.0.1" = _d5kYGNEX;
         "pkg-2.0.2" = _Yj5CaNc9;
-        "default" = _Yj5CaNc9;
+        "pkg-2.0.3" = _ZBliwWmw;
+        "default" = _ZBliwWmw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fastcrystalspin";

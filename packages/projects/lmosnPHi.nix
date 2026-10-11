@@ -556,6 +556,31 @@ let
             "file" = "InfChest-NeoForge-26.2-26.2.1.jar";
             "hash" = "sha512-ncQu3ndGPBD111r8D6uhb02DRLGv2uELx/VlXrOpgn1CXVvStnOMBS1rrNuDGSJY+8tnCCZk7Ko6ZIq1DvST4A==";
         };
+        _8vtMl8uN = {
+            "id" = "8vtMl8uN";
+            "file" = "InfChest-Fabric-26.3-26.3.0.jar";
+            "hash" = "sha512-nw/doMtChYykgh0VKR0nQNnZ4hE8gmqnSIY9cg9Y+0/vqMyP230D3J4EXP3CZ+eBir/2ZNgCLcf9vR5DBYPUMw==";
+        };
+        _i5CiPpUC = {
+            "id" = "i5CiPpUC";
+            "file" = "InfChest-NeoForge-26.3-26.3.0.jar";
+            "hash" = "sha512-+459jL3xajmKN9qLdURPyOPIAl+3YCkP3/w2J44lJpKfK8VNUyfT+DO10nYFfghUYVQg1QERpFnOaTIaSOEcwQ==";
+        };
+        _HUxCD0pk = {
+            "id" = "HUxCD0pk";
+            "file" = "InfChest-Forge-26.3-26.3.1.jar";
+            "hash" = "sha512-MYz2rxhA46VgalG++CzC2K3M4AaMoA7nRSs9+FKRoVXttt79H8RejpTbdJKXMCnC63M4mVbeWOtjZxuT7BBgBQ==";
+        };
+        _IiYwLT7j = {
+            "id" = "IiYwLT7j";
+            "file" = "InfChest-Fabric-26.3-26.3.1.jar";
+            "hash" = "sha512-kMarqTiiPldT68mc8wAxhh6PfW0tGhptf4D6S7HJSxwD7pukgNaS9xcIAsEB4GhJZxS0ZgCrgnMBJl2qt1GaPA==";
+        };
+        _aiPmNQoX = {
+            "id" = "aiPmNQoX";
+            "file" = "InfChest-NeoForge-26.3-26.3.1.jar";
+            "hash" = "sha512-3Y+cjzD7CfhCVffPWRWi3J5vBsGuKq+95eY6HtStFVZkhJa4PRVL7faTrW26PUHfm1yH5LWWVegtVHkiGHw9CQ==";
+        };
     in {
         "k9OJ6Zma" = _k9OJ6Zma;
         "QeJ0dg1v" = _QeJ0dg1v;
@@ -668,6 +693,11 @@ let
         "diFbrXuO" = _diFbrXuO;
         "fWh6VMrl" = _fWh6VMrl;
         "MOU6CItx" = _MOU6CItx;
+        "8vtMl8uN" = _8vtMl8uN;
+        "i5CiPpUC" = _i5CiPpUC;
+        "HUxCD0pk" = _HUxCD0pk;
+        "IiYwLT7j" = _IiYwLT7j;
+        "aiPmNQoX" = _aiPmNQoX;
         "fabric-1.20" = _k9OJ6Zma;
         "fabric-1.20.1" = _2uZID2NY;
         "fabric-1.20.2" = _cMhDvrsW;
@@ -687,6 +717,7 @@ let
         "fabric-1.21.11" = _D8zRyKaZ;
         "fabric-26.1.2" = _8F5HAh9j;
         "fabric-26.2" = _fWh6VMrl;
+        "fabric-26.3" = _IiYwLT7j;
         "forge-1.20" = _QeJ0dg1v;
         "forge-1.20.1" = _lpsqjLnb;
         "forge-1.20.2" = _2HeSC693;
@@ -707,6 +738,7 @@ let
         "forge-1.21.11" = _w0o10iMe;
         "forge-26.1.2" = _o8Wfm465;
         "forge-26.2" = _diFbrXuO;
+        "forge-26.3" = _HUxCD0pk;
         "neoforge-1.20.2" = _CFR2vPXc;
         "neoforge-1.20.3" = _e09ldYFi;
         "neoforge-1.20.4" = _sX39iiuh;
@@ -724,6 +756,7 @@ let
         "neoforge-1.21.11" = _LzoZD4Wj;
         "neoforge-26.1.2" = _kVF7kS76;
         "neoforge-26.2" = _MOU6CItx;
+        "neoforge-26.3" = _aiPmNQoX;
         "pkg-20.0" = _QeJ0dg1v;
         "pkg-20.1" = _T3F86ABI;
         "pkg-20.2" = _HSAPAdlv;
@@ -767,7 +800,9 @@ let
         "pkg-26.1.1" = _8F5HAh9j;
         "pkg-26.2.0" = _BmBaA5c3;
         "pkg-26.2.1" = _MOU6CItx;
-        "default" = _MOU6CItx;
+        "pkg-26.3.0" = _i5CiPpUC;
+        "pkg-26.3.1" = _aiPmNQoX;
+        "default" = _aiPmNQoX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "infchest";

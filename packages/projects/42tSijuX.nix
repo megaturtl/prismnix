@@ -41,6 +41,11 @@ let
             "file" = "rei-search-bar-calculations-1.1.1+1.21.6-11.jar";
             "hash" = "sha512-p9K2fLEigU3iLTbaoZLFUSuAKYG3LfJi9DWovqTZy8ZWUMtI1NuZi9SPl2hYS7xDJtaZ8dPn27RfW3ngsAsoKQ==";
         };
+        _QC3E7Z6G = {
+            "id" = "QC3E7Z6G";
+            "file" = "rei-search-bar-calculations-1.2.0+26.1.jar";
+            "hash" = "sha512-szQpCXluCB4SpjWDMfkiNYxmEnrD8LxeKX7S3iiyVWLSaDpTjEJxW2BxalnTAMtnosuTID5sM8Vm1cVOmQ4Jxw==";
+        };
     in {
         "TE8gz09Z" = _TE8gz09Z;
         "mFrtKmhb" = _mFrtKmhb;
@@ -50,6 +55,7 @@ let
         "Z6dDBHVb" = _Z6dDBHVb;
         "aWCIqrZA" = _aWCIqrZA;
         "7FZ0ztVf" = _7FZ0ztVf;
+        "QC3E7Z6G" = _QC3E7Z6G;
         "fabric-1.21.5" = _Z6dDBHVb;
         "fabric-1.21.6" = _7FZ0ztVf;
         "fabric-1.21.7" = _7FZ0ztVf;
@@ -57,6 +63,10 @@ let
         "fabric-1.21.9" = _7FZ0ztVf;
         "fabric-1.21.10" = _7FZ0ztVf;
         "fabric-1.21.11" = _7FZ0ztVf;
+        "fabric-26.1" = _QC3E7Z6G;
+        "fabric-26.1.1" = _QC3E7Z6G;
+        "fabric-26.1.2" = _QC3E7Z6G;
+        "fabric-26.2" = _QC3E7Z6G;
         "pkg-1.0" = _TE8gz09Z;
         "pkg-1.0.1" = _mFrtKmhb;
         "pkg-1.0.2+1.21.5" = _CwMDDBgZ;
@@ -65,7 +75,8 @@ let
         "pkg-1.1.0+1.21.5" = _Z6dDBHVb;
         "pkg-1.1.0+1.21.6-10" = _aWCIqrZA;
         "pkg-1.1.1+1.21.6-11" = _7FZ0ztVf;
-        "default" = _7FZ0ztVf;
+        "pkg-1.2.0+26.1" = _QC3E7Z6G;
+        "default" = _QC3E7Z6G;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rei-search-bar-calculations";

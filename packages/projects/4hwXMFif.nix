@@ -186,6 +186,16 @@ let
             "file" = "map_atlases-1.21-6.7.3-neoforge.jar";
             "hash" = "sha512-1ysGXCHK7wEswBXySOteUiOvvcIuvrFbRHqbj1n74HWHzMiBn7gdEMW/q7QWB8BvC9Oe5xj34Kuc0MVOCOao4A==";
         };
+        _ecuMnNO4 = {
+            "id" = "ecuMnNO4";
+            "file" = "map_atlases-1.21-7.0.1-neoforge.jar";
+            "hash" = "sha512-KBRlc+DCdMEYjRcVDGGXqfQypjde6OfDSuq4xfAjdm7uhj+GGHvQsTPARkZbHw7fEIsT9gdJMTKofcHaW4eGGw==";
+        };
+        _NdJwZprF = {
+            "id" = "NdJwZprF";
+            "file" = "map_atlases-26.1.2-8.0.0-neoforge.jar";
+            "hash" = "sha512-On0dN39sFr7N+YO5TU7h9ljKqG2lFDvb7eNlSb9fgqw6BINUN6V8Bb96JuFRqOsiRfBA1ZxwSvVExZatRG16VA==";
+        };
     in {
         "eO1GObAy" = _eO1GObAy;
         "cgfzOZQb" = _cgfzOZQb;
@@ -224,9 +234,12 @@ let
         "q2Aypy4j" = _q2Aypy4j;
         "PnETlK1o" = _PnETlK1o;
         "LMLZBhEN" = _LMLZBhEN;
+        "ecuMnNO4" = _ecuMnNO4;
+        "NdJwZprF" = _NdJwZprF;
         "forge-1.20.1" = _Zcz2vXIl;
         "neoforge-1.21" = _52GVcpEz;
-        "neoforge-1.21.1" = _LMLZBhEN;
+        "neoforge-1.21.1" = _ecuMnNO4;
+        "neoforge-26.1.2" = _NdJwZprF;
         "pkg-1.20-6.0.14" = _EOZdkSLw;
         "pkg-1.20-6.0.15" = _21aYJw9P;
         "pkg-neoforge_1.21-6.1.0" = _BIy70JVm;
@@ -259,7 +272,9 @@ let
         "pkg-1.21-6.7.1" = _q2Aypy4j;
         "pkg-1.21-6.7.2" = _PnETlK1o;
         "pkg-1.21-6.7.3" = _LMLZBhEN;
-        "default" = _LMLZBhEN;
+        "pkg-1.21-7.0.1" = _ecuMnNO4;
+        "pkg-26.1.2-8.0.0" = _NdJwZprF;
+        "default" = _NdJwZprF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "map-atlases-forge";

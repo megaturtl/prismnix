@@ -471,6 +471,16 @@ let
             "file" = "jeiworldgen-neoforge-26.3-1.4.5.jar";
             "hash" = "sha512-wS+DVQddz51ThIgNrNs/WngOD7fBO5LBKcStxgRRG5Gk5ukhWquREZUYEcCG65oqbQVk9EjlRBcpp/Zqi0oMgA==";
         };
+        _OZ4iQd0e = {
+            "id" = "OZ4iQd0e";
+            "file" = "jeiworldgen-fabric-26.3-1.4.6.jar";
+            "hash" = "sha512-hLgCjwjR0P4bgt3LJ43aqMEXD/ydQmdlR2x/kCYJkiRJc/P52XeZRWX76C9Yvk4l0y7MssedhZqU1JkjaBzqeg==";
+        };
+        _ToMtqtyu = {
+            "id" = "ToMtqtyu";
+            "file" = "jeiworldgen-neoforge-26.3-1.4.6.jar";
+            "hash" = "sha512-3leXjTP02KsCK3N2JwRYDBlUjBkaev28p1/fbD86oV6xg7VXVeDoJMMUomZSZP25Q5dhRRXu/UjaXmHwHngDwQ==";
+        };
     in {
         "RQsFj6Hu" = _RQsFj6Hu;
         "KKtdwxag" = _KKtdwxag;
@@ -566,6 +576,8 @@ let
         "O5aJfUgI" = _O5aJfUgI;
         "oXmTzs3e" = _oXmTzs3e;
         "GcE1HX4l" = _GcE1HX4l;
+        "OZ4iQd0e" = _OZ4iQd0e;
+        "ToMtqtyu" = _ToMtqtyu;
         "forge-1.20.1" = _GVElfR28;
         "fabric-1.20.1" = _DysGG5jX;
         "fabric-1.21" = _YCbU4oNq;
@@ -574,14 +586,14 @@ let
         "fabric-26.1.1" = _SRHYJw1K;
         "fabric-26.1.2" = _SRHYJw1K;
         "fabric-26.2" = _bO8tgBCi;
-        "fabric-26.3" = _oXmTzs3e;
+        "fabric-26.3" = _OZ4iQd0e;
         "neoforge-1.21" = _oKAbbsF3;
         "neoforge-1.21.1" = _oKAbbsF3;
         "neoforge-26.1" = _Ekw9PNK9;
         "neoforge-26.1.1" = _Ekw9PNK9;
         "neoforge-26.1.2" = _Ekw9PNK9;
         "neoforge-26.2" = _O5aJfUgI;
-        "neoforge-26.3" = _GcE1HX4l;
+        "neoforge-26.3" = _ToMtqtyu;
         "pkg-1.0.0-beta+forge-1.20.1" = _RQsFj6Hu;
         "pkg-1.0.0-beta+fabric-1.20.1" = _KKtdwxag;
         "pkg-1.0.0+forge-1.20.1" = _m4NuSftm;
@@ -676,7 +688,9 @@ let
         "pkg-1.4.5+neoforge-26.2" = _O5aJfUgI;
         "pkg-1.4.5+fabric-26.3" = _oXmTzs3e;
         "pkg-1.4.5+neoforge-26.3" = _GcE1HX4l;
-        "default" = _GcE1HX4l;
+        "pkg-1.4.6+fabric-26.3" = _OZ4iQd0e;
+        "pkg-1.4.6+neoforge-26.3" = _ToMtqtyu;
+        "default" = _ToMtqtyu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jei-worldgen";

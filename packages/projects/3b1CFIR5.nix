@@ -246,6 +246,16 @@ let
             "file" = "MobPlaques-v26.2.1-mc26.2.x-NeoForge.jar";
             "hash" = "sha512-j+R7mG8/wYZ8xEfrjSwR3eRA/nQWojz5fcX6zAjC0EAVIODd4DxqAYstzwS7zhJg2PQ1g1SUQ7DsAQV/QPWgoA==";
         };
+        _HxbfXpQq = {
+            "id" = "HxbfXpQq";
+            "file" = "mobplaques-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-HDA/6kl2xwDJ7r8D1LGQoF5hHqqUcASv8omOrWw3BbllVz6j23qHaZFi92jJue8fVq8a/GZCG1ThySdf9kyISw==";
+        };
+        _j91uH4Kf = {
+            "id" = "j91uH4Kf";
+            "file" = "mobplaques-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-Ts1jb0aEKyaLq6/Rgd/WImNMeOI92Axypg4fjvQpKH3/t6FK60OMBHVddanRzTsMO+E944J7Kmnk7NZjIWLUcw==";
+        };
     in {
         "v5DKY8Wa" = _v5DKY8Wa;
         "VyiEPoIo" = _VyiEPoIo;
@@ -296,6 +306,8 @@ let
         "8Z0GxmY4" = _8Z0GxmY4;
         "W0URbzOf" = _W0URbzOf;
         "F3yGjflW" = _F3yGjflW;
+        "HxbfXpQq" = _HxbfXpQq;
+        "j91uH4Kf" = _j91uH4Kf;
         "forge-1.19.2" = _n3Ce9mNi;
         "forge-1.19.3" = _waiGuWuT;
         "forge-1.19.4" = _blGPZUFI;
@@ -322,6 +334,7 @@ let
         "fabric-26.1.1" = _8Z0GxmY4;
         "fabric-26.1.2" = _8Z0GxmY4;
         "fabric-26.2" = _W0URbzOf;
+        "fabric-26.3" = _j91uH4Kf;
         "neoforge-1.20.4" = _wFW7OJCI;
         "neoforge-1.21" = _18g31FS1;
         "neoforge-1.21.1" = _gDwygHA5;
@@ -337,6 +350,7 @@ let
         "neoforge-26.1.1" = _LGaPH7dU;
         "neoforge-26.1.2" = _LGaPH7dU;
         "neoforge-26.2" = _F3yGjflW;
+        "neoforge-26.3" = _HxbfXpQq;
         "pkg-v4.0.0-1.19.2-Forge" = _v5DKY8Wa;
         "pkg-v4.0.0-1.19.2-Fabric" = _VyiEPoIo;
         "pkg-v4.0.1-1.19.2-Forge" = _n3Ce9mNi;
@@ -379,7 +393,8 @@ let
         "pkg-26.2.0" = _ls9l9O88;
         "pkg-26.1.1" = _8Z0GxmY4;
         "pkg-26.2.1" = _F3yGjflW;
-        "default" = _F3yGjflW;
+        "pkg-26.3.0" = _j91uH4Kf;
+        "default" = _j91uH4Kf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mob-plaques";

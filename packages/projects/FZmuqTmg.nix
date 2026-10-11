@@ -46,6 +46,11 @@ let
             "file" = "wathe_blood-1.1.5+1.21.1.jar";
             "hash" = "sha512-nYKbpzWfx4vGEDpXL+njmpKUL3o6RrUOKCNG+EzFGhkokx3dd+qmbxsD+cx64fUCQiwH1V706QqTqkc2oQ4Ysw==";
         };
+        _Y5dF5dze = {
+            "id" = "Y5dF5dze";
+            "file" = "wathe_blood-1.1.6+1.21.1.jar";
+            "hash" = "sha512-dbypxplvfR2KNL7Xy405esJHxEnwa+CWX7nQiMb5FhEawh3cfwSnzRkCBTyNrBgGTMrxCeVDeEIfJZtqbZTjSQ==";
+        };
     in {
         "KXxooYvy" = _KXxooYvy;
         "7zncgknf" = _7zncgknf;
@@ -56,7 +61,8 @@ let
         "3pYrwIKJ" = _3pYrwIKJ;
         "hZP3gLpl" = _hZP3gLpl;
         "DFauJ6qU" = _DFauJ6qU;
-        "fabric-1.21.1" = _DFauJ6qU;
+        "Y5dF5dze" = _Y5dF5dze;
+        "fabric-1.21.1" = _Y5dF5dze;
         "pkg-1.0.0" = _KXxooYvy;
         "pkg-1.0.1" = _7zncgknf;
         "pkg-1.0.2" = _fKL02GXI;
@@ -66,7 +72,8 @@ let
         "pkg-1.1.3" = _3pYrwIKJ;
         "pkg-1.1.4" = _hZP3gLpl;
         "pkg-1.1.5" = _DFauJ6qU;
-        "default" = _DFauJ6qU;
+        "pkg-1.1.6" = _Y5dF5dze;
+        "default" = _Y5dF5dze;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wathe-blood";

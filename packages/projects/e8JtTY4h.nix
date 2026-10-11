@@ -271,6 +271,16 @@ let
             "file" = "underwaterenchanting-1.21.11-2.9.jar";
             "hash" = "sha512-t8arbSV/kpXCFgDFEoYPXdpcSfRr0BAsVVMF0OO/W4cnPP/VrLxo/wFwqAaKQKxUsRSyE39D3mNBQEmxWFRMDw==";
         };
+        _GS5VXyuu = {
+            "id" = "GS5VXyuu";
+            "file" = "underwaterenchanting-1.20.1-3.0.jar";
+            "hash" = "sha512-OUN8VoyOwkFvZMDA4LwMJbfF4l7rFmBNKzE5AVigruAatKoa3nihummZik4lTEia/4DMoAuvyMk5SMMrb86nBQ==";
+        };
+        _MFMKD44L = {
+            "id" = "MFMKD44L";
+            "file" = "underwaterenchanting-1.21.1-3.0.jar";
+            "hash" = "sha512-QY+fn2KWt7AkgfCJGWGqU1shACrCI3gTlw1o3rgKpcg2oNYsg7M8yevDAA3gpz/yZXd/vtlURoX9EFfluNwVog==";
+        };
     in {
         "NF1FcAxe" = _NF1FcAxe;
         "K3I6ae59" = _K3I6ae59;
@@ -326,19 +336,21 @@ let
         "IcZoGdXr" = _IcZoGdXr;
         "rUylqsHW" = _rUylqsHW;
         "mWHa1dMI" = _mWHa1dMI;
+        "GS5VXyuu" = _GS5VXyuu;
+        "MFMKD44L" = _MFMKD44L;
         "forge-1.16.5" = _NF1FcAxe;
         "forge-1.18.2" = _ELdz8sz3;
         "forge-1.19.2" = _KRW7SyYA;
         "forge-1.19.3" = _qtOixbZV;
         "forge-1.19.4" = _fN0AM5qq;
         "forge-1.20" = _xmNUr6gJ;
-        "forge-1.20.1" = _R53TaS8m;
+        "forge-1.20.1" = _GS5VXyuu;
         "forge-1.20.2" = _MsE7BZON;
         "forge-1.20.3" = _gvYbpLYE;
         "forge-1.20.4" = _gcg5oATN;
         "forge-1.20.6" = _Wsz4ZYfU;
-        "forge-1.21" = _W9F80lKW;
-        "forge-1.21.1" = _W9F80lKW;
+        "forge-1.21" = _MFMKD44L;
+        "forge-1.21.1" = _MFMKD44L;
         "forge-1.21.3" = _MhRBpoyI;
         "forge-1.21.4" = _VWuXb7mw;
         "forge-1.21.5" = _k0b70Sy7;
@@ -353,14 +365,14 @@ let
         "fabric-1.19.3" = _qtOixbZV;
         "fabric-1.19.4" = _fN0AM5qq;
         "fabric-1.20" = _xmNUr6gJ;
-        "fabric-1.20.1" = _R53TaS8m;
+        "fabric-1.20.1" = _GS5VXyuu;
         "fabric-1.20.2" = _MsE7BZON;
         "fabric-1.20.3" = _gvYbpLYE;
         "fabric-1.20.4" = _gcg5oATN;
         "fabric-1.20.5" = _doGjpitL;
         "fabric-1.20.6" = _Wsz4ZYfU;
-        "fabric-1.21" = _W9F80lKW;
-        "fabric-1.21.1" = _W9F80lKW;
+        "fabric-1.21" = _MFMKD44L;
+        "fabric-1.21.1" = _MFMKD44L;
         "fabric-1.21.2" = _2RsNrPwf;
         "fabric-1.21.3" = _MhRBpoyI;
         "fabric-1.21.4" = _VWuXb7mw;
@@ -376,14 +388,14 @@ let
         "quilt-1.19.3" = _qtOixbZV;
         "quilt-1.19.4" = _fN0AM5qq;
         "quilt-1.20" = _xmNUr6gJ;
-        "quilt-1.20.1" = _R53TaS8m;
+        "quilt-1.20.1" = _GS5VXyuu;
         "quilt-1.20.2" = _MsE7BZON;
         "quilt-1.20.3" = _gvYbpLYE;
         "quilt-1.20.4" = _gcg5oATN;
         "quilt-1.20.5" = _doGjpitL;
         "quilt-1.20.6" = _Wsz4ZYfU;
-        "quilt-1.21" = _W9F80lKW;
-        "quilt-1.21.1" = _W9F80lKW;
+        "quilt-1.21" = _MFMKD44L;
+        "quilt-1.21.1" = _MFMKD44L;
         "quilt-1.21.2" = _2RsNrPwf;
         "quilt-1.21.3" = _MhRBpoyI;
         "quilt-1.21.4" = _VWuXb7mw;
@@ -397,14 +409,14 @@ let
         "neoforge-1.18.2" = _zcPOd5og;
         "neoforge-1.19.2" = _HfUlG720;
         "neoforge-1.19.4" = _fN0AM5qq;
-        "neoforge-1.20.1" = _R53TaS8m;
+        "neoforge-1.20.1" = _GS5VXyuu;
         "neoforge-1.20.2" = _MsE7BZON;
         "neoforge-1.20.3" = _gvYbpLYE;
         "neoforge-1.20.4" = _gcg5oATN;
         "neoforge-1.20.5" = _doGjpitL;
         "neoforge-1.20.6" = _Wsz4ZYfU;
-        "neoforge-1.21" = _W9F80lKW;
-        "neoforge-1.21.1" = _W9F80lKW;
+        "neoforge-1.21" = _MFMKD44L;
+        "neoforge-1.21.1" = _MFMKD44L;
         "neoforge-1.21.2" = _2RsNrPwf;
         "neoforge-1.21.3" = _MhRBpoyI;
         "neoforge-1.21.4" = _VWuXb7mw;
@@ -469,7 +481,9 @@ let
         "pkg-1.21.9-2.9-fabric+forge+neo" = _IcZoGdXr;
         "pkg-1.21.10-2.9-fabric+forge+neo" = _rUylqsHW;
         "pkg-1.21.11-2.9-fabric+forge+neo" = _mWHa1dMI;
-        "default" = _mWHa1dMI;
+        "pkg-1.20.1-3.0-fabric+forge+neo" = _GS5VXyuu;
+        "pkg-1.21.1-3.0-fabric+forge+neo" = _MFMKD44L;
+        "default" = _MFMKD44L;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "underwater-enchanting";

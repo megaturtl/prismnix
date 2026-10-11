@@ -146,6 +146,11 @@ let
             "file" = "sswaystones-1.3.2.jar";
             "hash" = "sha512-Ul6qsz2xsDvEbpY0PtqZG8xNYKDOx9X+DNxXo3i/hx/uyo6/wnf4aezx6g1PQT/XFiPX5PFZyZNPkKf+RTgA2w==";
         };
+        _9bAijkyf = {
+            "id" = "9bAijkyf";
+            "file" = "sswaystones-1.3.2.jar";
+            "hash" = "sha512-BIFcCp2EG2b/wBxH+7LRqkfQLrCHh2DTDvhI+AQgInwaneBYkIxk+ExlO3XtGWqiNtZG3daMP28N2eUJd3CvWQ==";
+        };
     in {
         "Nde5KCDk" = _Nde5KCDk;
         "GLN6IGjA" = _GLN6IGjA;
@@ -176,6 +181,7 @@ let
         "aVeutWZC" = _aVeutWZC;
         "XDFxfO4V" = _XDFxfO4V;
         "vvOv5HeB" = _vvOv5HeB;
+        "9bAijkyf" = _9bAijkyf;
         "fabric-1.21" = _8IxwsREf;
         "fabric-1.21.1" = _8IxwsREf;
         "fabric-1.21.2" = _9z7Cbzsn;
@@ -192,6 +198,7 @@ let
         "fabric-26.1.1" = _XDFxfO4V;
         "fabric-26.1.2" = _XDFxfO4V;
         "fabric-26.2" = _vvOv5HeB;
+        "fabric-26.3" = _9bAijkyf;
         "pkg-1.0" = _Nde5KCDk;
         "pkg-1.0.1" = _GLN6IGjA;
         "pkg-1.1.0" = _rM9F7KLS;
@@ -213,8 +220,8 @@ let
         "pkg-1.2.4" = _wE7sNeQU;
         "pkg-1.3.0" = _w05duofw;
         "pkg-1.3.1" = _aVeutWZC;
-        "pkg-1.3.2" = _vvOv5HeB;
-        "default" = _vvOv5HeB;
+        "pkg-1.3.2" = _9bAijkyf;
+        "default" = _9bAijkyf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sswaystones";

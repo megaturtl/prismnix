@@ -146,6 +146,11 @@ let
             "file" = "GhostBlock-2.3+26.2.jar";
             "hash" = "sha512-85WsYMJYDV2Ap/AmcuDLFzhtV0L9xXnQ0Zg7sWYqglRzeJYx5LBNlMwZ8y7T7jEwbBlJcqjZPvj/d9LtN0pHCA==";
         };
+        _VULNRTBs = {
+            "id" = "VULNRTBs";
+            "file" = "GhostBlock-2.3+26.3.jar";
+            "hash" = "sha512-WSJ417ZAn+V/bq1m7o1OYSzlRjOsIwi54gGtlwGZZL4jQFQ26UUMFbXBi3SYtVc33QxC3/CGY+0iE/v9TWPwpg==";
+        };
     in {
         "8rGkTQxH" = _8rGkTQxH;
         "kktWg0xO" = _kktWg0xO;
@@ -176,6 +181,7 @@ let
         "TAL93BY5" = _TAL93BY5;
         "jU3yfBte" = _jU3yfBte;
         "hWEWTmba" = _hWEWTmba;
+        "VULNRTBs" = _VULNRTBs;
         "fabric-1.20.4" = _6g5r7pj4;
         "fabric-1.19" = _6g5r7pj4;
         "fabric-1.19.1" = _6g5r7pj4;
@@ -204,6 +210,7 @@ let
         "fabric-26.1.1" = _hWEWTmba;
         "fabric-26.1.2" = _hWEWTmba;
         "fabric-26.2" = _hWEWTmba;
+        "fabric-26.3" = _VULNRTBs;
         "pkg-1.0-SNAPSHOT" = _8rGkTQxH;
         "pkg-1.1" = _kktWg0xO;
         "pkg-1.2" = _6g5r7pj4;
@@ -230,7 +237,8 @@ let
         "pkg-2.3+1.21.11" = _TAL93BY5;
         "pkg-2.3+26.1" = _jU3yfBte;
         "pkg-2.3+26.2" = _hWEWTmba;
-        "default" = _hWEWTmba;
+        "pkg-2.3+26.3" = _VULNRTBs;
+        "default" = _VULNRTBs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ghostblock";

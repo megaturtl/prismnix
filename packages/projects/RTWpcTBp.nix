@@ -1076,6 +1076,11 @@ let
             "file" = "mcwifipnp-2.1.4-26.3-neoforge.jar";
             "hash" = "sha512-9wPNXy3zFxHHSLnv7I06nj/IGB7dUu33KgbqEbgbDBDDAfK1uAXzpXDpyI80T7/xKD/d5C+2x+b2uEpThxTRtQ==";
         };
+        _6gfWLZmn = {
+            "id" = "6gfWLZmn";
+            "file" = "mcwifipnp-2.1.4-26.3-forge.jar";
+            "hash" = "sha512-toiv5FqV4uwMH85MqfQzJ/hG2WZHCPpoMpKtdyqcmLBWIRUdsf6SI2sZDzCBkOr665gEAz5ZQnVE8aEhPbTrYA==";
+        };
     in {
         "of1ORk84" = _of1ORk84;
         "mKiGBz7A" = _mKiGBz7A;
@@ -1292,6 +1297,7 @@ let
         "LTHxlBmf" = _LTHxlBmf;
         "Bj7WrQZY" = _Bj7WrQZY;
         "m51OXj2s" = _m51OXj2s;
+        "6gfWLZmn" = _6gfWLZmn;
         "fabric-1.15.2" = _of1ORk84;
         "fabric-1.16.2" = _aiEB27mU;
         "fabric-1.16.3" = _aiEB27mU;
@@ -1380,6 +1386,7 @@ let
         "forge-26.1.1" = _V1bNkDMM;
         "forge-26.1.2" = _V1bNkDMM;
         "forge-1.21.11" = _RmJrq88n;
+        "forge-26.3" = _6gfWLZmn;
         "quilt-1.19" = _fp2KMvDJ;
         "quilt-1.19.1" = _fp2KMvDJ;
         "quilt-1.19.2" = _fp2KMvDJ;
@@ -1467,8 +1474,8 @@ let
         "pkg-2.1.0" = _pUxvYXjL;
         "pkg-2.1.2" = _kysOyOyB;
         "pkg-2.1.3" = _LTHxlBmf;
-        "pkg-2.1.4" = _m51OXj2s;
-        "default" = _m51OXj2s;
+        "pkg-2.1.4" = _6gfWLZmn;
+        "default" = _6gfWLZmn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mcwifipnp";

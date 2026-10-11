@@ -316,6 +316,41 @@ let
             "file" = "EnhancedCats-1.21.11-1.1.jar";
             "hash" = "sha512-kjs0bMqhir9+nZ0/rGhaasZvBjakV6xCzAKrCcLo2BXbcceFJX1JQXlWY7JxY1h3mB0fmxbTSX1Qo2Og6u5opw==";
         };
+        _WOmqoTtz = {
+            "id" = "WOmqoTtz";
+            "file" = "EnhancedCats-26.3-1.2.jar";
+            "hash" = "sha512-LCN2n7SqsJS4jwAiL6ABASaIbcVpw83rMOYc5MefiUTxPRjOvAV7t4FUED1xViT4G/esTXzqA2kekr4Db1Vrqg==";
+        };
+        _HI9g5amJ = {
+            "id" = "HI9g5amJ";
+            "file" = "EnhancedCats-26.2-1.2.jar";
+            "hash" = "sha512-qkGyFlj+FNO0c5z5zYzkA6YoVeX/Uo3EaTLjlkBlkySNbqjpNW1KlpdsHINWaT9BYAdP+WQTxU84T363rn2b0w==";
+        };
+        _Ajb5pymI = {
+            "id" = "Ajb5pymI";
+            "file" = "EnhancedCats-26.1.x-1.2.jar";
+            "hash" = "sha512-FYvDm2vXTfrKtI1D8odx4wrfkkmAQcC0oqbmMAyhFq1yveS1pN7R6EUitmfc7MsZ6HmJeeDT4PHQuCSsTEPbFQ==";
+        };
+        _ZMouJuYW = {
+            "id" = "ZMouJuYW";
+            "file" = "EnhancedCats-1.21.11-1.2.jar";
+            "hash" = "sha512-mpyKB9CaCge0iqZch5c0mFgX7bN3CmqKOmdFmTVVYxMhRE3tfgE9OtbytepaYNm2VD172vB33hpU+qmQSowuVg==";
+        };
+        _M7GRJpHK = {
+            "id" = "M7GRJpHK";
+            "file" = "EnhancedCats-1.21.10-1.2.jar";
+            "hash" = "sha512-hVjl0t9i38QZaI6TJRK1Xhejm/cNOW/7zt36/wvlRYur6g2TYyMmiF4qrdy3gaQrd+AkCmx81C/s3xMgLfo56w==";
+        };
+        _GovJC1iR = {
+            "id" = "GovJC1iR";
+            "file" = "EnhancedCats-1.21.8-1.2.jar";
+            "hash" = "sha512-0NX3Kzv15vAMcpZHDBRu6D4+6sZNSJUXNVuL+tyubTvgXVHJj3waKYcgtco58UuvHFEzrjATjRgv/cwS54yj+Q==";
+        };
+        _u0Zjqy5P = {
+            "id" = "u0Zjqy5P";
+            "file" = "EnhancedCats-1.21.5-1.2.jar";
+            "hash" = "sha512-vrE1Q3x4mO20oOtGLlpZbiifqggKvycsQnR3xD9U/f6U4Jkr2caUKvfho4WWEMtz7RM7ooRmjU8PL/erAMCOjQ==";
+        };
     in {
         "ilGYyij3" = _ilGYyij3;
         "PDYhYUzT" = _PDYhYUzT;
@@ -380,6 +415,13 @@ let
         "p4Rptuq9" = _p4Rptuq9;
         "EwcvXNpd" = _EwcvXNpd;
         "XBhQSnpL" = _XBhQSnpL;
+        "WOmqoTtz" = _WOmqoTtz;
+        "HI9g5amJ" = _HI9g5amJ;
+        "Ajb5pymI" = _Ajb5pymI;
+        "ZMouJuYW" = _ZMouJuYW;
+        "M7GRJpHK" = _M7GRJpHK;
+        "GovJC1iR" = _GovJC1iR;
+        "u0Zjqy5P" = _u0Zjqy5P;
         "fabric-1.20.1" = _QUOZp87B;
         "fabric-1.20.4" = _Tt8zCZrY;
         "fabric-1.20.6" = _Tt8zCZrY;
@@ -391,16 +433,17 @@ let
         "fabric-1.20.5" = _Tt8zCZrY;
         "fabric-1.20.2" = _QUOZp87B;
         "fabric-1.20.3" = _QUOZp87B;
-        "fabric-1.21.5" = _LrIT7Tuw;
+        "fabric-1.21.5" = _u0Zjqy5P;
         "fabric-1.21.6" = _nrLmrCJe;
         "fabric-1.21.7" = _nrLmrCJe;
-        "fabric-1.21.8" = _nrLmrCJe;
-        "fabric-1.21.11" = _XBhQSnpL;
-        "fabric-1.21.10" = _EwcvXNpd;
-        "fabric-26.1" = _JyxUCB5G;
-        "fabric-26.1.1" = _JyxUCB5G;
-        "fabric-26.1.2" = _JyxUCB5G;
-        "fabric-26.2" = _p4Rptuq9;
+        "fabric-1.21.8" = _GovJC1iR;
+        "fabric-1.21.11" = _ZMouJuYW;
+        "fabric-1.21.10" = _M7GRJpHK;
+        "fabric-26.1" = _Ajb5pymI;
+        "fabric-26.1.1" = _Ajb5pymI;
+        "fabric-26.1.2" = _Ajb5pymI;
+        "fabric-26.2" = _HI9g5amJ;
+        "fabric-26.3" = _WOmqoTtz;
         "quilt-1.20.1" = _QUOZp87B;
         "quilt-1.20.4" = _Tt8zCZrY;
         "quilt-1.20.6" = _Tt8zCZrY;
@@ -412,16 +455,17 @@ let
         "quilt-1.20.5" = _Tt8zCZrY;
         "quilt-1.20.2" = _QUOZp87B;
         "quilt-1.20.3" = _QUOZp87B;
-        "quilt-1.21.5" = _LrIT7Tuw;
+        "quilt-1.21.5" = _u0Zjqy5P;
         "quilt-1.21.6" = _nrLmrCJe;
         "quilt-1.21.7" = _nrLmrCJe;
-        "quilt-1.21.8" = _nrLmrCJe;
-        "quilt-1.21.11" = _XBhQSnpL;
-        "quilt-1.21.10" = _EwcvXNpd;
-        "quilt-26.2" = _p4Rptuq9;
-        "quilt-26.1" = _JyxUCB5G;
-        "quilt-26.1.1" = _JyxUCB5G;
-        "quilt-26.1.2" = _JyxUCB5G;
+        "quilt-1.21.8" = _GovJC1iR;
+        "quilt-1.21.11" = _ZMouJuYW;
+        "quilt-1.21.10" = _M7GRJpHK;
+        "quilt-26.2" = _HI9g5amJ;
+        "quilt-26.1" = _Ajb5pymI;
+        "quilt-26.1.1" = _Ajb5pymI;
+        "quilt-26.1.2" = _Ajb5pymI;
+        "quilt-26.3" = _WOmqoTtz;
         "neoforge-1.21.11" = _6ZAG9dCB;
         "neoforge-1.21.1" = _vke3pxSW;
         "forge-1.20.1" = _WJ0IFN2D;
@@ -445,7 +489,8 @@ let
         "pkg-1.0" = _V9WvJ9Ei;
         "pkg-1.0.1" = _WJ0IFN2D;
         "pkg-1.1" = _XBhQSnpL;
-        "default" = _XBhQSnpL;
+        "pkg-1.2" = _u0Zjqy5P;
+        "default" = _u0Zjqy5P;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enhanced-cats";

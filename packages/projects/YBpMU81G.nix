@@ -586,6 +586,11 @@ let
             "file" = "永爱之刃削弱mc1.20.1-1.6.jar";
             "hash" = "sha512-5xn+XG75SUZmmxUZE0ai76OuTM6hdW/BFT2Lzb9NOHyFnyQ241f/Ju7GK//hZpRO1lCf866jM5G9DjgKLUNK9Q==";
         };
+        _Yby952l8 = {
+            "id" = "Yby952l8";
+            "file" = "永爱之刃削弱mc1.20.1-1.7.jar";
+            "hash" = "sha512-sUTSqvmPvyo5WjXFx5v2TAQ2zbCCiwyHnPa7h0Ubx4K1wA1pUGa6a8So4FUnxJyHXQ2Z0GC51DxToj90623v3w==";
+        };
     in {
         "XsJXttS9" = _XsJXttS9;
         "JarAjNnt" = _JarAjNnt;
@@ -704,6 +709,7 @@ let
         "TrHBW1iV" = _TrHBW1iV;
         "IZzNJ603" = _IZzNJ603;
         "ceivg5DH" = _ceivg5DH;
+        "Yby952l8" = _Yby952l8;
         "forge-1.7.10" = _JarAjNnt;
         "forge-1.8.9" = _dcJK9d2D;
         "forge-1.9.4" = _fzLMUPKp;
@@ -717,7 +723,7 @@ let
         "forge-1.18.2" = _bkeLqumB;
         "forge-1.19.2" = _IJWd9Irz;
         "forge-1.19.4" = _Mblm9WCk;
-        "forge-1.20.1" = _ceivg5DH;
+        "forge-1.20.1" = _Yby952l8;
         "forge-1.20.6" = _u1e49s4Z;
         "forge-1.11.2" = _15t6A3L7;
         "forge-1.21" = _eVBBxvDE;
@@ -844,7 +850,8 @@ let
         "pkg-1.5weakened" = _sR5378yd;
         "pkg-1.0.0fix2" = _yCBOva9D;
         "pkg-1.6weakened" = _ceivg5DH;
-        "default" = _ceivg5DH;
+        "pkg-1.7weakened" = _Yby952l8;
+        "default" = _Yby952l8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "forever-love-sword";

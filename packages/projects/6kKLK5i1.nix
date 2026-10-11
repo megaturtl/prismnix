@@ -336,6 +336,16 @@ let
             "file" = "eclipsestweakeroo-0.7.5-26.2.jar";
             "hash" = "sha512-z7DPc7skqEMbhyFj6i9TMYc0cwgQHRR+YgvFG3+DIJWdgfJD4XrPytSfcuVgWpKas5iKTS9PjeR44p7/pQHPvw==";
         };
+        _9W2569go = {
+            "id" = "9W2569go";
+            "file" = "eclipsestweakeroo-0.7.6-26.3.jar";
+            "hash" = "sha512-l1xGtpzycUvuCcaJ06URvmY+EGyXqHdZrqKhLQbz4R7cVM/79xrUO40MCmi2VRHCTyjrGTQIm4Gj9vDjyQmXtA==";
+        };
+        _8GK9QYiO = {
+            "id" = "8GK9QYiO";
+            "file" = "eclipsestweakeroo-0.7.7-26.3.jar";
+            "hash" = "sha512-RwWSCZ24YIyPLJSyg7e1MgzCYABCE+0pslkG/DwwxFryAx3MVyb+I7pHyiBMr1+8nxHcbU6XAed4HjoPlE/cUw==";
+        };
     in {
         "FWspzb2N" = _FWspzb2N;
         "JPrpacTw" = _JPrpacTw;
@@ -404,6 +414,8 @@ let
         "GJpPyqYQ" = _GJpPyqYQ;
         "1xUWJFxb" = _1xUWJFxb;
         "dvUGMj3H" = _dvUGMj3H;
+        "9W2569go" = _9W2569go;
+        "8GK9QYiO" = _8GK9QYiO;
         "fabric-1.20.1" = _WtI0ij1r;
         "fabric-1.20.4" = _nOXOwuuY;
         "fabric-1.19.4" = _cMtGSzP5;
@@ -425,6 +437,7 @@ let
         "fabric-26.1.1" = _GJpPyqYQ;
         "fabric-26.1.2" = _5yknCiSy;
         "fabric-26.2" = _dvUGMj3H;
+        "fabric-26.3" = _8GK9QYiO;
         "pkg-0.0.2-1.20.1" = _FWspzb2N;
         "pkg-0.0.2-1.20.4" = _JPrpacTw;
         "pkg-0.0.3-1.20.4" = _kBfcjN9A;
@@ -492,7 +505,9 @@ let
         "pkg-0.7.4-26.1.1" = _GJpPyqYQ;
         "pkg-0.7.4-26.2" = _1xUWJFxb;
         "pkg-0.7.5-26.2" = _dvUGMj3H;
-        "default" = _dvUGMj3H;
+        "pkg-0.7.6-26.3" = _9W2569go;
+        "pkg-0.7.7-26.3" = _8GK9QYiO;
+        "default" = _8GK9QYiO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "eclipses-tweakeroo-additions";

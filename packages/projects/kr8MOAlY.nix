@@ -66,6 +66,16 @@ let
             "file" = "mobcollisionoff-3.0.jar";
             "hash" = "sha512-lNNgvZony2n64t4bDjQPZEn0woSs0gI2VhogSqNmHfvGtA1l+qd11W/Ez0+2qfmJkPeRkEj2Rkx2r6hWgx+9Dg==";
         };
+        _F9z9tv6r = {
+            "id" = "F9z9tv6r";
+            "file" = "mobcollisionoff-3.0.jar";
+            "hash" = "sha512-THmnGvr/4foo+K3Ly16x8qZEnoVXif9mUyd0MKTmyOiiO/n+BddBXdfHcrU6PcCTr1CAsjdjNTecRB3SRtqoIQ==";
+        };
+        _zL9tyIq1 = {
+            "id" = "zL9tyIq1";
+            "file" = "mobcollisionoff-3.0.jar";
+            "hash" = "sha512-c+zI2FGwUBZCdbqZ9mlXZAzmDDKulUQ+bOcB114e0Q0ey0VVXQRuuh6EwyW2KncYX5FNGI/j8JTm5cmeuapOvA==";
+        };
     in {
         "cjt7qbSh" = _cjt7qbSh;
         "6jTXWzeF" = _6jTXWzeF;
@@ -80,6 +90,8 @@ let
         "qFRpaGpV" = _qFRpaGpV;
         "SwtkDYz4" = _SwtkDYz4;
         "TDNxmdRJ" = _TDNxmdRJ;
+        "F9z9tv6r" = _F9z9tv6r;
+        "zL9tyIq1" = _zL9tyIq1;
         "forge-1.20.1" = _ae1yqoEC;
         "forge-1.20.2" = _ae1yqoEC;
         "forge-1.20.3" = _ae1yqoEC;
@@ -105,6 +117,7 @@ let
         "fabric-26.1.1" = _TDNxmdRJ;
         "fabric-26.1.2" = _TDNxmdRJ;
         "fabric-26.2" = _TDNxmdRJ;
+        "fabric-26.3" = _zL9tyIq1;
         "neoforge-1.21" = _S6BZMMSs;
         "neoforge-1.21.1" = _MiQ8orIY;
         "neoforge-1.21.2" = _MiQ8orIY;
@@ -121,10 +134,11 @@ let
         "neoforge-26.1.1" = _SwtkDYz4;
         "neoforge-26.1.2" = _SwtkDYz4;
         "neoforge-26.2" = _SwtkDYz4;
+        "neoforge-26.3" = _F9z9tv6r;
         "pkg-1.0" = _cjt7qbSh;
         "pkg-2.0" = _S6BZMMSs;
-        "pkg-3.0" = _TDNxmdRJ;
-        "default" = _TDNxmdRJ;
+        "pkg-3.0" = _zL9tyIq1;
+        "default" = _zL9tyIq1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mob-collision-off";

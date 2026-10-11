@@ -91,6 +91,11 @@ let
             "file" = "potionstacking-1.1.4-26.1.jar";
             "hash" = "sha512-ZoZmc/JzYmr/FMrp7ijRozxZKYhEztKp6hCfQ8WDuFH1ctNjOnZy5e88pS78E1tgUE0dMGzQLdgyqB4LTnfAdA==";
         };
+        _vwLLYChQ = {
+            "id" = "vwLLYChQ";
+            "file" = "potionstacking-1.1.5-26.3.jar";
+            "hash" = "sha512-/gPYS2VhYFKcEMrOKSnv08/rXLT30CZifI6iRfawcyuH4J2V+9t1mdQemGnXlG7AvpdDqQtE14yIbjFp78eOvQ==";
+        };
     in {
         "o4p4BKYc" = _o4p4BKYc;
         "zl2AxmoO" = _zl2AxmoO;
@@ -110,6 +115,7 @@ let
         "nctqwMsu" = _nctqwMsu;
         "LTZG0HSU" = _LTZG0HSU;
         "QvjGfrlH" = _QvjGfrlH;
+        "vwLLYChQ" = _vwLLYChQ;
         "fabric-1.21" = _AOLlB1Cc;
         "fabric-1.21.1" = _AOLlB1Cc;
         "fabric-1.21.2" = _PCKivZDi;
@@ -126,6 +132,7 @@ let
         "fabric-26.1.1" = _QvjGfrlH;
         "fabric-26.1.2" = _QvjGfrlH;
         "fabric-26.2" = _QvjGfrlH;
+        "fabric-26.3" = _vwLLYChQ;
         "pkg-1.0.0-1.21" = _o4p4BKYc;
         "pkg-1.0.0-1.21.2" = _zl2AxmoO;
         "pkg-1.0.0-1.21.4" = _xgSlaQJw;
@@ -141,7 +148,8 @@ let
         "pkg-1.1.3-1.21.4" = _bCv7cRxw;
         "pkg-1.1.3-26.1" = _LTZG0HSU;
         "pkg-1.1.4-26.1" = _QvjGfrlH;
-        "default" = _QvjGfrlH;
+        "pkg-1.1.5-26.3" = _vwLLYChQ;
+        "default" = _vwLLYChQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "potion-stacking";

@@ -951,6 +951,16 @@ let
             "file" = "Searchables-neoforge-26.3-1.0.2.jar";
             "hash" = "sha512-AcoYhD05iSR7LS+0PLKuhaXrlIMk3FQHW1zrGhsaiUySaZooFuFSQrXyKIhv5/W/Uok16zUAhkYgUFn3Nr+2SQ==";
         };
+        _wV79bLRS = {
+            "id" = "wV79bLRS";
+            "file" = "Searchables-fabric-26.3-1.0.3.jar";
+            "hash" = "sha512-cNS1WZC+qgpZAtjRuSJDQwoOOrqrF33SJzwJlvum6sVm9yeAL3i+OpSY/qxx9+g7UA0IRK4w8zZmz5DufxZ7NQ==";
+        };
+        _V62qRRhH = {
+            "id" = "V62qRRhH";
+            "file" = "Searchables-neoforge-26.3-1.0.3.jar";
+            "hash" = "sha512-blAoEXNCmMQ9ujKzhBbOk7bxDOr+FxUS19MyCJc37qJNgW7AD69KVduZlsvcukDqxAqiKCAHhAnDkHO5IH6Mfw==";
+        };
     in {
         "iLwmbWLV" = _iLwmbWLV;
         "KeIrnexa" = _KeIrnexa;
@@ -1142,6 +1152,8 @@ let
         "bvFby61J" = _bvFby61J;
         "RlPMfNdS" = _RlPMfNdS;
         "lh417ZHC" = _lh417ZHC;
+        "wV79bLRS" = _wV79bLRS;
+        "V62qRRhH" = _V62qRRhH;
         "fabric-1.19.4" = _ve9kcBZR;
         "fabric-1.19.3" = _mhqbneQi;
         "fabric-1.19.2" = _YtzPnOQv;
@@ -1172,7 +1184,7 @@ let
         "fabric-26.1.1" = _JBRkFpZt;
         "fabric-26.1.2" = _g7OQkxmL;
         "fabric-26.2" = _bvFby61J;
-        "fabric-26.3" = _RlPMfNdS;
+        "fabric-26.3" = _wV79bLRS;
         "forge-1.19.4" = _erSt9y38;
         "forge-1.19.3" = _hLMrJBAr;
         "forge-1.19.2" = _LuotI0gV;
@@ -1217,10 +1229,10 @@ let
         "neoforge-26.1.1" = _hefWJKXR;
         "neoforge-26.1.2" = _OGi2qTkh;
         "neoforge-26.2" = _AUn6wxKQ;
-        "neoforge-26.3" = _lh417ZHC;
+        "neoforge-26.3" = _V62qRRhH;
         "pkg-1.0.0.1" = _KeIrnexa;
         "pkg-1.0.2" = _lh417ZHC;
-        "pkg-1.0.3" = _cp4CFuwU;
+        "pkg-1.0.3" = _V62qRRhH;
         "pkg-1.0.1" = _bvFby61J;
         "pkg-1.0.4" = _eACQm81u;
         "pkg-1.0.5" = _gYDrOD6p;
@@ -1232,7 +1244,7 @@ let
         "pkg-1.0.15" = _HxAXC8Rn;
         "pkg-1.0.7" = _tRemkGX1;
         "pkg-1.0.16" = _gcqBz3gR;
-        "default" = _lh417ZHC;
+        "default" = _V62qRRhH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "searchables";

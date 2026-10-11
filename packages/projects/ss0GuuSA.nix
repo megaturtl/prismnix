@@ -156,6 +156,16 @@ let
             "file" = "MITE-Equilibrium-NeoForge-1.1.0.720260901_Beta.jar";
             "hash" = "sha512-psMa8X7ykFGi8atwsmgzLimyiKn5eFBg5qhc733dB1S212o1o1BqMZfsv7DTw0XZFZB0VmuQoD0LRcHuEZROlA==";
         };
+        _LWEJqRSq = {
+            "id" = "LWEJqRSq";
+            "file" = "MITE-Equilibrium-Fabric-1.1.0.820261001_Beta.jar";
+            "hash" = "sha512-eu/WAVrypWjRe5WmmrvHpDjKacEB1YdNckhDywjyH3Ptxrpep8OiEk97o8RrpCuxY5B+03re8nd0L6VfyKbMUQ==";
+        };
+        _3mKDUXkj = {
+            "id" = "3mKDUXkj";
+            "file" = "MITE-Equilibrium-NeoForge-1.1.0.820261001_Beta.jar";
+            "hash" = "sha512-W9Zws6fKoVTBG8pnnzgw7PzyVHXeCXakpqS/2leo3hmkvyPF6bYMPDQzUWIpfTvo7Lmi20yjYzhQ12QkCSrOxA==";
+        };
     in {
         "84SD9xEi" = _84SD9xEi;
         "ZO3VkpHe" = _ZO3VkpHe;
@@ -188,9 +198,11 @@ let
         "rFKpeuDX" = _rFKpeuDX;
         "tRVmysIs" = _tRVmysIs;
         "fEuV4MJ0" = _fEuV4MJ0;
+        "LWEJqRSq" = _LWEJqRSq;
+        "3mKDUXkj" = _3mKDUXkj;
         "fabric-1.21" = _q62W3ywN;
-        "fabric-1.21.1" = _tRVmysIs;
-        "neoforge-1.21.1" = _fEuV4MJ0;
+        "fabric-1.21.1" = _LWEJqRSq;
+        "neoforge-1.21.1" = _3mKDUXkj;
         "pkg-1.0.1" = _84SD9xEi;
         "pkg-1.0.2" = _ZO3VkpHe;
         "pkg-1.0.3" = _CheKilU9;
@@ -222,7 +234,9 @@ let
         "pkg-v1.1.0.620260801" = _rFKpeuDX;
         "pkg-v1.1.0.720260901-Fabric" = _tRVmysIs;
         "pkg-v1.1.0.720260901-NeoForge" = _fEuV4MJ0;
-        "default" = _fEuV4MJ0;
+        "pkg-v1.1.0.820261001-Fabric" = _LWEJqRSq;
+        "pkg-v1.1.0.820261001-NeoForge" = _3mKDUXkj;
+        "default" = _3mKDUXkj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "miteequilibrium";

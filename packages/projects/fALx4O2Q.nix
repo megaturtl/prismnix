@@ -121,6 +121,26 @@ let
             "file" = "accents-forge-1.20.1-1.1.0.jar";
             "hash" = "sha512-1sVIzlyhHh3GHxulTXA3SrPKJWHQWucdd34JuLncp1SMQV/Cx21WVHOBrfIE50qYDmt0w8v24bxfK7Oyjw5BPg==";
         };
+        _QkAfeJSp = {
+            "id" = "QkAfeJSp";
+            "file" = "accents-fabric-1.20.1-1.1.1.jar";
+            "hash" = "sha512-VZfWOIFN0OmuMjO5t9gxQHz4J4U3DC9KWmyyo9f0nt9u+DhstcKvVpCyPxbxKwijedRd/ThvM317r68nWlgpfg==";
+        };
+        _nEYJbw5u = {
+            "id" = "nEYJbw5u";
+            "file" = "accents-forge-1.20.1-1.1.1.jar";
+            "hash" = "sha512-Ohhjo5CoIFLztN/864rXG70mmyE6Assymepw77fKmkvH8oyXsuYmHK+1L37+f6mESPj4jIaO40pFaSOeU83M8g==";
+        };
+        _z5gMfuE2 = {
+            "id" = "z5gMfuE2";
+            "file" = "accents-fabric-1.21.1-2.0.3.jar";
+            "hash" = "sha512-RdJrEMyCsjMAfv9mWOWtWQAqpC37Pf1RSDsgG49WpHVZd8duYRx9oOLq1iXoDkEnqOXI5as4N1kzhUr/qKYKeA==";
+        };
+        _djiz0JhA = {
+            "id" = "djiz0JhA";
+            "file" = "accents-neoforge-1.21.1-2.0.3.jar";
+            "hash" = "sha512-sbKUfpXE/qHr00z8m3HD8oIe7E8zeFlBxth5mm18WJO0gYVxWn3w0VPjRfjUX/aZqgct7UJ8loqF2LZLvo6gkg==";
+        };
     in {
         "PsfVoNVz" = _PsfVoNVz;
         "EmOdQka5" = _EmOdQka5;
@@ -146,14 +166,18 @@ let
         "U2ctIYRI" = _U2ctIYRI;
         "NjnmU8eF" = _NjnmU8eF;
         "shCjmyA8" = _shCjmyA8;
-        "fabric-1.20.1" = _NjnmU8eF;
-        "fabric-1.21.1" = _odDbfDw9;
+        "QkAfeJSp" = _QkAfeJSp;
+        "nEYJbw5u" = _nEYJbw5u;
+        "z5gMfuE2" = _z5gMfuE2;
+        "djiz0JhA" = _djiz0JhA;
+        "fabric-1.20.1" = _QkAfeJSp;
+        "fabric-1.21.1" = _z5gMfuE2;
         "fabric-1.21.11" = _HFX0saEV;
-        "quilt-1.20.1" = _NjnmU8eF;
-        "quilt-1.21.1" = _odDbfDw9;
+        "quilt-1.20.1" = _QkAfeJSp;
+        "quilt-1.21.1" = _z5gMfuE2;
         "quilt-1.21.11" = _HFX0saEV;
-        "forge-1.20.1" = _shCjmyA8;
-        "neoforge-1.21.1" = _U2ctIYRI;
+        "forge-1.20.1" = _nEYJbw5u;
+        "neoforge-1.21.1" = _djiz0JhA;
         "neoforge-1.21.11" = _oHSbvQpg;
         "pkg-0.1.0" = _PsfVoNVz;
         "pkg-0.2.0" = _EmOdQka5;
@@ -168,7 +192,9 @@ let
         "pkg-3.0.1" = _oHSbvQpg;
         "pkg-2.0.2" = _U2ctIYRI;
         "pkg-1.1.0" = _shCjmyA8;
-        "default" = _shCjmyA8;
+        "pkg-1.1.1" = _nEYJbw5u;
+        "pkg-2.0.3" = _djiz0JhA;
+        "default" = _djiz0JhA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "accents";

@@ -116,6 +116,26 @@ let
             "file" = "CraftableSaddle-forge-26.1.2-2.4.0.jar";
             "hash" = "sha512-xaemfS8LI3d1y9hUWh68i8rwvCOXGNwQOLN5jy63G3Y5M3y/qT5eOcXVtORndchsmBWz20Kb6v5EYOZPaB0P3g==";
         };
+        _h4IIbVhE = {
+            "id" = "h4IIbVhE";
+            "file" = "CraftableSaddle-fabric-26.1.2-2.4.0.jar";
+            "hash" = "sha512-wn4bgX9xgQQBxa7UY84nVCauykEvLedJRN3JPCApg2DCNDqxQOODr0Ik6XNsqvlqHte1gar3o13eUA6fw0fHOg==";
+        };
+        _mGbj5Zsx = {
+            "id" = "mGbj5Zsx";
+            "file" = "CraftableSaddle-neoforge-26.3-2.4.1.jar";
+            "hash" = "sha512-67z/dQqRwGmb0/pdCa8CPcjJCpsi8FU64xz8Qin5og+g1HHV7sq+o/sEsj38Xjqm2LBLFdapRerNeUvhAaCExw==";
+        };
+        _HcruhIPM = {
+            "id" = "HcruhIPM";
+            "file" = "CraftableSaddle-forge-26.3-2.4.1.jar";
+            "hash" = "sha512-vyd9Y5SB6Ufu2oY3Ih2JEvP6RLbfJZOkzcgFXhkM4QBNS26r5z3wR07xJKu1sUKf6TMEAoVfPPe6KKC5wRpYIw==";
+        };
+        _VD7Lzn4e = {
+            "id" = "VD7Lzn4e";
+            "file" = "CraftableSaddle-fabric-26.3-2.4.1.jar";
+            "hash" = "sha512-D+ydbS73DAXIW+/clU9wrTFbc5mf8n4AXVqyEJ7tSD93VL7ld1GRCn4HS3jkLzUmnNj5UeeUSMQBEXq8SXixsw==";
+        };
     in {
         "ZLOYzBqp" = _ZLOYzBqp;
         "5HX9KR25" = _5HX9KR25;
@@ -140,6 +160,10 @@ let
         "MfWilFFL" = _MfWilFFL;
         "r6uDXJxQ" = _r6uDXJxQ;
         "c4XIgKQE" = _c4XIgKQE;
+        "h4IIbVhE" = _h4IIbVhE;
+        "mGbj5Zsx" = _mGbj5Zsx;
+        "HcruhIPM" = _HcruhIPM;
+        "VD7Lzn4e" = _VD7Lzn4e;
         "fabric-1.20.2" = _ZLOYzBqp;
         "fabric-1.20.4" = _Gan3VylN;
         "fabric-1.21" = _SgUiK7fF;
@@ -148,6 +172,8 @@ let
         "fabric-1.21.8" = _8oYPfPy8;
         "fabric-1.21.10" = _P3J0qztY;
         "fabric-1.21.11" = _MfWilFFL;
+        "fabric-26.1.2" = _h4IIbVhE;
+        "fabric-26.3" = _VD7Lzn4e;
         "forge-1.20.2" = _5HX9KR25;
         "forge-1.20.4" = _GaNoazAP;
         "forge-1.21" = _dDGwkgeX;
@@ -157,12 +183,14 @@ let
         "forge-1.21.10" = _t3OH5btM;
         "forge-1.21.11" = _RMtsouxB;
         "forge-26.1.2" = _c4XIgKQE;
+        "forge-26.3" = _HcruhIPM;
         "neoforge-1.20.4" = _s1w4C2qk;
         "neoforge-1.21" = _BE8NIFRL;
         "neoforge-1.21.1" = _pdwce4YN;
         "neoforge-1.21.8" = _hWbFVNhG;
         "neoforge-1.21.10" = _NTBuPWLD;
         "neoforge-1.21.11" = _r6uDXJxQ;
+        "neoforge-26.3" = _mGbj5Zsx;
         "pkg-1.6.5" = _ZLOYzBqp;
         "pkg-2.2.2" = _5HX9KR25;
         "pkg-2.2.3" = _GaNoazAP;
@@ -182,8 +210,9 @@ let
         "pkg-2.2.9" = _NTBuPWLD;
         "pkg-2.3.3" = _RMtsouxB;
         "pkg-1.21.11-1.7.3" = _MfWilFFL;
-        "pkg-2.4.0" = _c4XIgKQE;
-        "default" = _c4XIgKQE;
+        "pkg-2.4.0" = _h4IIbVhE;
+        "pkg-2.4.1" = _VD7Lzn4e;
+        "default" = _VD7Lzn4e;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "easy-craft-saddles";

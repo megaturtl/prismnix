@@ -96,6 +96,11 @@ let
             "file" = "dyedvoid-1.1.3+mc26.1.2.jar";
             "hash" = "sha512-eHRLL6cIkySR8mxPjs283T1Co7VA9vlb2XccpRqDT2EeofN1Yj4HatOQRu8Eo8PVUuq9k+3XuxNkKbg+QfD5YA==";
         };
+        _7cHIEFmC = {
+            "id" = "7cHIEFmC";
+            "file" = "DyedVoid-1.0.7+mc1.21.1.jar";
+            "hash" = "sha512-QCnybFohGOFfWiI0kT0DwaIoLm4XW9wTYeqjn389CLMvrRg7ZJyry3OZkFydQmRW/LMaRbnTGzIap9oCrOYsmw==";
+        };
     in {
         "rAehQhpy" = _rAehQhpy;
         "PdB7DjSw" = _PdB7DjSw;
@@ -116,8 +121,9 @@ let
         "6VwQ7gZv" = _6VwQ7gZv;
         "oD2R25Sm" = _oD2R25Sm;
         "VuCAmG03" = _VuCAmG03;
+        "7cHIEFmC" = _7cHIEFmC;
         "fabric-1.20.1" = _PdB7DjSw;
-        "fabric-1.21.1" = _TV0wS5ZH;
+        "fabric-1.21.1" = _7cHIEFmC;
         "fabric-1.21.6" = _I6sBWoy7;
         "fabric-1.21.7" = _I6sBWoy7;
         "fabric-1.21.8" = _I6sBWoy7;
@@ -136,6 +142,7 @@ let
         "fabric-26.2" = _oD2R25Sm;
         "fabric-26.3-rc-3" = _6VwQ7gZv;
         "fabric-26.3" = _6VwQ7gZv;
+        "fabric-1.21" = _7cHIEFmC;
         "quilt-1.20.1" = _PdB7DjSw;
         "quilt-1.21.1" = _I4kD0qvy;
         "pkg-1.0.0" = _rAehQhpy;
@@ -157,7 +164,8 @@ let
         "pkg-1.1.3+mc26.3" = _6VwQ7gZv;
         "pkg-1.1.3+mc26.2" = _oD2R25Sm;
         "pkg-1.1.3+mc26.1.2" = _VuCAmG03;
-        "default" = _VuCAmG03;
+        "pkg-1.0.7+mc1.21.1" = _7cHIEFmC;
+        "default" = _7cHIEFmC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dyed-void";

@@ -61,6 +61,11 @@ let
             "file" = "ImageFrameClient-1.21.11-fabric-1.2.0.jar";
             "hash" = "sha512-cjk3WsZ2PWUqIyuPMZfupLUMeio33jNstRYSv6sbsosZvpWvgho+Fgwx+3FrdSNumQ1C4mZ5ZlCzxGx4AQbybg==";
         };
+        _hB1RxRSV = {
+            "id" = "hB1RxRSV";
+            "file" = "ImageFrameClient-26.3-fabric-1.2.0.jar";
+            "hash" = "sha512-JLDNab6XjGJt2nrEMPN9lLqFbiUlsRxiPe40DM46nkykkrYXIybvfn8YI4pCuvSGaaycomT+8jylJml3NzTHeA==";
+        };
     in {
         "9qqEJAgR" = _9qqEJAgR;
         "22ODgHWx" = _22ODgHWx;
@@ -74,6 +79,7 @@ let
         "emb64mKA" = _emb64mKA;
         "3oal0krh" = _3oal0krh;
         "liTeS9ln" = _liTeS9ln;
+        "hB1RxRSV" = _hB1RxRSV;
         "fabric-1.21.8" = _3oTZDQpa;
         "fabric-1.21.4" = _qVtzDO55;
         "fabric-1.21.10" = _XVBaulym;
@@ -82,6 +88,7 @@ let
         "fabric-26.1" = _RxKQk532;
         "fabric-26.1.2" = _RxKQk532;
         "fabric-26.2" = _3oal0krh;
+        "fabric-26.3" = _hB1RxRSV;
         "quilt-1.21.8" = _3oTZDQpa;
         "quilt-1.21.4" = _qVtzDO55;
         "quilt-1.21.10" = _XVBaulym;
@@ -90,9 +97,10 @@ let
         "quilt-26.1" = _RxKQk532;
         "quilt-26.1.2" = _RxKQk532;
         "quilt-26.2" = _3oal0krh;
+        "quilt-26.3" = _hB1RxRSV;
         "pkg-1.1.0" = _G8JIBfcM;
-        "pkg-1.2.0" = _liTeS9ln;
-        "default" = _liTeS9ln;
+        "pkg-1.2.0" = _hB1RxRSV;
+        "default" = _hB1RxRSV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "imageframeclient";

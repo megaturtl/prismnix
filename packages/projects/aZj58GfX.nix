@@ -851,6 +851,11 @@ let
             "file" = "easyauth-mc1.20-3.4.4.jar";
             "hash" = "sha512-MrM2BkKTMjGLCqful8SanC8DEf812LHLtX52fC1I23XZ8dVoM/g2yeoawpBAczkDstCSfwjb0zoxJ2iTk61z4A==";
         };
+        _Qd0CWVQP = {
+            "id" = "Qd0CWVQP";
+            "file" = "easyauth-mc26.3-3.4.4.jar";
+            "hash" = "sha512-hJo76G295GQnsQBT9HS9U7Kub31przIhs89ziEh2rPf6XHzeEInIbhbb8P8bDcjVvLlu+8cZaLsB7Z+lCDC+qw==";
+        };
     in {
         "lSgUE8Uf" = _lSgUE8Uf;
         "ArxBPcec" = _ArxBPcec;
@@ -1022,6 +1027,7 @@ let
         "1epBsiQS" = _1epBsiQS;
         "PdbjmYqi" = _PdbjmYqi;
         "DyyXugl2" = _DyyXugl2;
+        "Qd0CWVQP" = _Qd0CWVQP;
         "fabric-1.17.1" = _nzniP0iN;
         "fabric-1.17" = _6M3vwbql;
         "fabric-1.18-pre1" = _fECjojgn;
@@ -1056,6 +1062,7 @@ let
         "fabric-26.1.1" = _h9nSM2ZF;
         "fabric-26.1.2" = _h9nSM2ZF;
         "fabric-26.2" = _3d6BOvmm;
+        "fabric-26.3" = _Qd0CWVQP;
         "quilt-1.19.1" = _ILLJbynj;
         "quilt-1.19.2" = _ILLJbynj;
         "quilt-1.19.3" = _aZrKVwyZ;
@@ -1119,8 +1126,8 @@ let
         "pkg-3.4.3-SNAPSHOT.48" = _h9nSM2ZF;
         "pkg-3.4.3" = _e20D7ev8;
         "pkg-3.4.3-SNAPSHOT.49" = _brHsihQ7;
-        "pkg-3.4.4" = _DyyXugl2;
-        "default" = _DyyXugl2;
+        "pkg-3.4.4" = _Qd0CWVQP;
+        "default" = _Qd0CWVQP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "easyauth";

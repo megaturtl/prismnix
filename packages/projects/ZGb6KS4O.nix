@@ -46,6 +46,16 @@ let
             "file" = "UHC Basics 26.2.zip";
             "hash" = "sha512-92WFtm5YVakfYSpsfaFz/EePrSfslO/3Wde6fGMo0MJIRk2d1vgzTFV5QD6aAAhj1O9eMbdrKizHn063Eidi1A==";
         };
+        _yDPS3rsI = {
+            "id" = "yDPS3rsI";
+            "file" = "UHC Basics 26.3.zip";
+            "hash" = "sha512-XO+yWZwnROg/nZ5eL+pbocCGkxJHbtB7K1bZoGxXPp8VsNvLiJr4YHL8ePQZCY60knmnZVHATVlDSN0yzIRToQ==";
+        };
+        _6PJy9Evg = {
+            "id" = "6PJy9Evg";
+            "file" = "UHC Basics 26.3 1.2.zip";
+            "hash" = "sha512-OAqOJpo7+C+flmeJbGoZyO1zAQLShqhStBxuP5oKw40Sc3eFkVVBKFHVnd/UzInikqhCzeAO2wAf7FYNsoquIA==";
+        };
     in {
         "Ttq5wFfs" = _Ttq5wFfs;
         "vfAMeAVv" = _vfAMeAVv;
@@ -56,6 +66,8 @@ let
         "Ltv49KOo" = _Ltv49KOo;
         "edQ3OzF5" = _edQ3OzF5;
         "P69QtLXG" = _P69QtLXG;
+        "yDPS3rsI" = _yDPS3rsI;
+        "6PJy9Evg" = _6PJy9Evg;
         "minecraft-1.20" = _Ttq5wFfs;
         "minecraft-1.20.1" = _Ttq5wFfs;
         "minecraft-1.20.2" = _Ttq5wFfs;
@@ -74,9 +86,12 @@ let
         "minecraft-26.1.1" = _edQ3OzF5;
         "minecraft-26.1.2" = _edQ3OzF5;
         "minecraft-26.2" = _P69QtLXG;
+        "minecraft-26.3" = _6PJy9Evg;
         "pkg-1.0" = _edQ3OzF5;
         "pkg-26.2" = _P69QtLXG;
-        "default" = _P69QtLXG;
+        "pkg-26.3" = _yDPS3rsI;
+        "pkg-1.2" = _6PJy9Evg;
+        "default" = _6PJy9Evg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "uhc-basics";

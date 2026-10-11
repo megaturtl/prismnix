@@ -516,6 +516,16 @@ let
             "file" = "SimpleDiscordRichPresence-fabric-26.2.0.1.jar";
             "hash" = "sha512-j61+vSXTcIXVNbzc4S8NBkqLmUJ9D31Z5HSu2vlu4uxxZfhmYR15h2onpaIhCOGl0LuoKe6JiWo852q+Mjbywg==";
         };
+        _30x8uYxs = {
+            "id" = "30x8uYxs";
+            "file" = "SimpleDiscordRichPresence-neoforge-26.3.0.1.jar";
+            "hash" = "sha512-6MwABH92CUZgoW6tLNqn8T/3KKrYU7seoIR4Ryj2wBF6b4kpvZswwLBoghY8iR0GB5EbMPRWsagbiMLdFcRAdQ==";
+        };
+        _ISbVI4V2 = {
+            "id" = "ISbVI4V2";
+            "file" = "SimpleDiscordRichPresence-fabric-26.3.0.1.jar";
+            "hash" = "sha512-2vjfWfchbf4kMuC5PUkdzB6w0rz3i5rSR5cMAifSzARY5u449Vyln0JotcDUep5n/4kScAqM7CAFj+Sl95xQlw==";
+        };
     in {
         "t30QLbfp" = _t30QLbfp;
         "7jVndr9Y" = _7jVndr9Y;
@@ -620,6 +630,8 @@ let
         "buyA7MVI" = _buyA7MVI;
         "VVdbxDCk" = _VVdbxDCk;
         "N4mCDMUV" = _N4mCDMUV;
+        "30x8uYxs" = _30x8uYxs;
+        "ISbVI4V2" = _ISbVI4V2;
         "fabric-1.20.1" = _LwiSX3us;
         "fabric-1.20" = _ETVnoDyC;
         "fabric-1.19.3" = _eKBWk7qY;
@@ -648,6 +660,7 @@ let
         "fabric-26.1.1" = _buyA7MVI;
         "fabric-26.1.2" = _buyA7MVI;
         "fabric-26.2" = _N4mCDMUV;
+        "fabric-26.3" = _ISbVI4V2;
         "forge-1.20.1" = _jnmqJmSh;
         "forge-1.20" = _3htFWFop;
         "forge-1.19.3" = _f6XxNeJr;
@@ -689,6 +702,7 @@ let
         "neoforge-26.1.1" = _qnM4SYrz;
         "neoforge-26.1.2" = _qnM4SYrz;
         "neoforge-26.2" = _VVdbxDCk;
+        "neoforge-26.3" = _30x8uYxs;
         "pkg-4.0.1" = _7jVndr9Y;
         "pkg-build.33+mc1.20.1" = _2Om29ulP;
         "pkg-build.32+mc1.20" = _ETVnoDyC;
@@ -748,7 +762,8 @@ let
         "pkg-99.0.0" = _YFnBVz2x;
         "pkg-26.1.2.1" = _buyA7MVI;
         "pkg-26.2.0.1" = _N4mCDMUV;
-        "default" = _N4mCDMUV;
+        "pkg-26.3.0.1" = _ISbVI4V2;
+        "default" = _ISbVI4V2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "srdp";

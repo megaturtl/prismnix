@@ -931,6 +931,21 @@ let
             "file" = "mcw-trapdoors-1.1.5-mc26.2fabric.jar";
             "hash" = "sha512-YaBKcucrmo2UT+67H4sQbO7VdxBlbRk04bf7shnPYsNW2smGappr72JU/DyXJrNFQp663WO02Af9JMZ3R89zBg==";
         };
+        _NWZ83OcB = {
+            "id" = "NWZ83OcB";
+            "file" = "mcw-trapdoors-1.1.5-mc26.3fabric.jar";
+            "hash" = "sha512-tZk1jzQyFSzTaYSx5AxQQoCr3vEGukE1lDVgsH0HqS5+M5Fsi3xTNjo5FvI1asytulPOr+DGYwOdsLj/1BTiJw==";
+        };
+        _4XqsjBpN = {
+            "id" = "4XqsjBpN";
+            "file" = "mcw-trapdoors-1.1.5-mc26.3forge.jar";
+            "hash" = "sha512-P4VTvFYEirOCVUZocdtfXf2cZ1gLfNJQ8WCQGFVC6dIWf6ZE9sar83Vr0b6rMHW9OVhivi+FzMTadmhQIACkHQ==";
+        };
+        _H4y0vycd = {
+            "id" = "H4y0vycd";
+            "file" = "mcw-trapdoors-1.1.5-mc26.3neoforge.jar";
+            "hash" = "sha512-fHQHeWUQ9YXCST6IW75tj/H1dNXuxLz8HCgzku6ADSAkHe8P8qo3Fpe+EY1Kh4R86yts0HJzdlAnp2izscLntQ==";
+        };
     in {
         "T3Z2kmHE" = _T3Z2kmHE;
         "2suS3Irb" = _2suS3Irb;
@@ -1118,6 +1133,9 @@ let
         "tmJ7L9Jz" = _tmJ7L9Jz;
         "QwTpBO7o" = _QwTpBO7o;
         "guJEg4jK" = _guJEg4jK;
+        "NWZ83OcB" = _NWZ83OcB;
+        "4XqsjBpN" = _4XqsjBpN;
+        "H4y0vycd" = _H4y0vycd;
         "fabric-1.18.2" = _yMfjreFx;
         "fabric-1.19" = _GkWeZ7bd;
         "fabric-1.19.1" = _2GhvkKjD;
@@ -1145,6 +1163,7 @@ let
         "fabric-26.1.1" = _OjCybdsq;
         "fabric-26.1.2" = _OjCybdsq;
         "fabric-26.2" = _guJEg4jK;
+        "fabric-26.3" = _NWZ83OcB;
         "forge-1.16.5" = _E1y9SVQX;
         "forge-1.17.1" = _Nt0jdFiG;
         "forge-1.18.1" = _g4f25HZM;
@@ -1175,6 +1194,7 @@ let
         "forge-26.1.1" = _GHLewGJv;
         "forge-26.1.2" = _GHLewGJv;
         "forge-26.2" = _tmJ7L9Jz;
+        "forge-26.3" = _4XqsjBpN;
         "neoforge-1.20.4" = _UP8DaJxa;
         "neoforge-1.20.6" = _eSUNtjiN;
         "neoforge-1.21" = _eeKBCDz1;
@@ -1192,11 +1212,12 @@ let
         "neoforge-26.1.1" = _7zwZ9ZWX;
         "neoforge-26.1.2" = _7zwZ9ZWX;
         "neoforge-26.2" = _QwTpBO7o;
+        "neoforge-26.3" = _H4y0vycd;
         "pkg-1.1.2" = _i61yE5ap;
         "pkg-1.1.3" = _uxCeNtSS;
         "pkg-1.1.4" = _NBo4JDPX;
-        "pkg-1.1.5" = _guJEg4jK;
-        "default" = _guJEg4jK;
+        "pkg-1.1.5" = _H4y0vycd;
+        "default" = _H4y0vycd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "macaws-trapdoors";

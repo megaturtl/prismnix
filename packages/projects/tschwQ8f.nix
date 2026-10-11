@@ -36,6 +36,16 @@ let
             "file" = "Moszyan Railways Resources.zip";
             "hash" = "sha512-sJmLxpe1qm8AGfUenS7o78UkazqquynKbgY4phOT3ostv3pTD+TEKjZiFkJkLo8gmy1dqb44MOffwVUTJBHg1A==";
         };
+        _odTIO3X3 = {
+            "id" = "odTIO3X3";
+            "file" = "Moszyan Railways Resources.zip";
+            "hash" = "sha512-/eeJAycy9fA9IEoSCQZFf5DdhMMAyQkBUnvqEo/dlTeGucjG3jpdkv3zeAjQ0k9MsAjSMEdUBGWxdjpi41SODg==";
+        };
+        _h3qEo6H2 = {
+            "id" = "h3qEo6H2";
+            "file" = "Moszyan Railways Resources.zip";
+            "hash" = "sha512-Sdw7bU+j1MPYtjUVsCVMWlbTL+/sss3iQQ1dM6CzIG3/tBT/STYbnMNeTYXN6z1h5ArcTFMIk+vBcluTKXk7iw==";
+        };
     in {
         "9vLI1KY0" = _9vLI1KY0;
         "VsniY6dX" = _VsniY6dX;
@@ -44,16 +54,18 @@ let
         "QGRCPH9b" = _QGRCPH9b;
         "PKmZqtXI" = _PKmZqtXI;
         "r6bncFlz" = _r6bncFlz;
-        "minecraft-1.17.1" = _r6bncFlz;
-        "minecraft-1.18.2" = _r6bncFlz;
-        "minecraft-1.19.2" = _r6bncFlz;
-        "minecraft-1.19.4" = _r6bncFlz;
-        "minecraft-1.20.1" = _r6bncFlz;
-        "minecraft-1.20.4" = _r6bncFlz;
+        "odTIO3X3" = _odTIO3X3;
+        "h3qEo6H2" = _h3qEo6H2;
+        "minecraft-1.17.1" = _h3qEo6H2;
+        "minecraft-1.18.2" = _h3qEo6H2;
+        "minecraft-1.19.2" = _h3qEo6H2;
+        "minecraft-1.19.4" = _h3qEo6H2;
+        "minecraft-1.20.1" = _h3qEo6H2;
+        "minecraft-1.20.4" = _h3qEo6H2;
         "minecraft-1.18.1" = _F9GGivFw;
         "minecraft-1.21" = _QGRCPH9b;
-        "minecraft-1.21.4" = _r6bncFlz;
-        "minecraft-1.21.1" = _r6bncFlz;
+        "minecraft-1.21.4" = _h3qEo6H2;
+        "minecraft-1.21.1" = _h3qEo6H2;
         "pkg-1" = _9vLI1KY0;
         "pkg-4.3" = _VsniY6dX;
         "pkg-4.3.1" = _F9GGivFw;
@@ -61,7 +73,9 @@ let
         "pkg-4.4.1" = _QGRCPH9b;
         "pkg-4.5" = _PKmZqtXI;
         "pkg-4.6" = _r6bncFlz;
-        "default" = _r6bncFlz;
+        "pkg-4.7" = _odTIO3X3;
+        "pkg-4.7.1" = _h3qEo6H2;
+        "default" = _h3qEo6H2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "moszyan-railways";

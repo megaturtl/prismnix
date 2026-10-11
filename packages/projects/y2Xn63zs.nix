@@ -106,6 +106,16 @@ let
             "file" = "LockedInSlots-v21.11.0-mc1.21.11-Fabric.jar";
             "hash" = "sha512-Rq/pgSlTDuuFve2OYraYuzA78zeA74wvL7XkHxV2ysFfrIlux/rnZ+F+y/i0eCGbyNtT7+wn1ABG1dMns/ktjw==";
         };
+        _sFN3M8PT = {
+            "id" = "sFN3M8PT";
+            "file" = "lockedinslots-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-VOuQcDTz8Cff8UEYCU1wE9IXlaRK/rEY0hFPe37AULu6AkpKsyCgCwdpWHWLbeKQsm5iYgR+WBeC63zJRGtKkA==";
+        };
+        _Te3qQJ1N = {
+            "id" = "Te3qQJ1N";
+            "file" = "lockedinslots-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-O1D1CQ6FrZpt9qLUR+jenlEVfOGFsqo1+xay7czPcf2k+cte3y1oVlFMsd1OkyUy25E/keHOY6nY+zp3J+RTcA==";
+        };
     in {
         "AoWXnmIE" = _AoWXnmIE;
         "uppi5W78" = _uppi5W78;
@@ -128,6 +138,8 @@ let
         "S6SNeHgk" = _S6SNeHgk;
         "Q1pMjJMu" = _Q1pMjJMu;
         "JjB5e7yr" = _JjB5e7yr;
+        "sFN3M8PT" = _sFN3M8PT;
+        "Te3qQJ1N" = _Te3qQJ1N;
         "neoforge-26.1" = _AoWXnmIE;
         "neoforge-26.1.1" = _AoWXnmIE;
         "neoforge-26.1.2" = _AoWXnmIE;
@@ -140,6 +152,7 @@ let
         "neoforge-1.21.8" = _fq3ENXBO;
         "neoforge-1.21.10" = _azErEUX2;
         "neoforge-1.21.11" = _Q1pMjJMu;
+        "neoforge-26.3" = _Te3qQJ1N;
         "fabric-26.1" = _uppi5W78;
         "fabric-26.1.1" = _uppi5W78;
         "fabric-26.1.2" = _uppi5W78;
@@ -152,6 +165,7 @@ let
         "fabric-1.21.8" = _og9mJ9iI;
         "fabric-1.21.10" = _S6SNeHgk;
         "fabric-1.21.11" = _JjB5e7yr;
+        "fabric-26.3" = _sFN3M8PT;
         "forge-1.20.4" = _wXpU9POb;
         "pkg-26.1.0" = _uppi5W78;
         "pkg-26.2.0" = _4zz8eSV9;
@@ -163,7 +177,8 @@ let
         "pkg-21.8.0" = _og9mJ9iI;
         "pkg-21.10.1" = _S6SNeHgk;
         "pkg-21.11.0" = _JjB5e7yr;
-        "default" = _JjB5e7yr;
+        "pkg-26.3.0" = _Te3qQJ1N;
+        "default" = _Te3qQJ1N;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "locked-in-slots";

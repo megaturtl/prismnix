@@ -396,6 +396,16 @@ let
             "file" = "armor-stand-arms-v2.7.0.jar";
             "hash" = "sha512-2Ff4JGWFooOnrL9Sci85SyAjeH8gJHsE17RWJzkeGKrA1D7S6vuzh1UX5eHvdcauaX4ORvQhbm9VPKN3I8Tk8Q==";
         };
+        _BBTuRNs3 = {
+            "id" = "BBTuRNs3";
+            "file" = "armor-stand-arms-v2.7.0.0.zip";
+            "hash" = "sha512-5R6fLzgpvF2B8p5ArTvY9+/0S4WDFim7a2z30a9AHXcIghczKQLzWmFL/LpfgPf1ogxox5aout3vnOizfz1S2w==";
+        };
+        _UZOt7iAB = {
+            "id" = "UZOt7iAB";
+            "file" = "armor-stand-arms-v2.7.0.0.jar";
+            "hash" = "sha512-rA1E1YHQgiv2qB+tKY0fXLt10MImsGzDVUcva7gl+C+aEiJv1FMjhKQ0V65Pnl+LT7+of0rD3G7Ypr0QDdklNQ==";
+        };
     in {
         "mkNIouDI" = _mkNIouDI;
         "KnC4PR2P" = _KnC4PR2P;
@@ -476,6 +486,8 @@ let
         "JdnQP3tr" = _JdnQP3tr;
         "p27TnOf0" = _p27TnOf0;
         "WymZne8t" = _WymZne8t;
+        "BBTuRNs3" = _BBTuRNs3;
+        "UZOt7iAB" = _UZOt7iAB;
         "datapack-1.20.4" = _xlAEdFWG;
         "datapack-1.20.5" = _1p27Sqbw;
         "datapack-1.20.6" = _1p27Sqbw;
@@ -496,7 +508,7 @@ let
         "datapack-26.1.1" = _ZyZUASTt;
         "datapack-26.1.2" = _ZyZUASTt;
         "datapack-26.2" = _ZyZUASTt;
-        "datapack-26.3" = _p27TnOf0;
+        "datapack-26.3" = _BBTuRNs3;
         "fabric-1.20.4" = _pJBg0bSy;
         "fabric-1.20.5" = _pkbG4wpr;
         "fabric-1.20.6" = _pkbG4wpr;
@@ -517,7 +529,7 @@ let
         "fabric-26.1.1" = _JdnQP3tr;
         "fabric-26.1.2" = _JdnQP3tr;
         "fabric-26.2" = _JdnQP3tr;
-        "fabric-26.3" = _WymZne8t;
+        "fabric-26.3" = _UZOt7iAB;
         "forge-1.20.4" = _pJBg0bSy;
         "forge-1.20.5" = _pkbG4wpr;
         "forge-1.20.6" = _pkbG4wpr;
@@ -538,7 +550,7 @@ let
         "forge-26.1.1" = _JdnQP3tr;
         "forge-26.1.2" = _JdnQP3tr;
         "forge-26.2" = _JdnQP3tr;
-        "forge-26.3" = _WymZne8t;
+        "forge-26.3" = _UZOt7iAB;
         "quilt-1.20.4" = _pJBg0bSy;
         "quilt-1.20.5" = _pkbG4wpr;
         "quilt-1.20.6" = _pkbG4wpr;
@@ -559,7 +571,7 @@ let
         "quilt-26.1.1" = _JdnQP3tr;
         "quilt-26.1.2" = _JdnQP3tr;
         "quilt-26.2" = _JdnQP3tr;
-        "quilt-26.3" = _WymZne8t;
+        "quilt-26.3" = _UZOt7iAB;
         "neoforge-1.20.5" = _pkbG4wpr;
         "neoforge-1.20.6" = _pkbG4wpr;
         "neoforge-1.21.5" = _OITCVITw;
@@ -578,7 +590,7 @@ let
         "neoforge-26.1.1" = _JdnQP3tr;
         "neoforge-26.1.2" = _JdnQP3tr;
         "neoforge-26.2" = _JdnQP3tr;
-        "neoforge-26.3" = _WymZne8t;
+        "neoforge-26.3" = _UZOt7iAB;
         "pkg-v.1.0.0" = _w4mSMG73;
         "pkg-v.1.0.0+mod" = _IJLN7I7w;
         "pkg-v.2.0.0" = _xfkd9vtL;
@@ -631,7 +643,9 @@ let
         "pkg-v2.6.0+mod" = _JdnQP3tr;
         "pkg-v2.7.0" = _p27TnOf0;
         "pkg-v2.7.0+mod" = _WymZne8t;
-        "default" = _WymZne8t;
+        "pkg-v2.7.0.0" = _BBTuRNs3;
+        "pkg-v2.7.0.0+mod" = _UZOt7iAB;
+        "default" = _UZOt7iAB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "armor-stand-arms";

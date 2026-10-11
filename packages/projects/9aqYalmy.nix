@@ -71,6 +71,16 @@ let
             "file" = "teleportation-shrines-v1.2.jar";
             "hash" = "sha512-i9ljSfp3zFkZ3RXrkkJkDKW2/1lnRxvYfbwj2nPGAuuuQXx6PTZvobrUu4UdG2dVrt3HjyUBWKrlvSw461l+EA==";
         };
+        _DDkRQyjx = {
+            "id" = "DDkRQyjx";
+            "file" = "Teleportation Shrines DATAPACK.zip";
+            "hash" = "sha512-hTsDLqAOtkDWMpoG8aBsTyUOIgz9N6OpSd8Gf/aOUu96jFnzNFfPhlWa6X3ltBGMoZVVz6PoijwRHSpVuhrSTg==";
+        };
+        _xLYiAy45 = {
+            "id" = "xLYiAy45";
+            "file" = "teleportation-shrines-v1.2.1.jar";
+            "hash" = "sha512-YiYje245BI+5uey0VVWMEgmnW1V9VDGXE+q4MLn59bSNYiKQmlcBCETWNTdR5CCaYjk/PhxXPwgxDE7XAQ1/KQ==";
+        };
     in {
         "T14ue0WV" = _T14ue0WV;
         "aXGC39B2" = _aXGC39B2;
@@ -86,6 +96,8 @@ let
         "CtNmwW16" = _CtNmwW16;
         "SsqfWZ2k" = _SsqfWZ2k;
         "ZDjj7omz" = _ZDjj7omz;
+        "DDkRQyjx" = _DDkRQyjx;
+        "xLYiAy45" = _xLYiAy45;
         "datapack-1.20.5" = _XPUw0g7e;
         "datapack-1.20.6" = _XPUw0g7e;
         "datapack-1.21" = _SsqfWZ2k;
@@ -96,6 +108,7 @@ let
         "datapack-1.21.8" = _2Cg1eqrJ;
         "datapack-1.21.9" = _SCbrfANp;
         "datapack-1.21.10" = _SCbrfANp;
+        "datapack-26.3" = _DDkRQyjx;
         "fabric-1.20.5" = _tA0XJMkb;
         "fabric-1.20.6" = _tA0XJMkb;
         "fabric-1.21" = _ZDjj7omz;
@@ -106,6 +119,7 @@ let
         "fabric-1.21.8" = _4CZIHl8c;
         "fabric-1.21.9" = _CtNmwW16;
         "fabric-1.21.10" = _CtNmwW16;
+        "fabric-26.3" = _xLYiAy45;
         "forge-1.20.5" = _tA0XJMkb;
         "forge-1.20.6" = _tA0XJMkb;
         "forge-1.21" = _ZDjj7omz;
@@ -116,6 +130,7 @@ let
         "forge-1.21.8" = _4CZIHl8c;
         "forge-1.21.9" = _CtNmwW16;
         "forge-1.21.10" = _CtNmwW16;
+        "forge-26.3" = _xLYiAy45;
         "neoforge-1.20.5" = _tA0XJMkb;
         "neoforge-1.20.6" = _tA0XJMkb;
         "neoforge-1.21" = _ZDjj7omz;
@@ -126,6 +141,7 @@ let
         "neoforge-1.21.8" = _4CZIHl8c;
         "neoforge-1.21.9" = _CtNmwW16;
         "neoforge-1.21.10" = _CtNmwW16;
+        "neoforge-26.3" = _xLYiAy45;
         "quilt-1.20.5" = _tA0XJMkb;
         "quilt-1.20.6" = _tA0XJMkb;
         "quilt-1.21" = _ZDjj7omz;
@@ -136,6 +152,7 @@ let
         "quilt-1.21.8" = _4CZIHl8c;
         "quilt-1.21.9" = _CtNmwW16;
         "quilt-1.21.10" = _CtNmwW16;
+        "quilt-26.3" = _xLYiAy45;
         "pkg-1.0" = _T14ue0WV;
         "pkg-m1.0" = _aXGC39B2;
         "pkg-V1.0.1" = _V9sLPmqD;
@@ -150,7 +167,9 @@ let
         "pkg-m1.1" = _CtNmwW16;
         "pkg-v1.2" = _SsqfWZ2k;
         "pkg-m1.2" = _ZDjj7omz;
-        "default" = _ZDjj7omz;
+        "pkg-v1.2.1" = _DDkRQyjx;
+        "pkg-m1.2.1" = _xLYiAy45;
+        "default" = _xLYiAy45;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "teleportation-shrines";

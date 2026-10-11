@@ -46,6 +46,11 @@ let
             "file" = "Optimized_Block_Textures_1.1.0.zip";
             "hash" = "sha512-X1JStaHSHRo9TGa24F7efF0meOVwEai2Arl5OIsjyzWT57+U0o5190aRJIIBnw4JiRc0VEaav4IUoA+bbjmQxg==";
         };
+        _6wT3y5TP = {
+            "id" = "6wT3y5TP";
+            "file" = "Optimized Block Textures 1.1.1.zip";
+            "hash" = "sha512-Yy+yCVlrdz8HLrF37mHTkpM/fDs5DZ8rPu9gk+PB+9bSP3a+jbOcNT6daUza8SzdLIYXLVZRCbGaMdO2UOXl4w==";
+        };
     in {
         "yi1r3Ef9" = _yi1r3Ef9;
         "WT18591H" = _WT18591H;
@@ -56,13 +61,14 @@ let
         "15j7YoLh" = _15j7YoLh;
         "zwI8RmP8" = _zwI8RmP8;
         "rTF6htla" = _rTF6htla;
-        "minecraft-1.21.8" = _rTF6htla;
-        "minecraft-1.21.9" = _rTF6htla;
-        "minecraft-1.21.10" = _rTF6htla;
-        "minecraft-1.21.11" = _rTF6htla;
-        "minecraft-26.1" = _rTF6htla;
-        "minecraft-26.1.1" = _rTF6htla;
-        "minecraft-26.1.2" = _rTF6htla;
+        "6wT3y5TP" = _6wT3y5TP;
+        "minecraft-1.21.8" = _6wT3y5TP;
+        "minecraft-1.21.9" = _6wT3y5TP;
+        "minecraft-1.21.10" = _6wT3y5TP;
+        "minecraft-1.21.11" = _6wT3y5TP;
+        "minecraft-26.1" = _6wT3y5TP;
+        "minecraft-26.1.1" = _6wT3y5TP;
+        "minecraft-26.1.2" = _6wT3y5TP;
         "minecraft-26.2-snapshot-2" = _zwI8RmP8;
         "minecraft-26.2-snapshot-3" = _zwI8RmP8;
         "minecraft-26.2-snapshot-4" = _zwI8RmP8;
@@ -78,21 +84,22 @@ let
         "minecraft-26.2-pre-6" = _zwI8RmP8;
         "minecraft-26.2-rc-1" = _zwI8RmP8;
         "minecraft-26.2-rc-2" = _zwI8RmP8;
-        "minecraft-1.21" = _rTF6htla;
-        "minecraft-1.21.1" = _rTF6htla;
-        "minecraft-1.21.2" = _rTF6htla;
-        "minecraft-1.21.3" = _rTF6htla;
-        "minecraft-1.21.4" = _rTF6htla;
-        "minecraft-1.21.5" = _rTF6htla;
-        "minecraft-1.21.6" = _rTF6htla;
-        "minecraft-1.21.7" = _rTF6htla;
-        "minecraft-26.2" = _rTF6htla;
+        "minecraft-1.21" = _6wT3y5TP;
+        "minecraft-1.21.1" = _6wT3y5TP;
+        "minecraft-1.21.2" = _6wT3y5TP;
+        "minecraft-1.21.3" = _6wT3y5TP;
+        "minecraft-1.21.4" = _6wT3y5TP;
+        "minecraft-1.21.5" = _6wT3y5TP;
+        "minecraft-1.21.6" = _6wT3y5TP;
+        "minecraft-1.21.7" = _6wT3y5TP;
+        "minecraft-26.2" = _6wT3y5TP;
+        "minecraft-26.3" = _6wT3y5TP;
         "pkg-1.0.0" = _8MlvTNQ9;
         "pkg-1.0.1" = _15j7YoLh;
         "pkg-1.0.2" = _zwI8RmP8;
         "pkg-1.1.0" = _rTF6htla;
-        "pkg-1.1.1" = _8RnRXY5q;
-        "default" = _rTF6htla;
+        "pkg-1.1.1" = _6wT3y5TP;
+        "default" = _6wT3y5TP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "optimized-block-textures";

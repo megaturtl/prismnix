@@ -631,6 +631,21 @@ let
             "file" = "language-reload-1.7.7+26.2.jar";
             "hash" = "sha512-uFFlZLLsR/NFaYQ9xy2T1AUxImkzdxk+MGOzhgLnYMjhF3I5yxqNewTUweG4R29moTusTZVvqa1GZkEUdqeP3A==";
         };
+        _czZ5NaSe = {
+            "id" = "czZ5NaSe";
+            "file" = "language-reload-1.7.8+26.1.2.jar";
+            "hash" = "sha512-Zmcxmj9wzdAirvacH2P59FQDQz562pQ9jwsIGHUEptV4p68RfGMrBFJ31oJxB+PaaSr5x9unAW59+uCa6AgWCg==";
+        };
+        _doGx6rSt = {
+            "id" = "doGx6rSt";
+            "file" = "language-reload-1.7.8+26.2.jar";
+            "hash" = "sha512-pS8Cdvc3vsMjdKnbgmd0EUg4VMy3AFAtuLnY2QdNR0CKjDy7RNyFixGS9Y1aWaqYAxQWh2zJHVrVrhj8A/M0aA==";
+        };
+        _QVn4cccd = {
+            "id" = "QVn4cccd";
+            "file" = "language-reload-1.7.8+26.3.jar";
+            "hash" = "sha512-Y2ZZaHXp+jO2uBGdCOXBjzUUZi4xmnNc7cit2wC/9M8xefOjNTOyBwwd3XdvI+al8itp0NoFifMJHw257q0dQw==";
+        };
     in {
         "fKT6908e" = _fKT6908e;
         "XzBef9CR" = _XzBef9CR;
@@ -758,6 +773,9 @@ let
         "rJRsdV10" = _rJRsdV10;
         "G7cLFIIG" = _G7cLFIIG;
         "L79IylWm" = _L79IylWm;
+        "czZ5NaSe" = _czZ5NaSe;
+        "doGx6rSt" = _doGx6rSt;
+        "QVn4cccd" = _QVn4cccd;
         "fabric-1.17.1" = _De5hWChg;
         "fabric-1.18" = _De5hWChg;
         "fabric-1.18.1" = _lkLis7II;
@@ -798,10 +816,11 @@ let
         "fabric-1.21.9" = _KeQdftoX;
         "fabric-1.21.10" = _KeQdftoX;
         "fabric-1.21.11" = _rJRsdV10;
-        "fabric-26.1" = _G7cLFIIG;
-        "fabric-26.1.1" = _G7cLFIIG;
-        "fabric-26.1.2" = _G7cLFIIG;
-        "fabric-26.2" = _L79IylWm;
+        "fabric-26.1" = _czZ5NaSe;
+        "fabric-26.1.1" = _czZ5NaSe;
+        "fabric-26.1.2" = _czZ5NaSe;
+        "fabric-26.2" = _doGx6rSt;
+        "fabric-26.3" = _QVn4cccd;
         "quilt-1.19" = _AmPdNCPb;
         "quilt-1.19.1" = _AmPdNCPb;
         "quilt-1.19.2" = _AmPdNCPb;
@@ -826,10 +845,11 @@ let
         "quilt-1.21.9" = _KeQdftoX;
         "quilt-1.21.10" = _KeQdftoX;
         "quilt-1.21.11" = _rJRsdV10;
-        "quilt-26.1" = _G7cLFIIG;
-        "quilt-26.1.1" = _G7cLFIIG;
-        "quilt-26.1.2" = _G7cLFIIG;
-        "quilt-26.2" = _L79IylWm;
+        "quilt-26.1" = _czZ5NaSe;
+        "quilt-26.1.1" = _czZ5NaSe;
+        "quilt-26.1.2" = _czZ5NaSe;
+        "quilt-26.2" = _doGx6rSt;
+        "quilt-26.3" = _QVn4cccd;
         "pkg-1.0" = _fKT6908e;
         "pkg-1.0.1" = _XzBef9CR;
         "pkg-1.1" = _Xt9ELZ3W;
@@ -956,7 +976,10 @@ let
         "pkg-1.7.7+1.21.11" = _rJRsdV10;
         "pkg-1.7.7+26.1.2" = _G7cLFIIG;
         "pkg-1.7.7+26.2" = _L79IylWm;
-        "default" = _L79IylWm;
+        "pkg-1.7.8+26.1.2" = _czZ5NaSe;
+        "pkg-1.7.8+26.2" = _doGx6rSt;
+        "pkg-1.7.8+26.3" = _QVn4cccd;
+        "default" = _QVn4cccd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "language-reload";

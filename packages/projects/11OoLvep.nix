@@ -296,6 +296,21 @@ let
             "file" = "mo-glowstone-neo-1.21.11-2.7.4.jar";
             "hash" = "sha512-3JT+1jYzjM6x+BfZ3uA/OawS2uKJNJzefaENhgJDPgahYz95sYyVCuZvcGzaoXS8yqspmzEOXOh7gHeRDHjxjQ==";
         };
+        _IZihXETt = {
+            "id" = "IZihXETt";
+            "file" = "Mo-Glowstone-26.3-2.8.2.jar";
+            "hash" = "sha512-MYNznl/NT0rAKOJa5ueF3R9c+opciR+/1eI29MYGd41GcKsFGtJbASHd3aO9kRu5675o/mKmauOxHESmwpFyIg==";
+        };
+        _hvnESjab = {
+            "id" = "hvnESjab";
+            "file" = "mo-glowstone-neo-26.1.2-2.8.2b.jar";
+            "hash" = "sha512-mCD35xjWgnYPTgHHu+kqiIxxHTdgRqKxkN4yvt+Rufpr+5b4603y459Azm5Ad51ZNjEvMNDls8+JotDCDRWvLA==";
+        };
+        _N4m6MYjH = {
+            "id" = "N4m6MYjH";
+            "file" = "mo-glowstone-neo-26.2-2.8.2b.jar";
+            "hash" = "sha512-4OwS6y0XJXLEFrdZD4lmaspq44j8V6hZ1jL1mXp/9U7oYqSNkk8Rcz06uLl2t6aoh8+RbJ6JJUvHcWXNs/XiuQ==";
+        };
     in {
         "RgSEJ07v" = _RgSEJ07v;
         "UmeA9wSj" = _UmeA9wSj;
@@ -356,6 +371,9 @@ let
         "9Dy9yGta" = _9Dy9yGta;
         "C16XOiKT" = _C16XOiKT;
         "RwLR0981" = _RwLR0981;
+        "IZihXETt" = _IZihXETt;
+        "hvnESjab" = _hvnESjab;
+        "N4m6MYjH" = _N4m6MYjH;
         "forge-1.19.4" = _RgSEJ07v;
         "forge-1.20" = _xPEWzYn5;
         "forge-1.20.1" = _Hm7q4Pds;
@@ -405,8 +423,9 @@ let
         "neoforge-1.21.11" = _RwLR0981;
         "neoforge-26.1" = _q3PIpYVL;
         "neoforge-26.1.1" = _bsb1lstJ;
-        "neoforge-26.1.2" = _C16XOiKT;
-        "neoforge-26.2" = _9Dy9yGta;
+        "neoforge-26.1.2" = _hvnESjab;
+        "neoforge-26.2" = _N4m6MYjH;
+        "neoforge-26.3" = _IZihXETt;
         "pkg-2.3.5" = _RgSEJ07v;
         "pkg-2.4.1b" = _UmeA9wSj;
         "pkg-2.4.1c" = _xPEWzYn5;
@@ -452,7 +471,10 @@ let
         "pkg-26.2-2.8.1" = _9Dy9yGta;
         "pkg-26.1.2-2.8.2" = _C16XOiKT;
         "pkg-1.21.11-2.7.4" = _RwLR0981;
-        "default" = _RwLR0981;
+        "pkg-26.3-2.8.2" = _IZihXETt;
+        "pkg-26.1.2-2.8.2b" = _hvnESjab;
+        "pkg-26.2-2.8.2b" = _N4m6MYjH;
+        "default" = _N4m6MYjH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mo-glowstone";

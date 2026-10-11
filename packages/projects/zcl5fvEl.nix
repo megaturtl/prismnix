@@ -106,6 +106,41 @@ let
             "file" = "wildcamps-(neoforge)-1.0.1-(26.1-26.1.2).jar";
             "hash" = "sha512-viUB3/WW6g4OnCxML/WpPtAgfH/g5MgR0Rgg300m60nKOx0hSnmKItUxvqtWFlptZuFQHdn5LBQHimjlaONhYw==";
         };
+        _khZKZbzW = {
+            "id" = "khZKZbzW";
+            "file" = "wildcamps-(forge)-1.0.1-(1.20.1).jar";
+            "hash" = "sha512-uy4Qq09cVeZC7TtFf5D4arsIHXM6Sq/BSP8w2yruaxRrLVQZdb393rN5DrbivuFaQBMJSfGqDEwGR1LxYfHumA==";
+        };
+        _DczOz7iU = {
+            "id" = "DczOz7iU";
+            "file" = "wildcamps-(forge)-1.0.1-(26.2).jar";
+            "hash" = "sha512-hCR+v6maPN8aEBYZ9IBmVGn+c0HZA8XOy6TH0Yhy3CXVkgWk4wHRy/tJBLDMoHa15/9Bir6jfu6qDFsqPxFH7A==";
+        };
+        _yVVdYE1H = {
+            "id" = "yVVdYE1H";
+            "file" = "wildcamps-(neoforge)-1.0.1-(26.2).jar";
+            "hash" = "sha512-b+d0kB91sieMnKSx6a3kD6O9UWNc+pRA2IXuV2p19ddeeYfIrAN1fMnSMrbcRbk9ry9Ki/aE9QkGo7wR97ipnw==";
+        };
+        _8cWGxlG7 = {
+            "id" = "8cWGxlG7";
+            "file" = "wildcamps-(fabric)-1.0.1-(26.2).jar";
+            "hash" = "sha512-cT2sKsruGdPiGpRDuMiuw7ukI1B95XrojAvwU5kxEUvy8PrxS1UTgGPVERfm+zY30GEKdOFopNrKi3/7+9iVTQ==";
+        };
+        _5sifQmPw = {
+            "id" = "5sifQmPw";
+            "file" = "wildcamps-(forge)-1.0.1-(26.3).jar";
+            "hash" = "sha512-VsAGQsGHDtLwCpJxXBX3BPOjBJcB6P4f/NnFyv15+VMbAlWBS9fKeT9xlbNuIsH/IK/SIEH88Ztz8N62U1Yrmg==";
+        };
+        _rGGdLW52 = {
+            "id" = "rGGdLW52";
+            "file" = "wildcamps-(neoforge)-1.0.1-(26.3).jar";
+            "hash" = "sha512-UPioVBzMimV7pu7t9ISdux15bOF2UjFkGmHJCEDDSUfHqVF11/+VleNkNQ9hl8kbFYsVNqXNMHNFq/jtQetBVA==";
+        };
+        _64oUYIzE = {
+            "id" = "64oUYIzE";
+            "file" = "wildcamps-(fabric)-1.0.1-(26.3).jar";
+            "hash" = "sha512-4cMFCK1OnlykE40eAR+jvZ9DahAlXWB3s9O0IeBU2TjyM46gxl3qvFbAWwI36Pg04dXQpGGNUoJvYYeMwwh3DA==";
+        };
     in {
         "B2WOemWj" = _B2WOemWj;
         "9p83O6hh" = _9p83O6hh;
@@ -128,6 +163,13 @@ let
         "zbRhvI0C" = _zbRhvI0C;
         "oBoWM927" = _oBoWM927;
         "G0UwRK8R" = _G0UwRK8R;
+        "khZKZbzW" = _khZKZbzW;
+        "DczOz7iU" = _DczOz7iU;
+        "yVVdYE1H" = _yVVdYE1H;
+        "8cWGxlG7" = _8cWGxlG7;
+        "5sifQmPw" = _5sifQmPw;
+        "rGGdLW52" = _rGGdLW52;
+        "64oUYIzE" = _64oUYIzE;
         "forge-26.1" = _B2WOemWj;
         "forge-26.1.1" = _B2WOemWj;
         "forge-26.1.2" = _B2WOemWj;
@@ -141,6 +183,9 @@ let
         "forge-1.21.8" = _26pD9Czz;
         "forge-1.21.9" = _26pD9Czz;
         "forge-1.21.10" = _26pD9Czz;
+        "forge-1.20.1" = _khZKZbzW;
+        "forge-26.2" = _DczOz7iU;
+        "forge-26.3" = _5sifQmPw;
         "fabric-1.21.11" = _TOeet9N8;
         "fabric-26.1" = _Oc3tSrPJ;
         "fabric-26.1.1" = _Oc3tSrPJ;
@@ -163,6 +208,8 @@ let
         "fabric-1.21.8" = _Kt58zuae;
         "fabric-1.21.9" = _Kt58zuae;
         "fabric-1.21.10" = _Kt58zuae;
+        "fabric-26.2" = _8cWGxlG7;
+        "fabric-26.3" = _64oUYIzE;
         "neoforge-1.21" = _eZurijEE;
         "neoforge-1.21.1" = _eZurijEE;
         "neoforge-1.21.2" = _eZurijEE;
@@ -181,9 +228,11 @@ let
         "neoforge-26.1" = _G0UwRK8R;
         "neoforge-26.1.1" = _G0UwRK8R;
         "neoforge-26.1.2" = _G0UwRK8R;
+        "neoforge-26.2" = _yVVdYE1H;
+        "neoforge-26.3" = _rGGdLW52;
         "pkg-1.0.0" = _wlWjFClp;
-        "pkg-1.0.1" = _G0UwRK8R;
-        "default" = _G0UwRK8R;
+        "pkg-1.0.1" = _64oUYIzE;
+        "default" = _64oUYIzE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "w-wildcamps";

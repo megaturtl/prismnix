@@ -31,6 +31,11 @@ let
             "file" = "Saros-Skin-Changer-Forge-1.20.1-1.3.1.jar";
             "hash" = "sha512-d+MDvUnEEj/7PvvWM4K5y20f57DxEIyEusAbVKtIvGFelVxO8QbAr+V7qHnhFCK5wP85t71OdfFHILouVub93g==";
         };
+        _xgY4sLub = {
+            "id" = "xgY4sLub";
+            "file" = "Saros-Skin-Changer-Forge-26.3-1.0.1.jar";
+            "hash" = "sha512-C0cKv+q/MBZDL6bgXc528grKJxh70/AOpjOT5zUPoKO9QBwBJQRhXlysBKQR27ARWJlinhllbJQAHlKcF7izvg==";
+        };
     in {
         "3kuHZqP6" = _3kuHZqP6;
         "JlrJFfiw" = _JlrJFfiw;
@@ -38,15 +43,18 @@ let
         "NftZe5Mw" = _NftZe5Mw;
         "1AxYjyCx" = _1AxYjyCx;
         "5ezT3gaG" = _5ezT3gaG;
+        "xgY4sLub" = _xgY4sLub;
         "forge-1.12.2" = _ncjMeXEO;
         "forge-1.20.1" = _5ezT3gaG;
+        "forge-26.3" = _xgY4sLub;
         "neoforge-1.20.1" = _5ezT3gaG;
         "pkg-1.0" = _3kuHZqP6;
         "pkg-1.1" = _JlrJFfiw;
         "pkg-1.2" = _NftZe5Mw;
         "pkg-1.3" = _1AxYjyCx;
         "pkg-1.3.1" = _5ezT3gaG;
-        "default" = _5ezT3gaG;
+        "pkg-1.0.1-forge-26.3" = _xgY4sLub;
+        "default" = _xgY4sLub;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "saros-skin-changer";

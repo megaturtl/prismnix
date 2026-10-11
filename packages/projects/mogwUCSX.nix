@@ -166,6 +166,11 @@ let
             "file" = "LPCTools-0.5.4.7+c8365667.jar";
             "hash" = "sha512-XrQzOeFXzeETdYYxixl6Ow6qX49cosXUUBvHqvzxEfyyjDjPyCeXUtl0TZ92evZvtsgsbnGZS/dStU4tNqNzfQ==";
         };
+        _fKdcYHgL = {
+            "id" = "fKdcYHgL";
+            "file" = "LPCTools-0.5.4.13+d695dfdf.jar";
+            "hash" = "sha512-GH93d0vbj+uQnyLM5SrJH/H1SXXKL4zpRmlQEIqDpBXdusK2h3HlRFI0wsiekCDRAQMFPDuueVdybhQQZB89Bg==";
+        };
     in {
         "V5S1tU2K" = _V5S1tU2K;
         "77Ts8KxN" = _77Ts8KxN;
@@ -200,6 +205,7 @@ let
         "RqS00hel" = _RqS00hel;
         "gGA39amG" = _gGA39amG;
         "vW52lSCL" = _vW52lSCL;
+        "fKdcYHgL" = _fKdcYHgL;
         "fabric-1.21.6" = _sol22tOM;
         "fabric-1.21.4" = _KwBgImfG;
         "fabric-1.21.3" = _RMpPrV9J;
@@ -223,6 +229,7 @@ let
         "fabric-26.1.1" = _pTnoSbS3;
         "fabric-26.1.2" = _pTnoSbS3;
         "fabric-26.2" = _vW52lSCL;
+        "fabric-26.3" = _fKdcYHgL;
         "pkg-0.4.2" = _PtvzwyLs;
         "pkg-0.5.1+mc1.21.11" = _m2ZrXmUh;
         "pkg-0.5.1+mc1.21.9-1.21.10" = _KbEDdf7b;
@@ -246,7 +253,8 @@ let
         "pkg-0.5.4.5" = _RqS00hel;
         "pkg-0.5.4.6" = _gGA39amG;
         "pkg-0.5.4.7" = _vW52lSCL;
-        "default" = _vW52lSCL;
+        "pkg-0.5.4.13" = _fKdcYHgL;
+        "default" = _fKdcYHgL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lpctools";

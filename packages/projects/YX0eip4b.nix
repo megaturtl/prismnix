@@ -721,6 +721,36 @@ let
             "file" = "lifesteal-fabric-10.0.7-26.2.jar";
             "hash" = "sha512-TWeQKz2RtmBVJ2v/ARk3pHlc3l9Itksrg53Yx4Km77eEytI86HZLBR2/PRak1OGok7P0KST9YQHqfW9x/+/JOA==";
         };
+        _C4QS26Hj = {
+            "id" = "C4QS26Hj";
+            "file" = "lifesteal-fabric-10.0.7-26.3.jar";
+            "hash" = "sha512-U0I/W75JPnFb2RfEU2M81kauWGletjgWzDtD3dfGGe+8zx56/CPIIIZZ+qq9UDns+AYUPofgcGa06tNyK9IRnQ==";
+        };
+        _vpsdlueT = {
+            "id" = "vpsdlueT";
+            "file" = "lifesteal-neoforge-10.0.7-26.3.jar";
+            "hash" = "sha512-61WKSgGqHCJFKW3FsDPFeNAthiQ0CYqLi3gqF8iFwNSfarEbWwRUNtCk5PO3pSYwm3W5I/H5TosM0oI933qEEw==";
+        };
+        _X6NNRMjk = {
+            "id" = "X6NNRMjk";
+            "file" = "lifesteal-forge-10.0.7-26.3.jar";
+            "hash" = "sha512-hLwV49gIpG5hY6M4MhUDf/wCP0TsKEypeNPY8qAV2TdNZ9NoJyYX9QKLuIN2UdpvyiZj4UkLeEuDlQcxF3/BPw==";
+        };
+        _NueVepAb = {
+            "id" = "NueVepAb";
+            "file" = "lifesteal-forge-10.1.0-26.3.jar";
+            "hash" = "sha512-hR4HiV4h8bv6gi9FdLAFa9IPg17luLvqx6TfDXuwqSRwqB6PKMamUbBeTpRZjs8Qq1Iw8hPgIH6/IiFuggVzHA==";
+        };
+        _KQxQhAZG = {
+            "id" = "KQxQhAZG";
+            "file" = "lifesteal-fabric-10.1.0-26.3.jar";
+            "hash" = "sha512-2TXi/TSnET7tEZTEAieDRLcPljg1JEc7B0/FytqWh67LuU/m5nLRbtR0bn7WQ8xp/mr/gMptA/9Ur5SIX87rKQ==";
+        };
+        _qgGULxJr = {
+            "id" = "qgGULxJr";
+            "file" = "lifesteal-neoforge-10.1.0-26.3.jar";
+            "hash" = "sha512-7+BAyhhf7g+BwkLmnBMMxdTAJLfxC6z9jwl4qNwOJIgU0OAPAx0kkHc+ffv9EDFUEz5XQUSilduKIdqf6j+31Q==";
+        };
     in {
         "6EQCEtue" = _6EQCEtue;
         "6mqGkzFj" = _6mqGkzFj;
@@ -866,6 +896,12 @@ let
         "sGl0TfdR" = _sGl0TfdR;
         "fk4ZiddA" = _fk4ZiddA;
         "lUxZorbb" = _lUxZorbb;
+        "C4QS26Hj" = _C4QS26Hj;
+        "vpsdlueT" = _vpsdlueT;
+        "X6NNRMjk" = _X6NNRMjk;
+        "NueVepAb" = _NueVepAb;
+        "KQxQhAZG" = _KQxQhAZG;
+        "qgGULxJr" = _qgGULxJr;
         "forge-1.19" = _D2MmQdrr;
         "forge-1.17.1" = _sHEnZFml;
         "forge-1.18.2" = _WnmNgt22;
@@ -887,6 +923,7 @@ let
         "forge-26.1" = _Qra2AeXc;
         "forge-26.1.1" = _Qra2AeXc;
         "forge-26.1.2" = _Qra2AeXc;
+        "forge-26.3" = _NueVepAb;
         "fabric-1.19.2" = _35Fujleb;
         "fabric-1.19.3" = _eUpxRnUs;
         "fabric-1.18.2" = _WnmNgt22;
@@ -907,6 +944,7 @@ let
         "fabric-26.1.1" = _sGl0TfdR;
         "fabric-26.1.2" = _sGl0TfdR;
         "fabric-26.2" = _lUxZorbb;
+        "fabric-26.3" = _KQxQhAZG;
         "neoforge-1.20.1" = _UwnsYFu6;
         "neoforge-1.20.4" = _aztC4rxB;
         "neoforge-1.21" = _qTUvNbi7;
@@ -921,6 +959,7 @@ let
         "neoforge-26.1.1" = _iG4THDJF;
         "neoforge-26.1.2" = _iG4THDJF;
         "neoforge-26.2" = _fk4ZiddA;
+        "neoforge-26.3" = _qgGULxJr;
         "pkg-2.6.0" = _6EQCEtue;
         "pkg-2.6.1" = _6mqGkzFj;
         "pkg-2.6.2" = _WIC27kBs;
@@ -1021,7 +1060,13 @@ let
         "pkg-fabric-10.0.7-26.1" = _sGl0TfdR;
         "pkg-neoforge-10.0.7-26.2" = _fk4ZiddA;
         "pkg-fabric-10.0.7-26.2" = _lUxZorbb;
-        "default" = _lUxZorbb;
+        "pkg-fabric-10.0.7-26.3" = _C4QS26Hj;
+        "pkg-neoforge-10.0.7-26.3" = _vpsdlueT;
+        "pkg-forge-10.0.7-26.3" = _X6NNRMjk;
+        "pkg-forge-10.1.0-26.3" = _NueVepAb;
+        "pkg-fabric-10.1.0-26.3" = _KQxQhAZG;
+        "pkg-neoforge-10.1.0-26.3" = _qgGULxJr;
+        "default" = _qgGULxJr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lifesteal-mian";

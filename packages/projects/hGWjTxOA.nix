@@ -76,6 +76,16 @@ let
             "file" = "grappling_hook_mod-1.20.1-1.20.1-v13.jar";
             "hash" = "sha512-WgPfXexFycodi0UzdynoAngALKtY6e/BygOG9TuagxEHQC30PMhNINSaI/qtBSlxxFMiZK/jjqeu/kLYawMFtQ==";
         };
+        _hm3WM0ZM = {
+            "id" = "hm3WM0ZM";
+            "file" = "grapplemod-fabric-1.21.1-1.21.1-v13.jar";
+            "hash" = "sha512-o2CcvmDVeS8v3YeFUM5Ie+z8+l8WYlHB79k2KpI8MDAf6pc6z6KzyI6d80x6k9kwAXjfVkbaoGu4/hvPoiKzbw==";
+        };
+        _a6eWmkUI = {
+            "id" = "a6eWmkUI";
+            "file" = "grapplemod-neoforge-1.21.1-1.21.1-v13.jar";
+            "hash" = "sha512-WIc//av1UXLsY0s+QDuVMqKOF1bSSC3Rq4XE/yfryCHFzK0tYYNMrh3nepZs4vwAG0rXDqXadPaoSOvCJQY8Fg==";
+        };
     in {
         "oQBmlZM4" = _oQBmlZM4;
         "UApWPTxC" = _UApWPTxC;
@@ -92,12 +102,16 @@ let
         "Jhoaor6T" = _Jhoaor6T;
         "WF6X5yh6" = _WF6X5yh6;
         "RGcgyxBt" = _RGcgyxBt;
+        "hm3WM0ZM" = _hm3WM0ZM;
+        "a6eWmkUI" = _a6eWmkUI;
         "forge-1.12.2" = _Dc4PzRD9;
         "forge-1.16.5" = _3ntNLsPo;
         "forge-1.18.2" = _Jhoaor6T;
         "forge-1.19.2" = _WF6X5yh6;
         "forge-1.20" = _RGcgyxBt;
         "forge-1.20.1" = _RGcgyxBt;
+        "fabric-1.21.1" = _hm3WM0ZM;
+        "neoforge-1.21.1" = _a6eWmkUI;
         "pkg-v12-1.12.2" = _oQBmlZM4;
         "pkg-v12-1.16.5" = _UApWPTxC;
         "pkg-v12.1-1.12.2" = _HqhpzFjf;
@@ -113,7 +127,8 @@ let
         "pkg-v13-1.18.2" = _Jhoaor6T;
         "pkg-v13-1.19.2" = _WF6X5yh6;
         "pkg-v13-1.20.1" = _RGcgyxBt;
-        "default" = _RGcgyxBt;
+        "pkg-1.21.1-v13" = _a6eWmkUI;
+        "default" = _a6eWmkUI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "grappling-hook-mod";

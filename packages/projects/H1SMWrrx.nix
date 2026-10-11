@@ -21,17 +21,25 @@ let
             "file" = "cctweaks-0.0.4-1.20.1.jar";
             "hash" = "sha512-yr3/Pm+Q8GVvPZbAJgx3UjJMEOoT/ZfQu1Tskp/qpMKax4t1ySmCpbB3eD/gritip4xoo4AX7eLlCTOIjyZfPg==";
         };
+        _8MwRQMZU = {
+            "id" = "8MwRQMZU";
+            "file" = "cctweaks-0.0.5.jar";
+            "hash" = "sha512-SGfAEsYwef+rqDiwIICY8uWESP2f0oRnKhCLV5UO3c//ot/cXk9/tEh3UJZju+LP63sPS9e2do08HiBiBhT1XQ==";
+        };
     in {
         "Bc1pWUlU" = _Bc1pWUlU;
         "ZKGUdyWF" = _ZKGUdyWF;
         "mHXJJeQo" = _mHXJJeQo;
         "G25ZtVxH" = _G25ZtVxH;
+        "8MwRQMZU" = _8MwRQMZU;
         "forge-1.20.1" = _G25ZtVxH;
+        "neoforge-1.21.1" = _8MwRQMZU;
         "pkg-0.0.1-1.20.1" = _Bc1pWUlU;
         "pkg-0.0.2-1.20.1" = _ZKGUdyWF;
         "pkg-0.0.3-1.20.1" = _mHXJJeQo;
         "pkg-0.0.4-1.20.1" = _G25ZtVxH;
-        "default" = _G25ZtVxH;
+        "pkg-0.0.5" = _8MwRQMZU;
+        "default" = _8MwRQMZU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-cobblemon-tweaks";

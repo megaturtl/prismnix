@@ -31,6 +31,16 @@ let
             "file" = "1hpchallenge-1.2.jar";
             "hash" = "sha512-X+/f4SRYJyqobEuYW1w1KPeASYJEsliZc4xP0vXuDSym5B3NkCj1eItfdE9K6qz1LVgtcUiAllaSTNT7WFGfzw==";
         };
+        _62VIoGcV = {
+            "id" = "62VIoGcV";
+            "file" = "1HP-Challenge_1.21.2-26.3_V1.2.zip";
+            "hash" = "sha512-X9QCPdqIiATOTg909W3e5o9jr+KvE/7XsZhEIPMp1ZI7QbcPW7hlH8j1FNJe71UHYHpx5y4OHo2pRaM173fXqQ==";
+        };
+        _rC32P0mF = {
+            "id" = "rC32P0mF";
+            "file" = "1hpchallenge-1.2+26.3.jar";
+            "hash" = "sha512-J8SN0deYYb/IAYsRtFxj3Lwhf8IkWvLBozFUBF3WsLh4EdYb7D7jCzUx4IFV9VrzOQidKID44//OXJl+YcHzig==";
+        };
     in {
         "EIQpPet0" = _EIQpPet0;
         "AUqFcbDI" = _AUqFcbDI;
@@ -38,6 +48,8 @@ let
         "xLjM6nxY" = _xLjM6nxY;
         "fppQH8wm" = _fppQH8wm;
         "fDDCiPoz" = _fDDCiPoz;
+        "62VIoGcV" = _62VIoGcV;
+        "rC32P0mF" = _rC32P0mF;
         "datapack-1.20.5" = _EIQpPet0;
         "datapack-1.20.6" = _EIQpPet0;
         "datapack-1.21" = _EIQpPet0;
@@ -59,6 +71,7 @@ let
         "datapack-26.1.1" = _fppQH8wm;
         "datapack-26.1.2" = _fppQH8wm;
         "datapack-26.2" = _fppQH8wm;
+        "datapack-26.3" = _62VIoGcV;
         "fabric-1.20.5" = _AUqFcbDI;
         "fabric-1.20.6" = _AUqFcbDI;
         "fabric-1.21" = _AUqFcbDI;
@@ -80,6 +93,7 @@ let
         "fabric-26.1.1" = _fDDCiPoz;
         "fabric-26.1.2" = _fDDCiPoz;
         "fabric-26.2" = _fDDCiPoz;
+        "fabric-26.3" = _rC32P0mF;
         "forge-1.20.5" = _AUqFcbDI;
         "forge-1.20.6" = _AUqFcbDI;
         "forge-1.21" = _AUqFcbDI;
@@ -101,6 +115,7 @@ let
         "forge-26.1.1" = _fDDCiPoz;
         "forge-26.1.2" = _fDDCiPoz;
         "forge-26.2" = _fDDCiPoz;
+        "forge-26.3" = _rC32P0mF;
         "neoforge-1.20.5" = _AUqFcbDI;
         "neoforge-1.20.6" = _AUqFcbDI;
         "neoforge-1.21" = _AUqFcbDI;
@@ -122,6 +137,7 @@ let
         "neoforge-26.1.1" = _fDDCiPoz;
         "neoforge-26.1.2" = _fDDCiPoz;
         "neoforge-26.2" = _fDDCiPoz;
+        "neoforge-26.3" = _rC32P0mF;
         "quilt-1.20.5" = _AUqFcbDI;
         "quilt-1.20.6" = _AUqFcbDI;
         "quilt-1.21" = _AUqFcbDI;
@@ -143,13 +159,16 @@ let
         "quilt-26.1.1" = _fDDCiPoz;
         "quilt-26.1.2" = _fDDCiPoz;
         "quilt-26.2" = _fDDCiPoz;
+        "quilt-26.3" = _rC32P0mF;
         "pkg-0.1" = _EIQpPet0;
         "pkg-0.1+mod" = _AUqFcbDI;
         "pkg-1.1" = _7Xs2aJ0I;
         "pkg-1.1+mod" = _xLjM6nxY;
         "pkg-1.2" = _fppQH8wm;
         "pkg-1.2+mod" = _fDDCiPoz;
-        "default" = _fDDCiPoz;
+        "pkg-1.2+26.3" = _62VIoGcV;
+        "pkg-1.2+26.3+mod" = _rC32P0mF;
+        "default" = _rC32P0mF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "1hpchallenge";

@@ -121,6 +121,11 @@ let
             "file" = "vibranium-0.9.3-26.2.jar";
             "hash" = "sha512-lexJ+ucOexdCJeFDcESCprhJda7bLwOuUop5ZR2ieg1twOwrGKU+aj6SJYmmQRfEMyzVEF0zK/NjLFKqbnjsrA==";
         };
+        _432UOTWV = {
+            "id" = "432UOTWV";
+            "file" = "vibranium-0.9.4-26.3.jar";
+            "hash" = "sha512-d2oKTKzMl4gwNe6xcjTZBS4nEL8zHEp6oC78xrVp1lkVUsDF01d192wDjbfp1dYwmeQicvVZM0e5jYLiY/B8nw==";
+        };
     in {
         "y3WH5dsD" = _y3WH5dsD;
         "nLK4dkLE" = _nLK4dkLE;
@@ -146,6 +151,7 @@ let
         "HENJPV2P" = _HENJPV2P;
         "iNfJ1QDe" = _iNfJ1QDe;
         "7Wud92s3" = _7Wud92s3;
+        "432UOTWV" = _432UOTWV;
         "neoforge-1.21" = _HENJPV2P;
         "neoforge-1.21.1" = _HENJPV2P;
         "neoforge-1.21.4" = _OLegbrnB;
@@ -160,6 +166,7 @@ let
         "neoforge-26.1.1" = _hgO3YJf7;
         "neoforge-26.1.2" = _iNfJ1QDe;
         "neoforge-26.2" = _7Wud92s3;
+        "neoforge-26.3" = _432UOTWV;
         "pkg-0.1-1.21" = _y3WH5dsD;
         "pkg-0.3-1.21" = _nLK4dkLE;
         "pkg-0.4-1.21" = _29WBSTez;
@@ -184,7 +191,8 @@ let
         "pkg-0.8.2-1.21.1" = _HENJPV2P;
         "pkg-0.9.3-26.1.2" = _iNfJ1QDe;
         "pkg-0.9.3-26.2" = _7Wud92s3;
-        "default" = _7Wud92s3;
+        "pkg-0.9.4-26.3" = _432UOTWV;
+        "default" = _432UOTWV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vibranium";

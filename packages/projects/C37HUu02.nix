@@ -61,6 +61,11 @@ let
             "file" = "medievalweapons-1.6.1.jar";
             "hash" = "sha512-UUM0wMURlZxPDN1T9pgRVe9OzFm8C6ux4FbGpCvt0G5k2YJbTbn9Zx3z/xEDRJi7cW76JjwaUKIsmIpeMaEvRw==";
         };
+        _skPhfmih = {
+            "id" = "skPhfmih";
+            "file" = "medievalweapons-1.7.0.jar";
+            "hash" = "sha512-T1UC3NGCfus8mUi2if/RoduqV1p5y4oUAvifTFmj74A+sdTPnjG/BZmxDLRJfGjxxo6ChAnTEO/is+wRMkewfQ==";
+        };
     in {
         "50v50qQk" = _50v50qQk;
         "w6bZUlwr" = _w6bZUlwr;
@@ -74,11 +79,12 @@ let
         "ciP3quBS" = _ciP3quBS;
         "R9EDRFiI" = _R9EDRFiI;
         "fMIp8vXf" = _fMIp8vXf;
+        "skPhfmih" = _skPhfmih;
         "fabric-1.19.2" = _w6bZUlwr;
         "fabric-1.20" = _L4yl1UZU;
         "fabric-1.20.1" = _WP327lEb;
         "fabric-1.21" = _XxcHBGML;
-        "fabric-1.21.1" = _fMIp8vXf;
+        "fabric-1.21.1" = _skPhfmih;
         "pkg-1.4.4" = _50v50qQk;
         "pkg-1.4.5+1.19.2" = _w6bZUlwr;
         "pkg-1.4.5+1.20" = _L4yl1UZU;
@@ -91,7 +97,8 @@ let
         "pkg-1.5.0+1.21.1" = _ciP3quBS;
         "pkg-1.5.1+1.21.1" = _R9EDRFiI;
         "pkg-1.6.1+1.21.1" = _fMIp8vXf;
-        "default" = _fMIp8vXf;
+        "pkg-1.7.0+1.21.1" = _skPhfmih;
+        "default" = _skPhfmih;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "medievalweapons";

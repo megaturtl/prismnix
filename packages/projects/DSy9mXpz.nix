@@ -21,15 +21,21 @@ let
             "file" = "ya_fnafmod-2.0.0-forge-1.20.1-publicbeta3.jar";
             "hash" = "sha512-zFRFHbchTo9aRLTzjOSRYgDidlGtad5Zw3uoJu8HeCJ1PD0KGaCAeGOPzFXXnt9LDmK3n6KryqBkNsR67gUFxg==";
         };
+        _nS10Se7o = {
+            "id" = "nS10Se7o";
+            "file" = "ya_fnafmod-2.0.0-forge-1.20.1-publicbeta4.jar";
+            "hash" = "sha512-HwENIhieZ4Vcd1bwawaSYgJiaVeTgc0AWl87h4n4o0kmMS0N6zM+x0ND28Sx/g/ebCRcCTQH/DOYn6aR6i1u9g==";
+        };
     in {
         "4vaJFpC7" = _4vaJFpC7;
         "CU8xZOu6" = _CU8xZOu6;
         "aNcPLQkX" = _aNcPLQkX;
         "Ed2xm8lB" = _Ed2xm8lB;
-        "forge-1.20.1" = _Ed2xm8lB;
+        "nS10Se7o" = _nS10Se7o;
+        "forge-1.20.1" = _nS10Se7o;
         "pkg-1.0.0" = _4vaJFpC7;
-        "pkg-2.0.0" = _Ed2xm8lB;
-        "default" = _Ed2xm8lB;
+        "pkg-2.0.0" = _nS10Se7o;
+        "default" = _nS10Se7o;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "yet-another-fnaf-mod";

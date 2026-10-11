@@ -46,6 +46,11 @@ let
             "file" = "Simple Water.zip";
             "hash" = "sha512-EQSlhpgsOO/NiQ0FVW7j1PWRf/6m2BpvLqM9rWxlbH/tFU/0svbD4Z/UyxsZQgBuHiorC6SO98rp5Y8wSizKbw==";
         };
+        _GK6Fcj8k = {
+            "id" = "GK6Fcj8k";
+            "file" = "Simple Water.zip";
+            "hash" = "sha512-AH3H/rhL/NkqpyhAK9suWENEeG3PSWCeBKp1wtcogdWYV0qicIh2pFHaFNyTEx9a+P87cakglWj/nXxfko85JQ==";
+        };
     in {
         "b42LJywF" = _b42LJywF;
         "Gfv6QOzw" = _Gfv6QOzw;
@@ -56,6 +61,7 @@ let
         "RInYlOGr" = _RInYlOGr;
         "ouUvir9s" = _ouUvir9s;
         "4Uf6TlaI" = _4Uf6TlaI;
+        "GK6Fcj8k" = _GK6Fcj8k;
         "minecraft-1.20" = _Gfv6QOzw;
         "minecraft-1.20.1" = _Gfv6QOzw;
         "minecraft-1.20.2" = _Gfv6QOzw;
@@ -78,11 +84,13 @@ let
         "minecraft-26.1.1" = _4Uf6TlaI;
         "minecraft-26.1.2" = _4Uf6TlaI;
         "minecraft-26.2" = _4Uf6TlaI;
+        "minecraft-26.3" = _GK6Fcj8k;
         "pkg-1" = _b42LJywF;
         "pkg-1.1" = _Gfv6QOzw;
         "pkg-1.2" = _fD67p86F;
         "pkg-1.3" = _4Uf6TlaI;
-        "default" = _4Uf6TlaI;
+        "pkg-1.4" = _GK6Fcj8k;
+        "default" = _GK6Fcj8k;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-water";

@@ -101,6 +101,26 @@ let
             "file" = "AxolotlClient-rendering-0.0.11+1.8.9.jar";
             "hash" = "sha512-ttb6W6yJmN8oBbc4+mF0JOoZPYeAtchi5WDasM1XtxezUOemcQNnP4Ju3G2bOpdwiY7a+hIWNpHdFTgiqyHi4Q==";
         };
+        _Sp1FNPMU = {
+            "id" = "Sp1FNPMU";
+            "file" = "AxolotlClient-rendering-0.0.12+1.20.1.jar";
+            "hash" = "sha512-lcmLCgs+wVEObdbqzZ6ELibb8NgzHLgFs4zT1+z+n+SUFoQHt9h4eMPvl6GMIG9n4wK2kS70hOpZkKf8kc8h9Q==";
+        };
+        _LTNbHHRT = {
+            "id" = "LTNbHHRT";
+            "file" = "AxolotlClient-rendering-0.0.12+26.3.jar";
+            "hash" = "sha512-fLiVFpm7kHTvu7uaFWr5loP7dfpVXx5tQLHu+O/7LBAs0YiAGIvsc/WL+YrhhjXOCVbCxNFkoHdKaTUCYFX/qA==";
+        };
+        _Jk5ARUbD = {
+            "id" = "Jk5ARUbD";
+            "file" = "AxolotlClient-rendering-0.0.12+1.21.1.jar";
+            "hash" = "sha512-2YXfzGDHMkgF/F+Q66n27UqRoVj79VK/D93UbPdC91SRKVqYpwOVAEBcuzQ2bTAzLYmkQoK32Z7UE8zFGGFZmA==";
+        };
+        _q9FM7LrQ = {
+            "id" = "q9FM7LrQ";
+            "file" = "AxolotlClient-rendering-0.0.12+1.8.9.jar";
+            "hash" = "sha512-YWl5pJRQCWYQHnbHJC2VtWzI7ID1Kq7N311B4NqAcWxKIzkG2mi2NOTeqQ2OwSku/NjCsb/02bDyeDvHV2Tu9w==";
+        };
     in {
         "jwYTLJ4T" = _jwYTLJ4T;
         "KvOaAFVc" = _KvOaAFVc;
@@ -122,21 +142,27 @@ let
         "7qEKIa4u" = _7qEKIa4u;
         "6o8FJalE" = _6o8FJalE;
         "W7Q3JMEX" = _W7Q3JMEX;
+        "Sp1FNPMU" = _Sp1FNPMU;
+        "LTNbHHRT" = _LTNbHHRT;
+        "Jk5ARUbD" = _Jk5ARUbD;
+        "q9FM7LrQ" = _q9FM7LrQ;
         "fabric-1.21.11" = _jwYTLJ4T;
-        "fabric-1.21" = _6o8FJalE;
-        "fabric-1.21.1" = _6o8FJalE;
-        "fabric-1.20.1" = _7qEKIa4u;
+        "fabric-1.21" = _Jk5ARUbD;
+        "fabric-1.21.1" = _Jk5ARUbD;
+        "fabric-1.20.1" = _Sp1FNPMU;
         "fabric-26.1" = _nx4ruBux;
         "fabric-26.2-rc-2" = _WqDkSIPe;
         "fabric-26.2" = _qkJoppCC;
+        "fabric-26.3" = _LTNbHHRT;
         "quilt-1.21.11" = _jwYTLJ4T;
-        "quilt-1.21" = _6o8FJalE;
-        "quilt-1.21.1" = _6o8FJalE;
-        "quilt-1.20.1" = _7qEKIa4u;
+        "quilt-1.21" = _Jk5ARUbD;
+        "quilt-1.21.1" = _Jk5ARUbD;
+        "quilt-1.20.1" = _Sp1FNPMU;
         "quilt-26.1" = _nx4ruBux;
         "quilt-26.2-rc-2" = _WqDkSIPe;
         "quilt-26.2" = _qkJoppCC;
-        "ornithe-1.8.9" = _W7Q3JMEX;
+        "quilt-26.3" = _LTNbHHRT;
+        "ornithe-1.8.9" = _q9FM7LrQ;
         "pkg-0.0.7+1.21.11" = _jwYTLJ4T;
         "pkg-0.0.7+1.21.1" = _KvOaAFVc;
         "pkg-0.0.7+1.20.1" = _oMkrgexU;
@@ -157,7 +183,11 @@ let
         "pkg-0.0.11+1.20.1" = _7qEKIa4u;
         "pkg-0.0.11+1.21.1" = _6o8FJalE;
         "pkg-0.0.11+1.8.9" = _W7Q3JMEX;
-        "default" = _W7Q3JMEX;
+        "pkg-0.0.12+1.20.1" = _Sp1FNPMU;
+        "pkg-0.0.12+26.3" = _LTNbHHRT;
+        "pkg-0.0.12+1.21.1" = _Jk5ARUbD;
+        "pkg-0.0.12+1.8.9" = _q9FM7LrQ;
+        "default" = _q9FM7LrQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "axolotlclient-rendering";

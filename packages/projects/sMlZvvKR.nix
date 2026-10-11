@@ -16,15 +16,22 @@ let
             "file" = "EFTLM_WeaponOfMiracles[奇迹武器扩展]-1.20.1-1.0.jar";
             "hash" = "sha512-kWUxYN5KaGoYOQXYu2sTvAe1p/0xbn5dJdKxtjPDXz728zKIBWvzfR1RkvJDILVLSznildt8BcRRvyk1S7S5Bw==";
         };
+        _WSLMoMkw = {
+            "id" = "WSLMoMkw";
+            "file" = "EFTLM_WeaponOfMiracles[奇迹武器扩展]-1.20.1-2.0.jar";
+            "hash" = "sha512-HLnK69zNU+c9f4bd9A3I5eDtiwN58niQ7Eq4Q3+3XvIv6T7IKBSRG6G7CneZ+NzafyFkgJuyLs4sMgkUS/HSFg==";
+        };
     in {
         "h8pXhmTx" = _h8pXhmTx;
         "P5RUar14" = _P5RUar14;
         "foIICLHZ" = _foIICLHZ;
-        "forge-1.20.1" = _foIICLHZ;
+        "WSLMoMkw" = _WSLMoMkw;
+        "forge-1.20.1" = _WSLMoMkw;
         "pkg-1.0" = _h8pXhmTx;
         "pkg-1.1" = _P5RUar14;
         "pkg-1.2" = _foIICLHZ;
-        "default" = _foIICLHZ;
+        "pkg-2.0" = _WSLMoMkw;
+        "default" = _WSLMoMkw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "eftlm_weaponofmiracles";

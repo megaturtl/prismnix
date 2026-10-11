@@ -41,6 +41,11 @@ let
             "file" = "DeepFried26.1_Textures.zip";
             "hash" = "sha512-QcUyuqo0iWAHXJ40cUOHd1MAUorS1zSDZfG2LD/+X/XsQfys5TUSAU2hMPK9tHECS6S1C+qa8IzfJgTfqQjeoQ==";
         };
+        _nJABJoEx = {
+            "id" = "nJABJoEx";
+            "file" = "DeepFried26.3_Textures.zip";
+            "hash" = "sha512-mThoco4I6+LKxqrPa4DebefnC9dNI5sUdCySFEfETALFVEc5g9R8AMtUssM07mYtQPbH88LYnXKmRXFVMjt4cw==";
+        };
     in {
         "BruMlAyV" = _BruMlAyV;
         "t4TjOtjZ" = _t4TjOtjZ;
@@ -50,6 +55,7 @@ let
         "zty7sZ8R" = _zty7sZ8R;
         "Kj8l2t4M" = _Kj8l2t4M;
         "FVMxZNDu" = _FVMxZNDu;
+        "nJABJoEx" = _nJABJoEx;
         "minecraft-1.21.1" = _FVMxZNDu;
         "minecraft-1.21.8" = _FVMxZNDu;
         "minecraft-1.21.10" = _FVMxZNDu;
@@ -65,6 +71,8 @@ let
         "minecraft-26.1" = _FVMxZNDu;
         "minecraft-26.1.1" = _FVMxZNDu;
         "minecraft-26.1.2" = _FVMxZNDu;
+        "minecraft-26.2" = _nJABJoEx;
+        "minecraft-26.3" = _nJABJoEx;
         "pkg-0.1" = _BruMlAyV;
         "pkg-0.2" = _1I2MBTFK;
         "pkg-0.3" = _SqDlU4S7;
@@ -72,7 +80,8 @@ let
         "pkg-0.4-NOISE-X64" = _zty7sZ8R;
         "pkg-0.5-NOISE-64X" = _Kj8l2t4M;
         "pkg-0.6-NOISE-64X" = _FVMxZNDu;
-        "default" = _FVMxZNDu;
+        "pkg-0.7-NOISE-64X" = _nJABJoEx;
+        "default" = _nJABJoEx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "deep-fried";

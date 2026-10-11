@@ -26,24 +26,39 @@ let
             "file" = "secret-blocks-1.19.2-1.2.0.jar";
             "hash" = "sha512-aO3lU8JvS025KnBBQg6Y/6s1M5TwUc93eHzGjwouvU2segGwMJFVRAJpARPhVZk8yJA0TQyS39XjhSHPCJGk6g==";
         };
+        _LCyHPkdn = {
+            "id" = "LCyHPkdn";
+            "file" = "secret-blocks-1.19.2-2.0.0.jar";
+            "hash" = "sha512-dr7mKuEomDIfmqQqDEAFfxf4/QkCpCEaZVNNzRIR7szs7hNReSh0PwqqfBFvafg8W5vcyVIyS5MqPv+qGJkyVg==";
+        };
+        _GIisJlx3 = {
+            "id" = "GIisJlx3";
+            "file" = "secret-blocks-1.20.1-2.0.0.jar";
+            "hash" = "sha512-6UUw3WdLbowvIieAsLkLrpNoOPLBU7MDHc0vN2J9IhRDGrLSALoP+DGPqJ8J68Lpc6lsIWvEkFF8/YWM3OZHNw==";
+        };
     in {
         "qEU0vFoU" = _qEU0vFoU;
         "hjb3jxts" = _hjb3jxts;
         "bEzJG9s5" = _bEzJG9s5;
         "XMDhe3zW" = _XMDhe3zW;
         "lQrx1oqG" = _lQrx1oqG;
+        "LCyHPkdn" = _LCyHPkdn;
+        "GIisJlx3" = _GIisJlx3;
         "fabric-1.18" = _XMDhe3zW;
         "fabric-1.18.1" = _XMDhe3zW;
         "fabric-1.18.2" = _XMDhe3zW;
         "fabric-1.19" = _lQrx1oqG;
         "fabric-1.19.1" = _lQrx1oqG;
-        "fabric-1.19.2" = _lQrx1oqG;
+        "fabric-1.19.2" = _LCyHPkdn;
+        "fabric-1.20.1" = _GIisJlx3;
         "pkg-1.18.2-0.1.1" = _qEU0vFoU;
         "pkg-1.18.2-0.1.2" = _hjb3jxts;
         "pkg-1.18.2-1.0.0" = _bEzJG9s5;
         "pkg-1.18.2-1.0.1" = _XMDhe3zW;
         "pkg-1.19.2-1.2.0" = _lQrx1oqG;
-        "default" = _lQrx1oqG;
+        "pkg-1.19.2-2.0.0" = _LCyHPkdn;
+        "pkg-1.20.1-2.0.0" = _GIisJlx3;
+        "default" = _GIisJlx3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "secret-rooms-fabric";

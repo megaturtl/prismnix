@@ -746,6 +746,21 @@ let
             "file" = "Boss Warps 1.20.1 v1.0.76.jar";
             "hash" = "sha512-6DqYvDauy3Brm1JQj3qQvCRj1Es5WuI/VCqQfOuTOYRzKaYR5O8GF0CZqdtiEnMTxHtQd0CoJCurQRXN3e/R/Q==";
         };
+        _yvzX4Anq = {
+            "id" = "yvzX4Anq";
+            "file" = "Boss Warps 1.20.1 v1.0.77.jar";
+            "hash" = "sha512-meoIfckVGCLX4jorN4o3AgPVB0mBQcTyldAEVHeVq5O9mxtlxuzLzLCk7HQ8+8je2c5rsQgqsKr75hAR4eHH0g==";
+        };
+        _JYAK7ijt = {
+            "id" = "JYAK7ijt";
+            "file" = "Boss Warps 1.21(.1) v1.0.35.zip";
+            "hash" = "sha512-na2mHtL5OVh8bDD18FCffyE+1Ku0J2nUiuacsSB/sg/03f0zIqCIKrQaLehH5pDacOmW3aAkheeNUEJD6EXVWw==";
+        };
+        _LyHNFXYE = {
+            "id" = "LyHNFXYE";
+            "file" = "boss-warps-1.0.35.jar";
+            "hash" = "sha512-3y4Ke5/dBfp7M/ox+oY1NjqmqmeCbLqvIRweQTULxrxKm/nuJZwjc8vgUB1VOpl2w/biEYjpFjtUrSOjakvE2g==";
+        };
     in {
         "kdk9uohi" = _kdk9uohi;
         "XQ1mX6Qb" = _XQ1mX6Qb;
@@ -896,18 +911,21 @@ let
         "wLYVlTET" = _wLYVlTET;
         "p7nxSOMG" = _p7nxSOMG;
         "yajagoyA" = _yajagoyA;
-        "forge-1.20.1" = _yajagoyA;
-        "forge-1.21" = _p7nxSOMG;
-        "forge-1.21.1" = _p7nxSOMG;
-        "neoforge-1.20.1" = _yajagoyA;
-        "neoforge-1.21" = _p7nxSOMG;
-        "neoforge-1.21.1" = _p7nxSOMG;
-        "datapack-1.21" = _wLYVlTET;
-        "datapack-1.21.1" = _wLYVlTET;
-        "fabric-1.21" = _p7nxSOMG;
-        "fabric-1.21.1" = _p7nxSOMG;
-        "quilt-1.21" = _p7nxSOMG;
-        "quilt-1.21.1" = _p7nxSOMG;
+        "yvzX4Anq" = _yvzX4Anq;
+        "JYAK7ijt" = _JYAK7ijt;
+        "LyHNFXYE" = _LyHNFXYE;
+        "forge-1.20.1" = _yvzX4Anq;
+        "forge-1.21" = _LyHNFXYE;
+        "forge-1.21.1" = _LyHNFXYE;
+        "neoforge-1.20.1" = _yvzX4Anq;
+        "neoforge-1.21" = _LyHNFXYE;
+        "neoforge-1.21.1" = _LyHNFXYE;
+        "datapack-1.21" = _JYAK7ijt;
+        "datapack-1.21.1" = _JYAK7ijt;
+        "fabric-1.21" = _LyHNFXYE;
+        "fabric-1.21.1" = _LyHNFXYE;
+        "quilt-1.21" = _LyHNFXYE;
+        "quilt-1.21.1" = _LyHNFXYE;
         "pkg-1.0.0" = _vBLELd6G;
         "pkg-1.0.1" = _GQfTUsOm;
         "pkg-1.0.2" = _EwtWLY5h;
@@ -944,7 +962,7 @@ let
         "pkg-1.0.32" = _8SL3K9YG;
         "pkg-1.0.33" = _rxiyWqro;
         "pkg-1.0.34" = _wLYVlTET;
-        "pkg-1.0.35" = _hPLCdif6;
+        "pkg-1.0.35" = _JYAK7ijt;
         "pkg-1.0.36" = _uBXbLo2l;
         "pkg-1.0.37" = _aIMFyuz9;
         "pkg-1.0.38" = _YfGJseQI;
@@ -1022,7 +1040,9 @@ let
         "pkg-1.0.75" = _dvUcBuYP;
         "pkg-1.0.34+mod" = _p7nxSOMG;
         "pkg-1.0.76" = _yajagoyA;
-        "default" = _yajagoyA;
+        "pkg-1.0.77" = _yvzX4Anq;
+        "pkg-1.0.35+mod" = _LyHNFXYE;
+        "default" = _LyHNFXYE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "boss-warps";

@@ -76,6 +76,11 @@ let
             "file" = "tinypipes-26.2-7.0.1.jar";
             "hash" = "sha512-IOb/I8mLS8sMDVGGZQzsvdnEai7UROYKaz3TOaz2ftRsagx9EBCYZ0eXW5esaalBtzuViI53RIG2ZhclLPmVqg==";
         };
+        _48Gz82Io = {
+            "id" = "48Gz82Io";
+            "file" = "tinypipes-26.3-8.0.0.jar";
+            "hash" = "sha512-H/9jXzy//yzfsrOOMHJKkxniPjkeoqroZFqshO2FMdRIW+U8e+k363oUYueCsLnhNd9iAqVSl14EJXz4N3RYGA==";
+        };
     in {
         "u0CaH3ia" = _u0CaH3ia;
         "q9W1zbAQ" = _q9W1zbAQ;
@@ -92,6 +97,7 @@ let
         "CpZymobn" = _CpZymobn;
         "sJFclSZ9" = _sJFclSZ9;
         "AquDZiFc" = _AquDZiFc;
+        "48Gz82Io" = _48Gz82Io;
         "forge-1.20" = _u0CaH3ia;
         "forge-1.20.1" = _u0CaH3ia;
         "neoforge-1.21.1" = _CpZymobn;
@@ -99,6 +105,7 @@ let
         "neoforge-26.1.1" = _sJFclSZ9;
         "neoforge-26.1.2" = _sJFclSZ9;
         "neoforge-26.2" = _AquDZiFc;
+        "neoforge-26.3" = _48Gz82Io;
         "pkg-1.20-4.0.1" = _u0CaH3ia;
         "pkg-1.21.1-5.1.0" = _q9W1zbAQ;
         "pkg-1.21.1-5.2.0" = _O7jlIIXa;
@@ -114,7 +121,8 @@ let
         "pkg-1.21.1-5.3.1" = _CpZymobn;
         "pkg-26.1-6.1.1" = _sJFclSZ9;
         "pkg-26.2-7.0.1" = _AquDZiFc;
-        "default" = _AquDZiFc;
+        "pkg-26.3-8.0.0" = _48Gz82Io;
+        "default" = _48Gz82Io;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tiny-pipes";

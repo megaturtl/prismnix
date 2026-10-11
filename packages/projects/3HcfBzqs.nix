@@ -101,6 +101,11 @@ let
             "file" = "tetrismc-1.1.3+mc26.2.jar";
             "hash" = "sha512-E5Fd8NsGUlv+WLxmvryE2MBnVUAQZFhgr2lhqZWi0YI81sjpmE/gzZGBe8ywGwuwtf5Vf35ZANUT/nyfWIuETw==";
         };
+        _2cNVKIEA = {
+            "id" = "2cNVKIEA";
+            "file" = "tetrismc-1.1.3+mc26.3.jar";
+            "hash" = "sha512-mU5u0J+RSItWWKjGgZigVvbdfVP/8uzlpXgsRa90A2ksclIB/kcIRNwivhSIMQCVMsq+w4lzSfYQNUAL9i9ApA==";
+        };
     in {
         "SjyZl9jG" = _SjyZl9jG;
         "CX7Cuk0O" = _CX7Cuk0O;
@@ -122,6 +127,7 @@ let
         "aZg8mpy5" = _aZg8mpy5;
         "u8DYNYaQ" = _u8DYNYaQ;
         "IPtH2L9B" = _IPtH2L9B;
+        "2cNVKIEA" = _2cNVKIEA;
         "fabric-1.21" = _czinsVWx;
         "fabric-1.21.1" = _czinsVWx;
         "fabric-1.21.5" = _hfnL6lKQ;
@@ -135,6 +141,7 @@ let
         "fabric-26.1" = _u8DYNYaQ;
         "fabric-26.1.1" = _u8DYNYaQ;
         "fabric-26.1.2" = _u8DYNYaQ;
+        "fabric-26.3" = _2cNVKIEA;
         "pkg-1.0.0" = _SjyZl9jG;
         "pkg-1.0.1" = _CX7Cuk0O;
         "pkg-1.0.2" = _pRXRqOpw;
@@ -148,8 +155,8 @@ let
         "pkg-1.1.0" = _F4YHnJ8k;
         "pkg-1.1.1" = _ejNchrll;
         "pkg-1.1.2" = _u8DYNYaQ;
-        "pkg-1.1.3" = _IPtH2L9B;
-        "default" = _IPtH2L9B;
+        "pkg-1.1.3" = _2cNVKIEA;
+        "default" = _2cNVKIEA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tetrismc";

@@ -121,6 +121,11 @@ let
             "file" = "take-it-slow-3.0.0.jar";
             "hash" = "sha512-KgiajuFGJhma1EOx0gg1UAaPOSjlzcIhRY4Nh5ry0VdmLmGe/F+ZQOeHJu/EsCEGjRvAm3sf3hU4OzwviMiy0w==";
         };
+        _35bKk9To = {
+            "id" = "35bKk9To";
+            "file" = "take-it-slow-3.0.0.jar";
+            "hash" = "sha512-+49fL6K0r9ejrTvR7LiKwa8oSyCYf8vL8alL1W005hK2GjVUAS48YfYtmbN3nwZd6f5cTOBSDhiC0g2qUU4/lQ==";
+        };
     in {
         "bQiDJdJz" = _bQiDJdJz;
         "fJ4Xr2Ff" = _fJ4Xr2Ff;
@@ -146,6 +151,7 @@ let
         "y4Foto5T" = _y4Foto5T;
         "NYxek9vh" = _NYxek9vh;
         "9yWqv5FH" = _9yWqv5FH;
+        "35bKk9To" = _35bKk9To;
         "fabric-1.18.2" = _REjg75kf;
         "fabric-1.18" = _REjg75kf;
         "fabric-1.18.1" = _REjg75kf;
@@ -171,6 +177,7 @@ let
         "fabric-1.21.9" = _4W0BtR6k;
         "fabric-1.21.10" = _4W0BtR6k;
         "fabric-26.2" = _NYxek9vh;
+        "fabric-26.3" = _35bKk9To;
         "quilt-1.18.2" = _REjg75kf;
         "quilt-1.18" = _REjg75kf;
         "quilt-1.18.1" = _REjg75kf;
@@ -244,7 +251,8 @@ let
         "pkg-2.2.0+1.21.9-neoforge" = _y4Foto5T;
         "pkg-3.0.0+fabric" = _NYxek9vh;
         "pkg-3.0.0+neoforge" = _9yWqv5FH;
-        "default" = _9yWqv5FH;
+        "pkg-3.0.0+26.3" = _35bKk9To;
+        "default" = _35bKk9To;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "take-it-slow";
