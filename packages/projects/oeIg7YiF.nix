@@ -46,6 +46,36 @@ let
             "file" = "infinite-inventory-2.0.0-mc26.3.jar";
             "hash" = "sha512-gIT7LCymcXzf+j6Ql1NNb3F5p+kBPzfuhmIQ/8yZjpenUYp94yQAXtB9Kl7POm2Vq45jZ7OFgxYshPYhmv5cFw==";
         };
+        _rDyU9zbz = {
+            "id" = "rDyU9zbz";
+            "file" = "infinite-inventory-2.1.0-mc1.16.5.jar";
+            "hash" = "sha512-7tYvSHoadjZD6sRJHoGeLxZ7AoS3Ug9DeUmhC5/AiN+6tlxVf5SwVIsFhBo5gGYL2pQdimvtRnAswBm6/XCOEQ==";
+        };
+        _gHt9TQZN = {
+            "id" = "gHt9TQZN";
+            "file" = "infinite-inventory-2.1.0-mc1.20.jar";
+            "hash" = "sha512-PB2qxK8Z6m78DlAsoqF0gCN9oZJN8x/RaX0r4WEFWD3Y51NlGkfXyJDgoN3jtfsN0EjY2JiunbDB2P08P6N9oA==";
+        };
+        _1ZAJjsa8 = {
+            "id" = "1ZAJjsa8";
+            "file" = "infinite-inventory-2.1.0-mc1.21.8.jar";
+            "hash" = "sha512-oxnqvupss3OGN3taBC1hpto2Xp9KNvi6LvO7iTpQILLNVZm6KmaDE7aWy870KqpwGyYa3eXpsxUR6yk0wnwXUg==";
+        };
+        _pca9xtt4 = {
+            "id" = "pca9xtt4";
+            "file" = "infinite-inventory-2.1.0-mc26.1.2.jar";
+            "hash" = "sha512-TqXP7p+lKeWPix1toUDNONsEqnox1d2u8+in+FGEmNCUjwLot6Rz9psiCT7xZjEY7Q2i13ASTH3UI8I+qfQdTg==";
+        };
+        _7JCoghYe = {
+            "id" = "7JCoghYe";
+            "file" = "infinite-inventory-2.1.0-mc26.2.jar";
+            "hash" = "sha512-sM9oxXSDhjJ+B2wODkGYHNEhh4+/WFU2HdSvbJpXWvFcJdEKJ1obAM2KpxB22qaA8/KCu3+Lh8puDzqHWf7IZA==";
+        };
+        _X79LHZ1v = {
+            "id" = "X79LHZ1v";
+            "file" = "infinite-inventory-2.1.0-mc26.3.jar";
+            "hash" = "sha512-JinFtO3hvCJJMS1568l4YjewMF7ptcJB+UGTDqehauFJBtN8kotLA+MKbw3TIOwjTm6FupNTpHa+n1QSNqKedg==";
+        };
     in {
         "nspOJqFU" = _nspOJqFU;
         "rqqAR0vK" = _rqqAR0vK;
@@ -56,23 +86,33 @@ let
         "HcJ1byoj" = _HcJ1byoj;
         "7965iibS" = _7965iibS;
         "YdJ5ICC3" = _YdJ5ICC3;
-        "fabric-1.21.6" = _7965iibS;
-        "fabric-1.21.7" = _7965iibS;
-        "fabric-1.21.8" = _7965iibS;
-        "fabric-1.21.9" = _7965iibS;
-        "fabric-1.21.10" = _7965iibS;
-        "fabric-1.21.11" = _7965iibS;
-        "fabric-26.1.1" = _HcJ1byoj;
-        "fabric-26.1.2" = _HcJ1byoj;
-        "fabric-26.2" = _mnyhjXnf;
-        "fabric-26.3" = _YdJ5ICC3;
+        "rDyU9zbz" = _rDyU9zbz;
+        "gHt9TQZN" = _gHt9TQZN;
+        "1ZAJjsa8" = _1ZAJjsa8;
+        "pca9xtt4" = _pca9xtt4;
+        "7JCoghYe" = _7JCoghYe;
+        "X79LHZ1v" = _X79LHZ1v;
+        "fabric-1.21.6" = _1ZAJjsa8;
+        "fabric-1.21.7" = _1ZAJjsa8;
+        "fabric-1.21.8" = _1ZAJjsa8;
+        "fabric-1.21.9" = _1ZAJjsa8;
+        "fabric-1.21.10" = _1ZAJjsa8;
+        "fabric-1.21.11" = _1ZAJjsa8;
+        "fabric-26.1.1" = _pca9xtt4;
+        "fabric-26.1.2" = _pca9xtt4;
+        "fabric-26.2" = _7JCoghYe;
+        "fabric-26.3" = _X79LHZ1v;
+        "fabric-1.16.5" = _rDyU9zbz;
+        "fabric-1.20" = _gHt9TQZN;
+        "fabric-1.20.1" = _gHt9TQZN;
         "pkg-1.0.0" = _nspOJqFU;
         "pkg-1.1.0" = _rqqAR0vK;
         "pkg-1.2.0" = _6ljBf7DN;
         "pkg-1.3.0" = _Q04XjJMm;
         "pkg-2.0.0" = _YdJ5ICC3;
         "pkg-2.0.1" = _mnyhjXnf;
-        "default" = _YdJ5ICC3;
+        "pkg-2.1.0" = _X79LHZ1v;
+        "default" = _X79LHZ1v;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "infinite-inventory-mod";

@@ -31,6 +31,11 @@ let
             "file" = "voice-chat-visualizer-1.0.0+26.2.jar";
             "hash" = "sha512-ebYf8WC4q2MtHGHu363d0gViMzReOEHmgk3v0hWcT30hvOc28lSnomEUkIyeTqJXPVsYZni/o/KVCYwdKfZcYg==";
         };
+        _rsnu1a2U = {
+            "id" = "rsnu1a2U";
+            "file" = "voice-chat-visualizer-1.0.0+26.3.jar";
+            "hash" = "sha512-7GHWMGqEqXOwzJORYzcG2dvIzg/fkO56LTLx3BVf+wVIrny21KuO4PmQhs4QTidz2P98H1Rwg1SxeCfF6DikiQ==";
+        };
     in {
         "EPpcYHPO" = _EPpcYHPO;
         "EFkZ8yNe" = _EFkZ8yNe;
@@ -38,6 +43,7 @@ let
         "eP7xVUKd" = _eP7xVUKd;
         "Px3ySEtL" = _Px3ySEtL;
         "JEtI9rCf" = _JEtI9rCf;
+        "rsnu1a2U" = _rsnu1a2U;
         "fabric-1.21" = _EPpcYHPO;
         "fabric-1.21.1" = _EPpcYHPO;
         "fabric-1.21.2" = _EPpcYHPO;
@@ -54,13 +60,15 @@ let
         "fabric-26.1.1" = _Px3ySEtL;
         "fabric-26.1.2" = _Px3ySEtL;
         "fabric-26.2" = _JEtI9rCf;
+        "fabric-26.3" = _rsnu1a2U;
         "pkg-1.0.0+1.21-1.21.5" = _EPpcYHPO;
         "pkg-1.0.0+1.21.6-1.21.8" = _EFkZ8yNe;
         "pkg-1.0.0+1.21.9-1.21.10" = _S48v30WR;
         "pkg-1.0.0+1.21.11" = _eP7xVUKd;
         "pkg-1.0.0+26.1.x" = _Px3ySEtL;
         "pkg-1.0.0+26.2" = _JEtI9rCf;
-        "default" = _JEtI9rCf;
+        "pkg-1.0.0+26.3" = _rsnu1a2U;
+        "default" = _rsnu1a2U;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "voice-chat-visualizer";

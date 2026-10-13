@@ -56,6 +56,16 @@ let
             "file" = "lab_11_mods_unified-neoforge-1.21.1-0.2.3-beta.1.jar";
             "hash" = "sha512-8+gFLCJ1bwshK5y6wGjITz+MFtWGoOWakArIil5zR8Q7GouVXkeN7SOq3yfe++K8biug08PzkYB3+c61lJCOxg==";
         };
+        _7QBcdYFN = {
+            "id" = "7QBcdYFN";
+            "file" = "lab_11_mods_unified-forge-1.20.1-0.2.3.jar";
+            "hash" = "sha512-J27FLk+bwWQe1IElQQqCfXJRCt2Sb3Ob//aXM4kC00U7gn6KTWEjpSpVpoTsbygn9eFY3SXBIPmO1UubPjKbfQ==";
+        };
+        _WZ3hiFib = {
+            "id" = "WZ3hiFib";
+            "file" = "lab_11_mods_unified-neoforge-1.21.1-0.2.3.jar";
+            "hash" = "sha512-2SjDYCQhogo14tqIqFHk4o+Vb0Nmf4nFN4tpmadGVd98QFLAl4tuVKeN0uwVD5sUswLb3ZqOoBYS36cZxbuSjQ==";
+        };
     in {
         "AY85ZagQ" = _AY85ZagQ;
         "Sljf2AQI" = _Sljf2AQI;
@@ -68,8 +78,10 @@ let
         "22EjmZPh" = _22EjmZPh;
         "Nk4fFIrx" = _Nk4fFIrx;
         "dSrpNJyu" = _dSrpNJyu;
-        "neoforge-1.21.1" = _dSrpNJyu;
-        "forge-1.20.1" = _Nk4fFIrx;
+        "7QBcdYFN" = _7QBcdYFN;
+        "WZ3hiFib" = _WZ3hiFib;
+        "neoforge-1.21.1" = _WZ3hiFib;
+        "forge-1.20.1" = _7QBcdYFN;
         "pkg-0.0.2" = _AY85ZagQ;
         "pkg-0.1.0" = _Sljf2AQI;
         "pkg-0.1.1" = _3JHwt7FK;
@@ -79,7 +91,8 @@ let
         "pkg-0.2.1" = _yPLeC0RG;
         "pkg-0.2.2" = _22EjmZPh;
         "pkg-0.2.3-beta.1" = _dSrpNJyu;
-        "default" = _dSrpNJyu;
+        "pkg-0.2.3" = _WZ3hiFib;
+        "default" = _WZ3hiFib;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "codes-mod-unified";

@@ -151,6 +151,21 @@ let
             "file" = "MoreSlabs-neoforge-26.1.2-1.9.0.1.jar";
             "hash" = "sha512-Sk26EYv4TUpRomV1rZ+9iG+d9VmG73MrgMlprMlPgJHSPfdLSGNxeT1QPEp9zyXYAB++e5ShyZWblBXh7biZ4Q==";
         };
+        _S32P8n8z = {
+            "id" = "S32P8n8z";
+            "file" = "MoreSlabs-forge-26.3-1.10.0.jar";
+            "hash" = "sha512-W+Xm86pUcRVXfFrRxzjKrKiBydzDJIKhkby9F0rXXOsVy8tNj9ntRm4I48nO1mhxWnF2MuQMb/T0C3VzPhgDGQ==";
+        };
+        _c3Axb7cQ = {
+            "id" = "c3Axb7cQ";
+            "file" = "MoreSlabs-neoforge-26.3-1.10.0.jar";
+            "hash" = "sha512-0G/Epu8YpSj8koJwRm3GW2vFzbhquLTaFjf9oOEyC9UUBEoGOteG1k7F3XzjHsE4Dr+6eAX120/2D21/Og/f+A==";
+        };
+        _kmyHLN6i = {
+            "id" = "kmyHLN6i";
+            "file" = "MoreSlabs-fabric-26.3-1.10.0.jar";
+            "hash" = "sha512-Q9uqxe/pFtNMPWan94KvoRDg/qcwmZNfgxIrJjx8XGoWKmKe4b0XlEvX3thggNB1DDw3NnHRM0BGYuOTeQ/sdA==";
+        };
     in {
         "fNlTPAGY" = _fNlTPAGY;
         "Fbrx5NTG" = _Fbrx5NTG;
@@ -182,6 +197,9 @@ let
         "ZGc7iKCC" = _ZGc7iKCC;
         "2EXMbzFX" = _2EXMbzFX;
         "vg6xNdH1" = _vg6xNdH1;
+        "S32P8n8z" = _S32P8n8z;
+        "c3Axb7cQ" = _c3Axb7cQ;
+        "kmyHLN6i" = _kmyHLN6i;
         "fabric-1.20.1" = _fNlTPAGY;
         "fabric-1.20.2" = _dRdpKcGI;
         "fabric-1.20.4" = _t07mfj54;
@@ -191,6 +209,7 @@ let
         "fabric-1.21.10" = _gGW8Ie39;
         "fabric-1.21.11" = _nA5WMFui;
         "fabric-26.1.2" = _ZGc7iKCC;
+        "fabric-26.3" = _kmyHLN6i;
         "forge-1.20.1" = _Fbrx5NTG;
         "forge-1.20.2" = _pAsjWCg4;
         "forge-1.20.4" = _lOdbFsFH;
@@ -201,6 +220,7 @@ let
         "forge-1.21.10" = _1Fvw9DEN;
         "forge-1.21.11" = _BnyjYSS0;
         "forge-26.1.2" = _2EXMbzFX;
+        "forge-26.3" = _S32P8n8z;
         "neoforge-1.20.4" = _izHl1xvl;
         "neoforge-1.21" = _GOlVkXpp;
         "neoforge-1.21.1" = _IZyd3Ixk;
@@ -208,6 +228,7 @@ let
         "neoforge-1.21.10" = _mDQkmwae;
         "neoforge-1.21.11" = _nDbekCWp;
         "neoforge-26.1.2" = _vg6xNdH1;
+        "neoforge-26.3" = _c3Axb7cQ;
         "pkg-1.0.3" = _fNlTPAGY;
         "pkg-1.7.1" = _Fbrx5NTG;
         "pkg-1.7.2" = _unbmJnlu;
@@ -230,7 +251,8 @@ let
         "pkg-1.21.11-1.1.3" = _nA5WMFui;
         "pkg-1.9.0" = _ZGc7iKCC;
         "pkg-1.9.0.1" = _vg6xNdH1;
-        "default" = _vg6xNdH1;
+        "pkg-1.10.0" = _kmyHLN6i;
+        "default" = _kmyHLN6i;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-beautiful-slabs";

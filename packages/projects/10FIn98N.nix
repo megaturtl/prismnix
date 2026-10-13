@@ -181,6 +181,11 @@ let
             "file" = "Skullduv's Keystrokes 1.3.0 - Minecraft 26.3.jar";
             "hash" = "sha512-DQTLQ6uXJzDUAxPlMIfZuxLvY+k8sIIoTrzejzWNFBgPFl965PkMz78foFEZC+rgxPpqGxNJaD+AKPtVaAnvTg==";
         };
+        _zbPxSDbl = {
+            "id" = "zbPxSDbl";
+            "file" = "Skullduv's Keystrokes 1.3.0 - Minecraft 26.3.jar";
+            "hash" = "sha512-wB89Nz7QunP9N6vdLbP8Soh9sBGziHr576uHZ2wpu6k+/asP79GvkqXbwYdjr+LL2/NHF6+x2DMsCEBvk608Rg==";
+        };
     in {
         "JfjcuXsg" = _JfjcuXsg;
         "l8ECFRvb" = _l8ECFRvb;
@@ -218,6 +223,7 @@ let
         "yeXToeMB" = _yeXToeMB;
         "US2ZqV3m" = _US2ZqV3m;
         "4A6O02NG" = _4A6O02NG;
+        "zbPxSDbl" = _zbPxSDbl;
         "fabric-1.21.11" = _5QFom2W7;
         "fabric-26.1.2" = _oPxWzpww;
         "fabric-26.1.1" = _usooDMT5;
@@ -234,13 +240,14 @@ let
         "fabric-1.21.10" = _1bMpUFZT;
         "fabric-26.1" = _yeXToeMB;
         "fabric-26.2" = _US2ZqV3m;
-        "fabric-26.3" = _4A6O02NG;
+        "fabric-26.3" = _zbPxSDbl;
         "pkg-1.0.0" = _l8ECFRvb;
         "pkg-1.1.0" = _PJNpvGYa;
         "pkg-1.0" = _yyFTU3tW;
         "pkg-1.2.0" = _W1DOUXYY;
         "pkg-1.3.0" = _4A6O02NG;
-        "default" = _4A6O02NG;
+        "pkg-1.3.1" = _zbPxSDbl;
+        "default" = _zbPxSDbl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skullduvs-keystrokes";

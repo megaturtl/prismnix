@@ -76,6 +76,16 @@ let
             "file" = "hqspeaker-neoforge-1.21.1-1.0.7.jar";
             "hash" = "sha512-Ydb0HAIWzG6h4O9zjjfBq1I5KXOBc79KoIqam/1w+B0GHzc6YyN/xvi3SOC9mHOmFxWo0vujXIGxT7nvNsu6OQ==";
         };
+        _IcC4UnaZ = {
+            "id" = "IcC4UnaZ";
+            "file" = "hqspeaker-forge-1.20.1-1.0.8.jar";
+            "hash" = "sha512-yHOSo/ti2moPn6NHMJ+OSG0XxWjIhJbJsIulpMCCqJiISfpJTUT5Q+NCBKG5eJZ9tY0UpvDonz4kN+Gkd6gaMA==";
+        };
+        _qSUSaLk7 = {
+            "id" = "qSUSaLk7";
+            "file" = "hqspeaker-neoforge-1.21.1-1.0.8.jar";
+            "hash" = "sha512-JS9dEWmp7e2l8sNDlMkenYUbN3MJIlyqCGebJuhaJg3PEvz8kH0Brg11DJBBurlX4TYzJGAXrOtal7UIky60nQ==";
+        };
     in {
         "G1AkBKTd" = _G1AkBKTd;
         "u5PEI5Ax" = _u5PEI5Ax;
@@ -92,8 +102,10 @@ let
         "e9xZrKfy" = _e9xZrKfy;
         "IF1Tj50Z" = _IF1Tj50Z;
         "1uUfQ9Aw" = _1uUfQ9Aw;
-        "forge-1.20.1" = _IF1Tj50Z;
-        "neoforge-1.21.1" = _1uUfQ9Aw;
+        "IcC4UnaZ" = _IcC4UnaZ;
+        "qSUSaLk7" = _qSUSaLk7;
+        "forge-1.20.1" = _IcC4UnaZ;
+        "neoforge-1.21.1" = _qSUSaLk7;
         "pkg-1.0.0" = _G1AkBKTd;
         "pkg-1.0.1-forge" = _u5PEI5Ax;
         "pkg-1.0.1-neoforge" = _bLer3NjH;
@@ -109,7 +121,9 @@ let
         "pkg-1.0.6-Neoforge" = _e9xZrKfy;
         "pkg-1.0.7-Forge" = _IF1Tj50Z;
         "pkg-1.0.7-Neoforge" = _1uUfQ9Aw;
-        "default" = _1uUfQ9Aw;
+        "pkg-1.0.8-Forge" = _IcC4UnaZ;
+        "pkg-1.0.8-Neoforge" = _qSUSaLk7;
+        "default" = _qSUSaLk7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cchq-speakers";

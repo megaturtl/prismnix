@@ -26,20 +26,27 @@ let
             "file" = "classicbar-1.21.1-1.5.5.jar";
             "hash" = "sha512-kgPlN/SD3yWeuunXsKomZ4vVuTdaW4WemmBLMtgJIrjf5fSxG7WhB7vjCgZHMIX+UXimKlhADVC40o6rOvFxWA==";
         };
+        _E82RBsIk = {
+            "id" = "E82RBsIk";
+            "file" = "classicbar-1.21.1-1.5.6.jar";
+            "hash" = "sha512-oek8xHTBkhJ+YXHIWM23W3B4m6ZCKF+Rg8RdNfcWd3t7P+AEUJR7igh8J6jI6nJrkB82lc198RnqiJ/ahRAtRQ==";
+        };
     in {
         "euaj2Sb7" = _euaj2Sb7;
         "cYRfhmZr" = _cYRfhmZr;
         "2q0mDWwV" = _2q0mDWwV;
         "St0SCGWq" = _St0SCGWq;
         "6WBiarje" = _6WBiarje;
-        "neoforge-1.21.1" = _6WBiarje;
+        "E82RBsIk" = _E82RBsIk;
+        "neoforge-1.21.1" = _E82RBsIk;
         "neoforge-26.1.2" = _St0SCGWq;
         "pkg-1.21.1-1.4.0" = _euaj2Sb7;
         "pkg-1.21.1-1.5.2" = _cYRfhmZr;
         "pkg-1.21.1-1.5.3" = _2q0mDWwV;
         "pkg-26.1.2-1.5.4" = _St0SCGWq;
         "pkg-1.21.1-1.5.5" = _6WBiarje;
-        "default" = _6WBiarje;
+        "pkg-1.21.1-1.5.6" = _E82RBsIk;
+        "default" = _E82RBsIk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "classic-bar-unofficial";

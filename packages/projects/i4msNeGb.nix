@@ -81,6 +81,11 @@ let
             "file" = "prefab-custom-addon-2.6.0.jar";
             "hash" = "sha512-CWjdbqna+YxcUtSLXiZwCadD2ImZhI86fBKTuDkXtyXEiCBv1uvy5e9Ho1c2t1x85GIjNrvw3S0NWTz3N7Ia6g==";
         };
+        _lZz6rkpt = {
+            "id" = "lZz6rkpt";
+            "file" = "prefab-custom-addon-2.6.1.jar";
+            "hash" = "sha512-d6ePcPH6qAozZv5/oq9DVbqIobxKMw13wWvyV6oXl+ekB4n1/PlF4x6nq4zAW+KRSfcFMLw1KILUIJviTOv59g==";
+        };
     in {
         "nlLgn10K" = _nlLgn10K;
         "bVBqmeKN" = _bVBqmeKN;
@@ -98,7 +103,8 @@ let
         "H8v5gvqX" = _H8v5gvqX;
         "d9RggN3F" = _d9RggN3F;
         "ZTet7Lg4" = _ZTet7Lg4;
-        "neoforge-1.21.1" = _ZTet7Lg4;
+        "lZz6rkpt" = _lZz6rkpt;
+        "neoforge-1.21.1" = _lZz6rkpt;
         "forge-1.20.1" = _d9RggN3F;
         "pkg-1.6.0" = _nlLgn10K;
         "pkg-1.7.0" = _bVBqmeKN;
@@ -114,7 +120,8 @@ let
         "pkg-2.4.1" = _mNYadrWZ;
         "pkg-2.5.0" = _H8v5gvqX;
         "pkg-2.6.0" = _ZTet7Lg4;
-        "default" = _ZTet7Lg4;
+        "pkg-2.6.1" = _lZz6rkpt;
+        "default" = _lZz6rkpt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "prefab-custom-addon";

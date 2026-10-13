@@ -131,6 +131,11 @@ let
             "file" = "atmospherics-2.6.6-mc-26.3.jar";
             "hash" = "sha512-t8QQ1ieSd8ivc+oIlRZPGsAtT919Vvyyq2hi39A6xuGNJuEU8Bp2yBLS2lOv4pwOlYgSSZ59clQ9Xl5aZ1xM4Q==";
         };
+        _DbHCSFGO = {
+            "id" = "DbHCSFGO";
+            "file" = "atmospherics-2.6.7-mc-26.3.jar";
+            "hash" = "sha512-J0IxYsZbvW9SXsBEv5ZX3F7HRiRNOQGTDZoDqIY8s0tEDE+3Q3qe6SmV+NzwQcVwgEB6GduXCgM0zILtLzQQkg==";
+        };
     in {
         "c5otEUSQ" = _c5otEUSQ;
         "kd0xVsBU" = _kd0xVsBU;
@@ -158,12 +163,13 @@ let
         "36CJxKFF" = _36CJxKFF;
         "wJSd2gZD" = _wJSd2gZD;
         "ypMUWkFh" = _ypMUWkFh;
+        "DbHCSFGO" = _DbHCSFGO;
         "fabric-1.21.11" = _36CJxKFF;
         "fabric-26.1" = _LeQKXuNM;
         "fabric-26.1.1" = _LeQKXuNM;
         "fabric-26.1.2" = _LeQKXuNM;
         "fabric-26.2" = _wJSd2gZD;
-        "fabric-26.3" = _ypMUWkFh;
+        "fabric-26.3" = _DbHCSFGO;
         "neoforge-1.21.1" = _yJJkB7Qc;
         "pkg-1.0" = _5Z6JuGV7;
         "pkg-2.0" = _NeP3efi0;
@@ -179,7 +185,8 @@ let
         "pkg-2.6.6" = _dKZiIjXj;
         "pkg-2.6.5.2" = _yJJkB7Qc;
         "pkg-2.6.6.1" = _ypMUWkFh;
-        "default" = _ypMUWkFh;
+        "pkg-2.6.7" = _DbHCSFGO;
+        "default" = _DbHCSFGO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "atmospherics";

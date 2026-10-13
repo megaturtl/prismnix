@@ -891,6 +891,11 @@ let
             "file" = "CrazyCrates-26.1.2-ba1cc9b.jar";
             "hash" = "sha512-NdDRM0aIBDF3gzsOkr3TAMiH35KRfa3yYBHGbTlo3lwj6ooaMDZ6I0b+juZqylh6DRBp2Yx4gWvkCsEseGOaXA==";
         };
+        _FKSUOpH2 = {
+            "id" = "FKSUOpH2";
+            "file" = "CrazyCrates-26.1.2-6daa5d9.jar";
+            "hash" = "sha512-iuI7g+AhzTKqi4pR7wwyg067n2qqyF7zD2R86cRbsZQ4prvBH7gi4yhf/FTPf7L5mTtYVKCDXtrb4OFl5pNHVQ==";
+        };
     in {
         "o2SBLNdi" = _o2SBLNdi;
         "LvvjPICj" = _LvvjPICj;
@@ -1070,6 +1075,7 @@ let
         "glgOTyBz" = _glgOTyBz;
         "5H8dIsmR" = _5H8dIsmR;
         "HbYbWLPE" = _HbYbWLPE;
+        "FKSUOpH2" = _FKSUOpH2;
         "paper-1.19.4" = _o2SBLNdi;
         "paper-1.8.8" = _LvvjPICj;
         "paper-1.12.2" = _LvvjPICj;
@@ -1090,8 +1096,8 @@ let
         "paper-1.21.11" = _ua0RfxnL;
         "paper-26.1" = _ua0RfxnL;
         "paper-26.1.1" = _ua0RfxnL;
-        "paper-26.1.2" = _HbYbWLPE;
-        "paper-26.2" = _HbYbWLPE;
+        "paper-26.1.2" = _FKSUOpH2;
+        "paper-26.2" = _FKSUOpH2;
         "purpur-1.19.4" = _o2SBLNdi;
         "purpur-1.20.1" = _61LdIpXv;
         "purpur-1.20.2" = _IKDMMjgz;
@@ -1109,8 +1115,8 @@ let
         "purpur-1.21.11" = _ua0RfxnL;
         "purpur-26.1" = _ua0RfxnL;
         "purpur-26.1.1" = _ua0RfxnL;
-        "purpur-26.1.2" = _HbYbWLPE;
-        "purpur-26.2" = _HbYbWLPE;
+        "purpur-26.1.2" = _FKSUOpH2;
+        "purpur-26.2" = _FKSUOpH2;
         "spigot-1.8.8" = _LvvjPICj;
         "spigot-1.12.2" = _LvvjPICj;
         "spigot-1.16.5" = _LvvjPICj;
@@ -1128,8 +1134,8 @@ let
         "folia-1.21.11" = _ua0RfxnL;
         "folia-26.1" = _ua0RfxnL;
         "folia-26.1.1" = _ua0RfxnL;
-        "folia-26.1.2" = _HbYbWLPE;
-        "folia-26.2" = _HbYbWLPE;
+        "folia-26.1.2" = _FKSUOpH2;
+        "folia-26.2" = _FKSUOpH2;
         "pkg-1.11.13" = _o2SBLNdi;
         "pkg-1.10.2.2" = _LvvjPICj;
         "pkg-1.12" = _uENjXFu3;
@@ -1308,7 +1314,8 @@ let
         "pkg-26.1.2-da371c5" = _glgOTyBz;
         "pkg-26.1.2-d132bde" = _5H8dIsmR;
         "pkg-26.1.2-ba1cc9b" = _HbYbWLPE;
-        "default" = _HbYbWLPE;
+        "pkg-26.1.2-6daa5d9" = _FKSUOpH2;
+        "default" = _FKSUOpH2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crazycrates";

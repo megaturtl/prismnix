@@ -621,6 +621,11 @@ let
             "file" = "Satsu_iron_man_addon-3.6.2.jar";
             "hash" = "sha512-sJLlkdzzkY8i76A+U1g9XvGRvcTDVa8O9qTjlH9VSVDghUhb5ywsRhM9RKfyz9lGO8FGktXitUdMKiGkfiE3bw==";
         };
+        _RWqnilMh = {
+            "id" = "RWqnilMh";
+            "file" = "Satsu_iron_man_addon-3.7.0.jar";
+            "hash" = "sha512-p43Gw308zRpUYwojvsAUeiOIaT0RK3p0W4pcCHcWViGPE9+V/x12xvN9PwJP5mnFSSauplAr26MjKsU2AuBnxw==";
+        };
     in {
         "x4Pwhgad" = _x4Pwhgad;
         "iWS5WdPk" = _iWS5WdPk;
@@ -746,8 +751,9 @@ let
         "NImfGXe6" = _NImfGXe6;
         "xFRrhqFn" = _xFRrhqFn;
         "WAaSOyn0" = _WAaSOyn0;
+        "RWqnilMh" = _RWqnilMh;
         "fabric-1.20.1" = _6PqTi057;
-        "forge-1.20.1" = _WAaSOyn0;
+        "forge-1.20.1" = _RWqnilMh;
         "pkg-2.0.0" = _x4Pwhgad;
         "pkg-2.2.3" = _iWS5WdPk;
         "pkg-2.2.4" = _gS9d08ps;
@@ -830,7 +836,8 @@ let
         "pkg-3.5.4" = _NbiZbpIk;
         "pkg-3.6.1" = _xFRrhqFn;
         "pkg-3.6.2" = _WAaSOyn0;
-        "default" = _WAaSOyn0;
+        "pkg-3.7.0" = _RWqnilMh;
+        "default" = _RWqnilMh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "satsu-iron-man-addon";

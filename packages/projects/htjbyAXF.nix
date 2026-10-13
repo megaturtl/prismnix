@@ -206,6 +206,61 @@ let
             "file" = "flying-unicorns-2.1.jar";
             "hash" = "sha512-/kivMW4Izyx+ECM+SJvLmBcsmlSj6NwKlpW6fz2HzQpEi9+mT1tWyI7+MHihqZqmxCzaXh42QZWBmwfJChSsWw==";
         };
+        _jvmrf4AP = {
+            "id" = "jvmrf4AP";
+            "file" = "flying-unicorns-2.2.jar";
+            "hash" = "sha512-AXBDSXe7Lk2+9x99zdowAHks/K55Msg2Ax35RJ4YH6uCgMhyAw0UugQLp6JCewut679eZJGalqFI/Y1qQZtcuQ==";
+        };
+        _eCH6NVD8 = {
+            "id" = "eCH6NVD8";
+            "file" = "flying-unicorns-2.2.jar";
+            "hash" = "sha512-1foSZanuhmwAPIytApNlq5E47MU/kfiD8w5jQwgVGZxnDUbTPAlGwSPjruP4UKrLhWuGNZpXYsmM9tzGlABCvg==";
+        };
+        _m6eUjduq = {
+            "id" = "m6eUjduq";
+            "file" = "flying-unicorns-2.2.jar";
+            "hash" = "sha512-sDpj7HikapKUhtX8Vu1dewVjBMf1tGTvGRT1Q6+9so0FhMMniLJsf6akJL3JttNPLxo4ANzoCKGgLXhaZqUTsg==";
+        };
+        _7oSVpvV1 = {
+            "id" = "7oSVpvV1";
+            "file" = "flying-unicorns-2.2.jar";
+            "hash" = "sha512-4HWmbrnKwF8k+bMTwVYNfDk0ff/XbMoRxq8TKmX/AybXQUUg8vULJXdQre+Er9LhPPd8sJY5qFWNuHrnIlXL8A==";
+        };
+        _tzBucaSN = {
+            "id" = "tzBucaSN";
+            "file" = "flying-unicorns-2.2.jar";
+            "hash" = "sha512-cWj+Rvg/mtYJXiGN0cU2GtxotIHTvZkPUen06ECIfGurQlkgiwhocKkw5MYv4RHrFPhJUYssfG1iJh4UpK2ZPQ==";
+        };
+        _B4ObRtY3 = {
+            "id" = "B4ObRtY3";
+            "file" = "flying-unicorns-2.2.jar";
+            "hash" = "sha512-g/Cjmn40tIalpHp1cYeXNDi3mKIrOij/e+tY8RAwum4weZojykD9oqu4j08dgJbPsRYi2uceBmDputSXhSNSDA==";
+        };
+        _iGqn3XpO = {
+            "id" = "iGqn3XpO";
+            "file" = "flying-unicorns-2.2.jar";
+            "hash" = "sha512-bsZJHh08uyHApK3aFiYWbPonsHvzBKJxLB0qUJlNTprlYWH+GCD/grxjkuF2M5OFM0NgZq19R60PnO6emX1tkQ==";
+        };
+        _2jVnXisc = {
+            "id" = "2jVnXisc";
+            "file" = "flying-unicorns-2.2.jar";
+            "hash" = "sha512-d1IxEdvXoOHzmlMRioFI26A9FyqkoeDUaIxgQCBGCB2/qKcR8Ik6/gFJ9LQk6gM32xuOh01GrO81VyrCp8I7LA==";
+        };
+        _drd7qlPe = {
+            "id" = "drd7qlPe";
+            "file" = "flying-unicorns-2.2.jar";
+            "hash" = "sha512-dxVMKaYd1MWZo+nErxJA97a82ibwfMVGyONPCeV1Pmgr8ewo7JCimlxxjFABZedzlSV2XK6Pw346qc2+ylHe2g==";
+        };
+        _l3IZSliG = {
+            "id" = "l3IZSliG";
+            "file" = "flying-unicorns-2.2.jar";
+            "hash" = "sha512-K9AVeoTYxIAqJRzXUMykxDo7AZ8NlTSWqoLlExKm5LcfxsCSq4MQQ8E4/CRuYjPgh4BhFtcslvsm2oN8e3b/Ow==";
+        };
+        _qpiaCba9 = {
+            "id" = "qpiaCba9";
+            "file" = "flying-unicorns-2.2.jar";
+            "hash" = "sha512-XhRVcr5Ui2OIXiDw7x/EB5CTjRmhmcPDgDKQzQXhMBmBHCpTLiybpAdeY7tOoOxK7YrrXateCDDkqGT0hb2erw==";
+        };
     in {
         "YQPzICLt" = _YQPzICLt;
         "Be9xF1Cn" = _Be9xF1Cn;
@@ -248,18 +303,33 @@ let
         "eMxnGmDg" = _eMxnGmDg;
         "GKNXdpET" = _GKNXdpET;
         "nEnSwm3d" = _nEnSwm3d;
+        "jvmrf4AP" = _jvmrf4AP;
+        "eCH6NVD8" = _eCH6NVD8;
+        "m6eUjduq" = _m6eUjduq;
+        "7oSVpvV1" = _7oSVpvV1;
+        "tzBucaSN" = _tzBucaSN;
+        "B4ObRtY3" = _B4ObRtY3;
+        "iGqn3XpO" = _iGqn3XpO;
+        "2jVnXisc" = _2jVnXisc;
+        "drd7qlPe" = _drd7qlPe;
+        "l3IZSliG" = _l3IZSliG;
+        "qpiaCba9" = _qpiaCba9;
         "neoforge-1.21.11" = _xZsqS5Ek;
-        "neoforge-26.1" = _CeOGTQA8;
+        "neoforge-26.1" = _jvmrf4AP;
         "neoforge-26.1.1" = _QWMXjrCJ;
-        "neoforge-26.1.2" = _QWMXjrCJ;
+        "neoforge-26.1.2" = _eCH6NVD8;
+        "neoforge-26.2" = _m6eUjduq;
+        "neoforge-26.3" = _7oSVpvV1;
         "forge-1.21.11" = _KSfOL8RP;
         "forge-26.1" = _Tdbc3j7I;
         "forge-26.1.1" = _Tdbc3j7I;
-        "forge-26.1.2" = _Tdbc3j7I;
+        "forge-26.1.2" = _tzBucaSN;
+        "forge-26.2" = _B4ObRtY3;
+        "forge-26.3" = _iGqn3XpO;
         "fabric-1.21.11" = _P8ySZt9m;
-        "fabric-26.1" = _Y0qVbGuS;
+        "fabric-26.1" = _2jVnXisc;
         "fabric-26.1.1" = _dAwbnmxZ;
-        "fabric-26.1.2" = _eMxnGmDg;
+        "fabric-26.1.2" = _drd7qlPe;
         "fabric-1.21" = _JHMG3BRQ;
         "fabric-1.21.1" = _rZffqT9S;
         "fabric-1.21.3" = _ZrWhlFo0;
@@ -269,13 +339,14 @@ let
         "fabric-1.21.7" = _eZdeVzmX;
         "fabric-1.21.8" = _igiJ4eKu;
         "fabric-1.21.10" = _EBOdxsYA;
-        "fabric-26.2" = _GKNXdpET;
-        "fabric-26.3" = _nEnSwm3d;
+        "fabric-26.2" = _l3IZSliG;
+        "fabric-26.3" = _qpiaCba9;
         "pkg-1.0.0" = _GsjW0ENH;
         "pkg-1.0.1" = _dAwbnmxZ;
         "pkg-2.0" = _6qfld0x5;
         "pkg-2.1" = _nEnSwm3d;
-        "default" = _nEnSwm3d;
+        "pkg-2.2" = _qpiaCba9;
+        "default" = _qpiaCba9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simply-winged-horse-pegasus-flight";

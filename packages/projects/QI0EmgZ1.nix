@@ -126,6 +126,11 @@ let
             "file" = "matcha-flavoured-1.12.5+dp.jar";
             "hash" = "sha512-Jsk1tABOjNctWg0Kh9QUkXDjuk3GxjlFflVYCxlnGNsMGw0atQ+6bx7tD69qH6nEcMQfvetHOVyG2ynRinI+lQ==";
         };
+        _3CSuDWJG = {
+            "id" = "3CSuDWJG";
+            "file" = "MF_RP_1_12_6_26_3.zip";
+            "hash" = "sha512-DvNA3S46z7h7KlWUAC+PXQKtsSF0S7FdKpLASxp9dbLsW5PO9RJvb9svP3V6WutzuZoCn5lZ5N44r7cYNbsL/g==";
+        };
     in {
         "HRgbUUqY" = _HRgbUUqY;
         "gnV7BvcI" = _gnV7BvcI;
@@ -152,11 +157,12 @@ let
         "z3SUNMWT" = _z3SUNMWT;
         "cwZ158UI" = _cwZ158UI;
         "6P1xrjpb" = _6P1xrjpb;
+        "3CSuDWJG" = _3CSuDWJG;
         "datapack-26.1.2" = _gnV7BvcI;
         "datapack-26.2" = _cwZ158UI;
         "datapack-26.3" = _BzYZcCbA;
         "minecraft-26.2" = _WRkL802v;
-        "minecraft-26.3" = _lELZ1D7W;
+        "minecraft-26.3" = _3CSuDWJG;
         "fabric-26.2" = _6P1xrjpb;
         "forge-26.2" = _6P1xrjpb;
         "neoforge-26.2" = _6P1xrjpb;
@@ -185,7 +191,8 @@ let
         "pkg-1.12.4+mod" = _z3SUNMWT;
         "pkg-1.12.5+dp" = _cwZ158UI;
         "pkg-1.12.5+mod" = _6P1xrjpb;
-        "default" = _6P1xrjpb;
+        "pkg-1.12.6-alpha+rp" = _3CSuDWJG;
+        "default" = _3CSuDWJG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "matcha-flavoured";

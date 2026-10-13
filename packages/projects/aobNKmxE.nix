@@ -51,6 +51,11 @@ let
             "file" = "reroll_enchants_trades-neoforge-26.3-1.1.0.jar";
             "hash" = "sha512-8ohlBIpXiJMIDEaKpoe178zWWeS5dYTgDaTQ2+ly4hVbS1cC9o7RF18MuRYW8hKK11xBeFTkpMaBobjWvu2L7w==";
         };
+        _9kQ9uy8I = {
+            "id" = "9kQ9uy8I";
+            "file" = "reroll_enchants_trades-1.2.jar";
+            "hash" = "sha512-lGFTWtA8PX2yu4s8BwyyDQh4HNzZ3SBVEauFJ+ctRFmT9q+YsEOyFBV6V2O658MgPyWbx/zW7IO9b/KnQ9TCWg==";
+        };
     in {
         "LCKOXvQz" = _LCKOXvQz;
         "Fk4rkvGN" = _Fk4rkvGN;
@@ -62,7 +67,8 @@ let
         "jtL07ojq" = _jtL07ojq;
         "AvS7vCyv" = _AvS7vCyv;
         "6jCn9L7m" = _6jCn9L7m;
-        "forge-1.20.1" = _sljv3hfm;
+        "9kQ9uy8I" = _9kQ9uy8I;
+        "forge-1.20.1" = _9kQ9uy8I;
         "forge-1.21.1" = _Fk4rkvGN;
         "forge-1.21.11" = _X1hg2r1z;
         "neoforge-1.21.1" = _jtL07ojq;
@@ -76,7 +82,8 @@ let
         "pkg-1.0.0" = _X1hg2r1z;
         "pkg-1.1" = _sljv3hfm;
         "pkg-1.1.0" = _6jCn9L7m;
-        "default" = _6jCn9L7m;
+        "pkg-1.2" = _9kQ9uy8I;
+        "default" = _9kQ9uy8I;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "reroll-enchants-and-trades";

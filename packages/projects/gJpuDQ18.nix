@@ -56,6 +56,21 @@ let
             "file" = "creaturecorner-1.2-26.3.jar";
             "hash" = "sha512-aUc6NUvy8RImZ4i2K3V+jjkWVPiiaOz+i/nIVMAVQ8E61i9gjfiUSiv+arhNOa0m1C3w4TtODR3jRUs5gNXRiA==";
         };
+        _C5vs1b5M = {
+            "id" = "C5vs1b5M";
+            "file" = "creaturecorner-1.21-26.3.jar";
+            "hash" = "sha512-vq6MqhSUu9lpEiLbh41B3rhbI6m36psX174TGDLbd8rm3HSPb4NS1BSomU3PXPtP9YCzb+gxCV+CEI/Y+Vek+A==";
+        };
+        _NJ4mghen = {
+            "id" = "NJ4mghen";
+            "file" = "creaturecorner-1.21-1.21.1.jar";
+            "hash" = "sha512-CbxcuBVyteyplS6n7dMgTb3O9xNAw6KPJh8B0lspBso2V7slJ+PNLuDRsJLpac1tGxGkrCOS1nFl6bbYJiX0PQ==";
+        };
+        _GO0QFlxw = {
+            "id" = "GO0QFlxw";
+            "file" = "creaturecorner-1.21-1.20.1.jar";
+            "hash" = "sha512-qeO4o3MRir5xpLypJbxeYdbwZgcMMZSJTyEMLpDUTvrS+vM05QaXG9rFkfSa8rhGmW5hj92HtpqPzGaiSUFcJA==";
+        };
     in {
         "JXhqA9Nq" = _JXhqA9Nq;
         "vWWwIvxo" = _vWWwIvxo;
@@ -68,10 +83,13 @@ let
         "aWyXhOvB" = _aWyXhOvB;
         "Z1UND90T" = _Z1UND90T;
         "AqvH1B2Z" = _AqvH1B2Z;
-        "neoforge-1.21.1" = _Z1UND90T;
-        "neoforge-26.3" = _AqvH1B2Z;
+        "C5vs1b5M" = _C5vs1b5M;
+        "NJ4mghen" = _NJ4mghen;
+        "GO0QFlxw" = _GO0QFlxw;
+        "neoforge-1.21.1" = _NJ4mghen;
+        "neoforge-26.3" = _C5vs1b5M;
         "fabric-1.21.1" = _XmkuYsu5;
-        "forge-1.20.1" = _aWyXhOvB;
+        "forge-1.20.1" = _GO0QFlxw;
         "pkg-0.1-BETA" = _JXhqA9Nq;
         "pkg-0.2" = _XmkuYsu5;
         "pkg-1.0" = _IONd5DVi;
@@ -80,7 +98,10 @@ let
         "pkg-1.2-1.20.1" = _aWyXhOvB;
         "pkg-1.2-1.21.1" = _Z1UND90T;
         "pkg-1.2-26.3" = _AqvH1B2Z;
-        "default" = _AqvH1B2Z;
+        "pkg-1.21-26.3" = _C5vs1b5M;
+        "pkg-1.21-1.21.1" = _NJ4mghen;
+        "pkg-1.21-1.20.1" = _GO0QFlxw;
+        "default" = _GO0QFlxw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "creaturecorner";

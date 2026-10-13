@@ -296,6 +296,21 @@ let
             "file" = "cards-1.5.3-forge-1.20.1.jar";
             "hash" = "sha512-uL8g/zX/btN1qMmj68j5kwdki/v0/jrgI6h1UeYWNvf6J0gmomdgsj82tlDI50kzwCiqS8C8hc9G8wMbpeLkTg==";
         };
+        _gX45K9MY = {
+            "id" = "gX45K9MY";
+            "file" = "cards-1.5.4-forge-1.20.1.jar";
+            "hash" = "sha512-kz1S6zZ10L/NER1pv5P+Q1M/jA3O2Khh0XzTYDayBoOa6OCnOvGnyDIuYW3Vv9vNp99wOKeDsv4hOiN/aLIrVQ==";
+        };
+        _mN7QnQD4 = {
+            "id" = "mN7QnQD4";
+            "file" = "cards-1.5.4-neoforge-1.21.8.jar";
+            "hash" = "sha512-uUxxtBRhprkQ+XZegstTAHNgaMKtI3TjnEMrbCn2/vkmrjXZ0ZVz8vCtM2tihi7zeUAqp7eS3Vyn23xhfClE2Q==";
+        };
+        _kSNXW8xf = {
+            "id" = "kSNXW8xf";
+            "file" = "cards-1.5.5-neoforge-1.21.8.jar";
+            "hash" = "sha512-+P/wc+EN0YlKJdIdypklEhXz2eSqcMASKP1an4gScvC97w7gr78B99smLCB/AruuoFx/YOYvkDRGjaLpHsJvoQ==";
+        };
     in {
         "U32FXKCa" = _U32FXKCa;
         "xnk7x0eU" = _xnk7x0eU;
@@ -356,7 +371,11 @@ let
         "KgSiIF7L" = _KgSiIF7L;
         "UFZEUXDk" = _UFZEUXDk;
         "FF1J5cmS" = _FF1J5cmS;
-        "forge-1.20.1" = _FF1J5cmS;
+        "gX45K9MY" = _gX45K9MY;
+        "mN7QnQD4" = _mN7QnQD4;
+        "kSNXW8xf" = _kSNXW8xf;
+        "forge-1.20.1" = _gX45K9MY;
+        "neoforge-1.21.8" = _kSNXW8xf;
         "pkg-1.0.0" = _U32FXKCa;
         "pkg-1.0.1" = _xnk7x0eU;
         "pkg-1.0.2" = _WTS7ayku;
@@ -416,7 +435,9 @@ let
         "pkg-1.5.1" = _KgSiIF7L;
         "pkg-1.5.2" = _UFZEUXDk;
         "pkg-1.5.3" = _FF1J5cmS;
-        "default" = _FF1J5cmS;
+        "pkg-1.5.4" = _mN7QnQD4;
+        "pkg-1.5.5" = _kSNXW8xf;
+        "default" = _kSNXW8xf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mc-cards";

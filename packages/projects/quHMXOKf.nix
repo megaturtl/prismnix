@@ -76,6 +76,46 @@ let
             "file" = "quick-resource-pack-1.1.0-mc26.1.2.jar";
             "hash" = "sha512-+fTERSN8KbQuhGdWUDvwrpucPw+QnoyfqNH7/QuP9dcCrzEBgRtMf3GVgHhL2qbS4ZDNaSdpWYaKR2TsOoqqgA==";
         };
+        _dkrgtmap = {
+            "id" = "dkrgtmap";
+            "file" = "quick-resource-pack-1.1.1-mc26.1.jar";
+            "hash" = "sha512-8s/lPhZTwqp6lfWQZPbwVvg04z4VjFwQtelks870Y44DdDmKEWgk5R7l5NUgRs1Yn65FHv5csR33qDHr+4gPFw==";
+        };
+        _l7okZHeF = {
+            "id" = "l7okZHeF";
+            "file" = "quick-resource-pack-1.1.1-mc26.1.1.jar";
+            "hash" = "sha512-pMnhdc8e0ILkjS9L0JwHYnAZ7KKN0DCPESnp72E+XioRYN/VtUEIbSrzHhu6+eQuGkaq/jIFnJshZE8Y1VCBJw==";
+        };
+        _J4P3p7oD = {
+            "id" = "J4P3p7oD";
+            "file" = "quick-resource-pack-1.1.1-mc26.1.2.jar";
+            "hash" = "sha512-W7wEzAjLANPORVKTMV/AJkZoBCVZjVWdfP0y4mrpvnVxTH19bOyYUfPrHDCE1oF7A9yAL+3/R2OKghhxKzWv6g==";
+        };
+        _BY6L2y6V = {
+            "id" = "BY6L2y6V";
+            "file" = "quick-resource-pack-1.2.0-mc26.2.jar";
+            "hash" = "sha512-Gv13iQEPiHr3sRah68H/9sKBmX3UKe0TO084SgYgaF/nqUIXzB8kKcS2ZVnxFmSntk4Wry3YM2eG/jMm1NsfRg==";
+        };
+        _UZZEyX2J = {
+            "id" = "UZZEyX2J";
+            "file" = "quick-resource-pack-1.2.0-mc26.3.jar";
+            "hash" = "sha512-/aOCvFadep4Qft2Hh0im4YrMX77N01mhL0Q0CFX+T9P7f33Gk1XzWqjG13f9OJ6voEBOEeJgrYjpyV32w2FM9w==";
+        };
+        _7zfqSBH2 = {
+            "id" = "7zfqSBH2";
+            "file" = "quick-resource-pack-1.1.1-mc1.21.9.jar";
+            "hash" = "sha512-j0tz3UJVM0VYV8lKrSPjGXJaRYQ/NIe19SyGe7zqwEcThd5xtFCQALL2tl40ZVIwCZr95/A+t/BoQJkodIm/+g==";
+        };
+        _XabTrjFF = {
+            "id" = "XabTrjFF";
+            "file" = "quick-resource-pack-1.1.1-mc1.21.10.jar";
+            "hash" = "sha512-1NKpAnUhfHkg6cGkutBg+dklZTMZGqfsLu9j7ostqGuDGdHz9F2wMAnmGh0eN0P6i0WIBgOATxws9/29zRCFnw==";
+        };
+        _Bz3hHXys = {
+            "id" = "Bz3hHXys";
+            "file" = "quick-resource-pack-1.1.1-mc1.21.11.jar";
+            "hash" = "sha512-i5HveqMJj+fl8N18x7RmgnRz66281L+jcOnNQSkoMaisc/g9JdknZqfy/yqh8bTpXbN2JKQL4EmyHCuqg99aVg==";
+        };
     in {
         "ii8QT2i2" = _ii8QT2i2;
         "nxJ6iYaD" = _nxJ6iYaD;
@@ -92,6 +132,14 @@ let
         "SJpeEL23" = _SJpeEL23;
         "mQ8NUjix" = _mQ8NUjix;
         "74lkyy5g" = _74lkyy5g;
+        "dkrgtmap" = _dkrgtmap;
+        "l7okZHeF" = _l7okZHeF;
+        "J4P3p7oD" = _J4P3p7oD;
+        "BY6L2y6V" = _BY6L2y6V;
+        "UZZEyX2J" = _UZZEyX2J;
+        "7zfqSBH2" = _7zfqSBH2;
+        "XabTrjFF" = _XabTrjFF;
+        "Bz3hHXys" = _Bz3hHXys;
         "fabric-1.21" = _ii8QT2i2;
         "fabric-1.21.1" = _nxJ6iYaD;
         "fabric-1.21.2" = _uEwFA9jI;
@@ -101,12 +149,14 @@ let
         "fabric-1.21.6" = _eXBgZ7tQ;
         "fabric-1.21.7" = _Ox4cknG1;
         "fabric-1.21.8" = _RB5mgfVa;
-        "fabric-1.21.9" = _5i3zRz9o;
-        "fabric-1.21.10" = _5jN1Boax;
-        "fabric-1.21.11" = _gSxMsvRQ;
-        "fabric-26.1" = _SJpeEL23;
-        "fabric-26.1.1" = _mQ8NUjix;
-        "fabric-26.1.2" = _74lkyy5g;
+        "fabric-1.21.9" = _7zfqSBH2;
+        "fabric-1.21.10" = _XabTrjFF;
+        "fabric-1.21.11" = _Bz3hHXys;
+        "fabric-26.1" = _dkrgtmap;
+        "fabric-26.1.1" = _l7okZHeF;
+        "fabric-26.1.2" = _J4P3p7oD;
+        "fabric-26.2" = _BY6L2y6V;
+        "fabric-26.3" = _UZZEyX2J;
         "pkg-1.0.0" = _ii8QT2i2;
         "pkg-1.1.0-mc1.21.1" = _nxJ6iYaD;
         "pkg-1.1.0-mc1.21.2" = _uEwFA9jI;
@@ -122,7 +172,15 @@ let
         "pkg-1.1.0-mc26.1" = _SJpeEL23;
         "pkg-1.1.0-mc26.1.1" = _mQ8NUjix;
         "pkg-1.1.0-mc26.1.2" = _74lkyy5g;
-        "default" = _74lkyy5g;
+        "pkg-1.1.1-mc26.1" = _dkrgtmap;
+        "pkg-1.1.1-mc26.1.1" = _l7okZHeF;
+        "pkg-1.1.1-mc26.1.2" = _J4P3p7oD;
+        "pkg-1.2.0-mc26.2" = _BY6L2y6V;
+        "pkg-1.2.0-mc26.3" = _UZZEyX2J;
+        "pkg-1.1.1-mc1.21.9" = _7zfqSBH2;
+        "pkg-1.1.1-mc1.21.10" = _XabTrjFF;
+        "pkg-1.1.1-mc1.21.11" = _Bz3hHXys;
+        "default" = _Bz3hHXys;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "quick-resource-pack";

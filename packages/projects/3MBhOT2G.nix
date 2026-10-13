@@ -26,26 +26,46 @@ let
             "file" = "glow_trims-1.0.jar";
             "hash" = "sha512-OU8HgwoDxuWm36AuiLR91IazqEcZApj0Rj4bnn5VvKZkt7slUnewYMNL/q8onCI18PzpvCmxXG+cHmRSPemPfw==";
         };
+        _gJoBKau1 = {
+            "id" = "gJoBKau1";
+            "file" = "glow_trims-1.1+26.3.jar";
+            "hash" = "sha512-gz7VDCJiSQe8g+/KeWelelme4jv/8a+pQOYtdAaj1tBN2uI2nu9a+hQPHsKVztdXN2dTa0tU6E80RJ5NRXA6Jg==";
+        };
+        _YyaD8OiI = {
+            "id" = "YyaD8OiI";
+            "file" = "glow_trims-1.1+26.1.2.jar";
+            "hash" = "sha512-vt9Tg2N0xTb4N7QZ3ZB613BmmG5dFZPhdid6yRBGdHOm7cMrx2l4RYDllarDnrdKvI6EqweZlYu65V0wXkeLcw==";
+        };
+        _fm9Temky = {
+            "id" = "fm9Temky";
+            "file" = "glow_trims-1.1+1.21.11.jar";
+            "hash" = "sha512-yId9Oowrys1MPMoVsO2qkIMDxKx3+yf4j0WjMZy47mPcpij8nmQJQFxrU/XvSwpyOoT9qynZn0MSXjPRV7i9Eg==";
+        };
     in {
         "3nvc6Q0C" = _3nvc6Q0C;
         "kV1EZGG1" = _kV1EZGG1;
         "3UT9Lhc7" = _3UT9Lhc7;
         "i9P7dLCU" = _i9P7dLCU;
         "Ml6uEkew" = _Ml6uEkew;
+        "gJoBKau1" = _gJoBKau1;
+        "YyaD8OiI" = _YyaD8OiI;
+        "fm9Temky" = _fm9Temky;
         "fabric-1.21.6" = _3nvc6Q0C;
         "fabric-1.21.7" = _3nvc6Q0C;
         "fabric-1.21.8" = _3nvc6Q0C;
         "fabric-1.21.1" = _kV1EZGG1;
         "fabric-1.21.9" = _3UT9Lhc7;
         "fabric-1.21.10" = _3UT9Lhc7;
-        "fabric-1.21.11" = _3UT9Lhc7;
+        "fabric-1.21.11" = _fm9Temky;
         "fabric-26.1" = _i9P7dLCU;
         "fabric-26.1.1" = _i9P7dLCU;
-        "fabric-26.1.2" = _i9P7dLCU;
-        "fabric-26.2" = _i9P7dLCU;
+        "fabric-26.1.2" = _YyaD8OiI;
+        "fabric-26.2" = _YyaD8OiI;
         "fabric-26.3-pre-2" = _Ml6uEkew;
+        "fabric-26.3" = _gJoBKau1;
         "pkg-1.0" = _Ml6uEkew;
-        "default" = _Ml6uEkew;
+        "pkg-1.1" = _fm9Temky;
+        "default" = _fm9Temky;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "glow-trims";

@@ -401,6 +401,16 @@ let
             "file" = "Cobbreeding-neoforge-2.4.0.jar";
             "hash" = "sha512-5g7e0rH3nm3YMM4hz1UpH8SL09TlFF2yr27dk/EaZrmXh5s+V0LQ+FqK6RIQSmGN4sksiSNlp0yMMWdNdf/MEw==";
         };
+        _QEX1BKMf = {
+            "id" = "QEX1BKMf";
+            "file" = "Cobbreeding-fabric-2.4.1.jar";
+            "hash" = "sha512-XB0ZLYLWG0cjNiWkeAYAyB632AcQO/QJVOotVfyk4ecdnUUWjSyx5V/pbQy5K29dcCv8cJBwKQe8UUEtweTkaA==";
+        };
+        _jzxflH2c = {
+            "id" = "jzxflH2c";
+            "file" = "Cobbreeding-neoforge-2.4.1.jar";
+            "hash" = "sha512-HJhtfXzjMb2aHUo/Sx2mzujkIOKUGJxK2HajiIT0IpsqPdizpKcumHP6UKwZgPYCVdeJNuFcC7gz0xd6Qxt0nA==";
+        };
     in {
         "Od4wqjWo" = _Od4wqjWo;
         "W3EQO03r" = _W3EQO03r;
@@ -482,10 +492,12 @@ let
         "60jPCA3i" = _60jPCA3i;
         "r68eGAJ9" = _r68eGAJ9;
         "swwaPKY0" = _swwaPKY0;
+        "QEX1BKMf" = _QEX1BKMf;
+        "jzxflH2c" = _jzxflH2c;
         "fabric-1.20.1" = _8urJiCDL;
-        "fabric-1.21.1" = _r68eGAJ9;
+        "fabric-1.21.1" = _QEX1BKMf;
         "forge-1.20.1" = _L7IKCpcg;
-        "neoforge-1.21.1" = _swwaPKY0;
+        "neoforge-1.21.1" = _jzxflH2c;
         "pkg-1.4.0" = _Od4wqjWo;
         "pkg-1.4.1" = _W3EQO03r;
         "pkg-1.4.2" = _BsPO3qqG;
@@ -530,7 +542,8 @@ let
         "pkg-2.3.0" = _su1QucoO;
         "pkg-2.3.1" = _60jPCA3i;
         "pkg-2.4.0" = _swwaPKY0;
-        "default" = _swwaPKY0;
+        "pkg-2.4.1" = _jzxflH2c;
+        "default" = _jzxflH2c;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobbreeding";

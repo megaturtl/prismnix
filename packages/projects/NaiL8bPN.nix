@@ -46,6 +46,56 @@ let
             "file" = "gravestonecurioscompat-1.20.1-Forge-4.0.2.jar";
             "hash" = "sha512-/Dt2fcwYfy6dmOjL6UNNL1axm184zGuhqVg/Zmn0q2LNcjQbyXe8r4WLn7iJMZG29awzxsie614UVNukkr2bVw==";
         };
+        _aKPBH468 = {
+            "id" = "aKPBH468";
+            "file" = "gravestonecurioscompat-1.20.1-Forge-4.1.0.jar";
+            "hash" = "sha512-A0Waa0vW30Mcegg25zojrzLYCcC/7aP/ZifCJYMDiyQHhc/nkSJM+Pe4V1X7LgKdny2sR0KghELCDT9BTanKIA==";
+        };
+        _vv4Mj7RX = {
+            "id" = "vv4Mj7RX";
+            "file" = "gravestonecurioscompat-1.21.1-NeoForge-4.1.0.jar";
+            "hash" = "sha512-f4uDt6bL3+Fgz1huexZPnhYUdNhcyfzQrMqGX7TteDW0u9KPX2MiDE3s6KaUc8frkEs+d9qvKUerR1mt9gsggg==";
+        };
+        _V9kmARa8 = {
+            "id" = "V9kmARa8";
+            "file" = "gravestonecurioscompat-26.1-NeoForge-4.1.0.jar";
+            "hash" = "sha512-7aczGsPlsHElSXC2pbnMZGZ9neXHaV7+miGuJdpPtS280/TVwssZl7naTnkjr9E/CI/IjSR1G8sdVawW68dxUg==";
+        };
+        _wFqvjVAd = {
+            "id" = "wFqvjVAd";
+            "file" = "gravestonecurioscompat-26.2-NeoForge-4.1.0.jar";
+            "hash" = "sha512-7aczGsPlsHElSXC2pbnMZGZ9neXHaV7+miGuJdpPtS280/TVwssZl7naTnkjr9E/CI/IjSR1G8sdVawW68dxUg==";
+        };
+        _QxRXiMK3 = {
+            "id" = "QxRXiMK3";
+            "file" = "gravestonecurioscompat-26.3-NeoForge-4.1.0.jar";
+            "hash" = "sha512-5OwjDs44TREK8Xz13GLefCIUGaxwh3K9tDH/4ECumLCPpTKpDEX11UhgouKhf9LWhlcd97NeBTc4yqiLt7rMQA==";
+        };
+        _1Nm0sdjN = {
+            "id" = "1Nm0sdjN";
+            "file" = "gravestonecurioscompat-1.20.1-Forge-4.2.0.jar";
+            "hash" = "sha512-cC/m7HlRIfKfkCgTM+ktDj/0TrO+8Z2jLmVvGq5YTmuFCgZs4ZJR3WChMJjOwlymxx0Hq5fT1Htha+clx9cwgA==";
+        };
+        _2FPRud0G = {
+            "id" = "2FPRud0G";
+            "file" = "gravestonecurioscompat-1.21.1-NeoForge-4.2.0.jar";
+            "hash" = "sha512-6BEQtpLNhHkDclrTSt9WI9RwJWh1d3W3NnEqnYjW+Jemm8p7y3rS0DjlKKJthQrE9QcmPqmQTjK1EADCCyqOnQ==";
+        };
+        _RRSmNr5K = {
+            "id" = "RRSmNr5K";
+            "file" = "gravestonecurioscompat-26.1-NeoForge-4.2.0.jar";
+            "hash" = "sha512-hpfrMFDb+FJkk2zqeacZDZ0c3ynp4USbda5tlys5N5sjsGOsqS3L+/eA2XxUcH9Ls/kYS3qb91mFbdDdJ1iDFQ==";
+        };
+        _LLR1WlCV = {
+            "id" = "LLR1WlCV";
+            "file" = "gravestonecurioscompat-26.2-NeoForge-4.2.0.jar";
+            "hash" = "sha512-hpfrMFDb+FJkk2zqeacZDZ0c3ynp4USbda5tlys5N5sjsGOsqS3L+/eA2XxUcH9Ls/kYS3qb91mFbdDdJ1iDFQ==";
+        };
+        _hgmzpXzc = {
+            "id" = "hgmzpXzc";
+            "file" = "gravestonecurioscompat-26.3-NeoForge-4.2.0.jar";
+            "hash" = "sha512-lfya8nA4R/4lmIGMmbEwO4inGSwtvF5sMRJgFAEa02Br6MTyBjlOya58Y5mRs8ZSHIvWlkyd9589Bi+Vzh0SGQ==";
+        };
     in {
         "fzueSdVq" = _fzueSdVq;
         "N61k6P9K" = _N61k6P9K;
@@ -56,6 +106,16 @@ let
         "mFFqniRY" = _mFFqniRY;
         "IzcFMOKn" = _IzcFMOKn;
         "hP20517C" = _hP20517C;
+        "aKPBH468" = _aKPBH468;
+        "vv4Mj7RX" = _vv4Mj7RX;
+        "V9kmARa8" = _V9kmARa8;
+        "wFqvjVAd" = _wFqvjVAd;
+        "QxRXiMK3" = _QxRXiMK3;
+        "1Nm0sdjN" = _1Nm0sdjN;
+        "2FPRud0G" = _2FPRud0G;
+        "RRSmNr5K" = _RRSmNr5K;
+        "LLR1WlCV" = _LLR1WlCV;
+        "hgmzpXzc" = _hgmzpXzc;
         "forge-1.18.1" = _fzueSdVq;
         "forge-1.18.2" = _fzueSdVq;
         "forge-1.19" = _fzueSdVq;
@@ -64,19 +124,23 @@ let
         "forge-1.19.3" = _fzueSdVq;
         "forge-1.19.4" = _fzueSdVq;
         "forge-1.20" = _fzueSdVq;
-        "forge-1.20.1" = _hP20517C;
+        "forge-1.20.1" = _1Nm0sdjN;
         "forge-1.20.2" = _jkxbFNyf;
         "forge-1.20.3" = _jkxbFNyf;
         "forge-1.20.4" = _jkxbFNyf;
-        "neoforge-1.21.1" = _ugBtElN2;
-        "neoforge-26.1" = _IzcFMOKn;
-        "neoforge-26.1.1" = _IzcFMOKn;
-        "neoforge-26.1.2" = _IzcFMOKn;
+        "neoforge-1.21.1" = _2FPRud0G;
+        "neoforge-26.1" = _RRSmNr5K;
+        "neoforge-26.1.1" = _RRSmNr5K;
+        "neoforge-26.1.2" = _RRSmNr5K;
+        "neoforge-26.2" = _LLR1WlCV;
+        "neoforge-26.3" = _hgmzpXzc;
         "pkg-2.1.0" = _N61k6P9K;
         "pkg-3.0.1" = _HwlTVmVu;
         "pkg-3.0.0" = _jkxbFNyf;
         "pkg-4.0.2" = _hP20517C;
-        "default" = _hP20517C;
+        "pkg-4.1.0" = _QxRXiMK3;
+        "pkg-4.2.0" = _hgmzpXzc;
+        "default" = _hgmzpXzc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gravestone-x-curios-api-compat";

@@ -21,18 +21,25 @@ let
             "file" = "Light-super-hero-mod-2.0.2.jar";
             "hash" = "sha512-w0GRVYOzk04sNFNgoUnoArytf9fhWuESg8V7aZzJfZAt40ALtqSRRIrWsCJ29hsUxaU7WPMGu+OhNXxVuvFPHw==";
         };
+        _YscrhCnQ = {
+            "id" = "YscrhCnQ";
+            "file" = "super-hero-mod-2.0.3.jar";
+            "hash" = "sha512-4P3uwuKBFdfuvSN3Ev3eqegIsR9IW2Yfw6A9AmG4/uvbVzP5MpSBZgl4KsboVfmFxz9TlsWR2yFAukCBvwpVEQ==";
+        };
     in {
         "E3jax9kE" = _E3jax9kE;
         "5QM6alPh" = _5QM6alPh;
         "sV7hWarI" = _sV7hWarI;
         "i1CE6syT" = _i1CE6syT;
+        "YscrhCnQ" = _YscrhCnQ;
         "fabric-1.21.4" = _E3jax9kE;
-        "fabric-26.2" = _i1CE6syT;
+        "fabric-26.2" = _YscrhCnQ;
         "pkg-1.0.0" = _E3jax9kE;
         "pkg-2.0.0" = _5QM6alPh;
         "pkg-2.0.1" = _sV7hWarI;
         "pkg-2.0.2" = _i1CE6syT;
-        "default" = _i1CE6syT;
+        "pkg-2.0.3" = _YscrhCnQ;
+        "default" = _YscrhCnQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "light-super-hero-mod";

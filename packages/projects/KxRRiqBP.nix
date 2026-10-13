@@ -226,6 +226,11 @@ let
             "file" = "not_enought_dlcs - 1.3.1 - neoforge-1.20.6.jar";
             "hash" = "sha512-w1fy79x0Bnda8EkiikhZFHOaW4h1YwZ8nJq5vhwXZ8KkaF7Y0LcV/a1oR89m+EVPA8kqOszHNmpRwm5asYdsBA==";
         };
+        _jpiEJV7g = {
+            "id" = "jpiEJV7g";
+            "file" = "not_enought_dlcs - 1.3.2 - neoforge-1.21.4.jar";
+            "hash" = "sha512-6uRVkrOQ0RF7RjLeE25GonwRIQIUL46sPSyXoougSyxkUtf4EIchal3MB1tj1McL0F8V5XEa22b/Q9/HOB7KUw==";
+        };
     in {
         "yTcQFFy9" = _yTcQFFy9;
         "NqOUgJEI" = _NqOUgJEI;
@@ -272,11 +277,12 @@ let
         "4PiTsHQn" = _4PiTsHQn;
         "d2mBvIs7" = _d2mBvIs7;
         "gTu3N80k" = _gTu3N80k;
+        "jpiEJV7g" = _jpiEJV7g;
         "forge-1.18.2" = _yTcQFFy9;
         "forge-1.19.4" = _NqOUgJEI;
         "forge-1.20.1" = _I44J1GAa;
         "neoforge-1.21.1" = _d2mBvIs7;
-        "neoforge-1.21.4" = _4PiTsHQn;
+        "neoforge-1.21.4" = _jpiEJV7g;
         "neoforge-1.20.6" = _gTu3N80k;
         "pkg-1.0.0" = _yTcQFFy9;
         "pkg-1.0.5" = _NqOUgJEI;
@@ -296,7 +302,8 @@ let
         "pkg-1.3" = _DhC0AgYO;
         "pkg-1.3-PATCH.1" = _I44J1GAa;
         "pkg-1.3.1" = _gTu3N80k;
-        "default" = _gTu3N80k;
+        "pkg-1.3.2" = _jpiEJV7g;
+        "default" = _jpiEJV7g;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "notenoughdlc";

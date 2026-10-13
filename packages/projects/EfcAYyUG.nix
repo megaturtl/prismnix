@@ -116,6 +116,26 @@ let
             "file" = "ly-veinminer-enchantment-1.2.0.jar";
             "hash" = "sha512-2wQqdRel1hq6breru/OuKuFOFW8eHfJqgQtA7tvI4J4w7b0DuciF285CrhQWNsaMes47DByJ/ONRSm9mmZ3f9w==";
         };
+        _eME4S3Ac = {
+            "id" = "eME4S3Ac";
+            "file" = "Veinminer Enchantment v1.2.1 [1.21-1.21.1].zip";
+            "hash" = "sha512-TpNtkBZfOOiBcq3E6gUS+i7dprLqvwqv+5TbExSOsxoED/JcPhRiEPSpG3u2UY/sZaBLmo6I7ifytjXaPnfX5g==";
+        };
+        _zzMzaeLr = {
+            "id" = "zzMzaeLr";
+            "file" = "ly-veinminer-enchantment-1.2.1.jar";
+            "hash" = "sha512-ztSnDCNkU4cGtsRDuogOVyV5rRf3/8xwPbwL2OlGcVWRqwhe1J+FeVgIwOkVqd8mF9+kShiIORkJNLK7vcJLMA==";
+        };
+        _Rw9FLesD = {
+            "id" = "Rw9FLesD";
+            "file" = "Veinminer Enchantment v1.2.1 [26.3].zip";
+            "hash" = "sha512-WjsCOXzaKJDX4RXxrx844pGukndBBGV4V+k6m1lgZdr2e1Xy8hDyA3ia1kQSJxTjULhedmYANzzcqzlSycP4nw==";
+        };
+        _gqevQmnF = {
+            "id" = "gqevQmnF";
+            "file" = "ly-veinminer-enchantment-1.2.1.jar";
+            "hash" = "sha512-YszfqEuc03eBcSIshFrnknwdi9+KIn9+uC+h6nrmyEFNR9uJTnuo8e6EQrZ7Tf2iqWwhJDvkeVch+NrWQewoXg==";
+        };
     in {
         "uQ3ZWofp" = _uQ3ZWofp;
         "amcBrAR0" = _amcBrAR0;
@@ -140,8 +160,12 @@ let
         "O5z7mz1j" = _O5z7mz1j;
         "sqDiS2d7" = _sqDiS2d7;
         "hc0bYiPK" = _hc0bYiPK;
-        "datapack-1.21" = _ehmvkG2Q;
-        "datapack-1.21.1" = _ehmvkG2Q;
+        "eME4S3Ac" = _eME4S3Ac;
+        "zzMzaeLr" = _zzMzaeLr;
+        "Rw9FLesD" = _Rw9FLesD;
+        "gqevQmnF" = _gqevQmnF;
+        "datapack-1.21" = _eME4S3Ac;
+        "datapack-1.21.1" = _eME4S3Ac;
         "datapack-1.21.2" = _5Ckrwu5G;
         "datapack-1.21.3" = _5Ckrwu5G;
         "datapack-1.21.4" = _5Ckrwu5G;
@@ -156,9 +180,9 @@ let
         "datapack-26.1.1" = _QmK29h62;
         "datapack-26.1.2" = _QmK29h62;
         "datapack-26.2" = _QmK29h62;
-        "datapack-26.3" = _sqDiS2d7;
-        "fabric-1.21" = _O5z7mz1j;
-        "fabric-1.21.1" = _O5z7mz1j;
+        "datapack-26.3" = _Rw9FLesD;
+        "fabric-1.21" = _zzMzaeLr;
+        "fabric-1.21.1" = _zzMzaeLr;
         "fabric-1.21.2" = _B5T5Qjh7;
         "fabric-1.21.3" = _B5T5Qjh7;
         "fabric-1.21.4" = _B5T5Qjh7;
@@ -173,9 +197,9 @@ let
         "fabric-26.1.1" = _WIwlbNdm;
         "fabric-26.1.2" = _WIwlbNdm;
         "fabric-26.2" = _WIwlbNdm;
-        "fabric-26.3" = _hc0bYiPK;
-        "forge-1.21" = _O5z7mz1j;
-        "forge-1.21.1" = _O5z7mz1j;
+        "fabric-26.3" = _gqevQmnF;
+        "forge-1.21" = _zzMzaeLr;
+        "forge-1.21.1" = _zzMzaeLr;
         "forge-1.21.2" = _B5T5Qjh7;
         "forge-1.21.3" = _B5T5Qjh7;
         "forge-1.21.4" = _B5T5Qjh7;
@@ -190,9 +214,9 @@ let
         "forge-26.1.1" = _WIwlbNdm;
         "forge-26.1.2" = _WIwlbNdm;
         "forge-26.2" = _WIwlbNdm;
-        "forge-26.3" = _hc0bYiPK;
-        "neoforge-1.21" = _O5z7mz1j;
-        "neoforge-1.21.1" = _O5z7mz1j;
+        "forge-26.3" = _gqevQmnF;
+        "neoforge-1.21" = _zzMzaeLr;
+        "neoforge-1.21.1" = _zzMzaeLr;
         "neoforge-1.21.2" = _B5T5Qjh7;
         "neoforge-1.21.3" = _B5T5Qjh7;
         "neoforge-1.21.4" = _B5T5Qjh7;
@@ -207,9 +231,9 @@ let
         "neoforge-26.1.1" = _WIwlbNdm;
         "neoforge-26.1.2" = _WIwlbNdm;
         "neoforge-26.2" = _WIwlbNdm;
-        "neoforge-26.3" = _hc0bYiPK;
-        "quilt-1.21" = _O5z7mz1j;
-        "quilt-1.21.1" = _O5z7mz1j;
+        "neoforge-26.3" = _gqevQmnF;
+        "quilt-1.21" = _zzMzaeLr;
+        "quilt-1.21.1" = _zzMzaeLr;
         "quilt-1.21.2" = _B5T5Qjh7;
         "quilt-1.21.3" = _B5T5Qjh7;
         "quilt-1.21.4" = _B5T5Qjh7;
@@ -224,7 +248,7 @@ let
         "quilt-26.1.1" = _WIwlbNdm;
         "quilt-26.1.2" = _WIwlbNdm;
         "quilt-26.2" = _WIwlbNdm;
-        "quilt-26.3" = _hc0bYiPK;
+        "quilt-26.3" = _gqevQmnF;
         "pkg-v1.0.0" = _qRvRlUmi;
         "pkg-v1.0.0+mod" = _aJ1LBOgy;
         "pkg-v1.0.1" = _vYyZZOTH;
@@ -239,7 +263,9 @@ let
         "pkg-1.0.4+mod" = _3tyiv6ms;
         "pkg-1.2.0" = _sqDiS2d7;
         "pkg-1.2.0+mod" = _hc0bYiPK;
-        "default" = _hc0bYiPK;
+        "pkg-1.2.1" = _Rw9FLesD;
+        "pkg-1.2.1+mod" = _gqevQmnF;
+        "default" = _gqevQmnF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ly-veinminer-enchantment";

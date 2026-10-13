@@ -106,6 +106,16 @@ let
             "file" = "createkinetic-1.3.0.jar";
             "hash" = "sha512-0bIoNzQ6KzQmxqKo2Zz+TrFmGWl4JzrNGNqUMBWYOQUNI+51Clx/xdgAxFBB4582q+V/4RyOvSSkdjkMDFl4+w==";
         };
+        _nuolqx4r = {
+            "id" = "nuolqx4r";
+            "file" = "createkinetic-1.4.0.jar";
+            "hash" = "sha512-iT9UamQ/4X3Q2EBqBQF8YiHwPvXAjqWGNif3BHCou73UAMIUh+nXL+JaIsGBf9ejr72taccSX83UvrgzP6aFmA==";
+        };
+        _MSfhe45c = {
+            "id" = "MSfhe45c";
+            "file" = "createkinetic-1.4.1.jar";
+            "hash" = "sha512-6ak/kwiZVqQuJP+HN8vK7v9mAzWY4X87JrJFaztPA16U37tdnQXrJnWSW+Vro66CmuZreyy95sZ2UqqJt7I25Q==";
+        };
     in {
         "zDBoCmqG" = _zDBoCmqG;
         "Lm2uLduI" = _Lm2uLduI;
@@ -128,14 +138,16 @@ let
         "slgleNes" = _slgleNes;
         "UTd1kaTY" = _UTd1kaTY;
         "Wc9MKY3T" = _Wc9MKY3T;
+        "nuolqx4r" = _nuolqx4r;
+        "MSfhe45c" = _MSfhe45c;
         "forge-1.20.1" = _F8fP4yEX;
         "forge-1.20.2" = _F8fP4yEX;
         "forge-1.20.3" = _F8fP4yEX;
         "forge-1.20.4" = _F8fP4yEX;
         "forge-1.20.5" = _F8fP4yEX;
         "forge-1.20.6" = _F8fP4yEX;
-        "neoforge-1.21" = _UTd1kaTY;
-        "neoforge-1.21.1" = _Wc9MKY3T;
+        "neoforge-1.21" = _MSfhe45c;
+        "neoforge-1.21.1" = _MSfhe45c;
         "neoforge-1.21.2" = _Wc9MKY3T;
         "neoforge-1.21.3" = _Wc9MKY3T;
         "neoforge-1.21.4" = _Wc9MKY3T;
@@ -167,7 +179,9 @@ let
         "pkg-1.2.7" = _slgleNes;
         "pkg-1.2.7.1" = _UTd1kaTY;
         "pkg-1.3.0" = _Wc9MKY3T;
-        "default" = _Wc9MKY3T;
+        "pkg-1.4.0" = _nuolqx4r;
+        "pkg-1.4.1" = _MSfhe45c;
+        "default" = _MSfhe45c;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-kinetic";

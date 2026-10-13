@@ -291,6 +291,16 @@ let
             "file" = "animal_feeding_trough-1.2.1+26.2.jar";
             "hash" = "sha512-KwPmeYDVvc68sKc24pAoajBkOws+bdzW2WyFC/Nw8m691yH/nkWlvz/BmJn+N0qJoJxIX+79opILiipaEl3kYw==";
         };
+        _BLZ45NBU = {
+            "id" = "BLZ45NBU";
+            "file" = "animal_feeding_trough-1.2.1+26.3-neoforge.jar";
+            "hash" = "sha512-SISBg7oqUjEkrCxd6biigo12q/Wkg7UwGJLljEFFbA6R6IOtIhG3W1YiVwe2UNJ9QmW9gRXB1TpIJ9baBGYJcg==";
+        };
+        _pTYiM3Eb = {
+            "id" = "pTYiM3Eb";
+            "file" = "animal_feeding_trough-1.2.1+26.3.jar";
+            "hash" = "sha512-AiNR+Kt5JTA1LCdh1igwjGSwGERJeIGzfBDpud/WV7lCjKstuh3pRrYczSWBEDek2OGefGGr/D6PhXk91ak1Zg==";
+        };
     in {
         "ck1S6iUB" = _ck1S6iUB;
         "8UTjrpzj" = _8UTjrpzj;
@@ -350,6 +360,8 @@ let
         "HwX7awp8" = _HwX7awp8;
         "Inz4VnfB" = _Inz4VnfB;
         "HIUVmKsY" = _HIUVmKsY;
+        "BLZ45NBU" = _BLZ45NBU;
+        "pTYiM3Eb" = _pTYiM3Eb;
         "fabric-1.16.5" = _8UTjrpzj;
         "fabric-1.17" = _cGPkfn7M;
         "fabric-1.18" = _a6Yd7Tm0;
@@ -374,6 +386,7 @@ let
         "fabric-1.21.11" = _aTRE6QT1;
         "fabric-26.1.2" = _HwX7awp8;
         "fabric-26.2" = _HIUVmKsY;
+        "fabric-26.3" = _pTYiM3Eb;
         "forge-1.19" = _P0a8dsz3;
         "forge-1.19.2" = _haCeiyHz;
         "forge-1.19.3" = _5GrOmusu;
@@ -399,6 +412,7 @@ let
         "neoforge-1.21.11" = _TLNU4xDL;
         "neoforge-26.1.2" = _CNejDxr9;
         "neoforge-26.2" = _Inz4VnfB;
+        "neoforge-26.3" = _BLZ45NBU;
         "pkg-1.0.0" = _ck1S6iUB;
         "pkg-1.0.1" = _8UTjrpzj;
         "pkg-1.0.2" = _cGPkfn7M;
@@ -457,7 +471,9 @@ let
         "pkg-1.2.1+26.1.2" = _HwX7awp8;
         "pkg-1.2.1+26.2-neoforge" = _Inz4VnfB;
         "pkg-1.2.1+26.2" = _HIUVmKsY;
-        "default" = _HIUVmKsY;
+        "pkg-1.2.1+26.3-neoforge" = _BLZ45NBU;
+        "pkg-1.2.1+26.3" = _pTYiM3Eb;
+        "default" = _pTYiM3Eb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "animal_feeding_trough";

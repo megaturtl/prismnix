@@ -51,6 +51,16 @@ let
             "file" = "fractured-26.1-r1.0-fabric.jar";
             "hash" = "sha512-oUKa+ojIIBXcW1mGoUGGkAY7n5OM5wbsrZy5x5LxXJ7Y6Cp9L0X6PpS0QLtk7lYJbS0t6IdGb/0AOXHg+B7MlQ==";
         };
+        _XusGY3WU = {
+            "id" = "XusGY3WU";
+            "file" = "fractured-26.1-r1.1-neoforge.jar";
+            "hash" = "sha512-lw/9XSotHiC3W7xQcHMnK+xpvDcJmP+oOxrlmOlMq9k3bKBFdnctKef/FCUYvMOchfcTaYTSfv9fKqiV8WFDMA==";
+        };
+        _5BsTVPap = {
+            "id" = "5BsTVPap";
+            "file" = "fractured-26.1-r1.1-fabric.jar";
+            "hash" = "sha512-bhXscmLli27CoHWS9zgI3iQX58neK00Oo3OZCPVrYb03Tt7c6SQdIM75MyQ8B1VgH2lmpWi/5+hLwXhEFVuNiQ==";
+        };
     in {
         "wCSVOOok" = _wCSVOOok;
         "2JSCc6NC" = _2JSCc6NC;
@@ -62,6 +72,8 @@ let
         "gMiFOBKY" = _gMiFOBKY;
         "8MUsumsM" = _8MUsumsM;
         "5bhGWEJc" = _5bhGWEJc;
+        "XusGY3WU" = _XusGY3WU;
+        "5BsTVPap" = _5BsTVPap;
         "fabric-1.21" = _wCSVOOok;
         "fabric-1.21.1" = _wCSVOOok;
         "fabric-1.21.4" = _kR27m94m;
@@ -72,12 +84,12 @@ let
         "fabric-1.21.9" = _kR27m94m;
         "fabric-1.21.10" = _kR27m94m;
         "fabric-1.21.11" = _gMiFOBKY;
-        "fabric-26.1" = _5bhGWEJc;
-        "fabric-26.1.1" = _5bhGWEJc;
-        "fabric-26.1.2" = _5bhGWEJc;
-        "neoforge-26.1" = _8MUsumsM;
-        "neoforge-26.1.1" = _8MUsumsM;
-        "neoforge-26.1.2" = _8MUsumsM;
+        "fabric-26.1" = _5BsTVPap;
+        "fabric-26.1.1" = _5BsTVPap;
+        "fabric-26.1.2" = _5BsTVPap;
+        "neoforge-26.1" = _XusGY3WU;
+        "neoforge-26.1.1" = _XusGY3WU;
+        "neoforge-26.1.2" = _XusGY3WU;
         "pkg-1.21.1-v1.0.0" = _wCSVOOok;
         "pkg-1.21.4-v1.0.0" = _2JSCc6NC;
         "pkg-1.21.5-v1.1.0" = _BVtVj0NA;
@@ -88,7 +100,9 @@ let
         "pkg-1.21.11-v1.2.2" = _gMiFOBKY;
         "pkg-26.1-r1.0-neoforge" = _8MUsumsM;
         "pkg-26.1-r1.0-fabric" = _5bhGWEJc;
-        "default" = _5bhGWEJc;
+        "pkg-26.1-r1.1-neoforge" = _XusGY3WU;
+        "pkg-26.1-r1.1-fabric" = _5BsTVPap;
+        "default" = _5BsTVPap;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fractured";

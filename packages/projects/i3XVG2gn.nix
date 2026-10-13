@@ -156,6 +156,16 @@ let
             "file" = "cobbleworkers-neoforge-2.0.5+1.8.0.jar";
             "hash" = "sha512-222dmZdWRJhIYuM3MWKbMC9VWUI8BRQwOe5PTeZqt664s8bKDUt0arYVvclSE6blyTHMvhTk42d6KvaADf5/8Q==";
         };
+        _BcVKyzkk = {
+            "id" = "BcVKyzkk";
+            "file" = "cobbleworkers-fabric-2.0.6+1.8.2.jar";
+            "hash" = "sha512-3KMKEJahHPxOKNhH3iycRUtkejaBbNuO9+EXsHd5Y5MUfGYfvWLBnHBuu7GgwdZ39r8NqjGKvSa7Kpow1B1FDQ==";
+        };
+        _9eiwbAuy = {
+            "id" = "9eiwbAuy";
+            "file" = "cobbleworkers-neoforge-2.0.6+1.8.2.jar";
+            "hash" = "sha512-FhM1FmqmzCD1Ac3qyvuqDvOVZjIQNqgakkIOX+K0KnIwnkonXCQBCsPzJ+FrhLVBIvfvr/0bwOxVgHQEtu72tg==";
+        };
     in {
         "sO6AY00J" = _sO6AY00J;
         "g0NwdjUb" = _g0NwdjUb;
@@ -188,8 +198,10 @@ let
         "tjHzDTL4" = _tjHzDTL4;
         "llwrszjl" = _llwrszjl;
         "XMnis0fw" = _XMnis0fw;
-        "fabric-1.21.1" = _llwrszjl;
-        "neoforge-1.21.1" = _XMnis0fw;
+        "BcVKyzkk" = _BcVKyzkk;
+        "9eiwbAuy" = _9eiwbAuy;
+        "fabric-1.21.1" = _BcVKyzkk;
+        "neoforge-1.21.1" = _9eiwbAuy;
         "pkg-1.0.0" = _sO6AY00J;
         "pkg-1.1.0+1.6.1" = _U4jBNxtZ;
         "pkg-1.2.0+1.6.1" = _DEuh8nzI;
@@ -206,7 +218,8 @@ let
         "pkg-2.0.4+1.7.0" = _bbTUCGY1;
         "pkg-2.0.5+1.7.0" = _tjHzDTL4;
         "pkg-2.0.5+1.8.0" = _XMnis0fw;
-        "default" = _XMnis0fw;
+        "pkg-2.0.6+1.8.2" = _9eiwbAuy;
+        "default" = _9eiwbAuy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobbleworkers";

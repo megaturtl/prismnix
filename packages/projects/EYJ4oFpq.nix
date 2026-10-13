@@ -311,6 +311,16 @@ let
             "file" = "aero_reformation-1.3.3.3.jar";
             "hash" = "sha512-syLVPqQE5LmEmQW5FCBSYpGF2hbfKGHcOb8hJvASa1b9W1tRSmX6bW12W2c2cJyffYrTvxKdJ6GaH3wq2nXMmg==";
         };
+        _GOsjyS9Y = {
+            "id" = "GOsjyS9Y";
+            "file" = "aero_reformation-1.3.3.4.jar";
+            "hash" = "sha512-mJ5nsz3ehe9oGkz3yWDKYMmAKnlpfx6xCUSZO7fofpcTpnWKfefzxC28ndYD7B24zrpVcDP/jrz8v9sD6GRPeQ==";
+        };
+        _t8yMRfXt = {
+            "id" = "t8yMRfXt";
+            "file" = "aero_reformation-1.3.3.5.jar";
+            "hash" = "sha512-vGM3Dxy23SynVz2of5hRPHfkfc2fbD2v3HrUcBEYlNiMX+E6shTIZrQbqZNg9x2yyvsAxMmugZ9Up6WTj3a/rw==";
+        };
     in {
         "raCLHxAX" = _raCLHxAX;
         "BtThebm3" = _BtThebm3;
@@ -374,7 +384,9 @@ let
         "A7c3ISnz" = _A7c3ISnz;
         "njAf0wMr" = _njAf0wMr;
         "BmqYYhNf" = _BmqYYhNf;
-        "neoforge-1.21.1" = _BmqYYhNf;
+        "GOsjyS9Y" = _GOsjyS9Y;
+        "t8yMRfXt" = _t8yMRfXt;
+        "neoforge-1.21.1" = _t8yMRfXt;
         "pkg-1.0.0" = _raCLHxAX;
         "pkg-1.0.1" = _BtThebm3;
         "pkg-1.1.0" = _hMvKAIRy;
@@ -437,7 +449,9 @@ let
         "pkg-1.3.3.1" = _A7c3ISnz;
         "pkg-1.3.3.2" = _njAf0wMr;
         "pkg-1.3.3.3" = _BmqYYhNf;
-        "default" = _BmqYYhNf;
+        "pkg-1.3.3.4" = _GOsjyS9Y;
+        "pkg-1.3.3.5" = _t8yMRfXt;
+        "default" = _t8yMRfXt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "aero-reformation";

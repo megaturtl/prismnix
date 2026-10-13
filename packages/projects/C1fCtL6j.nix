@@ -31,6 +31,11 @@ let
             "file" = "coloraddition-1.1.0+1.8.1.jar";
             "hash" = "sha512-ETWvP3DfZJsqJwG62e+8yQLC6Jo++4q3NmUEuU2lRFYGaM1oXdpBPjtTYuMOjcYLtkBDVK3a86HGZhMoYd36Kg==";
         };
+        _vOe3MWnH = {
+            "id" = "vOe3MWnH";
+            "file" = "coloraddition-1.1.0+1.8.2.jar";
+            "hash" = "sha512-mT05ncMgeroCSm8zRdNqkZ2cwgVZ1pkJtATNNILdb/qoyLnLB+2T2gLn1fy5mSnLW2qGHEtcP+A+4S/RfMk9Dg==";
+        };
     in {
         "k1UukIjI" = _k1UukIjI;
         "SdSPMpHU" = _SdSPMpHU;
@@ -38,15 +43,17 @@ let
         "scGKdzcf" = _scGKdzcf;
         "mQ6askJq" = _mQ6askJq;
         "CefpMb5G" = _CefpMb5G;
+        "vOe3MWnH" = _vOe3MWnH;
         "fabric-1.20.1" = _HqneeGhY;
-        "fabric-1.21.1" = _CefpMb5G;
+        "fabric-1.21.1" = _vOe3MWnH;
         "pkg-1.0.0+1.5.2" = _k1UukIjI;
         "pkg-1.0.0+1.7.3" = _SdSPMpHU;
         "pkg-1.1.0+1.5.2" = _HqneeGhY;
         "pkg-1.1.0+1.7.3" = _scGKdzcf;
         "pkg-1.1.0+1.8.0" = _mQ6askJq;
         "pkg-1.1.0+1.8.1" = _CefpMb5G;
-        "default" = _CefpMb5G;
+        "pkg-1.1.0+1.8.2" = _vOe3MWnH;
+        "default" = _vOe3MWnH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-color-addition";

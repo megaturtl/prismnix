@@ -71,6 +71,16 @@ let
             "file" = "stickykeys-26.2-fabric-2.2.8.jar";
             "hash" = "sha512-IX+kGz9poTtTyIbdpz2AjAOe+qjg6JTIoilNRq3IZUV4trh821/gsij1Ga7vrjsacs4l9iCAjbWMk1PvjzwLzg==";
         };
+        _ZIzcnyrL = {
+            "id" = "ZIzcnyrL";
+            "file" = "stickykeys-26.3-neoforge-2.2.8.jar";
+            "hash" = "sha512-2fN+5uVe1mg5Pz6bg3RaUf/Co0mBKYKy4ithpOMmijkjtZKYrKZNXpmrQTSA2igu1NaElKtWYhr9Yzz2OSgSwA==";
+        };
+        _b05bNaOL = {
+            "id" = "b05bNaOL";
+            "file" = "stickykeys-26.3-fabric-2.2.8.jar";
+            "hash" = "sha512-EGMPN7dXyOjNby+tAKnQQi0hFLMvMCLZB6VFPmjgV/BAYOYTqTj4XDy0zyX1myJzw4CDN5PHtWVS+QhwZP3RvA==";
+        };
     in {
         "o4hRtCDz" = _o4hRtCDz;
         "Fi1pftGO" = _Fi1pftGO;
@@ -86,6 +96,8 @@ let
         "Py2ytLxE" = _Py2ytLxE;
         "JS3NDZD0" = _JS3NDZD0;
         "E1Nasmad" = _E1Nasmad;
+        "ZIzcnyrL" = _ZIzcnyrL;
+        "b05bNaOL" = _b05bNaOL;
         "fabric-1.20" = _6zSENc9b;
         "fabric-1.20.1" = _6zSENc9b;
         "fabric-1.21" = _ZthOQihf;
@@ -99,6 +111,7 @@ let
         "fabric-26.1.1" = _8hH6NQGj;
         "fabric-26.1.2" = _8hH6NQGj;
         "fabric-26.2" = _E1Nasmad;
+        "fabric-26.3" = _b05bNaOL;
         "forge-1.20" = _4H5ico8P;
         "forge-1.20.1" = _4H5ico8P;
         "neoforge-1.21" = _jQlUQy4q;
@@ -112,9 +125,10 @@ let
         "neoforge-26.1.1" = _Py2ytLxE;
         "neoforge-26.1.2" = _Py2ytLxE;
         "neoforge-26.2" = _JS3NDZD0;
+        "neoforge-26.3" = _ZIzcnyrL;
         "pkg-2.2.7" = _ZthOQihf;
-        "pkg-2.2.8" = _E1Nasmad;
-        "default" = _E1Nasmad;
+        "pkg-2.2.8" = _b05bNaOL;
+        "default" = _b05bNaOL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stickykeys";

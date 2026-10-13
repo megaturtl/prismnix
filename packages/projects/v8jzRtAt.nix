@@ -851,6 +851,11 @@ let
             "file" = "[26.3] SecurityCraft v1.10.2.1-beta3.jar";
             "hash" = "sha512-BjwiVWwLutfXD17d1Ja+ZdCC506hWcbYe/ximFvGGcncrpiDLuxtnUFM6bDARQtYvVNaALgdmkv1lSf/PlAcTg==";
         };
+        _mgxwefx4 = {
+            "id" = "mgxwefx4";
+            "file" = "[26.3] SecurityCraft v1.10.2.1-beta4.jar";
+            "hash" = "sha512-CZKEQo0lt5sUZPW03Ln23k6YvpOZg/Scaj2KStX0EHmqgAgDUECFKFrLiQ2vKJuxGf4mIeopDN2AiLq/wIMEMg==";
+        };
     in {
         "ZaYy7Fc0" = _ZaYy7Fc0;
         "m5J5jt6a" = _m5J5jt6a;
@@ -1022,6 +1027,7 @@ let
         "BdaBsR3K" = _BdaBsR3K;
         "mTIx1bBw" = _mTIx1bBw;
         "PNY5hHwi" = _PNY5hHwi;
+        "mgxwefx4" = _mgxwefx4;
         "forge-1.6.4" = _ZaYy7Fc0;
         "forge-1.7.10" = _m5J5jt6a;
         "forge-1.8.8" = _f8hQiXN9;
@@ -1062,7 +1068,7 @@ let
         "neoforge-26.1.1" = _6Z5tYPfd;
         "neoforge-26.1.2" = _QCOvaaCR;
         "neoforge-26.2" = _kCkFPvNl;
-        "neoforge-26.3" = _PNY5hHwi;
+        "neoforge-26.3" = _mgxwefx4;
         "pkg-v1.4.1" = _ZaYy7Fc0;
         "pkg-v1.8.13" = _XjkLcnqK;
         "pkg-v1.8.12.1" = _boPaYSZh;
@@ -1127,7 +1133,8 @@ let
         "pkg-v1.10.2.1-beta1" = _BdaBsR3K;
         "pkg-v1.10.2.1-beta2" = _mTIx1bBw;
         "pkg-v1.10.2.1-beta3" = _PNY5hHwi;
-        "default" = _PNY5hHwi;
+        "pkg-v1.10.2.1-beta4" = _mgxwefx4;
+        "default" = _mgxwefx4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "security-craft";

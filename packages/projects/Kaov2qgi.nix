@@ -946,6 +946,31 @@ let
             "file" = "easy-villagers-neoforge-1.1.46+26.3.jar";
             "hash" = "sha512-vWWu24UAxSMGIcIlZpHNqKq4o1RqSNK8eXW9P/LCRUv29Jwpbp7+8fHB9QmBfUvNHk1Leee/ehpSFd9N1M7/WA==";
         };
+        _bUu8g3RW = {
+            "id" = "bUu8g3RW";
+            "file" = "easy-villagers-neoforge-1.21.1-1.1.47.jar";
+            "hash" = "sha512-OAyondGwmg5EmKTxA1y/Aphq147Xo+JNIpiTXnYbCsxrDFgydGhMO7+8lmRu5m8O/tM7y1jF60oeuP9wj0GS5Q==";
+        };
+        _1JAGXThQ = {
+            "id" = "1JAGXThQ";
+            "file" = "easy-villagers-neoforge-1.21.11-1.1.47.jar";
+            "hash" = "sha512-AJMnbktZTRkibFzom9mkoQMlgvXTuTc/JYjjTp3KD+2uB0hQiCmAYBM89PymoypM9/wh9uZyvHIbApDBRvF2JA==";
+        };
+        _TeB6839y = {
+            "id" = "TeB6839y";
+            "file" = "easy-villagers-neoforge-1.1.47+26.1.2.jar";
+            "hash" = "sha512-wxIz/Kxmd22rk9vEX7veDO0LvGyfsLvDfGcMhyo/uLK5XF1RkUaTVQ0x3g37mFbNsXPl51svlhbUhPSRRkNleQ==";
+        };
+        _QHUgv4Xq = {
+            "id" = "QHUgv4Xq";
+            "file" = "easy-villagers-neoforge-1.1.47+26.2.jar";
+            "hash" = "sha512-2FfC71k/bo6SM4M06wNGBlatUnTO9RcGULuskcEHhg7rXd9Qf4evwK6RYovxe1RgEgrHG71Cb1y3cGbMoKVFfA==";
+        };
+        _kIsKgwep = {
+            "id" = "kIsKgwep";
+            "file" = "easy-villagers-neoforge-1.1.47+26.3.jar";
+            "hash" = "sha512-BmKYe2SwFQdVIjeUu5ryhb1hVA6/DteymVOstcKpKMkyFtwWpyRDXPOcyZ15lIPYXWpn3vjA5I0ZTuNJTgq0SQ==";
+        };
     in {
         "hA2qKnx1" = _hA2qKnx1;
         "42xPmBfj" = _42xPmBfj;
@@ -1136,6 +1161,11 @@ let
         "12KDYITB" = _12KDYITB;
         "fMsh4AwD" = _fMsh4AwD;
         "z6bWvdEp" = _z6bWvdEp;
+        "bUu8g3RW" = _bUu8g3RW;
+        "1JAGXThQ" = _1JAGXThQ;
+        "TeB6839y" = _TeB6839y;
+        "QHUgv4Xq" = _QHUgv4Xq;
+        "kIsKgwep" = _kIsKgwep;
         "forge-1.19" = _SXzO9Mmg;
         "forge-1.19.1" = _dZDyMjTA;
         "forge-1.19.2" = _fT2nOKrM;
@@ -1152,8 +1182,8 @@ let
         "neoforge-1.20.4" = _jePQtbr7;
         "neoforge-1.20.5" = _2LHgibPV;
         "neoforge-1.20.6" = _3JrwuBO3;
-        "neoforge-1.21" = _vkY28WLb;
-        "neoforge-1.21.1" = _vkY28WLb;
+        "neoforge-1.21" = _bUu8g3RW;
+        "neoforge-1.21.1" = _bUu8g3RW;
         "neoforge-1.21.2" = _vuIbxmoP;
         "neoforge-1.21.3" = _OTY2QwLk;
         "neoforge-1.21.4" = _wWHLayOq;
@@ -1163,12 +1193,12 @@ let
         "neoforge-1.21.8" = _8Dnal4CE;
         "neoforge-1.21.9" = _TbT0votX;
         "neoforge-1.21.10" = _afWgr33h;
-        "neoforge-1.21.11" = _pxDkg5KD;
-        "neoforge-26.1" = _RzgQQGL2;
-        "neoforge-26.1.1" = _RzgQQGL2;
-        "neoforge-26.1.2" = _RzgQQGL2;
-        "neoforge-26.2" = _12KDYITB;
-        "neoforge-26.3" = _z6bWvdEp;
+        "neoforge-1.21.11" = _1JAGXThQ;
+        "neoforge-26.1" = _TeB6839y;
+        "neoforge-26.1.1" = _TeB6839y;
+        "neoforge-26.1.2" = _TeB6839y;
+        "neoforge-26.2" = _QHUgv4Xq;
+        "neoforge-26.3" = _kIsKgwep;
         "pkg-forge-1.19-1.0.2" = _hA2qKnx1;
         "pkg-forge-1.19-1.0.3" = _42xPmBfj;
         "pkg-forge-1.19-1.0.4" = _z3Px6TJQ;
@@ -1358,7 +1388,12 @@ let
         "pkg-neoforge-1.1.45+26.2" = _12KDYITB;
         "pkg-neoforge-1.1.45+26.3" = _fMsh4AwD;
         "pkg-neoforge-1.1.46+26.3" = _z6bWvdEp;
-        "default" = _z6bWvdEp;
+        "pkg-neoforge-1.21.1-1.1.47" = _bUu8g3RW;
+        "pkg-neoforge-1.21.11-1.1.47" = _1JAGXThQ;
+        "pkg-neoforge-1.1.47+26.1.2" = _TeB6839y;
+        "pkg-neoforge-1.1.47+26.2" = _QHUgv4Xq;
+        "pkg-neoforge-1.1.47+26.3" = _kIsKgwep;
+        "default" = _kIsKgwep;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "easy-villagers";

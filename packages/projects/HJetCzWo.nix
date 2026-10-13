@@ -431,6 +431,16 @@ let
             "file" = "letsdo-farm_and_charm-fabric-1.1.27.jar";
             "hash" = "sha512-Wxj08BhIHw6kg3X8p8eWNkNmVHKLvJSQ20tZgrvj/cj80hwFtG1WWC5md4TKtN7vWZ8cHpNCoxZt6IisU0u+ew==";
         };
+        _E3yHRV69 = {
+            "id" = "E3yHRV69";
+            "file" = "letsdo-farm_and_charm-neoforge-1.1.28.jar";
+            "hash" = "sha512-v6hubDfta0YJ/90plieQ3TR13r1IQI2qKt2DJLRjFSe2NDbRBGb2Wl9qoau75z0pin+gRuMon8k/heXntBVBxg==";
+        };
+        _XzoBpKXj = {
+            "id" = "XzoBpKXj";
+            "file" = "letsdo-farm_and_charm-fabric-1.1.28.jar";
+            "hash" = "sha512-WMT4geGD4qefJWbxUgN7u5SgtI2UGmLWNLx/xZPCq0gFK/FGIq6ld6wr9GRa6+YJHhEkol5qdzYlzgpJy1hmcA==";
+        };
     in {
         "YJWbrSX6" = _YJWbrSX6;
         "KmcoZzbt" = _KmcoZzbt;
@@ -518,11 +528,13 @@ let
         "isj5qmqa" = _isj5qmqa;
         "lAc3mEva" = _lAc3mEva;
         "Jka2rwSN" = _Jka2rwSN;
+        "E3yHRV69" = _E3yHRV69;
+        "XzoBpKXj" = _XzoBpKXj;
         "forge-1.20.1" = _9fzY3YV6;
         "neoforge-1.20.1" = _UyTJY7PU;
-        "neoforge-1.21.1" = _lAc3mEva;
+        "neoforge-1.21.1" = _E3yHRV69;
         "fabric-1.20.1" = _sMjnKy5B;
-        "fabric-1.21.1" = _Jka2rwSN;
+        "fabric-1.21.1" = _XzoBpKXj;
         "fabric-1.21" = _cp7OIssP;
         "quilt-1.20.1" = _kLXg747l;
         "pkg-1.0.0" = _KmcoZzbt;
@@ -568,7 +580,8 @@ let
         "pkg-1.1.25" = _ceFZ7Fex;
         "pkg-1.1.26" = _isj5qmqa;
         "pkg-1.1.27" = _Jka2rwSN;
-        "default" = _Jka2rwSN;
+        "pkg-1.1.28" = _XzoBpKXj;
+        "default" = _XzoBpKXj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lets-do-farm-charm";

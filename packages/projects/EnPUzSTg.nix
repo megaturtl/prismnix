@@ -14246,6 +14246,11 @@ let
             "file" = "XaeroPlus-2.36.6+neoforge-1.21.10-WM1.47.0-MM26.6.0.jar";
             "hash" = "sha512-AzewtGhxP+JsdgsQM54Zeq/Vlm1WZGuxLoKVqTZJrI9STo/DQR1KvTB9nv4c+BbJ5ZwBVQwOE5DvnS4/aWtozA==";
         };
+        _2dCXYTPP = {
+            "id" = "2dCXYTPP";
+            "file" = "XaeroPlus-2.36.7+neoforge-26.3-WM1.47.0-MM26.6.0.jar";
+            "hash" = "sha512-KMc1af5geeZHVhaD9gHHSZqglHrg49xf3umPEONIJqFHqACJ211FKeHU3/A5Pc378Rdt40N694qBZ2OUZ19WFQ==";
+        };
     in {
         "AVDEUIE3" = _AVDEUIE3;
         "TNlTjTzu" = _TNlTjTzu;
@@ -17096,6 +17101,7 @@ let
         "HPmyTruf" = _HPmyTruf;
         "rRrYQIh9" = _rRrYQIh9;
         "iDaFXaJe" = _iDaFXaJe;
+        "2dCXYTPP" = _2dCXYTPP;
         "forge-1.12.2" = _v2fUhgIf;
         "forge-1.20.1" = _aXDkQve9;
         "forge-1.20.2" = _ngSAXfyJ;
@@ -17188,7 +17194,7 @@ let
         "neoforge-1.21.11" = _ZiYbCjEw;
         "neoforge-26.1.2" = _NNUHBD2m;
         "neoforge-26.2" = _YQOHfbl9;
-        "neoforge-26.3" = _TxKkOgXb;
+        "neoforge-26.3" = _2dCXYTPP;
         "pkg-99" = _AVDEUIE3;
         "pkg-xaeroplus-105-WM1.30.3-MM23.4.4" = _TNlTjTzu;
         "pkg-xaeroplus-106-WM1.30.3-MM23.4.4" = _hUEiqfx3;
@@ -19853,7 +19859,8 @@ let
         "pkg-2.36.6+fabric-1.21.10" = _HPmyTruf;
         "pkg-2.36.6+forge-1.21.10" = _rRrYQIh9;
         "pkg-2.36.6+neoforge-1.21.10" = _iDaFXaJe;
-        "default" = _iDaFXaJe;
+        "pkg-2.36.7+neoforge-26.3" = _2dCXYTPP;
+        "default" = _2dCXYTPP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "xaeroplus";

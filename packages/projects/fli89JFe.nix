@@ -41,6 +41,16 @@ let
             "file" = "more-compostable-items-1.4.2.jar";
             "hash" = "sha512-RY4IULOUGbRxvAZrTI4XCxPUYzCdfMn7pDXmNY2lsf1+Wt4JQePPXZ9z1Ligwu65TFnXWAa8zpp0BpruhOuYXQ==";
         };
+        _yAmy1tRb = {
+            "id" = "yAmy1tRb";
+            "file" = "more_compostable_items_v2.0.zip";
+            "hash" = "sha512-j8BENfDm2MMzXm384MXq2ynrU9csmgpfnUtrLX8A5tU4eIPWV61vUTutQPX/0sNpujYbdjDGNcWt2/Moh0tCgA==";
+        };
+        _qWD09fWA = {
+            "id" = "qWD09fWA";
+            "file" = "more-compostable-items-2.0.jar";
+            "hash" = "sha512-dNMiwGyT/CqT74f3xsX1YETX1zoIzkzsM3YsfyScOQj1JRNqW+/GJMhiK/mHSvlCFCKG2Y/olmBY9BPiUBQEnw==";
+        };
     in {
         "tkE72oj5" = _tkE72oj5;
         "Ndtg6Qq3" = _Ndtg6Qq3;
@@ -50,6 +60,8 @@ let
         "KkQmxszM" = _KkQmxszM;
         "xlqifKvL" = _xlqifKvL;
         "lRNjRhMe" = _lRNjRhMe;
+        "yAmy1tRb" = _yAmy1tRb;
+        "qWD09fWA" = _qWD09fWA;
         "datapack-1.21" = _tkE72oj5;
         "datapack-1.21.1" = _tkE72oj5;
         "datapack-1.21.2" = _tkE72oj5;
@@ -66,7 +78,7 @@ let
         "datapack-26.1.1" = _t7Cjjf4l;
         "datapack-26.1.2" = _t7Cjjf4l;
         "datapack-26.2" = _t7Cjjf4l;
-        "datapack-26.3" = _xlqifKvL;
+        "datapack-26.3" = _yAmy1tRb;
         "fabric-1.21" = _Ndtg6Qq3;
         "fabric-1.21.1" = _Ndtg6Qq3;
         "fabric-1.21.2" = _Ndtg6Qq3;
@@ -83,7 +95,7 @@ let
         "fabric-26.1.1" = _KkQmxszM;
         "fabric-26.1.2" = _KkQmxszM;
         "fabric-26.2" = _KkQmxszM;
-        "fabric-26.3" = _lRNjRhMe;
+        "fabric-26.3" = _qWD09fWA;
         "forge-1.21" = _Ndtg6Qq3;
         "forge-1.21.1" = _Ndtg6Qq3;
         "forge-1.21.2" = _Ndtg6Qq3;
@@ -100,7 +112,7 @@ let
         "forge-26.1.1" = _KkQmxszM;
         "forge-26.1.2" = _KkQmxszM;
         "forge-26.2" = _KkQmxszM;
-        "forge-26.3" = _lRNjRhMe;
+        "forge-26.3" = _qWD09fWA;
         "neoforge-1.21" = _Ndtg6Qq3;
         "neoforge-1.21.1" = _Ndtg6Qq3;
         "neoforge-1.21.2" = _Ndtg6Qq3;
@@ -117,7 +129,7 @@ let
         "neoforge-26.1.1" = _KkQmxszM;
         "neoforge-26.1.2" = _KkQmxszM;
         "neoforge-26.2" = _KkQmxszM;
-        "neoforge-26.3" = _lRNjRhMe;
+        "neoforge-26.3" = _qWD09fWA;
         "quilt-1.21" = _Ndtg6Qq3;
         "quilt-1.21.1" = _Ndtg6Qq3;
         "quilt-1.21.2" = _Ndtg6Qq3;
@@ -134,7 +146,7 @@ let
         "quilt-26.1.1" = _KkQmxszM;
         "quilt-26.1.2" = _KkQmxszM;
         "quilt-26.2" = _KkQmxszM;
-        "quilt-26.3" = _lRNjRhMe;
+        "quilt-26.3" = _qWD09fWA;
         "pkg-1.3.3" = _tkE72oj5;
         "pkg-1.3.3+mod" = _Ndtg6Qq3;
         "pkg-1.4.0" = _VmYTTPlq;
@@ -143,7 +155,9 @@ let
         "pkg-1.4.1+mod" = _KkQmxszM;
         "pkg-1.4.2" = _xlqifKvL;
         "pkg-1.4.2+mod" = _lRNjRhMe;
-        "default" = _lRNjRhMe;
+        "pkg-2.0" = _yAmy1tRb;
+        "pkg-2.0+mod" = _qWD09fWA;
+        "default" = _qWD09fWA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-compostable-items";

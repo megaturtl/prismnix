@@ -31,6 +31,11 @@ let
             "file" = "improved-f3-2.0.0+26.2.jar";
             "hash" = "sha512-5SdQwV7L56xk9a/n8jvZB+9e/EjTLhK0NlOwQw9My1T1JfCiAQWAORrkTOjJzUd5HQEYZujaTyomLlSXf1vnQQ==";
         };
+        _zosKw2B3 = {
+            "id" = "zosKw2B3";
+            "file" = "improved-f3-2.0.1+26.3.jar";
+            "hash" = "sha512-HK3k/UsbqfkbGiICQnAuGPOMsgRDZ5Q/HUGP7tSlUkiwS86vIOBHlON89PlLR6CyDFBZ9Z1DREVptdDfuuoo2A==";
+        };
     in {
         "2uEbx3hE" = _2uEbx3hE;
         "WFZlqOlU" = _WFZlqOlU;
@@ -38,6 +43,7 @@ let
         "chX053i3" = _chX053i3;
         "D9EhYzp2" = _D9EhYzp2;
         "T1WzusIG" = _T1WzusIG;
+        "zosKw2B3" = _zosKw2B3;
         "fabric-1.21.6" = _pTXQzwzy;
         "fabric-1.21.7" = _pTXQzwzy;
         "fabric-1.21.8" = _pTXQzwzy;
@@ -45,12 +51,14 @@ let
         "fabric-1.21.10" = _chX053i3;
         "fabric-26.1.2" = _D9EhYzp2;
         "fabric-26.2" = _T1WzusIG;
+        "fabric-26.3" = _zosKw2B3;
         "pkg-0.1.0" = _2uEbx3hE;
         "pkg-0.1.1" = _WFZlqOlU;
         "pkg-0.1.2" = _chX053i3;
         "pkg-2.0.0+26.1.2" = _D9EhYzp2;
         "pkg-2.0.0+26.2" = _T1WzusIG;
-        "default" = _T1WzusIG;
+        "pkg-2.0.1+26.3" = _zosKw2B3;
+        "default" = _zosKw2B3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "improvedf3";

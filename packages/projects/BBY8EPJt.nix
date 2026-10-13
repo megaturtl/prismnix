@@ -176,6 +176,61 @@ let
             "file" = "ManyIdeasCore-26.3-3.1.0.jar";
             "hash" = "sha512-HozP7jImWdbljd97fyt4okD5IWL5InQN1Z0R61VO3uDME06kjS5pHqN0O9blKY6G8u2I/NoilrPXSNckJznndg==";
         };
+        _QWgrGRcw = {
+            "id" = "QWgrGRcw";
+            "file" = "ManyIdeasCore-1.18.2-1.4.2.jar";
+            "hash" = "sha512-hQP8kmkISUZPhKnjjRbToJKZeaBIZpLt1nr45h6gl/k0G5E80X102GdBtvkxH6nnpjbVROzQ/O0nsti8HP8PRQ==";
+        };
+        _acs6EyiT = {
+            "id" = "acs6EyiT";
+            "file" = "ManyIdeasCore-1.19.2-1.4.2.jar";
+            "hash" = "sha512-9yjTmBmVhnpJQ/rOfCfa9ueP9BOZdYDXo3fkeKMJ/mX3ot4HpRa7fS0kqel6KsQpf+Xp0W6lKRaD21T54XFP1Q==";
+        };
+        _qYBsNHt6 = {
+            "id" = "qYBsNHt6";
+            "file" = "ManyIdeasCore-1.19.3-1.4.1.jar";
+            "hash" = "sha512-53boEhbemcgVxuAv+cVUalAxP4NLhR/3bnTuxMFomc9EBWEdwzCcZUdtF7y51BLwzqv/06XJR/cowQ5MWbXIvA==";
+        };
+        _bmnLS0km = {
+            "id" = "bmnLS0km";
+            "file" = "ManyIdeasCore-1.19.4-1.6.1.jar";
+            "hash" = "sha512-Gvtm/sQ/qA2HUwQFH67/f1khHCESkO0hiH84DopCI2WkJNbpeo7mdiDbd/BYGKZSd9XrKfmtZrW7WMk8tmcspw==";
+        };
+        _omRa9tpi = {
+            "id" = "omRa9tpi";
+            "file" = "ManyIdeasCore-1.20-1.4.3.jar";
+            "hash" = "sha512-mxNyUV7IcGdaflMk4uQw4Zm2gIgaWvg/zgPxVu40A1SO40/MFhhK6zonqSVV38FgH16XJj/rYr17UHodfMN8Eg==";
+        };
+        _5qWlx8c7 = {
+            "id" = "5qWlx8c7";
+            "file" = "ManyIdeasCore-1.20.1-1.6.1.jar";
+            "hash" = "sha512-fuhTnRMbb8HacDHYfopZGBe136UGeVKNZfDEyc9AIO1L9bAC792Q2ojPhWGnBII8d3zt92ZZouc4FoqgG1xrdQ==";
+        };
+        _opUvMiNI = {
+            "id" = "opUvMiNI";
+            "file" = "ManyIdeasCore-1.20.2-1.4.4.jar";
+            "hash" = "sha512-7UDS8roolNSyKJvazS5a+dgFwsxcEzThbfVsxb9iCsyK0iIY2eMIQ0+lpyIy4kZ5F2gCyUMFyXB0UkQqfOVAUA==";
+        };
+        _hazArMq6 = {
+            "id" = "hazArMq6";
+            "file" = "ManyIdeasCore-1.20.4-1.6.1.jar";
+            "hash" = "sha512-/+yXwpAWxrUiMz7gbHbyWW/s/Z0lZxRuTaPL1Qz/OKP4mgkidLCI1RtJKlvWMrBWgKXkSR+LOtcEY50Q0NG+VA==";
+        };
+        _1UBhzQnJ = {
+            "id" = "1UBhzQnJ";
+            "file" = "ManyIdeasCore-1.20.6-2.0.1.jar";
+            "hash" = "sha512-RF0whS2h2mkRusFbalxFBcTx2QtCVsCVcjDh5TAlvKVOkbpF29vrJT/21Njg4SWxqYMDUOeYXByOWOckI5T2ZA==";
+        };
+        _1bsQpL7S = {
+            "id" = "1bsQpL7S";
+            "file" = "ManyIdeasCore-1.21-2.0.1.jar";
+            "hash" = "sha512-pxj6uis+lQDsJf2a0jNtCtCUratPYz4Qj72RPo5cpEvM69a3nsZhLW6+TYhYH7TroX5STfob6pAIQMAFhnQOWw==";
+        };
+        _JOKN7iup = {
+            "id" = "JOKN7iup";
+            "file" = "ManyIdeasCore-1.21.1-2.0.1.jar";
+            "hash" = "sha512-jj/wHH6b7DbcU+cZux8H87m76T2mJoPHZhy2XreY0yC+ONHgow61dN33u4t33hrn9pEPZ0mX4J6eowSOKMtH6A==";
+        };
     in {
         "gIRzQQ2i" = _gIRzQQ2i;
         "Cndo91Em" = _Cndo91Em;
@@ -212,16 +267,29 @@ let
         "fTf9HXBd" = _fTf9HXBd;
         "pe9SWJtW" = _pe9SWJtW;
         "C6Ekuo4s" = _C6Ekuo4s;
+        "QWgrGRcw" = _QWgrGRcw;
+        "acs6EyiT" = _acs6EyiT;
+        "qYBsNHt6" = _qYBsNHt6;
+        "bmnLS0km" = _bmnLS0km;
+        "omRa9tpi" = _omRa9tpi;
+        "5qWlx8c7" = _5qWlx8c7;
+        "opUvMiNI" = _opUvMiNI;
+        "hazArMq6" = _hazArMq6;
+        "1UBhzQnJ" = _1UBhzQnJ;
+        "1bsQpL7S" = _1bsQpL7S;
+        "JOKN7iup" = _JOKN7iup;
         "forge-1.17.1" = _gIRzQQ2i;
-        "forge-1.18.2" = _Cndo91Em;
-        "forge-1.19.4" = _6RSrPQzo;
-        "forge-1.20" = _yVPZ13KK;
-        "forge-1.20.1" = _s3MUGvrm;
-        "forge-1.20.2" = _78FxOH0k;
-        "forge-1.20.4" = _AibWfEfA;
-        "forge-1.20.6" = _2S1ceUll;
-        "forge-1.21" = _vWJW6jkr;
-        "forge-1.21.1" = _YFAWXqZO;
+        "forge-1.18.2" = _QWgrGRcw;
+        "forge-1.19.4" = _bmnLS0km;
+        "forge-1.20" = _omRa9tpi;
+        "forge-1.20.1" = _5qWlx8c7;
+        "forge-1.20.2" = _opUvMiNI;
+        "forge-1.20.4" = _hazArMq6;
+        "forge-1.20.6" = _1UBhzQnJ;
+        "forge-1.21" = _1bsQpL7S;
+        "forge-1.21.1" = _JOKN7iup;
+        "forge-1.19.2" = _acs6EyiT;
+        "forge-1.19.3" = _qYBsNHt6;
         "neoforge-1.21.1" = _ZTTVaXD7;
         "neoforge-1.21.2" = _mzGfDscD;
         "neoforge-1.21.3" = _mzGfDscD;
@@ -273,7 +341,18 @@ let
         "pkg-1.21.11-3.1.0" = _fTf9HXBd;
         "pkg-26.1-3.1.0" = _pe9SWJtW;
         "pkg-26.3-3.1.0" = _C6Ekuo4s;
-        "default" = _C6Ekuo4s;
+        "pkg-1.18.2-1.4.2" = _QWgrGRcw;
+        "pkg-1.19.2-1.4.2" = _acs6EyiT;
+        "pkg-1.19.3-1.4.1" = _qYBsNHt6;
+        "pkg-1.19.4-1.6.1" = _bmnLS0km;
+        "pkg-1.20-1.4.3" = _omRa9tpi;
+        "pkg-1.20.1-1.6.1" = _5qWlx8c7;
+        "pkg-1.20.2-1.4.4" = _opUvMiNI;
+        "pkg-1.20.4-1.6.1" = _hazArMq6;
+        "pkg-1.20.6-2.0.1" = _1UBhzQnJ;
+        "pkg-1.21-2.0.1" = _1bsQpL7S;
+        "pkg-1.21.1-2.0.1" = _JOKN7iup;
+        "default" = _JOKN7iup;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "manyideas-core";

@@ -206,6 +206,16 @@ let
             "file" = "promenade-neoforge-6.0.0.jar";
             "hash" = "sha512-7JGGTB40iiaVvE1A1DGuTnJ5Ul1iu5O75HpHq+/BaDGx0kEAz3MfJGuQrdqD/wa5DWq6sp48iR9izodEfUaa8g==";
         };
+        _y3EFEpye = {
+            "id" = "y3EFEpye";
+            "file" = "promenade-fabric-6.0.1.jar";
+            "hash" = "sha512-sh8udcwHGnMVRi13JhFjrPKpTy0n4ZTPgUxsvTF4TAyB7CgEWZDqwOngKVBYMCoZAyhPUneu6Zf/Ndrq1A7nWA==";
+        };
+        _giEoCx7h = {
+            "id" = "giEoCx7h";
+            "file" = "promenade-neoforge-6.0.1.jar";
+            "hash" = "sha512-PwlDnKW1py836DAeBCZywBkQTZbcbnljW7ZCDaUN2dmETfm9I+kO3KuNdlcGVjH3wyDrTjGvKjdufig+9A1ahg==";
+        };
     in {
         "FW8Jsy6b" = _FW8Jsy6b;
         "AnQZPALY" = _AnQZPALY;
@@ -248,6 +258,8 @@ let
         "ldF03LkA" = _ldF03LkA;
         "clicF1M5" = _clicF1M5;
         "Sk8JeW02" = _Sk8JeW02;
+        "y3EFEpye" = _y3EFEpye;
+        "giEoCx7h" = _giEoCx7h;
         "fabric-1.16.2" = _J3w72Yuv;
         "fabric-1.16.3" = _J3w72Yuv;
         "fabric-1.16.4" = _J3w72Yuv;
@@ -277,6 +289,7 @@ let
         "fabric-26.1.2" = _828FQBS6;
         "fabric-26.2" = _ldF03LkA;
         "fabric-26.3" = _clicF1M5;
+        "fabric-1.21.1" = _y3EFEpye;
         "quilt-1.19.3" = _obpRw4SX;
         "quilt-1.19.4" = _yzCPompk;
         "quilt-1.20" = _A5YD9uS3;
@@ -295,7 +308,9 @@ let
         "quilt-26.1.2" = _828FQBS6;
         "quilt-26.2" = _ldF03LkA;
         "quilt-26.3" = _clicF1M5;
+        "quilt-1.21.1" = _y3EFEpye;
         "neoforge-26.3" = _Sk8JeW02;
+        "neoforge-1.21.1" = _giEoCx7h;
         "pkg-v1.3.1" = _FW8Jsy6b;
         "pkg-1.3.2" = _AnQZPALY;
         "pkg-1.3.3" = _WP8At0cA;
@@ -337,7 +352,9 @@ let
         "pkg-5.6.0" = _ldF03LkA;
         "pkg-6.0.0+fabric" = _clicF1M5;
         "pkg-6.0.0+neoforge" = _Sk8JeW02;
-        "default" = _Sk8JeW02;
+        "pkg-6.0.1+fabric" = _y3EFEpye;
+        "pkg-6.0.1+neoforge" = _giEoCx7h;
+        "default" = _giEoCx7h;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "promenade";

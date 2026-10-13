@@ -71,6 +71,26 @@ let
             "file" = "hammer-enchantment-1.2.0.jar";
             "hash" = "sha512-P5Hy1d5O+x3FuZNbDf/qK02YQOuSEUHs2zrSujcbK2+r0MSjGCFbdcj+KlfW8p6cLrbcBkwGgeEf/27qxb8DJA==";
         };
+        _1ePrF42q = {
+            "id" = "1ePrF42q";
+            "file" = "Hammer Enchantment v1.2.2 [1.21-1.21.1].zip";
+            "hash" = "sha512-KG5V2Pj4eMH5dhThB1YsUirqG/YEw/wiTiJYWb0/YYRuvT1AQHEWp/XBl2POynLLZIPadtV+YmUMJ0tlcqtHQQ==";
+        };
+        _aaLr5uo0 = {
+            "id" = "aaLr5uo0";
+            "file" = "hammer-enchantment-1.2.2.jar";
+            "hash" = "sha512-vRisGYdrCxf0gZ3FwsIspuywLmjzFX+eBtwXAVPy0zGisrCd7yd/ujauWTI6DHSmuNmvggjAEz02LcJc6T2XZg==";
+        };
+        _5vALttFr = {
+            "id" = "5vALttFr";
+            "file" = "Hammer Enchantment v1.2.2 [26.3].zip";
+            "hash" = "sha512-T6juj8UFsJwAceKcLjZ49tB0Pc2M7pR8L46b3PXvXE3/v0+ZW5AfVyzO3deq1uSWTHn80hWqbYj/bEbFD29ueg==";
+        };
+        _ik1mb1eZ = {
+            "id" = "ik1mb1eZ";
+            "file" = "hammer-enchantment-1.2.2.jar";
+            "hash" = "sha512-GviHsTJw6APBdBaKWsUIIDi0WQI47Cv9dyOAJJY6sMHvg7R7eWF7+P/sDTSUspyJoC2AEKk6z6+/TdIoWWWnJg==";
+        };
     in {
         "wJC8IC1k" = _wJC8IC1k;
         "Vdxb22yA" = _Vdxb22yA;
@@ -86,8 +106,12 @@ let
         "K3V6Yop8" = _K3V6Yop8;
         "qY0KhId2" = _qY0KhId2;
         "vO9SHDRe" = _vO9SHDRe;
-        "datapack-1.21" = _tnTOA4tu;
-        "datapack-1.21.1" = _tnTOA4tu;
+        "1ePrF42q" = _1ePrF42q;
+        "aaLr5uo0" = _aaLr5uo0;
+        "5vALttFr" = _5vALttFr;
+        "ik1mb1eZ" = _ik1mb1eZ;
+        "datapack-1.21" = _1ePrF42q;
+        "datapack-1.21.1" = _1ePrF42q;
         "datapack-1.21.2" = _E1ZnO0gl;
         "datapack-1.21.3" = _E1ZnO0gl;
         "datapack-1.21.4" = _E1ZnO0gl;
@@ -102,9 +126,9 @@ let
         "datapack-26.1.1" = _QxJvCCMB;
         "datapack-26.1.2" = _QxJvCCMB;
         "datapack-26.2" = _QxJvCCMB;
-        "datapack-26.3" = _qY0KhId2;
-        "fabric-1.21" = _K3V6Yop8;
-        "fabric-1.21.1" = _K3V6Yop8;
+        "datapack-26.3" = _5vALttFr;
+        "fabric-1.21" = _aaLr5uo0;
+        "fabric-1.21.1" = _aaLr5uo0;
         "fabric-1.21.2" = _szamSdt1;
         "fabric-1.21.3" = _szamSdt1;
         "fabric-1.21.4" = _szamSdt1;
@@ -119,9 +143,9 @@ let
         "fabric-26.1.1" = _G4p4TewR;
         "fabric-26.1.2" = _G4p4TewR;
         "fabric-26.2" = _G4p4TewR;
-        "fabric-26.3" = _vO9SHDRe;
-        "forge-1.21" = _K3V6Yop8;
-        "forge-1.21.1" = _K3V6Yop8;
+        "fabric-26.3" = _ik1mb1eZ;
+        "forge-1.21" = _aaLr5uo0;
+        "forge-1.21.1" = _aaLr5uo0;
         "forge-1.21.2" = _szamSdt1;
         "forge-1.21.3" = _szamSdt1;
         "forge-1.21.4" = _szamSdt1;
@@ -136,9 +160,9 @@ let
         "forge-26.1.1" = _G4p4TewR;
         "forge-26.1.2" = _G4p4TewR;
         "forge-26.2" = _G4p4TewR;
-        "forge-26.3" = _vO9SHDRe;
-        "neoforge-1.21" = _K3V6Yop8;
-        "neoforge-1.21.1" = _K3V6Yop8;
+        "forge-26.3" = _ik1mb1eZ;
+        "neoforge-1.21" = _aaLr5uo0;
+        "neoforge-1.21.1" = _aaLr5uo0;
         "neoforge-1.21.2" = _szamSdt1;
         "neoforge-1.21.3" = _szamSdt1;
         "neoforge-1.21.4" = _szamSdt1;
@@ -153,9 +177,9 @@ let
         "neoforge-26.1.1" = _G4p4TewR;
         "neoforge-26.1.2" = _G4p4TewR;
         "neoforge-26.2" = _G4p4TewR;
-        "neoforge-26.3" = _vO9SHDRe;
-        "quilt-1.21" = _K3V6Yop8;
-        "quilt-1.21.1" = _K3V6Yop8;
+        "neoforge-26.3" = _ik1mb1eZ;
+        "quilt-1.21" = _aaLr5uo0;
+        "quilt-1.21.1" = _aaLr5uo0;
         "quilt-1.21.2" = _szamSdt1;
         "quilt-1.21.3" = _szamSdt1;
         "quilt-1.21.4" = _szamSdt1;
@@ -170,14 +194,16 @@ let
         "quilt-26.1.1" = _G4p4TewR;
         "quilt-26.1.2" = _G4p4TewR;
         "quilt-26.2" = _G4p4TewR;
-        "quilt-26.3" = _vO9SHDRe;
+        "quilt-26.3" = _ik1mb1eZ;
         "pkg-1.0.0" = _ppufbbVh;
         "pkg-1.0.0+mod" = _FGLBcyCT;
         "pkg-1.1.0" = _MYw2xOAX;
         "pkg-1.1.0+mod" = _t6JofO9r;
         "pkg-1.2.0" = _qY0KhId2;
         "pkg-1.2.0+mod" = _vO9SHDRe;
-        "default" = _vO9SHDRe;
+        "pkg-1.2.2" = _5vALttFr;
+        "pkg-1.2.2+mod" = _ik1mb1eZ;
+        "default" = _ik1mb1eZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hammer-enchantment";

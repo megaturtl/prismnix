@@ -181,6 +181,11 @@ let
             "file" = "tool-switcher-3.2.4.jar";
             "hash" = "sha512-C/QojHYH6kuzAFAV4cRP9vyw1SakqOZ0ZIdAgCRmqFanSqPKAOMH+pbzoGtf8h2wWUTcyj7DC1PnlDnF4i9TGw==";
         };
+        _SeRVX8hb = {
+            "id" = "SeRVX8hb";
+            "file" = "tool-switcher-3.2.5.jar";
+            "hash" = "sha512-T2eB7teIDH9nlC2v9JynTj3iMv7z9em5KZcX+hgVUPAWAHyB6cPxpY/cHXPBTdV1UNREP6kevaAPSnHcrU6+fg==";
+        };
     in {
         "juIhM4iY" = _juIhM4iY;
         "BkVWUet6" = _BkVWUet6;
@@ -218,6 +223,7 @@ let
         "N9NQIBqI" = _N9NQIBqI;
         "BsiXF8um" = _BsiXF8um;
         "qte95D2p" = _qte95D2p;
+        "SeRVX8hb" = _SeRVX8hb;
         "fabric-1.21" = _osc2odbC;
         "fabric-1.21.1" = _osc2odbC;
         "fabric-1.21.2" = _DYvTpdc2;
@@ -247,7 +253,7 @@ let
         "fabric-26.3-rc-1" = _Tg8iz5jS;
         "fabric-26.3-rc-2" = _Tg8iz5jS;
         "fabric-26.3-rc-3" = _Tg8iz5jS;
-        "fabric-26.3" = _qte95D2p;
+        "fabric-26.3" = _SeRVX8hb;
         "pkg-1.0.0" = _juIhM4iY;
         "pkg-1.0.1" = _BkVWUet6;
         "pkg-1.0.2" = _UFAk38iV;
@@ -284,7 +290,8 @@ let
         "pkg-3.2.2" = _N9NQIBqI;
         "pkg-3.2.3" = _BsiXF8um;
         "pkg-3.2.4" = _qte95D2p;
-        "default" = _qte95D2p;
+        "pkg-3.2.5" = _SeRVX8hb;
+        "default" = _SeRVX8hb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tool-switcher";

@@ -586,6 +586,56 @@ let
             "file" = "chatting-3.2.2+26.3.jar";
             "hash" = "sha512-EcTUuhwWQTPycV0maABDT5KT4C1XLAUAYZcoVSb2vg01IPaTHrGfIe+bpIQ22LvBdGLxjN2HSQiSmq69VLZrUA==";
         };
+        _uXuuvvYq = {
+            "id" = "uXuuvvYq";
+            "file" = "chatting-3.2.3+1.8.9.jar";
+            "hash" = "sha512-zZ4aYHEV+/Ldby4WhHOpsJBMzQeIlgJLGmL3mD7uIpb/0kJXIrSh0SkRy/l0oIIoKr/n30s2nCZbnhF/kI0XwQ==";
+        };
+        _l3Ehse7D = {
+            "id" = "l3Ehse7D";
+            "file" = "chatting-3.2.3+1.21.1.jar";
+            "hash" = "sha512-ceryBddmiKZrLlsCMscgmMC84m9J2P1K5RYtL2xfeWD6M9YZuKmIm+lN73ZqL4FVmM3evmbMqz4uXebrmXOvxw==";
+        };
+        _DAXSlqhJ = {
+            "id" = "DAXSlqhJ";
+            "file" = "chatting-3.2.3+1.21.4.jar";
+            "hash" = "sha512-Z7B3/n4E7dzqB/Aotr8MBlHFsaXAJez4JBwAEA5Uz3PSH0gVtNG7wr8+aPc7u4DSSEFeJX5Hm6pbZYe6HjSDIw==";
+        };
+        _aadKEI9j = {
+            "id" = "aadKEI9j";
+            "file" = "chatting-3.2.3+1.21.5.jar";
+            "hash" = "sha512-t1Baove3+pM6AJOSUq4d2IDc9/FPGmn6qZP85aFgVY6UPZsMtPjKu6pqADCzmEntOCU7MO6DE+FhrNOOgo3dxA==";
+        };
+        _fJg1Ljls = {
+            "id" = "fJg1Ljls";
+            "file" = "chatting-3.2.3+1.21.8.jar";
+            "hash" = "sha512-3Bo1gggA2u/GxgCteBqF5WosCQaT2Rup7BG7UPxJihi8cHFLKKTNH6INy+LUEwxUXgbbKqsoF1z7lyINiViwVw==";
+        };
+        _qjYXts3d = {
+            "id" = "qjYXts3d";
+            "file" = "chatting-3.2.3+1.21.10.jar";
+            "hash" = "sha512-UjoYMJTvt76HfsWkkiCIyar2YkwNFZtd86vY+dwX0PwbyXUJRYPhTGZxeKWpOUWHrhP4b3KDGfyeuycy9eKavQ==";
+        };
+        _DKGIalbe = {
+            "id" = "DKGIalbe";
+            "file" = "chatting-3.2.3+1.21.11.jar";
+            "hash" = "sha512-Ll5PUNLKMrcH9Ezxg2ZZw6HhCqNPeXj4VfbCtr2O3JjbxFMSv0fTinGJNeYfYg9hkgtoQDsl4cUvqSQ2pmvDMQ==";
+        };
+        _7GwnLMMa = {
+            "id" = "7GwnLMMa";
+            "file" = "chatting-3.2.3+26.1.jar";
+            "hash" = "sha512-ieNOlWqj9Hw4u3v2Fdc7BQ7mRyrF9yORGy311GiYj3zMso26lazjDyGMwYFSYLp1TbqtN5UvrRwF+UvOjBfnvg==";
+        };
+        _OMqUxcsb = {
+            "id" = "OMqUxcsb";
+            "file" = "chatting-3.2.3+26.2.jar";
+            "hash" = "sha512-3R+MG0RERLNQtHau9VRG1QpuvitWwANnQPU9RzJECPYQ9LQBEpGPQODN2zeLCjVaFe+g66nzqkVaIQbEXXzWqw==";
+        };
+        _U0oRB3GS = {
+            "id" = "U0oRB3GS";
+            "file" = "chatting-3.2.3+26.3.jar";
+            "hash" = "sha512-qjGr/8/0sNzWVbjzRGmezu66c74wa2+o/3FkZ4frgRwmEUwtTTHbi5fg4iACABOjcH+FvUgbEmO7STyH3GmOgw==";
+        };
     in {
         "GQANlg7p" = _GQANlg7p;
         "ZV8EECKb" = _ZV8EECKb;
@@ -704,19 +754,29 @@ let
         "PQDJyTZn" = _PQDJyTZn;
         "OgYV2xUV" = _OgYV2xUV;
         "EZFxNfQO" = _EZFxNfQO;
+        "uXuuvvYq" = _uXuuvvYq;
+        "l3Ehse7D" = _l3Ehse7D;
+        "DAXSlqhJ" = _DAXSlqhJ;
+        "aadKEI9j" = _aadKEI9j;
+        "fJg1Ljls" = _fJg1Ljls;
+        "qjYXts3d" = _qjYXts3d;
+        "DKGIalbe" = _DKGIalbe;
+        "7GwnLMMa" = _7GwnLMMa;
+        "OMqUxcsb" = _OMqUxcsb;
+        "U0oRB3GS" = _U0oRB3GS;
         "forge-1.8.9" = _TaaTviAI;
-        "fabric-26.1" = _PQDJyTZn;
-        "fabric-26.1.1" = _PQDJyTZn;
-        "fabric-26.1.2" = _PQDJyTZn;
-        "fabric-26.2" = _OgYV2xUV;
-        "fabric-1.21.11" = _fYg0Q6Gv;
-        "fabric-1.21.5" = _UjpNlYQL;
-        "fabric-1.21.1" = _NSIN6KN5;
-        "fabric-1.21.8" = _GZIWDnZE;
-        "fabric-1.21.4" = _BGggYgun;
-        "fabric-1.21.10" = _wB7mLOko;
-        "fabric-26.3" = _EZFxNfQO;
-        "ornithe-1.8.9" = _sHixscrl;
+        "fabric-26.1" = _7GwnLMMa;
+        "fabric-26.1.1" = _7GwnLMMa;
+        "fabric-26.1.2" = _7GwnLMMa;
+        "fabric-26.2" = _OMqUxcsb;
+        "fabric-1.21.11" = _DKGIalbe;
+        "fabric-1.21.5" = _aadKEI9j;
+        "fabric-1.21.1" = _l3Ehse7D;
+        "fabric-1.21.8" = _fJg1Ljls;
+        "fabric-1.21.4" = _DAXSlqhJ;
+        "fabric-1.21.10" = _qjYXts3d;
+        "fabric-26.3" = _U0oRB3GS;
+        "ornithe-1.8.9" = _uXuuvvYq;
         "pkg-v1.4.1" = _GQANlg7p;
         "pkg-v1.4.2-beta5" = _ZV8EECKb;
         "pkg-v1.5.0" = _50K2uokr;
@@ -741,7 +801,8 @@ let
         "pkg-v3.2.0" = _Q9Bj1ldg;
         "pkg-v3.2.1" = _SJGi70as;
         "pkg-v3.2.2" = _EZFxNfQO;
-        "default" = _EZFxNfQO;
+        "pkg-v3.2.3" = _U0oRB3GS;
+        "default" = _U0oRB3GS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chatting";

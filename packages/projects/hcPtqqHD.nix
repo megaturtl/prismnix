@@ -91,6 +91,11 @@ let
             "file" = "darkbar-1.2.0.jar";
             "hash" = "sha512-2Oj9FdbZs8ZY9WbuMeXIPuAfEE4IiHT33OjfuZg0LokhO2IawR0oe8jygoyuc9OtZR8LNDdrV/FwCw21ENPZPg==";
         };
+        _DGCH7jSC = {
+            "id" = "DGCH7jSC";
+            "file" = "darkbar-1.2.1.jar";
+            "hash" = "sha512-1LJay0JhyT4z3vaRxe19y4kVzI9ohCB4KkJ5USUwNtqYGB4pGGyxPqrA+FQMrw9knPmPM1gxvNNpPY8UVOfePA==";
+        };
     in {
         "HnZZ27uC" = _HnZZ27uC;
         "lEidN5hL" = _lEidN5hL;
@@ -110,12 +115,13 @@ let
         "obvtz7AP" = _obvtz7AP;
         "tA0gZnx0" = _tA0gZnx0;
         "ACLX2c8c" = _ACLX2c8c;
+        "DGCH7jSC" = _DGCH7jSC;
         "fabric-1.21.11" = _LRtSON1I;
         "fabric-26.1.1" = _veWNuzW0;
         "fabric-26.1.2" = _GtYDyKal;
         "fabric-26.2" = _PWqsyGZP;
         "fabric-26.3-rc-2" = _o4cEz3rU;
-        "fabric-26.3" = _ACLX2c8c;
+        "fabric-26.3" = _DGCH7jSC;
         "pkg-1.0.0" = _HnZZ27uC;
         "pkg-1.0.1" = _lEidN5hL;
         "pkg-1.1.0" = _FunU9zPB;
@@ -134,7 +140,8 @@ let
         "pkg-1.1.11" = _obvtz7AP;
         "pkg-1.1.12" = _tA0gZnx0;
         "pkg-1.2.0" = _ACLX2c8c;
-        "default" = _ACLX2c8c;
+        "pkg-1.2.1" = _DGCH7jSC;
+        "default" = _DGCH7jSC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "darktitlebar-forminecraft";

@@ -46,6 +46,11 @@ let
             "file" = "3D Items-Vanillaism-26.3.zip";
             "hash" = "sha512-V/ZLEh0RrKlDKpDKt7ZqcuZGqN3QEm5GMsDlnyLgB2iGxyMn8sNnBU2TDv6joRphkjLlK5/XEo10olwDEsL4Dg==";
         };
+        _kqSjjopm = {
+            "id" = "kqSjjopm";
+            "file" = "3D Items-Vanillaism-26.3.zip";
+            "hash" = "sha512-ESVPp5JflLjdDW/guy9GRiPMl4r8LPAMCdvsR9O1gpLk4/BT6AAsJLHTM83HM0bVGnh6NGq/Bo0x7hd3NIkxCQ==";
+        };
     in {
         "zoYpjKt9" = _zoYpjKt9;
         "CgApAVym" = _CgApAVym;
@@ -56,21 +61,22 @@ let
         "v1nnlOgz" = _v1nnlOgz;
         "Z2sYPHzA" = _Z2sYPHzA;
         "GrbZN9Wn" = _GrbZN9Wn;
+        "kqSjjopm" = _kqSjjopm;
         "minecraft-1.16.5" = _zoYpjKt9;
         "minecraft-1.18.2" = _CgApAVym;
         "minecraft-1.20.1" = _LwA6QqIV;
         "minecraft-1.21.1" = _B3yVKCzL;
         "minecraft-26.1.2" = _v1nnlOgz;
         "minecraft-26.2" = _Z2sYPHzA;
-        "minecraft-26.3" = _GrbZN9Wn;
+        "minecraft-26.3" = _kqSjjopm;
         "pkg-1.16.5" = _zoYpjKt9;
         "pkg-1.18.2" = _CgApAVym;
         "pkg-1.20.1" = _LwA6QqIV;
         "pkg-1.21.1" = _B3yVKCzL;
         "pkg-26.1.2" = _v1nnlOgz;
         "pkg-26.2" = _Z2sYPHzA;
-        "pkg-26.3" = _GrbZN9Wn;
-        "default" = _GrbZN9Wn;
+        "pkg-26.3" = _kqSjjopm;
+        "default" = _kqSjjopm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "3d-items-vanillaism";

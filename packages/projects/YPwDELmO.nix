@@ -171,6 +171,11 @@ let
             "file" = "lapisworks-1.5.8.5.jar";
             "hash" = "sha512-/ePjJVmICSdoN6mWB9KxWufRpHJXunP6dDacfblJ0isgwaKEJEcG3o7W0+vSGLGl9Ox2to9nppaO9UrKyld/3A==";
         };
+        _NXkpUK40 = {
+            "id" = "NXkpUK40";
+            "file" = "lapisworks-1.5.8.6.jar";
+            "hash" = "sha512-1kirKJI+4D2OfERzHmhe3KY5Ry3C6eQdcOHgavzgp68oDJVpFMGiwKX4vRuOx1XE3VpgjL8Go2LFQ6Q4GrmXyA==";
+        };
     in {
         "xx0t9adl" = _xx0t9adl;
         "FGahEqkf" = _FGahEqkf;
@@ -206,7 +211,8 @@ let
         "XMAV7x6P" = _XMAV7x6P;
         "T3rKifCf" = _T3rKifCf;
         "jXqq3sHL" = _jXqq3sHL;
-        "fabric-1.20.1" = _jXqq3sHL;
+        "NXkpUK40" = _NXkpUK40;
+        "fabric-1.20.1" = _NXkpUK40;
         "pkg-1.0.0" = _xx0t9adl;
         "pkg-1.2.0" = _FGahEqkf;
         "pkg-1.2.1" = _l9tkSbkK;
@@ -241,7 +247,8 @@ let
         "pkg-1.5.8.3" = _XMAV7x6P;
         "pkg-1.5.8.4" = _T3rKifCf;
         "pkg-1.5.8.5" = _jXqq3sHL;
-        "default" = _jXqq3sHL;
+        "pkg-1.5.8.6" = _NXkpUK40;
+        "default" = _NXkpUK40;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lapisworks";

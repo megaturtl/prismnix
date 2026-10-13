@@ -1101,6 +1101,11 @@ let
             "file" = "repurposed_structures-7.8.3+26.3-neoforge.jar";
             "hash" = "sha512-7BmDFoX7q3rcbntQ0/XJyzssSB18xgbNySIEOetzPentfBrzNs3iP9U2Tn5SNj2/2XqP3RtdO+Ag9S9JkJo7cA==";
         };
+        _UlyFLGhH = {
+            "id" = "UlyFLGhH";
+            "file" = "repurposed_structures-7.8.4+26.3-neoforge.jar";
+            "hash" = "sha512-nCG8mxUcv5tvfJkX3kwy/4DNNCfWHJDefchmzuMlw3ZEBrlXpLTX5Di6DadOJbuUGPiiM7qHbqXwAU5icRqKRw==";
+        };
     in {
         "oTzeMt8o" = _oTzeMt8o;
         "ziRqMC4U" = _ziRqMC4U;
@@ -1322,6 +1327,7 @@ let
         "KbDDtHBQ" = _KbDDtHBQ;
         "HRgH7yYK" = _HRgH7yYK;
         "AGQI7Pvl" = _AGQI7Pvl;
+        "UlyFLGhH" = _UlyFLGhH;
         "forge-1.16.5" = _5E3ETVsZ;
         "forge-1.18" = _6N5HKQu1;
         "forge-1.18.1" = _ZBuBykLz;
@@ -1350,7 +1356,7 @@ let
         "neoforge-1.21.11" = _OGwbW4LO;
         "neoforge-26.1" = _ZuzqOqDz;
         "neoforge-26.2" = _h9w0EGMo;
-        "neoforge-26.3" = _AGQI7Pvl;
+        "neoforge-26.3" = _UlyFLGhH;
         "pkg-1.16.5-2.6.6-forge" = _oTzeMt8o;
         "pkg-1.16.5-2.7.0-forge" = _ziRqMC4U;
         "pkg-1.16.5-2.7.1-forge" = _2Svjprz6;
@@ -1571,7 +1577,8 @@ let
         "pkg-7.8.1+26.3-neoforge" = _KbDDtHBQ;
         "pkg-7.8.2+26.3-neoforge" = _HRgH7yYK;
         "pkg-7.8.3+26.3-neoforge" = _AGQI7Pvl;
-        "default" = _AGQI7Pvl;
+        "pkg-7.8.4+26.3-neoforge" = _UlyFLGhH;
+        "default" = _UlyFLGhH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "repurposed-structures-forge";

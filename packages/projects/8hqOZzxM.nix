@@ -311,6 +311,16 @@ let
             "file" = "berserker_rpg-fabric-3.1.3+1.20.1.jar";
             "hash" = "sha512-Riainlvh09xmm/+O67QkLj9y0GnlxOvw8MIl919l7GB71pBnuWayzglBWgVgpQnXi/XSUtIg4Wl5rUxWCadaqA==";
         };
+        _SjMxa30Y = {
+            "id" = "SjMxa30Y";
+            "file" = "berserker_rpg-fabric-3.2.0+1.21.1.jar";
+            "hash" = "sha512-DsW2dkF/QVtwtjWSGajgpP8cP1eZxLBbezcBQ3E9Jz3d1S+mLN9onnXAcFS9wu8jyh03GWyvYukBk/5dnkRr4A==";
+        };
+        _val86kc4 = {
+            "id" = "val86kc4";
+            "file" = "berserker_rpg-neoforge-3.2.0+1.21.1.jar";
+            "hash" = "sha512-PP7miuFBIeF3Brvq9q+luCeK1NH9imeKQHW7B+nYSq5eZzkLykEOmQMpLeXgZRWb2UGY1UifWlNNItU6p8eaag==";
+        };
     in {
         "3qLRxhmd" = _3qLRxhmd;
         "jNJA4u0D" = _jNJA4u0D;
@@ -374,10 +384,12 @@ let
         "knEEBYqG" = _knEEBYqG;
         "KLPh1gAF" = _KLPh1gAF;
         "DeYZTc2f" = _DeYZTc2f;
+        "SjMxa30Y" = _SjMxa30Y;
+        "val86kc4" = _val86kc4;
         "fabric-1.20.1" = _DeYZTc2f;
         "fabric-1.21" = _KUh5rcud;
-        "fabric-1.21.1" = _Ok1BxW3i;
-        "neoforge-1.21.1" = _Z169ob2G;
+        "fabric-1.21.1" = _SjMxa30Y;
+        "neoforge-1.21.1" = _val86kc4;
         "neoforge-1.20.1" = _KLPh1gAF;
         "forge-1.20.1" = _KLPh1gAF;
         "pkg-1.0.0" = _3qLRxhmd;
@@ -442,7 +454,9 @@ let
         "pkg-3.1.2+1.20.1-fabric" = _knEEBYqG;
         "pkg-3.1.3+1.20.1-forge" = _KLPh1gAF;
         "pkg-3.1.3+1.20.1-fabric" = _DeYZTc2f;
-        "default" = _DeYZTc2f;
+        "pkg-3.2.0+1.21.1-fabric" = _SjMxa30Y;
+        "pkg-3.2.0+1.21.1-neoforge" = _val86kc4;
+        "default" = _val86kc4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "berserker-rpg-class";

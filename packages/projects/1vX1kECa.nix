@@ -51,6 +51,11 @@ let
             "file" = "carpet-lab-addition-1.4.0+26.3.jar";
             "hash" = "sha512-86gOV0cgcKxXRPTTVfSOfuKExga/rYEtKb6JiJq901kZcFLReRYOf8MLbRC9w6WP5JWNcWPak+X8BdBqpbyEog==";
         };
+        _pTRu22RQ = {
+            "id" = "pTRu22RQ";
+            "file" = "carpet-lab-addition-1.5.0+26.3.jar";
+            "hash" = "sha512-lanW/7KbQ/LNwaw2cutfNu0BdcwZMaMmqvV8Tbm9QMRqXp8il8X35Ek3D60NGbY1ecAsa/ENfrPtnPYD+CnTzw==";
+        };
     in {
         "DtPeyYK2" = _DtPeyYK2;
         "2uaTQI7H" = _2uaTQI7H;
@@ -62,6 +67,7 @@ let
         "K33rWxVm" = _K33rWxVm;
         "QQ3qrK5N" = _QQ3qrK5N;
         "FCd4Q3Za" = _FCd4Q3Za;
+        "pTRu22RQ" = _pTRu22RQ;
         "fabric-1.20.5" = _DtPeyYK2;
         "fabric-1.20.6" = _DtPeyYK2;
         "fabric-1.20" = _2uaTQI7H;
@@ -80,7 +86,7 @@ let
         "fabric-26.1.1" = _K33rWxVm;
         "fabric-26.1.2" = _K33rWxVm;
         "fabric-26.2" = _K33rWxVm;
-        "fabric-26.3" = _FCd4Q3Za;
+        "fabric-26.3" = _pTRu22RQ;
         "pkg-1.1.0" = _DtPeyYK2;
         "pkg-1.1.1" = _fDxVae9f;
         "pkg-1.2.0" = _NDs8v1x3;
@@ -88,7 +94,8 @@ let
         "pkg-1.3.0+26.1" = _K33rWxVm;
         "pkg-1.3.0+26.3" = _QQ3qrK5N;
         "pkg-1.4.0+26.3" = _FCd4Q3Za;
-        "default" = _FCd4Q3Za;
+        "pkg-1.5.0+26.3" = _pTRu22RQ;
+        "default" = _pTRu22RQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "carpet-lab-addition";

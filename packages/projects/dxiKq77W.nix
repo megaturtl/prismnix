@@ -106,6 +106,11 @@ let
             "file" = "VillagerReroll-1.21.11-3.1.0.jar";
             "hash" = "sha512-Q0VyjL9TLF0UaljsLhOfyTDwGa0h49vFQeI6D3YIwiuQG/zbUd3fLX7VBAt4dw02EtWrLlx75ALGQ9kD+NYssQ==";
         };
+        _lZFpHuaM = {
+            "id" = "lZFpHuaM";
+            "file" = "VillagerReroll-Universal-4.0.0.jar";
+            "hash" = "sha512-FKnPPi1rXN/pDUseQifCCgw6/sPSD9/WE0gsZIcalq+zv91ShDMcrSV4u3beoDNUVMwLdqHxYfO+NcZZPxm1Ng==";
+        };
     in {
         "r5qapdMF" = _r5qapdMF;
         "Jyqhjoe1" = _Jyqhjoe1;
@@ -128,10 +133,13 @@ let
         "8YbzUD71" = _8YbzUD71;
         "Ja3bAlKL" = _Ja3bAlKL;
         "Fn6SNiWz" = _Fn6SNiWz;
-        "fabric-26.1.2" = _Ja3bAlKL;
-        "fabric-26.2" = _8YbzUD71;
-        "fabric-1.21.11" = _Fn6SNiWz;
-        "fabric-26.3" = _O2u3BkfA;
+        "lZFpHuaM" = _lZFpHuaM;
+        "fabric-26.1.2" = _lZFpHuaM;
+        "fabric-26.2" = _lZFpHuaM;
+        "fabric-1.21.11" = _lZFpHuaM;
+        "fabric-26.3" = _lZFpHuaM;
+        "fabric-26.1" = _lZFpHuaM;
+        "fabric-26.1.1" = _lZFpHuaM;
         "pkg-1.0.0" = _r5qapdMF;
         "pkg-1.1.0" = _Jyqhjoe1;
         "pkg-1.2.0" = _5wyAg95A;
@@ -140,7 +148,8 @@ let
         "pkg-2.2.0" = _9awBwYBN;
         "pkg-3.0.0" = _pemeQLoW;
         "pkg-3.1.0" = _Fn6SNiWz;
-        "default" = _Fn6SNiWz;
+        "pkg-4.0.0" = _lZFpHuaM;
+        "default" = _lZFpHuaM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "villager-reroller";

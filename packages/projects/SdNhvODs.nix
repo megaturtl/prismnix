@@ -101,6 +101,16 @@ let
             "file" = "zombies_everywhere-1.0.0-forge+mc1.20.1-beta.jar";
             "hash" = "sha512-A6r8VHBE+TS4xU7+fBPLNHQ5XukIs4EGFJUfocnaSVedgco9lTHPniWA/BydPsvHIshei+OFQOyjZoNAXZ2N7Q==";
         };
+        _k1XnGDfs = {
+            "id" = "k1XnGDfs";
+            "file" = "zombies_everywhere-1.4.3-neoforge+mc1.21.1-hotfix.jar";
+            "hash" = "sha512-z2n94YZBBYXOLqFCrSUfRBSsThPQJkerCfJcP4peUDLFZk8rCKyeBJ/S0Sto0+CvZsitb9GVdU7ueuZ8rQO16w==";
+        };
+        _eXsRW6zi = {
+            "id" = "eXsRW6zi";
+            "file" = "zombies_everywhere-1.0.1-forge+mc1.20.1-beta.jar";
+            "hash" = "sha512-6c0pCFD1Xnnz1k/QwlgWC1Dc2rdpudXQGTDP4OSoiZOclOZdTdfaLzr6C1t+uONRkSSo3cwgDT9ketOb73OSog==";
+        };
     in {
         "a9sbVFGv" = _a9sbVFGv;
         "grzR6jUC" = _grzR6jUC;
@@ -122,9 +132,11 @@ let
         "6dpVRgvN" = _6dpVRgvN;
         "sovWiO7q" = _sovWiO7q;
         "Pp7MVI0y" = _Pp7MVI0y;
-        "neoforge-1.21.1" = _sovWiO7q;
+        "k1XnGDfs" = _k1XnGDfs;
+        "eXsRW6zi" = _eXsRW6zi;
+        "neoforge-1.21.1" = _k1XnGDfs;
         "neoforge-26.1.2" = _4KH1sH5E;
-        "forge-1.20.1" = _Pp7MVI0y;
+        "forge-1.20.1" = _eXsRW6zi;
         "pkg-1.0.0-1.21.1" = _a9sbVFGv;
         "pkg-1.1.0-1.21.1" = _grzR6jUC;
         "pkg-1.2.0-1.21.1" = _QBQAl9zg;
@@ -145,7 +157,9 @@ let
         "pkg-1.4.1-neoforge+mc1.21.1-release" = _6dpVRgvN;
         "pkg-1.4.2-neoforge+mc1.21.1-release" = _sovWiO7q;
         "pkg-1.0.0-forge+mc1.20.1-beta" = _Pp7MVI0y;
-        "default" = _Pp7MVI0y;
+        "pkg-1.4.3-neoforge+mc1.21.1-hotfix" = _k1XnGDfs;
+        "pkg-1.0.1-forge+mc1.20.1-beta" = _eXsRW6zi;
+        "default" = _eXsRW6zi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zombieseverywhere";

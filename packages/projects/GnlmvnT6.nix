@@ -21,11 +21,17 @@ let
             "file" = "builders-boundry-0.2.jar";
             "hash" = "sha512-bdfquJqd1/dWus+Up/UnaHFPL/Jpe75U7kKgc9Jlx16SfmVvr6jBwAZPs+OgkzsiwhB0HcHLKtQXxh1OKo7g1Q==";
         };
+        _iD60gttI = {
+            "id" = "iD60gttI";
+            "file" = "builders-boundry-1.0.0-26.3.jar";
+            "hash" = "sha512-B+JwytH8EoLJmi0MZCbga9s/DMZv4GYM4iR4RGGiluZBEEYICc2fGe0J7OcF/13CXKfmMIhmVdtpjVXZhi9/6Q==";
+        };
     in {
         "NNh4MBgg" = _NNh4MBgg;
         "GglMNIzD" = _GglMNIzD;
         "lbPwDdze" = _lbPwDdze;
         "trudqi9k" = _trudqi9k;
+        "iD60gttI" = _iD60gttI;
         "datapack-1.21" = _NNh4MBgg;
         "datapack-1.21.1" = _NNh4MBgg;
         "datapack-1.21.2" = _NNh4MBgg;
@@ -58,6 +64,7 @@ let
         "fabric-26.1.1" = _trudqi9k;
         "fabric-26.1.2" = _trudqi9k;
         "fabric-26.2" = _trudqi9k;
+        "fabric-26.3" = _iD60gttI;
         "forge-1.21" = _GglMNIzD;
         "forge-1.21.1" = _GglMNIzD;
         "forge-1.21.2" = _GglMNIzD;
@@ -110,7 +117,8 @@ let
         "pkg-0.1+mod" = _GglMNIzD;
         "pkg-0.2" = _lbPwDdze;
         "pkg-0.2+mod" = _trudqi9k;
-        "default" = _trudqi9k;
+        "pkg-1.0.0-26.3" = _iD60gttI;
+        "default" = _iD60gttI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "builders-boundry";

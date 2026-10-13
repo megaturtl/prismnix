@@ -56,6 +56,11 @@ let
             "file" = "celeritasdynamiclights-1.2.10.jar";
             "hash" = "sha512-30diBVfOffJ8SK4tJWsJcB27bRbnabbUP6kPOL2a9r8ShT5PNMa7SuUEvRkFvq5WW4TzlmWSTbkwWZnVcq0MFA==";
         };
+        _1YOX6lRI = {
+            "id" = "1YOX6lRI";
+            "file" = "celeritasdynamiclights-1.2.11.jar";
+            "hash" = "sha512-ageJD8q8o7dENWQuxlU0IGWtfdAD+WrOpcAQtDsEKNUDkwL9c/C1Qz2FQee1zy0lqy1AkTWVAEptQu6uewIcoA==";
+        };
     in {
         "m0s9n8wP" = _m0s9n8wP;
         "M5jtQHkm" = _M5jtQHkm;
@@ -68,7 +73,8 @@ let
         "dhixINeK" = _dhixINeK;
         "CDQ8fBO1" = _CDQ8fBO1;
         "Fai22mla" = _Fai22mla;
-        "forge-1.12.2" = _Fai22mla;
+        "1YOX6lRI" = _1YOX6lRI;
+        "forge-1.12.2" = _1YOX6lRI;
         "pkg-1.1.0" = _m0s9n8wP;
         "pkg-1.2.1" = _M5jtQHkm;
         "pkg-1.2.2" = _489UmA87;
@@ -80,7 +86,8 @@ let
         "pkg-1.2.8" = _dhixINeK;
         "pkg-1.2.9" = _CDQ8fBO1;
         "pkg-1.2.10" = _Fai22mla;
-        "default" = _Fai22mla;
+        "pkg-1.2.11" = _1YOX6lRI;
+        "default" = _1YOX6lRI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "celeritas-dynamic-lights";

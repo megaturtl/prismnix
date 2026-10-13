@@ -71,6 +71,11 @@ let
             "file" = "enderscape-polymer-patch-3.0.1.1+26.2.jar";
             "hash" = "sha512-bKIHgxyesic7LIX9K+dK5jszyscXOPpghhOOkqwn1pMTlnSF+z+Gqnhrnqro7Xum5X1JFg+3lfqfGqMxBiacpg==";
         };
+        _iDuGWP5Z = {
+            "id" = "iDuGWP5Z";
+            "file" = "enderscape-polymer-patch-3.0.3.0+26.3.jar";
+            "hash" = "sha512-jiSMLKACH8l2aZyZ5dLORFxcGqKkolysjW/ewNadrws6OjI3raU6lH6wZEYfadC2rjt9TVZXB+Qsf8Rp0ThecQ==";
+        };
     in {
         "vE08xbwr" = _vE08xbwr;
         "9BSOXN6O" = _9BSOXN6O;
@@ -86,12 +91,14 @@ let
         "hmIeo4kM" = _hmIeo4kM;
         "BA4FS7eI" = _BA4FS7eI;
         "tOGPcjq4" = _tOGPcjq4;
+        "iDuGWP5Z" = _iDuGWP5Z;
         "fabric-1.21.6" = _tAuVgMf4;
         "fabric-1.21.7" = _tAuVgMf4;
         "fabric-1.21.8" = _yXBbavhp;
         "fabric-1.21.10" = _ZpWTd9L2;
         "fabric-1.21.11" = _Q37h42q3;
         "fabric-26.2" = _tOGPcjq4;
+        "fabric-26.3" = _iDuGWP5Z;
         "pkg-1.0.8.0+1.21.7" = _vE08xbwr;
         "pkg-1.0.8.1+1.21.7" = _9BSOXN6O;
         "pkg-1.0.8.2+1.21.7" = _tAuVgMf4;
@@ -106,7 +113,8 @@ let
         "pkg-3.0.0.0+26.2" = _hmIeo4kM;
         "pkg-3.0.1.0+26.2" = _BA4FS7eI;
         "pkg-3.0.1.1+26.2" = _tOGPcjq4;
-        "default" = _tOGPcjq4;
+        "pkg-3.0.3.0+26.3" = _iDuGWP5Z;
+        "default" = _iDuGWP5Z;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enderscape-polymer";

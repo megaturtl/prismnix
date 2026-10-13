@@ -151,6 +151,21 @@ let
             "file" = "MoreStairs-neoforge-26.1.2-3.0.0.1.jar";
             "hash" = "sha512-3cYreacm2om3RkydRpJigOFaxfuRS3ccstwihA6c0HMctHXtQtcAO3AKhPZ5DWtYds7EVDVerBDRecxac92hJA==";
         };
+        _NVKBBjlO = {
+            "id" = "NVKBBjlO";
+            "file" = "MoreStairs-forge-26.3-3.1.0.jar";
+            "hash" = "sha512-TEaHicbxfVoDC2z9QNReGdOkyf4zM/lmwkUOYUbqr9R9MCZuTd3h5XjGKhPPkECsff6B5SEp7CUdV6zt6r96nA==";
+        };
+        _w0lO5K99 = {
+            "id" = "w0lO5K99";
+            "file" = "MoreStairs-neoforge-26.3-3.1.0.jar";
+            "hash" = "sha512-8af71G6uBiglrveBmgiUMf+2bwcNpDiB4+zc6gIzc4DoGpZWdOZQtoBZqQImBlPqngeEwxWYImtOKwkySnpAZQ==";
+        };
+        _ANS3fVFb = {
+            "id" = "ANS3fVFb";
+            "file" = "MoreStairs-fabric-26.3-3.1.0.jar";
+            "hash" = "sha512-sITen47IlprmmU4agAGHjOKJQwGTAkMfMyTfGqmOkxGLcS1zDpmHH1pr4LNH3DtcouUuHr8DsSGYZ6lv9o1skQ==";
+        };
     in {
         "BoZ5gKky" = _BoZ5gKky;
         "2UW2HKOO" = _2UW2HKOO;
@@ -182,6 +197,9 @@ let
         "VLMUvVUb" = _VLMUvVUb;
         "vb4ZIvUu" = _vb4ZIvUu;
         "lxXuKZyP" = _lxXuKZyP;
+        "NVKBBjlO" = _NVKBBjlO;
+        "w0lO5K99" = _w0lO5K99;
+        "ANS3fVFb" = _ANS3fVFb;
         "fabric-1.20.1" = _BoZ5gKky;
         "fabric-1.20.2" = _4aPN05F3;
         "fabric-1.20.4" = _2ETp3Akf;
@@ -191,6 +209,7 @@ let
         "fabric-1.21.10" = _dWhxnJ9v;
         "fabric-1.21.11" = _Bohql1jt;
         "fabric-26.1.2" = _VLMUvVUb;
+        "fabric-26.3" = _ANS3fVFb;
         "forge-1.20.1" = _2UW2HKOO;
         "forge-1.20.2" = _421KvG1d;
         "forge-1.20.4" = _iBmGUnId;
@@ -201,6 +220,7 @@ let
         "forge-1.21.10" = _CcaFq19k;
         "forge-1.21.11" = _HpGJOgwH;
         "forge-26.1.2" = _vb4ZIvUu;
+        "forge-26.3" = _NVKBBjlO;
         "neoforge-1.20.4" = _CpcATg1E;
         "neoforge-1.21" = _a5bf5I0t;
         "neoforge-1.21.1" = _DGTlTBkg;
@@ -208,6 +228,7 @@ let
         "neoforge-1.21.10" = _AycZgLRK;
         "neoforge-1.21.11" = _w5pbqIBh;
         "neoforge-26.1.2" = _lxXuKZyP;
+        "neoforge-26.3" = _w0lO5K99;
         "pkg-1.0.3" = _BoZ5gKky;
         "pkg-2.8.2" = _2UW2HKOO;
         "pkg-2.8.3" = _eFC4ObW3;
@@ -233,7 +254,8 @@ let
         "pkg-2.9.2" = _w5pbqIBh;
         "pkg-3.0.0" = _VLMUvVUb;
         "pkg-3.0.0.1" = _lxXuKZyP;
-        "default" = _lxXuKZyP;
+        "pkg-3.1.0" = _ANS3fVFb;
+        "default" = _ANS3fVFb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-beautiful-stairs";

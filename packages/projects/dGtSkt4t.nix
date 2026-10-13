@@ -331,6 +331,11 @@ let
             "file" = "thief-fabric-26.3-1.2.7.jar";
             "hash" = "sha512-Y1SOY/RGVEiy4QbWdq3mjOZmGp46ynUn8xA9NBh0cISJxomkVvK1i0XQrHFx4YY3M/GOPb/ai++sV7H33w0b0w==";
         };
+        _lvqObo8F = {
+            "id" = "lvqObo8F";
+            "file" = "thief-neoforge-26.3-1.2.8.jar";
+            "hash" = "sha512-VP7auDytogKb2xjBWK/FQUj8TIfb8BBPMJ4mi6xCj9P/3yeOrBBI+Z9ESs2Vvh5uJ++26AYsBAQk+2nJbJdmrg==";
+        };
     in {
         "nGIkDTDE" = _nGIkDTDE;
         "w5xNhaYy" = _w5xNhaYy;
@@ -398,6 +403,7 @@ let
         "wzKtGbI9" = _wzKtGbI9;
         "LQmIWfeP" = _LQmIWfeP;
         "X4QKUusu" = _X4QKUusu;
+        "lvqObo8F" = _lvqObo8F;
         "neoforge-1.21.1" = _ktolTeGZ;
         "neoforge-1.21.4" = _rVEXzYbS;
         "neoforge-1.21.5" = _nManVBqi;
@@ -408,7 +414,7 @@ let
         "neoforge-26.1.1" = _1UkOVUrI;
         "neoforge-26.1.2" = _4sVfc8OZ;
         "neoforge-26.2" = _iXBHqiNr;
-        "neoforge-26.3" = _LQmIWfeP;
+        "neoforge-26.3" = _lvqObo8F;
         "fabric-1.21.1" = _7F0mIm4c;
         "fabric-1.20.1" = _FBFWMR4U;
         "fabric-1.21.4" = _ffia1xkc;
@@ -438,7 +444,8 @@ let
         "pkg-1.2.5" = _nBJwljOR;
         "pkg-1.2.6" = _Oo4CDF3i;
         "pkg-1.2.7" = _X4QKUusu;
-        "default" = _X4QKUusu;
+        "pkg-1.2.8" = _lvqObo8F;
+        "default" = _lvqObo8F;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "thief";

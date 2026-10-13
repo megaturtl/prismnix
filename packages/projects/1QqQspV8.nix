@@ -6,8 +6,14 @@ let
             "file" = "CustomCraft.jar";
             "hash" = "sha512-8FH+GtlVFRRtdZpPtkCbiyJ7Kkg3iM0WpBdwZiKBXvvsRk9tAPKhWw9EPBbbnY4abim5ij7QSO3KT55eX0VJhg==";
         };
+        _XbzE817Q = {
+            "id" = "XbzE817Q";
+            "file" = "CustomCraftRework.jar";
+            "hash" = "sha512-8FH+GtlVFRRtdZpPtkCbiyJ7Kkg3iM0WpBdwZiKBXvvsRk9tAPKhWw9EPBbbnY4abim5ij7QSO3KT55eX0VJhg==";
+        };
     in {
         "2unTsAFH" = _2unTsAFH;
+        "XbzE817Q" = _XbzE817Q;
         "paper-1.8" = _2unTsAFH;
         "paper-1.8.1" = _2unTsAFH;
         "paper-1.8.2" = _2unTsAFH;
@@ -77,6 +83,12 @@ let
         "paper-1.21.8" = _2unTsAFH;
         "paper-1.21.9" = _2unTsAFH;
         "paper-1.21.10" = _2unTsAFH;
+        "paper-1.21.11" = _XbzE817Q;
+        "paper-26.1" = _XbzE817Q;
+        "paper-26.1.1" = _XbzE817Q;
+        "paper-26.1.2" = _XbzE817Q;
+        "paper-26.2" = _XbzE817Q;
+        "paper-26.3" = _XbzE817Q;
         "purpur-1.8" = _2unTsAFH;
         "purpur-1.8.1" = _2unTsAFH;
         "purpur-1.8.2" = _2unTsAFH;
@@ -146,6 +158,12 @@ let
         "purpur-1.21.8" = _2unTsAFH;
         "purpur-1.21.9" = _2unTsAFH;
         "purpur-1.21.10" = _2unTsAFH;
+        "purpur-1.21.11" = _XbzE817Q;
+        "purpur-26.1" = _XbzE817Q;
+        "purpur-26.1.1" = _XbzE817Q;
+        "purpur-26.1.2" = _XbzE817Q;
+        "purpur-26.2" = _XbzE817Q;
+        "purpur-26.3" = _XbzE817Q;
         "spigot-1.8" = _2unTsAFH;
         "spigot-1.8.1" = _2unTsAFH;
         "spigot-1.8.2" = _2unTsAFH;
@@ -215,8 +233,26 @@ let
         "spigot-1.21.8" = _2unTsAFH;
         "spigot-1.21.9" = _2unTsAFH;
         "spigot-1.21.10" = _2unTsAFH;
-        "pkg-1.0.0" = _2unTsAFH;
-        "default" = _2unTsAFH;
+        "spigot-1.21.11" = _XbzE817Q;
+        "spigot-26.1" = _XbzE817Q;
+        "spigot-26.1.1" = _XbzE817Q;
+        "spigot-26.1.2" = _XbzE817Q;
+        "spigot-26.2" = _XbzE817Q;
+        "spigot-26.3" = _XbzE817Q;
+        "bukkit-1.21.11" = _XbzE817Q;
+        "bukkit-26.1" = _XbzE817Q;
+        "bukkit-26.1.1" = _XbzE817Q;
+        "bukkit-26.1.2" = _XbzE817Q;
+        "bukkit-26.2" = _XbzE817Q;
+        "bukkit-26.3" = _XbzE817Q;
+        "folia-1.21.11" = _XbzE817Q;
+        "folia-26.1" = _XbzE817Q;
+        "folia-26.1.1" = _XbzE817Q;
+        "folia-26.1.2" = _XbzE817Q;
+        "folia-26.2" = _XbzE817Q;
+        "folia-26.3" = _XbzE817Q;
+        "pkg-1.0.0" = _XbzE817Q;
+        "default" = _XbzE817Q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "custom-crafting";

@@ -596,6 +596,11 @@ let
             "file" = "Iceberg-26.3-forge-1.4.3.1.jar";
             "hash" = "sha512-I6w4QD/nTEeSGdgNJR+syzYcGJpXD899+Oe2W5zA89naJLttj5djkzDa+c8Elyz6KZjlQIHFz417dfOWUFnxqg==";
         };
+        _cMrzvYxJ = {
+            "id" = "cMrzvYxJ";
+            "file" = "Iceberg-26.3-neoforge-1.4.3.2.jar";
+            "hash" = "sha512-YTuQ8Kl2tfriSTt9RQLx/qMRc4w1h2LRa2joGE8HlLcicUEz8WTzrSI2Dym6VddH1MbR++d4oY+iotvwtTy9Uw==";
+        };
     in {
         "WMylSLYE" = _WMylSLYE;
         "qC0waeNX" = _qC0waeNX;
@@ -716,6 +721,7 @@ let
         "zhVGUJyW" = _zhVGUJyW;
         "fDp20czx" = _fDp20czx;
         "jkpfzaMS" = _jkpfzaMS;
+        "cMrzvYxJ" = _cMrzvYxJ;
         "forge-1.19" = _wog3r1ZM;
         "forge-1.19.1" = _wog3r1ZM;
         "forge-1.19.2" = _wog3r1ZM;
@@ -771,7 +777,7 @@ let
         "neoforge-26.1.1" = _cG60lq2b;
         "neoforge-26.1.2" = _cG60lq2b;
         "neoforge-26.2" = _a9lfJkkL;
-        "neoforge-26.3" = _fDp20czx;
+        "neoforge-26.3" = _cMrzvYxJ;
         "pkg-1.0.49" = _AyFtfJ8s;
         "pkg-1.0.46" = _qC0waeNX;
         "pkg-1.0.38" = _bhT2LnaE;
@@ -826,7 +832,8 @@ let
         "pkg-1.4.1.2" = _VPuXe3MU;
         "pkg-1.4.2.2" = _BA5Y4PYm;
         "pkg-1.4.3.1" = _jkpfzaMS;
-        "default" = _jkpfzaMS;
+        "pkg-1.4.3.2" = _cMrzvYxJ;
+        "default" = _cMrzvYxJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "iceberg";

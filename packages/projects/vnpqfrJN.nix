@@ -171,6 +171,11 @@ let
             "file" = "zmatcomp-1.1.2+26.2.jar";
             "hash" = "sha512-Bn06mteK0E4ujdrPeAjrvEStZS8mJpCl45I7Ea4nVtF8LVdGuXORuQa7vgtsr1Z9FV8TrSU6mSAO8obuxEY3mQ==";
         };
+        _y2a9xwkH = {
+            "id" = "y2a9xwkH";
+            "file" = "zmatcomp-1.1.2+26.1.jar";
+            "hash" = "sha512-2iY+qxgvEPyQN8sPsKjghuYBDxBSOMQsVIxgq1xeXwDL0S6CdhD1bxQQbJ5E0m1l06bQ7ST6nA+5xHrpmcCTqQ==";
+        };
     in {
         "7F3abIdS" = _7F3abIdS;
         "Zr0ApzKp" = _Zr0ApzKp;
@@ -206,6 +211,7 @@ let
         "ERDyulQ0" = _ERDyulQ0;
         "PhNBmIWF" = _PhNBmIWF;
         "ePMO1aVX" = _ePMO1aVX;
+        "y2a9xwkH" = _y2a9xwkH;
         "fabric-26.3-snapshot-7" = _7F3abIdS;
         "fabric-26.3-snapshot-10" = _Zr0ApzKp;
         "fabric-26.3-pre-1" = _QZtbkhs5;
@@ -219,7 +225,7 @@ let
         "fabric-26.1-rc-1" = _phIg6cLe;
         "fabric-26.1-rc-2" = _phIg6cLe;
         "fabric-26.1-rc-3" = _phIg6cLe;
-        "fabric-26.1" = _phIg6cLe;
+        "fabric-26.1" = _y2a9xwkH;
         "fabric-26.1.1-rc-1" = _phIg6cLe;
         "fabric-26.1.1" = _phIg6cLe;
         "fabric-26.1.2-rc-1" = _phIg6cLe;
@@ -237,7 +243,7 @@ let
         "quilt-26.1-rc-1" = _phIg6cLe;
         "quilt-26.1-rc-2" = _phIg6cLe;
         "quilt-26.1-rc-3" = _phIg6cLe;
-        "quilt-26.1" = _phIg6cLe;
+        "quilt-26.1" = _y2a9xwkH;
         "quilt-26.1.1-rc-1" = _phIg6cLe;
         "quilt-26.1.1" = _phIg6cLe;
         "quilt-26.1.2-rc-1" = _phIg6cLe;
@@ -276,7 +282,8 @@ let
         "pkg-1.1.1+26.2" = _ERDyulQ0;
         "pkg-1.1.2+26.3" = _PhNBmIWF;
         "pkg-1.1.2+26.2" = _ePMO1aVX;
-        "default" = _ePMO1aVX;
+        "pkg-1.1.2+26.1" = _y2a9xwkH;
+        "default" = _y2a9xwkH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zmaterial-rule-compiler";

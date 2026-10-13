@@ -121,6 +121,11 @@ let
             "file" = "rs_integration-1.5.0.5.jar";
             "hash" = "sha512-VYbRwNyFm7Hpn9RSMvk4TbAoAvEkzlHYiuIQhLlm/gjyoc2Z7NKjk9NCkNAyvmq5oVtTs8WGLni4Ubs/iMuebg==";
         };
+        _E4ejDjYy = {
+            "id" = "E4ejDjYy";
+            "file" = "rs_integration-1.5.1.jar";
+            "hash" = "sha512-UlHm4UZ4imkGjBiV9oOvDuFYrbV0xB2bdVjIOTD4nV8yrJxNTv4kErgFlWFwDjlOPM5f0diPzBksxHgKsD2g3g==";
+        };
     in {
         "U2SS31Yn" = _U2SS31Yn;
         "MHm8uj2Y" = _MHm8uj2Y;
@@ -146,7 +151,8 @@ let
         "9LErAYzf" = _9LErAYzf;
         "lUOSef8H" = _lUOSef8H;
         "4UOBCmF3" = _4UOBCmF3;
-        "forge-1.20.1" = _4UOBCmF3;
+        "E4ejDjYy" = _E4ejDjYy;
+        "forge-1.20.1" = _E4ejDjYy;
         "pkg-1.2.9" = _U2SS31Yn;
         "pkg-1.3.1-fix" = _MHm8uj2Y;
         "pkg-1.3.2" = _mQd0KwpF;
@@ -171,7 +177,8 @@ let
         "pkg-1.5.0.3" = _9LErAYzf;
         "pkg-1.5.0.4" = _lUOSef8H;
         "pkg-1.5.0.5" = _4UOBCmF3;
-        "default" = _4UOBCmF3;
+        "pkg-1.5.1" = _E4ejDjYy;
+        "default" = _E4ejDjYy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rs-integration";

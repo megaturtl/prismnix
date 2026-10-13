@@ -196,6 +196,16 @@ let
             "file" = "bards_rpg-forge-3.0.2+1.20.1.jar";
             "hash" = "sha512-3V18R/oiVpW7MfbhSJ1MfbGBrPAF8QxmyfjTKFqCVVcLtS5iigBDLUeHQAjbfM3sYj5Zn0NG920MjUMbVYuHEA==";
         };
+        _lbRjIthS = {
+            "id" = "lbRjIthS";
+            "file" = "bards_rpg-neoforge-1.2.0-1.21.1.jar";
+            "hash" = "sha512-UA5/wAwjTjrUqoCCgpTsA2CSU/dYjhX17KVwGHf+04n1AsaIaU7fzQdayVJPLKFLJWgvwjx2Po04hmv8ClJOIg==";
+        };
+        _kivaxdXU = {
+            "id" = "kivaxdXU";
+            "file" = "bards_rpg-fabric-1.2.0-1.21.1.jar";
+            "hash" = "sha512-N761XREbS64melOYQMtMZbj6P6buxW9ugqbqd3GTasTqhgmt2iJPoNkEzSYFFoDfN5siP1Piks7H9IpLRS5Thg==";
+        };
     in {
         "hn42wGhO" = _hn42wGhO;
         "R1c7FdzC" = _R1c7FdzC;
@@ -236,9 +246,11 @@ let
         "AfKat769" = _AfKat769;
         "vGL7d4eM" = _vGL7d4eM;
         "lnDfmOl5" = _lnDfmOl5;
-        "fabric-1.21.1" = _oTrRQsrF;
+        "lbRjIthS" = _lbRjIthS;
+        "kivaxdXU" = _kivaxdXU;
+        "fabric-1.21.1" = _kivaxdXU;
         "fabric-1.20.1" = _vGL7d4eM;
-        "neoforge-1.21.1" = _K2t0CqfR;
+        "neoforge-1.21.1" = _lbRjIthS;
         "neoforge-1.20.1" = _lnDfmOl5;
         "forge-1.20.1" = _lnDfmOl5;
         "pkg-bards_rpg-fabric-0.1.0-1.21.1" = _hn42wGhO;
@@ -280,7 +292,9 @@ let
         "pkg-3.0.1+1.20.1-forge" = _AfKat769;
         "pkg-3.0.2+1.20.1-fabric" = _vGL7d4eM;
         "pkg-3.0.2+1.20.1-forge" = _lnDfmOl5;
-        "default" = _lnDfmOl5;
+        "pkg-1.2.0-1.21.1-neoforge" = _lbRjIthS;
+        "pkg-1.2.0-1.21.1-fabric" = _kivaxdXU;
+        "default" = _kivaxdXU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bard-more-rpg-classes";

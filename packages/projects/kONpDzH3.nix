@@ -181,6 +181,16 @@ let
             "file" = "handycam-2.0.0-alpha+1.21.1-neoforge.jar";
             "hash" = "sha512-DTXv6vasQOTjohuw2CvDqBHSHHZz1uK3oX19X7HBNjd9yPasbW5MJAB3M0aZGF/h04X7vMF/7H+8LhRakWr0gA==";
         };
+        _mdydX1Hs = {
+            "id" = "mdydX1Hs";
+            "file" = "handycam-2.0.1-beta+1.21.1-neoforge.jar";
+            "hash" = "sha512-Ez7CnhEFCBdPQiRM2CrbmWyt0JYQzPFJaHZaZWcqq0zynIbcNgCn1aqFno076KLQhUE8UZdBf6C3SPqS0Jc87g==";
+        };
+        _5WFclLbb = {
+            "id" = "5WFclLbb";
+            "file" = "handycam-2.0.1-beta+1.21.1-fabric.jar";
+            "hash" = "sha512-yUQMYcDeWIfDy62qc441aPfeP8ja7Mtt32qRfmMLyJLLy2U/FfGVHv+CFy4Y1R9wGkvSfsEXQBCiJnUUOvhm+A==";
+        };
     in {
         "DbCKW0vT" = _DbCKW0vT;
         "HbSCbgpr" = _HbSCbgpr;
@@ -218,16 +228,18 @@ let
         "lpm6tae8" = _lpm6tae8;
         "B528OJx5" = _B528OJx5;
         "C7XGxqWT" = _C7XGxqWT;
+        "mdydX1Hs" = _mdydX1Hs;
+        "5WFclLbb" = _5WFclLbb;
         "fabric-1.21.4" = _qVwKvZl0;
         "fabric-1.21.11" = _d137nyh6;
-        "fabric-1.21.1" = _B528OJx5;
+        "fabric-1.21.1" = _5WFclLbb;
         "fabric-1.20.1" = _svbtlGhO;
         "fabric-26.1" = _Uqi4jY5u;
         "fabric-26.2" = _zuZK0Io7;
         "fabric-1.21.10" = _5pc7ekZ3;
         "neoforge-1.21.4" = _iGSusn6m;
         "neoforge-1.21.11" = _hW1ACxB4;
-        "neoforge-1.21.1" = _C7XGxqWT;
+        "neoforge-1.21.1" = _mdydX1Hs;
         "neoforge-26.1" = _cwG7xUFg;
         "neoforge-26.2" = _JAKNZO2E;
         "neoforge-1.21.10" = _lpm6tae8;
@@ -250,7 +262,8 @@ let
         "pkg-1.3.2+1.20.1" = _GJCXbPoQ;
         "pkg-1.3.2+1.21.10" = _lpm6tae8;
         "pkg-2.0.0+1.21.1" = _C7XGxqWT;
-        "default" = _C7XGxqWT;
+        "pkg-2.0.1+1.21.1" = _5WFclLbb;
+        "default" = _5WFclLbb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "handycam";

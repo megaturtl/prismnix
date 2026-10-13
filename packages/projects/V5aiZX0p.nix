@@ -211,6 +211,11 @@ let
             "file" = "NiceWurst-v7.55.1-CevAPI-MC26.3_v0.60.jar";
             "hash" = "sha512-iZnHrdhxCdVWyADciOnaJo047HmQL50lQGUdnd5YyTphMwgLki4FYm2QsD2KT+evFWawFdUZFrXnk829P+NdvA==";
         };
+        _Fv2GepJR = {
+            "id" = "Fv2GepJR";
+            "file" = "NiceWurst-v7.56-CevAPI-MC26.3_v0.61.jar";
+            "hash" = "sha512-k//QibGfn7dcwFIiaHw9CNKICyM7OjiIZ/9RapXHej1y2/HcA1B4nqQfR4n1q4M4uR7Bf49F/jMOMGw7Q5kSiw==";
+        };
     in {
         "PVqtOOJt" = _PVqtOOJt;
         "v5DdZoa6" = _v5DdZoa6;
@@ -254,6 +259,7 @@ let
         "Xytcgj8P" = _Xytcgj8P;
         "YAEeSc8k" = _YAEeSc8k;
         "XstbwzTD" = _XstbwzTD;
+        "Fv2GepJR" = _Fv2GepJR;
         "fabric-1.21.8" = _U2nGqW28;
         "fabric-1.21.10" = _22P50zWr;
         "fabric-1.21.11" = _1xqxhsB0;
@@ -263,7 +269,7 @@ let
         "fabric-26.1.2" = _vn3aqA9l;
         "fabric-26.2" = _YAEeSc8k;
         "fabric-26.2-pre-4" = _Xytcgj8P;
-        "fabric-26.3" = _XstbwzTD;
+        "fabric-26.3" = _Fv2GepJR;
         "pkg-0.37" = _v5DdZoa6;
         "pkg-0.38" = _sFUAB2Ti;
         "pkg-0.39" = _RcxKnIpd;
@@ -288,7 +294,8 @@ let
         "pkg-0.58" = _aXCdbVoG;
         "pkg-0.59" = _Xytcgj8P;
         "pkg-0.60" = _XstbwzTD;
-        "default" = _XstbwzTD;
+        "pkg-0.61" = _Fv2GepJR;
+        "default" = _Fv2GepJR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nicewurst";

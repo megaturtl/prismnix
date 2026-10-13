@@ -116,6 +116,16 @@ let
             "file" = "mountopacity-1.2.4+26.3-fabric.jar";
             "hash" = "sha512-bRmbal8mTXMfHNAqR6Exbt0dax9YtEqFJR8MKHpuOnQRpbTEbGcqllWwYM3oMgZ+yHab4iwFYE97g3RE/xwqVQ==";
         };
+        _tHlxfy1f = {
+            "id" = "tHlxfy1f";
+            "file" = "mountopacity-1.2.5+26.2-fabric.jar";
+            "hash" = "sha512-lPAOCOAc5ekkvMcg/5ICeXU+Otfq1UUdtJsWxUvGVzU5VetalxSPg95bQhXpeGpuDNHgoTKADrJ059jCAihilw==";
+        };
+        _nhoh8MZH = {
+            "id" = "nhoh8MZH";
+            "file" = "mountopacity-1.2.5+26.3-fabric.jar";
+            "hash" = "sha512-nfQq40+RAnTqpiFMiqwkvIWrad8qT3aXDt+5rLHGgsVyeR8jP7E289yIKsvzwynWZm2M8ZyFHJ20KdjxnZ8Wug==";
+        };
     in {
         "4VADPsLX" = _4VADPsLX;
         "hQCMATZT" = _hQCMATZT;
@@ -140,6 +150,8 @@ let
         "9QJdEoYc" = _9QJdEoYc;
         "iRkNdyMA" = _iRkNdyMA;
         "2OSifGxk" = _2OSifGxk;
+        "tHlxfy1f" = _tHlxfy1f;
+        "nhoh8MZH" = _nhoh8MZH;
         "fabric-1.20.1" = _iKq22zu4;
         "fabric-1.20.3" = _iKq22zu4;
         "fabric-1.20.4" = _iKq22zu4;
@@ -152,11 +164,11 @@ let
         "fabric-1.21.8" = _DrdccADX;
         "fabric-1.21.10" = _B1vDXG1r;
         "fabric-1.21.11" = _EYaEihhu;
-        "fabric-26.1" = _iRkNdyMA;
-        "fabric-26.1.1" = _iRkNdyMA;
-        "fabric-26.1.2" = _iRkNdyMA;
-        "fabric-26.2" = _iRkNdyMA;
-        "fabric-26.3" = _2OSifGxk;
+        "fabric-26.1" = _tHlxfy1f;
+        "fabric-26.1.1" = _tHlxfy1f;
+        "fabric-26.1.2" = _tHlxfy1f;
+        "fabric-26.2" = _tHlxfy1f;
+        "fabric-26.3" = _nhoh8MZH;
         "neoforge-1.21.1" = _Al7hhcvZ;
         "neoforge-1.21.3" = _HVLs6mrx;
         "neoforge-1.21.4" = _HVLs6mrx;
@@ -175,7 +187,8 @@ let
         "pkg-1.2.2" = _5MlxDj3d;
         "pkg-1.2.3" = _9QJdEoYc;
         "pkg-1.2.4" = _2OSifGxk;
-        "default" = _2OSifGxk;
+        "pkg-1.2.5" = _nhoh8MZH;
+        "default" = _nhoh8MZH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mountopacity";

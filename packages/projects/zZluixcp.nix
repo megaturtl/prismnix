@@ -576,6 +576,16 @@ let
             "file" = "forge_soundattract_1.20.1-7.0.0.jar";
             "hash" = "sha512-trIos5v5/vuX8/+rrDlbW5EcyXb0A4d7Aw4F9azyfQIfw7wgB0Yf9wDqX1R2EZ4JHvdbjuh8KKUxxJGu3C6hcg==";
         };
+        _IA7bVyvf = {
+            "id" = "IA7bVyvf";
+            "file" = "forge_soundattract_1.20.1-7.0.1.jar";
+            "hash" = "sha512-LNq11x+6PNd7dX/p3zSLpK5XVJMEshM7kuJuScZNoA9AfSpFiulKTamzoa/8YwgFh0FNSEEDa+q57LKYRLDr1g==";
+        };
+        _6LyKLkEC = {
+            "id" = "6LyKLkEC";
+            "file" = "forge_soundattract_1.20.1-7.0.2-all.jar";
+            "hash" = "sha512-e0YL+vVptGUDVH5GERRdzZ5bgU/OxYCH2rh1pVSsz8UFrCXqwNzp9gJS3CUqCGvD1Bv2yAvP3RDjEpxfMoZleQ==";
+        };
     in {
         "4Z7xgC5k" = _4Z7xgC5k;
         "rrWHVsF4" = _rrWHVsF4;
@@ -692,13 +702,15 @@ let
         "HeN6cwOK" = _HeN6cwOK;
         "T1A5y2Mz" = _T1A5y2Mz;
         "Q6Zjy2Yu" = _Q6Zjy2Yu;
+        "IA7bVyvf" = _IA7bVyvf;
+        "6LyKLkEC" = _6LyKLkEC;
         "forge-1.18" = _rrWHVsF4;
         "forge-1.18.1" = _rrWHVsF4;
         "forge-1.18.2" = _1zpBdUOH;
         "forge-1.19" = _kkbU9NQ5;
         "forge-1.19.1" = _kkbU9NQ5;
         "forge-1.19.2" = _JSt8rmuD;
-        "forge-1.20.1" = _Q6Zjy2Yu;
+        "forge-1.20.1" = _6LyKLkEC;
         "forge-1.20" = _wJbAD1ZH;
         "fabric-1.20.1" = _T1A5y2Mz;
         "fabric-1.21.1" = _lp3crQww;
@@ -769,7 +781,9 @@ let
         "pkg-6.3.8d" = _gCBXBgLy;
         "pkg-6.3.3b" = _HeN6cwOK;
         "pkg-7.0.0" = _Q6Zjy2Yu;
-        "default" = _Q6Zjy2Yu;
+        "pkg-7.0.1" = _IA7bVyvf;
+        "pkg-7.0.2" = _6LyKLkEC;
+        "default" = _6LyKLkEC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "attract-to-sound";

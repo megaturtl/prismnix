@@ -431,6 +431,16 @@ let
             "file" = "better-end-26.3.4-fabric.jar";
             "hash" = "sha512-8z8WMCNujw/UW7Y7xDJUIw+3s8D0fkgDrbbIG3/bqxr/w78DU6XbqNzz89/OLSl/Et3kfJRwaldCcN2yYzH/Lg==";
         };
+        _8sIC3Wzg = {
+            "id" = "8sIC3Wzg";
+            "file" = "better-end-26.3.5-fabric.jar";
+            "hash" = "sha512-UZBKfC+N18pFOMrrsqQ9hBQ1/LsYNdPbT94N1J/0wo0b6RGTJNaH1egbTIEmOmh4ZXj/+Z3aS8MQOh2IeOJI2Q==";
+        };
+        _u5xKjYKa = {
+            "id" = "u5xKjYKa";
+            "file" = "BetterEnd-26.3.5.jar";
+            "hash" = "sha512-zjqdN8D225gKG5DxvKknIpdkQEOb/OdqG/T4VsaoX1TgSo0G3PddinudemZMeGhouIc1waBk1YdUfYgUH6FWAw==";
+        };
     in {
         "D4cztZbf" = _D4cztZbf;
         "Enq03Cl4" = _Enq03Cl4;
@@ -518,6 +528,8 @@ let
         "qyzjDfxo" = _qyzjDfxo;
         "zuyHzRzo" = _zuyHzRzo;
         "DGhDHZ9z" = _DGhDHZ9z;
+        "8sIC3Wzg" = _8sIC3Wzg;
+        "u5xKjYKa" = _u5xKjYKa;
         "neoforge-1.21" = _pfmzeBpk;
         "neoforge-1.21.1" = _pfmzeBpk;
         "neoforge-1.21.11" = _ojbaDN2X;
@@ -525,7 +537,7 @@ let
         "neoforge-26.1.1" = _GIEZxjaX;
         "neoforge-26.1.2" = _GIEZxjaX;
         "neoforge-26.2" = _779QhNyp;
-        "neoforge-26.3" = _zuyHzRzo;
+        "neoforge-26.3" = _u5xKjYKa;
         "fabric-1.21" = _cSKblIqM;
         "fabric-1.21.1" = _cSKblIqM;
         "fabric-1.21.11" = _ZnxTJcRq;
@@ -533,7 +545,7 @@ let
         "fabric-26.1.1" = _WSOGIuz0;
         "fabric-26.1.2" = _WSOGIuz0;
         "fabric-26.2" = _5U07vKLg;
-        "fabric-26.3" = _DGhDHZ9z;
+        "fabric-26.3" = _8sIC3Wzg;
         "quilt-1.21" = _cSKblIqM;
         "quilt-1.21.1" = _cSKblIqM;
         "quilt-1.21.11" = _ZnxTJcRq;
@@ -541,7 +553,7 @@ let
         "quilt-26.1.1" = _WSOGIuz0;
         "quilt-26.1.2" = _WSOGIuz0;
         "quilt-26.2" = _5U07vKLg;
-        "quilt-26.3" = _DGhDHZ9z;
+        "quilt-26.3" = _8sIC3Wzg;
         "pkg-21.0.12" = _D4cztZbf;
         "pkg-21.0.13" = _Enq03Cl4;
         "pkg-21.0.14" = _dCJnkdNB;
@@ -628,7 +640,9 @@ let
         "pkg-26.3.3" = _qyzjDfxo;
         "pkg-26.3.4" = _zuyHzRzo;
         "pkg-26.3.4-fabric" = _DGhDHZ9z;
-        "default" = _DGhDHZ9z;
+        "pkg-26.3.5-fabric" = _8sIC3Wzg;
+        "pkg-26.3.5" = _u5xKjYKa;
+        "default" = _u5xKjYKa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "betterend-neoforge";

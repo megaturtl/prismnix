@@ -666,6 +666,11 @@ let
             "file" = "mc2discord-neoforge-26.3-4.3.1.jar";
             "hash" = "sha512-PlUTeGw2PWH1Fy9oUfwArAEmJRcU1UpwpTrE8FZdsQJ89tLclRtlyxrjOndKJoEZJi1ue23wICBM8TcOVXBHAg==";
         };
+        _GGGmVuL9 = {
+            "id" = "GGGmVuL9";
+            "file" = "mc2discord-fabric-26.2-4.3.2.jar";
+            "hash" = "sha512-hn7Qgkn+KIZlgZT0p5J5J+88ze39p9XVLIMyLaU4sGSTY5VpL8uvzk4ZhmLfk69czqlEiktN6r2sZKIT2zb7oQ==";
+        };
     in {
         "Osuuc5uZ" = _Osuuc5uZ;
         "VlNRdapb" = _VlNRdapb;
@@ -800,6 +805,7 @@ let
         "gfu06G1f" = _gfu06G1f;
         "slMJRJ5A" = _slMJRJ5A;
         "5L7EITFt" = _5L7EITFt;
+        "GGGmVuL9" = _GGGmVuL9;
         "forge-1.16.1" = _yzpiPXT5;
         "forge-1.16.2" = _yzpiPXT5;
         "forge-1.16.3" = _yzpiPXT5;
@@ -852,10 +858,10 @@ let
         "fabric-1.21.6" = _1MS7WOKF;
         "fabric-1.21.10" = _sfMa9M69;
         "fabric-1.21.11" = _sfMa9M69;
-        "fabric-26.1" = _oEVUWwB6;
-        "fabric-26.1.1" = _oEVUWwB6;
-        "fabric-26.1.2" = _oEVUWwB6;
-        "fabric-26.2" = _oEVUWwB6;
+        "fabric-26.1" = _GGGmVuL9;
+        "fabric-26.1.1" = _GGGmVuL9;
+        "fabric-26.1.2" = _GGGmVuL9;
+        "fabric-26.2" = _GGGmVuL9;
         "fabric-26.3" = _slMJRJ5A;
         "quilt-1.20" = _NCDBVONy;
         "quilt-1.20.1" = _NCDBVONy;
@@ -927,7 +933,8 @@ let
         "pkg-4.2.8" = _iEsgV5sd;
         "pkg-4.3.0" = _3nrgwVcW;
         "pkg-4.3.1" = _5L7EITFt;
-        "default" = _5L7EITFt;
+        "pkg-4.3.2" = _GGGmVuL9;
+        "default" = _GGGmVuL9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mc2discord";

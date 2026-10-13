@@ -41,6 +41,16 @@ let
             "file" = "Mythic-Origins-1.1.2-1.21.jar";
             "hash" = "sha512-R2D9gNGuNBlB7TCf5hABhjYwXKeSEYzoypruB1W0sipEhvx6aJUVrjAFWAutGcZ3wFxo5D8iGBwKyJsi421Hqg==";
         };
+        _DH8BzCaJ = {
+            "id" = "DH8BzCaJ";
+            "file" = "Mythic-Origins-1.1.3-fabric-1.21.jar";
+            "hash" = "sha512-G2kiKfX2ATHWYH1tm3MIuHaa4zMm4FIAssG2fqiyppef+3q+yy3POusuhZI9xqaHC1TJ18+0AoAhPdQZzcRchw==";
+        };
+        _XwZLTEwc = {
+            "id" = "XwZLTEwc";
+            "file" = "Mythic-Origins-1.1.3-neoforge-1.21.jar";
+            "hash" = "sha512-YpXLC2yWZ3lM5USH+SCM0iy1Pwg43HCL4CCPcYbBkLhk32SBFzo8iuSjShi+u7Clh9QBZ9nw0MhV7R2ojz6fpA==";
+        };
     in {
         "QG1gHmx4" = _QG1gHmx4;
         "YI1x436V" = _YI1x436V;
@@ -50,6 +60,8 @@ let
         "HzpvHwze" = _HzpvHwze;
         "m0ppsplu" = _m0ppsplu;
         "RKcaEmwi" = _RKcaEmwi;
+        "DH8BzCaJ" = _DH8BzCaJ;
+        "XwZLTEwc" = _XwZLTEwc;
         "fabric-1.19" = _oeqslS8v;
         "fabric-1.19.1" = _oeqslS8v;
         "fabric-1.19.2" = _oeqslS8v;
@@ -63,17 +75,17 @@ let
         "fabric-1.20.5" = _oeqslS8v;
         "fabric-1.20.6" = _oeqslS8v;
         "fabric-1.21" = _oeqslS8v;
-        "fabric-1.21.1" = _RKcaEmwi;
-        "fabric-1.21.2" = _RKcaEmwi;
-        "fabric-1.21.3" = _RKcaEmwi;
-        "fabric-1.21.4" = _RKcaEmwi;
-        "fabric-1.21.5" = _RKcaEmwi;
-        "fabric-1.21.6" = _RKcaEmwi;
-        "fabric-1.21.7" = _RKcaEmwi;
-        "fabric-1.21.8" = _RKcaEmwi;
-        "fabric-1.21.9" = _RKcaEmwi;
-        "fabric-1.21.10" = _RKcaEmwi;
-        "fabric-1.21.11" = _RKcaEmwi;
+        "fabric-1.21.1" = _DH8BzCaJ;
+        "fabric-1.21.2" = _DH8BzCaJ;
+        "fabric-1.21.3" = _DH8BzCaJ;
+        "fabric-1.21.4" = _DH8BzCaJ;
+        "fabric-1.21.5" = _DH8BzCaJ;
+        "fabric-1.21.6" = _DH8BzCaJ;
+        "fabric-1.21.7" = _DH8BzCaJ;
+        "fabric-1.21.8" = _DH8BzCaJ;
+        "fabric-1.21.9" = _DH8BzCaJ;
+        "fabric-1.21.10" = _DH8BzCaJ;
+        "fabric-1.21.11" = _DH8BzCaJ;
         "forge-1.19" = _oeqslS8v;
         "forge-1.19.1" = _oeqslS8v;
         "forge-1.19.2" = _oeqslS8v;
@@ -104,7 +116,7 @@ let
         "neoforge-1.20.5" = _oeqslS8v;
         "neoforge-1.20.6" = _oeqslS8v;
         "neoforge-1.21" = _oeqslS8v;
-        "neoforge-1.21.1" = _RKcaEmwi;
+        "neoforge-1.21.1" = _XwZLTEwc;
         "neoforge-1.21.2" = _RKcaEmwi;
         "neoforge-1.21.3" = _RKcaEmwi;
         "neoforge-1.21.4" = _RKcaEmwi;
@@ -138,7 +150,8 @@ let
         "pkg-1.1.0" = _HzpvHwze;
         "pkg-1.1.1" = _m0ppsplu;
         "pkg-1.1.2" = _RKcaEmwi;
-        "default" = _RKcaEmwi;
+        "pkg-1.1.3" = _XwZLTEwc;
+        "default" = _XwZLTEwc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mythic-origins";

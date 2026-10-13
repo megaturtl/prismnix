@@ -861,6 +861,11 @@ let
             "file" = "ParCool-1.19.2-4.0.1.3.jar";
             "hash" = "sha512-2AhXj+J+hAORPQc5NATVOhIXhe6LWcO0Be1QduacKW5vCg0YVEGK/1OlF4gVdGhiYRqVLCBREUVcDdQ/tfJdxg==";
         };
+        _6yV2P1Ne = {
+            "id" = "6yV2P1Ne";
+            "file" = "ParCool-1.20.1-4.0.1.4.jar";
+            "hash" = "sha512-z3PuGBKPZBFTp0sVTwwDfhV1jMmi12h7xsSjmVVnIuVlNYbp9Wrgk6GDCwIMmX6LrxAc+rfIgHYCQ0BCT3WVgw==";
+        };
     in {
         "XJhVvPgr" = _XJhVvPgr;
         "j9xdl4ug" = _j9xdl4ug;
@@ -1034,8 +1039,9 @@ let
         "983stCp3" = _983stCp3;
         "rVxTrE7r" = _rVxTrE7r;
         "KfCVtsIF" = _KfCVtsIF;
+        "6yV2P1Ne" = _6yV2P1Ne;
         "forge-1.20.2" = _HZLGU7hG;
-        "forge-1.20.1" = _983stCp3;
+        "forge-1.20.1" = _6yV2P1Ne;
         "forge-1.20" = _HZLGU7hG;
         "forge-1.19.4" = _pkfxtglR;
         "forge-1.19.3" = _CcD0YkiH;
@@ -1222,7 +1228,8 @@ let
         "pkg-1.20.1-4.0.1.2" = _983stCp3;
         "pkg-1.21.1-4.0.1.2" = _rVxTrE7r;
         "pkg-1.19.2-4.0.1.3" = _KfCVtsIF;
-        "default" = _KfCVtsIF;
+        "pkg-1.20.1-4.0.1.4" = _6yV2P1Ne;
+        "default" = _6yV2P1Ne;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "parcool";

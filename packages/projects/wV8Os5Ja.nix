@@ -91,6 +91,11 @@ let
             "file" = "kubastfca-1.0.1.jar";
             "hash" = "sha512-HJevz0BRLluoEWOmEhTaayuIauxM6ikbQ/9yt8vLoZP3tg3gbXcMarPxN9JLhoFjVktmvvqmphEWmI4SIQ0aUA==";
         };
+        _lY5tD1VH = {
+            "id" = "lY5tD1VH";
+            "file" = "kubastfca-2.4.jar";
+            "hash" = "sha512-bozZfsfaxsDsUjcRpkuNnS0MMOo6VququMqkZhUzIE7fyWVEDSrM0Szp8Zk07Hz9xdtyhaHA2YTqg3ucRvYm2A==";
+        };
     in {
         "pgingKi9" = _pgingKi9;
         "96dQeCQ3" = _96dQeCQ3;
@@ -110,8 +115,9 @@ let
         "7mhCaGvs" = _7mhCaGvs;
         "BOefqtFM" = _BOefqtFM;
         "1mFFTVyC" = _1mFFTVyC;
+        "lY5tD1VH" = _lY5tD1VH;
         "forge-1.20.1" = _1mFFTVyC;
-        "neoforge-1.21.1" = _BOefqtFM;
+        "neoforge-1.21.1" = _lY5tD1VH;
         "pkg-0.4.3" = _pgingKi9;
         "pkg-0.4.4" = _96dQeCQ3;
         "pkg-0.5" = _L6G0blXo;
@@ -130,7 +136,8 @@ let
         "pkg-2.2.1" = _7mhCaGvs;
         "pkg-2.2.3" = _BOefqtFM;
         "pkg-1.0.1" = _1mFFTVyC;
-        "default" = _1mFFTVyC;
+        "pkg-2.4" = _lY5tD1VH;
+        "default" = _lY5tD1VH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kubas-tfc-additions";

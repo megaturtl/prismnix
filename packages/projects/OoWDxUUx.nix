@@ -56,6 +56,16 @@ let
             "file" = "trimme2-1.3.0.jar";
             "hash" = "sha512-Eu/tyAukj+ufFBatcTwQ+wq3u3xnvlOVrgAr1M22HqV4yiAB7fc2iKfRlOBz1+iAJFjqGG/MYKJ9k4hu1QC3Vw==";
         };
+        _7RekT8a7 = {
+            "id" = "7RekT8a7";
+            "file" = "TrimMe2DP.zip";
+            "hash" = "sha512-yeSIf6VCIb3bTxznSMIryO+vQ0pR4N4Sa6MTK+zQXBsCDsDG/viF5FCrls7HFz36x++/BxOUv1lJC00SJVczfg==";
+        };
+        _odpRY9ea = {
+            "id" = "odpRY9ea";
+            "file" = "trimme2-1.3.1.jar";
+            "hash" = "sha512-osk0JqiiYuuN4pu3ztlDZwf/bzDUZyDWFpquYcH2icfZldh3ym9Wdx6RnUcosapCQOM11DmWkAHCJEKH0+OqYg==";
+        };
     in {
         "feyJMujJ" = _feyJMujJ;
         "YBptURG1" = _YBptURG1;
@@ -68,6 +78,8 @@ let
         "VX3mATLt" = _VX3mATLt;
         "TVSnbNof" = _TVSnbNof;
         "gq5eK60n" = _gq5eK60n;
+        "7RekT8a7" = _7RekT8a7;
+        "odpRY9ea" = _odpRY9ea;
         "datapack-24w36a" = _YBptURG1;
         "datapack-24w37a" = _YBptURG1;
         "datapack-1.21.2" = _1j95HMt1;
@@ -78,30 +90,36 @@ let
         "datapack-1.21.7" = _7lvupWVc;
         "datapack-1.21.8" = _7lvupWVc;
         "datapack-1.21.11" = _TVSnbNof;
+        "datapack-26.3" = _7RekT8a7;
         "fabric-1.21.4" = _VX3mATLt;
         "fabric-1.21.5" = _VX3mATLt;
         "fabric-1.21.6" = _VX3mATLt;
         "fabric-1.21.7" = _VX3mATLt;
         "fabric-1.21.8" = _VX3mATLt;
         "fabric-1.21.11" = _gq5eK60n;
+        "fabric-26.3" = _odpRY9ea;
         "forge-1.21.4" = _VX3mATLt;
         "forge-1.21.5" = _VX3mATLt;
         "forge-1.21.6" = _VX3mATLt;
         "forge-1.21.7" = _VX3mATLt;
         "forge-1.21.8" = _VX3mATLt;
         "forge-1.21.11" = _gq5eK60n;
+        "forge-26.3" = _odpRY9ea;
         "neoforge-1.21.4" = _VX3mATLt;
         "neoforge-1.21.5" = _VX3mATLt;
         "neoforge-1.21.6" = _VX3mATLt;
         "neoforge-1.21.7" = _VX3mATLt;
         "neoforge-1.21.8" = _VX3mATLt;
         "neoforge-1.21.11" = _gq5eK60n;
+        "neoforge-26.3" = _odpRY9ea;
         "quilt-1.21.4" = _VX3mATLt;
         "quilt-1.21.5" = _VX3mATLt;
         "quilt-1.21.6" = _VX3mATLt;
         "quilt-1.21.7" = _VX3mATLt;
         "quilt-1.21.8" = _VX3mATLt;
         "quilt-1.21.11" = _gq5eK60n;
+        "quilt-26.3" = _odpRY9ea;
+        "minecraft-26.3" = _7RekT8a7;
         "pkg-1.0" = _feyJMujJ;
         "pkg-1.1" = _YBptURG1;
         "pkg-1.1.1" = _1j95HMt1;
@@ -113,7 +131,9 @@ let
         "pkg-1.2.2+mod" = _VX3mATLt;
         "pkg-1.3.0" = _TVSnbNof;
         "pkg-1.3.0+mod" = _gq5eK60n;
-        "default" = _gq5eK60n;
+        "pkg-1.3.1" = _7RekT8a7;
+        "pkg-1.3.1+mod" = _odpRY9ea;
+        "default" = _odpRY9ea;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trimme2";

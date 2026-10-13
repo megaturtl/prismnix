@@ -76,6 +76,11 @@ let
             "file" = "SlimefunCore4-2872.jar";
             "hash" = "sha512-/xMsxygLI1Vw9ftRp9kXGHs0bJYkWLqSrSIU/WHz2X7XFfIAiUxqXn78XQbP2b4GMLl1xFSwf+D0Dt2bxrFgiw==";
         };
+        _8BPkEd8e = {
+            "id" = "8BPkEd8e";
+            "file" = "SlimefunCore4-2880.jar";
+            "hash" = "sha512-KhdUetKoEyDGCyJpeAAxO3H4Yjl2opdb5df+nmmJuhxc2C3sWA8id7cPWrCeKgJdzT/l86rWVn+0nlhwT5VPfw==";
+        };
     in {
         "1fCkq2KW" = _1fCkq2KW;
         "3rkJp7tf" = _3rkJp7tf;
@@ -92,6 +97,7 @@ let
         "M14FNoN1" = _M14FNoN1;
         "oAtmtUZ9" = _oAtmtUZ9;
         "CW478LWF" = _CW478LWF;
+        "8BPkEd8e" = _8BPkEd8e;
         "bukkit-1.21.11" = _PEuZoZh4;
         "bukkit-1.21" = _PEuZoZh4;
         "bukkit-1.21.1" = _PEuZoZh4;
@@ -104,10 +110,10 @@ let
         "bukkit-1.21.8" = _PEuZoZh4;
         "bukkit-1.21.9" = _PEuZoZh4;
         "bukkit-1.21.10" = _PEuZoZh4;
-        "bukkit-26.1" = _CW478LWF;
-        "bukkit-26.1.1" = _CW478LWF;
-        "bukkit-26.1.2" = _CW478LWF;
-        "bukkit-26.2" = _CW478LWF;
+        "bukkit-26.1" = _8BPkEd8e;
+        "bukkit-26.1.1" = _8BPkEd8e;
+        "bukkit-26.1.2" = _8BPkEd8e;
+        "bukkit-26.2" = _8BPkEd8e;
         "paper-1.21.11" = _PEuZoZh4;
         "paper-1.21" = _PEuZoZh4;
         "paper-1.21.1" = _PEuZoZh4;
@@ -120,10 +126,10 @@ let
         "paper-1.21.8" = _PEuZoZh4;
         "paper-1.21.9" = _PEuZoZh4;
         "paper-1.21.10" = _PEuZoZh4;
-        "paper-26.1" = _CW478LWF;
-        "paper-26.1.1" = _CW478LWF;
-        "paper-26.1.2" = _CW478LWF;
-        "paper-26.2" = _CW478LWF;
+        "paper-26.1" = _8BPkEd8e;
+        "paper-26.1.1" = _8BPkEd8e;
+        "paper-26.1.2" = _8BPkEd8e;
+        "paper-26.2" = _8BPkEd8e;
         "purpur-1.21.11" = _PEuZoZh4;
         "purpur-1.21" = _PEuZoZh4;
         "purpur-1.21.1" = _PEuZoZh4;
@@ -152,10 +158,10 @@ let
         "spigot-1.21.8" = _PEuZoZh4;
         "spigot-1.21.9" = _PEuZoZh4;
         "spigot-1.21.10" = _PEuZoZh4;
-        "spigot-26.1" = _CW478LWF;
-        "spigot-26.1.1" = _CW478LWF;
-        "spigot-26.1.2" = _CW478LWF;
-        "spigot-26.2" = _CW478LWF;
+        "spigot-26.1" = _8BPkEd8e;
+        "spigot-26.1.1" = _8BPkEd8e;
+        "spigot-26.1.2" = _8BPkEd8e;
+        "spigot-26.2" = _8BPkEd8e;
         "pkg-2614" = _1fCkq2KW;
         "pkg-2626" = _3rkJp7tf;
         "pkg-2647" = _AV4jaH8B;
@@ -171,7 +177,8 @@ let
         "pkg-2860" = _M14FNoN1;
         "pkg-2870" = _oAtmtUZ9;
         "pkg-2872" = _CW478LWF;
-        "default" = _CW478LWF;
+        "pkg-2880" = _8BPkEd8e;
+        "default" = _8BPkEd8e;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "slimefuncore";

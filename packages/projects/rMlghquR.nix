@@ -511,6 +511,86 @@ let
             "file" = "TC-Redstone-26.2-Fabric-3.2.5.jar";
             "hash" = "sha512-LDOW12eOzVMjpWs2DeJi2qXeOVXkrFLEIFURrqGhdcHDJBzy9DntN+zxwzphbndHbuqM7+IAWhBTAAJPHrPu5A==";
         };
+        _cXWx93Qz = {
+            "id" = "cXWx93Qz";
+            "file" = "TC-Redstone-1.20.6-Fabric-3.2.6.jar";
+            "hash" = "sha512-VwJ7Y7Q8zj7HrTE09uAe5U0DvR9sNqfIX3qEA5fOHsN8hs2ag7Mxm+Es9JXP//PupMVmNHmIP5x4l6d1IUSqXg==";
+        };
+        _pIoLRk2Q = {
+            "id" = "pIoLRk2Q";
+            "file" = "TC-Redstone-1.21.1-Fabric-3.2.6.jar";
+            "hash" = "sha512-v2J0J2bAdviRII85K9clWGajQVaP9xhTwTmp+twHvWNMAhQ9sDIA8eaYl5Bx98R6Ppfb245HcLUzf8rPYHzBNA==";
+        };
+        _dK5vysl6 = {
+            "id" = "dK5vysl6";
+            "file" = "TC-Redstone-1.21.4-Fabric-3.2.6.jar";
+            "hash" = "sha512-FvuKHxh0XY3P4lS7qUUYpezKR1FuS8idkF9KBuT+q+QofdMv+WJBW27FkTze8lJ0eqX88sXhOVFBs3ks0AWZTg==";
+        };
+        _r4lLG4Yc = {
+            "id" = "r4lLG4Yc";
+            "file" = "TC-Redstone-1.20.6-3.2.6.jar";
+            "hash" = "sha512-XvZp3lTtpDrF154Rg1pZFEUci52u7XZev0xhFjEBVPwm1+6YcxkcXvs0hQTJdG0HLz5saZN3Rlx6z7kjEsKG7A==";
+        };
+        _1g8tvt8l = {
+            "id" = "1g8tvt8l";
+            "file" = "TC-Redstone-1.21.8-Fabric-3.2.6.jar";
+            "hash" = "sha512-hTGmNl5QOZrDfcR6viIlw7ME0g35cBWxtkXwk0LixhZ/KktAPaenjwHRc1migfgB0jkZgvOLl8JHoIuE83bnrw==";
+        };
+        _JUi1zh4a = {
+            "id" = "JUi1zh4a";
+            "file" = "TC-Redstone-26.1.2-Fabric-3.2.6.jar";
+            "hash" = "sha512-OgJ8N+i9bBskmPJZwROxkOdjVe9VRKEdtYJsN5Fi5hvA6z/x91aBE0ISr5TaRPsWXKCrBJp6ZWmh043ZxC95sw==";
+        };
+        _pbo0Ayoi = {
+            "id" = "pbo0Ayoi";
+            "file" = "TC-Redstone-1.21.11-Fabric-3.2.6.jar";
+            "hash" = "sha512-Gh07fhN5wCxBSCT/4eVMHNqf91wBAw1rsipey7qeAjFS0fkDPsngnQIeAj8A53bUqat3tfxDk2fnpKRuBR0pkA==";
+        };
+        _DHyjc1Cc = {
+            "id" = "DHyjc1Cc";
+            "file" = "TC-Redstone-26.2-Fabric-3.2.6.jar";
+            "hash" = "sha512-cXKqgindLlyJdcaj0XdLUf8d89tVtoSjr/ODOl/X68HBg/kkCRDrHDtk6u15aiyilGZPdNV9MKgCSEYk6lN1QQ==";
+        };
+        _ClZkrjjc = {
+            "id" = "ClZkrjjc";
+            "file" = "TC-Redstone-26.1.2-Neoforge-3.2.6.jar";
+            "hash" = "sha512-8Fn92Aom2YgCcwfeivBKSliY9tarl6MZ9IpqmGy7Dx+MfabIdHpEYqJgACXx75Ouq/zDewKUko3hLwwP0ls3lg==";
+        };
+        _eBKcK60w = {
+            "id" = "eBKcK60w";
+            "file" = "TC-Redstone-1.21.11-Neoforge-3.2.6.jar";
+            "hash" = "sha512-3KMc94jZEmwYVKO6tcSFnohTE9jz7atV3JeauYSKhBO8kjglTAPvW01m5QoZBllBGXtVMdLSclPbYhz4+F+zJg==";
+        };
+        _S4IHbRSw = {
+            "id" = "S4IHbRSw";
+            "file" = "TC-Redstone-26.3-Fabric-3.2.6.jar";
+            "hash" = "sha512-cZfoSgUnmIxYb3vPfuZ7UceRcjyviqBjAaBpCghTU3C2rtcBCrjXk5UGaFgnh8piyTM/54uflO2IS5RtSobe0A==";
+        };
+        _QFaodmCu = {
+            "id" = "QFaodmCu";
+            "file" = "TC-Redstone-26.2-Neoforge-3.2.6.jar";
+            "hash" = "sha512-nIby6j15pPtzshShQ7wNFFqyjsAGrY7OD8YK8+CPImWiOc6MyhuPg3DQZWq75I6sYlpwlzsOoD/lXRhQJ0/u8g==";
+        };
+        _3yfasze8 = {
+            "id" = "3yfasze8";
+            "file" = "TC-Redstone-1.21.1-Neoforge-3.2.6.jar";
+            "hash" = "sha512-rVibhQFqTuVV5K/Sk/xqafpQVxRxAYFtL5crQeo1KEopICnmA110N6qsyky5SL/cKC09zRXpVmKVS0ZGyb3aug==";
+        };
+        _sSBNtsNX = {
+            "id" = "sSBNtsNX";
+            "file" = "TC-Redstone-26.3-Neoforge-3.2.6.jar";
+            "hash" = "sha512-WRCrJ6rIjj3rWsDXYhzWxteojn2XUniVMQ8MFo8pBdK9K1zI06GRVVLwyEmo+ywTLt2+xGRyywYXyGw7k1YzWg==";
+        };
+        _zjyjb6PV = {
+            "id" = "zjyjb6PV";
+            "file" = "TC-Redstone-1.21.4-Neoforge-3.2.6.jar";
+            "hash" = "sha512-hLWYD8W1BUw8nLYzrN/fPLzt/vwrTTiYgt34vKI9yll5oP1Y6YUXmycieOSQTGcVDUMQqSY8h7MLvxCPYxbJkA==";
+        };
+        _D1g0EPVo = {
+            "id" = "D1g0EPVo";
+            "file" = "TC-Redstone-1.21.8-Neoforge-3.2.6.jar";
+            "hash" = "sha512-58+7DhclrwVBh1SrOK1n0Cc8A+0TVypFVKxNFI0IH8UjNAAkiIgLDfU8ku5E2wyaAOjbRPCmU8RBJfkWK2FETw==";
+        };
     in {
         "4rLyloVn" = _4rLyloVn;
         "I2ygV7SM" = _I2ygV7SM;
@@ -614,6 +694,22 @@ let
         "oq9tzD3c" = _oq9tzD3c;
         "pspfox28" = _pspfox28;
         "87FkpVUJ" = _87FkpVUJ;
+        "cXWx93Qz" = _cXWx93Qz;
+        "pIoLRk2Q" = _pIoLRk2Q;
+        "dK5vysl6" = _dK5vysl6;
+        "r4lLG4Yc" = _r4lLG4Yc;
+        "1g8tvt8l" = _1g8tvt8l;
+        "JUi1zh4a" = _JUi1zh4a;
+        "pbo0Ayoi" = _pbo0Ayoi;
+        "DHyjc1Cc" = _DHyjc1Cc;
+        "ClZkrjjc" = _ClZkrjjc;
+        "eBKcK60w" = _eBKcK60w;
+        "S4IHbRSw" = _S4IHbRSw;
+        "QFaodmCu" = _QFaodmCu;
+        "3yfasze8" = _3yfasze8;
+        "sSBNtsNX" = _sSBNtsNX;
+        "zjyjb6PV" = _zjyjb6PV;
+        "D1g0EPVo" = _D1g0EPVo;
         "forge-1.12.2" = _sVXqnQcf;
         "forge-1.13.2" = _d9vx5ont;
         "forge-1.14.4" = _UjUhMAyS;
@@ -633,7 +729,7 @@ let
         "forge-1.18.1" = _YZpQIbwr;
         "forge-1.20.3" = _izcdo1aQ;
         "forge-1.20.4" = _oq9tzD3c;
-        "forge-1.20.6" = _pspfox28;
+        "forge-1.20.6" = _r4lLG4Yc;
         "forge-1.21" = _4qT5t7rJ;
         "fabric-1.14.4" = _3fov9Wrf;
         "fabric-1.15.2" = _RfdiNnBN;
@@ -642,29 +738,31 @@ let
         "fabric-1.18.2" = _K3IKiU7C;
         "fabric-1.19.4" = _q7hPQjX2;
         "fabric-1.20.4" = _E5mklIJs;
-        "fabric-1.20.6" = _K4UqPJFm;
+        "fabric-1.20.6" = _cXWx93Qz;
         "fabric-1.21" = _26VkHbKl;
-        "fabric-1.21.1" = _i9Rifvle;
+        "fabric-1.21.1" = _pIoLRk2Q;
         "fabric-1.21.2" = _YuSnpRXc;
         "fabric-1.21.3" = _VaSfrmHD;
-        "fabric-1.21.4" = _TxBa40NM;
+        "fabric-1.21.4" = _dK5vysl6;
         "fabric-1.21.5" = _vQaUHTtL;
         "fabric-1.21.6" = _YuSnpRXc;
         "fabric-1.21.7" = _YuSnpRXc;
-        "fabric-1.21.8" = _rUwpz8b1;
-        "fabric-26.1.2" = _FZ03PKNf;
-        "fabric-1.21.11" = _inqX3Ue1;
+        "fabric-1.21.8" = _1g8tvt8l;
+        "fabric-26.1.2" = _JUi1zh4a;
+        "fabric-1.21.11" = _pbo0Ayoi;
         "fabric-1.21.10" = _aK3OYLQy;
-        "fabric-26.2" = _87FkpVUJ;
-        "neoforge-1.21.1" = _2JInjRqt;
+        "fabric-26.2" = _DHyjc1Cc;
+        "fabric-26.3" = _S4IHbRSw;
+        "neoforge-1.21.1" = _3yfasze8;
         "neoforge-1.21.10" = _QNvlsCut;
-        "neoforge-1.21.11" = _AxGVnyJ5;
-        "neoforge-26.1.2" = _OUvEYOv9;
-        "neoforge-1.21.4" = _mCv4Q0h6;
+        "neoforge-1.21.11" = _eBKcK60w;
+        "neoforge-26.1.2" = _ClZkrjjc;
+        "neoforge-1.21.4" = _zjyjb6PV;
         "neoforge-1.21.3" = _sI5jC9qa;
-        "neoforge-1.21.8" = _UmAzXMr3;
+        "neoforge-1.21.8" = _D1g0EPVo;
         "neoforge-1.21.5" = _iTxKDvvQ;
-        "neoforge-26.2" = _Yj0NhN8R;
+        "neoforge-26.2" = _QFaodmCu;
+        "neoforge-26.3" = _sSBNtsNX;
         "pkg-3.1.2" = _hmylnag2;
         "pkg-3.1.3" = _C4C20qvY;
         "pkg-3.2.1" = _GL8cqUGV;
@@ -675,7 +773,8 @@ let
         "pkg-3.2.5.3" = _sVXqnQcf;
         "pkg-3.2.5.2" = _oq9tzD3c;
         "pkg-3.2.5.1" = _pspfox28;
-        "default" = _87FkpVUJ;
+        "pkg-3.2.6" = _D1g0EPVo;
+        "default" = _D1g0EPVo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tc-wireless-redstone";

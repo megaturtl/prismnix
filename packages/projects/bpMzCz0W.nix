@@ -56,6 +56,11 @@ let
             "file" = "mo_enchantments-2.0.1-neoforge-1.21.1.jar";
             "hash" = "sha512-2VuQ7vZW2bH+hee93hQW/r/Q41k+AJERdseci9ovfgrRACDnNfAWejdy7+LjeWiJA0dKWWqYbZGL1OPE5DxVMQ==";
         };
+        _fi9EXtN4 = {
+            "id" = "fi9EXtN4";
+            "file" = "mo_enchantments-2.0.1-neoforge-26.1.2.jar";
+            "hash" = "sha512-qdxSki6r6RgKAmX7epGWT3EwglkMCqes4igtRQlBI7E7igtrvfBvm1XJahX3TOL1VmGAi8FXHoJr3+3KvYfFYQ==";
+        };
     in {
         "oq6kAVbG" = _oq6kAVbG;
         "PI0LUsoI" = _PI0LUsoI;
@@ -68,9 +73,11 @@ let
         "QYP3ajQS" = _QYP3ajQS;
         "hLoaqCH1" = _hLoaqCH1;
         "QhHoDLUI" = _QhHoDLUI;
+        "fi9EXtN4" = _fi9EXtN4;
         "neoforge-1.21.8" = _oq6kAVbG;
         "neoforge-1.20.1" = _hLoaqCH1;
         "neoforge-1.21.1" = _QhHoDLUI;
+        "neoforge-26.1.2" = _fi9EXtN4;
         "forge-1.20.1" = _hLoaqCH1;
         "forge-1.19.4" = _TkCqmW43;
         "forge-1.19.2" = _Gvaiuw0E;
@@ -82,8 +89,8 @@ let
         "pkg-1.6.2" = _qV10yRpD;
         "pkg-1.11.2" = _oQQrarOs;
         "pkg-2.0" = _QYP3ajQS;
-        "pkg-2.0.1" = _QhHoDLUI;
-        "default" = _QhHoDLUI;
+        "pkg-2.0.1" = _fi9EXtN4;
+        "default" = _fi9EXtN4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mo_enchantments";

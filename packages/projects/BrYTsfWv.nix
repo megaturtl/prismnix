@@ -181,6 +181,11 @@ let
             "file" = "Replication-1.21.1-1.2.7.jar";
             "hash" = "sha512-VzZnFuR5E0dQ6jkVOxD+lHKCWk6BCnjxj/vpe1XWPF2+FkmFcZK9vopI36etMIvWSfkCobuH1Jx3Optn1BbRAA==";
         };
+        _WksaC9I0 = {
+            "id" = "WksaC9I0";
+            "file" = "Replication-26.1.2-1.2.7.jar";
+            "hash" = "sha512-cs09OwC9uSgwIlkCsZLXr1wBCHjNYklec9o7+wG0tJavD3+l1iycCIZVQX4NuStnWdzwgrq+Tll6nIu7TDGPjA==";
+        };
     in {
         "qfz0OY4k" = _qfz0OY4k;
         "BQmt2SsT" = _BQmt2SsT;
@@ -218,7 +223,9 @@ let
         "PaG9pNFF" = _PaG9pNFF;
         "nJoV0IQP" = _nJoV0IQP;
         "XfQXDcjc" = _XfQXDcjc;
+        "WksaC9I0" = _WksaC9I0;
         "neoforge-1.21.1" = _XfQXDcjc;
+        "neoforge-26.1.2" = _WksaC9I0;
         "forge-1.20.1" = _sNRMTRgs;
         "pkg-1.1.4" = _qfz0OY4k;
         "pkg-1.21-1.1.5" = _BQmt2SsT;
@@ -256,7 +263,8 @@ let
         "pkg-1.21-1.2.5" = _PaG9pNFF;
         "pkg-1.21-1.2.6" = _nJoV0IQP;
         "pkg-1.21-1.2.7" = _XfQXDcjc;
-        "default" = _XfQXDcjc;
+        "pkg-26.1.2-1.2.7" = _WksaC9I0;
+        "default" = _WksaC9I0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "replication";

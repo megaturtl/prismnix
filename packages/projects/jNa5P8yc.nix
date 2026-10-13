@@ -206,6 +206,11 @@ let
             "file" = "TCIntegrations-1.18.2-2.0.18.6.jar";
             "hash" = "sha512-VFgZvVHvs9nwDn6dgv+auW5hUxXZBYUabQG63EhY8cky0YncX6eDMmqRWlCh+xUalkNNP7kNjx4l/MrrdYmTkQ==";
         };
+        _evDNcgVv = {
+            "id" = "evDNcgVv";
+            "file" = "TCIntegrations-1.20.1-2.0.26.0.jar";
+            "hash" = "sha512-fZUDowdAxt+seXY6IatE1T5biPukYWhTbAAFsd9hqRyeXTY4VmREh07y/HMEWGVlTITwSNVvyAStN1n4jXKXfw==";
+        };
     in {
         "ckDYI4ST" = _ckDYI4ST;
         "Qas0MPYz" = _Qas0MPYz;
@@ -248,10 +253,11 @@ let
         "Wa4ozs78" = _Wa4ozs78;
         "X3bGRXCj" = _X3bGRXCj;
         "aGKeo3DF" = _aGKeo3DF;
+        "evDNcgVv" = _evDNcgVv;
         "forge-1.18.2" = _aGKeo3DF;
         "forge-1.19.2" = _tGmtqh1C;
-        "forge-1.20.1" = _X3bGRXCj;
-        "neoforge-1.20.1" = _X3bGRXCj;
+        "forge-1.20.1" = _evDNcgVv;
+        "neoforge-1.20.1" = _evDNcgVv;
         "pkg-1.18.2-2.0.17.4" = _ckDYI4ST;
         "pkg-1.18.2-2.0.18.0" = _Qas0MPYz;
         "pkg-1.18.2-2.0.18.1" = _8F7RRuW7;
@@ -292,7 +298,8 @@ let
         "pkg-1.20.1-2.0.25.18" = _Wa4ozs78;
         "pkg-1.20.1-2.0.25.19" = _X3bGRXCj;
         "pkg-1.18.2-2.0.18.6" = _aGKeo3DF;
-        "default" = _aGKeo3DF;
+        "pkg-1.20.1-2.0.26.0" = _evDNcgVv;
+        "default" = _evDNcgVv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tcintegrations";

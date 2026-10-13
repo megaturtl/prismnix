@@ -131,6 +131,16 @@ let
             "file" = "villages-revamped-26.3.jar";
             "hash" = "sha512-UfKy5C7FRGQ6Q8Hx6drKhoFUOTyrSF+X8RqOuCz4N2FtbD0vbFzOmvgSrkqsaayKdo+Dpn5cEzXr1BtzL1WsIA==";
         };
+        _kv9GNmG9 = {
+            "id" = "kv9GNmG9";
+            "file" = "Villages revamped 26.3v2.zip";
+            "hash" = "sha512-MABpRtrFGNURFCa0duFcobfNqkgRlk8G2lEUigJUrC4n+TAHbGQDwynJ6+sWX2Jbx6Z1exmXRscnvl9gwlGjwQ==";
+        };
+        _BK9NOoGO = {
+            "id" = "BK9NOoGO";
+            "file" = "villages-revamped-V2.11.jar";
+            "hash" = "sha512-C1pzQasdHKw+BerPnj9nJkTxDD6mIgZnHRfzXuhsKSO5oLQlfGbnkooUw8LG1xl91AX1LCzEQcHMgDJaDkr4dg==";
+        };
     in {
         "Fh9wgpuq" = _Fh9wgpuq;
         "45ZCDAcW" = _45ZCDAcW;
@@ -158,6 +168,8 @@ let
         "u3gyRGvX" = _u3gyRGvX;
         "xQ0cZwgi" = _xQ0cZwgi;
         "pI4ixOmZ" = _pI4ixOmZ;
+        "kv9GNmG9" = _kv9GNmG9;
+        "BK9NOoGO" = _BK9NOoGO;
         "datapack-1.21" = _Fh9wgpuq;
         "datapack-1.21.1" = _Fh9wgpuq;
         "datapack-1.21.2" = _45ZCDAcW;
@@ -172,7 +184,7 @@ let
         "datapack-1.21.11" = _qeZVPy3R;
         "datapack-26.1" = _WkT1Lf67;
         "datapack-26.2" = _bEnD3IFL;
-        "datapack-26.3" = _xQ0cZwgi;
+        "datapack-26.3" = _kv9GNmG9;
         "fabric-1.21.4" = _GWa8pl0X;
         "fabric-1.21.5" = _mpYpsxpe;
         "fabric-1.21.6" = _zJE2QN8x;
@@ -183,7 +195,7 @@ let
         "fabric-1.21.11" = _8IpygqXk;
         "fabric-26.1" = _yFAPlOtu;
         "fabric-26.2" = _u3gyRGvX;
-        "fabric-26.3" = _pI4ixOmZ;
+        "fabric-26.3" = _BK9NOoGO;
         "neoforge-1.21.4" = _GWa8pl0X;
         "neoforge-1.21.5" = _mpYpsxpe;
         "neoforge-1.21.6" = _zJE2QN8x;
@@ -194,7 +206,7 @@ let
         "neoforge-1.21.11" = _8IpygqXk;
         "neoforge-26.1" = _yFAPlOtu;
         "neoforge-26.2" = _u3gyRGvX;
-        "neoforge-26.3" = _pI4ixOmZ;
+        "neoforge-26.3" = _BK9NOoGO;
         "forge-1.21.6" = _zJE2QN8x;
         "forge-1.21.7" = _wDDbY1ww;
         "forge-1.21.8" = _wDDbY1ww;
@@ -203,7 +215,7 @@ let
         "forge-1.21.11" = _8IpygqXk;
         "forge-26.1" = _yFAPlOtu;
         "forge-26.2" = _u3gyRGvX;
-        "forge-26.3" = _pI4ixOmZ;
+        "forge-26.3" = _BK9NOoGO;
         "pkg-v1.0" = _Fh9wgpuq;
         "pkg-v1.1" = _45ZCDAcW;
         "pkg-v1.2" = _36RWNYIi;
@@ -230,7 +242,9 @@ let
         "pkg-v2.9+mod" = _u3gyRGvX;
         "pkg-26.3" = _xQ0cZwgi;
         "pkg-26.3+mod" = _pI4ixOmZ;
-        "default" = _pI4ixOmZ;
+        "pkg-V2.11" = _kv9GNmG9;
+        "pkg-V2.11+mod" = _BK9NOoGO;
+        "default" = _BK9NOoGO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "villages-revamped";

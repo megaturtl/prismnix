@@ -321,6 +321,21 @@ let
             "file" = "youtubers-1.6.2-neoforge-1.21.1.jar";
             "hash" = "sha512-4Gnp0+HwF6BhuvQrVTHlXlvGwt0kwgyLf2hm4xhOlU2XFNkhV+YCMWS3RVU0OS2OBdRUAx5IyW6+riS2SyXWzg==";
         };
+        _JrQR1oFX = {
+            "id" = "JrQR1oFX";
+            "file" = "youtubers-1.6.3-neoforge-1.21.1.jar";
+            "hash" = "sha512-2wzv3T7qhceUMsBlYDJjinRnp9Q5tkzgcmrxFGXcOYUGPziFY9mNwloxv5omIDMw0d0KQiaDFXX5CkcjKbeXUQ==";
+        };
+        _qaj9o36Z = {
+            "id" = "qaj9o36Z";
+            "file" = "youtubers-1.3.4-neoforge-1.21.1.jar";
+            "hash" = "sha512-AXlH3TxiEl984gDm95euhB9gHm0Qt3PeLyu6rhBpIx8sWL7Vi0g38gQrNd3svBriwFC47IJsAhIcVNrDeUtVTQ==";
+        };
+        _BSkqKX2A = {
+            "id" = "BSkqKX2A";
+            "file" = "youtubers-1.6.5-neoforge-1.21.1.jar";
+            "hash" = "sha512-BepSXdjuVYdfWSlPKxzTtxNonQWMSMStf0SzblszsSLRpz1IYbw2EF3+cshS15QzJuZO3cOp0Rvv65fMQGH+VQ==";
+        };
     in {
         "1gvSmSzS" = _1gvSmSzS;
         "M4wVU8kn" = _M4wVU8kn;
@@ -386,12 +401,15 @@ let
         "WxQtfxU7" = _WxQtfxU7;
         "P0kawbw9" = _P0kawbw9;
         "Dy6LSnZk" = _Dy6LSnZk;
+        "JrQR1oFX" = _JrQR1oFX;
+        "qaj9o36Z" = _qaj9o36Z;
+        "BSkqKX2A" = _BSkqKX2A;
         "neoforge-1.21.4" = _wWkCxZQw;
         "neoforge-1.21.5" = _wWkCxZQw;
         "neoforge-1.21.6" = _wWkCxZQw;
         "neoforge-1.21.7" = _wWkCxZQw;
         "neoforge-1.21.8" = _wWkCxZQw;
-        "neoforge-1.21.1" = _Dy6LSnZk;
+        "neoforge-1.21.1" = _BSkqKX2A;
         "neoforge-1.21.2" = _wWkCxZQw;
         "neoforge-1.21.3" = _wWkCxZQw;
         "neoforge-1.21.9" = _wWkCxZQw;
@@ -454,7 +472,10 @@ let
         "pkg-1.6.0" = _WxQtfxU7;
         "pkg-1.6.1" = _P0kawbw9;
         "pkg-1.6.2" = _Dy6LSnZk;
-        "default" = _Dy6LSnZk;
+        "pkg-1.6.3" = _JrQR1oFX;
+        "pkg-1.6.4" = _qaj9o36Z;
+        "pkg-1.6.5" = _BSkqKX2A;
+        "default" = _BSkqKX2A;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "knarfy,-system-zee,-and-fundy";

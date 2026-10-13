@@ -51,6 +51,16 @@ let
             "file" = "apple_cows-neoforge-26.1-1.0.2.jar";
             "hash" = "sha512-TAfnAOdHrPNoyKXljHL458USyXBKKFXyXWr2Szh46nxp5ytZNkqRpmzOsjPA0BbBga+OPOfIG6JGK1N1DKT7WA==";
         };
+        _39fAslSG = {
+            "id" = "39fAslSG";
+            "file" = "apple_cows-fabric-26.3-1.0.2.jar";
+            "hash" = "sha512-sZiQHC/A0mMy3e81cXCF2kb7hMqQ5BZm4fp/yrJAfxiwH3mGnwy7cXqPixszFnkAPDv+rDbCEQFpRuTg6UKWVg==";
+        };
+        _4mHyUEJz = {
+            "id" = "4mHyUEJz";
+            "file" = "apple_cows-neoforge-26.3-1.0.2.jar";
+            "hash" = "sha512-A+24ceEDxIXi7t20mzoB7TPkB/00eKiUkqMa3xNbFIouWLCj325CVpcM+vQYn/A51aOSVLJyWK4ELke0J8RRyw==";
+        };
     in {
         "eUcGEEow" = _eUcGEEow;
         "NZVrJTEd" = _NZVrJTEd;
@@ -62,24 +72,28 @@ let
         "KGh1kpoo" = _KGh1kpoo;
         "H6UdmsQZ" = _H6UdmsQZ;
         "DvR8JuJ1" = _DvR8JuJ1;
+        "39fAslSG" = _39fAslSG;
+        "4mHyUEJz" = _4mHyUEJz;
         "neoforge-1.21.1" = _AkMWyskW;
         "neoforge-26.2" = _H6UdmsQZ;
         "neoforge-26.1" = _DvR8JuJ1;
         "neoforge-26.1.1" = _DvR8JuJ1;
         "neoforge-26.1.2" = _DvR8JuJ1;
+        "neoforge-26.3" = _4mHyUEJz;
         "fabric-1.21.1" = _jjrGy7Tn;
         "fabric-26.2" = _vv4NiZq4;
         "fabric-26.1" = _gYgkn4LK;
         "fabric-26.1.1" = _gYgkn4LK;
         "fabric-26.1.2" = _gYgkn4LK;
         "fabric-1.20.1" = _KGh1kpoo;
+        "fabric-26.3" = _39fAslSG;
         "forge-1.20.1" = _ns9iwPWs;
         "pkg-1.0.0+1.21.1-neoforge" = _eUcGEEow;
         "pkg-1.0.0+1.21.1-fabric" = _NZVrJTEd;
         "pkg-1.0.1+1.21.1-neoforge" = _AkMWyskW;
         "pkg-1.0.1+1.21.1-fabric" = _jjrGy7Tn;
-        "pkg-1.0.2" = _DvR8JuJ1;
-        "default" = _DvR8JuJ1;
+        "pkg-1.0.2" = _4mHyUEJz;
+        "default" = _4mHyUEJz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modern-apple-cows";

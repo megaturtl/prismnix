@@ -26,19 +26,26 @@ let
             "file" = "bbs-photon-addon-1.1.1.jar";
             "hash" = "sha512-sYEy8JGwN5nO6pLzA5mD5WL539XM7ruNMVOjHnaPOdicqybGJoXcFdolGII6gWdbacJgqOaS74gtsTqHAU4gMQ==";
         };
+        _Ox3eAMX9 = {
+            "id" = "Ox3eAMX9";
+            "file" = "bbs-photon-addon-1.2.jar";
+            "hash" = "sha512-5HoprIaWOzET+yZdxGIxFbVXIDJ2W1XLsGGkWE6ksbt2NltX/d4Rel1oBCmPEUMNRjAmptKTEFGml19vEIKC4g==";
+        };
     in {
         "5xrzkAaa" = _5xrzkAaa;
         "HURbCSyT" = _HURbCSyT;
         "BNsR79mp" = _BNsR79mp;
         "RlXG4PhG" = _RlXG4PhG;
         "E2XMzY3E" = _E2XMzY3E;
-        "neoforge-1.21.1" = _E2XMzY3E;
+        "Ox3eAMX9" = _Ox3eAMX9;
+        "neoforge-1.21.1" = _Ox3eAMX9;
         "pkg-1.0.0" = _5xrzkAaa;
         "pkg-1.0.1" = _HURbCSyT;
         "pkg-1.0.2" = _BNsR79mp;
         "pkg-1.1.0" = _RlXG4PhG;
         "pkg-1.1.1" = _E2XMzY3E;
-        "default" = _E2XMzY3E;
+        "pkg-1.2" = _Ox3eAMX9;
+        "default" = _Ox3eAMX9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bbs-photon-addon";

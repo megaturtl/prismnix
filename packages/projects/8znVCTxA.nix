@@ -86,6 +86,11 @@ let
             "file" = "embers-reignited-1.21.1-1.5.8.jar";
             "hash" = "sha512-sGjc9swJrJf0/7WHyHW9oeJt8um0JFt7H68ElFTNDwFf7HF/zC8kiRIHKRuVTfQhDbKQjjzJOtADT69NHK/WaQ==";
         };
+        _2r51o0lC = {
+            "id" = "2r51o0lC";
+            "file" = "embers-reignited-1.21.1-1.5.9.jar";
+            "hash" = "sha512-fg97cvbDUW8o8/xLdTkIjBrjINVXoMgPsB3YDVR5zlBPT/Kovt8qj5C66dhEW6q+D9iHrvSv1h76LSOf/8vzYQ==";
+        };
     in {
         "rE27tNqq" = _rE27tNqq;
         "FenYC4nQ" = _FenYC4nQ;
@@ -104,7 +109,8 @@ let
         "yEfk1dj8" = _yEfk1dj8;
         "q6utqdvw" = _q6utqdvw;
         "9AKzYbZ3" = _9AKzYbZ3;
-        "neoforge-1.21.1" = _9AKzYbZ3;
+        "2r51o0lC" = _2r51o0lC;
+        "neoforge-1.21.1" = _2r51o0lC;
         "pkg-1.21.1-1.5.0" = _rE27tNqq;
         "pkg-1.21.1-1.5.1" = _FenYC4nQ;
         "pkg-1.21.1-1.5.2" = _rLIBLL7S;
@@ -114,7 +120,8 @@ let
         "pkg-1.21.1-1.5.6" = _yEfk1dj8;
         "pkg-1.21.1-1.5.7" = _q6utqdvw;
         "pkg-1.21.1-1.5.8" = _9AKzYbZ3;
-        "default" = _9AKzYbZ3;
+        "pkg-1.21.1-1.5.9" = _2r51o0lC;
+        "default" = _2r51o0lC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "embers-re-ignited";

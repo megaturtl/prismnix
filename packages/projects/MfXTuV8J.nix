@@ -126,6 +126,11 @@ let
             "file" = "cc-tweaked-polymer-patch-1.120.2.1+26.3.jar";
             "hash" = "sha512-fAujsf4ObbB0ycxQ0S0RSrM7Yd/xgD7KU5p5YhR+dJ+qTxJigTTcZUXcFAGMvXKlZNsb3++khuAHj63NwQRYFg==";
         };
+        _uoeaKi5h = {
+            "id" = "uoeaKi5h";
+            "file" = "cc-tweaked-polymer-patch-1.120.3.1+26.3.jar";
+            "hash" = "sha512-kTCZZOq9kLg095XpqgnSb5zFPzIWNBl23ZnMkqE44hpeusfczMXDRacHXWbZESf3sCs1bbCD7Oz5t8PWrcAvbw==";
+        };
     in {
         "8bnUN11E" = _8bnUN11E;
         "lLgHpelh" = _lLgHpelh;
@@ -152,6 +157,7 @@ let
         "wAO6vfhh" = _wAO6vfhh;
         "TADcGXzR" = _TADcGXzR;
         "xllSS2Dp" = _xllSS2Dp;
+        "uoeaKi5h" = _uoeaKi5h;
         "fabric-1.19" = _P4n3Uihl;
         "fabric-1.19.1" = _ke2ExxM9;
         "fabric-1.19.2" = _ke2ExxM9;
@@ -166,7 +172,7 @@ let
         "fabric-1.21.11" = _XZujQ2nV;
         "fabric-26.1.2" = _aV4VapDM;
         "fabric-26.2" = _TADcGXzR;
-        "fabric-26.3" = _xllSS2Dp;
+        "fabric-26.3" = _uoeaKi5h;
         "quilt-1.19" = _P4n3Uihl;
         "quilt-1.19.1" = _ke2ExxM9;
         "quilt-1.19.2" = _ke2ExxM9;
@@ -198,7 +204,8 @@ let
         "pkg-1.120.2.0+26.2" = _wAO6vfhh;
         "pkg-1.120.2.1+26.2" = _TADcGXzR;
         "pkg-1.120.2.1+26.3" = _xllSS2Dp;
-        "default" = _xllSS2Dp;
+        "pkg-1.120.3.1+26.3" = _uoeaKi5h;
+        "default" = _uoeaKi5h;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cc-polymer";

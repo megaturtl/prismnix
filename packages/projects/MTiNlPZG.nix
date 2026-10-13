@@ -36,6 +36,11 @@ let
             "file" = "§eBare Delights§0_§8[v1.5]§0.zip";
             "hash" = "sha512-ZOVRHhjCCDCNK3+XM4C/A+B+VZITj+vL0GPnJoqN9REoG2neBGVN/CNEyXcdEgZ5MyvI/VaeuVqkosbnyjJLQw==";
         };
+        _At6IOY3f = {
+            "id" = "At6IOY3f";
+            "file" = "§eBare Delights§0 §8[v2.0]§0.zip";
+            "hash" = "sha512-E5KQ4cY5kEG1A/w5BYT5qyHjZaxDhO3QVgzfF9x7Pof081TIQR/iE92XGH9fyZbiLMkvS0Cb7UMD1qj/QlYAKg==";
+        };
     in {
         "MppzSy4Z" = _MppzSy4Z;
         "rWNk0HZJ" = _rWNk0HZJ;
@@ -44,10 +49,11 @@ let
         "XTJwDlQO" = _XTJwDlQO;
         "DQZ0s9Va" = _DQZ0s9Va;
         "v5idGX5a" = _v5idGX5a;
+        "At6IOY3f" = _At6IOY3f;
         "minecraft-1.19.2" = _v5idGX5a;
-        "minecraft-1.20.1" = _v5idGX5a;
+        "minecraft-1.20.1" = _At6IOY3f;
         "minecraft-1.20" = _v5idGX5a;
-        "minecraft-1.21.1" = _v5idGX5a;
+        "minecraft-1.21.1" = _At6IOY3f;
         "pkg-0.01" = _MppzSy4Z;
         "pkg-v1.0" = _rWNk0HZJ;
         "pkg-v1.1" = _LtPUixFx;
@@ -55,7 +61,8 @@ let
         "pkg-v1.3" = _XTJwDlQO;
         "pkg-v1.4" = _DQZ0s9Va;
         "pkg-v1.5" = _v5idGX5a;
-        "default" = _v5idGX5a;
+        "pkg-v2.0" = _At6IOY3f;
+        "default" = _At6IOY3f;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bare-bones-x-farmers-delight";

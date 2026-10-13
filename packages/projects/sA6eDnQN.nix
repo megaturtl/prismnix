@@ -86,6 +86,11 @@ let
             "file" = "Night Vision v3.0.0+84.88.zip";
             "hash" = "sha512-Civ09c6ugJWuM53c7RVRzR401hhmYY22/C4jF+PK9ILzXAEQkK5dvky8Gt4WV6jF1Fk55wtX+Zr/GKD3IB0UoA==";
         };
+        _g6q8spU2 = {
+            "id" = "g6q8spU2";
+            "file" = "Night Vision v3.0.0+84.0-97.1.zip";
+            "hash" = "sha512-KIm2FChWtGj/mFlKcL6RXfanD2nchty1JKaoS1MdQb0YQJL9J2v6QvLYTWzZvyv41gEIPxbeSiv8AGj24rWbAg==";
+        };
     in {
         "VcuueLf4" = _VcuueLf4;
         "qyOs4Ono" = _qyOs4Ono;
@@ -104,6 +109,7 @@ let
         "9tBql5hP" = _9tBql5hP;
         "Crw5YHed" = _Crw5YHed;
         "uCHPFSfO" = _uCHPFSfO;
+        "g6q8spU2" = _g6q8spU2;
         "minecraft-1.19.3" = _VcuueLf4;
         "minecraft-1.19.4" = _qyOs4Ono;
         "minecraft-1.20" = _plxQByVQ;
@@ -122,10 +128,11 @@ let
         "minecraft-1.21.9" = _9tBql5hP;
         "minecraft-1.21.10" = _9tBql5hP;
         "minecraft-1.21.11" = _9tBql5hP;
-        "minecraft-26.1" = _uCHPFSfO;
-        "minecraft-26.1.1" = _uCHPFSfO;
-        "minecraft-26.1.2" = _uCHPFSfO;
-        "minecraft-26.2" = _uCHPFSfO;
+        "minecraft-26.1" = _g6q8spU2;
+        "minecraft-26.1.1" = _g6q8spU2;
+        "minecraft-26.1.2" = _g6q8spU2;
+        "minecraft-26.2" = _g6q8spU2;
+        "minecraft-26.3" = _g6q8spU2;
         "pkg-1.8" = _VcuueLf4;
         "pkg-1.9" = _qyOs4Ono;
         "pkg-1.10" = _plxQByVQ;
@@ -143,7 +150,8 @@ let
         "pkg-2.0.1+42.84" = _9tBql5hP;
         "pkg-3.0.0+84" = _Crw5YHed;
         "pkg-3.0.0+84.88" = _uCHPFSfO;
-        "default" = _uCHPFSfO;
+        "pkg-3.0.0+84.0-97.1" = _g6q8spU2;
+        "default" = _g6q8spU2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "night-vision";

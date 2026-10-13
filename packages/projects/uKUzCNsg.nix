@@ -61,6 +61,11 @@ let
             "file" = "Grindstone v2.0.0+93.0-97.1.zip";
             "hash" = "sha512-hOVTRu8LbZYTUlH+Zb8Ck3YKdqS2wm0V5R6hgM/3ZIU1Hgcp9o/c6Wrh5cQKvLAl79kGfUxXZXm8MP58xb8tAg==";
         };
+        _b9OOUq6U = {
+            "id" = "b9OOUq6U";
+            "file" = "Grindstone v2.0.1+93.0-100.0.zip";
+            "hash" = "sha512-j0Dwf7ggPbGAveIzgw95M4XjXyB8ssUbXw73vvSP4CC46kGVT3zWWulA3Kbt3BK62IVZx4RnkLeELm4XErx10A==";
+        };
     in {
         "wMHA8lIW" = _wMHA8lIW;
         "eBzwg37p" = _eBzwg37p;
@@ -74,6 +79,7 @@ let
         "vQzctbf6" = _vQzctbf6;
         "unIZx9Hq" = _unIZx9Hq;
         "U4vlhuAK" = _U4vlhuAK;
+        "b9OOUq6U" = _b9OOUq6U;
         "iris-1.20.1" = _hnkVNMqt;
         "iris-1.20.2" = _hnkVNMqt;
         "iris-1.20.3" = _hnkVNMqt;
@@ -97,19 +103,22 @@ let
         "iris-1.21.11" = _hivDOj82;
         "minecraft-26.3-snapshot-3" = _vQzctbf6;
         "minecraft-26.3-snapshot-4" = _vQzctbf6;
-        "minecraft-26.3-snapshot-5" = _U4vlhuAK;
-        "minecraft-26.3-snapshot-6" = _U4vlhuAK;
-        "minecraft-26.3-snapshot-7" = _U4vlhuAK;
-        "minecraft-26.3-snapshot-8" = _U4vlhuAK;
-        "minecraft-26.3-snapshot-9" = _U4vlhuAK;
-        "minecraft-26.3-snapshot-10" = _U4vlhuAK;
-        "minecraft-26.3-pre-1" = _U4vlhuAK;
-        "minecraft-26.3-pre-2" = _U4vlhuAK;
-        "minecraft-26.3-pre-3" = _U4vlhuAK;
-        "minecraft-26.3-rc-1" = _U4vlhuAK;
-        "minecraft-26.3-rc-2" = _U4vlhuAK;
-        "minecraft-26.3-rc-3" = _U4vlhuAK;
-        "minecraft-26.3" = _U4vlhuAK;
+        "minecraft-26.3-snapshot-5" = _b9OOUq6U;
+        "minecraft-26.3-snapshot-6" = _b9OOUq6U;
+        "minecraft-26.3-snapshot-7" = _b9OOUq6U;
+        "minecraft-26.3-snapshot-8" = _b9OOUq6U;
+        "minecraft-26.3-snapshot-9" = _b9OOUq6U;
+        "minecraft-26.3-snapshot-10" = _b9OOUq6U;
+        "minecraft-26.3-pre-1" = _b9OOUq6U;
+        "minecraft-26.3-pre-2" = _b9OOUq6U;
+        "minecraft-26.3-pre-3" = _b9OOUq6U;
+        "minecraft-26.3-rc-1" = _b9OOUq6U;
+        "minecraft-26.3-rc-2" = _b9OOUq6U;
+        "minecraft-26.3-rc-3" = _b9OOUq6U;
+        "minecraft-26.3" = _b9OOUq6U;
+        "minecraft-26.4-snapshot-1" = _b9OOUq6U;
+        "minecraft-26.4-snapshot-2" = _b9OOUq6U;
+        "minecraft-26.4-snapshot-3" = _b9OOUq6U;
         "pkg-1.0.1" = _wMHA8lIW;
         "pkg-1.1.0" = _eBzwg37p;
         "pkg-1.1.1" = _YepcQ4yu;
@@ -122,7 +131,8 @@ let
         "pkg-2.0.0-beta.0+91.0-92.0" = _vQzctbf6;
         "pkg-2.0.0-beta.1+93.0-94.0" = _unIZx9Hq;
         "pkg-2.0.0+93.0-97.1" = _U4vlhuAK;
-        "default" = _U4vlhuAK;
+        "pkg-2.0.1+93.0-100.0" = _b9OOUq6U;
+        "default" = _b9OOUq6U;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "smaa-mc";

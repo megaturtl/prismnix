@@ -396,6 +396,11 @@ let
             "file" = "spatial-gui-1.7.2+26.3-fabric.jar";
             "hash" = "sha512-E1Qnm6ypP7CEBR0twA34CXCo9q7u5ajW2Su/SFv2bmKOk7YoQ+DjGmHPSECtkjoh6tegg8zaPep5Wjg3Y6UBZg==";
         };
+        _4IJf513C = {
+            "id" = "4IJf513C";
+            "file" = "spatial-gui-1.7.2+1.20.1-forge.jar";
+            "hash" = "sha512-Uck1rRJoAVjkApsmx6gy5wuaKzvhP3lR6aMymHaUz3ToyMyBYBsFFB1Mv6WqTxIKjcuVqy9i082RIay7pmmlpQ==";
+        };
     in {
         "hF7deDTk" = _hF7deDTk;
         "6youUZul" = _6youUZul;
@@ -476,6 +481,7 @@ let
         "L98cN80K" = _L98cN80K;
         "bb7J5dEE" = _bb7J5dEE;
         "DPJNlhy4" = _DPJNlhy4;
+        "4IJf513C" = _4IJf513C;
         "fabric-26.2" = _L98cN80K;
         "fabric-26.3" = _DPJNlhy4;
         "fabric-1.21.1" = _wepLrGyi;
@@ -491,7 +497,7 @@ let
         "neoforge-26.1" = _hxWZ6Cc7;
         "neoforge-26.1.1" = _hxWZ6Cc7;
         "neoforge-26.1.2" = _hxWZ6Cc7;
-        "forge-1.20.1" = _8XIlfQfy;
+        "forge-1.20.1" = _4IJf513C;
         "pkg-0.1" = _hF7deDTk;
         "pkg-1.1-26.2" = _6youUZul;
         "pkg-1.1-26.3" = _RzfMv7Hn;
@@ -559,7 +565,7 @@ let
         "pkg-1.7.2-alpha-fabric+26.1.x" = _41bbjTGQ;
         "pkg-1.7.2-alpha-fabric+1.21.11" = _SGOFAvLT;
         "pkg-1.7.2-alpha-fabric+26.3" = _iVwhRkQc;
-        "pkg-1.7.2-forge+1.20.1" = _8XIlfQfy;
+        "pkg-1.7.2-forge+1.20.1" = _4IJf513C;
         "pkg-1.7.2-fabric+1.20.1" = _wrtV9Fj1;
         "pkg-1.7.2-neoforge+1.21.1" = _AOtJWaA9;
         "pkg-1.7.2-fabric+1.21.1" = _wepLrGyi;
@@ -571,7 +577,7 @@ let
         "pkg-1.7.2-fabric+26.2" = _L98cN80K;
         "pkg-1.7.2-neoforge+26.3" = _bb7J5dEE;
         "pkg-1.7.2-fabric+26.3" = _DPJNlhy4;
-        "default" = _DPJNlhy4;
+        "default" = _4IJf513C;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spatial-gui";

@@ -206,6 +206,11 @@ let
             "file" = "kevs-library-1.6.6.jar";
             "hash" = "sha512-Xo6LWVdQHWpXwhUWF/P/NnI6J9DiWcSFnpE4PDOV6hVukfyFU1WYvqhC/ZcmrQ9+RGsIYvaFn554c1I2ocdryA==";
         };
+        _dfDCNMLk = {
+            "id" = "dfDCNMLk";
+            "file" = "kevs-library-1.6.7.jar";
+            "hash" = "sha512-gedZiwC5DNvf4KuMP3wqF6dO7QEgJFhKMI0RLdjuIBwct1LhyrMXXO6wVTeZDeUXEAyBm87qwOp9H58eGUkqZg==";
+        };
     in {
         "L6vTMKdJ" = _L6vTMKdJ;
         "yylfAKhR" = _yylfAKhR;
@@ -248,8 +253,9 @@ let
         "VkX2yGxX" = _VkX2yGxX;
         "IUCKVQQw" = _IUCKVQQw;
         "5wLog6I8" = _5wLog6I8;
+        "dfDCNMLk" = _dfDCNMLk;
         "fabric-1.20.1" = _L6vTMKdJ;
-        "fabric-1.21.1" = _5wLog6I8;
+        "fabric-1.21.1" = _dfDCNMLk;
         "pkg-1.1.0" = _L6vTMKdJ;
         "pkg-1.1.5" = _yylfAKhR;
         "pkg-1.2.0" = _tASzJOJC;
@@ -291,7 +297,8 @@ let
         "pkg-1.6.4" = _VkX2yGxX;
         "pkg-1.6.5" = _IUCKVQQw;
         "pkg-1.6.6" = _5wLog6I8;
-        "default" = _5wLog6I8;
+        "pkg-1.6.7" = _dfDCNMLk;
+        "default" = _dfDCNMLk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kevs-library";

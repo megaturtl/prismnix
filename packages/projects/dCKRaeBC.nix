@@ -601,6 +601,11 @@ let
             "file" = "forgematica-0.5.0+mc26.2.jar";
             "hash" = "sha512-5oCE+FkdDuYjX0GwzK3i8CfWiR80g0PyW5+GtM4+vvTVIt/p7KsA1EKOQ3GxX0bX9324T9HCT2XPG1fYh8xZOQ==";
         };
+        _PFUOWUDF = {
+            "id" = "PFUOWUDF";
+            "file" = "forgematica-0.4.3+mc1.21.1-sources.jar";
+            "hash" = "sha512-g1YneCrc5B6g1I4lVNz/1SN1EHoWAQ/I1XGE+JGoU6NyUUC04ZNY+odmwrgLRy8WMWbSsxEZ72Pj3ekC+s8FZg==";
+        };
     in {
         "v2Go6lOt" = _v2Go6lOt;
         "T33y0dh7" = _T33y0dh7;
@@ -722,6 +727,7 @@ let
         "XJvKNYrc" = _XJvKNYrc;
         "BJ65xT0w" = _BJ65xT0w;
         "Y9EJDdgM" = _Y9EJDdgM;
+        "PFUOWUDF" = _PFUOWUDF;
         "forge-1.16.5" = _SaFR1XnI;
         "forge-1.17" = _WwyVk2vB;
         "forge-1.17.1" = _WwyVk2vB;
@@ -743,7 +749,7 @@ let
         "neoforge-1.20.5" = _diIkKbcT;
         "neoforge-1.20.6" = _diIkKbcT;
         "neoforge-1.21" = _LvqGzfCo;
-        "neoforge-1.21.1" = _71jxaAwz;
+        "neoforge-1.21.1" = _PFUOWUDF;
         "neoforge-1.21.2" = _dcCxysiO;
         "neoforge-1.21.3" = _ui7HAtbL;
         "neoforge-1.21.4" = _juqdTLsd;
@@ -876,7 +882,8 @@ let
         "pkg-0.4.5+mc1.21.10" = _XJvKNYrc;
         "pkg-0.4.3+mc1.21.11" = _BJ65xT0w;
         "pkg-0.5.0+mc26.2" = _Y9EJDdgM;
-        "default" = _Y9EJDdgM;
+        "pkg-0.4.3+mc1.21.1" = _PFUOWUDF;
+        "default" = _PFUOWUDF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "forgematica";

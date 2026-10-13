@@ -461,6 +461,16 @@ let
             "file" = "rctapi-fabric-1.21.1-0.16.1-beta.jar";
             "hash" = "sha512-p05rBwsxDjd+N3XypIT96+Kzvd7mMUbx4vjUfzoiYf1pik/ctayPH5XphZuKS9Tup9NaSP5epEllQ9ChahE7UA==";
         };
+        _mYGAO3MT = {
+            "id" = "mYGAO3MT";
+            "file" = "rctapi-neoforge-1.21.1-0.16.2-beta.jar";
+            "hash" = "sha512-+vsVAEIHNqKCJmTEuFH6mHUzck8SbpyvqgInjtDOe4dQwVQ5Ke0FY+789unlgOZhrfcZ58cV6sriFq8sVOhREQ==";
+        };
+        _DoQNDXAU = {
+            "id" = "DoQNDXAU";
+            "file" = "rctapi-fabric-1.21.1-0.16.2-beta.jar";
+            "hash" = "sha512-5T8iMilFTxAaXNwlwKhalktoBTW0+FtJD3vKDpSBMJ5NtAwCm+D9LtZHPJ8bWGV8XchOAdFvZuhd3OIyq7sCuQ==";
+        };
     in {
         "2e3jkIbf" = _2e3jkIbf;
         "FB6G6rSl" = _FB6G6rSl;
@@ -554,8 +564,10 @@ let
         "poXTxoNY" = _poXTxoNY;
         "ADsoWJz6" = _ADsoWJz6;
         "bgmxNN26" = _bgmxNN26;
-        "neoforge-1.21.1" = _ADsoWJz6;
-        "fabric-1.21.1" = _bgmxNN26;
+        "mYGAO3MT" = _mYGAO3MT;
+        "DoQNDXAU" = _DoQNDXAU;
+        "neoforge-1.21.1" = _mYGAO3MT;
+        "fabric-1.21.1" = _DoQNDXAU;
         "pkg-0.9.0-beta" = _FB6G6rSl;
         "pkg-0.9.1-beta" = _77mJesVV;
         "pkg-0.10.0-beta" = _Dg7Pp4Qd;
@@ -602,7 +614,8 @@ let
         "pkg-0.15.2-beta" = _9OZx0coL;
         "pkg-0.16.0-beta" = _poXTxoNY;
         "pkg-0.16.1-beta" = _bgmxNN26;
-        "default" = _bgmxNN26;
+        "pkg-0.16.2-beta" = _DoQNDXAU;
+        "default" = _DoQNDXAU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rctapi";

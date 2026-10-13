@@ -226,6 +226,11 @@ let
             "file" = "Stabx_Modern_Guns_v8.4_mc1.20.1_optimized Final.jar";
             "hash" = "sha512-mK0uiCikob3hWMvSz/zmXA0QszcmU4fgWqv71FI0nvdaTzXkoumOCB1Htsz/UOu3qoUgj9jw5brCZa8EU2BovA==";
         };
+        _Ek1pQ2PC = {
+            "id" = "Ek1pQ2PC";
+            "file" = "Stabx_Modern_Guns Neoforge v8.5 - 1.21.1.jar";
+            "hash" = "sha512-G587WPHZhoIDfyx+TI9zoyTu0aOLpBlwNVsoBF22btLtPDCzP2Kqfu2Pit+MrlN2gqnFBAnjhpMPhOYhKksjwQ==";
+        };
     in {
         "Lk6YNODp" = _Lk6YNODp;
         "T4l00zfr" = _T4l00zfr;
@@ -272,12 +277,14 @@ let
         "JOIwHeF9" = _JOIwHeF9;
         "n2rYXjwW" = _n2rYXjwW;
         "Ftm9mRNr" = _Ftm9mRNr;
+        "Ek1pQ2PC" = _Ek1pQ2PC;
         "forge-1.16.5" = _Lk6YNODp;
         "forge-1.18.2" = _DhOa0zmi;
         "forge-1.19.2" = _n2rYXjwW;
         "forge-1.19.3" = _bEbN6om2;
         "forge-1.19.4" = _yR3ASlAB;
         "forge-1.20.1" = _Ftm9mRNr;
+        "neoforge-1.21.1" = _Ek1pQ2PC;
         "pkg-5.4" = _5mviJWDo;
         "pkg-6.0" = _wBu0tsLY;
         "pkg-6.1" = _JPoadjlW;
@@ -292,7 +299,8 @@ let
         "pkg-8.3" = _r4P8r56c;
         "pkg-8.3.1" = _JOIwHeF9;
         "pkg-8.4" = _Ftm9mRNr;
-        "default" = _Ftm9mRNr;
+        "pkg-8.5" = _Ek1pQ2PC;
+        "default" = _Ek1pQ2PC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stabx-modern-guns";

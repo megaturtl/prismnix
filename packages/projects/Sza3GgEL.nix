@@ -241,6 +241,16 @@ let
             "file" = "gadgets-and-gizmos-bundled-V1.2.9.jar";
             "hash" = "sha512-9RMauijsNpnrUbxaCYjMeerOJSz+JI0zQkHQcr7So9teBPyb0pyMTyLnHleVEbrWANWOy11NSdOzRLHrcGdIfQ==";
         };
+        _MgD655V5 = {
+            "id" = "MgD655V5";
+            "file" = "gadgets-and-gizmos-bundled-V1.2.10.jar";
+            "hash" = "sha512-a4C9FN7NZ0zdMjKDnkYyiUoNy0rm/26sWsUg0LZ8mbdQoqv/8Mv86W26VH/cSsnPgSIdLQLhRuIJOutVDaH12w==";
+        };
+        _JF0rSDEY = {
+            "id" = "JF0rSDEY";
+            "file" = "gadgets-and-gizmos-bundled-2.0.0-Beta-3.1.jar";
+            "hash" = "sha512-uqQE73eVAY41H6+HJ1EqWbxuR2RBD/u2XMqvg2gHDCpK9nhsegpxwkVfGGCvrVQh/IrsSHQJAPHkmq4QLdldHw==";
+        };
     in {
         "4rUiOPkB" = _4rUiOPkB;
         "aTzV5rfX" = _aTzV5rfX;
@@ -290,7 +300,9 @@ let
         "19E5dCzP" = _19E5dCzP;
         "otoj8TZS" = _otoj8TZS;
         "VTxjWBGy" = _VTxjWBGy;
-        "neoforge-1.21.1" = _VTxjWBGy;
+        "MgD655V5" = _MgD655V5;
+        "JF0rSDEY" = _JF0rSDEY;
+        "neoforge-1.21.1" = _JF0rSDEY;
         "pkg-0.1.0" = _4rUiOPkB;
         "pkg-0.1.1" = _aTzV5rfX;
         "pkg-0.1.2" = _XVWHgyW4;
@@ -331,7 +343,9 @@ let
         "pkg-2.0.0-Beta-2" = _19E5dCzP;
         "pkg-2.0.0-Beta-3" = _otoj8TZS;
         "pkg-1.2.9" = _VTxjWBGy;
-        "default" = _VTxjWBGy;
+        "pkg-1.2.10" = _MgD655V5;
+        "pkg-2.0.0-Beta-3.1" = _JF0rSDEY;
+        "default" = _JF0rSDEY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-aeronautics-gadgets-and-gizmos";
