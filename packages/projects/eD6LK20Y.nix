@@ -66,6 +66,11 @@ let
             "file" = "MinecraftWarriors3-1.1.2.jar";
             "hash" = "sha512-fcoO92VpcdBdnZV6K4DNQzCvNv8sJLfN23WLQ1ztr29Nip2TuB49rU1JB00FzmWNOIml7HXPmSXDpYlYU9EiAw==";
         };
+        _z68uL9Xf = {
+            "id" = "z68uL9Xf";
+            "file" = "MinecraftWarriors-3-1.1.3.jar";
+            "hash" = "sha512-uxgaI6nHHKaAu/w+cwavM5D8q0/WkZlA6VqgRkYbC5OXFsyEH6rMeZciR3NQL/knykBQWdqdHekTcZcmCJ9Uug==";
+        };
     in {
         "3uFPASAj" = _3uFPASAj;
         "yviRARkj" = _yviRARkj;
@@ -80,19 +85,20 @@ let
         "eZIV8x5J" = _eZIV8x5J;
         "SUQTBrLF" = _SUQTBrLF;
         "fS2B2vk9" = _fS2B2vk9;
-        "paper-1.21.11" = _fS2B2vk9;
-        "paper-26.1" = _fS2B2vk9;
-        "paper-26.1.1" = _fS2B2vk9;
-        "paper-26.1.2" = _fS2B2vk9;
+        "z68uL9Xf" = _z68uL9Xf;
+        "paper-1.21.11" = _z68uL9Xf;
+        "paper-26.1" = _z68uL9Xf;
+        "paper-26.1.1" = _z68uL9Xf;
+        "paper-26.1.2" = _z68uL9Xf;
         "paper-1.21.10" = _eZIV8x5J;
-        "paper-26.2" = _fS2B2vk9;
+        "paper-26.2" = _z68uL9Xf;
         "paper-26.3" = _fS2B2vk9;
-        "spigot-1.21.11" = _fS2B2vk9;
-        "spigot-26.1" = _fS2B2vk9;
-        "spigot-26.1.1" = _fS2B2vk9;
-        "spigot-26.1.2" = _fS2B2vk9;
+        "spigot-1.21.11" = _z68uL9Xf;
+        "spigot-26.1" = _z68uL9Xf;
+        "spigot-26.1.1" = _z68uL9Xf;
+        "spigot-26.1.2" = _z68uL9Xf;
         "spigot-1.21.10" = _eZIV8x5J;
-        "spigot-26.2" = _fS2B2vk9;
+        "spigot-26.2" = _z68uL9Xf;
         "spigot-26.3" = _fS2B2vk9;
         "pkg-1.0.0" = _3uFPASAj;
         "pkg-1.0.1" = _yviRARkj;
@@ -106,7 +112,8 @@ let
         "pkg-1.1.0" = _eZIV8x5J;
         "pkg-1.1.1" = _SUQTBrLF;
         "pkg-1.1.2" = _fS2B2vk9;
-        "default" = _fS2B2vk9;
+        "pkg-1.1.3" = _z68uL9Xf;
+        "default" = _z68uL9Xf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mc-warriors-3-plugin";

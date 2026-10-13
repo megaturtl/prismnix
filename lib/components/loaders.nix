@@ -27,8 +27,8 @@
         "minecraft" = "26.3";
         "fabric" = "0.19.5";
         "quilt" = "0.31.0-beta.4";
-        "forge" = "66.0.10";
-        "neoforge" = "26.3.0.69-beta";
+        "forge" = "66.0.11";
+        "neoforge" = "26.3.0.76";
         "liteloader" = null;
     }
     {
@@ -163,7 +163,7 @@
         "minecraft" = "26.2";
         "fabric" = "0.19.5";
         "quilt" = "0.31.0-beta.4";
-        "forge" = "65.1.3";
+        "forge" = "65.1.4";
         "neoforge" = "26.2.0.90";
         "liteloader" = null;
     }
@@ -291,7 +291,7 @@
         "minecraft" = "26.1.2";
         "fabric" = "0.19.5";
         "quilt" = "0.31.0-beta.4";
-        "forge" = "64.1.3";
+        "forge" = "64.1.4";
         "neoforge" = "26.1.2.116";
         "liteloader" = null;
     }
@@ -491,7 +491,7 @@
         "minecraft" = "1.21.11";
         "fabric" = "0.19.5";
         "quilt" = "0.31.0-beta.4";
-        "forge" = "61.2.1";
+        "forge" = "61.2.3";
         "neoforge" = "21.11.45";
         "liteloader" = null;
     }
@@ -691,7 +691,7 @@
         "minecraft" = "1.21.10";
         "fabric" = "0.19.5";
         "quilt" = "0.31.0-beta.4";
-        "forge" = "60.1.15";
+        "forge" = "60.1.17";
         "neoforge" = "21.10.64";
         "liteloader" = null;
     }
@@ -827,7 +827,7 @@
         "minecraft" = "1.21.8";
         "fabric" = "0.19.5";
         "quilt" = "0.31.0-beta.4";
-        "forge" = "58.1.22";
+        "forge" = "58.1.24";
         "neoforge" = "21.8.54";
         "liteloader" = null;
     }
@@ -979,7 +979,7 @@
         "minecraft" = "1.21.5";
         "fabric" = "0.19.5";
         "quilt" = "0.31.0-beta.4";
-        "forge" = "55.1.14";
+        "forge" = "55.1.16";
         "neoforge" = "21.5.98";
         "liteloader" = null;
     }
@@ -1107,7 +1107,7 @@
         "minecraft" = "1.21.4";
         "fabric" = "0.19.5";
         "quilt" = "0.31.0-beta.4";
-        "forge" = "54.1.18";
+        "forge" = "54.1.20";
         "neoforge" = "21.4.158";
         "liteloader" = null;
     }
@@ -1187,7 +1187,7 @@
         "minecraft" = "1.21.3";
         "fabric" = "0.19.5";
         "quilt" = "0.31.0-beta.4";
-        "forge" = "53.1.12";
+        "forge" = "53.1.14";
         "neoforge" = "21.3.97";
         "liteloader" = null;
     }
@@ -1323,7 +1323,7 @@
         "minecraft" = "1.21.1";
         "fabric" = "0.19.5";
         "quilt" = "0.31.0-beta.4";
-        "forge" = "52.1.16";
+        "forge" = "52.1.18";
         "neoforge" = "21.1.259";
         "liteloader" = null;
     }
@@ -1435,7 +1435,7 @@
         "minecraft" = "1.20.6";
         "fabric" = "0.19.5";
         "quilt" = "0.31.0-beta.4";
-        "forge" = "50.2.10";
+        "forge" = "50.2.12";
         "neoforge" = "20.6.141";
         "liteloader" = null;
     }
@@ -1643,7 +1643,7 @@
         "minecraft" = "1.20.4";
         "fabric" = "0.19.5";
         "quilt" = "0.31.0-beta.4";
-        "forge" = "49.2.9";
+        "forge" = "49.2.11";
         "neoforge" = "20.4.251";
         "liteloader" = null;
     }
@@ -1859,7 +1859,7 @@
         "minecraft" = "1.20.1";
         "fabric" = "0.19.5";
         "quilt" = "0.31.0-beta.4";
-        "forge" = "47.4.26";
+        "forge" = "47.4.27";
         "neoforge" = "47.1.106";
         "liteloader" = null;
     }

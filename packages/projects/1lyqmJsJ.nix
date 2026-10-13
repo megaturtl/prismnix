@@ -81,6 +81,11 @@ let
             "file" = "proslowonfire-1.0.0.jar";
             "hash" = "sha512-faKuyoy1CrUIKrJbMi6U10cDuQMTpp4oIwTgkSF+Q4KxbSYqK60RlS1gaMsdaDXydlWUlanV8KzYpKcP4A2e/Q==";
         };
+        _cCCiUOnB = {
+            "id" = "cCCiUOnB";
+            "file" = "proslowonfire-1.0.0.jar";
+            "hash" = "sha512-TRZ+kdAeclRbvll7ofQoE6H7HHCSlUHWy1v7rGi3K6TDnro/33YbG2cXH9SlezzIFwjS5T43V/Fv4COYbd9SAQ==";
+        };
     in {
         "jLrz24gO" = _jLrz24gO;
         "PDreVUxm" = _PDreVUxm;
@@ -98,6 +103,7 @@ let
         "5DvuuYhA" = _5DvuuYhA;
         "ovylU970" = _ovylU970;
         "1JidNslF" = _1JidNslF;
+        "cCCiUOnB" = _cCCiUOnB;
         "fabric-1.21.1" = _jLrz24gO;
         "fabric-1.21.11" = _PDreVUxm;
         "fabric-1.21.2" = _wchS9L0U;
@@ -126,8 +132,9 @@ let
         "fabric-26.2" = _5DvuuYhA;
         "fabric-26.3-snapshot-4" = _ovylU970;
         "fabric-26.3-snapshot-5" = _1JidNslF;
-        "pkg-1.0.0" = _1JidNslF;
-        "default" = _1JidNslF;
+        "fabric-26.3" = _cCCiUOnB;
+        "pkg-1.0.0" = _cCCiUOnB;
+        "default" = _cCCiUOnB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "proslowonfire";

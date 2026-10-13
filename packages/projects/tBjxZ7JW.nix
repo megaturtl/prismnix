@@ -396,6 +396,11 @@ let
             "file" = "inventory-1.13.1-26.3.jar";
             "hash" = "sha512-UevNXeAoGgwKbDf5Nq778TSMiLWlZoRvBELfaGh7EAlmZGTttLfm5b97IDwr/3QAvWi+EEfbnZiAt/gbsFpt2A==";
         };
+        _6kqR7osT = {
+            "id" = "6kqR7osT";
+            "file" = "inventory-1.13.2-26.3.jar";
+            "hash" = "sha512-2XJNAjL7JEG+hSyhkFgIZu0F5YPehClwBYJtdCOP0g3tvC3G9WISyOI9l6dLIDAP4N8ByvWAFK3S9EhWpU8uxg==";
+        };
     in {
         "kaVVOPyb" = _kaVVOPyb;
         "w8Spl4Vc" = _w8Spl4Vc;
@@ -476,6 +481,7 @@ let
         "cyNU5e7k" = _cyNU5e7k;
         "M88QJQsj" = _M88QJQsj;
         "ojVKrNus" = _ojVKrNus;
+        "6kqR7osT" = _6kqR7osT;
         "fabric-1.19.4" = _w8Spl4Vc;
         "fabric-1.20" = _xV3TwWHS;
         "fabric-1.20.1" = _Dk0385bM;
@@ -498,7 +504,7 @@ let
         "fabric-26.1.1" = _cyNU5e7k;
         "fabric-26.1.2" = _cyNU5e7k;
         "fabric-26.2" = _M88QJQsj;
-        "fabric-26.3" = _ojVKrNus;
+        "fabric-26.3" = _6kqR7osT;
         "pkg-1.0.0" = _kaVVOPyb;
         "pkg-1.0.1" = _w8Spl4Vc;
         "pkg-1.1.0" = _KgsEpLOU;
@@ -575,7 +581,8 @@ let
         "pkg-1.13.1" = _cyNU5e7k;
         "pkg-1.13.1-26.2" = _M88QJQsj;
         "pkg-1.13.1-26.3" = _ojVKrNus;
-        "default" = _ojVKrNus;
+        "pkg-1.13.2-26.3" = _6kqR7osT;
+        "default" = _6kqR7osT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "frostbytes-improved-inventory";

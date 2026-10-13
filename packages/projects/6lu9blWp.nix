@@ -441,6 +441,21 @@ let
             "file" = "workshop_for_handsome_adventurer--mc26.2--neoforge--1.37.1.jar";
             "hash" = "sha512-g3GduTx6pfCPfmVuf8Bfvt/X8XGw56GmiO7cdGaKeM+SeG4uAwfNzDnwf/y1J5zWyI43df05/bsk5dwEGMzuyg==";
         };
+        _VZFaENxj = {
+            "id" = "VZFaENxj";
+            "file" = "workshop_for_handsome_adventurer--mc26.3--neoforge--1.37.1.jar";
+            "hash" = "sha512-r/gUF7GPHaHVxtIW1d8mVLTPAfNlx8YHvRZsp1pp/cwNhpC+Cq66yw9EoYhtccVijKkSiwhm03eJQQ0pMNbAHA==";
+        };
+        _X9wHJr7v = {
+            "id" = "X9wHJr7v";
+            "file" = "workshop_for_handsome_adventurer--mc26.2--neoforge--1.37.2.jar";
+            "hash" = "sha512-QjjkUWbni3JjLlkm77F7TCphb73h8L1UUOGKzi++wSa0cUiMg+tMNFRUltWhk4RUFLiBWrcoYdSzfxaZycIJyg==";
+        };
+        _FOYtXYkt = {
+            "id" = "FOYtXYkt";
+            "file" = "workshop_for_handsome_adventurer--mc26.3--neoforge--1.37.2.jar";
+            "hash" = "sha512-0+NYSdBFn9SHUBRm2ArrZMRVgYRmRasiV6mmYyH6CV6POZdXObJeoWF5KGY02TgQK7DIOcxoES4u8LyxuJ85IQ==";
+        };
     in {
         "A46H7SEn" = _A46H7SEn;
         "5iFnn2dx" = _5iFnn2dx;
@@ -530,6 +545,9 @@ let
         "A3wMOrS3" = _A3wMOrS3;
         "CBhBzdYC" = _CBhBzdYC;
         "nrOm5mET" = _nrOm5mET;
+        "VZFaENxj" = _VZFaENxj;
+        "X9wHJr7v" = _X9wHJr7v;
+        "FOYtXYkt" = _FOYtXYkt;
         "forge-1.20.1" = _EmZy2SKs;
         "forge-1.18.2" = _7gQrL1ZY;
         "forge-1.19.4" = _Cnll7McU;
@@ -543,7 +561,8 @@ let
         "neoforge-26.1" = _CBhBzdYC;
         "neoforge-26.1.1" = _CBhBzdYC;
         "neoforge-26.1.2" = _CBhBzdYC;
-        "neoforge-26.2" = _nrOm5mET;
+        "neoforge-26.2" = _X9wHJr7v;
+        "neoforge-26.3" = _FOYtXYkt;
         "pkg-1.00" = _XKrw7ESe;
         "pkg-1.01" = _Nw1Omnbo;
         "pkg-1.05" = _cFJ0nU1S;
@@ -589,8 +608,9 @@ let
         "pkg-1.36.0" = _RUpmeRGm;
         "pkg-1.35.2" = _ierZZxAs;
         "pkg-1.37.0" = _A3wMOrS3;
-        "pkg-1.37.1" = _nrOm5mET;
-        "default" = _nrOm5mET;
+        "pkg-1.37.1" = _VZFaENxj;
+        "pkg-1.37.2" = _FOYtXYkt;
+        "default" = _FOYtXYkt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "workshop-for-handsome-adventurer";

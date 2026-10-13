@@ -41,6 +41,11 @@ let
             "file" = "MinePiece-ver14-forge-1.20.1.jar";
             "hash" = "sha512-vB+iwHjxIGDBeAo+Ysh/jLH/yM1/XTQEkh7DjawHWKcQ2dyAtdJcLJJgMQc6M9gtM8zYIZo7ph7qJ79qCAucXw==";
         };
+        _DKUZACPy = {
+            "id" = "DKUZACPy";
+            "file" = "MinePiece-ver15-forge-1.20.1.jar";
+            "hash" = "sha512-yrG7UpgMXGCdB6wDu83AmCmTy2OhfmzrtkJpjUC4bP26YGX4+mDgLn7aHDbj0KZYociZ7LORjp/5gCMvUqK7tQ==";
+        };
     in {
         "gVY1U3MK" = _gVY1U3MK;
         "LWREpE7X" = _LWREpE7X;
@@ -50,7 +55,8 @@ let
         "UlXZjY3F" = _UlXZjY3F;
         "F1Zz7ZxC" = _F1Zz7ZxC;
         "KFljXAvC" = _KFljXAvC;
-        "forge-1.20.1" = _KFljXAvC;
+        "DKUZACPy" = _DKUZACPy;
+        "forge-1.20.1" = _DKUZACPy;
         "pkg-9.2" = _gVY1U3MK;
         "pkg-10" = _LWREpE7X;
         "pkg-10.1" = _H9wbSmLj;
@@ -59,7 +65,8 @@ let
         "pkg-12" = _UlXZjY3F;
         "pkg-13" = _F1Zz7ZxC;
         "pkg-14" = _KFljXAvC;
-        "default" = _KFljXAvC;
+        "pkg-15" = _DKUZACPy;
+        "default" = _DKUZACPy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "orca-mine-piece";

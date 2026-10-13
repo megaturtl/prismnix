@@ -516,6 +516,16 @@ let
             "file" = "Coins-neoforge-MC26.3-26.3.0.1.jar";
             "hash" = "sha512-ZEEoppOujjQRS2aCgyUXvtRgI6tb/LB5sn1gt5t+7k0bm7lupLADTmnOAt22K45oaou82ekG3teP/0W/HJQ33w==";
         };
+        _j9W1XYpq = {
+            "id" = "j9W1XYpq";
+            "file" = "Coins-fabric-MC26.3-26.3.0.2.jar";
+            "hash" = "sha512-Ksze9o8qDR5n+H6IO+WcKvzlkS9BNMLAwWPbfufE5FIyBK0lY1bSG+K+a2F2FLJe0pH+0SgWa9YOBcQ5XYjZjA==";
+        };
+        _15oLm8cN = {
+            "id" = "15oLm8cN";
+            "file" = "Coins-neoforge-MC26.3-26.3.0.2.jar";
+            "hash" = "sha512-fiCnDV4Scoy9Pi9a7V+jNCRL7vJS7cQflnmeSnmwVuPkVTqAXrZBshzzw4HkNZXpzkev1+1NzYJ5jFwwsrqGwg==";
+        };
     in {
         "3XDhrsaZ" = _3XDhrsaZ;
         "7dulMQLv" = _7dulMQLv;
@@ -620,6 +630,8 @@ let
         "Zcgtv6zh" = _Zcgtv6zh;
         "bVomzeVH" = _bVomzeVH;
         "sGUjCgGe" = _sGUjCgGe;
+        "j9W1XYpq" = _j9W1XYpq;
+        "15oLm8cN" = _15oLm8cN;
         "forge-1.15.2" = _iQWL2mjR;
         "forge-1.14.4" = _7dulMQLv;
         "forge-1.16.1" = _PaTVjc31;
@@ -654,7 +666,7 @@ let
         "fabric-26.1.1" = _Zcgtv6zh;
         "fabric-26.1.2" = _Zcgtv6zh;
         "fabric-26.2" = _gQel8qC7;
-        "fabric-26.3" = _bVomzeVH;
+        "fabric-26.3" = _j9W1XYpq;
         "quilt-1.18.2" = _qtAjMNqa;
         "quilt-1.19" = _6ziZPEME;
         "quilt-1.19.1" = _p5RL6zX4;
@@ -670,7 +682,7 @@ let
         "neoforge-26.1.1" = _qdlGgbEV;
         "neoforge-26.1.2" = _qdlGgbEV;
         "neoforge-26.2" = _EepLQgtR;
-        "neoforge-26.3" = _sGUjCgGe;
+        "neoforge-26.3" = _15oLm8cN;
         "pkg-1.0.1" = _3XDhrsaZ;
         "pkg-0.9.2" = _7dulMQLv;
         "pkg-1.0.2" = _iQWL2mjR;
@@ -724,7 +736,8 @@ let
         "pkg-26.2.0.6" = _gQel8qC7;
         "pkg-26.1.2.7" = _Zcgtv6zh;
         "pkg-26.3.0.1" = _sGUjCgGe;
-        "default" = _sGUjCgGe;
+        "pkg-26.3.0.2" = _15oLm8cN;
+        "default" = _15oLm8cN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "coins-je";

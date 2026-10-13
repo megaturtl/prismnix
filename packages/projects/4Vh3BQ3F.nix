@@ -176,6 +176,16 @@ let
             "file" = "l2library-26.1.2.1+2.jar";
             "hash" = "sha512-2lOMMdXs8mshQEWaZyGbm+CBtNZO0XqvA4Iv3/yEme1/85NWbvB9pWoGEFdTPtA1sg6+jJkL75O8HUXqZv6zBw==";
         };
+        _PyLePDWI = {
+            "id" = "PyLePDWI";
+            "file" = "l2library-2.5.5.jar";
+            "hash" = "sha512-nr62dJUJr+blFyaFRxvhR1PS5u3y/loYu707oox5eBGwmlhQl2Anv9ErqjG3z7hJNy3qFnrtJZCeiLL0KHJitQ==";
+        };
+        _7GS7JBkX = {
+            "id" = "7GS7JBkX";
+            "file" = "l2library-3.0.9.jar";
+            "hash" = "sha512-4TqqIgO0uSfqlG7z0PXT/bAGF5/UHoy2wb0eBkIViKq4r29glhUKo/AdMuMKPcPFRs63HZf91v/HtHa1S7tudA==";
+        };
     in {
         "bdPg3d8F" = _bdPg3d8F;
         "Fg8fOD7y" = _Fg8fOD7y;
@@ -212,11 +222,13 @@ let
         "le4xvxLg" = _le4xvxLg;
         "HYydf66X" = _HYydf66X;
         "CE92Otiu" = _CE92Otiu;
+        "PyLePDWI" = _PyLePDWI;
+        "7GS7JBkX" = _7GS7JBkX;
         "forge-1.19.2" = _tCOk76vP;
-        "forge-1.20.1" = _lg7mW3eS;
-        "neoforge-1.20.1" = _lg7mW3eS;
+        "forge-1.20.1" = _PyLePDWI;
+        "neoforge-1.20.1" = _PyLePDWI;
         "neoforge-1.21" = _iTh5chQW;
-        "neoforge-1.21.1" = _640EOvKh;
+        "neoforge-1.21.1" = _7GS7JBkX;
         "neoforge-26.1.2" = _CE92Otiu;
         "pkg-1.8.5" = _bdPg3d8F;
         "pkg-1.9.2" = _Fg8fOD7y;
@@ -253,7 +265,9 @@ let
         "pkg-26.1.2.1" = _le4xvxLg;
         "pkg-26.1.2.1+1" = _HYydf66X;
         "pkg-26.1.2.1+2" = _CE92Otiu;
-        "default" = _CE92Otiu;
+        "pkg-2.5.5" = _PyLePDWI;
+        "pkg-3.0.9" = _7GS7JBkX;
+        "default" = _7GS7JBkX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "l2library";

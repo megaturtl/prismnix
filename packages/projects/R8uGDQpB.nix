@@ -316,6 +316,16 @@ let
             "file" = "worldweaver-26.3.2.jar";
             "hash" = "sha512-r9SyVZvpGVGPCUHg4i48Otcc04ZJVAdWx0QWoXpjhklxSpfdT9GO7kg1TtibylkBmjBm/su4DYiSPs4DbLd3Xw==";
         };
+        _bifnYTd1 = {
+            "id" = "bifnYTd1";
+            "file" = "worldweaver-26.3.1-fabric.jar";
+            "hash" = "sha512-KQoHYgOP74zDG+zuf/WWhRTqLl2ClYqrTOhirIrncKoor4jRaBz26a7OaySjF8bs6jleDrwlQbX1MJJ38vjK+A==";
+        };
+        _2RcFUVNq = {
+            "id" = "2RcFUVNq";
+            "file" = "worldweaver-26.3.3.jar";
+            "hash" = "sha512-IaQoGcQnwAedXIrLxT1rq5bzGk6AvwvO1cYssnqkO26FnC40Dl3nK9uRGg16HF7adUdmlTqioeFoLUbP7/+jcQ==";
+        };
     in {
         "b5oHgO1t" = _b5oHgO1t;
         "nAsLkO2i" = _nAsLkO2i;
@@ -380,6 +390,8 @@ let
         "c049zCxK" = _c049zCxK;
         "d8hudCBm" = _d8hudCBm;
         "KUb5o670" = _KUb5o670;
+        "bifnYTd1" = _bifnYTd1;
+        "2RcFUVNq" = _2RcFUVNq;
         "neoforge-1.21" = _x1laXrzF;
         "neoforge-1.21.1" = _x1laXrzF;
         "neoforge-1.21.11" = _RLgtmGzE;
@@ -387,7 +399,7 @@ let
         "neoforge-26.1.1" = _c049zCxK;
         "neoforge-26.1.2" = _c049zCxK;
         "neoforge-26.2" = _d8hudCBm;
-        "neoforge-26.3" = _KUb5o670;
+        "neoforge-26.3" = _2RcFUVNq;
         "fabric-1.21" = _eaKGJeVV;
         "fabric-1.21.1" = _eaKGJeVV;
         "fabric-1.21.11" = _FVALRVgP;
@@ -395,7 +407,7 @@ let
         "fabric-26.1.1" = _OfdfJTo8;
         "fabric-26.1.2" = _OfdfJTo8;
         "fabric-26.2" = _9Eetuk3q;
-        "fabric-26.3" = _cidQozFP;
+        "fabric-26.3" = _bifnYTd1;
         "quilt-1.21" = _eaKGJeVV;
         "quilt-1.21.1" = _eaKGJeVV;
         "quilt-1.21.11" = _FVALRVgP;
@@ -403,7 +415,7 @@ let
         "quilt-26.1.1" = _OfdfJTo8;
         "quilt-26.1.2" = _OfdfJTo8;
         "quilt-26.2" = _9Eetuk3q;
-        "quilt-26.3" = _cidQozFP;
+        "quilt-26.3" = _bifnYTd1;
         "pkg-21.0.14" = _b5oHgO1t;
         "pkg-21.0.15" = _nAsLkO2i;
         "pkg-21.0.16" = _xYmfRZPm;
@@ -466,7 +478,9 @@ let
         "pkg-26.1.9" = _c049zCxK;
         "pkg-26.2.4" = _d8hudCBm;
         "pkg-26.3.2" = _KUb5o670;
-        "default" = _KUb5o670;
+        "pkg-26.3.1-fabric" = _bifnYTd1;
+        "pkg-26.3.3" = _2RcFUVNq;
+        "default" = _2RcFUVNq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "worldweaver-neoforge";

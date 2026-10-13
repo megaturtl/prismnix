@@ -196,6 +196,11 @@ let
             "file" = "TerraformGenerator-28.0.2.jar";
             "hash" = "sha512-TwO3lrT8HH5AFaoeJD3QbVph2D4tdKLWWrA/qIU5mzUfDaNpD35xYz/pzu0wIqRXetraCZ/JBWL+zbhXLK+dCQ==";
         };
+        _GgKBUf9C = {
+            "id" = "GgKBUf9C";
+            "file" = "TerraformGenerator-28.1.0.jar";
+            "hash" = "sha512-O5qHCdsCI8HDOJTNL3C3pXelPBAqcvvl7snKmfZS+zR7bZsOWJMccb0kSF7fd1SkdF5u698VAZ+dsJgi/LyXhA==";
+        };
     in {
         "fLUUNJGS" = _fLUUNJGS;
         "IDHAZvUE" = _IDHAZvUE;
@@ -236,6 +241,7 @@ let
         "CJmOv4mp" = _CJmOv4mp;
         "eQBjAPOg" = _eQBjAPOg;
         "wUHLGiJ4" = _wUHLGiJ4;
+        "GgKBUf9C" = _GgKBUf9C;
         "paper-1.18.2" = _N082Kn0X;
         "paper-1.19.4" = _N082Kn0X;
         "paper-1.20" = _N082Kn0X;
@@ -257,13 +263,13 @@ let
         "paper-1.21.7" = _N082Kn0X;
         "paper-1.21.8" = _N082Kn0X;
         "paper-1.21.9" = _N082Kn0X;
-        "paper-1.21.10" = _wUHLGiJ4;
-        "paper-1.21.11" = _wUHLGiJ4;
-        "paper-26.1" = _wUHLGiJ4;
-        "paper-26.1.1" = _wUHLGiJ4;
-        "paper-26.1.2" = _wUHLGiJ4;
-        "paper-26.2" = _wUHLGiJ4;
-        "paper-26.3" = _wUHLGiJ4;
+        "paper-1.21.10" = _GgKBUf9C;
+        "paper-1.21.11" = _GgKBUf9C;
+        "paper-26.1" = _GgKBUf9C;
+        "paper-26.1.1" = _GgKBUf9C;
+        "paper-26.1.2" = _GgKBUf9C;
+        "paper-26.2" = _GgKBUf9C;
+        "paper-26.3" = _GgKBUf9C;
         "spigot-1.18.2" = _N082Kn0X;
         "spigot-1.19.4" = _N082Kn0X;
         "spigot-1.20" = _N082Kn0X;
@@ -285,13 +291,13 @@ let
         "spigot-1.21.7" = _N082Kn0X;
         "spigot-1.21.8" = _N082Kn0X;
         "spigot-1.21.9" = _N082Kn0X;
-        "spigot-1.21.10" = _wUHLGiJ4;
-        "spigot-1.21.11" = _wUHLGiJ4;
-        "spigot-26.1" = _wUHLGiJ4;
-        "spigot-26.1.1" = _wUHLGiJ4;
-        "spigot-26.1.2" = _wUHLGiJ4;
-        "spigot-26.2" = _wUHLGiJ4;
-        "spigot-26.3" = _wUHLGiJ4;
+        "spigot-1.21.10" = _GgKBUf9C;
+        "spigot-1.21.11" = _GgKBUf9C;
+        "spigot-26.1" = _GgKBUf9C;
+        "spigot-26.1.1" = _GgKBUf9C;
+        "spigot-26.1.2" = _GgKBUf9C;
+        "spigot-26.2" = _GgKBUf9C;
+        "spigot-26.3" = _GgKBUf9C;
         "purpur-1.18" = _YwK17sJ8;
         "purpur-1.18.1" = _YwK17sJ8;
         "purpur-1.18.2" = _wunkXxmF;
@@ -318,12 +324,12 @@ let
         "purpur-26.1" = _rBqVUgFS;
         "purpur-26.1.1" = _rBqVUgFS;
         "purpur-26.1.2" = _rBqVUgFS;
-        "folia-1.21.10" = _wUHLGiJ4;
-        "folia-1.21.11" = _wUHLGiJ4;
-        "folia-26.1" = _wUHLGiJ4;
-        "folia-26.1.1" = _wUHLGiJ4;
-        "folia-26.1.2" = _wUHLGiJ4;
-        "folia-26.2" = _wUHLGiJ4;
+        "folia-1.21.10" = _GgKBUf9C;
+        "folia-1.21.11" = _GgKBUf9C;
+        "folia-26.1" = _GgKBUf9C;
+        "folia-26.1.1" = _GgKBUf9C;
+        "folia-26.1.2" = _GgKBUf9C;
+        "folia-26.2" = _GgKBUf9C;
         "folia-1.18.2" = _N082Kn0X;
         "folia-1.19.4" = _N082Kn0X;
         "folia-1.20" = _N082Kn0X;
@@ -343,7 +349,7 @@ let
         "folia-1.21.7" = _N082Kn0X;
         "folia-1.21.8" = _N082Kn0X;
         "folia-1.21.9" = _N082Kn0X;
-        "folia-26.3" = _wUHLGiJ4;
+        "folia-26.3" = _GgKBUf9C;
         "pkg-19.0.0" = _fLUUNJGS;
         "pkg-19.1.0" = _IDHAZvUE;
         "pkg-19.1.1" = _YwK17sJ8;
@@ -383,7 +389,8 @@ let
         "pkg-28.0.0" = _CJmOv4mp;
         "pkg-28.0.1" = _eQBjAPOg;
         "pkg-28.0.2" = _wUHLGiJ4;
-        "default" = _wUHLGiJ4;
+        "pkg-28.1.0" = _GgKBUf9C;
+        "default" = _GgKBUf9C;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "terraformgenerator";

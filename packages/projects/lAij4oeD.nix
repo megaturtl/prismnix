@@ -276,6 +276,26 @@ let
             "file" = "lithereal-1.6.0.beta.11-26.1.2-neoforge.jar";
             "hash" = "sha512-hVtGQ8n5xgqZek/MPdgTGxLsPwx39OJxpo9uC5YEOlVcWxGOHtkyfnn+rXuU7g9I1JkUOB4MyejKFMVVCMfLDA==";
         };
+        _MCR9Am3m = {
+            "id" = "MCR9Am3m";
+            "file" = "lithereal-1.6.0.beta.12-26.1.2-neoforge.jar";
+            "hash" = "sha512-4YUr5hRoTqOqLy7azyifGw7A3w9W6O5T6WDDd014e0EQAkhpVyHQj81M5e2APkoE616FarpT4Si0jnWVfHUlnQ==";
+        };
+        _yNhkrX3U = {
+            "id" = "yNhkrX3U";
+            "file" = "lithereal-1.6.0.beta.12-26.1.2-fabric.jar";
+            "hash" = "sha512-Uj1I77cLXP7UtYFVSzMM/r3Oz0jSnRXpgXRIoWU+wkGnZOaPI2MNqrmF0YtyZL91CCxpdrzTTF7Y0zjQmFTlSw==";
+        };
+        _6XoxDkX0 = {
+            "id" = "6XoxDkX0";
+            "file" = "lithereal-1.6.0.beta.12-26.1.2-fabric.jar";
+            "hash" = "sha512-Uj1I77cLXP7UtYFVSzMM/r3Oz0jSnRXpgXRIoWU+wkGnZOaPI2MNqrmF0YtyZL91CCxpdrzTTF7Y0zjQmFTlSw==";
+        };
+        _Swdrg0W4 = {
+            "id" = "Swdrg0W4";
+            "file" = "lithereal-1.6.0.beta.12-26.1.2-neoforge.jar";
+            "hash" = "sha512-4YUr5hRoTqOqLy7azyifGw7A3w9W6O5T6WDDd014e0EQAkhpVyHQj81M5e2APkoE616FarpT4Si0jnWVfHUlnQ==";
+        };
     in {
         "tvP8HHKK" = _tvP8HHKK;
         "G3eVpTXn" = _G3eVpTXn;
@@ -332,6 +352,10 @@ let
         "KOc0rBgj" = _KOc0rBgj;
         "PbZNev6L" = _PbZNev6L;
         "1Jiu0mrS" = _1Jiu0mrS;
+        "MCR9Am3m" = _MCR9Am3m;
+        "yNhkrX3U" = _yNhkrX3U;
+        "6XoxDkX0" = _6XoxDkX0;
+        "Swdrg0W4" = _Swdrg0W4;
         "fabric-1.19.4" = _tvP8HHKK;
         "fabric-1.20.1" = _JGAo9qEX;
         "fabric-1.20.6" = _Qchyz1tr;
@@ -339,7 +363,7 @@ let
         "fabric-1.21" = _OoJBTalu;
         "fabric-26.1" = _PbZNev6L;
         "fabric-26.1.1" = _PbZNev6L;
-        "fabric-26.1.2" = _PbZNev6L;
+        "fabric-26.1.2" = _6XoxDkX0;
         "forge-1.19.4" = _OUb7Uj8f;
         "forge-1.20" = _iF3epVyh;
         "forge-1.19.2" = _Sh9EWyj7;
@@ -350,14 +374,14 @@ let
         "quilt-1.21" = _OoJBTalu;
         "quilt-26.1" = _PbZNev6L;
         "quilt-26.1.1" = _PbZNev6L;
-        "quilt-26.1.2" = _PbZNev6L;
+        "quilt-26.1.2" = _6XoxDkX0;
         "neoforge-1.20.1" = _FiVA8rDd;
         "neoforge-1.20.6" = _GHKZ96kk;
         "neoforge-1.21.1" = _sXXc7cYk;
         "neoforge-1.21" = _sXXc7cYk;
         "neoforge-26.1" = _1Jiu0mrS;
         "neoforge-26.1.1" = _1Jiu0mrS;
-        "neoforge-26.1.2" = _1Jiu0mrS;
+        "neoforge-26.1.2" = _Swdrg0W4;
         "pkg-1.0.0-1.19.4-FABRIC" = _tvP8HHKK;
         "pkg-1.0.0-1.19.4-FORGE" = _G3eVpTXn;
         "pkg-1.1.0" = _xURVhjdb;
@@ -397,7 +421,9 @@ let
         "pkg-1.6.0.beta.10-26.1.2-NeoForge" = _KOc0rBgj;
         "pkg-1.6.0.beta.11-26.1.2-Fabric" = _PbZNev6L;
         "pkg-1.6.0.beta.11-26.1.2-NeoForge" = _1Jiu0mrS;
-        "default" = _1Jiu0mrS;
+        "pkg-1.6.0.beta.12-26.1.2-NeoForge" = _Swdrg0W4;
+        "pkg-1.6.0.beta.12-26.1.2-Fabric" = _6XoxDkX0;
+        "default" = _Swdrg0W4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lithereal";

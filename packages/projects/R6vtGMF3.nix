@@ -151,6 +151,21 @@ let
             "file" = "MoreFences-neoforge-26.1.2-1.4.0.1.jar";
             "hash" = "sha512-p/LuRHbSYSi+3D0mwN5OJnYGKmwLR0/yT4NE5GQXCf6YaZketheWKBlo4REft7gsf/9aWGOoExNMo1C1NxfBPQ==";
         };
+        _48L1QMVS = {
+            "id" = "48L1QMVS";
+            "file" = "MoreFences-forge-26.3-1.5.0.jar";
+            "hash" = "sha512-qkiPg2XXcf6P/iIkmachg3QJd6XG5zg7kpbBNp8m4avhAPfaRtkguKuncq1I3wLBsT75KXDmCuGl1q63aKKAvg==";
+        };
+        _inreQafQ = {
+            "id" = "inreQafQ";
+            "file" = "MoreFences-neoforge-26.3-1.5.0.jar";
+            "hash" = "sha512-oOIQEHsZWHMODSb1aiHXSh7YZb0/7C6aS1N4jIgVmZAMAXnyh17uRpHcsYQWHkCpHrRJowAkx41JDrv3N0Cb3A==";
+        };
+        _4vInxLIE = {
+            "id" = "4vInxLIE";
+            "file" = "MoreFences-fabric-26.3-1.5.0.jar";
+            "hash" = "sha512-BiF9SthEXtWVOV0YEJnbrIyUw76Y1GXWzYpKPDQo4EQdGRUuQU//vrKp29TBbZXLluuksdB9sYgq+aB34FBK1w==";
+        };
     in {
         "qerMLsTP" = _qerMLsTP;
         "B2Fu6gds" = _B2Fu6gds;
@@ -182,6 +197,9 @@ let
         "AhrW9VLX" = _AhrW9VLX;
         "3zNsuU5X" = _3zNsuU5X;
         "q25xpHPU" = _q25xpHPU;
+        "48L1QMVS" = _48L1QMVS;
+        "inreQafQ" = _inreQafQ;
+        "4vInxLIE" = _4vInxLIE;
         "fabric-1.20.1" = _qerMLsTP;
         "fabric-1.20.2" = _uU8EOOn8;
         "fabric-1.20.4" = _bEMKUnpU;
@@ -191,6 +209,7 @@ let
         "fabric-1.21.10" = _l3okb5Iq;
         "fabric-1.21.11" = _lMauBmZn;
         "fabric-26.1.2" = _AhrW9VLX;
+        "fabric-26.3" = _4vInxLIE;
         "forge-1.20.1" = _B2Fu6gds;
         "forge-1.20.2" = _yucrB3Z3;
         "forge-1.20.4" = _gEhH2zg7;
@@ -201,6 +220,7 @@ let
         "forge-1.21.10" = _Mcae55jR;
         "forge-1.21.11" = _qV8lrtu1;
         "forge-26.1.2" = _3zNsuU5X;
+        "forge-26.3" = _48L1QMVS;
         "neoforge-1.20.4" = _uBXoib3i;
         "neoforge-1.21" = _JiKhoTm4;
         "neoforge-1.21.1" = _TxRIwYRM;
@@ -208,6 +228,7 @@ let
         "neoforge-1.21.10" = _BJfzZDLg;
         "neoforge-1.21.11" = _RxAL5SdJ;
         "neoforge-26.1.2" = _q25xpHPU;
+        "neoforge-26.3" = _inreQafQ;
         "pkg-1.0.3" = _qerMLsTP;
         "pkg-1.2.1" = _B2Fu6gds;
         "pkg-1.2.2" = _NFz81fAm;
@@ -231,7 +252,8 @@ let
         "pkg-1.21.11-1.1.3" = _lMauBmZn;
         "pkg-1.4.0" = _AhrW9VLX;
         "pkg-1.4.0.1" = _q25xpHPU;
-        "default" = _q25xpHPU;
+        "pkg-1.5.0" = _4vInxLIE;
+        "default" = _4vInxLIE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-beautiful-fences-gates";

@@ -51,6 +51,11 @@ let
             "file" = "map-art-copyright-26.1.2-0.7.jar";
             "hash" = "sha512-HPU4n07jTHbN9tw/f2lU9+DwFLvWu84Y9pxTj+nqRA7ho1xxwSM548hRovKn5pA4J7+MQ3MT1EN3ilTBpBC0SQ==";
         };
+        _rNqOrkqG = {
+            "id" = "rNqOrkqG";
+            "file" = "map-art-copyright-26.3-0.7.jar";
+            "hash" = "sha512-TJPQ0PstWMNJ4e091AVrg3sOPeJrpfbv3wU4jsinHPx4iZ52Ts4+F8hHkSXWJQv5HTgfyLtpU8NEJ9sxnmvvsQ==";
+        };
     in {
         "yVKILIoB" = _yVKILIoB;
         "wDvdMwG4" = _wDvdMwG4;
@@ -62,6 +67,7 @@ let
         "QhtYXix8" = _QhtYXix8;
         "TbWA5fjb" = _TbWA5fjb;
         "LaNoOiQi" = _LaNoOiQi;
+        "rNqOrkqG" = _rNqOrkqG;
         "fabric-1.20.1" = _YTvrPiPC;
         "fabric-1.20.4" = _yD6mWFsr;
         "fabric-1.21" = _iM0VH4NH;
@@ -76,6 +82,7 @@ let
         "fabric-1.21.11" = _QhtYXix8;
         "fabric-26.1.2" = _LaNoOiQi;
         "fabric-26.2" = _LaNoOiQi;
+        "fabric-26.3" = _rNqOrkqG;
         "pkg-0.1" = _wDvdMwG4;
         "pkg-0.2" = _ZWoyAnW4;
         "pkg-0.3" = _p9NTbX97;
@@ -83,7 +90,8 @@ let
         "pkg-0.5" = _QhtYXix8;
         "pkg-0.6" = _TbWA5fjb;
         "pkg-0.7" = _LaNoOiQi;
-        "default" = _LaNoOiQi;
+        "pkg-26.3-0.7" = _rNqOrkqG;
+        "default" = _rNqOrkqG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mapartcopyright";

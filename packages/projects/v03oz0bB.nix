@@ -86,6 +86,11 @@ let
             "file" = "musicdisplay-2.6.1.jar";
             "hash" = "sha512-M954OSjHS5CzTuZVjivJ1RDgR/dlNG2KQhi2h1utLVrVbhSkzrE1JpJ82Fd5QPGKpwEdOn9uWDcEioR1POnw+A==";
         };
+        _lpjn35zn = {
+            "id" = "lpjn35zn";
+            "file" = "musicdisplay-2.6.1.jar";
+            "hash" = "sha512-/PDW5H3ejPxJCXL/U3RBv05HYq5KmfTyvUE+f3ZrL/hqlQTr/uIoF1rA8JYme3fO9o/PsU93MGo7KYH7KR855A==";
+        };
     in {
         "eUEAJaP7" = _eUEAJaP7;
         "1mh8Ak56" = _1mh8Ak56;
@@ -104,11 +109,13 @@ let
         "84KkKXHm" = _84KkKXHm;
         "PMKjScbU" = _PMKjScbU;
         "qY5FwE55" = _qY5FwE55;
+        "lpjn35zn" = _lpjn35zn;
         "fabric-1.21.4" = _HFtb6Ey8;
         "fabric-26.1.1" = _qY5FwE55;
         "fabric-26.1.2" = _qY5FwE55;
         "fabric-26.1" = _qY5FwE55;
         "fabric-1.21.5" = _lNTp3YJo;
+        "fabric-26.2" = _lpjn35zn;
         "pkg-1.0.0" = _eUEAJaP7;
         "pkg-1.1.0" = _1mh8Ak56;
         "pkg-1.2.0" = _l5PfDjog;
@@ -119,8 +126,8 @@ let
         "pkg-2.4" = _lNTp3YJo;
         "pkg-2.5" = _84KkKXHm;
         "pkg-2.6" = _PMKjScbU;
-        "pkg-2.6.1" = _qY5FwE55;
-        "default" = _qY5FwE55;
+        "pkg-2.6.1" = _lpjn35zn;
+        "default" = _lpjn35zn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "musicdisplay";

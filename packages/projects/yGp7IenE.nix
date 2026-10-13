@@ -766,6 +766,36 @@ let
             "file" = "Nameless Trinkets-neoforge-26.1.2-1.2.4.jar";
             "hash" = "sha512-7LL2nWCf0rRgguIIqQ4cpb7QCNROOC/1lvdU+/ZYMe+0XOYcT9CpyTMsvGeKATnrmwMPWE2Tr1lIfwQh1Sy82g==";
         };
+        _4Mw9LVJ0 = {
+            "id" = "4Mw9LVJ0";
+            "file" = "Nameless Trinkets-fabric-1.21.1-1.2.5.jar";
+            "hash" = "sha512-UlszS7WvyGp3qgIfbXgotDvOeAcDKNAexutKHZlsUSqbNXn0tkOEa7iKeD9LoIhERACG/xLxAHQs5fvpdtYK0g==";
+        };
+        _qNqxQMuG = {
+            "id" = "qNqxQMuG";
+            "file" = "Nameless Trinkets-neoforge-1.21.1-1.2.5.jar";
+            "hash" = "sha512-4NOHLRfHcwXOikhy/YwsSAL/Dxp9HmVWpM/+aUuitSfZJO4gND+3FqH7chEniY50C0Qym06QDaodpHpSamn98A==";
+        };
+        _b9Nq41Dp = {
+            "id" = "b9Nq41Dp";
+            "file" = "Nameless Trinkets-neoforge-1.21.1-1.2.5.jar";
+            "hash" = "sha512-P/a1aqnSZ5E9zIJPCp/PayAiCNY/uFqz++ZuuK0txn6qEGU7i8I+X+ClnGQoaY0s19J6S84BfNC+WetFyEsOQw==";
+        };
+        _uAUhPfPJ = {
+            "id" = "uAUhPfPJ";
+            "file" = "Nameless Trinkets-fabric-1.21.1-1.2.5.jar";
+            "hash" = "sha512-UlszS7WvyGp3qgIfbXgotDvOeAcDKNAexutKHZlsUSqbNXn0tkOEa7iKeD9LoIhERACG/xLxAHQs5fvpdtYK0g==";
+        };
+        _tyvICS3M = {
+            "id" = "tyvICS3M";
+            "file" = "Nameless Trinkets-neoforge-1.21.1-1.2.5.jar";
+            "hash" = "sha512-4NOHLRfHcwXOikhy/YwsSAL/Dxp9HmVWpM/+aUuitSfZJO4gND+3FqH7chEniY50C0Qym06QDaodpHpSamn98A==";
+        };
+        _ePqdra4W = {
+            "id" = "ePqdra4W";
+            "file" = "Nameless Trinkets-neoforge-1.21.1-1.2.5.jar";
+            "hash" = "sha512-P/a1aqnSZ5E9zIJPCp/PayAiCNY/uFqz++ZuuK0txn6qEGU7i8I+X+ClnGQoaY0s19J6S84BfNC+WetFyEsOQw==";
+        };
     in {
         "AlbLz6cC" = _AlbLz6cC;
         "dblHnWe0" = _dblHnWe0;
@@ -920,8 +950,14 @@ let
         "F09vCdYj" = _F09vCdYj;
         "ePGhIZ3U" = _ePGhIZ3U;
         "ECPyyNaV" = _ECPyyNaV;
+        "4Mw9LVJ0" = _4Mw9LVJ0;
+        "qNqxQMuG" = _qNqxQMuG;
+        "b9Nq41Dp" = _b9Nq41Dp;
+        "uAUhPfPJ" = _uAUhPfPJ;
+        "tyvICS3M" = _tyvICS3M;
+        "ePqdra4W" = _ePqdra4W;
         "neoforge-1.21" = _rQeyVpKB;
-        "neoforge-1.21.1" = _hMLb3f4W;
+        "neoforge-1.21.1" = _ePqdra4W;
         "neoforge-1.21.4" = _9j4kbPGb;
         "neoforge-1.21.5" = _boU877uz;
         "neoforge-1.21.8" = _ICDOdXMn;
@@ -929,7 +965,7 @@ let
         "neoforge-1.21.11" = _V8DdJ3ow;
         "neoforge-26.1.2" = _ECPyyNaV;
         "fabric-1.21" = _R397ueu4;
-        "fabric-1.21.1" = _rHJ18pup;
+        "fabric-1.21.1" = _uAUhPfPJ;
         "fabric-1.21.4" = _N4iyOePH;
         "fabric-1.21.5" = _eDL6RDFj;
         "fabric-1.21.8" = _BvMxpYQT;
@@ -959,8 +995,8 @@ let
         "pkg-1.2.2" = _7PADTXZ7;
         "pkg-1.2.3" = _89IX5zIa;
         "pkg-1.2.4" = _ECPyyNaV;
-        "pkg-1.2.5" = _F09vCdYj;
-        "default" = _ECPyyNaV;
+        "pkg-1.2.5" = _ePqdra4W;
+        "default" = _ePqdra4W;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nameless-trinkets";

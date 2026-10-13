@@ -401,6 +401,21 @@ let
             "file" = "resource_nether_ores-fabric-26.1.2-3.1.0.jar";
             "hash" = "sha512-rFSszNP/whaFK2iLzEWrNBg7V7cjDRQtzyntFQhT9JenSDskWfFXwTyKPZ3tNA8woj9JHbzoPbo5VfnGWNb+kA==";
         };
+        _nEFvvBX0 = {
+            "id" = "nEFvvBX0";
+            "file" = "resource_nether_ores-forge-26.3-3.2.0.jar";
+            "hash" = "sha512-b2dHrIEb5QOzpo+RZkb4LZZF15dcf0GJ3tTZrKZ5zwttFjNnHLX9zOXMidcDGYQXBzTtqMFu63I4vuU6tJQncw==";
+        };
+        _YSGxyzxH = {
+            "id" = "YSGxyzxH";
+            "file" = "resource_nether_ores-neoforge-26.3-3.2.0.jar";
+            "hash" = "sha512-6htSzxrS7DqODTGFXtqAohUyhnx1G5us0SQux0CJJDt6mqor1g/BIvatBJYLDiB1B4Kp/YMKfykkeBaODyjguw==";
+        };
+        _bFLcWVHs = {
+            "id" = "bFLcWVHs";
+            "file" = "resource_nether_ores-fabric-26.3-3.2.0.jar";
+            "hash" = "sha512-YNuHU6LQGVAN+7uUnODt9thmnUSriunDPAXegqgI/N2rnYzaNnxv9jO5QPOuytp3ObDOpJ8Wp7ZryKJkDIeXUg==";
+        };
     in {
         "FRe7dCAK" = _FRe7dCAK;
         "y3Y5Xycm" = _y3Y5Xycm;
@@ -482,6 +497,9 @@ let
         "V3TrmwOg" = _V3TrmwOg;
         "VZLlmRnM" = _VZLlmRnM;
         "d53pLEH0" = _d53pLEH0;
+        "nEFvvBX0" = _nEFvvBX0;
+        "YSGxyzxH" = _YSGxyzxH;
+        "bFLcWVHs" = _bFLcWVHs;
         "fabric-1.20" = _zMzxhpoP;
         "fabric-1.20.1" = _zMzxhpoP;
         "fabric-1.20.2" = _zMzxhpoP;
@@ -500,6 +518,7 @@ let
         "fabric-26.1.1" = _bIAsMNwm;
         "fabric-26.1.2" = _d53pLEH0;
         "fabric-26.2" = _YQ6W4YKx;
+        "fabric-26.3" = _bFLcWVHs;
         "quilt-1.20" = _zMzxhpoP;
         "quilt-1.20.1" = _zMzxhpoP;
         "quilt-1.20.2" = _zMzxhpoP;
@@ -531,6 +550,7 @@ let
         "forge-1.21.11" = _NBWCStRY;
         "forge-26.2" = _h1fiLZDo;
         "forge-26.1.2" = _V3TrmwOg;
+        "forge-26.3" = _nEFvvBX0;
         "neoforge-1.20.4" = _ob3SX4XQ;
         "neoforge-1.20.6" = _6QKlQvxn;
         "neoforge-1.21" = _xUjXozwy;
@@ -544,6 +564,7 @@ let
         "neoforge-26.1.1" = _S5gZewhY;
         "neoforge-26.1.2" = _VZLlmRnM;
         "neoforge-26.2" = _D04k6cfp;
+        "neoforge-26.3" = _YSGxyzxH;
         "pkg-1.0.0" = _tMOrX4YY;
         "pkg-1.0.1" = _q2NEepfY;
         "pkg-1.1.0" = _GNqLbMwv;
@@ -565,7 +586,8 @@ let
         "pkg-26.1.2-3.0.0" = _bIAsMNwm;
         "pkg-3.1.0" = _YQ6W4YKx;
         "pkg-26.1.2-3.1.0" = _d53pLEH0;
-        "default" = _d53pLEH0;
+        "pkg-26.3-3.2.0" = _bFLcWVHs;
+        "default" = _bFLcWVHs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "resource-nether-ores";

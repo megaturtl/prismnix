@@ -1211,6 +1211,21 @@ let
             "file" = "laserbridges-26.3-neoforge-6.1.jar";
             "hash" = "sha512-97IzlC6bcwJ7j25uC/ipCDFejhG8j6SB3gtG8p9+jYYcdvS4l/XvxUBiLNGS4z6TTU12iCMAeZNI5sQGvmZmkQ==";
         };
+        _tprfq4Tw = {
+            "id" = "tprfq4Tw";
+            "file" = "laserbridges-26.3-fabric-6.1.1.jar";
+            "hash" = "sha512-1K/0/ExWW00ZRLWBmR5vF9AkpcQp0REOZzOl1pmDMDntUfX6ZfDeQSXaUPhHWnPkjzZ43s2WCpxSzRuS3VFhBQ==";
+        };
+        _pgekpg8s = {
+            "id" = "pgekpg8s";
+            "file" = "laserbridges-26.3-forge-6.1.1.jar";
+            "hash" = "sha512-Rx5YrEBYf6rv+z4ftsRzjqwpxXBgVw3rs7B8QUjYd/HhXn3fHKBuzUO28iG1DbfLfbJtbLx+eopQE+pK0Mclug==";
+        };
+        _GKLsVu42 = {
+            "id" = "GKLsVu42";
+            "file" = "laserbridges-26.3-neoforge-6.1.1.jar";
+            "hash" = "sha512-pjpHDfjW2Z4HXjnAFjXl//NncGsBNLNnvoO8Ff6UZCmzmLGRjxvgKBhxHATnV8Sv2tZyDAW3P84VKrNgrj9wHQ==";
+        };
     in {
         "8Iy7z0VI" = _8Iy7z0VI;
         "DF26z1o9" = _DF26z1o9;
@@ -1454,6 +1469,9 @@ let
         "spGU9dH4" = _spGU9dH4;
         "kiSbYDP1" = _kiSbYDP1;
         "t2Hj7qtJ" = _t2Hj7qtJ;
+        "tprfq4Tw" = _tprfq4Tw;
+        "pgekpg8s" = _pgekpg8s;
+        "GKLsVu42" = _GKLsVu42;
         "fabric-1.18" = _YOG1oZAJ;
         "fabric-1.18.1" = _YOG1oZAJ;
         "fabric-1.18.2" = _YOG1oZAJ;
@@ -1485,7 +1503,7 @@ let
         "fabric-26.1.1" = _Mqjf7C7C;
         "fabric-26.1.2" = _Mqjf7C7C;
         "fabric-26.2" = _wAVXQ6Fx;
-        "fabric-26.3" = _spGU9dH4;
+        "fabric-26.3" = _tprfq4Tw;
         "quilt-1.18" = _YOG1oZAJ;
         "quilt-1.18.1" = _YOG1oZAJ;
         "quilt-1.18.2" = _YOG1oZAJ;
@@ -1517,7 +1535,7 @@ let
         "quilt-26.1.1" = _Mqjf7C7C;
         "quilt-26.1.2" = _Mqjf7C7C;
         "quilt-26.2" = _wAVXQ6Fx;
-        "quilt-26.3" = _spGU9dH4;
+        "quilt-26.3" = _tprfq4Tw;
         "forge-1.19" = _YUjkZ8r7;
         "forge-1.19.1" = _YUjkZ8r7;
         "forge-1.19.2" = _YUjkZ8r7;
@@ -1549,7 +1567,7 @@ let
         "forge-26.1.1" = _BNJHWu6h;
         "forge-26.1.2" = _BNJHWu6h;
         "forge-26.2" = _LbU1kDaF;
-        "forge-26.3" = _kiSbYDP1;
+        "forge-26.3" = _pgekpg8s;
         "neoforge-1.20.4" = _rWJwqMRQ;
         "neoforge-1.20.6" = _S6Gw19S7;
         "neoforge-1.21" = _LfpCEXCa;
@@ -1571,7 +1589,7 @@ let
         "neoforge-26.1.1" = _O7fPFwYQ;
         "neoforge-26.1.2" = _O7fPFwYQ;
         "neoforge-26.2" = _9I6UO5hD;
-        "neoforge-26.3" = _t2Hj7qtJ;
+        "neoforge-26.3" = _GKLsVu42;
         "pkg-1.18-0" = _8Iy7z0VI;
         "pkg-1.18.1-0" = _DF26z1o9;
         "pkg-1.18.2-0" = _dRbOlyqV;
@@ -1814,7 +1832,10 @@ let
         "pkg-26.3-fabric-6.1" = _spGU9dH4;
         "pkg-26.3-forge-6.1" = _kiSbYDP1;
         "pkg-26.3-neoforge-6.1" = _t2Hj7qtJ;
-        "default" = _t2Hj7qtJ;
+        "pkg-26.3-fabric-6.1.1" = _tprfq4Tw;
+        "pkg-26.3-forge-6.1.1" = _pgekpg8s;
+        "pkg-26.3-neoforge-6.1.1" = _GKLsVu42;
+        "default" = _GKLsVu42;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "laser-bridges-and-doors";

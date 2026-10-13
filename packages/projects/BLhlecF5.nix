@@ -91,6 +91,21 @@ let
             "file" = "NoammAddons-1.2.9-26.2-legit.jar";
             "hash" = "sha512-3w3qB6q4z9n+dYHVPTVUfxE0d9jcml19oJpgfineNygC9iXH2+XZM/4HxfPcTnMovy+WS7uDIC52jZZEz5kJ8Q==";
         };
+        _uhHC7V2z = {
+            "id" = "uhHC7V2z";
+            "file" = "NoammAddons-1.3.0-26.1.2-legit.jar";
+            "hash" = "sha512-8n3ctcf/9pNR8WFGNqUO3YpogI44v28Ch4vcuJ4zEDhYM1aAPT5ABZa81fSo1wpvUFcZVUpyDtJ81TvYxuK0wQ==";
+        };
+        _FVEgbeEZ = {
+            "id" = "FVEgbeEZ";
+            "file" = "NoammAddons-1.3.0-26.2-legit.jar";
+            "hash" = "sha512-AVJ5/93Nm4VtgW6tdcRDsxspYPOU6chu+jYLBlFy6i2J03kepAAikmEwOjUuhwBr0Tm3/EKzsiP7sjf848eojw==";
+        };
+        _8InWNBqR = {
+            "id" = "8InWNBqR";
+            "file" = "NoammAddons-1.3.0-26.3-legit.jar";
+            "hash" = "sha512-oedp2po5UTz8ebGzgPm1TuetmtLqARgoD7N1BA62fGmbO176JAahq6cj7fKoKWilIsu23bMBvUeTydiV3MXoIg==";
+        };
     in {
         "a1F3PTi7" = _a1F3PTi7;
         "dJj5RMSO" = _dJj5RMSO;
@@ -110,11 +125,14 @@ let
         "MuAzcYTx" = _MuAzcYTx;
         "PTy332Xv" = _PTy332Xv;
         "lOXXJxia" = _lOXXJxia;
+        "uhHC7V2z" = _uhHC7V2z;
+        "FVEgbeEZ" = _FVEgbeEZ;
+        "8InWNBqR" = _8InWNBqR;
         "fabric-1.21.11" = _y6jxjjUW;
         "fabric-1.21.10" = _KPk8mQPj;
-        "fabric-26.1.2" = _MuAzcYTx;
-        "fabric-26.3" = _PTy332Xv;
-        "fabric-26.2" = _lOXXJxia;
+        "fabric-26.1.2" = _uhHC7V2z;
+        "fabric-26.3" = _8InWNBqR;
+        "fabric-26.2" = _FVEgbeEZ;
         "pkg-1.1.8" = _dJj5RMSO;
         "pkg-1.1.9" = _z6IsvErm;
         "pkg-1.2.0" = _y6jxjjUW;
@@ -127,7 +145,8 @@ let
         "pkg-1.2.7" = _LsDi1bUg;
         "pkg-1.2.8" = _RpaUtKLR;
         "pkg-1.2.9" = _lOXXJxia;
-        "default" = _lOXXJxia;
+        "pkg-1.3.0" = _8InWNBqR;
+        "default" = _8InWNBqR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "noammaddons";

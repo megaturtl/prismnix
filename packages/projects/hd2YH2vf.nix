@@ -586,6 +586,16 @@ let
             "file" = "crop-and-kettle-v1.3.16.jar";
             "hash" = "sha512-0eVrbCNFVSQ9LTURpW6Z/NGWdB9Y4t/KqG1ZbDdU2Ua6O0S22hWFIesZw1zt4CVMPAdXJY/juSVdpP2iDWcdpA==";
         };
+        _1HOzCnCr = {
+            "id" = "1HOzCnCr";
+            "file" = "CropAndKettle-v1.3.17-Data-Pack.zip";
+            "hash" = "sha512-TuLCGTEyUqw0kBhFdgBBNglrPJTlyJQWDF3J9/+1vwfAXC0RDL0IYAHU8aTuFl19F32kVwUVbSIK7YsTmsDLyA==";
+        };
+        _70uohCh0 = {
+            "id" = "70uohCh0";
+            "file" = "crop-and-kettle-v1.3.17.jar";
+            "hash" = "sha512-DjFR8/MBeQ6Xg952RMeW98OG71brBdowJgalCaVoiJOCgtXtD510iZCKntQ5VjizlT6bvBQgiuTg3CWhv9K75g==";
+        };
     in {
         "HxxlfjBw" = _HxxlfjBw;
         "4iN8n0Yj" = _4iN8n0Yj;
@@ -704,6 +714,8 @@ let
         "jUxkY019" = _jUxkY019;
         "G7beq9f8" = _G7beq9f8;
         "4mKdTRbU" = _4mKdTRbU;
+        "1HOzCnCr" = _1HOzCnCr;
+        "70uohCh0" = _70uohCh0;
         "datapack-1.21.6" = _BA5kIRas;
         "datapack-1.21.7" = _BA5kIRas;
         "datapack-1.21.8" = _BA5kIRas;
@@ -714,7 +726,7 @@ let
         "datapack-26.1.1" = _VMqc1pqB;
         "datapack-26.1.2" = _VMqc1pqB;
         "datapack-26.2" = _VMqc1pqB;
-        "datapack-26.3" = _G7beq9f8;
+        "datapack-26.3" = _1HOzCnCr;
         "fabric-1.21.6" = _Ky2ni89k;
         "fabric-1.21.7" = _Ky2ni89k;
         "fabric-1.21.8" = _Ky2ni89k;
@@ -725,7 +737,7 @@ let
         "fabric-26.1.1" = _ZsKxsUNy;
         "fabric-26.1.2" = _ZsKxsUNy;
         "fabric-26.2" = _ZsKxsUNy;
-        "fabric-26.3" = _4mKdTRbU;
+        "fabric-26.3" = _70uohCh0;
         "forge-1.21.6" = _Ky2ni89k;
         "forge-1.21.7" = _Ky2ni89k;
         "forge-1.21.8" = _Ky2ni89k;
@@ -736,7 +748,7 @@ let
         "forge-26.1.1" = _ZsKxsUNy;
         "forge-26.1.2" = _ZsKxsUNy;
         "forge-26.2" = _ZsKxsUNy;
-        "forge-26.3" = _4mKdTRbU;
+        "forge-26.3" = _70uohCh0;
         "neoforge-1.21.6" = _Ky2ni89k;
         "neoforge-1.21.7" = _Ky2ni89k;
         "neoforge-1.21.8" = _Ky2ni89k;
@@ -747,7 +759,7 @@ let
         "neoforge-26.1.1" = _ZsKxsUNy;
         "neoforge-26.1.2" = _ZsKxsUNy;
         "neoforge-26.2" = _ZsKxsUNy;
-        "neoforge-26.3" = _4mKdTRbU;
+        "neoforge-26.3" = _70uohCh0;
         "quilt-1.21.6" = _Ky2ni89k;
         "quilt-1.21.7" = _Ky2ni89k;
         "quilt-1.21.8" = _Ky2ni89k;
@@ -758,7 +770,7 @@ let
         "quilt-26.1.1" = _ZsKxsUNy;
         "quilt-26.1.2" = _ZsKxsUNy;
         "quilt-26.2" = _ZsKxsUNy;
-        "quilt-26.3" = _4mKdTRbU;
+        "quilt-26.3" = _70uohCh0;
         "pkg-0.9" = _HxxlfjBw;
         "pkg-1.0" = _4iN8n0Yj;
         "pkg-1.0+mod" = _ISkANzM4;
@@ -876,7 +888,9 @@ let
         "pkg-v1.3.15+mod" = _jUxkY019;
         "pkg-v1.3.16" = _G7beq9f8;
         "pkg-v1.3.16+mod" = _4mKdTRbU;
-        "default" = _4mKdTRbU;
+        "pkg-v1.3.17" = _1HOzCnCr;
+        "pkg-v1.3.17+mod" = _70uohCh0;
+        "default" = _70uohCh0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crop-and-kettle";

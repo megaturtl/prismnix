@@ -51,6 +51,16 @@ let
             "file" = "3d-end-crystal-1.0.2+26.X-fabric.jar";
             "hash" = "sha512-3Eed/yy0mYhN8bwxjds0BkUQuBGA3R/RaYT3viFHqdLCHk+5IzjdLC8g5yY7McQZff+ert3Zq2/QLyCcfFuf6Q==";
         };
+        _Vm3rL0mf = {
+            "id" = "Vm3rL0mf";
+            "file" = "td_end_crystal-neoforge-26.3-1.0.3.jar";
+            "hash" = "sha512-bKIaXYGPQE6qhekemfoQ8Y7NWgUT2tlU0w+N6HAlVwXgShp0MvsC7LUBvXynx1bvavFyU8rt5ZYpombDUoZ0DQ==";
+        };
+        _VFhO50Ff = {
+            "id" = "VFhO50Ff";
+            "file" = "td_end_crystal-fabric-26.3-1.0.3.jar";
+            "hash" = "sha512-0nm1zJkrl2vLqa9GgTz/z1//qQSuuOUEMISLFr7sShvSu0p3yKuqSC00lCq7axN5bX4gsz04IA9tvCygmk8Fwg==";
+        };
     in {
         "UBycs3kF" = _UBycs3kF;
         "ptiKiaYq" = _ptiKiaYq;
@@ -62,22 +72,27 @@ let
         "scZUzgSq" = _scZUzgSq;
         "yYfBUFGN" = _yYfBUFGN;
         "dY4TP1PL" = _dY4TP1PL;
-        "neoforge-26.1" = _yYfBUFGN;
-        "neoforge-26.1.1" = _yYfBUFGN;
-        "neoforge-26.1.2" = _yYfBUFGN;
-        "neoforge-26.2" = _yYfBUFGN;
+        "Vm3rL0mf" = _Vm3rL0mf;
+        "VFhO50Ff" = _VFhO50Ff;
+        "neoforge-26.1" = _Vm3rL0mf;
+        "neoforge-26.1.1" = _Vm3rL0mf;
+        "neoforge-26.1.2" = _Vm3rL0mf;
+        "neoforge-26.2" = _Vm3rL0mf;
         "neoforge-1.21.1" = _CdYv4KD9;
         "neoforge-1.21.11" = _ljjnvG3G;
-        "fabric-26.1" = _dY4TP1PL;
-        "fabric-26.1.1" = _dY4TP1PL;
-        "fabric-26.1.2" = _dY4TP1PL;
-        "fabric-26.2" = _dY4TP1PL;
+        "neoforge-26.3" = _Vm3rL0mf;
+        "fabric-26.1" = _VFhO50Ff;
+        "fabric-26.1.1" = _VFhO50Ff;
+        "fabric-26.1.2" = _VFhO50Ff;
+        "fabric-26.2" = _VFhO50Ff;
         "fabric-1.21.1" = _GLUVKXZw;
         "fabric-1.21.11" = _scZUzgSq;
+        "fabric-26.3" = _VFhO50Ff;
         "pkg-1.0.0" = _ptiKiaYq;
         "pkg-1.0.1" = _pO4KkBSl;
         "pkg-1.0.2" = _dY4TP1PL;
-        "default" = _dY4TP1PL;
+        "pkg-1.0.3" = _VFhO50Ff;
+        "default" = _VFhO50Ff;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "td-end-crystal";

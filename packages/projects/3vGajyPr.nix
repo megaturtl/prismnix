@@ -56,6 +56,26 @@ let
             "file" = "menukit-6.0.0+26.2.jar";
             "hash" = "sha512-s0kqxZ/BtHaZos64SDWaxQyyfw9N3E7qMLQRhUfTfPRHzS7SiA5Yr7yB4/34kc8xslFNBlY1PfeDhuI8fvEu3A==";
         };
+        _9MVkZ8fx = {
+            "id" = "9MVkZ8fx";
+            "file" = "menukit-6.1.0+26.2.jar";
+            "hash" = "sha512-CWrJmsGiqZBfXVNqiifEjiAy0gptIwaBrjzn+n0mNcF91ktZvSmim2W1XOtI/iHlO3Nry1sOTbc3aI1dxV8a6w==";
+        };
+        _1FskBeNc = {
+            "id" = "1FskBeNc";
+            "file" = "menukit-6.1.1+26.3.jar";
+            "hash" = "sha512-CWvI28GnLxRjDq3K/2pB9cYjV+7p+hCXMAxSFWjfvfxUGxyV+ejLGY9xj+TnwoKiZWSetj90pFBmDBL6QY+pkA==";
+        };
+        _3MqbRvfs = {
+            "id" = "3MqbRvfs";
+            "file" = "menukit-6.2.0+26.3.jar";
+            "hash" = "sha512-adOgQmRkskQqAmjPEqEJhIK8BOUrSYBldS9P+ULT6v99P5QTcVAW2eDlJT+TsSvKybK+/MaMXUKv+vr7Q+mf/A==";
+        };
+        _sFDpHwbh = {
+            "id" = "sFDpHwbh";
+            "file" = "menukit-7.0.0+26.3.jar";
+            "hash" = "sha512-H+tJG8Rm38SjB0ovINclTaDwx/6wc25nHjhkMTdPnomVUMtuN8462mpGhOz6/S11+SYOKyZyav1sD/Zofi8jIw==";
+        };
     in {
         "858SfbPP" = _858SfbPP;
         "s0EgkDOL" = _s0EgkDOL;
@@ -68,6 +88,10 @@ let
         "pYm9RIgT" = _pYm9RIgT;
         "Sfd4bVrl" = _Sfd4bVrl;
         "iRZhb0zv" = _iRZhb0zv;
+        "9MVkZ8fx" = _9MVkZ8fx;
+        "1FskBeNc" = _1FskBeNc;
+        "3MqbRvfs" = _3MqbRvfs;
+        "sFDpHwbh" = _sFDpHwbh;
         "fabric-1.21" = _858SfbPP;
         "fabric-1.21.1" = _858SfbPP;
         "fabric-1.21.2" = _858SfbPP;
@@ -80,7 +104,8 @@ let
         "fabric-1.21.9" = _858SfbPP;
         "fabric-1.21.10" = _858SfbPP;
         "fabric-1.21.11" = _R3BZelHc;
-        "fabric-26.2" = _iRZhb0zv;
+        "fabric-26.2" = _9MVkZ8fx;
+        "fabric-26.3" = _sFDpHwbh;
         "pkg-0.1.0" = _858SfbPP;
         "pkg-0.1.1" = _s0EgkDOL;
         "pkg-1.0.0" = _D5ikz1Hr;
@@ -92,7 +117,11 @@ let
         "pkg-5.0.0+26.2" = _pYm9RIgT;
         "pkg-5.1.0+26.2" = _Sfd4bVrl;
         "pkg-6.0.0+26.2" = _iRZhb0zv;
-        "default" = _iRZhb0zv;
+        "pkg-6.1.0+26.2" = _9MVkZ8fx;
+        "pkg-6.1.1+26.3" = _1FskBeNc;
+        "pkg-6.2.0+26.3" = _3MqbRvfs;
+        "pkg-7.0.0+26.3" = _sFDpHwbh;
+        "default" = _sFDpHwbh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "menukit";

@@ -106,6 +106,16 @@ let
             "file" = "tobacconistmod-4.0.0-forge-1.20.1.jar";
             "hash" = "sha512-CZM3Sqm8KNG2vsLRXUsMttjxH8lzSRNTDqvpoQL5/7D0ycHjeBa8VTk9iWu6z+F+uil5iCIBA96fhWe17ELe+Q==";
         };
+        _UAcKWRAg = {
+            "id" = "UAcKWRAg";
+            "file" = "tobacconistmod-4.1.0-forge-1.20.1.jar";
+            "hash" = "sha512-s/QxdMI40R6NKGfo86fuPI6l9fpRfSMD73moyOsMkp8dzZzOSN1aFVBkctv7QIZVKjcWquPVMlqE7jW+5BJyPQ==";
+        };
+        _ufFpyBUA = {
+            "id" = "ufFpyBUA";
+            "file" = "tobacconistmod-4.1.0-neoforge-1.21.1.jar";
+            "hash" = "sha512-po25P5IxcQATh7PcVoVk7ZyVeHvFPYe9kwSyZ0v6Zuelh3OJz/IqWGELpev8RKNl7nuvx8XvbKL7vtjVSW4NTg==";
+        };
     in {
         "WD7G5OMH" = _WD7G5OMH;
         "cqTOm4sK" = _cqTOm4sK;
@@ -128,8 +138,10 @@ let
         "QmwTKCWx" = _QmwTKCWx;
         "BE4xiBvB" = _BE4xiBvB;
         "2Wn9Gv9i" = _2Wn9Gv9i;
-        "forge-1.20.1" = _2Wn9Gv9i;
-        "neoforge-1.21.1" = _QmwTKCWx;
+        "UAcKWRAg" = _UAcKWRAg;
+        "ufFpyBUA" = _ufFpyBUA;
+        "forge-1.20.1" = _UAcKWRAg;
+        "neoforge-1.21.1" = _ufFpyBUA;
         "pkg-1.4.0" = _WD7G5OMH;
         "pkg-1.4.1" = _cqTOm4sK;
         "pkg-2.0" = _FeSa7RrX;
@@ -147,7 +159,8 @@ let
         "pkg-4.0.0b.rc" = _XJfSgVL8;
         "pkg-4.0.0" = _BE4xiBvB;
         "pkg-4.0.1" = _2Wn9Gv9i;
-        "default" = _2Wn9Gv9i;
+        "pkg-4.1.0" = _ufFpyBUA;
+        "default" = _ufFpyBUA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tobacconist";

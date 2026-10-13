@@ -2616,6 +2616,26 @@ let
             "file" = "mega_showdown-neoforge-1.2.0+1.8.1+1.21.1-release.jar";
             "hash" = "sha512-W4qpRS6HiUvSIvo7RCuRGa0Y5ypmsNG50yqlnO3VVKKAg1VS5qoz6uj6PUT4I7iI2vujJ3tvvtxYdzo7KX3Wng==";
         };
+        _3iXdzmkd = {
+            "id" = "3iXdzmkd";
+            "file" = "mega_showdown-neoforge-1.3.0+1.8.2+1.21.1-release.jar";
+            "hash" = "sha512-lqc5TxkQKKyWplu25PEjtzEQVj/4btodiy3sQhNJdhiUCp4pCIS/NecVVxW8jrabe0H70/MdqJ75H4wWK9KGqQ==";
+        };
+        _i7CwMJFd = {
+            "id" = "i7CwMJFd";
+            "file" = "mega_showdown-fabric-1.3.0+1.8.2+1.21.1-release.jar";
+            "hash" = "sha512-t++pPlpx/AZB6gXUK6SCDVO17YtnZ92A22hd9hkFPdcM1B6ua9zcceS4moAIfsmiaOGYVwQe5pMKjGy5op5ncg==";
+        };
+        _EAunp9Kz = {
+            "id" = "EAunp9Kz";
+            "file" = "mega_showdown-fabric-1.3.0+1.8.2+1.21.1-hotfix.jar";
+            "hash" = "sha512-TxnrtdF4K+tDp7EIGm4adlauQ/GuN9MKMYQjpAzXawiA2OzPRVzPCUB8i7HU+ufgry18pfxW0s/OCUmakOwx0A==";
+        };
+        _C0yyAEcs = {
+            "id" = "C0yyAEcs";
+            "file" = "mega_showdown-neoforge-1.3.0+1.8.2+1.21.1-hotfix.jar";
+            "hash" = "sha512-tr8+pZlr8xgSJu3lorjftgecUu1F8xlh5JIITGYotnkhhZI9BK8WN9g1ly6GryhWZGq+ePyn03dz2aQV49jsDA==";
+        };
     in {
         "8MhcOV9z" = _8MhcOV9z;
         "5iAMyW2K" = _5iAMyW2K;
@@ -3140,8 +3160,12 @@ let
         "8IvR0RIb" = _8IvR0RIb;
         "TKdAixuR" = _TKdAixuR;
         "PzUYM6Nz" = _PzUYM6Nz;
-        "fabric-1.21.1" = _TKdAixuR;
-        "neoforge-1.21.1" = _PzUYM6Nz;
+        "3iXdzmkd" = _3iXdzmkd;
+        "i7CwMJFd" = _i7CwMJFd;
+        "EAunp9Kz" = _EAunp9Kz;
+        "C0yyAEcs" = _C0yyAEcs;
+        "fabric-1.21.1" = _EAunp9Kz;
+        "neoforge-1.21.1" = _C0yyAEcs;
         "pkg-3.0.0-beta-fabric" = _8MhcOV9z;
         "pkg-3.0.0-beta-neoforge" = _5iAMyW2K;
         "pkg-1.0.0-fabric" = _IayKdKqg;
@@ -3578,7 +3602,9 @@ let
         "pkg-1.1.1+1.8+1.21.1-release" = _XyDOdRJO;
         "pkg-1.1.2+1.8+1.21.1-release" = _8IvR0RIb;
         "pkg-1.2.0+1.8.1+1.21.1-release" = _PzUYM6Nz;
-        "default" = _PzUYM6Nz;
+        "pkg-1.3.0+1.8.2+1.21.1-release" = _i7CwMJFd;
+        "pkg-1.3.0+1.8.2+1.21.1-hotfix" = _C0yyAEcs;
+        "default" = _C0yyAEcs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-mega-showdown";

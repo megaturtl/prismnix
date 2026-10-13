@@ -221,6 +221,26 @@ let
             "file" = "Elite x Quality Guns Neoforge v5.1 - 1.21.1.jar";
             "hash" = "sha512-5/4fccFND6JM46pP4xuTAO/G5XWd3ZWQCZX6jRY9TLH5WMJ5xOYURTrhHkIzMpcxSXFVbFLB/aRn1j+R6SGKvg==";
         };
+        _HCgRvwdF = {
+            "id" = "HCgRvwdF";
+            "file" = "Elite X Quality Guns Forge v6.0 -1.20.1Final.jar";
+            "hash" = "sha512-+C4YPIekvMRWbi2ld9EEtcnxwcwLSOqQg3hN3F3ki/w6ZTHhGCB27Rl7O5KeG3b1wNQrBJWbSvJp1e5zwmphaQ==";
+        };
+        _qHMVqJyV = {
+            "id" = "qHMVqJyV";
+            "file" = "Elite x Quality Guns Fabric v6.0 -1.20.1Final.jar";
+            "hash" = "sha512-oYDxI+1ea7rfa5LGY1NAF4LHgni+ybPisI3+oAY9eKx0vdL8mCJUHHOz3QnzeE/RY86GMCbGYwH1gzfgIfks+w==";
+        };
+        _EAoc32R2 = {
+            "id" = "EAoc32R2";
+            "file" = "Elite x Quality Guns Fabric v6.0 - 1.21.1Final.jar";
+            "hash" = "sha512-kgSsmOhI/EBJzj/L1Mcl4rSLgXhXzDW1rYxz/ckuM6ryctvhLovxSXC7//bCcvrIlH8t8e14/kPZGVfQZSnusg==";
+        };
+        _QL7LUYDv = {
+            "id" = "QL7LUYDv";
+            "file" = "Elite x Quality Guns Neoforge v6.0 - 1.21.1Final.jar";
+            "hash" = "sha512-tbJB+SwFhoTVTovumJ229eJKhhfqisQUOBuksGEAP2hehoHZPu48oXVOwKTyEQBZLLJuGzoLZgqQx+xNM0II4A==";
+        };
     in {
         "WmzDxCpQ" = _WmzDxCpQ;
         "wudEvnTY" = _wudEvnTY;
@@ -266,15 +286,19 @@ let
         "9e43bP00" = _9e43bP00;
         "nEN6cSCJ" = _nEN6cSCJ;
         "3UlXeirn" = _3UlXeirn;
+        "HCgRvwdF" = _HCgRvwdF;
+        "qHMVqJyV" = _qHMVqJyV;
+        "EAoc32R2" = _EAoc32R2;
+        "QL7LUYDv" = _QL7LUYDv;
         "forge-1.18.2" = _VYbJlMi8;
         "forge-1.19.2" = _g471wdBU;
-        "forge-1.20.1" = _nEN6cSCJ;
-        "fabric-1.20.1" = _Es1lLHOI;
-        "fabric-1.21.1" = _9e43bP00;
+        "forge-1.20.1" = _HCgRvwdF;
+        "fabric-1.20.1" = _qHMVqJyV;
+        "fabric-1.21.1" = _EAoc32R2;
         "neoforge-1.18.2" = _LoWJrWVR;
         "neoforge-1.19.2" = _LoWJrWVR;
         "neoforge-1.20.1" = _6ksck19n;
-        "neoforge-1.21.1" = _3UlXeirn;
+        "neoforge-1.21.1" = _QL7LUYDv;
         "pkg-1.0" = _wudEvnTY;
         "pkg-1.1" = _u4UJ0TZt;
         "pkg-1.2" = _nS7SAzg0;
@@ -291,7 +315,8 @@ let
         "pkg-4.2.1" = _cruUAue1;
         "pkg-5.0" = _qZwPFgUx;
         "pkg-5.1" = _3UlXeirn;
-        "default" = _3UlXeirn;
+        "pkg-6.0" = _QL7LUYDv;
+        "default" = _QL7LUYDv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elite-x-quality-guns";

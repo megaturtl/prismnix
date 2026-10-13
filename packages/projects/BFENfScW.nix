@@ -71,6 +71,16 @@ let
             "file" = "bowinfinityfix-26.2-neo-3.3.0.jar";
             "hash" = "sha512-HDSAoYf8vNYYQni4mDv/fPr9psTn1KKyzbia0In4jDvXRexm4IkICDvoQOIwqYhD4YiGIFcY8yw9WBQe+3iILQ==";
         };
+        _fG37MNgK = {
+            "id" = "fG37MNgK";
+            "file" = "BowInfinityFix-26.3-fabric-3.4.0.jar";
+            "hash" = "sha512-kSAVMqfmcExELRjehiURhYTZRNJ0rJesubsHJBYfGHn5VwTWk7W6wcS/1L7qUFk8c1/TdiNgz/G6jA7zoShtww==";
+        };
+        _T3ubLrJ9 = {
+            "id" = "T3ubLrJ9";
+            "file" = "bowinfinityfix-26.3-neo-3.4.0.jar";
+            "hash" = "sha512-Wzsw6c5PydsIRLlkJT5Zc6za9nPNYwHYicMXlGC5XtMGobGrxV7g1+PK2j70Ut1ZETOmBvf1kPRLPVgOeoZxTQ==";
+        };
     in {
         "VllsAwTD" = _VllsAwTD;
         "DrWutox9" = _DrWutox9;
@@ -86,6 +96,8 @@ let
         "XaYIAcmX" = _XaYIAcmX;
         "KLM8CfpY" = _KLM8CfpY;
         "gOyGsXL3" = _gOyGsXL3;
+        "fG37MNgK" = _fG37MNgK;
+        "T3ubLrJ9" = _T3ubLrJ9;
         "fabric-1.20" = _VllsAwTD;
         "fabric-1.20.1" = _VllsAwTD;
         "fabric-1.20.2" = _VllsAwTD;
@@ -109,6 +121,7 @@ let
         "fabric-26.1.1" = _XaYIAcmX;
         "fabric-26.1.2" = _XaYIAcmX;
         "fabric-26.2" = _KLM8CfpY;
+        "fabric-26.3" = _fG37MNgK;
         "forge-1.20.1" = _DrWutox9;
         "forge-1.20.2" = _DrWutox9;
         "forge-1.20.4" = _DrWutox9;
@@ -132,6 +145,7 @@ let
         "neoforge-26.1.1" = _N073cMFB;
         "neoforge-26.1.2" = _N073cMFB;
         "neoforge-26.2" = _gOyGsXL3;
+        "neoforge-26.3" = _T3ubLrJ9;
         "pkg-2.6.0" = _DrWutox9;
         "pkg-2.6.1" = _4TYwf7M6;
         "pkg-3.0.0" = _ciJKSNDS;
@@ -140,7 +154,8 @@ let
         "pkg-3.1.2" = _besCdt3U;
         "pkg-3.2.0" = _XaYIAcmX;
         "pkg-3.3.0" = _gOyGsXL3;
-        "default" = _gOyGsXL3;
+        "pkg-3.4.0" = _T3ubLrJ9;
+        "default" = _T3ubLrJ9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bow-infinity-fix";

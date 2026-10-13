@@ -31,6 +31,11 @@ let
             "file" = "Cobblemon WTBIT resource pack 1.1.2.zip";
             "hash" = "sha512-mNnUSJ5o30n15RjXbWMvLzw+yftpHG+mmrtGEEMXcMz1m3OjnlDod+UwFjyMP4es8hEaVCtLu/PdvKEseiG3bQ==";
         };
+        _Xnk9qSn8 = {
+            "id" = "Xnk9qSn8";
+            "file" = "Cobblemon WTBIT resource pack 1.2.0.zip";
+            "hash" = "sha512-+18DFHhEUoRjTUuci0dk+vYsAiLfg3/rJfPWbN5nnhRfw/QlOqWQtgvg2G8G+9sSvreaaJnivwGrn60WfxD4ow==";
+        };
     in {
         "akCnQLhf" = _akCnQLhf;
         "t1eSgw7P" = _t1eSgw7P;
@@ -38,14 +43,16 @@ let
         "MrQ73Psl" = _MrQ73Psl;
         "ncYWsNm3" = _ncYWsNm3;
         "1mURkbGd" = _1mURkbGd;
-        "minecraft-1.20.1" = _1mURkbGd;
-        "minecraft-1.21.1" = _1mURkbGd;
+        "Xnk9qSn8" = _Xnk9qSn8;
+        "minecraft-1.20.1" = _Xnk9qSn8;
+        "minecraft-1.21.1" = _Xnk9qSn8;
         "pkg-1.0.0" = _t1eSgw7P;
         "pkg-1.0.1" = _ZHHGAYfI;
         "pkg-1.1.0" = _MrQ73Psl;
         "pkg-1.1.1" = _ncYWsNm3;
         "pkg-1.1.2" = _1mURkbGd;
-        "default" = _1mURkbGd;
+        "pkg-1.2.0" = _Xnk9qSn8;
+        "default" = _Xnk9qSn8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-wtbit";

@@ -106,6 +106,11 @@ let
             "file" = "Arda's Sculks 1.4.3.5_1 [NEOFORGE] [1.21.1].jar";
             "hash" = "sha512-+1FFUUE3uSL+AvJtleM5b4KzpXtF5I8fx8ewBInaDvhdPtN2vsQglgYPmHLXqe6ttLNJzGStZQTYe2RPYB13Xw==";
         };
+        _BTNEXkQE = {
+            "id" = "BTNEXkQE";
+            "file" = "Arda's Sculks 1.5(LIGHT) [NEOFORGE] [1.21.1].jar";
+            "hash" = "sha512-BKPAuzMek3cX0oONTP6jtOoPCc//ntnb9Ha+BbtIK0T5opcX1k6D4jmVjizE+LuQ8wpTH/K8r/KmRPrKMboTuA==";
+        };
     in {
         "r5HHawEb" = _r5HHawEb;
         "Byhz61vQ" = _Byhz61vQ;
@@ -128,8 +133,9 @@ let
         "LRFiNluS" = _LRFiNluS;
         "haa8Slx0" = _haa8Slx0;
         "G91RCfpN" = _G91RCfpN;
+        "BTNEXkQE" = _BTNEXkQE;
         "neoforge-1.20.6" = _r5HHawEb;
-        "neoforge-1.21.1" = _G91RCfpN;
+        "neoforge-1.21.1" = _BTNEXkQE;
         "forge-1.20.1" = _haa8Slx0;
         "pkg-1.3.3" = _r5HHawEb;
         "pkg-1.4" = _q3NoZgrN;
@@ -146,7 +152,8 @@ let
         "pkg-1.4.3.4_2" = _UJkPqVKC;
         "pkg-1.4.3.5" = _LRFiNluS;
         "pkg-1.4.3.5_1" = _G91RCfpN;
-        "default" = _G91RCfpN;
+        "pkg-1.5" = _BTNEXkQE;
+        "default" = _BTNEXkQE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ardas-sculks";

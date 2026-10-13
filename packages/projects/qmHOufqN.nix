@@ -1321,6 +1321,21 @@ let
             "file" = "wishfulrecipes-26.3-neoforge-1.2.jar";
             "hash" = "sha512-OtmF+Ot8xKlIaYqX8z06LYoF1aIX9pPabPl0RopyO7kiOC9r9VPpNpdKNXbHGiGes2j9F/UzocJ9v5ZxEXdqYw==";
         };
+        _KejWlbcA = {
+            "id" = "KejWlbcA";
+            "file" = "wishfulrecipes-26.3-fabric-1.2.1.jar";
+            "hash" = "sha512-66q+98Eiff0JRmf9IudOQWucyVyALRPgN2YkwUtiA9jwh3D8KtcCLYa39QWCnhmPnJN6jUYMgftAIzlnJ9xjWw==";
+        };
+        _mmw04efy = {
+            "id" = "mmw04efy";
+            "file" = "wishfulrecipes-26.3-forge-1.2.1.jar";
+            "hash" = "sha512-K6Iq4Qfvc3fg2V9YujKhjLIn5njKgMOTr63uG2xRWqB/XqKlbWvNLpUZrtYDauhX/be0xV8RTfT1VYn2jhzW7A==";
+        };
+        _vg8qSr9Q = {
+            "id" = "vg8qSr9Q";
+            "file" = "wishfulrecipes-26.3-neoforge-1.2.1.jar";
+            "hash" = "sha512-HSF8o6ffiwrQRbUV4DnLYTBjnnQgLz3dYaJbpEMwZatgFI9CokcSkOLp1qoZagHANbUzp8Xd7flcujOkVvyoPQ==";
+        };
     in {
         "OvZmubIc" = _OvZmubIc;
         "eRnM3MPb" = _eRnM3MPb;
@@ -1586,6 +1601,9 @@ let
         "gniR8umg" = _gniR8umg;
         "GdRlZYP4" = _GdRlZYP4;
         "gzh2U2MT" = _gzh2U2MT;
+        "KejWlbcA" = _KejWlbcA;
+        "mmw04efy" = _mmw04efy;
+        "vg8qSr9Q" = _vg8qSr9Q;
         "fabric-1.18" = _rMc9AiSk;
         "fabric-1.18.1" = _rMc9AiSk;
         "fabric-1.18.2" = _rMc9AiSk;
@@ -1616,7 +1634,7 @@ let
         "fabric-26.2" = _BdItLKq5;
         "fabric-1.19" = _ZbVfBr1A;
         "fabric-1.19.1" = _ZbVfBr1A;
-        "fabric-26.3" = _gniR8umg;
+        "fabric-26.3" = _KejWlbcA;
         "quilt-1.18" = _rMc9AiSk;
         "quilt-1.18.1" = _rMc9AiSk;
         "quilt-1.18.2" = _rMc9AiSk;
@@ -1647,7 +1665,7 @@ let
         "quilt-26.2" = _BdItLKq5;
         "quilt-1.19" = _ZbVfBr1A;
         "quilt-1.19.1" = _ZbVfBr1A;
-        "quilt-26.3" = _gniR8umg;
+        "quilt-26.3" = _KejWlbcA;
         "forge-1.18" = _COxyf20G;
         "forge-1.18.1" = _COxyf20G;
         "forge-1.18.2" = _COxyf20G;
@@ -1678,7 +1696,7 @@ let
         "forge-26.1.1" = _LPC3AsAv;
         "forge-26.1.2" = _LPC3AsAv;
         "forge-26.2" = _hLy12Jvz;
-        "forge-26.3" = _GdRlZYP4;
+        "forge-26.3" = _mmw04efy;
         "neoforge-1.20" = _gE9IdCoF;
         "neoforge-1.20.1" = _gE9IdCoF;
         "neoforge-1.20.5" = _5SzOThm4;
@@ -1699,7 +1717,7 @@ let
         "neoforge-26.1.1" = _Rfqtj8XG;
         "neoforge-26.1.2" = _Rfqtj8XG;
         "neoforge-26.2" = _iL0KgNRe;
-        "neoforge-26.3" = _gzh2U2MT;
+        "neoforge-26.3" = _vg8qSr9Q;
         "pkg-1.18.2-fabric-0" = _OvZmubIc;
         "pkg-1.18.2-forge-0" = _eRnM3MPb;
         "pkg-1.19.2-fabric-0" = _KHmHWqQm;
@@ -1964,7 +1982,10 @@ let
         "pkg-26.3-fabric-1.2" = _gniR8umg;
         "pkg-26.3-forge-1.2" = _GdRlZYP4;
         "pkg-26.3-neoforge-1.2" = _gzh2U2MT;
-        "default" = _gzh2U2MT;
+        "pkg-26.3-fabric-1.2.1" = _KejWlbcA;
+        "pkg-26.3-forge-1.2.1" = _mmw04efy;
+        "pkg-26.3-neoforge-1.2.1" = _vg8qSr9Q;
+        "default" = _vg8qSr9Q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wishful-recipes";

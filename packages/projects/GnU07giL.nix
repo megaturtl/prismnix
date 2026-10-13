@@ -266,6 +266,11 @@ let
             "file" = "reliquified_artifacts-1.21.1-1.0.8.jar";
             "hash" = "sha512-KIW59MJi8QyVANlSXNT4IXSkYjSMS5RmJ9IalzA0ad4wLEpIcGYxOkkE06u0ano0M+DeuYVbbQQRKpZ7HOlHoQ==";
         };
+        _rAl46NpA = {
+            "id" = "rAl46NpA";
+            "file" = "reliquified_artifacts-1.21.1-1.0.9.jar";
+            "hash" = "sha512-h5fOGmTUg/dPzMOA+6pkgh0EUF6TCxmcEwC7tsGs+qQO4iaLkmgC81kpFTIP9QDdUJoAMIv9e2ndD4yejzFy+w==";
+        };
     in {
         "1Ue1cjqj" = _1Ue1cjqj;
         "PRw8ha69" = _PRw8ha69;
@@ -320,8 +325,9 @@ let
         "vazJO3uz" = _vazJO3uz;
         "8e2B3E8s" = _8e2B3E8s;
         "x2qoJkgq" = _x2qoJkgq;
+        "rAl46NpA" = _rAl46NpA;
         "neoforge-1.21" = _RjDi7tua;
-        "neoforge-1.21.1" = _x2qoJkgq;
+        "neoforge-1.21.1" = _rAl46NpA;
         "neoforge-1.20" = _j86oHaOi;
         "neoforge-1.20.1" = _j86oHaOi;
         "neoforge-1.21.2" = _xY2KsIsi;
@@ -376,7 +382,8 @@ let
         "pkg-1.0.6" = _vazJO3uz;
         "pkg-1.0.7" = _8e2B3E8s;
         "pkg-1.0.8" = _x2qoJkgq;
-        "default" = _x2qoJkgq;
+        "pkg-1.0.9" = _rAl46NpA;
+        "default" = _rAl46NpA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "reliquified-artifacts";

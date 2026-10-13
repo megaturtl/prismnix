@@ -16,16 +16,24 @@ let
             "file" = "ectolum-1.1.0+1.21.1.jar";
             "hash" = "sha512-acM/jswnaVSmgXCObeVKYwLigf6a/1B9Q4euwGYGWiWLFCCqX/GNdmJcb57HEg/4t3+LNAPsG+jSh94q5QoaBg==";
         };
+        _NQtyNMXo = {
+            "id" = "NQtyNMXo";
+            "file" = "ectolum-1.1.0+1.21.11.jar";
+            "hash" = "sha512-w8VAbUoWLNgNacC3+5py9aTxgEdgJdW9PAx8ondyoU2gGmOtt/0an87Ty2spsWtb8sS6tPokSOg5XmUq+JccDw==";
+        };
     in {
         "A2XuYfrZ" = _A2XuYfrZ;
         "lxRf1rTf" = _lxRf1rTf;
         "LdCvyibi" = _LdCvyibi;
+        "NQtyNMXo" = _NQtyNMXo;
         "fabric-1.20.1" = _lxRf1rTf;
         "fabric-1.21.1" = _LdCvyibi;
+        "fabric-1.21.11" = _NQtyNMXo;
         "pkg-1.0.0" = _A2XuYfrZ;
         "pkg-1.1.0" = _lxRf1rTf;
         "pkg-1.1.0+1.21.1" = _LdCvyibi;
-        "default" = _LdCvyibi;
+        "pkg-1.1.0+1.21.11" = _NQtyNMXo;
+        "default" = _NQtyNMXo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ectoluminescence";

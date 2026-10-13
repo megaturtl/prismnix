@@ -46,6 +46,11 @@ let
             "file" = "Placebo-1.21.1-9.9.3.jar";
             "hash" = "sha512-v293Du9oxpng+ciL4m3cZQFdBn2cmQeaUxJ2aQbGMQ6MtAJwB/9wudo73DOqr6v1ipibhA3dVKRPFM/WzVcjNw==";
         };
+        _B5zbSVlT = {
+            "id" = "B5zbSVlT";
+            "file" = "Placebo-1.21.1-9.9.4.jar";
+            "hash" = "sha512-TzqcWXQTLzY4wmLFawwoht8rxYAnyWGqEdBtCuLmCLY/JPlJsvjCQJieKhv+MD/SN8Xy1JJpRTrWwv8fhfLGSA==";
+        };
     in {
         "NK0coiau" = _NK0coiau;
         "6SkuAGoz" = _6SkuAGoz;
@@ -56,8 +61,9 @@ let
         "1Ypo4tf4" = _1Ypo4tf4;
         "c4uzJQYp" = _c4uzJQYp;
         "h326cnw1" = _h326cnw1;
+        "B5zbSVlT" = _B5zbSVlT;
         "neoforge-1.20.1" = _NK0coiau;
-        "neoforge-1.21.1" = _h326cnw1;
+        "neoforge-1.21.1" = _B5zbSVlT;
         "neoforge-26.1.2" = _c4uzJQYp;
         "forge-1.20.1" = _6SkuAGoz;
         "pkg-8.2.0" = _NK0coiau;
@@ -69,7 +75,8 @@ let
         "pkg-1.21.1-9.9.2" = _1Ypo4tf4;
         "pkg-26.1.2-10.0.2" = _c4uzJQYp;
         "pkg-1.21.1-9.9.3" = _h326cnw1;
-        "default" = _h326cnw1;
+        "pkg-1.21.1-9.9.4" = _B5zbSVlT;
+        "default" = _B5zbSVlT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "placebo";

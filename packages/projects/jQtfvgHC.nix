@@ -346,6 +346,46 @@ let
             "file" = "sparkle-morpher-2.1.0-neo26.3.jar";
             "hash" = "sha512-l9Kb+zlWXA5Fv9ug2k5aowUpygkvco0roBKnJFVa22IApkoOGUXbLoukRHDduMbRV54B1+S+iVtMDbsKaP0S9w==";
         };
+        _mUo8TFVo = {
+            "id" = "mUo8TFVo";
+            "file" = "sparkle-morpher-2.1.1-fa1.21.1.jar";
+            "hash" = "sha512-feMai9TwsqAcVW8RIAMkbjjzXxxT4N5yh7rVwx0K0fsZqg/Bco2deXrtpZ6LI/ETTWdmMLeFXPTSdckOxsUPZA==";
+        };
+        _XdkNMDYs = {
+            "id" = "XdkNMDYs";
+            "file" = "sparkle-morpher-2.1.1-fa26.1.x.jar";
+            "hash" = "sha512-AJR7CWG+J+2ffPWeSpO6Gx1WRWRQ7CZp93igcJailq8vlDe6gDAbZ9Jkmt0lseCMAyayT0AJ6QIgwO/l4dmRgg==";
+        };
+        _8CDCvpx3 = {
+            "id" = "8CDCvpx3";
+            "file" = "sparkle-morpher-2.1.1-fa26.2.jar";
+            "hash" = "sha512-GfeeOKAMbqm9Zh+7frragV64cVCq0iJ3YNxAkZYf8fAHCovI4+VfDY4ONU8GEQx+Gfa1zl2O1nBKXW63Fcxocw==";
+        };
+        _RkkLGkIZ = {
+            "id" = "RkkLGkIZ";
+            "file" = "sparkle-morpher-2.1.1-fa26.3.jar";
+            "hash" = "sha512-6z0A9sO5DcL8Y/0GPmdNYFBY6LPwpOOV7vzib13v2H90O0Fb1zqrxgoFkSJPvFiM9Dhd253Ra0N1OjR16v22zg==";
+        };
+        _f9LChkUT = {
+            "id" = "f9LChkUT";
+            "file" = "sparkle-morpher-2.1.1-neo1.21.1.jar";
+            "hash" = "sha512-ImivZGlOId7zTnYXOmtSdqdDLzlWwTPnVfnoUTZ0ipIfRCCIVTjktBC+dGQE/ekVZeBsycTv72MIiQGv9hKd9w==";
+        };
+        _gszwYiT8 = {
+            "id" = "gszwYiT8";
+            "file" = "sparkle-morpher-2.1.1-neo26.1.x.jar";
+            "hash" = "sha512-Bl+bH+ABP8dQMIz1dqZcgvJNJpKqNfrzuEJ0rob0vUsrCQkCX6whjH5QH7bsqiBDZdQpuVbDHhb0t0MuR7dMcQ==";
+        };
+        _MdrC55Dm = {
+            "id" = "MdrC55Dm";
+            "file" = "sparkle-morpher-2.1.1-neo26.2.jar";
+            "hash" = "sha512-YXPpr31i3y25sDivBSzBWn6iAQlXVxJjcth2QKlX74w22uD8qe3IdaL/JcB6va9bNyt1TwCRDErwDYViO+GY8g==";
+        };
+        _wahwtbEG = {
+            "id" = "wahwtbEG";
+            "file" = "sparkle-morpher-2.1.1-neo26.3.jar";
+            "hash" = "sha512-wThYPwAV8iMDv2jd6Hrb0WD0Rg+74yQx/HqVYvFcLq2tNe7rQKsqMslwtVr3ILkLYpdIkroPzV9cTEQpwIQBJw==";
+        };
     in {
         "UdznZZ8u" = _UdznZZ8u;
         "Huvqe7eo" = _Huvqe7eo;
@@ -416,18 +456,26 @@ let
         "Os9FNPjq" = _Os9FNPjq;
         "FnhN6wWm" = _FnhN6wWm;
         "g2BWHtJ7" = _g2BWHtJ7;
-        "fabric-26.1.2" = _mjbn6COw;
+        "mUo8TFVo" = _mUo8TFVo;
+        "XdkNMDYs" = _XdkNMDYs;
+        "8CDCvpx3" = _8CDCvpx3;
+        "RkkLGkIZ" = _RkkLGkIZ;
+        "f9LChkUT" = _f9LChkUT;
+        "gszwYiT8" = _gszwYiT8;
+        "MdrC55Dm" = _MdrC55Dm;
+        "wahwtbEG" = _wahwtbEG;
+        "fabric-26.1.2" = _XdkNMDYs;
         "fabric-26.1" = _3djzpi3n;
         "fabric-26.1.1" = _3djzpi3n;
-        "fabric-1.21.1" = _ideeaThP;
-        "fabric-26.2" = _Rqv0YzkD;
-        "fabric-26.3" = _QapS2DSo;
+        "fabric-1.21.1" = _mUo8TFVo;
+        "fabric-26.2" = _8CDCvpx3;
+        "fabric-26.3" = _RkkLGkIZ;
         "neoforge-26.1" = _xubRb5Wy;
         "neoforge-26.1.1" = _xubRb5Wy;
-        "neoforge-26.1.2" = _Os9FNPjq;
-        "neoforge-1.21.1" = _AWYUtdVA;
-        "neoforge-26.2" = _FnhN6wWm;
-        "neoforge-26.3" = _g2BWHtJ7;
+        "neoforge-26.1.2" = _gszwYiT8;
+        "neoforge-1.21.1" = _f9LChkUT;
+        "neoforge-26.2" = _MdrC55Dm;
+        "neoforge-26.3" = _wahwtbEG;
         "pkg-1.0.3" = _UdznZZ8u;
         "pkg-1.2.1-neo26.1.x" = _Huvqe7eo;
         "pkg-1.2.1-fa26.1.2" = _yylTqjxe;
@@ -442,7 +490,8 @@ let
         "pkg-1.2.9" = _n2LVihPO;
         "pkg-2.0.0" = _FlIL8v8q;
         "pkg-2.1.0" = _g2BWHtJ7;
-        "default" = _g2BWHtJ7;
+        "pkg-2.1.1" = _wahwtbEG;
+        "default" = _wahwtbEG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sparkles-morpher";

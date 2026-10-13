@@ -66,6 +66,11 @@ let
             "file" = "vanilib-0.2.4.jar";
             "hash" = "sha512-L6DCEyqqABqpe3LTnLaTJOz8EW3mWQKVMHzZmK7Zd8QST3UNiohZ75a5Ljs74INsDZqxnV+xoJ+bkpx1gHg85Q==";
         };
+        _uc1vi7EB = {
+            "id" = "uc1vi7EB";
+            "file" = "vanilib-1.0.0.jar";
+            "hash" = "sha512-zSrC7PMYENTWjdb5R0cb+cf6Kah2OXCO2Xx5kfEXE75f5fafklAlrv5QHnRDW9MUhTV+fn0ENfLyo7RV8tmoOw==";
+        };
     in {
         "RQTFn01T" = _RQTFn01T;
         "sck1yiJG" = _sck1yiJG;
@@ -80,6 +85,7 @@ let
         "whNrhIfQ" = _whNrhIfQ;
         "RVncftjf" = _RVncftjf;
         "IzrEFVsq" = _IzrEFVsq;
+        "uc1vi7EB" = _uc1vi7EB;
         "fabric-26.2" = _RVncftjf;
         "fabric-26.1" = _sck1yiJG;
         "fabric-26.1.1" = _sck1yiJG;
@@ -96,13 +102,14 @@ let
         "fabric-1.21.3" = _Yt7wveja;
         "fabric-1.21" = _voapICkd;
         "fabric-1.21.1" = _voapICkd;
-        "fabric-26.3" = _IzrEFVsq;
+        "fabric-26.3" = _uc1vi7EB;
         "pkg-0.2.0" = _voapICkd;
         "pkg-0.2.1" = _3ppBAlkM;
         "pkg-0.2.2" = _whNrhIfQ;
         "pkg-0.2.3" = _RVncftjf;
         "pkg-0.2.4" = _IzrEFVsq;
-        "default" = _IzrEFVsq;
+        "pkg-1.0.0" = _uc1vi7EB;
+        "default" = _uc1vi7EB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanilib";

@@ -146,6 +146,11 @@ let
             "file" = "AE2 Backport Integration.zip";
             "hash" = "sha512-LGM9wMMe2qH2h+8XTWk++sHAiUjNrtQWdUr8KMQOKotlchZeCs6xdpugg6JNku+DhoNB6HlpHqj4GUDy3jvZ+w==";
         };
+        _CzI2QqEt = {
+            "id" = "CzI2QqEt";
+            "file" = "AE2 Backport Integration.zip";
+            "hash" = "sha512-hagzjWM0H4U8RGtRhw98B7E+HFHarsFcEAJSU92EHB0RCfgiVhkJPRsJuTEg4ko4G42xDGIpLKgua+5Bl6p1zA==";
+        };
     in {
         "uHZnafrr" = _uHZnafrr;
         "ClIuRxdr" = _ClIuRxdr;
@@ -176,8 +181,9 @@ let
         "JnnHqwTN" = _JnnHqwTN;
         "Bp29OZIR" = _Bp29OZIR;
         "37QeTV14" = _37QeTV14;
-        "minecraft-1.20" = _37QeTV14;
-        "minecraft-1.20.1" = _37QeTV14;
+        "CzI2QqEt" = _CzI2QqEt;
+        "minecraft-1.20" = _CzI2QqEt;
+        "minecraft-1.20.1" = _CzI2QqEt;
         "pkg-ae2-1.0.0" = _uHZnafrr;
         "pkg-ae2wtlib-1.0.0" = _ClIuRxdr;
         "pkg-extended-ae-1.0.0" = _wBJbANCk;
@@ -207,7 +213,8 @@ let
         "pkg-ae2-integration-2.6.1" = _JnnHqwTN;
         "pkg-ae2-integration-2.6.2" = _Bp29OZIR;
         "pkg-ae2-integration-2.6.3" = _37QeTV14;
-        "default" = _37QeTV14;
+        "pkg-ae2-integration-2.6.4" = _CzI2QqEt;
+        "default" = _CzI2QqEt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "perfect-ae2-backport";

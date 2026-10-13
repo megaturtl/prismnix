@@ -396,6 +396,126 @@ let
             "file" = "Distant Horizons SeedGen 0.8.0 for 26.3 NeoForge.jar";
             "hash" = "sha512-cY5sKTQP3FMFa8EJfAWvYjpGJETUlDcaejM3VxVRktIl3YiLF4wI19qytG0wQ5b4FJWYhyszH7UzTFrSxGGThw==";
         };
+        _fOfwEvRJ = {
+            "id" = "fOfwEvRJ";
+            "file" = "Distant Horizons SeedGen 0.9.0 for 1.20.1 Fabric.jar";
+            "hash" = "sha512-dtRkcR7rfg69iovXccvTdK6o4YdcLNAtZVv62SXsp2C6UpxpbTXwhY77k53Dsvhmr2o2nJP0M2yLWRwBWR5ZpA==";
+        };
+        _SCUy9Si8 = {
+            "id" = "SCUy9Si8";
+            "file" = "Distant Horizons SeedGen 0.9.0 for 1.20.1 Forge.jar";
+            "hash" = "sha512-3h6m1m8MMvSOUCRiCpbEaOYrP172odAxKhYVdBF9Gpm8erI+6jwfr4esuQc3Q31SW8JxzsJpayvXR/foFKBz8w==";
+        };
+        _JkemRLi2 = {
+            "id" = "JkemRLi2";
+            "file" = "Distant Horizons SeedGen 0.9.0 for 1.21.1 Fabric.jar";
+            "hash" = "sha512-Fof8fC3reZfbk5KNyBzosQUUlv4cLt8Tp/yPpW3kITfKHa2yF8ptnVEonqJWdjwKohLqlpSTSdFlISqGLAuiNQ==";
+        };
+        _u7ZYEiLR = {
+            "id" = "u7ZYEiLR";
+            "file" = "Distant Horizons SeedGen 0.9.0 for 1.21.1 NeoForge.jar";
+            "hash" = "sha512-3VcCB7rTHS7V8EczFRt9OjFpHfY22eTlB0zO82FCZQjqVWSyF+e15nv7ZTVeTIPRdc/NZ6oLbvAtrbyKccpJxQ==";
+        };
+        _GlCAdCEK = {
+            "id" = "GlCAdCEK";
+            "file" = "Distant Horizons SeedGen 0.9.0 for 1.21.11 Fabric.jar";
+            "hash" = "sha512-KXdt4P9QxeLsRSTM8WYjkd61jazz/7nHoVjKYlMkNIh8NOM8tD6a05ke0zhUkDUMRY3UZBjWqBOWqBfGARkKUg==";
+        };
+        _79vajGJL = {
+            "id" = "79vajGJL";
+            "file" = "Distant Horizons SeedGen 0.9.0 for 1.21.11 NeoForge.jar";
+            "hash" = "sha512-88PsxBelPgOMrXhshFrVxzSvisnjo1pTPGCz0XK+sPcOrVnSSi/1dUl16jIjdrl7NLTUaVjnR8MXkuG7WCfnlQ==";
+        };
+        _dDmcdsMa = {
+            "id" = "dDmcdsMa";
+            "file" = "Distant Horizons SeedGen 0.9.0 for 26.1.2 Fabric.jar";
+            "hash" = "sha512-g/eiWQfdq92dx/1Gh0CCvHQ/iJ1wNrLbdJiu9m37Tr5r8LzXae5VsPD7+PsGWZEqjplURPH71IVogSlUHsdHOg==";
+        };
+        _g8HGUjJP = {
+            "id" = "g8HGUjJP";
+            "file" = "Distant Horizons SeedGen 0.9.0 for 26.1.2 NeoForge.jar";
+            "hash" = "sha512-oog0pjHftzGHYhQu4IAy3n9ioTWqncvKHaCDxCu2v4lCBPfnT1hU9R5uMzFflAlHYbxFCjlaRXD7O6tMJ10gMw==";
+        };
+        _dYSnti9k = {
+            "id" = "dYSnti9k";
+            "file" = "Distant Horizons SeedGen 0.9.0 for 26.2 Fabric.jar";
+            "hash" = "sha512-j/slkkcYgxJIPDvPL7jbqgSv82tGLL7wXX7YWtXZAPs1wSuxqXhrWRN8OTIlqZlXPfJP1VtU0PrSHLSi8YNsAQ==";
+        };
+        _FkETk8Mb = {
+            "id" = "FkETk8Mb";
+            "file" = "Distant Horizons SeedGen 0.9.0 for 26.2 NeoForge.jar";
+            "hash" = "sha512-GgF+CsjCxtjvr1tnNBxITaDJcEG9j3qEzlUobYw/qV6mW8u+H6h0RSYyhVtaFGz3XezFYdkuq74DIsuRoZZA2A==";
+        };
+        _egSIXt2T = {
+            "id" = "egSIXt2T";
+            "file" = "Distant Horizons SeedGen 0.9.0 for 26.3 Fabric.jar";
+            "hash" = "sha512-r9g51TACaYw1ESiOWv1ghjbN6iaf2WLsWHPCDXFnBsXOPhITEhSAcO4k5Pr74OTypDpha/6N3QHZFnefdSoaDA==";
+        };
+        _YSVhpFCq = {
+            "id" = "YSVhpFCq";
+            "file" = "Distant Horizons SeedGen 0.9.0 for 26.3 NeoForge.jar";
+            "hash" = "sha512-gfWoubpH0us13iDtXfjtmu7VDD+2VsoWVz8y+qLhviNKT0UfmQKrlBcFuBXLmVOUrw0d29t0nB0rJljggxKRJA==";
+        };
+        _8rwu4pX2 = {
+            "id" = "8rwu4pX2";
+            "file" = "Distant Horizons SeedGen 0.9.1 for 1.20.1 Fabric.jar";
+            "hash" = "sha512-5FWFkVZedHOIvUsQl8+ny3v3I5ec202Jk5Lv09JOMK4xVIu+Rox9UB8JJ9Tgq8zCGCL5Bu49qDtds3xQU3Bg3Q==";
+        };
+        _E0BvmHIp = {
+            "id" = "E0BvmHIp";
+            "file" = "Distant Horizons SeedGen 0.9.1 for 1.20.1 Forge.jar";
+            "hash" = "sha512-1GZC/01tL4mL8jpyi24A3L8Uno5Sg5Zy61sqqwpdb8mmE92EtvuqQEfiFjhIy84l53L4fr/AJlOtW/aHZK74KA==";
+        };
+        _eiUO989f = {
+            "id" = "eiUO989f";
+            "file" = "Distant Horizons SeedGen 0.9.1 for 1.21.1 Fabric.jar";
+            "hash" = "sha512-QcHOVkjPFuCUa08WE2k/u0L+lWB+YOElGmyhacuU4kUKd6zXUsqEpMsvLTL9tXqBYIb6sNnkfkajvyytCzLhaA==";
+        };
+        _2DrfEi0d = {
+            "id" = "2DrfEi0d";
+            "file" = "Distant Horizons SeedGen 0.9.1 for 1.21.1 NeoForge.jar";
+            "hash" = "sha512-Swu7BCbQ1gD87y3rBYD0WLvxa5BEC4S50o/jd6MQfPIv+fFm7shbgCy1OG1a851bChKsa/fKBPrUJyBtFAXGHQ==";
+        };
+        _Fvs32diL = {
+            "id" = "Fvs32diL";
+            "file" = "Distant Horizons SeedGen 0.9.1 for 1.21.11 Fabric.jar";
+            "hash" = "sha512-RDy+XskVTZlg31LD+Q/05WPsImyxqq1HNsK7oW7zqkuLL3AMVdgFIPwsmqhVoLw4sATddTbU8YlMDgFhBdFA7Q==";
+        };
+        _5UKovuQE = {
+            "id" = "5UKovuQE";
+            "file" = "Distant Horizons SeedGen 0.9.1 for 1.21.11 NeoForge.jar";
+            "hash" = "sha512-qXy5zBbhp7G5iitR0MND/XzDQPKLZ2byKx36dBW7fLMqv/Ho1vD5I9a53NZby2HHnfZzJUmEuCHESWaH4Ks2Ew==";
+        };
+        _7wsfarMU = {
+            "id" = "7wsfarMU";
+            "file" = "Distant Horizons SeedGen 0.9.1 for 26.1.2 Fabric.jar";
+            "hash" = "sha512-tYf5zezXcZ08Tw5f2enL79dAsir2lHToWJD+Ao3BzQ3YdNccw2FwvtGG2krmSwmQ/tAi45VoA9HawZyzP9UnQA==";
+        };
+        _IpQ6jrfG = {
+            "id" = "IpQ6jrfG";
+            "file" = "Distant Horizons SeedGen 0.9.1 for 26.1.2 NeoForge.jar";
+            "hash" = "sha512-bxQ12i60zM4SdkgRCp3+6GApw/oUIb852Rvn/KtCXAiQs4VUjSMSSGHH7jiwbyGEJNpbSjSv5GFnzjwzuDizHQ==";
+        };
+        _v75Xb7I2 = {
+            "id" = "v75Xb7I2";
+            "file" = "Distant Horizons SeedGen 0.9.1 for 26.2 Fabric.jar";
+            "hash" = "sha512-CNRgbPBi6co3ldWaZ3kG8z/P5uHIaM/RlF1fMEkczZS2OxO/7/wrnWiL06udu94Dy0wXKLMP0ws6TmolVepTkw==";
+        };
+        _5yPiyAGA = {
+            "id" = "5yPiyAGA";
+            "file" = "Distant Horizons SeedGen 0.9.1 for 26.2 NeoForge.jar";
+            "hash" = "sha512-8TPJhnjfYxrk0zM7lybUM/+VSLtdI9W84acJOeix9mQBi5+fB9sW2qAl2zMECsWAeUgE9jAbXB2m+onHTraAQA==";
+        };
+        _7hGTqcL4 = {
+            "id" = "7hGTqcL4";
+            "file" = "Distant Horizons SeedGen 0.9.1 for 26.3 Fabric.jar";
+            "hash" = "sha512-mRAnfGYVoOVC6ezSqO8YSgwHaySd7/X7lOJkOIPRId8avvtFXhhmhI/z5/uY6drdzU48mTRwT1cvtcAVsVJBwA==";
+        };
+        _Jt85EL7Y = {
+            "id" = "Jt85EL7Y";
+            "file" = "Distant Horizons SeedGen 0.9.1 for 26.3 NeoForge.jar";
+            "hash" = "sha512-ISjNKnEyW5+gqctfyANwEIQeEbdZiUJzegtNfsIm0EUU4OuL7a+0//au9JFxxdeEQoFYHYxvEP1Bdn1mS5V0GQ==";
+        };
     in {
         "sYTwgmPk" = _sYTwgmPk;
         "yTcJ9MIR" = _yTcJ9MIR;
@@ -476,18 +596,42 @@ let
         "af3UuTBT" = _af3UuTBT;
         "ZRUFBuhw" = _ZRUFBuhw;
         "bQQYHrED" = _bQQYHrED;
-        "fabric-1.21.11" = _r5U3IFc4;
-        "fabric-26.2" = _xDlVSKwO;
-        "fabric-1.20.1" = _90JBQCyC;
-        "fabric-1.21.1" = _tysQRzei;
-        "fabric-26.3" = _ZRUFBuhw;
-        "fabric-26.1.2" = _bwbDKQV4;
-        "neoforge-1.21.11" = _uWbK97ac;
-        "neoforge-26.2" = _af3UuTBT;
-        "neoforge-1.21.1" = _WKW7sS2P;
-        "neoforge-26.3" = _bQQYHrED;
-        "neoforge-26.1.2" = _yecsejgM;
-        "forge-1.20.1" = _OdlySlYk;
+        "fOfwEvRJ" = _fOfwEvRJ;
+        "SCUy9Si8" = _SCUy9Si8;
+        "JkemRLi2" = _JkemRLi2;
+        "u7ZYEiLR" = _u7ZYEiLR;
+        "GlCAdCEK" = _GlCAdCEK;
+        "79vajGJL" = _79vajGJL;
+        "dDmcdsMa" = _dDmcdsMa;
+        "g8HGUjJP" = _g8HGUjJP;
+        "dYSnti9k" = _dYSnti9k;
+        "FkETk8Mb" = _FkETk8Mb;
+        "egSIXt2T" = _egSIXt2T;
+        "YSVhpFCq" = _YSVhpFCq;
+        "8rwu4pX2" = _8rwu4pX2;
+        "E0BvmHIp" = _E0BvmHIp;
+        "eiUO989f" = _eiUO989f;
+        "2DrfEi0d" = _2DrfEi0d;
+        "Fvs32diL" = _Fvs32diL;
+        "5UKovuQE" = _5UKovuQE;
+        "7wsfarMU" = _7wsfarMU;
+        "IpQ6jrfG" = _IpQ6jrfG;
+        "v75Xb7I2" = _v75Xb7I2;
+        "5yPiyAGA" = _5yPiyAGA;
+        "7hGTqcL4" = _7hGTqcL4;
+        "Jt85EL7Y" = _Jt85EL7Y;
+        "fabric-1.21.11" = _Fvs32diL;
+        "fabric-26.2" = _v75Xb7I2;
+        "fabric-1.20.1" = _8rwu4pX2;
+        "fabric-1.21.1" = _eiUO989f;
+        "fabric-26.3" = _7hGTqcL4;
+        "fabric-26.1.2" = _7wsfarMU;
+        "neoforge-1.21.11" = _5UKovuQE;
+        "neoforge-26.2" = _5yPiyAGA;
+        "neoforge-1.21.1" = _2DrfEi0d;
+        "neoforge-26.3" = _Jt85EL7Y;
+        "neoforge-26.1.2" = _IpQ6jrfG;
+        "forge-1.20.1" = _E0BvmHIp;
         "pkg-0.1.0" = _sYTwgmPk;
         "pkg-0.2.0" = _HV55QdNo;
         "pkg-0.3.0" = _PgRVwbZg;
@@ -499,7 +643,9 @@ let
         "pkg-0.7.0" = _4kupWRCk;
         "pkg-0.7.1" = _dLxzneNI;
         "pkg-0.8.0" = _bQQYHrED;
-        "default" = _bQQYHrED;
+        "pkg-0.9.0" = _YSVhpFCq;
+        "pkg-0.9.1" = _Jt85EL7Y;
+        "default" = _Jt85EL7Y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "distant-horizons-seedgen";

@@ -116,6 +116,11 @@ let
             "file" = "warium_additions-1.1.3-all.jar";
             "hash" = "sha512-fggjlJBEmI5FHKm4JQjd5DUBsPYXey1/e6Kf47w99pa7/dQx6HywesOPsbnTv6ppE1IVcqpWe5VE9llclrtIEw==";
         };
+        _ZBNKEpjq = {
+            "id" = "ZBNKEpjq";
+            "file" = "warium_additions-1.1.4-all.jar";
+            "hash" = "sha512-fKAyMxGCtu8MHUfE/4jroC6OOS2qQuzS69t+aijb6jsu1znQ9wPuNUo70UWssmYX0F8rwmnojQ5RAVLfsKhQMg==";
+        };
     in {
         "CTQwkDDi" = _CTQwkDDi;
         "Nb1sHDUT" = _Nb1sHDUT;
@@ -140,7 +145,8 @@ let
         "mZfJLqJy" = _mZfJLqJy;
         "FhhxKYcN" = _FhhxKYcN;
         "1zBOipke" = _1zBOipke;
-        "forge-1.20.1" = _1zBOipke;
+        "ZBNKEpjq" = _ZBNKEpjq;
+        "forge-1.20.1" = _ZBNKEpjq;
         "pkg-0.1.0" = _CTQwkDDi;
         "pkg-0.1.1" = _Nb1sHDUT;
         "pkg-0.1.2" = _PU4b4dOm;
@@ -160,7 +166,8 @@ let
         "pkg-1.1.1" = _mZfJLqJy;
         "pkg-1.1.2" = _FhhxKYcN;
         "pkg-1.1.3" = _1zBOipke;
-        "default" = _1zBOipke;
+        "pkg-1.1.4" = _ZBNKEpjq;
+        "default" = _ZBNKEpjq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "warium_additions";

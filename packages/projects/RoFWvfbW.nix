@@ -151,6 +151,26 @@ let
             "file" = "FlickView-3.0.1-Fabric+mc26.2.jar";
             "hash" = "sha512-oAlM+CVvC6VbYKhlMcvvBr29wH24sDk9YhgI8sceYDQUoDXBL0REuZDwTJkvELCNPFDuvXFrUdvUpSnvkCHcjA==";
         };
+        _4yBoheB7 = {
+            "id" = "4yBoheB7";
+            "file" = "FlickView-3.5.0-Fabric+mc26.3.jar";
+            "hash" = "sha512-nMSMnSgG9L3tmxkFQn4xENvJUkeXmDCvZ3sjwJky6dVXS6IU3nisrCpyzp178UbsTBKueul7zMrmAL7xUh3AjQ==";
+        };
+        _jGiGmRlX = {
+            "id" = "jGiGmRlX";
+            "file" = "FlickView-3.5.0-Forge+mc26.3.jar";
+            "hash" = "sha512-pyKB1A+ZRhW5X2ZkADLiNZV8cMF8M7weolt8dRnRS5oXhY7CoBHqAnD2zTfX71JQWcx4o4L4owFBOkVEfDpTNg==";
+        };
+        _80pGPZA9 = {
+            "id" = "80pGPZA9";
+            "file" = "FlickView-3.5.0-NeoForge+mc26.3.jar";
+            "hash" = "sha512-vo80+uNjAoFXrMPLzZnQ6HRjx8uE6kYgnJJKi83p99y2fggfL+Yrpd0GlyGUe7zrEIsiLYUsRzlR53wqvTTnKg==";
+        };
+        _I910woLY = {
+            "id" = "I910woLY";
+            "file" = "FlickView-3.5.0-Quilt+mc26.3.jar";
+            "hash" = "sha512-cIGR6/mmaYE0g7wSBmqURQgE/cpww5KcuxtbXBks8AkzZyJq3/h1DXJf1/Hmv++pUTq6fyv/n9jnfnBBtBJL9A==";
+        };
     in {
         "RAMLr3je" = _RAMLr3je;
         "ikzBr7Cq" = _ikzBr7Cq;
@@ -182,6 +202,10 @@ let
         "HP0GpodX" = _HP0GpodX;
         "5aU0kmuX" = _5aU0kmuX;
         "lItYMtLN" = _lItYMtLN;
+        "4yBoheB7" = _4yBoheB7;
+        "jGiGmRlX" = _jGiGmRlX;
+        "80pGPZA9" = _80pGPZA9;
+        "I910woLY" = _I910woLY;
         "fabric-1.21.8" = _bEvaWeEp;
         "fabric-1.21.7" = _ikzBr7Cq;
         "fabric-1.21.6" = _UJoEz51n;
@@ -205,6 +229,10 @@ let
         "fabric-26.1.1" = _HP0GpodX;
         "fabric-26.1.2" = _5aU0kmuX;
         "fabric-26.2" = _lItYMtLN;
+        "fabric-26.3" = _4yBoheB7;
+        "forge-26.3" = _jGiGmRlX;
+        "neoforge-26.3" = _80pGPZA9;
+        "quilt-26.3" = _I910woLY;
         "pkg-Fabric-1.0.0-mc1.21.8" = _RAMLr3je;
         "pkg-Fabric-1.0.0-mc1.21.7" = _ikzBr7Cq;
         "pkg-Fabric-1.0.0-mc1.21.6" = _UJoEz51n;
@@ -235,7 +263,11 @@ let
         "pkg-Fabric-3.0.1-mc26.1.1" = _HP0GpodX;
         "pkg-Fabric-3.0.1-mc26.1.2" = _5aU0kmuX;
         "pkg-Fabric-3.0.1-mc26.2" = _lItYMtLN;
-        "default" = _lItYMtLN;
+        "pkg-3.5.0+fabric.mc26.3" = _4yBoheB7;
+        "pkg-3.5.0+forge.mc26.3" = _jGiGmRlX;
+        "pkg-3.5.0+neoforge.mc26.3" = _80pGPZA9;
+        "pkg-3.5.0+quilt.mc26.3" = _I910woLY;
+        "default" = _I910woLY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "flickview";

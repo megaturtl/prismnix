@@ -1041,6 +1041,11 @@ let
             "file" = "lightmanscurrency-1.21-2.3.0.6.jar";
             "hash" = "sha512-R+0ngnHoUs52zuIls8jddi/OTFomxDUeRJ1VU1eM1BbAVmJ0I1l6nKyJIookDCrd+RdI0sUTS5AtfaEuQeKSqA==";
         };
+        _X5nN1N8t = {
+            "id" = "X5nN1N8t";
+            "file" = "lightmanscurrency-26.1-1.0.0.1.jar";
+            "hash" = "sha512-3vlWyWl2S7R/6OAwDb+S4652FzZpI7mqltSYP0AE3jczfgetWyPYXU+pV8HVodL28q3NVCVoJ9jA4Y++EnBI6Q==";
+        };
     in {
         "B1yzWxQG" = _B1yzWxQG;
         "d8dgqev2" = _d8dgqev2;
@@ -1250,6 +1255,7 @@ let
         "2LuNnzOP" = _2LuNnzOP;
         "CmqiNDe3" = _CmqiNDe3;
         "XMHRtEIk" = _XMHRtEIk;
+        "X5nN1N8t" = _X5nN1N8t;
         "forge-1.20.1" = _CmqiNDe3;
         "forge-1.19.2" = _M1xoIF0K;
         "forge-1.18.2" = _6Er7kfoX;
@@ -1267,7 +1273,7 @@ let
         "neoforge-1.21.2" = _hGUDQdy6;
         "neoforge-26.1" = _2LuNnzOP;
         "neoforge-26.1.1" = _2LuNnzOP;
-        "neoforge-26.1.2" = _2LuNnzOP;
+        "neoforge-26.1.2" = _X5nN1N8t;
         "pkg-1.20.1-2.2.1.1" = _B1yzWxQG;
         "pkg-1.19.2-2.2.1.1" = _d8dgqev2;
         "pkg-1.19.2-2.2.1.2" = _Pb9PhbAZ;
@@ -1476,7 +1482,8 @@ let
         "pkg-26.1-1.0.0.0" = _2LuNnzOP;
         "pkg-1.20.1-2.3.0.6" = _CmqiNDe3;
         "pkg-1.21-2.3.0.6" = _XMHRtEIk;
-        "default" = _XMHRtEIk;
+        "pkg-26.1-1.0.0.1" = _X5nN1N8t;
+        "default" = _X5nN1N8t;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lightmans-currency";

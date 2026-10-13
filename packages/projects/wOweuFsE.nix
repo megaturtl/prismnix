@@ -26,19 +26,26 @@ let
             "file" = "CobblemonCustomizables-1.8hotfix.jar";
             "hash" = "sha512-pA3q5ticW1SDw0BI1FwpNNj+2SIj0PYklJ9AO/NanqHRuvf/kB19NySEILpJNxH028aHd6lxk6PYmbM2nkjBKw==";
         };
+        _SklZEWfd = {
+            "id" = "SklZEWfd";
+            "file" = "CobblemonCustomizables-3.0.0-1.8.jar";
+            "hash" = "sha512-h3WtfJ1WeY5hEp414nc2hvL51ITO+lKDVl6AIAcny5AeKsw+qSBr6r6ce+5LWw7U1qQLXMBmJc/IceJIXBDLsw==";
+        };
     in {
         "zJXbs4nt" = _zJXbs4nt;
         "pkDjykfS" = _pkDjykfS;
         "yRNjGFdL" = _yRNjGFdL;
         "EPon4W74" = _EPon4W74;
         "N5pf1duI" = _N5pf1duI;
-        "fabric-1.21.1" = _N5pf1duI;
+        "SklZEWfd" = _SklZEWfd;
+        "fabric-1.21.1" = _SklZEWfd;
         "pkg-1.0.0" = _zJXbs4nt;
         "pkg-1.0.1" = _pkDjykfS;
         "pkg-2.0.0" = _yRNjGFdL;
         "pkg-0.0.0-1.8" = _EPon4W74;
         "pkg-1.0.1-1.8" = _N5pf1duI;
-        "default" = _N5pf1duI;
+        "pkg-3.0.0" = _SklZEWfd;
+        "default" = _SklZEWfd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-customizables";

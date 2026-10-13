@@ -161,6 +161,26 @@ let
             "file" = "letsdo-bakery-fabric-2.1.8.jar";
             "hash" = "sha512-+FWbJgaAmv94DpbrY/JZiy7t+C3uMhUMYD+vcw7YkJpNZTQkcM43HvCNCK0FUQWnc1xo0ymOqZ9bYnZZAYBzeg==";
         };
+        _cUr3it8I = {
+            "id" = "cUr3it8I";
+            "file" = "letsdo-bakery-neoforge-2.1.9.jar";
+            "hash" = "sha512-9kPJXGw6hjiJnoT5CB/TDrUmeWxvzPrUdb8hUaeqeQpUYGrjY3QZR2XBocV8hWaV7kDL9cKe/9WMXjxjg8R0pw==";
+        };
+        _wcya0CVG = {
+            "id" = "wcya0CVG";
+            "file" = "letsdo-bakery-fabric-2.1.9.jar";
+            "hash" = "sha512-XyQCUZNiJTOjQ4KXNxzwFnm47dquPWHc8RwuXymsZSncCVtAHKc1NmiBp0sdp3eI8OwT83kwxR1hjZAh3kA16g==";
+        };
+        _bkTEdqsy = {
+            "id" = "bkTEdqsy";
+            "file" = "letsdo-bakery-neoforge-2.1.10.jar";
+            "hash" = "sha512-sswAlBZOJ7dsOUoEB3IXuio7AJ1gj13laRuG5hsMs6cxoV2daAk9rHBk0JzM7Kn2qt8S4HbS5CF7MZddpdh8rw==";
+        };
+        _W1PNtA8m = {
+            "id" = "W1PNtA8m";
+            "file" = "letsdo-bakery-fabric-2.1.10.jar";
+            "hash" = "sha512-KqOQjObNC3lB+IbtE6GIavaiJTlUC6Pyo10xyr0EkglS9bD/n3dwa0Ybgvvfj9/fBh0Qjoh3GcI25S17hJhlYQ==";
+        };
     in {
         "T9QkwQRB" = _T9QkwQRB;
         "Yi0S1Yx4" = _Yi0S1Yx4;
@@ -194,11 +214,15 @@ let
         "pNQ82RKq" = _pNQ82RKq;
         "9QEPWtYp" = _9QEPWtYp;
         "EwxFN6K3" = _EwxFN6K3;
+        "cUr3it8I" = _cUr3it8I;
+        "wcya0CVG" = _wcya0CVG;
+        "bkTEdqsy" = _bkTEdqsy;
+        "W1PNtA8m" = _W1PNtA8m;
         "forge-1.20.1" = _Bz6DYFDT;
         "neoforge-1.20.1" = _Bz6DYFDT;
-        "neoforge-1.21.1" = _9QEPWtYp;
+        "neoforge-1.21.1" = _bkTEdqsy;
         "fabric-1.20.1" = _KEv4JeEB;
-        "fabric-1.21.1" = _EwxFN6K3;
+        "fabric-1.21.1" = _W1PNtA8m;
         "quilt-1.20.1" = _KEv4JeEB;
         "pkg-2.0.0" = _Yi0S1Yx4;
         "pkg-2.0.1" = _ZP1aDYMm;
@@ -217,7 +241,9 @@ let
         "pkg-2.1.6" = _Wfs6V69X;
         "pkg-2.1.7" = _pNQ82RKq;
         "pkg-2.1.8" = _EwxFN6K3;
-        "default" = _EwxFN6K3;
+        "pkg-2.1.9" = _wcya0CVG;
+        "pkg-2.1.10" = _W1PNtA8m;
+        "default" = _W1PNtA8m;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lets-do-bakery-farmcharm-compat";

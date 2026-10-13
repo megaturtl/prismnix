@@ -56,6 +56,11 @@ let
             "file" = "JujutsuCraft-ver50.1-forge-1.20.1.jar";
             "hash" = "sha512-15gAhQAdz9/zGQtE++KUNmfIq5nvMM2R4xiSPpxACQWDWQ9IP8cfPsjNuE4Eve4EO2u1q+KDLXhPUdJ5RxbU7g==";
         };
+        _p0cObOLl = {
+            "id" = "p0cObOLl";
+            "file" = "JujutsuCraft-ver51-forge-1.20.1.jar";
+            "hash" = "sha512-NUQFLVyKlW9p52rHSvamelgSHrDup/8Gllrda4tUK5jIf+nJyKS1UGvFatbWcrpfKjXm8ieO8cnb+MM/kudH3g==";
+        };
     in {
         "UsfAaPht" = _UsfAaPht;
         "WpUlQrxh" = _WpUlQrxh;
@@ -68,7 +73,8 @@ let
         "LYeKUHA7" = _LYeKUHA7;
         "d6O9iWMs" = _d6O9iWMs;
         "WRDNzD03" = _WRDNzD03;
-        "forge-1.20.1" = _WRDNzD03;
+        "p0cObOLl" = _p0cObOLl;
+        "forge-1.20.1" = _p0cObOLl;
         "pkg-44.1" = _UsfAaPht;
         "pkg-44.3" = _WpUlQrxh;
         "pkg-45" = _QJDyDAVs;
@@ -80,7 +86,8 @@ let
         "pkg-49.1" = _LYeKUHA7;
         "pkg-50" = _d6O9iWMs;
         "pkg-50.1" = _WRDNzD03;
-        "default" = _WRDNzD03;
+        "pkg-51" = _p0cObOLl;
+        "default" = _p0cObOLl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "orca-jujutsu-craft";

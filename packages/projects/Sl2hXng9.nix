@@ -71,6 +71,11 @@ let
             "file" = "TreeCapitator v4.8_Beta.zip";
             "hash" = "sha512-jeBdmBi8roLlYGiAvGlj/XXACudwzS7J+fJ59x/79oKpJuLIwP8Cet3xQUYHTt5IMiBEr4XtaQDylB3m+Qq4kw==";
         };
+        _YhDLwgLX = {
+            "id" = "YhDLwgLX";
+            "file" = "TreeCapitator v4.8.zip";
+            "hash" = "sha512-3bkahHLmQJjTGCaW4wgotW880UxJBSyZfaPr95O1D1rO+7RwB42iyqiKei4N47CfqcNZMqr+sloR4yMZRZ9kHQ==";
+        };
     in {
         "4Wr1eR88" = _4Wr1eR88;
         "yrIx4r0w" = _yrIx4r0w;
@@ -86,6 +91,7 @@ let
         "mq0pndB4" = _mq0pndB4;
         "p4E9qNnV" = _p4E9qNnV;
         "Ym38p2HO" = _Ym38p2HO;
+        "YhDLwgLX" = _YhDLwgLX;
         "datapack-1.19" = _4Wr1eR88;
         "datapack-1.19.1" = _4Wr1eR88;
         "datapack-1.19.2" = _4Wr1eR88;
@@ -111,6 +117,9 @@ let
         "datapack-1.21.10" = _mq0pndB4;
         "datapack-1.21.11" = _p4E9qNnV;
         "datapack-26.3" = _Ym38p2HO;
+        "datapack-26.1" = _YhDLwgLX;
+        "datapack-26.1.1" = _YhDLwgLX;
+        "datapack-26.1.2" = _YhDLwgLX;
         "fabric-1.20.5" = _2XHTVph3;
         "fabric-1.20.6" = _2XHTVph3;
         "pkg-2.8-2" = _4Wr1eR88;
@@ -127,7 +136,8 @@ let
         "pkg-4.6.2" = _mq0pndB4;
         "pkg-4.7.2" = _p4E9qNnV;
         "pkg-4.8_Beta" = _Ym38p2HO;
-        "default" = _Ym38p2HO;
+        "pkg-4.8" = _YhDLwgLX;
+        "default" = _YhDLwgLX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tree-chopping";

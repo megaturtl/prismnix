@@ -211,6 +211,11 @@ let
             "file" = "FramedBlocks-11.4.0.jar";
             "hash" = "sha512-tluE1p7YrKkBIweAUMLzftP98N+ic4do5iprRLEvVs7KjdTNHTOXFXY6c3K4t/qeXn3vV/6KsAwBMeFEyfgcHg==";
         };
+        _5g0Yxvfb = {
+            "id" = "5g0Yxvfb";
+            "file" = "FramedBlocks-10.6.3.jar";
+            "hash" = "sha512-LulONZHksRfU3OzlPkEXiPiaHnUoZ69U/1bp2sI5GjoWY0iUMP5wbeggFTvfGub9obwB/gUO9Ths8B/B2blpFw==";
+        };
     in {
         "Df87ktRk" = _Df87ktRk;
         "6mUloCsT" = _6mUloCsT;
@@ -254,13 +259,14 @@ let
         "FBXGqSP5" = _FBXGqSP5;
         "7q0O68ub" = _7q0O68ub;
         "HKuGyb68" = _HKuGyb68;
+        "5g0Yxvfb" = _5g0Yxvfb;
         "forge-1.16.5" = _Df87ktRk;
         "forge-1.18.2" = _6mUloCsT;
         "forge-1.19.2" = _6MJCf25K;
         "forge-1.20.1" = _lSiHA1qU;
         "neoforge-1.20.1" = _lSiHA1qU;
         "neoforge-1.21" = _elYMASQf;
-        "neoforge-1.21.1" = _FBXGqSP5;
+        "neoforge-1.21.1" = _5g0Yxvfb;
         "neoforge-26.1" = _pg1vcaRM;
         "neoforge-26.1.1" = _CNDyv3iO;
         "neoforge-26.1.2" = _HKuGyb68;
@@ -306,7 +312,8 @@ let
         "pkg-10.6.1" = _FBXGqSP5;
         "pkg-11.3.3" = _7q0O68ub;
         "pkg-11.4.0" = _HKuGyb68;
-        "default" = _HKuGyb68;
+        "pkg-10.6.3" = _5g0Yxvfb;
+        "default" = _5g0Yxvfb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "framedblocks";

@@ -151,6 +151,16 @@ let
             "file" = "lightspeed-1.21.1-2.0.2hotx3-alpha.1.jar";
             "hash" = "sha512-U248pAaGOWnPxP7efVyERrklIcUm+YP+rMdHD5x5yEwopldUAGCUA0dcK/MqtsgjrGlExOjRGA+L3duVqqilAg==";
         };
+        _utXsTvH4 = {
+            "id" = "utXsTvH4";
+            "file" = "lightspeed-1.20.1-2.0.3.jar";
+            "hash" = "sha512-gjKK++6b/XFGKCICJbKyWdPvF4bDBlgfg+kDTPON8M18MdJLxlImjVUCD3T0Ja4NaRc/CfhS8h85AXkw2obabw==";
+        };
+        _Ujj8kd3G = {
+            "id" = "Ujj8kd3G";
+            "file" = "lightspeed-1.21.1-2.0.3.jar";
+            "hash" = "sha512-Dp2RoZQXoCKXf5X/JGZ39o2Bg9x8CgjHKss9AV4eL5y1+DXGqu0+/FmcV4t3dVOl4n0VdehBuN4YoRhG6eaNgg==";
+        };
     in {
         "E6Xcqpi7" = _E6Xcqpi7;
         "l6eWpUtK" = _l6eWpUtK;
@@ -182,8 +192,10 @@ let
         "wl0W2sIM" = _wl0W2sIM;
         "848ghOks" = _848ghOks;
         "FmAY1duH" = _FmAY1duH;
-        "forge-1.20.1" = _wl0W2sIM;
-        "neoforge-1.21.1" = _FmAY1duH;
+        "utXsTvH4" = _utXsTvH4;
+        "Ujj8kd3G" = _Ujj8kd3G;
+        "forge-1.20.1" = _utXsTvH4;
+        "neoforge-1.21.1" = _Ujj8kd3G;
         "pkg-1.20.1-1.1.0" = _E6Xcqpi7;
         "pkg-1.20.1-1.1.1" = _l6eWpUtK;
         "pkg-1.20.1-1.1.2" = _YE18HLLS;
@@ -214,7 +226,9 @@ let
         "pkg-1.20.1-2.0.2hotx2" = _wl0W2sIM;
         "pkg-1.21.1-2.0.2hotx2" = _848ghOks;
         "pkg-1.21.1-2.0.2hotx3-alpha.1" = _FmAY1duH;
-        "default" = _FmAY1duH;
+        "pkg-1.20.1-2.0.3" = _utXsTvH4;
+        "pkg-1.21.1-2.0.3" = _Ujj8kd3G;
+        "default" = _Ujj8kd3G;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lightspeedre";

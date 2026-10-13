@@ -611,6 +611,16 @@ let
             "file" = "reignofnether-1.5.0-beta-8.jar";
             "hash" = "sha512-KyJd6v7PJVmy5vQj1Uv7T1DY3LzzAMwAafkiJlXWT6E4ZSvki7nfr4jeZePJDwqPesGt+Lz4sMMZlSlnehpBtA==";
         };
+        _rkigxbhw = {
+            "id" = "rkigxbhw";
+            "file" = "reignofnether-1.5.0.jar";
+            "hash" = "sha512-cqBUAx8SuJPVTBtltDe4mGgy5NL7z1w7QE4s4wyltnzzTZV5zPak7xZh5/cOMQS/4PkwMPmC5FnDSjcmy/BKPw==";
+        };
+        _zKURHMzt = {
+            "id" = "zKURHMzt";
+            "file" = "reignofnether-1.5.0a.jar";
+            "hash" = "sha512-dVqL47HwQ754EKvi4wBCdMpSal6JdJcPJrYRTFppFc1gNLzq/Du9PizixqysFuNqiv2uJv7iR8djnTMeDNhjzA==";
+        };
     in {
         "B5466OCK" = _B5466OCK;
         "14SL9xZ8" = _14SL9xZ8;
@@ -734,9 +744,11 @@ let
         "yURe7fG8" = _yURe7fG8;
         "ZltPDP1O" = _ZltPDP1O;
         "7UIfYRZ1" = _7UIfYRZ1;
+        "rkigxbhw" = _rkigxbhw;
+        "zKURHMzt" = _zKURHMzt;
         "forge-1.19.2" = _p0YYsOrc;
         "forge-1.19.1" = _p0YYsOrc;
-        "forge-1.20.1" = _7UIfYRZ1;
+        "forge-1.20.1" = _zKURHMzt;
         "pkg-1.0.1" = _B5466OCK;
         "pkg-1.0.2" = _14SL9xZ8;
         "pkg-1.0.3" = _5I4zAcYu;
@@ -858,7 +870,9 @@ let
         "pkg-1.4.4g" = _yURe7fG8;
         "pkg-1.5.0-beta-7" = _ZltPDP1O;
         "pkg-1.5.0-beta-8" = _7UIfYRZ1;
-        "default" = _7UIfYRZ1;
+        "pkg-1.5.0" = _rkigxbhw;
+        "pkg-1.5.0a" = _zKURHMzt;
+        "default" = _zKURHMzt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "reign-of-nether-rts";

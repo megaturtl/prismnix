@@ -156,6 +156,11 @@ let
             "file" = "wizards_reborn-1.20.1-0.3.1.jar";
             "hash" = "sha512-oQ9FRjkJBoiEtnofP3JLJY8zkgiQYdY5T0tMXMmM/hRx4qQxwirYrKCiTewxJZ27vIjeb9qJXmfLs4RwcASnsg==";
         };
+        _vVRrXJJV = {
+            "id" = "vVRrXJJV";
+            "file" = "wizards_reborn-1.20.1-0.3.2.jar";
+            "hash" = "sha512-h4gc0rbGim7AMtTstQetwBuurruGE+0kNldh0llJdjhkj2ht9BayOYwvl8BtTTy1nEPySQqfb3UBNpLhwz0jnw==";
+        };
     in {
         "mEsgYyNN" = _mEsgYyNN;
         "RaSH1v0N" = _RaSH1v0N;
@@ -188,7 +193,8 @@ let
         "mPxHSZLi" = _mPxHSZLi;
         "rWdlHwdU" = _rWdlHwdU;
         "jX8rvn24" = _jX8rvn24;
-        "forge-1.20.1" = _jX8rvn24;
+        "vVRrXJJV" = _vVRrXJJV;
+        "forge-1.20.1" = _vVRrXJJV;
         "pkg-1.20.1-0.0.1" = _mEsgYyNN;
         "pkg-1.20.1-0.0.2" = _RaSH1v0N;
         "pkg-1.20.1-0.0.3" = _MIMQIeoT;
@@ -220,7 +226,8 @@ let
         "pkg-1.20.1-0.2.9" = _mPxHSZLi;
         "pkg-1.20.1-0.3" = _rWdlHwdU;
         "pkg-1.20.1-0.3.1" = _jX8rvn24;
-        "default" = _jX8rvn24;
+        "pkg-1.20.1-0.3.2" = _vVRrXJJV;
+        "default" = _vVRrXJJV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wizards-reborn";

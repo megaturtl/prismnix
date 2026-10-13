@@ -31,6 +31,11 @@ let
             "file" = "AE2-QoL-Client-mc1.20.1-1.0.8.jar";
             "hash" = "sha512-0A9JYlkGJfMXAP41tdJjeMMjGxXqHQaZRURzrFgMVHOKcJetdsZDOt3kzA1+0vbIilxy4qsU76zX5KVfTw+Ijw==";
         };
+        _zg9BJ5gT = {
+            "id" = "zg9BJ5gT";
+            "file" = "AE2-QoL-Client-mc26.1.2-3.0.0.jar";
+            "hash" = "sha512-HHQS7xabjTob0OLeTiaNcZcTPsxeUON+wQdKcToV/hVTy4UTVNDSF7CbRy+P7LD9KlUJa0B6I728MJswa13R7A==";
+        };
     in {
         "v2dRmNUm" = _v2dRmNUm;
         "awVAmAk8" = _awVAmAk8;
@@ -38,7 +43,9 @@ let
         "vSyxF4Id" = _vSyxF4Id;
         "htF0Jr9I" = _htF0Jr9I;
         "jpICk8TV" = _jpICk8TV;
+        "zg9BJ5gT" = _zg9BJ5gT;
         "neoforge-1.21.1" = _htF0Jr9I;
+        "neoforge-26.1.2" = _zg9BJ5gT;
         "forge-1.20.1" = _jpICk8TV;
         "pkg-2.0.0" = _v2dRmNUm;
         "pkg-1.0.6" = _awVAmAk8;
@@ -46,7 +53,8 @@ let
         "pkg-1.0.7" = _vSyxF4Id;
         "pkg-2.0.2" = _htF0Jr9I;
         "pkg-1.0.8" = _jpICk8TV;
-        "default" = _jpICk8TV;
+        "pkg-3.0.0" = _zg9BJ5gT;
+        "default" = _zg9BJ5gT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ae2-qol-client";

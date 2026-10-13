@@ -36,6 +36,31 @@ let
             "file" = "armordamagetint-1.0.0.jar";
             "hash" = "sha512-j5yjxFme4CwHjqzc1oD92XGm0+DKVYYsIGbG0TpHKfMHFQbqsZVWvpwuUZkJJwVs04hDRbgbksDyVSmgQG85Mg==";
         };
+        _BuVtDXWe = {
+            "id" = "BuVtDXWe";
+            "file" = "armordamagetint-1.0.0+mc26.1.jar";
+            "hash" = "sha512-vmOxQkFxj1Okh32jFEDH0Tel+wNEcdd8fskRpQkBpHmf5NhN5E3fEmxS1Jwqe10cReteZr0qL3MH0Ceg5Ibo4w==";
+        };
+        _ErweF283 = {
+            "id" = "ErweF283";
+            "file" = "armordamagetint-1.0.0+mc26.1.1.jar";
+            "hash" = "sha512-w/IASPm06/8RYh8UMoi6sQ3xWr5tU7GGnEkk9MDYfLcCmBQqZAD67GoKzKEbmkWP8wbzbmEOD2y/W1UA0aW7uw==";
+        };
+        _arNrIt0z = {
+            "id" = "arNrIt0z";
+            "file" = "armordamagetint-1.0.0+mc26.1.2.jar";
+            "hash" = "sha512-z8uayfr4XeFGFxIUKMRh95fkwvWXMr+twqRLZIdlLfD51LFM9v+Ikftg2hmGpTvLVxhw7TIpJD5ZhA1xyjdS7A==";
+        };
+        _3kYFP4ld = {
+            "id" = "3kYFP4ld";
+            "file" = "armordamagetint-1.0.0+mc26.2.jar";
+            "hash" = "sha512-F6atEZ84BxtbZEM0YqlU13+Zlzi+ypcBu9iUXlFlV8eZJItSHSkTcG73S9Rta5rs5mw+eM0PBllRt2lkorE7GA==";
+        };
+        _fUjTwC9J = {
+            "id" = "fUjTwC9J";
+            "file" = "armordamagetint-1.0.0+mc26.3.jar";
+            "hash" = "sha512-aP4N7RaaQI8yBOl1OrgEtX995pKPH5PNJ6cgwEIprcvFpALRJ7Wbx66yJwSDAPVOlGvjeBnxBT/19nWv0hZl1g==";
+        };
     in {
         "iO8SPngG" = _iO8SPngG;
         "zIgfoG89" = _zIgfoG89;
@@ -44,6 +69,11 @@ let
         "u83HDxwq" = _u83HDxwq;
         "BXxvkk0G" = _BXxvkk0G;
         "t5jVaeEf" = _t5jVaeEf;
+        "BuVtDXWe" = _BuVtDXWe;
+        "ErweF283" = _ErweF283;
+        "arNrIt0z" = _arNrIt0z;
+        "3kYFP4ld" = _3kYFP4ld;
+        "fUjTwC9J" = _fUjTwC9J;
         "fabric-1.21.10" = _iO8SPngG;
         "fabric-1.21.9" = _zIgfoG89;
         "fabric-1.21.8" = _M6FvW8fp;
@@ -51,8 +81,13 @@ let
         "fabric-1.21.7" = _u83HDxwq;
         "fabric-1.21.5" = _BXxvkk0G;
         "fabric-1.21.11" = _t5jVaeEf;
-        "pkg-1.0.0" = _t5jVaeEf;
-        "default" = _t5jVaeEf;
+        "fabric-26.1" = _BuVtDXWe;
+        "fabric-26.1.1" = _ErweF283;
+        "fabric-26.1.2" = _arNrIt0z;
+        "fabric-26.2" = _3kYFP4ld;
+        "fabric-26.3" = _fUjTwC9J;
+        "pkg-1.0.0" = _fUjTwC9J;
+        "default" = _fUjTwC9J;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "armor-damage-tint";

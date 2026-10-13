@@ -161,6 +161,11 @@ let
             "file" = "Pl3xMarkers-0.8.4+26.3.jar";
             "hash" = "sha512-LlvSiZEQwxdmaFOaFUEoBzojq6UbaEOTk9xyBlDVneqrMHBWYapoILSELK7LbsX3lPUChoQTzttYSjvzwLSaHw==";
         };
+        _GA7naZzQ = {
+            "id" = "GA7naZzQ";
+            "file" = "Pl3xMarkers-0.8.5+26.2.jar";
+            "hash" = "sha512-6hBw4vm5w9kIlKinH4YEtQrDBb5XGdhHP0b8PFYQaSfpjGlU3QkuZ2Cem4Ns3jY1DlNxUAbqlYBFnqcczNp7Ow==";
+        };
     in {
         "HwAn2pRY" = _HwAn2pRY;
         "jcTdE7GZ" = _jcTdE7GZ;
@@ -194,32 +199,33 @@ let
         "xZasBC0p" = _xZasBC0p;
         "vudJXs6d" = _vudJXs6d;
         "2Pegi1Zu" = _2Pegi1Zu;
+        "GA7naZzQ" = _GA7naZzQ;
         "fabric-1.21.7" = _HwAn2pRY;
         "fabric-1.21.8" = _HwAn2pRY;
         "fabric-1.21.10" = _j8w8Lumc;
         "fabric-1.21.11" = _mVlFbvpy;
         "fabric-26.1.2" = _PAD86bAr;
-        "fabric-26.2" = _vudJXs6d;
+        "fabric-26.2" = _GA7naZzQ;
         "fabric-26.3" = _2Pegi1Zu;
         "folia-1.21.10" = _j8w8Lumc;
         "folia-1.21.11" = _mVlFbvpy;
         "folia-26.1.2" = _PAD86bAr;
-        "folia-26.2" = _vudJXs6d;
+        "folia-26.2" = _GA7naZzQ;
         "folia-26.3" = _2Pegi1Zu;
         "paper-1.21.10" = _j8w8Lumc;
         "paper-1.21.11" = _mVlFbvpy;
         "paper-26.1.2" = _PAD86bAr;
-        "paper-26.2" = _vudJXs6d;
+        "paper-26.2" = _GA7naZzQ;
         "paper-26.3" = _2Pegi1Zu;
         "purpur-1.21.10" = _j8w8Lumc;
         "purpur-1.21.11" = _mVlFbvpy;
         "purpur-26.1.2" = _PAD86bAr;
-        "purpur-26.2" = _vudJXs6d;
+        "purpur-26.2" = _GA7naZzQ;
         "purpur-26.3" = _2Pegi1Zu;
         "quilt-1.21.10" = _j8w8Lumc;
         "quilt-1.21.11" = _mVlFbvpy;
         "quilt-26.1.2" = _PAD86bAr;
-        "quilt-26.2" = _vudJXs6d;
+        "quilt-26.2" = _GA7naZzQ;
         "quilt-26.3" = _2Pegi1Zu;
         "pkg-0.3.1+1.21.7" = _HwAn2pRY;
         "pkg-0.3.1-snapshot+1.21.10" = _jcTdE7GZ;
@@ -253,7 +259,8 @@ let
         "pkg-0.8.3+26.2" = _xZasBC0p;
         "pkg-0.8.4+26.2" = _vudJXs6d;
         "pkg-0.8.4+26.3" = _2Pegi1Zu;
-        "default" = _2Pegi1Zu;
+        "pkg-0.8.5+26.2" = _GA7naZzQ;
+        "default" = _GA7naZzQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pl3xmarkers";

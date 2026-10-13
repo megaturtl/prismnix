@@ -61,6 +61,11 @@ let
             "file" = "warium_ponder_jei-2.0.5-all.jar";
             "hash" = "sha512-r3W+axPKa1JlWEb7TrS5m3jO70HTNsCZ1s92Rh2b5ouXFUmjThSlL7XXLwT3UI2KqSVvxVmi/5xikTV/zEwocQ==";
         };
+        _89v4y0ee = {
+            "id" = "89v4y0ee";
+            "file" = "warium_ponder_jei-2.0.6-all.jar";
+            "hash" = "sha512-XOqYQCG7i2Vs/O/zk1MGR/FrhoQ7xAo4w7rYYxzQ2bLDQL876266Q1/pfGkryEB9CNDpWv3AxYHxYGUpE9iqnw==";
+        };
     in {
         "3SWOrU20" = _3SWOrU20;
         "8m7aBHaj" = _8m7aBHaj;
@@ -74,7 +79,8 @@ let
         "OQ14w6FS" = _OQ14w6FS;
         "WP3I68FX" = _WP3I68FX;
         "HdxWTFGw" = _HdxWTFGw;
-        "forge-1.20.1" = _HdxWTFGw;
+        "89v4y0ee" = _89v4y0ee;
+        "forge-1.20.1" = _89v4y0ee;
         "pkg-1.0.0" = _3SWOrU20;
         "pkg-1.1.0" = _8m7aBHaj;
         "pkg-1.2.0" = _svr9K5KI;
@@ -87,7 +93,8 @@ let
         "pkg-2.0.4" = _OQ14w6FS;
         "pkg-2.0.5-ponderless" = _WP3I68FX;
         "pkg-2.0.5" = _HdxWTFGw;
-        "default" = _HdxWTFGw;
+        "pkg-2.0.6" = _89v4y0ee;
+        "default" = _89v4y0ee;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "warium_ponder_jei";

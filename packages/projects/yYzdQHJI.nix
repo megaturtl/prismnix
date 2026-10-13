@@ -3136,6 +3136,11 @@ let
             "file" = "integrateddynamics-1.21.1-neoforge-1.38.0-2266.jar";
             "hash" = "sha512-4emzOWqKsmnO3m95HGlz2ruVp5XSIdurjzKs6I50IULi/ubuwbCafK5w7HGIwCCjswe6n2NzDoe6hiL1+FCYuw==";
         };
+        _vEQm4xm8 = {
+            "id" = "vEQm4xm8";
+            "file" = "integrateddynamics-26.1.2-neoforge-1.36.1.jar";
+            "hash" = "sha512-f+/zsCETYYrUJm1m2Mt5MO74Hy5pK2RtXigTJdqrB0XtD1PLOLXqhmZlMwmiZeBOneVldo4lympYVSYo3XrYhQ==";
+        };
     in {
         "uoNGqKEf" = _uoNGqKEf;
         "RkIdm3Q5" = _RkIdm3Q5;
@@ -3764,6 +3769,7 @@ let
         "9fVr05mY" = _9fVr05mY;
         "QrgwS0Mh" = _QrgwS0Mh;
         "Nx78SWut" = _Nx78SWut;
+        "vEQm4xm8" = _vEQm4xm8;
         "forge-1.18.2" = _orW9jQa8;
         "forge-1.19" = _kRsde6xp;
         "forge-1.19.2" = _a7CDzUAl;
@@ -3779,7 +3785,7 @@ let
         "neoforge-1.21.10" = _u8eWUUQc;
         "neoforge-1.21.11" = _LyoRdjuN;
         "neoforge-26.1.1" = _l1XSkKsv;
-        "neoforge-26.1.2" = _smY1K1yZ;
+        "neoforge-26.1.2" = _vEQm4xm8;
         "neoforge-26.2" = _YU76Q1lX;
         "neoforge-26.3" = _QrgwS0Mh;
         "pkg-1.11.0" = _uoNGqKEf;
@@ -4408,7 +4414,8 @@ let
         "pkg-26.3-1.33.4-2260" = _9fVr05mY;
         "pkg-26.3-1.33.4-2261" = _QrgwS0Mh;
         "pkg-1.21.1-1.38.0-2266" = _Nx78SWut;
-        "default" = _Nx78SWut;
+        "pkg-26.1.2-1.36.1" = _vEQm4xm8;
+        "default" = _vEQm4xm8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "integrated-dynamics";

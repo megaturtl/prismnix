@@ -31,6 +31,16 @@ let
             "file" = "perfectbirbs-forge-1.20.1-1.2.0.jar";
             "hash" = "sha512-V+x+Tx0Q6tCwZUSSR1LmJWslNfzeoyZLGDN6xLZ20ksZqm03NvCUbdibWg5FvaBTpo9LnO7ET8HcbgmmjyBu4A==";
         };
+        _9KkO5oOJ = {
+            "id" = "9KkO5oOJ";
+            "file" = "perfectbirbs-neoforge-1.21.1-1.2.0.jar";
+            "hash" = "sha512-skv2aO4p2LgMdQNQq7hZwVSG9nHNfAaVkoaEaBSeZMN83SpfZQFCBICy6lub4gTnA3UWaN43rZyf2iO8VQ7Jeg==";
+        };
+        _GupeWzRL = {
+            "id" = "GupeWzRL";
+            "file" = "perfectbirbs-fabric-1.21.1-1.2.0.jar";
+            "hash" = "sha512-fTUGyqLT3GW4J2KJy5Ss617VpKxXbbKy05x5dBsqKPbFFfZ5ZDmgTwu1rup6qqfkMsfM1YZ01ly4XSA7Kw4r+g==";
+        };
     in {
         "v3xwk7wP" = _v3xwk7wP;
         "jbKEwhGJ" = _jbKEwhGJ;
@@ -38,12 +48,16 @@ let
         "QPnmDulD" = _QPnmDulD;
         "mG3gH7Pk" = _mG3gH7Pk;
         "mfJDTCEe" = _mfJDTCEe;
+        "9KkO5oOJ" = _9KkO5oOJ;
+        "GupeWzRL" = _GupeWzRL;
         "fabric-1.20.1" = _mG3gH7Pk;
+        "fabric-1.21.1" = _GupeWzRL;
         "forge-1.20.1" = _mfJDTCEe;
+        "neoforge-1.21.1" = _9KkO5oOJ;
         "pkg-1.0.0" = _jbKEwhGJ;
         "pkg-1.1.0" = _QPnmDulD;
-        "pkg-1.2.0" = _mfJDTCEe;
-        "default" = _mfJDTCEe;
+        "pkg-1.2.0" = _GupeWzRL;
+        "default" = _GupeWzRL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "perfect-birbs";

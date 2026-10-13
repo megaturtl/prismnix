@@ -126,6 +126,16 @@ let
             "file" = "craftable-froglights-2.7.jar";
             "hash" = "sha512-UCgE8joV5oiPPslBZtIW9o3zYmRRjxVosRxXr2KOaiUq9J1WP96DM/cujCA61t09ZfC9oe5rraKhX0qUhH6NTQ==";
         };
+        _Ph8eUIp8 = {
+            "id" = "Ph8eUIp8";
+            "file" = "Craftable Froglights v3.0 (26.1-26.3).zip";
+            "hash" = "sha512-LCHJNbuvrSVA7gD5afGKOmSUydJMLgUEwXTB6WeNBfGPS0SDon3jIrxdNzOp2URl8IPu0WVJizhReuZ1lNlnBA==";
+        };
+        _LOmtGD3A = {
+            "id" = "LOmtGD3A";
+            "file" = "craftable-froglights-3.0.jar";
+            "hash" = "sha512-qcUA1SJaG6NWia1IkmmQARU++pSslL8u4RUQnEwuPKus6fFO6gS/fUhX06L5fCYmjCMFF53CPM3yyMICJTBbKw==";
+        };
     in {
         "rxOEOaEp" = _rxOEOaEp;
         "6Mqi3vcS" = _6Mqi3vcS;
@@ -152,6 +162,8 @@ let
         "E2G6bPAX" = _E2G6bPAX;
         "aFwS0YV8" = _aFwS0YV8;
         "YnausfIh" = _YnausfIh;
+        "Ph8eUIp8" = _Ph8eUIp8;
+        "LOmtGD3A" = _LOmtGD3A;
         "datapack-1.20" = _aFwS0YV8;
         "datapack-1.20.1" = _aFwS0YV8;
         "datapack-1.20.2" = _aFwS0YV8;
@@ -173,6 +185,11 @@ let
         "datapack-1.21.9" = _aFwS0YV8;
         "datapack-1.21.10" = _aFwS0YV8;
         "datapack-1.21.11" = _aFwS0YV8;
+        "datapack-26.1" = _Ph8eUIp8;
+        "datapack-26.1.1" = _Ph8eUIp8;
+        "datapack-26.1.2" = _Ph8eUIp8;
+        "datapack-26.2" = _Ph8eUIp8;
+        "datapack-26.3" = _Ph8eUIp8;
         "fabric-1.20" = _YnausfIh;
         "fabric-1.20.1" = _YnausfIh;
         "fabric-1.20.2" = _YnausfIh;
@@ -192,6 +209,11 @@ let
         "fabric-1.21.9" = _YnausfIh;
         "fabric-1.21.10" = _YnausfIh;
         "fabric-1.21.11" = _YnausfIh;
+        "fabric-26.1" = _LOmtGD3A;
+        "fabric-26.1.1" = _LOmtGD3A;
+        "fabric-26.1.2" = _LOmtGD3A;
+        "fabric-26.2" = _LOmtGD3A;
+        "fabric-26.3" = _LOmtGD3A;
         "forge-1.20" = _YnausfIh;
         "forge-1.20.1" = _YnausfIh;
         "forge-1.20.2" = _YnausfIh;
@@ -211,6 +233,11 @@ let
         "forge-1.21.9" = _YnausfIh;
         "forge-1.21.10" = _YnausfIh;
         "forge-1.21.11" = _YnausfIh;
+        "forge-26.1" = _LOmtGD3A;
+        "forge-26.1.1" = _LOmtGD3A;
+        "forge-26.1.2" = _LOmtGD3A;
+        "forge-26.2" = _LOmtGD3A;
+        "forge-26.3" = _LOmtGD3A;
         "quilt-1.20" = _YnausfIh;
         "quilt-1.20.1" = _YnausfIh;
         "quilt-1.20.2" = _YnausfIh;
@@ -230,6 +257,11 @@ let
         "quilt-1.21.9" = _YnausfIh;
         "quilt-1.21.10" = _YnausfIh;
         "quilt-1.21.11" = _YnausfIh;
+        "quilt-26.1" = _LOmtGD3A;
+        "quilt-26.1.1" = _LOmtGD3A;
+        "quilt-26.1.2" = _LOmtGD3A;
+        "quilt-26.2" = _LOmtGD3A;
+        "quilt-26.3" = _LOmtGD3A;
         "neoforge-1.20" = _YnausfIh;
         "neoforge-1.20.1" = _YnausfIh;
         "neoforge-1.20.2" = _YnausfIh;
@@ -249,6 +281,11 @@ let
         "neoforge-1.21.9" = _YnausfIh;
         "neoforge-1.21.10" = _YnausfIh;
         "neoforge-1.21.11" = _YnausfIh;
+        "neoforge-26.1" = _LOmtGD3A;
+        "neoforge-26.1.1" = _LOmtGD3A;
+        "neoforge-26.1.2" = _LOmtGD3A;
+        "neoforge-26.2" = _LOmtGD3A;
+        "neoforge-26.3" = _LOmtGD3A;
         "pkg-1" = _Eot3Dmz9;
         "pkg-1+mod" = _6TBSHIoz;
         "pkg-1.2" = _iM079UAl;
@@ -272,7 +309,9 @@ let
         "pkg-2.6+mod" = _E2G6bPAX;
         "pkg-2.7" = _aFwS0YV8;
         "pkg-2.7+mod" = _YnausfIh;
-        "default" = _YnausfIh;
+        "pkg-3.0" = _Ph8eUIp8;
+        "pkg-3.0+mod" = _LOmtGD3A;
+        "default" = _LOmtGD3A;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "craftable-froglights";

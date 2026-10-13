@@ -851,6 +851,11 @@ let
             "file" = "BHMenu-Forge-1.12.2-2.4.7.jar";
             "hash" = "sha512-Gkmfn8tWSa6weXIFkwcTrZf23X6qgktCzLNeStazGGct8vi5DFN6MBknMHm5UU//Ns8XaqvwVWfRT0UEUmwFCQ==";
         };
+        _85ivIcpj = {
+            "id" = "85ivIcpj";
+            "file" = "BHMenu-Forge-1.7.10-2.4.7.jar";
+            "hash" = "sha512-yanLMQ3dw+v0PCsEE8cgc1mtog4XSOR9qBG6jcCAG5b8bM0gALB8gRbl/C7A4hijv743DMAolOcTcjcJkF+3Qw==";
+        };
     in {
         "5yuZc9ZO" = _5yuZc9ZO;
         "DLXfi5mx" = _DLXfi5mx;
@@ -1022,6 +1027,7 @@ let
         "yGZZNHh2" = _yGZZNHh2;
         "sQtDoPiw" = _sQtDoPiw;
         "n0maai4Q" = _n0maai4Q;
+        "85ivIcpj" = _85ivIcpj;
         "forge-1.12" = _n64nrOMS;
         "forge-1.12.1" = _n64nrOMS;
         "forge-1.12.2" = _n0maai4Q;
@@ -1074,6 +1080,7 @@ let
         "forge-26.1.2" = _TXg4GvcV;
         "forge-26.2" = _qq9IJsC3;
         "forge-26.3" = _yGZZNHh2;
+        "forge-1.7.10" = _85ivIcpj;
         "fabric-1.14.4" = _XY1XCzP7;
         "fabric-1.15.2" = _3GaYbjVy;
         "fabric-1.16.5" = _NZnNVGL9;
@@ -1153,8 +1160,8 @@ let
         "pkg-2.4.6" = _n64nrOMS;
         "pkg-2.5.4" = _iLFmg6WM;
         "pkg-3.0.0" = _sQtDoPiw;
-        "pkg-2.4.7" = _n0maai4Q;
-        "default" = _n0maai4Q;
+        "pkg-2.4.7" = _85ivIcpj;
+        "default" = _85ivIcpj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bisect-mod";

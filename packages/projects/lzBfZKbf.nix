@@ -111,6 +111,11 @@ let
             "file" = "intelligentvillagers-0.5.0.jar";
             "hash" = "sha512-QxBCV99YxNhLLcSzRGyCjmuOQJiACRxditKWFA3iGeoW+HTT20fegX3Uh75NI9BYmlHu1S1J4HqzFb8oXBbirg==";
         };
+        _DBYYKdBf = {
+            "id" = "DBYYKdBf";
+            "file" = "intelligentvillagers-0.5.0.jar";
+            "hash" = "sha512-9Ed1odlruw9qNzhTlG2QFW3SvUfiyvhnEJ/ivveVbjP1koD1jOCnb88j7FYrAtxo1vpDHJKHwTUvqc4k0NV6Mw==";
+        };
     in {
         "6w46s4kp" = _6w46s4kp;
         "uVss2DmQ" = _uVss2DmQ;
@@ -134,7 +139,8 @@ let
         "4IqB857q" = _4IqB857q;
         "Qh2N9yGR" = _Qh2N9yGR;
         "dx8Qa6vc" = _dx8Qa6vc;
-        "neoforge-1.21.1" = _dx8Qa6vc;
+        "DBYYKdBf" = _DBYYKdBf;
+        "neoforge-1.21.1" = _DBYYKdBf;
         "pkg-6.0.0" = _6w46s4kp;
         "pkg-6.0.1" = _uVss2DmQ;
         "pkg-6.0.2" = _VSiJBvx0;
@@ -157,7 +163,8 @@ let
         "pkg-7.0.9" = _4IqB857q;
         "pkg-7.0.10" = _Qh2N9yGR;
         "pkg-7.0.11" = _dx8Qa6vc;
-        "default" = _dx8Qa6vc;
+        "pkg-8.0.1" = _DBYYKdBf;
+        "default" = _DBYYKdBf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nations-villagers-ai-reborn";

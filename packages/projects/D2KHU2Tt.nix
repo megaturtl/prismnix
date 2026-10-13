@@ -96,6 +96,11 @@ let
             "file" = "super-steve-6.10.5pr.jar";
             "hash" = "sha512-OZ2OX+rpDeXd8Em931SG/7F37r+2I6mA0rbTlS8EXLg8S8QNl6e2MvvNGuG6SUDS3/d++vRX5Nd7Rb4RkKH3ag==";
         };
+        _QmCye84l = {
+            "id" = "QmCye84l";
+            "file" = "super-steve-6.10.12f.jar";
+            "hash" = "sha512-1QWbIC5WjLzD9UY+KyEb50UerHiywjYxUJVp6FR765SyBkYOfJed6P8wV3aZ7ti+JnRhbMz/MJCquZlHpzpSsQ==";
+        };
     in {
         "ao3sgjAd" = _ao3sgjAd;
         "5eq2Jeh8" = _5eq2Jeh8;
@@ -116,7 +121,8 @@ let
         "7xgnnc6o" = _7xgnnc6o;
         "ksjk9iSR" = _ksjk9iSR;
         "iCM7iOFn" = _iCM7iOFn;
-        "forge-1.20.1" = _iCM7iOFn;
+        "QmCye84l" = _QmCye84l;
+        "forge-1.20.1" = _QmCye84l;
         "pkg-6.7.9" = _ao3sgjAd;
         "pkg-6.7.9f" = _5eq2Jeh8;
         "pkg-6.7.9ff" = _d9w16vvU;
@@ -136,7 +142,8 @@ let
         "pkg-6.9.16p" = _7xgnnc6o;
         "pkg-6.9.16pp" = _ksjk9iSR;
         "pkg-6.10.5pr" = _iCM7iOFn;
-        "default" = _iCM7iOFn;
+        "pkg-6.10.12f" = _QmCye84l;
+        "default" = _QmCye84l;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "supersteve";

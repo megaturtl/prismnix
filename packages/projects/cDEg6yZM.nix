@@ -26,12 +26,18 @@ let
             "file" = "ASTERA 3D PICKAXE 0.6.zip";
             "hash" = "sha512-w2ifk2qW6QW0OBKunceIPmFBqprQgcTbyNJywL1CIvdZ4YoamYD4EWYmGXhVqh/n7e2XNsse4jJndkUCU1Ra+A==";
         };
+        _ixcwkrVO = {
+            "id" = "ixcwkrVO";
+            "file" = "ASTERA 3D PICKAXE 2.6.zip";
+            "hash" = "sha512-ibRfAPtDJxUhTqw9iZ4TNXgvFlIfKDXmqYPbUUp2kNIvvJAua5S9CSfeczKHuzsvdtWkSORLN+5kEaxEvokZPw==";
+        };
     in {
         "EGOhpsxB" = _EGOhpsxB;
         "c4svScrq" = _c4svScrq;
         "fDiN5oS6" = _fDiN5oS6;
         "IptKZLot" = _IptKZLot;
         "GoSnLHMc" = _GoSnLHMc;
+        "ixcwkrVO" = _ixcwkrVO;
         "minecraft-1.21" = _GoSnLHMc;
         "minecraft-1.21.1" = _GoSnLHMc;
         "minecraft-1.21.2" = _GoSnLHMc;
@@ -41,20 +47,21 @@ let
         "minecraft-1.21.6" = _GoSnLHMc;
         "minecraft-1.21.7" = _GoSnLHMc;
         "minecraft-1.21.8" = _GoSnLHMc;
-        "minecraft-1.21.9" = _GoSnLHMc;
-        "minecraft-1.21.10" = _GoSnLHMc;
-        "minecraft-1.21.11" = _GoSnLHMc;
-        "minecraft-26.1" = _GoSnLHMc;
-        "minecraft-26.1.1" = _GoSnLHMc;
-        "minecraft-26.1.2" = _GoSnLHMc;
-        "minecraft-26.2" = _GoSnLHMc;
-        "minecraft-26.3" = _GoSnLHMc;
+        "minecraft-1.21.9" = _ixcwkrVO;
+        "minecraft-1.21.10" = _ixcwkrVO;
+        "minecraft-1.21.11" = _ixcwkrVO;
+        "minecraft-26.1" = _ixcwkrVO;
+        "minecraft-26.1.1" = _ixcwkrVO;
+        "minecraft-26.1.2" = _ixcwkrVO;
+        "minecraft-26.2" = _ixcwkrVO;
+        "minecraft-26.3" = _ixcwkrVO;
         "pkg-0.1" = _EGOhpsxB;
         "pkg-0.3" = _c4svScrq;
         "pkg-0.4" = _fDiN5oS6;
         "pkg-0.5" = _IptKZLot;
         "pkg-1.6" = _GoSnLHMc;
-        "default" = _GoSnLHMc;
+        "pkg-2.6" = _ixcwkrVO;
+        "default" = _ixcwkrVO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "astera-pickaxe";

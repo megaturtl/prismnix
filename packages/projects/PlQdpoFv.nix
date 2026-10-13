@@ -321,6 +321,11 @@ let
             "file" = "Milkman Datapack V4.1 1.21.11.zip";
             "hash" = "sha512-GKGoQJhsBAUabZZX2uQXHdKS+rljSyoVojEtSDtbNTwb4K0jdf2eYB4rkd/zZRNG3hVpHr+gJg0A4AjbsSzsLQ==";
         };
+        _a0GpmDgk = {
+            "id" = "a0GpmDgk";
+            "file" = "Milkman Datapack V4.2 1.21.11.zip";
+            "hash" = "sha512-nEc2LqxpJ1CO5xszDwVDUGFpo6ZDT5u2FZUKob3CnYD1SbMGTdrwRUMHZ8n85FuRHx7jzTwDzTyG7j2jJz+LNg==";
+        };
     in {
         "ehRzD6DN" = _ehRzD6DN;
         "BhtXdAct" = _BhtXdAct;
@@ -386,6 +391,7 @@ let
         "PYgc8Ffg" = _PYgc8Ffg;
         "b1BBbfsl" = _b1BBbfsl;
         "YNE42n3V" = _YNE42n3V;
+        "a0GpmDgk" = _a0GpmDgk;
         "fabric-1.21" = _lSJ723yS;
         "fabric-1.21.1" = _lSJ723yS;
         "fabric-1.21.2" = _jyyqLCQh;
@@ -417,7 +423,7 @@ let
         "datapack-1.21.4" = _RdBqqiGR;
         "datapack-1.21.5" = _FeBvbFCX;
         "datapack-1.21.8" = _PYgc8Ffg;
-        "datapack-1.21.11" = _YNE42n3V;
+        "datapack-1.21.11" = _a0GpmDgk;
         "pkg-1.0" = _BhtXdAct;
         "pkg-1.1" = _hOm1dWoX;
         "pkg-1.2" = _rmxU4lvO;
@@ -436,7 +442,8 @@ let
         "pkg-V3.0" = _PYgc8Ffg;
         "pkg-4.0" = _b1BBbfsl;
         "pkg-4.1" = _YNE42n3V;
-        "default" = _YNE42n3V;
+        "pkg-4.2" = _a0GpmDgk;
+        "default" = _a0GpmDgk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wandering-murder";

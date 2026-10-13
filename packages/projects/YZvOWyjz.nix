@@ -46,6 +46,16 @@ let
             "file" = "eternal_nights-1.8.0-fabric-1.21.8.jar";
             "hash" = "sha512-Sjt4WWC42wkbZlfcNA+/ZIi9ykmnaF+CtGPkPUc22lGG4ImsJhr6Y0CXC+/g2WbkaVj25hZwnFuRrmZXRMublw==";
         };
+        _oDe232kA = {
+            "id" = "oDe232kA";
+            "file" = "eternal_nights-1.9.0-neoforge-26.1.2.jar";
+            "hash" = "sha512-9hgksRMyl2MEIbPU3zxs+ehCYZVshwHa7zIPzQ31mQFpIWeSc8ckTgvqpLbNDdlXzq/Voy0iBN/pQpyFBpC9Ag==";
+        };
+        _7sVCxRPY = {
+            "id" = "7sVCxRPY";
+            "file" = "eternal_nights-1.9.0-fabric-26.1.2.jar";
+            "hash" = "sha512-6+TI150L00Tb6ql4k4Db9wBnAzIgcATWt/9ACbCPIvudf3LuCMpDnaamuibPJKiYqiapS1Lpl8cFP+fkmqLuTA==";
+        };
     in {
         "S5xbKxfo" = _S5xbKxfo;
         "emVEcMVI" = _emVEcMVI;
@@ -56,6 +66,8 @@ let
         "wXD06rRX" = _wXD06rRX;
         "KGQgF431" = _KGQgF431;
         "Tq6zTfoz" = _Tq6zTfoz;
+        "oDe232kA" = _oDe232kA;
+        "7sVCxRPY" = _7sVCxRPY;
         "forge-1.16.5" = _S5xbKxfo;
         "forge-1.18.2" = _emVEcMVI;
         "forge-1.19.2" = _xjTfDZdI;
@@ -67,7 +79,9 @@ let
         "neoforge-1.21.4" = _C8mWmq1b;
         "neoforge-1.21.5" = _wXD06rRX;
         "neoforge-1.21.8" = _KGQgF431;
+        "neoforge-26.1.2" = _oDe232kA;
         "fabric-1.21.8" = _Tq6zTfoz;
+        "fabric-26.1.2" = _7sVCxRPY;
         "pkg-1.0.0" = _S5xbKxfo;
         "pkg-1.1.0" = _emVEcMVI;
         "pkg-1.2.0" = _xjTfDZdI;
@@ -76,7 +90,8 @@ let
         "pkg-1.6.0" = _C8mWmq1b;
         "pkg-1.7.0" = _wXD06rRX;
         "pkg-1.8.0" = _Tq6zTfoz;
-        "default" = _Tq6zTfoz;
+        "pkg-1.9.0" = _7sVCxRPY;
+        "default" = _7sVCxRPY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "eternal-nights";

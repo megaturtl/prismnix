@@ -36,6 +36,16 @@ let
             "file" = "mobends-1.20.1-5.6-forge.jar";
             "hash" = "sha512-PVR4j0D+RJANWB65Eq/m+CRyB9IYe22iKKp4bkEj110JjTGVZLYD2B1lgEaQybPfzZKekFXS7DXoS14eLDVoaw==";
         };
+        _2gqo8BPB = {
+            "id" = "2gqo8BPB";
+            "file" = "mobends-1.20.1-5.6.1-forge.jar";
+            "hash" = "sha512-f6zPH9L03QolZ6bOfWonqRMYUQkvXF0D0mQex0c1cR9jr51CFEVYZT2gcMGwEbetmctn0Dl4AImhyozsuQzUAQ==";
+        };
+        _ILtpSmzu = {
+            "id" = "ILtpSmzu";
+            "file" = "mobends-1.21.1-5.6.1-neoforge.jar";
+            "hash" = "sha512-btawImQXYLRic7Pp/n2qHQmDiUBWST6FIz7lK0G4jMwdiCOD45oxr9cgbUA+73QV9wAmf2fPRGy13HPa8ckoQw==";
+        };
     in {
         "kLZJgQo4" = _kLZJgQo4;
         "c6ukT3i0" = _c6ukT3i0;
@@ -44,15 +54,18 @@ let
         "dmQsTQRb" = _dmQsTQRb;
         "ts53zFVC" = _ts53zFVC;
         "aMKHQj4A" = _aMKHQj4A;
-        "forge-1.20.1" = _aMKHQj4A;
-        "neoforge-1.21.1" = _ts53zFVC;
+        "2gqo8BPB" = _2gqo8BPB;
+        "ILtpSmzu" = _ILtpSmzu;
+        "forge-1.20.1" = _2gqo8BPB;
+        "neoforge-1.21.1" = _ILtpSmzu;
         "pkg-3.0.1" = _kLZJgQo4;
         "pkg-3.0.0" = _c6ukT3i0;
         "pkg-4.0.0" = _B9Z2m8HK;
         "pkg-1.20.1-5.1.5" = _M0l996e0;
         "pkg-1.21.1-5.1.5" = _dmQsTQRb;
         "pkg-5.6" = _aMKHQj4A;
-        "default" = _aMKHQj4A;
+        "pkg-5.6.1" = _ILtpSmzu;
+        "default" = _ILtpSmzu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mo-bends-unofficial-modern-port";

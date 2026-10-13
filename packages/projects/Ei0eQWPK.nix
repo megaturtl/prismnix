@@ -91,6 +91,31 @@ let
             "file" = "fabric-0.3.1+26.2.jar";
             "hash" = "sha512-iPwmSIIY5yOJSBOxsTXepVUt4MWe5F58LXGj8ugrA6LIlyDDrZbSizrE3+cdQ3+aADVNb5Oet6CJR0ODcHKdFg==";
         };
+        _iSeTtgNF = {
+            "id" = "iSeTtgNF";
+            "file" = "fabric-0.4.0+1.21.11.jar";
+            "hash" = "sha512-m2YSEgMldr519Xs1tzdYKUffHB8R8YBjkSJiregb0QGY6tFAL+p8n6EoP5MMUnsyL3e9GMHxSVQZqvHWC//mJg==";
+        };
+        _Nx9jVL6d = {
+            "id" = "Nx9jVL6d";
+            "file" = "fabric-0.4.0+26.1.jar";
+            "hash" = "sha512-gTgsp/rvTQ7Y9Y1IDj7eMqU2rcpXQ7Lu9HsORThEwtYh9tY7g1sOYJfxhNieQo8jO9cQmRpQPkeUJQvmx4BjsA==";
+        };
+        _2a0xDYAk = {
+            "id" = "2a0xDYAk";
+            "file" = "fabric-0.4.0+26.2.jar";
+            "hash" = "sha512-b4P3H/rSF0A5ma3O2BnEAqfSYjLzP9epNPOejUUVx7kc9JLyml/WgeL7/UbATxi+2p9RfVfm2DpC0j5lLqQNFg==";
+        };
+        _mgmT0hnw = {
+            "id" = "mgmT0hnw";
+            "file" = "fabric-0.4.0+26.3.jar";
+            "hash" = "sha512-JzLzkCs3Jn4Bv+url1I1itNyRTLwq4XVNm1PM8+qa9TnJjhVNlsVkxMGckM1DMVaD6wCM+abEbFRIIB48wNDkA==";
+        };
+        _1wRxfNDC = {
+            "id" = "1wRxfNDC";
+            "file" = "fabric-0.4.1+26.3.jar";
+            "hash" = "sha512-xuYD1skGRdezUASVYR+JqJCzfBtXv/uQwpSeXVO4kHt9BPL0rj6hqDvjzeBGYsVsx/PpowfV4+NiojgG7nbFYg==";
+        };
     in {
         "P4tS0rgE" = _P4tS0rgE;
         "ykjrAXT6" = _ykjrAXT6;
@@ -110,14 +135,20 @@ let
         "bLUlEH57" = _bLUlEH57;
         "fanHhdEw" = _fanHhdEw;
         "FekulLWd" = _FekulLWd;
+        "iSeTtgNF" = _iSeTtgNF;
+        "Nx9jVL6d" = _Nx9jVL6d;
+        "2a0xDYAk" = _2a0xDYAk;
+        "mgmT0hnw" = _mgmT0hnw;
+        "1wRxfNDC" = _1wRxfNDC;
         "fabric-1.21.10" = _rEM7hCHt;
         "fabric-1.21.9" = _rEM7hCHt;
-        "fabric-1.21.11" = _bLUlEH57;
+        "fabric-1.21.11" = _iSeTtgNF;
         "fabric-1.21.8" = _Aug6kaV4;
-        "fabric-26.1" = _fanHhdEw;
-        "fabric-26.1.1" = _fanHhdEw;
-        "fabric-26.1.2" = _fanHhdEw;
-        "fabric-26.2" = _FekulLWd;
+        "fabric-26.1" = _Nx9jVL6d;
+        "fabric-26.1.1" = _Nx9jVL6d;
+        "fabric-26.1.2" = _Nx9jVL6d;
+        "fabric-26.2" = _2a0xDYAk;
+        "fabric-26.3" = _1wRxfNDC;
         "pkg-fabric-0.1.0+alpha" = _P4tS0rgE;
         "pkg-fabric-1.21.10-0.1.2+beta" = _ykjrAXT6;
         "pkg-fabric-1.21.11-0.1.3+beta" = _EzFYSaEs;
@@ -136,7 +167,12 @@ let
         "pkg-fabric-0.3.1+1.21.11" = _bLUlEH57;
         "pkg-fabric-0.3.1+26.1.x" = _fanHhdEw;
         "pkg-fabric-0.3.1+26.2" = _FekulLWd;
-        "default" = _FekulLWd;
+        "pkg-fabric-0.4.0+1.21.11" = _iSeTtgNF;
+        "pkg-fabric-0.4.0+26.1.x" = _Nx9jVL6d;
+        "pkg-fabric-0.4.0+26.2" = _2a0xDYAk;
+        "pkg-fabric-0.4.0+26.3" = _mgmT0hnw;
+        "pkg-fabric-0.4.1+26.3" = _1wRxfNDC;
+        "default" = _1wRxfNDC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-voice-chat-soundboard";

@@ -41,6 +41,16 @@ let
             "file" = "kevs_projectile_immunity_fix-neoforge-1.0.8.jar";
             "hash" = "sha512-wElkoOdyCRdwbbe302QKD9ijVvMIMXPj+r0JKo3RB1ynseS4S9FBSblVDf5gW+yj+ASe3JRyrMtR0yattyTm9A==";
         };
+        _nRXHAVQZ = {
+            "id" = "nRXHAVQZ";
+            "file" = "kevs_projectile_immunity_fix-fabric-1.0.9.jar";
+            "hash" = "sha512-NU8uv9tz6apNC+umbDzoS4mVrxAGlE+hOsyj+oRhlS7kH25FYjLX+oM0502LIW0CYznTwau6eBxxLeLU7egQKw==";
+        };
+        _6oLS4iie = {
+            "id" = "6oLS4iie";
+            "file" = "kevs_projectile_immunity_fix-neoforge-1.0.9.jar";
+            "hash" = "sha512-sRoiM7MYg5eZTc05IQVhyCkevmc7zF4xPqO/yEeHavZhK8bSRFqp/0sh3cFz0nIzu/Ezx3WR3xJ/G8Cgrq15Eg==";
+        };
     in {
         "14BAuy0L" = _14BAuy0L;
         "kxovHtUY" = _kxovHtUY;
@@ -50,14 +60,17 @@ let
         "33Tu3w3M" = _33Tu3w3M;
         "eKYZBWJS" = _eKYZBWJS;
         "4cVFQYbR" = _4cVFQYbR;
-        "fabric-1.21.1" = _eKYZBWJS;
-        "neoforge-1.21.1" = _4cVFQYbR;
+        "nRXHAVQZ" = _nRXHAVQZ;
+        "6oLS4iie" = _6oLS4iie;
+        "fabric-1.21.1" = _nRXHAVQZ;
+        "neoforge-1.21.1" = _6oLS4iie;
         "pkg-1.0.0" = _14BAuy0L;
         "pkg-1.0.5" = _kxovHtUY;
         "pkg-1.0.6" = _LWoYWjcL;
         "pkg-1.0.7" = _33Tu3w3M;
         "pkg-1.0.8" = _4cVFQYbR;
-        "default" = _4cVFQYbR;
+        "pkg-1.0.9" = _6oLS4iie;
+        "default" = _6oLS4iie;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kevs-projectile-immunity-fix";

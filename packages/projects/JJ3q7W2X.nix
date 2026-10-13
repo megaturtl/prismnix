@@ -771,6 +771,11 @@ let
             "file" = "ezvcsurvival-2.2.0-a-fabric.jar";
             "hash" = "sha512-pzf5XdZYhYP8o/n2Z03xDl2lftG3kVpuVogD0ZI1HFgPug3mO1M36tOPLXHV3W/YbA7SNR88ssxRp0NNhjiqVA==";
         };
+        _FMVpeoJ4 = {
+            "id" = "FMVpeoJ4";
+            "file" = "ezvcsurvival-3.0.0-fabric.jar";
+            "hash" = "sha512-uPYg2/jmDHX4XaB0rdJMwQishnJFcfYJK74d51F2wWdCu3Ly+LOaHGiblMTS2h3rSXDFdffApoOdn7h9L6QvOQ==";
+        };
     in {
         "uXiVUrxU" = _uXiVUrxU;
         "tqOsvfxr" = _tqOsvfxr;
@@ -926,6 +931,7 @@ let
         "bnSt8oKg" = _bnSt8oKg;
         "JmohmNXL" = _JmohmNXL;
         "IMUL5hhP" = _IMUL5hhP;
+        "FMVpeoJ4" = _FMVpeoJ4;
         "forge-1.20.1" = _bnSt8oKg;
         "forge-1.18.2" = _VSqwELfl;
         "forge-1.19.2" = _39PN9pzY;
@@ -947,6 +953,7 @@ let
         "fabric-1.21.4" = _kS0UM7ZD;
         "fabric-1.21.8" = _kRoKX9Tz;
         "fabric-1.21.11" = _IMUL5hhP;
+        "fabric-26.1.2" = _FMVpeoJ4;
         "neoforge-1.21.1" = _4jrtfbBA;
         "neoforge-1.21.4" = _dkB4D7Lh;
         "neoforge-1.21.5" = _p3B4uBaS;
@@ -1109,7 +1116,8 @@ let
         "pkg-1.20.1-2.2.0-forge" = _bnSt8oKg;
         "pkg-2.2.0-fabric" = _JmohmNXL;
         "pkg-2.2.0-a-fabric" = _IMUL5hhP;
-        "default" = _IMUL5hhP;
+        "pkg-3.0.0-fabric" = _FMVpeoJ4;
+        "default" = _FMVpeoJ4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "voiceless-survival";

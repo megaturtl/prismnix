@@ -111,6 +111,11 @@ let
             "file" = "PrettyPipes-1.22.0-all.jar";
             "hash" = "sha512-xrC3D80krL2efEeIeoHA1ctkmk6C37cVnRpbRH5BlTk5ZYTSYPzl1ii3dq2dlTozdmnLJL8Jl4t8i17shuaeDQ==";
         };
+        _PJOPj4Jz = {
+            "id" = "PJOPj4Jz";
+            "file" = "PrettyPipes-1.22.1-all.jar";
+            "hash" = "sha512-fjPcyM+Llpsgmy4LwDK2p0dM7z/eVGZb+sZ/snwDwybvZGlWZY/1x3MX70Pc+1WHeczJsY62nwa3bY0Svp8+Sw==";
+        };
     in {
         "fWrVbGRN" = _fWrVbGRN;
         "k34E6ifa" = _k34E6ifa;
@@ -134,6 +139,7 @@ let
         "wboQrdtH" = _wboQrdtH;
         "L3hOC6xW" = _L3hOC6xW;
         "lrhbGGSe" = _lrhbGGSe;
+        "PJOPj4Jz" = _PJOPj4Jz;
         "forge-1.19.2" = _fWrVbGRN;
         "forge-1.16.3" = _k34E6ifa;
         "forge-1.16.4" = _k34E6ifa;
@@ -142,7 +148,7 @@ let
         "forge-1.20.1" = _LqsTdtjN;
         "neoforge-1.20.1" = _LqsTdtjN;
         "neoforge-1.20.4" = _JSbh9eTX;
-        "neoforge-1.21.1" = _lrhbGGSe;
+        "neoforge-1.21.1" = _PJOPj4Jz;
         "pkg-1.13.6" = _fWrVbGRN;
         "pkg-1.9.8" = _k34E6ifa;
         "pkg-1.12.8" = _xu8G2q6R;
@@ -165,7 +171,8 @@ let
         "pkg-1.21.1" = _wboQrdtH;
         "pkg-1.21.2" = _L3hOC6xW;
         "pkg-1.22.0" = _lrhbGGSe;
-        "default" = _lrhbGGSe;
+        "pkg-1.22.1" = _PJOPj4Jz;
+        "default" = _PJOPj4Jz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pretty-pipes";

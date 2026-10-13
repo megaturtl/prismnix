@@ -216,6 +216,11 @@ let
             "file" = "test-4-colorlight-26.3-0.2.5.jar";
             "hash" = "sha512-/uH/czivt52uynM34GqbwOHP/QjIRuXHxuLpZa1+Aen4xk4pXDX3mvaC1nkaznICBkIxatY2lS5mbZG804Gv4Q==";
         };
+        _5VQjSq5g = {
+            "id" = "5VQjSq5g";
+            "file" = "test-5-colorlight-26.3-0.2.5.jar";
+            "hash" = "sha512-btUlUL1ypKylJD091rICcLA3rw61d5Jmoq3jeETV1o5hLcU2/V1G4W39BngtAt+K2tJOQLM1BP2Cy8qLF814qQ==";
+        };
     in {
         "xxH0Rw9n" = _xxH0Rw9n;
         "nQlysvms" = _nQlysvms;
@@ -260,13 +265,14 @@ let
         "jx9axvQ0" = _jx9axvQ0;
         "78SGXvwo" = _78SGXvwo;
         "1cHHubTg" = _1cHHubTg;
+        "5VQjSq5g" = _5VQjSq5g;
         "fabric-1.21.1" = _ietC4nXt;
         "fabric-1.21.11" = _DXKXL9Cs;
         "fabric-26.1" = _rWNmb0y7;
         "fabric-26.1.1" = _rWNmb0y7;
         "fabric-26.1.2" = _rWNmb0y7;
         "fabric-26.2" = _A2HA0lvw;
-        "fabric-26.3" = _1cHHubTg;
+        "fabric-26.3" = _5VQjSq5g;
         "pkg-ColorLight-0.0.1-log" = _xxH0Rw9n;
         "pkg-ColorLight-0.0.2-log" = _nQlysvms;
         "pkg-ColorLight-0.0.3" = _psgxbsSE;
@@ -309,7 +315,8 @@ let
         "pkg-ColorLight-26.3-0.2.5-beta.2" = _jx9axvQ0;
         "pkg-ColorLight-26.3-0.2.5-beta.3" = _78SGXvwo;
         "pkg-ColorLight-26.3-0.2.5-beta.4" = _1cHHubTg;
-        "default" = _1cHHubTg;
+        "pkg-ColorLight-26.3-0.2.5-beta.5" = _5VQjSq5g;
+        "default" = _5VQjSq5g;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "colorlight";

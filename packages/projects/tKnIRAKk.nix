@@ -621,6 +621,31 @@ let
             "file" = "AFKStation-7.5.0-Fabric+mc1.16.jar";
             "hash" = "sha512-cArjne6LuwfmDhTWOJt/MxPh76oOarmjpYlbzTYqQQ2vTF0u0B72IkzrKnekikbj+ZA+cf0ZTB2KgoIYgnNI9g==";
         };
+        _bu9CZTzj = {
+            "id" = "bu9CZTzj";
+            "file" = "AFKStation-7.5.0-Fabric+mc26.3.jar";
+            "hash" = "sha512-GMNBw8LKrbS3vWU6bJ48M3VPlOjdNqFdenbeWL5gU3T5vCCEP6FKxE6jxfBgOw3WFTqysDiOlzFto/IwqBUyGw==";
+        };
+        _IrgisNQQ = {
+            "id" = "IrgisNQQ";
+            "file" = "AFKStation-7.5.1-Fabric+mc26.3.jar";
+            "hash" = "sha512-q3GBMGo3I4mfdQv8+jTcspa3lEPee6s+eoGzeJhaq4qBrTzZfV4tSmjiFWkkiApGKWchEUPav8vUoM2XRJF4vg==";
+        };
+        _Nt9e1dtr = {
+            "id" = "Nt9e1dtr";
+            "file" = "AFKStation-7.5.1-NeoForge+mc26.3.jar";
+            "hash" = "sha512-dHXHNdQUW/Z9kudGfYw88To3pacAapShm7Sxsb3mD30p/rqLkUM5nJ3ir6sCMXB3YJrsFXaQGgKvo7S5q5A36Q==";
+        };
+        _kUviPT9s = {
+            "id" = "kUviPT9s";
+            "file" = "AFKStation-7.5.1-Forge+mc26.3.jar";
+            "hash" = "sha512-+na6b+r1CC/bAdIq9PH9zhGAHtyKbtvSA9ACYxgbf3qkStJVW16zTlQFGO/kau3cdtmchya1kSbAiuFk2a/jQQ==";
+        };
+        _T5sNSdEd = {
+            "id" = "T5sNSdEd";
+            "file" = "AFKStation-7.5.1-Quilt+mc26.3.jar";
+            "hash" = "sha512-el9Ew2islg5aD73Qv56Xi7Hpgy2xr6eUHlOqDmhYmKTRUMGB6tn7LXxphFg/QsMVyPNaCoOXS21sVPUMS8n17w==";
+        };
     in {
         "9ovMhL7f" = _9ovMhL7f;
         "Sd3Ilx6V" = _Sd3Ilx6V;
@@ -746,6 +771,11 @@ let
         "8axs7lAY" = _8axs7lAY;
         "7rsQn0Du" = _7rsQn0Du;
         "Adrms9au" = _Adrms9au;
+        "bu9CZTzj" = _bu9CZTzj;
+        "IrgisNQQ" = _IrgisNQQ;
+        "Nt9e1dtr" = _Nt9e1dtr;
+        "kUviPT9s" = _kUviPT9s;
+        "T5sNSdEd" = _T5sNSdEd;
         "fabric-1.21.10" = _29q0WGUy;
         "fabric-1.21.11" = _D8LYtlj0;
         "fabric-1.21.9" = _NVvDaj5N;
@@ -785,10 +815,12 @@ let
         "fabric-1.16.2" = _8axs7lAY;
         "fabric-1.16.1" = _7rsQn0Du;
         "fabric-1.16" = _Adrms9au;
+        "fabric-26.3" = _IrgisNQQ;
         "forge-1.21.11" = _kiMak6nN;
         "forge-1.21.10" = _WXZZvfOs;
         "forge-1.21.8" = _ugUNYkWl;
         "forge-1.21.1" = _8jYIJPS0;
+        "forge-26.3" = _kUviPT9s;
         "neoforge-1.21.11" = _gbQkpQsu;
         "neoforge-26.2" = _aUOcEUqO;
         "neoforge-26.1.2" = _HitnyESY;
@@ -808,6 +840,8 @@ let
         "neoforge-1.20.6" = _NSCQ1Rid;
         "neoforge-1.20.5" = _csdm7ch4;
         "neoforge-1.20.4" = _clmK6DP2;
+        "neoforge-26.3" = _Nt9e1dtr;
+        "quilt-26.3" = _T5sNSdEd;
         "pkg-Fabric-1.0.0-mc1.21.10" = _9ovMhL7f;
         "pkg-Fabric-2.0.0-mc1.21.11" = _Sd3Ilx6V;
         "pkg-Fabric-3.0.0-mc1.21.11" = _x9RD3auY;
@@ -846,8 +880,9 @@ let
         "pkg-6.0.0" = _clmK6DP2;
         "pkg-7.0.0" = _JWhysrIG;
         "pkg-7.3.0" = _RSmLdpBA;
-        "pkg-7.5.0" = _Adrms9au;
-        "default" = _Adrms9au;
+        "pkg-7.5.0" = _bu9CZTzj;
+        "pkg-7.5.1" = _T5sNSdEd;
+        "default" = _T5sNSdEd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "afkstation";

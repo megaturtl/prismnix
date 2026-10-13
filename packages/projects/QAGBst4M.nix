@@ -3346,6 +3346,56 @@ let
             "file" = "PuzzlesLib-v8.1.35-1.20.1-Fabric.jar";
             "hash" = "sha512-iuOQA+6GrB8SR3Uff0QuKPt9iMkSYXzbm9uVuJXU0GzaeybqStaU3eDCTfalUB94sO4w5D4Dd3rh/9wkEgmwIQ==";
         };
+        _i2j6QO0v = {
+            "id" = "i2j6QO0v";
+            "file" = "puzzleslib-v26.3.14-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-HNIRv3oVA3vceFrfrKLMi9EfiLLbkTtn9VSyynzrvn8j52erSc/L6cgSn2mzF/mO1Pdud3MNoO4xNDe8LGTKKA==";
+        };
+        _7SSd41Tf = {
+            "id" = "7SSd41Tf";
+            "file" = "puzzleslib-v26.3.14-mc26.3.x+fabric.jar";
+            "hash" = "sha512-SKmneowLs6CqBzjRo2w6GF1WFJTZz+vSMZnwZD1Vf9xFcQc82XSvKmrYG3ybOB1bG6+cEkk4ASOs7Hr5mn0Nmg==";
+        };
+        _cPeqCZKe = {
+            "id" = "cPeqCZKe";
+            "file" = "puzzleslib-v26.1.16-mc26.1.x+fabric.jar";
+            "hash" = "sha512-3dWxEO6l02gsN5l8iy60VQLeS+YlWIK0SWahr06l7eWey64bkVRlkEbpxCmZSvbnqlWK2ht5Z4IXeRMBVoUXxA==";
+        };
+        _ntQknrEC = {
+            "id" = "ntQknrEC";
+            "file" = "puzzleslib-v26.1.16-mc26.1.x+neoforge.jar";
+            "hash" = "sha512-c/iPaiVxKm0RtPRd3tUnIadVNIv5MlJbKn0/+ErepGWUYPIdqIiU1p31Qah6B5xGfUbGkgprdwFse0zGdBdV+g==";
+        };
+        _lATqZwtV = {
+            "id" = "lATqZwtV";
+            "file" = "puzzleslib-v21.1.64-mc1.21.1+neoforge.jar";
+            "hash" = "sha512-9g7Pyf7fnGlniRAkcRORq9xv+0XAkDDyIem/BhpamTI6YSzs8Zr0sNhrej3UxJ8nPiqbLSthu8hn+F2fMDT1tw==";
+        };
+        _SOu6522s = {
+            "id" = "SOu6522s";
+            "file" = "puzzleslib-v21.1.64-mc1.21.1+fabric.jar";
+            "hash" = "sha512-IzIdTf3J8mCDpgBgdLoVHy28LoxzHXnyRfZUYiHYAseA29RYJMrov4XGW2+miQuKpzZpit5GkyooH/Ny91MJ5g==";
+        };
+        _hOfDHA4g = {
+            "id" = "hOfDHA4g";
+            "file" = "PuzzlesLib-v8.1.36-1.20.1-Forge.jar";
+            "hash" = "sha512-Iyx8BSwy0Hu7naoC4W6rP/RdQc+RSI3KeeCZllyzOYOwlVTHWMfg3wUWwzqTJ4gAaM6xZ+0/DfYNWQWIqtVdmQ==";
+        };
+        _QSW0oJPl = {
+            "id" = "QSW0oJPl";
+            "file" = "PuzzlesLib-v8.1.36-1.20.1-Fabric.jar";
+            "hash" = "sha512-Pwa+aGWwS+CRZZP1b5ilKWlyG06gWXUr55KuCEQgG8Id+QDgBinYJtGlV0vuwuSwfRyzBLyjFnnQCkFlyBBBeA==";
+        };
+        _TXPuVSH3 = {
+            "id" = "TXPuVSH3";
+            "file" = "puzzleslib-v26.2.5-mc26.2.x+fabric.jar";
+            "hash" = "sha512-XiQ5JecXoYkamvypLrfuZhmqeUMk0V52FP7SsYTOo0aS1aispconieWOYUWeS0iu4wPKshGdTd49KkpGryBvZA==";
+        };
+        _XkWV0WSp = {
+            "id" = "XkWV0WSp";
+            "file" = "puzzleslib-v26.2.5-mc26.2.x+neoforge.jar";
+            "hash" = "sha512-ProFuAjuTWadxmcDK83/9kzBCyPpThFpu0al0UMXixTZkPKiBv+C1f97TxcETxmsvkAFce+XO+fygeFyB9zkzg==";
+        };
     in {
         "n3g4OsEQ" = _n3g4OsEQ;
         "4bHK0bos" = _4bHK0bos;
@@ -4016,6 +4066,16 @@ let
         "coQgVjky" = _coQgVjky;
         "lLgT9vDO" = _lLgT9vDO;
         "VqJzlg0K" = _VqJzlg0K;
+        "i2j6QO0v" = _i2j6QO0v;
+        "7SSd41Tf" = _7SSd41Tf;
+        "cPeqCZKe" = _cPeqCZKe;
+        "ntQknrEC" = _ntQknrEC;
+        "lATqZwtV" = _lATqZwtV;
+        "SOu6522s" = _SOu6522s;
+        "hOfDHA4g" = _hOfDHA4g;
+        "QSW0oJPl" = _QSW0oJPl;
+        "TXPuVSH3" = _TXPuVSH3;
+        "XkWV0WSp" = _XkWV0WSp;
         "forge-1.19" = _o5YLPKfR;
         "forge-1.19.1" = _iYV1Feh5;
         "forge-1.19.2" = _UbCrBSit;
@@ -4023,7 +4083,7 @@ let
         "forge-1.19.4" = _yP5oQ3Ak;
         "forge-1.18.2" = _IIordDD2;
         "forge-1.20" = _9Q6cCSz6;
-        "forge-1.20.1" = _lLgT9vDO;
+        "forge-1.20.1" = _hOfDHA4g;
         "forge-1.20.4" = _x0xYnYOV;
         "fabric-1.19" = _U7RPCAL4;
         "fabric-1.19.1" = _Ez5gkdlU;
@@ -4032,10 +4092,10 @@ let
         "fabric-1.19.4" = _Fnlslono;
         "fabric-1.18.2" = _miLZT25C;
         "fabric-1.20" = _UUEjLtmS;
-        "fabric-1.20.1" = _VqJzlg0K;
+        "fabric-1.20.1" = _QSW0oJPl;
         "fabric-1.20.4" = _PYkg1A3a;
         "fabric-1.21" = _a5KN1w1N;
-        "fabric-1.21.1" = _coQgVjky;
+        "fabric-1.21.1" = _SOu6522s;
         "fabric-1.21.3" = _vMKyNIOg;
         "fabric-1.21.4" = _s2SzGyZz;
         "fabric-1.21.5" = _25gaMibl;
@@ -4045,14 +4105,14 @@ let
         "fabric-1.21.9" = _ge8EV7hx;
         "fabric-1.21.10" = _HJGSxOtN;
         "fabric-1.21.11" = _xTX7sOwU;
-        "fabric-26.1" = _UlPkm617;
-        "fabric-26.1.1" = _UlPkm617;
-        "fabric-26.1.2" = _UlPkm617;
-        "fabric-26.2" = _aNOJuoCM;
-        "fabric-26.3" = _rINxzqi2;
+        "fabric-26.1" = _cPeqCZKe;
+        "fabric-26.1.1" = _cPeqCZKe;
+        "fabric-26.1.2" = _cPeqCZKe;
+        "fabric-26.2" = _TXPuVSH3;
+        "fabric-26.3" = _7SSd41Tf;
         "neoforge-1.20.4" = _U81E0ABr;
         "neoforge-1.21" = _X06v0OZx;
-        "neoforge-1.21.1" = _Rd8nOmlF;
+        "neoforge-1.21.1" = _lATqZwtV;
         "neoforge-1.21.3" = _CyRDUXp9;
         "neoforge-1.21.4" = _HOC9OUuE;
         "neoforge-1.21.5" = _b9thQ57Y;
@@ -4062,11 +4122,11 @@ let
         "neoforge-1.21.9" = _SOq2qjXe;
         "neoforge-1.21.10" = _cc5UQbCp;
         "neoforge-1.21.11" = _HOkyIMYP;
-        "neoforge-26.1" = _RTC7EJbD;
-        "neoforge-26.1.1" = _RTC7EJbD;
-        "neoforge-26.1.2" = _RTC7EJbD;
-        "neoforge-26.2" = _7Y7PIhiq;
-        "neoforge-26.3" = _oPuJsK34;
+        "neoforge-26.1" = _ntQknrEC;
+        "neoforge-26.1.1" = _ntQknrEC;
+        "neoforge-26.1.2" = _ntQknrEC;
+        "neoforge-26.2" = _XkWV0WSp;
+        "neoforge-26.3" = _i2j6QO0v;
         "pkg-v4.0.2-1.19-Forge" = _n3g4OsEQ;
         "pkg-v4.0.2-1.19-Fabric" = _4bHK0bos;
         "pkg-v4.0.5-1.19-Forge" = _Z3scKqNL;
@@ -4675,7 +4735,13 @@ let
         "pkg-21.1.63" = _coQgVjky;
         "pkg-8.1.35" = _lLgT9vDO;
         "pkg-v8.1.35-1.20.1-Fabric" = _VqJzlg0K;
-        "default" = _VqJzlg0K;
+        "pkg-26.3.14" = _7SSd41Tf;
+        "pkg-26.1.16" = _ntQknrEC;
+        "pkg-21.1.64" = _SOu6522s;
+        "pkg-8.1.36" = _hOfDHA4g;
+        "pkg-v8.1.36-1.20.1-Fabric" = _QSW0oJPl;
+        "pkg-26.2.5" = _XkWV0WSp;
+        "default" = _XkWV0WSp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "puzzles-lib";

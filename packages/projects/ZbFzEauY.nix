@@ -1111,6 +1111,11 @@ let
             "file" = "packedup-1.1.1-neoforge-mc26.3.jar";
             "hash" = "sha512-j91ailgprN5mwN35cGKfDiPs/gkUhVTa6uJrjiKjWLMneqbbwK2nF2nPCt3SYNwezhB+8EQL58gLimskK1e+4A==";
         };
+        _bgQ4Xuay = {
+            "id" = "bgQ4Xuay";
+            "file" = "packedup-1.1.1a-forge-mc1.12.jar";
+            "hash" = "sha512-wNpvPs6XpGKXmHG8jB+cv5Lk3QfQRmuCV2+OQ+3K8ctz+Mf1BVOw4rLW5K01Pd5cufXC40eLq3MrziIdUTJVZw==";
+        };
     in {
         "3zwOsAas" = _3zwOsAas;
         "dEKm4sgO" = _dEKm4sgO;
@@ -1334,9 +1339,10 @@ let
         "5R2eVPgh" = _5R2eVPgh;
         "SJBsTtNC" = _SJBsTtNC;
         "YyUqkLbk" = _YyUqkLbk;
-        "forge-1.12" = _FGcQSnqq;
-        "forge-1.12.1" = _FGcQSnqq;
-        "forge-1.12.2" = _FGcQSnqq;
+        "bgQ4Xuay" = _bgQ4Xuay;
+        "forge-1.12" = _bgQ4Xuay;
+        "forge-1.12.1" = _bgQ4Xuay;
+        "forge-1.12.2" = _bgQ4Xuay;
         "forge-1.14" = _55rxFtsc;
         "forge-1.14.1" = _55rxFtsc;
         "forge-1.14.2" = _55rxFtsc;
@@ -1714,7 +1720,8 @@ let
         "pkg-1.1.1a-neoforge-mc26.2" = _5R2eVPgh;
         "pkg-1.1.1-fabric-mc26.3" = _SJBsTtNC;
         "pkg-1.1.1-neoforge-mc26.3" = _YyUqkLbk;
-        "default" = _YyUqkLbk;
+        "pkg-1.1.1a-forge-mc1.12" = _bgQ4Xuay;
+        "default" = _bgQ4Xuay;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "packed-up-backpacks";

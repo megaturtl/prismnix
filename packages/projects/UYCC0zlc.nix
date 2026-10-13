@@ -36,6 +36,11 @@ let
             "file" = "RLFoliage-MC1.12-2.5.3.jar";
             "hash" = "sha512-qaCLNOGecXf5qPudiWDvS7MzI4sZYI1CT22MXT9WItuJR+IhNAgJo5rvMMGulKXijU0hNG1VjA/p55znzNwbJw==";
         };
+        _Ms6rSUve = {
+            "id" = "Ms6rSUve";
+            "file" = "RLFoliage-MC1.12-2.5.4.jar";
+            "hash" = "sha512-QibyeqRK4IRalz4sre6BcF7zweaF4/qVVhyuNsOTMtbfyhvIE6lFJK1uA6YlSKVVOyRV4CJ042GVyJMlVnCqxw==";
+        };
     in {
         "Cgqga6UD" = _Cgqga6UD;
         "Lf9FYnqS" = _Lf9FYnqS;
@@ -44,7 +49,8 @@ let
         "A9blgHz0" = _A9blgHz0;
         "alWD9FbU" = _alWD9FbU;
         "tZLrYypk" = _tZLrYypk;
-        "forge-1.12.2" = _tZLrYypk;
+        "Ms6rSUve" = _Ms6rSUve;
+        "forge-1.12.2" = _Ms6rSUve;
         "pkg-2.4.0" = _Cgqga6UD;
         "pkg-2.4.1" = _Lf9FYnqS;
         "pkg-2.4.2" = _xExQqEQl;
@@ -52,7 +58,8 @@ let
         "pkg-2.5.1" = _A9blgHz0;
         "pkg-2.5.2" = _alWD9FbU;
         "pkg-2.5.3" = _tZLrYypk;
-        "default" = _tZLrYypk;
+        "pkg-2.5.4" = _Ms6rSUve;
+        "default" = _Ms6rSUve;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rlfoliage";

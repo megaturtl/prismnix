@@ -101,6 +101,16 @@ let
             "file" = "holobuilder-neoforge-26.2-0.1.5.jar";
             "hash" = "sha512-ceAcmtMsm2mV1A4Uy8/j3QogjK8R2zKooDRzy33VZiRI+o6B2FujrtIB7KyNvPvFfqfC/SFIWIfzMqWgh2LrRg==";
         };
+        _zVfp2zNw = {
+            "id" = "zVfp2zNw";
+            "file" = "holobuilder-fabric-1.21.11-0.1.5-1.jar";
+            "hash" = "sha512-CCPCfqB1JEMdvWrIjIJec0JsUgUQ+XY1TADfNWitxcYHvBjNHcpJMufyK1WiQnfFYG3dxgYTu4i+FtwmAlkd8g==";
+        };
+        _kv1oAQvb = {
+            "id" = "kv1oAQvb";
+            "file" = "holobuilder-neoforge-1.21.11-0.1.5-1.jar";
+            "hash" = "sha512-y26+HW/oCTLOs48viarFbnPDWUvrsTmglI5dOQ2An5sVZcsU1fsu7e3MtrZqmxUoxLXAvy0XIkmXW9yMon6cAA==";
+        };
     in {
         "GR8mwRCM" = _GR8mwRCM;
         "Umf6OG1r" = _Umf6OG1r;
@@ -122,17 +132,19 @@ let
         "dbAipu5x" = _dbAipu5x;
         "ry1VFfAn" = _ry1VFfAn;
         "NnwBYmo9" = _NnwBYmo9;
+        "zVfp2zNw" = _zVfp2zNw;
+        "kv1oAQvb" = _kv1oAQvb;
         "fabric-26.1.2" = _rV5aWaiQ;
         "fabric-1.21.1" = _TtSTKyt9;
         "fabric-1.21.5" = _NwrfmwTX;
-        "fabric-1.21.11" = _xmNgzHjH;
+        "fabric-1.21.11" = _zVfp2zNw;
         "fabric-26.1" = _rV5aWaiQ;
         "fabric-26.1.1" = _rV5aWaiQ;
         "fabric-26.2" = _2dPJ8wxq;
         "neoforge-26.1.2" = _ry1VFfAn;
         "neoforge-1.21.1" = _6EA50HjJ;
         "neoforge-1.21.5" = _HYVv23YM;
-        "neoforge-1.21.11" = _dbAipu5x;
+        "neoforge-1.21.11" = _kv1oAQvb;
         "neoforge-26.1" = _ry1VFfAn;
         "neoforge-26.1.1" = _ry1VFfAn;
         "neoforge-26.2" = _NnwBYmo9;
@@ -140,7 +152,8 @@ let
         "pkg-0.1.3" = _aDzlSopG;
         "pkg-0.1.4" = _HcM2fdSs;
         "pkg-0.1.5" = _NnwBYmo9;
-        "default" = _NnwBYmo9;
+        "pkg-0.1.5-1" = _kv1oAQvb;
+        "default" = _kv1oAQvb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "holobuilder-schematic-loader";

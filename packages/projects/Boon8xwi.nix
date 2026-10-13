@@ -1346,6 +1346,16 @@ let
             "file" = "inventoryessentials-fabric-26.3-26.3.0.4.jar";
             "hash" = "sha512-AYrRNJBtWV5XP1qDRJT4+J0Zc4RPl3xydGQBfjBNbmVEAG5o1/majMwn8ueCMKtLLRcw5wEyYSMl5OAtSRUGGw==";
         };
+        _yTozEhFD = {
+            "id" = "yTozEhFD";
+            "file" = "inventoryessentials-fabric-26.3-26.3.0.5.jar";
+            "hash" = "sha512-4VBsr4qCzvWNfD8SK/+gsZRBQsOrQJewh2QKd8m/RE3mCis0ITCUhTrf/V0PPQbyQUTLA0rOFkHsgmoBpEOTdg==";
+        };
+        _cg4gtBXU = {
+            "id" = "cg4gtBXU";
+            "file" = "inventoryessentials-neoforge-26.3-26.3.0.5.jar";
+            "hash" = "sha512-xYhJEFEwrRBZ295liLkUwe6fi7GQYoelZLu+uyOxKK8iroHA5vDBRIE9c/D+WFFcgfLPZZhPF5ZH9PGFgALBWg==";
+        };
     in {
         "u0meKHWd" = _u0meKHWd;
         "qurP2LEN" = _qurP2LEN;
@@ -1616,6 +1626,8 @@ let
         "2ge9T62m" = _2ge9T62m;
         "9EKeWFcA" = _9EKeWFcA;
         "Bb729y7w" = _Bb729y7w;
+        "yTozEhFD" = _yTozEhFD;
+        "cg4gtBXU" = _cg4gtBXU;
         "forge-1.19" = _cRTkO1l6;
         "forge-1.19.1" = _cRTkO1l6;
         "forge-1.19.2" = _cRTkO1l6;
@@ -1667,7 +1679,7 @@ let
         "fabric-26.1.1" = _2D07qlwJ;
         "fabric-26.1.2" = _NEHrL9wa;
         "fabric-26.2" = _ig2gbg4K;
-        "fabric-26.3" = _Bb729y7w;
+        "fabric-26.3" = _yTozEhFD;
         "neoforge-1.20.2" = _dGEvlIEE;
         "neoforge-1.20.4" = _zCCNL9Wk;
         "neoforge-1.20.6" = _medGEIyd;
@@ -1687,7 +1699,7 @@ let
         "neoforge-26.1.1" = _pom8g4yX;
         "neoforge-26.1.2" = _2ge9T62m;
         "neoforge-26.2" = _TefzOtTI;
-        "neoforge-26.3" = _9EKeWFcA;
+        "neoforge-26.3" = _cg4gtBXU;
         "pkg-5.0.0+forge-1.19" = _u0meKHWd;
         "pkg-5.0.0+fabric-1.19" = _qurP2LEN;
         "pkg-4.0.2+forge-1.18.2" = _k0UlaXy2;
@@ -1957,7 +1969,9 @@ let
         "pkg-26.1.2.7+neoforge-26.1.2" = _2ge9T62m;
         "pkg-26.3.0.4+neoforge-26.3" = _9EKeWFcA;
         "pkg-26.3.0.4+fabric-26.3" = _Bb729y7w;
-        "default" = _Bb729y7w;
+        "pkg-26.3.0.5+fabric-26.3" = _yTozEhFD;
+        "pkg-26.3.0.5+neoforge-26.3" = _cg4gtBXU;
+        "default" = _cg4gtBXU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "inventory-essentials";

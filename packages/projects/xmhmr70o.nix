@@ -406,6 +406,11 @@ let
             "file" = "electrodynamics-1.21.1-1.0.14.jar";
             "hash" = "sha512-10OOJE6DshqD/tiN6e2JgG+4+6/24o0muBlTswyN3DetskFZypQwxCJXn2b/G2Geybq7/+p3LoN2E1IxoRxBqA==";
         };
+        _PIMi40Ga = {
+            "id" = "PIMi40Ga";
+            "file" = "electrodynamics-1.21.1-1.1.0.jar";
+            "hash" = "sha512-OdOPkJZsONkpOIw0QnwhM/WHhYsrPEuLC9PjqLZS/sUc+slvXKQe5Zi+vXuwoQEC2K60/ebd75D3g3Dsbamelg==";
+        };
     in {
         "VmXqBaON" = _VmXqBaON;
         "MHscCVOD" = _MHscCVOD;
@@ -488,6 +493,7 @@ let
         "SuiMXKAg" = _SuiMXKAg;
         "QyRCuKfr" = _QyRCuKfr;
         "81LJg5IE" = _81LJg5IE;
+        "PIMi40Ga" = _PIMi40Ga;
         "forge-1.19.2" = _SuiMXKAg;
         "forge-1.18.2" = _1BJo79gu;
         "forge-1.18.1" = _CbrG4S3u;
@@ -496,7 +502,7 @@ let
         "forge-1.16.5" = _taHzln8j;
         "forge-1.20.1" = _QyRCuKfr;
         "neoforge-1.20.1" = _QyRCuKfr;
-        "neoforge-1.21.1" = _81LJg5IE;
+        "neoforge-1.21.1" = _PIMi40Ga;
         "pkg-1.19.2-0.8.0-5" = _VmXqBaON;
         "pkg-1.18.2-0.6.4-0" = _MHscCVOD;
         "pkg-1.18.1-0.6.2-4" = _CbrG4S3u;
@@ -578,7 +584,8 @@ let
         "pkg-1.19.2-1.0.14" = _SuiMXKAg;
         "pkg-1.20.1-1.0.14" = _QyRCuKfr;
         "pkg-1.21.1-1.0.14" = _81LJg5IE;
-        "default" = _81LJg5IE;
+        "pkg-1.21.1-1.1.0" = _PIMi40Ga;
+        "default" = _PIMi40Ga;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "electrodynamics";

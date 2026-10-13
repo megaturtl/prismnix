@@ -681,6 +681,11 @@ let
             "file" = "VillagerInABukkit-paper-1.6.3.jar";
             "hash" = "sha512-mlIUUtsdfsJ7cQW1PgVXS3uC1n6bzPzYAvNmD+ZNjiRka3O6RkH9YIgMeagWmsTGg5q8hxwP29B8hYdFR+5qEg==";
         };
+        _dxwZ7agW = {
+            "id" = "dxwZ7agW";
+            "file" = "VillagerInABukkit-paper-1.6.4.jar";
+            "hash" = "sha512-Vg39MOBmZmLMjiNG/Edgr2Z2t1mdLA++tgoOnpj6TPvui3k8hLkHJJroZ68KpyMEtUWZ7xrVo+v+bimRivUB4g==";
+        };
     in {
         "KNwvVTjF" = _KNwvVTjF;
         "TuR6tKJa" = _TuR6tKJa;
@@ -818,6 +823,7 @@ let
         "2NLk28fZ" = _2NLk28fZ;
         "f3KfjRWd" = _f3KfjRWd;
         "P1KVX6wr" = _P1KVX6wr;
+        "dxwZ7agW" = _dxwZ7agW;
         "fabric-1.20.1" = _qK6ACRka;
         "fabric-1.20.2" = _nMWS3HQE;
         "fabric-1.20.3" = _nMWS3HQE;
@@ -884,8 +890,8 @@ let
         "paper-26.1" = _qW6h0KBq;
         "paper-26.1.1" = _qW6h0KBq;
         "paper-26.1.2" = _QkQDboLB;
-        "paper-26.2" = _P1KVX6wr;
-        "paper-26.3" = _P1KVX6wr;
+        "paper-26.2" = _dxwZ7agW;
+        "paper-26.3" = _dxwZ7agW;
         "purpur-1.21.4" = _bx0V8E2X;
         "purpur-1.21.5" = _bx0V8E2X;
         "purpur-1.21.6" = _bx0V8E2X;
@@ -897,11 +903,11 @@ let
         "purpur-26.1" = _qW6h0KBq;
         "purpur-26.1.1" = _qW6h0KBq;
         "purpur-26.1.2" = _QkQDboLB;
-        "purpur-26.2" = _P1KVX6wr;
-        "purpur-26.3" = _P1KVX6wr;
+        "purpur-26.2" = _dxwZ7agW;
+        "purpur-26.3" = _dxwZ7agW;
         "folia-26.1.2" = _QkQDboLB;
-        "folia-26.2" = _P1KVX6wr;
-        "folia-26.3" = _P1KVX6wr;
+        "folia-26.2" = _dxwZ7agW;
+        "folia-26.3" = _dxwZ7agW;
         "pkg-1.20.1-1.0.0" = _TuR6tKJa;
         "pkg-1.20.1-1.0.1" = _v1qTVwJa;
         "pkg-1.20.1-1.0.2" = _hhuRWg0S;
@@ -962,7 +968,8 @@ let
         "pkg-26.3-1.0.0" = _2NLk28fZ;
         "pkg-1.6.2" = _f3KfjRWd;
         "pkg-1.6.3" = _P1KVX6wr;
-        "default" = _P1KVX6wr;
+        "pkg-1.6.4" = _dxwZ7agW;
+        "default" = _dxwZ7agW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "villager-in-a-bucket";

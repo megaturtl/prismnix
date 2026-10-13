@@ -136,6 +136,36 @@ let
             "file" = "bigger_ae2-26.1.2.1.jar";
             "hash" = "sha512-jtZGraTWQ8+nK1HOOUPSgGQqt4Kc8zjB3SwXpWkzSYBhXlbBtENBdvv6CTvLYUPL1jfCyvsrBrdzsf8y6tep1A==";
         };
+        _TueUpl2O = {
+            "id" = "TueUpl2O";
+            "file" = "bigger_ae2-1.21.1-21.2.0.jar";
+            "hash" = "sha512-u12DhKntJgyFI4LP1GnDn1m1EzDmQzZ8gPwIK2RLcxEVgpJPk/VTlW0Co1ekGZSPTTF/UMZcsKOWPBpHwYxbcQ==";
+        };
+        _5GzsSilg = {
+            "id" = "5GzsSilg";
+            "file" = "bigger_ae2-1.20.1-20.2.0.jar";
+            "hash" = "sha512-nhU31rz9Bk7+9B8649xRbOEzsQD2qLnRNS02K+CcWJDE2Cg3AYIuBKRaRwf2ePS9VIq4IwoeiE9g8lh8b3NEUg==";
+        };
+        _JgAm11EE = {
+            "id" = "JgAm11EE";
+            "file" = "bigger_ae2-1.21.1-21.2.0.jar";
+            "hash" = "sha512-qSLTlvKH5hClcJi4nPpNXwjM6QUmDvR7dtFyVTbXaI07EwFQE/87tYQGF3zEYf5pbFWd+GKvJvRfXi//tgD0jw==";
+        };
+        _gonNhv6r = {
+            "id" = "gonNhv6r";
+            "file" = "bigger_ae2-1.21.1-21.2.1.jar";
+            "hash" = "sha512-pFwUyYHaCJdyNnaX4CK8c/hW356ASdsZunz2BO7wVPAujPGvhQmDZcWZR6pEcho/pu/kLpOBtIFDJKfzuIXwIw==";
+        };
+        _VsHV30Lz = {
+            "id" = "VsHV30Lz";
+            "file" = "bigger_ae2-26.1.2.2.1.jar";
+            "hash" = "sha512-bbGUlF+m7NZSsdABtijjG+/kN/dPH92cjrhfgiMZ7ndGuTl2iGRQwszUV9EYrs4ozXcfizRA9PK4YD7naSn0bw==";
+        };
+        _KwLq5PZr = {
+            "id" = "KwLq5PZr";
+            "file" = "bigger_ae2-1.20.1-20.2.1.jar";
+            "hash" = "sha512-vBwotBGgnyjQr2TTuBfoHJquAEUcDrNHYOSn2pqHeKreyUAcRvrlhmWt4IxXhhZL3lH5tvKLBNQ6TwwBWhM/jQ==";
+        };
     in {
         "yEJtL9Do" = _yEJtL9Do;
         "LiRFwtqw" = _LiRFwtqw;
@@ -164,11 +194,17 @@ let
         "xoGFs4oP" = _xoGFs4oP;
         "rHF2s4MP" = _rHF2s4MP;
         "cS8dQuUu" = _cS8dQuUu;
-        "forge-1.20.1" = _wWX6FpS4;
+        "TueUpl2O" = _TueUpl2O;
+        "5GzsSilg" = _5GzsSilg;
+        "JgAm11EE" = _JgAm11EE;
+        "gonNhv6r" = _gonNhv6r;
+        "VsHV30Lz" = _VsHV30Lz;
+        "KwLq5PZr" = _KwLq5PZr;
+        "forge-1.20.1" = _KwLq5PZr;
         "forge-1.19.2" = _jDe7LqlA;
         "neoforge-1.21" = _oEM9RR2Z;
-        "neoforge-1.21.1" = _xoGFs4oP;
-        "neoforge-26.1.2" = _cS8dQuUu;
+        "neoforge-1.21.1" = _gonNhv6r;
+        "neoforge-26.1.2" = _VsHV30Lz;
         "pkg-1.0.0" = _yEJtL9Do;
         "pkg-1.20.1-1.1.0" = _LiRFwtqw;
         "pkg-1.20.1-1.2.0" = _6mEtrrH2;
@@ -195,7 +231,12 @@ let
         "pkg-1.21.1-1.4.9" = _xoGFs4oP;
         "pkg-26.1.2.0" = _rHF2s4MP;
         "pkg-26.1.2.1" = _cS8dQuUu;
-        "default" = _cS8dQuUu;
+        "pkg-21.2.0" = _JgAm11EE;
+        "pkg-20.2.0" = _5GzsSilg;
+        "pkg-21.2.1" = _gonNhv6r;
+        "pkg-26.1.2.2.1" = _VsHV30Lz;
+        "pkg-20.2.1" = _KwLq5PZr;
+        "default" = _KwLq5PZr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bigger-ae2";

@@ -151,6 +151,11 @@ let
             "file" = "Assembly Line-1.19.2-0.8.2.jar";
             "hash" = "sha512-oRx7SLeHopgPo8TIp1kkJUW7ezHvXzgi12QI0/WSlvZv/GiyXoS5YvtLMbY9MRAM9W/Z6PllrR03Y1rdnPD9eQ==";
         };
+        _jxhD2P5G = {
+            "id" = "jxhD2P5G";
+            "file" = "assemblyline-1.21.1-0.9.0.jar";
+            "hash" = "sha512-5U+OvibFQVULndrGTGC21+F6APyjhFGF0fmlIlYxIGga5lYDLnUJVniROclcz0u3VZE9hcGPuDgRgcfb+l9KHA==";
+        };
     in {
         "aZNlUbdj" = _aZNlUbdj;
         "ZmvRn6I7" = _ZmvRn6I7;
@@ -182,13 +187,14 @@ let
         "ItViY3Xu" = _ItViY3Xu;
         "3hp810cK" = _3hp810cK;
         "HnAsoorz" = _HnAsoorz;
+        "jxhD2P5G" = _jxhD2P5G;
         "forge-1.16.5" = _1IJZ3psx;
         "forge-1.17.1" = _ZmvRn6I7;
         "forge-1.18.2" = _YAzxn8wi;
         "forge-1.19.2" = _HnAsoorz;
         "forge-1.20.1" = _3hp810cK;
         "neoforge-1.20.1" = _3hp810cK;
-        "neoforge-1.21.1" = _ItViY3Xu;
+        "neoforge-1.21.1" = _jxhD2P5G;
         "pkg-1.16.5-0.3.0-0" = _aZNlUbdj;
         "pkg-1.17.1-0.3.1-0" = _ZmvRn6I7;
         "pkg-1.18.2-0.4.2-5" = _9Ds1iTS7;
@@ -219,7 +225,8 @@ let
         "pkg-1.21.1-0.8.2" = _ItViY3Xu;
         "pkg-1.20.1-0.8.2" = _3hp810cK;
         "pkg-1.19.2-0.8.2" = _HnAsoorz;
-        "default" = _HnAsoorz;
+        "pkg-1.21.1-0.9.0" = _jxhD2P5G;
+        "default" = _jxhD2P5G;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "assembly-lines";

@@ -196,6 +196,16 @@ let
             "file" = "Tasty Vanilla-2.2-neoforge-26.3.jar";
             "hash" = "sha512-jdr1MxxBJkWvWHsZfnicQ+uSydXkQU2Kogb8qTUrpKZ28GTMKhHYk8VUAm2kVYBARO5oFb8PGqKHWlv7yglmeQ==";
         };
+        _satANwCA = {
+            "id" = "satANwCA";
+            "file" = "Tasty Vanilla-2.2-fabric-1.21.1.jar";
+            "hash" = "sha512-4nEtdr1K9/wLEnC7qVvggHU453qb1+MVfHFKjgUg3Be3DENPUjpulbkfQB7WAXAdGkTrFO+jAk/agEIj+SvZjQ==";
+        };
+        _uiNrMRVr = {
+            "id" = "uiNrMRVr";
+            "file" = "Tasty Vanilla-2.2-neoforge-1.21.1.jar";
+            "hash" = "sha512-uQut+uCS7/NXuK5d6iJIM/ENJa50kUu0HKQO+faEKPKrngKzes6RKToW3m5mtio9qoGzQyoHKRO2tXpuapTV8Q==";
+        };
     in {
         "CoaZyppY" = _CoaZyppY;
         "I0M7ZZ9O" = _I0M7ZZ9O;
@@ -236,6 +246,8 @@ let
         "uUsNpPIU" = _uUsNpPIU;
         "MQjUuMeE" = _MQjUuMeE;
         "27j4jCPw" = _27j4jCPw;
+        "satANwCA" = _satANwCA;
+        "uiNrMRVr" = _uiNrMRVr;
         "fabric-1.21.4" = _ZJW5qAQT;
         "fabric-1.21.5" = _wC5njH1C;
         "fabric-1.21.6" = _t2AOrWZ8;
@@ -249,10 +261,12 @@ let
         "fabric-26.1.2" = _kNX5MHF4;
         "fabric-26.2" = _CPk3ovkZ;
         "fabric-26.3" = _kgBf93vg;
+        "fabric-1.21.1" = _satANwCA;
         "neoforge-1.21.11" = _mHk3HxuB;
         "neoforge-26.1.2" = _uUsNpPIU;
         "neoforge-26.2" = _MQjUuMeE;
         "neoforge-26.3" = _27j4jCPw;
+        "neoforge-1.21.1" = _uiNrMRVr;
         "pkg-1.0_1.21.4" = _CoaZyppY;
         "pkg-1.1_1.21.4" = _I0M7ZZ9O;
         "pkg-1.2_1.21.4" = _y1xyKTyG;
@@ -285,7 +299,8 @@ let
         "pkg-2.2-26.2" = _MQjUuMeE;
         "pkg-2.2-26.3" = _27j4jCPw;
         "pkg-2.2-1.21.11" = _mHk3HxuB;
-        "default" = _27j4jCPw;
+        "pkg-2.2-1.21.1" = _uiNrMRVr;
+        "default" = _uiNrMRVr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tasty-vanilla";

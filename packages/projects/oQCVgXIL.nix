@@ -91,6 +91,11 @@ let
             "file" = "hadean_breathe-0.25.6-1.20.1-forge.jar";
             "hash" = "sha512-Z3QG46t0wqvRnj7YBMv5DV+oBds2kx3+YNg4TnRNvAOK6YBCr+mT6MsPicVLVXYYPEtby1+oW2Q3AQnzmX+hCQ==";
         };
+        _NQGQIU9O = {
+            "id" = "NQGQIU9O";
+            "file" = "hadean_breathe-0.25.7-1.20.1-forge.jar";
+            "hash" = "sha512-d0lG2iu8H0CgB2wuxRnfTjUTdLtF5A3oOC1d+iR13bGVxYxEBhMYgMlU5lF8PC0dLfcbc9/WhOQtPSgMEbN+qg==";
+        };
     in {
         "88beEXaI" = _88beEXaI;
         "jRDWgoWV" = _jRDWgoWV;
@@ -110,7 +115,8 @@ let
         "FJz5Xzg7" = _FJz5Xzg7;
         "OceJqTIH" = _OceJqTIH;
         "mpETBojk" = _mpETBojk;
-        "forge-1.20.1" = _mpETBojk;
+        "NQGQIU9O" = _NQGQIU9O;
+        "forge-1.20.1" = _NQGQIU9O;
         "pkg-0.1" = _88beEXaI;
         "pkg-0.11" = _jRDWgoWV;
         "pkg-0.12" = _KsLO6oMB;
@@ -129,7 +135,8 @@ let
         "pkg-0.24.5" = _FJz5Xzg7;
         "pkg-0.25.5" = _OceJqTIH;
         "pkg-0.25.6" = _mpETBojk;
-        "default" = _mpETBojk;
+        "pkg-0.25.7" = _NQGQIU9O;
+        "default" = _NQGQIU9O;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hadean-breathe";

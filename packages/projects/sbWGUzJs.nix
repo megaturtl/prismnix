@@ -86,6 +86,51 @@ let
             "file" = "ocelotsignmod-1.0.1-26.1.2-Fabric.jar";
             "hash" = "sha512-o25ZixHaziPX+uMXO5aOJJV/mXWVZLxJx2BsYoAq31v0hOECIzrQ+S977TL7ywcUq4MoJiJQnlcvBZoPa1IMIQ==";
         };
+        _EwDKC9Px = {
+            "id" = "EwDKC9Px";
+            "file" = "ocelotsignmod-1.0.2-1.19.2-Fabric.jar";
+            "hash" = "sha512-z/sZH28uk5ka+Kchkj1d0OHdJeQ7kX3tYbDod2zfjhghUWPiS86X29H9Vs4xgSA/xDjP0k9qYv8UIfWlVCInsQ==";
+        };
+        _FYhLkKUz = {
+            "id" = "FYhLkKUz";
+            "file" = "ocelotsignmod-1.0.2-1.19.4-Fabric.jar";
+            "hash" = "sha512-NhRdWF2QkX/NTmXJ2+eDcksLGMxzePkuzVsBKiZNHRAqEhoSQaW0Zr+n0WiEGgTTJeqz/JeGNCxMcMHjPDi84A==";
+        };
+        _5WMFzoLz = {
+            "id" = "5WMFzoLz";
+            "file" = "ocelotsignmod-1.0.2-1.20.1-Fabric.jar";
+            "hash" = "sha512-7aZ8uxzIrUnfGglux5HXfOPUAYh12Xf/8fxOzHToHH2Ze1BRmBh4xVTt/y+8h1cKZgT6KkNYML39DuNihOLVdA==";
+        };
+        _PIFt8D6K = {
+            "id" = "PIFt8D6K";
+            "file" = "ocelotsignmod-1.0.2-1.20.4-Fabric.jar";
+            "hash" = "sha512-Oq5KJrryKJ5VnY70dVBpqW0ANgF/zm+TBm8uTlbKFiveuAIWkBpEsOrsxb1OpNvKawbHX4PHKvhltmKTAX2pDw==";
+        };
+        _NK3aAUMx = {
+            "id" = "NK3aAUMx";
+            "file" = "ocelotsignmod-1.0.2-1.21.1-Fabric.jar";
+            "hash" = "sha512-WNI2Nd0Wh8KSM/CrxS020Lvw5R736mf1418xUu/ViD2+743zYFb+9kkvIIplDPbo7B8JbGLObATqPE0zVi9fWA==";
+        };
+        _tUYp31Bc = {
+            "id" = "tUYp31Bc";
+            "file" = "ocelotsignmod-1.0.2-1.21.4-Fabric.jar";
+            "hash" = "sha512-d+sPuaSbSlikKjVwo42eXBtzhEazFzcwA8ZQ3WaPtgcm0U9kPcZtgGu/OKgAu+2ou/ypufxrYw04Nvx9DpOJxQ==";
+        };
+        _VDFAWKaV = {
+            "id" = "VDFAWKaV";
+            "file" = "ocelotsignmod-1.0.2-1.21.8-Fabric.jar";
+            "hash" = "sha512-y9W/WV8/yDzR1uw4cu/ROKZ2qCW40KCdv/UjCQMUZjlbASv+dldpPIZqlyExITKJJyNu57JZkTp0VnRMtjkAYw==";
+        };
+        _FQkIP4df = {
+            "id" = "FQkIP4df";
+            "file" = "ocelotsignmod-1.0.2-1.21.11-Fabric.jar";
+            "hash" = "sha512-UJBbFRBKrCtiCUNSwX4igMhGYwG227XxQlA0PvclWxb+u3x7jhHi1jzi3Okc8skwE5nFtlBqL/Li8kUjOY66Ig==";
+        };
+        _s11YYKlO = {
+            "id" = "s11YYKlO";
+            "file" = "ocelotsignmod-1.0.2-26.1.2-Fabric.jar";
+            "hash" = "sha512-v+/FBIidD11Db79h3xOxRz4CRrAyepctr1kOUxNRzMN+NtCEbIzeLHsd6w8UDxiuchg0FxduEbf6N/RgCWzPWQ==";
+        };
     in {
         "2hbx3fOY" = _2hbx3fOY;
         "KudoJ4eY" = _KudoJ4eY;
@@ -104,14 +149,24 @@ let
         "Ufr8iZB8" = _Ufr8iZB8;
         "CtaFXvQp" = _CtaFXvQp;
         "KThddst1" = _KThddst1;
-        "fabric-1.20.1" = _FcCaE6L0;
-        "fabric-1.20.4" = _MXLAxAij;
-        "fabric-1.21.1" = _vtLU4WmV;
-        "fabric-1.19.2" = _z8Wr5TL1;
-        "fabric-1.21.4" = _CtaFXvQp;
-        "fabric-1.21.8" = _PN5C5At3;
-        "fabric-26.1.2" = _KThddst1;
-        "fabric-1.21.11" = _Ufr8iZB8;
+        "EwDKC9Px" = _EwDKC9Px;
+        "FYhLkKUz" = _FYhLkKUz;
+        "5WMFzoLz" = _5WMFzoLz;
+        "PIFt8D6K" = _PIFt8D6K;
+        "NK3aAUMx" = _NK3aAUMx;
+        "tUYp31Bc" = _tUYp31Bc;
+        "VDFAWKaV" = _VDFAWKaV;
+        "FQkIP4df" = _FQkIP4df;
+        "s11YYKlO" = _s11YYKlO;
+        "fabric-1.20.1" = _5WMFzoLz;
+        "fabric-1.20.4" = _PIFt8D6K;
+        "fabric-1.21.1" = _NK3aAUMx;
+        "fabric-1.19.2" = _EwDKC9Px;
+        "fabric-1.21.4" = _tUYp31Bc;
+        "fabric-1.21.8" = _VDFAWKaV;
+        "fabric-26.1.2" = _s11YYKlO;
+        "fabric-1.21.11" = _FQkIP4df;
+        "fabric-1.19.4" = _FYhLkKUz;
         "pkg-1.0.0-beta.1+mc1.20.1" = _2hbx3fOY;
         "pkg-1.0.0-beta.1+mc1.20.4" = _KudoJ4eY;
         "pkg-1.0.0-beta.1+mc1.21.1" = _UAVKq07T;
@@ -129,7 +184,16 @@ let
         "pkg-1.0.1+mc1.21.11" = _Ufr8iZB8;
         "pkg-1.0.1+mc1.21.4" = _CtaFXvQp;
         "pkg-1.0.1+mc26.1.2" = _KThddst1;
-        "default" = _KThddst1;
+        "pkg-1.0.2+mc1.19.2" = _EwDKC9Px;
+        "pkg-1.0.2+mc1.19.4" = _FYhLkKUz;
+        "pkg-1.0.2+mc1.20.1" = _5WMFzoLz;
+        "pkg-1.0.2+mc1.20.4" = _PIFt8D6K;
+        "pkg-1.0.2+mc1.21.1" = _NK3aAUMx;
+        "pkg-1.0.2+mc1.21.4" = _tUYp31Bc;
+        "pkg-1.0.2+mc1.21.8" = _VDFAWKaV;
+        "pkg-1.0.2+mc1.21.11" = _FQkIP4df;
+        "pkg-1.0.2+mc26.1.2" = _s11YYKlO;
+        "default" = _s11YYKlO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ocelotsignmod";
