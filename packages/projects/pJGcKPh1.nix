@@ -81,6 +81,56 @@ let
             "file" = "corpsecurioscompat-26.1-NeoForge-4.0.2.jar";
             "hash" = "sha512-VELIefinJ7fIX0HRYHoKkGqt8P6S0AnVT02zF6iHwF5ZrwAUQpiZdascO6OacPxSXxcBI6yMVkG+i6b0GV/hBw==";
         };
+        _TemQeorq = {
+            "id" = "TemQeorq";
+            "file" = "corpsecurioscompat-1.20.1-Forge-4.1.0.jar";
+            "hash" = "sha512-39xAhrRkBUBeled2iXZqL9WZ9JNHcFbrlmZXAHylxQpACiNXw43rN7aHUfm6pO0ANoHLXdDQUsT01/U4E8i/cg==";
+        };
+        _YfbbnuX8 = {
+            "id" = "YfbbnuX8";
+            "file" = "corpsecurioscompat-1.21.1-NeoForge-4.1.0.jar";
+            "hash" = "sha512-FkfxD+xYm1SwXYeozd+LBreNrPZEv93BEFsGtCppCvuTHkSELxEYh9o7wiWuJZ4qPlG+erV7R/sUdKJU/DrBcA==";
+        };
+        _TdYcntFD = {
+            "id" = "TdYcntFD";
+            "file" = "corpsecurioscompat-26.1-NeoForge-4.1.0.jar";
+            "hash" = "sha512-HGC/BcRc6IZXM95Wxh8hsCiuKHzuMOYQsAlqUox1AG/AjgqiycIrSnHN8chnOkrG0xiTU7SR1VrFT2rlqJxhag==";
+        };
+        _OiIoFQnF = {
+            "id" = "OiIoFQnF";
+            "file" = "corpsecurioscompat-26.2-NeoForge-4.1.0.jar";
+            "hash" = "sha512-HGC/BcRc6IZXM95Wxh8hsCiuKHzuMOYQsAlqUox1AG/AjgqiycIrSnHN8chnOkrG0xiTU7SR1VrFT2rlqJxhag==";
+        };
+        _WaocdfjF = {
+            "id" = "WaocdfjF";
+            "file" = "corpsecurioscompat-26.3-NeoForge-4.1.0.jar";
+            "hash" = "sha512-nH6lIJhrWcfe/K9h3ZKi68GLgHyTWa3eu59UZyzJXIus1oBjt75rUUh4AHDa2n+Qx7bvmVUPtGGDjD70rF/hLA==";
+        };
+        _c5UUAB2v = {
+            "id" = "c5UUAB2v";
+            "file" = "corpsecurioscompat-1.20.1-Forge-4.2.0.jar";
+            "hash" = "sha512-tc4ucPoM2SsCzdsZdQHrVWFKDruCGn2asrZf/wjvvIeT1by7bbj1DSlUypRAi/Vui8mkZxeUMQhH1Lbp2wZ+aQ==";
+        };
+        _u0YFpbaS = {
+            "id" = "u0YFpbaS";
+            "file" = "corpsecurioscompat-1.21.1-NeoForge-4.2.0.jar";
+            "hash" = "sha512-34Y39OKoxjThN2RU15YS7ZhF+1FfYRxe0pB1yI8C2M5C5TArGyGeOHczEcWfZxAjGRzxi/ubvedeQSjMzE1IlQ==";
+        };
+        _MM3dxPZG = {
+            "id" = "MM3dxPZG";
+            "file" = "corpsecurioscompat-26.1-NeoForge-4.2.0.jar";
+            "hash" = "sha512-ZQfcUPL04V2zwDgiPzOYPxs4bi7Hh0P3LExIYu+XR276SrJ9Dohz1FoGtKXALqEOVYV+5ax7yTtIinQsnObFWQ==";
+        };
+        _w0pT6zgw = {
+            "id" = "w0pT6zgw";
+            "file" = "corpsecurioscompat-26.2-NeoForge-4.2.0.jar";
+            "hash" = "sha512-ZQfcUPL04V2zwDgiPzOYPxs4bi7Hh0P3LExIYu+XR276SrJ9Dohz1FoGtKXALqEOVYV+5ax7yTtIinQsnObFWQ==";
+        };
+        _AIegDBEW = {
+            "id" = "AIegDBEW";
+            "file" = "corpsecurioscompat-26.3-NeoForge-4.2.0.jar";
+            "hash" = "sha512-AAzMGVembt7yO8QkjLAf4sFZlyIXJBkaRty47Bhh+qVx+FjUMfrasDapUeMm8zmo1oJCFEvtR8NadDX8OhiMzA==";
+        };
     in {
         "5uoD1Sjc" = _5uoD1Sjc;
         "oCIGd8iz" = _oCIGd8iz;
@@ -98,6 +148,16 @@ let
         "Ix4uAd2i" = _Ix4uAd2i;
         "YumbwqXy" = _YumbwqXy;
         "FTXns2nU" = _FTXns2nU;
+        "TemQeorq" = _TemQeorq;
+        "YfbbnuX8" = _YfbbnuX8;
+        "TdYcntFD" = _TdYcntFD;
+        "OiIoFQnF" = _OiIoFQnF;
+        "WaocdfjF" = _WaocdfjF;
+        "c5UUAB2v" = _c5UUAB2v;
+        "u0YFpbaS" = _u0YFpbaS;
+        "MM3dxPZG" = _MM3dxPZG;
+        "w0pT6zgw" = _w0pT6zgw;
+        "AIegDBEW" = _AIegDBEW;
         "forge-1.18.2" = _svYuXRgL;
         "forge-1.19" = _svYuXRgL;
         "forge-1.19.1" = _svYuXRgL;
@@ -105,14 +165,16 @@ let
         "forge-1.19.3" = _svYuXRgL;
         "forge-1.19.4" = _svYuXRgL;
         "forge-1.20" = _svYuXRgL;
-        "forge-1.20.1" = _gC9IUqZM;
+        "forge-1.20.1" = _c5UUAB2v;
         "forge-1.20.2" = _oOV3E7PA;
         "forge-1.20.3" = _oOV3E7PA;
         "forge-1.20.4" = _oOV3E7PA;
-        "neoforge-1.21.1" = _Ix4uAd2i;
-        "neoforge-26.1" = _FTXns2nU;
-        "neoforge-26.1.1" = _FTXns2nU;
-        "neoforge-26.1.2" = _FTXns2nU;
+        "neoforge-1.21.1" = _u0YFpbaS;
+        "neoforge-26.1" = _MM3dxPZG;
+        "neoforge-26.1.1" = _MM3dxPZG;
+        "neoforge-26.1.2" = _MM3dxPZG;
+        "neoforge-26.2" = _w0pT6zgw;
+        "neoforge-26.3" = _AIegDBEW;
         "pkg-2.2.0" = _oCIGd8iz;
         "pkg-1.21.1" = _dMckkU0h;
         "pkg-1.20.4" = _svYuXRgL;
@@ -121,7 +183,9 @@ let
         "pkg-3.1.3" = _zrZBuGfY;
         "pkg-4.0.1" = _YumbwqXy;
         "pkg-4.0.2" = _FTXns2nU;
-        "default" = _FTXns2nU;
+        "pkg-4.1.0" = _WaocdfjF;
+        "pkg-4.2.0" = _AIegDBEW;
+        "default" = _AIegDBEW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "corpse-x-curios-api-compat";

@@ -111,6 +111,21 @@ let
             "file" = "LowDurabilitySwitcher-1.2.1+1.21.9.jar";
             "hash" = "sha512-6xFRbEb/w5QSzU0hSBb0ZyJ0vBG8PIu3OlVidiSHqDo5T1Q3yRaRxIbnvKhGNdYoe5/N8G7/Oh8G55c25biYQQ==";
         };
+        _Lo1JGLUU = {
+            "id" = "Lo1JGLUU";
+            "file" = "LowDurabilitySwitcher-1.3.1+26.1.jar";
+            "hash" = "sha512-URNi6KR5Jgwv7Z3Z7sfbDMeMWTtr+a3QYK8iJQdjSvibGIU3mO5i7gf63BlG/9igKPi1SeFUT5Ij0F/M4xbL3w==";
+        };
+        _BuAYzVT0 = {
+            "id" = "BuAYzVT0";
+            "file" = "LowDurabilitySwitcher-1.3.1+26.2.jar";
+            "hash" = "sha512-y8mB4XAUFX85rmV0Hbsx0Bjb3SqZ0KxuE7HmRQSkSqmoqi+KBPStUeEjtz5suDbk8NbuGYGWEVmjR2TUf6Jdtg==";
+        };
+        _xED7MI2f = {
+            "id" = "xED7MI2f";
+            "file" = "LowDurabilitySwitcher-1.3.1+26.3.jar";
+            "hash" = "sha512-Q1Koa4gi/LBsgMRJUJJaPPwUd17Bm5SzHhJsDVyUdnfFLhWmkqe9jWojyoQa/oxp5ckRHYfLR01YS1iQmZ10Kg==";
+        };
     in {
         "Lz8bMf4w" = _Lz8bMf4w;
         "rVXJfFZL" = _rVXJfFZL;
@@ -134,6 +149,9 @@ let
         "USs9rXQ9" = _USs9rXQ9;
         "rdnspi4E" = _rdnspi4E;
         "X4YO1Lkx" = _X4YO1Lkx;
+        "Lo1JGLUU" = _Lo1JGLUU;
+        "BuAYzVT0" = _BuAYzVT0;
+        "xED7MI2f" = _xED7MI2f;
         "fabric-1.19.2" = _TQA5mgfB;
         "fabric-1.20.1" = _v3ZRIa94;
         "fabric-1.19.4" = _dt0dSBdp;
@@ -153,6 +171,11 @@ let
         "fabric-1.21.9" = _X4YO1Lkx;
         "fabric-1.21.10" = _X4YO1Lkx;
         "fabric-1.21.11" = _X4YO1Lkx;
+        "fabric-26.1" = _Lo1JGLUU;
+        "fabric-26.1.1" = _Lo1JGLUU;
+        "fabric-26.1.2" = _Lo1JGLUU;
+        "fabric-26.2" = _BuAYzVT0;
+        "fabric-26.3" = _xED7MI2f;
         "quilt-1.19.2" = _TQA5mgfB;
         "quilt-1.20.1" = _v3ZRIa94;
         "quilt-1.19.4" = _dt0dSBdp;
@@ -186,7 +209,10 @@ let
         "pkg-1.2.1+1.21.5" = _USs9rXQ9;
         "pkg-1.2.1+1.21.6" = _rdnspi4E;
         "pkg-1.2.1+1.21.9" = _X4YO1Lkx;
-        "default" = _X4YO1Lkx;
+        "pkg-1.3.1+26.1" = _Lo1JGLUU;
+        "pkg-1.3.1+26.2" = _BuAYzVT0;
+        "pkg-1.3.1+26.3" = _xED7MI2f;
+        "default" = _xED7MI2f;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "low-durability-switcher";

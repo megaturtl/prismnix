@@ -76,6 +76,11 @@ let
             "file" = "bakery_villager_trader-1.2.1-neoforge-26.1.2.jar";
             "hash" = "sha512-jXyWQmLEkrMAqJ3y220gkiZLRSmi4rebs5QZzTi5Plu8lnKBehzcCIaW6KS3sCiS6YMIObddSbV7/gpq/ZV6aQ==";
         };
+        _YcpL6MWZ = {
+            "id" = "YcpL6MWZ";
+            "file" = "bakery_villager_trader-1.2.1-neoforge-26.3.jar";
+            "hash" = "sha512-Kg7wnNyBAxVnPvq16Oxtk/23HBKzXh7h9d5OFFZFAcuODeVXhtZLrGjPY9i0SqkYip3o2WbsuiO0tcDddOc4Sg==";
+        };
     in {
         "U6FUvHkX" = _U6FUvHkX;
         "G1tqhiR1" = _G1tqhiR1;
@@ -92,6 +97,7 @@ let
         "hT7A0o0n" = _hT7A0o0n;
         "LrwPtKw3" = _LrwPtKw3;
         "unxPKdjB" = _unxPKdjB;
+        "YcpL6MWZ" = _YcpL6MWZ;
         "forge-1.19.2" = _nGALB5Zq;
         "forge-1.20.1" = _e6j0bB0j;
         "forge-1.20.4" = _Ps1VFyDn;
@@ -100,11 +106,12 @@ let
         "neoforge-1.21.1" = _J6jAZEQy;
         "neoforge-1.21.4" = _hT7A0o0n;
         "neoforge-26.1.2" = _unxPKdjB;
+        "neoforge-26.3" = _YcpL6MWZ;
         "pkg-1.0.0" = _Ps1VFyDn;
         "pkg-1.1.0" = _L10vqZ5U;
         "pkg-1.2.0" = _LrwPtKw3;
-        "pkg-1.2.1" = _unxPKdjB;
-        "default" = _unxPKdjB;
+        "pkg-1.2.1" = _YcpL6MWZ;
+        "default" = _YcpL6MWZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bakery-villager-trader";

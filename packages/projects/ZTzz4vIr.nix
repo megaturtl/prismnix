@@ -106,6 +106,21 @@ let
             "file" = "OnePunchMan-neoforge-26.1.2-2.9.0.jar";
             "hash" = "sha512-h7A59fD66osZbIEq9S7ooaEv92Y19v8zC+mOQyB+R3TdP6nYEub0wvYX9PsXGGCEr3SyfhCvV7dpvqCPOXXrQw==";
         };
+        _Qhji2QEi = {
+            "id" = "Qhji2QEi";
+            "file" = "OnePunchMan-forge-26.3-2.9.1.jar";
+            "hash" = "sha512-ij3dML1bar3SF1aowKsTq7BJ+bo3s1yguuNUSFHQ/1H6r6d5uwfccYwFQbKIy3SudRwlkmUJvvHr4oo1Vtw8bA==";
+        };
+        _dMSIu7jL = {
+            "id" = "dMSIu7jL";
+            "file" = "OnePunchMan-neoforge-26.3-2.9.1.jar";
+            "hash" = "sha512-QZlui5X3bKCT7fnkPnCujV8/lkIlhD/73oJplPIrrnl/ZynblNR2lwCS6HEFM+TkSgSj0ZlxyzRHi4+7j4t6JA==";
+        };
+        _xC3JsaAM = {
+            "id" = "xC3JsaAM";
+            "file" = "OnePunchMan-fabric-26.3-2.9.1.jar";
+            "hash" = "sha512-naiZWnPFtahc6mFXx4Elkpbcp6djMdfNTFcn64KVeoq3vyb4Sta/lcv3iIdKRq63BIGAKn0a7H7mUTZYVcZvFw==";
+        };
     in {
         "8yBWsliu" = _8yBWsliu;
         "hp3PyV0d" = _hp3PyV0d;
@@ -128,6 +143,9 @@ let
         "GA7tjVJm" = _GA7tjVJm;
         "8qLXu9uZ" = _8qLXu9uZ;
         "q7h3hF4k" = _q7h3hF4k;
+        "Qhji2QEi" = _Qhji2QEi;
+        "dMSIu7jL" = _dMSIu7jL;
+        "xC3JsaAM" = _xC3JsaAM;
         "forge-1.20.1" = _8yBWsliu;
         "forge-1.20.2" = _NDQo91bj;
         "forge-1.20.4" = _hQfcoceC;
@@ -137,6 +155,7 @@ let
         "forge-1.21.10" = _GSkh8oXg;
         "forge-1.21.11" = _2AopCILQ;
         "forge-26.1.2" = _GA7tjVJm;
+        "forge-26.3" = _Qhji2QEi;
         "fabric-1.20.1" = _hp3PyV0d;
         "fabric-1.20.2" = _zqyTX4zm;
         "fabric-1.20.4" = _eTvL3zTS;
@@ -145,10 +164,12 @@ let
         "fabric-1.21.10" = _fPfQQQ59;
         "fabric-1.21.11" = _6Cr33wek;
         "fabric-26.1.2" = _8qLXu9uZ;
+        "fabric-26.3" = _xC3JsaAM;
         "neoforge-1.21.10" = _1N2l7O6s;
         "neoforge-1.21.1" = _GcVpjomN;
         "neoforge-1.21.11" = _eO9OzLf5;
         "neoforge-26.1.2" = _q7h3hF4k;
+        "neoforge-26.3" = _dMSIu7jL;
         "pkg-2.6.7" = _8yBWsliu;
         "pkg-1.6.4" = _hp3PyV0d;
         "pkg-2.6.8" = _NDQo91bj;
@@ -168,7 +189,8 @@ let
         "pkg-2.7.7" = _eO9OzLf5;
         "pkg-2.8.0" = _GA7tjVJm;
         "pkg-2.9.0" = _q7h3hF4k;
-        "default" = _q7h3hF4k;
+        "pkg-2.9.1" = _xC3JsaAM;
+        "default" = _xC3JsaAM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "saitama-onepunchman";

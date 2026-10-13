@@ -181,6 +181,21 @@ let
             "file" = "more_food-forge-3.0.0-beta.2+1.21.11.jar";
             "hash" = "sha512-kOmEw3UYDpAPx5cCE5U6UaLZkpHcrYp78pXX4sRXgJctbYnWLv3wtI0FfjML4SCNUVUKJhht3qUggUpjqNNcMw==";
         };
+        _7YtUWRum = {
+            "id" = "7YtUWRum";
+            "file" = "more_food-forge-3.0.0+26.1.2.jar";
+            "hash" = "sha512-e0kq4TxzctMCUGXKdmEmOKa2DcyZ8j66JYAHvyG2HwMt4ITPmVJzBH3R7zUElLEWhRsLKsdehv5dz6xDSrMHzg==";
+        };
+        _Alcl3uSW = {
+            "id" = "Alcl3uSW";
+            "file" = "more_food-neoforge-3.0.0+26.1.2.jar";
+            "hash" = "sha512-GQephtKUnnScXfiO6UzJ2VoROv7XzZGpdj1LtHubxlVIgkRqiSJfRNN1aRXlrCFMJJ0W5jVomejx95oGGdhVRA==";
+        };
+        _4qb29c6y = {
+            "id" = "4qb29c6y";
+            "file" = "more_food-fabric-3.0.0+26.1.2.jar";
+            "hash" = "sha512-/IzneINNOiuhN++7+NCHcthL/AhTFRkprFk9hK25XbbbvHqn95hOGP3ZnKYj5INAAb+40fJG5R41q9TSEswNCg==";
+        };
     in {
         "cCF2FwTu" = _cCF2FwTu;
         "mkDNVbxy" = _mkDNVbxy;
@@ -218,6 +233,9 @@ let
         "DkycwM2R" = _DkycwM2R;
         "Yb02bOf7" = _Yb02bOf7;
         "p4bjtTty" = _p4bjtTty;
+        "7YtUWRum" = _7YtUWRum;
+        "Alcl3uSW" = _Alcl3uSW;
+        "4qb29c6y" = _4qb29c6y;
         "forge-1.20.1" = _UPyuOX7Y;
         "forge-1.20.6" = _c0Fmp3Ft;
         "forge-1.21" = _GRWcVRHw;
@@ -226,6 +244,7 @@ let
         "forge-1.21.8" = _gdUmewmH;
         "forge-1.21.10" = _WZtH2Mne;
         "forge-1.21.11" = _p4bjtTty;
+        "forge-26.1.2" = _7YtUWRum;
         "fabric-1.20.1" = _irN5N9ss;
         "fabric-1.20.4" = _JWuwpPQS;
         "fabric-1.20.6" = _drKtp6ek;
@@ -235,6 +254,7 @@ let
         "fabric-1.21.8" = _L17cBepa;
         "fabric-1.21.10" = _bmdibcxk;
         "fabric-1.21.11" = _DkycwM2R;
+        "fabric-26.1.2" = _4qb29c6y;
         "neoforge-1.20.1" = _5WglLsiE;
         "neoforge-1.20.4" = _EGeIun38;
         "neoforge-1.20.6" = _NWOqXQEM;
@@ -244,6 +264,7 @@ let
         "neoforge-1.21.8" = _3oYYUAwi;
         "neoforge-1.21.10" = _c2737hDe;
         "neoforge-1.21.11" = _Yb02bOf7;
+        "neoforge-26.1.2" = _Alcl3uSW;
         "pkg-1.20.1-1.3.0" = _irN5N9ss;
         "pkg-1.20.1-1.2.0" = _mkDNVbxy;
         "pkg-1.20.1-1.3.1" = _y0m0Bg3M;
@@ -261,7 +282,8 @@ let
         "pkg-3.0.0-beta.2+1.21.8" = _gdUmewmH;
         "pkg-3.0.0-beta.2+1.21.10" = _WZtH2Mne;
         "pkg-3.0.0-beta.2+1.21.11" = _p4bjtTty;
-        "default" = _p4bjtTty;
+        "pkg-3.0.0+26.1.2" = _4qb29c6y;
+        "default" = _4qb29c6y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-food-xd";

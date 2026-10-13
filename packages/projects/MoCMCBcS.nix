@@ -146,6 +146,21 @@ let
             "file" = "slashblade-finale-blade-sanctum-2.9.3-hotfix1-1.21.1-neoforge.jar";
             "hash" = "sha512-Yu0EhSMFzQ34Jg0G/Du+lT6CLbKv1BHCeMM4vFyF493AkEYLUMYcQO9+YtS0N1SbWRB5IBZt/VnbMkVOP81hIQ==";
         };
+        _LvId7pMg = {
+            "id" = "LvId7pMg";
+            "file" = "slashblade：finale-blade-sanctum-2.9.4-1.20.1-forge.jar";
+            "hash" = "sha512-XQDSroeHJR/MYqdr39UEEWQOSm3ETg2ZAS5M+zNfGM0o0XBbZAGqmpcYhb/K6+XdeBii2h1d/XtVv0B+191L8Q==";
+        };
+        _MIVkRsc4 = {
+            "id" = "MIVkRsc4";
+            "file" = "slashblade：finale-blade-sanctum-2.9.4-hotfix1-1.20.1-forge.jar";
+            "hash" = "sha512-TA9CXJAeANBBgB4fav9x4ufcCuHfHQLWsPZLsYuNmNp5qRrG/na0Pc5qpZDVIb9yx+3YADkgLPqF5tWnrmmJxg==";
+        };
+        _MDbgmhDy = {
+            "id" = "MDbgmhDy";
+            "file" = "slashblade：finale-blade-sanctum-2.9.4-1.21.1-neoforge.jar";
+            "hash" = "sha512-CtkDApfAmxwoR6vig1SGyWRwSGGiAUuBWPmKh9xzykFwJM4dnbiNKMzMiLkXOyXZvHZHQ+pDJRXd+hvwELcuHw==";
+        };
     in {
         "iuHpLWqf" = _iuHpLWqf;
         "ReMWKtvV" = _ReMWKtvV;
@@ -176,8 +191,11 @@ let
         "WAIkrpf0" = _WAIkrpf0;
         "h0Mxzs0C" = _h0Mxzs0C;
         "MuWupfeY" = _MuWupfeY;
-        "forge-1.20.1" = _h0Mxzs0C;
-        "neoforge-1.21.1" = _MuWupfeY;
+        "LvId7pMg" = _LvId7pMg;
+        "MIVkRsc4" = _MIVkRsc4;
+        "MDbgmhDy" = _MDbgmhDy;
+        "forge-1.20.1" = _MIVkRsc4;
+        "neoforge-1.21.1" = _MDbgmhDy;
         "pkg-2.0.1-hotfix" = _iuHpLWqf;
         "pkg-2.1.1" = _ReMWKtvV;
         "pkg-2.2.5" = _FGjJ5yh3;
@@ -207,7 +225,10 @@ let
         "pkg-2.9.2-1.21.1-neoforge" = _WAIkrpf0;
         "pkg-2.9.2-1.20.1-forge" = _h0Mxzs0C;
         "pkg-2.9.3-hotfix1-1.21.1-neoforge" = _MuWupfeY;
-        "default" = _MuWupfeY;
+        "pkg-2.9.4-1.20.1-forge" = _LvId7pMg;
+        "pkg-2.9.4-hotfix1-1.20.1-forge" = _MIVkRsc4;
+        "pkg-2.9.4-1.21.1-neoforge" = _MDbgmhDy;
+        "default" = _MDbgmhDy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "annihilationbladeex";

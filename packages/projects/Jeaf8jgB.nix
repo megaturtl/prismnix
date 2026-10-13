@@ -81,6 +81,16 @@ let
             "file" = "gothic_church-1.0.0 Neoforge 26.2.jar";
             "hash" = "sha512-VQYRRzr5YH1IF5ljKpxdDLD7HAW8me0Im1fOl3nwSVl+XKKG/SbVTuU367yGIJD1/F8ayAyBQGYOF80gtNdvWQ==";
         };
+        _9iVsUM0a = {
+            "id" = "9iVsUM0a";
+            "file" = "gothic_church-1.0.0 Fabric 26.3.jar";
+            "hash" = "sha512-B4917VBMQ8drzcEryig/Ji0PGJVKyC5tdBi+VEzU/YU18vzjic37IqLcn9Nx4bnDKy9mUufy3suxWeYXb2XqXw==";
+        };
+        _AqCDUkJD = {
+            "id" = "AqCDUkJD";
+            "file" = "gothic_church-1.0.0 Neoforge 26.3.jar";
+            "hash" = "sha512-n8HTl8ocPRKPuyO0hWnLIDzee9NdB0DCZngllAJReL0+T2t7vhqiiofSHMcmIn07TJRq/eq7cLSMLHDkXi+/eg==";
+        };
     in {
         "FKroiU1y" = _FKroiU1y;
         "dvlCryBA" = _dvlCryBA;
@@ -98,6 +108,8 @@ let
         "8ylNuJcj" = _8ylNuJcj;
         "5ZqAB47Y" = _5ZqAB47Y;
         "GjluCUEx" = _GjluCUEx;
+        "9iVsUM0a" = _9iVsUM0a;
+        "AqCDUkJD" = _AqCDUkJD;
         "forge-1.16.5" = _FKroiU1y;
         "forge-1.17.1" = _dvlCryBA;
         "forge-1.18.2" = _lUyxFaHO;
@@ -111,15 +123,17 @@ let
         "fabric-1.21.1" = _c9ZugCVB;
         "fabric-26.1.2" = _uTtc8Ap8;
         "fabric-26.2" = _5ZqAB47Y;
+        "fabric-26.3" = _9iVsUM0a;
         "neoforge-1.21.1" = _tRdi089G;
         "neoforge-1.21.4" = _74qxjSU8;
         "neoforge-1.21.8" = _3qQ19lnh;
         "neoforge-1.21.11" = _ZndC4Fcr;
         "neoforge-26.1.2" = _8ylNuJcj;
         "neoforge-26.2" = _GjluCUEx;
+        "neoforge-26.3" = _AqCDUkJD;
         "pkg-1.0.1" = _3qQ19lnh;
-        "pkg-1.0.0" = _GjluCUEx;
-        "default" = _GjluCUEx;
+        "pkg-1.0.0" = _AqCDUkJD;
+        "default" = _AqCDUkJD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gothic-church";

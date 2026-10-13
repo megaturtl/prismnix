@@ -161,6 +161,16 @@ let
             "file" = "sophisticatedbackpackscreateintegration-1.21.1-0.2.2.188.jar";
             "hash" = "sha512-B34T0OTJQRx+uIXFuF8s/WhyDRcvQ8oJUlsTujPbwGDmLpnSMINrRhf1WcuKGYC3DeU34SRPQfL8478SQIRfNA==";
         };
+        _E16cU80t = {
+            "id" = "E16cU80t";
+            "file" = "sophisticatedbackpackscreateintegration-1.20.1-0.1.13.193.jar";
+            "hash" = "sha512-i5d64nNoQvye9NBnLCNibGOUE7shakrKlCX1JYg4kifiMiNyPfaI5dL1b6H/8se8GeBq1Jja/SdWctijyO0qBA==";
+        };
+        _PWwbiDmx = {
+            "id" = "PWwbiDmx";
+            "file" = "sophisticatedbackpackscreateintegration-1.21.1-0.2.3.194.jar";
+            "hash" = "sha512-so1w+dtOYWrM+IGPle91Ie2g9Wq8qBFB6lB7Cg/qekRgoB326ehqqQIDaQZuVRVzWeNuw+ZdD/q/eCpfIvIsRA==";
+        };
     in {
         "8qdzmHVk" = _8qdzmHVk;
         "4WuAa5Xn" = _4WuAa5Xn;
@@ -194,15 +204,17 @@ let
         "xQr7vEEu" = _xQr7vEEu;
         "FtPzrAM6" = _FtPzrAM6;
         "mQ9mijSt" = _mQ9mijSt;
-        "neoforge-1.21.1" = _mQ9mijSt;
-        "neoforge-1.20.1" = _FtPzrAM6;
+        "E16cU80t" = _E16cU80t;
+        "PWwbiDmx" = _PWwbiDmx;
+        "neoforge-1.21.1" = _PWwbiDmx;
+        "neoforge-1.20.1" = _E16cU80t;
         "neoforge-1.21.11" = _U45VfSiz;
         "neoforge-1.21.8" = _asD6Qln7;
         "neoforge-1.21.5" = _rOPqaUJW;
         "neoforge-26.1.2" = _kLOzI1BQ;
         "neoforge-1.21.10" = _A11QkP9O;
         "neoforge-1.21.4" = _UdxOtG7X;
-        "forge-1.20.1" = _FtPzrAM6;
+        "forge-1.20.1" = _E16cU80t;
         "pkg-1.21.1-0.1.0.2" = _8qdzmHVk;
         "pkg-1.20.1-0.1.0.4" = _4WuAa5Xn;
         "pkg-1.21.1-0.1.1.5" = _Zu38QooO;
@@ -235,7 +247,9 @@ let
         "pkg-1.21.1-0.2.1.171" = _xQr7vEEu;
         "pkg-1.20.1-0.1.12.187" = _FtPzrAM6;
         "pkg-1.21.1-0.2.2.188" = _mQ9mijSt;
-        "default" = _mQ9mijSt;
+        "pkg-1.20.1-0.1.13.193" = _E16cU80t;
+        "pkg-1.21.1-0.2.3.194" = _PWwbiDmx;
+        "default" = _PWwbiDmx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sophisticated-backpacks-create-integration";

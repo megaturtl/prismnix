@@ -126,6 +126,16 @@ let
             "file" = "per-player-starter-shulker-2.0.jar";
             "hash" = "sha512-u7eUtKF/LPOmejkuqrFH/8uC2wKE1wesdbR80fM/WYpnMU17nmKR8D+Hamm53rZeqile0W4jHNFuTAR1dMzdGA==";
         };
+        _1Xt7RinX = {
+            "id" = "1Xt7RinX";
+            "file" = "Per_Player_Starter_Bundle_26.3.zip";
+            "hash" = "sha512-0iOePdgwozVxd5wAouaSVQRYe+RicjLjGA9fKWGIGkespqD1vjzPNcIcjwkA35WaaZ3TRAvSE92H7nhLEJl21w==";
+        };
+        _iMwLR4G2 = {
+            "id" = "iMwLR4G2";
+            "file" = "per-player-starter-shulker-2.1.jar";
+            "hash" = "sha512-0V3e16fC/xNn1I7A8oKh4xVKKDX+OPLCZkKuB5Fnad/ftz/r+VRr+Vhz635Yf1bbSbEI/EBsaLGIdfIbRXr1Xg==";
+        };
     in {
         "A4noEKxC" = _A4noEKxC;
         "9papG6vx" = _9papG6vx;
@@ -152,6 +162,8 @@ let
         "RDka9ZrT" = _RDka9ZrT;
         "3Rg33Y6o" = _3Rg33Y6o;
         "qxMqDxyg" = _qxMqDxyg;
+        "1Xt7RinX" = _1Xt7RinX;
+        "iMwLR4G2" = _iMwLR4G2;
         "datapack-1.21" = _A4noEKxC;
         "datapack-1.21.3" = _9papG6vx;
         "datapack-1.21.4" = _8VyX5x1h;
@@ -165,7 +177,7 @@ let
         "datapack-1.21.11" = _mjrcvQgp;
         "datapack-26.1" = _MPR1RRgf;
         "datapack-26.2" = _wpLL1sxr;
-        "datapack-26.3" = _3Rg33Y6o;
+        "datapack-26.3" = _1Xt7RinX;
         "fabric-1.21.4" = _9PwX3tZM;
         "fabric-1.20.1" = _3BidqQja;
         "fabric-1.21.5" = _xTRDIdB9;
@@ -178,7 +190,7 @@ let
         "fabric-1.21.1" = _Xpfk29Mo;
         "fabric-26.1" = _okW3FJbH;
         "fabric-26.2" = _RDka9ZrT;
-        "fabric-26.3" = _qxMqDxyg;
+        "fabric-26.3" = _iMwLR4G2;
         "forge-1.21.4" = _9PwX3tZM;
         "forge-1.20.1" = _3BidqQja;
         "forge-1.21.5" = _xTRDIdB9;
@@ -191,14 +203,14 @@ let
         "forge-1.21.1" = _Xpfk29Mo;
         "forge-26.1" = _okW3FJbH;
         "forge-26.2" = _RDka9ZrT;
-        "forge-26.3" = _qxMqDxyg;
+        "forge-26.3" = _iMwLR4G2;
         "neoforge-1.21.11" = _DT6oETmX;
         "neoforge-1.21.1" = _Xpfk29Mo;
         "neoforge-26.1" = _okW3FJbH;
         "neoforge-26.2" = _RDka9ZrT;
-        "neoforge-26.3" = _qxMqDxyg;
+        "neoforge-26.3" = _iMwLR4G2;
         "quilt-26.2" = _RDka9ZrT;
-        "quilt-26.3" = _qxMqDxyg;
+        "quilt-26.3" = _iMwLR4G2;
         "pkg-1.1" = _A4noEKxC;
         "pkg-1.3" = _9papG6vx;
         "pkg-1.4" = _xTRDIdB9;
@@ -210,7 +222,9 @@ let
         "pkg-1.7+mod" = _RDka9ZrT;
         "pkg-2.0" = _3Rg33Y6o;
         "pkg-2.0+mod" = _qxMqDxyg;
-        "default" = _qxMqDxyg;
+        "pkg-2.1" = _1Xt7RinX;
+        "pkg-2.1+mod" = _iMwLR4G2;
+        "default" = _iMwLR4G2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "per-player-starter-shulker";

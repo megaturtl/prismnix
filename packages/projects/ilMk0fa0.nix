@@ -26,12 +26,18 @@ let
             "file" = "slim armor 1.21.10+.zip";
             "hash" = "sha512-Fz9v5pK5p3g7+DLWcCnfphc9HmXNZkRHhxy6yAcBshD2csP9JoaOapkOEMc3K5p8SNno0/aZ2NH+JeWO26gMOA==";
         };
+        _aMIdXg4a = {
+            "id" = "aMIdXg4a";
+            "file" = "slim armor 1.21.10+.zip";
+            "hash" = "sha512-zhd2mpG3GyE6IYU3wxc7LAT5/CyXa5DaOaoPtUt27RJEJA/rj2kxB3JrHu4TZ4e/DYEZKgmKjk4jYGu2sP1yRg==";
+        };
     in {
         "WUM5ckMT" = _WUM5ckMT;
         "tsyy3EnM" = _tsyy3EnM;
         "jFfRJoVb" = _jFfRJoVb;
         "gSx31Lul" = _gSx31Lul;
         "Pov7SjmT" = _Pov7SjmT;
+        "aMIdXg4a" = _aMIdXg4a;
         "minecraft-1.18.2" = _tsyy3EnM;
         "minecraft-1.19" = _tsyy3EnM;
         "minecraft-1.19.1" = _tsyy3EnM;
@@ -55,17 +61,20 @@ let
         "minecraft-1.21.7" = _tsyy3EnM;
         "minecraft-1.21.8" = _tsyy3EnM;
         "minecraft-1.21.9" = _tsyy3EnM;
-        "minecraft-1.21.10" = _Pov7SjmT;
-        "minecraft-1.21.11" = _Pov7SjmT;
-        "minecraft-26.1" = _Pov7SjmT;
-        "minecraft-26.1.1" = _Pov7SjmT;
-        "minecraft-26.1.2" = _Pov7SjmT;
+        "minecraft-1.21.10" = _aMIdXg4a;
+        "minecraft-1.21.11" = _aMIdXg4a;
+        "minecraft-26.1" = _aMIdXg4a;
+        "minecraft-26.1.1" = _aMIdXg4a;
+        "minecraft-26.1.2" = _aMIdXg4a;
+        "minecraft-26.2" = _aMIdXg4a;
+        "minecraft-26.3" = _aMIdXg4a;
         "pkg-1.18.2-1.21.8" = _WUM5ckMT;
         "pkg-1.18.2-1.21.9" = _tsyy3EnM;
         "pkg-1.21.10" = _jFfRJoVb;
         "pkg-1.21.11" = _gSx31Lul;
         "pkg-1.21.10-26.1.2" = _Pov7SjmT;
-        "default" = _Pov7SjmT;
+        "pkg-1.21.10-26.3+" = _aMIdXg4a;
+        "default" = _aMIdXg4a;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "slim-armor";

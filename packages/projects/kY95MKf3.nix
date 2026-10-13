@@ -186,6 +186,11 @@ let
             "file" = "EpicfightDd-20.14.1.18.0.jar";
             "hash" = "sha512-ejByrYz+tVuF626Ns0h0yy9Am5L1ussHpftAMJVnOhQuqF/YctjwKntdzMJB3abYxSEaHUaRgokSWkTQ6rOZdg==";
         };
+        _1A0wmDFo = {
+            "id" = "1A0wmDFo";
+            "file" = "EpicfightDd-20.14.1.19.0.jar";
+            "hash" = "sha512-YFbwFS5NEydTVMIGvE8WIttme5Sr9RXffp38Y2hO2cZqJfU0RYQV2gYMPnBYNUy11fbXr+22rIlaldgyVjrQgA==";
+        };
     in {
         "ZeSWGQGK" = _ZeSWGQGK;
         "ZSmSgKiP" = _ZSmSgKiP;
@@ -224,7 +229,8 @@ let
         "IPuregGG" = _IPuregGG;
         "kCZCK2dK" = _kCZCK2dK;
         "Td61ebW1" = _Td61ebW1;
-        "forge-1.20.1" = _Td61ebW1;
+        "1A0wmDFo" = _1A0wmDFo;
+        "forge-1.20.1" = _1A0wmDFo;
         "neoforge-1.21.1" = _kCZCK2dK;
         "pkg-20.14.1.0.0" = _ZeSWGQGK;
         "pkg-20.14.1.1.0" = _ZSmSgKiP;
@@ -263,7 +269,8 @@ let
         "pkg-20.14.1.18.0-beta" = _IPuregGG;
         "pkg-21.17.1.2.1" = _kCZCK2dK;
         "pkg-20.14.1.18.0" = _Td61ebW1;
-        "default" = _Td61ebW1;
+        "pkg-20.14.1.19.0" = _1A0wmDFo;
+        "default" = _1A0wmDFo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "epic-fight-dawn-day";

@@ -466,6 +466,26 @@ let
             "file" = "moonlightcore-fabric-26.1.2.8-beta.jar";
             "hash" = "sha512-Ep5eVm3NCbZfS6GonZT4blGPHk3Q7lxhxebwyrsd11rp7Ha/1liCpIgSQEAQaBR3CKVDACf8Q3fYNtvsGgHvog==";
         };
+        _Byot9qJw = {
+            "id" = "Byot9qJw";
+            "file" = "moonlightcore-neoforge-26.1.2.9-beta.jar";
+            "hash" = "sha512-250vidMR7zsV3iKmneAHBJ6Bs30BLrHZLZmMXF/nB5evtebNMWeE+kiwQphX7WCTPvQweO2ytBopP5ygD8cfJw==";
+        };
+        _G8N6UlxC = {
+            "id" = "G8N6UlxC";
+            "file" = "moonlightcore-fabric-26.1.2.9-beta.jar";
+            "hash" = "sha512-lbEEp0jX6RSgt/a+6Yt1Qt9SQAFTZXZ5Nvc8RL8dwIzc/Y8vZEk/TojYJ6TyqDQInP/Bo80mYnYDVF3Q5BAajg==";
+        };
+        _8yicpz1Z = {
+            "id" = "8yicpz1Z";
+            "file" = "moonlightcore-neoforge-26.1.2.10-beta.jar";
+            "hash" = "sha512-KLj/pmPC8bJMfGItZqmUDjaJGyh6xnT97oxn1b7p+vKlV1S+lxilHZO7QXyw5ZRetUZOiMu7kNIEpDan5sJz7A==";
+        };
+        _BBxcrEYp = {
+            "id" = "BBxcrEYp";
+            "file" = "moonlightcore-fabric-26.1.2.10-beta.jar";
+            "hash" = "sha512-ppExOCxTw+uuoYBWEWlFgsfI1gp/3XUUDySNyzdNrC/iz9sv5bh8TCWNqde/eDmCHd8ZX5vGNK9SZxy1Tu8Wkw==";
+        };
     in {
         "s35TdV2r" = _s35TdV2r;
         "vd5m6gMD" = _vd5m6gMD;
@@ -560,15 +580,19 @@ let
         "Kq8EWeBK" = _Kq8EWeBK;
         "iD0gqgL4" = _iD0gqgL4;
         "7feglvBq" = _7feglvBq;
+        "Byot9qJw" = _Byot9qJw;
+        "G8N6UlxC" = _G8N6UlxC;
+        "8yicpz1Z" = _8yicpz1Z;
+        "BBxcrEYp" = _BBxcrEYp;
         "fabric-1.21.1" = _zaMiHPWG;
         "fabric-1.20.1" = _vFtxy6fp;
-        "fabric-26.1" = _7feglvBq;
-        "fabric-26.1.1" = _7feglvBq;
-        "fabric-26.1.2" = _7feglvBq;
+        "fabric-26.1" = _BBxcrEYp;
+        "fabric-26.1.1" = _BBxcrEYp;
+        "fabric-26.1.2" = _BBxcrEYp;
         "neoforge-1.21.1" = _GHGyBrj9;
-        "neoforge-26.1" = _iD0gqgL4;
-        "neoforge-26.1.1" = _iD0gqgL4;
-        "neoforge-26.1.2" = _iD0gqgL4;
+        "neoforge-26.1" = _8yicpz1Z;
+        "neoforge-26.1.1" = _8yicpz1Z;
+        "neoforge-26.1.2" = _8yicpz1Z;
         "forge-1.20.1" = _uNpshtH1;
         "pkg-1.21.1-2.1.0" = _vd5m6gMD;
         "pkg-1.21.1-2.1.6" = _iCmHqm3c;
@@ -619,7 +643,9 @@ let
         "pkg-26.1.2.6-beta" = _QETzc9wQ;
         "pkg-26.1.2.7-beta" = _Kq8EWeBK;
         "pkg-26.1.2.8-beta" = _7feglvBq;
-        "default" = _7feglvBq;
+        "pkg-26.1.2.9-beta" = _G8N6UlxC;
+        "pkg-26.1.2.10-beta" = _BBxcrEYp;
+        "default" = _BBxcrEYp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wgc-moonlight-core";

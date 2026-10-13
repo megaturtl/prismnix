@@ -56,6 +56,11 @@ let
             "file" = "xaeroshare-1.3.0.jar";
             "hash" = "sha512-xAAO6CN99WFXE4dThFs0Mk8tC7P/yQi7ZoJb3xXNqgmXcIYedawGv8DK3Zt2Pt8GnnRw1DHMn0YE2dRKUXQQig==";
         };
+        _wlElG1ns = {
+            "id" = "wlElG1ns";
+            "file" = "xaeroshare-1.3.1.jar";
+            "hash" = "sha512-7tl+t+DBzBUckRqWZTyn+AcNda3v04Ufj8SleyEsyW1XK8DvcqqYy1qFFZ92bv3qhaotEQSGFAy8liGJHdI9GQ==";
+        };
     in {
         "NEWGC92m" = _NEWGC92m;
         "n6VyjLyi" = _n6VyjLyi;
@@ -68,6 +73,7 @@ let
         "7hPJgbHY" = _7hPJgbHY;
         "oqSG2WMK" = _oqSG2WMK;
         "cjiNmfGH" = _cjiNmfGH;
+        "wlElG1ns" = _wlElG1ns;
         "fabric-1.21.1" = _70I8Tvsz;
         "fabric-1.21.2" = _70I8Tvsz;
         "fabric-1.21.3" = _70I8Tvsz;
@@ -83,6 +89,7 @@ let
         "fabric-26.1.1" = _h5brd8kM;
         "fabric-26.1.2" = _oqSG2WMK;
         "fabric-26.2" = _cjiNmfGH;
+        "fabric-26.3" = _wlElG1ns;
         "paper-1.21.8" = _7hPJgbHY;
         "paper-1.21.9" = _7hPJgbHY;
         "paper-1.21.10" = _7hPJgbHY;
@@ -110,7 +117,8 @@ let
         "pkg-1.1.2-Paper" = _7hPJgbHY;
         "pkg-1.3.0" = _oqSG2WMK;
         "pkg-1.3.0+26.2" = _cjiNmfGH;
-        "default" = _cjiNmfGH;
+        "pkg-1.3.1" = _wlElG1ns;
+        "default" = _wlElG1ns;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "xaeroshare";

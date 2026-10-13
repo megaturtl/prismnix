@@ -66,6 +66,16 @@ let
             "file" = "thanasmekanismlights-NEOFORGE-1.4.1-1.21.1.jar";
             "hash" = "sha512-xAG4gPf0srSoX1sfGxsyrjSSD17LQZUqqxAHRYE52rnhzyG4cc5ZAyJKAtwT/KYHptQO6XfVa2zs7rPmdzOfHg==";
         };
+        _n1MqrlCj = {
+            "id" = "n1MqrlCj";
+            "file" = "thanasmekanismlights-FORGE-1.5.0-1.20.1.jar";
+            "hash" = "sha512-NP5Aeyk/eacw64i7BWUY3Fi9pDP8+yUQSiGwx3yb3K7GkuXmX+5XEGlIzl6ERUro6gen3luNxfr4l1yq7xhSog==";
+        };
+        _jh9h14Sg = {
+            "id" = "jh9h14Sg";
+            "file" = "thanasmekanismlights-NEOFORGE-1.5.0-1.21.1.jar";
+            "hash" = "sha512-otgem7yptivn3ztnLEovE9NpwXuaPQLZ7WoO6SMHLICf9jIpQNAxCyR19LU+V54taf4hUFDnKerABIyD3IPzXw==";
+        };
     in {
         "6Jvd6jUX" = _6Jvd6jUX;
         "DtOvZpfs" = _DtOvZpfs;
@@ -80,8 +90,10 @@ let
         "axA1qUEi" = _axA1qUEi;
         "VY5x5JvR" = _VY5x5JvR;
         "jR4TrzwL" = _jR4TrzwL;
-        "forge-1.20.1" = _VY5x5JvR;
-        "neoforge-1.21.1" = _jR4TrzwL;
+        "n1MqrlCj" = _n1MqrlCj;
+        "jh9h14Sg" = _jh9h14Sg;
+        "forge-1.20.1" = _n1MqrlCj;
+        "neoforge-1.21.1" = _jh9h14Sg;
         "pkg-1.1.0-1.20.1" = _6Jvd6jUX;
         "pkg-1.2.0-1.20.1" = _DtOvZpfs;
         "pkg-1.2.1-1.20.1" = _20m3BVnR;
@@ -93,7 +105,9 @@ let
         "pkg-1.4.0+neoforge-1.21.1" = _axA1qUEi;
         "pkg-1.4.1+forge-1.20.1" = _VY5x5JvR;
         "pkg-1.4.1+neoforge-1.21.1" = _jR4TrzwL;
-        "default" = _jR4TrzwL;
+        "pkg-1.5.0+forge-1.20.1" = _n1MqrlCj;
+        "pkg-1.5.0+neoforge-1.21.1" = _jh9h14Sg;
+        "default" = _jh9h14Sg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mekanism-lights";

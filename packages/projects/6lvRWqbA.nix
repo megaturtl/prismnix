@@ -181,6 +181,26 @@ let
             "file" = "enderitemod-neoforge-26.2-1.9.1.jar";
             "hash" = "sha512-al/Rt1Wt1+tTZCfZfsI1gjzO8TzVik3q4RnRqyEXtmkgJeE5sVqEW5J2Q76AltYJ/hVrJnLyWfObMHkcAEZ3lA==";
         };
+        _vPHNz8cx = {
+            "id" = "vPHNz8cx";
+            "file" = "enderitemod-neoforge-26.3-1.10.0.jar";
+            "hash" = "sha512-PdUQu12CnRvLzkJrf3qSPizTIrXPSl8A1odDcqR3iESdDjCzfcjSC4DKBwhD4LXaqVMuimuRumsdpANNA1IG/A==";
+        };
+        _sqP6z7QR = {
+            "id" = "sqP6z7QR";
+            "file" = "enderitemod-fabric-26.3-1.10.0.jar";
+            "hash" = "sha512-tynBEwIYb2IMF8iQUZYwQbte9h+H9yt+ijppHa1l6JONev0CmK/vT4xIuPVJoLrVzCcFYxyTLYuz2iJ5WmktRw==";
+        };
+        _YpNz9KMV = {
+            "id" = "YpNz9KMV";
+            "file" = "enderitemod-fabric-1.6.3.jar";
+            "hash" = "sha512-HnoqCJBT7nCgRpMU6IMKNGSq3UiBb4K1q4PBMjCA0RKyrqnxraZarbgFFwTmivVClf578WYFkAs3aLnxzd08Mw==";
+        };
+        _u97vFgX6 = {
+            "id" = "u97vFgX6";
+            "file" = "enderitemod-neoforge-1.6.3.jar";
+            "hash" = "sha512-pd5OC3/e14tm8sPdsRdbGHxtfQbvHOokHthJGvOThdWrlFa99PDVR3G3DKKFfsmTcd0hoNNIjPB9EKPZVsDEaw==";
+        };
     in {
         "NOaW2pbm" = _NOaW2pbm;
         "yYNHgH3S" = _yYNHgH3S;
@@ -218,11 +238,15 @@ let
         "zym6Bm6y" = _zym6Bm6y;
         "vJAJXXxF" = _vJAJXXxF;
         "ztz5xOet" = _ztz5xOet;
+        "vPHNz8cx" = _vPHNz8cx;
+        "sqP6z7QR" = _sqP6z7QR;
+        "YpNz9KMV" = _YpNz9KMV;
+        "u97vFgX6" = _u97vFgX6;
         "fabric-1.20" = _nY9n0Vnn;
         "fabric-1.20.1" = _nY9n0Vnn;
         "fabric-1.20.2" = _J6dswXPe;
         "fabric-1.21" = _iClqzbin;
-        "fabric-1.21.1" = _iClqzbin;
+        "fabric-1.21.1" = _YpNz9KMV;
         "fabric-1.21.2" = _lxf7QWlb;
         "fabric-1.21.3" = _lxf7QWlb;
         "fabric-1.21.4" = _q6RkOkwF;
@@ -235,11 +259,12 @@ let
         "fabric-1.21.11" = _VJqLE3Ux;
         "fabric-26.1.2" = _Fh7UkpCU;
         "fabric-26.2" = _vJAJXXxF;
+        "fabric-26.3" = _sqP6z7QR;
         "forge-1.20" = _X2YeGX9Q;
         "forge-1.20.1" = _X2YeGX9Q;
         "forge-1.20.2" = _yxqdgcS6;
         "neoforge-1.21" = _E20E5b4v;
-        "neoforge-1.21.1" = _E20E5b4v;
+        "neoforge-1.21.1" = _u97vFgX6;
         "neoforge-1.21.2" = _21YO0EKI;
         "neoforge-1.21.3" = _21YO0EKI;
         "neoforge-1.21.4" = _zaUZCt61;
@@ -252,6 +277,7 @@ let
         "neoforge-1.21.11" = _A3pwBf8d;
         "neoforge-26.1.2" = _77dMkc9l;
         "neoforge-26.2" = _ztz5xOet;
+        "neoforge-26.3" = _vPHNz8cx;
         "pkg-1.5.0" = _d6OpzkvZ;
         "pkg-1.5.1" = _nY9n0Vnn;
         "pkg-1.6.1" = _fHC9FcGW;
@@ -267,7 +293,9 @@ let
         "pkg-1.8.3" = _77dMkc9l;
         "pkg-1.9.0" = _zym6Bm6y;
         "pkg-1.9.1" = _ztz5xOet;
-        "default" = _ztz5xOet;
+        "pkg-1.10.0" = _sqP6z7QR;
+        "pkg-1.6.3" = _u97vFgX6;
+        "default" = _u97vFgX6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enderite-mod";

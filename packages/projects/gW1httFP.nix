@@ -211,6 +211,36 @@ let
             "file" = "awesomedungeonnether-fabric-1.21.11-3.1.1.jar";
             "hash" = "sha512-GNiZJl4N8mqsY8r4PiqifXFt3wUjNiwnyo57lD+HwKKVlpuZJjxNGreAjENKFA5c8CZvIsk5iEHtqSR95/qf7w==";
         };
+        _vFfIryo0 = {
+            "id" = "vFfIryo0";
+            "file" = "awesomedungeonnether-forge-26.2-5.0.0.jar";
+            "hash" = "sha512-+YTGEzU0t7jp+ukb2kkVgPYhSDY5u391Od1sNBxV+8+OhdwK9Z7eTvtE+MNfkyhyTZa+1P8uhaIk70FaYIdq1g==";
+        };
+        _xQsGh4km = {
+            "id" = "xQsGh4km";
+            "file" = "awesomedungeonnether-neoforge-26.2-5.0.0.jar";
+            "hash" = "sha512-ZV2IAikuIS6BUwmM03xqkMd8Qp7MS/QNwvFDUrvtKWnQuDCiV3geBlKt67A17f7Ulf5l/kCyxH8I4vHOirF36w==";
+        };
+        _A8OL7tJ9 = {
+            "id" = "A8OL7tJ9";
+            "file" = "awesomedungeonnether-fabric-26.2-5.0.0.jar";
+            "hash" = "sha512-92XHaUgdjnTip/2OE7j8zswUpvv/8zdmxwuVc98CvAfKqpW0jMRoEXnqTN3GsVYA26VaVeIlQAj1oQ/69WRxjw==";
+        };
+        _EU6IQGBF = {
+            "id" = "EU6IQGBF";
+            "file" = "awesomedungeonnether-fabric-26.2-5.0.1.jar";
+            "hash" = "sha512-fDZHSkudUEi9R1ajTEDo49fhFFb1TU7sSJgvNJW5YwhDI/M6SKuWWkJsAvDmIL6phN58kMy1Q+rX0K7LV06a+A==";
+        };
+        _hmUWrRTF = {
+            "id" = "hmUWrRTF";
+            "file" = "awesomedungeonnether-forge-26.2-5.0.1.jar";
+            "hash" = "sha512-vIq4wh5q6+Pr23aKmGpFG1q4yB3Haq1WoP14RKZPdoIynFSxVsnj6kUuEDV6piE5Ew8Brv1Uudlm1urZ4Y7E6Q==";
+        };
+        _fgq1OtC9 = {
+            "id" = "fgq1OtC9";
+            "file" = "awesomedungeonnether-neoforge-26.2-5.0.1.jar";
+            "hash" = "sha512-GHsNmBq9wciUO0i8Nyd7XgYMZ9BLtQu19zdjRhHm//ECRrrUvm6AJPXJhjNP+UZFHgxkWwo4ePeQ5uHv5doxOA==";
+        };
     in {
         "6ChKwRGc" = _6ChKwRGc;
         "7eYDeJe5" = _7eYDeJe5;
@@ -254,6 +284,12 @@ let
         "nEFfWsDI" = _nEFfWsDI;
         "BNuArovY" = _BNuArovY;
         "QI6ahrlH" = _QI6ahrlH;
+        "vFfIryo0" = _vFfIryo0;
+        "xQsGh4km" = _xQsGh4km;
+        "A8OL7tJ9" = _A8OL7tJ9;
+        "EU6IQGBF" = _EU6IQGBF;
+        "hmUWrRTF" = _hmUWrRTF;
+        "fgq1OtC9" = _fgq1OtC9;
         "forge-1.16.5" = _6ChKwRGc;
         "forge-1.19.4" = _aSurRumB;
         "forge-1.20.1" = _x2mdkok9;
@@ -270,6 +306,7 @@ let
         "forge-1.21.7" = _142wbLkV;
         "forge-1.21.8" = _LBDoHy6p;
         "forge-1.21.9" = _nEFfWsDI;
+        "forge-26.2" = _hmUWrRTF;
         "fabric-1.16.5" = _7eYDeJe5;
         "fabric-1.19.4" = _INg1oXjo;
         "fabric-1.20.1" = _MmGUMBF2;
@@ -291,13 +328,17 @@ let
         "fabric-1.21.9" = _57TC3Ara;
         "fabric-1.21.10" = _BNuArovY;
         "fabric-1.21.11" = _QI6ahrlH;
+        "fabric-26.2" = _EU6IQGBF;
         "neoforge-1.20.2" = _wP1fz77Q;
         "neoforge-1.20.3" = _R3SAhyQ6;
         "neoforge-1.20.4" = _Wg1tT2UJ;
         "neoforge-1.20.5" = _3J46enKZ;
         "neoforge-1.20.6" = _8pkhSL4i;
+        "neoforge-26.2" = _fgq1OtC9;
         "pkg-3.1.1" = _QI6ahrlH;
-        "default" = _QI6ahrlH;
+        "pkg-5.0.0" = _A8OL7tJ9;
+        "pkg-5.0.1" = _fgq1OtC9;
+        "default" = _fgq1OtC9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "awesome-dungeon-nether";

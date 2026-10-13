@@ -31,6 +31,11 @@ let
             "file" = "purrfect-1.20.1-0.1.5.jar";
             "hash" = "sha512-49iP1M2n8P9qO69mvO3Ge8yY97KDhIa0GnnUWLqFX3lIi9aNAudbfgAF1rTJ02R6lsF8v8vjFpFraSWAJZETBw==";
         };
+        _OegoxdnB = {
+            "id" = "OegoxdnB";
+            "file" = "purrfect-1.20.1-0.1.6.jar";
+            "hash" = "sha512-mQujmFv0t/b3gDGdg1rcOzRwYea5SmLlEjvAL5lc2IQDnzceySZ31tPlKKOqHJ1MLootXNsFI58+/5IOZsggHg==";
+        };
     in {
         "Gjpl0Bxz" = _Gjpl0Bxz;
         "VZaaBwKM" = _VZaaBwKM;
@@ -38,14 +43,16 @@ let
         "BFkYDoxX" = _BFkYDoxX;
         "gwK9CM9d" = _gwK9CM9d;
         "7Q0ZITBq" = _7Q0ZITBq;
-        "forge-1.20.1" = _7Q0ZITBq;
+        "OegoxdnB" = _OegoxdnB;
+        "forge-1.20.1" = _OegoxdnB;
         "pkg-1.20.1-0.1" = _Gjpl0Bxz;
         "pkg-1.20.1-0.1.1" = _VZaaBwKM;
         "pkg-1.20.1-0.1.2" = _QA7iHna1;
         "pkg-1.20.1-0.1.3" = _BFkYDoxX;
         "pkg-1.20.1-0.1.4" = _gwK9CM9d;
         "pkg-1.20.1-0.1.5" = _7Q0ZITBq;
-        "default" = _7Q0ZITBq;
+        "pkg-1.20.1-0.1.6" = _OegoxdnB;
+        "default" = _OegoxdnB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "purrfect";

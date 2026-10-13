@@ -161,6 +161,11 @@ let
             "file" = "one-block-neoforge-26.3.jar";
             "hash" = "sha512-f8cPwXLV2aalKAlt+6G0nVN5Yvh3TNWWPIWr1j4gqZXsGmhw2LyLakwZ5WlY1+FhU5k7jYuMVvTnZWovXsXe4A==";
         };
+        _GdwbvGGe = {
+            "id" = "GdwbvGGe";
+            "file" = "one-block-fabric-26.1-26.2.jar";
+            "hash" = "sha512-BnRoISjo2V0mM/nXoyZvpoRO5RbTnuzCUw/jNYyvypEZAjUz6EJ3WroNN8R/PxiA/WalVsPuVMSHeLfqgY5B1g==";
+        };
     in {
         "dR45713z" = _dR45713z;
         "pPkoC09u" = _pPkoC09u;
@@ -194,6 +199,7 @@ let
         "hnodENSs" = _hnodENSs;
         "6oUywJhp" = _6oUywJhp;
         "azDM7huf" = _azDM7huf;
+        "GdwbvGGe" = _GdwbvGGe;
         "datapack-1.18.2" = _dR45713z;
         "datapack-1.18" = _pPkoC09u;
         "datapack-1.18.1" = _pPkoC09u;
@@ -232,10 +238,10 @@ let
         "datapack-26.4-snapshot-1" = _jJAFDTze;
         "datapack-26.4-snapshot-2" = _jJAFDTze;
         "datapack-26.4-snapshot-3" = _jJAFDTze;
-        "fabric-26.1" = _wHEEL8vD;
-        "fabric-26.1.1" = _wHEEL8vD;
-        "fabric-26.1.2" = _wHEEL8vD;
-        "fabric-26.2" = _wHEEL8vD;
+        "fabric-26.1" = _GdwbvGGe;
+        "fabric-26.1.1" = _GdwbvGGe;
+        "fabric-26.1.2" = _GdwbvGGe;
+        "fabric-26.2" = _GdwbvGGe;
         "fabric-26.3-pre-1" = _4FeeW9RC;
         "fabric-26.3-pre-2" = _4FeeW9RC;
         "fabric-26.3-pre-3" = _4FeeW9RC;
@@ -264,7 +270,8 @@ let
         "pkg-2.2.0+1.21.9" = _hnodENSs;
         "pkg-2.2.0+26.3-fabric" = _6oUywJhp;
         "pkg-2.2.0+26.3-neoforge" = _azDM7huf;
-        "default" = _azDM7huf;
+        "pkg-2.2.0+26.1-fabric" = _GdwbvGGe;
+        "default" = _GdwbvGGe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "one-block-game";

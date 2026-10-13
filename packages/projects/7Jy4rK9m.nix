@@ -151,6 +151,11 @@ let
             "file" = "aces_spell_utils-1.2.7.3-1.21.1.jar";
             "hash" = "sha512-Lg8fZJYOp01qlMF25S5lXgJjM+mPMEGGL4rpDgAjZOjtWHAH7/P0tcAE9diCW1Y062hneptnVzfdKKpeZ+j+0Q==";
         };
+        _KKU7lsAt = {
+            "id" = "KKU7lsAt";
+            "file" = "aces_spell_utils-1.2.7.4-1.21.1.jar";
+            "hash" = "sha512-AVAofy5SD9HmxchHDBQr/uSDMrprsgWDi1PcecJkpjMtviBEvHYrKlSQr6kFoYYHb6Z/r17o0sLiuqWZzPz0gw==";
+        };
     in {
         "YSaTuXeQ" = _YSaTuXeQ;
         "a60L5Xdg" = _a60L5Xdg;
@@ -182,7 +187,8 @@ let
         "jnVICl5O" = _jnVICl5O;
         "EAOu0XOs" = _EAOu0XOs;
         "wYmlSFVb" = _wYmlSFVb;
-        "neoforge-1.21.1" = _wYmlSFVb;
+        "KKU7lsAt" = _KKU7lsAt;
+        "neoforge-1.21.1" = _KKU7lsAt;
         "pkg-1.1.6-1.21.1" = _YSaTuXeQ;
         "pkg-1.1.7-1.21.1" = _a60L5Xdg;
         "pkg-1.1.8-1.21.1" = _kWFNXo7x;
@@ -213,7 +219,8 @@ let
         "pkg-1.2.7.1-1.21.1" = _jnVICl5O;
         "pkg-1.2.7.2-1.21.1" = _EAOu0XOs;
         "pkg-1.2.7.3-1.21.1" = _wYmlSFVb;
-        "default" = _wYmlSFVb;
+        "pkg-1.2.7.4-1.21.1" = _KKU7lsAt;
+        "default" = _KKU7lsAt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "aces-spell-utils";

@@ -101,6 +101,16 @@ let
             "file" = "perfectplushies-fabric-1.20.1-1.13.3.jar";
             "hash" = "sha512-AJ3PC8dGWAQl/474aoeIBBOMwPT0zC2MkbHNB2BCenH6B7M8OvhdVmIoMd58jAos0j7PYJiOS0hDVmYPD+xQsw==";
         };
+        _Dl9XyELR = {
+            "id" = "Dl9XyELR";
+            "file" = "perfectplushies-fabric-1.21.1-1.13.3.jar";
+            "hash" = "sha512-IpmnyZbfFZULHBwhz5Xq1rvWL2pU2xfjNLFT2M5/JLr/W4zoRjLrCRaHe4MI09q3YY1sfqzw1omvR4mNNAR55A==";
+        };
+        _945EmhYc = {
+            "id" = "945EmhYc";
+            "file" = "perfectplushies-neoforge-1.21.1-1.13.3.jar";
+            "hash" = "sha512-W/7B1yFlNN7OPx1ctdtCgx0wCX9X3zF/HStOoRtCoPgn25axqLtFRYLcVOGXbYpNRfcDqA6HGhPYWYu1nsgYsQ==";
+        };
     in {
         "pgG6s8V4" = _pgG6s8V4;
         "OKR7jA3N" = _OKR7jA3N;
@@ -122,10 +132,14 @@ let
         "D6jUMfBF" = _D6jUMfBF;
         "nFBjecVW" = _nFBjecVW;
         "9ilpOTK1" = _9ilpOTK1;
+        "Dl9XyELR" = _Dl9XyELR;
+        "945EmhYc" = _945EmhYc;
         "fabric-1.20" = _pgG6s8V4;
         "fabric-1.20.1" = _9ilpOTK1;
+        "fabric-1.21.1" = _Dl9XyELR;
         "forge-1.20" = _OKR7jA3N;
         "forge-1.20.1" = _nFBjecVW;
+        "neoforge-1.21.1" = _945EmhYc;
         "pkg-1.8.0" = _OKR7jA3N;
         "pkg-1.9.0" = _lWdQkgjM;
         "pkg-1.10.0" = _XGseZLt8;
@@ -136,8 +150,8 @@ let
         "pkg-1.13.0" = _UofRC68H;
         "pkg-1.13.1" = _eNsOeRgE;
         "pkg-1.13.2" = _D6jUMfBF;
-        "pkg-1.13.3" = _9ilpOTK1;
-        "default" = _9ilpOTK1;
+        "pkg-1.13.3" = _945EmhYc;
+        "default" = _945EmhYc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "perfect-plushies";

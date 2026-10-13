@@ -226,6 +226,16 @@ let
             "file" = "Incendium_Legacy_v5.5.3+26.3.zip";
             "hash" = "sha512-aUS/Ius2dV0v4SWGjI0JL7M4wXwp4yVKLhlOI6CATgZhb8QAOPhBLNuHsYK0QW7E44o5nAJkTHw66VV7y6UB+A==";
         };
+        _D4vWUd23 = {
+            "id" = "D4vWUd23";
+            "file" = "Incendium_26.3_v5.5.4+26.3.jar";
+            "hash" = "sha512-m+PGFKar0NS3HIhc94I89NxiUrAGtKFkWl+DGQFydWNLm6oiQT/LXxZk6yapc8c7BDnKbSRmnjSuN5ZTE/vVdA==";
+        };
+        _1phtTdhj = {
+            "id" = "1phtTdhj";
+            "file" = "Incendium_Legacy_v5.5.4+26.3.zip";
+            "hash" = "sha512-0eJnm7dI8UO2ESdErLRUBckmjdYNnXVjxAKBvF6CrfADZUA1IdrKtWNmji6EMzvQhCOaJIWwGYHwMKGotU+E5w==";
+        };
     in {
         "xnhu8xeb" = _xnhu8xeb;
         "NoanBvKE" = _NoanBvKE;
@@ -272,6 +282,8 @@ let
         "2QitfRYN" = _2QitfRYN;
         "vMABj7fb" = _vMABj7fb;
         "vV8n8tu0" = _vV8n8tu0;
+        "D4vWUd23" = _D4vWUd23;
+        "1phtTdhj" = _1phtTdhj;
         "fabric-1.18.2" = _QzTAZ3vy;
         "fabric-1.19" = _ednvmJkC;
         "fabric-1.19.1" = _ednvmJkC;
@@ -301,7 +313,7 @@ let
         "fabric-26.1.1" = _dmD183NM;
         "fabric-26.1.2" = _dmD183NM;
         "fabric-26.2" = _vPwuqZ5y;
-        "fabric-26.3" = _vMABj7fb;
+        "fabric-26.3" = _D4vWUd23;
         "forge-1.18.2" = _QzTAZ3vy;
         "forge-1.19" = _ednvmJkC;
         "forge-1.19.1" = _ednvmJkC;
@@ -331,7 +343,7 @@ let
         "forge-26.1.1" = _dmD183NM;
         "forge-26.1.2" = _dmD183NM;
         "forge-26.2" = _vPwuqZ5y;
-        "forge-26.3" = _vMABj7fb;
+        "forge-26.3" = _D4vWUd23;
         "quilt-1.18.2" = _QzTAZ3vy;
         "quilt-1.19" = _ednvmJkC;
         "quilt-1.19.1" = _ednvmJkC;
@@ -361,7 +373,7 @@ let
         "quilt-26.1.1" = _dmD183NM;
         "quilt-26.1.2" = _dmD183NM;
         "quilt-26.2" = _vPwuqZ5y;
-        "quilt-26.3" = _vMABj7fb;
+        "quilt-26.3" = _D4vWUd23;
         "neoforge-1.20" = _uUqarp2H;
         "neoforge-1.20.1" = _uUqarp2H;
         "neoforge-1.20.2" = _uUqarp2H;
@@ -385,7 +397,7 @@ let
         "neoforge-26.1.1" = _dmD183NM;
         "neoforge-26.1.2" = _dmD183NM;
         "neoforge-26.2" = _vPwuqZ5y;
-        "neoforge-26.3" = _vMABj7fb;
+        "neoforge-26.3" = _D4vWUd23;
         "datapack-1.18.2" = _7z59cBI7;
         "datapack-1.19" = _Z9diX3zK;
         "datapack-1.19.1" = _Z9diX3zK;
@@ -415,7 +427,7 @@ let
         "datapack-26.1.1" = _l721IuKU;
         "datapack-26.1.2" = _l721IuKU;
         "datapack-26.2" = _fCO5u5MF;
-        "datapack-26.3" = _vV8n8tu0;
+        "datapack-26.3" = _1phtTdhj;
         "pkg-5.0.6" = _xnhu8xeb;
         "pkg-5.1.4" = _NoanBvKE;
         "pkg-5.1.5" = _S6fQNiYx;
@@ -444,7 +456,8 @@ let
         "pkg-5.5.1" = _fCO5u5MF;
         "pkg-5.5.2+26.3" = _2QitfRYN;
         "pkg-5.5.3+26.3" = _vV8n8tu0;
-        "default" = _vV8n8tu0;
+        "pkg-5.5.4+26.3" = _1phtTdhj;
+        "default" = _1phtTdhj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "incendium";

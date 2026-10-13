@@ -216,6 +216,16 @@ let
             "file" = "letsdo-candlelight-fabric-2.1.14.jar";
             "hash" = "sha512-1gtmqRt+WFfvtt7DJzJjheMjXQUekQnnHlDjMhsyPdnhtS2QJdx/uKCH/bbj6L0nwaD5dvMe6CvF+ayc/mov0Q==";
         };
+        _4QhmIK8c = {
+            "id" = "4QhmIK8c";
+            "file" = "letsdo-candlelight-neoforge-2.1.15.jar";
+            "hash" = "sha512-oKWWtEWkbqFDIFmS74hh7mk3zN84/K3MHyASwRRamWaIcHJUBtLT63VrlHZtialgoogmcMwUo3Guknh3fM32kw==";
+        };
+        _nEEi346M = {
+            "id" = "nEEi346M";
+            "file" = "letsdo-candlelight-fabric-2.1.15.jar";
+            "hash" = "sha512-UlSGeXshI/r+tCzMjv+xx5T7+VSh5LwcLhwgtT89xpLjB1eAzkfOvjli7BT2jaQCP07DsarjpY8n3XXK5fPoHA==";
+        };
     in {
         "mEISW07u" = _mEISW07u;
         "B9iuo4HQ" = _B9iuo4HQ;
@@ -260,11 +270,13 @@ let
         "DEKqjSw9" = _DEKqjSw9;
         "aa3WioYe" = _aa3WioYe;
         "tdvaSxlF" = _tdvaSxlF;
+        "4QhmIK8c" = _4QhmIK8c;
+        "nEEi346M" = _nEEi346M;
         "forge-1.20.1" = _MAbMsxdU;
         "neoforge-1.20.1" = _MAbMsxdU;
-        "neoforge-1.21.1" = _aa3WioYe;
+        "neoforge-1.21.1" = _4QhmIK8c;
         "fabric-1.20.1" = _RUk2PHO1;
-        "fabric-1.21.1" = _tdvaSxlF;
+        "fabric-1.21.1" = _nEEi346M;
         "quilt-1.20.1" = _RUk2PHO1;
         "pkg-2.0.0" = _B9iuo4HQ;
         "pkg-2.0.1" = _fyYt9JrN;
@@ -288,7 +300,8 @@ let
         "pkg-2.1.12" = _d67ufvNS;
         "pkg-2.1.13" = _DEKqjSw9;
         "pkg-2.1.14" = _tdvaSxlF;
-        "default" = _tdvaSxlF;
+        "pkg-2.1.15" = _nEEi346M;
+        "default" = _nEEi346M;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lets-do-candlelight-farmcharm-compat";

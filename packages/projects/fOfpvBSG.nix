@@ -11,9 +11,15 @@ let
             "file" = "§3Fresh §bFlower Pots 3D.zip";
             "hash" = "sha512-bVLpeQn7Pw2nR9sPHU+bFNP9RNSxECWt2VrJuIhGMBeMGOA1ZsZs3+mzxozAA2cOyefjrxVkeElFatfLVsBK3g==";
         };
+        _ABrNAwTA = {
+            "id" = "ABrNAwTA";
+            "file" = "§3Fresh §bFlower Pots 3D.zip";
+            "hash" = "sha512-YzUlFiRklRNnXbSS1CqSzMF7z5TWa1D41dl9hx8ejaHAMWSKY4LegQ1ac4v4JfmBD5kJxYcwyw12hBPnin9JCw==";
+        };
     in {
         "sFYBGcQS" = _sFYBGcQS;
         "3SE2evLY" = _3SE2evLY;
+        "ABrNAwTA" = _ABrNAwTA;
         "minecraft-1.20" = _3SE2evLY;
         "minecraft-1.20.1" = _3SE2evLY;
         "minecraft-1.20.2" = _3SE2evLY;
@@ -33,9 +39,15 @@ let
         "minecraft-1.21.9" = _3SE2evLY;
         "minecraft-1.21.10" = _3SE2evLY;
         "minecraft-1.21.11" = _3SE2evLY;
+        "minecraft-26.1" = _ABrNAwTA;
+        "minecraft-26.1.1" = _ABrNAwTA;
+        "minecraft-26.1.2" = _ABrNAwTA;
+        "minecraft-26.2" = _ABrNAwTA;
+        "minecraft-26.3" = _ABrNAwTA;
         "pkg-1.0.0" = _sFYBGcQS;
         "pkg-1.1.0" = _3SE2evLY;
-        "default" = _3SE2evLY;
+        "pkg-1.2.0" = _ABrNAwTA;
+        "default" = _ABrNAwTA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fresh-flower-pots-3d";

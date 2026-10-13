@@ -136,6 +136,16 @@ let
             "file" = "village-quest-2.4.2-mc26.3.jar";
             "hash" = "sha512-Qfge61XVJv2F3bQG4C563/1dCEoGdU7mp2/pcsHPAOnlzoNos7Uz1tHdyUcIeQtEbTG0b54A+S563px6dcXIjg==";
         };
+        _vhhmN4HZ = {
+            "id" = "vhhmN4HZ";
+            "file" = "village-quest-2.5.0-mc26.3.jar";
+            "hash" = "sha512-Nmt6WaWVYXDoFnwVqSO8fL93p1IIDMFkYDhSqG1Y9zA2vImIrsnNzJC74FW/Am2w8A4ryi3l5psmQ0cvthr90A==";
+        };
+        _GRip3Uza = {
+            "id" = "GRip3Uza";
+            "file" = "village-quest-2.5.0-mc26.2.jar";
+            "hash" = "sha512-9QM6JY+E5FQZs1fd+O2ADrxXV/PsImVJhjayN9f3YhfxVHU2jnQp4Ws4jw/X/uAKpXlsOovaDlpvgSeCFM3Eqw==";
+        };
     in {
         "DPj4uKXA" = _DPj4uKXA;
         "VxMCipTK" = _VxMCipTK;
@@ -164,10 +174,12 @@ let
         "ggK3RboM" = _ggK3RboM;
         "xGKu60mY" = _xGKu60mY;
         "j5b1VKJ6" = _j5b1VKJ6;
+        "vhhmN4HZ" = _vhhmN4HZ;
+        "GRip3Uza" = _GRip3Uza;
         "fabric-1.21.11" = _61s1Hbnc;
         "fabric-26.1.2" = _LnUo7IDC;
-        "fabric-26.2" = _xGKu60mY;
-        "fabric-26.3" = _j5b1VKJ6;
+        "fabric-26.2" = _GRip3Uza;
+        "fabric-26.3" = _vhhmN4HZ;
         "pkg-1.22.5" = _VxMCipTK;
         "pkg-1.22.6" = _f1sI0OsV;
         "pkg-1.22.7" = _MJEt7DjP;
@@ -180,7 +192,8 @@ let
         "pkg-2.4.0" = _o0b82kKa;
         "pkg-2.4.1" = _ggK3RboM;
         "pkg-2.4.2" = _j5b1VKJ6;
-        "default" = _j5b1VKJ6;
+        "pkg-2.5.0" = _GRip3Uza;
+        "default" = _GRip3Uza;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "village-quest";

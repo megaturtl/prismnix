@@ -41,6 +41,26 @@ let
             "file" = "HatsRenewed-20.1.1-mc1.20.1-forge.jar";
             "hash" = "sha512-79mBlAU/wN6ohYWiJT/DPoJOZ9SsX1uLKsrTbgbmPBDyNVYdPyrBiA0yczLcWEmSLO55SeCw3/DzxMScsk4gbA==";
         };
+        _gM7ekyw5 = {
+            "id" = "gM7ekyw5";
+            "file" = "HatsRenewed-21.1.2-mc1.21.1-neoforge.jar";
+            "hash" = "sha512-p666pXNovKO7Tat4x26zT8vEYFaYQCd7xFJj0O+jAFldfBH6W1nhDg+87Bzwvy7AZhmGJdCa5oyQEl5BTLQD3Q==";
+        };
+        _MwkPOqiO = {
+            "id" = "MwkPOqiO";
+            "file" = "HatsRenewed-21.1.2-mc1.21.1-fabric.jar";
+            "hash" = "sha512-FMykM2Mvget+O401ag/hUplYEFI8irY3TWU81u9YRElCB2k2iBQqnxpZDBZEZQ3+SU93C6XYg1XAdtyeE+xA3w==";
+        };
+        _wMPzs8GG = {
+            "id" = "wMPzs8GG";
+            "file" = "HatsRenewed-20.1.2-mc1.20.1-forge.jar";
+            "hash" = "sha512-wD8ZIK+S1Oz3z3lSk63lUy/yJP8fwY2CazPIdjvro/NBkoYfF8FFbxrG7xCLcCZP1kKuXBIFY0Sdlb/YfN+xQg==";
+        };
+        _Plv8QE2C = {
+            "id" = "Plv8QE2C";
+            "file" = "HatsRenewed-20.1.2-mc1.20.1-fabric.jar";
+            "hash" = "sha512-ra+9/y7ggLyFORvgD4E1O8or94fvymRmHB9Wpr2NQLkFXo4kNTq7aie2Qn1qY8l+EWFCLI3+A3z+ozLgkYwfIA==";
+        };
     in {
         "E1Rbqtvf" = _E1Rbqtvf;
         "1VhnyKyq" = _1VhnyKyq;
@@ -50,17 +70,25 @@ let
         "NBH8d3n1" = _NBH8d3n1;
         "HUATk0IK" = _HUATk0IK;
         "onyjPBKs" = _onyjPBKs;
-        "forge-1.20.1" = _onyjPBKs;
-        "fabric-1.20.1" = _HUATk0IK;
-        "fabric-1.21.1" = _NBH8d3n1;
-        "neoforge-1.21.1" = _nwPKYB3g;
+        "gM7ekyw5" = _gM7ekyw5;
+        "MwkPOqiO" = _MwkPOqiO;
+        "wMPzs8GG" = _wMPzs8GG;
+        "Plv8QE2C" = _Plv8QE2C;
+        "forge-1.20.1" = _wMPzs8GG;
+        "fabric-1.20.1" = _Plv8QE2C;
+        "fabric-1.21.1" = _MwkPOqiO;
+        "neoforge-1.21.1" = _gM7ekyw5;
         "pkg-20.1.0-mc1.20.1" = _1VhnyKyq;
         "pkg-21.1.0-mc1.21.1" = _z88QPMhc;
         "pkg-21.1.1-mc1.21.1-neoforge" = _nwPKYB3g;
         "pkg-21.1.1-mc1.21.1-fabric" = _NBH8d3n1;
         "pkg-20.1.1-mc1.20.1-fabric" = _HUATk0IK;
         "pkg-20.1.1-mc1.20.1-forge" = _onyjPBKs;
-        "default" = _onyjPBKs;
+        "pkg-21.1.2-mc1.21.1-neoforge" = _gM7ekyw5;
+        "pkg-21.1.2-mc1.21.1-fabric" = _MwkPOqiO;
+        "pkg-20.1.2-mc1.20.1-forge" = _wMPzs8GG;
+        "pkg-20.1.2-mc1.20.1-fabric" = _Plv8QE2C;
+        "default" = _Plv8QE2C;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hats-renewed";

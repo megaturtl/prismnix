@@ -231,6 +231,11 @@ let
             "file" = "nemos_campfires-26.3-2.6.jar";
             "hash" = "sha512-Ym8HXlb1+4V8gvC1znfUCplBUPY/lcbNYOlHAuWi0+lK2HuKeqKYHmMkW2C/rrn/Tdo6MwX5rPWy39SjR0PRWg==";
         };
+        _KrrZhE4T = {
+            "id" = "KrrZhE4T";
+            "file" = "nemos_campfires-26.3-2.6.1.jar";
+            "hash" = "sha512-cwuD7VVRbh+Lpi8b0wFSBa2OjQ4rUYYOaBClrh9GyoEpU9dt/t0xiSxuwuWlvV+xQJQQbUt5JhMrNWa6P/IFJQ==";
+        };
     in {
         "giJEWfwV" = _giJEWfwV;
         "LwRZPSpL" = _LwRZPSpL;
@@ -278,6 +283,7 @@ let
         "omHbq6mQ" = _omHbq6mQ;
         "OPJi9A5r" = _OPJi9A5r;
         "4Ed4Qu4l" = _4Ed4Qu4l;
+        "KrrZhE4T" = _KrrZhE4T;
         "fabric-1.21" = _aWfEfKQY;
         "fabric-1.21.1" = _aWfEfKQY;
         "fabric-1.20.5" = _HCvOUjjA;
@@ -294,7 +300,7 @@ let
         "fabric-1.21.11" = _e43ebBnT;
         "fabric-26.1.2" = _k9L5EkuJ;
         "fabric-26.2" = _omHbq6mQ;
-        "fabric-26.3" = _4Ed4Qu4l;
+        "fabric-26.3" = _KrrZhE4T;
         "neoforge-1.21.7" = _OTLTQB21;
         "neoforge-1.21.8" = _AkAG7wRC;
         "neoforge-1.21.10" = _QdnOaqng;
@@ -336,7 +342,8 @@ let
         "pkg-26.2-2.5" = _omHbq6mQ;
         "pkg-26.3-2.5" = _OPJi9A5r;
         "pkg-26.3-2.6" = _4Ed4Qu4l;
-        "default" = _4Ed4Qu4l;
+        "pkg-26.3-2.6.1" = _KrrZhE4T;
+        "default" = _KrrZhE4T;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nemos-campfires";

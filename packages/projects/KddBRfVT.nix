@@ -181,6 +181,11 @@ let
             "file" = "witherutils-1.21.1-1.0.43.jar";
             "hash" = "sha512-B2wN+wfvkUT8d15yX06l0N+AOztjEDc0N+t7nb7f5g1Bu6xmRpuvaYmNRGdCW9H8XfAvxHQ6jSE3ie4kK4QPbw==";
         };
+        _LCdy99QB = {
+            "id" = "LCdy99QB";
+            "file" = "WitherUtils-1.21.1-2.0.0.jar";
+            "hash" = "sha512-AQV6uS7AAZN8Kv05kQi7FC5C50hPQaF1o2b0tLSgSKBSbfXheGz5ZsR2rVTf+Kfgyg4i+t9MilsqfMEmQguuZg==";
+        };
     in {
         "zvJOKfhc" = _zvJOKfhc;
         "J90tzWoj" = _J90tzWoj;
@@ -218,9 +223,10 @@ let
         "ccoglp3m" = _ccoglp3m;
         "JesmTam8" = _JesmTam8;
         "AY4m6Awd" = _AY4m6Awd;
+        "LCdy99QB" = _LCdy99QB;
         "forge-1.19.2" = _J90tzWoj;
         "forge-1.20.1" = _ccoglp3m;
-        "neoforge-1.21.1" = _AY4m6Awd;
+        "neoforge-1.21.1" = _LCdy99QB;
         "neoforge-1.21.2" = _AY4m6Awd;
         "neoforge-1.21.3" = _AY4m6Awd;
         "neoforge-1.21.4" = _AY4m6Awd;
@@ -260,7 +266,8 @@ let
         "pkg-1.20.1-1.0.41" = _ccoglp3m;
         "pkg-1.0.42" = _JesmTam8;
         "pkg-1.0.43" = _AY4m6Awd;
-        "default" = _AY4m6Awd;
+        "pkg-2.0.0" = _LCdy99QB;
+        "default" = _LCdy99QB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "witherutils";

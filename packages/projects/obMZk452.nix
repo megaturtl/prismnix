@@ -61,6 +61,16 @@ let
             "file" = "BCLib-20.0.13.jar";
             "hash" = "sha512-T1ozHz4cMwwpbrxMHU2u01cHZjw0lStkJEYoPMbLnn9d3+Cox5tRcgQHwulWJ2VMZ785JayDR5pBkvNYNZr19A==";
         };
+        _vSNcHCqH = {
+            "id" = "vSNcHCqH";
+            "file" = "bclib-20.0.14.jar";
+            "hash" = "sha512-b7bzBl6mkjNTypPVd2Tmy/MK1j3FPnJamhhgQksQ5lGl7q+QxPykBVKYg0aITtI76f03vZVPT2drx4h1TgfLlA==";
+        };
+        _VlDWdMk5 = {
+            "id" = "VlDWdMk5";
+            "file" = "bclib-20.0.14-fabric.jar";
+            "hash" = "sha512-e6pwe0mLlVJnwlk/hrd4YF5WbIcT/xim367E2F5dsA0AhdghfxKOUywUhPINN+3/MLXbmMqxvp32b4FuEAXN6A==";
+        };
     in {
         "BihAwamG" = _BihAwamG;
         "j1k5uYYe" = _j1k5uYYe;
@@ -74,8 +84,14 @@ let
         "qIblWTcF" = _qIblWTcF;
         "QJJ5vlbK" = _QJJ5vlbK;
         "TIteCm8O" = _TIteCm8O;
-        "forge-1.20.1" = _TIteCm8O;
-        "forge-1.20" = _QJJ5vlbK;
+        "vSNcHCqH" = _vSNcHCqH;
+        "VlDWdMk5" = _VlDWdMk5;
+        "forge-1.20.1" = _vSNcHCqH;
+        "forge-1.20" = _vSNcHCqH;
+        "fabric-1.20" = _VlDWdMk5;
+        "fabric-1.20.1" = _VlDWdMk5;
+        "quilt-1.20" = _VlDWdMk5;
+        "quilt-1.20.1" = _VlDWdMk5;
         "pkg-20.0.1" = _BihAwamG;
         "pkg-20.0.2" = _j1k5uYYe;
         "pkg-20.0.3" = _648XJxmC;
@@ -88,7 +104,9 @@ let
         "pkg-20.0.11" = _qIblWTcF;
         "pkg-20.0.12" = _QJJ5vlbK;
         "pkg-20.0.13" = _TIteCm8O;
-        "default" = _TIteCm8O;
+        "pkg-20.0.14" = _vSNcHCqH;
+        "pkg-20.0.14-fabric" = _VlDWdMk5;
+        "default" = _VlDWdMk5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bclib-forge";

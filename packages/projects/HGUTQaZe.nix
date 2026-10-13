@@ -196,6 +196,11 @@ let
             "file" = "dolt_mod_how-1.20.1-2.6.9-all.jar";
             "hash" = "sha512-RvnaMOmIezN73EI/0xgAvWwYjgXrWzreI0JSCTd7BZhZEvn7bItV0XYid73YX1Im7KhenMgSdZSqSky4aBdR7g==";
         };
+        _vHgZD0eU = {
+            "id" = "vHgZD0eU";
+            "file" = "dolt_mod_how-1.20.1-2.6.10-all.jar";
+            "hash" = "sha512-X/kyGJ/KRbWgQ/7J8GbzkJDNw2YaGIbjIuwE5xadXs9qjwbmBCA67hq53l1Y8Nba2Nd+0RryeFiz9rJfZlvCSg==";
+        };
     in {
         "SIKapKzb" = _SIKapKzb;
         "6hUsemYX" = _6hUsemYX;
@@ -236,10 +241,11 @@ let
         "976QW8tC" = _976QW8tC;
         "uIYP6M49" = _uIYP6M49;
         "kG0jyBUh" = _kG0jyBUh;
+        "vHgZD0eU" = _vHgZD0eU;
         "forge-1.20" = _kG0jyBUh;
-        "forge-1.20.1" = _kG0jyBUh;
+        "forge-1.20.1" = _vHgZD0eU;
         "neoforge-1.20" = _kG0jyBUh;
-        "neoforge-1.20.1" = _kG0jyBUh;
+        "neoforge-1.20.1" = _vHgZD0eU;
         "pkg-2.0.0" = _SIKapKzb;
         "pkg-2.1.0" = _6hUsemYX;
         "pkg-2.1.1" = _GtFaRVjr;
@@ -278,7 +284,8 @@ let
         "pkg-2.6.6" = _976QW8tC;
         "pkg-2.6.8" = _uIYP6M49;
         "pkg-2.6.9" = _kG0jyBUh;
-        "default" = _kG0jyBUh;
+        "pkg-2.6.10" = _vHgZD0eU;
+        "default" = _vHgZD0eU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dolt-mod-how";

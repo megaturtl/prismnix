@@ -466,6 +466,16 @@ let
             "file" = "jmi-neoforge-1.21.1-1.9.1.jar";
             "hash" = "sha512-E2A8NtyJG65KsY6t7BblehbkkSdKFcoMdjiAExa2JNDEeLN9HqG8umoM5/tcdFXgvean0BTpg9n6Z5UI1+Uv4A==";
         };
+        _CiDbatAK = {
+            "id" = "CiDbatAK";
+            "file" = "jmi-fabric-26.1.2.1.jar";
+            "hash" = "sha512-cWTeALWWEV4unHgtz+l71GOL3OULoAHnrSD1L30nCcxzxInePjd9co9vWaif/4zRujg/Dgbw/LaP49iUDP2KxQ==";
+        };
+        _AuxsL5EN = {
+            "id" = "AuxsL5EN";
+            "file" = "jmi-neoforge-26.1.2.1.jar";
+            "hash" = "sha512-/OsAlMWwSVX7zMgYIzlAZxNSOendQ6H/4QgecYy8ApKKEblvNf5o0QGvk8RX6SMig2xXukYrtG+dDeCTymAFmQ==";
+        };
     in {
         "rmBiDTXK" = _rmBiDTXK;
         "jiBQ6ztF" = _jiBQ6ztF;
@@ -560,6 +570,8 @@ let
         "v5YHvh8k" = _v5YHvh8k;
         "SYWIob8N" = _SYWIob8N;
         "53Z2qzeT" = _53Z2qzeT;
+        "CiDbatAK" = _CiDbatAK;
+        "AuxsL5EN" = _AuxsL5EN;
         "forge-1.18.2" = _yPf7w0Q7;
         "forge-1.16.5" = _qNTaAUcG;
         "forge-1.19" = _10nnoOcG;
@@ -577,6 +589,7 @@ let
         "fabric-1.21.1" = _SYWIob8N;
         "fabric-1.21.2" = _Du8wxEDs;
         "fabric-1.21.3" = _Du8wxEDs;
+        "fabric-26.1.2" = _CiDbatAK;
         "quilt-1.18.2" = _QrXk1lBA;
         "quilt-1.19" = _cb4o2irW;
         "quilt-1.19.2" = _MlxyjJ0B;
@@ -587,12 +600,14 @@ let
         "quilt-1.21.1" = _SYWIob8N;
         "quilt-1.21.2" = _Du8wxEDs;
         "quilt-1.21.3" = _Du8wxEDs;
+        "quilt-26.1.2" = _CiDbatAK;
         "neoforge-1.20.1" = _sRcVOa3L;
         "neoforge-1.20.4" = _58qt2BDX;
         "neoforge-1.21" = _EQp0YrfZ;
         "neoforge-1.21.1" = _53Z2qzeT;
         "neoforge-1.21.2" = _KJWs1PHh;
         "neoforge-1.21.3" = _KJWs1PHh;
+        "neoforge-26.1.2" = _AuxsL5EN;
         "pkg-jmi-forge-1.18.2-0.11-75" = _rmBiDTXK;
         "pkg-jmi-fabric-1.18.2-0.11-75" = _jiBQ6ztF;
         "pkg-jmi-1.16.5-0.8.1-47" = _qNTaAUcG;
@@ -686,7 +701,9 @@ let
         "pkg-1.20.1-0.15-74+fabric" = _v5YHvh8k;
         "pkg-1.21.1-1.9.1+fabric" = _SYWIob8N;
         "pkg-1.21.1-1.9.1+neoforge" = _53Z2qzeT;
-        "default" = _53Z2qzeT;
+        "pkg-26.1.2.1+fabric" = _CiDbatAK;
+        "pkg-26.1.2.1+neoforge" = _AuxsL5EN;
+        "default" = _AuxsL5EN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "journeymap-integration";

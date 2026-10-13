@@ -96,6 +96,21 @@ let
             "file" = "musicalinstruments-fabric-26.1.2-26.1.2.0.jar";
             "hash" = "sha512-Xk8sAEiTCHHkvHlYOsXzIlQ4K5lZn+AwNVkRKNrxOD4z9a2ohOOExUrXtv7I3p075gJGDDiAZNZ6LwPlvA/z0w==";
         };
+        _OG8iYGzH = {
+            "id" = "OG8iYGzH";
+            "file" = "musicalinstruments-datapack-26.3.0.0.zip";
+            "hash" = "sha512-MuWF+bbn6wq9sYftV7CiSwkv1DKzm/xEojjHK0nj83L80YgnTwbvqIU052MpVIZZcDntZIWQh4k2RV4ctuw7AQ==";
+        };
+        _PK5pWvf7 = {
+            "id" = "PK5pWvf7";
+            "file" = "musical-instruments-pack-26.3.0.0.jar";
+            "hash" = "sha512-L6gC707y3hxTMYqatk67ERrdz66KFLuj72a4qKuQsJursfH6jCUp02Zzp2UJQCfTKi/3b7bmlcGuDNHIddSRmg==";
+        };
+        _MUXHIIac = {
+            "id" = "MUXHIIac";
+            "file" = "musicalinstruments-fabric-26.3-26.3.0.0.jar";
+            "hash" = "sha512-9DseC2oxkLyQ7DrRj8moG6cIcecfz8aeDnTPiI4b9oKBKwQFD00ck4cDPud4cDe+rKRGmQqrKaZzrqu29ok2qw==";
+        };
     in {
         "IazM4PSF" = _IazM4PSF;
         "9OkXGHpN" = _9OkXGHpN;
@@ -116,6 +131,9 @@ let
         "hs47fYPZ" = _hs47fYPZ;
         "MNmHV0pc" = _MNmHV0pc;
         "ZDaJlEZ7" = _ZDaJlEZ7;
+        "OG8iYGzH" = _OG8iYGzH;
+        "PK5pWvf7" = _PK5pWvf7;
+        "MUXHIIac" = _MUXHIIac;
         "datapack-1.20.5" = _RzHpYRZp;
         "datapack-1.20.6" = _RzHpYRZp;
         "datapack-1.21" = _tUS1xrvi;
@@ -129,6 +147,7 @@ let
         "datapack-26.1" = _hs47fYPZ;
         "datapack-26.1.1" = _hs47fYPZ;
         "datapack-26.1.2" = _hs47fYPZ;
+        "datapack-26.3" = _OG8iYGzH;
         "minecraft-1.20.5" = _IazM4PSF;
         "minecraft-1.20.6" = _IazM4PSF;
         "fabric-1.20.5" = _DRhoeHz0;
@@ -144,6 +163,7 @@ let
         "fabric-26.1" = _MNmHV0pc;
         "fabric-26.1.1" = _MNmHV0pc;
         "fabric-26.1.2" = _ZDaJlEZ7;
+        "fabric-26.3" = _MUXHIIac;
         "forge-1.20.5" = _DRhoeHz0;
         "forge-1.20.6" = _DRhoeHz0;
         "forge-1.21" = _14T58pfm;
@@ -157,6 +177,7 @@ let
         "forge-26.1" = _MNmHV0pc;
         "forge-26.1.1" = _MNmHV0pc;
         "forge-26.1.2" = _MNmHV0pc;
+        "forge-26.3" = _PK5pWvf7;
         "quilt-1.20.5" = _DRhoeHz0;
         "quilt-1.20.6" = _DRhoeHz0;
         "quilt-1.21" = _14T58pfm;
@@ -170,6 +191,7 @@ let
         "quilt-26.1" = _MNmHV0pc;
         "quilt-26.1.1" = _MNmHV0pc;
         "quilt-26.1.2" = _MNmHV0pc;
+        "quilt-26.3" = _PK5pWvf7;
         "neoforge-1.21" = _14T58pfm;
         "neoforge-1.21.1" = _14T58pfm;
         "neoforge-1.21.2" = _cOebDm2V;
@@ -181,6 +203,7 @@ let
         "neoforge-26.1" = _MNmHV0pc;
         "neoforge-26.1.1" = _MNmHV0pc;
         "neoforge-26.1.2" = _MNmHV0pc;
+        "neoforge-26.3" = _PK5pWvf7;
         "pkg-1.0" = _IazM4PSF;
         "pkg-1.0_Modded" = _9OkXGHpN;
         "pkg-1.1" = _BNsYcBnv;
@@ -193,7 +216,10 @@ let
         "pkg-1.3" = _hs47fYPZ;
         "pkg-1.3+mod" = _MNmHV0pc;
         "pkg-1.3_Fabric" = _ZDaJlEZ7;
-        "default" = _ZDaJlEZ7;
+        "pkg-26.3.0.0" = _OG8iYGzH;
+        "pkg-26.3_Mod" = _PK5pWvf7;
+        "pkg-26.3-fabric" = _MUXHIIac;
+        "default" = _MUXHIIac;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "musical-instruments-pack";

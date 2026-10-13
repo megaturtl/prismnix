@@ -41,6 +41,11 @@ let
             "file" = "Glowing Trim Ultimate[MG-5.0][26.2].zip";
             "hash" = "sha512-X7WXCpowlz/gNCb90DuaxnkwxfEe65yAaUstlVvF0GqxPkojb47GR5p3TB7Yamb1Wz14Jxe9qPrUFosvppSqtw==";
         };
+        _Xk5TJvMn = {
+            "id" = "Xk5TJvMn";
+            "file" = "Glowing Trim Ultimate[MG-5.0][26.3].zip";
+            "hash" = "sha512-kOUjq0XOwGqGSSnj2IfEAb2G8bTqO/LU/FoBfMsIJTbFOUsIY8C5Y0+9EbIkCoVuGzGj7gj7adPrYCt7CBuNxw==";
+        };
     in {
         "miZrJQuO" = _miZrJQuO;
         "V4ywpw4D" = _V4ywpw4D;
@@ -50,6 +55,7 @@ let
         "MPmTuT6C" = _MPmTuT6C;
         "nopXVYKn" = _nopXVYKn;
         "aA1aW9NY" = _aA1aW9NY;
+        "Xk5TJvMn" = _Xk5TJvMn;
         "minecraft-1.16" = _K3jTywQ7;
         "minecraft-1.16.1" = _K3jTywQ7;
         "minecraft-1.16.2" = _K3jTywQ7;
@@ -89,9 +95,13 @@ let
         "minecraft-26.1.1" = _nopXVYKn;
         "minecraft-26.1.2" = _nopXVYKn;
         "minecraft-26.2" = _aA1aW9NY;
+        "minecraft-26.3" = _Xk5TJvMn;
+        "minecraft-26.4-snapshot-1" = _Xk5TJvMn;
+        "minecraft-26.4-snapshot-2" = _Xk5TJvMn;
+        "minecraft-26.4-snapshot-3" = _Xk5TJvMn;
         "pkg-MG-4.0" = _7fFTj3XE;
-        "pkg-MG-5.0" = _aA1aW9NY;
-        "default" = _aA1aW9NY;
+        "pkg-MG-5.0" = _Xk5TJvMn;
+        "default" = _Xk5TJvMn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "glowing-trim-ultimate";

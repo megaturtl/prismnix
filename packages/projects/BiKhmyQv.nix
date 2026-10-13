@@ -41,6 +41,11 @@ let
             "file" = "the_farmer-1.0.6-forge-1.20.1.jar";
             "hash" = "sha512-Hd4ngBk6wlQp1IwBQ98ox/NQvbNwlFE6xHneoLbjcWixV/45V4Km/GUTDf1y0Xv7B4GPqGCdPtnerCS45YIEMA==";
         };
+        _DPa3eh75 = {
+            "id" = "DPa3eh75";
+            "file" = "the_farmer-1.0.7-forge-1.20.1.jar";
+            "hash" = "sha512-RtBaurtwEbiZZ6EOUU8krzqK8Q7LtGs+FbFwgEjuqa0vlE5bgiT08rsS/knUPDwUihAH+FoVxpmpP4scoR4+AA==";
+        };
     in {
         "rYsNYIxw" = _rYsNYIxw;
         "cexkAPlX" = _cexkAPlX;
@@ -50,7 +55,8 @@ let
         "Ug3gQPR6" = _Ug3gQPR6;
         "whUmmVFm" = _whUmmVFm;
         "Yg367rtS" = _Yg367rtS;
-        "forge-1.20.1" = _Yg367rtS;
+        "DPa3eh75" = _DPa3eh75;
+        "forge-1.20.1" = _DPa3eh75;
         "pkg-1.0.0.5" = _rYsNYIxw;
         "pkg-1.0.1" = _cexkAPlX;
         "pkg-1.0.2" = _simX0u2P;
@@ -59,7 +65,8 @@ let
         "pkg-1.0.4.5" = _Ug3gQPR6;
         "pkg-1.0.5" = _whUmmVFm;
         "pkg-1.0.6" = _Yg367rtS;
-        "default" = _Yg367rtS;
+        "pkg-1.0.7" = _DPa3eh75;
+        "default" = _DPa3eh75;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-farmer-reborn";

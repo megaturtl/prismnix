@@ -426,6 +426,56 @@ let
             "file" = "chattweaks-1.2.1+26.3.jar";
             "hash" = "sha512-TKcbvecAIWpMcbollKMHEl9nn7Uarq6y072pJeEjsbyP47e/asALkmo5FmuvSbD/bNMk1h5vlstbiklgHyAkyA==";
         };
+        _Fycmy9km = {
+            "id" = "Fycmy9km";
+            "file" = "chattweaks-1.2.2+1.8.9.jar";
+            "hash" = "sha512-yDf9a1NgOP1I4njkT2OQE/kijyXqEsLur8GVAFNoKGp/VTa8p6bpwB93CACc6kLZVFnMObGqRbBr/LmYq31eDg==";
+        };
+        _Y837a6qZ = {
+            "id" = "Y837a6qZ";
+            "file" = "chattweaks-1.2.2+1.21.1.jar";
+            "hash" = "sha512-jrAfD+9qesj3SkIIWRmqINiX8l6wYZ+qXtLrxSIBskBzalHEFUka+pUOTkkBRXe7gaf3OxJMS0P4aUj6G2aAVg==";
+        };
+        _Xpr8Ksjo = {
+            "id" = "Xpr8Ksjo";
+            "file" = "chattweaks-1.2.2+1.21.4.jar";
+            "hash" = "sha512-n6/DaTpKrEUSf+YVI/+IDzExPFjsLj3eebf/5hogg/R8fC6iINBhEUzMYerlKXcCoUMOvLKscaoV1NpgxWsYGg==";
+        };
+        _EeP2yyOc = {
+            "id" = "EeP2yyOc";
+            "file" = "chattweaks-1.2.2+1.21.5.jar";
+            "hash" = "sha512-Io646l/e0P4CaQoO7szRg27LdY4wIyKGtBaBLkF+b4f05/LvI+lyJxl9GXelYG8zV1twNZPBjj8FBS032Q/1pw==";
+        };
+        _6DWy8WNE = {
+            "id" = "6DWy8WNE";
+            "file" = "chattweaks-1.2.2+1.21.8.jar";
+            "hash" = "sha512-Fm7z2kPISJV0iJ7riPSxqDGKFfj8xnUH0Ik0EvJxowt2C72efFgV7kIdddc6h71iXug1xeq+m4OGFjBzhHsqxw==";
+        };
+        _DTlkw6Sa = {
+            "id" = "DTlkw6Sa";
+            "file" = "chattweaks-1.2.2+1.21.10.jar";
+            "hash" = "sha512-0bELQ6aJeJAhKnR2gB1O/Lix3EfE4xM78KKjwJ2FNinMmM1yo70JcHgpRJgKtI41x7RXDVgj0H/6FYUnUKaBpQ==";
+        };
+        _40wpzFAJ = {
+            "id" = "40wpzFAJ";
+            "file" = "chattweaks-1.2.2+1.21.11.jar";
+            "hash" = "sha512-I5eb6F/3c+VPNAeGZGFYhlKqnfyxZjGWbzSamvYhncYBZDTW8PsoJLOti3mBXjjGQ9QwZYz6XB7YWebuVSX/uA==";
+        };
+        _ApDFi6o8 = {
+            "id" = "ApDFi6o8";
+            "file" = "chattweaks-1.2.2+26.1.jar";
+            "hash" = "sha512-0S4Vs49/6jB+ub7Yracv0bWHqhHhOx14Qc3L85Ry+q5zT9vaD6/aRwQ0ruik/dXOho+Y0plTSE/iTpi3MGX99Q==";
+        };
+        _RbIAwmU5 = {
+            "id" = "RbIAwmU5";
+            "file" = "chattweaks-1.2.2+26.2.jar";
+            "hash" = "sha512-OKgSnxmub1ZRMOrPnOYYKxA4GSNmraOEzkdx9PjT8AL9R9UONoEktfmzpYuEPjIxDlylIF69LTaB43oUxToXeg==";
+        };
+        _uV8mdzas = {
+            "id" = "uV8mdzas";
+            "file" = "chattweaks-1.2.2+26.3.jar";
+            "hash" = "sha512-5nSlMMlw6wrxBiXbY1pAJvcQKUEQLjVmkOYerUmfctqi4QmvfN4zCwdoqiSl9kQgBlBdLc816jcbCNSr8QrWPA==";
+        };
     in {
         "B5MBUjXQ" = _B5MBUjXQ;
         "n5kG8VLG" = _n5kG8VLG;
@@ -512,18 +562,28 @@ let
         "zqT6ArB6" = _zqT6ArB6;
         "sCDVyXhW" = _sCDVyXhW;
         "b98NsSQK" = _b98NsSQK;
-        "fabric-26.1" = _zqT6ArB6;
-        "fabric-26.1.1" = _zqT6ArB6;
-        "fabric-26.1.2" = _zqT6ArB6;
-        "fabric-1.21.1" = _clkofqXw;
-        "fabric-1.21.4" = _XjtWT2xj;
-        "fabric-1.21.5" = _1Qehcng6;
-        "fabric-1.21.8" = _BqbPFugX;
-        "fabric-1.21.10" = _v6ukpHQp;
-        "fabric-1.21.11" = _X765jWG3;
-        "fabric-26.2" = _sCDVyXhW;
-        "fabric-26.3" = _b98NsSQK;
-        "ornithe-1.8.9" = _vYPbxNx7;
+        "Fycmy9km" = _Fycmy9km;
+        "Y837a6qZ" = _Y837a6qZ;
+        "Xpr8Ksjo" = _Xpr8Ksjo;
+        "EeP2yyOc" = _EeP2yyOc;
+        "6DWy8WNE" = _6DWy8WNE;
+        "DTlkw6Sa" = _DTlkw6Sa;
+        "40wpzFAJ" = _40wpzFAJ;
+        "ApDFi6o8" = _ApDFi6o8;
+        "RbIAwmU5" = _RbIAwmU5;
+        "uV8mdzas" = _uV8mdzas;
+        "fabric-26.1" = _ApDFi6o8;
+        "fabric-26.1.1" = _ApDFi6o8;
+        "fabric-26.1.2" = _ApDFi6o8;
+        "fabric-1.21.1" = _Y837a6qZ;
+        "fabric-1.21.4" = _Xpr8Ksjo;
+        "fabric-1.21.5" = _EeP2yyOc;
+        "fabric-1.21.8" = _6DWy8WNE;
+        "fabric-1.21.10" = _DTlkw6Sa;
+        "fabric-1.21.11" = _40wpzFAJ;
+        "fabric-26.2" = _RbIAwmU5;
+        "fabric-26.3" = _uV8mdzas;
+        "ornithe-1.8.9" = _Fycmy9km;
         "pkg-v1.0.0-alpha.1" = _B5MBUjXQ;
         "pkg-1.0.0+1.21.1" = _n5kG8VLG;
         "pkg-1.0.0+1.21.4" = _9CXKNxv4;
@@ -562,7 +622,8 @@ let
         "pkg-v1.1.4" = _uZnbZHTi;
         "pkg-v1.2.0" = _qoYGt44j;
         "pkg-v1.2.1" = _b98NsSQK;
-        "default" = _b98NsSQK;
+        "pkg-v1.2.2" = _uV8mdzas;
+        "default" = _uV8mdzas;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chattweaks";

@@ -66,6 +66,11 @@ let
             "file" = "48x48_items-26.3.zip";
             "hash" = "sha512-Es84NK5J/cliW0voRsyvLQbAdu7U+e21PENfyHwFHlg1RzO5VjfWYRCHdNN8oKwHZ8KHMZb+nk0jFa5TXxc0vw==";
         };
+        _W4OfHH4d = {
+            "id" = "W4OfHH4d";
+            "file" = "48x48_items-26.3-v2-books.zip";
+            "hash" = "sha512-Z00B+QRgRc7HTryXa7bp/zxE4lhQPgQrtEpQN5yUXLyp/b1alvMCj4banr+9FjYPhvb76r3xCwWdSjF3+4sViA==";
+        };
     in {
         "RKgNXNsO" = _RKgNXNsO;
         "i0kLJDI7" = _i0kLJDI7;
@@ -80,6 +85,7 @@ let
         "uPZbo845" = _uPZbo845;
         "5dYTgEeS" = _5dYTgEeS;
         "LNyf2eVK" = _LNyf2eVK;
+        "W4OfHH4d" = _W4OfHH4d;
         "minecraft-1.18" = _KLySQEP1;
         "minecraft-1.19" = _KLySQEP1;
         "minecraft-1.20" = _KLySQEP1;
@@ -458,23 +464,23 @@ let
         "minecraft-1.20.4" = _KLySQEP1;
         "minecraft-1.20.5" = _KLySQEP1;
         "minecraft-1.20.6" = _KLySQEP1;
-        "minecraft-1.21" = _axnlfseN;
-        "minecraft-1.21.1" = _axnlfseN;
-        "minecraft-1.21.2" = _axnlfseN;
-        "minecraft-1.21.3" = _axnlfseN;
-        "minecraft-1.21.4" = _axnlfseN;
-        "minecraft-1.21.5" = _axnlfseN;
-        "minecraft-1.21.6" = _axnlfseN;
-        "minecraft-1.21.7" = _axnlfseN;
-        "minecraft-1.21.8" = _axnlfseN;
-        "minecraft-1.21.9" = _uPZbo845;
-        "minecraft-1.21.10" = _uPZbo845;
-        "minecraft-1.21.11" = _uPZbo845;
-        "minecraft-26.1" = _LNyf2eVK;
-        "minecraft-26.1.1" = _LNyf2eVK;
-        "minecraft-26.1.2" = _LNyf2eVK;
-        "minecraft-26.2" = _LNyf2eVK;
-        "minecraft-26.3" = _LNyf2eVK;
+        "minecraft-1.21" = _W4OfHH4d;
+        "minecraft-1.21.1" = _W4OfHH4d;
+        "minecraft-1.21.2" = _W4OfHH4d;
+        "minecraft-1.21.3" = _W4OfHH4d;
+        "minecraft-1.21.4" = _W4OfHH4d;
+        "minecraft-1.21.5" = _W4OfHH4d;
+        "minecraft-1.21.6" = _W4OfHH4d;
+        "minecraft-1.21.7" = _W4OfHH4d;
+        "minecraft-1.21.8" = _W4OfHH4d;
+        "minecraft-1.21.9" = _W4OfHH4d;
+        "minecraft-1.21.10" = _W4OfHH4d;
+        "minecraft-1.21.11" = _W4OfHH4d;
+        "minecraft-26.1" = _W4OfHH4d;
+        "minecraft-26.1.1" = _W4OfHH4d;
+        "minecraft-26.1.2" = _W4OfHH4d;
+        "minecraft-26.2" = _W4OfHH4d;
+        "minecraft-26.3" = _W4OfHH4d;
         "pkg-7" = _RKgNXNsO;
         "pkg-8" = _i0kLJDI7;
         "pkg-9" = _3mrU6oDq;
@@ -488,7 +494,8 @@ let
         "pkg-26.1.2" = _uPZbo845;
         "pkg-26.2" = _5dYTgEeS;
         "pkg-26.3" = _LNyf2eVK;
-        "default" = _LNyf2eVK;
+        "pkg-26.3-v2-books" = _W4OfHH4d;
+        "default" = _W4OfHH4d;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "48x48-items";

@@ -151,6 +151,11 @@ let
             "file" = "zombiesutils-3.0.4.jar";
             "hash" = "sha512-RahzBshHYBtmWdgDHsT4ckqS+jWeN071ql8sE+lvFq95rgcvWeuI1sYmmiIi5HJxkX6An0jtMqGsoesDLEcezw==";
         };
+        _PxxnMjAO = {
+            "id" = "PxxnMjAO";
+            "file" = "zombiesutils-3.0.5.jar";
+            "hash" = "sha512-AwMuLTgGZvfdV8P0J3JW5oz4HId6maXEjuF2s5NHLNjnQUuGpMkg6dzDm9XzDZ1QVaHKh1EmT9DTSxJ522ykCA==";
+        };
     in {
         "n8tDXyB7" = _n8tDXyB7;
         "j7Rnzrrl" = _j7Rnzrrl;
@@ -182,11 +187,12 @@ let
         "cmYFWiJm" = _cmYFWiJm;
         "EKzN6YGV" = _EKzN6YGV;
         "LYdIxtUM" = _LYdIxtUM;
+        "PxxnMjAO" = _PxxnMjAO;
         "forge-1.8.9" = _GlaTWEXV;
         "fabric-1.21.11" = _XupjvkIu;
         "fabric-26.1.2" = _GCPJI4ga;
         "fabric-26.2" = _3hlx8ED1;
-        "fabric-26.3" = _LYdIxtUM;
+        "fabric-26.3" = _PxxnMjAO;
         "pkg-1.3.6" = _n8tDXyB7;
         "pkg-1.3.7-PRE_1" = _j7Rnzrrl;
         "pkg-1.3.7-PRE_2" = _89devLxj;
@@ -217,7 +223,8 @@ let
         "pkg-3.0.2" = _cmYFWiJm;
         "pkg-3.0.3" = _EKzN6YGV;
         "pkg-3.0.4" = _LYdIxtUM;
-        "default" = _LYdIxtUM;
+        "pkg-3.0.5" = _PxxnMjAO;
+        "default" = _PxxnMjAO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zombies-utils";

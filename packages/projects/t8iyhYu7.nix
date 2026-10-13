@@ -1851,6 +1851,51 @@ let
             "file" = "resource_backpacks-neoforge-26.2-2.1.1.jar";
             "hash" = "sha512-TSkrsxVdFnRxca0HwIy0pwZ9Le8M533JdP2oCcxz59SVspnG/hM643Gg/DKTJ4p/0RKbWnco/2e2CQpiCvMkGQ==";
         };
+        _JIkxCRRL = {
+            "id" = "JIkxCRRL";
+            "file" = "resource_backpacks-forge-26.1.2-2.2.0.jar";
+            "hash" = "sha512-xlJDTMI++7Ebas0FYdDKeyD1aJ0k+K4riESD/eFP5jDBCM/tZ542uJU8igk4p1dB8xxcOgByxSAiW43nSFn9pw==";
+        };
+        _AkRA5ZJ0 = {
+            "id" = "AkRA5ZJ0";
+            "file" = "resource_backpacks-neoforge-26.1.2-2.2.0.jar";
+            "hash" = "sha512-ea1bE4+UGOONxKtX0qJ5ll/F4+T8lvSqN/kwc6GJs9cOK3NjBCjek4DqI8aEd02aAWT+RtXZO2meJNxY0QPfAQ==";
+        };
+        _c9vCq0e7 = {
+            "id" = "c9vCq0e7";
+            "file" = "resource_backpacks-fabric-26.1.2-2.2.0.jar";
+            "hash" = "sha512-Ti0hGTqsTBJ9rHJUi96oLfbLW5Da174qoZwvmhjJsHNdt3s08EIQFwbTScGnOqnrRndQfJbWrqdx/ZHvYO3Img==";
+        };
+        _7IrNAnHn = {
+            "id" = "7IrNAnHn";
+            "file" = "resource_backpacks-neoforge-26.2-2.2.0.jar";
+            "hash" = "sha512-zWDm/h6VzaAsDBirG+ZfpKx1kYJ2rZ283lkszd/FvXDaX8Ca/jILPIq/K6a3tODCfUmdCln/NnZqDljv7+1CCA==";
+        };
+        _558hwmmS = {
+            "id" = "558hwmmS";
+            "file" = "resource_backpacks-forge-26.2-2.2.0.jar";
+            "hash" = "sha512-ysSFAupyvNXcFx9nnZu0jDSP6kE6niPTDOd1qXcsT3i2p8laYu34z5GZV9yUk+it9v1Rff1t/MTj1Prvarfzjg==";
+        };
+        _YEsWoI5O = {
+            "id" = "YEsWoI5O";
+            "file" = "resource_backpacks-fabric-26.2-2.2.0.jar";
+            "hash" = "sha512-slx9jO2D5vtQS5pVurtHmYYSambshGv9L6cmunea8rgz1t0nXfLMtNnVBpCIYEERIlPM3yRTL2EP3KqiEhTxuw==";
+        };
+        _pcWB5ffZ = {
+            "id" = "pcWB5ffZ";
+            "file" = "resource_backpacks-forge-26.3-2.2.0.jar";
+            "hash" = "sha512-jZqr3c9/SNPr9c5o7bo+jFrPWUH6ATJN11A4K2QtIEd5JD79ghM3sZw9gLXt3iSee7w84PwFME5OP9W0CL+76A==";
+        };
+        _gBPNY0wZ = {
+            "id" = "gBPNY0wZ";
+            "file" = "resource_backpacks-neoforge-26.3-2.2.0.jar";
+            "hash" = "sha512-UZeVMqXS4t+fa5GNek6eE/N3nFvsA9aVzeWfcYRofHLPfIN2GNcWElotnZBj/KoVIsL/kCwd/J6BosgzqPMS7g==";
+        };
+        _iE0nqIp0 = {
+            "id" = "iE0nqIp0";
+            "file" = "resource_backpacks-fabric-26.3-2.2.0.jar";
+            "hash" = "sha512-k7yTHoD+OvBif/9gr9JzHuMdnauwYYjcBE6NGgPl9JXBMVO/STpmgI/AofAZk5CH7f0x7WkMa/0AFI/dYXu90A==";
+        };
     in {
         "AEDuANl6" = _AEDuANl6;
         "Z6TgvxEE" = _Z6TgvxEE;
@@ -2222,6 +2267,15 @@ let
         "8Zousd7m" = _8Zousd7m;
         "O1u1Oond" = _O1u1Oond;
         "MfiWRuDo" = _MfiWRuDo;
+        "JIkxCRRL" = _JIkxCRRL;
+        "AkRA5ZJ0" = _AkRA5ZJ0;
+        "c9vCq0e7" = _c9vCq0e7;
+        "7IrNAnHn" = _7IrNAnHn;
+        "558hwmmS" = _558hwmmS;
+        "YEsWoI5O" = _YEsWoI5O;
+        "pcWB5ffZ" = _pcWB5ffZ;
+        "gBPNY0wZ" = _gBPNY0wZ;
+        "iE0nqIp0" = _iE0nqIp0;
         "neoforge-1.21" = _JdoUOz8i;
         "neoforge-1.21.1" = _NpCNK4Zk;
         "neoforge-1.21.3" = _kL4cAeJt;
@@ -2234,8 +2288,9 @@ let
         "neoforge-1.21.9" = _OBq05HZz;
         "neoforge-1.21.10" = _bF6K0IAY;
         "neoforge-1.21.11" = _g32fbkfp;
-        "neoforge-26.1.2" = _KCINjKQR;
-        "neoforge-26.2" = _MfiWRuDo;
+        "neoforge-26.1.2" = _AkRA5ZJ0;
+        "neoforge-26.2" = _7IrNAnHn;
+        "neoforge-26.3" = _gBPNY0wZ;
         "fabric-1.21" = _9rp46sGZ;
         "fabric-1.21.1" = _XKY3sJIw;
         "fabric-1.21.3" = _qgW008Hd;
@@ -2248,8 +2303,9 @@ let
         "fabric-1.21.9" = _oJRZGHwK;
         "fabric-1.21.10" = _H6Q0TjxK;
         "fabric-1.21.11" = _VQeTgJGE;
-        "fabric-26.1.2" = _iR10Pt2E;
-        "fabric-26.2" = _O1u1Oond;
+        "fabric-26.1.2" = _c9vCq0e7;
+        "fabric-26.2" = _YEsWoI5O;
+        "fabric-26.3" = _iE0nqIp0;
         "quilt-1.21" = _9rp46sGZ;
         "quilt-1.21.1" = _XKY3sJIw;
         "quilt-1.21.3" = _qgW008Hd;
@@ -2275,8 +2331,9 @@ let
         "forge-1.21.9" = _CILKZhhn;
         "forge-1.21.10" = _BihGXgx2;
         "forge-1.21.11" = _uWvnNRtu;
-        "forge-26.2" = _8Zousd7m;
-        "forge-26.1.2" = _pssp12Kw;
+        "forge-26.2" = _558hwmmS;
+        "forge-26.1.2" = _JIkxCRRL;
+        "forge-26.3" = _pcWB5ffZ;
         "pkg-0.5.0-BETA" = _Z6TgvxEE;
         "pkg-0.5.1-BETA" = _KJRKF229;
         "pkg-0.5.3-BETA" = _KoxcXoad;
@@ -2340,7 +2397,10 @@ let
         "pkg-26.1.2-2.1.0" = _itUuN5Ph;
         "pkg-26.1.2-2.1.1" = _iR10Pt2E;
         "pkg-2.1.1" = _MfiWRuDo;
-        "default" = _MfiWRuDo;
+        "pkg-26.1.2-2.2.0" = _c9vCq0e7;
+        "pkg-26.2-2.2.0" = _YEsWoI5O;
+        "pkg-26.3-2.2.0" = _iE0nqIp0;
+        "default" = _iE0nqIp0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "resource-backpacks";

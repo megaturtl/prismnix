@@ -141,6 +141,26 @@ let
             "file" = "better_looting-1.21.1-neoforge-2.1.1-hotfix.jar";
             "hash" = "sha512-Jo0p5/RU+7krTugRbGqZSZJb0kqSdQ79RPQLBTm1WGS1lboWXDv7TLuyJUey6FfIPTyWy0kc3FZKkktuzMyTpA==";
         };
+        _qpE3JR9A = {
+            "id" = "qpE3JR9A";
+            "file" = "better_looting-1.20.1-forge-2.1.2.jar";
+            "hash" = "sha512-eDrlBrA+pDPgr05V/uyEh3/h+LIC1ultSSHh9mp/iiHQa5OebbWhFC+4bPNmTRnuhlZ2bsprO1+V3OE7ihOkww==";
+        };
+        _L6dYCaZz = {
+            "id" = "L6dYCaZz";
+            "file" = "better_looting-1.20.1-fabric-2.1.2.jar";
+            "hash" = "sha512-Nx35urMawb8LhsgrmyEycKPVABh9CkFiCzpSosDtdInP0Gg9ht0ZOayyQCeVB7NFz5veeEh3h7EkVYaAbUNZ2w==";
+        };
+        _n305sWKE = {
+            "id" = "n305sWKE";
+            "file" = "better_looting-1.21.1-fabric-2.1.2.jar";
+            "hash" = "sha512-Z77Dso2ikfrYA/ubtvNcNxqE0gEwfLTF4iYTzmJJ+l7HZqXE5mjyv0jFhnenH3F7i3GEKNmQ2ewP3wNhQMuSng==";
+        };
+        _CqftKfNm = {
+            "id" = "CqftKfNm";
+            "file" = "better_looting-1.21.1-neoforge-2.1.2.jar";
+            "hash" = "sha512-de1eTnppI+DMzUF1BQFW1LO1mJrGUcNo8dAIOSztTU4ES0iychD2f5QY738DDIANSepm5SX0RsijFjNhYe088w==";
+        };
     in {
         "l4l1dC5F" = _l4l1dC5F;
         "WMu05EM9" = _WMu05EM9;
@@ -170,10 +190,14 @@ let
         "ZOzVb5MT" = _ZOzVb5MT;
         "A71I8kc1" = _A71I8kc1;
         "YC3AfclA" = _YC3AfclA;
-        "forge-1.20.1" = _A71I8kc1;
-        "fabric-1.20.1" = _GSlPs6W6;
-        "fabric-1.21.1" = _4j8kNlYH;
-        "neoforge-1.21.1" = _YC3AfclA;
+        "qpE3JR9A" = _qpE3JR9A;
+        "L6dYCaZz" = _L6dYCaZz;
+        "n305sWKE" = _n305sWKE;
+        "CqftKfNm" = _CqftKfNm;
+        "forge-1.20.1" = _qpE3JR9A;
+        "fabric-1.20.1" = _L6dYCaZz;
+        "fabric-1.21.1" = _n305sWKE;
+        "neoforge-1.21.1" = _CqftKfNm;
         "pkg-1.0.4" = _rhhStPBi;
         "pkg-1.0.6" = _YsZSIgdr;
         "pkg-1.1.0" = _XDvsMHYN;
@@ -182,7 +206,8 @@ let
         "pkg-2.1.0" = _54VeX244;
         "pkg-2.1.1" = _ZOzVb5MT;
         "pkg-2.1.1-hotfix" = _YC3AfclA;
-        "default" = _YC3AfclA;
+        "pkg-2.1.2" = _CqftKfNm;
+        "default" = _CqftKfNm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-looting";

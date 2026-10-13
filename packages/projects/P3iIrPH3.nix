@@ -76,6 +76,21 @@ let
             "file" = "ironchest-1.21.11-neoforge-16.7.3.jar";
             "hash" = "sha512-YcrZHExEYTExcu588pSQWT98a9hJ3jQlXF4jIbn3bfAu8XOUUcSRhQoEvfz62++asChU4UDipT9hNVvymV9mwA==";
         };
+        _JkK1NUzS = {
+            "id" = "JkK1NUzS";
+            "file" = "ironchest-26.1.2-neoforge-16.7.2.jar";
+            "hash" = "sha512-NBGnoH8dNW55uKnTlhGCfJfSyZOkznIlfGDJK9B1cIvtNvTyLqGXADcUarP8HBIVA7fxNv++Ciuf7PKpEl8OlQ==";
+        };
+        _bNuyULWK = {
+            "id" = "bNuyULWK";
+            "file" = "ironchest-26.1.2-neoforge-16.7.5.jar";
+            "hash" = "sha512-NN8rqzq2H/zppq7D6/TDO/KilL7qzfT3MOCAe6kIL8zAXP6ZbD+lRD4hKmPJLw+u3drcLOEidD8JrF00jxvB5w==";
+        };
+        _VbQaKLPU = {
+            "id" = "VbQaKLPU";
+            "file" = "ironchest-26.2-neoforge-16.8.3.jar";
+            "hash" = "sha512-66sQgLp7J02bJ6uRBFVZIYuURzGc+TQuDukUSyoX535V9On01nUX8w2SW7a5rSpPD5U/XwPMegt0Ult4NeECCA==";
+        };
     in {
         "zFxvmTKe" = _zFxvmTKe;
         "YjbOtYwN" = _YjbOtYwN;
@@ -92,6 +107,9 @@ let
         "gBAj2t9I" = _gBAj2t9I;
         "gdMRz8SH" = _gdMRz8SH;
         "PMZZMWdH" = _PMZZMWdH;
+        "JkK1NUzS" = _JkK1NUzS;
+        "bNuyULWK" = _bNuyULWK;
+        "VbQaKLPU" = _VbQaKLPU;
         "forge-1.20.2" = _zFxvmTKe;
         "forge-1.20.1" = _YjbOtYwN;
         "forge-1.19.4" = _bV6vJ8MB;
@@ -108,6 +126,8 @@ let
         "neoforge-1.21.9" = _gdMRz8SH;
         "neoforge-1.21.10" = _gdMRz8SH;
         "neoforge-1.21.11" = _PMZZMWdH;
+        "neoforge-26.1.2" = _bNuyULWK;
+        "neoforge-26.2" = _VbQaKLPU;
         "pkg-1.20.2-14.5.7" = _zFxvmTKe;
         "pkg-1.20.1-14.4.4" = _YjbOtYwN;
         "pkg-1.19.4-14.3.4" = _bV6vJ8MB;
@@ -123,7 +143,10 @@ let
         "pkg-1.21.7-neoforge-16.5.4" = _gBAj2t9I;
         "pkg-1.21.9-neoforge-16.6.3" = _gdMRz8SH;
         "pkg-1.21.11-neoforge-16.7.3" = _PMZZMWdH;
-        "default" = _PMZZMWdH;
+        "pkg-26.1.2-neoforge-16.7.2" = _JkK1NUzS;
+        "pkg-26.1.2-neoforge-16.7.5" = _bNuyULWK;
+        "pkg-26.2-neoforge-16.8.3" = _VbQaKLPU;
+        "default" = _VbQaKLPU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "iron-chests";

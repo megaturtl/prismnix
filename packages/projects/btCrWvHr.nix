@@ -351,6 +351,21 @@ let
             "file" = "enderscape-fabric-3.0.2+mc26.2.jar";
             "hash" = "sha512-GuYb7CWGf7vhnTyLcy9C1oFmeRHeBODJQoBqgVJBhsBBl0nbYa9e2MFDKqohUzKWBpcD7gfloP6l8uhW71+ZHQ==";
         };
+        _rwSOFSbW = {
+            "id" = "rwSOFSbW";
+            "file" = "enderscape-fabric-3.0.3+mc26.1.2.jar";
+            "hash" = "sha512-66Vz13vA1IOoxbM8KH3WzffQrpNPpizVW2wPx0a1kvrvHBcsy9LhqDLH+KcoEK3OLwGcCvw8sjqJAai2T+PTXw==";
+        };
+        _g1hBr7BS = {
+            "id" = "g1hBr7BS";
+            "file" = "enderscape-fabric-3.0.3+mc26.2.jar";
+            "hash" = "sha512-pWhie8Vxa1UzYvaCdx0iUu/nBopVpfyjFlDCK8a49fWkv8L4ydf/e7Qje7hMxspEsBHzfEEDrlZrQI/4iF6LBA==";
+        };
+        _fEHy7K3w = {
+            "id" = "fEHy7K3w";
+            "file" = "enderscape-fabric-3.0.3+mc26.3.jar";
+            "hash" = "sha512-BCvSRAeet56sQVAS9SYSeioALP+HyWixXFKbcXBNL+H45CBJno8O4QM9/BlUwUmjU79aaU6EY5AcCKWWfz8/Cg==";
+        };
     in {
         "fYwKzoeM" = _fYwKzoeM;
         "umNWD7Iq" = _umNWD7Iq;
@@ -422,6 +437,9 @@ let
         "4DwOA1hE" = _4DwOA1hE;
         "N7HhWOxJ" = _N7HhWOxJ;
         "reWdPs2K" = _reWdPs2K;
+        "rwSOFSbW" = _rwSOFSbW;
+        "g1hBr7BS" = _g1hBr7BS;
+        "fEHy7K3w" = _fEHy7K3w;
         "fabric-1.17" = _AAzKtpHL;
         "fabric-1.17.1" = _AAzKtpHL;
         "fabric-1.18.2" = _DtwVbgrW;
@@ -439,8 +457,9 @@ let
         "fabric-1.21.11" = _3cYKvu3m;
         "fabric-26.1" = _N7HhWOxJ;
         "fabric-26.1.1" = _N7HhWOxJ;
-        "fabric-26.1.2" = _N7HhWOxJ;
-        "fabric-26.2" = _reWdPs2K;
+        "fabric-26.1.2" = _rwSOFSbW;
+        "fabric-26.2" = _g1hBr7BS;
+        "fabric-26.3" = _fEHy7K3w;
         "neoforge-1.21.1" = _K3Vz3uXn;
         "pkg-0.1.0" = _fYwKzoeM;
         "pkg-0.1.1" = _umNWD7Iq;
@@ -482,7 +501,9 @@ let
         "pkg-3.0.0" = _tsjhxDOY;
         "pkg-3.0.1" = _4DwOA1hE;
         "pkg-3.0.2" = _reWdPs2K;
-        "default" = _reWdPs2K;
+        "pkg-3.0.3" = _g1hBr7BS;
+        "pkg-3.0.3+mc26.3" = _fEHy7K3w;
+        "default" = _fEHy7K3w;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enderscape";

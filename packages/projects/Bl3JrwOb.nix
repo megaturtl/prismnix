@@ -776,6 +776,21 @@ let
             "file" = "cookedcarrots-26.3-neoforge-0.3.jar";
             "hash" = "sha512-Jm8Dznqzv+fy/rH1giwWcRZz4e7HZOp749H5vTSweW8e8n7a527/bSOuc8GtfMUump/7v89rz+eZe8qSIcGYyA==";
         };
+        _2ssVP1wO = {
+            "id" = "2ssVP1wO";
+            "file" = "cookedcarrots-26.3-fabric-0.3.1.jar";
+            "hash" = "sha512-SV5Ipya8FDslDxR7Nf9Mi1Tnk1KvlElR2CxecLVFv+N7KfTE6dTeq/UyxnTEsWUuoO1bZchhTduzG8oSvFreJA==";
+        };
+        _xDl7ETtQ = {
+            "id" = "xDl7ETtQ";
+            "file" = "cookedcarrots-26.3-forge-0.3.1.jar";
+            "hash" = "sha512-ZxqRHVBshuReUNKw76ES+JSi4czLhHB1CE64wkjZ+2nTcwth3eWDVMoNElcLtgHbk9LsE9YALZuEv3z17mu5ZA==";
+        };
+        _FaYyChfQ = {
+            "id" = "FaYyChfQ";
+            "file" = "cookedcarrots-26.3-neoforge-0.3.1.jar";
+            "hash" = "sha512-b51ZuIZZD89L/nfzE1eo4afOmO13hcl9M78tJYAcKqW2aKs7IE6g0+I7tRe+izXOl2F5IOXusjkZ50bc1zoeUw==";
+        };
     in {
         "6Q60XO9j" = _6Q60XO9j;
         "4IQ6BFRs" = _4IQ6BFRs;
@@ -932,6 +947,9 @@ let
         "MIiMmW1i" = _MIiMmW1i;
         "a6qjRZFs" = _a6qjRZFs;
         "UIicSTgb" = _UIicSTgb;
+        "2ssVP1wO" = _2ssVP1wO;
+        "xDl7ETtQ" = _xDl7ETtQ;
+        "FaYyChfQ" = _FaYyChfQ;
         "fabric-1.16.5" = _6Q60XO9j;
         "fabric-1.18.2" = _iZEDdY6p;
         "fabric-1.19" = _b0ZJD3Mk;
@@ -964,7 +982,7 @@ let
         "fabric-26.1.1" = _9BkqyCEj;
         "fabric-26.1.2" = _9BkqyCEj;
         "fabric-26.2" = _NDMWkRFV;
-        "fabric-26.3" = _MIiMmW1i;
+        "fabric-26.3" = _2ssVP1wO;
         "quilt-1.16.5" = _6Q60XO9j;
         "quilt-1.18.2" = _iZEDdY6p;
         "quilt-1.19" = _b0ZJD3Mk;
@@ -997,7 +1015,7 @@ let
         "quilt-26.1.1" = _9BkqyCEj;
         "quilt-26.1.2" = _9BkqyCEj;
         "quilt-26.2" = _NDMWkRFV;
-        "quilt-26.3" = _MIiMmW1i;
+        "quilt-26.3" = _2ssVP1wO;
         "forge-1.16.5" = _CoMAfSZ7;
         "forge-1.17.1" = _A7xwLYLA;
         "forge-1.18" = _Yu5CcjL5;
@@ -1031,7 +1049,7 @@ let
         "forge-26.1.1" = _W8tyNrC4;
         "forge-26.1.2" = _W8tyNrC4;
         "forge-26.2" = _bJiFEqV1;
-        "forge-26.3" = _a6qjRZFs;
+        "forge-26.3" = _xDl7ETtQ;
         "neoforge-1.20.4" = _BIq6tfSF;
         "neoforge-1.20.6" = _qtowHFZi;
         "neoforge-1.21" = _heQwayG3;
@@ -1053,7 +1071,7 @@ let
         "neoforge-26.1.1" = _WIqCxJWr;
         "neoforge-26.1.2" = _WIqCxJWr;
         "neoforge-26.2" = _26AqjMoN;
-        "neoforge-26.3" = _UIicSTgb;
+        "neoforge-26.3" = _FaYyChfQ;
         "pkg-1.16.5-6" = _6Q60XO9j;
         "pkg-1.18.2-2" = _4IQ6BFRs;
         "pkg-1.19-3" = _AbGrKkW2;
@@ -1209,7 +1227,10 @@ let
         "pkg-26.3-fabric-0.3" = _MIiMmW1i;
         "pkg-26.3-forge-0.3" = _a6qjRZFs;
         "pkg-26.3-neoforge-0.3" = _UIicSTgb;
-        "default" = _UIicSTgb;
+        "pkg-26.3-fabric-0.3.1" = _2ssVP1wO;
+        "pkg-26.3-forge-0.3.1" = _xDl7ETtQ;
+        "pkg-26.3-neoforge-0.3.1" = _FaYyChfQ;
+        "default" = _FaYyChfQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cooked-carrots";

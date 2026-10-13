@@ -1456,6 +1456,26 @@ let
             "file" = "vanilla-outsider-better-dogs-5.1.0+26.1.2.jar";
             "hash" = "sha512-m4ksE+RYqxePmHLvlUj9IBq3zn4rxUxaIOu1zaH+kJ/X0ijfBaTNC692zEn0ySRFzgzXqzG0iYgR14XWA+yInA==";
         };
+        _fUvCyLOF = {
+            "id" = "fUvCyLOF";
+            "file" = "vanilla-outsider-better-dogs-4.24.55+26.2.jar";
+            "hash" = "sha512-zebk5wgxNjeIuGZsxf7000ryzR2nV3+nkpdgERgWGsJ+BtPcY8pspPSmI1LIWRhLG8OlitnV2ogz8UR7o+XjTw==";
+        };
+        _4RExmTiK = {
+            "id" = "4RExmTiK";
+            "file" = "better-dogs-1.0.50+1.20.1.jar";
+            "hash" = "sha512-BlbUiE3xr5T7npo+mKdlUMs05TQURrF5GJgIqo0oYm9LejmQ778wMcF5C9Y0aYigPcE/21jpm8qy5oZjETLZPQ==";
+        };
+        _dPIjbZ1O = {
+            "id" = "dPIjbZ1O";
+            "file" = "better-dogs-1.0.48+1.21.1.jar";
+            "hash" = "sha512-IuXLJKwbnlCE+k8d7spGIDV3AvSI10jM42bybqIiwc7g5CEMrUMsYTh5dC8/81MHM64k/qy1jy5lDkqebudkNA==";
+        };
+        _oXLM92C1 = {
+            "id" = "oXLM92C1";
+            "file" = "better-dogs-1.0.50+1.21.11.jar";
+            "hash" = "sha512-QX2rKO6WyMZwrIh/9yyrvo5K7RdcqAux67wXmJfhkl0n3mvvVHWSalk+DT85lYzFcmkJrl7uQugy0B9BE4NiLA==";
+        };
     in {
         "XhmOq1aJ" = _XhmOq1aJ;
         "bImKrldf" = _bImKrldf;
@@ -1748,6 +1768,10 @@ let
         "KacHDGu5" = _KacHDGu5;
         "RMUv4sIx" = _RMUv4sIx;
         "uc5PC3Xq" = _uc5PC3Xq;
+        "fUvCyLOF" = _fUvCyLOF;
+        "4RExmTiK" = _4RExmTiK;
+        "dPIjbZ1O" = _dPIjbZ1O;
+        "oXLM92C1" = _oXLM92C1;
         "fabric-26.1-snapshot-1" = _3EHRPCH5;
         "fabric-26.1-snapshot-2" = _3EHRPCH5;
         "fabric-26.1-snapshot-3" = _3EHRPCH5;
@@ -1769,11 +1793,11 @@ let
         "fabric-26.1.1" = _jHDEVqKv;
         "fabric-26.1.2" = _uc5PC3Xq;
         "fabric-26.2-rc-2" = _9KXhZ5Ne;
-        "fabric-26.2" = _XdZbRw4W;
-        "fabric-1.20.1" = _iDyfA2K6;
-        "fabric-1.21.1" = _KacHDGu5;
+        "fabric-26.2" = _fUvCyLOF;
+        "fabric-1.20.1" = _4RExmTiK;
+        "fabric-1.21.1" = _dPIjbZ1O;
         "fabric-1.21" = _N2dDuFW4;
-        "fabric-1.21.11" = _RMUv4sIx;
+        "fabric-1.21.11" = _oXLM92C1;
         "fabric-26.3-snapshot-1" = _P62SGoWM;
         "fabric-26.3-snapshot-2" = _P62SGoWM;
         "fabric-26.3-snapshot-3" = _P62SGoWM;
@@ -2076,7 +2100,11 @@ let
         "pkg-1.0.47+1.21.1" = _KacHDGu5;
         "pkg-1.0.49+1.21.11" = _RMUv4sIx;
         "pkg-5.1.0+26.1.2" = _uc5PC3Xq;
-        "default" = _uc5PC3Xq;
+        "pkg-4.24.55+26.2" = _fUvCyLOF;
+        "pkg-1.0.50+1.20.1" = _4RExmTiK;
+        "pkg-1.0.48+1.21.1" = _dPIjbZ1O;
+        "pkg-1.0.50+1.21.11" = _oXLM92C1;
+        "default" = _oXLM92C1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanilla-outsider-better-dogs";

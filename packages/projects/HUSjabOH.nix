@@ -46,6 +46,11 @@ let
             "file" = "S.E.F_Mod-v.5.8_1.20.1-FORGE.jar";
             "hash" = "sha512-13A0rg8F3OpbI+upt8nys57hKuE0qr2IsnsF69i4bn26ld//KVY8p+czrAcigmifQgB/auIk1aLBHd4bOp8Znw==";
         };
+        _xLKelHtU = {
+            "id" = "xLKelHtU";
+            "file" = "S.E.F_Mod-v.5.8_hf_1.20.1-FORGE.jar";
+            "hash" = "sha512-jIAs4jn5aRI3fwyFFY/0rVIsDVqKs7NfVAYKtc0MkgrvB1tngnvovARHaK7X/fol5C1NMWahwqUv2r2rv+PrbQ==";
+        };
     in {
         "Tp7gegm7" = _Tp7gegm7;
         "65kEaVVs" = _65kEaVVs;
@@ -56,7 +61,8 @@ let
         "oO9OlFnm" = _oO9OlFnm;
         "jvRK3oj0" = _jvRK3oj0;
         "NV1Bf8zR" = _NV1Bf8zR;
-        "forge-1.20.1" = _NV1Bf8zR;
+        "xLKelHtU" = _xLKelHtU;
+        "forge-1.20.1" = _xLKelHtU;
         "pkg-1.20.1_5.1_forge" = _Tp7gegm7;
         "pkg-1.20.1_5.0_forge" = _65kEaVVs;
         "pkg-1.20.1_5.2_forge" = _yHFiX9GS;
@@ -66,7 +72,8 @@ let
         "pkg-1.20.1_5.6_forge" = _oO9OlFnm;
         "pkg-1.20.1_5.7_forge" = _jvRK3oj0;
         "pkg-1.20.1_5.8_forge" = _NV1Bf8zR;
-        "default" = _NV1Bf8zR;
+        "pkg-1.20.1_5.8_hf_forge" = _xLKelHtU;
+        "default" = _xLKelHtU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stage-equipment-furnitures";

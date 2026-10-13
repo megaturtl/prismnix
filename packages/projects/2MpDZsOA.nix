@@ -81,6 +81,11 @@ let
             "file" = "Legends-Superheroes-1.20.1-ss1.0.21.jar";
             "hash" = "sha512-7cfFICWhf3YSLi9lCGYW9Oq0iytM9wsuGRYW0i0GP6T0cdzvEVrhwhOQSHfcAs5HR7qZGyD2+2SV5MH1W1ZkFA==";
         };
+        _NZekdL5T = {
+            "id" = "NZekdL5T";
+            "file" = "Legends-Superheroes-1.20.1-ss1.0.22.jar";
+            "hash" = "sha512-9c+K+dwQFiUkG8G6YJvQ984+Qg9q7+LUpOuU/sJp1JsuerGQavwYo8miTtVPtmJ6Stl9wW778rNCAN1vBKKO5A==";
+        };
     in {
         "nPsxxflG" = _nPsxxflG;
         "du9bGlhK" = _du9bGlhK;
@@ -98,8 +103,9 @@ let
         "xdpq0mrs" = _xdpq0mrs;
         "UyzRNVop" = _UyzRNVop;
         "nli3eLbF" = _nli3eLbF;
+        "NZekdL5T" = _NZekdL5T;
         "forge-1.18.2" = _nPsxxflG;
-        "forge-1.20.1" = _nli3eLbF;
+        "forge-1.20.1" = _NZekdL5T;
         "pkg-1.18.2-ss0.9.4" = _nPsxxflG;
         "pkg-1.20.1-ss1.0.3" = _du9bGlhK;
         "pkg-1.20.1-ss1.0.8" = _fYxPSu5F;
@@ -116,7 +122,8 @@ let
         "pkg-1.20.1-ss1.0.19" = _xdpq0mrs;
         "pkg-1.20.1-ss1.0.20" = _UyzRNVop;
         "pkg-1.20.1-ss1.0.21" = _nli3eLbF;
-        "default" = _nli3eLbF;
+        "pkg-1.20.1-ss1.0.22" = _NZekdL5T;
+        "default" = _NZekdL5T;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "legends-superheroes";

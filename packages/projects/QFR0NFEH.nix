@@ -21,17 +21,24 @@ let
             "file" = "the_beyond-0.0.5-InDev.jar";
             "hash" = "sha512-KyrTMkp79an0jE4DHzFOi9lt6fHI+nTqpASL4ObWoqRGaKAjEd2F4D2/2jAXInHkBBUSbrQ3NTArVZThv3p3fA==";
         };
+        _RwrA0IJe = {
+            "id" = "RwrA0IJe";
+            "file" = "the_beyond-1.0.0.jar";
+            "hash" = "sha512-cJ8qi5TpLCDFBSd3VuVjwxk2GBBuDHUdoH6qjQ4k9c52ebkB7hvfkUcsuv9s+1uocEJgwYSwD1DYjZDNSAAkFg==";
+        };
     in {
         "fjgoZ3ti" = _fjgoZ3ti;
         "dulmktgZ" = _dulmktgZ;
         "mCOIl8bE" = _mCOIl8bE;
         "AxM8UD5v" = _AxM8UD5v;
-        "neoforge-1.21.1" = _AxM8UD5v;
+        "RwrA0IJe" = _RwrA0IJe;
+        "neoforge-1.21.1" = _RwrA0IJe;
         "pkg-0.1.0" = _fjgoZ3ti;
         "pkg-0.0.3-InDev" = _dulmktgZ;
         "pkg-0.0.4-InDev" = _mCOIl8bE;
         "pkg-0.0.5-InDev" = _AxM8UD5v;
-        "default" = _AxM8UD5v;
+        "pkg-1.0.0" = _RwrA0IJe;
+        "default" = _RwrA0IJe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-beyond";

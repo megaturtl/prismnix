@@ -116,6 +116,11 @@ let
             "file" = "fluffy_fur-1.20.1-0.2.12.jar";
             "hash" = "sha512-8jMsWgLnOtwtPO20xngiukBMR5X62mWJ3jWX5M/YviMwhsCuPeUlTUvkDXMXw+jjj2Wn8wMKHSy0R81cHxwCTw==";
         };
+        _hDYzUfT0 = {
+            "id" = "hDYzUfT0";
+            "file" = "fluffy_fur-1.20.1-0.3.jar";
+            "hash" = "sha512-uL3hlNTHkcb6pYjtzeCaKgYzMjYcO44DOiWehB9mnFzeo8XkJzFMKKIpaGgrDjZUlZ9wmOo3GrtwGd7bcivcRg==";
+        };
     in {
         "RwZ0ti90" = _RwZ0ti90;
         "gptQANZT" = _gptQANZT;
@@ -140,7 +145,8 @@ let
         "6EGF5asg" = _6EGF5asg;
         "mM2Myd01" = _mM2Myd01;
         "rhspYckp" = _rhspYckp;
-        "forge-1.20.1" = _rhspYckp;
+        "hDYzUfT0" = _hDYzUfT0;
+        "forge-1.20.1" = _hDYzUfT0;
         "pkg-1.20.1-0.1" = _RwZ0ti90;
         "pkg-1.20.1-0.1.1" = _gptQANZT;
         "pkg-1.20.1-0.1.2" = _O5dc4FT2;
@@ -164,7 +170,8 @@ let
         "pkg-1.20.1-0.2.10" = _6EGF5asg;
         "pkg-1.20.1-0.2.11" = _mM2Myd01;
         "pkg-1.20.1-0.2.12" = _rhspYckp;
-        "default" = _rhspYckp;
+        "pkg-1.20.1-0.3" = _hDYzUfT0;
+        "default" = _hDYzUfT0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fluffy-fur";

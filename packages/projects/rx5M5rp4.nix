@@ -41,6 +41,26 @@ let
             "file" = "DoorsReloaded-2.3.0-Paper.jar";
             "hash" = "sha512-6++9EnsCgL4gLvqxeIMv7OurDXM+E1QaE4prW3SN94XKrD3A0gJPRGCibLsb/HoiMmMdoLMayU2PxWWi2qTuug==";
         };
+        _EhKXg2R3 = {
+            "id" = "EhKXg2R3";
+            "file" = "DoorsReloaded-2.4.0-Fabric.jar";
+            "hash" = "sha512-HaR53JGBMqEuM+40Qs3dgTIJ1drVRAwrFeGUVifmz8kHJirF0fLMW3qWFThGJ044MfxoEJT3TvpERQ1/dt30YA==";
+        };
+        _Hb79Yhd0 = {
+            "id" = "Hb79Yhd0";
+            "file" = "DoorsReloaded-2.4.0-Paper.jar";
+            "hash" = "sha512-EjMcAqCsue8q8uWjq2Oky6sERwzwC2xkQBIbiPvAeMbPwNQDAHa0bL5R0C85Gs4jH9ACZZYRPghyEoK02pm13w==";
+        };
+        _kBzX0S8g = {
+            "id" = "kBzX0S8g";
+            "file" = "DoorsReloaded-2.5.0-Fabric.jar";
+            "hash" = "sha512-KGnDxpc46rnZS2ManWtM6OGAW563c6EBAXQFfzsjlsj/+fXHD0pQq0xTsdYwNgC+SGypCN5ddsdO4B1RwlzYww==";
+        };
+        _5QKRFoYe = {
+            "id" = "5QKRFoYe";
+            "file" = "DoorsReloaded-2.5.0-Paper.jar";
+            "hash" = "sha512-vW9hC7+JejSJbHu8oESOVkpn9qt5DpeEVGpuij9IWuQYRle2CGfSzrKvuxFkkB0dB0p8vLsN2aP1CGoE30z8+w==";
+        };
     in {
         "3tvNWOkS" = _3tvNWOkS;
         "bvyznURP" = _bvyznURP;
@@ -50,6 +70,10 @@ let
         "4JESZG0j" = _4JESZG0j;
         "am5ov9U4" = _am5ov9U4;
         "4sXMh9tV" = _4sXMh9tV;
+        "EhKXg2R3" = _EhKXg2R3;
+        "Hb79Yhd0" = _Hb79Yhd0;
+        "kBzX0S8g" = _kBzX0S8g;
+        "5QKRFoYe" = _5QKRFoYe;
         "folia-1.21" = _4JESZG0j;
         "folia-1.21.1" = _4JESZG0j;
         "folia-1.21.2" = _4JESZG0j;
@@ -65,6 +89,8 @@ let
         "folia-26.1" = _4sXMh9tV;
         "folia-26.1.1" = _4sXMh9tV;
         "folia-26.1.2" = _4sXMh9tV;
+        "folia-26.2" = _Hb79Yhd0;
+        "folia-26.3" = _5QKRFoYe;
         "paper-1.21" = _4JESZG0j;
         "paper-1.21.1" = _4JESZG0j;
         "paper-1.21.2" = _4JESZG0j;
@@ -80,6 +106,8 @@ let
         "paper-26.1" = _4sXMh9tV;
         "paper-26.1.1" = _4sXMh9tV;
         "paper-26.1.2" = _4sXMh9tV;
+        "paper-26.2" = _Hb79Yhd0;
+        "paper-26.3" = _5QKRFoYe;
         "purpur-1.21" = _4JESZG0j;
         "purpur-1.21.1" = _4JESZG0j;
         "purpur-1.21.2" = _4JESZG0j;
@@ -95,6 +123,8 @@ let
         "purpur-26.1" = _4sXMh9tV;
         "purpur-26.1.1" = _4sXMh9tV;
         "purpur-26.1.2" = _4sXMh9tV;
+        "purpur-26.2" = _Hb79Yhd0;
+        "purpur-26.3" = _5QKRFoYe;
         "fabric-1.21.11" = _9n3Eb3dS;
         "fabric-1.21" = _9n3Eb3dS;
         "fabric-1.21.1" = _9n3Eb3dS;
@@ -110,6 +140,8 @@ let
         "fabric-26.1" = _am5ov9U4;
         "fabric-26.1.1" = _am5ov9U4;
         "fabric-26.1.2" = _am5ov9U4;
+        "fabric-26.2" = _EhKXg2R3;
+        "fabric-26.3" = _kBzX0S8g;
         "quilt-1.21.11" = _9n3Eb3dS;
         "quilt-1.21" = _9n3Eb3dS;
         "quilt-1.21.1" = _9n3Eb3dS;
@@ -125,12 +157,16 @@ let
         "quilt-26.1" = _am5ov9U4;
         "quilt-26.1.1" = _am5ov9U4;
         "quilt-26.1.2" = _am5ov9U4;
+        "quilt-26.2" = _EhKXg2R3;
+        "quilt-26.3" = _kBzX0S8g;
         "pkg-2.0.0" = _3tvNWOkS;
         "pkg-2.0.1" = _bvyznURP;
         "pkg-2.1.0" = _p8ZsNotQ;
         "pkg-2.2.0" = _4JESZG0j;
         "pkg-2.3.0" = _4sXMh9tV;
-        "default" = _4sXMh9tV;
+        "pkg-2.4.0" = _Hb79Yhd0;
+        "pkg-2.5.0" = _5QKRFoYe;
+        "default" = _5QKRFoYe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "doorsreloaded";

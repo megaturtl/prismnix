@@ -821,6 +821,11 @@ let
             "file" = "pmmo-26.3.0-2.9.40.jar";
             "hash" = "sha512-x73ZAQC1kg6BSss0SNft88swL9JmBr6qzP/ZsYBpOjI22ZwfVgr0ylMkPoprQrNZk/toXJCs4RmspYskdwbCEA==";
         };
+        _Qupc1dVc = {
+            "id" = "Qupc1dVc";
+            "file" = "pmmo-26.3.0-2.9.41.jar";
+            "hash" = "sha512-pvuJ91/Z9VX3YVTYP3dDapQF7RcK+PNBgKZAUcz6uencF4Ku/J5VTUspA05l4W/psFT+PgA2k87ervcnOoKHDw==";
+        };
     in {
         "Ft4KBPOH" = _Ft4KBPOH;
         "IiPmmtC2" = _IiPmmtC2;
@@ -986,6 +991,7 @@ let
         "tIWJbFCS" = _tIWJbFCS;
         "2gVDfVwv" = _2gVDfVwv;
         "upQCpf54" = _upQCpf54;
+        "Qupc1dVc" = _Qupc1dVc;
         "forge-1.19.2" = _e2ouMEFK;
         "forge-1.18.2" = _aMM2uSfb;
         "forge-1.16.5" = _5czBhmqb;
@@ -1010,7 +1016,7 @@ let
         "neoforge-26.1" = _t8Lo9UQk;
         "neoforge-26.2" = _2mgsNmNS;
         "neoforge-26.1.2" = _t8Lo9UQk;
-        "neoforge-26.3" = _upQCpf54;
+        "neoforge-26.3" = _Qupc1dVc;
         "pkg-1.19-1.0.0" = _Ft4KBPOH;
         "pkg-1.18.2-4.0.0" = _IiPmmtC2;
         "pkg-1.0.1" = _Vsj5RYL1;
@@ -1164,7 +1170,8 @@ let
         "pkg-1.20.1-1.7.43" = _tIWJbFCS;
         "pkg-2.9.39" = _2gVDfVwv;
         "pkg-2.9.40" = _upQCpf54;
-        "default" = _upQCpf54;
+        "pkg-2.9.41" = _Qupc1dVc;
+        "default" = _Qupc1dVc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "project-mmo";

@@ -61,6 +61,11 @@ let
             "file" = "axolotl-villagers_v1.7.zip";
             "hash" = "sha512-hOW2CWWTo6WYFe5zTK1uGSthdpiaEnrhPm0iXZSDzdumxdkor+Aot+eZlyxtiial2CMgzGHkQVl9vZIyLZZBWA==";
         };
+        _HQQlvpsF = {
+            "id" = "HQQlvpsF";
+            "file" = "Axolotl_Villager_v18.zip";
+            "hash" = "sha512-IPXhtEIy/EspgtLXvZOg+hGRht8S4C+XccfYDAmTMOtnGdfvx0c/DPY7yAw1e+E1b7McOqIpBeHuuRsZ7JrVLA==";
+        };
     in {
         "ZusbUVTt" = _ZusbUVTt;
         "gBSG8VfO" = _gBSG8VfO;
@@ -74,6 +79,7 @@ let
         "HDMSn9EJ" = _HDMSn9EJ;
         "gzPDWDeg" = _gzPDWDeg;
         "uWoaPQxF" = _uWoaPQxF;
+        "HQQlvpsF" = _HQQlvpsF;
         "minecraft-1.16" = _fbeagHWP;
         "minecraft-1.16.1" = _fbeagHWP;
         "minecraft-1.16.2" = _fbeagHWP;
@@ -108,6 +114,7 @@ let
         "minecraft-1.21.8" = _gzPDWDeg;
         "minecraft-1.21.9" = _uWoaPQxF;
         "minecraft-1.21.10" = _uWoaPQxF;
+        "minecraft-26.3" = _HQQlvpsF;
         "pkg-v1" = _ZusbUVTt;
         "pkg-v1.1" = _gBSG8VfO;
         "pkg-v1.1.2" = _fbeagHWP;
@@ -120,7 +127,8 @@ let
         "pkg-v1.5.2" = _HDMSn9EJ;
         "pkg-v1.6" = _gzPDWDeg;
         "pkg-v1.7" = _uWoaPQxF;
-        "default" = _uWoaPQxF;
+        "pkg-v18" = _HQQlvpsF;
+        "default" = _HQQlvpsF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "axolotl-villagers";

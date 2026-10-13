@@ -166,6 +166,16 @@ let
             "file" = "AioStructures-4.9.2.jar";
             "hash" = "sha512-dsiBa+6wYGL4q2rX1gSKenDZwGR/Oqc9d+BLj0AlaxaiWtdf3Cb+eaerx3twOxA04QnD8bezbasnKIdM+jq59A==";
         };
+        _cT1NNF1l = {
+            "id" = "cT1NNF1l";
+            "file" = "AioStructures-4.9.3.zip";
+            "hash" = "sha512-6mCArtcP/0z9SE/Ieodv+euFSCh7Y0TRAJgFmuD4dQK6hMPVjFVO1c9GlVyavWG48D6+JmF7ax5RKOAfusoklA==";
+        };
+        _32a9uJ9Y = {
+            "id" = "32a9uJ9Y";
+            "file" = "AioStructures-4.9.3.jar";
+            "hash" = "sha512-u82x7iC7MP6hfjruE0p+nE1J4691gP4Xf1aNes3lKDEjTuTzys2+avKZd4dt2EdqWp+lR/+/fsZLlTuBFzexPA==";
+        };
     in {
         "mHDWRdfJ" = _mHDWRdfJ;
         "K89HNZ58" = _K89HNZ58;
@@ -200,10 +210,12 @@ let
         "CBV2iBSw" = _CBV2iBSw;
         "loBRMYSI" = _loBRMYSI;
         "hYbb1Mih" = _hYbb1Mih;
-        "datapack-1.21.1" = _loBRMYSI;
-        "datapack-1.21" = _loBRMYSI;
-        "fabric-1.21.1" = _hYbb1Mih;
-        "neoforge-1.21.1" = _hYbb1Mih;
+        "cT1NNF1l" = _cT1NNF1l;
+        "32a9uJ9Y" = _32a9uJ9Y;
+        "datapack-1.21.1" = _cT1NNF1l;
+        "datapack-1.21" = _cT1NNF1l;
+        "fabric-1.21.1" = _32a9uJ9Y;
+        "neoforge-1.21.1" = _32a9uJ9Y;
         "pkg-1.0.0" = _mHDWRdfJ;
         "pkg-1.1.0" = _K89HNZ58;
         "pkg-2.1.0" = _QJw0YEAz;
@@ -226,7 +238,8 @@ let
         "pkg-4.9.0" = _CPRFZPhD;
         "pkg-4.9.1" = _CBV2iBSw;
         "pkg-4.9.2" = _hYbb1Mih;
-        "default" = _hYbb1Mih;
+        "pkg-4.9.3" = _32a9uJ9Y;
+        "default" = _32a9uJ9Y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "aios-extra-structures!";

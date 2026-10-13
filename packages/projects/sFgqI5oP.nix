@@ -151,6 +151,16 @@ let
             "file" = "soundculling-2.1.0.jar";
             "hash" = "sha512-+QX3O3q68wIZLxfHLGnbNIz6tr+fJQJYWw99sx8aJuNQT/5UNd97zELDrzJS8vDXxJ7EvYwGOfUvjf/we6Kiig==";
         };
+        _slFd6BMg = {
+            "id" = "slFd6BMg";
+            "file" = "soundculling-2.1.0.jar";
+            "hash" = "sha512-mB8h3FdOEjCF3Gv77ToAUImXic8RO5rMEWCj/R6iT9w12z4fd68roZJVSL4NevvYWMCxt+bZ4PuiH7+LeP3YJQ==";
+        };
+        _rjo91q4z = {
+            "id" = "rjo91q4z";
+            "file" = "soundculling-2.1.0.jar";
+            "hash" = "sha512-xBpqAjOAxt1B2nQ8wwtRiqH64kkpObENvnlOV0bdKYC5nBtD40bXKF51hMLYuWmc4rTIjHUCjD/xGqXIdv9wVA==";
+        };
     in {
         "SSegNqlt" = _SSegNqlt;
         "cC42e8K8" = _cC42e8K8;
@@ -182,9 +192,11 @@ let
         "4NwQsDim" = _4NwQsDim;
         "utm7c3rA" = _utm7c3rA;
         "j6VNuO5B" = _j6VNuO5B;
-        "fabric-26.1" = _F6fSChjY;
-        "fabric-26.1.1" = _F6fSChjY;
-        "fabric-26.1.2" = _F6fSChjY;
+        "slFd6BMg" = _slFd6BMg;
+        "rjo91q4z" = _rjo91q4z;
+        "fabric-26.1" = _rjo91q4z;
+        "fabric-26.1.1" = _rjo91q4z;
+        "fabric-26.1.2" = _rjo91q4z;
         "fabric-1.20.1" = _vUK8vS4F;
         "fabric-1.21.1" = _nvgdupcJ;
         "fabric-26.2" = _utm7c3rA;
@@ -219,7 +231,7 @@ let
         "neoforge-26.1.1" = _GwkLp6dA;
         "neoforge-26.1.2" = _GwkLp6dA;
         "neoforge-1.21" = _zQ25PTpc;
-        "neoforge-1.21.1" = _zQ25PTpc;
+        "neoforge-1.21.1" = _slFd6BMg;
         "neoforge-1.21.2" = _zQ25PTpc;
         "neoforge-1.21.3" = _zQ25PTpc;
         "neoforge-1.21.4" = _zQ25PTpc;
@@ -236,8 +248,8 @@ let
         "pkg-1.0.2" = _axoTGv12;
         "pkg-2.0.0" = _kydanY9F;
         "pkg-2.0.1" = _4NwQsDim;
-        "pkg-2.1.0" = _j6VNuO5B;
-        "default" = _j6VNuO5B;
+        "pkg-2.1.0" = _rjo91q4z;
+        "default" = _rjo91q4z;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sound-culling";

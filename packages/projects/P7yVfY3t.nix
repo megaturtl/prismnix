@@ -316,6 +316,16 @@ let
             "file" = "cat_vision-3.0.0-fabric+26.2.jar";
             "hash" = "sha512-SlGA8zzL8dfYOGzVVnEmcoQkFA4w8/M7ETtFm3T2uEaaOLO/U7UEQlRvnVn3ueB7rWBaBTXgDqT1UR1Bw4Ht9Q==";
         };
+        _zYnQjGQ2 = {
+            "id" = "zYnQjGQ2";
+            "file" = "cat_vision-3.0.0-fabric+26.3.jar";
+            "hash" = "sha512-IKlMANVdHCyGiyd078gqzQJiwva3LQYB2C/1Zmc+0K0q8LCG4aVfqxTlphfcDJHJzEtZ9JKVSz38QxoD97nIrg==";
+        };
+        _PO7oimFy = {
+            "id" = "PO7oimFy";
+            "file" = "cat_vision-3.0.0-neoforge+26.3.jar";
+            "hash" = "sha512-CwOHeNZt75Ixix2Z73zRaKQN5wTCER4x620WWxCnH+5+piblp7LGHfwH9B2EcZZFAZp7+j7GAbcKWVkEIzLzOg==";
+        };
     in {
         "z1d7T8N7" = _z1d7T8N7;
         "yKwgdpts" = _yKwgdpts;
@@ -380,6 +390,8 @@ let
         "3pEP4nSf" = _3pEP4nSf;
         "3vkvKm8i" = _3vkvKm8i;
         "QVtmEzi6" = _QVtmEzi6;
+        "zYnQjGQ2" = _zYnQjGQ2;
+        "PO7oimFy" = _PO7oimFy;
         "forge-1.16.5" = _z1d7T8N7;
         "forge-1.17.1" = _ylGUbE5e;
         "forge-1.18" = _WAiRJIaA;
@@ -425,6 +437,7 @@ let
         "fabric-26.1.1" = _BhJXL4DK;
         "fabric-26.1.2" = _3pEP4nSf;
         "fabric-26.2" = _QVtmEzi6;
+        "fabric-26.3" = _zYnQjGQ2;
         "neoforge-1.20.4" = _YwMhDMxO;
         "neoforge-1.20.6" = _Xp5GwBPf;
         "neoforge-1.21" = _9T7bYlzN;
@@ -443,6 +456,7 @@ let
         "neoforge-26.1.1" = _MIAUtGNY;
         "neoforge-26.1.2" = _TgEXYG0s;
         "neoforge-26.2" = _3vkvKm8i;
+        "neoforge-26.3" = _PO7oimFy;
         "pkg-3.0.0-forge+1.16.5" = _z1d7T8N7;
         "pkg-3.0.0-fabric+1.16.5" = _yKwgdpts;
         "pkg-3.0.0-fabric+1.17.1" = _nvqC9x2r;
@@ -506,7 +520,9 @@ let
         "pkg-3.0.0-fabric+26.1.2" = _3pEP4nSf;
         "pkg-3.0.0-neoforge+26.2" = _3vkvKm8i;
         "pkg-3.0.0-fabric+26.2" = _QVtmEzi6;
-        "default" = _QVtmEzi6;
+        "pkg-3.0.0-fabric+26.3" = _zYnQjGQ2;
+        "pkg-3.0.0-neoforge+26.3" = _PO7oimFy;
+        "default" = _PO7oimFy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "catvision";

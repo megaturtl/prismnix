@@ -26,19 +26,26 @@ let
             "file" = "incontrol-1.12-3.10.4.jar";
             "hash" = "sha512-KG/8l61+XvrKMpcT8ozMOM3tvaenGZxE0NndiabM/u73yt9dX1lsoN8KwNlZ5EMnG1Bx6UPXtQViFY2xLHGR4A==";
         };
+        _LJYPNhpm = {
+            "id" = "LJYPNhpm";
+            "file" = "incontrol-1.12-3.10.5.jar";
+            "hash" = "sha512-lxtV1WSeiVg/kozasgN4X8tLYdNtdb2uzzqgcd9BigvwjGGcBSKUfGJFjgTVhL0qb6Mmgdplk+2EC9/YikZFXw==";
+        };
     in {
         "LQhecAId" = _LQhecAId;
         "md6PQnIt" = _md6PQnIt;
         "ckKgCdlu" = _ckKgCdlu;
         "qEc9mNxY" = _qEc9mNxY;
         "FNvAgxtY" = _FNvAgxtY;
-        "forge-1.12.2" = _FNvAgxtY;
+        "LJYPNhpm" = _LJYPNhpm;
+        "forge-1.12.2" = _LJYPNhpm;
         "pkg-3.10.0" = _LQhecAId;
         "pkg-3.10.1" = _md6PQnIt;
         "pkg-3.10.2" = _ckKgCdlu;
         "pkg-3.10.3" = _qEc9mNxY;
         "pkg-3.10.4" = _FNvAgxtY;
-        "default" = _FNvAgxtY;
+        "pkg-3.10.5" = _LJYPNhpm;
+        "default" = _LJYPNhpm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "froggyincntrlcont";

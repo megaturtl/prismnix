@@ -81,6 +81,11 @@ let
             "file" = "nlcmc-0.0.6.jar";
             "hash" = "sha512-SaDSIIUU9qpzAY7Cwu/Tqemcm+tyiIZCB9gPLORL5yju48DVfBoOwJDMMSQSqDswx6ZNhm17vEDcf9f/MVgb9Q==";
         };
+        _BVkJkNs2 = {
+            "id" = "BVkJkNs2";
+            "file" = "nlcmc-0.0.7.jar";
+            "hash" = "sha512-rDa4moIMwwhceoSKV2Q8BfUoo9HxfJAZ9cLMmgBT0e7apsv9YZRsCYF5hXVXyBTCxAQ5G1/An1c9BNl/80ouCg==";
+        };
     in {
         "6IhaV067" = _6IhaV067;
         "WjSBNhd5" = _WjSBNhd5;
@@ -98,9 +103,10 @@ let
         "Z64oX43X" = _Z64oX43X;
         "7rOxMuy2" = _7rOxMuy2;
         "7KjfDbEF" = _7KjfDbEF;
+        "BVkJkNs2" = _BVkJkNs2;
         "forge-1.20.1" = _c3RaccI0;
         "neoforge-26.1.2" = _lzqsUdZ2;
-        "neoforge-1.21.1" = _7KjfDbEF;
+        "neoforge-1.21.1" = _BVkJkNs2;
         "neoforge-26.2" = _7rOxMuy2;
         "pkg-0.3.0" = _6IhaV067;
         "pkg-0.3.1" = _WjSBNhd5;
@@ -114,7 +120,8 @@ let
         "pkg-0.0.4" = _lUryZE9I;
         "pkg-0.0.5" = _Z64oX43X;
         "pkg-0.0.6" = _7KjfDbEF;
-        "default" = _7KjfDbEF;
+        "pkg-0.0.7" = _BVkJkNs2;
+        "default" = _BVkJkNs2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lcmc";

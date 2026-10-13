@@ -151,6 +151,21 @@ let
             "file" = "MorePressurePlates-neoforge-26.1.2-1.4.0.1.jar";
             "hash" = "sha512-qE6u5iCJYEU33dtifvnOBf5ZnOkFw54CyJFSOAbXSoaLhR3elGvo35CMeNZBM6K5UiXL0hkJCrmg/kDrJ1d/Nw==";
         };
+        _BzjeEwAW = {
+            "id" = "BzjeEwAW";
+            "file" = "MorePressurePlates-forge-26.3-1.5.0.jar";
+            "hash" = "sha512-uF7XwEhHNnxcN6L+oPYGP350K0rLdJaUC+nnixUYzCcSiaB6DhFHSjaFUWUwRbesUXAGt/neyeaW3llqd0eFqw==";
+        };
+        _BebQNzL6 = {
+            "id" = "BebQNzL6";
+            "file" = "MorePressurePlates-fabric-26.3-1.5.0.jar";
+            "hash" = "sha512-V7C0lzqYWpDDUoRHvc7c3byGsoh30Khhr2REWJkHD3m19FOzpim0DWWuGQhe6w+6y65mI6C+RgpcAqdmqJ60KA==";
+        };
+        _485PuGw7 = {
+            "id" = "485PuGw7";
+            "file" = "MorePressurePlates-neoforge-26.3-1.5.0.jar";
+            "hash" = "sha512-NRSGBR90Xc43VfXy9/LXk8E6OjyzZsADXsNmjePITExzjjiJmWZdVIBgCghRjgRXoWP/Isn4Dl9BZXuXIhnjaw==";
+        };
     in {
         "aL3NkH5N" = _aL3NkH5N;
         "dqTbOey9" = _dqTbOey9;
@@ -182,6 +197,9 @@ let
         "oG47g95Z" = _oG47g95Z;
         "5G5KpvLM" = _5G5KpvLM;
         "Rey0Xnv2" = _Rey0Xnv2;
+        "BzjeEwAW" = _BzjeEwAW;
+        "BebQNzL6" = _BebQNzL6;
+        "485PuGw7" = _485PuGw7;
         "fabric-1.20.1" = _aL3NkH5N;
         "fabric-1.20.2" = _SKLCIIcm;
         "fabric-1.20.4" = _oLHPLxsZ;
@@ -191,6 +209,7 @@ let
         "fabric-1.21.10" = _Hoeg1Nhu;
         "fabric-1.21.11" = _W1Zqe5nL;
         "fabric-26.1.2" = _oG47g95Z;
+        "fabric-26.3" = _BebQNzL6;
         "forge-1.20.1" = _dqTbOey9;
         "forge-1.20.2" = _vFzzEZlA;
         "forge-1.20.4" = _h2Ntyita;
@@ -201,6 +220,7 @@ let
         "forge-1.21.10" = _MKCyHumW;
         "forge-1.21.11" = _4QUYm14F;
         "forge-26.1.2" = _5G5KpvLM;
+        "forge-26.3" = _BzjeEwAW;
         "neoforge-1.20.4" = _yRKGhDZN;
         "neoforge-1.21" = _6wM5RIrH;
         "neoforge-1.21.1" = _ZG429Aaj;
@@ -208,6 +228,7 @@ let
         "neoforge-1.21.10" = _w6Vga01n;
         "neoforge-1.21.11" = _VbbC0Ixj;
         "neoforge-26.1.2" = _Rey0Xnv2;
+        "neoforge-26.3" = _485PuGw7;
         "pkg-1.0.4" = _aL3NkH5N;
         "pkg-1.2.1" = _dqTbOey9;
         "pkg-1.2.2" = _kjT7l4xN;
@@ -231,7 +252,8 @@ let
         "pkg-1.21.11-1.1.4" = _W1Zqe5nL;
         "pkg-1.4.0" = _oG47g95Z;
         "pkg-1.4.0.1" = _Rey0Xnv2;
-        "default" = _Rey0Xnv2;
+        "pkg-1.5.0" = _485PuGw7;
+        "default" = _485PuGw7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-beautiful-pressure-plates";

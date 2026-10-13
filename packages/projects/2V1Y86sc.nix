@@ -351,6 +351,16 @@ let
             "file" = "zamega-fabric-1.8.1+1.8.jar";
             "hash" = "sha512-RPCmvLnO/R9L/vcusqx0gBkoVK9ysQqP3WU+xO8DpLpNM3FxsUUHWwngcYOA7F3n/V8H3GTINcrR13gcZIdD7Q==";
         };
+        _vqbkMrnN = {
+            "id" = "vqbkMrnN";
+            "file" = "zamega-neoforge-1.8.2+1.8.2.jar";
+            "hash" = "sha512-G93ylU3Pnnmq3qgHEcmMB0U6cduoSp7C3yabJcW8TDMllaHPFr5zgi0SY21tzOSRpCuFNzbr9UPhAzph59LBJg==";
+        };
+        _CBalGwUD = {
+            "id" = "CBalGwUD";
+            "file" = "zamega-fabric-1.8.2+1.8.2.jar";
+            "hash" = "sha512-Hq2vQfMc/ry38zR2c+qgRj2YCKeFQni+iV9nEhVrqb/tqGl4QKpnIJw3YRpUxtTqRiBINcJxvCTHr0M8LXT3JQ==";
+        };
     in {
         "PWnNshnB" = _PWnNshnB;
         "67GxfNuL" = _67GxfNuL;
@@ -422,9 +432,11 @@ let
         "rLxNIykC" = _rLxNIykC;
         "vXsHwaru" = _vXsHwaru;
         "AkUZt99V" = _AkUZt99V;
+        "vqbkMrnN" = _vqbkMrnN;
+        "CBalGwUD" = _CBalGwUD;
         "datapack-1.21.1" = _r9p6V7hl;
-        "fabric-1.21.1" = _AkUZt99V;
-        "neoforge-1.21.1" = _vXsHwaru;
+        "fabric-1.21.1" = _CBalGwUD;
+        "neoforge-1.21.1" = _vqbkMrnN;
         "pkg-0.9.0" = _PWnNshnB;
         "pkg-0.9.1" = _67GxfNuL;
         "pkg-1.0" = _NsIrA0dG;
@@ -465,7 +477,8 @@ let
         "pkg-1.7.7+1.8" = _lmM1mzoE;
         "pkg-1.8.0+1.8" = _rLxNIykC;
         "pkg-1.8.1+1.8" = _AkUZt99V;
-        "default" = _AkUZt99V;
+        "pkg-1.8.2+1.8.2" = _CBalGwUD;
+        "default" = _CBalGwUD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "navas-zamega";

@@ -11,9 +11,21 @@ let
             "file" = "Halloween GUI 1.20.1.zip";
             "hash" = "sha512-i64rXeJlXivqxMFLNSy+YvXBzqKwK8rf4BO6V+s57kmOA/6S2dg19DtXMORC9DlnmxhjbCrt5Xp+TxdZ6OwAcQ==";
         };
+        _hJwEsrIQ = {
+            "id" = "hJwEsrIQ";
+            "file" = "Halloween GUI 1.20.zip";
+            "hash" = "sha512-EhIjuTvDG+n1HwcWRTYJCR1rIS5j7RQgecHLbGuFelvwKkR0/OGt6ur2nj9pVNvZ71Rg26DfPBzhtTGSyADNhw==";
+        };
+        _ib1EndIo = {
+            "id" = "ib1EndIo";
+            "file" = "Halloween GUI 1.21.zip";
+            "hash" = "sha512-V3KwJMSrp87JphQauv6TcWd2qBichdTuwEuqrEXZAhv7Ma6KVNAlKIS6vlwGiXnGfUuD1dnt9eT8HVY3nDW8aQ==";
+        };
     in {
         "hwKXO3k0" = _hwKXO3k0;
         "t6tVFmjP" = _t6tVFmjP;
+        "hJwEsrIQ" = _hJwEsrIQ;
+        "ib1EndIo" = _ib1EndIo;
         "minecraft-1.16" = _t6tVFmjP;
         "minecraft-1.16.1" = _t6tVFmjP;
         "minecraft-1.16.2" = _t6tVFmjP;
@@ -30,15 +42,24 @@ let
         "minecraft-1.19.2" = _t6tVFmjP;
         "minecraft-1.19.3" = _t6tVFmjP;
         "minecraft-1.19.4" = _t6tVFmjP;
-        "minecraft-1.20" = _t6tVFmjP;
-        "minecraft-1.20.1" = _t6tVFmjP;
+        "minecraft-1.20" = _hJwEsrIQ;
+        "minecraft-1.20.1" = _hJwEsrIQ;
         "minecraft-1.20.2" = _t6tVFmjP;
         "minecraft-1.20.3" = _t6tVFmjP;
         "minecraft-1.20.4" = _t6tVFmjP;
         "minecraft-1.20.5" = _t6tVFmjP;
         "minecraft-1.20.6" = _t6tVFmjP;
+        "minecraft-1.21.1" = _ib1EndIo;
+        "minecraft-1.21.2" = _ib1EndIo;
+        "minecraft-1.21.3" = _ib1EndIo;
+        "minecraft-1.21.4" = _ib1EndIo;
+        "minecraft-1.21.5" = _ib1EndIo;
+        "minecraft-1.21.6" = _ib1EndIo;
+        "minecraft-1.21.7" = _ib1EndIo;
+        "minecraft-1.21.8" = _ib1EndIo;
         "pkg-1.0" = _t6tVFmjP;
-        "default" = _t6tVFmjP;
+        "pkg-2.0" = _ib1EndIo;
+        "default" = _ib1EndIo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "halloween-gui";

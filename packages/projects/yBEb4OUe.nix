@@ -136,6 +136,11 @@ let
             "file" = "customspeed-2.0.2_3-26.2-neoforge.jar";
             "hash" = "sha512-8LIbMqCmVmtg/N8KEokYflNceJqfHAyYDUm0l7if+C8jDQVE4Z8aokm0hZUYGV+ljvMoV4Hfa5zgbdbCaHLwAw==";
         };
+        _ODZjFFsB = {
+            "id" = "ODZjFFsB";
+            "file" = "customspeed-2.0.2_3b-26.3-fabric.jar";
+            "hash" = "sha512-rBAc35kUmOuw7zoi2oKVOgFtTQt+j56r9ajvp29Bq/rWGT+kNDf/O+FGfa6k28f5D7AaCOMTXjlAjodDQQHkLg==";
+        };
     in {
         "ZT3o4f7r" = _ZT3o4f7r;
         "8jpazSTL" = _8jpazSTL;
@@ -164,6 +169,7 @@ let
         "sioDomeG" = _sioDomeG;
         "1yXCXbZx" = _1yXCXbZx;
         "flbHMDTe" = _flbHMDTe;
+        "ODZjFFsB" = _ODZjFFsB;
         "fabric-1.20.1" = _ZT3o4f7r;
         "fabric-1.19" = _8jpazSTL;
         "fabric-1.19.1" = _8jpazSTL;
@@ -185,6 +191,7 @@ let
         "fabric-26.1.1" = _1CU9rAB0;
         "fabric-26.1.2" = _1CU9rAB0;
         "fabric-26.2" = _56P5JWyR;
+        "fabric-26.3" = _ODZjFFsB;
         "forge-1.19" = _Q7AiWvTZ;
         "forge-1.19.1" = _Q7AiWvTZ;
         "forge-1.19.2" = _Q7AiWvTZ;
@@ -219,7 +226,8 @@ let
         "pkg-2.0.2_2-1.21.11-neoforge" = _sioDomeG;
         "pkg-2.0.2_3-26.1.2-neoforge" = _1yXCXbZx;
         "pkg-2.0.2_3-26.2-neoforge" = _flbHMDTe;
-        "default" = _flbHMDTe;
+        "pkg-2.0.2_2-26.3" = _ODZjFFsB;
+        "default" = _ODZjFFsB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "customspeed";

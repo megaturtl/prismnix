@@ -21,17 +21,24 @@ let
             "file" = "loafcats-1.3-1.20.1.jar";
             "hash" = "sha512-EwkN4W+u/lWEQg3n7mV6HLmXZO8e94c9pTT7ZAunGB/kOSHraRB1sfkc+bPENBt1mW7JPU2JI+sdvRuF8bIR7A==";
         };
+        _uit99dZ6 = {
+            "id" = "uit99dZ6";
+            "file" = "loafcats-1.4-1.20.1.jar";
+            "hash" = "sha512-65eEMTGalNmzX4FDYNeXEQhd9isOkRaYhiBH2joAkVSY2nrHrQ2Rkf7mLkcOZZXmPnVAgVU3oeZzEKTlGU4aAw==";
+        };
     in {
         "1bRsMfNc" = _1bRsMfNc;
         "YCNtTXyt" = _YCNtTXyt;
         "I9PxDAbl" = _I9PxDAbl;
         "m4Q3x5nT" = _m4Q3x5nT;
-        "forge-1.20.1" = _m4Q3x5nT;
+        "uit99dZ6" = _uit99dZ6;
+        "forge-1.20.1" = _uit99dZ6;
         "pkg-1.0-1.20.1" = _1bRsMfNc;
         "pkg-1.1-1.20.1" = _YCNtTXyt;
         "pkg-1.2-1.20.1" = _I9PxDAbl;
         "pkg-1.3-1.20.1" = _m4Q3x5nT;
-        "default" = _m4Q3x5nT;
+        "pkg-1.4-1.20.1" = _uit99dZ6;
+        "default" = _uit99dZ6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "loaf-cats";

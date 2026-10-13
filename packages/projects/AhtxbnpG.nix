@@ -441,6 +441,11 @@ let
             "file" = "ExtendedDrawers-5.1.0+mc.26.2.jar";
             "hash" = "sha512-Tz3BU0F5P3WSMOdcOPDK60p2p4mChY+ncMTiY9kGdcIcknsLGumkvQwJRzeD7NSIfoaUsaULv9SRl8VKF863gQ==";
         };
+        _d3DnRFOA = {
+            "id" = "d3DnRFOA";
+            "file" = "ExtendedDrawers-5.2.0+mc.26.3.jar";
+            "hash" = "sha512-2qRUgeiJVuCWS6gxbFpLaM2O+RlyelGMU//Yu043iV4Ab6FYaSeyfya74QUJgnxsHy8uNZxR5XDLSxm97/e8Mw==";
+        };
     in {
         "5c6Al96I" = _5c6Al96I;
         "i25Z4eGd" = _i25Z4eGd;
@@ -530,6 +535,7 @@ let
         "5lQqC26G" = _5lQqC26G;
         "QkTa8nh5" = _QkTa8nh5;
         "1GrnCGEz" = _1GrnCGEz;
+        "d3DnRFOA" = _d3DnRFOA;
         "fabric-1.18.2" = _OWwdDLUz;
         "fabric-1.19-rc1" = _TsinvYm2;
         "fabric-1.19" = _t5m6b25L;
@@ -555,6 +561,7 @@ let
         "fabric-26.1.1" = _QkTa8nh5;
         "fabric-26.1.2" = _QkTa8nh5;
         "fabric-26.2" = _1GrnCGEz;
+        "fabric-26.3" = _d3DnRFOA;
         "quilt-1.18.2" = _OWwdDLUz;
         "quilt-1.19" = _t5m6b25L;
         "quilt-1.19.1" = _SzOc0Txf;
@@ -661,7 +668,8 @@ let
         "pkg-4.3.0-beta.3+mc.1.21.11" = _5lQqC26G;
         "pkg-5.0.0+mc.26.1" = _QkTa8nh5;
         "pkg-5.1.0+mc.26.2" = _1GrnCGEz;
-        "default" = _1GrnCGEz;
+        "pkg-5.2.0+mc.26.3" = _d3DnRFOA;
+        "default" = _d3DnRFOA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "extended-drawers";

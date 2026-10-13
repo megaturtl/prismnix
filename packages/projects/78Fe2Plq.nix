@@ -96,6 +96,26 @@ let
             "file" = "minecraft-music-player-2.2.3-fabricmc1.18.2.jar";
             "hash" = "sha512-P67mlbF7RReiZH0Pv8ocaHFNXHGgkcV2huq0sB66Bw/mF6iFKzvLPkFzcyiYochvX3iMbFCNccYQYNVXmrGbOA==";
         };
+        _L1F4qf8I = {
+            "id" = "L1F4qf8I";
+            "file" = "minecraft-music-player-2.2.3-fabricmc1.17.1.jar";
+            "hash" = "sha512-mFabrEqvlFQt8KrsIfrIbSEGoi0TFKgDVctx9SVn6dcOgXX1iIGwYcDae5dTrTVPKLJMya20oFh9dxWqcKztBA==";
+        };
+        _2J5q4x9h = {
+            "id" = "2J5q4x9h";
+            "file" = "minecraft-music-player-2.2.3-fabricmc1.16.5.jar";
+            "hash" = "sha512-IGaO7bpRIVDFLdeFiDyPZ/VWvOEd6TgS+cIf2WZAWVegB1KqGA/K33iQN1gtC3k7p3cfaXU/UZv3a0YfiIvR4g==";
+        };
+        _XBVB0NRZ = {
+            "id" = "XBVB0NRZ";
+            "file" = "minecraft-music-player-2.2.3-fabricmc1.15.2.jar";
+            "hash" = "sha512-9yNxLTThqX42XgkWGonbN6ci58WnQL5novp64tUysI7DwLHo4HruQa/Y3k3ANdTN2Tjwa3NAuuzeG3fJRCc8UA==";
+        };
+        _qKcBJAat = {
+            "id" = "qKcBJAat";
+            "file" = "minecraft-music-player-2.2.3-fabricmc1.14.4.jar";
+            "hash" = "sha512-XK3n6ryogVigGcXgyZCb37W/o+UEvWh8tzKPrXuWQIogBvBbXMoshDFpv/Z8c0rhawdX9rRy1P7c5mr/nJGj+w==";
+        };
     in {
         "ATMURnwv" = _ATMURnwv;
         "VYNOsslo" = _VYNOsslo;
@@ -116,6 +136,10 @@ let
         "xl8VemJt" = _xl8VemJt;
         "CDNdw1Cs" = _CDNdw1Cs;
         "gvNnfTv6" = _gvNnfTv6;
+        "L1F4qf8I" = _L1F4qf8I;
+        "2J5q4x9h" = _2J5q4x9h;
+        "XBVB0NRZ" = _XBVB0NRZ;
+        "qKcBJAat" = _qKcBJAat;
         "fabric-1.20.1" = _xl8VemJt;
         "fabric-1.21.11" = _huOPV5PI;
         "fabric-26.2" = _V2Jng5WT;
@@ -125,6 +149,10 @@ let
         "fabric-26.1.2" = _4yrGkxOs;
         "fabric-1.19.2" = _CDNdw1Cs;
         "fabric-1.18.2" = _gvNnfTv6;
+        "fabric-1.17.1" = _L1F4qf8I;
+        "fabric-1.16.5" = _2J5q4x9h;
+        "fabric-1.15.2" = _XBVB0NRZ;
+        "fabric-1.14.4" = _qKcBJAat;
         "pkg-1.0.0" = _ATMURnwv;
         "pkg-2.0.0" = _VYNOsslo;
         "pkg-2.0.3" = _OhdVfhPx;
@@ -134,8 +162,8 @@ let
         "pkg-2.1.2" = _yjBjrtJd;
         "pkg-2.1.3" = _dmZrIfOl;
         "pkg-2.2.2" = _yngl8hOZ;
-        "pkg-2.2.3" = _gvNnfTv6;
-        "default" = _gvNnfTv6;
+        "pkg-2.2.3" = _qKcBJAat;
+        "default" = _qKcBJAat;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "custom-music-player";

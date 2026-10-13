@@ -16,15 +16,22 @@ let
             "file" = "PolyZoom-1.0.2.jar";
             "hash" = "sha512-Y1Li3KyFYAQ9atBFGeXxOlCxxB16yZN3T5241TN1wcx1K88rcU8WYHR5EqJx3R7DLrwiWbmu+OsAbdX8z9IrXQ==";
         };
+        _K8JEvM6g = {
+            "id" = "K8JEvM6g";
+            "file" = "PolyZoom-1.0.3.jar";
+            "hash" = "sha512-V51uDFgb0wpQ3wFkqqNNRPT+RbnTfx87e8jRbHHaHXiRyrO8zkR7Zikq6L7kXUcS5nvKt+sp2KA1Lbof7oaFNA==";
+        };
     in {
         "3wdJWObK" = _3wdJWObK;
         "CecT6haB" = _CecT6haB;
         "QIrZJ9f7" = _QIrZJ9f7;
-        "ornithe-1.8.9" = _QIrZJ9f7;
+        "K8JEvM6g" = _K8JEvM6g;
+        "ornithe-1.8.9" = _K8JEvM6g;
         "pkg-1.0.0" = _3wdJWObK;
         "pkg-1.0.1" = _CecT6haB;
         "pkg-1.0.2" = _QIrZJ9f7;
-        "default" = _QIrZJ9f7;
+        "pkg-1.0.3" = _K8JEvM6g;
+        "default" = _K8JEvM6g;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "polyzoom";

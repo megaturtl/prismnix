@@ -36,6 +36,16 @@ let
             "file" = "botamochi129_Rail_Structure_Pack_v.1.4_mtr4.zip";
             "hash" = "sha512-6Vi58zbOtp0l1UPB2kIowiSLIjbPHo5RkT1RY/ZT/QDgV1Rw8qxwBVwFx2f3bNGqH494pK9Pa+uGjoit8pvLKA==";
         };
+        _kQsQseHs = {
+            "id" = "kQsQseHs";
+            "file" = "botamochi129_Rail_Structure_Pack_v.1.5_mtr3.zip";
+            "hash" = "sha512-a+53E4tmDVPgbzqKjkOGEbA5Uy16Yo4V+OQtLrz0ITcsxnBisi5dsdElyLJbINJ9sdDqAoE+1ZZYm71htuN9iQ==";
+        };
+        _gnTnaBae = {
+            "id" = "gnTnaBae";
+            "file" = "botamochi129_Rail_Structure_Pack_v.1.5_mtr4.zip";
+            "hash" = "sha512-n67yLTp+tmGa6PuriLESWUwkRiXYnmX9tRwIEY7DWTaBqqIUfxxmmCWi8sXqjQAGbZhmBoPDPRgNw/wdUVyAfA==";
+        };
     in {
         "3K3vp1q5" = _3K3vp1q5;
         "s7pmaLTV" = _s7pmaLTV;
@@ -44,22 +54,26 @@ let
         "kESqoCQK" = _kESqoCQK;
         "nRLaGexq" = _nRLaGexq;
         "RDCP0ThT" = _RDCP0ThT;
+        "kQsQseHs" = _kQsQseHs;
+        "gnTnaBae" = _gnTnaBae;
         "minecraft-1.16.5" = _qa7i83ar;
-        "minecraft-1.17.1" = _RDCP0ThT;
-        "minecraft-1.18.2" = _RDCP0ThT;
-        "minecraft-1.19.2" = _RDCP0ThT;
-        "minecraft-1.19.4" = _RDCP0ThT;
-        "minecraft-1.20.1" = _RDCP0ThT;
-        "minecraft-1.20.4" = _RDCP0ThT;
+        "minecraft-1.17.1" = _gnTnaBae;
+        "minecraft-1.18.2" = _gnTnaBae;
+        "minecraft-1.19.2" = _gnTnaBae;
+        "minecraft-1.19.4" = _gnTnaBae;
+        "minecraft-1.20.1" = _gnTnaBae;
+        "minecraft-1.20.4" = _gnTnaBae;
         "minecraft-1.18.1" = _nRLaGexq;
-        "minecraft-1.19.3" = _RDCP0ThT;
+        "minecraft-1.19.3" = _gnTnaBae;
         "pkg-1.0" = _3K3vp1q5;
         "pkg-1.1" = _s7pmaLTV;
         "pkg-1.2" = _oQreerzb;
         "pkg-1.3" = _kESqoCQK;
         "pkg-v.1.4-MTR3" = _nRLaGexq;
         "pkg-v.1.4-MTR4" = _RDCP0ThT;
-        "default" = _RDCP0ThT;
+        "pkg-v.1.5-MTR3" = _kQsQseHs;
+        "pkg-v.1.5-MTR4" = _gnTnaBae;
+        "default" = _gnTnaBae;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "botamochi129-rspack";

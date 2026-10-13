@@ -551,6 +551,16 @@ let
             "file" = "EclipticSeasons-Fabricated-26.3-fabric-0.15.4.jar";
             "hash" = "sha512-q/v0pc+nfqFs0Zs9/PKTR9aAHGEyygON9NB1JXROHlOKhXecpnIPni7fLiPjyO5CGrLVj/UfZv6MzGVUHjxukw==";
         };
+        _qhSPArkD = {
+            "id" = "qhSPArkD";
+            "file" = "EclipticSeasons-Fabricated-26.1.2-fabric-0.15.4.jar";
+            "hash" = "sha512-Xmloy/DrWUpf54NjdnXE/OtrfwN9YN+iYnH/56udNK2Ddra9lz1XQhdKQZSaRqLQUxXtDW8MA+4tzvVhy50dHg==";
+        };
+        _na6Esr0w = {
+            "id" = "na6Esr0w";
+            "file" = "EclipticSeasons-Fabricated-26.2-fabric-0.15.4.jar";
+            "hash" = "sha512-Z/ndiwuAVrY0NXblJOJPiwSJI0PIRGqOd3oHT6+IH3uodpjGfFSpM95t7GKAsIrNOO/HNIYsXtX0nd/OUu11Tg==";
+        };
     in {
         "Ra9sXBVp" = _Ra9sXBVp;
         "o5kRAhNJ" = _o5kRAhNJ;
@@ -662,10 +672,12 @@ let
         "7tpZCPB2" = _7tpZCPB2;
         "iz1L5cSl" = _iz1L5cSl;
         "B6wtojgm" = _B6wtojgm;
-        "fabric-26.1.1" = _iz1L5cSl;
-        "fabric-26.1.2" = _iz1L5cSl;
-        "fabric-26.1" = _iz1L5cSl;
-        "fabric-26.2" = _7tpZCPB2;
+        "qhSPArkD" = _qhSPArkD;
+        "na6Esr0w" = _na6Esr0w;
+        "fabric-26.1.1" = _qhSPArkD;
+        "fabric-26.1.2" = _qhSPArkD;
+        "fabric-26.1" = _qhSPArkD;
+        "fabric-26.2" = _na6Esr0w;
         "fabric-26.3" = _B6wtojgm;
         "pkg-26.1.2-fabric-0.13.0" = _Ra9sXBVp;
         "pkg-26.1.2-fabric-0.13.0-beta9-4" = _o5kRAhNJ;
@@ -777,7 +789,9 @@ let
         "pkg-26.2-fabric-0.15.3.1" = _7tpZCPB2;
         "pkg-26.1.2-fabric-0.15.3.1" = _iz1L5cSl;
         "pkg-26.3-fabric-0.15.4" = _B6wtojgm;
-        "default" = _B6wtojgm;
+        "pkg-26.1.2-fabric-0.15.4" = _qhSPArkD;
+        "pkg-26.2-fabric-0.15.4" = _na6Esr0w;
+        "default" = _na6Esr0w;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ecliptic-seasons-fabricated";

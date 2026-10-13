@@ -56,6 +56,11 @@ let
             "file" = "extended-drawers-polymer-patch-5.1.0.1+26.2.jar";
             "hash" = "sha512-63cc+qby0Z+has7QOhaai5Z2m74L9IKTp8lsTuJdZoj7uBSzbmnHv34rw5xBsglBg1eIhzzkmC3z8yOxG3VlpQ==";
         };
+        _yjt3yIkp = {
+            "id" = "yjt3yIkp";
+            "file" = "extended-drawers-polymer-patch-5.2.0.0+26.3.jar";
+            "hash" = "sha512-a1T2gxfPMxjt4uLEqS15ZqPTyR/WMkdU7U2+ihWi6xndpfIK1RerL2yR1FL0UjPQQy0AEmJYs/GJN6LJp/0cdA==";
+        };
     in {
         "ku5Q2Zi3" = _ku5Q2Zi3;
         "HCMRsgGr" = _HCMRsgGr;
@@ -68,6 +73,7 @@ let
         "gT7v7t9Z" = _gT7v7t9Z;
         "av82h6Wd" = _av82h6Wd;
         "5QVQ412L" = _5QVQ412L;
+        "yjt3yIkp" = _yjt3yIkp;
         "fabric-1.21.1" = _ku5Q2Zi3;
         "fabric-1.21.3" = _HCMRsgGr;
         "fabric-1.21.4" = _8W7BMOO9;
@@ -82,6 +88,7 @@ let
         "fabric-26.1.1" = _gT7v7t9Z;
         "fabric-26.1.2" = _gT7v7t9Z;
         "fabric-26.2" = _5QVQ412L;
+        "fabric-26.3" = _yjt3yIkp;
         "pkg-3.0.4.0+1.21.1" = _ku5Q2Zi3;
         "pkg-4.0.0.0+1.21.3" = _HCMRsgGr;
         "pkg-4.0.1.0+1.21.4" = _8W7BMOO9;
@@ -93,7 +100,8 @@ let
         "pkg-5.0.0.0+26.1" = _gT7v7t9Z;
         "pkg-5.1.0.0+26.2" = _av82h6Wd;
         "pkg-5.1.0.1+26.2" = _5QVQ412L;
-        "default" = _5QVQ412L;
+        "pkg-5.2.0.0+26.3" = _yjt3yIkp;
+        "default" = _yjt3yIkp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "extended-drawers-polymer";

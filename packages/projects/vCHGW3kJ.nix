@@ -596,6 +596,21 @@ let
             "file" = "jeb_1_21_1-1.1.3-1.21.jar";
             "hash" = "sha512-liDYsGriqPFSH646DQdShklZUgPp1RcrDzKV1YHrXVHgFbz9Zdn9Fcq4BTTAS77TtMhTbW66fbxllM9HBiCsuA==";
         };
+        _ZyRr6Afv = {
+            "id" = "ZyRr6Afv";
+            "file" = "jeb-1.1.3-26.1.2.jar";
+            "hash" = "sha512-nHPQmZvll9tm+4VHhbGjelWM9eO57YAp0+IDd1FPDNF3E0iUSky0p4HoNWH3Y1j+b7zlIe4UNgaBMLDo1Ot+yQ==";
+        };
+        _oVO7I0Fi = {
+            "id" = "oVO7I0Fi";
+            "file" = "jeb-1.1.3-26.2.jar";
+            "hash" = "sha512-HaV1BgtpjU9Pd/21QYyw+ywocky/lMfF9CN5C0EeQrWKiuwXJgoCrkdJxrpEtTHMF8N7w6A6BE5VrEJu/DMKNQ==";
+        };
+        _nZCCf9AI = {
+            "id" = "nZCCf9AI";
+            "file" = "jeb-1.1.3-26.3.jar";
+            "hash" = "sha512-kIABZ7r0QLk2rJZ5hRdnFb0s1Q1zYeuNuJWrbLx/bN5n/gaiXwsfeyQ8CkOKW/IGn9arCvvYELGcG6RJotrJ9A==";
+        };
     in {
         "tC198iG1" = _tC198iG1;
         "zbQCwawE" = _zbQCwawE;
@@ -716,6 +731,9 @@ let
         "S9gDF4Vt" = _S9gDF4Vt;
         "xvY3mK8q" = _xvY3mK8q;
         "Ffxcj26Z" = _Ffxcj26Z;
+        "ZyRr6Afv" = _ZyRr6Afv;
+        "oVO7I0Fi" = _oVO7I0Fi;
+        "nZCCf9AI" = _nZCCf9AI;
         "fabric-1.21.4" = _P9sIeNOy;
         "fabric-1.21.5" = _SgR7MeAH;
         "fabric-1.20.1" = _bX9rkWJV;
@@ -742,11 +760,11 @@ let
         "neoforge-1.21.9" = _nf5BprXk;
         "neoforge-1.21.10" = _FDdnCV9v;
         "neoforge-1.21.11" = _dgrzMYun;
-        "neoforge-26.1.2" = _RgX8o8XY;
-        "neoforge-26.2" = _S9gDF4Vt;
-        "neoforge-26.3" = _xvY3mK8q;
+        "neoforge-26.1.2" = _ZyRr6Afv;
+        "neoforge-26.2" = _oVO7I0Fi;
+        "neoforge-26.3" = _nZCCf9AI;
         "neoforge-26.1" = _RgX8o8XY;
-        "neoforge-26.1.1" = _RgX8o8XY;
+        "neoforge-26.1.1" = _ZyRr6Afv;
         "forge-1.20.1" = _kBZEaKSz;
         "pkg-1.0.1-1.21.4" = _tC198iG1;
         "pkg-1.0.3-1.21.5" = _zbQCwawE;
@@ -820,7 +838,10 @@ let
         "pkg-1.1.2-26.2" = _S9gDF4Vt;
         "pkg-1.1.2-26.3" = _xvY3mK8q;
         "pkg-1.1.3-1.21" = _Ffxcj26Z;
-        "default" = _Ffxcj26Z;
+        "pkg-1.1.3-26.1.2" = _ZyRr6Afv;
+        "pkg-1.1.3-26.2" = _oVO7I0Fi;
+        "pkg-1.1.3-26.3" = _nZCCf9AI;
+        "default" = _nZCCf9AI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "justenoughbook";

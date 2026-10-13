@@ -171,6 +171,16 @@ let
             "file" = "mastercutter-1.8.0-mc26.3.jar";
             "hash" = "sha512-AGz54S55m1bkNKkmHXq2zw5yCDyN7KQTZGYV9HhA87b0yCZd66UMIOI5onha+Qao/k5jhqf2+6Ewo95jQIC7dA==";
         };
+        _V9n9QwQl = {
+            "id" = "V9n9QwQl";
+            "file" = "MasterCutter+v1.8.1-mc26.3.zip";
+            "hash" = "sha512-dCzL/sk1Nk01OPsWh5ubt7+8bFLfML1bSzGC6f3hDDcAIMhuMEJsvUtQaaKjNLzfRl+T8RAshDnCy7LGkYHpow==";
+        };
+        _iKLtSp2g = {
+            "id" = "iKLtSp2g";
+            "file" = "mastercutter-1.8.1-mc26.3.jar";
+            "hash" = "sha512-TsMV5i8uuLRj1WeG5XzzpuELwWSMljahqGl8TLJWhR3t18/YixV4Up8X37HXALYosvBJcFVSKuT1Nr3AYJEFDw==";
+        };
     in {
         "gDz8Zvwf" = _gDz8Zvwf;
         "Rrk1Nhoe" = _Rrk1Nhoe;
@@ -206,6 +216,8 @@ let
         "nV0sLWVa" = _nV0sLWVa;
         "IJwVIaLT" = _IJwVIaLT;
         "eKpmGWn8" = _eKpmGWn8;
+        "V9n9QwQl" = _V9n9QwQl;
+        "iKLtSp2g" = _iKLtSp2g;
         "datapack-1.20" = _gDz8Zvwf;
         "datapack-1.20.1" = _gDz8Zvwf;
         "datapack-1.20.2" = _RZOHheBO;
@@ -229,7 +241,7 @@ let
         "datapack-26.1.1" = _Tj4qYoy3;
         "datapack-26.1.2" = _Tj4qYoy3;
         "datapack-26.2" = _nnnbhTfa;
-        "datapack-26.3" = _IJwVIaLT;
+        "datapack-26.3" = _V9n9QwQl;
         "fabric-1.20" = _Rrk1Nhoe;
         "fabric-1.20.1" = _Rrk1Nhoe;
         "fabric-1.20.2" = _3XyDcnnV;
@@ -253,7 +265,7 @@ let
         "fabric-26.1.1" = _BRj3SJWL;
         "fabric-26.1.2" = _BRj3SJWL;
         "fabric-26.2" = _nV0sLWVa;
-        "fabric-26.3" = _eKpmGWn8;
+        "fabric-26.3" = _iKLtSp2g;
         "forge-1.20" = _Rrk1Nhoe;
         "forge-1.20.1" = _Rrk1Nhoe;
         "forge-1.20.2" = _3XyDcnnV;
@@ -277,7 +289,7 @@ let
         "forge-26.1.1" = _BRj3SJWL;
         "forge-26.1.2" = _BRj3SJWL;
         "forge-26.2" = _nV0sLWVa;
-        "forge-26.3" = _eKpmGWn8;
+        "forge-26.3" = _iKLtSp2g;
         "quilt-1.20" = _Rrk1Nhoe;
         "quilt-1.20.1" = _Rrk1Nhoe;
         "quilt-1.20.2" = _3XyDcnnV;
@@ -301,7 +313,7 @@ let
         "quilt-26.1.1" = _BRj3SJWL;
         "quilt-26.1.2" = _BRj3SJWL;
         "quilt-26.2" = _nV0sLWVa;
-        "quilt-26.3" = _eKpmGWn8;
+        "quilt-26.3" = _iKLtSp2g;
         "neoforge-1.21.2" = _KAF8rAl9;
         "neoforge-1.21.3" = _KAF8rAl9;
         "neoforge-1.21.4" = _VG8PuQZM;
@@ -316,7 +328,7 @@ let
         "neoforge-26.1.1" = _BRj3SJWL;
         "neoforge-26.1.2" = _BRj3SJWL;
         "neoforge-26.2" = _nV0sLWVa;
-        "neoforge-26.3" = _eKpmGWn8;
+        "neoforge-26.3" = _iKLtSp2g;
         "pkg-1.1" = _kc1TpzFm;
         "pkg-1.1+mod" = _RU11YYFe;
         "pkg-1.2" = _RZOHheBO;
@@ -349,7 +361,9 @@ let
         "pkg-1.7.0-mc26.2+mod" = _nV0sLWVa;
         "pkg-1.8.0-mc26.3" = _IJwVIaLT;
         "pkg-1.8.0-mc26.3+mod" = _eKpmGWn8;
-        "default" = _eKpmGWn8;
+        "pkg-1.8.1-mc26.3" = _V9n9QwQl;
+        "pkg-1.8.1-mc26.3+mod" = _iKLtSp2g;
+        "default" = _iKLtSp2g;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mastercutter";

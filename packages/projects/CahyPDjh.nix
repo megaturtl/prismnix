@@ -686,6 +686,36 @@ let
             "file" = "netherwartblock-neoforge-1.21.1-8.jar";
             "hash" = "sha512-vcPuPgb3XeqKSeCP2kpe/Dbq95oot5vaZvYwj5f7voTxoLypzyWoxSmhuMyAumJDeOAzOrCmc9KRlrsYgsYczA==";
         };
+        _7An5rvjc = {
+            "id" = "7An5rvjc";
+            "file" = "netherwartblock-26.1.2-fabric-8.0.1.jar";
+            "hash" = "sha512-qMB3gWL+Pn79zzkW+1/rc+BrxzWcxL6EDFXUKgi3mmmMVsEZ6VCssbYbG3nWShzxAKxMWm8BhYwo5naH+FJvEw==";
+        };
+        _6R2eUA9w = {
+            "id" = "6R2eUA9w";
+            "file" = "netherwartblock-26.1.2-forge-8.0.1.jar";
+            "hash" = "sha512-a6IP9rf7dM7nbANtKFdW4KtIAanRPxDRdohlyMWQqXFqE4Mv/7qGKnm/ktY/6N0XzRjG1JJWTKIL6p7d7hMZoQ==";
+        };
+        _WKpgHLoa = {
+            "id" = "WKpgHLoa";
+            "file" = "netherwartblock-26.1.2-neoforge-8.0.1.jar";
+            "hash" = "sha512-V2NFkKgj2QEGZu4prRVq4SEfidLgYpXBrFyXCow7Ks7hW71Oo9ugd+JecxSbDwTxRGpUeBYmbqKthCviBS0KnQ==";
+        };
+        _ayMonErw = {
+            "id" = "ayMonErw";
+            "file" = "netherwartblock-26.2-fabric-8.0.1.jar";
+            "hash" = "sha512-dCyfOMCyqK5wm6eaW520B430Y2LsGRRczIwQTD7E0pvr1qdk0Gn1ao5DPNGFchmw8zv0OMPxYtNItiWHBFCIRw==";
+        };
+        _edqaA3KM = {
+            "id" = "edqaA3KM";
+            "file" = "netherwartblock-26.2-forge-8.0.1.jar";
+            "hash" = "sha512-jAl//OrhxA6bY6tjzqPkp9ZVBPImTa38I9cUB7WELuD32NWZ4lENlZX8LL212BNMBRbfngR19bzOldyO+VEcDQ==";
+        };
+        _NN40XJzr = {
+            "id" = "NN40XJzr";
+            "file" = "netherwartblock-26.2-neoforge-8.0.1.jar";
+            "hash" = "sha512-WKlBVqEUuTV1d2KqnWwpLNyQMULA81wbTtCx2cDYjUgujJ3VIIckIJPRvuMprY3nxqnkJaA0q7HvSaDhGSY/WA==";
+        };
     in {
         "Vnp4s6Rr" = _Vnp4s6Rr;
         "tWtcwVDq" = _tWtcwVDq;
@@ -824,6 +854,12 @@ let
         "juK4FDnq" = _juK4FDnq;
         "Bo0F5eqc" = _Bo0F5eqc;
         "LsRpiepA" = _LsRpiepA;
+        "7An5rvjc" = _7An5rvjc;
+        "6R2eUA9w" = _6R2eUA9w;
+        "WKpgHLoa" = _WKpgHLoa;
+        "ayMonErw" = _ayMonErw;
+        "edqaA3KM" = _edqaA3KM;
+        "NN40XJzr" = _NN40XJzr;
         "fabric-1.19.2" = _CuwT9A57;
         "fabric-1.19.1" = _CuwT9A57;
         "fabric-1.19" = _CuwT9A57;
@@ -852,10 +888,10 @@ let
         "fabric-1.21.9" = _qTf4Bhor;
         "fabric-1.21.10" = _qTf4Bhor;
         "fabric-1.21.11" = _8ubSUeXd;
-        "fabric-26.1" = _8Ae30koG;
-        "fabric-26.1.1" = _8Ae30koG;
-        "fabric-26.1.2" = _8Ae30koG;
-        "fabric-26.2" = _5ee7uCG9;
+        "fabric-26.1" = _7An5rvjc;
+        "fabric-26.1.1" = _7An5rvjc;
+        "fabric-26.1.2" = _7An5rvjc;
+        "fabric-26.2" = _ayMonErw;
         "quilt-1.19.2" = _CuwT9A57;
         "quilt-1.19.1" = _CuwT9A57;
         "quilt-1.19" = _CuwT9A57;
@@ -884,10 +920,10 @@ let
         "quilt-1.21.9" = _qTf4Bhor;
         "quilt-1.21.10" = _qTf4Bhor;
         "quilt-1.21.11" = _8ubSUeXd;
-        "quilt-26.1" = _8Ae30koG;
-        "quilt-26.1.1" = _8Ae30koG;
-        "quilt-26.1.2" = _8Ae30koG;
-        "quilt-26.2" = _5ee7uCG9;
+        "quilt-26.1" = _7An5rvjc;
+        "quilt-26.1.1" = _7An5rvjc;
+        "quilt-26.1.2" = _7An5rvjc;
+        "quilt-26.2" = _ayMonErw;
         "forge-1.16.5" = _YKNSkAJi;
         "forge-1.17.1" = _i95zfxOh;
         "forge-1.18" = _efXdcMGD;
@@ -917,10 +953,10 @@ let
         "forge-1.21.9" = _QOnqV6yE;
         "forge-1.21.10" = _QOnqV6yE;
         "forge-1.21.11" = _1Ze1C0Im;
-        "forge-26.1" = _ET5TLhgA;
-        "forge-26.1.1" = _ET5TLhgA;
-        "forge-26.1.2" = _ET5TLhgA;
-        "forge-26.2" = _HskGLZfr;
+        "forge-26.1" = _6R2eUA9w;
+        "forge-26.1.1" = _6R2eUA9w;
+        "forge-26.1.2" = _6R2eUA9w;
+        "forge-26.2" = _edqaA3KM;
         "neoforge-1.20.4" = _59cd0Yvv;
         "neoforge-1.20.6" = _kQ8Gsx7y;
         "neoforge-1.21" = _LsRpiepA;
@@ -938,10 +974,10 @@ let
         "neoforge-1.21.9" = _i3l3VxsS;
         "neoforge-1.21.10" = _i3l3VxsS;
         "neoforge-1.21.11" = _zTt4EKXs;
-        "neoforge-26.1" = _gEsrcCmI;
-        "neoforge-26.1.1" = _gEsrcCmI;
-        "neoforge-26.1.2" = _gEsrcCmI;
-        "neoforge-26.2" = _X0gvVhpX;
+        "neoforge-26.1" = _WKpgHLoa;
+        "neoforge-26.1.1" = _WKpgHLoa;
+        "neoforge-26.1.2" = _WKpgHLoa;
+        "neoforge-26.2" = _NN40XJzr;
         "pkg-1.19.2-6" = _Vnp4s6Rr;
         "pkg-1.19.1-5" = _tWtcwVDq;
         "pkg-1.19-4" = _9GeryvLu;
@@ -1075,7 +1111,13 @@ let
         "pkg-forge-1.19.2-8" = _juK4FDnq;
         "pkg-forge-1.21.1-8" = _Bo0F5eqc;
         "pkg-neoforge-1.21.1-8" = _LsRpiepA;
-        "default" = _LsRpiepA;
+        "pkg-26.1.2-fabric-8.0.1" = _7An5rvjc;
+        "pkg-26.1.2-forge-8.0.1" = _6R2eUA9w;
+        "pkg-26.1.2-neoforge-8.0.1" = _WKpgHLoa;
+        "pkg-26.2-fabric-8.0.1" = _ayMonErw;
+        "pkg-26.2-forge-8.0.1" = _edqaA3KM;
+        "pkg-26.2-neoforge-8.0.1" = _NN40XJzr;
+        "default" = _NN40XJzr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nether-wart-block-to-nether-warts";

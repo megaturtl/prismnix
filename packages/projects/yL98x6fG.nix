@@ -36,6 +36,11 @@ let
             "file" = "SimpleChairs-0.4.1.jar";
             "hash" = "sha512-PBPqzP4D4S420gX+deqSHeRsychua3zNHcCcOez3HG3ODONhmXQ47HOM5jb/hmXvjKcjSMz2SlfIXzL3492ymA==";
         };
+        _YohFAwAo = {
+            "id" = "YohFAwAo";
+            "file" = "SimpleChairs-0.4.2.jar";
+            "hash" = "sha512-fIo8rJ5eGCuhmM1szd0+8+0zqyNSpPrvj46XA6e6/ZV5vn2ScT1r0gIGwJ+RrqmJInWfKnWPJe7vQtn9cpQeNg==";
+        };
     in {
         "UQbyaMOU" = _UQbyaMOU;
         "RHn8OqsF" = _RHn8OqsF;
@@ -44,6 +49,7 @@ let
         "awEmJdZX" = _awEmJdZX;
         "JVrtNIqK" = _JVrtNIqK;
         "kErXhBwk" = _kErXhBwk;
+        "YohFAwAo" = _YohFAwAo;
         "paper-1.18.2" = _UQbyaMOU;
         "paper-1.19.3" = _RHn8OqsF;
         "paper-1.20.2" = _gF4jgJ5i;
@@ -51,6 +57,7 @@ let
         "paper-1.21.1" = _awEmJdZX;
         "paper-26.1.2" = _JVrtNIqK;
         "paper-26.2" = _kErXhBwk;
+        "paper-26.3" = _YohFAwAo;
         "pkg-0.1.0" = _UQbyaMOU;
         "pkg-0.2.0" = _RHn8OqsF;
         "pkg-0.2.1" = _gF4jgJ5i;
@@ -58,7 +65,8 @@ let
         "pkg-0.3.0" = _awEmJdZX;
         "pkg-0.4.0" = _JVrtNIqK;
         "pkg-0.4.1" = _kErXhBwk;
-        "default" = _kErXhBwk;
+        "pkg-0.4.2" = _YohFAwAo;
+        "default" = _YohFAwAo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simplechairs";

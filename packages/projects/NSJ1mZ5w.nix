@@ -81,6 +81,21 @@ let
             "file" = "afktape-1.2+26.2.jar";
             "hash" = "sha512-Z7ce8uOumCgvPfT34GszU0STtWwOi+RY9fqeasH5rhWBiZ67ccgHi7l+s7AD8ill+PncNtmbdLTNtY9xblkVxw==";
         };
+        _vQ6RC1lN = {
+            "id" = "vQ6RC1lN";
+            "file" = "afktape-1.0.0+mc1.8.9.jar";
+            "hash" = "sha512-6o3YmYHpviD34WexMw2FoeB9WYbSw4sbn506n7RlTBWI52VbO0EuJCjhOFneJeHm81/JqE8CDj3SJJTARPFT1A==";
+        };
+        _HZSkvY81 = {
+            "id" = "HZSkvY81";
+            "file" = "afktape-1.2+26.3.jar";
+            "hash" = "sha512-3RAR3jGuniJlrX3bxbeR01rHnpq0iEIO3Wj960MmTPr3JRUHCWjVGiw8dbUwrPR+LSMhKYu8syApjnpKfQ3opA==";
+        };
+        _FnAvlTJg = {
+            "id" = "FnAvlTJg";
+            "file" = "afktape-1.0.1+mc1.8.9.jar";
+            "hash" = "sha512-58P0O8HI3SfQCskyqC1MSGK/AXMnXaGj7ITPYHY9nSV+CgrAFbezRwWMWCMn+EqsESR+jec/iZ+5RDi3Edh5/A==";
+        };
     in {
         "CYA2u6VC" = _CYA2u6VC;
         "HrNaSymA" = _HrNaSymA;
@@ -98,6 +113,9 @@ let
         "M4lryIth" = _M4lryIth;
         "J8QG8vwk" = _J8QG8vwk;
         "1uFLWJd6" = _1uFLWJd6;
+        "vQ6RC1lN" = _vQ6RC1lN;
+        "HZSkvY81" = _HZSkvY81;
+        "FnAvlTJg" = _FnAvlTJg;
         "fabric-1.21.4" = _HrNaSymA;
         "fabric-1.21.5" = _1PXtsNsD;
         "fabric-1.21.3" = _FI2AZpRW;
@@ -111,12 +129,14 @@ let
         "fabric-26.1.1" = _J8QG8vwk;
         "fabric-26.1.2" = _J8QG8vwk;
         "fabric-26.2" = _1uFLWJd6;
+        "fabric-26.3" = _HZSkvY81;
         "forge-1.8.9" = _HTOGVNyB;
         "forge-1.21.6" = _xjwzpPOG;
         "forge-1.20.1" = _R2yBL27L;
         "neoforge-1.21.6" = _qjitrvtt;
         "neoforge-1.20.1" = _R2yBL27L;
         "neoforge-26.2" = _1uFLWJd6;
+        "neoforge-26.3" = _HZSkvY81;
         "quilt-1.21.6" = _lrH1PSZL;
         "quilt-1.21.7" = _LKYT38nu;
         "quilt-1.21.8" = _PdKsVzW1;
@@ -127,12 +147,18 @@ let
         "quilt-26.1.1" = _J8QG8vwk;
         "quilt-26.1.2" = _J8QG8vwk;
         "quilt-26.2" = _1uFLWJd6;
+        "quilt-26.3" = _HZSkvY81;
+        "legacy-fabric-1.8.9" = _FnAvlTJg;
+        "ornithe-1.8.9" = _FnAvlTJg;
         "pkg-1.0-SNAPSHOT" = _CYA2u6VC;
         "pkg-1.0" = _RKqRN4xq;
         "pkg-1.0.0" = _J8QG8vwk;
         "pkg-1.1" = _M4lryIth;
         "pkg-1.2+26.2" = _1uFLWJd6;
-        "default" = _1uFLWJd6;
+        "pkg-1.0.0+mc1.8.9" = _vQ6RC1lN;
+        "pkg-1.2+26.3" = _HZSkvY81;
+        "pkg-1.0.1+mc1.8.9" = _FnAvlTJg;
+        "default" = _FnAvlTJg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "afktape";

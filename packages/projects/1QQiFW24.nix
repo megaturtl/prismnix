@@ -1401,6 +1401,11 @@ let
             "file" = "qa_better_melon-26.10.1-neoforge-1.21.1.jar";
             "hash" = "sha512-Rd5L3l6WVl3+IMZagooG1y371kt8kxGGTgmHmuFFGNfgNj1D5u2YZQJcizv+ku90VMtYuBLBWNfFFmh/ADm/NA==";
         };
+        _7gKPeoe6 = {
+            "id" = "7gKPeoe6";
+            "file" = "qa_better_melon-26.10.2-neoforge-26.3.jar";
+            "hash" = "sha512-+Azm1PPaUGJT7Fwu+tf8rMuM2AFWv5s3DIj5pYXNMq7jiFROPQxIK26ZmrUBSBwBJH0fYaQoo00JbCaT/LyipQ==";
+        };
     in {
         "Od7qDINy" = _Od7qDINy;
         "JGXa7D6b" = _JGXa7D6b;
@@ -1682,6 +1687,7 @@ let
         "5bWFHvOk" = _5bWFHvOk;
         "4lvvonaz" = _4lvvonaz;
         "1I0aiAAM" = _1I0aiAAM;
+        "7gKPeoe6" = _7gKPeoe6;
         "neoforge-1.21.8" = _ENxr3WJT;
         "neoforge-1.21.4" = _g3BlqTUR;
         "neoforge-1.21.1" = _1I0aiAAM;
@@ -1695,6 +1701,7 @@ let
         "neoforge-26.1.2" = _t9jHgIH4;
         "neoforge-26.2" = _ecjJDRuN;
         "neoforge-1.20.1" = _fhW21Glx;
+        "neoforge-26.3" = _7gKPeoe6;
         "forge-1.20.1" = _4lvvonaz;
         "forge-1.19.2" = _1Vt0v7vE;
         "forge-1.19.4" = _6ZhdAUxE;
@@ -1858,7 +1865,8 @@ let
         "pkg-26.8.0" = _ZzoK4M3U;
         "pkg-26.9.2" = _5bWFHvOk;
         "pkg-26.10.1" = _1I0aiAAM;
-        "default" = _1I0aiAAM;
+        "pkg-26.10.2" = _7gKPeoe6;
+        "default" = _7gKPeoe6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-melon";

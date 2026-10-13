@@ -41,6 +41,11 @@ let
             "file" = "TreeFalls-1.3.4.jar";
             "hash" = "sha512-hLSKyHPRKxjYcIeDX5hxpTdg7xDcmNRa72cUmsgRgO1UJ7eotKqxrvv/X8C/3b4Id3HZlvPX4VNlv6c6DmO35A==";
         };
+        _pZGSkSqu = {
+            "id" = "pZGSkSqu";
+            "file" = "TreeFalls-1.4.0.jar";
+            "hash" = "sha512-nx2a+U8BEiEpwrcDR5g4Dv+FBoXCxKlmkYqQYUkqKuPVTKTzipRb3s9roxj7H81wV8xbvQlehF26t+ctnuA0vA==";
+        };
     in {
         "HjWE3O39" = _HjWE3O39;
         "A5byJUan" = _A5byJUan;
@@ -50,6 +55,7 @@ let
         "zPxcOBDJ" = _zPxcOBDJ;
         "3COHujiz" = _3COHujiz;
         "vX5dbN92" = _vX5dbN92;
+        "pZGSkSqu" = _pZGSkSqu;
         "folia-1.20" = _vX5dbN92;
         "folia-1.20.1" = _vX5dbN92;
         "folia-1.20.2" = _vX5dbN92;
@@ -73,6 +79,7 @@ let
         "folia-26.1.1" = _vX5dbN92;
         "folia-26.1.2" = _vX5dbN92;
         "folia-26.2" = _vX5dbN92;
+        "folia-26.3" = _pZGSkSqu;
         "paper-1.20" = _vX5dbN92;
         "paper-1.20.1" = _vX5dbN92;
         "paper-1.20.2" = _vX5dbN92;
@@ -96,6 +103,7 @@ let
         "paper-26.1.1" = _vX5dbN92;
         "paper-26.1.2" = _vX5dbN92;
         "paper-26.2" = _vX5dbN92;
+        "paper-26.3" = _pZGSkSqu;
         "purpur-1.20" = _vX5dbN92;
         "purpur-1.20.1" = _vX5dbN92;
         "purpur-1.20.2" = _vX5dbN92;
@@ -119,6 +127,7 @@ let
         "purpur-26.1.1" = _vX5dbN92;
         "purpur-26.1.2" = _vX5dbN92;
         "purpur-26.2" = _vX5dbN92;
+        "purpur-26.3" = _pZGSkSqu;
         "bukkit-1.20" = _vX5dbN92;
         "bukkit-1.20.1" = _vX5dbN92;
         "bukkit-1.20.2" = _vX5dbN92;
@@ -142,6 +151,7 @@ let
         "bukkit-26.1.1" = _vX5dbN92;
         "bukkit-26.1.2" = _vX5dbN92;
         "bukkit-26.2" = _vX5dbN92;
+        "bukkit-26.3" = _pZGSkSqu;
         "spigot-1.20" = _vX5dbN92;
         "spigot-1.20.1" = _vX5dbN92;
         "spigot-1.20.2" = _vX5dbN92;
@@ -165,6 +175,7 @@ let
         "spigot-26.1.1" = _vX5dbN92;
         "spigot-26.1.2" = _vX5dbN92;
         "spigot-26.2" = _vX5dbN92;
+        "spigot-26.3" = _pZGSkSqu;
         "pkg-1.1.0" = _HjWE3O39;
         "pkg-1.1.1" = _A5byJUan;
         "pkg-1.2.0" = _RHnp8Jt3;
@@ -173,7 +184,8 @@ let
         "pkg-1.3.2" = _zPxcOBDJ;
         "pkg-1.3.3" = _3COHujiz;
         "pkg-1.3.4" = _vX5dbN92;
-        "default" = _vX5dbN92;
+        "pkg-1.4.0" = _pZGSkSqu;
+        "default" = _pZGSkSqu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "treefalls";

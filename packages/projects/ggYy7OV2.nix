@@ -111,6 +111,11 @@ let
             "file" = "ClassicCombined v1.6.2 (09-27-26 Patch) - mc26.1 - NeoForge.jar";
             "hash" = "sha512-2u9xzXjMnNKCA5lixBR8TUIFE/flItG9rwt2uUGQvSqa1w5wXvn0JVF73Puk8PqHyfXNaRskauphQzMAIkMBtg==";
         };
+        _g7Mv4CdF = {
+            "id" = "g7Mv4CdF";
+            "file" = "ClassicCombined v1.7.0 - mc26.1 - NeoForge.jar";
+            "hash" = "sha512-NwNkkekotTDhlvMezXJRCZRIX3+GTg8m4teui1vgVXrDE/M6/wtmffmEpIhaVbu/kYyJ0Oo4X7qaN2HMXQtorQ==";
+        };
     in {
         "kAsp7EjU" = _kAsp7EjU;
         "r4RD3drz" = _r4RD3drz;
@@ -134,9 +139,10 @@ let
         "Z73Emza9" = _Z73Emza9;
         "Ocl2byej" = _Ocl2byej;
         "UEuoPZqQ" = _UEuoPZqQ;
+        "g7Mv4CdF" = _g7Mv4CdF;
         "neoforge-1.21.8" = _hi5iYnMp;
         "neoforge-1.21.1" = _irNYa56Y;
-        "neoforge-26.1.2" = _UEuoPZqQ;
+        "neoforge-26.1.2" = _g7Mv4CdF;
         "pkg-1.0.0" = _kAsp7EjU;
         "pkg-1.1.0" = _r4RD3drz;
         "pkg-1.1.1" = _B1zIJOah;
@@ -156,7 +162,8 @@ let
         "pkg-1.6.1" = _Z73Emza9;
         "pkg-1.6.2" = _Ocl2byej;
         "pkg-1.6.2.1" = _UEuoPZqQ;
-        "default" = _UEuoPZqQ;
+        "pkg-1.7.0" = _g7Mv4CdF;
+        "default" = _g7Mv4CdF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "classiccombined";

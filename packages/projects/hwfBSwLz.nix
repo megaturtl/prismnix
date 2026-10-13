@@ -1121,6 +1121,21 @@ let
             "file" = "resource_cracker-neoforge-26.1.2-3.1.3.jar";
             "hash" = "sha512-ZvT4ZBXtnVPLn2wg3P3xNhm4Dd4OQEKK/NPN3r38UOs7wzDRX7uTAtm6AETytV14+LyTFM8YF2JmZEErB++qLg==";
         };
+        _dNGyJCuN = {
+            "id" = "dNGyJCuN";
+            "file" = "resource_cracker-neoforge-26.3-3.2.0.jar";
+            "hash" = "sha512-94k/k+5eimw/lFuxHNWzj0axOUZq/xlckRnCkJq+fI0M1m79jMcafs3xmol7z1k6b0ylZUhfPj3r9LPaIoakhA==";
+        };
+        _QB4Q1AB5 = {
+            "id" = "QB4Q1AB5";
+            "file" = "resource_cracker-forge-26.3-3.2.0.jar";
+            "hash" = "sha512-J5xWeiIIWWL+eg0TSiJyOAFArxwv+jGWiS64hCy5n2hj1Ig4fsZCK7Id5nR0wJAD5LvrRK1aHzgfxRjE+0MGNA==";
+        };
+        _6Zjc2TUO = {
+            "id" = "6Zjc2TUO";
+            "file" = "resource_cracker-fabric-26.3-3.2.0.jar";
+            "hash" = "sha512-NJ3aXU0xR/HJLFln0h1hPlk1YcwOXO/dPX2o9T4r7XXEHZ4JzEhqo9ubXJPlMz9hY1/r3bPuWTPgUCZXGzZSqA==";
+        };
     in {
         "F7wVDfa4" = _F7wVDfa4;
         "23ijXp2A" = _23ijXp2A;
@@ -1346,6 +1361,9 @@ let
         "XrkCQ4Yt" = _XrkCQ4Yt;
         "IUFM67Sz" = _IUFM67Sz;
         "Mdf0Ew6f" = _Mdf0Ew6f;
+        "dNGyJCuN" = _dNGyJCuN;
+        "QB4Q1AB5" = _QB4Q1AB5;
+        "6Zjc2TUO" = _6Zjc2TUO;
         "fabric-1.20.1" = _LG6ZQQrC;
         "fabric-1.20.2" = _LG6ZQQrC;
         "fabric-1.20" = _LG6ZQQrC;
@@ -1368,6 +1386,7 @@ let
         "fabric-26.1.1" = _yldU5bpi;
         "fabric-26.1.2" = _IUFM67Sz;
         "fabric-26.2" = _PKJACHuu;
+        "fabric-26.3" = _6Zjc2TUO;
         "quilt-1.20.1" = _LG6ZQQrC;
         "quilt-1.20.2" = _LG6ZQQrC;
         "quilt-1.20" = _LG6ZQQrC;
@@ -1407,6 +1426,7 @@ let
         "forge-1.21.11" = _kqdkYBFh;
         "forge-26.2" = _YzbCDKn5;
         "forge-26.1.2" = _XrkCQ4Yt;
+        "forge-26.3" = _QB4Q1AB5;
         "neoforge-1.20.4" = _4X7EVyJO;
         "neoforge-1.20.5" = _2RsYUJ7F;
         "neoforge-1.20.6" = _dds6R3ea;
@@ -1425,6 +1445,7 @@ let
         "neoforge-26.1.1" = _tkF1pxmB;
         "neoforge-26.1.2" = _Mdf0Ew6f;
         "neoforge-26.2" = _Y7fcanKO;
+        "neoforge-26.3" = _dNGyJCuN;
         "pkg-0.5" = _F7wVDfa4;
         "pkg-0.5.1" = _23ijXp2A;
         "pkg-0.5.2" = _GWreKXtL;
@@ -1491,7 +1512,8 @@ let
         "pkg-3.1.1" = _ZAO8qw0L;
         "pkg-26.2-3.1.3" = _Y7fcanKO;
         "pkg-26.1.2-3.1.3" = _Mdf0Ew6f;
-        "default" = _Mdf0Ew6f;
+        "pkg-26.3-3.2.0" = _6Zjc2TUO;
+        "default" = _6Zjc2TUO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "resource-cracker";

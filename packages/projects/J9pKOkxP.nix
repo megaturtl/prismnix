@@ -481,6 +481,16 @@ let
             "file" = "potentials-neoforge-26.1.2-0.11.0.jar";
             "hash" = "sha512-yGlmYcbrpsBzi0fFrvLvzjtwxd42eAs1GeKWlNf27NJZFjMSvsq3hvYBCtTbT/bb3OA0IFooGWoRUhsOH2XvOw==";
         };
+        _osZ3rwjU = {
+            "id" = "osZ3rwjU";
+            "file" = "potentials-fabric-26.1.2-0.11.1.jar";
+            "hash" = "sha512-TRF+S7YHvZurmZ40iLD7dknYIyzd9WyjqbA1sYZIeKZTIkyRLiaZEAWhdxIoqlR4Cbse/XTEUFc6NElMAKIJDQ==";
+        };
+        _yyUOAD5U = {
+            "id" = "yyUOAD5U";
+            "file" = "potentials-neoforge-26.1.2-0.11.1.jar";
+            "hash" = "sha512-dE9ux0CADDKpMUEuaihzGryofeJv1dsMnEVumGSsZh2uGHPGYOQt1DsIBRJGZ2N6aJ7I/DOYPja5EoIL7Fksfw==";
+        };
     in {
         "wGll1MN4" = _wGll1MN4;
         "ooE2CrGE" = _ooE2CrGE;
@@ -578,6 +588,8 @@ let
         "nZiGwzeG" = _nZiGwzeG;
         "gBUnD9Di" = _gBUnD9Di;
         "uAmtqVmt" = _uAmtqVmt;
+        "osZ3rwjU" = _osZ3rwjU;
+        "yyUOAD5U" = _yyUOAD5U;
         "fabric-1.21" = _cEF2AxxA;
         "fabric-1.21.1" = _cEF2AxxA;
         "fabric-1.21.2" = _cEF2AxxA;
@@ -590,7 +602,7 @@ let
         "fabric-1.21.11" = _eLm6KWCR;
         "fabric-26.1" = _A62hRVor;
         "fabric-26.1.1" = _A62hRVor;
-        "fabric-26.1.2" = _gBUnD9Di;
+        "fabric-26.1.2" = _osZ3rwjU;
         "fabric-26.2" = _y4UvzXwN;
         "fabric-26.3" = _IJ4uFgkL;
         "neoforge-1.21" = _EEjnSxLK;
@@ -605,7 +617,7 @@ let
         "neoforge-1.21.11" = _nD6eo0Vv;
         "neoforge-26.1" = _UgLzVRxP;
         "neoforge-26.1.1" = _UgLzVRxP;
-        "neoforge-26.1.2" = _uAmtqVmt;
+        "neoforge-26.1.2" = _yyUOAD5U;
         "neoforge-26.2" = _VaxcvYP4;
         "neoforge-26.3" = _nZiGwzeG;
         "pkg-1.21-0.2.0" = _ooE2CrGE;
@@ -648,7 +660,8 @@ let
         "pkg-0.9.3" = _jGCfm7Mo;
         "pkg-0.10.0" = _nZiGwzeG;
         "pkg-0.11.0" = _uAmtqVmt;
-        "default" = _uAmtqVmt;
+        "pkg-0.11.1" = _yyUOAD5U;
+        "default" = _yyUOAD5U;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "potentials";

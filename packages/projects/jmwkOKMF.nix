@@ -46,6 +46,16 @@ let
             "file" = "elyplate-1.2.0.jar";
             "hash" = "sha512-LKTghRYJP1nUCRFaoXWp0R9IcUsry9FPu3+t1iQXHUik+WD50E0KWt9uV4RfsFS32ddkJXTQ6NuwuXISezR+LA==";
         };
+        _ASTlDF20 = {
+            "id" = "ASTlDF20";
+            "file" = "ElyplateDP.zip";
+            "hash" = "sha512-WNtuRze4ICxQx7bHg0ret5jItl90moaCIAh50K9W1Cbq/I7ZZ8EXbchp02S0dVzO2TnA1PHFjgP/RykJJQnwDg==";
+        };
+        _aajYgra9 = {
+            "id" = "aajYgra9";
+            "file" = "elyplate-1.2.3.jar";
+            "hash" = "sha512-TJocZfEQad/mV/X4dUUAWQR3avbVLHrQUBPdF3cS7YE6GEqRKWOZbeEwlrtq9KyQW9xmVTGoWEmukLyiQCbu3A==";
+        };
     in {
         "MXG2w6NT" = _MXG2w6NT;
         "EX9YIbAo" = _EX9YIbAo;
@@ -56,6 +66,8 @@ let
         "d79lQAwz" = _d79lQAwz;
         "OcUkW1yk" = _OcUkW1yk;
         "pxlU3LHJ" = _pxlU3LHJ;
+        "ASTlDF20" = _ASTlDF20;
+        "aajYgra9" = _aajYgra9;
         "datapack-1.21.2" = _MXG2w6NT;
         "datapack-1.21.3" = _MXG2w6NT;
         "datapack-1.21.4" = _YffpuCmq;
@@ -64,32 +76,38 @@ let
         "datapack-1.21.7" = _YffpuCmq;
         "datapack-1.21.8" = _YffpuCmq;
         "datapack-1.21.11" = _OcUkW1yk;
+        "datapack-26.3" = _ASTlDF20;
         "minecraft-1.21.2" = _MXG2w6NT;
         "minecraft-1.21.3" = _MXG2w6NT;
+        "minecraft-26.3" = _ASTlDF20;
         "fabric-1.21.4" = _d79lQAwz;
         "fabric-1.21.5" = _d79lQAwz;
         "fabric-1.21.6" = _d79lQAwz;
         "fabric-1.21.7" = _d79lQAwz;
         "fabric-1.21.8" = _d79lQAwz;
         "fabric-1.21.11" = _pxlU3LHJ;
+        "fabric-26.3" = _aajYgra9;
         "forge-1.21.4" = _d79lQAwz;
         "forge-1.21.5" = _d79lQAwz;
         "forge-1.21.6" = _d79lQAwz;
         "forge-1.21.7" = _d79lQAwz;
         "forge-1.21.8" = _d79lQAwz;
         "forge-1.21.11" = _pxlU3LHJ;
+        "forge-26.3" = _aajYgra9;
         "neoforge-1.21.4" = _d79lQAwz;
         "neoforge-1.21.5" = _d79lQAwz;
         "neoforge-1.21.6" = _d79lQAwz;
         "neoforge-1.21.7" = _d79lQAwz;
         "neoforge-1.21.8" = _d79lQAwz;
         "neoforge-1.21.11" = _pxlU3LHJ;
+        "neoforge-26.3" = _aajYgra9;
         "quilt-1.21.4" = _d79lQAwz;
         "quilt-1.21.5" = _d79lQAwz;
         "quilt-1.21.6" = _d79lQAwz;
         "quilt-1.21.7" = _d79lQAwz;
         "quilt-1.21.8" = _d79lQAwz;
         "quilt-1.21.11" = _pxlU3LHJ;
+        "quilt-26.3" = _aajYgra9;
         "pkg-1.0.0" = _MXG2w6NT;
         "pkg-1.1.1" = _EX9YIbAo;
         "pkg-1.1.1+mod" = _qtdrbbJp;
@@ -99,7 +117,9 @@ let
         "pkg-1.2.1+mod" = _d79lQAwz;
         "pkg-1.2.2" = _OcUkW1yk;
         "pkg-1.2.2+mod" = _pxlU3LHJ;
-        "default" = _pxlU3LHJ;
+        "pkg-1.2.3" = _ASTlDF20;
+        "pkg-1.2.3+mod" = _aajYgra9;
+        "default" = _aajYgra9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elyplate";

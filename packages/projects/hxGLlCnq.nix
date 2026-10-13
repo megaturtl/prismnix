@@ -696,6 +696,16 @@ let
             "file" = "jobsplus-9.0.2-neoforge.jar";
             "hash" = "sha512-qgJK2aiHYxGIr+xnV9R4p4wJzFQK0O1V/bSANUQqxckGM//bTj8gx0D/47j0MHuBGyJMXzcMORAwNPfiOyGQXg==";
         };
+        _7IfdEG8v = {
+            "id" = "7IfdEG8v";
+            "file" = "jobsplus-neoforge-21.2.5.jar";
+            "hash" = "sha512-gqdN0A8rDJtUBJndPnHSo6b4e7Y4W6tsZvbiD6tJ+mlVYCL5XadWsk1hJ60+3TdM0eOH2uvLree08WW7d4c0wQ==";
+        };
+        _8v0484qJ = {
+            "id" = "8v0484qJ";
+            "file" = "jobsplus-fabric-21.2.5.jar";
+            "hash" = "sha512-NWreI3rFgCeqJggc8uuPcLWdWR3HeWeedup4bk5+i1LlCp4bjKv+6utH0d0zxX8shL7cCORVYdMxsrrkLdqWHw==";
+        };
     in {
         "HGC4xRKD" = _HGC4xRKD;
         "HzPPbz28" = _HzPPbz28;
@@ -836,6 +846,8 @@ let
         "OwdOmog1" = _OwdOmog1;
         "vzzpdCl9" = _vzzpdCl9;
         "HHK264G0" = _HHK264G0;
+        "7IfdEG8v" = _7IfdEG8v;
+        "8v0484qJ" = _8v0484qJ;
         "fabric-1.20.1" = _5pRuEOKD;
         "fabric-1.21" = _vzzpdCl9;
         "fabric-1.21.1" = _vzzpdCl9;
@@ -848,7 +860,7 @@ let
         "fabric-26.1" = _M3uT9eBR;
         "fabric-26.1.1" = _M3uT9eBR;
         "fabric-26.1.2" = _Xl4qxhj0;
-        "fabric-26.2" = _sjrqQpiX;
+        "fabric-26.2" = _8v0484qJ;
         "forge-1.20.1" = _UIxSglQx;
         "neoforge-1.21" = _HHK264G0;
         "neoforge-1.21.1" = _HHK264G0;
@@ -861,7 +873,7 @@ let
         "neoforge-26.1" = _NmYyEzpB;
         "neoforge-26.1.1" = _NmYyEzpB;
         "neoforge-26.1.2" = _j8e0bLhO;
-        "neoforge-26.2" = _zNvmsK6o;
+        "neoforge-26.2" = _7IfdEG8v;
         "pkg-1.3" = _HzPPbz28;
         "pkg-1.3.2" = _S1RZqd7U;
         "pkg-1.3.3" = _QWM2Lzxg;
@@ -930,7 +942,8 @@ let
         "pkg-19.1.1" = _hVeGieoG;
         "pkg-19.1.2" = _OwdOmog1;
         "pkg-9.0.2" = _HHK264G0;
-        "default" = _HHK264G0;
+        "pkg-21.2.5" = _8v0484qJ;
+        "default" = _8v0484qJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jobsplus";

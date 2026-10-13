@@ -351,6 +351,11 @@ let
             "file" = "hudmanager-4.0.3.jar";
             "hash" = "sha512-RUuW/n1MBgtsqSU6jFp4hb9v+YpB/eySdWzMSHbX+T4yWOV0SNG7TGwyS0t8mrXBWPzCCqY435NfesJVTysduA==";
         };
+        _B1TUNyLz = {
+            "id" = "B1TUNyLz";
+            "file" = "hudmanager-4.1.0.jar";
+            "hash" = "sha512-EL+jnNsrAR1m4YAyb7cb0XaVBSnLdhfdjnAqCdV9DhzdEXnyEcvyCGBQTm4Rx42/8CMvl8wjrbiFuNMLL2nfIA==";
+        };
     in {
         "pl70oK3N" = _pl70oK3N;
         "JJxHRqN4" = _JJxHRqN4;
@@ -422,6 +427,7 @@ let
         "6dOECDJz" = _6dOECDJz;
         "3NisEGjU" = _3NisEGjU;
         "UfukrDyX" = _UfukrDyX;
+        "B1TUNyLz" = _B1TUNyLz;
         "neoforge-1.21.6" = _XVYi6UWf;
         "neoforge-1.21.7" = _uxk6iyIT;
         "neoforge-1.21.8" = _uxk6iyIT;
@@ -437,6 +443,7 @@ let
         "neoforge-26.1.1" = _3NisEGjU;
         "neoforge-26.1.2" = _3NisEGjU;
         "neoforge-26.2" = _UfukrDyX;
+        "neoforge-26.3" = _B1TUNyLz;
         "fabric-1.21.6" = _gwj5Y57j;
         "fabric-1.21.7" = _gwj5Y57j;
         "fabric-1.21.8" = _gwj5Y57j;
@@ -452,6 +459,7 @@ let
         "fabric-26.1.1" = _3NisEGjU;
         "fabric-26.1.2" = _3NisEGjU;
         "fabric-26.2" = _UfukrDyX;
+        "fabric-26.3" = _B1TUNyLz;
         "pkg-1.0.0+mc1.21.6+neoforge" = _pl70oK3N;
         "pkg-1.0.0+mc1.21.6+fabric" = _JJxHRqN4;
         "pkg-1.0.1+mc1.21.6+fabric" = _59yYtvOK;
@@ -492,7 +500,8 @@ let
         "pkg-4.0.1" = _6dOECDJz;
         "pkg-4.0.2" = _3NisEGjU;
         "pkg-4.0.3" = _UfukrDyX;
-        "default" = _UfukrDyX;
+        "pkg-4.1.0" = _B1TUNyLz;
+        "default" = _B1TUNyLz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hud-manager";

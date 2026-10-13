@@ -86,6 +86,16 @@ let
             "file" = "EpicFight-AnnoyingVillagers-1.21.1-2.0.1.jar";
             "hash" = "sha512-4HyLuA8bdZ4cDjMcsyJGe7Vp9ifc0A0cv8r3M/eEy1V9xbE92QTH9q9UAd17pGfWuG+AzAB7ySdVshgLcPFHmQ==";
         };
+        _lhVYyIRT = {
+            "id" = "lhVYyIRT";
+            "file" = "EpicFight-AnnoyingVillagers-1.20.1-1.5.2.jar";
+            "hash" = "sha512-gHFCPW8NT+LsPUZfNikPX7YKV5Woamj5Af+cl1GHU1ltJS13hsI9JD4WtmqjQBZ0V5jb92gCcygwaqeSvNayHw==";
+        };
+        _XSM5kyau = {
+            "id" = "XSM5kyau";
+            "file" = "EpicFight-AnnoyingVillagers-1.21.1-2.0.2.jar";
+            "hash" = "sha512-AOgMFLEx9crqybATmEdjHgDvi1jm2bHMYoXr0bex2gBxTFjM1+MZ77ebqbnfEARGlbu3PnH/U6X0ppXMbYLatw==";
+        };
     in {
         "A3wuuSTx" = _A3wuuSTx;
         "1kJppYdM" = _1kJppYdM;
@@ -104,8 +114,10 @@ let
         "QULPNzZf" = _QULPNzZf;
         "JCpXa2Oy" = _JCpXa2Oy;
         "FukvEeRA" = _FukvEeRA;
-        "forge-1.20.1" = _JCpXa2Oy;
-        "neoforge-1.21.1" = _FukvEeRA;
+        "lhVYyIRT" = _lhVYyIRT;
+        "XSM5kyau" = _XSM5kyau;
+        "forge-1.20.1" = _lhVYyIRT;
+        "neoforge-1.21.1" = _XSM5kyau;
         "pkg-1.2" = _A3wuuSTx;
         "pkg-1.3.1" = _1kJppYdM;
         "pkg-1.3.2" = _3q3hiLbc;
@@ -122,7 +134,9 @@ let
         "pkg-2.0.0" = _QULPNzZf;
         "pkg-1.5.1" = _JCpXa2Oy;
         "pkg-2.0.1" = _FukvEeRA;
-        "default" = _FukvEeRA;
+        "pkg-1.5.2" = _lhVYyIRT;
+        "pkg-2.0.2" = _XSM5kyau;
+        "default" = _XSM5kyau;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "annoying-villagers";

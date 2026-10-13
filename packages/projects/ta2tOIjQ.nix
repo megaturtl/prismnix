@@ -436,6 +436,16 @@ let
             "file" = "plagueschattimestamps-26.2-neoforge-1.2.1.jar";
             "hash" = "sha512-FXylBQUudKjMc3phUdHib7LPrvfUlsC6x0yTBr+L8udUsEFxQtUIhdgo0hR6cvHbg7iB1BYzkXKQxUTOk9e7zg==";
         };
+        _EVTby821 = {
+            "id" = "EVTby821";
+            "file" = "plagueschattimestamps-26.3-fabric-1.2.1.jar";
+            "hash" = "sha512-/3jdTxDBSf5YkcJz55Jfj/ANVvzqKAbZE3cL5TKzeVA3hl3aDnFBk8XG64k9oj4X0Ahf42wSz/RB6tSTDfMubQ==";
+        };
+        _1mzAF1u4 = {
+            "id" = "1mzAF1u4";
+            "file" = "plagueschattimestamps-26.3-neoforge-1.2.1.jar";
+            "hash" = "sha512-hiDR93OP6kcVyQqT0nCf5NgPckHF5B/SmNS7WnE8Mw5lE0dSJvFHwmaWc9EiP+10g3Wgifsyf7nO/11UXVq1ZQ==";
+        };
     in {
         "BekkPAED" = _BekkPAED;
         "Xa2tdnEU" = _Xa2tdnEU;
@@ -524,6 +534,8 @@ let
         "6rPBcXLY" = _6rPBcXLY;
         "rbEyg7qS" = _rbEyg7qS;
         "uNlCdzUS" = _uNlCdzUS;
+        "EVTby821" = _EVTby821;
+        "1mzAF1u4" = _1mzAF1u4;
         "fabric-1.19.1" = _7CmcOvf0;
         "fabric-1.19.2" = _ssRrYWYV;
         "fabric-1.19.3" = _glyYgjoy;
@@ -563,6 +575,7 @@ let
         "fabric-26.1.1" = _aUAy1I1J;
         "fabric-26.1.2" = _ve4oWFqi;
         "fabric-26.2" = _rbEyg7qS;
+        "fabric-26.3" = _EVTby821;
         "quilt-1.20.5" = _MKc2Bksu;
         "quilt-1.20.6" = _iw1eCQkq;
         "quilt-1.21" = _W3e9tr4d;
@@ -595,6 +608,7 @@ let
         "quilt-1.20.2" = _CZ8J1AXl;
         "quilt-1.20.4" = _1lqyPp6C;
         "quilt-26.2" = _rbEyg7qS;
+        "quilt-26.3" = _EVTby821;
         "forge-1.16.5" = _v3GFZrj6;
         "forge-1.17.1" = _G60NInCu;
         "forge-1.18" = _BlLkqea8;
@@ -634,6 +648,7 @@ let
         "neoforge-26.1.1" = _ZAbBLcdO;
         "neoforge-26.1.2" = _6rPBcXLY;
         "neoforge-26.2" = _uNlCdzUS;
+        "neoforge-26.3" = _1mzAF1u4;
         "pkg-1.0.0+1.19.x" = _BekkPAED;
         "pkg-1.0.0+1.19" = _Xa2tdnEU;
         "pkg-1.0.1+1.16-1.16.1" = _UDBeQRCo;
@@ -721,7 +736,9 @@ let
         "pkg-1.2.1+26.1.2-NeoForge" = _6rPBcXLY;
         "pkg-1.2.1+26.2-Fabric" = _rbEyg7qS;
         "pkg-1.2.1+26.2-NeoForge" = _uNlCdzUS;
-        "default" = _uNlCdzUS;
+        "pkg-1.2.1+26.3-Fabric" = _EVTby821;
+        "pkg-1.2.1+26.3-NeoForge" = _1mzAF1u4;
+        "default" = _1mzAF1u4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "plagues-chat-timestamps";

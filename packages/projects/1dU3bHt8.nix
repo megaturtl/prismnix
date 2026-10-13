@@ -81,6 +81,11 @@ let
             "file" = "settingsmanager-1.1.3+26.1.jar";
             "hash" = "sha512-Oh7ybafzAO2TPDkBrE0PjjJ1afIxqRTaasCVJPjJ62CxDr2u9Hmpb6wv2Ei1rflC4CCIYxwzbXkYZmNq3fg0QQ==";
         };
+        _zmGfX8qo = {
+            "id" = "zmGfX8qo";
+            "file" = "settingsmanager-1.1.3+26.3.jar";
+            "hash" = "sha512-VVldZZR8CQeEsVox32yBG3PYU5gvXj2U1GbK6XQSeAXBxPjzG7YPbqNuFWuVTNmA+j85hxMM169ZETe0WCX8hg==";
+        };
     in {
         "VpV4Supw" = _VpV4Supw;
         "eUYQXRf1" = _eUYQXRf1;
@@ -98,6 +103,7 @@ let
         "QJ10HKiG" = _QJ10HKiG;
         "hjWxcBAQ" = _hjWxcBAQ;
         "Pfpv19dy" = _Pfpv19dy;
+        "zmGfX8qo" = _zmGfX8qo;
         "fabric-1.21.3" = _hjWxcBAQ;
         "fabric-1.21.4" = _hjWxcBAQ;
         "fabric-1.21.5" = _hjWxcBAQ;
@@ -110,6 +116,7 @@ let
         "fabric-26.1" = _Pfpv19dy;
         "fabric-26.1.1" = _Pfpv19dy;
         "fabric-26.1.2" = _Pfpv19dy;
+        "fabric-26.3" = _zmGfX8qo;
         "pkg-1.0.0+1.21.8" = _VpV4Supw;
         "pkg-1.0.1+1.21.8" = _eUYQXRf1;
         "pkg-1.0.2+1.21.8" = _CbzGAoyZ;
@@ -126,7 +133,8 @@ let
         "pkg-1.1.2+1.21.11" = _QJ10HKiG;
         "pkg-1.1.3+1.21.11" = _hjWxcBAQ;
         "pkg-1.1.3+26.1" = _Pfpv19dy;
-        "default" = _Pfpv19dy;
+        "pkg-1.1.3+26.3" = _zmGfX8qo;
+        "default" = _zmGfX8qo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "settingsmanagerlib";

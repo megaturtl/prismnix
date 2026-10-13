@@ -101,6 +101,11 @@ let
             "file" = "WaxedIcons-1.2+26.2.jar";
             "hash" = "sha512-hkU+KmeUEPI/35p7KfmLpMw9UH1LziS7sF1NxkvNUeFmo2Fox7w7PCaBRGvVLnrE15l4TtCi/r81epd06umWKA==";
         };
+        _yUkkk1SN = {
+            "id" = "yUkkk1SN";
+            "file" = "WaxedIcons-1.2+26.3.jar";
+            "hash" = "sha512-2OF6yivM5NBs7/tfFEqUrT3sIIO3fTLvPNs5dbnJF6cOcD51sRxUK1VYN6x7zYegpLHDjBoRGzkOFvZxSmhfRw==";
+        };
     in {
         "c27nTn6T" = _c27nTn6T;
         "qxvLLZ4K" = _qxvLLZ4K;
@@ -122,6 +127,7 @@ let
         "Brs2W9aH" = _Brs2W9aH;
         "h7G4GRBl" = _h7G4GRBl;
         "ye2b3toA" = _ye2b3toA;
+        "yUkkk1SN" = _yUkkk1SN;
         "fabric-1.21" = _JDLMsqpB;
         "fabric-1.21.1" = _JDLMsqpB;
         "fabric-1.21.2" = _r7ATFPNc;
@@ -139,6 +145,7 @@ let
         "fabric-26.1.1" = _h7G4GRBl;
         "fabric-26.1.2" = _h7G4GRBl;
         "fabric-26.2" = _ye2b3toA;
+        "fabric-26.3" = _yUkkk1SN;
         "pkg-1.0.1+1.21" = _c27nTn6T;
         "pkg-1.0.1+1.21.2" = _qxvLLZ4K;
         "pkg-1.0.2+1.21" = _spXxRtbn;
@@ -158,7 +165,8 @@ let
         "pkg-1.2+1.21.11" = _Brs2W9aH;
         "pkg-1.2+26.1" = _h7G4GRBl;
         "pkg-1.2+26.2" = _ye2b3toA;
-        "default" = _ye2b3toA;
+        "pkg-1.2+26.3" = _yUkkk1SN;
+        "default" = _yUkkk1SN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "waxedicons";

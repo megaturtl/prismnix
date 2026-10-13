@@ -86,6 +86,16 @@ let
             "file" = "japanitureforge-forge-1.20.1-0.0.2.jar";
             "hash" = "sha512-4K/OnvJhPS63yrGP7BLy7BHHR3UbAiVxTGwSQAD8BqrImekdy9b/q9Fki19SfPboJGOvmQeCwFi2GgDaREvtlQ==";
         };
+        _XBBvYWHH = {
+            "id" = "XBBvYWHH";
+            "file" = "japanituremod-forge-4.0.0.jar";
+            "hash" = "sha512-ljb65TfPxqrZFgfSZXQYT/GXNdHMC7wo+Zz7cNjVHHbQlz17rl6Vrm6MOEFmzkAGRdN4vNMTE6yEyb38rQMNEg==";
+        };
+        _puaalFKK = {
+            "id" = "puaalFKK";
+            "file" = "japanituremod-fabric-4.0.0.jar";
+            "hash" = "sha512-q9n19zyuqoIA54NMgYbw4nNOVYKBWM01AIMGZ6QVFtaAcf1/hKY/ggtZx1VjS5VbcnYjirx0pTSNwP2zm9DFFg==";
+        };
     in {
         "7eXeSb9B" = _7eXeSb9B;
         "ef6Y9gVd" = _ef6Y9gVd;
@@ -104,8 +114,11 @@ let
         "NIuO6r7O" = _NIuO6r7O;
         "RXekUXz6" = _RXekUXz6;
         "o9QkXJ5D" = _o9QkXJ5D;
+        "XBBvYWHH" = _XBBvYWHH;
+        "puaalFKK" = _puaalFKK;
         "fabric-1.19.2" = _RXekUXz6;
-        "forge-1.20.1" = _o9QkXJ5D;
+        "fabric-1.20.1" = _puaalFKK;
+        "forge-1.20.1" = _XBBvYWHH;
         "pkg-1.0" = _7eXeSb9B;
         "pkg-1.1" = _ef6Y9gVd;
         "pkg-2.0.0" = _s35azSIA;
@@ -123,7 +136,8 @@ let
         "pkg-0.0.1" = _NIuO6r7O;
         "pkg-3.0.2" = _RXekUXz6;
         "pkg-0.0.2" = _o9QkXJ5D;
-        "default" = _o9QkXJ5D;
+        "pkg-4.0.0" = _puaalFKK;
+        "default" = _puaalFKK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "japaniture";

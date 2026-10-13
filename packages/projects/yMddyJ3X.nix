@@ -566,6 +566,16 @@ let
             "file" = "Canyons_and_Cliffs_and_Biomes-1.5.0.14904.0.be_prerelease.261006-0910.zip";
             "hash" = "sha512-jUZtPIvLMKNOQWlzLYiMdOZFWP4xqNKKwvgBEk/i6OQFWI3Gg/yQuhIyVVm53ptzDz8O/pqJi4OXp7Jbyd/rIw==";
         };
+        _dUjmFg0r = {
+            "id" = "dUjmFg0r";
+            "file" = "Canyons_and_Cliffs_and_Biomes-1.5.0.14907.0.be_prerelease.261010-1000.zip";
+            "hash" = "sha512-X0Cvq7DDSzpArNvD4Sq2MSBt2HrFj1kl7UWLKDZ89JHi4Bw+Z2BrjOJNfiQCUv1KlPeCXb2DTON5Wr3V4QLC4A==";
+        };
+        _y0qGYKKa = {
+            "id" = "y0qGYKKa";
+            "file" = "Canyons_and_Cliffs_and_Biomes-1.5.0.14907.0.be_prerelease.261010-1000.jar";
+            "hash" = "sha512-nkfTHydLUP9PB5o2s+ug6XDfgwxNuZbekvqHzyTI4ddmKPGGdmB+Tnwy2+VSl63s0MV3ggeHS+vNwOvpP0xzYg==";
+        };
     in {
         "PZzXEiKM" = _PZzXEiKM;
         "s9oZzMvV" = _s9oZzMvV;
@@ -680,6 +690,8 @@ let
         "ipHY0eXc" = _ipHY0eXc;
         "tz22JrKX" = _tz22JrKX;
         "wmtqbNIY" = _wmtqbNIY;
+        "dUjmFg0r" = _dUjmFg0r;
+        "y0qGYKKa" = _y0qGYKKa;
         "datapack-1.21.9" = _rGEg5H4h;
         "datapack-1.21.10-rc1" = _rGEg5H4h;
         "datapack-1.21.10" = _rGEg5H4h;
@@ -719,13 +731,13 @@ let
         "datapack-26.2-rc-1" = _lOEkhhmU;
         "datapack-26.2-rc-2" = _lOEkhhmU;
         "datapack-26.2" = _lOEkhhmU;
-        "datapack-26.3-pre-1" = _wmtqbNIY;
-        "datapack-26.3-pre-2" = _wmtqbNIY;
-        "datapack-26.3-pre-3" = _wmtqbNIY;
-        "datapack-26.3-rc-1" = _wmtqbNIY;
-        "datapack-26.3-rc-2" = _wmtqbNIY;
-        "datapack-26.3-rc-3" = _wmtqbNIY;
-        "datapack-26.3" = _wmtqbNIY;
+        "datapack-26.3-pre-1" = _dUjmFg0r;
+        "datapack-26.3-pre-2" = _dUjmFg0r;
+        "datapack-26.3-pre-3" = _dUjmFg0r;
+        "datapack-26.3-rc-1" = _dUjmFg0r;
+        "datapack-26.3-rc-2" = _dUjmFg0r;
+        "datapack-26.3-rc-3" = _dUjmFg0r;
+        "datapack-26.3" = _dUjmFg0r;
         "fabric-1.21.9" = _dbaFVLNH;
         "fabric-1.21.10-rc1" = _dbaFVLNH;
         "fabric-1.21.10" = _dbaFVLNH;
@@ -768,13 +780,13 @@ let
         "fabric-26.2-rc-1" = _XAvIpJxs;
         "fabric-26.2-rc-2" = _XAvIpJxs;
         "fabric-26.2" = _XAvIpJxs;
-        "fabric-26.3-pre-1" = _tz22JrKX;
-        "fabric-26.3-pre-2" = _tz22JrKX;
-        "fabric-26.3-pre-3" = _tz22JrKX;
-        "fabric-26.3-rc-1" = _tz22JrKX;
-        "fabric-26.3-rc-2" = _tz22JrKX;
-        "fabric-26.3-rc-3" = _tz22JrKX;
-        "fabric-26.3" = _tz22JrKX;
+        "fabric-26.3-pre-1" = _y0qGYKKa;
+        "fabric-26.3-pre-2" = _y0qGYKKa;
+        "fabric-26.3-pre-3" = _y0qGYKKa;
+        "fabric-26.3-rc-1" = _y0qGYKKa;
+        "fabric-26.3-rc-2" = _y0qGYKKa;
+        "fabric-26.3-rc-3" = _y0qGYKKa;
+        "fabric-26.3" = _y0qGYKKa;
         "forge-1.21.9" = _dbaFVLNH;
         "forge-1.21.10-rc1" = _dbaFVLNH;
         "forge-1.21.10" = _dbaFVLNH;
@@ -853,13 +865,13 @@ let
         "neoforge-26.2-rc-1" = _Zm1Gqez7;
         "neoforge-26.2-rc-2" = _Zm1Gqez7;
         "neoforge-26.2" = _Zm1Gqez7;
-        "neoforge-26.3-pre-1" = _tz22JrKX;
-        "neoforge-26.3-pre-2" = _tz22JrKX;
-        "neoforge-26.3-pre-3" = _tz22JrKX;
-        "neoforge-26.3-rc-1" = _tz22JrKX;
-        "neoforge-26.3-rc-2" = _tz22JrKX;
-        "neoforge-26.3-rc-3" = _tz22JrKX;
-        "neoforge-26.3" = _tz22JrKX;
+        "neoforge-26.3-pre-1" = _y0qGYKKa;
+        "neoforge-26.3-pre-2" = _y0qGYKKa;
+        "neoforge-26.3-pre-3" = _y0qGYKKa;
+        "neoforge-26.3-rc-1" = _y0qGYKKa;
+        "neoforge-26.3-rc-2" = _y0qGYKKa;
+        "neoforge-26.3-rc-3" = _y0qGYKKa;
+        "neoforge-26.3" = _y0qGYKKa;
         "quilt-1.21.9" = _dbaFVLNH;
         "quilt-1.21.10-rc1" = _dbaFVLNH;
         "quilt-1.21.10" = _dbaFVLNH;
@@ -975,7 +987,8 @@ let
         "pkg-1.5.0.14891.0" = _BwOEduHY;
         "pkg-1.5.0.14902.0" = _ipHY0eXc;
         "pkg-1.5.0.14904.0" = _wmtqbNIY;
-        "default" = _wmtqbNIY;
+        "pkg-1.5.0.14907.0" = _y0qGYKKa;
+        "default" = _y0qGYKKa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "canyons_and_cliffs_and_biomes";

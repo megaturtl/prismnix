@@ -56,6 +56,21 @@ let
             "file" = "BetterEnd-20.0.11.jar";
             "hash" = "sha512-bjeOVjP+IG0DwJmXkufjQQVbKfoRRlGYOYGcpQZZFJPqXkkibsTFFNTjMQIjAVgfbE2bhz3bdQIecyGxKRcSNw==";
         };
+        _rl9CtROA = {
+            "id" = "rl9CtROA";
+            "file" = "better-end-20.0.12.jar";
+            "hash" = "sha512-XCLmk07HhaX68hV2dFgf+g3hRU75TCePDa30QNZPhvECqiJ9qZ2BQ5OUK5lsy2+JcEXRsJDA0WFfOuPayv4CQg==";
+        };
+        _5rIa5gMc = {
+            "id" = "5rIa5gMc";
+            "file" = "better-end-20.0.12-fabric.jar";
+            "hash" = "sha512-RubKH2deEFx/CxkDvR301v8Gw4gN/7E9+LTEyfokKXeDhz2rPyiV1sy8njhjCk9a7s86zqSC43P4o6EPqK05ew==";
+        };
+        _1ZUDnXot = {
+            "id" = "1ZUDnXot";
+            "file" = "better-end-20.0.12.1.jar";
+            "hash" = "sha512-vfZPJjVyRWl5NpqCRLYfqQRWcKVhgIMWLV0oTuQDhLOLxfytsB3gJJB6Z1gDhVzoaxPVs3jmfQXBSgBxZTErEQ==";
+        };
     in {
         "78xw60e7" = _78xw60e7;
         "WrSuNRsc" = _WrSuNRsc;
@@ -68,8 +83,15 @@ let
         "XwjskFml" = _XwjskFml;
         "pxLJpkEa" = _pxLJpkEa;
         "YHLiRdv2" = _YHLiRdv2;
-        "forge-1.20.1" = _YHLiRdv2;
-        "forge-1.20" = _YHLiRdv2;
+        "rl9CtROA" = _rl9CtROA;
+        "5rIa5gMc" = _5rIa5gMc;
+        "1ZUDnXot" = _1ZUDnXot;
+        "forge-1.20.1" = _1ZUDnXot;
+        "forge-1.20" = _1ZUDnXot;
+        "fabric-1.20" = _5rIa5gMc;
+        "fabric-1.20.1" = _5rIa5gMc;
+        "quilt-1.20" = _5rIa5gMc;
+        "quilt-1.20.1" = _5rIa5gMc;
         "pkg-20.0.1" = _78xw60e7;
         "pkg-20.0.2" = _WrSuNRsc;
         "pkg-20.0.3" = _HGyQ9Iwi;
@@ -81,7 +103,10 @@ let
         "pkg-20.0.9" = _XwjskFml;
         "pkg-20.0.10" = _pxLJpkEa;
         "pkg-20.0.11" = _YHLiRdv2;
-        "default" = _YHLiRdv2;
+        "pkg-20.0.12" = _rl9CtROA;
+        "pkg-20.0.12-fabric" = _5rIa5gMc;
+        "pkg-20.0.12.1" = _1ZUDnXot;
+        "default" = _1ZUDnXot;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "betterend-forge";

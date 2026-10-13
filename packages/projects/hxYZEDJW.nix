@@ -11,9 +11,15 @@ let
             "file" = "RHLeafDecay-Paper-1.21_R3.jar";
             "hash" = "sha512-U/YOpzxEj6yh15H5deSFF9Z/iFN0t4sDkN+OSx/MIefZO1z/cF5VV0jdYMAso6lxvqSNupSB310vKvuJUm0sOw==";
         };
+        _SPDMIEmU = {
+            "id" = "SPDMIEmU";
+            "file" = "RHLeafDecay-Paper-26.1-build.1.jar";
+            "hash" = "sha512-af2rs4+5+ZqB8MtL929T2lhFMywchWAUxfU9a3Xvxf4521QcldT+8clXmXcnFq2a4HUC2bVNR5g2uB48vz0yYA==";
+        };
     in {
         "QeeNwNuO" = _QeeNwNuO;
         "u9VvoY0C" = _u9VvoY0C;
+        "SPDMIEmU" = _SPDMIEmU;
         "paper-1.21" = _u9VvoY0C;
         "paper-1.21.1" = _u9VvoY0C;
         "paper-1.21.2" = _u9VvoY0C;
@@ -26,10 +32,10 @@ let
         "paper-1.21.9" = _u9VvoY0C;
         "paper-1.21.10" = _u9VvoY0C;
         "paper-1.21.11" = _u9VvoY0C;
-        "paper-26.1" = _u9VvoY0C;
-        "paper-26.1.1" = _u9VvoY0C;
-        "paper-26.1.2" = _u9VvoY0C;
-        "paper-26.2" = _u9VvoY0C;
+        "paper-26.1" = _SPDMIEmU;
+        "paper-26.1.1" = _SPDMIEmU;
+        "paper-26.1.2" = _SPDMIEmU;
+        "paper-26.2" = _SPDMIEmU;
         "folia-1.21" = _u9VvoY0C;
         "folia-1.21.1" = _u9VvoY0C;
         "folia-1.21.2" = _u9VvoY0C;
@@ -42,13 +48,14 @@ let
         "folia-1.21.9" = _u9VvoY0C;
         "folia-1.21.10" = _u9VvoY0C;
         "folia-1.21.11" = _u9VvoY0C;
-        "folia-26.1" = _u9VvoY0C;
-        "folia-26.1.1" = _u9VvoY0C;
-        "folia-26.1.2" = _u9VvoY0C;
-        "folia-26.2" = _u9VvoY0C;
+        "folia-26.1" = _SPDMIEmU;
+        "folia-26.1.1" = _SPDMIEmU;
+        "folia-26.1.2" = _SPDMIEmU;
+        "folia-26.2" = _SPDMIEmU;
         "pkg-1.21_R2" = _QeeNwNuO;
         "pkg-1.21_R3" = _u9VvoY0C;
-        "default" = _u9VvoY0C;
+        "pkg-26.1-build.1" = _SPDMIEmU;
+        "default" = _SPDMIEmU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rhleafdecay";

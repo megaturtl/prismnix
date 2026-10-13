@@ -201,6 +201,31 @@ let
             "file" = "VideoPlayer-Paper-2.0.3-26.2.jar";
             "hash" = "sha512-Nzv72jPo8eQ28764IYiXZGbzyaTA19XbuKg0bBEJjeE7q+E7qyfePo0iQXHUIgeEbXzCxw5XNrEln6C5WFn5VA==";
         };
+        _rLRFuW1P = {
+            "id" = "rLRFuW1P";
+            "file" = "VideoPlayer-NeoForge-1.21.1-2.0.4.jar";
+            "hash" = "sha512-tg3NXxM0XdKTox57ejqmkGbiqJ4ofgxkhyfYCOSSBlcU2GZbb5e2Nppw/m9dHcLXKNzci/8w6zS372yL0Y3hHA==";
+        };
+        _5w4NDcFo = {
+            "id" = "5w4NDcFo";
+            "file" = "VideoPlayer-Paper-2.0.4-26.2.jar";
+            "hash" = "sha512-EDiCzPvn0bKxw3RQX2u9o9HOQfmFph8xVUr1VndwFWAIEPQI2WKKTHxOO5sDTqQn5luXiAFQpQNTWXy4wO5p3Q==";
+        };
+        _84tWoSiN = {
+            "id" = "84tWoSiN";
+            "file" = "VideoPlayer-2.0.4-26.2.jar";
+            "hash" = "sha512-hrUNhM0imFQyTa2dlAQZVok7Z/Im78DVzHQDDukGwdH3Fx4B/cxdaXS5VjNYTHrNBxg/9/d2tHhh6N6hR1GrAw==";
+        };
+        _EQdZD5Ml = {
+            "id" = "EQdZD5Ml";
+            "file" = "VideoPlayer-2.0.4.jar";
+            "hash" = "sha512-Y3oCgakqCU+9V/DuJ+04x5D2Pb8/iuCb8Zzkk1iHmBWbDlo22gK5OB8nZZTuASCwvIULMc8t8QJNQl3Q2oidAg==";
+        };
+        _3VpkMy4T = {
+            "id" = "3VpkMy4T";
+            "file" = "VideoPlayer-Paper-2.0.4.jar";
+            "hash" = "sha512-mOizMQIf4qKBFRayRMQE1iopZn+Nfi3qtOADXbiaMdCZDMP3luT8WzC7IlDcUSLM5fl8aJ+6dYV1jAJz9Rambg==";
+        };
     in {
         "gO0xL4Oe" = _gO0xL4Oe;
         "vOZZADkv" = _vOZZADkv;
@@ -242,14 +267,20 @@ let
         "nhyah7J2" = _nhyah7J2;
         "XbU6eGXe" = _XbU6eGXe;
         "2N94hesm" = _2N94hesm;
+        "rLRFuW1P" = _rLRFuW1P;
+        "5w4NDcFo" = _5w4NDcFo;
+        "84tWoSiN" = _84tWoSiN;
+        "EQdZD5Ml" = _EQdZD5Ml;
+        "3VpkMy4T" = _3VpkMy4T;
         "fabric-1.21.4" = _zlLA5Iuk;
         "fabric-1.20.1" = _eeaCqojl;
-        "fabric-1.21.11" = _ghUXViTO;
-        "fabric-26.2" = _XbU6eGXe;
-        "folia-1.21.11" = _nhyah7J2;
-        "folia-26.2" = _2N94hesm;
-        "paper-1.21.11" = _nhyah7J2;
-        "paper-26.2" = _2N94hesm;
+        "fabric-1.21.11" = _EQdZD5Ml;
+        "fabric-26.2" = _84tWoSiN;
+        "folia-1.21.11" = _3VpkMy4T;
+        "folia-26.2" = _5w4NDcFo;
+        "paper-1.21.11" = _3VpkMy4T;
+        "paper-26.2" = _5w4NDcFo;
+        "neoforge-1.21.1" = _rLRFuW1P;
         "pkg-1.0.0" = _gO0xL4Oe;
         "pkg-1.0.1" = _vOZZADkv;
         "pkg-1.0.2" = _ZQdqOZE0;
@@ -281,7 +312,8 @@ let
         "pkg-1.6.4.1" = _eeaCqojl;
         "pkg-2.0.0" = _KHsdvV8t;
         "pkg-2.0.3" = _2N94hesm;
-        "default" = _2N94hesm;
+        "pkg-2.0.4" = _3VpkMy4T;
+        "default" = _3VpkMy4T;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "videoplayer";

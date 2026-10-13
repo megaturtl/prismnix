@@ -51,6 +51,16 @@ let
             "file" = "skipservercheck-1.0.8.jar";
             "hash" = "sha512-lXnRMuOq8b3dNseZ1BKDFrDzhwzZWSay3Ik2O40OOgePBnHVA+IQ3XPhRjFN2ADX30hlQIWs/dP1sGOlTPCd3g==";
         };
+        _7PNpNfdW = {
+            "id" = "7PNpNfdW";
+            "file" = "skipservercheck-1.0.8-26.2.jar";
+            "hash" = "sha512-1azUslz89QP/UaD5D2yk3hLK00g2nVgugM70nf2nI1/8HAFDlg28+5AicDDXgBnVE/kee3c7vFzHzNU5ELOpHQ==";
+        };
+        _H2a5mcRM = {
+            "id" = "H2a5mcRM";
+            "file" = "skipservercheck-1.0.9-26.3.jar";
+            "hash" = "sha512-2uxcqqKXbJjfwP4gTmufjLehZ5XmupUwf4fSiC+iyvX6L1Wn0/7Bi5VqT5R/YYTd5/9OO2IhvnsQMsmPa3d1RA==";
+        };
     in {
         "WK2Bo7vv" = _WK2Bo7vv;
         "SnyROK2q" = _SnyROK2q;
@@ -62,6 +72,8 @@ let
         "BjQJiN0z" = _BjQJiN0z;
         "uf32ZNuS" = _uf32ZNuS;
         "eAQWCKSE" = _eAQWCKSE;
+        "7PNpNfdW" = _7PNpNfdW;
+        "H2a5mcRM" = _H2a5mcRM;
         "fabric-1.21" = _WK2Bo7vv;
         "fabric-1.21.1" = _sOp4Ohj3;
         "fabric-1.21.3" = _KaZzTusq;
@@ -76,7 +88,8 @@ let
         "fabric-26.1" = _eAQWCKSE;
         "fabric-26.1.1" = _eAQWCKSE;
         "fabric-26.1.2" = _eAQWCKSE;
-        "fabric-26.2" = _eAQWCKSE;
+        "fabric-26.2" = _7PNpNfdW;
+        "fabric-26.3" = _H2a5mcRM;
         "pkg-1.0.0" = _WK2Bo7vv;
         "pkg-1.0.1" = _SnyROK2q;
         "pkg-1.0.2" = _KaZzTusq;
@@ -87,7 +100,9 @@ let
         "pkg-1.0.6" = _BjQJiN0z;
         "pkg-1.0.7" = _uf32ZNuS;
         "pkg-1.0.8" = _eAQWCKSE;
-        "default" = _eAQWCKSE;
+        "pkg-1.0.8-26.2" = _7PNpNfdW;
+        "pkg-1.0.9-26.3" = _H2a5mcRM;
+        "default" = _H2a5mcRM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "frostbytes-skip-server-movement-check";
