@@ -156,6 +156,11 @@ let
             "file" = "lost-relics-fabric-26.3-r1.jar";
             "hash" = "sha512-1cNrUFa34CclVTLUos5ijU134HZKFLkTQZ3gIgMp8StsA2b4/fq/VVW35fPgYf57FUIVX6T1ECNRlBMR9+mZXQ==";
         };
+        _o4UXriH9 = {
+            "id" = "o4UXriH9";
+            "file" = "lost-relics-neoforge-26.2-r6.jar";
+            "hash" = "sha512-d8QdKB5vuHvbN1kdojZ5+sZl0XtUJ79XUZhFkHX8U6vsNCfevc4fx0zU0lL8kwpSBDF5qVF8KwGu/QZtmJMj/w==";
+        };
     in {
         "5MRIaBFM" = _5MRIaBFM;
         "hMPXY0qL" = _hMPXY0qL;
@@ -188,6 +193,7 @@ let
         "9ETGcM97" = _9ETGcM97;
         "I3UkYgvB" = _I3UkYgvB;
         "eFN5w869" = _eFN5w869;
+        "o4UXriH9" = _o4UXriH9;
         "fabric-1.20.1" = _5MRIaBFM;
         "fabric-1.20.6" = _hMPXY0qL;
         "fabric-1.21" = _QwGXrecp;
@@ -210,6 +216,7 @@ let
         "neoforge-26.1" = _I3UkYgvB;
         "neoforge-26.1.1" = _I3UkYgvB;
         "neoforge-26.1.2" = _I3UkYgvB;
+        "neoforge-26.2" = _o4UXriH9;
         "pkg-1.20-1" = _5MRIaBFM;
         "pkg-1.20.6-r1" = _hMPXY0qL;
         "pkg-1.21-r1" = _QwGXrecp;
@@ -232,10 +239,10 @@ let
         "pkg-26.1-r10" = _euco87eb;
         "pkg-26.2-r5" = _jZWYU3tr;
         "pkg-26.1-r11" = _ZXs4S3mV;
-        "pkg-26.2-r6" = _RGCUg7NL;
+        "pkg-26.2-r6" = _o4UXriH9;
         "pkg-26.1-r12" = _I3UkYgvB;
         "pkg-26.3-r1" = _eFN5w869;
-        "default" = _eFN5w869;
+        "default" = _o4UXriH9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lost-relics";

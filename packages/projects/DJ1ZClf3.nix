@@ -131,6 +131,16 @@ let
             "file" = "dynamic-light-0.8.jar";
             "hash" = "sha512-Mpbf+Fg5ltvGlYyhTcmtlJ1i0kqu1z956vi2/jslnsNKKGnUxgOX+ek8tHhRxC5N9+xIKK6+66o1ecLQcq2OXw==";
         };
+        _qqfN73Ww = {
+            "id" = "qqfN73Ww";
+            "file" = "Dynamic_light 0.8.zip";
+            "hash" = "sha512-dV9S3DL3D5+ydQNQ1XzfBSja1DtmeVUlSkWtWEwP2y33BSdppfyI58fHmsnZg0sN/1V0BX7h3sy+MxJGHQNgBw==";
+        };
+        _cBjtn7C2 = {
+            "id" = "cBjtn7C2";
+            "file" = "dynamic-light-0.8.jar";
+            "hash" = "sha512-AIwGdrex58AUzF+EmmeR1HtURDypCQFB96sGcvGgjXwVz8UcGvk/fSu5PZlET/6+PMAKd9S7rk1uIG2UXNMpMA==";
+        };
     in {
         "3mY9VXft" = _3mY9VXft;
         "mxvlvVAh" = _mxvlvVAh;
@@ -158,6 +168,8 @@ let
         "mNngcJnA" = _mNngcJnA;
         "IJJTf9wc" = _IJJTf9wc;
         "wNjGxIq1" = _wNjGxIq1;
+        "qqfN73Ww" = _qqfN73Ww;
+        "cBjtn7C2" = _cBjtn7C2;
         "datapack-1.20" = _klcIpz8s;
         "datapack-1.17" = _klcIpz8s;
         "datapack-1.17.1" = _klcIpz8s;
@@ -190,6 +202,7 @@ let
         "datapack-26.1" = _IJJTf9wc;
         "datapack-26.1.1" = _IJJTf9wc;
         "datapack-26.1.2" = _IJJTf9wc;
+        "datapack-26.3" = _qqfN73Ww;
         "fabric-1.20" = _UdveVUc3;
         "fabric-1.17" = _UdveVUc3;
         "fabric-1.17.1" = _UdveVUc3;
@@ -223,6 +236,7 @@ let
         "fabric-26.1.1" = _wNjGxIq1;
         "fabric-26.1.2" = _wNjGxIq1;
         "fabric-26.2" = _wNjGxIq1;
+        "fabric-26.3" = _cBjtn7C2;
         "forge-1.20" = _UdveVUc3;
         "forge-1.17" = _UdveVUc3;
         "forge-1.17.1" = _UdveVUc3;
@@ -256,6 +270,7 @@ let
         "forge-26.1.1" = _wNjGxIq1;
         "forge-26.1.2" = _wNjGxIq1;
         "forge-26.2" = _wNjGxIq1;
+        "forge-26.3" = _cBjtn7C2;
         "quilt-1.20" = _UdveVUc3;
         "quilt-1.17" = _UdveVUc3;
         "quilt-1.17.1" = _UdveVUc3;
@@ -289,6 +304,7 @@ let
         "quilt-26.1.1" = _wNjGxIq1;
         "quilt-26.1.2" = _wNjGxIq1;
         "quilt-26.2" = _wNjGxIq1;
+        "quilt-26.3" = _cBjtn7C2;
         "neoforge-1.21" = _mNngcJnA;
         "neoforge-1.21.1" = _mNngcJnA;
         "neoforge-1.21.2" = _mNngcJnA;
@@ -305,6 +321,7 @@ let
         "neoforge-26.1.1" = _wNjGxIq1;
         "neoforge-26.1.2" = _wNjGxIq1;
         "neoforge-26.2" = _wNjGxIq1;
+        "neoforge-26.3" = _cBjtn7C2;
         "pkg-0.1" = _3mY9VXft;
         "pkg-0.1+mod" = _mxvlvVAh;
         "pkg-0.2" = _YfCmx2Kr;
@@ -325,9 +342,9 @@ let
         "pkg-0.6.3+mod" = _dJSV7sbr;
         "pkg-0.7" = _sU6vjmxL;
         "pkg-0.7+mod" = _mNngcJnA;
-        "pkg-0.8" = _IJJTf9wc;
-        "pkg-0.8+mod" = _wNjGxIq1;
-        "default" = _wNjGxIq1;
+        "pkg-0.8" = _qqfN73Ww;
+        "pkg-0.8+mod" = _cBjtn7C2;
+        "default" = _cBjtn7C2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dynamic-light";

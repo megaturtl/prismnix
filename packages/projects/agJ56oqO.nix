@@ -21,23 +21,30 @@ let
             "file" = "stronger_potions-0.0.3-1.21.jar";
             "hash" = "sha512-28hwN4OPyR++glQDU5srUc3LQ3EbPCUR5vwR5vi6e7Fy77pE6UQo+qRRlpDXqMLBvxM3fPVA9MB4xg7Qb2OFbA==";
         };
+        _Q0KgboM0 = {
+            "id" = "Q0KgboM0";
+            "file" = "stronger_potions-1.0.0-1.20.jar";
+            "hash" = "sha512-2Yy1qCYlPx2guylGRdmemK6AOjB7PKriAtpzPeRK/fdfHQ2f0wcmPgc7Bmw9TvDmNuW94U8r19VYT89kBro/Gg==";
+        };
     in {
         "QoZBcpEq" = _QoZBcpEq;
         "SZxQGggf" = _SZxQGggf;
         "Y1pdDqQN" = _Y1pdDqQN;
         "bIl7IAMD" = _bIl7IAMD;
-        "forge-1.20" = _Y1pdDqQN;
-        "forge-1.20.1" = _Y1pdDqQN;
-        "forge-1.20.2" = _Y1pdDqQN;
-        "forge-1.20.3" = _Y1pdDqQN;
-        "forge-1.20.4" = _Y1pdDqQN;
+        "Q0KgboM0" = _Q0KgboM0;
+        "forge-1.20" = _Q0KgboM0;
+        "forge-1.20.1" = _Q0KgboM0;
+        "forge-1.20.2" = _Q0KgboM0;
+        "forge-1.20.3" = _Q0KgboM0;
+        "forge-1.20.4" = _Q0KgboM0;
         "forge-1.21" = _bIl7IAMD;
         "forge-1.21.1" = _bIl7IAMD;
         "pkg-0.0.1-1.20" = _QoZBcpEq;
         "pkg-0.0.2-1.21" = _SZxQGggf;
         "pkg-0.0.3-1.20" = _Y1pdDqQN;
         "pkg-0.0.3-1.21" = _bIl7IAMD;
-        "default" = _bIl7IAMD;
+        "pkg-1.0.0-1.20" = _Q0KgboM0;
+        "default" = _Q0KgboM0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stronger-potions";

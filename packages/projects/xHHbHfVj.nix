@@ -136,6 +136,11 @@ let
             "file" = "ancestralarchetypes-1.5.1+26.3.jar";
             "hash" = "sha512-5EYMOTm5WnW1GWWR7PtCav/nElJITCLOMcRjjHwZw8kHNyheDLrfh0UVvggbMknjSdSRISv3j8DV1s4g7TegxA==";
         };
+        _tvuJq7xm = {
+            "id" = "tvuJq7xm";
+            "file" = "ancestralarchetypes-1.5.2+26.3.jar";
+            "hash" = "sha512-hR8iO2l0LuhBCnm3+u3GL9D4sRRxU0LRFUix9A6HsYp+bb5X33lSHPS6pvPIqHo1GcdEl78euVTzbgBHBuhkeg==";
+        };
     in {
         "sLKuaPbe" = _sLKuaPbe;
         "nC6rrLAy" = _nC6rrLAy;
@@ -164,6 +169,7 @@ let
         "3AKx7wir" = _3AKx7wir;
         "yPUvxepl" = _yPUvxepl;
         "X94JMPrS" = _X94JMPrS;
+        "tvuJq7xm" = _tvuJq7xm;
         "fabric-1.21.4" = _vDMsCpHG;
         "fabric-1.21.5" = _1VLJMrkO;
         "fabric-1.21.8" = _1xfKhbQx;
@@ -173,7 +179,7 @@ let
         "fabric-26.1.1" = _NUysqqOj;
         "fabric-26.1.2" = _NUysqqOj;
         "fabric-26.2" = _yPUvxepl;
-        "fabric-26.3" = _X94JMPrS;
+        "fabric-26.3" = _tvuJq7xm;
         "pkg-1.0.0" = _sLKuaPbe;
         "pkg-1.0.1" = _nC6rrLAy;
         "pkg-1.0.2" = _QoKC7gN4;
@@ -201,7 +207,8 @@ let
         "pkg-1.5.0+26.2" = _3AKx7wir;
         "pkg-1.5.1+26.2" = _yPUvxepl;
         "pkg-1.5.1+26.3" = _X94JMPrS;
-        "default" = _X94JMPrS;
+        "pkg-1.5.2+26.3" = _tvuJq7xm;
+        "default" = _tvuJq7xm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ancestral-archetypes";

@@ -81,6 +81,11 @@ let
             "file" = "MoreDiscs-0.15.00v1.20.1.jar";
             "hash" = "sha512-yiWt8Y/MljpsgeV0UsnL5QCBk+JzNC1+iLTwcx5zCY3zw9oUoSmG/KOxcsKw6NV2B4LYYaeNrFAu5BU6LXNgHg==";
         };
+        _8XtZlAdC = {
+            "id" = "8XtZlAdC";
+            "file" = "MoreDiscs-0.15.01v1.20.1.jar";
+            "hash" = "sha512-uB2ADXaD2VKs26tEmkd+Vb9xD8FAeokkDAVd3pvArcJ9626NPOZUoRJN+bxiGz8edRTX35hvioxg0346nzOIKw==";
+        };
     in {
         "UMKppNAh" = _UMKppNAh;
         "H3BmSdJr" = _H3BmSdJr;
@@ -98,7 +103,8 @@ let
         "3Cv12s5Y" = _3Cv12s5Y;
         "pSJzNh5K" = _pSJzNh5K;
         "wIx67EC0" = _wIx67EC0;
-        "forge-1.20.1" = _wIx67EC0;
+        "8XtZlAdC" = _8XtZlAdC;
+        "forge-1.20.1" = _8XtZlAdC;
         "forge-1.19.4" = _H3BmSdJr;
         "pkg-0.2.30-alpha" = _H3BmSdJr;
         "pkg-0.5.42-alpha" = _It7TG2Zt;
@@ -115,7 +121,8 @@ let
         "pkg-0.13.00-alpha" = _3Cv12s5Y;
         "pkg-0.14.00-alpha" = _pSJzNh5K;
         "pkg-0.15.00-alpha" = _wIx67EC0;
-        "default" = _wIx67EC0;
+        "pkg-0.15.01-alpha" = _8XtZlAdC;
+        "default" = _8XtZlAdC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "music-disc-festival";

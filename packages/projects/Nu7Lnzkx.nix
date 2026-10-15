@@ -851,6 +851,16 @@ let
             "file" = "minetogether-neoforge-1.21-6.3.3.jar";
             "hash" = "sha512-z7gK5XLyd71C7MAklhWQV+5jNsYtdpgQnMSnNiTZwezelzafGxMXypirI2quo9RIHs0DfCEEczTnsPBYj/wVlA==";
         };
+        _g3NxLWc1 = {
+            "id" = "g3NxLWc1";
+            "file" = "minetogethercommunity-fabric-26.3-6.4.2.jar";
+            "hash" = "sha512-BjMpG1hz/qQHXlSoLZnnuwF/m9O885LOz2k8YaCclv85ZbJAjbE4r7bs5RtsyWisykJw+YkyVyl2bogdQ5SLrw==";
+        };
+        _zSNnZ8KU = {
+            "id" = "zSNnZ8KU";
+            "file" = "minetogethercommunity-neoforge-26.3-6.4.2.jar";
+            "hash" = "sha512-x8YxkCYq15UW192P9OxWk5ndAfRLZBGuCohlNJHrUs9/Gx5teQkEZLi4KBDFQKrsoX8sXosyle8X3SKiClqAsA==";
+        };
     in {
         "9BoYPaWM" = _9BoYPaWM;
         "SezR6zpQ" = _SezR6zpQ;
@@ -1022,6 +1032,8 @@ let
         "Mu4IIzXp" = _Mu4IIzXp;
         "baqCzKcB" = _baqCzKcB;
         "qwBasUDD" = _qwBasUDD;
+        "g3NxLWc1" = _g3NxLWc1;
+        "zSNnZ8KU" = _zSNnZ8KU;
         "forge-1.7.10" = _nUUfuUFo;
         "forge-1.10" = _eCXwR20V;
         "forge-1.10.1" = _eCXwR20V;
@@ -1054,12 +1066,14 @@ let
         "fabric-1.20.4" = _Vgsq0Uxk;
         "fabric-1.21" = _baqCzKcB;
         "fabric-1.21.1" = _baqCzKcB;
+        "fabric-26.3" = _g3NxLWc1;
         "neoforge-1.20.2" = _eWPDPnkY;
         "neoforge-1.20.4" = _7g6yKX7g;
         "neoforge-1.21" = _qwBasUDD;
         "neoforge-1.20" = _uHGGTzxO;
         "neoforge-1.20.1" = _uHGGTzxO;
         "neoforge-1.21.1" = _qwBasUDD;
+        "neoforge-26.3" = _zSNnZ8KU;
         "pkg-1.8.6" = _9BoYPaWM;
         "pkg-1.8.7" = _SezR6zpQ;
         "pkg-RC6" = _4CCcUWHW;
@@ -1123,7 +1137,8 @@ let
         "pkg-153" = _zmb7l3Bf;
         "pkg-6.3.2" = _Mu4IIzXp;
         "pkg-6.3.3" = _qwBasUDD;
-        "default" = _qwBasUDD;
+        "pkg-6.4.2" = _zSNnZ8KU;
+        "default" = _zSNnZ8KU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "creeperhost-minetogether";

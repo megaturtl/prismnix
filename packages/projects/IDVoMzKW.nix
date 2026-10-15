@@ -36,6 +36,11 @@ let
             "file" = "k3d-2.0.jar";
             "hash" = "sha512-/3Lpqc1ZKNjDKZS62fnkGGMMqjTQR1ICV8hVh1D+zXWIR3Pl86tT/xPceZ7saHs6EovO0xiONG2bcz5d+v4Fnw==";
         };
+        _snGcjVt0 = {
+            "id" = "snGcjVt0";
+            "file" = "k3d-2.1.jar";
+            "hash" = "sha512-xkXwILGcuvY58mgZheK5ya8jyjAZqfVbYda3/LRpkASX8aS963qWyqtAKLpjwlVU2CAE9noTEqNJzRoSit01Yw==";
+        };
     in {
         "CZ6iDYra" = _CZ6iDYra;
         "rh8tF0jQ" = _rh8tF0jQ;
@@ -44,7 +49,8 @@ let
         "kyjnclsf" = _kyjnclsf;
         "6POfeRSS" = _6POfeRSS;
         "f17bs82X" = _f17bs82X;
-        "fabric-1.21.4" = _f17bs82X;
+        "snGcjVt0" = _snGcjVt0;
+        "fabric-1.21.4" = _snGcjVt0;
         "pkg-1.4" = _CZ6iDYra;
         "pkg-1.5" = _rh8tF0jQ;
         "pkg-1.6" = _tVn4dQVb;
@@ -52,7 +58,8 @@ let
         "pkg-1.8" = _kyjnclsf;
         "pkg-1.9" = _6POfeRSS;
         "pkg-2.0" = _f17bs82X;
-        "default" = _f17bs82X;
+        "pkg-2.1" = _snGcjVt0;
+        "default" = _snGcjVt0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "k3d-visuals";

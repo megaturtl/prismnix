@@ -81,6 +81,11 @@ let
             "file" = "croparia-5.0.3.jar";
             "hash" = "sha512-wKcXrRcW54W+ulqJUe0Wc3ey16HE8LwnqoLteW9DLTdHQIoFiYiReEcrsFRcelQcWz5dHK+c6Sf22c1lyamuqw==";
         };
+        _PLAmkufe = {
+            "id" = "PLAmkufe";
+            "file" = "croparia-5.1.0.jar";
+            "hash" = "sha512-gOCElq418cm+mgVbYYD0fBycIGaRoryAQXnfF7DfcCc4ISL8rEvE9ZTPqqHpO5FQgqaOo2JmTM6qmRvj2SOERQ==";
+        };
     in {
         "LWjzpI4W" = _LWjzpI4W;
         "koRBNdBI" = _koRBNdBI;
@@ -98,6 +103,7 @@ let
         "73kzNHrx" = _73kzNHrx;
         "8EKKmdRF" = _8EKKmdRF;
         "o4KSMIYl" = _o4KSMIYl;
+        "PLAmkufe" = _PLAmkufe;
         "fabric-1.18.1" = _LWjzpI4W;
         "fabric-1.19.2" = _KHnXEKfJ;
         "fabric-1.20.2" = _OBwB2zPe;
@@ -108,7 +114,7 @@ let
         "forge-1.20.4" = _mdq1frqg;
         "forge-1.20.1" = _8uFJjHXg;
         "neoforge-1.20.2" = _AoHwq5hK;
-        "neoforge-1.21.1" = _o4KSMIYl;
+        "neoforge-1.21.1" = _PLAmkufe;
         "pkg-3.8.1" = _LWjzpI4W;
         "pkg-4.0.1" = _KHnXEKfJ;
         "pkg-4.3" = _OBwB2zPe;
@@ -118,7 +124,8 @@ let
         "pkg-4.5.2" = _73kzNHrx;
         "pkg-5.0.1" = _8EKKmdRF;
         "pkg-5.0.3" = _o4KSMIYl;
-        "default" = _o4KSMIYl;
+        "pkg-5.1.0" = _PLAmkufe;
+        "default" = _PLAmkufe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "croparia";

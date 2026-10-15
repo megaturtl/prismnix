@@ -531,6 +531,16 @@ let
             "file" = "adorabuild-structures-2.11.0-fabric-26.2.jar";
             "hash" = "sha512-/SBHppEo5Jlj/SubvrUJi9AAcsmHJjvftYWi07vLyzuphZj9k15/0mz3wP7bAcf7j2y98Y+sAhDSYeqEcdqElw==";
         };
+        _9AunCuH8 = {
+            "id" = "9AunCuH8";
+            "file" = "adorabuild-structures-2.12.0-neoforge-26.3.jar";
+            "hash" = "sha512-9bGc3mFnT4VLF+vnFerhLOlMF2OYq7dHEjRzIR+pPnWZD7Ttb0GSJfzeUKWaShCSLtfOM0AP3HZW6w6h1GLCtA==";
+        };
+        _6sJ3mTz5 = {
+            "id" = "6sJ3mTz5";
+            "file" = "adorabuild-structures-2.12.0-fabric-26.3.jar";
+            "hash" = "sha512-n0JmXilDZO8CtYXQXLPow49xcA6RCyB8PHjXBhAUoYlpTyfaqmih6IBGouiB1SGM6uISu4U8V47D2IjKcEKd3A==";
+        };
     in {
         "v0sSP4fH" = _v0sSP4fH;
         "jgF2B6Us" = _jgF2B6Us;
@@ -638,6 +648,8 @@ let
         "xPBWrIvR" = _xPBWrIvR;
         "GWeB1hJt" = _GWeB1hJt;
         "bSQbtn5T" = _bSQbtn5T;
+        "9AunCuH8" = _9AunCuH8;
+        "6sJ3mTz5" = _6sJ3mTz5;
         "fabric-1.20.1" = _lxQAEHP2;
         "fabric-1.20.2" = _qQP3RGoX;
         "fabric-1.20" = _qQP3RGoX;
@@ -660,6 +672,7 @@ let
         "fabric-26.1.1" = _xPBWrIvR;
         "fabric-26.1.2" = _xPBWrIvR;
         "fabric-26.2" = _bSQbtn5T;
+        "fabric-26.3" = _6sJ3mTz5;
         "forge-1.20.1" = _lXwpMoOg;
         "forge-1.20.2" = _OY9yTjON;
         "forge-1.20" = _OY9yTjON;
@@ -691,6 +704,7 @@ let
         "neoforge-26.1.1" = _hxbm158H;
         "neoforge-26.1.2" = _hxbm158H;
         "neoforge-26.2" = _GWeB1hJt;
+        "neoforge-26.3" = _9AunCuH8;
         "pkg-1.0.0" = _jgF2B6Us;
         "pkg-1.0.1" = _SpFbLlV6;
         "pkg-1.1.0" = _9rGtKB3p;
@@ -712,7 +726,8 @@ let
         "pkg-2.10.1" = _hsoYJ6td;
         "pkg-2.11.0" = _gM6OgAM8;
         "pkg-2.11" = _bSQbtn5T;
-        "default" = _bSQbtn5T;
+        "pkg-2.12" = _6sJ3mTz5;
+        "default" = _6sJ3mTz5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "adorabuild-structures";

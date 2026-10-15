@@ -296,6 +296,16 @@ let
             "file" = "Origins-Legacy-1.12.19+26.3.jar";
             "hash" = "sha512-trn0u2WhcNTgLCdtgiLznEiUnfNkhxNrt83Vi2rytVsRLSMYHuUL8zhx2CnPqLyr2iQvkrGLDdUZYvvowgll2w==";
         };
+        _wB31kXV3 = {
+            "id" = "wB31kXV3";
+            "file" = "Origins-Legacy-1.12.20+26.1.2.jar";
+            "hash" = "sha512-N3pbfd9P+XYkwu4HxIVoR/24K8yhDAn7D/G28WBTz/6qPpiLuQXlCwjs8mCbJhgeYTc5boO1yJEUWXlir3woDw==";
+        };
+        _7CqsxVdL = {
+            "id" = "7CqsxVdL";
+            "file" = "Origins-Legacy-1.12.20+26.3.jar";
+            "hash" = "sha512-nVE8dDsq7lif6r0LA8LZOw3sQLS6Olr863b726Vs9FZfhP5MqeswRYM+bQHxwiQ9p7zcFqQQExs480VD/aF3qw==";
+        };
     in {
         "fCnoEmHk" = _fCnoEmHk;
         "CzAIa7D3" = _CzAIa7D3;
@@ -356,17 +366,19 @@ let
         "91Kplowz" = _91Kplowz;
         "8vVu8FGY" = _8vVu8FGY;
         "NewIs2H1" = _NewIs2H1;
+        "wB31kXV3" = _wB31kXV3;
+        "7CqsxVdL" = _7CqsxVdL;
         "fabric-1.21.5" = _AwSwxNDd;
         "fabric-1.21.1" = _VeuMEQvA;
         "fabric-1.21.11" = _91Kplowz;
         "fabric-1.21.6" = _71s9ewRb;
         "fabric-1.21.7" = _aFkhvKlh;
         "fabric-1.21.8" = _71s9ewRb;
-        "fabric-26.1" = _tP3XDjlk;
-        "fabric-26.1.1" = _tP3XDjlk;
-        "fabric-26.1.2" = _tP3XDjlk;
+        "fabric-26.1" = _wB31kXV3;
+        "fabric-26.1.1" = _wB31kXV3;
+        "fabric-26.1.2" = _wB31kXV3;
         "fabric-26.2" = _8vVu8FGY;
-        "fabric-26.3" = _NewIs2H1;
+        "fabric-26.3" = _7CqsxVdL;
         "pkg-1.10.0+1.21.5" = _fCnoEmHk;
         "pkg-1.10.0+1.21.1" = _CzAIa7D3;
         "pkg-1.10.1+1.21.5" = _VWFWmpam;
@@ -426,7 +438,9 @@ let
         "pkg-1.12.17+1.21.11" = _91Kplowz;
         "pkg-1.12.19+26.2" = _8vVu8FGY;
         "pkg-1.12.19+26.3" = _NewIs2H1;
-        "default" = _NewIs2H1;
+        "pkg-1.12.20+26.1.2" = _wB31kXV3;
+        "pkg-1.12.20+26.3" = _7CqsxVdL;
+        "default" = _7CqsxVdL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "origins-legacy";

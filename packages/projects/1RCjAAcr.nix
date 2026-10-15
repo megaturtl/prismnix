@@ -311,6 +311,11 @@ let
             "file" = "WynnBuild-3.1.4+1.21.11.jar";
             "hash" = "sha512-DVWY7bZyVKlDBo5HN4IVHl9kP4Ih12uEnrVRAfI0vXDfgmKrA4Mxj9KLoTCkplHv29dYjjibN9OOUJQ1C1hHdg==";
         };
+        _fbTf2Mtu = {
+            "id" = "fbTf2Mtu";
+            "file" = "WynnBuild-3.1.5+1.21.11.jar";
+            "hash" = "sha512-dyQpWMX+num00Lr9DVqRcxC8puSTVYwcFl5/Q1yFWtOd1oYqrBO03pvvgaDdYn+aACWA/DbcrZe4ijSwTq5ARQ==";
+        };
     in {
         "xOUq6lTS" = _xOUq6lTS;
         "8BCZFVbN" = _8BCZFVbN;
@@ -374,11 +379,12 @@ let
         "ur04zBMa" = _ur04zBMa;
         "Ts4f2klR" = _Ts4f2klR;
         "p8cHpChY" = _p8cHpChY;
+        "fbTf2Mtu" = _fbTf2Mtu;
         "fabric-1.20.2" = _UdziTDX1;
         "fabric-1.21" = _hdell4OP;
         "fabric-1.21.1" = _hdell4OP;
         "fabric-1.21.4" = _cmKAQetE;
-        "fabric-1.21.11" = _p8cHpChY;
+        "fabric-1.21.11" = _fbTf2Mtu;
         "pkg-0.1alpha+1.20.2" = _xOUq6lTS;
         "pkg-v0.2alpha+1.20.2" = _8BCZFVbN;
         "pkg-v0.2.1+1.20.2" = _re7gxmZS;
@@ -438,7 +444,8 @@ let
         "pkg-3.1.2-hotfix.0+1.21.11" = _ur04zBMa;
         "pkg-3.1.3+1.21.11" = _Ts4f2klR;
         "pkg-3.1.4+1.21.11" = _p8cHpChY;
-        "default" = _p8cHpChY;
+        "pkg-3.1.5+1.21.11" = _fbTf2Mtu;
+        "default" = _fbTf2Mtu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wynnbuild";

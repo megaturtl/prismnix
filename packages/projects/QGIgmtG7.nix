@@ -71,6 +71,16 @@ let
             "file" = "realisticcruelty-1.2.0-all.jar";
             "hash" = "sha512-PY+SyFcBSs9Pu68BI2a6WAJdCgvV0bHlmRvYkQcSSe+mhP2HXG9jmxj4ZiiKrqDrXf5oed524dkqZm71Vz2ZxQ==";
         };
+        _Dz77X5gb = {
+            "id" = "Dz77X5gb";
+            "file" = "realisticcruelty-1.3.0.jar";
+            "hash" = "sha512-Ad9T0bSDTkQEOXJIos9IFDDN7+UYbUh7S9eWq1RxYG1QSxCramHSxgezuGYk8sHs8PxVDw/5uHXvB5cTizsQKQ==";
+        };
+        _pMSrRFVt = {
+            "id" = "pMSrRFVt";
+            "file" = "realisticcruelty-1.3.0-all.jar";
+            "hash" = "sha512-ak4m52MJ0K7Yfs8zFvADRs1jLfHE0l1ssuEhdN08MmNDMkgSXB/T3p6DzP2+/cv7VqJ23G847SjxBN6F9UZ+Bg==";
+        };
     in {
         "YMsNRkqJ" = _YMsNRkqJ;
         "ahhx1QIE" = _ahhx1QIE;
@@ -86,10 +96,12 @@ let
         "t16NaHhb" = _t16NaHhb;
         "ARNH5DOP" = _ARNH5DOP;
         "NOxmGgZ8" = _NOxmGgZ8;
+        "Dz77X5gb" = _Dz77X5gb;
+        "pMSrRFVt" = _pMSrRFVt;
         "forge-1.19.2" = _ZqKwbZH2;
-        "forge-1.20.1" = _NOxmGgZ8;
-        "neoforge-1.21.1" = _ARNH5DOP;
-        "neoforge-1.20.1" = _NOxmGgZ8;
+        "forge-1.20.1" = _pMSrRFVt;
+        "neoforge-1.21.1" = _Dz77X5gb;
+        "neoforge-1.20.1" = _pMSrRFVt;
         "pkg-1.1.2" = _cP7c4pff;
         "pkg-1.2" = _ahhx1QIE;
         "pkg-1.2.2" = _ZsqF5mOV;
@@ -99,7 +111,8 @@ let
         "pkg-1.1.1" = _eAnO9ZxI;
         "pkg-1.1.3" = _t16NaHhb;
         "pkg-1.2.0" = _NOxmGgZ8;
-        "default" = _NOxmGgZ8;
+        "pkg-1.3.0" = _pMSrRFVt;
+        "default" = _pMSrRFVt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "realistic-cruelty";

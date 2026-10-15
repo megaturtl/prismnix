@@ -141,6 +141,16 @@ let
             "file" = "culturaldelights-1.21.1-0.19.1.jar";
             "hash" = "sha512-iIUQrU9SoNMM9YZ09TE3eJ0/YHzAx9VAi77cOl+LTGIp4XsH85RhOlWng+OGhczo3kFF7h4le3J2u9d2p06BVg==";
         };
+        _D0WffURq = {
+            "id" = "D0WffURq";
+            "file" = "culturaldelights-1.21.1-0.19.2.jar";
+            "hash" = "sha512-sMsZ4k9Tr4x93NVaGUv3cCDssJ+g0MBwpSv+O8f/lGVUllA8W6XDSDSfWIUpH+kmO3JSvgjbqk7PDSRpANKRgw==";
+        };
+        _wL9L6cs6 = {
+            "id" = "wL9L6cs6";
+            "file" = "culturaldelights-0.16.0.jar";
+            "hash" = "sha512-wud1SETQ2uUCKqrK6vb6mjh2GBtrQLpzNBGJCMbsyA2/i56c6N+1qXYKRK9hsL+BLDQzuHYnY1f981ScQpTgog==";
+        };
     in {
         "A2laWLxk" = _A2laWLxk;
         "9Wc5BtzF" = _9Wc5BtzF;
@@ -170,9 +180,11 @@ let
         "jL5hP1qm" = _jL5hP1qm;
         "nraOSyQS" = _nraOSyQS;
         "pQyGPBJy" = _pQyGPBJy;
-        "forge-1.19.2" = _IjB48jP9;
+        "D0WffURq" = _D0WffURq;
+        "wL9L6cs6" = _wL9L6cs6;
+        "forge-1.19.2" = _wL9L6cs6;
         "forge-1.20.1" = _mO8IB07o;
-        "neoforge-1.21.1" = _pQyGPBJy;
+        "neoforge-1.21.1" = _D0WffURq;
         "fabric-1.21.1" = _O8lDk3qa;
         "pkg-0.15.4" = _A2laWLxk;
         "pkg-0.15.5" = _9Wc5BtzF;
@@ -195,11 +207,12 @@ let
         "pkg-0.17.8" = _yNIrDVfJ;
         "pkg-0.16.7" = _mO8IB07o;
         "pkg-0.18.0-1.21.1" = _gPTRCWYJ;
-        "pkg-0.16.0-1.19.2" = _IjB48jP9;
+        "pkg-0.16.0-1.19.2" = _wL9L6cs6;
         "pkg-0.18.1-1.21.1" = _jL5hP1qm;
         "pkg-0.19.0-1.21.1" = _nraOSyQS;
         "pkg-0.19.1-1.21.1" = _pQyGPBJy;
-        "default" = _pQyGPBJy;
+        "pkg-0.19.2-1.21.1" = _D0WffURq;
+        "default" = _wL9L6cs6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cultural-delights";

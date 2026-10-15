@@ -261,6 +261,21 @@ let
             "file" = "agritechevolved-2.2.0.5+neoforge-mc26.1.2.jar";
             "hash" = "sha512-7qsy7k8aB8NSASDNxI9YCpMwOHdjqBGEZT3cEt9qppexaIuAxgUtEFVxTzUhThYHNKXHTKXHhUjX54UvD2GOdw==";
         };
+        _hBL9sjVj = {
+            "id" = "hBL9sjVj";
+            "file" = "agritechevolved-2.2.0.6+neoforge-mc26.1.2.jar";
+            "hash" = "sha512-0WAFEv/AnZeCdUENtsWzyxlRYwAyBoSzyj+Bz4tk6KY8CjkwC8dXhmqeSwm7y/9jeST4FbZlZyxjAqIWInBUcg==";
+        };
+        _cGhbs1Yi = {
+            "id" = "cGhbs1Yi";
+            "file" = "agritechevolved-3.1.0.6+neoforge-mc26.2.jar";
+            "hash" = "sha512-l9gbpHV8G1a1Z+YK8hzJ54duLNL10iGgKO8jzSahFal1Hyt1VhHtgWE8mxHjoVtk6zeDYk2+Dklb2C0jKYyUAw==";
+        };
+        _Ph8ZoD7B = {
+            "id" = "Ph8ZoD7B";
+            "file" = "agritechevolved-4.0.0.2+neoforge-mc26.3.jar";
+            "hash" = "sha512-oJ1Tq8z2ki4pDmiIPMKEnc5dRUZFEWK752fCTjNq6k1M7Dn8icKzey0fFVnt3AsIz4nZeSKbBX7TMCUiWvNE1w==";
+        };
     in {
         "NqF8hlzX" = _NqF8hlzX;
         "j9FBJrWr" = _j9FBJrWr;
@@ -314,10 +329,13 @@ let
         "OOucNc2O" = _OOucNc2O;
         "fEzuKjCq" = _fEzuKjCq;
         "KPM6cN2U" = _KPM6cN2U;
+        "hBL9sjVj" = _hBL9sjVj;
+        "cGhbs1Yi" = _cGhbs1Yi;
+        "Ph8ZoD7B" = _Ph8ZoD7B;
         "neoforge-1.21.1" = _EISUJRjn;
-        "neoforge-26.1.2" = _KPM6cN2U;
-        "neoforge-26.2" = _3AVQtCAz;
-        "neoforge-26.3" = _fEzuKjCq;
+        "neoforge-26.1.2" = _hBL9sjVj;
+        "neoforge-26.2" = _cGhbs1Yi;
+        "neoforge-26.3" = _Ph8ZoD7B;
         "pkg-1.0.0" = _NqF8hlzX;
         "pkg-1.0.2" = _j9FBJrWr;
         "pkg-1.0.3" = _RVturOCd;
@@ -370,7 +388,10 @@ let
         "pkg-4.0.0.0+neoforge-mc26.3" = _OOucNc2O;
         "pkg-4.0.0.1+neoforge-mc26.3" = _fEzuKjCq;
         "pkg-2.2.0.5+neoforge-mc26.1.2" = _KPM6cN2U;
-        "default" = _KPM6cN2U;
+        "pkg-2.2.0.6+neoforge-mc26.1.2" = _hBL9sjVj;
+        "pkg-3.1.0.6+neoforge-mc26.2" = _cGhbs1Yi;
+        "pkg-4.0.0.2+neoforge-mc26.3" = _Ph8ZoD7B;
+        "default" = _Ph8ZoD7B;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "agritech-evolved";

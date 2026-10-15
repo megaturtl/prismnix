@@ -226,6 +226,11 @@ let
             "file" = "endrem-neoforge-26.3-6.2.2.jar";
             "hash" = "sha512-Ya6iCjbhLF4JQUoEDsWtd+68bO39f3f63vTu0pByW/0slc+bRLktrXXmibn5jumkieN6Mk1mmFHHv21OKHGkXA==";
         };
+        _Zb62iv1k = {
+            "id" = "Zb62iv1k";
+            "file" = "endrem-neoforge-26.3-6.2.2.jar";
+            "hash" = "sha512-I4jUGKSBEGO4njKOwgGGN9FOSFVeWQOSCLHam0AD2OZ9sbgk9mFixWQOTOQguUjNLZjAT26bH8o7u4M8N1wGNw==";
+        };
     in {
         "OTVFe6yb" = _OTVFe6yb;
         "wAg3uLaS" = _wAg3uLaS;
@@ -272,6 +277,7 @@ let
         "d9rEYYXf" = _d9rEYYXf;
         "lw9DN2jy" = _lw9DN2jy;
         "Cn5TLUip" = _Cn5TLUip;
+        "Zb62iv1k" = _Zb62iv1k;
         "forge-1.17.1" = _OTVFe6yb;
         "forge-1.16.3" = _jcNTvfUz;
         "forge-1.16.4" = _jcNTvfUz;
@@ -325,7 +331,7 @@ let
         "neoforge-26.1.1" = _UnTCBuco;
         "neoforge-26.1.2" = _UnTCBuco;
         "neoforge-26.2" = _d9rEYYXf;
-        "neoforge-26.3" = _Cn5TLUip;
+        "neoforge-26.3" = _Zb62iv1k;
         "pkg-R4.1.2" = _OTVFe6yb;
         "pkg-R4.1.1" = _wAg3uLaS;
         "pkg-R4.1.0" = _JUEJKAmI;
@@ -354,8 +360,8 @@ let
         "pkg-6.2.0" = _XdJ5l8XO;
         "pkg-6.3.0" = _Xzg42PX9;
         "pkg-6.2.1" = _d9rEYYXf;
-        "pkg-6.2.2" = _Cn5TLUip;
-        "default" = _Cn5TLUip;
+        "pkg-6.2.2" = _Zb62iv1k;
+        "default" = _Zb62iv1k;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "endrem";

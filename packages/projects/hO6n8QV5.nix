@@ -11,9 +11,15 @@ let
             "file" = "Kaffee's_Dual_Ride-1.1.5.jar";
             "hash" = "sha512-OGfRNSqOATQkUb3ck2wa9xq16+UJJQhSDdI3h+uljNvCcs0Y3IaKWO6Bap91m1hCcsugD5PFMF8Q5ofLY3z3dQ==";
         };
+        _UHng1MVQ = {
+            "id" = "UHng1MVQ";
+            "file" = "Kaffee's_Dual_Ride-1.2.0.jar";
+            "hash" = "sha512-GKPgxzll37nbtY43FDn88AdrjCwgWhK6/ci0Bd1IfPA1UWqjRLrveoEITaf8ZbZU/pHYnENIuRmWfGEJPAwL6A==";
+        };
     in {
         "GUBrFyWb" = _GUBrFyWb;
         "q7cRBR6K" = _q7cRBR6K;
+        "UHng1MVQ" = _UHng1MVQ;
         "fabric-1.21.2" = _q7cRBR6K;
         "fabric-1.21.3" = _q7cRBR6K;
         "fabric-1.21.4" = _q7cRBR6K;
@@ -24,8 +30,14 @@ let
         "fabric-1.21.9" = _q7cRBR6K;
         "fabric-1.21.10" = _q7cRBR6K;
         "fabric-1.21.11" = _q7cRBR6K;
+        "fabric-26.1" = _UHng1MVQ;
+        "fabric-26.1.1" = _UHng1MVQ;
+        "fabric-26.1.2" = _UHng1MVQ;
+        "fabric-26.2" = _UHng1MVQ;
+        "fabric-26.3" = _UHng1MVQ;
         "pkg-1.1.5" = _q7cRBR6K;
-        "default" = _q7cRBR6K;
+        "pkg-1.2.0" = _UHng1MVQ;
+        "default" = _UHng1MVQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kaffees_dual_ride_(updated)";

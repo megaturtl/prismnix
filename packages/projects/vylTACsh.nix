@@ -201,6 +201,26 @@ let
             "file" = "+Fugue-0.24.4.jar";
             "hash" = "sha512-H1yku46NA9pchD5w7PPSntJavS+7aKD8ty3rEf8FrR3RhcQQnDGT18IE5xlcOVgUC2/Gm7aqAY3qTo1QMx+99Q==";
         };
+        _cxj7RMhT = {
+            "id" = "cxj7RMhT";
+            "file" = "+Fugue-0.25.0.jar";
+            "hash" = "sha512-nhMaTxcVhjI095Z4SVOwUd2gop5sO4mXJF2xVrDVSedSpEun7u0OcOr8JXwmPpWaso5wyUQdqAmIsifEdWQJ8A==";
+        };
+        _rfcD86gq = {
+            "id" = "rfcD86gq";
+            "file" = "+Fugue-0.25.1.jar";
+            "hash" = "sha512-8CFwZ9Uc46285NJf0dDgd9HvJA4FGBZSN5/IkKI5n6dJu2ti6Q8bPqjpPlCo3TGB0vqyTlMbTF6L9e195MtDoQ==";
+        };
+        _ZqtQIM9v = {
+            "id" = "ZqtQIM9v";
+            "file" = "+Fugue-0.25.2.jar";
+            "hash" = "sha512-xiFX5qRxmv7GbrIhdQDB0lcOyCK5B1qw93NhRcQXj8qKZ2rdw6cB7kp96jBbNYupw9yxS708GPeMGBe8tQPRYw==";
+        };
+        _QgVaJsn8 = {
+            "id" = "QgVaJsn8";
+            "file" = "+Fugue-0.25.3.jar";
+            "hash" = "sha512-tVMw6kRBSn21zdgRZ8xXcnJWE2yLqJY8mrBLjXhQ9/SmCNsskq6Av56GxfYGR9CfRgK7BaaxrEmMBFpGc6wW/g==";
+        };
     in {
         "k8WAROqM" = _k8WAROqM;
         "nQMVvjYb" = _nQMVvjYb;
@@ -242,7 +262,11 @@ let
         "xaB49OW2" = _xaB49OW2;
         "jViSfJQF" = _jViSfJQF;
         "Wy9kZZUW" = _Wy9kZZUW;
-        "forge-1.12.2" = _Wy9kZZUW;
+        "cxj7RMhT" = _cxj7RMhT;
+        "rfcD86gq" = _rfcD86gq;
+        "ZqtQIM9v" = _ZqtQIM9v;
+        "QgVaJsn8" = _QgVaJsn8;
+        "forge-1.12.2" = _QgVaJsn8;
         "pkg-0.18.6" = _k8WAROqM;
         "pkg-0.19.0" = _nQMVvjYb;
         "pkg-0.19.2" = _nJv7zquc;
@@ -282,7 +306,11 @@ let
         "pkg-0.24.2" = _xaB49OW2;
         "pkg-0.24.3" = _jViSfJQF;
         "pkg-0.24.4" = _Wy9kZZUW;
-        "default" = _Wy9kZZUW;
+        "pkg-0.25.0" = _cxj7RMhT;
+        "pkg-0.25.1" = _rfcD86gq;
+        "pkg-0.25.2" = _ZqtQIM9v;
+        "pkg-0.25.3" = _QgVaJsn8;
+        "default" = _QgVaJsn8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fugue";

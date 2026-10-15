@@ -116,6 +116,21 @@ let
             "file" = "§l§cWool Revamped §f- §4Overlay §8[§f16x§8].zip";
             "hash" = "sha512-t6CinD8uWoiMqMGGKVrzsP+aJbPkm8Doqxwq3haPcOGS6NFI12568nyyUdgiTjRLnJPYqHKTslj3BLYFSfzRyA==";
         };
+        _4vsbgsnl = {
+            "id" = "4vsbgsnl";
+            "file" = "§l§cWool Revamped §f- §4Overlay §8[§f16x§8].zip";
+            "hash" = "sha512-fw1AK42LV77glRWm34bGMMzrQ1zqP/8bceANpyQWQmKOVlXtjRDKLZ4+Ur0SHaSTX0m37f4gtNYbVVcA5WYKOw==";
+        };
+        _WbGJ3Nd6 = {
+            "id" = "WbGJ3Nd6";
+            "file" = "§l§cWool Revamped §f- §4Overlay §8[§f16x§8].zip";
+            "hash" = "sha512-QLNGa0zmR0d+lElVsQwsF6jAgO5Yl6z3z4JCLwG9JEv1QfV1Koy3ilZYwnqvtORUfcle+LYL8rd/seXr21x0Cg==";
+        };
+        _oK0IKeP8 = {
+            "id" = "oK0IKeP8";
+            "file" = "§l§cWool Revamped §f- §4Overlay §8[§f16x§8].zip";
+            "hash" = "sha512-AytMMHrIfqNjUqy3yzrlj03TXgB4tRjoK9QcmG4E54KNTzKY9PdeZP4MhYTlsAtBj6eAZnyu0GBWJDcwg8DR1w==";
+        };
     in {
         "GOhXdAwl" = _GOhXdAwl;
         "c1pAvbFn" = _c1pAvbFn;
@@ -140,6 +155,9 @@ let
         "5y5kmDxS" = _5y5kmDxS;
         "PNrg4hS4" = _PNrg4hS4;
         "qvd6GsA5" = _qvd6GsA5;
+        "4vsbgsnl" = _4vsbgsnl;
+        "WbGJ3Nd6" = _WbGJ3Nd6;
+        "oK0IKeP8" = _oK0IKeP8;
         "minecraft-1.6.1" = _c1pAvbFn;
         "minecraft-1.6.2" = _c1pAvbFn;
         "minecraft-1.6.4" = _c1pAvbFn;
@@ -220,6 +238,11 @@ let
         "minecraft-1.21.9" = _PNrg4hS4;
         "minecraft-1.21.10" = _PNrg4hS4;
         "minecraft-1.21.11" = _qvd6GsA5;
+        "minecraft-26.1" = _4vsbgsnl;
+        "minecraft-26.1.1" = _4vsbgsnl;
+        "minecraft-26.1.2" = _4vsbgsnl;
+        "minecraft-26.2" = _WbGJ3Nd6;
+        "minecraft-26.3" = _oK0IKeP8;
         "pkg-1.0.0" = _GOhXdAwl;
         "pkg-1.1.0" = _c1pAvbFn;
         "pkg-1.1.1" = _d0ZjPaly;
@@ -243,7 +266,10 @@ let
         "pkg-1.1.19" = _5y5kmDxS;
         "pkg-1.1.20" = _PNrg4hS4;
         "pkg-1.1.21" = _qvd6GsA5;
-        "default" = _qvd6GsA5;
+        "pkg-1.2.1" = _4vsbgsnl;
+        "pkg-1.2.2" = _WbGJ3Nd6;
+        "pkg-1.2.3" = _oK0IKeP8;
+        "default" = _oK0IKeP8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wool-revamped";

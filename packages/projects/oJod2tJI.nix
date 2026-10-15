@@ -26,12 +26,18 @@ let
             "file" = "minimal-effect-hud-1.0.0.jar";
             "hash" = "sha512-wFspXM90w8dIcoG56NtVuzLu4Ljv8BiARGmg/E4mAmuzxoEsV9sQnFvxALpAQal5VLEKZ4usNSkwgcFgY3GnMw==";
         };
+        _xpXluZVi = {
+            "id" = "xpXluZVi";
+            "file" = "minimal-effect-hud-26.3-1.0.0.jar";
+            "hash" = "sha512-GEP7RqV3UBJgwXPtE8L8g0iXfvoUwV0NO4BD9hi/5xzPssioczaAr7cjoG+tqvd6o5xRmx0N7vNM9OBCAhPSow==";
+        };
     in {
         "rtVCeivb" = _rtVCeivb;
         "3VYNvKUE" = _3VYNvKUE;
         "RpsPaFIZ" = _RpsPaFIZ;
         "4613ZfsF" = _4613ZfsF;
         "eP95vvAq" = _eP95vvAq;
+        "xpXluZVi" = _xpXluZVi;
         "fabric-1.21" = _rtVCeivb;
         "fabric-1.21.1" = _rtVCeivb;
         "fabric-1.21.2" = _rtVCeivb;
@@ -48,12 +54,14 @@ let
         "fabric-26.1.1" = _4613ZfsF;
         "fabric-26.1.2" = _4613ZfsF;
         "fabric-26.2" = _eP95vvAq;
+        "fabric-26.3" = _xpXluZVi;
         "pkg-1.0.0-1.21.1" = _rtVCeivb;
         "pkg-1.0.0-1.21.4" = _3VYNvKUE;
         "pkg-1.0.0-1.21.11" = _RpsPaFIZ;
         "pkg-1.0.0-26.1" = _4613ZfsF;
         "pkg-1.0.0-26.2" = _eP95vvAq;
-        "default" = _eP95vvAq;
+        "pkg-1.0.0-26.3" = _xpXluZVi;
+        "default" = _xpXluZVi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "minimal-effect-timer";

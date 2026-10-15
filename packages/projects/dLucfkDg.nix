@@ -186,6 +186,16 @@ let
             "file" = "timber-strike-6.0.jar";
             "hash" = "sha512-X+4oqghc+oWtEu67bFp0yGOAA41F15MMeKdEw1omFYbDTFaVlTY4wrExWK10g0fC+DKNnl/s1YPRY0KNEHHxLw==";
         };
+        _qT8VCy0N = {
+            "id" = "qT8VCy0N";
+            "file" = "Timber Strike v6.1 26.3.zip";
+            "hash" = "sha512-xX0+5CUGkmPTzcbqY9u7BTNwE1AitkWv4opS/bL/C//eiTT7BNS8RHEbyDIE0P4et2MKILNAumJTo1wPyeX0bQ==";
+        };
+        _AjD9NReu = {
+            "id" = "AjD9NReu";
+            "file" = "timber-strike-6.1.jar";
+            "hash" = "sha512-2cUuDLa9qZYopV4MIcx5DngbBkA4dFKludOXbz2AmkADCfSfTJJr/TTDfh+siTgaV9sR3BUaciQ0Q4cA4vqc+A==";
+        };
     in {
         "6JOJiFCg" = _6JOJiFCg;
         "X38iWvkP" = _X38iWvkP;
@@ -224,6 +234,8 @@ let
         "ZMOJul2x" = _ZMOJul2x;
         "aUJC4qi8" = _aUJC4qi8;
         "vD60jHQQ" = _vD60jHQQ;
+        "qT8VCy0N" = _qT8VCy0N;
+        "AjD9NReu" = _AjD9NReu;
         "datapack-1.17" = _WocEwq3l;
         "datapack-1.17.1" = _WocEwq3l;
         "datapack-1.18" = _WocEwq3l;
@@ -281,7 +293,7 @@ let
         "datapack-26.1.1" = _NY0RmJON;
         "datapack-26.1.2" = _NY0RmJON;
         "datapack-26.2" = _NY0RmJON;
-        "datapack-26.3" = _aUJC4qi8;
+        "datapack-26.3" = _qT8VCy0N;
         "fabric-1.17" = _8Nk7VkIq;
         "fabric-1.17.1" = _8Nk7VkIq;
         "fabric-1.18" = _8Nk7VkIq;
@@ -315,7 +327,7 @@ let
         "fabric-26.1.1" = _SFtljPKU;
         "fabric-26.1.2" = _SFtljPKU;
         "fabric-26.2" = _SFtljPKU;
-        "fabric-26.3" = _vD60jHQQ;
+        "fabric-26.3" = _AjD9NReu;
         "forge-1.17" = _8Nk7VkIq;
         "forge-1.17.1" = _8Nk7VkIq;
         "forge-1.18" = _8Nk7VkIq;
@@ -349,7 +361,7 @@ let
         "forge-26.1.1" = _SFtljPKU;
         "forge-26.1.2" = _SFtljPKU;
         "forge-26.2" = _SFtljPKU;
-        "forge-26.3" = _vD60jHQQ;
+        "forge-26.3" = _AjD9NReu;
         "neoforge-1.17" = _8Nk7VkIq;
         "neoforge-1.17.1" = _8Nk7VkIq;
         "neoforge-1.18" = _8Nk7VkIq;
@@ -383,7 +395,7 @@ let
         "neoforge-26.1.1" = _SFtljPKU;
         "neoforge-26.1.2" = _SFtljPKU;
         "neoforge-26.2" = _SFtljPKU;
-        "neoforge-26.3" = _vD60jHQQ;
+        "neoforge-26.3" = _AjD9NReu;
         "quilt-1.17" = _8Nk7VkIq;
         "quilt-1.17.1" = _8Nk7VkIq;
         "quilt-1.18" = _8Nk7VkIq;
@@ -417,7 +429,7 @@ let
         "quilt-26.1.1" = _SFtljPKU;
         "quilt-26.1.2" = _SFtljPKU;
         "quilt-26.2" = _SFtljPKU;
-        "quilt-26.3" = _vD60jHQQ;
+        "quilt-26.3" = _AjD9NReu;
         "pkg-1.2+1.20.4" = _6JOJiFCg;
         "pkg-1.2+1.20.4mod" = _X38iWvkP;
         "pkg-1.2" = _8pwUu8iX;
@@ -446,7 +458,9 @@ let
         "pkg-5.0+mod" = _ZMOJul2x;
         "pkg-6.0" = _aUJC4qi8;
         "pkg-6.0+mod" = _vD60jHQQ;
-        "default" = _vD60jHQQ;
+        "pkg-6.1" = _qT8VCy0N;
+        "pkg-6.1+mod" = _AjD9NReu;
+        "default" = _AjD9NReu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "timber-strike";

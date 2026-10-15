@@ -136,6 +136,11 @@ let
             "file" = "respawnable-pets-fabric-26.3-r1.jar";
             "hash" = "sha512-dca3qk5T+WMETnE1dXdp9cymllZkvOA9/chvmTjHMTm9oJY4DYmryo7st/VYINjGRbefEFGWQRkXWmjccd+t9A==";
         };
+        _dbMrKhQ0 = {
+            "id" = "dbMrKhQ0";
+            "file" = "respawnable-pets-neoforge-26.2-r2.jar";
+            "hash" = "sha512-Hn0f0Rs39LoYFttOoG+Iy3RvW4r9WULPD01/XTe3frrnC7R9g7MA4Yd3ur/ydBi/IPctfrNNXZR/movl0mVxUw==";
+        };
     in {
         "bjdE61mQ" = _bjdE61mQ;
         "zSGnj5Sz" = _zSGnj5Sz;
@@ -164,6 +169,7 @@ let
         "zKvDBK3H" = _zKvDBK3H;
         "t8eNxCmV" = _t8eNxCmV;
         "Ct2tZgSR" = _Ct2tZgSR;
+        "dbMrKhQ0" = _dbMrKhQ0;
         "fabric-1.16.5" = _bjdE61mQ;
         "fabric-1.17" = _zSGnj5Sz;
         "fabric-1.17.1" = _zSGnj5Sz;
@@ -222,6 +228,7 @@ let
         "neoforge-26.1" = _zKvDBK3H;
         "neoforge-26.1.1" = _zKvDBK3H;
         "neoforge-26.1.2" = _zKvDBK3H;
+        "neoforge-26.2" = _dbMrKhQ0;
         "pkg-1.16.5-2" = _bjdE61mQ;
         "pkg-1.17-5" = _zSGnj5Sz;
         "pkg-1.18-4" = _ubXbccxW;
@@ -246,9 +253,9 @@ let
         "pkg-26.1-r1" = _LvmgVDK6;
         "pkg-26.2-r1" = _zRCAok0K;
         "pkg-26.1-r2" = _zKvDBK3H;
-        "pkg-26.2-r2" = _t8eNxCmV;
+        "pkg-26.2-r2" = _dbMrKhQ0;
         "pkg-26.3-r1" = _Ct2tZgSR;
-        "default" = _Ct2tZgSR;
+        "default" = _dbMrKhQ0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "respawnable-pets";

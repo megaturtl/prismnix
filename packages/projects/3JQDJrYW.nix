@@ -131,6 +131,26 @@ let
             "file" = "letsdo-furniture-fabric-1.1.7.jar";
             "hash" = "sha512-tmY2DNcULLLpdXvkco8g29QCME/H7F9J4bzw40PDFGIe4KSXLt4D5ngwxW37Wv6tq8eSlhIA2y22GzBJk1WSzg==";
         };
+        _Hw1Rz3cq = {
+            "id" = "Hw1Rz3cq";
+            "file" = "letsdo-furniture-neoforge-1.1.8.jar";
+            "hash" = "sha512-QfhD0s7s/c2pg2whkhDJDg72Oy/ftJZvf9rGBCxB5k++NLFeMBcVeOKAiBlGU2JqAkjBpDT1KE5xQ4dTgcurEg==";
+        };
+        _Ky2UP9WR = {
+            "id" = "Ky2UP9WR";
+            "file" = "letsdo-furniture-fabric-1.1.8.jar";
+            "hash" = "sha512-C43cx8bJjdJRVcXULMcwp3lEA7LyqpmlLhis7OF8xrAJ+sNhNnGz+KmcLaBAfZNe23wZ6y6770+3yoyGISfV1w==";
+        };
+        _Ei03nFcO = {
+            "id" = "Ei03nFcO";
+            "file" = "letsdo-furniture-neoforge-1.1.9.jar";
+            "hash" = "sha512-J7GTbjH1eLdeS1XLTOZi//EJz5N6tB33yo0rSgx8E89oNND6yKu+ufgiq4GmTV+MwesJgKbTsWD6qpNubWr/rg==";
+        };
+        _HMQI68aY = {
+            "id" = "HMQI68aY";
+            "file" = "letsdo-furniture-fabric-1.1.9.jar";
+            "hash" = "sha512-O5n/A14nm9gzPyeuMShe5tYbWvuJxHawn3Lz6v60bsQLU/EALBcNPLYlM5M9E2OhC3LJTSe277Xp+JvbfYlrPQ==";
+        };
     in {
         "IN7ZYtXf" = _IN7ZYtXf;
         "KMkSN9t0" = _KMkSN9t0;
@@ -158,11 +178,15 @@ let
         "VNL8B24Q" = _VNL8B24Q;
         "n3hpLssf" = _n3hpLssf;
         "jFfSs32J" = _jFfSs32J;
+        "Hw1Rz3cq" = _Hw1Rz3cq;
+        "Ky2UP9WR" = _Ky2UP9WR;
+        "Ei03nFcO" = _Ei03nFcO;
+        "HMQI68aY" = _HMQI68aY;
         "forge-1.20.1" = _CGCP1SRw;
         "neoforge-1.20.1" = _CGCP1SRw;
-        "neoforge-1.21.1" = _n3hpLssf;
+        "neoforge-1.21.1" = _Ei03nFcO;
         "fabric-1.20.1" = _oG5DC7IV;
-        "fabric-1.21.1" = _jFfSs32J;
+        "fabric-1.21.1" = _HMQI68aY;
         "quilt-1.20.1" = _oG5DC7IV;
         "pkg-1.0.0" = _KMkSN9t0;
         "pkg-1.0.1" = _2umJtAxR;
@@ -177,7 +201,9 @@ let
         "pkg-1.1.5" = _x62CnN6G;
         "pkg-1.1.6" = _VNL8B24Q;
         "pkg-1.1.7" = _jFfSs32J;
-        "default" = _jFfSs32J;
+        "pkg-1.1.8" = _Ky2UP9WR;
+        "pkg-1.1.9" = _HMQI68aY;
+        "default" = _HMQI68aY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lets-do-furniture";

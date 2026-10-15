@@ -141,6 +141,26 @@ let
             "file" = "hibernate-fabric-1.2.0+mc26.3.jar";
             "hash" = "sha512-wfXWwkgYwocYxeN259nB1V2FECZZyJIe6GBd3YPMiTL+2pR7HrUT5CTHL429HQ+zVQi+B8YlzAiwQOexhcgsjQ==";
         };
+        _H5cjGyfO = {
+            "id" = "H5cjGyfO";
+            "file" = "hibernate-fabric-1.2.1+mc1.21.11.jar";
+            "hash" = "sha512-DbobCuNlEvVrjeQQJE7MA1wiPYEAE/97QV1DkZldE7THXYc6HKUFEkTKuhvzeidvKNUzO7z1cwgZFWwmMWvbAw==";
+        };
+        _oS0OP43Q = {
+            "id" = "oS0OP43Q";
+            "file" = "hibernate-fabric-1.2.1+mc26.1.jar";
+            "hash" = "sha512-4fQu1jUbuCblg2oWAECG9EVtXDg0d7tEScpb04EB6lK77Sl+2M6afe996Hkf0mNmh27F1qIHPbQWOPRdsdxj5w==";
+        };
+        _fyDZ7KlX = {
+            "id" = "fyDZ7KlX";
+            "file" = "hibernate-fabric-1.2.1+mc26.2.jar";
+            "hash" = "sha512-DpaHCDLg2KOy7upvNytHvBenAxqU1yDd9E051jOvs5Fc3NJ/eaM6hcftizK7b8kUtXVbjRVEn9QLgW2c7eUu9g==";
+        };
+        _wZR6TWJP = {
+            "id" = "wZR6TWJP";
+            "file" = "hibernate-fabric-1.2.1+mc26.3.jar";
+            "hash" = "sha512-7xnFPfazddUFdr2vKRqDzrcJy/0HI+lx3303ftnvdd9indha2hPKWj9h6V4ksAygdmcd56BuQKTDn5jGMDTiaA==";
+        };
     in {
         "q3Q5Kwba" = _q3Q5Kwba;
         "bKYLl9aZ" = _bKYLl9aZ;
@@ -170,9 +190,13 @@ let
         "tPMgGQxz" = _tPMgGQxz;
         "WXgiJ1f8" = _WXgiJ1f8;
         "YqlQ8itn" = _YqlQ8itn;
+        "H5cjGyfO" = _H5cjGyfO;
+        "oS0OP43Q" = _oS0OP43Q;
+        "fyDZ7KlX" = _fyDZ7KlX;
+        "wZR6TWJP" = _wZR6TWJP;
         "fabric-1.21.9" = _bQvZXmyK;
         "fabric-1.21.10" = _bQvZXmyK;
-        "fabric-1.21.11" = _wQKWPkJv;
+        "fabric-1.21.11" = _H5cjGyfO;
         "fabric-26.1-snapshot-1" = _CWC0Yl9p;
         "fabric-26.1-snapshot-2" = _mWhxa4Hx;
         "fabric-26.1-snapshot-3" = _mWhxa4Hx;
@@ -190,9 +214,9 @@ let
         "fabric-26.1-rc-1" = _lkXgEfNn;
         "fabric-26.1-rc-2" = _lkXgEfNn;
         "fabric-26.1-rc-3" = _lkXgEfNn;
-        "fabric-26.1" = _uGL4F119;
-        "fabric-26.1.1" = _uGL4F119;
-        "fabric-26.1.2" = _uGL4F119;
+        "fabric-26.1" = _oS0OP43Q;
+        "fabric-26.1.1" = _oS0OP43Q;
+        "fabric-26.1.2" = _oS0OP43Q;
         "fabric-26.2-snapshot-7" = _WPWCQgiC;
         "fabric-26.2-snapshot-8" = _WPWCQgiC;
         "fabric-26.2-pre-1" = _tPMgGQxz;
@@ -203,8 +227,8 @@ let
         "fabric-26.2-pre-6" = _tPMgGQxz;
         "fabric-26.2-rc-1" = _tPMgGQxz;
         "fabric-26.2-rc-2" = _tPMgGQxz;
-        "fabric-26.2" = _WXgiJ1f8;
-        "fabric-26.3" = _YqlQ8itn;
+        "fabric-26.2" = _fyDZ7KlX;
+        "fabric-26.3" = _wZR6TWJP;
         "pkg-1.0.0+mc1.21.9" = _q3Q5Kwba;
         "pkg-1.0.1+mc1.21.9" = _bKYLl9aZ;
         "pkg-1.1.0+mc1.21.9" = _Ds98SC46;
@@ -233,7 +257,11 @@ let
         "pkg-1.2.0+mc26.2-pre-1" = _tPMgGQxz;
         "pkg-1.2.0+mc26.2" = _WXgiJ1f8;
         "pkg-1.2.0+mc26.3" = _YqlQ8itn;
-        "default" = _YqlQ8itn;
+        "pkg-1.2.1+mc1.21.11" = _H5cjGyfO;
+        "pkg-1.2.1+mc26.1" = _oS0OP43Q;
+        "pkg-1.2.1+mc26.2" = _fyDZ7KlX;
+        "pkg-1.2.1+mc26.3" = _wZR6TWJP;
+        "default" = _wZR6TWJP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hibernate-fabric";

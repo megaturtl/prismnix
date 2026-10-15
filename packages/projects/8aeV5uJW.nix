@@ -961,6 +961,16 @@ let
             "file" = "remorphed-neoforge-8.1.jar";
             "hash" = "sha512-UT+0K526BM5VJUiraKB8lw24us5sqHmfAnqo/wf7wKQQRZD76PeWH6UqmKf160z6cLc7gphs8+UxYdPdsAo7ng==";
         };
+        _kVdcMvbp = {
+            "id" = "kVdcMvbp";
+            "file" = "remorphed-fabric-8.2.0.jar";
+            "hash" = "sha512-4EbCazaSb1IyV1QG40bhI8lrlW0XFCT1r9UfqxAPn1853Q4Th07aqv/LjdHQsZ90eMnxziu9qSqMap3UzxLk1A==";
+        };
+        _bLJknT4E = {
+            "id" = "bLJknT4E";
+            "file" = "remorphed-neoforge-8.2.0.jar";
+            "hash" = "sha512-ySShgAIuXe2t5U2/BVgYFuQaaESDYR6Masr0gtq5NEPsywNsZVxea29lsbekfgTSCAM4Kmf+QG4o9lBIKDIJbg==";
+        };
     in {
         "BsyyeFvM" = _BsyyeFvM;
         "eQRAli1L" = _eQRAli1L;
@@ -1154,6 +1164,8 @@ let
         "SYjtjwGy" = _SYjtjwGy;
         "LWZG2Fqu" = _LWZG2Fqu;
         "aQLZdnqy" = _aQLZdnqy;
+        "kVdcMvbp" = _kVdcMvbp;
+        "bLJknT4E" = _bLJknT4E;
         "fabric-1.16.5" = _BsyyeFvM;
         "fabric-1.18.2" = _TJHb3rrm;
         "fabric-1.19.4" = _fEaClXwu;
@@ -1172,6 +1184,7 @@ let
         "fabric-1.21.8" = _lSLuvEWD;
         "fabric-26.1.2" = _uShqfiyK;
         "fabric-26.2" = _LWZG2Fqu;
+        "fabric-26.3" = _kVdcMvbp;
         "forge-1.16.5" = _eQRAli1L;
         "forge-1.18.2" = _26j6V71G;
         "forge-1.19.4" = _ZgAhBQ0O;
@@ -1193,6 +1206,7 @@ let
         "neoforge-1.21.8" = _qGDvcpJZ;
         "neoforge-26.1.2" = _SYjtjwGy;
         "neoforge-26.2" = _aQLZdnqy;
+        "neoforge-26.3" = _bLJknT4E;
         "quilt-1.20.1" = _HhkqhWqV;
         "quilt-1.20.2" = _x6PTV46Z;
         "quilt-1.20.3" = _x6PTV46Z;
@@ -1210,6 +1224,7 @@ let
         "quilt-1.21.8" = _lSLuvEWD;
         "quilt-26.1.2" = _uShqfiyK;
         "quilt-26.2" = _LWZG2Fqu;
+        "quilt-26.3" = _kVdcMvbp;
         "pkg-1.16.5-fabric-1.0.1" = _BsyyeFvM;
         "pkg-1.16.5-forge-1.0.1" = _eQRAli1L;
         "pkg-1.18.2-fabric-1.0.1" = _qaD2dImP;
@@ -1378,7 +1393,9 @@ let
         "pkg-neoforge-8.0" = _SYjtjwGy;
         "pkg-fabric-8.1" = _LWZG2Fqu;
         "pkg-neoforge-8.1" = _aQLZdnqy;
-        "default" = _aQLZdnqy;
+        "pkg-fabric-8.2.0" = _kVdcMvbp;
+        "pkg-neoforge-8.2.0" = _bLJknT4E;
+        "default" = _bLJknT4E;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "remorphed";

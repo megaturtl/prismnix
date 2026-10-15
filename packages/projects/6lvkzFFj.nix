@@ -891,6 +891,16 @@ let
             "file" = "polylib-neoforge-26.3-2.0.16.jar";
             "hash" = "sha512-zR3J11SQO4LBRmmgV6F18r7QuDUFtjgc/3oEMF01U0drtxx1ho2RQ6Ld7ANqi7Qc5G5UHOgE0zHX0BSAVFo3yg==";
         };
+        _avoIyuDR = {
+            "id" = "avoIyuDR";
+            "file" = "polylib-neoforge-26.3-2.0.17.jar";
+            "hash" = "sha512-vYFr9EeA9+TPVLqgLfidkzBtfit1njULQWpE5Ifh1CKcsIL4ZwOhT9Rufi6qpItkP6YhrTeiaWC2Z+aGMCxJBA==";
+        };
+        _uazcDB6Q = {
+            "id" = "uazcDB6Q";
+            "file" = "polylib-fabric-26.3-2.0.17.jar";
+            "hash" = "sha512-Wx3jY2LrUn7ePgVZc365ae1UdVESa/U3G9Ei7F7Gu2lH8W9Hiy51MA5oup4uCrxQ7vm76T0uFzjP4UwTtOYy0w==";
+        };
     in {
         "UGvhRkjP" = _UGvhRkjP;
         "pXI4LsTl" = _pXI4LsTl;
@@ -1070,6 +1080,8 @@ let
         "9zaNfTib" = _9zaNfTib;
         "3HhyLbie" = _3HhyLbie;
         "PTV2GZvt" = _PTV2GZvt;
+        "avoIyuDR" = _avoIyuDR;
+        "uazcDB6Q" = _uazcDB6Q;
         "forge-1.18.2" = _lCcL0Wsh;
         "forge-1.19" = _VA2Tq5QL;
         "forge-1.19.1" = _VA2Tq5QL;
@@ -1100,7 +1112,7 @@ let
         "fabric-1.21.6" = _bzLuEGJr;
         "fabric-26.1.2" = _kxzFvIVp;
         "fabric-26.2" = _ogrDSeAS;
-        "fabric-26.3" = _3HhyLbie;
+        "fabric-26.3" = _uazcDB6Q;
         "neoforge-1.20" = _boXcy1fH;
         "neoforge-1.20.1" = _boXcy1fH;
         "neoforge-1.20.2" = _z3XcwYka;
@@ -1115,7 +1127,7 @@ let
         "neoforge-1.21.6" = _TI0sSpJB;
         "neoforge-26.1.2" = _PBpjCLyz;
         "neoforge-26.2" = _fE2TyO3X;
-        "neoforge-26.3" = _PTV2GZvt;
+        "neoforge-26.3" = _avoIyuDR;
         "pkg-1801.0.2-build.13" = _pXI4LsTl;
         "pkg-1900.0.2-build.19" = _cbQ0avmB;
         "pkg-1900.0.2-build.26" = _USqmz5cb;
@@ -1188,7 +1200,8 @@ let
         "pkg-2.0.14" = _mYwmDHmO;
         "pkg-2.0.15" = _9zaNfTib;
         "pkg-2.0.16" = _PTV2GZvt;
-        "default" = _PTV2GZvt;
+        "pkg-2.0.17" = _uazcDB6Q;
+        "default" = _uazcDB6Q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "polylib";

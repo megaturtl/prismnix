@@ -61,6 +61,16 @@ let
             "file" = "hyper-login-1.3.0.jar";
             "hash" = "sha512-ktC3DW6iA8iZzcnIg2jdSKD5pNlDVWoPIGIHR4gKT16aREy87Q2bcw6cDH3izIc87+daarVUUBOB4GXLtoESww==";
         };
+        _9Y0RsFFn = {
+            "id" = "9Y0RsFFn";
+            "file" = "HyperLogin.zip";
+            "hash" = "sha512-HMrJTuIxapbkNlGTgH7IzadD2D6eVnJnjXYPuB4ba6y2ewb/Y5P2ABhoW+dvhejrj3Yarww6anlINeCEy1en5w==";
+        };
+        _SIwHgLE9 = {
+            "id" = "SIwHgLE9";
+            "file" = "hyper-login-1.4.0.jar";
+            "hash" = "sha512-TEgCMRVbOOSyjqN67VX0gAfW+ZplkcgNNmt5BY0E2pE/NOpmThN8SNivR2wIdsyd2sxj1M9UOT7/aA5themktA==";
+        };
     in {
         "t7ZKIaMx" = _t7ZKIaMx;
         "ihZ04Fdh" = _ihZ04Fdh;
@@ -74,6 +84,8 @@ let
         "UPhM2pm9" = _UPhM2pm9;
         "eYMkfepK" = _eYMkfepK;
         "CLbXvSuu" = _CLbXvSuu;
+        "9Y0RsFFn" = _9Y0RsFFn;
+        "SIwHgLE9" = _SIwHgLE9;
         "datapack-1.21.6" = _GTqEszM0;
         "datapack-1.21.7" = _GTqEszM0;
         "datapack-1.21.8" = _GTqEszM0;
@@ -87,7 +99,7 @@ let
         "datapack-26.3-rc-1" = _eYMkfepK;
         "datapack-26.3-rc-2" = _eYMkfepK;
         "datapack-26.3-rc-3" = _eYMkfepK;
-        "datapack-26.3" = _eYMkfepK;
+        "datapack-26.3" = _9Y0RsFFn;
         "fabric-1.21.6" = _rQ7rOnbF;
         "fabric-1.21.7" = _rQ7rOnbF;
         "fabric-1.21.8" = _rQ7rOnbF;
@@ -101,7 +113,7 @@ let
         "fabric-26.3-rc-1" = _CLbXvSuu;
         "fabric-26.3-rc-2" = _CLbXvSuu;
         "fabric-26.3-rc-3" = _CLbXvSuu;
-        "fabric-26.3" = _CLbXvSuu;
+        "fabric-26.3" = _SIwHgLE9;
         "forge-1.21.6" = _rQ7rOnbF;
         "forge-1.21.7" = _rQ7rOnbF;
         "forge-1.21.8" = _rQ7rOnbF;
@@ -115,7 +127,7 @@ let
         "forge-26.3-rc-1" = _CLbXvSuu;
         "forge-26.3-rc-2" = _CLbXvSuu;
         "forge-26.3-rc-3" = _CLbXvSuu;
-        "forge-26.3" = _CLbXvSuu;
+        "forge-26.3" = _SIwHgLE9;
         "neoforge-1.21.6" = _rQ7rOnbF;
         "neoforge-1.21.7" = _rQ7rOnbF;
         "neoforge-1.21.8" = _rQ7rOnbF;
@@ -129,7 +141,7 @@ let
         "neoforge-26.3-rc-1" = _CLbXvSuu;
         "neoforge-26.3-rc-2" = _CLbXvSuu;
         "neoforge-26.3-rc-3" = _CLbXvSuu;
-        "neoforge-26.3" = _CLbXvSuu;
+        "neoforge-26.3" = _SIwHgLE9;
         "quilt-1.21.6" = _rQ7rOnbF;
         "quilt-1.21.7" = _rQ7rOnbF;
         "quilt-1.21.8" = _rQ7rOnbF;
@@ -143,7 +155,7 @@ let
         "quilt-26.3-rc-1" = _CLbXvSuu;
         "quilt-26.3-rc-2" = _CLbXvSuu;
         "quilt-26.3-rc-3" = _CLbXvSuu;
-        "quilt-26.3" = _CLbXvSuu;
+        "quilt-26.3" = _SIwHgLE9;
         "pkg-1.0.0+datapack" = _t7ZKIaMx;
         "pkg-1.0.0+mod" = _ihZ04Fdh;
         "pkg-1.1.0+datapack" = _GTqEszM0;
@@ -154,7 +166,9 @@ let
         "pkg-1.2.1+mod" = _UPhM2pm9;
         "pkg-1.3.0+datapack" = _eYMkfepK;
         "pkg-1.3.0+mod" = _CLbXvSuu;
-        "default" = _CLbXvSuu;
+        "pkg-1.4.0+datapack" = _9Y0RsFFn;
+        "pkg-1.4.0+mod" = _SIwHgLE9;
+        "default" = _SIwHgLE9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hyper-login";

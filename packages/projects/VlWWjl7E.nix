@@ -26,12 +26,24 @@ let
             "file" = "icys-horse-breeds-1.0.2.zip";
             "hash" = "sha512-Hk3ks3NeEtMb4I/RkN+TEfAFKCIEudE6uUOENRXxVOVdakHtuKJbE/jhgpIz/YFis2V0mrTbIxgKnSUWmdKUyw==";
         };
+        _6kOb9LNE = {
+            "id" = "6kOb9LNE";
+            "file" = "icys-horse-breeds-1.0.3-1.20.1.zip";
+            "hash" = "sha512-vphf6VPS5rSjILhVb7VwdmL04p4tNBWnsSdvDbJYB3M59qvW9FiPduyIJ5Gnn0du4akEkF/Sp5pPeIkD69rHSA==";
+        };
+        _aWWUZYtg = {
+            "id" = "aWWUZYtg";
+            "file" = "icys-horse-breeds-1.0.3-1.21.1.zip";
+            "hash" = "sha512-wD1vZoZJHjtT4RW7YaI7w5vdw4uG/5VhluMn+Dv3zlOUjYdiEhM2sqhZuXQ3pTS9aH2nzM4RQgpJa2ySB2bHqw==";
+        };
     in {
         "LTpLlhAp" = _LTpLlhAp;
         "pJXWucAQ" = _pJXWucAQ;
         "RBFdaPfh" = _RBFdaPfh;
         "5jE3iItc" = _5jE3iItc;
         "dzUqgdyt" = _dzUqgdyt;
+        "6kOb9LNE" = _6kOb9LNE;
+        "aWWUZYtg" = _aWWUZYtg;
         "minecraft-26.2" = _dzUqgdyt;
         "minecraft-1.21.9" = _dzUqgdyt;
         "minecraft-1.21.10" = _dzUqgdyt;
@@ -39,15 +51,18 @@ let
         "minecraft-26.1" = _dzUqgdyt;
         "minecraft-26.1.1" = _dzUqgdyt;
         "minecraft-26.1.2" = _dzUqgdyt;
-        "minecraft-1.21.1" = _RBFdaPfh;
-        "minecraft-1.20.1" = _5jE3iItc;
+        "minecraft-1.21.1" = _aWWUZYtg;
+        "minecraft-1.20.1" = _6kOb9LNE;
         "minecraft-26.3" = _dzUqgdyt;
+        "minecraft-1.20" = _6kOb9LNE;
+        "minecraft-1.21" = _aWWUZYtg;
         "pkg-1.0.0" = _LTpLlhAp;
         "pkg-1.0.1" = _pJXWucAQ;
         "pkg-1.21.1" = _RBFdaPfh;
         "pkg-1.20.1" = _5jE3iItc;
         "pkg-1.0.2" = _dzUqgdyt;
-        "default" = _dzUqgdyt;
+        "pkg-1.0.3" = _aWWUZYtg;
+        "default" = _aWWUZYtg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "icys-horse-breeds";

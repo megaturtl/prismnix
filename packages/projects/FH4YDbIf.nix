@@ -36,6 +36,16 @@ let
             "file" = "CustomGlint-BETA-26.2.jar";
             "hash" = "sha512-vh8fkwwFqi9g85V8pqvy9DD1LNoknPsLOBdWZfycBY5kUMNp98LSRvxhB2nCaJ+X1MbhTX1tzshNnfC4PPEaAg==";
         };
+        _vvfR6nyq = {
+            "id" = "vvfR6nyq";
+            "file" = "CustomGlint-26.3.jar";
+            "hash" = "sha512-+dKOV2AYTiIDQ0rvDUaynVOnf+LzbqK5KHGbF4rlv3cg3RFqrVrT93MZxq5+4V+uuvZLoMwiPBGbHs4lzbvrBg==";
+        };
+        _ILbIPyzR = {
+            "id" = "ILbIPyzR";
+            "file" = "CustomGlint-1.21.11.jar";
+            "hash" = "sha512-on/31V50JizPwNCROwBLID9VKV+hDmWfOerVuGmZHPu2H3D5QC8HlKlt/8IrwZMcaQlX+BipnIhY6VeRVKFCeA==";
+        };
     in {
         "HBjB58iJ" = _HBjB58iJ;
         "Y8qi9ME2" = _Y8qi9ME2;
@@ -44,6 +54,8 @@ let
         "6noa6toa" = _6noa6toa;
         "MIvsmwvN" = _MIvsmwvN;
         "6ngGkN4G" = _6ngGkN4G;
+        "vvfR6nyq" = _vvfR6nyq;
+        "ILbIPyzR" = _ILbIPyzR;
         "fabric-1.21" = _6noa6toa;
         "fabric-1.21.1" = _6noa6toa;
         "fabric-1.21.2" = _6noa6toa;
@@ -55,17 +67,19 @@ let
         "fabric-1.21.8" = _6noa6toa;
         "fabric-1.21.9" = _6noa6toa;
         "fabric-1.21.10" = _6noa6toa;
-        "fabric-1.21.11" = _2Jd62xKL;
+        "fabric-1.21.11" = _ILbIPyzR;
         "fabric-26.1" = _AoQpfhRf;
         "fabric-26.1.1" = _AoQpfhRf;
         "fabric-26.1.2" = _AoQpfhRf;
         "fabric-26.2" = _6ngGkN4G;
+        "fabric-26.3" = _vvfR6nyq;
         "pkg-1.21-1.21.10" = _HBjB58iJ;
-        "pkg-1.21.11" = _2Jd62xKL;
+        "pkg-1.21.11" = _ILbIPyzR;
         "pkg-26.1.X" = _AoQpfhRf;
         "pkg-1.21.X" = _6noa6toa;
         "pkg-26.2" = _6ngGkN4G;
-        "default" = _6ngGkN4G;
+        "pkg-26.3" = _vvfR6nyq;
+        "default" = _ILbIPyzR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "custom-glint";

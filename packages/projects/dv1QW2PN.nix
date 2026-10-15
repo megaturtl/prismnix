@@ -56,6 +56,11 @@ let
             "file" = "Kaffee's_Dual_Ride-mc1.20.4-1.2.0.jar";
             "hash" = "sha512-PxHAE/vBjQmHtNavqZ0H4rFzGm5A/r9quaBdiZXFMhUg6GGPIq1ymOiqjMjPne1N3jbMsDUxFgKfVA0FllcTsQ==";
         };
+        _T14PXNLz = {
+            "id" = "T14PXNLz";
+            "file" = "Kaffee's_Dual_Ride-1.2.0.jar";
+            "hash" = "sha512-fX7v/IkmM56U0yRo7Xwht8CY6yjgUuFwoadfRLNzuSPSXarRG4j/WVRQ04QlHjkpXPcPHxF2aO+Kp3xlRXSbvQ==";
+        };
     in {
         "erhcBjec" = _erhcBjec;
         "FOeILfbw" = _FOeILfbw;
@@ -68,6 +73,7 @@ let
         "GLjjHK2j" = _GLjjHK2j;
         "gnqBt20q" = _gnqBt20q;
         "YSLKYETk" = _YSLKYETk;
+        "T14PXNLz" = _T14PXNLz;
         "fabric-1.19.2" = _gamvk0LR;
         "fabric-1.20" = _lzZF1p8s;
         "fabric-1.20.1" = _lzZF1p8s;
@@ -93,9 +99,14 @@ let
         "fabric-1.21.9" = _GLjjHK2j;
         "fabric-1.21.10" = _GLjjHK2j;
         "fabric-1.21.11" = _GLjjHK2j;
+        "fabric-26.1" = _T14PXNLz;
+        "fabric-26.1.1" = _T14PXNLz;
+        "fabric-26.1.2" = _T14PXNLz;
+        "fabric-26.2" = _T14PXNLz;
+        "fabric-26.3" = _T14PXNLz;
         "pkg-1.1.0" = _4V6fF7Pm;
-        "pkg-1.2.0" = _YSLKYETk;
-        "default" = _YSLKYETk;
+        "pkg-1.2.0" = _T14PXNLz;
+        "default" = _T14PXNLz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kaffees_dual_ride";

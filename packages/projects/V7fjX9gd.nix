@@ -281,6 +281,16 @@ let
             "file" = "speedometer-fabric-6.4.5_26.3.jar";
             "hash" = "sha512-aHq8dwqS19M+PiUF9sioWNbxvJDMdX20WcD5bqRpDJ5Ndpx9WbVm1jmFeu/V6pXpBp6Jloi+NGee/vj2kNYmrw==";
         };
+        _1eWcDLoN = {
+            "id" = "1eWcDLoN";
+            "file" = "speedometer-neoforge-6.4.5-beta_26.3.jar";
+            "hash" = "sha512-wzTPp8vETHT3iVyOUVekqhhLZTmmP+YmoNaz6Omkg513bmpFPEhOMoELcKMqYsjXdFOdEqgHCQm8vy++mH3rLw==";
+        };
+        _tvaDDND6 = {
+            "id" = "tvaDDND6";
+            "file" = "speedometer-fabric-6.4.5-beta_26.3.jar";
+            "hash" = "sha512-Yv3uiGomFM0urnAnX9+uXh8OougKKirE9hCQtlNtaqyVInk2A951t0bOE6ld3JB62g/0q+dFiA+7PjhYaEAtLw==";
+        };
     in {
         "gRuVMbWw" = _gRuVMbWw;
         "kcucTUTE" = _kcucTUTE;
@@ -338,6 +348,8 @@ let
         "gC8ykr4T" = _gC8ykr4T;
         "7a8KagpC" = _7a8KagpC;
         "YKq86qLn" = _YKq86qLn;
+        "1eWcDLoN" = _1eWcDLoN;
+        "tvaDDND6" = _tvaDDND6;
         "fabric-1.20" = _XC63Tx60;
         "fabric-1.20.1" = _XC63Tx60;
         "fabric-1.20.2" = _XC63Tx60;
@@ -365,7 +377,7 @@ let
         "fabric-26.1.1" = _3V7Hve6z;
         "fabric-26.1.2" = _3V7Hve6z;
         "fabric-26.2" = _HdAbbSGg;
-        "fabric-26.3" = _YKq86qLn;
+        "fabric-26.3" = _tvaDDND6;
         "forge-1.20" = _clZR3yTQ;
         "forge-1.20.1" = _clZR3yTQ;
         "forge-1.20.2" = _clZR3yTQ;
@@ -388,7 +400,7 @@ let
         "neoforge-1.21.11" = _ahaFEy4e;
         "neoforge-26.1.2" = _IPNJEsO4;
         "neoforge-26.2" = _gC8ykr4T;
-        "neoforge-26.3" = _7a8KagpC;
+        "neoforge-26.3" = _1eWcDLoN;
         "pkg-1.0" = _kcucTUTE;
         "pkg-2.0" = _7YtVaZha;
         "pkg-3.0" = _jPhWQF2p;
@@ -415,7 +427,8 @@ let
         "pkg-6.4.3" = _twAhC6Ca;
         "pkg-6.4.4" = _gC8ykr4T;
         "pkg-6.4.5" = _YKq86qLn;
-        "default" = _YKq86qLn;
+        "pkg-6.4.6-beta" = _tvaDDND6;
+        "default" = _tvaDDND6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "speedometer";

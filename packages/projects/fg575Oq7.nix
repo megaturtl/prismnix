@@ -66,6 +66,11 @@ let
             "file" = "SophUpgradeAddons-1.20.1-0.9.2.jar";
             "hash" = "sha512-EFhioMigEGDOYAJZ78oKZCPmeZAmGnAOyYC1IdscxK7sKL8yGHlqBo/pQFIP+nxrpm2tuiMU4HvF3P0o+QxzmA==";
         };
+        _ZJcY0vXM = {
+            "id" = "ZJcY0vXM";
+            "file" = "SophUpgradeAddons-1.21.1-0.9.2.1.jar";
+            "hash" = "sha512-xLr7JcT54HuVWq84QTN81rH5u7pe4fFYBlPUBD1DPSXkuBJ6gJI3UZhEJY+ewp2EBItE3L62EROnq3y+hcixNA==";
+        };
     in {
         "IFfOS7vC" = _IFfOS7vC;
         "CfD2C8Nm" = _CfD2C8Nm;
@@ -80,8 +85,9 @@ let
         "dTowYtkJ" = _dTowYtkJ;
         "pCF81hfk" = _pCF81hfk;
         "M7Ce8cmN" = _M7Ce8cmN;
+        "ZJcY0vXM" = _ZJcY0vXM;
         "forge-1.20.1" = _M7Ce8cmN;
-        "neoforge-1.21.1" = _pCF81hfk;
+        "neoforge-1.21.1" = _ZJcY0vXM;
         "pkg-0.5.3" = _IFfOS7vC;
         "pkg-0.5.4" = _CfD2C8Nm;
         "pkg-0.7.0" = _6Tu2ARQn;
@@ -93,7 +99,8 @@ let
         "pkg-0.8.5" = _ncgVG12e;
         "pkg-0.9.1" = _dTowYtkJ;
         "pkg-0.9.2" = _M7Ce8cmN;
-        "default" = _M7Ce8cmN;
+        "pkg-0.9.2.1" = _ZJcY0vXM;
+        "default" = _ZJcY0vXM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "soph-upgrade-addons";

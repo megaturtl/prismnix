@@ -531,6 +531,11 @@ let
             "file" = "MineGIT-bta-1.5.2+1.jar";
             "hash" = "sha512-bRFdyRfDcWXh50Ms4eUOK8/pGuWVjhuQ8yk0UCAwnAhLuimuAcpCciS1iwHiMaR/GTANsnjrM9H4u24CWk61sg==";
         };
+        _J11CTeYF = {
+            "id" = "J11CTeYF";
+            "file" = "MineGIT-fabric-1.7.0-mc26.4.jar";
+            "hash" = "sha512-mpjvyKRjbI2GEtQxYaKEGmAmLvACCrBhtx28YGSO2cRlqJuZksFReplIHV8t8tJiwOJb4YeFS4v0+Bb4AwLZ0Q==";
+        };
     in {
         "umAHBizd" = _umAHBizd;
         "d5EIYhNA" = _d5EIYhNA;
@@ -638,6 +643,7 @@ let
         "mVH9ynKE" = _mVH9ynKE;
         "u1ZGDDp8" = _u1ZGDDp8;
         "8QUea9nq" = _8QUea9nq;
+        "J11CTeYF" = _J11CTeYF;
         "fabric-1.21.11" = _Pbxj9yg1;
         "fabric-26.2-snapshot-1" = _YJv93IE6;
         "fabric-26.2-snapshot-2" = _YJv93IE6;
@@ -1028,6 +1034,10 @@ let
         "fabric-26.3-snapshot-8" = _u1ZGDDp8;
         "fabric-26.3-snapshot-9" = _u1ZGDDp8;
         "fabric-26.3-snapshot-10" = _u1ZGDDp8;
+        "fabric-26.4-snapshot-1" = _J11CTeYF;
+        "fabric-26.4-snapshot-2" = _J11CTeYF;
+        "fabric-26.4-snapshot-3" = _J11CTeYF;
+        "fabric-26.4-snapshot-4" = _J11CTeYF;
         "ornithe-18w31a" = _LSrtsHE1;
         "ornithe-18w32a" = _LSrtsHE1;
         "ornithe-18w33a" = _LSrtsHE1;
@@ -1172,9 +1182,9 @@ let
         "pkg-1.5.2+1" = _8QUea9nq;
         "pkg-1.6.0" = _FBXP2RSO;
         "pkg-1.6.0+1" = _j54pl4re;
-        "pkg-1.7.0" = _u1ZGDDp8;
+        "pkg-1.7.0" = _J11CTeYF;
         "pkg-1.7.0+1" = _WJVtJyxv;
-        "default" = _8QUea9nq;
+        "default" = _J11CTeYF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "minegit";

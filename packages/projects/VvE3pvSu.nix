@@ -36,6 +36,11 @@ let
             "file" = "particleculling-1.0.0+mc26.2.jar";
             "hash" = "sha512-Yx0uY9DSJwvGbbh95loJeGi2qKoJ+h+294QU17AWkbOmPXJ0qcL8yhlkXC17PjcT/CBaAJpmfmbn/QoAAldpag==";
         };
+        _SFuMY5My = {
+            "id" = "SFuMY5My";
+            "file" = "particleculling-1.0.0+mc26.3.jar";
+            "hash" = "sha512-361cOA+IcShIy6c/8AvnElfcl27aZJNtXzbUcclZGUT0OHU5+WZRJ7sRGVGxpX/rVpPszw6GiS6kfHZ4050omw==";
+        };
     in {
         "PBWdzmzH" = _PBWdzmzH;
         "TaoMkhRU" = _TaoMkhRU;
@@ -44,6 +49,7 @@ let
         "Mw6IP3Xv" = _Mw6IP3Xv;
         "OCtdYXik" = _OCtdYXik;
         "3BRvfC1t" = _3BRvfC1t;
+        "SFuMY5My" = _SFuMY5My;
         "fabric-1.21.4" = _PBWdzmzH;
         "fabric-1.21" = _TaoMkhRU;
         "fabric-1.21.1" = _TaoMkhRU;
@@ -52,6 +58,7 @@ let
         "fabric-26.1" = _Mw6IP3Xv;
         "fabric-26.1.2" = _OCtdYXik;
         "fabric-26.2" = _3BRvfC1t;
+        "fabric-26.3" = _SFuMY5My;
         "pkg-1.0.0-mc1.21.4" = _PBWdzmzH;
         "pkg-1.0.0+mc1.21.1" = _TaoMkhRU;
         "pkg-1.0.0+mc1.21.8" = _Y5iuYQzI;
@@ -59,7 +66,8 @@ let
         "pkg-1.0.0+mc26.1" = _Mw6IP3Xv;
         "pkg-1.0.0+mc26.1.2" = _OCtdYXik;
         "pkg-1.0.0+mc26.2" = _3BRvfC1t;
-        "default" = _3BRvfC1t;
+        "pkg-1.0.0+mc26.3" = _SFuMY5My;
+        "default" = _SFuMY5My;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "particleculling";

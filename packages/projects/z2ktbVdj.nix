@@ -16,10 +16,16 @@ let
             "file" = "ItemCounter-1.0.1+26.1.jar";
             "hash" = "sha512-2Mx5ZIGZfWgAPvvKylorEv1V3rwK6ja9OmtN/km/0AdxGej0Ljb1xvdpgxqU3PGthLtFIN3QRY8N99WQKXGjEA==";
         };
+        _1axbwODv = {
+            "id" = "1axbwODv";
+            "file" = "ItemCounter-1.0.1+26.3.jar";
+            "hash" = "sha512-8E8HIy7iyBeM2Hcvs0qRte/cXfg/84JkpHViGPc1+w9kyeMao+RONU34dybQu8/wltKkilL9T8wEunfxp+0rSg==";
+        };
     in {
         "l7z9LE1a" = _l7z9LE1a;
         "BvFvJJjV" = _BvFvJJjV;
         "TXPerniC" = _TXPerniC;
+        "1axbwODv" = _1axbwODv;
         "fabric-1.21.6" = _BvFvJJjV;
         "fabric-1.21.7" = _BvFvJJjV;
         "fabric-1.21.8" = _BvFvJJjV;
@@ -29,10 +35,12 @@ let
         "fabric-26.1" = _TXPerniC;
         "fabric-26.1.1" = _TXPerniC;
         "fabric-26.1.2" = _TXPerniC;
+        "fabric-26.3" = _1axbwODv;
         "pkg-1.0.0+1.21.8" = _l7z9LE1a;
         "pkg-1.0.1+1.21.8" = _BvFvJJjV;
         "pkg-1.0.1+26.1" = _TXPerniC;
-        "default" = _TXPerniC;
+        "pkg-1.0.1+26.3" = _1axbwODv;
+        "default" = _1axbwODv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "item-counter-fx";

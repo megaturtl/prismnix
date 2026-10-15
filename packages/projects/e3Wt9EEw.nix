@@ -21,18 +21,32 @@ let
             "file" = "hotbath-1.21.1-4.1.0.jar";
             "hash" = "sha512-v+MhirRZxib7HdlaBk0mUdQiOy46PeJt7BWfvLmbdtBy9Eo/NaZ+wzTGJ9hG5YSjKsoDq+/JSuv70AU/l4h2Jg==";
         };
+        _4maX35Wf = {
+            "id" = "4maX35Wf";
+            "file" = "hotbath-1.21.1-4.1.1.jar";
+            "hash" = "sha512-OeQh1F+e3Toj4oU8yli++Toza2KGWY5k1qDMXVfP89bFxGpJhf56zmMLg8ZsATYjh+ewiAM1Cgzh8rqIwgXP7w==";
+        };
+        _ClHJ9dbk = {
+            "id" = "ClHJ9dbk";
+            "file" = "hotbath-1.20.1-4.1.1.jar";
+            "hash" = "sha512-R07yjw0X/lzUm64LnmcOG8SbuhFL5NfOWy3rAVDo7Ux/XajwoyW90MsGczCHKcLhnY0xnbiQr213OJOiLpUiZA==";
+        };
     in {
         "DJoUTzJV" = _DJoUTzJV;
         "uD17sVGH" = _uD17sVGH;
         "tm8rGCM7" = _tm8rGCM7;
         "slTQJU99" = _slTQJU99;
-        "forge-1.20.1" = _tm8rGCM7;
-        "neoforge-1.21.1" = _slTQJU99;
+        "4maX35Wf" = _4maX35Wf;
+        "ClHJ9dbk" = _ClHJ9dbk;
+        "forge-1.20.1" = _ClHJ9dbk;
+        "neoforge-1.21.1" = _4maX35Wf;
         "pkg-1.20.1-4.0.1" = _DJoUTzJV;
         "pkg-1.21.1-4.0.1" = _uD17sVGH;
         "pkg-1.20.1-4.1.0" = _tm8rGCM7;
         "pkg-1.21.1-4.1.0" = _slTQJU99;
-        "default" = _slTQJU99;
+        "pkg-1.21.1-4.1.1" = _4maX35Wf;
+        "pkg-1.20.1-4.1.1" = _ClHJ9dbk;
+        "default" = _ClHJ9dbk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hot-bath";

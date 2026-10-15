@@ -236,6 +236,31 @@ let
             "file" = "togglenametags-2.7.8+26.3.jar";
             "hash" = "sha512-6fxwJHuiEvjb6U8q0ejNSmhoswnSbHto58OvtyMN2RUDGL9TN0aATliBwIxx6f4z7ezdpgMHAW020RdD2NrzMg==";
         };
+        _9waXuhBw = {
+            "id" = "9waXuhBw";
+            "file" = "togglenametags-2.7.9+26.1.jar";
+            "hash" = "sha512-pbyJzODqq/Wya7uZoPxRnUp51yvmRHzUJknrfrz7gEiTQihYjnrPhZxvK7s/a7lYPIO5OwDJgz24xbmyI8pGFQ==";
+        };
+        _y5J9tJFV = {
+            "id" = "y5J9tJFV";
+            "file" = "togglenametags-2.7.9+26.1.1.jar";
+            "hash" = "sha512-oy6YvGrhpC1Q8Xg2swb9zhD3Oq8WBKI6mrsMfWLWzO5NIgRu6i3uACUI41q/kXGyLhBTp+DqGGMgfZNPHb7sJA==";
+        };
+        _UwC9xV4Y = {
+            "id" = "UwC9xV4Y";
+            "file" = "togglenametags-2.7.9+26.1.2.jar";
+            "hash" = "sha512-My/1ZGOULpEatkKb8FGuzogXCWwvYNMptmRMyzHoTYPvCqQCNuz+Fyy5vJPzlukbdD1cVq7J49NV1LzRyzDM/Q==";
+        };
+        _jpr0WzF3 = {
+            "id" = "jpr0WzF3";
+            "file" = "togglenametags-2.7.9+26.2.jar";
+            "hash" = "sha512-fJ9EhgA9AMLzF4cNsBsWt4xwcFD6a4HQaIFxWFG3gbTngDWjztowzmJ2+u+Ok+RsAJ4lqUG75KOL+jHOKFeGrA==";
+        };
+        _cC1aDPhy = {
+            "id" = "cC1aDPhy";
+            "file" = "togglenametags-2.7.9+26.3.jar";
+            "hash" = "sha512-gnXh2z6AJjJdmB6k4bbIpK0QEPA7Td4s3PpkYQp8J/yIpH7s4qn81RY3KYc5my+1LMiyVClOT1GmGNZdKWDKNA==";
+        };
     in {
         "APCEJ122" = _APCEJ122;
         "8G90I5Hh" = _8G90I5Hh;
@@ -284,6 +309,11 @@ let
         "cuKeksA4" = _cuKeksA4;
         "4ka09qUE" = _4ka09qUE;
         "NKlwkmPI" = _NKlwkmPI;
+        "9waXuhBw" = _9waXuhBw;
+        "y5J9tJFV" = _y5J9tJFV;
+        "UwC9xV4Y" = _UwC9xV4Y;
+        "jpr0WzF3" = _jpr0WzF3;
+        "cC1aDPhy" = _cC1aDPhy;
         "fabric-1.18.1" = _D7Biikgk;
         "fabric-1.18" = _D7Biikgk;
         "fabric-1.18.2" = _D7Biikgk;
@@ -308,11 +338,11 @@ let
         "fabric-1.21.10" = _mxNPXKKS;
         "fabric-1.21.11" = _C4Wm7OaO;
         "fabric-1.21.9" = _mxNPXKKS;
-        "fabric-26.1" = _cuKeksA4;
-        "fabric-26.1.1" = _cuKeksA4;
-        "fabric-26.1.2" = _cuKeksA4;
-        "fabric-26.2" = _4ka09qUE;
-        "fabric-26.3" = _NKlwkmPI;
+        "fabric-26.1" = _UwC9xV4Y;
+        "fabric-26.1.1" = _UwC9xV4Y;
+        "fabric-26.1.2" = _UwC9xV4Y;
+        "fabric-26.2" = _jpr0WzF3;
+        "fabric-26.3" = _cC1aDPhy;
         "pkg-1.0" = _APCEJ122;
         "pkg-1.1" = _8G90I5Hh;
         "pkg-1.2" = _Obh2hv9P;
@@ -355,7 +385,12 @@ let
         "pkg-2.7.8+26.1.2" = _cuKeksA4;
         "pkg-2.7.8+26.2" = _4ka09qUE;
         "pkg-2.7.8+26.3" = _NKlwkmPI;
-        "default" = _NKlwkmPI;
+        "pkg-2.7.9+26.1" = _9waXuhBw;
+        "pkg-2.7.9+26.1.1" = _y5J9tJFV;
+        "pkg-2.7.9+26.1.2" = _UwC9xV4Y;
+        "pkg-2.7.9+26.2" = _jpr0WzF3;
+        "pkg-2.7.9+26.3" = _cC1aDPhy;
+        "default" = _cC1aDPhy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hidetags";

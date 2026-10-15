@@ -591,6 +591,16 @@ let
             "file" = "neovitae-1.21.1-1.1.37.jar";
             "hash" = "sha512-IV/ZWBFCTIgoIUIH2jhkLkAqztvlAxVQQYeDj7UwVg1zX8Tbys65rB9VvPDtuFyqatRaG466hcOaT0eIjUUjMQ==";
         };
+        _hTUXIyo0 = {
+            "id" = "hTUXIyo0";
+            "file" = "neovitae-26.1.2-1.1.38.jar";
+            "hash" = "sha512-9cRQa/4AsK3YTnlkBqc7YavNpQ5nyNQ07ICBacEYDKiLy61ieB6sOL6uM82NsmUj6CnZJO+UDrjVsblGMVjk1g==";
+        };
+        _83v7ZLMn = {
+            "id" = "83v7ZLMn";
+            "file" = "neovitae-1.21.1-1.1.38.jar";
+            "hash" = "sha512-lkyFdn6GDgSO70ncj8c2/Jm/mUjsZzIR28ikGcPJqzgpXta8VY9vjdC8HvPTOOp72YJubMVUI0KZ/HsG4jsldA==";
+        };
     in {
         "BiznzMYW" = _BiznzMYW;
         "LnPRMiPL" = _LnPRMiPL;
@@ -710,8 +720,10 @@ let
         "z7jU25f3" = _z7jU25f3;
         "2RCWNx3X" = _2RCWNx3X;
         "NFc1CY74" = _NFc1CY74;
-        "neoforge-1.21.1" = _NFc1CY74;
-        "neoforge-26.1.2" = _2RCWNx3X;
+        "hTUXIyo0" = _hTUXIyo0;
+        "83v7ZLMn" = _83v7ZLMn;
+        "neoforge-1.21.1" = _83v7ZLMn;
+        "neoforge-26.1.2" = _hTUXIyo0;
         "pkg-3.4.0-2-beta" = _BiznzMYW;
         "pkg-1.21.1-1.0.0" = _LnPRMiPL;
         "pkg-1.21.1-1.0.1" = _ZB23S51J;
@@ -824,7 +836,9 @@ let
         "pkg-1.21.1-1.1.36" = _z7jU25f3;
         "pkg-26.1.2-1.1.37" = _2RCWNx3X;
         "pkg-1.21.1-1.1.37" = _NFc1CY74;
-        "default" = _NFc1CY74;
+        "pkg-26.1.2-1.1.38" = _hTUXIyo0;
+        "pkg-1.21.1-1.1.38" = _83v7ZLMn;
+        "default" = _83v7ZLMn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "neovitae";

@@ -26,19 +26,26 @@ let
             "file" = "bobby-legacy.jar";
             "hash" = "sha512-kAL5ZPWXmi8R54fCZCT+lk6hBGgtpu9B0oyiIkaboHJjeXBjWmacueLxCULe4pJhFPViJNwj/vKd0ZFyG+tLmA==";
         };
+        _TR3Kepbv = {
+            "id" = "TR3Kepbv";
+            "file" = "bobby-legacy.jar";
+            "hash" = "sha512-JeEB0f50b29TabpG8lkexuuxwnuIT6TmwiJWMpI9NdOtp42K/IIjwyT1kbLPyXyPzYsW0AYhWyr6CxfP5mRDJw==";
+        };
     in {
         "RgWzj5Ix" = _RgWzj5Ix;
         "znMh1i5Q" = _znMh1i5Q;
         "ePhGjWUU" = _ePhGjWUU;
         "7j2CROy7" = _7j2CROy7;
         "ItKaoNli" = _ItKaoNli;
-        "forge-1.12.2" = _ItKaoNli;
+        "TR3Kepbv" = _TR3Kepbv;
+        "forge-1.12.2" = _TR3Kepbv;
         "pkg-V1" = _RgWzj5Ix;
         "pkg-V2" = _znMh1i5Q;
         "pkg-V3" = _ePhGjWUU;
         "pkg-V4" = _7j2CROy7;
         "pkg-V5" = _ItKaoNli;
-        "default" = _ItKaoNli;
+        "pkg-V6" = _TR3Kepbv;
+        "default" = _TR3Kepbv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bobby-legacy";

@@ -26,19 +26,27 @@ let
             "file" = "fabric-cotton-mod-1.0.4.jar";
             "hash" = "sha512-4F4yCA4JHu3GuvLTe26Ogyc9wv8aAfrm4PXLF8nYuqbaOXaoXNfmzMWRBxn1x/6mGpLcU6p2vw1C/SQB+/IzJQ==";
         };
+        _c6GTaRdJ = {
+            "id" = "c6GTaRdJ";
+            "file" = "fabric-cotton-mod-1.1.0+1.21.1.jar";
+            "hash" = "sha512-5XklF3T9/UKLYFCpBsZDkb+Iq1FA66A8Jj6Wd7DXo/Ue/8a8h2eTJYL1eLatgqRu+tjJIaqQcY3JsmZqT1LmVw==";
+        };
     in {
         "jqFmE1Mt" = _jqFmE1Mt;
         "orFDvmYr" = _orFDvmYr;
         "ITUDaxzF" = _ITUDaxzF;
         "XdFwg68m" = _XdFwg68m;
         "bXm3Cc5N" = _bXm3Cc5N;
+        "c6GTaRdJ" = _c6GTaRdJ;
         "fabric-1.19.2" = _bXm3Cc5N;
+        "fabric-1.21.1" = _c6GTaRdJ;
         "pkg-1.0.0" = _jqFmE1Mt;
         "pkg-1.0.1" = _orFDvmYr;
         "pkg-1.0.2" = _ITUDaxzF;
         "pkg-1.0.3" = _XdFwg68m;
         "pkg-1.0.4" = _bXm3Cc5N;
-        "default" = _bXm3Cc5N;
+        "pkg-1.1.0+1.21.1" = _c6GTaRdJ;
+        "default" = _c6GTaRdJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cotton";

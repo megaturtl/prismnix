@@ -191,6 +191,11 @@ let
             "file" = "anthropophagy-fabric-26.3-r1.jar";
             "hash" = "sha512-C94OaCqKCdueRWtgfM9FTCKswfHNMRJF2KIf+6r4wAiPIQgR+ZA2Ose/StPiJFSQAQNWpaM4FZvhPDLkQHJq+g==";
         };
+        _sSomp9Jw = {
+            "id" = "sSomp9Jw";
+            "file" = "anthropophagy-neoforge-26.2-r3.jar";
+            "hash" = "sha512-N5o7bJf6dKMQtxD+s8Hq7eKAwGaar79orA/gEs4gJSxBOmyx9P8rSDKuH+KIZDHIa7sjxGd43F585C3ZlkY80w==";
+        };
     in {
         "lrmKH3W6" = _lrmKH3W6;
         "OpHcMMRe" = _OpHcMMRe;
@@ -230,6 +235,7 @@ let
         "gDLSSu4I" = _gDLSSu4I;
         "38W0zkil" = _38W0zkil;
         "cjW9nX5Y" = _cjW9nX5Y;
+        "sSomp9Jw" = _sSomp9Jw;
         "fabric-1.16.5" = _lrmKH3W6;
         "fabric-1.17" = _OpHcMMRe;
         "fabric-1.17.1" = _OpHcMMRe;
@@ -288,6 +294,7 @@ let
         "neoforge-26.1" = _38W0zkil;
         "neoforge-26.1.1" = _38W0zkil;
         "neoforge-26.1.2" = _38W0zkil;
+        "neoforge-26.2" = _sSomp9Jw;
         "pkg-1.16.5-5" = _lrmKH3W6;
         "pkg-1.17-4" = _OpHcMMRe;
         "pkg-1.18-5" = _9dfvIKR9;
@@ -321,10 +328,10 @@ let
         "pkg-26.2-r1" = _gTF4PBRE;
         "pkg-26.1-r7" = _lIpn6rqL;
         "pkg-26.2-r2" = _3stViYLR;
-        "pkg-26.2-r3" = _e8ZbKeee;
+        "pkg-26.2-r3" = _sSomp9Jw;
         "pkg-26.1-r8" = _38W0zkil;
         "pkg-26.3-r1" = _cjW9nX5Y;
-        "default" = _cjW9nX5Y;
+        "default" = _sSomp9Jw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "anthropophagy";

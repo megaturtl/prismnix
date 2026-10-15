@@ -3236,6 +3236,16 @@ let
             "file" = "walkers-neoforge-8.3.2.jar";
             "hash" = "sha512-pNC50Fy+sCo+eodSskM45/75clfPkeLaQvjxlhYxzM2uPveumEw+dJYHmTjEaxQhft5A1FZ0uuAwQAD12zaxBw==";
         };
+        _HvbPgzVk = {
+            "id" = "HvbPgzVk";
+            "file" = "walkers-fabric-8.4.0.jar";
+            "hash" = "sha512-E/gcMBkYfcYwNdI2odKNrdqZCSQFEOsEy0K6X9YcJJttbFoC17kULmJX2MoUjwA9i9axOmFth43nkdSlQK3R9Q==";
+        };
+        _wvBU2PII = {
+            "id" = "wvBU2PII";
+            "file" = "walkers-neoforge-8.4.0.jar";
+            "hash" = "sha512-s2M+at1VnSa/K/iJ6BPijWTguDLbZfzvrIsdYJj/7YEHFyAVevsy59rDgf7rlEqsyFKG0Y5lh26BMWq1HhH/3w==";
+        };
     in {
         "cAdnEJ7v" = _cAdnEJ7v;
         "NPuAQyjS" = _NPuAQyjS;
@@ -3884,6 +3894,8 @@ let
         "zpVgqUOB" = _zpVgqUOB;
         "eNDrQfKq" = _eNDrQfKq;
         "uZ2EUa8m" = _uZ2EUa8m;
+        "HvbPgzVk" = _HvbPgzVk;
+        "wvBU2PII" = _wvBU2PII;
         "fabric-1.19.4" = _KrDiPcLl;
         "fabric-1.20.1" = _rnxXXoos;
         "fabric-1.20.2" = _bz48L4BA;
@@ -3902,6 +3914,7 @@ let
         "fabric-1.21.8" = _Cvwuupth;
         "fabric-26.1.2" = _32DtlEjn;
         "fabric-26.2" = _eNDrQfKq;
+        "fabric-26.3" = _HvbPgzVk;
         "forge-1.19.4" = _RmGWjJu5;
         "forge-1.20.1" = _xaf1XAz2;
         "forge-1.20" = _NCFA42dl;
@@ -3925,6 +3938,7 @@ let
         "neoforge-26.1.2" = _77s2UUQy;
         "neoforge-26.2" = _uZ2EUa8m;
         "neoforge-1.20.1" = _xaf1XAz2;
+        "neoforge-26.3" = _wvBU2PII;
         "quilt-1.20.1" = _rnxXXoos;
         "quilt-1.20.2" = _bz48L4BA;
         "quilt-1.20.3" = _bz48L4BA;
@@ -3942,6 +3956,7 @@ let
         "quilt-1.21.8" = _Cvwuupth;
         "quilt-26.1.2" = _32DtlEjn;
         "quilt-26.2" = _eNDrQfKq;
+        "quilt-26.3" = _HvbPgzVk;
         "pkg-1.5" = _NPuAQyjS;
         "pkg-1.6" = _53gfLuw1;
         "pkg-1.6.1" = _o48jDvD0;
@@ -4545,7 +4560,9 @@ let
         "pkg-1.21.2-neoforge-6.3.8" = _zpVgqUOB;
         "pkg-fabric-8.3.2" = _eNDrQfKq;
         "pkg-neoforge-8.3.2" = _uZ2EUa8m;
-        "default" = _uZ2EUa8m;
+        "pkg-fabric-8.4.0" = _HvbPgzVk;
+        "pkg-neoforge-8.4.0" = _wvBU2PII;
+        "default" = _wvBU2PII;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "woodwalkers";

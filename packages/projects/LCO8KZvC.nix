@@ -556,6 +556,26 @@ let
             "file" = "witchery-0.5.15+mc26.1.2.jar";
             "hash" = "sha512-dmbE8n+NM40n5qR9/+BeJQkNq2Y/0vev6vRHAO6BTK790XgOvq097lrLCkCCi9SpN357yU7vfVyhTs0LtQTWtQ==";
         };
+        _lNf8FO31 = {
+            "id" = "lNf8FO31";
+            "file" = "witchery-0.5.16+mc26.1.2.jar";
+            "hash" = "sha512-Y9oVtEDzQ1U+W7dgr1BWchs53w6ockOMy7Yy34GimOKChtgY+yCLj/w3KdMpHM+5riyyJ/MDcaynvQWIZV48Xw==";
+        };
+        _irXxY9lX = {
+            "id" = "irXxY9lX";
+            "file" = "witchery-0.5.16+mc1.21.1.jar";
+            "hash" = "sha512-QoMkcPVbR9sowoWadu8iFuX/7r0X+nPRm7dlINYZC2oKbPczw7dMDmPyXhh56KBSYcuo69sUakj7PitBZtFGDw==";
+        };
+        _yJ5LErOS = {
+            "id" = "yJ5LErOS";
+            "file" = "witchery-0.5.17+mc1.21.1.jar";
+            "hash" = "sha512-aq7bm3AZVq828JLXBElWoow3Ak2bRR19OssABNQPBJyCBTmMDhlxkZNUvorQj9XwK+8kh91RSpapltWXcrIgZQ==";
+        };
+        _9IfC5cYv = {
+            "id" = "9IfC5cYv";
+            "file" = "witchery-0.5.17+mc26.1.2.jar";
+            "hash" = "sha512-/Ti3qenkNjmsHH5Bo+2q12GwWIyayEM/McGYrPno74wkg/upkBrnvMOZpz7CDFo6DoNHlLHf2ZXPwz+KkaCd5g==";
+        };
     in {
         "ooy3LAyx" = _ooy3LAyx;
         "noScuzuz" = _noScuzuz;
@@ -668,11 +688,15 @@ let
         "4uvenhBU" = _4uvenhBU;
         "KVnBstYc" = _KVnBstYc;
         "WUyVVaVN" = _WUyVVaVN;
+        "lNf8FO31" = _lNf8FO31;
+        "irXxY9lX" = _irXxY9lX;
+        "yJ5LErOS" = _yJ5LErOS;
+        "9IfC5cYv" = _9IfC5cYv;
         "fabric-1.21.1" = _UollMwVJ;
-        "neoforge-1.21.1" = _KVnBstYc;
+        "neoforge-1.21.1" = _yJ5LErOS;
         "neoforge-1.21.2" = _LoRKrTYv;
         "neoforge-1.21.3" = _LoRKrTYv;
-        "neoforge-26.1.2" = _WUyVVaVN;
+        "neoforge-26.1.2" = _9IfC5cYv;
         "pkg-0.1.0" = _ooy3LAyx;
         "pkg-0.1.1b" = _dEY6QYWA;
         "pkg-0.1.2" = _Yq5gQ0uh;
@@ -745,7 +769,9 @@ let
         "pkg-0.5.13.2" = _oDZE4oNP;
         "pkg-0.5.14" = _4uvenhBU;
         "pkg-0.5.15" = _WUyVVaVN;
-        "default" = _WUyVVaVN;
+        "pkg-0.5.16" = _irXxY9lX;
+        "pkg-0.5.17" = _9IfC5cYv;
+        "default" = _9IfC5cYv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "just-another-witchery-remake";

@@ -41,6 +41,16 @@ let
             "file" = "Undying Pets-1.0.0.0.jar";
             "hash" = "sha512-ilGHWlGz8ix6xX0n5i5JPzyjqi5mh+Huao/tLiycdYiMKxN5hPaIYKHnlNahQS+pmC7MVMcUPCld1nNu7dC0qA==";
         };
+        _OYKts3oL = {
+            "id" = "OYKts3oL";
+            "file" = "Undying Pets v1.9.0.zip";
+            "hash" = "sha512-6puD0ctvpcVRO5+AjbM2lNct2MAma6WGUKGNkE1dex59Kl2K6oh/RUyjMYhZsm9+986buGZA3PrrTUEleRSJqA==";
+        };
+        _piYcV67P = {
+            "id" = "piYcV67P";
+            "file" = "undying-pets-atlasplays-1.9.0.jar";
+            "hash" = "sha512-X34093SZkA3hmQWo6AAaPjWg8Xb96vnPxI7RtTy5vBidmxQKiPu8RHrfN177BCaDInrSy5xtjkENGU9WDXEnbg==";
+        };
     in {
         "lf0aiy8n" = _lf0aiy8n;
         "r7ZhwEtX" = _r7ZhwEtX;
@@ -50,6 +60,8 @@ let
         "ZzMR3lRH" = _ZzMR3lRH;
         "zD9TXI7z" = _zD9TXI7z;
         "p2i5EwJm" = _p2i5EwJm;
+        "OYKts3oL" = _OYKts3oL;
+        "piYcV67P" = _piYcV67P;
         "datapack-1.17" = _lf0aiy8n;
         "datapack-1.17.1" = _lf0aiy8n;
         "datapack-1.18" = _lf0aiy8n;
@@ -75,30 +87,35 @@ let
         "datapack-26.1" = _zD9TXI7z;
         "datapack-26.1.1" = _zD9TXI7z;
         "datapack-26.1.2" = _zD9TXI7z;
+        "datapack-26.3" = _OYKts3oL;
         "fabric-1.21" = _5RywPikz;
         "fabric-1.21.1" = _5RywPikz;
         "fabric-1.21.4" = _NNvgRGlC;
         "fabric-1.21.5" = _NNvgRGlC;
         "fabric-1.21.6" = _NNvgRGlC;
         "fabric-1.21.7" = _NNvgRGlC;
+        "fabric-26.3" = _piYcV67P;
         "forge-1.21" = _5RywPikz;
         "forge-1.21.1" = _5RywPikz;
         "forge-1.21.4" = _NNvgRGlC;
         "forge-1.21.5" = _NNvgRGlC;
         "forge-1.21.6" = _NNvgRGlC;
         "forge-1.21.7" = _NNvgRGlC;
+        "forge-26.3" = _piYcV67P;
         "neoforge-1.21" = _5RywPikz;
         "neoforge-1.21.1" = _5RywPikz;
         "neoforge-1.21.4" = _NNvgRGlC;
         "neoforge-1.21.5" = _NNvgRGlC;
         "neoforge-1.21.6" = _NNvgRGlC;
         "neoforge-1.21.7" = _NNvgRGlC;
+        "neoforge-26.3" = _piYcV67P;
         "quilt-1.21" = _5RywPikz;
         "quilt-1.21.1" = _5RywPikz;
         "quilt-1.21.4" = _NNvgRGlC;
         "quilt-1.21.5" = _NNvgRGlC;
         "quilt-1.21.6" = _NNvgRGlC;
         "quilt-1.21.7" = _NNvgRGlC;
+        "quilt-26.3" = _piYcV67P;
         "bukkit-1.15" = _p2i5EwJm;
         "bukkit-1.15.1" = _p2i5EwJm;
         "bukkit-1.15.2" = _p2i5EwJm;
@@ -275,7 +292,9 @@ let
         "pkg-1.7.1" = _ZzMR3lRH;
         "pkg-1.8.0" = _zD9TXI7z;
         "pkg-1.0.0+plugin" = _p2i5EwJm;
-        "default" = _p2i5EwJm;
+        "pkg-1.9.0" = _OYKts3oL;
+        "pkg-1.9.0+mod" = _piYcV67P;
+        "default" = _piYcV67P;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "undying-pets-atlasplays";

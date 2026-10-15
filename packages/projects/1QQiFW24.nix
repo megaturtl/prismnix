@@ -1406,6 +1406,11 @@ let
             "file" = "qa_better_melon-26.10.2-neoforge-26.3.jar";
             "hash" = "sha512-+Azm1PPaUGJT7Fwu+tf8rMuM2AFWv5s3DIj5pYXNMq7jiFROPQxIK26ZmrUBSBwBJH0fYaQoo00JbCaT/LyipQ==";
         };
+        _ikYn40lR = {
+            "id" = "ikYn40lR";
+            "file" = "qa_better_melon-26.10.2-fabric-26.3.jar";
+            "hash" = "sha512-AtFM7DuNMUSPIaEAcVedzypjf5HiSgazJBvUfFAljcsoRcaduzx1hdiD5EF61ips9hN3vSSqfIEiRcl4Bk/YwA==";
+        };
     in {
         "Od7qDINy" = _Od7qDINy;
         "JGXa7D6b" = _JGXa7D6b;
@@ -1688,6 +1693,7 @@ let
         "4lvvonaz" = _4lvvonaz;
         "1I0aiAAM" = _1I0aiAAM;
         "7gKPeoe6" = _7gKPeoe6;
+        "ikYn40lR" = _ikYn40lR;
         "neoforge-1.21.8" = _ENxr3WJT;
         "neoforge-1.21.4" = _g3BlqTUR;
         "neoforge-1.21.1" = _1I0aiAAM;
@@ -1719,6 +1725,7 @@ let
         "fabric-1.21.7" = _5zOkUvZm;
         "fabric-1.21.8" = _5zOkUvZm;
         "fabric-26.2" = _5bWFHvOk;
+        "fabric-26.3" = _ikYn40lR;
         "quilt-26.1" = _YIlOSuqg;
         "quilt-26.1.1" = _YIlOSuqg;
         "quilt-26.1.2" = _YIlOSuqg;
@@ -1726,6 +1733,7 @@ let
         "quilt-1.21.7" = _5zOkUvZm;
         "quilt-1.21.8" = _5zOkUvZm;
         "quilt-26.2" = _5bWFHvOk;
+        "quilt-26.3" = _ikYn40lR;
         "pkg-1.0" = _6Rrf8Mvw;
         "pkg-1.1" = _Gc8RCJ6L;
         "pkg-1.1.1165" = _NNpq8RZ5;
@@ -1865,8 +1873,8 @@ let
         "pkg-26.8.0" = _ZzoK4M3U;
         "pkg-26.9.2" = _5bWFHvOk;
         "pkg-26.10.1" = _1I0aiAAM;
-        "pkg-26.10.2" = _7gKPeoe6;
-        "default" = _7gKPeoe6;
+        "pkg-26.10.2" = _ikYn40lR;
+        "default" = _ikYn40lR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-melon";

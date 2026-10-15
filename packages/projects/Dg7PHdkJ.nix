@@ -2486,6 +2486,16 @@ let
             "file" = "craftedcore-neoforge-8.3.1.jar";
             "hash" = "sha512-olPGVmUj6Bk4qyGc1OQFEAa5FtQT+jij8WnwrL8HqJIQw89VHSbNZdwCfbbitQibLIVN52geVA4uVALdvMhkPg==";
         };
+        _ODjzWSMO = {
+            "id" = "ODjzWSMO";
+            "file" = "craftedcore-fabric-8.3.2.jar";
+            "hash" = "sha512-EkwKIjPm1W5ShhGxGeb2UasKoOLmnPkkgJ9XqO2CKQss1ZJoc1S4uZ2IBByW8u2UfDxUU+aIGdhDYE2Ws5+yVQ==";
+        };
+        _odFoZs42 = {
+            "id" = "odFoZs42";
+            "file" = "craftedcore-neoforge-8.3.2.jar";
+            "hash" = "sha512-gFY8o3eOM2SbzEkMJTo/31A/d1jCV9+UjlPnKl3PFezuvDAc1QaGsWlH0vg8VdH4FylHwRrDCda60o4CznJNmg==";
+        };
     in {
         "CZWHJnzo" = _CZWHJnzo;
         "IXiRufWD" = _IXiRufWD;
@@ -2984,6 +2994,8 @@ let
         "C8CZQqDl" = _C8CZQqDl;
         "bvT4QYPa" = _bvT4QYPa;
         "jkmq96p3" = _jkmq96p3;
+        "ODjzWSMO" = _ODjzWSMO;
+        "odFoZs42" = _odFoZs42;
         "fabric-1.20.2" = _k0iDDf7T;
         "fabric-1.20.1" = _dOfMa8I4;
         "fabric-1.19.4" = _1B2BIzjN;
@@ -3004,7 +3016,7 @@ let
         "fabric-1.21.10" = _K7YegspG;
         "fabric-26.1.2" = _IDSj97qv;
         "fabric-26.2" = _NvT1vT2r;
-        "fabric-26.3" = _bvT4QYPa;
+        "fabric-26.3" = _ODjzWSMO;
         "forge-1.20.2" = _HRhKql6p;
         "forge-1.20.1" = _OEzYUvHq;
         "forge-1.19.4" = _w8HgJQVy;
@@ -3032,7 +3044,7 @@ let
         "quilt-1.21.10" = _K7YegspG;
         "quilt-26.1.2" = _IDSj97qv;
         "quilt-26.2" = _NvT1vT2r;
-        "quilt-26.3" = _bvT4QYPa;
+        "quilt-26.3" = _ODjzWSMO;
         "neoforge-1.20.2" = _qjLDhR6L;
         "neoforge-1.20.3" = _qjLDhR6L;
         "neoforge-1.20.4" = _aUmMoZxZ;
@@ -3049,7 +3061,7 @@ let
         "neoforge-1.21.10" = _AgHYr3ds;
         "neoforge-26.1.2" = _GVYwhKJY;
         "neoforge-26.2" = _cRcyU2RI;
-        "neoforge-26.3" = _jkmq96p3;
+        "neoforge-26.3" = _odFoZs42;
         "pkg-1.20.2-fabric-1.0" = _CZWHJnzo;
         "pkg-1.20.2-forge-1.0" = _IXiRufWD;
         "pkg-1.20.1-fabric-1.0" = _GroZo4DJ;
@@ -3522,7 +3534,9 @@ let
         "pkg-neoforge-8.3.0" = _C8CZQqDl;
         "pkg-fabric-8.3.1" = _bvT4QYPa;
         "pkg-neoforge-8.3.1" = _jkmq96p3;
-        "default" = _jkmq96p3;
+        "pkg-fabric-8.3.2" = _ODjzWSMO;
+        "pkg-neoforge-8.3.2" = _odFoZs42;
+        "default" = _odFoZs42;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crafted-core";

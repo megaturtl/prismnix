@@ -171,6 +171,11 @@ let
             "file" = "mythicmetals-decorations-0.10.0+1.21.4.jar";
             "hash" = "sha512-v/w+OGdUwZlBSqzDDIu5sy8XoxOy5kmXuls8llS6xzGH59E+aHlev7/vruTT8gkYBye6yOC8FV1gUfPZTwJ9HQ==";
         };
+        _vH1uj9s7 = {
+            "id" = "vH1uj9s7";
+            "file" = "mythicmetals-decorations-0.10.0+1.21.jar";
+            "hash" = "sha512-MfPcnDApHQN7H5rvH7qe2JqMqZOq1BJAH5VDiFvD/JK27WHLDmeCbWjQFTG8nBMfd6qfYXXMcnTUe20bJYr6Og==";
+        };
     in {
         "A3a9QeJ0" = _A3a9QeJ0;
         "JBCEB0eY" = _JBCEB0eY;
@@ -206,6 +211,7 @@ let
         "D7EyWEAE" = _D7EyWEAE;
         "OBaNY2Lt" = _OBaNY2Lt;
         "tF9mdCya" = _tF9mdCya;
+        "vH1uj9s7" = _vH1uj9s7;
         "fabric-1.18" = _JBCEB0eY;
         "fabric-1.18.1" = _JBCEB0eY;
         "fabric-1.18.2" = _tcsEhnzp;
@@ -219,7 +225,7 @@ let
         "fabric-1.20.3" = _L97C9D39;
         "fabric-1.20.4" = _L97C9D39;
         "fabric-1.21" = _cDC8jPib;
-        "fabric-1.21.1" = _OBaNY2Lt;
+        "fabric-1.21.1" = _vH1uj9s7;
         "fabric-1.21.4" = _tF9mdCya;
         "pkg-0.1.0" = _A3a9QeJ0;
         "pkg-0.1.1" = _JBCEB0eY;
@@ -255,7 +261,8 @@ let
         "pkg-0.9.1+1.21" = _D7EyWEAE;
         "pkg-0.9.2+1.21" = _OBaNY2Lt;
         "pkg-0.10.0+1.21.4" = _tF9mdCya;
-        "default" = _tF9mdCya;
+        "pkg-0.10.0+1.21" = _vH1uj9s7;
+        "default" = _vH1uj9s7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mythicmetals-decorations";

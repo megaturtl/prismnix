@@ -46,6 +46,11 @@ let
             "file" = "fazbear_catalog-beta-update5-forge-1.20.1.jar";
             "hash" = "sha512-i76esKJB68dA2lfQxq8HTnRU/A4Mmr2VDyPj3V2gxiY3ACBVKfHtSpCG+9wk4y3GkPejZ1ZG+1yOJGJA9sP7pw==";
         };
+        _r5VBQxbR = {
+            "id" = "r5VBQxbR";
+            "file" = "fazbear_catalog-beta-update6-neoforge-1.21.1.jar";
+            "hash" = "sha512-AZNAnwFq9cVSIAiARpRN8/isveqxXtdv1H0JINWJUMcghhbxofIEPQEAaLyDCldFqFpNPR8FM3TpoWfVPeLLJw==";
+        };
     in {
         "3e8nMiXQ" = _3e8nMiXQ;
         "3cEWrjBM" = _3cEWrjBM;
@@ -56,7 +61,8 @@ let
         "Tmx6OFbK" = _Tmx6OFbK;
         "Ybo1d2OW" = _Ybo1d2OW;
         "9sJJ9kul" = _9sJJ9kul;
-        "neoforge-1.21.1" = _Ybo1d2OW;
+        "r5VBQxbR" = _r5VBQxbR;
+        "neoforge-1.21.1" = _r5VBQxbR;
         "forge-1.20.1" = _9sJJ9kul;
         "pkg-Update1" = _3cEWrjBM;
         "pkg-Update2" = _JULHggqB;
@@ -64,7 +70,8 @@ let
         "pkg-Update3" = _SYgA8nUe;
         "pkg-Update4" = _Tmx6OFbK;
         "pkg-Update5" = _9sJJ9kul;
-        "default" = _9sJJ9kul;
+        "pkg-Update6" = _r5VBQxbR;
+        "default" = _r5VBQxbR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fazbear-catalog";

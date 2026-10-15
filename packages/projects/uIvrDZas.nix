@@ -501,6 +501,31 @@ let
             "file" = "solstice-1.9.7-alpha+26.3.jar";
             "hash" = "sha512-z8T8g1Ujq+YEiSe42YMEE4thN1+g7lRRzh+gMPRCeYroQ2m2lirzehtLIhAs5QHIQ1xZdGg2SxNB21qtCzB2+Q==";
         };
+        _DoZwjezk = {
+            "id" = "DoZwjezk";
+            "file" = "solstice-1.9.7-alpha+1.21.1.jar";
+            "hash" = "sha512-eksB5NmoQ/5fiCSpznG0qvuR4MkkVuqDRDYPVwPA7ArfaPRuu++bQr5EEMEGBDGDQmYGZPXromY61mpYLCgPgg==";
+        };
+        _mJ5D5iE2 = {
+            "id" = "mJ5D5iE2";
+            "file" = "solstice-1.9.7-alpha+1.21.11.jar";
+            "hash" = "sha512-a/DsdM1nLEocFOMPT9a6ckjPa6k3lwR3avHJebGd5QNq+aKVXguqfKxDnHeEzo7gxqxB5AjHSiCL/RGDkl7+9Q==";
+        };
+        _CuSE2l7D = {
+            "id" = "CuSE2l7D";
+            "file" = "solstice-1.9.7-alpha+26.2.jar";
+            "hash" = "sha512-t7vBT5/Ce93Rc580RXSHRvK3aP+bOI4L8sniu3owqTyzCpbJkKUkHrma/vaca/lzGzE3cMB+/2bVwjluxlvpHw==";
+        };
+        _M8zOTzNV = {
+            "id" = "M8zOTzNV";
+            "file" = "solstice-1.9.7-alpha+1.21.4.jar";
+            "hash" = "sha512-P1zOWDCQHEaUxxDYmguiPrfANIzA/JmQm78nHxf8uy5xwWiZcbUQPKDhdrw6+v0YVnNMNiCwseH36Bwhlaa1lA==";
+        };
+        _PmtGp2dK = {
+            "id" = "PmtGp2dK";
+            "file" = "solstice-1.9.7-alpha+26.3.jar";
+            "hash" = "sha512-BiUYXDRY1Rk7EthT76ja1XaFBKBjwUx2+NRvVAyUcvaMeyXak5KvqErH4H7yC075CBtqCzpxJoszOWwFkgOUzQ==";
+        };
     in {
         "BoB9ZHX5" = _BoB9ZHX5;
         "IgxIu7Kf" = _IgxIu7Kf;
@@ -602,12 +627,17 @@ let
         "GVaMBpKa" = _GVaMBpKa;
         "RKrvkAIu" = _RKrvkAIu;
         "87jgmkuR" = _87jgmkuR;
+        "DoZwjezk" = _DoZwjezk;
+        "mJ5D5iE2" = _mJ5D5iE2;
+        "CuSE2l7D" = _CuSE2l7D;
+        "M8zOTzNV" = _M8zOTzNV;
+        "PmtGp2dK" = _PmtGp2dK;
         "fabric-1.20.1" = _YDZbarHM;
-        "fabric-1.21.1" = _RKrvkAIu;
-        "fabric-1.21.4" = _Odwkk6mn;
-        "fabric-1.21.11" = _GVaMBpKa;
-        "fabric-26.2" = _FvM5aSjT;
-        "fabric-26.3" = _87jgmkuR;
+        "fabric-1.21.1" = _DoZwjezk;
+        "fabric-1.21.4" = _M8zOTzNV;
+        "fabric-1.21.11" = _mJ5D5iE2;
+        "fabric-26.2" = _CuSE2l7D;
+        "fabric-26.3" = _PmtGp2dK;
         "forge-1.20.1" = _Z1ORYeVP;
         "neoforge-1.21.1" = _ZJ3dZJKV;
         "neoforge-1.21.4" = _pfFQTmJj;
@@ -699,12 +729,12 @@ let
         "pkg-1.9.6+26.2" = _fUulfFS6;
         "pkg-1.9.6+1.21.1" = _XOlY9iQe;
         "pkg-1.9.6+1.21.11" = _xujhjzJH;
-        "pkg-1.9.7-alpha+1.21.4" = _Odwkk6mn;
-        "pkg-1.9.7-alpha+26.2" = _FvM5aSjT;
-        "pkg-1.9.7-alpha+1.21.11" = _GVaMBpKa;
-        "pkg-1.9.7-alpha+1.21.1" = _RKrvkAIu;
-        "pkg-1.9.7-alpha+26.3" = _87jgmkuR;
-        "default" = _87jgmkuR;
+        "pkg-1.9.7-alpha+1.21.4" = _M8zOTzNV;
+        "pkg-1.9.7-alpha+26.2" = _CuSE2l7D;
+        "pkg-1.9.7-alpha+1.21.11" = _mJ5D5iE2;
+        "pkg-1.9.7-alpha+1.21.1" = _DoZwjezk;
+        "pkg-1.9.7-alpha+26.3" = _PmtGp2dK;
+        "default" = _PmtGp2dK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "solstice-essentials";

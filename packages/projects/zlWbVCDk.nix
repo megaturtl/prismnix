@@ -36,6 +36,11 @@ let
             "file" = "unbreakable_leads-1.0.5+26.1.jar";
             "hash" = "sha512-53IIwD18f0UtyiNYrT0gas3r+vOzp6Mw6/LDhTx1Ig8XrYOIVs7FNs+OXNqiFYCmWnEuAomEDve59Yxl2+l81A==";
         };
+        _UkAkmK9K = {
+            "id" = "UkAkmK9K";
+            "file" = "unbreakable_leads-1.0.5+26.3.jar";
+            "hash" = "sha512-cZRS/V6efb+YHKFXVbN2JvScYhGdZ6kNBNdxLDd40lcQ+W03piNBoB5V/nrttgzGaGuKNxPna+0BHM6fg+1pHA==";
+        };
     in {
         "3vunjLnQ" = _3vunjLnQ;
         "RAOx2d0p" = _RAOx2d0p;
@@ -44,6 +49,7 @@ let
         "MfA95Bfi" = _MfA95Bfi;
         "URnCafO7" = _URnCafO7;
         "6nugQd6O" = _6nugQd6O;
+        "UkAkmK9K" = _UkAkmK9K;
         "fabric-1.21.6" = _URnCafO7;
         "fabric-1.21.7" = _URnCafO7;
         "fabric-1.21.8" = _URnCafO7;
@@ -62,6 +68,7 @@ let
         "fabric-26.1" = _6nugQd6O;
         "fabric-26.1.1" = _6nugQd6O;
         "fabric-26.1.2" = _6nugQd6O;
+        "fabric-26.3" = _UkAkmK9K;
         "pkg-1.0.0" = _3vunjLnQ;
         "pkg-1.0.1" = _RAOx2d0p;
         "pkg-1.0.2" = _drHksM65;
@@ -69,7 +76,8 @@ let
         "pkg-1.0.4+1.21.10" = _MfA95Bfi;
         "pkg-1.0.5+1.21.11" = _URnCafO7;
         "pkg-1.0.5+26.1" = _6nugQd6O;
-        "default" = _6nugQd6O;
+        "pkg-1.0.5+26.3" = _UkAkmK9K;
+        "default" = _UkAkmK9K;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "unbreakable-leads";

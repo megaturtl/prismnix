@@ -136,6 +136,11 @@ let
             "file" = "magic_vibe_decorations-3.0.1-neoforge-26.3.jar";
             "hash" = "sha512-nXe5kTWvJqQCVbxLlxXMnE942V7PfaaMmztTmQ8PBPrkqRV7xrF37636auROtL4lj67Lf3+Z+galhQGRhiE00Q==";
         };
+        _uZ4aRG8L = {
+            "id" = "uZ4aRG8L";
+            "file" = "magic_vibe_decorations-4.0.0-forge-1.20.1.jar";
+            "hash" = "sha512-xGQeuYd4qJBX+ldz/D2KU4p25/gNx/P4w8xsRPhrvYLZ/rj8TdEW85ehf3TYh93MhR9nJwFeEadYD45mQ94Q7w==";
+        };
     in {
         "NGn6sD5g" = _NGn6sD5g;
         "ugiO5FHZ" = _ugiO5FHZ;
@@ -164,6 +169,7 @@ let
         "48BVdgry" = _48BVdgry;
         "jox38qux" = _jox38qux;
         "Id9Hybcu" = _Id9Hybcu;
+        "uZ4aRG8L" = _uZ4aRG8L;
         "fabric-1.20.1" = _yXiKxAFn;
         "fabric-1.19.2" = _ZOzwsaFd;
         "fabric-1.21" = _en00c0hm;
@@ -180,7 +186,7 @@ let
         "forge-1.18.2" = _ugiO5FHZ;
         "forge-1.16.5" = _nCUHdbMY;
         "forge-1.19.2" = _LyOHyb1F;
-        "forge-1.20.1" = _T60IFFJa;
+        "forge-1.20.1" = _uZ4aRG8L;
         "forge-1.21" = _oW9bm0Eh;
         "forge-1.21.1" = _oW9bm0Eh;
         "forge-1.21.5" = _1NoLs4Nt;
@@ -222,7 +228,8 @@ let
         "pkg-2.3.3" = _B20ES0IZ;
         "pkg-2.3.4" = _8eSMNKqC;
         "pkg-3.0.1" = _Id9Hybcu;
-        "default" = _Id9Hybcu;
+        "pkg-4.0.0" = _uZ4aRG8L;
+        "default" = _uZ4aRG8L;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "magic-vibe-decorations";

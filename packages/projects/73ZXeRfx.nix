@@ -86,6 +86,11 @@ let
             "file" = "create_aeronautics_automated_logistics-0.6.2.jar";
             "hash" = "sha512-FT8Zu2qNHn94++Kp+8glowk1xmqw8LFb2oNQcewDx/ax9F2C7f915DGzcY9ncS5FVcCvdQV/yhJt/nr8hIBymQ==";
         };
+        _ESwTkggq = {
+            "id" = "ESwTkggq";
+            "file" = "create_aeronautics_automated_logistics-0.7.0.jar";
+            "hash" = "sha512-ej5+KUK/B25UXcer8liw4BQkS/FKroQTTzHU4nuNUNpSX/QdI+rrzSRIPG8SBvJpkxA4sY574EYG/MxsdS7xAw==";
+        };
     in {
         "EvhgHyVq" = _EvhgHyVq;
         "3Fnw1I57" = _3Fnw1I57;
@@ -104,7 +109,8 @@ let
         "b9UZAqAR" = _b9UZAqAR;
         "OwMoQnML" = _OwMoQnML;
         "EgPi4wq9" = _EgPi4wq9;
-        "neoforge-1.21.1" = _EgPi4wq9;
+        "ESwTkggq" = _ESwTkggq;
+        "neoforge-1.21.1" = _ESwTkggq;
         "pkg-0.1.0" = _EvhgHyVq;
         "pkg-0.1.1" = _3Fnw1I57;
         "pkg-0.1.2" = _kRgEnabX;
@@ -122,7 +128,8 @@ let
         "pkg-0.6.0" = _b9UZAqAR;
         "pkg-0.6.1" = _OwMoQnML;
         "pkg-0.6.2" = _EgPi4wq9;
-        "default" = _EgPi4wq9;
+        "pkg-0.7.0" = _ESwTkggq;
+        "default" = _ESwTkggq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-aeronautics-automated-logistics";

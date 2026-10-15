@@ -16,17 +16,30 @@ let
             "file" = "Wraitharmy_v-1.0.2_mc-26.3.jar";
             "hash" = "sha512-nmIR+wuD/sS37+6bZTiSZJKalBF1uLOgeZ6ssWBlctBHI6kcKqsPZToe/WyvQ8zpDaqI+MbFtPXqlG/RiF9wKw==";
         };
+        _j5GYTWzU = {
+            "id" = "j5GYTWzU";
+            "file" = "Wraitharmy_v-1.1.0-beta.1_mc-1.21.11.jar";
+            "hash" = "sha512-PUazpimxYiYQz3daXqHQfwf9WfCDwzcJBr8C94AFNyzaN3qQYSVNwUjBKLt5mZ2VgrL8C6lvIv3pKnGcUgi/IQ==";
+        };
+        _GvQvxtm6 = {
+            "id" = "GvQvxtm6";
+            "file" = "Wraitharmy_v-1.1.0-beta.1_mc-26.3.jar";
+            "hash" = "sha512-oVWnUSKQDW68zQ8R3zhPejEIjBmyHCuCnT/3BNPfZ9Yt4O+2tIurruN8M7Vf65opAow1W1X1vTvvyOwHuNsWPA==";
+        };
     in {
         "BGEdQ77k" = _BGEdQ77k;
         "Wwd3Jon8" = _Wwd3Jon8;
         "Wgj3VXXB" = _Wgj3VXXB;
-        "fabric-1.21.11" = _BGEdQ77k;
+        "j5GYTWzU" = _j5GYTWzU;
+        "GvQvxtm6" = _GvQvxtm6;
+        "fabric-1.21.11" = _j5GYTWzU;
         "fabric-26.2" = _Wwd3Jon8;
-        "fabric-26.3" = _Wgj3VXXB;
+        "fabric-26.3" = _GvQvxtm6;
         "pkg-1.0.0" = _BGEdQ77k;
         "pkg-1.0.1" = _Wwd3Jon8;
         "pkg-1.0.2" = _Wgj3VXXB;
-        "default" = _Wgj3VXXB;
+        "pkg-1.1.0-beta.1" = _GvQvxtm6;
+        "default" = _GvQvxtm6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wraitharmy";

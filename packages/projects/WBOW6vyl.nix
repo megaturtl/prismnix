@@ -41,6 +41,11 @@ let
             "file" = "treetimber-3.5.0.jar";
             "hash" = "sha512-Hk0U8iuu4hEaNapcQs/6xyTVdmyDYQRvhHp4e8SDBF7awxzeOImH3FijDYCyyUtjAwhOFDXKhJeRafT+alKxVA==";
         };
+        _UykLbwsI = {
+            "id" = "UykLbwsI";
+            "file" = "treetimber-1.0.0.jar";
+            "hash" = "sha512-m5ZM6aGOemu6m1LQ/EXdkgf4MddiDMPQ5uQdKB9jGZT9+myWXrEFpEdyx5/9vedmc2iT6lBN7w5oW3Ojew1fWA==";
+        };
     in {
         "Yet9Jezt" = _Yet9Jezt;
         "yLYRXYnt" = _yLYRXYnt;
@@ -50,19 +55,22 @@ let
         "vDau6DwX" = _vDau6DwX;
         "JnI2q6zl" = _JnI2q6zl;
         "2VllPvM1" = _2VllPvM1;
+        "UykLbwsI" = _UykLbwsI;
         "fabric-1.21.5" = _JnI2q6zl;
         "fabric-1.21.6" = _JnI2q6zl;
         "fabric-1.21.7" = _JnI2q6zl;
         "fabric-1.21.8" = _JnI2q6zl;
         "fabric-1.21.9" = _2VllPvM1;
         "fabric-1.21.10" = _2VllPvM1;
+        "fabric-26.3" = _UykLbwsI;
         "pkg-v1.2" = _Yet9Jezt;
         "pkg-v1.2.1" = _yLYRXYnt;
         "pkg-v2.0" = _xO7Jw0A5;
         "pkg-v3.0" = _oNB8UebL;
         "pkg-3.0.1" = _etqSnJeh;
         "pkg-3.5.0" = _2VllPvM1;
-        "default" = _2VllPvM1;
+        "pkg-1.0.0" = _UykLbwsI;
+        "default" = _UykLbwsI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "thetreetimber";

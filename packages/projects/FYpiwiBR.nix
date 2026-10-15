@@ -141,6 +141,16 @@ let
             "file" = "ConnectorExtras-2.0.2+26.1.2.jar";
             "hash" = "sha512-zoTpaav6BpC9I/+gDe392eb2UnRFt1EaNOHgJAY84kk7ipnQEgC55POFTxLz0pyEjJmf4HDMRFLG+VrcWa5GRA==";
         };
+        _iHaZEnHy = {
+            "id" = "iHaZEnHy";
+            "file" = "ConnectorExtras-2.0.4+26.1.2.jar";
+            "hash" = "sha512-4RBXDy4AcsZ1jO/v2yRQmKGrSTj8RTcMaMYpf8T8l/TJ2bsNgOZ2ARWLdgAmsCE/pYuv5he+Wx7FIZFrTDSFFg==";
+        };
+        _6Wl4MLej = {
+            "id" = "6Wl4MLej";
+            "file" = "ConnectorExtras-2.1.1+26.2.jar";
+            "hash" = "sha512-EDqET28RdZyZA5rzr7+Had8AcbKe9ONbVdql7be6KbeaZjhrQcoTlx79FG5Cd8vNRS2CUYQfsM9pDaQOtFNFFA==";
+        };
     in {
         "oK4R8ciM" = _oK4R8ciM;
         "dDSdXWHA" = _dDSdXWHA;
@@ -170,10 +180,13 @@ let
         "X0aO2A0t" = _X0aO2A0t;
         "V7D6sNzJ" = _V7D6sNzJ;
         "hGQUSqpt" = _hGQUSqpt;
+        "iHaZEnHy" = _iHaZEnHy;
+        "6Wl4MLej" = _6Wl4MLej;
         "forge-1.20.1" = _d28gpPn6;
         "neoforge-1.21" = _WUktoh8L;
         "neoforge-1.21.1" = _dgLCqZyo;
-        "neoforge-26.1.2" = _hGQUSqpt;
+        "neoforge-26.1.2" = _iHaZEnHy;
+        "neoforge-26.2" = _6Wl4MLej;
         "pkg-1.0.0" = _oK4R8ciM;
         "pkg-1.0.1+1.20.1" = _dDSdXWHA;
         "pkg-1.1.0+1.20.1" = _whcQd3hZ;
@@ -202,7 +215,9 @@ let
         "pkg-2.0.0+26.1.2" = _X0aO2A0t;
         "pkg-2.0.1+26.1.2" = _V7D6sNzJ;
         "pkg-2.0.2+26.1.2" = _hGQUSqpt;
-        "default" = _hGQUSqpt;
+        "pkg-2.0.4+26.1.2" = _iHaZEnHy;
+        "pkg-2.1.1+26.2" = _6Wl4MLej;
+        "default" = _6Wl4MLej;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "connector-extras";

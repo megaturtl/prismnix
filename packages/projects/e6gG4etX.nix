@@ -21,11 +21,17 @@ let
             "file" = "Create-Origins-Compat-1.2.1.jar";
             "hash" = "sha512-gayHLP9C0Hx+GtTO+txbp8vtGxbjDNhvxKXWV4HefShWka+H42lqoZ4E2EMyOn4RpDKExnzgySzF91cw1s/hLA==";
         };
+        _qYN9yx89 = {
+            "id" = "qYN9yx89";
+            "file" = "Create-Origins-Compat-1.2.2.jar";
+            "hash" = "sha512-5KVZXSgc9mbeXKHodyVYGYtegMZr7XJR0UJ2GUBEEOaYRFOC5O1nHflIfnhSpN4NFi8lWgKoaG6PiKONJ3Ej7w==";
+        };
     in {
         "8S6kqZTo" = _8S6kqZTo;
         "Hnhtrb36" = _Hnhtrb36;
         "uC5ZIAbQ" = _uC5ZIAbQ;
         "1e0i9rKH" = _1e0i9rKH;
+        "qYN9yx89" = _qYN9yx89;
         "fabric-1.18" = _8S6kqZTo;
         "fabric-1.18.1" = _8S6kqZTo;
         "fabric-1.18.2" = _8S6kqZTo;
@@ -35,7 +41,7 @@ let
         "fabric-1.19.3" = _8S6kqZTo;
         "fabric-1.19.4" = _8S6kqZTo;
         "fabric-1.20" = _8S6kqZTo;
-        "fabric-1.20.1" = _1e0i9rKH;
+        "fabric-1.20.1" = _qYN9yx89;
         "fabric-1.20.2" = _8S6kqZTo;
         "fabric-1.20.3" = _8S6kqZTo;
         "fabric-1.20.4" = _8S6kqZTo;
@@ -55,7 +61,7 @@ let
         "forge-1.19.3" = _8S6kqZTo;
         "forge-1.19.4" = _8S6kqZTo;
         "forge-1.20" = _8S6kqZTo;
-        "forge-1.20.1" = _1e0i9rKH;
+        "forge-1.20.1" = _qYN9yx89;
         "forge-1.20.2" = _8S6kqZTo;
         "forge-1.20.3" = _8S6kqZTo;
         "forge-1.20.4" = _8S6kqZTo;
@@ -75,7 +81,7 @@ let
         "neoforge-1.19.3" = _8S6kqZTo;
         "neoforge-1.19.4" = _8S6kqZTo;
         "neoforge-1.20" = _8S6kqZTo;
-        "neoforge-1.20.1" = _1e0i9rKH;
+        "neoforge-1.20.1" = _qYN9yx89;
         "neoforge-1.20.2" = _8S6kqZTo;
         "neoforge-1.20.3" = _8S6kqZTo;
         "neoforge-1.20.4" = _8S6kqZTo;
@@ -110,7 +116,8 @@ let
         "pkg-1.1.0" = _Hnhtrb36;
         "pkg-1.2.0" = _uC5ZIAbQ;
         "pkg-1.2.1" = _1e0i9rKH;
-        "default" = _1e0i9rKH;
+        "pkg-1.2.2" = _qYN9yx89;
+        "default" = _qYN9yx89;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-origins-compat";

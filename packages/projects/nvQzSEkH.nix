@@ -1696,6 +1696,11 @@ let
             "file" = "Jade-mc26.3-NeoForge-26.3.5.jar";
             "hash" = "sha512-MiGfsqiwBNAnF5vfJwdke+TAirN0ylIEQy1jYB5+TLxPRXQnMom7hnqK+kdttjpppaDQh0bpvBNNUutBSJ463Q==";
         };
+        _Pr1h4azo = {
+            "id" = "Pr1h4azo";
+            "file" = "Jade-mc26.1-NeoForge-26.1.12.jar";
+            "hash" = "sha512-9Fc1J7EGqlvu2+bAlFGB8BwEoBuHEdgVumsgwfE2vSKjK+pnFp4kvoldOA1zYLitiiqVMd4RwBUCJKMb5POxcw==";
+        };
     in {
         "q4ZaJMOV" = _q4ZaJMOV;
         "okzqmJFR" = _okzqmJFR;
@@ -2036,6 +2041,7 @@ let
         "SpZLbrxW" = _SpZLbrxW;
         "71CTWqdE" = _71CTWqdE;
         "dVB8U7Td" = _dVB8U7Td;
+        "Pr1h4azo" = _Pr1h4azo;
         "fabric-1.19.1" = _ZASePpsm;
         "fabric-1.19.2" = _ZASePpsm;
         "fabric-1.18.2" = _MSJGBHIo;
@@ -2181,10 +2187,10 @@ let
         "neoforge-1.21.9" = _q7P6JKIH;
         "neoforge-1.21.10" = _q7P6JKIH;
         "neoforge-1.21.11" = _LDFqgwEA;
-        "neoforge-26.1" = _5jKeKXwB;
+        "neoforge-26.1" = _Pr1h4azo;
         "neoforge-26.1.1-rc-1" = _lE1BCRgi;
-        "neoforge-26.1.1" = _5jKeKXwB;
-        "neoforge-26.1.2" = _5jKeKXwB;
+        "neoforge-26.1.1" = _Pr1h4azo;
+        "neoforge-26.1.2" = _Pr1h4azo;
         "neoforge-26.2" = _GBES6etT;
         "neoforge-26.3" = _dVB8U7Td;
         "pkg-8.6.3" = _okzqmJFR;
@@ -2499,7 +2505,8 @@ let
         "pkg-26.3.3+fabric" = _SpZLbrxW;
         "pkg-26.3.5+fabric" = _71CTWqdE;
         "pkg-26.3.5+neoforge" = _dVB8U7Td;
-        "default" = _dVB8U7Td;
+        "pkg-26.1.12+neoforge" = _Pr1h4azo;
+        "default" = _Pr1h4azo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jade";

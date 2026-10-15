@@ -186,6 +186,16 @@ let
             "file" = "enchanted_golden_apple_reborn-neoforge-26.2-1.5.jar";
             "hash" = "sha512-jysXdtqAI8tcUzxPLMyIoLgL/Waq/TvDgKhNrl0yj6vSoGvGnFgsrrr1Cl0LCjHynQWIJCN1xrGMHVriKUC16Q==";
         };
+        _vbP4g60E = {
+            "id" = "vbP4g60E";
+            "file" = "enchanted_golden_apple_reborn-fabric-26.3-1.5.jar";
+            "hash" = "sha512-+pzRGsTLjA29vL6Wr9CdAX9Lb5pwmmRPI71fAUo9ZR9FSg4cpwQLNFU6V1VyoUSezHEUe2NjQm57plyJURQgsA==";
+        };
+        _P9WjdlVT = {
+            "id" = "P9WjdlVT";
+            "file" = "enchanted_golden_apple_reborn-neoforge-26.3-1.5.jar";
+            "hash" = "sha512-WViBpc9XOVJoHw5vASBUZZ04Y+cF9Fbzalp8PPJViQ+4jznAc+zhs2ylw3kUw1TdjnY76IYagF7wiiqCJxrAPA==";
+        };
     in {
         "67FLPqzS" = _67FLPqzS;
         "PDINVTLn" = _PDINVTLn;
@@ -224,6 +234,8 @@ let
         "5VzeEHHr" = _5VzeEHHr;
         "9x56Uanj" = _9x56Uanj;
         "m6TfBqPH" = _m6TfBqPH;
+        "vbP4g60E" = _vbP4g60E;
+        "P9WjdlVT" = _P9WjdlVT;
         "fabric-1.21" = _qJ7942Bi;
         "fabric-1.21.1" = _jbcJsWxd;
         "fabric-1.21.2" = _tObSUpTc;
@@ -242,6 +254,7 @@ let
         "fabric-26.1" = _UwLqYPee;
         "fabric-26.1.2" = _ajQumlNZ;
         "fabric-26.2" = _9x56Uanj;
+        "fabric-26.3" = _vbP4g60E;
         "neoforge-1.21" = _Ejc5cBjX;
         "neoforge-1.21.1" = _qB4XxTx9;
         "neoforge-1.21.5" = _5W9jDrJn;
@@ -253,6 +266,7 @@ let
         "neoforge-26.1" = _4nUAKy6M;
         "neoforge-26.1.2" = _5VzeEHHr;
         "neoforge-26.2" = _m6TfBqPH;
+        "neoforge-26.3" = _P9WjdlVT;
         "forge-1.21" = _F1pvwrTv;
         "forge-1.20.1" = _Ewov5JTa;
         "forge-1.21.1" = _57dPRA45;
@@ -263,8 +277,8 @@ let
         "pkg-1.3-1.21.6" = _3FCc0pCk;
         "pkg-1.3-1.21" = _tObSUpTc;
         "pkg-1.4" = _57dPRA45;
-        "pkg-1.5" = _m6TfBqPH;
-        "default" = _m6TfBqPH;
+        "pkg-1.5" = _P9WjdlVT;
+        "default" = _P9WjdlVT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchant-golden-apple-reborn";

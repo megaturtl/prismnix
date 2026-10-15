@@ -126,6 +126,11 @@ let
             "file" = "natures_delight-1.13.1-1.21.1.jar";
             "hash" = "sha512-/dzDKNJ6BfKXbW/e1hGqmxL8LlaxRAPTzRnWFSr/kHbaPxqzpZkA+6R02dRwRAPxCt5NFhQR9e2WaIgsgxZyPw==";
         };
+        _hX9wpgmO = {
+            "id" = "hX9wpgmO";
+            "file" = "natures_delight-1.13.2-1.21.1.jar";
+            "hash" = "sha512-/OA6kMeJUFNKgnQyI+NVVbYuBUqEeqbEM8J79q66XK/vkszDo9F0Y2FP34gbw0jYhE4XJFyNnJ07+pYIQ3LPsw==";
+        };
     in {
         "hPrmmnnZ" = _hPrmmnnZ;
         "N5eHypWd" = _N5eHypWd;
@@ -152,12 +157,13 @@ let
         "yJAdcB1t" = _yJAdcB1t;
         "V6pgFm93" = _V6pgFm93;
         "AoQsFwaX" = _AoQsFwaX;
+        "hX9wpgmO" = _hX9wpgmO;
         "fabric-1.20.1" = _oE6qdrOY;
         "fabric-1.21.1" = _yJAdcB1t;
         "quilt-1.20.1" = _EdNrnKch;
         "quilt-1.21.1" = _B1SkJwMs;
         "forge-1.20.1" = _V6pgFm93;
-        "neoforge-1.21.1" = _AoQsFwaX;
+        "neoforge-1.21.1" = _hX9wpgmO;
         "pkg-1.0" = _hPrmmnnZ;
         "pkg-1.1" = _N5eHypWd;
         "pkg-1.2" = _CwDB15AF;
@@ -179,7 +185,8 @@ let
         "pkg-1.13-1.20.1" = _V6Ghop7C;
         "pkg-1.13.1-1.20.1" = _V6pgFm93;
         "pkg-1.13.1-1.21.1" = _AoQsFwaX;
-        "default" = _AoQsFwaX;
+        "pkg-1.13.2-1.21.1" = _hX9wpgmO;
+        "default" = _hX9wpgmO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "natures-delight";

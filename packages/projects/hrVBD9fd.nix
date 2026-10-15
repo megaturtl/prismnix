@@ -226,6 +226,11 @@ let
             "file" = "BLAST-fabric-1.14-26.3.jar";
             "hash" = "sha512-N0rKrwWTFxtzoeIm3GFvnNuNjSpkHNmT+ga10nrDfvS0QAQkkWY6nE0xqk05AbVa+fS6AUh/eBgn4ydY46MTWA==";
         };
+        _YhiOcDsa = {
+            "id" = "YhiOcDsa";
+            "file" = "BLAST-neoforge-1.14-26.2.jar";
+            "hash" = "sha512-lrHFFoIoI3Gp1hH9/8nbxYi/P950/uKKnNsKbjS1K4E8+aX4+GGlVCzuRDP59lFYfi2I/wVtwjy1m96Vyb8XQA==";
+        };
     in {
         "4vi59LgI" = _4vi59LgI;
         "pSmVu2ni" = _pSmVu2ni;
@@ -272,6 +277,7 @@ let
         "33toGYmb" = _33toGYmb;
         "mlLn4vSd" = _mlLn4vSd;
         "dPNIO9HH" = _dPNIO9HH;
+        "YhiOcDsa" = _YhiOcDsa;
         "fabric-1.20.1" = _ojB3W9Gs;
         "fabric-1.14.4" = _j8wupN18;
         "fabric-1.15.1" = _r0xueyn0;
@@ -319,6 +325,7 @@ let
         "neoforge-26.1" = _33toGYmb;
         "neoforge-26.1.1" = _33toGYmb;
         "neoforge-26.1.2" = _33toGYmb;
+        "neoforge-26.2" = _YhiOcDsa;
         "pkg-1.11" = _4vi59LgI;
         "pkg-1.12" = _pSmVu2ni;
         "pkg-1.13" = _ojB3W9Gs;
@@ -361,9 +368,9 @@ let
         "pkg-1.13.9-26.1.2" = _hR35jKdp;
         "pkg-1.13.9-26.2" = _YeCXpbYS;
         "pkg-1.14-26.1" = _33toGYmb;
-        "pkg-1.14-26.2" = _mlLn4vSd;
+        "pkg-1.14-26.2" = _YhiOcDsa;
         "pkg-1.14-26.3" = _dPNIO9HH;
-        "default" = _dPNIO9HH;
+        "default" = _YhiOcDsa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blast";

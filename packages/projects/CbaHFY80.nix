@@ -26,12 +26,24 @@ let
             "file" = "fireproof-netherite-atlasplays-2.1.0.jar";
             "hash" = "sha512-poKlEt2aJP1VH06oSyDTDdN54FFZvtORkkG89rU8bs+eAU5979e/BMQNVa74dfsslsM5FWFmfhTZpia4kHMrlQ==";
         };
+        _boEYXOeX = {
+            "id" = "boEYXOeX";
+            "file" = "Fireproof Netherite v2.2.0.zip";
+            "hash" = "sha512-Lfz/8QNHoAFcltS9orkxXoJ64oJxIS/rvL2iwBXRdYPUb+xOQh+0O8QR9HdAz1eKrGSigEQvBdugIHrBWu9r3Q==";
+        };
+        _5EkEwGaL = {
+            "id" = "5EkEwGaL";
+            "file" = "fireproof-netherite-atlasplays-2.2.0.jar";
+            "hash" = "sha512-5iec9diYzrn8pO/Suaj6MlDfVw2x5bxmpjCotNNVYnp5JH4WI33finvs9vJeSAym1tolgwQH1fdv8ebKYh2n/Q==";
+        };
     in {
         "vZXDB5hi" = _vZXDB5hi;
         "rj2CpvDh" = _rj2CpvDh;
         "UcrCd5Ua" = _UcrCd5Ua;
         "Rem0vYGS" = _Rem0vYGS;
         "c5Z1b5If" = _c5Z1b5If;
+        "boEYXOeX" = _boEYXOeX;
+        "5EkEwGaL" = _5EkEwGaL;
         "datapack-1.20" = _vZXDB5hi;
         "datapack-1.20.1" = _vZXDB5hi;
         "datapack-1.20.2" = _vZXDB5hi;
@@ -41,28 +53,35 @@ let
         "datapack-1.21.1" = _rj2CpvDh;
         "datapack-1.21.4" = _Rem0vYGS;
         "datapack-1.21.5" = _Rem0vYGS;
+        "datapack-26.3" = _boEYXOeX;
         "fabric-1.21" = _UcrCd5Ua;
         "fabric-1.21.1" = _UcrCd5Ua;
         "fabric-1.21.4" = _c5Z1b5If;
         "fabric-1.21.5" = _c5Z1b5If;
+        "fabric-26.3" = _5EkEwGaL;
         "forge-1.21" = _UcrCd5Ua;
         "forge-1.21.1" = _UcrCd5Ua;
         "forge-1.21.4" = _c5Z1b5If;
         "forge-1.21.5" = _c5Z1b5If;
+        "forge-26.3" = _5EkEwGaL;
         "neoforge-1.21" = _UcrCd5Ua;
         "neoforge-1.21.1" = _UcrCd5Ua;
         "neoforge-1.21.4" = _c5Z1b5If;
         "neoforge-1.21.5" = _c5Z1b5If;
+        "neoforge-26.3" = _5EkEwGaL;
         "quilt-1.21" = _UcrCd5Ua;
         "quilt-1.21.1" = _UcrCd5Ua;
         "quilt-1.21.4" = _c5Z1b5If;
         "quilt-1.21.5" = _c5Z1b5If;
+        "quilt-26.3" = _5EkEwGaL;
         "pkg-1.4.0" = _vZXDB5hi;
         "pkg-2.0.0" = _rj2CpvDh;
         "pkg-2.0.0+mod" = _UcrCd5Ua;
         "pkg-2.1.0" = _Rem0vYGS;
         "pkg-2.1.0+mod" = _c5Z1b5If;
-        "default" = _c5Z1b5If;
+        "pkg-2.2.0" = _boEYXOeX;
+        "pkg-2.2.0+mod" = _5EkEwGaL;
+        "default" = _5EkEwGaL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fireproof-netherite-atlasplays";

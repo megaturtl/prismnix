@@ -46,6 +46,11 @@ let
             "file" = "fox-friend-remastered-5.1.10.1-26.3+.jar";
             "hash" = "sha512-76S5Vg5IgEs5GylogfWYXOpcNJF58ua/fPsb9Iy2qJfXsZzMOFFn1QxNU1xGzjqFKYLPzvcmwtf2jA+8569p+Q==";
         };
+        _UqWVbKwf = {
+            "id" = "UqWVbKwf";
+            "file" = "fox-friend-remastered-5.1.10.2-26.3+.jar";
+            "hash" = "sha512-JAlq+t7xm5wPowYoe87HcUJJ2CxACwY/nUwmKL2gfQNElTEE327pLPeWhLNmt2VxrAzYr+vE07Y2pl4iVAfbbw==";
+        };
     in {
         "l2FiP52J" = _l2FiP52J;
         "iOLFyHH1" = _iOLFyHH1;
@@ -56,20 +61,22 @@ let
         "NGjF03ge" = _NGjF03ge;
         "C0jFD41s" = _C0jFD41s;
         "qSl3hCmt" = _qSl3hCmt;
+        "UqWVbKwf" = _UqWVbKwf;
         "fabric-1.21.11" = _NcsOon1B;
         "fabric-1.21.10" = _ChRWqzIg;
         "fabric-26.1" = _lJWCgKzi;
         "fabric-26.1.1" = _lJWCgKzi;
         "fabric-26.1.2" = _lJWCgKzi;
         "fabric-26.2" = _ewGm6ciW;
-        "fabric-26.3" = _qSl3hCmt;
+        "fabric-26.3" = _UqWVbKwf;
         "pkg-5.1.8" = _l2FiP52J;
         "pkg-5.1.8.1" = _iOLFyHH1;
         "pkg-5.1.8.2" = _NcsOon1B;
         "pkg-5.1.9.2" = _NGjF03ge;
         "pkg-5.1.10" = _C0jFD41s;
         "pkg-5.1.10.1" = _qSl3hCmt;
-        "default" = _qSl3hCmt;
+        "pkg-5.1.10.2" = _UqWVbKwf;
+        "default" = _UqWVbKwf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fox-friend-remastered";

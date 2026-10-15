@@ -291,6 +291,16 @@ let
             "file" = "naturespirit-2.2.5-1.21.1.jar";
             "hash" = "sha512-gRAXILfM9SeK6cNIyVvGNt12wi2nf0hckz9oL9srOmCW9B03IHo5No9MRvPkR3uR+aXyiLwkZE1c3GFj9zPKuQ==";
         };
+        _SeqkFW07 = {
+            "id" = "SeqkFW07";
+            "file" = "NaturesSpiritFabric-2.2.6-1.21.1.jar";
+            "hash" = "sha512-h2MMPtZTWnwI5HY4Ctlc/u3+T3w78zNd4BPvCs7ED8X68nTNafUMAdMwlHtMgS37thUTg7pfnyIfEUsFEgdXjQ==";
+        };
+        _7ywS0UWV = {
+            "id" = "7ywS0UWV";
+            "file" = "natures_spirit-2.2.6-1.21.1.jar";
+            "hash" = "sha512-WfHRTTPTmQzM8DHZXLg4zcFNJO4eBHcWa1U02QXAWhzpjYqalKBqCncmvSxkUtnZwFPxnwhPTmVJf6AdmjtP6A==";
+        };
     in {
         "6GCFqmxu" = _6GCFqmxu;
         "cUt9cfpK" = _cUt9cfpK;
@@ -350,18 +360,20 @@ let
         "MGjl80vc" = _MGjl80vc;
         "GW1xcaGA" = _GW1xcaGA;
         "TRMapjpU" = _TRMapjpU;
+        "SeqkFW07" = _SeqkFW07;
+        "7ywS0UWV" = _7ywS0UWV;
         "fabric-1.20.1" = _GW1xcaGA;
         "fabric-1.20.4" = _t2i6toEm;
         "fabric-1.20.6" = _PEDBSmFj;
         "fabric-1.21" = _tDTCH8Qv;
-        "fabric-1.21.1" = _TRMapjpU;
+        "fabric-1.21.1" = _SeqkFW07;
         "quilt-1.20.1" = _vLbQwq6H;
         "quilt-1.20.4" = _t2i6toEm;
         "quilt-1.20.6" = _PEDBSmFj;
         "quilt-1.21" = _tDTCH8Qv;
         "quilt-1.21.1" = _znuiO1Jm;
         "forge-1.20.1" = _ri5j4RHM;
-        "neoforge-1.21.1" = _MGjl80vc;
+        "neoforge-1.21.1" = _7ywS0UWV;
         "pkg-1.0" = _6GCFqmxu;
         "pkg-1.1" = _cUt9cfpK;
         "pkg-1.2.0" = _M6a2Rl4r;
@@ -414,7 +426,8 @@ let
         "pkg-2.2.4-1.21.1" = _sUhwOqbY;
         "pkg-2.2.5-1.20.1" = _GW1xcaGA;
         "pkg-2.2.5-1.21.1" = _TRMapjpU;
-        "default" = _TRMapjpU;
+        "pkg-2.2.6-1.21.1" = _7ywS0UWV;
+        "default" = _7ywS0UWV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "natures-spirit";

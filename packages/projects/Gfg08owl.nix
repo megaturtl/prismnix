@@ -236,6 +236,16 @@ let
             "file" = "elytra-revamped-rerewritten+26.x-1.0.3.jar";
             "hash" = "sha512-MAjTz81djZOrAIuVfE+AsdqDbKmMuCpEGKBfOUY6sFBjpfltadGJjUJUACIh+OUitpTGngtavxzrV5FqW5vGTA==";
         };
+        _pORmq3em = {
+            "id" = "pORmq3em";
+            "file" = "elytra-revamped-rerewritten+1.21.11-1.0.35.jar";
+            "hash" = "sha512-G5//q8YBkxOWRO89OpP2WOPxe1ygQljcZ2X446BA5rmtdnVjfndZSfv7BDZaZOM0FYp+lSZuNJNE2mRqDgn6Hw==";
+        };
+        _aXeoGJ2L = {
+            "id" = "aXeoGJ2L";
+            "file" = "elytra-revamped-rerewritten+26.x-1.0.35.jar";
+            "hash" = "sha512-naEJJQBOGha3tFsWz++eamVTo6MR/Av28dG2JVv1S9CYH/rMukg9VMb6WoWKUNCMtpnCRIkDeYxvJ0f64jRwXw==";
+        };
     in {
         "QAmdGcQW" = _QAmdGcQW;
         "CBfFspV4" = _CBfFspV4;
@@ -284,6 +294,8 @@ let
         "9IsXOvpB" = _9IsXOvpB;
         "aq9olpVF" = _aq9olpVF;
         "LMsfInxf" = _LMsfInxf;
+        "pORmq3em" = _pORmq3em;
+        "aXeoGJ2L" = _aXeoGJ2L;
         "fabric-1.21.4" = _BkNtQzVn;
         "fabric-1.21.5" = _8fb0wi5f;
         "fabric-1.21.6" = _X2ymQk8w;
@@ -291,12 +303,12 @@ let
         "fabric-1.21.8" = _7AgCCuFl;
         "fabric-1.21.9" = _4zYo94dX;
         "fabric-1.21.10" = _4zYo94dX;
-        "fabric-1.21.11" = _9IsXOvpB;
-        "fabric-26.1" = _LMsfInxf;
-        "fabric-26.1.1" = _LMsfInxf;
-        "fabric-26.1.2" = _LMsfInxf;
-        "fabric-26.2" = _LMsfInxf;
-        "fabric-26.3" = _LMsfInxf;
+        "fabric-1.21.11" = _pORmq3em;
+        "fabric-26.1" = _aXeoGJ2L;
+        "fabric-26.1.1" = _aXeoGJ2L;
+        "fabric-26.1.2" = _aXeoGJ2L;
+        "fabric-26.2" = _aXeoGJ2L;
+        "fabric-26.3" = _aXeoGJ2L;
         "pkg-0.0.2" = _QAmdGcQW;
         "pkg-0.0.1" = _CBfFspV4;
         "pkg-0.0.3" = _SGweuA4Z;
@@ -317,7 +329,8 @@ let
         "pkg-1.0.1" = _8JYJM4b0;
         "pkg-1.0.2" = _NUlYNFcm;
         "pkg-1.0.3" = _LMsfInxf;
-        "default" = _LMsfInxf;
+        "pkg-1.0.35" = _aXeoGJ2L;
+        "default" = _aXeoGJ2L;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elytra-revamped";

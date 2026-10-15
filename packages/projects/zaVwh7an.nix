@@ -866,6 +866,11 @@ let
             "file" = "eslium-4.6.0.jar";
             "hash" = "sha512-zA7fWB+a8/uqhonDL21usXoUi8OM1CcIbhe4RfBXQhBnBawFwgsTyiQCx9uoDF6JelhKn0iqwTvpXxv8XJsazw==";
         };
+        _CHjg4Dc7 = {
+            "id" = "CHjg4Dc7";
+            "file" = "eslium-4.6.0.jar";
+            "hash" = "sha512-zGW+2ahCiKO6NVYbxc93xTCb4GnnvkgDs6A8Nz9Qm645TTmdv6t1s6Yl4fMbWpdEzyZLtd33ktGUw3F7DZtn7A==";
+        };
     in {
         "hMlp9vbD" = _hMlp9vbD;
         "Ki5T6AaR" = _Ki5T6AaR;
@@ -1040,6 +1045,7 @@ let
         "YMVFJXFw" = _YMVFJXFw;
         "JXgDBqAW" = _JXgDBqAW;
         "xsFIozwO" = _xsFIozwO;
+        "CHjg4Dc7" = _CHjg4Dc7;
         "fabric-1.21.5" = _rAVKbMLQ;
         "fabric-1.21" = _7H02EHPI;
         "fabric-1.21.1" = _7H02EHPI;
@@ -1070,6 +1076,7 @@ let
         "fabric-26.4-snapshot-1" = _YMVFJXFw;
         "fabric-26.4-snapshot-2" = _JXgDBqAW;
         "fabric-26.4-snapshot-3" = _xsFIozwO;
+        "fabric-26.4-snapshot-4" = _CHjg4Dc7;
         "quilt-1.21" = _7H02EHPI;
         "quilt-1.21.1" = _7H02EHPI;
         "quilt-1.21.2" = _NeQBgYVu;
@@ -1100,6 +1107,7 @@ let
         "quilt-26.4-snapshot-1" = _YMVFJXFw;
         "quilt-26.4-snapshot-2" = _JXgDBqAW;
         "quilt-26.4-snapshot-3" = _xsFIozwO;
+        "quilt-26.4-snapshot-4" = _CHjg4Dc7;
         "forge-26.1" = _JmpyLY7d;
         "forge-26.1.1" = _JmpyLY7d;
         "forge-26.1.2" = _JmpyLY7d;
@@ -1154,8 +1162,8 @@ let
         "pkg-4.4.4-beta" = _w5aDZbw9;
         "pkg-4.4.4-alpha" = _bn3K15hP;
         "pkg-4.5.0-beta" = _lot29UyS;
-        "pkg-4.6.0" = _xsFIozwO;
-        "default" = _xsFIozwO;
+        "pkg-4.6.0" = _CHjg4Dc7;
+        "default" = _CHjg4Dc7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "eslium";

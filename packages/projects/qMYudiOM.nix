@@ -126,6 +126,11 @@ let
             "file" = "nofigura-0.1.6.7+26.3-fabric-mc.jar";
             "hash" = "sha512-1Hy5gdknQNPOReZfXlFP7K1nr6dvLyMukyBh/tO0dLyoEK2PsbVXR4edW4IHxEPuq/CfJQj9V5X5acI6jlkofA==";
         };
+        _enEBStOx = {
+            "id" = "enEBStOx";
+            "file" = "nofigura-0.1.6.8+26.3-fabric-mc.jar";
+            "hash" = "sha512-ABL4kRcO1aeuwaekujKMaKP/yfeZaA3MliWvqbMedlb5s7qS/CY+TNx5CLwrIywyp8LCNyGboXfgL8lYrZ0sTg==";
+        };
     in {
         "TdwISeQO" = _TdwISeQO;
         "kSkoGZgr" = _kSkoGZgr;
@@ -152,6 +157,7 @@ let
         "jrcYQKvr" = _jrcYQKvr;
         "9hj8ouUw" = _9hj8ouUw;
         "XGi4PCzg" = _XGi4PCzg;
+        "enEBStOx" = _enEBStOx;
         "fabric-1.21.11" = _jrcYQKvr;
         "fabric-1.21.10" = _kSkoGZgr;
         "fabric-1.21.8" = _fWNbBOkx;
@@ -161,7 +167,7 @@ let
         "fabric-26.1.1" = _XFRAqoar;
         "fabric-26.1.2" = _JJIhw8vG;
         "fabric-26.2" = _BPACQ64t;
-        "fabric-26.3" = _XGi4PCzg;
+        "fabric-26.3" = _enEBStOx;
         "pkg-0.1.6.1+1.21.11" = _TdwISeQO;
         "pkg-0.1.5+1.21.10" = _kSkoGZgr;
         "pkg-0.1.5+1.21.8" = _fWNbBOkx;
@@ -187,7 +193,8 @@ let
         "pkg-0.1.6.5+1.21.11" = _jrcYQKvr;
         "pkg-0.1.6.6+26.3" = _9hj8ouUw;
         "pkg-0.1.6.7+26.3" = _XGi4PCzg;
-        "default" = _XGi4PCzg;
+        "pkg-0.1.6.8+26.3" = _enEBStOx;
+        "default" = _enEBStOx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nofigura";

@@ -136,6 +136,21 @@ let
             "file" = "Common Roads (Neoforge 1.21.1) V1.2.4.jar";
             "hash" = "sha512-PtsljQXRzxlfh4d0JLnIXUWx2RptHoP+CuEK0xulwDGI+GpIckATntkJvu9bh343/qf7FC3J84Sk2HQV5X3v/Q==";
         };
+        _BZvCpRDg = {
+            "id" = "BZvCpRDg";
+            "file" = "Common Roads (Neoforge 1.21.1) V1.2.5.jar";
+            "hash" = "sha512-cdK1v447Ak1qHNUjP8pvwM0UI6uIgMSdGXoui/dgUVv53dEkak3+TMzha5WjaKu5wIvKQJNa6MmGS2yFYoHinQ==";
+        };
+        _5WIHt77N = {
+            "id" = "5WIHt77N";
+            "file" = "Common Roads (Neoforge 1.21.1) V1.3.0.jar";
+            "hash" = "sha512-696meBDJAM4KLTblmq7ifPFKatHYUG7QMAeAcoHgfXEjk6j+q2wjhY6UvO5iZjnI1gsao6S9f0t72d/USt9DlA==";
+        };
+        _64NEajWM = {
+            "id" = "64NEajWM";
+            "file" = "Common Roads (Neoforge 26.1.2) V1.0.0.jar";
+            "hash" = "sha512-xPcp3wqQWRwlCcMZ6G4oosaZoWS8lAAGKYTUbmDFKmtLYKmVA/khcrkm+EPlnKJpjWfAE7a/Af4M9gnW+V0pRw==";
+        };
     in {
         "EY9S30Xu" = _EY9S30Xu;
         "Dl5VoqUC" = _Dl5VoqUC;
@@ -164,17 +179,21 @@ let
         "p9Np0ygD" = _p9Np0ygD;
         "xNaa9N5b" = _xNaa9N5b;
         "t59vPOXn" = _t59vPOXn;
+        "BZvCpRDg" = _BZvCpRDg;
+        "5WIHt77N" = _5WIHt77N;
+        "64NEajWM" = _64NEajWM;
         "forge-1.19.2" = _TEm34oc8;
         "forge-1.20.1" = _kW3NwzAE;
         "forge-1.16.5" = _waMQGh8x;
         "fabric-1.19.2" = _Dl5VoqUC;
         "neoforge-1.20.1" = _Va94lKuv;
-        "neoforge-1.21.1" = _t59vPOXn;
+        "neoforge-1.21.1" = _5WIHt77N;
         "neoforge-1.21.4" = _DB0mrm92;
+        "neoforge-26.1.2" = _64NEajWM;
         "pkg-1.0.4" = _Va94lKuv;
         "pkg-1.0.1" = _I0mZXAL8;
         "pkg-1.0.2" = _hl65IXzm;
-        "pkg-1.0.0" = _waMQGh8x;
+        "pkg-1.0.0" = _64NEajWM;
         "pkg-1.0.3" = _JwE92UD7;
         "pkg-1.1.0" = _UcaSuI7o;
         "pkg-1.0.5" = _qwVvup8r;
@@ -187,7 +206,9 @@ let
         "pkg-1.2.2" = _p9Np0ygD;
         "pkg-1.2.3" = _xNaa9N5b;
         "pkg-1.2.4" = _t59vPOXn;
-        "default" = _t59vPOXn;
+        "pkg-1.2.5" = _BZvCpRDg;
+        "pkg-1.3.0" = _5WIHt77N;
+        "default" = _64NEajWM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "common-roads";

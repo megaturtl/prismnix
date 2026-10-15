@@ -26,19 +26,26 @@ let
             "file" = "compact_additions-2.1.0.jar";
             "hash" = "sha512-gUB6Y8dxoR5Mb0syNSixV9BZKIbffQVlvBAbjgT+dPOLhbHQvJAhGi8E3g7wrnK1bgG3vRiQG68m9aPueXCkuA==";
         };
+        _yKH3U4ut = {
+            "id" = "yKH3U4ut";
+            "file" = "compact_additions-2.2.0.jar";
+            "hash" = "sha512-TFNWYyN2I2PmBwOuQKY4RD+ERkKJHuJ8oi0XtA73vZjNc0R+2Ki1k4G+xeU4au26EX4+i3lzhSC8CBSjkWnmiw==";
+        };
     in {
         "9RyUlsgB" = _9RyUlsgB;
         "fyTXJJzK" = _fyTXJJzK;
         "7yEp6JBZ" = _7yEp6JBZ;
         "VJZvcr2E" = _VJZvcr2E;
         "qaqzrPjD" = _qaqzrPjD;
-        "neoforge-1.21.1" = _qaqzrPjD;
+        "yKH3U4ut" = _yKH3U4ut;
+        "neoforge-1.21.1" = _yKH3U4ut;
         "pkg-1.0.0" = _9RyUlsgB;
         "pkg-1.0.1" = _fyTXJJzK;
         "pkg-1.0.2" = _7yEp6JBZ;
         "pkg-2.0.0" = _VJZvcr2E;
         "pkg-2.1.0" = _qaqzrPjD;
-        "default" = _qaqzrPjD;
+        "pkg-2.2.0" = _yKH3U4ut;
+        "default" = _yKH3U4ut;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "compact-additions";

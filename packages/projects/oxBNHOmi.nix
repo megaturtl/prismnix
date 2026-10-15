@@ -361,6 +361,11 @@ let
             "file" = "shippy_ships-201.25.1-FORGE.jar";
             "hash" = "sha512-6tKBpHxFwZinzKdIV01yR8Sz9pA9JF5O5y+HGsy2TrzSxoDJpxSl3bmIKvj3+vMQS8wt7cmNd2j2S8B8PtPsYQ==";
         };
+        _BD6nH3bv = {
+            "id" = "BD6nH3bv";
+            "file" = "shippy_ships-211.25.1-NEOFORGE.jar";
+            "hash" = "sha512-XevUz9PMl4tN8AG8ku7nPaKhnnbj1mHkGvrp1xipFZe3IUyUv9h0DYKLb+BertVoULFYXLw4umrHeBfscoqAGQ==";
+        };
     in {
         "GU9bK0ll" = _GU9bK0ll;
         "ELGpyPLo" = _ELGpyPLo;
@@ -434,6 +439,7 @@ let
         "YQV6PSj3" = _YQV6PSj3;
         "H3E8iIiG" = _H3E8iIiG;
         "diWNTHFc" = _diWNTHFc;
+        "BD6nH3bv" = _BD6nH3bv;
         "fabric-1.20.1" = _J3GaDBjE;
         "fabric-26.1" = _bpiMNvvj;
         "fabric-26.1.1" = _bpiMNvvj;
@@ -449,7 +455,7 @@ let
         "fabric-1.20.5" = _bdu8yAbe;
         "fabric-1.20.6" = _bdu8yAbe;
         "fabric-26.3" = _q3Hz6ClL;
-        "neoforge-1.21.1" = _YQV6PSj3;
+        "neoforge-1.21.1" = _BD6nH3bv;
         "neoforge-1.20.1" = _diWNTHFc;
         "forge-1.20.1" = _diWNTHFc;
         "pkg-1.0.5.4" = _VIXBwTO4;
@@ -480,7 +486,8 @@ let
         "pkg-211.25" = _YQV6PSj3;
         "pkg-201.25" = _H3E8iIiG;
         "pkg-201.25.1" = _diWNTHFc;
-        "default" = _diWNTHFc;
+        "pkg-211.25.1" = _BD6nH3bv;
+        "default" = _BD6nH3bv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shippy-ships";

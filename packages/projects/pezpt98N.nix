@@ -1271,6 +1271,16 @@ let
             "file" = "SkniroFurniture-1.6.0-26.1.2-Fabric.jar";
             "hash" = "sha512-XK5cAyyTx0ZJIkte6nsBavyUT7Ay1Lvl44bjqpaCAoL5H4LEztXAhsae/NT4f3dqBNHGGBqLyy3evyMPSJSXlw==";
         };
+        _RjFrM7cg = {
+            "id" = "RjFrM7cg";
+            "file" = "SkniroFurniture-1.6.2-26.3-NeoForge.jar";
+            "hash" = "sha512-fD+rXmhEd9MMtD+6ZCxyfA4ZRlmwjlebnAzNA4uQdN2c1xLMbt4z8T58yx4A0Xyx8fnAl7ph4iPJrzL25kYSfg==";
+        };
+        _Br6Lkd8R = {
+            "id" = "Br6Lkd8R";
+            "file" = "SkniroFurniture-1.6.2-26.3-Forge.jar";
+            "hash" = "sha512-HDSL8743E28V9zWZHz+DPRD3QVDafp6OiZGaeppXmm0uOz+UHmTuYtM72AyzdQOUdMwkPvuKdKf9H21n6eqi/Q==";
+        };
     in {
         "KuGXdfY8" = _KuGXdfY8;
         "EtCef9oQ" = _EtCef9oQ;
@@ -1526,6 +1536,8 @@ let
         "HE0pq6Bh" = _HE0pq6Bh;
         "EQn0wv5b" = _EQn0wv5b;
         "iCpThSUs" = _iCpThSUs;
+        "RjFrM7cg" = _RjFrM7cg;
+        "Br6Lkd8R" = _Br6Lkd8R;
         "forge-1.21.6" = _XsFFMhyb;
         "forge-1.21.7" = _XsFFMhyb;
         "forge-1.21.8" = _XsFFMhyb;
@@ -1541,7 +1553,7 @@ let
         "forge-26.1.1" = _HE0pq6Bh;
         "forge-26.1.2" = _HE0pq6Bh;
         "forge-26.2" = _uEU2Dpkq;
-        "forge-26.3" = _ciSgBBf5;
+        "forge-26.3" = _Br6Lkd8R;
         "neoforge-1.21.6" = _bXZP3eVU;
         "neoforge-1.21.7" = _bXZP3eVU;
         "neoforge-1.21" = _QH6zm8gg;
@@ -1555,7 +1567,7 @@ let
         "neoforge-26.1.1" = _EQn0wv5b;
         "neoforge-26.1.2" = _EQn0wv5b;
         "neoforge-26.2" = _ZcQdAlE3;
-        "neoforge-26.3" = _iI5alUYY;
+        "neoforge-26.3" = _RjFrM7cg;
         "fabric-1.21.6" = _7MGuEOmy;
         "fabric-1.21.7" = _7MGuEOmy;
         "fabric-1.21" = _vhLM4guM;
@@ -1826,7 +1838,9 @@ let
         "pkg-1.6.0-26.1.2-Forge" = _HE0pq6Bh;
         "pkg-1.6.0-26.1.2-NeoForge" = _EQn0wv5b;
         "pkg-1.6.0-26.1.2-Fabric" = _iCpThSUs;
-        "default" = _iCpThSUs;
+        "pkg-1.6.2-26.3-NeoForge" = _RjFrM7cg;
+        "pkg-1.6.2-26.3-Forge" = _Br6Lkd8R;
+        "default" = _Br6Lkd8R;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skniros-furniture";

@@ -356,6 +356,11 @@ let
             "file" = "modernfix-5.27.20-build.2.jar";
             "hash" = "sha512-6pf83aKzZECkozDys6U4L5lm58oRhWDH1iip+vaCrEYKeUa+Gnrov7meVvyvUngUTTPjaEMhymu9V47kqyktIA==";
         };
+        _EN1XVG4V = {
+            "id" = "EN1XVG4V";
+            "file" = "modernfix-neoforge-5.27.23+mc26.3.jar";
+            "hash" = "sha512-GCCDk03KaMqfS0/6+5lM9XOkKSk7WQvFEGseFvzpEOYTGKTcL4iPsf4pMN1wAjNtdTBWZxPg6tedsdSr0aUdqg==";
+        };
     in {
         "1hUYQbO1" = _1hUYQbO1;
         "6y7vk6OJ" = _6y7vk6OJ;
@@ -428,6 +433,7 @@ let
         "zIoibQBk" = _zIoibQBk;
         "QrRIY2rV" = _QrRIY2rV;
         "n3kCqGn7" = _n3kCqGn7;
+        "EN1XVG4V" = _EN1XVG4V;
         "fabric-1.21.5" = _omNF5V4a;
         "fabric-1.21.6" = _ve3rdBen;
         "fabric-1.21.7" = _jUkOKuZd;
@@ -464,7 +470,7 @@ let
         "neoforge-1.21.10" = _zIoibQBk;
         "neoforge-1.21.11" = _BEBb0SF0;
         "neoforge-26.2" = _dyZhmjnd;
-        "neoforge-26.3" = _Zhz94Fcg;
+        "neoforge-26.3" = _EN1XVG4V;
         "pkg-5.20.4-beta.54+mc1.21.5" = _6y7vk6OJ;
         "pkg-5.20.4-beta.55+mc1.21.6" = _ftrCkhGL;
         "pkg-5.20.4-beta.54+mc1.21.7" = _jUkOKuZd;
@@ -499,12 +505,12 @@ let
         "pkg-5.27.20+mc26.2" = _CYYwNHcs;
         "pkg-5.27.20+mc26.3" = _iKbywnU7;
         "pkg-5.27.21+mc26.2" = _dyZhmjnd;
-        "pkg-5.27.23+mc26.3" = _Zhz94Fcg;
+        "pkg-5.27.23+mc26.3" = _EN1XVG4V;
         "pkg-5.27.20+mc26.4-snapshot-1" = _yoaUd1cG;
         "pkg-5.27.19-build.2" = _50uUra83;
         "pkg-5.27.20-build.2" = _n3kCqGn7;
         "pkg-5.26.3-build.2" = _QrRIY2rV;
-        "default" = _n3kCqGn7;
+        "default" = _EN1XVG4V;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modernfix-mvus";

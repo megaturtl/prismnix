@@ -46,6 +46,16 @@ let
             "file" = "letsdo-hearth_and_timber-fabric-1.0.4.jar";
             "hash" = "sha512-9yWB3YN1DENz/9mdhsTmuTUK+Q5n23ydN5Zpu7WUAnSgVAOaxq1TWEaTH0Vxpp7Kerj4Vc+YJivPEHgyM+kiDg==";
         };
+        _g9yHj7BB = {
+            "id" = "g9yHj7BB";
+            "file" = "letsdo-hearth_and_timber-neoforge-1.0.5.jar";
+            "hash" = "sha512-21bM++7kcBnudp9Jc9GM7h9u2GbMXZEiLBayBGWYGDQJGxYOKbg5e8TubKj2hGEGSVI2WEqmUff6wK619Wa0sQ==";
+        };
+        _QhGhYjLN = {
+            "id" = "QhGhYjLN";
+            "file" = "letsdo-hearth_and_timber-fabric-1.0.5.jar";
+            "hash" = "sha512-a0oWQWBipj047wxitU116uAeAULQATO4MFE4k49g81qg/mxV6k/zW+vekiDKC9suMOnYEUyueqGOAigoi0JbOg==";
+        };
     in {
         "ieEQyLMx" = _ieEQyLMx;
         "iw5xm3j0" = _iw5xm3j0;
@@ -56,14 +66,17 @@ let
         "DLQKQQ53" = _DLQKQQ53;
         "BlP6d5J9" = _BlP6d5J9;
         "ruUDtR09" = _ruUDtR09;
-        "neoforge-1.21.1" = _BlP6d5J9;
-        "fabric-1.21.1" = _ruUDtR09;
+        "g9yHj7BB" = _g9yHj7BB;
+        "QhGhYjLN" = _QhGhYjLN;
+        "neoforge-1.21.1" = _g9yHj7BB;
+        "fabric-1.21.1" = _QhGhYjLN;
         "pkg-1.0.0" = _ieEQyLMx;
         "pkg-1.0.1" = _PnpcQwAa;
         "pkg-1.0.2" = _IMDjqcHV;
         "pkg-1.0.3" = _DLQKQQ53;
         "pkg-1.0.4" = _ruUDtR09;
-        "default" = _ruUDtR09;
+        "pkg-1.0.5" = _QhGhYjLN;
+        "default" = _QhGhYjLN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lets-do-hearth-timber";

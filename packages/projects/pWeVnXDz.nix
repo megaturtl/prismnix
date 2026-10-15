@@ -176,6 +176,11 @@ let
             "file" = "Light and Shadow.zip";
             "hash" = "sha512-muPb3xqkqA1e4UEE85vLi7O1ZE3g8PpwEITw9FpXAO9X7xFaaRh+O1HSChxQemluTUMrT+1yBW7LVEF3zhEV3Q==";
         };
+        _IbzmaFlN = {
+            "id" = "IbzmaFlN";
+            "file" = "Light and Shadow.zip";
+            "hash" = "sha512-DFoJ9JrjeR+CS7o9emKmkuY5mRzglnEZitANg6Nz1JJdsVb/O8W0lWJxJ3ULgdMWEcXrRJCMD2keOAEg6puenA==";
+        };
     in {
         "Y8UJPbgB" = _Y8UJPbgB;
         "Zz4KnBrv" = _Zz4KnBrv;
@@ -212,9 +217,10 @@ let
         "xvIRluwa" = _xvIRluwa;
         "xeMRS7FR" = _xeMRS7FR;
         "FL0np64M" = _FL0np64M;
+        "IbzmaFlN" = _IbzmaFlN;
         "iris-26.1.2" = _CJHRL2xT;
         "iris-26.2" = _isuIeZkn;
-        "iris-26.3" = _FL0np64M;
+        "iris-26.3" = _IbzmaFlN;
         "pkg-1.0" = _Y8UJPbgB;
         "pkg-1.1" = _Zz4KnBrv;
         "pkg-1.2" = _bLMxTDs1;
@@ -250,7 +256,8 @@ let
         "pkg-4.0" = _xvIRluwa;
         "pkg-4.0.1" = _xeMRS7FR;
         "pkg-4.0.2" = _FL0np64M;
-        "default" = _FL0np64M;
+        "pkg-4.1" = _IbzmaFlN;
+        "default" = _IbzmaFlN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "light-shadow";

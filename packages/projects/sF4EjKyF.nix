@@ -416,6 +416,26 @@ let
             "file" = "cp_bop-3.5.6-neoforge-26.3.jar";
             "hash" = "sha512-Li9GKgX2dA9rMvjyxYOCCJYogg1euOyBiiqoAdVDWZuhTEq7r5tAjm1rGyq4MZBXa8SfipRAfL9gYsdxwIvIng==";
         };
+        _VkjzydNM = {
+            "id" = "VkjzydNM";
+            "file" = "cp_bop-3.5.7-fabric-26.2.jar";
+            "hash" = "sha512-ujNyy33hgks+vFbuz0vhBvOvGnH+kUVFSN2AykdSjE0igl+mVwKYipi/yHGfumRt23J0mY3R75xGH6G3IVMd+w==";
+        };
+        _6thBC9t9 = {
+            "id" = "6thBC9t9";
+            "file" = "cp_bop-3.5.7-neoforge-26.1.2.jar";
+            "hash" = "sha512-JIxWYTeATqMDUu2lMCHXlq8HH2FeetYySHSxfN3nfyeASHtiJADcjUmmNoaUS89AXVDDZ3zcEuo4G99kp5T8UA==";
+        };
+        _fzXJKLc6 = {
+            "id" = "fzXJKLc6";
+            "file" = "cp_bop-3.5.7-fabric-26.3.jar";
+            "hash" = "sha512-4jfj8nh+xbj99HXM9GDMPwUlxTgFxMCK7RF5diuFU44dJiP+78Hu3xJU90UVqMvXthgFBzZ43ewnRmopDF4Grw==";
+        };
+        _XYvEBbea = {
+            "id" = "XYvEBbea";
+            "file" = "cp_bop-3.5.7-neoforge-26.3.jar";
+            "hash" = "sha512-GVm60fYESf0vaUrwFqvzIRLITp5L8x7Bna5YnS7Hw9Llid53i5GhJXX1UCiL9uroL+yogTzRrjOYKMCxPy07Ag==";
+        };
     in {
         "CMd1h7U4" = _CMd1h7U4;
         "bfhzcylr" = _bfhzcylr;
@@ -500,6 +520,10 @@ let
         "vmLQYnRx" = _vmLQYnRx;
         "CjJjadKU" = _CjJjadKU;
         "Jk9NfWOe" = _Jk9NfWOe;
+        "VkjzydNM" = _VkjzydNM;
+        "6thBC9t9" = _6thBC9t9;
+        "fzXJKLc6" = _fzXJKLc6;
+        "XYvEBbea" = _XYvEBbea;
         "forge-1.20.1" = _RLe8HZIc;
         "forge-1.19.4" = _V6V61lt5;
         "forge-1.19.2" = _qt8AG6D1;
@@ -517,24 +541,26 @@ let
         "neoforge-1.21.8" = _cV3dcSEH;
         "neoforge-26.1" = _LeLnK3p0;
         "neoforge-26.1.1" = _LeLnK3p0;
-        "neoforge-26.1.2" = _168ZULnL;
+        "neoforge-26.1.2" = _6thBC9t9;
         "neoforge-26.2" = _vmLQYnRx;
         "neoforge-1.20.1" = _AVR8hMZH;
-        "neoforge-26.3" = _Jk9NfWOe;
+        "neoforge-26.3" = _XYvEBbea;
         "fabric-26.1" = _v2MKD4fg;
         "fabric-26.1.1" = _v2MKD4fg;
         "fabric-26.1.2" = _v2MKD4fg;
         "fabric-1.21.6" = _wvCwBzAC;
         "fabric-1.21.7" = _wvCwBzAC;
         "fabric-1.21.8" = _wvCwBzAC;
-        "fabric-26.2" = _CjJjadKU;
+        "fabric-26.2" = _VkjzydNM;
+        "fabric-26.3" = _fzXJKLc6;
         "quilt-1.21.6" = _wvCwBzAC;
         "quilt-1.21.7" = _wvCwBzAC;
         "quilt-1.21.8" = _wvCwBzAC;
         "quilt-26.1" = _v2MKD4fg;
         "quilt-26.1.1" = _v2MKD4fg;
         "quilt-26.1.2" = _v2MKD4fg;
-        "quilt-26.2" = _CjJjadKU;
+        "quilt-26.2" = _VkjzydNM;
+        "quilt-26.3" = _fzXJKLc6;
         "pkg-1.0.0" = _CMd1h7U4;
         "pkg-2.0.0" = _gk1KvudI;
         "pkg-3.0.0.23" = _EbZmAWNZ;
@@ -570,7 +596,8 @@ let
         "pkg-3.5.4-beta" = _QUvY5sld;
         "pkg-3.5.5" = _PQbDwJEM;
         "pkg-3.5.6" = _Jk9NfWOe;
-        "default" = _Jk9NfWOe;
+        "pkg-3.5.7" = _XYvEBbea;
+        "default" = _XYvEBbea;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bop-legacy-reborn-croparium";

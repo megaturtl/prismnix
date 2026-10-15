@@ -236,6 +236,26 @@ let
             "file" = "mebahelrpgrquest-3.4.4-fabric-1.20.1.jar";
             "hash" = "sha512-Ri05sMMJ6dJKnMbpr8vjVXNnYPQBUhhGmeCIkGgodfl8wGerDN1s7SrAYp40wtk5R1gvCeQ+95d8EydWYO40iQ==";
         };
+        _cFaWr4lg = {
+            "id" = "cFaWr4lg";
+            "file" = "mebahelrpgrquest-3.4.5-fabric-1.21.1.jar";
+            "hash" = "sha512-aWBUgmaCYGg6jEDIC9fqj9tBP0lecQxRKhfdfYg+SiQoem7MGnzMPTqY7u1mR4jssWT7ltt0C0xi0eUZRcFSxg==";
+        };
+        _A1Tihlmb = {
+            "id" = "A1Tihlmb";
+            "file" = "mebahelrpgrquest-3.4.5-fabric-1.20.1.jar";
+            "hash" = "sha512-BjAxgLSDdZDskPX4mFfbkqULKfu2GoOccaf2pd1R0vc7QjCTbTM/jU4kgUHunMDI5HygfWTHkkYQbLaiOuLt0g==";
+        };
+        _tE2e1Ys2 = {
+            "id" = "tE2e1Ys2";
+            "file" = "mebahelrpgrquest-3.5.0-fabric-1.21.1.jar";
+            "hash" = "sha512-6pamrvbn0VEwDs9iFeTzXVjO73Pr8lNP0q2STWUSrQVT6+DTMKdlKHH1Y+DjcgHf/QVNLUy3S8suXfx9BkiWgw==";
+        };
+        _5CqkGvDt = {
+            "id" = "5CqkGvDt";
+            "file" = "mebahelrpgrquest-3.5.0-fabric-1.20.1.jar";
+            "hash" = "sha512-/bSFtt2x4RXkDbU3Xr9mNQBb62XMQrsFhTsbEKaJrfNujfjlJAajxMkj9oG/sYHtvjOseieQ1xnOfQKI2sn2PA==";
+        };
     in {
         "SYPRhHjr" = _SYPRhHjr;
         "5LOmY4Gy" = _5LOmY4Gy;
@@ -284,22 +304,26 @@ let
         "HsKao5hD" = _HsKao5hD;
         "yVzM3N1c" = _yVzM3N1c;
         "aJccC6Rd" = _aJccC6Rd;
-        "fabric-1.20" = _aJccC6Rd;
-        "fabric-1.20.1" = _aJccC6Rd;
-        "fabric-1.21" = _yVzM3N1c;
-        "fabric-1.21.1" = _yVzM3N1c;
-        "forge-1.20" = _aJccC6Rd;
-        "forge-1.20.1" = _aJccC6Rd;
-        "forge-1.21" = _yVzM3N1c;
-        "forge-1.21.1" = _yVzM3N1c;
-        "neoforge-1.20" = _aJccC6Rd;
-        "neoforge-1.20.1" = _aJccC6Rd;
-        "neoforge-1.21" = _yVzM3N1c;
-        "neoforge-1.21.1" = _yVzM3N1c;
-        "quilt-1.20" = _aJccC6Rd;
-        "quilt-1.20.1" = _aJccC6Rd;
-        "quilt-1.21" = _yVzM3N1c;
-        "quilt-1.21.1" = _yVzM3N1c;
+        "cFaWr4lg" = _cFaWr4lg;
+        "A1Tihlmb" = _A1Tihlmb;
+        "tE2e1Ys2" = _tE2e1Ys2;
+        "5CqkGvDt" = _5CqkGvDt;
+        "fabric-1.20" = _5CqkGvDt;
+        "fabric-1.20.1" = _5CqkGvDt;
+        "fabric-1.21" = _tE2e1Ys2;
+        "fabric-1.21.1" = _tE2e1Ys2;
+        "forge-1.20" = _5CqkGvDt;
+        "forge-1.20.1" = _5CqkGvDt;
+        "forge-1.21" = _tE2e1Ys2;
+        "forge-1.21.1" = _tE2e1Ys2;
+        "neoforge-1.20" = _5CqkGvDt;
+        "neoforge-1.20.1" = _5CqkGvDt;
+        "neoforge-1.21" = _tE2e1Ys2;
+        "neoforge-1.21.1" = _tE2e1Ys2;
+        "quilt-1.20" = _5CqkGvDt;
+        "quilt-1.20.1" = _5CqkGvDt;
+        "quilt-1.21" = _tE2e1Ys2;
+        "quilt-1.21.1" = _tE2e1Ys2;
         "pkg-1.0.3-fabric-1.20.1" = _SYPRhHjr;
         "pkg-1.0.3-fabric-1.21.1" = _5LOmY4Gy;
         "pkg-1.0.4-fabric-1.21.1" = _b2C1hiUl;
@@ -347,7 +371,11 @@ let
         "pkg-3.4.3-fabric-1.21.1" = _HsKao5hD;
         "pkg-3.4.4-fabric-1.21.1" = _yVzM3N1c;
         "pkg-3.4.4-fabric-1.20.1" = _aJccC6Rd;
-        "default" = _aJccC6Rd;
+        "pkg-3.4.5-fabric-1.21.1" = _cFaWr4lg;
+        "pkg-3.4.5-fabric-1.20.1" = _A1Tihlmb;
+        "pkg-3.5.0-fabric-1.21.1" = _tE2e1Ys2;
+        "pkg-3.5.0-fabric-1.20.1" = _5CqkGvDt;
+        "default" = _5CqkGvDt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mebahels-rpg-villager-quests-and-companions";

@@ -6,11 +6,18 @@ let
             "file" = "Midori's Stalker-1.0.0.jar";
             "hash" = "sha512-ARaLlvMjMDYyCKrfKHqeDukE3uVx/ldywtYZ937d+Js60OdIxR8SfkMWeAP6MHoWVu+lr7EIULHZQMpXWq66mw==";
         };
+        _HC5IcyQd = {
+            "id" = "HC5IcyQd";
+            "file" = "Midori's Stalker-2.0.0.jar";
+            "hash" = "sha512-ecJmSRxiv+hA6fZOe9bp2Ic0MWhas1IX6+Q7wUMP3QEqr5ZTHANEakOuiEIP5p34D0Uqryqf9gS8aohKiVCB2w==";
+        };
     in {
         "8mRRHOwO" = _8mRRHOwO;
-        "forge-1.20.1" = _8mRRHOwO;
+        "HC5IcyQd" = _HC5IcyQd;
+        "forge-1.20.1" = _HC5IcyQd;
         "pkg-1.0.0" = _8mRRHOwO;
-        "default" = _8mRRHOwO;
+        "pkg-2.0.0" = _HC5IcyQd;
+        "default" = _HC5IcyQd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "midoris-stalker";

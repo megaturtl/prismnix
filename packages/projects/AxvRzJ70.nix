@@ -126,6 +126,11 @@ let
             "file" = "Generations-Core-fabric-1.2.8-1.8.1.jar";
             "hash" = "sha512-/4kYaHpS6qLzkDuZvgeEaJRNLhjeX40FeZtXe5Y57aY2fYfsUkN7uZLepXQipqxprx52af7sY0yW7yzIyGtDFw==";
         };
+        _RtaJ9zLu = {
+            "id" = "RtaJ9zLu";
+            "file" = "Generations-Core-fabric-1.2.8-1.8.2.jar";
+            "hash" = "sha512-OJKukKeHNY1PZ8k75qt3YUmstu/WTPR/nejZu++kAHpjRB97AyTj0aeXt2smAalRMc+Pc/KME8zHtjyKJGyfPA==";
+        };
     in {
         "mpu3r0nU" = _mpu3r0nU;
         "Mods8PVV" = _Mods8PVV;
@@ -152,8 +157,9 @@ let
         "yfjnjNrD" = _yfjnjNrD;
         "JK3tPAxx" = _JK3tPAxx;
         "AT6PcE58" = _AT6PcE58;
+        "RtaJ9zLu" = _RtaJ9zLu;
         "fabric-1.20.1" = _FGOqihN5;
-        "fabric-1.21.1" = _AT6PcE58;
+        "fabric-1.21.1" = _RtaJ9zLu;
         "forge-1.20.1" = _rkCWiUZT;
         "neoforge-1.21.1" = _JK3tPAxx;
         "pkg-5.0.0-Beta" = _Mods8PVV;
@@ -168,7 +174,8 @@ let
         "pkg-1.2.5-1.7.3" = _D1tmvffP;
         "pkg-1.2.6-1.7.3" = _yfjnjNrD;
         "pkg-1.2.8-1.8.1" = _AT6PcE58;
-        "default" = _AT6PcE58;
+        "pkg-1.2.8-1.8.2" = _RtaJ9zLu;
+        "default" = _RtaJ9zLu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "generations-core";

@@ -101,6 +101,11 @@ let
             "file" = "buildprint-fabric-0.1.18+26.x.jar";
             "hash" = "sha512-e4G2Xt5hO68wSPkCeFVv6PH65s2maJoIeMTErptrM7x+2L1DQRQiNn5KYP+z/uABgk8nnPXSBl3FhHZdLmbYCg==";
         };
+        _RJ3uTCda = {
+            "id" = "RJ3uTCda";
+            "file" = "buildprint-fabric-0.1.19+26.x.jar";
+            "hash" = "sha512-A0WVSQtsntXvHWoUp5QUHVL+BakU+vVauHsyXfzZpC7kVRm4wBMUUnqHM6qdPnkQnlRWZT5N5tfN9EUZfWOAsQ==";
+        };
     in {
         "1Twv7NHi" = _1Twv7NHi;
         "qXgqBGCa" = _qXgqBGCa;
@@ -122,8 +127,9 @@ let
         "UoKmvT8M" = _UoKmvT8M;
         "qLI73BkA" = _qLI73BkA;
         "2obxoqfs" = _2obxoqfs;
-        "fabric-26.2" = _2obxoqfs;
-        "fabric-26.3" = _2obxoqfs;
+        "RJ3uTCda" = _RJ3uTCda;
+        "fabric-26.2" = _RJ3uTCda;
+        "fabric-26.3" = _RJ3uTCda;
         "pkg-0.1.0+26.x" = _qXgqBGCa;
         "pkg-0.1.1+26.x" = _SgrXczlQ;
         "pkg-0.1.2+26.x" = _CkId9MlH;
@@ -143,7 +149,8 @@ let
         "pkg-0.1.16+26.x" = _UoKmvT8M;
         "pkg-0.1.17+26.x" = _qLI73BkA;
         "pkg-0.1.18+26.x" = _2obxoqfs;
-        "default" = _2obxoqfs;
+        "pkg-0.1.19+26.x" = _RJ3uTCda;
+        "default" = _RJ3uTCda;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "buildprint";

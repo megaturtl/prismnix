@@ -151,6 +151,11 @@ let
             "file" = "Cliffbranch-4.3_beta_1.zip";
             "hash" = "sha512-2IGHPSnuv7xc7a+o5pBkGajD+elOTIvAOSjOZ5qMAnHtJENcLjS8MMs5fQyf0sZSsSceICTHkwr8YUZ5Lpro6w==";
         };
+        _eFdbdeys = {
+            "id" = "eFdbdeys";
+            "file" = "CliffBranch-4.3_beta_2.zip";
+            "hash" = "sha512-k7WQkLLI+iVMYlvSdgITA9/zLc5jNuvUHbgtcRWkAD8pcsKZFQlfA0uG0ZRhTsw7SbVQHRJWn8GyRbnkq0y1Sg==";
+        };
     in {
         "avNAjBqx" = _avNAjBqx;
         "Sm5YWDIx" = _Sm5YWDIx;
@@ -182,6 +187,7 @@ let
         "HbyJMo6s" = _HbyJMo6s;
         "ULBVUr5Y" = _ULBVUr5Y;
         "MWPivp8F" = _MWPivp8F;
+        "eFdbdeys" = _eFdbdeys;
         "datapack-1.21.5" = _JtYl32Fu;
         "datapack-1.21.6" = _JtYl32Fu;
         "datapack-1.21.7" = _JtYl32Fu;
@@ -196,6 +202,7 @@ let
         "datapack-26.2" = _7A6vXaDx;
         "datapack-26.3" = _HbyJMo6s;
         "datapack-26.4-snapshot-3" = _MWPivp8F;
+        "datapack-26.4-snapshot-4" = _eFdbdeys;
         "fabric-1.21.5" = _EsXwC1fS;
         "fabric-1.21.6" = _EsXwC1fS;
         "fabric-1.21.7" = _EsXwC1fS;
@@ -270,7 +277,8 @@ let
         "pkg-4.2" = _HbyJMo6s;
         "pkg-4.2+mod" = _ULBVUr5Y;
         "pkg-4.3_beta_1" = _MWPivp8F;
-        "default" = _MWPivp8F;
+        "pkg-4.3_beta_2" = _eFdbdeys;
+        "default" = _eFdbdeys;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cliffbranch";

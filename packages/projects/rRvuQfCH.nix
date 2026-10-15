@@ -221,6 +221,26 @@ let
             "file" = "AutoMeow 1.27-26.2.jar";
             "hash" = "sha512-7qgjYxJVnxvQPrGiUqDttbMpMitsTKfrs/Twhd5w0tVC2p7qhmu5oGylIaezU1Es9eGtthslfKoqF7mWx+zcJw==";
         };
+        _YfS27hev = {
+            "id" = "YfS27hev";
+            "file" = "AutoMeow 1.28-1.21.10.jar";
+            "hash" = "sha512-E0dNQhDeXXRPdzuAvb5EQND5122Kgiuyi0oR6dpBQjYQxFnAf/4IWXMRzTJ4RcBNoAT7pxwgNu8zLELQmCNnFg==";
+        };
+        _zTl3wclK = {
+            "id" = "zTl3wclK";
+            "file" = "AutoMeow 1.28-26.1.jar";
+            "hash" = "sha512-S+PBB7XJJ21D7gE0vHp6elK77L77vkV17Yo+Jyj3oVIpN7QaEaw8hCyYp/kTaHLMnpcjztkEHcYYdzIZkk4g2g==";
+        };
+        _8E2GmI1J = {
+            "id" = "8E2GmI1J";
+            "file" = "AutoMeow 1.28-26.2.jar";
+            "hash" = "sha512-Tjf6KO2EjCQTliOuOHNzLkhUHtf8qxR80VJpp/HM+E+9J4FVOOp6C2INQg8P/gpJ2ODbevJ2pnFFqXVvf6Mhng==";
+        };
+        _MsK6t1pO = {
+            "id" = "MsK6t1pO";
+            "file" = "AutoMeow 1.28-26.3.jar";
+            "hash" = "sha512-aK6WDtrcTOROPMBGo1cfc2x8O7tM5BMnZoMmlllUT811VlCCdohFfNvlj76x1To5PpgdttzR1nWOHN6DYlAGMg==";
+        };
     in {
         "2O5ObslW" = _2O5ObslW;
         "RefbUUSb" = _RefbUUSb;
@@ -266,13 +286,18 @@ let
         "HK4ImMWw" = _HK4ImMWw;
         "St4J7Y4Z" = _St4J7Y4Z;
         "vndasE04" = _vndasE04;
+        "YfS27hev" = _YfS27hev;
+        "zTl3wclK" = _zTl3wclK;
+        "8E2GmI1J" = _8E2GmI1J;
+        "MsK6t1pO" = _MsK6t1pO;
         "fabric-1.21.5" = _2FKg4Hhp;
-        "fabric-1.21.10" = _HK4ImMWw;
-        "fabric-1.21.11" = _HK4ImMWw;
-        "fabric-26.1" = _St4J7Y4Z;
-        "fabric-26.1.1" = _St4J7Y4Z;
-        "fabric-26.1.2" = _St4J7Y4Z;
-        "fabric-26.2" = _vndasE04;
+        "fabric-1.21.10" = _YfS27hev;
+        "fabric-1.21.11" = _YfS27hev;
+        "fabric-26.1" = _zTl3wclK;
+        "fabric-26.1.1" = _zTl3wclK;
+        "fabric-26.1.2" = _zTl3wclK;
+        "fabric-26.2" = _8E2GmI1J;
+        "fabric-26.3" = _MsK6t1pO;
         "pkg-1.0.0" = _2O5ObslW;
         "pkg-1.1" = _RefbUUSb;
         "pkg-1.3" = _R13vDbsT;
@@ -303,7 +328,8 @@ let
         "pkg-1.25" = _g2qojDpF;
         "pkg-1.26" = _K8fxA3yM;
         "pkg-1.27" = _vndasE04;
-        "default" = _vndasE04;
+        "pkg-1.28" = _MsK6t1pO;
+        "default" = _MsK6t1pO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "automeow";

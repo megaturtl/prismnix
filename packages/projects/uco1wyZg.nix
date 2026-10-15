@@ -186,6 +186,11 @@ let
             "file" = "epic-core-api-1.1.8-fix-fix_mr.jar";
             "hash" = "sha512-9qhsvrQ7CFvVSNs+idbzOHlmaGv+Ya6hhJIjFZmXY/hkSeyLw68EvOMDKkW2OlykDT/liSQgDOTjAx06qFUrgw==";
         };
+        _aKQS2uze = {
+            "id" = "aKQS2uze";
+            "file" = "epic-core-api-1.1.9_mr.jar";
+            "hash" = "sha512-2eqJryOW0R7Yzj0fag/moqbk7Vbil4VtFr6C8DDcsBr++YfRkjyzCbNdRJlRxtWIpjUGfFvxydmhDdD9sIJyrw==";
+        };
     in {
         "xGx1JKdf" = _xGx1JKdf;
         "XDI5NYqX" = _XDI5NYqX;
@@ -224,7 +229,8 @@ let
         "EHh5LXdA" = _EHh5LXdA;
         "UBWtoL55" = _UBWtoL55;
         "pBv1QsYh" = _pBv1QsYh;
-        "forge-1.20.1" = _pBv1QsYh;
+        "aKQS2uze" = _aKQS2uze;
+        "forge-1.20.1" = _aKQS2uze;
         "pkg-1.0.0" = _xGx1JKdf;
         "pkg-1.0.4" = _XDI5NYqX;
         "pkg-1.0.5" = _HM4ThtjN;
@@ -262,7 +268,8 @@ let
         "pkg-1.1.8" = _EHh5LXdA;
         "pkg-1.1.8-fix" = _UBWtoL55;
         "pkg-1.1.8-fix-fix" = _pBv1QsYh;
-        "default" = _pBv1QsYh;
+        "pkg-1.1.9" = _aKQS2uze;
+        "default" = _aKQS2uze;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "epic-core-api";

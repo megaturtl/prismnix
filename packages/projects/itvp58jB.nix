@@ -51,6 +51,11 @@ let
             "file" = "EditEverything-26.1.2.jar";
             "hash" = "sha512-5tGyDgZGuWkimkNosbEY+8a8g3x/z8vyq+Rrty1il4iiQBvYYJKuomsRUeRurMXPh2YMK+Djrra6NGOyySPWyw==";
         };
+        _jgTE5lRd = {
+            "id" = "jgTE5lRd";
+            "file" = "EditEverything-26.3.0.jar";
+            "hash" = "sha512-c9Ip+zSOMbeQG72vVA8yE2V0kWzoQjM7MwUopnDpTjuRJAiW68XxX38guHRSCcoOOOcYyJZ7m60Fas2fBLBY/g==";
+        };
     in {
         "prbIsxUr" = _prbIsxUr;
         "Nk4MREcn" = _Nk4MREcn;
@@ -62,12 +67,14 @@ let
         "NAKl8oZM" = _NAKl8oZM;
         "VAO7B3wk" = _VAO7B3wk;
         "lhFDTsV0" = _lhFDTsV0;
+        "jgTE5lRd" = _jgTE5lRd;
         "fabric-1.21.10" = _NAKl8oZM;
         "fabric-1.21.11" = _NAKl8oZM;
         "fabric-26.1" = _lhFDTsV0;
         "fabric-26.1.1" = _lhFDTsV0;
         "fabric-26.1.2" = _lhFDTsV0;
         "fabric-26.2" = _1IfnTcBk;
+        "fabric-26.3" = _jgTE5lRd;
         "pkg-21.11.1" = _prbIsxUr;
         "pkg-21.11.2" = _Nk4MREcn;
         "pkg-21.11.3" = _gCTxi5JL;
@@ -78,7 +85,8 @@ let
         "pkg-21.11.5" = _NAKl8oZM;
         "pkg-26.1.1" = _VAO7B3wk;
         "pkg-26.1.2" = _lhFDTsV0;
-        "default" = _lhFDTsV0;
+        "pkg-26.3.0" = _jgTE5lRd;
+        "default" = _jgTE5lRd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "edit-everything";

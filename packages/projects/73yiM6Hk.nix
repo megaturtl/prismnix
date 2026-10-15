@@ -96,6 +96,46 @@ let
             "file" = "amethysttoolsmod-fabric-1.21.1-2.0.1.jar";
             "hash" = "sha512-iX8V4m4+n2PhLxoLGSXxIR2Un3SmmvYJnk2HdwWhMRj5DTco0LT98A3WERaeApkZWeZaIEmGsZXSPW77WVJbKQ==";
         };
+        _a3hJyoRc = {
+            "id" = "a3hJyoRc";
+            "file" = "amethysttoolsmod-forge-1.18.2-2.0.2.jar";
+            "hash" = "sha512-hzNVw9dseggtEqTKfSMr2hajk3JWRG19WlHFGTbPc7K2AsGjk9O0vhANGUS8a4AnVspc4D9ZEACaQu5ksfTMuw==";
+        };
+        _95rIbaJO = {
+            "id" = "95rIbaJO";
+            "file" = "amethysttoolsmod-fabric-1.18.2-2.0.2.jar";
+            "hash" = "sha512-rPBN0xvju6wfVBCqY8xbmdamn98tM/G63n2D8mU0cFyEOznVh3n5FSq0+c8arPjPqqrx+5/QIMH50yunxTYkKg==";
+        };
+        _phYAmSio = {
+            "id" = "phYAmSio";
+            "file" = "amethysttoolsmod-forge-1.20.1-2.0.2.jar";
+            "hash" = "sha512-NQ3SDBRN7O6HRGWOlXoGioUMOBeN7ugJSoUVDNF45eTvirJD34f+5FBNuAAaePdlMs/ZZDDEW70wValJ+cj4lA==";
+        };
+        _uLrN346h = {
+            "id" = "uLrN346h";
+            "file" = "amethysttoolsmod-fabric-1.19.2-2.0.2.jar";
+            "hash" = "sha512-MgBgymqHx5yykfdMZTXpHqKePUPK5nSmez4zmtAuZFTXdYhnewc3IAM33dMzAvJMNFK0Gz6+UL/syCB4qdtLjQ==";
+        };
+        _CAbEOH2t = {
+            "id" = "CAbEOH2t";
+            "file" = "amethysttoolsmod-forge-1.19.2-2.0.2.jar";
+            "hash" = "sha512-dCpppVlZ5X0xGMZc+eVzPPrvoxTUOMmA6j5eY96ssZiPCfxOpWH6TbrShisEeptAjSmkfZLQOZgh3aWI9VUOvg==";
+        };
+        _Y0svBSwi = {
+            "id" = "Y0svBSwi";
+            "file" = "amethysttoolsmod-fabric-1.20.1-2.0.2.jar";
+            "hash" = "sha512-OnWjt6bDQ3JU5nbY5DRkxAfvj1j+OBSGQw05ADQF/Wgds91/MrLloyPx/LFh+PI1uRuCET25ZZncZcykPzfiqg==";
+        };
+        _NXa6MND1 = {
+            "id" = "NXa6MND1";
+            "file" = "amethysttoolsmod-neoforge-1.21.1-2.0.2.jar";
+            "hash" = "sha512-9lGKO6hO8eeuXAtHdPxHztekpZKsMQc9JINjPXkLC0LnzvMWAracI3g0BN/v9A7duHlKBjvUaJGpVa/YT4CIYQ==";
+        };
+        _otL1ttXJ = {
+            "id" = "otL1ttXJ";
+            "file" = "amethysttoolsmod-fabric-1.21.1-2.0.2.jar";
+            "hash" = "sha512-qqNDRauqci2oMbx/RDt1HS1pAVdfdviycBoSWXxiQlD66kqFJ+MlWFTlT3Il7UfkuDYzgjuYoz0RL1wHPnS0WQ==";
+        };
     in {
         "L7VTPMUx" = _L7VTPMUx;
         "jGqVwy8i" = _jGqVwy8i;
@@ -116,16 +156,24 @@ let
         "m3Hq8eNl" = _m3Hq8eNl;
         "HdAqjytW" = _HdAqjytW;
         "aEtl5g8K" = _aEtl5g8K;
-        "forge-1.20.1" = _xa3cOS4G;
+        "a3hJyoRc" = _a3hJyoRc;
+        "95rIbaJO" = _95rIbaJO;
+        "phYAmSio" = _phYAmSio;
+        "uLrN346h" = _uLrN346h;
+        "CAbEOH2t" = _CAbEOH2t;
+        "Y0svBSwi" = _Y0svBSwi;
+        "NXa6MND1" = _NXa6MND1;
+        "otL1ttXJ" = _otL1ttXJ;
+        "forge-1.20.1" = _phYAmSio;
         "forge-1.19" = _jGqVwy8i;
         "forge-1.19.1" = _jGqVwy8i;
-        "forge-1.19.2" = _En5QgEzv;
-        "forge-1.18.2" = _BBmjSsfc;
-        "fabric-1.19.2" = _enEoe0XW;
-        "fabric-1.20.1" = _m3Hq8eNl;
-        "fabric-1.21.1" = _aEtl5g8K;
-        "fabric-1.18.2" = _uCxVeaot;
-        "neoforge-1.21.1" = _HdAqjytW;
+        "forge-1.19.2" = _CAbEOH2t;
+        "forge-1.18.2" = _a3hJyoRc;
+        "fabric-1.19.2" = _uLrN346h;
+        "fabric-1.20.1" = _Y0svBSwi;
+        "fabric-1.21.1" = _otL1ttXJ;
+        "fabric-1.18.2" = _95rIbaJO;
+        "neoforge-1.21.1" = _NXa6MND1;
         "pkg-1.20.1-1.7.0" = _L7VTPMUx;
         "pkg-1.19-1.6.2" = _jGqVwy8i;
         "pkg-1.18.2-1.6.3" = _YuINEQKd;
@@ -145,7 +193,15 @@ let
         "pkg-2.0.1-fabric-1.20.1" = _m3Hq8eNl;
         "pkg-2.0.1-neoforge-1.21.1" = _HdAqjytW;
         "pkg-2.0.1-fabric-1.21.1" = _aEtl5g8K;
-        "default" = _aEtl5g8K;
+        "pkg-2.0.2-forge-1.18.2" = _a3hJyoRc;
+        "pkg-2.0.2-fabric-1.18.2" = _95rIbaJO;
+        "pkg-2.0.2-forge-1.20.1" = _phYAmSio;
+        "pkg-2.0.2-fabric-1.19.2" = _uLrN346h;
+        "pkg-2.0.2-forge-1.19.2" = _CAbEOH2t;
+        "pkg-2.0.2-fabric-1.20.1" = _Y0svBSwi;
+        "pkg-2.0.2-neoforge-1.21.1" = _NXa6MND1;
+        "pkg-2.0.2-fabric-1.21.1" = _otL1ttXJ;
+        "default" = _otL1ttXJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "amethyst-tools-mod";

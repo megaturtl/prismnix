@@ -621,6 +621,16 @@ let
             "file" = "naraka-neoforge-26.3-1.1.3.jar";
             "hash" = "sha512-Fs5wS8F76frtdmu9li8EpH2/qQJUIIdnhLWZK9a4YsnNVuNpl5yRb1w1ur4yNyZ+AeJl8vmTa0xwr2oW4zvb1g==";
         };
+        _g2URbg0E = {
+            "id" = "g2URbg0E";
+            "file" = "naraka-fabric-26.3-1.1.4.jar";
+            "hash" = "sha512-hdb5T7GSbfqNgqngBPCAbld/JI0uvTECz2LDPfGPtycCLllRG4MP9Vz+7d6YuLNfHF88w7mxNJTFhIWFCX4XPA==";
+        };
+        _ckqhAhAo = {
+            "id" = "ckqhAhAo";
+            "file" = "naraka-neoforge-26.3-1.1.4.jar";
+            "hash" = "sha512-wqQj2vtVBu6UzWV84Rn7vmp0csJ0cPY1EiuL3KHBIHB4qppJWg4rutzbp3YQ/0V5P0YjB74xFACAYHw9DXLAhA==";
+        };
     in {
         "lzGNmAyp" = _lzGNmAyp;
         "HcOAzYFB" = _HcOAzYFB;
@@ -746,6 +756,8 @@ let
         "Psnbh10O" = _Psnbh10O;
         "DnjlEPvh" = _DnjlEPvh;
         "BKB0TXVF" = _BKB0TXVF;
+        "g2URbg0E" = _g2URbg0E;
+        "ckqhAhAo" = _ckqhAhAo;
         "neoforge-1.21.5" = _rvEUY8LW;
         "neoforge-1.21.9" = _VZJOLAx2;
         "neoforge-1.21.10" = _P8MTkoAg;
@@ -754,7 +766,7 @@ let
         "neoforge-1.21.11" = _YNGgfxcR;
         "neoforge-26.2" = _kLgJYKix;
         "neoforge-26.1.2" = _Psnbh10O;
-        "neoforge-26.3" = _BKB0TXVF;
+        "neoforge-26.3" = _ckqhAhAo;
         "fabric-1.21.5" = _i9m6RL2s;
         "fabric-1.21.9" = _p7k1YSKF;
         "fabric-1.21.10" = _pNMPNPJW;
@@ -764,7 +776,7 @@ let
         "fabric-26.2" = _9mrxUQBT;
         "fabric-1.20.1" = _fhf6gY1q;
         "fabric-26.1.2" = _onlcaO7x;
-        "fabric-26.3" = _DnjlEPvh;
+        "fabric-26.3" = _g2URbg0E;
         "forge-1.20.1" = _DBqFDvdb;
         "pkg-0.1-alpha" = _rvEUY8LW;
         "pkg-a4a3" = _XWdNuErp;
@@ -832,7 +844,9 @@ let
         "pkg-neoforge-26.1.2-1.1.3" = _Psnbh10O;
         "pkg-fabric-26.3-1.1.3" = _DnjlEPvh;
         "pkg-neoforge-26.3-1.1.3" = _BKB0TXVF;
-        "default" = _BKB0TXVF;
+        "pkg-fabric-26.3-1.1.4" = _g2URbg0E;
+        "pkg-neoforge-26.3-1.1.4" = _ckqhAhAo;
+        "default" = _ckqhAhAo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "naraka";

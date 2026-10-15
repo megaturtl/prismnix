@@ -356,6 +356,16 @@ let
             "file" = "Failskins 10.13.jar";
             "hash" = "sha512-okIk3BvEwKfMFVZZLyKknV6hOStpv9+T8CW+MzowyQ2mkUI6Q/YxBISh1ILC9y+UPXA6Eh+sDH4ZegLsiCZHwQ==";
         };
+        _lQYYQNjm = {
+            "id" = "lQYYQNjm";
+            "file" = "Failskins 10.2.zip";
+            "hash" = "sha512-0yKgATF2DaLLBsYCT29bZmB3IEJV7FPl59SS/5WvNDcRijUwJUbfTznVxHbsrTIChlhHABD1HDkm6GJJ1j4zLQ==";
+        };
+        _D65EtnBo = {
+            "id" = "D65EtnBo";
+            "file" = "Failskins 10.2.jar";
+            "hash" = "sha512-dh/dQ68ammbDj92iCxas1yeqPd6oOfHZ/3e76Vq8Z95RUGIoyu4Va9BxaylQM+qq4exRFhQETOW4NJbk5slkeQ==";
+        };
     in {
         "MuvHyeWV" = _MuvHyeWV;
         "fWujAVjP" = _fWujAVjP;
@@ -428,13 +438,15 @@ let
         "O0WEBJuK" = _O0WEBJuK;
         "9zxx2voy" = _9zxx2voy;
         "fCE7hxSc" = _fCE7hxSc;
-        "datapack-1.21.1" = _9zxx2voy;
+        "lQYYQNjm" = _lQYYQNjm;
+        "D65EtnBo" = _D65EtnBo;
+        "datapack-1.21.1" = _lQYYQNjm;
         "datapack-1.20.1" = _E21nNjZi;
         "datapack-24w03a" = _9zxx2voy;
         "datapack-24w03b" = _9zxx2voy;
         "datapack-24w04a" = _9zxx2voy;
-        "fabric-1.21.1" = _fCE7hxSc;
-        "neoforge-1.21.1" = _fCE7hxSc;
+        "fabric-1.21.1" = _D65EtnBo;
+        "neoforge-1.21.1" = _D65EtnBo;
         "forge-1.21.1" = _wk7RVi1O;
         "quilt-1.21.1" = _wk7RVi1O;
         "pkg-0.1" = _MuvHyeWV;
@@ -475,7 +487,8 @@ let
         "pkg-10.11" = _I1IPo8ur;
         "pkg-10.12" = _O0WEBJuK;
         "pkg-10.13" = _fCE7hxSc;
-        "default" = _fCE7hxSc;
+        "pkg-10.2" = _D65EtnBo;
+        "default" = _D65EtnBo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-failskins";

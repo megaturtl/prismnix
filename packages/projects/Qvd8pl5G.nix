@@ -321,6 +321,11 @@ let
             "file" = "NuclearCraft-1.21.1-1.3.3.jar";
             "hash" = "sha512-oSpTxAwTvCMJt09oTsU3DN6MshmsskH+MzVYVVXbIuGBJEaT5SWUtCuRgZ2Pf3X4jBscYTcpcnefgiKt6ebjyw==";
         };
+        _ssayYgb1 = {
+            "id" = "ssayYgb1";
+            "file" = "NuclearCraft-1.21.1-1.3.4.jar";
+            "hash" = "sha512-5IPQNwQDxoHdPNNps9p9S+dHHozsZE6F5mqIaSLYBe2goSMAYVnbKBDr7f4DbuIxPOw1eSaAoADkXxk3Ul5zfw==";
+        };
     in {
         "nlOVyp4O" = _nlOVyp4O;
         "AjQEZ5w0" = _AjQEZ5w0;
@@ -386,11 +391,12 @@ let
         "SsDrg1GK" = _SsDrg1GK;
         "F5rPSh31" = _F5rPSh31;
         "zzVwBSxc" = _zzVwBSxc;
+        "ssayYgb1" = _ssayYgb1;
         "forge-1.19.2" = _34Tzvpol;
         "forge-1.20.1" = _kefJECnt;
         "forge-1.16.5" = _ekhFvgjM;
         "neoforge-1.20.1" = _kefJECnt;
-        "neoforge-1.21.1" = _zzVwBSxc;
+        "neoforge-1.21.1" = _ssayYgb1;
         "pkg-1.0.2" = _nlOVyp4O;
         "pkg-1.0.0-beta.5" = _AjQEZ5w0;
         "pkg-1.0.0-rc.2" = _GHFrEcpm;
@@ -455,7 +461,8 @@ let
         "pkg-1.3.1-beta1" = _SsDrg1GK;
         "pkg-1.3.2" = _F5rPSh31;
         "pkg-1.3.3" = _zzVwBSxc;
-        "default" = _zzVwBSxc;
+        "pkg-1.3.4" = _ssayYgb1;
+        "default" = _ssayYgb1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nuclearcraft-neoteric";

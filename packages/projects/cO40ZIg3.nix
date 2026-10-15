@@ -256,6 +256,16 @@ let
             "file" = "functionalstorage-26.1.2-1.6.2.jar";
             "hash" = "sha512-Cs9O91oMFap6wlOwku1LGxFtgbJ/YesOGDM+kZACEx7BJ3y4Jem6xaS7NoiILXuczOpNvT4GBbFoevh1TglHJw==";
         };
+        _8oT46urW = {
+            "id" = "8oT46urW";
+            "file" = "functionalstorage-26.1.2-1.6.3.jar";
+            "hash" = "sha512-cZ5cRtzxfGphuYjJkv6u773Rrq3LqMnphlbvNE+U+eOLHK0PtcGEu1ooSaRAyc97vthVWeU2aSpA+7vmOQTTNA==";
+        };
+        _1WVNxD4h = {
+            "id" = "1WVNxD4h";
+            "file" = "functionalstorage-26.1.2-1.6.4.jar";
+            "hash" = "sha512-9CQ4yQkcI/8VOuwpkZ0GXAvAmLC2tuGgDRpBRfPFBVVtxn52WxITQYNlpQrLV3Vy+DkF+cIUAU6pOhnla34ptg==";
+        };
     in {
         "JyXiAfsS" = _JyXiAfsS;
         "L35pqNW9" = _L35pqNW9;
@@ -308,12 +318,14 @@ let
         "VKiRS63v" = _VKiRS63v;
         "nSI7DQsa" = _nSI7DQsa;
         "UIiPOHFO" = _UIiPOHFO;
+        "8oT46urW" = _8oT46urW;
+        "1WVNxD4h" = _1WVNxD4h;
         "forge-1.19.2" = _mMaCsAzp;
         "forge-1.20.1" = _XJ0p2eID;
         "forge-1.19.4" = _yAAkXsNv;
         "neoforge-1.21" = _FWnouoF2;
         "neoforge-1.21.1" = _FWnouoF2;
-        "neoforge-26.1.2" = _UIiPOHFO;
+        "neoforge-26.1.2" = _1WVNxD4h;
         "pkg-1.19.2-1.1.4" = _JyXiAfsS;
         "pkg-1.20.1-1.2.0c" = _L35pqNW9;
         "pkg-1.20.1-1.2.1" = _ucJtV3uE;
@@ -364,7 +376,9 @@ let
         "pkg-26.1-1.6.0" = _VKiRS63v;
         "pkg-26.1-1.6.1" = _nSI7DQsa;
         "pkg-26.1-1.6.2" = _UIiPOHFO;
-        "default" = _UIiPOHFO;
+        "pkg-26.1-1.6.3" = _8oT46urW;
+        "pkg-26.1-1.6.4" = _1WVNxD4h;
+        "default" = _1WVNxD4h;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "functional-storage";

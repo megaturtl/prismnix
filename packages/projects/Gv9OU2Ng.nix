@@ -261,6 +261,36 @@ let
             "file" = "bonesupdate-forge-1.21.11-1.3.1.jar";
             "hash" = "sha512-f3DZjaXuFw1qvKSli0gkKsyOvpcq5siVv/Z1DWVuTf49c9K/+vnu197GcwnrGI+Bb2lreBIE/rrW3AV33S+ApQ==";
         };
+        _fHHqZz7q = {
+            "id" = "fHHqZz7q";
+            "file" = "bonesupdate-forge-26.1-1.3.1.jar";
+            "hash" = "sha512-Ihhm55kW/MKu9IK3eGZjdVBG68PTr7YdkQ71iwmTZe0CJtwg8MNVYTxzh3nWy2+I9YAo/zkNppTDSEWqhmVgdw==";
+        };
+        _FFLnQhge = {
+            "id" = "FFLnQhge";
+            "file" = "bonesupdate-neoforge-26.1-1.3.1.jar";
+            "hash" = "sha512-Nw09sckYxhijKHz6SIUu29pEFDRnLz6p0v5qoOnuvdDX4WDWDNF3nsx/7e2mCbfrSMJ6TJSQixSSD89ZnejFkA==";
+        };
+        _OVPcalx2 = {
+            "id" = "OVPcalx2";
+            "file" = "bonesupdate-neoforge-26.1.1-1.3.1.jar";
+            "hash" = "sha512-N/9AMktstvT03HxG2IponDbU73xAG8SLAmmb4Z9c4jK7P3IXI54rWMl+SsLM39i5loHm3RuwDyurJSU7axRy5Q==";
+        };
+        _vhbdG7ks = {
+            "id" = "vhbdG7ks";
+            "file" = "bonesupdate-forge-26.1.1-1.3.1.jar";
+            "hash" = "sha512-77juLj9KFSMKkTPZUEHHYFJf+zxmIswt2vFKhYvjwem/C/UAbgsbL/Rbqp2OPvBhmJki3tcC6A5PpDyOQCuRDg==";
+        };
+        _OPLR1s7F = {
+            "id" = "OPLR1s7F";
+            "file" = "bonesupdate-neoforge-26.1.2-1.3.1.jar";
+            "hash" = "sha512-kZF0W9fkU2BBur3RTqyKdrmPB4ReKmYpxNEx1Gv6E+NbkVXjS5WkHK25MyWuMN8S9WlSJ1gzV+D/10bVso/uCA==";
+        };
+        _K9m9dPTW = {
+            "id" = "K9m9dPTW";
+            "file" = "bonesupdate-forge-26.1.2-1.3.1.jar";
+            "hash" = "sha512-kMPIgBLUuHFobuzLli6Mmn+4m8323jOplFKTwmbd2fPCY+fWHP9luunmylpcQ4DMHZV0TebNRk+BmHX9tx4sfg==";
+        };
     in {
         "GBFL1Xiu" = _GBFL1Xiu;
         "bbkLlDaG" = _bbkLlDaG;
@@ -314,6 +344,12 @@ let
         "jiIezX6L" = _jiIezX6L;
         "aux0OMLr" = _aux0OMLr;
         "XeiaUn4x" = _XeiaUn4x;
+        "fHHqZz7q" = _fHHqZz7q;
+        "FFLnQhge" = _FFLnQhge;
+        "OVPcalx2" = _OVPcalx2;
+        "vhbdG7ks" = _vhbdG7ks;
+        "OPLR1s7F" = _OPLR1s7F;
+        "K9m9dPTW" = _K9m9dPTW;
         "forge-1.19.4" = _6jIYIEEN;
         "forge-1.20.1" = _JwugI59w;
         "forge-1.20.3" = _BsXqdgUE;
@@ -330,6 +366,9 @@ let
         "forge-1.21.9" = _tYBAybxE;
         "forge-1.21.10" = _PxRo0SUp;
         "forge-1.21.11" = _XeiaUn4x;
+        "forge-26.1" = _fHHqZz7q;
+        "forge-26.1.1" = _vhbdG7ks;
+        "forge-26.1.2" = _K9m9dPTW;
         "neoforge-1.20.6" = _dfAX04wM;
         "neoforge-1.21" = _HPgz3Gac;
         "neoforge-1.21.1" = _oUZOzRzW;
@@ -342,6 +381,9 @@ let
         "neoforge-1.21.9" = _rZLXc2yd;
         "neoforge-1.21.10" = _Y8l5MCyK;
         "neoforge-1.21.11" = _aux0OMLr;
+        "neoforge-26.1" = _FFLnQhge;
+        "neoforge-26.1.1" = _OVPcalx2;
+        "neoforge-26.1.2" = _OPLR1s7F;
         "pkg-1.0.0-F1.19.4" = _GBFL1Xiu;
         "pkg-1.1.0-F1.19.4" = _bbkLlDaG;
         "pkg-1.2.0-F1.19.4" = _6jIYIEEN;
@@ -394,7 +436,13 @@ let
         "pkg-1.3.0-NF1.21.11" = _jiIezX6L;
         "pkg-1.3.1-NF1.21.11" = _aux0OMLr;
         "pkg-1.3.1-F1.21.11" = _XeiaUn4x;
-        "default" = _XeiaUn4x;
+        "pkg-1.3.1-F26.1" = _fHHqZz7q;
+        "pkg-1.3.1-NF26.1" = _FFLnQhge;
+        "pkg-1.3.1-NF26.1.1" = _OVPcalx2;
+        "pkg-1.3.1-F26.1.1" = _vhbdG7ks;
+        "pkg-1.3.1-NF26.1.2" = _OPLR1s7F;
+        "pkg-1.3.1-F26.1.2" = _K9m9dPTW;
+        "default" = _K9m9dPTW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bones-update";

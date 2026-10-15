@@ -21,17 +21,25 @@ let
             "file" = "couplesmod-1.0.3.jar";
             "hash" = "sha512-G9UUNHvzYsBLq0zZyszLoJMr4p6lqE5gVdTsnidS/NkVCiIDKzUfDCh1tDdwbmIvnYoCOIb1P6w0FjgiVsFTfA==";
         };
+        _TOYGGMAr = {
+            "id" = "TOYGGMAr";
+            "file" = "couplesmod-1.0.4.jar";
+            "hash" = "sha512-ZFdOIgSUvszDufs3PBKnqD8nmkCK5A0dnVeq0xQIaZSQ69qBMou8ynvejjPbYiioFnMba+ecOriG7ULRSZ73ZA==";
+        };
     in {
         "t1SHA73p" = _t1SHA73p;
         "hFXMkUtv" = _hFXMkUtv;
         "o6nyqdS5" = _o6nyqdS5;
         "oryBYJAL" = _oryBYJAL;
+        "TOYGGMAr" = _TOYGGMAr;
         "fabric-1.21.1" = _oryBYJAL;
         "neoforge-1.21.1" = _o6nyqdS5;
+        "forge-1.20.1" = _TOYGGMAr;
         "pkg-1.0.1" = _t1SHA73p;
         "pkg-1.0.2" = _hFXMkUtv;
         "pkg-1.0.3" = _oryBYJAL;
-        "default" = _oryBYJAL;
+        "pkg-1.0.4" = _TOYGGMAr;
+        "default" = _TOYGGMAr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "couples-mod";

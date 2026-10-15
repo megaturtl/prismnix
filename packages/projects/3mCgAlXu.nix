@@ -51,6 +51,11 @@ let
             "file" = "weatherflux-1.2.3.jar";
             "hash" = "sha512-8l30VLwH4GXEMa2ccb0xoTQPWsQ5594bklUhASnyQ2bu5zwHLwzJBKEq75pMqHKW2GdTI95q+bCqWnrKjieZtg==";
         };
+        _CsluAmOf = {
+            "id" = "CsluAmOf";
+            "file" = "weatherflux-1.3.0.jar";
+            "hash" = "sha512-EfQVjGUjwacDFmk1OM2Sz9gIUEg3AOJSoRQJvVkdRD8ACJdrJyQ12l2fdfLI2uUrhZO4Ad+SF3lLkJZ6AK44Yg==";
+        };
     in {
         "NHsTl6FA" = _NHsTl6FA;
         "WAUD0PEN" = _WAUD0PEN;
@@ -62,7 +67,8 @@ let
         "C790WokR" = _C790WokR;
         "WOeYcFDW" = _WOeYcFDW;
         "Iouysi3z" = _Iouysi3z;
-        "neoforge-1.21.1" = _Iouysi3z;
+        "CsluAmOf" = _CsluAmOf;
+        "neoforge-1.21.1" = _CsluAmOf;
         "pkg-v1.0.0" = _NHsTl6FA;
         "pkg-v1.1.0" = _WAUD0PEN;
         "pkg-v1.1.1" = _tUdKLfCE;
@@ -73,7 +79,8 @@ let
         "pkg-v1.2.1" = _C790WokR;
         "pkg-v1.2.2" = _WOeYcFDW;
         "pkg-v1.2.3" = _Iouysi3z;
-        "default" = _Iouysi3z;
+        "pkg-v1.3.0" = _CsluAmOf;
+        "default" = _CsluAmOf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "weather-flux";

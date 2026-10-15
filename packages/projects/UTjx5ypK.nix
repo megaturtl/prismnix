@@ -191,6 +191,16 @@ let
             "file" = "Gts-2.6.0-neoforge.jar";
             "hash" = "sha512-Eggtmhb952GHjF11kn4e2DGnTLne8FW22gmExVENOuoH6/Ce4Qmmvw7eVBiSCYl44KWong5lav4GiJ+68q3FWQ==";
         };
+        _uAxVSR00 = {
+            "id" = "uAxVSR00";
+            "file" = "Gts-2.6.1-fabric.jar";
+            "hash" = "sha512-1oPG6DVBWJM4Ufrl0TULcjAn4W91H+zLTzlM7uer9/rdZqyrGnvF0lsbPJi3BQbYS1rKbvUQI7JvRZy1zPbXfA==";
+        };
+        _vTPj3glJ = {
+            "id" = "vTPj3glJ";
+            "file" = "Gts-2.6.1-neoforge.jar";
+            "hash" = "sha512-lumaVv2DRtIE+4zXGP5bgOpNNOtcVWtj9n7JxMRTxE7OCIzxLsNuXIAb7JgTVPqRklpxwZPnPRP2pfA26r7wxQ==";
+        };
     in {
         "No5ga21F" = _No5ga21F;
         "MJ5gOSMk" = _MJ5gOSMk;
@@ -230,12 +240,14 @@ let
         "WFYq2GOf" = _WFYq2GOf;
         "rjc3HxV9" = _rjc3HxV9;
         "QJvUSBsY" = _QJvUSBsY;
+        "uAxVSR00" = _uAxVSR00;
+        "vTPj3glJ" = _vTPj3glJ;
         "fabric-1.19.2" = _1218wF8c;
         "fabric-1.20.1" = _3idn9d6m;
-        "fabric-1.21.1" = _rjc3HxV9;
+        "fabric-1.21.1" = _uAxVSR00;
         "forge-1.19.2" = _Wb9p5lX6;
         "forge-1.20.1" = _V12cAF5l;
-        "neoforge-1.21.1" = _QJvUSBsY;
+        "neoforge-1.21.1" = _vTPj3glJ;
         "pkg-1.0.0" = _MJ5gOSMk;
         "pkg-1.0.1" = _MkOtSGzT;
         "pkg-1.0.2" = _Wb9p5lX6;
@@ -254,7 +266,8 @@ let
         "pkg-2.5.0" = _VcOw7Bo3;
         "pkg-2.5.1" = _WFYq2GOf;
         "pkg-2.6.0" = _QJvUSBsY;
-        "default" = _QJvUSBsY;
+        "pkg-2.6.1" = _vTPj3glJ;
+        "default" = _vTPj3glJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-gts";

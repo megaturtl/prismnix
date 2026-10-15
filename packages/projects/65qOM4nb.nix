@@ -66,6 +66,11 @@ let
             "file" = "Nether-API-v1.5.1-mc1.12.2.jar";
             "hash" = "sha512-TcscK/GpwZ6otpX3Q1BwCWMwGz8opB9JGu5SeSlC05nShMSgGN82x/Bc6MPCqt31LEQTEyUNTdod3Uh8dS6nHw==";
         };
+        _mcE8QTRq = {
+            "id" = "mcE8QTRq";
+            "file" = "Nether-API-v1.5.2-mc1.12.2.jar";
+            "hash" = "sha512-UYx/AVAEmcdY78j7j7i2Rqhu9QjFFtrZ+w/PH1KTKahIU9pQGkBogQe9h1Ql13HLMXs13RwJB0F+BZTrlSj+Ng==";
+        };
     in {
         "kk0lME7s" = _kk0lME7s;
         "n4yD1Zje" = _n4yD1Zje;
@@ -80,7 +85,8 @@ let
         "clN34FLQ" = _clN34FLQ;
         "VsETicHl" = _VsETicHl;
         "vLckW1FJ" = _vLckW1FJ;
-        "forge-1.12.2" = _vLckW1FJ;
+        "mcE8QTRq" = _mcE8QTRq;
+        "forge-1.12.2" = _mcE8QTRq;
         "pkg-1.0.0" = _kk0lME7s;
         "pkg-1.0.1" = _n4yD1Zje;
         "pkg-1.1.0" = _KEeaPDgW;
@@ -94,7 +100,8 @@ let
         "pkg-1.4.5" = _clN34FLQ;
         "pkg-1.5.0" = _VsETicHl;
         "pkg-1.5.1" = _vLckW1FJ;
-        "default" = _vLckW1FJ;
+        "pkg-1.5.2" = _mcE8QTRq;
+        "default" = _mcE8QTRq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nether-api";

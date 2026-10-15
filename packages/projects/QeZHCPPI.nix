@@ -11,13 +11,20 @@ let
             "file" = "vehicle-mod-1.4.0-1.12.2.jar";
             "hash" = "sha512-srfX7wA33G61PYvTUUGlpQdH9z79jOPXQIS/NmxmmWopRWMiDoHGxYrffpGYq0iwFD3rgRVKzmlAPrCVE8K1AA==";
         };
+        _zwdlrbYG = {
+            "id" = "zwdlrbYG";
+            "file" = "onysd-vehicles-1.5.0-1.12.2.jar";
+            "hash" = "sha512-JDr6k66nSp1pcoxzviK01Pm8tsgjHcUs9+//wUw1CSG0CFq2Mfz3Gb5AHRCBQjvLqDmf3qht0289Wn23tHbiWg==";
+        };
     in {
         "fy45bkqT" = _fy45bkqT;
         "LuvveCaI" = _LuvveCaI;
-        "forge-1.12.2" = _LuvveCaI;
+        "zwdlrbYG" = _zwdlrbYG;
+        "forge-1.12.2" = _zwdlrbYG;
         "pkg-1.3.2" = _fy45bkqT;
         "pkg-1.4.0" = _LuvveCaI;
-        "default" = _LuvveCaI;
+        "pkg-1.5.0" = _zwdlrbYG;
+        "default" = _zwdlrbYG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "onysd-vehicles";

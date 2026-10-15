@@ -191,6 +191,16 @@ let
             "file" = "nomansland-1.5.12.jar";
             "hash" = "sha512-ZKR5G5wFtGZELrMgPW9XJBA1NZz43rLXn242ZEhGGe04zg03JZYNQs//9OiJ6wwAR0o7X3NUsao/uB9/o/3ptQ==";
         };
+        _ShvHvNwJ = {
+            "id" = "ShvHvNwJ";
+            "file" = "nomansland-1.6.0.jar";
+            "hash" = "sha512-j4XhL0ta+3D1ik0vohsOh4sIi/TaBmiKxXrLmjl9++B5htOkEFreKeixAFLgqaUF7y8EC5cvqL8QYAjb6G6ilA==";
+        };
+        _Ekx60B7F = {
+            "id" = "Ekx60B7F";
+            "file" = "nomansland-1.6.1.jar";
+            "hash" = "sha512-LU9LspN3h6t+XMu50NmkWKIr9uobRPvoDTwenM2xV3JqwcJT2wJ78OPUdhsGncs3ONNGBeMcmSuYkD0MWvWezw==";
+        };
     in {
         "OoSaqdTf" = _OoSaqdTf;
         "K7mVhRJW" = _K7mVhRJW;
@@ -230,7 +240,9 @@ let
         "eS9Y6AXV" = _eS9Y6AXV;
         "kFPJl0ig" = _kFPJl0ig;
         "bcszfrVc" = _bcszfrVc;
-        "neoforge-1.21.1" = _bcszfrVc;
+        "ShvHvNwJ" = _ShvHvNwJ;
+        "Ekx60B7F" = _Ekx60B7F;
+        "neoforge-1.21.1" = _Ekx60B7F;
         "pkg-1.0.0" = _OoSaqdTf;
         "pkg-1.0.1" = _K7mVhRJW;
         "pkg-1.0.2" = _3Yojt7zR;
@@ -269,7 +281,9 @@ let
         "pkg-1.5.10" = _eS9Y6AXV;
         "pkg-1.5.11" = _kFPJl0ig;
         "pkg-1.5.12" = _bcszfrVc;
-        "default" = _bcszfrVc;
+        "pkg-1.6.0" = _ShvHvNwJ;
+        "pkg-1.6.1" = _Ekx60B7F;
+        "default" = _Ekx60B7F;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "no-mans-land";

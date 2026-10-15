@@ -276,6 +276,16 @@ let
             "file" = "railoptimization-2.0+mc26.1.2-neoforge.jar";
             "hash" = "sha512-PCVAGmQR5iyA+9Gia4iE4K0ooDZZ7l7amvGl0JdhzA9IDnyeodeiMJdjblKbnEOgib5lTdOmAbMfox2lTWZLRA==";
         };
+        _L720D2M2 = {
+            "id" = "L720D2M2";
+            "file" = "railoptimization-2.5-snapshot.1+mc26.1.2-fabric.jar";
+            "hash" = "sha512-He38/hOD7Si5khmm71uDw2XI6XW3ldYVGJPDz3GwTm04LXonCHF1R7U8ab8yy5fiuCRhupxWOeDmlhQchAQAkw==";
+        };
+        _qValE4WF = {
+            "id" = "qValE4WF";
+            "file" = "railoptimization-2.5-snapshot.1+mc26.1.2-neoforge.jar";
+            "hash" = "sha512-KKN68r4pK41MwEU5pBRj5ZnIwVQisp3hfF1xd/QrbspXbVBMXWSK5B3UTsHi2LUPdoRYBHWrZPW/pV+XxDE74Q==";
+        };
     in {
         "u4jdnaWx" = _u4jdnaWx;
         "lkFXpXNU" = _lkFXpXNU;
@@ -332,6 +342,8 @@ let
         "Hm7aLSab" = _Hm7aLSab;
         "QQzYehRo" = _QQzYehRo;
         "kJxSNgM0" = _kJxSNgM0;
+        "L720D2M2" = _L720D2M2;
+        "qValE4WF" = _qValE4WF;
         "fabric-1.20.2" = _3ww4XTxX;
         "fabric-1.20" = _3ww4XTxX;
         "fabric-1.20.1" = _3ww4XTxX;
@@ -368,11 +380,11 @@ let
         "fabric-1.21.9" = _pAbByobF;
         "fabric-1.21.10" = _pAbByobF;
         "fabric-1.21.11" = _PN0kmW1G;
-        "fabric-26.1" = _QQzYehRo;
-        "fabric-26.1.1" = _QQzYehRo;
-        "fabric-26.1.2" = _QQzYehRo;
-        "fabric-26.2" = _QQzYehRo;
-        "fabric-26.3" = _QQzYehRo;
+        "fabric-26.1" = _L720D2M2;
+        "fabric-26.1.1" = _L720D2M2;
+        "fabric-26.1.2" = _L720D2M2;
+        "fabric-26.2" = _L720D2M2;
+        "fabric-26.3" = _L720D2M2;
         "quilt-1.20.2" = _3ww4XTxX;
         "quilt-1.20" = _3ww4XTxX;
         "quilt-1.20.1" = _3ww4XTxX;
@@ -409,15 +421,15 @@ let
         "quilt-1.21.9" = _pAbByobF;
         "quilt-1.21.10" = _pAbByobF;
         "quilt-1.21.11" = _PN0kmW1G;
-        "quilt-26.1" = _QQzYehRo;
-        "quilt-26.1.1" = _QQzYehRo;
-        "quilt-26.1.2" = _QQzYehRo;
-        "quilt-26.2" = _QQzYehRo;
-        "quilt-26.3" = _QQzYehRo;
-        "neoforge-26.1" = _kJxSNgM0;
-        "neoforge-26.1.1" = _kJxSNgM0;
-        "neoforge-26.1.2" = _kJxSNgM0;
-        "neoforge-26.2" = _kJxSNgM0;
+        "quilt-26.1" = _L720D2M2;
+        "quilt-26.1.1" = _L720D2M2;
+        "quilt-26.1.2" = _L720D2M2;
+        "quilt-26.2" = _L720D2M2;
+        "quilt-26.3" = _L720D2M2;
+        "neoforge-26.1" = _qValE4WF;
+        "neoforge-26.1.1" = _qValE4WF;
+        "neoforge-26.1.2" = _qValE4WF;
+        "neoforge-26.2" = _qValE4WF;
         "neoforge-1.20.2" = _LErWsyCa;
         "neoforge-1.20.3" = _LErWsyCa;
         "neoforge-1.20.4" = _LErWsyCa;
@@ -435,7 +447,7 @@ let
         "neoforge-1.21.9" = _U7XSsetW;
         "neoforge-1.21.10" = _U7XSsetW;
         "neoforge-1.21.11" = _Hm7aLSab;
-        "neoforge-26.3" = _kJxSNgM0;
+        "neoforge-26.3" = _qValE4WF;
         "forge-1.20" = _38JIaD9F;
         "forge-1.20.1" = _38JIaD9F;
         "forge-1.20.2" = _38JIaD9F;
@@ -458,7 +470,8 @@ let
         "pkg-2.0-snapshot.5" = _lk20yK8W;
         "pkg-2.0-snapshot.6" = _9QGNRxz7;
         "pkg-2.0" = _kJxSNgM0;
-        "default" = _kJxSNgM0;
+        "pkg-2.5-snapshot.1" = _qValE4WF;
+        "default" = _qValE4WF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "railoptimization";

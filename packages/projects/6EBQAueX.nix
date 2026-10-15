@@ -116,6 +116,11 @@ let
             "file" = "Armageddon for Forge 1.20.1 (v3.3.0) - Polished.jar";
             "hash" = "sha512-v3nZT1kmFmP1q5MXlcgh/Yd7Hy4t6Pz31soTwy/ENI/fd58Eb5qdH32UPUbJNBGp2FQ1h1uwrRtwJsY14WiHrQ==";
         };
+        _6RtoJ7P2 = {
+            "id" = "6RtoJ7P2";
+            "file" = "Armageddon for Forge 1.20.1 (v3.3.0b) - Polished.jar";
+            "hash" = "sha512-iEnnIzefD+UMGzgPBXJuHjyrnb/rN/j5Hu6tg1SUMehXScwwnjMuA7uN7hCa341RotPEnYh0xWIvguZ01ATBXg==";
+        };
     in {
         "LKvhK3Ot" = _LKvhK3Ot;
         "9DsQX5om" = _9DsQX5om;
@@ -140,7 +145,8 @@ let
         "5OixWECa" = _5OixWECa;
         "Y7omntCC" = _Y7omntCC;
         "lHLcmxcD" = _lHLcmxcD;
-        "forge-1.20.1" = _lHLcmxcD;
+        "6RtoJ7P2" = _6RtoJ7P2;
+        "forge-1.20.1" = _6RtoJ7P2;
         "neoforge-1.21.1" = _Y7omntCC;
         "pkg-0.1.5" = _LKvhK3Ot;
         "pkg-1.5.2" = _9DsQX5om;
@@ -160,7 +166,8 @@ let
         "pkg-v3.0.07" = _rVIl8NYc;
         "pkg-v3.1.2" = _Y7omntCC;
         "pkg-v3.3.0" = _lHLcmxcD;
-        "default" = _lHLcmxcD;
+        "pkg-v3.3.0b" = _6RtoJ7P2;
+        "default" = _6RtoJ7P2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "armageddon";

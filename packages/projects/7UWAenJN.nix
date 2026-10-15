@@ -56,6 +56,11 @@ let
             "file" = "floral_tonics_and_tinctures-2.2.3-1.20.1-forge-neoforge.jar";
             "hash" = "sha512-H7i1K4TXZ0t4sZ2I0nABHFgQl/1uleqGs+qoSvZ4pClQt1p1CeR3b6kGgN9zWIChOzuO2tfvHh6ztepW1yrbnw==";
         };
+        _iLiuQdBe = {
+            "id" = "iLiuQdBe";
+            "file" = "floral_tonics_and_tinctures-2.2.3-1.21.1-neoforge.jar";
+            "hash" = "sha512-chRJNb7cSntAO0nMZhopfjKOnJYS0ZnQZyZrTI5BD1GKuKQhesbLC3MwOCxpvQF1ZlWwhaOJzPzgHP3rVlF8Aw==";
+        };
     in {
         "fKXljv8e" = _fKXljv8e;
         "NtWDa45E" = _NtWDa45E;
@@ -68,6 +73,7 @@ let
         "XyY8MtrS" = _XyY8MtrS;
         "vfQwNwxb" = _vfQwNwxb;
         "JUOJJbih" = _JUOJJbih;
+        "iLiuQdBe" = _iLiuQdBe;
         "forge-1.20.1" = _JUOJJbih;
         "forge-1.20.2" = _C2YKcRY0;
         "forge-1.20.3" = _C2YKcRY0;
@@ -80,6 +86,8 @@ let
         "neoforge-1.20.3" = _C2YKcRY0;
         "neoforge-1.20.5" = _C2YKcRY0;
         "neoforge-1.20.6" = _C2YKcRY0;
+        "neoforge-1.21" = _iLiuQdBe;
+        "neoforge-1.21.1" = _iLiuQdBe;
         "pkg-1.0.0" = _NtWDa45E;
         "pkg-2.0.0_forge-neoforge-1.20.1" = _DLQfhmmv;
         "pkg-2.0.1-forge_neoforge-1.20.1" = _B55GkgUd;
@@ -88,8 +96,8 @@ let
         "pkg-2.2.0-forge-neoforge-1.20.1" = _C2YKcRY0;
         "pkg-2.2.1" = _XyY8MtrS;
         "pkg-2.1.2" = _vfQwNwxb;
-        "pkg-2.2.3" = _JUOJJbih;
-        "default" = _JUOJJbih;
+        "pkg-2.2.3" = _iLiuQdBe;
+        "default" = _iLiuQdBe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "floral-tonics-and-tinctures";

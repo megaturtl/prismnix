@@ -146,6 +146,11 @@ let
             "file" = "QSFindItemAddOn-2.0.8.2-RELEASE.jar";
             "hash" = "sha512-DrKyhT7r2F385sJuipEKhPcpvS1B6p3UyoAZrPgZUyIJjufLsIG69+EeYy//QZkAMDwSZ0hbpCS8Yn8kGIax/Q==";
         };
+        _HfRymgCq = {
+            "id" = "HfRymgCq";
+            "file" = "QSFindItemAddOn-2.0.8.3-SNAPSHOT-36.jar";
+            "hash" = "sha512-bjfdNlLYt6ac9BFKJZSiJMqw+y3dyZiwQcRmxN4l9v2CCSaxslSjavmhmikzEqHHPZgVQ4DY0qUGTt5x4ckwFg==";
+        };
     in {
         "am0Cu9Bz" = _am0Cu9Bz;
         "LExDctrm" = _LExDctrm;
@@ -176,6 +181,7 @@ let
         "4QCmO4jt" = _4QCmO4jt;
         "WJpBCeQf" = _WJpBCeQf;
         "2LCffM4q" = _2LCffM4q;
+        "HfRymgCq" = _HfRymgCq;
         "paper-1.16.5" = _yGC3NgUp;
         "paper-1.17.1" = _yGC3NgUp;
         "paper-1.18.2" = _yGC3NgUp;
@@ -203,7 +209,7 @@ let
         "paper-26.1" = _UDaB9XW4;
         "paper-26.1.1" = _UDaB9XW4;
         "paper-26.1.2" = _EiNlgCK7;
-        "paper-26.2" = _2LCffM4q;
+        "paper-26.2" = _HfRymgCq;
         "purpur-1.16.5" = _yGC3NgUp;
         "purpur-1.17.1" = _yGC3NgUp;
         "purpur-1.18.2" = _yGC3NgUp;
@@ -231,7 +237,7 @@ let
         "purpur-26.1" = _UDaB9XW4;
         "purpur-26.1.1" = _UDaB9XW4;
         "purpur-26.1.2" = _EiNlgCK7;
-        "purpur-26.2" = _2LCffM4q;
+        "purpur-26.2" = _HfRymgCq;
         "spigot-1.16.5" = _yGC3NgUp;
         "spigot-1.17.1" = _yGC3NgUp;
         "spigot-1.18.2" = _yGC3NgUp;
@@ -281,7 +287,7 @@ let
         "folia-26.1" = _UDaB9XW4;
         "folia-26.1.1" = _UDaB9XW4;
         "folia-26.1.2" = _EiNlgCK7;
-        "folia-26.2" = _2LCffM4q;
+        "folia-26.2" = _HfRymgCq;
         "pkg-2.0.5.4-RELEASE" = _am0Cu9Bz;
         "pkg-2.0.5.5-RELEASE" = _LExDctrm;
         "pkg-2.0.5.6-RELEASE" = _tvsPd3qh;
@@ -308,7 +314,8 @@ let
         "pkg-2.0.8.1-SNAPSHOT-31" = _4QCmO4jt;
         "pkg-2.0.8.2-SNAPSHOT-32" = _WJpBCeQf;
         "pkg-2.0.8.2-RELEASE" = _2LCffM4q;
-        "default" = _2LCffM4q;
+        "pkg-2.0.8.3-SNAPSHOT-36" = _HfRymgCq;
+        "default" = _HfRymgCq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shop-search";

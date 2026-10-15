@@ -156,6 +156,11 @@ let
             "file" = "USMPDS-1.3.2-26.4-s-3.jar";
             "hash" = "sha512-EFIKM0BP/IvfLHr3MQEzGM96rqlnRMSFJWkNlUTooqs4tY/GHzdYINN5SFX2KHFiuAeNrQ1lvF7S9ZA2XlxWHA==";
         };
+        _D7mnn7Er = {
+            "id" = "D7mnn7Er";
+            "file" = "USMPDS-1.3.2-26.4-s-4.jar";
+            "hash" = "sha512-8ZRZftUVwKV6P1+3fZp9TRS7oxyjYZx6WdS9s+FcYREnKG9+T0WPI61j2LfzFgC87XjpKt0dmj47j2XrKcjIlA==";
+        };
     in {
         "gNQwyEfj" = _gNQwyEfj;
         "bC7khzCK" = _bC7khzCK;
@@ -188,6 +193,7 @@ let
         "Fu0CBE70" = _Fu0CBE70;
         "bPILwu9B" = _bPILwu9B;
         "PL7ksvxq" = _PL7ksvxq;
+        "D7mnn7Er" = _D7mnn7Er;
         "fabric-1.21.11" = _bC7khzCK;
         "fabric-1.21.10" = _HLahsDir;
         "fabric-1.21.9" = _FC4UKNNN;
@@ -219,6 +225,7 @@ let
         "fabric-26.4-snapshot-1" = _Fu0CBE70;
         "fabric-26.4-snapshot-2" = _bPILwu9B;
         "fabric-26.4-snapshot-3" = _PL7ksvxq;
+        "fabric-26.4-snapshot-4" = _D7mnn7Er;
         "pkg-1.0.0" = _gNQwyEfj;
         "pkg-1.2.0" = _bC7khzCK;
         "pkg-1.21.10-1.3.0" = _HLahsDir;
@@ -249,7 +256,8 @@ let
         "pkg-USMPDS-1.3.2+26.4-s-1" = _Fu0CBE70;
         "pkg-USMPDS-1.3.2-26.4-s-2" = _bPILwu9B;
         "pkg-USMPDS-1.3.2-26.4-s-3" = _PL7ksvxq;
-        "default" = _PL7ksvxq;
+        "pkg-USMPDS-1.3.2-26.4-s-4" = _D7mnn7Er;
+        "default" = _D7mnn7Er;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "unstable-smp-death-sounds-by-bl";

@@ -31,6 +31,16 @@ let
             "file" = "cobblemon-horizon-mons-1.0.2.jar";
             "hash" = "sha512-z83Zewp59FniJYWqE16wCN/9b5nj18ul1dhIXfyXhIJks9ag6nJYj5QN9RN/QKkMEhEUr2cCH4us/07U8FjztQ==";
         };
+        _wz2uJsY8 = {
+            "id" = "wz2uJsY8";
+            "file" = "horizon-mons-v1.0.3.zip";
+            "hash" = "sha512-DrEX6xyPRIy7BIBcyj+BalIBfUgqe2axGJHY8G7KXP8LQzsw0xe8AAinZ3fYRLUpLVRAL949qLGEy8npwLFpIg==";
+        };
+        _MDO77He8 = {
+            "id" = "MDO77He8";
+            "file" = "cobblemon-horizon-mons-1.0.3.jar";
+            "hash" = "sha512-LKDroyvlBD/5LKSE2pqzMrQ6rwZ8kF0yRhVBugY16c+/mfKJLfKPVfXEZV3TAQ16tz2q/xV+wOPPJVtDSXOX6w==";
+        };
     in {
         "gttpasiQ" = _gttpasiQ;
         "STEpKDkw" = _STEpKDkw;
@@ -38,23 +48,27 @@ let
         "oei4I81A" = _oei4I81A;
         "A1AOtXAw" = _A1AOtXAw;
         "wm3yP1f9" = _wm3yP1f9;
-        "datapack-1.21" = _A1AOtXAw;
-        "datapack-1.21.1" = _A1AOtXAw;
-        "fabric-1.21" = _wm3yP1f9;
-        "fabric-1.21.1" = _wm3yP1f9;
-        "forge-1.21" = _wm3yP1f9;
-        "forge-1.21.1" = _wm3yP1f9;
-        "neoforge-1.21" = _wm3yP1f9;
-        "neoforge-1.21.1" = _wm3yP1f9;
-        "quilt-1.21" = _wm3yP1f9;
-        "quilt-1.21.1" = _wm3yP1f9;
+        "wz2uJsY8" = _wz2uJsY8;
+        "MDO77He8" = _MDO77He8;
+        "datapack-1.21" = _wz2uJsY8;
+        "datapack-1.21.1" = _wz2uJsY8;
+        "fabric-1.21" = _MDO77He8;
+        "fabric-1.21.1" = _MDO77He8;
+        "forge-1.21" = _MDO77He8;
+        "forge-1.21.1" = _MDO77He8;
+        "neoforge-1.21" = _MDO77He8;
+        "neoforge-1.21.1" = _MDO77He8;
+        "quilt-1.21" = _MDO77He8;
+        "quilt-1.21.1" = _MDO77He8;
         "pkg-1.0.0" = _gttpasiQ;
         "pkg-1.0.0+mod" = _STEpKDkw;
         "pkg-1.0.1" = _NR3JWt0W;
         "pkg-1.0.1+mod" = _oei4I81A;
         "pkg-1.0.2" = _A1AOtXAw;
         "pkg-1.0.2+mod" = _wm3yP1f9;
-        "default" = _wm3yP1f9;
+        "pkg-1.0.3" = _wz2uJsY8;
+        "pkg-1.0.3+mod" = _MDO77He8;
+        "default" = _MDO77He8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-horizon-mons";

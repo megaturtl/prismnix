@@ -261,6 +261,106 @@ let
             "file" = "mercurizer-fabric-0.9.2+mc26.3-1.0.jar";
             "hash" = "sha512-iVolaA9axfzE3iGUQffJMviFji7Kkhb+BLCcO/G6ACe6b1ujV7Ecroc5ynVMZWqOfuTJ5KIr77x6QVxb5M8iNA==";
         };
+        _MvulNJVw = {
+            "id" = "MvulNJVw";
+            "file" = "mercurizer-fabric-0.6.13+mc1.21-1.0.jar";
+            "hash" = "sha512-V36SjoBLeGydw/XIhf6MjPFfjCQK2zot0iCGAmdpvi211D43zIEkHDpzWTBSHS1OKcFMHmwtBC1GJxdQKlUe1Q==";
+        };
+        _Dl5flVYQ = {
+            "id" = "Dl5flVYQ";
+            "file" = "mercurizer-fabric-0.8.13+mc1.21.1-1.0.jar";
+            "hash" = "sha512-yk/HZebzptm3gZWW2y9E2FnymiRdB+fM3nNtODZtLJluEBPTxEU9o7jYsSLya0Wz++Jp/I3JMxYuoaRkY6ti5w==";
+        };
+        _ZMKgroT3 = {
+            "id" = "ZMKgroT3";
+            "file" = "mercurizer-fabric-0.6.13+mc1.21.3-1.0.jar";
+            "hash" = "sha512-+0KYJIEoRxWWfyony1VIcsh7J1qW1SP6PK3bHlNn6xKmn8F6k12EkjqkDYWkkUVpshWugC8a7cbQXucnVKjQ8w==";
+        };
+        _8CsR9kqD = {
+            "id" = "8CsR9kqD";
+            "file" = "mercurizer-fabric-0.6.13+mc1.21.4-1.0.jar";
+            "hash" = "sha512-kIRnqwIBILbrFpYGVCNF/g6InsRJ59I/5mqGY+63LY6ojxe5asBMH3hkAp9EUFmgzzlxxNV9gCPui7yhhqgfdA==";
+        };
+        _nez579gD = {
+            "id" = "nez579gD";
+            "file" = "mercurizer-fabric-0.6.13+mc1.21.5-1.0.jar";
+            "hash" = "sha512-KndMDFbYAeECPWO9JmG0ZzLTGrNyv/KMhwRTE4Vri1gQXBuHeOoSUJ33RcFexvxOqNQLqdAfyCpLbSMBISl7QQ==";
+        };
+        _c2svezTs = {
+            "id" = "c2svezTs";
+            "file" = "mercurizer-fabric-0.7.3+mc1.21.8-1.0.jar";
+            "hash" = "sha512-ovEZifQ0KzW3SEnVQy9Ro2NSRCujMOeL6UwLFPzabNFyx++sTm1BTsNx1Rss2MdPDjStk1a9zG8PX9I2p34roQ==";
+        };
+        _nMfM7cJL = {
+            "id" = "nMfM7cJL";
+            "file" = "mercurizer-fabric-0.7.3+mc1.21.10-1.0.jar";
+            "hash" = "sha512-Y7lZa8suP6IlJEFFAwbj6hvC404/OSzJQgeKS0AT2Hk8KYf7d3ZoddDUWF35cDKFFDyPvnCiV287Ufqi76zDLQ==";
+        };
+        _hP6Zbh6e = {
+            "id" = "hP6Zbh6e";
+            "file" = "mercurizer-fabric-0.8.14+mc1.21.11-1.1.jar";
+            "hash" = "sha512-Nx9xOqLdoc4OnPmEg+Z2449LVfMvs2lojxB0E9gCc/gFlByTQc6cN0XR2Fmz2v8ieEw+Vpho1vpddOam8DqQ0A==";
+        };
+        _SJrDiJH3 = {
+            "id" = "SJrDiJH3";
+            "file" = "mercurizer-fabric-0.8.9+mc26.1-1.10.jar";
+            "hash" = "sha512-V88U4dDaJZn0b5k+BG7/m1eApXntmVP8EMx1njwhrLHwtXChDmkhalZQxiYO8Ajap+etEjaqI7oOyzQIuIHvUw==";
+        };
+        _RK2hPc9x = {
+            "id" = "RK2hPc9x";
+            "file" = "mercurizer-fabric-0.8.9+mc26.1.1-1.10.jar";
+            "hash" = "sha512-0Ci65TKKNnZD6XBgcYp8CX3k/cu1VOV9DeHeGeuvzcIw/APxSirmWnwy3qRT4VXNg7dZPiq8bag7HDXyRQS/2Q==";
+        };
+        _RzFnSMpx = {
+            "id" = "RzFnSMpx";
+            "file" = "mercurizer-fabric-0.9.2+mc26.1.2-1.1.jar";
+            "hash" = "sha512-o35hR/M9wmh/UfHOW0r7DDSlok04w1jO91WS5GMGnJfeixAZawikKrZSZeCOZOoP5vDOrmeBP8XQkw0+En+86g==";
+        };
+        _Ea4wf0Zr = {
+            "id" = "Ea4wf0Zr";
+            "file" = "mercurizer-fabric-0.9.2+mc26.2-1.1.jar";
+            "hash" = "sha512-MXhUg6CGrCXcL8d2B/t3pVyLJBVQtN0KqleldPMocWZgF5hjY1qDl7wswwdXpiTyEKY3NgN2fi3VevpzN6PsBw==";
+        };
+        _ZW4bkOZp = {
+            "id" = "ZW4bkOZp";
+            "file" = "mercurizer-fabric-0.9.2+mc26.3-1.1.jar";
+            "hash" = "sha512-CJ0b7wP4hEw5CeUI3KMUBmEXUTvobOxmT2nuZaZ/9cg8gfig2gQbWhZZ/zqTL4u7TiAeRY4K/79tsaNXW4cw+A==";
+        };
+        _GAFL5GLP = {
+            "id" = "GAFL5GLP";
+            "file" = "mercurizer-fabric-0.6.13+mc1.21-1.0.1.jar";
+            "hash" = "sha512-b7CMChTVKjGwRKC2Ml4kEgF8gcKpPkpMqpwU3n4AyrZzxV529zvmAFstLGKvkBxtdLvAJiWbFww1PKwja1vlGQ==";
+        };
+        _BNG2qe5d = {
+            "id" = "BNG2qe5d";
+            "file" = "mercurizer-fabric-0.8.13+mc1.21.1-1.0.1.jar";
+            "hash" = "sha512-YT45265HbWv1nhNmqugusHDtV/b34kpOTLZbXyXmJkzLxhk5T736Zs1Ck9Mn0QPSrxcLC04K1GBh6TdBfJUG3w==";
+        };
+        _6OS5GxGN = {
+            "id" = "6OS5GxGN";
+            "file" = "mercurizer-fabric-0.6.13+mc1.21.3-1.0.1.jar";
+            "hash" = "sha512-GGXbmks/2WGrThq+5bg2YciPVKihMEvWf6GNgzr7DoPv2UiQZzHgPQpIfRabY/TJTFGIwdT6iI2M9YuuwFGQaQ==";
+        };
+        _yFtVNSUD = {
+            "id" = "yFtVNSUD";
+            "file" = "mercurizer-fabric-0.6.13+mc1.21.4-1.0.1.jar";
+            "hash" = "sha512-U2yrk+MfeQRnZ3i4L0WZvWRt2QT8rzQH5cKZHOA3WPv3CHwnLNL8AkX1at2C/BPcwqlGu7oHpV5gmAbpkA26Kw==";
+        };
+        _kSkyan9E = {
+            "id" = "kSkyan9E";
+            "file" = "mercurizer-fabric-0.6.13+mc1.21.5-1.0.1.jar";
+            "hash" = "sha512-X4ipP0h+JVK9DoFRSst3vbsPGVyJTQmGb1RYZY/Hi9OJ7FCxpvTu65yXbm3mD4J1sTIMPQ8idB+CdWy1ZK8doA==";
+        };
+        _cETrc4Gi = {
+            "id" = "cETrc4Gi";
+            "file" = "mercurizer-fabric-0.7.3+mc1.21.8-1.0.1.jar";
+            "hash" = "sha512-FZ8i278xcgH4vFJzB4xEzpaOEgbhjOew2gMxXmWVT2/TsZKWbgRW+2IN4itcCpcUp2axJmR9yd+jU3ZXjQxOCw==";
+        };
+        _iblTDwle = {
+            "id" = "iblTDwle";
+            "file" = "mercurizer-fabric-0.7.3+mc1.21.10-1.0.1.jar";
+            "hash" = "sha512-dvoK/6ZgFK31tiWOIIyiDT9Nj4sUtsYx/zrA6F3WNNzG5Hmz2vaJnO87Hm0jMXuJcwkZFyY/vjUenQfmd4HwDQ==";
+        };
     in {
         "xM8bZKsK" = _xM8bZKsK;
         "cw0hZthz" = _cw0hZthz;
@@ -314,12 +414,43 @@ let
         "WqIfx838" = _WqIfx838;
         "sYpvkWVk" = _sYpvkWVk;
         "zlQNGPnR" = _zlQNGPnR;
-        "fabric-1.21.11" = _HvuVpwL4;
-        "fabric-26.1" = _x0sQAea7;
-        "fabric-26.1.1" = _p98E46PO;
-        "fabric-26.1.2" = _WqIfx838;
-        "fabric-26.2" = _sYpvkWVk;
-        "fabric-26.3" = _zlQNGPnR;
+        "MvulNJVw" = _MvulNJVw;
+        "Dl5flVYQ" = _Dl5flVYQ;
+        "ZMKgroT3" = _ZMKgroT3;
+        "8CsR9kqD" = _8CsR9kqD;
+        "nez579gD" = _nez579gD;
+        "c2svezTs" = _c2svezTs;
+        "nMfM7cJL" = _nMfM7cJL;
+        "hP6Zbh6e" = _hP6Zbh6e;
+        "SJrDiJH3" = _SJrDiJH3;
+        "RK2hPc9x" = _RK2hPc9x;
+        "RzFnSMpx" = _RzFnSMpx;
+        "Ea4wf0Zr" = _Ea4wf0Zr;
+        "ZW4bkOZp" = _ZW4bkOZp;
+        "GAFL5GLP" = _GAFL5GLP;
+        "BNG2qe5d" = _BNG2qe5d;
+        "6OS5GxGN" = _6OS5GxGN;
+        "yFtVNSUD" = _yFtVNSUD;
+        "kSkyan9E" = _kSkyan9E;
+        "cETrc4Gi" = _cETrc4Gi;
+        "iblTDwle" = _iblTDwle;
+        "fabric-1.21.11" = _hP6Zbh6e;
+        "fabric-26.1" = _SJrDiJH3;
+        "fabric-26.1.1" = _RK2hPc9x;
+        "fabric-26.1.2" = _RzFnSMpx;
+        "fabric-26.2" = _Ea4wf0Zr;
+        "fabric-26.3" = _ZW4bkOZp;
+        "fabric-1.21" = _GAFL5GLP;
+        "fabric-1.21.1" = _BNG2qe5d;
+        "fabric-1.21.2" = _6OS5GxGN;
+        "fabric-1.21.3" = _6OS5GxGN;
+        "fabric-1.21.4" = _yFtVNSUD;
+        "fabric-1.21.5" = _kSkyan9E;
+        "fabric-1.21.6" = _cETrc4Gi;
+        "fabric-1.21.7" = _cETrc4Gi;
+        "fabric-1.21.8" = _cETrc4Gi;
+        "fabric-1.21.9" = _iblTDwle;
+        "fabric-1.21.10" = _iblTDwle;
         "pkg-0.8.12-SNAPSHOT+mc1.21.11-local" = _xM8bZKsK;
         "pkg-0.8.12-SNAPSHOT+mc26.1-local" = _cw0hZthz;
         "pkg-0.8.12-SNAPSHOT+mc26.1.1-local" = _YQfahRJt;
@@ -372,7 +503,27 @@ let
         "pkg-0.9.2+mc26.1.2-1.0" = _WqIfx838;
         "pkg-0.9.2+mc26.2-1.0" = _sYpvkWVk;
         "pkg-0.9.2+mc26.3-1.0" = _zlQNGPnR;
-        "default" = _zlQNGPnR;
+        "pkg-0.6.13+mc1.21-1.0" = _MvulNJVw;
+        "pkg-0.8.13+mc1.21.1-1.0" = _Dl5flVYQ;
+        "pkg-0.6.13+mc1.21.3-1.0" = _ZMKgroT3;
+        "pkg-0.6.13+mc1.21.4-1.0" = _8CsR9kqD;
+        "pkg-0.6.13+mc1.21.5-1.0" = _nez579gD;
+        "pkg-0.7.3+mc1.21.8-1.0" = _c2svezTs;
+        "pkg-0.7.3+mc1.21.10-1.0" = _nMfM7cJL;
+        "pkg-0.8.14+mc1.21.11-1.1" = _hP6Zbh6e;
+        "pkg-0.8.9+mc26.1-1.10" = _SJrDiJH3;
+        "pkg-0.8.9+mc26.1.1-1.10" = _RK2hPc9x;
+        "pkg-0.9.2+mc26.1.2-1.1" = _RzFnSMpx;
+        "pkg-0.9.2+mc26.2-1.1" = _Ea4wf0Zr;
+        "pkg-0.9.2+mc26.3-1.1" = _ZW4bkOZp;
+        "pkg-0.6.13+mc1.21-1.0.1" = _GAFL5GLP;
+        "pkg-0.8.13+mc1.21.1-1.0.1" = _BNG2qe5d;
+        "pkg-0.6.13+mc1.21.3-1.0.1" = _6OS5GxGN;
+        "pkg-0.6.13+mc1.21.4-1.0.1" = _yFtVNSUD;
+        "pkg-0.6.13+mc1.21.5-1.0.1" = _kSkyan9E;
+        "pkg-0.7.3+mc1.21.8-1.0.1" = _cETrc4Gi;
+        "pkg-0.7.3+mc1.21.10-1.0.1" = _iblTDwle;
+        "default" = _iblTDwle;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mercurizer";

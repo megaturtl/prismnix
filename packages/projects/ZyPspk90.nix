@@ -106,6 +106,26 @@ let
             "file" = "trulyrandom-3.1.2+26.3-fabric.jar";
             "hash" = "sha512-sIq55I+w354X3EsZn5WwM4DW7a9Kt3imou5XrpswkDhf3Cvv3U7Na6P9Hn0KdeGcGUeQqeG+YXKBxxVVpdJPLg==";
         };
+        _LVbEvFGB = {
+            "id" = "LVbEvFGB";
+            "file" = "trulyrandom-3.2.0+26.1.2-fabric.jar";
+            "hash" = "sha512-nRD/XuP0RyARGBDTEjH1LnZELbFVB4uIbQi3986OblxWKKQLRPNQIyBndBCtecW+tCQS7OiPgnIDTLXIr2nmGg==";
+        };
+        _FLFA0Fbq = {
+            "id" = "FLFA0Fbq";
+            "file" = "trulyrandom-3.2.0+26.3-fabric.jar";
+            "hash" = "sha512-wdqIjoeR0fab6KfM0zqRP2YJdB8vRnclx93RpSw6F0B7UlmXckeZLfOQuXzIRdjeijTrDW0NLfrUGK/oKZj1Vg==";
+        };
+        _aNoLRaCQ = {
+            "id" = "aNoLRaCQ";
+            "file" = "trulyrandom-3.2.1+26.1.2-fabric.jar";
+            "hash" = "sha512-CefFDiX1+tyBEjeAYKaFOvjPWdRrKgjEVS7tiNviM993+XdhV1bDgn62kNn6PCPTvbyFbKyAX9TC2XEeYYVTKg==";
+        };
+        _tOXFpmtm = {
+            "id" = "tOXFpmtm";
+            "file" = "trulyrandom-3.2.1+26.3-fabric.jar";
+            "hash" = "sha512-sEW1211QqWZ/DMwYru1NTSP9//klNrJx4WCiI8G2Z58mP3QEPOldMoJLQP6J0ErY74MsMQ9FXJrExVEr70yr4A==";
+        };
     in {
         "NiLx7qU2" = _NiLx7qU2;
         "QKtZPzbW" = _QKtZPzbW;
@@ -128,14 +148,18 @@ let
         "POjKAKzr" = _POjKAKzr;
         "KcKDiSGr" = _KcKDiSGr;
         "MtpHdMTq" = _MtpHdMTq;
+        "LVbEvFGB" = _LVbEvFGB;
+        "FLFA0Fbq" = _FLFA0Fbq;
+        "aNoLRaCQ" = _aNoLRaCQ;
+        "tOXFpmtm" = _tOXFpmtm;
         "fabric-1.21" = _A7c729Qg;
         "fabric-1.21.1" = _A7c729Qg;
         "fabric-1.21.4" = _2CE9uEL4;
         "fabric-1.21.8" = _6maSKbk9;
-        "fabric-26.1" = _KcKDiSGr;
-        "fabric-26.1.1" = _KcKDiSGr;
-        "fabric-26.1.2" = _KcKDiSGr;
-        "fabric-26.3" = _MtpHdMTq;
+        "fabric-26.1" = _aNoLRaCQ;
+        "fabric-26.1.1" = _aNoLRaCQ;
+        "fabric-26.1.2" = _aNoLRaCQ;
+        "fabric-26.3" = _tOXFpmtm;
         "pkg-2.2.0" = _NiLx7qU2;
         "pkg-2.2.1" = _QKtZPzbW;
         "pkg-2.2.2" = _gWDyzfnt;
@@ -155,7 +179,9 @@ let
         "pkg-3.0.0" = _3VZYhjja;
         "pkg-3.1.0" = _POjKAKzr;
         "pkg-3.1.2" = _MtpHdMTq;
-        "default" = _MtpHdMTq;
+        "pkg-3.2.0" = _FLFA0Fbq;
+        "pkg-3.2.1" = _tOXFpmtm;
+        "default" = _tOXFpmtm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trulyrandom";

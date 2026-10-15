@@ -31,6 +31,11 @@ let
             "file" = "GalLab.zip";
             "hash" = "sha512-TBzQCWLGE1F7xNXOKdYSuU60O0vsNzab4UbCUe9azGEKaRvybLPIUS7qJFtpwvG3WvaxNd9NBE+mp86HU45Izg==";
         };
+        _Vpidqjo2 = {
+            "id" = "Vpidqjo2";
+            "file" = "GalLab.zip";
+            "hash" = "sha512-YazN0115v6xFgqUGTuJ4b4EwyNV45r25eXmnjrDyO+jK9Yl3NaZnsmK95EzfogNfYwkcL325+k7inV3Owdmnmw==";
+        };
     in {
         "ueaz1yUu" = _ueaz1yUu;
         "am3tGUXx" = _am3tGUXx;
@@ -38,13 +43,14 @@ let
         "zeaerqQS" = _zeaerqQS;
         "MYvZRNzC" = _MYvZRNzC;
         "3NC4HgxK" = _3NC4HgxK;
-        "minecraft-1.20" = _3NC4HgxK;
-        "minecraft-1.20.1" = _3NC4HgxK;
-        "minecraft-1.20.2" = _3NC4HgxK;
-        "minecraft-1.20.3" = _3NC4HgxK;
-        "minecraft-1.20.4" = _3NC4HgxK;
-        "minecraft-1.20.5" = _3NC4HgxK;
-        "minecraft-1.20.6" = _3NC4HgxK;
+        "Vpidqjo2" = _Vpidqjo2;
+        "minecraft-1.20" = _Vpidqjo2;
+        "minecraft-1.20.1" = _Vpidqjo2;
+        "minecraft-1.20.2" = _Vpidqjo2;
+        "minecraft-1.20.3" = _Vpidqjo2;
+        "minecraft-1.20.4" = _Vpidqjo2;
+        "minecraft-1.20.5" = _Vpidqjo2;
+        "minecraft-1.20.6" = _Vpidqjo2;
         "minecraft-1.21" = _3NC4HgxK;
         "minecraft-1.21.1" = _3NC4HgxK;
         "minecraft-1.21.2" = _3NC4HgxK;
@@ -102,13 +108,19 @@ let
         "minecraft-1.21.9" = _3NC4HgxK;
         "minecraft-1.21.10" = _3NC4HgxK;
         "minecraft-1.21.11" = _3NC4HgxK;
+        "minecraft-26.1" = _Vpidqjo2;
+        "minecraft-26.1.1" = _Vpidqjo2;
+        "minecraft-26.1.2" = _Vpidqjo2;
+        "minecraft-26.2" = _Vpidqjo2;
+        "minecraft-26.3" = _Vpidqjo2;
         "pkg-1.0" = _ueaz1yUu;
         "pkg-1.0.1" = _am3tGUXx;
         "pkg-1.2" = _269XIF5B;
         "pkg-1.2.01" = _zeaerqQS;
         "pkg-1.2.02" = _MYvZRNzC;
         "pkg-1.2.03" = _3NC4HgxK;
-        "default" = _3NC4HgxK;
+        "pkg-1.2.04" = _Vpidqjo2;
+        "default" = _Vpidqjo2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gallab";

@@ -71,6 +71,41 @@ let
             "file" = "aerodynamics4mc-compat-create-aeronautics-0.2.1-neoforge+1.21.1-SNAPSHOT.jar";
             "hash" = "sha512-D1wqD35/xOTwaE5riTF7Z216CrpGJCmL9VX0naH84xSru0/NqtZoyIGzC4hPyulB/5O/oN+Yncb3c+qJ8SUj7w==";
         };
+        _v2S4vkkd = {
+            "id" = "v2S4vkkd";
+            "file" = "aerodynamics4mc-0.2.3-fabric+1.21.11.jar";
+            "hash" = "sha512-0+kCoQX75LzjG0auGs3hpuXW9bqOf13cpj52AP3sO57e7ZmY9DqaiYHNzKw0OzPwAQ7k/FPHGShENYzod1kKCg==";
+        };
+        _4WVhG5Yk = {
+            "id" = "4WVhG5Yk";
+            "file" = "aerodynamics4mc-0.2.3-neoforge+1.21.1.jar";
+            "hash" = "sha512-GvEzWXdOzksnoITr5t8eRXCwxWkzDnw+04RdsgjYAmYwcQuey+mDRuWe4KH1yIjKJ8e1IQgS5YK5+AMICSQFjw==";
+        };
+        _Wj16LQcR = {
+            "id" = "Wj16LQcR";
+            "file" = "aerodynamics4mc-0.2.3-neoforge+1.21.11.jar";
+            "hash" = "sha512-mQweN6kJW3H5d55tdUFgMAOaCVhgaBgTk3kpX9Dex4GzKhk6D8DejvNO39rV19ACGT73ZI6o74bQjSNiBV7Xbg==";
+        };
+        _JYRJotUs = {
+            "id" = "JYRJotUs";
+            "file" = "aerodynamics4mc-compat-create-aeronautics-0.2.3-neoforge+1.21.1.jar";
+            "hash" = "sha512-tB90n5eDZhEU3RIi0cqhylS3nkI2QHYwLYK/0HdGxHd5fI2CcR8xFP9S+JKJvOUkQiEhxHNFd6hfxqGZ6dAnEw==";
+        };
+        _iPS59rRg = {
+            "id" = "iPS59rRg";
+            "file" = "aerodynamics4mc-content-0.2.3-fabric+1.21.11.jar";
+            "hash" = "sha512-mXmGa7LiUE0wGamd+Layd7kX1nmoUFkilEE8petcTdWO6SUDrdB/XYKjNmEZbqnys41jSVB8ycnk7y7l6vh2Pg==";
+        };
+        _urnceHNU = {
+            "id" = "urnceHNU";
+            "file" = "aerodynamics4mc-content-0.2.3-neoforge+1.21.1.jar";
+            "hash" = "sha512-9FnuzYByEBSJlfsDd4yMvqNceoSp5ZcnlhoQ5PUeV/IProXrcSoTjmY1k7EuL9pseyT38YIjZNH6LLclw9i8Cw==";
+        };
+        _CsgSEEpv = {
+            "id" = "CsgSEEpv";
+            "file" = "aerodynamics4mc-content-0.2.3-neoforge+1.21.11.jar";
+            "hash" = "sha512-gF2Tp7dlI14HGWeMIp4sH+nX9T1/NYW71QyLP+qdnnw1jL7h1NWzPjeB+1JQG4GmzEQzABtPvY48LQfsXOos7w==";
+        };
     in {
         "fGqkrCPs" = _fGqkrCPs;
         "cIysS8uI" = _cIysS8uI;
@@ -86,16 +121,26 @@ let
         "FjGjhRo1" = _FjGjhRo1;
         "7PRlACa0" = _7PRlACa0;
         "L1NGyZ63" = _L1NGyZ63;
-        "fabric-1.21.11" = _FjGjhRo1;
-        "neoforge-1.21.11" = _7PRlACa0;
-        "neoforge-1.21.1" = _L1NGyZ63;
+        "v2S4vkkd" = _v2S4vkkd;
+        "4WVhG5Yk" = _4WVhG5Yk;
+        "Wj16LQcR" = _Wj16LQcR;
+        "JYRJotUs" = _JYRJotUs;
+        "iPS59rRg" = _iPS59rRg;
+        "urnceHNU" = _urnceHNU;
+        "CsgSEEpv" = _CsgSEEpv;
+        "fabric-1.21.11" = _iPS59rRg;
+        "neoforge-1.21.11" = _CsgSEEpv;
+        "neoforge-1.21.1" = _urnceHNU;
         "pkg-0.1.0-alpha.1" = _fGqkrCPs;
         "pkg-0.1.1-alpha.1" = _avtXlMmj;
         "pkg-0.2" = _KH5ipOzD;
         "pkg-0.2.1" = _tAcGAVWg;
         "pkg-0.2.1-contents" = _7PRlACa0;
         "pkg-0.2.1-Aeronaustics-Compat" = _L1NGyZ63;
-        "default" = _L1NGyZ63;
+        "pkg-0.2.3" = _Wj16LQcR;
+        "pkg-0.2.3-Aeronaustics-Compat" = _JYRJotUs;
+        "pkg-0.2.3-Content" = _CsgSEEpv;
+        "default" = _CsgSEEpv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "aerodynamics4mc";

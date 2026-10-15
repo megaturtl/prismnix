@@ -21,11 +21,23 @@ let
             "file" = "faster_ghast-0.2.jar";
             "hash" = "sha512-1jdH/9/oHuf9T0PgFKIt8FA/wQsK2OCZ9K2sY67s6CE+5P5GPAYCmUaHsdDZ9sPmX0nMMlATyVSt+Crz+8SNUg==";
         };
+        _9jqKxDho = {
+            "id" = "9jqKxDho";
+            "file" = "FHG 0.2.zip";
+            "hash" = "sha512-4fWNHG2aWoIn5EjUkJKiTdvenrkooEIepBkqCkjLyHBF+ef+r0oncZvG/xdrgqRH29vtEQq7K5IhWfN0VdU73w==";
+        };
+        _TCPPjacl = {
+            "id" = "TCPPjacl";
+            "file" = "faster_ghast-0.2.jar";
+            "hash" = "sha512-2GUFJftyw5O0tOmnZRxk1gd+R+4RZOmKRVoofPbjyrygNsbhRm5OIjpAX1Q1h9unAxyAgnu/2qN0waYUvtxkUQ==";
+        };
     in {
         "VHANyqc3" = _VHANyqc3;
         "ETPE63sG" = _ETPE63sG;
         "yj5U9Cm7" = _yj5U9Cm7;
         "4rqItqr8" = _4rqItqr8;
+        "9jqKxDho" = _9jqKxDho;
+        "TCPPjacl" = _TCPPjacl;
         "datapack-1.21.5" = _yj5U9Cm7;
         "datapack-1.21.6" = _yj5U9Cm7;
         "datapack-1.21.7" = _yj5U9Cm7;
@@ -41,6 +53,7 @@ let
         "datapack-1.21.2" = _yj5U9Cm7;
         "datapack-1.21.3" = _yj5U9Cm7;
         "datapack-1.21.4" = _yj5U9Cm7;
+        "datapack-26.3" = _9jqKxDho;
         "fabric-1.21.5" = _4rqItqr8;
         "fabric-1.21.6" = _4rqItqr8;
         "fabric-1.21.7" = _4rqItqr8;
@@ -56,6 +69,7 @@ let
         "fabric-1.21.2" = _4rqItqr8;
         "fabric-1.21.3" = _4rqItqr8;
         "fabric-1.21.4" = _4rqItqr8;
+        "fabric-26.3" = _TCPPjacl;
         "forge-1.21.5" = _4rqItqr8;
         "forge-1.21.6" = _4rqItqr8;
         "forge-1.21.7" = _4rqItqr8;
@@ -71,6 +85,7 @@ let
         "forge-1.21.2" = _4rqItqr8;
         "forge-1.21.3" = _4rqItqr8;
         "forge-1.21.4" = _4rqItqr8;
+        "forge-26.3" = _TCPPjacl;
         "neoforge-1.21.5" = _4rqItqr8;
         "neoforge-1.21.6" = _4rqItqr8;
         "neoforge-1.21.7" = _4rqItqr8;
@@ -86,6 +101,7 @@ let
         "neoforge-1.21.2" = _4rqItqr8;
         "neoforge-1.21.3" = _4rqItqr8;
         "neoforge-1.21.4" = _4rqItqr8;
+        "neoforge-26.3" = _TCPPjacl;
         "quilt-1.21.5" = _4rqItqr8;
         "quilt-1.21.6" = _4rqItqr8;
         "quilt-1.21.7" = _4rqItqr8;
@@ -101,11 +117,12 @@ let
         "quilt-1.21.2" = _4rqItqr8;
         "quilt-1.21.3" = _4rqItqr8;
         "quilt-1.21.4" = _4rqItqr8;
+        "quilt-26.3" = _TCPPjacl;
         "pkg-0.1" = _VHANyqc3;
         "pkg-0.1+mod" = _ETPE63sG;
-        "pkg-0.2" = _yj5U9Cm7;
-        "pkg-0.2+mod" = _4rqItqr8;
-        "default" = _4rqItqr8;
+        "pkg-0.2" = _9jqKxDho;
+        "pkg-0.2+mod" = _TCPPjacl;
+        "default" = _TCPPjacl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "faster_ghast";

@@ -406,6 +406,11 @@ let
             "file" = "buildnotes-1.4.0-1.19.jar";
             "hash" = "sha512-w8bfmsTY05sgGFZle/9UJ95WFcBU7R11Vh052/lk2FIJM6Y3nQ+liRAuMjWTijkBP6mybbvDme7DV36JKCSooA==";
         };
+        _kbwGBfer = {
+            "id" = "kbwGBfer";
+            "file" = "buildnotes-1.4.0-1.18.2.jar";
+            "hash" = "sha512-Etkbv6G44dkdpnkPZMcFLPFcd29RCNFt++jfhz8XCPLAV5zKMVFtZ6SZvdDPRCFDzIZc50+cgApERlb3SGQ9EA==";
+        };
     in {
         "m9gwNNOY" = _m9gwNNOY;
         "dGOQAtyo" = _dGOQAtyo;
@@ -488,7 +493,8 @@ let
         "HfrZa5l3" = _HfrZa5l3;
         "26PPOwnZ" = _26PPOwnZ;
         "kb2hIERK" = _kb2hIERK;
-        "fabric-1.18.2" = _HnRnPacb;
+        "kbwGBfer" = _kbwGBfer;
+        "fabric-1.18.2" = _kbwGBfer;
         "fabric-1.19" = _kb2hIERK;
         "fabric-1.19.1" = _26PPOwnZ;
         "fabric-1.21.10" = _l4Z7ufi9;
@@ -599,7 +605,8 @@ let
         "pkg-1.4.0-1.19.2" = _HfrZa5l3;
         "pkg-1.4.0-1.19.1" = _26PPOwnZ;
         "pkg-1.4.0-1.19" = _kb2hIERK;
-        "default" = _kb2hIERK;
+        "pkg-1.4.0-1.18.2" = _kbwGBfer;
+        "default" = _kbwGBfer;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "buildnotes";

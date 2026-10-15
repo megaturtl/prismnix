@@ -26,29 +26,48 @@ let
             "file" = "Trin Parts Pack-1.20.1-2.28.0.jar";
             "hash" = "sha512-n7zuruFcnkaZW5gcE+qqPQ/dHbMbyNg2JiCwfkBqfp7x10z+5Qq1wz1gAHo6giCLh2aracOMXslwXy20tV9o/w==";
         };
+        _PmHBmZpb = {
+            "id" = "PmHBmZpb";
+            "file" = "Trin Parts Pack-1.12.2-2.29.0.jar";
+            "hash" = "sha512-0TsG5qgKplU0IOozEDuur9p/477RWzTjEduiypMXNGJwm5S9wHYU+NYS8xfkSTjgHQV67YTR24UF8aVKhihnUg==";
+        };
+        _yRghglD3 = {
+            "id" = "yRghglD3";
+            "file" = "Trin Parts Pack-1.16.5-2.29.0.jar";
+            "hash" = "sha512-yREI3tXiP2feqlsegvF6/95vxvgLOfuwbRxtoWbYMPKsaBbrtljYHULabU+zXdcMDAbmfD6S2UqA/zuJXSfKhg==";
+        };
+        _nhdHr4ff = {
+            "id" = "nhdHr4ff";
+            "file" = "Trin Parts Pack-1.20.1-2.29.0.jar";
+            "hash" = "sha512-WZo2LrEHq5GdUw3EbrwSa7zuPUCj+BxugO6bj8GesQPBSe17BmvRGzOzfZUr0Qlakge8mcRz7t1hK7kbXn7XOQ==";
+        };
     in {
         "rMOk6n1q" = _rMOk6n1q;
         "mQus0K3Z" = _mQus0K3Z;
         "zs1PE7Ac" = _zs1PE7Ac;
         "a0RpizsY" = _a0RpizsY;
         "xf3E0bZQ" = _xf3E0bZQ;
-        "forge-1.16.5" = _a0RpizsY;
-        "forge-1.18.2" = _a0RpizsY;
-        "forge-1.19.2" = _a0RpizsY;
-        "forge-1.12.2" = _zs1PE7Ac;
-        "forge-1.20.1" = _xf3E0bZQ;
-        "forge-1.21.1" = _xf3E0bZQ;
-        "forge-26.1" = _xf3E0bZQ;
-        "forge-26.1.1" = _xf3E0bZQ;
-        "forge-26.1.2" = _xf3E0bZQ;
-        "neoforge-1.20.1" = _xf3E0bZQ;
-        "neoforge-1.21.1" = _xf3E0bZQ;
-        "neoforge-26.1" = _xf3E0bZQ;
-        "neoforge-26.1.1" = _xf3E0bZQ;
-        "neoforge-26.1.2" = _xf3E0bZQ;
+        "PmHBmZpb" = _PmHBmZpb;
+        "yRghglD3" = _yRghglD3;
+        "nhdHr4ff" = _nhdHr4ff;
+        "forge-1.16.5" = _yRghglD3;
+        "forge-1.18.2" = _yRghglD3;
+        "forge-1.19.2" = _yRghglD3;
+        "forge-1.12.2" = _PmHBmZpb;
+        "forge-1.20.1" = _nhdHr4ff;
+        "forge-1.21.1" = _nhdHr4ff;
+        "forge-26.1" = _nhdHr4ff;
+        "forge-26.1.1" = _nhdHr4ff;
+        "forge-26.1.2" = _nhdHr4ff;
+        "neoforge-1.20.1" = _nhdHr4ff;
+        "neoforge-1.21.1" = _nhdHr4ff;
+        "neoforge-26.1" = _nhdHr4ff;
+        "neoforge-26.1.1" = _nhdHr4ff;
+        "neoforge-26.1.2" = _nhdHr4ff;
         "pkg-2.27.1" = _mQus0K3Z;
         "pkg-2.28.0" = _xf3E0bZQ;
-        "default" = _xf3E0bZQ;
+        "pkg-2.29.0" = _nhdHr4ff;
+        "default" = _nhdHr4ff;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trin-part-pack";

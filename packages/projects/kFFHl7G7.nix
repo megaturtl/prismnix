@@ -81,6 +81,11 @@ let
             "file" = "xaero-custom-waypoint-colors-1.0.7-26.3.jar";
             "hash" = "sha512-e+/mTNUkqpN3lOF8PoSmi0ij4t+ckDSTMmqVx1DaNNP5PTXw6zVUrr3BFetTFODQrsBhFu12ktAxYlG+XvgasA==";
         };
+        _sBmkSSve = {
+            "id" = "sBmkSSve";
+            "file" = "xaero-custom-waypoint-colors-1.0.7-1.20.1.jar";
+            "hash" = "sha512-hxyZ+LNATRk2r+gy0ps/yaBhuAKG+b4bDQXB+kpHXZ5hnTawCa83g1YsYYiuhuLTmzVjkx4ZGZm65zb122L+Ug==";
+        };
     in {
         "gSaBEHTz" = _gSaBEHTz;
         "uqdr6aIP" = _uqdr6aIP;
@@ -98,9 +103,10 @@ let
         "iEagQp4c" = _iEagQp4c;
         "oERyK7nh" = _oERyK7nh;
         "X1PehaEJ" = _X1PehaEJ;
+        "sBmkSSve" = _sBmkSSve;
         "fabric-1.21.11" = _HjvtoUUi;
         "fabric-26.1.2" = _iEagQp4c;
-        "fabric-1.20.1" = _4rIYPVJR;
+        "fabric-1.20.1" = _sBmkSSve;
         "fabric-26.2" = _oERyK7nh;
         "fabric-26.3" = _X1PehaEJ;
         "pkg-1.0.0-1.21.11" = _gSaBEHTz;
@@ -119,7 +125,8 @@ let
         "pkg-1.0.7-26.1.2" = _iEagQp4c;
         "pkg-1.0.7-26.2" = _oERyK7nh;
         "pkg-1.0.7-26.3" = _X1PehaEJ;
-        "default" = _X1PehaEJ;
+        "pkg-1.0.7-1.20.1" = _sBmkSSve;
+        "default" = _sBmkSSve;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "xaero-custom-waypoint-colors";

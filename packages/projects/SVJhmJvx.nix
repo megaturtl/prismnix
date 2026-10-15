@@ -836,6 +836,36 @@ let
             "file" = "indypets-1.5.6-26.3.jar";
             "hash" = "sha512-V27LfjdKAgigiXULUaQLYisbTF/7r6PZ0/ndAzHKWz0W0zxTzBbUQLCrjt2PS3D8wn9FEZL5OL3pm6fFLE5Aug==";
         };
+        _8TTB3PPl = {
+            "id" = "8TTB3PPl";
+            "file" = "indypets-1.4.14-1.20.1.jar";
+            "hash" = "sha512-AXY10Fc9RhGYoA8h/0cN6KXFXFTv/TKWE9aOKQ+/LYPI1QSQRzwly6H793KTcmYUWWEmY42NmhS+O+15oVeFqg==";
+        };
+        _fvuIzotM = {
+            "id" = "fvuIzotM";
+            "file" = "indypets-1.4.14-1.21.jar";
+            "hash" = "sha512-5T2yY4ZRKoI0oleKiKuOr8MCV5RQdWsdyIXlyp8BdaZZN+flPqDHxinyhXzDtpgce0ZwmHILHaH1iVz71Qhx4g==";
+        };
+        _rl85avzE = {
+            "id" = "rl85avzE";
+            "file" = "indypets-1.5.7-1.21.9.jar";
+            "hash" = "sha512-DQEvOv5/zy5u3PxJk5QRujuQn++vjlwpHQlH8anm/WwNEu7U3wzHsax2rh6uSl8JeF1QxF0SX8V5bTrvQjCBQw==";
+        };
+        _K3DTpjEZ = {
+            "id" = "K3DTpjEZ";
+            "file" = "indypets-1.5.7-26.1.1.jar";
+            "hash" = "sha512-qUOSrmJCPHkszJf9/H7wBr19DRB+OcI9xh6QOQkyB751V0F6PKKstYmuGMMtrdGqoT7b9J07a24y/fuZ2J3v5w==";
+        };
+        _5SpRA1QO = {
+            "id" = "5SpRA1QO";
+            "file" = "indypets-1.5.7-26.2.jar";
+            "hash" = "sha512-yoPysVKKDj2meJyQpfyZ3CrTA6OaElhDMAXwZNav1craJD6/KRgyUE9Ue1UKuIU03sPtD56mbd81aM8NczeuJg==";
+        };
+        _vockWsc7 = {
+            "id" = "vockWsc7";
+            "file" = "indypets-1.5.7-26.3.jar";
+            "hash" = "sha512-siCMtkM5S43iZwYtFMj1bJ7tXL8XIayp5DkDOJFvIcicnqCbhj22bsrFOOR6xjbnQlusdg1dyXhQLIrcIhY4Ug==";
+        };
     in {
         "TOrWO44t" = _TOrWO44t;
         "PfBcUbEZ" = _PfBcUbEZ;
@@ -1004,6 +1034,12 @@ let
         "13bAElSv" = _13bAElSv;
         "sGyN2R3Z" = _sGyN2R3Z;
         "FCrpV1uD" = _FCrpV1uD;
+        "8TTB3PPl" = _8TTB3PPl;
+        "fvuIzotM" = _fvuIzotM;
+        "rl85avzE" = _rl85avzE;
+        "K3DTpjEZ" = _K3DTpjEZ;
+        "5SpRA1QO" = _5SpRA1QO;
+        "vockWsc7" = _vockWsc7;
         "fabric-1.16" = _w24Diizi;
         "fabric-1.16.1" = _w24Diizi;
         "fabric-1.16.2" = _w24Diizi;
@@ -1020,15 +1056,15 @@ let
         "fabric-1.19.2" = _iwzEV47M;
         "fabric-1.19.3" = _5Wj3y368;
         "fabric-1.19.4" = _5Wj3y368;
-        "fabric-1.20" = _hzXzfMba;
-        "fabric-1.20.1" = _hzXzfMba;
-        "fabric-1.20.2" = _hzXzfMba;
-        "fabric-1.20.3" = _hzXzfMba;
-        "fabric-1.20.4" = _hzXzfMba;
+        "fabric-1.20" = _8TTB3PPl;
+        "fabric-1.20.1" = _8TTB3PPl;
+        "fabric-1.20.2" = _8TTB3PPl;
+        "fabric-1.20.3" = _8TTB3PPl;
+        "fabric-1.20.4" = _8TTB3PPl;
         "fabric-1.20.5" = _7Dzh8X2R;
         "fabric-1.20.6" = _7Dzh8X2R;
-        "fabric-1.21" = _yAkfP4oI;
-        "fabric-1.21.1" = _yAkfP4oI;
+        "fabric-1.21" = _fvuIzotM;
+        "fabric-1.21.1" = _fvuIzotM;
         "fabric-1.21.2" = _xRGDMKBo;
         "fabric-1.21.3" = _xRGDMKBo;
         "fabric-1.21.4" = _G3O626M0;
@@ -1036,14 +1072,14 @@ let
         "fabric-1.21.6" = _qUJQPwXB;
         "fabric-1.21.7" = _qUJQPwXB;
         "fabric-1.21.8" = _qUJQPwXB;
-        "fabric-1.21.9" = _nQEqRnlb;
-        "fabric-1.21.10" = _nQEqRnlb;
-        "fabric-1.21.11" = _nQEqRnlb;
-        "fabric-26.1" = _13bAElSv;
-        "fabric-26.1.1" = _13bAElSv;
-        "fabric-26.1.2" = _13bAElSv;
-        "fabric-26.2" = _sGyN2R3Z;
-        "fabric-26.3" = _FCrpV1uD;
+        "fabric-1.21.9" = _rl85avzE;
+        "fabric-1.21.10" = _rl85avzE;
+        "fabric-1.21.11" = _rl85avzE;
+        "fabric-26.1" = _K3DTpjEZ;
+        "fabric-26.1.1" = _K3DTpjEZ;
+        "fabric-26.1.2" = _K3DTpjEZ;
+        "fabric-26.2" = _5SpRA1QO;
+        "fabric-26.3" = _vockWsc7;
         "pkg-0.5.0" = _TOrWO44t;
         "pkg-0.5.1" = _PfBcUbEZ;
         "pkg-0.5.2" = _RLT7yMjw;
@@ -1208,7 +1244,13 @@ let
         "pkg-1.5.5-26.1.1" = _13bAElSv;
         "pkg-1.5.5-26.2" = _sGyN2R3Z;
         "pkg-1.5.6-26.3" = _FCrpV1uD;
-        "default" = _FCrpV1uD;
+        "pkg-1.4.14-1.20.1" = _8TTB3PPl;
+        "pkg-1.4.14-1.21" = _fvuIzotM;
+        "pkg-1.5.7-1.21.9" = _rl85avzE;
+        "pkg-1.5.7-26.1.1" = _K3DTpjEZ;
+        "pkg-1.5.7-26.2" = _5SpRA1QO;
+        "pkg-1.5.7-26.3" = _vockWsc7;
+        "default" = _vockWsc7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "indypets";
