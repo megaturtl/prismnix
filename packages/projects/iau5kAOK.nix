@@ -391,6 +391,16 @@ let
             "file" = "fishonmcextras-0.3.13+26.1.jar";
             "hash" = "sha512-OdYJnsxJfA58wiVd6NsGkHv4HA7UCmWmXaVIpzj6fGWyjh3L802++RlPPjf/xh5gN8dqeKUWelFzJHcQLBCmWw==";
         };
+        _DZjDbjro = {
+            "id" = "DZjDbjro";
+            "file" = "fishonmcextras-0.3.14+1.21.11.jar";
+            "hash" = "sha512-BL3L7XiLlTGRKIbanYNXIQrE4e+cFbNiyEASF0998uOkp5/RHyCLim9WjgyLTZQ5h7P1sUpfCyVRVKlnDyzh8g==";
+        };
+        _HeofjBLd = {
+            "id" = "HeofjBLd";
+            "file" = "fishonmcextras-0.3.14+26.1.jar";
+            "hash" = "sha512-eyj2hrVl8G7UgkOeto4dPuqAOlQM6VbuhePSM86sbvRsQZl2+fwccxcCWXCARxHEc9a3HV0jqBYEgR69aimu0A==";
+        };
     in {
         "YqsdpVQI" = _YqsdpVQI;
         "U78LUUdr" = _U78LUUdr;
@@ -470,12 +480,14 @@ let
         "erN6ixWK" = _erN6ixWK;
         "jQRnS15q" = _jQRnS15q;
         "9xXiBpt2" = _9xXiBpt2;
+        "DZjDbjro" = _DZjDbjro;
+        "HeofjBLd" = _HeofjBLd;
         "fabric-1.21.4" = _oxEiWHcr;
         "fabric-1.21.5" = _fQD3OkQb;
-        "fabric-1.21.11" = _jQRnS15q;
-        "fabric-26.1" = _9xXiBpt2;
-        "fabric-26.1.1" = _9xXiBpt2;
-        "fabric-26.1.2" = _9xXiBpt2;
+        "fabric-1.21.11" = _DZjDbjro;
+        "fabric-26.1" = _HeofjBLd;
+        "fabric-26.1.1" = _HeofjBLd;
+        "fabric-26.1.2" = _HeofjBLd;
         "pkg-0.0.14+1.21.4" = _YqsdpVQI;
         "pkg-0.0.15+1.21.4" = _U78LUUdr;
         "pkg-0.0.16+1.21.4" = _PqAXGGS8;
@@ -554,7 +566,9 @@ let
         "pkg-0.3.12+26.1" = _erN6ixWK;
         "pkg-0.3.13+1.21.11" = _jQRnS15q;
         "pkg-0.3.13+26.1" = _9xXiBpt2;
-        "default" = _9xXiBpt2;
+        "pkg-0.3.14+1.21.11" = _DZjDbjro;
+        "pkg-0.3.14+26.1" = _HeofjBLd;
+        "default" = _HeofjBLd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fishonmc-extras-r";

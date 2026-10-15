@@ -136,6 +136,16 @@ let
             "file" = "betterscreens-3.0.1+26.3-fabric.jar";
             "hash" = "sha512-rNe6voXzWQ/r4cMlq0bAIXwmNbN23NcfI4j0cxlC9GuojUS6ACLY/meb5wCgoxVICGANYwHu7aXWHannsE3w2Q==";
         };
+        _m9829WF5 = {
+            "id" = "m9829WF5";
+            "file" = "betterscreens-3.0.2+26.2-fabric.jar";
+            "hash" = "sha512-EagUvzYr6boGLQ3Fz7Ns2li2SQoYu4OOc4WHKXvXoZ1isgVDGezs3FmdFvJx3gtG/NQQXBAlO34vYVKPADF3PA==";
+        };
+        _ldLxi6yH = {
+            "id" = "ldLxi6yH";
+            "file" = "betterscreens-3.0.2+26.3-fabric.jar";
+            "hash" = "sha512-VEkRwgvl94x8EgToUtsS5okyEvdZ6tsM7EaFn3QMr2B4BeNbZEzAESmFz6TcRdJnLbQsV2+/2hh2pV1qAr/rRA==";
+        };
     in {
         "f1s6jOAU" = _f1s6jOAU;
         "y6b3rm2N" = _y6b3rm2N;
@@ -164,14 +174,16 @@ let
         "Qdw5cqdl" = _Qdw5cqdl;
         "lWu2PMbX" = _lWu2PMbX;
         "lVjpSW36" = _lVjpSW36;
+        "m9829WF5" = _m9829WF5;
+        "ldLxi6yH" = _ldLxi6yH;
         "fabric-1.21.8" = _5kgvtbuE;
         "fabric-1.21.10" = _hjgJ1G8A;
         "fabric-1.21.11" = _w3MhEzEK;
         "fabric-26.1" = _IdEZWyAp;
         "fabric-26.1.1" = _IdEZWyAp;
         "fabric-26.1.2" = _IdEZWyAp;
-        "fabric-26.2" = _lWu2PMbX;
-        "fabric-26.3" = _lVjpSW36;
+        "fabric-26.2" = _m9829WF5;
+        "fabric-26.3" = _ldLxi6yH;
         "ornithe-1.8.9" = _pXYrN6Vf;
         "pkg-1.0.1" = _f1s6jOAU;
         "pkg-2.0.0" = _y6b3rm2N;
@@ -195,7 +207,8 @@ let
         "pkg-2.1.1" = _pXYrN6Vf;
         "pkg-3.0.0" = _Qdw5cqdl;
         "pkg-3.0.1" = _lVjpSW36;
-        "default" = _lVjpSW36;
+        "pkg-3.0.2" = _ldLxi6yH;
+        "default" = _ldLxi6yH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-screens";

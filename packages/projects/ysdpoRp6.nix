@@ -81,6 +81,81 @@ let
             "file" = "whistlebound-horse-1.2.0.jar";
             "hash" = "sha512-G2q5/j/YCrYCUyokFGev4RJi8dCwoTnDyoZjdBNEigEJMgyAVYpDGGyqRHrKQHoGLKRZ1gqJ7DwoxQU57DGulA==";
         };
+        _SdfMYg69 = {
+            "id" = "SdfMYg69";
+            "file" = "whistlebound-horse-1.2.1+mc1.21.1.jar";
+            "hash" = "sha512-WRNuirIHUm/jtojO6UI62LNS9kt7s+rQiXErIoYFt6/C3+2abm5bID/9Yf+5yh2bEXQw3vxQUSX9V563JLBdKQ==";
+        };
+        _qQ3r9ztw = {
+            "id" = "qQ3r9ztw";
+            "file" = "whistlebound-horse-1.2.1+mc1.21.2.jar";
+            "hash" = "sha512-o+94HhkI/qQR6S7Xpeq91R6jcko4x2oxcYDpHVDADXIn9sKDs8CgP7aXq+cPJ5zvRs8MmP5OaG+Jhy+FqJ5OPQ==";
+        };
+        _mN47Fhbs = {
+            "id" = "mN47Fhbs";
+            "file" = "whistlebound-horse-1.2.1+mc1.21.3.jar";
+            "hash" = "sha512-1IlbgKuKVnikEclcnvOiYCpIWqjcxp84X4JK0srEAC8yz2hbFRDYeKN7/qavE94j2/VsSepgWeSVjl5jjKeHUQ==";
+        };
+        _T85lQeFc = {
+            "id" = "T85lQeFc";
+            "file" = "whistlebound-horse-1.2.1+mc1.21.4.jar";
+            "hash" = "sha512-c7FSaqxpwP90uxoeaKmyTUnjq+a47MFojHTrL3TY7FLLB3ERBbxN4fceOv6g1qYenDQxFXGseZ9LERF48S/WDg==";
+        };
+        _labWSm1e = {
+            "id" = "labWSm1e";
+            "file" = "whistlebound-horse-1.2.1+mc1.21.5.jar";
+            "hash" = "sha512-OOgra4LKoT/sVvw+4XQJwe8mLo7gWXY7rphBcfpUYbIFuMlpbj+2WSaQw2LqlgVDFadWOjAQKctweaZW3Y/3Bg==";
+        };
+        _QNpvGzbf = {
+            "id" = "QNpvGzbf";
+            "file" = "whistlebound-horse-1.2.1+mc1.21.6.jar";
+            "hash" = "sha512-Eg8vaO5WbaKdRl1Vu6gtTbDfzVSQ18l/gFobw7oBgrVfR4U575MP/jofBBtP7S18xcBIkpWAjgaiMf9omAppZQ==";
+        };
+        _PWMON1IU = {
+            "id" = "PWMON1IU";
+            "file" = "whistlebound-horse-1.2.1+mc1.21.7.jar";
+            "hash" = "sha512-H4hz8U7LVBwhL3P+Cy4rfzBNU25G/gW6P5P446H41FgRfWuq9mloo3NM6ZfJFH394kNxidd63uMKTh91iQlg9g==";
+        };
+        _8TD8b9v7 = {
+            "id" = "8TD8b9v7";
+            "file" = "whistlebound-horse-1.2.1+mc1.21.8.jar";
+            "hash" = "sha512-YLhkS4DbZtdXmspOKTqwXnmzH0Tt3y84SF13T3OF6Mj1vK/VW/g094wnCJUaccDs06Y2C+x/yDxtZwg51fVaKw==";
+        };
+        _YgegLPdI = {
+            "id" = "YgegLPdI";
+            "file" = "whistlebound-horse-1.2.1+mc1.21.9.jar";
+            "hash" = "sha512-wBO65ZMeRixh9fjMlOk9oMuFcG4ZtvBqx1jGfiFfyzs3swzFTtinCiZ4Eoaabq7j+gyqo0miR8ceLDduShHRtQ==";
+        };
+        _Ok5wmsri = {
+            "id" = "Ok5wmsri";
+            "file" = "whistlebound-horse-1.2.1+mc1.21.10.jar";
+            "hash" = "sha512-O2qsXe/IfFaj0j8box2WAzWb2VKUI7+izrhYyOyI7Zz6cBZESxSkdGjIv4l3fOTXLRjak2POqaOFYw0wIs0sVQ==";
+        };
+        _WBSUj9yU = {
+            "id" = "WBSUj9yU";
+            "file" = "whistlebound-horse-1.2.1+mc1.21.11.jar";
+            "hash" = "sha512-joOlD4Kzabu12eho7TdrxqG0+CraAosBcAx/gwHG9662Bs2I961w0/MGpXnaMf4sTUXEl1X5f+9jdStaKr41sA==";
+        };
+        _DVyeNNt6 = {
+            "id" = "DVyeNNt6";
+            "file" = "whistlebound-horse-1.2.1+mc26.1.jar";
+            "hash" = "sha512-Jk6qCb30A4rQ/5GmK5Hw2LFavzzJLIeUWaAguQIm49giDjSCmeEVyS8B55YnlXic/mpAoa+TjBOxxByApeTTRw==";
+        };
+        _S4Sv1USr = {
+            "id" = "S4Sv1USr";
+            "file" = "whistlebound-horse-1.2.1+mc26.1.1.jar";
+            "hash" = "sha512-VFxGanl8AErYNLQrAyqwGX2AsA8uOcMbzsCj1SGe5N9mkW7IvCEyASXjr7adExt2mdbpfJZtYUl8aIuxMfdHIQ==";
+        };
+        _OT9cj5eO = {
+            "id" = "OT9cj5eO";
+            "file" = "whistlebound-horse-1.2.1+mc26.1.2.jar";
+            "hash" = "sha512-qU4PotCXeRQSAuJfPSum0Ylou/50HsVcvGd7T75Gq8Y/t81MfxbVQEaMkxhJcGLmCCaxJBkELbqHAYkK6nmFSg==";
+        };
+        _TQPtJBqN = {
+            "id" = "TQPtJBqN";
+            "file" = "whistlebound-horse-1.2.1+mc26.2.jar";
+            "hash" = "sha512-iagBxeI7oNNr/a+d1xGTLpT13/SDoSWFtcv7dPMI6e+HdWbji3fWJjRNq0LuNebZahpEGzyhb8XLB9rimcHwrg==";
+        };
     in {
         "6oawankD" = _6oawankD;
         "pTL4UNT8" = _pTL4UNT8;
@@ -98,24 +173,54 @@ let
         "oJRWDkhp" = _oJRWDkhp;
         "jACdnolX" = _jACdnolX;
         "BcMjY0HN" = _BcMjY0HN;
-        "fabric-1.21.1" = _pTL4UNT8;
-        "fabric-1.21.2" = _8MB4dzHM;
-        "fabric-1.21.3" = _kwNFWAjR;
-        "fabric-1.21.4" = _BUlGzzXI;
-        "fabric-1.21.5" = _kzC16GIi;
-        "fabric-1.21.6" = _aWIpgwRy;
-        "fabric-1.21.7" = _CG8Um0Pf;
-        "fabric-1.21.8" = _BN0JajEW;
-        "fabric-1.21.9" = _LJCHCXqM;
-        "fabric-1.21.10" = _dcdtoyY0;
-        "fabric-1.21.11" = _HX89LdGr;
-        "fabric-26.1" = _rQ9tAuxf;
-        "fabric-26.1.1" = _oJRWDkhp;
-        "fabric-26.1.2" = _jACdnolX;
-        "fabric-26.2" = _BcMjY0HN;
+        "SdfMYg69" = _SdfMYg69;
+        "qQ3r9ztw" = _qQ3r9ztw;
+        "mN47Fhbs" = _mN47Fhbs;
+        "T85lQeFc" = _T85lQeFc;
+        "labWSm1e" = _labWSm1e;
+        "QNpvGzbf" = _QNpvGzbf;
+        "PWMON1IU" = _PWMON1IU;
+        "8TD8b9v7" = _8TD8b9v7;
+        "YgegLPdI" = _YgegLPdI;
+        "Ok5wmsri" = _Ok5wmsri;
+        "WBSUj9yU" = _WBSUj9yU;
+        "DVyeNNt6" = _DVyeNNt6;
+        "S4Sv1USr" = _S4Sv1USr;
+        "OT9cj5eO" = _OT9cj5eO;
+        "TQPtJBqN" = _TQPtJBqN;
+        "fabric-1.21.1" = _SdfMYg69;
+        "fabric-1.21.2" = _qQ3r9ztw;
+        "fabric-1.21.3" = _mN47Fhbs;
+        "fabric-1.21.4" = _T85lQeFc;
+        "fabric-1.21.5" = _labWSm1e;
+        "fabric-1.21.6" = _QNpvGzbf;
+        "fabric-1.21.7" = _PWMON1IU;
+        "fabric-1.21.8" = _8TD8b9v7;
+        "fabric-1.21.9" = _YgegLPdI;
+        "fabric-1.21.10" = _Ok5wmsri;
+        "fabric-1.21.11" = _WBSUj9yU;
+        "fabric-26.1" = _DVyeNNt6;
+        "fabric-26.1.1" = _S4Sv1USr;
+        "fabric-26.1.2" = _OT9cj5eO;
+        "fabric-26.2" = _TQPtJBqN;
         "pkg-1.0.0" = _6oawankD;
         "pkg-1.2.0" = _BcMjY0HN;
-        "default" = _BcMjY0HN;
+        "pkg-1.2.1+mc1.21.1" = _SdfMYg69;
+        "pkg-1.2.1+mc1.21.2" = _qQ3r9ztw;
+        "pkg-1.2.1+mc1.21.3" = _mN47Fhbs;
+        "pkg-1.2.1+mc1.21.4" = _T85lQeFc;
+        "pkg-1.2.1+mc1.21.5" = _labWSm1e;
+        "pkg-1.2.1+mc1.21.6" = _QNpvGzbf;
+        "pkg-1.2.1+mc1.21.7" = _PWMON1IU;
+        "pkg-1.2.1+mc1.21.8" = _8TD8b9v7;
+        "pkg-1.2.1+mc1.21.9" = _YgegLPdI;
+        "pkg-1.2.1+mc1.21.10" = _Ok5wmsri;
+        "pkg-1.2.1+mc1.21.11" = _WBSUj9yU;
+        "pkg-1.2.1+mc26.1" = _DVyeNNt6;
+        "pkg-1.2.1+mc26.1.1" = _S4Sv1USr;
+        "pkg-1.2.1+mc26.1.2" = _OT9cj5eO;
+        "pkg-1.2.1+mc26.2" = _TQPtJBqN;
+        "default" = _TQPtJBqN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "whistlebound-horse";

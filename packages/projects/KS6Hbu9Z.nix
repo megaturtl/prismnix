@@ -2151,6 +2151,16 @@ let
             "file" = "sound_physics_perfected-1.17.5+26.1-fabric.jar";
             "hash" = "sha512-07z6ZcMun5K+0UZhUzNPNT0yTdJORdGAAnGkpTBihHs7Iw4vqPRYYYIDA1s0pmJSOQcrRCau4YYJgBCJXlj7wQ==";
         };
+        _UNsI9sbx = {
+            "id" = "UNsI9sbx";
+            "file" = "sound_physics_perfected-1.17.6+26.1-fabric.jar";
+            "hash" = "sha512-RK7LG+fzE7xtJ3dXnmi8uwPilHtU8aV3RnEWOfdPN2ZqgoYuJIyepktLYD5F7bPLy8lG95XGgkqXzejMJ5ZwEQ==";
+        };
+        _1rm4PPkm = {
+            "id" = "1rm4PPkm";
+            "file" = "sound_physics_perfected-1.17.6+26.3-fabric.jar";
+            "hash" = "sha512-AUDNdP6nBaVfCF8LiQdk9flKHRwoVRSiTHKIIrjW0+OdvSWZ6o1fUD9I6ez3WDaltbjJguo5P6Na/gD/NSXRJw==";
+        };
     in {
         "IV6srFZo" = _IV6srFZo;
         "E7OHAOYy" = _E7OHAOYy;
@@ -2582,6 +2592,8 @@ let
         "fGKyMoHU" = _fGKyMoHU;
         "Frt7nJSz" = _Frt7nJSz;
         "Ggyhlyvm" = _Ggyhlyvm;
+        "UNsI9sbx" = _UNsI9sbx;
+        "1rm4PPkm" = _1rm4PPkm;
         "fabric-1.21.1" = _1sQW2KGY;
         "fabric-1.21.5" = _bScqDYiI;
         "fabric-1.20.1" = _9WYoeMrI;
@@ -2601,10 +2613,11 @@ let
         "fabric-1.21.9" = _Frt7nJSz;
         "fabric-1.21.10" = _Frt7nJSz;
         "fabric-1.21.11" = _UpeldSHu;
-        "fabric-26.1" = _Ggyhlyvm;
-        "fabric-26.1.1" = _Ggyhlyvm;
-        "fabric-26.1.2" = _Ggyhlyvm;
-        "fabric-26.2" = _Ggyhlyvm;
+        "fabric-26.1" = _UNsI9sbx;
+        "fabric-26.1.1" = _UNsI9sbx;
+        "fabric-26.1.2" = _UNsI9sbx;
+        "fabric-26.2" = _UNsI9sbx;
+        "fabric-26.3" = _1rm4PPkm;
         "neoforge-1.21.1" = _ueESmGKc;
         "neoforge-1.21.7" = _fGKyMoHU;
         "neoforge-1.21.8" = _fGKyMoHU;
@@ -2694,7 +2707,8 @@ let
         "pkg-1.17.3" = _xBgt9ZS9;
         "pkg-1.17.4" = _MdqFOdNi;
         "pkg-1.17.5" = _Ggyhlyvm;
-        "default" = _Ggyhlyvm;
+        "pkg-1.17.6" = _1rm4PPkm;
+        "default" = _1rm4PPkm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sound-physics-perfected";

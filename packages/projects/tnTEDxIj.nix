@@ -256,6 +256,11 @@ let
             "file" = "nycto-neoforge-26.1-b17.jar";
             "hash" = "sha512-CpZfK2MvC6w7+f4G2IzVnCc3UnU6LvcEC7mHrQZb9JPWyV05HyOBjgniLSxj4Cekp67RPu2OkhyZDLNggegvOA==";
         };
+        _OKHjfzkM = {
+            "id" = "OKHjfzkM";
+            "file" = "nycto-neoforge-26.2-b8.jar";
+            "hash" = "sha512-hb/MYakd7DiJeayPIWeNYKF36jHMyvIbKnJTJIZgnU8uJAaih4VAjSZTVcI1lnFwOFgirvsp11v9gUyLJ+3sZQ==";
+        };
     in {
         "76xoDcLL" = _76xoDcLL;
         "Z3r1bf9m" = _Z3r1bf9m;
@@ -308,6 +313,7 @@ let
         "SBXez1FA" = _SBXez1FA;
         "jA2LsjPc" = _jA2LsjPc;
         "exkKElwJ" = _exkKElwJ;
+        "OKHjfzkM" = _OKHjfzkM;
         "fabric-1.21.8" = _j6k1kLcP;
         "fabric-1.21.9" = _zoJH6Od1;
         "fabric-1.21.10" = _bk4exkd6;
@@ -328,6 +334,7 @@ let
         "neoforge-26.1" = _exkKElwJ;
         "neoforge-26.1.1" = _exkKElwJ;
         "neoforge-26.1.2" = _exkKElwJ;
+        "neoforge-26.2" = _OKHjfzkM;
         "pkg-1.21.8-b1" = _76xoDcLL;
         "pkg-1.21.8-b2" = _Z3r1bf9m;
         "pkg-1.21.8-b3" = _GnTSB875;
@@ -373,9 +380,9 @@ let
         "pkg-26.2-b7" = _dqyitjju;
         "pkg-26.3-b1" = _xOjOsOd5;
         "pkg-26.3-b2" = _nLber8uV;
-        "pkg-26.2-b8" = _SBXez1FA;
+        "pkg-26.2-b8" = _OKHjfzkM;
         "pkg-26.1-b17" = _exkKElwJ;
-        "default" = _exkKElwJ;
+        "default" = _OKHjfzkM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nycto";

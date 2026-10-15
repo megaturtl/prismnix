@@ -186,6 +186,11 @@ let
             "file" = "immersiveweapons-26.3-1.40.0.jar";
             "hash" = "sha512-+rYt7nwo1wSi7plyINakTY26sKF62hsQXK82CCizlGCUf5VnIND/rMHTkpzKYgWmkqcRvd9G71cxUjOWNFqmtg==";
         };
+        _YCz7JSHD = {
+            "id" = "YCz7JSHD";
+            "file" = "immersiveweapons-26.3-1.41.0.jar";
+            "hash" = "sha512-mjgFcqhU9r9PkZ8qZHrvcq+D7U6vJES2eigjXopATfQ/DfS6DxyvCSJL6ztQHRoH5VwAdFwCa8w9p+5UKs3nwA==";
+        };
     in {
         "2SjIATUF" = _2SjIATUF;
         "zh7dKO0a" = _zh7dKO0a;
@@ -224,6 +229,7 @@ let
         "qzEr1s2V" = _qzEr1s2V;
         "Wtuzzhpz" = _Wtuzzhpz;
         "Xc4bnHNY" = _Xc4bnHNY;
+        "YCz7JSHD" = _YCz7JSHD;
         "forge-1.20.1" = _PtvgvomK;
         "neoforge-1.20.1" = _PtvgvomK;
         "neoforge-1.20.2" = _BeVuu2V4;
@@ -235,7 +241,7 @@ let
         "neoforge-1.21.11" = _BJ18Y6Ss;
         "neoforge-26.1.2" = _qzEr1s2V;
         "neoforge-26.2" = _Wtuzzhpz;
-        "neoforge-26.3" = _Xc4bnHNY;
+        "neoforge-26.3" = _YCz7JSHD;
         "pkg-1.20.1-1.24.1" = _2SjIATUF;
         "pkg-v1.25.0" = _zh7dKO0a;
         "pkg-v1.25.1" = _BdU3GYXb;
@@ -273,7 +279,8 @@ let
         "pkg-v1.38.0" = _qzEr1s2V;
         "pkg-v1.39.0" = _Wtuzzhpz;
         "pkg-v1.40.0" = _Xc4bnHNY;
-        "default" = _Xc4bnHNY;
+        "pkg-v1.41.0" = _YCz7JSHD;
+        "default" = _YCz7JSHD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immersive-weapons";

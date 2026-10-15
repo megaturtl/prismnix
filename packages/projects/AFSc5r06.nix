@@ -31,6 +31,11 @@ let
             "file" = "bedrock-cauldrons-1.1.0+26.3.jar";
             "hash" = "sha512-DxJvRmZJUYtKBB85MaUoDhisuRMO8qRwbLirqKAH2V66yO27E8xv4phToS4xHJl3vDxnEcZAJBdAXsrsZh37hw==";
         };
+        _ZqRkRLnK = {
+            "id" = "ZqRkRLnK";
+            "file" = "bedrock-cauldrons-1.1.1+26.3.jar";
+            "hash" = "sha512-TN0GLesvhcHRy7W+f97K17bYMFUxsJnJk2buZBPA5+Hh7ql1Ldx2Y4TZizyFb663FxL3stFI0CYt4KLim4PPSQ==";
+        };
     in {
         "QXsiIAjU" = _QXsiIAjU;
         "q6yHy8PK" = _q6yHy8PK;
@@ -38,6 +43,7 @@ let
         "3XNtHHeO" = _3XNtHHeO;
         "vsZnmlVY" = _vsZnmlVY;
         "5tJ0uu8G" = _5tJ0uu8G;
+        "ZqRkRLnK" = _ZqRkRLnK;
         "fabric-1.21.6" = _UvmaSGEY;
         "fabric-1.21.7" = _UvmaSGEY;
         "fabric-1.21.8" = _UvmaSGEY;
@@ -47,14 +53,15 @@ let
         "fabric-26.1" = _vsZnmlVY;
         "fabric-26.1.1" = _vsZnmlVY;
         "fabric-26.1.2" = _vsZnmlVY;
-        "fabric-26.3" = _5tJ0uu8G;
+        "fabric-26.3" = _ZqRkRLnK;
         "pkg-1.0.0+1.21.6" = _QXsiIAjU;
         "pkg-1.0.1+1.21.6" = _q6yHy8PK;
         "pkg-1.0.2+1.21.6" = _UvmaSGEY;
         "pkg-1.0.3+1.21.9-rc1" = _3XNtHHeO;
         "pkg-1.0.4+26.1" = _vsZnmlVY;
         "pkg-1.1.0+26.3" = _5tJ0uu8G;
-        "default" = _5tJ0uu8G;
+        "pkg-1.1.1+26.3" = _ZqRkRLnK;
+        "default" = _ZqRkRLnK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bedrock-cauldrons";

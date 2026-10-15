@@ -796,6 +796,11 @@ let
             "file" = "enchancement-fabric-26.3-r4.jar";
             "hash" = "sha512-AmukcFn5acmHttGRr6ruDa4gYAPFv8PnkH9IZR6ANR6ZpWf73u3LlDkTTaIsJ9ODx01l3ksM4a83DaXT51x/dg==";
         };
+        _3e6zkmGR = {
+            "id" = "3e6zkmGR";
+            "file" = "enchancement-neoforge-26.2-r9.jar";
+            "hash" = "sha512-6sAERwp22hf/bI//MO+9KCU22ZS6MDXVgp7ezjoltQIoJNaXEFLWMZYeMuxt3J0SmEBYnVwmryHNHxi4qJwZfw==";
+        };
     in {
         "J3VF5aKI" = _J3VF5aKI;
         "VBmLq71s" = _VBmLq71s;
@@ -956,6 +961,7 @@ let
         "wFJ2i2TB" = _wFJ2i2TB;
         "hKDMxxRR" = _hKDMxxRR;
         "wsmJktf2" = _wsmJktf2;
+        "3e6zkmGR" = _3e6zkmGR;
         "fabric-1.18.2" = _J3VF5aKI;
         "fabric-1.19.2" = _OC5PAcny;
         "fabric-1.19.3" = _kCJ2DnM6;
@@ -1002,6 +1008,7 @@ let
         "neoforge-26.1" = _hKDMxxRR;
         "neoforge-26.1.1" = _hKDMxxRR;
         "neoforge-26.1.2" = _hKDMxxRR;
+        "neoforge-26.2" = _3e6zkmGR;
         "pkg-1.18-19" = _J3VF5aKI;
         "pkg-1.19-12" = _VBmLq71s;
         "pkg-1.19-13" = _1jQBg2iC;
@@ -1152,10 +1159,10 @@ let
         "pkg-26.2-r8" = _ICqeztX0;
         "pkg-26.3-r2" = _XNlOiyDC;
         "pkg-26.3-r3" = _9ufHJ2yh;
-        "pkg-26.2-r9" = _mDrTesbt;
+        "pkg-26.2-r9" = _3e6zkmGR;
         "pkg-26.1-r25" = _hKDMxxRR;
         "pkg-26.3-r4" = _wsmJktf2;
-        "default" = _wsmJktf2;
+        "default" = _3e6zkmGR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchancement";

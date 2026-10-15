@@ -116,6 +116,11 @@ let
             "file" = "SpiceOfLife-2.2.10-carrot.jar";
             "hash" = "sha512-7pMfgmyKh1mtApmlblRtQPcstPfKIPXPN4Qbtj/xfJhfa+cNNS5WxEG0qu6ThHpeXxtLDgWHGpHk4KW10DV+rg==";
         };
+        _qDqxIGyQ = {
+            "id" = "qDqxIGyQ";
+            "file" = "SpiceOfLife-2.2.11-carrot.jar";
+            "hash" = "sha512-cXSi+Fg4+QTMLb3hFwP9vASaHWzpzFOGcw0m2eAs6cetQm7LCzuqswwKv8957S2Qa22H8WZZOfojnBog4Hgx9A==";
+        };
     in {
         "gBl4OnFX" = _gBl4OnFX;
         "RdUgcZH9" = _RdUgcZH9;
@@ -140,7 +145,8 @@ let
         "3jggh9sh" = _3jggh9sh;
         "83Ykg0m8" = _83Ykg0m8;
         "cntszY2k" = _cntszY2k;
-        "forge-1.7.10" = _cntszY2k;
+        "qDqxIGyQ" = _qDqxIGyQ;
+        "forge-1.7.10" = _qDqxIGyQ;
         "pkg-2.0.7" = _gBl4OnFX;
         "pkg-2.0.8-carrot" = _RdUgcZH9;
         "pkg-2.0.9-carrot" = _gG0DYyuO;
@@ -162,7 +168,8 @@ let
         "pkg-2.2.8-carrot" = _3jggh9sh;
         "pkg-2.2.9-carrot" = _83Ykg0m8;
         "pkg-2.2.10-carrot" = _cntszY2k;
-        "default" = _cntszY2k;
+        "pkg-2.2.11-carrot" = _qDqxIGyQ;
+        "default" = _qDqxIGyQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spice-of-life-carrot-edition-unofficial";

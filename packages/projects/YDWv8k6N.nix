@@ -421,6 +421,36 @@ let
             "file" = "renourisheddelight-1.21.1_3.2.3-release.jar";
             "hash" = "sha512-w3vduWApKYBom3Au3t7q849fulchSg0LUawC+f7HpTnblD56ceAFAVqj4dn/GCVYLUPYlWEsPfITIsYHBi+BSw==";
         };
+        _Fs4vL4sE = {
+            "id" = "Fs4vL4sE";
+            "file" = "renourisheddelight-1.21.1_3.2.4-release.jar";
+            "hash" = "sha512-YQYAzSA2vU4R4qCjeyTrUIjgswQl0DML4Ly27gexht35abO2QZaJnN030zb2ZllRVZRQ1fd4EoiW6Dxdaz3fXQ==";
+        };
+        _b5A1C6gH = {
+            "id" = "b5A1C6gH";
+            "file" = "renourisheddelight-1.21.1_3.2.4-release.jar";
+            "hash" = "sha512-cNAvzHmYeSc+zh29SfPJMGqBqSES0fY9rtgP+fnbconwQgXGVBiCuyX40znZARL+NS4Xuouwf7RHRAKFgoBcUw==";
+        };
+        _25p1Fw8L = {
+            "id" = "25p1Fw8L";
+            "file" = "renourisheddelight-1.20.1_3.2.4-release.jar";
+            "hash" = "sha512-brfTzkK0EnNCQ3OlFCoJsQ6LnqdfZRFwo7FoQKl4kj7t2MWRJA/mM0jhIse9/Awj5lZE2ccpCycDR3H7ULBcdA==";
+        };
+        _trTeMWis = {
+            "id" = "trTeMWis";
+            "file" = "renourisheddelight-1.20.1_3.2.4-release.jar";
+            "hash" = "sha512-QHVxcBOYpay0s9J/qTzoE7MdqNW97VG/SI3/w+rNoBgahfsS/GgHH2aWt0II/9GDP6mEfDpXixUm/vua/AwVLQ==";
+        };
+        _I9YTNdmR = {
+            "id" = "I9YTNdmR";
+            "file" = "renourisheddelight-1.21.1_3.2.5-beta.jar";
+            "hash" = "sha512-MtZ/RSFqEZDmgLjIRp3gZ7Uy2J10dC4c8PuNTdaii/cyRZuHYzRi+AWLKPgBdFfzzC0WJEJZAQwu7KmmbEmIzA==";
+        };
+        _z27ONbz8 = {
+            "id" = "z27ONbz8";
+            "file" = "renourisheddelight-1.21.1_3.2.5-beta.jar";
+            "hash" = "sha512-fq9DKhkqnnBHyJVZX5gCvpr9oWc1/cOLRdGZF4BYM7QQBOyoGqUiJNtX2OXwNpKnW91T5rK6QbHNhp/OhLSilw==";
+        };
     in {
         "3wWAgq9H" = _3wWAgq9H;
         "DveJIXCI" = _DveJIXCI;
@@ -506,10 +536,16 @@ let
         "ZnnvyzHP" = _ZnnvyzHP;
         "puEjiUGx" = _puEjiUGx;
         "bQhBCEVy" = _bQhBCEVy;
-        "forge-1.20.1" = _UXJrNxfK;
-        "fabric-1.20.1" = _ZnnvyzHP;
-        "fabric-1.21.1" = _bQhBCEVy;
-        "neoforge-1.21.1" = _puEjiUGx;
+        "Fs4vL4sE" = _Fs4vL4sE;
+        "b5A1C6gH" = _b5A1C6gH;
+        "25p1Fw8L" = _25p1Fw8L;
+        "trTeMWis" = _trTeMWis;
+        "I9YTNdmR" = _I9YTNdmR;
+        "z27ONbz8" = _z27ONbz8;
+        "forge-1.20.1" = _25p1Fw8L;
+        "fabric-1.20.1" = _trTeMWis;
+        "fabric-1.21.1" = _z27ONbz8;
+        "neoforge-1.21.1" = _I9YTNdmR;
         "pkg-1.20.1_1.0.0-alpha" = _3wWAgq9H;
         "pkg-1.20.1_1.0.0-beta" = _DveJIXCI;
         "pkg-1.20.1_1.0.0-release" = _WasMEbL2;
@@ -552,7 +588,10 @@ let
         "pkg-1.20.1_3.2.2-release" = _CPKvI2N9;
         "pkg-1.20.1_3.2.3-release" = _ZnnvyzHP;
         "pkg-1.21.1_3.2.3-release" = _bQhBCEVy;
-        "default" = _bQhBCEVy;
+        "pkg-1.21.1_3.2.4-release" = _b5A1C6gH;
+        "pkg-1.20.1_3.2.4-release" = _trTeMWis;
+        "pkg-1.21.1_3.2.5-beta" = _z27ONbz8;
+        "default" = _z27ONbz8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "renourisheddelight";

@@ -36,6 +36,11 @@ let
             "file" = "translated-legacy-2.0.1.jar";
             "hash" = "sha512-GqkmlWAoZU0xM5C6uR80IMVBWYi2yqQL6svSXls1a0IiGuxmR2wu6nTia7DegR0W/YKEU/snI1x8fsVaBQiNFA==";
         };
+        _GcqN4s6s = {
+            "id" = "GcqN4s6s";
+            "file" = "translated-legacy-2.1.0.jar";
+            "hash" = "sha512-ofBKgtOYibz9iWaX4KCzuU6q4SYwZnDQsx2RC+qm8KPJXU4DIMz1WCmPJoJepTk/hxgCmJg2Yobb+MLsFBZjAQ==";
+        };
     in {
         "ciRQOVb1" = _ciRQOVb1;
         "quem11UN" = _quem11UN;
@@ -44,7 +49,8 @@ let
         "sGlHRgbi" = _sGlHRgbi;
         "bsqLRhaM" = _bsqLRhaM;
         "aI5TlHrS" = _aI5TlHrS;
-        "babric-b1.7.3" = _aI5TlHrS;
+        "GcqN4s6s" = _GcqN4s6s;
+        "babric-b1.7.3" = _GcqN4s6s;
         "fabric-b1.7.3" = _aI5TlHrS;
         "pkg-1.0.0" = _ciRQOVb1;
         "pkg-1.1.0" = _quem11UN;
@@ -53,7 +59,8 @@ let
         "pkg-1.2.2" = _sGlHRgbi;
         "pkg-2.0.0" = _bsqLRhaM;
         "pkg-2.0.1" = _aI5TlHrS;
-        "default" = _aI5TlHrS;
+        "pkg-2.1.0" = _GcqN4s6s;
+        "default" = _GcqN4s6s;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "translated-legacy";

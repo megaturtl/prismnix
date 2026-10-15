@@ -41,6 +41,21 @@ let
             "file" = "THC's Fast Armor 1.8.9.zip";
             "hash" = "sha512-/hT2iZWCfEaB9ndhL3LU/br7aNI3b3oA3KkRc3t797RLgCcWCvW6nlng32WX2z0v+lU+1jOvS+AdNzwjO1fMdg==";
         };
+        _xKU9yeiC = {
+            "id" = "xKU9yeiC";
+            "file" = "THC's Fast Armor .zip";
+            "hash" = "sha512-KwvrlFYKehkbJGuwUTbNh+YgS00gQ4YclC+8MuCUuHb79jQKkSRl0DjW90cuJ1/nTfGzWFNyFhcctYkFILA+8w==";
+        };
+        _IOtHPknj = {
+            "id" = "IOtHPknj";
+            "file" = "THC's Fast Armor .zip";
+            "hash" = "sha512-dLO/AT9NTp+heicdjMP6m/oKH27i5utQnrkkHN7ZsIt9dMr+3Gj5Tmj+spTjSACaevG07LS2d5BnUbeiWl3FqA==";
+        };
+        _RgeaO3Vc = {
+            "id" = "RgeaO3Vc";
+            "file" = "THC's Fast Armor .zip";
+            "hash" = "sha512-1HN16DBXmBXEq9jlkcQ9xDS2/F+EdQ56tZBSJ4VMy5FguSTYvdJHPp8NwFVHZNJLm8EMTdE2WMS72EmY9ZF7Aw==";
+        };
     in {
         "IoCtO480" = _IoCtO480;
         "RKC3teXq" = _RKC3teXq;
@@ -50,11 +65,14 @@ let
         "IAjMEpEj" = _IAjMEpEj;
         "wDepk3e2" = _wDepk3e2;
         "eNqyJqxk" = _eNqyJqxk;
+        "xKU9yeiC" = _xKU9yeiC;
+        "IOtHPknj" = _IOtHPknj;
+        "RgeaO3Vc" = _RgeaO3Vc;
         "minecraft-1.21.11" = _wDepk3e2;
-        "minecraft-26.1" = _d1lWZGjt;
-        "minecraft-26.1.1" = _d1lWZGjt;
-        "minecraft-26.1.2" = _d1lWZGjt;
-        "minecraft-26.2" = _6MGaqjwe;
+        "minecraft-26.1" = _IOtHPknj;
+        "minecraft-26.1.1" = _IOtHPknj;
+        "minecraft-26.1.2" = _IOtHPknj;
+        "minecraft-26.2" = _xKU9yeiC;
         "minecraft-26.3" = _IAjMEpEj;
         "minecraft-1.7.2" = _eNqyJqxk;
         "minecraft-1.7.3" = _eNqyJqxk;
@@ -75,6 +93,8 @@ let
         "minecraft-1.8.7" = _eNqyJqxk;
         "minecraft-1.8.8" = _eNqyJqxk;
         "minecraft-1.8.9" = _eNqyJqxk;
+        "minecraft-1.21.9" = _RgeaO3Vc;
+        "minecraft-1.21.10" = _RgeaO3Vc;
         "pkg-1.0.0" = _IoCtO480;
         "pkg-1.0.1" = _RKC3teXq;
         "pkg-1.0.2" = _d1lWZGjt;
@@ -83,7 +103,9 @@ let
         "pkg-1.0.5" = _IAjMEpEj;
         "pkg-1.05" = _wDepk3e2;
         "pkg-1.06" = _eNqyJqxk;
-        "default" = _eNqyJqxk;
+        "pkg-1.0.7" = _IOtHPknj;
+        "pkg-1.0.8" = _RgeaO3Vc;
+        "default" = _RgeaO3Vc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "thcs-fast-armor";

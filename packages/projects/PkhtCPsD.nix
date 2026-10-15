@@ -841,6 +841,16 @@ let
             "file" = "HexOverpowered-neoforge-1.21.1-0.12.2.pre53.fix1.jar";
             "hash" = "sha512-q4FbJGfs20+NLf1fbNEpUgPEVNisAMort2iLxPwy1Gt2eVGfdDFcljnKaqSWWQ3E0+qKIIJ4lvgtb0KXV1ZkWA==";
         };
+        _pZYdVur4 = {
+            "id" = "pZYdVur4";
+            "file" = "HexOverpowered-fabric-1.21.1-0.12.2.pre64.jar";
+            "hash" = "sha512-Tx/yiJ/hsbUsgU8vAZHjt00srVaWFfzUr1a7iI/YLU42IoKStq4cx3XqA/kkVnGtwo4reYhDTiDcv2whEFJKHg==";
+        };
+        _PrRygr0n = {
+            "id" = "PrRygr0n";
+            "file" = "HexOverpowered-neoforge-1.21.1-0.12.2.pre64.jar";
+            "hash" = "sha512-umjIw1An9hqCuUmgc24xZ2qRT44MVLEAx2YiLI2lzVgqPjfg8/WqZpjLhVhnmcr2lSRUi/K//zRywb9aotweYg==";
+        };
     in {
         "8li3CR6M" = _8li3CR6M;
         "dzen4jXT" = _dzen4jXT;
@@ -1010,12 +1020,14 @@ let
         "t8YcoCen" = _t8YcoCen;
         "aSPLeWLo" = _aSPLeWLo;
         "I3vfDCiE" = _I3vfDCiE;
+        "pZYdVur4" = _pZYdVur4;
+        "PrRygr0n" = _PrRygr0n;
         "forge-1.20.1" = _AN4qQYMh;
         "forge-1.19.2" = _aSPLeWLo;
         "fabric-1.20.1" = _rmyTjEDh;
         "fabric-1.19.2" = _t8YcoCen;
-        "fabric-1.21.1" = _s5eN1ZBb;
-        "neoforge-1.21.1" = _I3vfDCiE;
+        "fabric-1.21.1" = _pZYdVur4;
+        "neoforge-1.21.1" = _PrRygr0n;
         "pkg-1.20.1-0.5" = _8li3CR6M;
         "pkg-1.20.1-0.5.1" = _VQlRi2xN;
         "pkg-1.20.1-0.5.2" = _K1IbaBS0;
@@ -1098,7 +1110,8 @@ let
         "pkg-1.20.1-0.12.2" = _AN4qQYMh;
         "pkg-1.19.2-0.12.2" = _aSPLeWLo;
         "pkg-1.21.1-0.12.2.pre53.fix1" = _I3vfDCiE;
-        "default" = _I3vfDCiE;
+        "pkg-1.21.1-0.12.2.pre64" = _PrRygr0n;
+        "default" = _PrRygr0n;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hexoverpowered";

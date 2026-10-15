@@ -56,6 +56,36 @@ let
             "file" = "SickSheets_Practice_Bot-1.2.1-mc26.3.jar";
             "hash" = "sha512-05y5KfvPJHBjNYMp3aFI0oHE2bAz8m4UDwujUdnF0AklVY0hAFRrjSM7ztUx0XhW1HyUIwyXR7wW0U9A6KZd9A==";
         };
+        _KeB1LcGz = {
+            "id" = "KeB1LcGz";
+            "file" = "SickSheets_Practice_Bot-1.3.0-mc26.1.2.jar";
+            "hash" = "sha512-u/Sbh8tmKvwteXA6RBZowOHZMAlwoJyhDXo69GVhwMBBFPXHyak+DZjbuK40RNchnSYfsR1v4rBxw/meaqurqw==";
+        };
+        _V46baemV = {
+            "id" = "V46baemV";
+            "file" = "SickSheets_Practice_Bot-1.3.0-mc26.2.jar";
+            "hash" = "sha512-kwN5sgX6LRMoh63V1xqbH3wPRQQsmaSTi8eSlXPmaTYmn/F5PDLhRyYmvptubjX8UbGFi8C95+gRFgn5dYAjIw==";
+        };
+        _fYd9zbTp = {
+            "id" = "fYd9zbTp";
+            "file" = "SickSheets_Practice_Bot-1.3.0-mc26.3.jar";
+            "hash" = "sha512-WUtsVAUHKw3KpLYbLetP9zsVsUrk4uwYzIY11lr44RFX6HLCTWiuYRtVpFmaI2wCraktkEsxGongN8ejKRndfA==";
+        };
+        _DMxp64uO = {
+            "id" = "DMxp64uO";
+            "file" = "SickSheets_Practice_Bot-1.4.0-mc26.1.2.jar";
+            "hash" = "sha512-U5RAyRj3lgXpvIJBxf/25LAjlIOYZ2Eg2yFHiybFg2vdOkQ82S5FKV7nuh0Bp2S2K7M8q+FLD/3cEOTRzBmzfw==";
+        };
+        _1S5nsW2n = {
+            "id" = "1S5nsW2n";
+            "file" = "SickSheets_Practice_Bot-1.4.0-mc26.2.jar";
+            "hash" = "sha512-MKFGIWqxAf2gWyYXmKW7BvU+p7frkECwXZtJF+wDvfgwxMJAKRNxl1rH+bSGL9P8sGI2i/TFsHuJF898v2xTJA==";
+        };
+        _HEsR59Fj = {
+            "id" = "HEsR59Fj";
+            "file" = "SickSheets_Practice_Bot-1.4.0-mc26.3.jar";
+            "hash" = "sha512-mMP1ViA6ZEGGUlquS+4OOsOIlbWpLeF/4KF2j0GnVrsLy8CMmIgHTZzC84Z+bsjH5fm+FDvoqMn2v/mtfpeYhg==";
+        };
     in {
         "lUbUkDVr" = _lUbUkDVr;
         "a3mr0EAF" = _a3mr0EAF;
@@ -68,16 +98,24 @@ let
         "jcc6JMno" = _jcc6JMno;
         "3Oc4WkmA" = _3Oc4WkmA;
         "Qmyg1Q8y" = _Qmyg1Q8y;
+        "KeB1LcGz" = _KeB1LcGz;
+        "V46baemV" = _V46baemV;
+        "fYd9zbTp" = _fYd9zbTp;
+        "DMxp64uO" = _DMxp64uO;
+        "1S5nsW2n" = _1S5nsW2n;
+        "HEsR59Fj" = _HEsR59Fj;
         "fabric-1.21.11" = _a3mr0EAF;
-        "fabric-26.2" = _3Oc4WkmA;
-        "fabric-26.1.2" = _jcc6JMno;
-        "fabric-26.3" = _Qmyg1Q8y;
+        "fabric-26.2" = _1S5nsW2n;
+        "fabric-26.1.2" = _DMxp64uO;
+        "fabric-26.3" = _HEsR59Fj;
         "pkg-1.0.0" = _ehy0vKNd;
         "pkg-2.0.0" = _a3mr0EAF;
         "pkg-1.0.0-26.2" = _mkNVAPbs;
         "pkg-1.1.0" = _PfVHkMOI;
         "pkg-1.2.1" = _Qmyg1Q8y;
-        "default" = _Qmyg1Q8y;
+        "pkg-1.3.0" = _fYd9zbTp;
+        "pkg-1.4.0" = _HEsR59Fj;
+        "default" = _HEsR59Fj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sicksheets-practice-bot";

@@ -21,18 +21,24 @@ let
             "file" = "ProjectE_Integration-1.21.1-8.3.1.jar";
             "hash" = "sha512-vVwUFvmhFK3+iGyIddJDaI1vYJG7IkOAFcvTW1ICGG/TqoIpmFGNCVJ5s+vYmUkb6wwAjUXDbIafxtyBk7mR0A==";
         };
+        _xJe2vprX = {
+            "id" = "xJe2vprX";
+            "file" = "ProjectE_Integration-1.21.1-8.4.0.jar";
+            "hash" = "sha512-Cj36aopVN+YDQtYh1vMqt9NxmRCkgx9onGiWDkvaZHy0QOJoBVpM4M3uYEPhyLVz9MaEsPhmUpdv5RCrt+NWfQ==";
+        };
     in {
         "MxlyJleI" = _MxlyJleI;
         "PLjF1UzJ" = _PLjF1UzJ;
         "a1Zcnkc4" = _a1Zcnkc4;
         "HRGTaXz2" = _HRGTaXz2;
+        "xJe2vprX" = _xJe2vprX;
         "forge-1.20.1" = _MxlyJleI;
         "forge-1.20.2" = _MxlyJleI;
         "forge-1.20.3" = _MxlyJleI;
         "forge-1.20.4" = _MxlyJleI;
         "forge-1.20.5" = _MxlyJleI;
         "forge-1.20.6" = _MxlyJleI;
-        "neoforge-1.21.1" = _HRGTaXz2;
+        "neoforge-1.21.1" = _xJe2vprX;
         "neoforge-1.21.2" = _PLjF1UzJ;
         "neoforge-1.21.3" = _PLjF1UzJ;
         "neoforge-1.21.4" = _PLjF1UzJ;
@@ -43,7 +49,8 @@ let
         "pkg-8.2.0" = _PLjF1UzJ;
         "pkg-8.3.0" = _a1Zcnkc4;
         "pkg-8.3.1" = _HRGTaXz2;
-        "default" = _HRGTaXz2;
+        "pkg-8.4.0" = _xJe2vprX;
+        "default" = _xJe2vprX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "projecte-integration";

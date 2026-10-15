@@ -206,6 +206,11 @@ let
             "file" = "librarian-filter-fabric-1.20.1-1.0.1.jar";
             "hash" = "sha512-tMyWJODLA9QwwGrJDWu5CFt3Ez+PSAvh6wFHwBTktc8R738xj3Qq6YXqh73YIYyzEcQoMN7doEhpLYqByoxvVQ==";
         };
+        _3PkdS8Cj = {
+            "id" = "3PkdS8Cj";
+            "file" = "librarian-filter-fabric-1.20.1-1.0.5.jar";
+            "hash" = "sha512-aorAlZXtpSAt6WyPWfFV2MC8LkqN5wEnOoM2z3VC9F8BQyck9Ee829lt7jB3EMDuTvK841snV0gyelRHOnLppQ==";
+        };
     in {
         "lFo8RvN7" = _lFo8RvN7;
         "9OJgNkES" = _9OJgNkES;
@@ -248,7 +253,8 @@ let
         "RYj5ARd8" = _RYj5ARd8;
         "wFlVArRg" = _wFlVArRg;
         "jAmprMks" = _jAmprMks;
-        "fabric-1.20.1" = _jAmprMks;
+        "3PkdS8Cj" = _3PkdS8Cj;
+        "fabric-1.20.1" = _3PkdS8Cj;
         "fabric-1.20.2" = _lFo8RvN7;
         "fabric-1.21.5" = _9OJgNkES;
         "fabric-1.21.10" = _ra416b4O;
@@ -281,7 +287,8 @@ let
         "pkg-1.0.2" = _L96BGjdJ;
         "pkg-1.0.3" = _vIYDZW03;
         "pkg-1.0.4" = _ra416b4O;
-        "default" = _jAmprMks;
+        "pkg-1.0.5" = _3PkdS8Cj;
+        "default" = _3PkdS8Cj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "easylibrariantrade";

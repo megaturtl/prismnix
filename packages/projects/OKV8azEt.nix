@@ -461,6 +461,16 @@ let
             "file" = "purescale-normal-forge-mc1.19.2-1.2.jar";
             "hash" = "sha512-ur5uraa2srqvxFwly7e64QwMJ/4LgAw/BfcR/HzfeZK4OahMKKs3NmHyN0RJmSSp0Pc1cOA5/XqswXWEicnbGg==";
         };
+        _UiTjNVt7 = {
+            "id" = "UiTjNVt7";
+            "file" = "purescale-normal-neoforge-mc1.20.4-1.2.jar";
+            "hash" = "sha512-PM2H1sPr9FnIqdPkxp7/7QC5//Los609YG169CZjaJzvx+8g+PtfRh/hx7NfEOFCyZa3gb1yRw5EfIBju15Cnw==";
+        };
+        _PHQBTwys = {
+            "id" = "PHQBTwys";
+            "file" = "purescale-normal-fabric-mc1.20.4-1.2.jar";
+            "hash" = "sha512-nmkYqubV6RBZDpWyDzVoxLl9qipukNrMGkvyQKjS9ZeeGlnVHuGOSZB++JJ6WSkyAZMQ4BTXrfzm96fcFn3Arg==";
+        };
     in {
         "dPX6QBuH" = _dPX6QBuH;
         "niq6fog2" = _niq6fog2;
@@ -554,6 +564,8 @@ let
         "gB9vgzEE" = _gB9vgzEE;
         "T0gBCOM9" = _T0gBCOM9;
         "bIqguFWv" = _bIqguFWv;
+        "UiTjNVt7" = _UiTjNVt7;
+        "PHQBTwys" = _PHQBTwys;
         "fabric-26.2" = _nfZmCPhR;
         "fabric-1.21.11" = _79VSfTr4;
         "fabric-1.21.9" = _L9sBBA47;
@@ -569,7 +581,7 @@ let
         "fabric-1.21" = _Uh8M4Y1s;
         "fabric-1.20.1" = _NQ0zliTT;
         "fabric-26.3" = _6QPirdSJ;
-        "fabric-1.20.4" = _52mDgx4M;
+        "fabric-1.20.4" = _PHQBTwys;
         "fabric-1.20.3" = _4Hm6nKGj;
         "fabric-1.20.2" = _E2lmvsn7;
         "fabric-1.18.2" = _gB9vgzEE;
@@ -590,7 +602,7 @@ let
         "quilt-1.21" = _Uh8M4Y1s;
         "quilt-1.20.1" = _NQ0zliTT;
         "quilt-26.3" = _6QPirdSJ;
-        "quilt-1.20.4" = _52mDgx4M;
+        "quilt-1.20.4" = _PHQBTwys;
         "quilt-1.20.3" = _4Hm6nKGj;
         "quilt-1.20.2" = _E2lmvsn7;
         "quilt-1.18.2" = _gB9vgzEE;
@@ -603,6 +615,7 @@ let
         "neoforge-26.1.2" = _g4OPZ2D9;
         "neoforge-26.2" = _lVk50jGV;
         "neoforge-26.3" = _q1bRybnt;
+        "neoforge-1.20.4" = _UiTjNVt7;
         "forge-1.20.1" = _pToJWJ9Y;
         "forge-1.21.1" = _m6IXYTp0;
         "forge-1.7.10" = _ljhH5o6y;
@@ -619,8 +632,8 @@ let
         "pkg-1.1" = _6nbuu9jS;
         "pkg-1.2" = _Ihyu3d7z;
         "pkg-1.2.01" = _UaoyLxJX;
-        "pkg-1.2.1" = _bIqguFWv;
-        "default" = _bIqguFWv;
+        "pkg-1.2.1" = _PHQBTwys;
+        "default" = _PHQBTwys;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "purescale";

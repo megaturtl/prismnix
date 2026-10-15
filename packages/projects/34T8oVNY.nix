@@ -461,6 +461,11 @@ let
             "file" = "Pl3xMap-26.2-556.jar";
             "hash" = "sha512-6DYWA2uQMCzeubtr8TX0kicoipa0Xbr1CcT47781+2fS4fnsGphrI+CV4es/yn3GD/ZzDxa7C2dUa2DiTAI0fA==";
         };
+        _2GEUQuu3 = {
+            "id" = "2GEUQuu3";
+            "file" = "Pl3xMap-26.3-557.jar";
+            "hash" = "sha512-LtTdjaHMbW08G7pG9VTTAMs2R5H3gP6R92mpoymMDKIAjRRpiNkUHgOBJI5oebeUaDg4xzpGgXICtaqoEuELkQ==";
+        };
     in {
         "5NMtjPO0" = _5NMtjPO0;
         "gLElVt36" = _gLElVt36;
@@ -554,6 +559,7 @@ let
         "r9x0W3ZW" = _r9x0W3ZW;
         "ZtyUlPsq" = _ZtyUlPsq;
         "aFdUoUCd" = _aFdUoUCd;
+        "2GEUQuu3" = _2GEUQuu3;
         "bukkit-1.20.1" = _5NMtjPO0;
         "bukkit-1.20" = _gLElVt36;
         "bukkit-1.19.4" = _EfApavwR;
@@ -572,6 +578,7 @@ let
         "bukkit-1.21.11" = _1O4z4iPC;
         "bukkit-26.1.2" = _FjJqTbas;
         "bukkit-26.2" = _aFdUoUCd;
+        "bukkit-26.3" = _2GEUQuu3;
         "fabric-1.20.1" = _5NMtjPO0;
         "fabric-1.20" = _gLElVt36;
         "fabric-1.19.4" = _EfApavwR;
@@ -590,6 +597,7 @@ let
         "fabric-1.21.11" = _1O4z4iPC;
         "fabric-26.1.2" = _FjJqTbas;
         "fabric-26.2" = _aFdUoUCd;
+        "fabric-26.3" = _2GEUQuu3;
         "forge-1.20.1" = _5NMtjPO0;
         "forge-1.20" = _gLElVt36;
         "forge-1.19.4" = _EfApavwR;
@@ -611,6 +619,7 @@ let
         "paper-1.21.11" = _1O4z4iPC;
         "paper-26.1.2" = _FjJqTbas;
         "paper-26.2" = _aFdUoUCd;
+        "paper-26.3" = _2GEUQuu3;
         "purpur-1.20.1" = _5NMtjPO0;
         "purpur-1.20" = _gLElVt36;
         "purpur-1.19.4" = _EfApavwR;
@@ -629,6 +638,7 @@ let
         "purpur-1.21.11" = _1O4z4iPC;
         "purpur-26.1.2" = _FjJqTbas;
         "purpur-26.2" = _aFdUoUCd;
+        "purpur-26.3" = _2GEUQuu3;
         "quilt-1.20.1" = _5NMtjPO0;
         "quilt-1.20" = _gLElVt36;
         "quilt-1.19.4" = _EfApavwR;
@@ -647,6 +657,7 @@ let
         "quilt-1.21.11" = _1O4z4iPC;
         "quilt-26.1.2" = _FjJqTbas;
         "quilt-26.2" = _aFdUoUCd;
+        "quilt-26.3" = _2GEUQuu3;
         "spigot-1.20.1" = _5NMtjPO0;
         "spigot-1.20" = _gLElVt36;
         "spigot-1.19.4" = _EfApavwR;
@@ -665,6 +676,7 @@ let
         "spigot-1.21.11" = _1O4z4iPC;
         "spigot-26.1.2" = _FjJqTbas;
         "spigot-26.2" = _aFdUoUCd;
+        "spigot-26.3" = _2GEUQuu3;
         "folia-1.20.6" = _KqfToZQ4;
         "folia-1.21" = _3nFZqu2w;
         "folia-1.21.1" = _Z2GbpQcE;
@@ -678,6 +690,7 @@ let
         "folia-1.21.11" = _1O4z4iPC;
         "folia-26.1.2" = _FjJqTbas;
         "folia-26.2" = _aFdUoUCd;
+        "folia-26.3" = _2GEUQuu3;
         "pkg-1.20.1-SNAPSHOT" = _5NMtjPO0;
         "pkg-1.20-SNAPSHOT" = _gLElVt36;
         "pkg-1.19.4-SNAPSHOT" = _EfApavwR;
@@ -767,7 +780,8 @@ let
         "pkg-26.2-554" = _2BipH1Kz;
         "pkg-26.2-555" = _r9x0W3ZW;
         "pkg-26.2-556" = _aFdUoUCd;
-        "default" = _aFdUoUCd;
+        "pkg-26.3-557" = _2GEUQuu3;
+        "default" = _2GEUQuu3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pl3xmap";

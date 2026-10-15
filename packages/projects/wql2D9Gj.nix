@@ -561,6 +561,21 @@ let
             "file" = "overlaytweaks-2.0.1+1.8.9-fabric.jar";
             "hash" = "sha512-oT2GKT8/AHI40z66Ujepnfw4weGsbO2z8vlsSY2YDZLkP73cCfrPLFUP8Ge/JgIA2toZ1cYUpYVAXkdx5/nsjQ==";
         };
+        _tcaFcydQ = {
+            "id" = "tcaFcydQ";
+            "file" = "overlaytweaks-2.0.2+26.1-fabric.jar";
+            "hash" = "sha512-vYgRoWjfLHWRNxViz+SoBkbqed1K5hNonR8NVpzrLDgNePjFKxsPqa0kY+bgXo+kJmMA5ZJ5IHr0Bm+IT3kIuw==";
+        };
+        _ioRzs4Et = {
+            "id" = "ioRzs4Et";
+            "file" = "overlaytweaks-2.0.2+26.2-fabric.jar";
+            "hash" = "sha512-DzGSO+oxwK9YABmvXH8txO0JAXR9Tq5ueL+8iNuIK3tcJ6JMU5nbdU6+LPlXyiPvku4fe0VfwLS40Vu/IF1zUA==";
+        };
+        _oQ7Dzhez = {
+            "id" = "oQ7Dzhez";
+            "file" = "overlaytweaks-2.0.2+26.3-fabric.jar";
+            "hash" = "sha512-1f8dUfzaYdcunjea0JCUzAX3ZEbIBo3AX2Uc/Ax6sx+Y78Be8ZGrMKXpQsC+7zTbxvelz/CvaoQtB369Boy8GA==";
+        };
     in {
         "L7w9qQAM" = _L7w9qQAM;
         "flV2OfCE" = _flV2OfCE;
@@ -674,6 +689,9 @@ let
         "MUjUnbvD" = _MUjUnbvD;
         "IRltw5NB" = _IRltw5NB;
         "Ux9YRGsA" = _Ux9YRGsA;
+        "tcaFcydQ" = _tcaFcydQ;
+        "ioRzs4Et" = _ioRzs4Et;
+        "oQ7Dzhez" = _oQ7Dzhez;
         "fabric-1.20" = _Ji1T2nDr;
         "fabric-1.20.1" = _Ji1T2nDr;
         "fabric-1.19.4" = _BABL65wU;
@@ -691,11 +709,11 @@ let
         "fabric-1.21.8" = _EeVWox7E;
         "fabric-1.21.10" = _EzUKKoPG;
         "fabric-1.21.11" = _d8cyMHwH;
-        "fabric-26.1" = _WcQvgPKt;
-        "fabric-26.1.1" = _WcQvgPKt;
-        "fabric-26.1.2" = _WcQvgPKt;
-        "fabric-26.2" = _MUjUnbvD;
-        "fabric-26.3" = _IRltw5NB;
+        "fabric-26.1" = _tcaFcydQ;
+        "fabric-26.1.1" = _tcaFcydQ;
+        "fabric-26.1.2" = _tcaFcydQ;
+        "fabric-26.2" = _ioRzs4Et;
+        "fabric-26.3" = _oQ7Dzhez;
         "neoforge-1.21.2" = _6jlNZxKJ;
         "neoforge-1.21.3" = _6jlNZxKJ;
         "neoforge-1.21.4" = _esjQ7lUT;
@@ -766,7 +784,8 @@ let
         "pkg-1.12.15" = _xbF41DAX;
         "pkg-2.0.0" = _MUjUnbvD;
         "pkg-2.0.1" = _Ux9YRGsA;
-        "default" = _Ux9YRGsA;
+        "pkg-2.0.2" = _oQ7Dzhez;
+        "default" = _oQ7Dzhez;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "overlaytweaks";

@@ -111,6 +111,11 @@ let
             "file" = "iwcompatbridge-26.3-1.17.0.jar";
             "hash" = "sha512-5RZlLHV59DSh1Db4lMmIS8Q8m+9t196I0vyxuxka/b6BTFDE3oF4PzHohUV4dsLdcUkKWziwb2mJjY3lU8m5CQ==";
         };
+        _9YzSTSmx = {
+            "id" = "9YzSTSmx";
+            "file" = "iwcompatbridge-26.3-1.17.1.jar";
+            "hash" = "sha512-FUdLHd9DqnxLYIonU5sOepnCn7gY3IhYFxS6JyUAuh0WlyvQQ7QQVSLUh6Rh5FGUYQfDzjXhUDHBfZt7svBlmw==";
+        };
     in {
         "acd6hao8" = _acd6hao8;
         "2k8QDnii" = _2k8QDnii;
@@ -134,6 +139,7 @@ let
         "3VnkgjsQ" = _3VnkgjsQ;
         "QVkpZtYV" = _QVkpZtYV;
         "fn8TupUm" = _fn8TupUm;
+        "9YzSTSmx" = _9YzSTSmx;
         "forge-1.20.1" = _L1qV2hCB;
         "neoforge-1.20.1" = _L1qV2hCB;
         "neoforge-1.20.2" = _vdSTXyhb;
@@ -144,7 +150,7 @@ let
         "neoforge-1.21.11" = _N3r2H7fu;
         "neoforge-26.1.2" = _3VnkgjsQ;
         "neoforge-26.2" = _QVkpZtYV;
-        "neoforge-26.3" = _fn8TupUm;
+        "neoforge-26.3" = _9YzSTSmx;
         "pkg-1.20.1-1.5.0" = _acd6hao8;
         "pkg-v1.5.1" = _2k8QDnii;
         "pkg-v1.6.0" = _i6mEWNfh;
@@ -167,7 +173,8 @@ let
         "pkg-v1.15.0" = _3VnkgjsQ;
         "pkg-v1.16.0" = _QVkpZtYV;
         "pkg-v1.17.0" = _fn8TupUm;
-        "default" = _fn8TupUm;
+        "pkg-v1.17.1" = _9YzSTSmx;
+        "default" = _9YzSTSmx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immersive-weapons-compatibility-bridge";

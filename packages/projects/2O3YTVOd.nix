@@ -136,6 +136,11 @@ let
             "file" = "carpet-extra-extras-26.3-1.4.2.jar";
             "hash" = "sha512-MgUQYKbtSI4U0l8w8gkhUngIHs3mUvG99jjorne3rH9rX3XXG7uvMpBC3afc3McWVGolbzuxCV9dLsqJNo1tnA==";
         };
+        _qTP1zKGB = {
+            "id" = "qTP1zKGB";
+            "file" = "carpet-extra-extras-26.3-1.5.0.jar";
+            "hash" = "sha512-joUU2BwsfK78M6r6o48G/vxYeujMS4K/Ii0Ytbxb0FasHHOwhUYL5X3c3aR+flS6zBDbyqF1UzuIG167qY492g==";
+        };
     in {
         "rdK6WwGh" = _rdK6WwGh;
         "iZJtgy7n" = _iZJtgy7n;
@@ -164,6 +169,7 @@ let
         "BzVOEx8C" = _BzVOEx8C;
         "PT74plaL" = _PT74plaL;
         "GDVe59DM" = _GDVe59DM;
+        "qTP1zKGB" = _qTP1zKGB;
         "fabric-1.21" = _rdK6WwGh;
         "fabric-1.21.1" = _rdK6WwGh;
         "fabric-1.21.2" = _cmmwictd;
@@ -179,8 +185,8 @@ let
         "fabric-26.1" = _BzVOEx8C;
         "fabric-26.1.1" = _BzVOEx8C;
         "fabric-26.1.2" = _BzVOEx8C;
-        "fabric-26.2" = _GDVe59DM;
-        "fabric-26.3" = _GDVe59DM;
+        "fabric-26.2" = _qTP1zKGB;
+        "fabric-26.3" = _qTP1zKGB;
         "pkg-1.21-a1.0.1" = _rdK6WwGh;
         "pkg-1.21.2-b1.0.0" = _iZJtgy7n;
         "pkg-1.21.2-b1.0.1" = _zYK6t60L;
@@ -208,7 +214,8 @@ let
         "pkg-26.1-1.4.1" = _BzVOEx8C;
         "pkg-26.2-1.4.1" = _PT74plaL;
         "pkg-26.3-1.4.2" = _GDVe59DM;
-        "default" = _GDVe59DM;
+        "pkg-26.3-1.5.0" = _qTP1zKGB;
+        "default" = _qTP1zKGB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "carpet-extra-extras";

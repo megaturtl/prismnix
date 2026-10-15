@@ -81,6 +81,26 @@ let
             "file" = "refinedwirelessupgrades-fabric-26.1.2-3.0.0.jar";
             "hash" = "sha512-UZL9uL3a17Eh47zhHh5DjykKWwwXRG6XrE+KgFf6tUiiXUREfJ71CrTU8JekOt8sSM1boXJRnNGCKw09CPJgUg==";
         };
+        _JxEZJJyM = {
+            "id" = "JxEZJJyM";
+            "file" = "refinedwirelessupgrades-neoforge-26.1.2-3.0.1.jar";
+            "hash" = "sha512-7SnZwcUkKIRyJhS3rvifkbIBe8Z/3YgryP9d9WwPRDE8n+/tcy2L1YKnSgdQ9poxfqbqzz5YKBzMJGt3tTFe4w==";
+        };
+        _8PxZ95RS = {
+            "id" = "8PxZ95RS";
+            "file" = "refinedwirelessupgrades-fabric-26.1.2-3.0.1.jar";
+            "hash" = "sha512-128O75rw7tNzPvBuVYM2Cq6OeGjBjj0PyUAaqwA2OkSlzS0jV9b8DjqrIxoC6eM/illZIMPUfSV8E4ulCY26ew==";
+        };
+        _a0eLLuGg = {
+            "id" = "a0eLLuGg";
+            "file" = "refinedwirelessupgrades-neoforge-1.21.1-2.1.3.jar";
+            "hash" = "sha512-RuVeZluko79gv4I5Gu8r92rS7bGUgDzOntSrr0/C0s2jSxMrQ3G9MUOQ/rk/zi8KSn7cfHlkK0JI1oCoahnGXQ==";
+        };
+        _jS1sSUa5 = {
+            "id" = "jS1sSUa5";
+            "file" = "refinedwirelessupgrades-fabric-1.21.1-2.1.3.jar";
+            "hash" = "sha512-VOUBpZ6csGZZL062dDFx3ssbcSZ1rFZPDhUJdXJnQGryDMZCoQ5vFZYqMZvNDnoor/AFJobbNu439J4Zw3h0+Q==";
+        };
     in {
         "znh9R1iV" = _znh9R1iV;
         "3f0YXrt9" = _3f0YXrt9;
@@ -98,11 +118,15 @@ let
         "JDKac0zG" = _JDKac0zG;
         "gU8EH0Sr" = _gU8EH0Sr;
         "hfglzilt" = _hfglzilt;
+        "JxEZJJyM" = _JxEZJJyM;
+        "8PxZ95RS" = _8PxZ95RS;
+        "a0eLLuGg" = _a0eLLuGg;
+        "jS1sSUa5" = _jS1sSUa5;
         "forge-1.20.1" = _aKncGrVU;
-        "neoforge-1.21.1" = _pUga5RPj;
-        "neoforge-26.1.2" = _gU8EH0Sr;
-        "fabric-1.21.1" = _JDKac0zG;
-        "fabric-26.1.2" = _hfglzilt;
+        "neoforge-1.21.1" = _a0eLLuGg;
+        "neoforge-26.1.2" = _JxEZJJyM;
+        "fabric-1.21.1" = _jS1sSUa5;
+        "fabric-26.1.2" = _8PxZ95RS;
         "pkg-1.20.1-1.2" = _znh9R1iV;
         "pkg-1.20.1-1.3" = _3f0YXrt9;
         "pkg-1.20.1-1.3.1" = _vm9Exg2l;
@@ -112,7 +136,9 @@ let
         "pkg-0.0.0" = _hfglzilt;
         "pkg-1.21.1-2.1.1" = _vRJnlRQE;
         "pkg-1.21.1-2.1.2" = _JDKac0zG;
-        "default" = _hfglzilt;
+        "pkg-26.1.2-3.0.1" = _8PxZ95RS;
+        "pkg-1.21.1-2.1.3" = _jS1sSUa5;
+        "default" = _jS1sSUa5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rs-insert-export-upgrade";

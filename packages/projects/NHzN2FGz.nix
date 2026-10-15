@@ -811,6 +811,21 @@ let
             "file" = "rearm-fabric-2.5.7+26.3.jar";
             "hash" = "sha512-ZYqpwtdH0B2qxqgMZlFfAYfX6ohlnBPECVIE+L4jiuXLCb8K/pkgW1l5K9s0aamPrWcTtVGiBV7SfAuS2HoVnQ==";
         };
+        _wPxWFqES = {
+            "id" = "wPxWFqES";
+            "file" = "rearm-fabric-2.5.8+26.1.2.jar";
+            "hash" = "sha512-kDoiVzWrR4A2ytdfNIjp2UlKYo//xD11o8GOTbka/O84DrFPIbmTgY0SGLScxpC/j+VkA4OYQlJ1/UvhygaV3A==";
+        };
+        _i4pE33r9 = {
+            "id" = "i4pE33r9";
+            "file" = "rearm-fabric-2.5.8+26.2.jar";
+            "hash" = "sha512-quPe0qBsy0fMhGICNzmwk6q9eoKJcpYZS7oa5RqVNSQ+J7WAGX90WQMrfvSgLUU9d8UInlP5OwFDkpxNfkbTRA==";
+        };
+        _2Q0WFtRF = {
+            "id" = "2Q0WFtRF";
+            "file" = "rearm-fabric-2.5.8+26.3.jar";
+            "hash" = "sha512-tQkbQLG/h0ruCjVUqulVmHLGRZ3UjLDQJplJffFN3OP64x6xEu59mMkuL4+wyKWiGRQt2MxjiifXvKNAPKLJ1w==";
+        };
     in {
         "zaeXZAU1" = _zaeXZAU1;
         "ks9C1Yk4" = _ks9C1Yk4;
@@ -974,17 +989,20 @@ let
         "1dtxFQSy" = _1dtxFQSy;
         "ZTfD3jWw" = _ZTfD3jWw;
         "NlCc2JoZ" = _NlCc2JoZ;
+        "wPxWFqES" = _wPxWFqES;
+        "i4pE33r9" = _i4pE33r9;
+        "2Q0WFtRF" = _2Q0WFtRF;
         "fabric-1.21.1" = _ANlusGnh;
         "fabric-1.21.7" = _rArTwJHu;
         "fabric-1.21.8" = _7iqRUMkT;
         "fabric-1.21.10" = _w1zcKxf5;
         "fabric-1.21.11" = _fQj9JvT2;
-        "fabric-26.1" = _ZTfD3jWw;
-        "fabric-26.1.1" = _ZTfD3jWw;
-        "fabric-26.1.2" = _ZTfD3jWw;
-        "fabric-26.2" = _1dtxFQSy;
+        "fabric-26.1" = _wPxWFqES;
+        "fabric-26.1.1" = _wPxWFqES;
+        "fabric-26.1.2" = _wPxWFqES;
+        "fabric-26.2" = _i4pE33r9;
         "fabric-1.21" = _ANlusGnh;
-        "fabric-26.3" = _NlCc2JoZ;
+        "fabric-26.3" = _2Q0WFtRF;
         "neoforge-1.21.1" = _SLgdmXi9;
         "neoforge-1.21.8" = _F2TmryKa;
         "neoforge-1.21.10" = _ro4kAPoL;
@@ -1118,7 +1136,10 @@ let
         "pkg-2.5.7+26.1.2" = _ZTfD3jWw;
         "pkg-2.5.7+26.2" = _1dtxFQSy;
         "pkg-2.5.7+26.3" = _NlCc2JoZ;
-        "default" = _NlCc2JoZ;
+        "pkg-2.5.8+26.1.2" = _wPxWFqES;
+        "pkg-2.5.8+26.2" = _i4pE33r9;
+        "pkg-2.5.8+26.3" = _2Q0WFtRF;
+        "default" = _2Q0WFtRF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rearm";

@@ -106,6 +106,11 @@ let
             "file" = "inferno-fabric-26.3-r1.jar";
             "hash" = "sha512-qJIe2JmxVnPACV13RDOKr6rZnh+P9oQGARgd59g7yJXyjyctjKF2X8QkgqC5D8VbbA603ldxlUs5ub/7HqoaqQ==";
         };
+        _EOGGuy4c = {
+            "id" = "EOGGuy4c";
+            "file" = "inferno-neoforge-26.2-r3.jar";
+            "hash" = "sha512-dosEcYc9aKJShTNuWBe167C2ENsbD+1kEnWkbKpM/cmn0JCE/I5pgg0aLo+kfco4+xtopRhwfhMesn95SlxH0g==";
+        };
     in {
         "sDo0gweT" = _sDo0gweT;
         "wKGFyZZ3" = _wKGFyZZ3;
@@ -128,6 +133,7 @@ let
         "r1Rmek1Q" = _r1Rmek1Q;
         "b5FvNZ5G" = _b5FvNZ5G;
         "VP7Dlhrg" = _VP7Dlhrg;
+        "EOGGuy4c" = _EOGGuy4c;
         "fabric-1.21.5" = _wKGFyZZ3;
         "fabric-1.21.6" = _jPxuDsgh;
         "fabric-1.21.7" = _jPxuDsgh;
@@ -154,6 +160,7 @@ let
         "neoforge-26.1" = _b5FvNZ5G;
         "neoforge-26.1.1" = _b5FvNZ5G;
         "neoforge-26.1.2" = _b5FvNZ5G;
+        "neoforge-26.2" = _EOGGuy4c;
         "pkg-1.21.5-r1" = _sDo0gweT;
         "pkg-1.21.5-r2" = _wKGFyZZ3;
         "pkg-1.21.6-r1" = _jPxuDsgh;
@@ -170,10 +177,10 @@ let
         "pkg-26.2-r1" = _wZcDbt5p;
         "pkg-26.1-r2" = _iQ16NHxJ;
         "pkg-26.2-r2" = _QLUXRkN9;
-        "pkg-26.2-r3" = _fx9UQA9x;
+        "pkg-26.2-r3" = _EOGGuy4c;
         "pkg-26.1-r3" = _b5FvNZ5G;
         "pkg-26.3-r1" = _VP7Dlhrg;
-        "default" = _VP7Dlhrg;
+        "default" = _EOGGuy4c;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "inferno";

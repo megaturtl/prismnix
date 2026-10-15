@@ -66,6 +66,11 @@ let
             "file" = "clickopener-1.0.6+26.2.jar";
             "hash" = "sha512-OTfy+epw2sOWSgTWVZhJabILwIkhQctm+EufKgRlIp82D4eP7Ia6j0WjktdXAk2E635xLIHsRiFV2DBeQnvMfw==";
         };
+        _Vpje9KMJ = {
+            "id" = "Vpje9KMJ";
+            "file" = "clickopener-1.0.6+26.3.jar";
+            "hash" = "sha512-IGGRcUngsIHVRQyr6oT4tnkLkO8mKpX9IygmbDZ1OMkhRkTx+KcCbGvpJKSUMBhSkxX5WNz0M9n3Z65GW+g3AQ==";
+        };
     in {
         "jadA1Di4" = _jadA1Di4;
         "Y1pRcS9i" = _Y1pRcS9i;
@@ -80,6 +85,7 @@ let
         "T8godoZK" = _T8godoZK;
         "aeCUlG62" = _aeCUlG62;
         "rvBKcSHi" = _rvBKcSHi;
+        "Vpje9KMJ" = _Vpje9KMJ;
         "fabric-1.21" = _jadA1Di4;
         "fabric-1.21.1" = _jadA1Di4;
         "fabric-1.21.2" = _Y1pRcS9i;
@@ -96,6 +102,7 @@ let
         "fabric-26.1.1" = _aeCUlG62;
         "fabric-26.1.2" = _aeCUlG62;
         "fabric-26.2" = _rvBKcSHi;
+        "fabric-26.3" = _Vpje9KMJ;
         "pkg-1.0.0" = _jadA1Di4;
         "pkg-1.0.2+1.21.3" = _Y1pRcS9i;
         "pkg-1.0.2+1.21.4" = _EHZps2mt;
@@ -109,7 +116,8 @@ let
         "pkg-1.0.5+26.1" = _T8godoZK;
         "pkg-1.0.6+26.1" = _aeCUlG62;
         "pkg-1.0.6+26.2" = _rvBKcSHi;
-        "default" = _rvBKcSHi;
+        "pkg-1.0.6+26.3" = _Vpje9KMJ;
+        "default" = _Vpje9KMJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "click-opener-continued";

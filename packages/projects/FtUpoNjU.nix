@@ -71,6 +71,11 @@ let
             "file" = "TABs Resourcepack.zip";
             "hash" = "sha512-GN3W9RbeiirT758aE+xDtuZmCEnjMh1RZnsEXfCCbBB0NFRegUTAiPpFDyHAUC1TLCPGekiC4XjUTXbt3AXsFg==";
         };
+        _nflwejIL = {
+            "id" = "nflwejIL";
+            "file" = "TABs Resourcepack.zip";
+            "hash" = "sha512-6stkYQcgXlSUk52qEY8lvHG0p7fwB8y9rLudbxh5cKOlzfYcWv1KsytVhq9poQbKCGf6u/BGgLUcuVggJbAg3Q==";
+        };
     in {
         "piJJzuSQ" = _piJJzuSQ;
         "WdHQfObJ" = _WdHQfObJ;
@@ -86,14 +91,16 @@ let
         "5L7FCMDA" = _5L7FCMDA;
         "bJXeCrqq" = _bJXeCrqq;
         "KGHGDdy1" = _KGHGDdy1;
+        "nflwejIL" = _nflwejIL;
         "minecraft-1.21.7" = _WdHQfObJ;
         "minecraft-1.21.9" = _AD2cAK4J;
         "minecraft-1.21.10" = _ozHcLAVl;
         "minecraft-1.21.11" = _szbG68Kp;
-        "minecraft-26.1" = _bJXeCrqq;
-        "minecraft-26.1.1" = _bJXeCrqq;
-        "minecraft-26.1.2" = _bJXeCrqq;
-        "minecraft-26.2" = _KGHGDdy1;
+        "minecraft-26.1" = _nflwejIL;
+        "minecraft-26.1.1" = _nflwejIL;
+        "minecraft-26.1.2" = _nflwejIL;
+        "minecraft-26.2" = _nflwejIL;
+        "minecraft-26.3" = _nflwejIL;
         "pkg-1.0.0" = _piJJzuSQ;
         "pkg-1.1.0" = _WdHQfObJ;
         "pkg-1.2.0" = _AD2cAK4J;
@@ -108,7 +115,8 @@ let
         "pkg-1.4.0" = _5L7FCMDA;
         "pkg-1.4.1" = _bJXeCrqq;
         "pkg-1.5.0" = _KGHGDdy1;
-        "default" = _KGHGDdy1;
+        "pkg-1.6.0" = _nflwejIL;
+        "default" = _nflwejIL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tabsmp-resource-pack";

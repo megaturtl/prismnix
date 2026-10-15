@@ -11,15 +11,23 @@ let
             "file" = "BetterHurtCam-1.14.0+mc1.8.9-ornithe.jar";
             "hash" = "sha512-hAh/1B0KYH0keJEki0yvnEagEqShexZPFG3RChol0f2iDpXGEm6PYTt2m4eU4buWF5YwVCFd7ocDt0QZuaAK0w==";
         };
+        _FjmrNepK = {
+            "id" = "FjmrNepK";
+            "file" = "BetterHurtCam-1.15.1+mc1.8.9-ornithe.jar";
+            "hash" = "sha512-DxF7njr7JojYF5RtfMBQs6e+BT+LlNEW/8lSD86HpMc8NymE0xgaIsPCktqWObIqf/h07BhyIGF+DcSdpg9/Tg==";
+        };
     in {
         "g4aoBppG" = _g4aoBppG;
         "fLqilvkF" = _fLqilvkF;
+        "FjmrNepK" = _FjmrNepK;
         "forge-1.8.9" = _g4aoBppG;
         "forge-1.12.2" = _g4aoBppG;
         "legacy-fabric-1.8.9" = _fLqilvkF;
+        "ornithe-1.8.9" = _FjmrNepK;
         "pkg-2.2.0" = _g4aoBppG;
         "pkg-1.14.0" = _fLqilvkF;
-        "default" = _fLqilvkF;
+        "pkg-1.15.1+mc1.8.9-ornithe" = _FjmrNepK;
+        "default" = _FjmrNepK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "forge-betterhurtcam";

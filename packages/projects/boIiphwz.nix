@@ -21,22 +21,30 @@ let
             "file" = "hardcore-revive-2.0.0-26.2.jar";
             "hash" = "sha512-CiU+z9lwYxYBL6E7kvTwq9LYACvgKilH3XbC/nHW4LYVypiaBAbj7COp1/K6ex7j3bcP0qHC0CHW7LYkRY4f8A==";
         };
+        _W1TQP6e5 = {
+            "id" = "W1TQP6e5";
+            "file" = "hardcore-revive-2.0.0-26.3.jar";
+            "hash" = "sha512-FLT4L+e9AiA90f0HmPVlzF5PZnMp22bOe82W55GNOWwbG0MvjWkaSXBI3O37IjvmCHzi1HMzoF6l4yv5o31D+w==";
+        };
     in {
         "O01tDB2C" = _O01tDB2C;
         "TH0I1nqc" = _TH0I1nqc;
         "4i4aPXy8" = _4i4aPXy8;
         "rLER34ex" = _rLER34ex;
+        "W1TQP6e5" = _W1TQP6e5;
         "fabric-1.21.10" = _O01tDB2C;
         "fabric-1.21.11" = _TH0I1nqc;
         "fabric-26.1" = _4i4aPXy8;
         "fabric-26.1.1" = _4i4aPXy8;
         "fabric-26.1.2" = _4i4aPXy8;
         "fabric-26.2" = _rLER34ex;
+        "fabric-26.3" = _W1TQP6e5;
         "pkg-1.2.1-1.21.10" = _O01tDB2C;
         "pkg-1.2.1-1.21.11" = _TH0I1nqc;
         "pkg-26.1.x" = _4i4aPXy8;
         "pkg-26.2" = _rLER34ex;
-        "default" = _rLER34ex;
+        "pkg-26.3" = _W1TQP6e5;
+        "default" = _W1TQP6e5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "(fake)-hardcore";

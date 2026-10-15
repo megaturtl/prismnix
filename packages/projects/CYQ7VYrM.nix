@@ -376,6 +376,16 @@ let
             "file" = "ToadLib-1.5.2-26.3-neo.jar";
             "hash" = "sha512-UbMoFXRobdzUJ+LWOmlNg3T+gyZNcE4XoNf8uCMv6/TLCIsGckTD23oxGUAtMhPF4l4OokpgKmrUQk80QR9F+Q==";
         };
+        _uwd9qFDK = {
+            "id" = "uwd9qFDK";
+            "file" = "ToadLib-1.5.3-26.3-fabric.jar";
+            "hash" = "sha512-uyGOVTdtWwaXql98i4ZKbVaxHRhoJTCd97VFs+QhaDgpOlxwDdS1ooNco9tGKvokfXImbk00rgQz5gaxHHvrVw==";
+        };
+        _Za6HlBtO = {
+            "id" = "Za6HlBtO";
+            "file" = "ToadLib-1.5.3-26.3-neo.jar";
+            "hash" = "sha512-4S4sYhzII+XXkDo0/05bz6Vb0BMLYuiCYtrRvP2PaQUg+0VtGMuOkgx0Z04SVorBi7hMxEAB+c5ZT/tNIuF7zA==";
+        };
     in {
         "xuHVA4G7" = _xuHVA4G7;
         "nAiwfu2E" = _nAiwfu2E;
@@ -452,6 +462,8 @@ let
         "wwzXBuVD" = _wwzXBuVD;
         "vgv1SzFq" = _vgv1SzFq;
         "uZBG3NEZ" = _uZBG3NEZ;
+        "uwd9qFDK" = _uwd9qFDK;
+        "Za6HlBtO" = _Za6HlBtO;
         "forge-1.19.4" = _t5emrqsG;
         "forge-1.20" = _C8Nh7OYF;
         "forge-1.20.1" = _GRklnAqI;
@@ -482,7 +494,7 @@ let
         "fabric-26.1.1" = _yCxROKfw;
         "fabric-26.1.2" = _yCxROKfw;
         "fabric-26.2" = _wwzXBuVD;
-        "fabric-26.3" = _vgv1SzFq;
+        "fabric-26.3" = _uwd9qFDK;
         "quilt-1.20" = _xAoUP27h;
         "quilt-1.20.1" = _xAoUP27h;
         "quilt-1.20.2" = _g99Doc4p;
@@ -514,7 +526,7 @@ let
         "neoforge-1.21.3" = _qQcmQcSD;
         "neoforge-1.20" = _C8Nh7OYF;
         "neoforge-1.21.4" = _qQcmQcSD;
-        "neoforge-26.3" = _uZBG3NEZ;
+        "neoforge-26.3" = _Za6HlBtO;
         "pkg-1.0.1" = _nAiwfu2E;
         "pkg-1.0.2" = _cj7wUU8G;
         "pkg-1.0.3" = _8zaBXRSq;
@@ -585,8 +597,9 @@ let
         "pkg-1.5.0-26.1x-fabric" = _yCxROKfw;
         "pkg-1.5.1-26.2-fabric" = _wwzXBuVD;
         "pkg-1.5.2-26.3-fabric" = _vgv1SzFq;
-        "pkg-1.5.2-26.3-neo" = _uZBG3NEZ;
-        "default" = _uZBG3NEZ;
+        "pkg-1.5.2-26.3-neo" = _Za6HlBtO;
+        "pkg-1.5.3-26.3-fabric" = _uwd9qFDK;
+        "default" = _Za6HlBtO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "toadlib";

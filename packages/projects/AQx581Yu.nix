@@ -1,0 +1,117 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _T4icUbHe = {
+            "id" = "T4icUbHe";
+            "file" = "enchant-table-decoration-v1.0.0.zip";
+            "hash" = "sha512-2oyqOYJX+LKb/higuSlAz1UXqFkohphArK+Vqvw2NBQ0eMRkQKfs+0T6CehxO6ih+adGOmwKjBJxcRr9jJ4p1g==";
+        };
+        _NXqveaxw = {
+            "id" = "NXqveaxw";
+            "file" = "enchant-table-decoration-1.0.0.jar";
+            "hash" = "sha512-abZ3UbGuDOFwzyhhcG77aM/a+uETA0NtADWIhKD93OJ4TBNnwyQWxn53D7U7Pp7ZdDzbHIhn6xTDi5ITBXQj1w==";
+        };
+    in {
+        "T4icUbHe" = _T4icUbHe;
+        "NXqveaxw" = _NXqveaxw;
+        "datapack-1.21" = _T4icUbHe;
+        "datapack-1.21.1" = _T4icUbHe;
+        "datapack-1.21.2" = _T4icUbHe;
+        "datapack-1.21.3" = _T4icUbHe;
+        "datapack-1.21.4" = _T4icUbHe;
+        "datapack-1.21.5" = _T4icUbHe;
+        "datapack-1.21.6" = _T4icUbHe;
+        "datapack-1.21.7" = _T4icUbHe;
+        "datapack-1.21.8" = _T4icUbHe;
+        "datapack-1.21.9" = _T4icUbHe;
+        "datapack-1.21.10" = _T4icUbHe;
+        "datapack-1.21.11" = _T4icUbHe;
+        "datapack-26.1" = _T4icUbHe;
+        "datapack-26.1.1" = _T4icUbHe;
+        "datapack-26.1.2" = _T4icUbHe;
+        "datapack-26.2" = _T4icUbHe;
+        "fabric-1.21" = _NXqveaxw;
+        "fabric-1.21.1" = _NXqveaxw;
+        "fabric-1.21.2" = _NXqveaxw;
+        "fabric-1.21.3" = _NXqveaxw;
+        "fabric-1.21.4" = _NXqveaxw;
+        "fabric-1.21.5" = _NXqveaxw;
+        "fabric-1.21.6" = _NXqveaxw;
+        "fabric-1.21.7" = _NXqveaxw;
+        "fabric-1.21.8" = _NXqveaxw;
+        "fabric-1.21.9" = _NXqveaxw;
+        "fabric-1.21.10" = _NXqveaxw;
+        "fabric-1.21.11" = _NXqveaxw;
+        "fabric-26.1" = _NXqveaxw;
+        "fabric-26.1.1" = _NXqveaxw;
+        "fabric-26.1.2" = _NXqveaxw;
+        "fabric-26.2" = _NXqveaxw;
+        "forge-1.21" = _NXqveaxw;
+        "forge-1.21.1" = _NXqveaxw;
+        "forge-1.21.2" = _NXqveaxw;
+        "forge-1.21.3" = _NXqveaxw;
+        "forge-1.21.4" = _NXqveaxw;
+        "forge-1.21.5" = _NXqveaxw;
+        "forge-1.21.6" = _NXqveaxw;
+        "forge-1.21.7" = _NXqveaxw;
+        "forge-1.21.8" = _NXqveaxw;
+        "forge-1.21.9" = _NXqveaxw;
+        "forge-1.21.10" = _NXqveaxw;
+        "forge-1.21.11" = _NXqveaxw;
+        "forge-26.1" = _NXqveaxw;
+        "forge-26.1.1" = _NXqveaxw;
+        "forge-26.1.2" = _NXqveaxw;
+        "forge-26.2" = _NXqveaxw;
+        "neoforge-1.21" = _NXqveaxw;
+        "neoforge-1.21.1" = _NXqveaxw;
+        "neoforge-1.21.2" = _NXqveaxw;
+        "neoforge-1.21.3" = _NXqveaxw;
+        "neoforge-1.21.4" = _NXqveaxw;
+        "neoforge-1.21.5" = _NXqveaxw;
+        "neoforge-1.21.6" = _NXqveaxw;
+        "neoforge-1.21.7" = _NXqveaxw;
+        "neoforge-1.21.8" = _NXqveaxw;
+        "neoforge-1.21.9" = _NXqveaxw;
+        "neoforge-1.21.10" = _NXqveaxw;
+        "neoforge-1.21.11" = _NXqveaxw;
+        "neoforge-26.1" = _NXqveaxw;
+        "neoforge-26.1.1" = _NXqveaxw;
+        "neoforge-26.1.2" = _NXqveaxw;
+        "neoforge-26.2" = _NXqveaxw;
+        "quilt-1.21" = _NXqveaxw;
+        "quilt-1.21.1" = _NXqveaxw;
+        "quilt-1.21.2" = _NXqveaxw;
+        "quilt-1.21.3" = _NXqveaxw;
+        "quilt-1.21.4" = _NXqveaxw;
+        "quilt-1.21.5" = _NXqveaxw;
+        "quilt-1.21.6" = _NXqveaxw;
+        "quilt-1.21.7" = _NXqveaxw;
+        "quilt-1.21.8" = _NXqveaxw;
+        "quilt-1.21.9" = _NXqveaxw;
+        "quilt-1.21.10" = _NXqveaxw;
+        "quilt-1.21.11" = _NXqveaxw;
+        "quilt-26.1" = _NXqveaxw;
+        "quilt-26.1.1" = _NXqveaxw;
+        "quilt-26.1.2" = _NXqveaxw;
+        "quilt-26.2" = _NXqveaxw;
+        "pkg-1.0.0" = _T4icUbHe;
+        "pkg-1.0.0+mod" = _NXqveaxw;
+        "default" = _NXqveaxw;
+    });
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "enchant-table-decoration";
+        id = "AQx581Yu";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-SA-4.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Creative Commons Attribution Non Commercial Share Alike 4.0 International";
+                shortName = "CC-BY-NC-SA-4.0";
+                url = null;
+            };
+        };
+    };
+in callPackage fn {}

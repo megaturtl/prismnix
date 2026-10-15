@@ -21,17 +21,24 @@ let
             "file" = "cc_compat-1.2.1.jar";
             "hash" = "sha512-ySDawrEofH7UG8TqLJrye+hRA8lWsBImAGZFUCugYW5PuTVGdyM/9/jvqGnshULUJ22t0JI22gVop6UeNqWLGg==";
         };
+        _rmzRFzKw = {
+            "id" = "rmzRFzKw";
+            "file" = "cc_compat-1.3.0.jar";
+            "hash" = "sha512-Lgg/dquUOBZvP8uBuoruDPBzMmDW7Bq2Ilk1EXFOT3wzuYEKDU7C2yVPlwUcAzoLKGIoWyVpGQ2tsLhCk16+dA==";
+        };
     in {
         "dpv4oQzB" = _dpv4oQzB;
         "5UMikTzP" = _5UMikTzP;
         "PNL2pPxu" = _PNL2pPxu;
         "4mwrtNNh" = _4mwrtNNh;
-        "forge-1.20.1" = _4mwrtNNh;
+        "rmzRFzKw" = _rmzRFzKw;
+        "forge-1.20.1" = _rmzRFzKw;
         "pkg-1.0.0" = _dpv4oQzB;
         "pkg-1.1.0" = _5UMikTzP;
         "pkg-1.2.0" = _PNL2pPxu;
         "pkg-1.2.1" = _4mwrtNNh;
-        "default" = _4mwrtNNh;
+        "pkg-1.3.0" = _rmzRFzKw;
+        "default" = _rmzRFzKw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "caverns-chasms-ingot-compat";

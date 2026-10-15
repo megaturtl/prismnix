@@ -66,6 +66,11 @@ let
             "file" = "commissionhud-2.0.7.jar";
             "hash" = "sha512-7S7a0AI13yBzZZEuJmA1ZgLyKI81cnOUGUYGHA50GxjPivC9Bibvc3tNkJ6CkVUZdCi0oVHNmLDu7s8JonArcA==";
         };
+        _tZOHLpWJ = {
+            "id" = "tZOHLpWJ";
+            "file" = "commissionhud-2.1.0.jar";
+            "hash" = "sha512-bd03ZoW1GoyWwi2IYb3dTJ4260x3sBUDRFxC7hWzzZAcax4SOyJpSrP/RhzH2iMMtnAOwTO6IlhMf3LGcmDUDw==";
+        };
     in {
         "oXBsvAsC" = _oXBsvAsC;
         "MdZsraYc" = _MdZsraYc;
@@ -80,12 +85,14 @@ let
         "GKn2t3z3" = _GKn2t3z3;
         "iM0xuqWU" = _iM0xuqWU;
         "P57mvGig" = _P57mvGig;
+        "tZOHLpWJ" = _tZOHLpWJ;
         "fabric-1.21.5" = _MdZsraYc;
         "fabric-1.21.8" = _lBWuk7kk;
         "fabric-1.21.10" = _GKn2t3z3;
         "fabric-26.1.2" = _P57mvGig;
         "fabric-26.1" = _P57mvGig;
         "fabric-26.1.1" = _P57mvGig;
+        "fabric-26.2" = _tZOHLpWJ;
         "pkg-1.0.0" = _oXBsvAsC;
         "pkg-1.0.1" = _MdZsraYc;
         "pkg-1.0.0b-1.21.8" = _AuCvrOV6;
@@ -99,7 +106,8 @@ let
         "pkg-2.0.5" = _GKn2t3z3;
         "pkg-2.0.6" = _iM0xuqWU;
         "pkg-2.0.7" = _P57mvGig;
-        "default" = _P57mvGig;
+        "pkg-2.1.0" = _tZOHLpWJ;
+        "default" = _tZOHLpWJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chud";

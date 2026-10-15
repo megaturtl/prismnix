@@ -36,6 +36,16 @@ let
             "file" = "hephaestools-1.41.jar";
             "hash" = "sha512-AbrLjPWcsEFJxZprhcBskw0jaSMNnhxff6X4qsqemYNYzcEylprbNqMoRlqLbfZlVFqZ76rvBFuQZ0xA9s/OIQ==";
         };
+        _ATvs6Gbf = {
+            "id" = "ATvs6Gbf";
+            "file" = "HephaesTools.zip";
+            "hash" = "sha512-pwTfk1+/uZg3eK1XOdaTOMmj2u4q7Xf3RjBrR7CxCM3SWu9RJ/o/kOJHM6Y/NNKOtm1Gufapax8xMum0DYqd5A==";
+        };
+        _BZKb6Ssk = {
+            "id" = "BZKb6Ssk";
+            "file" = "HephaesTools.jar";
+            "hash" = "sha512-eN64FhSqvYFJwiqNo8qR5lzw+ANuLsStbqtCjGySC3KgWzl5vtB7b0X81/45YJozIi5tEd6gLmU5qxLu49yQMg==";
+        };
     in {
         "jbdwHIbk" = _jbdwHIbk;
         "1b2vf3zt" = _1b2vf3zt;
@@ -44,32 +54,40 @@ let
         "L6dIFQAa" = _L6dIFQAa;
         "De7OuAlG" = _De7OuAlG;
         "1A327GTK" = _1A327GTK;
+        "ATvs6Gbf" = _ATvs6Gbf;
+        "BZKb6Ssk" = _BZKb6Ssk;
         "datapack-1.20" = _1b2vf3zt;
         "datapack-1.20.1" = _1b2vf3zt;
         "datapack-1.20.2" = _ZlqizhkS;
         "datapack-1.20.3" = _De7OuAlG;
         "datapack-1.20.4" = _De7OuAlG;
+        "datapack-26.3" = _ATvs6Gbf;
         "fabric-1.20" = _IIE5EnHs;
         "fabric-1.20.1" = _IIE5EnHs;
         "fabric-1.20.2" = _L6dIFQAa;
         "fabric-1.20.3" = _1A327GTK;
         "fabric-1.20.4" = _1A327GTK;
+        "fabric-26.3" = _BZKb6Ssk;
         "forge-1.20" = _IIE5EnHs;
         "forge-1.20.1" = _IIE5EnHs;
         "forge-1.20.2" = _L6dIFQAa;
         "forge-1.20.3" = _1A327GTK;
         "forge-1.20.4" = _1A327GTK;
+        "forge-26.3" = _BZKb6Ssk;
         "quilt-1.20" = _IIE5EnHs;
         "quilt-1.20.1" = _IIE5EnHs;
         "quilt-1.20.2" = _L6dIFQAa;
         "quilt-1.20.3" = _1A327GTK;
         "quilt-1.20.4" = _1A327GTK;
+        "quilt-26.3" = _BZKb6Ssk;
+        "neoforge-26.3" = _BZKb6Ssk;
         "pkg-1.2" = _jbdwHIbk;
         "pkg-1.3" = _1b2vf3zt;
         "pkg-1.3+mod" = _IIE5EnHs;
         "pkg-1.4" = _L6dIFQAa;
         "pkg-1.41" = _1A327GTK;
-        "default" = _1A327GTK;
+        "pkg-1.42" = _BZKb6Ssk;
+        "default" = _BZKb6Ssk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hephaestools";

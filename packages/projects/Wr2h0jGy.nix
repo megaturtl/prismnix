@@ -16,16 +16,23 @@ let
             "file" = "Ceruledge Knight v2.0.zip";
             "hash" = "sha512-CXaiPn9zK3aGeH4auG3k3C3YfZPkyKAbPtm4NcBSZy7pbxCcnMxLoZPzsW0/9AjF4aUVfCgS07ibO95oXqSPJw==";
         };
+        _AqND3DYP = {
+            "id" = "AqND3DYP";
+            "file" = "ShadowCrystalMons v2.5.zip";
+            "hash" = "sha512-aDMUTYImQaWXbiVS4uYbrL+E6rRRLWZg9/AqS1vT86Ou52MnurPDr+H5Cy6qmyHfzMLW1qzDB/enhb9Pidc/Yw==";
+        };
     in {
         "2fuhcfMN" = _2fuhcfMN;
         "yMQNxH7s" = _yMQNxH7s;
         "rh1YlOEu" = _rh1YlOEu;
-        "datapack-1.21.1" = _rh1YlOEu;
-        "minecraft-1.21.1" = _rh1YlOEu;
+        "AqND3DYP" = _AqND3DYP;
+        "datapack-1.21.1" = _AqND3DYP;
+        "minecraft-1.21.1" = _AqND3DYP;
         "pkg-1.0" = _2fuhcfMN;
         "pkg-1.1" = _yMQNxH7s;
         "pkg-2.0" = _rh1YlOEu;
-        "default" = _rh1YlOEu;
+        "pkg-2.5" = _AqND3DYP;
+        "default" = _AqND3DYP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ceruledge-knight";

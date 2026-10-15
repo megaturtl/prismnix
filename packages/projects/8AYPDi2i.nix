@@ -61,6 +61,11 @@ let
             "file" = "diexvdream-2.2.3.jar";
             "hash" = "sha512-D29lDsjF5cqz3JON8iDG76wQg6PV/x/080yHMThY0Xds/lNybncDMWLkm9+xvZ9a/gYFOfKnjQx9Mv5ZCFJjKQ==";
         };
+        _BjLVRBQN = {
+            "id" = "BjLVRBQN";
+            "file" = "diexvdream-2.3.0.jar";
+            "hash" = "sha512-soNlfioYZE2SI06eMgOrhG9a3k1y5uhZJPyNRn9nLyq4TiQvyrhG0EIX6nO0MTxvISf94XMxthp2WfJWzBHpKw==";
+        };
     in {
         "gWJiH6XF" = _gWJiH6XF;
         "Uk7F8ohQ" = _Uk7F8ohQ;
@@ -74,7 +79,8 @@ let
         "CLJqMG82" = _CLJqMG82;
         "bSb5iEQF" = _bSb5iEQF;
         "S3VvFTdO" = _S3VvFTdO;
-        "forge-1.20.1" = _S3VvFTdO;
+        "BjLVRBQN" = _BjLVRBQN;
+        "forge-1.20.1" = _BjLVRBQN;
         "pkg-1.0.1" = _gWJiH6XF;
         "pkg-1.0.2" = _Uk7F8ohQ;
         "pkg-1.0.3" = _ohwwIY82;
@@ -87,7 +93,8 @@ let
         "pkg-2.2.1" = _CLJqMG82;
         "pkg-2.2.2" = _bSb5iEQF;
         "pkg-2.2.3" = _S3VvFTdO;
-        "default" = _S3VvFTdO;
+        "pkg-2.3.0" = _BjLVRBQN;
+        "default" = _BjLVRBQN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "diexvcreeper";

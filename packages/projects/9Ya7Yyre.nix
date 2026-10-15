@@ -246,6 +246,11 @@ let
             "file" = "strawberrylib-fabric-26.3-r1.jar";
             "hash" = "sha512-VEyNIsCHgxYmBZjzBCwhWSKLvUN24tDrElH1859umHFcWbSvEzkdTK6+8Tk0/3JEjT76tczkOmP0bYRbO1sWgg==";
         };
+        _F44Y13Eq = {
+            "id" = "F44Y13Eq";
+            "file" = "strawberrylib-neoforge-26.2-r5.jar";
+            "hash" = "sha512-/U/3bdXyE+OieF2jjmNXGlf1QEcuwu5oECqOjHU2Wc6xrc6Sc75/PN5O0eq7RIAU4NAfluUq6JQP1L+J0YLXBg==";
+        };
     in {
         "gft6zi8K" = _gft6zi8K;
         "5cOl5T6B" = _5cOl5T6B;
@@ -296,6 +301,7 @@ let
         "Ir202gxM" = _Ir202gxM;
         "9cn8abyl" = _9cn8abyl;
         "OoMuF3O2" = _OoMuF3O2;
+        "F44Y13Eq" = _F44Y13Eq;
         "fabric-1.21.5" = _bxhsoJlz;
         "fabric-1.21.6" = _JK612l1x;
         "fabric-1.21.7" = _KL2Fd7qF;
@@ -322,6 +328,7 @@ let
         "neoforge-26.1" = _9cn8abyl;
         "neoforge-26.1.1" = _9cn8abyl;
         "neoforge-26.1.2" = _9cn8abyl;
+        "neoforge-26.2" = _F44Y13Eq;
         "pkg-1.21.5-r1" = _gft6zi8K;
         "pkg-1.21.5-r2" = _5cOl5T6B;
         "pkg-1.21.5-r3" = _WbVHOfNs;
@@ -365,10 +372,10 @@ let
         "pkg-26.2-r3" = _diPR3J7B;
         "pkg-26.2-r4" = _4Sk34qMJ;
         "pkg-26.1-r10" = _WQ04e6J3;
-        "pkg-26.2-r5" = _taWe52SL;
+        "pkg-26.2-r5" = _F44Y13Eq;
         "pkg-26.1-r11" = _9cn8abyl;
         "pkg-26.3-r1" = _OoMuF3O2;
-        "default" = _OoMuF3O2;
+        "default" = _F44Y13Eq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "strawberrylib";

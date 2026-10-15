@@ -211,6 +211,11 @@ let
             "file" = "arcananovum-4.0.10+26.3.jar";
             "hash" = "sha512-iYRTvKWxLcARiwQRv8PIp1NkekKn4CN+CZuecz8jH+AAwub8fdnK5zUCqz+CESiIe/neRfkIqv8k3HQQzzkcmA==";
         };
+        _SuqN7J7f = {
+            "id" = "SuqN7J7f";
+            "file" = "arcananovum-4.0.11+26.3.jar";
+            "hash" = "sha512-RneaboRUDLnTs9yNwF+WVRHHFPyeGPaW403byHEibO6p3SUwR8LF0kdGxh1R+FPX1cbvo7rx8g9gLVCgFhqZlg==";
+        };
     in {
         "CeI3eW6p" = _CeI3eW6p;
         "pIfxlfga" = _pIfxlfga;
@@ -254,6 +259,7 @@ let
         "fdiMlg6J" = _fdiMlg6J;
         "muJdyWol" = _muJdyWol;
         "THKknXGr" = _THKknXGr;
+        "SuqN7J7f" = _SuqN7J7f;
         "fabric-1.21.1" = _y1JxDI6U;
         "fabric-1.21" = _y1JxDI6U;
         "fabric-1.21.4" = _yySCmVAy;
@@ -264,7 +270,7 @@ let
         "fabric-26.1.1" = _QYVNpnMB;
         "fabric-26.1.2" = _QYVNpnMB;
         "fabric-26.2" = _fdiMlg6J;
-        "fabric-26.3" = _THKknXGr;
+        "fabric-26.3" = _SuqN7J7f;
         "pkg-3.0.0+1.21.1-BETA" = _CeI3eW6p;
         "pkg-3.0.0+1.21-BETA" = _pIfxlfga;
         "pkg-3.0.1+1.21.1" = _Xhiw6jw8;
@@ -307,7 +313,8 @@ let
         "pkg-4.0.9+26.2-HOTFIX.1" = _fdiMlg6J;
         "pkg-4.0.9+26.3-BETA.2" = _muJdyWol;
         "pkg-4.0.10+26.3" = _THKknXGr;
-        "default" = _THKknXGr;
+        "pkg-4.0.11+26.3" = _SuqN7J7f;
+        "default" = _SuqN7J7f;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "arcana-novum";

@@ -21,11 +21,17 @@ let
             "file" = "reveal-hidden-raiders-2.0.0+26.1.jar";
             "hash" = "sha512-CZ8+iEzqoQ+68UA7ysbTKczVLBeJ5dr4x1F5tXUgNAwABASYO5TRtm56CMlW+c0ytZtN+TVg1/z508/seMPjpA==";
         };
+        _UqGC9OlN = {
+            "id" = "UqGC9OlN";
+            "file" = "reveal-hidden-raiders-2.0.0+26.3.jar";
+            "hash" = "sha512-DeJa/mfbpSnglbtqVxRId7xtgUh/YkPbKRuPZxsYX/YeVzepfn48eLhW7yHvd0llUyD3Kpyg55ZFi+V45lZVSA==";
+        };
     in {
         "XhegzPFq" = _XhegzPFq;
         "9EJzS22r" = _9EJzS22r;
         "bGwP3tp0" = _bGwP3tp0;
         "uqgTSzMl" = _uqgTSzMl;
+        "UqGC9OlN" = _UqGC9OlN;
         "fabric-1.20.5" = _XhegzPFq;
         "fabric-1.20.6" = _XhegzPFq;
         "fabric-1.21" = _XhegzPFq;
@@ -43,11 +49,13 @@ let
         "fabric-26.1" = _uqgTSzMl;
         "fabric-26.1.1" = _uqgTSzMl;
         "fabric-26.1.2" = _uqgTSzMl;
+        "fabric-26.3" = _UqGC9OlN;
         "pkg-1.0.0" = _XhegzPFq;
         "pkg-1.0.1+1.21.9" = _9EJzS22r;
         "pkg-1.0.1+26.1" = _bGwP3tp0;
         "pkg-2.0.0+26.1" = _uqgTSzMl;
-        "default" = _uqgTSzMl;
+        "pkg-2.0.0+26.3" = _UqGC9OlN;
+        "default" = _UqGC9OlN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "reveal-hidden-raiders";

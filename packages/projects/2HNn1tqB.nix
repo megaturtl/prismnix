@@ -96,6 +96,11 @@ let
             "file" = "AcroWield-1.8.1-MC26.1.x.jar";
             "hash" = "sha512-VgcF7ThchlmzcXz4rl+IK1ov2o+Nc8j28fqfbub0jHvggpsyxP9qa6AfeVPTtKOaeE4g8IBuHTvKVmk8JSDz/w==";
         };
+        _Fx4LgtTt = {
+            "id" = "Fx4LgtTt";
+            "file" = "AcroWield-1.8.1-MC26.3.jar";
+            "hash" = "sha512-h2DL6r6fcoZBIfXJ435RP+CN5Rv8n6WZGDm0zEXTFwzctkE/y5wHl6hc7HM3vg5aoY3wocwepDX4uLHtMpwToA==";
+        };
     in {
         "WSvVGw8H" = _WSvVGw8H;
         "tJhh9diE" = _tJhh9diE;
@@ -116,10 +121,12 @@ let
         "A1qGWhpq" = _A1qGWhpq;
         "JDJnVrbE" = _JDJnVrbE;
         "TIXfxj9N" = _TIXfxj9N;
+        "Fx4LgtTt" = _Fx4LgtTt;
         "fabric-26.1" = _TIXfxj9N;
         "fabric-26.1.1" = _TIXfxj9N;
         "fabric-26.1.2" = _TIXfxj9N;
         "fabric-26.2" = _JDJnVrbE;
+        "fabric-26.3" = _Fx4LgtTt;
         "pkg-1.0.0" = _WSvVGw8H;
         "pkg-1.0.2" = _tJhh9diE;
         "pkg-1.1.0" = _zL7ZFhyg;
@@ -139,7 +146,8 @@ let
         "pkg-1.7.2-MC26.1.x" = _A1qGWhpq;
         "pkg-1.8.1-MC26.2" = _JDJnVrbE;
         "pkg-1.8.1-MC26.1.x" = _TIXfxj9N;
-        "default" = _TIXfxj9N;
+        "pkg-1.8.1-MC26.3" = _Fx4LgtTt;
+        "default" = _Fx4LgtTt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "acrowield";

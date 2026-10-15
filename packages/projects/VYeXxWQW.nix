@@ -11,13 +11,21 @@ let
             "file" = "legendaryherobrine-1.0.0.jar";
             "hash" = "sha512-g7yVj2U6q5/WvaW0hb0EMkbyVI3baRMYv3IxNavINOx5cRSGd2SW32MJJO6t57K2wjuPiMMpi3iZ94GSDoqhlw==";
         };
+        _NIjB0WgX = {
+            "id" = "NIjB0WgX";
+            "file" = "legendaryherobrine-2.0.0.jar";
+            "hash" = "sha512-z3hLd+vKk7NpesT5jPlhjrmkaQSBdjtOt6Q2D8pcIoXaPMgthGn6JjeP8rECUsU75pYSLzn7MWuzWWpX6784cw==";
+        };
     in {
         "47SQ4Jkj" = _47SQ4Jkj;
         "zwPlpEuA" = _zwPlpEuA;
+        "NIjB0WgX" = _NIjB0WgX;
         "forge-1.20.1" = _zwPlpEuA;
+        "neoforge-1.21.1" = _NIjB0WgX;
         "pkg-1.0.0" = _47SQ4Jkj;
         "pkg-1.7.0" = _zwPlpEuA;
-        "default" = _zwPlpEuA;
+        "pkg-2.0.0" = _NIjB0WgX;
+        "default" = _NIjB0WgX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "legendary-herobrine";

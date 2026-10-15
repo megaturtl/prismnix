@@ -181,6 +181,21 @@ let
             "file" = "antarchy-2.2.1+1.21.1-fabric.jar";
             "hash" = "sha512-Ndjs5WnLykF13sHZoV4NbGUYhs8FMBU1N+OuBY8PZUQMjdsLl7KSED3khXpF77sySvjr3IB0vwBNqz7KZ0J8bQ==";
         };
+        _QBYu6vGC = {
+            "id" = "QBYu6vGC";
+            "file" = "antarchy-2.2.2+1.21.1-fabric.jar";
+            "hash" = "sha512-Gc/bhHOd5cSX58980QDnsBUGH3fuP8auJYLAQUSg1QiZv3Y6YaFczJ00N7x5zjaQNtjApCRjVi5/4jPZe2UlwA==";
+        };
+        _4BnO6RGb = {
+            "id" = "4BnO6RGb";
+            "file" = "antarchy-2.2.2+1.21.1-neoforge.jar";
+            "hash" = "sha512-Q31ik1kVmQs+E6YlA0u66vGRHmqq7NJAZqgPrA9Q0mU5zwENtDmOoCCrYYqojpqrsgXaAqRFiuEd6HEq73nI2Q==";
+        };
+        _CcQbusck = {
+            "id" = "CcQbusck";
+            "file" = "antarchy-forge-1.20.1-2.2.2.jar";
+            "hash" = "sha512-/x+StUkqfcKYNx2MnTOnLvPhuNoWwtkSP97K9S6MD9HFxy2BkbnpaxdEDEdIiCRu0Smg2tp6bHW6z+MdENZaFw==";
+        };
     in {
         "qgH4iMrS" = _qgH4iMrS;
         "NcwigKSp" = _NcwigKSp;
@@ -218,8 +233,12 @@ let
         "zzwx1MTz" = _zzwx1MTz;
         "IL6ixTKc" = _IL6ixTKc;
         "IfCn2hsd" = _IfCn2hsd;
-        "fabric-1.21.1" = _IfCn2hsd;
-        "neoforge-1.21.1" = _IL6ixTKc;
+        "QBYu6vGC" = _QBYu6vGC;
+        "4BnO6RGb" = _4BnO6RGb;
+        "CcQbusck" = _CcQbusck;
+        "fabric-1.21.1" = _QBYu6vGC;
+        "neoforge-1.21.1" = _4BnO6RGb;
+        "forge-1.20.1" = _CcQbusck;
         "pkg-beta-V1+1.21.1-fabric" = _qgH4iMrS;
         "pkg-beta-V5+1.21.1-neoforge" = _NcwigKSp;
         "pkg-beta-V6+1.21.1-fabric" = _5OV2ytTI;
@@ -256,7 +275,10 @@ let
         "pkg-2.2.0+1.21.1-neoforge" = _zzwx1MTz;
         "pkg-2.2.1+1.21.1-neoforge" = _IL6ixTKc;
         "pkg-2.2.1+1.21.1-fabric" = _IfCn2hsd;
-        "default" = _IfCn2hsd;
+        "pkg-2.2.2+1.21.1-fabric" = _QBYu6vGC;
+        "pkg-2.2.2+1.21.1-neoforge" = _4BnO6RGb;
+        "pkg-2.2.2" = _CcQbusck;
+        "default" = _CcQbusck;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "antarchy";

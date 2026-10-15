@@ -141,6 +141,26 @@ let
             "file" = "compactf3plus-1.1.6.1-neoforge-1.21.1.jar";
             "hash" = "sha512-Q/gUGEb3q29pEroDv2qrg1BgeX/QMX2nlILQGgF+kq5zrEqx0FaDsOB4zi18VSJe0GwsAEgULdoshUR1MGRGYw==";
         };
+        _glDGAujv = {
+            "id" = "glDGAujv";
+            "file" = "compactf3plus-1.2.0-1.21.1.jar";
+            "hash" = "sha512-8JSk8ITc4w5R+CKxMtz9mSUeQWD0EAuU/9lgaYqUww1Nt28QZ3xEXi+mBX/On+CNB0kUjUNVVVbW+j2UCwDSKQ==";
+        };
+        _KTgigDYK = {
+            "id" = "KTgigDYK";
+            "file" = "compactf3plus-1.2.1-1.21.1.jar";
+            "hash" = "sha512-PsKs3H9rp7za6jTVnBmC64nhDacqUonS+ilUkFNQjLYTkQ7u1uGhfYD3lcUBCyR2Bg/ejeT2+8y/h9cq76Si1Q==";
+        };
+        _756OcHe6 = {
+            "id" = "756OcHe6";
+            "file" = "compactf3plus-1.2.5-neoforge-1.21.1.jar";
+            "hash" = "sha512-NsvCeKFq+r5C1PeHR29t12PQhSCQPtQQjMBruSyi7peMZNUvpIM0XJrkRT0Z46kW0UXXro2r4PRi16v6EqBdkg==";
+        };
+        _nXTeUPlW = {
+            "id" = "nXTeUPlW";
+            "file" = "compactf3plus-1.2.5-fabric-1.21.1.jar";
+            "hash" = "sha512-30ZNZVLtQP3F0qG2m1xOzxkFncHuEjT+PE+b8lf1eCp49obJGcA6JKOQi+/H6Mc3Ihpp5qlx0T6IyQ2sxYWOqg==";
+        };
     in {
         "sfET0Zv9" = _sfET0Zv9;
         "KGdyMhv8" = _KGdyMhv8;
@@ -170,7 +190,11 @@ let
         "tagv8MwJ" = _tagv8MwJ;
         "ZGLYXVWi" = _ZGLYXVWi;
         "5YfxQcL7" = _5YfxQcL7;
-        "neoforge-1.21.1" = _5YfxQcL7;
+        "glDGAujv" = _glDGAujv;
+        "KTgigDYK" = _KTgigDYK;
+        "756OcHe6" = _756OcHe6;
+        "nXTeUPlW" = _nXTeUPlW;
+        "neoforge-1.21.1" = _756OcHe6;
         "neoforge-1.21.2" = _5YfxQcL7;
         "neoforge-1.21.3" = _5YfxQcL7;
         "neoforge-1.21.4" = _5YfxQcL7;
@@ -188,10 +212,11 @@ let
         "forge-1.18.2" = _wNo4wkHL;
         "forge-1.12.2" = _OCF3JSSA;
         "forge-1.7.10" = _F0YSwWyb;
+        "forge-1.21.1" = _glDGAujv;
         "fabric-1.20" = _JaMzjQuF;
         "fabric-1.20.1" = _JaMzjQuF;
         "fabric-1.21" = _ZGLYXVWi;
-        "fabric-1.21.1" = _ZGLYXVWi;
+        "fabric-1.21.1" = _nXTeUPlW;
         "fabric-1.21.2" = _ZGLYXVWi;
         "fabric-1.21.3" = _ZGLYXVWi;
         "fabric-1.21.4" = _ZGLYXVWi;
@@ -206,7 +231,7 @@ let
         "quilt-1.20" = _JaMzjQuF;
         "quilt-1.20.1" = _JaMzjQuF;
         "quilt-1.21" = _ZGLYXVWi;
-        "quilt-1.21.1" = _ZGLYXVWi;
+        "quilt-1.21.1" = _nXTeUPlW;
         "quilt-1.21.2" = _ZGLYXVWi;
         "quilt-1.21.3" = _ZGLYXVWi;
         "quilt-1.21.4" = _ZGLYXVWi;
@@ -246,7 +271,11 @@ let
         "pkg-1.1.6-26.2.x-fabric" = _tagv8MwJ;
         "pkg-1.1.6.1-1.21.1-fabric" = _ZGLYXVWi;
         "pkg-1.1.6.1-1.21.1-neoforge" = _5YfxQcL7;
-        "default" = _5YfxQcL7;
+        "pkg-1.2.0-1.21.1-multiloader" = _glDGAujv;
+        "pkg-1.2.1-1.21.1-multiloader" = _KTgigDYK;
+        "pkg-1.2.5-1.21.1-neoforge" = _756OcHe6;
+        "pkg-1.2.5-1.21.1-fabric" = _nXTeUPlW;
+        "default" = _nXTeUPlW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "compact-f3-plus";

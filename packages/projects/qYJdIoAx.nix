@@ -31,6 +31,11 @@ let
             "file" = "electroenergetics-1.21.1-1.1.3.jar";
             "hash" = "sha512-CA9O2cr+J7iXzxQjbuknmKHCn7CMBFYgjPSivMQWSTSj70DiAq6yXJ9a5Y8/Fzn88Ksh9fPH4kH2AqefU6HPAA==";
         };
+        _ZMfRgLy5 = {
+            "id" = "ZMfRgLy5";
+            "file" = "electroenergetics-1.21.1-1.1.4.jar";
+            "hash" = "sha512-Aiujh6YUlUlC9F5hOAfYQWaS3JH4CKtkIP02mB1Ud0e2uNOIAuQBYZkf2V6+JQLpEZe1f9xin+L7tQxPtzdd4A==";
+        };
     in {
         "4yGHMZ9V" = _4yGHMZ9V;
         "wg7VdaNo" = _wg7VdaNo;
@@ -38,14 +43,16 @@ let
         "11zlqCk5" = _11zlqCk5;
         "hVjeqOy6" = _hVjeqOy6;
         "KWxEmmON" = _KWxEmmON;
-        "neoforge-1.21.1" = _KWxEmmON;
+        "ZMfRgLy5" = _ZMfRgLy5;
+        "neoforge-1.21.1" = _ZMfRgLy5;
         "pkg-1.21.1-1.0.0" = _4yGHMZ9V;
         "pkg-1.21.1-1.0.1" = _wg7VdaNo;
         "pkg-1.21.1-1.1.0" = _NKczAflT;
         "pkg-1.21.1-1.1.1" = _11zlqCk5;
         "pkg-1.21.1-1.1.2" = _hVjeqOy6;
         "pkg-1.21.1-1.1.3" = _KWxEmmON;
-        "default" = _KWxEmmON;
+        "pkg-1.21.1-1.1.4" = _ZMfRgLy5;
+        "default" = _ZMfRgLy5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-electro-energetics";

@@ -96,6 +96,21 @@ let
             "file" = "antishadowpatch-fabric-26.2-pre-4-2.1.7.jar";
             "hash" = "sha512-fedIFl5RdfGPNHiKGaF2y84joRhnL9RD2tiIn6lOUykfjM7hZcTjUaoLTDPrqLU2Bl/ZNgw+p0Hfe4zZaerLKw==";
         };
+        _VJCNz4Rv = {
+            "id" = "VJCNz4Rv";
+            "file" = "antishadowpatch-fabric-26.2-2.2.0.jar";
+            "hash" = "sha512-ADUreOOuHX6cgiSSsP3nYaAxVkEWLBvDgG5ItZoOxWrTEEkHoftMlrf5VyQD2jERSMYLZhrAgRkeAnp1w6gs9g==";
+        };
+        _vNuLboKj = {
+            "id" = "vNuLboKj";
+            "file" = "antishadowpatch-fabric-26.1.2-2.2.0.jar";
+            "hash" = "sha512-eDZvTKWQ2kjIts7rSBg608RAwzaApQUfsZHJiGDFFCxmb8LqjA7rNhPwxSgyz3fetLwp+ZzeI9XiCF5x/tX+1Q==";
+        };
+        _9Sg4NRZk = {
+            "id" = "9Sg4NRZk";
+            "file" = "antishadowpatch-fabric-1.21.11-2.2.0.jar";
+            "hash" = "sha512-ClmOUwJ+QIgzE6H7LPLbiWXGE1p73sHpz0YGV2ijQOOiMXFI/WPIL5R7EhYJBpFDLXva4PJebrReLdCzzmqV/w==";
+        };
     in {
         "MlHTw0YR" = _MlHTw0YR;
         "JXTTzfMr" = _JXTTzfMr;
@@ -116,6 +131,9 @@ let
         "picwP0XN" = _picwP0XN;
         "WRrI2pqd" = _WRrI2pqd;
         "r0SgeGh3" = _r0SgeGh3;
+        "VJCNz4Rv" = _VJCNz4Rv;
+        "vNuLboKj" = _vNuLboKj;
+        "9Sg4NRZk" = _9Sg4NRZk;
         "fabric-23w35a" = _MlHTw0YR;
         "fabric-1.20" = _JXTTzfMr;
         "fabric-1.20.1" = _JXTTzfMr;
@@ -135,13 +153,14 @@ let
         "fabric-1.21.5" = _iSpATpNi;
         "fabric-1.21.6" = _iSpATpNi;
         "fabric-1.21.8" = _cRF5YPiB;
-        "fabric-1.21.10" = _picwP0XN;
-        "fabric-1.21.11" = _picwP0XN;
-        "fabric-26.1" = _WRrI2pqd;
-        "fabric-26.1.1" = _WRrI2pqd;
-        "fabric-26.1.2" = _WRrI2pqd;
+        "fabric-1.21.10" = _9Sg4NRZk;
+        "fabric-1.21.11" = _9Sg4NRZk;
+        "fabric-26.1" = _vNuLboKj;
+        "fabric-26.1.1" = _vNuLboKj;
+        "fabric-26.1.2" = _vNuLboKj;
         "fabric-26.2-pre-4" = _r0SgeGh3;
         "fabric-26.2-pre-5" = _r0SgeGh3;
+        "fabric-26.2" = _VJCNz4Rv;
         "pkg-1.0.0" = _MlHTw0YR;
         "pkg-1.0.1" = _JXTTzfMr;
         "pkg-1.0.2" = _mkDHe31c;
@@ -161,7 +180,8 @@ let
         "pkg-2.1.5" = _picwP0XN;
         "pkg-2.1.6" = _WRrI2pqd;
         "pkg-2.1.7" = _r0SgeGh3;
-        "default" = _r0SgeGh3;
+        "pkg-2.2.0" = _9Sg4NRZk;
+        "default" = _9Sg4NRZk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "antishadowpatch";

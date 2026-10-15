@@ -106,6 +106,11 @@ let
             "file" = "superb-steeds-fabric-26.3-r1.jar";
             "hash" = "sha512-xhH9wLbBBSy4AX3+1EyIRrxFxO8eRnwpOZ7jp8XJaBz6Kaj7zCKvYHtA1xLHqCxwCYZ+VJQFtiXj87uVjgDLQg==";
         };
+        _y5qhmrf3 = {
+            "id" = "y5qhmrf3";
+            "file" = "superb-steeds-neoforge-26.2-r2.jar";
+            "hash" = "sha512-9EJotzkkjQynzNGgzP6oFsZAyE+aUZZWhLVjfIF7AJG7+Er0nwGcUcXdivYeAuc2bOGdpkkqu0Dc7rNW8LACFA==";
+        };
     in {
         "jvLe6y4v" = _jvLe6y4v;
         "aMYcnhjO" = _aMYcnhjO;
@@ -128,6 +133,7 @@ let
         "lk5CqsVG" = _lk5CqsVG;
         "9GLebK9m" = _9GLebK9m;
         "P4XKy0He" = _P4XKy0He;
+        "y5qhmrf3" = _y5qhmrf3;
         "fabric-1.20.1" = _Lac9HjXE;
         "fabric-1.20.6" = _Ghzp8nCP;
         "fabric-1.21" = _8EFsDd8Y;
@@ -168,6 +174,7 @@ let
         "neoforge-26.1" = _lk5CqsVG;
         "neoforge-26.1.1" = _lk5CqsVG;
         "neoforge-26.1.2" = _lk5CqsVG;
+        "neoforge-26.2" = _y5qhmrf3;
         "pkg-1.20-1" = _jvLe6y4v;
         "pkg-1.20-2" = _aMYcnhjO;
         "pkg-1.20-3" = _rt3JrBEP;
@@ -186,9 +193,9 @@ let
         "pkg-26.1-r1" = _Qe7Uf76j;
         "pkg-26.2-r1" = _2DnzkVTH;
         "pkg-26.1-r2" = _lk5CqsVG;
-        "pkg-26.2-r2" = _9GLebK9m;
+        "pkg-26.2-r2" = _y5qhmrf3;
         "pkg-26.3-r1" = _P4XKy0He;
-        "default" = _P4XKy0He;
+        "default" = _y5qhmrf3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "superb-steeds";

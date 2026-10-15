@@ -266,6 +266,11 @@ let
             "file" = "SussyPatches-1.11.10.jar";
             "hash" = "sha512-VEamGeTaGFVa0KQexiny5fo8bCYXkqG2Iisjn7MAbmPBYxpL9um5smw8laGbwIqKUwWMnEw1ztOuTyM+jFHa2A==";
         };
+        _CN6NFBl4 = {
+            "id" = "CN6NFBl4";
+            "file" = "SussyPatches-1.11.11.jar";
+            "hash" = "sha512-jZ9pqKRdnJEfug6QJWVEy6HBgjxvtkvu5Qw3WSgPnMVac/96NPEwNup5eI1mwlZz1xA4px6A6SX1d1JpMswRXg==";
+        };
     in {
         "N6hSxgQr" = _N6hSxgQr;
         "ikElA8YR" = _ikElA8YR;
@@ -320,7 +325,8 @@ let
         "gwk4yafT" = _gwk4yafT;
         "G12CtOYl" = _G12CtOYl;
         "tWFV86uW" = _tWFV86uW;
-        "forge-1.12.2" = _tWFV86uW;
+        "CN6NFBl4" = _CN6NFBl4;
+        "forge-1.12.2" = _CN6NFBl4;
         "pkg-0.0.1" = _N6hSxgQr;
         "pkg-0.1.0" = _ikElA8YR;
         "pkg-0.1.1" = _ZHOjPx3H;
@@ -374,7 +380,8 @@ let
         "pkg-1.11.8" = _gwk4yafT;
         "pkg-1.11.9" = _G12CtOYl;
         "pkg-1.11.10" = _tWFV86uW;
-        "default" = _tWFV86uW;
+        "pkg-1.11.11" = _CN6NFBl4;
+        "default" = _CN6NFBl4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sussypatches";

@@ -96,6 +96,31 @@ let
             "file" = "[26.3] First Person [1.3.0].jar";
             "hash" = "sha512-gf3TiBsIbMcBXU6a8NsfrgwPejwlnb0CfsQRx81cvgZVgF3iZofYYvJTbmhQ7TxK5cYh+wquHeZ8VeD2jdNfaA==";
         };
+        _6yAT3b1A = {
+            "id" = "6yAT3b1A";
+            "file" = "[26.1] First Person [1.4.0].jar";
+            "hash" = "sha512-OJBm013HQPUyZZyx9+U6hNeQwMOglAQrDB970ZamTmPVx8t07AI6PhTN/mPN0rejDke5KIvK4UX2UQXBESBaJQ==";
+        };
+        _STVZnhA4 = {
+            "id" = "STVZnhA4";
+            "file" = "[26.1.1] First Person [1.4.0].jar";
+            "hash" = "sha512-ysUduSoEKAOAoMjL3RVhu/C77aBa7EyuWz1lHpQyV2+5okhb8eZG/ThBRbYex8Aq053+PmaGfhVka/rYuN03Kg==";
+        };
+        _4690eCgz = {
+            "id" = "4690eCgz";
+            "file" = "[26.1.2] First Person [1.4.0].jar";
+            "hash" = "sha512-jo3tY3+VsIvmWIe/sDcuppSqweYNQsNPa/GI1SHCCN9jvqj6udvPhONQFIR9HpmG1414VtDVHNK3vyk7dWMcUQ==";
+        };
+        _kWi3qjCi = {
+            "id" = "kWi3qjCi";
+            "file" = "[26.2] First Person [1.4.0].jar";
+            "hash" = "sha512-syPrL/aAEGqK8DxjoXC8J4GkoatulVxBbxpN7xHwSn+HPHb2OfHKm9R3vkndiv3sLv6zLwd5H6hJHVKx1KKvUA==";
+        };
+        _GZeXObC9 = {
+            "id" = "GZeXObC9";
+            "file" = "[26.3] First Person [1.4.0].jar";
+            "hash" = "sha512-IIU2c2PIsaYwBse042a5ePJ4Y2p3P19ocEFkgX6bvKtuJm5+FS6Ja86xJ8u+rdk5mB/FTX0/hN/BOq3Qqe+5Aw==";
+        };
     in {
         "xiuQ2Th2" = _xiuQ2Th2;
         "zuVBeV8R" = _zuVBeV8R;
@@ -116,22 +141,28 @@ let
         "jpfTsMT7" = _jpfTsMT7;
         "l60AK6hF" = _l60AK6hF;
         "eZ1VWrxs" = _eZ1VWrxs;
-        "fabric-26.1" = _LEJSxic6;
-        "fabric-26.1.1" = _DX3Z2Dnu;
-        "fabric-26.1.2" = _jpfTsMT7;
-        "fabric-26.2" = _l60AK6hF;
-        "fabric-26.3" = _eZ1VWrxs;
-        "neoforge-26.1" = _LEJSxic6;
-        "neoforge-26.1.1" = _DX3Z2Dnu;
-        "neoforge-26.1.2" = _jpfTsMT7;
-        "neoforge-26.2" = _l60AK6hF;
-        "neoforge-26.3" = _eZ1VWrxs;
+        "6yAT3b1A" = _6yAT3b1A;
+        "STVZnhA4" = _STVZnhA4;
+        "4690eCgz" = _4690eCgz;
+        "kWi3qjCi" = _kWi3qjCi;
+        "GZeXObC9" = _GZeXObC9;
+        "fabric-26.1" = _6yAT3b1A;
+        "fabric-26.1.1" = _STVZnhA4;
+        "fabric-26.1.2" = _4690eCgz;
+        "fabric-26.2" = _kWi3qjCi;
+        "fabric-26.3" = _GZeXObC9;
+        "neoforge-26.1" = _6yAT3b1A;
+        "neoforge-26.1.1" = _STVZnhA4;
+        "neoforge-26.1.2" = _4690eCgz;
+        "neoforge-26.2" = _kWi3qjCi;
+        "neoforge-26.3" = _GZeXObC9;
         "pkg-1.0.0" = _XJxAl9GM;
         "pkg-1.1.0" = _LkwNzmEZ;
         "pkg-1.2.0" = _M1uULy8O;
         "pkg-1.2.1" = _E2iL0Evm;
         "pkg-1.3.0" = _eZ1VWrxs;
-        "default" = _eZ1VWrxs;
+        "pkg-1.4.0" = _GZeXObC9;
+        "default" = _GZeXObC9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "firstperson";

@@ -116,6 +116,16 @@ let
             "file" = "vitrail-0.12.0-beta+mc26.3.jar";
             "hash" = "sha512-1iVW/UZ2RhlM/6uCTBEua9ELk/KSSv+6PkFHfT/wba4feSP96N60F4Mu4AyULJCW3U6aSfRBNwPiJs91fZQ4ZQ==";
         };
+        _jmyfnI6L = {
+            "id" = "jmyfnI6L";
+            "file" = "vitrail-0.13.0-beta+mc26.2.jar";
+            "hash" = "sha512-2xvrtV9+eEiJTWEWsD8c9Gv5Nb+Fhxna89dCFZzsxKO15cg/9q/vQwaUJey77Bx2M+tdtRzIv1x+eT54Ri6N2w==";
+        };
+        _Q3nKuPKJ = {
+            "id" = "Q3nKuPKJ";
+            "file" = "vitrail-0.13.0-beta+mc26.3.jar";
+            "hash" = "sha512-tJFcglFhSjRXx8Im9it8OcRCGaflzG6aCZ9V96XRcbWOjffKk2fXLfwwdzKnceOvPHZyh5U27ay+GllRBQGCmA==";
+        };
     in {
         "JKYl12q9" = _JKYl12q9;
         "lFvAgTDk" = _lFvAgTDk;
@@ -140,10 +150,12 @@ let
         "nbbjyWwP" = _nbbjyWwP;
         "bDWtF92l" = _bDWtF92l;
         "Ul13RHiD" = _Ul13RHiD;
-        "neoforge-26.2" = _bDWtF92l;
-        "neoforge-26.3" = _Ul13RHiD;
-        "fabric-26.2" = _bDWtF92l;
-        "fabric-26.3" = _Ul13RHiD;
+        "jmyfnI6L" = _jmyfnI6L;
+        "Q3nKuPKJ" = _Q3nKuPKJ;
+        "neoforge-26.2" = _jmyfnI6L;
+        "neoforge-26.3" = _Q3nKuPKJ;
+        "fabric-26.2" = _jmyfnI6L;
+        "fabric-26.3" = _Q3nKuPKJ;
         "pkg-0.2.0-alpha.1+neoforge" = _JKYl12q9;
         "pkg-0.2.0-alpha.1+fabric" = _lFvAgTDk;
         "pkg-0.3.0-alpha.1+neoforge" = _pyPm9Ia0;
@@ -167,7 +179,9 @@ let
         "pkg-0.11.0-beta" = _nbbjyWwP;
         "pkg-0.12.0-beta+mc26.2" = _bDWtF92l;
         "pkg-0.12.0-beta+mc26.3" = _Ul13RHiD;
-        "default" = _Ul13RHiD;
+        "pkg-0.13.0-beta+mc26.2" = _jmyfnI6L;
+        "pkg-0.13.0-beta+mc26.3" = _Q3nKuPKJ;
+        "default" = _Q3nKuPKJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vitrail-shaders";

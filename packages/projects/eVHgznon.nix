@@ -371,6 +371,21 @@ let
             "file" = "nine_lifes-7.0+26.3.jar";
             "hash" = "sha512-2c2V1F8QpAwJEvdmMm0YAszxZdIfsWyruBbJNoFJzUq/OmAxY4AoLO/68bSW3CZ9wc5PO9DrjuTenjSOBLhnHw==";
         };
+        _aKHHsA7l = {
+            "id" = "aKHHsA7l";
+            "file" = "nine_lifes-7.1+26.2.jar";
+            "hash" = "sha512-SlE3ks/8P6WTDDmZ2FEtS66hj7JmBV3F5OgofVBNy7dYim6uCbb97pvV1WkCTr/zzUcv3mYAlJD0P+THKyO0TQ==";
+        };
+        _PABDiR85 = {
+            "id" = "PABDiR85";
+            "file" = "nine_lifes-7.1+26.3.jar";
+            "hash" = "sha512-MCJZgGCMiZN2SQP1Mt8CG391q7dU4djqJeOLC3HTKgZvzNfCeXgvOrsAJU7W6dBGfYGAjX6RRv7y9eiIc9SEsQ==";
+        };
+        _CERGwivE = {
+            "id" = "CERGwivE";
+            "file" = "nine_lifes-7.1+26.4.jar";
+            "hash" = "sha512-58aVOV/RNWqULUZBjddyAZCAYZ+4w6TgYU33hFH0+ybc+wW8uHPnJRsBFBapPLvDmStJRRkF2Fe8MwywypI+ww==";
+        };
     in {
         "ElYaGbFV" = _ElYaGbFV;
         "17jElia4" = _17jElia4;
@@ -446,6 +461,9 @@ let
         "HTdJStnP" = _HTdJStnP;
         "UnO423CV" = _UnO423CV;
         "L4lTf9W2" = _L4lTf9W2;
+        "aKHHsA7l" = _aKHHsA7l;
+        "PABDiR85" = _PABDiR85;
+        "CERGwivE" = _CERGwivE;
         "fabric-1.21.8" = _uCpbk0HC;
         "fabric-1.21.7" = _uCpbk0HC;
         "fabric-1.21.6" = _uCpbk0HC;
@@ -458,12 +476,13 @@ let
         "fabric-26.1" = _PaNvnOBa;
         "fabric-26.1.1" = _PaNvnOBa;
         "fabric-26.1.2" = _sc47DQFq;
-        "fabric-26.2" = _UnO423CV;
+        "fabric-26.2" = _aKHHsA7l;
         "fabric-26.3-snapshot-2" = _8bFPsYVE;
         "fabric-26.3-snapshot-5" = _hXFiPaOJ;
         "fabric-26.3-snapshot-8" = _2Hw55EIq;
         "fabric-26.3-snapshot-9" = _HTdJStnP;
-        "fabric-26.3" = _L4lTf9W2;
+        "fabric-26.3" = _PABDiR85;
+        "fabric-26.4-snapshot-4" = _CERGwivE;
         "pkg-1.1" = _ElYaGbFV;
         "pkg-1.2" = _17jElia4;
         "pkg-1.3" = _r4T9COf6;
@@ -538,7 +557,10 @@ let
         "pkg-6.3+26.3" = _HTdJStnP;
         "pkg-7.0+26.2" = _UnO423CV;
         "pkg-7.0+26.3" = _L4lTf9W2;
-        "default" = _L4lTf9W2;
+        "pkg-7.1+26.2" = _aKHHsA7l;
+        "pkg-7.1+26.3" = _PABDiR85;
+        "pkg-7.1+26.4" = _CERGwivE;
+        "default" = _CERGwivE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nine_lifes";

@@ -4911,6 +4911,11 @@ let
             "file" = "QueQiao-fabric+26.1-0.5.2.jar";
             "hash" = "sha512-JXkn7T3ETw3qSM+f+xtW7NQfhztdPjwK6L4aP14HsznyjM68GGKhxL93fyDHbzZThAakibcz6V68dQnd3Y921g==";
         };
+        _LrdCdsGF = {
+            "id" = "LrdCdsGF";
+            "file" = "QueQiao-fabric+26.3-0.5.3.jar";
+            "hash" = "sha512-xhI7sYhq7bHCL6jJb7AvET7EntAZ24UyYSED0v8YKFN+QvVpVfsj0UB8GsXi0ZZWn/NELE38GP5s2r0rldmAXA==";
+        };
     in {
         "umsIbFjc" = _umsIbFjc;
         "gsGGOiF0" = _gsGGOiF0;
@@ -5894,6 +5899,7 @@ let
         "OWMX58Vy" = _OWMX58Vy;
         "DDtDpL1Q" = _DDtDpL1Q;
         "2ixJxiWh" = _2ixJxiWh;
+        "LrdCdsGF" = _LrdCdsGF;
         "forge-1.20.1" = _6DE9e0Tr;
         "forge-1.16.5" = _97hcL5Yr;
         "forge-1.19.2" = _JdMNhjUF;
@@ -5922,6 +5928,7 @@ let
         "fabric-26.1.1" = _2ixJxiWh;
         "fabric-26.1.2" = _2ixJxiWh;
         "fabric-26.2" = _2ixJxiWh;
+        "fabric-26.3" = _LrdCdsGF;
         "spigot-1.13" = _Jiiyaxmz;
         "spigot-1.12.2" = _rsOFqs9S;
         "spigot-1.13.1" = _Jiiyaxmz;
@@ -6092,7 +6099,8 @@ let
         "pkg-0.5.1+forge-26.1" = _lAeyVl4D;
         "pkg-0.5.1+paper-26.1.1" = _OWMX58Vy;
         "pkg-0.5.2+fabric-26.1" = _2ixJxiWh;
-        "default" = _2ixJxiWh;
+        "pkg-0.5.3+fabric-26.3" = _LrdCdsGF;
+        "default" = _LrdCdsGF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "queqiao";

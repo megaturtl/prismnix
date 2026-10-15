@@ -246,6 +246,16 @@ let
             "file" = "mavapi-2.3.2+26.1-fabric.jar";
             "hash" = "sha512-rfootHrp4B9V/UgZvnsVDntvX+evgtISx8dvk35jvCP240PCicS+RN/0lLwpVGWSg/gRnsw3FLFlFtN0njSMdw==";
         };
+        _DF9axFcE = {
+            "id" = "DF9axFcE";
+            "file" = "mavapi-fabric-2.4.0+1.21.1.jar";
+            "hash" = "sha512-0HRKZET0hmZzVFNGaZHb7CY0QR5dxIoSa8gyiHwiLytIjHiNZOCZB8xGAxDg8ptfE/JuKrbXGxuv8fvY7Lz6Rw==";
+        };
+        _hsAPY9KG = {
+            "id" = "hsAPY9KG";
+            "file" = "mavapi-neoforge-2.4.0+1.21.1.jar";
+            "hash" = "sha512-uGL/OTlyyN7EmkaGVlX+OYzZY345QNLmVqDajyzeGTpq9XWsC9XWqzgYvG/boR3Gsi2fuFA6+SXtIsUKyuLg2g==";
+        };
     in {
         "cpkfsUwz" = _cpkfsUwz;
         "9iUwSI2V" = _9iUwSI2V;
@@ -296,6 +306,8 @@ let
         "Q2wzwIqW" = _Q2wzwIqW;
         "iZ53YANO" = _iZ53YANO;
         "EothIHXc" = _EothIHXc;
+        "DF9axFcE" = _DF9axFcE;
+        "hsAPY9KG" = _hsAPY9KG;
         "fabric-1.19.2" = _VBZ13Nzd;
         "fabric-1.18.2" = _l1guFcLO;
         "fabric-1.19.3" = _gXPQpzBz;
@@ -307,9 +319,9 @@ let
         "fabric-1.20.4" = _DwZgKHDi;
         "fabric-1.20.5" = _KuGMOcjg;
         "fabric-1.20.6" = _KuGMOcjg;
-        "fabric-1.21" = _sycz1d5K;
+        "fabric-1.21" = _DF9axFcE;
         "fabric-1.21.4" = _u7NtSedA;
-        "fabric-1.21.1" = _51Eru4i8;
+        "fabric-1.21.1" = _DF9axFcE;
         "fabric-1.21.11" = _Hdgn8NiT;
         "fabric-1.21.9" = _WeNN1HDU;
         "fabric-1.21.10" = _WeNN1HDU;
@@ -345,7 +357,7 @@ let
         "neoforge-1.20.2" = _5YVfxpmd;
         "neoforge-1.20.3" = _5YVfxpmd;
         "neoforge-1.20.4" = _5YVfxpmd;
-        "neoforge-1.21.1" = _51Eru4i8;
+        "neoforge-1.21.1" = _hsAPY9KG;
         "neoforge-1.21.9" = _BQwlFsR4;
         "neoforge-1.21.10" = _BQwlFsR4;
         "neoforge-1.21.11" = _snCj5o16;
@@ -355,6 +367,7 @@ let
         "neoforge-26.1.1" = _kYX8CaH6;
         "neoforge-26.1.2" = _kYX8CaH6;
         "neoforge-26.2" = _vm3DNghK;
+        "neoforge-1.21" = _hsAPY9KG;
         "pkg-1.0.0-mc1.19.2" = _cpkfsUwz;
         "pkg-1.0.1-mc1.19.2" = _9iUwSI2V;
         "pkg-1.0.1-mc1.18.2" = _l1guFcLO;
@@ -404,7 +417,9 @@ let
         "pkg-2.3.2+26.2-fabric" = _Q2wzwIqW;
         "pkg-2.3.2+26.3-fabric" = _iZ53YANO;
         "pkg-2.3.2+26.1-fabric" = _EothIHXc;
-        "default" = _EothIHXc;
+        "pkg-2.4.0+1.21.1-fabric" = _DF9axFcE;
+        "pkg-2.4.0+1.21.1-neoforge" = _hsAPY9KG;
+        "default" = _hsAPY9KG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mavapi";

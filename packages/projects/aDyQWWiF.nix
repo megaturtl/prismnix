@@ -71,6 +71,16 @@ let
             "file" = "sculkvial-3.0.0.jar";
             "hash" = "sha512-n4Wkry97UbCrTY7FCvaPUNuqzE81G/luOKQrvQAPMjJtxKVIcfA7kxp5gfQiauqP6PuwkXS18HCKkBW0EfoYEg==";
         };
+        _w8FCyGAQ = {
+            "id" = "w8FCyGAQ";
+            "file" = "sculk vials 3.0.1-dp.zip";
+            "hash" = "sha512-lL94RgWXunXBMvptXvWD0ykz/dB55zFeYNx/q6QTnStS6K27NDZPuF7NO9BEGHeexRex/hTX44dI9kTH8IA1Kw==";
+        };
+        _ezKOGJHe = {
+            "id" = "ezKOGJHe";
+            "file" = "sculkvial-3.0.1.jar";
+            "hash" = "sha512-7AVj763T1jrEFkE0TboLUCYoVQbLuaGScTl8V5QJPmrfZVt1rPeq/BSD9XLTkpM1yKJIt0qvCQjpyMuxunXNag==";
+        };
     in {
         "daeARYU7" = _daeARYU7;
         "Re2zvOF9" = _Re2zvOF9;
@@ -86,6 +96,8 @@ let
         "rITegbC5" = _rITegbC5;
         "JyZfuvTo" = _JyZfuvTo;
         "Kpz3FG12" = _Kpz3FG12;
+        "w8FCyGAQ" = _w8FCyGAQ;
+        "ezKOGJHe" = _ezKOGJHe;
         "datapack-1.21" = _daeARYU7;
         "datapack-1.21.1" = _daeARYU7;
         "datapack-1.21.4" = _gj8s0G0F;
@@ -100,7 +112,7 @@ let
         "datapack-26.1.1" = _8cOfQTJi;
         "datapack-26.1.2" = _8cOfQTJi;
         "datapack-26.2" = _8cOfQTJi;
-        "datapack-26.3" = _JyZfuvTo;
+        "datapack-26.3" = _w8FCyGAQ;
         "fabric-1.21" = _Re2zvOF9;
         "fabric-1.21.1" = _Re2zvOF9;
         "fabric-1.21.4" = _V1i0GZxW;
@@ -115,7 +127,7 @@ let
         "fabric-26.1.1" = _rITegbC5;
         "fabric-26.1.2" = _rITegbC5;
         "fabric-26.2" = _rITegbC5;
-        "fabric-26.3" = _Kpz3FG12;
+        "fabric-26.3" = _ezKOGJHe;
         "forge-1.21" = _Re2zvOF9;
         "forge-1.21.1" = _Re2zvOF9;
         "forge-1.21.4" = _V1i0GZxW;
@@ -130,7 +142,7 @@ let
         "forge-26.1.1" = _rITegbC5;
         "forge-26.1.2" = _rITegbC5;
         "forge-26.2" = _rITegbC5;
-        "forge-26.3" = _Kpz3FG12;
+        "forge-26.3" = _ezKOGJHe;
         "neoforge-1.21" = _Re2zvOF9;
         "neoforge-1.21.1" = _Re2zvOF9;
         "neoforge-1.21.4" = _V1i0GZxW;
@@ -145,7 +157,7 @@ let
         "neoforge-26.1.1" = _rITegbC5;
         "neoforge-26.1.2" = _rITegbC5;
         "neoforge-26.2" = _rITegbC5;
-        "neoforge-26.3" = _Kpz3FG12;
+        "neoforge-26.3" = _ezKOGJHe;
         "quilt-1.21" = _Re2zvOF9;
         "quilt-1.21.1" = _Re2zvOF9;
         "quilt-1.21.4" = _V1i0GZxW;
@@ -160,7 +172,7 @@ let
         "quilt-26.1.1" = _rITegbC5;
         "quilt-26.1.2" = _rITegbC5;
         "quilt-26.2" = _rITegbC5;
-        "quilt-26.3" = _Kpz3FG12;
+        "quilt-26.3" = _ezKOGJHe;
         "pkg-0.1.0" = _daeARYU7;
         "pkg-0.1.0+mod" = _Re2zvOF9;
         "pkg-v2.0" = _V1i0GZxW;
@@ -169,7 +181,9 @@ let
         "pkg-2.0.2" = _rITegbC5;
         "pkg-3.0.0" = _JyZfuvTo;
         "pkg-3.0.0+mod" = _Kpz3FG12;
-        "default" = _Kpz3FG12;
+        "pkg-3.0.1" = _w8FCyGAQ;
+        "pkg-3.0.1+mod" = _ezKOGJHe;
+        "default" = _ezKOGJHe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sculkvial";

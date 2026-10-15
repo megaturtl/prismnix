@@ -136,6 +136,16 @@ let
             "file" = "highly_customizable_damage_numbers-neoforge-1.21-1.1.31.jar";
             "hash" = "sha512-n/7n+oHKuzX4GzbNbC1lgsCW9u63K/UZRkiYZ3qIHR1wUVImGYkjTBtumROk8ISSQEc8Qx5CtnDROK6v+6wQ6A==";
         };
+        _XuyP3Mi6 = {
+            "id" = "XuyP3Mi6";
+            "file" = "highly_customizable_damage_numbers-fabric-26.2-1.2.0.jar";
+            "hash" = "sha512-+v6ogwmPv2S/npPhLVn+pJu8sgqeboZhaFouTlZTUQrShXSK6eP37B2SZv/HCkBLDu0DjGLco4zg2OLUiVdu0g==";
+        };
+        _tivdfEyu = {
+            "id" = "tivdfEyu";
+            "file" = "highly_customizable_damage_numbers-neoforge-26.2-1.2.0.jar";
+            "hash" = "sha512-DOn/+iun8dYLGgGTW9aw+gYm9qENNBIhvpqOHYNPfhvGmnxO/S9DwWbViQ8k4RMGlF6UQxXSf/uuaYF0C291/w==";
+        };
     in {
         "8PILrdAp" = _8PILrdAp;
         "nLbvIsaS" = _nLbvIsaS;
@@ -164,6 +174,8 @@ let
         "l8pkbdLI" = _l8pkbdLI;
         "RT2IdwQO" = _RT2IdwQO;
         "rsTVs2KV" = _rsTVs2KV;
+        "XuyP3Mi6" = _XuyP3Mi6;
+        "tivdfEyu" = _tivdfEyu;
         "fabric-1.21" = _l8pkbdLI;
         "fabric-1.21.1" = _l8pkbdLI;
         "fabric-1.21.2" = _JsScXgeP;
@@ -181,6 +193,7 @@ let
         "fabric-26.1.2" = _zriC1yRr;
         "fabric-1.20" = _V1ka5QKr;
         "fabric-1.20.1" = _V1ka5QKr;
+        "fabric-26.2" = _XuyP3Mi6;
         "forge-1.21" = _RT2IdwQO;
         "forge-1.21.1" = _RT2IdwQO;
         "forge-1.21.4" = _aepZ6L0Y;
@@ -208,6 +221,7 @@ let
         "neoforge-26.1" = _fk3yUlq0;
         "neoforge-26.1.1" = _fk3yUlq0;
         "neoforge-26.1.2" = _fk3yUlq0;
+        "neoforge-26.2" = _tivdfEyu;
         "pkg-v1.1.3+mc1.21" = _IhOgSVVU;
         "pkg-v1.1.3+mc1.21.2" = _Q1oTqfae;
         "pkg-v1.1.3+mc1.21.4" = _GltInibz;
@@ -220,7 +234,8 @@ let
         "pkg-v1.1.3+26.1" = _fk3yUlq0;
         "pkg-v1.1.3+mc1.20.1" = _mc8Q1wPF;
         "pkg-v1.1.31+mc1.21.1" = _rsTVs2KV;
-        "default" = _rsTVs2KV;
+        "pkg-v1.2.0+mc26.2" = _tivdfEyu;
+        "default" = _tivdfEyu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hicudan";

@@ -221,6 +221,11 @@ let
             "file" = "believemod-1.20.jar";
             "hash" = "sha512-iC0Tqarm2OYlt6rxUCTgW1LXhRsXeQxQvwz4CSxV/rq/glJsuDOEH9kKieAzee+G78j8vtpR/nu5Hcp8rLiyHw==";
         };
+        _56d8U9Qs = {
+            "id" = "56d8U9Qs";
+            "file" = "believemod-3.5-1.20.1.jar";
+            "hash" = "sha512-BCsdh5YMqPB6QRaRBmATdjbnTTSJzVsBQCkZrEbgjQttVKPObOXWPWAUALJX+TvjAblUd0RFejBrWfIFahgEHA==";
+        };
     in {
         "yKcWPDd8" = _yKcWPDd8;
         "k4PQX1tU" = _k4PQX1tU;
@@ -266,12 +271,13 @@ let
         "jZrAopH3" = _jZrAopH3;
         "86BhaEoU" = _86BhaEoU;
         "dKoIZ25b" = _dKoIZ25b;
+        "56d8U9Qs" = _56d8U9Qs;
         "fabric-1.19.2" = _QGqS9qnS;
         "fabric-1.20" = _86BhaEoU;
-        "fabric-1.20.1" = _dKoIZ25b;
-        "fabric-1.20.2" = _dKoIZ25b;
-        "fabric-1.20.3" = _dKoIZ25b;
-        "fabric-1.20.4" = _dKoIZ25b;
+        "fabric-1.20.1" = _56d8U9Qs;
+        "fabric-1.20.2" = _56d8U9Qs;
+        "fabric-1.20.3" = _56d8U9Qs;
+        "fabric-1.20.4" = _56d8U9Qs;
         "fabric-1.19.3" = _QGqS9qnS;
         "fabric-1.19.4" = _QGqS9qnS;
         "forge-1.20.1" = _fdao305y;
@@ -318,7 +324,8 @@ let
         "pkg-3.4-1.20" = _jZrAopH3;
         "pkg-3.4.1-1.20" = _86BhaEoU;
         "pkg-3.4.1.1-1.20" = _dKoIZ25b;
-        "default" = _dKoIZ25b;
+        "pkg-3.5-1.20.1" = _56d8U9Qs;
+        "default" = _56d8U9Qs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "believe-mod";

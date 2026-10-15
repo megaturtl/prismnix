@@ -41,6 +41,11 @@ let
             "file" = "blockhighlightfx-1.0.5+26.1.jar";
             "hash" = "sha512-JYWc/97405+2dMBaRk1FALUEYZ9dnnLMsBHXH1bYEfvKIQWoTfQm6ccCx5tJQHddagMa89WUAhXCAcRmz+kV5g==";
         };
+        _90z0Jzjy = {
+            "id" = "90z0Jzjy";
+            "file" = "blockhighlightfx-1.0.5+26.3.jar";
+            "hash" = "sha512-V1aDqX0vnL8WCQTn8EztSR9wrzN12Jtkx53uCqUyFYXbNdvyCBFmovQe0MlRS5+QdBrE1eISZ+Hxw/HUFEAOmA==";
+        };
     in {
         "wledkWLq" = _wledkWLq;
         "vvxAqF9i" = _vvxAqF9i;
@@ -50,6 +55,7 @@ let
         "FKlssZ3c" = _FKlssZ3c;
         "JWXgLPJy" = _JWXgLPJy;
         "Ssqox4CA" = _Ssqox4CA;
+        "90z0Jzjy" = _90z0Jzjy;
         "fabric-1.21.8" = _BUvNAvNZ;
         "fabric-1.21.2" = _MPWS3LEN;
         "fabric-1.21.3" = _BUvNAvNZ;
@@ -62,6 +68,7 @@ let
         "fabric-26.1" = _Ssqox4CA;
         "fabric-26.1.1" = _Ssqox4CA;
         "fabric-26.1.2" = _Ssqox4CA;
+        "fabric-26.3" = _90z0Jzjy;
         "pkg-1.0.0" = _wledkWLq;
         "pkg-1.0.1" = _vvxAqF9i;
         "pkg-1.0.2" = _MPWS3LEN;
@@ -70,7 +77,8 @@ let
         "pkg-1.0.5+1.21.11" = _FKlssZ3c;
         "pkg-1.0.5+1.21.10" = _JWXgLPJy;
         "pkg-1.0.5+26.1" = _Ssqox4CA;
-        "default" = _Ssqox4CA;
+        "pkg-1.0.5+26.3" = _90z0Jzjy;
+        "default" = _90z0Jzjy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "block-hightlightfx";

@@ -11,14 +11,22 @@ let
             "file" = "TooBee-Optimization-0.1.1.jar";
             "hash" = "sha512-dsrtHkYah+LPGP6Uv91veE2GmuHxA7cJrPZvvUMYP/IQMEaBtV9aRQlkBepT/mwbueZ2933y28xSmhjs2/n1lA==";
         };
+        _VyMEwcUF = {
+            "id" = "VyMEwcUF";
+            "file" = "TooBee-Optimization-0.1.2.jar";
+            "hash" = "sha512-PeZXp5cIzoEwjfjXfsYNi9CHklIwCBEwFX9yCOzz3bTPvxGsq0hlRpTfTlyoYt2/iBXlftcxiYMBpqMuyMaH+w==";
+        };
     in {
         "oj3O3NBn" = _oj3O3NBn;
         "Ey1QY1xA" = _Ey1QY1xA;
+        "VyMEwcUF" = _VyMEwcUF;
         "fabric-1.21.10" = _oj3O3NBn;
         "fabric-1.21.11" = _Ey1QY1xA;
+        "fabric-26.1.2" = _VyMEwcUF;
         "pkg-0.1.0" = _oj3O3NBn;
         "pkg-0.1.1" = _Ey1QY1xA;
-        "default" = _Ey1QY1xA;
+        "pkg-0.1.2" = _VyMEwcUF;
+        "default" = _VyMEwcUF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "toobee-optimization";

@@ -126,6 +126,16 @@ let
             "file" = "set-home-0.0.2.jar";
             "hash" = "sha512-7x9mKzCSop2r26iFPrwVU/jAoCW+FxSqVwdRl49qJPnSDrQcCIGdfmcsLiUsDWFD5QEFPpyiXNvLc2K82egZRg==";
         };
+        _Z4b3hPWC = {
+            "id" = "Z4b3hPWC";
+            "file" = "Set-Home-26.3-0.0.2.zip";
+            "hash" = "sha512-8Xn4KLDAG/R0s6Y71Pc3tGPCHRTrSilRdyZNIM/nEkdcmwFnfHBPTa0PTWSxKv9hI7sTDfi12dfAQ5mZNRFfJQ==";
+        };
+        _FABo8oqk = {
+            "id" = "FABo8oqk";
+            "file" = "set-home-0.0.2.jar";
+            "hash" = "sha512-NSUtPN69Tu6e5lnO8d9DIt5HkdOk89NUVioiFPHlIXSp2XXgQdRxX8rP08igDaUZkuySBhjh7zqAjCWFfwO41A==";
+        };
     in {
         "uG6MlxWt" = _uG6MlxWt;
         "9aIEvObe" = _9aIEvObe;
@@ -152,6 +162,8 @@ let
         "kICpsHVE" = _kICpsHVE;
         "cAXLWtfC" = _cAXLWtfC;
         "nISVHJ7o" = _nISVHJ7o;
+        "Z4b3hPWC" = _Z4b3hPWC;
+        "FABo8oqk" = _FABo8oqk;
         "datapack-1.20.2" = _eDQz3QQW;
         "datapack-1.20.4" = _eDQz3QQW;
         "datapack-1.21" = _1Y4ShPSw;
@@ -170,6 +182,7 @@ let
         "datapack-26.1.1" = _QkrXX0KW;
         "datapack-26.1.2" = _QkrXX0KW;
         "datapack-26.2" = _cAXLWtfC;
+        "datapack-26.3" = _Z4b3hPWC;
         "forge-1.20.2" = _fxoOOZ91;
         "forge-1.20.4" = _fxoOOZ91;
         "forge-1.21" = _E1gsIyW1;
@@ -188,6 +201,7 @@ let
         "forge-26.1.1" = _kICpsHVE;
         "forge-26.1.2" = _kICpsHVE;
         "forge-26.2" = _nISVHJ7o;
+        "forge-26.3" = _FABo8oqk;
         "fabric-1.20.2" = _fxoOOZ91;
         "fabric-1.20.4" = _fxoOOZ91;
         "fabric-1.21" = _E1gsIyW1;
@@ -206,6 +220,7 @@ let
         "fabric-26.1.1" = _kICpsHVE;
         "fabric-26.1.2" = _kICpsHVE;
         "fabric-26.2" = _nISVHJ7o;
+        "fabric-26.3" = _FABo8oqk;
         "quilt-1.20.2" = _fxoOOZ91;
         "quilt-1.20.4" = _fxoOOZ91;
         "quilt-1.21" = _E1gsIyW1;
@@ -224,6 +239,7 @@ let
         "quilt-26.1.1" = _kICpsHVE;
         "quilt-26.1.2" = _kICpsHVE;
         "quilt-26.2" = _nISVHJ7o;
+        "quilt-26.3" = _FABo8oqk;
         "neoforge-1.20.2" = _Wf2UnVTW;
         "neoforge-1.20.4" = _Wf2UnVTW;
         "neoforge-1.21" = _E1gsIyW1;
@@ -242,19 +258,20 @@ let
         "neoforge-26.1.1" = _kICpsHVE;
         "neoforge-26.1.2" = _kICpsHVE;
         "neoforge-26.2" = _nISVHJ7o;
+        "neoforge-26.3" = _FABo8oqk;
         "pkg-1.0.1" = _PMeKAkkx;
         "pkg-0.0.1" = _Wf2UnVTW;
         "pkg-0.0.2-1.21" = _1Y4ShPSw;
         "pkg-0.0.2-1.21-Mod" = _E1gsIyW1;
-        "pkg-0.0.2" = _cAXLWtfC;
+        "pkg-0.0.2" = _Z4b3hPWC;
         "pkg-0.0.2-1.21.6" = _JV8MCXih;
         "pkg-0.0.2-1.21.6-Mod" = _wcQ5oNBD;
         "pkg-0.0.2-1.21.7-8" = _9IWO2vf4;
         "pkg-0.0.2-1.21.7-8-Mod" = _gH7C3Di9;
         "pkg-0.0.2-1.21.9" = _9JL1CYNi;
         "pkg-0.0.2-1.21.9-Mod" = _T52ZImpl;
-        "pkg-0.0.2-Mod" = _nISVHJ7o;
-        "default" = _nISVHJ7o;
+        "pkg-0.0.2-Mod" = _FABo8oqk;
+        "default" = _FABo8oqk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "set-home";

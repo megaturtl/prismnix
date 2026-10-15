@@ -1026,6 +1026,16 @@ let
             "file" = "better_client-11.0.2.jar";
             "hash" = "sha512-QFl9LnIbqhEf5sk2TEooQecsZ5goFSE9+6ZAfGQBAwsLJMV9AAL9xCIEBAwb+QPwoICof1YpOI2Kf1AWWeoFXg==";
         };
+        _u2sBAcPy = {
+            "id" = "u2sBAcPy";
+            "file" = "better_client-11.1.0.jar";
+            "hash" = "sha512-TAPoQdcZzPxNtofEmziGKK4sPlT4MZR+bq9vKEjRSMMO+Or78gSmvUG7T9GTEcqIZRzI7ZPisSpssi1Z3DVcfA==";
+        };
+        _q8HqHQ8t = {
+            "id" = "q8HqHQ8t";
+            "file" = "better_client-11.1.0.jar";
+            "hash" = "sha512-uK5m/guF6pOJrA7HI5RnYX7AGAhUkLuzP0Kyi8dgfv8JKPhGC2pdbnu+l3FVSXzCW5iGjF70nGkRTn9lFcGURA==";
+        };
     in {
         "Yxegxk7B" = _Yxegxk7B;
         "ocRgVzO9" = _ocRgVzO9;
@@ -1232,6 +1242,8 @@ let
         "86JOOpFF" = _86JOOpFF;
         "gMwkday6" = _gMwkday6;
         "dF3K7qVR" = _dF3K7qVR;
+        "u2sBAcPy" = _u2sBAcPy;
+        "q8HqHQ8t" = _q8HqHQ8t;
         "neoforge-1.21.1" = _j3igEgCO;
         "neoforge-1.21.5" = _3jEaf9Qp;
         "neoforge-1.21.6" = _WUd9qlUD;
@@ -1244,7 +1256,7 @@ let
         "neoforge-26.1.1" = _6r5vpbXI;
         "neoforge-26.1.2" = _6r5vpbXI;
         "neoforge-26.2" = _xnMPbpm6;
-        "neoforge-26.3" = _dF3K7qVR;
+        "neoforge-26.3" = _q8HqHQ8t;
         "fabric-1.21.1" = _DnYf9RqP;
         "fabric-1.21.5" = _aaKTz4ax;
         "fabric-1.21.6" = _aVc3lyUu;
@@ -1257,7 +1269,7 @@ let
         "fabric-26.1.1" = _gYsXrzSO;
         "fabric-26.1.2" = _gYsXrzSO;
         "fabric-26.2" = _SEvCKJ2i;
-        "fabric-26.3" = _gMwkday6;
+        "fabric-26.3" = _u2sBAcPy;
         "pkg-1.0.0+neoforge" = _Yxegxk7B;
         "pkg-1.0.0+fabric" = _ocRgVzO9;
         "pkg-1.0.1+neoforge" = _MKKNEind;
@@ -1461,7 +1473,9 @@ let
         "pkg-11.0.1+neoforge" = _86JOOpFF;
         "pkg-11.0.2+fabric" = _gMwkday6;
         "pkg-11.0.2+neoforge" = _dF3K7qVR;
-        "default" = _dF3K7qVR;
+        "pkg-11.1.0+fabric" = _u2sBAcPy;
+        "pkg-11.1.0+neoforge" = _q8HqHQ8t;
+        "default" = _q8HqHQ8t;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-client-enc";

@@ -126,6 +126,21 @@ let
             "file" = "HorsingAround-26.3-0.5.0.jar";
             "hash" = "sha512-D3ybFrcx6tWG8iBZ6J8oIlQSLrSbMQxrBA7vE8UFiUiUi5dpHvlX4M44cnnRzhynANZ3Y57cnlE3GlWydJqrAA==";
         };
+        _CmWoEyUp = {
+            "id" = "CmWoEyUp";
+            "file" = "HorsingAround-26.2-0.4.2.jar";
+            "hash" = "sha512-zPzCKiitR21kwGJ0q8WfdgtiDuPxlmRjVebWvzZpA9Y1EhTOa4WhP2Tm/m33el8srO+KaUijpuQ1dTwo6bLFJw==";
+        };
+        _i9CsNv4W = {
+            "id" = "i9CsNv4W";
+            "file" = "HorsingAround-26.1.2-0.3.5.jar";
+            "hash" = "sha512-cHVscS9iKDtJosSdUH7rsOpj20SHK+nq2Zaj7uDrNgSvGsoEkVbpNpDg8GDN/gWkc7e4QlhtSeusK9gju1w3ug==";
+        };
+        _aG1NOGI2 = {
+            "id" = "aG1NOGI2";
+            "file" = "HorsingAround-26.3-0.5.1.jar";
+            "hash" = "sha512-UB1GZZJqM+3JjVc/LiwxLItZcmR4q7bBelgIzb8cMYZPf3J5O6EXEB5zIIMK3RJ96TZ2X5VqPOplcfELYcOR9g==";
+        };
     in {
         "k2b8B85d" = _k2b8B85d;
         "gljK5AGS" = _gljK5AGS;
@@ -152,15 +167,18 @@ let
         "dJKvQi6K" = _dJKvQi6K;
         "qCdYYmCS" = _qCdYYmCS;
         "x5mn9A2n" = _x5mn9A2n;
+        "CmWoEyUp" = _CmWoEyUp;
+        "i9CsNv4W" = _i9CsNv4W;
+        "aG1NOGI2" = _aG1NOGI2;
         "forge-1.20.1" = _rGLzpTDy;
         "neoforge-1.20.4" = _wuCDgZ1L;
         "neoforge-1.20.6" = _fSnt28zM;
         "neoforge-1.21" = _Vriawrlr;
         "neoforge-1.21.1" = _KOuazgqA;
-        "neoforge-26.1.2" = _dJKvQi6K;
+        "neoforge-26.1.2" = _i9CsNv4W;
         "neoforge-1.20.1" = _rGLzpTDy;
-        "neoforge-26.2" = _qCdYYmCS;
-        "neoforge-26.3" = _x5mn9A2n;
+        "neoforge-26.2" = _CmWoEyUp;
+        "neoforge-26.3" = _aG1NOGI2;
         "pkg-0.1.0" = _k2b8B85d;
         "pkg-0.1.1" = _gljK5AGS;
         "pkg-0.1.2" = _3LuLylYB;
@@ -180,7 +198,10 @@ let
         "pkg-0.3.4" = _dJKvQi6K;
         "pkg-0.4.1" = _qCdYYmCS;
         "pkg-0.5.0" = _x5mn9A2n;
-        "default" = _x5mn9A2n;
+        "pkg-0.4.2" = _CmWoEyUp;
+        "pkg-0.3.5" = _i9CsNv4W;
+        "pkg-0.5.1" = _aG1NOGI2;
+        "default" = _aG1NOGI2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "horsing-around";

@@ -631,6 +631,11 @@ let
             "file" = "autopickup-neoforge-1.4.17+26.3.jar";
             "hash" = "sha512-Gbe+Q0pw/Wh/stGdfsJ8T6BcEZdEYs7cW++4dL+ldqAz5Vsdb2X/6lHRS77oO+SObSKjjeetq2myxNfzSnRMgQ==";
         };
+        _iiRrBecS = {
+            "id" = "iiRrBecS";
+            "file" = "autopickup-neoforge-1.4.18+1.21.0-1.jar";
+            "hash" = "sha512-JTekr2BNtZmnd3z8xpFlP4c6hB0n7TdE8+cgVTc29br2dTWcAHqN9iz55XZIwFu9tLRdU36Xxims6UoBiMXI0Q==";
+        };
     in {
         "4yLWM3Ib" = _4yLWM3Ib;
         "akon43Hz" = _akon43Hz;
@@ -758,6 +763,7 @@ let
         "ezKFmz3d" = _ezKFmz3d;
         "s70cjKoy" = _s70cjKoy;
         "CatVkKQM" = _CatVkKQM;
+        "iiRrBecS" = _iiRrBecS;
         "fabric-1.21.5" = _s7auWwgK;
         "fabric-1.21.6" = _s7auWwgK;
         "fabric-1.21.7" = _s7auWwgK;
@@ -786,8 +792,8 @@ let
         "neoforge-26.1" = _MasMe8Ex;
         "neoforge-26.1.1" = _MasMe8Ex;
         "neoforge-26.1.2" = _MasMe8Ex;
-        "neoforge-1.21" = _DkGFdQRV;
-        "neoforge-1.21.1" = _DkGFdQRV;
+        "neoforge-1.21" = _iiRrBecS;
+        "neoforge-1.21.1" = _iiRrBecS;
         "neoforge-1.21.9" = _GjJXXV6j;
         "neoforge-1.21.10" = _GjJXXV6j;
         "neoforge-1.21.11" = _GjJXXV6j;
@@ -874,7 +880,8 @@ let
         "pkg-1.4.17+26.1.2" = _MasMe8Ex;
         "pkg-1.4.17+26.2" = _ezKFmz3d;
         "pkg-1.4.17+26.3" = _CatVkKQM;
-        "default" = _CatVkKQM;
+        "pkg-1.4.18+1.21.0-1" = _iiRrBecS;
+        "default" = _iiRrBecS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-autopickup";

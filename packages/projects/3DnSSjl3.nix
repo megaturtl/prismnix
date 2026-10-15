@@ -141,6 +141,11 @@ let
             "file" = "Slate_Work-3.0.0-hex-pre48.jar";
             "hash" = "sha512-95rn+Ct1dNALDO5dniSsvoqjCI/WOjNNlfJ8xzAV7PoFcRlhhogNoVhvJ22+lSYjHFMqrs4X3Yd6GYQc84+5nA==";
         };
+        _kBoXMzCI = {
+            "id" = "kBoXMzCI";
+            "file" = "Slate_Work-3.0.1-hex-pre48.jar";
+            "hash" = "sha512-m93masXyZjtGuyPEwfNmCskf+IXavCu8Q4kVXJ6ODGOe7SRlzldTOIbVRGKuU0VsiQuL3k4YT1jSo1EXZHIqsQ==";
+        };
     in {
         "Ur5LYIfY" = _Ur5LYIfY;
         "cdPRAPO5" = _cdPRAPO5;
@@ -170,8 +175,9 @@ let
         "CglKFROa" = _CglKFROa;
         "yUAyayIn" = _yUAyayIn;
         "kbGWV8mP" = _kbGWV8mP;
+        "kBoXMzCI" = _kBoXMzCI;
         "fabric-1.20.1" = _yUAyayIn;
-        "fabric-1.21.1" = _kbGWV8mP;
+        "fabric-1.21.1" = _kBoXMzCI;
         "pkg-0.1.0" = _Ur5LYIfY;
         "pkg-0.2.2" = _cdPRAPO5;
         "pkg-0.2.3" = _hnE6vxFn;
@@ -200,7 +206,8 @@ let
         "pkg-2.3.1" = _CglKFROa;
         "pkg-2.3.2" = _yUAyayIn;
         "pkg-3.0.0" = _kbGWV8mP;
-        "default" = _kbGWV8mP;
+        "pkg-3.0.1" = _kBoXMzCI;
+        "default" = _kBoXMzCI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "slate-works";

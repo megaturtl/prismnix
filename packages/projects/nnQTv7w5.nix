@@ -31,6 +31,11 @@ let
             "file" = "simpleboats-0.3.0-beta-26.2.x.jar";
             "hash" = "sha512-UK67utpBS6eGTzE6zBFWY2QwcNax7VJPWBv9j5XZoJkx1V9Sz8oEiMG+aZC+vYqbOu6kQ8hLOX/iieRj1ILP0w==";
         };
+        _nnou5ukj = {
+            "id" = "nnou5ukj";
+            "file" = "simpleboats-0.3.0-beta-26.3.x.jar";
+            "hash" = "sha512-2VHV1YQtENOWAvYM67iAPol970EIV7rcML6txMqdpUiK8khg9OlxLJz2eWWw8dhxl9qPA7IfGOgbGsFtyq6tBg==";
+        };
     in {
         "km1hPuWi" = _km1hPuWi;
         "HFODZjVJ" = _HFODZjVJ;
@@ -38,18 +43,21 @@ let
         "J1iI1T5S" = _J1iI1T5S;
         "SSDBTwyC" = _SSDBTwyC;
         "nzIrJ1Xl" = _nzIrJ1Xl;
+        "nnou5ukj" = _nnou5ukj;
         "fabric-1.21.11" = _SSDBTwyC;
         "fabric-26.1" = _J1iI1T5S;
         "fabric-26.1.1" = _J1iI1T5S;
         "fabric-26.1.2" = _J1iI1T5S;
         "fabric-26.2" = _nzIrJ1Xl;
+        "fabric-26.3" = _nnou5ukj;
         "pkg-0.1.0-beta-1.21.11" = _km1hPuWi;
         "pkg-0.2.0-beta-1.21.11" = _HFODZjVJ;
         "pkg-0.2.0-beta-26.1.x" = _20RBb11Q;
         "pkg-0.3.0-beta-26.1.x" = _J1iI1T5S;
         "pkg-0.3.0-beta-1.21.11" = _SSDBTwyC;
         "pkg-0.3.0-beta-26.2.x" = _nzIrJ1Xl;
-        "default" = _nzIrJ1Xl;
+        "pkg-0.3.0-beta-26.3.x" = _nnou5ukj;
+        "default" = _nnou5ukj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-boats";

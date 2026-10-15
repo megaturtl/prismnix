@@ -86,6 +86,26 @@ let
             "file" = "veil_origins_mod-1.0.6.jar";
             "hash" = "sha512-Xl6S8RiSkncDfQRiWt2mkb7T4DWdVTwFZukTEyoS3A1TpwGbPYv5VfHQWBXGPU/lCLgctTK9EN45kFCbCFuTog==";
         };
+        _ByuXTFIK = {
+            "id" = "ByuXTFIK";
+            "file" = "veil_origins_mod-1.1.0.jar";
+            "hash" = "sha512-a3Umi6lWX4tlu7sNLAmCGi0JcO2z5PI/0o6cVnutu7E9PSZoU6tV/h90XqbzgUGAAlODT+3/I/xmh5IxQutvFg==";
+        };
+        _lUueoCGa = {
+            "id" = "lUueoCGa";
+            "file" = "veil_origins_mod-1.1.0.jar";
+            "hash" = "sha512-t7FN6iC94+3UNcIHOycrvlASHNDICllxMuLlwMooYm32f1Myk78kOqVo0qb756P5yz99GYEKKkQ5sDZLvu470A==";
+        };
+        _niVHAdFS = {
+            "id" = "niVHAdFS";
+            "file" = "veil_origins_mod-1.1.0.jar";
+            "hash" = "sha512-+fqqClgj5eK7nQry6Pc4KfuAZ7a31eweA5jp5MSiHbDUH2lHIivN8xhLQ2czE2ZOpzZJYIQuv/ecf6A0JXwh/Q==";
+        };
+        _qZYEiS2k = {
+            "id" = "qZYEiS2k";
+            "file" = "veil_origins-1.1.0.jar";
+            "hash" = "sha512-r5hMPfMx40O7ZsYPujJQnx7Kz9SZHRD4IMAz3PCTMNa1IncnnqlLxXHUNbI/QhMItr1VOl8FjvPllG7OvJ3SnA==";
+        };
     in {
         "cms2DiaC" = _cms2DiaC;
         "5Mdi3337" = _5Mdi3337;
@@ -104,12 +124,17 @@ let
         "GRq1KRcA" = _GRq1KRcA;
         "GbTSykJr" = _GbTSykJr;
         "kNMvv1uk" = _kNMvv1uk;
-        "neoforge-1.21.1" = _kNMvv1uk;
-        "neoforge-1.21.2" = _xJDpMZYi;
-        "neoforge-1.21.3" = _xJDpMZYi;
+        "ByuXTFIK" = _ByuXTFIK;
+        "lUueoCGa" = _lUueoCGa;
+        "niVHAdFS" = _niVHAdFS;
+        "qZYEiS2k" = _qZYEiS2k;
+        "neoforge-1.21.1" = _ByuXTFIK;
+        "neoforge-1.21.2" = _ByuXTFIK;
+        "neoforge-1.21.3" = _ByuXTFIK;
         "neoforge-1.21.8" = _1VN1Npbj;
-        "neoforge-1.21.10" = _g16eEVnR;
-        "neoforge-1.21.11" = _GRq1KRcA;
+        "neoforge-1.21.10" = _lUueoCGa;
+        "neoforge-1.21.11" = _niVHAdFS;
+        "neoforge-26.2" = _qZYEiS2k;
         "fabric-1.21.1" = _R8aA2Hhc;
         "quilt-1.21.1" = _R8aA2Hhc;
         "pkg-1.0.0" = _cms2DiaC;
@@ -129,7 +154,8 @@ let
         "pkg-1.0.6-1.21.11" = _GRq1KRcA;
         "pkg-1.0.6-1.21.1" = _GbTSykJr;
         "pkg-1.0.6-1.21.1-R1" = _kNMvv1uk;
-        "default" = _kNMvv1uk;
+        "pkg-1.1.0" = _qZYEiS2k;
+        "default" = _qZYEiS2k;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "veil-origins";

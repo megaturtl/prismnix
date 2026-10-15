@@ -51,6 +51,11 @@ let
             "file" = "Optimized Bushy Leaves.zip";
             "hash" = "sha512-cDyO5UcJxoBtztKynKNFIbQ0W4YHgvZJ/zDBGd8Qlrsop8cz0DoCGL3DZ6XIv/9NmQxaFvr4YoVVWq6O4LIAUQ==";
         };
+        _EGZkpR5R = {
+            "id" = "EGZkpR5R";
+            "file" = "Optimized Bushy Leaves.zip";
+            "hash" = "sha512-krEYwmzuzZKn4tbj/lXtNDsKOieINLosjQ9APgA5TKZJ5hY80wsRuYOA4nugK+176ETxNrWleIi7tzwMjDKn+Q==";
+        };
     in {
         "I4PqtNOk" = _I4PqtNOk;
         "MLyPCkVX" = _MLyPCkVX;
@@ -62,6 +67,7 @@ let
         "fZuH41AI" = _fZuH41AI;
         "gPIQqkAp" = _gPIQqkAp;
         "JFuivZUX" = _JFuivZUX;
+        "EGZkpR5R" = _EGZkpR5R;
         "minecraft-1.13" = _HabiyTas;
         "minecraft-1.13.1" = _HabiyTas;
         "minecraft-1.13.2" = _HabiyTas;
@@ -96,23 +102,23 @@ let
         "minecraft-1.20.4" = _HabiyTas;
         "minecraft-1.20.5" = _HabiyTas;
         "minecraft-1.20.6" = _HabiyTas;
-        "minecraft-1.21" = _JFuivZUX;
-        "minecraft-1.21.1" = _JFuivZUX;
-        "minecraft-1.21.2" = _JFuivZUX;
-        "minecraft-1.21.3" = _JFuivZUX;
-        "minecraft-1.21.4" = _JFuivZUX;
-        "minecraft-1.21.5" = _JFuivZUX;
-        "minecraft-1.21.6" = _JFuivZUX;
-        "minecraft-1.21.7" = _JFuivZUX;
-        "minecraft-1.21.8" = _JFuivZUX;
-        "minecraft-1.21.9" = _JFuivZUX;
-        "minecraft-1.21.10" = _JFuivZUX;
-        "minecraft-1.21.11" = _JFuivZUX;
-        "minecraft-26.1" = _JFuivZUX;
-        "minecraft-26.1.1" = _JFuivZUX;
-        "minecraft-26.1.2" = _JFuivZUX;
-        "minecraft-26.2" = _JFuivZUX;
-        "minecraft-26.3" = _JFuivZUX;
+        "minecraft-1.21" = _EGZkpR5R;
+        "minecraft-1.21.1" = _EGZkpR5R;
+        "minecraft-1.21.2" = _EGZkpR5R;
+        "minecraft-1.21.3" = _EGZkpR5R;
+        "minecraft-1.21.4" = _EGZkpR5R;
+        "minecraft-1.21.5" = _EGZkpR5R;
+        "minecraft-1.21.6" = _EGZkpR5R;
+        "minecraft-1.21.7" = _EGZkpR5R;
+        "minecraft-1.21.8" = _EGZkpR5R;
+        "minecraft-1.21.9" = _EGZkpR5R;
+        "minecraft-1.21.10" = _EGZkpR5R;
+        "minecraft-1.21.11" = _EGZkpR5R;
+        "minecraft-26.1" = _EGZkpR5R;
+        "minecraft-26.1.1" = _EGZkpR5R;
+        "minecraft-26.1.2" = _EGZkpR5R;
+        "minecraft-26.2" = _EGZkpR5R;
+        "minecraft-26.3" = _EGZkpR5R;
         "minecraft-24w33a" = _gPIQqkAp;
         "minecraft-24w34a" = _gPIQqkAp;
         "minecraft-24w35a" = _gPIQqkAp;
@@ -136,7 +142,8 @@ let
         "pkg-v3.0" = _fZuH41AI;
         "pkg-v3.0.1" = _gPIQqkAp;
         "pkg-v4.0" = _JFuivZUX;
-        "default" = _JFuivZUX;
+        "pkg-v4.1" = _EGZkpR5R;
+        "default" = _EGZkpR5R;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fancyfast-bushy-leaves";

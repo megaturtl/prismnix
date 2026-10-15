@@ -251,6 +251,16 @@ let
             "file" = "cobblenav-neoforge-2.4.1.jar";
             "hash" = "sha512-Jii1q4NkynBMKkEDpNQKcisRaIFTXFD2X3LYdmAWswOkUwoBxwSTchA7JoMGJx3xJtyAVjO5iIm4TXjNGb3d+A==";
         };
+        _wq3mHFqw = {
+            "id" = "wq3mHFqw";
+            "file" = "cobblenav-fabric-2.4.2.jar";
+            "hash" = "sha512-E0Kbj/+wf95ngUBdC435tO1JCi1rd+YaKEdTExoitotPI22qVqhz9SaNCIPy0oAPgqTxlQNX1NAzlLohZCSovA==";
+        };
+        _uDp2V5cU = {
+            "id" = "uDp2V5cU";
+            "file" = "cobblenav-neoforge-2.4.2.jar";
+            "hash" = "sha512-HTRMBe1bxpn6bTuX8FUartyMS7HscmcfZYt3icuQJhmYqHqyzxkQfaKujiuOsvgQ7UCGQnEsO397Hfnj+WAL8A==";
+        };
     in {
         "xZf0rnie" = _xZf0rnie;
         "IYLfr6eS" = _IYLfr6eS;
@@ -302,9 +312,11 @@ let
         "zStQSt4i" = _zStQSt4i;
         "BV5KiAcY" = _BV5KiAcY;
         "qbUwxhni" = _qbUwxhni;
+        "wq3mHFqw" = _wq3mHFqw;
+        "uDp2V5cU" = _uDp2V5cU;
         "fabric-1.20.1" = _uADN8MDB;
-        "fabric-1.21.1" = _BV5KiAcY;
-        "neoforge-1.21.1" = _qbUwxhni;
+        "fabric-1.21.1" = _wq3mHFqw;
+        "neoforge-1.21.1" = _uDp2V5cU;
         "pkg-1.0-BETA" = _xZf0rnie;
         "pkg-1.0.1-BETA" = _IYLfr6eS;
         "pkg-1.0.2-BETA" = _bnrRV6Qa;
@@ -339,7 +351,8 @@ let
         "pkg-2.3.3" = _yCSofpNb;
         "pkg-2.4.0" = _zStQSt4i;
         "pkg-2.4.1" = _qbUwxhni;
-        "default" = _qbUwxhni;
+        "pkg-2.4.2" = _uDp2V5cU;
+        "default" = _uDp2V5cU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-pokenav";

@@ -11,16 +11,23 @@ let
             "file" = "Vivillon Pride Patterns v2.0.zip";
             "hash" = "sha512-1XUG0UpOBmrpr4hYPKtXWBOFoWas2W2x5LVhGvjmLmtoj+zp64nIOq5Hv7iHjYreK073uTeso9w168Euc6Jtbw==";
         };
+        _2vacGOuH = {
+            "id" = "2vacGOuH";
+            "file" = "Vivillon Pride Patterns v2.1.zip";
+            "hash" = "sha512-j9HrYI7ObMC9t55cBB73Y/wPujWHDZ/iQRzGWEQi0A5dVreGdHi44iMNQCACL5qjRgCJeiahEyASC5MyM/Ob8A==";
+        };
     in {
         "bqpDxE3E" = _bqpDxE3E;
         "e35EKhP2" = _e35EKhP2;
+        "2vacGOuH" = _2vacGOuH;
         "datapack-1.20.1" = _bqpDxE3E;
-        "datapack-1.21.1" = _e35EKhP2;
+        "datapack-1.21.1" = _2vacGOuH;
         "minecraft-1.20.1" = _bqpDxE3E;
         "minecraft-1.21.1" = _e35EKhP2;
         "pkg-v1.0" = _bqpDxE3E;
         "pkg-2.0" = _e35EKhP2;
-        "default" = _e35EKhP2;
+        "pkg-2.1" = _2vacGOuH;
+        "default" = _2vacGOuH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vivillon-pride-patterns";

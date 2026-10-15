@@ -41,6 +41,16 @@ let
             "file" = "[Fabric] Hacker Menu v1 1.16.5.jar";
             "hash" = "sha512-uKvyQL0+jLkoljvsD13Auj0K4SxliVJQePwelfL+Yhnzb+lAaJu3/tD8cUPb31y6DufEAU63FHZHahE4a/W4pw==";
         };
+        _mcotUiPB = {
+            "id" = "mcotUiPB";
+            "file" = "hackermenu_rewritten_fabric-5.0.jar";
+            "hash" = "sha512-vB8dK9Y6wC2ioUwvP4SiEbLgiMJ8N+ebFu9eQOBkeZEcsmyOW1f0u6T+1Kx1pb8DqEbfjRxSE8vHFgYsCghcXw==";
+        };
+        _1Zt6rLKd = {
+            "id" = "1Zt6rLKd";
+            "file" = "hackermenu_rewritten-5.0.jar";
+            "hash" = "sha512-0d7ogIsb9PUUQTmTxBRhfEBhaBOUdPYlTyn7BTKhrpNJU2bwDKGyNLjW2dNPaiD1WI/FeGORwHiVxaEJTtdrxQ==";
+        };
     in {
         "HS715s4D" = _HS715s4D;
         "bpUBG1bg" = _bpUBG1bg;
@@ -50,8 +60,11 @@ let
         "wXSqJ3mR" = _wXSqJ3mR;
         "k8fWqxSk" = _k8fWqxSk;
         "HzXfe7xu" = _HzXfe7xu;
+        "mcotUiPB" = _mcotUiPB;
+        "1Zt6rLKd" = _1Zt6rLKd;
         "neoforge-1.21" = _HS715s4D;
         "neoforge-1.21.1" = _HS715s4D;
+        "neoforge-26.3" = _1Zt6rLKd;
         "forge-1.20.4" = _bpUBG1bg;
         "forge-1.20.1" = _MiQ7ua3A;
         "forge-1.18.2" = _jbkmiaO6;
@@ -63,11 +76,13 @@ let
         "fabric-1.19.3" = _k8fWqxSk;
         "fabric-1.19.4" = _k8fWqxSk;
         "fabric-1.16.5" = _HzXfe7xu;
+        "fabric-26.3" = _mcotUiPB;
         "pkg-4.0" = _MiQ7ua3A;
         "pkg-3.0" = _wXSqJ3mR;
         "pkg-3.1" = _k8fWqxSk;
         "pkg-1.0" = _HzXfe7xu;
-        "default" = _HzXfe7xu;
+        "pkg-5.0" = _1Zt6rLKd;
+        "default" = _1Zt6rLKd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hacker-menu";

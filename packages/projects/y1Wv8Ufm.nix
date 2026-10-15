@@ -61,6 +61,11 @@ let
             "file" = "ramesses_curse-1.2.6.jar";
             "hash" = "sha512-x5higHZT9QyZMhQbIrgpFHcDMqgoUlvpKfawH7nGSJgJ+sM/3vrfgECkdFRXGXNPra27kog7it5sG+orvrWi2A==";
         };
+        _3GmsFoqF = {
+            "id" = "3GmsFoqF";
+            "file" = "ramesses_curse-1.2.7-Alpha.jar";
+            "hash" = "sha512-ZDmGIdz3kMTcfaMs4yTB27wO83A804bliWYmuQpxgFKygYnqbzv1enPOUCVIAnnfy1VEvsjj9VRorx/mjcpcNw==";
+        };
     in {
         "CXGCYKC9" = _CXGCYKC9;
         "FHoh79ji" = _FHoh79ji;
@@ -74,7 +79,8 @@ let
         "xGjmqQqy" = _xGjmqQqy;
         "4hJJ27oY" = _4hJJ27oY;
         "bOAqtqZn" = _bOAqtqZn;
-        "forge-1.20.1" = _bOAqtqZn;
+        "3GmsFoqF" = _3GmsFoqF;
+        "forge-1.20.1" = _3GmsFoqF;
         "forge-1.20.2" = _4hJJ27oY;
         "forge-1.20.3" = _4hJJ27oY;
         "forge-1.20.4" = _4hJJ27oY;
@@ -93,7 +99,8 @@ let
         "pkg-1.2.5" = _xGjmqQqy;
         "pkg-1.2.5beta" = _4hJJ27oY;
         "pkg-1.2.6" = _bOAqtqZn;
-        "default" = _bOAqtqZn;
+        "pkg-1.2.7-Alpha" = _3GmsFoqF;
+        "default" = _3GmsFoqF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-curse-of-ramses-ii";

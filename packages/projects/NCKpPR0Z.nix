@@ -696,6 +696,16 @@ let
             "file" = "Ecologics-NeoFab-26.3-2.7.1.jar";
             "hash" = "sha512-vePER51hZ5BcrNyZUTZ8SajI10I8gRjrPGvqvXe3wro30kXTe2hu+fg6Qfi3V3m0VNG2GmQCLkmrFBhBu+aStQ==";
         };
+        _lG4Nfk6a = {
+            "id" = "lG4Nfk6a";
+            "file" = "Ecologics-NeoFab-26.1.2-2.5.5.jar";
+            "hash" = "sha512-t6utD4tklSFAnIVyvLGBpst0b7nbihXrt7NECDvJZTCF6QdEnCsEomFc0eS0+W79RPc/xTdGDgLL+otFjlZslA==";
+        };
+        _BzrmmkyM = {
+            "id" = "BzrmmkyM";
+            "file" = "Ecologics-NeoFab-26.2-2.6.3.jar";
+            "hash" = "sha512-7OgcaCjuFhtTkIDAdkpDlHFXry25O/hsHu63HhZK/I0Zu8Cy2sohUoUNyDm/PsO+ETSVfnfx2FbzEQgFtjI98Q==";
+        };
     in {
         "YX5CyxAZ" = _YX5CyxAZ;
         "3Zsi9mGq" = _3Zsi9mGq;
@@ -836,6 +846,8 @@ let
         "Ps5szbk8" = _Ps5szbk8;
         "E6x9PoUu" = _E6x9PoUu;
         "5UofDvyh" = _5UofDvyh;
+        "lG4Nfk6a" = _lG4Nfk6a;
+        "BzrmmkyM" = _BzrmmkyM;
         "forge-1.18.1" = _kC3xFh5w;
         "forge-1.18.2" = _soCWwgLU;
         "forge-1.19" = _n8IIJXsz;
@@ -854,15 +866,15 @@ let
         "fabric-1.21.11" = _MdD8J4en;
         "fabric-26.1" = _Ps5szbk8;
         "fabric-26.1.1" = _Ps5szbk8;
-        "fabric-26.1.2" = _Ps5szbk8;
-        "fabric-26.2" = _E6x9PoUu;
+        "fabric-26.1.2" = _lG4Nfk6a;
+        "fabric-26.2" = _BzrmmkyM;
         "fabric-26.3" = _5UofDvyh;
         "neoforge-1.21.1" = _ihEiqSv4;
         "neoforge-1.21.11" = _vKhIyoZ5;
         "neoforge-26.1" = _Ps5szbk8;
         "neoforge-26.1.1" = _Ps5szbk8;
-        "neoforge-26.1.2" = _Ps5szbk8;
-        "neoforge-26.2" = _E6x9PoUu;
+        "neoforge-26.1.2" = _lG4Nfk6a;
+        "neoforge-26.2" = _BzrmmkyM;
         "neoforge-26.3" = _5UofDvyh;
         "pkg-1.1.0" = _YX5CyxAZ;
         "pkg-1.1.1" = _3Zsi9mGq;
@@ -967,7 +979,9 @@ let
         "pkg-2.5.4-NeoFab" = _Ps5szbk8;
         "pkg-2.6.2-NeoFab" = _E6x9PoUu;
         "pkg-2.7.1-NeoFab" = _5UofDvyh;
-        "default" = _5UofDvyh;
+        "pkg-2.5.5-NeoFab" = _lG4Nfk6a;
+        "pkg-2.6.3-NeoFab" = _BzrmmkyM;
+        "default" = _BzrmmkyM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ecologics";

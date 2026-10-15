@@ -16,10 +16,16 @@ let
             "file" = "basic-shadows.zip";
             "hash" = "sha512-k2XGvqe1jk+pZO4KAZe4/gSLXNUCJaCEc3VMs+KDXHSbS05sKhCa5nMM/eaED3m0mjbjodFP5SYekBa9jDE3rg==";
         };
+        _xfAWrLRU = {
+            "id" = "xfAWrLRU";
+            "file" = "Simple-Shaders.zip";
+            "hash" = "sha512-mL3Pi7gRcoA3MyVgEJoo+dCnViAyd0XZs4YLRtihZUHj+41l4TRXjsv2w1QiVkTkaODQLYKAZ9V+NYYfJoMy2w==";
+        };
     in {
         "fp27Eznp" = _fp27Eznp;
         "2rwmWYJF" = _2rwmWYJF;
         "RjRoChzA" = _RjRoChzA;
+        "xfAWrLRU" = _xfAWrLRU;
         "iris-1.21" = _fp27Eznp;
         "iris-1.21.1" = _fp27Eznp;
         "iris-1.21.2" = _fp27Eznp;
@@ -42,6 +48,8 @@ let
         "iris-26.1" = _RjRoChzA;
         "iris-26.1.1" = _RjRoChzA;
         "iris-26.1.2" = _RjRoChzA;
+        "iris-26.2" = _xfAWrLRU;
+        "iris-26.3" = _xfAWrLRU;
         "optifine-1.21" = _fp27Eznp;
         "optifine-1.21.1" = _fp27Eznp;
         "optifine-1.21.2" = _fp27Eznp;
@@ -64,10 +72,13 @@ let
         "optifine-26.1" = _RjRoChzA;
         "optifine-26.1.1" = _RjRoChzA;
         "optifine-26.1.2" = _RjRoChzA;
+        "optifine-26.2" = _xfAWrLRU;
+        "optifine-26.3" = _xfAWrLRU;
         "pkg-1.0.0" = _fp27Eznp;
         "pkg-1.0.1" = _2rwmWYJF;
         "pkg-1.0.2" = _RjRoChzA;
-        "default" = _RjRoChzA;
+        "pkg-1.0.3" = _xfAWrLRU;
+        "default" = _xfAWrLRU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-shadows";

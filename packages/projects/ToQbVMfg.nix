@@ -66,6 +66,11 @@ let
             "file" = "chemicalscience-1.20.1-3.0.3.jar";
             "hash" = "sha512-rYAXhv+raVjt7SuqxXtF6py9a6MKJi3kafS9UgjDUn+zqVvTu7pue1noDBgScbCuDrqObJ2Pcjcefj40RKODQg==";
         };
+        _qWzKFOMc = {
+            "id" = "qWzKFOMc";
+            "file" = "chemicalscience-1.21.1-3.1.3.jar";
+            "hash" = "sha512-4be6gJK6BsSYmS5GKgzHe2LugbYy14hHDKQX3AeqWfRBKKQYo4mRK8I7izfcpa2wbxLMXnJwnU0yP7mNOxBA4g==";
+        };
     in {
         "h03IZ2AO" = _h03IZ2AO;
         "SBKtssKw" = _SBKtssKw;
@@ -80,7 +85,8 @@ let
         "QJi8kYQN" = _QJi8kYQN;
         "9Vjilh2H" = _9Vjilh2H;
         "C4v32qYB" = _C4v32qYB;
-        "neoforge-1.21.1" = _9Vjilh2H;
+        "qWzKFOMc" = _qWzKFOMc;
+        "neoforge-1.21.1" = _qWzKFOMc;
         "neoforge-1.20.1" = _2ZRWVwna;
         "forge-1.20.1" = _C4v32qYB;
         "pkg-1.21.1-3.0.0" = _h03IZ2AO;
@@ -95,7 +101,8 @@ let
         "pkg-1.21.1-3.1.0" = _tEljy88R;
         "pkg-1.21.1-3.1.1" = _QJi8kYQN;
         "pkg-1.21.1-3.1.2" = _9Vjilh2H;
-        "default" = _C4v32qYB;
+        "pkg-1.21.1-3.1.3" = _qWzKFOMc;
+        "default" = _qWzKFOMc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chemicalscience";

@@ -151,6 +151,11 @@ let
             "file" = "more_lucky_blocks_2-1.6-forge-1.20.1.jar";
             "hash" = "sha512-hJKAzjC2Ll8Xa0cWKyuTfnq/J+4AUSdjnjuZ0kgPXuHh5YZIsSxXSbKCh0ePovNcPCFh0oSEmHxp7T/6s96pRQ==";
         };
+        _jI5vZRlz = {
+            "id" = "jI5vZRlz";
+            "file" = "more-lucky-blocks-2-too-much-lucky-blocks-1.6.0-26.3.jar";
+            "hash" = "sha512-0hqZPMWRrjaOjya4aL36Jpm8nckxGRJgmyPcRxi20UyhZGarLzUhjPiAnZsSpyLBOK/nc+uUPIWWtZccOGPK9g==";
+        };
     in {
         "ZnsJGIwN" = _ZnsJGIwN;
         "KRMulzqH" = _KRMulzqH;
@@ -182,10 +187,12 @@ let
         "ZyObtw2I" = _ZyObtw2I;
         "BBkn8HJg" = _BBkn8HJg;
         "sSMfURaR" = _sSMfURaR;
+        "jI5vZRlz" = _jI5vZRlz;
         "forge-1.20.1" = _sSMfURaR;
         "forge-1.19.2" = _BBkn8HJg;
         "forge-1.18.2" = _ZyObtw2I;
         "fabric-1.21.8" = _57TNoox4;
+        "fabric-26.3" = _jI5vZRlz;
         "neoforge-1.21.1" = _H4j3gEem;
         "neoforge-1.21.8" = _jbbpxMxu;
         "pkg-1.0.0" = _KRMulzqH;
@@ -195,8 +202,8 @@ let
         "pkg-1.4.0" = _OApIlJVa;
         "pkg-1.4.1" = _dwWT5yCG;
         "pkg-1.5" = _ts1ouvkN;
-        "pkg-1.6" = _sSMfURaR;
-        "default" = _sSMfURaR;
+        "pkg-1.6" = _jI5vZRlz;
+        "default" = _jI5vZRlz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-lucky-blocks-2";

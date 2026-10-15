@@ -71,6 +71,11 @@ let
             "file" = "gimme-that-gimmick-1.5.0+1.21.1.jar";
             "hash" = "sha512-gVqXHI1zEhOP9wPZWho54S5MIr+1igP09Yd32hMAIBiYv3+8KO1nH15fOtR01QpmX57BtQbND2H6/le3EIidig==";
         };
+        _Ud2vZjls = {
+            "id" = "Ud2vZjls";
+            "file" = "gimme-that-gimmick-1.5.1+1.21.1.jar";
+            "hash" = "sha512-YkSzHprD00w2TrexsG+Pih39wAaItwGQ5hSN+Gx2JwpLXY1wKD2G/jkVkoVLAILETEZFGQF37ObDWVyqy682lw==";
+        };
     in {
         "MtvLuk6f" = _MtvLuk6f;
         "ZgdaBl3J" = _ZgdaBl3J;
@@ -86,7 +91,8 @@ let
         "d7lYrXus" = _d7lYrXus;
         "XzAyetq3" = _XzAyetq3;
         "BSz07Jrq" = _BSz07Jrq;
-        "fabric-1.21.1" = _BSz07Jrq;
+        "Ud2vZjls" = _Ud2vZjls;
+        "fabric-1.21.1" = _Ud2vZjls;
         "pkg-1.0.0" = _MtvLuk6f;
         "pkg-1.0.1" = _ZgdaBl3J;
         "pkg-1.1.0" = _rWw8a3LN;
@@ -101,7 +107,8 @@ let
         "pkg-1.4.2+1.21.1" = _d7lYrXus;
         "pkg-1.4.3+1.21.1" = _XzAyetq3;
         "pkg-1.5.0+1.21.1" = _BSz07Jrq;
-        "default" = _BSz07Jrq;
+        "pkg-1.5.1+1.21.1" = _Ud2vZjls;
+        "default" = _Ud2vZjls;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gimme-that-gimmick";

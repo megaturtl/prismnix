@@ -2226,6 +2226,11 @@ let
             "file" = "cp_lib-5.1.1-lite-beta-fabric-1.21.11.jar";
             "hash" = "sha512-46TmVeGzg1CT0dFjVpx/8QlQlrJg52HYhUiaf6nWi4gk1U6oLYO/bUC7UTIEeVbNJe724FEHGwgxZTC/pOdRfg==";
         };
+        _pNwG25Vy = {
+            "id" = "pNwG25Vy";
+            "file" = "cp_lib-5.1.1-lite-beta-fabric-26.3.jar";
+            "hash" = "sha512-AIE++uFXcOjXKhODhzb2+Y114qTc+aEUOna9jMZ32ON8DgBmfHHims8kl62pNHDuAAKLjccGhOweyAWP7QnRWQ==";
+        };
     in {
         "U3i96tXQ" = _U3i96tXQ;
         "FHBio7se" = _FHBio7se;
@@ -2672,6 +2677,7 @@ let
         "R4RFjRRL" = _R4RFjRRL;
         "vwtDueBi" = _vwtDueBi;
         "EUucTBA2" = _EUucTBA2;
+        "pNwG25Vy" = _pNwG25Vy;
         "forge-1.20.1" = _LQFLv1Iw;
         "forge-1.19.4" = _gJ8sRgMC;
         "forge-1.19.2" = _TTzC7XIK;
@@ -2699,6 +2705,7 @@ let
         "fabric-26.1.2" = _YNlEYxe6;
         "fabric-26.2" = _vwtDueBi;
         "fabric-1.21.11" = _EUucTBA2;
+        "fabric-26.3" = _pNwG25Vy;
         "quilt-1.21.6" = _T1RhjtIn;
         "quilt-1.21.7" = _T1RhjtIn;
         "quilt-1.21.8" = _T1RhjtIn;
@@ -2707,6 +2714,7 @@ let
         "quilt-26.1.2" = _YNlEYxe6;
         "quilt-26.2" = _vwtDueBi;
         "quilt-1.21.11" = _EUucTBA2;
+        "quilt-26.3" = _pNwG25Vy;
         "pkg-0.1" = _U3i96tXQ;
         "pkg-25w38a-1201" = _FHBio7se;
         "pkg-25w38b-1201" = _iI459YAa;
@@ -2918,8 +2926,8 @@ let
         "pkg-5.1.0-lite" = _67UxK6eV;
         "pkg-5.1.1-beta" = _7HcmeNPa;
         "pkg-5.1.2-beta" = _R4RFjRRL;
-        "pkg-5.1.1-lite-beta" = _EUucTBA2;
-        "default" = _EUucTBA2;
+        "pkg-5.1.1-lite-beta" = _pNwG25Vy;
+        "default" = _pNwG25Vy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "croparium";

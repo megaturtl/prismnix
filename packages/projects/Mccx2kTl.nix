@@ -6,11 +6,18 @@ let
             "file" = "portalgunmod-1.1-1.20.1.jar";
             "hash" = "sha512-TMBvMrge3TyYZmhs1iOgsFrpTr/TPFvs/ynMX9uiyAtFlln9DVh6OlYHejU26TgyPCyqm/vvhgIfMUCMuUZaOA==";
         };
+        _hpOQitxR = {
+            "id" = "hpOQitxR";
+            "file" = "portalgunmod-1.1.1-1.20.1.jar";
+            "hash" = "sha512-di4ITmYMirdBr6KvCFq65jwQARJpTs/s/91j+GI7q8tEZZHk5rRUsXSH8+NuxPL58wS434GZMLxsIBM3N1lmEA==";
+        };
     in {
         "Mm5mXCwX" = _Mm5mXCwX;
-        "forge-1.20.1" = _Mm5mXCwX;
+        "hpOQitxR" = _hpOQitxR;
+        "forge-1.20.1" = _hpOQitxR;
         "pkg-1.1-1.20.1" = _Mm5mXCwX;
-        "default" = _Mm5mXCwX;
+        "pkg-1.1.1-1.20.1" = _hpOQitxR;
+        "default" = _hpOQitxR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "portal-gun-mod";

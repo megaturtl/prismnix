@@ -196,6 +196,26 @@ let
             "file" = "enchantments-plus-fabric-1.2.3+1.21.5.jar";
             "hash" = "sha512-XPo9pAAyTOOKO12CnHvuKbKKB671sISQKHhL948G39D2LYptHvl8pH4aXN6+WaSoKwiSyjiEJngQHle9ZVHvGw==";
         };
+        _LRhXxQDX = {
+            "id" = "LRhXxQDX";
+            "file" = "enchantments-plus-fabric-1.2.4+1.21.1.jar";
+            "hash" = "sha512-m4P9N1ny+XWwsmu5/zmWZB7iAwRqRJ6L3w17CTLrOmuk0XFWYHhdROzpDoqpfHvup0xWrtARIOMRXulxXVCZnw==";
+        };
+        _kzGLx8VE = {
+            "id" = "kzGLx8VE";
+            "file" = "enchantments-plus-fabric-1.2.4+1.21.6.jar";
+            "hash" = "sha512-nmVp5i06BzGbeoEd4d757vOPuAE6Wkjwpwe8PIDVnoY3kRbDrEKUHyMIZUBbUjn0+KwFLk968GAFz8VTEST0og==";
+        };
+        _uCkGUWCB = {
+            "id" = "uCkGUWCB";
+            "file" = "enchantments-plus-fabric-1.2.4+1.21.7.jar";
+            "hash" = "sha512-Yrlt3ezUmRiSkZ5DXlRjIGgHHOrPGIeo1mGfVKvoTbfuB5L4Z0MXjwwTwtWM5ZFijdofyYBfB+VdGvFdQgibsA==";
+        };
+        _8IKq6G4b = {
+            "id" = "8IKq6G4b";
+            "file" = "enchantments-plus-fabric-1.2.4+1.21.8.jar";
+            "hash" = "sha512-I9JBYkFTXxlq9OMVxYbsdQh5BgBI+aU6PU+8lPw0Y+0EgUPEjf57rd+DuTOF+OIiK+yChYqUgf9jweurEpMx6w==";
+        };
     in {
         "guEFSpJC" = _guEFSpJC;
         "Fnk4pvxO" = _Fnk4pvxO;
@@ -236,6 +256,10 @@ let
         "csdlVo0g" = _csdlVo0g;
         "BMDMAuyd" = _BMDMAuyd;
         "NTKHZCaX" = _NTKHZCaX;
+        "LRhXxQDX" = _LRhXxQDX;
+        "kzGLx8VE" = _kzGLx8VE;
+        "uCkGUWCB" = _uCkGUWCB;
+        "8IKq6G4b" = _8IKq6G4b;
         "fabric-1.19.3" = _S9iPaSlF;
         "fabric-1.19.2" = _HMP81OFV;
         "fabric-1.19" = _SVj9v0cA;
@@ -252,11 +276,14 @@ let
         "fabric-1.20.5" = _VUF6pyqx;
         "fabric-1.20.6" = _ziEqM49A;
         "fabric-1.21" = _QAAV80iK;
-        "fabric-1.21.1" = _y7ZIqenU;
+        "fabric-1.21.1" = _LRhXxQDX;
         "fabric-1.21.2" = _IMDgkjPY;
         "fabric-1.21.3" = _csdlVo0g;
         "fabric-1.21.4" = _BMDMAuyd;
         "fabric-1.21.5" = _NTKHZCaX;
+        "fabric-1.21.6" = _kzGLx8VE;
+        "fabric-1.21.7" = _uCkGUWCB;
+        "fabric-1.21.8" = _8IKq6G4b;
         "pkg-1.1.3+1.19.3" = _guEFSpJC;
         "pkg-1.1.2+1.19.3" = _Fnk4pvxO;
         "pkg-1.1.1+1.19.2" = _pYH8a5fP;
@@ -296,7 +323,11 @@ let
         "pkg-1.2.3+1.21.3" = _csdlVo0g;
         "pkg-1.2.3+1.21.4" = _BMDMAuyd;
         "pkg-1.2.3+1.21.5" = _NTKHZCaX;
-        "default" = _NTKHZCaX;
+        "pkg-1.2.4+1.21.1" = _LRhXxQDX;
+        "pkg-1.2.4+1.21.6" = _kzGLx8VE;
+        "pkg-1.2.4+1.21.7" = _uCkGUWCB;
+        "pkg-1.2.4+1.21.8" = _8IKq6G4b;
+        "default" = _8IKq6G4b;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchantments-plus";

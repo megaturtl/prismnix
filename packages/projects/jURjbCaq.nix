@@ -926,6 +926,36 @@ let
             "file" = "variants-cit-5.7.0+26.3.jar";
             "hash" = "sha512-ooxMUd39FwfC8yQL2CUInpp3iYgChL2U/PEPqWakTVI7EB9rDxDgfkSBk1idEbXlGjssOiYbZbqW7CdaVJo62g==";
         };
+        _hwrTNwrP = {
+            "id" = "hwrTNwrP";
+            "file" = "variants-cit-5.7.1+1.21.5.jar";
+            "hash" = "sha512-lgcP8Wjdh+LrEFbhhYhKhHfr6UYFWfTaGG4Xx5s3DlG9GY2mf0v4hJ2zjYhXXaFSSeXzlRVCNTmsAv+avCZogg==";
+        };
+        _Oj5Fretk = {
+            "id" = "Oj5Fretk";
+            "file" = "variants-cit-5.7.1+1.21.4.jar";
+            "hash" = "sha512-I8+tkbaLkXxIjthx5T9+2bp+FoJxs5ZinWJWZvGs6frkxpSdKKPHYSNpW+rqk0ozmfdlk+6lE+0IbuSsSD/qTA==";
+        };
+        _92jw0kGc = {
+            "id" = "92jw0kGc";
+            "file" = "variants-cit-5.7.1+1.21.8.jar";
+            "hash" = "sha512-m1B7kH9k/MFY9ufW6kvlx0g6cVJFE/BEh3dKWU35LrZjnCTYx2Yy7p8VN094tqDuXTSVbaf7LR3fV87k2Tv1Ww==";
+        };
+        _W5gNWX5D = {
+            "id" = "W5gNWX5D";
+            "file" = "variants-cit-5.7.1+1.21.11.jar";
+            "hash" = "sha512-DDrkIlpQDxG/AP0HBYwMlsuvsMwQEmvBNDYURmFt3x4KiF+aJbT7o74HllzDqxBShyAVMsg1NfuFHiya1sVmWQ==";
+        };
+        _uBREuvf5 = {
+            "id" = "uBREuvf5";
+            "file" = "variants-cit-5.7.1+26.1.2.jar";
+            "hash" = "sha512-7Z+F7t65fNo5Me+gogDXC+fbNaws4gEz9Y/0zmxmNtmXGpnIB+JHH6qKDiTAQgPFmdAz0sFFR8FJSBXCnHpkpA==";
+        };
+        _h8rgXXWW = {
+            "id" = "h8rgXXWW";
+            "file" = "variants-cit-5.7.1+26.3.jar";
+            "hash" = "sha512-gW5eXn5dthhekWNO4n9hgVIQ/BOnirPDkTyoUnN4Mp6dIia0U+n/kHLqc4NBC6jA99L5nnpazB4HHRKUzbgIdA==";
+        };
     in {
         "6PgNWKdT" = _6PgNWKdT;
         "wEkwHyDf" = _wEkwHyDf;
@@ -1112,29 +1142,35 @@ let
         "I207Tba8" = _I207Tba8;
         "PWoHErnd" = _PWoHErnd;
         "ZIvWBpId" = _ZIvWBpId;
+        "hwrTNwrP" = _hwrTNwrP;
+        "Oj5Fretk" = _Oj5Fretk;
+        "92jw0kGc" = _92jw0kGc;
+        "W5gNWX5D" = _W5gNWX5D;
+        "uBREuvf5" = _uBREuvf5;
+        "h8rgXXWW" = _h8rgXXWW;
         "fabric-1.21" = _B5XMHaLw;
         "fabric-1.21.1" = _B5XMHaLw;
         "fabric-1.21.2" = _MJc3OOhz;
         "fabric-1.21.3" = _MJc3OOhz;
         "fabric-1.21.4-pre1" = _1J9Chbde;
-        "fabric-1.21.4" = _xuvsPyPw;
-        "fabric-1.21.5" = _k6fQb675;
-        "fabric-1.21.6" = _u0NZSs58;
-        "fabric-1.21.7" = _u0NZSs58;
-        "fabric-1.21.8" = _u0NZSs58;
-        "fabric-1.21.9" = _I207Tba8;
-        "fabric-1.21.10" = _I207Tba8;
-        "fabric-1.21.11" = _I207Tba8;
+        "fabric-1.21.4" = _Oj5Fretk;
+        "fabric-1.21.5" = _hwrTNwrP;
+        "fabric-1.21.6" = _92jw0kGc;
+        "fabric-1.21.7" = _92jw0kGc;
+        "fabric-1.21.8" = _92jw0kGc;
+        "fabric-1.21.9" = _W5gNWX5D;
+        "fabric-1.21.10" = _W5gNWX5D;
+        "fabric-1.21.11" = _W5gNWX5D;
         "fabric-26.1-rc-1" = _xLQMEGLZ;
         "fabric-26.1-rc-2" = _xLQMEGLZ;
         "fabric-26.1-rc-3" = _xLQMEGLZ;
-        "fabric-26.1" = _PWoHErnd;
-        "fabric-26.1.1" = _PWoHErnd;
-        "fabric-26.1.2" = _PWoHErnd;
-        "fabric-26.2" = _PWoHErnd;
+        "fabric-26.1" = _uBREuvf5;
+        "fabric-26.1.1" = _uBREuvf5;
+        "fabric-26.1.2" = _uBREuvf5;
+        "fabric-26.2" = _uBREuvf5;
         "fabric-26.3-pre-1" = _AMG8x0YN;
         "fabric-26.3-pre-2" = _xBBpjwS7;
-        "fabric-26.3" = _ZIvWBpId;
+        "fabric-26.3" = _h8rgXXWW;
         "pkg-1.0.0+1.21" = _6PgNWKdT;
         "pkg-1.0.1+1.21" = _wEkwHyDf;
         "pkg-1.1.0+1.21.1" = _17Vgv9op;
@@ -1320,7 +1356,13 @@ let
         "pkg-5.7.0+1.21.11" = _I207Tba8;
         "pkg-5.7.0+26.1.2" = _PWoHErnd;
         "pkg-5.7.0+26.3" = _ZIvWBpId;
-        "default" = _ZIvWBpId;
+        "pkg-5.7.1+1.21.5" = _hwrTNwrP;
+        "pkg-5.7.1+1.21.4" = _Oj5Fretk;
+        "pkg-5.7.1+1.21.8" = _92jw0kGc;
+        "pkg-5.7.1+1.21.11" = _W5gNWX5D;
+        "pkg-5.7.1+26.1.2" = _uBREuvf5;
+        "pkg-5.7.1+26.3" = _h8rgXXWW;
+        "default" = _h8rgXXWW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "variants-cit";

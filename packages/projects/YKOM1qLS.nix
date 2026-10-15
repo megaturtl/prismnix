@@ -1,0 +1,90 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _fhzZRGfa = {
+            "id" = "fhzZRGfa";
+            "file" = "arcadia-ah-1.2.5.jar";
+            "hash" = "sha512-b50vy5QUxNj3Po6fgfjL+Kq9hf3jmMjtOf8XLM3oyY2Fk7oI/0tTzFElkNEAOF3WMSC6316WgzwvnEX7MVSFTQ==";
+        };
+        _rZIimL2t = {
+            "id" = "rZIimL2t";
+            "file" = "arcadia-ah-1.2.6.jar";
+            "hash" = "sha512-QFREkFIFtPcoU8PArCz6yyNpsgjEumnq1qM7tkUA/8M7E7KOU2HgbkVbf7XcmnkTAkxt7FbTBommhNn375tkvA==";
+        };
+        _bRn8pERk = {
+            "id" = "bRn8pERk";
+            "file" = "arcadia-ah-1.3.0.jar";
+            "hash" = "sha512-T52GYEUMtmkEajBvjyCVK5fM7FAacXb03CLXiKwzxmKVJfRw2EJz4iGnMFuS+gpNgPTCno13BP9QLvl4G1vFEQ==";
+        };
+        _ocQ3mSYX = {
+            "id" = "ocQ3mSYX";
+            "file" = "arcadia-ah-1.20.1-1.2.6.jar";
+            "hash" = "sha512-h8cgVAeTCFwMrWTbiwRqq9elbU+JLFHKnh4WuNPAsBWqTVJBBlNNIdQJ9eRl94K3+QqBLM8u7RCuL4IMPcra9A==";
+        };
+        _Q5Jvr5eB = {
+            "id" = "Q5Jvr5eB";
+            "file" = "arcadia-ah-1.20.1-1.3.3.jar";
+            "hash" = "sha512-Xz+f+2LABdNBx7KyKyAjFA7fcHFvWsCYTeGURy06VLYAgPsM/kmAPIe/nWz6WwjiIeBUyG7MuObIuk+xPsZSFQ==";
+        };
+        _85bEoY8g = {
+            "id" = "85bEoY8g";
+            "file" = "arcadia-ah-1.3.3.jar";
+            "hash" = "sha512-S0zL6ohv0RGnOTArXYyOmPv+0u4WaxYEJz5VlIKqUwPaxv54TT9ZwwLzDueDBAViGYrR6Ng8FCpkTPg+9Np0sQ==";
+        };
+        _heqsI3al = {
+            "id" = "heqsI3al";
+            "file" = "arcadia-ah-1.20.1-1.3.4.jar";
+            "hash" = "sha512-S9dt3t1HEnpZjfHB1XkTaIpNlAcWQOOruo1HVuk/3f+Y//IZrxvr7a7B871mFVRnXERiMfOCsw0LxjZD636iuA==";
+        };
+        _flumrzNh = {
+            "id" = "flumrzNh";
+            "file" = "arcadia-ah-1.21.1-1.3.4.jar";
+            "hash" = "sha512-VrkLF7L5akYr0xZ4hVV3dUEZiDBpDYj5zcBVh6bfQFSXKmdSRNm/hVrEAZgTXt9uqBfle+01yuN2R81kClncLQ==";
+        };
+        _S1uUjbfn = {
+            "id" = "S1uUjbfn";
+            "file" = "arcadia-ah-1.4.0.jar";
+            "hash" = "sha512-4qNvE+nFvBvPNpvalT6VrdLWF/qkSZz2/DEUYp2yGkv3smG/5ymSNXmteWAl2DDFoTN+8pIfAPWLKMc+mZqVpA==";
+        };
+    in {
+        "fhzZRGfa" = _fhzZRGfa;
+        "rZIimL2t" = _rZIimL2t;
+        "bRn8pERk" = _bRn8pERk;
+        "ocQ3mSYX" = _ocQ3mSYX;
+        "Q5Jvr5eB" = _Q5Jvr5eB;
+        "85bEoY8g" = _85bEoY8g;
+        "heqsI3al" = _heqsI3al;
+        "flumrzNh" = _flumrzNh;
+        "S1uUjbfn" = _S1uUjbfn;
+        "neoforge-1.21.1" = _S1uUjbfn;
+        "forge-1.20.1" = _heqsI3al;
+        "forge-1.20.2" = _heqsI3al;
+        "forge-1.20.3" = _heqsI3al;
+        "forge-1.20.4" = _heqsI3al;
+        "forge-1.20.5" = _heqsI3al;
+        "forge-1.20.6" = _heqsI3al;
+        "pkg-1.2.5" = _fhzZRGfa;
+        "pkg-1.2.6" = _ocQ3mSYX;
+        "pkg-1.3.0" = _bRn8pERk;
+        "pkg-1.3.3" = _85bEoY8g;
+        "pkg-1.3.4" = _flumrzNh;
+        "pkg-1.21.1-1.4.0" = _S1uUjbfn;
+        "default" = _S1uUjbfn;
+    });
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "arcadia-ah";
+        id = "YKOM1qLS";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-All-Rights-Reserved";
+                shortName = "LicenseRef-All-Rights-Reserved";
+                url = null;
+            };
+        };
+    };
+in callPackage fn {}

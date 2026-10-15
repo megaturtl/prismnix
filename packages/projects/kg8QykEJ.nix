@@ -11,9 +11,21 @@ let
             "file" = "armor-stands-with-arms-aswa-0.1.jar";
             "hash" = "sha512-ckWLwlKesT6vOraZuJYYkkKlpLsWce5sGNMhwwh8ZwwM9nQFhc14P0Xv3tu09owVL+RXXkWZZRi0yEvVTbEZcg==";
         };
+        _ffvPCV7v = {
+            "id" = "ffvPCV7v";
+            "file" = "armor_stand_with_arms.zip";
+            "hash" = "sha512-IhRFcqMeR4DIbhS8W6iIJ+hnYCsMMmbg4rEmtUVQTVv5vmKGT9sFHIdNQEVqvVf8Pr6pzZfj9QMNtFylH+HxKA==";
+        };
+        _AbHLad7I = {
+            "id" = "AbHLad7I";
+            "file" = "aswa-0.1.jar";
+            "hash" = "sha512-xQe+kew7EoAZONHo2fO1G2sdh4HdGpaABULAOBJAeAPLC9XdY3xgoAoVM++Ue9m0YcJx0g/1+oqE5Zib2qEYXg==";
+        };
     in {
         "RQPZHmuI" = _RQPZHmuI;
         "t5EjEBZ5" = _t5EjEBZ5;
+        "ffvPCV7v" = _ffvPCV7v;
+        "AbHLad7I" = _AbHLad7I;
         "datapack-1.17" = _RQPZHmuI;
         "datapack-1.17.1" = _RQPZHmuI;
         "datapack-1.18" = _RQPZHmuI;
@@ -33,6 +45,7 @@ let
         "datapack-1.20.6" = _RQPZHmuI;
         "datapack-1.21" = _RQPZHmuI;
         "datapack-1.21.1" = _RQPZHmuI;
+        "datapack-26.3" = _ffvPCV7v;
         "fabric-1.17" = _t5EjEBZ5;
         "fabric-1.17.1" = _t5EjEBZ5;
         "fabric-1.18" = _t5EjEBZ5;
@@ -52,6 +65,7 @@ let
         "fabric-1.20.6" = _t5EjEBZ5;
         "fabric-1.21" = _t5EjEBZ5;
         "fabric-1.21.1" = _t5EjEBZ5;
+        "fabric-26.3" = _AbHLad7I;
         "forge-1.17" = _t5EjEBZ5;
         "forge-1.17.1" = _t5EjEBZ5;
         "forge-1.18" = _t5EjEBZ5;
@@ -71,6 +85,7 @@ let
         "forge-1.20.6" = _t5EjEBZ5;
         "forge-1.21" = _t5EjEBZ5;
         "forge-1.21.1" = _t5EjEBZ5;
+        "forge-26.3" = _AbHLad7I;
         "neoforge-1.17" = _t5EjEBZ5;
         "neoforge-1.17.1" = _t5EjEBZ5;
         "neoforge-1.18" = _t5EjEBZ5;
@@ -90,6 +105,7 @@ let
         "neoforge-1.20.6" = _t5EjEBZ5;
         "neoforge-1.21" = _t5EjEBZ5;
         "neoforge-1.21.1" = _t5EjEBZ5;
+        "neoforge-26.3" = _AbHLad7I;
         "quilt-1.17" = _t5EjEBZ5;
         "quilt-1.17.1" = _t5EjEBZ5;
         "quilt-1.18" = _t5EjEBZ5;
@@ -109,9 +125,10 @@ let
         "quilt-1.20.6" = _t5EjEBZ5;
         "quilt-1.21" = _t5EjEBZ5;
         "quilt-1.21.1" = _t5EjEBZ5;
-        "pkg-0.1" = _RQPZHmuI;
-        "pkg-0.1+mod" = _t5EjEBZ5;
-        "default" = _t5EjEBZ5;
+        "quilt-26.3" = _AbHLad7I;
+        "pkg-0.1" = _ffvPCV7v;
+        "pkg-0.1+mod" = _AbHLad7I;
+        "default" = _AbHLad7I;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "aswa";

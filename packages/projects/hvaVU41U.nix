@@ -426,6 +426,51 @@ let
             "file" = "aerialhell-0.7.7.9_forge1.20.1.jar";
             "hash" = "sha512-xQ6FolHUajTvibLVRQWZ93DvBurq9nNw7/YkzZSyY8/IqLvzRXtknr2K1aDUGKMf3IUhokCpdr/coUWLDtsYUw==";
         };
+        _uOS1x3yv = {
+            "id" = "uOS1x3yv";
+            "file" = "aerialhell-0.7.8_forge1.20.1.jar";
+            "hash" = "sha512-KMo8YroT1hE5wKnMfH0NIzEnXsPyCtcxcKcqnDVxkDd+mD1zlWHn533ZaQaH/Nz9w36hHXb9I51q0lsVI4UAaQ==";
+        };
+        _Ml72cVLB = {
+            "id" = "Ml72cVLB";
+            "file" = "aerialhell-0.7.8_neoforge1.21.1.jar";
+            "hash" = "sha512-lrwGlKGyfOFD5hWi4bN17GAB4vVXLE2gwGTFbJLgomEuj9y8+Re7lo3kt+dB2PN3QZiD/skn3GhDlpIP7OdUAw==";
+        };
+        _ErCwc6iY = {
+            "id" = "ErCwc6iY";
+            "file" = "aerialhell-0.7.8_fabric1.21.1.jar";
+            "hash" = "sha512-kr6vy4co9d+DCW5sD5mEyt8wt4HmyYl3LdEaAqab4wT6z00HYnsNAk/24Dx4A8C1ewDQ7sBrg2bNYGBj5+IuWQ==";
+        };
+        _gVFDOQhX = {
+            "id" = "gVFDOQhX";
+            "file" = "aerialhell-0.7.8_neoforge1.21.11.jar";
+            "hash" = "sha512-+gFTkva5Djm6WmICxP7a3IDuhHedv55c0sqwK9YHMl8/Wzv35fYCWHWsGkKoYKrLPmINJk1S4D7bS5RjIf8Quw==";
+        };
+        _Uha6WYZS = {
+            "id" = "Uha6WYZS";
+            "file" = "aerialhell-0.7.8_fabric1.21.11.jar";
+            "hash" = "sha512-2gfF6LVsPeT96MAegdUnfLZRMxdoESPcku/kQ0V41nf3apsT2OSXmmICYUvhLyC5Xfejz0haVJBOo3MHEEuJqA==";
+        };
+        _hgUgsKiw = {
+            "id" = "hgUgsKiw";
+            "file" = "aerialhell-0.7.8_neoforge26.1.2.jar";
+            "hash" = "sha512-71kKxdOjhu2RuYqB86YXTIhRWpEZMddB6gmDKLBmo6SurzJVZsU2eKjxq46Lp6OeNITXY/Ff90iIfwl+q8Fg6g==";
+        };
+        _J5bJNyfc = {
+            "id" = "J5bJNyfc";
+            "file" = "aerialhell-0.7.8_fabric26.1.2.jar";
+            "hash" = "sha512-LsAT5R8FzgSiNL00cfOCNtuwIv4yYnTIUbr7TS0zcJON4UZTMgoTXiL6h5XhxFgzejCvgTpK6Hmomp5e7CjnKw==";
+        };
+        _KSgootoj = {
+            "id" = "KSgootoj";
+            "file" = "aerialhell-0.7.8_neoforge26.2.jar";
+            "hash" = "sha512-mXonKrCwuMdEIxGXlEPJKAm/JQUxVfSo5WkI2XJOt26edj7gwQwMzDlIAEkYN5MGu39EZ5s6+xavxkurQD/56g==";
+        };
+        _NSUPFM0F = {
+            "id" = "NSUPFM0F";
+            "file" = "aerialhell-0.7.8_fabric26.2.jar";
+            "hash" = "sha512-CcjYFxE/wvuedfruyZJ7EJcNZ2C5AneMosYXMzQek0AumyIBx5r/PFl3xKb1hQZPY1j2PeWqC/+rCdVwnMqObA==";
+        };
     in {
         "5xwVYe7J" = _5xwVYe7J;
         "74Nivs2N" = _74Nivs2N;
@@ -512,25 +557,34 @@ let
         "hCUVG9Z0" = _hCUVG9Z0;
         "uz69qBvZ" = _uz69qBvZ;
         "a6wn08af" = _a6wn08af;
+        "uOS1x3yv" = _uOS1x3yv;
+        "Ml72cVLB" = _Ml72cVLB;
+        "ErCwc6iY" = _ErCwc6iY;
+        "gVFDOQhX" = _gVFDOQhX;
+        "Uha6WYZS" = _Uha6WYZS;
+        "hgUgsKiw" = _hgUgsKiw;
+        "J5bJNyfc" = _J5bJNyfc;
+        "KSgootoj" = _KSgootoj;
+        "NSUPFM0F" = _NSUPFM0F;
         "forge-1.16.5" = _74Nivs2N;
         "forge-1.18.2" = _8vjlMkYM;
-        "forge-1.20.1" = _a6wn08af;
+        "forge-1.20.1" = _uOS1x3yv;
         "forge-1.20.2" = _EA7tJ2xj;
         "forge-1.20.4" = _7bIQ6EdG;
         "neoforge-1.20.6" = _ZuEYywQu;
-        "neoforge-1.21.1" = _yLvM8a4Z;
+        "neoforge-1.21.1" = _Ml72cVLB;
         "neoforge-1.21.8" = _1Zhlr7hh;
-        "neoforge-1.21.11" = _1mWmjEwL;
+        "neoforge-1.21.11" = _gVFDOQhX;
         "neoforge-26.1" = _eAUPDikV;
-        "neoforge-26.1.2" = _gBw4SgGe;
-        "neoforge-26.2" = _hCUVG9Z0;
-        "fabric-1.21.1" = _rgx3jghJ;
+        "neoforge-26.1.2" = _hgUgsKiw;
+        "neoforge-26.2" = _KSgootoj;
+        "fabric-1.21.1" = _ErCwc6iY;
         "fabric-1.21.4" = _2V7UD81l;
         "fabric-1.21.8" = _KBkrVqNz;
-        "fabric-1.21.11" = _3Qa1vOwf;
+        "fabric-1.21.11" = _Uha6WYZS;
         "fabric-26.1" = _kb8mszsL;
-        "fabric-26.1.2" = _PXJXuK4z;
-        "fabric-26.2" = _uz69qBvZ;
+        "fabric-26.1.2" = _J5bJNyfc;
+        "fabric-26.2" = _NSUPFM0F;
         "fabric-1.21.10" = _Ii03emPi;
         "pkg-0.4" = _5xwVYe7J;
         "pkg-0.5" = _74Nivs2N;
@@ -557,7 +611,8 @@ let
         "pkg-0.7.7.7" = _zAzyJAf6;
         "pkg-0.7.7.8" = _oqWOvyLA;
         "pkg-0.7.7.9" = _a6wn08af;
-        "default" = _a6wn08af;
+        "pkg-0.7.8" = _NSUPFM0F;
+        "default" = _NSUPFM0F;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "aerial-hell";

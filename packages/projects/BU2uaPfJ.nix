@@ -91,6 +91,11 @@ let
             "file" = "expandingtechnologies-1.21.1-1.3.4.jar";
             "hash" = "sha512-7pzlsDZ9qlO0lGIoFE6hg+XhdQmsGmmKjxsZexLLT6X3yxTXgGzZQiRK2aM7hpmTT1lzC1Yh0YVwQ+Js6Odm1Q==";
         };
+        _NRzT4xHd = {
+            "id" = "NRzT4xHd";
+            "file" = "expandingtechnologies-1.21.1-1.3.5.jar";
+            "hash" = "sha512-SRXlJIVo/S5PUsIi/Mov3iaR75KUgKMft7i2+cg2IU1wY5z2SvkTGATCk1W4NuQ9jxzUxbr9Mp5hqKsVXnukGw==";
+        };
     in {
         "alyfKPgk" = _alyfKPgk;
         "JwgExi7E" = _JwgExi7E;
@@ -110,11 +115,12 @@ let
         "eGbZzube" = _eGbZzube;
         "8KGb3eZh" = _8KGb3eZh;
         "zpEKhqzP" = _zpEKhqzP;
+        "NRzT4xHd" = _NRzT4xHd;
         "fabric-1.19.2" = _ZVvbvfJ0;
         "fabric-1.20.1" = _QpYsq1K8;
         "forge-1.19.2" = _JTyt3VMx;
         "forge-1.20.1" = _8KGb3eZh;
-        "neoforge-1.21.1" = _zpEKhqzP;
+        "neoforge-1.21.1" = _NRzT4xHd;
         "pkg-1.0.0" = _JwgExi7E;
         "pkg-1.0.1-forge-1.19.2" = _JTyt3VMx;
         "pkg-1.0.1-fabric-1.19.2" = _ZVvbvfJ0;
@@ -131,7 +137,8 @@ let
         "pkg-1.3.2" = _8PXlr8qF;
         "pkg-1.3.3" = _eGbZzube;
         "pkg-1.3.4" = _zpEKhqzP;
-        "default" = _zpEKhqzP;
+        "pkg-1.3.5" = _NRzT4xHd;
+        "default" = _NRzT4xHd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "expandingtechnologies";

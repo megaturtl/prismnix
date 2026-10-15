@@ -741,6 +741,11 @@ let
             "file" = "everrose-1.5.1-neoforge-26.3.jar";
             "hash" = "sha512-QGC/jr5LfSl+y6LICgKt3d6NUF6XBOOZ+qOLXVsbHy75CchGJgClonf3V5gBReKntYzk2WCd8PN7vAS5PJ5Y3g==";
         };
+        _UDZDfrxq = {
+            "id" = "UDZDfrxq";
+            "file" = "everrose-1.5.1-fabric-26.3.jar";
+            "hash" = "sha512-tOGtxdC45RlHivTyRJuS6T7B5eobo1uNg4ugolJFW0qp+VRJZS4nGOM489OL2ogxdeGl6tFO20xeYgJrSOq/BA==";
+        };
     in {
         "tlE2PCed" = _tlE2PCed;
         "SlHz1Tza" = _SlHz1Tza;
@@ -890,6 +895,7 @@ let
         "nEfB9Of8" = _nEfB9Of8;
         "XKN2Mdff" = _XKN2Mdff;
         "bBNfAp6w" = _bBNfAp6w;
+        "UDZDfrxq" = _UDZDfrxq;
         "forge-1.20.2" = _aGWJNxcN;
         "forge-1.20.1" = _U7RZW4i7;
         "forge-1.20.3" = _BOYyyaQy;
@@ -931,6 +937,7 @@ let
         "fabric-1.21.7" = _NRVYvKAt;
         "fabric-1.21.8" = _NRVYvKAt;
         "fabric-1.21.11" = _ryH8JEbW;
+        "fabric-26.3" = _UDZDfrxq;
         "quilt-26.1" = _x2Q3gqUa;
         "quilt-26.1.1" = _x2Q3gqUa;
         "quilt-26.1.2" = _x2Q3gqUa;
@@ -940,6 +947,7 @@ let
         "quilt-1.21.7" = _NRVYvKAt;
         "quilt-1.21.8" = _NRVYvKAt;
         "quilt-1.21.11" = _ryH8JEbW;
+        "quilt-26.3" = _UDZDfrxq;
         "pkg-1.0.0" = _2WcpinQk;
         "pkg-1.0.1" = _VQ0F1whF;
         "pkg-1.1.1" = _EXG3JKVv;
@@ -953,8 +961,8 @@ let
         "pkg-1.4.1.1" = _1ueK9mMx;
         "pkg-1.4.2" = _De4dvyQR;
         "pkg-1.5.0" = _I7VOKpVC;
-        "pkg-1.5.1" = _bBNfAp6w;
-        "default" = _bBNfAp6w;
+        "pkg-1.5.1" = _UDZDfrxq;
+        "default" = _UDZDfrxq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "everrose";

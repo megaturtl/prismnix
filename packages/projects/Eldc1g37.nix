@@ -846,6 +846,11 @@ let
             "file" = "tcdcommons-5.6.0+fn-26.3.jar";
             "hash" = "sha512-ypmC4D73ERdzM9IY2v7ucpCO3RBEmxb6foPfKp/80eO/mUf1kgrW0QEF0uAiaBY0OZ07ipRggYOKeZhl+R7lnA==";
         };
+        _DMLrWt2p = {
+            "id" = "DMLrWt2p";
+            "file" = "tcdcommons-3.12.8+neoforge-1.21.1.jar";
+            "hash" = "sha512-t2eQz2YbzjcgErz8bKjMfPlVMWTEf6KQsqPFUjvD5+NX7/aSl1zn0pcQcg+XYGuhxtLjvfJggbIZqfGAAlzmyw==";
+        };
     in {
         "LTzuOBR9" = _LTzuOBR9;
         "zqYM256z" = _zqYM256z;
@@ -1016,6 +1021,7 @@ let
         "WukH01sC" = _WukH01sC;
         "FwE7UAgA" = _FwE7UAgA;
         "e8CTufLc" = _e8CTufLc;
+        "DMLrWt2p" = _DMLrWt2p;
         "fabric-1.18.2" = _3ozJR9Wg;
         "fabric-1.19.2" = _TDJYcvSZ;
         "fabric-1.19.3" = _o6Y39pqg;
@@ -1075,6 +1081,7 @@ let
         "neoforge-26.1.2" = _uSpV2sxA;
         "neoforge-26.2" = _NM3aWYRR;
         "neoforge-26.3" = _e8CTufLc;
+        "neoforge-1.21.1" = _DMLrWt2p;
         "pkg-v1.0+1.18.2" = _LTzuOBR9;
         "pkg-v1.0+1.19.2" = _zqYM256z;
         "pkg-v2.0+1.18.2" = _CqxoRbpQ;
@@ -1243,7 +1250,8 @@ let
         "pkg-5.6.0-beta.1+fn-26.3" = _WukH01sC;
         "pkg-5.6.0-beta.2+fn-26.3" = _FwE7UAgA;
         "pkg-5.6.0+fn-26.3" = _e8CTufLc;
-        "default" = _e8CTufLc;
+        "pkg-3.12.8+neoforge-1.21.1" = _DMLrWt2p;
+        "default" = _DMLrWt2p;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tcdcommons";

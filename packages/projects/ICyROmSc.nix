@@ -161,6 +161,21 @@ let
             "file" = "enhanced_storage-1.2.2+26.2.jar";
             "hash" = "sha512-BwsykSkepvOjOfG8jS9C1UBiYi0oLtSeYazGgPIJ2BtPyJ9uB9gbkIkO3eGJVye77wMuCkwcDHl66boYlCoc6Q==";
         };
+        _y0ie4rmX = {
+            "id" = "y0ie4rmX";
+            "file" = "enhanced_storage-2.0.0+26.1.2.jar";
+            "hash" = "sha512-OUj77oyP0bcLyNynqlQpvcs/dIU3AzJ0uQuSM7NDd6NocVy066la6LSwwjGqYZW2OwUhGosAJtyR5xtZ4mrYfg==";
+        };
+        _2D09GgZ1 = {
+            "id" = "2D09GgZ1";
+            "file" = "enhanced_storage-2.0.0+26.2.jar";
+            "hash" = "sha512-Afqf1sAtaMV732r+os0ZQIDjZFhs1v+Ewr2PODRVoC8GTugGbGvw3IWNhWie2o+pk4YkW1mDApu+TMo5VwG1Wg==";
+        };
+        _syzLGov9 = {
+            "id" = "syzLGov9";
+            "file" = "enhanced_storage-2.0.0+26.3.jar";
+            "hash" = "sha512-WhbKsQsVfXNassEcF3Zp77DDBJKoWgUuqCxG9RF8kAKqww8K0lBp6YVY9XmaPTnU7Mht8u6NLCMPZCzjkzfpBw==";
+        };
     in {
         "J1UGKgGM" = _J1UGKgGM;
         "QwKvYCfB" = _QwKvYCfB;
@@ -194,10 +209,14 @@ let
         "SRd3xVLt" = _SRd3xVLt;
         "up3pkrWR" = _up3pkrWR;
         "CFmXI13f" = _CFmXI13f;
-        "fabric-26.1" = _up3pkrWR;
-        "fabric-26.1.1" = _up3pkrWR;
-        "fabric-26.1.2" = _up3pkrWR;
-        "fabric-26.2" = _CFmXI13f;
+        "y0ie4rmX" = _y0ie4rmX;
+        "2D09GgZ1" = _2D09GgZ1;
+        "syzLGov9" = _syzLGov9;
+        "fabric-26.1" = _y0ie4rmX;
+        "fabric-26.1.1" = _y0ie4rmX;
+        "fabric-26.1.2" = _y0ie4rmX;
+        "fabric-26.2" = _2D09GgZ1;
+        "fabric-26.3" = _syzLGov9;
         "pkg-v0.1.0-mc26.1.2" = _J1UGKgGM;
         "pkg-v0.2.0-mc26.1.2" = _QwKvYCfB;
         "pkg-v0.3.0-mc26.1.2" = _qIt2izIa;
@@ -229,7 +248,10 @@ let
         "pkg-v1.2.1-mc26.1.2" = _SRd3xVLt;
         "pkg-v1.2.2-mc26.1.2" = _up3pkrWR;
         "pkg-v1.2.2-mc26.2" = _CFmXI13f;
-        "default" = _CFmXI13f;
+        "pkg-v2.0.0-mc26.1.2" = _y0ie4rmX;
+        "pkg-v2.0.0-mc26.2" = _2D09GgZ1;
+        "pkg-v2.0.0-mc26.3" = _syzLGov9;
+        "default" = _syzLGov9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skyblock-enhanced-storage";

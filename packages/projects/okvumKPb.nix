@@ -191,6 +191,11 @@ let
             "file" = "farmtweaks-2.3a-26.1.jar";
             "hash" = "sha512-d0BXOxYFuW82Ry5RCNE979RClD5STfgObapH29aeWeTSBiNLvst3lY80Y9+LUyzUsicj3HQkOmCJO1bzTl2u/w==";
         };
+        _3MoE0Aj6 = {
+            "id" = "3MoE0Aj6";
+            "file" = "farmtweaks-2.3a-26.1-patch.jar";
+            "hash" = "sha512-nBMebYMkV0QVivnPw96LwkUmi4g5y79E99qwLxlmepvgVtZgy9TJvxo1gqU69gN5FtuIsyytiPX+zhnc6A8Uyg==";
+        };
     in {
         "vgFwCTpy" = _vgFwCTpy;
         "J8pVNLes" = _J8pVNLes;
@@ -230,6 +235,7 @@ let
         "XhQWVRbm" = _XhQWVRbm;
         "1Rwl4l40" = _1Rwl4l40;
         "H3pt7jDS" = _H3pt7jDS;
+        "3MoE0Aj6" = _3MoE0Aj6;
         "fabric-1.20" = _sDmGL71X;
         "fabric-1.20.1" = _sDmGL71X;
         "fabric-1.20.2" = _pSJpJKTi;
@@ -249,10 +255,10 @@ let
         "fabric-1.21.9" = _zPiBsWzJ;
         "fabric-1.21.10" = _zPiBsWzJ;
         "fabric-1.21.11" = _8WyJW1mZ;
-        "fabric-26.1" = _H3pt7jDS;
-        "fabric-26.1.1" = _H3pt7jDS;
-        "fabric-26.1.2" = _H3pt7jDS;
-        "fabric-26.2" = _H3pt7jDS;
+        "fabric-26.1" = _3MoE0Aj6;
+        "fabric-26.1.1" = _3MoE0Aj6;
+        "fabric-26.1.2" = _3MoE0Aj6;
+        "fabric-26.2" = _3MoE0Aj6;
         "fabric-26.3" = _1Rwl4l40;
         "pkg-1.0+1.20" = _vgFwCTpy;
         "pkg-1.0+1.20.1" = _J8pVNLes;
@@ -292,7 +298,8 @@ let
         "pkg-2.3-26.3" = _XhQWVRbm;
         "pkg-2.3a" = _1Rwl4l40;
         "pkg-2.3a-26.1" = _H3pt7jDS;
-        "default" = _H3pt7jDS;
+        "pkg-2.3a-26.1-patch" = _3MoE0Aj6;
+        "default" = _3MoE0Aj6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "farmtweaks";

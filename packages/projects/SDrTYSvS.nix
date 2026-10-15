@@ -211,6 +211,11 @@ let
             "file" = "hearty-meals-fabric-26.3-r1.jar";
             "hash" = "sha512-IxmX9m6mv96XlrUGT3baX6CDWM5NgZcmJE/tvGVWOmpWK5FyxA7sSqQFazq3vweJGATHz1Nz/IJfk2v1csrhWw==";
         };
+        _v6DeMu52 = {
+            "id" = "v6DeMu52";
+            "file" = "hearty-meals-neoforge-26.2-r5.jar";
+            "hash" = "sha512-vZCeQjtP9/mOWAYKWvtzOfGIdJ1wZJDrKetCPKxASkGV8sgGmHZ51FpUI1kgIDpcdUJ+MvvTDXJ8IQxl/NaDWQ==";
+        };
     in {
         "rhwfMu9L" = _rhwfMu9L;
         "CUJUMz0c" = _CUJUMz0c;
@@ -254,6 +259,7 @@ let
         "2EGcybkk" = _2EGcybkk;
         "Fg0qgesV" = _Fg0qgesV;
         "5F0FQ6m0" = _5F0FQ6m0;
+        "v6DeMu52" = _v6DeMu52;
         "fabric-1.20.1" = _zNw0ihOn;
         "fabric-1.20.6" = _wSq2Yk0f;
         "fabric-1.21" = _kd4u2hPI;
@@ -294,6 +300,7 @@ let
         "neoforge-26.1" = _2EGcybkk;
         "neoforge-26.1.1" = _2EGcybkk;
         "neoforge-26.1.2" = _2EGcybkk;
+        "neoforge-26.2" = _v6DeMu52;
         "pkg-1.20-1" = _rhwfMu9L;
         "pkg-1.20-2" = _CUJUMz0c;
         "pkg-1.20-3" = _Xtg67x2e;
@@ -331,9 +338,9 @@ let
         "pkg-26.2-r4" = _yovjqBzr;
         "pkg-26.1-r3" = _qWGa1VBP;
         "pkg-26.1-r4" = _2EGcybkk;
-        "pkg-26.2-r5" = _Fg0qgesV;
+        "pkg-26.2-r5" = _v6DeMu52;
         "pkg-26.3-r1" = _5F0FQ6m0;
-        "default" = _5F0FQ6m0;
+        "default" = _v6DeMu52;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hearty-meals";

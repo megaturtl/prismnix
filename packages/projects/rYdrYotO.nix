@@ -116,6 +116,26 @@ let
             "file" = "autopath-mc1.20.4-1.5.jar";
             "hash" = "sha512-H+apxjBxpKhIgsHQIfrf0bp8pGMIXnwcQ4WcrI9Ew2RvaAbLJmbajJn3c1uJJ68zAevSqFDg6uMNUMtVjMaesw==";
         };
+        _5QOG3vDg = {
+            "id" = "5QOG3vDg";
+            "file" = "autopath-mc1.21.11-1.5.jar";
+            "hash" = "sha512-3O6aw9uGRaTVvwLHkmk14mko5KdRhuiNy0GhaphFRpcgV09CqXAI03ARoc74QwFQMUqj7hE+5oAosQwmLC1jJw==";
+        };
+        _EhMd446s = {
+            "id" = "EhMd446s";
+            "file" = "autopath-mc1.20.1-1.5.1.jar";
+            "hash" = "sha512-+YseOPu8RE04fi51uHHYNhQ+jGLmBAMEHXipyEzoqZGFmKs+ZhqR3prmtn4IP2or3TaNorHZw1ikbhxi/oi57g==";
+        };
+        _qPiWX4kb = {
+            "id" = "qPiWX4kb";
+            "file" = "autopath-mc1.21.11-1.5.1.jar";
+            "hash" = "sha512-wXJUAx4C6s5G0rpKkbcNVYxmLdDNMoYhocUvxbbI698FRI7dy6f+cOLagT2fP5kMEf+XIplJxJuIhhQCTCTldw==";
+        };
+        _QjfGXTDk = {
+            "id" = "QjfGXTDk";
+            "file" = "autopath-mc1.21.1-1.5.1.jar";
+            "hash" = "sha512-XW728v32P5KbE1wl4Vky0vBuYsgGn2o6YICpXafg3JQq1jD1brGyrTN1DC0PySX5qr5V/pIvcPlJhvL9dEss5w==";
+        };
     in {
         "znpxELzE" = _znpxELzE;
         "nqifD57E" = _nqifD57E;
@@ -140,6 +160,10 @@ let
         "QTzMRd0O" = _QTzMRd0O;
         "DmGgo7WX" = _DmGgo7WX;
         "w2WyKtqM" = _w2WyKtqM;
+        "5QOG3vDg" = _5QOG3vDg;
+        "EhMd446s" = _EhMd446s;
+        "qPiWX4kb" = _qPiWX4kb;
+        "QjfGXTDk" = _QjfGXTDk;
         "fabric-1.16.5" = _tkn3lz81;
         "fabric-1.17-pre1" = _F3vg1vky;
         "fabric-1.17" = _ge1657e1;
@@ -152,9 +176,11 @@ let
         "fabric-1.19.2" = _CsYQQcLZ;
         "fabric-1.19.3" = _Mp6ULinB;
         "fabric-1.19.4" = _UtklRiqi;
-        "fabric-1.20.1" = _QTzMRd0O;
+        "fabric-1.20.1" = _EhMd446s;
         "fabric-1.20.2" = _DmGgo7WX;
         "fabric-1.20.4" = _w2WyKtqM;
+        "fabric-1.21.11" = _qPiWX4kb;
+        "fabric-1.21.1" = _QjfGXTDk;
         "pkg-1.0.0" = _znpxELzE;
         "pkg-1.1.0" = _nqifD57E;
         "pkg-1.2.0" = _jkpFzkG8;
@@ -170,7 +196,11 @@ let
         "pkg-1.4.8" = _DLUEFL46;
         "pkg-1.4.9" = _Mp6ULinB;
         "pkg-1.5" = _w2WyKtqM;
-        "default" = _w2WyKtqM;
+        "pkg-1.5+mc1.21.11" = _5QOG3vDg;
+        "pkg-1.5.1+mc1.20.1" = _EhMd446s;
+        "pkg-1.5.1+mc1.21.11" = _qPiWX4kb;
+        "pkg-1.5.1+mc1.21.1" = _QjfGXTDk;
+        "default" = _QjfGXTDk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "autopath";

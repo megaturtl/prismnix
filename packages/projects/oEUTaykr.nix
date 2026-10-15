@@ -81,6 +81,16 @@ let
             "file" = "gardentrails-forge-1.20.1-0.1.12.jar";
             "hash" = "sha512-ZtZu7vXMvoPqBWpLb+HXPsneVHHIbxbtm8pHhX1st+Ue3/7UFUpSgjH5saRM9kfh8ApISxcmbhIZexUJ8HXwcA==";
         };
+        _cqgfB8A8 = {
+            "id" = "cqgfB8A8";
+            "file" = "Garden Trails-fabric-1.20.1-0.1.13.jar";
+            "hash" = "sha512-Ke09m8Kl4Eq7Zz4bCdURRudEcz+q0LdB8rOoo0u0iIR8ktcUgZ/30lSP+AyuQhHUIQ3+c9Up8xJfvNDByrNBRA==";
+        };
+        _uaNBK2aM = {
+            "id" = "uaNBK2aM";
+            "file" = "gardentrails-forge-1.20.1-0.1.13.jar";
+            "hash" = "sha512-mtMfUVJWcJcOrnapNazLOLSxcvkAYurAG2vBewtc5X5FcQxqywJqmRAF7HdfLUVL4XksVPWLDTmMP0Qly4nZtw==";
+        };
     in {
         "3udInYq1" = _3udInYq1;
         "R03F1ZsQ" = _R03F1ZsQ;
@@ -98,9 +108,11 @@ let
         "O661Dd6e" = _O661Dd6e;
         "bHFoP2Ly" = _bHFoP2Ly;
         "wVgpXFQU" = _wVgpXFQU;
-        "fabric-1.20.1" = _bHFoP2Ly;
+        "cqgfB8A8" = _cqgfB8A8;
+        "uaNBK2aM" = _uaNBK2aM;
+        "fabric-1.20.1" = _cqgfB8A8;
         "fabric-1.21.1" = _O661Dd6e;
-        "forge-1.20.1" = _wVgpXFQU;
+        "forge-1.20.1" = _uaNBK2aM;
         "neoforge-1.21.1" = _i2460df2;
         "pkg-0.1.5" = _R03F1ZsQ;
         "pkg-0.1.6" = _WtSKcoAY;
@@ -110,7 +122,8 @@ let
         "pkg-0.2.1" = _HQh59NdN;
         "pkg-0.2.2" = _O661Dd6e;
         "pkg-0.1.12" = _wVgpXFQU;
-        "default" = _wVgpXFQU;
+        "pkg-0.1.13" = _uaNBK2aM;
+        "default" = _uaNBK2aM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "garden-trails";

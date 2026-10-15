@@ -141,6 +141,11 @@ let
             "file" = "through_the_lilypads_gently--mc26.3--fab--1.3.2.jar";
             "hash" = "sha512-WkyYvOFnCk6UW3OkJhv3rpyZMrFFCruw+fhOV5QapmP9Xxomp9is8SKwhrA6Uj6pjDPnrxlGgAz+M19mA1Ednw==";
         };
+        _yyPGTjWn = {
+            "id" = "yyPGTjWn";
+            "file" = "through_the_lilypads_gently--mc26.3--nf--1.3.2.jar";
+            "hash" = "sha512-nRrs6xCqrGg13+6jkBOmo7DR64prQqPeRGciEsqTnMmw9f/0UT7ULRSGwf9hGv+OEIJf+cwnRwsJggt50V/BGQ==";
+        };
     in {
         "eIO3LaOh" = _eIO3LaOh;
         "6GDNEcoR" = _6GDNEcoR;
@@ -170,6 +175,7 @@ let
         "JkWeMT7C" = _JkWeMT7C;
         "H5yxbt5f" = _H5yxbt5f;
         "oo4sCNp0" = _oo4sCNp0;
+        "yyPGTjWn" = _yyPGTjWn;
         "fabric-1.20.1" = _YK7vK1pB;
         "fabric-1.19.2" = _6GDNEcoR;
         "fabric-1.20.2" = _nhCBeHuA;
@@ -202,6 +208,7 @@ let
         "neoforge-26.1.1" = _JkWeMT7C;
         "neoforge-26.1.2" = _JkWeMT7C;
         "neoforge-26.2" = _MV5CFVgL;
+        "neoforge-26.3" = _yyPGTjWn;
         "pkg-1.0" = _eIO3LaOh;
         "pkg-1.1" = _18DsK64w;
         "pkg-1.1.1" = _mtqqp4PD;
@@ -210,8 +217,8 @@ let
         "pkg-1.2.2" = _s2TDF12W;
         "pkg-1.2.3" = _d7bFC8AY;
         "pkg-1.3.1" = _oo4sCNp0;
-        "pkg-1.3.2" = _JkWeMT7C;
-        "default" = _oo4sCNp0;
+        "pkg-1.3.2" = _yyPGTjWn;
+        "default" = _yyPGTjWn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "through-the-lily-pads-gently";

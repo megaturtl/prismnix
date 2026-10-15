@@ -141,6 +141,26 @@ let
             "file" = "letsdo-wildernature-fabric-1.1.6.jar";
             "hash" = "sha512-gq87lFMr1KvKVVes63X+WOpvjgl+lRGCPo6hBjO/RPr6H8msMNTJI4WBKcgKUoTovzxnO9YDkdSbEE6m0lV5Iw==";
         };
+        _jfSEPEML = {
+            "id" = "jfSEPEML";
+            "file" = "letsdo-wildernature-neoforge-1.1.7.jar";
+            "hash" = "sha512-7WJx5jjftN7Xy07RwXwgDy+r11C4XJczvW6zyjyusaG8NaV4aJkb3v3cV8CW7oDySCJfRl/JaQF9YlqLNRjP3A==";
+        };
+        _2KItSWon = {
+            "id" = "2KItSWon";
+            "file" = "letsdo-wildernature-fabric-1.1.7.jar";
+            "hash" = "sha512-LkR3K0zHTQw53WWu/+wyNskjoCW8X358qoaqvNxTuFlwAISdt/mQ4vZR8ZewB8dANwHmeB/S3SYRYTOW9wmFUA==";
+        };
+        _iwC56pNh = {
+            "id" = "iwC56pNh";
+            "file" = "letsdo-wildernature-neoforge-1.1.8.jar";
+            "hash" = "sha512-9ml24tfZcd6tghOE1obypvrAdlQAqOpgoibyW/zMNGDTI1a3m7HI/Es59I12jOsiEgGfd7w0TZ+bAjJ3oc3egA==";
+        };
+        _z8Eb5lpS = {
+            "id" = "z8Eb5lpS";
+            "file" = "letsdo-wildernature-fabric-1.1.8.jar";
+            "hash" = "sha512-X9COq+ZKicv7xzdgbqwYCfSs9FM+JxhBTO9gGepPvBt1MjdsaHdd/c4R6+EVNUcBn75t+lssCjz9S2uX7yl1vg==";
+        };
     in {
         "GvJw7BSd" = _GvJw7BSd;
         "FzRLwHfB" = _FzRLwHfB;
@@ -170,11 +190,15 @@ let
         "lAqY1FlJ" = _lAqY1FlJ;
         "jwvFJJGi" = _jwvFJJGi;
         "BRIgSDra" = _BRIgSDra;
+        "jfSEPEML" = _jfSEPEML;
+        "2KItSWon" = _2KItSWon;
+        "iwC56pNh" = _iwC56pNh;
+        "z8Eb5lpS" = _z8Eb5lpS;
         "forge-1.20.1" = _MOt4yaRr;
         "neoforge-1.20.1" = _qR7hZ2XI;
-        "neoforge-1.21.1" = _jwvFJJGi;
+        "neoforge-1.21.1" = _iwC56pNh;
         "fabric-1.20.1" = _mRS9jw1s;
-        "fabric-1.21.1" = _BRIgSDra;
+        "fabric-1.21.1" = _z8Eb5lpS;
         "quilt-1.20.1" = _6IzdThGc;
         "pkg-1.0.0" = _FzRLwHfB;
         "pkg-1.0.1" = _7dA3FcQ5;
@@ -190,7 +214,9 @@ let
         "pkg-1.1.4" = _wY2foDNg;
         "pkg-1.1.5" = _lAqY1FlJ;
         "pkg-1.1.6" = _BRIgSDra;
-        "default" = _BRIgSDra;
+        "pkg-1.1.7" = _2KItSWon;
+        "pkg-1.1.8" = _z8Eb5lpS;
+        "default" = _z8Eb5lpS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lets-do-wildernature";

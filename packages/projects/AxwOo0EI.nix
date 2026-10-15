@@ -36,6 +36,11 @@ let
             "file" = "avatar-legend-reforged-1.2.0.jar";
             "hash" = "sha512-BHFPoYn+Dciy8Dvc/NzbUxdwfUdV0eVlzZEpMS13NYldEyRLAvicGX6xGBXkzzWL2fAPURWGx75mmo3FFxMcLg==";
         };
+        _fmzrmmu5 = {
+            "id" = "fmzrmmu5";
+            "file" = "avatar-legend-reforged-1.2.1.jar";
+            "hash" = "sha512-eFZQe6I41hucMbrsIN3A3JJp4o7Py3x7TNoV4CZWFgsyqMOpQhDXj0Wr0NsPuY6zn1efXUeE/VJDw9q6waLWEg==";
+        };
     in {
         "5kac4oHu" = _5kac4oHu;
         "MBr1v5WJ" = _MBr1v5WJ;
@@ -44,7 +49,8 @@ let
         "rRodSALC" = _rRodSALC;
         "y2ne6qQL" = _y2ne6qQL;
         "MbWPIC9c" = _MbWPIC9c;
-        "neoforge-1.21.1" = _MbWPIC9c;
+        "fmzrmmu5" = _fmzrmmu5;
+        "neoforge-1.21.1" = _fmzrmmu5;
         "pkg-1.0.0" = _5kac4oHu;
         "pkg-1.0.1" = _MBr1v5WJ;
         "pkg-1.0.2" = _CogSMtmd;
@@ -52,7 +58,8 @@ let
         "pkg-1.1.0" = _rRodSALC;
         "pkg-1.1.1" = _y2ne6qQL;
         "pkg-1.2.0" = _MbWPIC9c;
-        "default" = _MbWPIC9c;
+        "pkg-1.2.1" = _fmzrmmu5;
+        "default" = _fmzrmmu5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "avatar-legend-reforged";

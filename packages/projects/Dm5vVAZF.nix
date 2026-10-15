@@ -51,6 +51,11 @@ let
             "file" = "crosshairfx-1.0.8+26.1.jar";
             "hash" = "sha512-ouT9BYah9EkJ+T9FWws/lb4vl+ksHB9tZ8y7wS0TwCTuw1ubbLpKB6duBWLY2tza5ZDPpk7ObTOqRHyjv4zbvA==";
         };
+        _pdfU9ZXw = {
+            "id" = "pdfU9ZXw";
+            "file" = "crosshairfx-1.0.8+26.3.jar";
+            "hash" = "sha512-JM13BNuYl5qUjDL75/7SBR9vRfOUfiAYbDixxI+z0T+YnJFVzMIgUvW4+YYV/i7ox5tKRwSXxfWBY4nEvrl14A==";
+        };
     in {
         "CvywzlaY" = _CvywzlaY;
         "eM85z4ZJ" = _eM85z4ZJ;
@@ -62,6 +67,7 @@ let
         "PHlIapsA" = _PHlIapsA;
         "wmE3CIhp" = _wmE3CIhp;
         "ezMQ2bsd" = _ezMQ2bsd;
+        "pdfU9ZXw" = _pdfU9ZXw;
         "fabric-1.21.2" = _eM85z4ZJ;
         "fabric-1.21.3" = _wmE3CIhp;
         "fabric-1.21.4" = _wmE3CIhp;
@@ -75,6 +81,7 @@ let
         "fabric-26.1" = _ezMQ2bsd;
         "fabric-26.1.1" = _ezMQ2bsd;
         "fabric-26.1.2" = _ezMQ2bsd;
+        "fabric-26.3" = _pdfU9ZXw;
         "pkg-1.0.0" = _CvywzlaY;
         "pkg-1.0.1" = _eM85z4ZJ;
         "pkg-1.0.3+1.21.8" = _gOamGCFa;
@@ -85,7 +92,8 @@ let
         "pkg-1.0.7+1.21.11" = _PHlIapsA;
         "pkg-1.0.8+1.21.11" = _wmE3CIhp;
         "pkg-1.0.8+26.1" = _ezMQ2bsd;
-        "default" = _ezMQ2bsd;
+        "pkg-1.0.8+26.3" = _pdfU9ZXw;
+        "default" = _pdfU9ZXw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crosshairfx";

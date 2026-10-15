@@ -41,6 +41,11 @@ let
             "file" = "OldBabies-1.4.jar";
             "hash" = "sha512-3F9x/WZbus/muPU0sOfHIv8xh/w5kzkqHSo5VT4ADHyTb6z2MptUoVlCbHDIqUxdAdbT06tsWiDALptUipiwdQ==";
         };
+        _KVZI59MJ = {
+            "id" = "KVZI59MJ";
+            "file" = "OldBabies-1.5.jar";
+            "hash" = "sha512-3jjoXPj+HUMjIyo/JWovKlyNu47tPwPUJOSc1Z0Hk4kpU4jKbjRQ6iL+L41wZGrJEOvDA9w6EXYDfTdYYXkn+Q==";
+        };
     in {
         "W5aJBLhQ" = _W5aJBLhQ;
         "Oo8UMn6n" = _Oo8UMn6n;
@@ -50,13 +55,15 @@ let
         "3w1HNiKT" = _3w1HNiKT;
         "WOvVJSgU" = _WOvVJSgU;
         "VRSMt7ar" = _VRSMt7ar;
+        "KVZI59MJ" = _KVZI59MJ;
         "fabric-26.1-snapshot-4" = _W5aJBLhQ;
         "fabric-26.1-snapshot-5" = _Oo8UMn6n;
         "fabric-26.1-snapshot-6" = _ysDt4Gtx;
         "fabric-26.1" = _WOvVJSgU;
         "fabric-26.1.1" = _WOvVJSgU;
         "fabric-26.1.2" = _WOvVJSgU;
-        "fabric-26.2" = _VRSMt7ar;
+        "fabric-26.2" = _KVZI59MJ;
+        "fabric-26.3" = _KVZI59MJ;
         "pkg-1.0-beta" = _W5aJBLhQ;
         "pkg-1.0-beta-2" = _Oo8UMn6n;
         "pkg-1.0-beta-3" = _ysDt4Gtx;
@@ -65,7 +72,8 @@ let
         "pkg-1.2" = _3w1HNiKT;
         "pkg-1.3" = _WOvVJSgU;
         "pkg-1.4" = _VRSMt7ar;
-        "default" = _VRSMt7ar;
+        "pkg-1.5" = _KVZI59MJ;
+        "default" = _KVZI59MJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "old-babies";
