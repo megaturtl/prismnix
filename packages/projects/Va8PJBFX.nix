@@ -276,6 +276,11 @@ let
             "file" = "renderscale-1.4.0-alpha.6-forge+1.20.1.jar";
             "hash" = "sha512-4zyWk6moViQv0T2VTGz7cpeiMTepVjyS3SscCz04+V92f/qNLwAq8mv5AdLfOyhYAqnCgi+5BkddS7BbAv+2RA==";
         };
+        _5vAF6Ow0 = {
+            "id" = "5vAF6Ow0";
+            "file" = "renderscale-2.0.0-beta.1-fabric+26.3.jar";
+            "hash" = "sha512-v3+XpeDzS+bo9etFDWUD/zhOFMIYzh3Ev8tXvTDA0meAUYeG1mj0l7tQAVx2hLM+zt2+aukpXalWxpVoguH2OA==";
+        };
     in {
         "7ljaYSV1" = _7ljaYSV1;
         "PXdpgdd9" = _PXdpgdd9;
@@ -332,6 +337,7 @@ let
         "6Nkvnjig" = _6Nkvnjig;
         "iblXBD5E" = _iblXBD5E;
         "d0MZaE1U" = _d0MZaE1U;
+        "5vAF6Ow0" = _5vAF6Ow0;
         "fabric-1.21.4" = _9Ka6PhI5;
         "fabric-1.21" = _O20pSCYu;
         "fabric-1.21.1" = _M1xg3WY3;
@@ -347,7 +353,7 @@ let
         "fabric-26.1.2" = _VOWPqRuK;
         "fabric-1.20.1" = _iblXBD5E;
         "fabric-26.2" = _EJ7KZw6k;
-        "fabric-26.3" = _Qr4y3YLK;
+        "fabric-26.3" = _5vAF6Ow0;
         "neoforge-1.21.4" = _yvpdyyJg;
         "neoforge-1.21" = _TbNBGRW9;
         "neoforge-1.21.1" = _ia1WQxLW;
@@ -399,7 +405,8 @@ let
         "pkg-1.4.0-alpha.6-neoforge+26.3" = _6Nkvnjig;
         "pkg-1.4.0-alpha.6-fabric+1.20.1" = _iblXBD5E;
         "pkg-1.4.0-alpha.6-forge+1.20.1" = _d0MZaE1U;
-        "default" = _d0MZaE1U;
+        "pkg-2.0.0-beta.1-fabric+26.3" = _5vAF6Ow0;
+        "default" = _5vAF6Ow0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "renderscale";

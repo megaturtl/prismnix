@@ -661,6 +661,16 @@ let
             "file" = "flex_hud-1.2.1-26.3-fabric.jar";
             "hash" = "sha512-w6DWSm2PbebcXTfgjsOoujCBG8HUkPGfJOcY74mL6x9N6mK2qOPoOa3AZe6yUQVeExpklEBfEk6tkYbSZsfZYw==";
         };
+        _awshlCfX = {
+            "id" = "awshlCfX";
+            "file" = "flex_hud-1.2.2-1.21.6-fabric.jar";
+            "hash" = "sha512-qRWv16l+j+XOjvqL3CP02B2wUhVltsd4aCG6tICNG/Ns5A/lxdjA7+SN+V/wFol+8iMnkjyP4cTNFxwPJNpJyg==";
+        };
+        _IylWnogq = {
+            "id" = "IylWnogq";
+            "file" = "flex_hud-1.2.2-1.21.6-neoforge.jar";
+            "hash" = "sha512-JKiAj37qT9VlFfZM7tqi7haW9e71HvSMpF5WzLlOTqNfn76nykb1/UC4PWCx1GGX8f6qAIwMEY1Ft5bj/xAVfQ==";
+        };
     in {
         "Lrk1Lp4P" = _Lrk1Lp4P;
         "qxOVDmPu" = _qxOVDmPu;
@@ -794,13 +804,15 @@ let
         "jbQhVd0p" = _jbQhVd0p;
         "PeWQiQIs" = _PeWQiQIs;
         "yHmmLie1" = _yHmmLie1;
-        "fabric-1.21.8" = _Yycc0qh0;
+        "awshlCfX" = _awshlCfX;
+        "IylWnogq" = _IylWnogq;
+        "fabric-1.21.8" = _awshlCfX;
         "fabric-1.21.9" = _wIyvdVCu;
         "fabric-1.21.10" = _wIyvdVCu;
         "fabric-1.21.4" = _MxQB5jB9;
         "fabric-1.21.5" = _km97dQ04;
-        "fabric-1.21.6" = _Yycc0qh0;
-        "fabric-1.21.7" = _Yycc0qh0;
+        "fabric-1.21.6" = _awshlCfX;
+        "fabric-1.21.7" = _awshlCfX;
         "fabric-1.21.11" = _MZZGbKvC;
         "fabric-26.1" = _FrPY0vv0;
         "fabric-26.1.1" = _FrPY0vv0;
@@ -809,9 +821,9 @@ let
         "fabric-26.3" = _yHmmLie1;
         "neoforge-1.21.4" = _dwdYZHLV;
         "neoforge-1.21.5" = _m9M08bvY;
-        "neoforge-1.21.6" = _OLqOF2PN;
-        "neoforge-1.21.7" = _OLqOF2PN;
-        "neoforge-1.21.8" = _OLqOF2PN;
+        "neoforge-1.21.6" = _IylWnogq;
+        "neoforge-1.21.7" = _IylWnogq;
+        "neoforge-1.21.8" = _IylWnogq;
         "neoforge-1.21.9" = _HOc80N7Y;
         "neoforge-1.21.10" = _HOc80N7Y;
         "neoforge-1.21.11" = _PpKUXvyV;
@@ -866,7 +878,8 @@ let
         "pkg-1.2.1-26.1" = _FrPY0vv0;
         "pkg-1.2.1-26.2" = _jbQhVd0p;
         "pkg-1.2.1-26.3" = _yHmmLie1;
-        "default" = _yHmmLie1;
+        "pkg-1.2.2-1.21.6" = _IylWnogq;
+        "default" = _IylWnogq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "flexhud";

@@ -56,6 +56,16 @@ let
             "file" = "Cobblemon Cosmetic Expansion.zip";
             "hash" = "sha512-SfLJvZpsVhstPPznEs5HMw9th255V3h7kt12CQ28sILwuPdG8OGJ7FmcdEldGV4EM0X8ayOx8BwrD7SC2hOI2g==";
         };
+        _Qu4FFChR = {
+            "id" = "Qu4FFChR";
+            "file" = "cobblemon_Cosmetic_Expansion.zip";
+            "hash" = "sha512-tLD1CGH4Z4KVQmAR7Kby/7Xm9EBbwG+XMAedSjpJ0zgwX5S5rlzO+Xf+dw8VEjAg9H4/hUBU15BSIoy94ijZjg==";
+        };
+        _onZcHLjv = {
+            "id" = "onZcHLjv";
+            "file" = "cobblemon_Cosmetic_Expansion.zip";
+            "hash" = "sha512-1a5Vt2rLV7h3LfYt1qq1vNJ4mUenRtQKDDK9FiY0WqvpA1DOACtAo7YnvPHPluzaoQjHavrSZOosEdGg3xAWgA==";
+        };
     in {
         "y6312Deq" = _y6312Deq;
         "ZxjHD0lC" = _ZxjHD0lC;
@@ -68,9 +78,11 @@ let
         "Iwn6G4Ou" = _Iwn6G4Ou;
         "LjjRgWkr" = _LjjRgWkr;
         "gTFs79qr" = _gTFs79qr;
-        "datapack-1.21.1" = _gTFs79qr;
+        "Qu4FFChR" = _Qu4FFChR;
+        "onZcHLjv" = _onZcHLjv;
+        "datapack-1.21.1" = _onZcHLjv;
         "datapack-1.21" = _xEMEjd3V;
-        "minecraft-1.21.1" = _gTFs79qr;
+        "minecraft-1.21.1" = _onZcHLjv;
         "pkg-1.0" = _y6312Deq;
         "pkg-1.3" = _ZxjHD0lC;
         "pkg-1.4" = _rAkixea1;
@@ -81,7 +93,9 @@ let
         "pkg-1.4.4" = _SLVKDOGz;
         "pkg-1.5" = _LjjRgWkr;
         "pkg-2.0" = _gTFs79qr;
-        "default" = _gTFs79qr;
+        "pkg-2.1.0" = _Qu4FFChR;
+        "pkg-2.1.1" = _onZcHLjv;
+        "default" = _onZcHLjv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-cosmetic-expansion";

@@ -41,6 +41,11 @@ let
             "file" = "anti-inv-1.0.0.jar";
             "hash" = "sha512-5Kb85MLVb7XfXnQET1o3fm5F432spnHipCax6rwsZTEIwRUStC+NOhE4G6JAd57Pj6HozsQ+3LcpnHxIkiGcXQ==";
         };
+        _FgX1bWXT = {
+            "id" = "FgX1bWXT";
+            "file" = "anti-inv-1.0.0.jar";
+            "hash" = "sha512-/2qDWViTcIKwJEwH4dZt4UbeHHQ8I5FyPgORfNAdpNcdDM+VpLTKTBoPRyjTm6JWEDG/UsAWzDjXVhAVFy95pw==";
+        };
     in {
         "jw5lWZHR" = _jw5lWZHR;
         "mB2CFp5O" = _mB2CFp5O;
@@ -50,6 +55,7 @@ let
         "kFluism0" = _kFluism0;
         "fbHJ9qqn" = _fbHJ9qqn;
         "NVGUfByy" = _NVGUfByy;
+        "FgX1bWXT" = _FgX1bWXT;
         "fabric-1.21.4" = _jw5lWZHR;
         "fabric-1.21.5" = _mB2CFp5O;
         "fabric-1.21.3" = _g6SF4M70;
@@ -59,6 +65,7 @@ let
         "fabric-1.21.11" = _kFluism0;
         "fabric-26.1.2" = _fbHJ9qqn;
         "fabric-26.2" = _NVGUfByy;
+        "fabric-26.3" = _FgX1bWXT;
         "pkg-1.0.0" = _jw5lWZHR;
         "pkg-1.0.1" = _mB2CFp5O;
         "pkg-0.9.9" = _g6SF4M70;
@@ -67,7 +74,8 @@ let
         "pkg-1.0.2" = _kFluism0;
         "pkg-1.0.3" = _fbHJ9qqn;
         "pkg-1.0.4" = _NVGUfByy;
-        "default" = _NVGUfByy;
+        "pkg-1.0.5" = _FgX1bWXT;
+        "default" = _FgX1bWXT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "anti-invisibility";

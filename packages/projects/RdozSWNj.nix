@@ -131,6 +131,11 @@ let
             "file" = "BreakingPlace-neoforge-1.21-1.21.11-2.0.1-beta.jar";
             "hash" = "sha512-JqaDzoEYZrXqBi4iShiSE2NWDdD9Yaz0X7hYRKHTgII/L+6aRyvYQjuspeyTKfanLN4E8utUOFz7aa5+l7CJWA==";
         };
+        _tipR5CwC = {
+            "id" = "tipR5CwC";
+            "file" = "BreakingPlace-neoforge-1.21-1.21.11-2.0.2.jar";
+            "hash" = "sha512-IqetOUH7q8oswwdiLvs4mUYrA0DGJM9BnlHuVTrR1I2RfyumxUbW2s2vjMaTLxRAX5oq5qpUxeY65K3hh/7kHw==";
+        };
     in {
         "igPMgGWI" = _igPMgGWI;
         "g9RjEIh4" = _g9RjEIh4;
@@ -158,6 +163,7 @@ let
         "pqSLf5LQ" = _pqSLf5LQ;
         "6d09HFu4" = _6d09HFu4;
         "9WJy5St6" = _9WJy5St6;
+        "tipR5CwC" = _tipR5CwC;
         "fabric-1.21.1" = _pqSLf5LQ;
         "fabric-1.21.2" = _igPMgGWI;
         "fabric-1.21.3" = _igPMgGWI;
@@ -192,23 +198,23 @@ let
         "fabric-1.18" = _pqSLf5LQ;
         "fabric-1.18.1" = _pqSLf5LQ;
         "fabric-1.21" = _pqSLf5LQ;
-        "neoforge-1.21.1" = _9WJy5St6;
-        "neoforge-1.21.2" = _9WJy5St6;
-        "neoforge-1.21.3" = _9WJy5St6;
-        "neoforge-1.21.4" = _9WJy5St6;
-        "neoforge-1.21.5" = _9WJy5St6;
-        "neoforge-1.21.6" = _9WJy5St6;
-        "neoforge-1.21.7" = _9WJy5St6;
-        "neoforge-1.21.8" = _9WJy5St6;
-        "neoforge-1.21.9" = _9WJy5St6;
-        "neoforge-1.21.10" = _9WJy5St6;
-        "neoforge-1.21.11" = _9WJy5St6;
+        "neoforge-1.21.1" = _tipR5CwC;
+        "neoforge-1.21.2" = _tipR5CwC;
+        "neoforge-1.21.3" = _tipR5CwC;
+        "neoforge-1.21.4" = _tipR5CwC;
+        "neoforge-1.21.5" = _tipR5CwC;
+        "neoforge-1.21.6" = _tipR5CwC;
+        "neoforge-1.21.7" = _tipR5CwC;
+        "neoforge-1.21.8" = _tipR5CwC;
+        "neoforge-1.21.9" = _tipR5CwC;
+        "neoforge-1.21.10" = _tipR5CwC;
+        "neoforge-1.21.11" = _tipR5CwC;
         "neoforge-26.1" = _ekbjRMKd;
         "neoforge-26.1.1" = _ekbjRMKd;
         "neoforge-26.1.2" = _ekbjRMKd;
         "neoforge-26.2" = _C7flDMoF;
         "neoforge-26.3" = _5rWtIYPR;
-        "neoforge-1.21" = _9WJy5St6;
+        "neoforge-1.21" = _tipR5CwC;
         "forge-1.21.1" = _9MkQlJGP;
         "forge-1.21.2" = _9MkQlJGP;
         "forge-1.21.3" = _9MkQlJGP;
@@ -242,7 +248,8 @@ let
         "pkg-1.0.0" = _kReDjDkT;
         "pkg-2.0.0-beta" = _KN3aldIz;
         "pkg-2.0.1-beta" = _9WJy5St6;
-        "default" = _9WJy5St6;
+        "pkg-2.0.2" = _tipR5CwC;
+        "default" = _tipR5CwC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "breaking-place";

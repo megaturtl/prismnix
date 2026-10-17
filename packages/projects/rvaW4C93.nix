@@ -601,6 +601,56 @@ let
             "file" = "neovitae-1.21.1-1.1.38.jar";
             "hash" = "sha512-lkyFdn6GDgSO70ncj8c2/Jm/mUjsZzIR28ikGcPJqzgpXta8VY9vjdC8HvPTOOp72YJubMVUI0KZ/HsG4jsldA==";
         };
+        _hpBpYCWc = {
+            "id" = "hpBpYCWc";
+            "file" = "neovitae-26.1.2-1.1.39.jar";
+            "hash" = "sha512-oLS8mX+9AqEs9WOxg+7RCPfSHekP+PkcjLsw/eSKYQJl7mKrxcKGgJei5G6+am/CMt1ap/Kc8y0TS+sD+u9AeA==";
+        };
+        _vfu5VNHH = {
+            "id" = "vfu5VNHH";
+            "file" = "neovitae-1.21.1-1.1.39.jar";
+            "hash" = "sha512-gPLWGjPaEMz7yKcA8x1VslDfGURO+bM6Tmvluf1qgBu5nOLGwNbqVXa9v7tYGp2eaoKZh9MDskyhQtyiFFW6fw==";
+        };
+        _5mtWFsUx = {
+            "id" = "5mtWFsUx";
+            "file" = "neovitae-1.21.1-1.1.40.jar";
+            "hash" = "sha512-/s43wYlWq5AkOxemdqS2QCkepeKlruvd3V0s94yZgCf7JEDjJIVCm3UIPU1TULV+3Ie/+3C1r76QLknsNlSnUA==";
+        };
+        _2OxlhRGL = {
+            "id" = "2OxlhRGL";
+            "file" = "neovitae-26.1.2-1.1.40.jar";
+            "hash" = "sha512-dR3wmh5nJtK/YBMaq7N0EvvNJO0t8/5IAtMC5/+zCZb/dDLGjkFoTIoHmtVazJEyrq9pwC9cNykYMR3zfBThiQ==";
+        };
+        _LirOG8Gy = {
+            "id" = "LirOG8Gy";
+            "file" = "neovitae-26.1.2-1.1.41.jar";
+            "hash" = "sha512-MKHt6gn7DPoxiMLzyzRLz9SnTK9ebIU40Kw7CfKsyLnFKqPPkzSbd+WW2LKEOeszOAhUSaIRdPYiu0PJMqQeQw==";
+        };
+        _a1DsZiRn = {
+            "id" = "a1DsZiRn";
+            "file" = "neovitae-1.21.1-1.1.41.jar";
+            "hash" = "sha512-PIfDt4hqnEM2wd97rZXNfnBTZ381Ll4ZMmeclh7w2KHVTfwhsmJBID6zaPNsMrPkCeufMODkPjTTahC/AqbbmA==";
+        };
+        _YqJyHfiE = {
+            "id" = "YqJyHfiE";
+            "file" = "neovitae-1.21.1-1.1.42.jar";
+            "hash" = "sha512-2/CJ4WIb3RVGEMEqkeVrGC8LIExCy+zxDUe/MTi3GeZXm+g6FMnno0L4dlCS8kJGGxGCJSD3TQ0z4wER4BwnjA==";
+        };
+        _WVAdv4Nf = {
+            "id" = "WVAdv4Nf";
+            "file" = "neovitae-26.1.2-1.1.42.jar";
+            "hash" = "sha512-XCrbVQnXEASKACqNMicS81FHBexiIi9ssuKnGrdaUxCPN4w/PAFILXube05E2ro7FwSpoiui89h7Cok5Kf7UTw==";
+        };
+        _11B3DQyy = {
+            "id" = "11B3DQyy";
+            "file" = "neovitae-1.21.1-1.1.43.jar";
+            "hash" = "sha512-orfDqfJB8RumKTNtvc5mU8K49prMlnbWRwlCHXzGcEIuF3qPBsUJZHSlZavzM6m+g2qO86o3pZ/LiT81r/Sa5A==";
+        };
+        _E10o7dmz = {
+            "id" = "E10o7dmz";
+            "file" = "neovitae-26.1.2-1.1.43.jar";
+            "hash" = "sha512-cZ0ilA8hrjD3f+87Z8dAR1+TF0UPav9hsKSzzae3QviJT5FX9fm/iLeoSyacmSgiGm1zHeWP7/ZecF1CKkoq1Q==";
+        };
     in {
         "BiznzMYW" = _BiznzMYW;
         "LnPRMiPL" = _LnPRMiPL;
@@ -722,8 +772,18 @@ let
         "NFc1CY74" = _NFc1CY74;
         "hTUXIyo0" = _hTUXIyo0;
         "83v7ZLMn" = _83v7ZLMn;
-        "neoforge-1.21.1" = _83v7ZLMn;
-        "neoforge-26.1.2" = _hTUXIyo0;
+        "hpBpYCWc" = _hpBpYCWc;
+        "vfu5VNHH" = _vfu5VNHH;
+        "5mtWFsUx" = _5mtWFsUx;
+        "2OxlhRGL" = _2OxlhRGL;
+        "LirOG8Gy" = _LirOG8Gy;
+        "a1DsZiRn" = _a1DsZiRn;
+        "YqJyHfiE" = _YqJyHfiE;
+        "WVAdv4Nf" = _WVAdv4Nf;
+        "11B3DQyy" = _11B3DQyy;
+        "E10o7dmz" = _E10o7dmz;
+        "neoforge-1.21.1" = _11B3DQyy;
+        "neoforge-26.1.2" = _E10o7dmz;
         "pkg-3.4.0-2-beta" = _BiznzMYW;
         "pkg-1.21.1-1.0.0" = _LnPRMiPL;
         "pkg-1.21.1-1.0.1" = _ZB23S51J;
@@ -838,7 +898,17 @@ let
         "pkg-1.21.1-1.1.37" = _NFc1CY74;
         "pkg-26.1.2-1.1.38" = _hTUXIyo0;
         "pkg-1.21.1-1.1.38" = _83v7ZLMn;
-        "default" = _83v7ZLMn;
+        "pkg-26.1.2-1.1.39" = _hpBpYCWc;
+        "pkg-1.21.1-1.1.39" = _vfu5VNHH;
+        "pkg-1.21.1-1.1.40" = _5mtWFsUx;
+        "pkg-26.1.2-1.1.40" = _2OxlhRGL;
+        "pkg-26.1.2-1.1.41" = _LirOG8Gy;
+        "pkg-1.21.1-1.1.41" = _a1DsZiRn;
+        "pkg-1.21.1-1.1.42" = _YqJyHfiE;
+        "pkg-26.1.2-1.1.42" = _WVAdv4Nf;
+        "pkg-1.21.1-1.1.43" = _11B3DQyy;
+        "pkg-26.1.2-1.1.43" = _E10o7dmz;
+        "default" = _E10o7dmz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "neovitae";

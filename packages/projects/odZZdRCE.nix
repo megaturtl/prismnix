@@ -211,6 +211,16 @@ let
             "file" = "ATM x MSD [v4.0].zip";
             "hash" = "sha512-luS0XlfFGD/1nL4tetK3Q7Q4SsOT9O2cagLmNq87fB8k2P3NmayKh2nBcS+RetqTb3qSoNkd9Hs7Dd9JhjL2gg==";
         };
+        _wv45Td2y = {
+            "id" = "wv45Td2y";
+            "file" = "ATM x MSD [v5.0].zip";
+            "hash" = "sha512-veMedtn1IjSE716KkDp4nbtcK9CWVNbSxqKhKbrYZOsdbBPZVhHXnFF1OlTWpCl+woLLsghtv4ZKD9tWgj+cwQ==";
+        };
+        _qCn31XSy = {
+            "id" = "qCn31XSy";
+            "file" = "ATM x MSD [v5.0].jar";
+            "hash" = "sha512-Edc3JFKRgKt6K0mGyz/h9YeuWSQ7BdY0kGPD5rY6iXRNKPbaza4XRi20A+tqa4VA7DhOoSRyxMMIgA+AjZUQlQ==";
+        };
     in {
         "52SLtydY" = _52SLtydY;
         "BZ7ftiz2" = _BZ7ftiz2;
@@ -254,8 +264,12 @@ let
         "VhwUZj8K" = _VhwUZj8K;
         "3kfULKvo" = _3kfULKvo;
         "2JPClXSG" = _2JPClXSG;
-        "datapack-1.21.1" = _2JPClXSG;
-        "minecraft-1.21.1" = _2JPClXSG;
+        "wv45Td2y" = _wv45Td2y;
+        "qCn31XSy" = _qCn31XSy;
+        "datapack-1.21.1" = _wv45Td2y;
+        "minecraft-1.21.1" = _wv45Td2y;
+        "fabric-1.21.1" = _qCn31XSy;
+        "neoforge-1.21.1" = _qCn31XSy;
         "pkg-v1.0" = _52SLtydY;
         "pkg-v1.1" = _BZ7ftiz2;
         "pkg-v1.2" = _nIGKbQrl;
@@ -298,7 +312,8 @@ let
         "pkg-v3.6.1" = _VhwUZj8K;
         "pkg-v3.7.0" = _3kfULKvo;
         "pkg-v4.0" = _2JPClXSG;
-        "default" = _2JPClXSG;
+        "pkg-v5.0" = _qCn31XSy;
+        "default" = _qCn31XSy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "allthemons-x-mega-showdown-legacy";

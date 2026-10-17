@@ -66,6 +66,11 @@ let
             "file" = "archipelago-1.1.2.jar";
             "hash" = "sha512-FxTdP2unnRBtrSa+9KJn2ViSEh9NlM3M4nsu7VlDv2ro5T0oVhJc9kxhAUXxJhcCR13JNQNepqEUPAUg80wQlA==";
         };
+        _yn17BZQ5 = {
+            "id" = "yn17BZQ5";
+            "file" = "archipelago-1.2.0.jar";
+            "hash" = "sha512-LsDm0bh+RTOslrZ6DOrPFZbrd8xkASxgtclgTn0xTnikzitm13+zmycX0oZv5glEJYIGOHJGCsI4vK+/n5edhQ==";
+        };
     in {
         "iJVAocG9" = _iJVAocG9;
         "dAZ9f3ql" = _dAZ9f3ql;
@@ -80,7 +85,8 @@ let
         "Fh2KFGWr" = _Fh2KFGWr;
         "Y6ZTKwWU" = _Y6ZTKwWU;
         "8eYezCG5" = _8eYezCG5;
-        "fabric-1.20.1" = _8eYezCG5;
+        "yn17BZQ5" = _yn17BZQ5;
+        "fabric-1.20.1" = _yn17BZQ5;
         "pkg-1.0.0-Alpha" = _iJVAocG9;
         "pkg-1.0.1-Alpha" = _dAZ9f3ql;
         "pkg-1.0.2-Alpha" = _iQ3qXoCp;
@@ -94,7 +100,8 @@ let
         "pkg-1.1.1" = _Fh2KFGWr;
         "pkg-1.1.1.1" = _Y6ZTKwWU;
         "pkg-1.1.2" = _8eYezCG5;
-        "default" = _8eYezCG5;
+        "pkg-1.2.0" = _yn17BZQ5;
+        "default" = _yn17BZQ5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "archipelago-mod";

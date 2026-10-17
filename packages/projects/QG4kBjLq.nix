@@ -586,6 +586,11 @@ let
             "file" = "Common Sense (NeoForge 1.21.1) V1.5.12.jar";
             "hash" = "sha512-bbBJddXxpJDpRI4FfhniYF2m1NRZHjHNa2P0IfAwH6ImRGYk+vEAdBWmbJ8Y7cuat8QBwIO1iEBDN+Esnxmekw==";
         };
+        _dDupewQi = {
+            "id" = "dDupewQi";
+            "file" = "Common Sense (NeoForge 1.21.1) V1.6.0.jar";
+            "hash" = "sha512-nl0upTgUBU7oj6kDXc2D6ETPMbtwl/alro0gpUDx0X2YuIgelBXsq6UZlycaMF8f1WkblFiETO5RW+KymDA57g==";
+        };
     in {
         "4QbaKbbK" = _4QbaKbbK;
         "GgspiFFA" = _GgspiFFA;
@@ -704,6 +709,7 @@ let
         "lyLtMkiI" = _lyLtMkiI;
         "K2suZZfc" = _K2suZZfc;
         "kDyW9yID" = _kDyW9yID;
+        "dDupewQi" = _dDupewQi;
         "forge-1.19.2" = _9Uw9mVar;
         "forge-1.19.4" = _AkFtt4Pc;
         "forge-1.18.2" = _dgGssKhA;
@@ -716,7 +722,7 @@ let
         "neoforge-1.20.1" = _jErM0HM0;
         "neoforge-1.20.4" = _r7iGtN3p;
         "neoforge-1.20.6" = _3ZFbKune;
-        "neoforge-1.21.1" = _kDyW9yID;
+        "neoforge-1.21.1" = _dDupewQi;
         "neoforge-1.21.4" = _qBP8P1Mn;
         "neoforge-1.21.8" = _pDoJve8v;
         "neoforge-26.1.2" = _23PSyyGv;
@@ -797,7 +803,8 @@ let
         "pkg-1.5.10" = _lyLtMkiI;
         "pkg-1.5.11" = _K2suZZfc;
         "pkg-1.5.12" = _kDyW9yID;
-        "default" = _kDyW9yID;
+        "pkg-1.6.0" = _dDupewQi;
+        "default" = _dDupewQi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-common-sense";

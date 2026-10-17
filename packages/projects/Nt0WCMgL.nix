@@ -96,6 +96,21 @@ let
             "file" = "nohunger-2.1.0.0.jar";
             "hash" = "sha512-8LlnO8A8rAfbFvRBmXZd2NGVrsNAR4BI9jM7LmcFE2IB+bGmO/UmEogsA9OyD7aqZxRPTlAIKuWjINNGHtzahQ==";
         };
+        _4kBmEx9a = {
+            "id" = "4kBmEx9a";
+            "file" = "nohunger-3.0.0.0-beta.jar";
+            "hash" = "sha512-igVAUY1HTvUlXk9pa9P0ACy+c5Y6P2redFWLu+p+vo/JzRVeenEj1i8uPz+PrXAvTKAW6cXpaKDxvobuDOfA2w==";
+        };
+        _CkSEuYpY = {
+            "id" = "CkSEuYpY";
+            "file" = "nohunger-2.1.0.1.jar";
+            "hash" = "sha512-szA3ZP6t23T0tbeZBrARkDpSrK1mvaV971p2j1aTwutfj/euZjFB4lU7xzAvg40yEve9HP3yetM5E3EvcVzEZQ==";
+        };
+        _zVGMJ0Yk = {
+            "id" = "zVGMJ0Yk";
+            "file" = "nohunger-3.0.0.1-beta.jar";
+            "hash" = "sha512-jqyAhgATzCQ+fXC0HmMz0AIfog52SFC36FfnYNy6cZxl7LYKUkP9H+X0iiVRGbf9OJ+iOtOD3l9chSW+RYEbBA==";
+        };
     in {
         "klYjiIOI" = _klYjiIOI;
         "JvNOVLLQ" = _JvNOVLLQ;
@@ -116,13 +131,17 @@ let
         "xbPfPmIh" = _xbPfPmIh;
         "hCC0NV7l" = _hCC0NV7l;
         "ZWsAa5Wf" = _ZWsAa5Wf;
+        "4kBmEx9a" = _4kBmEx9a;
+        "CkSEuYpY" = _CkSEuYpY;
+        "zVGMJ0Yk" = _zVGMJ0Yk;
         "forge-1.20.1" = _s48a6BHo;
         "forge-1.20.2" = _Klr8p62h;
         "forge-1.20.3" = _Klr8p62h;
         "forge-1.20.4" = _Klr8p62h;
         "forge-1.20.5" = _Klr8p62h;
         "forge-1.20.6" = _Klr8p62h;
-        "neoforge-1.21.1" = _ZWsAa5Wf;
+        "neoforge-1.21.1" = _CkSEuYpY;
+        "neoforge-26.1.2" = _zVGMJ0Yk;
         "pkg-1.1.0" = _klYjiIOI;
         "pkg-1.1.1" = _JvNOVLLQ;
         "pkg-1.1.2" = _Klr8p62h;
@@ -142,7 +161,10 @@ let
         "pkg-2.0.2.1" = _xbPfPmIh;
         "pkg-2.0.2.2" = _hCC0NV7l;
         "pkg-2.1.0.0" = _ZWsAa5Wf;
-        "default" = _ZWsAa5Wf;
+        "pkg-3.0.0.0-beta" = _4kBmEx9a;
+        "pkg-2.1.0.1" = _CkSEuYpY;
+        "pkg-3.0.0.1-beta" = _zVGMJ0Yk;
+        "default" = _zVGMJ0Yk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "no-hunger";

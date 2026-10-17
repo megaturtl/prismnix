@@ -716,6 +716,16 @@ let
             "file" = "nemos-woodcutter-NeoForge-26.3-1.15.2.jar";
             "hash" = "sha512-BkUcziuu6dry3EnPTcrwkpnCIo+LPJzlITCe5XzpoKtozpWrkVVjab/T3mTWRY8M1NLGgzRJt2lM4/h9Mrfb2Q==";
         };
+        _RZRNsf2J = {
+            "id" = "RZRNsf2J";
+            "file" = "nemos-woodcutter-Fabric-26.3-1.15.3.jar";
+            "hash" = "sha512-xpTGs1RDiAiI1kZGkOB9Lh+FciN0aXWYAt2UudJ5HvQZB9tlMpJotnrimCi43XCLQ6AOL16n2XcxOJz8rbkHwA==";
+        };
+        _qWTwP514 = {
+            "id" = "qWTwP514";
+            "file" = "nemos-woodcutter-NeoForge-26.3-1.15.3.jar";
+            "hash" = "sha512-7QMlxLEeLxuH1sKln2dmCwu0C0b738l5YhPQUSZI0DUg7VCg4Zycl7zSNYNFwNpYb1aKDwKLgggI+Ok/qWlQvw==";
+        };
     in {
         "EZtx2LkY" = _EZtx2LkY;
         "JjpCSHgT" = _JjpCSHgT;
@@ -860,6 +870,8 @@ let
         "MjwIQjsJ" = _MjwIQjsJ;
         "qbbRUJhD" = _qbbRUJhD;
         "soE9XeO5" = _soE9XeO5;
+        "RZRNsf2J" = _RZRNsf2J;
+        "qWTwP514" = _qWTwP514;
         "fabric-1.20.1" = _blsVX40z;
         "fabric-1.20.2" = _BhoXzV3s;
         "fabric-1.20" = _RVsdsvtX;
@@ -882,7 +894,7 @@ let
         "fabric-1.21.11" = _q7Myyhad;
         "fabric-26.1.2" = _LDuJoufW;
         "fabric-26.2" = _tMkoXyHV;
-        "fabric-26.3" = _qbbRUJhD;
+        "fabric-26.3" = _RZRNsf2J;
         "neoforge-1.21.2" = _Tb2bRSbo;
         "neoforge-1.21.3" = _Tb2bRSbo;
         "neoforge-1.21.4" = _jgpL2CCy;
@@ -894,7 +906,7 @@ let
         "neoforge-1.21.11" = _rYIOWSol;
         "neoforge-26.1.2" = _tlIZ6NYD;
         "neoforge-26.2" = _MufQ25Uq;
-        "neoforge-26.3" = _soE9XeO5;
+        "neoforge-26.3" = _qWTwP514;
         "forge-1.21.2" = _vNWEs0bc;
         "forge-1.21.3" = _vNWEs0bc;
         "forge-1.21.4" = _aefYbN7Z;
@@ -989,7 +1001,8 @@ let
         "pkg-26.3-1.15" = _81k9G36i;
         "pkg-26.3-1.15.1" = _MjwIQjsJ;
         "pkg-26.3-1.15.2" = _soE9XeO5;
-        "default" = _soE9XeO5;
+        "pkg-26.3-1.15.3" = _qWTwP514;
+        "default" = _qWTwP514;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nemos-woodcutter";

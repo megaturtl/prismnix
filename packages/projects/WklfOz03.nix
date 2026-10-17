@@ -141,6 +141,26 @@ let
             "file" = "disable_front_camera-fabric-1.2.12.jar";
             "hash" = "sha512-uvcczd4VIZxNOX8aMc6GiNjco692BWemA4EW//25w1FEy4k+LN9rq9XJnUBO9bADRxPrK5jPG+AEcv8u2958WQ==";
         };
+        _x7UOM3Ks = {
+            "id" = "x7UOM3Ks";
+            "file" = "disable_front_camera-1.2.13.jar";
+            "hash" = "sha512-omuB5ERY3SMC6J1gB9B+JCmpGuQfnvFst7ubK442gnokKC7HhRMee0cLQtQuyGxnXZV5jLf5+n7ct1vc+drDoA==";
+        };
+        _QemHRTI2 = {
+            "id" = "QemHRTI2";
+            "file" = "disable_front_camera-fabric-1.2.13.jar";
+            "hash" = "sha512-UW/3S2QMnaukjHgV43P926t3wD9bfVemEyX6H+oi7VsA7VBHseC+A5HOuPIxCgkCpRaQea8eDHYFyqigHCCyYw==";
+        };
+        _SqnRVHYP = {
+            "id" = "SqnRVHYP";
+            "file" = "disable_front_camera-1.2.14.jar";
+            "hash" = "sha512-WXK5zc7h3SrbD1VI5RBwWfmnBBLrQmFGgzHSm6ZaEu0x2x/lG2coQhpvdX/86/DJmwMszrLjN/RWsH3iYcZdSA==";
+        };
+        _lMoH65l3 = {
+            "id" = "lMoH65l3";
+            "file" = "disable_front_camera-fabric-1.2.14.jar";
+            "hash" = "sha512-GaBsJ7jUXw1gBq9brBfBilrm/7MyFchVI/IpfP8VqPdPrk5spaWs3/SpW/FUBtbo+QrQarXTBBBOMlGmCZwi9A==";
+        };
     in {
         "4ap5APJd" = _4ap5APJd;
         "3E97gk2Z" = _3E97gk2Z;
@@ -170,28 +190,32 @@ let
         "TS3FcM92" = _TS3FcM92;
         "gSS7thCV" = _gSS7thCV;
         "v6DgfDnK" = _v6DgfDnK;
+        "x7UOM3Ks" = _x7UOM3Ks;
+        "QemHRTI2" = _QemHRTI2;
+        "SqnRVHYP" = _SqnRVHYP;
+        "lMoH65l3" = _lMoH65l3;
         "neoforge-1.21" = _4ap5APJd;
-        "neoforge-1.21.1" = _gSS7thCV;
-        "neoforge-1.21.2" = _gSS7thCV;
-        "neoforge-1.21.3" = _gSS7thCV;
-        "neoforge-1.21.4" = _gSS7thCV;
-        "neoforge-1.21.5" = _gSS7thCV;
-        "neoforge-1.21.6" = _gSS7thCV;
-        "neoforge-1.21.7" = _gSS7thCV;
-        "neoforge-1.21.8" = _gSS7thCV;
-        "neoforge-1.21.9" = _gSS7thCV;
-        "neoforge-1.21.10" = _gSS7thCV;
-        "neoforge-1.21.11" = _gSS7thCV;
-        "neoforge-26.1" = _gSS7thCV;
-        "neoforge-26.1.1" = _gSS7thCV;
-        "neoforge-26.1.2" = _gSS7thCV;
-        "neoforge-26.2" = _gSS7thCV;
-        "neoforge-26.3" = _gSS7thCV;
-        "fabric-26.1" = _v6DgfDnK;
-        "fabric-26.1.1" = _v6DgfDnK;
-        "fabric-26.1.2" = _v6DgfDnK;
-        "fabric-26.2" = _v6DgfDnK;
-        "fabric-26.3" = _v6DgfDnK;
+        "neoforge-1.21.1" = _SqnRVHYP;
+        "neoforge-1.21.2" = _SqnRVHYP;
+        "neoforge-1.21.3" = _SqnRVHYP;
+        "neoforge-1.21.4" = _SqnRVHYP;
+        "neoforge-1.21.5" = _SqnRVHYP;
+        "neoforge-1.21.6" = _SqnRVHYP;
+        "neoforge-1.21.7" = _SqnRVHYP;
+        "neoforge-1.21.8" = _SqnRVHYP;
+        "neoforge-1.21.9" = _SqnRVHYP;
+        "neoforge-1.21.10" = _SqnRVHYP;
+        "neoforge-1.21.11" = _SqnRVHYP;
+        "neoforge-26.1" = _SqnRVHYP;
+        "neoforge-26.1.1" = _SqnRVHYP;
+        "neoforge-26.1.2" = _SqnRVHYP;
+        "neoforge-26.2" = _SqnRVHYP;
+        "neoforge-26.3" = _SqnRVHYP;
+        "fabric-26.1" = _lMoH65l3;
+        "fabric-26.1.1" = _lMoH65l3;
+        "fabric-26.1.2" = _lMoH65l3;
+        "fabric-26.2" = _lMoH65l3;
+        "fabric-26.3" = _lMoH65l3;
         "pkg-1.0.0" = _4ap5APJd;
         "pkg-1.1.0" = _3E97gk2Z;
         "pkg-1.2.0" = _dnOavKKg;
@@ -220,7 +244,11 @@ let
         "pkg-1.2.11+fabric" = _TS3FcM92;
         "pkg-1.2.12" = _gSS7thCV;
         "pkg-1.2.12+fabric" = _v6DgfDnK;
-        "default" = _v6DgfDnK;
+        "pkg-1.2.13" = _x7UOM3Ks;
+        "pkg-1.2.13+fabric" = _QemHRTI2;
+        "pkg-1.2.14" = _SqnRVHYP;
+        "pkg-1.2.14+fabric" = _lMoH65l3;
+        "default" = _lMoH65l3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "disable-front-camera";

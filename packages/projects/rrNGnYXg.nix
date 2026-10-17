@@ -126,6 +126,11 @@ let
             "file" = "drivebysable-r2.0.2.jar";
             "hash" = "sha512-V+8gwlM2Ec9yo7JT1u6HiuPHUwEWgQjcO8Q4SjfkxReSXs6HXWsdJaAt8wj4d631TYB26QgoDaRUHIL9biOqLg==";
         };
+        _WRUXBxY0 = {
+            "id" = "WRUXBxY0";
+            "file" = "drivebysable-r2.0.3.jar";
+            "hash" = "sha512-D+gnQbHuJd9NlGOz2nL8jsA0vJgk+uz0H8lv0LtBWzAjRm0tzaBbr485AJ+MwN8KFUK3+M2oxpiFx6q+4vxPsQ==";
+        };
     in {
         "xPVb7Czo" = _xPVb7Czo;
         "9cldlEdA" = _9cldlEdA;
@@ -152,8 +157,9 @@ let
         "VV2dzSFp" = _VV2dzSFp;
         "C1o9bfLb" = _C1o9bfLb;
         "9U5xWb1T" = _9U5xWb1T;
+        "WRUXBxY0" = _WRUXBxY0;
         "neoforge-1.21" = _Czgtazvp;
-        "neoforge-1.21.1" = _9U5xWb1T;
+        "neoforge-1.21.1" = _WRUXBxY0;
         "pkg-0.0.1" = _xPVb7Czo;
         "pkg-0.0.2" = _9cldlEdA;
         "pkg-0.0.3" = _Czgtazvp;
@@ -179,7 +185,8 @@ let
         "pkg-r2.0.0" = _VV2dzSFp;
         "pkg-r2.0.1" = _C1o9bfLb;
         "pkg-r2.0.2" = _9U5xWb1T;
-        "default" = _9U5xWb1T;
+        "pkg-r2.0.3" = _WRUXBxY0;
+        "default" = _WRUXBxY0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "drive-by-sable";

@@ -46,6 +46,16 @@ let
             "file" = "CopycatsPlus-26.1-to-26.1.2.jar";
             "hash" = "sha512-8qn0VpG4Tcjg36ucOB0O4dzvqeVBBISqxJv3Ci3HyFvu4mLBDfXPNp5SU58kbYtht9Rt+G5dGXJmdAxYNP7slg==";
         };
+        _joM20Aon = {
+            "id" = "joM20Aon";
+            "file" = "Copycats+-Fabric-26.2-v1.16.jar";
+            "hash" = "sha512-29Ue6UkOf1Gv6d9TogAIosrMmvMNw26HKX7QsUqiDrlKIYx+31DOmFyPsiI84Yam4lxJ9LIw67cZdQDCp8xcNg==";
+        };
+        _BX6pGJUC = {
+            "id" = "BX6pGJUC";
+            "file" = "Copycats+-Fabric-26.1+-v1.16.jar";
+            "hash" = "sha512-gR/K7jiMekHEw6ASVRQ+M6Mj8WpMexQnLGo2iHal2DGyRvKbViQcPa8AfQUDFoF0Kn8vEZgv9b8yGykZF1kkcQ==";
+        };
     in {
         "ApTVlZRN" = _ApTVlZRN;
         "rS672lYr" = _rS672lYr;
@@ -56,13 +66,17 @@ let
         "BWKL0Sem" = _BWKL0Sem;
         "khQfHrm0" = _khQfHrm0;
         "7hAtknvS" = _7hAtknvS;
-        "fabric-26.1.2" = _7hAtknvS;
-        "fabric-26.2" = _khQfHrm0;
-        "fabric-26.1" = _7hAtknvS;
-        "fabric-26.1.1" = _7hAtknvS;
+        "joM20Aon" = _joM20Aon;
+        "BX6pGJUC" = _BX6pGJUC;
+        "fabric-26.1.2" = _BX6pGJUC;
+        "fabric-26.2" = _joM20Aon;
+        "fabric-26.1" = _BX6pGJUC;
+        "fabric-26.1.1" = _BX6pGJUC;
         "pkg-3.0.7-createfly+mc.26.1.2" = _7hAtknvS;
         "pkg-3.0.7-createfly+mc.26.2" = _khQfHrm0;
-        "default" = _7hAtknvS;
+        "pkg-Copycats+-Fabric-26.2-v1.16" = _joM20Aon;
+        "pkg-Copycats+-Fabric-26.1+-v1.16" = _BX6pGJUC;
+        "default" = _BX6pGJUC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "copycats+-createfly-port";

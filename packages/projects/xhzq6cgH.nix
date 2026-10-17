@@ -71,6 +71,21 @@ let
             "file" = "multihud-1.21.1-2.6.5.jar";
             "hash" = "sha512-ALNZUr388TPAMvzzw1hhTS+M1EHXTPWA6CrbPzIda9crH+iMh6lfl2J9+82NKEm2DT29SIe4GJkMwed4Pcc7lw==";
         };
+        _qmq8QKxc = {
+            "id" = "qmq8QKxc";
+            "file" = "multihud-3.0.1.jar";
+            "hash" = "sha512-w8h5iucBhbNTUCGEH8IO1OtJ9OqvdEYaaSQalsqOza2CbJZFrsytOW7AXjmIx5bJwDiZnQ5WPDTR1Q1jiPzlrQ==";
+        };
+        _H31DA8Ie = {
+            "id" = "H31DA8Ie";
+            "file" = "multihud-3.0.1.jar";
+            "hash" = "sha512-xswt3gyqQI4mYGgkneWOFON+aLaZ9PkBBJmWiFCStJcEhQUi7+NaSyNhtoNlgf1pLyfB4NCJ3nEsc3LqQwuRSw==";
+        };
+        _sGoCH3Ps = {
+            "id" = "sGoCH3Ps";
+            "file" = "multihud-1.21.4-3.0.1.jar";
+            "hash" = "sha512-NjdfrMnrJrj1T0AZz/5pdfurMNByr2wdpvTMNzwDMNW1wi/RE8oCkvPhC4LIp0bRaW2mRpuCyIn9G7v0TkmlrQ==";
+        };
     in {
         "sVybcHwD" = _sVybcHwD;
         "tqrn1dyl" = _tqrn1dyl;
@@ -86,11 +101,14 @@ let
         "BBB41UT5" = _BBB41UT5;
         "8fkntkpU" = _8fkntkpU;
         "Uj9XaCPY" = _Uj9XaCPY;
+        "qmq8QKxc" = _qmq8QKxc;
+        "H31DA8Ie" = _H31DA8Ie;
+        "sGoCH3Ps" = _sGoCH3Ps;
         "fabric-1.21" = _lMeyRVP9;
         "fabric-1.21.1" = _Uj9XaCPY;
         "fabric-1.21.2" = _lMeyRVP9;
         "fabric-1.21.3" = _lMeyRVP9;
-        "fabric-1.21.4" = _lMeyRVP9;
+        "fabric-1.21.4" = _sGoCH3Ps;
         "fabric-1.21.5" = _lMeyRVP9;
         "fabric-1.21.6" = _lMeyRVP9;
         "fabric-1.21.7" = _lMeyRVP9;
@@ -105,10 +123,11 @@ let
         "fabric-1.20.4" = _rZl7aFtX;
         "fabric-1.20.5" = _rZl7aFtX;
         "fabric-1.20.6" = _rZl7aFtX;
-        "fabric-26.1" = _BBB41UT5;
-        "fabric-26.1.1" = _BBB41UT5;
-        "fabric-26.1.2" = _BBB41UT5;
-        "fabric-26.2" = _BBB41UT5;
+        "fabric-26.1" = _H31DA8Ie;
+        "fabric-26.1.1" = _H31DA8Ie;
+        "fabric-26.1.2" = _H31DA8Ie;
+        "fabric-26.2" = _H31DA8Ie;
+        "fabric-26.3" = _qmq8QKxc;
         "pkg-1.0.0" = _sVybcHwD;
         "pkg-2.0.0" = _tqrn1dyl;
         "pkg-2.0.1" = _rZl7aFtX;
@@ -121,7 +140,8 @@ let
         "pkg-2.6.0" = _aAmdUXDM;
         "pkg-2.6.5" = _Uj9XaCPY;
         "pkg-3.0.0" = _BBB41UT5;
-        "default" = _Uj9XaCPY;
+        "pkg-3.0.1" = _sGoCH3Ps;
+        "default" = _sGoCH3Ps;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "multihud";

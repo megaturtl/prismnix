@@ -1831,6 +1831,26 @@ let
             "file" = "WilderWild-4.3.2-mc26.3-neoforge.jar";
             "hash" = "sha512-qUlKIPsT3kCRZ+IlQ/tdqwQ14mSN1MB7+hxeeN2uGxvo08tbpShqsdCwb7QAHBDh8ACfjdX0pqz3JE3+rsvJTA==";
         };
+        _llwTCyJL = {
+            "id" = "llwTCyJL";
+            "file" = "WilderWild-4.3.3-mc26.2-neoforge.jar";
+            "hash" = "sha512-vOj5Loc97Z0CbW31+SyBHqYabl//licjNPOArtoW87v/8YtupJh1DxS14B6CtGYsmRsD5M/RcjoS70Yobq/zJg==";
+        };
+        _k4YiRz8m = {
+            "id" = "k4YiRz8m";
+            "file" = "WilderWild-4.3.3-mc26.2-fabric.jar";
+            "hash" = "sha512-M17Vu73VSKnwyJYNu7uXjf/KSaxbnFo774OyAqucXKTo2Auw+Wlae6qRssUHIvFVKGO+R7Sf9JL/i5DwqiHRFw==";
+        };
+        _Xn09uouh = {
+            "id" = "Xn09uouh";
+            "file" = "WilderWild-4.3.3-mc26.3-neoforge.jar";
+            "hash" = "sha512-Zm8THorsblPl/7RqSkD7XJObPM5dFNW2EqVqDNGXLm8ZcoN3cqMWiuyEs4L1+xFeIQv6hPYU8O6DgTzQByuPZQ==";
+        };
+        _mVVZgOKN = {
+            "id" = "mVVZgOKN";
+            "file" = "WilderWild-4.3.3-mc26.3-fabric.jar";
+            "hash" = "sha512-LshjUCvK+sKPiF6E2t2e9/Ipn5Ml7dh7oqakQWT671+BdNx61KRhS7zJ5ksq/sy7vXOXmLkIQXQ4wr41T4kmaw==";
+        };
     in {
         "AzqxBVw1" = _AzqxBVw1;
         "pdIdRHux" = _pdIdRHux;
@@ -2198,6 +2218,10 @@ let
         "EnRvF1L5" = _EnRvF1L5;
         "R4z4bH0F" = _R4z4bH0F;
         "gLlYgJf3" = _gLlYgJf3;
+        "llwTCyJL" = _llwTCyJL;
+        "k4YiRz8m" = _k4YiRz8m;
+        "Xn09uouh" = _Xn09uouh;
+        "mVVZgOKN" = _mVVZgOKN;
         "fabric-1.19" = _M1gKEccC;
         "fabric-1.19.1" = _26vtflIN;
         "fabric-1.19.2" = _W9arEPrI;
@@ -2261,8 +2285,8 @@ let
         "fabric-26.1.1" = _QluBtU4i;
         "fabric-26.1.2" = _QluBtU4i;
         "fabric-26.2-snapshot-5" = _wHZi8wEO;
-        "fabric-26.2" = _jO1Bwxn3;
-        "fabric-26.3" = _R4z4bH0F;
+        "fabric-26.2" = _k4YiRz8m;
+        "fabric-26.3" = _mVVZgOKN;
         "quilt-1.19" = _M1gKEccC;
         "quilt-1.19.1" = _26vtflIN;
         "quilt-1.19.2" = _W9arEPrI;
@@ -2324,8 +2348,8 @@ let
         "quilt-26.1.1" = _QluBtU4i;
         "quilt-26.1.2" = _QluBtU4i;
         "quilt-26.2-snapshot-5" = _wHZi8wEO;
-        "neoforge-26.2" = _LjKF1OQ2;
-        "neoforge-26.3" = _gLlYgJf3;
+        "neoforge-26.2" = _llwTCyJL;
+        "neoforge-26.3" = _Xn09uouh;
         "pkg-1.0.0-mc1.19" = _AzqxBVw1;
         "pkg-1.0.0-mc1.19.2" = _pdIdRHux;
         "pkg-1.0.1-mc1.19" = _KFio5xQL;
@@ -2692,7 +2716,11 @@ let
         "pkg-4.3.1-mc26.3-fabric" = _EnRvF1L5;
         "pkg-4.3.2-mc26.3-fabric" = _R4z4bH0F;
         "pkg-4.3.2-mc26.3-neoforge" = _gLlYgJf3;
-        "default" = _gLlYgJf3;
+        "pkg-4.3.3-mc26.2-neoforge" = _llwTCyJL;
+        "pkg-4.3.3-mc26.2-fabric" = _k4YiRz8m;
+        "pkg-4.3.3-mc26.3-neoforge" = _Xn09uouh;
+        "pkg-4.3.3-mc26.3-fabric" = _mVVZgOKN;
+        "default" = _mVVZgOKN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wilder-wild";

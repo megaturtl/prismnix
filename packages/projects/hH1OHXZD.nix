@@ -336,6 +336,16 @@ let
             "file" = "Sepals-neoforge-1.0.30-fix3.jar";
             "hash" = "sha512-OZQoN8eUFvZ1cVF82ETkF9cSSRi/9lNkjQY3RnBzrHV1N9aALUYm/6J4Rky6kRn+2oFzgWCBk4Zd6JPHgFKMzg==";
         };
+        _4GqHfLZi = {
+            "id" = "4GqHfLZi";
+            "file" = "Sepals-fabric-1.0.31.jar";
+            "hash" = "sha512-SB1C3EO9OfFaKSQrrQNxO+ckOQjqIH29hu+CPI57gWwT5RwtZI+GV4wlWB70Jlmoh9z6xOTwzb7F3IQHJjCAeg==";
+        };
+        _BxY07YLB = {
+            "id" = "BxY07YLB";
+            "file" = "Sepals-neoforge-1.0.31.jar";
+            "hash" = "sha512-ZI5BSVL3nHC4dxL2NzlMR0FVceJ8b12rr3W2Le0Xl28Cfx+La36X916FcLZGzPrKKeg4RDOOaE8vwC1B94QG7A==";
+        };
     in {
         "6if6nXUt" = _6if6nXUt;
         "mYGfFHEx" = _mYGfFHEx;
@@ -404,6 +414,8 @@ let
         "bnY9cKAs" = _bnY9cKAs;
         "YWLQDCLU" = _YWLQDCLU;
         "5f7u5kbo" = _5f7u5kbo;
+        "4GqHfLZi" = _4GqHfLZi;
+        "BxY07YLB" = _BxY07YLB;
         "fabric-1.21" = _HXiJFnTK;
         "fabric-1.21.1" = _v5pcPh0G;
         "fabric-1.21.2" = _HXiJFnTK;
@@ -416,6 +428,7 @@ let
         "fabric-1.21.9" = _VmpUsElf;
         "fabric-1.21.10" = _VmpUsElf;
         "fabric-1.21.11" = _YWLQDCLU;
+        "fabric-26.3" = _4GqHfLZi;
         "neoforge-1.21.4" = _L2te8ZN3;
         "neoforge-1.21.1" = _aNydStgD;
         "neoforge-1.21.5" = _KVceeQAY;
@@ -425,6 +438,7 @@ let
         "neoforge-1.21.9" = _b2UnLA8k;
         "neoforge-1.21.10" = _b2UnLA8k;
         "neoforge-1.21.11" = _5f7u5kbo;
+        "neoforge-26.3" = _BxY07YLB;
         "pkg-1.0.0" = _6if6nXUt;
         "pkg-1.0.1" = _mYGfFHEx;
         "pkg-1.0.2" = _vzlfozu8;
@@ -465,7 +479,8 @@ let
         "pkg-1.0.30-fix" = _7rJLYwqS;
         "pkg-1.0.30-fix2" = _bnY9cKAs;
         "pkg-1.0.30-fix3" = _5f7u5kbo;
-        "default" = _5f7u5kbo;
+        "pkg-1.0.31" = _BxY07YLB;
+        "default" = _BxY07YLB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sepals";

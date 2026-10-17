@@ -176,6 +176,16 @@ let
             "file" = "NarutoDestination-2.0.1.jar";
             "hash" = "sha512-MYN51a0cuUC4MV7Qw44o18gfHc3FWJrs69C4Yc4A7dhqHwXKiNkUfn56YdTGeoDGPxcHW5z16I/j7Y9V7bOOaA==";
         };
+        _i67scO9l = {
+            "id" = "i67scO9l";
+            "file" = "NarutoDestination-2.1.0.jar";
+            "hash" = "sha512-FPVb/f0Ptx8CWeXN2Mw+Cq81hHkCNxv0mE9FrQpGWRuQCjZAkj8CYFb0KI2bC+VpSz5Ncj6FGIKbtRX6VzzLeQ==";
+        };
+        _9qXOklL7 = {
+            "id" = "9qXOklL7";
+            "file" = "NarutoDestination-2.1.0a.jar";
+            "hash" = "sha512-fYsTVukbzYy6LdpNjawc1ZXTdvuW466wUo1Xj28n/iuNu1i4/bSFA8Rn/HBsAII3QxGskGvLwA2TBAM7nNtksw==";
+        };
     in {
         "bm1ht585" = _bm1ht585;
         "Yu5vrPQC" = _Yu5vrPQC;
@@ -212,8 +222,10 @@ let
         "FVKxXymQ" = _FVKxXymQ;
         "q7vlGLHn" = _q7vlGLHn;
         "xfkNmIic" = _xfkNmIic;
+        "i67scO9l" = _i67scO9l;
+        "9qXOklL7" = _9qXOklL7;
         "forge-1.7.10" = _ii1jZrab;
-        "neoforge-26.2" = _xfkNmIic;
+        "neoforge-26.2" = _9qXOklL7;
         "pkg-1.0.0" = _bm1ht585;
         "pkg-1.1.0" = _Yu5vrPQC;
         "pkg-1.2.0" = _fhPKfYU1;
@@ -249,7 +261,9 @@ let
         "pkg-2.0.0-BETA-3b" = _FVKxXymQ;
         "pkg-2.0.0" = _q7vlGLHn;
         "pkg-2.0.1" = _xfkNmIic;
-        "default" = _xfkNmIic;
+        "pkg-2.1.0" = _i67scO9l;
+        "pkg-2.1.0a" = _9qXOklL7;
+        "default" = _9qXOklL7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "naruto-destination";

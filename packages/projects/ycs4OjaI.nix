@@ -636,6 +636,86 @@ let
             "file" = "autopickup-neoforge-1.4.18+1.21.0-1.jar";
             "hash" = "sha512-JTekr2BNtZmnd3z8xpFlP4c6hB0n7TdE8+cgVTc29br2dTWcAHqN9iz55XZIwFu9tLRdU36Xxims6UoBiMXI0Q==";
         };
+        _15aOEA6K = {
+            "id" = "15aOEA6K";
+            "file" = "autopickup-forge-1.4.19+1.12.2.jar";
+            "hash" = "sha512-KGq3z7YWNBD1dMmd7lzJnXWz9gc6mJaRGvLCJanvwgjCFySr0kNrtAKN8uEO5ARIXhMHNk+AYgdahV0KCLZcnQ==";
+        };
+        _su4Bo982 = {
+            "id" = "su4Bo982";
+            "file" = "autopickup-fabric-1.4.19+1.16.5.jar";
+            "hash" = "sha512-rLefP5Ki8O0BPl2NeybgurN9jACr7Mb2kBRCmFapKgM6xq91aidFO/l6GdQyFtWfV8sJTNdkkwAOL7N80uxA4A==";
+        };
+        _5penQQod = {
+            "id" = "5penQQod";
+            "file" = "autopickup-forge-1.4.19+1.16.5.jar";
+            "hash" = "sha512-bNUqjNPmAYRoRGrQdZoP+JS4RLaMnk/WhilX/wRb6ifymDnjfcGIM+MTW3qpGaxHx1t4TtUF2335XLO6iFuc5w==";
+        };
+        _KvylxHSP = {
+            "id" = "KvylxHSP";
+            "file" = "autopickup-fabric-1.4.19+1.20.1.jar";
+            "hash" = "sha512-5ew2VHml5Iu1KZuah2YHIJ+A4s/DwQMgTP7HYaXB1MReUOclI6a0ufRZljYE/rU1ZEUzQATaiILhP5VV2x7sFQ==";
+        };
+        _8G8nhv8n = {
+            "id" = "8G8nhv8n";
+            "file" = "autopickup-forge-1.4.19+1.20.1.jar";
+            "hash" = "sha512-+IK3r42c7FCu7XGFU+GJoQOjpYgCrNvRWK9OXbvKG4tJPg+bNUDjO0qF4/SHR/10otjyxd7O2px9GRjvGnjSTg==";
+        };
+        _sLwo9VVG = {
+            "id" = "sLwo9VVG";
+            "file" = "autopickup-fabric-1.4.19+1.21.0-1.jar";
+            "hash" = "sha512-9wQzXRXFL5T4wcjLAWFPI2sRD0TBMLdNb7cB8J0Mg0dpfT9a/UZWIiLtl8STDvZSzZ8P6sZLhvoO32mwGVTd5A==";
+        };
+        _lhLJ1LTG = {
+            "id" = "lhLJ1LTG";
+            "file" = "autopickup-forge-1.4.19+1.21.0-1.jar";
+            "hash" = "sha512-22uPq5amPJj08fvqel3hxUdEE+7HRXzum4i30iHmn55SzUNI9wUokASXy599Hn2X2lI76QTXtgHxCFKREr1gCQ==";
+        };
+        _dEl0SVZ6 = {
+            "id" = "dEl0SVZ6";
+            "file" = "autopickup-neoforge-1.4.19+1.21.0-1.jar";
+            "hash" = "sha512-sOragbAwsiqRqTlIpWopcsfk/ixlCXQMY46uiWSytVmwQVgylYxgM6MNoUNUyQwDrf0QiLJDp7Q+JJQFJcmmPw==";
+        };
+        _5ZCWeNBI = {
+            "id" = "5ZCWeNBI";
+            "file" = "autopickup-fabric-1.4.19+1.21.9-11.jar";
+            "hash" = "sha512-lpv6v+IonpH135MxBkbL+1YT2XJuDAXpuGVkaRpYhucjXehcYBcdsBrfl38jqyRLw3SEx43S1mK4OfrEwp6ICw==";
+        };
+        _Nlgp7VNI = {
+            "id" = "Nlgp7VNI";
+            "file" = "autopickup-neoforge-1.4.19+1.21.9-11.jar";
+            "hash" = "sha512-BxfYpiwxTosO0B6yz6+nrrIflsk9g/Nk8eJ5WNV0RKAOm7NdxTH9jeQnakTNlJiRASd5qnZLDlaGdNDJ3FzG0Q==";
+        };
+        _sLcai9HC = {
+            "id" = "sLcai9HC";
+            "file" = "autopickup-fabric-1.4.19+26.1.2.jar";
+            "hash" = "sha512-J+UtFrBARpB8cL5YLcRnRtdLvf5g+6ZgYsxR2nv+R3wy+lMAAaq87g5xbg2M56C38P/YQrdG5Fg3Wos6PRxZIw==";
+        };
+        _40v0h9DI = {
+            "id" = "40v0h9DI";
+            "file" = "autopickup-neoforge-1.4.19+26.1.2.jar";
+            "hash" = "sha512-O4NkkOtdC5N0reC1ek8rOLu7hvCIvdgYalds5XlaLH8SiiSIGHqIOat9tItjLqsqi7Zhwf0ax9iSTRrgXiBCGA==";
+        };
+        _jvF9riSf = {
+            "id" = "jvF9riSf";
+            "file" = "autopickup-fabric-1.4.19+26.2.jar";
+            "hash" = "sha512-ZPqgWGw62KcHpPvfex9rV5sT8OD+7dIq466sfbLtuHDbBZwt35n50RwWBtzQtVHp+VOrPaaaaV5cG7Up0uwD8A==";
+        };
+        _byBfXjp4 = {
+            "id" = "byBfXjp4";
+            "file" = "autopickup-neoforge-1.4.19+26.2.jar";
+            "hash" = "sha512-SPiBTV6VUZAorIcqnHOjfKfdFvN2czUeJ+z6S3GLYGUKK39x0WhL1qn4njkh9TK8r7luH9uQqNDMPkorUaBdDw==";
+        };
+        _hTvHwXqI = {
+            "id" = "hTvHwXqI";
+            "file" = "autopickup-fabric-1.4.19+26.3.jar";
+            "hash" = "sha512-R1O129JQIDZoVgHJ5flxoA10tfSY52ZQkjs14dIBZMsycMerSrMbS6lJmz4/yZhGDDw3JYUGD19Fy/cbEIBY1w==";
+        };
+        _t6LgRb7I = {
+            "id" = "t6LgRb7I";
+            "file" = "autopickup-neoforge-1.4.19+26.3.jar";
+            "hash" = "sha512-/fJt7HhTeYLgBs4ZgpfKEr1kj0tKGLWBLQNdI8VSAayGpnb9Osw1St+sEezk0i6ynoOUFIpPIVlAoMUStbs/fA==";
+        };
     in {
         "4yLWM3Ib" = _4yLWM3Ib;
         "akon43Hz" = _akon43Hz;
@@ -764,6 +844,22 @@ let
         "s70cjKoy" = _s70cjKoy;
         "CatVkKQM" = _CatVkKQM;
         "iiRrBecS" = _iiRrBecS;
+        "15aOEA6K" = _15aOEA6K;
+        "su4Bo982" = _su4Bo982;
+        "5penQQod" = _5penQQod;
+        "KvylxHSP" = _KvylxHSP;
+        "8G8nhv8n" = _8G8nhv8n;
+        "sLwo9VVG" = _sLwo9VVG;
+        "lhLJ1LTG" = _lhLJ1LTG;
+        "dEl0SVZ6" = _dEl0SVZ6;
+        "5ZCWeNBI" = _5ZCWeNBI;
+        "Nlgp7VNI" = _Nlgp7VNI;
+        "sLcai9HC" = _sLcai9HC;
+        "40v0h9DI" = _40v0h9DI;
+        "jvF9riSf" = _jvF9riSf;
+        "byBfXjp4" = _byBfXjp4;
+        "hTvHwXqI" = _hTvHwXqI;
+        "t6LgRb7I" = _t6LgRb7I;
         "fabric-1.21.5" = _s7auWwgK;
         "fabric-1.21.6" = _s7auWwgK;
         "fabric-1.21.7" = _s7auWwgK;
@@ -771,39 +867,39 @@ let
         "fabric-1.21.3" = _s7auWwgK;
         "fabric-1.21.4" = _s7auWwgK;
         "fabric-1.21.8" = _s7auWwgK;
-        "fabric-1.20.1" = _fcS7cQYB;
-        "fabric-1.21.1" = _QYjlYYXL;
-        "fabric-1.21" = _QYjlYYXL;
-        "fabric-1.21.9" = _TnY7QuuO;
-        "fabric-1.21.10" = _TnY7QuuO;
-        "fabric-1.21.11" = _TnY7QuuO;
+        "fabric-1.20.1" = _KvylxHSP;
+        "fabric-1.21.1" = _sLwo9VVG;
+        "fabric-1.21" = _sLwo9VVG;
+        "fabric-1.21.9" = _5ZCWeNBI;
+        "fabric-1.21.10" = _5ZCWeNBI;
+        "fabric-1.21.11" = _5ZCWeNBI;
         "fabric-1.20" = _7IWebwxM;
         "fabric-1.20.2" = _7IWebwxM;
         "fabric-1.20.3" = _7IWebwxM;
         "fabric-1.20.4" = _7IWebwxM;
         "fabric-1.20.5" = _7IWebwxM;
         "fabric-1.20.6" = _7IWebwxM;
-        "fabric-26.1" = _1pGK5IQT;
-        "fabric-26.1.1" = _1pGK5IQT;
-        "fabric-26.1.2" = _1pGK5IQT;
-        "fabric-26.2" = _siSnjz1y;
-        "fabric-1.16.5" = _AY5cgr9U;
-        "fabric-26.3" = _s70cjKoy;
-        "neoforge-26.1" = _MasMe8Ex;
-        "neoforge-26.1.1" = _MasMe8Ex;
-        "neoforge-26.1.2" = _MasMe8Ex;
-        "neoforge-1.21" = _iiRrBecS;
-        "neoforge-1.21.1" = _iiRrBecS;
-        "neoforge-1.21.9" = _GjJXXV6j;
-        "neoforge-1.21.10" = _GjJXXV6j;
-        "neoforge-1.21.11" = _GjJXXV6j;
-        "neoforge-26.2" = _ezKFmz3d;
-        "neoforge-26.3" = _CatVkKQM;
-        "forge-1.20.1" = _Fbb6ZlVp;
-        "forge-1.21" = _9aGM83cV;
-        "forge-1.21.1" = _9aGM83cV;
-        "forge-1.12.2" = _qSWyY9yg;
-        "forge-1.16.5" = _HhVkTkIN;
+        "fabric-26.1" = _sLcai9HC;
+        "fabric-26.1.1" = _sLcai9HC;
+        "fabric-26.1.2" = _sLcai9HC;
+        "fabric-26.2" = _jvF9riSf;
+        "fabric-1.16.5" = _su4Bo982;
+        "fabric-26.3" = _hTvHwXqI;
+        "neoforge-26.1" = _40v0h9DI;
+        "neoforge-26.1.1" = _40v0h9DI;
+        "neoforge-26.1.2" = _40v0h9DI;
+        "neoforge-1.21" = _dEl0SVZ6;
+        "neoforge-1.21.1" = _dEl0SVZ6;
+        "neoforge-1.21.9" = _Nlgp7VNI;
+        "neoforge-1.21.10" = _Nlgp7VNI;
+        "neoforge-1.21.11" = _Nlgp7VNI;
+        "neoforge-26.2" = _byBfXjp4;
+        "neoforge-26.3" = _t6LgRb7I;
+        "forge-1.20.1" = _8G8nhv8n;
+        "forge-1.21" = _lhLJ1LTG;
+        "forge-1.21.1" = _lhLJ1LTG;
+        "forge-1.12.2" = _15aOEA6K;
+        "forge-1.16.5" = _5penQQod;
         "pkg-1.0.0" = _4yLWM3Ib;
         "pkg-1.1.1" = _akon43Hz;
         "pkg-1.1.2" = _mEAHMT0n;
@@ -881,7 +977,15 @@ let
         "pkg-1.4.17+26.2" = _ezKFmz3d;
         "pkg-1.4.17+26.3" = _CatVkKQM;
         "pkg-1.4.18+1.21.0-1" = _iiRrBecS;
-        "default" = _iiRrBecS;
+        "pkg-1.4.19+1.12.2" = _15aOEA6K;
+        "pkg-1.4.19+1.16.5" = _5penQQod;
+        "pkg-1.4.19+1.20.1" = _8G8nhv8n;
+        "pkg-1.4.19+1.21.0-1" = _dEl0SVZ6;
+        "pkg-1.4.19+1.21.9-11" = _Nlgp7VNI;
+        "pkg-1.4.19+26.1.2" = _40v0h9DI;
+        "pkg-1.4.19+26.2" = _byBfXjp4;
+        "pkg-1.4.19+26.3" = _t6LgRb7I;
+        "default" = _t6LgRb7I;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-autopickup";

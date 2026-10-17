@@ -166,6 +166,26 @@ let
             "file" = "rbrctai-fabric-1.21.1-0.16.0-beta.jar";
             "hash" = "sha512-UE2un8TeCa1YB4z2FrUwHwidtoQ0EYIXJNi0AuqFRQFE2YgjlVtZC1gvAKHw3eSe5WslU526NymF25Oxfzu13A==";
         };
+        _rvU9nwEo = {
+            "id" = "rvU9nwEo";
+            "file" = "rbrctai-fabric-1.21.1-0.16.1-beta.jar";
+            "hash" = "sha512-sj8Rwejuj4Vm6wrz3PNLrb7udew3EhfBLi0dFypYunSax+yxoklbmpWMW9tJTLdWKUzRvzWSfMxrsm8wsHhQ5g==";
+        };
+        _uPQfI4pE = {
+            "id" = "uPQfI4pE";
+            "file" = "rbrctai-neoforge-1.21.1-0.16.1-beta.jar";
+            "hash" = "sha512-KTMDbYcqLQ2SwBLte4SPSwUlCZpcX+wpfPIHHk4rY9uRMBl8I90EJOM9J6/Zz/JygetHkEyK1102OrHLua/rUA==";
+        };
+        _UfidXhlA = {
+            "id" = "UfidXhlA";
+            "file" = "rbrctai-neoforge-1.21.1-0.16.1-beta.jar";
+            "hash" = "sha512-yR9ZZuqiL+mebyWf2OIwpvkcdz7vlBaqw3w/neQHHGfBPthpwdMkH1NiTWYIdeZ3t5YZA+GeaIrkgDPxlM+VpQ==";
+        };
+        _2FubwNtl = {
+            "id" = "2FubwNtl";
+            "file" = "rbrctai-fabric-1.21.1-0.16.1-beta.jar";
+            "hash" = "sha512-BVTGx3l4+udqjrTBwqGmXkMiXyvUaxUNakxmhn7TZF4Zbc/Eo3JY7kwBP6AIrbwG4EVJuBqtptbw/NpO+tvfyQ==";
+        };
     in {
         "qR4xvHez" = _qR4xvHez;
         "XojEx8GM" = _XojEx8GM;
@@ -200,8 +220,12 @@ let
         "ezprWvW7" = _ezprWvW7;
         "a7RNwR0e" = _a7RNwR0e;
         "ScMVm0V0" = _ScMVm0V0;
-        "fabric-1.21.1" = _ScMVm0V0;
-        "neoforge-1.21.1" = _a7RNwR0e;
+        "rvU9nwEo" = _rvU9nwEo;
+        "uPQfI4pE" = _uPQfI4pE;
+        "UfidXhlA" = _UfidXhlA;
+        "2FubwNtl" = _2FubwNtl;
+        "fabric-1.21.1" = _2FubwNtl;
+        "neoforge-1.21.1" = _UfidXhlA;
         "pkg-0.13.8-beta" = _gG4OPI9i;
         "pkg-0.13.9-beta" = _cwfI02Jw;
         "pkg-0.14.1-beta" = _1JZqSp18;
@@ -218,7 +242,9 @@ let
         "pkg-0.15.3-beta" = _75X3BE96;
         "pkg-0.15.4-beta" = _ezprWvW7;
         "pkg-0.16.0-beta" = _ScMVm0V0;
-        "default" = _ScMVm0V0;
+        "pkg-0.16.1-beta" = _uPQfI4pE;
+        "pkg-0.16.1-beta-hotfix" = _2FubwNtl;
+        "default" = _2FubwNtl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-recobbled-(advanced-trainer-ai)";

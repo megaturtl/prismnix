@@ -126,6 +126,16 @@ let
             "file" = "launchpad-1.10.1+26.2-full.jar";
             "hash" = "sha512-kyAnJS+JKwd6TVi8hKPFAq+f4qqlKJxhaWQ2t5S38JD0mvqvM0ntSI3esGAVnmRFOCRrVh6UnfkSvN0uJiVMXg==";
         };
+        _QMTIAZjK = {
+            "id" = "QMTIAZjK";
+            "file" = "launchpad-1.10.2+26.2-full.jar";
+            "hash" = "sha512-oVlprUxN1M66I0asSTUs9G2NB8GhRSXspFyN+m8VU3YhdkQOuAgnqc3s4CjPcbR1au8G94uUvtUnr5/xq14cWA==";
+        };
+        _isqNNLhL = {
+            "id" = "isqNNLhL";
+            "file" = "launchpad-1.10.2+26.1.2-full.jar";
+            "hash" = "sha512-6i0CLXNx02WEzvnSMYOD+BB9VHe1o3b8ZWGu5q8/AC/rPkYFaszuB58dQFEa2+gP7Tz1WLoa526lhwQWVY54fw==";
+        };
     in {
         "ybGNkI98" = _ybGNkI98;
         "c4WbtA7M" = _c4WbtA7M;
@@ -152,10 +162,12 @@ let
         "Pv4RSdw3" = _Pv4RSdw3;
         "SmoKhFsl" = _SmoKhFsl;
         "fS4WGZ2B" = _fS4WGZ2B;
-        "neoforge-26.1" = _SmoKhFsl;
-        "neoforge-26.1.1" = _SmoKhFsl;
-        "neoforge-26.1.2" = _SmoKhFsl;
-        "neoforge-26.2" = _fS4WGZ2B;
+        "QMTIAZjK" = _QMTIAZjK;
+        "isqNNLhL" = _isqNNLhL;
+        "neoforge-26.1" = _isqNNLhL;
+        "neoforge-26.1.1" = _isqNNLhL;
+        "neoforge-26.1.2" = _isqNNLhL;
+        "neoforge-26.2" = _QMTIAZjK;
         "pkg-1.0.0+26.1.2" = _ybGNkI98;
         "pkg-1.1.0+26.1.2" = _c4WbtA7M;
         "pkg-1.2.0+26.1.2" = _lnWg2zHI;
@@ -181,7 +193,9 @@ let
         "pkg-1.10.0+26.2" = _Pv4RSdw3;
         "pkg-1.10.1+26.1.2" = _SmoKhFsl;
         "pkg-1.10.1+26.2" = _fS4WGZ2B;
-        "default" = _fS4WGZ2B;
+        "pkg-1.10.2+26.2" = _QMTIAZjK;
+        "pkg-1.10.2+26.1.2" = _isqNNLhL;
+        "default" = _isqNNLhL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "launchpad";

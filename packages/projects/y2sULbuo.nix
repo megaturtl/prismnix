@@ -1,0 +1,174 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _R3rNxIcY = {
+            "id" = "R3rNxIcY";
+            "file" = "DragonEggTracker.jar";
+            "hash" = "sha512-B1fDikBathU8VAeOrvMr77iRj0z8npF0yFxkl2FJBncPCMEQj1ZPv6NL76Xpx7FqBMsjCcA+mAY85TGsDxFB+Q==";
+        };
+        _f57J55Es = {
+            "id" = "f57J55Es";
+            "file" = "DragonEggTracker.jar";
+            "hash" = "sha512-yewXrnbWlAmZ49AWPxhgho9q2AzQc0ZWD/DFtEuY3b+meyosT7gbeLE19ZM7+BKKOkrzM/So6UzNQ5Jvju3Irg==";
+        };
+        _WaOuC0zm = {
+            "id" = "WaOuC0zm";
+            "file" = "DragonEggTracker-2.0.jar";
+            "hash" = "sha512-9Ip+HJgomPLrgknP2XETew3qmYvzOqm6HAl8zZL8mBnf6GfQn6edF71jnf3RsTlaMWnQne2XkUL1U4Gv6elmHw==";
+        };
+        _FbyzBZqu = {
+            "id" = "FbyzBZqu";
+            "file" = "DragonEggTracker-2.0.jar";
+            "hash" = "sha512-gR2vzRmzqzWvn0tiiBTPMODsXq9lnbcHS2aAgBMZW+I7ISzh+x3azeqO2qlFqxtE5AW3yZj9kKL+Es+KRJ+mPA==";
+        };
+        _UwupxPOI = {
+            "id" = "UwupxPOI";
+            "file" = "DragonEggTracker-2.0.1m.jar";
+            "hash" = "sha512-Gf0c4UPXXmx0tHU8sde8j/KZ5uMMCQZCUKT4PDFkRhlMgc/crfPH9B72OmBk/Te3Yh28qAZp2uv8eilGkySxOA==";
+        };
+        _2HgpgUiA = {
+            "id" = "2HgpgUiA";
+            "file" = "DragonEggTracker-2.0.2m.jar";
+            "hash" = "sha512-UJ/dR+jQRhrYWgltlJnjAHY8FtLxYcFdtkrDC+niyA0ng+AA2A7EPfSZ9p7vQAaE+zzN0SqR4dgAJaiAWorY8w==";
+        };
+        _TVm878lz = {
+            "id" = "TVm878lz";
+            "file" = "DragonEggTracker-2.1.1m.jar";
+            "hash" = "sha512-PzWVM2Kv7inmp2xusBqrpBUn0YXjIBygt+nZaWV2bk9v+nYyTI+Wbev9oI8Y/8+vWFf8Lglf3ZcbF2YT9dwZKw==";
+        };
+        _Y7Axou0K = {
+            "id" = "Y7Axou0K";
+            "file" = "DragonEggTracker-2.1.2m.jar";
+            "hash" = "sha512-7D68xfmU8c/CsTQBNUxuR+puCvC7ob9G8J5q0fVlxZI6ZuVYIuE1TMF/+wlsM5K5m6UMJOfFeQ2FHZ30xqagPw==";
+        };
+    in {
+        "R3rNxIcY" = _R3rNxIcY;
+        "f57J55Es" = _f57J55Es;
+        "WaOuC0zm" = _WaOuC0zm;
+        "FbyzBZqu" = _FbyzBZqu;
+        "UwupxPOI" = _UwupxPOI;
+        "2HgpgUiA" = _2HgpgUiA;
+        "TVm878lz" = _TVm878lz;
+        "Y7Axou0K" = _Y7Axou0K;
+        "bukkit-1.20" = _Y7Axou0K;
+        "bukkit-1.20.1" = _Y7Axou0K;
+        "bukkit-1.20.2" = _Y7Axou0K;
+        "bukkit-1.20.3" = _Y7Axou0K;
+        "bukkit-1.20.4" = _Y7Axou0K;
+        "bukkit-1.20.5" = _Y7Axou0K;
+        "bukkit-1.20.6" = _Y7Axou0K;
+        "bukkit-1.21" = _Y7Axou0K;
+        "bukkit-1.21.1" = _Y7Axou0K;
+        "bukkit-1.21.2" = _Y7Axou0K;
+        "bukkit-1.21.3" = _Y7Axou0K;
+        "bukkit-1.21.4" = _Y7Axou0K;
+        "bukkit-1.21.5" = _Y7Axou0K;
+        "bukkit-1.21.6" = _Y7Axou0K;
+        "bukkit-1.21.7" = _Y7Axou0K;
+        "bukkit-1.21.8" = _Y7Axou0K;
+        "bukkit-1.21.9" = _Y7Axou0K;
+        "bukkit-1.21.10" = _Y7Axou0K;
+        "bukkit-1.21.11" = _Y7Axou0K;
+        "bukkit-26.1" = _Y7Axou0K;
+        "bukkit-26.1.1" = _Y7Axou0K;
+        "bukkit-26.1.2" = _Y7Axou0K;
+        "bukkit-26.2" = _Y7Axou0K;
+        "bukkit-26.3" = _Y7Axou0K;
+        "paper-1.20" = _Y7Axou0K;
+        "paper-1.20.1" = _Y7Axou0K;
+        "paper-1.20.2" = _Y7Axou0K;
+        "paper-1.20.3" = _Y7Axou0K;
+        "paper-1.20.4" = _Y7Axou0K;
+        "paper-1.20.5" = _Y7Axou0K;
+        "paper-1.20.6" = _Y7Axou0K;
+        "paper-1.21" = _Y7Axou0K;
+        "paper-1.21.1" = _Y7Axou0K;
+        "paper-1.21.2" = _Y7Axou0K;
+        "paper-1.21.3" = _Y7Axou0K;
+        "paper-1.21.4" = _Y7Axou0K;
+        "paper-1.21.5" = _Y7Axou0K;
+        "paper-1.21.6" = _Y7Axou0K;
+        "paper-1.21.7" = _Y7Axou0K;
+        "paper-1.21.8" = _Y7Axou0K;
+        "paper-1.21.9" = _Y7Axou0K;
+        "paper-1.21.10" = _Y7Axou0K;
+        "paper-1.21.11" = _Y7Axou0K;
+        "paper-26.1" = _Y7Axou0K;
+        "paper-26.1.1" = _Y7Axou0K;
+        "paper-26.1.2" = _Y7Axou0K;
+        "paper-26.2" = _Y7Axou0K;
+        "paper-26.3" = _Y7Axou0K;
+        "purpur-1.20" = _Y7Axou0K;
+        "purpur-1.20.1" = _Y7Axou0K;
+        "purpur-1.20.2" = _Y7Axou0K;
+        "purpur-1.20.3" = _Y7Axou0K;
+        "purpur-1.20.4" = _Y7Axou0K;
+        "purpur-1.20.5" = _Y7Axou0K;
+        "purpur-1.20.6" = _Y7Axou0K;
+        "purpur-1.21" = _Y7Axou0K;
+        "purpur-1.21.1" = _Y7Axou0K;
+        "purpur-1.21.2" = _Y7Axou0K;
+        "purpur-1.21.3" = _Y7Axou0K;
+        "purpur-1.21.4" = _Y7Axou0K;
+        "purpur-1.21.5" = _Y7Axou0K;
+        "purpur-1.21.6" = _Y7Axou0K;
+        "purpur-1.21.7" = _Y7Axou0K;
+        "purpur-1.21.8" = _Y7Axou0K;
+        "purpur-1.21.9" = _Y7Axou0K;
+        "purpur-1.21.10" = _Y7Axou0K;
+        "purpur-1.21.11" = _Y7Axou0K;
+        "purpur-26.1" = _Y7Axou0K;
+        "purpur-26.1.1" = _Y7Axou0K;
+        "purpur-26.1.2" = _Y7Axou0K;
+        "purpur-26.2" = _Y7Axou0K;
+        "purpur-26.3" = _Y7Axou0K;
+        "spigot-1.20" = _Y7Axou0K;
+        "spigot-1.20.1" = _Y7Axou0K;
+        "spigot-1.20.2" = _Y7Axou0K;
+        "spigot-1.20.3" = _Y7Axou0K;
+        "spigot-1.20.4" = _Y7Axou0K;
+        "spigot-1.20.5" = _Y7Axou0K;
+        "spigot-1.20.6" = _Y7Axou0K;
+        "spigot-1.21" = _Y7Axou0K;
+        "spigot-1.21.1" = _Y7Axou0K;
+        "spigot-1.21.2" = _Y7Axou0K;
+        "spigot-1.21.3" = _Y7Axou0K;
+        "spigot-1.21.4" = _Y7Axou0K;
+        "spigot-1.21.5" = _Y7Axou0K;
+        "spigot-1.21.6" = _Y7Axou0K;
+        "spigot-1.21.7" = _Y7Axou0K;
+        "spigot-1.21.8" = _Y7Axou0K;
+        "spigot-1.21.9" = _Y7Axou0K;
+        "spigot-1.21.10" = _Y7Axou0K;
+        "spigot-1.21.11" = _Y7Axou0K;
+        "spigot-26.1" = _Y7Axou0K;
+        "spigot-26.1.1" = _Y7Axou0K;
+        "spigot-26.1.2" = _Y7Axou0K;
+        "spigot-26.2" = _Y7Axou0K;
+        "spigot-26.3" = _Y7Axou0K;
+        "pkg-1.0-SNAPSHOT" = _R3rNxIcY;
+        "pkg-1.1" = _WaOuC0zm;
+        "pkg-2.0" = _FbyzBZqu;
+        "pkg-2.0.1" = _UwupxPOI;
+        "pkg-2.0.2m" = _2HgpgUiA;
+        "pkg-2.1.1m" = _TVm878lz;
+        "pkg-2.1.2m" = _Y7Axou0K;
+        "default" = _Y7Axou0K;
+    });
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "dragon-egg-tracker";
+        id = "y2sULbuo";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = null;
+            };
+        };
+    };
+in callPackage fn {}

@@ -216,6 +216,11 @@ let
             "file" = "CubesideMod-1.4.4.jar";
             "hash" = "sha512-ggtJW2++/Col+Bi6JjAWHZUQD5pZpxF5PfJndLPCBWLRTzMxfx22fOmwyt0jq/LK5a1O/s6FP66iS3JEk1OFbg==";
         };
+        _rp5jf40o = {
+            "id" = "rp5jf40o";
+            "file" = "CubesideMod-1.4.5.jar";
+            "hash" = "sha512-mVPcDQmyqV9BN4jggrA5zJ51hgE2iIj4HrjZMo4vNVIJ44jrXl6d8VB/2SjM/Ag1eQ3t9ZScQXKhc7P1lWrIxQ==";
+        };
     in {
         "xIokIofP" = _xIokIofP;
         "itlaoY0Z" = _itlaoY0Z;
@@ -260,6 +265,7 @@ let
         "6lcGw9nU" = _6lcGw9nU;
         "A0CYUUGJ" = _A0CYUUGJ;
         "D7QvhNSA" = _D7QvhNSA;
+        "rp5jf40o" = _rp5jf40o;
         "fabric-1.19.3" = _eT4pvue0;
         "fabric-1.19.4" = _xJYFVpnz;
         "fabric-1.20" = _rPBAW1ub;
@@ -282,7 +288,7 @@ let
         "fabric-26.1.1" = _BnjnVV4H;
         "fabric-26.1.2" = _BnjnVV4H;
         "fabric-26.2" = _6lcGw9nU;
-        "fabric-26.3" = _D7QvhNSA;
+        "fabric-26.3" = _rp5jf40o;
         "pkg-1.3.10" = _xIokIofP;
         "pkg-1.3.11" = _itlaoY0Z;
         "pkg-1.19.3-1.3.15" = _KYcfwpDh;
@@ -323,7 +329,8 @@ let
         "pkg-1.4.2" = _6lcGw9nU;
         "pkg-1.4.3" = _A0CYUUGJ;
         "pkg-1.4.4" = _D7QvhNSA;
-        "default" = _D7QvhNSA;
+        "pkg-1.4.5" = _rp5jf40o;
+        "default" = _rp5jf40o;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cubesidemod";

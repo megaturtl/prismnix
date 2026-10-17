@@ -261,6 +261,11 @@ let
             "file" = "agrarian-reform-2.2.23+26.3.jar";
             "hash" = "sha512-n4crZtOfr86e0kxaWRMPqtjKn99k0n3S+FqxDx01S0zqrJ0bRTabuISAJcD8p1LJmzQWL9/+xLNVHPFJHyczpw==";
         };
+        _OLNULHZV = {
+            "id" = "OLNULHZV";
+            "file" = "agrarian-reform-2.2.27+26.1.2.jar";
+            "hash" = "sha512-PU4aZdPtmLwJ0m8BRonezh4jWjr9qhGnS+bHM4hxFziC2MbbYy9lPq2G3NbKxLXbg2OhzXft8pt+btaCVP4KsA==";
+        };
     in {
         "uZ4dOnNw" = _uZ4dOnNw;
         "3GmTeydD" = _3GmTeydD;
@@ -314,6 +319,7 @@ let
         "IZA96jJM" = _IZA96jJM;
         "XYfboy2C" = _XYfboy2C;
         "L9OC34oX" = _L9OC34oX;
+        "OLNULHZV" = _OLNULHZV;
         "fabric-26.1-snapshot-1" = _3GmTeydD;
         "fabric-26.1-snapshot-2" = _3GmTeydD;
         "fabric-26.1-snapshot-3" = _3GmTeydD;
@@ -332,7 +338,7 @@ let
         "fabric-26.1-rc-2" = _3GmTeydD;
         "fabric-26.1-rc-3" = _3GmTeydD;
         "fabric-26.1" = _1EZLBYOq;
-        "fabric-26.1.2" = _ABgMrU6S;
+        "fabric-26.1.2" = _OLNULHZV;
         "fabric-26.1.1" = _1EZLBYOq;
         "fabric-26.2-snapshot-2" = _1EZLBYOq;
         "fabric-26.2-snapshot-3" = _1EZLBYOq;
@@ -393,7 +399,8 @@ let
         "pkg-2.2.22+26.3" = _IZA96jJM;
         "pkg-2.2.23+26.2" = _XYfboy2C;
         "pkg-2.2.23+26.3" = _L9OC34oX;
-        "default" = _L9OC34oX;
+        "pkg-2.2.27+26.1.2" = _OLNULHZV;
+        "default" = _OLNULHZV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanilla-outsider-agrarian-reform";

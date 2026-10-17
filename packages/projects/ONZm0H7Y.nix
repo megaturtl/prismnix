@@ -181,6 +181,16 @@ let
             "file" = "bbe-fabric-1.3.9+mc26.3-mod.jar";
             "hash" = "sha512-261Dh2cv6mhqZhCsI40CQ/285xi+06r8YAYGi/dp3y7qjyxxifXLODUAjxHrnHZ/Hi6vQ2xnvdwX+4YHrybdiA==";
         };
+        _FU2tstk7 = {
+            "id" = "FU2tstk7";
+            "file" = "bbe-fabric-1.4.0+mc26.3-mod.jar";
+            "hash" = "sha512-BhQEx6VG/Pl7HpXIS+ZThjTvimTDjFCrUkE7ww6zymMdcEaeyaXsbnAbv7vZd51lo6cONZ6A2MNkSf8qLShsqw==";
+        };
+        _mifbgFWa = {
+            "id" = "mifbgFWa";
+            "file" = "bbe-neoforge-1.4.0+mc26.3.jar";
+            "hash" = "sha512-LVckXFyerHu0yid/Lr3cfwtei+9NMj/FSD7ZPvNPKBTVw7Ewy36xZk4nHZwuVVxEnnehXIZ4of5uj/NHQ6n/Zg==";
+        };
     in {
         "zxUnLjv5" = _zxUnLjv5;
         "LETYHWaQ" = _LETYHWaQ;
@@ -218,6 +228,8 @@ let
         "pK7WAKWZ" = _pK7WAKWZ;
         "JgYqDEaQ" = _JgYqDEaQ;
         "9VvhfLcA" = _9VvhfLcA;
+        "FU2tstk7" = _FU2tstk7;
+        "mifbgFWa" = _mifbgFWa;
         "fabric-1.21.6" = _nZ02Iiki;
         "fabric-1.21.7" = _nZ02Iiki;
         "fabric-1.21.8" = _nZ02Iiki;
@@ -230,13 +242,14 @@ let
         "fabric-1.21" = _pK7WAKWZ;
         "fabric-1.21.1" = _pK7WAKWZ;
         "fabric-26.2" = _Sr2VjbpG;
-        "fabric-26.3" = _9VvhfLcA;
+        "fabric-26.3" = _FU2tstk7;
         "neoforge-1.21" = _JgYqDEaQ;
         "neoforge-1.21.1" = _JgYqDEaQ;
         "neoforge-26.1" = _P2BhYINY;
         "neoforge-26.1.1" = _P2BhYINY;
         "neoforge-26.1.2" = _P2BhYINY;
         "neoforge-26.2" = _vfpPl6mq;
+        "neoforge-26.3" = _mifbgFWa;
         "pkg-1.0.0+1.21.8" = _zxUnLjv5;
         "pkg-1.0.0+1.21.10" = _LETYHWaQ;
         "pkg-1.1.0+1.21.10" = _IrFm7eBS;
@@ -268,7 +281,8 @@ let
         "pkg-1.3.4-beta.3+mc1.21.1" = _RPhK79hl;
         "pkg-1.3.4+mc1.21.1" = _JgYqDEaQ;
         "pkg-1.3.9+mc26.3" = _9VvhfLcA;
-        "default" = _9VvhfLcA;
+        "pkg-1.4.0+mc26.3" = _mifbgFWa;
+        "default" = _mifbgFWa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-block-entities";

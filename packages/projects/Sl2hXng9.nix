@@ -76,6 +76,11 @@ let
             "file" = "TreeCapitator v4.8.zip";
             "hash" = "sha512-3bkahHLmQJjTGCaW4wgotW880UxJBSyZfaPr95O1D1rO+7RwB42iyqiKei4N47CfqcNZMqr+sloR4yMZRZ9kHQ==";
         };
+        _agafdd9t = {
+            "id" = "agafdd9t";
+            "file" = "TreeCapitator v4.9.zip";
+            "hash" = "sha512-ZEclfGR59FNv8N08s4RTEtTbr5pv2XTKC1CuoOFHLSItzfevSyYCL3KILV+m80ic1r+g+OhSAXzfJpaIgjOsJA==";
+        };
     in {
         "4Wr1eR88" = _4Wr1eR88;
         "yrIx4r0w" = _yrIx4r0w;
@@ -92,6 +97,7 @@ let
         "p4E9qNnV" = _p4E9qNnV;
         "Ym38p2HO" = _Ym38p2HO;
         "YhDLwgLX" = _YhDLwgLX;
+        "agafdd9t" = _agafdd9t;
         "datapack-1.19" = _4Wr1eR88;
         "datapack-1.19.1" = _4Wr1eR88;
         "datapack-1.19.2" = _4Wr1eR88;
@@ -120,6 +126,7 @@ let
         "datapack-26.1" = _YhDLwgLX;
         "datapack-26.1.1" = _YhDLwgLX;
         "datapack-26.1.2" = _YhDLwgLX;
+        "datapack-26.2" = _agafdd9t;
         "fabric-1.20.5" = _2XHTVph3;
         "fabric-1.20.6" = _2XHTVph3;
         "pkg-2.8-2" = _4Wr1eR88;
@@ -137,7 +144,8 @@ let
         "pkg-4.7.2" = _p4E9qNnV;
         "pkg-4.8_Beta" = _Ym38p2HO;
         "pkg-4.8" = _YhDLwgLX;
-        "default" = _YhDLwgLX;
+        "pkg-4.9" = _agafdd9t;
+        "default" = _agafdd9t;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tree-chopping";

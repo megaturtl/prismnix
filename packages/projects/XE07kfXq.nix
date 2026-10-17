@@ -6,8 +6,14 @@ let
             "file" = "ColoredAnvils.jar";
             "hash" = "sha512-cg66FRfhXWopEVnhJWAsbTYjjHqjs/tTMzxdQRFZXUfavSCNMFOqjBeTkL+KEZsTiIKwi39+rxBfjHfplcIGjg==";
         };
+        _fsUtbcP2 = {
+            "id" = "fsUtbcP2";
+            "file" = "ColoredAnvils.jar";
+            "hash" = "sha512-K1PMUDjtX8t/ZAOCm9VwyKsAXbbneL2WQEZFUoaIw/vGjDTIlhmlIV3Nt+0GQcUi58hGblVJNFaAm/JTP+82OA==";
+        };
     in {
         "WUL4m1ey" = _WUL4m1ey;
+        "fsUtbcP2" = _fsUtbcP2;
         "bukkit-1.12.2" = _WUL4m1ey;
         "bukkit-1.13" = _WUL4m1ey;
         "bukkit-1.13.1" = _WUL4m1ey;
@@ -43,6 +49,11 @@ let
         "bukkit-1.20.4" = _WUL4m1ey;
         "bukkit-1.20.5" = _WUL4m1ey;
         "bukkit-1.20.6" = _WUL4m1ey;
+        "bukkit-26.1" = _fsUtbcP2;
+        "bukkit-26.1.1" = _fsUtbcP2;
+        "bukkit-26.1.2" = _fsUtbcP2;
+        "bukkit-26.2" = _fsUtbcP2;
+        "bukkit-26.3" = _fsUtbcP2;
         "paper-1.12.2" = _WUL4m1ey;
         "paper-1.13" = _WUL4m1ey;
         "paper-1.13.1" = _WUL4m1ey;
@@ -78,6 +89,11 @@ let
         "paper-1.20.4" = _WUL4m1ey;
         "paper-1.20.5" = _WUL4m1ey;
         "paper-1.20.6" = _WUL4m1ey;
+        "paper-26.1" = _fsUtbcP2;
+        "paper-26.1.1" = _fsUtbcP2;
+        "paper-26.1.2" = _fsUtbcP2;
+        "paper-26.2" = _fsUtbcP2;
+        "paper-26.3" = _fsUtbcP2;
         "purpur-1.12.2" = _WUL4m1ey;
         "purpur-1.13" = _WUL4m1ey;
         "purpur-1.13.1" = _WUL4m1ey;
@@ -113,6 +129,11 @@ let
         "purpur-1.20.4" = _WUL4m1ey;
         "purpur-1.20.5" = _WUL4m1ey;
         "purpur-1.20.6" = _WUL4m1ey;
+        "purpur-26.1" = _fsUtbcP2;
+        "purpur-26.1.1" = _fsUtbcP2;
+        "purpur-26.1.2" = _fsUtbcP2;
+        "purpur-26.2" = _fsUtbcP2;
+        "purpur-26.3" = _fsUtbcP2;
         "spigot-1.12.2" = _WUL4m1ey;
         "spigot-1.13" = _WUL4m1ey;
         "spigot-1.13.1" = _WUL4m1ey;
@@ -148,8 +169,19 @@ let
         "spigot-1.20.4" = _WUL4m1ey;
         "spigot-1.20.5" = _WUL4m1ey;
         "spigot-1.20.6" = _WUL4m1ey;
+        "spigot-26.1" = _fsUtbcP2;
+        "spigot-26.1.1" = _fsUtbcP2;
+        "spigot-26.1.2" = _fsUtbcP2;
+        "spigot-26.2" = _fsUtbcP2;
+        "spigot-26.3" = _fsUtbcP2;
+        "folia-26.1" = _fsUtbcP2;
+        "folia-26.1.1" = _fsUtbcP2;
+        "folia-26.1.2" = _fsUtbcP2;
+        "folia-26.2" = _fsUtbcP2;
+        "folia-26.3" = _fsUtbcP2;
         "pkg-1.0.0" = _WUL4m1ey;
-        "default" = _WUL4m1ey;
+        "pkg-1.0.1" = _fsUtbcP2;
+        "default" = _fsUtbcP2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "coloredanvils";

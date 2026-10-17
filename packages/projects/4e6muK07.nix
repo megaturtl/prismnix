@@ -26,18 +26,38 @@ let
             "file" = "VulkanMod_1.20.1-0.2.0-ALPHA+1.20.1.jar";
             "hash" = "sha512-3PyO5LBdJkPSbKFGZrSClRQX5d16yLhfgNrux+OriJjOiryztq9tgVCOd/VCja49R9Wba1MPhuEp/tHvLyhtTA==";
         };
+        _k401DukG = {
+            "id" = "k401DukG";
+            "file" = "VulkanMod-Reforged-0.3.0-ALPHA+1.20.1.jar";
+            "hash" = "sha512-0d4acdFTjz7WPvTcFRI6hQ0cB9MI/2Hfxj2Mp7O0Pc6X2Y/xlb/x8QD1mk8qeLyzW3KAl0RiMhAm8JURHTDkBQ==";
+        };
+        _mnc3HUEv = {
+            "id" = "mnc3HUEv";
+            "file" = "VulkanMod-Reforged-0.3.0-ALPHA+1.21.1.jar";
+            "hash" = "sha512-1bw9e3Tw2tc/Kq/Q6a0WX1z8jgbqhmsq66zwpatq4uVddlUuBTkrRl7exXoTnTxdHczf9sGfB0S5V6Eok810qw==";
+        };
+        _KggbdG7c = {
+            "id" = "KggbdG7c";
+            "file" = "VulkanMod-Reforged-0.3.0-ALPHA+1.21.11.jar";
+            "hash" = "sha512-vP/gxEyy1EGLNpa+f7dvgI1jTFEm7hUhPazOTz7vkyvve5CMgp60egie9q3cIW5b6DrkJrSAZuSJk+zp1hbbUA==";
+        };
     in {
         "3rhkX95w" = _3rhkX95w;
         "J0Ps0cgC" = _J0Ps0cgC;
         "KyP2reJN" = _KyP2reJN;
         "O3zXMfn9" = _O3zXMfn9;
         "FrVobncL" = _FrVobncL;
-        "neoforge-1.21.1" = _O3zXMfn9;
-        "neoforge-1.20.1" = _FrVobncL;
+        "k401DukG" = _k401DukG;
+        "mnc3HUEv" = _mnc3HUEv;
+        "KggbdG7c" = _KggbdG7c;
+        "neoforge-1.21.1" = _mnc3HUEv;
+        "neoforge-1.20.1" = _k401DukG;
+        "neoforge-1.21.11" = _KggbdG7c;
         "pkg-Vulkan-Reforged-0.1.0-ALPHA" = _KyP2reJN;
         "pkg-Vulkan-Reforged-0.1.1-ALPHA" = _J0Ps0cgC;
         "pkg-VulkanMod-Reforged-0.2.0-ALPHA" = _FrVobncL;
-        "default" = _FrVobncL;
+        "pkg-VulkanMod-Reforged-0.3.0-ALPHA" = _KggbdG7c;
+        "default" = _KggbdG7c;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vulkanmod-reforged";

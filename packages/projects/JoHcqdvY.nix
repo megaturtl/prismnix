@@ -181,6 +181,11 @@ let
             "file" = "more-ores-1.1.2.jar";
             "hash" = "sha512-VWn0pwRlD4o/8piKnanMa2+Hc3JCrbFERC9zjpxWJa0m5K7kqH5JGMQSPO26CpcKrhbzLu2IBldWvrhlwSA+vA==";
         };
+        _axl072gV = {
+            "id" = "axl072gV";
+            "file" = "more-ores-1.1.0.jar";
+            "hash" = "sha512-LniCLRgZLChHhCjr8cnTWStpFAK5Pc7MmxWPMezwx1o1W3lgVzFnLt9r79p2NIW4JU39QYQfJAbZ4qsC0tweyQ==";
+        };
     in {
         "3ah3BfOP" = _3ah3BfOP;
         "cdU9FDOu" = _cdU9FDOu;
@@ -218,6 +223,7 @@ let
         "IqdRc0eG" = _IqdRc0eG;
         "M7ShHzdm" = _M7ShHzdm;
         "IuVxD9FW" = _IuVxD9FW;
+        "axl072gV" = _axl072gV;
         "fabric-1.20.6" = _iA0kRKTP;
         "fabric-1.21" = _QUn7fRaS;
         "fabric-1.20.1" = _8VumGLmA;
@@ -241,15 +247,16 @@ let
         "fabric-26.1.1" = _M7ShHzdm;
         "fabric-26.1.2" = _M7ShHzdm;
         "fabric-26.2" = _IuVxD9FW;
+        "fabric-26.3" = _axl072gV;
         "pkg-1.0.0" = _cdU9FDOu;
         "pkg-1.0.1" = _nZamNiAj;
         "pkg-1.0.2" = _SJA3ol4q;
         "pkg-1.0.3" = _pPrlciBR;
         "pkg-1.0.4" = _MT9LtPY2;
-        "pkg-1.1.0" = _z4CRx63H;
+        "pkg-1.1.0" = _axl072gV;
         "pkg-1.1.1" = _FjaendWG;
         "pkg-1.1.2" = _IuVxD9FW;
-        "default" = _IuVxD9FW;
+        "default" = _axl072gV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rayvaxmodmore_ores";

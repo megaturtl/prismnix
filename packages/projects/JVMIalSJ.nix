@@ -236,6 +236,11 @@ let
             "file" = "dasik-library-1.1.0+1.21.11.jar";
             "hash" = "sha512-SUWwkvNbu86TZWK+NCKj4Fo3vuEZmBxM3xKe/DKanD2WCDSMNh1eGl9OLn179lEPTIlts8vhTcLBuefvmzHKFw==";
         };
+        _OHVKKlEC = {
+            "id" = "OHVKKlEC";
+            "file" = "dasik-library-1.9.2.jar";
+            "hash" = "sha512-RxrKBJRuyHcJ9mACc+hzY1jau0s1heZIhBJH4tzsAP/J/hIjxMOXlzf9zZvN9WP6ey4G3PYpjSdeOew81qvPvQ==";
+        };
     in {
         "E8fuH6Ts" = _E8fuH6Ts;
         "1Heke9Wm" = _1Heke9Wm;
@@ -284,6 +289,7 @@ let
         "dUJgsU9g" = _dUJgsU9g;
         "ApAxZY0s" = _ApAxZY0s;
         "1sOsRE9S" = _1sOsRE9S;
+        "OHVKKlEC" = _OHVKKlEC;
         "fabric-26.1-snapshot-1" = _B7EoCGaX;
         "fabric-26.1-snapshot-2" = _B7EoCGaX;
         "fabric-26.1-snapshot-3" = _B7EoCGaX;
@@ -302,7 +308,7 @@ let
         "fabric-26.1-rc-2" = _B7EoCGaX;
         "fabric-26.1-rc-3" = _B7EoCGaX;
         "fabric-26.1" = _B7EoCGaX;
-        "fabric-26.1.2" = _2mrrRlZX;
+        "fabric-26.1.2" = _OHVKKlEC;
         "fabric-26.1.1" = _B7EoCGaX;
         "fabric-26.1.1-rc-1" = _B7EoCGaX;
         "fabric-26.2-snapshot-1" = _B7EoCGaX;
@@ -322,7 +328,7 @@ let
         "fabric-26.2-pre-6" = _B7EoCGaX;
         "fabric-26.2-rc-1" = _B7EoCGaX;
         "fabric-26.2-rc-2" = _B7EoCGaX;
-        "fabric-26.2" = _2mrrRlZX;
+        "fabric-26.2" = _OHVKKlEC;
         "fabric-1.21.11" = _1sOsRE9S;
         "fabric-26.3-snapshot-1" = _2t6bKfI4;
         "fabric-26.3-snapshot-2" = _2t6bKfI4;
@@ -336,7 +342,7 @@ let
         "fabric-26.3-snapshot-8" = _2t6bKfI4;
         "fabric-26.3-pre-1" = _2t6bKfI4;
         "fabric-26.3-pre-2" = _2t6bKfI4;
-        "fabric-26.3" = _2mrrRlZX;
+        "fabric-26.3" = _OHVKKlEC;
         "fabric-1.20.1" = _dUJgsU9g;
         "fabric-1.21.1" = _ApAxZY0s;
         "pkg-1.2.3" = _E8fuH6Ts;
@@ -385,7 +391,8 @@ let
         "pkg-1.1.0+1.20.1" = _dUJgsU9g;
         "pkg-1.1.0+1.21.1" = _ApAxZY0s;
         "pkg-1.1.0+1.21.11" = _1sOsRE9S;
-        "default" = _1sOsRE9S;
+        "pkg-1.9.2" = _OHVKKlEC;
+        "default" = _OHVKKlEC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dasik-library";

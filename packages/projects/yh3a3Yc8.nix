@@ -311,6 +311,16 @@ let
             "file" = "novoatlas-fabric-1.8.2+26.2.x.jar";
             "hash" = "sha512-hgB9eC8n0lA1PC0TE3/2RoqHx22qrk89h9cIpO4swxK7pnxVEFISgJoygjfdTs3HGlWXaYmbnfKGD8RTPQQJwg==";
         };
+        _oHWwM5sN = {
+            "id" = "oHWwM5sN";
+            "file" = "novoatlas-neoforge-1.8.2+1.21.1.jar";
+            "hash" = "sha512-S2a/rucRJwWjQ2GEXuUkTJrmuC69cZrC1fG8gV1ipFWZHvt0axN8PJE1Ep2TG1uLEX/QWgEUll0VwtlW4fJ+pA==";
+        };
+        _y7Eknkzh = {
+            "id" = "y7Eknkzh";
+            "file" = "novoatlas-fabric-1.8.2+1.21.1.jar";
+            "hash" = "sha512-tYWp1rxRPOf/muW2b2W5Jbbjyjs1G0jvn+OkVSJO243wG+AUeND9ti3akcA8P6uwifS0kYRcKd8eBNSY0j+epw==";
+        };
     in {
         "SZpX9uRC" = _SZpX9uRC;
         "uitAcYtc" = _uitAcYtc;
@@ -374,14 +384,16 @@ let
         "zRL73Mkh" = _zRL73Mkh;
         "vMYsP3JE" = _vMYsP3JE;
         "mbQdDkQa" = _mbQdDkQa;
+        "oHWwM5sN" = _oHWwM5sN;
+        "y7Eknkzh" = _y7Eknkzh;
         "fabric-1.21.2" = _kzPjb90g;
         "fabric-1.21.3" = _kzPjb90g;
         "fabric-1.21.4" = _kzPjb90g;
         "fabric-1.21.5" = _kzPjb90g;
         "fabric-1.21.6" = _kzPjb90g;
         "fabric-1.21.7" = _kzPjb90g;
-        "fabric-1.21" = _JqO9H8Ws;
-        "fabric-1.21.1" = _JqO9H8Ws;
+        "fabric-1.21" = _y7Eknkzh;
+        "fabric-1.21.1" = _y7Eknkzh;
         "fabric-1.21.8" = _kzPjb90g;
         "fabric-1.20" = _PLnTADb4;
         "fabric-1.20.1" = _PLnTADb4;
@@ -400,8 +412,8 @@ let
         "quilt-1.21.5" = _kzPjb90g;
         "quilt-1.21.6" = _kzPjb90g;
         "quilt-1.21.7" = _kzPjb90g;
-        "quilt-1.21" = _JqO9H8Ws;
-        "quilt-1.21.1" = _JqO9H8Ws;
+        "quilt-1.21" = _y7Eknkzh;
+        "quilt-1.21.1" = _y7Eknkzh;
         "quilt-1.21.8" = _kzPjb90g;
         "quilt-1.20" = _PLnTADb4;
         "quilt-1.20.1" = _PLnTADb4;
@@ -418,8 +430,8 @@ let
         "neoforge-1.21.5" = _J2r4obFj;
         "neoforge-1.21.6" = _J2r4obFj;
         "neoforge-1.21.7" = _J2r4obFj;
-        "neoforge-1.21" = _BXtTQbxm;
-        "neoforge-1.21.1" = _BXtTQbxm;
+        "neoforge-1.21" = _oHWwM5sN;
+        "neoforge-1.21.1" = _oHWwM5sN;
         "neoforge-1.21.8" = _J2r4obFj;
         "neoforge-1.21.9" = _KFNF0mOs;
         "neoforge-1.21.10" = _KFNF0mOs;
@@ -463,7 +475,8 @@ let
         "pkg-1.8.1+26.1.x" = _zRL73Mkh;
         "pkg-1.8.1+1.21.1" = _JqO9H8Ws;
         "pkg-1.8.2+26.2.x" = _mbQdDkQa;
-        "default" = _mbQdDkQa;
+        "pkg-1.8.2+1.21.1" = _y7Eknkzh;
+        "default" = _y7Eknkzh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "novoatlas";

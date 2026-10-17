@@ -546,6 +546,31 @@ let
             "file" = "ava-1.21.11-neoforge-2.10.1.jar";
             "hash" = "sha512-Z80GouMhVnx71lcxQfzBIU1PC8ZzUsbUtDHMMUQcLWuP++FKdocmTPThnbcpo7HSMKQRuZ/tMpbQUGXRvMVLJA==";
         };
+        _j4AK9Rq2 = {
+            "id" = "j4AK9Rq2";
+            "file" = "ava-1.21.1-neoforge-2.9.22.jar";
+            "hash" = "sha512-gByOxw5JAYKq+hkiyGmQjBjIdou/DTbl3TIxjyGRmmQukt+mA/1E3zH2rGM5vnyBPxw1xOTvoZ7S5FjEs5nRAw==";
+        };
+        _8g2Pw83D = {
+            "id" = "8g2Pw83D";
+            "file" = "ava-1.21.11-neoforge-2.10.2.jar";
+            "hash" = "sha512-jNr8fGIigSuBfDV4Gr/SgRQJqM+DOczjpDGdRqISs/1vGdxA+08bXyz3N4zwFiCvb3G5Dn30Y4L3Mvw0/Wq2Xg==";
+        };
+        _ZC89hGGm = {
+            "id" = "ZC89hGGm";
+            "file" = "ava-26.1-neoforge-2.11.0.jar";
+            "hash" = "sha512-AfrbyE41DQFj8Z93EkUNB0q12b1iehqEdZWYcpXJGBQumw5PVfVJhJl5Beay2r4jWMH+Z+5lwgfkVxyVAeP9Jg==";
+        };
+        _Y8TFhUyf = {
+            "id" = "Y8TFhUyf";
+            "file" = "ava-26.2-neoforge-2.12.0.jar";
+            "hash" = "sha512-6xXOTh5+kKxX+wwg1yzX+m7Xsh+ZPMgPYSR3z36Zv2VtbV85BKAz0iXb+G6uvBz0QSRlqiE1ORkz9XnkzgI+pw==";
+        };
+        _EPyF27Xr = {
+            "id" = "EPyF27Xr";
+            "file" = "ava-26.3-neoforge-2.13.0.jar";
+            "hash" = "sha512-TRAcfs4wx9otODhGX8tVuU0He/0k+WFUaMjX6u5kEELtck1XK2Wh+oBjjK4Mc6rKz2zqh7ttNfmD2ZWbv2iafw==";
+        };
     in {
         "b4iWi9BX" = _b4iWi9BX;
         "RMHzNRWX" = _RMHzNRWX;
@@ -656,6 +681,11 @@ let
         "ismCo90z" = _ismCo90z;
         "JRTdVlpZ" = _JRTdVlpZ;
         "5wHYfWAr" = _5wHYfWAr;
+        "j4AK9Rq2" = _j4AK9Rq2;
+        "8g2Pw83D" = _8g2Pw83D;
+        "ZC89hGGm" = _ZC89hGGm;
+        "Y8TFhUyf" = _Y8TFhUyf;
+        "EPyF27Xr" = _EPyF27Xr;
         "forge-1.16.5" = _gCr4w7hO;
         "forge-1.17.1" = _RMHzNRWX;
         "forge-1.18.2" = _5drqE7Nc;
@@ -676,8 +706,11 @@ let
         "neoforge-1.20.5" = _O3kdSNbo;
         "neoforge-1.20.6" = _8zKUjM1N;
         "neoforge-1.21" = _Wuhi4uDf;
-        "neoforge-1.21.1" = _ismCo90z;
-        "neoforge-1.21.11" = _5wHYfWAr;
+        "neoforge-1.21.1" = _j4AK9Rq2;
+        "neoforge-1.21.11" = _8g2Pw83D;
+        "neoforge-26.1" = _ZC89hGGm;
+        "neoforge-26.2" = _Y8TFhUyf;
+        "neoforge-26.3" = _EPyF27Xr;
         "pkg-1.16.5-1.9.8.77958" = _b4iWi9BX;
         "pkg-1.17.1-1.9.9.2" = _RMHzNRWX;
         "pkg-1.18.2-2.1.2.89937" = _HD1ZQheE;
@@ -785,7 +818,12 @@ let
         "pkg-2.9.21" = _ismCo90z;
         "pkg-2.10.0" = _JRTdVlpZ;
         "pkg-2.10.1" = _5wHYfWAr;
-        "default" = _5wHYfWAr;
+        "pkg-2.9.22" = _j4AK9Rq2;
+        "pkg-2.10.2" = _8g2Pw83D;
+        "pkg-2.11.0" = _ZC89hGGm;
+        "pkg-2.12.0" = _Y8TFhUyf;
+        "pkg-2.13.0" = _EPyF27Xr;
+        "default" = _EPyF27Xr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "a.v.a-alliance-of-valiant-arms-guns";

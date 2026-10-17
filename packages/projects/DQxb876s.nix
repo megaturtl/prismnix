@@ -881,6 +881,36 @@ let
             "file" = "reanimated-1.21.11+1.7.1-neoforge.jar";
             "hash" = "sha512-iZurRpSNSu6hz19oC/5dk4MxC/p7Zwe+1HThNOFzt2w/XVbh+60ApafelzTURHnexBVqpSYqOIEqn9C9owbU1g==";
         };
+        _x84z2Jw6 = {
+            "id" = "x84z2Jw6";
+            "file" = "reanimated-1.21.1+1.8.jar";
+            "hash" = "sha512-mTrvyv8PEVkqW2SSYowG5msmbuP5elGd+CKzP6ZeYq7PoDY9k2T/ARU8vlMM/5LiBu0GjN0Lz//xwBNbcu2+MQ==";
+        };
+        _d72Kdm2c = {
+            "id" = "d72Kdm2c";
+            "file" = "reanimated-1.21.5+1.8.jar";
+            "hash" = "sha512-WPDs1SjREaje3bTAFHCzteUqFdszDfjUmU6kotVcFgIBX8zGbAqCHWxiNvuw92FhsQy8yduwfTDh9xpK1F2JJA==";
+        };
+        _IBBMrmFW = {
+            "id" = "IBBMrmFW";
+            "file" = "reanimated-1.21.11+1.8.jar";
+            "hash" = "sha512-VGJLv/wxycaGUOb0cna6wlLfdj4j1Qh07jV8hOqVn76IMOVhiXmeWhgzqutIakwM2LxBjHFX6e8CmuKYaXsOjg==";
+        };
+        _PQPlUalb = {
+            "id" = "PQPlUalb";
+            "file" = "reanimated-26.1.2+1.8.jar";
+            "hash" = "sha512-fKvSbyiPTM4FCyC+yh7zKH1RnaoubFo3C7Bcx+2sRXrdxYfOJc+xVQxqSgqe3Ig3+3ONpZhq7T7BBpXibI2JQw==";
+        };
+        _DcVnphuk = {
+            "id" = "DcVnphuk";
+            "file" = "reanimated-26.2+1.8.jar";
+            "hash" = "sha512-2z6eeIJDNmkzJ4T0B8CuN3LW4BH+Ak7mijQ2ThwHjIDZ4eG3ULNizSPbhxk+SzB/OaHUHTASaiSuXtWJ4I5kaw==";
+        };
+        _aBCxjR2o = {
+            "id" = "aBCxjR2o";
+            "file" = "reanimated-26.3+1.8.jar";
+            "hash" = "sha512-k+6oMi+U0PGtO88X6oJ3CvTbOIWVKz7Lg3intP41CvANByevEIPYkoxISuU80JjOetpsOH/Y01CBoGSFkVg5qQ==";
+        };
     in {
         "x1cfFZZ7" = _x1cfFZZ7;
         "AIYdIzvA" = _AIYdIzvA;
@@ -1058,38 +1088,44 @@ let
         "wGYOJwHT" = _wGYOJwHT;
         "olLSGt2j" = _olLSGt2j;
         "viI5ozLW" = _viI5ozLW;
+        "x84z2Jw6" = _x84z2Jw6;
+        "d72Kdm2c" = _d72Kdm2c;
+        "IBBMrmFW" = _IBBMrmFW;
+        "PQPlUalb" = _PQPlUalb;
+        "DcVnphuk" = _DcVnphuk;
+        "aBCxjR2o" = _aBCxjR2o;
         "fabric-1.21.2" = _cG0X6ObP;
         "fabric-1.21.3" = _kolwE1vJ;
         "fabric-1.21.4" = _2xuT8tIy;
-        "fabric-1.21.5" = _K4xuZmyD;
+        "fabric-1.21.5" = _d72Kdm2c;
         "fabric-1.21.6" = _ES8NnoQC;
         "fabric-1.21.7" = _X9ZHEncr;
         "fabric-1.21.8" = _Z4FHlyLm;
         "fabric-1.21.9" = _q9o6nKLT;
         "fabric-1.21.10" = _xOPDK5gK;
-        "fabric-1.21.11" = _QJW10WOh;
-        "fabric-26.1" = _lk7qIzPn;
-        "fabric-26.1.1" = _lk7qIzPn;
-        "fabric-26.1.2" = _lk7qIzPn;
-        "fabric-1.21.1" = _pYHcigfN;
-        "fabric-26.2" = _4VWknBgO;
-        "fabric-26.3" = _yBxQRqcT;
+        "fabric-1.21.11" = _IBBMrmFW;
+        "fabric-26.1" = _PQPlUalb;
+        "fabric-26.1.1" = _PQPlUalb;
+        "fabric-26.1.2" = _PQPlUalb;
+        "fabric-1.21.1" = _x84z2Jw6;
+        "fabric-26.2" = _DcVnphuk;
+        "fabric-26.3" = _aBCxjR2o;
         "quilt-1.21.2" = _cG0X6ObP;
         "quilt-1.21.3" = _kolwE1vJ;
         "quilt-1.21.4" = _2xuT8tIy;
-        "quilt-1.21.5" = _K4xuZmyD;
+        "quilt-1.21.5" = _d72Kdm2c;
         "quilt-1.21.6" = _ES8NnoQC;
         "quilt-1.21.7" = _X9ZHEncr;
         "quilt-1.21.8" = _Z4FHlyLm;
         "quilt-1.21.9" = _q9o6nKLT;
         "quilt-1.21.10" = _xOPDK5gK;
-        "quilt-1.21.11" = _QJW10WOh;
-        "quilt-26.1" = _lk7qIzPn;
-        "quilt-26.1.1" = _lk7qIzPn;
-        "quilt-26.1.2" = _lk7qIzPn;
-        "quilt-1.21.1" = _pYHcigfN;
-        "quilt-26.2" = _4VWknBgO;
-        "quilt-26.3" = _yBxQRqcT;
+        "quilt-1.21.11" = _IBBMrmFW;
+        "quilt-26.1" = _PQPlUalb;
+        "quilt-26.1.1" = _PQPlUalb;
+        "quilt-26.1.2" = _PQPlUalb;
+        "quilt-1.21.1" = _x84z2Jw6;
+        "quilt-26.2" = _DcVnphuk;
+        "quilt-26.3" = _aBCxjR2o;
         "neoforge-1.21.1" = _VFuMYOKf;
         "neoforge-1.21.3" = _zTRlebgu;
         "neoforge-1.21.4" = _Rcoh2yzb;
@@ -1114,7 +1150,8 @@ let
         "pkg-1.5.1" = _NXOdlUZE;
         "pkg-1.7" = _22nnKhgE;
         "pkg-1.7.1" = _viI5ozLW;
-        "default" = _viI5ozLW;
+        "pkg-1.8" = _aBCxjR2o;
+        "default" = _aBCxjR2o;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "re-animated";

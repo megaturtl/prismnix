@@ -31,6 +31,11 @@ let
             "file" = "betterlightmap-a3.0-1.21.1.jar";
             "hash" = "sha512-93tIGmFvpLINayO0ghwodyg3AppP7ekyBbkjcC1p4ODvz2WSZU/o+zhzv4X2crIuorWrH2hmMgVD2zkDe/PWtg==";
         };
+        _w9egI6E0 = {
+            "id" = "w9egI6E0";
+            "file" = "better-lightmap-a3.0-1.20.1.jar";
+            "hash" = "sha512-eL3HcfxTE3wQ4wILM03b4DWE6wvvI2F2DeLPFqxzHn2ADY/CSjYsueaA9wE6NzWGESSwhOkqh8h+onNWkWL++A==";
+        };
     in {
         "kkDFIgoo" = _kkDFIgoo;
         "2GMyJFMD" = _2GMyJFMD;
@@ -38,15 +43,17 @@ let
         "ITbakNY3" = _ITbakNY3;
         "eNxHPApg" = _eNxHPApg;
         "TSTmJlg5" = _TSTmJlg5;
+        "w9egI6E0" = _w9egI6E0;
         "fabric-1.21.1" = _TSTmJlg5;
-        "fabric-1.20.1" = _ITbakNY3;
+        "fabric-1.20.1" = _w9egI6E0;
         "pkg-1.0.0+1.21.1" = _kkDFIgoo;
         "pkg-1.0.0+1.20.1" = _2GMyJFMD;
         "pkg-1.1.0+1.20.1" = _zz0FcXfQ;
         "pkg-2.0.0+1.20.1" = _ITbakNY3;
         "pkg-2.0.0+1.21.1" = _eNxHPApg;
         "pkg-a3.0-1.21.1" = _TSTmJlg5;
-        "default" = _TSTmJlg5;
+        "pkg-a3.0-1.20.1" = _w9egI6E0;
+        "default" = _w9egI6E0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-lightmap";

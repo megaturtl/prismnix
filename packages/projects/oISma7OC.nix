@@ -36,6 +36,11 @@ let
             "file" = "OCSMP Title Screen v1.3.1.zip";
             "hash" = "sha512-oMvtCHefQioDS9BckF8q6sAvCaDL5oLn4Gd/c7LTVI6ZoEc+VGPOAUy4nmAMkvPevekMF+0XW8tAqyU/LB7yrQ==";
         };
+        _oT4uDSoW = {
+            "id" = "oT4uDSoW";
+            "file" = "OCSMP Title Screen v1.4.zip";
+            "hash" = "sha512-fPybyfleNzzc1MYovHjhcmSj0yyXZRKWmNNugCeCOyKT/E+MIDIgrTGLCwTHqy71elQH899u4RapFep2QgCKAw==";
+        };
     in {
         "8Inukith" = _8Inukith;
         "KINQRaF5" = _KINQRaF5;
@@ -44,8 +49,9 @@ let
         "pUe7Wpun" = _pUe7Wpun;
         "rdG05bAs" = _rdG05bAs;
         "PhFyvahO" = _PhFyvahO;
-        "minecraft-1.21" = _PhFyvahO;
-        "minecraft-1.21.1" = _PhFyvahO;
+        "oT4uDSoW" = _oT4uDSoW;
+        "minecraft-1.21" = _oT4uDSoW;
+        "minecraft-1.21.1" = _oT4uDSoW;
         "pkg-1.0.0" = _8Inukith;
         "pkg-1.1.0" = _KINQRaF5;
         "pkg-1.1.1" = _TfGV6skx;
@@ -53,7 +59,8 @@ let
         "pkg-1.3.0" = _pUe7Wpun;
         "pkg-1.3.1-lite" = _rdG05bAs;
         "pkg-1.3.1" = _PhFyvahO;
-        "default" = _PhFyvahO;
+        "pkg-1.4" = _oT4uDSoW;
+        "default" = _oT4uDSoW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ocsmp-title-screen";

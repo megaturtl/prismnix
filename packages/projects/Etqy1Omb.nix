@@ -1261,6 +1261,16 @@ let
             "file" = "integratedtunnels-26.3-neoforge-1.9.6-813.jar";
             "hash" = "sha512-IPuszfciQahh5iAtwcxojSaBY4pHWtCUuD6EfbZ8ENjpYhwXaiPhRei4I9J+B65lvA9q3A+R1JvraS6LubHduA==";
         };
+        _QNIZr1Rp = {
+            "id" = "QNIZr1Rp";
+            "file" = "integratedtunnels-26.1.2-neoforge-1.13.2.jar";
+            "hash" = "sha512-9mKfS5GH+ewRNWKo59ZZDiZEwklv8PFWiIuQRlO2apf4gDyQvSXsJTvo49Pbz64UpeRqnxUxe6moonyJzTx3Aw==";
+        };
+        _efrjYsSx = {
+            "id" = "efrjYsSx";
+            "file" = "integratedtunnels-26.3-neoforge-1.9.6-821.jar";
+            "hash" = "sha512-iM4YVA3dzjunFCfF6FZW8FFw068t6DWlrtSarPH8kMygfPiCJ6lmC26IdUCL2HRTEULrAw1YUfJpGYRZkxbDDw==";
+        };
     in {
         "SeqgYOdy" = _SeqgYOdy;
         "E7ViBXqS" = _E7ViBXqS;
@@ -1514,6 +1524,8 @@ let
         "9KAmhtCx" = _9KAmhtCx;
         "vIAZzCBK" = _vIAZzCBK;
         "I76uVHXP" = _I76uVHXP;
+        "QNIZr1Rp" = _QNIZr1Rp;
+        "efrjYsSx" = _efrjYsSx;
         "forge-1.18.2" = _CU9WGzLL;
         "forge-1.19" = _StEraYdJ;
         "forge-1.19.2" = _kho0qY3z;
@@ -1528,9 +1540,9 @@ let
         "neoforge-1.21.10" = _UFjIZL3p;
         "neoforge-1.21.11" = _QT6VKd4x;
         "neoforge-26.1.1" = _bsHu7Apf;
-        "neoforge-26.1.2" = _vIAZzCBK;
+        "neoforge-26.1.2" = _QNIZr1Rp;
         "neoforge-26.2" = _8OraiiBt;
-        "neoforge-26.3" = _I76uVHXP;
+        "neoforge-26.3" = _efrjYsSx;
         "pkg-1.8.11" = _SeqgYOdy;
         "pkg-1.18.2-1.8.12" = _E7ViBXqS;
         "pkg-1.19-1.8.12" = _rvEF6hyi;
@@ -1782,7 +1794,9 @@ let
         "pkg-26.1.2-1.13.0-806" = _9KAmhtCx;
         "pkg-26.1.2-1.13.1" = _vIAZzCBK;
         "pkg-26.3-1.9.6-813" = _I76uVHXP;
-        "default" = _I76uVHXP;
+        "pkg-26.1.2-1.13.2" = _QNIZr1Rp;
+        "pkg-26.3-1.9.6-821" = _efrjYsSx;
+        "default" = _efrjYsSx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "integrated-tunnels";

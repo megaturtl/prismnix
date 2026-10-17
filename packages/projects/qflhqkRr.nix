@@ -26,21 +26,29 @@ let
             "file" = "Bare Bones x Bonsai Studios.zip";
             "hash" = "sha512-JHuUc36rgg0HtyVLt2oHftxaeuhalHPkWH0hLa2tDHWEYW9kcWVUqYr0qT9zH+saHoa16Pk2nGAYi9PcsVohzA==";
         };
+        _a4B92hXS = {
+            "id" = "a4B92hXS";
+            "file" = "§eBare Bonsai§0 §8[v1.5]§0.zip";
+            "hash" = "sha512-HPOFxN4zbc93PLNB1BrqzNBIbngDR59V7yuW471+46cNZpz7EgKu6HtHLY1hEhaFZuBowY8XKPz83aV2KdedaQ==";
+        };
     in {
         "2V7dEyrH" = _2V7dEyrH;
         "7ucjnwfr" = _7ucjnwfr;
         "tkArBCm1" = _tkArBCm1;
         "WTJ0Q2K7" = _WTJ0Q2K7;
         "eyL6L6k0" = _eyL6L6k0;
+        "a4B92hXS" = _a4B92hXS;
         "minecraft-1.19.2" = _eyL6L6k0;
-        "minecraft-1.20.1" = _eyL6L6k0;
+        "minecraft-1.20.1" = _a4B92hXS;
         "minecraft-1.18.2" = _eyL6L6k0;
+        "minecraft-1.21.1" = _a4B92hXS;
         "pkg-0.1" = _2V7dEyrH;
         "pkg-0.2b" = _7ucjnwfr;
         "pkg-0.2" = _tkArBCm1;
         "pkg-0.3" = _WTJ0Q2K7;
         "pkg-0.4" = _eyL6L6k0;
-        "default" = _eyL6L6k0;
+        "pkg-v1.5" = _a4B92hXS;
+        "default" = _a4B92hXS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bare-bones-x-bonsai-studios";

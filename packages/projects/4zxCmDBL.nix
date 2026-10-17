@@ -236,6 +236,16 @@ let
             "file" = "TheBrewingProject-3.4.0-beta.jar";
             "hash" = "sha512-9Hh/sALbydV/f4vxjh2MWuasKnvG1M23Efmruf8snG9mqEVfKL6gaucqk2C97lpgVe31rDRpJlI1gydYrwnVKA==";
         };
+        _joIbC3Hi = {
+            "id" = "joIbC3Hi";
+            "file" = "TheBrewingProject-3.5.0.jar";
+            "hash" = "sha512-gm9Wn8R95U71y/LgpbmqPR04G3yCW8wBIX0jcZbjPddhRQH8C/75TaATB8qBJITLOjuvyIEJXLwRwMRUPAXrXg==";
+        };
+        _kD1rKI8o = {
+            "id" = "kD1rKI8o";
+            "file" = "TheBrewingProject-3.5.1.jar";
+            "hash" = "sha512-x+pSGHpCCsZttIdPKj1wrMSY19ksJOD9UXl8eaxLupCCnVltIHiBNs81GJyylSxD8wY2UzcGMYNzahLabGOGDw==";
+        };
     in {
         "dERk5u36" = _dERk5u36;
         "KTfEAE8M" = _KTfEAE8M;
@@ -284,6 +294,8 @@ let
         "pOOIJsli" = _pOOIJsli;
         "SEgGTh4R" = _SEgGTh4R;
         "U5fyH0RU" = _U5fyH0RU;
+        "joIbC3Hi" = _joIbC3Hi;
+        "kD1rKI8o" = _kD1rKI8o;
         "paper-1.21.3" = _A2Hclvib;
         "paper-1.21.4" = _A2Hclvib;
         "paper-1.21.5" = _A2Hclvib;
@@ -292,12 +304,12 @@ let
         "paper-1.21" = _A2Hclvib;
         "paper-1.21.1" = _A2Hclvib;
         "paper-1.21.2" = _A2Hclvib;
-        "paper-1.21.8" = _U5fyH0RU;
-        "paper-1.21.9" = _U5fyH0RU;
-        "paper-1.21.10" = _U5fyH0RU;
-        "paper-1.21.11" = _U5fyH0RU;
-        "paper-26.1.2" = _U5fyH0RU;
-        "paper-26.2" = _U5fyH0RU;
+        "paper-1.21.8" = _kD1rKI8o;
+        "paper-1.21.9" = _kD1rKI8o;
+        "paper-1.21.10" = _kD1rKI8o;
+        "paper-1.21.11" = _kD1rKI8o;
+        "paper-26.1.2" = _kD1rKI8o;
+        "paper-26.2" = _kD1rKI8o;
         "purpur-1.21" = _A2Hclvib;
         "purpur-1.21.1" = _A2Hclvib;
         "purpur-1.21.2" = _A2Hclvib;
@@ -306,12 +318,12 @@ let
         "purpur-1.21.5" = _A2Hclvib;
         "purpur-1.21.6" = _A2Hclvib;
         "purpur-1.21.7" = _wpag3kq9;
-        "purpur-1.21.8" = _U5fyH0RU;
-        "purpur-1.21.9" = _U5fyH0RU;
-        "purpur-1.21.10" = _U5fyH0RU;
-        "purpur-1.21.11" = _U5fyH0RU;
-        "purpur-26.1.2" = _U5fyH0RU;
-        "purpur-26.2" = _U5fyH0RU;
+        "purpur-1.21.8" = _kD1rKI8o;
+        "purpur-1.21.9" = _kD1rKI8o;
+        "purpur-1.21.10" = _kD1rKI8o;
+        "purpur-1.21.11" = _kD1rKI8o;
+        "purpur-26.1.2" = _kD1rKI8o;
+        "purpur-26.2" = _kD1rKI8o;
         "pkg-1.3.0" = _dERk5u36;
         "pkg-1.5.0" = _KTfEAE8M;
         "pkg-1.6.3" = _IAjwz87b;
@@ -359,7 +371,9 @@ let
         "pkg-3.3.2" = _pOOIJsli;
         "pkg-3.3.3" = _SEgGTh4R;
         "pkg-3.4.0-beta" = _U5fyH0RU;
-        "default" = _U5fyH0RU;
+        "pkg-3.5.0" = _joIbC3Hi;
+        "pkg-3.5.1" = _kD1rKI8o;
+        "default" = _kD1rKI8o;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "thebrewingproject";

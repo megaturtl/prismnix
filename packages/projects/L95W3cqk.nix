@@ -101,6 +101,26 @@ let
             "file" = "libtooltips-2.3.2-NEOFORGE-1.21.1.jar";
             "hash" = "sha512-zjWVVcx9PQTby0SrskWN2WAv2nLOPW81zr5GR/Dx8b0+IyV9VdLReFmMY7JZJgiHSk+9HDBDfPx/TtXoG8dUfg==";
         };
+        _D6YZzdt5 = {
+            "id" = "D6YZzdt5";
+            "file" = "libtooltips-2.3.2-FORGE-1.20.1.jar";
+            "hash" = "sha512-+HM/NXkJFzwr0NAkQV9DnMxb1RWlLKanFkfDLHBNHHIjuGu1YhuSk0slQPCPwUROdWwyWci39g47F4cnf6Dt+w==";
+        };
+        _Qir0qV8h = {
+            "id" = "Qir0qV8h";
+            "file" = "libtooltips-2.3.2-NEOFORGE-26.1.2.jar";
+            "hash" = "sha512-zgbFKxgY/3nzOp5NLhYPM8dGVqwNyxicd8NE/wPP435LqAFrxk3efTJPOxnQcspogRC4TJ8iOR/ZJtraYCURMw==";
+        };
+        _Dogd9zdi = {
+            "id" = "Dogd9zdi";
+            "file" = "libtooltips-2.3.2-NEOFORGE-26.2.jar";
+            "hash" = "sha512-y24kc4oFi50PdT5PVENfxZntfyLLr3A1y5cEu6NhfqFmpo9tAVsz33b0EMCm38xOyoaT48GXr24nm5LGfELJrw==";
+        };
+        _WwmyAU4Q = {
+            "id" = "WwmyAU4Q";
+            "file" = "libtooltips-2.3.2-NEOFORGE-26.3.jar";
+            "hash" = "sha512-UTr+Yb7ALIp9AhbSvWFJzo+ARhYEpSTEK1sMAtMtnve6aRFjHfNAjS5+zRyQOHvQe53D6FRQ1Yrm4ZkkatUruA==";
+        };
     in {
         "f87aTHF4" = _f87aTHF4;
         "9K6qaLUx" = _9K6qaLUx;
@@ -122,13 +142,17 @@ let
         "BSeDJmVn" = _BSeDJmVn;
         "o0HwebG8" = _o0HwebG8;
         "8WjWgsz8" = _8WjWgsz8;
+        "D6YZzdt5" = _D6YZzdt5;
+        "Qir0qV8h" = _Qir0qV8h;
+        "Dogd9zdi" = _Dogd9zdi;
+        "WwmyAU4Q" = _WwmyAU4Q;
         "neoforge-1.21.1" = _8WjWgsz8;
-        "neoforge-26.1.2" = _BSeDJmVn;
+        "neoforge-26.1.2" = _Qir0qV8h;
         "neoforge-26.1" = _BSeDJmVn;
         "neoforge-26.1.1" = _BSeDJmVn;
-        "neoforge-26.2" = _BSeDJmVn;
-        "neoforge-26.3" = _o0HwebG8;
-        "forge-1.20.1" = _ITKnlgoy;
+        "neoforge-26.2" = _Dogd9zdi;
+        "neoforge-26.3" = _WwmyAU4Q;
+        "forge-1.20.1" = _D6YZzdt5;
         "forge-1.20.2" = _NKKrKOFG;
         "forge-1.20.3" = _NKKrKOFG;
         "forge-1.20.4" = _NKKrKOFG;
@@ -154,7 +178,11 @@ let
         "pkg-2.3-NEOFORGE-26.1.2" = _BSeDJmVn;
         "pkg-2.3-NEOFORGE-26.3" = _o0HwebG8;
         "pkg-2.3.2-NEOFORGE-1.21.1" = _8WjWgsz8;
-        "default" = _8WjWgsz8;
+        "pkg-2.3.2-FORGE-1.20.1" = _D6YZzdt5;
+        "pkg-2.3.2-NEOFORGE-26.1.2" = _Qir0qV8h;
+        "pkg-2.3.2-NEOFORGE-26.2" = _Dogd9zdi;
+        "pkg-2.3.2-NEOFORGE-26.3" = _WwmyAU4Q;
+        "default" = _WwmyAU4Q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "libtooltips";

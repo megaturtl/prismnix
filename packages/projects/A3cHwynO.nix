@@ -161,6 +161,11 @@ let
             "file" = "PlutosCoffeeMod-Fabric-1.20.1+3.0.9+build.28.jar";
             "hash" = "sha512-HZTyk9HrqtO2UmUJ/RNwitLgRLIXvwVF4sUR81zd20NPBGdsJuRk+yAlRGsR2aEn/W9+64Vf5HvgeXJvcXbFjw==";
         };
+        _QPUD6vZM = {
+            "id" = "QPUD6vZM";
+            "file" = "PlutosCoffeeMod-Fabric-1.20.1+3.0.10+build.32.jar";
+            "hash" = "sha512-O1MxnjV3nYvvzR8lRRMzG8OUFBG3O8wewCblLrjGzlvvIPZrxTdCH1c+dFjLGvq0kUSwZ+en8qSBziJdK+4zuQ==";
+        };
     in {
         "diM9dXxk" = _diM9dXxk;
         "odi3dDIP" = _odi3dDIP;
@@ -194,11 +199,12 @@ let
         "W8uuejJX" = _W8uuejJX;
         "LqkPtkNV" = _LqkPtkNV;
         "y97f0HWJ" = _y97f0HWJ;
+        "QPUD6vZM" = _QPUD6vZM;
         "fabric-1.19.2" = _diM9dXxk;
         "fabric-1.19.3" = _odi3dDIP;
         "fabric-1.19.4" = _uTdN51zn;
-        "fabric-1.20" = _y97f0HWJ;
-        "fabric-1.20.1" = _y97f0HWJ;
+        "fabric-1.20" = _QPUD6vZM;
+        "fabric-1.20.1" = _QPUD6vZM;
         "fabric-1.20.2" = _UAcfGhJF;
         "fabric-1.20.3" = _IOl6MLjy;
         "fabric-1.20.4" = _IOl6MLjy;
@@ -236,7 +242,8 @@ let
         "pkg-1.20.1+3.0.7+build.19" = _W8uuejJX;
         "pkg-1.20.1+3.0.8+build.23" = _LqkPtkNV;
         "pkg-1.20.1+3.0.9+build.28" = _y97f0HWJ;
-        "default" = _y97f0HWJ;
+        "pkg-1.20.1+3.0.10+build.32" = _QPUD6vZM;
+        "default" = _QPUD6vZM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "plutos-coffee-mod";

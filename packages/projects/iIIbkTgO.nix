@@ -26,20 +26,27 @@ let
             "file" = "MCI's v3.0 Beta 0001-0065.zip";
             "hash" = "sha512-JsTkQl0mASxNBPat4TQ9WUQrZMVwSJU3Uo3GYWSnVZUA3/MqbnsgG8U/h7adcy4XyDyFyrndfocqYnjy9TLHfA==";
         };
+        _IN0xQIyD = {
+            "id" = "IN0xQIyD";
+            "file" = "Mini's Cobblemon Icon's v3.1.zip";
+            "hash" = "sha512-B1GJ7dOP9igcf9LtB/J2n2li53UuOzOHt54pDcyJqxNRVrwbGbHq5CYBTR8HQvQhP+pQ0atDZcLVFUYA5jWVbg==";
+        };
     in {
         "AtT2xwSX" = _AtT2xwSX;
         "rn2n4aqT" = _rn2n4aqT;
         "IHd7v19y" = _IHd7v19y;
         "bOM0ftwK" = _bOM0ftwK;
         "J48ztVCe" = _J48ztVCe;
-        "minecraft-1.21.1" = _J48ztVCe;
-        "minecraft-1.21" = _J48ztVCe;
+        "IN0xQIyD" = _IN0xQIyD;
+        "minecraft-1.21.1" = _IN0xQIyD;
+        "minecraft-1.21" = _IN0xQIyD;
         "pkg-1.0" = _AtT2xwSX;
         "pkg-2.0" = _rn2n4aqT;
         "pkg-2.1" = _IHd7v19y;
         "pkg-3.0" = _bOM0ftwK;
         "pkg-3.0-beta1" = _J48ztVCe;
-        "default" = _J48ztVCe;
+        "pkg-3.1" = _IN0xQIyD;
+        "default" = _IN0xQIyD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "minis-cobblemon-icons";

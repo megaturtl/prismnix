@@ -81,6 +81,11 @@ let
             "file" = "Chunker-26.2.jar";
             "hash" = "sha512-BUAC17UHjpPbchYXLcfNM4twhY8HQf1jIoGR/Ok9RZuhkftr5Ne3yPoQDcbEdlz9iK+k++bJfecEIBuSWpfGQA==";
         };
+        _rRDYrYYt = {
+            "id" = "rRDYrYYt";
+            "file" = "Chunker-26.3.jar";
+            "hash" = "sha512-h+84ERf+LP1lNGwyhHYhACogfAssQW+0+d2czfpMUs83+eGQ0Vj/Zv88jUCgJtV8fawjnjkl0Mq9WydXMk6c2g==";
+        };
     in {
         "c3IaQXMA" = _c3IaQXMA;
         "ez04UJac" = _ez04UJac;
@@ -98,6 +103,7 @@ let
         "W3yLIFx1" = _W3yLIFx1;
         "ytCg4P8a" = _ytCg4P8a;
         "CbvuqWkh" = _CbvuqWkh;
+        "rRDYrYYt" = _rRDYrYYt;
         "bukkit-1.21" = _W3yLIFx1;
         "bukkit-1.21.1" = _W3yLIFx1;
         "bukkit-1.21.2" = _W3yLIFx1;
@@ -130,6 +136,7 @@ let
         "paper-26.1.1" = _CbvuqWkh;
         "paper-26.1.2" = _CbvuqWkh;
         "paper-26.2" = _CbvuqWkh;
+        "paper-26.3" = _rRDYrYYt;
         "purpur-1.21" = _W3yLIFx1;
         "purpur-1.21.1" = _W3yLIFx1;
         "purpur-1.21.2" = _W3yLIFx1;
@@ -146,6 +153,7 @@ let
         "purpur-26.1.1" = _CbvuqWkh;
         "purpur-26.1.2" = _CbvuqWkh;
         "purpur-26.2" = _CbvuqWkh;
+        "purpur-26.3" = _rRDYrYYt;
         "spigot-1.21" = _W3yLIFx1;
         "spigot-1.21.1" = _W3yLIFx1;
         "spigot-1.21.2" = _W3yLIFx1;
@@ -178,6 +186,7 @@ let
         "folia-26.1.1" = _CbvuqWkh;
         "folia-26.1.2" = _CbvuqWkh;
         "folia-26.2" = _CbvuqWkh;
+        "folia-26.3" = _rRDYrYYt;
         "pkg-1.21" = _GRsrkOfG;
         "pkg-1.21.1" = _S2OlYjMH;
         "pkg-1.21.3" = _yMB2FAFO;
@@ -189,7 +198,8 @@ let
         "pkg-1.21.11" = _W3yLIFx1;
         "pkg-26.1.2" = _ytCg4P8a;
         "pkg-26.2" = _CbvuqWkh;
-        "default" = _CbvuqWkh;
+        "pkg-26.3" = _rRDYrYYt;
+        "default" = _rRDYrYYt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chunker";

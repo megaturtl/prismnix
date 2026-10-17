@@ -21,18 +21,32 @@ let
             "file" = "scalingmobs-1.1-forge.jar";
             "hash" = "sha512-PGzVqSU9k6WcQ22nv4sabE+L26EsIUhLpQf57omS8CPeUYA0OoDGo/Ho17KMlQ5V7lmqos4W11gBN3oI7uBb3g==";
         };
+        _w5bLetqP = {
+            "id" = "w5bLetqP";
+            "file" = "scalingmobs-1.2-forge.jar";
+            "hash" = "sha512-9FeuPLa/EKf5chGwWx9IEhsxkk6kbjWdaqhAZHsu81UJJdrRYmaLvqDgjkFGLWDO6kQDOQLNlf+fnyKzQ3Muag==";
+        };
+        _V3TnNaVS = {
+            "id" = "V3TnNaVS";
+            "file" = "scalingmobs-1.2-neoforge.jar";
+            "hash" = "sha512-by7OqZnFDDfkK1NJa1BP9CSeiWqs+xudWyVWLh9ULxErB5vctdK49Vx9nkwPRpJcIQL4QuwowFxlPqaJOoX7EA==";
+        };
     in {
         "phfEe3YQ" = _phfEe3YQ;
         "iyud3CvM" = _iyud3CvM;
         "TCA8B500" = _TCA8B500;
         "5zcLUH3v" = _5zcLUH3v;
-        "forge-1.20.1" = _5zcLUH3v;
-        "neoforge-1.21.1" = _TCA8B500;
+        "w5bLetqP" = _w5bLetqP;
+        "V3TnNaVS" = _V3TnNaVS;
+        "forge-1.20.1" = _w5bLetqP;
+        "neoforge-1.21.1" = _V3TnNaVS;
         "pkg-1.0-forge" = _phfEe3YQ;
         "pkg-1.0-neoforge" = _iyud3CvM;
         "pkg-1.1-neoforge" = _TCA8B500;
         "pkg-1.1-forge" = _5zcLUH3v;
-        "default" = _5zcLUH3v;
+        "pkg-1.2-forge" = _w5bLetqP;
+        "pkg-1.2-neoforge" = _V3TnNaVS;
+        "default" = _V3TnNaVS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "scalingmobs";

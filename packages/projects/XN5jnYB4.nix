@@ -1026,6 +1026,11 @@ let
             "file" = "angelica-2.2.33.jar";
             "hash" = "sha512-CbcvzfJStAHK/56ObnI6hU4i/ExrSw17uk7BlNXpjGHgFxX17cDt894r4WwYMG1bFeRpO9bYArbYE8hRYvylVw==";
         };
+        _uMcQuUxO = {
+            "id" = "uMcQuUxO";
+            "file" = "angelica-2.2.34.jar";
+            "hash" = "sha512-s6GwwtODKcb1EZ9CKO8jitqudkgVbxnhmZTXUVdUkitpdfQp/+7r8YDdZVTs2DZoXZ/pJCYHdrvAVU75xLYP2Q==";
+        };
     in {
         "GRmV423v" = _GRmV423v;
         "YkDiZW8D" = _YkDiZW8D;
@@ -1232,7 +1237,8 @@ let
         "TfUbK8YD" = _TfUbK8YD;
         "qBZy2Vcn" = _qBZy2Vcn;
         "8azfV39W" = _8azfV39W;
-        "forge-1.7.10" = _8azfV39W;
+        "uMcQuUxO" = _uMcQuUxO;
+        "forge-1.7.10" = _uMcQuUxO;
         "pkg-1.0.0-alpha35" = _GRmV423v;
         "pkg-1.0.0-alpha36a" = _YkDiZW8D;
         "pkg-1.0.0-alpha37" = _jsoYE0Si;
@@ -1438,7 +1444,8 @@ let
         "pkg-2.2.31" = _TfUbK8YD;
         "pkg-2.2.32" = _qBZy2Vcn;
         "pkg-2.2.33" = _8azfV39W;
-        "default" = _8azfV39W;
+        "pkg-2.2.34" = _uMcQuUxO;
+        "default" = _uMcQuUxO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "angelica";

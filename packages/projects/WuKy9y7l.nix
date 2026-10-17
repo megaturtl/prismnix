@@ -21,17 +21,30 @@ let
             "file" = "create_curios_backtank-neoforge-1.21.1-1.0.1.jar";
             "hash" = "sha512-qWXB1WZmQUDFztzGXR4QJh6DRYK6zJWIQ2/dTX7Tn9jgBrDmMLhC5fhFESmkx6qmppr47PK4pRO64P0NaRWD6w==";
         };
+        _59Ey7TQb = {
+            "id" = "59Ey7TQb";
+            "file" = "create_curios_backtank-forge-1.20.1-1.0.2.jar";
+            "hash" = "sha512-jO2AeogbmAlQ4rjj/XBj3TXD+Kw+CdtoKgSJQXI42xjcA1oaNfGRXCQM4SaKabZQATwIDZ5cwypvFfhAsN19TQ==";
+        };
+        _dUEAeRGL = {
+            "id" = "dUEAeRGL";
+            "file" = "create_curios_backtank-neoforge-1.21.1-1.0.2.jar";
+            "hash" = "sha512-MQpmyWCIKCrgYtvU6Mh8w5jyP3e3TM7ZEZyQs7xAkZRde4g/kqwhuM2QN1NeZes3a20mjyipk/memDbM521oeg==";
+        };
     in {
         "8cpKxNxj" = _8cpKxNxj;
         "YEiwyfDP" = _YEiwyfDP;
         "VCi5rL0t" = _VCi5rL0t;
         "n9qvCeqF" = _n9qvCeqF;
-        "forge-1.20.1" = _VCi5rL0t;
+        "59Ey7TQb" = _59Ey7TQb;
+        "dUEAeRGL" = _dUEAeRGL;
+        "forge-1.20.1" = _59Ey7TQb;
         "datapack-1.20.1" = _YEiwyfDP;
-        "neoforge-1.21.1" = _n9qvCeqF;
+        "neoforge-1.21.1" = _dUEAeRGL;
         "pkg-1.0.0" = _YEiwyfDP;
         "pkg-1.0.1" = _n9qvCeqF;
-        "default" = _n9qvCeqF;
+        "pkg-1.0.2" = _dUEAeRGL;
+        "default" = _dUEAeRGL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-curios-backtank";

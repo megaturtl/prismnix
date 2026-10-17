@@ -296,6 +296,26 @@ let
             "file" = "animusnv-1.21.1-5.2.21.jar";
             "hash" = "sha512-TtLBMgtCgXSXGFs1fhpF+LXIkSITD1qMwqsOai9z8N8eCYbrjZSxHkXfRt4/lFDBuZo63vHCTsw6YVz3vxdaeQ==";
         };
+        _8kCkEAxA = {
+            "id" = "8kCkEAxA";
+            "file" = "animusnv-1.21.1-5.2.22.jar";
+            "hash" = "sha512-W7qX7loAJ9BHpcUAevHw6kNArj9EX+zcSZib7Z3XrjnF4UFeDMFAfHD5BmDedQQ2OHjhshj15rs4DyYnJdmDYg==";
+        };
+        _kh2GLFZW = {
+            "id" = "kh2GLFZW";
+            "file" = "animusnv-26.1.2-5.2.18.jar";
+            "hash" = "sha512-3jY+2tpPJ0ZYp956YTU3p+Z1xRWGFQyRefrcC6gjOta86a8GGxQd3vKGY1KC4g3avRznb/55I+wmwRAiyilI+w==";
+        };
+        _x00duPTT = {
+            "id" = "x00duPTT";
+            "file" = "animusnv-1.21.1-5.2.23.jar";
+            "hash" = "sha512-K6cKJlEvskobwtzMb5MhMhq5rRsuqab4bQ3GVOFVZkYJXelpYibcu645z3T0WLOAx4DyHGlvNPK2max2PRRsBg==";
+        };
+        _rNHh7EHY = {
+            "id" = "rNHh7EHY";
+            "file" = "animusnv-26.1.2-5.2.19.jar";
+            "hash" = "sha512-aqRjw5BWcO0l8aUT5wAv1mxM8JXTDCnJ6kSPLPB5uUmx7kUq8gH5rYgHyVPpgGFZM+hgax8FpCWH3XrJJaTtgw==";
+        };
     in {
         "3q9kBo5j" = _3q9kBo5j;
         "FDGO9z5Z" = _FDGO9z5Z;
@@ -356,9 +376,13 @@ let
         "OYUiyic2" = _OYUiyic2;
         "jFwmtHQg" = _jFwmtHQg;
         "xmlKJLDQ" = _xmlKJLDQ;
+        "8kCkEAxA" = _8kCkEAxA;
+        "kh2GLFZW" = _kh2GLFZW;
+        "x00duPTT" = _x00duPTT;
+        "rNHh7EHY" = _rNHh7EHY;
         "forge-1.20.1" = _ga9mWei4;
-        "neoforge-26.1.2" = _OYUiyic2;
-        "neoforge-1.21.1" = _xmlKJLDQ;
+        "neoforge-26.1.2" = _rNHh7EHY;
+        "neoforge-1.21.1" = _x00duPTT;
         "pkg-3.0.8" = _3q9kBo5j;
         "pkg-3.0.9" = _FDGO9z5Z;
         "pkg-3.0.10" = _PZABnCbY;
@@ -416,7 +440,11 @@ let
         "pkg-26.1.2-5.2.17" = _OYUiyic2;
         "pkg-1.21.1-5.2.20" = _jFwmtHQg;
         "pkg-1.21.1-5.2.21" = _xmlKJLDQ;
-        "default" = _xmlKJLDQ;
+        "pkg-1.21.1-5.2.22" = _8kCkEAxA;
+        "pkg-26.1.2-5.2.18" = _kh2GLFZW;
+        "pkg-1.21.1-5.2.23" = _x00duPTT;
+        "pkg-26.1.2-5.2.19" = _rNHh7EHY;
+        "default" = _rNHh7EHY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "animus";

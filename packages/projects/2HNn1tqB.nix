@@ -101,6 +101,21 @@ let
             "file" = "AcroWield-1.8.1-MC26.3.jar";
             "hash" = "sha512-h2DL6r6fcoZBIfXJ435RP+CN5Rv8n6WZGDm0zEXTFwzctkE/y5wHl6hc7HM3vg5aoY3wocwepDX4uLHtMpwToA==";
         };
+        _olOrAEPN = {
+            "id" = "olOrAEPN";
+            "file" = "AcroWield-1.9.0-MC26.3.jar";
+            "hash" = "sha512-DDjywXcdqhQXbCf4zl69ZRr8nBYEH5zVMAasX3WJ6Es1PnKw+1py0UnCmYxTMDcGcskaVkEaqUqFodEOe07OPQ==";
+        };
+        _dSkBHw2q = {
+            "id" = "dSkBHw2q";
+            "file" = "AcroWield-1.9.0-MC26.2.jar";
+            "hash" = "sha512-IeIpQ8p1tBruajyUyi2t8gHJo4/////77PfJW7R7YxfYezceHMuzJMpUHaXhXRfekoc86m5Fnai0N2s+WjNJnA==";
+        };
+        _ahNVyd1B = {
+            "id" = "ahNVyd1B";
+            "file" = "acrowield-1.9.0-MC1.21.1.jar";
+            "hash" = "sha512-yR77K8Z43pMdCKvGJVyQ1y2vhKlttqF8ivubLvCzVxgF7iQoYEuWoWWioe5ixxuBOgMa82zT8EGJIRBx1rNlIQ==";
+        };
     in {
         "WSvVGw8H" = _WSvVGw8H;
         "tJhh9diE" = _tJhh9diE;
@@ -122,11 +137,15 @@ let
         "JDJnVrbE" = _JDJnVrbE;
         "TIXfxj9N" = _TIXfxj9N;
         "Fx4LgtTt" = _Fx4LgtTt;
+        "olOrAEPN" = _olOrAEPN;
+        "dSkBHw2q" = _dSkBHw2q;
+        "ahNVyd1B" = _ahNVyd1B;
         "fabric-26.1" = _TIXfxj9N;
         "fabric-26.1.1" = _TIXfxj9N;
         "fabric-26.1.2" = _TIXfxj9N;
-        "fabric-26.2" = _JDJnVrbE;
-        "fabric-26.3" = _Fx4LgtTt;
+        "fabric-26.2" = _dSkBHw2q;
+        "fabric-26.3" = _olOrAEPN;
+        "fabric-1.21.1" = _ahNVyd1B;
         "pkg-1.0.0" = _WSvVGw8H;
         "pkg-1.0.2" = _tJhh9diE;
         "pkg-1.1.0" = _zL7ZFhyg;
@@ -147,7 +166,10 @@ let
         "pkg-1.8.1-MC26.2" = _JDJnVrbE;
         "pkg-1.8.1-MC26.1.x" = _TIXfxj9N;
         "pkg-1.8.1-MC26.3" = _Fx4LgtTt;
-        "default" = _Fx4LgtTt;
+        "pkg-1.9.0-MC26.3" = _olOrAEPN;
+        "pkg-1.9.0-MC26.2" = _dSkBHw2q;
+        "pkg-1.9.0-MC1.21.1" = _ahNVyd1B;
+        "default" = _ahNVyd1B;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "acrowield";

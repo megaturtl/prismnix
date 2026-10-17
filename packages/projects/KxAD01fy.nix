@@ -221,6 +221,16 @@ let
             "file" = "Mega eeveelution and fusion 1.8.zip";
             "hash" = "sha512-CO9bXsWxSMWtr7bLaEh5BC+2PPJazFL0bgQrBDjvwgjtcIfOZWuTvJlehUHVqPL3QOOxs7hH6nfeYtv5xjWQIQ==";
         };
+        _n14btiHY = {
+            "id" = "n14btiHY";
+            "file" = "Mega eeveelution and fusion(1.8.2).jar";
+            "hash" = "sha512-4Y2a2c61Mv6ZTSs0RvDbhbYCeHzuDwqxdEKc4IVSZ3P2NpSfd7DdnEN6LCyAeh+LjkNAMs2ppusuRcu6ZFjPfA==";
+        };
+        _F2g8xqcf = {
+            "id" = "F2g8xqcf";
+            "file" = "Mega eeveelution and fusion 1.8.2.zip";
+            "hash" = "sha512-V7lH0Wrg3hilEkp3d5VHi8D0kSMcOzvXf6bKpMRHNDGeWwqtPrWjLk8YXsPO/dkKvy0dK2RNmvHwZ86i/YlLvA==";
+        };
     in {
         "z9TKsPqB" = _z9TKsPqB;
         "IqFJ0p7R" = _IqFJ0p7R;
@@ -266,10 +276,12 @@ let
         "KezBf9jW" = _KezBf9jW;
         "wf4426J0" = _wf4426J0;
         "axIzpDUW" = _axIzpDUW;
-        "minecraft-1.21.1" = _axIzpDUW;
-        "datapack-1.21.1" = _axIzpDUW;
-        "fabric-1.21.1" = _wf4426J0;
-        "neoforge-1.21.1" = _wf4426J0;
+        "n14btiHY" = _n14btiHY;
+        "F2g8xqcf" = _F2g8xqcf;
+        "minecraft-1.21.1" = _F2g8xqcf;
+        "datapack-1.21.1" = _F2g8xqcf;
+        "fabric-1.21.1" = _n14btiHY;
+        "neoforge-1.21.1" = _n14btiHY;
         "pkg-1" = _z9TKsPqB;
         "pkg-1.2" = _IqFJ0p7R;
         "pkg-1.3" = _kHrroyeB;
@@ -303,7 +315,8 @@ let
         "pkg-2.1.2.2" = _pvhUp6fG;
         "pkg-2.2" = _KezBf9jW;
         "pkg-2.2.1" = _axIzpDUW;
-        "default" = _axIzpDUW;
+        "pkg-2.3" = _F2g8xqcf;
+        "default" = _F2g8xqcf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mega-eeveelution";

@@ -301,6 +301,21 @@ let
             "file" = "UnboundThirdPerson-mc1.21.4-v1.0.6-fabric.jar";
             "hash" = "sha512-wZmyCJGKGTs74pRawYvzA3XgDfMV+odGlds9i5QrWFdCs9yF0GnQkA/FPQ3X1aF8uVyBZ1Bf8OWivszEaSbFEg==";
         };
+        _moeHFtFD = {
+            "id" = "moeHFtFD";
+            "file" = "UnboundThirdPerson-mc26.3-v1.0.6-neoforge.jar";
+            "hash" = "sha512-t/xApE6JXGCYTMjH01V5Bwvih7sfl4Ves3iM+QU9Pv874AwbIdD0lyYP6+ON1IRVz9QO3O5rVkR15o2ZwgU23A==";
+        };
+        _CCN9JyAI = {
+            "id" = "CCN9JyAI";
+            "file" = "UnboundThirdPerson-mc26.3-v1.0.6-forge.jar";
+            "hash" = "sha512-qFJFsOqFjnir0jtBLoUH96UIgjFBFjgTubB0G94A04vKB4nBEvOZJpk4fO3KYu4pt07Gm3S4kUEhKsSx3kJ4IQ==";
+        };
+        _kfgiQpXv = {
+            "id" = "kfgiQpXv";
+            "file" = "UnboundThirdPerson-mc26.3-v1.0.6-fabric.jar";
+            "hash" = "sha512-Q9TBVEWybeyySjUIgVRcbFeO+vQCgox0W8XgwXnXdfFK5oSYoc2gg+i2MKRW+JIiBaEWvFExuzKR4jUJ0ph6Aw==";
+        };
     in {
         "leQyjDcK" = _leQyjDcK;
         "9elQ6MJ2" = _9elQ6MJ2;
@@ -362,6 +377,9 @@ let
         "lWalFGC5" = _lWalFGC5;
         "JfthkX2N" = _JfthkX2N;
         "SaFYX8P6" = _SaFYX8P6;
+        "moeHFtFD" = _moeHFtFD;
+        "CCN9JyAI" = _CCN9JyAI;
+        "kfgiQpXv" = _kfgiQpXv;
         "neoforge-1.21.11" = _177vt6Bg;
         "neoforge-26.2" = _BDvTJYoT;
         "neoforge-26.1" = _nzRM8G8C;
@@ -377,6 +395,7 @@ let
         "neoforge-1.21.2" = _cYOdBGbJ;
         "neoforge-1.21.3" = _O6I9wQYu;
         "neoforge-1.21.4" = _lWalFGC5;
+        "neoforge-26.3" = _moeHFtFD;
         "forge-1.21.11" = _nUbA6Lxf;
         "forge-26.2" = _W7CNwaeM;
         "forge-26.1" = _mtGDcNdu;
@@ -392,6 +411,7 @@ let
         "forge-1.21.1" = _zUnJKCud;
         "forge-1.21.3" = _t5HUdSHx;
         "forge-1.21.4" = _JfthkX2N;
+        "forge-26.3" = _CCN9JyAI;
         "fabric-1.21.11" = _VMV1pQSs;
         "fabric-26.2" = _7977T2rL;
         "fabric-26.1" = _TM1gwvtT;
@@ -409,6 +429,7 @@ let
         "fabric-1.21.2" = _hfZp6GG4;
         "fabric-1.21.3" = _djLzwFTk;
         "fabric-1.21.4" = _SaFYX8P6;
+        "fabric-26.3" = _kfgiQpXv;
         "pkg-1.0.1" = _3VZ7sfnC;
         "pkg-1.0.2" = _qnHouqjK;
         "pkg-1.0.3" = _zSr5iLHh;
@@ -460,7 +481,10 @@ let
         "pkg-1.0.6-neoforge-1.21.4" = _lWalFGC5;
         "pkg-1.0.6-forge-1.21.4" = _JfthkX2N;
         "pkg-1.0.6-fabric-1.21.4" = _SaFYX8P6;
-        "default" = _SaFYX8P6;
+        "pkg-1.0.6-neoforge-26.3" = _moeHFtFD;
+        "pkg-1.0.6-forge-26.3" = _CCN9JyAI;
+        "pkg-1.0.6-fabric-26.3" = _kfgiQpXv;
+        "default" = _kfgiQpXv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "unbound-third-person";

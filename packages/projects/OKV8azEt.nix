@@ -471,6 +471,26 @@ let
             "file" = "purescale-normal-fabric-mc1.20.4-1.2.jar";
             "hash" = "sha512-nmkYqubV6RBZDpWyDzVoxLl9qipukNrMGkvyQKjS9ZeeGlnVHuGOSZB++JJ6WSkyAZMQ4BTXrfzm96fcFn3Arg==";
         };
+        _RsSOOne2 = {
+            "id" = "RsSOOne2";
+            "file" = "purescale-normal-fabric-mc1.16-1.2.jar";
+            "hash" = "sha512-5Fe9Eai6GCeSkhdiqyUBmteGTup5BV4UQBSotY4XBLsnQQTVmFuRqDTzWhoBPPKV3NVTR7qNRjUxlecFUC5jSw==";
+        };
+        _D5pUdG6A = {
+            "id" = "D5pUdG6A";
+            "file" = "purescale-normal-fabric-mc1.16.5-1.2.jar";
+            "hash" = "sha512-bRmNsoNgk4C0ezLG71JVq8AtetcPDY/odoM89NoBFUPla8LBuqVQcCDy1nN1BDgIpF8dflIS0gl5FZddVg/uIg==";
+        };
+        _OtzO1ATV = {
+            "id" = "OtzO1ATV";
+            "file" = "purescale-normal-forge-mc1.20.4-1.2.jar";
+            "hash" = "sha512-eeza7UcqR1+ZB4n4mrekHerGifQeAsu8HFqdsi4VlnMpy+MGG4jpY/hUQR/7g+Yesh/Yfcwp8nYQ4sZ416aOIg==";
+        };
+        _SpyC1TME = {
+            "id" = "SpyC1TME";
+            "file" = "purescale-normal-1.2-forge-mc1.12.jar";
+            "hash" = "sha512-p5WKaTBk8+mamdroyf0c10cejKzX0Dc7q4gRT4ZLOxh5pwYoATxBECJ3SRbfgitxlaSu+09BfhSxfo6ADbBbWg==";
+        };
     in {
         "dPX6QBuH" = _dPX6QBuH;
         "niq6fog2" = _niq6fog2;
@@ -566,6 +586,10 @@ let
         "bIqguFWv" = _bIqguFWv;
         "UiTjNVt7" = _UiTjNVt7;
         "PHQBTwys" = _PHQBTwys;
+        "RsSOOne2" = _RsSOOne2;
+        "D5pUdG6A" = _D5pUdG6A;
+        "OtzO1ATV" = _OtzO1ATV;
+        "SpyC1TME" = _SpyC1TME;
         "fabric-26.2" = _nfZmCPhR;
         "fabric-1.21.11" = _79VSfTr4;
         "fabric-1.21.9" = _L9sBBA47;
@@ -586,6 +610,8 @@ let
         "fabric-1.20.2" = _E2lmvsn7;
         "fabric-1.18.2" = _gB9vgzEE;
         "fabric-1.19.2" = _T0gBCOM9;
+        "fabric-1.16" = _RsSOOne2;
+        "fabric-1.16.5" = _D5pUdG6A;
         "legacy-fabric-26.2" = _dPX6QBuH;
         "quilt-26.2" = _nfZmCPhR;
         "quilt-1.21.11" = _79VSfTr4;
@@ -607,6 +633,8 @@ let
         "quilt-1.20.2" = _E2lmvsn7;
         "quilt-1.18.2" = _gB9vgzEE;
         "quilt-1.19.2" = _T0gBCOM9;
+        "quilt-1.16" = _RsSOOne2;
+        "quilt-1.16.5" = _D5pUdG6A;
         "neoforge-1.20.1" = _Wv9ZgBIo;
         "neoforge-1.21.1" = _X728SZBM;
         "neoforge-1.21.11" = _Ouv7dZNe;
@@ -627,13 +655,15 @@ let
         "forge-1.18.2" = _8CNnaJGT;
         "forge-1.16.5" = _sH5DDxSF;
         "forge-1.19.2" = _bIqguFWv;
+        "forge-1.20.4" = _OtzO1ATV;
+        "forge-1.12" = _SpyC1TME;
         "pkg-1.0.0" = _dPX6QBuH;
         "pkg-1.1.0" = _rr3FXW9l;
         "pkg-1.1" = _6nbuu9jS;
         "pkg-1.2" = _Ihyu3d7z;
         "pkg-1.2.01" = _UaoyLxJX;
-        "pkg-1.2.1" = _PHQBTwys;
-        "default" = _PHQBTwys;
+        "pkg-1.2.1" = _SpyC1TME;
+        "default" = _SpyC1TME;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "purescale";

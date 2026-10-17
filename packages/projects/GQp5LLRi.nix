@@ -36,6 +36,26 @@ let
             "file" = "commandblockstaff-0.4.0-neoforge.jar";
             "hash" = "sha512-dP5AWZT9MD178VF8/nKRDXq5VhMzJyt5nPkku8enxeI6+ZW0yqjn77M4qABSG1IMnAEVc2vPHrmit7/RCJVzrg==";
         };
+        _g4yBRXXO = {
+            "id" = "g4yBRXXO";
+            "file" = "Command Block Staff 0.4.5 dev build 1 (neoforge).jar";
+            "hash" = "sha512-jYhfeg/pseoKsZAdFTwJKv5kW/kEEKk+++0bnswvy2bD1DHELtMuztIExSkCGqKPanvabzQPLSdqCYdjq1ScgQ==";
+        };
+        _2kQrvKtO = {
+            "id" = "2kQrvKtO";
+            "file" = "Command Block Staff 0.4.5 dev build 1 (fabric).jar";
+            "hash" = "sha512-p4r3bcD+snXxkU+Yl9W2vnmAul2tX0+jNsngWjhBZ/Miipy62V0KLNoB6Pv3xh6UwojinkWvNA5E1IUMyBV8Jw==";
+        };
+        _F3SPrAMo = {
+            "id" = "F3SPrAMo";
+            "file" = "Command Block Staff 0.4.5 dev build 2 (neoforge).jar";
+            "hash" = "sha512-+SGbknz45DzIXO9GP35hM7GoTk5yxYDrQmTW9fisVnykrYM8NnFOjgQPK15215wS5wvy/lDU7wDEMznMMjzkOA==";
+        };
+        _HutHGGtk = {
+            "id" = "HutHGGtk";
+            "file" = "Command Block Staff 0.4.5 dev build 2 (fabric).jar";
+            "hash" = "sha512-0gubjS5U3IejmFE6HYF1gbtPQA10G3SaV3p8oJSgbmoWw8ywDo5im8osyiredbLCI8ZNs/pt0h98muKL8a+fPw==";
+        };
     in {
         "IDTYTrqJ" = _IDTYTrqJ;
         "GOm2yKgk" = _GOm2yKgk;
@@ -44,15 +64,21 @@ let
         "iJQjsJES" = _iJQjsJES;
         "4lt7iIaw" = _4lt7iIaw;
         "jamMd3kX" = _jamMd3kX;
-        "fabric-1.21" = _4lt7iIaw;
-        "fabric-1.21.1" = _4lt7iIaw;
-        "neoforge-1.21" = _jamMd3kX;
-        "neoforge-1.21.1" = _jamMd3kX;
+        "g4yBRXXO" = _g4yBRXXO;
+        "2kQrvKtO" = _2kQrvKtO;
+        "F3SPrAMo" = _F3SPrAMo;
+        "HutHGGtk" = _HutHGGtk;
+        "fabric-1.21" = _HutHGGtk;
+        "fabric-1.21.1" = _HutHGGtk;
+        "neoforge-1.21" = _F3SPrAMo;
+        "neoforge-1.21.1" = _F3SPrAMo;
         "pkg-0.1.0" = _IDTYTrqJ;
         "pkg-0.2.0" = _h8pvKoPZ;
         "pkg-0.3.0" = _iJQjsJES;
         "pkg-0.4.0" = _jamMd3kX;
-        "default" = _jamMd3kX;
+        "pkg-0.4.5-dev1" = _2kQrvKtO;
+        "pkg-0.4.5-dev2" = _HutHGGtk;
+        "default" = _HutHGGtk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "command_block_staff_addon";

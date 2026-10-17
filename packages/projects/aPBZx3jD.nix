@@ -541,6 +541,11 @@ let
             "file" = "Geolosys-1.21.1-8.0.0.jar";
             "hash" = "sha512-2Qk6eqiLBLqp20Ipy4CFVqEaT6xoF0vJ2ocyLdvJEW5ivfS4nZfAi2ucIdIp1pKmTM0ok50N1eCdVz1tXT3geA==";
         };
+        _7NzvRVjJ = {
+            "id" = "7NzvRVjJ";
+            "file" = "Geolosys-1.21.1-8.0.0.jar";
+            "hash" = "sha512-MRDYy6qHSNA0MXMMypPcLVRDGQyji0IWUo+x1dJOVXIg9ZfKDoq3hkawS28wti+27LxnlCzoUXMhHES4soI+uQ==";
+        };
     in {
         "XyIYrbME" = _XyIYrbME;
         "v7gIHPer" = _v7gIHPer;
@@ -650,6 +655,7 @@ let
         "yUmzq6Hg" = _yUmzq6Hg;
         "YsOxs3Dy" = _YsOxs3Dy;
         "1G2nZBCc" = _1G2nZBCc;
+        "7NzvRVjJ" = _7NzvRVjJ;
         "forge-1.18.2" = _I5zjP9of;
         "forge-1.12" = _yc2euyr0;
         "forge-1.12.1" = _Eem5bj2k;
@@ -661,7 +667,7 @@ let
         "forge-1.18.1" = _w0b82OPb;
         "forge-1.19.2" = _4TZDVmSZ;
         "forge-1.20.1" = _YsOxs3Dy;
-        "neoforge-1.21.1" = _1G2nZBCc;
+        "neoforge-1.21.1" = _7NzvRVjJ;
         "pkg-1.18.2-7.0.7" = _XyIYrbME;
         "pkg-1.12-1.3" = _v7gIHPer;
         "pkg-1.12-1.4" = _HgGOxqOB;
@@ -769,8 +775,8 @@ let
         "pkg-1.20.1-7.0.12" = _i9WdlpSq;
         "pkg-1.20.1-7.0.13" = _yUmzq6Hg;
         "pkg-1.20.1-7.0.14" = _YsOxs3Dy;
-        "pkg-1.21.1-8.0.0" = _1G2nZBCc;
-        "default" = _1G2nZBCc;
+        "pkg-1.21.1-8.0.0" = _7NzvRVjJ;
+        "default" = _7NzvRVjJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "geolosys";

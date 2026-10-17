@@ -196,6 +196,11 @@ let
             "file" = "capemod-2.1.0+26.2.jar";
             "hash" = "sha512-33kahrTHVUjGOafqG+yqP0wU2mSsVMmZLnJsZ2p3LO6BZY3tBEdZHO/vyy6cdhpk9zFaZkaYSZtBSnIEN6uR2g==";
         };
+        _a4RzsGmQ = {
+            "id" = "a4RzsGmQ";
+            "file" = "capemod-2.1.0+26.3.jar";
+            "hash" = "sha512-/qOrLIbbtUE7jFJHdIQv/iGKcQFHPhYLcm1Kl3GQhlxcAWN864IRzY2753XpOaXdJ2756ZE63RB4jc7t7DAVbg==";
+        };
     in {
         "VDu84B4g" = _VDu84B4g;
         "Xl1Oregu" = _Xl1Oregu;
@@ -236,6 +241,7 @@ let
         "bQOFlGNG" = _bQOFlGNG;
         "ugDhCQll" = _ugDhCQll;
         "TMHr1d9f" = _TMHr1d9f;
+        "a4RzsGmQ" = _a4RzsGmQ;
         "fabric-1.21" = _m4zVF9QD;
         "fabric-1.21.1" = _m4zVF9QD;
         "fabric-1.18" = _7Ax2ZDpN;
@@ -269,6 +275,7 @@ let
         "fabric-26.1.1" = _ugDhCQll;
         "fabric-26.1.2" = _ugDhCQll;
         "fabric-26.2" = _TMHr1d9f;
+        "fabric-26.3" = _a4RzsGmQ;
         "quilt-1.21" = _m4zVF9QD;
         "quilt-1.21.1" = _m4zVF9QD;
         "quilt-1.18" = _7Ax2ZDpN;
@@ -309,7 +316,8 @@ let
         "pkg-1.3.0+1.8.9" = _abKjNHzz;
         "pkg-2.1.0+26.1" = _ugDhCQll;
         "pkg-2.1.0+26.2" = _TMHr1d9f;
-        "default" = _TMHr1d9f;
+        "pkg-2.1.0+26.3" = _a4RzsGmQ;
+        "default" = _a4RzsGmQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "capemod";

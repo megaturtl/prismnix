@@ -406,6 +406,11 @@ let
             "file" = "tcc-1.4.16+1.21.1.jar";
             "hash" = "sha512-HYWnA7f3SwOZIngcnBnozVrRB4Uv3PsABuPajShBJ8SnQiHKGf2INCjZtTrn+1wV/j6U87pPOfZIwWW25EXaJQ==";
         };
+        _tuqjyoml = {
+            "id" = "tuqjyoml";
+            "file" = "tcc-1.4.16-hotfix+1.21.1.jar";
+            "hash" = "sha512-Inm/TOA94+CYBa9bMj1m450rOSjgS23NuOq6taoaAylm1Y1taKGLZwtPiTDmIMLdV9L394uJV/uCS2e485U8Cg==";
+        };
     in {
         "ex6ht5ox" = _ex6ht5ox;
         "i2FfW8mz" = _i2FfW8mz;
@@ -488,8 +493,9 @@ let
         "2BOufHbY" = _2BOufHbY;
         "IKfDtK1m" = _IKfDtK1m;
         "p5xBeCYw" = _p5xBeCYw;
+        "tuqjyoml" = _tuqjyoml;
         "forge-1.20.1" = _IKfDtK1m;
-        "neoforge-1.21.1" = _p5xBeCYw;
+        "neoforge-1.21.1" = _tuqjyoml;
         "pkg-1.0.8" = _i2FfW8mz;
         "pkg-1.0.9" = _gK9beQxL;
         "pkg-1.1.0" = _Ragx92mS;
@@ -569,7 +575,8 @@ let
         "pkg-1.4.15+1.21.1" = _2BOufHbY;
         "pkg-1.4.16" = _IKfDtK1m;
         "pkg-1.4.16+1.21.1" = _p5xBeCYw;
-        "default" = _p5xBeCYw;
+        "pkg-1.4.16-hotfix+1.21.1" = _tuqjyoml;
+        "default" = _tuqjyoml;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "taczcurios";

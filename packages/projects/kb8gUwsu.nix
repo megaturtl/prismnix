@@ -176,6 +176,21 @@ let
             "file" = "stackable-items-1.1.2.jar";
             "hash" = "sha512-dbHhUXDnSteW0z2YsecBJwQ+Ef6dzH8hFbaVhh4TejHeNcn3If8XlHW5eFddaBksV6FZqiJxJH1zaiVGzX+QNQ==";
         };
+        _q0tDwMkp = {
+            "id" = "q0tDwMkp";
+            "file" = "stackable-items-1.2.0.jar";
+            "hash" = "sha512-Bv4ak4OsH2HxaZQNkkC6W8HAUISPeE0AkM0mEr/GKuUE5haEmX1UAsGiTHbJF0LuBTU5We082qik5HdHtXr5cg==";
+        };
+        _cbvGH6Zq = {
+            "id" = "cbvGH6Zq";
+            "file" = "stackable-items-1.3.0.jar";
+            "hash" = "sha512-yguv/NyU/uCJ7nTj5HO+lRxGHyp2fgjHzzeb88uUni4TtIJxu5uxmQw8cboegxAWd5OYQHGimbJkSQfsksFiRQ==";
+        };
+        _bneFcQpM = {
+            "id" = "bneFcQpM";
+            "file" = "stackable-items-1.4.0.jar";
+            "hash" = "sha512-3oIsgnP3s0+zrAXhN2q8vSVQkyfs+eifXTtjnD+0GgvhPmGcnrWatJUAao8VAWJ5yRpaxx0g+8K2TSEQCbvpnQ==";
+        };
     in {
         "ujtyQzmn" = _ujtyQzmn;
         "G9SCcDay" = _G9SCcDay;
@@ -212,6 +227,9 @@ let
         "CtRK0tSF" = _CtRK0tSF;
         "YXovYaFh" = _YXovYaFh;
         "OBMZzt6n" = _OBMZzt6n;
+        "q0tDwMkp" = _q0tDwMkp;
+        "cbvGH6Zq" = _cbvGH6Zq;
+        "bneFcQpM" = _bneFcQpM;
         "fabric-1.21" = _WCqE9ME9;
         "fabric-1.21.1" = _WCqE9ME9;
         "fabric-1.21.2" = _c1lUkhxu;
@@ -224,6 +242,11 @@ let
         "fabric-1.21.9" = _YXovYaFh;
         "fabric-1.21.10" = _YXovYaFh;
         "fabric-1.21.11" = _OBMZzt6n;
+        "fabric-26.1" = _q0tDwMkp;
+        "fabric-26.1.1" = _q0tDwMkp;
+        "fabric-26.1.2" = _q0tDwMkp;
+        "fabric-26.2" = _cbvGH6Zq;
+        "fabric-26.3" = _bneFcQpM;
         "forge-1.21" = _MVbJuNQ2;
         "forge-1.21.1" = _MVbJuNQ2;
         "forge-1.21.3" = _H3k08cN3;
@@ -237,12 +260,12 @@ let
         "pkg-0.9.0" = _VPBtUsmX;
         "pkg-1.0.0" = _MVbJuNQ2;
         "pkg-1.1.0" = _H3k08cN3;
-        "pkg-1.2.0" = _wLANhUuX;
-        "pkg-1.3.0" = _YtI6S5mB;
+        "pkg-1.2.0" = _q0tDwMkp;
+        "pkg-1.3.0" = _cbvGH6Zq;
         "pkg-1.1.1" = _1vGLzAle;
         "pkg-1.2.1" = _T1Fd7tlq;
         "pkg-1.3.1" = _S67MRsRG;
-        "pkg-1.4.0" = _uXbBVLsE;
+        "pkg-1.4.0" = _bneFcQpM;
         "pkg-0.6.1" = _YraKLH9J;
         "pkg-0.7.1" = _1wWVokTJ;
         "pkg-0.8.1" = _erUuIAgA;
@@ -262,7 +285,7 @@ let
         "pkg-0.8.2" = _LkY2kwbr;
         "pkg-0.9.2" = _CtRK0tSF;
         "pkg-1.0.2" = _YXovYaFh;
-        "default" = _OBMZzt6n;
+        "default" = _bneFcQpM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stackable-items-mod";

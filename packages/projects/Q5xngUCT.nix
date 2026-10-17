@@ -241,6 +241,11 @@ let
             "file" = "weaversparadise-1.6.3.jar";
             "hash" = "sha512-f2VrgS9Y1fDfsMdzV8i6o6x8hTRbKP7wg0rKbNKsM9vnKVZivOmiOnFqFJNySk4zFEoCYE2fJwoQC+whdiPmVQ==";
         };
+        _Tyu2r6jr = {
+            "id" = "Tyu2r6jr";
+            "file" = "weaversparadise-1.6.3.1.jar";
+            "hash" = "sha512-f2mmY7FYB+oFWyiRZPJhAt8j8PpueGW1LR4g9+M3GeZalrinmRKLZ3WYo9vc2bgEjnG+eOjSQjeKu0Dg7OAV5Q==";
+        };
     in {
         "bx9MbKeL" = _bx9MbKeL;
         "smsMTuMV" = _smsMTuMV;
@@ -290,7 +295,8 @@ let
         "xFfn0a2g" = _xFfn0a2g;
         "5IBjIixe" = _5IBjIixe;
         "pVKrWudQ" = _pVKrWudQ;
-        "neoforge-1.21.1" = _5IBjIixe;
+        "Tyu2r6jr" = _Tyu2r6jr;
+        "neoforge-1.21.1" = _Tyu2r6jr;
         "forge-1.20.1" = _pVKrWudQ;
         "fabric-1.21.1" = _fdfGrTdg;
         "pkg-1.0" = _bx9MbKeL;
@@ -330,7 +336,8 @@ let
         "pkg-1.6.2.2-fabric" = _fdfGrTdg;
         "pkg-1.6.2.3" = _xFfn0a2g;
         "pkg-1.6.3" = _pVKrWudQ;
-        "default" = _pVKrWudQ;
+        "pkg-1.6.3.1" = _Tyu2r6jr;
+        "default" = _Tyu2r6jr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "weavers-paradise";

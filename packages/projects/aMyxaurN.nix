@@ -21,20 +21,27 @@ let
             "file" = "hyper_client-1.3.0.jar";
             "hash" = "sha512-nyMuclso7gYMfz378W9EFbqhcGowv+1PBPExaYVLu6myQ7Zfvz3PbXsVKcy7XwH4IO1cXu9WrL6/rdEnQ+Tn+g==";
         };
+        _2pPiiHH0 = {
+            "id" = "2pPiiHH0";
+            "file" = "hyper_client-1.5.0.jar";
+            "hash" = "sha512-1BuPt/wsYeB70yzHERjL2bJMZ94P+OLk0fNIsC9cQAeY4JmIRQE0w9VaToq4hy+pnM2RGTkWAvIexkOW6WP8pQ==";
+        };
     in {
         "i2vX7anU" = _i2vX7anU;
         "T2dBbeFM" = _T2dBbeFM;
         "wx9ld1N6" = _wx9ld1N6;
         "rSAiL8af" = _rSAiL8af;
+        "2pPiiHH0" = _2pPiiHH0;
         "fabric-26.1" = _T2dBbeFM;
         "fabric-26.1.1" = _T2dBbeFM;
         "fabric-26.1.2" = _T2dBbeFM;
         "fabric-26.2" = _wx9ld1N6;
-        "fabric-26.3" = _rSAiL8af;
+        "fabric-26.3" = _2pPiiHH0;
         "pkg-1.0.0" = _i2vX7anU;
         "pkg-1.2.0" = _wx9ld1N6;
         "pkg-1.3.0" = _rSAiL8af;
-        "default" = _rSAiL8af;
+        "pkg-1.5.0" = _2pPiiHH0;
+        "default" = _2pPiiHH0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hyperclient";

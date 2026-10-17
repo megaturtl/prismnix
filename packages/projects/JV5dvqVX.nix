@@ -126,6 +126,16 @@ let
             "file" = "AllTheMons [R4.0].zip";
             "hash" = "sha512-JaLKaucuXuZLBPl/0G/z2xUZHY5uicHnhAeNtnRvlRCIqqu/zj54qmemKjHAB2NJ3AryCOMMPi5dLQkeLdtFXQ==";
         };
+        _caUvNv58 = {
+            "id" = "caUvNv58";
+            "file" = "AllTheMons [R5.0].zip";
+            "hash" = "sha512-rxmU06+rQZwSpn4w3ejigkGKquz4D1ZI8hK8wMI7thXrxi5WgwuhY6uJTzHrxqnOHjAmTPkeWEDSpWR3AmQigQ==";
+        };
+        _DZGfUgkY = {
+            "id" = "DZGfUgkY";
+            "file" = "AllTheMons [R5.0].jar";
+            "hash" = "sha512-ecRG+dpOKXb+9oiqSfxTvCLoyf/4M7wA4E2KI1f4x7td9WoqvV7Tyqr6gntBcYMgcwDpIg6KU0YNRaYCEhqPzw==";
+        };
     in {
         "4xTR5Cji" = _4xTR5Cji;
         "gHTkAjLJ" = _gHTkAjLJ;
@@ -152,10 +162,14 @@ let
         "xP9xTsa0" = _xP9xTsa0;
         "801ge1rn" = _801ge1rn;
         "hSovtvek" = _hSovtvek;
+        "caUvNv58" = _caUvNv58;
+        "DZGfUgkY" = _DZGfUgkY;
         "datapack-1.20.1" = _OVJTguDq;
-        "datapack-1.21.1" = _hSovtvek;
+        "datapack-1.21.1" = _caUvNv58;
         "minecraft-1.20.1" = _OVJTguDq;
-        "minecraft-1.21.1" = _hSovtvek;
+        "minecraft-1.21.1" = _caUvNv58;
+        "fabric-1.21.1" = _DZGfUgkY;
+        "neoforge-1.21.1" = _DZGfUgkY;
         "pkg-1.1" = _4xTR5Cji;
         "pkg-1.2" = _gHTkAjLJ;
         "pkg-1.3" = _R9naragy;
@@ -181,7 +195,8 @@ let
         "pkg-3.5.1" = _xP9xTsa0;
         "pkg-3.6.0" = _801ge1rn;
         "pkg-4.0" = _hSovtvek;
-        "default" = _hSovtvek;
+        "pkg-R5.0" = _DZGfUgkY;
+        "default" = _DZGfUgkY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "allthemons";

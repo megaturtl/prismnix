@@ -826,6 +826,11 @@ let
             "file" = "forgified-fabric-api-0.161.0+26.2+4.0.1.jar";
             "hash" = "sha512-iqb+iQRiSsQFQqiKyrMjIFxHS0BHfiD774VFXJByiM1aRPgspJjZ1WYTHZH+bGMkjpkGR9XS828UHnTkGxjcXA==";
         };
+        _C4eskNuR = {
+            "id" = "C4eskNuR";
+            "file" = "forgified-fabric-api-0.116.15+2.3.6+1.21.1.jar";
+            "hash" = "sha512-Rwrk6FaUhOaUKi9+CaN65YpY4K1E9J8NSD24gCTbGdQb+sPGgiHDhiOCmHGt6dibxaoxzw5oLnmLL5ApuAgBHQ==";
+        };
     in {
         "Jj3KPVgK" = _Jj3KPVgK;
         "sbT4Fjkz" = _sbT4Fjkz;
@@ -992,9 +997,10 @@ let
         "qnvYPSnI" = _qnvYPSnI;
         "qg2tQe8K" = _qg2tQe8K;
         "DHDjBGkU" = _DHDjBGkU;
+        "C4eskNuR" = _C4eskNuR;
         "forge-1.20.1" = _g0MxcWXy;
         "neoforge-1.21" = _K5REyk0w;
-        "neoforge-1.21.1" = _V9WdDUTx;
+        "neoforge-1.21.1" = _C4eskNuR;
         "neoforge-26.1.2" = _qg2tQe8K;
         "neoforge-26.1" = _qg2tQe8K;
         "neoforge-26.1.1" = _qg2tQe8K;
@@ -1164,7 +1170,8 @@ let
         "pkg-0.155.3+26.1.2+3.5.8" = _qnvYPSnI;
         "pkg-0.155.3+26.1.2+3.5.9" = _qg2tQe8K;
         "pkg-0.161.0+26.2+4.0.1" = _DHDjBGkU;
-        "default" = _DHDjBGkU;
+        "pkg-0.116.15+2.3.6+1.21.1" = _C4eskNuR;
+        "default" = _C4eskNuR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "forgified-fabric-api";

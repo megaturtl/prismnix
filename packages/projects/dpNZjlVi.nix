@@ -861,6 +861,56 @@ let
             "file" = "music-and-melody-26.2-r2.4.2-fabric.jar";
             "hash" = "sha512-LWmHFvNbnEmzi1IldY6vBU+rc0I8GgdR5IqsyWX7SHpdyTjiUJMlgnoOCdCt+xzYtuAMA5F8ENioxB4TkHjC+A==";
         };
+        _Tcw189iC = {
+            "id" = "Tcw189iC";
+            "file" = "music-and-melody-26.1-r7.5-neoforge.jar";
+            "hash" = "sha512-sQRkstpSzEWuhjMF5Ozd/Y+YPdr5Jb1S+oacUIIi1cJJPqd8zNmTdk6GSIRuNorz0hi9r2QM0S3DR9FJ3ys84g==";
+        };
+        _RK9rFKyk = {
+            "id" = "RK9rFKyk";
+            "file" = "music-and-melody-26.1-r7.5-fabric.jar";
+            "hash" = "sha512-VW0pFV43o3dHJcLatx+b097qV2ip5zx+B4UQm6JkXNcNdduvfBFqcVKJtPHl+GEM+hDtgvLqv0sbArzConD+Pg==";
+        };
+        _ITNLDS4i = {
+            "id" = "ITNLDS4i";
+            "file" = "music-and-melody-26.2-r2.5-neoforge.jar";
+            "hash" = "sha512-OJJ6E5a04Bht3fAz0KNDcq+Z43y/J9o7GvytGIvNG+RbG3gjZrRgtA6SgnEtsFS8WE42WcZY+RXeT0FlRerIrQ==";
+        };
+        _nl2XI5mJ = {
+            "id" = "nl2XI5mJ";
+            "file" = "music-and-melody-26.2-r2.5-fabric.jar";
+            "hash" = "sha512-eyh62vw5ZjQlTfeWKkQSr9X1SInzGirJTxyn7SI1jhfpibPqIsOxD3XSH0pUuLe4J/JveAphm0RKr57ygKNBlg==";
+        };
+        _ws8unf1z = {
+            "id" = "ws8unf1z";
+            "file" = "music-and-melody-26.1-r7.5.1-neoforge.jar";
+            "hash" = "sha512-8wXUiGgSyIHKjZNjz0fr14SEVY5vC695ouPvx/q/+mmds5TODs9+IXwOJDhmV6b+rLktbiUlo0d+J6fV/QDqWw==";
+        };
+        _w8ooIQEd = {
+            "id" = "w8ooIQEd";
+            "file" = "music-and-melody-26.1-r7.5.1-fabric.jar";
+            "hash" = "sha512-3s00IHg3rjhmzD1RtyDymMXmRzH1iiJNf73M8Ay2iEovGy0rObllQWWwO+kwI3q3GcIEaCjJSWQ9/ST9vChYYg==";
+        };
+        _4bFzgftA = {
+            "id" = "4bFzgftA";
+            "file" = "music-and-melody-26.2-r2.5.1-neoforge.jar";
+            "hash" = "sha512-33NGOzU8hmVhc4ixbf2gy8llRp8a2Qm0CZgKNqN/bXHviFnQJFto6fDwjWzTqXvy/9yms/4WRKLQS5Ek8VTT8Q==";
+        };
+        _jwEW5cgb = {
+            "id" = "jwEW5cgb";
+            "file" = "music-and-melody-26.2-r2.5.1-fabric.jar";
+            "hash" = "sha512-ImFYKLr9OeLE1ogo9LN83iWlZU8nhQ9xBOiFvxs4HA5rE7dUxopwDpurjfOxEuFoyAEaNDACqatACN9hYPiy7Q==";
+        };
+        _SFQpMDQX = {
+            "id" = "SFQpMDQX";
+            "file" = "music-and-melody-26.3-r1.0-neoforge.jar";
+            "hash" = "sha512-NgDqX9UqGQcyy3WmlF2EWhAiRxrENPC13hlktHT9gxTylaIeZZf2N6H7itp0VH9jLpt9RnP6MYiZL6Qiq5uRUw==";
+        };
+        _7e1Icv4u = {
+            "id" = "7e1Icv4u";
+            "file" = "music-and-melody-26.3-r1.0-fabric.jar";
+            "hash" = "sha512-agFzVSf2WNBfUGvxdAKJUgid5B9B1T5B/nHgEBdaWattabkSCnZgMME+AZ5l3i34jf/nJPlFPEGrQL5kgQwtPQ==";
+        };
     in {
         "hRElxDBw" = _hRElxDBw;
         "SwvKDDqW" = _SwvKDDqW;
@@ -1034,20 +1084,32 @@ let
         "MjbiJRlq" = _MjbiJRlq;
         "5XKUXaVv" = _5XKUXaVv;
         "deh8x7Er" = _deh8x7Er;
-        "neoforge-26.1" = _WSGFmVAV;
-        "neoforge-26.1.1" = _WSGFmVAV;
-        "neoforge-26.1.2" = _WSGFmVAV;
+        "Tcw189iC" = _Tcw189iC;
+        "RK9rFKyk" = _RK9rFKyk;
+        "ITNLDS4i" = _ITNLDS4i;
+        "nl2XI5mJ" = _nl2XI5mJ;
+        "ws8unf1z" = _ws8unf1z;
+        "w8ooIQEd" = _w8ooIQEd;
+        "4bFzgftA" = _4bFzgftA;
+        "jwEW5cgb" = _jwEW5cgb;
+        "SFQpMDQX" = _SFQpMDQX;
+        "7e1Icv4u" = _7e1Icv4u;
+        "neoforge-26.1" = _ws8unf1z;
+        "neoforge-26.1.1" = _ws8unf1z;
+        "neoforge-26.1.2" = _ws8unf1z;
         "neoforge-1.21" = _rRfCdGZd;
         "neoforge-1.21.1" = _rRfCdGZd;
         "neoforge-1.21.11" = _GJc8e1iH;
-        "neoforge-26.2" = _5XKUXaVv;
-        "fabric-26.1" = _MjbiJRlq;
-        "fabric-26.1.1" = _MjbiJRlq;
-        "fabric-26.1.2" = _MjbiJRlq;
+        "neoforge-26.2" = _4bFzgftA;
+        "neoforge-26.3" = _SFQpMDQX;
+        "fabric-26.1" = _w8ooIQEd;
+        "fabric-26.1.1" = _w8ooIQEd;
+        "fabric-26.1.2" = _w8ooIQEd;
         "fabric-1.21" = _IxJTUZOR;
         "fabric-1.21.1" = _IxJTUZOR;
         "fabric-1.21.11" = _H9vBUPDC;
-        "fabric-26.2" = _deh8x7Er;
+        "fabric-26.2" = _jwEW5cgb;
+        "fabric-26.3" = _7e1Icv4u;
         "pkg-26.1-r1.0-neoforge" = _hRElxDBw;
         "pkg-26.1-r1.0-fabric" = _SwvKDDqW;
         "pkg-26.1-r2.0-neoforge" = _OeW3VFY0;
@@ -1220,7 +1282,17 @@ let
         "pkg-26.1-r7.4.2-fabric" = _MjbiJRlq;
         "pkg-26.2-r2.4.2-neoforge" = _5XKUXaVv;
         "pkg-26.2-r2.4.2-fabric" = _deh8x7Er;
-        "default" = _deh8x7Er;
+        "pkg-26.1-r7.5-neoforge" = _Tcw189iC;
+        "pkg-26.1-r7.5-fabric" = _RK9rFKyk;
+        "pkg-26.2-r2.5-neoforge" = _ITNLDS4i;
+        "pkg-26.2-r2.5-fabric" = _nl2XI5mJ;
+        "pkg-26.1-r7.5.1-neoforge" = _ws8unf1z;
+        "pkg-26.1-r7.5.1-fabric" = _w8ooIQEd;
+        "pkg-26.2-r2.5.1-neoforge" = _4bFzgftA;
+        "pkg-26.2-r2.5.1-fabric" = _jwEW5cgb;
+        "pkg-26.3-r1.0-neoforge" = _SFQpMDQX;
+        "pkg-26.3-r1.0-fabric" = _7e1Icv4u;
+        "default" = _7e1Icv4u;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "music-and-melody";

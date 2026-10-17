@@ -46,6 +46,11 @@ let
             "file" = "pumpkinsItemLimiter.jar";
             "hash" = "sha512-fWGwRwJ7TVAwWdTpn/KFT0HeyWLRhClHzTNGBgor1eVJTCJ1MPEf7EAMPj8BD4MpEQV0BcM5UMoa0x/X01mAmQ==";
         };
+        _gl7I7ozs = {
+            "id" = "gl7I7ozs";
+            "file" = "ItemLimit.jar";
+            "hash" = "sha512-Y9TdUxXar5F84YVLjdaLTROBMgifKs4GqctX9YyKV7v6ARF6F6fu3jZ9xl9W+lD15fLL7kA8ScXOy4DURa7Gag==";
+        };
     in {
         "96h0RJk8" = _96h0RJk8;
         "DxpkYAyV" = _DxpkYAyV;
@@ -56,6 +61,7 @@ let
         "gQ4IHG4X" = _gQ4IHG4X;
         "Kstsa7w4" = _Kstsa7w4;
         "HTqzsT2o" = _HTqzsT2o;
+        "gl7I7ozs" = _gl7I7ozs;
         "paper-1.21" = _vUIUYPDy;
         "paper-1.21.1" = _vUIUYPDy;
         "paper-1.21.2" = _vUIUYPDy;
@@ -68,7 +74,7 @@ let
         "paper-1.21.9" = _vUIUYPDy;
         "paper-1.21.10" = _vUIUYPDy;
         "paper-1.21.11" = _Kstsa7w4;
-        "paper-26.2" = _HTqzsT2o;
+        "paper-26.2" = _gl7I7ozs;
         "bukkit-1.21" = _vUIUYPDy;
         "bukkit-1.21.1" = _vUIUYPDy;
         "bukkit-1.21.2" = _vUIUYPDy;
@@ -93,7 +99,7 @@ let
         "spigot-1.21.9" = _vUIUYPDy;
         "spigot-1.21.10" = _vUIUYPDy;
         "spigot-1.21.11" = _Kstsa7w4;
-        "spigot-26.2" = _HTqzsT2o;
+        "spigot-26.2" = _gl7I7ozs;
         "pkg-1.0-SNAPSHOT" = _96h0RJk8;
         "pkg-1.1-SNAPSHOT" = _DxpkYAyV;
         "pkg-1.2-Release" = _Ss29TEfn;
@@ -102,7 +108,8 @@ let
         "pkg-1.2-SNAPSHOT" = _1DRoDB58;
         "pkg-1.2.1-SNAPSHOT" = _gQ4IHG4X;
         "pkg-1.2.2" = _HTqzsT2o;
-        "default" = _HTqzsT2o;
+        "pkg-1.2.3" = _gl7I7ozs;
+        "default" = _gl7I7ozs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "itemlimit";

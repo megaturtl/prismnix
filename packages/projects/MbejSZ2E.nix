@@ -76,6 +76,16 @@ let
             "file" = "energymeter-neoforge-26.1.2-0.5.0.jar";
             "hash" = "sha512-XgvzXPfGZwC5SPLEyJe+0ijMuc018M/yt7fIDWg1Dpfml05M0pmn3jgLMzaMnei1LPMHf4z0iR/ermF3Lhrfyw==";
         };
+        _rKdSZwE2 = {
+            "id" = "rKdSZwE2";
+            "file" = "energymeter-neoforge-1.21.1-0.5.3.jar";
+            "hash" = "sha512-H8bHmg7DXDhHqrdRG5f1LIu0wbpxca5wFi8e9XqwtBL8gPW76rkN0Hsx7icXW9CEFzlSrLcVMwO/EXmc8LlVyg==";
+        };
+        _e613XQT4 = {
+            "id" = "e613XQT4";
+            "file" = "energymeter-neoforge-26.1.2-0.5.1.jar";
+            "hash" = "sha512-h3lGDG2kR4sOTXyYK0vRxAApnZWvcr0a5D870p1Cm+sXCgnryTW5aXVfFqB26bmFYqYQNLgsML9xdfUtHRc8Ow==";
+        };
     in {
         "y2uzV0tS" = _y2uzV0tS;
         "TofdSmyg" = _TofdSmyg;
@@ -92,12 +102,14 @@ let
         "vqpISbpO" = _vqpISbpO;
         "Y8vglZux" = _Y8vglZux;
         "qFGv9BPT" = _qFGv9BPT;
+        "rKdSZwE2" = _rKdSZwE2;
+        "e613XQT4" = _e613XQT4;
         "forge-1.18.2" = _y2uzV0tS;
         "forge-1.19.2" = _TofdSmyg;
         "forge-1.20.1" = _NZ6nFTb9;
         "neoforge-1.20.1" = _NZ6nFTb9;
-        "neoforge-1.21.1" = _Y8vglZux;
-        "neoforge-26.1.2" = _qFGv9BPT;
+        "neoforge-1.21.1" = _rKdSZwE2;
+        "neoforge-26.1.2" = _e613XQT4;
         "pkg-1.18.2-3.2.1" = _y2uzV0tS;
         "pkg-1.19.2-1.0.0" = _TofdSmyg;
         "pkg-1.20.1-1.0.0+forge" = _UyNuFWXF;
@@ -113,7 +125,9 @@ let
         "pkg-1.21.1-0.5.1+neoforge" = _vqpISbpO;
         "pkg-1.21.1-0.5.2+neoforge" = _Y8vglZux;
         "pkg-26.1.2-0.5.0+neoforge" = _qFGv9BPT;
-        "default" = _qFGv9BPT;
+        "pkg-1.21.1-0.5.3+neoforge" = _rKdSZwE2;
+        "pkg-26.1.2-0.5.1+neoforge" = _e613XQT4;
+        "default" = _e613XQT4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "energymeter";

@@ -11,10 +11,16 @@ let
             "file" = "isleweaver-0.0.2-InDev.jar";
             "hash" = "sha512-BUlo2ztmDXUTU+P6g8qlU6UY5Ro/HfaAwhqUD46cxfqx3c/BWn6xUscAY1tTNZlhq3N7gQjSJualB+Wvp6r04w==";
         };
+        _Oigil5Jn = {
+            "id" = "Oigil5Jn";
+            "file" = "isleweaver-0.0.3-InDev.jar";
+            "hash" = "sha512-V6qMcB7rYXKwKuHyLXmx85unpRMX8Ywr9nf1ZfK4n7gH15dVDsrSAvQkCuZXZlAMPixxMAi8XVOw/2nfq8W05A==";
+        };
     in {
         "3zWH6HPD" = _3zWH6HPD;
         "Ocjgnu7N" = _Ocjgnu7N;
-        "neoforge-1.21.1" = _Ocjgnu7N;
+        "Oigil5Jn" = _Oigil5Jn;
+        "neoforge-1.21.1" = _Oigil5Jn;
         "neoforge-1.21.2" = _Ocjgnu7N;
         "neoforge-1.21.3" = _Ocjgnu7N;
         "neoforge-1.21.4" = _Ocjgnu7N;
@@ -27,7 +33,8 @@ let
         "neoforge-1.21.11" = _Ocjgnu7N;
         "pkg-0.0.1-InDev" = _3zWH6HPD;
         "pkg-0.0.2-InDev" = _Ocjgnu7N;
-        "default" = _Ocjgnu7N;
+        "pkg-0.0.3-InDev" = _Oigil5Jn;
+        "default" = _Oigil5Jn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "isleweaver";

@@ -261,6 +261,26 @@ let
             "file" = "randomium-1.21-1.33.3-neoforge.jar";
             "hash" = "sha512-0ODNUWuqZtZpS9DFGBCPYNMr69wg5E5dvnsCKH5MZo4Uyc5qv9w9uzoF7g+/qvXYGsRmPcxgDTE6IKxwQqiLow==";
         };
+        _z6usHAXP = {
+            "id" = "z6usHAXP";
+            "file" = "randomium-1.21-1.33.4-neoforge.jar";
+            "hash" = "sha512-eCBS4WeXWnKWNsWLIWQ8yc42bAPWYGePiOf7GXR/JBGJWa7lunwixQYtV0BeFqmIRKWRhRWrswCoDsreW0FT4A==";
+        };
+        _pQf3oR9n = {
+            "id" = "pQf3oR9n";
+            "file" = "randomium-1.21-1.33.4-fabric.jar";
+            "hash" = "sha512-Gkca5tgD1WoxJ/cgKwQDguzxmRC+6RUH6y+INg2wEEJf0i1ofdyV3NkulotClz4UKOsR7xrF5rj2HJqP47x16Q==";
+        };
+        _x1MUgrNP = {
+            "id" = "x1MUgrNP";
+            "file" = "randomium-26.1.2-1.33.4-neoforge.jar";
+            "hash" = "sha512-feGY/Ilxpg1GRtmlyyY63TYTPddXCWvtp2ubn3eLr6cJ0maFiDpRqCCijZsd8fSrZ3G/gUqBF+Ff+MSor/Scew==";
+        };
+        _u3IJhsI9 = {
+            "id" = "u3IJhsI9";
+            "file" = "randomium-26.1.2-1.33.4-fabric.jar";
+            "hash" = "sha512-CpXEnANM+UoEUV3hhMy6R8hadxlxZElaThJEQe7ICCQ9qyCBceHZ9A7N563tUKSYY+9LWKJ+WLavkKaRZ1Vo/A==";
+        };
     in {
         "9zA5mZMS" = _9zA5mZMS;
         "pPqXpruz" = _pPqXpruz;
@@ -314,6 +334,10 @@ let
         "NmmhICJB" = _NmmhICJB;
         "LgdOqS4Y" = _LgdOqS4Y;
         "tmQSfhRW" = _tmQSfhRW;
+        "z6usHAXP" = _z6usHAXP;
+        "pQf3oR9n" = _pQf3oR9n;
+        "x1MUgrNP" = _x1MUgrNP;
+        "u3IJhsI9" = _u3IJhsI9;
         "forge-1.16.4" = _Earb7YFh;
         "forge-1.16.5" = _Earb7YFh;
         "forge-1.16.3" = _Earb7YFh;
@@ -332,9 +356,11 @@ let
         "fabric-1.19.4" = _Nvc1uYZi;
         "fabric-1.20.1" = _D3Csn2WQ;
         "fabric-1.21" = _LgdOqS4Y;
-        "fabric-1.21.1" = _LgdOqS4Y;
+        "fabric-1.21.1" = _pQf3oR9n;
+        "fabric-26.1.2" = _u3IJhsI9;
         "neoforge-1.21" = _tmQSfhRW;
-        "neoforge-1.21.1" = _tmQSfhRW;
+        "neoforge-1.21.1" = _z6usHAXP;
+        "neoforge-26.1.2" = _x1MUgrNP;
         "pkg-0" = _9zA5mZMS;
         "pkg-1" = _pPqXpruz;
         "pkg-2" = _9ByqsjrH;
@@ -378,7 +404,9 @@ let
         "pkg-fabric_1.21-1.33.2" = _NmmhICJB;
         "pkg-fabric_1.21-1.33.3" = _LgdOqS4Y;
         "pkg-neoforge_1.21-1.33.3" = _tmQSfhRW;
-        "default" = _tmQSfhRW;
+        "pkg-1.21-1.33.4" = _pQf3oR9n;
+        "pkg-26.1.2-1.33.4" = _u3IJhsI9;
+        "default" = _u3IJhsI9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "randomium-ore";

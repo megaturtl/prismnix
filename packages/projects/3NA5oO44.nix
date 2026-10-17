@@ -51,6 +51,11 @@ let
             "file" = "globalwind-1.3.0-1.20.1-beta-2.jar";
             "hash" = "sha512-CLo/GgurxiqSXtWfY8YR5FH+XiK88QXaPMo8/3Ypm8ECqtsB5G2mEIEH7JP52OUyHazULNf0Q6e5I6jGXaEv3A==";
         };
+        _fesh1IfZ = {
+            "id" = "fesh1IfZ";
+            "file" = "globalwind-1.2.2.jar";
+            "hash" = "sha512-Etku3FWWjj2Z1cVRsbGcz6PiUZURgQsgTEkbbPzUHG8eoX+Cp6TSchUGYJazDFukXcwCzNL2qPBLgOZg6/tYOw==";
+        };
     in {
         "uBMdg5F0" = _uBMdg5F0;
         "sRdUIxXa" = _sRdUIxXa;
@@ -62,9 +67,13 @@ let
         "vnU8LB7K" = _vnU8LB7K;
         "dHvDQIzm" = _dHvDQIzm;
         "SnhYtIIx" = _SnhYtIIx;
+        "fesh1IfZ" = _fesh1IfZ;
         "fabric-1.20.1" = _SnhYtIIx;
-        "fabric-1.21.1" = _vnU8LB7K;
-        "fabric-1.21.4" = _dHvDQIzm;
+        "fabric-1.21.1" = _fesh1IfZ;
+        "fabric-1.21.4" = _fesh1IfZ;
+        "fabric-1.21" = _fesh1IfZ;
+        "fabric-1.21.2" = _fesh1IfZ;
+        "fabric-1.21.3" = _fesh1IfZ;
         "pkg-1.0.0+1.20.1" = _uBMdg5F0;
         "pkg-1.0.0+1.21.1" = _sRdUIxXa;
         "pkg-1.0.0+1.21.4" = _jZJeVSdx;
@@ -75,7 +84,8 @@ let
         "pkg-1.2.0+1.21.1" = _vnU8LB7K;
         "pkg-1.2.0+1.21.4" = _dHvDQIzm;
         "pkg-1.3.0-1.20.1-beta-2" = _SnhYtIIx;
-        "default" = _SnhYtIIx;
+        "pkg-1.2.2" = _fesh1IfZ;
+        "default" = _fesh1IfZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "global-wind";

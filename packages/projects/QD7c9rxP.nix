@@ -131,6 +131,11 @@ let
             "file" = "Rainbow.jar";
             "hash" = "sha512-FgiFWy13ZPIq4vVxkUe9tifz0PnIY/4O3lpIOrAtoFJyEOFCKjM3/0vw3Kqnha+xjLPYiV4ewO0hbrDoizOUiQ==";
         };
+        _U65xzRUa = {
+            "id" = "U65xzRUa";
+            "file" = "Rainbow.jar";
+            "hash" = "sha512-2vqQBhjlfvnxIGTcKrDGLItMjELgiC/75uOBhNfqzMe/zBm3XHlURLossBnIQ2c7MLbEGmE8GAY9DwDtOlF49w==";
+        };
     in {
         "TEuOUBfo" = _TEuOUBfo;
         "ORL8FGNI" = _ORL8FGNI;
@@ -158,10 +163,12 @@ let
         "JntQkkUu" = _JntQkkUu;
         "4qSZ6Nd3" = _4qSZ6Nd3;
         "8lMXQo7j" = _8lMXQo7j;
+        "U65xzRUa" = _U65xzRUa;
         "fabric-26.1" = _JntQkkUu;
         "fabric-26.1.1" = _JntQkkUu;
         "fabric-26.1.2" = _JntQkkUu;
         "fabric-26.2" = _8lMXQo7j;
+        "fabric-26.3" = _U65xzRUa;
         "pkg-0.2.0-26.1-b29" = _TEuOUBfo;
         "pkg-0.2.0-26.1-b31" = _ORL8FGNI;
         "pkg-0.2.0-26.1-b32" = _BSKQoIed;
@@ -188,7 +195,8 @@ let
         "pkg-0.2.0-26.1-b53" = _JntQkkUu;
         "pkg-0.2.1-26.2-b54" = _4qSZ6Nd3;
         "pkg-0.2.1-26.2-b55" = _8lMXQo7j;
-        "default" = _8lMXQo7j;
+        "pkg-0.2.1-26.3-b56" = _U65xzRUa;
+        "default" = _U65xzRUa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rainbow-mod";

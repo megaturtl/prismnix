@@ -16,17 +16,25 @@ let
             "file" = "clickthrough-1.21.0+0.jar";
             "hash" = "sha512-g+ic+6vlOg/X9NvkInvjX7f6jVGWuLFmOTLV8yd3YCaxGoY3/6BiEWNxSXy0jBAACkKGQ6hR/rgkdc6kiquYiQ==";
         };
+        _3ysZdk04 = {
+            "id" = "3ysZdk04";
+            "file" = "clickthrough-0.0.3-26.3.jar";
+            "hash" = "sha512-J5L15KC8Uu4+jO2fIy5bi50zL/2hmaTWDji8PnHMqulOjzeFualBChW34w6yIH+sPWg9VcQZ7keDugBbWVMaAg==";
+        };
     in {
         "Z3d7LN8h" = _Z3d7LN8h;
         "5TC4XFoG" = _5TC4XFoG;
         "E7ECzQD8" = _E7ECzQD8;
+        "3ysZdk04" = _3ysZdk04;
         "fabric-1.20.1" = _Z3d7LN8h;
         "fabric-1.20.4" = _5TC4XFoG;
         "fabric-1.21" = _E7ECzQD8;
+        "fabric-26.3" = _3ysZdk04;
         "pkg-1.20.1" = _Z3d7LN8h;
         "pkg-1.20.4" = _5TC4XFoG;
         "pkg-1.21" = _E7ECzQD8;
-        "default" = _E7ECzQD8;
+        "pkg-0.0.3-26.3" = _3ysZdk04;
+        "default" = _3ysZdk04;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "clickthrough2.0";

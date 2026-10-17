@@ -176,6 +176,16 @@ let
             "file" = "ContinuityNeoForge-3.0.7+26.3.jar";
             "hash" = "sha512-0/oN+NpmTChmh++lbB1IzZ4Zu2sJ1dhNay6jJ5SMuo+K5Z0+0bgMwWjXx4X+FCeSumu46JGkXY/UNtUEDuEhtQ==";
         };
+        _Umymg8Lz = {
+            "id" = "Umymg8Lz";
+            "file" = "ContinuityNeoForge-3.0.8+1.21.1.jar";
+            "hash" = "sha512-A457ayQY5CB6aoWOccsiDP2vkflNjdnUhE0cz13cYCMwpi9JKxafY/TDjiPL8w3NWd+SUD9PAxkFbH+42d+nYw==";
+        };
+        _LoaT9Sjl = {
+            "id" = "LoaT9Sjl";
+            "file" = "ContinuityNeoForge-3.0.8+26.3.jar";
+            "hash" = "sha512-zd2PRv5rBDoJtqbNYTVPgxKe4NcJoXF1rWHvp7g/2ugyrvD0usJuw+3O9KSeyJ2KYSCHn07BUlbbCJ0xQ0ORWg==";
+        };
     in {
         "GypYi5Ey" = _GypYi5Ey;
         "lQGwbJ9e" = _lQGwbJ9e;
@@ -212,7 +222,9 @@ let
         "Gep7GKwK" = _Gep7GKwK;
         "6mcIxf1A" = _6mcIxf1A;
         "ETXhWuqW" = _ETXhWuqW;
-        "neoforge-1.21.1" = _BJCCqDgg;
+        "Umymg8Lz" = _Umymg8Lz;
+        "LoaT9Sjl" = _LoaT9Sjl;
+        "neoforge-1.21.1" = _Umymg8Lz;
         "neoforge-1.21.2" = _UYWDbXxi;
         "neoforge-1.21.3" = _UYWDbXxi;
         "neoforge-1.21.4" = _GbKPPJic;
@@ -227,7 +239,7 @@ let
         "neoforge-26.1.1" = _Gep7GKwK;
         "neoforge-26.1.2" = _Gep7GKwK;
         "neoforge-26.2" = _6mcIxf1A;
-        "neoforge-26.3" = _ETXhWuqW;
+        "neoforge-26.3" = _LoaT9Sjl;
         "pkg-3.0.0+1.21.1" = _GypYi5Ey;
         "pkg-3.0.1+1.21.1" = _lQGwbJ9e;
         "pkg-3.0.2+1.21.1" = _vzvFrkXW;
@@ -263,7 +275,9 @@ let
         "pkg-3.0.7+26.1.2" = _Gep7GKwK;
         "pkg-3.0.7+26.2" = _6mcIxf1A;
         "pkg-3.0.7+26.3" = _ETXhWuqW;
-        "default" = _ETXhWuqW;
+        "pkg-3.0.8+1.21.1" = _Umymg8Lz;
+        "pkg-3.0.8+26.3" = _LoaT9Sjl;
+        "default" = _LoaT9Sjl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "continuity-neoforged";

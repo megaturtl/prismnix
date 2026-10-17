@@ -206,6 +206,11 @@ let
             "file" = "Whimscape_26.1-26.3_r2.zip";
             "hash" = "sha512-x9Vtktic7ojNY3TtoovqIUKI04LvzLeUh04vUK+SfFO5vBU0uJW4fvTFnMVBqr/7Lzo1LrTzsFP1/+3AMargJw==";
         };
+        _fLNmFQjv = {
+            "id" = "fLNmFQjv";
+            "file" = "Whimscape_26.1-26.3_r3.zip";
+            "hash" = "sha512-uSNJutCgIWP3Y3QDqSOo2xYPLh5o7KWcyceUPoVItumoDz+rH2vjXTw9rKgGNA8quIPlZGTvHIAkE3b0KBYR9w==";
+        };
     in {
         "Z8VKmfWB" = _Z8VKmfWB;
         "7JffzAFU" = _7JffzAFU;
@@ -248,6 +253,7 @@ let
         "yaX35qnW" = _yaX35qnW;
         "qQLsDTnE" = _qQLsDTnE;
         "MZrgxKQu" = _MZrgxKQu;
+        "fLNmFQjv" = _fLNmFQjv;
         "minecraft-1.19" = _hII7m1EI;
         "minecraft-1.19.1" = _hII7m1EI;
         "minecraft-1.19.2" = _hII7m1EI;
@@ -276,11 +282,11 @@ let
         "minecraft-1.21.9" = _BRkk8RIu;
         "minecraft-1.21.10" = _BRkk8RIu;
         "minecraft-1.21.11" = _BRkk8RIu;
-        "minecraft-26.1" = _MZrgxKQu;
-        "minecraft-26.1.1" = _MZrgxKQu;
-        "minecraft-26.1.2" = _MZrgxKQu;
-        "minecraft-26.2" = _MZrgxKQu;
-        "minecraft-26.3" = _MZrgxKQu;
+        "minecraft-26.1" = _fLNmFQjv;
+        "minecraft-26.1.1" = _fLNmFQjv;
+        "minecraft-26.1.2" = _fLNmFQjv;
+        "minecraft-26.2" = _fLNmFQjv;
+        "minecraft-26.3" = _fLNmFQjv;
         "pkg-1.19-1.19.2_r2" = _Z8VKmfWB;
         "pkg-1.19.3_r10" = _7JffzAFU;
         "pkg-1.19.4_r3" = _bYLaIrUo;
@@ -322,7 +328,8 @@ let
         "pkg-26.1-26.3_r1" = _yaX35qnW;
         "pkg-1.20-1.20.1_r10" = _qQLsDTnE;
         "pkg-26.1-26.3_r2" = _MZrgxKQu;
-        "default" = _MZrgxKQu;
+        "pkg-26.1-26.3_r3" = _fLNmFQjv;
+        "default" = _fLNmFQjv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "whimscape";

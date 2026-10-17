@@ -556,6 +556,26 @@ let
             "file" = "smallships-2.0.1-neoforge-1.21.1.jar";
             "hash" = "sha512-c4sQKvzAN5oU1hQ6XhXxBwOWJIYScSXKrH/rbrGyWCMBR+i0fieZmcpEjOrPSf2aO1nzvzHBLLT/rb+Y9eRElg==";
         };
+        _2iLK0Wz6 = {
+            "id" = "2iLK0Wz6";
+            "file" = "smallships-neoforge-1.21.1-2.0.2.jar";
+            "hash" = "sha512-PKfsSp9oAKXp+Qyyc+hJXFkZwtmgcHFgodQ5H6EcVSXj92A4+HcCOSnT4xBLPfeeivwRON4PffZFMGScs7dtIA==";
+        };
+        _vJnFZ5fQ = {
+            "id" = "vJnFZ5fQ";
+            "file" = "smallships-fabric-1.21.1-2.0.2-fabric-1.21.1.jar";
+            "hash" = "sha512-sIG+mCm3ZHL6npWg25ZdRa/EYLy7v1+OPeRhRyGLm4VKCwW9q8P7pc65wTW6PA331a/4rmb6jQDnv0Kb92BbbQ==";
+        };
+        _9KNCbtCC = {
+            "id" = "9KNCbtCC";
+            "file" = "smallships-2.0.2-forge-1.20.1.jar";
+            "hash" = "sha512-4gF1FzdF31dUSdumg4A9+ZeSL4I2mc1O9Xx78KPVYQ3f1ueBczbQ8X4nK5AQW3AmjzcF8a+342i9N64d1hFX1A==";
+        };
+        _EVC4lV4p = {
+            "id" = "EVC4lV4p";
+            "file" = "smallships-2.0.2-fabric-1.20.1.jar";
+            "hash" = "sha512-0jdT3uGCu/GRxiZ8/4uW1RNoOdKkDc0pA79939C0yY7djBI/pWgQaB48i0nIaM4fHOIRhdJzdmBaRSzCeoHPvw==";
+        };
     in {
         "lY6aTLex" = _lY6aTLex;
         "ifdiiK5n" = _ifdiiK5n;
@@ -668,11 +688,15 @@ let
         "GeiBNJCi" = _GeiBNJCi;
         "4XFtMBEp" = _4XFtMBEp;
         "QNjKZdCr" = _QNjKZdCr;
+        "2iLK0Wz6" = _2iLK0Wz6;
+        "vJnFZ5fQ" = _vJnFZ5fQ;
+        "9KNCbtCC" = _9KNCbtCC;
+        "EVC4lV4p" = _EVC4lV4p;
         "forge-1.19.2" = _Xn9phSUY;
         "forge-1.18.2" = _D5UZlu1q;
         "forge-1.19.4" = _YXoZH7b3;
         "forge-1.20" = _TW4wKw9R;
-        "forge-1.20.1" = _GeiBNJCi;
+        "forge-1.20.1" = _9KNCbtCC;
         "forge-1.20.6" = _vvLPNSk4;
         "forge-1.21" = _RHIfmfnH;
         "forge-1.20.4" = _9EGMSTSk;
@@ -682,16 +706,16 @@ let
         "fabric-1.18.2" = _bDJ9Hnpq;
         "fabric-1.19.4" = _m6BFeC5S;
         "fabric-1.20" = _w3ezhI33;
-        "fabric-1.20.1" = _S6IU4Y5c;
+        "fabric-1.20.1" = _EVC4lV4p;
         "fabric-1.20.6" = _FuTAIwWT;
         "fabric-1.21" = _YLqDP58k;
         "fabric-1.20.4" = _t0EDT8xV;
-        "fabric-1.21.1" = _4XFtMBEp;
+        "fabric-1.21.1" = _vJnFZ5fQ;
         "fabric-1.21.4" = _YznxOuc3;
         "neoforge-1.20.6" = _IUbLi1h9;
         "neoforge-1.21" = _Wa1yug8t;
         "neoforge-1.20.4" = _9SEso03a;
-        "neoforge-1.21.1" = _QNjKZdCr;
+        "neoforge-1.21.1" = _2iLK0Wz6;
         "neoforge-1.21.4" = _QHOErUkD;
         "pkg-2.0.0a2.1" = _ifdiiK5n;
         "pkg-2.0.0a2.2" = _FfCQnlFv;
@@ -719,7 +743,11 @@ let
         "pkg-2.0.1" = _GeiBNJCi;
         "pkg-2.0.1-Fabric" = _4XFtMBEp;
         "pkg-2.0.1-NeoForge" = _QNjKZdCr;
-        "default" = _QNjKZdCr;
+        "pkg-2.0.2-neoforge-1.21.1" = _2iLK0Wz6;
+        "pkg-2.0.2-fabric-1.21.1" = _vJnFZ5fQ;
+        "pkg-2.0.2-forge-1.20.1" = _9KNCbtCC;
+        "pkg-2.0.2-fabric-1.20.1" = _EVC4lV4p;
+        "default" = _EVC4lV4p;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "small-ships";

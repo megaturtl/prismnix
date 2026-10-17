@@ -141,6 +141,56 @@ let
             "file" = "tiny_flowers-fabric-26.3-2.0.3+26.3.jar";
             "hash" = "sha512-HWzdCOAm8/Kee74NCnxIXfr7PcZPUhnpUGVK/0eR02rq7jqqfKCd5TUjmCzJCtcTpgGAcVv8emwaQfvAwJPztw==";
         };
+        _bUhCGgIK = {
+            "id" = "bUhCGgIK";
+            "file" = "tiny_flowers-fabric-1.21.1-2.1.0+1.21.1.jar";
+            "hash" = "sha512-V7qV+l9NadLUGtlaknW6izhUwupX5Ax3FsfoL7gUWeEkhQbI1PdHyi2eoGpooouXoKcARXRtYjYqC7Vcv+bhaA==";
+        };
+        _WDVl3yUg = {
+            "id" = "WDVl3yUg";
+            "file" = "tiny_flowers-neoforge-1.21.1-2.1.0+1.21.1.jar";
+            "hash" = "sha512-PIo3Y8tTFFiq4rVkJxc/RCO8b7lo/iTHbi5QIZVL2V9VHN4wIZ6h7LtecAQS2m0xa5Fwt/gTmqPRQIrMqhUVNQ==";
+        };
+        _o1G10tul = {
+            "id" = "o1G10tul";
+            "file" = "tiny_flowers-fabric-1.21.11-2.1.0+1.21.11.jar";
+            "hash" = "sha512-gGRkKkGpX71Ev+rL3CDvAQKblhuOCzFYqqwfffrIyN+W3B8p35U90wFL2sRBCvbPalKhzgbxiymW3ZFIVH5sTg==";
+        };
+        _wbiJNNRD = {
+            "id" = "wbiJNNRD";
+            "file" = "tiny_flowers-neoforge-1.21.11-2.1.0+1.21.11.jar";
+            "hash" = "sha512-GZu/mrvfDJ0p7HQEQ4U40i6gUrwg1WGSiKUdpKw2QX3WHOiUe80OKHXl/LX1cXw6J0lnOWdmwpaYmzbgnVxITw==";
+        };
+        _2OCBFbb5 = {
+            "id" = "2OCBFbb5";
+            "file" = "tiny_flowers-fabric-26.1.2-2.1.0+26.1.2.jar";
+            "hash" = "sha512-UKE1iQOoDW6WyzNK76uoJw2H7HstbEQYPQaJJsEInssFy6sDQI4Wwp1KjylxUKakGy2ivpDAed9CXPeNBs3/zA==";
+        };
+        _g1UTe0BI = {
+            "id" = "g1UTe0BI";
+            "file" = "tiny_flowers-neoforge-26.1.2-2.1.0+26.1.2.jar";
+            "hash" = "sha512-QQqICHk/C02Ao8DjGjVe2/iy52BcABDt3NWyZvYl/Lz/87xyiJT6o07Z15thV86SvV9g6yPWWOKEPYvplbCFBA==";
+        };
+        _BBco5UDY = {
+            "id" = "BBco5UDY";
+            "file" = "tiny_flowers-fabric-26.2-2.1.0+26.2.jar";
+            "hash" = "sha512-9Obdz8GNnWB/CiIr/t66XjIIYh3XetZ7W9kl1oFfxZqcMjbW9YVMomR8nngFkwLm6DWxWfRXpWItrS2DGEB+Kw==";
+        };
+        _Uq0UK6mA = {
+            "id" = "Uq0UK6mA";
+            "file" = "tiny_flowers-neoforge-26.2-2.1.0+26.2.jar";
+            "hash" = "sha512-RBFeF1TPD+il6EzaETxs5YiVn8/IVaZoPlzlmQyWpkMeE2fkwism4y3iSyo6MehuUKL4JgNzFLX2YC/6fVMuWw==";
+        };
+        _zNfFdcYu = {
+            "id" = "zNfFdcYu";
+            "file" = "tiny_flowers-neoforge-26.3-2.1.0+26.3.jar";
+            "hash" = "sha512-os0NnwXy9naYvbvZb8Gs7qTqQpgr02gPXeWk3bpODgbT31oTeVN4Ha+tfTNv80kv//LffRFkR3Pj7ToTtBbJUg==";
+        };
+        _3MmVrABN = {
+            "id" = "3MmVrABN";
+            "file" = "tiny_flowers-fabric-26.3-2.1.0+26.3.jar";
+            "hash" = "sha512-p7S/f1I7eWjTH5qOdz+3NTSPDBqBTCqKzyZTornjRr/nrgYO/zsE+yz2qu2scDhoD0HHbKBShBIMCCGYSdR4ug==";
+        };
     in {
         "bNkmc8Wg" = _bNkmc8Wg;
         "I7qwje7e" = _I7qwje7e;
@@ -170,25 +220,37 @@ let
         "vYzm000s" = _vYzm000s;
         "siwxNaLF" = _siwxNaLF;
         "liFeGKLp" = _liFeGKLp;
+        "bUhCGgIK" = _bUhCGgIK;
+        "WDVl3yUg" = _WDVl3yUg;
+        "o1G10tul" = _o1G10tul;
+        "wbiJNNRD" = _wbiJNNRD;
+        "2OCBFbb5" = _2OCBFbb5;
+        "g1UTe0BI" = _g1UTe0BI;
+        "BBco5UDY" = _BBco5UDY;
+        "Uq0UK6mA" = _Uq0UK6mA;
+        "zNfFdcYu" = _zNfFdcYu;
+        "3MmVrABN" = _3MmVrABN;
         "fabric-1.21.4" = _pP0hSFkS;
-        "fabric-1.21.1" = _VX02tNMb;
+        "fabric-1.21.1" = _bUhCGgIK;
         "fabric-1.21.5" = _K0TBzmev;
         "fabric-1.21.6" = _wmcT0cxF;
         "fabric-1.21.7" = _wmcT0cxF;
         "fabric-1.21.8" = _wmcT0cxF;
         "fabric-1.21.9" = _pRqh4jqU;
         "fabric-1.21.10" = _pRqh4jqU;
-        "fabric-1.21.11" = _S0oQPFIq;
+        "fabric-1.21.11" = _o1G10tul;
         "fabric-26.1" = _ijdYjPIi;
         "fabric-26.1.1" = _ijdYjPIi;
-        "fabric-26.1.2" = _YdiFAXND;
-        "fabric-26.2" = _HJ9ifIEe;
-        "fabric-26.3" = _liFeGKLp;
+        "fabric-26.1.2" = _2OCBFbb5;
+        "fabric-26.2" = _BBco5UDY;
+        "fabric-26.3" = _3MmVrABN;
         "neoforge-26.1" = _OkgaolPm;
         "neoforge-26.1.1" = _OkgaolPm;
-        "neoforge-26.1.2" = _lNE5Cyag;
-        "neoforge-26.2" = _vYzm000s;
-        "neoforge-26.3" = _siwxNaLF;
+        "neoforge-26.1.2" = _g1UTe0BI;
+        "neoforge-26.2" = _Uq0UK6mA;
+        "neoforge-26.3" = _zNfFdcYu;
+        "neoforge-1.21.1" = _WDVl3yUg;
+        "neoforge-1.21.11" = _wbiJNNRD;
         "pkg-1.0.0+1.21.4" = _bNkmc8Wg;
         "pkg-v1.1.0+1.21.1" = _I7qwje7e;
         "pkg-v1.1.0+1.21.4" = _v93A3i9n;
@@ -217,7 +279,17 @@ let
         "pkg-v2.0.2+26.2-neoforge" = _vYzm000s;
         "pkg-v2.0.3+26.3-neoforge" = _siwxNaLF;
         "pkg-v2.0.3+26.3-fabric" = _liFeGKLp;
-        "default" = _liFeGKLp;
+        "pkg-v2.1.0+1.21.1-fabric" = _bUhCGgIK;
+        "pkg-v2.1.0+1.21.1-neoforge" = _WDVl3yUg;
+        "pkg-v2.1.0+1.21.11-fabric" = _o1G10tul;
+        "pkg-v2.1.0+1.21.11-neoforge" = _wbiJNNRD;
+        "pkg-v2.1.0+26.1.2-fabric" = _2OCBFbb5;
+        "pkg-v2.1.0+26.1.2-neoforge" = _g1UTe0BI;
+        "pkg-v2.1.0+26.2-fabric" = _BBco5UDY;
+        "pkg-v2.1.0+26.2-neoforge" = _Uq0UK6mA;
+        "pkg-v2.1.0+26.3-neoforge" = _zNfFdcYu;
+        "pkg-v2.1.0+26.3-fabric" = _3MmVrABN;
+        "default" = _3MmVrABN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tiny-flowers";

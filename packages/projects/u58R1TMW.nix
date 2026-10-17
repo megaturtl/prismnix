@@ -371,6 +371,11 @@ let
             "file" = "connector-3.1.0-beta.2+26.2-full.jar";
             "hash" = "sha512-epvsFea1rMtY8CKqhTIXSufDQE0AE5Qq6DK7rWhbyrT/vRSMymwOu8osMAvtbAFRSzgojNbhbCjjW8NOqyPOzQ==";
         };
+        _6UZzQrT0 = {
+            "id" = "6UZzQrT0";
+            "file" = "connector-3.1.0-beta.3+26.2-full.jar";
+            "hash" = "sha512-3L/p1ee0HSxDXxbq3V9g4g8k879YSJVmjso5zFZMXSYtXBiSjct5T09ceeQ6Mibe4nFn5Bz+zw1NaV6DbS344w==";
+        };
     in {
         "x1afUqsm" = _x1afUqsm;
         "JWbnXhg0" = _JWbnXhg0;
@@ -446,11 +451,12 @@ let
         "oY5C4GFW" = _oY5C4GFW;
         "YN4breeY" = _YN4breeY;
         "n0TvO0jS" = _n0TvO0jS;
+        "6UZzQrT0" = _6UZzQrT0;
         "forge-1.20.1" = _1MQDrKN7;
         "neoforge-1.21" = _PHaoQIFN;
         "neoforge-1.21.1" = _IITF0PRC;
         "neoforge-26.1.2" = _oY5C4GFW;
-        "neoforge-26.2" = _n0TvO0jS;
+        "neoforge-26.2" = _6UZzQrT0;
         "pkg-1.0.0-beta+1.20.1" = _x1afUqsm;
         "pkg-1.0.0-beta.2+1.20.1" = _JWbnXhg0;
         "pkg-1.0.0-beta.3+1.20.1" = _gKBKb99q;
@@ -525,7 +531,8 @@ let
         "pkg-3.0.0-beta.6+26.1.2" = _oY5C4GFW;
         "pkg-3.1.0-beta.1+26.2" = _YN4breeY;
         "pkg-3.1.0-beta.2+26.2" = _n0TvO0jS;
-        "default" = _n0TvO0jS;
+        "pkg-3.1.0-beta.3+26.2" = _6UZzQrT0;
+        "default" = _6UZzQrT0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "connector";

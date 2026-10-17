@@ -211,6 +211,16 @@ let
             "file" = "delta_force_skills-1.9.37.jar";
             "hash" = "sha512-x6phb+POkhWsuwOKmVCzoiCgRKwVlsnOBTfv5Wesf1l9gNcpFP+WiylNA/vqOTKMv76V702cvATU3u2Ivu5SaQ==";
         };
+        _5aX9SUsn = {
+            "id" = "5aX9SUsn";
+            "file" = "delta_force_skills-1.9.54.jar";
+            "hash" = "sha512-9z40BbQoxALZIwkU+gb3pTTDVIokBeY7qdme9taPEQZRIYmxFkcfE5k7uQxvPAUJ3hXIXJM1v8OmHK5r1z5yZQ==";
+        };
+        _ggErkLuL = {
+            "id" = "ggErkLuL";
+            "file" = "delta_force_skills-1.9.54.jar";
+            "hash" = "sha512-/CyyM7A9vZJeEE+dY4Z/KQMSM6h1y0YIHWBewdWHkNDUKXXSdoiX2az1rZBiWXNbLXtAQPR17ySf+Irxi+1tNA==";
+        };
     in {
         "Vr7fglsf" = _Vr7fglsf;
         "N1BdvURd" = _N1BdvURd;
@@ -254,9 +264,11 @@ let
         "OozIU2CX" = _OozIU2CX;
         "bY6slOaK" = _bY6slOaK;
         "6mplvm0Z" = _6mplvm0Z;
-        "forge-1.20.1" = _bY6slOaK;
+        "5aX9SUsn" = _5aX9SUsn;
+        "ggErkLuL" = _ggErkLuL;
+        "forge-1.20.1" = _5aX9SUsn;
         "forge-1.19.2" = _4aMQKmyB;
-        "neoforge-1.21.1" = _6mplvm0Z;
+        "neoforge-1.21.1" = _ggErkLuL;
         "pkg-1.5.10" = _Vr7fglsf;
         "pkg-1.5.12" = _PyPm2CpE;
         "pkg-1.5.13" = _ocF7yPds;
@@ -275,7 +287,8 @@ let
         "pkg-1.9.0" = _wFQYFTej;
         "pkg-1.9.0-hotfix" = _OozIU2CX;
         "pkg-1.9.37" = _6mplvm0Z;
-        "default" = _6mplvm0Z;
+        "pkg-1.9.54" = _ggErkLuL;
+        "default" = _ggErkLuL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "delta_force_skills";

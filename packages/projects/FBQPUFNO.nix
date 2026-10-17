@@ -106,6 +106,11 @@ let
             "file" = "evangelium-2.2.2-mc1.21.11.jar";
             "hash" = "sha512-F4SauS42jA2QbBw/3/KB0ioSryHfr1lHF5K0bo4/EZKO8gTIlQkgaUYmqmB8/yo66ZWx4+K25fazd8GXqpJdAA==";
         };
+        _5SyvNQmW = {
+            "id" = "5SyvNQmW";
+            "file" = "evangelium-2.3.0-mc1.21.11.jar";
+            "hash" = "sha512-p4eRd8xDw0SdZZPCw/q94XYeF5KUqIkziiU3cX+jJbfVJhVP5DIXMk0fhfm7SVnXIxGSpkKixWSonyfYu0+0EQ==";
+        };
     in {
         "jOtnASR3" = _jOtnASR3;
         "29C6BYhV" = _29C6BYhV;
@@ -128,6 +133,7 @@ let
         "5ZCHT4M9" = _5ZCHT4M9;
         "F8baUVsk" = _F8baUVsk;
         "KBFuzerC" = _KBFuzerC;
+        "5SyvNQmW" = _5SyvNQmW;
         "fabric-1.21" = _d6R74O8Y;
         "fabric-1.21.1" = _d6R74O8Y;
         "fabric-1.21.4" = _bXuGvUrt;
@@ -135,7 +141,7 @@ let
         "fabric-1.21.6" = _czyrha7b;
         "fabric-1.21.7" = _czyrha7b;
         "fabric-1.21.8" = _czyrha7b;
-        "fabric-1.21.11" = _KBFuzerC;
+        "fabric-1.21.11" = _5SyvNQmW;
         "pkg-1.6.4" = _jOtnASR3;
         "pkg-1.6.5" = _29C6BYhV;
         "pkg-1.6.6" = _joopjNQs;
@@ -157,7 +163,8 @@ let
         "pkg-2.2.0-mc1.21.11" = _5ZCHT4M9;
         "pkg-2.2.1-mc1.21.11" = _F8baUVsk;
         "pkg-2.2.2-mc1.21.11" = _KBFuzerC;
-        "default" = _KBFuzerC;
+        "pkg-2.3.0-mc1.21.11" = _5SyvNQmW;
+        "default" = _5SyvNQmW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "evangelium";

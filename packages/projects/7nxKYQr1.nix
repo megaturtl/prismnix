@@ -16,15 +16,24 @@ let
             "file" = "Samuel's Rechipped v0.2.1.zip";
             "hash" = "sha512-shwRNOUYvGvsYe5mBNO1qa7D6ty9D/rGftLwEBF31a2H1U4Xp7+nLxArvlv9n9BHNACXf95m2Jpowt5oHszPTw==";
         };
+        _zdfj3Wir = {
+            "id" = "zdfj3Wir";
+            "file" = "Samuel's Rechipped v0.2.2.zip";
+            "hash" = "sha512-kib4ArxW/qiJZuBHBHGfskRBN0Qefd9QorT9o5TNaMkjwWbc5ozSn/mWlaK1o9528AMqE9oqclrPj8PUVZ04Pw==";
+        };
     in {
         "GQ6EramM" = _GQ6EramM;
         "QEZDNan2" = _QEZDNan2;
         "RtZDxQCS" = _RtZDxQCS;
+        "zdfj3Wir" = _zdfj3Wir;
         "minecraft-1.20.1" = _RtZDxQCS;
+        "minecraft-1.21" = _zdfj3Wir;
+        "minecraft-1.21.1" = _zdfj3Wir;
         "pkg-0.1" = _GQ6EramM;
         "pkg-0.2" = _QEZDNan2;
         "pkg-0.2.1" = _RtZDxQCS;
-        "default" = _RtZDxQCS;
+        "pkg-0.2.2" = _zdfj3Wir;
+        "default" = _zdfj3Wir;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "samuels-re-chipped";

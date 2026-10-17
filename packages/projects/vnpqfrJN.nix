@@ -176,6 +176,16 @@ let
             "file" = "zmatcomp-1.1.2+26.1.jar";
             "hash" = "sha512-2iY+qxgvEPyQN8sPsKjghuYBDxBSOMQsVIxgq1xeXwDL0S6CdhD1bxQQbJ5E0m1l06bQ7ST6nA+5xHrpmcCTqQ==";
         };
+        _7G5FFvHT = {
+            "id" = "7G5FFvHT";
+            "file" = "zmatcomp-1.1.2+1.21.11.jar";
+            "hash" = "sha512-Xm2D4z+eylgvuWrUaQgsTZaqVT5q4yRmgx1vreru+HJZ0L4Q1Zknp/cvtLue2yCBVd5J2OqmT6zCEPl2O6XvpA==";
+        };
+        _giRaRs9A = {
+            "id" = "giRaRs9A";
+            "file" = "zmatcomp-1.1.2+1.21.9.jar";
+            "hash" = "sha512-HmqU4zcR4nUxoyhIUS4pYmSitxibIfs7ebaRJMswWiuMjrzLcmSawJK2R8zy2W4DRZDo1zaPT8Be5dVg3ffyAw==";
+        };
     in {
         "7F3abIdS" = _7F3abIdS;
         "Zr0ApzKp" = _Zr0ApzKp;
@@ -212,6 +222,8 @@ let
         "PhNBmIWF" = _PhNBmIWF;
         "ePMO1aVX" = _ePMO1aVX;
         "y2a9xwkH" = _y2a9xwkH;
+        "7G5FFvHT" = _7G5FFvHT;
+        "giRaRs9A" = _giRaRs9A;
         "fabric-26.3-snapshot-7" = _7F3abIdS;
         "fabric-26.3-snapshot-10" = _Zr0ApzKp;
         "fabric-26.3-pre-1" = _QZtbkhs5;
@@ -230,6 +242,10 @@ let
         "fabric-26.1.1" = _phIg6cLe;
         "fabric-26.1.2-rc-1" = _phIg6cLe;
         "fabric-26.1.2" = _phIg6cLe;
+        "fabric-1.21.11" = _7G5FFvHT;
+        "fabric-1.21.9" = _giRaRs9A;
+        "fabric-1.21.10-rc1" = _giRaRs9A;
+        "fabric-1.21.10" = _giRaRs9A;
         "quilt-26.3-snapshot-7" = _7F3abIdS;
         "quilt-26.3-snapshot-10" = _Zr0ApzKp;
         "quilt-26.3-pre-1" = _QZtbkhs5;
@@ -248,6 +264,10 @@ let
         "quilt-26.1.1" = _phIg6cLe;
         "quilt-26.1.2-rc-1" = _phIg6cLe;
         "quilt-26.1.2" = _phIg6cLe;
+        "quilt-1.21.11" = _7G5FFvHT;
+        "quilt-1.21.9" = _giRaRs9A;
+        "quilt-1.21.10-rc1" = _giRaRs9A;
+        "quilt-1.21.10" = _giRaRs9A;
         "pkg-1.0.0-beta.1+26.3-snapshot-7" = _7F3abIdS;
         "pkg-1.0.0-beta.1+26.3-snapshot-10" = _Zr0ApzKp;
         "pkg-1.0.0-beta.1+26.3-pre-1" = _QZtbkhs5;
@@ -283,7 +303,9 @@ let
         "pkg-1.1.2+26.3" = _PhNBmIWF;
         "pkg-1.1.2+26.2" = _ePMO1aVX;
         "pkg-1.1.2+26.1" = _y2a9xwkH;
-        "default" = _y2a9xwkH;
+        "pkg-1.1.2+1.21.11" = _7G5FFvHT;
+        "pkg-1.1.2+1.21.9" = _giRaRs9A;
+        "default" = _giRaRs9A;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zmaterial-rule-compiler";

@@ -141,6 +141,16 @@ let
             "file" = "magic_vibe_decorations-4.0.0-forge-1.20.1.jar";
             "hash" = "sha512-xGQeuYd4qJBX+ldz/D2KU4p25/gNx/P4w8xsRPhrvYLZ/rj8TdEW85ehf3TYh93MhR9nJwFeEadYD45mQ94Q7w==";
         };
+        _yVS83Avf = {
+            "id" = "yVS83Avf";
+            "file" = "magic_vibe_decorations-4.0.0-forge-1.21.1.jar";
+            "hash" = "sha512-VRQJhCwPUDE5j1ujTahtLf6DVBQ0OnoNNxSv+96epztp25vv2ix5gOOlzexpfab0vLESSxWnfTMcZa2sDYV9Wg==";
+        };
+        _rmvAQst1 = {
+            "id" = "rmvAQst1";
+            "file" = "magic_vibe_decorations-4.0.0-forge-26.3.jar";
+            "hash" = "sha512-QGoagfeMylomsHGgCldKrN6y4/nL7ekf0pspejHvsfn8YrPLpE5dQd+4nzz5yfwhmX1GlvjVQ/Hgf3353q9p9w==";
+        };
     in {
         "NGn6sD5g" = _NGn6sD5g;
         "ugiO5FHZ" = _ugiO5FHZ;
@@ -170,6 +180,8 @@ let
         "jox38qux" = _jox38qux;
         "Id9Hybcu" = _Id9Hybcu;
         "uZ4aRG8L" = _uZ4aRG8L;
+        "yVS83Avf" = _yVS83Avf;
+        "rmvAQst1" = _rmvAQst1;
         "fabric-1.20.1" = _yXiKxAFn;
         "fabric-1.19.2" = _ZOzwsaFd;
         "fabric-1.21" = _en00c0hm;
@@ -188,7 +200,7 @@ let
         "forge-1.19.2" = _LyOHyb1F;
         "forge-1.20.1" = _uZ4aRG8L;
         "forge-1.21" = _oW9bm0Eh;
-        "forge-1.21.1" = _oW9bm0Eh;
+        "forge-1.21.1" = _yVS83Avf;
         "forge-1.21.5" = _1NoLs4Nt;
         "forge-1.21.6" = _1NoLs4Nt;
         "forge-1.21.7" = _1NoLs4Nt;
@@ -198,6 +210,7 @@ let
         "forge-1.21.11" = _dfYPHznZ;
         "forge-26.1.2" = _8eSMNKqC;
         "forge-26.2" = _8eSMNKqC;
+        "forge-26.3" = _rmvAQst1;
         "neoforge-1.21.1" = _8h6DJypO;
         "neoforge-1.21.4" = _PTA0Vb2I;
         "neoforge-1.21.5" = _PTA0Vb2I;
@@ -228,8 +241,8 @@ let
         "pkg-2.3.3" = _B20ES0IZ;
         "pkg-2.3.4" = _8eSMNKqC;
         "pkg-3.0.1" = _Id9Hybcu;
-        "pkg-4.0.0" = _uZ4aRG8L;
-        "default" = _uZ4aRG8L;
+        "pkg-4.0.0" = _rmvAQst1;
+        "default" = _rmvAQst1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "magic-vibe-decorations";

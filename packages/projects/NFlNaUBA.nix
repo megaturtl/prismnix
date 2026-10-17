@@ -101,6 +101,16 @@ let
             "file" = "qraftys-end-villages-4.1.jar";
             "hash" = "sha512-f0Q75s6urHlSFCeEawEb/whAxGFiiitUYwYptNCKGgaTVrt4Ig0WEjN7HDBxLMyaJBc5Sat6mGUBIFoMZnQUrA==";
         };
+        _mWUD99vd = {
+            "id" = "mWUD99vd";
+            "file" = "qrafty's-end-villages.zip";
+            "hash" = "sha512-m3L4aalqca3eXxQuoDyk1P1Y+meBvong3DsclBJsrReGqYP7HJ3wBRiP7X5lR3Nb1/auvUYMyD20BPWJ5wgF0Q==";
+        };
+        _MCJ1neKJ = {
+            "id" = "MCJ1neKJ";
+            "file" = "qraftys-end-villages-5.0-26.3.jar";
+            "hash" = "sha512-0qtDliLqXU+BTDYImwh+XyIBXkWRIjlbYYYfi2bH27b0eQXsIYmlm7lijzI9g4MRM7VF7xvDed1VO7tZm4WEiw==";
+        };
     in {
         "jVhp1McJ" = _jVhp1McJ;
         "M8PetBVr" = _M8PetBVr;
@@ -122,6 +132,8 @@ let
         "qjurri3N" = _qjurri3N;
         "UftOmoqA" = _UftOmoqA;
         "JSgGqGiO" = _JSgGqGiO;
+        "mWUD99vd" = _mWUD99vd;
+        "MCJ1neKJ" = _MCJ1neKJ;
         "datapack-1.19" = _jVhp1McJ;
         "datapack-1.19.1" = _jVhp1McJ;
         "datapack-1.19.2" = _jVhp1McJ;
@@ -146,6 +158,7 @@ let
         "datapack-1.21.9" = _nx5gkhCJ;
         "datapack-1.21.10" = _nx5gkhCJ;
         "datapack-26.2" = _UftOmoqA;
+        "datapack-26.3" = _mWUD99vd;
         "fabric-1.19" = _M8PetBVr;
         "fabric-1.19.1" = _M8PetBVr;
         "fabric-1.19.2" = _M8PetBVr;
@@ -170,6 +183,7 @@ let
         "fabric-1.21.9" = _qjurri3N;
         "fabric-1.21.10" = _qjurri3N;
         "fabric-26.2" = _JSgGqGiO;
+        "fabric-26.3" = _MCJ1neKJ;
         "forge-1.19" = _M8PetBVr;
         "forge-1.19.1" = _M8PetBVr;
         "forge-1.19.2" = _M8PetBVr;
@@ -194,6 +208,7 @@ let
         "forge-1.21.9" = _qjurri3N;
         "forge-1.21.10" = _qjurri3N;
         "forge-26.2" = _JSgGqGiO;
+        "forge-26.3" = _MCJ1neKJ;
         "quilt-1.19" = _M8PetBVr;
         "quilt-1.19.1" = _M8PetBVr;
         "quilt-1.19.2" = _M8PetBVr;
@@ -218,6 +233,7 @@ let
         "quilt-1.21.9" = _qjurri3N;
         "quilt-1.21.10" = _qjurri3N;
         "quilt-26.2" = _JSgGqGiO;
+        "quilt-26.3" = _MCJ1neKJ;
         "neoforge-1.21.2" = _M925DH1r;
         "neoforge-1.21.3" = _M925DH1r;
         "neoforge-1.21.4" = _mF2RnE4V;
@@ -228,6 +244,7 @@ let
         "neoforge-1.21.9" = _qjurri3N;
         "neoforge-1.21.10" = _qjurri3N;
         "neoforge-26.2" = _JSgGqGiO;
+        "neoforge-26.3" = _MCJ1neKJ;
         "pkg-1" = _jVhp1McJ;
         "pkg-1+mod" = _M8PetBVr;
         "pkg-2" = _uoFIHI3j;
@@ -248,7 +265,9 @@ let
         "pkg-3.4+mod" = _qjurri3N;
         "pkg-4.1" = _UftOmoqA;
         "pkg-4.1+mod" = _JSgGqGiO;
-        "default" = _JSgGqGiO;
+        "pkg-5.0-26.3" = _mWUD99vd;
+        "pkg-5.0-26.3+mod" = _MCJ1neKJ;
+        "default" = _MCJ1neKJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "qraftys-end-villages";

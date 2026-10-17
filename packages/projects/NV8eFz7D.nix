@@ -191,6 +191,11 @@ let
             "file" = "cactus-0.15.2.jar";
             "hash" = "sha512-qBb0VMmH111sU+/fVHhx56DiIUo0fGpYJTqWVjUlBi5J690+H5pxgDiT7JgEVwojrWjwsHSuFAMD+Lr4zllyyQ==";
         };
+        _sLPS0x1A = {
+            "id" = "sLPS0x1A";
+            "file" = "cactus-0.16.0.jar";
+            "hash" = "sha512-Dmhkq1QMHOxMviH4SsvfmvR2J7xvB1mo4Dg3QgRPpXqIJZz4j6iM5vjvNDB4mnYVEq1jpkSbOQlPNkt79wE/tg==";
+        };
     in {
         "UUpL3upy" = _UUpL3upy;
         "RzQcMYXm" = _RzQcMYXm;
@@ -230,6 +235,7 @@ let
         "v4AlY3OK" = _v4AlY3OK;
         "xXlpoPTD" = _xXlpoPTD;
         "MqyOqpcD" = _MqyOqpcD;
+        "sLPS0x1A" = _sLPS0x1A;
         "fabric-1.20.1" = _RzQcMYXm;
         "fabric-1.20.4" = _CrPP6ZH6;
         "fabric-1.21" = _AjNDbgdC;
@@ -237,25 +243,25 @@ let
         "fabric-1.21.5" = _omL4uxRD;
         "fabric-1.21.10" = _VaBWHq3p;
         "fabric-1.21.11" = _HcPH61xx;
-        "fabric-26.1" = _MqyOqpcD;
-        "fabric-26.1.1" = _MqyOqpcD;
-        "fabric-26.1.2" = _MqyOqpcD;
-        "fabric-26.2" = _MqyOqpcD;
-        "fabric-26.3" = _MqyOqpcD;
+        "fabric-26.1" = _sLPS0x1A;
+        "fabric-26.1.1" = _sLPS0x1A;
+        "fabric-26.1.2" = _sLPS0x1A;
+        "fabric-26.2" = _sLPS0x1A;
+        "fabric-26.3" = _sLPS0x1A;
         "quilt-1.20.4" = _CrPP6ZH6;
         "quilt-1.21" = _Klx3laVU;
         "quilt-1.21.1" = _Klx3laVU;
-        "quilt-26.1" = _MqyOqpcD;
-        "quilt-26.1.1" = _MqyOqpcD;
-        "quilt-26.1.2" = _MqyOqpcD;
+        "quilt-26.1" = _sLPS0x1A;
+        "quilt-26.1.1" = _sLPS0x1A;
+        "quilt-26.1.2" = _sLPS0x1A;
         "quilt-1.21.11" = _HcPH61xx;
-        "quilt-26.2" = _MqyOqpcD;
-        "quilt-26.3" = _MqyOqpcD;
-        "neoforge-26.2" = _MqyOqpcD;
-        "neoforge-26.1" = _MqyOqpcD;
-        "neoforge-26.1.1" = _MqyOqpcD;
-        "neoforge-26.1.2" = _MqyOqpcD;
-        "neoforge-26.3" = _MqyOqpcD;
+        "quilt-26.2" = _sLPS0x1A;
+        "quilt-26.3" = _sLPS0x1A;
+        "neoforge-26.2" = _sLPS0x1A;
+        "neoforge-26.1" = _sLPS0x1A;
+        "neoforge-26.1.1" = _sLPS0x1A;
+        "neoforge-26.1.2" = _sLPS0x1A;
+        "neoforge-26.3" = _sLPS0x1A;
         "pkg-0.9.4" = _UUpL3upy;
         "pkg-0.9.7" = _RzQcMYXm;
         "pkg-0.9.8" = _jpmcLeyg;
@@ -294,7 +300,8 @@ let
         "pkg-0.15.0" = _v4AlY3OK;
         "pkg-0.15.1" = _xXlpoPTD;
         "pkg-0.15.2" = _MqyOqpcD;
-        "default" = _MqyOqpcD;
+        "pkg-0.16.0" = _sLPS0x1A;
+        "default" = _sLPS0x1A;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cactus";

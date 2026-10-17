@@ -236,6 +236,11 @@ let
             "file" = "fantasy_armor-fabric-1.2.4-1.20.1.jar";
             "hash" = "sha512-3q3/K2lqSsvBtsZywV4fp6gGJ2c833uLawB6Mep61cBm1Nfa7ecFaTmSPEZoe2N7zU/IE+gPuikq7/PrkrByqg==";
         };
+        _JyGyXs3M = {
+            "id" = "JyGyXs3M";
+            "file" = "fantasy_armor-1.2.5-1.21.11.jar";
+            "hash" = "sha512-Ax2HtQvIhiupU5jRJZLJG35BzDYRZtxRC7jjUxvOJLbpPYDByyVvAUNSta+//rHuzPclpwXvmBdcysXg2ljdBA==";
+        };
     in {
         "iLY2TXEg" = _iLY2TXEg;
         "EMnskPvl" = _EMnskPvl;
@@ -284,12 +289,14 @@ let
         "IKXLJhpK" = _IKXLJhpK;
         "tk7ewHkA" = _tk7ewHkA;
         "PnSumomM" = _PnSumomM;
+        "JyGyXs3M" = _JyGyXs3M;
         "forge-1.20.1" = _U65HntTA;
         "forge-1.20.2" = _U65HntTA;
         "forge-1.20.3" = _U65HntTA;
         "forge-1.20.4" = _U65HntTA;
         "forge-1.19.4" = _xfKLX0sQ;
         "forge-1.21.1" = _QCi5Xv9P;
+        "forge-1.21.11" = _JyGyXs3M;
         "fabric-1.20.1" = _PnSumomM;
         "fabric-1.20.2" = _PnSumomM;
         "fabric-1.20.3" = _PnSumomM;
@@ -326,7 +333,8 @@ let
         "pkg-1.2.4-1.21.1" = _tk7ewHkA;
         "pkg-1.2.4-1.20.1" = _PnSumomM;
         "pkg-1.2.4-1.21.10" = _IKXLJhpK;
-        "default" = _PnSumomM;
+        "pkg-1.2.5-1.21.11" = _JyGyXs3M;
+        "default" = _JyGyXs3M;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fantasy_armor";

@@ -36,6 +36,11 @@ let
             "file" = "Jirniys Pink HUD.zip";
             "hash" = "sha512-7+95pRR1vFsRhGBpzGyQtgOpeoTi6+x8XLW1YngpdBKsy4Hf+a81hJAMYUgaIEOC/8xPZzwXvoWc1zwf1M2rRw==";
         };
+        _CZIXvmIu = {
+            "id" = "CZIXvmIu";
+            "file" = "Jirniys Pink HUD.zip";
+            "hash" = "sha512-Qi74kl9tpRHH4tIbbNwlOADx7j0sVFbU1AqvUtwJy9TgJp4nzgaO55rRVnGsgp3sQuQLf/pRfVlw2Ni1PoVtZw==";
+        };
     in {
         "PBAHdta3" = _PBAHdta3;
         "O6xDzTTn" = _O6xDzTTn;
@@ -44,16 +49,17 @@ let
         "FxJzVvE6" = _FxJzVvE6;
         "wsoD89m5" = _wsoD89m5;
         "3w5WRhdG" = _3w5WRhdG;
-        "minecraft-1.21.7" = _3w5WRhdG;
-        "minecraft-1.21.8" = _3w5WRhdG;
-        "minecraft-1.21.9" = _3w5WRhdG;
-        "minecraft-1.21.10" = _3w5WRhdG;
-        "minecraft-1.21.11" = _3w5WRhdG;
-        "minecraft-26.1" = _3w5WRhdG;
-        "minecraft-26.1.1" = _3w5WRhdG;
-        "minecraft-26.1.2" = _3w5WRhdG;
-        "minecraft-26.2" = _3w5WRhdG;
-        "minecraft-26.3" = _3w5WRhdG;
+        "CZIXvmIu" = _CZIXvmIu;
+        "minecraft-1.21.7" = _CZIXvmIu;
+        "minecraft-1.21.8" = _CZIXvmIu;
+        "minecraft-1.21.9" = _CZIXvmIu;
+        "minecraft-1.21.10" = _CZIXvmIu;
+        "minecraft-1.21.11" = _CZIXvmIu;
+        "minecraft-26.1" = _CZIXvmIu;
+        "minecraft-26.1.1" = _CZIXvmIu;
+        "minecraft-26.1.2" = _CZIXvmIu;
+        "minecraft-26.2" = _CZIXvmIu;
+        "minecraft-26.3" = _CZIXvmIu;
         "pkg-0.1.0" = _PBAHdta3;
         "pkg-0.1.1" = _O6xDzTTn;
         "pkg-0.1.2" = _yNXdIg1s;
@@ -61,7 +67,8 @@ let
         "pkg-0.2.0" = _FxJzVvE6;
         "pkg-0.2.1" = _wsoD89m5;
         "pkg-0.2.2" = _3w5WRhdG;
-        "default" = _3w5WRhdG;
+        "pkg-0.2.3" = _CZIXvmIu;
+        "default" = _CZIXvmIu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jirniys-pink-hud";

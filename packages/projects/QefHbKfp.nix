@@ -51,6 +51,11 @@ let
             "file" = "JR_East_E235_Series_v1.7.zip";
             "hash" = "sha512-7H9QFOHpGFJibSN3zh9rtG98juZfsHcG08K6F8t8yxGv8iTLw6eqsy7IqC+38FZTNuaKusfrrNK411SABmzJHQ==";
         };
+        _uPdbbvtQ = {
+            "id" = "uPdbbvtQ";
+            "file" = "JR_East_E235_Series_v1.8.zip";
+            "hash" = "sha512-edinpK06HOYnnf1EYO/vGxiXdFYvYb3cuOvb8q+QwbnR7h/4GgQnbjaKXGsvpexZmYAXOMIaEikQCXnQ/v4vDg==";
+        };
     in {
         "uxUbS9Ed" = _uxUbS9Ed;
         "abKRVvL4" = _abKRVvL4;
@@ -62,20 +67,24 @@ let
         "IGl4GK5I" = _IGl4GK5I;
         "SFBNDjmL" = _SFBNDjmL;
         "mziJQ9iQ" = _mziJQ9iQ;
-        "minecraft-1.17.1" = _mziJQ9iQ;
-        "minecraft-1.18.2" = _mziJQ9iQ;
-        "minecraft-1.19.2" = _mziJQ9iQ;
-        "minecraft-1.19.4" = _mziJQ9iQ;
-        "minecraft-1.20.1" = _mziJQ9iQ;
-        "minecraft-1.20.4" = _mziJQ9iQ;
-        "minecraft-1.18" = _mziJQ9iQ;
-        "minecraft-1.18.1" = _mziJQ9iQ;
-        "minecraft-1.19" = _mziJQ9iQ;
-        "minecraft-1.19.1" = _mziJQ9iQ;
-        "minecraft-1.19.3" = _mziJQ9iQ;
-        "minecraft-1.20" = _mziJQ9iQ;
-        "minecraft-1.20.2" = _mziJQ9iQ;
-        "minecraft-1.20.3" = _mziJQ9iQ;
+        "uPdbbvtQ" = _uPdbbvtQ;
+        "minecraft-1.17.1" = _uPdbbvtQ;
+        "minecraft-1.18.2" = _uPdbbvtQ;
+        "minecraft-1.19.2" = _uPdbbvtQ;
+        "minecraft-1.19.4" = _uPdbbvtQ;
+        "minecraft-1.20.1" = _uPdbbvtQ;
+        "minecraft-1.20.4" = _uPdbbvtQ;
+        "minecraft-1.18" = _uPdbbvtQ;
+        "minecraft-1.18.1" = _uPdbbvtQ;
+        "minecraft-1.19" = _uPdbbvtQ;
+        "minecraft-1.19.1" = _uPdbbvtQ;
+        "minecraft-1.19.3" = _uPdbbvtQ;
+        "minecraft-1.20" = _uPdbbvtQ;
+        "minecraft-1.20.2" = _uPdbbvtQ;
+        "minecraft-1.20.3" = _uPdbbvtQ;
+        "minecraft-1.17" = _uPdbbvtQ;
+        "minecraft-1.20.5" = _uPdbbvtQ;
+        "minecraft-1.20.6" = _uPdbbvtQ;
         "pkg-1.0" = _uxUbS9Ed;
         "pkg-1.1" = _abKRVvL4;
         "pkg-1.2" = _2RVQa8NA;
@@ -86,7 +95,8 @@ let
         "pkg-1.6.1" = _IGl4GK5I;
         "pkg-1.6.2" = _SFBNDjmL;
         "pkg-1.7" = _mziJQ9iQ;
-        "default" = _mziJQ9iQ;
+        "pkg-1.8" = _uPdbbvtQ;
+        "default" = _uPdbbvtQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mtr4-jr-e235-jr-east-e235-series";

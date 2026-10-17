@@ -446,6 +446,11 @@ let
             "file" = "macu_lib-3.0.6+26.2.jar";
             "hash" = "sha512-CwmX4QtvOxc9BavLO2O4CyWXxKmzT2CrA4oM7pbWnp/pnN2nvoigxBh/56yJay9SZQlSUKldxi+/2ybwYBcJuQ==";
         };
+        _HnBSpCPn = {
+            "id" = "HnBSpCPn";
+            "file" = "macu_lib-3.0.7+26.2.jar";
+            "hash" = "sha512-WGrbSnnLe3ex4Gp0ZaAeANAavicWgiHM7mg86W7fNXWUoFQ/TSxvcUtIaJRVrjXoAAatGs9gvh/VvLJ+X6v58w==";
+        };
     in {
         "I138fTA4" = _I138fTA4;
         "A5VlaYx6" = _A5VlaYx6;
@@ -536,6 +541,7 @@ let
         "ukRSalAf" = _ukRSalAf;
         "IX7SJRwL" = _IX7SJRwL;
         "e6ssccFq" = _e6ssccFq;
+        "HnBSpCPn" = _HnBSpCPn;
         "fabric-1.20.1" = _zmWPTWSz;
         "fabric-1.21.1" = _imSYuHhw;
         "fabric-1.21.4" = _z2NQ2xgR;
@@ -551,8 +557,8 @@ let
         "fabric-26.1.1" = _EWNeUq0f;
         "fabric-26.1.2" = _obMpDOBG;
         "fabric-26.2-rc-2" = _7dHK5DXF;
-        "fabric-26.2" = _e6ssccFq;
-        "fabric-26.3" = _e6ssccFq;
+        "fabric-26.2" = _HnBSpCPn;
+        "fabric-26.3" = _HnBSpCPn;
         "quilt-1.20.1" = _zmWPTWSz;
         "quilt-1.21.1" = _imSYuHhw;
         "quilt-1.21.4" = _z2NQ2xgR;
@@ -568,8 +574,8 @@ let
         "quilt-26.1.1" = _EWNeUq0f;
         "quilt-26.1.2" = _obMpDOBG;
         "quilt-26.2-rc-2" = _7dHK5DXF;
-        "quilt-26.2" = _e6ssccFq;
-        "quilt-26.3" = _e6ssccFq;
+        "quilt-26.2" = _HnBSpCPn;
+        "quilt-26.3" = _HnBSpCPn;
         "forge-1.20.1" = _qfFrA4kZ;
         "neoforge-1.21.1" = _GPC31bUX;
         "neoforge-1.21.4" = _va02KV8V;
@@ -585,8 +591,8 @@ let
         "neoforge-26.1.1" = _N5JuQd8d;
         "neoforge-26.1.2" = _W3atheab;
         "neoforge-26.2-rc-2" = _7dHK5DXF;
-        "neoforge-26.2" = _e6ssccFq;
-        "neoforge-26.3" = _e6ssccFq;
+        "neoforge-26.2" = _HnBSpCPn;
+        "neoforge-26.3" = _HnBSpCPn;
         "pkg-1.0.0-1.20.1-fabric" = _I138fTA4;
         "pkg-1.0.0-1.20.1-forge" = _A5VlaYx6;
         "pkg-1.0.0-1.21.1-fabric" = _eWIVItTn;
@@ -676,7 +682,8 @@ let
         "pkg-3.0.4+26.2" = _ukRSalAf;
         "pkg-3.0.5+26.2" = _IX7SJRwL;
         "pkg-3.0.6+26.2" = _e6ssccFq;
-        "default" = _e6ssccFq;
+        "pkg-3.0.7+26.2" = _HnBSpCPn;
+        "default" = _HnBSpCPn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "macu-lib";

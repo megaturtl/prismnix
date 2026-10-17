@@ -51,6 +51,11 @@ let
             "file" = "Rendersnap-1.3.2-mc26.2-Fabric.jar";
             "hash" = "sha512-HCLIGuSxQR3rOxzlxtEMQzeas0oYyDZFwkK0e5oV4bLyN5+zi+rJyg7du5bOR5xLzfV9H2ZIH+OEbDA3Ge6H4Q==";
         };
+        _6VbOrkkB = {
+            "id" = "6VbOrkkB";
+            "file" = "26.1-1.3.2.jar";
+            "hash" = "sha512-cs+7y6QCGl5VxCK9R4cAVesuHNMPARUSGOQbNNdxC2MAFVqVmB7KoUGetDI2FsaMfyVIAaqxptkgZv38zBKkeg==";
+        };
     in {
         "PM9TfJCL" = _PM9TfJCL;
         "Ho1UsvNV" = _Ho1UsvNV;
@@ -62,9 +67,10 @@ let
         "7tcL4g6D" = _7tcL4g6D;
         "wy80wnc5" = _wy80wnc5;
         "XcwOFXUN" = _XcwOFXUN;
-        "fabric-26.1.2" = _dP0kz7s8;
-        "fabric-26.1" = _dP0kz7s8;
-        "fabric-26.1.1" = _dP0kz7s8;
+        "6VbOrkkB" = _6VbOrkkB;
+        "fabric-26.1.2" = _6VbOrkkB;
+        "fabric-26.1" = _6VbOrkkB;
+        "fabric-26.1.1" = _6VbOrkkB;
         "fabric-26.2-snapshot-2" = _QVxgBxlD;
         "fabric-26.2-snapshot-3" = _QVxgBxlD;
         "fabric-26.2-snapshot-4" = _QVxgBxlD;
@@ -83,8 +89,8 @@ let
         "pkg-1.2" = _dP0kz7s8;
         "pkg-1.3" = _x0ZFAzaY;
         "pkg-1.3.1" = _7tcL4g6D;
-        "pkg-1.3.2" = _XcwOFXUN;
-        "default" = _XcwOFXUN;
+        "pkg-1.3.2" = _6VbOrkkB;
+        "default" = _6VbOrkkB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rendersnap";

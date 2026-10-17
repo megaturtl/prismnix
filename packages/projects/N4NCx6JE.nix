@@ -226,6 +226,16 @@ let
             "file" = "believemod-3.5-1.20.1.jar";
             "hash" = "sha512-BCsdh5YMqPB6QRaRBmATdjbnTTSJzVsBQCkZrEbgjQttVKPObOXWPWAUALJX+TvjAblUd0RFejBrWfIFahgEHA==";
         };
+        _alFVN0nm = {
+            "id" = "alFVN0nm";
+            "file" = "believemod-3.5.1-1.20.1.jar";
+            "hash" = "sha512-u08UdfnGSOa6fnBY2wGWlHzdZfGGf7fZdPNBJ7EuWS3OiQt3qyH+DVl+qO9zWGlYhjDlhBkudMp/7Gjl6LQmag==";
+        };
+        _qCUfo3ay = {
+            "id" = "qCUfo3ay";
+            "file" = "believemodforge-3.5-1.20.1.jar";
+            "hash" = "sha512-3xTMGA4Ny3RkdUx+H7UOksFvckQbjXxIndmeK81KNfnAaXpkfJM7fdnOiqWKI7hz7ga0x9dEuvc52M8hPRfWFg==";
+        };
     in {
         "yKcWPDd8" = _yKcWPDd8;
         "k4PQX1tU" = _k4PQX1tU;
@@ -272,18 +282,20 @@ let
         "86BhaEoU" = _86BhaEoU;
         "dKoIZ25b" = _dKoIZ25b;
         "56d8U9Qs" = _56d8U9Qs;
+        "alFVN0nm" = _alFVN0nm;
+        "qCUfo3ay" = _qCUfo3ay;
         "fabric-1.19.2" = _QGqS9qnS;
         "fabric-1.20" = _86BhaEoU;
-        "fabric-1.20.1" = _56d8U9Qs;
-        "fabric-1.20.2" = _56d8U9Qs;
-        "fabric-1.20.3" = _56d8U9Qs;
-        "fabric-1.20.4" = _56d8U9Qs;
+        "fabric-1.20.1" = _alFVN0nm;
+        "fabric-1.20.2" = _alFVN0nm;
+        "fabric-1.20.3" = _alFVN0nm;
+        "fabric-1.20.4" = _alFVN0nm;
         "fabric-1.19.3" = _QGqS9qnS;
         "fabric-1.19.4" = _QGqS9qnS;
-        "forge-1.20.1" = _fdao305y;
-        "forge-1.20.2" = _fdao305y;
-        "forge-1.20.3" = _fdao305y;
-        "forge-1.20.4" = _fdao305y;
+        "forge-1.20.1" = _qCUfo3ay;
+        "forge-1.20.2" = _qCUfo3ay;
+        "forge-1.20.3" = _qCUfo3ay;
+        "forge-1.20.4" = _qCUfo3ay;
         "pkg-1.7" = _k4PQX1tU;
         "pkg-1.8" = _ZkRlfTXj;
         "pkg-1.9" = _m9IVpXCg;
@@ -325,7 +337,8 @@ let
         "pkg-3.4.1-1.20" = _86BhaEoU;
         "pkg-3.4.1.1-1.20" = _dKoIZ25b;
         "pkg-3.5-1.20.1" = _56d8U9Qs;
-        "default" = _56d8U9Qs;
+        "pkg-3.5.1-1.20.1" = _qCUfo3ay;
+        "default" = _qCUfo3ay;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "believe-mod";

@@ -651,6 +651,21 @@ let
             "file" = "compressedblocks-fabric-3.1.0-1.21.11.jar";
             "hash" = "sha512-aHiaUx3b0LZVNL6to5lfPhDEdupAL4PKVbyJUebAHDBielQAVMkDn1d19Ho6mE724UdrYUb6B8/b2/b+nT6BDA==";
         };
+        _6GPPDC7m = {
+            "id" = "6GPPDC7m";
+            "file" = "Compressed Blocks-forge-26.3-3.1.0-26.3.jar";
+            "hash" = "sha512-GCemTbHWMit7a1a0tK3pitV+6yCNHTt9U6VMlOXeXBJky0bKHDei04sGACC+6U6NrctIrRO5Rg79oI+zMewcag==";
+        };
+        _leeAylmj = {
+            "id" = "leeAylmj";
+            "file" = "compressedblocks-neoforge-3.1.0-26.3.jar";
+            "hash" = "sha512-JEZHIcYv6W/nHKWcfTvv1zWqUvPFfifRtvht+8vI5XcEbkFW34TFp4hCK0rIToa5wy+5st0qm7ACtf54yk6/BQ==";
+        };
+        _zRbpPqHX = {
+            "id" = "zRbpPqHX";
+            "file" = "compressedblocks-fabric-3.1.0-26.3.jar";
+            "hash" = "sha512-X8M7bTwgZTv9KK5kbl8wqflJyTGRPQtBEdxSl86EEpRAqdqVmIekCBLO5Bqn1kqCZGJ3LkIl3QzGvrMTlTgw4w==";
+        };
     in {
         "FmxeWEXi" = _FmxeWEXi;
         "qNGb3yA9" = _qNGb3yA9;
@@ -782,6 +797,9 @@ let
         "bHh7om8d" = _bHh7om8d;
         "lKPTWqiD" = _lKPTWqiD;
         "39lXjhM1" = _39lXjhM1;
+        "6GPPDC7m" = _6GPPDC7m;
+        "leeAylmj" = _leeAylmj;
+        "zRbpPqHX" = _zRbpPqHX;
         "forge-1.19.2" = _h3n1hE0d;
         "forge-1.19.3" = _5IIsyKT5;
         "forge-1.19.4" = _5IIsyKT5;
@@ -806,6 +824,11 @@ let
         "forge-1.21.5" = _2gijlHnB;
         "forge-1.21.3" = _NdMIAA4z;
         "forge-1.21.11" = _bHh7om8d;
+        "forge-26.1" = _6GPPDC7m;
+        "forge-26.1.1" = _6GPPDC7m;
+        "forge-26.1.2" = _6GPPDC7m;
+        "forge-26.2" = _6GPPDC7m;
+        "forge-26.3" = _6GPPDC7m;
         "fabric-1.20.1" = _bz233eUG;
         "fabric-1.20" = _pvmicsi2;
         "fabric-1.19.3" = _s23BwNDj;
@@ -835,6 +858,11 @@ let
         "fabric-1.21.8" = _OQuUhVoI;
         "fabric-1.21.9" = _OQuUhVoI;
         "fabric-1.21.10" = _OQuUhVoI;
+        "fabric-26.1" = _zRbpPqHX;
+        "fabric-26.1.1" = _zRbpPqHX;
+        "fabric-26.1.2" = _zRbpPqHX;
+        "fabric-26.2" = _zRbpPqHX;
+        "fabric-26.3" = _zRbpPqHX;
         "neoforge-1.20" = _9ZkEugK9;
         "neoforge-1.20.1" = _9ZkEugK9;
         "neoforge-1.20.2" = _LwMqCK2t;
@@ -852,6 +880,11 @@ let
         "neoforge-1.21.8" = _lQQl67Qe;
         "neoforge-1.21.9" = _lQQl67Qe;
         "neoforge-1.21.10" = _lQQl67Qe;
+        "neoforge-26.1" = _leeAylmj;
+        "neoforge-26.1.1" = _leeAylmj;
+        "neoforge-26.1.2" = _leeAylmj;
+        "neoforge-26.2" = _leeAylmj;
+        "neoforge-26.3" = _leeAylmj;
         "pkg-1.1.1" = _FmxeWEXi;
         "pkg-1.1.2" = _qNGb3yA9;
         "pkg-1.2.0" = _mr2VrFRf;
@@ -904,7 +937,8 @@ let
         "pkg-3.0.0-1.20.2" = _4MsQMBbb;
         "pkg-3.0.0-1.20.1" = _bz233eUG;
         "pkg-3.1.0-1.21.11" = _39lXjhM1;
-        "default" = _39lXjhM1;
+        "pkg-3.1.0-26.3" = _zRbpPqHX;
+        "default" = _zRbpPqHX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cb-compressed-blocks";

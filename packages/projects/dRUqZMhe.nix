@@ -51,6 +51,11 @@ let
             "file" = "hackermenu_rewritten-5.0.jar";
             "hash" = "sha512-0d7ogIsb9PUUQTmTxBRhfEBhaBOUdPYlTyn7BTKhrpNJU2bwDKGyNLjW2dNPaiD1WI/FeGORwHiVxaEJTtdrxQ==";
         };
+        _BE6gkIif = {
+            "id" = "BE6gkIif";
+            "file" = "hackermenu_rewritten_fabric_1211-5.0.jar";
+            "hash" = "sha512-29Gstf+fwFpTIAb3zSQc3zpREZeHd0w5a0AIJEqk22+HHdz0vujx0x9q5nLsNrDvKUYwltmeVIGCdMrdnivCLw==";
+        };
     in {
         "HS715s4D" = _HS715s4D;
         "bpUBG1bg" = _bpUBG1bg;
@@ -62,6 +67,7 @@ let
         "HzXfe7xu" = _HzXfe7xu;
         "mcotUiPB" = _mcotUiPB;
         "1Zt6rLKd" = _1Zt6rLKd;
+        "BE6gkIif" = _BE6gkIif;
         "neoforge-1.21" = _HS715s4D;
         "neoforge-1.21.1" = _HS715s4D;
         "neoforge-26.3" = _1Zt6rLKd;
@@ -77,12 +83,13 @@ let
         "fabric-1.19.4" = _k8fWqxSk;
         "fabric-1.16.5" = _HzXfe7xu;
         "fabric-26.3" = _mcotUiPB;
+        "fabric-1.21.1" = _BE6gkIif;
         "pkg-4.0" = _MiQ7ua3A;
         "pkg-3.0" = _wXSqJ3mR;
         "pkg-3.1" = _k8fWqxSk;
         "pkg-1.0" = _HzXfe7xu;
-        "pkg-5.0" = _1Zt6rLKd;
-        "default" = _1Zt6rLKd;
+        "pkg-5.0" = _BE6gkIif;
+        "default" = _BE6gkIif;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hacker-menu";

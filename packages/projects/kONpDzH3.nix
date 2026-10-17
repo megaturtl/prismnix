@@ -191,6 +191,96 @@ let
             "file" = "handycam-2.0.1-beta+1.21.1-fabric.jar";
             "hash" = "sha512-yUQMYcDeWIfDy62qc441aPfeP8ja7Mtt32qRfmMLyJLLy2U/FfGVHv+CFy4Y1R9wGkvSfsEXQBCiJnUUOvhm+A==";
         };
+        _zYxUQ8AW = {
+            "id" = "zYxUQ8AW";
+            "file" = "handycam-2.1.0-beta+1.20.1-fabric.jar";
+            "hash" = "sha512-N8qA9N+CHSsssAWPW4n4v/7m5Cbe+33uJHb9UkHLQ14w1U0WXXFP+ruiX3wiVKy7F6fAl6UbzNCkbc7HGIW2gg==";
+        };
+        _XXySKj4v = {
+            "id" = "XXySKj4v";
+            "file" = "handycam-2.1.0-beta+1.21.1-fabric.jar";
+            "hash" = "sha512-ZmvdlxSzIdDleq2u2g9yga4XUavl5K/Vyknp8yVZ+vZC+g0Eag0RbIsqm6zuGTIUiz7foB7S17NGiPnhNnlJpw==";
+        };
+        _e41sZfWS = {
+            "id" = "e41sZfWS";
+            "file" = "handycam-2.1.0-beta+1.20.1-forge.jar";
+            "hash" = "sha512-EVCPhj6bpdJCL/yryALCg7AobnFOE+silUMs1WNohyVa/5BuTDYunxU1He/BIArFZDlQHhsGhWIYC8HfoAVwpA==";
+        };
+        _XAQ38Mqt = {
+            "id" = "XAQ38Mqt";
+            "file" = "handycam-2.1.0-beta+1.21.1-neoforge.jar";
+            "hash" = "sha512-bkbmiX7w+/SgSPCw7ZtZsPU/RXuBliHeQgJtHp7EW15mMS9rJqvWDqjKCHDuiEOwLp3SJsjlYE4PHKnTTylykg==";
+        };
+        _lx7fS5KX = {
+            "id" = "lx7fS5KX";
+            "file" = "handycam-2.1.0-beta+1.21.10-fabric.jar";
+            "hash" = "sha512-BsFJ9r5+6EInTWpsnWsKpoZ9jxBSwTzXQG5TMJZ495eRTk4VAVaaBxYpG9l3HJ1y2jtT6E4atDbFLm6S5yervQ==";
+        };
+        _8fcKetOQ = {
+            "id" = "8fcKetOQ";
+            "file" = "handycam-2.1.0-beta+1.21.10-neoforge.jar";
+            "hash" = "sha512-nf1vm3+u+2PN69Pugzwizi1tqrnZ7gZzv9nDzHpeGBvS8sJE6rw4WJTGi3GJQrNBeukpa2XBYau6Z5y7rul39Q==";
+        };
+        _zpmDfqUV = {
+            "id" = "zpmDfqUV";
+            "file" = "handycam-2.1.0-beta+1.21.11-fabric.jar";
+            "hash" = "sha512-NFAyoS98fcJ0Gv96W1RbYlQ2Arowk3USF6ZJ7MXcEWi77Kzcpl+8QNYknM5y8AGlbvpG3wDELjAyoHaZPSKLBA==";
+        };
+        _czM8Xrgv = {
+            "id" = "czM8Xrgv";
+            "file" = "handycam-2.1.0-beta+1.21.11-neoforge.jar";
+            "hash" = "sha512-W5DvHSXsHI8vPBWC+QRaQvPeReNm3hFGKrGrIEUN2wBy589vzwucjgnkL60iC+5oRGVfOvgDfyKmTIu7Jpsmpg==";
+        };
+        _SfrZQDrN = {
+            "id" = "SfrZQDrN";
+            "file" = "handycam-2.1.0-beta+1.21.4-neoforge.jar";
+            "hash" = "sha512-HuVlk4quthtf4oUQsQu7WjoIQSBuCPjLRdZRspZh6YSwDD2kx26URDCvRCKPiGHXN6jeQhLr/2SQREzNSeVLDw==";
+        };
+        _3FZTaSWL = {
+            "id" = "3FZTaSWL";
+            "file" = "handycam-2.1.0-beta+1.21.4-fabric.jar";
+            "hash" = "sha512-MQ4C0XNZDOgPx18BJgb/oq9fNoP4v5LeRZk8hD/3aUjMm5tMxJBJh+4wlbyFdFyuqZ/owT7rxwsLRiwW6aKqEQ==";
+        };
+        _AnIFQhjc = {
+            "id" = "AnIFQhjc";
+            "file" = "handycam-2.1.0-beta+26.1-neoforge.jar";
+            "hash" = "sha512-uQbaObknlzGmId7NFWUpAbvBy5vudAN+gO0b9Oesaygf3uKhlXN6dvux3HdCu2u/Q17LAjERgI8oq0JLXdKzrg==";
+        };
+        _bqWP9rjT = {
+            "id" = "bqWP9rjT";
+            "file" = "handycam-2.1.0-beta+26.1-fabric.jar";
+            "hash" = "sha512-acXrRAy9kpVdw8InjPS3WWzG7Gy4oypkECNXT+2PXdmZqc7Q8fpKYgoymkKDG1JM/x/Z0KnixBvu6J4wq42eJg==";
+        };
+        _QKsuQu9k = {
+            "id" = "QKsuQu9k";
+            "file" = "handycam-2.1.0-beta+26.1.2-fabric.jar";
+            "hash" = "sha512-7dezqEc1nen52MqQSfdx1LUcZeZ8xOdz2KR55N9FojQeiUuxiISx6kM7+Pc6GYImbha9cCegnxVy2PqEEHpWkQ==";
+        };
+        _TDq7FFSp = {
+            "id" = "TDq7FFSp";
+            "file" = "handycam-2.1.0-beta+26.1.2-neoforge.jar";
+            "hash" = "sha512-s4IicDU13065cf+uvuAy3vdsGJLcG3/LbjZ7e22TveDPmO9bYZtpDPiKDPPAfma3dyxfsKGgkFl20wVu+FsXHA==";
+        };
+        _8Ue8gusD = {
+            "id" = "8Ue8gusD";
+            "file" = "handycam-2.1.0-beta+26.2-fabric.jar";
+            "hash" = "sha512-zerohbhPWysRO8CcdYadByKZ1uEto8349t4eABn06mUHcef7x4K5lZoVD8vhlBuGoEdIrl7o5CeVMLPpuntLrQ==";
+        };
+        _JpMgugKv = {
+            "id" = "JpMgugKv";
+            "file" = "handycam-2.1.0-beta+26.2-neoforge.jar";
+            "hash" = "sha512-uEWD7dofAayjQfNsyOchvtjqaHMQ7eY4vEqOZBfVgeGf9INxRG6NPsj+2aYj9ledsZnjj0j23Jq/8yhzxr4DbA==";
+        };
+        _eM9ilaMs = {
+            "id" = "eM9ilaMs";
+            "file" = "handycam-2.1.0-beta+26.3-fabric.jar";
+            "hash" = "sha512-qu5nnpP2dROk+eY+irTGemzm6fYrcBDRN4cS8vju0BTuRiYxOeISTonENVfwR3AC1r8z2BZUejQfLn0xTHHicA==";
+        };
+        _lrNkCyHi = {
+            "id" = "lrNkCyHi";
+            "file" = "handycam-2.1.0-beta+26.3-neoforge.jar";
+            "hash" = "sha512-NpLlmWrBmN+gXpEcgiUh1V5aOOoELnKJZYYSW7jiYHJXKEpFKAXa0XtVu3Xo8xObUUab7qzv380oTY7CHLWRSw==";
+        };
     in {
         "DbCKW0vT" = _DbCKW0vT;
         "HbSCbgpr" = _HbSCbgpr;
@@ -230,20 +320,42 @@ let
         "C7XGxqWT" = _C7XGxqWT;
         "mdydX1Hs" = _mdydX1Hs;
         "5WFclLbb" = _5WFclLbb;
-        "fabric-1.21.4" = _qVwKvZl0;
-        "fabric-1.21.11" = _d137nyh6;
-        "fabric-1.21.1" = _5WFclLbb;
-        "fabric-1.20.1" = _svbtlGhO;
-        "fabric-26.1" = _Uqi4jY5u;
-        "fabric-26.2" = _zuZK0Io7;
-        "fabric-1.21.10" = _5pc7ekZ3;
-        "neoforge-1.21.4" = _iGSusn6m;
-        "neoforge-1.21.11" = _hW1ACxB4;
-        "neoforge-1.21.1" = _mdydX1Hs;
-        "neoforge-26.1" = _cwG7xUFg;
-        "neoforge-26.2" = _JAKNZO2E;
-        "neoforge-1.21.10" = _lpm6tae8;
-        "forge-1.20.1" = _GJCXbPoQ;
+        "zYxUQ8AW" = _zYxUQ8AW;
+        "XXySKj4v" = _XXySKj4v;
+        "e41sZfWS" = _e41sZfWS;
+        "XAQ38Mqt" = _XAQ38Mqt;
+        "lx7fS5KX" = _lx7fS5KX;
+        "8fcKetOQ" = _8fcKetOQ;
+        "zpmDfqUV" = _zpmDfqUV;
+        "czM8Xrgv" = _czM8Xrgv;
+        "SfrZQDrN" = _SfrZQDrN;
+        "3FZTaSWL" = _3FZTaSWL;
+        "AnIFQhjc" = _AnIFQhjc;
+        "bqWP9rjT" = _bqWP9rjT;
+        "QKsuQu9k" = _QKsuQu9k;
+        "TDq7FFSp" = _TDq7FFSp;
+        "8Ue8gusD" = _8Ue8gusD;
+        "JpMgugKv" = _JpMgugKv;
+        "eM9ilaMs" = _eM9ilaMs;
+        "lrNkCyHi" = _lrNkCyHi;
+        "fabric-1.21.4" = _3FZTaSWL;
+        "fabric-1.21.11" = _zpmDfqUV;
+        "fabric-1.21.1" = _XXySKj4v;
+        "fabric-1.20.1" = _zYxUQ8AW;
+        "fabric-26.1" = _bqWP9rjT;
+        "fabric-26.2" = _8Ue8gusD;
+        "fabric-1.21.10" = _lx7fS5KX;
+        "fabric-26.1.2" = _QKsuQu9k;
+        "fabric-26.3" = _eM9ilaMs;
+        "neoforge-1.21.4" = _SfrZQDrN;
+        "neoforge-1.21.11" = _czM8Xrgv;
+        "neoforge-1.21.1" = _XAQ38Mqt;
+        "neoforge-26.1" = _AnIFQhjc;
+        "neoforge-26.2" = _JpMgugKv;
+        "neoforge-1.21.10" = _8fcKetOQ;
+        "neoforge-26.1.2" = _TDq7FFSp;
+        "neoforge-26.3" = _lrNkCyHi;
+        "forge-1.20.1" = _e41sZfWS;
         "pkg-1.0.0+1.21.4" = _HbSCbgpr;
         "pkg-1.1.0+1.21.4" = _RazjD2U3;
         "pkg-1.1.1+1.21.4" = _x3vr7HoS;
@@ -263,7 +375,16 @@ let
         "pkg-1.3.2+1.21.10" = _lpm6tae8;
         "pkg-2.0.0+1.21.1" = _C7XGxqWT;
         "pkg-2.0.1+1.21.1" = _5WFclLbb;
-        "default" = _5WFclLbb;
+        "pkg-2.1.0+1.20.1" = _e41sZfWS;
+        "pkg-2.1.0+1.21.1" = _XAQ38Mqt;
+        "pkg-2.1.0+1.21.10" = _8fcKetOQ;
+        "pkg-2.1.0+1.21.11" = _czM8Xrgv;
+        "pkg-2.1.0+1.21.4" = _3FZTaSWL;
+        "pkg-2.1.0+26.1" = _bqWP9rjT;
+        "pkg-2.1.0+26.1.2" = _TDq7FFSp;
+        "pkg-2.1.0+26.2" = _JpMgugKv;
+        "pkg-2.1.0+26.3" = _lrNkCyHi;
+        "default" = _lrNkCyHi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "handycam";

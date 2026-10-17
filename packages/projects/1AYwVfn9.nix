@@ -111,6 +111,16 @@ let
             "file" = "cobblemon-move-tutor-fabric-1.5.3.jar";
             "hash" = "sha512-d36/AM9glVXl/3L8nsYdZVcVKr4iquWqWcpIpgU6HVuf0hbEPnYfVILydMCq6EDGXKq+nJTlFyh/7M1w54UnWg==";
         };
+        _BdDv2gPS = {
+            "id" = "BdDv2gPS";
+            "file" = "cobblemon-move-tutor-fabric-1.6.0.jar";
+            "hash" = "sha512-2nj1fZBupJJmR5SWnw3sgZ4fPCC9fHjep3TWW8jQHda4XR2tky5vWfVtIVUHyNhtc9B6k1Yxr8OtKSVPk7RQNw==";
+        };
+        _7ONWhkzZ = {
+            "id" = "7ONWhkzZ";
+            "file" = "cobblemon-move-tutor-neoforge-1.6.0.jar";
+            "hash" = "sha512-3hKs+qzZjcFL6ZpdNYi0Wel026zJMou8zpuFgAkrEcJ8AsR1ozUW+j8cQ1PuZX6E6zkqs8mvtIP0wPCnL3GBQQ==";
+        };
     in {
         "sRGiraaF" = _sRGiraaF;
         "ACMgKmtN" = _ACMgKmtN;
@@ -134,8 +144,10 @@ let
         "eAP4OWVr" = _eAP4OWVr;
         "rVQhTWyk" = _rVQhTWyk;
         "4Qesv5OL" = _4Qesv5OL;
-        "fabric-1.21.1" = _4Qesv5OL;
-        "neoforge-1.21.1" = _rVQhTWyk;
+        "BdDv2gPS" = _BdDv2gPS;
+        "7ONWhkzZ" = _7ONWhkzZ;
+        "fabric-1.21.1" = _BdDv2gPS;
+        "neoforge-1.21.1" = _7ONWhkzZ;
         "pkg-1.0.0" = _ACMgKmtN;
         "pkg-1.0.1" = _azHYj5QQ;
         "pkg-1.1.0" = _562VMkXy;
@@ -147,7 +159,8 @@ let
         "pkg-1.5.1" = _GGe1Wa6B;
         "pkg-1.5.2" = _eAP4OWVr;
         "pkg-1.5.3" = _4Qesv5OL;
-        "default" = _4Qesv5OL;
+        "pkg-1.6.0" = _7ONWhkzZ;
+        "default" = _7ONWhkzZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-move-tutor";

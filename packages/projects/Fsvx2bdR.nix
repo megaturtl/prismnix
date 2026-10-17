@@ -866,6 +866,26 @@ let
             "file" = "ParCool-1.20.1-4.0.1.4.jar";
             "hash" = "sha512-z3PuGBKPZBFTp0sVTwwDfhV1jMmi12h7xsSjmVVnIuVlNYbp9Wrgk6GDCwIMmX6LrxAc+rfIgHYCQ0BCT3WVgw==";
         };
+        _qJxaTqsX = {
+            "id" = "qJxaTqsX";
+            "file" = "ParCool-1.19.2-4.0.1.5.jar";
+            "hash" = "sha512-Iq6oOg9fKG3mWjTDARVb1jDD+FqAqLo7j2Jl68W2dmD4wj7UpnOOzg3yEc5mCW1VCpE40g257Z87UMX9sWc7ZA==";
+        };
+        _oDzhBzEH = {
+            "id" = "oDzhBzEH";
+            "file" = "ParCool-1.20.1-4.0.1.5.jar";
+            "hash" = "sha512-NX1TD+URExrfYn1rAPuyw7lEYFzdPMUaR6H5qfQGak/Cl/CCnVPW2n+wb2XFFm9hlBHEvdJpulBBTT3zEQfrZQ==";
+        };
+        _XRYWcxs9 = {
+            "id" = "XRYWcxs9";
+            "file" = "ParCool-1.21.1-4.0.1.5.jar";
+            "hash" = "sha512-pluAczFVhiGD1hZhJEr09xNu2tpzL5Q/3Ies6VzbW3fQQL5laRjmBRoxtLrhKP7Ozkx5fAzpxYwq11ZLls8A3w==";
+        };
+        _EGZXUNjA = {
+            "id" = "EGZXUNjA";
+            "file" = "ParCool-1.21.1-4.0.1.6.jar";
+            "hash" = "sha512-KXo9hhqIicHdY8kdqmiCVwDbj5vGxJCoBLYQgOkd8zpSNwVnxeKx/B0srSGCjxCSwANrpax8TSVlQkR/Yp4FAQ==";
+        };
     in {
         "XJhVvPgr" = _XJhVvPgr;
         "j9xdl4ug" = _j9xdl4ug;
@@ -1040,12 +1060,16 @@ let
         "rVxTrE7r" = _rVxTrE7r;
         "KfCVtsIF" = _KfCVtsIF;
         "6yV2P1Ne" = _6yV2P1Ne;
+        "qJxaTqsX" = _qJxaTqsX;
+        "oDzhBzEH" = _oDzhBzEH;
+        "XRYWcxs9" = _XRYWcxs9;
+        "EGZXUNjA" = _EGZXUNjA;
         "forge-1.20.2" = _HZLGU7hG;
-        "forge-1.20.1" = _6yV2P1Ne;
+        "forge-1.20.1" = _oDzhBzEH;
         "forge-1.20" = _HZLGU7hG;
         "forge-1.19.4" = _pkfxtglR;
         "forge-1.19.3" = _CcD0YkiH;
-        "forge-1.19.2" = _KfCVtsIF;
+        "forge-1.19.2" = _qJxaTqsX;
         "forge-1.18.2" = _q73v6sLx;
         "forge-1.16.5" = _gNCD0aIN;
         "forge-1.20.3" = _HZLGU7hG;
@@ -1053,7 +1077,7 @@ let
         "forge-1.20.5" = _HZLGU7hG;
         "forge-1.20.6" = _HZLGU7hG;
         "neoforge-1.21" = _2U2hDH8v;
-        "neoforge-1.21.1" = _rVxTrE7r;
+        "neoforge-1.21.1" = _EGZXUNjA;
         "neoforge-1.21.3" = _DpAOx4HU;
         "neoforge-1.21.4" = _wwqfMVm1;
         "neoforge-1.21.8" = _9sTw2Dnd;
@@ -1229,7 +1253,11 @@ let
         "pkg-1.21.1-4.0.1.2" = _rVxTrE7r;
         "pkg-1.19.2-4.0.1.3" = _KfCVtsIF;
         "pkg-1.20.1-4.0.1.4" = _6yV2P1Ne;
-        "default" = _6yV2P1Ne;
+        "pkg-1.19.2-4.0.1.5" = _qJxaTqsX;
+        "pkg-1.20.1-4.0.1.5" = _oDzhBzEH;
+        "pkg-1.21.1-4.0.1.5" = _XRYWcxs9;
+        "pkg-1.21.1-4.0.1.6" = _EGZXUNjA;
+        "default" = _EGZXUNjA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "parcool";

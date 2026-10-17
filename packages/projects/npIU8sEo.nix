@@ -56,6 +56,26 @@ let
             "file" = "emf_compat_takeaseat_fabric_26.2_2.0.0.jar";
             "hash" = "sha512-KM7DfrmNOlVhr+WrpOma/Pj2pDF7OyvhrFdfjZXH9K0wyCDucK/KbOfABMqOHqq3v0Pe1s8ShcB18Biq3kanag==";
         };
+        _T2PYkr3K = {
+            "id" = "T2PYkr3K";
+            "file" = "emf_compat_takeaseat_neoforge_1.21.1_2.0.1.jar";
+            "hash" = "sha512-8jQYS1KtrytVbML1Fcme570c4U60CqY2RPtS+URRiv9QR298r8wNjXFRrzQGWzWgFAHXC3Qyk1ls+5LZ5iWeuw==";
+        };
+        _z2l0QmF6 = {
+            "id" = "z2l0QmF6";
+            "file" = "emf_compat_takeaseat_fabric_1.21.11_2.0.1.jar";
+            "hash" = "sha512-M4pb28YvsSp5hmoGdbuZJ6itIAB88r/QnyqlkMf9YmahkdYWrdsSXPh79IbRpMhFImLbcqNTNWPsc9242lexbw==";
+        };
+        _ovXdskLa = {
+            "id" = "ovXdskLa";
+            "file" = "emf_compat_takeaseat_fabric_26.1.2_2.0.1.jar";
+            "hash" = "sha512-AhEEPNBUtUWGLV1fsiY9z+d4wfb+SCxoUgSPrv0DhgkNl74VCU8vDP+VOGYN42xuTl6uuTwG68Bf/FDXIPUwKQ==";
+        };
+        _V7dt9G5y = {
+            "id" = "V7dt9G5y";
+            "file" = "emf_compat_takeaseat_fabric_26.2_2.0.1.jar";
+            "hash" = "sha512-L+LSSd9zdbIgkWWLGA2AbvoQV5ayyhTnqsmzlOfYgCpwKGjiO3TSJ6f0mSIJ7J8FwcfcbcpupPXWhpnFCqEkEg==";
+        };
     in {
         "adSYcXhb" = _adSYcXhb;
         "g25LiESc" = _g25LiESc;
@@ -68,15 +88,20 @@ let
         "zMM9C5li" = _zMM9C5li;
         "HSsGPQbc" = _HSsGPQbc;
         "Pq6OHcRV" = _Pq6OHcRV;
+        "T2PYkr3K" = _T2PYkr3K;
+        "z2l0QmF6" = _z2l0QmF6;
+        "ovXdskLa" = _ovXdskLa;
+        "V7dt9G5y" = _V7dt9G5y;
         "forge-1.20.1" = _z2jQW4u2;
-        "neoforge-1.21.1" = _rmSTlNBS;
-        "fabric-1.21.11" = _zMM9C5li;
-        "fabric-26.1.2" = _HSsGPQbc;
-        "fabric-26.2" = _Pq6OHcRV;
+        "neoforge-1.21.1" = _T2PYkr3K;
+        "fabric-1.21.11" = _z2l0QmF6;
+        "fabric-26.1.2" = _ovXdskLa;
+        "fabric-26.2" = _V7dt9G5y;
         "pkg-1.0.0" = _SPJVG0dc;
         "pkg-1.0.1" = _9eIacc6F;
         "pkg-2.0.0" = _Pq6OHcRV;
-        "default" = _Pq6OHcRV;
+        "pkg-2.0.1" = _V7dt9G5y;
+        "default" = _V7dt9G5y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "emf-compat-take-a-seat";

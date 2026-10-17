@@ -26,19 +26,26 @@ let
             "file" = "DexRewards-2.0.jar";
             "hash" = "sha512-o3/YoRLr3DSE8SOQjeDeN6DIiS7fBZRcYgq7OGOzaCBfN/83honvqeLOecpXGkZC+MMKkxQtfpKgjQ9gllvo9g==";
         };
+        _lAY4vnX1 = {
+            "id" = "lAY4vnX1";
+            "file" = "DexRewards-3.2.0-1.8.0.jar";
+            "hash" = "sha512-UkgfEVmS05zU+vnoLBi7h31HUQ2QeGLByjl65Wk0I6Wq4X5b9RrIE5DdM+WR6X6CfrydQseZP++hhsypQqhxOQ==";
+        };
     in {
         "cH9el8cV" = _cH9el8cV;
         "cTRQwEXx" = _cTRQwEXx;
         "LBKSlq0s" = _LBKSlq0s;
         "ejv7MXd3" = _ejv7MXd3;
         "cItJnWnF" = _cItJnWnF;
-        "fabric-1.21.1" = _cItJnWnF;
+        "lAY4vnX1" = _lAY4vnX1;
+        "fabric-1.21.1" = _lAY4vnX1;
         "pkg-1.1" = _cH9el8cV;
         "pkg-1.2" = _cTRQwEXx;
         "pkg-1.3" = _LBKSlq0s;
         "pkg-1.4" = _ejv7MXd3;
         "pkg-2.0" = _cItJnWnF;
-        "default" = _cItJnWnF;
+        "pkg-3.2.0-1.8.0" = _lAY4vnX1;
+        "default" = _lAY4vnX1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dex-rewards";

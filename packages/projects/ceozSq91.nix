@@ -91,6 +91,21 @@ let
             "file" = "Wynn 2.2 - No Spiders.zip";
             "hash" = "sha512-k9Wxu8D/MEPQjwS/l5iSBzrM/Az0fMir6bTbw79EDlACBqYOKQgfDy0uLryrUXLVQpM4Tjt/bhnG7l0Crx8MZA==";
         };
+        _7zwy6dx9 = {
+            "id" = "7zwy6dx9";
+            "file" = "Wynn 2.2.5 - Funny Spider Faces.zip";
+            "hash" = "sha512-RsXct4olzbeRJy8ATxnOVpSk95yWeDxjPhSJgkUSqJt5OdbukLdKEyvU/ATgYgNh2oJCqge+HMPiFlVJRwP3ZQ==";
+        };
+        _ehybtu25 = {
+            "id" = "ehybtu25";
+            "file" = "Wynn 2.2.5 - No Spider Legs.zip";
+            "hash" = "sha512-J619No7hJf48G045rlMp0C+qbKKLpAqv/Jburdiu+AK0S3tmvt12QPAE7GeZHOUa/3QcklwJ7EurE1dhfyNDeA==";
+        };
+        _xV8Rvxnv = {
+            "id" = "xV8Rvxnv";
+            "file" = "Wynn 2.2.5 - No Spiders.zip";
+            "hash" = "sha512-h8fxm9v4JyONpsmVOMzmCfeTLIqptz6noIodRFwUGaWJB+1MP1z/A29M9h3Bj8911Nnh1W8cfVMW9EeheiG3Ng==";
+        };
     in {
         "RMlSYNnc" = _RMlSYNnc;
         "Ip9bRctl" = _Ip9bRctl;
@@ -110,6 +125,9 @@ let
         "uQNInczs" = _uQNInczs;
         "tX6BUcSU" = _tX6BUcSU;
         "oJDKbA4o" = _oJDKbA4o;
+        "7zwy6dx9" = _7zwy6dx9;
+        "ehybtu25" = _ehybtu25;
+        "xV8Rvxnv" = _xV8Rvxnv;
         "minecraft-1.20.2" = _XfDE3nLQ;
         "minecraft-1.20.3" = _XfDE3nLQ;
         "minecraft-1.20.4" = _XfDE3nLQ;
@@ -119,22 +137,27 @@ let
         "minecraft-1.21.1" = _XfDE3nLQ;
         "minecraft-1.21.2" = _XfDE3nLQ;
         "minecraft-1.21.3" = _XfDE3nLQ;
-        "minecraft-1.21.4" = _oJDKbA4o;
-        "minecraft-1.21.5" = _oJDKbA4o;
-        "minecraft-1.21.6" = _oJDKbA4o;
-        "minecraft-1.21.7" = _oJDKbA4o;
-        "minecraft-1.21.8" = _oJDKbA4o;
-        "minecraft-1.21.9" = _oJDKbA4o;
-        "minecraft-1.21.10" = _oJDKbA4o;
-        "minecraft-1.21.11" = _oJDKbA4o;
-        "minecraft-26.1" = _oJDKbA4o;
+        "minecraft-1.21.4" = _xV8Rvxnv;
+        "minecraft-1.21.5" = _xV8Rvxnv;
+        "minecraft-1.21.6" = _xV8Rvxnv;
+        "minecraft-1.21.7" = _xV8Rvxnv;
+        "minecraft-1.21.8" = _xV8Rvxnv;
+        "minecraft-1.21.9" = _xV8Rvxnv;
+        "minecraft-1.21.10" = _xV8Rvxnv;
+        "minecraft-1.21.11" = _xV8Rvxnv;
+        "minecraft-26.1" = _xV8Rvxnv;
+        "minecraft-26.1.1" = _xV8Rvxnv;
+        "minecraft-26.1.2" = _xV8Rvxnv;
+        "minecraft-26.2" = _xV8Rvxnv;
+        "minecraft-26.3" = _xV8Rvxnv;
         "pkg-1.1" = _hHVGTu5n;
         "pkg-1.2" = _P1qNkVf5;
         "pkg-1.3" = _ehrHX3GU;
         "pkg-1.4" = _XfDE3nLQ;
         "pkg-1.5" = _bgui5ixq;
         "pkg-1.6" = _oJDKbA4o;
-        "default" = _oJDKbA4o;
+        "pkg-1.7" = _xV8Rvxnv;
+        "default" = _xV8Rvxnv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wynn-arachnophobia";

@@ -41,6 +41,11 @@ let
             "file" = "XaeroHeadTracker-1.0.0-neoforge-1.21.1.jar";
             "hash" = "sha512-YpvYKzpIfFXy2TjcUs+WOfb0FbyMYU6+Y+Ek5oLMSf0EwddDAR4XX9yed5eUol6AITAe50lp4ZMZOijMI+9cNQ==";
         };
+        _kB4dVGcc = {
+            "id" = "kB4dVGcc";
+            "file" = "XaeroHeadTracker-1.0.0-fabric-26.3.jar";
+            "hash" = "sha512-t0ewgV7EdwKS4QvD71/aWBGqb6yEAAG5Qd1AJC4Z8fDX7SWbPmpkpM3fvRXeQASUp/Ec29WuJkVVxXePzNJHjg==";
+        };
     in {
         "tTj6xisy" = _tTj6xisy;
         "3atAwocp" = _3atAwocp;
@@ -50,6 +55,7 @@ let
         "dKt09RAP" = _dKt09RAP;
         "yT1cvyRr" = _yT1cvyRr;
         "hl7XgzVg" = _hl7XgzVg;
+        "kB4dVGcc" = _kB4dVGcc;
         "fabric-26.2" = _tTj6xisy;
         "fabric-1.21.1" = _3atAwocp;
         "fabric-26.1.2" = _TSMuZAEv;
@@ -57,10 +63,11 @@ let
         "fabric-26.1" = _TSMuZAEv;
         "fabric-26.1.1" = _TSMuZAEv;
         "fabric-1.21.11" = _yT1cvyRr;
+        "fabric-26.3" = _kB4dVGcc;
         "neoforge-26.2" = _dKt09RAP;
         "neoforge-1.21.1" = _hl7XgzVg;
-        "pkg-1.0.0" = _hl7XgzVg;
-        "default" = _hl7XgzVg;
+        "pkg-1.0.0" = _kB4dVGcc;
+        "default" = _kB4dVGcc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "xaero-head-tracker";

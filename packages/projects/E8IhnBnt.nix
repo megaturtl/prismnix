@@ -46,6 +46,16 @@ let
             "file" = "timechanger-26.3-v1.0.jar";
             "hash" = "sha512-yjLiUaFPhGM4I5XJF8Judo4QflFVgzwn/YLGYCA8zsFbNtfkgws/K6cLVT+7jS37SBA0FVFFRkesE4DFKAqeJA==";
         };
+        _Lmby3XLl = {
+            "id" = "Lmby3XLl";
+            "file" = "timechanger-fabric-26.3-1.1.jar";
+            "hash" = "sha512-oTGveSHGLwXMKXYUCforJmOgl7OXe038FM+q1/O6cM/k8EXa75VfGJ5hOmxsBX+sxmBKUC40kt6ixBrVPx+Dng==";
+        };
+        _TaRn1qqe = {
+            "id" = "TaRn1qqe";
+            "file" = "timechanger-neoforge-26.3-1.1.jar";
+            "hash" = "sha512-BOHysUOqELAbQwPIurshSr34BLxLVKO54WSolcHbWhVJSqXt1JbOeet3yMUGee8PwcPlLJQHQ0oUn8XFTgz67A==";
+        };
     in {
         "jW6szO55" = _jW6szO55;
         "37gDDI8J" = _37gDDI8J;
@@ -56,6 +66,8 @@ let
         "pzy6XRQc" = _pzy6XRQc;
         "SOl9A73j" = _SOl9A73j;
         "yMWL91ik" = _yMWL91ik;
+        "Lmby3XLl" = _Lmby3XLl;
+        "TaRn1qqe" = _TaRn1qqe;
         "fabric-26.1" = _jW6szO55;
         "fabric-26.1.1" = _jW6szO55;
         "fabric-26.1.2" = _jW6szO55;
@@ -70,9 +82,11 @@ let
         "fabric-1.21.2" = _pzy6XRQc;
         "fabric-1.21.3" = _pzy6XRQc;
         "fabric-26.2" = _SOl9A73j;
-        "fabric-26.3" = _yMWL91ik;
+        "fabric-26.3" = _Lmby3XLl;
+        "neoforge-26.3" = _TaRn1qqe;
         "pkg-v1.0" = _yMWL91ik;
-        "default" = _yMWL91ik;
+        "pkg-1.1" = _TaRn1qqe;
+        "default" = _TaRn1qqe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "change-time";

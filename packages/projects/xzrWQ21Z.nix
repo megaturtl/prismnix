@@ -181,6 +181,26 @@ let
             "file" = "TheCopperierAge-1.2-mc26.3-fabric.jar";
             "hash" = "sha512-SOp5fD0oz4a5/KWfqM6YU3LgUOvcrp5DKSZbYjNXDmpx5RcxDvR2NYyl+0e6nWx1P0iETEme2cUSmCfZKyHDyw==";
         };
+        _TVMucGYu = {
+            "id" = "TVMucGYu";
+            "file" = "TheCopperierAge-1.2.1-mc26.2-neoforge.jar";
+            "hash" = "sha512-wWbr55FkgD3eZuogkfKIE9eENhOvQ8PARww6YIiwnR2ECtV/6OGPgPu/FP3/39QSkU6BTskDC8IBnr4jWwD/fQ==";
+        };
+        _bdbcvdJj = {
+            "id" = "bdbcvdJj";
+            "file" = "TheCopperierAge-1.2.1-mc26.2-fabric.jar";
+            "hash" = "sha512-t0ChEhQ3wfuNSAvbTszGqDYwbsiUDL1j7zWfieiyiR1e6VD4hlKnLACM5ZSgpKtQnhezJWg2MYGCSXRqpvBzeg==";
+        };
+        _d3UdKGPI = {
+            "id" = "d3UdKGPI";
+            "file" = "TheCopperierAge-1.2.1-mc26.3-neoforge.jar";
+            "hash" = "sha512-SAWKC26j8UaFwj5Fm53+mdMDbLzAccBQIAkqP4rnWISc52Jc2CeAAF4g09Blt2EkdsKZgwia90HUI4MQ80ehPA==";
+        };
+        _1cpzCwFh = {
+            "id" = "1cpzCwFh";
+            "file" = "TheCopperierAge-1.2.1-mc26.3-fabric.jar";
+            "hash" = "sha512-Vd4vbtKdQCFyvPKwNHmOnXfWY4thptQCdnNpZ4q90gF7FShlHKYr410QIgxteEL3FTWa8QDB/rGwZNLpt2iCpw==";
+        };
     in {
         "UPvwviD6" = _UPvwviD6;
         "r2S8zxjE" = _r2S8zxjE;
@@ -218,6 +238,10 @@ let
         "54sHj4zX" = _54sHj4zX;
         "ecjY3MUp" = _ecjY3MUp;
         "TM77RVLp" = _TM77RVLp;
+        "TVMucGYu" = _TVMucGYu;
+        "bdbcvdJj" = _bdbcvdJj;
+        "d3UdKGPI" = _d3UdKGPI;
+        "1cpzCwFh" = _1cpzCwFh;
         "fabric-1.21.9" = _kThXRnT4;
         "fabric-1.21.10" = _lyfQ4jRD;
         "fabric-25w41a" = _tF1naAhg;
@@ -228,8 +252,8 @@ let
         "fabric-26.1" = _UVses0y0;
         "fabric-26.1.1" = _UVses0y0;
         "fabric-26.1.2" = _UVses0y0;
-        "fabric-26.2" = _54sHj4zX;
-        "fabric-26.3" = _TM77RVLp;
+        "fabric-26.2" = _bdbcvdJj;
+        "fabric-26.3" = _1cpzCwFh;
         "quilt-1.21.9" = _kThXRnT4;
         "quilt-1.21.10" = _lyfQ4jRD;
         "quilt-25w41a" = _tF1naAhg;
@@ -241,8 +265,8 @@ let
         "quilt-26.1.1" = _UVses0y0;
         "quilt-26.1.2" = _UVses0y0;
         "quilt-26.2" = _hQ8jnpnD;
-        "neoforge-26.2" = _Pjtexvyj;
-        "neoforge-26.3" = _ecjY3MUp;
+        "neoforge-26.2" = _TVMucGYu;
+        "neoforge-26.3" = _d3UdKGPI;
         "pkg-1.0-mc1.21.9" = _UPvwviD6;
         "pkg-1.0.1-mc1.21.9" = _r2S8zxjE;
         "pkg-1.0.2-mc1.21.9" = _Crihc77G;
@@ -279,7 +303,11 @@ let
         "pkg-1.2-mc26.2-fabric" = _54sHj4zX;
         "pkg-1.2-mc26.3-neoforge" = _ecjY3MUp;
         "pkg-1.2-mc26.3-fabric" = _TM77RVLp;
-        "default" = _TM77RVLp;
+        "pkg-1.2.1-mc26.2-neoforge" = _TVMucGYu;
+        "pkg-1.2.1-mc26.2-fabric" = _bdbcvdJj;
+        "pkg-1.2.1-mc26.3-neoforge" = _d3UdKGPI;
+        "pkg-1.2.1-mc26.3-fabric" = _1cpzCwFh;
+        "default" = _1cpzCwFh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-copperier-age";

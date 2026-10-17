@@ -101,6 +101,21 @@ let
             "file" = "ArmorGlance-mc26.2-v2.7.0-fabric.jar";
             "hash" = "sha512-3jQttitY0PZFtHkuDnK+Hl2kZM2ISMuvHU8asV6jmd81k0kRv4lM/Ss7loGKJo+e/HUdcAjdzrJB3Ie5/3Uoeg==";
         };
+        _Dc9ybv3P = {
+            "id" = "Dc9ybv3P";
+            "file" = "ArmorGlance-mc26.3-v2.8.0-neoforge.jar";
+            "hash" = "sha512-knJjD6EPFM+Cz8+tER2o9FNLbs+KL64vYxnK8SOdCbO/s0O/eUTZM1gYf4DIIT29EmTM99MEu+B3xNNTs2TFwQ==";
+        };
+        _JHOUdOKF = {
+            "id" = "JHOUdOKF";
+            "file" = "ArmorGlance-mc26.3-v2.8.0-forge.jar";
+            "hash" = "sha512-+QCyOBI26XC0xchtWrAbK2JB8AZWBf4Ysi0DAnhUhu+33obH0D/OQ+wWQXrHrGYv1nHyNEvB29jgs8L30Rdr1g==";
+        };
+        _ujQRAbBY = {
+            "id" = "ujQRAbBY";
+            "file" = "ArmorGlance-mc26.3-v2.8.0-fabric.jar";
+            "hash" = "sha512-6Xhh2Jy9GaW4FcTXvkabpmrVLqoCf+DGam/VB60UDXYDP6D4BwQTNJbpihkLU/i7MvrmVsJmtPfxcdA8nm9K6w==";
+        };
     in {
         "auFCWRXx" = _auFCWRXx;
         "S8FsC8mX" = _S8FsC8mX;
@@ -122,6 +137,9 @@ let
         "AM1Obybs" = _AM1Obybs;
         "soiQAibV" = _soiQAibV;
         "vTZeiJel" = _vTZeiJel;
+        "Dc9ybv3P" = _Dc9ybv3P;
+        "JHOUdOKF" = _JHOUdOKF;
+        "ujQRAbBY" = _ujQRAbBY;
         "fabric-1.21.11" = _PHSJ95bd;
         "fabric-1.21.10" = _l4gHKD8q;
         "fabric-1.21.9" = _l4gHKD8q;
@@ -131,6 +149,7 @@ let
         "fabric-1.21" = _S4SxbBZC;
         "fabric-1.21.1" = _S4SxbBZC;
         "fabric-26.2" = _vTZeiJel;
+        "fabric-26.3" = _ujQRAbBY;
         "neoforge-26.1.2" = _IUdAPQtf;
         "neoforge-1.21" = _EZgI1FA1;
         "neoforge-1.21.1" = _EZgI1FA1;
@@ -138,6 +157,7 @@ let
         "neoforge-1.21.10" = _LsvYthOb;
         "neoforge-1.21.11" = _wGe7eTIL;
         "neoforge-26.2" = _AM1Obybs;
+        "neoforge-26.3" = _Dc9ybv3P;
         "forge-26.1.2" = _OiIXNOp0;
         "forge-1.21" = _dQv25jBk;
         "forge-1.21.1" = _dQv25jBk;
@@ -145,6 +165,7 @@ let
         "forge-1.21.10" = _mVnhXVBD;
         "forge-1.21.11" = _tGjbZMrs;
         "forge-26.2" = _soiQAibV;
+        "forge-26.3" = _JHOUdOKF;
         "pkg-1.0.0" = _SZXKRo2Y;
         "pkg-2.0.0" = _Ib3VgdKT;
         "pkg-2.3.2" = _dOsc6oiH;
@@ -152,7 +173,8 @@ let
         "pkg-2.5.0" = _l4gHKD8q;
         "pkg-2.6.0" = _PHSJ95bd;
         "pkg-2.7.0" = _vTZeiJel;
-        "default" = _vTZeiJel;
+        "pkg-2.8.0" = _ujQRAbBY;
+        "default" = _ujQRAbBY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "armorglance";

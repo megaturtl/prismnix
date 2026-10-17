@@ -291,6 +291,26 @@ let
             "file" = "shadowdrop-3.0.2+26.3-neoforge.jar";
             "hash" = "sha512-oPiBd3aglQKOvPAHC6q2WuVnrlTux/3ST86KJgRdAAl9MohGAahqwuUbAzIbWJzdrkfUYjrbfH3wcoRiZp93qQ==";
         };
+        _aFtBpcMk = {
+            "id" = "aFtBpcMk";
+            "file" = "shadowdrop-3.0.3+1.21.1-neoforge.jar";
+            "hash" = "sha512-T2crHDWHhD78PQ0iaPCe5hnnFjMloKDCCZRNlkyu68G5411da43H2xM38CaCHuRvR4IxBj2KuRgsvuPOLLoQIQ==";
+        };
+        _mH4I6UwC = {
+            "id" = "mH4I6UwC";
+            "file" = "shadowdrop-3.0.3+1.21.1-fabric.jar";
+            "hash" = "sha512-bYJeuCnTg7f3RZ+jBis3qTQ9N2sKTf97xyQK6XvzqqHNPRgBMqN/6stPhQ6n0gzxJ/Ems/XRuTT5ABq7hu1soQ==";
+        };
+        _vZeMNwso = {
+            "id" = "vZeMNwso";
+            "file" = "shadowdrop-3.0.3+1.20.1-fabric.jar";
+            "hash" = "sha512-PlqJGdG0yeDulLKsD//ZO6QRtwydhRCaRYXUpznfQD/PSNES4aaTK7lsSCdtKwJYCQ1Z48p9oKroNrFSZu4vFQ==";
+        };
+        _lAOt2Uah = {
+            "id" = "lAOt2Uah";
+            "file" = "shadowdrop-3.0.3+1.20.1-forge.jar";
+            "hash" = "sha512-F+L7SPXEgROg6GzU81cDzElyDr36WVtZeizXJnaQJ1/qCxKyQ9G2iZHT6EZWKW0forNew2BKhF3OrDZDMqA65w==";
+        };
     in {
         "Bgi2txjD" = _Bgi2txjD;
         "YDI1Omzc" = _YDI1Omzc;
@@ -350,23 +370,27 @@ let
         "hS49F4ka" = _hS49F4ka;
         "oJqJnY0b" = _oJqJnY0b;
         "ls3sSZuN" = _ls3sSZuN;
-        "forge-1.20.1" = _hS49F4ka;
+        "aFtBpcMk" = _aFtBpcMk;
+        "mH4I6UwC" = _mH4I6UwC;
+        "vZeMNwso" = _vZeMNwso;
+        "lAOt2Uah" = _lAOt2Uah;
+        "forge-1.20.1" = _lAOt2Uah;
         "neoforge-1.20.1" = _WE2vCafa;
-        "neoforge-1.21.1" = _vOxUD464;
+        "neoforge-1.21.1" = _aFtBpcMk;
         "neoforge-26.1" = _KP4aoc8z;
         "neoforge-26.1.1" = _KP4aoc8z;
         "neoforge-26.1.2" = _KP4aoc8z;
         "neoforge-26.2" = _pc4pJNr0;
-        "neoforge-1.21" = _vOxUD464;
+        "neoforge-1.21" = _aFtBpcMk;
         "neoforge-26.3" = _ls3sSZuN;
-        "fabric-1.21.1" = _aIRHdwyo;
-        "fabric-1.20.1" = _Y6NudZLa;
+        "fabric-1.21.1" = _mH4I6UwC;
+        "fabric-1.20.1" = _vZeMNwso;
         "fabric-26.1" = _IJ1kHz7j;
         "fabric-26.1.1" = _IJ1kHz7j;
         "fabric-26.1.2" = _IJ1kHz7j;
         "fabric-26.2" = _O6rRceM0;
         "fabric-26.3" = _oJqJnY0b;
-        "fabric-1.21" = _aIRHdwyo;
+        "fabric-1.21" = _mH4I6UwC;
         "pkg-1.0.0-1.20.1-forge" = _Bgi2txjD;
         "pkg-1.0.1-1.20.1-forge" = _YDI1Omzc;
         "pkg-1.1.0-1.20.1-forge" = _bYzJ2Q4z;
@@ -425,7 +449,11 @@ let
         "pkg-3.0.2+1.20.1-forge" = _hS49F4ka;
         "pkg-3.0.2+26.3-fabric" = _oJqJnY0b;
         "pkg-3.0.2+26.3-neoforge" = _ls3sSZuN;
-        "default" = _ls3sSZuN;
+        "pkg-3.0.3+1.21.1-neoforge" = _aFtBpcMk;
+        "pkg-3.0.3+1.21.1-fabric" = _mH4I6UwC;
+        "pkg-3.0.3+1.20.1-fabric" = _vZeMNwso;
+        "pkg-3.0.3+1.20.1-forge" = _lAOt2Uah;
+        "default" = _lAOt2Uah;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shadow-drop";

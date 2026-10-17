@@ -91,6 +91,16 @@ let
             "file" = "theerror-3.0-Port-neoforge-1.21.1.jar";
             "hash" = "sha512-ORzrsy2m5zgSR0JGfJ+9aDyh69c8fT7Pr1G1Zb3BEX0HIzRaT3fPtVH0La+O2T+f+Qxy8zsVWlsamSyoX7r6lg==";
         };
+        _5wkcXAt9 = {
+            "id" = "5wkcXAt9";
+            "file" = "theerror-3.0.1-forge-1.20.1.jar";
+            "hash" = "sha512-91bMr5JHa2HryX9Mbxr7ZdO6+1C9ETJxosxo/164UhviupKkk93pINLNXCVzDfdYiGfXa13RyhEYmUm0M9N62g==";
+        };
+        _JWsbP7LC = {
+            "id" = "JWsbP7LC";
+            "file" = "theerror-3.0.1-Port-neoforge-1.21.1.jar";
+            "hash" = "sha512-/U3czd/fVjx9RCrO2PtpsEsm+j/XoZjSiR/XJ4XJqYHDWA4ER4jJHjTmlNSoWU5w2/5oGDlJot2PM15o2yzRHA==";
+        };
     in {
         "gNy7z8SV" = _gNy7z8SV;
         "A2YHfaBH" = _A2YHfaBH;
@@ -110,9 +120,11 @@ let
         "EU4St3Lw" = _EU4St3Lw;
         "4QBf0Vcd" = _4QBf0Vcd;
         "Taq1VOz4" = _Taq1VOz4;
-        "forge-1.20.1" = _4QBf0Vcd;
+        "5wkcXAt9" = _5wkcXAt9;
+        "JWsbP7LC" = _JWsbP7LC;
+        "forge-1.20.1" = _5wkcXAt9;
         "neoforge-1.21.8" = _pwODaSm3;
-        "neoforge-1.21.1" = _Taq1VOz4;
+        "neoforge-1.21.1" = _JWsbP7LC;
         "pkg-1.0.0" = _gNy7z8SV;
         "pkg-2.0.0" = _A2YHfaBH;
         "pkg-2.0" = _fF998vlr;
@@ -129,7 +141,9 @@ let
         "pkg-2.7.1" = _EU4St3Lw;
         "pkg-3.0" = _4QBf0Vcd;
         "pkg-3.0-Port" = _Taq1VOz4;
-        "default" = _Taq1VOz4;
+        "pkg-3.0.1" = _5wkcXAt9;
+        "pkg-3.0.1-Port" = _JWsbP7LC;
+        "default" = _JWsbP7LC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-error-(horror)";
