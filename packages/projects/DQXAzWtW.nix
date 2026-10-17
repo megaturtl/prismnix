@@ -41,6 +41,16 @@ let
             "file" = "applewoodrebarked-neoforge-1.2.1.jar";
             "hash" = "sha512-cfyoQRcTI6F0/6yn7FOlfDy5r2x5jlBARDKMDuN0QdgOsMhJNQnQgKctpQQX/4rWIQlNFqv25G5ELYuWqzSwGw==";
         };
+        _AQgIpFwB = {
+            "id" = "AQgIpFwB";
+            "file" = "applewoodrebarked-fabric-1.2.2.jar";
+            "hash" = "sha512-0r73MV+SOoxN3cF6VUUYPGUbJXwOSel/pOZk1Fo5w1VcsQITeNuRWm5kIqoRNsXy3jDTXJFOqD6em/TAdriZSQ==";
+        };
+        _X1MYBM5B = {
+            "id" = "X1MYBM5B";
+            "file" = "applewoodrebarked-neoforge-1.2.2.jar";
+            "hash" = "sha512-TqarR9xfmKRjeYAvNNZDbHEO0S+xLV4UM8QjaLqh1y7Ju8ISct8VRgkUdxrInPhzeN6UPJJTnV9CupwPCFAy/A==";
+        };
     in {
         "eaGpG00n" = _eaGpG00n;
         "FlAPIJmU" = _FlAPIJmU;
@@ -50,13 +60,16 @@ let
         "vCwafxwv" = _vCwafxwv;
         "JvtHJW1z" = _JvtHJW1z;
         "xOXP11st" = _xOXP11st;
-        "fabric-1.21.1" = _JvtHJW1z;
-        "neoforge-1.21.1" = _xOXP11st;
+        "AQgIpFwB" = _AQgIpFwB;
+        "X1MYBM5B" = _X1MYBM5B;
+        "fabric-1.21.1" = _AQgIpFwB;
+        "neoforge-1.21.1" = _X1MYBM5B;
         "pkg-1.0.0" = _FlAPIJmU;
         "pkg-1.1.0" = _YiEe15qx;
         "pkg-1.2.0" = _vCwafxwv;
         "pkg-1.2.1" = _xOXP11st;
-        "default" = _xOXP11st;
+        "pkg-1.2.2" = _X1MYBM5B;
+        "default" = _X1MYBM5B;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "apple-wood-rebarked";

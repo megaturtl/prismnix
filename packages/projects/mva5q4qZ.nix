@@ -86,6 +86,11 @@ let
             "file" = "create_submarine-3.3.0.jar";
             "hash" = "sha512-3yz4JC3q95VPFG/YVxAAtlTwZg545SvRiIvdE6707WWN+r2JdB6RQxPXRrC1t/eKz9AmQvhxi1FZO7bsOLMI3g==";
         };
+        _JAEMMsoi = {
+            "id" = "JAEMMsoi";
+            "file" = "Alpha-create_submarine-3.4.0.jar";
+            "hash" = "sha512-i/ZGBtjwJy16/D+RljFMVe6z6Tf0msrMn0UBcEvYZJ7tMy8FCWeNllduYqairoSTs8smrttowQhKfds0okPHWg==";
+        };
     in {
         "uYqwnn9X" = _uYqwnn9X;
         "5kwbs7hJ" = _5kwbs7hJ;
@@ -104,7 +109,8 @@ let
         "x062PxUx" = _x062PxUx;
         "HedLh8ql" = _HedLh8ql;
         "8CV1LRTl" = _8CV1LRTl;
-        "neoforge-1.21.1" = _8CV1LRTl;
+        "JAEMMsoi" = _JAEMMsoi;
+        "neoforge-1.21.1" = _JAEMMsoi;
         "pkg-1.1.1" = _uYqwnn9X;
         "pkg-1.1.4" = _5kwbs7hJ;
         "pkg-2.0.0" = _Swcvg8j6;
@@ -122,7 +128,8 @@ let
         "pkg-3.1.0" = _x062PxUx;
         "pkg-3.2.0" = _HedLh8ql;
         "pkg-3.3.0" = _8CV1LRTl;
-        "default" = _8CV1LRTl;
+        "pkg-3.4.0" = _JAEMMsoi;
+        "default" = _JAEMMsoi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-deep-seas";

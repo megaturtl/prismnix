@@ -21,17 +21,24 @@ let
             "file" = "cbcatfix-1.1.2.jar";
             "hash" = "sha512-KDTK5E5lgXpO3gUHzclUGT0/lOuh56eF1kdNnQ2lxLPFwrcdxU9ASTd0cvekw/MS13wILKqpQ4imEzuJEt0e9w==";
         };
+        _LcgTsZDX = {
+            "id" = "LcgTsZDX";
+            "file" = "cbcatfix-1.1.4.jar";
+            "hash" = "sha512-4ozh+1BPMt19FB5QcSsQjVhqc1dQVIEZXPaHdD0zy23QzNGDGEvmSx9pXiHao7ZJgG1AZ/2h9ykQRf9CRWRFzQ==";
+        };
     in {
         "9oAsagYZ" = _9oAsagYZ;
         "FS8fQf9i" = _FS8fQf9i;
         "ItfyyOee" = _ItfyyOee;
         "gJxv6GZM" = _gJxv6GZM;
-        "neoforge-1.21.1" = _gJxv6GZM;
+        "LcgTsZDX" = _LcgTsZDX;
+        "neoforge-1.21.1" = _LcgTsZDX;
         "pkg-1.0.1" = _9oAsagYZ;
         "pkg-1.1.0" = _FS8fQf9i;
         "pkg-1.1.1" = _ItfyyOee;
         "pkg-1.1.2" = _gJxv6GZM;
-        "default" = _gJxv6GZM;
+        "pkg-1.1.4" = _LcgTsZDX;
+        "default" = _LcgTsZDX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cbc-advanced-technologies-crash-fix";

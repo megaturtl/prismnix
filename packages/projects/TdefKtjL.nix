@@ -106,6 +106,11 @@ let
             "file" = "ExcellentCrates-7.1.0.jar";
             "hash" = "sha512-TExp3MdYj0Rg97ntebRcrZ//YNxWq/SbBRyFr4+YrpO8kWglc272atML1sVRjDgMti1fbkFqmgRz27jXDobATA==";
         };
+        _yH5WRVLi = {
+            "id" = "yH5WRVLi";
+            "file" = "ExcellentCrates-7.2.0.jar";
+            "hash" = "sha512-WUJzWYbg7KtkTWPul4OQX7sKK7xktj7YflEC5CecZHVTNU4H9SsPa/K+Zd+eE6Af7+iudIHuV7DRNygAH/792w==";
+        };
     in {
         "9hmg1aTU" = _9hmg1aTU;
         "UhnWNKYs" = _UhnWNKYs;
@@ -128,6 +133,7 @@ let
         "iZVIXY6R" = _iZVIXY6R;
         "rAQasH1q" = _rAQasH1q;
         "UHEBnRQ1" = _UHEBnRQ1;
+        "yH5WRVLi" = _yH5WRVLi;
         "paper-1.21.3" = _7EPzpwrK;
         "paper-1.21.4" = _iJd1UFnP;
         "paper-1.21.5" = _iJd1UFnP;
@@ -136,12 +142,12 @@ let
         "paper-1.21.8" = _UHEBnRQ1;
         "paper-1.21.9" = _UHEBnRQ1;
         "paper-1.21.10" = _UHEBnRQ1;
-        "paper-1.21.11" = _UHEBnRQ1;
-        "paper-26.1" = _UHEBnRQ1;
-        "paper-26.1.1" = _UHEBnRQ1;
-        "paper-26.1.2" = _UHEBnRQ1;
-        "paper-26.2" = _UHEBnRQ1;
-        "paper-26.3" = _UHEBnRQ1;
+        "paper-1.21.11" = _yH5WRVLi;
+        "paper-26.1" = _yH5WRVLi;
+        "paper-26.1.1" = _yH5WRVLi;
+        "paper-26.1.2" = _yH5WRVLi;
+        "paper-26.2" = _yH5WRVLi;
+        "paper-26.3" = _yH5WRVLi;
         "purpur-1.21.3" = _7EPzpwrK;
         "purpur-1.21.4" = _iJd1UFnP;
         "purpur-1.21.5" = _iJd1UFnP;
@@ -150,12 +156,12 @@ let
         "purpur-1.21.8" = _UHEBnRQ1;
         "purpur-1.21.9" = _UHEBnRQ1;
         "purpur-1.21.10" = _UHEBnRQ1;
-        "purpur-1.21.11" = _UHEBnRQ1;
-        "purpur-26.1" = _UHEBnRQ1;
-        "purpur-26.1.1" = _UHEBnRQ1;
-        "purpur-26.1.2" = _UHEBnRQ1;
-        "purpur-26.2" = _UHEBnRQ1;
-        "purpur-26.3" = _UHEBnRQ1;
+        "purpur-1.21.11" = _yH5WRVLi;
+        "purpur-26.1" = _yH5WRVLi;
+        "purpur-26.1.1" = _yH5WRVLi;
+        "purpur-26.1.2" = _yH5WRVLi;
+        "purpur-26.2" = _yH5WRVLi;
+        "purpur-26.3" = _yH5WRVLi;
         "spigot-1.21.3" = _7EPzpwrK;
         "spigot-1.21.4" = _iJd1UFnP;
         "spigot-1.21.5" = _iJd1UFnP;
@@ -164,12 +170,12 @@ let
         "spigot-1.21.8" = _UHEBnRQ1;
         "spigot-1.21.9" = _UHEBnRQ1;
         "spigot-1.21.10" = _UHEBnRQ1;
-        "spigot-1.21.11" = _UHEBnRQ1;
-        "spigot-26.1" = _UHEBnRQ1;
-        "spigot-26.1.1" = _UHEBnRQ1;
-        "spigot-26.1.2" = _UHEBnRQ1;
-        "spigot-26.2" = _UHEBnRQ1;
-        "spigot-26.3" = _UHEBnRQ1;
+        "spigot-1.21.11" = _yH5WRVLi;
+        "spigot-26.1" = _yH5WRVLi;
+        "spigot-26.1.1" = _yH5WRVLi;
+        "spigot-26.1.2" = _yH5WRVLi;
+        "spigot-26.2" = _yH5WRVLi;
+        "spigot-26.3" = _yH5WRVLi;
         "pkg-6.0.0" = _9hmg1aTU;
         "pkg-6.0.1" = _UhnWNKYs;
         "pkg-6.1.0" = _7EPzpwrK;
@@ -191,7 +197,8 @@ let
         "pkg-6.6.1" = _iZVIXY6R;
         "pkg-7.0.0" = _rAQasH1q;
         "pkg-7.1.0" = _UHEBnRQ1;
-        "default" = _UHEBnRQ1;
+        "pkg-7.2.0" = _yH5WRVLi;
+        "default" = _yH5WRVLi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "excellentcrates";

@@ -301,6 +301,61 @@ let
             "file" = "WalksyLib-2.0.2+26.3.jar";
             "hash" = "sha512-AxH7vvi3oAc0+pzDmPgyP7CZQI0HP1af05bmspLwYRpWAsysKbLc2AUNHP1kXPWK9w8ZlVkoYVd7Qee+X9Astw==";
         };
+        _ijeqIHwk = {
+            "id" = "ijeqIHwk";
+            "file" = "WalksyLib-2.0.3+1.21-1.21.1.jar";
+            "hash" = "sha512-hXoUeUuOMECO1Sxl3n7cQcOwZEkyYdBT7ZqZbMiB1i2kbk/hiz4Ymq471qqY/bxOQfA+k8bn0R+FCHzPPzV5Mg==";
+        };
+        _xEYXEYRX = {
+            "id" = "xEYXEYRX";
+            "file" = "WalksyLib-2.0.3+1.21.2-1.21.3.jar";
+            "hash" = "sha512-4AmdBTYoFKQOXy3y4w3OfwE754PeKcMmfBZzuxnnw5dSoJx7aK5CAzZpl2wsYOaVV7eUjIH0XHO5QVLh5tlDqg==";
+        };
+        _RaYOWgPS = {
+            "id" = "RaYOWgPS";
+            "file" = "WalksyLib-2.0.3+1.21.4.jar";
+            "hash" = "sha512-9iYmgeEXg5y92wP+DxKB4snPo4LV2/42RBE4asosBw0Njl6V1ij+Pedp9OHGXFT4ErJyIy13Y/kSI6GxaTuK7g==";
+        };
+        _AlFdY6nR = {
+            "id" = "AlFdY6nR";
+            "file" = "WalksyLib-2.0.3+1.21.5.jar";
+            "hash" = "sha512-IbNT6DHFvwTTE4nBXv62iL87QfwNk+6/hnz5c86wUScfOUs/YLfb2PLUFPr5DwVjC2uG/LvIk0QWjq6zNjk2gQ==";
+        };
+        _JmdgYHML = {
+            "id" = "JmdgYHML";
+            "file" = "WalksyLib-2.0.3+1.21.6.jar";
+            "hash" = "sha512-Kr2Prx1xiVYectoz6D0Xl1/r816frU4oLQN2gOI35yQhO1Wq9DmChjLjZ7oj6GmprjsRZuRJn0jgr5AWQuxpcw==";
+        };
+        _GtTl0LA3 = {
+            "id" = "GtTl0LA3";
+            "file" = "WalksyLib-2.0.3+1.21.7-1.21.8.jar";
+            "hash" = "sha512-1qRS6Nh163dlZyWSj1zLIXwqvm1qNaZnmbbR+7EHBDfub6YftJkd1EPjt0shGUZvxYZXgYkYNovA5oRNUljBYQ==";
+        };
+        _3o53L1OJ = {
+            "id" = "3o53L1OJ";
+            "file" = "WalksyLib-2.0.3+1.21.9-1.21.10.jar";
+            "hash" = "sha512-PgOughzOhszDoxa/NlurBw88uweA0QiUuf9hrXoiWlPS+3XH9TI2SEHX2hiZc3FOORlXo6UrvOHTAsEUbYzKaQ==";
+        };
+        _Iyje3T3q = {
+            "id" = "Iyje3T3q";
+            "file" = "WalksyLib-2.0.3+1.21.11.jar";
+            "hash" = "sha512-MuyrhbgtstIv1/pduYQMCT5gUE/YBsapoIcCrtKFZvfNMtJhkRnLShvHEX2XQ468jsrowHV26v/tPn0MXFR6Ig==";
+        };
+        _FZ6YOfKy = {
+            "id" = "FZ6YOfKy";
+            "file" = "WalksyLib-2.0.3+26.1-26.1.2.jar";
+            "hash" = "sha512-3UMVDz514t+wsRyrxMrUiN+V8IX1tOxjYXwu5sbHWfyf25Pcdu+kcXWZhOy2yOwUgBw415Iq7fgg/I934zaRtw==";
+        };
+        _sRjDplXd = {
+            "id" = "sRjDplXd";
+            "file" = "WalksyLib-2.0.3+26.2.jar";
+            "hash" = "sha512-v51YMRM5fChE1DiYDi+09KSK/10QegfqickqpjR44wX7/eB/1ucxeYXqOint7Tqivozy5o0YFI632gI1Mx2ENQ==";
+        };
+        _bMV1f22m = {
+            "id" = "bMV1f22m";
+            "file" = "WalksyLib-2.0.3+26.3.jar";
+            "hash" = "sha512-M2dXHhhkl5U9kRfldRrTX+vcXGYniCbHFelVEQXZh2Ng2Bg9NGecZQVgcUV/RyGTt6OoQsENmqGpjJfh8Elx8g==";
+        };
     in {
         "cbB1OAmr" = _cbB1OAmr;
         "dgpKU8Em" = _dgpKU8Em;
@@ -362,24 +417,35 @@ let
         "Hrsla0cW" = _Hrsla0cW;
         "jKzOu2OD" = _jKzOu2OD;
         "BOoSVKST" = _BOoSVKST;
-        "fabric-1.21" = _x384CBnB;
-        "fabric-1.21.1" = _x384CBnB;
-        "fabric-1.21.2" = _emU9N3Cc;
-        "fabric-1.21.3" = _emU9N3Cc;
-        "fabric-1.21.4" = _LoSXfkdO;
-        "fabric-1.21.5" = _p61NDo2i;
-        "fabric-1.21.6" = _uX7TA5dG;
-        "fabric-1.21.7" = _sMr0DqCY;
-        "fabric-1.21.8" = _sMr0DqCY;
-        "fabric-1.21.9" = _14plV9OC;
-        "fabric-1.21.10" = _14plV9OC;
-        "fabric-1.21.11" = _KW9cIcV0;
-        "fabric-26.1" = _Hrsla0cW;
-        "fabric-26.1.1" = _Hrsla0cW;
-        "fabric-26.1.2" = _Hrsla0cW;
+        "ijeqIHwk" = _ijeqIHwk;
+        "xEYXEYRX" = _xEYXEYRX;
+        "RaYOWgPS" = _RaYOWgPS;
+        "AlFdY6nR" = _AlFdY6nR;
+        "JmdgYHML" = _JmdgYHML;
+        "GtTl0LA3" = _GtTl0LA3;
+        "3o53L1OJ" = _3o53L1OJ;
+        "Iyje3T3q" = _Iyje3T3q;
+        "FZ6YOfKy" = _FZ6YOfKy;
+        "sRjDplXd" = _sRjDplXd;
+        "bMV1f22m" = _bMV1f22m;
+        "fabric-1.21" = _ijeqIHwk;
+        "fabric-1.21.1" = _ijeqIHwk;
+        "fabric-1.21.2" = _xEYXEYRX;
+        "fabric-1.21.3" = _xEYXEYRX;
+        "fabric-1.21.4" = _RaYOWgPS;
+        "fabric-1.21.5" = _AlFdY6nR;
+        "fabric-1.21.6" = _JmdgYHML;
+        "fabric-1.21.7" = _GtTl0LA3;
+        "fabric-1.21.8" = _GtTl0LA3;
+        "fabric-1.21.9" = _3o53L1OJ;
+        "fabric-1.21.10" = _3o53L1OJ;
+        "fabric-1.21.11" = _Iyje3T3q;
+        "fabric-26.1" = _FZ6YOfKy;
+        "fabric-26.1.1" = _FZ6YOfKy;
+        "fabric-26.1.2" = _FZ6YOfKy;
         "fabric-26.2-pre-2" = _OJijaF3Q;
-        "fabric-26.2" = _jKzOu2OD;
-        "fabric-26.3" = _BOoSVKST;
+        "fabric-26.2" = _sRjDplXd;
+        "fabric-26.3" = _bMV1f22m;
         "pkg-0.9.95+1.21" = _cbB1OAmr;
         "pkg-0.9.95+1.21.2" = _dgpKU8Em;
         "pkg-0.9.95+1.21.4" = _z9yWihBH;
@@ -440,7 +506,18 @@ let
         "pkg-2.0.2+26.1-26.1.2" = _Hrsla0cW;
         "pkg-2.0.2+26.2" = _jKzOu2OD;
         "pkg-2.0.2+26.3" = _BOoSVKST;
-        "default" = _BOoSVKST;
+        "pkg-2.0.3+1.21-1.21.1" = _ijeqIHwk;
+        "pkg-2.0.3+1.21.2-1.21.3" = _xEYXEYRX;
+        "pkg-2.0.3+1.21.4" = _RaYOWgPS;
+        "pkg-2.0.3+1.21.5" = _AlFdY6nR;
+        "pkg-2.0.3+1.21.6" = _JmdgYHML;
+        "pkg-2.0.3+1.21.7-1.21.8" = _GtTl0LA3;
+        "pkg-2.0.3+1.21.9-1.21.10" = _3o53L1OJ;
+        "pkg-2.0.3+1.21.11" = _Iyje3T3q;
+        "pkg-2.0.3+26.1-26.1.2" = _FZ6YOfKy;
+        "pkg-2.0.3+26.2" = _sRjDplXd;
+        "pkg-2.0.3+26.3" = _bMV1f22m;
+        "default" = _bMV1f22m;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "walksylib";

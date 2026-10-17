@@ -986,6 +986,16 @@ let
             "file" = "stellaris-26.1.2-neoforge-2.0.7.jar";
             "hash" = "sha512-iWat1cDbWGWX+IgqaqTK5L/vVj9B1wJr2xiWE2m8EZAHddQQgmk3yPocEiEbR7p8ojSuL4t1Nz6hNe/VUx81Dg==";
         };
+        _wLwSN0ZJ = {
+            "id" = "wLwSN0ZJ";
+            "file" = "stellaris-26.1.2-fabric-2.0.8.jar";
+            "hash" = "sha512-4wwBNZVO1A4EyhDqENLRT/tsdl5fE+wNcBB/ZqM7RzzDm8N6YsmcWMk6VRMh+KDHcMZVwS5CCt6tdq6lUGWLAQ==";
+        };
+        _m2NzJEWf = {
+            "id" = "m2NzJEWf";
+            "file" = "stellaris-26.1.2-neoforge-2.0.8.jar";
+            "hash" = "sha512-tasvHXsmlC0xfdct/jBooZdYyVSuIHCZrRv6rqqwePz4p43Qt6P+IrtN2C+YnEFmGL8irB01YhPET4mQSBzzwA==";
+        };
     in {
         "HaGcqsVq" = _HaGcqsVq;
         "Bgu1gN6u" = _Bgu1gN6u;
@@ -1184,16 +1194,18 @@ let
         "lpUJdSFY" = _lpUJdSFY;
         "S2JSwqxW" = _S2JSwqxW;
         "c5hVcYlm" = _c5hVcYlm;
+        "wLwSN0ZJ" = _wLwSN0ZJ;
+        "m2NzJEWf" = _m2NzJEWf;
         "fabric-1.20.6" = _7c4OdpI9;
         "fabric-1.21" = _kW9vLfyQ;
         "fabric-1.21.1" = _kW9vLfyQ;
         "fabric-1.21.5" = _axRzsf8R;
-        "fabric-26.1.2" = _S2JSwqxW;
+        "fabric-26.1.2" = _wLwSN0ZJ;
         "neoforge-1.20.6" = _Zqby4V2S;
         "neoforge-1.21" = _5BraaKfR;
         "neoforge-1.21.1" = _5BraaKfR;
         "neoforge-1.21.5" = _gACzCHT8;
-        "neoforge-26.1.2" = _c5hVcYlm;
+        "neoforge-26.1.2" = _m2NzJEWf;
         "pkg-1.0.0" = _Bgu1gN6u;
         "pkg-1.0.1" = _4X42BaKz;
         "pkg-1.0.2" = _IGN9jZVX;
@@ -1282,7 +1294,8 @@ let
         "pkg-2.0.5" = _rJDzMpq8;
         "pkg-2.0.6" = _lpUJdSFY;
         "pkg-2.0.7" = _c5hVcYlm;
-        "default" = _c5hVcYlm;
+        "pkg-2.0.8" = _m2NzJEWf;
+        "default" = _m2NzJEWf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stellaris";

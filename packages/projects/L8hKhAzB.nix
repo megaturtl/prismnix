@@ -346,6 +346,26 @@ let
             "file" = "animalweights-26.3-NeoForge-1.2.2.jar";
             "hash" = "sha512-87bqeExkNqTQ4JMymGT3ZUP/etJNGtMhCnhqfgvv5BFIEsHY7ovyxAw0BviqA1mBgQxTFNXbTn9Xp/tShRlz3g==";
         };
+        _3umsKvQ4 = {
+            "id" = "3umsKvQ4";
+            "file" = "animalweights-1.20.1-Fabric-1.2.3.jar";
+            "hash" = "sha512-RDT7PZYo2hcveDaUCVJZCnjBIwNaHO/5ByJzTW9uoxNZYSo5+dfibMoumcGCNqqtQJdYE0HSnosT+0FO+Gol8g==";
+        };
+        _ntfnFpM8 = {
+            "id" = "ntfnFpM8";
+            "file" = "animalweights-1.20.1-Forge-1.2.3.jar";
+            "hash" = "sha512-DHHvUTlTlTvQW1O/05Uz5e11qWjsNx33xsz025+mNdrpUa7xERvpQj5aKsbskpQDlPs9Rtvk79Wi3dzsiU225g==";
+        };
+        _rHojkMiH = {
+            "id" = "rHojkMiH";
+            "file" = "animalweights-1.21.1-Fabric-1.2.3.jar";
+            "hash" = "sha512-GZUzM87M2Wk5tdDFVAZDDFeQQe7y3HT3hgHSkgOKmpJpcvJFN/A/10l9CuXoxxSW203JodhRVLk3+So4Zlsfpw==";
+        };
+        _xAMiw1sh = {
+            "id" = "xAMiw1sh";
+            "file" = "animalweights-1.21.1-NeoForge-1.2.3.jar";
+            "hash" = "sha512-67r/Cmt/L4vfOTKdX+TEpJQgqKflpWHo5IDeVFgd35Cx2/9T+JcX66sxKlZ4Yr9XjaknQWVnILsiP3FDjCOUAQ==";
+        };
     in {
         "Y9NbFkLO" = _Y9NbFkLO;
         "YwvtsBqL" = _YwvtsBqL;
@@ -416,18 +436,22 @@ let
         "TgVcgxnl" = _TgVcgxnl;
         "gVMKXZKE" = _gVMKXZKE;
         "9mf4TSpM" = _9mf4TSpM;
+        "3umsKvQ4" = _3umsKvQ4;
+        "ntfnFpM8" = _ntfnFpM8;
+        "rHojkMiH" = _rHojkMiH;
+        "xAMiw1sh" = _xAMiw1sh;
         "fabric-26.1.2" = _B82lU9gX;
         "fabric-1.21.11" = _RZE2yLGP;
-        "fabric-1.21.1" = _T56uf6RL;
-        "fabric-1.20.1" = _2XMDVCuG;
+        "fabric-1.21.1" = _rHojkMiH;
+        "fabric-1.20.1" = _3umsKvQ4;
         "fabric-26.2" = _Iv4YZutp;
         "fabric-26.3" = _gVMKXZKE;
         "neoforge-26.1.2" = _pbEJGjxK;
         "neoforge-1.21.11" = _ca2ujuQX;
-        "neoforge-1.21.1" = _usvkNIVJ;
+        "neoforge-1.21.1" = _xAMiw1sh;
         "neoforge-26.2" = _TgVcgxnl;
         "neoforge-26.3" = _9mf4TSpM;
-        "forge-1.20.1" = _JLGyqfXZ;
+        "forge-1.20.1" = _ntfnFpM8;
         "pkg-1.0.4" = _GD1Eui7p;
         "pkg-1.0.5" = _y7nqqpJY;
         "pkg-1.0.6" = _XODqVjtc;
@@ -435,7 +459,8 @@ let
         "pkg-1.2.0" = _u7gCobT8;
         "pkg-1.2.1" = _zIy5seDT;
         "pkg-1.2.2" = _9mf4TSpM;
-        "default" = _9mf4TSpM;
+        "pkg-1.2.3" = _xAMiw1sh;
+        "default" = _xAMiw1sh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "animal-weight";

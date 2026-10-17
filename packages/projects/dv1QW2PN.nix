@@ -61,6 +61,11 @@ let
             "file" = "Kaffee's_Dual_Ride-1.2.0.jar";
             "hash" = "sha512-fX7v/IkmM56U0yRo7Xwht8CY6yjgUuFwoadfRLNzuSPSXarRG4j/WVRQ04QlHjkpXPcPHxF2aO+Kp3xlRXSbvQ==";
         };
+        _B3Uk4DMK = {
+            "id" = "B3Uk4DMK";
+            "file" = "Kaffee's_Dual_Ride-neoforge-mc26.1.2-26.3-1.2.0.jar";
+            "hash" = "sha512-+sMCF1XSWfqjEOcd5Hfd/Pgttlivr2KBOBtEMiBjmSA+39+ThwMN5tYUm32kZyPRHC7RK3q1wi8zVRfekvNo0Q==";
+        };
     in {
         "erhcBjec" = _erhcBjec;
         "FOeILfbw" = _FOeILfbw;
@@ -74,6 +79,7 @@ let
         "gnqBt20q" = _gnqBt20q;
         "YSLKYETk" = _YSLKYETk;
         "T14PXNLz" = _T14PXNLz;
+        "B3Uk4DMK" = _B3Uk4DMK;
         "fabric-1.19.2" = _gamvk0LR;
         "fabric-1.20" = _lzZF1p8s;
         "fabric-1.20.1" = _lzZF1p8s;
@@ -104,9 +110,12 @@ let
         "fabric-26.1.2" = _T14PXNLz;
         "fabric-26.2" = _T14PXNLz;
         "fabric-26.3" = _T14PXNLz;
+        "neoforge-26.1.2" = _B3Uk4DMK;
+        "neoforge-26.2" = _B3Uk4DMK;
+        "neoforge-26.3" = _B3Uk4DMK;
         "pkg-1.1.0" = _4V6fF7Pm;
-        "pkg-1.2.0" = _T14PXNLz;
-        "default" = _T14PXNLz;
+        "pkg-1.2.0" = _B3Uk4DMK;
+        "default" = _B3Uk4DMK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kaffees_dual_ride";

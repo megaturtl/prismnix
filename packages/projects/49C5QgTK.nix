@@ -461,6 +461,26 @@ let
             "file" = "fragmentum-5.3.0+1.21.1-neoforge.jar";
             "hash" = "sha512-zHVtGKDqkD4ywb1TNiAoPDsPxDh9DR32jNOZ6WSURJP0pwKGCxA10/wvg0RuawznBacdzRCTIqQP4O1JqPpc3Q==";
         };
+        _GYt8wsOl = {
+            "id" = "GYt8wsOl";
+            "file" = "fragmentum-5.4.0+1.20.1-fabric.jar";
+            "hash" = "sha512-I0btdfBmPgHzC5vKU6CSAay/zJpNbrUTupzYfZnqaKgBISuduaG9wyCeQs9X23CfTCaSQt2YRp+S69hLHRx7pg==";
+        };
+        _T7QOSm4k = {
+            "id" = "T7QOSm4k";
+            "file" = "fragmentum-5.4.0+1.20.1-forge.jar";
+            "hash" = "sha512-FSsNAeZxXkYzBoV5TRxyXlL298xh6PcB6nYNm5Ma23Cam2k4dhoWznTyfeYQSfGdKOgBLzMTBC85J+Yf4nJ/FQ==";
+        };
+        _xaaQmZf2 = {
+            "id" = "xaaQmZf2";
+            "file" = "fragmentum-5.4.0+1.21.1-fabric.jar";
+            "hash" = "sha512-6+MDU85fttTTgoH6hoDAGDUwk8E2/a+Ru0pVTPMes04d7lDRN2nu0vmYyav1sfo/EzYr9C0uvRD9/ISXvI2+2w==";
+        };
+        _kCXNhuIV = {
+            "id" = "kCXNhuIV";
+            "file" = "fragmentum-5.4.0+1.21.1-neoforge.jar";
+            "hash" = "sha512-Qms6fyCFJmriMdfvgQkrqrsECbvyIrkiBHLdO6SChAoIUAR6q8S1nSD9ZRcOyZIFWdKd9lJ9gRns8Cxpz6eOUw==";
+        };
     in {
         "Dv2tHueA" = _Dv2tHueA;
         "RZHwqqeI" = _RZHwqqeI;
@@ -554,8 +574,12 @@ let
         "fDDjfhUX" = _fDDjfhUX;
         "1DaOoDoz" = _1DaOoDoz;
         "AyL8gHWw" = _AyL8gHWw;
-        "fabric-1.21.1" = _1DaOoDoz;
-        "fabric-1.20.1" = _PEjMlCzL;
+        "GYt8wsOl" = _GYt8wsOl;
+        "T7QOSm4k" = _T7QOSm4k;
+        "xaaQmZf2" = _xaaQmZf2;
+        "kCXNhuIV" = _kCXNhuIV;
+        "fabric-1.21.1" = _xaaQmZf2;
+        "fabric-1.20.1" = _GYt8wsOl;
         "fabric-1.21.11" = _dw7E7DpQ;
         "fabric-26.1" = _FQnK5pmG;
         "fabric-26.1.1" = _FQnK5pmG;
@@ -567,8 +591,8 @@ let
         "quilt-26.1.1" = _FQnK5pmG;
         "quilt-26.1.2" = _FQnK5pmG;
         "forge-1.21.1" = _TJAoH6E6;
-        "forge-1.20.1" = _fDDjfhUX;
-        "neoforge-1.21.1" = _AyL8gHWw;
+        "forge-1.20.1" = _T7QOSm4k;
+        "neoforge-1.21.1" = _kCXNhuIV;
         "neoforge-1.21.11" = _loymwTCS;
         "neoforge-26.1" = _5G5zCLdg;
         "neoforge-26.1.1" = _5G5zCLdg;
@@ -614,7 +638,8 @@ let
         "pkg-5.1.1" = _NuCBdQM6;
         "pkg-5.2.0" = _Kh6I6ckR;
         "pkg-5.3.0" = _AyL8gHWw;
-        "default" = _AyL8gHWw;
+        "pkg-5.4.0" = _kCXNhuIV;
+        "default" = _kCXNhuIV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fragmentum";

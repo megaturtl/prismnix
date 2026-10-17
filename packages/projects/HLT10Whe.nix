@@ -26,19 +26,26 @@ let
             "file" = "elder_tales-1.5.1.jar";
             "hash" = "sha512-qNZcc+KXDkMqG32UEAMi9N82Y7RrO2dEgPz423KakcbNhBauxMrhMaZ9gqVTW3f4KjFMQJO7+tpzh4IO6jcmYw==";
         };
+        _tmG51IIp = {
+            "id" = "tmG51IIp";
+            "file" = "elder_tales-1.7.5.jar";
+            "hash" = "sha512-Z0uOygWVxnt2dfdJIJS7mLUFr0Htz7C3I+0qFYzSeXXVhjbWrfBNCAPXXXtp5qtKKigv6tYXKfolcf5F5hil5Q==";
+        };
     in {
         "PIBHESpe" = _PIBHESpe;
         "MIU4jQIW" = _MIU4jQIW;
         "HtIrCEVL" = _HtIrCEVL;
         "Qsz4P3XW" = _Qsz4P3XW;
         "8PfdyIcJ" = _8PfdyIcJ;
-        "forge-1.20.1" = _8PfdyIcJ;
+        "tmG51IIp" = _tmG51IIp;
+        "forge-1.20.1" = _tmG51IIp;
         "pkg-1.2.2" = _PIBHESpe;
         "pkg-1.3.6" = _MIU4jQIW;
         "pkg-1.3.9" = _HtIrCEVL;
         "pkg-1.4.1" = _Qsz4P3XW;
         "pkg-1.5.1" = _8PfdyIcJ;
-        "default" = _8PfdyIcJ;
+        "pkg-1.7.5" = _tmG51IIp;
+        "default" = _tmG51IIp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elder-tales";

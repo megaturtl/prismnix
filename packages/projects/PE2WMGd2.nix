@@ -676,6 +676,16 @@ let
             "file" = "progression-reborn-26.1-r2.1.1-fabric.jar";
             "hash" = "sha512-a27ivqh4Eq9bENlKO6zm5uDnB1/npIIDt0TRwzK/lIOQFo4PhlCjuaXWFwM/LC25MuUMY/ujorJPsmmL69t0Ig==";
         };
+        _Lvz7ilcZ = {
+            "id" = "Lvz7ilcZ";
+            "file" = "progression-reborn-26.1-r2.2-neoforge.jar";
+            "hash" = "sha512-M31U8aAxKACHvITApuswLDU9q4uHFyUFG3Q1p38fdcVV94EepBBBamQGB2PYeCTp5Q4QITJCHqOrstkiIAzBuw==";
+        };
+        _ISEb0Xq3 = {
+            "id" = "ISEb0Xq3";
+            "file" = "progression-reborn-26.1-r2.2-fabric.jar";
+            "hash" = "sha512-GBdl65iXMes+w1rOTza6hel7C8otGscFcnX2J776+nxh5QahuQez5dR9k/YvOrQCHsxuvHHJ44JIbY+gtzcGPQ==";
+        };
     in {
         "Zt9kmkjR" = _Zt9kmkjR;
         "bJU2WRPr" = _bJU2WRPr;
@@ -812,6 +822,8 @@ let
         "6ru9TQ9w" = _6ru9TQ9w;
         "izLVrcxg" = _izLVrcxg;
         "OCeGcGA4" = _OCeGcGA4;
+        "Lvz7ilcZ" = _Lvz7ilcZ;
+        "ISEb0Xq3" = _ISEb0Xq3;
         "fabric-1.19" = _6667i36L;
         "fabric-1.19.1" = _6667i36L;
         "fabric-1.19.2" = _6667i36L;
@@ -825,12 +837,12 @@ let
         "fabric-1.21.1" = _ymAsozbk;
         "fabric-1.21.5" = _onwrpWYL;
         "fabric-1.21.11" = _DS0JmtsD;
-        "fabric-26.1" = _OCeGcGA4;
-        "fabric-26.1.1" = _OCeGcGA4;
-        "fabric-26.1.2" = _OCeGcGA4;
-        "neoforge-26.1" = _izLVrcxg;
-        "neoforge-26.1.1" = _izLVrcxg;
-        "neoforge-26.1.2" = _izLVrcxg;
+        "fabric-26.1" = _ISEb0Xq3;
+        "fabric-26.1.1" = _ISEb0Xq3;
+        "fabric-26.1.2" = _ISEb0Xq3;
+        "neoforge-26.1" = _Lvz7ilcZ;
+        "neoforge-26.1.1" = _Lvz7ilcZ;
+        "neoforge-26.1.2" = _Lvz7ilcZ;
         "pkg-1.0.1" = _9UXTm63h;
         "pkg-1.0.2" = _qY4IEA4W;
         "pkg-1.0.3" = _SXGndUoF;
@@ -957,7 +969,9 @@ let
         "pkg-26.1-r2.1-fabric" = _6ru9TQ9w;
         "pkg-26.1-r2.1.1-neoforge" = _izLVrcxg;
         "pkg-26.1-r2.1.1-fabric" = _OCeGcGA4;
-        "default" = _OCeGcGA4;
+        "pkg-26.1-r2.2-neoforge" = _Lvz7ilcZ;
+        "pkg-26.1-r2.2-fabric" = _ISEb0Xq3;
+        "default" = _ISEb0Xq3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "progression-reborn";

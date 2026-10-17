@@ -286,6 +286,11 @@ let
             "file" = "xtoxray-2026.29.jar";
             "hash" = "sha512-7NckHTSc8NHZogoYt1blvVLSv2f0cC1NckjpFUsatx3wVJ7pqp5y/oUPSYF/z6cKKqPKOwtI4U2GCbPBj4+RYA==";
         };
+        _DhhuVCFl = {
+            "id" = "DhhuVCFl";
+            "file" = "xtoxray-2026.29.jar";
+            "hash" = "sha512-qlL022Fwu1U6KnbTg5WUudyjLcDLwz2zvJLUWUQVALP9A05Sr4y+t4ygz8TvZeTojfmpLRyn8facI/8nlH6CRg==";
+        };
     in {
         "oP5DctBQ" = _oP5DctBQ;
         "bMcrXwai" = _bMcrXwai;
@@ -344,9 +349,10 @@ let
         "PtX5kvBQ" = _PtX5kvBQ;
         "JzZWbXMJ" = _JzZWbXMJ;
         "TI548KQP" = _TI548KQP;
-        "fabric-26.1" = _N2IvolpN;
-        "fabric-26.1.1" = _N2IvolpN;
-        "fabric-26.1.2" = _N2IvolpN;
+        "DhhuVCFl" = _DhhuVCFl;
+        "fabric-26.1" = _DhhuVCFl;
+        "fabric-26.1.1" = _DhhuVCFl;
+        "fabric-26.1.2" = _DhhuVCFl;
         "fabric-1.21" = _rSbX1RB0;
         "fabric-1.21.1" = _rSbX1RB0;
         "fabric-1.21.2" = _rSbX1RB0;
@@ -359,7 +365,7 @@ let
         "fabric-1.21.9" = _rSbX1RB0;
         "fabric-1.21.10" = _rSbX1RB0;
         "fabric-1.21.11" = _rSbX1RB0;
-        "fabric-26.2" = _N2IvolpN;
+        "fabric-26.2" = _DhhuVCFl;
         "fabric-1.20.5" = _C4dp8mmM;
         "fabric-1.20.6" = _C4dp8mmM;
         "fabric-26.3-snapshot-1" = _l9lkvzwA;
@@ -376,7 +382,7 @@ let
         "fabric-26.3-snapshot-7" = _l9lkvzwA;
         "fabric-26.3-snapshot-8" = _l9lkvzwA;
         "fabric-26.3-snapshot-9" = _l9lkvzwA;
-        "fabric-26.3" = _TI548KQP;
+        "fabric-26.3" = _DhhuVCFl;
         "fabric-26.4-snapshot-1" = _TI548KQP;
         "fabric-26.4-snapshot-2" = _TI548KQP;
         "fabric-1.19" = _BFMngOPh;
@@ -436,8 +442,8 @@ let
         "pkg-2026.28-1" = _JzZWbXMJ;
         "pkg-2026.28.1B" = _1ECFC3hC;
         "pkg-2026.28-1+26.3-sift" = _3EtfcZbY;
-        "pkg-2026.29" = _TI548KQP;
-        "default" = _TI548KQP;
+        "pkg-2026.29" = _DhhuVCFl;
+        "default" = _DhhuVCFl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "x-to-xray";

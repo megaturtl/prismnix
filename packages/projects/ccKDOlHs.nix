@@ -566,6 +566,11 @@ let
             "file" = "owo-lib-0.13.1+26.2.jar";
             "hash" = "sha512-1zkxKfqdjELCRLlvpmvbu80jln/G05OmifvxsO4R9topfC3c3jw+R20tB7c7YArT1oxzl4bHKaTcE6A+cqwPgg==";
         };
+        _wbdHEItB = {
+            "id" = "wbdHEItB";
+            "file" = "owo-lib-neoforge-0.12.15.6-beta.1+1.21.jar";
+            "hash" = "sha512-/IQ+81DEr2dI2f1uzTwo+WJiz0bUaoMpAp9J6k+euHI4ETqKQV6LuixPNGxxi/RQGU9vWCPfvxrnMSUpqBw+XA==";
+        };
     in {
         "HyvkCi1L" = _HyvkCi1L;
         "4NeTD3y0" = _4NeTD3y0;
@@ -680,6 +685,7 @@ let
         "m3XmDd8j" = _m3XmDd8j;
         "HmigD8GL" = _HmigD8GL;
         "1h9g10ru" = _1h9g10ru;
+        "wbdHEItB" = _wbdHEItB;
         "fabric-1.17" = _flVS3RS0;
         "fabric-1.17.1" = _flVS3RS0;
         "fabric-21w43a" = _LmWOyXVW;
@@ -743,13 +749,14 @@ let
         "quilt-26.1.1" = _HmigD8GL;
         "quilt-26.1.2" = _HmigD8GL;
         "quilt-26.2" = _1h9g10ru;
-        "neoforge-1.21.1" = _NMCHU6DZ;
+        "neoforge-1.21.1" = _wbdHEItB;
         "neoforge-1.21.3" = _tqu96AJU;
         "neoforge-1.21.4" = _p9vm8HDx;
         "neoforge-1.21.5" = _FpKmEpQ5;
         "neoforge-1.21.8" = _dyH7Voub;
         "neoforge-1.21.9" = _DiZPjfYn;
         "neoforge-1.21.10" = _TY022mTW;
+        "neoforge-1.21" = _wbdHEItB;
         "pkg-0.2.0" = _HyvkCi1L;
         "pkg-0.2.1" = _4NeTD3y0;
         "pkg-0.3.0" = _ERFRuuW5;
@@ -861,7 +868,8 @@ let
         "pkg-0.13.0-alpha.15+1.21" = _m3XmDd8j;
         "pkg-0.13.1+26.1" = _HmigD8GL;
         "pkg-0.13.1+26.2" = _1h9g10ru;
-        "default" = _1h9g10ru;
+        "pkg-0.12.15.6-beta.1+1.21" = _wbdHEItB;
+        "default" = _wbdHEItB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "owo-lib";

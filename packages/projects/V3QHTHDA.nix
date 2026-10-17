@@ -71,6 +71,16 @@ let
             "file" = "Dap ur Homie-1.21.1-3.0.0.jar";
             "hash" = "sha512-X0S+O5TxbqQKqKSU37U+Ua+Av7a79Am3zHEp3+z4BTxY2fiDjLHTOyMVqKMRhd79wGLbrKrC+RW9NYi6is7l9Q==";
         };
+        _P5UHSuWO = {
+            "id" = "P5UHSuWO";
+            "file" = "DAP ur Homie!-3.0.1.jar";
+            "hash" = "sha512-ZjF8NqVlA1KgTND1tOXuIVvpFnF6i1o/TbSeitfj4qKbijndhKtV/mj45YJXAEX9xD0UfCqkSkIzMfvGBaK1Dg==";
+        };
+        _4bVLQOj9 = {
+            "id" = "4bVLQOj9";
+            "file" = "DAP ur Homie!-3.0.1.jar";
+            "hash" = "sha512-ZjF8NqVlA1KgTND1tOXuIVvpFnF6i1o/TbSeitfj4qKbijndhKtV/mj45YJXAEX9xD0UfCqkSkIzMfvGBaK1Dg==";
+        };
     in {
         "2hfdVsuD" = _2hfdVsuD;
         "fAVDiGrc" = _fAVDiGrc;
@@ -86,9 +96,11 @@ let
         "Jv6LDIOq" = _Jv6LDIOq;
         "pJ8vP6eE" = _pJ8vP6eE;
         "vgW4ls0k" = _vgW4ls0k;
-        "fabric-1.21.1" = _Jv6LDIOq;
+        "P5UHSuWO" = _P5UHSuWO;
+        "4bVLQOj9" = _4bVLQOj9;
+        "fabric-1.21.1" = _P5UHSuWO;
         "fabric-1.21.11" = _pJ8vP6eE;
-        "neoforge-1.21.1" = _vgW4ls0k;
+        "neoforge-1.21.1" = _4bVLQOj9;
         "neoforge-1.21.11" = _Mz3BBWxA;
         "pkg-1.0.0" = _fAVDiGrc;
         "pkg-1.2.0" = _zKsiim7d;
@@ -98,7 +110,8 @@ let
         "pkg-3.0.0" = _vgW4ls0k;
         "pkg-2.0.0+mc-1.21.11-beta-2" = _Mz3BBWxA;
         "pkg-3.0.0+mc-1.21.11-alpha-2" = _u7JXat1B;
-        "default" = _vgW4ls0k;
+        "pkg-3.0.1" = _4bVLQOj9;
+        "default" = _4bVLQOj9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dap-ur-homies";

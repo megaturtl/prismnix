@@ -36,6 +36,16 @@ let
             "file" = "dark-client-1.0.0.jar";
             "hash" = "sha512-bCOCbWqCmoFbJkObloTi438vobAzVxMbajCNci9gFQilMluL9hUKaRru4ZFR8qYXn7caox+cpuThMEAWMNNCvw==";
         };
+        _eG9wNRMb = {
+            "id" = "eG9wNRMb";
+            "file" = "DarkClient-0.1.1.0+26.2.jar";
+            "hash" = "sha512-DVb0quB/IwH0OZUB+bvKC2+G5/HkYIzlvEPeM7yHPpVZJ4hfegqHUZsgLG3FkjzFIs6JNPlbulAtwfiq44TRdw==";
+        };
+        _wBUcabi9 = {
+            "id" = "wBUcabi9";
+            "file" = "DarkClient-0.10.4+1.21.11.jar";
+            "hash" = "sha512-1bQ7n3dWw1qt7lcFbX7Tz//fWDiobrrxolPELeEcsf+zXZK9b10bSQuH1W/9NwNiCE7cdq8x/tpO0Ihns7/rRg==";
+        };
     in {
         "QCQiXeOO" = _QCQiXeOO;
         "YuDhIGmV" = _YuDhIGmV;
@@ -44,7 +54,10 @@ let
         "RCOoPXws" = _RCOoPXws;
         "IyDB2lvX" = _IyDB2lvX;
         "NrFaL7b3" = _NrFaL7b3;
-        "fabric-1.21.11" = _NrFaL7b3;
+        "eG9wNRMb" = _eG9wNRMb;
+        "wBUcabi9" = _wBUcabi9;
+        "fabric-1.21.11" = _wBUcabi9;
+        "fabric-26.2" = _eG9wNRMb;
         "pkg-1.0.0" = _QCQiXeOO;
         "pkg-1.0.1" = _YuDhIGmV;
         "pkg-1.0.2" = _cpL093hv;
@@ -52,7 +65,8 @@ let
         "pkg-1.0.4" = _RCOoPXws;
         "pkg-1.0.5" = _IyDB2lvX;
         "pkg-1.0.6" = _NrFaL7b3;
-        "default" = _NrFaL7b3;
+        "pkg-1.1.0" = _wBUcabi9;
+        "default" = _wBUcabi9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dark-client";

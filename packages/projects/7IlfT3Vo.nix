@@ -281,6 +281,16 @@ let
             "file" = "HexAutomata-fabric-1.21.1-0.3.5.1.pre53.fix1.jar";
             "hash" = "sha512-kc8l8lDt938Dzn5cDXql2t/jFZMB7kcJqZ46JVgn23vRQCokUCMsy5WUi/APe9Nk+T44b/ARUjY/5xFbbCiPYQ==";
         };
+        _CQNxhPrN = {
+            "id" = "CQNxhPrN";
+            "file" = "HexAutomata-fabric-1.21.1-0.3.5.1.pre64.jar";
+            "hash" = "sha512-xv2T6drxUdkYdWKogErYhwou4H++w3mHmCODKC+SA6zd68hEWLFNMYOG+H1xH2e5Ws6yqFRCkXvtxZc1K02Gfg==";
+        };
+        _Ywp4qrmc = {
+            "id" = "Ywp4qrmc";
+            "file" = "HexAutomata-neoforge-1.21.1-0.3.5.1.pre64.jar";
+            "hash" = "sha512-aMRS9SQ7WZDmaARKQDe8dRt/O5rC1eojHzYBr/LG8jwwMHypani9jEWeE2VGRu5cHr+PhZ5cXVaeQEc7VdIGjg==";
+        };
     in {
         "DokFPO3C" = _DokFPO3C;
         "D9aEaTu3" = _D9aEaTu3;
@@ -338,10 +348,12 @@ let
         "JcXa0efA" = _JcXa0efA;
         "3QqV4Atr" = _3QqV4Atr;
         "HjGLrT9H" = _HjGLrT9H;
+        "CQNxhPrN" = _CQNxhPrN;
+        "Ywp4qrmc" = _Ywp4qrmc;
         "fabric-1.20.1" = _JcXa0efA;
-        "fabric-1.21.1" = _HjGLrT9H;
+        "fabric-1.21.1" = _CQNxhPrN;
         "forge-1.20.1" = _3QqV4Atr;
-        "neoforge-1.21.1" = _2NFVGHwF;
+        "neoforge-1.21.1" = _Ywp4qrmc;
         "pkg-1.20.1-0.1" = _D9aEaTu3;
         "pkg-1.20.1-0.1.0.1" = _8WL0Inc8;
         "pkg-1.20.1-0.1.1" = _U7g7uNBR;
@@ -364,7 +376,8 @@ let
         "pkg-1.21.1-0.3.5.pre53" = _GV2W1YeU;
         "pkg-1.21.1-0.3.5.1.pre53" = _2NFVGHwF;
         "pkg-1.21.1-0.3.5.1.pre53.fix1" = _HjGLrT9H;
-        "default" = _HjGLrT9H;
+        "pkg-1.21.1-0.3.5.1.pre64" = _Ywp4qrmc;
+        "default" = _Ywp4qrmc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hexautomata";

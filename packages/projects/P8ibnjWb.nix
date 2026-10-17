@@ -36,6 +36,11 @@ let
             "file" = "pmshaders-1.1.2.jar";
             "hash" = "sha512-yDSupwCFs5AAm0p/83dlX0n/jeyAuU1nuKwPdlae+JhXnSAHkG7QT4dMF/8A3dtP9dgZn66wxMr/F0pUbyckqA==";
         };
+        _Jmb21Gus = {
+            "id" = "Jmb21Gus";
+            "file" = "pmshaders-1.1.3.jar";
+            "hash" = "sha512-N7+wxNqxonaiwolC3Tkh8MRofBMs/L26I/P7L4JEnD7dKtYSK1NvLABwvLExwEDDgesBlrAQ/o1HF5DcDh3/rw==";
+        };
     in {
         "WzyKGQMj" = _WzyKGQMj;
         "xhewdJqq" = _xhewdJqq;
@@ -44,7 +49,8 @@ let
         "UzZKNJEe" = _UzZKNJEe;
         "antxPts2" = _antxPts2;
         "vRuSLL1o" = _vRuSLL1o;
-        "neoforge-1.21.1" = _vRuSLL1o;
+        "Jmb21Gus" = _Jmb21Gus;
+        "neoforge-1.21.1" = _Jmb21Gus;
         "forge-1.20.1" = _PZUq1q4K;
         "pkg-1.0.0" = _WzyKGQMj;
         "pkg-1.0.1" = _xhewdJqq;
@@ -52,7 +58,8 @@ let
         "pkg-1.1.0" = _UzZKNJEe;
         "pkg-1.1.1" = _antxPts2;
         "pkg-1.1.2" = _vRuSLL1o;
-        "default" = _vRuSLL1o;
+        "pkg-1.1.3" = _Jmb21Gus;
+        "default" = _Jmb21Gus;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pmshaders";

@@ -2571,6 +2571,11 @@ let
             "file" = "angelblock-26.3-3.14.0-beta.jar";
             "hash" = "sha512-A0fXguIOPhG6cwc0SFIynGCF92fHGZCEcxpCMfwh3Al0jNc4RFa4zFtEJ19X4JBnqOBVOeWV+4g6+xtuMPFL5g==";
         };
+        _24qOjZsK = {
+            "id" = "24qOjZsK";
+            "file" = "angelblock-26.3-3.14.0.jar";
+            "hash" = "sha512-i3HPRNesN/Um0f7T41SGo2kTatefKc/2Wxeh/uC/4GtI/cawgY1S3Ke70050z3yLEtJbU1brnXhWrd75lUB90g==";
+        };
     in {
         "XU4vhKxb" = _XU4vhKxb;
         "24sZAWEc" = _24sZAWEc;
@@ -3086,6 +3091,7 @@ let
         "9cyRGTkp" = _9cyRGTkp;
         "tkij8h6l" = _tkij8h6l;
         "15QrNqUj" = _15QrNqUj;
+        "24qOjZsK" = _24qOjZsK;
         "neoforge-1.21.4" = _GRCbjnPr;
         "neoforge-1.21.5" = _tK0BTyBs;
         "neoforge-1.21.1" = _UJLcJjSA;
@@ -3100,7 +3106,7 @@ let
         "neoforge-26.1.1" = _2zXhb3Uu;
         "neoforge-26.1.2" = _9cyRGTkp;
         "neoforge-26.2" = _tkij8h6l;
-        "neoforge-26.3" = _15QrNqUj;
+        "neoforge-26.3" = _24qOjZsK;
         "pkg-1.21.4-1.1.5" = _XU4vhKxb;
         "pkg-1.21.5-1.0.3-beta" = _24sZAWEc;
         "pkg-1.21.4-1.1.6" = _zSyCrZtf;
@@ -3615,7 +3621,8 @@ let
         "pkg-26.1.2-3.14.0" = _9cyRGTkp;
         "pkg-26.2-3.14.0" = _tkij8h6l;
         "pkg-26.3-3.14.0-beta" = _15QrNqUj;
-        "default" = _15QrNqUj;
+        "pkg-26.3-3.14.0" = _24qOjZsK;
+        "default" = _24qOjZsK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "angel-block-mod";

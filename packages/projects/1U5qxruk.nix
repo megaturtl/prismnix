@@ -126,6 +126,11 @@ let
             "file" = "DaydreamREBORN1.1.14beta1.jar";
             "hash" = "sha512-j12a7ChMdubZC8VrSPwWP8B98b6oskoUk486mYULn3yBDMouwaqSG0q89r/eXK9ntAa6HvI7+hjy0UtzJUkFZw==";
         };
+        _18PmH0d7 = {
+            "id" = "18PmH0d7";
+            "file" = "DaydreamREBORN1.2.0.jar";
+            "hash" = "sha512-ht4255Y4kyvdzRujFNNv0k6Vjc6AoGjLwX9paW1RcsyHBv2MIew/ZIuCEXm3C12pScAKYy34PRPWIwiJ0tFtFw==";
+        };
     in {
         "FwBoZ02R" = _FwBoZ02R;
         "Y3Io2N5B" = _Y3Io2N5B;
@@ -152,7 +157,8 @@ let
         "AvobFjKe" = _AvobFjKe;
         "z9gcXHhY" = _z9gcXHhY;
         "tghe5Mh3" = _tghe5Mh3;
-        "neoforge-1.21.1" = _tghe5Mh3;
+        "18PmH0d7" = _18PmH0d7;
+        "neoforge-1.21.1" = _18PmH0d7;
         "pkg-1.1.5" = _FwBoZ02R;
         "pkg-1.1.6" = _Y3Io2N5B;
         "pkg-1.1.7" = _yY7ej6Nl;
@@ -178,7 +184,8 @@ let
         "pkg-1.1.13beta1" = _AvobFjKe;
         "pkg-1.1.14" = _z9gcXHhY;
         "pkg-1.1.14beta1" = _tghe5Mh3;
-        "default" = _tghe5Mh3;
+        "pkg-1.2.0" = _18PmH0d7;
+        "default" = _18PmH0d7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "daydram-glittering";

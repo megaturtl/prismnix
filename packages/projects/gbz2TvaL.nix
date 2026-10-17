@@ -186,6 +186,11 @@ let
             "file" = "arknights_endfield-1.0.3-1.21.1.jar";
             "hash" = "sha512-0ByRLCbZy+U/xtzR6ZyXy5pQZgvi7pPzqygwx2jm2xE3thys3ngOCUYk/e1mT9BA+LyXffqbpeMWnLRGJQI62A==";
         };
+        _j2nU3Zs2 = {
+            "id" = "j2nU3Zs2";
+            "file" = "arknights_endfield-1.3.0-1.20.1-beta.jar";
+            "hash" = "sha512-vigtbYgweUxMrhsFBb+1mn+oLuD65lqCwplWYrYeU39EOIUfxXry4c/4qF90FbbbG7LMdLY1+w9a3Nlx70n6hg==";
+        };
     in {
         "89VswudI" = _89VswudI;
         "GwPWfydX" = _GwPWfydX;
@@ -224,8 +229,9 @@ let
         "aOB1L9vK" = _aOB1L9vK;
         "haCuXgme" = _haCuXgme;
         "D55CQRgJ" = _D55CQRgJ;
+        "j2nU3Zs2" = _j2nU3Zs2;
         "forge-1.20.1" = _haCuXgme;
-        "fabric-1.20.1" = _aOB1L9vK;
+        "fabric-1.20.1" = _j2nU3Zs2;
         "neoforge-1.21.1" = _D55CQRgJ;
         "pkg-0.1.0-1.20.1-beta" = _GwPWfydX;
         "pkg-0.1.1-1.20.1-beta-Forge" = _5dOPajna;
@@ -263,7 +269,8 @@ let
         "pkg-1.0.3-1.20.1-Fabric" = _aOB1L9vK;
         "pkg-1.0.3-1.20.1-Forge" = _haCuXgme;
         "pkg-1.0.3-1.21.1-NeoForge" = _D55CQRgJ;
-        "default" = _D55CQRgJ;
+        "pkg-1.3.0-1.20.1-beta-Fabric" = _j2nU3Zs2;
+        "default" = _j2nU3Zs2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "endfield-industry";

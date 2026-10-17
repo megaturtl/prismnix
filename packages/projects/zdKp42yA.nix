@@ -21,16 +21,29 @@ let
             "file" = "whitealbum-fabric-1.1.0.jar";
             "hash" = "sha512-CR+ZTCtVmTSgnkcIgERr7+NGEfFvtYChH4DoCXOieZ68SJYZomPrfiFBhKhZKnL4gm9+mfgkjhEyUTki37Lf2Q==";
         };
+        _CyCzDS55 = {
+            "id" = "CyCzDS55";
+            "file" = "whitealbum-fabric-2.0.0.jar";
+            "hash" = "sha512-YBStYNmaRycTssEVoRh5gaskaSAEkI+Q62mbtR22zutorDEeuVYAkHnee64u87BAy5ix3RxOQ9QxkxkMQlt/sA==";
+        };
+        _d4G9r71H = {
+            "id" = "d4G9r71H";
+            "file" = "whitealbum-forge-2.0.0.jar";
+            "hash" = "sha512-f2KhKexu30N+Jnsk7VonR1qogjbWn95DEHZOD+cF2r1LHP5yf/3Ycv2zjXjtf7S3mwmsqezSxEcR0Xnv96JowA==";
+        };
     in {
         "Cg28xXMW" = _Cg28xXMW;
         "xJgNtbkz" = _xJgNtbkz;
         "Wq9bdyWD" = _Wq9bdyWD;
         "WrwKFfGO" = _WrwKFfGO;
-        "fabric-1.20.1" = _WrwKFfGO;
-        "forge-1.20.1" = _Wq9bdyWD;
+        "CyCzDS55" = _CyCzDS55;
+        "d4G9r71H" = _d4G9r71H;
+        "fabric-1.20.1" = _CyCzDS55;
+        "forge-1.20.1" = _d4G9r71H;
         "pkg-1.0.0" = _xJgNtbkz;
         "pkg-1.1.0" = _WrwKFfGO;
-        "default" = _WrwKFfGO;
+        "pkg-2.0.0" = _d4G9r71H;
+        "default" = _d4G9r71H;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "white-album-jcraft-addon";

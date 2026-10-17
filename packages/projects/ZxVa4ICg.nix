@@ -176,6 +176,51 @@ let
             "file" = "chat_highlight_n_sound-1.2.0.jar";
             "hash" = "sha512-qIa6nO/ODPKy6CKHYfKCFsuE4IOT04vUoXPONlcMZw2bUuK5Dsg3/GKl5egc8El7i7a2rAXapmW5uh+7yJGoEA==";
         };
+        _Ylqhuah8 = {
+            "id" = "Ylqhuah8";
+            "file" = "chat_highlight_n_sound-1.2.1.jar";
+            "hash" = "sha512-D12GLwjmtOrbmXhcN7ai7NmrXJnrym7Vd2Rum4ycqdM9Cwmx/6g+HhSHWQqmk7f03ATjlAxPQrZLj/wbQ3lofw==";
+        };
+        _GthpKSoA = {
+            "id" = "GthpKSoA";
+            "file" = "chat_highlight_n_sound-1.2.1.jar";
+            "hash" = "sha512-KOqg1aGS2czP2LDU79AE2Sc0JFsoSO3vlr70n3XH+ehI380xorqts8dM77q6Z/EMoIxHkK734zpJBEirq+6iYQ==";
+        };
+        _wXsJXUGs = {
+            "id" = "wXsJXUGs";
+            "file" = "chat_highlight_n_sound-1.2.1.jar";
+            "hash" = "sha512-95kdEm3MlThpttfUhePX4FDUwk7wUcaMwldI33hN0Syp9Yk1X3qwsAJKl6E/+JX/wemhaFvgxD1XvqBfZH/pOw==";
+        };
+        _jhr6SVaG = {
+            "id" = "jhr6SVaG";
+            "file" = "chat_highlight_n_sound-1.2.1.jar";
+            "hash" = "sha512-DC/ALpOE2ABuWF7OhlK/VfqWrJ41I/S7yCUFAWbfnY8/dmdBQ1BF7uRBTaS2JjoBGqdo3drBcQy9xBMSxztWeA==";
+        };
+        _BWVsO2IJ = {
+            "id" = "BWVsO2IJ";
+            "file" = "chat_highlight_n_sound-1.2.1.jar";
+            "hash" = "sha512-4u/Hf6vqmG468I/gWIbfhWPCKg/aY3syKWqms8Nih3LC52UhslwI6zD6IXjmI8lT5buknyhZ3CDuXX1IaN8UXw==";
+        };
+        _9mpp7xpL = {
+            "id" = "9mpp7xpL";
+            "file" = "chat_highlight_n_sound-1.2.1.jar";
+            "hash" = "sha512-btf8jDWqI1v+RpnINvyO0ZzXJdsaaANAfPepJae7KSwsxEnrE3Hc93wWUMoauqkuibVM/il0zOtMzk+1Hnh66g==";
+        };
+        _DhMZjtdO = {
+            "id" = "DhMZjtdO";
+            "file" = "chat_highlight_n_sound-1.2.1.jar";
+            "hash" = "sha512-ksAQOQY9sq22/Li9gg8KhxwiW+To7pM2O6yww3y3b7GqktFFxosyIQ/6vMxxwWCEYWBM+gDav0xo4NTc6t2ilA==";
+        };
+        _gUsH43ef = {
+            "id" = "gUsH43ef";
+            "file" = "chat_highlight_n_sound-1.2.1.jar";
+            "hash" = "sha512-ESX5AszptTilcA9iPmU/TCUfEKVsETgKYrFVg/5vQfoFJmGYrqs/UnKLbh/Ggdzenhr8NW9Va94pE2kIQCPKew==";
+        };
+        _8kPnaRgv = {
+            "id" = "8kPnaRgv";
+            "file" = "chat_highlight_n_sound-1.2.1.jar";
+            "hash" = "sha512-aQH9HGkmfi79OVmpOBl17xJv6cBgWwgy3sw9baQpJ7y2NVx1Rox1KCawtf+KdcCgnhoW8uI/eFJksXxUYfkpnA==";
+        };
     in {
         "Ci1JSQyK" = _Ci1JSQyK;
         "ntYqUbkA" = _ntYqUbkA;
@@ -212,18 +257,29 @@ let
         "7HIiGQK9" = _7HIiGQK9;
         "ememvXTL" = _ememvXTL;
         "5an1I5Bl" = _5an1I5Bl;
-        "forge-1.20.1" = _Ae4iZSAZ;
+        "Ylqhuah8" = _Ylqhuah8;
+        "GthpKSoA" = _GthpKSoA;
+        "wXsJXUGs" = _wXsJXUGs;
+        "jhr6SVaG" = _jhr6SVaG;
+        "BWVsO2IJ" = _BWVsO2IJ;
+        "9mpp7xpL" = _9mpp7xpL;
+        "DhMZjtdO" = _DhMZjtdO;
+        "gUsH43ef" = _gUsH43ef;
+        "8kPnaRgv" = _8kPnaRgv;
+        "forge-1.20.1" = _GthpKSoA;
         "neoforge-1.21.10" = _ntYqUbkA;
-        "neoforge-1.21.1" = _eMEHbW6Z;
+        "neoforge-1.21.1" = _jhr6SVaG;
+        "neoforge-26.3" = _8kPnaRgv;
         "fabric-1.21.10" = _7HIiGQK9;
         "fabric-1.21.8" = _wFdiigbp;
-        "fabric-1.21.11" = _7HIiGQK9;
-        "fabric-26.1.2" = _ememvXTL;
-        "fabric-26.1" = _ememvXTL;
-        "fabric-26.1.1" = _ememvXTL;
-        "fabric-26.2" = _5an1I5Bl;
-        "fabric-1.20.1" = _XcCwV45k;
-        "fabric-1.21.1" = _3eRHHRHK;
+        "fabric-1.21.11" = _BWVsO2IJ;
+        "fabric-26.1.2" = _9mpp7xpL;
+        "fabric-26.1" = _9mpp7xpL;
+        "fabric-26.1.1" = _9mpp7xpL;
+        "fabric-26.2" = _DhMZjtdO;
+        "fabric-1.20.1" = _Ylqhuah8;
+        "fabric-1.21.1" = _wXsJXUGs;
+        "fabric-26.3" = _gUsH43ef;
         "pkg-1.0.0" = _wFdiigbp;
         "pkg-1.0.1" = _wWIc0BXT;
         "pkg-1.0.2" = _DQmjIqOA;
@@ -237,7 +293,8 @@ let
         "pkg-1.1.4" = _tqylDC8j;
         "pkg-1.1.4-2" = _dIb8Hh6E;
         "pkg-1.2.0" = _5an1I5Bl;
-        "default" = _5an1I5Bl;
+        "pkg-1.2.1" = _8kPnaRgv;
+        "default" = _8kPnaRgv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chat-highlight-n-sound";

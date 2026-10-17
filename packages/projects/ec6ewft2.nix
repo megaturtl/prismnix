@@ -36,6 +36,11 @@ let
             "file" = "safepaths-2.0.1.jar";
             "hash" = "sha512-UTYzTlA9/yW1UZdpiZiWSjc91exsjLrCMujQClCTUo1LkE51mlq08dHn/ptj1MXEy3a2jWj74fb5PLZFMNR1cw==";
         };
+        _nE5r6Dwp = {
+            "id" = "nE5r6Dwp";
+            "file" = "safepaths-2.0.1-1.20.1-forge.jar";
+            "hash" = "sha512-u7u4jF2gNXkNzrNB4qU917+AJkoaXLj1EvZGdF+Kl0Z+kBWCEoeM/9SW2SscKD/LCcyCvvv/IgyS7QLx7H2A6Q==";
+        };
     in {
         "WpVKTCja" = _WpVKTCja;
         "T0RtUInc" = _T0RtUInc;
@@ -44,15 +49,17 @@ let
         "ON9bz0De" = _ON9bz0De;
         "dLTyHAiw" = _dLTyHAiw;
         "i7Xp8PMP" = _i7Xp8PMP;
+        "nE5r6Dwp" = _nE5r6Dwp;
         "neoforge-1.21.1" = _i7Xp8PMP;
+        "forge-1.20.1" = _nE5r6Dwp;
         "pkg-1.0.0" = _WpVKTCja;
         "pkg-1.0.1" = _T0RtUInc;
         "pkg-1.0.2" = _tMg8nVWQ;
         "pkg-1.1.0" = _BgIUpvfd;
         "pkg-1.2.0" = _ON9bz0De;
         "pkg-2.0.0" = _dLTyHAiw;
-        "pkg-2.0.1" = _i7Xp8PMP;
-        "default" = _i7Xp8PMP;
+        "pkg-2.0.1" = _nE5r6Dwp;
+        "default" = _nE5r6Dwp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "safepaths";

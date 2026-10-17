@@ -46,6 +46,11 @@ let
             "file" = "cbc_firepower_components-neoforge-1.21.1-0.4.2+mc.1.21.1-neoforge.jar";
             "hash" = "sha512-wcc62TNo+KwG6HQ/Vv9W9RoQXuPEO7R2hpfpAcHy+t/I2Yf+y0YrbJDcHfid7EVsFMct8PaBr+b2sUiOEXjOkQ==";
         };
+        _ib0YOkuc = {
+            "id" = "ib0YOkuc";
+            "file" = "cbc_firepower_components-neoforge-1.21.1-0.4.4+mc.1.21.1-neoforge.jar";
+            "hash" = "sha512-86LlbjkOEoqCT8OTPu47Puy60oiUGCNBteQvSlmeQNxWiE0ichkkfUK6h1rv85DGRbPr8VY8owtRJfbTlK73xw==";
+        };
     in {
         "qxamTIad" = _qxamTIad;
         "aCLWg61J" = _aCLWg61J;
@@ -56,7 +61,8 @@ let
         "4695joRq" = _4695joRq;
         "8G09rkh2" = _8G09rkh2;
         "MIIQsPeB" = _MIIQsPeB;
-        "neoforge-1.21.1" = _MIIQsPeB;
+        "ib0YOkuc" = _ib0YOkuc;
+        "neoforge-1.21.1" = _ib0YOkuc;
         "forge-1.20.1" = _c0n1Dpxn;
         "pkg-0.1.6" = _qxamTIad;
         "pkg-0.1.5" = _aCLWg61J;
@@ -65,7 +71,8 @@ let
         "pkg-0.3.2" = _4695joRq;
         "pkg-0.4.0" = _8G09rkh2;
         "pkg-0.4.2" = _MIIQsPeB;
-        "default" = _MIIQsPeB;
+        "pkg-0.4.4" = _ib0YOkuc;
+        "default" = _ib0YOkuc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cbc-firepower-components";

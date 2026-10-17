@@ -41,6 +41,11 @@ let
             "file" = "pocket-0.20.1.jar";
             "hash" = "sha512-fST1rayxwzBztM7DLALapTdRBZa/y5XglCU9cbkxLdEgNQRAA3JQ+UUMPTqNgJZ1PlP/cFFlLDxSOWYaphztEQ==";
         };
+        _loauwxsG = {
+            "id" = "loauwxsG";
+            "file" = "pocket-0.21.0.jar";
+            "hash" = "sha512-rCtDe+D1doi/vyPmSyFNU5fTO77Fyks6nG1ofK5/B3YXnOlMnKWyhNe0cghkuKY68EptIZBH0RiLRYyS8LKKzA==";
+        };
     in {
         "nDqeJ3um" = _nDqeJ3um;
         "JPS12nJJ" = _JPS12nJJ;
@@ -50,7 +55,8 @@ let
         "bpGqliCB" = _bpGqliCB;
         "Ywtiurnv" = _Ywtiurnv;
         "5APN0wIs" = _5APN0wIs;
-        "neoforge-1.21.1" = _5APN0wIs;
+        "loauwxsG" = _loauwxsG;
+        "neoforge-1.21.1" = _loauwxsG;
         "pkg-0.14.1" = _nDqeJ3um;
         "pkg-0.18.0" = _JPS12nJJ;
         "pkg-0.18.2" = _7swgAkRz;
@@ -59,7 +65,8 @@ let
         "pkg-0.19.2" = _bpGqliCB;
         "pkg-0.20.0" = _Ywtiurnv;
         "pkg-0.20.1" = _5APN0wIs;
-        "default" = _5APN0wIs;
+        "pkg-0.21.0" = _loauwxsG;
+        "default" = _loauwxsG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-pocket-sized";

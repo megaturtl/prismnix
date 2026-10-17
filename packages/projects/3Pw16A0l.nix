@@ -36,6 +36,16 @@ let
             "file" = "trimresonance-neoforge-2.1.1.jar";
             "hash" = "sha512-8UoiWIFYeKLtZLf/5MgK9CYd71RhON6YxfnWx6+ODjopHyuVxLxhDN92Ep9hWUo/wKmJ2D/jp4cnNxvo6e1gPw==";
         };
+        _VOoXyGzq = {
+            "id" = "VOoXyGzq";
+            "file" = "trimresonance-neoforge-2.1.2.jar";
+            "hash" = "sha512-rS43jyijIuGRaaxBeff2pERId5ttF7fbZhOneezfiosvvEo4vdTSdwh/gtDuM9S8wT5vB1LBULY6P0DjzfhUSw==";
+        };
+        _q5mZLmQ8 = {
+            "id" = "q5mZLmQ8";
+            "file" = "trimresonance-fabric-2.1.2.jar";
+            "hash" = "sha512-E+Uual1Mm5N1q0nr4gvljnrvKPjHW0gMMi/o41v7Mkm+ioT8oAlQRygHqNugZ2lDcwZpqdI+PkwYs3lkJMcV5w==";
+        };
     in {
         "UrjucMfd" = _UrjucMfd;
         "njUfLVBH" = _njUfLVBH;
@@ -44,17 +54,20 @@ let
         "yyuyvGrU" = _yyuyvGrU;
         "HaXR9UDd" = _HaXR9UDd;
         "Xy8zmwS2" = _Xy8zmwS2;
+        "VOoXyGzq" = _VOoXyGzq;
+        "q5mZLmQ8" = _q5mZLmQ8;
         "fabric-1.21.11" = _njUfLVBH;
         "fabric-26.1.2" = _tcMafYLA;
-        "fabric-26.2" = _HaXR9UDd;
+        "fabric-26.2" = _q5mZLmQ8;
         "neoforge-26.1.2" = _YucBHI6u;
-        "neoforge-26.2" = _Xy8zmwS2;
+        "neoforge-26.2" = _VOoXyGzq;
         "pkg-1.0.0" = _UrjucMfd;
         "pkg-1.0.1" = _njUfLVBH;
         "pkg-2.0.0" = _YucBHI6u;
         "pkg-2.1.0" = _yyuyvGrU;
         "pkg-2.1.1" = _Xy8zmwS2;
-        "default" = _Xy8zmwS2;
+        "pkg-2.1.2" = _q5mZLmQ8;
+        "default" = _q5mZLmQ8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trim-resonance";

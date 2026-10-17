@@ -111,6 +111,11 @@ let
             "file" = "blossomsuite-0.9.9.jar";
             "hash" = "sha512-9EdA6Fc7z/j9nYuUymY8Vrn+I7/6T7F5bYPxWdzak+u0Zltg34ggiQIXyFQRrOfWBj3OrO1MsV6qdzXLqsWeog==";
         };
+        _OGatU5Wd = {
+            "id" = "OGatU5Wd";
+            "file" = "blossomsuite-0.9.10.jar";
+            "hash" = "sha512-tsmr3H65NOjg6k2MXPtQw6+XF+fickzRt/0tQFF5DBJRkTNw/ftKORREQx2dpd9QvnXAWCSwHT8NvkTLLdoxGA==";
+        };
     in {
         "2ECWbM84" = _2ECWbM84;
         "gplSbXd1" = _gplSbXd1;
@@ -134,8 +139,9 @@ let
         "pabSanXb" = _pabSanXb;
         "aPrqhJtB" = _aPrqhJtB;
         "rIKaYmqS" = _rIKaYmqS;
+        "OGatU5Wd" = _OGatU5Wd;
         "fabric-1.21.8" = _pabSanXb;
-        "fabric-26.1.2" = _rIKaYmqS;
+        "fabric-26.1.2" = _OGatU5Wd;
         "pkg-0.1.0" = _2ECWbM84;
         "pkg-0.2.0" = _gplSbXd1;
         "pkg-0.3.0" = _F5pFKOYO;
@@ -158,7 +164,8 @@ let
         "pkg-0.9.8" = _pabSanXb;
         "pkg-0.9.8+26.1.2" = _aPrqhJtB;
         "pkg-0.9.9" = _rIKaYmqS;
-        "default" = _rIKaYmqS;
+        "pkg-0.9.10" = _OGatU5Wd;
+        "default" = _OGatU5Wd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blossomsuite";

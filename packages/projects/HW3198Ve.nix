@@ -766,6 +766,81 @@ let
             "file" = "wizards-of-lua-6.3.0-26.3.jar";
             "hash" = "sha512-61JxBpZxPs7DgCwT6v7cq3vGP8MbVsldSnsNbe81oP7W/ynFdP/bjXjtiQuB0hS+FPXaZ7F9a+dmUiLqPzDfRw==";
         };
+        _hCInnZdF = {
+            "id" = "hCInnZdF";
+            "file" = "wizards-of-lua-7.0.0-1.21.1.jar";
+            "hash" = "sha512-zLQ4jFreoXCPCwRDAYJ4h0jkrfXgeHkJj0rjRiXPHgy9d8DuMVYO7OVVIjMqK6XnUPMcI+/ekDxEsBWzckXi/g==";
+        };
+        _lasYp9ah = {
+            "id" = "lasYp9ah";
+            "file" = "wizards-of-lua-7.0.0-1.21.2.jar";
+            "hash" = "sha512-z4xPkKaVuGSPnmP/zAFWmcX3mrHKEle9vhiZ/yC184a/plkTv5M/kcMHbY3xaw1R4zYeIpWFLghW855l605zlw==";
+        };
+        _8LEfac2R = {
+            "id" = "8LEfac2R";
+            "file" = "wizards-of-lua-7.0.0-1.21.3.jar";
+            "hash" = "sha512-nCDF9LB5wxD+P15fEHNJBUZzeeXdoC9LUlVIQa6oH8pp8Ux/TI0CmpfrktmQWi96oO4Bm8UEaS8fhe0E4eR+nw==";
+        };
+        _ddqTIOXG = {
+            "id" = "ddqTIOXG";
+            "file" = "wizards-of-lua-7.0.0-1.21.4.jar";
+            "hash" = "sha512-sTDJ0CBWPDHvndjhc2rE4KQ56lFTjLnwhycK7G9n0s6b+7uUOSBPcg89KxB5OzJUu7C6bIaGRzldfzaQIbeoxA==";
+        };
+        _tYLubZ3n = {
+            "id" = "tYLubZ3n";
+            "file" = "wizards-of-lua-7.0.0-1.21.5.jar";
+            "hash" = "sha512-UNFNd8XuJgU/LHt3lczrwK/VpcelyBCFNnpph1FLyrtUsTe0ANYZPrJZU3hrN4AaykD5N0UznFtL0bW1EMmPBw==";
+        };
+        _Vqmyd02F = {
+            "id" = "Vqmyd02F";
+            "file" = "wizards-of-lua-7.0.0-1.21.6.jar";
+            "hash" = "sha512-2UwsomzJrYuBblC1zCYf+S15J5a/IgLCmeGJJLAC8uQKlkjZ2iE4xn0Yhg0bXHGnOzmIKDxpOtLWP9fM7ESZRg==";
+        };
+        _zjn11SXn = {
+            "id" = "zjn11SXn";
+            "file" = "wizards-of-lua-7.0.0-1.21.7.jar";
+            "hash" = "sha512-EPzgdvqcCES52H74afh0rF8s+2UKFbRl5BoTvaqIjj27dQiKKinMCTDBy0ccEF2EY5wME2ECXYI9Xn2C1doIvg==";
+        };
+        _38KFu7MF = {
+            "id" = "38KFu7MF";
+            "file" = "wizards-of-lua-7.0.0-1.21.8.jar";
+            "hash" = "sha512-oO6yxy7HdeRFyl5CENPwdx2XboXCgRkIGhQX8sYQjRd5GDb7MNzeFksa75cY1obWX6jvSiL2dGPoWDsDPvhbOA==";
+        };
+        _lT3u8pGA = {
+            "id" = "lT3u8pGA";
+            "file" = "wizards-of-lua-7.0.0-1.21.9.jar";
+            "hash" = "sha512-maHcGpA9bU9kaV0+yYZegtswlzRhIIVP5yKhmQi0rp5WQvoN1l8jnoLR82FnFKA2tEvulE52zkQ6Oi0zgX/kKQ==";
+        };
+        _ng3kT90w = {
+            "id" = "ng3kT90w";
+            "file" = "wizards-of-lua-7.0.0-1.21.10.jar";
+            "hash" = "sha512-O1OIw60IIKUddeP7ebNM6lWCAVTtTWtqckFsBQeYQzK29PHBMVo6rkB9vRNq7shNTV+MSg+iRMfdBRjx1xnP+w==";
+        };
+        _AJL5Jdit = {
+            "id" = "AJL5Jdit";
+            "file" = "wizards-of-lua-7.0.0-1.21.11.jar";
+            "hash" = "sha512-AZiG5I/dmkaBBsWt7Vx1EMc8lIGFIzld06AoDymaQR8Lnu592JrdHYURDiGwBIxi5wem4sW+3DUCrfy0ycHcbA==";
+        };
+        _Ivm639Jk = {
+            "id" = "Ivm639Jk";
+            "file" = "wizards-of-lua-7.0.0-26.1.1.jar";
+            "hash" = "sha512-7/84i25M5ZqKKNZZcmpF9oQS99eNLnXUpJpCJPjGWieJXRuIXdjjN0Mw2nVYVAHDL7GWKkaiP1iSAgJtAiWtjw==";
+        };
+        _XzjoV9Bd = {
+            "id" = "XzjoV9Bd";
+            "file" = "wizards-of-lua-7.0.0-26.1.2.jar";
+            "hash" = "sha512-n4dqklQr2+RiLYMuR+zTCqKIt+0hgFU5GhPeazBJGOj2ZoYVGVNKgdIJSlOR80/1k66nnYB19LEonzRRtnNxyw==";
+        };
+        _2xKeh7V6 = {
+            "id" = "2xKeh7V6";
+            "file" = "wizards-of-lua-7.0.0-26.2.jar";
+            "hash" = "sha512-n0U9+2bwF+vOvIGch7F2su+xPSSusCmBg+/V5Q2j7Q9lkNl8PyZmycV8J5vlZXtiML7qyyr7wo9gx+xv7+dFtg==";
+        };
+        _1gujtTrT = {
+            "id" = "1gujtTrT";
+            "file" = "wizards-of-lua-7.0.0-26.3.jar";
+            "hash" = "sha512-mbnZ6hjrArvVkMm7RWa6N4OIp8fNvojISrpnE2kAV8H+TRqfKkBNeB8W10bL1gZgth9pTBOKuATvmMbo7ykUKw==";
+        };
     in {
         "dO2KkJ7U" = _dO2KkJ7U;
         "JNE5ljaO" = _JNE5ljaO;
@@ -920,21 +995,36 @@ let
         "96G0ZiPR" = _96G0ZiPR;
         "7XfPZUys" = _7XfPZUys;
         "I2oUWckh" = _I2oUWckh;
-        "fabric-1.21.1" = _huM0ACIm;
-        "fabric-1.21.2" = _FPq9PKBx;
-        "fabric-1.21.4" = _a9JoxT3X;
-        "fabric-1.21.8" = _ZYxzwl27;
-        "fabric-1.21.9" = _3rijUn56;
-        "fabric-1.21.10" = _yA9fpMmd;
-        "fabric-1.21.11" = _p87scvIf;
-        "fabric-26.1.2" = _96G0ZiPR;
-        "fabric-26.2" = _7XfPZUys;
-        "fabric-26.3" = _I2oUWckh;
-        "fabric-1.21.3" = _odxn7L37;
-        "fabric-1.21.5" = _POs7vSxr;
-        "fabric-1.21.6" = _NEGg9clw;
-        "fabric-1.21.7" = _OURhI65x;
-        "fabric-26.1.1" = _vURgAcQ9;
+        "hCInnZdF" = _hCInnZdF;
+        "lasYp9ah" = _lasYp9ah;
+        "8LEfac2R" = _8LEfac2R;
+        "ddqTIOXG" = _ddqTIOXG;
+        "tYLubZ3n" = _tYLubZ3n;
+        "Vqmyd02F" = _Vqmyd02F;
+        "zjn11SXn" = _zjn11SXn;
+        "38KFu7MF" = _38KFu7MF;
+        "lT3u8pGA" = _lT3u8pGA;
+        "ng3kT90w" = _ng3kT90w;
+        "AJL5Jdit" = _AJL5Jdit;
+        "Ivm639Jk" = _Ivm639Jk;
+        "XzjoV9Bd" = _XzjoV9Bd;
+        "2xKeh7V6" = _2xKeh7V6;
+        "1gujtTrT" = _1gujtTrT;
+        "fabric-1.21.1" = _hCInnZdF;
+        "fabric-1.21.2" = _lasYp9ah;
+        "fabric-1.21.4" = _ddqTIOXG;
+        "fabric-1.21.8" = _38KFu7MF;
+        "fabric-1.21.9" = _lT3u8pGA;
+        "fabric-1.21.10" = _ng3kT90w;
+        "fabric-1.21.11" = _AJL5Jdit;
+        "fabric-26.1.2" = _XzjoV9Bd;
+        "fabric-26.2" = _2xKeh7V6;
+        "fabric-26.3" = _1gujtTrT;
+        "fabric-1.21.3" = _8LEfac2R;
+        "fabric-1.21.5" = _tYLubZ3n;
+        "fabric-1.21.6" = _Vqmyd02F;
+        "fabric-1.21.7" = _zjn11SXn;
+        "fabric-26.1.1" = _Ivm639Jk;
         "pkg-1.0.0-1.21.1" = _dO2KkJ7U;
         "pkg-1.1.0-1.21.1" = _JNE5ljaO;
         "pkg-1.2.0-1.21.1" = _VUr7Dntq;
@@ -1088,7 +1178,22 @@ let
         "pkg-6.3.0-26.1.2" = _96G0ZiPR;
         "pkg-6.3.0-26.2" = _7XfPZUys;
         "pkg-6.3.0-26.3" = _I2oUWckh;
-        "default" = _I2oUWckh;
+        "pkg-7.0.0-1.21.1" = _hCInnZdF;
+        "pkg-7.0.0-1.21.2" = _lasYp9ah;
+        "pkg-7.0.0-1.21.3" = _8LEfac2R;
+        "pkg-7.0.0-1.21.4" = _ddqTIOXG;
+        "pkg-7.0.0-1.21.5" = _tYLubZ3n;
+        "pkg-7.0.0-1.21.6" = _Vqmyd02F;
+        "pkg-7.0.0-1.21.7" = _zjn11SXn;
+        "pkg-7.0.0-1.21.8" = _38KFu7MF;
+        "pkg-7.0.0-1.21.9" = _lT3u8pGA;
+        "pkg-7.0.0-1.21.10" = _ng3kT90w;
+        "pkg-7.0.0-1.21.11" = _AJL5Jdit;
+        "pkg-7.0.0-26.1.1" = _Ivm639Jk;
+        "pkg-7.0.0-26.1.2" = _XzjoV9Bd;
+        "pkg-7.0.0-26.2" = _2xKeh7V6;
+        "pkg-7.0.0-26.3" = _1gujtTrT;
+        "default" = _1gujtTrT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wizards-of-lua";

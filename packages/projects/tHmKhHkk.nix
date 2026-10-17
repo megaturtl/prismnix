@@ -166,6 +166,11 @@ let
             "file" = "bigger_ae2-1.20.1-20.2.1.jar";
             "hash" = "sha512-vBwotBGgnyjQr2TTuBfoHJquAEUcDrNHYOSn2pqHeKreyUAcRvrlhmWt4IxXhhZL3lH5tvKLBNQ6TwwBWhM/jQ==";
         };
+        _TsIHGCsV = {
+            "id" = "TsIHGCsV";
+            "file" = "bigger_ae2-1.21.1-21.2.2.jar";
+            "hash" = "sha512-fkmznN0+qEy8phRAq09AUqh5hosBtQeCnzy0jc8j3t2BP26FRHn+z8eP5RyT+51Aw8izGvWEN0vCsJLvhGq6vg==";
+        };
     in {
         "yEJtL9Do" = _yEJtL9Do;
         "LiRFwtqw" = _LiRFwtqw;
@@ -200,10 +205,11 @@ let
         "gonNhv6r" = _gonNhv6r;
         "VsHV30Lz" = _VsHV30Lz;
         "KwLq5PZr" = _KwLq5PZr;
+        "TsIHGCsV" = _TsIHGCsV;
         "forge-1.20.1" = _KwLq5PZr;
         "forge-1.19.2" = _jDe7LqlA;
         "neoforge-1.21" = _oEM9RR2Z;
-        "neoforge-1.21.1" = _gonNhv6r;
+        "neoforge-1.21.1" = _TsIHGCsV;
         "neoforge-26.1.2" = _VsHV30Lz;
         "pkg-1.0.0" = _yEJtL9Do;
         "pkg-1.20.1-1.1.0" = _LiRFwtqw;
@@ -236,7 +242,8 @@ let
         "pkg-21.2.1" = _gonNhv6r;
         "pkg-26.1.2.2.1" = _VsHV30Lz;
         "pkg-20.2.1" = _KwLq5PZr;
-        "default" = _KwLq5PZr;
+        "pkg-21.2.2" = _TsIHGCsV;
+        "default" = _TsIHGCsV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bigger-ae2";

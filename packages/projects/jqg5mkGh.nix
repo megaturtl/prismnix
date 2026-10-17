@@ -71,6 +71,11 @@ let
             "file" = "sulkan-0.5.1-26.3.jar";
             "hash" = "sha512-uLSjJo2bkSQJUrqB2iHKpcaKOaFC5ojrruYZXfateVt3j3rHyNLMC7mVKZSFvzUQ8tqEtA9MAntK/ewnzYihVA==";
         };
+        _pv37EISz = {
+            "id" = "pv37EISz";
+            "file" = "sulkan-0.6.0-26.3.jar";
+            "hash" = "sha512-Pdzqhma1y5iFbozdZbSeyegnHIavDUnZLRcK4D7dJzOnViQ3QEae+cGFOz+iZBe7nqEBc4NTsu0p8Abfb5iyfw==";
+        };
     in {
         "R5ObzL9R" = _R5ObzL9R;
         "EcMJPSuu" = _EcMJPSuu;
@@ -86,13 +91,14 @@ let
         "nCLRA6yu" = _nCLRA6yu;
         "ieWWKNI8" = _ieWWKNI8;
         "o5nFa0hw" = _o5nFa0hw;
+        "pv37EISz" = _pv37EISz;
         "fabric-26.2-snapshot-2" = _R5ObzL9R;
         "fabric-26.2-snapshot-3" = _EcMJPSuu;
         "fabric-26.2-snapshot-4" = _TN1nIQoe;
         "fabric-26.2-snapshot-5" = _qKmKoNTQ;
         "fabric-26.2-pre-3" = _gAtFGNca;
         "fabric-26.2" = _nCLRA6yu;
-        "fabric-26.3" = _o5nFa0hw;
+        "fabric-26.3" = _pv37EISz;
         "pkg-0.1.0-alpha" = _R5ObzL9R;
         "pkg-0.1.4-alpha" = _EcMJPSuu;
         "pkg-0.1.5" = _usqyNlBA;
@@ -107,7 +113,8 @@ let
         "pkg-0.4.2" = _nCLRA6yu;
         "pkg-0.5.0" = _ieWWKNI8;
         "pkg-0.5.1" = _o5nFa0hw;
-        "default" = _o5nFa0hw;
+        "pkg-0.6.0" = _pv37EISz;
+        "default" = _pv37EISz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sulkan";

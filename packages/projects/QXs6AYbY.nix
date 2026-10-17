@@ -51,6 +51,11 @@ let
             "file" = "zehunzcrop-1.21.1-fabric-1.0.35.jar";
             "hash" = "sha512-jFQbTCr/8Wm8D5bIzsNk85XEfvX4sfriLuy+AolYx+KX4htwPjUyx3zeSM8KnFqibiAOXk9RzizJZo2xoLW+FQ==";
         };
+        _TjTmoMGf = {
+            "id" = "TjTmoMGf";
+            "file" = "zehunzcrop-1.21.1-fabric-1.0.4.jar";
+            "hash" = "sha512-GZcAAsrAGw3XTxYGM+iRtXGAmyTlkYNUR6+8Fqj4twW9tm9ICYUhhioQJcqZfoixnT0PQzGKaYuLX/6o2bVS4w==";
+        };
     in {
         "xsSNBj1T" = _xsSNBj1T;
         "i7PcVXbt" = _i7PcVXbt;
@@ -62,8 +67,9 @@ let
         "vM6fgS0k" = _vM6fgS0k;
         "13YBVR33" = _13YBVR33;
         "UDZyU5yr" = _UDZyU5yr;
+        "TjTmoMGf" = _TjTmoMGf;
         "neoforge-1.21.1" = _13YBVR33;
-        "fabric-1.21.1" = _UDZyU5yr;
+        "fabric-1.21.1" = _TjTmoMGf;
         "pkg-1.0.0" = _i7PcVXbt;
         "pkg-1.0.1" = _hvEoGabX;
         "pkg-1.0.2" = _51nKiqxe;
@@ -71,7 +77,8 @@ let
         "pkg-1.0.3" = _vM6fgS0k;
         "pkg-1.0.25" = _13YBVR33;
         "pkg-1.0.35" = _UDZyU5yr;
-        "default" = _UDZyU5yr;
+        "pkg-1.0.4" = _TjTmoMGf;
+        "default" = _TjTmoMGf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zehunzs-crops";

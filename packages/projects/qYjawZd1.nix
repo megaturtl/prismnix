@@ -31,6 +31,16 @@ let
             "file" = "AZOTH_Xaeros_Icons_1.8.zip";
             "hash" = "sha512-doSLSTt/iB0WqMwAqoLLgeQrkX89M4fNb9OAfa8+7fV/bcUZsUzhkRlQINBcAcEVr9xhsRuV8NkUkXCttilc1w==";
         };
+        _uQsHx7Qk = {
+            "id" = "uQsHx7Qk";
+            "file" = "AZOTH_Xaeros_Icons-1.8.3.zip";
+            "hash" = "sha512-jSk+iTdMa6TjoYlM5YfYKxOHfR2VPzuhaI5OJaPiBusABsMUkmzcSqx6P+E+SMqZTNGebAY+eMTvtpDNjradmw==";
+        };
+        _hxaKqFs6 = {
+            "id" = "hxaKqFs6";
+            "file" = "AZOTH_JourneyMap_Icons-1.8.3.zip";
+            "hash" = "sha512-EXMTsU2mqPybaRHTKt4EvW9wa7/aHF7y1f3w78sHexcf2LevgvsvJ27ZXPjbs9IYdwy+MeR4GvdzXKMhQc8IUQ==";
+        };
     in {
         "nM6MaxPm" = _nM6MaxPm;
         "owpgURn2" = _owpgURn2;
@@ -38,12 +48,15 @@ let
         "vCkVv2bv" = _vCkVv2bv;
         "FX1rw09D" = _FX1rw09D;
         "8hDNDLnh" = _8hDNDLnh;
+        "uQsHx7Qk" = _uQsHx7Qk;
+        "hxaKqFs6" = _hxaKqFs6;
         "minecraft-1.21" = _vCkVv2bv;
-        "minecraft-1.21.1" = _8hDNDLnh;
+        "minecraft-1.21.1" = _hxaKqFs6;
         "pkg-1.0.0" = _owpgURn2;
         "pkg-1.1.0" = _vCkVv2bv;
         "pkg-1.8.0" = _8hDNDLnh;
-        "default" = _8hDNDLnh;
+        "pkg-1.8.2" = _hxaKqFs6;
+        "default" = _hxaKqFs6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "azoth-cobblemon-minimap-icons";

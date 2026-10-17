@@ -226,6 +226,21 @@ let
             "file" = "noworldbordertint-fabric-26.2-1.2.0.jar";
             "hash" = "sha512-j+cE3mr9NIJPXu5XvWM+5iTiSODC8yTxDUUoNqO4wv/FxACL8shwFYBWNbTefgiUcCxPjFmXPSDZ/5nQ7fjKAw==";
         };
+        _OKAr39ql = {
+            "id" = "OKAr39ql";
+            "file" = "noworldbordertint-fabric-26.3-1.2.0.jar";
+            "hash" = "sha512-nu1tD23glOqA1CfNdar5yuWJ3+uOhnJzNvSmvIdIVJrCXogdSpXjfD5WFjvAXfUKtUOMScKcD1jOD4R4wOPJ7g==";
+        };
+        _C2W4g0Fp = {
+            "id" = "C2W4g0Fp";
+            "file" = "noworldbordertint-forge-26.3-1.2.0.jar";
+            "hash" = "sha512-Tkr1A1nwhgyfAD+1YSDOSp8DjbEWytUcm9zie+xEkm8s+K0VwxpQdmg+3kHWPseeZGThCoG5KS851VTJ9xEOVg==";
+        };
+        _5v5Y4qPO = {
+            "id" = "5v5Y4qPO";
+            "file" = "noworldbordertint-neoforge-26.3-1.2.0.jar";
+            "hash" = "sha512-oEBWU0Q3IadiaStDlBSnxUe/xiwgRgYsPCbIU/O3q3WC7D4pzM+ydhY/WHGwvAu/XEeSxON0piOhULh/cSMilA==";
+        };
     in {
         "f0HEGhPT" = _f0HEGhPT;
         "Oe1lUvmF" = _Oe1lUvmF;
@@ -272,6 +287,9 @@ let
         "XpWi60cx" = _XpWi60cx;
         "gmGRVkoo" = _gmGRVkoo;
         "IKvMgKK5" = _IKvMgKK5;
+        "OKAr39ql" = _OKAr39ql;
+        "C2W4g0Fp" = _C2W4g0Fp;
+        "5v5Y4qPO" = _5v5Y4qPO;
         "fabric-1.21.3" = _f0HEGhPT;
         "fabric-1.20.6" = _Oe1lUvmF;
         "fabric-1.21.4" = _UxXRraqv;
@@ -286,6 +304,7 @@ let
         "fabric-26.1.1" = _PPH20e9p;
         "fabric-26.1.2" = _PPH20e9p;
         "fabric-26.2" = _IKvMgKK5;
+        "fabric-26.3" = _OKAr39ql;
         "neoforge-1.21.4" = _257aIAnR;
         "neoforge-1.21.1" = _hiieHeAM;
         "neoforge-1.20.6" = _AInAjgRF;
@@ -299,6 +318,7 @@ let
         "neoforge-26.1.1" = _cGo1nt60;
         "neoforge-26.1.2" = _cGo1nt60;
         "neoforge-26.2" = _gmGRVkoo;
+        "neoforge-26.3" = _5v5Y4qPO;
         "forge-1.21.4" = _df1jihIk;
         "forge-1.21.1" = _ft5aLEti;
         "forge-1.20.6" = _KxfdGx0G;
@@ -313,11 +333,12 @@ let
         "forge-26.1.2" = _EsfywWGR;
         "forge-26.2" = _XpWi60cx;
         "forge-1.21.11" = _DFW2bj9p;
+        "forge-26.3" = _C2W4g0Fp;
         "pkg-1.0.0" = _1NCaqetT;
         "pkg-1.1.0" = _Ruq07JYN;
         "pkg-1.1.1" = _o3xSflcH;
-        "pkg-1.2.0" = _IKvMgKK5;
-        "default" = _IKvMgKK5;
+        "pkg-1.2.0" = _5v5Y4qPO;
+        "default" = _5v5Y4qPO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "noworldbordertint";

@@ -21,17 +21,25 @@ let
             "file" = "TextReplacer-1.8.9-forge-1.0.3.jar";
             "hash" = "sha512-Q0y/Hc09GhJKXDhpRi40duc/k5mbTPo1NNHz+D60T1NUG1sywdYrziSyk06ecm7bR4MTXvjpBawysC8c4U8OHA==";
         };
+        _Syi5V8h6 = {
+            "id" = "Syi5V8h6";
+            "file" = "TextReplacer-1.1.0.jar";
+            "hash" = "sha512-aLxvJB0hRNoc2tUibvXJYivNhBx8PsJt9yUV/4+A7LdxDpeR5mTomF5taeQ1xzvxia0faVtOpvupsG0TW6ONSw==";
+        };
     in {
         "K74KgpUw" = _K74KgpUw;
         "BYBfkKXz" = _BYBfkKXz;
         "hq8bN7t5" = _hq8bN7t5;
         "1WPs8r3S" = _1WPs8r3S;
+        "Syi5V8h6" = _Syi5V8h6;
         "forge-1.8.9" = _1WPs8r3S;
+        "ornithe-1.8.9" = _Syi5V8h6;
         "pkg-v1.0.0" = _K74KgpUw;
         "pkg-v1.0.1" = _BYBfkKXz;
         "pkg-v1.0.2" = _hq8bN7t5;
         "pkg-v1.0.3" = _1WPs8r3S;
-        "default" = _1WPs8r3S;
+        "pkg-v1.1.0" = _Syi5V8h6;
+        "default" = _Syi5V8h6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "textreplacer";

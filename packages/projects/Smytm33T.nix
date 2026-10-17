@@ -106,6 +106,21 @@ let
             "file" = "emf_compat_better_combat_fabric_26.3_2.1.0.jar";
             "hash" = "sha512-NT0sIJkHoOvkVwhVrPn8UU2FMCnjSvLUqzVLuxkm3/XiF+DzafL1IyVpcy1SvgJo+zZ1F+gdLqps5buHT5GmNw==";
         };
+        _Jq3oFApt = {
+            "id" = "Jq3oFApt";
+            "file" = "emf_compat_better_combat_forge_1.20.1_2.1.1.jar";
+            "hash" = "sha512-wK1idLO83SEhKZaOTZZmczIqcZ/VDTlSB2EPOM8TJNilXW1WCoFoYPmQC6ywFFDj5J+rT8nuCFMc2VC3g/GZFQ==";
+        };
+        _XMKvaKv8 = {
+            "id" = "XMKvaKv8";
+            "file" = "emf_compat_better_combat_neoforge_1.21.1_2.1.1.jar";
+            "hash" = "sha512-LxwldI55nKVndWJ1pOql/t9MMCqjNUCdZ7m8DyxGWf9jXpUYu0A7FigPVaBiByBw2lsDBFDFAaP19cdi8Y/BVg==";
+        };
+        _3SN83MJP = {
+            "id" = "3SN83MJP";
+            "file" = "emf_compat_better_combat_fabric_1.21.1_2.1.1.jar";
+            "hash" = "sha512-pwefYUifHyWV9STX9OADF0yi0lVekfZGvldpOaQ5rVlHfkbr3jTWqMZYgxifqcglWXzV6eGMmGWE7EX5ImMEnA==";
+        };
     in {
         "T4tNliN9" = _T4tNliN9;
         "lPaQWkd7" = _lPaQWkd7;
@@ -128,19 +143,23 @@ let
         "r3DuFuFC" = _r3DuFuFC;
         "IpUVERdO" = _IpUVERdO;
         "TwFiaJpe" = _TwFiaJpe;
-        "forge-1.20.1" = _k9JbBvYB;
-        "neoforge-1.21.1" = _SrMjYphR;
+        "Jq3oFApt" = _Jq3oFApt;
+        "XMKvaKv8" = _XMKvaKv8;
+        "3SN83MJP" = _3SN83MJP;
+        "forge-1.20.1" = _Jq3oFApt;
+        "neoforge-1.21.1" = _XMKvaKv8;
         "fabric-1.21.11" = _GAJTHK1G;
         "fabric-26.1.2" = _r3DuFuFC;
         "fabric-26.2" = _IpUVERdO;
-        "fabric-1.21.1" = _33OQRFXR;
+        "fabric-1.21.1" = _3SN83MJP;
         "fabric-26.3" = _TwFiaJpe;
         "pkg-1.0.0" = _a2uxIpE5;
         "pkg-1.0.1" = _mTh1fUa6;
         "pkg-1.1.0" = _53B7xe6d;
         "pkg-2.0.0" = _O2dz8coL;
         "pkg-2.1.0" = _TwFiaJpe;
-        "default" = _TwFiaJpe;
+        "pkg-2.1.1" = _3SN83MJP;
+        "default" = _3SN83MJP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "emf-compat-better-combat";

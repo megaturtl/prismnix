@@ -1236,6 +1236,26 @@ let
             "file" = "mcsrranked-5.8.26.jar";
             "hash" = "sha512-SRRHiJp10sqjFbUJVaUZx87TazrFUwNp/718IbJdMFlp+XRC/05J+thM0OJO8aNV1U6B+04UI3ypBeB2ELgl+A==";
         };
+        _acp3AWiZ = {
+            "id" = "acp3AWiZ";
+            "file" = "mcsrranked-6.0.0.jar";
+            "hash" = "sha512-sVuOvtqJtgoptxD7sCduR1ruudmbx+nO76I1erZgC5EX0OmJDqxrqwRtRKFgVoMTgEtSZ7wFqBPAdY9TCb2+KA==";
+        };
+        _QldSGh3Y = {
+            "id" = "QldSGh3Y";
+            "file" = "mcsrranked-6.0.1.jar";
+            "hash" = "sha512-D3JAhVFcbC/Q6juUO54pTruLnmGwzdqtBEGInnxLtkhuW2nbgSr70cY33jdJQ/5UIug5TXpZzKogXRVE+VCrNA==";
+        };
+        _bHKNDWtT = {
+            "id" = "bHKNDWtT";
+            "file" = "mcsrranked-6.0.2.jar";
+            "hash" = "sha512-qg7VA/Qb7h4Usy3BkoIkg2gITJGLId+DlmnrunXwaqNfR+JQvv+HkySUFwWrzALj52rtbvD3GEYo0/uqM2xedQ==";
+        };
+        _PMQjgUaG = {
+            "id" = "PMQjgUaG";
+            "file" = "mcsrranked-6.0.3.jar";
+            "hash" = "sha512-Y30rxr8ZtfhwiPkWh1mvO2nj1K3md2XkDmcBvNI1i5XOPHRokkgSMizw3BSLQO482gfAqJeSFqawBRRK8dL0Hw==";
+        };
     in {
         "r17vLIlI" = _r17vLIlI;
         "Pr8911G1" = _Pr8911G1;
@@ -1484,7 +1504,11 @@ let
         "DbDQ70xs" = _DbDQ70xs;
         "4jjjRTF8" = _4jjjRTF8;
         "nt5s6inb" = _nt5s6inb;
-        "fabric-1.16.1" = _nt5s6inb;
+        "acp3AWiZ" = _acp3AWiZ;
+        "QldSGh3Y" = _QldSGh3Y;
+        "bHKNDWtT" = _bHKNDWtT;
+        "PMQjgUaG" = _PMQjgUaG;
+        "fabric-1.16.1" = _PMQjgUaG;
         "pkg-1.1.8" = _r17vLIlI;
         "pkg-1.1.9" = _Pr8911G1;
         "pkg-1.1.10" = _XZVqLLbz;
@@ -1732,7 +1756,11 @@ let
         "pkg-5.8.23" = _DbDQ70xs;
         "pkg-5.8.25" = _4jjjRTF8;
         "pkg-5.8.26" = _nt5s6inb;
-        "default" = _nt5s6inb;
+        "pkg-6.0.0" = _acp3AWiZ;
+        "pkg-6.0.1" = _QldSGh3Y;
+        "pkg-6.0.2" = _bHKNDWtT;
+        "pkg-6.0.3" = _PMQjgUaG;
+        "default" = _PMQjgUaG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mcsr-ranked";

@@ -166,6 +166,16 @@ let
             "file" = "command_modification-2.2.0-Forge-1.9.4.jar";
             "hash" = "sha512-WUAjo5uy+BwPtssDQUuAqWjgMD/LzPvWJ9ypYSFe1Ch6ZMOFSthAFxE/5FlZDB1G0f85lpR/TJqnqXYjo1hciQ==";
         };
+        _fvffWXdV = {
+            "id" = "fvffWXdV";
+            "file" = "command_modification-2.3.0-Neoforge-26.1.x-26.2-26.3.jar";
+            "hash" = "sha512-P3345o4JISWZVzu5jyvKPZ25qK6oV/nOpX5wrOsvOPUEPXyBxZlDQzk4Ev1AtkzVUD6DtZPR0Z4hluD0nKLbYg==";
+        };
+        _PNbD9hrq = {
+            "id" = "PNbD9hrq";
+            "file" = "command_modification-2.3.0-forge-26.1.x-26.2-26.3.jar";
+            "hash" = "sha512-2wv0WXLxqWnMhx+OlQvgNjqTOdgw4fW50nHddTKXCUTOQ8FykStRB2KUO0SRcm8h5fdaObLXw3lwfbpy58J06g==";
+        };
     in {
         "oNQwNHkL" = _oNQwNHkL;
         "W5lNe5B6" = _W5lNe5B6;
@@ -200,6 +210,8 @@ let
         "jA6tgkM3" = _jA6tgkM3;
         "xKAFoX96" = _xKAFoX96;
         "WFlB6gJH" = _WFlB6gJH;
+        "fvffWXdV" = _fvffWXdV;
+        "PNbD9hrq" = _PNbD9hrq;
         "forge-1.20.1" = _uhcfOnKO;
         "forge-1.16.5" = _jQ5JixoD;
         "forge-1.18.2" = _UppsGteW;
@@ -219,16 +231,24 @@ let
         "forge-1.17.1" = _CUgwH8pU;
         "forge-1.14.4" = _oGBcJFJ1;
         "forge-1.15.2" = _cX7ztA4a;
-        "forge-26.3" = _GCE0H19b;
+        "forge-26.3" = _PNbD9hrq;
         "forge-1.11.2" = _dzAHzHBY;
         "forge-1.7.10" = _jA6tgkM3;
         "forge-1.10.2" = _xKAFoX96;
         "forge-1.9.4" = _WFlB6gJH;
+        "forge-26.1" = _PNbD9hrq;
+        "forge-26.1.1" = _PNbD9hrq;
+        "forge-26.1.2" = _PNbD9hrq;
+        "forge-26.2" = _PNbD9hrq;
         "neoforge-1.20.4" = _fpxy9kdg;
         "neoforge-1.21" = _odIz32YN;
         "neoforge-1.21.8" = _n57ZktG5;
-        "neoforge-26.1.2" = _nKH0JNon;
+        "neoforge-26.1.2" = _fvffWXdV;
         "neoforge-1.21.1" = _h4GFCADo;
+        "neoforge-26.1" = _fvffWXdV;
+        "neoforge-26.1.1" = _fvffWXdV;
+        "neoforge-26.2" = _fvffWXdV;
+        "neoforge-26.3" = _fvffWXdV;
         "fabric-26.1.2" = _svUDxPag;
         "fabric-1.21.1" = _uxG1kTW9;
         "fabric-1.21.2" = _uxG1kTW9;
@@ -259,7 +279,8 @@ let
         "pkg-2.1.1" = _n57ZktG5;
         "pkg-2.0.0" = _svUDxPag;
         "pkg-2.2.0" = _WFlB6gJH;
-        "default" = _WFlB6gJH;
+        "pkg-2.3.0" = _PNbD9hrq;
+        "default" = _PNbD9hrq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "command_modification";

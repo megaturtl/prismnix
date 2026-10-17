@@ -256,6 +256,26 @@ let
             "file" = "contentified-1.9.15.jar";
             "hash" = "sha512-EcaKfkUr0nWOJ8N2nX3SRXGCRko6wq9y2bXGtiCnGXTf9YZzyUu6p51d2qpEb8Dzi3VRV3pCDyYt6y5M4p2YHQ==";
         };
+        _uG0ouGgG = {
+            "id" = "uG0ouGgG";
+            "file" = "contentified-10.0.0.jar";
+            "hash" = "sha512-3lsNwyg2OILshl8jiSPFZ92L2Wyi5/oDvdhgtbcEjTbXcBSuUEMrbTpGQq302PBYwQhEWaevDj333w90GyPcSw==";
+        };
+        _T6o0BIxl = {
+            "id" = "T6o0BIxl";
+            "file" = "contentified-10.0.1.jar";
+            "hash" = "sha512-xSEpABX33ks03v13jb3J16jj+hAYrh7pnuuYxBhtG/ZgzwtHhIryyHzM2Qho+kXJdO7nHmSaYD8+xBM8P4VD1A==";
+        };
+        _XIVBd8el = {
+            "id" = "XIVBd8el";
+            "file" = "contentified-10.0.2.jar";
+            "hash" = "sha512-cPPKdF1+n1okujixMC+eZbW9lWB+RVK1NnIIN6jcJag5B1LxjKiXv7vPKiJgsv/01l7SX/vHU+Dq69sMm0E9ZQ==";
+        };
+        _N1W1ZcIj = {
+            "id" = "N1W1ZcIj";
+            "file" = "contentified-10.0.3.jar";
+            "hash" = "sha512-qDzc/Ng82slZadmOx49jMrxE/eFzBo/qoU1G59Nn5RXgyuhmBMr4g4V4dk7wDj3eHPe1WoWEK4+l4SZ+qo34Mw==";
+        };
     in {
         "Rbfsrfq5" = _Rbfsrfq5;
         "HzD5p7AV" = _HzD5p7AV;
@@ -308,6 +328,10 @@ let
         "iPqluRyt" = _iPqluRyt;
         "yGPGDR6w" = _yGPGDR6w;
         "nGfy9ceF" = _nGfy9ceF;
+        "uG0ouGgG" = _uG0ouGgG;
+        "T6o0BIxl" = _T6o0BIxl;
+        "XIVBd8el" = _XIVBd8el;
+        "N1W1ZcIj" = _N1W1ZcIj;
         "fabric-1.21.5" = _GjeIwIBj;
         "fabric-1.21.6" = _RYi8tQFg;
         "fabric-1.21.7" = _RYi8tQFg;
@@ -319,6 +343,7 @@ let
         "fabric-26.1.1" = _JnWqeFmG;
         "fabric-26.1.2" = _JnWqeFmG;
         "fabric-26.2" = _nGfy9ceF;
+        "fabric-26.3" = _N1W1ZcIj;
         "pkg-1.0.0" = _Rbfsrfq5;
         "pkg-1.1.0" = _HzD5p7AV;
         "pkg-1.2.0" = _UfIMEDPb;
@@ -370,7 +395,11 @@ let
         "pkg-1.9.13" = _iPqluRyt;
         "pkg-1.9.14" = _yGPGDR6w;
         "pkg-1.9.15" = _nGfy9ceF;
-        "default" = _nGfy9ceF;
+        "pkg-10.0.0" = _uG0ouGgG;
+        "pkg-10.0.1" = _T6o0BIxl;
+        "pkg-10.0.2" = _XIVBd8el;
+        "pkg-10.0.3" = _N1W1ZcIj;
+        "default" = _N1W1ZcIj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "contentified";

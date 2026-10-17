@@ -41,6 +41,16 @@ let
             "file" = "durabilityviewer-1.1.2-neoforge-26.1.1.jar";
             "hash" = "sha512-omRy1CsoMokHt0Zy8hEwJgltgY/MJhcb8eqHICqv2p4MOBo30YnLOtN4VV/xBQvkl/kutqWHeKjy1sUmW3s2Rw==";
         };
+        _Z4PF5Rv2 = {
+            "id" = "Z4PF5Rv2";
+            "file" = "durabilityviewer-1.1.2-forge-1.20.1.jar";
+            "hash" = "sha512-oIz7TmMvPeon4IfjrzqgE5Wz/KJ4aDd+2mukAp7Sy4scjXugL5u4ZifRhIlAED63xH2rEVyTbcIDkzG3DaiXUA==";
+        };
+        _U7cS0Glw = {
+            "id" = "U7cS0Glw";
+            "file" = "durabilityviewer-1.1.2-neoforge-26.3.jar";
+            "hash" = "sha512-K0tc0faKFwDUyI3iRIwXNOCwRKJ4OfuE8pke00maS1psss9IDXK1Qw43oKhUzbBn2Jlq73sB1t1j+KvuVXeFEg==";
+        };
     in {
         "DDXg31wL" = _DDXg31wL;
         "1R090mfk" = _1R090mfk;
@@ -50,18 +60,23 @@ let
         "1EtIliVc" = _1EtIliVc;
         "j04rKcr4" = _j04rKcr4;
         "ZFPmxldP" = _ZFPmxldP;
+        "Z4PF5Rv2" = _Z4PF5Rv2;
+        "U7cS0Glw" = _U7cS0Glw;
         "neoforge-1.21.1" = _Akx0pRId;
         "neoforge-1.21.4" = _1EtIliVc;
         "neoforge-1.21.8" = _j04rKcr4;
         "neoforge-26.1.1" = _ZFPmxldP;
-        "forge-1.20.1" = _1R090mfk;
+        "neoforge-26.3" = _U7cS0Glw;
+        "forge-1.20.1" = _Z4PF5Rv2;
         "pkg-1.1.0" = _DDXg31wL;
         "pkg-1.1.1" = _iUrywY0A;
         "pkg-1.1.2-neoforge-1.21.1" = _Akx0pRId;
         "pkg-1.1.2-neoforge-1.21.4" = _1EtIliVc;
         "pkg-1.1.2-neoforge-1.21.8" = _j04rKcr4;
         "pkg-1.1.2-neoforge-26.1.1" = _ZFPmxldP;
-        "default" = _ZFPmxldP;
+        "pkg-1.1.2-forge-1.20.1" = _Z4PF5Rv2;
+        "pkg-1.1.2-neoforge-26.3" = _U7cS0Glw;
+        "default" = _U7cS0Glw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "durability-viewer-continuation";

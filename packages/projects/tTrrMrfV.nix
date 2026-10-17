@@ -41,6 +41,11 @@ let
             "file" = "unlimited-combination-enchantment-1.3.0.jar";
             "hash" = "sha512-wG9P2BzNJX+EPXGHQBqgBpDvhTS7LmDBqWjM1lWRE0K0g9mtsxgGOg3EVFz5QkoB2sWi2XMTrVvumd6KARgVVA==";
         };
+        _RmvcfbI2 = {
+            "id" = "RmvcfbI2";
+            "file" = "unlimited-combination-enchantment-1.4.0.jar";
+            "hash" = "sha512-gJAxTt0jOzJjhKAR6RttnODDR+dgiXgsZ2pefoe7RhYP0Bt8TvMA/iKft7H6EuIAsVvH+9QOl/9a+N+UVH736A==";
+        };
     in {
         "BtdYjZVK" = _BtdYjZVK;
         "utSgiek9" = _utSgiek9;
@@ -50,6 +55,7 @@ let
         "5LE4Mb1i" = _5LE4Mb1i;
         "6CHyKLsl" = _6CHyKLsl;
         "dOPFp2qr" = _dOPFp2qr;
+        "RmvcfbI2" = _RmvcfbI2;
         "fabric-1.21" = _BtdYjZVK;
         "fabric-1.21.1" = _BtdYjZVK;
         "fabric-1.21.2" = _BtdYjZVK;
@@ -78,6 +84,7 @@ let
         "fabric-26.1.1" = _6CHyKLsl;
         "fabric-26.1.2" = _6CHyKLsl;
         "fabric-26.2" = _dOPFp2qr;
+        "fabric-26.3" = _RmvcfbI2;
         "pkg-1.0.0" = _BtdYjZVK;
         "pkg-1.1.0" = _utSgiek9;
         "pkg-0.8.0" = _pyICuqn0;
@@ -86,7 +93,8 @@ let
         "pkg-0.7.0" = _5LE4Mb1i;
         "pkg-1.2.0" = _6CHyKLsl;
         "pkg-1.3.0" = _dOPFp2qr;
-        "default" = _dOPFp2qr;
+        "pkg-1.4.0" = _RmvcfbI2;
+        "default" = _RmvcfbI2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "unlimited-combination-enchantment-(uce)";

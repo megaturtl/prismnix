@@ -196,6 +196,31 @@ let
             "file" = "AccurateBlockPlacement-Reborn-1.4.7+mc-26.3.jar";
             "hash" = "sha512-2gNkABXVPvNVel/6xKvQ8ysSqFYvdhL/WQ+EqAjXdQqAm1aI5JdoteFnijiokAnwOmNTY6awpLX6GK7G6qzOrw==";
         };
+        _rA95AHFG = {
+            "id" = "rA95AHFG";
+            "file" = "AccurateBlockPlacement-Reborn-1.4.8+mc-1.20.5-1.21.1.jar";
+            "hash" = "sha512-BHb4zrmpHcKQTEGWjew4/BUHb/CyAAkPU3geNX+/P8B+VozHnNVKDmY5FPTQemN0biPfkLtTsyBQGWDoZsoGvg==";
+        };
+        _VkMXEcPS = {
+            "id" = "VkMXEcPS";
+            "file" = "AccurateBlockPlacement-Reborn-1.4.8+mc-1.21.2-1.21.8.jar";
+            "hash" = "sha512-D8D3xww0DNSAt6q3594uLr32Ll0ulk/omN+Nr05SiE8Ege8cj5I/Tk7p6U6gmY6KrWPbHh+qNNppiweSBIUpcQ==";
+        };
+        _L1pWce0K = {
+            "id" = "L1pWce0K";
+            "file" = "AccurateBlockPlacement-Reborn-1.4.8+mc-1.21.9-1.21.11.jar";
+            "hash" = "sha512-74Wi5obp0L6mLJvmHsd0IwkqvnS/C5iASOaCXnEsMBDNQMmSIyUlJgq8ZRy2y6D0Sq5J5AukEAXLVf49SO8OPg==";
+        };
+        _GfWrpgzB = {
+            "id" = "GfWrpgzB";
+            "file" = "AccurateBlockPlacement-Reborn-1.4.8+mc-26.1-26.2.jar";
+            "hash" = "sha512-5Eg1fsM7C0yDfgkdrISBZuirHKD5dB2Ll17z8qA6LxPLMghvNz7hwOo73iKQHOwtitFxTEJz0UlV8AaC0ddC6g==";
+        };
+        _bQR5qyoO = {
+            "id" = "bQR5qyoO";
+            "file" = "AccurateBlockPlacement-Reborn-1.4.8+mc-26.3.jar";
+            "hash" = "sha512-7kJxpGa9z6IlQbKPuC21gb/0wgwulB6VFxggeilssj2wPe/rpwAtRDF2Vs7G+Cfzgq4r9UCUC2s4+GKKv+LjRQ==";
+        };
     in {
         "iSmJRMh0" = _iSmJRMh0;
         "Jthlq5FP" = _Jthlq5FP;
@@ -236,6 +261,11 @@ let
         "6RQ6b1gr" = _6RQ6b1gr;
         "Q49F9gpI" = _Q49F9gpI;
         "fofTJCem" = _fofTJCem;
+        "rA95AHFG" = _rA95AHFG;
+        "VkMXEcPS" = _VkMXEcPS;
+        "L1pWce0K" = _L1pWce0K;
+        "GfWrpgzB" = _GfWrpgzB;
+        "bQR5qyoO" = _bQR5qyoO;
         "fabric-1.19" = _dHimNl5m;
         "fabric-1.19.1" = _dHimNl5m;
         "fabric-1.19.2" = _dHimNl5m;
@@ -246,26 +276,26 @@ let
         "fabric-1.20.2" = _dHimNl5m;
         "fabric-1.20.3" = _dHimNl5m;
         "fabric-1.20.4" = _dHimNl5m;
-        "fabric-1.20.5" = _WHecDPZ4;
-        "fabric-1.20.6" = _WHecDPZ4;
-        "fabric-1.21" = _WHecDPZ4;
-        "fabric-1.21.1" = _WHecDPZ4;
-        "fabric-1.21.3" = _6rePTIrA;
-        "fabric-1.21.4" = _6rePTIrA;
-        "fabric-1.21.2" = _6rePTIrA;
-        "fabric-1.21.5" = _6rePTIrA;
-        "fabric-1.21.6" = _6rePTIrA;
-        "fabric-1.21.7" = _6rePTIrA;
-        "fabric-1.21.8" = _6rePTIrA;
+        "fabric-1.20.5" = _rA95AHFG;
+        "fabric-1.20.6" = _rA95AHFG;
+        "fabric-1.21" = _rA95AHFG;
+        "fabric-1.21.1" = _rA95AHFG;
+        "fabric-1.21.3" = _VkMXEcPS;
+        "fabric-1.21.4" = _VkMXEcPS;
+        "fabric-1.21.2" = _VkMXEcPS;
+        "fabric-1.21.5" = _VkMXEcPS;
+        "fabric-1.21.6" = _VkMXEcPS;
+        "fabric-1.21.7" = _VkMXEcPS;
+        "fabric-1.21.8" = _VkMXEcPS;
         "fabric-1.21.9-rc1" = _iOIMzP4x;
-        "fabric-1.21.9" = _6RQ6b1gr;
-        "fabric-1.21.10" = _6RQ6b1gr;
-        "fabric-1.21.11" = _6RQ6b1gr;
-        "fabric-26.1" = _Q49F9gpI;
-        "fabric-26.1.1" = _Q49F9gpI;
-        "fabric-26.1.2" = _Q49F9gpI;
-        "fabric-26.2" = _Q49F9gpI;
-        "fabric-26.3" = _fofTJCem;
+        "fabric-1.21.9" = _L1pWce0K;
+        "fabric-1.21.10" = _L1pWce0K;
+        "fabric-1.21.11" = _L1pWce0K;
+        "fabric-26.1" = _GfWrpgzB;
+        "fabric-26.1.1" = _GfWrpgzB;
+        "fabric-26.1.2" = _GfWrpgzB;
+        "fabric-26.2" = _GfWrpgzB;
+        "fabric-26.3" = _bQR5qyoO;
         "pkg-1.0.17" = _iSmJRMh0;
         "pkg-1.2" = _Jthlq5FP;
         "pkg-1.2.1" = _dHimNl5m;
@@ -293,7 +323,8 @@ let
         "pkg-1.4.5" = _RjUsYEKZ;
         "pkg-1.4.6" = _Q49F9gpI;
         "pkg-1.4.7" = _fofTJCem;
-        "default" = _fofTJCem;
+        "pkg-1.4.8" = _bQR5qyoO;
+        "default" = _bQR5qyoO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "accurate-block-placement-reborn";

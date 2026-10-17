@@ -931,6 +931,21 @@ let
             "file" = "livingthings-forge-1.21.6-2.3.2.jar";
             "hash" = "sha512-FiYQz4OwDsLVcZOaDVcwRfsdGEswyhT61SjLjey6iW6DSR63dwoQl7NYmWFAtzq3HvKWuiudButcv2x2TMIj7A==";
         };
+        _kmsXt4lo = {
+            "id" = "kmsXt4lo";
+            "file" = "livingthings-neoforge-1.21.11-2.3.2.jar";
+            "hash" = "sha512-NsqITEtma3US6e69GIeoe+PrPgCMtGhrJfBXrcCTwwJV0XPDrfmc8eVwjXuTtSlpkn96GggaUBm6ChHPPpX/Yw==";
+        };
+        _gZNdX8M9 = {
+            "id" = "gZNdX8M9";
+            "file" = "livingthings-fabric-1.21.11-2.3.2.jar";
+            "hash" = "sha512-NrpfL96k/WVdkRAAIS2b4+Fc27equ4CLAWVJw9NeSBADor18iZQ1SgObK9faOQ8NP1qeJw2hM8oot1NKp+fDhg==";
+        };
+        _w6fetPU0 = {
+            "id" = "w6fetPU0";
+            "file" = "livingthings-forge-1.21.11-2.3.2.jar";
+            "hash" = "sha512-EbkJs8SsptAsTJcuPE4AOQLH6/q/mieu9uhYQuIT5tErpsFn/tdRdXNU+9t2Ln6+tFxhSae9K+Y0U6UDtdvOow==";
+        };
     in {
         "qjOOKObg" = _qjOOKObg;
         "PAJylg69" = _PAJylg69;
@@ -1118,6 +1133,9 @@ let
         "tBMk0MNZ" = _tBMk0MNZ;
         "SDe1MTjc" = _SDe1MTjc;
         "oFzAvAwn" = _oFzAvAwn;
+        "kmsXt4lo" = _kmsXt4lo;
+        "gZNdX8M9" = _gZNdX8M9;
+        "w6fetPU0" = _w6fetPU0;
         "forge-1.18.2" = _A7GyvqFk;
         "forge-1.19.2" = _HwVBMcLJ;
         "forge-1.19.4" = _9t1euR22;
@@ -1135,6 +1153,7 @@ let
         "forge-1.21.8" = _ylmzsZwt;
         "forge-1.21.9" = _gjYDjEQ2;
         "forge-1.21.10" = _gjYDjEQ2;
+        "forge-1.21.11" = _w6fetPU0;
         "fabric-1.19.2" = _AwBfxL0t;
         "fabric-1.18.2" = _MThOk6RE;
         "fabric-1.19.4" = _s0dtlNHu;
@@ -1152,6 +1171,7 @@ let
         "fabric-1.21.8" = _ogTgOj2j;
         "fabric-1.21.9" = _JwDc6ZCi;
         "fabric-1.21.10" = _JwDc6ZCi;
+        "fabric-1.21.11" = _gZNdX8M9;
         "neoforge-1.20.4" = _71l9opHc;
         "neoforge-1.20.6" = _Jp2mskhk;
         "neoforge-1.21" = _jRYOVXrm;
@@ -1164,6 +1184,7 @@ let
         "neoforge-1.21.8" = _xdWNsAUj;
         "neoforge-1.21.9" = _mHXCNPjy;
         "neoforge-1.21.10" = _mHXCNPjy;
+        "neoforge-1.21.11" = _kmsXt4lo;
         "pkg-1.18.2-1.5.0" = _qjOOKObg;
         "pkg-1.19.2-2.0.0-Fabric-rc1" = _PAJylg69;
         "pkg-1.19.2-2.0.0-Forge-rc1" = _IjPgsBCW;
@@ -1350,7 +1371,10 @@ let
         "pkg-1.21.6-2.3.2-NeoForge" = _tBMk0MNZ;
         "pkg-1.21.6-2.3.2-Fabric" = _SDe1MTjc;
         "pkg-1.21.6-2.3.2-Forge" = _oFzAvAwn;
-        "default" = _oFzAvAwn;
+        "pkg-1.21.11-2.3.2-NeoForge" = _kmsXt4lo;
+        "pkg-1.21.11-2.3.2-Fabric" = _gZNdX8M9;
+        "pkg-1.21.11-2.3.2-Forge" = _w6fetPU0;
+        "default" = _w6fetPU0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "living-things";

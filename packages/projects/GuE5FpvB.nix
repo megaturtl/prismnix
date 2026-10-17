@@ -216,6 +216,16 @@ let
             "file" = "promenade-neoforge-6.0.1.jar";
             "hash" = "sha512-PwlDnKW1py836DAeBCZywBkQTZbcbnljW7ZCDaUN2dmETfm9I+kO3KuNdlcGVjH3wyDrTjGvKjdufig+9A1ahg==";
         };
+        _mxbWA9DX = {
+            "id" = "mxbWA9DX";
+            "file" = "promenade-fabric-6.0.2.jar";
+            "hash" = "sha512-mQwnnJT6nr8xStyWNWjCUC6OXs/X7m/cb5JWMixEBybirni33pC8yM2ojtBEZ91RKNTnyez911mWhRXg7hdgBg==";
+        };
+        _qzO4oVaD = {
+            "id" = "qzO4oVaD";
+            "file" = "promenade-neoforge-6.0.2.jar";
+            "hash" = "sha512-N919R8EdZ5mWGB5MeYnf+GuoFaIl0l0sPVe9lw99jRMQ/wBtiuVqeTa2P73vl1Dg5Auc0wCaxJb3CoPlrV+H6Q==";
+        };
     in {
         "FW8Jsy6b" = _FW8Jsy6b;
         "AnQZPALY" = _AnQZPALY;
@@ -260,6 +270,8 @@ let
         "Sk8JeW02" = _Sk8JeW02;
         "y3EFEpye" = _y3EFEpye;
         "giEoCx7h" = _giEoCx7h;
+        "mxbWA9DX" = _mxbWA9DX;
+        "qzO4oVaD" = _qzO4oVaD;
         "fabric-1.16.2" = _J3w72Yuv;
         "fabric-1.16.3" = _J3w72Yuv;
         "fabric-1.16.4" = _J3w72Yuv;
@@ -288,7 +300,7 @@ let
         "fabric-26.1.1" = _828FQBS6;
         "fabric-26.1.2" = _828FQBS6;
         "fabric-26.2" = _ldF03LkA;
-        "fabric-26.3" = _clicF1M5;
+        "fabric-26.3" = _mxbWA9DX;
         "fabric-1.21.1" = _y3EFEpye;
         "quilt-1.19.3" = _obpRw4SX;
         "quilt-1.19.4" = _yzCPompk;
@@ -307,9 +319,9 @@ let
         "quilt-26.1.1" = _828FQBS6;
         "quilt-26.1.2" = _828FQBS6;
         "quilt-26.2" = _ldF03LkA;
-        "quilt-26.3" = _clicF1M5;
+        "quilt-26.3" = _mxbWA9DX;
         "quilt-1.21.1" = _y3EFEpye;
-        "neoforge-26.3" = _Sk8JeW02;
+        "neoforge-26.3" = _qzO4oVaD;
         "neoforge-1.21.1" = _giEoCx7h;
         "pkg-v1.3.1" = _FW8Jsy6b;
         "pkg-1.3.2" = _AnQZPALY;
@@ -354,7 +366,9 @@ let
         "pkg-6.0.0+neoforge" = _Sk8JeW02;
         "pkg-6.0.1+fabric" = _y3EFEpye;
         "pkg-6.0.1+neoforge" = _giEoCx7h;
-        "default" = _giEoCx7h;
+        "pkg-6.0.2+fabric" = _mxbWA9DX;
+        "pkg-6.0.2+neoforge" = _qzO4oVaD;
+        "default" = _qzO4oVaD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "promenade";

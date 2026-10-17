@@ -41,6 +41,11 @@ let
             "file" = "first-person-view-0.2.3.jar";
             "hash" = "sha512-H2sP7GTE39LDqGVUfNvvFsVRQKRVLvjl4Nm40LUit5gl0Otqdo4uX9ZhaHNDhYjhyCuUpzB4N1fP1wXgKTmglg==";
         };
+        _2cr3Bup3 = {
+            "id" = "2cr3Bup3";
+            "file" = "first-person-view-0.2.7.jar";
+            "hash" = "sha512-mAxMA7fWRgkVfmC+lUnkM0FzwgM6LPIpepSroVx33BXKBDZiq70WpwatCmeeOaLiOlmgVkvPVF9+hcYCY4Afmw==";
+        };
     in {
         "3wvUXMWg" = _3wvUXMWg;
         "u6baPtpq" = _u6baPtpq;
@@ -50,7 +55,8 @@ let
         "7P0tNxXF" = _7P0tNxXF;
         "FvJJvnkn" = _FvJJvnkn;
         "8EO05ufB" = _8EO05ufB;
-        "forge-1.12.2" = _8EO05ufB;
+        "2cr3Bup3" = _2cr3Bup3;
+        "forge-1.12.2" = _2cr3Bup3;
         "pkg-0.1.3" = _3wvUXMWg;
         "pkg-0.1.5" = _u6baPtpq;
         "pkg-0.1.7" = _e6YFmTNC;
@@ -59,7 +65,8 @@ let
         "pkg-0.2.1" = _7P0tNxXF;
         "pkg-0.2.2" = _FvJJvnkn;
         "pkg-0.2.3" = _8EO05ufB;
-        "default" = _8EO05ufB;
+        "pkg-0.2.7" = _2cr3Bup3;
+        "default" = _2cr3Bup3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "first-person-view";

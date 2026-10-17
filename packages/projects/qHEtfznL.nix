@@ -16,15 +16,22 @@ let
             "file" = "creategunpowder-1.21.1-1.0.2.jar";
             "hash" = "sha512-Qg6SDitcqaluAmukn+yNqD+lqXogH+97TfHGDcnrosreJ5319cICVd88ui5SaVqQBJ2muwJ7k8Den7+/OhTE9g==";
         };
+        _eLLZePAQ = {
+            "id" = "eLLZePAQ";
+            "file" = "CreateGunpowder-1.0.3+1.21.1-neoforge.jar";
+            "hash" = "sha512-4+feW+Xfj5AKWy9o2k0fzDfueua9RUXIpcWh3JZ+bZNs81ukMZd4XLstn23ADzHhvOpZ5N8qWCIcd8Csj46oiw==";
+        };
     in {
         "BfzvzGX9" = _BfzvzGX9;
         "pXUo7zXV" = _pXUo7zXV;
         "Fun6MuUa" = _Fun6MuUa;
-        "neoforge-1.21.1" = _Fun6MuUa;
+        "eLLZePAQ" = _eLLZePAQ;
+        "neoforge-1.21.1" = _eLLZePAQ;
         "pkg-1.0.0+1.21.1-neoforge" = _BfzvzGX9;
         "pkg-1.0.1+1.21.1-neoforge" = _pXUo7zXV;
         "pkg-1.0.2+1.21.1-neoforge" = _Fun6MuUa;
-        "default" = _Fun6MuUa;
+        "pkg-1.0.3+1.21.1-neoforge" = _eLLZePAQ;
+        "default" = _eLLZePAQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-gunpowder";

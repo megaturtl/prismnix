@@ -91,6 +91,21 @@ let
             "file" = "Zoomly-mc1.21.11-v2.1.0-fabric.jar";
             "hash" = "sha512-kd6a5p/FSgdz5PgqxdXOd29fvXZlvKgU/mdCaGGeR45KJUoT+QkGV19dQVG08xHvhUVsDLCypbi/jD7snnKdyQ==";
         };
+        _zosceY37 = {
+            "id" = "zosceY37";
+            "file" = "Zoomly-mc26.3-v2.1.0-neoforge.jar";
+            "hash" = "sha512-DHAD/yFn/2/8+0Y6hikj8NhJv4xqH+L3rZOmkRHKGq7prnvj8OD2GjujzEnbpyzmdrlvrgaS/OFo4WS2JwJQ5w==";
+        };
+        _cB6GlsvQ = {
+            "id" = "cB6GlsvQ";
+            "file" = "Zoomly-mc26.3-v2.1.0-forge.jar";
+            "hash" = "sha512-l0tFFNl9Ar7XL539s02XEO1znpYsOG/zsedkVpuw1ru7SRVb0slD+bdOaO4O+zLh6sQNnSLdmRQKmApBTVASiQ==";
+        };
+        _aKBIhml6 = {
+            "id" = "aKBIhml6";
+            "file" = "Zoomly-mc26.3-v2.1.0-fabric.jar";
+            "hash" = "sha512-vEayosCpU/yJSuWqE6Q0BDqxEVxCr68bj4ZaIiT1YsTviEjFv7X8RviKRusYVs2jEQ/1bnQcLA2UadjCk7STZw==";
+        };
     in {
         "IFzEHpCn" = _IFzEHpCn;
         "DhogiiR9" = _DhogiiR9;
@@ -110,29 +125,35 @@ let
         "aSaKYSKw" = _aSaKYSKw;
         "VjCjYt3J" = _VjCjYt3J;
         "r4eDC9zk" = _r4eDC9zk;
+        "zosceY37" = _zosceY37;
+        "cB6GlsvQ" = _cB6GlsvQ;
+        "aKBIhml6" = _aKBIhml6;
         "fabric-1.21.10" = _IFzEHpCn;
         "fabric-1.21.11" = _r4eDC9zk;
         "fabric-26.1" = _hjUNM7sh;
         "fabric-26.1.1" = _hjUNM7sh;
         "fabric-26.1.2" = _hjUNM7sh;
         "fabric-26.2" = _pyNDxMyy;
+        "fabric-26.3" = _aKBIhml6;
         "forge-26.1" = _19grTqU6;
         "forge-26.1.2" = _19grTqU6;
         "forge-26.2" = _FbiyO0wY;
         "forge-26.1.1" = _19grTqU6;
         "forge-1.21.11" = _VjCjYt3J;
+        "forge-26.3" = _cB6GlsvQ;
         "neoforge-26.1" = _U68gOlu7;
         "neoforge-26.1.2" = _U68gOlu7;
         "neoforge-26.2" = _zFQVkBqz;
         "neoforge-26.1.1" = _U68gOlu7;
         "neoforge-1.21.11" = _aSaKYSKw;
+        "neoforge-26.3" = _zosceY37;
         "pkg-1.0.0" = _slugGpBO;
         "pkg-2.0.0" = _Qf47ny2q;
         "pkg-26.1.2" = _SaKdlRhV;
         "pkg-2.0.1" = _pyNDxMyy;
         "pkg-2.0.2" = _hjUNM7sh;
-        "pkg-2.1.0" = _r4eDC9zk;
-        "default" = _r4eDC9zk;
+        "pkg-2.1.0" = _aKBIhml6;
+        "default" = _aKBIhml6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zoomly";

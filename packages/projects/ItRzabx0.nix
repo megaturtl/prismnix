@@ -661,6 +661,46 @@ let
             "file" = "modulation-fabric-1.21.1-3.6.3.jar";
             "hash" = "sha512-x1hpa+vbYNsIHJmTJUH/kEu8pGxUPeOsdefLsUdH6D2tucv81/PeMbZizw4HYav3R6z47/p+smx2cm9FkOkdEg==";
         };
+        _AvZ2bsw9 = {
+            "id" = "AvZ2bsw9";
+            "file" = "modulation-4.0.0+1.21.1-neoforge.jar";
+            "hash" = "sha512-PsDJqA+0QCEeAjOFukCFwVAgtE1b0E/peSibCswUPd8ZbHxBbESpPxqjOAqIOmJ5Y+BUQchaRuAvcCSmDFAtSg==";
+        };
+        _TeQmSMFF = {
+            "id" = "TeQmSMFF";
+            "file" = "modulation-4.0.0+26.1.2-neoforge.jar";
+            "hash" = "sha512-ppiOTTdBepMA5pzT69bmKCZnpXzAYydeNUM4Dt/zCt7waQk3r10uDOtP6LKZMWkj2n8mj/xAdsiZhlmy97skWg==";
+        };
+        _nkwarSfU = {
+            "id" = "nkwarSfU";
+            "file" = "modulation-4.0.0+26.1.2-fabric.jar";
+            "hash" = "sha512-7pqoegPpOZmP+nWfXfe79heeMoO99SWnI4VTBQzoL3kjVwUIgDJ82ieC8u0PHTV+FsLNFCuGEE+MfmT48jMrjw==";
+        };
+        _QzC4qiIv = {
+            "id" = "QzC4qiIv";
+            "file" = "modulation-4.0.0+26.2-fabric.jar";
+            "hash" = "sha512-wuK4CC0KDT+gfWj/J+s7rYj7LOMc3/P3ECQXREsnVjT9BerDYX3rksSs2ILfD5yVjpCI7dzNYz3bgo61PE7u8w==";
+        };
+        _RoLkFVkh = {
+            "id" = "RoLkFVkh";
+            "file" = "modulation-4.0.0+26.2-neoforge.jar";
+            "hash" = "sha512-f3656EoTiPqnIBtGG/MEQgmM+K1sLkj/w0MTli2rr9tjt+ej5roBvxW5tLuEYSUfhLmLfKh6dNRupOUJCQJl7A==";
+        };
+        _NsJlg8g4 = {
+            "id" = "NsJlg8g4";
+            "file" = "modulation-4.0.0+26.3-fabric.jar";
+            "hash" = "sha512-WJz9a0NoejngEcHwxF4558CEmDn7DCUQ80Y/2/FJ7y4M84grA7CRdLBfpRPf/+rjIUaid7dBVzi9K4k0+5E8pA==";
+        };
+        _T5eT6VZv = {
+            "id" = "T5eT6VZv";
+            "file" = "modulation-4.0.0+26.3-neoforge.jar";
+            "hash" = "sha512-81aMZs5jgJsQ4913oEGLKDkLgsUDoDvcp9Rh50zUOHMT+HXu0CyPISYv7hq1g6ZgtHc54TTGzE2ABMxt5kdTJw==";
+        };
+        _frbEDqzV = {
+            "id" = "frbEDqzV";
+            "file" = "modulation-4.0.0+1.21.1-fabric.jar";
+            "hash" = "sha512-vmoZvC0/RoCV+ATW8vRA6t20kwaYqjRcmoEAqSsqV34lpa5Bn6tIWEjv8afGroBY4aRvbfUamoO0niJaXk3/IQ==";
+        };
     in {
         "2aakO2Fn" = _2aakO2Fn;
         "BX3n5YQR" = _BX3n5YQR;
@@ -794,10 +834,30 @@ let
         "XgcQUKh2" = _XgcQUKh2;
         "hhHBAJKr" = _hhHBAJKr;
         "crNWLLT2" = _crNWLLT2;
+        "AvZ2bsw9" = _AvZ2bsw9;
+        "TeQmSMFF" = _TeQmSMFF;
+        "nkwarSfU" = _nkwarSfU;
+        "QzC4qiIv" = _QzC4qiIv;
+        "RoLkFVkh" = _RoLkFVkh;
+        "NsJlg8g4" = _NsJlg8g4;
+        "T5eT6VZv" = _T5eT6VZv;
+        "frbEDqzV" = _frbEDqzV;
         "fabric-1.20.1" = _nJdLoZHr;
-        "fabric-1.21.1" = _crNWLLT2;
+        "fabric-1.21.1" = _frbEDqzV;
+        "fabric-26.1" = _nkwarSfU;
+        "fabric-26.1.1" = _nkwarSfU;
+        "fabric-26.1.2" = _nkwarSfU;
+        "fabric-26.2" = _QzC4qiIv;
+        "fabric-26.3" = _NsJlg8g4;
+        "fabric-1.21" = _frbEDqzV;
         "forge-1.20.1" = _FiiOZJrN;
-        "neoforge-1.21.1" = _hhHBAJKr;
+        "neoforge-1.21.1" = _AvZ2bsw9;
+        "neoforge-1.21" = _AvZ2bsw9;
+        "neoforge-26.1" = _TeQmSMFF;
+        "neoforge-26.1.1" = _TeQmSMFF;
+        "neoforge-26.1.2" = _TeQmSMFF;
+        "neoforge-26.2" = _RoLkFVkh;
+        "neoforge-26.3" = _T5eT6VZv;
         "pkg-1.0.0-1.20.1-fabric" = _2aakO2Fn;
         "pkg-1.0.0-1.20.1-forge" = _BX3n5YQR;
         "pkg-1.0.0-1.21.1-neoforge" = _Ux6HXZoy;
@@ -926,7 +986,15 @@ let
         "pkg-3.6.2-1.21.1-fabric" = _XgcQUKh2;
         "pkg-3.6.3-1.21.1-neoforge" = _hhHBAJKr;
         "pkg-3.6.3-1.21.1-fabric" = _crNWLLT2;
-        "default" = _crNWLLT2;
+        "pkg-4.0.0+1.21.1-neoforge" = _AvZ2bsw9;
+        "pkg-4.0.0+26.1.2-neoforge" = _TeQmSMFF;
+        "pkg-4.0.0+26.1.2-fabric" = _nkwarSfU;
+        "pkg-4.0.0+26.2-fabric" = _QzC4qiIv;
+        "pkg-4.0.0+26.2-neoforge" = _RoLkFVkh;
+        "pkg-4.0.0+26.3-fabric" = _NsJlg8g4;
+        "pkg-4.0.0+26.3-neoforge" = _T5eT6VZv;
+        "pkg-4.0.0+1.21.1-fabric" = _frbEDqzV;
+        "default" = _frbEDqzV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modulation";

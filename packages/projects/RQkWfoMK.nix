@@ -61,6 +61,16 @@ let
             "file" = "secondwind-fabric-1.21.1-1.1.2.jar";
             "hash" = "sha512-co8jt4XnX5ksrqhDpOB18o144HmYKi30IE7SKBMnPI+cAmClIt9qQgAMH9Zu0AqgyoCUi9YiOBxZJ9OLHAJaQQ==";
         };
+        _h03OcqbQ = {
+            "id" = "h03OcqbQ";
+            "file" = "secondwind-neoforge-1.21.1-1.1.3.jar";
+            "hash" = "sha512-or/ytRC5YwzD5hR1r+M7bsTm3QW2JybJ22eo/lKve6jdTDuk5ukxNNFZT9ALmJIFTGxe3EGxzpyM81rUP4Ketw==";
+        };
+        _sQV0omMp = {
+            "id" = "sQV0omMp";
+            "file" = "secondwind-fabric-1.21.1-1.1.3.jar";
+            "hash" = "sha512-Rcy+9/MjvGiAe34EYlpzg73vBX9Y2ju2grQdZNg+yopD/XiL6cHzl55aHewuavcOnLLuSL1V3EtfsnXoNRPVwQ==";
+        };
     in {
         "DEtVozTu" = _DEtVozTu;
         "RVbXjYNr" = _RVbXjYNr;
@@ -74,8 +84,10 @@ let
         "3EpYUkx1" = _3EpYUkx1;
         "4IyWtY9b" = _4IyWtY9b;
         "AGWwGvMZ" = _AGWwGvMZ;
-        "neoforge-1.21.1" = _4IyWtY9b;
-        "fabric-1.21.1" = _AGWwGvMZ;
+        "h03OcqbQ" = _h03OcqbQ;
+        "sQV0omMp" = _sQV0omMp;
+        "neoforge-1.21.1" = _h03OcqbQ;
+        "fabric-1.21.1" = _sQV0omMp;
         "pkg-1.0.0" = _DEtVozTu;
         "pkg-1.0.1" = _RVbXjYNr;
         "pkg-1.0.3" = _zCFAyDc7;
@@ -83,7 +95,8 @@ let
         "pkg-1.1.0" = _tT9SjV1y;
         "pkg-1.1.1" = _3EpYUkx1;
         "pkg-1.1.2" = _AGWwGvMZ;
-        "default" = _AGWwGvMZ;
+        "pkg-1.1.3" = _sQV0omMp;
+        "default" = _sQV0omMp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "second-wind-mod";

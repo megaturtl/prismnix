@@ -46,6 +46,26 @@ let
             "file" = "tacztweaks-2.14.2+neoforge.26.1.2.Beta-1.jar";
             "hash" = "sha512-G6UyC9xITT5E/YCqbd1OehzGeIPWaNM4JZsa38B34jPLCYKr3SHt7GNapPSJnL6+/jAYwzMv8dr6BfEQnsWjlg==";
         };
+        _ZYPECbNM = {
+            "id" = "ZYPECbNM";
+            "file" = "tacztweaks-2.14.2+fabric.1.21.11.Beta-1-hotfix2.jar";
+            "hash" = "sha512-Y+85aQt7+r749cxGhq64WYr0GeJnztMKAMOHsLESCdZPbDgIJhQ3B9UI4VXjhc8mbS/vLBzg0ix2Mk/hbA/ovQ==";
+        };
+        _enwcIVTl = {
+            "id" = "enwcIVTl";
+            "file" = "tacztweaks-2.14.2+fabric.26.1.2.Beta-1-hotfix2.jar";
+            "hash" = "sha512-1dl4ryEoop9Y4aAQPkQ/c9B+pd0kNkE2Hf0npAPFkCZ/7ObqcTtUeL2Y7dI8ftSu+WmFyTGKqAhro+ivu8tUiQ==";
+        };
+        _ktBTqRCQ = {
+            "id" = "ktBTqRCQ";
+            "file" = "tacztweaks-2.14.2+fabric.26.2.Beta-1-hotfix2.jar";
+            "hash" = "sha512-hVQgP557bVMeLPTzrfLO1iue0bgCkF+fYwrVbn8FQeN/C3yaFZaOSkbFbCVf0BcoIqF2poyI0Fomje+7gW5HyA==";
+        };
+        _MYDaiYnM = {
+            "id" = "MYDaiYnM";
+            "file" = "tacztweaks-2.14.2+fabric.26.3.Beta-1-hotfix2.jar";
+            "hash" = "sha512-frMPjmO8us+DJeDv5rAHWwFoGc1Q9kwyz0FBO5EzzFjyLChP6BEccyMwWOwVmCM4YAVGlfvLjO7xHHgW4CEsUA==";
+        };
     in {
         "48Sa4R87" = _48Sa4R87;
         "B0FToLlE" = _B0FToLlE;
@@ -56,9 +76,14 @@ let
         "FXbO12eE" = _FXbO12eE;
         "pFxvgPbd" = _pFxvgPbd;
         "pItiVAKq" = _pItiVAKq;
-        "fabric-26.2" = _utbCzAtg;
-        "fabric-26.1.2" = _8FdjsWOp;
-        "fabric-1.21.11" = _F77JWcF2;
+        "ZYPECbNM" = _ZYPECbNM;
+        "enwcIVTl" = _enwcIVTl;
+        "ktBTqRCQ" = _ktBTqRCQ;
+        "MYDaiYnM" = _MYDaiYnM;
+        "fabric-26.2" = _ktBTqRCQ;
+        "fabric-26.1.2" = _enwcIVTl;
+        "fabric-1.21.11" = _ZYPECbNM;
+        "fabric-26.3" = _MYDaiYnM;
         "neoforge-1.21.11" = _FXbO12eE;
         "neoforge-26.2" = _pFxvgPbd;
         "neoforge-26.1.2" = _pItiVAKq;
@@ -71,7 +96,11 @@ let
         "pkg-2.14.2+neo.1.21.11.B1-hotfix" = _FXbO12eE;
         "pkg-2.14.2+neo.26.2.B1" = _pFxvgPbd;
         "pkg-2.14.2+neo.26.1.2.B1" = _pItiVAKq;
-        "default" = _pItiVAKq;
+        "pkg-2.14.2+fabric.1.21.11.B1-hotfix2" = _ZYPECbNM;
+        "pkg-2.14.2+fabric.26.1.2.B1-hotfix2" = _enwcIVTl;
+        "pkg-2.14.2+fabric.26.2.B1-hotfix2" = _ktBTqRCQ;
+        "pkg-2.14.2+fabric.26.3.B1-hotfix2" = _MYDaiYnM;
+        "default" = _MYDaiYnM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tacz-tweaks-refabricated";

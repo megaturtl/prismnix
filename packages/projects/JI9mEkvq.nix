@@ -431,6 +431,16 @@ let
             "file" = "arts_and_crafts-fabric-26.1.2-1.6.0-beta.jar";
             "hash" = "sha512-BxsYC20tfShTSGBrMqZHfOcoEGNOoXACYIvhEgqux8w0PtzvFeihAqiUbu4dZte2M6gh+mxnLGWcfVB/bChzuQ==";
         };
+        _bU1D8a7e = {
+            "id" = "bU1D8a7e";
+            "file" = "arts_and_crafts-fabric-26.1.2-1.6.0-beta2.jar";
+            "hash" = "sha512-a+Woab/xrGsVBauq3ufPFMaIAiPmdTE3joo+RHezkAdTa3wPOlDm48YlgsJ8Cm2zMjpGdO9FHCm2XvKlVGHYlQ==";
+        };
+        _4BqccA4I = {
+            "id" = "4BqccA4I";
+            "file" = "arts_and_crafts-neoforge-26.1.2-1.6.0-beta2.jar";
+            "hash" = "sha512-EX8q6jZA2lPh1+fdtSNgX9YaiBXXBdbhWZuc9qVB6WpDPlSTK7a32IadsND/kugptWb0SHZkpnQEPf5w1EnzWQ==";
+        };
     in {
         "FN4ITpvV" = _FN4ITpvV;
         "lhVs3UF0" = _lhVs3UF0;
@@ -518,22 +528,24 @@ let
         "O9u5ZcQh" = _O9u5ZcQh;
         "R9LhGHlU" = _R9LhGHlU;
         "lyexkio8" = _lyexkio8;
+        "bU1D8a7e" = _bU1D8a7e;
+        "4BqccA4I" = _4BqccA4I;
         "fabric-1.20.1" = _7XVwJ4Ps;
         "fabric-1.21" = _K9F1Ihn0;
         "fabric-1.21.1" = _9uKP9W23;
         "fabric-1.21.11" = _PGhVo13l;
-        "fabric-26.1.2" = _lyexkio8;
+        "fabric-26.1.2" = _bU1D8a7e;
         "quilt-1.20.1" = _7XVwJ4Ps;
         "quilt-1.21" = _K9F1Ihn0;
         "quilt-1.21.1" = _9uKP9W23;
         "quilt-1.21.11" = _PGhVo13l;
-        "quilt-26.1.2" = _lyexkio8;
+        "quilt-26.1.2" = _bU1D8a7e;
         "forge-1.20.1" = _BhWxJI1t;
         "neoforge-1.20.1" = _BhWxJI1t;
         "neoforge-1.21" = _jAKL8DlH;
         "neoforge-1.21.1" = _Aq4HVonr;
         "neoforge-1.21.11" = _O9u5ZcQh;
-        "neoforge-26.1.2" = _R9LhGHlU;
+        "neoforge-26.1.2" = _4BqccA4I;
         "pkg-1.0.0" = _lhVs3UF0;
         "pkg-1.0.1" = _d9VooUrL;
         "pkg-1.0.2" = _kNILl88O;
@@ -562,7 +574,8 @@ let
         "pkg-1.5.3" = _61y93vG7;
         "pkg-1.5.4" = _7XVwJ4Ps;
         "pkg-1.6.0-beta" = _lyexkio8;
-        "default" = _lyexkio8;
+        "pkg-1.6.0-beta2" = _4BqccA4I;
+        "default" = _4BqccA4I;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "artsandcrafts";

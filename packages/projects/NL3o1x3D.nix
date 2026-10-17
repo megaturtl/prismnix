@@ -46,6 +46,11 @@ let
             "file" = "ChangedSynergy-m1.20.1-v1.1.4-all.jar";
             "hash" = "sha512-NbvzyYx2NX9vlE+M79RCR9J6Vr/rTZMj5g0GHlG1Ecs4hTA+D09hXM/ZLuO4Ws/FCQ2pLkwKliu3/fDb8uoESQ==";
         };
+        _ID9MQySk = {
+            "id" = "ID9MQySk";
+            "file" = "ChangedSynergy-m1.20.1-v1.1.4-hotfix-all.jar";
+            "hash" = "sha512-mFkduJPXNxNFmWz/oFwXWKHaLgVHzzkvIdx7Igec/1CruxXT+JcQ9ev8A0iZP02BALGaH5Mk6mbYSbBVFJMYJg==";
+        };
     in {
         "HTAulTvh" = _HTAulTvh;
         "H7gbKAit" = _H7gbKAit;
@@ -56,7 +61,8 @@ let
         "gqewQnoH" = _gqewQnoH;
         "YeShbgt8" = _YeShbgt8;
         "9MDEClkh" = _9MDEClkh;
-        "forge-1.20.1" = _9MDEClkh;
+        "ID9MQySk" = _ID9MQySk;
+        "forge-1.20.1" = _ID9MQySk;
         "pkg-0.1.0-beta.1" = _HTAulTvh;
         "pkg-0.1.0-beta.2" = _H7gbKAit;
         "pkg-0.1.0-beta.3" = _Y3pE56LR;
@@ -66,7 +72,8 @@ let
         "pkg-0.1.2-hotfix" = _gqewQnoH;
         "pkg-1.1.3" = _YeShbgt8;
         "pkg-1.1.4" = _9MDEClkh;
-        "default" = _9MDEClkh;
+        "pkg-1.1.4-hotfix" = _ID9MQySk;
+        "default" = _ID9MQySk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "changed-synergy";

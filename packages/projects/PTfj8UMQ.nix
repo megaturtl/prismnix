@@ -61,6 +61,21 @@ let
             "file" = "loot-bag-1.3.1.jar";
             "hash" = "sha512-huYedQteEpACKRDxdKX21Pk7CMgyyHcNSzhxBYiuRgrNpXoEK0UZIisNunlmdkb+IJmOqcp4x6WYtAKjKjksqw==";
         };
+        _7fYQHlOE = {
+            "id" = "7fYQHlOE";
+            "file" = "loot-bag-1.3.1.jar";
+            "hash" = "sha512-+pZVG4ZDXjfBQDU2rWYWizN8SkbmrViHSczO4zZxTjtDmrJcpr8g9omHQlBrTHKfZZEfaDMnRubS+3ALQnmeQg==";
+        };
+        _70lWlhnR = {
+            "id" = "70lWlhnR";
+            "file" = "loot-bag-1.3.1.jar";
+            "hash" = "sha512-Kf9iO+FBSwZQSKb5qEc57wLBqpWHuJuQpFbg7b9KUo1jO9YxlnHt3fu3GR/djMPOlLNaYYj2HSZnzyA65e4jKw==";
+        };
+        _OScQ4ykb = {
+            "id" = "OScQ4ykb";
+            "file" = "loot-bag-1.3.1.jar";
+            "hash" = "sha512-C9XFy6K7KnL25kTTV6e+rF9q69ENN2zYx9p3oZLYK7xOvxASYCm92rd31mW9m1BtTM/LsOUIkESiJEfUP9yB7w==";
+        };
     in {
         "g9FaJzF1" = _g9FaJzF1;
         "8PCtb2S9" = _8PCtb2S9;
@@ -74,7 +89,13 @@ let
         "HncwbA3D" = _HncwbA3D;
         "v3zB1DNM" = _v3zB1DNM;
         "SEMIYXL2" = _SEMIYXL2;
+        "7fYQHlOE" = _7fYQHlOE;
+        "70lWlhnR" = _70lWlhnR;
+        "OScQ4ykb" = _OScQ4ykb;
         "fabric-1.20.1" = _SEMIYXL2;
+        "fabric-1.21.1" = _7fYQHlOE;
+        "neoforge-1.21.1" = _70lWlhnR;
+        "forge-1.20.1" = _OScQ4ykb;
         "pkg-1.0.0" = _g9FaJzF1;
         "pkg-1.1.0" = _8PCtb2S9;
         "pkg-1.2.0" = _FYJl9NKC;
@@ -86,8 +107,8 @@ let
         "pkg-1.2.6" = _pO7CtpZp;
         "pkg-1.2.7" = _HncwbA3D;
         "pkg-1.3.0" = _v3zB1DNM;
-        "pkg-1.3.1" = _SEMIYXL2;
-        "default" = _SEMIYXL2;
+        "pkg-1.3.1" = _OScQ4ykb;
+        "default" = _OScQ4ykb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "loot-bag";

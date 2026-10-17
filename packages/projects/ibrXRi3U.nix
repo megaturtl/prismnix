@@ -91,6 +91,21 @@ let
             "file" = "breakable-blocks-1.2.1.jar";
             "hash" = "sha512-VPIBDJ2afiX4brNWWp2EeDumhwfOdf2Z8TYM/kSGf0w7SYiurv8Meoyo3WigyDF5281qqZB2mrI6IJLIYv87nA==";
         };
+        _Q3XKCJ7N = {
+            "id" = "Q3XKCJ7N";
+            "file" = "breakable-blocks-1.3.0.jar";
+            "hash" = "sha512-MoA9eUfNwwks+oKfb2UPpGfznhUv3BO2yn5Lq4i9u/sDm9Aoofx1FIHdU2FaKY05FhrcZycU8y/zy7r4qbl8PQ==";
+        };
+        _sWZGEV1y = {
+            "id" = "sWZGEV1y";
+            "file" = "breakable-blocks-1.4.0.jar";
+            "hash" = "sha512-K6yHrTlegYUrUaSXZHqeKhfzsf4C1DFWz2DEvDR66/XXYu3nspOqcBEFR4faBwpOpKO4/3rTKqCFIezk3a4VGg==";
+        };
+        _4eboWNQt = {
+            "id" = "4eboWNQt";
+            "file" = "breakable-blocks-1.5.0.jar";
+            "hash" = "sha512-sgCrZ8HefZyHjkH5/QSdaxKJtuYagm7piRh6iDywc5/8gvqfvflA1Sc9JqJ0D/I99PBbf5qBjPLumNq9mg1jpw==";
+        };
     in {
         "hIzksUGQ" = _hIzksUGQ;
         "qIfJXwFT" = _qIfJXwFT;
@@ -110,6 +125,9 @@ let
         "zKz5ftpY" = _zKz5ftpY;
         "ymBpjw0G" = _ymBpjw0G;
         "RrnR13oX" = _RrnR13oX;
+        "Q3XKCJ7N" = _Q3XKCJ7N;
+        "sWZGEV1y" = _sWZGEV1y;
+        "4eboWNQt" = _4eboWNQt;
         "fabric-1.21" = _SfTd6zB9;
         "fabric-1.21.1" = _SfTd6zB9;
         "fabric-1.21.2" = _2CvsYHY5;
@@ -122,6 +140,11 @@ let
         "fabric-1.21.9" = _ymBpjw0G;
         "fabric-1.21.10" = _ymBpjw0G;
         "fabric-1.21.11" = _RrnR13oX;
+        "fabric-26.1" = _Q3XKCJ7N;
+        "fabric-26.1.1" = _Q3XKCJ7N;
+        "fabric-26.1.2" = _Q3XKCJ7N;
+        "fabric-26.2" = _sWZGEV1y;
+        "fabric-26.3" = _4eboWNQt;
         "pkg-0.6.0" = _hIzksUGQ;
         "pkg-0.7.0" = _qIfJXwFT;
         "pkg-0.8.0" = _MSdQgvPN;
@@ -129,9 +152,9 @@ let
         "pkg-1.0.0" = _U7KFSCAF;
         "pkg-1.1.0" = _164SJp80;
         "pkg-1.2.0" = _WhdLJscv;
-        "pkg-1.3.0" = _YS6veuYr;
-        "pkg-1.4.0" = _GwmVU1Rg;
-        "pkg-1.5.0" = _55xt06fP;
+        "pkg-1.3.0" = _Q3XKCJ7N;
+        "pkg-1.4.0" = _sWZGEV1y;
+        "pkg-1.5.0" = _4eboWNQt;
         "pkg-1.6.0" = _ZTYjC2MZ;
         "pkg-0.6.1" = _SfTd6zB9;
         "pkg-0.7.1" = _2CvsYHY5;
@@ -140,7 +163,7 @@ let
         "pkg-1.0.1" = _zKz5ftpY;
         "pkg-1.1.1" = _ymBpjw0G;
         "pkg-1.2.1" = _RrnR13oX;
-        "default" = _RrnR13oX;
+        "default" = _4eboWNQt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "breakable-blocks";

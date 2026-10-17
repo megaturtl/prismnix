@@ -3601,6 +3601,16 @@ let
             "file" = "c2me-fabric-mc26.4-snapshot-4-0.4.2-alpha.0.113.jar";
             "hash" = "sha512-0DKH/FP9GbkIso/EhJ2K+no5WPUD0+vK5M5xi125jBYbbtOgcgvFPgpBESpMcJORLuWe44YvoYrYpdkrpbZF2w==";
         };
+        _s5lf4njU = {
+            "id" = "s5lf4njU";
+            "file" = "c2me-fabric-mc26.3-0.4.2-alpha.0.104.jar";
+            "hash" = "sha512-HBev2V1NLO/lQNYl0IVrCes9PExW+mY833XGQcHF1SBn6UwEXJmAGdrrnJUFWKgAakGr0LK82arBGiv7abB/hg==";
+        };
+        _511r00Fz = {
+            "id" = "511r00Fz";
+            "file" = "c2me-fabric-mc26.4-snapshot-4-0.4.2-alpha.0.114.jar";
+            "hash" = "sha512-MJ7MXgFGvUB5rlA0ANUncZflat5q+EEN4oB+k3fkezIgvjwcw0XxocYROS5QFjCmvuVYjX8dmdL37hDdVjq1Rw==";
+        };
     in {
         "4FLwGDDE" = _4FLwGDDE;
         "2IaFivhp" = _2IaFivhp;
@@ -4322,6 +4332,8 @@ let
         "dXGPRUIG" = _dXGPRUIG;
         "1kwL6YC2" = _1kwL6YC2;
         "moDlR1E4" = _moDlR1E4;
+        "s5lf4njU" = _s5lf4njU;
+        "511r00Fz" = _511r00Fz;
         "fabric-1.17.1" = _4FLwGDDE;
         "fabric-21w39a" = _2IaFivhp;
         "fabric-21w40a" = _1SfzeCfa;
@@ -4582,11 +4594,11 @@ let
         "fabric-26.3-rc-1" = _Z7GkrZIE;
         "fabric-26.3-rc-2" = _V6ajCzRo;
         "fabric-26.3-rc-3" = _2wydyF7u;
-        "fabric-26.3" = _1kwL6YC2;
+        "fabric-26.3" = _s5lf4njU;
         "fabric-26.4-snapshot-1" = _Djjzk7Cm;
         "fabric-26.4-snapshot-2" = _7BUz39ze;
         "fabric-26.4-snapshot-3" = _8g9HFpKt;
-        "fabric-26.4-snapshot-4" = _moDlR1E4;
+        "fabric-26.4-snapshot-4" = _511r00Fz;
         "pkg-0.2.0+alpha.5 1.17.1" = _4FLwGDDE;
         "pkg-0.2.0+alpha.5 21w39a" = _2IaFivhp;
         "pkg-0.2.0+alpha.5.35 21w40a" = _1SfzeCfa;
@@ -5307,7 +5319,9 @@ let
         "pkg-0.4.2-alpha.0.99+26.4-snap-4" = _dXGPRUIG;
         "pkg-0.4.2-alpha.0.103+26.3" = _1kwL6YC2;
         "pkg-0.4.2-alpha.0.113+26.4-snap-4" = _moDlR1E4;
-        "default" = _moDlR1E4;
+        "pkg-0.4.2-alpha.0.104+26.3" = _s5lf4njU;
+        "pkg-0.4.2-alpha.0.114+26.4-snap-4" = _511r00Fz;
+        "default" = _511r00Fz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "c2me-fabric";

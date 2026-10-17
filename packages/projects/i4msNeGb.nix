@@ -91,6 +91,16 @@ let
             "file" = "prefab-custom-addon-2.7.0.jar";
             "hash" = "sha512-HEJwPXm7L8O9uDCCZ0fnak0nJKv7r/v+czIx7dV/e6vL6LomtNTJUYSaQIRUuUNnwCD7QNhVeeUpmxbadA6HTQ==";
         };
+        _mfeV3aWc = {
+            "id" = "mfeV3aWc";
+            "file" = "prefab_custom_addon-2.1.0.jar";
+            "hash" = "sha512-k9q5aIcqIiyslHIpsdYlmtRdY4Y3Hor4bVKIdxJ5nsuROrrfR8Z71JzsCN9QoKgATW9vGaKRKpJY8aK1+PRAsg==";
+        };
+        _oqFiI80X = {
+            "id" = "oqFiI80X";
+            "file" = "prefab-custom-addon-2.7.1.jar";
+            "hash" = "sha512-bFL16mRF5JpcIaKxVtQZXgJyNNxntvAEJ0nF0Oyc2VJAqEHjigVQu28Vjj/Kqjmdp4i6aFtD5feZvhngmw6qRA==";
+        };
     in {
         "nlLgn10K" = _nlLgn10K;
         "bVBqmeKN" = _bVBqmeKN;
@@ -110,8 +120,10 @@ let
         "ZTet7Lg4" = _ZTet7Lg4;
         "lZz6rkpt" = _lZz6rkpt;
         "P6pSTKxd" = _P6pSTKxd;
-        "neoforge-1.21.1" = _P6pSTKxd;
-        "forge-1.20.1" = _d9RggN3F;
+        "mfeV3aWc" = _mfeV3aWc;
+        "oqFiI80X" = _oqFiI80X;
+        "neoforge-1.21.1" = _oqFiI80X;
+        "forge-1.20.1" = _mfeV3aWc;
         "pkg-1.6.0" = _nlLgn10K;
         "pkg-1.7.0" = _bVBqmeKN;
         "pkg-1.8.0" = _6Pr50Imd;
@@ -119,7 +131,7 @@ let
         "pkg-2.0.0" = _d9RggN3F;
         "pkg-2.0.1" = _DH19ewVG;
         "pkg-2.0.2" = _7DZwtQWt;
-        "pkg-2.1.0" = _ip7wnKBI;
+        "pkg-2.1.0" = _mfeV3aWc;
         "pkg-2.2.0" = _E9qfmo7C;
         "pkg-2.2.1" = _dN79NUlF;
         "pkg-2.3.0" = _Q9x0ya7f;
@@ -128,7 +140,8 @@ let
         "pkg-2.6.0" = _ZTet7Lg4;
         "pkg-2.6.1" = _lZz6rkpt;
         "pkg-2.7.0" = _P6pSTKxd;
-        "default" = _P6pSTKxd;
+        "pkg-2.7.1" = _oqFiI80X;
+        "default" = _oqFiI80X;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "prefab-custom-addon";

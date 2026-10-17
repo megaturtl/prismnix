@@ -496,6 +496,16 @@ let
             "file" = "TrailierTales-1.3.1-mc26.3-neoforge.jar";
             "hash" = "sha512-QbSopm7WqfSDy/2w11Qww6EwNQ97DCBOeQtKfVFowWTfcXJHncv9GOFEYhZqHD699zY/5HEC19vkQgVkyXZ+Hg==";
         };
+        _KV3rsaQu = {
+            "id" = "KV3rsaQu";
+            "file" = "TrailierTales-1.3.2-mc26.3-fabric.jar";
+            "hash" = "sha512-tbSqKxAGXT8jCBxLWAH/8fyLBD1Xl595wckCHLL4TY2Bjmj8TVoBSHtvaOPs7Oc2HSVk9FOwKYCo/hGPOp+Krw==";
+        };
+        _ZLWArA34 = {
+            "id" = "ZLWArA34";
+            "file" = "TrailierTales-1.3.2-mc26.3-neoforge.jar";
+            "hash" = "sha512-ba2J1OPc5A3vWWoFl2dfHLHCOWjRUsqznSULVh5tu3BoXujvEDYn51ZBxPSwbhVmjl8CyGDlzCQKYuNBSxuYdQ==";
+        };
     in {
         "ERN3AhZT" = _ERN3AhZT;
         "yPEG8irS" = _yPEG8irS;
@@ -596,6 +606,8 @@ let
         "LfUcoucM" = _LfUcoucM;
         "F5rjAOjk" = _F5rjAOjk;
         "OUOzCzv7" = _OUOzCzv7;
+        "KV3rsaQu" = _KV3rsaQu;
+        "ZLWArA34" = _ZLWArA34;
         "fabric-1.21" = _bNSe85ix;
         "fabric-1.21.1" = _N7r6mIBZ;
         "fabric-1.21.2" = _I8Ly0IBC;
@@ -622,7 +634,7 @@ let
         "fabric-26.1.1" = _Gtbx31f7;
         "fabric-26.1.2" = _Gtbx31f7;
         "fabric-26.2" = _6TfuVbDd;
-        "fabric-26.3" = _F5rjAOjk;
+        "fabric-26.3" = _KV3rsaQu;
         "quilt-1.21" = _bNSe85ix;
         "quilt-1.21.1" = _N7r6mIBZ;
         "quilt-1.21.2" = _I8Ly0IBC;
@@ -650,7 +662,7 @@ let
         "quilt-26.1.2" = _Gtbx31f7;
         "quilt-26.2" = _484CIRWo;
         "neoforge-26.2" = _Quyxz1pv;
-        "neoforge-26.3" = _OUOzCzv7;
+        "neoforge-26.3" = _ZLWArA34;
         "pkg-1.0-mc1.21.1" = _ERN3AhZT;
         "pkg-1.0-mc1.21.2" = _yPEG8irS;
         "pkg-1.0.1-mc1.21.1" = _S18JOjOU;
@@ -750,7 +762,9 @@ let
         "pkg-1.3-mc26.3-fabric" = _LfUcoucM;
         "pkg-1.3.1-mc26.3-fabric" = _F5rjAOjk;
         "pkg-1.3.1-mc26.3-neoforge" = _OUOzCzv7;
-        "default" = _OUOzCzv7;
+        "pkg-1.3.2-mc26.3-fabric" = _KV3rsaQu;
+        "pkg-1.3.2-mc26.3-neoforge" = _ZLWArA34;
+        "default" = _ZLWArA34;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trailier-tales";

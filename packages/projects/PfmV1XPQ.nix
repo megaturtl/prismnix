@@ -116,6 +116,16 @@ let
             "file" = "routes-neoforge-2.0.0-beta.1.jar";
             "hash" = "sha512-Ll6SkPrCBlaTk5DGb2RpjA6fiTTn4zKX7eq35HejfZViv8qINRrkiQklxm1cilcOBJfXbyPH/BdTDH5ETvXU0w==";
         };
+        _O21BslFs = {
+            "id" = "O21BslFs";
+            "file" = "routes-fabric-2.0.0-beta.2.jar";
+            "hash" = "sha512-Y/PWp/dMPAhUuwtlTavaPibiWtu5Jqwzqh1ZPPnRgLzkUqqk6kt7Hv3l/mv1tQ9R8lbm+H3w79/xFQgOIBy8aw==";
+        };
+        _DPjeVRHN = {
+            "id" = "DPjeVRHN";
+            "file" = "routes-neoforge-2.0.0-beta.2.jar";
+            "hash" = "sha512-jcRYTDBcWMpd7RJMT8nzuiLpUley+PiKpS1GU7c5t5JbGwALS77HfJjdYS/UAyHyJEsBbeB3oOmr3MFsqRdaug==";
+        };
     in {
         "Ql21YnjM" = _Ql21YnjM;
         "IPymXw5Y" = _IPymXw5Y;
@@ -140,7 +150,9 @@ let
         "Icskl0LC" = _Icskl0LC;
         "ot4Mr5Zc" = _ot4Mr5Zc;
         "yqTHNdXR" = _yqTHNdXR;
-        "fabric-1.21.1" = _ot4Mr5Zc;
+        "O21BslFs" = _O21BslFs;
+        "DPjeVRHN" = _DPjeVRHN;
+        "fabric-1.21.1" = _O21BslFs;
         "fabric-1.21.2" = _Ql21YnjM;
         "fabric-1.21.3" = _Ql21YnjM;
         "fabric-1.21.4" = _Ql21YnjM;
@@ -151,7 +163,7 @@ let
         "fabric-1.21.9" = _Ql21YnjM;
         "fabric-1.21.10" = _Ql21YnjM;
         "fabric-1.21.11" = _Ql21YnjM;
-        "neoforge-1.21.1" = _yqTHNdXR;
+        "neoforge-1.21.1" = _DPjeVRHN;
         "pkg-0.45.0" = _Ql21YnjM;
         "pkg-0.64.0" = _IPymXw5Y;
         "pkg-0.67.0" = _z6NVoTFq;
@@ -175,7 +187,9 @@ let
         "pkg-1.2.119+neoforge" = _Icskl0LC;
         "pkg-2.0.0-beta.1+fabric" = _ot4Mr5Zc;
         "pkg-2.0.0-beta.1+neoforge" = _yqTHNdXR;
-        "default" = _yqTHNdXR;
+        "pkg-2.0.0-beta.2+fabric" = _O21BslFs;
+        "pkg-2.0.0-beta.2+neoforge" = _DPjeVRHN;
+        "default" = _DPjeVRHN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "routes";

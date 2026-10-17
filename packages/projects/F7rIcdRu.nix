@@ -36,6 +36,21 @@ let
             "file" = "fakeplayer-1.21.11-fabric-1.2.2.jar";
             "hash" = "sha512-23lyUYrX5l5ZS0EUzxkmOZHQ7JMYjtqMVb8B96ym8afRSueytDZWIaHqYRVrqtU9Bi84UlrxYTr3xW/+0RFiLQ==";
         };
+        _w9jdzhUe = {
+            "id" = "w9jdzhUe";
+            "file" = "fakeplayer-1.21.11-fabric-1.2.3.jar";
+            "hash" = "sha512-4I9fyUturvjSf05TRjF0GN+Mwh5NkPvgFPx0dGx+nFSUnX82MGmZHvCSBETZ0nywSdMdbbwS3BOcboC7+RINZQ==";
+        };
+        _kxOR3mnX = {
+            "id" = "kxOR3mnX";
+            "file" = "fakeplayer-26.2-fabric-1.2.3.jar";
+            "hash" = "sha512-WwJkKm8jHyPcbZ++Q8T49a/31qju5eBiZkP+N9Ub/EvBJUFNAYKxJfoLprKEK6hMk+SAGb5ViKP8tSbUTpzdwA==";
+        };
+        _AOA2dc2r = {
+            "id" = "AOA2dc2r";
+            "file" = "fakeplayer-26.3-fabric-1.2.3.jar";
+            "hash" = "sha512-Z0oS395TM75teSiXL5+CQtlNaFaQOQQNwHjGbRXvoten8zIRjklzkpkEqEPiBgzWacWTiBTf78rVOz82mO1Sgg==";
+        };
     in {
         "a0P5KCZk" = _a0P5KCZk;
         "tdkq7VlG" = _tdkq7VlG;
@@ -44,8 +59,12 @@ let
         "9oaiLvsP" = _9oaiLvsP;
         "cN2IoR2w" = _cN2IoR2w;
         "o7RpLwYr" = _o7RpLwYr;
-        "fabric-1.21.11" = _o7RpLwYr;
-        "fabric-26.2" = _cN2IoR2w;
+        "w9jdzhUe" = _w9jdzhUe;
+        "kxOR3mnX" = _kxOR3mnX;
+        "AOA2dc2r" = _AOA2dc2r;
+        "fabric-1.21.11" = _w9jdzhUe;
+        "fabric-26.2" = _kxOR3mnX;
+        "fabric-26.3" = _AOA2dc2r;
         "pkg-1.21.11-fabric-1.1.8" = _a0P5KCZk;
         "pkg-26.2-fabric-1.1.8" = _tdkq7VlG;
         "pkg-1.21.11-fabric-1.1.9" = _H0a1Ig9V;
@@ -53,7 +72,10 @@ let
         "pkg-1.21.11-fabric-1.2.1" = _9oaiLvsP;
         "pkg-26.2-fabric-1.2.1" = _cN2IoR2w;
         "pkg-1.21.11-fabric-1.2.2" = _o7RpLwYr;
-        "default" = _o7RpLwYr;
+        "pkg-1.21.11-fabric-1.2.3" = _w9jdzhUe;
+        "pkg-26.2-fabric-1.2.3" = _kxOR3mnX;
+        "pkg-26.3-fabric-1.2.3" = _AOA2dc2r;
+        "default" = _AOA2dc2r;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "-fakeplayer-";

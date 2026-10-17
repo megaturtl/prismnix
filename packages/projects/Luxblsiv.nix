@@ -316,6 +316,21 @@ let
             "file" = "tolaserblade-bta-1.5.0+8.0.1.jar";
             "hash" = "sha512-EqRyCBKB1VsQYezRG7ISRjZ6dt7Z/aDVsdPnbcgaLTeaRwxhgHghRG1pjqYqXMPXCFzUan/iUTPxuP/dPltSuA==";
         };
+        _YdoFCUdS = {
+            "id" = "YdoFCUdS";
+            "file" = "tolaserblade-neoforge-17.0.0-beta.9+26.1.2.jar";
+            "hash" = "sha512-i/FOuayIkqPJzjuCn3KfQTsxrZQaOLu4v4kO6C8jWvGCrt41uF1Va5eJk0gHjOQFGluuBJFYcyPTnDOmSxl/Pg==";
+        };
+        _X2wnR1Wq = {
+            "id" = "X2wnR1Wq";
+            "file" = "tolaserblade-forge-17.0.0-beta.9+26.1.2.jar";
+            "hash" = "sha512-F4uM4MK2jt8QYh2vnPZb0p6LX+0guFuOeg7FpM++6MCgNYUdkUqgTAvRSONahWPFmUfOKJ4Z3VSlKSmCmaCg4w==";
+        };
+        _ULCujy8O = {
+            "id" = "ULCujy8O";
+            "file" = "tolaserblade-fabric-17.0.0-beta.9+26.1.2.jar";
+            "hash" = "sha512-feS1YYBzZZDejvauPL6KTtIrFPqlKuEBwv1rbz1EB+JchyRJOH5elkEPH6eQV7is44365esHw8c99A9U1azcgA==";
+        };
     in {
         "nAt8GhWJ" = _nAt8GhWJ;
         "Deo5c5Cz" = _Deo5c5Cz;
@@ -380,6 +395,9 @@ let
         "zLgbtsS9" = _zLgbtsS9;
         "XLvm5N2n" = _XLvm5N2n;
         "BTlgFh80" = _BTlgFh80;
+        "YdoFCUdS" = _YdoFCUdS;
+        "X2wnR1Wq" = _X2wnR1Wq;
+        "ULCujy8O" = _ULCujy8O;
         "bta-babric-b1.7.3" = _BTlgFh80;
         "forge-1.20.1" = _fLebJ1Cx;
         "forge-1.20.2" = _qNQapYMH;
@@ -396,7 +414,7 @@ let
         "forge-1.21.8" = _oU9bg63B;
         "forge-1.21.10" = _Ioi3sN4J;
         "forge-1.21.11" = _vqMGRqRS;
-        "forge-26.1.2" = _zLgbtsS9;
+        "forge-26.1.2" = _X2wnR1Wq;
         "neoforge-1.20.4" = _oySqk2C1;
         "neoforge-1.20.6" = _BGiqcRNK;
         "neoforge-1.21" = _CLyvExrj;
@@ -409,8 +427,8 @@ let
         "neoforge-1.21.8" = _jJEdC5bH;
         "neoforge-1.21.10" = _xAeEZzDJ;
         "neoforge-1.21.11" = _mBTTEjSR;
-        "neoforge-26.1.2" = _tSb1WqgM;
-        "fabric-26.1.2" = _XLvm5N2n;
+        "neoforge-26.1.2" = _YdoFCUdS;
+        "fabric-26.1.2" = _ULCujy8O;
         "pkg-1.0.0-beta.1-bta" = _nAt8GhWJ;
         "pkg-1.1.0-bta" = _Deo5c5Cz;
         "pkg-1.20.1-7.0.1.0" = _jAWKQxyx;
@@ -474,7 +492,10 @@ let
         "pkg-17.0.0-beta.8+26.1.2-forge" = _zLgbtsS9;
         "pkg-17.0.0-beta.8+26.1.2-fabric" = _XLvm5N2n;
         "pkg-1.5.0+8.0.1-bta" = _BTlgFh80;
-        "default" = _BTlgFh80;
+        "pkg-17.0.0-beta.9+26.1.2-neoforge" = _YdoFCUdS;
+        "pkg-17.0.0-beta.9+26.1.2-forge" = _X2wnR1Wq;
+        "pkg-17.0.0-beta.9+26.1.2-fabric" = _ULCujy8O;
+        "default" = _ULCujy8O;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tolaserblade";

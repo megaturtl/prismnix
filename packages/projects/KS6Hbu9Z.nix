@@ -2161,6 +2161,16 @@ let
             "file" = "sound_physics_perfected-1.17.6+26.3-fabric.jar";
             "hash" = "sha512-AUDNdP6nBaVfCF8LiQdk9flKHRwoVRSiTHKIIrjW0+OdvSWZ6o1fUD9I6ez3WDaltbjJguo5P6Na/gD/NSXRJw==";
         };
+        _zlYAFhzL = {
+            "id" = "zlYAFhzL";
+            "file" = "sound_physics_perfected-1.17.7+26.3-fabric.jar";
+            "hash" = "sha512-eFVi3+NqH58BwaN8BDy48t5ael4Ps2+88X2T3oGyiJloJAMnUy9thD4WaICiO4BSU2pKc6lIyyFDkhkZqNc/7Q==";
+        };
+        _70GukCAm = {
+            "id" = "70GukCAm";
+            "file" = "sound_physics_perfected-1.17.7+26.1-fabric.jar";
+            "hash" = "sha512-hc4n3+uPT3ppyQlLi2IqS825DAF11Qfz+d43X5WWEVYklo5eonCpC9OOraS7BHirFMRXswfysUTlvNWXK07qzg==";
+        };
     in {
         "IV6srFZo" = _IV6srFZo;
         "E7OHAOYy" = _E7OHAOYy;
@@ -2594,6 +2604,8 @@ let
         "Ggyhlyvm" = _Ggyhlyvm;
         "UNsI9sbx" = _UNsI9sbx;
         "1rm4PPkm" = _1rm4PPkm;
+        "zlYAFhzL" = _zlYAFhzL;
+        "70GukCAm" = _70GukCAm;
         "fabric-1.21.1" = _1sQW2KGY;
         "fabric-1.21.5" = _bScqDYiI;
         "fabric-1.20.1" = _9WYoeMrI;
@@ -2613,11 +2625,11 @@ let
         "fabric-1.21.9" = _Frt7nJSz;
         "fabric-1.21.10" = _Frt7nJSz;
         "fabric-1.21.11" = _UpeldSHu;
-        "fabric-26.1" = _UNsI9sbx;
-        "fabric-26.1.1" = _UNsI9sbx;
-        "fabric-26.1.2" = _UNsI9sbx;
-        "fabric-26.2" = _UNsI9sbx;
-        "fabric-26.3" = _1rm4PPkm;
+        "fabric-26.1" = _70GukCAm;
+        "fabric-26.1.1" = _70GukCAm;
+        "fabric-26.1.2" = _70GukCAm;
+        "fabric-26.2" = _70GukCAm;
+        "fabric-26.3" = _zlYAFhzL;
         "neoforge-1.21.1" = _ueESmGKc;
         "neoforge-1.21.7" = _fGKyMoHU;
         "neoforge-1.21.8" = _fGKyMoHU;
@@ -2708,7 +2720,8 @@ let
         "pkg-1.17.4" = _MdqFOdNi;
         "pkg-1.17.5" = _Ggyhlyvm;
         "pkg-1.17.6" = _1rm4PPkm;
-        "default" = _1rm4PPkm;
+        "pkg-1.17.7" = _70GukCAm;
+        "default" = _70GukCAm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sound-physics-perfected";

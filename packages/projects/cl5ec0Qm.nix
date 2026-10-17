@@ -1631,6 +1631,21 @@ let
             "file" = "addonslib-neoforge-26.2-1.0.jar";
             "hash" = "sha512-ZlwaWtD+yah5cmsKJA2OfR3yWvbDjJ4eG8g94d/4GPfHw0DgyhvFeavakOrCidfctlQR4o333vnozofCEZPx1Q==";
         };
+        _iKArxYbI = {
+            "id" = "iKArxYbI";
+            "file" = "addonslib-fabric-26.3-1.0.jar";
+            "hash" = "sha512-sqy+SO1sgxmkrJPhPcav39p8zDsuXczTQjl4XKY/ClA7o1ATe3osvy0U+vABgqelqS30rtigmjML5Wi2hGZtEg==";
+        };
+        _kRGXCnWC = {
+            "id" = "kRGXCnWC";
+            "file" = "addonslib-forge-26.3-1.0.jar";
+            "hash" = "sha512-aJZ2dmiffOadLADFRhQRCyyDixDZr2oLnWM/HlfJRfJXX9UtUWlUXZGkdrd8Pe6Yx+x8j4hNWdG94XsV9XcLiw==";
+        };
+        _7JAGyOCT = {
+            "id" = "7JAGyOCT";
+            "file" = "addonslib-neoforge-26.3-1.0.jar";
+            "hash" = "sha512-EIVpX6bn+srKK/hMnTrzFjLlct4B8CyjgqENucYHdtDMmu81DqqFST7Kg69qSIoLmtgXMtbjlbQTsbZj7lh8Cg==";
+        };
     in {
         "lHYAbYSn" = _lHYAbYSn;
         "8jySaMqw" = _8jySaMqw;
@@ -1958,6 +1973,9 @@ let
         "1jpMrkEZ" = _1jpMrkEZ;
         "w3bcCpVa" = _w3bcCpVa;
         "WXEFyECA" = _WXEFyECA;
+        "iKArxYbI" = _iKArxYbI;
+        "kRGXCnWC" = _kRGXCnWC;
+        "7JAGyOCT" = _7JAGyOCT;
         "forge-1.16.5" = _keRmXQcY;
         "forge-1.17.1" = _zojvK4Iv;
         "forge-1.18.2" = _aI2pNzCS;
@@ -1980,6 +1998,7 @@ let
         "forge-1.21.11" = _LGObRCBe;
         "forge-26.1.2" = _zd68vdHK;
         "forge-26.2" = _w3bcCpVa;
+        "forge-26.3" = _kRGXCnWC;
         "fabric-1.18.2" = _VuK6rRdI;
         "fabric-1.19" = _o3BXN1pn;
         "fabric-1.19.2" = _o3BXN1pn;
@@ -2000,6 +2019,7 @@ let
         "fabric-1.21.11" = _Y01Y2Fyx;
         "fabric-26.1.2" = _EO81I3ay;
         "fabric-26.2" = _1jpMrkEZ;
+        "fabric-26.3" = _iKArxYbI;
         "neoforge-1.20.4" = _gQwumlKZ;
         "neoforge-1.20.6" = _IenQdG6d;
         "neoforge-1.21.1" = _7SEGJEQj;
@@ -2014,6 +2034,7 @@ let
         "neoforge-1.21.11" = _UiMbBzd0;
         "neoforge-26.1.2" = _v0ST96hY;
         "neoforge-26.2" = _WXEFyECA;
+        "neoforge-26.3" = _7JAGyOCT;
         "pkg-1.16.5-1.4" = _lHYAbYSn;
         "pkg-1.16.5-1.5" = _8jySaMqw;
         "pkg-1.16.5-1.7" = _pDHErh2f;
@@ -2178,7 +2199,8 @@ let
         "pkg-1.21.6-1.10" = _uX8x8b0R;
         "pkg-26.1.2-1.1" = _v0ST96hY;
         "pkg-26.2-1.0" = _WXEFyECA;
-        "default" = _WXEFyECA;
+        "pkg-26.3-1.0" = _7JAGyOCT;
+        "default" = _7JAGyOCT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "addonslib";

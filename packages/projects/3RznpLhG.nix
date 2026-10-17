@@ -51,6 +51,11 @@ let
             "file" = "JR_East_E217_Series_v1.7.zip";
             "hash" = "sha512-OroJ93C70vWMb2j4A11jpvrjo3ZHVcyCdRYBxXA6LyaWPuAlJ8t5sEbjFrnLPYeSZ/mBzoRkewIz3ZcA+Y0MSQ==";
         };
+        _pZxlE4om = {
+            "id" = "pZxlE4om";
+            "file" = "JR_East_E217_Series_v1.8.zip";
+            "hash" = "sha512-WZpw77/uEaV4FJfsikKF0rJCktFjNtzfzFrckPKcr+XYdGVci61/lZSGbPiwJuL09yCkGZexpFLS0Oortq/Bfg==";
+        };
     in {
         "ikG3ns5r" = _ikG3ns5r;
         "pyTtufA4" = _pyTtufA4;
@@ -62,20 +67,24 @@ let
         "WCaRGTY6" = _WCaRGTY6;
         "73Juy2j9" = _73Juy2j9;
         "nAkcuSl9" = _nAkcuSl9;
-        "minecraft-1.17.1" = _nAkcuSl9;
-        "minecraft-1.18.2" = _nAkcuSl9;
-        "minecraft-1.19.2" = _nAkcuSl9;
-        "minecraft-1.19.4" = _nAkcuSl9;
-        "minecraft-1.20.1" = _nAkcuSl9;
-        "minecraft-1.20.4" = _nAkcuSl9;
-        "minecraft-1.19" = _nAkcuSl9;
-        "minecraft-1.18" = _nAkcuSl9;
-        "minecraft-1.18.1" = _nAkcuSl9;
-        "minecraft-1.19.1" = _nAkcuSl9;
-        "minecraft-1.19.3" = _nAkcuSl9;
-        "minecraft-1.20" = _nAkcuSl9;
-        "minecraft-1.20.2" = _nAkcuSl9;
-        "minecraft-1.20.3" = _nAkcuSl9;
+        "pZxlE4om" = _pZxlE4om;
+        "minecraft-1.17.1" = _pZxlE4om;
+        "minecraft-1.18.2" = _pZxlE4om;
+        "minecraft-1.19.2" = _pZxlE4om;
+        "minecraft-1.19.4" = _pZxlE4om;
+        "minecraft-1.20.1" = _pZxlE4om;
+        "minecraft-1.20.4" = _pZxlE4om;
+        "minecraft-1.19" = _pZxlE4om;
+        "minecraft-1.18" = _pZxlE4om;
+        "minecraft-1.18.1" = _pZxlE4om;
+        "minecraft-1.19.1" = _pZxlE4om;
+        "minecraft-1.19.3" = _pZxlE4om;
+        "minecraft-1.20" = _pZxlE4om;
+        "minecraft-1.20.2" = _pZxlE4om;
+        "minecraft-1.20.3" = _pZxlE4om;
+        "minecraft-1.17" = _pZxlE4om;
+        "minecraft-1.20.5" = _pZxlE4om;
+        "minecraft-1.20.6" = _pZxlE4om;
         "pkg-1" = _ikG3ns5r;
         "pkg-1.01" = _pyTtufA4;
         "pkg-1.1" = _IHAOVcAW;
@@ -86,7 +95,8 @@ let
         "pkg-1.6" = _WCaRGTY6;
         "pkg-1.6.1" = _73Juy2j9;
         "pkg-1.7" = _nAkcuSl9;
-        "default" = _nAkcuSl9;
+        "pkg-1.8" = _pZxlE4om;
+        "default" = _pZxlE4om;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "e217-series-train";

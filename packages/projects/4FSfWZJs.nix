@@ -76,6 +76,16 @@ let
             "file" = "tntlogic-C-26.2-v2.0.0.jar";
             "hash" = "sha512-UFKhoGfpyCNUkhzxucEaoCEfC93Dx9eEUxS53pMu43529G5BLh5EiwA7gqpm5r70c+QYNlSrxGWtVdLxYnAk8g==";
         };
+        _kdzPHXOe = {
+            "id" = "kdzPHXOe";
+            "file" = "tntlogic-fabric-26.3-2.0.1.jar";
+            "hash" = "sha512-0uTi6Tf06hv+bIniAa5UjdpL5ux4DSzqyaGed9EsBeCqk/hDXba0p8GX7r8J598wy6t5eLNfw6WirXknc9GYgA==";
+        };
+        _J1CBjpZT = {
+            "id" = "J1CBjpZT";
+            "file" = "tntlogic-neoforge-26.3-2.0.1.jar";
+            "hash" = "sha512-qUntBwOFQ7wNvYVmyeMhCojugKthD+l58jdEc3T82jPHT6tBmyM6WiBEvxp6X/tit3UhoxNxw2Ax9prrVzMUDg==";
+        };
     in {
         "6qAxDwz5" = _6qAxDwz5;
         "GYjvZPUn" = _GYjvZPUn;
@@ -92,20 +102,25 @@ let
         "J1ArTw3m" = _J1ArTw3m;
         "IFU0Q9Kt" = _IFU0Q9Kt;
         "kzAE9xRc" = _kzAE9xRc;
+        "kdzPHXOe" = _kdzPHXOe;
+        "J1CBjpZT" = _J1CBjpZT;
         "forge-1.20.1" = _QeXDeyHg;
         "forge-1.20.4" = _ZScDzn45;
         "neoforge-1.21.1" = _vyCpGiVp;
         "neoforge-1.21.11" = _J1ArTw3m;
         "neoforge-26.1.2" = _IFU0Q9Kt;
         "neoforge-26.2" = _kzAE9xRc;
+        "neoforge-26.3" = _J1CBjpZT;
         "fabric-1.20.1" = _JacSRf3D;
         "fabric-1.21.1" = _glzs1T81;
         "fabric-1.21.11" = _19Wrk2es;
         "fabric-26.1.2" = _EfWe9cNO;
         "fabric-26.2" = _a34wfeiH;
+        "fabric-26.3" = _kdzPHXOe;
         "pkg-1.0.0" = _9C39ponR;
         "pkg-2.0.0" = _kzAE9xRc;
-        "default" = _kzAE9xRc;
+        "pkg-2.0.1" = _J1CBjpZT;
+        "default" = _J1CBjpZT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tnt-logic-realistic-explosion-physics";

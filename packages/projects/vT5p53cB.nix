@@ -381,6 +381,11 @@ let
             "file" = "catalyst-all-3.1.4.jar";
             "hash" = "sha512-EbySZBPZzJ9dT3kmw9I1ltM1xPKXPLdG5EJGO07gDM5cLARxMbjF8w+6QqaOyZB45wKPmiEcuMLiFwQ/rYE19g==";
         };
+        _fp73tcgV = {
+            "id" = "fp73tcgV";
+            "file" = "catalyst-all-3.1.5.jar";
+            "hash" = "sha512-tvqK/ecToN5rbrGSwR7CviEyiUmxtsY2qjndZgRG0pfWNdkQuWpi1n/sKyiib/Fj3jqxRAo4/hGMJOUR11R6aQ==";
+        };
     in {
         "1ZYagGZM" = _1ZYagGZM;
         "mTpsxVtL" = _mTpsxVtL;
@@ -458,7 +463,8 @@ let
         "eQAroOzz" = _eQAroOzz;
         "Z7IusZPl" = _Z7IusZPl;
         "wV516yBr" = _wV516yBr;
-        "bta-babric-b1.7.3" = _wV516yBr;
+        "fp73tcgV" = _fp73tcgV;
+        "bta-babric-b1.7.3" = _fp73tcgV;
         "babric-b1.7.3" = _4dKMkJpd;
         "fabric-b1.7.3" = _4dKMkJpd;
         "pkg-1.3.6" = _1ZYagGZM;
@@ -537,7 +543,8 @@ let
         "pkg-3.1.2" = _eQAroOzz;
         "pkg-3.1.3" = _Z7IusZPl;
         "pkg-3.1.4" = _wV516yBr;
-        "default" = _wV516yBr;
+        "pkg-3.1.5" = _fp73tcgV;
+        "default" = _fp73tcgV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "catalyst";

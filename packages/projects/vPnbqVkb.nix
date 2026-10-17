@@ -16,15 +16,21 @@ let
             "file" = "tacz-emf-compat-1.20.1-1.0.1.jar";
             "hash" = "sha512-3ONkzuX86mpjOL42PKT2fDYLsMOFgbjGRDdT7WHO9Z6ijGsaJ0VKFbjb9Wg9RbaOo/jSiHKLZn2wd3d5MLsUWw==";
         };
+        _ihmCJ7Qp = {
+            "id" = "ihmCJ7Qp";
+            "file" = "emf_compat_tacz_neoforge_1.21.1_1.0.1.jar";
+            "hash" = "sha512-N0T45a+eMpvuPDe8TQez1boU7q8FFh2Qoath+hUsJQKvFLGXjipTIW+5MgseTKfKiPcncdHdL+VAQjWEQzRrPA==";
+        };
     in {
         "ZUtGF3my" = _ZUtGF3my;
         "bxrucOH0" = _bxrucOH0;
         "bG7U0hqM" = _bG7U0hqM;
+        "ihmCJ7Qp" = _ihmCJ7Qp;
         "forge-1.20.1" = _bG7U0hqM;
-        "neoforge-1.21.1" = _bxrucOH0;
+        "neoforge-1.21.1" = _ihmCJ7Qp;
         "pkg-1.0.0" = _bxrucOH0;
-        "pkg-1.0.1" = _bG7U0hqM;
-        "default" = _bG7U0hqM;
+        "pkg-1.0.1" = _ihmCJ7Qp;
+        "default" = _ihmCJ7Qp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "emf-compat-tacz";

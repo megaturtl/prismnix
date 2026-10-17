@@ -446,6 +446,21 @@ let
             "file" = "LegacySkyblock-2.6.0-26.3+_fabric.jar";
             "hash" = "sha512-POF/b06AaPf6D7f2ws4sGD6QhyJGx3NhW46NahrBvtyYpT9ev7SF3I1Q4gGpDQZxjTXt0x49wraxRzQwTMHuNw==";
         };
+        _lETZYHQw = {
+            "id" = "lETZYHQw";
+            "file" = "LegacySkyblock-2.7.0-26.1+_fabric.jar";
+            "hash" = "sha512-BLr71JjIuwbZMl1eJ/sI8eMOligaQO5eK36yHdTkISO75UaMh9cseRKF+BwQPJJ1KwxnpaLDbEReJPJGyCO/LA==";
+        };
+        _q1KdgvvI = {
+            "id" = "q1KdgvvI";
+            "file" = "LegacySkyblock-2.7.0-26.2+_fabric.jar";
+            "hash" = "sha512-THzNITMpav/5ew2ipXIy5RS5UBVAvSLHfEnJPhdxlT/WWZjV8WDiWHZOrBbKb2gqc/EokP0aXjh7MnsCs+wOsQ==";
+        };
+        _TVpYBY3y = {
+            "id" = "TVpYBY3y";
+            "file" = "LegacySkyblock-2.7.0-26.3+_fabric.jar";
+            "hash" = "sha512-8I5yS3bbCvKv5gqUW64lgicEHN+x2du+hEYnd2z/g6EJvm1wLyy+a7fdl7euIgoTS7d1vy8c7h0CA6dO0En7rg==";
+        };
     in {
         "eZumbtm9" = _eZumbtm9;
         "IexQ8tcL" = _IexQ8tcL;
@@ -536,18 +551,21 @@ let
         "4u5e1F5c" = _4u5e1F5c;
         "jlxnSSLG" = _jlxnSSLG;
         "nFi7CqoR" = _nFi7CqoR;
+        "lETZYHQw" = _lETZYHQw;
+        "q1KdgvvI" = _q1KdgvvI;
+        "TVpYBY3y" = _TVpYBY3y;
         "fabric-1.21.5" = _xUDP9j5l;
         "fabric-1.21.6" = _JQLsJQWC;
         "fabric-1.21.7" = _JQLsJQWC;
         "fabric-1.21.8" = _3FwYh7EO;
         "fabric-1.21.10" = _atL8ssMi;
         "fabric-1.21.11" = _atL8ssMi;
-        "fabric-26.1" = _4u5e1F5c;
+        "fabric-26.1" = _lETZYHQw;
         "fabric-1.21.9" = _atL8ssMi;
-        "fabric-26.1.1" = _4u5e1F5c;
-        "fabric-26.1.2" = _4u5e1F5c;
-        "fabric-26.2" = _jlxnSSLG;
-        "fabric-26.3" = _nFi7CqoR;
+        "fabric-26.1.1" = _lETZYHQw;
+        "fabric-26.1.2" = _lETZYHQw;
+        "fabric-26.2" = _q1KdgvvI;
+        "fabric-26.3" = _TVpYBY3y;
         "pkg-1.0.0" = _eZumbtm9;
         "pkg-1.1.0" = _IexQ8tcL;
         "pkg-1.1.1" = _DIQB3R1c;
@@ -637,7 +655,10 @@ let
         "pkg-2.6.0-26.1+" = _4u5e1F5c;
         "pkg-2.6.0-26.2+" = _jlxnSSLG;
         "pkg-2.6.0-26.3+" = _nFi7CqoR;
-        "default" = _nFi7CqoR;
+        "pkg-2.7.0-26.1+" = _lETZYHQw;
+        "pkg-2.7.0-26.2+" = _q1KdgvvI;
+        "pkg-2.7.0-26.3+" = _TVpYBY3y;
+        "default" = _TVpYBY3y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "legacyskyblock";

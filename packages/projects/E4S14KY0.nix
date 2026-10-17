@@ -116,6 +116,11 @@ let
             "file" = "createkinetic-1.4.1.jar";
             "hash" = "sha512-6ak/kwiZVqQuJP+HN8vK7v9mAzWY4X87JrJFaztPA16U37tdnQXrJnWSW+Vro66CmuZreyy95sZ2UqqJt7I25Q==";
         };
+        _cryyyr4y = {
+            "id" = "cryyyr4y";
+            "file" = "createkinetic-1.4.2.jar";
+            "hash" = "sha512-CQ05D974NGB1pGJfrwSQzjocpmXnbs7dFRSCsZzGRBs96JqlzcTaRhoA0fyGMOwZUV3ZBnjEq2Qp+DmaMgxc8g==";
+        };
     in {
         "zDBoCmqG" = _zDBoCmqG;
         "Lm2uLduI" = _Lm2uLduI;
@@ -140,14 +145,15 @@ let
         "Wc9MKY3T" = _Wc9MKY3T;
         "nuolqx4r" = _nuolqx4r;
         "MSfhe45c" = _MSfhe45c;
+        "cryyyr4y" = _cryyyr4y;
         "forge-1.20.1" = _F8fP4yEX;
         "forge-1.20.2" = _F8fP4yEX;
         "forge-1.20.3" = _F8fP4yEX;
         "forge-1.20.4" = _F8fP4yEX;
         "forge-1.20.5" = _F8fP4yEX;
         "forge-1.20.6" = _F8fP4yEX;
-        "neoforge-1.21" = _MSfhe45c;
-        "neoforge-1.21.1" = _MSfhe45c;
+        "neoforge-1.21" = _cryyyr4y;
+        "neoforge-1.21.1" = _cryyyr4y;
         "neoforge-1.21.2" = _Wc9MKY3T;
         "neoforge-1.21.3" = _Wc9MKY3T;
         "neoforge-1.21.4" = _Wc9MKY3T;
@@ -181,7 +187,8 @@ let
         "pkg-1.3.0" = _Wc9MKY3T;
         "pkg-1.4.0" = _nuolqx4r;
         "pkg-1.4.1" = _MSfhe45c;
-        "default" = _MSfhe45c;
+        "pkg-1.4.2" = _cryyyr4y;
+        "default" = _cryyyr4y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-kinetic";

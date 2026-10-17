@@ -61,6 +61,11 @@ let
             "file" = "blade-addons-2.6.1.jar";
             "hash" = "sha512-xy8R0yOz7Jp2L35XvS2kK5bA8q9P+TMxEBZxFo7r2OAkQmotjNuq/n18wVm88cLpt7h27kMWM78qSHoF0BDMMA==";
         };
+        _bh16qvTs = {
+            "id" = "bh16qvTs";
+            "file" = "blade-addons-2.6.2.jar";
+            "hash" = "sha512-m3iIQhsxLlnmnY6l6WTlQoehvBQNZyo/1UVN8lfymDHDcFeFXgYwz827/4vnipBBwULWrMLMNMtdaub/lFOm0g==";
+        };
     in {
         "YeMbe2H5" = _YeMbe2H5;
         "FaYBA7Xz" = _FaYBA7Xz;
@@ -74,10 +79,11 @@ let
         "DG98p3X7" = _DG98p3X7;
         "zm2X0Qmq" = _zm2X0Qmq;
         "N121mP3k" = _N121mP3k;
+        "bh16qvTs" = _bh16qvTs;
         "fabric-1.21.10" = _zJ9NDvk4;
         "fabric-1.21.11" = _SeTBj5BH;
         "fabric-26.1.2" = _zm2X0Qmq;
-        "fabric-26.2" = _N121mP3k;
+        "fabric-26.2" = _bh16qvTs;
         "pkg-2.3.4" = _YeMbe2H5;
         "pkg-2.3.5" = _FaYBA7Xz;
         "pkg-2.3.6" = _zJ9NDvk4;
@@ -90,7 +96,8 @@ let
         "pkg-2.5.3" = _DG98p3X7;
         "pkg-2.5.4" = _zm2X0Qmq;
         "pkg-2.6.1" = _N121mP3k;
-        "default" = _N121mP3k;
+        "pkg-2.6.2" = _bh16qvTs;
+        "default" = _bh16qvTs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blade-addons";

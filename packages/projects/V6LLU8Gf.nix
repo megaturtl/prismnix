@@ -306,6 +306,16 @@ let
             "file" = "Katters Structures v2.7.jar";
             "hash" = "sha512-MZMgflJUvVdz+ATrvGXabV2CtVlNXOU9YpuIptHP+e8rIaKRNtgMeF0FRTuRRY3liB+f0YZhV2rH1WXVy0XZBw==";
         };
+        _UMeKCjwY = {
+            "id" = "UMeKCjwY";
+            "file" = "Katters Structures v2.8.zip";
+            "hash" = "sha512-R2hFw+etgsJqdAsd1UR+JeyeQQzWxu2NpqXq56XAgg0R+YM6BkNUV7Dq+MunRoskzhrgHgt+U1Xv7XgE3VMP3A==";
+        };
+        _4VfeWTgW = {
+            "id" = "4VfeWTgW";
+            "file" = "Katters Structures v2.8.jar";
+            "hash" = "sha512-QH15iQLbXqJD7mYtqsFW10lfbK2ZLJigQcAs6DrQW/dR68bqtu1tKZH5FKWQ9RERFmP21DKiacc8OPqxQdQ19g==";
+        };
     in {
         "lCfSZxDz" = _lCfSZxDz;
         "XUIJHjNP" = _XUIJHjNP;
@@ -368,6 +378,8 @@ let
         "GzzqBSTD" = _GzzqBSTD;
         "3MBS8k3o" = _3MBS8k3o;
         "Gpng0HcC" = _Gpng0HcC;
+        "UMeKCjwY" = _UMeKCjwY;
+        "4VfeWTgW" = _4VfeWTgW;
         "datapack-1.20" = _lCfSZxDz;
         "datapack-1.20.1" = _udHMljEk;
         "datapack-1.20.2" = _Joa9pJgI;
@@ -392,7 +404,7 @@ let
         "datapack-26.1.1" = _KPmwTD7S;
         "datapack-26.1.2" = _KPmwTD7S;
         "datapack-26.2" = _GyDzJkqO;
-        "datapack-26.3" = _3MBS8k3o;
+        "datapack-26.3" = _UMeKCjwY;
         "fabric-1.20.1" = _9lcqtOok;
         "fabric-1.20.2" = _d1chirhO;
         "fabric-1.20.3" = _d1chirhO;
@@ -416,7 +428,7 @@ let
         "fabric-26.1.1" = _awqugomg;
         "fabric-26.1.2" = _awqugomg;
         "fabric-26.2" = _yyyqupBe;
-        "fabric-26.3" = _Gpng0HcC;
+        "fabric-26.3" = _4VfeWTgW;
         "forge-1.20.1" = _9lcqtOok;
         "forge-1.20.2" = _d1chirhO;
         "forge-1.20.3" = _d1chirhO;
@@ -440,7 +452,7 @@ let
         "forge-26.1.1" = _awqugomg;
         "forge-26.1.2" = _awqugomg;
         "forge-26.2" = _yyyqupBe;
-        "forge-26.3" = _Gpng0HcC;
+        "forge-26.3" = _4VfeWTgW;
         "quilt-1.20.1" = _9lcqtOok;
         "quilt-1.20.2" = _d1chirhO;
         "quilt-1.20.3" = _d1chirhO;
@@ -464,7 +476,7 @@ let
         "quilt-26.1.1" = _awqugomg;
         "quilt-26.1.2" = _awqugomg;
         "quilt-26.2" = _yyyqupBe;
-        "quilt-26.3" = _Gpng0HcC;
+        "quilt-26.3" = _4VfeWTgW;
         "neoforge-1.21" = _5D49Bbzv;
         "neoforge-1.21.1" = _5D49Bbzv;
         "neoforge-1.21.2" = _GdLsBSpw;
@@ -481,7 +493,7 @@ let
         "neoforge-26.1.1" = _awqugomg;
         "neoforge-26.1.2" = _awqugomg;
         "neoforge-26.2" = _yyyqupBe;
-        "neoforge-26.3" = _Gpng0HcC;
+        "neoforge-26.3" = _4VfeWTgW;
         "pkg-1.0" = _lCfSZxDz;
         "pkg-1.1" = _HX2xLvMb;
         "pkg-1.2" = _4wXsbxQX;
@@ -536,7 +548,9 @@ let
         "pkg-2.6-mod" = _GzzqBSTD;
         "pkg-2.7" = _3MBS8k3o;
         "pkg-2.7-mod" = _Gpng0HcC;
-        "default" = _Gpng0HcC;
+        "pkg-2.8" = _UMeKCjwY;
+        "pkg-2.8-mod" = _4VfeWTgW;
+        "default" = _4VfeWTgW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "katters-structures";

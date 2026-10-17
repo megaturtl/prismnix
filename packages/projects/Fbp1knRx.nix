@@ -66,6 +66,21 @@ let
             "file" = "AlwaysBright-mc26.2-v1.2.1-fabric.jar";
             "hash" = "sha512-lBnKwhT6+MZUOpST5U8GwInsbLxgARgGsrWIw8p0LisSRQlQh7AplQnEXjPjISScqXv3jOYwq/1Hp26eqvWo2g==";
         };
+        _HZHyPQ2S = {
+            "id" = "HZHyPQ2S";
+            "file" = "AlwaysBright-mc26.3-v1.3.0-neoforge.jar";
+            "hash" = "sha512-TLXQ/+y+/Qpp9bRyqLkGkjmjSl7o8mysd+Tr7kx53wlqBZlhlcPQf+v5yb68L77d6PnbbwEZfA75997Dnw6hjw==";
+        };
+        _j0PHtJWa = {
+            "id" = "j0PHtJWa";
+            "file" = "AlwaysBright-mc26.3-v1.3.0-forge.jar";
+            "hash" = "sha512-zGVPO2hpvxeCBXgLTIes/8rhJswThceEl1+M6zBbBgqaF+UgLCRbQF0KtRvgEaL7IrUYKs6ZeqQXvFK6s/yplw==";
+        };
+        _8J6nud66 = {
+            "id" = "8J6nud66";
+            "file" = "AlwaysBright-mc26.3-v1.3.0-fabric.jar";
+            "hash" = "sha512-QHPyiwQzgb/ikG3DVWTzCK2nOqfCJyoNXcAPRKPEc0S9CQax1oWEF74WRz5vepUzmzky3YVTHLpgsN6a6rqqpQ==";
+        };
     in {
         "oURAppLA" = _oURAppLA;
         "x9NddyN3" = _x9NddyN3;
@@ -80,6 +95,9 @@ let
         "e1ZDyYsR" = _e1ZDyYsR;
         "DU4OwyaT" = _DU4OwyaT;
         "TotouPVl" = _TotouPVl;
+        "HZHyPQ2S" = _HZHyPQ2S;
+        "j0PHtJWa" = _j0PHtJWa;
+        "8J6nud66" = _8J6nud66;
         "fabric-1.21.9" = _oURAppLA;
         "fabric-1.21.10" = _x9NddyN3;
         "fabric-1.21.11" = _6Ga8aXSv;
@@ -87,12 +105,15 @@ let
         "fabric-26.1.1" = _m6PZl5FT;
         "fabric-26.1.2" = _efDO1BEW;
         "fabric-26.2" = _TotouPVl;
+        "fabric-26.3" = _8J6nud66;
         "forge-26.1" = _Xib3SqoZ;
         "forge-26.1.2" = _z3Yiw7Qf;
         "forge-26.2" = _DU4OwyaT;
+        "forge-26.3" = _j0PHtJWa;
         "neoforge-26.1" = _W8HH3ONf;
         "neoforge-26.1.2" = _Q9f2sENE;
         "neoforge-26.2" = _e1ZDyYsR;
+        "neoforge-26.3" = _HZHyPQ2S;
         "pkg-1.21.19" = _oURAppLA;
         "pkg-1.0.0+1.21.10" = _x9NddyN3;
         "pkg-1.21.11" = _6Ga8aXSv;
@@ -100,7 +121,8 @@ let
         "pkg-1.0.0" = _m6PZl5FT;
         "pkg-26.1.2" = _efDO1BEW;
         "pkg-1.2.1" = _TotouPVl;
-        "default" = _TotouPVl;
+        "pkg-1.3.0" = _8J6nud66;
+        "default" = _8J6nud66;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "alwaysbright";

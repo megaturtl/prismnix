@@ -91,6 +91,26 @@ let
             "file" = "recipeitemsync-26.3-3.1.0.jar";
             "hash" = "sha512-H9ZdQAUKuxkZlwA+teqKq/5yqkqE2Ii7Z5lAb8NJBPpim4YJLlFmZz8ar+YHBU5RbphshVQ/5Y9Bpc0Is6K44g==";
         };
+        _yX9q96vm = {
+            "id" = "yX9q96vm";
+            "file" = "recipeitemsync-1.21.1-3.2.0.jar";
+            "hash" = "sha512-EvX9aUEA8lYkSDj/ubwEN77lP/mMsEddJXtwM3IRLVqAV2vQx2at2UQlLADjtj45EUX/qrXfFL/TVXh1wE2Hqg==";
+        };
+        _ICy4lfLm = {
+            "id" = "ICy4lfLm";
+            "file" = "recipeitemsync-26.3-3.2.0.jar";
+            "hash" = "sha512-UdvupprAFmWi8ikrNcG6T4GSpdCl6sCW9HhGCdPFNgPFqQ15S4tAVIlP45Nquzqd0/nkvRgYsTB3dDbuQ4sGww==";
+        };
+        _w6h4lB31 = {
+            "id" = "w6h4lB31";
+            "file" = "recipeitemsync-26.1.2-3.2.0.jar";
+            "hash" = "sha512-lMm0zFTfTs1M7VYGuugel0YfqqCoc5vzypBhTGhncAhXHeEE8q5/G+a2UA2Q33clJX6wmoiV48CPyI6wr9KhOw==";
+        };
+        _R9CytqCs = {
+            "id" = "R9CytqCs";
+            "file" = "recipeitemsync-26.2-3.2.0.jar";
+            "hash" = "sha512-ZDXudxiFWFYwQx8wewaHtaEUXWcuiGJUyZzaCxnBdPagwsuGYnFXNi4aRK7zmNmL4zxWb9zL5/lfHyvhSXLQHQ==";
+        };
     in {
         "3lnLUKi2" = _3lnLUKi2;
         "rVUVaup0" = _rVUVaup0;
@@ -110,10 +130,14 @@ let
         "phpdgLt2" = _phpdgLt2;
         "HsLSOnzv" = _HsLSOnzv;
         "iVYf3j3Y" = _iVYf3j3Y;
-        "neoforge-1.21.1" = _jghctRTo;
-        "neoforge-26.2" = _HsLSOnzv;
-        "neoforge-26.1.2" = _phpdgLt2;
-        "neoforge-26.3" = _iVYf3j3Y;
+        "yX9q96vm" = _yX9q96vm;
+        "ICy4lfLm" = _ICy4lfLm;
+        "w6h4lB31" = _w6h4lB31;
+        "R9CytqCs" = _R9CytqCs;
+        "neoforge-1.21.1" = _yX9q96vm;
+        "neoforge-26.2" = _R9CytqCs;
+        "neoforge-26.1.2" = _w6h4lB31;
+        "neoforge-26.3" = _ICy4lfLm;
         "pkg-1.2" = _3lnLUKi2;
         "pkg-1.3" = _rVUVaup0;
         "pkg-1.4" = _he9wAIj9;
@@ -127,7 +151,11 @@ let
         "pkg-3.0" = _hoCEw5Y3;
         "pkg-3.0.1" = _CQ93b3QI;
         "pkg-3.1.0" = _iVYf3j3Y;
-        "default" = _iVYf3j3Y;
+        "pkg-3.2.0-mc1.21.1" = _yX9q96vm;
+        "pkg-3.2.0-mc26.3" = _ICy4lfLm;
+        "pkg-3.2.0-mc26.1.2" = _w6h4lB31;
+        "pkg-3.2.0-mc26.2" = _R9CytqCs;
+        "default" = _R9CytqCs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "recipe-item-sync";

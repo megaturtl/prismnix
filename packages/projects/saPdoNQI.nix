@@ -116,6 +116,11 @@ let
             "file" = "MoreFoWorld-1.16.0-all.jar";
             "hash" = "sha512-JF8QbwoKObtjZfS9eKEaGYaQ4W7zi/CMW2far4vKVhosP/N9iqcNLcD1v/LN7uCC2c0YRlrQ9FDakxsoNgZp5A==";
         };
+        _zFpLNq2C = {
+            "id" = "zFpLNq2C";
+            "file" = "MoreFoWorld-1.17.0-all.jar";
+            "hash" = "sha512-EbRAIDkPmnQbiE2bme/7DFzSQNbN24Dd0+u0aCzyvTZP2Upo+D7vp5Ypz9DCs6MR1JkbqNoP/RZUatipWaq2Lg==";
+        };
     in {
         "UVAZuX5t" = _UVAZuX5t;
         "5KClW3BF" = _5KClW3BF;
@@ -140,6 +145,7 @@ let
         "XdLEZFs5" = _XdLEZFs5;
         "97wlLbzM" = _97wlLbzM;
         "6HwuJWjr" = _6HwuJWjr;
+        "zFpLNq2C" = _zFpLNq2C;
         "folia-1.20.1" = _UVAZuX5t;
         "folia-1.20.2" = _5KClW3BF;
         "folia-1.20.4" = _rYkXAC1P;
@@ -152,6 +158,7 @@ let
         "folia-1.21.11" = _AwA6OXxR;
         "folia-26.1.2" = _XdLEZFs5;
         "folia-26.2" = _6HwuJWjr;
+        "folia-26.3" = _zFpLNq2C;
         "pkg-1.2.0" = _UVAZuX5t;
         "pkg-1.3.0" = _5KClW3BF;
         "pkg-1.4.0" = _FmoJxMa0;
@@ -175,7 +182,8 @@ let
         "pkg-1.14.1" = _XdLEZFs5;
         "pkg-1.15.0" = _97wlLbzM;
         "pkg-1.16.0" = _6HwuJWjr;
-        "default" = _6HwuJWjr;
+        "pkg-1.17.0" = _zFpLNq2C;
+        "default" = _zFpLNq2C;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "morefoworld";

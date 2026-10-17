@@ -131,6 +131,11 @@ let
             "file" = "justenoughbackups-1.2.0.7+26.3.jar";
             "hash" = "sha512-rT0OMutXKzS+Pl6qmBkHgfk0PxagJI4XvHbm6CBvXHXxSiJWY953KzlUuFKSHtunG1g4ZubJbNBLnR8+4qFkmg==";
         };
+        _sFa7yjea = {
+            "id" = "sFa7yjea";
+            "file" = "justenoughbackups-1.2.0.8+26.3.jar";
+            "hash" = "sha512-XBhS6nzE1PfExKCYADoAmXuAEVUHs68atWA9FgekMwDKzEMOASggUpQIQISKk7K/bLQXP8+O54E6CD5+mkHRcQ==";
+        };
     in {
         "1J6KQmG8" = _1J6KQmG8;
         "sgOUGPSD" = _sgOUGPSD;
@@ -158,6 +163,7 @@ let
         "OUhwrBpP" = _OUhwrBpP;
         "n1Jc09sK" = _n1Jc09sK;
         "gVN4FMOX" = _gVN4FMOX;
+        "sFa7yjea" = _sFa7yjea;
         "fabric-1.21" = _1J6KQmG8;
         "fabric-1.21.1" = _2Kdl4TIp;
         "fabric-1.21.2" = _e8mAOB50;
@@ -174,7 +180,7 @@ let
         "fabric-1.21.10" = _W4gmJwrM;
         "fabric-1.21.11" = _WWeNmZWI;
         "fabric-26.2" = _n1Jc09sK;
-        "fabric-26.3" = _gVN4FMOX;
+        "fabric-26.3" = _sFa7yjea;
         "pkg-1.0.0+1.21" = _1J6KQmG8;
         "pkg-1.0.1+1.21.1" = _sgOUGPSD;
         "pkg-1.0.1.1+1.21.1" = _2Kdl4TIp;
@@ -201,7 +207,8 @@ let
         "pkg-1.2.0.5+26.1" = _OUhwrBpP;
         "pkg-1.2.0.6+26.2" = _n1Jc09sK;
         "pkg-1.2.0.7+26.3" = _gVN4FMOX;
-        "default" = _gVN4FMOX;
+        "pkg-1.2.0.8+26.3" = _sFa7yjea;
+        "default" = _sFa7yjea;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "justenoughbackups-jeb";

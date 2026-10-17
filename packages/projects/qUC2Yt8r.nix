@@ -441,6 +441,16 @@ let
             "file" = "gravels_extended_battles-fabric-2.0.0-Alpha.30.jar";
             "hash" = "sha512-yd6Rnk/376bj+mx8J0DFbsuvyPRde45hGkUveNx79cA8OX4Q687ck/7/kmfPWrEHRtTTU5Ao6sCpIx3YvFdRvw==";
         };
+        _r1QGC5cC = {
+            "id" = "r1QGC5cC";
+            "file" = "gravels_extended_battles-fabric-2.0.0-Alpha.31.jar";
+            "hash" = "sha512-lfLwD21nDAiFl2GeQDfERURSdWYtoVpUUj2fm303IbOx+KReE+oYoxE9OROReEzj2++vH4mlbUuwFc4mNw/pvg==";
+        };
+        _b1CDqsXS = {
+            "id" = "b1CDqsXS";
+            "file" = "gravels_extended_battles-neoforge-2.0.0-Alpha.31.jar";
+            "hash" = "sha512-AbbLQdiP302R5E6RecteqoWKDBQcEbsBxcgA7CqIvlGthCNM4ZCk3KzA7VybCabgH6KiJuo1S3FPNcb5oowh8w==";
+        };
     in {
         "JHlPgr3T" = _JHlPgr3T;
         "5SiG7t44" = _5SiG7t44;
@@ -530,10 +540,12 @@ let
         "cwzV1HnQ" = _cwzV1HnQ;
         "uP1rXXLp" = _uP1rXXLp;
         "mprQ9t42" = _mprQ9t42;
+        "r1QGC5cC" = _r1QGC5cC;
+        "b1CDqsXS" = _b1CDqsXS;
         "forge-1.20.1" = _Ku3j8ind;
         "fabric-1.20.1" = _Mt56Htbr;
-        "fabric-1.21.1" = _mprQ9t42;
-        "neoforge-1.21.1" = _uP1rXXLp;
+        "fabric-1.21.1" = _r1QGC5cC;
+        "neoforge-1.21.1" = _b1CDqsXS;
         "pkg-1.0.0" = _5SiG7t44;
         "pkg-1.0.1" = _hcgMsa6C;
         "pkg-1.2.0" = _twUDiFTT;
@@ -583,7 +595,8 @@ let
         "pkg-2.0.0-Alpha.28" = _fYfNdPXH;
         "pkg-2.0.0-Alpha.29" = _cwzV1HnQ;
         "pkg-2.0.0-Alpha.30" = _mprQ9t42;
-        "default" = _mprQ9t42;
+        "pkg-2.0.0-Alpha.31" = _b1CDqsXS;
+        "default" = _b1CDqsXS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gravels-extended-battles";

@@ -41,6 +41,11 @@ let
             "file" = "not-enough-fps-26.3-1.1.1.jar";
             "hash" = "sha512-+WltpnsbH5fcwUInNsdtFzyXzy/gGV8DM7z+2PFy4oMU0Z9KSmpBe8Zz64m0Lncnmd91/l8a0qWuHP5mpl9xjw==";
         };
+        _pPasRPJC = {
+            "id" = "pPasRPJC";
+            "file" = "not-enough-fps-26.3-1.1.2.jar";
+            "hash" = "sha512-dyLeZYwdVM0D5pR1nA6ekdrPunqpiuIaxDfLIYNGetsUkuzXmM1k2jPYQxUQJnUt9RXZmgHSla/GoTDdOLL+YQ==";
+        };
     in {
         "2uu4f6UY" = _2uu4f6UY;
         "SdnM4JMe" = _SdnM4JMe;
@@ -50,12 +55,13 @@ let
         "50QakYdm" = _50QakYdm;
         "DBo6qqSK" = _DBo6qqSK;
         "4pis1noT" = _4pis1noT;
+        "pPasRPJC" = _pPasRPJC;
         "fabric-1.21.11" = _wTsk4wN1;
         "fabric-26.1" = _DBo6qqSK;
         "fabric-26.1.1" = _DBo6qqSK;
         "fabric-26.1.2" = _DBo6qqSK;
         "fabric-26.2" = _DBo6qqSK;
-        "fabric-26.3" = _4pis1noT;
+        "fabric-26.3" = _pPasRPJC;
         "pkg-1.21.11-1.0.0" = _2uu4f6UY;
         "pkg-1.21.11-1.0.1" = _SdnM4JMe;
         "pkg-1.21.11-1.0.2" = _wTsk4wN1;
@@ -64,7 +70,8 @@ let
         "pkg-26.2-1.0.5" = _50QakYdm;
         "pkg-26.2-1.1.0" = _DBo6qqSK;
         "pkg-26.3-1.1.1" = _4pis1noT;
-        "default" = _4pis1noT;
+        "pkg-26.3-1.1.2" = _pPasRPJC;
+        "default" = _pPasRPJC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "not-enough-framerate";

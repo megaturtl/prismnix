@@ -1266,6 +1266,11 @@ let
             "file" = "sophisticatedstorageinmotion-26.2-0.10.38.377.jar";
             "hash" = "sha512-2hMV7aClP7QsgGwDU06GDD8oRh6oPFFwbrQSj4fFQX9/ay1QvLepjT3JCNOB6tPmZjpHRI1HpjCucKmNlbPa1w==";
         };
+        _7c0eb3qp = {
+            "id" = "7c0eb3qp";
+            "file" = "sophisticatedstorageinmotion-1.20.1-0.10.41.382.jar";
+            "hash" = "sha512-msDQX4khmIFd7gS8N35yN94gOOo8nL1J2u+vYTC3T/v/BGa3M4KrhOecajr6rTceqBrL7YxAouHYM5LNdSBXLA==";
+        };
     in {
         "P0I3VGxC" = _P0I3VGxC;
         "hS4O3rb0" = _hS4O3rb0;
@@ -1520,8 +1525,9 @@ let
         "HPci8xXX" = _HPci8xXX;
         "cl7WRCnV" = _cl7WRCnV;
         "nTq0dK2i" = _nTq0dK2i;
+        "7c0eb3qp" = _7c0eb3qp;
         "neoforge-1.21.1" = _cl7WRCnV;
-        "neoforge-1.20.1" = _E0JGIjDX;
+        "neoforge-1.20.1" = _7c0eb3qp;
         "neoforge-1.21.4" = _euhLyZRU;
         "neoforge-1.21.5" = _cIoKhzcY;
         "neoforge-1.21.8" = _JR5dXv90;
@@ -1532,7 +1538,7 @@ let
         "neoforge-26.1.2" = _HPci8xXX;
         "neoforge-26.2" = _nTq0dK2i;
         "neoforge-26.3" = _Pty9h2Zo;
-        "forge-1.20.1" = _E0JGIjDX;
+        "forge-1.20.1" = _7c0eb3qp;
         "pkg-1.21.1-0.0.1.4" = _P0I3VGxC;
         "pkg-1.21.1-0.0.2.5" = _hS4O3rb0;
         "pkg-1.21.1-0.0.2.6" = _vvf6UFdT;
@@ -1786,7 +1792,8 @@ let
         "pkg-26.1.2-0.10.37.378" = _HPci8xXX;
         "pkg-1.21.1-0.10.36.381" = _cl7WRCnV;
         "pkg-26.2-0.10.38.377" = _nTq0dK2i;
-        "default" = _nTq0dK2i;
+        "pkg-1.20.1-0.10.41.382" = _7c0eb3qp;
+        "default" = _7c0eb3qp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sophisticated-storage-in-motion";

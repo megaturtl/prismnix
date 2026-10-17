@@ -36,6 +36,11 @@ let
             "file" = "FlashLight-Fabric-1.0.jar";
             "hash" = "sha512-f1NI7jqe5v55EXQ/Sems94W9DVqTgZSnVkjz3W1L/pFKa2C4hx+KUGBmc9oXDLv/h1lipv0iEa2s9NrSqBg90A==";
         };
+        _5tQZG85U = {
+            "id" = "5tQZG85U";
+            "file" = "FlashLight-Forge-1.0.jar";
+            "hash" = "sha512-EoTFMAScvw4k1i4vBf3pJhSUPfinipaRbElLjrB0jX6jf/2hAj0w1u5y+cd9D/rg1/PI9PHmGKCAPAXZn8810g==";
+        };
     in {
         "8lO6XSsY" = _8lO6XSsY;
         "jwGZzRlt" = _jwGZzRlt;
@@ -44,12 +49,13 @@ let
         "KqW8Sqio" = _KqW8Sqio;
         "r5jTkcVv" = _r5jTkcVv;
         "2xFnS1qO" = _2xFnS1qO;
-        "forge-1.20.1" = _KqW8Sqio;
-        "forge-1.20.2" = _KqW8Sqio;
-        "forge-1.20.3" = _KqW8Sqio;
-        "forge-1.20.4" = _KqW8Sqio;
-        "forge-1.20.5" = _KqW8Sqio;
-        "forge-1.20.6" = _KqW8Sqio;
+        "5tQZG85U" = _5tQZG85U;
+        "forge-1.20.1" = _5tQZG85U;
+        "forge-1.20.2" = _5tQZG85U;
+        "forge-1.20.3" = _5tQZG85U;
+        "forge-1.20.4" = _5tQZG85U;
+        "forge-1.20.5" = _5tQZG85U;
+        "forge-1.20.6" = _5tQZG85U;
         "fabric-1.20.1" = _2xFnS1qO;
         "fabric-1.20.2" = _2xFnS1qO;
         "fabric-1.20.3" = _2xFnS1qO;
@@ -61,8 +67,8 @@ let
         "pkg-1.0.4-AlphaTest" = _2qA3Fkje;
         "pkg-1.0.4-BetaTest" = _n6PwTkIK;
         "pkg-1.0.5-BetaTest" = _r5jTkcVv;
-        "pkg-1.0" = _2xFnS1qO;
-        "default" = _2xFnS1qO;
+        "pkg-1.0" = _5tQZG85U;
+        "default" = _5tQZG85U;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "flashlight-mod";

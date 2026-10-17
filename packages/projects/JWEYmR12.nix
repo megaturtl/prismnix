@@ -21,19 +21,26 @@ let
             "file" = "pastekluckyblock-1.21.10-1.0.0.jar";
             "hash" = "sha512-mkEsVVarQZ9WuSuP6um4b+t6Koxut7ViRMTTrmPrv+9UW+fEvdFg3S8jyKvwsLvl5qihbW325Xb2ZJMw9nGJrw==";
         };
+        _cxTnRlgm = {
+            "id" = "cxTnRlgm";
+            "file" = "pastekluckyblock-1.21.1-1.1.0.jar";
+            "hash" = "sha512-yD76pxCJxJ6jSQCjzR8TwVN+7m1/ebZbmF/bXs0mryYpSLcFFljZK68OQ3jBWvUCSI6jwnFsok29s5y+f5A3RA==";
+        };
     in {
         "xXCf9BeE" = _xXCf9BeE;
         "XzZoHrW7" = _XzZoHrW7;
         "zE4MpyyG" = _zE4MpyyG;
         "PgBqK2ga" = _PgBqK2ga;
+        "cxTnRlgm" = _cxTnRlgm;
         "forge-1.20.1" = _XzZoHrW7;
-        "neoforge-1.21.1" = _zE4MpyyG;
+        "neoforge-1.21.1" = _cxTnRlgm;
         "neoforge-1.21.10" = _PgBqK2ga;
         "pkg-1.0.0" = _xXCf9BeE;
         "pkg-1.20.1-1.0.1" = _XzZoHrW7;
         "pkg-1.21.1-1.0.0" = _zE4MpyyG;
         "pkg-1.21.10-1.0.0" = _PgBqK2ga;
-        "default" = _PgBqK2ga;
+        "pkg-1.21.1-1.1.0" = _cxTnRlgm;
+        "default" = _cxTnRlgm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pasteks-lucky-block";

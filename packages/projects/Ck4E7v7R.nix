@@ -471,6 +471,11 @@ let
             "file" = "guideme-26.2.2-alpha.jar";
             "hash" = "sha512-CP6nEL2e3slydU3HbE8G1HDY7Cxz8S4UX8ZWAjyVT9AeaZqBKs4nnPTSpCfjsgVUYzmjieR05i/wQ6Fagn3YUQ==";
         };
+        _k8pDKdkO = {
+            "id" = "k8pDKdkO";
+            "file" = "guideme-26.3.4-alpha.jar";
+            "hash" = "sha512-D+6EIx0y4QbQiqAognpscTb+PK2Q4puOHQyA8qYg41lPVV6L7iH0u1cXTm5i+ZLS83bumHTj3qA9FNn1vRIPVQ==";
+        };
     in {
         "bk0EGcWt" = _bk0EGcWt;
         "xp5Eb3cc" = _xp5Eb3cc;
@@ -566,6 +571,7 @@ let
         "VD5BRwvu" = _VD5BRwvu;
         "69ocM6po" = _69ocM6po;
         "kCCUXhEU" = _kCCUXhEU;
+        "k8pDKdkO" = _k8pDKdkO;
         "neoforge-1.21.1" = _hFpGwC6q;
         "neoforge-1.20.4" = _ReOCRQ9T;
         "neoforge-1.21.5" = _o5fVAod4;
@@ -594,10 +600,11 @@ let
         "neoforge-26.3-rc-1" = _kCCUXhEU;
         "neoforge-26.3-rc-2" = _kCCUXhEU;
         "neoforge-26.3-rc-3" = _kCCUXhEU;
-        "neoforge-26.3" = _69ocM6po;
-        "neoforge-26.4-snapshot-1" = _69ocM6po;
-        "neoforge-26.4-snapshot-2" = _69ocM6po;
-        "neoforge-26.4-snapshot-3" = _69ocM6po;
+        "neoforge-26.3" = _k8pDKdkO;
+        "neoforge-26.4-snapshot-1" = _k8pDKdkO;
+        "neoforge-26.4-snapshot-2" = _k8pDKdkO;
+        "neoforge-26.4-snapshot-3" = _k8pDKdkO;
+        "neoforge-26.4-snapshot-4" = _k8pDKdkO;
         "forge-1.20.1" = _i7Tp1AHw;
         "pkg-1.0.0" = _xp5Eb3cc;
         "pkg-1.0.1" = _MFsx32k5;
@@ -692,7 +699,8 @@ let
         "pkg-26.3.1-alpha" = _VD5BRwvu;
         "pkg-26.3.3-alpha" = _69ocM6po;
         "pkg-26.2.2-alpha" = _kCCUXhEU;
-        "default" = _kCCUXhEU;
+        "pkg-26.3.4-alpha" = _k8pDKdkO;
+        "default" = _k8pDKdkO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "guideme";

@@ -151,6 +151,11 @@ let
             "file" = "Biomes Of The Ancients 1.2.9 Secrets Of Song.jar";
             "hash" = "sha512-ljZuUAqGJucbv0KMUlEDcWuTN/rGyQqMAB15dYnoInc+Dp7TbatemsWHTlpL6qiLFXFUsCcEbPzNWHkhg7vPTw==";
         };
+        _VskFbLb1 = {
+            "id" = "VskFbLb1";
+            "file" = "Biomes Of The Ancients 1.3.0 Haunted Masquerade.jar";
+            "hash" = "sha512-ixuiFF47qrKcA4k7XTwf+xXkUsLtnHkYQIJg16jaKEN2tsewJoeuUWzk6mWlmRz4nrEJ5qaBsVZ0UNDlQZSrGw==";
+        };
     in {
         "gZdxkZM4" = _gZdxkZM4;
         "OTxYazXG" = _OTxYazXG;
@@ -182,7 +187,8 @@ let
         "3Uhdvgzy" = _3Uhdvgzy;
         "XytcFozl" = _XytcFozl;
         "kEh8GQtk" = _kEh8GQtk;
-        "forge-1.16.5" = _kEh8GQtk;
+        "VskFbLb1" = _VskFbLb1;
+        "forge-1.16.5" = _VskFbLb1;
         "pkg-1.0.0" = _gZdxkZM4;
         "pkg-1.0.1" = _OTxYazXG;
         "pkg-1.0.2" = _hbpW2xMR;
@@ -213,7 +219,8 @@ let
         "pkg-1.2.7" = _3Uhdvgzy;
         "pkg-1.2.8" = _XytcFozl;
         "pkg-1.2.9" = _kEh8GQtk;
-        "default" = _kEh8GQtk;
+        "pkg-1.3.0" = _VskFbLb1;
+        "default" = _VskFbLb1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "biomes-of-the-ancients";

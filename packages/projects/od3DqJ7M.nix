@@ -51,6 +51,11 @@ let
             "file" = "betteramethyst-1.0.5.jar";
             "hash" = "sha512-OKQTqG4rJ4eNfw7+mVUKk4lXt5DH0X5BGUEmlw/K7aIuCg2XTlt87bFYwtYneuIH28nErQPoQExZHvVvF4cZaA==";
         };
+        _twLD5KWk = {
+            "id" = "twLD5KWk";
+            "file" = "1.21.1-fabric-betteramethyst-1.0.0.jar";
+            "hash" = "sha512-mNLLebUv0oPcECXR3WA4pMlTqkLywPDgaIMLS4WKaguCBhmk7PBmxFsi+/dae8P7OpLhIlwcSS8l1Lof+V1bew==";
+        };
     in {
         "gk84UAYJ" = _gk84UAYJ;
         "juvuUNCC" = _juvuUNCC;
@@ -62,16 +67,18 @@ let
         "6ZKNs17X" = _6ZKNs17X;
         "TPXcIc0B" = _TPXcIc0B;
         "KNgpItJi" = _KNgpItJi;
+        "twLD5KWk" = _twLD5KWk;
         "forge-1.19.2" = _Iug4SYvR;
         "forge-1.19.4" = _Q9CC8QO2;
         "forge-1.20.1" = _KNgpItJi;
         "forge-1.20.2" = _6ZKNs17X;
         "forge-1.21.1" = _TPXcIc0B;
+        "fabric-1.21.1" = _twLD5KWk;
         "pkg-1.0.2" = _gk84UAYJ;
         "pkg-1.0.0" = _uuFYDuP6;
         "pkg-1.0.4" = _TPXcIc0B;
-        "pkg-1.0.5" = _KNgpItJi;
-        "default" = _KNgpItJi;
+        "pkg-1.0.5" = _twLD5KWk;
+        "default" = _twLD5KWk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "even-better-amethyst";

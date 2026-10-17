@@ -101,6 +101,11 @@ let
             "file" = "lavafishing-26.1.2-1.4.0-all.jar";
             "hash" = "sha512-bBwnBlrZic9nZ0b0rf1nACpokLJ93DHdkqEgFHxuuYWJ3jNVi/G9OdyohC8ggsDXNp1B8DrlDhCY3g61c2qJXg==";
         };
+        _WcMLuWX7 = {
+            "id" = "WcMLuWX7";
+            "file" = "lavafishing-1.20.1-1.2.1-all.jar";
+            "hash" = "sha512-G87D1n0VgsgVCp6m8JOzdxDm0xVCpVdlWNylYGUPjJIHm+3WAzulyRcL7kfvHF6zkqp2KLE8YtHA4ZjDz0mtrg==";
+        };
     in {
         "o9WJesc5" = _o9WJesc5;
         "AR2PjI0U" = _AR2PjI0U;
@@ -122,7 +127,8 @@ let
         "l6d262qY" = _l6d262qY;
         "K1gywYJF" = _K1gywYJF;
         "iS89SdrR" = _iS89SdrR;
-        "forge-1.20.1" = _ZaGHj2D6;
+        "WcMLuWX7" = _WcMLuWX7;
+        "forge-1.20.1" = _WcMLuWX7;
         "neoforge-1.21.1" = _SNeCwuCc;
         "neoforge-26.1.2" = _iS89SdrR;
         "pkg-1.20.1-1.1.1" = _o9WJesc5;
@@ -145,7 +151,8 @@ let
         "pkg-26.1.2-1.3.0" = _l6d262qY;
         "pkg-26.1.2-1.3.1" = _K1gywYJF;
         "pkg-26.1.2-1.4.0" = _iS89SdrR;
-        "default" = _iS89SdrR;
+        "pkg-1.20.1-1.2.1" = _WcMLuWX7;
+        "default" = _WcMLuWX7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lavafishing";

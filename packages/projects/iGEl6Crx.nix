@@ -1726,6 +1726,11 @@ let
             "file" = "biolith-fabric-3.9.0-alpha.2.jar";
             "hash" = "sha512-q4KU7Fejw4QlmFMTndRGnvfQwaBQLJN0Q3/mjPngJtwBWKAyazKyrUSyIJm4jCmbNOLWomHQCoHVq13fOzdh6w==";
         };
+        _sFXaru9d = {
+            "id" = "sFXaru9d";
+            "file" = "biolith-fabric-3.9.0-alpha.3.jar";
+            "hash" = "sha512-GRoNJvxHBmy5VN4sSO7IJnn+UZrMPIhFbmF4P3vZzvXLaZy7atajYUJ7Un6hlEdaa+4Xa0n8lbQjJYB7/jQ8Gg==";
+        };
     in {
         "DgbD2J3k" = _DgbD2J3k;
         "zSFydtUE" = _zSFydtUE;
@@ -2072,6 +2077,7 @@ let
         "V3HAyUCR" = _V3HAyUCR;
         "zChxErrT" = _zChxErrT;
         "speWnpJ1" = _speWnpJ1;
+        "sFXaru9d" = _sFXaru9d;
         "fabric-1.19.4" = _gUa9RrR8;
         "fabric-23w14a" = _zSFydtUE;
         "fabric-23w16a" = _zSFydtUE;
@@ -2175,7 +2181,8 @@ let
         "fabric-26.3-rc-3" = _O8ICsbgV;
         "fabric-26.3" = _K3CS4Akl;
         "fabric-26.4-snapshot-1" = _zChxErrT;
-        "fabric-26.4-snapshot-3" = _speWnpJ1;
+        "fabric-26.4-snapshot-3" = _sFXaru9d;
+        "fabric-26.4-snapshot-4" = _sFXaru9d;
         "quilt-1.20-pre2" = _K4N5tZT1;
         "quilt-1.20-pre3" = _K4N5tZT1;
         "quilt-1.20-pre4" = _K4N5tZT1;
@@ -2272,7 +2279,8 @@ let
         "quilt-26.3-rc-3" = _O8ICsbgV;
         "quilt-26.3" = _K3CS4Akl;
         "quilt-26.4-snapshot-1" = _zChxErrT;
-        "quilt-26.4-snapshot-3" = _speWnpJ1;
+        "quilt-26.4-snapshot-3" = _sFXaru9d;
+        "quilt-26.4-snapshot-4" = _sFXaru9d;
         "forge-1.20.4" = _ddWqE2bc;
         "forge-23w51a" = _Jt522J2O;
         "forge-23w51b" = _Jt522J2O;
@@ -2486,7 +2494,8 @@ let
         "pkg-3.8.0-beta.1" = _V3HAyUCR;
         "pkg-3.9.0-alpha.1" = _zChxErrT;
         "pkg-3.9.0-alpha.2" = _speWnpJ1;
-        "default" = _speWnpJ1;
+        "pkg-3.9.0-alpha.3" = _sFXaru9d;
+        "default" = _sFXaru9d;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "biolith";

@@ -146,6 +146,26 @@ let
             "file" = "clockwork-neoforge-1.21.1-1.1.5.jar";
             "hash" = "sha512-nWULX3gHeZNpMJ97kGW6vqgDySaZZMNpdgW5LvV0py05PB7mPCe0V0psjnVAkoOfthDKafOuJED0vmcdZ1Q5bA==";
         };
+        _Gzo3ExPz = {
+            "id" = "Gzo3ExPz";
+            "file" = "clockwork-fabric-1.20.1-1.1.7.jar";
+            "hash" = "sha512-x03fkAKbO5aMywVB/11FlWgoJgnbxjlD2x7Xdow4g+AK94+8Vr/jWtMrklZw8ikgTAGm0WdGIkyywzhEPmpQTQ==";
+        };
+        _BFmJbqrX = {
+            "id" = "BFmJbqrX";
+            "file" = "clockwork-forge-1.20.1-1.1.7.jar";
+            "hash" = "sha512-yC5Q4xjO4yTYKIFFM8tpv2Uvg48JWVF/YJtRh7r6RyfObGvkabedlUJ4oL1PornvgxIclfqSPpKOKl/pP8gz6A==";
+        };
+        _9JpFYuDz = {
+            "id" = "9JpFYuDz";
+            "file" = "clockwork-fabric-1.21.1-1.1.6.jar";
+            "hash" = "sha512-mbUDEyIdB7vnjxaKltB9XOo5838A7NqQBZOfmkGrQpYUKm9AeCyFqd2sC/fksm33+zmH8B0E7SUK+dljDT91zA==";
+        };
+        _DxUqeFE6 = {
+            "id" = "DxUqeFE6";
+            "file" = "clockwork-neoforge-1.21.1-1.1.6.jar";
+            "hash" = "sha512-RMHJw4iDZBCnK+emWN+w73Ew7Fuw3XJtt1oOLjcE9YwyfQudZC/Iev1qZy5ccu4ntw1O2xMEwJjl6PeeN6Idzg==";
+        };
     in {
         "cEVTHjoZ" = _cEVTHjoZ;
         "6PARFY9A" = _6PARFY9A;
@@ -176,14 +196,18 @@ let
         "aPSaJ62k" = _aPSaJ62k;
         "RLERvNhA" = _RLERvNhA;
         "h8mXZDkx" = _h8mXZDkx;
-        "forge-1.20.1" = _aPSaJ62k;
-        "forge-1.20" = _aPSaJ62k;
-        "fabric-1.20" = _SgLVSF9H;
-        "fabric-1.20.1" = _SgLVSF9H;
-        "fabric-1.21" = _RLERvNhA;
-        "fabric-1.21.1" = _RLERvNhA;
-        "neoforge-1.21" = _h8mXZDkx;
-        "neoforge-1.21.1" = _h8mXZDkx;
+        "Gzo3ExPz" = _Gzo3ExPz;
+        "BFmJbqrX" = _BFmJbqrX;
+        "9JpFYuDz" = _9JpFYuDz;
+        "DxUqeFE6" = _DxUqeFE6;
+        "forge-1.20.1" = _BFmJbqrX;
+        "forge-1.20" = _BFmJbqrX;
+        "fabric-1.20" = _Gzo3ExPz;
+        "fabric-1.20.1" = _Gzo3ExPz;
+        "fabric-1.21" = _9JpFYuDz;
+        "fabric-1.21.1" = _9JpFYuDz;
+        "neoforge-1.21" = _DxUqeFE6;
+        "neoforge-1.21.1" = _DxUqeFE6;
         "pkg-1.0.0" = _cEVTHjoZ;
         "pkg-1.0.1" = _6PARFY9A;
         "pkg-1.0.2" = _KueyB6TB;
@@ -193,8 +217,9 @@ let
         "pkg-1.1.3" = _upvwVDmi;
         "pkg-1.1.4" = _evGdRgyV;
         "pkg-1.1.5" = _h8mXZDkx;
-        "pkg-1.1.6" = _aPSaJ62k;
-        "default" = _h8mXZDkx;
+        "pkg-1.1.6" = _DxUqeFE6;
+        "pkg-1.1.7" = _BFmJbqrX;
+        "default" = _DxUqeFE6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "clockwork_mod";

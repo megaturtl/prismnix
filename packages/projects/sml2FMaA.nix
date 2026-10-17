@@ -611,6 +611,26 @@ let
             "file" = "antixray-neoforge-1.4.16+26.3-all.jar";
             "hash" = "sha512-ckRpDVjVWfVyypDw6BNZr270hDpTXRB260UTac+LfAVGOfaZZtvMP5k2839QGE2ByN8zo7Geo5eQSHVdCQk4ZQ==";
         };
+        _o7CvEVep = {
+            "id" = "o7CvEVep";
+            "file" = "antixray-fabric-1.4.17+26.1.2.jar";
+            "hash" = "sha512-H3thBl31p6dgDL0TUcruu5uSLfZ/z5R4kw9k1q3Yy8PLbVNxJDBquHamKZLcLJodA9qedZ3/zSrgKs+P98rTng==";
+        };
+        _AU5FnTTj = {
+            "id" = "AU5FnTTj";
+            "file" = "antixray-fabric-1.4.17+26.3.jar";
+            "hash" = "sha512-CdTbGv79wNs5Nti9Dmp6kXM6LWoFqnwmwQysZmqCTFCvgoAsg6vPIOIhHcgb3fSx8IWLTnR6PBw/sRvXmsAsIA==";
+        };
+        _WpA0sbt9 = {
+            "id" = "WpA0sbt9";
+            "file" = "antixray-neoforge-1.4.17+26.1.2-all.jar";
+            "hash" = "sha512-LFNsNyNkwScH1gfUi7xlZHA1VhZtmsDRugWqCQ0jEQ/asZnDegBgzcnEZJrkvKT9hoaEtvLPZOQS4rT1xiDF+Q==";
+        };
+        _pz4FyHTt = {
+            "id" = "pz4FyHTt";
+            "file" = "antixray-neoforge-1.4.17+26.3-all.jar";
+            "hash" = "sha512-jt+g2DMmWuF0Innad0GGx5F8a03hsv1NWIphidIWSSIASbtj3I4aa8L6EHy4mj2+g4dBnw3slWZztiHjbsz6Tw==";
+        };
     in {
         "sDpRud8H" = _sDpRud8H;
         "rbkHv5Pp" = _rbkHv5Pp;
@@ -734,6 +754,10 @@ let
         "XUpyMp6c" = _XUpyMp6c;
         "8CvHIf1r" = _8CvHIf1r;
         "ETqF9yGq" = _ETqF9yGq;
+        "o7CvEVep" = _o7CvEVep;
+        "AU5FnTTj" = _AU5FnTTj;
+        "WpA0sbt9" = _WpA0sbt9;
+        "pz4FyHTt" = _pz4FyHTt;
         "fabric-1.17" = _EQCo3Df0;
         "fabric-1.17.1" = _EQCo3Df0;
         "fabric-1.16.5" = _RI3CvrQa;
@@ -785,12 +809,12 @@ let
         "fabric-1.21.11-rc2" = _H0Pr4vE7;
         "fabric-1.21.11" = _PHC63Epd;
         "fabric-26.1-rc-1" = _u1CappV5;
-        "fabric-26.1" = _AK313N9m;
-        "fabric-26.1.1" = _AK313N9m;
-        "fabric-26.1.2" = _AK313N9m;
+        "fabric-26.1" = _o7CvEVep;
+        "fabric-26.1.1" = _o7CvEVep;
+        "fabric-26.1.2" = _o7CvEVep;
         "fabric-26.2-rc-2" = _AK313N9m;
-        "fabric-26.2" = _AK313N9m;
-        "fabric-26.3" = _8CvHIf1r;
+        "fabric-26.2" = _o7CvEVep;
+        "fabric-26.3" = _AU5FnTTj;
         "forge-1.18" = _BXWR3yn8;
         "forge-1.18.1" = _BXWR3yn8;
         "forge-1.18.2" = _tR9T8qrt;
@@ -835,12 +859,12 @@ let
         "quilt-1.21.11-rc2" = _H0Pr4vE7;
         "quilt-1.21.11" = _PHC63Epd;
         "quilt-26.1-rc-1" = _u1CappV5;
-        "quilt-26.1" = _AK313N9m;
-        "quilt-26.1.1" = _AK313N9m;
-        "quilt-26.1.2" = _AK313N9m;
+        "quilt-26.1" = _o7CvEVep;
+        "quilt-26.1.1" = _o7CvEVep;
+        "quilt-26.1.2" = _o7CvEVep;
         "quilt-26.2-rc-2" = _AK313N9m;
-        "quilt-26.2" = _AK313N9m;
-        "quilt-26.3" = _8CvHIf1r;
+        "quilt-26.2" = _o7CvEVep;
+        "quilt-26.3" = _AU5FnTTj;
         "neoforge-1.20.6" = _rMeoWwJK;
         "neoforge-1.20.4" = _IVxZW0NC;
         "neoforge-1.21" = _XgQWQ2Hj;
@@ -855,12 +879,12 @@ let
         "neoforge-1.21.10" = _v8f103fw;
         "neoforge-1.21.11" = _cU7Nl14f;
         "neoforge-26.1-rc-1" = _ovzBaLjf;
-        "neoforge-26.1" = _mn60kEiS;
-        "neoforge-26.1.1" = _mn60kEiS;
-        "neoforge-26.1.2" = _mn60kEiS;
+        "neoforge-26.1" = _WpA0sbt9;
+        "neoforge-26.1.1" = _WpA0sbt9;
+        "neoforge-26.1.2" = _WpA0sbt9;
         "neoforge-26.2-rc-2" = _mn60kEiS;
-        "neoforge-26.2" = _mn60kEiS;
-        "neoforge-26.3" = _ETqF9yGq;
+        "neoforge-26.2" = _WpA0sbt9;
+        "neoforge-26.3" = _pz4FyHTt;
         "pkg-1.0.0+1.17.1" = _sDpRud8H;
         "pkg-1.0.1+1.16.5" = _rbkHv5Pp;
         "pkg-1.0.1+1.17.1" = _S6rjqRoC;
@@ -948,7 +972,11 @@ let
         "pkg-1.4.8+1.21.1" = _XUpyMp6c;
         "pkg-fabric-1.4.16+26.3" = _8CvHIf1r;
         "pkg-neoforge-1.4.16+26.3" = _ETqF9yGq;
-        "default" = _ETqF9yGq;
+        "pkg-fabric-1.4.17+26.1.2" = _o7CvEVep;
+        "pkg-fabric-1.4.17+26.3" = _AU5FnTTj;
+        "pkg-neoforge-1.4.17+26.1.2" = _WpA0sbt9;
+        "pkg-neoforge-1.4.17+26.3" = _pz4FyHTt;
+        "default" = _pz4FyHTt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "anti-xray";

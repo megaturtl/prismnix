@@ -121,6 +121,11 @@ let
             "file" = "CombatLog.jar";
             "hash" = "sha512-gO+n5JCYSLNxrKgTKKc/ZzzStacaj4LUI/ek6tUFZUZ+i8Xc4PvcFYEvxW9pWhl/7GIsIfmynOtnWnRlRMoQpA==";
         };
+        _U28bvXy4 = {
+            "id" = "U28bvXy4";
+            "file" = "CombatLog.jar";
+            "hash" = "sha512-IJaz+XMQJXMsCAaEplNIJu3QWGOWQsm+/IPNJfasqVVzo7yXckzpPcM0dGiQjG1Sb+mYro9FrHomdXRjP/qU8Q==";
+        };
     in {
         "dty0HQdU" = _dty0HQdU;
         "pKwKVSKo" = _pKwKVSKo;
@@ -146,6 +151,7 @@ let
         "6IFR8wxZ" = _6IFR8wxZ;
         "xrvVOux2" = _xrvVOux2;
         "XQkuttdy" = _XQkuttdy;
+        "U28bvXy4" = _U28bvXy4;
         "paper-1.19" = _rf7CmiI3;
         "paper-1.19.1" = _rf7CmiI3;
         "paper-1.19.2" = _rf7CmiI3;
@@ -174,6 +180,7 @@ let
         "paper-26.1.1" = _XQkuttdy;
         "paper-26.1.2" = _XQkuttdy;
         "paper-26.2" = _XQkuttdy;
+        "paper-26.3" = _U28bvXy4;
         "bukkit-1.19" = _k86ywEJC;
         "bukkit-1.19.1" = _k86ywEJC;
         "bukkit-1.19.2" = _k86ywEJC;
@@ -224,6 +231,7 @@ let
         "purpur-26.1.1" = _XQkuttdy;
         "purpur-26.1.2" = _XQkuttdy;
         "purpur-26.2" = _XQkuttdy;
+        "purpur-26.3" = _U28bvXy4;
         "pkg-1.0" = _dty0HQdU;
         "pkg-1.1" = _k86ywEJC;
         "pkg-1.2" = _QewZeiYp;
@@ -245,7 +253,8 @@ let
         "pkg-1.18" = _6IFR8wxZ;
         "pkg-1.19" = _xrvVOux2;
         "pkg-1.20" = _XQkuttdy;
-        "default" = _XQkuttdy;
+        "pkg-1.20+26.3" = _U28bvXy4;
+        "default" = _U28bvXy4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-combatlog";

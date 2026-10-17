@@ -81,6 +81,16 @@ let
             "file" = "stamina-2.0.0.2.jar";
             "hash" = "sha512-bmqe7X7Y9eDD/khXsVW/IZyGIY0xjyav9751yOevixX3mnoFBBXeHFhb8nTNoyE8s4outed+ipkPp1ctSvhaTQ==";
         };
+        _z4TDfF3y = {
+            "id" = "z4TDfF3y";
+            "file" = "stamina-3.0.0.0-beta.jar";
+            "hash" = "sha512-0PqZ6oB1w9CwVgMm4osY/7OZs12YKoKVC3u+OEbUJE1HXMFOOYFh6KTydZTjoMrL+YGfl8hiEfpYK7+yXCpgdQ==";
+        };
+        _vmCiwiAR = {
+            "id" = "vmCiwiAR";
+            "file" = "stamina-2.0.0.3.jar";
+            "hash" = "sha512-kWxEc8tqDNS1yaYvpAjVQTYp67jD0UvM62qh58AvowToGoNgsEESaVVQtF7DxVR5dDL1bqQaGbsH7hD33qpK7w==";
+        };
     in {
         "UoHUXj6G" = _UoHUXj6G;
         "cB5TOmOP" = _cB5TOmOP;
@@ -98,6 +108,8 @@ let
         "mUICoQTd" = _mUICoQTd;
         "9rLsSTiI" = _9rLsSTiI;
         "uwanJsOZ" = _uwanJsOZ;
+        "z4TDfF3y" = _z4TDfF3y;
+        "vmCiwiAR" = _vmCiwiAR;
         "forge-1.20.1" = _v2mP2L5i;
         "forge-1.20.2" = _ZqOL9ooU;
         "forge-1.20.3" = _ZqOL9ooU;
@@ -105,7 +117,8 @@ let
         "forge-1.20.5" = _ZqOL9ooU;
         "forge-1.20.6" = _ZqOL9ooU;
         "neoforge-1.20.1" = _UoHUXj6G;
-        "neoforge-1.21.1" = _uwanJsOZ;
+        "neoforge-1.21.1" = _vmCiwiAR;
+        "neoforge-26.1.2" = _z4TDfF3y;
         "pkg-1.1.2" = _UoHUXj6G;
         "pkg-1.2.0" = _cB5TOmOP;
         "pkg-1.2.1" = _iGhsCB3z;
@@ -122,7 +135,9 @@ let
         "pkg-2.0.0.0" = _mUICoQTd;
         "pkg-2.0.0.1" = _9rLsSTiI;
         "pkg-2.0.0.2" = _uwanJsOZ;
-        "default" = _uwanJsOZ;
+        "pkg-3.0.0.0-beta" = _z4TDfF3y;
+        "pkg-2.0.0.3" = _vmCiwiAR;
+        "default" = _vmCiwiAR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "insane-stamina";

@@ -146,6 +146,11 @@ let
             "file" = "vampirism_integrations-1.21.1-1.10.2.jar";
             "hash" = "sha512-frid5Y7qbWjvOsPifEcHA9y8Vp3vFcOHbWfw3Qs8sV4u3BAFN85ZexzpQc39eYK/1xYIwgVfrpghPUW4QcmA/Q==";
         };
+        _vcA8lABo = {
+            "id" = "vcA8lABo";
+            "file" = "vampirism_integrations-1.20.1-1.9.0-beta.1.jar";
+            "hash" = "sha512-Cn4cVXq9Md3YV/9iLNrEnhHeIvMtYciqkCuQZjk1+tinSrDaMm2GkT6INSjM/PVJbdr74hqPXil3mb99tOcIJg==";
+        };
     in {
         "GUFg9m4q" = _GUFg9m4q;
         "m8vmgbIi" = _m8vmgbIi;
@@ -176,13 +181,14 @@ let
         "vmpNGzMC" = _vmpNGzMC;
         "lUZ3VFxN" = _lUZ3VFxN;
         "ua6OU2jv" = _ua6OU2jv;
+        "vcA8lABo" = _vcA8lABo;
         "forge-1.16.4" = _GUFg9m4q;
         "forge-1.16.5" = _hwSFmm73;
         "forge-1.12.2" = _m8vmgbIi;
         "forge-1.18.2" = _TEVh9etl;
         "forge-1.19.2" = _UIwlsAjU;
         "forge-1.19.3" = _NL4CDKWO;
-        "forge-1.20.1" = _vmpNGzMC;
+        "forge-1.20.1" = _vcA8lABo;
         "neoforge-1.21.1" = _ua6OU2jv;
         "pkg-1.16.4-1.5.0" = _GUFg9m4q;
         "pkg-1.12.2-1.3.0" = _m8vmgbIi;
@@ -212,7 +218,8 @@ let
         "pkg-1.20.1-1.8.2" = _vmpNGzMC;
         "pkg-1.21.1-1.10.0" = _lUZ3VFxN;
         "pkg-1.21.1-1.10.2" = _ua6OU2jv;
-        "default" = _ua6OU2jv;
+        "pkg-1.20.1-1.9.0-beta.1" = _vcA8lABo;
+        "default" = _vcA8lABo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vampirism-integrations";

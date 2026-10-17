@@ -301,6 +301,31 @@ let
             "file" = "opensoundboard-0.5.1+mc26.3.jar";
             "hash" = "sha512-XsBHTPemGHYbas9b0H7SIHiBMa4iIy854xV5p8dy48C+elOhT/HDP2FL2hwetQv57fiMPmKT/ki4FInwmYEpkA==";
         };
+        _O4DiZlLH = {
+            "id" = "O4DiZlLH";
+            "file" = "opensoundboard-0.6.0+mc1.21.1.jar";
+            "hash" = "sha512-WajuxmXoED8GQKx1OiF0teBge1XpSrPyvZA7EYCSJqhsvYAVE0AH91jK22CPS+RfOtKK93iyHx7fPue9zJWSgQ==";
+        };
+        _HrxKdCRo = {
+            "id" = "HrxKdCRo";
+            "file" = "opensoundboard-0.6.0+mc1.21.11.jar";
+            "hash" = "sha512-cAZT1YlNUcxLYA5zYpOo3NNTssR8V9sZIjAGF5jt4/48DQue4AGAbbum5Tn0VI3V/MpqW5OWYkAMHqGT21H25Q==";
+        };
+        _bzIe89hu = {
+            "id" = "bzIe89hu";
+            "file" = "opensoundboard-0.6.0+mc26.1.2.jar";
+            "hash" = "sha512-b22RglzJHlEEjVX30qLucB1bIUmKSXgWZz/THnsKZqjqGNMqtFMF2tV1tPLlDEQ118hDQqjxdmejS2rnXtcM8A==";
+        };
+        _j8nhnI7D = {
+            "id" = "j8nhnI7D";
+            "file" = "opensoundboard-0.6.0+mc26.2.jar";
+            "hash" = "sha512-N5xS/uNTCM+9emfxVM0CEgn+v9EEetvcc9UGNJ1pu/FZMBun3QbhyPKo4SzZ9/SNNOKWs6rmY+IOMEyGZ3HTYQ==";
+        };
+        _6Ry7ovuf = {
+            "id" = "6Ry7ovuf";
+            "file" = "opensoundboard-0.6.0+mc26.3.jar";
+            "hash" = "sha512-EXXWPHJ1UuQV3I+mKRCfUxrI+OUKPzu6TkUWi1nJqOdKUbuqEwjqqTmbWsPuatdNYsmE7OujtP0DpqCx2clkNg==";
+        };
     in {
         "WoUZhpBJ" = _WoUZhpBJ;
         "CzwEcoXi" = _CzwEcoXi;
@@ -362,18 +387,23 @@ let
         "qYFDgUYk" = _qYFDgUYk;
         "9UsW9YjO" = _9UsW9YjO;
         "gUrZJubn" = _gUrZJubn;
-        "fabric-1.21" = _pyEZSq2J;
-        "fabric-1.21.1" = _pyEZSq2J;
+        "O4DiZlLH" = _O4DiZlLH;
+        "HrxKdCRo" = _HrxKdCRo;
+        "bzIe89hu" = _bzIe89hu;
+        "j8nhnI7D" = _j8nhnI7D;
+        "6Ry7ovuf" = _6Ry7ovuf;
+        "fabric-1.21" = _O4DiZlLH;
+        "fabric-1.21.1" = _O4DiZlLH;
         "fabric-1.21.10" = _jtuHcu57;
-        "fabric-1.21.11" = _ZN87y3WO;
+        "fabric-1.21.11" = _HrxKdCRo;
         "fabric-1.21.4" = _NV5svmk1;
         "fabric-1.21.5" = _GgDPF8m1;
         "fabric-1.21.8" = _EG2BW3zn;
-        "fabric-26.1" = _qYFDgUYk;
-        "fabric-26.1.1" = _qYFDgUYk;
-        "fabric-26.1.2" = _qYFDgUYk;
-        "fabric-26.2" = _9UsW9YjO;
-        "fabric-26.3" = _gUrZJubn;
+        "fabric-26.1" = _bzIe89hu;
+        "fabric-26.1.1" = _bzIe89hu;
+        "fabric-26.1.2" = _bzIe89hu;
+        "fabric-26.2" = _j8nhnI7D;
+        "fabric-26.3" = _6Ry7ovuf;
         "pkg-0.1.0+mc1.21.1" = _WoUZhpBJ;
         "pkg-0.1.0+mc1.21.10" = _CzwEcoXi;
         "pkg-0.1.0+mc1.21.11" = _xUCOQxP6;
@@ -434,7 +464,12 @@ let
         "pkg-0.5.1+mc26.1.2" = _qYFDgUYk;
         "pkg-0.5.1+mc26.2" = _9UsW9YjO;
         "pkg-0.5.1+mc26.3" = _gUrZJubn;
-        "default" = _gUrZJubn;
+        "pkg-0.6.0+mc1.21.1" = _O4DiZlLH;
+        "pkg-0.6.0+mc1.21.11" = _HrxKdCRo;
+        "pkg-0.6.0+mc26.1.2" = _bzIe89hu;
+        "pkg-0.6.0+mc26.2" = _j8nhnI7D;
+        "pkg-0.6.0+mc26.3" = _6Ry7ovuf;
+        "default" = _6Ry7ovuf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "opensoundboard";

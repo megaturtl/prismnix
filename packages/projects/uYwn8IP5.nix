@@ -771,6 +771,26 @@ let
             "file" = "stonezone-1.20-2.9.13-forge.jar";
             "hash" = "sha512-OLqZ6SRDyBBwlFZ0yiHhY8Z0dVoSUHDdBUvMF5NVIktaWma2FP3cPyYZgE2M7kr5TNfNlj+KjZnAepNxhYOZIg==";
         };
+        _kob0i79k = {
+            "id" = "kob0i79k";
+            "file" = "stonezone-1.21-2.11.18-neoforge.jar";
+            "hash" = "sha512-JtXq4/zFgmeM8oiAI8s3CNc6fd/OwWn6zz+ks/iqmBgim3i26b+vQcL5q0HVyhKVSUzMqPijfkykUULhPUn+sw==";
+        };
+        _fdA0ExZd = {
+            "id" = "fdA0ExZd";
+            "file" = "stonezone-1.21-2.11.18-fabric.jar";
+            "hash" = "sha512-q6+/TfRevc1Z4vZwquX2B4EEQGD5zq5Id6093hlMIhkXcx4y+87bayoMBdfmVPBK1SPvILyv9twFSeG69HRFbA==";
+        };
+        _5HTrmdos = {
+            "id" = "5HTrmdos";
+            "file" = "stonezone-1.21-2.11.19-fabric.jar";
+            "hash" = "sha512-wLt8sOSzA/iufrp68eh3fTh5+XotuYw4Y3PqA9kusAPYB7RbQfUaZO1I+VCQ7TtdizZ6em9cUQ4ff53Ie8Gjyw==";
+        };
+        _3H2XiGTN = {
+            "id" = "3H2XiGTN";
+            "file" = "stonezone-1.21-2.11.19-neoforge.jar";
+            "hash" = "sha512-5o1yfxacz0X3kIjqHUtCREI2qpMWF8Q5OL3vwkmZ/QPT1voh/OaHZVjAK6uXRE9I41ACOTkPP3psnSsvq1VKKw==";
+        };
     in {
         "dUZ8Wo8N" = _dUZ8Wo8N;
         "yXOm4mzF" = _yXOm4mzF;
@@ -926,12 +946,16 @@ let
         "s1tI1SwI" = _s1tI1SwI;
         "NU4JBKen" = _NU4JBKen;
         "TQLrJ303" = _TQLrJ303;
+        "kob0i79k" = _kob0i79k;
+        "fdA0ExZd" = _fdA0ExZd;
+        "5HTrmdos" = _5HTrmdos;
+        "3H2XiGTN" = _3H2XiGTN;
         "forge-1.20.1" = _TQLrJ303;
         "fabric-1.20.1" = _NU4JBKen;
         "fabric-1.21" = _7fo6DzzB;
-        "fabric-1.21.1" = _s1tI1SwI;
+        "fabric-1.21.1" = _5HTrmdos;
         "neoforge-1.21" = _5yz4JuMs;
-        "neoforge-1.21.1" = _kWBnBoqd;
+        "neoforge-1.21.1" = _3H2XiGTN;
         "pkg-1.20-2.7.0" = _yXOm4mzF;
         "pkg-1.20-2.7.1" = _MP4926TM;
         "pkg-1.20-2.7.2" = _uju9fd9A;
@@ -1049,7 +1073,9 @@ let
         "pkg-1.21-2.11.17-fabric" = _s1tI1SwI;
         "pkg-1.20-2.9.13-fabric" = _NU4JBKen;
         "pkg-1.20-2.9.13-forge" = _TQLrJ303;
-        "default" = _TQLrJ303;
+        "pkg-1.21-2.11.18" = _fdA0ExZd;
+        "pkg-1.21-2.11.19" = _3H2XiGTN;
+        "default" = _3H2XiGTN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stone-zone";

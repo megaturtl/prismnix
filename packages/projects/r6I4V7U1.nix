@@ -186,6 +186,11 @@ let
             "file" = "AnimatedHearts-2.0.0.jar";
             "hash" = "sha512-dsCWcl4naSq4oN9fD+sTUVpwwhsZMUWGKc4GDj1udAGTXTKSI5aFRbWS0XjWMtS98wjnqrm4OdTx1ti98fy18Q==";
         };
+        _boWi3vZq = {
+            "id" = "boWi3vZq";
+            "file" = "AnimatedHearts-2.0.0.jar";
+            "hash" = "sha512-32VrddApBPy2jJmZW0rvRXpcbcQMix7WnhsQ9VjFmQsy0stCxaCusHNvuPRrjTI0bFj8tqSSaWWLIjXrURwD1A==";
+        };
     in {
         "Jdlp3EjY" = _Jdlp3EjY;
         "ukSkmHTj" = _ukSkmHTj;
@@ -224,6 +229,7 @@ let
         "CwmDqI1C" = _CwmDqI1C;
         "pkNADdD1" = _pkNADdD1;
         "wudGGp9L" = _wudGGp9L;
+        "boWi3vZq" = _boWi3vZq;
         "forge-1.20.1" = _VcjClpf4;
         "neoforge-1.21.1" = _CwmDqI1C;
         "neoforge-26.2" = _fobB4tXi;
@@ -234,6 +240,7 @@ let
         "fabric-26.1" = _pkNADdD1;
         "fabric-26.1.1" = _pkNADdD1;
         "fabric-26.3" = _pkNADdD1;
+        "fabric-1.21.11" = _boWi3vZq;
         "pkg-1.0.0" = _Jdlp3EjY;
         "pkg-1.0.7" = _ukSkmHTj;
         "pkg-1.2.0" = _ItJxGPCj;
@@ -247,8 +254,8 @@ let
         "pkg-1.8.0" = _QuwrJrpD;
         "pkg-1.8.1" = _L4Dq2FM0;
         "pkg-1.9.0" = _6SFNuPzB;
-        "pkg-2.0.0" = _wudGGp9L;
-        "default" = _wudGGp9L;
+        "pkg-2.0.0" = _boWi3vZq;
+        "default" = _boWi3vZq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "animated-heart";

@@ -556,6 +556,16 @@ let
             "file" = "letsdo-vinery-fabric-1.5.5.jar";
             "hash" = "sha512-sKFS0Hkd1m5ARKH1GHdhdQ3tLvLfzUCrS18O61+f67myddkP13eXwZrh+VBKP7PQNZwY6HERP6uM0LE4ZG9d2g==";
         };
+        _NmoLFrhq = {
+            "id" = "NmoLFrhq";
+            "file" = "letsdo-vinery-neoforge-1.5.6.jar";
+            "hash" = "sha512-UcMcdW3g9UqR8oxNBykl4Hk65wrv3i0j6nyjxbcFDOBMwYhVMepFnR6mre+wXXw3YW48kQLw/qUCNPBAQ/a5cA==";
+        };
+        _r0pP4RB4 = {
+            "id" = "r0pP4RB4";
+            "file" = "letsdo-vinery-fabric-1.5.6.jar";
+            "hash" = "sha512-uZBlw5/q1pP/T6xXjYn+tgsEfPow/7fO9OgReaq0COT4wUN+ljLPt8ieFv11V4kNsvR69pNRIg6i1g4jumciMQ==";
+        };
     in {
         "ElYCmfzG" = _ElYCmfzG;
         "cLYVl6S1" = _cLYVl6S1;
@@ -668,18 +678,20 @@ let
         "zump1BXr" = _zump1BXr;
         "DLINXOWN" = _DLINXOWN;
         "PDi0T5xs" = _PDi0T5xs;
+        "NmoLFrhq" = _NmoLFrhq;
+        "r0pP4RB4" = _r0pP4RB4;
         "fabric-1.19.2" = _3a8O93DI;
         "fabric-1.19.4" = _ZaCY1vw9;
         "fabric-1.20" = _ylAN9jih;
         "fabric-1.20.1" = _Xv8zHKzi;
-        "fabric-1.21.1" = _PDi0T5xs;
+        "fabric-1.21.1" = _r0pP4RB4;
         "forge-1.19.2" = _DkMFggNc;
         "forge-1.19.4" = _6q9rjLLG;
         "forge-1.20.1" = _2I4cH49O;
         "quilt-1.19.4" = _ZaCY1vw9;
         "quilt-1.20.1" = _ZnUrEL2E;
         "neoforge-1.20.1" = _hDrAKoLQ;
-        "neoforge-1.21.1" = _DLINXOWN;
+        "neoforge-1.21.1" = _NmoLFrhq;
         "pkg-1.1.2" = _ElYCmfzG;
         "pkg-1.1.4" = _cLYVl6S1;
         "pkg-1.2.4" = _ibob4Vu4;
@@ -738,7 +750,8 @@ let
         "pkg-1.5.3" = _BV45cdzS;
         "pkg-1.5.4" = _zump1BXr;
         "pkg-1.5.5" = _PDi0T5xs;
-        "default" = _PDi0T5xs;
+        "pkg-1.5.6" = _r0pP4RB4;
+        "default" = _r0pP4RB4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lets-do-vinery";

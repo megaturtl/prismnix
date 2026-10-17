@@ -1411,6 +1411,36 @@ let
             "file" = "qa_better_melon-26.10.2-fabric-26.3.jar";
             "hash" = "sha512-AtFM7DuNMUSPIaEAcVedzypjf5HiSgazJBvUfFAljcsoRcaduzx1hdiD5EF61ips9hN3vSSqfIEiRcl4Bk/YwA==";
         };
+        _10JyBhiw = {
+            "id" = "10JyBhiw";
+            "file" = "qa_better_melon-26.10.3-beta-neoforge-1.21.1.jar";
+            "hash" = "sha512-ibuMefBWt77VZqpQjrnSObBAjvRW/mtXcDnJYYdA13p2cpuS6Ny+ZYmFJ7kiVxM3PE6Z2w3SPbe+B+1nwAyWCA==";
+        };
+        _24NRv8du = {
+            "id" = "24NRv8du";
+            "file" = "qa_better_melon-26.10.3-beta-neoforge-26.1.2.jar";
+            "hash" = "sha512-elGYLLYlR3dEhtlijKBrUTi4NRRIhP0jJabojGjjTEMdvd6nCjE75Ir1X+x339Z8lU1wBsB+TQgl6AYPBiQ5cg==";
+        };
+        _wZqL7ACH = {
+            "id" = "wZqL7ACH";
+            "file" = "qa_better_melon-26.10.3-beta-neoforge-26.2.jar";
+            "hash" = "sha512-OgMRMqrbjEnfh5WLcFBjp3zM+lXwur+QplexHtJVsMoYolEqqFH7GXRCXk3XAoZpeQ6YWIMR61uHl8HmiF3Ghw==";
+        };
+        _XEKN7ntt = {
+            "id" = "XEKN7ntt";
+            "file" = "qa_better_melon-26.10.3-beta-fabric-26.1.2.jar";
+            "hash" = "sha512-njEiaQCiLl2IwOMSnmBb0PtW6PHMRq/gi10Hu0qTIGBP4NqNhHAEKJoj8hGkQfQa9MxLo2Lw+eeTYcja81GSTw==";
+        };
+        _F8OVuh4N = {
+            "id" = "F8OVuh4N";
+            "file" = "qa_better_melon-26.10.3-beta-fabric-26.2.jar";
+            "hash" = "sha512-lPcGc/OTU60z1Whiob1fg63/4naLPAXqK0C7QDja+LTe2ngfoCt3vffKlFOSUd9+OMI52mFk84Hlhq9NfdOggA==";
+        };
+        _Y2w9cQXi = {
+            "id" = "Y2w9cQXi";
+            "file" = "qa_better_melon-26.10.3-beta-fabric-26.3.jar";
+            "hash" = "sha512-HBrZy1ypRX8+Sk5RNV3JKuDD6orMxy5jPaOUaDmpp7h0Ofumn/zMWREHIir98pS1zr9MC4eQLn6vDQDseTw/ow==";
+        };
     in {
         "Od7qDINy" = _Od7qDINy;
         "JGXa7D6b" = _JGXa7D6b;
@@ -1694,9 +1724,15 @@ let
         "1I0aiAAM" = _1I0aiAAM;
         "7gKPeoe6" = _7gKPeoe6;
         "ikYn40lR" = _ikYn40lR;
+        "10JyBhiw" = _10JyBhiw;
+        "24NRv8du" = _24NRv8du;
+        "wZqL7ACH" = _wZqL7ACH;
+        "XEKN7ntt" = _XEKN7ntt;
+        "F8OVuh4N" = _F8OVuh4N;
+        "Y2w9cQXi" = _Y2w9cQXi;
         "neoforge-1.21.8" = _ENxr3WJT;
         "neoforge-1.21.4" = _g3BlqTUR;
-        "neoforge-1.21.1" = _1I0aiAAM;
+        "neoforge-1.21.1" = _10JyBhiw;
         "neoforge-1.21.5" = _42zIFzwX;
         "neoforge-1.20.6" = _5GtflKrg;
         "neoforge-1.20.4" = _7VuYtqz4;
@@ -1704,8 +1740,8 @@ let
         "neoforge-1.21.6" = _S5c3oxt7;
         "neoforge-1.21.3" = _etb3Vnon;
         "neoforge-1.21" = _yDc8PDI5;
-        "neoforge-26.1.2" = _t9jHgIH4;
-        "neoforge-26.2" = _ecjJDRuN;
+        "neoforge-26.1.2" = _24NRv8du;
+        "neoforge-26.2" = _wZqL7ACH;
         "neoforge-1.20.1" = _fhW21Glx;
         "neoforge-26.3" = _7gKPeoe6;
         "forge-1.20.1" = _4lvvonaz;
@@ -1718,22 +1754,22 @@ let
         "forge-1.14.4" = _YvxynyMI;
         "fabric-1.20" = _tjbb21SH;
         "fabric-1.20.1" = _tjbb21SH;
-        "fabric-26.1" = _YIlOSuqg;
-        "fabric-26.1.1" = _YIlOSuqg;
-        "fabric-26.1.2" = _YIlOSuqg;
+        "fabric-26.1" = _XEKN7ntt;
+        "fabric-26.1.1" = _XEKN7ntt;
+        "fabric-26.1.2" = _XEKN7ntt;
         "fabric-1.21.6" = _5zOkUvZm;
         "fabric-1.21.7" = _5zOkUvZm;
         "fabric-1.21.8" = _5zOkUvZm;
-        "fabric-26.2" = _5bWFHvOk;
-        "fabric-26.3" = _ikYn40lR;
-        "quilt-26.1" = _YIlOSuqg;
-        "quilt-26.1.1" = _YIlOSuqg;
-        "quilt-26.1.2" = _YIlOSuqg;
+        "fabric-26.2" = _F8OVuh4N;
+        "fabric-26.3" = _Y2w9cQXi;
+        "quilt-26.1" = _XEKN7ntt;
+        "quilt-26.1.1" = _XEKN7ntt;
+        "quilt-26.1.2" = _XEKN7ntt;
         "quilt-1.21.6" = _5zOkUvZm;
         "quilt-1.21.7" = _5zOkUvZm;
         "quilt-1.21.8" = _5zOkUvZm;
-        "quilt-26.2" = _5bWFHvOk;
-        "quilt-26.3" = _ikYn40lR;
+        "quilt-26.2" = _F8OVuh4N;
+        "quilt-26.3" = _Y2w9cQXi;
         "pkg-1.0" = _6Rrf8Mvw;
         "pkg-1.1" = _Gc8RCJ6L;
         "pkg-1.1.1165" = _NNpq8RZ5;
@@ -1874,7 +1910,8 @@ let
         "pkg-26.9.2" = _5bWFHvOk;
         "pkg-26.10.1" = _1I0aiAAM;
         "pkg-26.10.2" = _ikYn40lR;
-        "default" = _ikYn40lR;
+        "pkg-26.10.3-beta" = _Y2w9cQXi;
+        "default" = _Y2w9cQXi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-melon";

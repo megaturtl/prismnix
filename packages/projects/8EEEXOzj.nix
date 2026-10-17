@@ -241,6 +241,11 @@ let
             "file" = "hearthandharvest-1.21.1-1.4.0.jar";
             "hash" = "sha512-tkcbmR3p+H8R1ZYkxyDG4/un2tpaIuPWlYXbn0vlc7zbYsAFlcFPTYBkPAwZKc70CW2h7e+zbgtsFJJcE5FBsA==";
         };
+        _dI8DOzS2 = {
+            "id" = "dI8DOzS2";
+            "file" = "hearthandharvest-1.20.1-1.4.0.jar";
+            "hash" = "sha512-FoVXczAopWndQfUegzE+esZL2yScGgi3v0t6R120Ci338QR4k6adPWZBSU8dEQHAE1g6fL9U8/dBnKqgbJ1O2g==";
+        };
     in {
         "QNkWz4OC" = _QNkWz4OC;
         "RtDGPUkw" = _RtDGPUkw;
@@ -290,9 +295,10 @@ let
         "7nTyt27O" = _7nTyt27O;
         "Lc4WN5U1" = _Lc4WN5U1;
         "QhKYKLA5" = _QhKYKLA5;
+        "dI8DOzS2" = _dI8DOzS2;
         "neoforge-1.21.1" = _QhKYKLA5;
         "neoforge-1.20.1" = _FeOeQpeF;
-        "forge-1.20.1" = _Lc4WN5U1;
+        "forge-1.20.1" = _dI8DOzS2;
         "pkg-1.0.2" = _RtDGPUkw;
         "pkg-1.0.4" = _CAGopmWN;
         "pkg-1.0.5" = _qslt9eRV;
@@ -323,8 +329,8 @@ let
         "pkg-1.3.3" = _RGgeE9ER;
         "pkg-1.3.4" = _7nTyt27O;
         "pkg-1.0.12c" = _Lc4WN5U1;
-        "pkg-1.4.0" = _QhKYKLA5;
-        "default" = _QhKYKLA5;
+        "pkg-1.4.0" = _dI8DOzS2;
+        "default" = _dI8DOzS2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hearth-and-harvest";

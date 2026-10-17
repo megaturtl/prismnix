@@ -26,24 +26,31 @@ let
             "file" = "villagerprofessionsplus-0.2.0-1.20.1.jar";
             "hash" = "sha512-PoVAGeZLbK7MgYpnbjCWqd0Lk0knYTe4+xkfEadcT+doCFA8dJuig3Gz1ZpRthWbHCqZQn58LigkJ52a5ULGSA==";
         };
+        _RFrQvsbY = {
+            "id" = "RFrQvsbY";
+            "file" = "villagerprofessionsplus-0.2.1-1.20.1.jar";
+            "hash" = "sha512-WRwhMJhc4oAoIxwJNbpUtQvW36BSYGiK4Qeo0EMb/SMjsm64VpLZQdcRV+MUjeoRHffbrYhOjBnvHh7yopM+2A==";
+        };
     in {
         "eAaRxiUs" = _eAaRxiUs;
         "JLPCOBFk" = _JLPCOBFk;
         "h0FrZ7Ix" = _h0FrZ7Ix;
         "4tuwJ6bM" = _4tuwJ6bM;
         "b3LTM5TD" = _b3LTM5TD;
-        "fabric-1.20.1" = _b3LTM5TD;
-        "fabric-1.20.2" = _b3LTM5TD;
-        "fabric-1.20.3" = _b3LTM5TD;
-        "fabric-1.20.4" = _b3LTM5TD;
-        "fabric-1.20.5" = _b3LTM5TD;
-        "fabric-1.20.6" = _b3LTM5TD;
+        "RFrQvsbY" = _RFrQvsbY;
+        "fabric-1.20.1" = _RFrQvsbY;
+        "fabric-1.20.2" = _RFrQvsbY;
+        "fabric-1.20.3" = _RFrQvsbY;
+        "fabric-1.20.4" = _RFrQvsbY;
+        "fabric-1.20.5" = _RFrQvsbY;
+        "fabric-1.20.6" = _RFrQvsbY;
         "pkg-mc1.20.1-0.0.1-alpha-fabric" = _eAaRxiUs;
         "pkg-mc1.20.1-0.1.0-beta-fabric" = _JLPCOBFk;
         "pkg-mc1.20.1-0.1.1-beta-fabric" = _h0FrZ7Ix;
         "pkg-mc1.20.1-0.1.2-beta-fabric" = _4tuwJ6bM;
         "pkg-mc1.20.1-0.2.0-beta-fabric" = _b3LTM5TD;
-        "default" = _b3LTM5TD;
+        "pkg-mc1.20.1-0.2.1-beta-fabric" = _RFrQvsbY;
+        "default" = _RFrQvsbY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "villager-professions-plus";

@@ -36,6 +36,16 @@ let
             "file" = "SNR.FLY-STABLE-1.2.2.jar";
             "hash" = "sha512-pfTF+aGYStPZ2yrLuhBmDSTVxFnJKONeOV93OqKVfyllA+F3BDvmUoDTSMjaE5isXKpireFggcJYv/5ja6Rk+A==";
         };
+        _ZqbPMWuf = {
+            "id" = "ZqbPMWuf";
+            "file" = "SNR.FLY-STABLE-1.3.jar";
+            "hash" = "sha512-Akf+MCpymxJrofrcLfh3hN/DdGMIGwiCmptJe/hfGVvA/kxt4F1403TqyWqRqRjv+GDGN6wCpdVxI8Xdc1eaQg==";
+        };
+        _TOvV3nUU = {
+            "id" = "TOvV3nUU";
+            "file" = "SNR.FLY-STABLE-1.4.jar";
+            "hash" = "sha512-2eenZCBCUypXGNjpTzyayZWtKe0GJw1PzwmPnHa3JZeuZFkPzaFdl1lnFBkjkY7oQ72e2zsqpsddPef2RxcBZw==";
+        };
     in {
         "O5isgfoX" = _O5isgfoX;
         "Z0KLlixa" = _Z0KLlixa;
@@ -44,7 +54,9 @@ let
         "i23ufgqn" = _i23ufgqn;
         "L0PmQ118" = _L0PmQ118;
         "RChCDW0S" = _RChCDW0S;
-        "fabric-26.2" = _RChCDW0S;
+        "ZqbPMWuf" = _ZqbPMWuf;
+        "TOvV3nUU" = _TOvV3nUU;
+        "fabric-26.2" = _TOvV3nUU;
         "pkg-1.7.2" = _O5isgfoX;
         "pkg-1.7.2-beta-3" = _Z0KLlixa;
         "pkg-SNR.FLY-STABLE-1.0.1" = _K4oQfESB;
@@ -52,7 +64,9 @@ let
         "pkg-SNR.FLY-STABLE-1.2" = _i23ufgqn;
         "pkg-SNR.FLY-STABLE-1.2.1" = _L0PmQ118;
         "pkg-SNR.FLY-STABLE-1.2.2" = _RChCDW0S;
-        "default" = _RChCDW0S;
+        "pkg-SNR.FLY-STABLE-1.3" = _ZqbPMWuf;
+        "pkg-SNR.FLY-STABLE-1.4" = _TOvV3nUU;
+        "default" = _TOvV3nUU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-fly-steam-n-rails-continued";

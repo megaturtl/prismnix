@@ -66,6 +66,11 @@ let
             "file" = "nethervillagertrader-2.0.0-neoforge-26.1.2.jar";
             "hash" = "sha512-iJQv0U/QOYBd3fOVEzkStML3n17WrDVTlhUCS3p8P4K+v6HPc0+qi5oLMw0HrQTi/14bIfrxHCBaWVUJoJPaJQ==";
         };
+        _NUy9uqlf = {
+            "id" = "NUy9uqlf";
+            "file" = "nethervillagertrader-2.0.0-neoforge-26.3.jar";
+            "hash" = "sha512-CZpdesk83rC8LgAD9etL3j0JXrBE1Y5TNR+zLE4D10sKqfPiw5/pJbYaHusBbluH5DJBkIppKsPms+DOYALGQQ==";
+        };
     in {
         "fKeAdegR" = _fKeAdegR;
         "nKeGFsfu" = _nKeGFsfu;
@@ -80,6 +85,7 @@ let
         "QY4LUu2j" = _QY4LUu2j;
         "gzu3bt87" = _gzu3bt87;
         "WAlt18hO" = _WAlt18hO;
+        "NUy9uqlf" = _NUy9uqlf;
         "forge-1.19.2" = _8i9Noi9x;
         "forge-1.20.1" = _IanNHv8j;
         "forge-1.20.4" = _iESBrsiQ;
@@ -89,9 +95,10 @@ let
         "neoforge-1.21.4" = _QY4LUu2j;
         "neoforge-1.21.8" = _gzu3bt87;
         "neoforge-26.1.2" = _WAlt18hO;
+        "neoforge-26.3" = _NUy9uqlf;
         "pkg-1.2.0" = _mjprgjY4;
-        "pkg-2.0.0" = _WAlt18hO;
-        "default" = _WAlt18hO;
+        "pkg-2.0.0" = _NUy9uqlf;
+        "default" = _NUy9uqlf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nether-villager-trader";

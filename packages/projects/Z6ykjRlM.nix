@@ -366,6 +366,26 @@ let
             "file" = "spyglass_improvements-1.5.14+mc26.2+fabric.jar";
             "hash" = "sha512-ssCOf9EEVsRtL99NzjIoTyuulQgshJBeYPhbuBZpsTezMjpMHOLXALhK+qZfWG80P7VqzJeDX0KUySVI9G/i/g==";
         };
+        _RPKz1dY7 = {
+            "id" = "RPKz1dY7";
+            "file" = "spyglass_improvements-1.6+mc26.2+neoforge.jar";
+            "hash" = "sha512-PLWQKkoUJ5e9+Tn6ivoCdUEfcTstB63VLjvoHKwhxOUjc1dt6UIjV58NujL2luOeRTig/4bi1J9jgMTsVjDthQ==";
+        };
+        _IY5aJnc0 = {
+            "id" = "IY5aJnc0";
+            "file" = "spyglass_improvements-1.6+mc26.2+fabric.jar";
+            "hash" = "sha512-KwroVbOsOi+WMzCyYt4uB+TEAY5S4Hbpij0YnL1FVHFWDNdnIOLfEuBst1tQssB1wKUVlxo5h7nCH8YD0D1XMA==";
+        };
+        _JFY55bAz = {
+            "id" = "JFY55bAz";
+            "file" = "spyglass_improvements-1.6+mc26.3+neoforge.jar";
+            "hash" = "sha512-ms7U+qKO5TGcRL3Pb/ki5parEsBl7CCKRmJKNdU4q0RRVOFD9kvAjNUu6Dh5PmCFvBs7vZ9PEbl392no3+S9ng==";
+        };
+        _x3XPPtpy = {
+            "id" = "x3XPPtpy";
+            "file" = "spyglass_improvements-1.6+mc26.3+fabric.jar";
+            "hash" = "sha512-ECTru5q1v8+Q8MPJjZxdInhO8Wa4iOeI8p+8eimSjCEqcSrGI/bE2limmu6V6FTRJJycFxr8o5qWb8c+N19DgQ==";
+        };
     in {
         "ymAH9nkG" = _ymAH9nkG;
         "LwFUlPOY" = _LwFUlPOY;
@@ -440,6 +460,10 @@ let
         "WYxSecea" = _WYxSecea;
         "MNhjIkgQ" = _MNhjIkgQ;
         "YNz1DCpy" = _YNz1DCpy;
+        "RPKz1dY7" = _RPKz1dY7;
+        "IY5aJnc0" = _IY5aJnc0;
+        "JFY55bAz" = _JFY55bAz;
+        "x3XPPtpy" = _x3XPPtpy;
         "forge-1.18.1" = _ymAH9nkG;
         "forge-1.18.2" = _wTDiYAxS;
         "forge-1.19" = _sRCimnZ2;
@@ -481,7 +505,8 @@ let
         "fabric-26.1" = _WYxSecea;
         "fabric-26.1.1" = _WYxSecea;
         "fabric-26.1.2" = _WYxSecea;
-        "fabric-26.2" = _YNz1DCpy;
+        "fabric-26.2" = _IY5aJnc0;
+        "fabric-26.3" = _x3XPPtpy;
         "quilt-1.19.4" = _FEmKO6K3;
         "quilt-1.20.2" = _Uy0s7ib8;
         "quilt-1.20.3" = _Uy0s7ib8;
@@ -505,7 +530,8 @@ let
         "neoforge-26.1" = _73PooXIc;
         "neoforge-26.1.1" = _73PooXIc;
         "neoforge-26.1.2" = _73PooXIc;
-        "neoforge-26.2" = _MNhjIkgQ;
+        "neoforge-26.2" = _RPKz1dY7;
+        "neoforge-26.3" = _JFY55bAz;
         "pkg-1.2-mc1.18.2+forge" = _ymAH9nkG;
         "pkg-1.2-mc1.18.2+fabric" = _LwFUlPOY;
         "pkg-1.4-mc1.19.x+forge" = _VA4K616J;
@@ -579,7 +605,11 @@ let
         "pkg-1.5.13+mc26.1+fabric" = _WYxSecea;
         "pkg-1.5.14+mc26.2+neoforge" = _MNhjIkgQ;
         "pkg-1.5.14+mc26.2+fabric" = _YNz1DCpy;
-        "default" = _YNz1DCpy;
+        "pkg-1.6+mc26.2+neoforge" = _RPKz1dY7;
+        "pkg-1.6+mc26.2+fabric" = _IY5aJnc0;
+        "pkg-1.6+mc26.3+neoforge" = _JFY55bAz;
+        "pkg-1.6+mc26.3+fabric" = _x3XPPtpy;
+        "default" = _x3XPPtpy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spyglass-improvements";

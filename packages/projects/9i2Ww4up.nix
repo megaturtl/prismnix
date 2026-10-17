@@ -56,6 +56,11 @@ let
             "file" = "Adventure Time Texture Pack 26.2 V2 FABRIC ONLY.zip";
             "hash" = "sha512-RacV9RODoorVQT1KnS0MmNxDrP+QX91+2L93ei3/yHbJRFtoyiIJmiyoU7mGpaJOkiD0oe1yEEbWwT3BRv80eg==";
         };
+        _ryM9EHr6 = {
+            "id" = "ryM9EHr6";
+            "file" = "Adventure Time 26.3 FABRIC ONLY.zip";
+            "hash" = "sha512-SxMep8M6MwY+3L234UURKYVObB3e5DZMZpRXpEVnwtNYF07dyp9CzkCKYfZV0GDgCWud6WX30Hg2DvhJ991WIA==";
+        };
     in {
         "CcpshaLa" = _CcpshaLa;
         "nBvhg7NI" = _nBvhg7NI;
@@ -68,6 +73,7 @@ let
         "VOEmuzCq" = _VOEmuzCq;
         "Abw5UZOB" = _Abw5UZOB;
         "s2zAs0Wu" = _s2zAs0Wu;
+        "ryM9EHr6" = _ryM9EHr6;
         "minecraft-1.20" = _CcpshaLa;
         "minecraft-1.20.2" = _CcpshaLa;
         "minecraft-1.20.3" = _CcpshaLa;
@@ -89,6 +95,7 @@ let
         "minecraft-26.1.1" = _VOEmuzCq;
         "minecraft-26.1.2" = _VOEmuzCq;
         "minecraft-26.2" = _s2zAs0Wu;
+        "minecraft-26.3" = _ryM9EHr6;
         "pkg-1" = _Wnylx1Ra;
         "pkg-1.21" = _nBvhg7NI;
         "pkg-1.21.4" = _4mFg5wer;
@@ -98,7 +105,8 @@ let
         "pkg-1.21.11" = _ZjDBaOU8;
         "pkg-26.1" = _VOEmuzCq;
         "pkg-26.2" = _s2zAs0Wu;
-        "default" = _s2zAs0Wu;
+        "pkg-26.3" = _ryM9EHr6;
+        "default" = _ryM9EHr6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "adventure-time-texture-pack";

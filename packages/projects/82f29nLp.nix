@@ -291,6 +291,11 @@ let
             "file" = "madoku-craft-core-26.3-1.3.7-V1.jar";
             "hash" = "sha512-TE6d5nz661sN9uyQ0FHxL6wUwPNTWZP41+OHp/Jsc4AJkzPE8sY4Bd3mMFhNIiZDJo0NytoJT1VDgzJ8uhCd+A==";
         };
+        _vACbF5sp = {
+            "id" = "vACbF5sp";
+            "file" = "madoku-craft-core-26.3-1.3.7-V2.jar";
+            "hash" = "sha512-ndQc5bawQ8ITOzjpRfZUFthAbRgYueBMnROUbcu9lZeUjXiqQQYi96scN49T35OpUfncYtRCT9fvHGzbBT8IBQ==";
+        };
     in {
         "eMHtpPkf" = _eMHtpPkf;
         "z3gsOXFw" = _z3gsOXFw;
@@ -350,12 +355,13 @@ let
         "JPLwuSLN" = _JPLwuSLN;
         "4hJ7HRzP" = _4hJ7HRzP;
         "zpj6jWFb" = _zpj6jWFb;
+        "vACbF5sp" = _vACbF5sp;
         "fabric-1.21.11" = _Nfc69ySL;
         "fabric-1.21.1" = _p9IvL5CW;
         "fabric-26.1" = _lKdj77Br;
         "fabric-26.1.2" = _mGxDG3IX;
         "fabric-26.2" = _eRpjC94j;
-        "fabric-26.3" = _zpj6jWFb;
+        "fabric-26.3" = _vACbF5sp;
         "pkg-1.0.0" = _eMHtpPkf;
         "pkg-1.0.1" = _z3gsOXFw;
         "pkg-1.0.2" = _RqlxzEiH;
@@ -405,7 +411,8 @@ let
         "pkg-26.3-1.3.6-V1" = _JPLwuSLN;
         "pkg-26.3-1.3.6-V2" = _4hJ7HRzP;
         "pkg-26.3-1.3.7-V1" = _zpj6jWFb;
-        "default" = _zpj6jWFb;
+        "pkg-26.3-1.3.7-V2" = _vACbF5sp;
+        "default" = _vACbF5sp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "madoku-craft-core";

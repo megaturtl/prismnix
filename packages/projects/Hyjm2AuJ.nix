@@ -86,6 +86,31 @@ let
             "file" = "autototem-26.2-2.0.1.jar";
             "hash" = "sha512-LbKx00UoYWGIWnr5AJT/RFJ3SOR70XpHFe3WI06jBXcXf3bpZD5IrjuKT0Erhm59uEjLpqQt8uLJSWYt8C2OdQ==";
         };
+        _pV2cTC03 = {
+            "id" = "pV2cTC03";
+            "file" = "autototem-1.21.11-2.1.0.jar";
+            "hash" = "sha512-UmOr8NeDWTaSsJdI7IU1PJJu+0N8Un08ZYR48vT8uRh18BI+10d6aYaisiYU2W8cHCu9OLpMMXmfEd3S11vVQg==";
+        };
+        _Bu32rsuW = {
+            "id" = "Bu32rsuW";
+            "file" = "autototem-1.21.1-1.21.4-2.1.0.jar";
+            "hash" = "sha512-SZiHZ1m0N0qxLRYD/6G0Ss7ZnqSNi7/J9hsYJ+bk+gcfsCDhKE/jjWSlakffmIKNDrg9kUEPujPrQrR7GSh7lw==";
+        };
+        _bB2KrUcs = {
+            "id" = "bB2KrUcs";
+            "file" = "autototem-26.1.x-2.1.0.jar";
+            "hash" = "sha512-Trm8NLqs6AVKh/g/wHi3ICWOAFjUM7riYtBwmAW6ZrgCs0+VKw8Efj4EuGw2YHAa92UZo0mRylOI5eeFsFRYNg==";
+        };
+        _WQzLlWJL = {
+            "id" = "WQzLlWJL";
+            "file" = "autototem-26.2-2.1.0.jar";
+            "hash" = "sha512-sWEYWg9/0WX0e9QyLk8+/ZS0xcQmAWZQc5JkZGZ/PgQKgwL3TsZrk7rYxw09uFE3bKl6kLh6z/4NDQctgPDrlw==";
+        };
+        _GLPNohU6 = {
+            "id" = "GLPNohU6";
+            "file" = "autototem-26.3-2.1.0.jar";
+            "hash" = "sha512-ECX8JzIx5er913Rr0gfw0pnjrQEmkZY7N+ROBJJ7aecZz+jjZ5IngrhUMf7oFmLc/Y1mIrZfEEfiRN7pPaXtLw==";
+        };
     in {
         "IcZin0eM" = _IcZin0eM;
         "cg9dq1S5" = _cg9dq1S5;
@@ -104,26 +129,32 @@ let
         "R6gdG4iJ" = _R6gdG4iJ;
         "tL5i1g2I" = _tL5i1g2I;
         "c4NUg9mx" = _c4NUg9mx;
-        "fabric-1.21.1" = _11ncZBB7;
-        "fabric-1.21.2" = _cg9dq1S5;
-        "fabric-1.21.3" = _xKziEbEt;
-        "fabric-1.21.4" = _beZdsnMf;
+        "pV2cTC03" = _pV2cTC03;
+        "Bu32rsuW" = _Bu32rsuW;
+        "bB2KrUcs" = _bB2KrUcs;
+        "WQzLlWJL" = _WQzLlWJL;
+        "GLPNohU6" = _GLPNohU6;
+        "fabric-1.21.1" = _Bu32rsuW;
+        "fabric-1.21.2" = _Bu32rsuW;
+        "fabric-1.21.3" = _Bu32rsuW;
+        "fabric-1.21.4" = _Bu32rsuW;
         "fabric-1.21.5" = _3xUhjRqp;
         "fabric-1.21.6" = _Gf4cuGk4;
         "fabric-1.21.7" = _OC9UEPDQ;
         "fabric-1.21.8" = _mngzY4SZ;
-        "fabric-1.21.11" = _GmOTKP6z;
+        "fabric-1.21.11" = _pV2cTC03;
         "fabric-1.21.9" = _MeZX8pZ2;
         "fabric-1.21.10" = _VRY2A7tf;
-        "fabric-26.3" = _R6gdG4iJ;
-        "fabric-26.1" = _tL5i1g2I;
-        "fabric-26.1.1" = _tL5i1g2I;
-        "fabric-26.1.2" = _tL5i1g2I;
-        "fabric-26.2" = _c4NUg9mx;
+        "fabric-26.3" = _GLPNohU6;
+        "fabric-26.1" = _bB2KrUcs;
+        "fabric-26.1.1" = _bB2KrUcs;
+        "fabric-26.1.2" = _bB2KrUcs;
+        "fabric-26.2" = _WQzLlWJL;
         "pkg-1.0.0" = _VRY2A7tf;
         "pkg-2.0.0" = _bi1EMlBl;
         "pkg-2.0.1" = _c4NUg9mx;
-        "default" = _c4NUg9mx;
+        "pkg-2.1.0" = _GLPNohU6;
+        "default" = _GLPNohU6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "autototemmod";

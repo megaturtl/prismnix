@@ -11,13 +11,20 @@ let
             "file" = "customdiscs-1.1.0.jar";
             "hash" = "sha512-MgAea1LRoD6LAW246ButogbcdbGCMCIjNJUwoRiiuT9+1XsfSkSa9l9atQIoih8aifJX4r+win5piQe95FPFGw==";
         };
+        _RxJlQhCw = {
+            "id" = "RxJlQhCw";
+            "file" = "customdiscs-1.2.0.jar";
+            "hash" = "sha512-VeCdZVoD+2ajM9Y/zd8mY6OfzUfdZyeovw0CryePN8uk/dMPG1eyI3Mqt0Dw24dbsfUrLV9ROJG9RtdRE1V5+Q==";
+        };
     in {
         "Cgcbasxj" = _Cgcbasxj;
         "SA03lXMA" = _SA03lXMA;
-        "neoforge-1.21.1" = _SA03lXMA;
+        "RxJlQhCw" = _RxJlQhCw;
+        "neoforge-1.21.1" = _RxJlQhCw;
         "pkg-1.0.0" = _Cgcbasxj;
         "pkg-1.1.0" = _SA03lXMA;
-        "default" = _SA03lXMA;
+        "pkg-1.2.0" = _RxJlQhCw;
+        "default" = _RxJlQhCw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "customdiscs-mod";

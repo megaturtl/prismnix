@@ -96,6 +96,16 @@ let
             "file" = "giant_cherry_blossom_bonsai_tree-1.0.0 Neoforge 26.2.jar";
             "hash" = "sha512-K7WyQWapLv8J9CoxSfRK3tahmX9n8aRjAoaAgPx4XwE0MJJX6MtLdUQ8cUyM8Iw5t20a6fTc9M1bXRFyljK5ZA==";
         };
+        _US4bHiRI = {
+            "id" = "US4bHiRI";
+            "file" = "giant-cherry-blossom-bonsai-tree-1.0.0 Fabric 26.3.jar";
+            "hash" = "sha512-pkTF3pmiAiBq7aZLxWFYQfLB8FMhx++UeoQPCRk9W38FIONb6a6ffWVCkU0SWq/jDSMjWeSqxcnhlxhFbPxybQ==";
+        };
+        _X5AAL6F2 = {
+            "id" = "X5AAL6F2";
+            "file" = "giant_cherry_blossom_bonsai_tree-1.0.0 Neoforge 26.3.jar";
+            "hash" = "sha512-aZ56twMKMPd96St7fe+uqIdjKCaarKqoJStToshqczfMdbpFqJgGW7iIgnnOUX7YyMDOOChBshWsmakZs8PjeQ==";
+        };
     in {
         "LUWRlwvj" = _LUWRlwvj;
         "eQekbLOa" = _eQekbLOa;
@@ -116,6 +126,8 @@ let
         "1u3OGInm" = _1u3OGInm;
         "pqUUUhSR" = _pqUUUhSR;
         "8wNzj0Fl" = _8wNzj0Fl;
+        "US4bHiRI" = _US4bHiRI;
+        "X5AAL6F2" = _X5AAL6F2;
         "fabric-1.20.1" = _LUWRlwvj;
         "fabric-1.21.8" = _wCWdmIrh;
         "fabric-1.21.10" = _kRe9zpqq;
@@ -124,6 +136,7 @@ let
         "fabric-26.1.1" = _WW6qQkEi;
         "fabric-26.1.2" = _WW6qQkEi;
         "fabric-26.2" = _pqUUUhSR;
+        "fabric-26.3" = _US4bHiRI;
         "forge-1.20.1" = _g20sLIRl;
         "neoforge-1.21.1" = _J0LBkbCW;
         "neoforge-1.21.4" = _Powr7x31;
@@ -132,9 +145,10 @@ let
         "neoforge-26.1" = _CxWf6Mpj;
         "neoforge-26.1.2" = _1u3OGInm;
         "neoforge-26.2" = _8wNzj0Fl;
-        "pkg-1.0.0" = _8wNzj0Fl;
+        "neoforge-26.3" = _X5AAL6F2;
+        "pkg-1.0.0" = _X5AAL6F2;
         "pkg-1.0.1" = _VQHgpiCj;
-        "default" = _8wNzj0Fl;
+        "default" = _X5AAL6F2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "giant-cherry-blossom-bonsai-tree";

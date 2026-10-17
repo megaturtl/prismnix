@@ -146,6 +146,16 @@ let
             "file" = "gtcraft-2.1.1.jar";
             "hash" = "sha512-8WY6kL31FCjcPjmfwLTUDCjxgdN1EEUx3dJAYYWpwGBsaG1PGz2hgN/6Jf6xCybn5JzOdd+52NT4E0olmwcUTQ==";
         };
+        _Sf1D6SxU = {
+            "id" = "Sf1D6SxU";
+            "file" = "gtcraft-2.1.2(1.12.2).jar";
+            "hash" = "sha512-FZGdgpB5SibCHB0cj7p5MoBHXgqKI13qRUV8lsT2qvAeVy0/swTo6qfhAeehXgJvsHR0NlQ1Q6gTkvV9ddSc3Q==";
+        };
+        _ssj2yoeI = {
+            "id" = "ssj2yoeI";
+            "file" = "gtcraft-2.1.2.jar";
+            "hash" = "sha512-FGimZKV+JR43YsXkKlPFZ0C0Khe0+6DlMyezEnDySjfewRcqC4Gc4BVMONFXDmPiaZJsFQUtzdZa+rdxKjmhcA==";
+        };
     in {
         "quPeBVBc" = _quPeBVBc;
         "IcVHoIro" = _IcVHoIro;
@@ -176,19 +186,21 @@ let
         "h4RsOhJR" = _h4RsOhJR;
         "LESJk6uO" = _LESJk6uO;
         "ClRSbrsp" = _ClRSbrsp;
-        "forge-1.12.2" = _LESJk6uO;
-        "forge-1.16.5" = _ClRSbrsp;
-        "forge-1.18.2" = _ClRSbrsp;
-        "forge-1.19.2" = _ClRSbrsp;
-        "forge-1.20.1" = _ClRSbrsp;
-        "forge-1.21.1" = _ClRSbrsp;
-        "forge-26.1" = _ClRSbrsp;
-        "neoforge-1.16.5" = _ClRSbrsp;
-        "neoforge-1.18.2" = _ClRSbrsp;
-        "neoforge-1.19.2" = _ClRSbrsp;
-        "neoforge-1.20.1" = _ClRSbrsp;
-        "neoforge-1.21.1" = _ClRSbrsp;
-        "neoforge-26.1" = _ClRSbrsp;
+        "Sf1D6SxU" = _Sf1D6SxU;
+        "ssj2yoeI" = _ssj2yoeI;
+        "forge-1.12.2" = _Sf1D6SxU;
+        "forge-1.16.5" = _ssj2yoeI;
+        "forge-1.18.2" = _ssj2yoeI;
+        "forge-1.19.2" = _ssj2yoeI;
+        "forge-1.20.1" = _ssj2yoeI;
+        "forge-1.21.1" = _ssj2yoeI;
+        "forge-26.1" = _ssj2yoeI;
+        "neoforge-1.16.5" = _ssj2yoeI;
+        "neoforge-1.18.2" = _ssj2yoeI;
+        "neoforge-1.19.2" = _ssj2yoeI;
+        "neoforge-1.20.1" = _ssj2yoeI;
+        "neoforge-1.21.1" = _ssj2yoeI;
+        "neoforge-26.1" = _ssj2yoeI;
         "pkg-1.0" = _IcVHoIro;
         "pkg-1.0.1" = _jjyjCxe9;
         "pkg-1.0.2" = _ANM4RA04;
@@ -202,7 +214,8 @@ let
         "pkg-2.0.1" = _2VvUWJqU;
         "pkg-2.1" = _h4RsOhJR;
         "pkg-2.1.1" = _ClRSbrsp;
-        "default" = _ClRSbrsp;
+        "pkg-2.1.2" = _ssj2yoeI;
+        "default" = _ssj2yoeI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gt-craft-ivmts";

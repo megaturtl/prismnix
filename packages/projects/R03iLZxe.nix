@@ -306,6 +306,16 @@ let
             "file" = "survivalfly-1.3.7_fabric-mc26.3.jar";
             "hash" = "sha512-RH5y17g2NO3pv5LmosmVR1nn6Zs7DViqyExP/KrNvXGmpVExMHsK1fImu/uok62M/r4sidFkNF+3kllNRZjuvg==";
         };
+        _oPgw2pZi = {
+            "id" = "oPgw2pZi";
+            "file" = "survivalfly-1.3.8_neoforge-mc26.3.jar";
+            "hash" = "sha512-NNQwZP6UKcQDCWOhdlCiuSFLbIsJB+QEYqomOwI8s42gRaV+U3lz/rDyZizQJ65dqpYwTsP3rbdA9eREm4AQNA==";
+        };
+        _NePAIwfg = {
+            "id" = "NePAIwfg";
+            "file" = "survivalfly-1.3.8_fabric-mc26.3.jar";
+            "hash" = "sha512-scPqJ4esg8MnpSYtKOE/uQFDjvctSm4xiLl2TYhqB5xYKFcvy8/DvJsMcm5cxhxdSsJKDshOe8fpLYoLGMJJzA==";
+        };
     in {
         "7cRtJYpM" = _7cRtJYpM;
         "QljDvzo3" = _QljDvzo3;
@@ -368,6 +378,8 @@ let
         "7bWPwcQF" = _7bWPwcQF;
         "dA688jIg" = _dA688jIg;
         "OMfLtIjl" = _OMfLtIjl;
+        "oPgw2pZi" = _oPgw2pZi;
+        "NePAIwfg" = _NePAIwfg;
         "fabric-1.21.5" = _tVhwgYtn;
         "fabric-1.21" = _MHtvyhZQ;
         "fabric-1.21.1" = _czoOe7R7;
@@ -386,7 +398,7 @@ let
         "fabric-26.1.1" = _vb6Lbs4h;
         "fabric-26.1.2" = _vb6Lbs4h;
         "fabric-26.2" = _Jl7O1USl;
-        "fabric-26.3" = _OMfLtIjl;
+        "fabric-26.3" = _NePAIwfg;
         "forge-1.20.1" = _g1d5fx0i;
         "forge-1.21.1" = _B4AA3a4W;
         "forge-1.21.3" = _olvCb2u6;
@@ -405,7 +417,7 @@ let
         "neoforge-26.1.2" = _jZoSpL2E;
         "neoforge-1.21.1" = _jXkcIHtb;
         "neoforge-26.2" = _KNfcG0ZP;
-        "neoforge-26.3" = _dA688jIg;
+        "neoforge-26.3" = _oPgw2pZi;
         "pkg-1.0.0" = _QljDvzo3;
         "pkg-1.1.0" = _NxKq98Hp;
         "pkg-1.1.1" = _MHtvyhZQ;
@@ -425,7 +437,8 @@ let
         "pkg-1.3.5" = _Jl7O1USl;
         "pkg-1.3.6" = _7bWPwcQF;
         "pkg-1.3.7" = _OMfLtIjl;
-        "default" = _OMfLtIjl;
+        "pkg-1.3.8" = _NePAIwfg;
+        "default" = _NePAIwfg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "survival-fly";

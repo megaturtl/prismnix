@@ -66,6 +66,11 @@ let
             "file" = "pirates_26.2_.zip";
             "hash" = "sha512-CGK5/906PODULH0iLt9GxdnputaZrYFIxXIt74QWKZzvgrzTc0CpeabXZvFFxT40GfrVjYaWtN4p10nSfd+QFA==";
         };
+        _YihFQrpb = {
+            "id" = "YihFQrpb";
+            "file" = "pirates_26.3_.zip";
+            "hash" = "sha512-Edc9/Etb8egvlhXWFq3v6kOX+CfAIj50H6CRQwcROHZvJuO1wZ6MY7mwhdGP1PxD9ycKShn3iK+FCcOTdwWOaQ==";
+        };
     in {
         "if3QdYHQ" = _if3QdYHQ;
         "RL0Uduw5" = _RL0Uduw5;
@@ -80,6 +85,7 @@ let
         "yoyJE0oI" = _yoyJE0oI;
         "MmAokhsM" = _MmAokhsM;
         "eSqAnyns" = _eSqAnyns;
+        "YihFQrpb" = _YihFQrpb;
         "minecraft-1.19" = _if3QdYHQ;
         "minecraft-1.19.1" = _if3QdYHQ;
         "minecraft-1.19.2" = _if3QdYHQ;
@@ -101,8 +107,10 @@ let
         "minecraft-26.1.1" = _MmAokhsM;
         "minecraft-26.1.2" = _MmAokhsM;
         "minecraft-26.2" = _eSqAnyns;
+        "minecraft-26.3" = _YihFQrpb;
         "pkg-1.0" = _eSqAnyns;
-        "default" = _eSqAnyns;
+        "pkg-26.3" = _YihFQrpb;
+        "default" = _YihFQrpb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pirate-illagers";

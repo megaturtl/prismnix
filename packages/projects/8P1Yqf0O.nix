@@ -46,6 +46,11 @@ let
             "file" = "HeadDB-7.0.0-rc.7.jar";
             "hash" = "sha512-z2yMHGbtWFnlYZiHcc8AktnxROrgFm3X8Nmokx7LWkrojiImk6QLvggk9BGJ96wv/qiyIk75KjnKTLc/eqD0kA==";
         };
+        _6bcEohII = {
+            "id" = "6bcEohII";
+            "file" = "HeadDB-7.0.0-rc.8.jar";
+            "hash" = "sha512-mzZ3Iwhv09mtgJBkQIRfP878wiAGf69PYByLMM4nW7u21qC43geiXg28mM4dyIWSTxJedoGNWmFA7aSNA3zgMQ==";
+        };
     in {
         "oCqkFKja" = _oCqkFKja;
         "YMMinT9Z" = _YMMinT9Z;
@@ -56,6 +61,7 @@ let
         "yMH0Hz2j" = _yMH0Hz2j;
         "C6HSU6xY" = _C6HSU6xY;
         "E6bE221X" = _E6bE221X;
+        "6bcEohII" = _6bcEohII;
         "bukkit-1.21" = _YMMinT9Z;
         "bukkit-1.21.1" = _YMMinT9Z;
         "bukkit-1.21.2" = _YMMinT9Z;
@@ -86,10 +92,10 @@ let
         "paper-1.20.4" = _YMMinT9Z;
         "paper-1.20.5" = _YMMinT9Z;
         "paper-1.20.6" = _YMMinT9Z;
-        "paper-26.1" = _E6bE221X;
-        "paper-26.1.1" = _E6bE221X;
-        "paper-26.1.2" = _E6bE221X;
-        "paper-26.2" = _E6bE221X;
+        "paper-26.1" = _6bcEohII;
+        "paper-26.1.1" = _6bcEohII;
+        "paper-26.1.2" = _6bcEohII;
+        "paper-26.2" = _6bcEohII;
         "spigot-1.21" = _YMMinT9Z;
         "spigot-1.21.1" = _YMMinT9Z;
         "spigot-1.21.2" = _YMMinT9Z;
@@ -105,10 +111,10 @@ let
         "spigot-1.20.4" = _YMMinT9Z;
         "spigot-1.20.5" = _YMMinT9Z;
         "spigot-1.20.6" = _YMMinT9Z;
-        "folia-26.1" = _E6bE221X;
-        "folia-26.1.1" = _E6bE221X;
-        "folia-26.1.2" = _E6bE221X;
-        "folia-26.2" = _E6bE221X;
+        "folia-26.1" = _6bcEohII;
+        "folia-26.1.1" = _6bcEohII;
+        "folia-26.1.2" = _6bcEohII;
+        "folia-26.2" = _6bcEohII;
         "pkg-6.0.0-rc.1" = _oCqkFKja;
         "pkg-6.0.0-rc.2" = _YMMinT9Z;
         "pkg-7.0.0-rc.1" = _A2rTDFpU;
@@ -118,7 +124,8 @@ let
         "pkg-7.0.0-rc.5" = _yMH0Hz2j;
         "pkg-7.0.0-rc.6" = _C6HSU6xY;
         "pkg-7.0.0-rc.7" = _E6bE221X;
-        "default" = _E6bE221X;
+        "pkg-7.0.0-rc.8" = _6bcEohII;
+        "default" = _6bcEohII;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hdb";

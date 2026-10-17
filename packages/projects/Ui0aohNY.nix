@@ -41,6 +41,11 @@ let
             "file" = "cobbled-armour-trims-3.1.jar";
             "hash" = "sha512-uwGHZ//SspsnRjumJrbDFJjGWan117a0l+PQuFS+o8tC6RgYNYMsO+TXotRKHkRbwTpCB1mwFAHNFM+t6Ybqug==";
         };
+        _mdjvOQWG = {
+            "id" = "mdjvOQWG";
+            "file" = "cobbled-armour-trims-3.2.jar";
+            "hash" = "sha512-cZgCHr9w5OlPm5kfyF8nyP1lcSwb5LJJJ9XKaxwmdDjYjxhfDyLaPL7Kjf38NLZuBHVLeQn8Kh6AfTWYQJECtw==";
+        };
     in {
         "iZwionRY" = _iZwionRY;
         "aqk1KGl8" = _aqk1KGl8;
@@ -50,9 +55,10 @@ let
         "ao6EwEKY" = _ao6EwEKY;
         "EwSSjHYF" = _EwSSjHYF;
         "aStvINVy" = _aStvINVy;
-        "fabric-1.21.1" = _aStvINVy;
+        "mdjvOQWG" = _mdjvOQWG;
+        "fabric-1.21.1" = _mdjvOQWG;
         "fabric-1.21" = _ao6EwEKY;
-        "neoforge-1.21.1" = _aStvINVy;
+        "neoforge-1.21.1" = _mdjvOQWG;
         "neoforge-1.21" = _ao6EwEKY;
         "pkg-1+mod" = _iZwionRY;
         "pkg-1.1+mod" = _CEhxUEd0;
@@ -61,7 +67,8 @@ let
         "pkg-2.2" = _ao6EwEKY;
         "pkg-3.0" = _EwSSjHYF;
         "pkg-3.1" = _aStvINVy;
-        "default" = _aStvINVy;
+        "pkg-3.2" = _mdjvOQWG;
+        "default" = _mdjvOQWG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobbled-armour-trims";

@@ -76,6 +76,11 @@ let
             "file" = "morefurnaces-1.2.2+26.1.2.jar";
             "hash" = "sha512-4P1Qt1dxkBD0Rbo5ZODeQzQcz44nwt67MbjG8UEsrVfpt2Va5MlpcEWVyZTeXjqEWp+p47a+VJ6v1IOmBqnAdA==";
         };
+        _X0ekj793 = {
+            "id" = "X0ekj793";
+            "file" = "morefurnaces-1.2.2+26.3.jar";
+            "hash" = "sha512-+PDGPeOR1bb87s7njWfoJzSrvEw7VFGWg9gdrVl0Boi9SK5LUvng4KV2lAtRrc5dTYT0ICLFSBU1CKRweooUyA==";
+        };
     in {
         "opQY4tVL" = _opQY4tVL;
         "DMQBWHTR" = _DMQBWHTR;
@@ -92,6 +97,7 @@ let
         "e9x6Chbc" = _e9x6Chbc;
         "lx6a06P8" = _lx6a06P8;
         "IHJRAv9K" = _IHJRAv9K;
+        "X0ekj793" = _X0ekj793;
         "fabric-1.21.2" = _opQY4tVL;
         "fabric-1.21.3" = _twFUZsct;
         "fabric-1.21.4" = _UqaW3uEA;
@@ -105,6 +111,7 @@ let
         "fabric-26.1.1" = _e9x6Chbc;
         "fabric-26.1.2" = _IHJRAv9K;
         "fabric-26.2" = _lx6a06P8;
+        "fabric-26.3" = _X0ekj793;
         "pkg-1.0.0+1.21.3" = _opQY4tVL;
         "pkg-1.1.1+1.21.3" = _DMQBWHTR;
         "pkg-1.1.1+1.21.4" = _iULAeWYz;
@@ -120,7 +127,8 @@ let
         "pkg-1.2.2+26.1.1" = _e9x6Chbc;
         "pkg-1.2.2+26.2" = _lx6a06P8;
         "pkg-1.2.2+26.1.2" = _IHJRAv9K;
-        "default" = _IHJRAv9K;
+        "pkg-1.2.2+26.3" = _X0ekj793;
+        "default" = _X0ekj793;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "morefurnaces";

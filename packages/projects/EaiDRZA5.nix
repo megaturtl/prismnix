@@ -226,6 +226,21 @@ let
             "file" = "xenaddons-1.4.11-mc26.1.2.jar";
             "hash" = "sha512-COq2hLYOSNje9ZEF6zzYsZKuiFJ2TjMyP+tOezMUHUuYl8XuQtN6PY7Hk9IuaXbCnvivf88NX0P1frGjvJTIIQ==";
         };
+        _3E4wuA4w = {
+            "id" = "3E4wuA4w";
+            "file" = "xenaddons-1.5.0-mc26.1.2.jar";
+            "hash" = "sha512-ivWV7qHSGrZm3DOcGzLCpCjTIOyU40nc4fRrpoTyxDTa8lzXjxAeaK8ujzH2MJ8ItuPB7IFbDK3GXbZ9sgwPLg==";
+        };
+        _tdj1vObc = {
+            "id" = "tdj1vObc";
+            "file" = "xenaddons-1.5.0-mc26.2.jar";
+            "hash" = "sha512-2wvQqpEKUUK7AUK3IIUYFc09iXCX394lsg25Br83sQWJcitxpc/iFsfMKTsOsgd5joDhZaFZliqsX1o169v8XQ==";
+        };
+        _xLnfqQRF = {
+            "id" = "xLnfqQRF";
+            "file" = "xenaddons-1.5.0-mc26.3.jar";
+            "hash" = "sha512-wiH8pC084hcYDY9llWzTRoaxhZ8k3TdPjSr+pIIQMJWnzVFHQgOsFGJyAW01ls4UcjsCYZWPeIs2RSHlOezQDg==";
+        };
     in {
         "WIzpdIKW" = _WIzpdIKW;
         "v7qSWM1x" = _v7qSWM1x;
@@ -272,9 +287,14 @@ let
         "dvWIG4XT" = _dvWIG4XT;
         "idfEyGXS" = _idfEyGXS;
         "caPNPMQI" = _caPNPMQI;
+        "3E4wuA4w" = _3E4wuA4w;
+        "tdj1vObc" = _tdj1vObc;
+        "xLnfqQRF" = _xLnfqQRF;
         "fabric-1.21.10" = _fdx1R5Kh;
         "fabric-1.21.11" = _EYYtqDc9;
-        "fabric-26.1.2" = _caPNPMQI;
+        "fabric-26.1.2" = _3E4wuA4w;
+        "fabric-26.2" = _tdj1vObc;
+        "fabric-26.3" = _xLnfqQRF;
         "pkg-1.0.0" = _WIzpdIKW;
         "pkg-1.1.0" = _v7qSWM1x;
         "pkg-1.2.0" = _KYXSSubg;
@@ -318,7 +338,8 @@ let
         "pkg-1.4.9" = _dvWIG4XT;
         "pkg-1.4.10" = _idfEyGXS;
         "pkg-1.4.11" = _caPNPMQI;
-        "default" = _caPNPMQI;
+        "pkg-1.5.0" = _xLnfqQRF;
+        "default" = _xLnfqQRF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "xenaddons";

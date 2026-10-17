@@ -126,6 +126,11 @@ let
             "file" = "blastcraft-1.21.1-0.7.0.jar";
             "hash" = "sha512-IL9s4N4JC5Y82Ic46LgCTh+Tl5bIX26zvyaRU5eTj2/Tpj0cmkPbs5vC2J6Xy/lLIj+UQXepK6R/XFW84Fqd2A==";
         };
+        _80eFBw5o = {
+            "id" = "80eFBw5o";
+            "file" = "blastcraft-1.21.1-0.8.0.jar";
+            "hash" = "sha512-B1xrNJQue0usT7VqEfxYa4F6QrqVDfnsTg+3j0MyzQOY/l4pPHmS7uOXSBv7QjKXsiQqR7rhRHsVgn06xr7r8w==";
+        };
     in {
         "Eb37SyB9" = _Eb37SyB9;
         "sSE1ZwxS" = _sSE1ZwxS;
@@ -152,13 +157,14 @@ let
         "GPx1sTl5" = _GPx1sTl5;
         "HGM2nv4M" = _HGM2nv4M;
         "i1MFAE4T" = _i1MFAE4T;
+        "80eFBw5o" = _80eFBw5o;
         "forge-1.16.5" = _9k9uSmNC;
         "forge-1.17.1" = _sSE1ZwxS;
         "forge-1.18.2" = _8ZGPrA0L;
         "forge-1.19.2" = _HGM2nv4M;
         "forge-1.20.1" = _GPx1sTl5;
         "neoforge-1.20.1" = _GPx1sTl5;
-        "neoforge-1.21.1" = _i1MFAE4T;
+        "neoforge-1.21.1" = _80eFBw5o;
         "pkg-1.16.5-0.2.0-0" = _Eb37SyB9;
         "pkg-1.17.1-0.2.1-0" = _sSE1ZwxS;
         "pkg-1.18.2-0.2.7-2" = _HNFucJYn;
@@ -184,7 +190,8 @@ let
         "pkg-1.20.1-0.6.2" = _GPx1sTl5;
         "pkg-1.19.2-0.6.2" = _HGM2nv4M;
         "pkg-1.21.1-0.7.0" = _i1MFAE4T;
-        "default" = _i1MFAE4T;
+        "pkg-1.21.1-0.8.0" = _80eFBw5o;
+        "default" = _80eFBw5o;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blastcraft";

@@ -1031,6 +1031,16 @@ let
             "file" = "qualityofqueso-1.7.18_fabric-mc26.3.jar";
             "hash" = "sha512-qtfRRDeuGMJO2kbHQIiaeidUSzQx2upit4KQ8xHwkHQQgDhh20m8AfHr8cFKEAx4GzMvy11MrSeCybt/jqdLHA==";
         };
+        _RQk8SkMn = {
+            "id" = "RQk8SkMn";
+            "file" = "qualityofqueso-1.7.19_neoforge-mc26.3.jar";
+            "hash" = "sha512-dCG2SHVWlKjUnEDJzKWC4uRpfsT9678WBoB0uEsmD+1fMmg7B0Lty0SAwl1UWl4dicaj4YeqSEIjQUoy+L4hnw==";
+        };
+        _ETLJqknX = {
+            "id" = "ETLJqknX";
+            "file" = "qualityofqueso-1.7.19_fabric-mc26.3.jar";
+            "hash" = "sha512-K0zVAqQPg6ArXz1T/+9v7hw2QyCgo/WqkNNahbV1ez7k5M+6aHu2yBMwgbzNzaPi0PtlDnaoQ8d5e5aPLgsskA==";
+        };
     in {
         "io7SAb4a" = _io7SAb4a;
         "4OWjBKEu" = _4OWjBKEu;
@@ -1238,6 +1248,8 @@ let
         "YZV8q5xM" = _YZV8q5xM;
         "5Uw0Kcgz" = _5Uw0Kcgz;
         "wuZI8YUw" = _wuZI8YUw;
+        "RQk8SkMn" = _RQk8SkMn;
+        "ETLJqknX" = _ETLJqknX;
         "fabric-1.21.5" = _X5fpCqAK;
         "fabric-1.21.2" = _TCTxaExk;
         "fabric-1.21.3" = _TCTxaExk;
@@ -1256,7 +1268,7 @@ let
         "fabric-26.1.2" = _FN8tkmNW;
         "fabric-1.20.1" = _9ETMyFCF;
         "fabric-26.2" = _sFOCDW8l;
-        "fabric-26.3" = _wuZI8YUw;
+        "fabric-26.3" = _ETLJqknX;
         "forge-1.20.1" = _bSQtDeje;
         "forge-1.21.1" = _Olp3KDgQ;
         "forge-1.21.4" = _vOC2Ls1r;
@@ -1274,7 +1286,7 @@ let
         "neoforge-1.21.1" = _bR2BoTf0;
         "neoforge-1.21.11" = _bDaqFmZo;
         "neoforge-26.2" = _SKNfiUWE;
-        "neoforge-26.3" = _5Uw0Kcgz;
+        "neoforge-26.3" = _RQk8SkMn;
         "pkg-1.0" = _io7SAb4a;
         "pkg-1.0.1" = _4OWjBKEu;
         "pkg-1.0.2" = _xkPEOIie;
@@ -1340,7 +1352,8 @@ let
         "pkg-1.7.16" = _I6qVKSDJ;
         "pkg-1.7.17" = _YZV8q5xM;
         "pkg-1.7.18" = _wuZI8YUw;
-        "default" = _wuZI8YUw;
+        "pkg-1.7.19" = _ETLJqknX;
+        "default" = _ETLJqknX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "quality-of-queso";

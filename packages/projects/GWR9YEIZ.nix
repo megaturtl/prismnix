@@ -31,6 +31,11 @@ let
             "file" = "chattextselect-1.0.0.jar";
             "hash" = "sha512-Mthckl97VoR4D/b0zS5Bwrw+E+H61oX9pfAHoOMvhFc0JK/lNz8anF2w7aYuo/ghI3mh+2kj0LxyyCXo6kBtwQ==";
         };
+        _hggMq1Dq = {
+            "id" = "hggMq1Dq";
+            "file" = "chattextselect-1.0.1.jar";
+            "hash" = "sha512-CbT9pNuzUmJJY9eBCn17saUuMsRdP5cmBgFs72v7SylYL97w01+Wq0+aW9rZREKL/5wBZC/CEzLdDCfOwTuj3g==";
+        };
     in {
         "iFIP9pWL" = _iFIP9pWL;
         "PAxm7o4Z" = _PAxm7o4Z;
@@ -38,17 +43,18 @@ let
         "ltFKLV86" = _ltFKLV86;
         "oUQILxGK" = _oUQILxGK;
         "P46sxa8T" = _P46sxa8T;
+        "hggMq1Dq" = _hggMq1Dq;
         "fabric-26.1" = _B0bJZ49m;
         "fabric-26.1.1" = _B0bJZ49m;
         "fabric-26.1.2" = _B0bJZ49m;
         "fabric-1.21.10" = _PAxm7o4Z;
         "fabric-1.21.11" = _PAxm7o4Z;
         "fabric-26.2" = _oUQILxGK;
-        "fabric-26.3" = _P46sxa8T;
+        "fabric-26.3" = _hggMq1Dq;
         "pkg-1.0.0" = _P46sxa8T;
-        "pkg-1.0.1" = _B0bJZ49m;
+        "pkg-1.0.1" = _hggMq1Dq;
         "pkg-1.1.0" = _oUQILxGK;
-        "default" = _P46sxa8T;
+        "default" = _hggMq1Dq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-chat-copy";

@@ -116,6 +116,11 @@ let
             "file" = "MC Dungeons Weapons V97.2 MC26.x.zip";
             "hash" = "sha512-WFDGrFfmxUKI9kx9hPl3T10MCCOrcE0biU25sFrHOh5kQf0/sLRD7XoDrjF9vx8tXHbMQEAlfJiYUy0CwA5IDg==";
         };
+        _BL5xYxqQ = {
+            "id" = "BL5xYxqQ";
+            "file" = "MC Dungeons Weapons V97.3 MC26.x.zip";
+            "hash" = "sha512-FjcmbQUnwZiah1fFmJKrl8xScrK8rjbh+a1fQm/h2acvW+aX9u0hqL4guOhPlby5vFeYkNM9yueFXjERAvRgmg==";
+        };
     in {
         "q94QGvYS" = _q94QGvYS;
         "YwqEmDOY" = _YwqEmDOY;
@@ -140,6 +145,7 @@ let
         "L1acRHA8" = _L1acRHA8;
         "t3GTs7du" = _t3GTs7du;
         "F7RtKCgI" = _F7RtKCgI;
+        "BL5xYxqQ" = _BL5xYxqQ;
         "minecraft-1.19.4" = _q94QGvYS;
         "minecraft-1.20" = _hTMs4ovb;
         "minecraft-1.20.1" = _hTMs4ovb;
@@ -160,11 +166,11 @@ let
         "minecraft-1.21.9" = _6IncgG1Q;
         "minecraft-1.21.10" = _6IncgG1Q;
         "minecraft-1.21.11" = _6IncgG1Q;
-        "minecraft-26.1" = _F7RtKCgI;
-        "minecraft-26.1.1" = _F7RtKCgI;
-        "minecraft-26.1.2" = _F7RtKCgI;
-        "minecraft-26.2" = _F7RtKCgI;
-        "minecraft-26.3" = _F7RtKCgI;
+        "minecraft-26.1" = _BL5xYxqQ;
+        "minecraft-26.1.1" = _BL5xYxqQ;
+        "minecraft-26.1.2" = _BL5xYxqQ;
+        "minecraft-26.2" = _BL5xYxqQ;
+        "minecraft-26.3" = _BL5xYxqQ;
         "pkg-V13" = _q94QGvYS;
         "pkg-V15" = _YwqEmDOY;
         "pkg-18" = _JXRcCopJ;
@@ -188,7 +194,8 @@ let
         "pkg-MCD-Weapons-97" = _L1acRHA8;
         "pkg-MCD-Weapons-97.1" = _t3GTs7du;
         "pkg-MCD-Weapons-97.2" = _F7RtKCgI;
-        "default" = _F7RtKCgI;
+        "pkg-MCD-Weapons-97.3" = _BL5xYxqQ;
+        "default" = _BL5xYxqQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "minecraft-dungeons-textures";

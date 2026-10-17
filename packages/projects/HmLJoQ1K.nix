@@ -1401,6 +1401,21 @@ let
             "file" = "integratedterminals-26.3-neoforge-1.7.0-1025.jar";
             "hash" = "sha512-oSjrhTFuV2oouHf6QQK6MnL+kV1xWY9TODY6WBESBq8vrsX/JlWjFXHWaPs+R7YLlvAmpZiBk4BH3wA54wGVaQ==";
         };
+        _7A7OqPvd = {
+            "id" = "7A7OqPvd";
+            "file" = "integratedterminals-1.21.1-neoforge-1.10.0-1071.jar";
+            "hash" = "sha512-ooz6KKOHhZqbHSVeD9//gYLFWDbFw7DlCx72i6h7L//zDU77Mh7wHAHZmNcKzzdxYgyg5EmA4B6lzb/1IMBEPA==";
+        };
+        _Gup2qM6Q = {
+            "id" = "Gup2qM6Q";
+            "file" = "integratedterminals-1.21.1-neoforge-1.10.0-1080.jar";
+            "hash" = "sha512-ZhT2ldkLQkew0tqhhbnnD5Y0ta7A4mtm/1tM3Ey1VQiNyW7LzwFiQ9AtsfzwIHYQp5Py6MGm+1/m93FgKJM2Jg==";
+        };
+        _inllxTZ6 = {
+            "id" = "inllxTZ6";
+            "file" = "integratedterminals-1.21.1-neoforge-1.10.0-1085.jar";
+            "hash" = "sha512-uaY6WIA9fkSecQJ5yszUciGlSCXCQuut8WtwXHMuQoT9Jhc1lH/HiJnyUqyWrAKaf9IUVjkDLWUnDygIuZ9n5w==";
+        };
     in {
         "ZHFPHLDw" = _ZHFPHLDw;
         "I6s5UbRW" = _I6s5UbRW;
@@ -1682,6 +1697,9 @@ let
         "2OkJiesq" = _2OkJiesq;
         "1yuZGWxr" = _1yuZGWxr;
         "xIauxFWJ" = _xIauxFWJ;
+        "7A7OqPvd" = _7A7OqPvd;
+        "Gup2qM6Q" = _Gup2qM6Q;
+        "inllxTZ6" = _inllxTZ6;
         "forge-1.18.2" = _IBQpAttK;
         "forge-1.19" = _rD380a2t;
         "forge-1.19.2" = _OucDz2J3;
@@ -1690,7 +1708,7 @@ let
         "forge-1.20.1" = _61hzWuVE;
         "neoforge-1.20.4" = _ppaulrbH;
         "neoforge-1.21" = _sqLb5rKE;
-        "neoforge-1.21.1" = _UnVN4YWi;
+        "neoforge-1.21.1" = _inllxTZ6;
         "neoforge-1.21.4" = _fMBXXVYB;
         "neoforge-1.21.8" = _quIemGpB;
         "neoforge-1.21.10" = _QtDqGHti;
@@ -1979,7 +1997,10 @@ let
         "pkg-26.3-1.7.0-1017" = _2OkJiesq;
         "pkg-26.3-1.7.0-1022" = _1yuZGWxr;
         "pkg-26.3-1.7.0-1025" = _xIauxFWJ;
-        "default" = _xIauxFWJ;
+        "pkg-1.21.1-1.10.0-1071" = _7A7OqPvd;
+        "pkg-1.21.1-1.10.0-1080" = _Gup2qM6Q;
+        "pkg-1.21.1-1.10.0-1085" = _inllxTZ6;
+        "default" = _inllxTZ6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "integrated-terminals";
