@@ -226,6 +226,11 @@ let
             "file" = "the_zenith_sword-1.8.0-26.3.jar";
             "hash" = "sha512-fMTWkOOxgUmBA9sLRqg45jswtFLPgSNHqgDBElnZcNSaTGn0YKrdJ20qY57FLYp3OxtSJG8mALyX8PYr3e0nQw==";
         };
+        _gcNyjZUy = {
+            "id" = "gcNyjZUy";
+            "file" = "the_zenith_sword-1.8.1-beta-1.20.1.jar";
+            "hash" = "sha512-Uw3QjzX833rWNSQLfo+DxEii5ZLWVMmSIV4CmlORGFzeHxLUT8+DSKNTnYJ82/w9RKo+oA1tPObbJ7h0h3dEMQ==";
+        };
     in {
         "WQ7UIK99" = _WQ7UIK99;
         "xybG0KhH" = _xybG0KhH;
@@ -272,13 +277,14 @@ let
         "r4F0wqke" = _r4F0wqke;
         "gHjrQVvw" = _gHjrQVvw;
         "9mWBqURO" = _9mWBqURO;
+        "gcNyjZUy" = _gcNyjZUy;
         "neoforge-1.21.1" = _X5Jxt0xc;
         "neoforge-26.1" = _f0uq6pyh;
         "neoforge-26.1.1" = _3gmFzxve;
         "neoforge-26.1.2" = _r4F0wqke;
         "neoforge-26.2" = _gHjrQVvw;
         "neoforge-26.3" = _9mWBqURO;
-        "forge-1.20.1" = _RaEHwOu5;
+        "forge-1.20.1" = _gcNyjZUy;
         "pkg-1.1.0" = _WQ7UIK99;
         "pkg-1.2.0" = _xybG0KhH;
         "pkg-1.3.0" = _B8GDqwHV;
@@ -324,7 +330,8 @@ let
         "pkg-1.8.0-26.1.2" = _r4F0wqke;
         "pkg-1.8.0-26.2" = _gHjrQVvw;
         "pkg-1.8.0-26.3" = _9mWBqURO;
-        "default" = _9mWBqURO;
+        "pkg-1.8.1-1.20.1-beta" = _gcNyjZUy;
+        "default" = _gcNyjZUy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "thezenithsword";

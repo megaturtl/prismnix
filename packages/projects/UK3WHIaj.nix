@@ -36,6 +36,11 @@ let
             "file" = "Unique Axolotl Buckets (26.2).zip";
             "hash" = "sha512-zTjOUEyeBSyY/lX1hpTuJ2OzuYVkVavEFLsvnQPC/q5ofMlVXy1wtKbOufr2tkar5SN0M+WpEXJeGq4pLzioFg==";
         };
+        _YSVIU4Y2 = {
+            "id" = "YSVIU4Y2";
+            "file" = "Unique Axolotl Buckets (26.3).zip";
+            "hash" = "sha512-ZVkpAdbAaM5/7wm7wFjsWX5giRTGR1s4qens25BiOuc39Ns4nRbs2BgOcyAaFYsgai8TVCGKV5UpHAymvqiiqA==";
+        };
     in {
         "cBjWK4wj" = _cBjWK4wj;
         "HV5GZGjw" = _HV5GZGjw;
@@ -44,22 +49,25 @@ let
         "zwAhYByt" = _zwAhYByt;
         "QfOWXbGd" = _QfOWXbGd;
         "AXeSz3iA" = _AXeSz3iA;
-        "minecraft-1.21.9" = _AXeSz3iA;
-        "minecraft-1.21.10" = _AXeSz3iA;
+        "YSVIU4Y2" = _YSVIU4Y2;
+        "minecraft-1.21.9" = _YSVIU4Y2;
+        "minecraft-1.21.10" = _YSVIU4Y2;
         "minecraft-1.21.5" = _HV5GZGjw;
         "minecraft-1.21.6" = _iLGNfv6j;
         "minecraft-1.21.7" = _rMZchehf;
         "minecraft-1.21.8" = _rMZchehf;
-        "minecraft-1.21.11" = _AXeSz3iA;
-        "minecraft-26.1" = _AXeSz3iA;
-        "minecraft-26.1.1" = _AXeSz3iA;
-        "minecraft-26.1.2" = _AXeSz3iA;
-        "minecraft-26.2" = _AXeSz3iA;
+        "minecraft-1.21.11" = _YSVIU4Y2;
+        "minecraft-26.1" = _YSVIU4Y2;
+        "minecraft-26.1.1" = _YSVIU4Y2;
+        "minecraft-26.1.2" = _YSVIU4Y2;
+        "minecraft-26.2" = _YSVIU4Y2;
+        "minecraft-26.3" = _YSVIU4Y2;
         "pkg-1.0" = _rMZchehf;
         "pkg-1.0.1" = _zwAhYByt;
         "pkg-1.02" = _QfOWXbGd;
         "pkg-1.03" = _AXeSz3iA;
-        "default" = _AXeSz3iA;
+        "pkg-1.04" = _YSVIU4Y2;
+        "default" = _YSVIU4Y2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "unique-axolotl-buckets";

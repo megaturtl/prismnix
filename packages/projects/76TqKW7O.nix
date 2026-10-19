@@ -81,6 +81,11 @@ let
             "file" = "create_deepfried+1.20.1-0.1.4.jar";
             "hash" = "sha512-Hjoen5KPS3laqbHmgboRTKHCJiHKS4fNTu189myVwKpktEvqufLnSOsAZzKoG0/qVfkZUj7XTo+sIHkEPLaTDw==";
         };
+        _7hnhHENi = {
+            "id" = "7hnhHENi";
+            "file" = "create_deepfried+1.21.1-0.1.4.jar";
+            "hash" = "sha512-plNrCujGjVjaeBBybrjJx5qjpFISvppfvfmlla7/4dMp4AUSS8rtPBu+lAVid5P6b1jXososHXOJP2FF8ARudw==";
+        };
     in {
         "hFdXR1YX" = _hFdXR1YX;
         "DGOKoc73" = _DGOKoc73;
@@ -98,10 +103,11 @@ let
         "DZHpQMfB" = _DZHpQMfB;
         "9rYXo9xs" = _9rYXo9xs;
         "5fpLJTu8" = _5fpLJTu8;
+        "7hnhHENi" = _7hnhHENi;
         "forge-1.20.1" = _5fpLJTu8;
         "forge-1.19.2" = _9rYXo9xs;
         "fabric-1.20.1" = _Yve4E42b;
-        "neoforge-1.21.1" = _DZHpQMfB;
+        "neoforge-1.21.1" = _7hnhHENi;
         "pkg-0.1.0" = _DGOKoc73;
         "pkg-0.1.1" = _pCGjqzsj;
         "pkg-0.1.1+1.20.1" = _fCcymQtn;
@@ -112,7 +118,8 @@ let
         "pkg-0.1.3C" = _DZHpQMfB;
         "pkg-0.1.3+1.19.2-forge" = _9rYXo9xs;
         "pkg-0.1.4+1.20.1-forge" = _5fpLJTu8;
-        "default" = _5fpLJTu8;
+        "pkg-0.1.4+1.21.1-neoforge" = _7hnhHENi;
+        "default" = _7hnhHENi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-deepfried";

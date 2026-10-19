@@ -721,6 +721,21 @@ let
             "file" = "brickfurnace-neoforge-1.21.11-4.10.1.0.jar";
             "hash" = "sha512-CxA359l3ex8LUNr2LbnA5oxMuiNkHgtsOn42IMtH+UgmessM9b/jJKHS4yb081dRmVHHViC93Xp2QmjpPdvJVw==";
         };
+        _33J638f7 = {
+            "id" = "33J638f7";
+            "file" = "brickfurnace-neoforge-26.3-5.3.0.0.jar";
+            "hash" = "sha512-pkQoliP37Bojn78AELWCNz94IFiLINH1n6tK1fO2r5oLp3rWjI7mUCbAa+rmty5s0ryBvQDaOT5CMFe5fLsGJA==";
+        };
+        _ILhgYH59 = {
+            "id" = "ILhgYH59";
+            "file" = "brickfurnace-forge-26.3-5.3.0.0.jar";
+            "hash" = "sha512-Uvcco7zCgw5uQQCyLshMlvoXOwsPoiZD4Z3vtI/H4hD0iOlHUK/oEdQBoq+o4jMF/qsXI8vZLziNZKqtj3oYOg==";
+        };
+        _T3Mx60Yx = {
+            "id" = "T3Mx60Yx";
+            "file" = "brickfurnace-fabric-26.3-5.3.0.0.jar";
+            "hash" = "sha512-QzwptNLmnfKcYZaKgboL9ZAqxTsE/V+WKgtL/Wu4JjdsiqnZIU46DLc/ZzNfF/NWUQq5mMQ3QWbg8/ZQb1VTSQ==";
+        };
     in {
         "GPtB8kAc" = _GPtB8kAc;
         "HPw3SUhv" = _HPw3SUhv;
@@ -866,6 +881,9 @@ let
         "s7IU98Ly" = _s7IU98Ly;
         "UP2Rw4vc" = _UP2Rw4vc;
         "mzfT7LKQ" = _mzfT7LKQ;
+        "33J638f7" = _33J638f7;
+        "ILhgYH59" = _ILhgYH59;
+        "T3Mx60Yx" = _T3Mx60Yx;
         "forge-1.14.4" = _GPtB8kAc;
         "forge-1.15.1" = _GPtB8kAc;
         "forge-1.15.2" = _GPtB8kAc;
@@ -897,6 +915,7 @@ let
         "forge-26.1.1" = _hQ6rCucd;
         "forge-26.1.2" = _NMiwrINB;
         "forge-26.2" = _YssL3s22;
+        "forge-26.3" = _ILhgYH59;
         "neoforge-1.20.1" = _4d6Cgkny;
         "neoforge-1.20.4" = _sw7L0HSh;
         "neoforge-1.20.6" = _N63AdeLW;
@@ -914,6 +933,7 @@ let
         "neoforge-26.1.1" = _Zik8NtVs;
         "neoforge-26.1.2" = _cJVWcSiH;
         "neoforge-26.2" = _TQu82gct;
+        "neoforge-26.3" = _33J638f7;
         "fabric-1.20.4" = _qLnpRcVw;
         "fabric-1.20.6" = _sHW5gd1s;
         "fabric-1.21" = _X7phvtxt;
@@ -930,6 +950,7 @@ let
         "fabric-26.1.1" = _CVkmy0U1;
         "fabric-26.1.2" = _CJVhRQ5j;
         "fabric-26.2" = _dlpX82if;
+        "fabric-26.3" = _T3Mx60Yx;
         "quilt-1.20.4" = _qLnpRcVw;
         "quilt-1.20.6" = _sHW5gd1s;
         "quilt-1.21" = _X7phvtxt;
@@ -946,6 +967,7 @@ let
         "quilt-26.1.1" = _CVkmy0U1;
         "quilt-26.1.2" = _CJVhRQ5j;
         "quilt-26.2" = _dlpX82if;
+        "quilt-26.3" = _T3Mx60Yx;
         "pkg-1.5.1" = _GPtB8kAc;
         "pkg-1.5.2" = _HPw3SUhv;
         "pkg-1.17.1-1.6.0.0" = _CJxUyICb;
@@ -1013,7 +1035,8 @@ let
         "pkg-26.2-5.2.1.0" = _YssL3s22;
         "pkg-26.1.2-5.1.1.0" = _NMiwrINB;
         "pkg-1.21.11-4.10.1.0" = _mzfT7LKQ;
-        "default" = _mzfT7LKQ;
+        "pkg-26.3-5.3.0.0" = _T3Mx60Yx;
+        "default" = _T3Mx60Yx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "brick-furnace";

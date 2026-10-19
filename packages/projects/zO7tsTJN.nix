@@ -986,6 +986,11 @@ let
             "file" = "yyzsbackpack-0.0.10-reborn+26.3.jar";
             "hash" = "sha512-i1TLCPY2WMlyN2Vb3zoNFl3mchTG5SkzlPePuP0kEmnxWypIYetGG7eH/HTCBObFzTDAC/2ZRVp89T5sQhRldg==";
         };
+        _9yivy8jG = {
+            "id" = "9yivy8jG";
+            "file" = "yyzsbackpack-0.0.11-reborn+26.3.jar";
+            "hash" = "sha512-5HLqHfCb4jp/w1ym8M6RwriqJxEhWWRAiQpM7prGMOcljc7XIdtFN1FHx7KNqdbpqhLZWrzzoA/BtR9QRFYdBQ==";
+        };
     in {
         "VtFsx4a4" = _VtFsx4a4;
         "K1uzIQzr" = _K1uzIQzr;
@@ -1184,6 +1189,7 @@ let
         "S9yUjAli" = _S9yUjAli;
         "BUA3Pjct" = _BUA3Pjct;
         "V0vrucR3" = _V0vrucR3;
+        "9yivy8jG" = _9yivy8jG;
         "forge-1.20.1" = _HzlWgEri;
         "forge-1.20.2" = _VNvlcxtt;
         "forge-1.20.3" = _VNvlcxtt;
@@ -1221,7 +1227,7 @@ let
         "fabric-1.21" = _u4knHwHi;
         "fabric-1.21.9" = _IsObMMyE;
         "fabric-26.2" = _BUA3Pjct;
-        "fabric-26.3" = _V0vrucR3;
+        "fabric-26.3" = _9yivy8jG;
         "neoforge-1.20.5" = _xVP8pryS;
         "neoforge-1.20.6" = _xVP8pryS;
         "neoforge-1.21.1" = _te7Afz7R;
@@ -1301,7 +1307,8 @@ let
         "pkg-0.0.9-reborn+26.2" = _T2gXIPij;
         "pkg-0.0.10-reborn+26.2" = _BUA3Pjct;
         "pkg-0.0.10-reborn+26.3" = _V0vrucR3;
-        "default" = _V0vrucR3;
+        "pkg-0.0.11-reborn+26.3" = _9yivy8jG;
+        "default" = _9yivy8jG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "yyzs-backpack";

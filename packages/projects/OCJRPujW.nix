@@ -676,6 +676,11 @@ let
             "file" = "relics-1.21.1-0.12.8.jar";
             "hash" = "sha512-RJDV0feuJP5pE1FRtXMAGOx/LmSXA0nVkFZMcNjWf5TYBcVoCGYIa0yLqa+0mZucC5e4abb7JKkICOnKc5dLfw==";
         };
+        _CWPAvFMI = {
+            "id" = "CWPAvFMI";
+            "file" = "relics-1.21.1-0.12.9.jar";
+            "hash" = "sha512-DMsQby7mtZAd6PaUV1vgfAeGhNOag68SFGuzn8cnA4DSnkqHE2N9mZxzTs4sMq0n4t6s8LayBuySt1m+0vx4Jg==";
+        };
     in {
         "psh9x2ZQ" = _psh9x2ZQ;
         "HcQTfLF9" = _HcQTfLF9;
@@ -812,13 +817,14 @@ let
         "rfPZrLeC" = _rfPZrLeC;
         "3puaIcSu" = _3puaIcSu;
         "WKEe9sPL" = _WKEe9sPL;
+        "CWPAvFMI" = _CWPAvFMI;
         "forge-1.16.5" = _psh9x2ZQ;
         "forge-1.18.2" = _Ln7wYx09;
         "forge-1.19.2" = _rhA5wLg4;
         "forge-1.20.1" = _C7tM1LJR;
         "neoforge-1.20.1" = _C7tM1LJR;
         "neoforge-1.21" = _gq0ROsSL;
-        "neoforge-1.21.1" = _WKEe9sPL;
+        "neoforge-1.21.1" = _CWPAvFMI;
         "pkg-0.3.4.4" = _psh9x2ZQ;
         "pkg-0.4.1.3" = _HcQTfLF9;
         "pkg-0.4.1.4" = _PEEueusU;
@@ -951,7 +957,8 @@ let
         "pkg-0.12.6" = _rfPZrLeC;
         "pkg-0.12.7" = _3puaIcSu;
         "pkg-0.12.8" = _WKEe9sPL;
-        "default" = _WKEe9sPL;
+        "pkg-0.12.9" = _CWPAvFMI;
+        "default" = _CWPAvFMI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "relics-mod";

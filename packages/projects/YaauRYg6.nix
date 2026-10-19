@@ -41,6 +41,11 @@ let
             "file" = "tanca-0.0.4.jar";
             "hash" = "sha512-HXT4UKWYWsEOi2jPEjS4hif4XS0YlBX/alhclax5/IuZp2C5P25rUektue+OiXUhJeAZVkHA3apMEILTULUKgg==";
         };
+        _i2q2n9pG = {
+            "id" = "i2q2n9pG";
+            "file" = "tanca-0.0.5.jar";
+            "hash" = "sha512-kqkFJz2zZQE6ooV5TNADxMhaOW7brOhEZ7iA4Ty5u/wHVrbwO7fL2lgj6+2TZCm6cMKTCgvvMkWIGFDl6wvLXg==";
+        };
     in {
         "QpH8EiJq" = _QpH8EiJq;
         "pRz2wBQW" = _pRz2wBQW;
@@ -50,7 +55,8 @@ let
         "tkb4ppjk" = _tkb4ppjk;
         "znQDCdHp" = _znQDCdHp;
         "w3pXP4LF" = _w3pXP4LF;
-        "neoforge-1.21.1" = _w3pXP4LF;
+        "i2q2n9pG" = _i2q2n9pG;
+        "neoforge-1.21.1" = _i2q2n9pG;
         "forge-1.20.1" = _tkb4ppjk;
         "pkg-0.0.1" = _RcTiQc3F;
         "pkg-0.0.2" = _uGsGNscF;
@@ -58,7 +64,8 @@ let
         "pkg-0.0.2.1" = _tkb4ppjk;
         "pkg-0.0.3.1" = _znQDCdHp;
         "pkg-0.0.4" = _w3pXP4LF;
-        "default" = _w3pXP4LF;
+        "pkg-0.0.5" = _i2q2n9pG;
+        "default" = _i2q2n9pG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tough-as-nails-create-addon";

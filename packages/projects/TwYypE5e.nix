@@ -636,6 +636,11 @@ let
             "file" = "clearviews-2.1.7+26.2.jar";
             "hash" = "sha512-HfQvS+yKk3VItOQxlxz1kqm64xhyw6BKKnqHFKx5hm2vuWjWi4MCT/Hhyz23zBsAPF8qCAKup0sbmEWDjkea8g==";
         };
+        _gHc7YZ8a = {
+            "id" = "gHc7YZ8a";
+            "file" = "clearviews-2.1.7+26.3.jar";
+            "hash" = "sha512-T7Fj+xkOpwW6VlNZbXJzZIN9rJ4sBIE3yGUYh4JT1auJ8/Oxn8Dhxcp+Bxfq9TUznU/rvCPAhbhir84YasVsqg==";
+        };
     in {
         "nKuR3WHI" = _nKuR3WHI;
         "AcvcS9gI" = _AcvcS9gI;
@@ -764,6 +769,7 @@ let
         "LwWiOAEk" = _LwWiOAEk;
         "mMxbmpfn" = _mMxbmpfn;
         "qpsakkze" = _qpsakkze;
+        "gHc7YZ8a" = _gHc7YZ8a;
         "fabric-1.21.2" = _pM3x6ULc;
         "fabric-1.21.3" = _pM3x6ULc;
         "fabric-1.21" = _9XubQfnn;
@@ -782,6 +788,7 @@ let
         "fabric-1.21.11" = _3fOqx0Bd;
         "fabric-26.1.2" = _mMxbmpfn;
         "fabric-26.2" = _qpsakkze;
+        "fabric-26.3" = _gHc7YZ8a;
         "forge-1.21.3" = _jgvEHaJQ;
         "forge-1.21.4" = _jgvEHaJQ;
         "forge-1.21" = _GXwV3kwF;
@@ -814,7 +821,8 @@ let
         "pkg-2.1.6+26.1.2-fabric" = _LwWiOAEk;
         "pkg-2.1.7+26.1.2" = _mMxbmpfn;
         "pkg-2.1.7+26.2" = _qpsakkze;
-        "default" = _qpsakkze;
+        "pkg-2.1.7+26.3" = _gHc7YZ8a;
+        "default" = _gHc7YZ8a;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "clearviews";

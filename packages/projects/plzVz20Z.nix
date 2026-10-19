@@ -181,6 +181,21 @@ let
             "file" = "shaketweaks-1.2.3+1.8.9-fabric.jar";
             "hash" = "sha512-xdqJLx0MX/r1nppQKemCK6Q5pa7NpANkhM6YlM6IyhQzIyv08ee113Mfx8PEm/dnBeHn07SXARKspM/2qH64XA==";
         };
+        _KWR1b4yI = {
+            "id" = "KWR1b4yI";
+            "file" = "shaketweaks-1.3.0+26.1-fabric.jar";
+            "hash" = "sha512-jZhu/XzOPmUtVLf7MF/VAPhKSWoER+1XIMSy1ny9NmxoMsowm4VNKY0D3vRlVL9nnb7dYoRnH0p2n3HptnHeJg==";
+        };
+        _SYyipr8e = {
+            "id" = "SYyipr8e";
+            "file" = "shaketweaks-1.3.0+26.2-fabric.jar";
+            "hash" = "sha512-9CTDjVFZybJOifIRGk1EWO4cRrSKPwUhJRneEhJilC3vZ4kQGL904CD+1zCcOXAzo/OZto2nHKC0VRcm11sH7w==";
+        };
+        _gJboYowT = {
+            "id" = "gJboYowT";
+            "file" = "shaketweaks-1.3.0+26.3-fabric.jar";
+            "hash" = "sha512-dToaoiF7ypJ/MVbYyVIyDBatw0b0R1BMdlZi9mQCSrVSyjaPS7J9rNzn3JXNA6jtNIRj+fWjh5H+uYwi5fkXCw==";
+        };
     in {
         "F8nZVpcc" = _F8nZVpcc;
         "LzU12psV" = _LzU12psV;
@@ -218,6 +233,9 @@ let
         "D1PRqrQh" = _D1PRqrQh;
         "noEm9BQU" = _noEm9BQU;
         "8FWaMoL7" = _8FWaMoL7;
+        "KWR1b4yI" = _KWR1b4yI;
+        "SYyipr8e" = _SYyipr8e;
+        "gJboYowT" = _gJboYowT;
         "fabric-1.20" = _RykGjEVZ;
         "fabric-1.20.1" = _RykGjEVZ;
         "fabric-1.19.4" = _juIYNaH0;
@@ -237,11 +255,11 @@ let
         "fabric-1.21.8" = _ktt2ZpM5;
         "fabric-1.21.10" = _77yENBBW;
         "fabric-1.21.11" = _PnQnCMcE;
-        "fabric-26.1" = _JbRVQa2v;
-        "fabric-26.1.1" = _JbRVQa2v;
-        "fabric-26.1.2" = _JbRVQa2v;
-        "fabric-26.2" = _D1PRqrQh;
-        "fabric-26.3" = _noEm9BQU;
+        "fabric-26.1" = _KWR1b4yI;
+        "fabric-26.1.1" = _KWR1b4yI;
+        "fabric-26.1.2" = _KWR1b4yI;
+        "fabric-26.2" = _SYyipr8e;
+        "fabric-26.3" = _gJboYowT;
         "ornithe-1.8.9" = _8FWaMoL7;
         "pkg-1.0.0" = _LzU12psV;
         "pkg-1.0.1" = _uHGqC5ds;
@@ -255,7 +273,8 @@ let
         "pkg-1.2.3" = _8FWaMoL7;
         "pkg-1.2.4" = _BOI3VvCA;
         "pkg-1.2.5" = _noEm9BQU;
-        "default" = _8FWaMoL7;
+        "pkg-1.3.0" = _gJboYowT;
+        "default" = _gJboYowT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shaketweaks";

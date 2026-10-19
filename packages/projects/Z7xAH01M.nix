@@ -656,6 +656,41 @@ let
             "file" = "gatewayofdoom-fabric-1.21.1-2.3.4.jar";
             "hash" = "sha512-6SqqIYqx2Hy8ngNJEJP9fJQaZqjFvIQ/rR81nI2boeJBxHB5hFd7B/S5PwklidvR59jBKeN4weBvDIsOINReHw==";
         };
+        _66XkvNsW = {
+            "id" = "66XkvNsW";
+            "file" = "gatewayofdoom-forge-26.3-2.3.4.jar";
+            "hash" = "sha512-cEQ/GjVlcbhX5Hyk2IVdtRUKhQSjv0D/IgpGkS7jxUkz4i+fGQZ0nNiDRqHboAFNWoR5DfILZ2wkG9EQ0BxWDw==";
+        };
+        _aEqBFLNb = {
+            "id" = "aEqBFLNb";
+            "file" = "gatewayofdoom-forge-26.2-2.3.4.jar";
+            "hash" = "sha512-ByQgRZR1eafK/4MZT0CfSC+B6hQ8pOc+tYASVukaJPUs0HU47k+Dr8i6MxHdAT73h1LdUCv30+vNQf7HODj57g==";
+        };
+        _C10Ew4CO = {
+            "id" = "C10Ew4CO";
+            "file" = "gatewayofdoom-forge-26.1.2-2.3.4.jar";
+            "hash" = "sha512-MmUpkqule3a03aJvqixcV+WY1eU63c/K30rcehMduaTSjoHsRLku4+bwXmW+qIP34IvIKGN/sYyeikJ8qxXazg==";
+        };
+        _HaQFI4Pq = {
+            "id" = "HaQFI4Pq";
+            "file" = "gatewayofdoom-forge-26.1.1-2.3.4.jar";
+            "hash" = "sha512-LGF2RDFGUxjQ0gNX8aGJsanTXbqb2oq+Kwc1rEk7UfJHEDc/T6WO0Kqh7qAuZ/DFMGBihaz+Hkrxa008dptBYg==";
+        };
+        _fYuXzxt3 = {
+            "id" = "fYuXzxt3";
+            "file" = "gatewayofdoom-forge-26.1-2.3.4.jar";
+            "hash" = "sha512-IwVXkOQg7QWKu75PB44r2jNhDFMuswBcAXSr6cOOOFObxPNGYhcT+yw35Myh2Wgc26UNsN38oQWMY+dodsQl1Q==";
+        };
+        _puGafKJy = {
+            "id" = "puGafKJy";
+            "file" = "gatewayofdoom-forge-1.21.1-2.3.4.jar";
+            "hash" = "sha512-10tigCxA3tXGW9jFfpsfUGMcEvqP3Qi0tXpaYUZacXBepzGTF0aAyZY5QkT7DmlZMwb7ullOlhA+JbhBQMIWsw==";
+        };
+        _IUWXyQUD = {
+            "id" = "IUWXyQUD";
+            "file" = "gatewayofdoom-forge-1.20.1-2.3.4.jar";
+            "hash" = "sha512-B4Z/Z4WRQG9QZWOFyCFwvFzOvelGuP5nif9jxHEk9XdJhdWA4lC28JVX7RUQ9KVdWxSorGYVsUfDQ6qoUkH41g==";
+        };
     in {
         "bhFWW51a" = _bhFWW51a;
         "tDgApAX5" = _tDgApAX5;
@@ -788,6 +823,13 @@ let
         "qh5kSb1L" = _qh5kSb1L;
         "MXGwyAPl" = _MXGwyAPl;
         "4BfLZ8ws" = _4BfLZ8ws;
+        "66XkvNsW" = _66XkvNsW;
+        "aEqBFLNb" = _aEqBFLNb;
+        "C10Ew4CO" = _C10Ew4CO;
+        "HaQFI4Pq" = _HaQFI4Pq;
+        "fYuXzxt3" = _fYuXzxt3;
+        "puGafKJy" = _puGafKJy;
+        "IUWXyQUD" = _IUWXyQUD;
         "fabric-1.21.1" = _4BfLZ8ws;
         "fabric-26.1" = _qh5kSb1L;
         "fabric-26.1.1" = _qh5kSb1L;
@@ -803,13 +845,13 @@ let
         "neoforge-26.2" = _8auyVl3r;
         "neoforge-1.20.1" = _uSuvGiMR;
         "neoforge-26.3" = _tBGsdMeP;
-        "forge-1.20.1" = _X6maKTVN;
-        "forge-1.21.1" = _ULjBNeCS;
-        "forge-26.1" = _shlypFPT;
-        "forge-26.1.1" = _oGZwbGJq;
-        "forge-26.1.2" = _fikBWCZP;
-        "forge-26.2" = _1SE2qYKd;
-        "forge-26.3" = _hmqNFiBL;
+        "forge-1.20.1" = _IUWXyQUD;
+        "forge-1.21.1" = _puGafKJy;
+        "forge-26.1" = _fYuXzxt3;
+        "forge-26.1.1" = _HaQFI4Pq;
+        "forge-26.1.2" = _C10Ew4CO;
+        "forge-26.2" = _aEqBFLNb;
+        "forge-26.3" = _66XkvNsW;
         "quilt-26.2" = _K0fTUjrb;
         "quilt-26.1" = _8MLG1YOA;
         "quilt-26.1.1" = _8MLG1YOA;
@@ -834,8 +876,8 @@ let
         "pkg-2.3.1" = _3DDri9MZ;
         "pkg-2.3.2" = _5K1bQl4I;
         "pkg-2.3.3" = _sAdpdM8H;
-        "pkg-2.3.4" = _4BfLZ8ws;
-        "default" = _4BfLZ8ws;
+        "pkg-2.3.4" = _IUWXyQUD;
+        "default" = _IUWXyQUD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gateway-of-doom";

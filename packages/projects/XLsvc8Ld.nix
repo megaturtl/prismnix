@@ -51,6 +51,11 @@ let
             "file" = "irons_spells_js-1.20.1-6.5-3.16-r2-release.jar";
             "hash" = "sha512-j1sTsf3JvxAGM1VorH0loWZntlU1RS1SOilUOfmbpb/M5NNmv9D7vB206WgzkQ5og/1wYm9cRTDb3D7k28iNpg==";
         };
+        _tW0HiAWr = {
+            "id" = "tW0HiAWr";
+            "file" = "irons_spells_js-1.20.1-6.5-3.16-r3-release.jar";
+            "hash" = "sha512-JL2gbuyvrRUKgLhJKkmqRi/wb8xxf4Of/OcW4FS8G46UYet1ASEPmYRWpc45DDIDrNcQ9lZ3g/En8WMwlPxTbA==";
+        };
     in {
         "35xeMiIJ" = _35xeMiIJ;
         "yvKJ5z0t" = _yvKJ5z0t;
@@ -62,8 +67,9 @@ let
         "a6NiiKTW" = _a6NiiKTW;
         "U9BPd9EF" = _U9BPd9EF;
         "KOrCYjLn" = _KOrCYjLn;
+        "tW0HiAWr" = _tW0HiAWr;
         "forge-1.19.2" = _35xeMiIJ;
-        "forge-1.20.1" = _KOrCYjLn;
+        "forge-1.20.1" = _tW0HiAWr;
         "neoforge-1.19.2" = _35xeMiIJ;
         "neoforge-1.20.1" = _oHqJQOEa;
         "neoforge-1.21.1" = _MwVqA1ov;
@@ -77,7 +83,8 @@ let
         "pkg-6.5-3.14-r2" = _a6NiiKTW;
         "pkg-6.5-3.16-r1" = _U9BPd9EF;
         "pkg-6.5-3.16-r2" = _KOrCYjLn;
-        "default" = _KOrCYjLn;
+        "pkg-6.5-3.16-r3" = _tW0HiAWr;
+        "default" = _tW0HiAWr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "isskjs";

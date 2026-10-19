@@ -31,6 +31,11 @@ let
             "file" = "lodged-3.0.0.jar";
             "hash" = "sha512-JHv8ZJeBQGP5eRh91OIAccfCwcNJwFULkJxD21z6OspYxRz1bCr39RvRgznGKGIUOBTh/kGXIMbzKnM50oVCFQ==";
         };
+        _GKAyoKfK = {
+            "id" = "GKAyoKfK";
+            "file" = "lodged-3.1.0.jar";
+            "hash" = "sha512-dkULoNnOd+vAX+qQ2JEhNaynDN+FaF3m9bKj5KHNdaUjpoCKjHVxsprc2qtgeS56ifRlAPc7UqxnepP0sYfkmQ==";
+        };
     in {
         "CjLtlawU" = _CjLtlawU;
         "k1xSZNPn" = _k1xSZNPn;
@@ -38,14 +43,16 @@ let
         "DEYofcuk" = _DEYofcuk;
         "HQxDStE7" = _HQxDStE7;
         "Ikx9eamm" = _Ikx9eamm;
-        "neoforge-1.21.1" = _Ikx9eamm;
+        "GKAyoKfK" = _GKAyoKfK;
+        "neoforge-1.21.1" = _GKAyoKfK;
         "pkg-1.0.0" = _CjLtlawU;
         "pkg-1.1.0" = _k1xSZNPn;
         "pkg-1.2.0" = _YR2ih90S;
         "pkg-1.3.0" = _DEYofcuk;
         "pkg-2.0.0" = _HQxDStE7;
         "pkg-3.0.0" = _Ikx9eamm;
-        "default" = _Ikx9eamm;
+        "pkg-3.1.0" = _GKAyoKfK;
+        "default" = _GKAyoKfK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lodged";

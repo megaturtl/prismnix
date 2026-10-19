@@ -16,16 +16,24 @@ let
             "file" = "nature-x-plus-2.0.9.jar";
             "hash" = "sha512-btcmizX/klndMjfS88agQCRq209rkyPMCz12bIQlyhfkFi1h0oe2BjC/wLsXgL/2KDTzWUSI2nQr7/LVkKT3RQ==";
         };
+        _BQdLpHun = {
+            "id" = "BQdLpHun";
+            "file" = "nature-x-plus-2.0.10.jar";
+            "hash" = "sha512-x4ZzvuBb5hdU/2ZPcFhW2JpSY0B9CNH9YtUprfECLXH03lGsbHJ++Y6v3URX2HuozFy3hSoe2wf/dsetrAjX8g==";
+        };
     in {
         "DhVPHwKC" = _DhVPHwKC;
         "OBM0ELAV" = _OBM0ELAV;
         "Sqcwa6Ju" = _Sqcwa6Ju;
+        "BQdLpHun" = _BQdLpHun;
         "fabric-26.1.1" = _DhVPHwKC;
         "fabric-26.1.2" = _Sqcwa6Ju;
+        "fabric-26.3" = _BQdLpHun;
         "pkg-2.0.3" = _DhVPHwKC;
         "pkg-2.0.8" = _OBM0ELAV;
         "pkg-2.0.9" = _Sqcwa6Ju;
-        "default" = _Sqcwa6Ju;
+        "pkg-2.0.10" = _BQdLpHun;
+        "default" = _BQdLpHun;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nature-x-plus";

@@ -141,6 +141,26 @@ let
             "file" = "CustomDisenchanter-4.2.0.jar";
             "hash" = "sha512-ZAhL9OpsQtp7c67CRNWVHORfxkeMcAEVHNyj7x2M9+ongLLocebyUMK5PE3NRfrpITmta6lB3Le800Chl4Vf0Q==";
         };
+        _huIeNcPW = {
+            "id" = "huIeNcPW";
+            "file" = "CustomDisenchanter-4.3.0.jar";
+            "hash" = "sha512-u4wAoJycaB14J1cCYCJjj4qczdNogB2sJsqglw9pEugUwMb/3REUIJPFbx9ampVBHLICgPJlTTIkZNGNTZyFZw==";
+        };
+        _qmw05Rcq = {
+            "id" = "qmw05Rcq";
+            "file" = "CustomDisenchanter-4.4.0.jar";
+            "hash" = "sha512-mhxUUzAJrRnA33HlnkyMh0ReLFTBPPm7VzIO3LSgF5lLiTpK/MSKRlRHiaNZffQbC1+UtxFxgWVyJ1FjDIrHSw==";
+        };
+        _MVIPTdZZ = {
+            "id" = "MVIPTdZZ";
+            "file" = "CustomDisenchanter-4.5.0.jar";
+            "hash" = "sha512-HpFDfifs48rkX74wJCys4IpR1DJB6TnJL5kIi4LcGyLd/zQeTUFuv9fwlQ79CfPKT/X6uCMe1gBA8Kcz+EGSQA==";
+        };
+        _4Y7rkdhd = {
+            "id" = "4Y7rkdhd";
+            "file" = "CustomDisenchanter-4.6.0.jar";
+            "hash" = "sha512-Zw4TsjG1uEnVF8Iet8TK9XXHtnTLCbmusiwyI5EHb2SwuWM6nw9brKi8K+q+X8XRXGM8IySH50ir+4BxfBn+oA==";
+        };
     in {
         "EAq9feQs" = _EAq9feQs;
         "6WApTMtX" = _6WApTMtX;
@@ -170,12 +190,16 @@ let
         "axX1HrFC" = _axX1HrFC;
         "MztDEo0V" = _MztDEo0V;
         "xIFnRew1" = _xIFnRew1;
+        "huIeNcPW" = _huIeNcPW;
+        "qmw05Rcq" = _qmw05Rcq;
+        "MVIPTdZZ" = _MVIPTdZZ;
+        "4Y7rkdhd" = _4Y7rkdhd;
         "forge-1.16.5" = _EAq9feQs;
         "forge-1.18.2" = _6WApTMtX;
         "forge-1.19" = _R4oXFxUm;
         "forge-1.19.1" = _R4oXFxUm;
         "forge-1.19.2" = _R4oXFxUm;
-        "forge-1.20.1" = _QglwcvR5;
+        "forge-1.20.1" = _4Y7rkdhd;
         "forge-1.21.4" = _2eWPuJ0U;
         "forge-1.21.6" = _EABVkqX4;
         "forge-1.21.7" = _EABVkqX4;
@@ -187,7 +211,7 @@ let
         "forge-26.1.2" = _6ycqlqA7;
         "forge-26.2" = _xIFnRew1;
         "forge-26.3" = _axX1HrFC;
-        "fabric-1.20.1" = _rNzcOmXy;
+        "fabric-1.20.1" = _MVIPTdZZ;
         "fabric-1.21" = _LKVIJmuc;
         "fabric-1.21.1" = _LKVIJmuc;
         "fabric-1.21.4" = _EzNwxwpH;
@@ -195,12 +219,12 @@ let
         "fabric-1.21.7" = _wNI7l8ed;
         "fabric-1.21.8" = _wNI7l8ed;
         "fabric-1.21.11" = _vtawTYw3;
-        "fabric-26.1" = _V6zZq6Pt;
-        "fabric-26.1.1" = _V6zZq6Pt;
-        "fabric-26.1.2" = _V6zZq6Pt;
-        "fabric-26.2" = _boLhf5Ua;
+        "fabric-26.1" = _qmw05Rcq;
+        "fabric-26.1.1" = _qmw05Rcq;
+        "fabric-26.1.2" = _qmw05Rcq;
+        "fabric-26.2" = _huIeNcPW;
         "fabric-26.3" = _n7LplaZ3;
-        "quilt-1.20.1" = _rNzcOmXy;
+        "quilt-1.20.1" = _MVIPTdZZ;
         "quilt-1.21" = _LKVIJmuc;
         "quilt-1.21.1" = _LKVIJmuc;
         "quilt-1.21.4" = _EzNwxwpH;
@@ -208,10 +232,10 @@ let
         "quilt-1.21.7" = _wNI7l8ed;
         "quilt-1.21.8" = _wNI7l8ed;
         "quilt-1.21.11" = _vtawTYw3;
-        "quilt-26.1" = _V6zZq6Pt;
-        "quilt-26.1.1" = _V6zZq6Pt;
-        "quilt-26.1.2" = _V6zZq6Pt;
-        "quilt-26.2" = _boLhf5Ua;
+        "quilt-26.1" = _qmw05Rcq;
+        "quilt-26.1.1" = _qmw05Rcq;
+        "quilt-26.1.2" = _qmw05Rcq;
+        "quilt-26.2" = _huIeNcPW;
         "quilt-26.3" = _n7LplaZ3;
         "neoforge-26.2" = _bc2m6b2y;
         "neoforge-26.1.2" = _jdclkzNw;
@@ -246,7 +270,11 @@ let
         "pkg-4.0.0" = _axX1HrFC;
         "pkg-4.1.0" = _MztDEo0V;
         "pkg-4.2.0" = _xIFnRew1;
-        "default" = _xIFnRew1;
+        "pkg-4.3.0" = _huIeNcPW;
+        "pkg-4.4.0" = _qmw05Rcq;
+        "pkg-4.5.0" = _MVIPTdZZ;
+        "pkg-4.6.0" = _4Y7rkdhd;
+        "default" = _4Y7rkdhd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "custom-disenchanter";

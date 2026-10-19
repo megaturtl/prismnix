@@ -96,6 +96,11 @@ let
             "file" = "SecondChat-2.0.2.jar";
             "hash" = "sha512-/oJ7wQbJTQOOx6Vdg7FprvHNLr24RFj2T4uSMVghg9EOsirZ1fWN/1N38hp9b6gVE4qq3n2JEtsPVTA6Ai7JoQ==";
         };
+        _LjCdOrZb = {
+            "id" = "LjCdOrZb";
+            "file" = "SecondChat-2.1.0.jar";
+            "hash" = "sha512-ekI0HMtFITlrgDN0QK1TCalqtsfT1D6dSljfQuAgLqQA2hImAFstHYMJOyw/q/OVgBCxf6AP5VPW7Bm9MORCjA==";
+        };
     in {
         "fCfpfVt3" = _fCfpfVt3;
         "YocgkR2o" = _YocgkR2o;
@@ -116,6 +121,7 @@ let
         "Mv7G43VZ" = _Mv7G43VZ;
         "HXkjvJNk" = _HXkjvJNk;
         "PeQegKc0" = _PeQegKc0;
+        "LjCdOrZb" = _LjCdOrZb;
         "fabric-1.21.4" = _fCfpfVt3;
         "fabric-1.21.5" = _YocgkR2o;
         "fabric-1.21.6" = _KrLhOogI;
@@ -127,8 +133,8 @@ let
         "fabric-26.1" = _Mv7G43VZ;
         "fabric-26.1.1" = _Mv7G43VZ;
         "fabric-26.1.2" = _Mv7G43VZ;
-        "fabric-26.2" = _PeQegKc0;
-        "fabric-26.3" = _PeQegKc0;
+        "fabric-26.2" = _LjCdOrZb;
+        "fabric-26.3" = _LjCdOrZb;
         "pkg-1.0.0" = _fCfpfVt3;
         "pkg-1.1.0" = _YocgkR2o;
         "pkg-1.2.0" = _X4UgfkUT;
@@ -148,7 +154,8 @@ let
         "pkg-2.0.0" = _Mv7G43VZ;
         "pkg-2.0.1" = _HXkjvJNk;
         "pkg-2.0.2" = _PeQegKc0;
-        "default" = _PeQegKc0;
+        "pkg-2.1.0" = _LjCdOrZb;
+        "default" = _LjCdOrZb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "secondchat";

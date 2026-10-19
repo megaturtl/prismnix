@@ -421,6 +421,16 @@ let
             "file" = "more_orn_plants-neoforge-1.21.1-1.3.4-Hanlu.jar";
             "hash" = "sha512-SoR01lYrHejF3Ci0iPJtoNbHolZrrIrlhGy4I7Gpm84SQ1Cyf0qgG8M96T7dsXcchkQYu5cXMBpFopcikH5ROQ==";
         };
+        _QwDvOkoJ = {
+            "id" = "QwDvOkoJ";
+            "file" = "more_orn_plants-forge-1.20.1-1.3.5-Chongyang.jar";
+            "hash" = "sha512-ZpsVf11KDxpK48l7IzWReyzXLIuqMUQb60qse2WGdQ0qUN40RDfDVvPb3GAL7ORp9MQR57TKlkIuwk1ZZn8bCw==";
+        };
+        _Om267THB = {
+            "id" = "Om267THB";
+            "file" = "more_orn_plants-neoforge-1.21.1-1.3.5-Chongyang.jar";
+            "hash" = "sha512-/d7JSydd/oSCXBvuWkZgDe4a+OP8pNES3NnxEQVYrBttLTwceWLJLTtydZ5GHqdhoRvx1UhuKCx0Avy/zSogww==";
+        };
     in {
         "5fas77mx" = _5fas77mx;
         "TAzsYw8I" = _TAzsYw8I;
@@ -506,8 +516,10 @@ let
         "J0vo4Q3r" = _J0vo4Q3r;
         "qcK28gLD" = _qcK28gLD;
         "c8vWBPj8" = _c8vWBPj8;
-        "forge-1.20.1" = _qcK28gLD;
-        "neoforge-1.21.1" = _c8vWBPj8;
+        "QwDvOkoJ" = _QwDvOkoJ;
+        "Om267THB" = _Om267THB;
+        "forge-1.20.1" = _QwDvOkoJ;
+        "neoforge-1.21.1" = _Om267THB;
         "pkg-1.0.0" = _MWirSIj7;
         "pkg-1.0.1" = _sV0rm8uT;
         "pkg-1.0.2" = _G9cYvFca;
@@ -552,7 +564,8 @@ let
         "pkg-1.3.2-bailu" = _wrcXgeVo;
         "pkg-1.3.3-Zhongqiu" = _J0vo4Q3r;
         "pkg-1.3.4-Hanlu" = _c8vWBPj8;
-        "default" = _c8vWBPj8;
+        "pkg-1.3.5-Chongyang" = _Om267THB;
+        "default" = _Om267THB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-ornamental-plants";

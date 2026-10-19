@@ -56,6 +56,11 @@ let
             "file" = "YM-Additions-0.2.1.jar";
             "hash" = "sha512-7/dLWXX/sotflOkx9jms4k31/UAB8KLcRyAJcpRgclVCWGoED+EK8ZO9OY61vZqRGeDmaZvG7NC2Bj4aeSahww==";
         };
+        _4XnPinU3 = {
+            "id" = "4XnPinU3";
+            "file" = "YM-Additions-0.2.2.jar";
+            "hash" = "sha512-QprfkMo7VSvFOAsliVWCZ4Sv2tKrEX9QbLK1BRot2cAdbCeAfl3GbDsQUjFAG0aqidXhqLMH6WcdmSyVh625/Q==";
+        };
     in {
         "pL7iyPXe" = _pL7iyPXe;
         "lx8rZu91" = _lx8rZu91;
@@ -68,7 +73,8 @@ let
         "8JHVPHMi" = _8JHVPHMi;
         "3PokjeLL" = _3PokjeLL;
         "cjVxC8Bu" = _cjVxC8Bu;
-        "forge-1.12.2" = _cjVxC8Bu;
+        "4XnPinU3" = _4XnPinU3;
+        "forge-1.12.2" = _4XnPinU3;
         "pkg-0.0.8" = _pL7iyPXe;
         "pkg-0.1.0" = _lx8rZu91;
         "pkg-0.1.1" = _j3SC7Qd8;
@@ -80,7 +86,8 @@ let
         "pkg-0.1.6" = _8JHVPHMi;
         "pkg-0.2.0" = _3PokjeLL;
         "pkg-0.2.1" = _cjVxC8Bu;
-        "default" = _cjVxC8Bu;
+        "pkg-0.2.2" = _4XnPinU3;
+        "default" = _4XnPinU3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ymadditions";

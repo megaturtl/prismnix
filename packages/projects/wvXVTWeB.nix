@@ -51,6 +51,11 @@ let
             "file" = "womplus-21.17-1.0.0.jar";
             "hash" = "sha512-3CT9QUBbHePefEE51GqRBuyUF/ad6yhOygdjDDzJP5AzxJVHBM4eicQjLlBQWCi363kqY+7gltga8Vhej2195g==";
         };
+        _A1gPbg9D = {
+            "id" = "A1gPbg9D";
+            "file" = "womplus-20.14.1.3.2.jar";
+            "hash" = "sha512-qyNkaChP7Q0NNOaBHQ55qpyF+GUXxXfqbGPFb8qDUyX46PywREPfLl6kUVIkI8ju8EeqCo/DQW4HibzOjxka7A==";
+        };
     in {
         "OezzDwRE" = _OezzDwRE;
         "y6XzXZpO" = _y6XzXZpO;
@@ -62,12 +67,13 @@ let
         "SeWhd8rn" = _SeWhd8rn;
         "KjVS4Zx0" = _KjVS4Zx0;
         "VT8NwUh8" = _VT8NwUh8;
-        "forge-1.20.1" = _KjVS4Zx0;
-        "forge-1.20.2" = _KjVS4Zx0;
-        "forge-1.20.3" = _KjVS4Zx0;
-        "forge-1.20.4" = _KjVS4Zx0;
-        "forge-1.20.5" = _KjVS4Zx0;
-        "forge-1.20.6" = _KjVS4Zx0;
+        "A1gPbg9D" = _A1gPbg9D;
+        "forge-1.20.1" = _A1gPbg9D;
+        "forge-1.20.2" = _A1gPbg9D;
+        "forge-1.20.3" = _A1gPbg9D;
+        "forge-1.20.4" = _A1gPbg9D;
+        "forge-1.20.5" = _A1gPbg9D;
+        "forge-1.20.6" = _A1gPbg9D;
         "neoforge-1.21.1" = _VT8NwUh8;
         "pkg-20.14.1.1.0" = _OezzDwRE;
         "pkg-20.14.1.1.2" = _y6XzXZpO;
@@ -79,7 +85,8 @@ let
         "pkg-20.14.1.2.1" = _SeWhd8rn;
         "pkg-20.14.1.2.2" = _KjVS4Zx0;
         "pkg-21.17-1.0.0" = _VT8NwUh8;
-        "default" = _VT8NwUh8;
+        "pkg-20.14.1.3.2" = _A1gPbg9D;
+        "default" = _A1gPbg9D;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "weapons-of-miracles-expansion-wom-plus";

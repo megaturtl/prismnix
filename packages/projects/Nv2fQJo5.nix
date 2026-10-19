@@ -1166,6 +1166,46 @@ let
             "file" = "replaymod-26.2-2.6.27.jar";
             "hash" = "sha512-XoHospvpTSH4US28uLkZQ9HgngQoIYQxmSmN9/phUDoeMWLIqy3eijlTM5xSXNT5olh0lxv1NIZFnHIO6FREcg==";
         };
+        _DKvQ3lQq = {
+            "id" = "DKvQ3lQq";
+            "file" = "replaymod-1.21-2.6.28.jar";
+            "hash" = "sha512-BLBb9wQob0qz6XTKPHHOIYpeBbiWMsnDCaTZB2nhFhsPwzX460VzJxcqM1eSV5/0PxO87NLhZKd2EV0qzVzbRg==";
+        };
+        _60TwgrA2 = {
+            "id" = "60TwgrA2";
+            "file" = "replaymod-1.21.5-2.6.28.jar";
+            "hash" = "sha512-hwqpT8Vy+kwnS4wqI02+yLPkQeaQj5wcix6+l1JCYsf/cOxB74U4bWF+He4ymfMKN4qj7yzO9llraYUM3PcciQ==";
+        };
+        _3x8Xv6Bi = {
+            "id" = "3x8Xv6Bi";
+            "file" = "replaymod-1.21.7-2.6.28.jar";
+            "hash" = "sha512-iadpjaUjSFGfN0pFbVoA5Tu0R1goj/ycn5xIO+izmbvkXHPdMNaPBD0Mbm+IIUz9iwwQk5aKuCvPEO8MPtYzxA==";
+        };
+        _PU61grpB = {
+            "id" = "PU61grpB";
+            "file" = "replaymod-1.21.10-2.6.28.jar";
+            "hash" = "sha512-J3XrrmtuGC1JcDul0gxenbXNgsM2M8u4SHYX0NVONQ5Ui9nK8FAW8hSWA3YPzq9brVXqajpMT+EM3dONyfMgWw==";
+        };
+        _KJkQjrpd = {
+            "id" = "KJkQjrpd";
+            "file" = "replaymod-1.21.11-2.6.28.jar";
+            "hash" = "sha512-oRq/fKHZjbYZT/3yA2d78GHiNq9fbf9Wxi2ijtG4IrnC7Pgdyu9l/P90RKEAR8nHSbY+3K7KU8SrweGF014UZQ==";
+        };
+        _5LxshONI = {
+            "id" = "5LxshONI";
+            "file" = "replaymod-26.1-2.6.28.jar";
+            "hash" = "sha512-StVcQcfrD/g1jcwV8Ww+xc53e7UODl/4Jante3OyznyfLfjOrJ7SbW4/LeZFDQn65gK+Q4xu/YLjTjSslwW6Ig==";
+        };
+        _eHbYuA7P = {
+            "id" = "eHbYuA7P";
+            "file" = "replaymod-26.2-2.6.28.jar";
+            "hash" = "sha512-MBQe4Otl0vEttGBHpYbYcN+Rv39zL/jR0TjHWQZ+atpabCADuXS7qtz+DzSJ9GUtPSTJlLpDWSWj2InBqlYbjw==";
+        };
+        _7c5mnPyr = {
+            "id" = "7c5mnPyr";
+            "file" = "replaymod-26.3-2.6.28.jar";
+            "hash" = "sha512-4rNFWhOLaxqGZCKQbkF6X5jdSnjtr4bVDBCcBnMJrDTt2snnFGBNPLxSqSc+JA8Ke7bv5RykMQ0T3CNYg2Wekw==";
+        };
     in {
         "LAdb5qRt" = _LAdb5qRt;
         "Bg7RAHyJ" = _Bg7RAHyJ;
@@ -1400,6 +1440,14 @@ let
         "LcmLujKZ" = _LcmLujKZ;
         "EJmaQGbB" = _EJmaQGbB;
         "5YS1OgDP" = _5YS1OgDP;
+        "DKvQ3lQq" = _DKvQ3lQq;
+        "60TwgrA2" = _60TwgrA2;
+        "3x8Xv6Bi" = _3x8Xv6Bi;
+        "PU61grpB" = _PU61grpB;
+        "KJkQjrpd" = _KJkQjrpd;
+        "5LxshONI" = _5LxshONI;
+        "eHbYuA7P" = _eHbYuA7P;
+        "7c5mnPyr" = _7c5mnPyr;
         "forge-1.8" = _3SDkAMrN;
         "forge-1.8.9" = _BBUuSZWF;
         "forge-1.9.4" = _vTp54CAP;
@@ -1432,22 +1480,23 @@ let
         "fabric-1.20.3" = _hrlr9DkQ;
         "fabric-1.20.4" = _hrlr9DkQ;
         "fabric-1.20.6" = _4aanuSCT;
-        "fabric-1.21" = _YQ20Mjid;
-        "fabric-1.21.1" = _YQ20Mjid;
+        "fabric-1.21" = _DKvQ3lQq;
+        "fabric-1.21.1" = _DKvQ3lQq;
         "fabric-1.21.2" = _kRKLQ6SQ;
         "fabric-1.21.3" = _kRKLQ6SQ;
         "fabric-1.21.4" = _Ax2S4lln;
-        "fabric-1.21.5" = _UesOWh7M;
-        "fabric-1.21.6" = _FD6Qzce2;
-        "fabric-1.21.7" = _FD6Qzce2;
+        "fabric-1.21.5" = _60TwgrA2;
+        "fabric-1.21.6" = _3x8Xv6Bi;
+        "fabric-1.21.7" = _3x8Xv6Bi;
         "fabric-1.21.8" = _TUHG3lET;
-        "fabric-1.21.9" = _SWtV2omv;
-        "fabric-1.21.10" = _SWtV2omv;
-        "fabric-1.21.11" = _LcmLujKZ;
-        "fabric-26.1" = _EJmaQGbB;
-        "fabric-26.1.1" = _EJmaQGbB;
-        "fabric-26.1.2" = _EJmaQGbB;
-        "fabric-26.2" = _5YS1OgDP;
+        "fabric-1.21.9" = _PU61grpB;
+        "fabric-1.21.10" = _PU61grpB;
+        "fabric-1.21.11" = _KJkQjrpd;
+        "fabric-26.1" = _5LxshONI;
+        "fabric-26.1.1" = _5LxshONI;
+        "fabric-26.1.2" = _5LxshONI;
+        "fabric-26.2" = _eHbYuA7P;
+        "fabric-26.3" = _7c5mnPyr;
         "pkg-1.8-2.6.7" = _LAdb5qRt;
         "pkg-1.8.9-2.6.7" = _Bg7RAHyJ;
         "pkg-1.9.4-2.6.7" = _sQVYgpOo;
@@ -1681,7 +1730,15 @@ let
         "pkg-1.21.11-2.6.27" = _LcmLujKZ;
         "pkg-26.1-2.6.27" = _EJmaQGbB;
         "pkg-26.2-2.6.27" = _5YS1OgDP;
-        "default" = _5YS1OgDP;
+        "pkg-1.21-2.6.28" = _DKvQ3lQq;
+        "pkg-1.21.5-2.6.28" = _60TwgrA2;
+        "pkg-1.21.7-2.6.28" = _3x8Xv6Bi;
+        "pkg-1.21.10-2.6.28" = _PU61grpB;
+        "pkg-1.21.11-2.6.28" = _KJkQjrpd;
+        "pkg-26.1-2.6.28" = _5LxshONI;
+        "pkg-26.2-2.6.28" = _eHbYuA7P;
+        "pkg-26.3-2.6.28" = _7c5mnPyr;
+        "default" = _7c5mnPyr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "replaymod";

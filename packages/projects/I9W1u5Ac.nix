@@ -1256,6 +1256,11 @@ let
             "file" = "mcsrranked-6.0.3.jar";
             "hash" = "sha512-Y30rxr8ZtfhwiPkWh1mvO2nj1K3md2XkDmcBvNI1i5XOPHRokkgSMizw3BSLQO482gfAqJeSFqawBRRK8dL0Hw==";
         };
+        _rj7xJrfe = {
+            "id" = "rj7xJrfe";
+            "file" = "mcsrranked-6.0.4.jar";
+            "hash" = "sha512-35nODQz2DvK4ZtnpDWVlYHFnHrUF8Nhs9NIc8Ugl96iTigSZKK9Z5hg22UM4PqfQF94M0BvnAgqN+6tBHypiDw==";
+        };
     in {
         "r17vLIlI" = _r17vLIlI;
         "Pr8911G1" = _Pr8911G1;
@@ -1508,7 +1513,8 @@ let
         "QldSGh3Y" = _QldSGh3Y;
         "bHKNDWtT" = _bHKNDWtT;
         "PMQjgUaG" = _PMQjgUaG;
-        "fabric-1.16.1" = _PMQjgUaG;
+        "rj7xJrfe" = _rj7xJrfe;
+        "fabric-1.16.1" = _rj7xJrfe;
         "pkg-1.1.8" = _r17vLIlI;
         "pkg-1.1.9" = _Pr8911G1;
         "pkg-1.1.10" = _XZVqLLbz;
@@ -1760,7 +1766,8 @@ let
         "pkg-6.0.1" = _QldSGh3Y;
         "pkg-6.0.2" = _bHKNDWtT;
         "pkg-6.0.3" = _PMQjgUaG;
-        "default" = _PMQjgUaG;
+        "pkg-6.0.4" = _rj7xJrfe;
+        "default" = _rj7xJrfe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mcsr-ranked";

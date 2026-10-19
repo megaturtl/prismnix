@@ -91,6 +91,11 @@ let
             "file" = "Skyblock Dark UI 1.18 for 26.1.2+.zip";
             "hash" = "sha512-b2tFgrUONdv/3YkMBe+yqXFBjqrSX5Pe4cE0kXi30pQkS/UxFqZ6C3Ho295/dwF+AbDltbu53sKOYXPT+XzRFw==";
         };
+        _T0E3LmO5 = {
+            "id" = "T0E3LmO5";
+            "file" = "Skyblock Dark UI 1.19 for 26.1.2+.zip";
+            "hash" = "sha512-L5oIpBjY4VF22t3UeKLngsbMbDa74HollV26HFB9SxAnuakP5dDae6ZHxdRv5C8rzMFmOIghKK7bWM+NKSubug==";
+        };
     in {
         "HRuyn0LM" = _HRuyn0LM;
         "GBhhPkA8" = _GBhhPkA8;
@@ -110,6 +115,7 @@ let
         "IrX6pCYh" = _IrX6pCYh;
         "3itLYYuc" = _3itLYYuc;
         "vDsMM5iE" = _vDsMM5iE;
+        "T0E3LmO5" = _T0E3LmO5;
         "minecraft-1.21.5" = _qG5TJQVZ;
         "minecraft-1.21.6" = _qG5TJQVZ;
         "minecraft-1.21.7" = _qG5TJQVZ;
@@ -119,8 +125,9 @@ let
         "minecraft-1.21.11" = _3itLYYuc;
         "minecraft-26.1" = _vDsMM5iE;
         "minecraft-26.1.1" = _vDsMM5iE;
-        "minecraft-26.1.2" = _vDsMM5iE;
-        "minecraft-26.2" = _vDsMM5iE;
+        "minecraft-26.1.2" = _T0E3LmO5;
+        "minecraft-26.2" = _T0E3LmO5;
+        "minecraft-26.3" = _T0E3LmO5;
         "pkg-1.2" = _HRuyn0LM;
         "pkg-1.3" = _GBhhPkA8;
         "pkg-1.4" = _wjuXCfHj;
@@ -139,7 +146,8 @@ let
         "pkg-1.16" = _IrX6pCYh;
         "pkg-1.17" = _3itLYYuc;
         "pkg-1.18" = _vDsMM5iE;
-        "default" = _vDsMM5iE;
+        "pkg-1.19" = _T0E3LmO5;
+        "default" = _T0E3LmO5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skyblock-dark-ui";

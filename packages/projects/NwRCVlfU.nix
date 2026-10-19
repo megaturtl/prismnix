@@ -21,18 +21,25 @@ let
             "file" = "toca-da-coruja-campanha-1.0.3-1.21.1.jar";
             "hash" = "sha512-v4m+NJnRbVv3Vz0rT5PiMZwApYopcAuX+4BWTZ4bfvsEaN16pIYpaEAhakGy4fmyEzrLm5u0ElkN9eAavMdA3A==";
         };
+        _LIIU4UNX = {
+            "id" = "LIIU4UNX";
+            "file" = "toca-da-coruja-campanha-2.0.0-1.21.1.jar";
+            "hash" = "sha512-AIpK9Rh+Utl/1zJkeZgPN6O+ilYiSPSo/ZPjlOd0/36G0WTtjLZkVXx3RH5cZYW+67CYMrc4M4oR8QUH/zURTw==";
+        };
     in {
         "QrtHQq5T" = _QrtHQq5T;
         "Yi4L7JWq" = _Yi4L7JWq;
         "2oFCD38k" = _2oFCD38k;
         "soITl0hK" = _soITl0hK;
+        "LIIU4UNX" = _LIIU4UNX;
         "fabric-1.21" = _soITl0hK;
-        "fabric-1.21.1" = _soITl0hK;
+        "fabric-1.21.1" = _LIIU4UNX;
         "pkg-1.0.0" = _QrtHQq5T;
         "pkg-1.0.1" = _Yi4L7JWq;
         "pkg-1.0.2" = _2oFCD38k;
         "pkg-1.0.3" = _soITl0hK;
-        "default" = _soITl0hK;
+        "pkg-2.0.0" = _LIIU4UNX;
+        "default" = _LIIU4UNX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "toca-da-coruja-campanha";

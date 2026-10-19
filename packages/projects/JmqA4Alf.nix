@@ -321,6 +321,51 @@ let
             "file" = "litematica-material-hud-1.0.11+1.21.11.jar";
             "hash" = "sha512-9KT5uBYiflx9GNONqcIt/7fQVbKm/o19svqGYCZ6/vuNFgxWkenLnXL/qtpa0JTGGTx/ugZDEE2z1t4oXZ4QQw==";
         };
+        _uugPhSds = {
+            "id" = "uugPhSds";
+            "file" = "litematica-material-hud-1.0.12+26.3.jar";
+            "hash" = "sha512-1873/mLjTWeHKiWbegKXNPpGz45dgvrFX/WEwrQDHBSoGFGKcj5YGoXdgJwvMMOEkvvtdAchPz9/3guCeEZJPQ==";
+        };
+        _LcCKxxyS = {
+            "id" = "LcCKxxyS";
+            "file" = "litematica-material-hud-1.0.12+26.2.jar";
+            "hash" = "sha512-PjlWs8OshetydOxrOgDYfQ4znwXDcH/lNR3cQ7zRD4Pc8MSGmgwxwsDH1O6wYuLF7o17ZVUJFKugkEI+qFY0yA==";
+        };
+        _fUXtqnnA = {
+            "id" = "fUXtqnnA";
+            "file" = "litematica-material-hud-1.0.12+1.21.11.jar";
+            "hash" = "sha512-TWH6fjzLKVFmDbw1pKDOtOD76/Q9QCCR2npUXqeK067ipifMLvKVs59SsMFigDLJ/57gC1E0192mCe9WUkQbnQ==";
+        };
+        _8JLla4tF = {
+            "id" = "8JLla4tF";
+            "file" = "litematica-material-hud-1.0.13+26.3.jar";
+            "hash" = "sha512-UortJv9noq6pCTFG1GKRcG63wKR42Qf/rsRInlvxuD+Ssp7pxTAqWRXVctYgVosnrZVruujXZ3rQwN1rKqmLsg==";
+        };
+        _tdg1BjnD = {
+            "id" = "tdg1BjnD";
+            "file" = "litematica-material-hud-1.0.13+26.2.jar";
+            "hash" = "sha512-BS+9RWHm1KWOZXyOF73xOshspdiv4ab6kr3hGmqH6PXFy7Rwy8dCrtDHANK7hm1mJTvQwxl5QEKF2vKzrEzYDA==";
+        };
+        _yUYm6QzV = {
+            "id" = "yUYm6QzV";
+            "file" = "litematica-material-hud-1.0.13+1.21.11.jar";
+            "hash" = "sha512-XA0ou1EI6v+LOa+K5fIbKsPGWeDYytosBsPhLykYzHj5LX5QJjQejVO1095lPTLz3vhU3Pf4Ox9z1F3OmorBCg==";
+        };
+        _mKdjZBUD = {
+            "id" = "mKdjZBUD";
+            "file" = "litematica-material-hud-1.0.14+26.3.jar";
+            "hash" = "sha512-MddaAqAdPdLjQS6UFRUBJQt+VN93nHWRNLzr72pkbosx+uPWpWdDvWoJd9FAbYQyP6SVJsPI/yiv9cTUqyvA9Q==";
+        };
+        _cRa9ptv7 = {
+            "id" = "cRa9ptv7";
+            "file" = "litematica-material-hud-1.0.14+26.2.jar";
+            "hash" = "sha512-DnmTblBUHsPLL9z34YudLKNvT3xgOOdzp7qMhBjRkP9iV6pdxXBBdgg/QwgxJjlrz3rscF2AYup5URU9nRL8Ww==";
+        };
+        _ufxam7lZ = {
+            "id" = "ufxam7lZ";
+            "file" = "litematica-material-hud-1.0.14+1.21.11.jar";
+            "hash" = "sha512-KT+cxghmINZ9X0ANHFdVM7UIV5GsCi63bWwlMMHf7Zg+SjQlpqyR308vJQ0ippy07QD+LkxvvhILpCgdZvo6Jg==";
+        };
     in {
         "z2IZqkAA" = _z2IZqkAA;
         "WtOCkLpA" = _WtOCkLpA;
@@ -386,12 +431,21 @@ let
         "uuFMIbKd" = _uuFMIbKd;
         "65NTMfsv" = _65NTMfsv;
         "tRTS6Wfn" = _tRTS6Wfn;
-        "fabric-26.2" = _65NTMfsv;
-        "fabric-1.21.11" = _tRTS6Wfn;
+        "uugPhSds" = _uugPhSds;
+        "LcCKxxyS" = _LcCKxxyS;
+        "fUXtqnnA" = _fUXtqnnA;
+        "8JLla4tF" = _8JLla4tF;
+        "tdg1BjnD" = _tdg1BjnD;
+        "yUYm6QzV" = _yUYm6QzV;
+        "mKdjZBUD" = _mKdjZBUD;
+        "cRa9ptv7" = _cRa9ptv7;
+        "ufxam7lZ" = _ufxam7lZ;
+        "fabric-26.2" = _cRa9ptv7;
+        "fabric-1.21.11" = _ufxam7lZ;
         "fabric-26.1" = _8wVTpizB;
         "fabric-26.1.1" = _8wVTpizB;
         "fabric-26.1.2" = _8wVTpizB;
-        "fabric-26.3" = _uuFMIbKd;
+        "fabric-26.3" = _mKdjZBUD;
         "pkg-0.0.1+26.2" = _z2IZqkAA;
         "pkg-0.0.2+26.2" = _WtOCkLpA;
         "pkg-0.0.2+1.21.11" = _S45x0GGc;
@@ -456,7 +510,16 @@ let
         "pkg-1.0.11+26.3" = _uuFMIbKd;
         "pkg-1.0.11+26.2" = _65NTMfsv;
         "pkg-1.0.11+1.21.11" = _tRTS6Wfn;
-        "default" = _tRTS6Wfn;
+        "pkg-1.0.12+26.3" = _uugPhSds;
+        "pkg-1.0.12+26.2" = _LcCKxxyS;
+        "pkg-1.0.12+1.21.11" = _fUXtqnnA;
+        "pkg-1.0.13+26.3" = _8JLla4tF;
+        "pkg-1.0.13+26.2" = _tdg1BjnD;
+        "pkg-1.0.13+1.21.11" = _yUYm6QzV;
+        "pkg-1.0.14+26.3" = _mKdjZBUD;
+        "pkg-1.0.14+26.2" = _cRa9ptv7;
+        "pkg-1.0.14+1.21.11" = _ufxam7lZ;
+        "default" = _ufxam7lZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "material-hud";

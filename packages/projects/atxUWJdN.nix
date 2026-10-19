@@ -146,6 +146,16 @@ let
             "file" = "auroral-1.21.1-1.1.3.jar";
             "hash" = "sha512-GyD1mH8E1qPgL/iaM29hWmZpah1ymzjiYjF57lqvIAsB8pgyrYoxvyjZgUzEs80iafjQtoSXFWFMhDNb12hlsA==";
         };
+        _pAED8TiW = {
+            "id" = "pAED8TiW";
+            "file" = "auroral-1.21.1-1.1.4.jar";
+            "hash" = "sha512-+3UZR6g48Kni4lStaXSeiB0OdyiOQn1XZXDcw7qwvsWq/ANkodaG0JAD/lA4BxQm7LP5CPRtDGK00ivqA1Koog==";
+        };
+        _KNvIBWaA = {
+            "id" = "KNvIBWaA";
+            "file" = "auroral-26.1.2-1.5.10.jar";
+            "hash" = "sha512-I8DNsyzzG6F7678rQoNHKh/aGOSEFiz23fzKdIvyWBl2q6qToSTXZBtopsEf+PGoTpJiGubfk25k+TIkmWVXzQ==";
+        };
     in {
         "G5h0KbON" = _G5h0KbON;
         "km4r1TOl" = _km4r1TOl;
@@ -176,10 +186,12 @@ let
         "7Q4FQrut" = _7Q4FQrut;
         "7fojBnjm" = _7fojBnjm;
         "wcBaxmiu" = _wcBaxmiu;
+        "pAED8TiW" = _pAED8TiW;
+        "KNvIBWaA" = _KNvIBWaA;
         "neoforge-1.21.11" = _VWSfa2HW;
-        "neoforge-1.21.1" = _wcBaxmiu;
+        "neoforge-1.21.1" = _pAED8TiW;
         "neoforge-26.1.1" = _hxn2CUjP;
-        "neoforge-26.1.2" = _7fojBnjm;
+        "neoforge-26.1.2" = _KNvIBWaA;
         "pkg-1.21.11-1.0.2" = _G5h0KbON;
         "pkg-1.21.11-1.0.3" = _km4r1TOl;
         "pkg-1.0.4" = _VWSfa2HW;
@@ -209,7 +221,9 @@ let
         "pkg-26.1.2-1.5.8" = _7Q4FQrut;
         "pkg-26.1.2-1.5.9" = _7fojBnjm;
         "pkg-1.21.1-1.1.3" = _wcBaxmiu;
-        "default" = _wcBaxmiu;
+        "pkg-1.21.1-1.1.4" = _pAED8TiW;
+        "pkg-26.1.2-1.5.10" = _KNvIBWaA;
+        "default" = _KNvIBWaA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "auroral";

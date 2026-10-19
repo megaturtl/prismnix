@@ -3786,6 +3786,21 @@ let
             "file" = "the_bumblezone-7.16.0+1.21.1-fabric.jar";
             "hash" = "sha512-7XGOiBPwpIHXywx+azE3wUItoyR8M6JNryZQ4Y0BbOj4XTxzUdiHM68ScERHYkakVcyHc4ORxcwmXDI5+NYMHQ==";
         };
+        _VPTALphm = {
+            "id" = "VPTALphm";
+            "file" = "the_bumblezone-7.15.0+1.20.1-fabric.jar";
+            "hash" = "sha512-nEVt9jDgN8/55lLrKJEXwL5r9/Q35xQmWUciN7dHnZqq4xyvaYnz1XnWRI7eVOmUG5IGry+1gvr3cGLYETAmjw==";
+        };
+        _tHTgKeMv = {
+            "id" = "tHTgKeMv";
+            "file" = "the_bumblezone-7.17.0+1.21.1-fabric.jar";
+            "hash" = "sha512-Y2ETzYy4kVbujSQdw2/7Wdo37nNzhiUDLeasS4XUFjHkNSk38W9VScCWEfCugyIyS8XuFD1JLjIXxnGiRUgbuQ==";
+        };
+        _HvonFbv5 = {
+            "id" = "HvonFbv5";
+            "file" = "the_bumblezone-7.18.0+26.1.2-fabric.jar";
+            "hash" = "sha512-MeUGKK/h3WoMeVd9euzLyZO2tARSNQbpVF588r5mPr/2vBWEHUHvQ4jdkhxJ2ctM0E9Je7XuuL7vsMTKoaA8hg==";
+        };
     in {
         "k5yXwDGg" = _k5yXwDGg;
         "cXpmfcoN" = _cXpmfcoN;
@@ -4544,6 +4559,9 @@ let
         "1lb1546O" = _1lb1546O;
         "XSJsqICM" = _XSJsqICM;
         "wsSxdjOH" = _wsSxdjOH;
+        "VPTALphm" = _VPTALphm;
+        "tHTgKeMv" = _tHTgKeMv;
+        "HvonFbv5" = _HvonFbv5;
         "fabric-1.16.5" = _CSuPyeXQ;
         "fabric-1.17" = _ueSWlQem;
         "fabric-1.17.1" = _ueSWlQem;
@@ -4553,12 +4571,13 @@ let
         "fabric-1.19.2" = _KXHxdzIU;
         "fabric-1.19.3" = _bcdB4eUA;
         "fabric-1.19.4" = _zf1CsIoC;
-        "fabric-1.20.1" = _XSJsqICM;
+        "fabric-1.20.1" = _VPTALphm;
         "fabric-1.20.2" = _a7CZ7d03;
         "fabric-1.20.4" = _gjUvv7GC;
         "fabric-1.20.6" = _mJ1VmNMI;
         "fabric-1.21" = _IARmxdUv;
-        "fabric-1.21.1" = _wsSxdjOH;
+        "fabric-1.21.1" = _tHTgKeMv;
+        "fabric-26.1.2" = _HvonFbv5;
         "forge-1.18" = _9VYPxpQi;
         "quilt-1.19" = _3vhAfMJo;
         "quilt-1.19.1" = _jFeZ3xG2;
@@ -5318,7 +5337,10 @@ let
         "pkg-7.15.3+1.21.1-fabric" = _1lb1546O;
         "pkg-7.14.0+1.20.1-fabric" = _XSJsqICM;
         "pkg-7.16.0+1.21.1-fabric" = _wsSxdjOH;
-        "default" = _wsSxdjOH;
+        "pkg-7.15.0+1.20.1-fabric" = _VPTALphm;
+        "pkg-7.17.0+1.21.1-fabric" = _tHTgKeMv;
+        "pkg-7.18.0+26.1.2-fabric" = _HvonFbv5;
+        "default" = _HvonFbv5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-bumblezone-fabric";

@@ -61,6 +61,16 @@ let
             "file" = "arrzenhanced-2.0.2.jar";
             "hash" = "sha512-iV7l4nDw99lNbmAcxRLJOgDS17Ken98lxSbESoIIEksJ4W1Ibm6nSVqIInZtJunpB2oX5Oq7k0wFfWqw9AGeCQ==";
         };
+        _uv75vFYL = {
+            "id" = "uv75vFYL";
+            "file" = "arrzenhanced-3.0.0.jar";
+            "hash" = "sha512-Iwmt+MsSKkmGY9/d+QHo94hvIc4i5ZM0UVzD9lliuQ3/p7L/WXAmtWgHjXJJRJvBgL2y7ADk7m05GNqDKNAbdg==";
+        };
+        _xgDIvlhZ = {
+            "id" = "xgDIvlhZ";
+            "file" = "arrzenhanced-3.0.1.jar";
+            "hash" = "sha512-ILukbrG/m43xh/+kD/kfNi8L7fWwfFwf/Z6nhPNXdQP+pbGFt3g30o3wU6glBOlPZQsWcjrmuB95jlIOXD8oGw==";
+        };
     in {
         "KKtz16ii" = _KKtz16ii;
         "jtfvuP6Q" = _jtfvuP6Q;
@@ -74,7 +84,9 @@ let
         "8aABF6e5" = _8aABF6e5;
         "Fv2Ksl6J" = _Fv2Ksl6J;
         "D22i0UVH" = _D22i0UVH;
-        "forge-1.20.1" = _D22i0UVH;
+        "uv75vFYL" = _uv75vFYL;
+        "xgDIvlhZ" = _xgDIvlhZ;
+        "forge-1.20.1" = _xgDIvlhZ;
         "pkg-1.0.0" = _KKtz16ii;
         "pkg-1.0.1" = _jtfvuP6Q;
         "pkg-1.0.2" = _IpPV2zLt;
@@ -87,7 +99,9 @@ let
         "pkg-2.0.0" = _8aABF6e5;
         "pkg-2.0.1" = _Fv2Ksl6J;
         "pkg-2.0.2" = _D22i0UVH;
-        "default" = _D22i0UVH;
+        "pkg-3.0.0" = _uv75vFYL;
+        "pkg-3.0.1" = _xgDIvlhZ;
+        "default" = _xgDIvlhZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "arrzees-multiverse";

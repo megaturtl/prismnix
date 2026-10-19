@@ -1186,6 +1186,26 @@ let
             "file" = "redstone-multimeter-fabric-mc26.2-1.17.0.jar";
             "hash" = "sha512-/cRIKwK1wFBEI7fdDOygxZXjrOhSLuND/vSVPajW7bWozNUdLKpaVmmLmyqId8ceiHGX9UcEw7qtKPBTe0e5FA==";
         };
+        _1Kpe8jHN = {
+            "id" = "1Kpe8jHN";
+            "file" = "redstone-multimeter-fabric-mc26.3-1.17.0.jar";
+            "hash" = "sha512-VPx5D3qDi9RETyavQSwpyUW2T6OsWlt7UyhWKj1fM7WZQ7Kgsy+MMu/+kBjTxgQW4x1DiZkCp4ET8mc4cWzBGQ==";
+        };
+        _E0mxAHgd = {
+            "id" = "E0mxAHgd";
+            "file" = "redstone-multimeter-fabric-mc1.21.11-1.17.2.jar";
+            "hash" = "sha512-VTBqnhQiyAiAWYQppImcOKfhbK5e69J7h85xF032qvH7EV67O8NSnGpL2uf8wahD5Nk43gx4S6PkFpqAr4/pHQ==";
+        };
+        _YXee1IIl = {
+            "id" = "YXee1IIl";
+            "file" = "redstone-multimeter-fabric-mc26.1-1.17.1.jar";
+            "hash" = "sha512-BT2ZcspKzMkaIEz27ljvksQi2JsmcTdzWj+pjBgw1pZiRKMj08QiCmhUo1KUpWWpFoxwrBjKMPfJhqlcydS+jg==";
+        };
+        _1sC2qWJ5 = {
+            "id" = "1sC2qWJ5";
+            "file" = "redstone-multimeter-fabric-mc26.2-1.17.1.jar";
+            "hash" = "sha512-hX7EEzxTvsRgVaSg6DIKWAltsjRiHNn1PbuTWDKJP0E8ZWUkafIdlpeSX+Yws8TSy6H/SJsTb5VoKw9YvRPJpw==";
+        };
     in {
         "uNI5R4I2" = _uNI5R4I2;
         "CsoHZo7N" = _CsoHZo7N;
@@ -1424,6 +1444,10 @@ let
         "9s5DeFH4" = _9s5DeFH4;
         "lZ4iQ6LE" = _lZ4iQ6LE;
         "PVHFYkK3" = _PVHFYkK3;
+        "1Kpe8jHN" = _1Kpe8jHN;
+        "E0mxAHgd" = _E0mxAHgd;
+        "YXee1IIl" = _YXee1IIl;
+        "1sC2qWJ5" = _1sC2qWJ5;
         "fabric-1.16" = _QcB6XX9X;
         "fabric-1.16.1" = _QcB6XX9X;
         "fabric-1.16.2" = _wMVr0BGZ;
@@ -1466,11 +1490,12 @@ let
         "fabric-1.21.8" = _z6gMz4UR;
         "fabric-1.21.9" = _myrGKPjK;
         "fabric-1.21.10" = _myrGKPjK;
-        "fabric-1.21.11" = _9s5DeFH4;
-        "fabric-26.1" = _lZ4iQ6LE;
-        "fabric-26.1.1" = _lZ4iQ6LE;
-        "fabric-26.1.2" = _lZ4iQ6LE;
-        "fabric-26.2" = _PVHFYkK3;
+        "fabric-1.21.11" = _E0mxAHgd;
+        "fabric-26.1" = _YXee1IIl;
+        "fabric-26.1.1" = _YXee1IIl;
+        "fabric-26.1.2" = _YXee1IIl;
+        "fabric-26.2" = _1sC2qWJ5;
+        "fabric-26.3" = _1Kpe8jHN;
         "quilt-1.14" = _OSgQJeFn;
         "quilt-1.14.1" = _OSgQJeFn;
         "quilt-1.14.2" = _OSgQJeFn;
@@ -1802,8 +1827,11 @@ let
         "pkg-mc1.21.11-1.17.0" = _Hjs8kaY4;
         "pkg-mc1.21.11-1.17.1" = _9s5DeFH4;
         "pkg-mc26.1-1.17.0" = _lZ4iQ6LE;
-        "pkg-mc26.2-1.17.0" = _PVHFYkK3;
-        "default" = _PVHFYkK3;
+        "pkg-mc26.2-1.17.0" = _1Kpe8jHN;
+        "pkg-mc1.21.11-1.17.2" = _E0mxAHgd;
+        "pkg-mc26.1-1.17.1" = _YXee1IIl;
+        "pkg-mc26.2-1.17.1" = _1sC2qWJ5;
+        "default" = _1sC2qWJ5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "redstone-multimeter";

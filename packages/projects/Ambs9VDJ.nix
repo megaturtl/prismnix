@@ -66,6 +66,11 @@ let
             "file" = "oceanvillagertrader-2.1.0-neoforge-26.1.2.jar";
             "hash" = "sha512-L9TLPQhZNSpCQnc+a8taIIDIGpfDKLDWnn1cLOUTUWvoWxkFieNxeif5Px4QrsGYj99VIbZpph/qdC1oHKXjlQ==";
         };
+        _5pPrnW9k = {
+            "id" = "5pPrnW9k";
+            "file" = "oceanvillagertrader-2.1.0-neoforge-26.3.jar";
+            "hash" = "sha512-F6W8fMyvu7LQy4TdIr2nJd83DwtxtGSzX0UiF2fGnBh1eTPYJJh2gccLCFv3WwIslahHKUCrDV22NpRVjNML+g==";
+        };
     in {
         "LNE6mErU" = _LNE6mErU;
         "4QXoYVXT" = _4QXoYVXT;
@@ -80,6 +85,7 @@ let
         "XeMefOqe" = _XeMefOqe;
         "dqKFWJrI" = _dqKFWJrI;
         "BtxZuNGU" = _BtxZuNGU;
+        "5pPrnW9k" = _5pPrnW9k;
         "forge-1.20.1" = _MKEU0jry;
         "forge-1.19.2" = _4QXoYVXT;
         "forge-1.20.4" = _dmYbQavh;
@@ -88,11 +94,12 @@ let
         "neoforge-1.21.4" = _XeMefOqe;
         "neoforge-1.21.8" = _dqKFWJrI;
         "neoforge-26.1.2" = _BtxZuNGU;
+        "neoforge-26.3" = _5pPrnW9k;
         "pkg-1.0.0" = _4QXoYVXT;
         "pkg-2.0.0" = _dmYbQavh;
         "pkg-2.0.2" = _ZMRA8Va5;
-        "pkg-2.1.0" = _BtxZuNGU;
-        "default" = _BtxZuNGU;
+        "pkg-2.1.0" = _5pPrnW9k;
+        "default" = _5pPrnW9k;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ocean-villager-trader";

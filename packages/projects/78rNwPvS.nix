@@ -126,6 +126,11 @@ let
             "file" = "MoreUpgradeTemplate-1.21.1-neoforge-0.5.0-beta3.jar";
             "hash" = "sha512-BHkIyP+/VaHCTp+5e2Dn1lBgdZp9G8Xsg5rm1JJoxBWJwqXOC5uDsjtt9O9gJfY6ZlxJkKSagOrJQs2XFnhcVw==";
         };
+        _5tIHYamt = {
+            "id" = "5tIHYamt";
+            "file" = "MoreUpgradeTemplate-1.21.1-neoforge-0.5.0-release.jar";
+            "hash" = "sha512-8YKFyX4B4ancIVEbaDpePzMvIwal6PfWMEKXCbWBS+P5ZrAfAf9ivyr0A3ikKkFG51E/gQ6ElMwzVq3UJWZlPQ==";
+        };
     in {
         "50OyDevj" = _50OyDevj;
         "J5gb7VtM" = _J5gb7VtM;
@@ -152,8 +157,9 @@ let
         "wqV2eHnh" = _wqV2eHnh;
         "hQKNxSku" = _hQKNxSku;
         "ZbnePEhg" = _ZbnePEhg;
+        "5tIHYamt" = _5tIHYamt;
         "forge-1.20.1" = _Us8rAglJ;
-        "neoforge-1.21.1" = _ZbnePEhg;
+        "neoforge-1.21.1" = _5tIHYamt;
         "pkg-1.2.6" = _50OyDevj;
         "pkg-0.1.0a" = _J5gb7VtM;
         "pkg-0.1.0b" = _qpJFOVMT;
@@ -178,7 +184,8 @@ let
         "pkg-0.5.0-beta-1" = _wqV2eHnh;
         "pkg-0.5.0-beta2" = _hQKNxSku;
         "pkg-0.5.0-beta3" = _ZbnePEhg;
-        "default" = _ZbnePEhg;
+        "pkg-0.5.0" = _5tIHYamt;
+        "default" = _5tIHYamt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "moreupgradetemplate";

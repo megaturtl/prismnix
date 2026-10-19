@@ -111,6 +111,16 @@ let
             "file" = "spacialspuds-advancements-2.0.jar";
             "hash" = "sha512-N6qwN+tm0gKlRnOwQEb1Pylj7wh2wwkf0OhKbPFKSX246+Nv55RPIrd9ZQryRiUTRSPuuwFthZ5G8VwLesBqeA==";
         };
+        _dkmjkRYQ = {
+            "id" = "dkmjkRYQ";
+            "file" = "Experience More Advancements.zip";
+            "hash" = "sha512-IJJnEThW/pd7sEEUdZBc9QiRqE5TgE2m2jzkpujHan7BvObsPar0xsXC91N4lKzK1DEohTUoCElziGjwLZfXWA==";
+        };
+        _4q8ET16w = {
+            "id" = "4q8ET16w";
+            "file" = "spacialspuds-advancements-2.1.jar";
+            "hash" = "sha512-6sYTcp3xg/NeM/0InzkqTnmkYtW7u6yDYZjmS0R53aS/8vrkyUNw69D3O77XCaeolc/+pPBP4RpixIF1DeKfgQ==";
+        };
     in {
         "df4pPqrI" = _df4pPqrI;
         "QyK2zAhg" = _QyK2zAhg;
@@ -134,6 +144,8 @@ let
         "VqAngcmu" = _VqAngcmu;
         "vkjVgpKk" = _vkjVgpKk;
         "ezGWxPW3" = _ezGWxPW3;
+        "dkmjkRYQ" = _dkmjkRYQ;
+        "4q8ET16w" = _4q8ET16w;
         "datapack-1.21" = _df4pPqrI;
         "datapack-1.21.1" = _df4pPqrI;
         "datapack-1.21.2" = _QyK2zAhg;
@@ -150,7 +162,7 @@ let
         "datapack-26.1.1" = _urir4WcD;
         "datapack-26.1.2" = _urir4WcD;
         "datapack-26.2" = _2sX2Tgim;
-        "datapack-26.3" = _Lz2tlQNA;
+        "datapack-26.3" = _dkmjkRYQ;
         "fabric-1.21" = _34oDcxvA;
         "fabric-1.21.1" = _34oDcxvA;
         "fabric-1.21.2" = _HP3QlWnb;
@@ -167,7 +179,7 @@ let
         "fabric-26.1.1" = _VqAngcmu;
         "fabric-26.1.2" = _VqAngcmu;
         "fabric-26.2" = _vkjVgpKk;
-        "fabric-26.3" = _ezGWxPW3;
+        "fabric-26.3" = _4q8ET16w;
         "forge-1.21" = _34oDcxvA;
         "forge-1.21.1" = _34oDcxvA;
         "forge-1.21.2" = _HP3QlWnb;
@@ -184,7 +196,7 @@ let
         "forge-26.1.1" = _VqAngcmu;
         "forge-26.1.2" = _VqAngcmu;
         "forge-26.2" = _vkjVgpKk;
-        "forge-26.3" = _ezGWxPW3;
+        "forge-26.3" = _4q8ET16w;
         "neoforge-1.21" = _34oDcxvA;
         "neoforge-1.21.1" = _34oDcxvA;
         "neoforge-1.21.2" = _HP3QlWnb;
@@ -201,7 +213,7 @@ let
         "neoforge-26.1.1" = _VqAngcmu;
         "neoforge-26.1.2" = _VqAngcmu;
         "neoforge-26.2" = _vkjVgpKk;
-        "neoforge-26.3" = _ezGWxPW3;
+        "neoforge-26.3" = _4q8ET16w;
         "quilt-1.21" = _34oDcxvA;
         "quilt-1.21.1" = _34oDcxvA;
         "quilt-1.21.2" = _HP3QlWnb;
@@ -218,10 +230,12 @@ let
         "quilt-26.1.1" = _VqAngcmu;
         "quilt-26.1.2" = _VqAngcmu;
         "quilt-26.2" = _vkjVgpKk;
-        "quilt-26.3" = _ezGWxPW3;
+        "quilt-26.3" = _4q8ET16w;
         "pkg-2.0" = _Lz2tlQNA;
         "pkg-2.0+mod" = _ezGWxPW3;
-        "default" = _ezGWxPW3;
+        "pkg-2.1" = _dkmjkRYQ;
+        "pkg-2.1+mod" = _4q8ET16w;
+        "default" = _4q8ET16w;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spacialspuds-advancements";

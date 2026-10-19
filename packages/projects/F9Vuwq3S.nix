@@ -3356,6 +3356,11 @@ let
             "file" = "immersiveores-26.3-0.1.jar";
             "hash" = "sha512-+pgQXjZJADA/3JkY4g8s4oipMhKEFbkohtD3cP/G1Dn95ykYcKxwc9157I/Q7aXQ6W3sC4ZS0axqz3MF2TIFQw==";
         };
+        _oLQR8Tky = {
+            "id" = "oLQR8Tky";
+            "file" = "immersiveores-26.3-0.2.jar";
+            "hash" = "sha512-D2W0SDs4pN+UU9G6BMfQtWdF30Lcrs2sd709O0cO4KryajMQECJPCRFTRRwggyzEiCYdkOUjF2xqLJtINvsKTQ==";
+        };
     in {
         "7ZPaV1GV" = _7ZPaV1GV;
         "RGXounRe" = _RGXounRe;
@@ -4028,6 +4033,7 @@ let
         "BY53Ptvi" = _BY53Ptvi;
         "11xYOba3" = _11xYOba3;
         "DEy6D9RY" = _DEy6D9RY;
+        "oLQR8Tky" = _oLQR8Tky;
         "forge-1.19" = _En8TPmMM;
         "forge-1.19.1" = _lI7jIcqh;
         "forge-1.19.2" = _3EnmhQri;
@@ -4086,7 +4092,7 @@ let
         "neoforge-26.1.1" = _GEi3Qo8T;
         "neoforge-26.1.2" = _7uohRcqh;
         "neoforge-26.2" = _BY53Ptvi;
-        "neoforge-26.3" = _DEy6D9RY;
+        "neoforge-26.3" = _oLQR8Tky;
         "pkg-1.19-0.6" = _7ZPaV1GV;
         "pkg-1.19.1-0.6" = _RGXounRe;
         "pkg-1.19.2-0.6" = _uURq1L3x;
@@ -4348,7 +4354,8 @@ let
         "pkg-26.1.2-0.4" = _7uohRcqh;
         "pkg-26.2-0.2" = _BY53Ptvi;
         "pkg-26.3-0.1" = _DEy6D9RY;
-        "default" = _DEy6D9RY;
+        "pkg-26.3-0.2" = _oLQR8Tky;
+        "default" = _oLQR8Tky;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immersive-ores";

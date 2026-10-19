@@ -336,6 +336,11 @@ let
             "file" = "coffins-2.1.jar";
             "hash" = "sha512-qZz4VOwAugdMrzCwjjiLvB8FUGHqGCZz3PZZs+h0dOYg9GYvKqGZgfMPTLFMIt8mdaRfXDDOJU6JN/abKmxemA==";
         };
+        _2xu3UuRn = {
+            "id" = "2xu3UuRn";
+            "file" = "coffins-3.0.jar";
+            "hash" = "sha512-f7iV0+LVim59eHwxNLvgcSIR4syhFXJZGF+m2vysCQ7WfJRMFl+eEGY7Yml9yDmPCiw3X9wL4ahLn3YQwggWTg==";
+        };
     in {
         "a8x0KFFg" = _a8x0KFFg;
         "hwwO46KA" = _hwwO46KA;
@@ -404,6 +409,7 @@ let
         "qUHZC23q" = _qUHZC23q;
         "xjcdx8ik" = _xjcdx8ik;
         "P3rDS3Il" = _P3rDS3Il;
+        "2xu3UuRn" = _2xu3UuRn;
         "fabric-1.19.2" = _H1xcxG9i;
         "fabric-1.19.3" = _o2Pvs06x;
         "fabric-1.19.4" = _ujBgBE8o;
@@ -412,9 +418,9 @@ let
         "fabric-1.20.2" = _bwZGqiq8;
         "fabric-1.20.3" = _hgw87tgL;
         "fabric-1.20.4" = _qUHZC23q;
-        "fabric-26.1" = _P3rDS3Il;
-        "fabric-26.1.1" = _P3rDS3Il;
-        "fabric-26.1.2" = _P3rDS3Il;
+        "fabric-26.1" = _2xu3UuRn;
+        "fabric-26.1.1" = _2xu3UuRn;
+        "fabric-26.1.2" = _2xu3UuRn;
         "pkg-1.0.0+1.19.2" = _a8x0KFFg;
         "pkg-1.0.1+1.19.2" = _hwwO46KA;
         "pkg-1.0.1+1.19.3" = _IAefJ9LX;
@@ -482,7 +488,8 @@ let
         "pkg-1.4.0+1.20.4" = _qUHZC23q;
         "pkg-2.0" = _xjcdx8ik;
         "pkg-2.1" = _P3rDS3Il;
-        "default" = _P3rDS3Il;
+        "pkg-3.0" = _2xu3UuRn;
+        "default" = _2xu3UuRn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "coffins";

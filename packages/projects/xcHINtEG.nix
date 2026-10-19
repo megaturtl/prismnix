@@ -586,6 +586,36 @@ let
             "file" = "awakened-1.19.1+1.21.1.jar";
             "hash" = "sha512-JzFaLQsRnayleRY0ftChp4ViOlJyoXNeSCIue6qf7nOkfX/yUUqukT8W1q4v2/KoM2Lgbr+yxkTfA+CuIGubvA==";
         };
+        _CZecfAB1 = {
+            "id" = "CZecfAB1";
+            "file" = "awakened-1.19.5+1.21.1.jar";
+            "hash" = "sha512-kqVfFCazmTxf3Ed8qd1vuv6uQKngfF7xxCB1s+Ir5hGM/7N2ZGUnVY1I2Ondadwdk2bthwFQRYmsT+NMiqbq+g==";
+        };
+        _e0lvl6P9 = {
+            "id" = "e0lvl6P9";
+            "file" = "awakened-1.19.5+1.21.11.jar";
+            "hash" = "sha512-PJ2knPfVFheAd+MnfYJBNr56qP54nrN64LNBREqQkoKdDG0hYVxWPfvIbiq1boQJuuYmtonzqT9vm3D/zq3bqg==";
+        };
+        _63IxKqes = {
+            "id" = "63IxKqes";
+            "file" = "awakened-1.19.10+1.21.1.jar";
+            "hash" = "sha512-zY9gkIf6L1XQ84QSPUKEWEltSGnKnpHIdu8o8+jHkXo4mqclP+ngCMtihQ08Dta/fAUg031xr2DLqsFbokO0Mg==";
+        };
+        _ndO8BlUG = {
+            "id" = "ndO8BlUG";
+            "file" = "awakened-1.19.10+1.21.11.jar";
+            "hash" = "sha512-8ZkgpTWKQ0uVDM9JU5HC/yN1hfIwRFAIvZ+WETxJs7T/vS2+kn2JO6YKoXiS0K7CSfIR3kz1lD2YncMzri3gyQ==";
+        };
+        _Tzgt6A2I = {
+            "id" = "Tzgt6A2I";
+            "file" = "awakened-1.20.0+1.21.11.jar";
+            "hash" = "sha512-xmO/Th8KfFCmRT5i50gTJbUG2ly6IKeTRRemkLZs1m07dTlbSkN5LyscKU7KrFD7fr1hyj0eRwG+/amknXDXcw==";
+        };
+        _ATSmbdWW = {
+            "id" = "ATSmbdWW";
+            "file" = "awakened-1.20.0+1.21.1.jar";
+            "hash" = "sha512-4lRlkBjnYlbriNGREgDO8j6dvA9e+kcgRHOm+X9UQlC5CN0I/LixKYcR8Epe0JlzcDtCymILWW/ZDEl+W5Y/yw==";
+        };
     in {
         "w05CXVeZ" = _w05CXVeZ;
         "HdiEHc6q" = _HdiEHc6q;
@@ -704,8 +734,14 @@ let
         "H20dk1Y0" = _H20dk1Y0;
         "oMYb9FdV" = _oMYb9FdV;
         "b1NxirWP" = _b1NxirWP;
-        "neoforge-1.21.11" = _oMYb9FdV;
-        "neoforge-1.21.1" = _b1NxirWP;
+        "CZecfAB1" = _CZecfAB1;
+        "e0lvl6P9" = _e0lvl6P9;
+        "63IxKqes" = _63IxKqes;
+        "ndO8BlUG" = _ndO8BlUG;
+        "Tzgt6A2I" = _Tzgt6A2I;
+        "ATSmbdWW" = _ATSmbdWW;
+        "neoforge-1.21.11" = _Tzgt6A2I;
+        "neoforge-1.21.1" = _ATSmbdWW;
         "pkg-0.2.0" = _w05CXVeZ;
         "pkg-0.3.0" = _HdiEHc6q;
         "pkg-0.4.0" = _IT26pW79;
@@ -767,7 +803,10 @@ let
         "pkg-1.18.3" = _BDui2jMR;
         "pkg-1.19.0" = _oMYb9FdV;
         "pkg-1.19.1" = _b1NxirWP;
-        "default" = _b1NxirWP;
+        "pkg-1.19.5" = _e0lvl6P9;
+        "pkg-1.19.10" = _ndO8BlUG;
+        "pkg-1.20.0" = _ATSmbdWW;
+        "default" = _ATSmbdWW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-awakening";

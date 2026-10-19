@@ -111,6 +111,26 @@ let
             "file" = "guieffecttimer-26.3.0-1.2.jar";
             "hash" = "sha512-/+VNPwozuaVJwn2gtBFGmEIyJZjO+4fZwMOeqVkKRnH8YPaY3bO//miQNHRRv8WBMIq/fQOIGqYNWFp+B9a5Fw==";
         };
+        _5JmwgJ3y = {
+            "id" = "5JmwgJ3y";
+            "file" = "guieffecttimer-1.20.1-1.3.jar";
+            "hash" = "sha512-B8YTaU+6AXzyhys+OgRk/7x/Kel3/0elACTrY3U2uOYH2uL2ubkW/crnKbQzPCFZZfETSF3ugxLbPBgqiYUCVg==";
+        };
+        _ts2To0cP = {
+            "id" = "ts2To0cP";
+            "file" = "guieffecttimer-1.21.1-1.3.jar";
+            "hash" = "sha512-jfY8oBStbkFbnarXt/xffv/O23wW41p07elQmYyQ6JpMbO4n0iSXxk+aTZlI0sO8MDF3uibxb7W4N6WBtL9gxw==";
+        };
+        _e2OiMtwM = {
+            "id" = "e2OiMtwM";
+            "file" = "guieffecttimer-26.2.0-1.3.jar";
+            "hash" = "sha512-lqaL+KEnOocQV87K+Mf+2sdvHBhM7K/69CaCbM8LCuUGSM3fQZ+oHYbmKvj1ckWQsatQNl0tTEuVYsOT5JvscA==";
+        };
+        _g6ANQNXq = {
+            "id" = "g6ANQNXq";
+            "file" = "guieffecttimer-26.3.0-1.3.jar";
+            "hash" = "sha512-zGyDa6P7az+Vj5E22IddUgGvtNgBZnaQZHChMHYXmNYWKEz3P1qCJ9blLS2zFiH2ZlBvxPnXK5XL8skM0t9s6g==";
+        };
     in {
         "61sKzomI" = _61sKzomI;
         "W2YC5G0x" = _W2YC5G0x;
@@ -134,9 +154,13 @@ let
         "fFVjeuT3" = _fFVjeuT3;
         "V0hkGxIK" = _V0hkGxIK;
         "2x4XTd0t" = _2x4XTd0t;
-        "fabric-1.20.1" = _baZLYH7n;
-        "fabric-1.21" = _fFVjeuT3;
-        "fabric-1.21.1" = _fFVjeuT3;
+        "5JmwgJ3y" = _5JmwgJ3y;
+        "ts2To0cP" = _ts2To0cP;
+        "e2OiMtwM" = _e2OiMtwM;
+        "g6ANQNXq" = _g6ANQNXq;
+        "fabric-1.20.1" = _5JmwgJ3y;
+        "fabric-1.21" = _ts2To0cP;
+        "fabric-1.21.1" = _ts2To0cP;
         "fabric-1.21.4" = _3LQQNnXm;
         "fabric-1.21.5" = _1nuczR5T;
         "fabric-1.21.6" = _Y7XogIbx;
@@ -148,11 +172,11 @@ let
         "fabric-26.1" = _3jebR5kb;
         "fabric-26.1.1" = _ngmdg0lp;
         "fabric-26.1.2" = _Z8XQnFW9;
-        "fabric-26.2" = _V0hkGxIK;
-        "fabric-26.3" = _2x4XTd0t;
-        "forge-1.20.1" = _baZLYH7n;
-        "forge-1.21" = _fFVjeuT3;
-        "forge-1.21.1" = _fFVjeuT3;
+        "fabric-26.2" = _e2OiMtwM;
+        "fabric-26.3" = _g6ANQNXq;
+        "forge-1.20.1" = _5JmwgJ3y;
+        "forge-1.21" = _ts2To0cP;
+        "forge-1.21.1" = _ts2To0cP;
         "forge-1.21.4" = _3LQQNnXm;
         "forge-1.21.5" = _1nuczR5T;
         "forge-1.21.6" = _Y7XogIbx;
@@ -164,11 +188,11 @@ let
         "forge-26.1" = _3jebR5kb;
         "forge-26.1.1" = _ngmdg0lp;
         "forge-26.1.2" = _Z8XQnFW9;
-        "forge-26.2" = _V0hkGxIK;
-        "forge-26.3" = _2x4XTd0t;
-        "neoforge-1.20.1" = _baZLYH7n;
-        "neoforge-1.21" = _fFVjeuT3;
-        "neoforge-1.21.1" = _fFVjeuT3;
+        "forge-26.2" = _e2OiMtwM;
+        "forge-26.3" = _g6ANQNXq;
+        "neoforge-1.20.1" = _5JmwgJ3y;
+        "neoforge-1.21" = _ts2To0cP;
+        "neoforge-1.21.1" = _ts2To0cP;
         "neoforge-1.21.4" = _3LQQNnXm;
         "neoforge-1.21.5" = _1nuczR5T;
         "neoforge-1.21.6" = _Y7XogIbx;
@@ -180,11 +204,11 @@ let
         "neoforge-26.1" = _3jebR5kb;
         "neoforge-26.1.1" = _ngmdg0lp;
         "neoforge-26.1.2" = _Z8XQnFW9;
-        "neoforge-26.2" = _V0hkGxIK;
-        "neoforge-26.3" = _2x4XTd0t;
-        "quilt-1.20.1" = _baZLYH7n;
-        "quilt-1.21" = _fFVjeuT3;
-        "quilt-1.21.1" = _fFVjeuT3;
+        "neoforge-26.2" = _e2OiMtwM;
+        "neoforge-26.3" = _g6ANQNXq;
+        "quilt-1.20.1" = _5JmwgJ3y;
+        "quilt-1.21" = _ts2To0cP;
+        "quilt-1.21.1" = _ts2To0cP;
         "quilt-1.21.4" = _3LQQNnXm;
         "quilt-1.21.5" = _1nuczR5T;
         "quilt-1.21.6" = _Y7XogIbx;
@@ -196,8 +220,8 @@ let
         "quilt-26.1" = _3jebR5kb;
         "quilt-26.1.1" = _ngmdg0lp;
         "quilt-26.1.2" = _Z8XQnFW9;
-        "quilt-26.2" = _V0hkGxIK;
-        "quilt-26.3" = _2x4XTd0t;
+        "quilt-26.2" = _e2OiMtwM;
+        "quilt-26.3" = _g6ANQNXq;
         "pkg-1.20.1-1.0-fabric+forge+neo" = _61sKzomI;
         "pkg-1.21.1-1.0-fabric+forge+neo" = _W2YC5G0x;
         "pkg-1.21.4-1.0-fabric+forge+neo" = _3LQQNnXm;
@@ -220,7 +244,11 @@ let
         "pkg-1.21.1-1.2-fabric+forge+neo" = _fFVjeuT3;
         "pkg-26.2.0-1.2-fabric+forge+neo" = _V0hkGxIK;
         "pkg-26.3.0-1.2-fabric+forge+neo" = _2x4XTd0t;
-        "default" = _2x4XTd0t;
+        "pkg-1.20.1-1.3-fabric+forge+neo" = _5JmwgJ3y;
+        "pkg-1.21.1-1.3-fabric+forge+neo" = _ts2To0cP;
+        "pkg-26.2.0-1.3-fabric+forge+neo" = _e2OiMtwM;
+        "pkg-26.3.0-1.3-fabric+forge+neo" = _g6ANQNXq;
+        "default" = _g6ANQNXq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gui-effect-timer";

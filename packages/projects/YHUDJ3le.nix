@@ -36,6 +36,11 @@ let
             "file" = "more_lucky_charm_addon-1.5.0-forge-1.20.1.jar";
             "hash" = "sha512-pzGjq27IpocACM5/NoqCFPWMQZK1HBrpz5rEi1FfDVGvAGygjdIBgD6/AiFPCdd1HakflvY6KnMVSr1O0lJc2Q==";
         };
+        _s3BzM83M = {
+            "id" = "s3BzM83M";
+            "file" = "more_lucky_charm_addon-1.5.1-special_birthday-forge-1.20.1.jar";
+            "hash" = "sha512-wmbrpCfGyGxgd886xPBZMgrteBKgP4ormmJNMdpf8G/Ucrlo54TlOfL6/W3XeN1VUEpyggTZowo4wwTQ8m+OLg==";
+        };
     in {
         "aIF5JPmT" = _aIF5JPmT;
         "n8mt0GJ0" = _n8mt0GJ0;
@@ -44,7 +49,8 @@ let
         "bprDxJaU" = _bprDxJaU;
         "Qf06XdNx" = _Qf06XdNx;
         "ouKQZp7z" = _ouKQZp7z;
-        "forge-1.20.1" = _ouKQZp7z;
+        "s3BzM83M" = _s3BzM83M;
+        "forge-1.20.1" = _s3BzM83M;
         "pkg-1.0.0" = _aIF5JPmT;
         "pkg-1.1.0" = _n8mt0GJ0;
         "pkg-1.2.0" = _38FW7CWi;
@@ -52,7 +58,8 @@ let
         "pkg-1.3.0" = _bprDxJaU;
         "pkg-1.4.0" = _Qf06XdNx;
         "pkg-1.5.0" = _ouKQZp7z;
-        "default" = _ouKQZp7z;
+        "pkg-1.5.1" = _s3BzM83M;
+        "default" = _s3BzM83M;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-lucky-charm-addon";

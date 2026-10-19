@@ -361,6 +361,21 @@ let
             "file" = "SkyOcean-1.18.1-26.3.jar";
             "hash" = "sha512-c9/L2sOSpeWwtpI0ml+xOcAPwVWikwQG9mecYL12PtttFWZzE3zXd/9QL5tRmLcsE7wz4PgMcFew6b5E1fAM6Q==";
         };
+        _k48AJX1G = {
+            "id" = "k48AJX1G";
+            "file" = "SkyOcean-1.18.2-26.1.jar";
+            "hash" = "sha512-u9OPPIWet2D74lkoCJm22BL43qSBvWwQQgSgVctId/ckH4E+jRVx1wvdBdLWXqpF2iIUHtI1qbxJE4GXsTE1UQ==";
+        };
+        _W26r7CRr = {
+            "id" = "W26r7CRr";
+            "file" = "SkyOcean-1.18.2-26.2.jar";
+            "hash" = "sha512-4td5X2LPUzhX2r2KLTrWkB3ZoMyFMH+0VVxBj6tsyKAAROrUfnI3QrAhTLQqxf9PEiNtZpvJtAQwVvIE2OVvSQ==";
+        };
+        _7uAGhgRS = {
+            "id" = "7uAGhgRS";
+            "file" = "SkyOcean-1.18.2-26.3.jar";
+            "hash" = "sha512-GAU0rrK+rLzNr6Tyfgw1+Lv2U4/iyptORfendqxFY5kXf++M2j+YjXvCqfpt1wus9c4qYs+vSNkWdU5uj11QuQ==";
+        };
     in {
         "Zz8EmTsT" = _Zz8EmTsT;
         "kTLHmk5G" = _kTLHmk5G;
@@ -434,6 +449,9 @@ let
         "wUmaLMwr" = _wUmaLMwr;
         "cpP6yTOr" = _cpP6yTOr;
         "KcmwMzjN" = _KcmwMzjN;
+        "k48AJX1G" = _k48AJX1G;
+        "W26r7CRr" = _W26r7CRr;
+        "7uAGhgRS" = _7uAGhgRS;
         "fabric-1.21.5" = _CIzfGPrH;
         "fabric-1.21.6" = _S0whFZLZ;
         "fabric-1.21.7" = _S0whFZLZ;
@@ -441,11 +459,11 @@ let
         "fabric-1.21.9" = _6P89nYHP;
         "fabric-1.21.10" = _6P89nYHP;
         "fabric-1.21.11" = _lwE5tLcN;
-        "fabric-26.1" = _wUmaLMwr;
-        "fabric-26.1.1" = _wUmaLMwr;
-        "fabric-26.1.2" = _wUmaLMwr;
-        "fabric-26.2" = _cpP6yTOr;
-        "fabric-26.3" = _KcmwMzjN;
+        "fabric-26.1" = _k48AJX1G;
+        "fabric-26.1.1" = _k48AJX1G;
+        "fabric-26.1.2" = _k48AJX1G;
+        "fabric-26.2" = _W26r7CRr;
+        "fabric-26.3" = _7uAGhgRS;
         "pkg-1.0.0" = _Zz8EmTsT;
         "pkg-1.1.0" = _kTLHmk5G;
         "pkg-1.2.0" = _HFg4yTpm;
@@ -504,7 +522,8 @@ let
         "pkg-1.17.2" = _10QpYKuY;
         "pkg-1.18.0" = _1vu2w975;
         "pkg-1.18.1" = _KcmwMzjN;
-        "default" = _KcmwMzjN;
+        "pkg-1.18.2" = _7uAGhgRS;
+        "default" = _7uAGhgRS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skyocean";

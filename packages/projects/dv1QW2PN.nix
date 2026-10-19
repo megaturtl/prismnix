@@ -66,6 +66,21 @@ let
             "file" = "Kaffee's_Dual_Ride-neoforge-mc26.1.2-26.3-1.2.0.jar";
             "hash" = "sha512-+sMCF1XSWfqjEOcd5Hfd/Pgttlivr2KBOBtEMiBjmSA+39+ThwMN5tYUm32kZyPRHC7RK3q1wi8zVRfekvNo0Q==";
         };
+        _SmBGoSyl = {
+            "id" = "SmBGoSyl";
+            "file" = "Kaffee's_Dual_Ride-neoforge-mc1.20.6-1.21.1-1.2.0.jar";
+            "hash" = "sha512-keW/OcojIRVLEfGB6PeeLeY6AdPxPXxgUAWhtnS3K1Nu9UAdcY+NnP2BvHLU37LbN6YaK7L/EEgYeO+zkU510Q==";
+        };
+        _uajIpird = {
+            "id" = "uajIpird";
+            "file" = "Kaffee's_Dual_Ride-neoforge-mc1.21.2-1.21.10-1.2.0.jar";
+            "hash" = "sha512-tXVgZYlsTNhm/1hARSd58rx18bI1VeO3LtB7mEDuZzsTUcnp+y2k/b4lOIIEFfoT1WCf0VAkbG7PKb0XqJ/Myg==";
+        };
+        _bqygyi6s = {
+            "id" = "bqygyi6s";
+            "file" = "Kaffee's_Dual_Ride-neoforge-mc1.21.11-26.3-1.2.0.jar";
+            "hash" = "sha512-ov/3RoXQN1UqwqguvetCxzU3ryE8NUYruO616Q5mJcDDSRymmwNq5n4jRYGJYOFbi4kLJDvB1oOBBeicQNYt0w==";
+        };
     in {
         "erhcBjec" = _erhcBjec;
         "FOeILfbw" = _FOeILfbw;
@@ -80,6 +95,9 @@ let
         "YSLKYETk" = _YSLKYETk;
         "T14PXNLz" = _T14PXNLz;
         "B3Uk4DMK" = _B3Uk4DMK;
+        "SmBGoSyl" = _SmBGoSyl;
+        "uajIpird" = _uajIpird;
+        "bqygyi6s" = _bqygyi6s;
         "fabric-1.19.2" = _gamvk0LR;
         "fabric-1.20" = _lzZF1p8s;
         "fabric-1.20.1" = _lzZF1p8s;
@@ -110,12 +128,27 @@ let
         "fabric-26.1.2" = _T14PXNLz;
         "fabric-26.2" = _T14PXNLz;
         "fabric-26.3" = _T14PXNLz;
-        "neoforge-26.1.2" = _B3Uk4DMK;
-        "neoforge-26.2" = _B3Uk4DMK;
-        "neoforge-26.3" = _B3Uk4DMK;
+        "neoforge-26.1.2" = _bqygyi6s;
+        "neoforge-26.2" = _bqygyi6s;
+        "neoforge-26.3" = _bqygyi6s;
+        "neoforge-1.20.6" = _SmBGoSyl;
+        "neoforge-1.21" = _SmBGoSyl;
+        "neoforge-1.21.1" = _SmBGoSyl;
+        "neoforge-1.21.2" = _uajIpird;
+        "neoforge-1.21.3" = _uajIpird;
+        "neoforge-1.21.4" = _uajIpird;
+        "neoforge-1.21.5" = _uajIpird;
+        "neoforge-1.21.6" = _uajIpird;
+        "neoforge-1.21.7" = _uajIpird;
+        "neoforge-1.21.8" = _uajIpird;
+        "neoforge-1.21.9" = _uajIpird;
+        "neoforge-1.21.10" = _uajIpird;
+        "neoforge-1.21.11" = _bqygyi6s;
+        "neoforge-26.1" = _bqygyi6s;
+        "neoforge-26.1.1" = _bqygyi6s;
         "pkg-1.1.0" = _4V6fF7Pm;
-        "pkg-1.2.0" = _B3Uk4DMK;
-        "default" = _B3Uk4DMK;
+        "pkg-1.2.0" = _bqygyi6s;
+        "default" = _bqygyi6s;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kaffees_dual_ride";

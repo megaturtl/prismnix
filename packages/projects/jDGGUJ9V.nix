@@ -176,6 +176,21 @@ let
             "file" = "bubblellaneous_DP_v3-0-6+papermc.zip";
             "hash" = "sha512-WNMimthdsytEbguRtGFixood7N3B4i3UoJzlxvU3ec8BFLTn55+0dKnS9BffJ7c73E6QQxC4S7clBvlyMtTLIg==";
         };
+        _SkYmYstB = {
+            "id" = "SkYmYstB";
+            "file" = "bubblellaneous_DP_v3-0-8.zip";
+            "hash" = "sha512-sNr91/M4MuxVaauqrSjTpsuKRFgyM5zcNE1vt6ooI3etThUhzAp4AzHZfpoU91v6ZaabKhO71xcJdWEWOCoqiA==";
+        };
+        _reGSV1s3 = {
+            "id" = "reGSV1s3";
+            "file" = "bubblellaneous_DP_v3-0-8+papermc.zip";
+            "hash" = "sha512-X6RTlmigYxoCzK6evKH/RYIS5B0HhQNnr74KrUSc+wkUc4dNfdNyJNVc4g2W9YH0dW64Gigd2Uj5w+OODFgvvw==";
+        };
+        _mKdN91ng = {
+            "id" = "mKdN91ng";
+            "file" = "bubblellaneous_RP_v3-0-8.zip";
+            "hash" = "sha512-iLZHJ1GTIuSZ0/AWFTX33WCrAETWl+XWWFJPwxqeqpkNAMK3ZtVGDDQrSbvhjK4ueGPRUW7YElx5++49c56g+A==";
+        };
     in {
         "qOWRbIDR" = _qOWRbIDR;
         "TaFHfkDN" = _TaFHfkDN;
@@ -212,6 +227,9 @@ let
         "guLo8Ip4" = _guLo8Ip4;
         "YTtzBpQ0" = _YTtzBpQ0;
         "c9LbW4oP" = _c9LbW4oP;
+        "SkYmYstB" = _SkYmYstB;
+        "reGSV1s3" = _reGSV1s3;
+        "mKdN91ng" = _mKdN91ng;
         "datapack-1.19" = _qOWRbIDR;
         "datapack-1.19.1" = _qOWRbIDR;
         "datapack-1.19.2" = _qOWRbIDR;
@@ -227,16 +245,18 @@ let
         "datapack-1.21.1" = _KZgWOupz;
         "datapack-1.21.5" = _Fi3lygAf;
         "datapack-1.21.10" = _4tjfOD6y;
-        "datapack-1.21.11" = _c9LbW4oP;
-        "datapack-26.1" = _c9LbW4oP;
-        "datapack-26.1.1" = _c9LbW4oP;
-        "datapack-26.1.2" = _c9LbW4oP;
-        "datapack-26.2" = _c9LbW4oP;
-        "minecraft-1.21.11" = _YTtzBpQ0;
-        "minecraft-26.1" = _YTtzBpQ0;
-        "minecraft-26.1.1" = _YTtzBpQ0;
-        "minecraft-26.1.2" = _YTtzBpQ0;
-        "minecraft-26.2" = _YTtzBpQ0;
+        "datapack-1.21.11" = _reGSV1s3;
+        "datapack-26.1" = _reGSV1s3;
+        "datapack-26.1.1" = _reGSV1s3;
+        "datapack-26.1.2" = _reGSV1s3;
+        "datapack-26.2" = _reGSV1s3;
+        "datapack-26.3" = _reGSV1s3;
+        "minecraft-1.21.11" = _mKdN91ng;
+        "minecraft-26.1" = _mKdN91ng;
+        "minecraft-26.1.1" = _mKdN91ng;
+        "minecraft-26.1.2" = _mKdN91ng;
+        "minecraft-26.2" = _mKdN91ng;
+        "minecraft-26.3" = _mKdN91ng;
         "fabric-1.21.11" = _guLo8Ip4;
         "fabric-26.1" = _guLo8Ip4;
         "fabric-26.1.1" = _guLo8Ip4;
@@ -288,7 +308,10 @@ let
         "pkg-3.0.6+mod" = _guLo8Ip4;
         "pkg-3.0.6+rp" = _YTtzBpQ0;
         "pkg-3.0.6+papermc" = _c9LbW4oP;
-        "default" = _c9LbW4oP;
+        "pkg-3.0.8" = _SkYmYstB;
+        "pkg-3.0.8+papermc" = _reGSV1s3;
+        "pkg-3.0.8+rp" = _mKdN91ng;
+        "default" = _mKdN91ng;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bubblellaneous";

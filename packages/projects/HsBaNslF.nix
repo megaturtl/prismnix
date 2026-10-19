@@ -101,6 +101,31 @@ let
             "file" = "visitingvillagers-1.0.3-nf-1.21.1.jar";
             "hash" = "sha512-yXc0DuPiYC+pephFIl94KV1EAZJSvihA/Kyz6Uay9pRBEszI8jUiS5kUSYN3Ky9XVDG708JXFC/A+5n8UQdxpw==";
         };
+        _S6F1ev2f = {
+            "id" = "S6F1ev2f";
+            "file" = "visitingvillagers-1.0.3-fa-1.20.1.jar";
+            "hash" = "sha512-nb0rZRlloflQPxpjPTKB8V0sJULZgwVKECraVJS0vDmH1SQTgAFNKKg56y3tqRvgikHRgYsk81RrIu2+LHVMjw==";
+        };
+        _Ct800Vvb = {
+            "id" = "Ct800Vvb";
+            "file" = "visitingvillagers-1.0.3-fa-1.21.1.jar";
+            "hash" = "sha512-vHDFyCYMyxFYOtl7Yq7GfPR/lYJHDPOLxtTUmbgvpd/ZWTBXUeIYLBlMRZv28AqBn4lLc7Od8XvKEehto996uQ==";
+        };
+        _PEGYmCtP = {
+            "id" = "PEGYmCtP";
+            "file" = "visitingvillagers-1.0.3-fo-1.20.1.jar";
+            "hash" = "sha512-SVrIkzjcFoFYPwQ3UfjhmmdueCHbnChnQcY8a2sWuh390YErWf9dn29x6f7QzBjQDmHPonUgUtzau5nUyott4g==";
+        };
+        _AOQwVCbX = {
+            "id" = "AOQwVCbX";
+            "file" = "visitingvillagers-1.0.3-fo-1.21.1.jar";
+            "hash" = "sha512-tORaS4G9X84aEX7gVUXGmrC9fz6CJSc7nK0heJykbEJuqNETtUTYjKjjYTdVZwa7WMCH5BaxflBJ1qA0/MZDtQ==";
+        };
+        _AK1qjW1V = {
+            "id" = "AK1qjW1V";
+            "file" = "visitingvillagers-1.0.31-nf-1.21.1.jar";
+            "hash" = "sha512-zR6NxDG6MQ2V1vjwD3/WrBAJ8gzwmJTzDo/qYG+/cyulxtdrq82dDSkZySmrbmgyMsvy8lhnwd3/R2sKGXiVHA==";
+        };
     in {
         "zY21gxJV" = _zY21gxJV;
         "JB5wyxTm" = _JB5wyxTm;
@@ -122,16 +147,21 @@ let
         "d7SwHxeZ" = _d7SwHxeZ;
         "2dlztGE7" = _2dlztGE7;
         "WvlMc0fg" = _WvlMc0fg;
-        "forge-1.20.1" = _4EmZvR3w;
+        "S6F1ev2f" = _S6F1ev2f;
+        "Ct800Vvb" = _Ct800Vvb;
+        "PEGYmCtP" = _PEGYmCtP;
+        "AOQwVCbX" = _AOQwVCbX;
+        "AK1qjW1V" = _AK1qjW1V;
+        "forge-1.20.1" = _PEGYmCtP;
         "forge-1.21" = _WHMMtyZD;
-        "forge-1.21.1" = _rXD4C7Yo;
-        "fabric-1.20.1" = _x3CH55Xk;
+        "forge-1.21.1" = _AOQwVCbX;
+        "fabric-1.20.1" = _S6F1ev2f;
         "fabric-1.21" = _keJZCy7t;
-        "fabric-1.21.1" = _7uqw5DYU;
+        "fabric-1.21.1" = _Ct800Vvb;
         "fabric-1.21.11" = _PxMMhTz5;
         "fabric-26.2" = _d7SwHxeZ;
         "neoforge-1.21" = _R9GNkOEY;
-        "neoforge-1.21.1" = _WvlMc0fg;
+        "neoforge-1.21.1" = _AK1qjW1V;
         "neoforge-1.21.11" = _MvDLnoUS;
         "neoforge-26.2" = _2dlztGE7;
         "pkg-1.0.0-mc1.20.1" = _zY21gxJV;
@@ -145,7 +175,12 @@ let
         "pkg-1.0.3-fa-26.2" = _d7SwHxeZ;
         "pkg-1.0.3-nf-26.2" = _2dlztGE7;
         "pkg-1.0.3-nf-1.21.1" = _WvlMc0fg;
-        "default" = _WvlMc0fg;
+        "pkg-1.0.3-fa-1.20.1" = _S6F1ev2f;
+        "pkg-1.0.3-fa-1.21.1" = _Ct800Vvb;
+        "pkg-1.0.3-fo-1.20.1" = _PEGYmCtP;
+        "pkg-1.0.3-fo-1.21.1" = _AOQwVCbX;
+        "pkg-1.0.31-nf-1.21.1" = _AK1qjW1V;
+        "default" = _AK1qjW1V;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "visiting-villagers";

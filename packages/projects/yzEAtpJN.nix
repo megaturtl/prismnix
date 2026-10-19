@@ -1176,6 +1176,11 @@ let
             "file" = "Saros-Essentials-Forge-26.3-1.3.6.jar";
             "hash" = "sha512-EEDGZWwnLz1Nyg7w5pxZ0jI1I68VHM/uP58jBCFqG3RLa9wiY2xprdtORQ7KP4TO27wUqTiFolPWKx2mubYMNA==";
         };
+        _7wVXUBZR = {
+            "id" = "7wVXUBZR";
+            "file" = "Saros-Essentials-NeoForge-26.3-1.3.6.jar";
+            "hash" = "sha512-6laZNqZkYVrMEsk/UeWUQymssBNkGx8mfixUmij6hpk5UEhERBFbMEuC6GLiZSdUhezrVQuVajUdJwVCnksvNg==";
+        };
     in {
         "DhGEXrXA" = _DhGEXrXA;
         "5sMT0avl" = _5sMT0avl;
@@ -1412,6 +1417,7 @@ let
         "Q9OANw6o" = _Q9OANw6o;
         "aGhWFwzd" = _aGhWFwzd;
         "FfV1HPrm" = _FfV1HPrm;
+        "7wVXUBZR" = _7wVXUBZR;
         "forge-1.12.2" = _mBHWSx5B;
         "forge-1.16.5" = _4CEQxwRH;
         "forge-1.20.1" = _TQMdg5as;
@@ -1460,7 +1466,7 @@ let
         "neoforge-1.21.1" = _NILxgoZw;
         "neoforge-26.2" = _OkXihRXi;
         "neoforge-1.20.1" = _xAZxsl2N;
-        "neoforge-26.3" = _aGhWFwzd;
+        "neoforge-26.3" = _7wVXUBZR;
         "pkg-v0.1" = _orieDQOW;
         "pkg-v0.2" = _OjTi8aIZ;
         "pkg-v0.3" = _uxHBWDYg;
@@ -1520,7 +1526,8 @@ let
         "pkg-1.3.4" = _Q9OANw6o;
         "pkg-1.3.5" = _aGhWFwzd;
         "pkg-1.3.6-forge-26.3" = _FfV1HPrm;
-        "default" = _FfV1HPrm;
+        "pkg-1.3.6" = _7wVXUBZR;
+        "default" = _7wVXUBZR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "saros-essentials";

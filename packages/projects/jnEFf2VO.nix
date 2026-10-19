@@ -96,6 +96,16 @@ let
             "file" = "frycmobvariants-6.6.0+1.21.jar";
             "hash" = "sha512-2KXdBDWaDk9hC/AK4mT6zsT7eY8S7o67Sh/Ji3LyLIOhPA/g2uZfi8Lab5exQU4M0LNHlOnae9rWZ5q4vEbmcg==";
         };
+        _L7vII8tm = {
+            "id" = "L7vII8tm";
+            "file" = "frycmobvariants-6.6.1+1.21.jar";
+            "hash" = "sha512-rCoaeTjTYz0xE3da63mI7nrvuJw6ofn3g+kKlL7pr7qIbWFPyNLDXrsHmrdkikrfufrjwwxWlZMJlmn/pAbjwQ==";
+        };
+        _xuW7CGMG = {
+            "id" = "xuW7CGMG";
+            "file" = "frycmobvariants-7.6.1+26.3.jar";
+            "hash" = "sha512-bv3WJ0fdxGPVzOW48q4q8TtrWDSmY48nNBE4DVv87wCtyhdlCKLL11Ue9HHKGJYhNiI7EBCLqH9vrQL9o7FZJQ==";
+        };
     in {
         "tnllVbgM" = _tnllVbgM;
         "b0N6wgUK" = _b0N6wgUK;
@@ -116,6 +126,8 @@ let
         "BoOo8diU" = _BoOo8diU;
         "ItBv0Gtt" = _ItBv0Gtt;
         "MnxGWkzD" = _MnxGWkzD;
+        "L7vII8tm" = _L7vII8tm;
+        "xuW7CGMG" = _xuW7CGMG;
         "fabric-1.20" = _5ofJyd9w;
         "fabric-1.20.1" = _5ofJyd9w;
         "fabric-1.20.2" = _5ofJyd9w;
@@ -123,8 +135,9 @@ let
         "fabric-1.20.4" = _5ofJyd9w;
         "fabric-1.20.5" = _BoOo8diU;
         "fabric-1.20.6" = _BoOo8diU;
-        "fabric-1.21" = _MnxGWkzD;
-        "fabric-1.21.1" = _MnxGWkzD;
+        "fabric-1.21" = _L7vII8tm;
+        "fabric-1.21.1" = _L7vII8tm;
+        "fabric-26.3" = _xuW7CGMG;
         "pkg-4.4.2+1.20" = _tnllVbgM;
         "pkg-5.4.2+1.20.5" = _b0N6wgUK;
         "pkg-6.4.3+1.21" = _qVbvpSnD;
@@ -144,7 +157,9 @@ let
         "pkg-5.5.4+1.20.5" = _BoOo8diU;
         "pkg-6.5.4+1.21" = _ItBv0Gtt;
         "pkg-6.6.0+1.21" = _MnxGWkzD;
-        "default" = _MnxGWkzD;
+        "pkg-6.6.1+1.21" = _L7vII8tm;
+        "pkg-7.6.1+26.3" = _xuW7CGMG;
+        "default" = _xuW7CGMG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fryc-mob-variants";

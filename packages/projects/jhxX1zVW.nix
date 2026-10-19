@@ -1471,6 +1471,21 @@ let
             "file" = "AdditionalEnchantedMiner-1.21.1-neoforge-21.1.164.jar";
             "hash" = "sha512-vkOeLHidUtzIMDl0lsKnxweBkBQlIWLxVkytgxMG9BxApl+mO4Oqr+6FU/EQDH2CA5FUHjGuh8sEp0d/GT6p0g==";
         };
+        _iugcECVf = {
+            "id" = "iugcECVf";
+            "file" = "AdditionalEnchantedMiner-1.21.1-fabric-21.1.165.jar";
+            "hash" = "sha512-mRs3b2twjqHy4cMAc/JlW3olJ6GyZ6tLLg59+YTPXw+rZ2b9drHZWHi59jyWwRlCrkRCduZnHFFpiQ7ff15m1g==";
+        };
+        _PT3N5mEw = {
+            "id" = "PT3N5mEw";
+            "file" = "AdditionalEnchantedMiner-1.21.1-forge-21.1.165.jar";
+            "hash" = "sha512-fMzg7QgVPPuFFO6nAKEasKzk6ecDPBQ79YJ8TMmdUEZgXVvvuXOABTDi8cmp5nhj4ao2fk6yO/2b2obS5YnY8w==";
+        };
+        _zmHh2LIQ = {
+            "id" = "zmHh2LIQ";
+            "file" = "AdditionalEnchantedMiner-1.21.1-neoforge-21.1.165.jar";
+            "hash" = "sha512-7bttNLVITxo9QcsRsKZ9/adEnMvMukt17xirx+iSNnksNcx7LL1XD8CLRdBCRSX6U/Q3lO2TCeHo51N+wtt8XA==";
+        };
     in {
         "WAlScL50" = _WAlScL50;
         "l6GZuMkU" = _l6GZuMkU;
@@ -1766,13 +1781,16 @@ let
         "iqCORUA4" = _iqCORUA4;
         "PfGrYtW3" = _PfGrYtW3;
         "p0XlQYuL" = _p0XlQYuL;
+        "iugcECVf" = _iugcECVf;
+        "PT3N5mEw" = _PT3N5mEw;
+        "zmHh2LIQ" = _zmHh2LIQ;
         "fabric-1.19.4" = _WAlScL50;
         "fabric-1.20.1" = _usnMi65u;
         "fabric-1.19.2" = _gQGtSz8O;
         "fabric-1.20.2" = _Sc7k0YVa;
         "fabric-1.20.4" = _r44Q0ESt;
         "fabric-1.21" = _mWbUNhmE;
-        "fabric-1.21.1" = _PfGrYtW3;
+        "fabric-1.21.1" = _iugcECVf;
         "fabric-1.21.3" = _BVkvO36z;
         "fabric-1.21.4" = _q6kpahTX;
         "fabric-1.21.5" = _u1lWApJs;
@@ -1792,7 +1810,7 @@ let
         "forge-1.20.4" = _20brvOG7;
         "forge-1.16.5" = _cUiHiTBJ;
         "forge-1.21" = _Ju0KH9oB;
-        "forge-1.21.1" = _iqCORUA4;
+        "forge-1.21.1" = _PT3N5mEw;
         "forge-1.21.3" = _wQ5wPac9;
         "forge-1.21.5" = _tNRr0ZKj;
         "forge-1.21.7" = _tEepteSn;
@@ -1805,7 +1823,7 @@ let
         "neoforge-1.20.2" = _iBlwTBbg;
         "neoforge-1.20.4" = _MKF4yhEE;
         "neoforge-1.21" = _1EkjSNDg;
-        "neoforge-1.21.1" = _p0XlQYuL;
+        "neoforge-1.21.1" = _zmHh2LIQ;
         "neoforge-1.21.3" = _F8KVOkC1;
         "neoforge-1.21.4" = _jLemFNEN;
         "neoforge-1.21.5" = _aqinPa6M;
@@ -1963,7 +1981,8 @@ let
         "pkg-21.1.162" = _tM2ze03x;
         "pkg-21.11.163" = _3yEVXmRT;
         "pkg-21.1.164" = _p0XlQYuL;
-        "default" = _p0XlQYuL;
+        "pkg-21.1.165" = _zmHh2LIQ;
+        "default" = _zmHh2LIQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "additional-enchanted-miner";

@@ -26,22 +26,51 @@ let
             "file" = "glass-1.0.0+26.2-neoforge.jar";
             "hash" = "sha512-MZzw1x9gg/mSyjCW5juZojO/GqNEwDd8nsTxqJp/FCchhdJPrSPp+ztP2pSkr2gPkSkqWi9Ch9cmI4tR7gY5jw==";
         };
+        _pfHbU8hs = {
+            "id" = "pfHbU8hs";
+            "file" = "glass-1.0.1+26.2-fabric.jar";
+            "hash" = "sha512-C7W8+L7EJuyp6Gf98B+xf3dRD2lVH+ysPFkTV7n6NG9reLcluOi6YMWmTz1r7ymsWTsQkdAqX0kGdN7BJbR0Vw==";
+        };
+        _xHLubJ5w = {
+            "id" = "xHLubJ5w";
+            "file" = "glass-1.0.1+26.2-neoforge.jar";
+            "hash" = "sha512-e/YUKHdZi63vnqksaPJO/L/E40b+qZ/22YVHgn6Eoa3A4CmiJ6uFLh6dKJS5h4tTOolMNIOlFwLkOB6faEnLvQ==";
+        };
+        _rM0RXyly = {
+            "id" = "rM0RXyly";
+            "file" = "glass-1.0.0-experimental.sable+1.21.1-fabric-dev.jar";
+            "hash" = "sha512-M/4x/nwypkqKfokOihqwljhk4lCBkC/f+FiF3wqSNQopN+wR6Fl9x0/2Q/JyyTOba4fKBIE2ttfidP6EoGBgWQ==";
+        };
+        _hSDwnXJr = {
+            "id" = "hSDwnXJr";
+            "file" = "glass-1.0.0-experimental.sable+1.21.1-neoforge.jar";
+            "hash" = "sha512-DawxGAcoLhz6SpgFwLmf5ycRn3nZmqkRF41/VCud0P5aPV/6580u6P/sYs1j87IIeA9/MpnwFuHkM835eaJzhg==";
+        };
     in {
         "5GqfRzxS" = _5GqfRzxS;
         "75mihtGc" = _75mihtGc;
         "wEFp0avd" = _wEFp0avd;
         "BL2vYNCC" = _BL2vYNCC;
         "mnBNNM1r" = _mnBNNM1r;
-        "fabric-1.21.1" = _75mihtGc;
+        "pfHbU8hs" = _pfHbU8hs;
+        "xHLubJ5w" = _xHLubJ5w;
+        "rM0RXyly" = _rM0RXyly;
+        "hSDwnXJr" = _hSDwnXJr;
+        "fabric-1.21.1" = _rM0RXyly;
         "fabric-1.20.1" = _wEFp0avd;
-        "fabric-26.2" = _BL2vYNCC;
-        "neoforge-26.2" = _mnBNNM1r;
+        "fabric-26.2" = _pfHbU8hs;
+        "neoforge-26.2" = _xHLubJ5w;
+        "neoforge-1.21.1" = _hSDwnXJr;
         "pkg-0.1.0+alpha" = _5GqfRzxS;
         "pkg-0.1.1+alpha" = _75mihtGc;
         "pkg-0.1.1+alpha+1.20.1" = _wEFp0avd;
         "pkg-1.0.0+26.2-fabric" = _BL2vYNCC;
         "pkg-1.0.0+26.2-neoforge" = _mnBNNM1r;
-        "default" = _mnBNNM1r;
+        "pkg-1.0.1+26.2-fabric" = _pfHbU8hs;
+        "pkg-1.0.1+26.2-neoforge" = _xHLubJ5w;
+        "pkg-1.0.0-experimental.sable-fabric" = _rM0RXyly;
+        "pkg-1.0.0-experimental.sable-neo" = _hSDwnXJr;
+        "default" = _hSDwnXJr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "glass-remastered";

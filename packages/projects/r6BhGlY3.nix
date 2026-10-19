@@ -61,6 +61,26 @@ let
             "file" = "mixinhelper-1.1.1.jar";
             "hash" = "sha512-rJI4sft0hi5l3WJP9VJVJvVJhAAvm4OdnaMX6EHJtOjiojwKQeg6DxfI3+pNewccL6rWlEtkCxUkR9cRObznDw==";
         };
+        _ZjCghAnU = {
+            "id" = "ZjCghAnU";
+            "file" = "mixinhelper-1.1.2.jar";
+            "hash" = "sha512-OQlJdr1cghQSmGRZbNN25hI31QwSuYqBQq424I7Z54ePQI3Aqc3Rm9q5XgNOnGJy/TySkOoeicw3nn9A+QZ6og==";
+        };
+        _QO22h1nS = {
+            "id" = "QO22h1nS";
+            "file" = "mixinhelper-1.1.2.jar";
+            "hash" = "sha512-aLvYNdWDPEmhfFQbgezn5IwKxEZHR/Mzu+Zhq2YP9Wa9p4/ef3L4WP8VtIVzvFxFiy5k9C6FGHD3n62bt5ZCeg==";
+        };
+        _6lHdXWzv = {
+            "id" = "6lHdXWzv";
+            "file" = "mixinhelper-1.1.2.jar";
+            "hash" = "sha512-DVcKuDpDs+n7LLUggpZgUl7dLC7qFBSwlQA1hHaTPWR1QybeqxewW+aIgdDsA6xB9nL3FYPHNU8DdUv9XRX3aA==";
+        };
+        _UfiezbIj = {
+            "id" = "UfiezbIj";
+            "file" = "mixinhelper-1.1.2.jar";
+            "hash" = "sha512-bzasd1xSuazFj0ZlNl8JcKmk/Xe956v3Ud8CvarJRFSe1cnTvWDkjYrDmH1A2CmDxWQ3XLefuLVlBc7xBAB6SQ==";
+        };
     in {
         "ZcD76U25" = _ZcD76U25;
         "HoQoSSqj" = _HoQoSSqj;
@@ -74,10 +94,14 @@ let
         "C5yxTlDt" = _C5yxTlDt;
         "cPkofTKN" = _cPkofTKN;
         "66xuYJwO" = _66xuYJwO;
-        "fabric-1.21.1" = _C5yxTlDt;
-        "fabric-1.20.1" = _oJ7F2YHd;
-        "neoforge-1.21.1" = _66xuYJwO;
-        "forge-1.20.1" = _cPkofTKN;
+        "ZjCghAnU" = _ZjCghAnU;
+        "QO22h1nS" = _QO22h1nS;
+        "6lHdXWzv" = _6lHdXWzv;
+        "UfiezbIj" = _UfiezbIj;
+        "fabric-1.21.1" = _QO22h1nS;
+        "fabric-1.20.1" = _ZjCghAnU;
+        "neoforge-1.21.1" = _UfiezbIj;
+        "forge-1.20.1" = _6lHdXWzv;
         "pkg-1.0.0+fabric-1211" = _ZcD76U25;
         "pkg-1.0.0+fabric-1201" = _HoQoSSqj;
         "pkg-1.0.0+neoforge-1211" = _YduhVHJC;
@@ -90,7 +114,11 @@ let
         "pkg-1.1.1+fabric-1211" = _C5yxTlDt;
         "pkg-1.1.1+forge-1201" = _cPkofTKN;
         "pkg-1.1.1+neoforge-1211" = _66xuYJwO;
-        "default" = _66xuYJwO;
+        "pkg-1.1.2+fabric-1201" = _ZjCghAnU;
+        "pkg-1.1.2+fabric-1211" = _QO22h1nS;
+        "pkg-1.1.2+forge-1201" = _6lHdXWzv;
+        "pkg-1.1.2+neoforge-1211" = _UfiezbIj;
+        "default" = _UfiezbIj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mixin-helper";

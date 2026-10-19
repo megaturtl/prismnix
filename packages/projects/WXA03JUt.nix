@@ -561,6 +561,21 @@ let
             "file" = "EclipticSeasons-Fabricated-26.2-fabric-0.15.4.jar";
             "hash" = "sha512-Z/ndiwuAVrY0NXblJOJPiwSJI0PIRGqOd3oHT6+IH3uodpjGfFSpM95t7GKAsIrNOO/HNIYsXtX0nd/OUu11Tg==";
         };
+        _NcuTnvJG = {
+            "id" = "NcuTnvJG";
+            "file" = "EclipticSeasons-Fabricated-26.3-fabric-0.15.4.1.jar";
+            "hash" = "sha512-+XsYES1D6cbQepNGEq4X+8HeXZIcSo08BuzRr2YTbmla7l5KeTuLfhFIBx3FPx+dzqe9ZNjFYaDIM3Yc8c6EUA==";
+        };
+        _qszDLfic = {
+            "id" = "qszDLfic";
+            "file" = "EclipticSeasons-Fabricated-26.2-fabric-0.15.4.1.jar";
+            "hash" = "sha512-iESBtMarHbYVnxehcBhraNrojx21j2ko7bRI5ShpCTx7+D6ovyxS2Cba1L9GXcg/QifMMoutLjuk2AzaZuPS0w==";
+        };
+        _5htKX4hn = {
+            "id" = "5htKX4hn";
+            "file" = "EclipticSeasons-Fabricated-26.1.2-fabric-0.15.4.1.jar";
+            "hash" = "sha512-h8QMJ7dKXPvamJj8bwR3gTJnUybGMXIVlR+WkOLGGWM6gAXrHZL9KqUbMxGN+lfFILr5D2f8D/Ei1/O/y9KlPQ==";
+        };
     in {
         "Ra9sXBVp" = _Ra9sXBVp;
         "o5kRAhNJ" = _o5kRAhNJ;
@@ -674,11 +689,14 @@ let
         "B6wtojgm" = _B6wtojgm;
         "qhSPArkD" = _qhSPArkD;
         "na6Esr0w" = _na6Esr0w;
-        "fabric-26.1.1" = _qhSPArkD;
-        "fabric-26.1.2" = _qhSPArkD;
-        "fabric-26.1" = _qhSPArkD;
-        "fabric-26.2" = _na6Esr0w;
-        "fabric-26.3" = _B6wtojgm;
+        "NcuTnvJG" = _NcuTnvJG;
+        "qszDLfic" = _qszDLfic;
+        "5htKX4hn" = _5htKX4hn;
+        "fabric-26.1.1" = _5htKX4hn;
+        "fabric-26.1.2" = _5htKX4hn;
+        "fabric-26.1" = _5htKX4hn;
+        "fabric-26.2" = _qszDLfic;
+        "fabric-26.3" = _NcuTnvJG;
         "pkg-26.1.2-fabric-0.13.0" = _Ra9sXBVp;
         "pkg-26.1.2-fabric-0.13.0-beta9-4" = _o5kRAhNJ;
         "pkg-26.1.2-fabric-0.13.0-beta12" = _nfvdD2KO;
@@ -791,7 +809,10 @@ let
         "pkg-26.3-fabric-0.15.4" = _B6wtojgm;
         "pkg-26.1.2-fabric-0.15.4" = _qhSPArkD;
         "pkg-26.2-fabric-0.15.4" = _na6Esr0w;
-        "default" = _na6Esr0w;
+        "pkg-26.3-fabric-0.15.4.1" = _NcuTnvJG;
+        "pkg-26.2-fabric-0.15.4.1" = _qszDLfic;
+        "pkg-26.1.2-fabric-0.15.4.1" = _5htKX4hn;
+        "default" = _5htKX4hn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ecliptic-seasons-fabricated";

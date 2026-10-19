@@ -181,6 +181,26 @@ let
             "file" = "ImmersiveUI-NEOFORGE-0.3.6+1.21.11.jar";
             "hash" = "sha512-vJro2Bu206moP9J+JHtzMNHRbkYHfpGE3WqWZhnOaVVqLp9my6YtaKZP8AokkJIEd1CKrRzqZv/coVaKhzw83w==";
         };
+        _iTiSzeE9 = {
+            "id" = "iTiSzeE9";
+            "file" = "immersiveui-fabric-26.2-0.3.6+26.2.jar";
+            "hash" = "sha512-lRSSfVeWa141dwzjo0oigLaKmBW0AO4A4TSFAPYtQd2I0HnZpUtxeM6MHBJPP5zoBow+i8N1/XQbC/WCXJ1nXg==";
+        };
+        _7yGQ8ruC = {
+            "id" = "7yGQ8ruC";
+            "file" = "immersiveui-neoforge-26.2-0.3.6+26.2.jar";
+            "hash" = "sha512-v34hyHEwzksewlqBTcbKUEey/oyr7DVnZ92f1T2KyX13uuOsvtie9Dv96hkriAkP8aTss2m9sZXgI3Gy0cYOGg==";
+        };
+        _RiFav7ly = {
+            "id" = "RiFav7ly";
+            "file" = "immersiveui-fabric-26.3-0.3.6+26.3.jar";
+            "hash" = "sha512-PvNuhxcIoQtf54/7yNpVHxDdmKMtFdcwIPdGMN8qkFNwwLI7rGaF2qTYSC4YfRQZwSaggxO4fqaujIOW5NDzGQ==";
+        };
+        _f63H96q5 = {
+            "id" = "f63H96q5";
+            "file" = "immersiveui-neoforge-26.3-0.3.6+26.3.jar";
+            "hash" = "sha512-RZPNgmUA+TAQJvmW9qCh3Y2hO9zww3Lj4VrbGTdvrLn2ySjH0EGkWmbMnGrCilQEYiV+M9vNenzFmG+1xF9nEg==";
+        };
     in {
         "Rrt5Sxss" = _Rrt5Sxss;
         "tybsr9At" = _tybsr9At;
@@ -218,6 +238,10 @@ let
         "pCXDRlxw" = _pCXDRlxw;
         "GkBmQQjo" = _GkBmQQjo;
         "UQ0cUWsZ" = _UQ0cUWsZ;
+        "iTiSzeE9" = _iTiSzeE9;
+        "7yGQ8ruC" = _7yGQ8ruC;
+        "RiFav7ly" = _RiFav7ly;
+        "f63H96q5" = _f63H96q5;
         "fabric-1.20.1" = _icjI7ruC;
         "fabric-1.21" = _J7Xl5cwA;
         "fabric-1.21.1" = _1Qx4v8mx;
@@ -228,6 +252,8 @@ let
         "fabric-1.21.9" = _SoNaBiWT;
         "fabric-1.21.10" = _SoNaBiWT;
         "fabric-1.21.11" = _GkBmQQjo;
+        "fabric-26.2" = _iTiSzeE9;
+        "fabric-26.3" = _RiFav7ly;
         "forge-1.20.1" = _YbO8SNFq;
         "neoforge-1.20.1" = _YbO8SNFq;
         "neoforge-1.21" = _SDyGyZUX;
@@ -239,6 +265,8 @@ let
         "neoforge-1.21.9" = _pCXDRlxw;
         "neoforge-1.21.10" = _pCXDRlxw;
         "neoforge-1.21.11" = _UQ0cUWsZ;
+        "neoforge-26.2" = _7yGQ8ruC;
+        "neoforge-26.3" = _f63H96q5;
         "quilt-1.20.1" = _icjI7ruC;
         "quilt-1.21" = _HDmlmGOr;
         "pkg-0.1" = _ku8hncrF;
@@ -252,7 +280,9 @@ let
         "pkg-0.3.4" = _mmlXmxJP;
         "pkg-0.3.5" = _pCXDRlxw;
         "pkg-0.3.6" = _UQ0cUWsZ;
-        "default" = _UQ0cUWsZ;
+        "pkg-0.3.6+26.2" = _7yGQ8ruC;
+        "pkg-0.3.6+26.3" = _f63H96q5;
+        "default" = _f63H96q5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immersive-ui";

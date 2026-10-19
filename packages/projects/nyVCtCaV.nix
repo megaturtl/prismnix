@@ -11,13 +11,20 @@ let
             "file" = "[森罗物语：酱料] kaleidoscope_sauce-0.0.6.jar";
             "hash" = "sha512-bIV8+PhubEJ70ahgtPsQ3FGz392UX193GGFnbw0qgVmXp3saAnopUMp5PjQJhMUFeSz1cqI32lcNiAWsbzrPUw==";
         };
+        _VHYQdaQD = {
+            "id" = "VHYQdaQD";
+            "file" = "kaleidoscope_sauce-0.1.0.jar";
+            "hash" = "sha512-Ky4JCYJOvPPZ1ei1/FK2eU/wCPqxyFzZKjIna3OdQgEuc+5fmUENvCttvLtVcvSs9EnIEYLBr3blkewnMRePIA==";
+        };
     in {
         "9SYGx8xO" = _9SYGx8xO;
         "ElD7HBJ4" = _ElD7HBJ4;
-        "forge-1.20.1" = _ElD7HBJ4;
+        "VHYQdaQD" = _VHYQdaQD;
+        "forge-1.20.1" = _VHYQdaQD;
         "pkg-0.0.5" = _9SYGx8xO;
         "pkg-0.0.6" = _ElD7HBJ4;
-        "default" = _ElD7HBJ4;
+        "pkg-0.1.0" = _VHYQdaQD;
+        "default" = _VHYQdaQD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kaleidoscope-sauce";

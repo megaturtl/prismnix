@@ -196,6 +196,16 @@ let
             "file" = "create_compatible_storage-2.13.0-mc1.20.1-forge-all.jar";
             "hash" = "sha512-E8a0x3pz66TuGBv1omaiRGKMlhaeo9nmLtQ+HL0lhKIf0/8pTytNjtEQvJ6Fk6f4fGSDAEaCP22yjcifiXqlSQ==";
         };
+        _Sk6HcFCU = {
+            "id" = "Sk6HcFCU";
+            "file" = "create_compatible_storage-2.14.0-mc1.20.1-forge-all.jar";
+            "hash" = "sha512-JppV7+daLDEVb8StDbnymjzExwPQ6cvUSUXkYvBJdTzw9I2MIztFgJ0SwFtwjLpkoavnDlyD8m+QxUTcsdJ9Kw==";
+        };
+        _EJPTNOry = {
+            "id" = "EJPTNOry";
+            "file" = "create_compatible_storage-2.14.0-mc1.21.1-neoforge.jar";
+            "hash" = "sha512-rHf2IIPFd3ZuIvA0RiBjqwY6p2ZgRHmz8HsrcHv1mXgmAedbvA0tl5w1brnrTMYcsDXU2hH6sNw822MLMTdpfw==";
+        };
     in {
         "Psw4RWAz" = _Psw4RWAz;
         "20V2lqqt" = _20V2lqqt;
@@ -236,8 +246,10 @@ let
         "Lo7RlFHl" = _Lo7RlFHl;
         "KnL9gDAD" = _KnL9gDAD;
         "XvfwEd3J" = _XvfwEd3J;
-        "forge-1.20.1" = _XvfwEd3J;
-        "neoforge-1.21.1" = _KnL9gDAD;
+        "Sk6HcFCU" = _Sk6HcFCU;
+        "EJPTNOry" = _EJPTNOry;
+        "forge-1.20.1" = _Sk6HcFCU;
+        "neoforge-1.21.1" = _EJPTNOry;
         "pkg-1.0" = _Psw4RWAz;
         "pkg-2.0.0" = _20V2lqqt;
         "pkg-2.1.0" = _UeTzanlA;
@@ -277,7 +289,9 @@ let
         "pkg-2.11.0-neoforge" = _Lo7RlFHl;
         "pkg-2.13.0-mc1.21.1-neoforge" = _KnL9gDAD;
         "pkg-2.13.0-mc1.20.1-forge" = _XvfwEd3J;
-        "default" = _XvfwEd3J;
+        "pkg-2.14.0-mc1.20.1-forge" = _Sk6HcFCU;
+        "pkg-2.14.0-mc1.21.1-neoforge" = _EJPTNOry;
+        "default" = _EJPTNOry;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-compatible-storage";

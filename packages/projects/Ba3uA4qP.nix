@@ -1261,6 +1261,11 @@ let
             "file" = "Saros-Road-Signs-Fabric-1.20.1-4.14.jar";
             "hash" = "sha512-ELCe43IyK6my38SqOI3yjjpWzIfkpfIaHWcsSqJLmz18RP7N1osudpxJwsWPVX/WddGrRwLI2S2aySpsOWRJmw==";
         };
+        _Fhtci6bS = {
+            "id" = "Fhtci6bS";
+            "file" = "Saros-Road-Signs-Fabric-1.21.11-4.24.jar";
+            "hash" = "sha512-EtaaLYurlBPa1+1RveDLNkwEKvqTMxYqu6letHl2gVP1eOmTkT7mSzW6VnKSjYJ/UFZjDHqBYgDz1MExQPZ4HQ==";
+        };
     in {
         "ZvFGXld5" = _ZvFGXld5;
         "1nd6NRlc" = _1nd6NRlc;
@@ -1514,6 +1519,7 @@ let
         "iV9bJu6k" = _iV9bJu6k;
         "yFFRBMwD" = _yFFRBMwD;
         "vbDS2xK8" = _vbDS2xK8;
+        "Fhtci6bS" = _Fhtci6bS;
         "forge-1.16.5" = _ZvFGXld5;
         "forge-1.18.2" = _1nd6NRlc;
         "forge-1.19.2" = _MxG0HgRX;
@@ -1542,7 +1548,7 @@ let
         "fabric-26.1" = _wW6CozRK;
         "fabric-26.1.1" = _s9dE72Lk;
         "fabric-26.1.2" = _1ny8Sqmx;
-        "fabric-1.21.11" = _iV9bJu6k;
+        "fabric-1.21.11" = _Fhtci6bS;
         "fabric-26.2" = _Ird7JBYq;
         "fabric-1.21.10" = _yFFRBMwD;
         "fabric-26.3" = _8mvJtEOG;
@@ -1632,7 +1638,8 @@ let
         "pkg-4.8.8" = _V3YMmFhR;
         "pkg-4.21-forge-26.3" = _Dl7NT70G;
         "pkg-4.23" = _iV9bJu6k;
-        "default" = _vbDS2xK8;
+        "pkg-4.24" = _Fhtci6bS;
+        "default" = _Fhtci6bS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "saros-road-signs";

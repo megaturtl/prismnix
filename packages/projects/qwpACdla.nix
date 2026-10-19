@@ -1241,6 +1241,26 @@ let
             "file" = "integratedcrafting-1.21.1-neoforge-1.7.2-852.jar";
             "hash" = "sha512-V8Pdh5I3beM7dgBbma4hjVYNImIcO2KhYhSXbyOEzYNz0HBeSyWQgiQEJ6R3e0xrFqvbI7ZKEuDw/T4zoo2lVQ==";
         };
+        _iboeOXrD = {
+            "id" = "iboeOXrD";
+            "file" = "IntegratedCrafting-1.20.1-1.4.9.jar";
+            "hash" = "sha512-nZ+sSsKZjaYesNExjvDhhV/JowlGPwGLcOlfB27dYwFyve8lhoPfgb7C3JSY/SrwccB8EAlvySMlWHwK73o5Ig==";
+        };
+        _Rp5doGuK = {
+            "id" = "Rp5doGuK";
+            "file" = "integratedcrafting-1.21.1-neoforge-1.8.0.jar";
+            "hash" = "sha512-7+v4ilaSHV+zxTPreq4jJO/ydq2F/Wq7oy2g0KCDW0mKmBvYA9lREJjRhD0s34OigBA4CldAKgN3eOyGVP7qxg==";
+        };
+        _yLRxHZJM = {
+            "id" = "yLRxHZJM";
+            "file" = "integratedcrafting-26.1.2-neoforge-1.8.0.jar";
+            "hash" = "sha512-xUHOdm6xMzlv2zYmh84gULQxdbNAbiwlRYmgIFaoKr4t4SZCVYDUO+VhNGZRNypOzlKSE/NFhdXBc+WliR5vjQ==";
+        };
+        _CqSUrVms = {
+            "id" = "CqSUrVms";
+            "file" = "integratedcrafting-26.3-neoforge-1.4.7-859.jar";
+            "hash" = "sha512-Jv3aq5OxCMAN3yqylCOZuOL+AanmIJhTyofEedO1ibLptln3ZC7RLq7/LGQd/5bnbHVud3Bc0A7sDeZMi5nDhQ==";
+        };
     in {
         "fbaeinT1" = _fbaeinT1;
         "TZWaPoLv" = _TZWaPoLv;
@@ -1490,23 +1510,27 @@ let
         "jInGo9sX" = _jInGo9sX;
         "On3OakkY" = _On3OakkY;
         "R6mAqnAP" = _R6mAqnAP;
+        "iboeOXrD" = _iboeOXrD;
+        "Rp5doGuK" = _Rp5doGuK;
+        "yLRxHZJM" = _yLRxHZJM;
+        "CqSUrVms" = _CqSUrVms;
         "forge-1.18.2" = _TpaFBmZD;
         "forge-1.19" = _SS6MbHkG;
         "forge-1.19.2" = _xaR1wjdV;
         "forge-1.19.3" = _RGmyZJZU;
         "forge-1.19.4" = _bZvFyzvm;
-        "forge-1.20.1" = _lbTjNin5;
+        "forge-1.20.1" = _iboeOXrD;
         "neoforge-1.20.4" = _bNPZQyun;
         "neoforge-1.21" = _puykYXfI;
-        "neoforge-1.21.1" = _R6mAqnAP;
+        "neoforge-1.21.1" = _Rp5doGuK;
         "neoforge-1.21.4" = _i9qa1G48;
         "neoforge-1.21.8" = _VkLEIhHs;
         "neoforge-1.21.10" = _9M6JtNKM;
         "neoforge-1.21.11" = _TGxcOT4Y;
         "neoforge-26.1.1" = _kTYPbm7M;
-        "neoforge-26.1.2" = _BbhpESGQ;
+        "neoforge-26.1.2" = _yLRxHZJM;
         "neoforge-26.2" = _rzCBNzhR;
-        "neoforge-26.3" = _DpdCpJ89;
+        "neoforge-26.3" = _CqSUrVms;
         "pkg-1.0.23" = _fbaeinT1;
         "pkg-1.19-1.0.23" = _TZWaPoLv;
         "pkg-1.19-1.0.24" = _SS6MbHkG;
@@ -1755,7 +1779,11 @@ let
         "pkg-1.21.1-1.7.2-840" = _jInGo9sX;
         "pkg-1.21.1-1.7.2-850" = _On3OakkY;
         "pkg-1.21.1-1.7.2-852" = _R6mAqnAP;
-        "default" = _R6mAqnAP;
+        "pkg-1.20.1-1.4.9" = _iboeOXrD;
+        "pkg-1.21.1-1.8.0" = _Rp5doGuK;
+        "pkg-26.1.2-1.8.0" = _yLRxHZJM;
+        "pkg-26.3-1.4.7-859" = _CqSUrVms;
+        "default" = _CqSUrVms;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "integrated-crafting";

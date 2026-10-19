@@ -216,6 +216,16 @@ let
             "file" = "paradise-lost-2.4.6-beta+1.21.1.jar";
             "hash" = "sha512-cxs9JubPBHKPb5FU9CXMeFarksdzxScorHm6/r5YEqHPXhFgAz/9Dhz6QlCqP3gz54+m9Eaxql+2bFguTibpRA==";
         };
+        _ORj1WxSK = {
+            "id" = "ORj1WxSK";
+            "file" = "paradise_lost-neoforge-1.21.1-2.5.0.jar";
+            "hash" = "sha512-pcDPrP0uudfz4qaTYK+liye7xh4Zvva4i4AYsn3CQSeU24JPyBRNm39L+atyAVZY2fJouk9otERXZtgNrK18CQ==";
+        };
+        _t6aoyd0i = {
+            "id" = "t6aoyd0i";
+            "file" = "paradise_lost-fabric-1.21.1-2.5.0.jar";
+            "hash" = "sha512-I59/Z86VvMQQOuZK8mG1at/uE4gyhBQ/mKmezF9+P+1eTvc0kTTH5uPf2qNvLsRJ9h+MDawd0VKZKyI99wMhMg==";
+        };
     in {
         "jmwWnSKi" = _jmwWnSKi;
         "l5Riioca" = _l5Riioca;
@@ -260,6 +270,8 @@ let
         "NhxMSSQW" = _NhxMSSQW;
         "P3XQS2ui" = _P3XQS2ui;
         "kpnTCH47" = _kpnTCH47;
+        "ORj1WxSK" = _ORj1WxSK;
+        "t6aoyd0i" = _t6aoyd0i;
         "fabric-1.16.4" = _KddGjTbY;
         "fabric-1.16.5" = _fjM0qcIV;
         "fabric-1.17" = _HjNjJ9kt;
@@ -277,8 +289,8 @@ let
         "fabric-1.20.5" = _1BPq9c1q;
         "fabric-1.20.6" = _1BPq9c1q;
         "fabric-1.21" = _puzv6nDd;
-        "fabric-1.21.1" = _kpnTCH47;
-        "neoforge-1.21.1" = _NhxMSSQW;
+        "fabric-1.21.1" = _t6aoyd0i;
+        "neoforge-1.21.1" = _ORj1WxSK;
         "pkg-b1.0" = _jmwWnSKi;
         "pkg-b1.0.1" = _l5Riioca;
         "pkg-b1.0.2" = _AihqlThW;
@@ -322,7 +334,9 @@ let
         "pkg-2.4.5-beta+1.21.1-SINYTRA" = _NhxMSSQW;
         "pkg-2.4.5-beta+1.21.1" = _P3XQS2ui;
         "pkg-2.4.6-beta+1.21.1" = _kpnTCH47;
-        "default" = _kpnTCH47;
+        "pkg-2.5.0-beta-neoforge+1.21.1" = _ORj1WxSK;
+        "pkg-2.5.0-beta-fabric+1.21.1" = _t6aoyd0i;
+        "default" = _t6aoyd0i;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "paradise-lost";

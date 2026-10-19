@@ -491,6 +491,26 @@ let
             "file" = "potentials-neoforge-26.1.2-0.11.1.jar";
             "hash" = "sha512-dE9ux0CADDKpMUEuaihzGryofeJv1dsMnEVumGSsZh2uGHPGYOQt1DsIBRJGZ2N6aJ7I/DOYPja5EoIL7Fksfw==";
         };
+        _aqhVNhrt = {
+            "id" = "aqhVNhrt";
+            "file" = "potentials-fabric-26.2-0.11.1.jar";
+            "hash" = "sha512-Mluwkhc37Ct2v++C08zEfxaa1EMfui1tysPFG5wJCPicHbRZllX6IsDbKEGp+o+B1kTCWDDf2zs+QHTbrG+o+w==";
+        };
+        _4fk1h1rw = {
+            "id" = "4fk1h1rw";
+            "file" = "potentials-neoforge-26.2-0.11.1.jar";
+            "hash" = "sha512-Ijngbvi0PH3z081zs2J2aaIomvL3nHW3FaXqKahi+EaLj74QENMFPo9HhvFy8Tsp9IEzvFHUZzWWUIjyYxLzjQ==";
+        };
+        _sUgx6A3l = {
+            "id" = "sUgx6A3l";
+            "file" = "potentials-fabric-26.3-0.11.1.jar";
+            "hash" = "sha512-EiiTSihehcLIrPX3c1jOgs2iKTPcXqKrxX8rIPrAh6QfjGQKO2zxnaXlwSdmM+/2f2j8U+9o5bqm7nVCbxFkOA==";
+        };
+        _j4vUvojS = {
+            "id" = "j4vUvojS";
+            "file" = "potentials-neoforge-26.3-0.11.1.jar";
+            "hash" = "sha512-YKWnnVM3umzKcCzfhamnbfoUMJJU2XwvG682FmI4yIUSypsDBOtlEwLurVVizwlA2CDaxIm+l36u9WkR+X5i9Q==";
+        };
     in {
         "wGll1MN4" = _wGll1MN4;
         "ooE2CrGE" = _ooE2CrGE;
@@ -590,6 +610,10 @@ let
         "uAmtqVmt" = _uAmtqVmt;
         "osZ3rwjU" = _osZ3rwjU;
         "yyUOAD5U" = _yyUOAD5U;
+        "aqhVNhrt" = _aqhVNhrt;
+        "4fk1h1rw" = _4fk1h1rw;
+        "sUgx6A3l" = _sUgx6A3l;
+        "j4vUvojS" = _j4vUvojS;
         "fabric-1.21" = _cEF2AxxA;
         "fabric-1.21.1" = _cEF2AxxA;
         "fabric-1.21.2" = _cEF2AxxA;
@@ -603,8 +627,8 @@ let
         "fabric-26.1" = _A62hRVor;
         "fabric-26.1.1" = _A62hRVor;
         "fabric-26.1.2" = _osZ3rwjU;
-        "fabric-26.2" = _y4UvzXwN;
-        "fabric-26.3" = _IJ4uFgkL;
+        "fabric-26.2" = _aqhVNhrt;
+        "fabric-26.3" = _sUgx6A3l;
         "neoforge-1.21" = _EEjnSxLK;
         "neoforge-1.21.1" = _EEjnSxLK;
         "neoforge-1.21.2" = _EEjnSxLK;
@@ -618,8 +642,8 @@ let
         "neoforge-26.1" = _UgLzVRxP;
         "neoforge-26.1.1" = _UgLzVRxP;
         "neoforge-26.1.2" = _yyUOAD5U;
-        "neoforge-26.2" = _VaxcvYP4;
-        "neoforge-26.3" = _nZiGwzeG;
+        "neoforge-26.2" = _4fk1h1rw;
+        "neoforge-26.3" = _j4vUvojS;
         "pkg-1.21-0.2.0" = _ooE2CrGE;
         "pkg-1.21-0.2.1" = _tf61FuHY;
         "pkg-0.2.9" = _auTtkFD1;
@@ -660,8 +684,8 @@ let
         "pkg-0.9.3" = _jGCfm7Mo;
         "pkg-0.10.0" = _nZiGwzeG;
         "pkg-0.11.0" = _uAmtqVmt;
-        "pkg-0.11.1" = _yyUOAD5U;
-        "default" = _yyUOAD5U;
+        "pkg-0.11.1" = _j4vUvojS;
+        "default" = _j4vUvojS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "potentials";

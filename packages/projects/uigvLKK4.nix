@@ -211,6 +211,26 @@ let
             "file" = "falldrop_backport-1.3.4-26.1.2-NeoForge.jar";
             "hash" = "sha512-oZVKsXOoX8kc5W/Tb5xhb3YbNPDHuZ8YO25inD2yZFqOT2XUyEXTOHUCWfxj52Jw9+U8mCzS1vCn1MKBahKYEQ==";
         };
+        _ZFUHpYkp = {
+            "id" = "ZFUHpYkp";
+            "file" = "falldrop_backport-1.4.0-26.1.2-NeoForge.jar";
+            "hash" = "sha512-vDzPae+ViYHfrehFaK1PyVU9F1b7AR7B41lywQV2aozpQw+HksB4aB+k/1wUJgXBmaTYNcXvR8v6L7v3kgK/Gg==";
+        };
+        _a6p605TQ = {
+            "id" = "a6p605TQ";
+            "file" = "falldrop_backport-1.4.0-26.1.2-Fabric.jar";
+            "hash" = "sha512-VTleLwKOBY7XLsdHNaawPD9Y87iDnshX/BAzYEZjNJHNi0qalGQoZipG7UGzorUsP7js9P7ETbP7MM1E23ot5A==";
+        };
+        _MdJiiwT5 = {
+            "id" = "MdJiiwT5";
+            "file" = "falldrop_backport-1.4.0-26.2-NeoForge.jar";
+            "hash" = "sha512-S1gR9UC3gUjdhqy0JT7PsOtADxp4CT62VnBW6dXc4tjpgel0xtMbR8qNp6KAtsEzURLKY/GEDtdcnaOU9AdfcQ==";
+        };
+        _pcoDPJj2 = {
+            "id" = "pcoDPJj2";
+            "file" = "falldrop_backport-1.4.0-26.2-Fabric.jar";
+            "hash" = "sha512-T/+P7v9CF44q5d3LQKSLt1jp8l9uqjEEgdB6nGlAnIOq1wVJaQ+NdjxJIEbz32iSL0p/VvTdhql/H5QzoKfVLw==";
+        };
     in {
         "tf3z85Mg" = _tf3z85Mg;
         "fCFlNDZi" = _fCFlNDZi;
@@ -254,10 +274,14 @@ let
         "VRdyNQXC" = _VRdyNQXC;
         "hIUeFnZR" = _hIUeFnZR;
         "Ofyi0ND3" = _Ofyi0ND3;
-        "neoforge-26.1.2" = _Ofyi0ND3;
-        "neoforge-26.2" = _VRdyNQXC;
-        "fabric-26.1.2" = _mMTJwDdi;
-        "fabric-26.2" = _hIUeFnZR;
+        "ZFUHpYkp" = _ZFUHpYkp;
+        "a6p605TQ" = _a6p605TQ;
+        "MdJiiwT5" = _MdJiiwT5;
+        "pcoDPJj2" = _pcoDPJj2;
+        "neoforge-26.1.2" = _ZFUHpYkp;
+        "neoforge-26.2" = _MdJiiwT5;
+        "fabric-26.1.2" = _a6p605TQ;
+        "fabric-26.2" = _pcoDPJj2;
         "pkg-1.0.0" = _tf3z85Mg;
         "pkg-1.0.1" = _fCFlNDZi;
         "pkg-1.0.3-26.1.2-NeoForge" = _4LQ4LWIY;
@@ -300,7 +324,11 @@ let
         "pkg-1.3.4-26.2-NeoForge" = _VRdyNQXC;
         "pkg-1.3.4-26.2-Fabric" = _hIUeFnZR;
         "pkg-1.3.4-26.1.2-NeoForge" = _Ofyi0ND3;
-        "default" = _Ofyi0ND3;
+        "pkg-1.4.0-26.1.2-NeoForge" = _ZFUHpYkp;
+        "pkg-1.4.0-26.1.2-Fabric" = _a6p605TQ;
+        "pkg-1.4.0-26.2-NeoForge" = _MdJiiwT5;
+        "pkg-1.4.0-26.2-Fabric" = _pcoDPJj2;
+        "default" = _pcoDPJj2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "falldropbackport";

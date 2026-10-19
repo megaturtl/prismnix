@@ -91,6 +91,16 @@ let
             "file" = "border-expands-per-achievement-1.21.9-26.2.jar";
             "hash" = "sha512-7mc9XQfI1oFuJgM4omUqzNjsOB5K90s0uZHurgfvhq6SqM480vSRSRYXmsw9eS/a9vAJ4M1JvrlJBgVO9dgJ8w==";
         };
+        _xKCrZYeW = {
+            "id" = "xKCrZYeW";
+            "file" = "Border Expands Per Achievement 26.3.zip";
+            "hash" = "sha512-iReCtAn04wh82WVg8X4R0PvrLWw9+CkIMXBixlrF6D4+AtCt1dwstE0w3a+Ub3zR1vcTNnx3Lzc3MEy2V+iQFQ==";
+        };
+        _KVGBX5WV = {
+            "id" = "KVGBX5WV";
+            "file" = "border-expands-per-achievement-26.3.jar";
+            "hash" = "sha512-g1R1pQ6ljybDz/FjHPr2d2dRZjJ9Nx0w/7/DyaTYz+9qGbMbr0Aunt++RT9esyspKAtzEnyo0IOdhRJJBUGyWA==";
+        };
     in {
         "UNJrCoy0" = _UNJrCoy0;
         "u7qAHyFV" = _u7qAHyFV;
@@ -110,6 +120,8 @@ let
         "BHpaLWPC" = _BHpaLWPC;
         "g7CYZuHM" = _g7CYZuHM;
         "lGewTD9W" = _lGewTD9W;
+        "xKCrZYeW" = _xKCrZYeW;
+        "KVGBX5WV" = _KVGBX5WV;
         "datapack-1.20.5" = _UNJrCoy0;
         "datapack-1.20.6" = _UNJrCoy0;
         "datapack-1.21" = _Cyy0xmkt;
@@ -128,6 +140,7 @@ let
         "datapack-26.1.1" = _g7CYZuHM;
         "datapack-26.1.2" = _g7CYZuHM;
         "datapack-26.2" = _g7CYZuHM;
+        "datapack-26.3" = _xKCrZYeW;
         "fabric-1.20.5" = _u7qAHyFV;
         "fabric-1.20.6" = _u7qAHyFV;
         "fabric-1.21" = _WylExTFd;
@@ -146,6 +159,7 @@ let
         "fabric-26.1.1" = _lGewTD9W;
         "fabric-26.1.2" = _lGewTD9W;
         "fabric-26.2" = _lGewTD9W;
+        "fabric-26.3" = _KVGBX5WV;
         "forge-1.20.5" = _u7qAHyFV;
         "forge-1.20.6" = _u7qAHyFV;
         "forge-1.21" = _WylExTFd;
@@ -164,6 +178,7 @@ let
         "forge-26.1.1" = _lGewTD9W;
         "forge-26.1.2" = _lGewTD9W;
         "forge-26.2" = _lGewTD9W;
+        "forge-26.3" = _KVGBX5WV;
         "neoforge-1.20.5" = _u7qAHyFV;
         "neoforge-1.20.6" = _u7qAHyFV;
         "neoforge-1.21" = _WylExTFd;
@@ -182,6 +197,7 @@ let
         "neoforge-26.1.1" = _lGewTD9W;
         "neoforge-26.1.2" = _lGewTD9W;
         "neoforge-26.2" = _lGewTD9W;
+        "neoforge-26.3" = _KVGBX5WV;
         "quilt-1.20.5" = _u7qAHyFV;
         "quilt-1.20.6" = _u7qAHyFV;
         "quilt-1.21" = _WylExTFd;
@@ -200,6 +216,7 @@ let
         "quilt-26.1.1" = _lGewTD9W;
         "quilt-26.1.2" = _lGewTD9W;
         "quilt-26.2" = _lGewTD9W;
+        "quilt-26.3" = _KVGBX5WV;
         "pkg-1.20.5-1.20.6" = _UNJrCoy0;
         "pkg-1.20.5-1.20.6+mod" = _u7qAHyFV;
         "pkg-1.21-1.21.1" = _Cyy0xmkt;
@@ -218,7 +235,9 @@ let
         "pkg-1.21.9-26.1.2+mod" = _BHpaLWPC;
         "pkg-1.21.9-26.2" = _g7CYZuHM;
         "pkg-1.21.9-26.2+mod" = _lGewTD9W;
-        "default" = _lGewTD9W;
+        "pkg-26.3" = _xKCrZYeW;
+        "pkg-26.3+mod" = _KVGBX5WV;
+        "default" = _KVGBX5WV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "border-expands-per-achievement";

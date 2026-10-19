@@ -206,6 +206,26 @@ let
             "file" = "fallingleaves-26.1.2-3.1.0-beta.jar";
             "hash" = "sha512-e8+oNCPTdehPteVyj2HBoSd7EF9ef4C1SaVuOC/UFdPFyo/uaFPolP+8az127/D7RAR6kXYIj6Bc6tIuuottIw==";
         };
+        _WKteUI1m = {
+            "id" = "WKteUI1m";
+            "file" = "fallingleaves-26.1.2-3.1.0.jar";
+            "hash" = "sha512-8QcQMEAdk6mCjw11HLWJCqqyI7oMI6edrLmPWtJ/W0wHUjabehmie4F4JyrsyJF7nyYQ+4a4i2cWumJbgfovbg==";
+        };
+        _6gHA7SOc = {
+            "id" = "6gHA7SOc";
+            "file" = "fallingleaves-26.2-3.1.0-beta.jar";
+            "hash" = "sha512-KLSEvZBKDYJjVVr0jM4pAwstPfTg0RIXWP6FG665pXBWc5FCDBfNVF2NSZFF0qxrbliNeMjyLT93Oej/atB6nA==";
+        };
+        _rgLx4YzP = {
+            "id" = "rgLx4YzP";
+            "file" = "fallingleaves-26.3-3.1.1-beta.jar";
+            "hash" = "sha512-O+dgLnIk6lXdgMBxak8qahkMIMLin6PhRT6qdTmyy2dH8hQ9cxCka2txrNspbVHrym2umA6qdRGTCw+MZMqmxQ==";
+        };
+        _ZTfOTZtM = {
+            "id" = "ZTfOTZtM";
+            "file" = "fallingleaves-1.21.1-2.6.0.jar";
+            "hash" = "sha512-lsMA68IRC5XIMVRn7npdEjuRQ0YevgYI5iAf5/sYJ544uH2fpTIWQKOUqPN0d8N1/ZjKyQe2+psCxNZhHALEXA==";
+        };
     in {
         "JgAIxUhy" = _JgAIxUhy;
         "3iNcBn5v" = _3iNcBn5v;
@@ -248,6 +268,10 @@ let
         "34TltlXW" = _34TltlXW;
         "rhZJ4qGC" = _rhZJ4qGC;
         "W9bCbzje" = _W9bCbzje;
+        "WKteUI1m" = _WKteUI1m;
+        "6gHA7SOc" = _6gHA7SOc;
+        "rgLx4YzP" = _rgLx4YzP;
+        "ZTfOTZtM" = _ZTfOTZtM;
         "forge-1.16.3" = _JgAIxUhy;
         "forge-1.16.4" = _JgAIxUhy;
         "forge-1.16.5" = _JgAIxUhy;
@@ -269,13 +293,15 @@ let
         "neoforge-1.20.5" = _bkznYPhC;
         "neoforge-1.20.6" = _vevYWRUB;
         "neoforge-1.21" = _BCoUwPez;
-        "neoforge-1.21.1" = _PVzaPLSv;
+        "neoforge-1.21.1" = _ZTfOTZtM;
         "neoforge-1.21.3" = _qqlfBEcb;
         "neoforge-1.21.4" = _K8FRo0fL;
         "neoforge-1.21.5" = _34TltlXW;
         "neoforge-1.21.6" = _34TltlXW;
         "neoforge-1.21.8" = _rhZJ4qGC;
-        "neoforge-26.1.2" = _W9bCbzje;
+        "neoforge-26.1.2" = _WKteUI1m;
+        "neoforge-26.2" = _6gHA7SOc;
+        "neoforge-26.3" = _rgLx4YzP;
         "pkg-1.16.3-1.2.2" = _JgAIxUhy;
         "pkg-1.17.1-1.2.4" = _3iNcBn5v;
         "pkg-1.18.2-1.3.2" = _a8aXDowL;
@@ -313,7 +339,11 @@ let
         "pkg-1.21.5-3.0.0" = _34TltlXW;
         "pkg-1.21.8-3.1.0" = _rhZJ4qGC;
         "pkg-26.1.2-3.1.0-beta" = _W9bCbzje;
-        "default" = _W9bCbzje;
+        "pkg-26.1.2-3.1.0" = _WKteUI1m;
+        "pkg-26.2-3.1.0-beta" = _6gHA7SOc;
+        "pkg-26.3-3.1.1-beta" = _rgLx4YzP;
+        "pkg-1.21.1-2.6.0" = _ZTfOTZtM;
+        "default" = _ZTfOTZtM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fallingleavesforge";

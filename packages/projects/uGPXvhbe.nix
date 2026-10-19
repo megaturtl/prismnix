@@ -61,6 +61,16 @@ let
             "file" = "chaos-mode-26.3-1.3.3-pre1.jar";
             "hash" = "sha512-bJqX5DHb3o94Sa+Mx7BzQHa/l1vzzXMHt4c8rHPM7SUpJeco3OKENKRZPoVuhroysk+ldnimW9n0iiz7EallcQ==";
         };
+        _GNnZgiCV = {
+            "id" = "GNnZgiCV";
+            "file" = "chaos_mode_26.3-1.3.3.zip";
+            "hash" = "sha512-OfacErhprhgUtTzHlJnJuxu4CTAuGBCnDMDsTi0eZfgdleJQQ7Jlv/v3tMZiLhqVplVA6ioKu3HA3M70ydeM0Q==";
+        };
+        _DgWu9doP = {
+            "id" = "DgWu9doP";
+            "file" = "chaos-mode-26.3-1.3.3.jar";
+            "hash" = "sha512-W6CpLtGo5Ne7oCc5bYEA36fScRwiCEbknfjDWxKQwPK4lkmdWzjkUf8qS4GsILOIM2+Zhs/YFyVxxZdp81lF/w==";
+        };
     in {
         "rlQnsXdh" = _rlQnsXdh;
         "LfPF2Ksv" = _LfPF2Ksv;
@@ -74,36 +84,38 @@ let
         "KfvV2LKH" = _KfvV2LKH;
         "YxL100yo" = _YxL100yo;
         "VRss3pxS" = _VRss3pxS;
+        "GNnZgiCV" = _GNnZgiCV;
+        "DgWu9doP" = _DgWu9doP;
         "datapack-1.21.11" = _LfPF2Ksv;
         "datapack-26.1" = _D82VsNux;
         "datapack-26.1.1" = _D82VsNux;
         "datapack-26.1.2" = _D82VsNux;
         "datapack-26.2" = _YxL100yo;
-        "datapack-26.3" = _YxL100yo;
+        "datapack-26.3" = _GNnZgiCV;
         "fabric-26.2" = _VRss3pxS;
         "fabric-26.1" = _vHxb3odW;
         "fabric-26.1.1" = _vHxb3odW;
         "fabric-26.1.2" = _vHxb3odW;
         "fabric-1.21.11" = _fcbzs0DG;
-        "fabric-26.3" = _VRss3pxS;
+        "fabric-26.3" = _DgWu9doP;
         "forge-26.2" = _VRss3pxS;
         "forge-26.1" = _vHxb3odW;
         "forge-26.1.1" = _vHxb3odW;
         "forge-26.1.2" = _vHxb3odW;
         "forge-1.21.11" = _fcbzs0DG;
-        "forge-26.3" = _VRss3pxS;
+        "forge-26.3" = _DgWu9doP;
         "neoforge-26.2" = _VRss3pxS;
         "neoforge-26.1" = _vHxb3odW;
         "neoforge-26.1.1" = _vHxb3odW;
         "neoforge-26.1.2" = _vHxb3odW;
         "neoforge-1.21.11" = _fcbzs0DG;
-        "neoforge-26.3" = _VRss3pxS;
+        "neoforge-26.3" = _DgWu9doP;
         "quilt-26.2" = _VRss3pxS;
         "quilt-26.1" = _vHxb3odW;
         "quilt-26.1.1" = _vHxb3odW;
         "quilt-26.1.2" = _vHxb3odW;
         "quilt-1.21.11" = _fcbzs0DG;
-        "quilt-26.3" = _VRss3pxS;
+        "quilt-26.3" = _DgWu9doP;
         "pkg-1.21.11-1.0" = _rlQnsXdh;
         "pkg-1.21.11-1.1" = _fcbzs0DG;
         "pkg-26.1.2-1.2" = _WYUFUa9R;
@@ -111,7 +123,8 @@ let
         "pkg-26.2-1.3.1" = _53qNgwHx;
         "pkg-26.2-1.3.2" = _KfvV2LKH;
         "pkg-26.3-1.3.3-pre1" = _VRss3pxS;
-        "default" = _VRss3pxS;
+        "pkg-26.3-1.3.3" = _DgWu9doP;
+        "default" = _DgWu9doP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chaos-mode";

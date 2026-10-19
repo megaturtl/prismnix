@@ -86,6 +86,21 @@ let
             "file" = "better-rockets-1.0.5+1.21.11.jar";
             "hash" = "sha512-JsabECadE48bAo4gOfQRAlwmxfhuUTSJoz4DAdTdVGDCCeTDNF3MYNEJNFRhm5hvd7Z5F7zU9kGQOJYbrL0zHg==";
         };
+        _kHPkXhIt = {
+            "id" = "kHPkXhIt";
+            "file" = "better-rockets-1.0.6+26.1.jar";
+            "hash" = "sha512-7E4xhcqmPrNlFsuXJPBaJPNjdHvynMKFoXJ7zqkeSr6m5g/iax2bFdgzaWz9g7w0b+hXqwcwH+94JdirMgp8mw==";
+        };
+        _zOQj8uek = {
+            "id" = "zOQj8uek";
+            "file" = "better-rockets-1.0.6+26.2.jar";
+            "hash" = "sha512-oOJK2VM4xyOd5Cn+/Mvvbe80YZlGg/eYW0NOqzNzBP3eD9qz/x3jLb37a1tM7y6ZVcH0nfqC1bCjfhLk0qOWvA==";
+        };
+        _fCopXnBV = {
+            "id" = "fCopXnBV";
+            "file" = "better-rockets-1.0.6+26.3.jar";
+            "hash" = "sha512-XDZtRK4VYlbL5lLOCd/ldY6RYciAGT/kmA6/JbR8JxwKpivVBxrOpfE3j7tGUNeNK6V5J2VyUbl74llNnbFaZg==";
+        };
     in {
         "CRa3mbh4" = _CRa3mbh4;
         "JX1mZVr6" = _JX1mZVr6;
@@ -104,6 +119,9 @@ let
         "fk1fYGCF" = _fk1fYGCF;
         "MxtvFFdx" = _MxtvFFdx;
         "HEIqyPc1" = _HEIqyPc1;
+        "kHPkXhIt" = _kHPkXhIt;
+        "zOQj8uek" = _zOQj8uek;
+        "fCopXnBV" = _fCopXnBV;
         "fabric-1.21" = _wvQRCntd;
         "fabric-1.21.1" = _Grp1W20G;
         "fabric-1.21.2" = _32fgXCsL;
@@ -116,6 +134,11 @@ let
         "fabric-1.21.9" = _fk1fYGCF;
         "fabric-1.21.10" = _MxtvFFdx;
         "fabric-1.21.11" = _HEIqyPc1;
+        "fabric-26.1" = _kHPkXhIt;
+        "fabric-26.1.1" = _kHPkXhIt;
+        "fabric-26.1.2" = _kHPkXhIt;
+        "fabric-26.2" = _zOQj8uek;
+        "fabric-26.3" = _fCopXnBV;
         "pkg-1.0.0" = _CRa3mbh4;
         "pkg-1.0.0+1.21.1" = _JX1mZVr6;
         "pkg-1.0.1+1.21" = _8wAv7gIw;
@@ -133,7 +156,10 @@ let
         "pkg-1.0.5+1.21.9" = _fk1fYGCF;
         "pkg-1.0.5+1.21.10" = _MxtvFFdx;
         "pkg-1.0.5+1.21.11" = _HEIqyPc1;
-        "default" = _HEIqyPc1;
+        "pkg-1.0.6+26.1" = _kHPkXhIt;
+        "pkg-1.0.6+26.2" = _zOQj8uek;
+        "pkg-1.0.6+26.3" = _fCopXnBV;
+        "default" = _fCopXnBV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-rockets";

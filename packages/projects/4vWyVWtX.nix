@@ -66,6 +66,11 @@ let
             "file" = "zoomx-smooth-26.2.jar";
             "hash" = "sha512-jR/MneDBbPo0g4ke1w7zIBIFVtBpcEjVGUCETpiE58aNVF3+YNp9vyl1G04ZuOh+rD+3RVH/gbz+uzGoRYQ5VQ==";
         };
+        _OSXmDFP5 = {
+            "id" = "OSXmDFP5";
+            "file" = "zoomx-smooth-26.3.jar";
+            "hash" = "sha512-mYpPgoGF8HkQS2yseLtIxg5FfipaadlsfE01OVNBJjpgckyi4nphOKVBiBkpOc/MiWvQ8+MCvvREsbi0oZ52AQ==";
+        };
     in {
         "fhMo9mrY" = _fhMo9mrY;
         "51JbjkVx" = _51JbjkVx;
@@ -80,6 +85,7 @@ let
         "zOBzYeV1" = _zOBzYeV1;
         "ROCWpPte" = _ROCWpPte;
         "FdXJKWbC" = _FdXJKWbC;
+        "OSXmDFP5" = _OSXmDFP5;
         "fabric-1.21.1" = _fhMo9mrY;
         "fabric-1.21.4" = _51JbjkVx;
         "fabric-1.21.5" = _bi89nNlR;
@@ -93,6 +99,7 @@ let
         "fabric-26.1.1" = _zOBzYeV1;
         "fabric-26.1.2" = _ROCWpPte;
         "fabric-26.2" = _FdXJKWbC;
+        "fabric-26.3" = _OSXmDFP5;
         "pkg-1.21.1" = _fhMo9mrY;
         "pkg-1.21.4" = _51JbjkVx;
         "pkg-1.21.5" = _bi89nNlR;
@@ -106,7 +113,8 @@ let
         "pkg-26.1.1" = _zOBzYeV1;
         "pkg-26.1.2" = _ROCWpPte;
         "pkg-26.2" = _FdXJKWbC;
-        "default" = _FdXJKWbC;
+        "pkg-26.3" = _OSXmDFP5;
+        "default" = _OSXmDFP5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zoomx-smooth";

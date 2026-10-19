@@ -26,12 +26,18 @@ let
             "file" = "ingeniumapi-1.0.2-FORGE-MC-1.20.1.jar";
             "hash" = "sha512-5wdIbz8qo7gbzNvWRs/7qwmLFqJ+/pPNxdM4vO01aWd9bpnLEOUAeKdzs54Qm0+tos6wtVuXwygFl6Q1ltuu7A==";
         };
+        _K2TKa3U4 = {
+            "id" = "K2TKa3U4";
+            "file" = "ingeniumapi-1.0.2-NEOFORGE-MC-26.X.jar";
+            "hash" = "sha512-jJ6Q+DlcGEfXBgfOGUzu470zOqNHwYVz5etfogpm7UaqABFO2qCc7qwxk//i/onzD8Omwc+h1Q8/rHvPCXLgjg==";
+        };
     in {
         "VYmEo1o8" = _VYmEo1o8;
         "Q8AjB7JJ" = _Q8AjB7JJ;
         "Nh4QNlwd" = _Nh4QNlwd;
         "gMKN8rgX" = _gMKN8rgX;
         "ACcUSzgo" = _ACcUSzgo;
+        "K2TKa3U4" = _K2TKa3U4;
         "fabric-26.1" = _VYmEo1o8;
         "fabric-26.1.1" = _VYmEo1o8;
         "fabric-26.1.2" = _VYmEo1o8;
@@ -56,9 +62,14 @@ let
         "fabric-1.21.10" = _Nh4QNlwd;
         "neoforge-1.21.1" = _gMKN8rgX;
         "neoforge-1.20.1" = _ACcUSzgo;
+        "neoforge-26.1" = _K2TKa3U4;
+        "neoforge-26.1.1" = _K2TKa3U4;
+        "neoforge-26.1.2" = _K2TKa3U4;
+        "neoforge-26.2" = _K2TKa3U4;
+        "neoforge-26.3" = _K2TKa3U4;
         "forge-1.20.1" = _ACcUSzgo;
-        "pkg-1.0.2" = _ACcUSzgo;
-        "default" = _ACcUSzgo;
+        "pkg-1.0.2" = _K2TKa3U4;
+        "default" = _K2TKa3U4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ingeniumapi";

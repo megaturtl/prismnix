@@ -61,6 +61,16 @@ let
             "file" = "taczadditions-1.20.1-1.3.0.jar";
             "hash" = "sha512-C1D+c6D3rMIEWZKFDBFKzKDcU78Nbhb2iHyysd1IYQhODWWch0zoy3lwb+4jiJ2yfxqD4fcXUmiLZSSlAPwiNQ==";
         };
+        _pDAQDKtk = {
+            "id" = "pDAQDKtk";
+            "file" = "taczadditions-1.20.1-1.3.6.jar";
+            "hash" = "sha512-bXd+GtYp5zAeU1msXClt8p1qs1GmUniJ6Tga8UBSe/aRoRTs4s2zqgdj1WpfHWQ6LK1eYLpLo0N5wBToLnz75w==";
+        };
+        _T3T5HH22 = {
+            "id" = "T3T5HH22";
+            "file" = "taczadditions-1.21.1-1.3.6.jar";
+            "hash" = "sha512-D3YAfmb3xY3PaSQynD8obxfxHaHkXjcqIdLaTpOeV9KFtcnkj6IvXfi3YjdQ48O3tUdvXzeac9OVfzduF35pBw==";
+        };
     in {
         "5HS2TdaS" = _5HS2TdaS;
         "4Dyi4ic4" = _4Dyi4ic4;
@@ -74,7 +84,10 @@ let
         "6flQhKzd" = _6flQhKzd;
         "eKIMSEpH" = _eKIMSEpH;
         "Kg1T5z1f" = _Kg1T5z1f;
-        "forge-1.20.1" = _Kg1T5z1f;
+        "pDAQDKtk" = _pDAQDKtk;
+        "T3T5HH22" = _T3T5HH22;
+        "forge-1.20.1" = _pDAQDKtk;
+        "neoforge-1.21.1" = _T3T5HH22;
         "pkg-0.9.0" = _5HS2TdaS;
         "pkg-1.0.0" = _4Dyi4ic4;
         "pkg-1.0.0-hotfix" = _5ZQv75Bf;
@@ -87,7 +100,8 @@ let
         "pkg-1.2.1" = _6flQhKzd;
         "pkg-1.2.2" = _eKIMSEpH;
         "pkg-1.3.0" = _Kg1T5z1f;
-        "default" = _Kg1T5z1f;
+        "pkg-1.3.6" = _T3T5HH22;
+        "default" = _T3T5HH22;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tacz-additions";

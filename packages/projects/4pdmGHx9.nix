@@ -421,6 +421,41 @@ let
             "file" = "collectorsalbum-fabric-2.8.2+1.21.1.jar";
             "hash" = "sha512-nZFXCCszHHtACDsXHwGipLwm2Y6M06Gk1k4gwHaKwT2GQaQCv0h738G8PfPGb8OGsR2HPafvub7MW/bXTjzV9Q==";
         };
+        _IrpqMDCa = {
+            "id" = "IrpqMDCa";
+            "file" = "collectorsalbum-fabric-2.9.0+26.3.jar";
+            "hash" = "sha512-0Mu1SAugkPdA2lgrQ/Fm3g8pq+HXtnqF1LfZKOWb8JwUsJ/XUENiEpmQkLL/Dd0RHQbP8Nju/dAf2e6i4Vahng==";
+        };
+        _BrcW5Pv5 = {
+            "id" = "BrcW5Pv5";
+            "file" = "collectorsalbum-neoforge-2.9.0+26.3.jar";
+            "hash" = "sha512-SK2JPPUj0dLwCs4LkbBJfNerTz0vtcAgMuzWEVsZFt2wx5Dc15g4rY4CS4uwOrjHDJWkcHiROxa3pS4hgP/NOA==";
+        };
+        _u8cIjHCZ = {
+            "id" = "u8cIjHCZ";
+            "file" = "collectorsalbum-fabric-2.9.0+26.1.2.jar";
+            "hash" = "sha512-cf66Heb93UKj9axF+Yvqal+mYcMxhDXu1x+A/HwRZm04N6k7CqMHZzZR/dzfW8/nsmH4V39dUpTXnTtFp0HDIA==";
+        };
+        _GlXOL4DU = {
+            "id" = "GlXOL4DU";
+            "file" = "collectorsalbum-neoforge-2.9.0+26.1.2.jar";
+            "hash" = "sha512-I1ez2T9S+9viKgFd3S6K0kZCm3xUKT0Vv1NDbBg92apGljVNBsrMgZoyF4jjtii+Lek9BALoV/oU7jNQtnpXkA==";
+        };
+        _Ltyahg9s = {
+            "id" = "Ltyahg9s";
+            "file" = "collectorsalbum-fabric-2.9.0+1.21.1.jar";
+            "hash" = "sha512-LLgyWSHlnTYEQtils+pm+qFBXIynTrxWTp4Q3GT7ZVmV+yibTTARNMVDduucWQnvsH2BA2eyhi7ZLijUyn1Gxg==";
+        };
+        _SqQx5Fab = {
+            "id" = "SqQx5Fab";
+            "file" = "collectorsalbum-forge-2.9.0+1.21.1.jar";
+            "hash" = "sha512-ZqKxM2PcHtTS1bodbvmfqlX1/4FY5wWInE5420te/m7+H05ZcCYkq7m3/J/Bv7fBS150PzEgrCOaM6G+nEx2kQ==";
+        };
+        _wfBI9VYm = {
+            "id" = "wfBI9VYm";
+            "file" = "collectorsalbum-neoforge-2.9.0+1.21.1.jar";
+            "hash" = "sha512-mNrC7XEliY4bhDEReMyOzjZguQusWBK784bdq/jnsopZKLLYHB8LHpzvK3XnGJqhOV36xL3RqOUVvH+/B2wP2A==";
+        };
     in {
         "zgefRMLP" = _zgefRMLP;
         "Ct2F9PpF" = _Ct2F9PpF;
@@ -506,24 +541,31 @@ let
         "lMPiwGFQ" = _lMPiwGFQ;
         "QLVKkTHv" = _QLVKkTHv;
         "3SSmo8Nr" = _3SSmo8Nr;
-        "forge-1.21" = _lMPiwGFQ;
-        "forge-1.21.1" = _lMPiwGFQ;
+        "IrpqMDCa" = _IrpqMDCa;
+        "BrcW5Pv5" = _BrcW5Pv5;
+        "u8cIjHCZ" = _u8cIjHCZ;
+        "GlXOL4DU" = _GlXOL4DU;
+        "Ltyahg9s" = _Ltyahg9s;
+        "SqQx5Fab" = _SqQx5Fab;
+        "wfBI9VYm" = _wfBI9VYm;
+        "forge-1.21" = _SqQx5Fab;
+        "forge-1.21.1" = _SqQx5Fab;
         "forge-1.20.1" = _j4TkdUFz;
-        "fabric-1.21" = _3SSmo8Nr;
-        "fabric-1.21.1" = _3SSmo8Nr;
+        "fabric-1.21" = _Ltyahg9s;
+        "fabric-1.21.1" = _Ltyahg9s;
         "fabric-1.20.1" = _rjkhAW7p;
-        "fabric-26.1" = _qrDVrx6N;
-        "fabric-26.1.1" = _qrDVrx6N;
-        "fabric-26.1.2" = _qrDVrx6N;
+        "fabric-26.1" = _u8cIjHCZ;
+        "fabric-26.1.1" = _u8cIjHCZ;
+        "fabric-26.1.2" = _u8cIjHCZ;
         "fabric-26.2" = _CAeXfVz4;
-        "fabric-26.3" = _qAnTKeD1;
-        "neoforge-1.21" = _QLVKkTHv;
-        "neoforge-1.21.1" = _QLVKkTHv;
-        "neoforge-26.1" = _CyTEpQSQ;
-        "neoforge-26.1.1" = _CyTEpQSQ;
-        "neoforge-26.1.2" = _CyTEpQSQ;
+        "fabric-26.3" = _IrpqMDCa;
+        "neoforge-1.21" = _wfBI9VYm;
+        "neoforge-1.21.1" = _wfBI9VYm;
+        "neoforge-26.1" = _GlXOL4DU;
+        "neoforge-26.1.1" = _GlXOL4DU;
+        "neoforge-26.1.2" = _GlXOL4DU;
         "neoforge-26.2" = _HHFKpY0O;
-        "neoforge-26.3" = _OIWGpuvB;
+        "neoforge-26.3" = _BrcW5Pv5;
         "pkg-2.0.0" = _GqkY3U17;
         "pkg-2.1.0" = _KsgEVTDg;
         "pkg-2.1.1" = _dWdmfzlo;
@@ -553,7 +595,10 @@ let
         "pkg-2.8.2+26.2" = _CAeXfVz4;
         "pkg-2.8.2+26.1.2" = _qrDVrx6N;
         "pkg-2.8.2+1.21.1" = _3SSmo8Nr;
-        "default" = _3SSmo8Nr;
+        "pkg-2.9.0+26.3" = _BrcW5Pv5;
+        "pkg-2.9.0+26.1.2" = _GlXOL4DU;
+        "pkg-2.9.0+1.21.1" = _wfBI9VYm;
+        "default" = _wfBI9VYm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "collectors-album";

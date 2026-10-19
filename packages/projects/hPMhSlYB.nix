@@ -66,6 +66,16 @@ let
             "file" = "monumenta-item-dictionary-1.5.1.jar";
             "hash" = "sha512-/xYCeWyJxkM0VexqOq2gz16yx9BWF4iPtRHLaw1tDjmSdnUnWyzdp8sBu/6Wxb19w2CNj3owY2kpKBoW5E/h6w==";
         };
+        _2k84QUpG = {
+            "id" = "2k84QUpG";
+            "file" = "monumenta-item-dictionary-1.20.4-1.6.0.jar";
+            "hash" = "sha512-rsbjKeDGWP+jd+z85GFbHOtkehdqy0MBMJ657yN/agsyWYPQC9bV0THHHoVR54xhAMD3QZUsRaTi9vOpP3iwHg==";
+        };
+        _fkfTFGoT = {
+            "id" = "fkfTFGoT";
+            "file" = "monumenta-item-dictionary-1.21.1-1.6.0.jar";
+            "hash" = "sha512-qkinJidgBjguHgaXlvVxGFrYqwJi88yORqp7UrrUQhWnRr2bWiuq8Kuzi/vTvp9T03nrfyIbvhEPTOy30z5J5g==";
+        };
     in {
         "6XzAv2FG" = _6XzAv2FG;
         "hj9iCaak" = _hj9iCaak;
@@ -80,8 +90,12 @@ let
         "slqHkRin" = _slqHkRin;
         "XIXGsMAB" = _XIXGsMAB;
         "q0FxeSM5" = _q0FxeSM5;
+        "2k84QUpG" = _2k84QUpG;
+        "fkfTFGoT" = _fkfTFGoT;
         "fabric-1.18.2" = _ZXxGXQtA;
         "fabric-1.19.4" = _q0FxeSM5;
+        "fabric-1.20.4" = _2k84QUpG;
+        "fabric-1.21.1" = _fkfTFGoT;
         "pkg-1.0.0" = _6XzAv2FG;
         "pkg-1.0.1" = _hj9iCaak;
         "pkg-1.1.0" = _mrjxqiR3;
@@ -95,7 +109,8 @@ let
         "pkg-1.4.2" = _slqHkRin;
         "pkg-1.5.0" = _XIXGsMAB;
         "pkg-1.5.1" = _q0FxeSM5;
-        "default" = _q0FxeSM5;
+        "pkg-1.6.0" = _fkfTFGoT;
+        "default" = _fkfTFGoT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "monumenta-item-dictionary";

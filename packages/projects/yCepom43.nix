@@ -1,0 +1,168 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _JEvqHAJN = {
+            "id" = "JEvqHAJN";
+            "file" = "Blackjack-1.0.jar";
+            "hash" = "sha512-ardL2bvmx8WBiRX1omLHwgNMk+jFeOgo8Z2zx8RMERyejV+KMfZAXsRKGkbKMwqipBBs5AYq0KM3+fQKlfcoBw==";
+        };
+        _aUA3b6X3 = {
+            "id" = "aUA3b6X3";
+            "file" = "Blackjack-2.0.jar";
+            "hash" = "sha512-fgRt7Mv/xBMeu83xiqD0KLEeIuDJYAHg1ERNDx6iWC4z9C9ieHaHhrIDNUo2scoF8HDkCh9WkXltBh5d52D4Lg==";
+        };
+        _ScKVhTf9 = {
+            "id" = "ScKVhTf9";
+            "file" = "Blackjack-2.1.jar";
+            "hash" = "sha512-8agjsrTix+zo5cUVqYVGk1Kxoh3ssx9kDEb41+9Tlui/3I+dJ1QnLbgku8Z6nuYTRhZdeJ2r1PujSuHwKgk1mA==";
+        };
+        _brgxQpLn = {
+            "id" = "brgxQpLn";
+            "file" = "Blackjack-2.2.jar";
+            "hash" = "sha512-jsQBkF557yylcjSIC5MSq2zC7psVff1rm12WHirq+SPklgsHaubNn+AVc0MYdDr1r8gwUndIvtWrKShzPy9I1g==";
+        };
+        _bS7QFv6V = {
+            "id" = "bS7QFv6V";
+            "file" = "Blackjack-2.3.jar";
+            "hash" = "sha512-cL+6NiLkmgE+M6i9qUCGZx6B/OrkWR7SbIzkAEx/ecoowtGWnabDIqjGlXp2gkJWXZnEmHyFb43WdCWqgXJA2w==";
+        };
+        _rt0dw5fT = {
+            "id" = "rt0dw5fT";
+            "file" = "Blackjack-2.4.jar";
+            "hash" = "sha512-MwUDrZpMtoU3LNqP6Af7e8Nyt3JXAu/UaT4Zv9c/8Z8wVzLczg0palk67kVh+2JJRmMDX4TZAS9K5kHyV+cGJA==";
+        };
+        _9V9xhMMo = {
+            "id" = "9V9xhMMo";
+            "file" = "Blackjack-2.5.jar";
+            "hash" = "sha512-Hobdw/lasj9L8SGRvSkF4EFOzjOL5hWNEJN6qfhf7XuSQNke9Nsz2TOROakybdioEBAtmUUcuN77TEX7LURzjg==";
+        };
+    in {
+        "JEvqHAJN" = _JEvqHAJN;
+        "aUA3b6X3" = _aUA3b6X3;
+        "ScKVhTf9" = _ScKVhTf9;
+        "brgxQpLn" = _brgxQpLn;
+        "bS7QFv6V" = _bS7QFv6V;
+        "rt0dw5fT" = _rt0dw5fT;
+        "9V9xhMMo" = _9V9xhMMo;
+        "bukkit-1.21" = _9V9xhMMo;
+        "bukkit-1.21.1" = _9V9xhMMo;
+        "bukkit-1.21.2" = _9V9xhMMo;
+        "bukkit-1.21.3" = _9V9xhMMo;
+        "bukkit-1.21.4" = _9V9xhMMo;
+        "bukkit-1.21.5" = _9V9xhMMo;
+        "bukkit-1.21.6" = _9V9xhMMo;
+        "bukkit-1.21.7" = _9V9xhMMo;
+        "bukkit-1.21.8" = _9V9xhMMo;
+        "bukkit-1.20" = _9V9xhMMo;
+        "bukkit-1.20.1" = _9V9xhMMo;
+        "bukkit-1.20.2" = _9V9xhMMo;
+        "bukkit-1.20.3" = _9V9xhMMo;
+        "bukkit-1.20.4" = _9V9xhMMo;
+        "bukkit-1.20.5" = _9V9xhMMo;
+        "bukkit-1.20.6" = _9V9xhMMo;
+        "bukkit-1.21.9" = _9V9xhMMo;
+        "bukkit-1.21.10" = _9V9xhMMo;
+        "bukkit-1.21.11" = _9V9xhMMo;
+        "bukkit-26.1" = _9V9xhMMo;
+        "bukkit-26.1.1" = _9V9xhMMo;
+        "bukkit-26.1.2" = _9V9xhMMo;
+        "bukkit-26.2" = _9V9xhMMo;
+        "bukkit-26.3" = _9V9xhMMo;
+        "paper-1.21" = _9V9xhMMo;
+        "paper-1.21.1" = _9V9xhMMo;
+        "paper-1.21.2" = _9V9xhMMo;
+        "paper-1.21.3" = _9V9xhMMo;
+        "paper-1.21.4" = _9V9xhMMo;
+        "paper-1.21.5" = _9V9xhMMo;
+        "paper-1.21.6" = _9V9xhMMo;
+        "paper-1.21.7" = _9V9xhMMo;
+        "paper-1.21.8" = _9V9xhMMo;
+        "paper-1.20" = _9V9xhMMo;
+        "paper-1.20.1" = _9V9xhMMo;
+        "paper-1.20.2" = _9V9xhMMo;
+        "paper-1.20.3" = _9V9xhMMo;
+        "paper-1.20.4" = _9V9xhMMo;
+        "paper-1.20.5" = _9V9xhMMo;
+        "paper-1.20.6" = _9V9xhMMo;
+        "paper-1.21.9" = _9V9xhMMo;
+        "paper-1.21.10" = _9V9xhMMo;
+        "paper-1.21.11" = _9V9xhMMo;
+        "paper-26.1" = _9V9xhMMo;
+        "paper-26.1.1" = _9V9xhMMo;
+        "paper-26.1.2" = _9V9xhMMo;
+        "paper-26.2" = _9V9xhMMo;
+        "paper-26.3" = _9V9xhMMo;
+        "purpur-1.21" = _9V9xhMMo;
+        "purpur-1.21.1" = _9V9xhMMo;
+        "purpur-1.21.2" = _9V9xhMMo;
+        "purpur-1.21.3" = _9V9xhMMo;
+        "purpur-1.21.4" = _9V9xhMMo;
+        "purpur-1.21.5" = _9V9xhMMo;
+        "purpur-1.21.6" = _9V9xhMMo;
+        "purpur-1.21.7" = _9V9xhMMo;
+        "purpur-1.21.8" = _9V9xhMMo;
+        "purpur-1.20" = _9V9xhMMo;
+        "purpur-1.20.1" = _9V9xhMMo;
+        "purpur-1.20.2" = _9V9xhMMo;
+        "purpur-1.20.3" = _9V9xhMMo;
+        "purpur-1.20.4" = _9V9xhMMo;
+        "purpur-1.20.5" = _9V9xhMMo;
+        "purpur-1.20.6" = _9V9xhMMo;
+        "purpur-1.21.9" = _9V9xhMMo;
+        "purpur-1.21.10" = _9V9xhMMo;
+        "purpur-1.21.11" = _9V9xhMMo;
+        "purpur-26.1" = _9V9xhMMo;
+        "purpur-26.1.1" = _9V9xhMMo;
+        "purpur-26.1.2" = _9V9xhMMo;
+        "purpur-26.2" = _9V9xhMMo;
+        "purpur-26.3" = _9V9xhMMo;
+        "spigot-1.21" = _9V9xhMMo;
+        "spigot-1.21.1" = _9V9xhMMo;
+        "spigot-1.21.2" = _9V9xhMMo;
+        "spigot-1.21.3" = _9V9xhMMo;
+        "spigot-1.21.4" = _9V9xhMMo;
+        "spigot-1.21.5" = _9V9xhMMo;
+        "spigot-1.21.6" = _9V9xhMMo;
+        "spigot-1.21.7" = _9V9xhMMo;
+        "spigot-1.21.8" = _9V9xhMMo;
+        "spigot-1.20" = _9V9xhMMo;
+        "spigot-1.20.1" = _9V9xhMMo;
+        "spigot-1.20.2" = _9V9xhMMo;
+        "spigot-1.20.3" = _9V9xhMMo;
+        "spigot-1.20.4" = _9V9xhMMo;
+        "spigot-1.20.5" = _9V9xhMMo;
+        "spigot-1.20.6" = _9V9xhMMo;
+        "spigot-1.21.9" = _9V9xhMMo;
+        "spigot-1.21.10" = _9V9xhMMo;
+        "spigot-1.21.11" = _9V9xhMMo;
+        "spigot-26.1" = _9V9xhMMo;
+        "spigot-26.1.1" = _9V9xhMMo;
+        "spigot-26.1.2" = _9V9xhMMo;
+        "spigot-26.2" = _9V9xhMMo;
+        "spigot-26.3" = _9V9xhMMo;
+        "pkg-1.0" = _JEvqHAJN;
+        "pkg-2.0" = _aUA3b6X3;
+        "pkg-2.1" = _ScKVhTf9;
+        "pkg-2.2" = _brgxQpLn;
+        "pkg-2.3" = _bS7QFv6V;
+        "pkg-2.4" = _rt0dw5fT;
+        "pkg-2.5" = _9V9xhMMo;
+        "default" = _9V9xhMMo;
+    });
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "bjplugin";
+        id = "yCepom43";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = null;
+            };
+        };
+    };
+in callPackage fn {}

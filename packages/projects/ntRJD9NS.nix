@@ -76,6 +76,26 @@ let
             "file" = "brick_and_mortar-neoforge-1.21.1-1.2.2.jar";
             "hash" = "sha512-5r3s09P33G2wxyJjvDwRNjvnmh86XZlxLydZfeFeJsH8qmdrmXibVLdBt2EoaNkJq8fhRBFlQjpLOYwNxf100w==";
         };
+        _Noz0LA7h = {
+            "id" = "Noz0LA7h";
+            "file" = "brick_and_mortar-fabric-1.21.1-1.3.0.jar";
+            "hash" = "sha512-tOgWrpXlL9ciIz7t8579dwv4IV5BXvtHyyhXgBCv170Y7EmPWaCLUOKfr3hVBUqBqMd5/p9zg2TSDnp7aFCw+Q==";
+        };
+        _bHzoR02u = {
+            "id" = "bHzoR02u";
+            "file" = "brick_and_mortar-neoforge-1.21.1-1.3.0.jar";
+            "hash" = "sha512-9CjeZqOCjDsePKjGDGsYL4sPmVbjy5h0lUUjmocL4A5ABC6iyAqTioqmFW6p4VPtDVlgqKmQNNdLEIQDcfzRdA==";
+        };
+        _O8yQG7Vv = {
+            "id" = "O8yQG7Vv";
+            "file" = "brick_and_mortar-fabric-1.21.1-1.3.1.jar";
+            "hash" = "sha512-sXFZZRje7bEeuSu7lAHvDHkQ/fRqVOJ4R7zNiKsyWfPRxV+cvHE3/keMM7wrQ/fRTCXG+LRb9nc9A0Kfku6w9A==";
+        };
+        _8wAguQz5 = {
+            "id" = "8wAguQz5";
+            "file" = "brick_and_mortar-neoforge-1.21.1-1.3.1.jar";
+            "hash" = "sha512-5oiCH1swaweSJwzS6MbPFleuWwVPLQ4uQtLcrmPRjHsJdsDN9+34D2Sd1X48CUQZDZUo9RWcaqoPFvOQvStPgQ==";
+        };
     in {
         "5PcEjoC9" = _5PcEjoC9;
         "qERjLpyL" = _qERjLpyL;
@@ -92,9 +112,13 @@ let
         "im02EjYf" = _im02EjYf;
         "PJwo4SC6" = _PJwo4SC6;
         "T2OzSG2U" = _T2OzSG2U;
-        "fabric-1.21.1" = _PJwo4SC6;
+        "Noz0LA7h" = _Noz0LA7h;
+        "bHzoR02u" = _bHzoR02u;
+        "O8yQG7Vv" = _O8yQG7Vv;
+        "8wAguQz5" = _8wAguQz5;
+        "fabric-1.21.1" = _O8yQG7Vv;
         "fabric-1.20.1" = _rXsoc3aH;
-        "neoforge-1.21.1" = _T2OzSG2U;
+        "neoforge-1.21.1" = _8wAguQz5;
         "forge-1.20.1" = _im02EjYf;
         "pkg-1.0.0-1.21.1-fabric" = _5PcEjoC9;
         "pkg-1.0.0-1.21.1-neoforge" = _qERjLpyL;
@@ -111,7 +135,11 @@ let
         "pkg-1.2.2-1.20.1-forge" = _im02EjYf;
         "pkg-1.2.2-1.21.1-fabric" = _PJwo4SC6;
         "pkg-1.2.2-1.21.1-neoforge" = _T2OzSG2U;
-        "default" = _T2OzSG2U;
+        "pkg-1.3.0-1.21.1-fabric" = _Noz0LA7h;
+        "pkg-1.3.0-1.21.1-neoforge" = _bHzoR02u;
+        "pkg-1.3.1-1.21.1-fabric" = _O8yQG7Vv;
+        "pkg-1.3.1-1.21.1-neoforge" = _8wAguQz5;
+        "default" = _8wAguQz5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "brick-and-mortar";

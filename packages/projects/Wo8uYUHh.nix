@@ -291,6 +291,41 @@ let
             "file" = "clientsidecosmetics-26.3-3.5.0+mc26.3.jar";
             "hash" = "sha512-EX6aL7DDymd4NNFd/5XN7UnJMaqJVclJ2jPkSx3A73doUvpzUa2x3Kp7u0v4GgUazt9UOZl3soEmzak8CEW8tw==";
         };
+        _NP1XCvwh = {
+            "id" = "NP1XCvwh";
+            "file" = "clientsidecosmetics-1.21.4-3.6.0+mc1.21.4.jar";
+            "hash" = "sha512-NE73OqE6RJ0cUozPBLX9PzjCJcs38HgJoqNbQg6B4Vdar9DsxqscG+cPU4uEoomfKJaMf7jiWnghK7bdBWz2PA==";
+        };
+        _nvqPQSqJ = {
+            "id" = "nvqPQSqJ";
+            "file" = "clientsidecosmetics-1.21.8-3.6.0+mc1.21.8.jar";
+            "hash" = "sha512-vRte3TU6/bKfxNK8HotH6Hv2oycit8ji99RgFtP2E2V0iOHqcNQrSvom07r47KczzZ+klPrhQt+c+GPjoobJ2Q==";
+        };
+        _SmK1jA8Y = {
+            "id" = "SmK1jA8Y";
+            "file" = "clientsidecosmetics-1.21.11-3.6.0+mc1.21.11.jar";
+            "hash" = "sha512-rLfZ0x344M5ehQqEe1yhtythyUGPW86ETyKmGFABRfKv17dvMj5+cGP+jBZk6nqU+VfVSLrnRJ7JFaGmK1qMcQ==";
+        };
+        _Jt9UshTP = {
+            "id" = "Jt9UshTP";
+            "file" = "clientsidecosmetics-26.1.1-3.6.0+mc26.1.1.jar";
+            "hash" = "sha512-3bwIYWRCuz5o2Siapa0ScyNecVy2yu7rRnfkz4lhaTf/2U+UP3Q969luinsWkJkvisJbcf+/6yxvlOMn76Yf7g==";
+        };
+        _8rwR7ymW = {
+            "id" = "8rwR7ymW";
+            "file" = "clientsidecosmetics-26.1.2-3.6.0+mc26.1.2.jar";
+            "hash" = "sha512-SMDEjo4HhzVdhcNbfQWwWFIY/nuTUmovquUhxOLBW9WSFBnOhB0hhISq2cwZ/Oattehdt8KM5aRZ1oT+6ncZNQ==";
+        };
+        _PxV8BkK2 = {
+            "id" = "PxV8BkK2";
+            "file" = "clientsidecosmetics-26.2-3.6.0+mc26.2.jar";
+            "hash" = "sha512-i4NNV2Pxh2otY+yTZNLL+TOUD9WQ8YvyfsojtUwuROPUxKYZ6S5wHNDu6twiL8P3LXZiC5MpaHnifuCLeLdXWw==";
+        };
+        _zRZRqr2V = {
+            "id" = "zRZRqr2V";
+            "file" = "clientsidecosmetics-26.3-3.6.0+mc26.3.jar";
+            "hash" = "sha512-1JXNinutmXO+U2txg+Lkr2lutohKqTcs1XCvtrInNHYPxkGWCn+sTO63Rdsfyq0fL2xHL5VXnZJcZMyvIF8LHQ==";
+        };
     in {
         "JEcqpMFU" = _JEcqpMFU;
         "YVRFKezE" = _YVRFKezE;
@@ -350,14 +385,21 @@ let
         "1uimTK5O" = _1uimTK5O;
         "DhEQhg4M" = _DhEQhg4M;
         "iQKQ6yGs" = _iQKQ6yGs;
-        "fabric-1.21.11" = _87Ljkk09;
-        "fabric-1.21.8" = _GlW1WuCh;
-        "fabric-1.21.4" = _tTu7yUTq;
+        "NP1XCvwh" = _NP1XCvwh;
+        "nvqPQSqJ" = _nvqPQSqJ;
+        "SmK1jA8Y" = _SmK1jA8Y;
+        "Jt9UshTP" = _Jt9UshTP;
+        "8rwR7ymW" = _8rwR7ymW;
+        "PxV8BkK2" = _PxV8BkK2;
+        "zRZRqr2V" = _zRZRqr2V;
+        "fabric-1.21.11" = _SmK1jA8Y;
+        "fabric-1.21.8" = _nvqPQSqJ;
+        "fabric-1.21.4" = _NP1XCvwh;
         "fabric-1.21.1" = _Rd6gczG5;
-        "fabric-26.1.1" = _83kky4oj;
-        "fabric-26.1.2" = _1uimTK5O;
-        "fabric-26.2" = _DhEQhg4M;
-        "fabric-26.3" = _iQKQ6yGs;
+        "fabric-26.1.1" = _Jt9UshTP;
+        "fabric-26.1.2" = _8rwR7ymW;
+        "fabric-26.2" = _PxV8BkK2;
+        "fabric-26.3" = _zRZRqr2V;
         "pkg-1.0.0" = _JEcqpMFU;
         "pkg-1.0.1" = _YVRFKezE;
         "pkg-1.0.2" = _GxeO3PiB;
@@ -414,7 +456,14 @@ let
         "pkg-3.5.0+mc26.1.2" = _1uimTK5O;
         "pkg-3.5.0+mc26.2" = _DhEQhg4M;
         "pkg-3.5.0+mc26.3" = _iQKQ6yGs;
-        "default" = _iQKQ6yGs;
+        "pkg-3.6.0+mc1.21.4" = _NP1XCvwh;
+        "pkg-3.6.0+mc1.21.8" = _nvqPQSqJ;
+        "pkg-3.6.0+mc1.21.11" = _SmK1jA8Y;
+        "pkg-3.6.0+mc26.1.1" = _Jt9UshTP;
+        "pkg-3.6.0+mc26.1.2" = _8rwR7ymW;
+        "pkg-3.6.0+mc26.2" = _PxV8BkK2;
+        "pkg-3.6.0+mc26.3" = _zRZRqr2V;
+        "default" = _zRZRqr2V;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "client-side-cosmetics";

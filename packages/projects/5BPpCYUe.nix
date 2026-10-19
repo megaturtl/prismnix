@@ -281,6 +281,16 @@ let
             "file" = "certain_questing_additions-neoforge-1.2.0.4+mc1.21.1.jar";
             "hash" = "sha512-GxUN2mkcioiesa3UDmP04kDTE5/TJh/NWj8AMU9nUUwy4Dv4Qpwzg3T9juXfQ+uHmZFOBdYt1/LYhoqPOSlBJw==";
         };
+        _oxxtkEZV = {
+            "id" = "oxxtkEZV";
+            "file" = "certain_questing_additions-fabric-1.2.0.5+mc1.21.1.jar";
+            "hash" = "sha512-qFf9NPSZhW7NSiwEJzkovZxId1OkVlvgEBd48EpWhHsNn78msSyBy3M7Ke9RsLa5XQCsuS3DIhPIC16rHhD/AQ==";
+        };
+        _SLI6Cs7Q = {
+            "id" = "SLI6Cs7Q";
+            "file" = "certain_questing_additions-neoforge-1.2.0.5+mc1.21.1.jar";
+            "hash" = "sha512-koFzvFkPrUVX9/45ncccFtEqz47Fwoqrbh9xTI55kihW3yvesX1E8tcJIzbG0Z3+47q62R440ynojhaN+tPHdA==";
+        };
     in {
         "U7VCH4ae" = _U7VCH4ae;
         "tM1diC5y" = _tM1diC5y;
@@ -338,13 +348,15 @@ let
         "HtutFOqH" = _HtutFOqH;
         "iSC8aXbK" = _iSC8aXbK;
         "P6og8Sjk" = _P6og8Sjk;
+        "oxxtkEZV" = _oxxtkEZV;
+        "SLI6Cs7Q" = _SLI6Cs7Q;
         "fabric-1.20.1" = _pS1JYT70;
         "fabric-1.20.2" = _sS86SCsZ;
         "fabric-1.20.3" = _sS86SCsZ;
         "fabric-1.20.4" = _sS86SCsZ;
         "fabric-1.20.5" = _sS86SCsZ;
         "fabric-1.20.6" = _sS86SCsZ;
-        "fabric-1.21.1" = _iSC8aXbK;
+        "fabric-1.21.1" = _oxxtkEZV;
         "fabric-1.21.2" = _isPHwHWV;
         "fabric-1.21.3" = _isPHwHWV;
         "fabric-1.21.4" = _isPHwHWV;
@@ -361,7 +373,7 @@ let
         "forge-1.20.4" = _BwkjbKet;
         "forge-1.20.5" = _BwkjbKet;
         "forge-1.20.6" = _BwkjbKet;
-        "neoforge-1.21.1" = _P6og8Sjk;
+        "neoforge-1.21.1" = _SLI6Cs7Q;
         "neoforge-1.21.2" = _8T2idH3Z;
         "neoforge-1.21.3" = _8T2idH3Z;
         "neoforge-1.21.4" = _8T2idH3Z;
@@ -386,7 +398,8 @@ let
         "pkg-1.2.0.2" = _qhKokeFo;
         "pkg-1.2.0.3" = _HtutFOqH;
         "pkg-1.2.0.4" = _P6og8Sjk;
-        "default" = _P6og8Sjk;
+        "pkg-1.2.0.5" = _SLI6Cs7Q;
+        "default" = _SLI6Cs7Q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "certain-questing-additions";

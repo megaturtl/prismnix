@@ -26,12 +26,18 @@ let
             "file" = "ZickZack V4 (1.21.8+).zip";
             "hash" = "sha512-JI5hclDcKAEhcGY9M39AAjZ+kwFLm5VlwFSXQeB8hJoYF0pc1Ke5BehS7rn+iI9O6p5SmMxh3VIMxZ7SH/QThg==";
         };
+        _n6cfCqNk = {
+            "id" = "n6cfCqNk";
+            "file" = "ZickZackV4 - 1.5.zip";
+            "hash" = "sha512-ORRZovLMM1fupBdc2NHkdsQAMV0OkcQqTreQBVHNGf0+L+BPp2AGZG+5zCV8Z0Wj8dbZ23DEQHzCZPnsuaI6Jg==";
+        };
     in {
         "ivjf7M4g" = _ivjf7M4g;
         "Lhh9ZiC5" = _Lhh9ZiC5;
         "r6gm06nh" = _r6gm06nh;
         "Pa1IaNJG" = _Pa1IaNJG;
         "uaQd9j5c" = _uaQd9j5c;
+        "n6cfCqNk" = _n6cfCqNk;
         "minecraft-1.20.3" = _Lhh9ZiC5;
         "minecraft-1.20.4" = _Lhh9ZiC5;
         "minecraft-1.20.5" = _r6gm06nh;
@@ -45,19 +51,21 @@ let
         "minecraft-1.21.6" = _r6gm06nh;
         "minecraft-1.21.7" = _r6gm06nh;
         "minecraft-1.21.8" = _uaQd9j5c;
-        "minecraft-1.21.9" = _uaQd9j5c;
-        "minecraft-1.21.10" = _uaQd9j5c;
-        "minecraft-1.21.11" = _uaQd9j5c;
-        "minecraft-26.1" = _uaQd9j5c;
-        "minecraft-26.1.1" = _uaQd9j5c;
-        "minecraft-26.1.2" = _uaQd9j5c;
-        "minecraft-26.2" = _uaQd9j5c;
+        "minecraft-1.21.9" = _n6cfCqNk;
+        "minecraft-1.21.10" = _n6cfCqNk;
+        "minecraft-1.21.11" = _n6cfCqNk;
+        "minecraft-26.1" = _n6cfCqNk;
+        "minecraft-26.1.1" = _n6cfCqNk;
+        "minecraft-26.1.2" = _n6cfCqNk;
+        "minecraft-26.2" = _n6cfCqNk;
+        "minecraft-26.3" = _n6cfCqNk;
         "pkg-1.0" = _ivjf7M4g;
         "pkg-1.1" = _Lhh9ZiC5;
         "pkg-1.2" = _r6gm06nh;
         "pkg-1.3" = _Pa1IaNJG;
         "pkg-1.4" = _uaQd9j5c;
-        "default" = _uaQd9j5c;
+        "pkg-1.5" = _n6cfCqNk;
+        "default" = _n6cfCqNk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zickzack-v4";

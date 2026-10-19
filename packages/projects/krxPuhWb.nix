@@ -191,6 +191,11 @@ let
             "file" = "CrazyEnchantments-26.3-ed9d9ab.jar";
             "hash" = "sha512-ZOIlZOtg7NJhgpInBNImGHxFWpSfEtNccYXgif+dUulv1lzwc68eD1DmdNqhSVzWnrAIHXs4kvuEazxKNmlt2w==";
         };
+        _QFgPeo62 = {
+            "id" = "QFgPeo62";
+            "file" = "CrazyEnchantments-26.3-b3d45a2.jar";
+            "hash" = "sha512-re2e5U7leKOEU3D8V69Kc61AaUT0aQRRurdvvwlVKHQ+E7iwPFHuJbpg/PkEoCoFpVMhxlbLxUI2eCgSFy4isA==";
+        };
     in {
         "18Q2hPFT" = _18Q2hPFT;
         "zyGr4pRH" = _zyGr4pRH;
@@ -230,6 +235,7 @@ let
         "Kmr9sYpy" = _Kmr9sYpy;
         "7khbLQ6S" = _7khbLQ6S;
         "lIRmXa3P" = _lIRmXa3P;
+        "QFgPeo62" = _QFgPeo62;
         "paper-1.19.3" = _18Q2hPFT;
         "paper-1.8.8" = _zyGr4pRH;
         "paper-1.12.2" = _zyGr4pRH;
@@ -253,7 +259,7 @@ let
         "paper-1.21.11" = _1lU5GmKA;
         "paper-26.1.2" = _QUo33hOY;
         "paper-26.2" = _QUo33hOY;
-        "paper-26.3" = _lIRmXa3P;
+        "paper-26.3" = _QFgPeo62;
         "purpur-1.19.3" = _18Q2hPFT;
         "purpur-1.19.4" = _MxwwRdej;
         "purpur-1.20.1" = _ISVUzoxI;
@@ -274,7 +280,7 @@ let
         "purpur-1.21.11" = _1lU5GmKA;
         "purpur-26.1.2" = _QUo33hOY;
         "purpur-26.2" = _QUo33hOY;
-        "purpur-26.3" = _lIRmXa3P;
+        "purpur-26.3" = _QFgPeo62;
         "spigot-1.8.8" = _zyGr4pRH;
         "spigot-1.12.2" = _zyGr4pRH;
         "spigot-1.16.5" = _zyGr4pRH;
@@ -293,7 +299,7 @@ let
         "folia-1.21.11" = _1lU5GmKA;
         "folia-26.1.2" = _QUo33hOY;
         "folia-26.2" = _QUo33hOY;
-        "folia-26.3" = _lIRmXa3P;
+        "folia-26.3" = _QFgPeo62;
         "pkg-1.9.8" = _18Q2hPFT;
         "pkg-1.8.1.1" = _zyGr4pRH;
         "pkg-1.9.8.2" = _jdQGOtjp;
@@ -332,7 +338,8 @@ let
         "pkg-26.3-5ee7a39" = _Kmr9sYpy;
         "pkg-26.3-84ae4f6" = _7khbLQ6S;
         "pkg-26.3-ed9d9ab" = _lIRmXa3P;
-        "default" = _lIRmXa3P;
+        "pkg-26.3-b3d45a2" = _QFgPeo62;
+        "default" = _QFgPeo62;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crazyenchantments";

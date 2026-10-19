@@ -196,6 +196,16 @@ let
             "file" = "cannibalvillages-2.4.9-v1.21.1.jar";
             "hash" = "sha512-R73cAQVWsX86TgTIVwn2F7I9m81WVXGJk3X0miOQ3gz+AjE3NdNNR8Ow2J2ubuYftW/JmThDG4PqlNX1ricy3g==";
         };
+        _Jueh13t4 = {
+            "id" = "Jueh13t4";
+            "file" = "cannibalvillages-2.5.0-v1.20.1.jar";
+            "hash" = "sha512-goF57IqVbaZke2SokhB4X/jjGT5UCcm6Vq7tfFbfnfxKSEXwklj4HNA0trjbqJbXQvnfzx9Z1uoQI/pSOw4WQQ==";
+        };
+        _dukiKIqa = {
+            "id" = "dukiKIqa";
+            "file" = "cannibalvillages-2.5.0-v1.21.1.jar";
+            "hash" = "sha512-EBhpeWqxt5FdTtMvSHlS4glAARqr/vr7tbF+DiXIAcF1EOlewswQFbQqwaSKBLjvmCaUKalhXbCldQiazS1nag==";
+        };
     in {
         "y41Zwe6J" = _y41Zwe6J;
         "7mgt5i9S" = _7mgt5i9S;
@@ -236,15 +246,17 @@ let
         "sAoSq5fc" = _sAoSq5fc;
         "MgRpNrug" = _MgRpNrug;
         "mSj6fEna" = _mSj6fEna;
+        "Jueh13t4" = _Jueh13t4;
+        "dukiKIqa" = _dukiKIqa;
         "forge-1.12.2" = _7mgt5i9S;
-        "forge-1.20.1" = _MgRpNrug;
+        "forge-1.20.1" = _Jueh13t4;
         "forge-1.20.2" = _HwQXZpse;
         "forge-1.20.3" = _HwQXZpse;
         "forge-1.20.4" = _HwQXZpse;
         "forge-1.20.5" = _HwQXZpse;
         "forge-1.20.6" = _HwQXZpse;
         "forge-1.21.1" = _1H99b083;
-        "neoforge-1.21.1" = _mSj6fEna;
+        "neoforge-1.21.1" = _dukiKIqa;
         "pkg-1.0.0" = _y41Zwe6J;
         "pkg-1.0.1" = _7mgt5i9S;
         "pkg-2.0.0" = _sACAGFdz;
@@ -273,7 +285,8 @@ let
         "pkg-2.4.7" = _YbLF4kGG;
         "pkg-2.4.8" = _sAoSq5fc;
         "pkg-2.4.9" = _mSj6fEna;
-        "default" = _mSj6fEna;
+        "pkg-2.5.0" = _dukiKIqa;
+        "default" = _dukiKIqa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cannibal-villages";

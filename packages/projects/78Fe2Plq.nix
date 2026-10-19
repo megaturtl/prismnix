@@ -116,6 +116,61 @@ let
             "file" = "minecraft-music-player-2.2.3-fabricmc1.14.4.jar";
             "hash" = "sha512-XK3n6ryogVigGcXgyZCb37W/o+UEvWh8tzKPrXuWQIogBvBbXMoshDFpv/Z8c0rhawdX9rRy1P7c5mr/nJGj+w==";
         };
+        _6rWHv5ah = {
+            "id" = "6rWHv5ah";
+            "file" = "minecraft-music-player-2.2.4-fabricmc26.3.jar";
+            "hash" = "sha512-8yo25d/vYAPgh6Vg7IoyqDczo7fym42U/sWHWaqfRt5p9OV91zctON1ZVMPS+5faOQ9XfZY0E7iSgbzMYSyzAg==";
+        };
+        _altnlO01 = {
+            "id" = "altnlO01";
+            "file" = "minecraft-music-player-2.2.4-fabricmc26.2.jar";
+            "hash" = "sha512-7DsnshSlMf3hVQhxKuDisqeqtzoU8o6nI7gv4rvgzyEnEertlh5lAt1WmBbfmuPD3u2qHH/1GVw4h1uCxsWZKA==";
+        };
+        _GurQHf5o = {
+            "id" = "GurQHf5o";
+            "file" = "minecraft-music-player-2.2.4-fabricmc26.1.jar";
+            "hash" = "sha512-tbsGZUOW68suUMxZVk5GTBVvSLvIffJyLHssfCCu3jP4ww4HHAe08kuCUyFsuIMiM7S0XQ2SQ4V4yDeBE2eWLQ==";
+        };
+        _w2RtxSBP = {
+            "id" = "w2RtxSBP";
+            "file" = "minecraft-music-player-2.2.4-fabricmc1.21.11.jar";
+            "hash" = "sha512-DJNxB7xyjbearzJXmwxMUpTDygDheZO0+05QRnwfJFORKze1Z1FLwsJfdHR9WXgTdti+hvyQ9z8Map37XlJi3Q==";
+        };
+        _A9MsXINU = {
+            "id" = "A9MsXINU";
+            "file" = "minecraft-music-player-2.2.4-fabricmc1.20.1.jar";
+            "hash" = "sha512-KYpg3pCV8nTuD00JeUM2jpbbfjH5V4BBLPcfsR4nMz+4A4+tVYKMahVaYGP5yplB7X0r9ZyE8f/NMmDDh1xtug==";
+        };
+        _t5npofoS = {
+            "id" = "t5npofoS";
+            "file" = "minecraft-music-player-2.2.4-fabricmc1.19.2.jar";
+            "hash" = "sha512-2sI/IX8zSKyE8QHAJwf9ghpM2WzbDVY/QPlpBCG6/vAvHzHLn0jto5/jRSeSWrdTgrtL1hp+IacZb1odm/N/bA==";
+        };
+        _f8rcT5IK = {
+            "id" = "f8rcT5IK";
+            "file" = "minecraft-music-player-2.2.4-fabricmc1.18.2.jar";
+            "hash" = "sha512-Ss1mggfDdtTnY2MkHtuS++qepcw+cHQ9G4LC2nSuZWNWA1F4Dta2/8RGtOJLFuDMH/EV6BdnTcQ4LcYCX7RvdA==";
+        };
+        _NF5QSQ6i = {
+            "id" = "NF5QSQ6i";
+            "file" = "minecraft-music-player-2.2.4-fabricmc1.17.1.jar";
+            "hash" = "sha512-fQvXoW0BTplFfra692WcJvyUTL0UbZ26bQnoxYNFWclLI/u3H5wVsp9zdLc4yGaYaNmPtiuP0uCx7R8oA5rIWQ==";
+        };
+        _5FJtW6R2 = {
+            "id" = "5FJtW6R2";
+            "file" = "minecraft-music-player-2.2.4-fabricmc1.16.5.jar";
+            "hash" = "sha512-54U26a0Asy4VZDAcHx+GZdYu2gKOLKMR7vMOCY5+mEBhqNA+zd+PwAs74AXAQfEP8U9K4Kralax3QP7wNJXRkA==";
+        };
+        _jALubaF7 = {
+            "id" = "jALubaF7";
+            "file" = "minecraft-music-player-2.2.4-fabricmc1.15.2.jar";
+            "hash" = "sha512-FlM1tTH748kUwjP++gclIlnxTjYKLDSDulh69H0NAFYxwBxksJeXh9zSzvE/pHma4YmE0+9TBxxU6s4LHnEqBw==";
+        };
+        _6d6N5TnI = {
+            "id" = "6d6N5TnI";
+            "file" = "minecraft-music-player-2.2.4-fabricmc1.14.4.jar";
+            "hash" = "sha512-KZ+nieD2dypWzjBsuO++ZlQtbI3WFcCu0/MKf0VzBOhGt5zgTS/AlkRKCZ1qPQ4PJBMpY8gXhPMn9pN9neogZw==";
+        };
     in {
         "ATMURnwv" = _ATMURnwv;
         "VYNOsslo" = _VYNOsslo;
@@ -140,19 +195,30 @@ let
         "2J5q4x9h" = _2J5q4x9h;
         "XBVB0NRZ" = _XBVB0NRZ;
         "qKcBJAat" = _qKcBJAat;
-        "fabric-1.20.1" = _xl8VemJt;
-        "fabric-1.21.11" = _huOPV5PI;
-        "fabric-26.2" = _V2Jng5WT;
-        "fabric-26.3" = _Knw40LyT;
-        "fabric-26.1" = _4yrGkxOs;
-        "fabric-26.1.1" = _4yrGkxOs;
-        "fabric-26.1.2" = _4yrGkxOs;
-        "fabric-1.19.2" = _CDNdw1Cs;
-        "fabric-1.18.2" = _gvNnfTv6;
-        "fabric-1.17.1" = _L1F4qf8I;
-        "fabric-1.16.5" = _2J5q4x9h;
-        "fabric-1.15.2" = _XBVB0NRZ;
-        "fabric-1.14.4" = _qKcBJAat;
+        "6rWHv5ah" = _6rWHv5ah;
+        "altnlO01" = _altnlO01;
+        "GurQHf5o" = _GurQHf5o;
+        "w2RtxSBP" = _w2RtxSBP;
+        "A9MsXINU" = _A9MsXINU;
+        "t5npofoS" = _t5npofoS;
+        "f8rcT5IK" = _f8rcT5IK;
+        "NF5QSQ6i" = _NF5QSQ6i;
+        "5FJtW6R2" = _5FJtW6R2;
+        "jALubaF7" = _jALubaF7;
+        "6d6N5TnI" = _6d6N5TnI;
+        "fabric-1.20.1" = _A9MsXINU;
+        "fabric-1.21.11" = _w2RtxSBP;
+        "fabric-26.2" = _altnlO01;
+        "fabric-26.3" = _6rWHv5ah;
+        "fabric-26.1" = _GurQHf5o;
+        "fabric-26.1.1" = _GurQHf5o;
+        "fabric-26.1.2" = _GurQHf5o;
+        "fabric-1.19.2" = _t5npofoS;
+        "fabric-1.18.2" = _f8rcT5IK;
+        "fabric-1.17.1" = _NF5QSQ6i;
+        "fabric-1.16.5" = _5FJtW6R2;
+        "fabric-1.15.2" = _jALubaF7;
+        "fabric-1.14.4" = _6d6N5TnI;
         "pkg-1.0.0" = _ATMURnwv;
         "pkg-2.0.0" = _VYNOsslo;
         "pkg-2.0.3" = _OhdVfhPx;
@@ -163,7 +229,8 @@ let
         "pkg-2.1.3" = _dmZrIfOl;
         "pkg-2.2.2" = _yngl8hOZ;
         "pkg-2.2.3" = _qKcBJAat;
-        "default" = _qKcBJAat;
+        "pkg-2.2.4" = _6d6N5TnI;
+        "default" = _6d6N5TnI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "custom-music-player";

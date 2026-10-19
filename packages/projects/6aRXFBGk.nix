@@ -541,6 +541,26 @@ let
             "file" = "guitween-3.4.2-26.3+neoforge.jar";
             "hash" = "sha512-4wV2rDhv9guNXdEw7A7S3Q2XqbcxspcgoAEIO0znwuFkeQ3QIqku6PrAF5xqfjUNUZcgz56NJc3BPGjKhzAaNg==";
         };
+        _TA5IHevN = {
+            "id" = "TA5IHevN";
+            "file" = "guitween-3.4.1-1.21.11+neoforge.jar";
+            "hash" = "sha512-3T/jKuz0OCFswpIVsqY2tMgCpShiy9aDa2OvbDS+LsfMdgG3AZ53Eml4vLvCEytNqp7k8nPCTkDJrKPy2M6Siw==";
+        };
+        _VUg4XpUF = {
+            "id" = "VUg4XpUF";
+            "file" = "guitween-3.4.1-1.21.11+fabric.jar";
+            "hash" = "sha512-jbCqsTx/utJe428Ue92n5wLWm82/w3Khjbr04QEhX/bz++rOp3LTChe338YBTacuE1oroBrCi3wl247lnSqBtQ==";
+        };
+        _UqmjkVpm = {
+            "id" = "UqmjkVpm";
+            "file" = "guitween-3.4.4-1.21.1+neoforge.jar";
+            "hash" = "sha512-YRqDq66UP/yvBg/ws10ZlzUvJ8b1BooGWhSzax7Amalysn1LiwY1i792ovAbEoC+NV5UOeygFO5vujs1l94uHA==";
+        };
+        _x0DycHbX = {
+            "id" = "x0DycHbX";
+            "file" = "guitween-3.4.3-1.21.1+fabric.jar";
+            "hash" = "sha512-f9Oo75lJYqKcstFcILavmU2188m0jjDYAF/rdbwQdu+3uBmPAjmZ34y9SHmEkU33m/HmHbe48vywyUlw0FGQhg==";
+        };
     in {
         "C5bUcteR" = _C5bUcteR;
         "hvZMlAED" = _hvZMlAED;
@@ -650,19 +670,23 @@ let
         "YTtNnKrx" = _YTtNnKrx;
         "ui4wSker" = _ui4wSker;
         "tZ4VAS1M" = _tZ4VAS1M;
+        "TA5IHevN" = _TA5IHevN;
+        "VUg4XpUF" = _VUg4XpUF;
+        "UqmjkVpm" = _UqmjkVpm;
+        "x0DycHbX" = _x0DycHbX;
         "forge-1.20.1" = _4YeDBp9w;
-        "neoforge-1.21.1" = _ERsRtNJn;
-        "neoforge-1.21.11" = _yYaliMjP;
+        "neoforge-1.21.1" = _UqmjkVpm;
+        "neoforge-1.21.11" = _TA5IHevN;
         "neoforge-26.1" = _myc0Sd97;
         "neoforge-26.1.1" = _myc0Sd97;
         "neoforge-26.1.2" = _myc0Sd97;
         "neoforge-26.2" = _YTtNnKrx;
         "neoforge-26.3" = _tZ4VAS1M;
-        "fabric-1.21.11" = _73FhbUHC;
+        "fabric-1.21.11" = _VUg4XpUF;
         "fabric-26.1" = _dCdH5zia;
         "fabric-26.1.1" = _dCdH5zia;
         "fabric-26.1.2" = _dCdH5zia;
-        "fabric-1.21.1" = _J8wkjF4s;
+        "fabric-1.21.1" = _x0DycHbX;
         "fabric-26.2" = _rARRRIPf;
         "fabric-26.3" = _ui4wSker;
         "pkg-1.0.0" = _C5bUcteR;
@@ -696,11 +720,12 @@ let
         "pkg-3.3.8" = _J44Zi6Zw;
         "pkg-3.4.0-beta" = _FNThgZvU;
         "pkg-3.4.0" = _yYaliMjP;
-        "pkg-3.4.1" = _d8DLUvss;
+        "pkg-3.4.1" = _VUg4XpUF;
         "pkg-3.4.2" = _tZ4VAS1M;
         "pkg-3.4.1-beta" = _mpmEeOOD;
-        "pkg-3.4.3" = _ERsRtNJn;
-        "default" = _tZ4VAS1M;
+        "pkg-3.4.3" = _x0DycHbX;
+        "pkg-3.4.4" = _UqmjkVpm;
+        "default" = _x0DycHbX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gui-tween";

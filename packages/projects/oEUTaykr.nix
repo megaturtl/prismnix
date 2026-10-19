@@ -136,6 +136,26 @@ let
             "file" = "gardentrails-neoforge-26.3-0.5.0.jar";
             "hash" = "sha512-tjxvv5TqmlWeHoLKgOp9efoIhgXlqNsCbmBm6I4SLNn83+mUVs1XHROl2mTSrzlrlGJFpvWVa3dfDps2Ox86Cw==";
         };
+        _ROrHKsm1 = {
+            "id" = "ROrHKsm1";
+            "file" = "Garden Trails-fabric-1.20.1-0.1.14.jar";
+            "hash" = "sha512-VYFOREgiAqOFGhN9TEUQSamKjK+cxZzheFBUrNm4PEOe1hl4IoxG6CZY1kMTDHdiGAHnVn+sIpRVlZ/l6oyUFQ==";
+        };
+        _Rz53TZEd = {
+            "id" = "Rz53TZEd";
+            "file" = "gardentrails-forge-1.20.1-0.1.14.jar";
+            "hash" = "sha512-Ojj7srdbnYX22Io6vYE12M1OZyNirrU5l0ZBGZTKZuwpwj/gHq58+Jrf+4G7jPCuYXrjCps0fbyIGRo/uBATQQ==";
+        };
+        _z6aW3Swm = {
+            "id" = "z6aW3Swm";
+            "file" = "gardentrails-neoforge-1.21.1-0.2.4.jar";
+            "hash" = "sha512-ppduKBXbSLP9yvLoQtulBwzpyIchB4yb8QaHgZcJTiewlyiHTcMWZp/G9mWtNdJu8frB1XUyxyznjnzsiZgEFg==";
+        };
+        _1TsfRupj = {
+            "id" = "1TsfRupj";
+            "file" = "Garden Trails-fabric-1.21.1-0.2.4.jar";
+            "hash" = "sha512-5mXTw8XRPPllDNHXTzrfwAlOM1CUG8QEOKIB//Rejr4d+CpIbatzhEK+jbvlJLe0g3E+tAAQNNqGjXewgDGlFw==";
+        };
     in {
         "3udInYq1" = _3udInYq1;
         "R03F1ZsQ" = _R03F1ZsQ;
@@ -164,13 +184,17 @@ let
         "FF9UfqMw" = _FF9UfqMw;
         "XipCbYhy" = _XipCbYhy;
         "tI3tfKZl" = _tI3tfKZl;
-        "fabric-1.20.1" = _nwJ5GTga;
-        "fabric-1.21.1" = _lhNzYX3k;
+        "ROrHKsm1" = _ROrHKsm1;
+        "Rz53TZEd" = _Rz53TZEd;
+        "z6aW3Swm" = _z6aW3Swm;
+        "1TsfRupj" = _1TsfRupj;
+        "fabric-1.20.1" = _ROrHKsm1;
+        "fabric-1.21.1" = _1TsfRupj;
         "fabric-1.21.11" = _ePTU9Nf9;
         "fabric-26.1.2" = _FF9UfqMw;
         "fabric-26.3" = _XipCbYhy;
-        "forge-1.20.1" = _uaNBK2aM;
-        "neoforge-1.21.1" = _vNB7pOkF;
+        "forge-1.20.1" = _Rz53TZEd;
+        "neoforge-1.21.1" = _z6aW3Swm;
         "neoforge-1.21.11" = _pecIqzsT;
         "neoforge-26.1.2" = _CqEMQw9p;
         "neoforge-26.3" = _tI3tfKZl;
@@ -187,7 +211,9 @@ let
         "pkg-0.3.0" = _pecIqzsT;
         "pkg-0.4.0" = _FF9UfqMw;
         "pkg-0.5.0" = _tI3tfKZl;
-        "default" = _tI3tfKZl;
+        "pkg-0.1.14" = _Rz53TZEd;
+        "pkg-0.2.4" = _1TsfRupj;
+        "default" = _1TsfRupj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "garden-trails";

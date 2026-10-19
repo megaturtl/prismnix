@@ -41,6 +41,11 @@ let
             "file" = "more_attributes-1.5.2.jar";
             "hash" = "sha512-hUf1coh3eoHflWV+2THER7Yc2Y/NKq8UIzsj6kzOa5fAvV2IMA3RuJa8yWJo1ZDdBx65dTWMWUPSNasl9XtWEw==";
         };
+        _AoWrcc1v = {
+            "id" = "AoWrcc1v";
+            "file" = "more_attributes-1.5.3-all.jar";
+            "hash" = "sha512-6Sb3MNBNsWIauh2yHjFNKSWVGmCu/Q8okBEhODskazbAb+YvqB/L+Q3olz1C9g7erclOOdBuHcZUsGet+kYFVg==";
+        };
     in {
         "FWNFQsFx" = _FWNFQsFx;
         "hTEeBKEk" = _hTEeBKEk;
@@ -50,7 +55,8 @@ let
         "TfnPiakQ" = _TfnPiakQ;
         "HE5eIU4B" = _HE5eIU4B;
         "6yIrLH1L" = _6yIrLH1L;
-        "forge-1.20.1" = _6yIrLH1L;
+        "AoWrcc1v" = _AoWrcc1v;
+        "forge-1.20.1" = _AoWrcc1v;
         "pkg-1.0.0" = _FWNFQsFx;
         "pkg-1.1.0" = _hTEeBKEk;
         "pkg-1.2.0" = _YEE3I4rV;
@@ -59,7 +65,8 @@ let
         "pkg-1.4.0" = _TfnPiakQ;
         "pkg-1.5.1" = _HE5eIU4B;
         "pkg-1.5.2" = _6yIrLH1L;
-        "default" = _6yIrLH1L;
+        "pkg-1.5.3" = _AoWrcc1v;
+        "default" = _AoWrcc1v;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-attributes";

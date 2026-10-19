@@ -26,16 +26,30 @@ let
             "file" = "СappieMitaDweller_Update2_Version.jar";
             "hash" = "sha512-pxibi9WzX3CYc0kVoanQAZqOgdxjzg1I1/V6HQym23GDIu7/EtI2SEQc8BBUpntvbDP41Jc8oU2Na7fucUEqfQ==";
         };
+        _2o4EYvBA = {
+            "id" = "2o4EYvBA";
+            "file" = "mita_madness-3.0.0.jar";
+            "hash" = "sha512-5Mgy5Ll4V7noPHUBkQXcg6xseRgYpEcMkAIf/CYZ8r6WWe6hslNGnWhhBEgVYJYN0/JpljDOVJkJQbLqQMYpDA==";
+        };
+        _TFtQBSor = {
+            "id" = "TFtQBSor";
+            "file" = "mita_mandess-3.1.0-BugFix.jar";
+            "hash" = "sha512-+fAfd//nW/X8tQuguJtVPh7WWUqeqLM4Iy7+z+DRGxT3Nz7jpmYjfoZR8Cu6Z7sDmgDI6j81WFDtt6CLKOVbAg==";
+        };
     in {
         "tWbFzQGI" = _tWbFzQGI;
         "NJhTKyze" = _NJhTKyze;
         "mtuJaFrl" = _mtuJaFrl;
         "OUh1hpIt" = _OUh1hpIt;
         "xQPJB8HW" = _xQPJB8HW;
-        "forge-1.20.1" = _xQPJB8HW;
+        "2o4EYvBA" = _2o4EYvBA;
+        "TFtQBSor" = _TFtQBSor;
+        "forge-1.20.1" = _TFtQBSor;
         "pkg-1.7.0" = _tWbFzQGI;
         "pkg-1.8.0" = _xQPJB8HW;
-        "default" = _xQPJB8HW;
+        "pkg-3.0.0" = _2o4EYvBA;
+        "pkg-3.1.0-BugFix" = _TFtQBSor;
+        "default" = _TFtQBSor;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mita-dweller";

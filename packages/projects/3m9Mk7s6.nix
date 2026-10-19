@@ -96,6 +96,16 @@ let
             "file" = "BraysWorld v1.3.8.zip";
             "hash" = "sha512-1j3lkr5IHwWlJUZeWX70xSn15Yc60M2UN56ubXq3lhsacNfEkwb9GxcwqOX7XLw1gXc3Q5hjiL+wnM672xjFtA==";
         };
+        _X8Ox9vJi = {
+            "id" = "X8Ox9vJi";
+            "file" = "Bray's World v1.4.zip";
+            "hash" = "sha512-fpkR2xqEJYIgHZVUByvkTxUsqcbKHM4hLIYwslrtjqmdq5wikrptk5lvfxLsZNVN4O37v1o4wkTpwywyEmJWMQ==";
+        };
+        _dnJiQeBP = {
+            "id" = "dnJiQeBP";
+            "file" = "Bray's World v1.4.1.zip";
+            "hash" = "sha512-HSOZ/3oQ2MTDycM/XCFaDFxG0VqE54bihEdTovGtG6IQnzH4FqcwHK7ZCkbBtD3YhbuA5MTYAj3m3A7ZSkz0BQ==";
+        };
     in {
         "3mz81EXB" = _3mz81EXB;
         "KxcHPLHW" = _KxcHPLHW;
@@ -116,6 +126,8 @@ let
         "9AH2OBCb" = _9AH2OBCb;
         "GFgwtUDp" = _GFgwtUDp;
         "9b3erQuS" = _9b3erQuS;
+        "X8Ox9vJi" = _X8Ox9vJi;
+        "dnJiQeBP" = _dnJiQeBP;
         "minecraft-1.20" = _9b3erQuS;
         "minecraft-1.20.1" = _9b3erQuS;
         "minecraft-1.20.2" = _9b3erQuS;
@@ -132,9 +144,14 @@ let
         "minecraft-1.21.6" = _9b3erQuS;
         "minecraft-1.21.7" = _9b3erQuS;
         "minecraft-1.21.8" = _9b3erQuS;
-        "minecraft-1.21.9" = _9b3erQuS;
-        "minecraft-1.21.10" = _9b3erQuS;
-        "minecraft-1.21.11" = _9b3erQuS;
+        "minecraft-1.21.9" = _dnJiQeBP;
+        "minecraft-1.21.10" = _dnJiQeBP;
+        "minecraft-1.21.11" = _dnJiQeBP;
+        "minecraft-26.1" = _dnJiQeBP;
+        "minecraft-26.1.1" = _dnJiQeBP;
+        "minecraft-26.1.2" = _dnJiQeBP;
+        "minecraft-26.2" = _dnJiQeBP;
+        "minecraft-26.3" = _dnJiQeBP;
         "pkg-1.0.0" = _3mz81EXB;
         "pkg-1.0.1" = _KxcHPLHW;
         "pkg-1.0.2" = _bsGyeRif;
@@ -153,7 +170,9 @@ let
         "pkg-1.3.6" = _9AH2OBCb;
         "pkg-1.3.7" = _GFgwtUDp;
         "pkg-1.3.8" = _9b3erQuS;
-        "default" = _9b3erQuS;
+        "pkg-1.4" = _X8Ox9vJi;
+        "pkg-1.4.1" = _dnJiQeBP;
+        "default" = _dnJiQeBP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "braysworld";

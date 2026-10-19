@@ -321,6 +321,11 @@ let
             "file" = "Saros-Better-Glass-Forge-26.3-1.13.jar";
             "hash" = "sha512-z3apwDAoOzPNr7V40o1qXXjCztG5CPQKRdcof0EG0Q+mKJ5ivFdTfEwncz5JTxKxFG59S2GSpVC2sz5+lHuXjA==";
         };
+        _Gad3IBmA = {
+            "id" = "Gad3IBmA";
+            "file" = "Saros-Better-Glass-NeoForge-26.3-1.13.jar";
+            "hash" = "sha512-jJOZ1iF0OlPVFpI3HO5dX+waVIASRresj78Y0KdUDH00w7rg7g2w7kXGJ8+x7D6oicqwLSBOXPoOU3cH1mkQSA==";
+        };
     in {
         "7LOaz5z2" = _7LOaz5z2;
         "jbCLmpDa" = _jbCLmpDa;
@@ -386,6 +391,7 @@ let
         "tpMg5L1a" = _tpMg5L1a;
         "TEfWmJ2g" = _TEfWmJ2g;
         "5PaKzHLu" = _5PaKzHLu;
+        "Gad3IBmA" = _Gad3IBmA;
         "forge-1.19.2" = _jbCLmpDa;
         "forge-1.20.1" = _G1nMbR21;
         "forge-1.21.1" = _e0TpG42C;
@@ -414,7 +420,7 @@ let
         "neoforge-26.1.2" = _K0XsGKrT;
         "neoforge-26.2" = _4BeZCQgS;
         "neoforge-1.20.1" = _KulCuywx;
-        "neoforge-26.3" = _TEfWmJ2g;
+        "neoforge-26.3" = _Gad3IBmA;
         "pkg-1.2" = _7LOaz5z2;
         "pkg-1.3" = _Sb8W4YDY;
         "pkg-2.1" = _ePmr7gWV;
@@ -446,7 +452,8 @@ let
         "pkg-1.11" = _tpMg5L1a;
         "pkg-1.12" = _TEfWmJ2g;
         "pkg-1.13-forge-26.3" = _5PaKzHLu;
-        "default" = _5PaKzHLu;
+        "pkg-1.13" = _Gad3IBmA;
+        "default" = _Gad3IBmA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "saros-better-glass";

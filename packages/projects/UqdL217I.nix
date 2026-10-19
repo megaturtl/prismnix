@@ -216,6 +216,11 @@ let
             "file" = "access_denied-neoforge-1.21.1-8.0.0.jar";
             "hash" = "sha512-TlPoTDiFCSIPlr7WR0uUnERkwUC65QWJJIg1WSFk0nFeyINw8/Kw7nqN+0+VPHDrJqszR1z8e61abSDYecRn4Q==";
         };
+        _CK4CwylV = {
+            "id" = "CK4CwylV";
+            "file" = "access_denied-neoforge-1.21.1-8.0.1.jar";
+            "hash" = "sha512-h9ADW20SSUuPqoIUdYhU75hnuiTLiQ2X0Rqz/P9TzGK3aYkc7pq1l62ah00SSJUEjwkXNlBavwfwq1Nov26Dlw==";
+        };
     in {
         "K8tjakBu" = _K8tjakBu;
         "Kvcbq1vL" = _Kvcbq1vL;
@@ -260,6 +265,7 @@ let
         "8qFg4R7f" = _8qFg4R7f;
         "8wohrdQi" = _8wohrdQi;
         "AmMUrX3V" = _AmMUrX3V;
+        "CK4CwylV" = _CK4CwylV;
         "forge-1.20.1" = _8qFg4R7f;
         "forge-1.19.2" = _vrGgUNoe;
         "forge-1.19.3" = _vrGgUNoe;
@@ -279,7 +285,7 @@ let
         "forge-1.21.1" = _wugxY9BL;
         "neoforge-1.20.6" = _1L3b3OBE;
         "neoforge-1.21" = _szUd0cPo;
-        "neoforge-1.21.1" = _AmMUrX3V;
+        "neoforge-1.21.1" = _CK4CwylV;
         "neoforge-1.21.2" = _i8fZqMWD;
         "neoforge-1.21.3" = _i8fZqMWD;
         "neoforge-1.21.4" = _fD311wv0;
@@ -318,7 +324,8 @@ let
         "pkg-Forge-1.20.1-7.0.0" = _8qFg4R7f;
         "pkg-Fabric-1.20.1-7.0.0" = _8wohrdQi;
         "pkg-8.0.0" = _AmMUrX3V;
-        "default" = _AmMUrX3V;
+        "pkg-8.0.1" = _CK4CwylV;
+        "default" = _CK4CwylV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "accessdenied";

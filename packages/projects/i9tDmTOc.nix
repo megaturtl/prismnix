@@ -76,6 +76,11 @@ let
             "file" = "fluxnautics-1.0.0.jar";
             "hash" = "sha512-YDjoti/LwvooIRMx2Wrf+8wrkNWxzx+NpG7vQWHpS8Pyzk5YZ8H9SrDTt1IRP59qkmgi62hw43C3HoISI4ZJDw==";
         };
+        _mTNmIdRh = {
+            "id" = "mTNmIdRh";
+            "file" = "fluxnautics-1.0.1.jar";
+            "hash" = "sha512-AWPjQOl++nNpCWXS49u/LkBFpebzLo2KFUXPK+KMNOjRyz0XT1lfjSrHnqtoCd8dL8a6bZ0TWX+p+VUzI1T2uQ==";
+        };
     in {
         "UYfezdbd" = _UYfezdbd;
         "gDon6Gjd" = _gDon6Gjd;
@@ -92,7 +97,8 @@ let
         "bFnxouuz" = _bFnxouuz;
         "WZ5VhD52" = _WZ5VhD52;
         "P4TNbyy5" = _P4TNbyy5;
-        "neoforge-1.21.1" = _P4TNbyy5;
+        "mTNmIdRh" = _mTNmIdRh;
+        "neoforge-1.21.1" = _mTNmIdRh;
         "pkg-1.0.0-alpha.1" = _UYfezdbd;
         "pkg-1.0.0-alpha.2" = _gDon6Gjd;
         "pkg-1.0.0-alpha.3" = _NRlFqGC2;
@@ -108,7 +114,8 @@ let
         "pkg-1.0.0-beta.2" = _bFnxouuz;
         "pkg-1.0.0-beta.3" = _WZ5VhD52;
         "pkg-1.0.0" = _P4TNbyy5;
-        "default" = _P4TNbyy5;
+        "pkg-1.0.1" = _mTNmIdRh;
+        "default" = _mTNmIdRh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fluxnautics";

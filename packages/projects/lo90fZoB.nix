@@ -296,6 +296,16 @@ let
             "file" = "heracles-fabric-1.21.1-2.0.2.jar";
             "hash" = "sha512-RIVB1ivAcMopJwmMEijyo5/P9/KlxF8BK7cvPHI4k4/0WQDJkQ+XhI33sMtyOQxeZ2yHUbnwz/almGJF6MOKbw==";
         };
+        _DYaRmc9w = {
+            "id" = "DYaRmc9w";
+            "file" = "heracles-neoforge-1.21.1-2.0.3.jar";
+            "hash" = "sha512-FpUg15SibtK2zeA7y1DeDCC7WjRkrlw6w2ynie3qZeJuwekjy//6rZ6+RleoWuh2oyl9iCtDdto7QtIS0yr/bQ==";
+        };
+        _tyyVTUG3 = {
+            "id" = "tyyVTUG3";
+            "file" = "heracles-fabric-1.21.1-2.0.3.jar";
+            "hash" = "sha512-DVJJ3Y19aARiuDfer+j99nq9Y9V5HbnLAISihmV2ybtLNZlRfZlsdCCs3B5bF72Zr7hrBBXM10G0xgtQm2xO0Q==";
+        };
     in {
         "5jkZmVDv" = _5jkZmVDv;
         "VLtolKMC" = _VLtolKMC;
@@ -356,12 +366,14 @@ let
         "cXRZpsEV" = _cXRZpsEV;
         "pXt2zBKC" = _pXt2zBKC;
         "xwrDzjVX" = _xwrDzjVX;
+        "DYaRmc9w" = _DYaRmc9w;
+        "tyyVTUG3" = _tyyVTUG3;
         "fabric-1.20" = _H7UX723U;
         "fabric-1.20.1" = _Iw91uuFK;
-        "fabric-1.21.1" = _xwrDzjVX;
+        "fabric-1.21.1" = _tyyVTUG3;
         "forge-1.20" = _XFtTyYCL;
         "forge-1.20.1" = _9ZUSHiZa;
-        "neoforge-1.21.1" = _pXt2zBKC;
+        "neoforge-1.21.1" = _DYaRmc9w;
         "pkg-0.0.0" = _VLtolKMC;
         "pkg-0.0.1" = _5H0nvQsn;
         "pkg-0.0.2" = _gt5tf1XL;
@@ -392,7 +404,8 @@ let
         "pkg-2.0.0" = _VYeSlTDi;
         "pkg-2.0.1" = _cXRZpsEV;
         "pkg-2.0.2" = _xwrDzjVX;
-        "default" = _xwrDzjVX;
+        "pkg-2.0.3" = _tyyVTUG3;
+        "default" = _tyyVTUG3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "odyssey-quests";

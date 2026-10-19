@@ -381,6 +381,66 @@ let
             "file" = "swbb-fabric-1.21.1-1.1.9-beta.jar";
             "hash" = "sha512-SCjxJpcErXpvp3fA78o1TgUcIzAn5zafOPu7seWELeoAZQ8WhyeitChwBVkoYQg1nzMDRG58dcO1Vr6estEDqg==";
         };
+        _BnJyf6oq = {
+            "id" = "BnJyf6oq";
+            "file" = "swbb-fabric-1.21.1-1.2.1-beta.jar";
+            "hash" = "sha512-ODnvxG6T3QSerRIVgbjgMYyMlXiq2UGlH0UBNCQWKN6OLRGA75mM+NahT2z1Pdj9EWlsNhlm1XuPTx+3es2rpA==";
+        };
+        _LFkTAnFn = {
+            "id" = "LFkTAnFn";
+            "file" = "swbb-neoforge-1.21.1-1.2.1-beta.jar";
+            "hash" = "sha512-pNpsvvoeDiK+2cnplwDLCnZ58JrOV801Z2hz1fnOKbzsvJ/FWINiMtr4Gi0EPaaQg9gSLMg3E2eHGcwRA7DRGw==";
+        };
+        _ULJM1cnH = {
+            "id" = "ULJM1cnH";
+            "file" = "swbb-fabric-1.21.1-1.2.5-beta.jar";
+            "hash" = "sha512-ceSYicpUBSygjLNoYOvzISFaZrA5ibOWm0C1ot2+W5UBaCBUGIfNrVMKXBE1bSRz96nEK5YptWJ3rEBxk54A5Q==";
+        };
+        _i1wDjSIR = {
+            "id" = "i1wDjSIR";
+            "file" = "swbb-neoforge-1.21.1-1.2.5-beta.jar";
+            "hash" = "sha512-DX+n1CHGArDNcIMqpI5gflBQSJMSEhiBUf4rlkoMpM8pVSer2MlRMfBmpXniXv5ebM6SK/hh213onsAqmQv7BQ==";
+        };
+        _vB8kie3A = {
+            "id" = "vB8kie3A";
+            "file" = "swbb-neoforge-1.21.1-1.2.6-beta.jar";
+            "hash" = "sha512-RsmqNijtVTI2q4B76ZpaJaJMJiudM25xSbtsdRLnYpYptVP640fEUjMLQb0wE7d9SnYwYTlEs4AH6EVZr17swA==";
+        };
+        _vwwfMfiB = {
+            "id" = "vwwfMfiB";
+            "file" = "swbb-fabric-1.21.1-1.2.6-beta.jar";
+            "hash" = "sha512-wXYRTg16/+vWslg3xbaGvdSkozotbxOb+YI3IH8W1kPEi8QOCD6tr4zj4iYRcxdWI76Gx8VNbvL5X4LZQw2vvg==";
+        };
+        _VKU9lOrg = {
+            "id" = "VKU9lOrg";
+            "file" = "swbb-neoforge-1.21.1-1.2.7-beta.jar";
+            "hash" = "sha512-uDIHJOG54XCVVobFM6X5Ql9yNSMRcXkDEqYt/FPezQjfIOUoCCGyQYKjAp59+KushQpVc5k4J0l2IgPFT7fuFg==";
+        };
+        _NPjAT5ld = {
+            "id" = "NPjAT5ld";
+            "file" = "swbb-fabric-1.21.1-1.2.7-beta.jar";
+            "hash" = "sha512-mmkQSF03BPH+RDzFTcyA06hFWapHw2mMNRbtrzs8FQ5U58CBjjWovMaol9rB0ROHGgj7/qyAz+gsFqWadhqmWw==";
+        };
+        _vcJ7jx69 = {
+            "id" = "vcJ7jx69";
+            "file" = "swbb-neoforge-1.21.1-1.3.0-beta.jar";
+            "hash" = "sha512-8Wc9YebK/A/Lj1GVGypR8anPYXgEg2fH8m6crHm9QsiFHOHWawBF/eiReG+DT1gZk0Uwho87Myeev+TpCFbglw==";
+        };
+        _suJHHmaL = {
+            "id" = "suJHHmaL";
+            "file" = "swbb-fabric-1.21.1-1.3.0-beta.jar";
+            "hash" = "sha512-WTZgV8svD4fh1F6lqhyQ2+XXSz/n5zZgvxOjdup9vWpyMIm/hT5CIySv5AsvdGaNKIx067CuMOdEFrSb3aMtQA==";
+        };
+        _xEOGYEZ4 = {
+            "id" = "xEOGYEZ4";
+            "file" = "swbb-fabric-1.21.1-1.3.1-beta.jar";
+            "hash" = "sha512-jyOSTffMKZTHa0YJcGbqkdAcbb3h+j9G7BMlJ7R0L6qEHxK3xhsF2a+WNU+rJwOW2zOGth/HoHkQ3aapcB1DwQ==";
+        };
+        _J9vF50oc = {
+            "id" = "J9vF50oc";
+            "file" = "swbb-neoforge-1.21.1-1.3.1-beta.jar";
+            "hash" = "sha512-xaT9cf/ON4luu3npu887J0CJKIzZRwsOCy3+Dsp4CP/vBP1mfcFV+lITgIII+WrevXcfCPueJTAn6in4am8thQ==";
+        };
     in {
         "KjpK96yR" = _KjpK96yR;
         "6UpjzNXl" = _6UpjzNXl;
@@ -458,9 +518,21 @@ let
         "Uppjwqcg" = _Uppjwqcg;
         "Z6nwTJbX" = _Z6nwTJbX;
         "ErDQExhb" = _ErDQExhb;
+        "BnJyf6oq" = _BnJyf6oq;
+        "LFkTAnFn" = _LFkTAnFn;
+        "ULJM1cnH" = _ULJM1cnH;
+        "i1wDjSIR" = _i1wDjSIR;
+        "vB8kie3A" = _vB8kie3A;
+        "vwwfMfiB" = _vwwfMfiB;
+        "VKU9lOrg" = _VKU9lOrg;
+        "NPjAT5ld" = _NPjAT5ld;
+        "vcJ7jx69" = _vcJ7jx69;
+        "suJHHmaL" = _suJHHmaL;
+        "xEOGYEZ4" = _xEOGYEZ4;
+        "J9vF50oc" = _J9vF50oc;
         "fabric-1.20.2" = _6UpjzNXl;
-        "fabric-1.21.1" = _ErDQExhb;
-        "neoforge-1.21.1" = _Z6nwTJbX;
+        "fabric-1.21.1" = _xEOGYEZ4;
+        "neoforge-1.21.1" = _J9vF50oc;
         "pkg-legacy-pswg-adventures-0.0.16" = _KjpK96yR;
         "pkg-legacy-pswg-adventures-0.0.24.1" = _6UpjzNXl;
         "pkg-0.5.0" = _zkjZpWRP;
@@ -500,7 +572,13 @@ let
         "pkg-1.1.7-beta" = _dznNswS8;
         "pkg-1.1.8-beta" = _Uppjwqcg;
         "pkg-1.1.9-beta" = _ErDQExhb;
-        "default" = _ErDQExhb;
+        "pkg-1.2.1-beta" = _LFkTAnFn;
+        "pkg-1.2.5-beta" = _i1wDjSIR;
+        "pkg-1.2.6-beta" = _vwwfMfiB;
+        "pkg-1.2.7-beta" = _NPjAT5ld;
+        "pkg-1.3.0-beta" = _suJHHmaL;
+        "pkg-1.3.1-beta" = _J9vF50oc;
+        "default" = _J9vF50oc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "starwars-bb";

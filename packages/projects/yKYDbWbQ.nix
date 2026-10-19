@@ -61,6 +61,21 @@ let
             "file" = "Foggy Pale Garden.zip";
             "hash" = "sha512-IX2mE1Dq1BZ/nneYHkQo77pe9GbevwPpYxyXEmngPAa5W/EbTgutiTTcia5xCzhrEajcpFgiFICOiB/ILYc2gw==";
         };
+        _SjoIXOvG = {
+            "id" = "SjoIXOvG";
+            "file" = "Foggy Pale Garden.zip";
+            "hash" = "sha512-zn17EwaiFn231j/DiHjHYN+Ze5MmH9Pd9lJWFpHHeDeOvtztyh626i5BiEMtJ1p5arbfmU+1gcqBeNM8hG8HeA==";
+        };
+        _j1VZ0xAP = {
+            "id" = "j1VZ0xAP";
+            "file" = "Foggy Pale Garden.zip";
+            "hash" = "sha512-/FdwyVZ2jCFa+/4FNTKNC3Hb7izRy/ICFvQcDPeFfGcXQrLaQAJAXiiY1dPnslUyljN5qjSbc5/uluwSfU3r+g==";
+        };
+        _XpsqIcdQ = {
+            "id" = "XpsqIcdQ";
+            "file" = "Foggy Pale Garden.zip";
+            "hash" = "sha512-wbNBXVS4YpJ60EyNGccCUj4wvYK0X14CB6Lc6OJAz6Dwa22WfrCXneg2naXz3KqnT+Bx06XD8FzjUy4YcabAfQ==";
+        };
     in {
         "42q2CZZa" = _42q2CZZa;
         "o5WUJJAV" = _o5WUJJAV;
@@ -74,7 +89,10 @@ let
         "nRlRB3Rb" = _nRlRB3Rb;
         "5aJYPSnS" = _5aJYPSnS;
         "mrBD5F5J" = _mrBD5F5J;
-        "minecraft-1.21.1" = _FeUX2Ys1;
+        "SjoIXOvG" = _SjoIXOvG;
+        "j1VZ0xAP" = _j1VZ0xAP;
+        "XpsqIcdQ" = _XpsqIcdQ;
+        "minecraft-1.21.1" = _SjoIXOvG;
         "minecraft-1.21.2" = _GLTVqeEd;
         "minecraft-1.21.3" = _GLTVqeEd;
         "minecraft-1.21.4" = _nRlRB3Rb;
@@ -82,11 +100,12 @@ let
         "minecraft-1.20.1" = _M5B7AwfW;
         "minecraft-1.21.10" = _H4LZwBZK;
         "minecraft-1.21.11" = _iFyqcrsJ;
-        "minecraft-26.1.2" = _5aJYPSnS;
-        "minecraft-26.2" = _mrBD5F5J;
+        "minecraft-26.1.2" = _j1VZ0xAP;
+        "minecraft-26.2" = _XpsqIcdQ;
         "pkg-1.0.0" = _pPKC0Bbx;
         "pkg-1.0.1" = _mrBD5F5J;
-        "default" = _mrBD5F5J;
+        "pkg-1.1.0" = _XpsqIcdQ;
+        "default" = _XpsqIcdQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "foggypalegarden-rp";

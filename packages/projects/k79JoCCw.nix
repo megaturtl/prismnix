@@ -101,6 +101,11 @@ let
             "file" = "Emissive Glowing Ores (26.2).zip";
             "hash" = "sha512-haV8jRfPBNPcknmxb9/X6tE6GdrRxKqr5YdOcBkQD3xwuWlnUD5AdwV1Iwi8StU/LQLvDk9avDKzaRcSoX4m4Q==";
         };
+        _TFgRZNtw = {
+            "id" = "TFgRZNtw";
+            "file" = "Emissive Glowing Ores (26.3).zip";
+            "hash" = "sha512-qLA1xPjwTGuTTFTfmgoqKooc5t1fndsIV65QLRZ+qBDVNtQ0MPmGs4rRY1gETCTgXnhVOKGOOsAzseAmL9G+ew==";
+        };
     in {
         "C6LiZXDV" = _C6LiZXDV;
         "pfH7a0PS" = _pfH7a0PS;
@@ -122,6 +127,7 @@ let
         "v4WfdhGl" = _v4WfdhGl;
         "okTUgSp9" = _okTUgSp9;
         "DXV0HQsR" = _DXV0HQsR;
+        "TFgRZNtw" = _TFgRZNtw;
         "minecraft-1.21" = _C6LiZXDV;
         "minecraft-1.21.1" = _C6LiZXDV;
         "minecraft-1.21.2" = _pfH7a0PS;
@@ -152,13 +158,14 @@ let
         "minecraft-1.18.2" = _C5jsGS1P;
         "minecraft-1.17" = _mmKsLfsR;
         "minecraft-1.17.1" = _mmKsLfsR;
-        "minecraft-1.21.9" = _DXV0HQsR;
-        "minecraft-1.21.10" = _DXV0HQsR;
-        "minecraft-1.21.11" = _DXV0HQsR;
-        "minecraft-26.1" = _DXV0HQsR;
-        "minecraft-26.1.1" = _DXV0HQsR;
-        "minecraft-26.1.2" = _DXV0HQsR;
-        "minecraft-26.2" = _DXV0HQsR;
+        "minecraft-1.21.9" = _TFgRZNtw;
+        "minecraft-1.21.10" = _TFgRZNtw;
+        "minecraft-1.21.11" = _TFgRZNtw;
+        "minecraft-26.1" = _TFgRZNtw;
+        "minecraft-26.1.1" = _TFgRZNtw;
+        "minecraft-26.1.2" = _TFgRZNtw;
+        "minecraft-26.2" = _TFgRZNtw;
+        "minecraft-26.3" = _TFgRZNtw;
         "pkg-1.21.1" = _C6LiZXDV;
         "pkg-1.21.3" = _pfH7a0PS;
         "pkg-1.21.4" = _KEsf9aY4;
@@ -179,7 +186,8 @@ let
         "pkg-1.21.11" = _v4WfdhGl;
         "pkg-26.1" = _okTUgSp9;
         "pkg-26.2" = _DXV0HQsR;
-        "default" = _DXV0HQsR;
+        "pkg-26.3" = _TFgRZNtw;
+        "default" = _TFgRZNtw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "emissive-glowing-ores";

@@ -81,6 +81,11 @@ let
             "file" = "create-schematic-compute-1.2.5.2.jar";
             "hash" = "sha512-BFnXR49qJM9IKBKp0YIEmDQo+3muYuV8ob9SUnVhOzu0eBIR0DPHhE38S6OQ1bSvnXnLWzVkKvYmffRP4XZQHQ==";
         };
+        _4F2Ysk3L = {
+            "id" = "4F2Ysk3L";
+            "file" = "create-schematic-compute-1.2.6.jar";
+            "hash" = "sha512-MyuanKs8KiuzKTE+HPxEI8yBpPvQd4bhul0mTSxLqf97xVuOudXgvjNt7Zsy27GzGvklEW8oP4RWu0/ftOffJw==";
+        };
     in {
         "drdeygqO" = _drdeygqO;
         "eEWYkwCg" = _eEWYkwCg;
@@ -98,7 +103,8 @@ let
         "rGAuZkoO" = _rGAuZkoO;
         "QdJhBxdb" = _QdJhBxdb;
         "2BZdLygl" = _2BZdLygl;
-        "neoforge-1.21.1" = _2BZdLygl;
+        "4F2Ysk3L" = _4F2Ysk3L;
+        "neoforge-1.21.1" = _4F2Ysk3L;
         "pkg-1.0.0" = _drdeygqO;
         "pkg-1.1.0" = _eEWYkwCg;
         "pkg-1.1.1" = _5D4OP41E;
@@ -115,7 +121,8 @@ let
         "pkg-1.2.5" = _rGAuZkoO;
         "pkg-1.2.5.1" = _QdJhBxdb;
         "pkg-1.2.5.2" = _2BZdLygl;
-        "default" = _2BZdLygl;
+        "pkg-1.2.6" = _4F2Ysk3L;
+        "default" = _4F2Ysk3L;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-schematic-compute";

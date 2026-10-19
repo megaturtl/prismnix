@@ -26,20 +26,27 @@ let
             "file" = "TravelBag-1.0.3.jar";
             "hash" = "sha512-okFtNcAdJHo4QJmUWOV1ILHK1ayL4NoIcaQeKsI1PCIxiyKUHaX9kzOrjyvqFgCnaKVZhFIKKW5h5BgaPFsC4A==";
         };
+        _1wVCzDPn = {
+            "id" = "1wVCzDPn";
+            "file" = "TravelBag-1.0.4.jar";
+            "hash" = "sha512-76VpF8m5OIPD8TKVOrEB8CRtLqxJhSDe7cqWyJhOUmDbXgX4tX8ffcQBRc8u5ujK7ltm0k8PDtNVcTUWMVIsYA==";
+        };
     in {
         "HogL5Nod" = _HogL5Nod;
         "3FBK5g5q" = _3FBK5g5q;
         "7jA771Db" = _7jA771Db;
         "oxPDBog5" = _oxPDBog5;
         "KUFRYsrD" = _KUFRYsrD;
+        "1wVCzDPn" = _1wVCzDPn;
         "fabric-26.1.2" = _3FBK5g5q;
         "fabric-26.2" = _oxPDBog5;
-        "fabric-26.3" = _KUFRYsrD;
+        "fabric-26.3" = _1wVCzDPn;
         "pkg-1.0.0" = _HogL5Nod;
         "pkg-1.0.1" = _7jA771Db;
         "pkg-1.0.2" = _oxPDBog5;
         "pkg-1.0.3" = _KUFRYsrD;
-        "default" = _KUFRYsrD;
+        "pkg-1.0.4" = _1wVCzDPn;
+        "default" = _1wVCzDPn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "travelbag";

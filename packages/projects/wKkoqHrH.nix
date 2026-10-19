@@ -19621,6 +19621,81 @@ let
             "file" = "Geyser-Velocity.jar";
             "hash" = "sha512-LK5HfsaiQB6+SXyJWVV4vykauj3FZtISMHAwt8QBhR2iNd0RNjSbGCSZIl7PB53IfO/Unm0HQQ029vcNj/OBcw==";
         };
+        _N75PcPs6 = {
+            "id" = "N75PcPs6";
+            "file" = "Geyser-BungeeCord.jar";
+            "hash" = "sha512-ywZAEaMJld1xbzO+jBdWa23YQJY2crNoyUoaPnYTo+N6+SYXAIncPQ5Os4v+aOCRpUKa2OaSj8dcj/mZDGPCBg==";
+        };
+        _B1ixavmK = {
+            "id" = "B1ixavmK";
+            "file" = "Geyser-Fabric-2.12.0-b1263.jar";
+            "hash" = "sha512-Li2CpenXDdfKuHrZSOeoTVj3lt4bl5ski/DUNsBGmUgNxALelEUBrzXjBbYyVR4Qihwbu8MyznNiZHXYS793CA==";
+        };
+        _4lVTp0IE = {
+            "id" = "4lVTp0IE";
+            "file" = "Geyser-Neoforge-2.12.0-b1263.jar";
+            "hash" = "sha512-rhnMon9TgqVs2wdNYsQbuy6Rb0epl6zJSbbUKC0EBkIHg295wsxUMToe9ZnTiMDbKA7+V8dMUBheZx42P0FrtQ==";
+        };
+        _qzzRAuDZ = {
+            "id" = "qzzRAuDZ";
+            "file" = "Geyser-Spigot.jar";
+            "hash" = "sha512-kWNzsBPmM8H2tpptFbTFhnXRh62uC2faJOU8Nn3YciTXdnEamNZFutYZw7J+CFjA4OW2l1NUz7XDxYb60jRsvw==";
+        };
+        _6hHvmpma = {
+            "id" = "6hHvmpma";
+            "file" = "Geyser-Velocity.jar";
+            "hash" = "sha512-T5/NMRvesdfxo8/Z3P/NSd94I0kR1ud29mT3xUSQwXSnMX4TDxM2bNBtNt1vl6vpgqlIUb5g/4aKxH2/HeoqYw==";
+        };
+        _ZTKMbdEM = {
+            "id" = "ZTKMbdEM";
+            "file" = "Geyser-BungeeCord.jar";
+            "hash" = "sha512-gflP3Zp+knMvBhYY27NA1vq8e46SPFk61uhDkMMTgvNG+/bDcGUgfKTfYdieQ4t0hwOUDE7WQkA/fs1c4zoGFQ==";
+        };
+        _gowgk84Z = {
+            "id" = "gowgk84Z";
+            "file" = "Geyser-Fabric-2.12.0-b1264.jar";
+            "hash" = "sha512-u1AkEUQe0ALcSpPMBZfa0nvTLOLOuHBNv+pKJmGBYdTprIUALi7JKUTJI43PlEyp9JBi3IfEPp31+AcwxU8B7Q==";
+        };
+        _mP2NSSjy = {
+            "id" = "mP2NSSjy";
+            "file" = "Geyser-Neoforge-2.12.0-b1264.jar";
+            "hash" = "sha512-L/nf6Daf+brwFYtFK3G/FAWuxHxAqSy2h9fLLW77Ff/mvInXIngr+DtDy+wJFPIFLoEPPIX8fBjJkY9By2snbw==";
+        };
+        _r4yNLRv0 = {
+            "id" = "r4yNLRv0";
+            "file" = "Geyser-Spigot.jar";
+            "hash" = "sha512-7iQlzjNJnM6cS2ngV9Iuwk/F9wAQmwQDF0TRkwb9Cr6ai51MUEUpvIcEwlrCYnHMQFHUtreXJA4S/3KlmU3RcA==";
+        };
+        _vSppsbMf = {
+            "id" = "vSppsbMf";
+            "file" = "Geyser-Velocity.jar";
+            "hash" = "sha512-1XWo1jgkpJw+vhu+GBEpxmlf2CkehBeWU+PsqHiuSTuit8Sz2XAALARMMBunFPAmjnSdb2vKwo75gGkfgT6qqw==";
+        };
+        _uztJ40t3 = {
+            "id" = "uztJ40t3";
+            "file" = "Geyser-BungeeCord.jar";
+            "hash" = "sha512-RLHlqvhyhZvh7Cp0sPDp7DRSSwXo9vWU7Puj90muX7vSZlK0kxuUE7L3PWtm9GSzRPg099FfiMRmK6KkaiPkQQ==";
+        };
+        _rUOASU7J = {
+            "id" = "rUOASU7J";
+            "file" = "Geyser-Fabric-2.12.0-b1265.jar";
+            "hash" = "sha512-2WEXv6XC+giBhAgCxVINQ62DpUYUXpVtSRkNNpNokNz42neRDij5nfvfPHwqONl7af5s0KC7W8DDOxOgHVQljg==";
+        };
+        _zCR8GWCG = {
+            "id" = "zCR8GWCG";
+            "file" = "Geyser-Neoforge-2.12.0-b1265.jar";
+            "hash" = "sha512-+KIvIkRGKM6ZDZ03CMn6UeVhFFsPBh6Dk8Gol7VJyjdH33/xnmS4m9yZpfQYYNzBlZVRjeEXSeUqoAhGOx6c2w==";
+        };
+        _oCaKt1L7 = {
+            "id" = "oCaKt1L7";
+            "file" = "Geyser-Spigot.jar";
+            "hash" = "sha512-XjIU580v03oP6dPfEIoVEpAi+0wkeZ3ApO+tSAsxyn2Zm+9SN7T75FrPjeUgTaRUjmfvlL8goUsuwYZOtoqR+Q==";
+        };
+        _bunxqWmu = {
+            "id" = "bunxqWmu";
+            "file" = "Geyser-Velocity.jar";
+            "hash" = "sha512-6Nn2pOON4zipN6ROfqu1ZsSeMWuwFlMwubwfzj5Rhn5PXZ92wI0VpBpE9z4lNLGGdpb2zikkEl9rjnFe9JTnaA==";
+        };
     in {
         "PZN2OcFf" = _PZN2OcFf;
         "Qmuj4cNH" = _Qmuj4cNH;
@@ -23546,6 +23621,21 @@ let
         "Xqeysx45" = _Xqeysx45;
         "37IqbAV6" = _37IqbAV6;
         "n0TTLAv0" = _n0TTLAv0;
+        "N75PcPs6" = _N75PcPs6;
+        "B1ixavmK" = _B1ixavmK;
+        "4lVTp0IE" = _4lVTp0IE;
+        "qzzRAuDZ" = _qzzRAuDZ;
+        "6hHvmpma" = _6hHvmpma;
+        "ZTKMbdEM" = _ZTKMbdEM;
+        "gowgk84Z" = _gowgk84Z;
+        "mP2NSSjy" = _mP2NSSjy;
+        "r4yNLRv0" = _r4yNLRv0;
+        "vSppsbMf" = _vSppsbMf;
+        "uztJ40t3" = _uztJ40t3;
+        "rUOASU7J" = _rUOASU7J;
+        "zCR8GWCG" = _zCR8GWCG;
+        "oCaKt1L7" = _oCaKt1L7;
+        "bunxqWmu" = _bunxqWmu;
         "fabric-1.19" = _HPcwTzCK;
         "fabric-1.19.1" = _HPcwTzCK;
         "fabric-1.19.2" = _HPcwTzCK;
@@ -23573,7 +23663,7 @@ let
         "fabric-26.1" = _SmldneXO;
         "fabric-26.1.2" = _SmldneXO;
         "fabric-26.2" = _jVYS4ibU;
-        "fabric-26.3" = _8Mz8V95k;
+        "fabric-26.3" = _rUOASU7J;
         "neoforge-1.20.4" = _CyqYJnmL;
         "neoforge-1.20.5" = _2tvmw0HZ;
         "neoforge-1.20.6" = _2tvmw0HZ;
@@ -23593,7 +23683,7 @@ let
         "neoforge-26.1" = _FqC8xkOg;
         "neoforge-26.1.2" = _FqC8xkOg;
         "neoforge-26.2" = _wDBCOCFe;
-        "neoforge-26.3" = _37IqbAV6;
+        "neoforge-26.3" = _zCR8GWCG;
         "bungeecord-1.21" = _OVHRYTJR;
         "bungeecord-1.21.1" = _OVHRYTJR;
         "bungeecord-1.21.2" = _u91N0Gln;
@@ -23610,8 +23700,8 @@ let
         "bungeecord-26.1" = _Rdi5oXne;
         "bungeecord-26.1.2" = _Rdi5oXne;
         "bungeecord-26.2" = _s1uquXmc;
-        "bungeecord-26.3" = _ltInxdGQ;
-        "paper-1.21" = _Xqeysx45;
+        "bungeecord-26.3" = _uztJ40t3;
+        "paper-1.21" = _oCaKt1L7;
         "paper-1.16.5" = _qoZXtR9c;
         "paper-1.17" = _qoZXtR9c;
         "paper-1.17.1" = _qoZXtR9c;
@@ -23628,25 +23718,25 @@ let
         "paper-1.20.2" = _qoZXtR9c;
         "paper-1.20.3" = _qoZXtR9c;
         "paper-1.20.4" = _qoZXtR9c;
-        "paper-1.20.5" = _Xqeysx45;
-        "paper-1.20.6" = _Xqeysx45;
-        "paper-1.21.1" = _Xqeysx45;
-        "paper-1.21.2" = _Xqeysx45;
-        "paper-1.21.3" = _Xqeysx45;
-        "paper-1.21.4" = _Xqeysx45;
-        "paper-1.21.5" = _Xqeysx45;
-        "paper-1.21.6" = _Xqeysx45;
-        "paper-1.21.7" = _Xqeysx45;
-        "paper-1.21.8" = _Xqeysx45;
-        "paper-1.21.9" = _Xqeysx45;
-        "paper-1.21.10" = _Xqeysx45;
-        "paper-1.21.11" = _Xqeysx45;
-        "paper-26.1.1" = _Xqeysx45;
-        "paper-26.1" = _Xqeysx45;
-        "paper-26.1.2" = _Xqeysx45;
+        "paper-1.20.5" = _oCaKt1L7;
+        "paper-1.20.6" = _oCaKt1L7;
+        "paper-1.21.1" = _oCaKt1L7;
+        "paper-1.21.2" = _oCaKt1L7;
+        "paper-1.21.3" = _oCaKt1L7;
+        "paper-1.21.4" = _oCaKt1L7;
+        "paper-1.21.5" = _oCaKt1L7;
+        "paper-1.21.6" = _oCaKt1L7;
+        "paper-1.21.7" = _oCaKt1L7;
+        "paper-1.21.8" = _oCaKt1L7;
+        "paper-1.21.9" = _oCaKt1L7;
+        "paper-1.21.10" = _oCaKt1L7;
+        "paper-1.21.11" = _oCaKt1L7;
+        "paper-26.1.1" = _oCaKt1L7;
+        "paper-26.1" = _oCaKt1L7;
+        "paper-26.1.2" = _oCaKt1L7;
         "paper-26.2" = _PTtZDeXf;
-        "paper-26.3" = _Xqeysx45;
-        "spigot-1.21" = _Xqeysx45;
+        "paper-26.3" = _oCaKt1L7;
+        "spigot-1.21" = _oCaKt1L7;
         "spigot-1.16.5" = _qoZXtR9c;
         "spigot-1.17" = _qoZXtR9c;
         "spigot-1.17.1" = _qoZXtR9c;
@@ -23663,24 +23753,24 @@ let
         "spigot-1.20.2" = _qoZXtR9c;
         "spigot-1.20.3" = _qoZXtR9c;
         "spigot-1.20.4" = _qoZXtR9c;
-        "spigot-1.20.5" = _Xqeysx45;
-        "spigot-1.20.6" = _Xqeysx45;
-        "spigot-1.21.1" = _Xqeysx45;
-        "spigot-1.21.2" = _Xqeysx45;
-        "spigot-1.21.3" = _Xqeysx45;
-        "spigot-1.21.4" = _Xqeysx45;
-        "spigot-1.21.5" = _Xqeysx45;
-        "spigot-1.21.6" = _Xqeysx45;
-        "spigot-1.21.7" = _Xqeysx45;
-        "spigot-1.21.8" = _Xqeysx45;
-        "spigot-1.21.9" = _Xqeysx45;
-        "spigot-1.21.10" = _Xqeysx45;
-        "spigot-1.21.11" = _Xqeysx45;
-        "spigot-26.1.1" = _Xqeysx45;
-        "spigot-26.1" = _Xqeysx45;
-        "spigot-26.1.2" = _Xqeysx45;
+        "spigot-1.20.5" = _oCaKt1L7;
+        "spigot-1.20.6" = _oCaKt1L7;
+        "spigot-1.21.1" = _oCaKt1L7;
+        "spigot-1.21.2" = _oCaKt1L7;
+        "spigot-1.21.3" = _oCaKt1L7;
+        "spigot-1.21.4" = _oCaKt1L7;
+        "spigot-1.21.5" = _oCaKt1L7;
+        "spigot-1.21.6" = _oCaKt1L7;
+        "spigot-1.21.7" = _oCaKt1L7;
+        "spigot-1.21.8" = _oCaKt1L7;
+        "spigot-1.21.9" = _oCaKt1L7;
+        "spigot-1.21.10" = _oCaKt1L7;
+        "spigot-1.21.11" = _oCaKt1L7;
+        "spigot-26.1.1" = _oCaKt1L7;
+        "spigot-26.1" = _oCaKt1L7;
+        "spigot-26.1.2" = _oCaKt1L7;
         "spigot-26.2" = _PTtZDeXf;
-        "spigot-26.3" = _Xqeysx45;
+        "spigot-26.3" = _oCaKt1L7;
         "velocity-1.21" = _Mc828sup;
         "velocity-1.21.1" = _Mc828sup;
         "velocity-1.21.2" = _GCJhdlbm;
@@ -23697,7 +23787,7 @@ let
         "velocity-26.1" = _Xj9ckZKi;
         "velocity-26.1.2" = _Xj9ckZKi;
         "velocity-26.2" = _SnWoPPom;
-        "velocity-26.3" = _n0TTLAv0;
+        "velocity-26.3" = _bunxqWmu;
         "pkg-2.1.0-SNAPSHOT-2" = _PZN2OcFf;
         "pkg-2.1.0-SNAPSHOT-3" = _Qmuj4cNH;
         "pkg-2.1.0-SNAPSHOT-4" = _ZR8N1nOQ;
@@ -24736,7 +24826,10 @@ let
         "pkg-2.12.0-b1260" = _xyuJVMWm;
         "pkg-2.12.0-b1261" = _axl3rrh7;
         "pkg-2.12.0-b1262" = _n0TTLAv0;
-        "default" = _n0TTLAv0;
+        "pkg-2.12.0-b1263" = _6hHvmpma;
+        "pkg-2.12.0-b1264" = _vSppsbMf;
+        "pkg-2.12.0-b1265" = _bunxqWmu;
+        "default" = _bunxqWmu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "geyser";

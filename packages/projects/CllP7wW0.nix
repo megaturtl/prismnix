@@ -456,6 +456,11 @@ let
             "file" = "smoothscroll-3.0.1.jar";
             "hash" = "sha512-UYxTEOektosuFAxRbxFC7KGdhueM84QjAjnIVoZ6Qf9rJT6MFqxZv5sYNMhGttNaTghqALkPckDTjeiuWRf+GA==";
         };
+        _fE9IISvs = {
+            "id" = "fE9IISvs";
+            "file" = "smoothscroll-3.0.2.jar";
+            "hash" = "sha512-j59PYm6OoNDry0DzVnc/PJj4gt3+0R3yZPrDfVudkd7qWvj7J172APB1EDRxFjv9yKkUpwPNJRtYLsWaK+xJiA==";
+        };
     in {
         "9MgO8UID" = _9MgO8UID;
         "4i7CPdKx" = _4i7CPdKx;
@@ -548,6 +553,7 @@ let
         "3h8tO1X1" = _3h8tO1X1;
         "EhHH4Sfv" = _EhHH4Sfv;
         "bvDXfYZr" = _bvDXfYZr;
+        "fE9IISvs" = _fE9IISvs;
         "fabric-1.20.1" = _wxv3N1CR;
         "fabric-1.20.2" = _PKx47WfY;
         "fabric-1.20.3" = _SD7qm6Aq;
@@ -571,7 +577,7 @@ let
         "fabric-26.1.2" = _dLYYgSFy;
         "fabric-26.2" = _PLF6iAzh;
         "fabric-26.3-snapshot-9" = _3h8tO1X1;
-        "fabric-26.3" = _bvDXfYZr;
+        "fabric-26.3" = _fE9IISvs;
         "quilt-1.20.1" = _wxv3N1CR;
         "quilt-1.20.2" = _PKx47WfY;
         "quilt-1.20.3" = _SD7qm6Aq;
@@ -595,7 +601,7 @@ let
         "quilt-26.1.2" = _dLYYgSFy;
         "quilt-26.2" = _PLF6iAzh;
         "quilt-26.3-snapshot-9" = _3h8tO1X1;
-        "quilt-26.3" = _bvDXfYZr;
+        "quilt-26.3" = _fE9IISvs;
         "pkg-1.4.0" = _9MgO8UID;
         "pkg-1.4.1" = _4i7CPdKx;
         "pkg-1.5.0" = _jo5rtg4w;
@@ -659,7 +665,8 @@ let
         "pkg-3.0.0-beta.1" = _3h8tO1X1;
         "pkg-3.0.0" = _EhHH4Sfv;
         "pkg-3.0.1" = _bvDXfYZr;
-        "default" = _bvDXfYZr;
+        "pkg-3.0.2" = _fE9IISvs;
+        "default" = _fE9IISvs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "smooth-scroll";

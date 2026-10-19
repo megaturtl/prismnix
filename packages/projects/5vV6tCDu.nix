@@ -741,6 +741,16 @@ let
             "file" = "sclp-fabric-5.6.7-snapshot+mc26.1-local.jar";
             "hash" = "sha512-MMOqSxqu7epKruTAnU79F17UIQuijoZkqxWXoko8+d4ErSAlYK0pB72taEyBJuP9JnWH8bQ0+Wt9roVsLC//lA==";
         };
+        _zOEggKky = {
+            "id" = "zOEggKky";
+            "file" = "sclp-fabric-5.6.8-snapshot+mc26.1-local.jar";
+            "hash" = "sha512-siJyNx9E/BcHmm1EUGIW/sG6Sg+6XJuPiT1qWKvvs3hK6xBSPRuHPN+SOJsFNIuplK/+kh7NzcvWpP+9oM1Y5w==";
+        };
+        _w9mMopyB = {
+            "id" = "w9mMopyB";
+            "file" = "sclp-neoforge-5.6.8-snapshot+mc26.1-local.jar";
+            "hash" = "sha512-T04s4F2qqp6YDBKEfn7x7Awb2udQcyNVokvr+9y94aAdbWkM07cmmc5wYJyHuWCZ8cxEZ98AFn7Ex3TQowMrAg==";
+        };
     in {
         "nwqAWW9x" = _nwqAWW9x;
         "kte10jxG" = _kte10jxG;
@@ -890,6 +900,8 @@ let
         "wVCv9y0Z" = _wVCv9y0Z;
         "TXRBVn3i" = _TXRBVn3i;
         "91rSNjTX" = _91rSNjTX;
+        "zOEggKky" = _zOEggKky;
+        "w9mMopyB" = _w9mMopyB;
         "fabric-1.16.3" = _sY8wCf2a;
         "fabric-1.16.4" = _sY8wCf2a;
         "fabric-1.16.5" = _sY8wCf2a;
@@ -922,11 +934,11 @@ let
         "fabric-1.21.9" = _Efdv3nyn;
         "fabric-1.21.10" = _Efdv3nyn;
         "fabric-1.21.11" = _PiZiKcBv;
-        "fabric-26.1" = _91rSNjTX;
-        "fabric-26.1.1" = _91rSNjTX;
-        "fabric-26.1.2" = _91rSNjTX;
-        "fabric-26.2" = _91rSNjTX;
-        "fabric-26.3" = _91rSNjTX;
+        "fabric-26.1" = _zOEggKky;
+        "fabric-26.1.1" = _zOEggKky;
+        "fabric-26.1.2" = _zOEggKky;
+        "fabric-26.2" = _zOEggKky;
+        "fabric-26.3" = _zOEggKky;
         "neoforge-1.21" = _sQvXzPjB;
         "neoforge-1.21.1" = _sQvXzPjB;
         "neoforge-1.21.2" = _sQvXzPjB;
@@ -945,12 +957,12 @@ let
         "neoforge-1.20.5" = _sQvXzPjB;
         "neoforge-1.20.6" = _sQvXzPjB;
         "neoforge-1.21.11" = _szOg32nN;
-        "neoforge-26.1" = _TXRBVn3i;
-        "neoforge-26.1.1" = _TXRBVn3i;
-        "neoforge-26.1.2" = _TXRBVn3i;
-        "neoforge-26.2" = _TXRBVn3i;
+        "neoforge-26.1" = _w9mMopyB;
+        "neoforge-26.1.1" = _w9mMopyB;
+        "neoforge-26.1.2" = _w9mMopyB;
+        "neoforge-26.2" = _w9mMopyB;
         "neoforge-1.20" = _8NgvQF2l;
-        "neoforge-26.3" = _TXRBVn3i;
+        "neoforge-26.3" = _w9mMopyB;
         "quilt-1.21" = _uq1kkF43;
         "quilt-1.21.1" = _uq1kkF43;
         "quilt-1.21.2" = _uq1kkF43;
@@ -1096,7 +1108,8 @@ let
         "pkg-5.6.5" = _3pRa260r;
         "pkg-5.6.6" = _wVCv9y0Z;
         "pkg-5.6.7" = _91rSNjTX;
-        "default" = _91rSNjTX;
+        "pkg-5.6.8" = _w9mMopyB;
+        "default" = _w9mMopyB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mc1.16.5-sodium-chinese-localization-pack";

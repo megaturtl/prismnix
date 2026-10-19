@@ -71,6 +71,16 @@ let
             "file" = "femboycards-1.0.0.jar";
             "hash" = "sha512-KaMWFJLJegmP0aPf6puTe2nChknYGY8ZcAESbAxWyHFFwhtP/wvjHLLt5DuVzLyC28ONV1HdgatJiGSjGdAhfA==";
         };
+        _hytuRw5i = {
+            "id" = "hytuRw5i";
+            "file" = "femboycards-1.0.0.jar";
+            "hash" = "sha512-3hXqg3kMsnGrZ5jt0H444xcvX3VdJkKWg4eTp4Zy3Dd/8L4Wu4FYmPQkUfYidTparemopXI4L9RsgjDx9O82uA==";
+        };
+        _ulCJVi0L = {
+            "id" = "ulCJVi0L";
+            "file" = "femboycards2633.jar";
+            "hash" = "sha512-PdJgYbgfAuFFdQ0cwK391sOOcQmk/1q2xEcyw8o+lkwOE91n/g/SefOhQ0fupQVcmoEo6vk7+gdPmU/MXIaXsQ==";
+        };
     in {
         "x3EbaP7C" = _x3EbaP7C;
         "Y1DjoOm7" = _Y1DjoOm7;
@@ -86,6 +96,8 @@ let
         "3hlVQ5Lw" = _3hlVQ5Lw;
         "I8aXZQZK" = _I8aXZQZK;
         "qgVsfyhN" = _qgVsfyhN;
+        "hytuRw5i" = _hytuRw5i;
+        "ulCJVi0L" = _ulCJVi0L;
         "fabric-26.1-snapshot-1" = _x3EbaP7C;
         "fabric-26.1-snapshot-2" = _x3EbaP7C;
         "fabric-26.1-snapshot-3" = _x3EbaP7C;
@@ -141,11 +153,11 @@ let
         "fabric-26.3-rc-1" = _3hlVQ5Lw;
         "fabric-26.3-rc-2" = _3hlVQ5Lw;
         "fabric-26.3-rc-3" = _3hlVQ5Lw;
-        "fabric-26.3" = _I8aXZQZK;
-        "fabric-26.4-snapshot-1" = _I8aXZQZK;
-        "fabric-26.4-snapshot-2" = _I8aXZQZK;
-        "fabric-26.4-snapshot-3" = _I8aXZQZK;
-        "fabric-26.4-snapshot-4" = _I8aXZQZK;
+        "fabric-26.3" = _ulCJVi0L;
+        "fabric-26.4-snapshot-1" = _ulCJVi0L;
+        "fabric-26.4-snapshot-2" = _ulCJVi0L;
+        "fabric-26.4-snapshot-3" = _ulCJVi0L;
+        "fabric-26.4-snapshot-4" = _ulCJVi0L;
         "quilt-26.1-snapshot-1" = _x3EbaP7C;
         "quilt-26.1-snapshot-2" = _x3EbaP7C;
         "quilt-26.1-snapshot-3" = _x3EbaP7C;
@@ -201,16 +213,16 @@ let
         "quilt-26.3-rc-1" = _3hlVQ5Lw;
         "quilt-26.3-rc-2" = _3hlVQ5Lw;
         "quilt-26.3-rc-3" = _3hlVQ5Lw;
-        "quilt-26.3" = _I8aXZQZK;
-        "quilt-26.4-snapshot-1" = _I8aXZQZK;
-        "quilt-26.4-snapshot-2" = _I8aXZQZK;
-        "quilt-26.4-snapshot-3" = _I8aXZQZK;
-        "quilt-26.4-snapshot-4" = _I8aXZQZK;
-        "neoforge-26.3" = _qgVsfyhN;
-        "neoforge-26.4-snapshot-1" = _qgVsfyhN;
-        "neoforge-26.4-snapshot-2" = _qgVsfyhN;
-        "neoforge-26.4-snapshot-3" = _qgVsfyhN;
-        "neoforge-26.4-snapshot-4" = _qgVsfyhN;
+        "quilt-26.3" = _ulCJVi0L;
+        "quilt-26.4-snapshot-1" = _ulCJVi0L;
+        "quilt-26.4-snapshot-2" = _ulCJVi0L;
+        "quilt-26.4-snapshot-3" = _ulCJVi0L;
+        "quilt-26.4-snapshot-4" = _ulCJVi0L;
+        "neoforge-26.3" = _hytuRw5i;
+        "neoforge-26.4-snapshot-1" = _hytuRw5i;
+        "neoforge-26.4-snapshot-2" = _hytuRw5i;
+        "neoforge-26.4-snapshot-3" = _hytuRw5i;
+        "neoforge-26.4-snapshot-4" = _hytuRw5i;
         "pkg-1.0.0" = _x3EbaP7C;
         "pkg-2" = _Y1DjoOm7;
         "pkg-1.0.3" = _JcnrpArG;
@@ -223,7 +235,8 @@ let
         "pkg-26.2_2" = _DS6ZHjAw;
         "pkg-26_3" = _3hlVQ5Lw;
         "pkg-26_3_2" = _qgVsfyhN;
-        "default" = _qgVsfyhN;
+        "pkg-26_3_3" = _ulCJVi0L;
+        "default" = _ulCJVi0L;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "femboy-cards";

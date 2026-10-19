@@ -456,6 +456,256 @@ let
             "file" = "architectural-building-wand-1.3.jar";
             "hash" = "sha512-GCa57U/K7FuQNpJr6h7bcEzpocsY7i2sULkL9ljOLa/n+X2UGWEnYQPzDhALveZ5r3F176tV1MyE5Id/rdpQoQ==";
         };
+        _vHRyA34x = {
+            "id" = "vHRyA34x";
+            "file" = "architectural-building-wand-1.3.1.jar";
+            "hash" = "sha512-U8lqwhIk4+kNDFauaXH2WRU6LSGQp4tYBV+O8j/hye78zIO254rlE3V7FPQjjEqR2ImKhCkCzHxp/FlBta+ulg==";
+        };
+        _uEaMTEvd = {
+            "id" = "uEaMTEvd";
+            "file" = "architectural-building-wand-1.3.1.jar";
+            "hash" = "sha512-rGc4Z8DvbR8S3XQ5htsXVAZolN0s4k/0PTB97bHLcRrkAfd0xzxRa/itLTinlAStOej7jnQUopUu88soCqYwpQ==";
+        };
+        _w8BkgoEQ = {
+            "id" = "w8BkgoEQ";
+            "file" = "architectural-building-wand-1.3.1.jar";
+            "hash" = "sha512-kHm4OFcl8bcfYib+H9nM3gHtNJ8xa9bKQj+MEGbAHrdGJndLhaebWdC4HK7iRVglwyzMDTRtBD03QDFXnD7cbA==";
+        };
+        _O22xnPpp = {
+            "id" = "O22xnPpp";
+            "file" = "architectural-building-wand-1.3.1.jar";
+            "hash" = "sha512-fcAvI1XHOw1anVmXLqq2t88bzfZmQX26qEW+RAsaTEyE6FiOMxjmrwvXULZ7L6cLvQDr9qWbPyW7z4fe9nSnLw==";
+        };
+        _imOrlvkM = {
+            "id" = "imOrlvkM";
+            "file" = "architectural-building-wand-1.3.1.jar";
+            "hash" = "sha512-uPWvaowE4RT7Zm2mfAbcuV5uzrqR3+Mk2iddSwop60K165G0vWRb49LDWEgPab5Or8RhTmmrFkIPqT0JepGpUg==";
+        };
+        _kZQ5DKN8 = {
+            "id" = "kZQ5DKN8";
+            "file" = "architectural-building-wand-1.3.1.jar";
+            "hash" = "sha512-td+ipRxwXlmYmt28r9XIjcK8aTRjuRBtJko9Ecxc7VyKhNtCW2xh1624xLMo37ZCAUj4/Z68rsIEIQ3PM5ZfRA==";
+        };
+        _2p3bRoNF = {
+            "id" = "2p3bRoNF";
+            "file" = "architectural-building-wand-1.3.1.jar";
+            "hash" = "sha512-GLKTT2YYDpqkhD680bWp1Zrz4PplBzOQoOMDR5q4q9RC42sLONbMrWU7IO0E2WvSS7sinrfP1VFcmcyidV2RSg==";
+        };
+        _AeyTf5cp = {
+            "id" = "AeyTf5cp";
+            "file" = "architectural-building-wand-1.3.1.jar";
+            "hash" = "sha512-S+E74GdWmnBLTtFkmR0VxMSjsfDtPzDIasaaT6KF3WKDpi+SPfObr6IekbOPdcEEYjKDxW+iuQGtDoymeLDbhg==";
+        };
+        _3TYWls3Z = {
+            "id" = "3TYWls3Z";
+            "file" = "architectural-building-wand-1.3.1.jar";
+            "hash" = "sha512-q/046cMBd2v90B9i0fOymIR9SHsItO5Vhp2X4NJamC0IvBgtYet8baJZiDeaB2Qhefdes60WbuCvnsOCKYvWmQ==";
+        };
+        _2EyzwL4p = {
+            "id" = "2EyzwL4p";
+            "file" = "architectural-building-wand-1.3.1.jar";
+            "hash" = "sha512-tHGRaxrE/RIfLbyTAUHCj5qTfmAifMDYbcEjlA4OhLVWvVdjHO8MI1h8KFjupCeTpLfcJfBiJB4es/GRvfMqOQ==";
+        };
+        _AlHA7OuZ = {
+            "id" = "AlHA7OuZ";
+            "file" = "architectural-building-wand-1.3.1.jar";
+            "hash" = "sha512-3mNnDF5KsfSu8gGG2S543vOCoj/LtyrgeqlTVp5k1aHGSdDjh3Msi+w7Zg2kJcdOhi/W7OhuSRTm4vFS29EV3w==";
+        };
+        _XehmQFhV = {
+            "id" = "XehmQFhV";
+            "file" = "architectural-building-wand-1.3.1.jar";
+            "hash" = "sha512-1VGlUtzxnn6O0FdmtMQV8vAQFvCju8KW5s2WE6IHUDE4vL0FCfz0h2w8SY4Eo/5BSwF2VVPClGzNJ4KEBFUVww==";
+        };
+        _5PeAViMN = {
+            "id" = "5PeAViMN";
+            "file" = "architectural-building-wand-forge-1.3.1.jar";
+            "hash" = "sha512-YRFkbqPW6RgKoOEX1VM4uobCkx0fl3BCzOe9AgdWnKBAw1bMKpP3YYfsg+gxnI07aOthSniIsVynpuADLEqgMA==";
+        };
+        _pY23Y6aF = {
+            "id" = "pY23Y6aF";
+            "file" = "architectural-building-wand-forge-1.3.1.jar";
+            "hash" = "sha512-3U4dRHifSBZ4zu36psLVyxPjJ4GRuHvPmL7JfG7Vj+RIwArqmqUYthDONaEqnrqaFt3BJw1UKGiVoHUv9ylHJA==";
+        };
+        _vclaNvUz = {
+            "id" = "vclaNvUz";
+            "file" = "architectural-building-wand-forge-1.3.1.jar";
+            "hash" = "sha512-ANywxxBxsxwtI+7DNjUWLRe66DvVH4DxxWgjh9zypw6FwUp0ynEgij6Kxmb6SGk2K+qy2ExxQ1HMdSk3wVKd1Q==";
+        };
+        _Lq2pI4WV = {
+            "id" = "Lq2pI4WV";
+            "file" = "architectural-building-wand-forge-1.3.1.jar";
+            "hash" = "sha512-NbqWF+mPE/jn2G0++oxDsVt+LNI7ZaseplM99IcmT5xgamfrR6Rq6v2BC8nkr45rbHaz98QNUrIObRdtb6mjzQ==";
+        };
+        _TMCadTbe = {
+            "id" = "TMCadTbe";
+            "file" = "architectural-building-wand-forge-1.3.1.jar";
+            "hash" = "sha512-WSGYmxyv+cfMcn4Az6nAwbKpyQRmT5Kugw5LuUpSaMb/ymQ63m2F1J5p/KcGcKdbxQIhIGzmxTK3V+D6xQ6y3Q==";
+        };
+        _le5s6KcK = {
+            "id" = "le5s6KcK";
+            "file" = "architectural-building-wand-forge-1.3.1.jar";
+            "hash" = "sha512-I6y77cyGMbUX6a01RNbZ9IAl/J2T+84W3RWnAUad9PSZ0rsvlx67lLpUYF7MJ+zjak0I7W7vxg2wzP/vLieMuw==";
+        };
+        _l4kXhqnu = {
+            "id" = "l4kXhqnu";
+            "file" = "architectural-building-wand-forge-1.3.1.jar";
+            "hash" = "sha512-PAPYxlwR80ReNpZW1XcZOge/W5ZZ9sAY+JaVfReLotGTwoffSUF4bw2ZlVMDqSuEvsb+8SeR4sunWh7lwDd69A==";
+        };
+        _bXjelje9 = {
+            "id" = "bXjelje9";
+            "file" = "architectural-building-wand-forge-1.3.1.jar";
+            "hash" = "sha512-kuICkKGZpSY9otYo5FZLQTH5FzAKkrmg+DJDg5tIgSqMMkl1Xz+3xXs4S02Hzc95UgXqFkOHZSJRamw0rkwpGw==";
+        };
+        _WLstOQAL = {
+            "id" = "WLstOQAL";
+            "file" = "architectural-building-wand-forge-1.3.1.jar";
+            "hash" = "sha512-0p/INJhC6NEDaLPcBQNjKCUwqQpC3ULuyAX/4EhDW5uHuhuYUD2fBIR7DxiFv3oT4SJQ6lyMgnAyB+OCl7zGVA==";
+        };
+        _QSFXnmG5 = {
+            "id" = "QSFXnmG5";
+            "file" = "architectural-building-wand-forge-1.3.1.jar";
+            "hash" = "sha512-G9rmGNXfqDfj/YG6tVpkR0ZGVmGgYAiK0xhA+MjcK8qn62ycQWGt4nP7XUCnFmdub6CoTxSLJ4l7qgi+wIEeDg==";
+        };
+        _AF3kGyFb = {
+            "id" = "AF3kGyFb";
+            "file" = "architectural-building-wand-forge-1.3.1.jar";
+            "hash" = "sha512-BqdQpzf8oqNQ5RY2cWf5i5rxbaN4aqdz6QoZ0osQy7R4jp0VC3glnnxYj2YgTxzy8QQ9oYwIUsdqfxChze3VsA==";
+        };
+        _5wcSECdG = {
+            "id" = "5wcSECdG";
+            "file" = "architectural-building-wand-1.3.1.jar";
+            "hash" = "sha512-AVKkXJ2BmxkugVcBX1jbrPiW0vz7Xy6UjHpFfXZGxxzVNgQoYyZNUHTAghh8vnLd88Nkq1kWMmY16RFTc+PE6A==";
+        };
+        _Qy3xVxhW = {
+            "id" = "Qy3xVxhW";
+            "file" = "architectural-building-wand-1.3.1.jar";
+            "hash" = "sha512-5lUasDZzM9RY+d9Y0RqeWJUwYWpSvk8pi6iKZ80MJDxmo0GObMT5fu3w+5aquLGc8kNcU9jTXkTo8zLbD5NdRg==";
+        };
+        _9SjsL5aF = {
+            "id" = "9SjsL5aF";
+            "file" = "architectural-building-wand-1.3.1.jar";
+            "hash" = "sha512-wjh+uC7L8Rb14kfs3tgJTS5mE08oJI4uy+8ORAzYwmUc6GVZhvRXTGOMGTpIVk4aZh5ki48dy7XBiau9rjidlA==";
+        };
+        _GYlh32RS = {
+            "id" = "GYlh32RS";
+            "file" = "architectural-building-wand-1.3.1.jar";
+            "hash" = "sha512-FG3uUlRRZWOtF1doN95+ehw70ooLjFAHQiaxEnD9JFoSU2iIn89Sf+3sY17CbYW1W77jJW+YlwKe/ZoGP5yufg==";
+        };
+        _75G1Q2n2 = {
+            "id" = "75G1Q2n2";
+            "file" = "architectural-building-wand-1.3.1.jar";
+            "hash" = "sha512-waQotxYfZpOmoiaarZFv1KSy6C6ql6yOB5wJ5Gt/GDjTLY2fXC6V05RtJvRmmZmpBhHjobzA9u+DIdHmo7oGmw==";
+        };
+        _1Y0LPMAF = {
+            "id" = "1Y0LPMAF";
+            "file" = "architectural-building-wand-1.3.1.jar";
+            "hash" = "sha512-gH/3z4d+GMXMAhx0z9C0HcZ0Sv1IGCR3IzOpH3Twy/kzh4Uy42iiQHiKkw88tdt3JptocxYdMolq9ha4EEQDfw==";
+        };
+        _cb35CEVe = {
+            "id" = "cb35CEVe";
+            "file" = "architectural-building-wand-1.3.1.jar";
+            "hash" = "sha512-6JnOGWX+D/AiqD5KZLBi6xojkxTftAhapOLxOeX3VJJZbx5SQavsGWtndFUAl+pBO5F0cKWgJpgBZb6N1tWUbw==";
+        };
+        _msnw5nXD = {
+            "id" = "msnw5nXD";
+            "file" = "architectural-building-wand-1.3.1.jar";
+            "hash" = "sha512-VT7ykGPZTgk8CGcwOCIyNqXguDmVYh4SeIA53fhO5tYTzB8Lzj9/n+3/ziKvpkf88cG/wiwxwb9HyEMcybyjug==";
+        };
+        _CcAiFVMh = {
+            "id" = "CcAiFVMh";
+            "file" = "architectural-building-wand-1.3.1.jar";
+            "hash" = "sha512-hGTC6NokyIUTiQG6cis2jHgVapZ3tEsGRQ455MoGx8NziyIvJGeIFZNMhP/t2pmDrfnIYJybesOHoGpgo0ctZw==";
+        };
+        _oI4DYJ3w = {
+            "id" = "oI4DYJ3w";
+            "file" = "architectural-building-wand-1.3.1.jar";
+            "hash" = "sha512-+dbQQm4TxntnoTJdi+zSDCabIFlnne2qirfS2C66t7d1vqTgjXsSU5BO6paRY0dYbapVpBnayAo4lerbaAIPzw==";
+        };
+        _ORbqepsg = {
+            "id" = "ORbqepsg";
+            "file" = "architectural-building-wand-1.3.1.jar";
+            "hash" = "sha512-LQQrvQqaKWGF1QNNhVqO0/CSLUHLRnRvaAngf9Pti772z1uRbYQlpvu5UNHb6dr6R2k7ZxuppigI5YMEPhBYUA==";
+        };
+        _XVlfQhLG = {
+            "id" = "XVlfQhLG";
+            "file" = "architectural-building-wand-1.3.1.jar";
+            "hash" = "sha512-dXr0IEb3DF62Kraw0NGGuzZG/NBCZRv47CL3G8rlXyltDNqezh1T+5qwAND1t8WQPxkGZ9CJ8WrxgjU87jeVfg==";
+        };
+        _jJzRNogZ = {
+            "id" = "jJzRNogZ";
+            "file" = "architectural-building-wand-1.3.1.jar";
+            "hash" = "sha512-9W44QwsMMw4Vv5sHDBKgZmyMT8DryXm9R7mdT2FYqjLaoJ1UzMnO3KPwieQeL8BKCO9TycUCF4J9K1RP8RaHfw==";
+        };
+        _SbUGBiTR = {
+            "id" = "SbUGBiTR";
+            "file" = "architectural-building-wand-1.3.1.jar";
+            "hash" = "sha512-H4YqzAA44JB4Brn5sWbvy4NaoO4botsyC2zewt0IjARdUOq0Z+jcLIBIztviiPBADo1HEPQHeSFNAwko1+0MDQ==";
+        };
+        _H9aes73m = {
+            "id" = "H9aes73m";
+            "file" = "architectural-building-wand-1.3.1.jar";
+            "hash" = "sha512-AygXhkDnh1C7iUQnLvfcB148PVwX/M3+36k4dP0jKJ7Cg9J2Wh9tj2u+kneBHijLT/u7X2UYbqvR4I2K+m0WRQ==";
+        };
+        _pyisRhuc = {
+            "id" = "pyisRhuc";
+            "file" = "architectural-building-wand-1.3.1.jar";
+            "hash" = "sha512-IE/0M1KXPxCjSNtFe6dQZcpPbQQ2su8gr9du36EOuk0FGTNrVUSxN4niGnoX6JyNH9/JPBHIc/5iTkdBegxIFw==";
+        };
+        _9JDlKXhU = {
+            "id" = "9JDlKXhU";
+            "file" = "architectural-building-wand-1.3.1.jar";
+            "hash" = "sha512-WuIDRgqlSvwVuHZxKGSxVr9eZmdCcfFlnVfvWdMgMLEAM3+x91E2G65tt1h+tFnDEwdenp0JVmBYtHvQFHl8mw==";
+        };
+        _dy0pR4gq = {
+            "id" = "dy0pR4gq";
+            "file" = "architectural-building-wand-forge-1.3.1.jar";
+            "hash" = "sha512-HiZR20x6/d25FIKfbQQEE0m6Q70eUbmp8AUI2fLQrpIn5BibWoKESddTfpcbQ5nABqa4EH8Mx0/s+e2JdD0ryQ==";
+        };
+        _A3OJxFAt = {
+            "id" = "A3OJxFAt";
+            "file" = "architectural-building-wand-forge-1.3.1.jar";
+            "hash" = "sha512-z6ZLs4Y2UWAn94T/DmdVcmGc4hdeZp+obXkwKFxirQkMqebMlpW+JjgNPIrrnb8KyMKfdEnC/YZC7LvrDGhd9g==";
+        };
+        _gsipBSU5 = {
+            "id" = "gsipBSU5";
+            "file" = "architectural-building-wand-forge-1.3.1.jar";
+            "hash" = "sha512-uBdZdVHBWmj9m3ZHgFPsMfT/UUb2l/gXrM4hVeI5gvdDkkU6PRABuANxZHoX0LzjsJArYhTRCPHNTQ79hsi29g==";
+        };
+        _1ZcPUCly = {
+            "id" = "1ZcPUCly";
+            "file" = "architectural-building-wand-forge-1.3.1.jar";
+            "hash" = "sha512-Re6Uqbdeu0tgU66UI3JOYCY7DcuoT8i6xM6FUzDzGq8TdX5lKQYtOxCZ4iWOI/I+9oCkLWycE30tWTrTHOypNQ==";
+        };
+        _osKe7fun = {
+            "id" = "osKe7fun";
+            "file" = "architectural-building-wand-forge-1.3.1.jar";
+            "hash" = "sha512-z4GeeB+S9K+XLXLT+qsqVueEu2yGkiK6Ni5YtN9YJRhJmHg5Jyt7gsNbHUCri/ozA6cZWmNWJeMBwPdNvM1hHw==";
+        };
+        _qkXd4F8W = {
+            "id" = "qkXd4F8W";
+            "file" = "architectural-building-wand-1.3.1.jar";
+            "hash" = "sha512-egFZGTFu0hf+53eXajlN1hrreTCzf6dVF4M6ulKmCxGt3TElsWYmwxMXyHz4839rHO2aUaAN6w5wUP6uM9hu+A==";
+        };
+        _sBlr6SPE = {
+            "id" = "sBlr6SPE";
+            "file" = "architectural-building-wand-1.3.1.jar";
+            "hash" = "sha512-8TKQW8h5sa8nLiUvkE1eBqo86AaFhdl5Gq0KGPY4GLhWYcUVSiJMnDddjjU+dmGhq8vN651mUJDKV+UQvHRqkg==";
+        };
+        _ZCewwpIH = {
+            "id" = "ZCewwpIH";
+            "file" = "architectural-building-wand-1.3.1.jar";
+            "hash" = "sha512-DXV+HSjF9Ls8Gz31Kspj35fyWcU7NeYINDAOR+apSRoIVkoymX0EWqsLNkJQnK/f5C3UdVUfgQl9LSnwhcfoNg==";
+        };
+        _CjZbvAm0 = {
+            "id" = "CjZbvAm0";
+            "file" = "architectural-building-wand-1.3.1.jar";
+            "hash" = "sha512-tBZN0qM//WdKCwJwLB+xA7ClmKILYZCxXISh/54256ejI1ydyrR5DsIp9beGXRUGzs5ORhqX61V4UCppaOBzLQ==";
+        };
+        _vRqz2qyX = {
+            "id" = "vRqz2qyX";
+            "file" = "architectural-building-wand-1.3.1.jar";
+            "hash" = "sha512-uFQJCy4hFHkhHjkHX7D34mSLBP8RJzONWPhvCsvizZezcBc1LwD3+EwaxxTliVwDs+FwaQE46RJcujPQdG69AQ==";
+        };
     in {
         "hXVhbCyT" = _hXVhbCyT;
         "J21QoosH" = _J21QoosH;
@@ -548,62 +798,113 @@ let
         "PEWR7uEf" = _PEWR7uEf;
         "v3GkGJaB" = _v3GkGJaB;
         "wYkE1nBk" = _wYkE1nBk;
-        "fabric-1.21.6" = _Lta8Obkn;
-        "fabric-1.21.7" = _Wkpjf8vL;
-        "fabric-1.21.8" = _TSOOsw2H;
-        "fabric-1.21.9" = _WIHZi7b1;
-        "fabric-1.21.10" = _D5y94WA0;
-        "fabric-1.21.11" = _6mfrEroP;
-        "fabric-26.1" = _wCU0HfTT;
-        "fabric-26.1.1" = _nqwy86Nw;
-        "fabric-26.1.2" = _PEWR7uEf;
-        "fabric-26.2" = _v3GkGJaB;
-        "fabric-26.3" = _wYkE1nBk;
-        "fabric-1.21" = _EKK7Hnmu;
-        "fabric-1.21.1" = _ujduJ5Wt;
-        "fabric-1.21.2" = _L9le17za;
-        "fabric-1.21.3" = _RPJXOoQ6;
-        "fabric-1.21.4" = _B9zM5Hnj;
-        "fabric-1.21.5" = _pPAc4t3v;
-        "forge-26.1" = _q87Yd6fT;
-        "forge-26.1.1" = _bVSXFPVm;
-        "forge-26.1.2" = _gQF1BejZ;
-        "forge-26.2" = _xkhyuJq6;
-        "forge-26.3" = _bDw8RqVY;
-        "forge-1.21" = _B7kDtTCa;
-        "forge-1.21.1" = _LOJa7X3Z;
-        "forge-1.21.3" = _i9aQCh1m;
-        "forge-1.21.4" = _Bjt709r3;
-        "forge-1.21.5" = _olSvKync;
-        "forge-1.21.6" = _5p6vW04o;
-        "forge-1.21.7" = _FTRYNd7z;
-        "forge-1.21.8" = _c1xdCihs;
-        "forge-1.21.9" = _NcsRx6gT;
-        "forge-1.21.10" = _EF6gWWP5;
-        "forge-1.21.11" = _ULUsKpwW;
-        "neoforge-26.1" = _1ArRF6YR;
-        "neoforge-26.1.1" = _kkuEwy2F;
-        "neoforge-26.1.2" = _8P61V74N;
-        "neoforge-26.2" = _aBu79lGP;
-        "neoforge-26.3" = _YSbASvAM;
-        "neoforge-1.21" = _ZUqUgjV9;
-        "neoforge-1.21.1" = _lBjEyjFX;
-        "neoforge-1.21.2" = _m6foiYjS;
-        "neoforge-1.21.3" = _nz1g3lIr;
-        "neoforge-1.21.4" = _FRknHGeQ;
-        "neoforge-1.21.5" = _WJ6YxMIz;
-        "neoforge-1.21.6" = _lZDLKJ20;
-        "neoforge-1.21.7" = _oAUoY8rB;
-        "neoforge-1.21.8" = _qRx6Sdx8;
-        "neoforge-1.21.9" = _q75zdy8I;
-        "neoforge-1.21.10" = _UeG7jJYU;
-        "neoforge-1.21.11" = _QoEfm4bF;
+        "vHRyA34x" = _vHRyA34x;
+        "uEaMTEvd" = _uEaMTEvd;
+        "w8BkgoEQ" = _w8BkgoEQ;
+        "O22xnPpp" = _O22xnPpp;
+        "imOrlvkM" = _imOrlvkM;
+        "kZQ5DKN8" = _kZQ5DKN8;
+        "2p3bRoNF" = _2p3bRoNF;
+        "AeyTf5cp" = _AeyTf5cp;
+        "3TYWls3Z" = _3TYWls3Z;
+        "2EyzwL4p" = _2EyzwL4p;
+        "AlHA7OuZ" = _AlHA7OuZ;
+        "XehmQFhV" = _XehmQFhV;
+        "5PeAViMN" = _5PeAViMN;
+        "pY23Y6aF" = _pY23Y6aF;
+        "vclaNvUz" = _vclaNvUz;
+        "Lq2pI4WV" = _Lq2pI4WV;
+        "TMCadTbe" = _TMCadTbe;
+        "le5s6KcK" = _le5s6KcK;
+        "l4kXhqnu" = _l4kXhqnu;
+        "bXjelje9" = _bXjelje9;
+        "WLstOQAL" = _WLstOQAL;
+        "QSFXnmG5" = _QSFXnmG5;
+        "AF3kGyFb" = _AF3kGyFb;
+        "5wcSECdG" = _5wcSECdG;
+        "Qy3xVxhW" = _Qy3xVxhW;
+        "9SjsL5aF" = _9SjsL5aF;
+        "GYlh32RS" = _GYlh32RS;
+        "75G1Q2n2" = _75G1Q2n2;
+        "1Y0LPMAF" = _1Y0LPMAF;
+        "cb35CEVe" = _cb35CEVe;
+        "msnw5nXD" = _msnw5nXD;
+        "CcAiFVMh" = _CcAiFVMh;
+        "oI4DYJ3w" = _oI4DYJ3w;
+        "ORbqepsg" = _ORbqepsg;
+        "XVlfQhLG" = _XVlfQhLG;
+        "jJzRNogZ" = _jJzRNogZ;
+        "SbUGBiTR" = _SbUGBiTR;
+        "H9aes73m" = _H9aes73m;
+        "pyisRhuc" = _pyisRhuc;
+        "9JDlKXhU" = _9JDlKXhU;
+        "dy0pR4gq" = _dy0pR4gq;
+        "A3OJxFAt" = _A3OJxFAt;
+        "gsipBSU5" = _gsipBSU5;
+        "1ZcPUCly" = _1ZcPUCly;
+        "osKe7fun" = _osKe7fun;
+        "qkXd4F8W" = _qkXd4F8W;
+        "sBlr6SPE" = _sBlr6SPE;
+        "ZCewwpIH" = _ZCewwpIH;
+        "CjZbvAm0" = _CjZbvAm0;
+        "vRqz2qyX" = _vRqz2qyX;
+        "fabric-1.21.6" = _cb35CEVe;
+        "fabric-1.21.7" = _msnw5nXD;
+        "fabric-1.21.8" = _CcAiFVMh;
+        "fabric-1.21.9" = _oI4DYJ3w;
+        "fabric-1.21.10" = _ORbqepsg;
+        "fabric-1.21.11" = _XVlfQhLG;
+        "fabric-26.1" = _qkXd4F8W;
+        "fabric-26.1.1" = _sBlr6SPE;
+        "fabric-26.1.2" = _ZCewwpIH;
+        "fabric-26.2" = _CjZbvAm0;
+        "fabric-26.3" = _vRqz2qyX;
+        "fabric-1.21" = _5wcSECdG;
+        "fabric-1.21.1" = _Qy3xVxhW;
+        "fabric-1.21.2" = _9SjsL5aF;
+        "fabric-1.21.3" = _GYlh32RS;
+        "fabric-1.21.4" = _75G1Q2n2;
+        "fabric-1.21.5" = _1Y0LPMAF;
+        "forge-26.1" = _dy0pR4gq;
+        "forge-26.1.1" = _A3OJxFAt;
+        "forge-26.1.2" = _gsipBSU5;
+        "forge-26.2" = _1ZcPUCly;
+        "forge-26.3" = _osKe7fun;
+        "forge-1.21" = _5PeAViMN;
+        "forge-1.21.1" = _pY23Y6aF;
+        "forge-1.21.3" = _vclaNvUz;
+        "forge-1.21.4" = _Lq2pI4WV;
+        "forge-1.21.5" = _TMCadTbe;
+        "forge-1.21.6" = _le5s6KcK;
+        "forge-1.21.7" = _l4kXhqnu;
+        "forge-1.21.8" = _bXjelje9;
+        "forge-1.21.9" = _WLstOQAL;
+        "forge-1.21.10" = _QSFXnmG5;
+        "forge-1.21.11" = _AF3kGyFb;
+        "neoforge-26.1" = _jJzRNogZ;
+        "neoforge-26.1.1" = _SbUGBiTR;
+        "neoforge-26.1.2" = _H9aes73m;
+        "neoforge-26.2" = _pyisRhuc;
+        "neoforge-26.3" = _9JDlKXhU;
+        "neoforge-1.21" = _vHRyA34x;
+        "neoforge-1.21.1" = _uEaMTEvd;
+        "neoforge-1.21.2" = _w8BkgoEQ;
+        "neoforge-1.21.3" = _O22xnPpp;
+        "neoforge-1.21.4" = _imOrlvkM;
+        "neoforge-1.21.5" = _kZQ5DKN8;
+        "neoforge-1.21.6" = _2p3bRoNF;
+        "neoforge-1.21.7" = _AeyTf5cp;
+        "neoforge-1.21.8" = _3TYWls3Z;
+        "neoforge-1.21.9" = _2EyzwL4p;
+        "neoforge-1.21.10" = _AlHA7OuZ;
+        "neoforge-1.21.11" = _XehmQFhV;
         "pkg-1.0.0" = _9Gh2Ybs9;
         "pkg-1.1" = _tJg42kaI;
         "pkg-1.2" = _hLQCNJ0s;
         "pkg-1.2.1" = _D7PH2r08;
         "pkg-1.3" = _wYkE1nBk;
-        "default" = _wYkE1nBk;
+        "pkg-1.3.1" = _vRqz2qyX;
+        "default" = _vRqz2qyX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "architectural-building-wand";

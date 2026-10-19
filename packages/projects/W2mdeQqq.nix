@@ -196,6 +196,11 @@ let
             "file" = "fablemod-5.3.0-mc26.2.jar";
             "hash" = "sha512-SkPn1ESatZANWZm3qGuScnLo5dy6vY6bFGgk31cmuo5uNYCxChSU9ftS4AbrQPxZU2IRlIBIJDyTN5UJrzDXWQ==";
         };
+        _5xa4MLso = {
+            "id" = "5xa4MLso";
+            "file" = "fablemod-6.0.0-mc26.3.jar";
+            "hash" = "sha512-GRxmgNiLTfDeGzXLsZtxHOT6jM1rmkQWDIxgy0k2pb7ThrTumlQuf9WmxysJGs2OtSVKPmMCLWw6FC8SJjiN7A==";
+        };
     in {
         "Lck9mJAO" = _Lck9mJAO;
         "py3HEcMc" = _py3HEcMc;
@@ -236,6 +241,7 @@ let
         "Jqgv0zy3" = _Jqgv0zy3;
         "YEr0i0Fu" = _YEr0i0Fu;
         "hgHUBhjH" = _hgHUBhjH;
+        "5xa4MLso" = _5xa4MLso;
         "forge-1.16.5" = _Lck9mJAO;
         "fabric-1.19.4" = _gSsgIq0b;
         "fabric-1.20.1" = _Yyf4AJdJ;
@@ -252,6 +258,7 @@ let
         "fabric-26.1.2-rc-1" = _bN1gmQPe;
         "fabric-26.1.2" = _YEr0i0Fu;
         "fabric-26.2" = _hgHUBhjH;
+        "fabric-26.3" = _5xa4MLso;
         "pkg-1.5.1" = _Lck9mJAO;
         "pkg-2.4.1" = _py3HEcMc;
         "pkg-2.5.0" = _gSsgIq0b;
@@ -291,7 +298,8 @@ let
         "pkg-5.2.0-mc1.21.11" = _Jqgv0zy3;
         "pkg-5.2.0-mc26.1" = _YEr0i0Fu;
         "pkg-5.3.0-mc26.2" = _hgHUBhjH;
-        "default" = _hgHUBhjH;
+        "pkg-6.0.0-mc26.3" = _5xa4MLso;
+        "default" = _5xa4MLso;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fable-mod";

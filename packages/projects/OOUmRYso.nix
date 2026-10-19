@@ -41,6 +41,11 @@ let
             "file" = "TinkersLevellingAddon-1.20.1-1.4.3.jar";
             "hash" = "sha512-1+c82EOaP/hGSa+0+QxuOFSa/gtmcCSspBtwFqL+qfu7qYh4T8UptPHWr/ScaKxWQvnkptA9Yo0DtS9cCuT6ZA==";
         };
+        _RMlDwRd0 = {
+            "id" = "RMlDwRd0";
+            "file" = "TinkersLevellingAddon-1.20.1-1.5.0.jar";
+            "hash" = "sha512-YbQmeSmfe8BtRtDGsfEyjxv19PSDdLzfxDRZSoHoYDxIiJ2o0tsOWV9QSVz+iWV6qmHUDm9NVjwWuLlxLkpE7w==";
+        };
     in {
         "RqpFclhC" = _RqpFclhC;
         "zwOBs69f" = _zwOBs69f;
@@ -50,11 +55,12 @@ let
         "ymurp0PV" = _ymurp0PV;
         "lXPr7Jwx" = _lXPr7Jwx;
         "5uazY97Q" = _5uazY97Q;
+        "RMlDwRd0" = _RMlDwRd0;
         "forge-1.16.5" = _RqpFclhC;
         "forge-1.18.2" = _egvpDD8W;
         "forge-1.19.2" = _mNlbKx6C;
-        "forge-1.20.1" = _5uazY97Q;
-        "neoforge-1.20.1" = _5uazY97Q;
+        "forge-1.20.1" = _RMlDwRd0;
+        "neoforge-1.20.1" = _RMlDwRd0;
         "pkg-1.1.1" = _RqpFclhC;
         "pkg-1.2.0" = _zwOBs69f;
         "pkg-1.3.0" = _egvpDD8W;
@@ -62,7 +68,8 @@ let
         "pkg-1.4.1" = _ymurp0PV;
         "pkg-1.4.2" = _lXPr7Jwx;
         "pkg-1.4.3" = _5uazY97Q;
-        "default" = _5uazY97Q;
+        "pkg-1.5.0" = _RMlDwRd0;
+        "default" = _RMlDwRd0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tinkers-levelling-addon";

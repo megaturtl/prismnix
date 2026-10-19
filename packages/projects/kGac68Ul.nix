@@ -301,6 +301,11 @@ let
             "file" = "cyvforge-1.11.jar";
             "hash" = "sha512-PzSg0TsKeqZKJv23Q1h92QXVodk64hwU1JnvOUYvgWI90Ej7vcnE9IIKMgymPlvQTTNIb2QFQP2ifqdFaBOdrw==";
         };
+        _2VZ3H101 = {
+            "id" = "2VZ3H101";
+            "file" = "cyvforge-1.11.1.jar";
+            "hash" = "sha512-5JsbuxQLfPT1bt1YgYhUvrhWl5qhydBviJ1yML7z43axQ3f8Rb1rlz4Rnh0EwgBi5jwmZ2CQforLFQniYfq9yw==";
+        };
     in {
         "wmsbpYbS" = _wmsbpYbS;
         "9HLEqopR" = _9HLEqopR;
@@ -362,6 +367,7 @@ let
         "JqT4eya6" = _JqT4eya6;
         "CMktW9Lw" = _CMktW9Lw;
         "5u8LLqJN" = _5u8LLqJN;
+        "2VZ3H101" = _2VZ3H101;
         "fabric-1.20.4" = _qFyY8WcV;
         "fabric-1.20.5" = _qFyY8WcV;
         "fabric-1.20.6" = _qFyY8WcV;
@@ -383,7 +389,7 @@ let
         "fabric-26.2" = _JqT4eya6;
         "fabric-26.3" = _CMktW9Lw;
         "forge-1.12.2" = _V0cUfSI8;
-        "forge-1.8.9" = _5u8LLqJN;
+        "forge-1.8.9" = _2VZ3H101;
         "pkg-1.0-1.20.4" = _wmsbpYbS;
         "pkg-1.0.1-1.20.4" = _9HLEqopR;
         "pkg-1.0.2-1.20.4" = _BhcRrn90;
@@ -443,7 +449,8 @@ let
         "pkg-1.6.1+26.2" = _JqT4eya6;
         "pkg-1.6.1+26.3" = _CMktW9Lw;
         "pkg-Forge-1.11" = _5u8LLqJN;
-        "default" = _5u8LLqJN;
+        "pkg-Forge-1.11.1" = _2VZ3H101;
+        "default" = _2VZ3H101;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cyv";

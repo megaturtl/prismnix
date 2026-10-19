@@ -31,6 +31,16 @@ let
             "file" = "minecraft-backwards-1.1.0.jar";
             "hash" = "sha512-nF9tMxb7YIN8stOt5FRYqUnZkzxMmubrqRcwH4c6udl963EziAiTFViZdKPC/X0LWMuL/HNJ0X9AXpSK4Y90lg==";
         };
+        _yRc5GyLy = {
+            "id" = "yRc5GyLy";
+            "file" = "Minecraft But Backwards 2.0.0.zip";
+            "hash" = "sha512-Y/WQ+Xiy2u0jMcJx9cWtgLLJfOQ5MPJdjWPuK2OHPqUjquqvn3ON1w3YvxoxibbNDI/N5RlThbCRPb0khoRP2w==";
+        };
+        _1ATmYxJA = {
+            "id" = "1ATmYxJA";
+            "file" = "minecraft-backwards-2.0.0.jar";
+            "hash" = "sha512-7zZqHmL0hHwHDi7SZPkAuVA1cclFFDEGhz8WRdzjMusNVGcj49DZkkZCp5vdCu2C+47Z050Vb7iEhghmf5Eceg==";
+        };
     in {
         "yds1Suhz" = _yds1Suhz;
         "vOzCSTQy" = _vOzCSTQy;
@@ -38,33 +48,37 @@ let
         "8hAqimm7" = _8hAqimm7;
         "ZgagcWsl" = _ZgagcWsl;
         "8iQrn2YL" = _8iQrn2YL;
+        "yRc5GyLy" = _yRc5GyLy;
+        "1ATmYxJA" = _1ATmYxJA;
         "datapack-26.1" = _qKMQSyr2;
         "datapack-26.1.1" = _qKMQSyr2;
         "datapack-26.1.2" = _qKMQSyr2;
         "datapack-26.2" = _qKMQSyr2;
-        "datapack-26.3" = _ZgagcWsl;
+        "datapack-26.3" = _yRc5GyLy;
         "fabric-26.1" = _8hAqimm7;
         "fabric-26.1.1" = _8hAqimm7;
         "fabric-26.1.2" = _8hAqimm7;
         "fabric-26.2" = _8hAqimm7;
-        "fabric-26.3" = _8iQrn2YL;
+        "fabric-26.3" = _1ATmYxJA;
         "forge-26.1" = _8hAqimm7;
         "forge-26.1.1" = _8hAqimm7;
         "forge-26.1.2" = _8hAqimm7;
         "forge-26.2" = _8hAqimm7;
-        "forge-26.3" = _8iQrn2YL;
+        "forge-26.3" = _1ATmYxJA;
         "neoforge-26.1" = _8hAqimm7;
         "neoforge-26.1.1" = _8hAqimm7;
         "neoforge-26.1.2" = _8hAqimm7;
         "neoforge-26.2" = _8hAqimm7;
-        "neoforge-26.3" = _8iQrn2YL;
+        "neoforge-26.3" = _1ATmYxJA;
         "pkg-1.0.0" = _yds1Suhz;
         "pkg-1.0.0+mod" = _vOzCSTQy;
         "pkg-1.0.1" = _qKMQSyr2;
         "pkg-1.0.1+mod" = _8hAqimm7;
         "pkg-1.1.0" = _ZgagcWsl;
         "pkg-1.1.0+mod" = _8iQrn2YL;
-        "default" = _8iQrn2YL;
+        "pkg-2.0.0" = _yRc5GyLy;
+        "pkg-2.0.0+mod" = _1ATmYxJA;
+        "default" = _1ATmYxJA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "minecraft-backwards";

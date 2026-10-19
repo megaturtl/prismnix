@@ -1,0 +1,151 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _Cp2WEkib = {
+            "id" = "Cp2WEkib";
+            "file" = "elementals-1.0.1-forge-1.20.1.jar";
+            "hash" = "sha512-QC8pipnzvREsEBOeEwux9IKthKMHCNZY1X5Zyl/ViOqN65mHpv1eEPTOMDwoftCe2/Lsf1i2RXOerf9f1Yy/Xw==";
+        };
+        _KC8t6FNO = {
+            "id" = "KC8t6FNO";
+            "file" = "elementals-1.0.2-forge-1.20.1.jar";
+            "hash" = "sha512-8jripn7J4i8beK25psegi6KyJwwhvdQU24/XJvwjeF4ZewXVj2CsZlXrS5AD0S3knk6KVFyTmGkEmBcMHIunZA==";
+        };
+        _nFY2QdVN = {
+            "id" = "nFY2QdVN";
+            "file" = "elementals-1.0.2-neoforge-1.21.1.jar";
+            "hash" = "sha512-THW9CzWC634bDyfOncjJnkz6n7TOExxOSjDHtev2oyNUpZVM+wRzm1r+0YFRRnluPwwwybdwfrht6eb499jRAA==";
+        };
+        _zQ58TZFG = {
+            "id" = "zQ58TZFG";
+            "file" = "elementals-1.0.3-forge-1.20.1.jar";
+            "hash" = "sha512-jU2IzX6Tx4tihgv6Oo8aaH9uMi+w/cjNgr38VHhnIm1Nn4p27R8UsJYxHogY84KcwWynGyax7hJ+7CNmwhu/RA==";
+        };
+        _lCedyH7y = {
+            "id" = "lCedyH7y";
+            "file" = "elementals-1.1.0a-forge-1.20.1.jar";
+            "hash" = "sha512-wNPGI85c9TIcZTOrPjRrArPCuJd1eDOrHd+0fqtqYHYyFVVBACsuHyJ95ED6dTIOXMcOMVc3DvUBLcXlKh9Pkw==";
+        };
+        _4uBU9PjC = {
+            "id" = "4uBU9PjC";
+            "file" = "elementals-1.1.0a-neoforge-1.21.1.jar";
+            "hash" = "sha512-dfPogyJTvdwIxWucVdCxR37Vdayip/zTBXKAjYZGhBi2sFgEooBYDQaHDeuACSlqHxkrhytRRQiaxJX+/FtgCw==";
+        };
+        _z4NvlB8l = {
+            "id" = "z4NvlB8l";
+            "file" = "elementals-1.2.0-forge-1.20.1.jar";
+            "hash" = "sha512-t6tA8UVj1BWg9EBg68i8Aq1qgnqzgv//jqqpNsW4xARPyzYbnqUF5xrbnRFlWsO5b00YAfbU1FswRwmSOUuUUQ==";
+        };
+        _IpfxIaxw = {
+            "id" = "IpfxIaxw";
+            "file" = "elementals-1.2.0-neoforge-1.21.1.jar";
+            "hash" = "sha512-8TU+/q3JyUEm1crSZghwZQDnYCcOItV6r1aItMT3F7ZrP5/XTyyTGYTxz+m7mmWhWU2LCllhSsxaK5C3WtQKJw==";
+        };
+        _ulxnq4Up = {
+            "id" = "ulxnq4Up";
+            "file" = "elementals-fabric-1.20.1-1.3.0.jar";
+            "hash" = "sha512-5d83NebmiEQEfvsw70zRhUrl3TS/Q1bUEXCC9y6Y8+ifX/yA02slGo/iSQhPmJUb+jx5tXCRoTOpEoUEnVRChg==";
+        };
+        _VMeaPvAu = {
+            "id" = "VMeaPvAu";
+            "file" = "elementals-forge-1.20.1-1.3.0.jar";
+            "hash" = "sha512-Vg8IQQzwQzot7AJlXOZzp74aJydVytSJnt3d4yvjKqfnmhre5aFf7foqFRNn5d6mov9oDFE51bZV1kvxxVY1Aw==";
+        };
+        _YEObAwNW = {
+            "id" = "YEObAwNW";
+            "file" = "elementals-neoforge-1.21.1-1.0.0.jar";
+            "hash" = "sha512-pHcNmIk/SDizE1Sbfiwp1ocDh5IVDVpyap567BnsIaQnA51PYycaPTIr/2xZmFBhzrUgbtFy/F1GJ4XeTGri/Q==";
+        };
+        _pBP2UVH3 = {
+            "id" = "pBP2UVH3";
+            "file" = "elementals-fabric-1.21.1-1.0.0.jar";
+            "hash" = "sha512-rP1c6lTIAgVphmiqqq5IiaqZy9rDIm7Z38HY4aL8zXKHjr/d+cQL2kUqOBUnTf6tXdczzm1jSjBX5b9fTZ6+3g==";
+        };
+        _YRmGn6PF = {
+            "id" = "YRmGn6PF";
+            "file" = "elementals-fabric-1.20.1-1.4.0.jar";
+            "hash" = "sha512-dPh6+WfbSZpyKJ27sfAb5/OlanDwmXqItWZyibK8iEWOuuPWykvWRgQgzsDhMUahhCOg4kbQj8QvxS+oMGXY9Q==";
+        };
+        _DmE9iiNY = {
+            "id" = "DmE9iiNY";
+            "file" = "elementals-fabric-1.21.1-1.4.0.jar";
+            "hash" = "sha512-byL3OepUts4GHuDc6oV7TPtdyZUz9XrB0sUIKMfh/mlsWoirxlAYc72ApkP/WEKd9fpBlijJW42mxx+6rOUO2A==";
+        };
+        _9u3ZuaiY = {
+            "id" = "9u3ZuaiY";
+            "file" = "elementals-fabric-26.2-1.4.0.jar";
+            "hash" = "sha512-x3To445kQlElZsCLyZBxilIDcsbgwS6FU8B9EGSUpG8sZxTTXuWqxbtRmDOp6qiYeoFkEmCvk1ZiW7xdWRiZgw==";
+        };
+        _IsXcsD3k = {
+            "id" = "IsXcsD3k";
+            "file" = "elementals-forge-1.20.1-1.4.0.jar";
+            "hash" = "sha512-roKKOyQIhzXy0iTQ4xohfyU1TGFpozCyhbNGH7hq+woZNsrpU4l1CLyBv60FwhWwgplfjTgqaBtfPpXMgw64bA==";
+        };
+        _jyb9VYWD = {
+            "id" = "jyb9VYWD";
+            "file" = "elementals-neoforge-1.21.1-1.4.0.jar";
+            "hash" = "sha512-5xtuj0A9zNUgVcDsP2x2Lc+XPsakgP1hZ7hWyKV97TpmVgny0dHQKUp0qcu9uciU0QVRigFhV250WYduxbnERg==";
+        };
+        _v8nu0akX = {
+            "id" = "v8nu0akX";
+            "file" = "elementals-neoforge-26.2-1.4.0.jar";
+            "hash" = "sha512-vTY08E7ElWQaJtzMpQ6ktl51p1f2wmrf35oBIC+f0elU6QOA3hPC/38iYzk1iaW+1gcUcedIYBERoZ5bpi7VgQ==";
+        };
+    in {
+        "Cp2WEkib" = _Cp2WEkib;
+        "KC8t6FNO" = _KC8t6FNO;
+        "nFY2QdVN" = _nFY2QdVN;
+        "zQ58TZFG" = _zQ58TZFG;
+        "lCedyH7y" = _lCedyH7y;
+        "4uBU9PjC" = _4uBU9PjC;
+        "z4NvlB8l" = _z4NvlB8l;
+        "IpfxIaxw" = _IpfxIaxw;
+        "ulxnq4Up" = _ulxnq4Up;
+        "VMeaPvAu" = _VMeaPvAu;
+        "YEObAwNW" = _YEObAwNW;
+        "pBP2UVH3" = _pBP2UVH3;
+        "YRmGn6PF" = _YRmGn6PF;
+        "DmE9iiNY" = _DmE9iiNY;
+        "9u3ZuaiY" = _9u3ZuaiY;
+        "IsXcsD3k" = _IsXcsD3k;
+        "jyb9VYWD" = _jyb9VYWD;
+        "v8nu0akX" = _v8nu0akX;
+        "forge-1.20.1" = _IsXcsD3k;
+        "neoforge-1.21.1" = _jyb9VYWD;
+        "neoforge-1.20.1" = _VMeaPvAu;
+        "neoforge-26.2" = _v8nu0akX;
+        "fabric-1.20.1" = _YRmGn6PF;
+        "fabric-1.21.1" = _DmE9iiNY;
+        "fabric-26.2" = _9u3ZuaiY;
+        "pkg-1.0.1" = _Cp2WEkib;
+        "pkg-1.0.2" = _nFY2QdVN;
+        "pkg-1.0.3" = _zQ58TZFG;
+        "pkg-1.1.0a" = _4uBU9PjC;
+        "pkg-1.2.0" = _IpfxIaxw;
+        "pkg-1.3.0" = _VMeaPvAu;
+        "pkg-1.0.0" = _pBP2UVH3;
+        "pkg-1.4.0+fabric-1.20.1" = _YRmGn6PF;
+        "pkg-1.4.0+fabric-1.21.1" = _DmE9iiNY;
+        "pkg-1.4.0+fabric-26.2" = _9u3ZuaiY;
+        "pkg-1.4.0+forge-1.20.1" = _IsXcsD3k;
+        "pkg-1.4.0+neoforge-1.21.1" = _jyb9VYWD;
+        "pkg-1.4.0+neoforge-26.2" = _v8nu0akX;
+        "default" = _v8nu0akX;
+    });
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "the-elementals";
+        id = "RFO8VXZx";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "Apache-2.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Apache License 2.0";
+                shortName = "Apache-2.0";
+                url = null;
+            };
+        };
+    };
+in callPackage fn {}

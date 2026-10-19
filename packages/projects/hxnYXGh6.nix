@@ -136,6 +136,16 @@ let
             "file" = "quickestharvest-26.2.jar";
             "hash" = "sha512-PrBRIv4j5UnRJaSMWKn49OfkfsvdGiTr1rW9V9vKLpxiThu3wMAXOo3VJ6KoN4HXWDitWTPtVlal1ie2QV/niA==";
         };
+        _wMkumue8 = {
+            "id" = "wMkumue8";
+            "file" = "QuickHarvest 26.3.zip";
+            "hash" = "sha512-YsZao5zAWZdYROPPlN6f/qTtH7udIeOIEip5bxtG4ZYkjeA0or/9xiinUzZOAdzQtmJj+tcidwAnQ81FvmaYlw==";
+        };
+        _EgSjmqvt = {
+            "id" = "EgSjmqvt";
+            "file" = "quickestharvest-26.3.jar";
+            "hash" = "sha512-If0Q08+wqomeXG28e6q/gVwIil1Dt0BGni2kBUYOP2FfE6Zq6EBnrlF91c8mYVoF2rYbD7+qpIPWbJuUlDVFPA==";
+        };
     in {
         "yrgOzYvI" = _yrgOzYvI;
         "LvMyOvCB" = _LvMyOvCB;
@@ -164,6 +174,8 @@ let
         "mCZn7D5r" = _mCZn7D5r;
         "BxWXhzij" = _BxWXhzij;
         "rptbhJ2J" = _rptbhJ2J;
+        "wMkumue8" = _wMkumue8;
+        "EgSjmqvt" = _EgSjmqvt;
         "datapack-1.20.5" = _IzDDrxBC;
         "datapack-1.20.6" = _IzDDrxBC;
         "datapack-1.21" = _iFdHgMRJ;
@@ -182,6 +194,7 @@ let
         "datapack-26.1.1" = _C30bK2z9;
         "datapack-26.1.2" = _C30bK2z9;
         "datapack-26.2" = _BxWXhzij;
+        "datapack-26.3" = _wMkumue8;
         "fabric-1.20.5" = _4kAZAbGD;
         "fabric-1.20.6" = _4kAZAbGD;
         "fabric-1.21" = _yCfXHgEk;
@@ -200,6 +213,7 @@ let
         "fabric-26.1.1" = _mCZn7D5r;
         "fabric-26.1.2" = _mCZn7D5r;
         "fabric-26.2" = _rptbhJ2J;
+        "fabric-26.3" = _EgSjmqvt;
         "forge-1.20.5" = _4kAZAbGD;
         "forge-1.20.6" = _4kAZAbGD;
         "forge-1.21" = _yCfXHgEk;
@@ -218,6 +232,7 @@ let
         "forge-26.1.1" = _mCZn7D5r;
         "forge-26.1.2" = _mCZn7D5r;
         "forge-26.2" = _rptbhJ2J;
+        "forge-26.3" = _EgSjmqvt;
         "neoforge-1.20.5" = _4kAZAbGD;
         "neoforge-1.20.6" = _4kAZAbGD;
         "neoforge-1.21" = _yCfXHgEk;
@@ -236,6 +251,7 @@ let
         "neoforge-26.1.1" = _mCZn7D5r;
         "neoforge-26.1.2" = _mCZn7D5r;
         "neoforge-26.2" = _rptbhJ2J;
+        "neoforge-26.3" = _EgSjmqvt;
         "quilt-1.20.5" = _4kAZAbGD;
         "quilt-1.20.6" = _4kAZAbGD;
         "quilt-1.21" = _yCfXHgEk;
@@ -254,6 +270,7 @@ let
         "quilt-26.1.1" = _mCZn7D5r;
         "quilt-26.1.2" = _mCZn7D5r;
         "quilt-26.2" = _rptbhJ2J;
+        "quilt-26.3" = _EgSjmqvt;
         "pkg-1.20.5-1.20.6" = _yrgOzYvI;
         "pkg-1.21-1.21.1" = _LvMyOvCB;
         "pkg-1.21.2-1.21.3" = _r7hzRmhU;
@@ -280,7 +297,9 @@ let
         "pkg-1.21.9-26.1.2-2+mod" = _mCZn7D5r;
         "pkg-26.2" = _BxWXhzij;
         "pkg-26.2+mod" = _rptbhJ2J;
-        "default" = _rptbhJ2J;
+        "pkg-26.3" = _wMkumue8;
+        "pkg-26.3+mod" = _EgSjmqvt;
+        "default" = _EgSjmqvt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "quickestharvest";

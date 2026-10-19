@@ -26,12 +26,18 @@ let
             "file" = "ZickZack Golden Ruby (1.20.8+).zip";
             "hash" = "sha512-sgBGBfYfSd6JVvnEMR7GX+V+MSduazb9xwiijuCt6Z6PikY11drV0DlsobcEqyNo5lFQbhA71PhXy1gVTRzwTw==";
         };
+        _Rp3XZ1vt = {
+            "id" = "Rp3XZ1vt";
+            "file" = "ZickZackGoldenRuby - 1.5.zip";
+            "hash" = "sha512-6ps7k+0BbN6t3VsNqbDabWffA4WywEywo2bjvzQ/wjXHePZshstjUUQ0PagnXUrNyTJdpFcYr76HtYi+v52L0w==";
+        };
     in {
         "xYGdFKsS" = _xYGdFKsS;
         "nTgdu2Lp" = _nTgdu2Lp;
         "IrjnFIEU" = _IrjnFIEU;
         "jzjnm7fL" = _jzjnm7fL;
         "AqexsTmK" = _AqexsTmK;
+        "Rp3XZ1vt" = _Rp3XZ1vt;
         "minecraft-1.20.3" = _nTgdu2Lp;
         "minecraft-1.20.4" = _nTgdu2Lp;
         "minecraft-1.20.5" = _IrjnFIEU;
@@ -45,19 +51,21 @@ let
         "minecraft-1.21.6" = _IrjnFIEU;
         "minecraft-1.21.7" = _IrjnFIEU;
         "minecraft-1.21.8" = _AqexsTmK;
-        "minecraft-1.21.9" = _AqexsTmK;
-        "minecraft-1.21.10" = _AqexsTmK;
-        "minecraft-1.21.11" = _AqexsTmK;
-        "minecraft-26.1" = _AqexsTmK;
-        "minecraft-26.1.1" = _AqexsTmK;
-        "minecraft-26.1.2" = _AqexsTmK;
-        "minecraft-26.2" = _AqexsTmK;
+        "minecraft-1.21.9" = _Rp3XZ1vt;
+        "minecraft-1.21.10" = _Rp3XZ1vt;
+        "minecraft-1.21.11" = _Rp3XZ1vt;
+        "minecraft-26.1" = _Rp3XZ1vt;
+        "minecraft-26.1.1" = _Rp3XZ1vt;
+        "minecraft-26.1.2" = _Rp3XZ1vt;
+        "minecraft-26.2" = _Rp3XZ1vt;
+        "minecraft-26.3" = _Rp3XZ1vt;
         "pkg-1.0" = _xYGdFKsS;
         "pkg-1.1" = _nTgdu2Lp;
         "pkg-1.2" = _IrjnFIEU;
         "pkg-1.3" = _jzjnm7fL;
         "pkg-1.4" = _AqexsTmK;
-        "default" = _AqexsTmK;
+        "pkg-1.5" = _Rp3XZ1vt;
+        "default" = _Rp3XZ1vt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zickzack-v5-golden-ruby";

@@ -306,6 +306,21 @@ let
             "file" = "natures_spirit-2.3.0-1.21.1.jar";
             "hash" = "sha512-uWF7S+Z9fuHJKbu1r7HTIp0ntVyh8yVRtZXUJkw7nqz9mz2X98moxOlgzbiEg9epi0IIbYAl/baKpqSXj3xjSQ==";
         };
+        _fXzcxJN1 = {
+            "id" = "fXzcxJN1";
+            "file" = "natures_spirit-neoforge-2.3.0+26.1.2.jar";
+            "hash" = "sha512-gqM2x/6QKojyUmiedZAKPGhq2/fku7c9B5BvM18fdcyK5Vp3LFBURlr8fVn0Dzu1NAh6BC8RsZU4Q3spbLBf3w==";
+        };
+        _WTzZA3gg = {
+            "id" = "WTzZA3gg";
+            "file" = "natures_spirit-fabric-2.3.0+26.1.2.jar";
+            "hash" = "sha512-KPxs7pw34SUv7cLYEUcMnj9UNr3baKiB/AwyDU+MrmdjtRq3AyHtxQnJ27q/LnvPs7MvFtbHten6NlhG6QFNtw==";
+        };
+        _2gTLYP0m = {
+            "id" = "2gTLYP0m";
+            "file" = "natures_spirit-2.3.1-1.21.1.jar";
+            "hash" = "sha512-8CKzQhfHzlbdC6wdolOufnpAF/GjWVvCC0NHmKIpkaN2H6U0GHTQ9PEDDd6KGN469rJpqTx7XDtjJveicVH7cA==";
+        };
     in {
         "6GCFqmxu" = _6GCFqmxu;
         "cUt9cfpK" = _cUt9cfpK;
@@ -368,19 +383,24 @@ let
         "SeqkFW07" = _SeqkFW07;
         "7ywS0UWV" = _7ywS0UWV;
         "9tpL59jN" = _9tpL59jN;
+        "fXzcxJN1" = _fXzcxJN1;
+        "WTzZA3gg" = _WTzZA3gg;
+        "2gTLYP0m" = _2gTLYP0m;
         "fabric-1.20.1" = _GW1xcaGA;
         "fabric-1.20.4" = _t2i6toEm;
         "fabric-1.20.6" = _PEDBSmFj;
         "fabric-1.21" = _tDTCH8Qv;
         "fabric-1.21.1" = _SeqkFW07;
+        "fabric-26.1.2" = _WTzZA3gg;
         "quilt-1.20.1" = _vLbQwq6H;
         "quilt-1.20.4" = _t2i6toEm;
         "quilt-1.20.6" = _PEDBSmFj;
         "quilt-1.21" = _tDTCH8Qv;
         "quilt-1.21.1" = _znuiO1Jm;
         "forge-1.20.1" = _ri5j4RHM;
-        "neoforge-1.21.1" = _9tpL59jN;
-        "neoforge-1.21" = _9tpL59jN;
+        "neoforge-1.21.1" = _2gTLYP0m;
+        "neoforge-1.21" = _2gTLYP0m;
+        "neoforge-26.1.2" = _fXzcxJN1;
         "pkg-1.0" = _6GCFqmxu;
         "pkg-1.1" = _cUt9cfpK;
         "pkg-1.2.0" = _M6a2Rl4r;
@@ -435,7 +455,9 @@ let
         "pkg-2.2.5-1.21.1" = _TRMapjpU;
         "pkg-2.2.6-1.21.1" = _7ywS0UWV;
         "pkg-2.3.0-1.21.1" = _9tpL59jN;
-        "default" = _9tpL59jN;
+        "pkg-2.3.0-26.1.2" = _WTzZA3gg;
+        "pkg-2.3.1-1.21.1" = _2gTLYP0m;
+        "default" = _2gTLYP0m;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "natures-spirit";

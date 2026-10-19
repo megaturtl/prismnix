@@ -1676,6 +1676,11 @@ let
             "file" = "butterflies-7.10.9.jar";
             "hash" = "sha512-jBDvbajDl+ZZkyPldFLec1actAWkP6Rf6r9r4oasz0x5mRC6Udw6hdZvVvHtXS3iWnwBPhOobYRRXu3tFCkoBg==";
         };
+        _JqMjo3EC = {
+            "id" = "JqMjo3EC";
+            "file" = "butterflies-7.10.11.jar";
+            "hash" = "sha512-JJ9KEq/VwjIcqKaoqD/AHU6IqBTG8xrACZ6CK30/ifOQl8mduboEVOrNvRNxqBIg9SkJGfAto11X07ttkZcB8A==";
+        };
     in {
         "oFx4P6V0" = _oFx4P6V0;
         "eDMr0C7M" = _eDMr0C7M;
@@ -2012,7 +2017,8 @@ let
         "i8upzTkr" = _i8upzTkr;
         "11RNbbGP" = _11RNbbGP;
         "TcBqY1wL" = _TcBqY1wL;
-        "forge-1.20.1" = _uSCYihw8;
+        "JqMjo3EC" = _JqMjo3EC;
+        "forge-1.20.1" = _JqMjo3EC;
         "forge-1.20.2" = _CioJyoHn;
         "forge-1.19.2" = _vo8QNCqZ;
         "forge-1.20.4" = _HrYqIHrj;
@@ -2101,7 +2107,8 @@ let
         "pkg-7.10.0" = _GvztH2Ao;
         "pkg-7.10.5" = _SSXiEjPl;
         "pkg-7.10.9" = _TcBqY1wL;
-        "default" = _TcBqY1wL;
+        "pkg-7.10.11" = _JqMjo3EC;
+        "default" = _JqMjo3EC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "boks-butterflies";

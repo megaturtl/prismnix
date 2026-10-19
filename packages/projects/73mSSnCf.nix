@@ -461,6 +461,11 @@ let
             "file" = "silent-gear-26.1.2-neoforge-4.2.3.jar";
             "hash" = "sha512-QjE/waiYWzw+41hWbb4m/rwaIBtiz+eSZjCfhqbv1KEN/eQTpj0iIaOoNnfyheG1oTeeebowQPa2z0MwpW5V8w==";
         };
+        _l3gGqewB = {
+            "id" = "l3gGqewB";
+            "file" = "silent-gear-26.2-neoforge-4.3.0.jar";
+            "hash" = "sha512-QL45gkVotbJ+XymHc7RArI/CYhA228sXU8dTCkbfg2TDCLTnwxWEvxUJiFcaDaKw7ztKH0VcGl6x33XJFxjMFA==";
+        };
     in {
         "I444dSdt" = _I444dSdt;
         "FKArUzOk" = _FKArUzOk;
@@ -554,6 +559,7 @@ let
         "VRVOMdub" = _VRVOMdub;
         "VicSdfKy" = _VicSdfKy;
         "eG4f2c3T" = _eG4f2c3T;
+        "l3gGqewB" = _l3gGqewB;
         "forge-1.19.4" = _FKArUzOk;
         "forge-1.20.1" = _2Chvw4VA;
         "forge-1.20" = _MacSMl0V;
@@ -575,6 +581,7 @@ let
         "neoforge-26.1" = _pfdWqD3i;
         "neoforge-26.1.1" = _pfdWqD3i;
         "neoforge-26.1.2" = _eG4f2c3T;
+        "neoforge-26.2" = _l3gGqewB;
         "pkg-3.4.0" = _I444dSdt;
         "pkg-3.4.1" = _FKArUzOk;
         "pkg-3.5.0" = _oSiKZEgb;
@@ -656,7 +663,8 @@ let
         "pkg-4.2.1.1" = _VRVOMdub;
         "pkg-4.2.2" = _VicSdfKy;
         "pkg-4.2.3" = _eG4f2c3T;
-        "default" = _eG4f2c3T;
+        "pkg-4.3.0" = _l3gGqewB;
+        "default" = _l3gGqewB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "silent-gear";

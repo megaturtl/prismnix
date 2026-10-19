@@ -31,6 +31,11 @@ let
             "file" = "point-blank-bullet-addon-mc1.20.1-0.1.5-mc1.20.1.jar";
             "hash" = "sha512-j9znScmE/30cyFii/mdkY30Pzw84BF7qlE0YWrEAu2uBCz5AtBuRBa+3W0hYRZp+FN5ReFlTt1D629kpfqDqGA==";
         };
+        _ZBzfVT8U = {
+            "id" = "ZBzfVT8U";
+            "file" = "pbba-0.1.6-forge.1.20.1.jar";
+            "hash" = "sha512-WHZfssQO8xlgOxpqma2/DiTzlIBtDKzT5T6VrJHqYoWvuR818QpFQ2llGFxbF/Llx3+F64duVGYrKdHmVt25/Q==";
+        };
     in {
         "zIHf5Fjj" = _zIHf5Fjj;
         "jjfiuQvb" = _jjfiuQvb;
@@ -38,17 +43,20 @@ let
         "jkpqJH8g" = _jkpqJH8g;
         "5vWkazLg" = _5vWkazLg;
         "iTAozUNk" = _iTAozUNk;
+        "ZBzfVT8U" = _ZBzfVT8U;
         "fabric-1.21.11" = _jkpqJH8g;
         "fabric-1.21" = _5vWkazLg;
         "fabric-1.21.1" = _5vWkazLg;
         "fabric-1.20.1" = _iTAozUNk;
+        "forge-1.20.1" = _ZBzfVT8U;
         "pkg-0.1.0" = _zIHf5Fjj;
         "pkg-0.1.1" = _jjfiuQvb;
         "pkg-0.1.4" = _pqkeseky;
         "pkg-0.1.6" = _jkpqJH8g;
         "pkg-0.1.5+mc1.21-1.21.1" = _5vWkazLg;
         "pkg-0.1.5+mc1.20.1" = _iTAozUNk;
-        "default" = _iTAozUNk;
+        "pkg-0.1.6-forge.1.20.1" = _ZBzfVT8U;
+        "default" = _ZBzfVT8U;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pbba";

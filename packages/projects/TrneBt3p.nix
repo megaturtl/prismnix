@@ -111,6 +111,16 @@ let
             "file" = "livelierpokemon-neoforge-2.2.0+1.21.1.jar";
             "hash" = "sha512-xoBSkoe+KGWcNxJbQ6TT0XQC0T8Gd9nOQKZqKjuGdVF1Kp/9rgRbIc2YRD0jY1d33Yw+tQ4Ooh2X0j1tYEpP/Q==";
         };
+        _GWATAxMX = {
+            "id" = "GWATAxMX";
+            "file" = "livelierpokemon-fabric-2.3.0+1.21.1.jar";
+            "hash" = "sha512-jwlla2Igqso8FS439gueRNdPDDzn6VDdey6Rjj6H7A7GcXtlGGRWVWpN66Wtx4Rd0WlvZAyTQyz6xv4+3LC4mw==";
+        };
+        _GTcR4s0V = {
+            "id" = "GTcR4s0V";
+            "file" = "livelierpokemon-neoforge-2.3.0+1.21.1.jar";
+            "hash" = "sha512-+AcKQi17JVwVXbv2U5Bb5oRooZmGw/cdYdbFwSLD/fsvYCARBHE6/UHsjf3+OOR/hp68kkXEtsoGEwgqWNQa5A==";
+        };
     in {
         "r8eC3cxL" = _r8eC3cxL;
         "6XiWgC8a" = _6XiWgC8a;
@@ -134,11 +144,13 @@ let
         "V5m1EBqJ" = _V5m1EBqJ;
         "iRudGEk3" = _iRudGEk3;
         "ZeG8lSOL" = _ZeG8lSOL;
+        "GWATAxMX" = _GWATAxMX;
+        "GTcR4s0V" = _GTcR4s0V;
         "fabric-1.19.2" = _r8eC3cxL;
         "fabric-1.20.1" = _DohTNJy3;
-        "fabric-1.21.1" = _iRudGEk3;
+        "fabric-1.21.1" = _GWATAxMX;
         "forge-1.20.1" = _fSdpTBKb;
-        "neoforge-1.21.1" = _ZeG8lSOL;
+        "neoforge-1.21.1" = _GTcR4s0V;
         "pkg-0.1.0" = _r8eC3cxL;
         "pkg-1.0.0" = _6XiWgC8a;
         "pkg-1.0.1" = _BsezTC35;
@@ -152,7 +164,8 @@ let
         "pkg-2.1.0+1.21.1" = _npc3wuHk;
         "pkg-2.1.1+1.21.1" = _V5m1EBqJ;
         "pkg-2.2.0+1.21.1" = _ZeG8lSOL;
-        "default" = _ZeG8lSOL;
+        "pkg-2.3.0+1.21.1" = _GTcR4s0V;
+        "default" = _GTcR4s0V;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "livelierpokemon";

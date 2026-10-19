@@ -786,6 +786,21 @@ let
             "file" = "TARDIS-7.1.2-ba5294842d.jar";
             "hash" = "sha512-71qmCfzpeZLSp4aW3aF+iINy+gGA+B1SWD5mjK8r3/J94QrNmiohRo20D0mDUSlJPujwLSkctPCPkMyQBIthLQ==";
         };
+        _INPBnWNr = {
+            "id" = "INPBnWNr";
+            "file" = "TARDIS-7.1.2-b6778b6e60.jar";
+            "hash" = "sha512-4kkKuKS7UFg9iUHLlhB3+kW2LwtxCr2ukWYDee9bjRlO7t94lKiCMscjqAlLrmhLEUxnb2t3sOU9230TC3K2ng==";
+        };
+        _91mc90uo = {
+            "id" = "91mc90uo";
+            "file" = "TARDIS-7.1.2-b8ed9db3f0.jar";
+            "hash" = "sha512-SXp6pAXjwPa+qv1FqX6N2k/a5r3kVPxhB8H+SwFsgpxlQKAmW5CGvJUI6anIhrtZCZCRgPsnqqSiNh6RIpEjFg==";
+        };
+        _LuAqe9pR = {
+            "id" = "LuAqe9pR";
+            "file" = "TARDIS-7.1.2-be88608cf5.jar";
+            "hash" = "sha512-jj/5oINrB11zyF5ZCk4uHkZvXdzLOMR16JO4eUZdEPm4DB0J4Asn8Mnlb6Ju+O/tpSiVtciNWeOhdccDQ0bqtw==";
+        };
     in {
         "xQYwkd3l" = _xQYwkd3l;
         "cdnqF5er" = _cdnqF5er;
@@ -944,6 +959,9 @@ let
         "yDSyJaBw" = _yDSyJaBw;
         "YyymTy5t" = _YyymTy5t;
         "di58VKsa" = _di58VKsa;
+        "INPBnWNr" = _INPBnWNr;
+        "91mc90uo" = _91mc90uo;
+        "LuAqe9pR" = _LuAqe9pR;
         "paper-1.19.2" = _xQYwkd3l;
         "paper-1.19.3" = _cdnqF5er;
         "paper-1.19.4" = _QhnjXSdv;
@@ -956,7 +974,7 @@ let
         "paper-26.1.1" = _auFoDMAu;
         "paper-26.1.2" = _auFoDMAu;
         "paper-26.2" = _QY7sIDpt;
-        "paper-26.3" = _di58VKsa;
+        "paper-26.3" = _LuAqe9pR;
         "purpur-1.19.2" = _xQYwkd3l;
         "purpur-1.19.3" = _cdnqF5er;
         "purpur-1.19.4" = _QhnjXSdv;
@@ -1124,7 +1142,10 @@ let
         "pkg-7.1.2-be768b120a" = _yDSyJaBw;
         "pkg-7.1.2-baf104465e" = _YyymTy5t;
         "pkg-7.1.2-ba5294842d" = _di58VKsa;
-        "default" = _di58VKsa;
+        "pkg-7.1.2-b6778b6e60" = _INPBnWNr;
+        "pkg-7.1.2-b8ed9db3f0" = _91mc90uo;
+        "pkg-7.1.2-be88608cf5" = _LuAqe9pR;
+        "default" = _LuAqe9pR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tardis";

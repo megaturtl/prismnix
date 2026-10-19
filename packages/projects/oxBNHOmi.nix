@@ -366,6 +366,26 @@ let
             "file" = "shippy_ships-211.25.1-NEOFORGE.jar";
             "hash" = "sha512-XevUz9PMl4tN8AG8ku7nPaKhnnbj1mHkGvrp1xipFZe3IUyUv9h0DYKLb+BertVoULFYXLw4umrHeBfscoqAGQ==";
         };
+        _2L0PYKpk = {
+            "id" = "2L0PYKpk";
+            "file" = "shippy_ships-1.0.25.3-NEOFORGE-MC-26.1.X.jar";
+            "hash" = "sha512-a7X6/x/wNMeNaEdHzIOeUvbZN34V+xcFTXZCT37v/gcqM8dAKqe6JOxQwVWrJj2d3cNao7YjQQK16wUGEqu1QA==";
+        };
+        _xhBJ1OGV = {
+            "id" = "xhBJ1OGV";
+            "file" = "shippy_ships-1.0.25.3-NEOFORGE-MC-26.2.jar";
+            "hash" = "sha512-Bjuai+WvURo9rf7WE1g9qKCtYQ2WA9P8vkjpwRAMld5BswllBlDWcRpv+M+uljj6ccXi7He9Dl3LI6IiGZurSg==";
+        };
+        _vrK02nxe = {
+            "id" = "vrK02nxe";
+            "file" = "shippy_ships-1.0.25.3-NEOFORGE-MC-26.3.jar";
+            "hash" = "sha512-BVKpmMCt3uY6X7L0NkGyPWW5EttBPNQecOJyN1QcxWkRK51r3BGKnVkSAv+/bD3t4wA9CewRMSQqzX4RLIJmKQ==";
+        };
+        _VT7AfL7e = {
+            "id" = "VT7AfL7e";
+            "file" = "shippy-ships-1.0.27-FABRIC-MC-1.21.11.jar";
+            "hash" = "sha512-wpimokk1nnjWA9MiezISg4Uvd19gspR0q1Zgzg+UpDZUyFiUHgME/YvlTyahrusZXcVudPNfrKdUsB/xBN+NJw==";
+        };
     in {
         "GU9bK0ll" = _GU9bK0ll;
         "ELGpyPLo" = _ELGpyPLo;
@@ -440,13 +460,17 @@ let
         "H3E8iIiG" = _H3E8iIiG;
         "diWNTHFc" = _diWNTHFc;
         "BD6nH3bv" = _BD6nH3bv;
+        "2L0PYKpk" = _2L0PYKpk;
+        "xhBJ1OGV" = _xhBJ1OGV;
+        "vrK02nxe" = _vrK02nxe;
+        "VT7AfL7e" = _VT7AfL7e;
         "fabric-1.20.1" = _J3GaDBjE;
         "fabric-26.1" = _bpiMNvvj;
         "fabric-26.1.1" = _bpiMNvvj;
         "fabric-26.1.2" = _bpiMNvvj;
         "fabric-26.2" = _8TXwapdl;
         "fabric-1.21.1" = _wgMKtIcJ;
-        "fabric-1.21.11" = _TjvTGSXc;
+        "fabric-1.21.11" = _VT7AfL7e;
         "fabric-1.21.10" = _AQCZgZyL;
         "fabric-1.21.8" = _fKRwHKEO;
         "fabric-1.20.2" = _bdu8yAbe;
@@ -457,6 +481,11 @@ let
         "fabric-26.3" = _q3Hz6ClL;
         "neoforge-1.21.1" = _BD6nH3bv;
         "neoforge-1.20.1" = _diWNTHFc;
+        "neoforge-26.1" = _2L0PYKpk;
+        "neoforge-26.1.1" = _2L0PYKpk;
+        "neoforge-26.1.2" = _2L0PYKpk;
+        "neoforge-26.2" = _xhBJ1OGV;
+        "neoforge-26.3" = _vrK02nxe;
         "forge-1.20.1" = _diWNTHFc;
         "pkg-1.0.5.4" = _VIXBwTO4;
         "pkg-1.0.8" = _jcZjcMNZ;
@@ -482,12 +511,13 @@ let
         "pkg-1.0.25" = _XneYcOJs;
         "pkg-1.0.25.1" = _NILKkQ4H;
         "pkg-1.0.25.2" = _BnEbFRFH;
-        "pkg-1.0.25.3" = _wgMKtIcJ;
+        "pkg-1.0.25.3" = _vrK02nxe;
         "pkg-211.25" = _YQV6PSj3;
         "pkg-201.25" = _H3E8iIiG;
         "pkg-201.25.1" = _diWNTHFc;
         "pkg-211.25.1" = _BD6nH3bv;
-        "default" = _BD6nH3bv;
+        "pkg-1.0.27" = _VT7AfL7e;
+        "default" = _VT7AfL7e;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shippy-ships";

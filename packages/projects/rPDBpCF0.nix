@@ -146,6 +146,11 @@ let
             "file" = "(Cobblemon) Animated Pokemon.zip";
             "hash" = "sha512-Ed+aMFnn7jnmeauKoWb8BU9fE5xLCxjJKLC6IwBbl+JFH3IWZvwCdKrFIKw6f0TPmJB2pjbGyl7la2bh/284Vg==";
         };
+        _fzoh9Vjp = {
+            "id" = "fzoh9Vjp";
+            "file" = "(Cobblemon) Animated Pokemon.zip";
+            "hash" = "sha512-AGiCxdMFpfC3g0Z5owWBS4xd5CLYzWL2B1qF8nzf1c2gRCTn4v3Q0Rf5v3u9FEWMmcXV04H0scoXIqpf1O5+2A==";
+        };
     in {
         "Z7ghphSj" = _Z7ghphSj;
         "y79DBgVV" = _y79DBgVV;
@@ -176,7 +181,8 @@ let
         "gPrzohYL" = _gPrzohYL;
         "QmDCgGhW" = _QmDCgGhW;
         "ZzvQQVG5" = _ZzvQQVG5;
-        "datapack-1.21.1" = _ZzvQQVG5;
+        "fzoh9Vjp" = _fzoh9Vjp;
+        "datapack-1.21.1" = _fzoh9Vjp;
         "datapack-1.21" = _EfdqsL0X;
         "datapack-1.20.1" = _3EC0xLFE;
         "minecraft-1.21.1" = _ZSphUgRF;
@@ -208,7 +214,8 @@ let
         "pkg-4.4.0" = _gPrzohYL;
         "pkg-4.4.1" = _QmDCgGhW;
         "pkg-4.5" = _ZzvQQVG5;
-        "default" = _ZzvQQVG5;
+        "pkg-4.6" = _fzoh9Vjp;
+        "default" = _fzoh9Vjp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-animated-pokemon";

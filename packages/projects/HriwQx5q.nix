@@ -386,6 +386,16 @@ let
             "file" = "simplequests-1.21.1-2.2.0-neoforge.jar";
             "hash" = "sha512-8tcZgOkXgFBzhh0E7QpLQZaFUcFKcXxOyOJLw8r4U9/PLk3F2jBTuzVyF1Prh8HgD9l0iXwCL0spSMoKp6sMPg==";
         };
+        _TcLKFmBf = {
+            "id" = "TcLKFmBf";
+            "file" = "simplequests-1.21.1-2.3.0-neoforge.jar";
+            "hash" = "sha512-dV1l27/SkujMAhAXipe+g0GwpCl3lc6wMamAbQNIxTAMTw7BkveAeTutTwlC802CCBHINAW/xj7V7S13KGGsjg==";
+        };
+        _jg54Byyt = {
+            "id" = "jg54Byyt";
+            "file" = "simplequests-1.21.1-2.3.0-fabric.jar";
+            "hash" = "sha512-5wMELnv8Ei5omE8rVyhB/mNd+PFclkwGf+JD66mwMUZ8m2ORN0JfnwcO+Zp7ElGD03NWSNo32rERlty2TP2eTw==";
+        };
     in {
         "4DUd4r4J" = _4DUd4r4J;
         "tb2EvNC8" = _tb2EvNC8;
@@ -464,20 +474,22 @@ let
         "g7fo237z" = _g7fo237z;
         "51xlgzcM" = _51xlgzcM;
         "kxJMT5fC" = _kxJMT5fC;
+        "TcLKFmBf" = _TcLKFmBf;
+        "jg54Byyt" = _jg54Byyt;
         "fabric-1.18.2" = _aR5GAgcr;
         "fabric-1.19.4" = _XERU6Gdd;
         "fabric-1.20.1" = _zyk3Eqlm;
         "fabric-1.20.2" = _ppz5mLkR;
         "fabric-1.20.6" = _U6B4BgLP;
         "fabric-1.21" = _Rjq6hWhT;
-        "fabric-1.21.1" = _51xlgzcM;
+        "fabric-1.21.1" = _jg54Byyt;
         "forge-1.18.2" = _mDeuWIyd;
         "forge-1.19.4" = _2WMy9E42;
         "forge-1.20.1" = _7DR1Z9nZ;
         "neoforge-1.20.2" = _qEMTC8Zc;
         "neoforge-1.20.6" = _tPgC1w50;
         "neoforge-1.21" = _M163MjcA;
-        "neoforge-1.21.1" = _kxJMT5fC;
+        "neoforge-1.21.1" = _TcLKFmBf;
         "pkg-1.18.2-1.3.2" = _tb2EvNC8;
         "pkg-1.19.4-1.3.2" = _qs7YMHwq;
         "pkg-1.20.1-1.3.2" = _x10JQ1QH;
@@ -530,7 +542,9 @@ let
         "pkg-1.21.1-2.1.2-neoforge" = _g7fo237z;
         "pkg-1.21.1-2.2.0-fabric" = _51xlgzcM;
         "pkg-1.21.1-2.2.0-neoforge" = _kxJMT5fC;
-        "default" = _kxJMT5fC;
+        "pkg-1.21.1-2.3.0-neoforge" = _TcLKFmBf;
+        "pkg-1.21.1-2.3.0-fabric" = _jg54Byyt;
+        "default" = _jg54Byyt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-quests";

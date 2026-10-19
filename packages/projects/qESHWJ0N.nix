@@ -81,6 +81,21 @@ let
             "file" = "SkyBlockRpc-1.1.3-26.2.jar";
             "hash" = "sha512-nDOEwsEDRc7PxaMInIwdG7dZSATfQ1Fy6y6/rrc3Vo1Opj65MKOYNfvubaj9BfRIOvBBelA7C6MHR4GITx3zSw==";
         };
+        _qbRBBTBn = {
+            "id" = "qbRBBTBn";
+            "file" = "SkyBlockRpc-1.1.4-26.1.jar";
+            "hash" = "sha512-v5tv1rAno/Yr+bpdY6XXbKtfNI6+IQv7OwqksAI3hau/i00YOaM8V1r1wXfThtSKWlHKghK5ZToNBOmfFyAAtw==";
+        };
+        _FhbLv0mk = {
+            "id" = "FhbLv0mk";
+            "file" = "SkyBlockRpc-1.1.4-26.2.jar";
+            "hash" = "sha512-Ri2s+MCSGTkBGn+gG4Q+bT9WDlANPDk51FcykfOHZESoLCaUa5NrGKvA4EKpOiJFvZWJx8meANCFLCVD8JDqQA==";
+        };
+        _PXciGVpX = {
+            "id" = "PXciGVpX";
+            "file" = "SkyBlockRpc-1.1.4-26.3.jar";
+            "hash" = "sha512-bc7qCNB5gtdPR4f5R7A98FKXmqfHY9hTiRLTrYdgGHWbk2WnFt7zpKAUoyWyEZ0fZdbp9hmhPdNpGCcHMwV6aw==";
+        };
     in {
         "tCxokVSq" = _tCxokVSq;
         "zrwdU5wB" = _zrwdU5wB;
@@ -98,6 +113,9 @@ let
         "CD40QwMx" = _CD40QwMx;
         "VRtsDrTt" = _VRtsDrTt;
         "6fOKohks" = _6fOKohks;
+        "qbRBBTBn" = _qbRBBTBn;
+        "FhbLv0mk" = _FhbLv0mk;
+        "PXciGVpX" = _PXciGVpX;
         "fabric-1.21.5" = _K3n9Nd8c;
         "fabric-1.21.6" = _yeLTDwy3;
         "fabric-1.21.7" = _yeLTDwy3;
@@ -105,10 +123,11 @@ let
         "fabric-1.21.9" = _y7X9YiHB;
         "fabric-1.21.10" = _y7X9YiHB;
         "fabric-1.21.11" = _dDouJHag;
-        "fabric-26.1" = _VRtsDrTt;
-        "fabric-26.1.1" = _VRtsDrTt;
-        "fabric-26.1.2" = _VRtsDrTt;
-        "fabric-26.2" = _6fOKohks;
+        "fabric-26.1" = _qbRBBTBn;
+        "fabric-26.1.1" = _qbRBBTBn;
+        "fabric-26.1.2" = _qbRBBTBn;
+        "fabric-26.2" = _FhbLv0mk;
+        "fabric-26.3" = _PXciGVpX;
         "pkg-1.0.0" = _tCxokVSq;
         "pkg-1.0.1-1.21.5" = _zrwdU5wB;
         "pkg-1.0.1-1.21.8" = _1v1LyQhj;
@@ -123,7 +142,8 @@ let
         "pkg-1.1.1-1.21.11" = _dDouJHag;
         "pkg-1.1.2" = _CD40QwMx;
         "pkg-1.1.3" = _6fOKohks;
-        "default" = _6fOKohks;
+        "pkg-1.1.4" = _PXciGVpX;
+        "default" = _PXciGVpX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skyblock-rpc";

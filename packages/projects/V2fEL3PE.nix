@@ -31,6 +31,16 @@ let
             "file" = "metalrender-v0.1.6.jar";
             "hash" = "sha512-vTddPGuUJ54F5P59Y4mHqftR0H2v+9KJ8FfVrj4xPsRnfAsB7Ozw4VNNhci+AiSA3tS0nI0ZqOQ/xSgRVCHCVg==";
         };
+        _W9Oo1tRC = {
+            "id" = "W9Oo1tRC";
+            "file" = "metalrender-v2.0.0.jar";
+            "hash" = "sha512-1mvsIyQDQMWWV3dYNJldPxNLpyEkKjg7AFBHErQanK9fr7RD1LQ7iu6+rltgAKw+1z0GG+wdFvufkEKRFyckjg==";
+        };
+        _2pqDlV43 = {
+            "id" = "2pqDlV43";
+            "file" = "metalrender-v2.0.1.jar";
+            "hash" = "sha512-pqjGrzZT095tefl2Oh5B756Fjx1LLCjCIrZxJXPZqil6tI6AyGtAGbQYIjHpGcT84Gj8xfnlj9LIqGxzp9IpNg==";
+        };
     in {
         "w0nf6rMc" = _w0nf6rMc;
         "6ryWhau2" = _6ryWhau2;
@@ -38,16 +48,24 @@ let
         "EBnQYVZl" = _EBnQYVZl;
         "k1Z3yx5I" = _k1Z3yx5I;
         "P2aqzYS5" = _P2aqzYS5;
+        "W9Oo1tRC" = _W9Oo1tRC;
+        "2pqDlV43" = _2pqDlV43;
         "fabric-1.21.8" = _P2aqzYS5;
         "fabric-1.21.9" = _P2aqzYS5;
         "fabric-1.21.10" = _P2aqzYS5;
+        "fabric-26.1" = _W9Oo1tRC;
+        "fabric-26.1.1" = _W9Oo1tRC;
+        "fabric-26.1.2" = _W9Oo1tRC;
+        "fabric-26.2" = _2pqDlV43;
         "pkg-v0.1" = _w0nf6rMc;
         "pkg-v0.1.2" = _6ryWhau2;
         "pkg-v0.1.3" = _wGVjiezx;
         "pkg-v0.1.4" = _EBnQYVZl;
         "pkg-v0.1.5" = _k1Z3yx5I;
         "pkg-v0.1.6" = _P2aqzYS5;
-        "default" = _P2aqzYS5;
+        "pkg-2.0.0-26.x" = _W9Oo1tRC;
+        "pkg-2.0.1" = _2pqDlV43;
+        "default" = _2pqDlV43;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "metalrender";
