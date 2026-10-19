@@ -56,6 +56,11 @@ let
             "file" = "SkyVision-1.3.4.jar";
             "hash" = "sha512-6sQ97wRicl+iVdt5kD+9G1W8WNJqOmQJwaQVJWUwqkUeifuVlXpP+2ZrkUzmbDicY4E26DBIvsYzwXDx6YDorA==";
         };
+        _pXbhKAck = {
+            "id" = "pXbhKAck";
+            "file" = "SkyVision-1.3.5.jar";
+            "hash" = "sha512-InZtojb0TOc88KkF1Ywe2nMT2wbEkTS3gI/qeTQr0iF0e39aJ2Km5slAli8kgfoEAEM5j3EAt2YhSPGq4rtQLg==";
+        };
     in {
         "X8yBqw5S" = _X8yBqw5S;
         "qL36xpye" = _qL36xpye;
@@ -68,8 +73,9 @@ let
         "qDj5A11v" = _qDj5A11v;
         "gQH8ZdUD" = _gQH8ZdUD;
         "fPAx3F3v" = _fPAx3F3v;
+        "pXbhKAck" = _pXbhKAck;
         "fabric-1.21.1" = _aLqPOyen;
-        "fabric-1.21.11" = _fPAx3F3v;
+        "fabric-1.21.11" = _pXbhKAck;
         "pkg-1.0.0" = _X8yBqw5S;
         "pkg-1.0.1" = _qL36xpye;
         "pkg-1.1.1" = _Iqdh3WH3;
@@ -81,7 +87,8 @@ let
         "pkg-1.3.2" = _qDj5A11v;
         "pkg-1.3.3" = _gQH8ZdUD;
         "pkg-1.3.4" = _fPAx3F3v;
-        "default" = _fPAx3F3v;
+        "pkg-1.3.5" = _pXbhKAck;
+        "default" = _pXbhKAck;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skyvision";

@@ -301,6 +301,16 @@ let
             "file" = "mobstacker-fabric-26.4-snapshot-4-1.26.10.1.jar";
             "hash" = "sha512-dA+RtzT/7jVgCi2FFyIpCw9uUeYTiwOoNfMLm3n6OyUdCSwAXXVOM2okB5QWp4+/t/uz6Hl14uic00kIOwAvRg==";
         };
+        _K3Lqk7IC = {
+            "id" = "K3Lqk7IC";
+            "file" = "mobstacker-neoforge-1.21.1-1.26.10.2.jar";
+            "hash" = "sha512-+wi5VINLwx/wlaiTmIuMD+VVDO0MifAdmylyiwHXzFq3iQA2W5XfCjkZVvJCfBdo9xUrkqpLh6lFiBFlksCmqQ==";
+        };
+        _HtiCuw0j = {
+            "id" = "HtiCuw0j";
+            "file" = "mobstacker-fabric-1.21.1-1.26.10.2.jar";
+            "hash" = "sha512-ZuOa3/MeyJvMG7/M81l7xWftdnJBWnZvV/HY9o+nskGEUVgekZJAOwz6s8ueAOHf7SowOo0lkXS94RKYxC8Kfw==";
+        };
     in {
         "TCr5cR1U" = _TCr5cR1U;
         "nfwm5q1L" = _nfwm5q1L;
@@ -362,6 +372,8 @@ let
         "La5INMMP" = _La5INMMP;
         "WTqKbZaB" = _WTqKbZaB;
         "KTugloUT" = _KTugloUT;
+        "K3Lqk7IC" = _K3Lqk7IC;
+        "HtiCuw0j" = _HtiCuw0j;
         "forge-1.20.1" = _AlzsPNfB;
         "forge-1.20.2" = _AlzsPNfB;
         "forge-1.20.3" = _AlzsPNfB;
@@ -372,7 +384,7 @@ let
         "fabric-1.20.4" = _o5JSgRmy;
         "fabric-1.21" = _vvVXs6u9;
         "fabric-1.21.1-rc1" = _TfdxSh87;
-        "fabric-1.21.1" = _tFmZsOJW;
+        "fabric-1.21.1" = _HtiCuw0j;
         "fabric-24w33a" = _TfdxSh87;
         "fabric-24w34a" = _TfdxSh87;
         "fabric-24w35a" = _TfdxSh87;
@@ -403,7 +415,7 @@ let
         "quilt-1.20.4" = _o5JSgRmy;
         "quilt-1.21" = _vvVXs6u9;
         "quilt-1.21.1-rc1" = _TfdxSh87;
-        "quilt-1.21.1" = _tFmZsOJW;
+        "quilt-1.21.1" = _HtiCuw0j;
         "quilt-24w33a" = _TfdxSh87;
         "quilt-24w34a" = _TfdxSh87;
         "quilt-24w35a" = _TfdxSh87;
@@ -430,7 +442,7 @@ let
         "quilt-26.4-snapshot-4" = _KTugloUT;
         "neoforge-1.21" = _kfjqyAD2;
         "neoforge-1.21.1-rc1" = _7EhjX9eN;
-        "neoforge-1.21.1" = _fVXqD9Ac;
+        "neoforge-1.21.1" = _K3Lqk7IC;
         "neoforge-24w33a" = _7EhjX9eN;
         "neoforge-24w34a" = _7EhjX9eN;
         "neoforge-24w35a" = _7EhjX9eN;
@@ -469,7 +481,8 @@ let
         "pkg-1.0.14" = _dvHWWJpQ;
         "pkg-1.0.14b" = _vvVXs6u9;
         "pkg-1.26.10.1" = _KTugloUT;
-        "default" = _KTugloUT;
+        "pkg-1.26.10.2" = _HtiCuw0j;
+        "default" = _HtiCuw0j;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mobstacker";

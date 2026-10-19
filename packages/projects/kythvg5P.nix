@@ -86,6 +86,11 @@ let
             "file" = "mtr-traffic-addon-26.10.2.jar";
             "hash" = "sha512-uAf8TVwVFbSXCzKerEitOcCz0Uy9RPe8FDukUCWjszPVfIlBn7hxqeKCBAfWvemHDU2RAQbWu/6zJY/KIs9rrQ==";
         };
+        _eDiSY6Bl = {
+            "id" = "eDiSY6Bl";
+            "file" = "mtr-traffic-addon-26.10.3.jar";
+            "hash" = "sha512-bbH92BkCgw5UOJ/7ycsHf5Si9no4x2rLuvS1Vup/hlFHh33FihnYCi5KDi2EiKwCuJH3AYZfxwVNSQOXl7JHFQ==";
+        };
     in {
         "5iPvAMrp" = _5iPvAMrp;
         "EDUNtZT7" = _EDUNtZT7;
@@ -104,7 +109,8 @@ let
         "RWuGbAsf" = _RWuGbAsf;
         "IMBSMF3b" = _IMBSMF3b;
         "MRJ5bHpl" = _MRJ5bHpl;
-        "fabric-1.20.1" = _IMBSMF3b;
+        "eDiSY6Bl" = _eDiSY6Bl;
+        "fabric-1.20.1" = _eDiSY6Bl;
         "fabric-1.20.4" = _6y7w1z7I;
         "fabric-1.21.1" = _bs5gyaQX;
         "forge-1.20.1" = _MRJ5bHpl;
@@ -114,7 +120,8 @@ let
         "pkg-26.10" = _XmqZw6rW;
         "pkg-26.10.1" = _RWuGbAsf;
         "pkg-26.10.2" = _MRJ5bHpl;
-        "default" = _MRJ5bHpl;
+        "pkg-26.10.3" = _eDiSY6Bl;
+        "default" = _eDiSY6Bl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mtr-traffic-addon";

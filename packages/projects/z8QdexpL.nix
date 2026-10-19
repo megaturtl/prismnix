@@ -61,6 +61,11 @@ let
             "file" = "Champions-1.0.9-1.21.1.jar";
             "hash" = "sha512-B2jvxGLnM0RuSViXAOAln58JhmfaFUoJe7axzca/6W07voFazbQs/wTXiPES56kRmOnIDzQmowWmT/6CP6EYMg==";
         };
+        _cOXlPjtG = {
+            "id" = "cOXlPjtG";
+            "file" = "Champions-1.0.10-1.21.1.jar";
+            "hash" = "sha512-Uhc6hWN7XUrZPUhdOlLOdHkNJlBC5jD7nKR2uaKtgKdcm+oeObUt6w6Z7T98KT896YjOxEv1JOfKCtF6K7xguw==";
+        };
     in {
         "QfOFFqNw" = _QfOFFqNw;
         "wHzKJhlS" = _wHzKJhlS;
@@ -74,13 +79,14 @@ let
         "iY0M35eI" = _iY0M35eI;
         "P7Fn0d0g" = _P7Fn0d0g;
         "FgoSRlCl" = _FgoSRlCl;
+        "cOXlPjtG" = _cOXlPjtG;
         "fabric-1.20" = _u4pAWRM1;
         "fabric-1.20.1" = _u4pAWRM1;
         "fabric-1.20.2" = _u4pAWRM1;
         "fabric-1.20.3" = _u4pAWRM1;
         "fabric-1.20.4" = _u4pAWRM1;
-        "fabric-1.21" = _FgoSRlCl;
-        "fabric-1.21.1" = _FgoSRlCl;
+        "fabric-1.21" = _cOXlPjtG;
+        "fabric-1.21.1" = _cOXlPjtG;
         "pkg-1.20.1" = _u4pAWRM1;
         "pkg-1.21.1" = _2cD4cNIN;
         "pkg-v1.0.2-1.21.1" = _TmnXeoks;
@@ -91,7 +97,8 @@ let
         "pkg-1.0.7v-1.21.1" = _iY0M35eI;
         "pkg-1.0.8v-1.21.1" = _P7Fn0d0g;
         "pkg-1.0.9v-1.21.1" = _FgoSRlCl;
-        "default" = _FgoSRlCl;
+        "pkg-1.0.10v-1.21.1" = _cOXlPjtG;
+        "default" = _cOXlPjtG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "champions-fabric";

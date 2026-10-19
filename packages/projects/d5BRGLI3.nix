@@ -1,0 +1,454 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _GNX7ipsN = {
+            "id" = "GNX7ipsN";
+            "file" = "Nie's Improved Recipes.zip";
+            "hash" = "sha512-bMILwMBECwSHnDwflUkuCAPodK4pREhe4BayJEeg1K1KW7UuudG4PtC/8Gh6FsrRMnEAFz7nnbo8JPuyGPz5eA==";
+        };
+        _agAIrjhR = {
+            "id" = "agAIrjhR";
+            "file" = "nies_improved_recipes-1.0.jar";
+            "hash" = "sha512-ZH1eTU5+H5I4nG+0EPwJglz5uCOC+EcRT5nXgEmGtQckXACIZGwTRQodxLUVns77ybAGwv+hYfg1xfe6hJ5G3w==";
+        };
+        _JBQzLFh9 = {
+            "id" = "JBQzLFh9";
+            "file" = "Nie's Improved Recipes Resoucepack.zip";
+            "hash" = "sha512-pXhjws+nR7OIsW4zXKdYE239q7PWPA/DL2NS18nez2ztzO/PlseM+bAnADXJZCSVXiAjcsOsbro4JmYTtvnYSg==";
+        };
+        _8cwyHyjp = {
+            "id" = "8cwyHyjp";
+            "file" = "nies_improved_recipes-1.1.jar";
+            "hash" = "sha512-5BqacwUJSd+v38xYhlI9nfrEfOciI3UMb0IEN33hndaf1Tnj/eZf5aVZn0Gs/q6GYxjRPiPolNmaYLIVanDRWA==";
+        };
+        _4rPfniYh = {
+            "id" = "4rPfniYh";
+            "file" = "Nie's Improved Recipes.zip";
+            "hash" = "sha512-+z9ww7sw8W5bnCFSgFYH+GxUkLKKLFJuI0f3nRDz+k0f9JVIxdytWX6fLYzY2vfkgCokom6KxzNUiqQrsxR5MA==";
+        };
+        _jO8s1hdc = {
+            "id" = "jO8s1hdc";
+            "file" = "nies_improved_recipes-1.1.jar";
+            "hash" = "sha512-tg45LeyeGUWaK483tjqHasZu7AWc9KWWxR1U+0FtXDzdTEwFipuJDTyi6XOeB/A6M8Fbr+dOAp3L5eRp55BIJw==";
+        };
+        _X700GwMZ = {
+            "id" = "X700GwMZ";
+            "file" = "Nie's Improved Recipes.zip";
+            "hash" = "sha512-sCD/ReBfQ50WXM32CMLRRPtGlWcRH13cNtIh9pdTjbs64MoHqkRJfDW+lyxW8CaQ9jD4B98ljF9pnRxyy1CyVQ==";
+        };
+        _1hPOZTtV = {
+            "id" = "1hPOZTtV";
+            "file" = "nies_improved_recipes-1.2.jar";
+            "hash" = "sha512-NXPDyFTOu5/+YFPehRSZFE0y38wqhfMpcqI3DNDTw0pXMDwu4D1ztME6ARUYiSKojqKMpTJWSvz7t0as4+stoQ==";
+        };
+        _EHQbjjW1 = {
+            "id" = "EHQbjjW1";
+            "file" = "Nie's Improved Recipes.zip";
+            "hash" = "sha512-9Up8keUeQ/VBZb89fh/CD7ijprYq6tnEE6Ww0uTbufxe2j91gQrKn6fPMx5hBgr8FKSD6PR1MGJadBmq0xwKeQ==";
+        };
+        _aiBQdkbi = {
+            "id" = "aiBQdkbi";
+            "file" = "nies_improved_recipes-1.3.jar";
+            "hash" = "sha512-s11zgTGYShIdRKxc9p2eZnlnJ7qoKfNftLnOJAQjYsZZFcd/rulpDlvwN6xG3gozxyw69e1H8wPLbp/LKFfmdA==";
+        };
+        _DjAg4zZK = {
+            "id" = "DjAg4zZK";
+            "file" = "Nie's Improved Recipes.zip";
+            "hash" = "sha512-cEMi5f2EcwUzmifNO56x/Uf98Pii1pJSxCapIFFZa5uq73c7xg5bH7YHDg8C+mN6lqLfH8RYTjjdsnZ9M9X5Ow==";
+        };
+        _xVcxYuMP = {
+            "id" = "xVcxYuMP";
+            "file" = "nies_improved_recipes-1.4.jar";
+            "hash" = "sha512-xlH2OY9XTS9N8hM7bGw50iH4FWuz1SltRpZuz069mWP/GF81/hCLBzauQRtTkHMFMX1/cgr179l4lEBbd6x5lg==";
+        };
+        _ClVbbVjT = {
+            "id" = "ClVbbVjT";
+            "file" = "Nie's Improved Recipes.zip";
+            "hash" = "sha512-14LsqigHr1UNdmQIhCZMpxXgCaI2P1nUqGe/lSbyg5cnAU025TBXKB57p8kXG9ki/OMWIcxkY/K54Lemc0PGZA==";
+        };
+        _aSuBvqfT = {
+            "id" = "aSuBvqfT";
+            "file" = "nies_improved_recipes-1.5.jar";
+            "hash" = "sha512-Y1cpbdy++tnabatbaFH8IPDG4Mn4DHVoKtM7OH9MMSFBwFRUWi6C9qxVt7Aw5YkzPMDirYEi6eoUkObD++LMnw==";
+        };
+        _ruLY8HJH = {
+            "id" = "ruLY8HJH";
+            "file" = "Nie's Improved Recipes.zip";
+            "hash" = "sha512-1gI0cLSlfc1lHOOF8hMiowFpDk8v604NDwJCGdKG0a1GAFjFM/XRqarRAxr6t4BIQ6qLtly/yKt3ZpSzMy41Dg==";
+        };
+        _dYqScLM6 = {
+            "id" = "dYqScLM6";
+            "file" = "nies_improved_recipes-1.5.jar";
+            "hash" = "sha512-eMU7r9eN+1hSPXwXH0XAfXHyoXLJvru0tQXXnad8xSxNKeFi65euATeJsQ6lw+Wfk3tHm2Wwh1UtCeVW4YX8Pw==";
+        };
+        _db3VkAvM = {
+            "id" = "db3VkAvM";
+            "file" = "Nie's Improved Recipes.zip";
+            "hash" = "sha512-WCXntcWODsAOU+xa9k+pVrVl8YtE3FNKrJqkoZwp+dPy91TV8iwGN7ZcJhDR0TZXUAVMg4AiJu71d/oZzv6H8g==";
+        };
+        _fwI725mK = {
+            "id" = "fwI725mK";
+            "file" = "nies_improved_recipes-1.5.1.jar";
+            "hash" = "sha512-JE9YIEY7gp1tMiJefNdsainamUHNaAG7Cpr1kXLoT9ptCviy0vkFjnxbPQSIdhKZZJL+NiEXHADeW93Q1gR/Zg==";
+        };
+        _GYLF8Cdf = {
+            "id" = "GYLF8Cdf";
+            "file" = "Nie's Improved Recipes v1.6.zip";
+            "hash" = "sha512-JN2TY6s7AI+ZfB+DjOjZIN3qZelMWGj8upsNiW+tGr9LAoxckfojHCCydQLuFautquMe5Yya8OWsuHQqNCz5fg==";
+        };
+        _h76etZ8q = {
+            "id" = "h76etZ8q";
+            "file" = "nies_improved_recipes-1.6.jar";
+            "hash" = "sha512-LzMvO5HT8lxWEOBV9cx1LWwfGIZGVxVCBgZRM9n++/hjWPzEgIkCNHY/c3ILgWxH5Bmjivi3TGbTUIj29GdYaw==";
+        };
+        _ZcEo8BQq = {
+            "id" = "ZcEo8BQq";
+            "file" = "Nie's Improved Recipes v1.7.zip";
+            "hash" = "sha512-BBgkeoUNmYR/uJnAyPRJI8CeXF2ayiQaxRhcyDcfXBVrVeQjyJATOVGInGAs+b605fUtxCE9gvkolLWBsmKMnA==";
+        };
+        _fto5cD0H = {
+            "id" = "fto5cD0H";
+            "file" = "nies_improved_recipes-1.7.jar";
+            "hash" = "sha512-Dx8OsCV9qB1XjpgczVnIL7HR5OeykzSRKXHx6wxe+w9iL6AodYdok8Dm380AtLcqZH3A7VMACjb93gJGxjDKTw==";
+        };
+        _cpKUi1Lg = {
+            "id" = "cpKUi1Lg";
+            "file" = "Nie's Improved Recipes v1.8.zip";
+            "hash" = "sha512-imlBuxhJexIHJOLaQIkLY5pe3Ig/fLk52PHDyOTjNBNqGhoLwGxuulk0PNrmKzr8coHasRmetPaDbRU3DM4ILw==";
+        };
+        _hYU5VGku = {
+            "id" = "hYU5VGku";
+            "file" = "nies_improved_recipes-1.8.jar";
+            "hash" = "sha512-MFZUnPsi6mHDXexgjs0mZWbLpHzvpuDhnaKqCk+o+iu8AKzf4NBaWvngmVwmlAfZUHgEmvctNIcmqvjlpKdSPQ==";
+        };
+        _1R1mpsWF = {
+            "id" = "1R1mpsWF";
+            "file" = "Nie's Improved Recipes v1.9.zip";
+            "hash" = "sha512-T7StUS2eUWUbNS1x4uXZuL9Ie3Yp/iviu61R4J1g0tPzcTe/g/HK4rL2xU3/ZvssnGFtRl4m/y/e/KtIYKbwog==";
+        };
+        _l2Fz4UzB = {
+            "id" = "l2Fz4UzB";
+            "file" = "nies_improved_recipes-1.9.jar";
+            "hash" = "sha512-QEVEBOi+hd2J2j3RUfLaX4KJfQzRzen1PsJ1L9na812nWn4JdaWW+6KcaPAl1UUlYzERB0HjLZYU2O+abGIKmw==";
+        };
+        _z0nQ1PZm = {
+            "id" = "z0nQ1PZm";
+            "file" = "Nie's Improved Recipes v1.10.zip";
+            "hash" = "sha512-o7ReNF+wxKGZh/u7KNzrvPYTsW7pnlhswPW877EEUz3ECbYOaK8Xn0L8y+arwagF6nTNpXc7Nm/paXc16bXYTw==";
+        };
+        _b5R2TnsW = {
+            "id" = "b5R2TnsW";
+            "file" = "nies_improved_recipes-1.10.jar";
+            "hash" = "sha512-lzHtozPUT93k6nm3GEXav2eVkiqU8flHp3DPfhHqtWvIs+iNza6RFlZL5wjV4FJYUIZdP6tYFPou787SUpveWg==";
+        };
+        _t7JVHobz = {
+            "id" = "t7JVHobz";
+            "file" = "Nie's Improved Recipes v1.11.zip";
+            "hash" = "sha512-dbZxCts7c31YbOc2Uezm3jP3qty3WqxvX3kwR417DSu9179b5E5jNJ1NTZAeqMmkJAIngQk8Qz/K3VS8Th3pSw==";
+        };
+        _GUgTynfl = {
+            "id" = "GUgTynfl";
+            "file" = "nies_improved_recipes-1.11.jar";
+            "hash" = "sha512-UCRKtCzFsZnlbMMUWz4nqVBP3fhJ6Eknbug+BEsa6fImbzv1LEMfYjqYKm0dGhbZNolvtTab3+mmz4i076Z8MA==";
+        };
+        _54RCepMp = {
+            "id" = "54RCepMp";
+            "file" = "Nie's Improved Recipes v1.6.1.zip";
+            "hash" = "sha512-CQ31k5Aj5QFvd/+4CbpxBdNfSjhBTZgWps/1iop4YDs99/PY7/7qsIUxCAm/YUjKV4XN60luYiU+KAD6qPpWpw==";
+        };
+        _sreO9z98 = {
+            "id" = "sreO9z98";
+            "file" = "nies_improved_recipes-1.6.1.jar";
+            "hash" = "sha512-zVR0Y9CQAlOVP9+TXp7yqPZTUjED03Zt5wvbiKVSmtEh2vZwyA+cagMyeS2SiJYLCyNNL8m33zhdm8/aTTKgFg==";
+        };
+        _IkRPjUJH = {
+            "id" = "IkRPjUJH";
+            "file" = "Nie's Improved Recipes 26.3.zip";
+            "hash" = "sha512-9UqnnxWyUuoKAGJQ5pc8PItpPHFpIW9P2r9EUXwbZgu8t1molczr0LExPJovrUhlFNaQYH1BcGzHksBRM6MEBQ==";
+        };
+        _W3earlt1 = {
+            "id" = "W3earlt1";
+            "file" = "nies_improved_recipes-26.3.jar";
+            "hash" = "sha512-A0wAvwCvJPSBr40rXtfNLi7uzkUc+yaTQbGrsrWeG1FYAoL2S0/B1lz14rACYrKol0TEIMCOJSHRklswXh2Kgw==";
+        };
+        _PHbLi9jw = {
+            "id" = "PHbLi9jw";
+            "file" = "Nie's Improved Recipes 26.3.zip";
+            "hash" = "sha512-ZpkeQ2G/YSx6q9Xx6S8DeJKYr8GMyJlfsnu0U+a3JWIe7gGE60pO4WVGjggA2axNkSavAS2NbKHg0CmOiSVhQg==";
+        };
+        _HNH4wzUr = {
+            "id" = "HNH4wzUr";
+            "file" = "nies_improved_recipes-1.12.1.jar";
+            "hash" = "sha512-ed/BIBfD8Zb6lRMZvLI+r9PSys84xdGNEh68ee8ecvG8ao8qdvicNfujAJMbODpu7oYUS8WKWvdiPCVXfIB62w==";
+        };
+    in {
+        "GNX7ipsN" = _GNX7ipsN;
+        "agAIrjhR" = _agAIrjhR;
+        "JBQzLFh9" = _JBQzLFh9;
+        "8cwyHyjp" = _8cwyHyjp;
+        "4rPfniYh" = _4rPfniYh;
+        "jO8s1hdc" = _jO8s1hdc;
+        "X700GwMZ" = _X700GwMZ;
+        "1hPOZTtV" = _1hPOZTtV;
+        "EHQbjjW1" = _EHQbjjW1;
+        "aiBQdkbi" = _aiBQdkbi;
+        "DjAg4zZK" = _DjAg4zZK;
+        "xVcxYuMP" = _xVcxYuMP;
+        "ClVbbVjT" = _ClVbbVjT;
+        "aSuBvqfT" = _aSuBvqfT;
+        "ruLY8HJH" = _ruLY8HJH;
+        "dYqScLM6" = _dYqScLM6;
+        "db3VkAvM" = _db3VkAvM;
+        "fwI725mK" = _fwI725mK;
+        "GYLF8Cdf" = _GYLF8Cdf;
+        "h76etZ8q" = _h76etZ8q;
+        "ZcEo8BQq" = _ZcEo8BQq;
+        "fto5cD0H" = _fto5cD0H;
+        "cpKUi1Lg" = _cpKUi1Lg;
+        "hYU5VGku" = _hYU5VGku;
+        "1R1mpsWF" = _1R1mpsWF;
+        "l2Fz4UzB" = _l2Fz4UzB;
+        "z0nQ1PZm" = _z0nQ1PZm;
+        "b5R2TnsW" = _b5R2TnsW;
+        "t7JVHobz" = _t7JVHobz;
+        "GUgTynfl" = _GUgTynfl;
+        "54RCepMp" = _54RCepMp;
+        "sreO9z98" = _sreO9z98;
+        "IkRPjUJH" = _IkRPjUJH;
+        "W3earlt1" = _W3earlt1;
+        "PHbLi9jw" = _PHbLi9jw;
+        "HNH4wzUr" = _HNH4wzUr;
+        "datapack-1.20.5" = _ruLY8HJH;
+        "datapack-1.20.6" = _ruLY8HJH;
+        "datapack-1.13" = _4rPfniYh;
+        "datapack-1.13.1" = _4rPfniYh;
+        "datapack-1.13.2" = _4rPfniYh;
+        "datapack-1.14" = _4rPfniYh;
+        "datapack-1.14.1" = _4rPfniYh;
+        "datapack-1.14.2" = _4rPfniYh;
+        "datapack-1.14.3" = _4rPfniYh;
+        "datapack-1.14.4" = _4rPfniYh;
+        "datapack-1.15" = _4rPfniYh;
+        "datapack-1.15.1" = _4rPfniYh;
+        "datapack-1.15.2" = _4rPfniYh;
+        "datapack-1.16" = _4rPfniYh;
+        "datapack-1.16.1" = _4rPfniYh;
+        "datapack-1.16.2" = _4rPfniYh;
+        "datapack-1.16.3" = _4rPfniYh;
+        "datapack-1.16.4" = _4rPfniYh;
+        "datapack-1.16.5" = _4rPfniYh;
+        "datapack-1.17" = _4rPfniYh;
+        "datapack-1.17.1" = _4rPfniYh;
+        "datapack-1.18" = _4rPfniYh;
+        "datapack-1.18.1" = _4rPfniYh;
+        "datapack-1.18.2" = _4rPfniYh;
+        "datapack-1.19" = _4rPfniYh;
+        "datapack-1.19.1" = _4rPfniYh;
+        "datapack-1.19.2" = _4rPfniYh;
+        "datapack-1.19.3" = _4rPfniYh;
+        "datapack-1.19.4" = _4rPfniYh;
+        "datapack-1.21" = _54RCepMp;
+        "datapack-1.21.1" = _54RCepMp;
+        "datapack-1.21.2" = _1R1mpsWF;
+        "datapack-1.21.3" = _1R1mpsWF;
+        "datapack-1.21.4" = _1R1mpsWF;
+        "datapack-1.21.5" = _1R1mpsWF;
+        "datapack-1.21.6" = _1R1mpsWF;
+        "datapack-1.21.7" = _t7JVHobz;
+        "datapack-1.21.8" = _t7JVHobz;
+        "datapack-1.21.9" = _t7JVHobz;
+        "datapack-1.21.10" = _t7JVHobz;
+        "datapack-1.21.11" = _t7JVHobz;
+        "datapack-26.3" = _PHbLi9jw;
+        "fabric-1.20.5" = _dYqScLM6;
+        "fabric-1.20.6" = _dYqScLM6;
+        "fabric-1.13" = _jO8s1hdc;
+        "fabric-1.13.1" = _jO8s1hdc;
+        "fabric-1.13.2" = _jO8s1hdc;
+        "fabric-1.14" = _jO8s1hdc;
+        "fabric-1.14.1" = _jO8s1hdc;
+        "fabric-1.14.2" = _jO8s1hdc;
+        "fabric-1.14.3" = _jO8s1hdc;
+        "fabric-1.14.4" = _jO8s1hdc;
+        "fabric-1.15" = _jO8s1hdc;
+        "fabric-1.15.1" = _jO8s1hdc;
+        "fabric-1.15.2" = _jO8s1hdc;
+        "fabric-1.16" = _jO8s1hdc;
+        "fabric-1.16.1" = _jO8s1hdc;
+        "fabric-1.16.2" = _jO8s1hdc;
+        "fabric-1.16.3" = _jO8s1hdc;
+        "fabric-1.16.4" = _jO8s1hdc;
+        "fabric-1.16.5" = _jO8s1hdc;
+        "fabric-1.17" = _jO8s1hdc;
+        "fabric-1.17.1" = _jO8s1hdc;
+        "fabric-1.18" = _jO8s1hdc;
+        "fabric-1.18.1" = _jO8s1hdc;
+        "fabric-1.18.2" = _jO8s1hdc;
+        "fabric-1.19" = _jO8s1hdc;
+        "fabric-1.19.1" = _jO8s1hdc;
+        "fabric-1.19.2" = _jO8s1hdc;
+        "fabric-1.19.3" = _jO8s1hdc;
+        "fabric-1.19.4" = _jO8s1hdc;
+        "fabric-1.21" = _sreO9z98;
+        "fabric-1.21.1" = _sreO9z98;
+        "fabric-1.21.2" = _l2Fz4UzB;
+        "fabric-1.21.3" = _l2Fz4UzB;
+        "fabric-1.21.4" = _l2Fz4UzB;
+        "fabric-1.21.5" = _l2Fz4UzB;
+        "fabric-1.21.6" = _l2Fz4UzB;
+        "fabric-1.21.7" = _GUgTynfl;
+        "fabric-1.21.8" = _GUgTynfl;
+        "fabric-1.21.9" = _GUgTynfl;
+        "fabric-1.21.10" = _GUgTynfl;
+        "fabric-1.21.11" = _GUgTynfl;
+        "fabric-26.3" = _HNH4wzUr;
+        "forge-1.20.5" = _dYqScLM6;
+        "forge-1.20.6" = _dYqScLM6;
+        "forge-1.13" = _jO8s1hdc;
+        "forge-1.13.1" = _jO8s1hdc;
+        "forge-1.13.2" = _jO8s1hdc;
+        "forge-1.14" = _jO8s1hdc;
+        "forge-1.14.1" = _jO8s1hdc;
+        "forge-1.14.2" = _jO8s1hdc;
+        "forge-1.14.3" = _jO8s1hdc;
+        "forge-1.14.4" = _jO8s1hdc;
+        "forge-1.15" = _jO8s1hdc;
+        "forge-1.15.1" = _jO8s1hdc;
+        "forge-1.15.2" = _jO8s1hdc;
+        "forge-1.16" = _jO8s1hdc;
+        "forge-1.16.1" = _jO8s1hdc;
+        "forge-1.16.2" = _jO8s1hdc;
+        "forge-1.16.3" = _jO8s1hdc;
+        "forge-1.16.4" = _jO8s1hdc;
+        "forge-1.16.5" = _jO8s1hdc;
+        "forge-1.17" = _jO8s1hdc;
+        "forge-1.17.1" = _jO8s1hdc;
+        "forge-1.18" = _jO8s1hdc;
+        "forge-1.18.1" = _jO8s1hdc;
+        "forge-1.18.2" = _jO8s1hdc;
+        "forge-1.19" = _jO8s1hdc;
+        "forge-1.19.1" = _jO8s1hdc;
+        "forge-1.19.2" = _jO8s1hdc;
+        "forge-1.19.3" = _jO8s1hdc;
+        "forge-1.19.4" = _jO8s1hdc;
+        "forge-1.21" = _sreO9z98;
+        "forge-1.21.1" = _sreO9z98;
+        "forge-1.21.2" = _l2Fz4UzB;
+        "forge-1.21.3" = _l2Fz4UzB;
+        "forge-1.21.4" = _l2Fz4UzB;
+        "forge-1.21.5" = _l2Fz4UzB;
+        "forge-1.21.6" = _l2Fz4UzB;
+        "forge-1.21.7" = _GUgTynfl;
+        "forge-1.21.8" = _GUgTynfl;
+        "forge-1.21.9" = _GUgTynfl;
+        "forge-1.21.10" = _GUgTynfl;
+        "forge-1.21.11" = _GUgTynfl;
+        "forge-26.3" = _HNH4wzUr;
+        "quilt-1.20.5" = _dYqScLM6;
+        "quilt-1.20.6" = _dYqScLM6;
+        "quilt-1.13" = _jO8s1hdc;
+        "quilt-1.13.1" = _jO8s1hdc;
+        "quilt-1.13.2" = _jO8s1hdc;
+        "quilt-1.14" = _jO8s1hdc;
+        "quilt-1.14.1" = _jO8s1hdc;
+        "quilt-1.14.2" = _jO8s1hdc;
+        "quilt-1.14.3" = _jO8s1hdc;
+        "quilt-1.14.4" = _jO8s1hdc;
+        "quilt-1.15" = _jO8s1hdc;
+        "quilt-1.15.1" = _jO8s1hdc;
+        "quilt-1.15.2" = _jO8s1hdc;
+        "quilt-1.16" = _jO8s1hdc;
+        "quilt-1.16.1" = _jO8s1hdc;
+        "quilt-1.16.2" = _jO8s1hdc;
+        "quilt-1.16.3" = _jO8s1hdc;
+        "quilt-1.16.4" = _jO8s1hdc;
+        "quilt-1.16.5" = _jO8s1hdc;
+        "quilt-1.17" = _jO8s1hdc;
+        "quilt-1.17.1" = _jO8s1hdc;
+        "quilt-1.18" = _jO8s1hdc;
+        "quilt-1.18.1" = _jO8s1hdc;
+        "quilt-1.18.2" = _jO8s1hdc;
+        "quilt-1.19" = _jO8s1hdc;
+        "quilt-1.19.1" = _jO8s1hdc;
+        "quilt-1.19.2" = _jO8s1hdc;
+        "quilt-1.19.3" = _jO8s1hdc;
+        "quilt-1.19.4" = _jO8s1hdc;
+        "quilt-1.21" = _sreO9z98;
+        "quilt-1.21.1" = _sreO9z98;
+        "quilt-1.21.2" = _l2Fz4UzB;
+        "quilt-1.21.3" = _l2Fz4UzB;
+        "quilt-1.21.4" = _l2Fz4UzB;
+        "quilt-1.21.5" = _l2Fz4UzB;
+        "quilt-1.21.6" = _l2Fz4UzB;
+        "quilt-1.21.7" = _GUgTynfl;
+        "quilt-1.21.8" = _GUgTynfl;
+        "quilt-1.21.9" = _GUgTynfl;
+        "quilt-1.21.10" = _GUgTynfl;
+        "quilt-1.21.11" = _GUgTynfl;
+        "quilt-26.3" = _HNH4wzUr;
+        "neoforge-1.20.5" = _dYqScLM6;
+        "neoforge-1.20.6" = _dYqScLM6;
+        "neoforge-1.21" = _sreO9z98;
+        "neoforge-1.21.1" = _sreO9z98;
+        "neoforge-1.21.2" = _l2Fz4UzB;
+        "neoforge-1.21.3" = _l2Fz4UzB;
+        "neoforge-1.21.4" = _l2Fz4UzB;
+        "neoforge-1.21.5" = _l2Fz4UzB;
+        "neoforge-1.21.6" = _l2Fz4UzB;
+        "neoforge-1.21.7" = _GUgTynfl;
+        "neoforge-1.21.8" = _GUgTynfl;
+        "neoforge-1.21.9" = _GUgTynfl;
+        "neoforge-1.21.10" = _GUgTynfl;
+        "neoforge-1.21.11" = _GUgTynfl;
+        "neoforge-26.3" = _HNH4wzUr;
+        "pkg-1.0" = _GNX7ipsN;
+        "pkg-1.0+mod" = _agAIrjhR;
+        "pkg-1.1" = _4rPfniYh;
+        "pkg-1.1+mod" = _jO8s1hdc;
+        "pkg-1.2" = _X700GwMZ;
+        "pkg-1.2+mod" = _1hPOZTtV;
+        "pkg-1.3" = _EHQbjjW1;
+        "pkg-1.3+mod" = _aiBQdkbi;
+        "pkg-1.4" = _DjAg4zZK;
+        "pkg-1.4+mod" = _xVcxYuMP;
+        "pkg-1.5" = _ruLY8HJH;
+        "pkg-1.5+mod" = _dYqScLM6;
+        "pkg-1.5.1" = _db3VkAvM;
+        "pkg-1.5.1+mod" = _fwI725mK;
+        "pkg-1.6" = _GYLF8Cdf;
+        "pkg-1.6+mod" = _h76etZ8q;
+        "pkg-1.7" = _ZcEo8BQq;
+        "pkg-1.7+mod" = _fto5cD0H;
+        "pkg-1.8" = _cpKUi1Lg;
+        "pkg-1.8+mod" = _hYU5VGku;
+        "pkg-1.9" = _1R1mpsWF;
+        "pkg-1.9+mod" = _l2Fz4UzB;
+        "pkg-1.10" = _z0nQ1PZm;
+        "pkg-1.10+mod" = _b5R2TnsW;
+        "pkg-1.11" = _t7JVHobz;
+        "pkg-1.11+mod" = _GUgTynfl;
+        "pkg-1.6.1" = _54RCepMp;
+        "pkg-1.6.1+mod" = _sreO9z98;
+        "pkg-1.12" = _IkRPjUJH;
+        "pkg-1.12+mod" = _W3earlt1;
+        "pkg-1.12.1" = _PHbLi9jw;
+        "pkg-1.12.1+mod" = _HNH4wzUr;
+        "default" = _HNH4wzUr;
+    });
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "nies_improved_recipes";
+        id = "d5BRGLI3";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-All-Rights-Reserved";
+                shortName = "LicenseRef-All-Rights-Reserved";
+                url = null;
+            };
+        };
+    };
+in callPackage fn {}

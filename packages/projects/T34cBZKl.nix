@@ -96,6 +96,16 @@ let
             "file" = "ExtraStorage-26.1.2-6.0.0.jar";
             "hash" = "sha512-QNE1lmVaZ2L/Fs83wO1RHURqYfqA0BjY/gNBFllHemkLUXIi1OkN3/Vg7Jh5B3+NfjkxCLToVQvsguBEn84Zgg==";
         };
+        _7jMnOIzn = {
+            "id" = "7jMnOIzn";
+            "file" = "ExtraStorage-1.21.1-5.1.0.jar";
+            "hash" = "sha512-KeWLoc9a/4axDRCaO0orrTdRaTXsxhAG4UJ6DRJWdc655xCheJpwIBkIo59pQt4rmSB9xVdpEMEe9GPHs4nCzA==";
+        };
+        _NxblekK5 = {
+            "id" = "NxblekK5";
+            "file" = "ExtraStorage-26.1.2-6.1.0.jar";
+            "hash" = "sha512-N5D/SzYfJ5KfdL+cVlMTKtAA6ESaneuyUSb0aH9Yef8d6+SppBwZPrD72yS3lizX83OB0mOdSYTnIz5fhhkocQ==";
+        };
     in {
         "3r5J5xaO" = _3r5J5xaO;
         "i2olWA1r" = _i2olWA1r;
@@ -116,11 +126,13 @@ let
         "22nfEAlP" = _22nfEAlP;
         "jkXVShko" = _jkXVShko;
         "sALgah4c" = _sALgah4c;
+        "7jMnOIzn" = _7jMnOIzn;
+        "NxblekK5" = _NxblekK5;
         "forge-1.20.1" = _LSn2z31g;
         "neoforge-1.20.1" = _LSn2z31g;
         "neoforge-1.20.4" = _olDFbgRO;
-        "neoforge-1.21.1" = _jkXVShko;
-        "neoforge-26.1.2" = _sALgah4c;
+        "neoforge-1.21.1" = _7jMnOIzn;
+        "neoforge-26.1.2" = _NxblekK5;
         "pkg-4.0.2" = _3r5J5xaO;
         "pkg-4.0.3" = _i2olWA1r;
         "pkg-4.0.4" = _QacLGbfW;
@@ -140,7 +152,9 @@ let
         "pkg-5.0.9" = _22nfEAlP;
         "pkg-5.0.10" = _jkXVShko;
         "pkg-6.0.0" = _sALgah4c;
-        "default" = _sALgah4c;
+        "pkg-5.1.0" = _7jMnOIzn;
+        "pkg-6.1.0" = _NxblekK5;
+        "default" = _NxblekK5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "extrastorage";

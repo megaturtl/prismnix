@@ -391,6 +391,11 @@ let
             "file" = "FSang18's Heroes v12.5.6.jar";
             "hash" = "sha512-hGjNLuqoa/BkorRNKptbEzH70fRfRlAQHJU+8NIa5W5KPxzKeZiBfqSbfjlJWEN464unG555l9qGFD+B4wP13Q==";
         };
+        _fF2aMb9x = {
+            "id" = "fF2aMb9x";
+            "file" = "FSang18's Heroes v12.5.7.jar";
+            "hash" = "sha512-SVCwiJ7r8U5z6WtsmxVVjLMt302GI2RGEazB7UvQfe0+l4odooSntqZJ3ig8ikR4loKQpCGvRTiWeKPB3jzxSA==";
+        };
     in {
         "2zVRSAHD" = _2zVRSAHD;
         "qKUKmDU0" = _qKUKmDU0;
@@ -470,8 +475,9 @@ let
         "snqkzIJS" = _snqkzIJS;
         "1NmA9g5Z" = _1NmA9g5Z;
         "p7LgYiSN" = _p7LgYiSN;
+        "fF2aMb9x" = _fF2aMb9x;
         "datapack-1.20.1" = _KIHcDRUL;
-        "forge-1.20.1" = _p7LgYiSN;
+        "forge-1.20.1" = _fF2aMb9x;
         "neoforge-1.20.1" = _jWK2A8cd;
         "fabric-1.20.1" = _6V5EVObG;
         "pkg-1.0" = _2zVRSAHD;
@@ -552,7 +558,8 @@ let
         "pkg-12.5.4" = _snqkzIJS;
         "pkg-12.5.5" = _1NmA9g5Z;
         "pkg-12.5.6" = _p7LgYiSN;
-        "default" = _p7LgYiSN;
+        "pkg-12.5.7" = _fF2aMb9x;
+        "default" = _fF2aMb9x;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fsang18s-heropack";

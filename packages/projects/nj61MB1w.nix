@@ -1,0 +1,117 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _PDFOCoMA = {
+            "id" = "PDFOCoMA";
+            "file" = "skRayFall v1.9.29 .jar";
+            "hash" = "sha512-qO+zjMJBdHGU1vjAlLuwqckoObC0aIERl4f5CNkJrY5AwpNYiFJXOS5MG6sXPl30yWxqqFH6r0VjvM532zpStw==";
+        };
+        _i324Zww3 = {
+            "id" = "i324Zww3";
+            "file" = "skRayFall v1.9.30.jar";
+            "hash" = "sha512-15eVSsUB3kOF1BYEGdn1AmNZ5FDsMCcrrTPUjJt/tM8kUiHQqogdz3E7XPKRp8HuYm6dBUR24aIK0c4+GsLsQw==";
+        };
+    in {
+        "PDFOCoMA" = _PDFOCoMA;
+        "i324Zww3" = _i324Zww3;
+        "bukkit-1.21" = _PDFOCoMA;
+        "bukkit-1.21.1" = _PDFOCoMA;
+        "bukkit-1.21.2" = _PDFOCoMA;
+        "bukkit-1.21.3" = _PDFOCoMA;
+        "bukkit-1.21.4" = _PDFOCoMA;
+        "bukkit-1.21.5" = _PDFOCoMA;
+        "bukkit-1.21.6" = _PDFOCoMA;
+        "bukkit-1.21.7" = _PDFOCoMA;
+        "bukkit-1.21.8" = _PDFOCoMA;
+        "bukkit-1.21.9" = _PDFOCoMA;
+        "bukkit-1.21.10" = _PDFOCoMA;
+        "bukkit-1.21.11" = _PDFOCoMA;
+        "bukkit-26.1" = _PDFOCoMA;
+        "bukkit-26.1.1" = _PDFOCoMA;
+        "bukkit-1.16" = _i324Zww3;
+        "bukkit-1.16.1" = _i324Zww3;
+        "bukkit-1.16.2" = _i324Zww3;
+        "bukkit-1.16.3" = _i324Zww3;
+        "bukkit-1.16.4" = _i324Zww3;
+        "bukkit-1.16.5" = _i324Zww3;
+        "paper-1.21" = _PDFOCoMA;
+        "paper-1.21.1" = _PDFOCoMA;
+        "paper-1.21.2" = _PDFOCoMA;
+        "paper-1.21.3" = _PDFOCoMA;
+        "paper-1.21.4" = _PDFOCoMA;
+        "paper-1.21.5" = _PDFOCoMA;
+        "paper-1.21.6" = _PDFOCoMA;
+        "paper-1.21.7" = _PDFOCoMA;
+        "paper-1.21.8" = _PDFOCoMA;
+        "paper-1.21.9" = _PDFOCoMA;
+        "paper-1.21.10" = _PDFOCoMA;
+        "paper-1.21.11" = _PDFOCoMA;
+        "paper-26.1" = _PDFOCoMA;
+        "paper-26.1.1" = _PDFOCoMA;
+        "paper-1.16" = _i324Zww3;
+        "paper-1.16.1" = _i324Zww3;
+        "paper-1.16.2" = _i324Zww3;
+        "paper-1.16.3" = _i324Zww3;
+        "paper-1.16.4" = _i324Zww3;
+        "paper-1.16.5" = _i324Zww3;
+        "purpur-1.21" = _PDFOCoMA;
+        "purpur-1.21.1" = _PDFOCoMA;
+        "purpur-1.21.2" = _PDFOCoMA;
+        "purpur-1.21.3" = _PDFOCoMA;
+        "purpur-1.21.4" = _PDFOCoMA;
+        "purpur-1.21.5" = _PDFOCoMA;
+        "purpur-1.21.6" = _PDFOCoMA;
+        "purpur-1.21.7" = _PDFOCoMA;
+        "purpur-1.21.8" = _PDFOCoMA;
+        "purpur-1.21.9" = _PDFOCoMA;
+        "purpur-1.21.10" = _PDFOCoMA;
+        "purpur-1.21.11" = _PDFOCoMA;
+        "purpur-26.1" = _PDFOCoMA;
+        "purpur-26.1.1" = _PDFOCoMA;
+        "purpur-1.16" = _i324Zww3;
+        "purpur-1.16.1" = _i324Zww3;
+        "purpur-1.16.2" = _i324Zww3;
+        "purpur-1.16.3" = _i324Zww3;
+        "purpur-1.16.4" = _i324Zww3;
+        "purpur-1.16.5" = _i324Zww3;
+        "spigot-1.21" = _PDFOCoMA;
+        "spigot-1.21.1" = _PDFOCoMA;
+        "spigot-1.21.2" = _PDFOCoMA;
+        "spigot-1.21.3" = _PDFOCoMA;
+        "spigot-1.21.4" = _PDFOCoMA;
+        "spigot-1.21.5" = _PDFOCoMA;
+        "spigot-1.21.6" = _PDFOCoMA;
+        "spigot-1.21.7" = _PDFOCoMA;
+        "spigot-1.21.8" = _PDFOCoMA;
+        "spigot-1.21.9" = _PDFOCoMA;
+        "spigot-1.21.10" = _PDFOCoMA;
+        "spigot-1.21.11" = _PDFOCoMA;
+        "spigot-26.1" = _PDFOCoMA;
+        "spigot-26.1.1" = _PDFOCoMA;
+        "spigot-1.16" = _i324Zww3;
+        "spigot-1.16.1" = _i324Zww3;
+        "spigot-1.16.2" = _i324Zww3;
+        "spigot-1.16.3" = _i324Zww3;
+        "spigot-1.16.4" = _i324Zww3;
+        "spigot-1.16.5" = _i324Zww3;
+        "pkg-1.9.29" = _PDFOCoMA;
+        "pkg-1.9.30" = _i324Zww3;
+        "default" = _i324Zww3;
+    });
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "skrayfall";
+        id = "nj61MB1w";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-All-Rights-Reserved";
+                shortName = "LicenseRef-All-Rights-Reserved";
+                url = null;
+            };
+        };
+    };
+in callPackage fn {}

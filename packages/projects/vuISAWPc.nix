@@ -5066,6 +5066,11 @@ let
             "file" = "anvilcraft-neoforge-1.21.1-1.6.0+snapshot.2495.jar";
             "hash" = "sha512-AaHNQTtG/pjrT1GKEFwph7r87LfUUxfWkZQcgUnLiLborcV9pZSvrybWs4uCKEYDu9Psm5ZbmgU4Ij0tEWHCCA==";
         };
+        _7SgaWyxo = {
+            "id" = "7SgaWyxo";
+            "file" = "anvilcraft-neoforge-1.21.1-1.6.0+snapshot.2496.jar";
+            "hash" = "sha512-nnG9afv8MjzT2r0tbTWrV2BQ70veq1+3isH0FGIZ6eZiYjn2ojSBEkt8GxwFArK5HAwqtEJX/OJ6iq9KhvPCeA==";
+        };
     in {
         "pzH7UjHZ" = _pzH7UjHZ;
         "xOoiHkin" = _xOoiHkin;
@@ -6080,10 +6085,11 @@ let
         "Bt8cbP26" = _Bt8cbP26;
         "nUBhRLNh" = _nUBhRLNh;
         "k0eiPMvU" = _k0eiPMvU;
+        "7SgaWyxo" = _7SgaWyxo;
         "fabric-1.20.1" = _mm8DL8rN;
         "quilt-1.20.1" = _mm8DL8rN;
         "forge-1.20.1" = _lef9bUVg;
-        "neoforge-1.21.1" = _k0eiPMvU;
+        "neoforge-1.21.1" = _7SgaWyxo;
         "neoforge-26.1.2" = _u11nXpow;
         "pkg-0.0.1+build.75" = _pzH7UjHZ;
         "pkg-1.0.0+build.107" = _xOoiHkin;
@@ -7078,7 +7084,8 @@ let
         "pkg-1.21.1-1.6.0+snapshot.2492" = _Bt8cbP26;
         "pkg-1.21.1-1.6.0+snapshot.2494" = _nUBhRLNh;
         "pkg-1.21.1-1.6.0+snapshot.2495" = _k0eiPMvU;
-        "default" = _k0eiPMvU;
+        "pkg-1.21.1-1.6.0+snapshot.2496" = _7SgaWyxo;
+        "default" = _7SgaWyxo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "anvilcraft";

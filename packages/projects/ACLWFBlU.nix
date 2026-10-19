@@ -2416,6 +2416,26 @@ let
             "file" = "alaindustrial-neoforge-26.2-0.1.214.jar";
             "hash" = "sha512-iu9QBTwXHjbUnN2TTSMW1JMB4KMsplq2aKDGizcEbSs4xjGZJvxj14wn4GjGdg79cmqLmMD0ZXqk3ZjhOR1OSA==";
         };
+        _sVHGJLnt = {
+            "id" = "sVHGJLnt";
+            "file" = "alaindustrial-fabric-26.3-0.1.215.jar";
+            "hash" = "sha512-1dOgaTWwXa5l6TWVqk+BRDr3OlZA15Mgv/z+kgsNi9w2rmQ4wtAvDnwrubU2VrLvCFoDOCGUNTuN3q6o1LjC5A==";
+        };
+        _iHutzZg4 = {
+            "id" = "iHutzZg4";
+            "file" = "alaindustrial-neoforge-26.3-0.1.215.jar";
+            "hash" = "sha512-TyG7J5LRvg4FX8JHKks1zvjczLFE2o+lXta0folvjl5OIM8USkDizjSr7NYT80KBmzX50TCEVJKNvBC1gdMmjw==";
+        };
+        _3CVWvOGw = {
+            "id" = "3CVWvOGw";
+            "file" = "alaindustrial-fabric-26.2-0.1.215.jar";
+            "hash" = "sha512-/HdPujESpZylolh1d1VJtFK347VuVAjKrJP5OfYB4mpgwfQjW/7pKLe1pxqJPf2fS9ZmEk8iXr5aOxwq5fGnew==";
+        };
+        _T8K2NwDs = {
+            "id" = "T8K2NwDs";
+            "file" = "alaindustrial-neoforge-26.2-0.1.215.jar";
+            "hash" = "sha512-pE6xJndeqa4Q6eCKV73JZ+3dIzYNzs1rPETJm9hcRAV5nphUk2G+WzO6hh0eT7ffmQKhMUSrDxtezASead8hEg==";
+        };
     in {
         "e1OjIfbP" = _e1OjIfbP;
         "2lm7W1JV" = _2lm7W1JV;
@@ -2900,10 +2920,14 @@ let
         "b5hudnQ1" = _b5hudnQ1;
         "XFOrWG9o" = _XFOrWG9o;
         "2gtNz3bx" = _2gtNz3bx;
-        "fabric-26.2" = _XFOrWG9o;
-        "fabric-26.3" = _5FZm9PEP;
-        "neoforge-26.2" = _2gtNz3bx;
-        "neoforge-26.3" = _b5hudnQ1;
+        "sVHGJLnt" = _sVHGJLnt;
+        "iHutzZg4" = _iHutzZg4;
+        "3CVWvOGw" = _3CVWvOGw;
+        "T8K2NwDs" = _T8K2NwDs;
+        "fabric-26.2" = _3CVWvOGw;
+        "fabric-26.3" = _sVHGJLnt;
+        "neoforge-26.2" = _T8K2NwDs;
+        "neoforge-26.3" = _iHutzZg4;
         "pkg-0.1.0" = _e1OjIfbP;
         "pkg-0.1.7+fabric" = _2lm7W1JV;
         "pkg-0.1.7+neoforge" = _GY857XDS;
@@ -3387,7 +3411,11 @@ let
         "pkg-0.1.214-mc26.3+neoforge" = _b5hudnQ1;
         "pkg-0.1.214-mc26.2+fabric" = _XFOrWG9o;
         "pkg-0.1.214-mc26.2+neoforge" = _2gtNz3bx;
-        "default" = _2gtNz3bx;
+        "pkg-0.1.215-mc26.3+fabric" = _sVHGJLnt;
+        "pkg-0.1.215-mc26.3+neoforge" = _iHutzZg4;
+        "pkg-0.1.215-mc26.2+fabric" = _3CVWvOGw;
+        "pkg-0.1.215-mc26.2+neoforge" = _T8K2NwDs;
+        "default" = _T8K2NwDs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ala-industrial";

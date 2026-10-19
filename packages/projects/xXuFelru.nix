@@ -61,6 +61,21 @@ let
             "file" = "genesis-1.1.1-1.20.1-FORGE.jar";
             "hash" = "sha512-QFiJgqyGHxEDBT71wgynx0U8sW5NyJLuWcWuYwo135I+xDpnFawH/2sPOYTepdhQSBvRKQ4EQtouYiD46p9F8A==";
         };
+        _v7nxop14 = {
+            "id" = "v7nxop14";
+            "file" = "Genesis-2.0.0-FABRIC.jar";
+            "hash" = "sha512-cTXl5eAvE6Qu8DHy2q6O0alO5jAK0hblBkY2e4KM+6y2B6T7JNkkJCK6sokhJuZTngcIlFnPIryc/MXOeGnl8w==";
+        };
+        _lcZmx3Vw = {
+            "id" = "lcZmx3Vw";
+            "file" = "Genesis-2.0.0-FORGE.jar";
+            "hash" = "sha512-XKlzUjYdNgjtpIF0lJk+EqKZaXwU5ncMt8ZZWExEnQd/7gb/OyUViX2JBdHlhV6B4eH2JS1GCcs7R/fEif/7dQ==";
+        };
+        _6S6Pu243 = {
+            "id" = "6S6Pu243";
+            "file" = "Genesis-2.0.0-NEOFORGE.jar";
+            "hash" = "sha512-b36aw0J3YlJEcX4/RPn5lJWLlPP1LT/yNAAUzSgsx/rR1taA1cAV0EONX6SIGlTNbnNSn25B4FsqTMkiDU5IYw==";
+        };
     in {
         "OAoIQndZ" = _OAoIQndZ;
         "10fzZKmp" = _10fzZKmp;
@@ -74,17 +89,36 @@ let
         "3gRxgOI9" = _3gRxgOI9;
         "LXaE2SQK" = _LXaE2SQK;
         "m7vPlxTY" = _m7vPlxTY;
-        "fabric-1.20.1" = _LXaE2SQK;
-        "fabric-1.21.1" = _6JALwIGw;
-        "forge-1.20.1" = _m7vPlxTY;
-        "neoforge-1.21.1" = _3gRxgOI9;
+        "v7nxop14" = _v7nxop14;
+        "lcZmx3Vw" = _lcZmx3Vw;
+        "6S6Pu243" = _6S6Pu243;
+        "fabric-1.20.1" = _v7nxop14;
+        "fabric-1.21.1" = _v7nxop14;
+        "fabric-1.20.2" = _v7nxop14;
+        "fabric-1.20.3" = _v7nxop14;
+        "fabric-1.20.4" = _v7nxop14;
+        "fabric-1.20.5" = _v7nxop14;
+        "fabric-1.20.6" = _v7nxop14;
+        "fabric-1.21" = _v7nxop14;
+        "forge-1.20.1" = _lcZmx3Vw;
+        "forge-1.20.2" = _lcZmx3Vw;
+        "forge-1.20.3" = _lcZmx3Vw;
+        "forge-1.20.4" = _lcZmx3Vw;
+        "forge-1.20.6" = _lcZmx3Vw;
+        "forge-1.21" = _lcZmx3Vw;
+        "neoforge-1.21.1" = _6S6Pu243;
+        "neoforge-1.20.4" = _6S6Pu243;
+        "neoforge-1.20.5" = _6S6Pu243;
+        "neoforge-1.20.6" = _6S6Pu243;
+        "neoforge-1.21" = _6S6Pu243;
         "pkg-1.0.0-1.20.1" = _10fzZKmp;
         "pkg-1.0.0-1.21.1" = _jY0gEcrD;
         "pkg-1.1.0-1.20.1" = _Up3J341S;
         "pkg-1.1.0-1.21.1" = _pQSfgkte;
         "pkg-1.1.1-1.21.1" = _3gRxgOI9;
         "pkg-1.1.1-1.20.1" = _m7vPlxTY;
-        "default" = _m7vPlxTY;
+        "pkg-2.0.0" = _6S6Pu243;
+        "default" = _6S6Pu243;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "genesis-world-previewer-pregenerator";

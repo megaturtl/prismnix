@@ -176,6 +176,11 @@ let
             "file" = "happy_ghast-1.15.0-26.3+.jar";
             "hash" = "sha512-uUWOfhC7Va6HlVU7sBuxJSN+qn/tkOoWWf4iGyc99LFpnsY1RSuve3Hq89JaQCI3YScyflYx3pUfic5dtjTwQQ==";
         };
+        _xMcY7lys = {
+            "id" = "xMcY7lys";
+            "file" = "happy_ghast-1.16.0-26.3+.jar";
+            "hash" = "sha512-dN3mo3nmEdvEMKR9Rstf5O/oRKESWV9n5NowNKDzOKOfOJbENJXR1qegju5HrY/G4KwbxRx0XqM4lKsP2Fwt0Q==";
+        };
     in {
         "C8gV31Su" = _C8gV31Su;
         "AsG7Unsk" = _AsG7Unsk;
@@ -212,6 +217,7 @@ let
         "5V2Bbhkx" = _5V2Bbhkx;
         "kRqybDMd" = _kRqybDMd;
         "3ZbNN1xQ" = _3ZbNN1xQ;
+        "xMcY7lys" = _xMcY7lys;
         "fabric-1.21.6" = _jVWyMIld;
         "fabric-1.21.7" = _jVWyMIld;
         "fabric-1.21.8" = _jVWyMIld;
@@ -222,7 +228,7 @@ let
         "fabric-26.1.1" = _ryL8Kmkt;
         "fabric-26.1.2" = _ryL8Kmkt;
         "fabric-26.2" = _kRqybDMd;
-        "fabric-26.3" = _3ZbNN1xQ;
+        "fabric-26.3" = _xMcY7lys;
         "forge-26.1" = _lX7E01EI;
         "forge-26.1.1" = _lX7E01EI;
         "forge-26.1.2" = _lX7E01EI;
@@ -250,7 +256,8 @@ let
         "pkg-1.13.0" = _5V2Bbhkx;
         "pkg-1.14.0" = _kRqybDMd;
         "pkg-1.15.0" = _3ZbNN1xQ;
-        "default" = _3ZbNN1xQ;
+        "pkg-1.16.0" = _xMcY7lys;
+        "default" = _xMcY7lys;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "happy-ghast-upgrades";

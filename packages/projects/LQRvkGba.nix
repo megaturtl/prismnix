@@ -236,6 +236,11 @@ let
             "file" = "ltxi-26.1.2-2.3.3.jar";
             "hash" = "sha512-dw9Ia+j1eQKG124Bs8Wy1Iijf648T84TC+5fSTV/qG8dJqKa74JVA4kXLE0RNAFVXyldiJX8c1pwzU//SIAI+w==";
         };
+        _E2X4JBXj = {
+            "id" = "E2X4JBXj";
+            "file" = "ltxi-26.1.2-2.4.0.jar";
+            "hash" = "sha512-CG17WMYdAWBXqw2I1SGk6tYzUQJVEBGpoeGKN++V3I4oxmK0m1KgkLhcumyIsFi4vu9YJj+pqhXbmIL+2h8s5A==";
+        };
     in {
         "KG98ak2I" = _KG98ak2I;
         "omFYifXF" = _omFYifXF;
@@ -284,8 +289,9 @@ let
         "LeeV2418" = _LeeV2418;
         "cPoyfvCh" = _cPoyfvCh;
         "zhdGTdjj" = _zhdGTdjj;
+        "E2X4JBXj" = _E2X4JBXj;
         "neoforge-1.21.1" = _r1LqUGAj;
-        "neoforge-26.1.2" = _zhdGTdjj;
+        "neoforge-26.1.2" = _E2X4JBXj;
         "pkg-0.10.0-beta" = _KG98ak2I;
         "pkg-0.12.0-beta" = _omFYifXF;
         "pkg-0.13.0-beta" = _7SUPBs1i;
@@ -333,7 +339,8 @@ let
         "pkg-2.3.1" = _LeeV2418;
         "pkg-2.3.2" = _cPoyfvCh;
         "pkg-2.3.3" = _zhdGTdjj;
-        "default" = _zhdGTdjj;
+        "pkg-2.4.0" = _E2X4JBXj;
+        "default" = _E2X4JBXj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ltx-industries";

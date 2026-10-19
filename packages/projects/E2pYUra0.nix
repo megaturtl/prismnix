@@ -111,6 +111,11 @@ let
             "file" = "smartkeyprompts-fabric-1.20.1-1.1.3-hotfix.jar";
             "hash" = "sha512-MKtxOw5duxNa2E/VdUQcQhAAAcjQaigga6uMpeLJLZJBE+6iRaHTJysxjliqIXidsJ9FrDXpbcM6OWCoiWHi1w==";
         };
+        _9CuddQm3 = {
+            "id" = "9CuddQm3";
+            "file" = "smartkeyprompts-neoforge-1.21.1-1.1.3.jar";
+            "hash" = "sha512-j1qI1+zzqOX4CnIU1CgAQJrDAWg4h9XPs/o6bjr6QSW/NPpv/OPdH8dNrT1J0l+yn+F6N5PnCBbC9ayggKjeAQ==";
+        };
     in {
         "ANrAUrD7" = _ANrAUrD7;
         "ejtp9JGj" = _ejtp9JGj;
@@ -134,6 +139,7 @@ let
         "v05RfsGf" = _v05RfsGf;
         "lnG6rgZg" = _lnG6rgZg;
         "wWdEYD4h" = _wWdEYD4h;
+        "9CuddQm3" = _9CuddQm3;
         "forge-1.20.1" = _lnG6rgZg;
         "forge-1.20.2" = _Rk1f3heQ;
         "forge-1.20.3" = _Rk1f3heQ;
@@ -141,7 +147,7 @@ let
         "forge-1.20.5" = _Rk1f3heQ;
         "forge-1.20.6" = _Rk1f3heQ;
         "neoforge-1.21" = _Y6wBtsFl;
-        "neoforge-1.21.1" = _foo6unyd;
+        "neoforge-1.21.1" = _9CuddQm3;
         "fabric-1.20.1" = _wWdEYD4h;
         "fabric-1.21.1" = _PWioyCwZ;
         "pkg-1.0.0" = _NVrqJRXY;
@@ -152,9 +158,9 @@ let
         "pkg-1.1.0-release" = _l1wzDhZs;
         "pkg-1.1.2" = _7oPM30Pv;
         "pkg-1.1.2-fix2" = _bZTEhD66;
-        "pkg-1.1.3" = _v05RfsGf;
+        "pkg-1.1.3" = _9CuddQm3;
         "pkg-1.1.3-hotfix" = _wWdEYD4h;
-        "default" = _wWdEYD4h;
+        "default" = _9CuddQm3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "smart-key-prompts";

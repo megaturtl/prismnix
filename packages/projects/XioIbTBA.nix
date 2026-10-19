@@ -41,6 +41,11 @@ let
             "file" = "onemoneyblock-1.0.0+1.21.1.jar";
             "hash" = "sha512-/7d5uwVvRNu8aP7AGag0h8vafHogihRfkaF/ciKp6IJ5aHUkz/Snkc75A1sC7Vhvh9xS8BJ4HmYh/ThD9GJV+Q==";
         };
+        _rcSKpzcv = {
+            "id" = "rcSKpzcv";
+            "file" = "Onemoneyblock-26.3.jar";
+            "hash" = "sha512-RuIRoP/upAQh4mCDL2sC04X5opZqyH0IW2L1hklFDeTHiAsRpSzBYXgv/MvosaGkbi8mbjlDVzt22lDWCQ/rYg==";
+        };
     in {
         "qFzKuGMu" = _qFzKuGMu;
         "9yE05Jea" = _9yE05Jea;
@@ -50,16 +55,19 @@ let
         "7Ssj67zo" = _7Ssj67zo;
         "6XatpMWK" = _6XatpMWK;
         "v3cAVVNC" = _v3cAVVNC;
+        "rcSKpzcv" = _rcSKpzcv;
         "forge-1.20.1" = _9yE05Jea;
         "forge-26.1" = _7VjMzS1k;
         "forge-26.1.1" = _7VjMzS1k;
         "forge-26.1.2" = _7VjMzS1k;
         "forge-26.2" = _7VjMzS1k;
+        "forge-26.3" = _rcSKpzcv;
         "neoforge-1.21.1" = _NxEltQJk;
         "neoforge-26.1" = _6XatpMWK;
         "neoforge-26.1.1" = _6XatpMWK;
         "neoforge-26.1.2" = _6XatpMWK;
         "neoforge-26.2" = _6XatpMWK;
+        "neoforge-26.3" = _rcSKpzcv;
         "fabric-1.21.6" = _TltZxWeQ;
         "fabric-1.21.7" = _TltZxWeQ;
         "fabric-1.21.8" = _TltZxWeQ;
@@ -71,9 +79,10 @@ let
         "fabric-26.1.2" = _7Ssj67zo;
         "fabric-26.2" = _7Ssj67zo;
         "fabric-1.21.1" = _v3cAVVNC;
-        "pkg-1.0.0" = _v3cAVVNC;
+        "fabric-26.3" = _rcSKpzcv;
+        "pkg-1.0.0" = _rcSKpzcv;
         "pkg-1.0.1" = _9yE05Jea;
-        "default" = _v3cAVVNC;
+        "default" = _rcSKpzcv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "one-money-block";

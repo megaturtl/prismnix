@@ -6,8 +6,14 @@ let
             "file" = "§7No §bRain §21.21.11§7.zip";
             "hash" = "sha512-BXm+K7Tyh2bZOXmJItYwfg5dvI4eHg6xbLsbH5IFtOzCqAMYTjFs6sXrLhTRdrxOgU5UBN2+p3u8m+WUMuih5A==";
         };
+        _NQszsdEK = {
+            "id" = "NQszsdEK";
+            "file" = "NRNS.zip";
+            "hash" = "sha512-O+0ehW9AlbUJKmtPxg/UKUGskQAzIuy8rkPhrxzC45ozc83NWUF6K7A6fuiu2FUB1e+4K6x1kxsjMjRgoeRHNA==";
+        };
     in {
         "MXNTvuCv" = _MXNTvuCv;
+        "NQszsdEK" = _NQszsdEK;
         "minecraft-1.20" = _MXNTvuCv;
         "minecraft-1.20.1" = _MXNTvuCv;
         "minecraft-1.20.2" = _MXNTvuCv;
@@ -27,8 +33,10 @@ let
         "minecraft-1.21.9" = _MXNTvuCv;
         "minecraft-1.21.10" = _MXNTvuCv;
         "minecraft-1.21.11" = _MXNTvuCv;
+        "minecraft-26.3" = _NQszsdEK;
         "pkg-1.0" = _MXNTvuCv;
-        "default" = _MXNTvuCv;
+        "pkg-1.0.1" = _NQszsdEK;
+        "default" = _NQszsdEK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "no-rain,-no-snow";

@@ -61,6 +61,11 @@ let
             "file" = "Better Fire (26.2).zip";
             "hash" = "sha512-NSFsrhUSvOEx2gqLbQ6XWe3cFyuSGH/k54NLBjE10RA0R7CQj30Kwhz5S3CJxMtmY/vvYJcEcX9g22Lc9i40Hg==";
         };
+        _FqUNpWxG = {
+            "id" = "FqUNpWxG";
+            "file" = "Better Fire (26.3).zip";
+            "hash" = "sha512-64k3Q0LRwaiCg5F3uprPFutDDhw5rfsxD9bA/IJwBN6MsUYkOjIekqrMppg/OOuB8XTgD/dZfGkgJpgE/VO4Iw==";
+        };
     in {
         "6tf1IVG8" = _6tf1IVG8;
         "vMbjvTLe" = _vMbjvTLe;
@@ -74,6 +79,7 @@ let
         "AVtWefiS" = _AVtWefiS;
         "ifHBB8Du" = _ifHBB8Du;
         "LiNulBi7" = _LiNulBi7;
+        "FqUNpWxG" = _FqUNpWxG;
         "minecraft-1.19.4" = _6tf1IVG8;
         "minecraft-1.19.3" = _vMbjvTLe;
         "minecraft-1.21" = _FFDsYxZZ;
@@ -85,13 +91,14 @@ let
         "minecraft-1.21.6" = _gkOypqHr;
         "minecraft-1.21.7" = _uQOHR0iN;
         "minecraft-1.21.8" = _uQOHR0iN;
-        "minecraft-1.21.9" = _LiNulBi7;
-        "minecraft-1.21.10" = _LiNulBi7;
-        "minecraft-1.21.11" = _LiNulBi7;
-        "minecraft-26.1" = _LiNulBi7;
-        "minecraft-26.1.1" = _LiNulBi7;
-        "minecraft-26.1.2" = _LiNulBi7;
-        "minecraft-26.2" = _LiNulBi7;
+        "minecraft-1.21.9" = _FqUNpWxG;
+        "minecraft-1.21.10" = _FqUNpWxG;
+        "minecraft-1.21.11" = _FqUNpWxG;
+        "minecraft-26.1" = _FqUNpWxG;
+        "minecraft-26.1.1" = _FqUNpWxG;
+        "minecraft-26.1.2" = _FqUNpWxG;
+        "minecraft-26.2" = _FqUNpWxG;
+        "minecraft-26.3" = _FqUNpWxG;
         "pkg-1.19.4" = _6tf1IVG8;
         "pkg-1.19.3" = _vMbjvTLe;
         "pkg-1.21.1" = _FFDsYxZZ;
@@ -104,7 +111,8 @@ let
         "pkg-1.21.11" = _AVtWefiS;
         "pkg-26.1" = _ifHBB8Du;
         "pkg-26.2" = _LiNulBi7;
-        "default" = _LiNulBi7;
+        "pkg-26.3" = _FqUNpWxG;
+        "default" = _FqUNpWxG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-fire";

@@ -536,6 +536,16 @@ let
             "file" = "builds_n_barrens-23.8-neoforge-1.21.1.jar";
             "hash" = "sha512-uiHE0DNUUle6738Gj2R/R6wZ1pJkVTTW91xOx+A4mxRHvGhvQ6ftMnSS7hmb6tA0mvsKKZ2KcakccF2u+cAlHw==";
         };
+        _LSM9ghIi = {
+            "id" = "LSM9ghIi";
+            "file" = "builds_n_barrens-23.9-neoforge-1.21.1.jar";
+            "hash" = "sha512-B7AZyI9eBeqeBms15wCLKiI13lQyiT1oDj66YXei5hW2av0r2h33RbvBZKSvl85GJYVSVdZ69PsruwaSyhrRjQ==";
+        };
+        _u0NiuC5U = {
+            "id" = "u0NiuC5U";
+            "file" = "builds_n_barrens-23.10-neoforge-1.21.1.jar";
+            "hash" = "sha512-QbCRXXBVZ4iyFyd6WhCkVqo51dDTf5vej/pOTCNjo3cjWK/EfRtZlZ0VS4CphB8z/LEOYn4nEcdfylggXhpeZg==";
+        };
     in {
         "o5Kn0bRg" = _o5Kn0bRg;
         "ya68VEcS" = _ya68VEcS;
@@ -644,8 +654,10 @@ let
         "X96Wj7qp" = _X96Wj7qp;
         "y3b04Qk1" = _y3b04Qk1;
         "tV2j8Ui6" = _tV2j8Ui6;
+        "LSM9ghIi" = _LSM9ghIi;
+        "u0NiuC5U" = _u0NiuC5U;
         "neoforge-1.21.8" = _jsk5Dknf;
-        "neoforge-1.21.1" = _tV2j8Ui6;
+        "neoforge-1.21.1" = _u0NiuC5U;
         "pkg-1.b" = _o5Kn0bRg;
         "pkg-1.1.b" = _ya68VEcS;
         "pkg-1.2.b" = _k26xZF7D;
@@ -753,7 +765,9 @@ let
         "pkg-23.6" = _X96Wj7qp;
         "pkg-23.7" = _y3b04Qk1;
         "pkg-23.8" = _tV2j8Ui6;
-        "default" = _tV2j8Ui6;
+        "pkg-23.9" = _LSM9ghIi;
+        "pkg-23.10" = _u0NiuC5U;
+        "default" = _u0NiuC5U;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "buildsnbarrens";

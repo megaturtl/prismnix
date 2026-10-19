@@ -56,6 +56,11 @@ let
             "file" = "Flowering Crops (26.2).zip";
             "hash" = "sha512-vEbG4pNi/DKbhsoBdEVloelPi4HnhLplSswcNjdvwNgwIwLwukSQ2kVxjjXXRJ7mJ4tZThorzDS9zrqsnbfugA==";
         };
+        _BwphCyhY = {
+            "id" = "BwphCyhY";
+            "file" = "Flowering Crops (26.3).zip";
+            "hash" = "sha512-PcGum+S25Uop/b4LZwIUWUPZd4roWTqFLUmFEr4cr8q0j7pfy6dxhqpY1a6lbL4FTymwFT+ns6DujNeYGaK7+Q==";
+        };
     in {
         "cjdQnJVS" = _cjdQnJVS;
         "YnEUvdVp" = _YnEUvdVp;
@@ -68,6 +73,7 @@ let
         "3MTj5Vj4" = _3MTj5Vj4;
         "l2ILZQXx" = _l2ILZQXx;
         "irIMJ4rK" = _irIMJ4rK;
+        "BwphCyhY" = _BwphCyhY;
         "minecraft-1.20.5" = _cjdQnJVS;
         "minecraft-1.20.6" = _cjdQnJVS;
         "minecraft-1.21" = _YnEUvdVp;
@@ -79,20 +85,22 @@ let
         "minecraft-1.21.6" = _MHz6Uvt7;
         "minecraft-1.21.7" = _lVfTjyyg;
         "minecraft-1.21.8" = _lVfTjyyg;
-        "minecraft-1.21.9" = _irIMJ4rK;
-        "minecraft-1.21.10" = _irIMJ4rK;
-        "minecraft-1.21.11" = _irIMJ4rK;
-        "minecraft-26.1" = _irIMJ4rK;
-        "minecraft-26.1.1" = _irIMJ4rK;
-        "minecraft-26.1.2" = _irIMJ4rK;
-        "minecraft-26.2" = _irIMJ4rK;
+        "minecraft-1.21.9" = _BwphCyhY;
+        "minecraft-1.21.10" = _BwphCyhY;
+        "minecraft-1.21.11" = _BwphCyhY;
+        "minecraft-26.1" = _BwphCyhY;
+        "minecraft-26.1.1" = _BwphCyhY;
+        "minecraft-26.1.2" = _BwphCyhY;
+        "minecraft-26.2" = _BwphCyhY;
+        "minecraft-26.3" = _BwphCyhY;
         "pkg-1.0" = _MHz6Uvt7;
         "pkg-1.01" = _lVfTjyyg;
         "pkg-1.02" = _uaH0tLQT;
         "pkg-1.03" = _3MTj5Vj4;
         "pkg-1.04" = _l2ILZQXx;
         "pkg-1.05" = _irIMJ4rK;
-        "default" = _irIMJ4rK;
+        "pkg-1.06" = _BwphCyhY;
+        "default" = _BwphCyhY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "flowering-crops";

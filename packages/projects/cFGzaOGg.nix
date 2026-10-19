@@ -116,6 +116,11 @@ let
             "file" = "asteroid-0.4.1.jar";
             "hash" = "sha512-ZfGH8PMWQXtse545g8JT0zd6xoX3k2+0wCTori9Z7jtKhd/aEIQzZebQAgPLfceOwVUlnr7+ulOw1NSAldVrpA==";
         };
+        _MQ6WcLf0 = {
+            "id" = "MQ6WcLf0";
+            "file" = "asteroid-0.4.2.jar";
+            "hash" = "sha512-53IKnV/XB+MCXeGFPMaI5dqcr5purVCtiMGBkbG673zcU/9ZeisqOJ3/SJdNgQezim8vH4Aw0M/Jkn5OWY0fLQ==";
+        };
     in {
         "jXsJfsdz" = _jXsJfsdz;
         "ge4vPntj" = _ge4vPntj;
@@ -140,6 +145,7 @@ let
         "oTHKaZUr" = _oTHKaZUr;
         "gsmJj0qI" = _gsmJj0qI;
         "jVnZF07b" = _jVnZF07b;
+        "MQ6WcLf0" = _MQ6WcLf0;
         "fabric-1.20.5" = _jXsJfsdz;
         "fabric-1.20.6" = _jXsJfsdz;
         "fabric-1.21" = _TmHWAc3J;
@@ -158,6 +164,7 @@ let
         "fabric-26.1.1" = _4oyQOgoI;
         "fabric-26.1.2" = _4oyQOgoI;
         "fabric-26.2" = _jVnZF07b;
+        "fabric-26.3" = _MQ6WcLf0;
         "pkg-0.1.0" = _jXsJfsdz;
         "pkg-0.1.1" = _ge4vPntj;
         "pkg-0.1.2" = _YBzokYuq;
@@ -181,7 +188,8 @@ let
         "pkg-0.4.1-alpha-2" = _oTHKaZUr;
         "pkg-0.4.1-alpha-3" = _gsmJj0qI;
         "pkg-0.4.1" = _jVnZF07b;
-        "default" = _jVnZF07b;
+        "pkg-0.4.2" = _MQ6WcLf0;
+        "default" = _MQ6WcLf0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "asteroid";

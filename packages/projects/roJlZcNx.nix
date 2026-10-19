@@ -16,15 +16,22 @@ let
             "file" = "greatsage-0.0.7.jar";
             "hash" = "sha512-HxD06VeuVgZlp+eM7/l0jbpvPKCTrOciHxTDwEadLSW12q93RfTKZJDCiVLftij8h7Sf2tWoHnHSX3SxiN2O3g==";
         };
+        _rBHjJbyA = {
+            "id" = "rBHjJbyA";
+            "file" = "greatsage-0.0.7.1.jar";
+            "hash" = "sha512-EfzDRZx8A34LE4HM72S3flaqha3fyEHxaM25Yf6RF6BaTttd8jdUNVIZbNWHXQMdzzqQEw1ISC1eotiQ85vWow==";
+        };
     in {
         "SEhfkQVK" = _SEhfkQVK;
         "I6pTHOdL" = _I6pTHOdL;
         "YejFF04p" = _YejFF04p;
-        "neoforge-1.21.1" = _YejFF04p;
+        "rBHjJbyA" = _rBHjJbyA;
+        "neoforge-1.21.1" = _rBHjJbyA;
         "pkg-0.0.5" = _SEhfkQVK;
         "pkg-0.0.6.1" = _I6pTHOdL;
         "pkg-0.0.7" = _YejFF04p;
-        "default" = _YejFF04p;
+        "pkg-0.0.7.1" = _rBHjJbyA;
+        "default" = _rBHjJbyA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "great-sage";

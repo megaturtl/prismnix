@@ -266,6 +266,16 @@ let
             "file" = "shatterlib-neoforge-0.7.0-beta.1+26.3.jar";
             "hash" = "sha512-RGxxFKA3IWAAg/DNHbRqX0V6yqKYYPbLNeHgkEJ5emwV0rOkCVPjYOKGquESIhs1Ukmzi7Rlse7/OPEoJI7JiQ==";
         };
+        _ts3qsFDB = {
+            "id" = "ts3qsFDB";
+            "file" = "shatterlib-neoforge-0.7.0-beta.4+26.3.jar";
+            "hash" = "sha512-XhLTYxPztXvhsIAnSnFPnZ+e3nphIfJDuNCA0pH5TykNS+PW4zgw9L1INRprhGIeeV8irXfApWjFQ8oSmErVDw==";
+        };
+        _zujVCEvc = {
+            "id" = "zujVCEvc";
+            "file" = "shatterlib-fabric-0.7.0-beta.4+26.3.jar";
+            "hash" = "sha512-vCPHWoQmagCzuuY09nrshMmbb5UXy9MLgvUoQoR+NhX0QJspVcD8RIf2Jpak4Hd70C0TetlHlttWBWhFd0/n+w==";
+        };
     in {
         "grEroQx9" = _grEroQx9;
         "BMzGyKew" = _BMzGyKew;
@@ -320,6 +330,8 @@ let
         "bk3IlCia" = _bk3IlCia;
         "wsge76YX" = _wsge76YX;
         "FtuJ82gD" = _FtuJ82gD;
+        "ts3qsFDB" = _ts3qsFDB;
+        "zujVCEvc" = _zujVCEvc;
         "forge-1.20.1" = _HZ7KmyXp;
         "forge-1.20.2" = _grEroQx9;
         "forge-1.19.2" = _NiQBlfBa;
@@ -337,7 +349,7 @@ let
         "neoforge-1.21.11" = _FLPGrIpB;
         "neoforge-26.1.2" = _nDf20sjT;
         "neoforge-26.2" = _bk3IlCia;
-        "neoforge-26.3" = _FtuJ82gD;
+        "neoforge-26.3" = _ts3qsFDB;
         "fabric-1.21" = _6d1vaxHI;
         "fabric-1.21.1" = _Sj6w7O0I;
         "fabric-1.20.1" = _5UfjvE8g;
@@ -350,7 +362,7 @@ let
         "fabric-1.21.11" = _DtNaQNS2;
         "fabric-26.1.2" = _IZNCj2sj;
         "fabric-26.2" = _V7etoqpZ;
-        "fabric-26.3" = _wsge76YX;
+        "fabric-26.3" = _zujVCEvc;
         "quilt-1.21" = _m3ey9qly;
         "quilt-1.21.1" = _m3ey9qly;
         "quilt-1.20.1" = _eI4teGA0;
@@ -373,7 +385,8 @@ let
         "pkg-0.7.0+26.1.2" = _nDf20sjT;
         "pkg-0.7.0-beta.1+26.2" = _bk3IlCia;
         "pkg-0.7.0-beta.1+26.3" = _FtuJ82gD;
-        "default" = _FtuJ82gD;
+        "pkg-0.7.0-beta.4+26.3" = _zujVCEvc;
+        "default" = _zujVCEvc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shatterbyte-lib";

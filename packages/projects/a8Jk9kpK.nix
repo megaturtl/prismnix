@@ -71,6 +71,11 @@ let
             "file" = "EdivadLib-26.3-4.1.0.jar";
             "hash" = "sha512-PWlHRGgOPcltIoCeXVW2TDIL8XHz9rlP3wuAeSgKjXH4e11NoIeBV0mfNWovApHaJTJliflJjgX9HpFTs4CxfQ==";
         };
+        _12G6c3w6 = {
+            "id" = "12G6c3w6";
+            "file" = "EdivadLib-26.3-4.1.1.jar";
+            "hash" = "sha512-xhjW3YTJQi6U7sU7iZYs828mQy6Jm5XjaV4iBsDstbvnhwJhpIr+4U2eodxXHgcSuoPbRFln5u3T2dwvYbl9Fw==";
+        };
     in {
         "UDv7Cwpd" = _UDv7Cwpd;
         "vN5I1S1f" = _vN5I1S1f;
@@ -86,6 +91,7 @@ let
         "Wqww9W9S" = _Wqww9W9S;
         "srSF6gqV" = _srSF6gqV;
         "IPHI3k53" = _IPHI3k53;
+        "12G6c3w6" = _12G6c3w6;
         "forge-1.19.2" = _UDv7Cwpd;
         "forge-1.20.1" = _vN5I1S1f;
         "neoforge-1.20.1" = _vN5I1S1f;
@@ -98,7 +104,7 @@ let
         "neoforge-1.21.10" = _RfHEGD4I;
         "neoforge-1.21.11" = _rpBtOUbw;
         "neoforge-26.1.2" = _srSF6gqV;
-        "neoforge-26.3" = _IPHI3k53;
+        "neoforge-26.3" = _12G6c3w6;
         "pkg-1.2.0" = _UDv7Cwpd;
         "pkg-2.0.1" = _vN5I1S1f;
         "pkg-2.1.0" = _lNsE2LTy;
@@ -113,7 +119,8 @@ let
         "pkg-4.0.0" = _Wqww9W9S;
         "pkg-4.0.1" = _srSF6gqV;
         "pkg-4.1.0" = _IPHI3k53;
-        "default" = _IPHI3k53;
+        "pkg-4.1.1" = _12G6c3w6;
+        "default" = _12G6c3w6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "edivadlib";

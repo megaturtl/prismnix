@@ -86,6 +86,11 @@ let
             "file" = "immersive-storms-1.8.0+26.3.jar";
             "hash" = "sha512-JQ2Op0X6t5hPmpxC+CowlW0byXb9MiERyUDA6aDl1h9pKt7GJUHraeYQ2PD1n07AXMdJi1Dl7wWt8kxlVQhx/g==";
         };
+        _8ckgv4RY = {
+            "id" = "8ckgv4RY";
+            "file" = "immersive-storms-2.0.0+26.1.x-beta.1.jar";
+            "hash" = "sha512-50+Mc0Y0K2bnFqoeEfagtBHmeF3eHOnkA8b5CmfzUOsGRRTxeTinLh6I+ZzTjnwgtgOb0DY7G7q1K76nuAyreQ==";
+        };
     in {
         "VKsOam42" = _VKsOam42;
         "5MCkiSQZ" = _5MCkiSQZ;
@@ -104,6 +109,7 @@ let
         "jaUkT61M" = _jaUkT61M;
         "H52O6tyT" = _H52O6tyT;
         "iArYgr87" = _iArYgr87;
+        "8ckgv4RY" = _8ckgv4RY;
         "fabric-1.21.5" = _VKsOam42;
         "fabric-1.21.6" = _7ER9eIwK;
         "fabric-1.21.7" = _7ER9eIwK;
@@ -111,9 +117,9 @@ let
         "fabric-1.21.9" = _FrbWed93;
         "fabric-1.21.10" = _FrbWed93;
         "fabric-1.21.11" = _x2JFd9xZ;
-        "fabric-26.1" = _jaUkT61M;
-        "fabric-26.1.1" = _s57Ur2Qw;
-        "fabric-26.1.2" = _s57Ur2Qw;
+        "fabric-26.1" = _8ckgv4RY;
+        "fabric-26.1.1" = _8ckgv4RY;
+        "fabric-26.1.2" = _8ckgv4RY;
         "fabric-26.2" = _H52O6tyT;
         "fabric-26.3" = _iArYgr87;
         "quilt-1.21.5" = _VKsOam42;
@@ -123,11 +129,14 @@ let
         "quilt-1.21.9" = _FrbWed93;
         "quilt-1.21.10" = _FrbWed93;
         "quilt-1.21.11" = _x2JFd9xZ;
-        "quilt-26.1" = _jaUkT61M;
-        "quilt-26.1.1" = _s57Ur2Qw;
-        "quilt-26.1.2" = _s57Ur2Qw;
+        "quilt-26.1" = _8ckgv4RY;
+        "quilt-26.1.1" = _8ckgv4RY;
+        "quilt-26.1.2" = _8ckgv4RY;
         "quilt-26.2" = _H52O6tyT;
         "quilt-26.3" = _iArYgr87;
+        "neoforge-26.1" = _8ckgv4RY;
+        "neoforge-26.1.1" = _8ckgv4RY;
+        "neoforge-26.1.2" = _8ckgv4RY;
         "pkg-1.0.0" = _VKsOam42;
         "pkg-1.1.0" = _5MCkiSQZ;
         "pkg-1.1.1" = _6YcdwejQ;
@@ -145,7 +154,8 @@ let
         "pkg-1.8.0+26.1.x" = _jaUkT61M;
         "pkg-1.8.0+26.2" = _H52O6tyT;
         "pkg-1.8.0+26.3" = _iArYgr87;
-        "default" = _iArYgr87;
+        "pkg-2.0.0+26.1.x-beta.1" = _8ckgv4RY;
+        "default" = _8ckgv4RY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immersive-storms";

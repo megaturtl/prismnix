@@ -241,6 +241,26 @@ let
             "file" = "roadweaver-fabric-2.3.1-1.21.1-hotfix.jar";
             "hash" = "sha512-TS4GsKIDJ9K2GqFI4U1q+aCZXwd9MW6HIoZG8acDIXoAHxW9Aj3bkjy8iXGf9Tqi51Q8byPCbJrWNzcUK8VAGw==";
         };
+        _zeuoLu1S = {
+            "id" = "zeuoLu1S";
+            "file" = "roadweaver-fabric-2.3.2-1.21.1.jar";
+            "hash" = "sha512-9VZvaE/nNtGGdWkvAAnUMMX8rEWR3Rcd5JgaNGSI1dxXoqn2nXq+xpw7Fk3az0vhm9RmqRXoUqWF7X5QxSoxUg==";
+        };
+        _D1y11uNH = {
+            "id" = "D1y11uNH";
+            "file" = "roadweaver-neoforge-2.3.2-1.21.1.jar";
+            "hash" = "sha512-ss2K/NswwXv0PGfFuETxYr8ndEdzmjerOlBGxpVifaciFtOW98/hrrk4zStWJv+9C+PcA51Yr5zkEzRXuKqlVw==";
+        };
+        _P3MGw68X = {
+            "id" = "P3MGw68X";
+            "file" = "roadweaver-forge-2.3.2-1.20.1.jar";
+            "hash" = "sha512-Hduf1/oD/A9sjqoJC6eYWeAJp4ZKG9m/Mtrt1Xl3snMKftz2KZLL22lwxVHKHb00RbNkLYsFQLaWJIyMgUXJsw==";
+        };
+        _mDAgdi2W = {
+            "id" = "mDAgdi2W";
+            "file" = "roadweaver-fabric-2.3.2-1.20.1.jar";
+            "hash" = "sha512-KICz/X80aeEThmBy7J/SIPUCWOUJ+JU1+qIlcSDm5kn8UTd9l1MFO1J+6zm1VOeMnK1RfL70G5fyYS+BfHtTRw==";
+        };
     in {
         "trEadzuf" = _trEadzuf;
         "MtlGK715" = _MtlGK715;
@@ -290,11 +310,15 @@ let
         "KY1DHC8C" = _KY1DHC8C;
         "4k6l0sVO" = _4k6l0sVO;
         "rUmD6cZc" = _rUmD6cZc;
-        "forge-1.20.1" = _7dhS67wp;
-        "fabric-1.20.1" = _LaYDfPXD;
-        "fabric-1.21.1" = _rUmD6cZc;
+        "zeuoLu1S" = _zeuoLu1S;
+        "D1y11uNH" = _D1y11uNH;
+        "P3MGw68X" = _P3MGw68X;
+        "mDAgdi2W" = _mDAgdi2W;
+        "forge-1.20.1" = _P3MGw68X;
+        "fabric-1.20.1" = _mDAgdi2W;
+        "fabric-1.21.1" = _zeuoLu1S;
         "fabric-1.21.11" = _7Z1QvgqG;
-        "neoforge-1.21.1" = _4k6l0sVO;
+        "neoforge-1.21.1" = _D1y11uNH;
         "neoforge-1.21.11" = _ct7GA9nn;
         "pkg-2.0.0-1.20.1-beta" = _MtlGK715;
         "pkg-2.0.1-1.20.1-beta" = _seEG0V4q;
@@ -320,7 +344,9 @@ let
         "pkg-2.3.0-1.21.1" = _PUO3z91X;
         "pkg-2.3.1-1.21.1" = _KY1DHC8C;
         "pkg-2.3.1-1.21.1-hotfix" = _rUmD6cZc;
-        "default" = _rUmD6cZc;
+        "pkg-2.3.2-1.21.1" = _D1y11uNH;
+        "pkg-2.3.2-1.20.1" = _mDAgdi2W;
+        "default" = _mDAgdi2W;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "roadweaver";

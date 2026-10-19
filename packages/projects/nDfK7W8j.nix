@@ -266,6 +266,16 @@ let
             "file" = "fletchingrecipe-fabric-26.3-26.3.0.0.jar";
             "hash" = "sha512-+onRVuXRptjPz4r28xj8qaVUkdwKjlrKManEvExkIJjfhX14Xk6AxHYobTC5dW3t179QKT/W+s/K8q8+wH9BYA==";
         };
+        _R8G7s9u2 = {
+            "id" = "R8G7s9u2";
+            "file" = "fletchingrecipe-neoforge-26.3-26.3.0.1.jar";
+            "hash" = "sha512-GD8RHvxu/w+7WfLK1AzsAeSbOlYynIwnA8osXdDTsCrgy/dCoOP5UpgUs7jZrwvsB8J5rqijvcyd/Y3uuNL1eg==";
+        };
+        _JbzTyKee = {
+            "id" = "JbzTyKee";
+            "file" = "fletchingrecipe-fabric-26.3-26.3.0.1.jar";
+            "hash" = "sha512-T3iLWHiR6K0LJV6bZUr5imtTgD52uJpyMpqsjyG7u3lX7Tv5uwqjCVLGbI6ecZonYge3nfPMAnvYDwY4D7cvUQ==";
+        };
     in {
         "s43Qf4WD" = _s43Qf4WD;
         "teH6YXaM" = _teH6YXaM;
@@ -320,6 +330,8 @@ let
         "7QsKJ53M" = _7QsKJ53M;
         "PPDYlLTu" = _PPDYlLTu;
         "tLryFnwG" = _tLryFnwG;
+        "R8G7s9u2" = _R8G7s9u2;
+        "JbzTyKee" = _JbzTyKee;
         "fabric-1.20.1" = _7v7sNaww;
         "fabric-1.21.1" = _vDkysYSs;
         "fabric-1.21.10" = _v2WTFh25;
@@ -329,7 +341,7 @@ let
         "fabric-26.1.1" = _AEFqX3sB;
         "fabric-26.1.2" = _gaLPaTqr;
         "fabric-26.2" = _7QsKJ53M;
-        "fabric-26.3" = _tLryFnwG;
+        "fabric-26.3" = _JbzTyKee;
         "forge-1.20.1" = _fpoMi78z;
         "forge-1.21.10" = _181W4L5T;
         "forge-1.21.11" = _mSpAPWGU;
@@ -341,7 +353,7 @@ let
         "neoforge-26.1.1" = _qXhzDK02;
         "neoforge-26.1.2" = _4jlpd1VE;
         "neoforge-26.2" = _eocZoUF8;
-        "neoforge-26.3" = _PPDYlLTu;
+        "neoforge-26.3" = _R8G7s9u2;
         "pkg-1.0.0+1.20.1-fabric" = _s43Qf4WD;
         "pkg-1.0.0+1.20.1-forge" = _teH6YXaM;
         "pkg-1.0.0+1.21.1-fabric" = _oWgsncTB;
@@ -389,7 +401,8 @@ let
         "pkg-26.2.0" = _QbCfvFxJ;
         "pkg-26.2.0.1" = _7QsKJ53M;
         "pkg-26.3.0.0" = _tLryFnwG;
-        "default" = _tLryFnwG;
+        "pkg-26.3.0.1" = _JbzTyKee;
+        "default" = _JbzTyKee;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fletching-recipe";

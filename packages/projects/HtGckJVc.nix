@@ -466,6 +466,11 @@ let
             "file" = "stack-to-nearby-chests-mc26.2-0.5.19.jar";
             "hash" = "sha512-lElo5IR6hX55/XEf3IAnAzg1MVLOzd+Q5K3CXUq7Qc5SG1j15IjDOUczAATeswYJ+un/L6JGluJDHJXR72dTsw==";
         };
+        _FtdXsRg5 = {
+            "id" = "FtdXsRg5";
+            "file" = "stack-to-nearby-chests-mc26.3-0.5.20.jar";
+            "hash" = "sha512-0u4FOCKu3EUVBS84yuUmxJv1KxH4HREhJnnV2lwd8sGdL5bQqVmdBef0IbcurE1WG08up5bnNQF1jF4oL3nX1Q==";
+        };
     in {
         "1JoI68Un" = _1JoI68Un;
         "RMtqWBPG" = _RMtqWBPG;
@@ -560,6 +565,7 @@ let
         "J5gCjuWw" = _J5gCjuWw;
         "Q5cL3tf5" = _Q5cL3tf5;
         "PQf5Qnbj" = _PQf5Qnbj;
+        "FtdXsRg5" = _FtdXsRg5;
         "fabric-1.19" = _TAwG0GnF;
         "fabric-1.19.1" = _TAwG0GnF;
         "fabric-1.19.2" = _TAwG0GnF;
@@ -588,6 +594,7 @@ let
         "fabric-26.1.1" = _zdq2yHRh;
         "fabric-26.1.2" = _zdq2yHRh;
         "fabric-26.2" = _PQf5Qnbj;
+        "fabric-26.3" = _FtdXsRg5;
         "pkg-0.1.1" = _1JoI68Un;
         "pkg-0.1.2" = _RMtqWBPG;
         "pkg-0.1.3" = _LPtaslBa;
@@ -623,7 +630,8 @@ let
         "pkg-0.5.16" = _zdq2yHRh;
         "pkg-0.5.17" = _Q5cL3tf5;
         "pkg-0.5.19" = _PQf5Qnbj;
-        "default" = _PQf5Qnbj;
+        "pkg-0.5.20" = _FtdXsRg5;
+        "default" = _FtdXsRg5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stack-to-nearby-chests";

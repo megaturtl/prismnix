@@ -1,0 +1,128 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _ZJyVgYDK = {
+            "id" = "ZJyVgYDK";
+            "file" = "Another Deltarune UI.zip";
+            "hash" = "sha512-oDB28d67qI1QLgIt1wRoVbg8wobry/my/I/iSWptOJUqo5Mh5VHXTxOiwEVr3QES4TKZqOMBD88tWKO49eWDgA==";
+        };
+        _DcXaMscR = {
+            "id" = "DcXaMscR";
+            "file" = "Another Deltarune UI.zip";
+            "hash" = "sha512-OrdJ9MN66yojW/pVld+o2UWiJh+vDuopz3qg8NH9ItOq5L/FGO7VMjV3MHETcmhHY9Pr+OBzTO0442wZwbm1pg==";
+        };
+        _DSQcunm2 = {
+            "id" = "DSQcunm2";
+            "file" = "Another Deltarune UI.zip";
+            "hash" = "sha512-N8EA8fYYDY0vnnAPWT+HALe3ZfhCJuahK3o1Xn2hrkHeDesYW2F0Me8lmxHHDhN9Dbf40QksNuM8cWCDCeo/DA==";
+        };
+    in {
+        "ZJyVgYDK" = _ZJyVgYDK;
+        "DcXaMscR" = _DcXaMscR;
+        "DSQcunm2" = _DSQcunm2;
+        "minecraft-26.2" = _DSQcunm2;
+        "minecraft-1.16.5" = _DSQcunm2;
+        "minecraft-1.17" = _DSQcunm2;
+        "minecraft-1.17.1" = _DSQcunm2;
+        "minecraft-1.18" = _DSQcunm2;
+        "minecraft-1.18.1" = _DSQcunm2;
+        "minecraft-1.18.2" = _DSQcunm2;
+        "minecraft-1.19" = _DSQcunm2;
+        "minecraft-1.19.1" = _DSQcunm2;
+        "minecraft-1.19.2" = _DSQcunm2;
+        "minecraft-22w42a" = _DSQcunm2;
+        "minecraft-22w43a" = _DSQcunm2;
+        "minecraft-22w44a" = _DSQcunm2;
+        "minecraft-1.19.3" = _DSQcunm2;
+        "minecraft-1.19.4" = _DSQcunm2;
+        "minecraft-23w14a" = _DSQcunm2;
+        "minecraft-23w16a" = _DSQcunm2;
+        "minecraft-1.20" = _DSQcunm2;
+        "minecraft-1.20.1" = _DSQcunm2;
+        "minecraft-23w31a" = _DSQcunm2;
+        "minecraft-23w32a" = _DSQcunm2;
+        "minecraft-23w33a" = _DSQcunm2;
+        "minecraft-23w35a" = _DSQcunm2;
+        "minecraft-1.20.2-pre1" = _DSQcunm2;
+        "minecraft-1.20.2" = _DSQcunm2;
+        "minecraft-23w42a" = _DSQcunm2;
+        "minecraft-23w43a" = _DSQcunm2;
+        "minecraft-23w43b" = _DSQcunm2;
+        "minecraft-23w44a" = _DSQcunm2;
+        "minecraft-23w45a" = _DSQcunm2;
+        "minecraft-23w46a" = _DSQcunm2;
+        "minecraft-1.20.3" = _DSQcunm2;
+        "minecraft-1.20.4" = _DSQcunm2;
+        "minecraft-24w03a" = _DSQcunm2;
+        "minecraft-24w03b" = _DSQcunm2;
+        "minecraft-24w04a" = _DSQcunm2;
+        "minecraft-24w05a" = _DSQcunm2;
+        "minecraft-24w05b" = _DSQcunm2;
+        "minecraft-24w06a" = _DSQcunm2;
+        "minecraft-24w07a" = _DSQcunm2;
+        "minecraft-24w09a" = _DSQcunm2;
+        "minecraft-24w10a" = _DSQcunm2;
+        "minecraft-24w11a" = _DSQcunm2;
+        "minecraft-24w12a" = _DSQcunm2;
+        "minecraft-24w13a" = _DSQcunm2;
+        "minecraft-24w14potato" = _DSQcunm2;
+        "minecraft-24w14a" = _DSQcunm2;
+        "minecraft-1.20.5-pre1" = _DSQcunm2;
+        "minecraft-1.20.5-pre2" = _DSQcunm2;
+        "minecraft-1.20.5-pre3" = _DSQcunm2;
+        "minecraft-1.20.5" = _DSQcunm2;
+        "minecraft-1.20.6" = _DSQcunm2;
+        "minecraft-24w18a" = _DSQcunm2;
+        "minecraft-24w19a" = _DSQcunm2;
+        "minecraft-24w19b" = _DSQcunm2;
+        "minecraft-24w20a" = _DSQcunm2;
+        "minecraft-1.21" = _DSQcunm2;
+        "minecraft-1.21.1" = _DSQcunm2;
+        "minecraft-24w33a" = _DSQcunm2;
+        "minecraft-24w34a" = _DSQcunm2;
+        "minecraft-24w35a" = _DSQcunm2;
+        "minecraft-24w36a" = _DSQcunm2;
+        "minecraft-24w37a" = _DSQcunm2;
+        "minecraft-24w38a" = _DSQcunm2;
+        "minecraft-24w39a" = _DSQcunm2;
+        "minecraft-24w40a" = _DSQcunm2;
+        "minecraft-1.21.2-pre1" = _DSQcunm2;
+        "minecraft-1.21.2-pre2" = _DSQcunm2;
+        "minecraft-1.21.2" = _DSQcunm2;
+        "minecraft-1.21.3" = _DSQcunm2;
+        "minecraft-24w44a" = _DSQcunm2;
+        "minecraft-24w45a" = _DSQcunm2;
+        "minecraft-24w46a" = _DSQcunm2;
+        "minecraft-1.21.4" = _DSQcunm2;
+        "minecraft-1.21.5" = _DSQcunm2;
+        "minecraft-1.21.6" = _DSQcunm2;
+        "minecraft-1.21.7" = _DSQcunm2;
+        "minecraft-1.21.8" = _DSQcunm2;
+        "minecraft-1.21.9" = _DSQcunm2;
+        "minecraft-1.21.10" = _DSQcunm2;
+        "minecraft-1.21.11" = _DSQcunm2;
+        "minecraft-26.1" = _DSQcunm2;
+        "minecraft-26.1.1" = _DSQcunm2;
+        "minecraft-26.1.2" = _DSQcunm2;
+        "pkg-0.1-ALPHA" = _ZJyVgYDK;
+        "pkg-0.2-ALPHA" = _DcXaMscR;
+        "pkg-0.2-ALPHA-(Pre-24w33a)" = _DSQcunm2;
+        "default" = _DSQcunm2;
+    });
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "delta-ui";
+        id = "yt0j7exc";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = null;
+            };
+        };
+    };
+in callPackage fn {}

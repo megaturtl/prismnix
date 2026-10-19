@@ -126,6 +126,11 @@ let
             "file" = "AxEnvoy-2.5.0.jar";
             "hash" = "sha512-1XMV14Hd21+iP1hIZ013L1lmltN22kcegl711/bfTSFSfv9KE19uq+SBEcxx59RHrWrZjh9MwlVw48PJMd0t+Q==";
         };
+        _kEaztlai = {
+            "id" = "kEaztlai";
+            "file" = "AxEnvoy-2.6.0.jar";
+            "hash" = "sha512-hVbKhgLBF77WQbBB2xdyNUlVzp9Ykp0SnMIkceM3xDn9VJ8/ksZIt1uxWkF/A6gh0K4YwXrUIYsoiImdcCsi7w==";
+        };
     in {
         "7ryIdlTA" = _7ryIdlTA;
         "j3gYMC4Q" = _j3gYMC4Q;
@@ -152,9 +157,10 @@ let
         "WUY3rQhs" = _WUY3rQhs;
         "3YNOhWuu" = _3YNOhWuu;
         "36FnS58s" = _36FnS58s;
-        "paper-1.18" = _36FnS58s;
-        "paper-1.18.1" = _36FnS58s;
-        "paper-1.18.2" = _36FnS58s;
+        "kEaztlai" = _kEaztlai;
+        "paper-1.18" = _kEaztlai;
+        "paper-1.18.1" = _kEaztlai;
+        "paper-1.18.2" = _kEaztlai;
         "paper-1.19" = _rwiL6Z61;
         "paper-1.19.1" = _rwiL6Z61;
         "paper-1.19.2" = _rwiL6Z61;
@@ -179,9 +185,9 @@ let
         "paper-1.21.9" = _3YNOhWuu;
         "paper-1.21.10" = _3YNOhWuu;
         "paper-1.21.11" = _3YNOhWuu;
-        "purpur-1.18" = _36FnS58s;
-        "purpur-1.18.1" = _36FnS58s;
-        "purpur-1.18.2" = _36FnS58s;
+        "purpur-1.18" = _kEaztlai;
+        "purpur-1.18.1" = _kEaztlai;
+        "purpur-1.18.2" = _kEaztlai;
         "purpur-1.19" = _rwiL6Z61;
         "purpur-1.19.1" = _rwiL6Z61;
         "purpur-1.19.2" = _rwiL6Z61;
@@ -206,9 +212,9 @@ let
         "purpur-1.21.9" = _3YNOhWuu;
         "purpur-1.21.10" = _3YNOhWuu;
         "purpur-1.21.11" = _3YNOhWuu;
-        "spigot-1.18" = _36FnS58s;
-        "spigot-1.18.1" = _36FnS58s;
-        "spigot-1.18.2" = _36FnS58s;
+        "spigot-1.18" = _kEaztlai;
+        "spigot-1.18.1" = _kEaztlai;
+        "spigot-1.18.2" = _kEaztlai;
         "spigot-1.19" = _rwiL6Z61;
         "spigot-1.19.1" = _rwiL6Z61;
         "spigot-1.19.2" = _rwiL6Z61;
@@ -233,9 +239,9 @@ let
         "spigot-1.21.9" = _3YNOhWuu;
         "spigot-1.21.10" = _3YNOhWuu;
         "spigot-1.21.11" = _3YNOhWuu;
-        "bukkit-1.18" = _36FnS58s;
-        "bukkit-1.18.1" = _36FnS58s;
-        "bukkit-1.18.2" = _36FnS58s;
+        "bukkit-1.18" = _kEaztlai;
+        "bukkit-1.18.1" = _kEaztlai;
+        "bukkit-1.18.2" = _kEaztlai;
         "bukkit-1.19" = _rwiL6Z61;
         "bukkit-1.19.1" = _rwiL6Z61;
         "bukkit-1.19.2" = _rwiL6Z61;
@@ -260,9 +266,9 @@ let
         "bukkit-1.21.9" = _3YNOhWuu;
         "bukkit-1.21.10" = _3YNOhWuu;
         "bukkit-1.21.11" = _3YNOhWuu;
-        "folia-1.18" = _36FnS58s;
-        "folia-1.18.1" = _36FnS58s;
-        "folia-1.18.2" = _36FnS58s;
+        "folia-1.18" = _kEaztlai;
+        "folia-1.18.1" = _kEaztlai;
+        "folia-1.18.2" = _kEaztlai;
         "folia-1.19" = _rwiL6Z61;
         "folia-1.19.1" = _rwiL6Z61;
         "folia-1.19.2" = _rwiL6Z61;
@@ -312,7 +318,8 @@ let
         "pkg-2.3.0" = _WUY3rQhs;
         "pkg-2.4.0" = _3YNOhWuu;
         "pkg-2.5.0" = _36FnS58s;
-        "default" = _36FnS58s;
+        "pkg-2.6.0" = _kEaztlai;
+        "default" = _kEaztlai;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "axenvoys";

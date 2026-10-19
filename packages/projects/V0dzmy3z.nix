@@ -36,6 +36,11 @@ let
             "file" = "HealthIndicators-fabric-26.2-1.jar";
             "hash" = "sha512-/gTKZQZSgnuXFqUg+RwPnjbbiqG+DyZB1KVcB5+Cp0XsU20D3a09VWSi/5eiu6MXIpxUdrMSBSrjASm7WT8cMQ==";
         };
+        _vhLn78AF = {
+            "id" = "vhLn78AF";
+            "file" = "HealthIndicators-fabric-26.3-1.jar";
+            "hash" = "sha512-NB8WrsY43rmez9a4fa+Q6QGMnO5gpM2GrUKrXfzayRAYUq4zawY40nuQfCZAkycZqNv7GlsLkQ8xa6Zeum6Tcw==";
+        };
     in {
         "UVprvPHK" = _UVprvPHK;
         "q0jAxgST" = _q0jAxgST;
@@ -44,14 +49,17 @@ let
         "qkUoYJb7" = _qkUoYJb7;
         "VDz8ftnd" = _VDz8ftnd;
         "uFaKg9Ir" = _uFaKg9Ir;
+        "vhLn78AF" = _vhLn78AF;
         "fabric-1.21.11" = _VDz8ftnd;
         "fabric-26.2" = _uFaKg9Ir;
+        "fabric-26.3" = _vhLn78AF;
         "pkg-21.11.1" = _q0jAxgST;
         "pkg-21.11.2" = _espwLgK6;
         "pkg-21.11.3" = _qkUoYJb7;
         "pkg-21.11.4" = _VDz8ftnd;
         "pkg-26.2-1" = _uFaKg9Ir;
-        "default" = _uFaKg9Ir;
+        "pkg-26.3-1" = _vhLn78AF;
+        "default" = _vhLn78AF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "health-indicators-fairplay";

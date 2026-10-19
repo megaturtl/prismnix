@@ -281,6 +281,11 @@ let
             "file" = "tooltrims-2.0.11-beta2+tt3.0.x+mc26.3.jar";
             "hash" = "sha512-QEnF4fiDtL53vIVUiLA7YSAToqCdukLV3uYWWLCzP0IqfV3dfgGmh5a/OQzPstoaocx+456pPAGmtpOO2vwcWA==";
         };
+        _m2tFS10G = {
+            "id" = "m2tFS10G";
+            "file" = "tooltrims-2.0.12+tt3.0.x+mc26.1.2.jar";
+            "hash" = "sha512-AW0eIyyPCd0np/OymVTZGAMBCX7Ein530cRDi0bvYmZGspsYsYpPY9wKzayyqcXTB3wrQ9aE/6FIX7chJrIU7g==";
+        };
     in {
         "WRtppsyl" = _WRtppsyl;
         "dw2LtBRK" = _dw2LtBRK;
@@ -338,6 +343,7 @@ let
         "E4vrX0uJ" = _E4vrX0uJ;
         "PQ271azb" = _PQ271azb;
         "Xl33mYn4" = _Xl33mYn4;
+        "m2tFS10G" = _m2tFS10G;
         "fabric-1.20" = _scwcAaKL;
         "fabric-1.20.1" = _scwcAaKL;
         "fabric-1.20.2" = _dw2LtBRK;
@@ -366,9 +372,9 @@ let
         "fabric-26.1-snapshot-7" = _PA08wIEz;
         "fabric-26.1-snapshot-8" = _PA08wIEz;
         "fabric-26.1-snapshot-9" = _PA08wIEz;
-        "fabric-26.1" = _TL0qjIrc;
-        "fabric-26.1.1" = _TL0qjIrc;
-        "fabric-26.1.2" = _TL0qjIrc;
+        "fabric-26.1" = _m2tFS10G;
+        "fabric-26.1.1" = _m2tFS10G;
+        "fabric-26.1.2" = _m2tFS10G;
         "fabric-26.2-rc-1" = _8XWSNWql;
         "fabric-26.2-rc-2" = _8XWSNWql;
         "fabric-26.2" = _Hbyk0zuB;
@@ -387,6 +393,9 @@ let
         "quilt-1.21.3" = _3uCApgA9;
         "quilt-1.21.4" = _I3yUbLmF;
         "quilt-1.21.5" = _2mO37ElS;
+        "neoforge-26.1" = _m2tFS10G;
+        "neoforge-26.1.1" = _m2tFS10G;
+        "neoforge-26.1.2" = _m2tFS10G;
         "pkg-1.0.0+mc1.20.1" = _WRtppsyl;
         "pkg-1.0.0+mc1.20.2" = _dw2LtBRK;
         "pkg-1.0.0+mc1.20.3" = _iYQEalwv;
@@ -443,7 +452,8 @@ let
         "pkg-2.0.10-alpha2+tt3.0.x+mc26.3" = _E4vrX0uJ;
         "pkg-2.0.10-beta1+tt3.0.x+mc26.3" = _PQ271azb;
         "pkg-2.0.11-beta2+tt3.0.x+mc26.3" = _Xl33mYn4;
-        "default" = _Xl33mYn4;
+        "pkg-2.0.12+tt3.0.x+mc26.1.2" = _m2tFS10G;
+        "default" = _m2tFS10G;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tool-trims-mod";

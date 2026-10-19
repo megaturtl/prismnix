@@ -71,6 +71,11 @@ let
             "file" = "cuttingdelight-forge-1.20.1-1.1.1.jar";
             "hash" = "sha512-g6sspbA1FAEufMQVNpc8vEA74g0hWEbnw7AooeimPCdrR3ZcopG7j4l7JG406eHxu4x2mKP0bn6VP1wRt/N+PA==";
         };
+        _bIVAALwt = {
+            "id" = "bIVAALwt";
+            "file" = "cuttingdelight-fabric-1.21.1-1.1.1-dev.jar";
+            "hash" = "sha512-R1uJMpxsQrQkOC0EZd+9WwQHLKbN+P99qckfEvO+iMXr3tC4KGyHIzrR/LyvAcvgTJ3aDBNbCnm6eo7oTORHag==";
+        };
     in {
         "4Waavmug" = _4Waavmug;
         "QWDUOagb" = _QWDUOagb;
@@ -86,8 +91,10 @@ let
         "aZEd3nAa" = _aZEd3nAa;
         "DLQYtKV4" = _DLQYtKV4;
         "qmc5p0cA" = _qmc5p0cA;
+        "bIVAALwt" = _bIVAALwt;
         "neoforge-1.21.1" = _DLQYtKV4;
         "forge-1.20.1" = _qmc5p0cA;
+        "fabric-1.21.1" = _bIVAALwt;
         "pkg-1.0.0-alpha" = _4Waavmug;
         "pkg-1.0.0-alpha.1" = _QWDUOagb;
         "pkg-1.0.0-alpha.2" = _jLQNSZnh;
@@ -100,9 +107,9 @@ let
         "pkg-1.20.1-1.0.0-beta" = _mZhfifs8;
         "pkg-1.21.1-1.1.0" = _jUMDKWFQ;
         "pkg-1.20.1-1.1.0" = _aZEd3nAa;
-        "pkg-1.21.1-1.1.1" = _DLQYtKV4;
+        "pkg-1.21.1-1.1.1" = _bIVAALwt;
         "pkg-1.20.1-1.1.1" = _qmc5p0cA;
-        "default" = _qmc5p0cA;
+        "default" = _bIVAALwt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cutting-delight";

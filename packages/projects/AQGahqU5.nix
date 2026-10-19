@@ -76,6 +76,26 @@ let
             "file" = "accuratefpsplus-1.21.11-1.2-r2-neoforge.jar";
             "hash" = "sha512-RlFXlUEZqRt82BzIyQ3h39996SGXcsVeuqSl+ZQOSLW3wNO3++GOXWaqyIJL0mvXP8c0v6JbhVLKEfU19JQBLA==";
         };
+        _5wCQp2JX = {
+            "id" = "5wCQp2JX";
+            "file" = "accuratefpsplus-1.21.1-1.3-r1-fabric.jar";
+            "hash" = "sha512-nxgnkpZ+GzpYYqdmYLF5msepuRj78s8tTYXDgfGyNuGRx7PpG/zJrQ0CEl3HQElJpKKXs3f1sDIcThVZJJVHtQ==";
+        };
+        _lOUQF4ZO = {
+            "id" = "lOUQF4ZO";
+            "file" = "accuratefpsplus-1.21.11-1.3-r1-fabric.jar";
+            "hash" = "sha512-8NS+8NSAGSyFZecAXleOLj8bP6KjT8s8OX64k/cz4PalUNX48uFgL8v+/GO0MoygPpaIj6grbrgZ5v56/pibrA==";
+        };
+        _sQz8S02P = {
+            "id" = "sQz8S02P";
+            "file" = "accuratefpsplus-1.21.1-1.3-r1-neoforge.jar";
+            "hash" = "sha512-aonAcY9uMnVOPjOjggrAtUMserLYIh61wQWtXari/sClyLv7pZAZxr0eNXtn55xIKSxiL4YiiHDK0gT/Z+FKTA==";
+        };
+        _xNvOMctB = {
+            "id" = "xNvOMctB";
+            "file" = "accuratefpsplus-1.21.11-1.3-r1-neoforge.jar";
+            "hash" = "sha512-RabkyUQCX9aSpQIyg5DnXd7pG5vPfMiJqAhLBwa3w4Vg517PNsilCqbC4GX/FH9xA7FHOMC+F3jGaNu9kewyXA==";
+        };
     in {
         "f00hpXX7" = _f00hpXX7;
         "4nuhzszF" = _4nuhzszF;
@@ -92,20 +112,25 @@ let
         "6yu2giDR" = _6yu2giDR;
         "7rg7nghQ" = _7rg7nghQ;
         "jGa7vucp" = _jGa7vucp;
-        "fabric-1.21.1" = _syOtqlz2;
-        "fabric-1.21.11" = _7rg7nghQ;
+        "5wCQp2JX" = _5wCQp2JX;
+        "lOUQF4ZO" = _lOUQF4ZO;
+        "sQz8S02P" = _sQz8S02P;
+        "xNvOMctB" = _xNvOMctB;
+        "fabric-1.21.1" = _5wCQp2JX;
+        "fabric-1.21.11" = _lOUQF4ZO;
         "forge-1.21.1" = _FNkzYqIH;
         "forge-1.21.11" = _kqLlp4tj;
         "quilt-1.21.1" = _SGBR1Lye;
         "quilt-1.21.11" = _4J2dBTjn;
-        "neoforge-1.21.1" = _6yu2giDR;
-        "neoforge-1.21.11" = _jGa7vucp;
+        "neoforge-1.21.1" = _sQz8S02P;
+        "neoforge-1.21.11" = _xNvOMctB;
         "pkg-1.0-r1" = _4J2dBTjn;
         "pkg-1.0-r2.Refabricated" = _4f9jCBuS;
         "pkg-1.1-r1" = _fISOQoC8;
         "pkg-1.2-r1" = _yWzlsaUj;
         "pkg-1.2-r2" = _jGa7vucp;
-        "default" = _jGa7vucp;
+        "pkg-1.3-r1" = _xNvOMctB;
+        "default" = _xNvOMctB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "accuratefpsplus";

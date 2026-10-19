@@ -271,6 +271,16 @@ let
             "file" = "bubusteinmoneymod-NeoForge-mc26.2-14.2.0.jar";
             "hash" = "sha512-pUI37VnyrIbKWE81IpC7LO5zoXT60TZMiLu1SsSpvPGjd2d/VEouYBGQQ8scxW69BqJarqQHbIdCryXq05PPVw==";
         };
+        _13E613TP = {
+            "id" = "13E613TP";
+            "file" = "bubusteinmoneymod-Fabric-mc26.3-15.2.0.jar";
+            "hash" = "sha512-zksw/gIv3qmDKQin3jVQgAZxc6cBMPpd9Gnz1Bxq4dTd2nBVDvhqwORlI1NVbgGAWWqf/ked0SLIvWN1LMeRaQ==";
+        };
+        _kuMkNb9K = {
+            "id" = "kuMkNb9K";
+            "file" = "bubusteinmoneymod-NeoForge-mc26.3-15.2.0.jar";
+            "hash" = "sha512-avSO1iIhhpEAtaAZ5o3vxHmU7yLoSv38aQIZFIx4nRJURUu/pUU1TSyRsezzKXY850GcEu4o7NJ0gtc3LMw4RA==";
+        };
     in {
         "IGi6qznJ" = _IGi6qznJ;
         "jS70LRR4" = _jS70LRR4;
@@ -326,6 +336,8 @@ let
         "5Yue9LPu" = _5Yue9LPu;
         "etBG6TuJ" = _etBG6TuJ;
         "1hHNBSjU" = _1hHNBSjU;
+        "13E613TP" = _13E613TP;
+        "kuMkNb9K" = _kuMkNb9K;
         "fabric-1.19.2" = _KUKo0WCA;
         "fabric-1.19.3" = _jS70LRR4;
         "fabric-1.19.4" = _jS70LRR4;
@@ -342,6 +354,7 @@ let
         "fabric-1.21.11" = _8YA2ymRA;
         "fabric-26.1.2" = _dl8YPLpP;
         "fabric-26.2" = _etBG6TuJ;
+        "fabric-26.3" = _13E613TP;
         "forge-1.16.5" = _XILf1tPq;
         "forge-1.18.2" = _BnqxX5Bq;
         "forge-1.19.2" = _vMi0kzqY;
@@ -358,6 +371,7 @@ let
         "neoforge-1.21.11" = _5Yue9LPu;
         "neoforge-26.1.2" = _xyE4rfWp;
         "neoforge-26.2" = _1hHNBSjU;
+        "neoforge-26.3" = _kuMkNb9K;
         "pkg-0.1+1.19.2" = _IGi6qznJ;
         "pkg-0.1+1.19.3-1.19.4" = _jS70LRR4;
         "pkg-0.1+1.20" = _LE2Ff58r;
@@ -412,7 +426,9 @@ let
         "pkg-12.2.0+neoforge" = _5Yue9LPu;
         "pkg-14.2.0+fabric" = _etBG6TuJ;
         "pkg-14.2.0+neoforge" = _1hHNBSjU;
-        "default" = _1hHNBSjU;
+        "pkg-15.2.0+fabric" = _13E613TP;
+        "pkg-15.2.0+neoforge" = _kuMkNb9K;
+        "default" = _kuMkNb9K;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bubustein-money";

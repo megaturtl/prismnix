@@ -126,6 +126,11 @@ let
             "file" = "Saros-FakeName-Forge-26.3-1.11.jar";
             "hash" = "sha512-XwJqtlhF90Yo7CgFdx2qMaPjVIhyis60rxb0rTp16zCc0UxlIXV4RLMQDL2OHCiCAFh7OfAJq2frHQmc8et2Aw==";
         };
+        _pEgeKZMT = {
+            "id" = "pEgeKZMT";
+            "file" = "Saros-FakeName-NeoForge-26.3-1.11.jar";
+            "hash" = "sha512-mSPbp+gdQL80M4ylAaQnNep96sl8B5tpvpW2L/7wK9vVWvCaDRlzzQG17jg81IJPYGUVyVdw295SW9OzhAiINg==";
+        };
     in {
         "fdLju2tT" = _fdLju2tT;
         "OGqciHpB" = _OGqciHpB;
@@ -152,6 +157,7 @@ let
         "YxgFF5IU" = _YxgFF5IU;
         "fCXrFJeu" = _fCXrFJeu;
         "mVufBxWe" = _mVufBxWe;
+        "pEgeKZMT" = _pEgeKZMT;
         "forge-1.20" = _fdLju2tT;
         "forge-1.20.1" = _fdLju2tT;
         "forge-1.20.2" = _fdLju2tT;
@@ -184,7 +190,7 @@ let
         "neoforge-26.1.1" = _GqyYqtbd;
         "neoforge-26.1.2" = _GqyYqtbd;
         "neoforge-26.2" = _8ttH010v;
-        "neoforge-26.3" = _fCXrFJeu;
+        "neoforge-26.3" = _pEgeKZMT;
         "pkg-1.5" = _fdLju2tT;
         "pkg-1.6" = _uRNc8Ku0;
         "pkg-1.0" = _GqyYqtbd;
@@ -195,7 +201,8 @@ let
         "pkg-1.9" = _YxgFF5IU;
         "pkg-1.10" = _fCXrFJeu;
         "pkg-1.11-forge-26.3" = _mVufBxWe;
-        "default" = _mVufBxWe;
+        "pkg-1.11" = _pEgeKZMT;
+        "default" = _pEgeKZMT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "saros-fakename-port";

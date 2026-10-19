@@ -751,6 +751,16 @@ let
             "file" = "skyblocker-6.10.4+26.2.jar";
             "hash" = "sha512-bBH6iXSVsn97xobC0V6JChPzcmfVI8qBpbBhOtkmfevmhDNbib5cBr6nxwUmbaakgXQQFQDad6u7/oYoC/4e2w==";
         };
+        _oJBCoaXX = {
+            "id" = "oJBCoaXX";
+            "file" = "skyblocker-6.11.0+26.1.2.jar";
+            "hash" = "sha512-9BvsQqHsPuM2643Ab14lEVNMZqNTgvJhRKwKzwgJ85DDbH+C1+lTz8o/D9k4tDpeVa6Q0Yis/kqvvQk8dV+oVA==";
+        };
+        _Xjl0gQEB = {
+            "id" = "Xjl0gQEB";
+            "file" = "skyblocker-6.11.0+26.2.jar";
+            "hash" = "sha512-lGt+yKXfRXFWgVI9Bx8SgFWDcDJTHrUsDtji7KsFe4iaZneMLn0AYOSTXHkvy5jwK58N8iCU4J6MGTFQSV2L9w==";
+        };
     in {
         "hwgIu5hN" = _hwgIu5hN;
         "G900jWmS" = _G900jWmS;
@@ -902,6 +912,8 @@ let
         "Fso2KMdt" = _Fso2KMdt;
         "FWeU0Ppi" = _FWeU0Ppi;
         "Kegf578l" = _Kegf578l;
+        "oJBCoaXX" = _oJBCoaXX;
+        "Xjl0gQEB" = _Xjl0gQEB;
         "fabric-1.17.1" = _Tve0PR7d;
         "fabric-1.18" = _igdQFr0I;
         "fabric-1.18.1" = _igdQFr0I;
@@ -929,10 +941,10 @@ let
         "fabric-1.21.9" = _SFUNlSpi;
         "fabric-1.21.10" = _SFUNlSpi;
         "fabric-1.21.11" = _7MTtY24j;
-        "fabric-26.1" = _FWeU0Ppi;
-        "fabric-26.1.1" = _FWeU0Ppi;
-        "fabric-26.1.2" = _FWeU0Ppi;
-        "fabric-26.2" = _Kegf578l;
+        "fabric-26.1" = _oJBCoaXX;
+        "fabric-26.1.1" = _oJBCoaXX;
+        "fabric-26.1.2" = _oJBCoaXX;
+        "fabric-26.2" = _Xjl0gQEB;
         "pkg-v1.0.6" = _hwgIu5hN;
         "pkg-v1.0.7" = _G900jWmS;
         "pkg-v1.0.7.1" = _HrE9UvbD;
@@ -1083,7 +1095,9 @@ let
         "pkg-v6.10.3+26.2" = _Fso2KMdt;
         "pkg-v6.10.4+26.1.2" = _FWeU0Ppi;
         "pkg-v6.10.4+26.2" = _Kegf578l;
-        "default" = _Kegf578l;
+        "pkg-v6.11.0+26.1.2" = _oJBCoaXX;
+        "pkg-v6.11.0+26.2" = _Xjl0gQEB;
+        "default" = _Xjl0gQEB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skyblocker-liap";

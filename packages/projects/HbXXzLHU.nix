@@ -291,6 +291,16 @@ let
             "file" = "xtoxray-2026.29.jar";
             "hash" = "sha512-qlL022Fwu1U6KnbTg5WUudyjLcDLwz2zvJLUWUQVALP9A05Sr4y+t4ygz8TvZeTojfmpLRyn8facI/8nlH6CRg==";
         };
+        _MppEpa5I = {
+            "id" = "MppEpa5I";
+            "file" = "xtoxray-2026.29-forge.jar";
+            "hash" = "sha512-uRBEf/HXM6i4jqofe06Avmy08rsrzMuxKDT4QC0up3v2KJtbMBweUGZFNoZody278UlanA19Bc9YZl1+EMnmCw==";
+        };
+        _Jq0Q7Dql = {
+            "id" = "Jq0Q7Dql";
+            "file" = "xtoxray-2026.29.jar";
+            "hash" = "sha512-fqFkuYbkW4KqHT3N1zrNrAc59XU0iRxrNt2CBaWC1c+/Art2t8OYKnfVlieJulcc/7r78UANESs63GPy2Uc8ow==";
+        };
     in {
         "oP5DctBQ" = _oP5DctBQ;
         "bMcrXwai" = _bMcrXwai;
@@ -350,6 +360,8 @@ let
         "JzZWbXMJ" = _JzZWbXMJ;
         "TI548KQP" = _TI548KQP;
         "DhhuVCFl" = _DhhuVCFl;
+        "MppEpa5I" = _MppEpa5I;
+        "Jq0Q7Dql" = _Jq0Q7Dql;
         "fabric-26.1" = _DhhuVCFl;
         "fabric-26.1.1" = _DhhuVCFl;
         "fabric-26.1.2" = _DhhuVCFl;
@@ -403,12 +415,15 @@ let
         "fabric-1.16.5" = _JzZWbXMJ;
         "fabric-26.4-snapshot-3" = _TI548KQP;
         "quilt-26.1.2" = _fjATlUij;
-        "neoforge-26.1.2" = _aLz1SBMh;
+        "neoforge-26.1.2" = _Jq0Q7Dql;
         "neoforge-1.21.11" = _zGOUvwTB;
-        "neoforge-26.1" = _aLz1SBMh;
-        "neoforge-26.1.1" = _aLz1SBMh;
-        "neoforge-26.2" = _TH1rHqJt;
-        "forge-26.1.2" = _ENxE6Uv6;
+        "neoforge-26.1" = _Jq0Q7Dql;
+        "neoforge-26.1.1" = _Jq0Q7Dql;
+        "neoforge-26.2" = _Jq0Q7Dql;
+        "neoforge-26.3" = _Jq0Q7Dql;
+        "forge-26.1.2" = _MppEpa5I;
+        "forge-26.2" = _MppEpa5I;
+        "forge-26.3" = _MppEpa5I;
         "pkg-2026.0" = _oP5DctBQ;
         "pkg-2026.1" = _bMcrXwai;
         "pkg-2026.3" = _ZhOw78Jc;
@@ -442,8 +457,8 @@ let
         "pkg-2026.28-1" = _JzZWbXMJ;
         "pkg-2026.28.1B" = _1ECFC3hC;
         "pkg-2026.28-1+26.3-sift" = _3EtfcZbY;
-        "pkg-2026.29" = _DhhuVCFl;
-        "default" = _DhhuVCFl;
+        "pkg-2026.29" = _Jq0Q7Dql;
+        "default" = _Jq0Q7Dql;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "x-to-xray";

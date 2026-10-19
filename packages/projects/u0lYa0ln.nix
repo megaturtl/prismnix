@@ -21,17 +21,24 @@ let
             "file" = "opac_essentials-2.2.1.jar";
             "hash" = "sha512-9TZFBLdYlCs23CyAHslQ1fk9TQ3OrY7/Ho6EwVTeidTdbwVu+mFfF3Eygjfcn+VzNNgwIyWFVA9LWMRjnGFHkQ==";
         };
+        _vMdgVil2 = {
+            "id" = "vMdgVil2";
+            "file" = "opac_essentials-2.3.jar";
+            "hash" = "sha512-Hg+RHwuwGPJ4C3RCJAP6zsEqUGG5fCJ21BdKqMnDDQHtbMTYdFYeArBYY2wacYM6mOnhFwj4heYQsB0qR0Mcdw==";
+        };
     in {
         "Rpyn9yDo" = _Rpyn9yDo;
         "mawDVynh" = _mawDVynh;
         "YdvCEvir" = _YdvCEvir;
         "XmXujRlQ" = _XmXujRlQ;
-        "neoforge-1.21.1" = _XmXujRlQ;
+        "vMdgVil2" = _vMdgVil2;
+        "neoforge-1.21.1" = _vMdgVil2;
         "pkg-2.0" = _Rpyn9yDo;
         "pkg-2.1" = _mawDVynh;
         "pkg-2.2" = _YdvCEvir;
         "pkg-2.2.1" = _XmXujRlQ;
-        "default" = _XmXujRlQ;
+        "pkg-2.3" = _vMdgVil2;
+        "default" = _vMdgVil2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "opac-essentials";

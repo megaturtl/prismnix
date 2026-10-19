@@ -96,6 +96,36 @@ let
             "file" = "pvpoptimizer-1.3+mc1.21.1.jar";
             "hash" = "sha512-FkdbSyRjWf1X79qxF/UKBHEM88FP3Q7seiW3KX1xpn6rdatEUH3wGAL05zOKUK/Gmsd04YLXPW7bpnftBDOhMw==";
         };
+        _iQxNofbU = {
+            "id" = "iQxNofbU";
+            "file" = "pvpoptimizer-1.4+mc1.21.9-1.21.11.jar";
+            "hash" = "sha512-PCYVMgtU6tyfwHrY+FKApyPcUfJ9NnQA538VwAYhQ5zS4eh8+uoKGxXQvS6Jdf5Egpgx4/mcWiCuaIjKB0kjvQ==";
+        };
+        _4lGwTXcS = {
+            "id" = "4lGwTXcS";
+            "file" = "pvpoptimizer-1.4+mc26.2.jar";
+            "hash" = "sha512-HkulRNkTM8zHEDGeHF3m2l/6HHLqxBGLsspfryjTI+65UShigHfZ90viFdc3fOxivc4X3YD2r0dTaKZI1J6X0w==";
+        };
+        _H1DItS5V = {
+            "id" = "H1DItS5V";
+            "file" = "pvpoptimizer-1.4+mc1.21.2-1.21.8.jar";
+            "hash" = "sha512-lQCY2tKMl2QjEO687eXu6fUalS7xSId9lBp/nOVxF+LDQa7oPOIxgFAbKHPdPbgn7Az4hVTHP3zCmgPq4ZB5Ng==";
+        };
+        _zOwUNDKY = {
+            "id" = "zOwUNDKY";
+            "file" = "pvpoptimizer-1.4+mc26.1-26.1.2.jar";
+            "hash" = "sha512-iwcucgtoCAXkn6XXaCleuEF+Vj0B1rjohmis2wrt478qfeWOE1loEbxb+vRgmdzf2UFr70qF82u97ZJ0Tut7NA==";
+        };
+        _e6JlbsW2 = {
+            "id" = "e6JlbsW2";
+            "file" = "pvpoptimizer-1.4+mc1.21-1.21.1.jar";
+            "hash" = "sha512-bvgqnPWvwLs3nWTp51zkOM5U4iTD1yLfUyh4az9qEdqRBcwCfRnnHtuWLlXIwPVnhRLv3ajnl3VG+Oj68VQZIg==";
+        };
+        _HhuTXxbk = {
+            "id" = "HhuTXxbk";
+            "file" = "pvpoptimizer-1.4+mc26.3.jar";
+            "hash" = "sha512-i/JGzmpNeqUPTUxc+Xx0ku27do+R2rV0342AC3lqOp76rokNZvEvP51VvBTUqdoaDnDbqhz8r/D1TM7pMkV+xg==";
+        };
     in {
         "KAfVVVxF" = _KAfVVVxF;
         "xGOWKSDe" = _xGOWKSDe;
@@ -116,16 +146,40 @@ let
         "P3R6EBDe" = _P3R6EBDe;
         "2VDzZYa3" = _2VDzZYa3;
         "4IAKBw3Z" = _4IAKBw3Z;
-        "fabric-1.21.10" = _EOEEf0jz;
-        "fabric-1.21.9" = _P3R6EBDe;
-        "fabric-1.21.11" = _d6zD2zS4;
-        "fabric-1.21.8" = _2VDzZYa3;
-        "fabric-1.21.1" = _4IAKBw3Z;
+        "iQxNofbU" = _iQxNofbU;
+        "4lGwTXcS" = _4lGwTXcS;
+        "H1DItS5V" = _H1DItS5V;
+        "zOwUNDKY" = _zOwUNDKY;
+        "e6JlbsW2" = _e6JlbsW2;
+        "HhuTXxbk" = _HhuTXxbk;
+        "fabric-1.21.10" = _iQxNofbU;
+        "fabric-1.21.9" = _iQxNofbU;
+        "fabric-1.21.11" = _iQxNofbU;
+        "fabric-1.21.8" = _H1DItS5V;
+        "fabric-1.21.1" = _e6JlbsW2;
+        "fabric-26.2" = _4lGwTXcS;
+        "fabric-1.21.2" = _H1DItS5V;
+        "fabric-1.21.3" = _H1DItS5V;
+        "fabric-1.21.4" = _H1DItS5V;
+        "fabric-1.21.5" = _H1DItS5V;
+        "fabric-1.21.6" = _H1DItS5V;
+        "fabric-1.21.7" = _H1DItS5V;
+        "fabric-26.1" = _zOwUNDKY;
+        "fabric-26.1.1" = _zOwUNDKY;
+        "fabric-26.1.2" = _zOwUNDKY;
+        "fabric-1.21" = _e6JlbsW2;
+        "fabric-26.3" = _HhuTXxbk;
         "pkg-1.0.0" = _UxWc21LR;
         "pkg-1.0.1" = _7u5iz1Ut;
         "pkg-1.0.2" = _JJZj9jjM;
         "pkg-1.3" = _4IAKBw3Z;
-        "default" = _4IAKBw3Z;
+        "pkg-1.4+mc1.21.9-1.21.11" = _iQxNofbU;
+        "pkg-1.4+mc26.2" = _4lGwTXcS;
+        "pkg-1.4+mc1.21.2-1.21.8" = _H1DItS5V;
+        "pkg-1.4+mc26.1-26.1.2" = _zOwUNDKY;
+        "pkg-1.4+mc1.21-1.21.1" = _e6JlbsW2;
+        "pkg-1.4+mc26.3" = _HhuTXxbk;
+        "default" = _HhuTXxbk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pvp-optmizer";

@@ -26,29 +26,40 @@ let
             "file" = "PrismaCraft (dp).zip";
             "hash" = "sha512-+Q+APFhpmBwWKjq1GMb+1CMBNbgk160VVWy0Ki2KHvDmQtk2AGQqGm6AYIc5vG0KM++iqpbI9vz9h6yo5hBeKg==";
         };
+        _CBUh8fX5 = {
+            "id" = "CBUh8fX5";
+            "file" = "prisma-craft-2.2.jar";
+            "hash" = "sha512-rJmSQvIBPxGyTO3kcliP5quPK2ZpmSDSP3t5D6iKKpWANHZ5v6vjAxinaQQrLwbss1BviecGg6dHroArq0xhPw==";
+        };
     in {
         "g3PK68HA" = _g3PK68HA;
         "eMtsjK56" = _eMtsjK56;
         "AgcGNUoN" = _AgcGNUoN;
         "VyNng2Dc" = _VyNng2Dc;
         "8zVWBvZE" = _8zVWBvZE;
+        "CBUh8fX5" = _CBUh8fX5;
         "datapack-1.21.11" = _AgcGNUoN;
         "datapack-26.1" = _AgcGNUoN;
         "datapack-26.3" = _8zVWBvZE;
         "fabric-1.21.11" = _VyNng2Dc;
         "fabric-26.1" = _VyNng2Dc;
+        "fabric-26.3" = _CBUh8fX5;
         "forge-1.21.11" = _VyNng2Dc;
         "forge-26.1" = _VyNng2Dc;
+        "forge-26.3" = _CBUh8fX5;
         "neoforge-1.21.11" = _VyNng2Dc;
         "neoforge-26.1" = _VyNng2Dc;
+        "neoforge-26.3" = _CBUh8fX5;
         "quilt-1.21.11" = _VyNng2Dc;
         "quilt-26.1" = _VyNng2Dc;
+        "quilt-26.3" = _CBUh8fX5;
         "pkg-2.0" = _g3PK68HA;
         "pkg-2.0+mod" = _eMtsjK56;
         "pkg-2.1" = _AgcGNUoN;
         "pkg-2.1+mod" = _VyNng2Dc;
         "pkg-2.2" = _8zVWBvZE;
-        "default" = _8zVWBvZE;
+        "pkg-2.2+mod" = _CBUh8fX5;
+        "default" = _CBUh8fX5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "prisma-craft";

@@ -1,0 +1,105 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _Vl4SJUT0 = {
+            "id" = "Vl4SJUT0";
+            "file" = "Not pixelated pearl.zip";
+            "hash" = "sha512-mMJo2N9LzZ4tr1Nqrq8fhUWlqoegl26MpKroxc/Gk6BxC48rhpzRXfhqNNCcoWK/yI8QypUr5TXbMbTJdzS3nw==";
+        };
+    in {
+        "Vl4SJUT0" = _Vl4SJUT0;
+        "minecraft-1.16" = _Vl4SJUT0;
+        "minecraft-1.16.1" = _Vl4SJUT0;
+        "minecraft-1.16.2" = _Vl4SJUT0;
+        "minecraft-1.16.3" = _Vl4SJUT0;
+        "minecraft-1.16.4" = _Vl4SJUT0;
+        "minecraft-1.16.5" = _Vl4SJUT0;
+        "minecraft-1.17" = _Vl4SJUT0;
+        "minecraft-1.17.1" = _Vl4SJUT0;
+        "minecraft-1.18" = _Vl4SJUT0;
+        "minecraft-1.18.1" = _Vl4SJUT0;
+        "minecraft-1.18.2" = _Vl4SJUT0;
+        "minecraft-1.19" = _Vl4SJUT0;
+        "minecraft-1.19.1" = _Vl4SJUT0;
+        "minecraft-1.19.2" = _Vl4SJUT0;
+        "minecraft-1.19.3" = _Vl4SJUT0;
+        "minecraft-1.19.4" = _Vl4SJUT0;
+        "minecraft-1.20" = _Vl4SJUT0;
+        "minecraft-1.20.1" = _Vl4SJUT0;
+        "minecraft-1.20.2" = _Vl4SJUT0;
+        "minecraft-23w42a" = _Vl4SJUT0;
+        "minecraft-23w43a" = _Vl4SJUT0;
+        "minecraft-23w43b" = _Vl4SJUT0;
+        "minecraft-23w44a" = _Vl4SJUT0;
+        "minecraft-23w45a" = _Vl4SJUT0;
+        "minecraft-23w46a" = _Vl4SJUT0;
+        "minecraft-1.20.3" = _Vl4SJUT0;
+        "minecraft-1.20.4" = _Vl4SJUT0;
+        "minecraft-24w03a" = _Vl4SJUT0;
+        "minecraft-24w03b" = _Vl4SJUT0;
+        "minecraft-24w04a" = _Vl4SJUT0;
+        "minecraft-24w05a" = _Vl4SJUT0;
+        "minecraft-24w05b" = _Vl4SJUT0;
+        "minecraft-24w06a" = _Vl4SJUT0;
+        "minecraft-24w07a" = _Vl4SJUT0;
+        "minecraft-24w09a" = _Vl4SJUT0;
+        "minecraft-24w10a" = _Vl4SJUT0;
+        "minecraft-24w11a" = _Vl4SJUT0;
+        "minecraft-24w12a" = _Vl4SJUT0;
+        "minecraft-24w13a" = _Vl4SJUT0;
+        "minecraft-24w14potato" = _Vl4SJUT0;
+        "minecraft-24w14a" = _Vl4SJUT0;
+        "minecraft-1.20.5-pre1" = _Vl4SJUT0;
+        "minecraft-1.20.5-pre2" = _Vl4SJUT0;
+        "minecraft-1.20.5-pre3" = _Vl4SJUT0;
+        "minecraft-1.20.5" = _Vl4SJUT0;
+        "minecraft-1.20.6" = _Vl4SJUT0;
+        "minecraft-24w18a" = _Vl4SJUT0;
+        "minecraft-24w19a" = _Vl4SJUT0;
+        "minecraft-24w19b" = _Vl4SJUT0;
+        "minecraft-24w20a" = _Vl4SJUT0;
+        "minecraft-1.21" = _Vl4SJUT0;
+        "minecraft-1.21.1" = _Vl4SJUT0;
+        "minecraft-24w33a" = _Vl4SJUT0;
+        "minecraft-24w34a" = _Vl4SJUT0;
+        "minecraft-24w35a" = _Vl4SJUT0;
+        "minecraft-24w36a" = _Vl4SJUT0;
+        "minecraft-24w37a" = _Vl4SJUT0;
+        "minecraft-24w38a" = _Vl4SJUT0;
+        "minecraft-24w39a" = _Vl4SJUT0;
+        "minecraft-24w40a" = _Vl4SJUT0;
+        "minecraft-1.21.2-pre1" = _Vl4SJUT0;
+        "minecraft-1.21.2-pre2" = _Vl4SJUT0;
+        "minecraft-1.21.2" = _Vl4SJUT0;
+        "minecraft-1.21.3" = _Vl4SJUT0;
+        "minecraft-24w44a" = _Vl4SJUT0;
+        "minecraft-24w45a" = _Vl4SJUT0;
+        "minecraft-24w46a" = _Vl4SJUT0;
+        "minecraft-1.21.4" = _Vl4SJUT0;
+        "minecraft-1.21.5" = _Vl4SJUT0;
+        "minecraft-1.21.6" = _Vl4SJUT0;
+        "minecraft-1.21.7" = _Vl4SJUT0;
+        "minecraft-1.21.8" = _Vl4SJUT0;
+        "minecraft-1.21.9" = _Vl4SJUT0;
+        "minecraft-1.21.10" = _Vl4SJUT0;
+        "minecraft-1.21.11" = _Vl4SJUT0;
+        "pkg-Main-Version-v1" = _Vl4SJUT0;
+        "default" = _Vl4SJUT0;
+    });
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "circular-ender-pearl";
+        id = "DHUnDK7P";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-All-Rights-Reserved";
+                shortName = "LicenseRef-All-Rights-Reserved";
+                url = null;
+            };
+        };
+    };
+in callPackage fn {}

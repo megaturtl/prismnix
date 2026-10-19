@@ -636,6 +636,11 @@ let
             "file" = "M1-(1.21-1.21.4)(neo).jar";
             "hash" = "sha512-55RZ1Yd8pUDSUKufPmQDTd8FOm7HzbdwShU8iUMkfHIR6LYBYQjINo1+mJ4JMclJHodX8xjNtd5Scv0gounwFw==";
         };
+        _HOYKm0Fc = {
+            "id" = "HOYKm0Fc";
+            "file" = "M1-(1.21.5)(neo).jar";
+            "hash" = "sha512-wQdrK9wLlxoq5Wvkh5mkAUz6/JYK3cvDG6dTWVFqXD98zD2yW6N5wEnISjxFtDE59iVz2VZpu73Vy4jZ1JYNAA==";
+        };
     in {
         "2nAtcj1B" = _2nAtcj1B;
         "SjFRGMnv" = _SjFRGMnv;
@@ -764,6 +769,7 @@ let
         "YU7lezfy" = _YU7lezfy;
         "7BRqjKwm" = _7BRqjKwm;
         "6IA1GJ9z" = _6IA1GJ9z;
+        "HOYKm0Fc" = _HOYKm0Fc;
         "forge-1.19.2" = _Mgnjdzo6;
         "forge-1.20.1" = _yQ4SZ2Y9;
         "forge-1.21.5" = _PdyezqYS;
@@ -842,6 +848,7 @@ let
         "neoforge-1.21.2" = _6IA1GJ9z;
         "neoforge-1.21.3" = _6IA1GJ9z;
         "neoforge-1.21.4" = _6IA1GJ9z;
+        "neoforge-1.21.5" = _HOYKm0Fc;
         "pkg-1.0" = _4B6YKWrZ;
         "pkg-M1.5mob" = _EKbY9pkk;
         "pkg-M1-mob" = _sdoG6dEG;
@@ -947,7 +954,8 @@ let
         "pkg-M1-(1.18.x)(fabric)" = _YU7lezfy;
         "pkg-M1-(1.16.x)(fabric)" = _7BRqjKwm;
         "pkg-M1-(1.21-1.21.4)(neo)" = _6IA1GJ9z;
-        "default" = _6IA1GJ9z;
+        "pkg-M1-(1.21.5)(neo)" = _HOYKm0Fc;
+        "default" = _HOYKm0Fc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "allmobs";

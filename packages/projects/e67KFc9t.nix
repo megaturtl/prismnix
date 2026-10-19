@@ -1021,6 +1021,11 @@ let
             "file" = "BarelyDefaultV21.3.zip";
             "hash" = "sha512-mIH4qwp1ATcisbUDMcJb550NW92Fh4NfvfK+Z+BTxzhWNke6rIxm53hTATDwxoQAFKHOAm8r+5lrSIl7mKpM7Q==";
         };
+        _EwbIVdMy = {
+            "id" = "EwbIVdMy";
+            "file" = "BarelyDefaultV21.4.zip";
+            "hash" = "sha512-Q2C/kyqwUYv1mwm5/hJi3/oNzQxcloKnLQWt7wRwNIk9WtlyxbHVA6yMkzjZJ+cjFZmhHc4Hkvc+hIRuu9caBg==";
+        };
     in {
         "WMUixiT4" = _WMUixiT4;
         "i3mMytB4" = _i3mMytB4;
@@ -1226,6 +1231,7 @@ let
         "BigsPKOR" = _BigsPKOR;
         "OfeqVHCJ" = _OfeqVHCJ;
         "u42fg55M" = _u42fg55M;
+        "EwbIVdMy" = _EwbIVdMy;
         "minecraft-1.19.3" = _CGvCRcPv;
         "minecraft-1.19.4" = _CGvCRcPv;
         "minecraft-1.20" = _CGvCRcPv;
@@ -1290,7 +1296,7 @@ let
         "minecraft-26.3-pre-3" = _uyv0yOr2;
         "minecraft-26.3-rc-1" = _uyv0yOr2;
         "minecraft-26.3-rc-2" = _uyv0yOr2;
-        "minecraft-26.3" = _u42fg55M;
+        "minecraft-26.3" = _EwbIVdMy;
         "minecraft-26.4-snapshot-1" = _u42fg55M;
         "minecraft-26.4-snapshot-2" = _u42fg55M;
         "pkg-9.22" = _WMUixiT4;
@@ -1495,7 +1501,8 @@ let
         "pkg-21.1" = _BigsPKOR;
         "pkg-21.2" = _OfeqVHCJ;
         "pkg-21.3" = _u42fg55M;
-        "default" = _u42fg55M;
+        "pkg-21.4" = _EwbIVdMy;
+        "default" = _EwbIVdMy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mickey-joes-relatively-improved-default";

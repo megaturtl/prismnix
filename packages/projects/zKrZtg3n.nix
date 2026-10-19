@@ -126,6 +126,11 @@ let
             "file" = "organizable-play-screens-1.3.2+26.2.jar";
             "hash" = "sha512-Qlt7RRDl0qXJzLcIWOFNVOzxc1ZghuRTpRoS6/ZQsdk4vzZHsUDZZylc9WRkmdBodxdng7HT4PBocH3TJR+0CA==";
         };
+        _4XsdU0zl = {
+            "id" = "4XsdU0zl";
+            "file" = "organizable-play-screens-1.3.3+26.3.jar";
+            "hash" = "sha512-nzSTrA5nzAMFy9p21euYTg7xz6OHQGY3n+ykUshqZ8aMTjtiU77kXCwNSj8bRZZ9uMIBDOMzeewvEUlS3aYafg==";
+        };
     in {
         "dB8HpKrp" = _dB8HpKrp;
         "CqS2Dewb" = _CqS2Dewb;
@@ -152,6 +157,7 @@ let
         "r7tHkIoV" = _r7tHkIoV;
         "zvArYSpf" = _zvArYSpf;
         "EIF0cUKm" = _EIF0cUKm;
+        "4XsdU0zl" = _4XsdU0zl;
         "fabric-1.19" = _dB8HpKrp;
         "fabric-1.19.1" = _1NTizKEk;
         "fabric-1.19.2" = _1NTizKEk;
@@ -180,6 +186,7 @@ let
         "fabric-26.1.1" = _zvArYSpf;
         "fabric-26.1.2" = _zvArYSpf;
         "fabric-26.2" = _EIF0cUKm;
+        "fabric-26.3" = _4XsdU0zl;
         "pkg-1.0.0" = _dB8HpKrp;
         "pkg-1.0.1" = _CqS2Dewb;
         "pkg-1.0.2" = _yWqxaygM;
@@ -205,7 +212,8 @@ let
         "pkg-1.3.0+1.21.11" = _r7tHkIoV;
         "pkg-1.3.1+26.1.2" = _zvArYSpf;
         "pkg-1.3.2+26.2" = _EIF0cUKm;
-        "default" = _EIF0cUKm;
+        "pkg-1.3.3+26.3" = _4XsdU0zl;
+        "default" = _4XsdU0zl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "organizable-play-screens";

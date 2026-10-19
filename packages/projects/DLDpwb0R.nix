@@ -36,6 +36,11 @@ let
             "file" = "world_of_color-1.4.1.jar";
             "hash" = "sha512-iDvIzbnt6Gl8WTmTBAVcWuv5IDSvgFv7HZN4uePh/ibhGj138JS/bYnqxwVvMKPDFIOE0utFVT5PgawwadfIdQ==";
         };
+        _ox6LO1TQ = {
+            "id" = "ox6LO1TQ";
+            "file" = "world_of_color-1.4.2.jar";
+            "hash" = "sha512-vAR1X7WRstzTERws/Gof4ysLQmLB8sRFDGl1ZJsXjTV12USexfEcRm5kDt8puzt07717mTK5Ii6Q03caIFnnrA==";
+        };
     in {
         "Oh3EZbQ6" = _Oh3EZbQ6;
         "PctzDuE2" = _PctzDuE2;
@@ -44,7 +49,8 @@ let
         "1jHtbfXe" = _1jHtbfXe;
         "jLLxmIp0" = _jLLxmIp0;
         "XAb7eKQt" = _XAb7eKQt;
-        "neoforge-1.21.1" = _XAb7eKQt;
+        "ox6LO1TQ" = _ox6LO1TQ;
+        "neoforge-1.21.1" = _ox6LO1TQ;
         "pkg-1.0" = _Oh3EZbQ6;
         "pkg-1.1" = _PctzDuE2;
         "pkg-1.2" = _DCFGkrWu;
@@ -52,7 +58,8 @@ let
         "pkg-1.3" = _1jHtbfXe;
         "pkg-1.4" = _jLLxmIp0;
         "pkg-1.4.1" = _XAb7eKQt;
-        "default" = _XAb7eKQt;
+        "pkg-1.4.2" = _ox6LO1TQ;
+        "default" = _ox6LO1TQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-world-of-colors";

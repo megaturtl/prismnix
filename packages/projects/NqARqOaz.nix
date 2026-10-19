@@ -131,6 +131,36 @@ let
             "file" = "SeamlessGlowingOres-Border.zip";
             "hash" = "sha512-LmlL6ZHrMhwucFDpBL2mZN4lZ/XdxdmFk1SmYGk49oL0tOlSzLEf54KIOqbXTWCMPw7B9COFRJbmExoLBIJHJA==";
         };
+        _LwkGpHKK = {
+            "id" = "LwkGpHKK";
+            "file" = "SeamlessSubtleOres-Glow.zip";
+            "hash" = "sha512-4evbFNWVxJCCNpPnL2rAG4ByOfWeBq1VDcP/OX1JJObRBSeGXwAYistU1PCTLTsgAtc38MfTcuGhETHCH7P0YA==";
+        };
+        _bc7GnoZm = {
+            "id" = "bc7GnoZm";
+            "file" = "SeamlessSubtleOres-Border.zip";
+            "hash" = "sha512-XjxQ0FDwYAXIy7cev8mWoLrszHH//zwmSKSiiNYlohUil/Ng8y/C1tPNRlyeu3yluwAGhBO5kFTETD0J4tWzcQ==";
+        };
+        _rWtZrhSY = {
+            "id" = "rWtZrhSY";
+            "file" = "SeamlessAnimatedOres-Glow.zip";
+            "hash" = "sha512-ihnHyKQ3Tle5q8wLzYxmelQo0W4Em8AOPvIA9nFghCzmOh69Z3hmaKPBfguTgKFzEP+tQvNnzrAaDVIVP47yJA==";
+        };
+        _r2YHt8wX = {
+            "id" = "r2YHt8wX";
+            "file" = "SeamlessAnimatedOres-Border.zip";
+            "hash" = "sha512-Z7hQDW4lBIxTEXCMNFNr6+Jr8pTw4P4IyCCyA/9B7q2dcE0dZ7S6J7dcBcXSoDo7Bc9ZWevn98NFsIxxgyH/XQ==";
+        };
+        _q3FR3naU = {
+            "id" = "q3FR3naU";
+            "file" = "SeamlessGlowingOres-Glow.zip";
+            "hash" = "sha512-S2dSsA7yYmAYNtt2uB3aVh+go1kciWKLz4Q6af39mfv3i4uWggfvtUWNsFQJFNLeGFqiofbEBH/GuMZN1H8Shw==";
+        };
+        _zd8qqDXw = {
+            "id" = "zd8qqDXw";
+            "file" = "SeamlessGlowingOres-Border.zip";
+            "hash" = "sha512-9W0euNdgxawGwKqoYeRnC2hhqxJg+vYSVsMyC16itPusrbCaugcsqhWAe2CeW1Ruodl6e+NitXx/jbFgnbzuzQ==";
+        };
     in {
         "2NjhTB6V" = _2NjhTB6V;
         "IA4pxX8I" = _IA4pxX8I;
@@ -158,30 +188,36 @@ let
         "9ztDY9Mn" = _9ztDY9Mn;
         "HnWADRMy" = _HnWADRMy;
         "kvumNU4C" = _kvumNU4C;
-        "minecraft-26.2" = _kvumNU4C;
-        "minecraft-1.21" = _kvumNU4C;
-        "minecraft-1.21.1" = _kvumNU4C;
-        "minecraft-1.21.2" = _kvumNU4C;
-        "minecraft-1.21.3" = _kvumNU4C;
-        "minecraft-1.21.4" = _kvumNU4C;
-        "minecraft-1.21.5" = _kvumNU4C;
-        "minecraft-1.21.6" = _kvumNU4C;
-        "minecraft-1.21.7" = _kvumNU4C;
-        "minecraft-1.21.8" = _kvumNU4C;
-        "minecraft-1.21.9" = _kvumNU4C;
-        "minecraft-1.21.10" = _kvumNU4C;
-        "minecraft-1.21.11" = _kvumNU4C;
-        "minecraft-26.1" = _kvumNU4C;
-        "minecraft-26.1.1" = _kvumNU4C;
-        "minecraft-26.1.2" = _kvumNU4C;
-        "minecraft-1.20" = _kvumNU4C;
-        "minecraft-1.20.1" = _kvumNU4C;
-        "minecraft-1.20.2" = _kvumNU4C;
-        "minecraft-1.20.3" = _kvumNU4C;
-        "minecraft-1.20.4" = _kvumNU4C;
-        "minecraft-1.20.5" = _kvumNU4C;
-        "minecraft-1.20.6" = _kvumNU4C;
-        "minecraft-26.3" = _kvumNU4C;
+        "LwkGpHKK" = _LwkGpHKK;
+        "bc7GnoZm" = _bc7GnoZm;
+        "rWtZrhSY" = _rWtZrhSY;
+        "r2YHt8wX" = _r2YHt8wX;
+        "q3FR3naU" = _q3FR3naU;
+        "zd8qqDXw" = _zd8qqDXw;
+        "minecraft-26.2" = _zd8qqDXw;
+        "minecraft-1.21" = _zd8qqDXw;
+        "minecraft-1.21.1" = _zd8qqDXw;
+        "minecraft-1.21.2" = _zd8qqDXw;
+        "minecraft-1.21.3" = _zd8qqDXw;
+        "minecraft-1.21.4" = _zd8qqDXw;
+        "minecraft-1.21.5" = _zd8qqDXw;
+        "minecraft-1.21.6" = _zd8qqDXw;
+        "minecraft-1.21.7" = _zd8qqDXw;
+        "minecraft-1.21.8" = _zd8qqDXw;
+        "minecraft-1.21.9" = _zd8qqDXw;
+        "minecraft-1.21.10" = _zd8qqDXw;
+        "minecraft-1.21.11" = _zd8qqDXw;
+        "minecraft-26.1" = _zd8qqDXw;
+        "minecraft-26.1.1" = _zd8qqDXw;
+        "minecraft-26.1.2" = _zd8qqDXw;
+        "minecraft-1.20" = _zd8qqDXw;
+        "minecraft-1.20.1" = _zd8qqDXw;
+        "minecraft-1.20.2" = _zd8qqDXw;
+        "minecraft-1.20.3" = _zd8qqDXw;
+        "minecraft-1.20.4" = _zd8qqDXw;
+        "minecraft-1.20.5" = _zd8qqDXw;
+        "minecraft-1.20.6" = _zd8qqDXw;
+        "minecraft-26.3" = _zd8qqDXw;
         "pkg-1.0.0+mc26.2-glow" = _2NjhTB6V;
         "pkg-1.0.0+mc26.2-border" = _IA4pxX8I;
         "pkg-2.0.0+mc26.2-glow" = _gfxgkIbJ;
@@ -208,7 +244,13 @@ let
         "pkg-9.0.0+mc26.3-animated-border" = _9ztDY9Mn;
         "pkg-9.0.0+mc26.3-glow" = _HnWADRMy;
         "pkg-9.0.0+mc26.3-border" = _kvumNU4C;
-        "default" = _kvumNU4C;
+        "pkg-9.1.0+mc26.3-subtle-glow" = _LwkGpHKK;
+        "pkg-9.1.0+mc26.3-subtle-border" = _bc7GnoZm;
+        "pkg-9.1.0+mc26.3-animated-glow" = _rWtZrhSY;
+        "pkg-9.1.0+mc26.3-animated-border" = _r2YHt8wX;
+        "pkg-9.1.0+mc26.3-glow" = _q3FR3naU;
+        "pkg-9.1.0+mc26.3-border" = _zd8qqDXw;
+        "default" = _zd8qqDXw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "seamless-glowing-ores";

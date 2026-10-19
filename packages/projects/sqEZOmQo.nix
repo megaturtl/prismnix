@@ -531,6 +531,36 @@ let
             "file" = "matthiesen-core-neoforge-1.3.0.jar";
             "hash" = "sha512-2clTitoycbEutPgRSD8Gcb8rC+K5y5Nod6NdIsmMwioAM3KOon4blLGPjajSoVqjzKQmOlDTTc9CTsrdozqV5w==";
         };
+        _4FmBYcgZ = {
+            "id" = "4FmBYcgZ";
+            "file" = "matthiesen-core-fabric-1.3.1.jar";
+            "hash" = "sha512-l11NNiFrkZ9xZtp/076HdzuX4SXDgTTLmY/RRwddgXj9g4XFwq7v+NkUS4Yoa6UpOWcOE2r1fF/gEeFDHE17VQ==";
+        };
+        _bf8c3CNf = {
+            "id" = "bf8c3CNf";
+            "file" = "matthiesen-core-neoforge-1.3.1.jar";
+            "hash" = "sha512-GCKIukNXvHscNTQIowKW5DBa39QPVV42LPZvvZ8VQnZ4azkMEA1+R0rqparz4dW4DtWkXea07ijnJjTAasYiwQ==";
+        };
+        _TU6pH1qG = {
+            "id" = "TU6pH1qG";
+            "file" = "matthiesen-core-neoforge-1.3.2.jar";
+            "hash" = "sha512-SeqrKS6d/9EsqV7sgsGqYzZZwF4lrEhNfYBXhXGUyAELjTQqE+cT1+wEPlo129gTmI//wjmUVbG/8P9hiOOXlg==";
+        };
+        _tqoMPHFW = {
+            "id" = "tqoMPHFW";
+            "file" = "matthiesen-core-fabric-1.3.2.jar";
+            "hash" = "sha512-wsw4oV1INt6FNCePQY6L9X2OMZ3zyEILMBaGgeehPWOmq/bLNNGNJzmXA1mpien4Ail/ZT5pz99SVkdtKpfOQg==";
+        };
+        _78PZVRLg = {
+            "id" = "78PZVRLg";
+            "file" = "matthiesen-core-neoforge-1.3.3.jar";
+            "hash" = "sha512-cO9g+ApyRU7CPiK6lPC26GWFyEzGUqMMFA5HJp+qNnX0cS33sfC/4K1yI+Uc1CVVoobFypKgqJjR9PbWoNExPg==";
+        };
+        _YuBVsBfj = {
+            "id" = "YuBVsBfj";
+            "file" = "matthiesen-core-fabric-1.3.3.jar";
+            "hash" = "sha512-pP+TYyl2r++QwEQg/0LUqkHEn+le09sALGT4XbvFnEdcdPGCV8o7Q50nai066u2RRY+Cwhx9pjCrBYpNadujZw==";
+        };
     in {
         "TlbM16ub" = _TlbM16ub;
         "fA5U0MQL" = _fA5U0MQL;
@@ -638,8 +668,14 @@ let
         "yFiNJTG5" = _yFiNJTG5;
         "cEbuKt8U" = _cEbuKt8U;
         "EBX1eaxU" = _EBX1eaxU;
-        "fabric-1.21.1" = _cEbuKt8U;
-        "neoforge-1.21.1" = _EBX1eaxU;
+        "4FmBYcgZ" = _4FmBYcgZ;
+        "bf8c3CNf" = _bf8c3CNf;
+        "TU6pH1qG" = _TU6pH1qG;
+        "tqoMPHFW" = _tqoMPHFW;
+        "78PZVRLg" = _78PZVRLg;
+        "YuBVsBfj" = _YuBVsBfj;
+        "fabric-1.21.1" = _YuBVsBfj;
+        "neoforge-1.21.1" = _78PZVRLg;
         "pkg-1.0.0-beta.1" = _fA5U0MQL;
         "pkg-1.0.0-beta.2" = _rQWTBZJM;
         "pkg-1.0.0-beta.3" = _zMbIgdo5;
@@ -693,7 +729,10 @@ let
         "pkg-1.2.9" = _DOU0Sksz;
         "pkg-1.2.10" = _yFiNJTG5;
         "pkg-1.3.0" = _EBX1eaxU;
-        "default" = _EBX1eaxU;
+        "pkg-1.3.1" = _bf8c3CNf;
+        "pkg-1.3.2" = _tqoMPHFW;
+        "pkg-1.3.3" = _YuBVsBfj;
+        "default" = _YuBVsBfj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "matthiesen-core";

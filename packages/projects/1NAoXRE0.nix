@@ -2061,6 +2061,31 @@ let
             "file" = "[AFTP] 26w14a.zip";
             "hash" = "sha512-Qv4iwdM5dgBaqJitAZbNFXIeT459TDZ2Ykk5voG/70v6gnfo8Ei/8tNxxvszneTP38hf0lO8n5Lo8xfoPCCb9w==";
         };
+        _RgOj0vKy = {
+            "id" = "RgOj0vKy";
+            "file" = "[AFTP] 1.RV-Pre1.zip";
+            "hash" = "sha512-YPSAoqoXMPnlVYop+uUbhwm5VSDnDF1xXpQnENCzPJ0SHLrJY92IzRInkE/yaEi1r75ArbkZ8iTqcZUQGGIaIQ==";
+        };
+        _Scnjup1w = {
+            "id" = "Scnjup1w";
+            "file" = "[AFTP] 3D Shareware v1.34.zip";
+            "hash" = "sha512-kSDfOx/woS9o+du72SyYZv+8hkjnjWqXPDJsl2rXkn5JBtfTkvyYrp45OVA6mXauKUWV+VeggX2x9wLaFPdplQ==";
+        };
+        _tsrWCExu = {
+            "id" = "tsrWCExu";
+            "file" = "[AFTP] 23w13a_or_b.zip";
+            "hash" = "sha512-S/f4Tr2oKG6S5Wkn+RQErDgjLnGGnAYZpB3IStTIfktFdAK6PD3R6RuaQFaDoEz2qsERY/mSbhCT84JrCrGaUw==";
+        };
+        _oFzLccbM = {
+            "id" = "oFzLccbM";
+            "file" = "[AFTP] 24w14potato.zip";
+            "hash" = "sha512-AqXd+KrDd6g3/QUSae8SyK/vw0J3/Y6PU/E+Jzc8YurBk76rtskL5sZ9LAjCLnUt4DDDGRIaJWMXxUZwtf+UUg==";
+        };
+        _LTnLmzEw = {
+            "id" = "LTnLmzEw";
+            "file" = "[AFTP] 25w14craftmine.zip";
+            "hash" = "sha512-O78sM8sMCLXPIjcvm+xu0DoqDc5XpZfIJM5CL5NuFja5K4DgbHNVns4jY/6Y6DrK7gDi5maEcKrslUOmp1ucBw==";
+        };
     in {
         "FZkw2bhG" = _FZkw2bhG;
         "wH1jwt1B" = _wH1jwt1B;
@@ -2474,14 +2499,19 @@ let
         "txqBsOWa" = _txqBsOWa;
         "zSmzHzMu" = _zSmzHzMu;
         "5YGNypaL" = _5YGNypaL;
-        "minecraft-25w14craftmine" = _zSmzHzMu;
-        "minecraft-1.RV-Pre1" = _s8uCVaGc;
-        "minecraft-23w13a_or_b" = _KGFC29BW;
-        "minecraft-24w14potato" = _txqBsOWa;
+        "RgOj0vKy" = _RgOj0vKy;
+        "Scnjup1w" = _Scnjup1w;
+        "tsrWCExu" = _tsrWCExu;
+        "oFzLccbM" = _oFzLccbM;
+        "LTnLmzEw" = _LTnLmzEw;
+        "minecraft-25w14craftmine" = _LTnLmzEw;
+        "minecraft-1.RV-Pre1" = _RgOj0vKy;
+        "minecraft-23w13a_or_b" = _tsrWCExu;
+        "minecraft-24w14potato" = _oFzLccbM;
         "minecraft-22w13oneblockatatime" = _Iavz24OD;
         "minecraft-15w14a" = _WHysCHNR;
         "minecraft-20w14infinite" = _EM7Py5uM;
-        "minecraft-3D-Shareware-v1.34" = _6WuOSPhE;
+        "minecraft-3D-Shareware-v1.34" = _Scnjup1w;
         "minecraft-26w14a" = _5YGNypaL;
         "pkg-250616+25w14craftmine" = _FZkw2bhG;
         "pkg-250616+1.RV-Pre1" = _wH1jwt1B;
@@ -2895,7 +2925,12 @@ let
         "pkg-261011+24w14potato" = _txqBsOWa;
         "pkg-261011+25w14craftmine" = _zSmzHzMu;
         "pkg-261011+26w14a" = _5YGNypaL;
-        "default" = _5YGNypaL;
+        "pkg-261018+1.RV-Pre1" = _RgOj0vKy;
+        "pkg-261018+3D-Shareware-v1.34" = _Scnjup1w;
+        "pkg-261018+23w13a_or_b" = _tsrWCExu;
+        "pkg-261018+24w14potato" = _oFzLccbM;
+        "pkg-261018+25w14craftmine" = _LTnLmzEw;
+        "default" = _LTnLmzEw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "april-fools-translation";

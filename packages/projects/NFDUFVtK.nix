@@ -46,6 +46,11 @@ let
             "file" = "reliquified_irons_spells_and_spellbooks-1.21.1-0.2.7.jar";
             "hash" = "sha512-dzpWhkKF+GBgK6dLD2QW/7LH/lVFa2cscaQlAGp4+OJlv+wH7lY2aPZ4BqgSZBvf8iYPyXz3gmzTdz+MSb7RTQ==";
         };
+        _B2CG5Jxx = {
+            "id" = "B2CG5Jxx";
+            "file" = "reliquified_irons_spells_and_spellbooks-1.21.1-0.2.8.jar";
+            "hash" = "sha512-AZyyMflH1dPBAMZ31K33ufPwIQTfS+cqaA92IzF0JA7VJDlxs8Tmbr+UFFOQ1F8SBAmAdzzZ1o8i/94BoWiGmw==";
+        };
     in {
         "U1yq6iTx" = _U1yq6iTx;
         "GYGSxc1j" = _GYGSxc1j;
@@ -56,7 +61,8 @@ let
         "6q8OdA4G" = _6q8OdA4G;
         "Qf4k2Vmw" = _Qf4k2Vmw;
         "3c2Q2RnP" = _3c2Q2RnP;
-        "neoforge-1.21.1" = _3c2Q2RnP;
+        "B2CG5Jxx" = _B2CG5Jxx;
+        "neoforge-1.21.1" = _B2CG5Jxx;
         "pkg-0.1" = _U1yq6iTx;
         "pkg-0.1.1" = _GYGSxc1j;
         "pkg-0.2.0" = _di7ZsXux;
@@ -66,7 +72,8 @@ let
         "pkg-0.2.5" = _6q8OdA4G;
         "pkg-0.2.6" = _Qf4k2Vmw;
         "pkg-0.2.7" = _3c2Q2RnP;
-        "default" = _3c2Q2RnP;
+        "pkg-0.2.8" = _B2CG5Jxx;
+        "default" = _B2CG5Jxx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "reliquified-irons-spells-n-spellbooks";

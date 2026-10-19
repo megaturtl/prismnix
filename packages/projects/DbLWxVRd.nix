@@ -246,6 +246,11 @@ let
             "file" = "colorlight-26.3-0.2.5.jar";
             "hash" = "sha512-5PkdVCuM8vhg4HVEo4iKJIKNcZhmfVkNEjf3ngu6FS8dqsn3dw1/WBLRlP3ViMbmD46YLRa+RxHeYipMNnmj3Q==";
         };
+        _9a4YB2cP = {
+            "id" = "9a4YB2cP";
+            "file" = "colorlight-1.21.1-0.2.5.jar";
+            "hash" = "sha512-Z+T3mjbN4fFo8qXVZDLs1OeYn1/ToS0256MJ0X4Bb6Jismq/e8cYOl9vS8etpSdVmhr5D6VQqH2AIL3ZA6IGcA==";
+        };
     in {
         "xxH0Rw9n" = _xxH0Rw9n;
         "nQlysvms" = _nQlysvms;
@@ -296,7 +301,8 @@ let
         "IXTUKOPR" = _IXTUKOPR;
         "hmX8Onun" = _hmX8Onun;
         "1oqxGxQS" = _1oqxGxQS;
-        "fabric-1.21.1" = _ietC4nXt;
+        "9a4YB2cP" = _9a4YB2cP;
+        "fabric-1.21.1" = _9a4YB2cP;
         "fabric-1.21.11" = _79kAgjOK;
         "fabric-26.1" = _rWNmb0y7;
         "fabric-26.1.1" = _rWNmb0y7;
@@ -351,7 +357,8 @@ let
         "pkg-ColorLight-26.1.x-0.2.5" = _IXTUKOPR;
         "pkg-ColorLight-26.2-0.2.5" = _hmX8Onun;
         "pkg-ColorLight-26.3-0.2.5" = _1oqxGxQS;
-        "default" = _1oqxGxQS;
+        "pkg-ColorLight-1.21.1-0.2.5" = _9a4YB2cP;
+        "default" = _9a4YB2cP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "colorlight";

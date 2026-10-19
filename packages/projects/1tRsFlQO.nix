@@ -251,6 +251,11 @@ let
             "file" = "modernbetaforge-1.12.2-1.10.2.2.jar";
             "hash" = "sha512-RBc/gVZCy1YP94QXD9V8s1KK7CTtuwvPClRGWWownQEzMZoeWYYUszMNt/xEXROd9e/0at1blJ0AN8uGeRpgBA==";
         };
+        _MrNnFRYX = {
+            "id" = "MrNnFRYX";
+            "file" = "modernbetaforge-1.12.2-1.10.3.0.jar";
+            "hash" = "sha512-ilVe1uvssdRca8U0dVFWIavGZnUY1hdDMz7Q8oRNSY5k/8hNUwKmOn11W04zBqN9nmvAGNL3ZXw/hrSiJfUoVA==";
+        };
     in {
         "s6A5reOM" = _s6A5reOM;
         "vMadCkWe" = _vMadCkWe;
@@ -302,7 +307,8 @@ let
         "XcIe0Huo" = _XcIe0Huo;
         "QgiT54Cj" = _QgiT54Cj;
         "H99w9jzM" = _H99w9jzM;
-        "forge-1.12.2" = _H99w9jzM;
+        "MrNnFRYX" = _MrNnFRYX;
+        "forge-1.12.2" = _MrNnFRYX;
         "pkg-1.12.2-1.3.2.0" = _s6A5reOM;
         "pkg-1.12.2-1.3.3.0" = _vMadCkWe;
         "pkg-1.12.2-1.4.0.0" = _4zEASrbW;
@@ -353,7 +359,8 @@ let
         "pkg-1.12.2-1.10.2.0" = _XcIe0Huo;
         "pkg-1.12.2-1.10.2.1" = _QgiT54Cj;
         "pkg-1.12.2-1.10.2.2" = _H99w9jzM;
-        "default" = _H99w9jzM;
+        "pkg-1.12.2-1.10.3.0" = _MrNnFRYX;
+        "default" = _MrNnFRYX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modern-beta-forge";

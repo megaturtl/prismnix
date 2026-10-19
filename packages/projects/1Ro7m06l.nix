@@ -376,6 +376,11 @@ let
             "file" = "titanium-26.1.2-4.0.12.jar";
             "hash" = "sha512-qR0E4U9Q/z5QJZzQEehZAnGYmCUe5c4voFVObGNfz16XvSXrz4crOdtkKnNCH3cVgW45+kP1H35nhBGEKSbrVA==";
         };
+        _I4WHaLOy = {
+            "id" = "I4WHaLOy";
+            "file" = "titanium-26.1.2-4.0.13.jar";
+            "hash" = "sha512-4rpuLOS/q6T/xx1UHIDTvADmkLfq1XPJr0xk4jaNWY0VY+X6Ub0GqHFzBfjyYM8vN9Sxms6lc5c34x7nxgwqig==";
+        };
     in {
         "C671K5PG" = _C671K5PG;
         "f8zZ2kK5" = _f8zZ2kK5;
@@ -452,6 +457,7 @@ let
         "vbCgpf68" = _vbCgpf68;
         "nVRDtlW7" = _nVRDtlW7;
         "Zbhs26vy" = _Zbhs26vy;
+        "I4WHaLOy" = _I4WHaLOy;
         "forge-1.19.2" = _C671K5PG;
         "forge-1.18.2" = _f8zZ2kK5;
         "forge-1.14.4" = _pJxuKoTg;
@@ -459,7 +465,7 @@ let
         "forge-1.20.1" = _LMqbm4db;
         "neoforge-1.21" = _vbCgpf68;
         "neoforge-1.21.1" = _vbCgpf68;
-        "neoforge-26.1.2" = _Zbhs26vy;
+        "neoforge-26.1.2" = _I4WHaLOy;
         "pkg-3.7.3" = _C671K5PG;
         "pkg-3.5.9" = _f8zZ2kK5;
         "pkg-2.2.10" = _pJxuKoTg;
@@ -535,7 +541,8 @@ let
         "pkg-1.21-4.0.51" = _vbCgpf68;
         "pkg-26.1.2-4.0.11" = _nVRDtlW7;
         "pkg-26.1.2-4.0.12" = _Zbhs26vy;
-        "default" = _Zbhs26vy;
+        "pkg-26.1.2-4.0.13" = _I4WHaLOy;
+        "default" = _I4WHaLOy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "titanium";

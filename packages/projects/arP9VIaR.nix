@@ -311,6 +311,16 @@ let
             "file" = "potionenchant-1.20.1-forge-1.8.9-c.jar";
             "hash" = "sha512-gbEkl7KJEudjHbo64GtssBS1xtX61/h/xQshDWwqRcGr0QsuajtjccrWeKxmnp0g4tmbXw/Qq0/CKWjX8arS9g==";
         };
+        _8JcnwEkn = {
+            "id" = "8JcnwEkn";
+            "file" = "potionenchant-1.20.1-forge-1.8.9-d.jar";
+            "hash" = "sha512-Hqf9VLJbW6o2N+xYT6oicMKWiM+KTAXAC8rsXxdWiQSnScMmObhY3v4whiZ9ejM0nKLmS2SYmJR49bps7pNLwQ==";
+        };
+        _Re0sVKie = {
+            "id" = "Re0sVKie";
+            "file" = "potionenchant-1.20.1-forge-1.8.9-e.jar";
+            "hash" = "sha512-cPWDkgOM4ouB2i4bBEz1nUjSIRU96DYlWJ4518CuzNOjEHAt9WcC94n6A+33uC5KcWLn7yXpGcOaKdar1TFmdQ==";
+        };
     in {
         "DdaNpQNu" = _DdaNpQNu;
         "4UUPBCZa" = _4UUPBCZa;
@@ -374,7 +384,9 @@ let
         "LslYzyB3" = _LslYzyB3;
         "hpWb5a7G" = _hpWb5a7G;
         "N4XOmiIx" = _N4XOmiIx;
-        "forge-1.20.1" = _N4XOmiIx;
+        "8JcnwEkn" = _8JcnwEkn;
+        "Re0sVKie" = _Re0sVKie;
+        "forge-1.20.1" = _Re0sVKie;
         "forge-1.19.2" = _T23uG5YO;
         "forge-1.18.2" = _u6Ufs3Wp;
         "neoforge-1.21" = _cWMN8yHM;
@@ -451,7 +463,9 @@ let
         "pkg-1.20.1-forge-1.8.9-a" = _LslYzyB3;
         "pkg-1.20.1-forge-1.8.9-b" = _hpWb5a7G;
         "pkg-1.20.1-forge-1.8.9-c" = _N4XOmiIx;
-        "default" = _N4XOmiIx;
+        "pkg-1.20.1-forge-1.8.9-d" = _8JcnwEkn;
+        "pkg-1.20.1-forge-1.8.9-e" = _Re0sVKie;
+        "default" = _Re0sVKie;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "potionenchant";

@@ -146,6 +146,26 @@ let
             "file" = "buildprint-neoforge-0.1.21+26.3.jar";
             "hash" = "sha512-saWswqDVo0+hvrqxVH0DCIg12DlIKYuDpnnLfDe6lwv/iv/yri4GwdXFU2C8HKCQoTVnGiTmFIWW57vouXFHRQ==";
         };
+        _bvZvS7KV = {
+            "id" = "bvZvS7KV";
+            "file" = "buildprint-fabric-0.1.22+26.2.jar";
+            "hash" = "sha512-ZuGfq8mJUXhtb29ilj6ydev975mknNobUuoCV3Bz9IjQMBHm2dwDfIMj/aixZTgC863sWclc78VoPVDLRBvZWQ==";
+        };
+        _AFRl7Mtf = {
+            "id" = "AFRl7Mtf";
+            "file" = "buildprint-fabric-0.1.22+26.3.jar";
+            "hash" = "sha512-Mh97v9XE8LGk3kHeXZnWGya19nuY/vEQvprWazedX3xpj/KYDfLPmOkSXVHRiNpIAl2SxuH//TTxyPd9+jgYrA==";
+        };
+        _emrDJKuE = {
+            "id" = "emrDJKuE";
+            "file" = "buildprint-neoforge-0.1.22+26.2.jar";
+            "hash" = "sha512-5HyQ2oSlvvNfglRrOE1u61JB1+KwYGePtbFOQRU4AyaDscB+CENHuNjaWkx+QnTTcMtwIv/JgzjAHGYFhcIRvw==";
+        };
+        _iSaurd91 = {
+            "id" = "iSaurd91";
+            "file" = "buildprint-neoforge-0.1.22+26.3.jar";
+            "hash" = "sha512-1NTsRQIudYEPq8Fcj7FnZSsv9dc7vcepfhUgArWCctmXEO0OspuizYi0pZWh/bj4qlllEy2AyVOqsNXCBRCHfQ==";
+        };
     in {
         "1Twv7NHi" = _1Twv7NHi;
         "qXgqBGCa" = _qXgqBGCa;
@@ -176,10 +196,14 @@ let
         "AOU3OcMX" = _AOU3OcMX;
         "6FXTzlC6" = _6FXTzlC6;
         "YNskyWEH" = _YNskyWEH;
-        "fabric-26.2" = _ytqfuCQv;
-        "fabric-26.3" = _AOU3OcMX;
-        "neoforge-26.2" = _6FXTzlC6;
-        "neoforge-26.3" = _YNskyWEH;
+        "bvZvS7KV" = _bvZvS7KV;
+        "AFRl7Mtf" = _AFRl7Mtf;
+        "emrDJKuE" = _emrDJKuE;
+        "iSaurd91" = _iSaurd91;
+        "fabric-26.2" = _bvZvS7KV;
+        "fabric-26.3" = _AFRl7Mtf;
+        "neoforge-26.2" = _emrDJKuE;
+        "neoforge-26.3" = _iSaurd91;
         "pkg-0.1.0+26.x" = _qXgqBGCa;
         "pkg-0.1.1+26.x" = _SgrXczlQ;
         "pkg-0.1.2+26.x" = _CkId9MlH;
@@ -204,7 +228,9 @@ let
         "pkg-0.1.20+26.3" = _8rcDzR4X;
         "pkg-0.1.21+26.2" = _6FXTzlC6;
         "pkg-0.1.21+26.3" = _YNskyWEH;
-        "default" = _YNskyWEH;
+        "pkg-0.1.22+26.2" = _emrDJKuE;
+        "pkg-0.1.22+26.3" = _iSaurd91;
+        "default" = _iSaurd91;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "buildprint";

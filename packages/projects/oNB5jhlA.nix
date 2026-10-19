@@ -181,6 +181,16 @@ let
             "file" = "letsdo-bakery-fabric-2.1.10.jar";
             "hash" = "sha512-KqOQjObNC3lB+IbtE6GIavaiJTlUC6Pyo10xyr0EkglS9bD/n3dwa0Ybgvvfj9/fBh0Qjoh3GcI25S17hJhlYQ==";
         };
+        _4pEnkp1M = {
+            "id" = "4pEnkp1M";
+            "file" = "letsdo-bakery-neoforge-2.1.11.jar";
+            "hash" = "sha512-q4SauEfg7rNAAvbyIH9ImPQ68poswihENFfYfCpGJZRCQVQHg8A4tw2rU6uKCK7M4tPglz2Idoiod0R0jFgcsg==";
+        };
+        _TB2jiEt7 = {
+            "id" = "TB2jiEt7";
+            "file" = "letsdo-bakery-fabric-2.1.11.jar";
+            "hash" = "sha512-rlyH1q/tKro2dZ38LgrYPqP8Fp2FhkpW6I6oazh3/cpRF8VdKtxXb/f0SPIJK39me/0vQ/h2kEzJHmaMp/vNlA==";
+        };
     in {
         "T9QkwQRB" = _T9QkwQRB;
         "Yi0S1Yx4" = _Yi0S1Yx4;
@@ -218,11 +228,13 @@ let
         "wcya0CVG" = _wcya0CVG;
         "bkTEdqsy" = _bkTEdqsy;
         "W1PNtA8m" = _W1PNtA8m;
+        "4pEnkp1M" = _4pEnkp1M;
+        "TB2jiEt7" = _TB2jiEt7;
         "forge-1.20.1" = _Bz6DYFDT;
         "neoforge-1.20.1" = _Bz6DYFDT;
-        "neoforge-1.21.1" = _bkTEdqsy;
+        "neoforge-1.21.1" = _4pEnkp1M;
         "fabric-1.20.1" = _KEv4JeEB;
-        "fabric-1.21.1" = _W1PNtA8m;
+        "fabric-1.21.1" = _TB2jiEt7;
         "quilt-1.20.1" = _KEv4JeEB;
         "pkg-2.0.0" = _Yi0S1Yx4;
         "pkg-2.0.1" = _ZP1aDYMm;
@@ -243,7 +255,8 @@ let
         "pkg-2.1.8" = _EwxFN6K3;
         "pkg-2.1.9" = _wcya0CVG;
         "pkg-2.1.10" = _W1PNtA8m;
-        "default" = _W1PNtA8m;
+        "pkg-2.1.11" = _TB2jiEt7;
+        "default" = _TB2jiEt7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lets-do-bakery-farmcharm-compat";

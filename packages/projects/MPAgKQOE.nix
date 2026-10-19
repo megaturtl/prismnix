@@ -151,6 +151,21 @@ let
             "file" = "magic_vibe_decorations-4.0.0-forge-26.3.jar";
             "hash" = "sha512-QGoagfeMylomsHGgCldKrN6y4/nL7ekf0pspejHvsfn8YrPLpE5dQd+4nzz5yfwhmX1GlvjVQ/Hgf3353q9p9w==";
         };
+        _kwxECCLG = {
+            "id" = "kwxECCLG";
+            "file" = "magic_vibe_decorations-4.0.0-fabric-1.20.1.jar";
+            "hash" = "sha512-XJ6aYp34SjQCYV+bS+rxb+UlyQ05growkiaqm2OWFRApwIoimeKIVVqVaMBWWflnBxvvAE/tqwrw9auUbTv9fQ==";
+        };
+        _gH8DnmQb = {
+            "id" = "gH8DnmQb";
+            "file" = "magic_vibe_decorations-4.0.0-fabric-1.21.1.jar";
+            "hash" = "sha512-6Sccp3vRcuM9cC/13nYDzzS2U2yUO18c7kh+viBWqgFfzA47vvap0uQWEqFT8nWziIT3697HPIdZhQKsS2m9AA==";
+        };
+        _atvMme0A = {
+            "id" = "atvMme0A";
+            "file" = "magic_vibe_decorations-4.0.0-fabric-26.3.jar";
+            "hash" = "sha512-gaXEWbIEerD+xmaHs0FQmAerLn0WSj+rtNZ78/0dmyaEL50YwsWV/v0yCRuKVWGyRqBKG2vqoinC/yPBe7RkPg==";
+        };
     in {
         "NGn6sD5g" = _NGn6sD5g;
         "ugiO5FHZ" = _ugiO5FHZ;
@@ -182,10 +197,13 @@ let
         "uZ4aRG8L" = _uZ4aRG8L;
         "yVS83Avf" = _yVS83Avf;
         "rmvAQst1" = _rmvAQst1;
-        "fabric-1.20.1" = _yXiKxAFn;
+        "kwxECCLG" = _kwxECCLG;
+        "gH8DnmQb" = _gH8DnmQb;
+        "atvMme0A" = _atvMme0A;
+        "fabric-1.20.1" = _kwxECCLG;
         "fabric-1.19.2" = _ZOzwsaFd;
         "fabric-1.21" = _en00c0hm;
-        "fabric-1.21.1" = _en00c0hm;
+        "fabric-1.21.1" = _gH8DnmQb;
         "fabric-1.21.6" = _Q09CNMYj;
         "fabric-1.21.7" = _Q09CNMYj;
         "fabric-1.21.8" = _Q09CNMYj;
@@ -194,7 +212,7 @@ let
         "fabric-1.21.11" = _gVtrxNPu;
         "fabric-26.1.2" = _48BVdgry;
         "fabric-26.2" = _48BVdgry;
-        "fabric-26.3" = _jox38qux;
+        "fabric-26.3" = _atvMme0A;
         "forge-1.18.2" = _ugiO5FHZ;
         "forge-1.16.5" = _nCUHdbMY;
         "forge-1.19.2" = _LyOHyb1F;
@@ -241,8 +259,8 @@ let
         "pkg-2.3.3" = _B20ES0IZ;
         "pkg-2.3.4" = _8eSMNKqC;
         "pkg-3.0.1" = _Id9Hybcu;
-        "pkg-4.0.0" = _rmvAQst1;
-        "default" = _rmvAQst1;
+        "pkg-4.0.0" = _atvMme0A;
+        "default" = _atvMme0A;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "magic-vibe-decorations";

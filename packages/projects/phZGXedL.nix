@@ -116,6 +116,26 @@ let
             "file" = "blockd-1.2.1-alpha.8e7483f+26.2.jar";
             "hash" = "sha512-jhr6C98RAWXxvlIFG9/vuUE/2p/7TCaTXPphMfCaNMN2/WAZESD0QWh9hcENNA4gLbCwoKSbsqrsf7gO0CwU+Q==";
         };
+        _peMKnSjC = {
+            "id" = "peMKnSjC";
+            "file" = "blockd-1.2.1-alpha.71566e0+1.21.1.jar";
+            "hash" = "sha512-MSwAhsTh4jbOcfmnCQptJMB4yzSS8dbZJp5APv2a5/taWgfKyT30hmPxeLRLtystFQZu/WxmdQNk9HsE5kB7vQ==";
+        };
+        _tUxxOuBw = {
+            "id" = "tUxxOuBw";
+            "file" = "blockd-1.2.1-alpha.71566e0+1.21.11.jar";
+            "hash" = "sha512-eLkGkzPI1TNRkI/p32KtLtvN6KbFs522vrhzsgbkdruORv7ejBHDTdUhcby/dnA7Xsspyfv/06FnahO5fG5b3g==";
+        };
+        _xaqyLhgs = {
+            "id" = "xaqyLhgs";
+            "file" = "blockd-1.2.1-alpha.71566e0+26.1.2.jar";
+            "hash" = "sha512-rzqo5RyxKVvacB20Ew+T9EoyfGk640jLHT4YQ0dW27M6adaBiHw/SrLeQQyJLh9EiDMbiKyuRBv3tqZkvV1Ckg==";
+        };
+        _6Pj1QLry = {
+            "id" = "6Pj1QLry";
+            "file" = "blockd-1.2.1-alpha.71566e0+26.2.jar";
+            "hash" = "sha512-MCYnLq+aB3ZfosC5spswoUnckB/vuSaaAb227M4J7yIDfwzjaVBYSkVvhjUcgOF2ybS4A1xiQSqAOx2iZtlncQ==";
+        };
     in {
         "sxtNO6Zd" = _sxtNO6Zd;
         "uZL32j7u" = _uZL32j7u;
@@ -140,12 +160,16 @@ let
         "CLQyo0cp" = _CLQyo0cp;
         "1wwY6zcu" = _1wwY6zcu;
         "iw4NThYL" = _iw4NThYL;
+        "peMKnSjC" = _peMKnSjC;
+        "tUxxOuBw" = _tUxxOuBw;
+        "xaqyLhgs" = _xaqyLhgs;
+        "6Pj1QLry" = _6Pj1QLry;
         "forge-1.20.1" = _sxtNO6Zd;
-        "neoforge-1.21.11" = _CLQyo0cp;
-        "neoforge-1.21.1" = _pjWfY3gh;
+        "neoforge-1.21.11" = _tUxxOuBw;
+        "neoforge-1.21.1" = _peMKnSjC;
         "neoforge-26.1" = _vZA1kEBe;
-        "neoforge-26.1.2" = _1wwY6zcu;
-        "neoforge-26.2" = _iw4NThYL;
+        "neoforge-26.1.2" = _xaqyLhgs;
+        "neoforge-26.2" = _6Pj1QLry;
         "pkg-1.0.7" = _v27HGFYw;
         "pkg-1.0.7-fix" = _vGs8SOgv;
         "pkg-1.0.8" = _VHjrlTs6;
@@ -165,7 +189,11 @@ let
         "pkg-1.2.1-alpha.8e7483f+1.21.11" = _CLQyo0cp;
         "pkg-1.2.1-alpha.8e7483f+26.1.2" = _1wwY6zcu;
         "pkg-1.2.1-alpha.8e7483f+26.2" = _iw4NThYL;
-        "default" = _iw4NThYL;
+        "pkg-1.2.1-alpha.71566e0+1.21.1" = _peMKnSjC;
+        "pkg-1.2.1-alpha.71566e0+1.21.11" = _tUxxOuBw;
+        "pkg-1.2.1-alpha.71566e0+26.1.2" = _xaqyLhgs;
+        "pkg-1.2.1-alpha.71566e0+26.2" = _6Pj1QLry;
+        "default" = _6Pj1QLry;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blockdynamics_mod";

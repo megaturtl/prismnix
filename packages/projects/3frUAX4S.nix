@@ -121,6 +121,11 @@ let
             "file" = "PlutosDrinksAPI-1.20.1+0.4.7+build.173.jar";
             "hash" = "sha512-0smvdx0aBdbNoGrDa/Z8qPIK7U5BC3Kdj72S6gfF4OiScCWHXqSpuXXwXQYTYDby8p9ShwCFaCZwCsqVLS+i8w==";
         };
+        _pjWoVLae = {
+            "id" = "pjWoVLae";
+            "file" = "PlutosDrinksAPI-1.20.1+0.4.8+build.179.jar";
+            "hash" = "sha512-FoJ3MFi6Y2XrbK06WaLlomiIovrdNt38h7yckyMqSNEUNvRvtuPLc8bUvUGXSaa4O/g5MDzkYsTp/MkPPKCO1w==";
+        };
     in {
         "jZUsfQH9" = _jZUsfQH9;
         "Of0DtZSu" = _Of0DtZSu;
@@ -146,8 +151,9 @@ let
         "OUEcg8SJ" = _OUEcg8SJ;
         "Vnf5m3sE" = _Vnf5m3sE;
         "bt4KMW2W" = _bt4KMW2W;
-        "fabric-1.20" = _bt4KMW2W;
-        "fabric-1.20.1" = _bt4KMW2W;
+        "pjWoVLae" = _pjWoVLae;
+        "fabric-1.20" = _pjWoVLae;
+        "fabric-1.20.1" = _pjWoVLae;
         "fabric-1.20.2" = _UGXRTYMA;
         "fabric-1.20.3" = _oFQwzhCq;
         "fabric-1.20.4" = _oFQwzhCq;
@@ -177,7 +183,8 @@ let
         "pkg-1.20.1+0.4.5+build.164" = _OUEcg8SJ;
         "pkg-1.20.1+0.4.6+build.170" = _Vnf5m3sE;
         "pkg-1.20.1+0.4.7+build.173" = _bt4KMW2W;
-        "default" = _bt4KMW2W;
+        "pkg-1.20.1+0.4.8+build.179" = _pjWoVLae;
+        "default" = _pjWoVLae;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pdapi";

@@ -81,6 +81,11 @@ let
             "file" = "frozen_zombie_castle-1.4.0-neoforge-26.1.2.jar";
             "hash" = "sha512-0SG1glAEsIMsQuvuiE/6qchkxJQRm4xAA8HKb1wjgD9tNd3ShO92slkkjlM/y+b4X4yeajZNNdMCE4WIU6rAfw==";
         };
+        _axV74acg = {
+            "id" = "axV74acg";
+            "file" = "frozen_zombie_castle-1.4.0-neoforge-26.3.jar";
+            "hash" = "sha512-7EwPTT4VKfOLx/E+Lm5YGF2CgTEAnsOKRtrDfejF6G4lZn/O5xZ4mNC/RNUUf1PhLE4AzSGC32YiIS/4l3PaJw==";
+        };
     in {
         "ryXPa9Aj" = _ryXPa9Aj;
         "9aPga3w4" = _9aPga3w4;
@@ -98,6 +103,7 @@ let
         "gs3QBJmY" = _gs3QBJmY;
         "ap41QKC9" = _ap41QKC9;
         "YJDuMPvg" = _YJDuMPvg;
+        "axV74acg" = _axV74acg;
         "forge-1.20.1" = _hVmh1W80;
         "forge-1.19.2" = _wk3KVwR2;
         "fabric-1.20.1" = _9aPga3w4;
@@ -107,12 +113,13 @@ let
         "neoforge-1.21.4" = _gs3QBJmY;
         "neoforge-1.21.8" = _ap41QKC9;
         "neoforge-26.1.2" = _YJDuMPvg;
+        "neoforge-26.3" = _axV74acg;
         "pkg-1.0.0" = _ryXPa9Aj;
         "pkg-1.1.0" = _5YCLO0Fq;
         "pkg-1.2.0" = _zWJMg1gC;
         "pkg-1.3.0" = _eEqipift;
-        "pkg-1.4.0" = _YJDuMPvg;
-        "default" = _YJDuMPvg;
+        "pkg-1.4.0" = _axV74acg;
+        "default" = _axV74acg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "frozen-zombie-castle";

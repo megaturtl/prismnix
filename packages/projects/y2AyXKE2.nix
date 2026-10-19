@@ -71,6 +71,11 @@ let
             "file" = "ping-display-26.2.jar";
             "hash" = "sha512-+t+xv1Hb+M90xoVIfYe4hgW4PqwSGs1/5TFcJoiqFnbU/8tQrgOzQZmhmrJKE2S14ia1Hh1lbIakfh3pV/l58A==";
         };
+        _HocJTaoZ = {
+            "id" = "HocJTaoZ";
+            "file" = "ping-display-26.3.jar";
+            "hash" = "sha512-ujc8jIw4heNa8yMwsUlQ76WdVN4p89E1+EmAi5KCLBGFmsosUJrQ6WtZNIAH3lYI6GTRUyHJw3Iz1aMWeeulZQ==";
+        };
     in {
         "f3SMlkSG" = _f3SMlkSG;
         "zSf87X4U" = _zSf87X4U;
@@ -86,6 +91,7 @@ let
         "czL14hdj" = _czL14hdj;
         "b3NX3na7" = _b3NX3na7;
         "oduVXaFp" = _oduVXaFp;
+        "HocJTaoZ" = _HocJTaoZ;
         "fabric-1.21" = _f3SMlkSG;
         "fabric-1.21.1" = _zSf87X4U;
         "fabric-1.21.4" = _tX15pFIy;
@@ -100,6 +106,7 @@ let
         "fabric-26.1.1" = _czL14hdj;
         "fabric-26.1.2" = _b3NX3na7;
         "fabric-26.2" = _oduVXaFp;
+        "fabric-26.3" = _HocJTaoZ;
         "pkg-1.21" = _f3SMlkSG;
         "pkg-1.21.1" = _zSf87X4U;
         "pkg-1.21.4" = _tX15pFIy;
@@ -114,7 +121,8 @@ let
         "pkg-26.1.1" = _czL14hdj;
         "pkg-26.1.2" = _b3NX3na7;
         "pkg-26.2" = _oduVXaFp;
-        "default" = _oduVXaFp;
+        "pkg-26.3" = _HocJTaoZ;
+        "default" = _HocJTaoZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ping-display";

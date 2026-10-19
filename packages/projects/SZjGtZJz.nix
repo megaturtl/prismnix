@@ -91,6 +91,21 @@ let
             "file" = "stamina-2.0.0.3.jar";
             "hash" = "sha512-kWxEc8tqDNS1yaYvpAjVQTYp67jD0UvM62qh58AvowToGoNgsEESaVVQtF7DxVR5dDL1bqQaGbsH7hD33qpK7w==";
         };
+        _hgA1sWNN = {
+            "id" = "hgA1sWNN";
+            "file" = "stamina-2.0.0.3.jar";
+            "hash" = "sha512-piReing8KXFs/+6zsFDmNZOiE++It8vgEJKQdXuPKIX8P7q9dGnnehaTO/FzCF/UuRhuPjixRYvDINMx5ZwBrQ==";
+        };
+        _ingQLzLp = {
+            "id" = "ingQLzLp";
+            "file" = "stamina-3.0.0.1-beta.jar";
+            "hash" = "sha512-ZEF9aH2BrstzqBfCHzLffkD6XV7ZOiGra7LQ3CHhEhD3fbXklDZKfH6ah64lPxEKFOjJ1+ylusqu6+tYdGAicQ==";
+        };
+        _X9wIdJMR = {
+            "id" = "X9wIdJMR";
+            "file" = "stamina-2.0.0.4.jar";
+            "hash" = "sha512-0pgbGLCFzAHmv5JDulBw05CHxAkJ4Xs8BpDU4qyhK1XMZbvDIc9VD2noWD8+uTlod8sOeJvikYRkvj3txXsp0A==";
+        };
     in {
         "UoHUXj6G" = _UoHUXj6G;
         "cB5TOmOP" = _cB5TOmOP;
@@ -110,6 +125,9 @@ let
         "uwanJsOZ" = _uwanJsOZ;
         "z4TDfF3y" = _z4TDfF3y;
         "vmCiwiAR" = _vmCiwiAR;
+        "hgA1sWNN" = _hgA1sWNN;
+        "ingQLzLp" = _ingQLzLp;
+        "X9wIdJMR" = _X9wIdJMR;
         "forge-1.20.1" = _v2mP2L5i;
         "forge-1.20.2" = _ZqOL9ooU;
         "forge-1.20.3" = _ZqOL9ooU;
@@ -117,8 +135,8 @@ let
         "forge-1.20.5" = _ZqOL9ooU;
         "forge-1.20.6" = _ZqOL9ooU;
         "neoforge-1.20.1" = _UoHUXj6G;
-        "neoforge-1.21.1" = _vmCiwiAR;
-        "neoforge-26.1.2" = _z4TDfF3y;
+        "neoforge-1.21.1" = _X9wIdJMR;
+        "neoforge-26.1.2" = _ingQLzLp;
         "pkg-1.1.2" = _UoHUXj6G;
         "pkg-1.2.0" = _cB5TOmOP;
         "pkg-1.2.1" = _iGhsCB3z;
@@ -136,8 +154,10 @@ let
         "pkg-2.0.0.1" = _9rLsSTiI;
         "pkg-2.0.0.2" = _uwanJsOZ;
         "pkg-3.0.0.0-beta" = _z4TDfF3y;
-        "pkg-2.0.0.3" = _vmCiwiAR;
-        "default" = _vmCiwiAR;
+        "pkg-2.0.0.3" = _hgA1sWNN;
+        "pkg-3.0.0.1-beta" = _ingQLzLp;
+        "pkg-2.0.0.4" = _X9wIdJMR;
+        "default" = _X9wIdJMR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "insane-stamina";

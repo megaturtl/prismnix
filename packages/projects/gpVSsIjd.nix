@@ -726,6 +726,11 @@ let
             "file" = "H1-Hidename(New) (1.18.1).jar";
             "hash" = "sha512-fOniCxlfdzXbCczHuXgGPn3eXjaFW8xfIuHGz8vEdemgGu/0NBksK6unWAASjLRbrn2lR82tYFzM8erxAzVpBw==";
         };
+        _FWBWBiBq = {
+            "id" = "FWBWBiBq";
+            "file" = "H1-Hidename(New) (1.17.1).jar";
+            "hash" = "sha512-m33FOaFug4DBskE2v2igIfUPlXzHAGV4xZRdVvuttePrPR/BCerGc3JE+T/G6PVr7VFvc/xs7PXeqRrsT7n0iQ==";
+        };
     in {
         "yv9bdozo" = _yv9bdozo;
         "gHI2zu2w" = _gHI2zu2w;
@@ -872,6 +877,7 @@ let
         "QwwY3SCe" = _QwwY3SCe;
         "edB7Dzc5" = _edB7Dzc5;
         "NxWo5a9c" = _NxWo5a9c;
+        "FWBWBiBq" = _FWBWBiBq;
         "forge-1.21.5" = _NVHnXVwA;
         "forge-1.19.2" = _kf6daeUA;
         "forge-1.20" = _YlYnS7vv;
@@ -890,7 +896,7 @@ let
         "forge-1.21.3" = _8vVCnHhU;
         "forge-1.10" = _9pXQc3kO;
         "forge-1.19.3" = _ma8Ujb6h;
-        "forge-1.17.1" = _gZ2hurg4;
+        "forge-1.17.1" = _FWBWBiBq;
         "forge-1.18.1" = _NxWo5a9c;
         "forge-1.18" = _QwwY3SCe;
         "forge-1.21.1" = _Ur04v8a4;
@@ -1042,7 +1048,8 @@ let
         "pkg-H1-Hidename(New)(1.18)" = _QwwY3SCe;
         "pkg-H1-Hidename(New)(1.18.2)" = _edB7Dzc5;
         "pkg-H1-Hidename(New)(1.18.1)" = _NxWo5a9c;
-        "default" = _NxWo5a9c;
+        "pkg-H1-Hidename(New)(1.17.1)" = _FWBWBiBq;
+        "default" = _FWBWBiBq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hidename";

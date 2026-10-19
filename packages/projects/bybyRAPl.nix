@@ -196,6 +196,11 @@ let
             "file" = "integrated-circuit-26.3-1.6.10.jar";
             "hash" = "sha512-rnPnMAb6cMVNMPijeR/bzP5MIiGtL5Nuurk+3CFZusQyj0S2fPCdIUjx5s85Zx6rOU0Tx5sFQLfNsuR7Ncwvyg==";
         };
+        _SX7mgBNH = {
+            "id" = "SX7mgBNH";
+            "file" = "integrated-circuit-26.3-1.6.11.jar";
+            "hash" = "sha512-D7N1rP3ambYRMXLqDX28t+tZdvYIUv+uclR8RJjmmfFkJ5VxXspHQvzLRg8EfXoepzCiQOgCH3uphDfmcH59qw==";
+        };
     in {
         "XnJJ9q4p" = _XnJJ9q4p;
         "4i4Ki3fa" = _4i4Ki3fa;
@@ -236,6 +241,7 @@ let
         "GSdk27TD" = _GSdk27TD;
         "LGIEH2Gc" = _LGIEH2Gc;
         "wE6EfKPM" = _wE6EfKPM;
+        "SX7mgBNH" = _SX7mgBNH;
         "fabric-1.19.2" = _VsveFjfp;
         "fabric-1.19.3" = _IXTT4Kmr;
         "fabric-1.19.4" = _V9wMcvoO;
@@ -259,7 +265,7 @@ let
         "fabric-26.1.1" = _GSdk27TD;
         "fabric-26.1.2" = _GSdk27TD;
         "fabric-26.2" = _LGIEH2Gc;
-        "fabric-26.3" = _wE6EfKPM;
+        "fabric-26.3" = _SX7mgBNH;
         "pkg-1.0.0" = _XnJJ9q4p;
         "pkg-1.1.0" = _4i4Ki3fa;
         "pkg-1.1.1" = _VsveFjfp;
@@ -298,7 +304,8 @@ let
         "pkg-1.6.8" = _GSdk27TD;
         "pkg-1.6.9" = _LGIEH2Gc;
         "pkg-1.6.10" = _wE6EfKPM;
-        "default" = _wE6EfKPM;
+        "pkg-1.6.11" = _SX7mgBNH;
+        "default" = _SX7mgBNH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "integrated-circuit";

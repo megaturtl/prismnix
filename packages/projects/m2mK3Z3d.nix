@@ -16,24 +16,30 @@ let
             "file" = "Better PvP Visual.zip";
             "hash" = "sha512-HQ7HewSnHlR2nh9qc2LjDOiWZhFikVbbNhpwL/wnsvoa3rPs1kpEWy15MRwTtly/56Igsvm9Fd8YIwCgHxmE9A==";
         };
+        _3CfaFmW2 = {
+            "id" = "3CfaFmW2";
+            "file" = "Better PvP Visual.zip";
+            "hash" = "sha512-aI6jddTqS403tTjcwbdWu1KLYwdOSZ67vRHVzt8GD8w8WKFipP3ZMaKEdEeDvgloosgj7UAwQmN7DPjH7H8z3Q==";
+        };
     in {
         "S18Hw8gg" = _S18Hw8gg;
         "wR2EsPwc" = _wR2EsPwc;
         "bgtSdG32" = _bgtSdG32;
-        "minecraft-1.21.2" = _bgtSdG32;
-        "minecraft-1.21.3" = _bgtSdG32;
-        "minecraft-1.21.4" = _bgtSdG32;
-        "minecraft-1.21.5" = _bgtSdG32;
-        "minecraft-1.21.6" = _bgtSdG32;
-        "minecraft-1.21.7" = _bgtSdG32;
-        "minecraft-1.21.8" = _bgtSdG32;
-        "minecraft-1.21.9" = _bgtSdG32;
-        "minecraft-1.21.10" = _bgtSdG32;
-        "minecraft-1.21.11" = _bgtSdG32;
-        "minecraft-26.1" = _bgtSdG32;
-        "minecraft-26.1.1" = _bgtSdG32;
-        "minecraft-26.1.2" = _bgtSdG32;
-        "minecraft-26.2" = _bgtSdG32;
+        "3CfaFmW2" = _3CfaFmW2;
+        "minecraft-1.21.2" = _3CfaFmW2;
+        "minecraft-1.21.3" = _3CfaFmW2;
+        "minecraft-1.21.4" = _3CfaFmW2;
+        "minecraft-1.21.5" = _3CfaFmW2;
+        "minecraft-1.21.6" = _3CfaFmW2;
+        "minecraft-1.21.7" = _3CfaFmW2;
+        "minecraft-1.21.8" = _3CfaFmW2;
+        "minecraft-1.21.9" = _3CfaFmW2;
+        "minecraft-1.21.10" = _3CfaFmW2;
+        "minecraft-1.21.11" = _3CfaFmW2;
+        "minecraft-26.1" = _3CfaFmW2;
+        "minecraft-26.1.1" = _3CfaFmW2;
+        "minecraft-26.1.2" = _3CfaFmW2;
+        "minecraft-26.2" = _3CfaFmW2;
         "minecraft-24w33a" = _bgtSdG32;
         "minecraft-24w34a" = _bgtSdG32;
         "minecraft-24w35a" = _bgtSdG32;
@@ -47,10 +53,12 @@ let
         "minecraft-24w44a" = _bgtSdG32;
         "minecraft-24w45a" = _bgtSdG32;
         "minecraft-24w46a" = _bgtSdG32;
+        "minecraft-26.3" = _3CfaFmW2;
         "pkg-1.1" = _S18Hw8gg;
         "pkg-1.2" = _wR2EsPwc;
         "pkg-1.3" = _bgtSdG32;
-        "default" = _bgtSdG32;
+        "pkg-1.4" = _3CfaFmW2;
+        "default" = _3CfaFmW2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-pvp-visual";

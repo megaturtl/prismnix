@@ -41,6 +41,16 @@ let
             "file" = "KeybindAtlas-v1.4.0-mc1.20.1-forge.jar";
             "hash" = "sha512-en7KKF/hPU36T720yxhc9wxlwkbagFfKCNy5T1tmHkJCrgu3ENqlr2ETGD1KFxcxPiY2uJIZkv59wtn75OvxWg==";
         };
+        _HGCzXJmT = {
+            "id" = "HGCzXJmT";
+            "file" = "KeybindAtlas-v2.0.0-mc1.20.1-forge.jar";
+            "hash" = "sha512-EXi445b2sSqGNIJrrkGDDSv6sLZvP0Hr9GkvnUDz1sZfW/hb5Uo3koiX4nE2c78At+WB0uav5pnwadnofLJ+tg==";
+        };
+        _zT1hSwL5 = {
+            "id" = "zT1hSwL5";
+            "file" = "KeybindAtlas-v2.0.0-mc1.21.1-neoforge.jar";
+            "hash" = "sha512-j9UTOoICAvxz7AKkn8+hmBwMshuHGyeMJadcnaWyA9NNFpEvjtNHX7UVRwxUoCGBFL93xDEeE7zGPSNJN2mI+Q==";
+        };
     in {
         "m9vhAuEP" = _m9vhAuEP;
         "SdqAGJHB" = _SdqAGJHB;
@@ -50,16 +60,19 @@ let
         "rPSHJz9d" = _rPSHJz9d;
         "UbE4gXrR" = _UbE4gXrR;
         "MrzMcDXs" = _MrzMcDXs;
-        "forge-1.20.1" = _MrzMcDXs;
-        "neoforge-1.20.1" = _MrzMcDXs;
-        "neoforge-1.21.1" = _UbE4gXrR;
+        "HGCzXJmT" = _HGCzXJmT;
+        "zT1hSwL5" = _zT1hSwL5;
+        "forge-1.20.1" = _HGCzXJmT;
+        "neoforge-1.20.1" = _HGCzXJmT;
+        "neoforge-1.21.1" = _zT1hSwL5;
         "pkg-1.0.0" = _m9vhAuEP;
         "pkg-1.1.0" = _SdqAGJHB;
         "pkg-1.2.0" = _JuF0Qzei;
         "pkg-1.3.0" = _co95sn88;
         "pkg-1.3.1" = _rPSHJz9d;
         "pkg-1.4.0" = _MrzMcDXs;
-        "default" = _MrzMcDXs;
+        "pkg-2.0.0" = _zT1hSwL5;
+        "default" = _zT1hSwL5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "keybind-atlas";

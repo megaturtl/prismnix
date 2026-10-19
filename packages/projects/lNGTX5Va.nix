@@ -31,6 +31,11 @@ let
             "file" = "vbincubationcompat-1.4.jar";
             "hash" = "sha512-VtFfd3KC+uKDeRXA+2hR+X5/TPBfv6W1hkRjzCXewlNfMtOJGiV/Ntgm0BrcHZ6BZGZw6tn2u6VJPKnNwIpCCw==";
         };
+        _4X5xH6B2 = {
+            "id" = "4X5xH6B2";
+            "file" = "vbincubationcompat-1.5.jar";
+            "hash" = "sha512-g7MOJjqTvI3buOMveMtv/D++3VoZ+T2KAthRrKcSzPTn4D8t5D+IND3SR5D8cfYg7k9S55h7Y2g0SFFNo9nf4Q==";
+        };
     in {
         "5QZLpbpw" = _5QZLpbpw;
         "f2ZogFKO" = _f2ZogFKO;
@@ -38,14 +43,16 @@ let
         "Glq7j95E" = _Glq7j95E;
         "p4ZmbJ15" = _p4ZmbJ15;
         "P6O0gEMr" = _P6O0gEMr;
-        "neoforge-1.21.1" = _P6O0gEMr;
+        "4X5xH6B2" = _4X5xH6B2;
+        "neoforge-1.21.1" = _4X5xH6B2;
         "pkg-1.0.0" = _5QZLpbpw;
         "pkg-1.0" = _f2ZogFKO;
         "pkg-1.1" = _5mKkjY0J;
         "pkg-1.2" = _Glq7j95E;
         "pkg-1.3" = _p4ZmbJ15;
         "pkg-1.4" = _P6O0gEMr;
-        "default" = _P6O0gEMr;
+        "pkg-1.5" = _4X5xH6B2;
+        "default" = _4X5xH6B2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanillabackportxincubationcompat";

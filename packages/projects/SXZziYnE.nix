@@ -66,6 +66,21 @@ let
             "file" = "BoatCam-1.2.0-26.3.jar";
             "hash" = "sha512-HJusJmNcUqyxGGjBixwcknWD7xbqLCJ5SA0Tv+lUA9noeLhwNlAv1jjj9UyBr7/TLW+3cEoMarmBo01Zjv7rfQ==";
         };
+        _j1IX19Q8 = {
+            "id" = "j1IX19Q8";
+            "file" = "BoatCam-1.2.1-26.1.x.jar";
+            "hash" = "sha512-USEIpGaJaAzWdZy4mcFFwvm4rth/93BobrLBPaVofnOnEWRrHHeCd7o2baWMVRgfz0/9nNsZawkykz259GXHsw==";
+        };
+        _dFirQ3ii = {
+            "id" = "dFirQ3ii";
+            "file" = "BoatCam-1.2.1-26.2.jar";
+            "hash" = "sha512-GNolN3BxTuO2NaoasWKpU3rYonsjq+ItSd7PqKkasYrk0Jkf9PQGad7yw4oDVLJP4HpO8viikyc2Fi3ZbTlYJg==";
+        };
+        _vmxqAWHL = {
+            "id" = "vmxqAWHL";
+            "file" = "BoatCam-1.2.1-26.3.jar";
+            "hash" = "sha512-UinJxTj9gXSanR7jFUVKc6L9DJC7xtZnbt4PGiuRHT4AaE8antEUWM8WWamEoEv5FDMOQBabwpHYmvnuaBvRqQ==";
+        };
     in {
         "BTlBno0X" = _BTlBno0X;
         "G4VkJBps" = _G4VkJBps;
@@ -80,6 +95,9 @@ let
         "qH3beVwT" = _qH3beVwT;
         "nOUke61B" = _nOUke61B;
         "NVVVSDlL" = _NVVVSDlL;
+        "j1IX19Q8" = _j1IX19Q8;
+        "dFirQ3ii" = _dFirQ3ii;
+        "vmxqAWHL" = _vmxqAWHL;
         "fabric-1.21.3" = _F9gYLCS8;
         "fabric-1.21.4" = _F9gYLCS8;
         "fabric-1.21.5" = _F9gYLCS8;
@@ -96,11 +114,11 @@ let
         "fabric-1.21.9" = _mOGaokQi;
         "fabric-1.21.10" = _mOGaokQi;
         "fabric-1.21.11" = _d5wcdu6p;
-        "fabric-26.1" = _qH3beVwT;
-        "fabric-26.1.1" = _qH3beVwT;
-        "fabric-26.1.2" = _qH3beVwT;
-        "fabric-26.2" = _nOUke61B;
-        "fabric-26.3" = _NVVVSDlL;
+        "fabric-26.1" = _j1IX19Q8;
+        "fabric-26.1.1" = _j1IX19Q8;
+        "fabric-26.1.2" = _j1IX19Q8;
+        "fabric-26.2" = _dFirQ3ii;
+        "fabric-26.3" = _vmxqAWHL;
         "pkg-0.0.1" = _BTlBno0X;
         "pkg-0.0.2" = _G4VkJBps;
         "pkg-0.0.3" = _MUjdUeOb;
@@ -114,7 +132,10 @@ let
         "pkg-1.2.0-26.1.x" = _qH3beVwT;
         "pkg-1.2.0-26.2" = _nOUke61B;
         "pkg-1.2.0-26.3" = _NVVVSDlL;
-        "default" = _NVVVSDlL;
+        "pkg-1.2.1-26.1.x" = _j1IX19Q8;
+        "pkg-1.2.1-26.2" = _dFirQ3ii;
+        "pkg-1.2.1-26.3" = _vmxqAWHL;
+        "default" = _vmxqAWHL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "boatcam";

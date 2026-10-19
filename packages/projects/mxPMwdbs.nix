@@ -206,6 +206,11 @@ let
             "file" = "inworldrecipes-26.1.2-2.6.1.jar";
             "hash" = "sha512-qNELnsmfa3IhBEjRLiDffoXaiXk3MrmyRocQQMapV1UKITfRHpUAIKbHavI0SHmjKjRHc5m91uauqRzUw/mjqQ==";
         };
+        _l6EHZsbN = {
+            "id" = "l6EHZsbN";
+            "file" = "inworldrecipes-26.1.2-2.6.2.jar";
+            "hash" = "sha512-TkjKWuPBv8go+QeEfVDp5bBGKZsNWQ6s7acywwW+Bd7zQqW7KvxEQOag2TK9KIzT2n+HIls0x5Kv+hDbppOOqg==";
+        };
     in {
         "bcOqsMJI" = _bcOqsMJI;
         "j81GMSRZ" = _j81GMSRZ;
@@ -248,11 +253,12 @@ let
         "onrv86de" = _onrv86de;
         "O6hznu2q" = _O6hznu2q;
         "EnZ7J5TZ" = _EnZ7J5TZ;
+        "l6EHZsbN" = _l6EHZsbN;
         "neoforge-1.21" = _HM3pY941;
         "neoforge-1.21.1" = _HM3pY941;
         "neoforge-26.1" = _2d2NTvxR;
         "neoforge-26.1.1" = _2d2NTvxR;
-        "neoforge-26.1.2" = _EnZ7J5TZ;
+        "neoforge-26.1.2" = _l6EHZsbN;
         "pkg-1.0.0" = _bcOqsMJI;
         "pkg-1.21-1.0.0" = _j81GMSRZ;
         "pkg-1.21-1.0.1" = _b2C1wPgt;
@@ -289,7 +295,8 @@ let
         "pkg-26.1.2-2.5.1" = _onrv86de;
         "pkg-26.1.2-2.6.0" = _O6hznu2q;
         "pkg-26.1.2-2.6.1" = _EnZ7J5TZ;
-        "default" = _EnZ7J5TZ;
+        "pkg-26.1.2-2.6.2" = _l6EHZsbN;
+        "default" = _l6EHZsbN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "in-world-recipes";

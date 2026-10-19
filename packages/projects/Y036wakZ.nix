@@ -86,6 +86,11 @@ let
             "file" = "silentgems-26.1.2-neoforge-5.1.4.jar";
             "hash" = "sha512-piegDzYGZNnKAAXduBbKU0HcMu0L4nUoNinOi4BhUsaxlhOT8mmb2CR7B0mfpYDiTLHEeNp/wwQwHnk3fUZrTA==";
         };
+        _J7T360wR = {
+            "id" = "J7T360wR";
+            "file" = "silentgems-26.2-neoforge-5.2.0.jar";
+            "hash" = "sha512-jiUF+bcT5T6okm5EPh4274meR6ofa2YD2sWqN2bpIuc0DrijY5YJmR17uJrOveCSJ7AHtj5fGTeorwCXbz6ZAw==";
+        };
     in {
         "Ww13hkRn" = _Ww13hkRn;
         "6mWFU6M5" = _6mWFU6M5;
@@ -104,6 +109,7 @@ let
         "ni4FPBPl" = _ni4FPBPl;
         "BPYVf2n4" = _BPYVf2n4;
         "GF1jsWHo" = _GF1jsWHo;
+        "J7T360wR" = _J7T360wR;
         "forge-1.19.4" = _s73dWeru;
         "forge-1.20.1" = _1C4iTP1L;
         "neoforge-1.20.4" = _fe6YKyje;
@@ -112,6 +118,7 @@ let
         "neoforge-1.21.11" = _ni4FPBPl;
         "neoforge-26.1" = _BPYVf2n4;
         "neoforge-26.1.2" = _GF1jsWHo;
+        "neoforge-26.2" = _J7T360wR;
         "pkg-4.5.0" = _Ww13hkRn;
         "pkg-4.6.0" = _6mWFU6M5;
         "pkg-4.5.1" = _s73dWeru;
@@ -127,7 +134,8 @@ let
         "pkg-5.1.2.1" = _nvA2u995;
         "pkg-5.1.3" = _ni4FPBPl;
         "pkg-5.1.4" = _GF1jsWHo;
-        "default" = _GF1jsWHo;
+        "pkg-5.2.0" = _J7T360wR;
+        "default" = _J7T360wR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "silents-gems";

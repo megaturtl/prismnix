@@ -161,6 +161,11 @@ let
             "file" = "limacore-26.1.2-2.11.0.jar";
             "hash" = "sha512-088HSCvRUTefmxeHAvKbUhSsB+QjPIuOhfOTjT7e7YzQ56aU1cL9Y4ZqThSlazGi+Yi2PbC7NwSwhd3Wm9HTmA==";
         };
+        _n3Y3lG3L = {
+            "id" = "n3Y3lG3L";
+            "file" = "limacore-26.1.2-2.11.3.jar";
+            "hash" = "sha512-Fj7cl87+JeY8NGfVK7kK35PfUsuktxuULYXs/VZnyosAQksGLJ4LUoOZzB8nNpUn5hkkkx4ZajV9Vj5cJ3U2OA==";
+        };
     in {
         "iPlYL8aQ" = _iPlYL8aQ;
         "GvZUTL0V" = _GvZUTL0V;
@@ -194,8 +199,9 @@ let
         "I6wIT0XK" = _I6wIT0XK;
         "3GhPzTdN" = _3GhPzTdN;
         "VpR9BY8x" = _VpR9BY8x;
+        "n3Y3lG3L" = _n3Y3lG3L;
         "neoforge-1.21.1" = _1eKd1hht;
-        "neoforge-26.1.2" = _VpR9BY8x;
+        "neoforge-26.1.2" = _n3Y3lG3L;
         "pkg-1.3.0" = _iPlYL8aQ;
         "pkg-1.4.0" = _GvZUTL0V;
         "pkg-1.5.0" = _nGsLRy4Z;
@@ -228,7 +234,8 @@ let
         "pkg-2.9.1" = _I6wIT0XK;
         "pkg-2.10.0" = _3GhPzTdN;
         "pkg-2.11.0" = _VpR9BY8x;
-        "default" = _VpR9BY8x;
+        "pkg-2.11.3" = _n3Y3lG3L;
+        "default" = _n3Y3lG3L;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "limacore";

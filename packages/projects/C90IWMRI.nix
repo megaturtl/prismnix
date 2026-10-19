@@ -66,6 +66,16 @@ let
             "file" = "hidehud-1.3-fabric.26.x.jar";
             "hash" = "sha512-nEFju/ZoEWcQ2z4iFwBzc3G6/1l+cCq6Ni7+Gni4tvLcoXZe15/SAhU9BJ/q8hUIYRe4eT1DxFx1I119iwB+5g==";
         };
+        _YKz9BMgP = {
+            "id" = "YKz9BMgP";
+            "file" = "hidehud-1.4.jar";
+            "hash" = "sha512-hIMD8GZO8cUsTaRcf2YZbGegPr5xq+vfSz88HmYXgb+vvV+Go8GzzaergFTJpBFM6iaC2XG/Xsm5pVAjBVrx2g==";
+        };
+        _c9M0FYPJ = {
+            "id" = "c9M0FYPJ";
+            "file" = "hidehud-1.4-fabric-1.20.1.jar";
+            "hash" = "sha512-BkPL8QdqzqD+Cf7IU9IH4i9Hzn8G9hiiExkIoMHRo+1HMR8l7ZW18Kke0etT3/WCw/MS+cZq7m/SlHdvDek0gQ==";
+        };
     in {
         "2cykpVkA" = _2cykpVkA;
         "hYZWvoaF" = _hYZWvoaF;
@@ -80,14 +90,16 @@ let
         "q8ameJ2O" = _q8ameJ2O;
         "hu0LSVYV" = _hu0LSVYV;
         "YpuSOvNh" = _YpuSOvNh;
-        "forge-1.20.1" = _d02J5zRN;
+        "YKz9BMgP" = _YKz9BMgP;
+        "c9M0FYPJ" = _c9M0FYPJ;
+        "forge-1.20.1" = _YKz9BMgP;
         "neoforge-1.21.1" = _RXYzFqUF;
         "neoforge-26.1" = _hu0LSVYV;
         "neoforge-26.1.1" = _hu0LSVYV;
         "neoforge-26.1.2" = _hu0LSVYV;
         "neoforge-26.2" = _hu0LSVYV;
         "fabric-1.21.1" = _q8ameJ2O;
-        "fabric-1.20.1" = _m37xfBqz;
+        "fabric-1.20.1" = _c9M0FYPJ;
         "fabric-26.1" = _YpuSOvNh;
         "fabric-26.1.1" = _YpuSOvNh;
         "fabric-26.1.2" = _YpuSOvNh;
@@ -97,7 +109,8 @@ let
         "pkg-1.2" = _bQjIaaGe;
         "pkg-1.3" = _YpuSOvNh;
         "pkg-1.3fix" = _q8ameJ2O;
-        "default" = _YpuSOvNh;
+        "pkg-1.4" = _c9M0FYPJ;
+        "default" = _c9M0FYPJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hidehud";

@@ -746,6 +746,41 @@ let
             "file" = "AxolotlClient-3.2.1+26.2.jar";
             "hash" = "sha512-E3cTobCjPVrQdep5zQ6azL4iXdaHDNFgnR/F/4tA54gLX/6vQwwioMqEelhhHXELEZOU0XqKXP0/CoG8citM6Q==";
         };
+        _GURKlmNL = {
+            "id" = "GURKlmNL";
+            "file" = "AxolotlClient-3.2.2+1.8.9.jar";
+            "hash" = "sha512-dwH7wogrpp3u+QIlzvWclS0Cz6n60TbjkvtGTXHLn8qc883+q+JkaNzg9YXZfzSvq11uf5dyqO04Ktkidq1X8w==";
+        };
+        _6qAXkHew = {
+            "id" = "6qAXkHew";
+            "file" = "AxolotlClient-3.2.2+1.20.1.jar";
+            "hash" = "sha512-iK9soe5O934ZirlVB3/Hk/2CqmhPSlrm+sdfsTfzk+a6vm/HcCyrIFmS41ZULytpGB5BVlJnPlRM6RW1SlId5Q==";
+        };
+        _BjLblfc0 = {
+            "id" = "BjLblfc0";
+            "file" = "AxolotlClient-3.2.2+1.21.1.jar";
+            "hash" = "sha512-nFCt3Ea15uoC/yEnVVuPGcy8nyvvHXLhfgpf3QHTcCRZtHeDLOkFvWPJ5ZsBzw00AtDYl5Cp6hUnMDaG3NmtQw==";
+        };
+        _tnjfhGPT = {
+            "id" = "tnjfhGPT";
+            "file" = "AxolotlClient-3.2.2+1.21.11.jar";
+            "hash" = "sha512-7mm6Ev+Koy1xlnfA093jJ/25lOaPzRoHYJE4Vy12w3oWQ7LP0sAscIF8eHkouFl0C5OGcSwPGQVt29dnLsP6sQ==";
+        };
+        _5wvfYbun = {
+            "id" = "5wvfYbun";
+            "file" = "AxolotlClient-3.2.2+26.1.jar";
+            "hash" = "sha512-Cd/WeNFAiFptlQ8x72eFrtH0IWuaEeSYacppYQDwLWP6LfniD4IQpJTwW7BGx47PS0JbKWN5nY+p7STe+UuXDA==";
+        };
+        _Gegm3Q2f = {
+            "id" = "Gegm3Q2f";
+            "file" = "AxolotlClient-3.2.2+26.2.jar";
+            "hash" = "sha512-yctLHqNZO4DVk3Ki83sDp/OIhpsp2BCfYBgThEItXDgyKM4xy9VSGV0MJ33j3QFDkfMFvCqLcFlbRdiLMLGy/A==";
+        };
+        _Qd2KRiDA = {
+            "id" = "Qd2KRiDA";
+            "file" = "AxolotlClient-3.2.2+26.3.jar";
+            "hash" = "sha512-YnfnkxwsrFFij1JWSeFf6OxVlqaAG3Fpn5Gz6Gs1tTfpzJoZIvg5jwv9lJ4BflzOcutwGsIYHNCqy7K6PoTN8Q==";
+        };
     in {
         "N3wTBXA3" = _N3wTBXA3;
         "GwP1b7gy" = _GwP1b7gy;
@@ -896,6 +931,13 @@ let
         "kgLFkdNv" = _kgLFkdNv;
         "g1xreRSV" = _g1xreRSV;
         "i6kTCvw7" = _i6kTCvw7;
+        "GURKlmNL" = _GURKlmNL;
+        "6qAXkHew" = _6qAXkHew;
+        "BjLblfc0" = _BjLblfc0;
+        "tnjfhGPT" = _tnjfhGPT;
+        "5wvfYbun" = _5wvfYbun;
+        "Gegm3Q2f" = _Gegm3Q2f;
+        "Qd2KRiDA" = _Qd2KRiDA;
         "legacy-fabric-1.8.9" = _EpBQmzkD;
         "quilt-1.19" = _ibHck07d;
         "quilt-1.19.1" = _lXUEmspr;
@@ -924,9 +966,9 @@ let
         "fabric-1.16.3" = _RRdkGoV4;
         "fabric-1.16.4" = _XFJfZUwv;
         "fabric-1.16.5" = _aoSajPeY;
-        "fabric-1.20.1" = _p9KHGot4;
+        "fabric-1.20.1" = _6qAXkHew;
         "fabric-1.21.4" = _wUVEoxK1;
-        "fabric-1.21.1" = _kgLFkdNv;
+        "fabric-1.21.1" = _BjLblfc0;
         "fabric-1.21.5" = _QIoMUT7Y;
         "fabric-1.21.6" = _4m0hiCTp;
         "fabric-1.21.7-rc1" = _4m0hiCTp;
@@ -934,12 +976,13 @@ let
         "fabric-1.21.7" = _w6DNmeJV;
         "fabric-1.21.8" = _w6DNmeJV;
         "fabric-1.21.10" = _i7SFgsF6;
-        "fabric-1.21.11" = _SBihQCci;
+        "fabric-1.21.11" = _tnjfhGPT;
         "fabric-26.1" = _4MfPCxTP;
         "fabric-26.1.1" = _4MfPCxTP;
-        "fabric-26.1.2" = _g1xreRSV;
-        "fabric-26.2" = _i6kTCvw7;
-        "ornithe-1.8.9" = _Zv85vnXh;
+        "fabric-26.1.2" = _5wvfYbun;
+        "fabric-26.2" = _Gegm3Q2f;
+        "fabric-26.3" = _Qd2KRiDA;
+        "ornithe-1.8.9" = _GURKlmNL;
         "pkg-2.1.0+1.8.9" = _N3wTBXA3;
         "pkg-2.0.0+1.19" = _GwP1b7gy;
         "pkg-v2.0.1+1.19" = _A2XIbiiy;
@@ -1089,7 +1132,14 @@ let
         "pkg-3.2.1+1.21.1" = _kgLFkdNv;
         "pkg-3.2.1+26.1" = _g1xreRSV;
         "pkg-3.2.1+26.2" = _i6kTCvw7;
-        "default" = _i6kTCvw7;
+        "pkg-3.2.2+1.8.9" = _GURKlmNL;
+        "pkg-3.2.2+1.20.1" = _6qAXkHew;
+        "pkg-3.2.2+1.21.1" = _BjLblfc0;
+        "pkg-3.2.2+1.21.11" = _tnjfhGPT;
+        "pkg-3.2.2+26.1" = _5wvfYbun;
+        "pkg-3.2.2+26.2" = _Gegm3Q2f;
+        "pkg-3.2.2+26.3" = _Qd2KRiDA;
+        "default" = _Qd2KRiDA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "axolotlclient";

@@ -96,6 +96,16 @@ let
             "file" = "BioForge 2.1.1 1.20.1 Forge.jar";
             "hash" = "sha512-59e5rn2F864VM9g7Z2D6IsfngT5dQHfqlXM/nDS1ff6XGcXOyCxK1BeZlOKbeNnqaBs19F/vIvEApUOqZJqTBA==";
         };
+        _t15D7j1k = {
+            "id" = "t15D7j1k";
+            "file" = "BioForge 2.2 1.20.1 Forge.jar";
+            "hash" = "sha512-CBhz76+aT13s7HJNmakJGx0M1yF6oG869vzbtSPzNWMDIaxFuGfE9Yj/RkPAk2wCRTskc/1zOzFQJuFxKshHgQ==";
+        };
+        _B3HTmeyF = {
+            "id" = "B3HTmeyF";
+            "file" = "BioForge 2.2 1.21.1 NeoForge.jar";
+            "hash" = "sha512-aXUcSZlOtfL4O3SmvS5MbsnkjpRRwIBrHVCnd9HZWHjJdE735s19S5q0jY9pCLT9A2OtKWSUZCJrUNtifs+n4Q==";
+        };
     in {
         "VkMflalZ" = _VkMflalZ;
         "9jYU6oc6" = _9jYU6oc6;
@@ -116,8 +126,10 @@ let
         "o6Yx2eSC" = _o6Yx2eSC;
         "HRkJVJYI" = _HRkJVJYI;
         "Jc100Z96" = _Jc100Z96;
-        "forge-1.20.1" = _Jc100Z96;
-        "neoforge-1.21.1" = _HRkJVJYI;
+        "t15D7j1k" = _t15D7j1k;
+        "B3HTmeyF" = _B3HTmeyF;
+        "forge-1.20.1" = _t15D7j1k;
+        "neoforge-1.21.1" = _B3HTmeyF;
         "pkg-1.0.0" = _VkMflalZ;
         "pkg-1.0.1" = _9jYU6oc6;
         "pkg-1.0.2" = _RGKXNFmC;
@@ -135,7 +147,8 @@ let
         "pkg-2.0" = _rEL2Q8LH;
         "pkg-2.1" = _HRkJVJYI;
         "pkg-2.1.1" = _Jc100Z96;
-        "default" = _Jc100Z96;
+        "pkg-2.2" = _B3HTmeyF;
+        "default" = _B3HTmeyF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bio-forge";

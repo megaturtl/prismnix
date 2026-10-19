@@ -36,6 +36,11 @@ let
             "file" = "OCSMP Discs v1.3.1.jar";
             "hash" = "sha512-TmroWJUFY8FLXfMQXNRgG8hHgZ9AjUwz/udsDFKFpcQ/FX9bYJMfrc7Yx7Ix+k4ISi/qQ09FbG3NSqDqhdp1TA==";
         };
+        _L0JmxOBu = {
+            "id" = "L0JmxOBu";
+            "file" = "OCSMP Discs v1.4.1.jar";
+            "hash" = "sha512-WK8Wjs68jCkQiMvnWXcohbfo6sKSPkT4o8HPMadkswVeQ6aa/BSg4gIKNplQ6ZvL0IqUSgsoPu4VZam1LM4fsw==";
+        };
     in {
         "o5hxy3ec" = _o5hxy3ec;
         "PgBnCktF" = _PgBnCktF;
@@ -44,7 +49,8 @@ let
         "Z9JJrYC0" = _Z9JJrYC0;
         "yetg3dca" = _yetg3dca;
         "uc2uCcIW" = _uc2uCcIW;
-        "fabric-1.21.1" = _uc2uCcIW;
+        "L0JmxOBu" = _L0JmxOBu;
+        "fabric-1.21.1" = _L0JmxOBu;
         "pkg-0.0.1" = _o5hxy3ec;
         "pkg-0.1.0" = _PgBnCktF;
         "pkg-1.0.0" = _lOTlFQJw;
@@ -52,7 +58,8 @@ let
         "pkg-1.2.0" = _Z9JJrYC0;
         "pkg-1.3.0" = _yetg3dca;
         "pkg-1.3.1" = _uc2uCcIW;
-        "default" = _uc2uCcIW;
+        "pkg-1.4.1" = _L0JmxOBu;
+        "default" = _L0JmxOBu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ocsmp-discs";

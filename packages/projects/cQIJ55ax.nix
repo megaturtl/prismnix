@@ -51,6 +51,11 @@ let
             "file" = "cobblemon-riders-call-fabric-1.1.1+1.21.1.jar";
             "hash" = "sha512-LFCNd6NPP7fWzrktc9IfpCjS+4nUvKtIVlQsugIilX2DCFyS/NzON3EfRDeM33x9tI/SM1V+AqMXk/CgLW+LXA==";
         };
+        _mnqmQUAJ = {
+            "id" = "mnqmQUAJ";
+            "file" = "cobblemon-riders-call-fabric-1.1.3+1.21.1.jar";
+            "hash" = "sha512-2i7Py7bbfhfo2k8pP2+pxI4OTKKCqX2fYlHZUNecNIeg3JdPfOwUjjgioBOqQA0hqxlfS+1Wsycu5PujMB0mRA==";
+        };
     in {
         "3v0zpGdH" = _3v0zpGdH;
         "cF6gUnTz" = _cF6gUnTz;
@@ -62,7 +67,8 @@ let
         "mBQdhAjs" = _mBQdhAjs;
         "OfmVFaFI" = _OfmVFaFI;
         "O5vus54N" = _O5vus54N;
-        "fabric-1.21.1" = _O5vus54N;
+        "mnqmQUAJ" = _mnqmQUAJ;
+        "fabric-1.21.1" = _mnqmQUAJ;
         "neoforge-1.21.1" = _wOZY7bdb;
         "pkg-0.1.10+1.21.1" = _cF6gUnTz;
         "pkg-0.1.17+1.21.1" = _OsiZmQez;
@@ -70,7 +76,8 @@ let
         "pkg-1.0.1+1.21.1" = _mBQdhAjs;
         "pkg-1.1.0+1.21.1" = _OfmVFaFI;
         "pkg-1.1.1+1.21.1" = _O5vus54N;
-        "default" = _O5vus54N;
+        "pkg-1.1.3+1.21.1" = _mnqmQUAJ;
+        "default" = _mnqmQUAJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-riders-call";

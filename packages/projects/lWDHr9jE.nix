@@ -1711,6 +1711,16 @@ let
             "file" = "tectonic-3.0.31-neoforge-26.3.jar";
             "hash" = "sha512-HBLm0c40gCZRvICMR6K5ZXnbL8fCS1sSIfD0nkWu4hZU9Vxt6OtQWOF1PCqLFhNNgmUfLRZjjH7KRPgFcE7CmQ==";
         };
+        _zVp3TgeF = {
+            "id" = "zVp3TgeF";
+            "file" = "tectonic-3.1.0+beta1-fabric-26.3.jar";
+            "hash" = "sha512-6B/e28CE/EqeFO7jc14LqCzMptWrHkcBORcydKJsYqnBvk2daAXo91tDFjZNGmgz5VAINkEx7hXGaCXvrumMpA==";
+        };
+        _A5oNq7Va = {
+            "id" = "A5oNq7Va";
+            "file" = "tectonic-3.1.0+beta1-neoforge-26.3.jar";
+            "hash" = "sha512-Kzexmuda0ODzjaQj6FCKxPwZ/7S8osW7oXmGzhEeZ60nV9+mFsxRHDuIHzCSenwp3jbCZafA/5Rj6TjvkwS4yg==";
+        };
     in {
         "eU3jwc8i" = _eU3jwc8i;
         "etznjsos" = _etznjsos;
@@ -2054,6 +2064,8 @@ let
         "sS6alco3" = _sS6alco3;
         "j2jmkU85" = _j2jmkU85;
         "yWpa8ww5" = _yWpa8ww5;
+        "zVp3TgeF" = _zVp3TgeF;
+        "A5oNq7Va" = _A5oNq7Va;
         "fabric-1.19" = _XsX5AVbj;
         "fabric-1.19.1" = _XsX5AVbj;
         "fabric-1.19.2" = _XsX5AVbj;
@@ -2086,7 +2098,7 @@ let
         "fabric-26.1.1" = _5v9Cz8zS;
         "fabric-26.1.2" = _5v9Cz8zS;
         "fabric-26.2" = _tGbplDzo;
-        "fabric-26.3" = _j2jmkU85;
+        "fabric-26.3" = _zVp3TgeF;
         "forge-1.19" = _IzZfgym7;
         "forge-1.19.1" = _IzZfgym7;
         "forge-1.19.2" = _IzZfgym7;
@@ -2178,7 +2190,7 @@ let
         "neoforge-26.1.1" = _RNLd3nvP;
         "neoforge-26.1.2" = _RNLd3nvP;
         "neoforge-26.2" = _c7tXsFY6;
-        "neoforge-26.3" = _yWpa8ww5;
+        "neoforge-26.3" = _A5oNq7Va;
         "pkg-1.0.0" = _eU3jwc8i;
         "pkg-1.0.1" = _etznjsos;
         "pkg-1.0.1a" = _FwjITjTl;
@@ -2334,7 +2346,9 @@ let
         "pkg-3.0.30-neoforge-26.3" = _sS6alco3;
         "pkg-3.0.31-fabric-26.3" = _j2jmkU85;
         "pkg-3.0.31-neoforge-26.3" = _yWpa8ww5;
-        "default" = _yWpa8ww5;
+        "pkg-3.1.0+beta1-fabric-26.3" = _zVp3TgeF;
+        "pkg-3.1.0+beta1-neoforge-26.3" = _A5oNq7Va;
+        "default" = _A5oNq7Va;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tectonic";

@@ -181,6 +181,16 @@ let
             "file" = "orbital-strike-cannon-datapack-13.jar";
             "hash" = "sha512-D9nAkq4WEVcjc7x/Pc5/JZw19UkPIkCSgK1S08Bbw8qNmqIp0q4YApBiIcdthyahN3E2L35PGUzi2vVNHX6odQ==";
         };
+        _KDtDaHZe = {
+            "id" = "KDtDaHZe";
+            "file" = "Orbital Strike Cannon v13 26.3.zip";
+            "hash" = "sha512-YaiSWBmU/TAYNI65yk+4sMsJi3XDkH5ponjbYfLfjEQDfx6s6QYNOEX4MsxEME6SEV6PxUq6E3HQyv6Q1Osutw==";
+        };
+        _TvRMDPLy = {
+            "id" = "TvRMDPLy";
+            "file" = "orbital-strike-cannon-datapack-v13-for-26.3.jar";
+            "hash" = "sha512-6PmNtJpHRTE671mbax241rR8rm15mDfPOkW+Y4B9ENV7CpEaGOf0yU2DbFpINtFdba/FuNyVylW6zyv8RWKE9g==";
+        };
     in {
         "l0LincWd" = _l0LincWd;
         "HoVQByok" = _HoVQByok;
@@ -218,6 +228,8 @@ let
         "klDUvuYs" = _klDUvuYs;
         "oVJpLkZb" = _oVJpLkZb;
         "OjdM5K8I" = _OjdM5K8I;
+        "KDtDaHZe" = _KDtDaHZe;
+        "TvRMDPLy" = _TvRMDPLy;
         "datapack-1.21.9" = _oVJpLkZb;
         "datapack-1.21.10" = _oVJpLkZb;
         "datapack-1.21.11" = _oVJpLkZb;
@@ -225,7 +237,7 @@ let
         "datapack-26.1.1" = _oVJpLkZb;
         "datapack-26.1.2" = _oVJpLkZb;
         "datapack-26.2" = _oVJpLkZb;
-        "datapack-26.3" = _IaSZLzSv;
+        "datapack-26.3" = _KDtDaHZe;
         "fabric-1.21.9" = _OjdM5K8I;
         "fabric-1.21.10" = _OjdM5K8I;
         "fabric-1.21.11" = _OjdM5K8I;
@@ -233,7 +245,7 @@ let
         "fabric-26.1.1" = _OjdM5K8I;
         "fabric-26.1.2" = _OjdM5K8I;
         "fabric-26.2" = _OjdM5K8I;
-        "fabric-26.3" = _lUqbUzic;
+        "fabric-26.3" = _TvRMDPLy;
         "forge-1.21.9" = _OjdM5K8I;
         "forge-1.21.10" = _OjdM5K8I;
         "forge-1.21.11" = _OjdM5K8I;
@@ -241,7 +253,7 @@ let
         "forge-26.1.1" = _OjdM5K8I;
         "forge-26.1.2" = _OjdM5K8I;
         "forge-26.2" = _OjdM5K8I;
-        "forge-26.3" = _lUqbUzic;
+        "forge-26.3" = _TvRMDPLy;
         "neoforge-1.21.9" = _OjdM5K8I;
         "neoforge-1.21.10" = _OjdM5K8I;
         "neoforge-1.21.11" = _OjdM5K8I;
@@ -249,7 +261,7 @@ let
         "neoforge-26.1.1" = _OjdM5K8I;
         "neoforge-26.1.2" = _OjdM5K8I;
         "neoforge-26.2" = _OjdM5K8I;
-        "neoforge-26.3" = _lUqbUzic;
+        "neoforge-26.3" = _TvRMDPLy;
         "quilt-1.21.9" = _OjdM5K8I;
         "quilt-1.21.10" = _OjdM5K8I;
         "quilt-1.21.11" = _OjdM5K8I;
@@ -257,7 +269,7 @@ let
         "quilt-26.1.1" = _OjdM5K8I;
         "quilt-26.1.2" = _OjdM5K8I;
         "quilt-26.2" = _OjdM5K8I;
-        "quilt-26.3" = _lUqbUzic;
+        "quilt-26.3" = _TvRMDPLy;
         "pkg-1.0" = _l0LincWd;
         "pkg-2.0" = _HoVQByok;
         "pkg-3.0" = _ViJbB3kN;
@@ -294,7 +306,9 @@ let
         "pkg-12+mod" = _klDUvuYs;
         "pkg-13" = _oVJpLkZb;
         "pkg-13+mod" = _OjdM5K8I;
-        "default" = _OjdM5K8I;
+        "pkg-v13-for-26.3" = _KDtDaHZe;
+        "pkg-v13-for-26.3+mod" = _TvRMDPLy;
+        "default" = _TvRMDPLy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "orbital-strike-cannon-datapack";

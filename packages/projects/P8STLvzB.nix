@@ -201,6 +201,16 @@ let
             "file" = "Perception-NEOFORGE-0.2.1+1.21.1.jar";
             "hash" = "sha512-VAGA9rkHdgliaCSbqk6TgN/3UJidimITKJlGt4i6B7ZHpv8xjsGrvK7lNyupvVuSRJgIadtD0a8Hh6W6V9bJOw==";
         };
+        _kKUgR3vx = {
+            "id" = "kKUgR3vx";
+            "file" = "Perception-NEOFORGE-0.1.6.1+26.3.jar";
+            "hash" = "sha512-49eDMXN5m+3PBmu939llKsRoi7vFAQo6N1kfY0bTvoZBK+J2wdTO1lOaC/Y/99O6rmorpD2wW5I6HG9hA+lHyg==";
+        };
+        _VlbpnX5m = {
+            "id" = "VlbpnX5m";
+            "file" = "Perception-FABRIC-0.1.6.1+26.3.jar";
+            "hash" = "sha512-NWpMrgIc9PXiezX0+LnFrGHUX/s3LscI+bWPpLRVvMqp+7QOthn0SKozZsQPpNGu4T5QkX5IBaOqbfyRkk2HCQ==";
+        };
     in {
         "8h5xVPQB" = _8h5xVPQB;
         "XwQKkqAV" = _XwQKkqAV;
@@ -242,17 +252,21 @@ let
         "tP1RyKK6" = _tP1RyKK6;
         "F3iQeNPB" = _F3iQeNPB;
         "W5IQteYO" = _W5IQteYO;
+        "kKUgR3vx" = _kKUgR3vx;
+        "VlbpnX5m" = _VlbpnX5m;
         "neoforge-1.21.1" = _W5IQteYO;
         "neoforge-1.21.4" = _sgIuLHHW;
         "neoforge-1.21" = _eFzzv5vq;
         "neoforge-1.21.8" = _F60L3Ix8;
         "neoforge-1.21.11" = _TxKg5rhA;
+        "neoforge-26.3" = _kKUgR3vx;
         "fabric-1.21.1" = _F3iQeNPB;
         "fabric-1.20.1" = _Q4dXkeXL;
         "fabric-1.21.4" = _cWLiigH9;
         "fabric-1.21" = _cSqc03UI;
         "fabric-1.21.8" = _H4XnJstV;
         "fabric-1.21.11" = _tP1RyKK6;
+        "fabric-26.3" = _VlbpnX5m;
         "forge-1.20.1" = _CucvhaTX;
         "pkg-0.1" = _XwQKkqAV;
         "pkg-0.1.0.1" = _3VKzQOXf;
@@ -268,7 +282,8 @@ let
         "pkg-0.1.6.1" = _o4nWqxyV;
         "pkg-0.1.6.2" = _tP1RyKK6;
         "pkg-0.2.1" = _W5IQteYO;
-        "default" = _W5IQteYO;
+        "pkg-0.1.6.1+26.3" = _VlbpnX5m;
+        "default" = _VlbpnX5m;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "perception";

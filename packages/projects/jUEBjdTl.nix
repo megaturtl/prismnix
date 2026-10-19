@@ -51,6 +51,11 @@ let
             "file" = "waterworks-1.2.0 - Preview 5.jar";
             "hash" = "sha512-pHJXQDUPehF6t4FyrPKZyWP/PBCQNE/mbCLMD12kMZ1ZfIqXqcPTaCo2jkkMopQgjOT/8p+4T6kbyJT0igFRhg==";
         };
+        _Y10NGBZn = {
+            "id" = "Y10NGBZn";
+            "file" = "waterworks-1.2.0.jar";
+            "hash" = "sha512-x3qIcExqfrYzosnRVbmQeg+J3J5zzK2U/bf0gPke0LCWZevDghYYqRbG5zQtjuR+XLINWpT39Ub3Ot5xOrH3UA==";
+        };
     in {
         "Ixys9F5Z" = _Ixys9F5Z;
         "B39QSBhs" = _B39QSBhs;
@@ -62,7 +67,8 @@ let
         "UAkrABpK" = _UAkrABpK;
         "n5Zo3odn" = _n5Zo3odn;
         "ZZnpQ4GQ" = _ZZnpQ4GQ;
-        "neoforge-1.21.1" = _ZZnpQ4GQ;
+        "Y10NGBZn" = _Y10NGBZn;
+        "neoforge-1.21.1" = _Y10NGBZn;
         "neoforge-1.21.2" = _B39QSBhs;
         "neoforge-1.21.3" = _B39QSBhs;
         "neoforge-1.21.4" = _B39QSBhs;
@@ -86,7 +92,8 @@ let
         "pkg-1.2.0-Preview_3" = _UAkrABpK;
         "pkg-1.2.0-Preview_4" = _n5Zo3odn;
         "pkg-1.2.0-Preview_5" = _ZZnpQ4GQ;
-        "default" = _ZZnpQ4GQ;
+        "pkg-1.2.0" = _Y10NGBZn;
+        "default" = _Y10NGBZn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "waterworks";

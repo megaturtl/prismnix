@@ -46,6 +46,11 @@ let
             "file" = "PVPUtils-v1.6.jar";
             "hash" = "sha512-5g1V8uO7xcRcbajMa4ITGOxakOnjm8S0hDBgFh7TdJV65MhuZ4dWKziYjrDjTT88wLP1TGUKReVJ9q5TdJM5AA==";
         };
+        _zHz83KGg = {
+            "id" = "zHz83KGg";
+            "file" = "PVPUtils-v1.8.jar";
+            "hash" = "sha512-A1kULyPiop7x6k7Pf+0v1lDc+/FUdH3p364ySbTCLddRFaKDvsFIL4x1pq80tbfJ/5+Gg0avzsP9e6Q9obfBgQ==";
+        };
     in {
         "l3N49KZo" = _l3N49KZo;
         "fXIlvTFU" = _fXIlvTFU;
@@ -56,7 +61,8 @@ let
         "h9GjnL5h" = _h9GjnL5h;
         "kFyeXmVS" = _kFyeXmVS;
         "S2dl02nv" = _S2dl02nv;
-        "fabric-1.21.11" = _S2dl02nv;
+        "zHz83KGg" = _zHz83KGg;
+        "fabric-1.21.11" = _zHz83KGg;
         "pkg-1.0.0" = _l3N49KZo;
         "pkg-1.1" = _fXIlvTFU;
         "pkg-1.2" = _wDroJDnT;
@@ -66,7 +72,8 @@ let
         "pkg-1.3" = _h9GjnL5h;
         "pkg-1.4" = _kFyeXmVS;
         "pkg-1.6" = _S2dl02nv;
-        "default" = _S2dl02nv;
+        "pkg-1.8" = _zHz83KGg;
+        "default" = _zHz83KGg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pvp_utils";

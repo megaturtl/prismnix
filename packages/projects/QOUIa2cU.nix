@@ -126,6 +126,16 @@ let
             "file" = "FishyAddons-2.1.6-mc26.2.jar";
             "hash" = "sha512-gGVe5nt0TICjU8I9rL4Du/yEpe3iCFtBdgCdDvdX5GdzoxaTASwFZ9Lz/F3tJJQo5xYKvkobDlx9ZztAIY8lhg==";
         };
+        _VcAIbFvZ = {
+            "id" = "VcAIbFvZ";
+            "file" = "FishyAddons-2.1.7-mc26.1.2.jar";
+            "hash" = "sha512-6THWcf1+GZMV2gxRmR9+19Umtks+hHVLjn4y+mx9TVmoDVIbIlW3U670wocpFaeKmGAyL5Gvgnyj0bQcpg+noQ==";
+        };
+        _WWbMczaN = {
+            "id" = "WWbMczaN";
+            "file" = "FishyAddons-2.1.7-mc26.2.jar";
+            "hash" = "sha512-5qkFxMhKs3LwOvGmmJq3E9/JPILaToLRtvWweZZXwOBrBZv7vbRXoGQpBbr7vH0t8LrRDfN06G1BHIYhY09rBQ==";
+        };
     in {
         "K1EGsZF3" = _K1EGsZF3;
         "lPBzFg2w" = _lPBzFg2w;
@@ -152,12 +162,14 @@ let
         "VCibnANG" = _VCibnANG;
         "OuLCKiyr" = _OuLCKiyr;
         "IDWRE6eQ" = _IDWRE6eQ;
+        "VcAIbFvZ" = _VcAIbFvZ;
+        "WWbMczaN" = _WWbMczaN;
         "fabric-1.21.5" = _rCvPnEqr;
         "fabric-1.21.8" = _BfpSsn75;
         "fabric-1.21.10" = _lC0U9qli;
         "fabric-1.21.11" = _O2cH9Ci6;
-        "fabric-26.1.2" = _OuLCKiyr;
-        "fabric-26.2" = _IDWRE6eQ;
+        "fabric-26.1.2" = _VcAIbFvZ;
+        "fabric-26.2" = _WWbMczaN;
         "pkg-2.0.2" = _K1EGsZF3;
         "pkg-2.0.3" = _lPBzFg2w;
         "pkg-2.0.4" = _YP50wTbu;
@@ -173,7 +185,8 @@ let
         "pkg-2.1.4" = _i2hw9TxA;
         "pkg-2.1.5" = _VCibnANG;
         "pkg-2.1.6" = _IDWRE6eQ;
-        "default" = _IDWRE6eQ;
+        "pkg-2.1.7" = _WWbMczaN;
+        "default" = _WWbMczaN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fishyaddons";

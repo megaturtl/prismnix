@@ -36,6 +36,26 @@ let
             "file" = "ccrj45-1.2.3.jar";
             "hash" = "sha512-+tjY7miFDgu3LGKg7QlqulTU/B+4l0UlgXp2QS/LfQ0tbgBv9+sHywjXHDGXRN08FHcXlMTt0HP4WkRLe64C4g==";
         };
+        _ajYKs3GK = {
+            "id" = "ajYKs3GK";
+            "file" = "ccrj45-26.2-neoforge-1.2.4.jar";
+            "hash" = "sha512-mF2erpN6n7XobVlPBdV8NeVOmRjZq7AqjhubiwMq0+i3epV6jNolnMdpKzwsX+rjoRtFF+HhN1hd8R9vdbyO+Q==";
+        };
+        _pPsNuJHw = {
+            "id" = "pPsNuJHw";
+            "file" = "ccrj45-1.21.1-fabric-1.2.4.jar";
+            "hash" = "sha512-A1nKYC3lr4pOlmH4m5yF+dZC7GaCdZ+p0xV6nAavTJYOinzRM/KRJt4fYErP1ZfkaRTJkVp2F5bVWWx7iBTX7A==";
+        };
+        _lHYxtYdo = {
+            "id" = "lHYxtYdo";
+            "file" = "ccrj45-1.21.1-neoforge-1.2.4.jar";
+            "hash" = "sha512-nkydAav9kh20FBJjnBfzJ+CelF3s5kCtWKxsFz8plLfz74YBJPQUF5K08NpT/Cn6WrsUM1S7EW7mRPbwERy3YA==";
+        };
+        _KYLQ0yt5 = {
+            "id" = "KYLQ0yt5";
+            "file" = "ccrj45-26.2-fabric-1.2.4.jar";
+            "hash" = "sha512-eqka6fFAbhPN5usX9siekGQbO1dBDUrEUEZrckUcCgjb5AH+mP4W5Gx4EwI4o8O5X0/6UKU1X98aiDHlHuI/lQ==";
+        };
     in {
         "DHILVV7E" = _DHILVV7E;
         "MmWchgBC" = _MmWchgBC;
@@ -44,7 +64,14 @@ let
         "9KaoYjFR" = _9KaoYjFR;
         "XMQqbhTg" = _XMQqbhTg;
         "c04J1Mk1" = _c04J1Mk1;
-        "neoforge-1.21.1" = _c04J1Mk1;
+        "ajYKs3GK" = _ajYKs3GK;
+        "pPsNuJHw" = _pPsNuJHw;
+        "lHYxtYdo" = _lHYxtYdo;
+        "KYLQ0yt5" = _KYLQ0yt5;
+        "neoforge-1.21.1" = _lHYxtYdo;
+        "neoforge-26.2" = _ajYKs3GK;
+        "fabric-1.21.1" = _pPsNuJHw;
+        "fabric-26.2" = _KYLQ0yt5;
         "pkg-1.0.0" = _DHILVV7E;
         "pkg-1.0.1" = _MmWchgBC;
         "pkg-1.1.0" = _a449z0g0;
@@ -52,7 +79,8 @@ let
         "pkg-1.2.1" = _9KaoYjFR;
         "pkg-1.2.2" = _XMQqbhTg;
         "pkg-1.2.3" = _c04J1Mk1;
-        "default" = _c04J1Mk1;
+        "pkg-1.2.4" = _KYLQ0yt5;
+        "default" = _KYLQ0yt5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ccrj45";

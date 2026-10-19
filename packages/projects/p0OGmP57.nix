@@ -341,6 +341,16 @@ let
             "file" = "acrylic-neoforge-1.8.6+26.2.jar";
             "hash" = "sha512-YRnI49XtQv4Tv9VcT1XkIUyrxAyns/2npLVm6bAYOOO6EiP6C2N84GbWoKgK/xFZn2nB2tMVxgwDqIUoYawBFQ==";
         };
+        _OHXqKdV5 = {
+            "id" = "OHXqKdV5";
+            "file" = "acrylic-fabric-1.9.0+26.3.jar";
+            "hash" = "sha512-nvjlJV2ncFPLAoqfQO8VCxYkGfy/VnfegbUgjgPFQADki8MX9s18S7NvWX1o9HFM1Xyd8p5hKxGWrvc+AH+/yA==";
+        };
+        _hVHV9IlZ = {
+            "id" = "hVHV9IlZ";
+            "file" = "acrylic-neoforge-1.9.0+26.3.jar";
+            "hash" = "sha512-qvrIv1D8/nBt9SkGQm3ZkjumqxRCgvJLjkeIESnqFuhm3jc8WFj6UDgAqfO4F4mfdYKkDebMuEE3Rn8wCKKfHA==";
+        };
     in {
         "Lne34OFz" = _Lne34OFz;
         "M8MkKCTH" = _M8MkKCTH;
@@ -410,6 +420,8 @@ let
         "y1Az2DTQ" = _y1Az2DTQ;
         "jMWhUDwJ" = _jMWhUDwJ;
         "bSwVtK18" = _bSwVtK18;
+        "OHXqKdV5" = _OHXqKdV5;
+        "hVHV9IlZ" = _hVHV9IlZ;
         "fabric-1.19.4" = _tdzc8lVE;
         "fabric-1.20.1" = _UrJlIzY4;
         "fabric-1.20.2" = _UrJlIzY4;
@@ -433,6 +445,7 @@ let
         "fabric-26.1.1" = _o9lnHK9z;
         "fabric-26.1.2" = _o9lnHK9z;
         "fabric-26.2" = _jMWhUDwJ;
+        "fabric-26.3" = _OHXqKdV5;
         "quilt-1.19.4" = _tdzc8lVE;
         "quilt-1.20.1" = _UrJlIzY4;
         "quilt-1.20.2" = _UrJlIzY4;
@@ -475,6 +488,7 @@ let
         "neoforge-26.1.1" = _Rqar6H8r;
         "neoforge-26.1.2" = _Rqar6H8r;
         "neoforge-26.2" = _bSwVtK18;
+        "neoforge-26.3" = _hVHV9IlZ;
         "pkg-1.2.2" = _uNjCsXQM;
         "pkg-1.3.0" = _u1xwXgne;
         "pkg-1.3.2" = _PxhaWj4R;
@@ -494,7 +508,8 @@ let
         "pkg-1.8.4" = _VrPOoH70;
         "pkg-1.8.5" = _y1Az2DTQ;
         "pkg-1.8.6" = _bSwVtK18;
-        "default" = _bSwVtK18;
+        "pkg-1.9.0" = _hVHV9IlZ;
+        "default" = _hVHV9IlZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "acrylicraft";

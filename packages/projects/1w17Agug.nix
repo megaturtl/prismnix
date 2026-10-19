@@ -136,6 +136,11 @@ let
             "file" = "Mooblooms-V1.0-Forge-26.3.jar";
             "hash" = "sha512-s27H9G2xMZriRYti4ITNwqLN/sAXcflgrw8vkrUWsWv4Ve2Rmd8jKoyCfNQi+wL/adKXhFord/19SAI2CvFiIQ==";
         };
+        _egsKPAz6 = {
+            "id" = "egsKPAz6";
+            "file" = "MoVillagers-V1.1-Neoforge-26.3.jar";
+            "hash" = "sha512-lrUMIM2SJgy3BEBtGaRuRQk8aS40j5Bh26oYDV6wUlXZD8HptCBU1nU5s33saTonyBi6tGUszEwM2tD+GqTBsw==";
+        };
     in {
         "BJb8JZPI" = _BJb8JZPI;
         "tcs5suIS" = _tcs5suIS;
@@ -164,6 +169,7 @@ let
         "lnD1NfEl" = _lnD1NfEl;
         "SO2oHVVK" = _SO2oHVVK;
         "aWTpirUW" = _aWTpirUW;
+        "egsKPAz6" = _egsKPAz6;
         "forge-1.19.3" = _BJb8JZPI;
         "forge-1.19.1" = _tcs5suIS;
         "forge-1.19.4" = _CXzIZxtg;
@@ -195,7 +201,7 @@ let
         "neoforge-26.1.1" = _3XCOcaom;
         "neoforge-26.1.2" = _3XCOcaom;
         "neoforge-26.2" = _HUivpRqH;
-        "neoforge-26.3" = _SO2oHVVK;
+        "neoforge-26.3" = _egsKPAz6;
         "pkg-1.19.3-4.0" = _BJb8JZPI;
         "pkg-1.19.1-3.0" = _tcs5suIS;
         "pkg-1.19.4-4.0" = _CXzIZxtg;
@@ -207,7 +213,8 @@ let
         "pkg-1.2.0" = _SwtsgX80;
         "pkg-V1.0-Neoforge-26.3" = _SO2oHVVK;
         "pkg-V1.0-Forge-26.3" = _aWTpirUW;
-        "default" = _aWTpirUW;
+        "pkg-V1.1-Neoforge-26.3" = _egsKPAz6;
+        "default" = _egsKPAz6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mo-villagers";

@@ -4101,6 +4101,21 @@ let
             "file" = "ToughAsNails-fabric-26.2-21.11.0.8.jar";
             "hash" = "sha512-QB4zybGJ1mw3bWQVRyFe9S/paPFWBkFbBC+Iqwpc78JznWQiv1t3GnamSsipx7+uz3R4pKvTn6n1BDlKhg7gWA==";
         };
+        _8wbuLffF = {
+            "id" = "8wbuLffF";
+            "file" = "ToughAsNails-forge-26.3-21.11.0.11.jar";
+            "hash" = "sha512-Bwquf06UOyS50gyePQ2/QvkpAypjC6NbjvlZJDrTK7Kpkz7oaNmJCT66aW/10G92oE5hu/SRVdmeLHs3PNa7rg==";
+        };
+        _bZ4g9dRQ = {
+            "id" = "bZ4g9dRQ";
+            "file" = "ToughAsNails-neoforge-26.3-21.11.0.11.jar";
+            "hash" = "sha512-b9yNkdbtd4PCHhPo9+YzbFPG/4//zs3kwtGVUWmDQiKoFEK9KPCeZdrV+5quK9tWgAZBCzdsajwUfAA6O3eDcA==";
+        };
+        _8ABaOiQL = {
+            "id" = "8ABaOiQL";
+            "file" = "ToughAsNails-fabric-26.3-21.11.0.11.jar";
+            "hash" = "sha512-WDURBGwczfKcG35CCys8iFIFm+ctlo0Yj2kY9B3BvuCW986+ZkK7F8NszzSdO0pMItrjOKLDPvYEEVYtvtD9DQ==";
+        };
     in {
         "L3hKQyd2" = _L3hKQyd2;
         "v8YYw6ax" = _v8YYw6ax;
@@ -4922,6 +4937,9 @@ let
         "ZyR1cGYC" = _ZyR1cGYC;
         "UEvvcLc2" = _UEvvcLc2;
         "bZ9oibj4" = _bZ9oibj4;
+        "8wbuLffF" = _8wbuLffF;
+        "bZ4g9dRQ" = _bZ4g9dRQ;
+        "8ABaOiQL" = _8ABaOiQL;
         "forge-1.9.4" = _8c0gHDpR;
         "forge-1.10" = _8c0gHDpR;
         "forge-1.10.2" = _8c0gHDpR;
@@ -4957,6 +4975,7 @@ let
         "forge-1.21.11" = _Voi8vu7i;
         "forge-26.1.2" = _tzjXtg04;
         "forge-26.2" = _ZyR1cGYC;
+        "forge-26.3" = _8wbuLffF;
         "neoforge-1.20.4" = _Spwn72MJ;
         "neoforge-1.20.6" = _ifQdupgp;
         "neoforge-1.21" = _6FU6Ag1x;
@@ -4972,6 +4991,7 @@ let
         "neoforge-1.21.11" = _6zSGsGJC;
         "neoforge-26.1.2" = _VkY8qAjg;
         "neoforge-26.2" = _UEvvcLc2;
+        "neoforge-26.3" = _bZ4g9dRQ;
         "fabric-1.20.4" = _jEQh6AFV;
         "fabric-1.20.6" = _tR6QnBNY;
         "fabric-1.21" = _OunEN33z;
@@ -4988,6 +5008,7 @@ let
         "fabric-1.21.11" = _WPscGvLW;
         "fabric-26.1.2" = _vCvDP82P;
         "fabric-26.2" = _bZ9oibj4;
+        "fabric-26.3" = _8ABaOiQL;
         "pkg-1.0.0" = _L3hKQyd2;
         "pkg-1.0.1" = _v8YYw6ax;
         "pkg-1.0.2" = _Q8k4NsM0;
@@ -5409,7 +5430,8 @@ let
         "pkg-21.11.0.4" = _WPscGvLW;
         "pkg-21.11.0.6" = _vCvDP82P;
         "pkg-21.11.0.8" = _bZ9oibj4;
-        "default" = _bZ9oibj4;
+        "pkg-21.11.0.11" = _8ABaOiQL;
+        "default" = _8ABaOiQL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tough-as-nails";

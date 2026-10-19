@@ -121,6 +121,16 @@ let
             "file" = "create_railway_evolution-1.0.8.jar";
             "hash" = "sha512-IleSNUniqh8fXP2z05mxsKWjSoDyvP+p/YGL0ynBX6ei0yk5xo0HUu144dgPNm1Q4s/2E4htd5NrbxUrNFeLCA==";
         };
+        _MSCQuGlb = {
+            "id" = "MSCQuGlb";
+            "file" = "create_railway_evolution-1.0.jar";
+            "hash" = "sha512-aYTwjUahgANmsBCSUsiZJOwPEiJa420a1Uvx0+SXrisUFe2RqKdp12zGVHsm4903AkWaz38A9li484uuylcwAg==";
+        };
+        _BMCAeaGl = {
+            "id" = "BMCAeaGl";
+            "file" = "create_railway-1.0.jar";
+            "hash" = "sha512-978NqwnhDvZpBPn8ouQBiZ7SPhfE3LC+8oLi8Qnk884ecqlBnWMyy7RcwCLOUmN/S8cI0h+TtM/QJ1kUp7GUJQ==";
+        };
     in {
         "qvK9UxjL" = _qvK9UxjL;
         "OtSGVudb" = _OtSGVudb;
@@ -146,10 +156,12 @@ let
         "NyfdyIYD" = _NyfdyIYD;
         "9FSlMI4q" = _9FSlMI4q;
         "FKZaGNay" = _FKZaGNay;
-        "forge-1.20.1" = _IvidH7xV;
+        "MSCQuGlb" = _MSCQuGlb;
+        "BMCAeaGl" = _BMCAeaGl;
+        "forge-1.20.1" = _BMCAeaGl;
         "forge-1.19.2" = _MrqSNSzn;
         "forge-1.18.2" = _3kbovKpO;
-        "neoforge-1.21.1" = _FKZaGNay;
+        "neoforge-1.21.1" = _MSCQuGlb;
         "pkg-1.0.0" = _3kbovKpO;
         "pkg-1.0.1" = _oMUyAotx;
         "pkg-1.0.2" = _vXUNt2lq;
@@ -159,7 +171,9 @@ let
         "pkg-1.0.6" = _mJZ4DQar;
         "pkg-1.0.7" = _NyfdyIYD;
         "pkg-1.0.8" = _FKZaGNay;
-        "default" = _FKZaGNay;
+        "pkg-1.0-1.21.1" = _MSCQuGlb;
+        "pkg-1.0-1.20.1" = _BMCAeaGl;
+        "default" = _BMCAeaGl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "railway-evolution";

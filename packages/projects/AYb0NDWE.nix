@@ -196,6 +196,16 @@ let
             "file" = "vanilla-outsider-true-sleep-1.0.0+1.21.11.jar";
             "hash" = "sha512-R3dVix9ADh7+PchWK5HHKhlp8zjJ8ophS3e5yxqG5ak7Cm1kltbwrl/N5fSBpFpS1WItCTG2YTHbGwZkwlsQKw==";
         };
+        _KnMNGvCA = {
+            "id" = "KnMNGvCA";
+            "file" = "vanilla-outsider-true-sleep-1.3.31+26.1.2.jar";
+            "hash" = "sha512-nYlygHEejoMrEhxlKibkGYFMBHiFPwETuv/HqZ8yjPpVesaE9I0SjwkSPLgqnUTaWUzVUhdrXyN/1LAB5kd05Q==";
+        };
+        _fveuhs4v = {
+            "id" = "fveuhs4v";
+            "file" = "vanilla-outsider-true-sleep-1.3.31+26.2.jar";
+            "hash" = "sha512-3rkQvWcSu3SWP9dGilTPmXN5U+gD6PwNLh1fwWIixMPlGfydVRwVdeaAo6PzKeW54HEFzEL+bXBx2zMGqYYHGg==";
+        };
     in {
         "Jc9G1YZM" = _Jc9G1YZM;
         "pwQznJRY" = _pwQznJRY;
@@ -236,6 +246,8 @@ let
         "783WzkvI" = _783WzkvI;
         "UHN8SNom" = _UHN8SNom;
         "b69wyKeM" = _b69wyKeM;
+        "KnMNGvCA" = _KnMNGvCA;
+        "fveuhs4v" = _fveuhs4v;
         "fabric-26.1-snapshot-1" = _qgOhLOaZ;
         "fabric-26.1-snapshot-2" = _qgOhLOaZ;
         "fabric-26.1-snapshot-3" = _qgOhLOaZ;
@@ -255,14 +267,14 @@ let
         "fabric-26.1-rc-3" = _qgOhLOaZ;
         "fabric-26.1" = _Q5YbKXvb;
         "fabric-26.1.1" = _qgOhLOaZ;
-        "fabric-26.1.2" = _Qc9szsSP;
+        "fabric-26.1.2" = _KnMNGvCA;
         "fabric-26.2-snapshot-2" = _qgOhLOaZ;
         "fabric-26.2-snapshot-3" = _qgOhLOaZ;
         "fabric-26.2-snapshot-4" = _qgOhLOaZ;
         "fabric-26.2-snapshot-5" = _qgOhLOaZ;
         "fabric-26.2-rc-1" = _nk7jl99r;
         "fabric-26.2-rc-2" = _ohy2dwKK;
-        "fabric-26.2" = _e4SaJ1tu;
+        "fabric-26.2" = _fveuhs4v;
         "fabric-26.3-snapshot-1" = _flxZKhqQ;
         "fabric-26.3-snapshot-2" = _flxZKhqQ;
         "fabric-26.3-snapshot-3" = _flxZKhqQ;
@@ -318,7 +330,9 @@ let
         "pkg-1.0.0+1.20.1" = _783WzkvI;
         "pkg-1.0.0+1.21.1" = _UHN8SNom;
         "pkg-1.0.0+1.21.11" = _b69wyKeM;
-        "default" = _b69wyKeM;
+        "pkg-1.3.31+26.1.2" = _KnMNGvCA;
+        "pkg-1.3.31+26.2" = _fveuhs4v;
+        "default" = _fveuhs4v;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanilla-outsider-true-sleep";

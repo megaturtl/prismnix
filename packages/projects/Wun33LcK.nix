@@ -56,6 +56,26 @@ let
             "file" = "formicapi-1.20.1-2.4.3-all.jar";
             "hash" = "sha512-ZzERO2xjvhArftZEsgFuBzCkS3VFmlHp12RV9ErdCXAJB21sc8mVXI053qzG8ikuSKSyhcbTD+1UGvQz8b3/UA==";
         };
+        _5Git3LXF = {
+            "id" = "5Git3LXF";
+            "file" = "formicapi-1.21.1-2.5.1.jar";
+            "hash" = "sha512-9fIGXNFzeLm30aP16zzSKWX8Udeao2JbkMWQfVEwMatDjPYxpsbvFJ1i1rht3lH+uZES2p9hzWBxLWFw+JgGnQ==";
+        };
+        _tVnsf1zJ = {
+            "id" = "tVnsf1zJ";
+            "file" = "formicapi-1.20.1-2.5.1-all.jar";
+            "hash" = "sha512-vvswDP0bTH5eeQaBBbMla1EoHjADjevkA9fk4oJD7bFrC77zzVQTLHUgBbbs7vfM73sigtgLGBCDrLUSO3Yu2A==";
+        };
+        _q3oFS2CY = {
+            "id" = "q3oFS2CY";
+            "file" = "formicapi-1.20.1-2.5.1-all.jar";
+            "hash" = "sha512-vvswDP0bTH5eeQaBBbMla1EoHjADjevkA9fk4oJD7bFrC77zzVQTLHUgBbbs7vfM73sigtgLGBCDrLUSO3Yu2A==";
+        };
+        _9uQCmlUA = {
+            "id" = "9uQCmlUA";
+            "file" = "formicapi-1.21.1-2.5.1.jar";
+            "hash" = "sha512-9fIGXNFzeLm30aP16zzSKWX8Udeao2JbkMWQfVEwMatDjPYxpsbvFJ1i1rht3lH+uZES2p9hzWBxLWFw+JgGnQ==";
+        };
     in {
         "nv0ZQ0QK" = _nv0ZQ0QK;
         "OFhrnHe5" = _OFhrnHe5;
@@ -68,8 +88,12 @@ let
         "oKrCutkT" = _oKrCutkT;
         "KFLSWnM1" = _KFLSWnM1;
         "8QgF0zFc" = _8QgF0zFc;
-        "forge-1.20.1" = _8QgF0zFc;
-        "neoforge-1.21.1" = _KFLSWnM1;
+        "5Git3LXF" = _5Git3LXF;
+        "tVnsf1zJ" = _tVnsf1zJ;
+        "q3oFS2CY" = _q3oFS2CY;
+        "9uQCmlUA" = _9uQCmlUA;
+        "forge-1.20.1" = _q3oFS2CY;
+        "neoforge-1.21.1" = _9uQCmlUA;
         "pkg-1.6.8" = _OFhrnHe5;
         "pkg-2.1.5" = _dL3IA2Xk;
         "pkg-2.2.3" = _Kme45Nmv;
@@ -79,7 +103,8 @@ let
         "pkg-2.3.4" = _oKrCutkT;
         "pkg-2.4.2" = _KFLSWnM1;
         "pkg-2.4.3" = _8QgF0zFc;
-        "default" = _8QgF0zFc;
+        "pkg-2.5.1" = _9uQCmlUA;
+        "default" = _9uQCmlUA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "formicapi";

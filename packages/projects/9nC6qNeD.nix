@@ -66,6 +66,26 @@ let
             "file" = "notlag-mc26.3-3.0.0.jar";
             "hash" = "sha512-ef4Z77Fvn1b7HSs2e/izy2NSo8EG5zyf0Tjpet9w/OAcXSPtFWZcOIv7cswt/N7eJHKJFcOoBo5f2vPXrxHtXw==";
         };
+        _6hPEOPOu = {
+            "id" = "6hPEOPOu";
+            "file" = "notlag-mc26.3-3.1.0.jar";
+            "hash" = "sha512-LskWdaRE8DCKDCuUSlZQ9+MNWQtXlsrs4H4tPgls6iLooXYp2xM+92xOk9ftQfGaubuBSW/EP6rNFW/InexrRg==";
+        };
+        _kE5OIhcx = {
+            "id" = "kE5OIhcx";
+            "file" = "notlag-mc26.3-3.1.1.jar";
+            "hash" = "sha512-VvJ+FJbqKjxj+LiCAPpybx6zxviJlmxM6QG5NdEr0xkov48IcibkpIsfhXHWONMw4bPMrs9HDxV9CDgxwTqcPQ==";
+        };
+        _mhptkl0n = {
+            "id" = "mhptkl0n";
+            "file" = "notlag-mc26.3-3.1.2.jar";
+            "hash" = "sha512-lFZGoSX62HmwLkcjzWyTleYCxOjAyzazPsIA9ujNPnn+I+JIRxE4cHwACEmomied8589B2Q1nd9LP9KiWVSSuw==";
+        };
+        _s3f2SFKT = {
+            "id" = "s3f2SFKT";
+            "file" = "notlag-legacy-mc1.8.9-3.1.0.jar";
+            "hash" = "sha512-Fb8dH7V7M0Dq3363nk8KsQbziFV6caCuP+E/rHXil9VHQY7HZlTFz6HaZ507E1wmUGONOqphdpH47XF+dVV7JQ==";
+        };
     in {
         "D15Az5VZ" = _D15Az5VZ;
         "41ti1fQO" = _41ti1fQO;
@@ -80,12 +100,17 @@ let
         "nZxYXG2N" = _nZxYXG2N;
         "ONmX5MMg" = _ONmX5MMg;
         "wXbIJxRw" = _wXbIJxRw;
+        "6hPEOPOu" = _6hPEOPOu;
+        "kE5OIhcx" = _kE5OIhcx;
+        "mhptkl0n" = _mhptkl0n;
+        "s3f2SFKT" = _s3f2SFKT;
         "fabric-1.21.4" = _41ti1fQO;
         "fabric-1.21.11" = _yL0V0hJI;
         "fabric-1.21.10" = _9tnjqXk4;
         "fabric-26.1.2" = _n3mfmknL;
         "fabric-26.2" = _AM7yXVCo;
-        "fabric-26.3" = _wXbIJxRw;
+        "fabric-26.3" = _mhptkl0n;
+        "forge-1.8.9" = _s3f2SFKT;
         "pkg-1.0.0" = _RCc3QN8S;
         "pkg-beta-1" = _41ti1fQO;
         "pkg-2.0.0" = _AM7yXVCo;
@@ -95,7 +120,11 @@ let
         "pkg-2.1.1" = _nZxYXG2N;
         "pkg-2.2.0" = _ONmX5MMg;
         "pkg-3.0.0" = _wXbIJxRw;
-        "default" = _wXbIJxRw;
+        "pkg-3.1.0" = _6hPEOPOu;
+        "pkg-3.1.1" = _kE5OIhcx;
+        "pkg-3.1.2" = _mhptkl0n;
+        "pkg-3.1.0-legacy+1.8.9" = _s3f2SFKT;
+        "default" = _s3f2SFKT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "!lag";

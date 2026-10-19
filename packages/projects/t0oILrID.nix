@@ -161,6 +161,11 @@ let
             "file" = "tpsethome-forge-1.16.5-1.0.0.jar";
             "hash" = "sha512-fnnDTR9/lzTYwgZnNdLUClxhX+vCEpJMWgxKU4ZWfUxV7poChkH5COL1UI2IfcTt6CJNxUPCpSjbEG6bCpkjCw==";
         };
+        _LK6syRqc = {
+            "id" = "LK6syRqc";
+            "file" = "tpsethome-forge-1.8.9-1.0.0.jar";
+            "hash" = "sha512-CN/MWCF0sBUb5yceLEnvQKiFtlClgj9dlOUp7HjTI8kLv66uHSoBQixm4oMaAGqPF1Q5c3L70LjKIXN3ImrjJQ==";
+        };
     in {
         "sFzI5gGd" = _sFzI5gGd;
         "AiUEtFXE" = _AiUEtFXE;
@@ -194,6 +199,7 @@ let
         "HebquXA1" = _HebquXA1;
         "1w788pTX" = _1w788pTX;
         "KVoZVyMF" = _KVoZVyMF;
+        "LK6syRqc" = _LK6syRqc;
         "forge-1.21.4" = _jxXd3YSB;
         "forge-1.21" = _AiUEtFXE;
         "forge-1.21.1" = _a7ihXNJX;
@@ -217,6 +223,7 @@ let
         "forge-1.12.2" = _GesIwMLB;
         "forge-1.14.4" = _d5Q4su9U;
         "forge-1.16.5" = _KVoZVyMF;
+        "forge-1.8.9" = _LK6syRqc;
         "fabric-1.21.4" = _lASzWWlT;
         "fabric-1.21.3" = _UzpFlJMi;
         "fabric-1.21.8" = _tUK08o5x;
@@ -224,9 +231,9 @@ let
         "fabric-1.20.1" = _HebquXA1;
         "fabric-26.2" = _1w788pTX;
         "pkg-1.0" = _6udD4MN3;
-        "pkg-1.0.0" = _KVoZVyMF;
+        "pkg-1.0.0" = _LK6syRqc;
         "pkg-1.0.1" = _lASzWWlT;
-        "default" = _KVoZVyMF;
+        "default" = _LK6syRqc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tpsethome";

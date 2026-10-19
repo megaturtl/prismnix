@@ -66,6 +66,26 @@ let
             "file" = "impact-frames-1.2.1.6.jar";
             "hash" = "sha512-2nbiKzBNqFSbuslc7i65VD7ZFsmGqIGizpj+gRQzU7YFFsslUgPAtOO+gf/UQCWUJE9pXl08brUFpx+7HL07GQ==";
         };
+        _GhTL1Xr8 = {
+            "id" = "GhTL1Xr8";
+            "file" = "impact-frames-1.2.1.7.jar";
+            "hash" = "sha512-JElOCH4KQN93YngkF8TeHUkrDmG60HYjj4uPy/oNyTt6XmiR9sKWZM6TCFzH28CJ2KKnJkf1Ydk0MsQ1DILjjA==";
+        };
+        _rLjVFyv6 = {
+            "id" = "rLjVFyv6";
+            "file" = "impact-frames-1.2.1.7.jar";
+            "hash" = "sha512-P8bHPACF3t4yG2QN1pezIwZQHVP3DJvJgrjbR6IqpiO1fId5UiuGyYLbAZfXXxIgpWw3WUklIFPC5Ng7RNZ4gw==";
+        };
+        _dZFyFli5 = {
+            "id" = "dZFyFli5";
+            "file" = "impact-frames-1.2.1.7.jar";
+            "hash" = "sha512-ubygKNP/nqbtDtB5i2FiFE397PAxhjRy+ez/FN2Td36ckEZGS7Fs2lF7TGnNusr6KWE4Yfg7T/3bJoT+PkJNWQ==";
+        };
+        _43RUdkmN = {
+            "id" = "43RUdkmN";
+            "file" = "impact-frames-1.2.1.7.jar";
+            "hash" = "sha512-0FkkJuDJCT/y+p6U9whun8dnwG1O22eggWXwp5cZZ/skgN/V8q1y9WhuHt7vBZNErhGcy2o6X3WmDS4As+U4uA==";
+        };
     in {
         "Yh7dh7Lt" = _Yh7dh7Lt;
         "I4VHXwgl" = _I4VHXwgl;
@@ -80,11 +100,16 @@ let
         "UR1r3xae" = _UR1r3xae;
         "7DHjrv31" = _7DHjrv31;
         "6NjeDLfL" = _6NjeDLfL;
-        "fabric-1.21.11" = _6NjeDLfL;
-        "fabric-26.1" = _Su89507o;
-        "fabric-26.1.1" = _Su89507o;
-        "fabric-26.1.2" = _Su89507o;
-        "fabric-26.2" = _7DHjrv31;
+        "GhTL1Xr8" = _GhTL1Xr8;
+        "rLjVFyv6" = _rLjVFyv6;
+        "dZFyFli5" = _dZFyFli5;
+        "43RUdkmN" = _43RUdkmN;
+        "fabric-1.21.11" = _43RUdkmN;
+        "fabric-26.1" = _dZFyFli5;
+        "fabric-26.1.1" = _dZFyFli5;
+        "fabric-26.1.2" = _dZFyFli5;
+        "fabric-26.2" = _rLjVFyv6;
+        "fabric-26.3" = _GhTL1Xr8;
         "pkg-1.0.0" = _Yh7dh7Lt;
         "pkg-1.1.0" = _I4VHXwgl;
         "pkg-1.1.4" = _CRrqjwDv;
@@ -95,7 +120,9 @@ let
         "pkg-1.2.1.4" = _uGqbjq5P;
         "pkg-1.2.1.5" = _7DHjrv31;
         "pkg-1.2.1.6" = _6NjeDLfL;
-        "default" = _6NjeDLfL;
+        "pkg-1.2.1.7+alpha1" = _GhTL1Xr8;
+        "pkg-1.2.1.7" = _43RUdkmN;
+        "default" = _43RUdkmN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "impact-frames-pvp";

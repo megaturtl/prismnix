@@ -121,6 +121,16 @@ let
             "file" = "Luminous Beasts V1.2.7 - NeoForge 1.21.1.jar";
             "hash" = "sha512-2QDLeW/A1cYXODFH2Du+kvLvvJPowVDyEVISyoSJNPfYot52L5Hppqr0RJG3+oPJkhcUMLbebhn7kWc+REi/LA==";
         };
+        _eSsTVrAM = {
+            "id" = "eSsTVrAM";
+            "file" = "Luminous Beasts V1.2.8 - Forge 1.20.1.jar";
+            "hash" = "sha512-UD+dhcozW7BH2KXhHP4bmu/aVb6z0JRXclj0PZEwde+iOU+HDTdZvCyPf79Xxx3DdG7TPR8xTYcY8RBag/cvAg==";
+        };
+        _GO9lC0DU = {
+            "id" = "GO9lC0DU";
+            "file" = "Luminous Beasts V1.2.8 - NeoForge 1.21.1.jar";
+            "hash" = "sha512-LVLMrcfkP7kYqHkTh8puNyfqBHW1zvFGWCMI0rX8IrXJIuIpiYgJwlUo6uOd0h0/2VIaM/hXzP1/xDRPcMmg3g==";
+        };
     in {
         "ZPlAbbxa" = _ZPlAbbxa;
         "ZwQjlEML" = _ZwQjlEML;
@@ -146,9 +156,11 @@ let
         "cejVRyQ1" = _cejVRyQ1;
         "l8Wl8eHS" = _l8Wl8eHS;
         "SDXofWgd" = _SDXofWgd;
+        "eSsTVrAM" = _eSsTVrAM;
+        "GO9lC0DU" = _GO9lC0DU;
         "neoforge-1.20.4" = _Y8pPcjOY;
-        "neoforge-1.21.1" = _SDXofWgd;
-        "forge-1.20.1" = _l8Wl8eHS;
+        "neoforge-1.21.1" = _GO9lC0DU;
+        "forge-1.20.1" = _eSsTVrAM;
         "pkg-1.0" = _ZwQjlEML;
         "pkg-1.1" = _75kqyX7f;
         "pkg-1.2" = _80cyCmPu;
@@ -159,7 +171,8 @@ let
         "pkg-1.2.52" = _Y8pPcjOY;
         "pkg-1.2.6" = _cejVRyQ1;
         "pkg-1.2.7" = _SDXofWgd;
-        "default" = _SDXofWgd;
+        "pkg-1.2.8" = _GO9lC0DU;
+        "default" = _GO9lC0DU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "luminous-beasts";

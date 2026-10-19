@@ -41,6 +41,11 @@ let
             "file" = "ktfextras-1.0.9.jar";
             "hash" = "sha512-kkpag9gYeO3XNGcgM7OTaQjm+s4wDHBudb4gXspn04Hea23kOr/8XhkZMIp/KgprkEAlQ6xobYevAOUk9274TA==";
         };
+        _f3amZDGe = {
+            "id" = "f3amZDGe";
+            "file" = "ktfextras-1.0.10.jar";
+            "hash" = "sha512-uV2CJ8GsbWiykdCktF80kY5uC2FciCnj/iIhjt8stKo+JgTfjm/h7iyiu17Ar7EojQocproKAa7QdnIqFU61uw==";
+        };
     in {
         "C5bghujL" = _C5bghujL;
         "o1aHOW52" = _o1aHOW52;
@@ -50,13 +55,14 @@ let
         "PoWYOLmo" = _PoWYOLmo;
         "C6CdP9zM" = _C6CdP9zM;
         "t5ukkZSj" = _t5ukkZSj;
-        "forge-1.20" = _t5ukkZSj;
-        "forge-1.20.1" = _t5ukkZSj;
-        "forge-1.20.2" = _t5ukkZSj;
-        "forge-1.20.3" = _t5ukkZSj;
-        "forge-1.20.4" = _t5ukkZSj;
-        "forge-1.20.5" = _t5ukkZSj;
-        "forge-1.20.6" = _C6CdP9zM;
+        "f3amZDGe" = _f3amZDGe;
+        "forge-1.20" = _f3amZDGe;
+        "forge-1.20.1" = _f3amZDGe;
+        "forge-1.20.2" = _f3amZDGe;
+        "forge-1.20.3" = _f3amZDGe;
+        "forge-1.20.4" = _f3amZDGe;
+        "forge-1.20.5" = _f3amZDGe;
+        "forge-1.20.6" = _f3amZDGe;
         "pkg-1.0.0" = _C5bghujL;
         "pkg-1.0.1" = _o1aHOW52;
         "pkg-1.0.2" = _pYBPuJZ8;
@@ -65,7 +71,8 @@ let
         "pkg-1.0.6" = _PoWYOLmo;
         "pkg-1.0.8" = _C6CdP9zM;
         "pkg-1.0.9" = _t5ukkZSj;
-        "default" = _t5ukkZSj;
+        "pkg-1.0.10" = _f3amZDGe;
+        "default" = _f3amZDGe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ktfextra";

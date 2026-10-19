@@ -126,6 +126,11 @@ let
             "file" = "meecreeps-fabric-26.2-4.0.0.jar";
             "hash" = "sha512-rjw/5bmU6nmuyvITC4bgD6EGpzmFRAUGB+mJqBFbw9WEmlssZdUwGt+btnox84Z1LEQsXHsNMX/0FhnpqfsTEQ==";
         };
+        _XfYwpH41 = {
+            "id" = "XfYwpH41";
+            "file" = "meecreeps-1.21.1-3.0.1.jar";
+            "hash" = "sha512-IhmUAIXeOKJyFLRXgkrl3H2n5a4eH5auN8Twq7ElAqOz8Y3n3Dh2EiYBRFGVFBN4E1kkXqsJWHlHGXlReFHR3A==";
+        };
     in {
         "KIftIDld" = _KIftIDld;
         "XIKdPCrH" = _XIKdPCrH;
@@ -152,10 +157,11 @@ let
         "vtWOXLgo" = _vtWOXLgo;
         "RNz5obeT" = _RNz5obeT;
         "GIR5nd3Z" = _GIR5nd3Z;
+        "XfYwpH41" = _XfYwpH41;
         "forge-1.12.1" = _B53PG5uP;
         "forge-1.12.2" = _kGSPaHaM;
         "forge-1.20.1" = _IlwL9ydV;
-        "neoforge-1.21.1" = _vtWOXLgo;
+        "neoforge-1.21.1" = _XfYwpH41;
         "neoforge-26.2" = _RNz5obeT;
         "fabric-26.2" = _GIR5nd3Z;
         "pkg-1.12-0.0.5beta" = _KIftIDld;
@@ -182,7 +188,8 @@ let
         "pkg-1.20.1-2.0.0" = _IlwL9ydV;
         "pkg-1.21.1-3.0.0" = _vtWOXLgo;
         "pkg-26.2-4.0.0" = _GIR5nd3Z;
-        "default" = _GIR5nd3Z;
+        "pkg-1.21.1-3.0.1" = _XfYwpH41;
+        "default" = _XfYwpH41;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "meecreeps";

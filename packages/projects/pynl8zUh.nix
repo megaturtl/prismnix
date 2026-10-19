@@ -121,6 +121,11 @@ let
             "file" = "invasiveopts-1.0.24.jar";
             "hash" = "sha512-UfdgXyZklOcUhJDBP6JRBwkwwWftI7kVHyfmuX7t7DIFuBRfoUeMl/2MeF/HNmRaQ5oEboktjjN8DD32IO5MMA==";
         };
+        _pbhNROx6 = {
+            "id" = "pbhNROx6";
+            "file" = "invasiveopts-1.0.25.jar";
+            "hash" = "sha512-zi5AwnrkumYFitP37vBN1V361YO+XcjYm+qxYre/iRi//yk8wBmBNuwie923CfQIvilaUVPGtEVRVG77PV5X2Q==";
+        };
     in {
         "taLBhhp7" = _taLBhhp7;
         "3vCfaDwX" = _3vCfaDwX;
@@ -146,8 +151,9 @@ let
         "pTnqNADJ" = _pTnqNADJ;
         "avSwrtPS" = _avSwrtPS;
         "kA1h4cai" = _kA1h4cai;
-        "neoforge-1.21" = _kA1h4cai;
-        "neoforge-1.21.1" = _kA1h4cai;
+        "pbhNROx6" = _pbhNROx6;
+        "neoforge-1.21" = _pbhNROx6;
+        "neoforge-1.21.1" = _pbhNROx6;
         "pkg-1.0.0" = _taLBhhp7;
         "pkg-1.0.2" = _3vCfaDwX;
         "pkg-1.0.3" = _HBQTiPdI;
@@ -172,7 +178,8 @@ let
         "pkg-1.0.22" = _pTnqNADJ;
         "pkg-1.0.23" = _avSwrtPS;
         "pkg-1.0.24" = _kA1h4cai;
-        "default" = _kA1h4cai;
+        "pkg-1.0.25" = _pbhNROx6;
+        "default" = _pbhNROx6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "invasive-optimizations";

@@ -216,6 +216,11 @@ let
             "file" = "silent-lib-26.1.2-neoforge-11.2.0.jar";
             "hash" = "sha512-66rcD7y0/JpCqScZEOW1Y19YUiDuyrL4o58oGcW6Oa8FTglVsd2Oq/Em6ZczSOCjbRtSBtmSnppRDXu4DUtS9g==";
         };
+        _O0NJW8tT = {
+            "id" = "O0NJW8tT";
+            "file" = "silent-lib-26.2-neoforge-12.0.0.jar";
+            "hash" = "sha512-FvErG0yc+khbKTkGMFYlWn7+A4Ka3BDnmvprkiSJ2gz34e5Bvo7TtV7x1yDw/FUSW+/HvjbzfL4nvQjsGMyNNA==";
+        };
     in {
         "zywRome5" = _zywRome5;
         "WGt4877n" = _WGt4877n;
@@ -260,6 +265,7 @@ let
         "jQTZw2au" = _jQTZw2au;
         "xavD8Lt3" = _xavD8Lt3;
         "Rc4eCDXl" = _Rc4eCDXl;
+        "O0NJW8tT" = _O0NJW8tT;
         "forge-1.19.4" = _zywRome5;
         "forge-1.20.1" = _WGt4877n;
         "forge-1.12.2" = _Tn81upOl;
@@ -290,6 +296,7 @@ let
         "neoforge-26.1" = _Rc4eCDXl;
         "neoforge-26.1.1" = _Rc4eCDXl;
         "neoforge-26.1.2" = _Rc4eCDXl;
+        "neoforge-26.2" = _O0NJW8tT;
         "pkg-7.2.0" = _zywRome5;
         "pkg-8.0.0" = _WGt4877n;
         "pkg-3.0.14" = _Tn81upOl;
@@ -329,7 +336,8 @@ let
         "pkg-11.1.4" = _jQTZw2au;
         "pkg-10.6.0" = _xavD8Lt3;
         "pkg-11.2.0" = _Rc4eCDXl;
-        "default" = _Rc4eCDXl;
+        "pkg-12.0.0" = _O0NJW8tT;
+        "default" = _O0NJW8tT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "silent-lib";

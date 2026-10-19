@@ -186,6 +186,11 @@ let
             "file" = "GoetyRevelation-2.3.4fix2.jar";
             "hash" = "sha512-sGItqTbEmLqmNpUlwka5RtmrkQBjbKMoqLsAEoiU4OS4EJZyhpbw0IChVg0l6KcseccBAKZR1fIv5fL2f/LdmA==";
         };
+        _t59lWC8J = {
+            "id" = "t59lWC8J";
+            "file" = "GoetyRevelation-2.3.5.jar";
+            "hash" = "sha512-ckVB5StJeYb92a/t7sc34xox8kQwz7DmnbAwV5/d4vwDNC4/sq9/0DlewmkPMKWhtcxi5aTMkdbRpQFHqPOgPw==";
+        };
     in {
         "OKmtU1FU" = _OKmtU1FU;
         "CIRsyVLV" = _CIRsyVLV;
@@ -224,7 +229,8 @@ let
         "nJ9eTmFj" = _nJ9eTmFj;
         "ZJwowNs5" = _ZJwowNs5;
         "8ovxLEu6" = _8ovxLEu6;
-        "forge-1.20.1" = _8ovxLEu6;
+        "t59lWC8J" = _t59lWC8J;
+        "forge-1.20.1" = _t59lWC8J;
         "pkg-2.0" = _OKmtU1FU;
         "pkg-2.0.1" = _CIRsyVLV;
         "pkg-2.0.2" = _NHTusltT;
@@ -261,7 +267,8 @@ let
         "pkg-2.3.4" = _nJ9eTmFj;
         "pkg-2.3.4fix" = _ZJwowNs5;
         "pkg-2.3.4fix2" = _8ovxLEu6;
-        "default" = _8ovxLEu6;
+        "pkg-2.3.5" = _t59lWC8J;
+        "default" = _t59lWC8J;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "goety-revelation";

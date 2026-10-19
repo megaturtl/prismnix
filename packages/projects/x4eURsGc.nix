@@ -11,15 +11,27 @@ let
             "file" = "Mk.2 Redstone v3.0.1.zip";
             "hash" = "sha512-VBSuPIAnPb9VsF5w/a9bdeNL6lSjb3E86heJtoS9Z4zZEeAIjlH8pVr7Kn4+IxkX5w4X4ULJ2ottwy/rCzcFBQ==";
         };
+        _BIvSlZOb = {
+            "id" = "BIvSlZOb";
+            "file" = "Mk.2 Redstone 3.1.0.zip";
+            "hash" = "sha512-lq0JA8cXRJ18/60DH+0xQ7/6hA/r9T8XdYTZqnp3ysV66yQZdkgnPAUP9NLa0p46D3bFWet5L0vYzJ8yb7BOHA==";
+        };
     in {
         "9QMzOn4w" = _9QMzOn4w;
         "4IktZQjQ" = _4IktZQjQ;
+        "BIvSlZOb" = _BIvSlZOb;
         "minecraft-1.20" = _9QMzOn4w;
         "minecraft-1.20.1" = _9QMzOn4w;
         "minecraft-1.20.2" = _4IktZQjQ;
+        "minecraft-26.1" = _BIvSlZOb;
+        "minecraft-26.1.1" = _BIvSlZOb;
+        "minecraft-26.1.2" = _BIvSlZOb;
+        "minecraft-26.2" = _BIvSlZOb;
+        "minecraft-26.3" = _BIvSlZOb;
         "pkg-v3.0.0" = _9QMzOn4w;
         "pkg-v3.0.1" = _4IktZQjQ;
-        "default" = _4IktZQjQ;
+        "pkg-v3.1.0" = _BIvSlZOb;
+        "default" = _BIvSlZOb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mk2-redstone";
