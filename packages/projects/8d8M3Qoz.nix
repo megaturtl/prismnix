@@ -196,6 +196,16 @@ let
             "file" = "Nature X Resource Pack - 15.0 [1.21.11].zip";
             "hash" = "sha512-ciNuWUpj3XePaaO6BPsjxSv3Wqq1GIXO7qr3ZWui7N9sHxlnpBBinlsWi5WlphsQrQnzDi6HEYxXu3pk9YtDeQ==";
         };
+        _VBVv6puk = {
+            "id" = "VBVv6puk";
+            "file" = "Nature X 26.0.zip";
+            "hash" = "sha512-VBvOLa3gbG2LMZxWdNlO5J9ONzBXa+mi1nBtP9yJfYyyWJInzryRovJ3mTJSfhfFy1oknw73R9KQVd116UgaLg==";
+        };
+        _pgHZ63Az = {
+            "id" = "pgHZ63Az";
+            "file" = "Nature X 26.0.1.zip";
+            "hash" = "sha512-kYVUJfJEuGPm1YZByUVRkWZKpQ0K18361IsPJAnff5gSnq6BunKTWXAK6Ns/6FFXmq4fLPd0x1r5kbew0PVxvQ==";
+        };
     in {
         "ynsiSF7B" = _ynsiSF7B;
         "Yuh5tEJ0" = _Yuh5tEJ0;
@@ -236,6 +246,8 @@ let
         "pXrbUC8I" = _pXrbUC8I;
         "ikdgyeHq" = _ikdgyeHq;
         "m9D9UunT" = _m9D9UunT;
+        "VBVv6puk" = _VBVv6puk;
+        "pgHZ63Az" = _pgHZ63Az;
         "minecraft-1.20.5" = _tsVEivKn;
         "minecraft-1.20.6" = _tsVEivKn;
         "minecraft-1.21" = _X4EQL1dV;
@@ -250,6 +262,7 @@ let
         "minecraft-1.21.9" = _ikdgyeHq;
         "minecraft-1.21.10" = _ikdgyeHq;
         "minecraft-1.21.11" = _m9D9UunT;
+        "minecraft-26.3" = _pgHZ63Az;
         "pkg-8.0" = _ynsiSF7B;
         "pkg-8.1" = _Yuh5tEJ0;
         "pkg-8.1.2" = _vpITlUnv;
@@ -282,7 +295,9 @@ let
         "pkg-14.10" = _pXrbUC8I;
         "pkg-14.10.1" = _ikdgyeHq;
         "pkg-15.0" = _m9D9UunT;
-        "default" = _m9D9UunT;
+        "pkg-26.0" = _VBVv6puk;
+        "pkg-26.0.1" = _pgHZ63Az;
+        "default" = _pgHZ63Az;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nature-x";

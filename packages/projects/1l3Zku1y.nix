@@ -16,10 +16,16 @@ let
             "file" = "Woolly Wonders.zip";
             "hash" = "sha512-Cc/NSZwVnSNqGW8kmLlmTgFlKPArFcpkYGlzWv/wRA/nbiKasFGhPi5zFhR5Q3vdMvyiwk2E4x8/xoCMEFeYkA==";
         };
+        _wt6me9DO = {
+            "id" = "wt6me9DO";
+            "file" = "Woolly Wonders.zip";
+            "hash" = "sha512-Zd8gbOP6vxxM/NLCKFXY5kWOyUU+mApKxk/hiBXD8pJ0Wls8AQPZOwgGBjA7A/AuWwvPWvChLrj6hzU7g7i4vQ==";
+        };
     in {
         "Rd2B5Lgo" = _Rd2B5Lgo;
         "Pqun6IfG" = _Pqun6IfG;
         "gFRo5Gpg" = _gFRo5Gpg;
+        "wt6me9DO" = _wt6me9DO;
         "minecraft-1.21" = _Rd2B5Lgo;
         "minecraft-1.21.1" = _Rd2B5Lgo;
         "minecraft-1.21.2" = _Rd2B5Lgo;
@@ -32,14 +38,16 @@ let
         "minecraft-1.21.9" = _gFRo5Gpg;
         "minecraft-1.21.10" = _gFRo5Gpg;
         "minecraft-1.21.11" = _gFRo5Gpg;
-        "minecraft-26.1" = _gFRo5Gpg;
-        "minecraft-26.1.1" = _gFRo5Gpg;
-        "minecraft-26.1.2" = _gFRo5Gpg;
-        "minecraft-26.2" = _gFRo5Gpg;
+        "minecraft-26.1" = _wt6me9DO;
+        "minecraft-26.1.1" = _wt6me9DO;
+        "minecraft-26.1.2" = _wt6me9DO;
+        "minecraft-26.2" = _wt6me9DO;
+        "minecraft-26.3" = _wt6me9DO;
         "pkg-1.21.4" = _Rd2B5Lgo;
         "pkg-1.21.5" = _Pqun6IfG;
         "pkg-1.21.6+" = _gFRo5Gpg;
-        "default" = _gFRo5Gpg;
+        "pkg-26.3" = _wt6me9DO;
+        "default" = _wt6me9DO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "woolly-wonders";

@@ -201,6 +201,11 @@ let
             "file" = "SimpleGUI-API-NeoForge-1.5.9+1.21.x+26.1.x+26.2.x+26.3.x.jar";
             "hash" = "sha512-Qh+e23zThX9pvJrz4dfWS4US1Iio0bFP45TO/p/XJ5KMCHWOnahnI6sLRhZoFH/zITVwDqZ+nFs569rh6OBmAQ==";
         };
+        _QKwR9Hu9 = {
+            "id" = "QKwR9Hu9";
+            "file" = "SimpleGUI-API-1.5.10+1.21.x+26.1.x+26.2.x+26.3.x.jar";
+            "hash" = "sha512-0msC77x58ryA4rf+8ICTXCkHLPxBKeWs7A0fR+MIJVsLY5QKmgZSRZDtNPytAThe6yWBe0M+PYUvoury96czjw==";
+        };
     in {
         "vBFuUSxh" = _vBFuUSxh;
         "bC47uX0Z" = _bC47uX0Z;
@@ -242,12 +247,13 @@ let
         "K9aXiWfI" = _K9aXiWfI;
         "JcECJzAa" = _JcECJzAa;
         "hPfql1OE" = _hPfql1OE;
-        "fabric-1.21.11" = _K9aXiWfI;
+        "QKwR9Hu9" = _QKwR9Hu9;
+        "fabric-1.21.11" = _QKwR9Hu9;
         "fabric-26.1" = _K9aXiWfI;
         "fabric-26.1.1" = _K9aXiWfI;
-        "fabric-26.1.2" = _K9aXiWfI;
+        "fabric-26.1.2" = _QKwR9Hu9;
         "fabric-1.21" = _K9aXiWfI;
-        "fabric-1.21.1" = _K9aXiWfI;
+        "fabric-1.21.1" = _QKwR9Hu9;
         "fabric-1.21.2" = _K9aXiWfI;
         "fabric-1.21.3" = _K9aXiWfI;
         "fabric-1.21.4" = _K9aXiWfI;
@@ -257,13 +263,14 @@ let
         "fabric-1.21.8" = _K9aXiWfI;
         "fabric-1.21.9" = _K9aXiWfI;
         "fabric-1.21.10" = _K9aXiWfI;
-        "fabric-26.2" = _K9aXiWfI;
+        "fabric-26.2" = _QKwR9Hu9;
         "fabric-26.3-snapshot-3" = _K9aXiWfI;
         "fabric-26.3-snapshot-1" = _K9aXiWfI;
         "fabric-26.3-snapshot-2" = _K9aXiWfI;
         "fabric-26.3-snapshot-4" = _K9aXiWfI;
+        "fabric-26.3" = _QKwR9Hu9;
         "forge-1.21" = _JcECJzAa;
-        "forge-1.21.1" = _JcECJzAa;
+        "forge-1.21.1" = _QKwR9Hu9;
         "forge-1.21.2" = _JcECJzAa;
         "forge-1.21.3" = _JcECJzAa;
         "forge-1.21.4" = _JcECJzAa;
@@ -273,17 +280,18 @@ let
         "forge-1.21.8" = _JcECJzAa;
         "forge-1.21.9" = _JcECJzAa;
         "forge-1.21.10" = _JcECJzAa;
-        "forge-1.21.11" = _JcECJzAa;
+        "forge-1.21.11" = _QKwR9Hu9;
         "forge-26.1" = _JcECJzAa;
         "forge-26.1.1" = _JcECJzAa;
-        "forge-26.1.2" = _JcECJzAa;
-        "forge-26.2" = _JcECJzAa;
+        "forge-26.1.2" = _QKwR9Hu9;
+        "forge-26.2" = _QKwR9Hu9;
         "forge-26.3-snapshot-1" = _JcECJzAa;
         "forge-26.3-snapshot-2" = _JcECJzAa;
         "forge-26.3-snapshot-3" = _JcECJzAa;
         "forge-26.3-snapshot-4" = _JcECJzAa;
+        "forge-26.3" = _QKwR9Hu9;
         "neoforge-1.21" = _hPfql1OE;
-        "neoforge-1.21.1" = _hPfql1OE;
+        "neoforge-1.21.1" = _QKwR9Hu9;
         "neoforge-1.21.2" = _hPfql1OE;
         "neoforge-1.21.3" = _hPfql1OE;
         "neoforge-1.21.4" = _hPfql1OE;
@@ -293,15 +301,16 @@ let
         "neoforge-1.21.8" = _hPfql1OE;
         "neoforge-1.21.9" = _hPfql1OE;
         "neoforge-1.21.10" = _hPfql1OE;
-        "neoforge-1.21.11" = _hPfql1OE;
+        "neoforge-1.21.11" = _QKwR9Hu9;
         "neoforge-26.1" = _hPfql1OE;
         "neoforge-26.1.1" = _hPfql1OE;
-        "neoforge-26.1.2" = _hPfql1OE;
-        "neoforge-26.2" = _hPfql1OE;
+        "neoforge-26.1.2" = _QKwR9Hu9;
+        "neoforge-26.2" = _QKwR9Hu9;
         "neoforge-26.3-snapshot-1" = _hPfql1OE;
         "neoforge-26.3-snapshot-2" = _hPfql1OE;
         "neoforge-26.3-snapshot-3" = _hPfql1OE;
         "neoforge-26.3-snapshot-4" = _hPfql1OE;
+        "neoforge-26.3" = _QKwR9Hu9;
         "pkg-1.0.0+1.21.11" = _vBFuUSxh;
         "pkg-1.0.1+1.21.11" = _bC47uX0Z;
         "pkg-1.0.2+1.21.11" = _imBsnPCi;
@@ -330,7 +339,8 @@ let
         "pkg-1.5.7" = _hkGfUlF9;
         "pkg-1.5.8" = _qgUnLFjo;
         "pkg-1.5.9" = _hPfql1OE;
-        "default" = _hPfql1OE;
+        "pkg-1.5.10" = _QKwR9Hu9;
+        "default" = _QKwR9Hu9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simpleguiapi";

@@ -51,6 +51,11 @@ let
             "file" = "potion-expire-sounds-26.1-1.0.jar";
             "hash" = "sha512-VEMrdFODxRGmomxxy2zqu1z4LFkpGnlL/bcYYP2lJXDTpF2zkdV8SGUvKJXfdnVRk8PfVAQekYxF5C3GgBAw3Q==";
         };
+        _qPUzY7w5 = {
+            "id" = "qPUzY7w5";
+            "file" = "potion-expire-sounds-26.3-1.1.1.jar";
+            "hash" = "sha512-YQmlL2wytZsJrNm3onSIay9Mz4PelZLSqFGJt2scFLDOLM9pmsfLlaVg9d6ksnnIZPZDbZrWo8kmckW6/soHyQ==";
+        };
     in {
         "kHp2i6uk" = _kHp2i6uk;
         "gZS6FXbr" = _gZS6FXbr;
@@ -62,11 +67,13 @@ let
         "nIsiknBI" = _nIsiknBI;
         "H9vXqjCb" = _H9vXqjCb;
         "ll8J9a6P" = _ll8J9a6P;
+        "qPUzY7w5" = _qPUzY7w5;
         "fabric-1.21.11" = _nIsiknBI;
         "fabric-26.2" = _H9vXqjCb;
         "fabric-26.1" = _ll8J9a6P;
         "fabric-26.1.1" = _ll8J9a6P;
         "fabric-26.1.2" = _ll8J9a6P;
+        "fabric-26.3" = _qPUzY7w5;
         "pkg-1.0" = _kHp2i6uk;
         "pkg-1.21.11-1.1" = _gZS6FXbr;
         "pkg-1.21.11-1.1.1" = _Ru5DGC2v;
@@ -77,7 +84,8 @@ let
         "pkg-1.21.11-1.2.1" = _nIsiknBI;
         "pkg-26.2-1.1.1" = _H9vXqjCb;
         "pkg-26.1-1.0" = _ll8J9a6P;
-        "default" = _ll8J9a6P;
+        "pkg-26.3-1.1.1" = _qPUzY7w5;
+        "default" = _qPUzY7w5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "potion-expire-sound";

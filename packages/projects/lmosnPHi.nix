@@ -581,6 +581,21 @@ let
             "file" = "InfChest-NeoForge-26.3-26.3.1.jar";
             "hash" = "sha512-3Y+cjzD7CfhCVffPWRWi3J5vBsGuKq+95eY6HtStFVZkhJa4PRVL7faTrW26PUHfm1yH5LWWVegtVHkiGHw9CQ==";
         };
+        _f6hfVbfZ = {
+            "id" = "f6hfVbfZ";
+            "file" = "InfChest-Forge-26.3-26.3.2.jar";
+            "hash" = "sha512-89XVNFsE4uCNDWlMGweqLQZDyoRShxQjjgKa3QaBlttmUwj0couvRhMHm69PV/VJTB8X+5IBavgY421Ye+8sRg==";
+        };
+        _zjK4uO49 = {
+            "id" = "zjK4uO49";
+            "file" = "InfChest-Fabric-26.3-26.3.2.jar";
+            "hash" = "sha512-C/G29D9onvv1x0K95fOKVShU4J5EQftasmvcBy2iWOy9hnkH1XjmiZVUJfGcaEJFHC5vg0W3n56SvI/TO3klUQ==";
+        };
+        _GMx5AAmb = {
+            "id" = "GMx5AAmb";
+            "file" = "InfChest-NeoForge-26.3-26.3.2.jar";
+            "hash" = "sha512-oGrh6M6CgxlcPfazWBiOIYeYO6xlYmVCLNfSEbjKu2USEGzENZV2CMOUFPqKImFU8GAvQ0ae/fG6wYGKY37bEQ==";
+        };
     in {
         "k9OJ6Zma" = _k9OJ6Zma;
         "QeJ0dg1v" = _QeJ0dg1v;
@@ -698,6 +713,9 @@ let
         "HUxCD0pk" = _HUxCD0pk;
         "IiYwLT7j" = _IiYwLT7j;
         "aiPmNQoX" = _aiPmNQoX;
+        "f6hfVbfZ" = _f6hfVbfZ;
+        "zjK4uO49" = _zjK4uO49;
+        "GMx5AAmb" = _GMx5AAmb;
         "fabric-1.20" = _k9OJ6Zma;
         "fabric-1.20.1" = _2uZID2NY;
         "fabric-1.20.2" = _cMhDvrsW;
@@ -717,7 +735,7 @@ let
         "fabric-1.21.11" = _D8zRyKaZ;
         "fabric-26.1.2" = _8F5HAh9j;
         "fabric-26.2" = _fWh6VMrl;
-        "fabric-26.3" = _IiYwLT7j;
+        "fabric-26.3" = _zjK4uO49;
         "forge-1.20" = _QeJ0dg1v;
         "forge-1.20.1" = _lpsqjLnb;
         "forge-1.20.2" = _2HeSC693;
@@ -738,7 +756,7 @@ let
         "forge-1.21.11" = _w0o10iMe;
         "forge-26.1.2" = _o8Wfm465;
         "forge-26.2" = _diFbrXuO;
-        "forge-26.3" = _HUxCD0pk;
+        "forge-26.3" = _f6hfVbfZ;
         "neoforge-1.20.2" = _CFR2vPXc;
         "neoforge-1.20.3" = _e09ldYFi;
         "neoforge-1.20.4" = _sX39iiuh;
@@ -756,7 +774,7 @@ let
         "neoforge-1.21.11" = _LzoZD4Wj;
         "neoforge-26.1.2" = _kVF7kS76;
         "neoforge-26.2" = _MOU6CItx;
-        "neoforge-26.3" = _aiPmNQoX;
+        "neoforge-26.3" = _GMx5AAmb;
         "pkg-20.0" = _QeJ0dg1v;
         "pkg-20.1" = _T3F86ABI;
         "pkg-20.2" = _HSAPAdlv;
@@ -802,7 +820,8 @@ let
         "pkg-26.2.1" = _MOU6CItx;
         "pkg-26.3.0" = _i5CiPpUC;
         "pkg-26.3.1" = _aiPmNQoX;
-        "default" = _aiPmNQoX;
+        "pkg-26.3.2" = _GMx5AAmb;
+        "default" = _GMx5AAmb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "infchest";

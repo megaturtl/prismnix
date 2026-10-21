@@ -441,6 +441,16 @@ let
             "file" = "White_And_Black_World-26.4-snapshot-3.zip";
             "hash" = "sha512-eUFyHtg5/NFqc0bMuXIPRomU5r0t2WhYDOQYOEHLCkRHl8eFeUOo0c0CoDl1TyUqz3LlE2z4lR2PrLYsVt/5zg==";
         };
+        _WvcUNEM4 = {
+            "id" = "WvcUNEM4";
+            "file" = "White_And_Black_World-26.4-snapshot-4.zip";
+            "hash" = "sha512-C74N4QOKeQESpH1scCuszRGFTxLsxvwBR9Mkx4oaW+pYyE0U+e+IYxTmDek/2dB3B3T2l0ylSVdwjj2JgeDhVg==";
+        };
+        _mm7u2msY = {
+            "id" = "mm7u2msY";
+            "file" = "White_And_Black_World-26.4-snapshot-5.zip";
+            "hash" = "sha512-ANJDh7SLq2lgaMzMHnic0Uxsql7CgToQ4Jft+mQyZRXeuRYJbaLUW0I3g4Aw41YQyEu+pBqHNmVvdlj9IZoF5Q==";
+        };
     in {
         "4rhH2YKq" = _4rhH2YKq;
         "3iyDvOgC" = _3iyDvOgC;
@@ -530,6 +540,8 @@ let
         "CcfhfQJx" = _CcfhfQJx;
         "f5sVkYpf" = _f5sVkYpf;
         "YwwoewEf" = _YwwoewEf;
+        "WvcUNEM4" = _WvcUNEM4;
+        "mm7u2msY" = _mm7u2msY;
         "minecraft-1.21.1" = _psKwuyph;
         "minecraft-1.20" = _7MBOvmVB;
         "minecraft-1.20.1" = _7MBOvmVB;
@@ -602,11 +614,13 @@ let
         "minecraft-26.4-snapshot-1" = _CcfhfQJx;
         "minecraft-26.4-snapshot-2" = _f5sVkYpf;
         "minecraft-26.4-snapshot-3" = _YwwoewEf;
+        "minecraft-26.4-snapshot-4" = _WvcUNEM4;
+        "minecraft-26.4-snapshot-5" = _mm7u2msY;
         "pkg-1.0" = _4rhH2YKq;
         "pkg-1.1" = _rT2ZcizL;
         "pkg-1.2" = _AnLd0RaK;
-        "pkg-1.3" = _YwwoewEf;
-        "default" = _YwwoewEf;
+        "pkg-1.3" = _mm7u2msY;
+        "default" = _mm7u2msY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "white-and-black-world";

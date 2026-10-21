@@ -166,6 +166,16 @@ let
             "file" = "magic_vibe_decorations-4.0.0-fabric-26.3.jar";
             "hash" = "sha512-gaXEWbIEerD+xmaHs0FQmAerLn0WSj+rtNZ78/0dmyaEL50YwsWV/v0yCRuKVWGyRqBKG2vqoinC/yPBe7RkPg==";
         };
+        _P2sApcmi = {
+            "id" = "P2sApcmi";
+            "file" = "magic_vibe_decorations-4.0.0-neoforge-1.21.1.jar";
+            "hash" = "sha512-xZIa6yv4prwCtIgu+hgTAsKHrNU9cGs0+5PmhWYR5Xy9sePGM3PGrb1rs1oWIAeAzyQTuG4gdpJOIIPcYoWoFA==";
+        };
+        _b38GQR3C = {
+            "id" = "b38GQR3C";
+            "file" = "magic_vibe_decorations-4.0.0-neoforge-26.3.jar";
+            "hash" = "sha512-pS3hM4dCuz2jWy0vXc0xs78LCBvDJc6QZ1d2NoJI7daOdGQLCUoprveofjWtwNts/gRz0wYrA6gO4VK+MCzBgw==";
+        };
     in {
         "NGn6sD5g" = _NGn6sD5g;
         "ugiO5FHZ" = _ugiO5FHZ;
@@ -200,6 +210,8 @@ let
         "kwxECCLG" = _kwxECCLG;
         "gH8DnmQb" = _gH8DnmQb;
         "atvMme0A" = _atvMme0A;
+        "P2sApcmi" = _P2sApcmi;
+        "b38GQR3C" = _b38GQR3C;
         "fabric-1.20.1" = _kwxECCLG;
         "fabric-1.19.2" = _ZOzwsaFd;
         "fabric-1.21" = _en00c0hm;
@@ -229,7 +241,7 @@ let
         "forge-26.1.2" = _8eSMNKqC;
         "forge-26.2" = _8eSMNKqC;
         "forge-26.3" = _rmvAQst1;
-        "neoforge-1.21.1" = _8h6DJypO;
+        "neoforge-1.21.1" = _P2sApcmi;
         "neoforge-1.21.4" = _PTA0Vb2I;
         "neoforge-1.21.5" = _PTA0Vb2I;
         "neoforge-1.21.6" = _PTA0Vb2I;
@@ -240,7 +252,7 @@ let
         "neoforge-1.21.11" = _B20ES0IZ;
         "neoforge-26.1.2" = _6oRQ1bs7;
         "neoforge-26.2" = _6oRQ1bs7;
-        "neoforge-26.3" = _Id9Hybcu;
+        "neoforge-26.3" = _b38GQR3C;
         "pkg-1.7.0" = _NGn6sD5g;
         "pkg-1.6.0" = _ugiO5FHZ;
         "pkg-1.0.1" = _nCUHdbMY;
@@ -259,8 +271,8 @@ let
         "pkg-2.3.3" = _B20ES0IZ;
         "pkg-2.3.4" = _8eSMNKqC;
         "pkg-3.0.1" = _Id9Hybcu;
-        "pkg-4.0.0" = _atvMme0A;
-        "default" = _atvMme0A;
+        "pkg-4.0.0" = _b38GQR3C;
+        "default" = _b38GQR3C;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "magic-vibe-decorations";

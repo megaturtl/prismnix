@@ -136,6 +136,11 @@ let
             "file" = "Font-NeoForge-1.7.4+1.21.x+26.1.x+26.2.x+26.3-snapshot.x.jar";
             "hash" = "sha512-FQ31BHeDISl3HcRyRA3j5SUUvGF9rcgvLzjwc8fKDUlhpCj1kSsxWM7BArXLFFJOrczzr2h56A4wPxcx4ZlpQQ==";
         };
+        _OoDiGqgY = {
+            "id" = "OoDiGqgY";
+            "file" = "Font-1.7.5+1.21.x+26.1.x+26.2.x+26.3.x.jar";
+            "hash" = "sha512-exbu4u+1oPgXXzgPL2VPzyKb02WKg4MyGZWYcpGXlfLMOVE4xRu+4Q6sq9J3RxWqnfK6Ittdhx/pWmc8de393Q==";
+        };
     in {
         "UU6PS0Bl" = _UU6PS0Bl;
         "TK3D4TyA" = _TK3D4TyA;
@@ -164,12 +169,13 @@ let
         "dfaQBHen" = _dfaQBHen;
         "tIseZ4RZ" = _tIseZ4RZ;
         "BMQEVygb" = _BMQEVygb;
-        "fabric-1.21.11" = _dfaQBHen;
+        "OoDiGqgY" = _OoDiGqgY;
+        "fabric-1.21.11" = _OoDiGqgY;
         "fabric-26.1" = _dfaQBHen;
         "fabric-26.1.1" = _dfaQBHen;
-        "fabric-26.1.2" = _dfaQBHen;
+        "fabric-26.1.2" = _OoDiGqgY;
         "fabric-1.21" = _dfaQBHen;
-        "fabric-1.21.1" = _dfaQBHen;
+        "fabric-1.21.1" = _OoDiGqgY;
         "fabric-1.21.2" = _dfaQBHen;
         "fabric-1.21.3" = _dfaQBHen;
         "fabric-1.21.4" = _dfaQBHen;
@@ -179,13 +185,14 @@ let
         "fabric-1.21.8" = _dfaQBHen;
         "fabric-1.21.9" = _dfaQBHen;
         "fabric-1.21.10" = _dfaQBHen;
-        "fabric-26.2" = _dfaQBHen;
+        "fabric-26.2" = _OoDiGqgY;
         "fabric-26.3-snapshot-3" = _dfaQBHen;
         "fabric-26.3-snapshot-1" = _dfaQBHen;
         "fabric-26.3-snapshot-2" = _dfaQBHen;
         "fabric-26.3-snapshot-4" = _dfaQBHen;
+        "fabric-26.3" = _OoDiGqgY;
         "forge-1.21" = _tIseZ4RZ;
-        "forge-1.21.1" = _tIseZ4RZ;
+        "forge-1.21.1" = _OoDiGqgY;
         "forge-1.21.2" = _tIseZ4RZ;
         "forge-1.21.3" = _tIseZ4RZ;
         "forge-1.21.4" = _tIseZ4RZ;
@@ -195,13 +202,14 @@ let
         "forge-1.21.8" = _tIseZ4RZ;
         "forge-1.21.9" = _tIseZ4RZ;
         "forge-1.21.10" = _tIseZ4RZ;
-        "forge-1.21.11" = _tIseZ4RZ;
+        "forge-1.21.11" = _OoDiGqgY;
         "forge-26.1" = _tIseZ4RZ;
         "forge-26.1.1" = _tIseZ4RZ;
-        "forge-26.1.2" = _tIseZ4RZ;
-        "forge-26.2" = _tIseZ4RZ;
+        "forge-26.1.2" = _OoDiGqgY;
+        "forge-26.2" = _OoDiGqgY;
+        "forge-26.3" = _OoDiGqgY;
         "neoforge-1.21" = _BMQEVygb;
-        "neoforge-1.21.1" = _BMQEVygb;
+        "neoforge-1.21.1" = _OoDiGqgY;
         "neoforge-1.21.2" = _BMQEVygb;
         "neoforge-1.21.3" = _BMQEVygb;
         "neoforge-1.21.4" = _BMQEVygb;
@@ -211,11 +219,12 @@ let
         "neoforge-1.21.8" = _BMQEVygb;
         "neoforge-1.21.9" = _BMQEVygb;
         "neoforge-1.21.10" = _BMQEVygb;
-        "neoforge-1.21.11" = _BMQEVygb;
+        "neoforge-1.21.11" = _OoDiGqgY;
         "neoforge-26.1" = _BMQEVygb;
         "neoforge-26.1.1" = _BMQEVygb;
-        "neoforge-26.1.2" = _BMQEVygb;
-        "neoforge-26.2" = _BMQEVygb;
+        "neoforge-26.1.2" = _OoDiGqgY;
+        "neoforge-26.2" = _OoDiGqgY;
+        "neoforge-26.3" = _OoDiGqgY;
         "pkg-1.0.0-1.21.11" = _UU6PS0Bl;
         "pkg-1.1.0+26.1" = _TK3D4TyA;
         "pkg-1.1.1+26.1" = _ETXVhl6B;
@@ -235,7 +244,8 @@ let
         "pkg-1.7.2" = _iLgDVmG2;
         "pkg-1.7.3" = _RJXdyNqj;
         "pkg-1.7.4" = _BMQEVygb;
-        "default" = _BMQEVygb;
+        "pkg-1.7.5" = _OoDiGqgY;
+        "default" = _OoDiGqgY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "font";

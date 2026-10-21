@@ -141,6 +141,11 @@ let
             "file" = "HypixelSimpleChat-1.9.8.jar";
             "hash" = "sha512-qLvIJF6PFjXhv+XYUxWlaNU/qcc12pGgYgOZX7DXk3ht26Y0Xa1jAQ5c5PFH52Sx3rVGdvk58SnqTuZNSGm6mA==";
         };
+        _RMh6DlHL = {
+            "id" = "RMh6DlHL";
+            "file" = "HypixelSimpleChat-1.9.9.jar";
+            "hash" = "sha512-3vl9ZceiZRs5ZIOMLrRgy+S/Qd0ypr0IMp9OVk3zktIwS4ZmLcjdbRMxwmvPxrAU/iZeC6Lq9t/fqrmO0LUbNQ==";
+        };
     in {
         "5fiY3VZ2" = _5fiY3VZ2;
         "7a0AOkOs" = _7a0AOkOs;
@@ -170,6 +175,7 @@ let
         "N3vKQoq3" = _N3vKQoq3;
         "y7sa6f7L" = _y7sa6f7L;
         "WB8lCMuF" = _WB8lCMuF;
+        "RMh6DlHL" = _RMh6DlHL;
         "fabric-1.21" = _kdI5hA2H;
         "fabric-1.21.1" = _kdI5hA2H;
         "fabric-1.21.2" = _kdI5hA2H;
@@ -182,11 +188,11 @@ let
         "fabric-1.21.9" = _kdI5hA2H;
         "fabric-1.21.10" = _kdI5hA2H;
         "fabric-1.21.11" = _kdI5hA2H;
-        "fabric-26.1" = _WB8lCMuF;
-        "fabric-26.1.1" = _WB8lCMuF;
-        "fabric-26.1.2" = _WB8lCMuF;
-        "fabric-26.2" = _WB8lCMuF;
-        "fabric-26.3" = _WB8lCMuF;
+        "fabric-26.1" = _RMh6DlHL;
+        "fabric-26.1.1" = _RMh6DlHL;
+        "fabric-26.1.2" = _RMh6DlHL;
+        "fabric-26.2" = _RMh6DlHL;
+        "fabric-26.3" = _RMh6DlHL;
         "pkg-1.1.1" = _5fiY3VZ2;
         "pkg-1.1.2" = _7a0AOkOs;
         "pkg-1.2.1" = _FlnSCKE6;
@@ -214,7 +220,8 @@ let
         "pkg-1.9.6-2" = _N3vKQoq3;
         "pkg-1.9.7" = _y7sa6f7L;
         "pkg-1.9.8" = _WB8lCMuF;
-        "default" = _WB8lCMuF;
+        "pkg-1.9.9" = _RMh6DlHL;
+        "default" = _RMh6DlHL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hypixelsimplechat";

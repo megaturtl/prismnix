@@ -41,6 +41,11 @@ let
             "file" = "ae2ltpp-1.2.2-beta2.jar";
             "hash" = "sha512-bloU1tZWC7fY6bYiec5uiS6kPaGyQT96jsPPmWh+4xws71UCruX8PDXc0Cybp5m+ieyctHHV5pPaScttJokl1g==";
         };
+        _pH04p8KN = {
+            "id" = "pH04p8KN";
+            "file" = "ae2ltpp-1.2.2-beta3.jar";
+            "hash" = "sha512-ixWcyjKvQkyci3cWRswxQhhFdFydsIYCRr6uu5M1u2XnHX7bkNVbcgRCuR1nTgGCQbjQjZR8cF6fml/scGTXdQ==";
+        };
     in {
         "sHCYUdOr" = _sHCYUdOr;
         "iTehfd8X" = _iTehfd8X;
@@ -50,7 +55,8 @@ let
         "RwoioKC9" = _RwoioKC9;
         "gpNiszro" = _gpNiszro;
         "aWws6IeK" = _aWws6IeK;
-        "neoforge-1.21.1" = _aWws6IeK;
+        "pH04p8KN" = _pH04p8KN;
+        "neoforge-1.21.1" = _pH04p8KN;
         "pkg-1.0.0" = _sHCYUdOr;
         "pkg-1.0.1" = _iTehfd8X;
         "pkg-1.1.1" = _lwX4Hpyv;
@@ -59,7 +65,8 @@ let
         "pkg-1.2.1" = _RwoioKC9;
         "pkg-1.2.2-beta" = _gpNiszro;
         "pkg-1.2.2-beta2" = _aWws6IeK;
-        "default" = _aWws6IeK;
+        "pkg-1.2.2-beta3" = _pH04p8KN;
+        "default" = _pH04p8KN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ae2lt-packaged-pattern-provider";

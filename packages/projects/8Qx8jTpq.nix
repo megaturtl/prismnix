@@ -151,6 +151,16 @@ let
             "file" = "bwaws-0.2-forge-1.12.2.jar";
             "hash" = "sha512-mrXR3X+vm901oFyf3p9LqFdQHF3Eu+Pjpx8TPQyuNnEIgsgGCPNmyTYMSWPlR1scSfMfeEEF1jU8D7oY3Pot7Q==";
         };
+        _3vhu1F1V = {
+            "id" = "3vhu1F1V";
+            "file" = "bwaws-0.2-forge-1.12.1.jar";
+            "hash" = "sha512-RTtukPXVqpULcm8hfnTnlr4pHkjFXH3ouKl4dpZeSxyTTz6YZA0zCjKxvioD9feENsniY+kFgLT4FnP88/Ra7Q==";
+        };
+        _C33D0Kj3 = {
+            "id" = "C33D0Kj3";
+            "file" = "bwaws-0.2-forge-1.12.jar";
+            "hash" = "sha512-jv0oo9RPG87IvgDqOOzV1494hARvwsBWH1e+hXI55kTY+2dvv/twhR3XDHkslp0DWN5YBTScGH5A/62/7LwQxg==";
+        };
     in {
         "3Ya5Nf8q" = _3Ya5Nf8q;
         "QT7ehmwp" = _QT7ehmwp;
@@ -182,6 +192,8 @@ let
         "coX9NEiV" = _coX9NEiV;
         "rZqQrhXt" = _rZqQrhXt;
         "cJW8U3ss" = _cJW8U3ss;
+        "3vhu1F1V" = _3vhu1F1V;
+        "C33D0Kj3" = _C33D0Kj3;
         "neoforge-26.1.2" = _LDxXaw84;
         "neoforge-1.21.1" = _kKCtPvNm;
         "neoforge-1.21.8" = _VYUKFvEV;
@@ -227,9 +239,11 @@ let
         "forge-1.18" = _bx9lr1Dj;
         "forge-1.19.2" = _rZqQrhXt;
         "forge-1.12.2" = _cJW8U3ss;
+        "forge-1.12.1" = _3vhu1F1V;
+        "forge-1.12" = _C33D0Kj3;
         "pkg-0.1" = _6yuGAc5g;
-        "pkg-0.2" = _cJW8U3ss;
-        "default" = _cJW8U3ss;
+        "pkg-0.2" = _C33D0Kj3;
+        "default" = _C33D0Kj3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "backported-wool-stairs-slabs";

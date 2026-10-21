@@ -91,6 +91,21 @@ let
             "file" = "enderchestpersistence-neoforge-0.6.0.jar";
             "hash" = "sha512-eSbt2RL6dyWK/qAnSyreUk+9bJNOcxKW2m8SPv+ZEacL/QhXJWI4atohiNJ+8D2djUA0qmCtQhIzAWAjLAj8rQ==";
         };
+        _BoFkeO3W = {
+            "id" = "BoFkeO3W";
+            "file" = "enderchestpersistence-fabric-0.7.0.jar";
+            "hash" = "sha512-oRW5WXYUqcbs7GAQYZrWbSSGsEb2+1QhfiSPxQaxXywuddAIPpHqczAwYSUMLfpUIXMqfDtQ8pp+QO/geRR2pQ==";
+        };
+        _u3EtBEGK = {
+            "id" = "u3EtBEGK";
+            "file" = "enderchestpersistence-forge-0.7.0.jar";
+            "hash" = "sha512-ZrARRW1DzY1SUp34yOt6KwWg6OS/4Q6JvkRf+26HbLhquSVcVcTWxGQJmtocliekUGeJNMj9yTtw/D7ZGXNEsg==";
+        };
+        _bgXudlac = {
+            "id" = "bgXudlac";
+            "file" = "enderchestpersistence-neoforge-0.7.0.jar";
+            "hash" = "sha512-eL6SBxnwFi5JT8kBQf6H460L4YyVAPpWxyML3Bw7dBB4cvG6xzc2r87n1Gdq37NMt6alkelsUMr91A/CYVLgcA==";
+        };
     in {
         "WNzaYQw7" = _WNzaYQw7;
         "pJolu63O" = _pJolu63O;
@@ -110,9 +125,12 @@ let
         "tHjcUK6S" = _tHjcUK6S;
         "za3Q2l8v" = _za3Q2l8v;
         "tIMZ6BPT" = _tIMZ6BPT;
-        "fabric-1.21.1" = _tHjcUK6S;
-        "forge-1.21.1" = _za3Q2l8v;
-        "neoforge-1.21.1" = _tIMZ6BPT;
+        "BoFkeO3W" = _BoFkeO3W;
+        "u3EtBEGK" = _u3EtBEGK;
+        "bgXudlac" = _bgXudlac;
+        "fabric-1.21.1" = _BoFkeO3W;
+        "forge-1.21.1" = _u3EtBEGK;
+        "neoforge-1.21.1" = _bgXudlac;
         "pkg-v0.1.0+fabric" = _WNzaYQw7;
         "pkg-v0.1.0+forge" = _pJolu63O;
         "pkg-v0.1.0+neoforge" = _W7YjtZg1;
@@ -131,7 +149,10 @@ let
         "pkg-v0.6.0+fabric" = _tHjcUK6S;
         "pkg-v0.6.0+forge" = _za3Q2l8v;
         "pkg-v0.6.0+neoforge" = _tIMZ6BPT;
-        "default" = _tIMZ6BPT;
+        "pkg-v0.7.0+fabric" = _BoFkeO3W;
+        "pkg-v0.7.0+forge" = _u3EtBEGK;
+        "pkg-v0.7.0+neoforge" = _bgXudlac;
+        "default" = _bgXudlac;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ender-chest-persistence";

@@ -91,6 +91,11 @@ let
             "file" = "JMs Fresh Animations.zip";
             "hash" = "sha512-PI+zyVO+sneRYfTAmOXYZGo2WdNu6S22M286Ow+FOrHj0sIJQ/Or8W/Y6rRS5S3cmDBzPJhCtyWQ/GkESaWhew==";
         };
+        _7I2hN8kt = {
+            "id" = "7I2hN8kt";
+            "file" = "JMs Fresh Animations.zip";
+            "hash" = "sha512-nz+hQUGC37WlBc7G80dgs85YL6Oor2I/YOXJkWv4ogXDEYsLwU7L+WWMt0lAVkW3VL7xQGc8xvHCwJniQn/z9w==";
+        };
     in {
         "keXEKGOn" = _keXEKGOn;
         "v4WJDra4" = _v4WJDra4;
@@ -110,6 +115,7 @@ let
         "viAkja4g" = _viAkja4g;
         "lhrl4ISK" = _lhrl4ISK;
         "VlgC4kx0" = _VlgC4kx0;
+        "7I2hN8kt" = _7I2hN8kt;
         "minecraft-1.20.4" = _oWEnFws6;
         "minecraft-1.20.5" = _laqhquVu;
         "minecraft-1.21" = _9bKaoZyU;
@@ -121,6 +127,7 @@ let
         "minecraft-25w37a" = _viAkja4g;
         "minecraft-1.21.10" = _VlgC4kx0;
         "minecraft-25w42a" = _lhrl4ISK;
+        "minecraft-26.3" = _7I2hN8kt;
         "pkg-1.0" = _laqhquVu;
         "pkg-1.1" = _Va5vpT9r;
         "pkg-1.2" = _3KgBicNB;
@@ -136,7 +143,8 @@ let
         "pkg-1.12" = _viAkja4g;
         "pkg-1.13" = _lhrl4ISK;
         "pkg-1.14" = _VlgC4kx0;
-        "default" = _VlgC4kx0;
+        "pkg-1.11.o" = _7I2hN8kt;
+        "default" = _7I2hN8kt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jms-fresh-animations";

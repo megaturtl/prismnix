@@ -21,18 +21,25 @@ let
             "file" = "coastercompat.zip";
             "hash" = "sha512-Vp5KoBgg4chHgCeUlPn79/HzyRv8JEeHhMNesdSxmGBOMdy2pgusr+zbHpYuiUnzkpf+lCjrmsSoU8VOdmUQ8Q==";
         };
+        _bNGtOekG = {
+            "id" = "bNGtOekG";
+            "file" = "coastercompat.zip";
+            "hash" = "sha512-xPbtuBuCDZ49454fVTrnxn75slbkLRXPpTxOg3rZEhrAhVTm5wj+ipqHky1wttgp7b3vqA862BEub9cF6Uta3A==";
+        };
     in {
         "fGWHBMev" = _fGWHBMev;
         "3D8tw4Fm" = _3D8tw4Fm;
         "wjR2bhah" = _wjR2bhah;
         "3uL7OEp3" = _3uL7OEp3;
-        "minecraft-1.20" = _3uL7OEp3;
-        "minecraft-1.20.1" = _3uL7OEp3;
+        "bNGtOekG" = _bNGtOekG;
+        "minecraft-1.20" = _bNGtOekG;
+        "minecraft-1.20.1" = _bNGtOekG;
         "pkg-1" = _fGWHBMev;
         "pkg-2" = _3D8tw4Fm;
         "pkg-3" = _wjR2bhah;
         "pkg-3.5" = _3uL7OEp3;
-        "default" = _3uL7OEp3;
+        "pkg-4.0" = _bNGtOekG;
+        "default" = _bNGtOekG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bnc-coaster-compat";

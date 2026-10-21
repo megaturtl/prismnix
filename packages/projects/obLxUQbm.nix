@@ -956,6 +956,11 @@ let
             "file" = "the_midnight_lurker-face_your_fears-4.0.0-D2_beta-1.20.1.jar";
             "hash" = "sha512-Q3oYycsfanGTVAnuT4S1RSeQxmkN4KWYkrMY/RtoC3/em4VggOdOrZpNMhImooKLApkNNIQOxmFvNplYFqBzKg==";
         };
+        _9qio3FxR = {
+            "id" = "9qio3FxR";
+            "file" = "the_midnight_lurker-face_your_fears-4.0.0-D3_beta-1.20.1.jar";
+            "hash" = "sha512-cGYblg9CTQ8mBuzS7pHi3ZTmb0RM6z+UYe62CpJLX5xybxVlpG/Hk0xrndJsNnIl6qlZe/ZWp0DKVBiXqSJgcw==";
+        };
     in {
         "HtCpAFFU" = _HtCpAFFU;
         "lDsH0qOX" = _lDsH0qOX;
@@ -1148,10 +1153,11 @@ let
         "ohZ4aHLX" = _ohZ4aHLX;
         "AjEk8n3R" = _AjEk8n3R;
         "sCo6ddSN" = _sCo6ddSN;
+        "9qio3FxR" = _9qio3FxR;
         "forge-1.18.2" = _w0tZMo7m;
         "forge-1.19.2" = _RjmrehXT;
         "forge-1.19.4" = _K88r12at;
-        "forge-1.20.1" = _sCo6ddSN;
+        "forge-1.20.1" = _9qio3FxR;
         "pkg-1.0.0" = _HtCpAFFU;
         "pkg-1.0.1" = _lDsH0qOX;
         "pkg-1.0.2" = _jwY9daPw;
@@ -1343,7 +1349,8 @@ let
         "pkg-4.0.0-C2-beta" = _ohZ4aHLX;
         "pkg-4.0.0-D-beta" = _AjEk8n3R;
         "pkg-4.0.0-D2-beta" = _sCo6ddSN;
-        "default" = _sCo6ddSN;
+        "pkg-4.0.0-D3-beta" = _9qio3FxR;
+        "default" = _9qio3FxR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-midnight-lurker";

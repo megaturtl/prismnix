@@ -106,6 +106,11 @@ let
             "file" = "splashfox-1.2.2+26.2.jar";
             "hash" = "sha512-4nIyy+IFaXKwoIOP9Q5G9k59ya33BOnmG8IslpKR2pjx4/7wB0B3LSGKq3D0m+zaRYA7uFC0pXVheZ8fEh5IYw==";
         };
+        _a6bHwM3V = {
+            "id" = "a6bHwM3V";
+            "file" = "splashfox-1.2.2+26.3.jar";
+            "hash" = "sha512-DbuOtFj1TkXIjL9Cr6TKr9cFVdHJm0uZdSpcIHERwGZ6jwA1xLhgfUcvdfEPqWk7yDAj/GZ1H/bb4sUNiNF25Q==";
+        };
     in {
         "QF62hRqs" = _QF62hRqs;
         "G2euUYGf" = _G2euUYGf;
@@ -128,6 +133,7 @@ let
         "nBV2aalS" = _nBV2aalS;
         "LzCu2Jrn" = _LzCu2Jrn;
         "j8hGd2Fi" = _j8hGd2Fi;
+        "a6bHwM3V" = _a6bHwM3V;
         "fabric-1.19" = _G2euUYGf;
         "fabric-1.19.1" = _G2euUYGf;
         "fabric-1.19.2" = _G2euUYGf;
@@ -156,6 +162,7 @@ let
         "fabric-26.1.1" = _LzCu2Jrn;
         "fabric-26.1.2" = _LzCu2Jrn;
         "fabric-26.2" = _j8hGd2Fi;
+        "fabric-26.3" = _a6bHwM3V;
         "quilt-1.19" = _G2euUYGf;
         "quilt-1.19.1" = _G2euUYGf;
         "quilt-1.19.2" = _G2euUYGf;
@@ -193,7 +200,8 @@ let
         "pkg-1.2.2+1.21.11" = _nBV2aalS;
         "pkg-1.2.2+26.1.1" = _LzCu2Jrn;
         "pkg-1.2.2+26.2" = _j8hGd2Fi;
-        "default" = _j8hGd2Fi;
+        "pkg-1.2.2+26.3" = _a6bHwM3V;
+        "default" = _a6bHwM3V;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "splashfox";

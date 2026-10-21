@@ -471,6 +471,11 @@ let
             "file" = "ballistix-1.21.1-1.2.2.jar";
             "hash" = "sha512-9caR/BQfjxpw19FQYQddJKeXzQDoAUYkDcpbTR90OBp1/6CT4MASlJw1h8Eg5eUIuyMzFP+PQ4J3mapJk09rLA==";
         };
+        _cfb3xzgS = {
+            "id" = "cfb3xzgS";
+            "file" = "ballistix-1.21.1-1.2.3.jar";
+            "hash" = "sha512-MeBk7czVfkIXdyyw/mothTl/i0lKGkiHs/7hEGJb0RqOODxB7ehl2Bot9i9sc9g49Eg6j9PAMuUYuiREQkTgdw==";
+        };
     in {
         "ufszGaz5" = _ufszGaz5;
         "5C6nfUhv" = _5C6nfUhv;
@@ -566,13 +571,14 @@ let
         "BcQyfkvU" = _BcQyfkvU;
         "frUm4zzl" = _frUm4zzl;
         "n7eg201X" = _n7eg201X;
+        "cfb3xzgS" = _cfb3xzgS;
         "forge-1.16.5" = _sxaP4A47;
         "forge-1.17.1" = _5C6nfUhv;
         "forge-1.18.2" = _VeXINo7d;
         "forge-1.19.2" = _V6WrPh5Q;
         "forge-1.20.1" = _kK0dda8z;
         "neoforge-1.20.1" = _kK0dda8z;
-        "neoforge-1.21.1" = _n7eg201X;
+        "neoforge-1.21.1" = _cfb3xzgS;
         "pkg-1.16.5-0.3.0-0" = _ufszGaz5;
         "pkg-1.17.1-0.3.1-0" = _5C6nfUhv;
         "pkg-1.18.2-0.5.3-3" = _AtWuk12X;
@@ -666,7 +672,8 @@ let
         "pkg-1.21.1-1.2.0" = _BcQyfkvU;
         "pkg-1.21.1-1.2.1" = _frUm4zzl;
         "pkg-1.21.1-1.2.2" = _n7eg201X;
-        "default" = _n7eg201X;
+        "pkg-1.21.1-1.2.3" = _cfb3xzgS;
+        "default" = _cfb3xzgS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ballistix";

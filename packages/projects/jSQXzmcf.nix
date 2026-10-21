@@ -76,6 +76,11 @@ let
             "file" = "RapidLeafDecay-1.20.1-2.0.3.jar";
             "hash" = "sha512-LnQNTm75q2736Lez48OFlP9gBMfVwrKhzU7nZRIJO5LAaJ/v+O1NcOIuy5yiPAflHrfxukGosnrubFfTpc/shA==";
         };
+        _9VxwcZTH = {
+            "id" = "9VxwcZTH";
+            "file" = "RapidLeafDecay-26.3-3.0.1.jar";
+            "hash" = "sha512-jp2Aw6YPLOp0sdC0YncMlXY1GlonFE8h8NvI6Cf2hK0Or8Wc4StOJ3fNGlYMsTUDmMw2r195fLceXiSnXwh6aA==";
+        };
     in {
         "m3UEqA8b" = _m3UEqA8b;
         "fuB6G5pZ" = _fuB6G5pZ;
@@ -92,6 +97,7 @@ let
         "kgoH2d7S" = _kgoH2d7S;
         "2FE7w3mt" = _2FE7w3mt;
         "ZUcdNHid" = _ZUcdNHid;
+        "9VxwcZTH" = _9VxwcZTH;
         "forge-1.17.1" = _m3UEqA8b;
         "forge-1.18.2" = _fuB6G5pZ;
         "forge-1.19.4" = _kFZu2xUy;
@@ -117,7 +123,7 @@ let
         "neoforge-26.1.1" = _2FE7w3mt;
         "neoforge-26.1.2" = _2FE7w3mt;
         "neoforge-26.2" = _2FE7w3mt;
-        "neoforge-26.3" = _2FE7w3mt;
+        "neoforge-26.3" = _9VxwcZTH;
         "pkg-1.17.1-2.0.2" = _m3UEqA8b;
         "pkg-1.18.2-2.0.2" = _fuB6G5pZ;
         "pkg-1.19.4-2.0.2" = _kFZu2xUy;
@@ -133,7 +139,8 @@ let
         "pkg-1.21.11-3.0.1" = _kgoH2d7S;
         "pkg-26.1-3.0.1" = _2FE7w3mt;
         "pkg-1.20.1-2.0.3" = _ZUcdNHid;
-        "default" = _ZUcdNHid;
+        "pkg-26.3-3.0.1" = _9VxwcZTH;
+        "default" = _9VxwcZTH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rapid-leaf-decay";

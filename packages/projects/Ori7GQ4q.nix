@@ -26,12 +26,18 @@ let
             "file" = "BSP x FreshAnimations (v1.10.5).zip";
             "hash" = "sha512-iG8c95jZOdXsgnnVlmafRJi40I86KWdnYGDeqYtZCEMWGykDP3j9cAmo2Gh/9y1NDiOnl5oxNj1aB/YLuyZXrA==";
         };
+        _k8RdzBGt = {
+            "id" = "k8RdzBGt";
+            "file" = "BSP x FreshAnimations (v1.11.1).zip";
+            "hash" = "sha512-eOAdNJ1UBdKRjd/lcPqpeXEf4yNR6yL0AgLNaouiBvKHMIBmbcqnDpJn8kwK3bIA/+1Z3C//SdRIEzgoAaHRQA==";
+        };
     in {
         "RGo8dtSp" = _RGo8dtSp;
         "L4cna7tK" = _L4cna7tK;
         "4bsbgm3F" = _4bsbgm3F;
         "X7L39DBw" = _X7L39DBw;
         "GgbuAkMH" = _GgbuAkMH;
+        "k8RdzBGt" = _k8RdzBGt;
         "minecraft-1.20" = _4bsbgm3F;
         "minecraft-1.20.1" = _4bsbgm3F;
         "minecraft-1.20.2" = _4bsbgm3F;
@@ -51,15 +57,18 @@ let
         "minecraft-1.21.9" = _4bsbgm3F;
         "minecraft-1.21.10" = _4bsbgm3F;
         "minecraft-1.21.11" = _X7L39DBw;
-        "minecraft-26.1" = _GgbuAkMH;
-        "minecraft-26.1.1" = _GgbuAkMH;
-        "minecraft-26.1.2" = _GgbuAkMH;
+        "minecraft-26.1" = _k8RdzBGt;
+        "minecraft-26.1.1" = _k8RdzBGt;
+        "minecraft-26.1.2" = _k8RdzBGt;
+        "minecraft-26.2" = _k8RdzBGt;
+        "minecraft-26.3" = _k8RdzBGt;
         "pkg-Compatible_FA-b1.10.1" = _RGo8dtSp;
         "pkg-Compatible_FA-b1.10.2" = _L4cna7tK;
         "pkg-Compatible_FA-b1.10.3" = _4bsbgm3F;
         "pkg-Compatible_FA-b1.10.4" = _X7L39DBw;
         "pkg-Compatible_FA-b1.10.5" = _GgbuAkMH;
-        "default" = _GgbuAkMH;
+        "pkg-Compatible_FA-b1.11.1" = _k8RdzBGt;
+        "default" = _k8RdzBGt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bspxfa";

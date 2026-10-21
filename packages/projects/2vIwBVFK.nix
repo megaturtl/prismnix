@@ -46,6 +46,21 @@ let
             "file" = "glowing-entities-4.0-1.21.10-fabric.jar";
             "hash" = "sha512-ou93JFNpDoHmFgpaSjiPaGX+Ub7mF071Eq+R+aF8FhE4XiGkwLzi4/YSkrPfvwkg8P8mVJWwMzOhV4seajFpwQ==";
         };
+        _Banq8GAP = {
+            "id" = "Banq8GAP";
+            "file" = "glowing-entities-4.0-26.1-fabric.jar";
+            "hash" = "sha512-+7m70Z3QpgC48AKM9TWoeF4YHEMUQ/p+vg9fN1ghNmPprFI5KZmE0QFjcskaq8aXDQJ4jkv14Iel5yXmiDXYPQ==";
+        };
+        _hHUkQtvA = {
+            "id" = "hHUkQtvA";
+            "file" = "glowing-entities-4.0-26.2-fabric.jar";
+            "hash" = "sha512-tz6mY5X4y27cqxvbFomYNVYfyicmmnWhuuIFK2u4e92lf9b+itq0veGZ4Ew3DRfe2cz9WzGsA9FXbA2VQvl3Jg==";
+        };
+        _PpMvO0M3 = {
+            "id" = "PpMvO0M3";
+            "file" = "glowing-entities-4.0-26.3-fabric.jar";
+            "hash" = "sha512-Is9p79f6KkWyixnIENOGx2fIc7UpySYI/zo2OJpwhc66q0+dCJ9NA5YHYihGZoHJabVlTJ+XwkcuZNphCuRNDw==";
+        };
     in {
         "xjOs00nv" = _xjOs00nv;
         "rV38q5S3" = _rV38q5S3;
@@ -56,6 +71,9 @@ let
         "51J42sEm" = _51J42sEm;
         "mGdX1TQr" = _mGdX1TQr;
         "LOZ7Pxqd" = _LOZ7Pxqd;
+        "Banq8GAP" = _Banq8GAP;
+        "hHUkQtvA" = _hHUkQtvA;
+        "PpMvO0M3" = _PpMvO0M3;
         "fabric-1.19.2" = _nU78bI54;
         "fabric-1.19.3" = _nU78bI54;
         "fabric-1.19.4" = _nU78bI54;
@@ -84,6 +102,9 @@ let
         "fabric-1.21.9" = _LOZ7Pxqd;
         "fabric-1.21.10" = _LOZ7Pxqd;
         "fabric-1.21.11" = _LOZ7Pxqd;
+        "fabric-26.1" = _Banq8GAP;
+        "fabric-26.2" = _hHUkQtvA;
+        "fabric-26.3" = _PpMvO0M3;
         "pkg-1.0" = _xjOs00nv;
         "pkg-2.0" = _sbIxHM10;
         "pkg-3.0" = _nU78bI54;
@@ -92,7 +113,10 @@ let
         "pkg-3.0-fabric-1.21.4" = _51J42sEm;
         "pkg-4.0-1.21.5-fabric" = _mGdX1TQr;
         "pkg-4.0-1.21.10-fabric" = _LOZ7Pxqd;
-        "default" = _LOZ7Pxqd;
+        "pkg-4.0-26.1-fabric" = _Banq8GAP;
+        "pkg-4.0-26.2-fabric" = _hHUkQtvA;
+        "pkg-4.0-26.3-fabric" = _PpMvO0M3;
+        "default" = _PpMvO0M3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "glowing-entities";

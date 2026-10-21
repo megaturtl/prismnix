@@ -16,16 +16,23 @@ let
             "file" = "stamina-1.0.1.jar";
             "hash" = "sha512-FY5jRTDzwUoDFGCHL2SmGzGAP0D676zaOb/T7fZqGb8G+6QA6pgbg45fR42dPJNAPnMhXpNUBaQ04qf9iVGF1Q==";
         };
+        _u4mYNwu8 = {
+            "id" = "u4mYNwu8";
+            "file" = "stamina-1.0.2.jar";
+            "hash" = "sha512-Ktcw3A29rz5uju8h5aDTCwJIKXzB6MhQ3kfbfMLQan25L+slYThsLcA4VFSzZZ9itIalJav9xJAwrjPt84+Xpg==";
+        };
     in {
         "ob2kSiVv" = _ob2kSiVv;
         "McQphWzh" = _McQphWzh;
         "Wkd64cUQ" = _Wkd64cUQ;
+        "u4mYNwu8" = _u4mYNwu8;
         "fabric-1.20.1" = _ob2kSiVv;
-        "fabric-1.21.1" = _Wkd64cUQ;
+        "fabric-1.21.1" = _u4mYNwu8;
         "pkg-1.0.0" = _ob2kSiVv;
         "pkg-1.0.0+1.21.1" = _McQphWzh;
         "pkg-1.0.1+1.21.1" = _Wkd64cUQ;
-        "default" = _Wkd64cUQ;
+        "pkg-1.0.2+1.21.1" = _u4mYNwu8;
+        "default" = _u4mYNwu8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "staminaz";

@@ -246,6 +246,11 @@ let
             "file" = "projectsentinel-BETA-5.0.0-forge-1.20.1.jar";
             "hash" = "sha512-DgzigjIONT8mUOAR6Agq+e9i/EPcCa4vCtvn6u6Ch/7dpaydB7r0rwS+DvBhpfO8Gz7OCFvEf+NoM3q8yUqFyQ==";
         };
+        _NMLzr5HX = {
+            "id" = "NMLzr5HX";
+            "file" = "projectsentinel-5.0.0-forge-1.20.1.jar";
+            "hash" = "sha512-/44NFkCMRlRHvz+E2Su+DNLm2z0LOdDx7JAqnco1CuYNoI2PuzHr/sG9FAYQZfo0G3LtVGF0Zk+CfaGwAr61tA==";
+        };
     in {
         "VYmi3GuO" = _VYmi3GuO;
         "NQOA3nCf" = _NQOA3nCf;
@@ -296,7 +301,8 @@ let
         "Su2eeJWb" = _Su2eeJWb;
         "4kSS6e8W" = _4kSS6e8W;
         "xTp9LBzt" = _xTp9LBzt;
-        "forge-1.20.1" = _xTp9LBzt;
+        "NMLzr5HX" = _NMLzr5HX;
+        "forge-1.20.1" = _NMLzr5HX;
         "pkg-0.0.1" = _VYmi3GuO;
         "pkg-1.0.0" = _NQOA3nCf;
         "pkg-26.3" = _8n1n6pb2;
@@ -341,8 +347,8 @@ let
         "pkg-1.2.1" = _XhUwWcyJ;
         "pkg-4.0.0" = _Su2eeJWb;
         "pkg-4.1.0" = _4kSS6e8W;
-        "pkg-5.0.0" = _xTp9LBzt;
-        "default" = _xTp9LBzt;
+        "pkg-5.0.0" = _NMLzr5HX;
+        "default" = _NMLzr5HX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "frame_dropped";

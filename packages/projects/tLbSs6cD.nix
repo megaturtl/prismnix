@@ -86,6 +86,16 @@ let
             "file" = "Cropmod-3.4.1.jar";
             "hash" = "sha512-6nuVmxsrDQnWiozXXaV7Q4oXSIFDwGdI9v/Zd/POqfXrV5wRHWdkdnEsnWCAG6DLZZKEo3KCraS4iTUc/Zcqsw==";
         };
+        _C6LuPTAy = {
+            "id" = "C6LuPTAy";
+            "file" = "Cropmod-3.4.2+26.1.jar";
+            "hash" = "sha512-M4PG+IISmB24ipMdhexylPM4DCNnZ2eqBb1vxNLVTFduJGIRNIGL0DL17VXlp61gNqG5yMQDcLP5eAb5v2zxNA==";
+        };
+        _kgN6rXXd = {
+            "id" = "kgN6rXXd";
+            "file" = "Cropmod-3.4.2+26.3.jar";
+            "hash" = "sha512-66WFnrxa5HEcSO05bwWS/Y18EphziLOqEM9u7+2LEwLja+vaQN3no5ygssqYNdKr69aISPMrEL96H73OnfIN1Q==";
+        };
     in {
         "uvYsIKFC" = _uvYsIKFC;
         "AcrN34mD" = _AcrN34mD;
@@ -104,16 +114,19 @@ let
         "zJQAcuRd" = _zJQAcuRd;
         "WMk9NL6f" = _WMk9NL6f;
         "fP94opVm" = _fP94opVm;
+        "C6LuPTAy" = _C6LuPTAy;
+        "kgN6rXXd" = _kgN6rXXd;
         "fabric-1.21.6" = _uvYsIKFC;
         "fabric-1.21.7" = _AcrN34mD;
         "fabric-1.21.8" = _GS6NjPd9;
         "fabric-1.21.9" = _GS6NjPd9;
         "fabric-1.21.10" = _GS6NjPd9;
         "fabric-1.21.11" = _GS6NjPd9;
-        "fabric-26.2" = _fP94opVm;
-        "fabric-26.1" = _fP94opVm;
-        "fabric-26.1.1" = _fP94opVm;
-        "fabric-26.1.2" = _fP94opVm;
+        "fabric-26.2" = _C6LuPTAy;
+        "fabric-26.1" = _C6LuPTAy;
+        "fabric-26.1.1" = _C6LuPTAy;
+        "fabric-26.1.2" = _C6LuPTAy;
+        "fabric-26.3" = _kgN6rXXd;
         "pkg-2.1.0" = _uvYsIKFC;
         "pkg-2.1.1" = _AcrN34mD;
         "pkg-2.1.2" = _5smGNMWk;
@@ -131,7 +144,8 @@ let
         "pkg-3.3.2" = _zJQAcuRd;
         "pkg-3.4.0" = _WMk9NL6f;
         "pkg-3.4.1" = _fP94opVm;
-        "default" = _fP94opVm;
+        "pkg-3.4.2" = _kgN6rXXd;
+        "default" = _kgN6rXXd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crop-mod";

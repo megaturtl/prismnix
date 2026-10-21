@@ -126,6 +126,11 @@ let
             "file" = "PaRail Trains Addon 3.1.0.zip";
             "hash" = "sha512-xZGYBFTqn0pW2epzM5PhhCv/OpicXgidCTXbYo2BDo4qIA/aggueyVF5eNGBHNrOSuMQW2NgULY/KQ0PpesATQ==";
         };
+        _e0aQTdmz = {
+            "id" = "e0aQTdmz";
+            "file" = "PaRail Trains Addon 3.2.0.zip";
+            "hash" = "sha512-7dlOT0+Bj2C26lM1pEU5j2M+lDH/fplYGpW+qARkHNxU5Uid0mwowwaEEAxz3nuHBfw0N13GIYfprmTFTt5k/A==";
+        };
     in {
         "Cr1k0Mou" = _Cr1k0Mou;
         "Lw2CV1Fw" = _Lw2CV1Fw;
@@ -152,18 +157,21 @@ let
         "M9t6I6dC" = _M9t6I6dC;
         "V5i069Pj" = _V5i069Pj;
         "kY07E0Y6" = _kY07E0Y6;
+        "e0aQTdmz" = _e0aQTdmz;
         "minecraft-1.16.5" = _M9t6I6dC;
-        "minecraft-1.17.1" = _kY07E0Y6;
-        "minecraft-1.18.2" = _kY07E0Y6;
-        "minecraft-1.19.2" = _kY07E0Y6;
-        "minecraft-1.19.4" = _kY07E0Y6;
+        "minecraft-1.17.1" = _e0aQTdmz;
+        "minecraft-1.18.2" = _e0aQTdmz;
+        "minecraft-1.19.2" = _e0aQTdmz;
+        "minecraft-1.19.4" = _e0aQTdmz;
         "minecraft-1.20" = _Cr1k0Mou;
-        "minecraft-1.20.1" = _kY07E0Y6;
+        "minecraft-1.20.1" = _e0aQTdmz;
         "minecraft-1.18" = _oAAt0jsX;
         "minecraft-1.18.1" = _oAAt0jsX;
         "minecraft-1.19.3" = _Lw2CV1Fw;
-        "minecraft-1.20.4" = _kY07E0Y6;
+        "minecraft-1.20.4" = _e0aQTdmz;
         "minecraft-1.20.3" = _zQ2q2YlE;
+        "minecraft-1.21.1" = _e0aQTdmz;
+        "minecraft-1.21.4" = _e0aQTdmz;
         "pkg-1.0.1" = _Cr1k0Mou;
         "pkg-1.1.0" = _Lw2CV1Fw;
         "pkg-1.2.0" = _WUgfBswe;
@@ -189,7 +197,8 @@ let
         "pkg-2.6.1" = _M9t6I6dC;
         "pkg-3.0.0" = _V5i069Pj;
         "pkg-3.1.0" = _kY07E0Y6;
-        "default" = _kY07E0Y6;
+        "pkg-3.2.0" = _e0aQTdmz;
+        "default" = _e0aQTdmz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dragon_railway";

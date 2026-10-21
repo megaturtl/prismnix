@@ -611,6 +611,11 @@ let
             "file" = "overlaytweaks-2.0.4+1.21.11-fabric.jar";
             "hash" = "sha512-4lhJaSS8BO96O4uIsfXNIgFwQkmhyY90s9HbKozF3SICst7x+48OYP7uD9oUknK3/NEVFTXoLKX80t50wGrCMQ==";
         };
+        _3byB04mf = {
+            "id" = "3byB04mf";
+            "file" = "overlaytweaks-2.0.4-hotfix.1+1.21.11-fabric.jar";
+            "hash" = "sha512-qnBa5BmcNbYb1lPD7Rgcn7uWNdi8hTnRX8kYQ3Jj/Jpt+eN//gcbi1zmZC5UecBPbSrJFDhGzsDCizDufA44oA==";
+        };
     in {
         "L7w9qQAM" = _L7w9qQAM;
         "flV2OfCE" = _flV2OfCE;
@@ -734,6 +739,7 @@ let
         "zGr3h6F1" = _zGr3h6F1;
         "QN67fUro" = _QN67fUro;
         "Itu0Zb8I" = _Itu0Zb8I;
+        "3byB04mf" = _3byB04mf;
         "fabric-1.20" = _Ji1T2nDr;
         "fabric-1.20.1" = _Ji1T2nDr;
         "fabric-1.19.4" = _BABL65wU;
@@ -750,7 +756,7 @@ let
         "fabric-1.21.5" = _V9HkYo9e;
         "fabric-1.21.8" = _EeVWox7E;
         "fabric-1.21.10" = _EzUKKoPG;
-        "fabric-1.21.11" = _Itu0Zb8I;
+        "fabric-1.21.11" = _3byB04mf;
         "fabric-26.1" = _NyMngkvZ;
         "fabric-26.1.1" = _NyMngkvZ;
         "fabric-26.1.2" = _NyMngkvZ;
@@ -829,7 +835,8 @@ let
         "pkg-2.0.2" = _oQ7Dzhez;
         "pkg-2.0.3" = _IZ6HxNHo;
         "pkg-2.0.4" = _Itu0Zb8I;
-        "default" = _Itu0Zb8I;
+        "pkg-2.0.4-hotfix.1" = _3byB04mf;
+        "default" = _3byB04mf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "overlaytweaks";

@@ -656,6 +656,16 @@ let
             "file" = "timcore-neoforge-1.8.2-1.34.0.jar";
             "hash" = "sha512-rpol2NRFbv1il2aXGpJB7zmUFPuteUX+epLcVRKF30NNhGpfeIep86E8LzEZzaDO+yUGbszP88jtsxk+uRr7Ig==";
         };
+        _eW6FGid8 = {
+            "id" = "eW6FGid8";
+            "file" = "timcore-fabric-1.8.2-1.34.1.jar";
+            "hash" = "sha512-pOKnzDtalAAfLIVUDccnoSqQUQsE5+4H61JE5u8Wi6c9v894ipEOqFsQkS0zgSpW9XEXj9XrQlER1dAfeV6cyQ==";
+        };
+        _nO4hsj1e = {
+            "id" = "nO4hsj1e";
+            "file" = "timcore-neoforge-1.8.2-1.34.1.jar";
+            "hash" = "sha512-9u3hwAkjSoBHJJUSMKp7fkYDyPY72ZHI/77e8qNzA5lyi0PITl4SeijULWCsxCmaeXi+bWwRD1uvtxhypAhCQg==";
+        };
     in {
         "UqZT88sJ" = _UqZT88sJ;
         "JiaI4MDg" = _JiaI4MDg;
@@ -788,8 +798,10 @@ let
         "RKdcX7VW" = _RKdcX7VW;
         "dtgPWpFE" = _dtgPWpFE;
         "biwtrmIj" = _biwtrmIj;
-        "fabric-1.21.1" = _dtgPWpFE;
-        "neoforge-1.21.1" = _biwtrmIj;
+        "eW6FGid8" = _eW6FGid8;
+        "nO4hsj1e" = _nO4hsj1e;
+        "fabric-1.21.1" = _eW6FGid8;
+        "neoforge-1.21.1" = _nO4hsj1e;
         "pkg-1.6.1-fabric-1.1.0" = _UqZT88sJ;
         "pkg-1.6.1-neoforge-1.1.0" = _JiaI4MDg;
         "pkg-1.6.1-neoforge-1.2.0" = _kKvmnKcc;
@@ -921,7 +933,9 @@ let
         "pkg-1.8.1-neoforge-1.33.2" = _RKdcX7VW;
         "pkg-1.8.2-fabric-1.34.0" = _dtgPWpFE;
         "pkg-1.8.2-neoforge-1.34.0" = _biwtrmIj;
-        "default" = _biwtrmIj;
+        "pkg-1.8.2-fabric-1.34.1" = _eW6FGid8;
+        "pkg-1.8.2-neoforge-1.34.1" = _nO4hsj1e;
+        "default" = _nO4hsj1e;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-tim-core";

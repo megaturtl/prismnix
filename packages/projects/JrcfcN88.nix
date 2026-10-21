@@ -426,6 +426,16 @@ let
             "file" = "tcc-1.4.18+1.21.1.jar";
             "hash" = "sha512-xuDOb+1U/QsBcC2iF6zZ/REaJ6NZa1GA5wbuMid4gvvd71APwN07/5AI4B6EGBd3j0HfYmNTF3DJ/hlcKgm2Lg==";
         };
+        _XnsB37fK = {
+            "id" = "XnsB37fK";
+            "file" = "tcc-1.4.19.jar";
+            "hash" = "sha512-SGUdKvNxLmLUXTHOvR8K5CyMVTP1Rz2dZyXnnZTEzVq+z2Uj7ZRiPkaQ2q4YSZiSPQK+SusF4nvyedn5/5v+9g==";
+        };
+        _zbY7Fk59 = {
+            "id" = "zbY7Fk59";
+            "file" = "tcc-1.4.19+1.21.1.jar";
+            "hash" = "sha512-XulgGFTtCVSmisZcDl5lmIbtLvFJloTxenWRNVaBMI7bbAtAI6azw4Plo/xqNVcbwMlVxtYfD17nH7YDCFQAMg==";
+        };
     in {
         "ex6ht5ox" = _ex6ht5ox;
         "i2FfW8mz" = _i2FfW8mz;
@@ -512,8 +522,10 @@ let
         "Cj7moICe" = _Cj7moICe;
         "TlmoRNkV" = _TlmoRNkV;
         "e0tQOu95" = _e0tQOu95;
-        "forge-1.20.1" = _TlmoRNkV;
-        "neoforge-1.21.1" = _e0tQOu95;
+        "XnsB37fK" = _XnsB37fK;
+        "zbY7Fk59" = _zbY7Fk59;
+        "forge-1.20.1" = _XnsB37fK;
+        "neoforge-1.21.1" = _zbY7Fk59;
         "pkg-1.0.8" = _i2FfW8mz;
         "pkg-1.0.9" = _gK9beQxL;
         "pkg-1.1.0" = _Ragx92mS;
@@ -597,7 +609,9 @@ let
         "pkg-1.4.17" = _Cj7moICe;
         "pkg-1.4.18" = _TlmoRNkV;
         "pkg-1.4.18+1.21.1" = _e0tQOu95;
-        "default" = _e0tQOu95;
+        "pkg-1.4.19" = _XnsB37fK;
+        "pkg-1.4.19+1.21.1" = _zbY7Fk59;
+        "default" = _zbY7Fk59;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "taczcurios";

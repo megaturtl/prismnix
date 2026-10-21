@@ -126,6 +126,11 @@ let
             "file" = "mountopacity-1.2.5+26.3-fabric.jar";
             "hash" = "sha512-nfQq40+RAnTqpiFMiqwkvIWrad8qT3aXDt+5rLHGgsVyeR8jP7E289yIKsvzwynWZm2M8ZyFHJ20KdjxnZ8Wug==";
         };
+        _gmHZZe0a = {
+            "id" = "gmHZZe0a";
+            "file" = "mountopacity-1.2.3-hotfix.1+1.8.9-fabric.jar";
+            "hash" = "sha512-TaR5sPX39uDD0G3CIFE3KnqmFR6FX0T1AUYGcZYDbxl5Ct0gASUtmcKRC+usDETMRcaGczIlkr0YDce7oIzJkw==";
+        };
     in {
         "4VADPsLX" = _4VADPsLX;
         "hQCMATZT" = _hQCMATZT;
@@ -152,6 +157,7 @@ let
         "2OSifGxk" = _2OSifGxk;
         "tHlxfy1f" = _tHlxfy1f;
         "nhoh8MZH" = _nhoh8MZH;
+        "gmHZZe0a" = _gmHZZe0a;
         "fabric-1.20.1" = _iKq22zu4;
         "fabric-1.20.3" = _iKq22zu4;
         "fabric-1.20.4" = _iKq22zu4;
@@ -174,7 +180,7 @@ let
         "neoforge-1.21.4" = _HVLs6mrx;
         "neoforge-1.21.5" = _HVLs6mrx;
         "neoforge-1.21.8" = _qMw1vIuP;
-        "ornithe-1.8.9" = _9QJdEoYc;
+        "ornithe-1.8.9" = _gmHZZe0a;
         "pkg-1.0.0" = _IKhH9Ud8;
         "pkg-1.0.1" = _HVLs6mrx;
         "pkg-1.1.0" = _DrdccADX;
@@ -188,7 +194,8 @@ let
         "pkg-1.2.3" = _9QJdEoYc;
         "pkg-1.2.4" = _2OSifGxk;
         "pkg-1.2.5" = _nhoh8MZH;
-        "default" = _nhoh8MZH;
+        "pkg-1.2.3-hotfix.1" = _gmHZZe0a;
+        "default" = _gmHZZe0a;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mountopacity";

@@ -361,6 +361,16 @@ let
             "file" = "mercurizer-fabric-0.7.3+mc1.21.10-1.0.1.jar";
             "hash" = "sha512-dvoK/6ZgFK31tiWOIIyiDT9Nj4sUtsYx/zrA6F3WNNzG5Hmz2vaJnO87Hm0jMXuJcwkZFyY/vjUenQfmd4HwDQ==";
         };
+        _eicP0LQL = {
+            "id" = "eicP0LQL";
+            "file" = "mercurizer-fabric-0.9.2+mc26.2-1.2.jar";
+            "hash" = "sha512-Up4oWULpEe1JhTvc6GWHmJwppPivNyLfwlLQGnftNjMIlMKa8mxxuQAt86+YysP9irjokKUPbgwsYia+HYhApQ==";
+        };
+        _rB7uH1Dy = {
+            "id" = "rB7uH1Dy";
+            "file" = "mercurizer-fabric-0.9.2+mc26.3-1.2.jar";
+            "hash" = "sha512-qeAuBNh7lC0seUBBpARi1GFAvsuxgB2ookvmaHNLrUYWvz4Dj4WzOQB1bfr/HCCrtzK/v/uRRNVb2UW6zOtTjg==";
+        };
     in {
         "xM8bZKsK" = _xM8bZKsK;
         "cw0hZthz" = _cw0hZthz;
@@ -434,12 +444,14 @@ let
         "kSkyan9E" = _kSkyan9E;
         "cETrc4Gi" = _cETrc4Gi;
         "iblTDwle" = _iblTDwle;
+        "eicP0LQL" = _eicP0LQL;
+        "rB7uH1Dy" = _rB7uH1Dy;
         "fabric-1.21.11" = _hP6Zbh6e;
         "fabric-26.1" = _SJrDiJH3;
         "fabric-26.1.1" = _RK2hPc9x;
         "fabric-26.1.2" = _RzFnSMpx;
-        "fabric-26.2" = _Ea4wf0Zr;
-        "fabric-26.3" = _ZW4bkOZp;
+        "fabric-26.2" = _eicP0LQL;
+        "fabric-26.3" = _rB7uH1Dy;
         "fabric-1.21" = _GAFL5GLP;
         "fabric-1.21.1" = _BNG2qe5d;
         "fabric-1.21.2" = _6OS5GxGN;
@@ -523,7 +535,9 @@ let
         "pkg-0.6.13+mc1.21.5-1.0.1" = _kSkyan9E;
         "pkg-0.7.3+mc1.21.8-1.0.1" = _cETrc4Gi;
         "pkg-0.7.3+mc1.21.10-1.0.1" = _iblTDwle;
-        "default" = _iblTDwle;
+        "pkg-0.9.2+mc26.2-1.2" = _eicP0LQL;
+        "pkg-0.9.2+mc26.3-1.2" = _rB7uH1Dy;
+        "default" = _rB7uH1Dy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mercurizer";

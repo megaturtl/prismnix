@@ -41,6 +41,11 @@ let
             "file" = "polymorphic_occultism-1.0.0+1.16.5.jar";
             "hash" = "sha512-GyL/eWRMoo+7IOKryOIrsSpKknlEetW73r9ZFXxOGsrtF50f9UeMee8Ra5/Val7hl/3xghf9Jpx77Df+1FmleA==";
         };
+        _kj99kFCg = {
+            "id" = "kj99kFCg";
+            "file" = "polymorphic_occultism-1.20.1-1.0.1.jar";
+            "hash" = "sha512-Wl47CCI3FpDXUQZmg0+6K+w1h0iLG1XDoYdwLidWNpdkagC5cZtlKq3YEEHxFSR43aCtBnQT/OH0l0cGMxk9oQ==";
+        };
     in {
         "NFVFjCGD" = _NFVFjCGD;
         "ZZSBEIdb" = _ZZSBEIdb;
@@ -50,10 +55,11 @@ let
         "QrZCvPlq" = _QrZCvPlq;
         "Nmvch8Rs" = _Nmvch8Rs;
         "jxiDninT" = _jxiDninT;
+        "kj99kFCg" = _kj99kFCg;
         "neoforge-1.21.1" = _5wG47UtY;
         "neoforge-1.20.1" = _ZZSBEIdb;
         "neoforge-26.1.2" = _80ZzT4OH;
-        "forge-1.20.1" = _ZZSBEIdb;
+        "forge-1.20.1" = _kj99kFCg;
         "forge-1.19.2" = _QrZCvPlq;
         "forge-1.18.2" = _Nmvch8Rs;
         "forge-1.16.5" = _jxiDninT;
@@ -64,7 +70,8 @@ let
         "pkg-1.0.0+1.19.2" = _QrZCvPlq;
         "pkg-1.0.0+1.18.2" = _Nmvch8Rs;
         "pkg-1.0.0+1.16.5" = _jxiDninT;
-        "default" = _jxiDninT;
+        "pkg-1.0.1+1.20.1" = _kj99kFCg;
+        "default" = _kj99kFCg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "polymorphic-occultism";

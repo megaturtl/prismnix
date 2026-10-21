@@ -31,6 +31,16 @@ let
             "file" = "wildfireoverlimits-1.1.3-f1.jar";
             "hash" = "sha512-xZEdk91HFsJerbGH8NF2BWLeOJlLyvelmXUeH6pA73cOmTz+c1uMCutG/S5gZOk7xBcUfZuIVZoCct/h/q6Cpw==";
         };
+        _SW4ZCexW = {
+            "id" = "SW4ZCexW";
+            "file" = "wildfireoverlimits-1.1.4.jar";
+            "hash" = "sha512-qPi+1ZrPC99qcp+xKYd+BZEVBwE2TTj2wL/rLjOhmQ+prRFfeF7wBz5DGGo+PL07ieTBVTzaYY0ywfzlxKJyJg==";
+        };
+        _rge7d6au = {
+            "id" = "rge7d6au";
+            "file" = "wildfireoverlimits-1.1.4.jar";
+            "hash" = "sha512-HpweS/Bzhi3Lq6+/MOx+9wJlhGau+Xa5WKkFFz4BoDo82z30QaAZ8shVMlN0nVl8cFUIjr9l7TSjOCr7ANkDPg==";
+        };
     in {
         "Ko1dT6dj" = _Ko1dT6dj;
         "TYqQQdeT" = _TYqQQdeT;
@@ -38,15 +48,19 @@ let
         "OmNVQUUg" = _OmNVQUUg;
         "IJArfDUA" = _IJArfDUA;
         "wylNsQqT" = _wylNsQqT;
-        "fabric-1.21.11" = _OmNVQUUg;
-        "fabric-26.1.2" = _wylNsQqT;
+        "SW4ZCexW" = _SW4ZCexW;
+        "rge7d6au" = _rge7d6au;
+        "fabric-1.21.11" = _rge7d6au;
+        "fabric-26.1.2" = _SW4ZCexW;
         "pkg-v1.1.1" = _Ko1dT6dj;
         "pkg-v1.1.2" = _TYqQQdeT;
         "pkg-v1.1.2-26.1.2" = _cjZsKjfr;
         "pkg-v1.1.3" = _OmNVQUUg;
         "pkg-v1.1.3-26.1.2" = _IJArfDUA;
         "pkg-v1.1.3-f1" = _wylNsQqT;
-        "default" = _wylNsQqT;
+        "pkg-v1.1.4-26.1.2" = _SW4ZCexW;
+        "pkg-1.1.4" = _rge7d6au;
+        "default" = _rge7d6au;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "over-limits-fgm";

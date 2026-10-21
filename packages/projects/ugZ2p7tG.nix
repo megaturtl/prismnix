@@ -56,6 +56,11 @@ let
             "file" = "atomicsclient-fabric-1.21.11-V1.8.jar";
             "hash" = "sha512-7THmemXvfT5mdSmMK4NgDxLpHbWmgZIVevoTkRESx8wnGe67xVMeFhLBus92w2qgITxQHC8Ep5q9I1lPXTzqNA==";
         };
+        _Z1jIpIZC = {
+            "id" = "Z1jIpIZC";
+            "file" = "atomicsclient-fabric-1.21.11-V1.8.jar";
+            "hash" = "sha512-SxNWyzWz3fbaHpjAYpr1RWECnA/qgNeGQuYDfavmp3bCMWq+9ePwim6ZVZc7JbFGRFOdETBofw/X2wGNDDZ7cA==";
+        };
     in {
         "L48gSOGk" = _L48gSOGk;
         "VL9iNnqB" = _VL9iNnqB;
@@ -68,6 +73,7 @@ let
         "Y7SBby7C" = _Y7SBby7C;
         "o0EVFaqh" = _o0EVFaqh;
         "XUfZ4t67" = _XUfZ4t67;
+        "Z1jIpIZC" = _Z1jIpIZC;
         "forge-1.20.1" = _L48gSOGk;
         "forge-1.20.2" = _L48gSOGk;
         "forge-1.20.3" = _L48gSOGk;
@@ -75,7 +81,7 @@ let
         "forge-1.20.5" = _L48gSOGk;
         "forge-1.20.6" = _L48gSOGk;
         "forge-1.21.11" = _a10KOuYA;
-        "fabric-1.21.11" = _XUfZ4t67;
+        "fabric-1.21.11" = _Z1jIpIZC;
         "fabric-26.1.2" = _FSP74kys;
         "fabric-1.21.4" = _nT7SClba;
         "pkg-V1.3" = _L48gSOGk;
@@ -83,8 +89,8 @@ let
         "pkg-V1.5" = _TBMAuFE6;
         "pkg-V1.6" = _Dev2O5WP;
         "pkg-V1.7" = _Y7SBby7C;
-        "pkg-V1.8" = _XUfZ4t67;
-        "default" = _XUfZ4t67;
+        "pkg-V1.8" = _Z1jIpIZC;
+        "default" = _Z1jIpIZC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "atomics-client";

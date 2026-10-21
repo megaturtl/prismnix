@@ -291,6 +291,16 @@ let
             "file" = "bonesupdate-forge-26.1.2-1.3.1.jar";
             "hash" = "sha512-kMPIgBLUuHFobuzLli6Mmn+4m8323jOplFKTwmbd2fPCY+fWHP9luunmylpcQ4DMHZV0TebNRk+BmHX9tx4sfg==";
         };
+        _PHb6wvce = {
+            "id" = "PHb6wvce";
+            "file" = "bonesupdate-neoforge-26.2-1.3.2.jar";
+            "hash" = "sha512-02+NBxgSI/DClwqx7yWfLlx8KA1xLUJQJCJ8ulHUCd3ukuKiGUPhYXB0b9jwo5KVCS2DUJfI1uzKMlP8KdHbqQ==";
+        };
+        _hrRX4VuS = {
+            "id" = "hrRX4VuS";
+            "file" = "bonesupdate-forge-26.2-1.3.2.jar";
+            "hash" = "sha512-P2Mz0ty15Q3hvM3Um7Hr9HcBfC0kGqFkSWNpOuMXNA0YfPDTXQia+o/VgtZP6tBQn5PUqNc27sUWLEbKd4C+VQ==";
+        };
     in {
         "GBFL1Xiu" = _GBFL1Xiu;
         "bbkLlDaG" = _bbkLlDaG;
@@ -350,6 +360,8 @@ let
         "vhbdG7ks" = _vhbdG7ks;
         "OPLR1s7F" = _OPLR1s7F;
         "K9m9dPTW" = _K9m9dPTW;
+        "PHb6wvce" = _PHb6wvce;
+        "hrRX4VuS" = _hrRX4VuS;
         "forge-1.19.4" = _6jIYIEEN;
         "forge-1.20.1" = _JwugI59w;
         "forge-1.20.3" = _BsXqdgUE;
@@ -369,6 +381,7 @@ let
         "forge-26.1" = _fHHqZz7q;
         "forge-26.1.1" = _vhbdG7ks;
         "forge-26.1.2" = _K9m9dPTW;
+        "forge-26.2" = _hrRX4VuS;
         "neoforge-1.20.6" = _dfAX04wM;
         "neoforge-1.21" = _HPgz3Gac;
         "neoforge-1.21.1" = _oUZOzRzW;
@@ -384,6 +397,7 @@ let
         "neoforge-26.1" = _FFLnQhge;
         "neoforge-26.1.1" = _OVPcalx2;
         "neoforge-26.1.2" = _OPLR1s7F;
+        "neoforge-26.2" = _PHb6wvce;
         "pkg-1.0.0-F1.19.4" = _GBFL1Xiu;
         "pkg-1.1.0-F1.19.4" = _bbkLlDaG;
         "pkg-1.2.0-F1.19.4" = _6jIYIEEN;
@@ -442,7 +456,9 @@ let
         "pkg-1.3.1-F26.1.1" = _vhbdG7ks;
         "pkg-1.3.1-NF26.1.2" = _OPLR1s7F;
         "pkg-1.3.1-F26.1.2" = _K9m9dPTW;
-        "default" = _K9m9dPTW;
+        "pkg-1.3.2-NF26.2" = _PHb6wvce;
+        "pkg-1.3.2-F26.2" = _hrRX4VuS;
+        "default" = _hrRX4VuS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bones-update";

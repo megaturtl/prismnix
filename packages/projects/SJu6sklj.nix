@@ -506,6 +506,16 @@ let
             "file" = "Terrain Slabs v3.4.3-26.3.jar";
             "hash" = "sha512-hMRh1en9wme6ttvNykjM0Ex/USQyY06My7tgOTqgsgAsjJPYG82vliFIBIEeNm1M3YZs/WdcvMBnB7WLBVxVzg==";
         };
+        _GRVo9rNw = {
+            "id" = "GRVo9rNw";
+            "file" = "Terrain Slabs v3.4.4-26.3.jar";
+            "hash" = "sha512-C8e1K3JtWhRYiNwHlEONHTIe9pCX+6hmiRGBW6DsRTE3MO2SjzklOXnoZgY3ldMtZvL6OYe/FpnWeMzC2itFDQ==";
+        };
+        _9DY9Yxug = {
+            "id" = "9DY9Yxug";
+            "file" = "Terrain Slabs v3.4.4-26.3.jar";
+            "hash" = "sha512-q4T0stPG0ShyG8J7Yl/6eAdHIKrShWaIvVDLvV42bntbDXNsR6XUFVAW3PIYsVA/KT/qQUmtK5r5mXpZDuD6Yw==";
+        };
     in {
         "FvqH3axN" = _FvqH3axN;
         "nMyH3GOL" = _nMyH3GOL;
@@ -608,6 +618,8 @@ let
         "pHOdyV6c" = _pHOdyV6c;
         "8pWfrN5x" = _8pWfrN5x;
         "KlT57zmP" = _KlT57zmP;
+        "GRVo9rNw" = _GRVo9rNw;
+        "9DY9Yxug" = _9DY9Yxug;
         "fabric-1.21.1" = _7uy3h3Wu;
         "fabric-1.21.2" = _uLkE6wDF;
         "fabric-1.21.3" = _lPtX2pYm;
@@ -617,12 +629,12 @@ let
         "fabric-1.21.8" = _xok0m6nS;
         "fabric-26.1.2" = _fy7y7Cpx;
         "fabric-26.2" = _ghb8NWuP;
-        "fabric-26.3" = _8pWfrN5x;
+        "fabric-26.3" = _GRVo9rNw;
         "neoforge-1.21.1" = _1dYKrrP8;
         "neoforge-1.21.11" = _ullVpcg5;
         "neoforge-26.1.2" = _MgMF2xHL;
         "neoforge-26.2" = _GhywNXnW;
-        "neoforge-26.3" = _KlT57zmP;
+        "neoforge-26.3" = _9DY9Yxug;
         "forge-1.20.1" = _fhdOSK5I;
         "pkg-1.0.0" = _FvqH3axN;
         "pkg-1.0.1" = _nMyH3GOL;
@@ -671,7 +683,8 @@ let
         "pkg-3.4.1" = _xzp1aRrZ;
         "pkg-3.4.2" = _pHOdyV6c;
         "pkg-3.4.3" = _KlT57zmP;
-        "default" = _KlT57zmP;
+        "pkg-3.4.4" = _9DY9Yxug;
+        "default" = _9DY9Yxug;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "countereds-terrain-slabs";

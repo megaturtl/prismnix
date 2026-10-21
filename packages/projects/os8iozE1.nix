@@ -1,0 +1,148 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _pH1hEn7M = {
+            "id" = "pH1hEn7M";
+            "file" = "unlerp-1.0.0.jar";
+            "hash" = "sha512-rvd3CS98AKYTyNvAXUJYbKGDBm2MKQY/WUQXfIVLfnZgLr7ZSnVVxulbc2ZHEP9MgbMjAukrAKeP6FO9pIhhjw==";
+        };
+        _MeGNQH4R = {
+            "id" = "MeGNQH4R";
+            "file" = "unlerp-2.0.0-1.19.4-1.20.6.jar";
+            "hash" = "sha512-Uogiu5oAUvDmqJQkx52TJfhRukCkG+j2ZBxCgJarmno1cYm/3IzpNZBJdyJ8LRutYls5NwmEptmPE5W0aAnK2A==";
+        };
+        _ngAoFqBJ = {
+            "id" = "ngAoFqBJ";
+            "file" = "unlerp-2.0.0-1.21+.jar";
+            "hash" = "sha512-sgoOr9o2oAASls5w9okHedVy/A1TPbP2/LsWVMrI3X3eZejjHImJq9jdNNj7SoiqiuvdJ66s7S4Y0HcnOUIxQA==";
+        };
+        _k12GniZA = {
+            "id" = "k12GniZA";
+            "file" = "unlerp-3.0.jar";
+            "hash" = "sha512-7IwBs+vlJDC4xuDxLbi/waNNAddH+x8nyUd7uohZF6N1iAFFOOXRcvNn8hVB5Iu5icyQeTPAAaTKfxpNN7Hm5w==";
+        };
+        _W2g0qFi4 = {
+            "id" = "W2g0qFi4";
+            "file" = "unlerp-fp.jar";
+            "hash" = "sha512-Cc5zsX9ljbIdr7af2Cah5/CLgzhAZz9DdB1fqLLzHz8LyadxpNw1Q3Vc0/HTOf4WwY9kkI6S1xk3YWKaOMNOWg==";
+        };
+    in {
+        "pH1hEn7M" = _pH1hEn7M;
+        "MeGNQH4R" = _MeGNQH4R;
+        "ngAoFqBJ" = _ngAoFqBJ;
+        "k12GniZA" = _k12GniZA;
+        "W2g0qFi4" = _W2g0qFi4;
+        "fabric-1.0" = _pH1hEn7M;
+        "fabric-1.1" = _pH1hEn7M;
+        "fabric-1.2.1" = _pH1hEn7M;
+        "fabric-1.2.2" = _pH1hEn7M;
+        "fabric-1.2.3" = _pH1hEn7M;
+        "fabric-1.2.4" = _pH1hEn7M;
+        "fabric-1.2.5" = _pH1hEn7M;
+        "fabric-1.3.1" = _pH1hEn7M;
+        "fabric-1.3.2" = _pH1hEn7M;
+        "fabric-1.4.2" = _pH1hEn7M;
+        "fabric-1.4.4" = _pH1hEn7M;
+        "fabric-1.4.5" = _pH1hEn7M;
+        "fabric-1.4.6" = _pH1hEn7M;
+        "fabric-1.4.7" = _pH1hEn7M;
+        "fabric-1.5.1" = _pH1hEn7M;
+        "fabric-1.5.2" = _pH1hEn7M;
+        "fabric-1.6.1" = _pH1hEn7M;
+        "fabric-1.6.2" = _pH1hEn7M;
+        "fabric-1.6.4" = _pH1hEn7M;
+        "fabric-1.7.2" = _pH1hEn7M;
+        "fabric-1.7.3" = _pH1hEn7M;
+        "fabric-1.7.4" = _pH1hEn7M;
+        "fabric-1.7.5" = _pH1hEn7M;
+        "fabric-1.7.6" = _pH1hEn7M;
+        "fabric-1.7.7" = _pH1hEn7M;
+        "fabric-1.7.8" = _pH1hEn7M;
+        "fabric-1.7.9" = _pH1hEn7M;
+        "fabric-1.7.10" = _pH1hEn7M;
+        "fabric-1.8" = _pH1hEn7M;
+        "fabric-1.8.1" = _pH1hEn7M;
+        "fabric-1.8.2" = _pH1hEn7M;
+        "fabric-1.8.3" = _pH1hEn7M;
+        "fabric-1.8.4" = _pH1hEn7M;
+        "fabric-1.8.5" = _pH1hEn7M;
+        "fabric-1.8.6" = _pH1hEn7M;
+        "fabric-1.8.7" = _pH1hEn7M;
+        "fabric-1.8.8" = _pH1hEn7M;
+        "fabric-1.8.9" = _pH1hEn7M;
+        "fabric-1.9" = _pH1hEn7M;
+        "fabric-1.9.1" = _pH1hEn7M;
+        "fabric-1.9.2" = _pH1hEn7M;
+        "fabric-1.9.3" = _pH1hEn7M;
+        "fabric-1.9.4" = _pH1hEn7M;
+        "fabric-1.10" = _pH1hEn7M;
+        "fabric-1.10.1" = _pH1hEn7M;
+        "fabric-1.10.2" = _pH1hEn7M;
+        "fabric-1.11" = _pH1hEn7M;
+        "fabric-1.11.1" = _pH1hEn7M;
+        "fabric-1.11.2" = _pH1hEn7M;
+        "fabric-1.12" = _pH1hEn7M;
+        "fabric-1.12.1" = _pH1hEn7M;
+        "fabric-1.12.2" = _pH1hEn7M;
+        "fabric-1.13" = _pH1hEn7M;
+        "fabric-1.13.1" = _pH1hEn7M;
+        "fabric-1.13.2" = _pH1hEn7M;
+        "fabric-1.14" = _pH1hEn7M;
+        "fabric-1.14.1" = _pH1hEn7M;
+        "fabric-1.14.2" = _pH1hEn7M;
+        "fabric-1.14.3" = _pH1hEn7M;
+        "fabric-1.14.4" = _pH1hEn7M;
+        "fabric-1.15" = _pH1hEn7M;
+        "fabric-1.15.1" = _pH1hEn7M;
+        "fabric-1.15.2" = _pH1hEn7M;
+        "fabric-1.16" = _pH1hEn7M;
+        "fabric-1.16.1" = _pH1hEn7M;
+        "fabric-1.16.2" = _pH1hEn7M;
+        "fabric-1.16.3" = _pH1hEn7M;
+        "fabric-1.16.4" = _pH1hEn7M;
+        "fabric-1.16.5" = _pH1hEn7M;
+        "fabric-1.17" = _pH1hEn7M;
+        "fabric-1.17.1" = _pH1hEn7M;
+        "fabric-1.18" = _pH1hEn7M;
+        "fabric-1.18.1" = _pH1hEn7M;
+        "fabric-1.18.2" = _pH1hEn7M;
+        "fabric-1.19" = _pH1hEn7M;
+        "fabric-1.19.1" = _pH1hEn7M;
+        "fabric-1.19.2" = _pH1hEn7M;
+        "fabric-1.19.3" = _pH1hEn7M;
+        "fabric-1.19.4" = _W2g0qFi4;
+        "fabric-1.20" = _MeGNQH4R;
+        "fabric-1.20.1" = _MeGNQH4R;
+        "fabric-1.20.2" = _MeGNQH4R;
+        "fabric-1.20.3" = _MeGNQH4R;
+        "fabric-1.20.4" = _MeGNQH4R;
+        "fabric-1.20.5" = _MeGNQH4R;
+        "fabric-1.20.6" = _MeGNQH4R;
+        "fabric-1.21" = _ngAoFqBJ;
+        "fabric-1.21.1" = _ngAoFqBJ;
+        "fabric-1.21.2" = _ngAoFqBJ;
+        "fabric-1.21.3" = _ngAoFqBJ;
+        "fabric-1.21.4" = _ngAoFqBJ;
+        "fabric-1.21.5" = _ngAoFqBJ;
+        "pkg-1.0.0" = _pH1hEn7M;
+        "pkg-2.0.0" = _ngAoFqBJ;
+        "pkg-3.0" = _W2g0qFi4;
+        "default" = _W2g0qFi4;
+    });
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "unlerp";
+        id = "os8iozE1";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-only" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU Lesser General Public License v3.0 only";
+                shortName = "LGPL-3.0-only";
+                url = null;
+            };
+        };
+    };
+in callPackage fn {}

@@ -416,6 +416,46 @@ let
             "file" = "dawnoftimebuilder-forge-1.20.1-1.5.54.jar";
             "hash" = "sha512-NnWnhocQwb/AwseW6bgUY+eriXIP7qY8wZYaaTSkf9XLk4UjXNzXci8S6I0R/Vg03qjkJX11sFR3xcR8qrWiIQ==";
         };
+        _GcqX19lS = {
+            "id" = "GcqX19lS";
+            "file" = "dawnoftimebuilder-neoforge-1.21.11-0.9.1.jar";
+            "hash" = "sha512-SYi86m7JiqEkI8lzQrvOhN84vMF5To83hORIUjduN2WijFSwskYtzEAQizmbpxy9RwEbV+nMNsB1tH02U5UrJA==";
+        };
+        _i4SRnCbF = {
+            "id" = "i4SRnCbF";
+            "file" = "Dawn Of Time-fabric-1.21.11-0.9.1.jar";
+            "hash" = "sha512-mjunvzF7N7dewUP/rvzVtsn0DZBBR8Z21bjdc2lI5yAeMn5uu/hgyhzRDouf+jfDNdW5reC/jfMcwVBbkFKJtg==";
+        };
+        _OX2UPX7m = {
+            "id" = "OX2UPX7m";
+            "file" = "Dawn Of Time-fabric-1.21.1-1.6.8.jar";
+            "hash" = "sha512-/FjFpU4UK9Yv1XYRn0ePcx/NSq1URKOIkp50hjjRMf2vBbXGgQCV566Wo7juxKjXhkmxcCwUEtFv5hDDIlvQrA==";
+        };
+        _vuLdhPUq = {
+            "id" = "vuLdhPUq";
+            "file" = "dawnoftimebuilder-neoforge-1.21.1-1.6.8.jar";
+            "hash" = "sha512-KTxJzA9lBTxXdB9hrf9wRE+3C2yuPJErpnzkb7vkq4Sp4BC5leC2N10COX7WADgsyMjdj+uRBh/373dZ3l/nRg==";
+        };
+        _USQ0tmbZ = {
+            "id" = "USQ0tmbZ";
+            "file" = "Dawn Of Time-fabric-26.1.2-0.10.0.jar";
+            "hash" = "sha512-vpspoqUpk/qEeOSQrmvzpwitYM4CtDxCuwSKEMLEa9BrTZoTYgEfDBIUmxljf8vlA0H+oWSbKwHYuvSCK9psjQ==";
+        };
+        _JfJLT3xW = {
+            "id" = "JfJLT3xW";
+            "file" = "dawnoftimebuilder-neoforge-26.1.2-0.10.0.jar";
+            "hash" = "sha512-SHaGhhc/Poy4+BWE9yL6UvLwAhJeFM3+gWuduWHosvVwOs69CN/oeQbJ0jSUuKYNyg/w7/KR2OAG4cw2eUJ51g==";
+        };
+        _GAfvth9d = {
+            "id" = "GAfvth9d";
+            "file" = "Dawn Of Time-fabric-26.3-1.11.0.jar";
+            "hash" = "sha512-oDK3V71aKvJtGudFIzvHBpPz8IQD2wM8ALUzLoQ2QzS6CF85G/73yJPracGN/HCqie5mmGKppJABloDf0ZSpcA==";
+        };
+        _Kof3PABy = {
+            "id" = "Kof3PABy";
+            "file" = "dawnoftimebuilder-neoforge-26.3-1.11.0.jar";
+            "hash" = "sha512-F8lEbf1PjXfuQFNUS9iAkYHcCPKlqdlcjVIBi9EfJohb2WFbs25Bu8bt2GJWdpgxaETrp+mNaqv0ydiucHDYrg==";
+        };
     in {
         "OMmo48Eh" = _OMmo48Eh;
         "SnRTbVxf" = _SnRTbVxf;
@@ -500,19 +540,31 @@ let
         "H6CluobL" = _H6CluobL;
         "4d8o1qnJ" = _4d8o1qnJ;
         "ULcoAnDs" = _ULcoAnDs;
+        "GcqX19lS" = _GcqX19lS;
+        "i4SRnCbF" = _i4SRnCbF;
+        "OX2UPX7m" = _OX2UPX7m;
+        "vuLdhPUq" = _vuLdhPUq;
+        "USQ0tmbZ" = _USQ0tmbZ;
+        "JfJLT3xW" = _JfJLT3xW;
+        "GAfvth9d" = _GAfvth9d;
+        "Kof3PABy" = _Kof3PABy;
         "forge-1.12.2" = _OMmo48Eh;
         "forge-1.14.4" = _SnRTbVxf;
         "forge-1.16.5" = _XBTMSSnY;
         "forge-1.20.1" = _ULcoAnDs;
         "forge-1.19.2" = _MJYcmss7;
         "fabric-1.20.1" = _4d8o1qnJ;
-        "fabric-1.21.1" = _sGJu1xI8;
+        "fabric-1.21.1" = _OX2UPX7m;
         "fabric-1.21.8" = _ensTSz1R;
         "fabric-1.21.10" = _G7kwwmtF;
-        "fabric-1.21.11" = _1EHxJ9up;
-        "neoforge-1.21.1" = _tr4M1qvF;
+        "fabric-1.21.11" = _i4SRnCbF;
+        "fabric-26.1.2" = _USQ0tmbZ;
+        "fabric-26.3" = _GAfvth9d;
+        "neoforge-1.21.1" = _vuLdhPUq;
         "neoforge-1.21.8" = _ZrnnK4wm;
-        "neoforge-1.21.11" = _H6CluobL;
+        "neoforge-1.21.11" = _GcqX19lS;
+        "neoforge-26.1.2" = _JfJLT3xW;
+        "neoforge-26.3" = _Kof3PABy;
         "pkg-1.0.7" = _OMmo48Eh;
         "pkg-1.1.0" = _SnRTbVxf;
         "pkg-1.2.7" = _vrmQgqIW;
@@ -561,7 +613,11 @@ let
         "pkg-1.6.7" = _sGJu1xI8;
         "pkg-1.9.0" = _H6CluobL;
         "pkg-1.5.54" = _ULcoAnDs;
-        "default" = _ULcoAnDs;
+        "pkg-0.9.1" = _i4SRnCbF;
+        "pkg-1.6.8" = _vuLdhPUq;
+        "pkg-0.10.0" = _JfJLT3xW;
+        "pkg-1.11.0" = _Kof3PABy;
+        "default" = _Kof3PABy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dawn-of-time";

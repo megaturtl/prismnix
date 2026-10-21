@@ -106,6 +106,11 @@ let
             "file" = "panda-anti-exploit-2.1.12+26.3.jar";
             "hash" = "sha512-ARPAtdro0C6eIB8r0iLMmD/kE2XCIbySupLzUFxl1AwEnQgs8eK3Gs/kRMiQCkNcozxiftlcSPq2yjUldQC56A==";
         };
+        _GeVvk8eW = {
+            "id" = "GeVvk8eW";
+            "file" = "panda-anti-exploit-2.1.13+26.3.jar";
+            "hash" = "sha512-My8kyIijJvbNQxU1bHIqcAmnUBxeqyJ/+5uNtp1n7XERjHIHKH+JOcirhqdsj00PCYfEyNXxp0ye907vsarNEQ==";
+        };
     in {
         "SYyHlghZ" = _SYyHlghZ;
         "mlIuYgS3" = _mlIuYgS3;
@@ -128,6 +133,7 @@ let
         "zELCBA06" = _zELCBA06;
         "AvosIxHI" = _AvosIxHI;
         "QbkcSjuy" = _QbkcSjuy;
+        "GeVvk8eW" = _GeVvk8eW;
         "fabric-1.21.4" = _mlIuYgS3;
         "fabric-1.21.5" = _nYZACmQZ;
         "fabric-1.21.6" = _twjE1tS6;
@@ -139,7 +145,7 @@ let
         "fabric-26.1.1" = _k0FpiNQ9;
         "fabric-26.1.2" = _k0FpiNQ9;
         "fabric-26.2" = _S1ZfMVpi;
-        "fabric-26.3" = _QbkcSjuy;
+        "fabric-26.3" = _GeVvk8eW;
         "pkg-1.0.1_1.21.4" = _SYyHlghZ;
         "pkg-1.0.2_1.21.4" = _mlIuYgS3;
         "pkg-1.0.2_1.21.5" = _nYZACmQZ;
@@ -161,7 +167,8 @@ let
         "pkg-2.1.10+26.3" = _zELCBA06;
         "pkg-2.1.11+26.3" = _AvosIxHI;
         "pkg-2.1.12+26.3" = _QbkcSjuy;
-        "default" = _QbkcSjuy;
+        "pkg-2.1.13+26.3" = _GeVvk8eW;
+        "default" = _GeVvk8eW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "panda-anti-exploit";

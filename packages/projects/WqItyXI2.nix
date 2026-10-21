@@ -61,6 +61,11 @@ let
             "file" = "noglow-1.1.4.jar";
             "hash" = "sha512-+tilgowJO4uFLipho4IZ6BLezPsPX2dQxvhgC6OEPrilMLb0bkBiXY3JE8TzpWmC+f+SqtOa8RRUau2v5jz2iQ==";
         };
+        _uwPdUTyP = {
+            "id" = "uwPdUTyP";
+            "file" = "noglow-1.1.5.jar";
+            "hash" = "sha512-n7QKeFnN5kjPhsfgHtit2RGWXQ6+4a0KAGoZHvNwyiSBzDyScNmdkQB5rFjAQojlRuSqv8UxiMQyC1nGXQl5SQ==";
+        };
     in {
         "iwWVKA0u" = _iwWVKA0u;
         "9m1pA8gX" = _9m1pA8gX;
@@ -74,6 +79,7 @@ let
         "8yXoZdVC" = _8yXoZdVC;
         "RAjIEK18" = _RAjIEK18;
         "haJ88CgE" = _haJ88CgE;
+        "uwPdUTyP" = _uwPdUTyP;
         "fabric-1.19.4" = _iwWVKA0u;
         "fabric-1.20" = _9m1pA8gX;
         "fabric-1.20.1" = _9m1pA8gX;
@@ -96,13 +102,15 @@ let
         "fabric-26.1.1" = _haJ88CgE;
         "fabric-26.1.2" = _haJ88CgE;
         "fabric-26.2" = _haJ88CgE;
+        "fabric-26.3" = _uwPdUTyP;
         "pkg-1.0" = _9m1pA8gX;
         "pkg-1.1" = _cFOoSxwJ;
         "pkg-1.1.1" = _6EMkVS5h;
         "pkg-1.1.2" = _8yXoZdVC;
         "pkg-1.1.3" = _RAjIEK18;
         "pkg-1.1.4" = _haJ88CgE;
-        "default" = _haJ88CgE;
+        "pkg-1.1.5" = _uwPdUTyP;
+        "default" = _uwPdUTyP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "noglow";

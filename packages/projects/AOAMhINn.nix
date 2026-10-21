@@ -186,6 +186,11 @@ let
             "file" = "ContinuityNeoForge-3.0.8+26.3.jar";
             "hash" = "sha512-zd2PRv5rBDoJtqbNYTVPgxKe4NcJoXF1rWHvp7g/2ugyrvD0usJuw+3O9KSeyJ2KYSCHn07BUlbbCJ0xQ0ORWg==";
         };
+        _kgny9dWp = {
+            "id" = "kgny9dWp";
+            "file" = "ContinuityNeoForge-3.0.9+1.21.1.jar";
+            "hash" = "sha512-YvCRfportF89ctSgo/n8XaLCKMi0lmvwDyST/f/Zyagioi2OpEcpQsBHSvPolXn4tBXZrAkCJGPTJQtGdl1iIQ==";
+        };
     in {
         "GypYi5Ey" = _GypYi5Ey;
         "lQGwbJ9e" = _lQGwbJ9e;
@@ -224,7 +229,8 @@ let
         "ETXhWuqW" = _ETXhWuqW;
         "Umymg8Lz" = _Umymg8Lz;
         "LoaT9Sjl" = _LoaT9Sjl;
-        "neoforge-1.21.1" = _Umymg8Lz;
+        "kgny9dWp" = _kgny9dWp;
+        "neoforge-1.21.1" = _kgny9dWp;
         "neoforge-1.21.2" = _UYWDbXxi;
         "neoforge-1.21.3" = _UYWDbXxi;
         "neoforge-1.21.4" = _GbKPPJic;
@@ -277,7 +283,8 @@ let
         "pkg-3.0.7+26.3" = _ETXhWuqW;
         "pkg-3.0.8+1.21.1" = _Umymg8Lz;
         "pkg-3.0.8+26.3" = _LoaT9Sjl;
-        "default" = _LoaT9Sjl;
+        "pkg-3.0.9+1.21.1" = _kgny9dWp;
+        "default" = _kgny9dWp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "continuity-neoforged";

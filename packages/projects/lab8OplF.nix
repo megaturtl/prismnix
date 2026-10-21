@@ -131,6 +131,11 @@ let
             "file" = "auto-reauth-0.4.1-26.3.jar";
             "hash" = "sha512-rIKx/k1dhNlPhKsKhxCVLItHGrGfRs5SeIfxFglRldBQN03vZ4Wq/40o1E6hRefw0ltlEI2jfcv4HWPeoOEITA==";
         };
+        _ADOnNFzw = {
+            "id" = "ADOnNFzw";
+            "file" = "auto-reauth-0.4.1-26.3.jar";
+            "hash" = "sha512-woL61wJyJi2jrCtsqpMdzLMESxsuZ3F1BXqMI/jGjgoPjUmmlz/ycX3V/SorfwQKOtr2rQmgCXGyN+fpMGR6Lw==";
+        };
     in {
         "yKT2xGbE" = _yKT2xGbE;
         "8F7LxR85" = _8F7LxR85;
@@ -158,6 +163,7 @@ let
         "b1XAh2Kn" = _b1XAh2Kn;
         "zQ8x5g6H" = _zQ8x5g6H;
         "JccudexN" = _JccudexN;
+        "ADOnNFzw" = _ADOnNFzw;
         "fabric-1.20.2" = _IWYAwgY3;
         "fabric-1.20.4" = _oXOsPeWR;
         "fabric-1.20.5" = _HnwVxjpr;
@@ -176,7 +182,7 @@ let
         "fabric-1.21.11" = _tLRNLRkS;
         "fabric-26.1.2" = _b1XAh2Kn;
         "fabric-26.2" = _zQ8x5g6H;
-        "fabric-26.3" = _JccudexN;
+        "fabric-26.3" = _ADOnNFzw;
         "pkg-0.1.0" = _8F7LxR85;
         "pkg-0.2.0" = _rVbnqLVz;
         "pkg-0.2.1" = _aHsRDJXg;
@@ -184,8 +190,8 @@ let
         "pkg-0.2.3" = _uh8coGDy;
         "pkg-0.3.0" = _lL6917Nl;
         "pkg-0.4.0" = _VAALLmML;
-        "pkg-0.4.1" = _JccudexN;
-        "default" = _JccudexN;
+        "pkg-0.4.1" = _ADOnNFzw;
+        "default" = _ADOnNFzw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "auto-reauth";

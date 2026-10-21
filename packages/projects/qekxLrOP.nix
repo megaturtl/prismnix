@@ -2186,6 +2186,26 @@ let
             "file" = "cobbledex-rei-emi-jei-neoforge-2.29.0.jar";
             "hash" = "sha512-5x7gbGeL12dD26yA0NEjB9yQ5b5g5uCWmWXlRCJBw4chNpc4Fn9Om5L890lXFEGSHHhWWs228csVaFq5F9YS7A==";
         };
+        _CZjl3KnO = {
+            "id" = "CZjl3KnO";
+            "file" = "cobbledex-rei-emi-jei-fabric-2.31.2.jar";
+            "hash" = "sha512-EYI8d0jTDga/gg1uQ/WXebdC7ly1WLfDvtWPZ9H0rwyvUkr+IqDUgQirM+gj+RB/GFx/wEGy4zkEAqwBuMUHpw==";
+        };
+        _9zoN02s7 = {
+            "id" = "9zoN02s7";
+            "file" = "cobbledex-rei-emi-jei-neoforge-2.31.2.jar";
+            "hash" = "sha512-Aj0EcwyuuPXcu1hqYcl3KoxkUf7nGtHrR2UEfrn1+IKugw5J6iTO4CVkJ27PI5jfS/MGdLVp/NOgZz1oYkqQxA==";
+        };
+        _2HsfZCoS = {
+            "id" = "2HsfZCoS";
+            "file" = "cobbledex-rei-emi-jei-fabric-2.32.0.jar";
+            "hash" = "sha512-WNMOPGpKiey/1U1w4mS6PfN67aRnWAc+rf+xl9AyVwUaZteq4s/NU9yJ+i6MHQe8NjHcskAUGFKkMjJgF6FHoQ==";
+        };
+        _9EkFH1R8 = {
+            "id" = "9EkFH1R8";
+            "file" = "cobbledex-rei-emi-jei-neoforge-2.32.0.jar";
+            "hash" = "sha512-EEqX2hbpRa/zEnT2b++OzzzyO9vWic5hFbmFRfeXZiu2vTVvB/mDXZDF9bZfaL725geInRuEt1RBwGJFuL6HhQ==";
+        };
     in {
         "7G8yWnMO" = _7G8yWnMO;
         "rclktEEa" = _rclktEEa;
@@ -2624,10 +2644,14 @@ let
         "J6HjYxxp" = _J6HjYxxp;
         "c03nfIwP" = _c03nfIwP;
         "P57KcKtB" = _P57KcKtB;
-        "fabric-1.21" = _c03nfIwP;
-        "fabric-1.21.1" = _c03nfIwP;
-        "neoforge-1.21" = _P57KcKtB;
-        "neoforge-1.21.1" = _P57KcKtB;
+        "CZjl3KnO" = _CZjl3KnO;
+        "9zoN02s7" = _9zoN02s7;
+        "2HsfZCoS" = _2HsfZCoS;
+        "9EkFH1R8" = _9EkFH1R8;
+        "fabric-1.21" = _2HsfZCoS;
+        "fabric-1.21.1" = _2HsfZCoS;
+        "neoforge-1.21" = _9EkFH1R8;
+        "neoforge-1.21.1" = _9EkFH1R8;
         "pkg-1.2.4+fabric" = _7G8yWnMO;
         "pkg-1.2.4+neoforge" = _rclktEEa;
         "pkg-1.4.3+fabric" = _3Ky4OEGX;
@@ -3046,7 +3070,11 @@ let
         "pkg-2.28.8+neoforge" = _J6HjYxxp;
         "pkg-2.29.0+fabric" = _c03nfIwP;
         "pkg-2.29.0+neoforge" = _P57KcKtB;
-        "default" = _P57KcKtB;
+        "pkg-2.31.2+fabric" = _CZjl3KnO;
+        "pkg-2.31.2+neoforge" = _9zoN02s7;
+        "pkg-2.32.0+fabric" = _2HsfZCoS;
+        "pkg-2.32.0+neoforge" = _9EkFH1R8;
+        "default" = _9EkFH1R8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobbledex-rei-emi-jei";

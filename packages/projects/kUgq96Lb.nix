@@ -31,6 +31,16 @@ let
             "file" = "VT villager variations for Fresh Animations.zip";
             "hash" = "sha512-QzbTsfs4SvdI9GfIRuM9ZqjmrpRJ/uabVnJhVThKyyodUup5NdSS7wNtgVbFglUOisnMO+uwBXjsDjowMJqNKw==";
         };
+        _phBbYKWq = {
+            "id" = "phBbYKWq";
+            "file" = "VT villager variations for Fresh Animations.zip";
+            "hash" = "sha512-1Q20xy/AI8ruYrXBqFM93pXjJiXnTC3TTcKJI3Ov90ed3ELepQgOzduD1ERoEucJf9lmhpJ4it0CXbOWofGFDg==";
+        };
+        _pgTP74tP = {
+            "id" = "pgTP74tP";
+            "file" = "VT villager variations for Fresh Animations.zip";
+            "hash" = "sha512-4CJQ/pKxTg8q/kzx53aJ9CVxif0szR3Qh6aeSpvUq88hrwli7VCD1Sp/yw2rLE8lFpKTnxAJYfrwIV8p8vKIBA==";
+        };
     in {
         "eWfLARtm" = _eWfLARtm;
         "XbJds6sV" = _XbJds6sV;
@@ -38,6 +48,8 @@ let
         "LAFxOWPi" = _LAFxOWPi;
         "RmfaxlLf" = _RmfaxlLf;
         "nygTZMw2" = _nygTZMw2;
+        "phBbYKWq" = _phBbYKWq;
+        "pgTP74tP" = _pgTP74tP;
         "minecraft-1.20" = _RmfaxlLf;
         "minecraft-1.20.1" = _RmfaxlLf;
         "minecraft-1.20.2" = _RmfaxlLf;
@@ -54,15 +66,22 @@ let
         "minecraft-1.21.6" = _RmfaxlLf;
         "minecraft-1.21.7" = _RmfaxlLf;
         "minecraft-1.21.8" = _RmfaxlLf;
-        "minecraft-1.21.9" = _nygTZMw2;
-        "minecraft-1.21.10" = _nygTZMw2;
-        "minecraft-1.21.11" = _nygTZMw2;
+        "minecraft-1.21.9" = _pgTP74tP;
+        "minecraft-1.21.10" = _pgTP74tP;
+        "minecraft-1.21.11" = _pgTP74tP;
+        "minecraft-26.1" = _pgTP74tP;
+        "minecraft-26.1.1" = _pgTP74tP;
+        "minecraft-26.1.2" = _pgTP74tP;
+        "minecraft-26.2" = _pgTP74tP;
+        "minecraft-26.3" = _pgTP74tP;
         "pkg-1.0.0" = _eWfLARtm;
         "pkg-1.0.1" = _XbJds6sV;
         "pkg-1.1.0" = _dskJXCzU;
         "pkg-1.1.1" = _RmfaxlLf;
         "pkg-1.1.2" = _nygTZMw2;
-        "default" = _nygTZMw2;
+        "pkg-2.0.0" = _phBbYKWq;
+        "pkg-2.0.1" = _pgTP74tP;
+        "default" = _pgTP74tP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vt-villagervariations-for-freshanimations";

@@ -21,20 +21,27 @@ let
             "file" = "MTR_srtCTATrains_mtr4_260112.zip";
             "hash" = "sha512-kkSLNi86TGwid2oFvabpV9JVYUGy1q4JjHnNQIq8Mq/f9axv/GJtgKcOEwa7Mg3+p5AcTfrRrg3RKW1jhedn2Q==";
         };
+        _WDsQgNuT = {
+            "id" = "WDsQgNuT";
+            "file" = "CTA Trains v2.0 261019.zip";
+            "hash" = "sha512-c2Ep6AeVggFGYvJFkkGfaTh3lMaTGn3c7jxVsXmyxbKnj0teDwqtLmJCMmX/Rfq28XMGR+hFKR2Ju0MMHgD5Kg==";
+        };
     in {
         "gqemgn7D" = _gqemgn7D;
         "XusvMc7P" = _XusvMc7P;
         "PKpgbZNs" = _PKpgbZNs;
         "nip0bEEh" = _nip0bEEh;
-        "minecraft-1.19.2" = _nip0bEEh;
-        "minecraft-1.19.4" = _nip0bEEh;
-        "minecraft-1.20.1" = _nip0bEEh;
-        "minecraft-1.20.4" = _nip0bEEh;
+        "WDsQgNuT" = _WDsQgNuT;
+        "minecraft-1.19.2" = _WDsQgNuT;
+        "minecraft-1.19.4" = _WDsQgNuT;
+        "minecraft-1.20.1" = _WDsQgNuT;
+        "minecraft-1.20.4" = _WDsQgNuT;
         "pkg-1.0" = _gqemgn7D;
         "pkg-1.1" = _XusvMc7P;
         "pkg-1.2" = _PKpgbZNs;
         "pkg-1.3" = _nip0bEEh;
-        "default" = _nip0bEEh;
+        "pkg-2.0" = _WDsQgNuT;
+        "default" = _WDsQgNuT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mtrcta_trains";

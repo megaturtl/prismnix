@@ -56,6 +56,16 @@ let
             "file" = "createornithopterglider-1.2.0-1.21.1.jar";
             "hash" = "sha512-XmrbPOAFjvm4NcIWFDDA52oiGdzAsK3iGVf/fpDJhtH9bYVJhNKupFcGpeHpVrXKno0WFZFtz5LxL/IlSip6IA==";
         };
+        _FodIHewS = {
+            "id" = "FodIHewS";
+            "file" = "createornithopterglider-1.2.1-1.20.1.jar";
+            "hash" = "sha512-8eqrggnRPO06VfYZpAQyhlaLakHekQH2VJyy6E34PFj3mitWVC8Sxs+jEQqdK96ZFwqJ6kM9C5cM2jhm19yMWQ==";
+        };
+        _DFrFDlu7 = {
+            "id" = "DFrFDlu7";
+            "file" = "createornithopterglider-1.2.1-1.21.1.jar";
+            "hash" = "sha512-ZYJ9TL4Fkkk2zcZSScOMBQBtvho8F5UY7Ipt5c9TNzubPoHUBYa2RBttg8xT4f/uexlsi/aH0Y/96+0Nu5BBtA==";
+        };
     in {
         "Rdbzx5Qp" = _Rdbzx5Qp;
         "ryn8ayNx" = _ryn8ayNx;
@@ -68,8 +78,10 @@ let
         "6XWxygAb" = _6XWxygAb;
         "LB0Uq0YA" = _LB0Uq0YA;
         "rbDbxAY3" = _rbDbxAY3;
-        "forge-1.20.1" = _LB0Uq0YA;
-        "neoforge-1.21.1" = _rbDbxAY3;
+        "FodIHewS" = _FodIHewS;
+        "DFrFDlu7" = _DFrFDlu7;
+        "forge-1.20.1" = _FodIHewS;
+        "neoforge-1.21.1" = _DFrFDlu7;
         "pkg-0.1+1.20.1" = _Rdbzx5Qp;
         "pkg-0.2+1.20.1" = _ryn8ayNx;
         "pkg-0.2.1+1.20.1" = _h3tsAkkc;
@@ -81,7 +93,9 @@ let
         "pkg-1.0.3+1.21.1" = _6XWxygAb;
         "pkg-1.2.0+1.20.1" = _LB0Uq0YA;
         "pkg-1.2.0+1.21.1" = _rbDbxAY3;
-        "default" = _rbDbxAY3;
+        "pkg-1.2.1+1.20.1" = _FodIHewS;
+        "pkg-1.2.1+1.21.1" = _DFrFDlu7;
+        "default" = _DFrFDlu7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-ornithopter-glider";

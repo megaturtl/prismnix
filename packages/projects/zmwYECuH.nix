@@ -86,6 +86,11 @@ let
             "file" = "YVtils_v26.10.01-dev.2.jar";
             "hash" = "sha512-AvINAlCVM4woiFD3cQM8imbvm8fBxo3N4ID22f2fazk6ZzLVdjfcBMuPD/Vy5N2r6OK9nFoPWoCLK1Jj/dimPw==";
         };
+        _xrQX3MBr = {
+            "id" = "xrQX3MBr";
+            "file" = "YVtils_v26.10.01-dev.6.jar";
+            "hash" = "sha512-pY65CoSqpthEqrhSf7aPVRZ06KvlDmz5NSVKmmLhHVGRy0l7FC2PdfBBjq8vROUtupDF6g97p2MHOhDdWRpRxw==";
+        };
     in {
         "bFaezO2Z" = _bFaezO2Z;
         "BMQwD2X7" = _BMQwD2X7;
@@ -104,6 +109,7 @@ let
         "FH174UBC" = _FH174UBC;
         "4EL4OFhF" = _4EL4OFhF;
         "9b5zTRNO" = _9b5zTRNO;
+        "xrQX3MBr" = _xrQX3MBr;
         "paper-1.21" = _4EL4OFhF;
         "paper-1.21.1" = _4EL4OFhF;
         "paper-1.21.2" = _4EL4OFhF;
@@ -118,9 +124,9 @@ let
         "paper-1.21.11" = _4EL4OFhF;
         "paper-26.1" = _9b5zTRNO;
         "paper-26.1.1" = _9b5zTRNO;
-        "paper-26.1.2" = _9b5zTRNO;
-        "paper-26.2" = _9b5zTRNO;
-        "paper-26.3" = _9b5zTRNO;
+        "paper-26.1.2" = _xrQX3MBr;
+        "paper-26.2" = _xrQX3MBr;
+        "paper-26.3" = _xrQX3MBr;
         "purpur-1.21" = _4EL4OFhF;
         "purpur-1.21.1" = _4EL4OFhF;
         "purpur-1.21.2" = _4EL4OFhF;
@@ -153,7 +159,8 @@ let
         "pkg-1.1.10" = _FH174UBC;
         "pkg-1.1.11" = _4EL4OFhF;
         "pkg-26.10.01-dev.2" = _9b5zTRNO;
-        "default" = _9b5zTRNO;
+        "pkg-26.10.01-dev.6" = _xrQX3MBr;
+        "default" = _xrQX3MBr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "yvtils_smp";

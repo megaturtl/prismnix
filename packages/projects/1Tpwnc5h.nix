@@ -36,6 +36,16 @@ let
             "file" = "rechiseledae-1.0.1-neoforge-mc26.1.jar";
             "hash" = "sha512-HzvzsPeFhe/CYuBrOC1C/N0SmKqn0MXvZKEglYc+cP2zN2+qh26DaDoT+SUsFzlIyNKpP+bBJVNPsOFGeDU6kA==";
         };
+        _v3YVQcY5 = {
+            "id" = "v3YVQcY5";
+            "file" = "rechiseledae-1.0.1-neoforge-mc26.2.jar";
+            "hash" = "sha512-S47PvfROOadqeohcNLfjSElZs8xQFfIS9pHscW2U9kBweV973FXiSK0cyR6mCysGDFCBDaQjN+ST+lyFqVrp1A==";
+        };
+        _UCpbrzu3 = {
+            "id" = "UCpbrzu3";
+            "file" = "rechiseledae-1.0.1-neoforge-mc26.3.jar";
+            "hash" = "sha512-Sm4sq6IlDNv5qAJlmmdbIbMZLwQUfAx62FiJGmzVjfUJlT9oKPusZ1/xl0nBrcEKgutS6nlBYZXVD+8Ympl6iQ==";
+        };
     in {
         "knE8vikj" = _knE8vikj;
         "SyBtBpQO" = _SyBtBpQO;
@@ -44,12 +54,16 @@ let
         "6XSMkwud" = _6XSMkwud;
         "oNnXXgvi" = _oNnXXgvi;
         "ybi2wdmx" = _ybi2wdmx;
+        "v3YVQcY5" = _v3YVQcY5;
+        "UCpbrzu3" = _UCpbrzu3;
         "forge-1.20" = _aw8DRNwO;
         "forge-1.20.1" = _aw8DRNwO;
         "neoforge-1.20" = _aw8DRNwO;
         "neoforge-1.20.1" = _aw8DRNwO;
         "neoforge-1.21.1" = _oNnXXgvi;
         "neoforge-26.1.2" = _ybi2wdmx;
+        "neoforge-26.2" = _v3YVQcY5;
+        "neoforge-26.3" = _UCpbrzu3;
         "fabric-1.20" = _6XSMkwud;
         "fabric-1.20.1" = _6XSMkwud;
         "quilt-1.20" = _6XSMkwud;
@@ -61,7 +75,9 @@ let
         "pkg-1.0.1-fabric-mc1.20.1" = _6XSMkwud;
         "pkg-1.0.1-neoforge-mc1.21.1" = _oNnXXgvi;
         "pkg-1.0.1-neoforge-mc26.1" = _ybi2wdmx;
-        "default" = _ybi2wdmx;
+        "pkg-1.0.1-neoforge-mc26.2" = _v3YVQcY5;
+        "pkg-1.0.1-neoforge-mc26.3" = _UCpbrzu3;
+        "default" = _UCpbrzu3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rechiseled-applied-energistics-2";

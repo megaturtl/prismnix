@@ -66,6 +66,21 @@ let
             "file" = "litematica-printer-1.1.2+26.3.jar";
             "hash" = "sha512-lTz5ocbCiEo1NMj2b1watsaOtjoBcQf/jWSj/oucb9pgNgNhUnz8F7SwU8VwLRKXvYBxVapuEh/dYF5i67QLrA==";
         };
+        _EmYXPS5r = {
+            "id" = "EmYXPS5r";
+            "file" = "litematica-printer-1.1.3+26.3.jar";
+            "hash" = "sha512-JSHj3Sfu0b//rSFmNqXmvnB690wJ0Yilbe/33ooWMKwnHlq6eqCvL8G9hyu37iu+63zkhtjYPW0Z+W2OBCAkBg==";
+        };
+        _iybhjbQL = {
+            "id" = "iybhjbQL";
+            "file" = "litematica-printer-1.1.3+26.1.2.jar";
+            "hash" = "sha512-VrTdoZogPwq01d5xAkwLTfDYwnuKQn60hhZlrcN+2e2T9bhCg1OVrJFgWr0mTogVYTNxyAHKxEZgzhKPr0G6/A==";
+        };
+        _7cd4N0vV = {
+            "id" = "7cd4N0vV";
+            "file" = "litematica-printer-1.1.3+26.2.jar";
+            "hash" = "sha512-if8OoMCMH58o6DUtjTCpi3l22f2Pala5gUI2NgQ81pB5lvwFSkAe+LcI32yzCWMnYu0/f9gAnTdp5TzihwuLmg==";
+        };
     in {
         "7I59EVjt" = _7I59EVjt;
         "xccJa4CN" = _xccJa4CN;
@@ -80,11 +95,14 @@ let
         "A65HG32n" = _A65HG32n;
         "TCmXswp2" = _TCmXswp2;
         "cWmt1bux" = _cWmt1bux;
-        "fabric-26.1" = _TCmXswp2;
-        "fabric-26.1.1" = _TCmXswp2;
-        "fabric-26.1.2" = _TCmXswp2;
-        "fabric-26.2" = _A65HG32n;
-        "fabric-26.3" = _cWmt1bux;
+        "EmYXPS5r" = _EmYXPS5r;
+        "iybhjbQL" = _iybhjbQL;
+        "7cd4N0vV" = _7cd4N0vV;
+        "fabric-26.1" = _iybhjbQL;
+        "fabric-26.1.1" = _iybhjbQL;
+        "fabric-26.1.2" = _iybhjbQL;
+        "fabric-26.2" = _7cd4N0vV;
+        "fabric-26.3" = _EmYXPS5r;
         "pkg-1.0.0+26.1.2" = _7I59EVjt;
         "pkg-1.0.0+26.2" = _xccJa4CN;
         "pkg-1.1.0+26.2" = _pIvCKHAf;
@@ -98,7 +116,10 @@ let
         "pkg-1.1.2+26.2" = _A65HG32n;
         "pkg-1.1.2+26.1.2" = _TCmXswp2;
         "pkg-1.1.2+26.3" = _cWmt1bux;
-        "default" = _cWmt1bux;
+        "pkg-1.1.3+26.3" = _EmYXPS5r;
+        "pkg-1.1.3+26.1.2" = _iybhjbQL;
+        "pkg-1.1.3+26.2" = _7cd4N0vV;
+        "default" = _7cd4N0vV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "litematica-printer-4th";

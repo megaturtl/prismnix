@@ -81,6 +81,26 @@ let
             "file" = "face_of_horror-3.2-forge-1.20.1.jar";
             "hash" = "sha512-KxyatoHVtszMjcmb2Pk03lHO1lWp+0P1pWoVc+Ilk1AhovdwN++KdETxAvTeU6SfNTFe77lyttjQvJHb08vuyw==";
         };
+        _ej1jfR1S = {
+            "id" = "ej1jfR1S";
+            "file" = "face_of_horror-3.3.jar";
+            "hash" = "sha512-AByo40YcAJyMgrZixkwFRpcxQYAeJtBSTW3vE1uFRzpimWZBG3dcuxd8pLd8vEGEUirqhTP8YSCUkrgsgeD+9Q==";
+        };
+        _iakqlO1L = {
+            "id" = "iakqlO1L";
+            "file" = "faceofhorror-3.3-fabric-1.20.1.jar";
+            "hash" = "sha512-nBiz5HVLZFYp3JH8ms3ZC5QXJeFCFGspkaARkEifc7rTrB5TcumwZ6B9PkBjFYXSctsls8KPDWmUGanu5z4+hw==";
+        };
+        _YtjEc035 = {
+            "id" = "YtjEc035";
+            "file" = "faceofhorror-3.3-fabric-1.21.1.jar";
+            "hash" = "sha512-dzb+MdPtvuPrvw64mjmb+jvZ4IABvRyjjSQCyiQV4/yZjc1H5V0uxm0ttbBD6aFQzt/K+6HVmB2cAt5XE9QCfA==";
+        };
+        _ixaquLbA = {
+            "id" = "ixaquLbA";
+            "file" = "face_of_horror-3.3-neoforge-1.21.1.jar";
+            "hash" = "sha512-Ja7z3A5uvrgZOfjL70rjERNQio0fqe0RQgc/WwQMu+5wyTKZWXZ1oXEhHMrW1N1JYOHEFtfvX2LNJMQzN1OnPg==";
+        };
     in {
         "7HOD08NK" = _7HOD08NK;
         "sD5YYdT6" = _sD5YYdT6;
@@ -98,9 +118,15 @@ let
         "rJ7k550o" = _rJ7k550o;
         "dEJnHcFj" = _dEJnHcFj;
         "aUxwkljf" = _aUxwkljf;
-        "forge-1.20.1" = _aUxwkljf;
+        "ej1jfR1S" = _ej1jfR1S;
+        "iakqlO1L" = _iakqlO1L;
+        "YtjEc035" = _YtjEc035;
+        "ixaquLbA" = _ixaquLbA;
+        "forge-1.20.1" = _ej1jfR1S;
         "forge-1.19.2" = _rJ7k550o;
-        "neoforge-1.21.1" = _dEJnHcFj;
+        "neoforge-1.21.1" = _ixaquLbA;
+        "fabric-1.20.1" = _iakqlO1L;
+        "fabric-1.21.1" = _YtjEc035;
         "pkg-1.0" = _7HOD08NK;
         "pkg-1.1" = _sD5YYdT6;
         "pkg-1.1.1" = _q2h1hsI1;
@@ -111,7 +137,8 @@ let
         "pkg-3.0" = _MFGeAW0V;
         "pkg-3.1" = _7ciRnPZP;
         "pkg-3.2" = _aUxwkljf;
-        "default" = _aUxwkljf;
+        "pkg-3.3" = _ixaquLbA;
+        "default" = _ixaquLbA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "face-of-horror";

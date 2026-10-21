@@ -2361,6 +2361,56 @@ let
             "file" = "friendsandfoes-forge-5.0.2+mc1.20.1.jar";
             "hash" = "sha512-hGGmBVhRLpfR5UdGdgs1sjkMUj8gJ5+7lEEZg/RdqKdPcIWLnpgsn8odkZpDj1A1IDOLrE1UhD3Gxv/bXzCnjQ==";
         };
+        _tXUTTCEk = {
+            "id" = "tXUTTCEk";
+            "file" = "friendsandfoes-neoforge-5.0.3+mc1.21.4.jar";
+            "hash" = "sha512-pwKjORZvFNA02jSoalrfaODtu4UfTN23wdTXYK9p7RKn9WO5AGDUpD8QmZL3vi0CoGEkvOw5AOLmqIcfDJcl7g==";
+        };
+        _LH88lfnK = {
+            "id" = "LH88lfnK";
+            "file" = "friendsandfoes-neoforge-5.0.3+mc1.21.1.jar";
+            "hash" = "sha512-z4/Y3CWA7DIXbVvhGCtTIxFGiztbIWccYxIpGgB1VsKLlqKnDuOCz7tG+LjdCaesJ06OTl4uEJaiq6ha7sRm7A==";
+        };
+        _P7ph35pa = {
+            "id" = "P7ph35pa";
+            "file" = "friendsandfoes-neoforge-5.0.3+mc1.21.5.jar";
+            "hash" = "sha512-tS4uy3tImmH9OtNUJJJDsbwwsbjKk97f9rP//hE09KE9w3OP61bAy7FF4cJP+2zLh9pVCK5ibi6TT3L7xh/CQg==";
+        };
+        _AO165AAk = {
+            "id" = "AO165AAk";
+            "file" = "friendsandfoes-neoforge-5.0.3+mc1.21.8.jar";
+            "hash" = "sha512-QfC0thHtYo+KaFO5gNPCSKFbq3OovBDraQsBKe2fkN7ewABK8hNNftC/Izwz/Yy1ms44p/HI1LLNR28ktnzaMg==";
+        };
+        _6fY4clIA = {
+            "id" = "6fY4clIA";
+            "file" = "friendsandfoes-neoforge-5.0.3+mc1.21.10.jar";
+            "hash" = "sha512-MXmnYnLFsXxfpuvXTUgD7CJnuunhsmIHjYlr+ZhVn1kvmiEgMq0/bNUy/2i7fMziIsCOv8aQbDOAsvYImxiqfw==";
+        };
+        _oh4hhtt2 = {
+            "id" = "oh4hhtt2";
+            "file" = "friendsandfoes-neoforge-5.0.3+mc1.21.11.jar";
+            "hash" = "sha512-pnVQd3c4M8ttFuVJi6rHGKGshIl+OgJ8x+I4QVtJT/V8rbKU4LLr6y6rMpmurU7OfTBaONuqaY7HMmhK11Ogkw==";
+        };
+        _IGWrYGvg = {
+            "id" = "IGWrYGvg";
+            "file" = "friendsandfoes-neoforge-5.0.3+mc26.1.2.jar";
+            "hash" = "sha512-SYqece4S9Dj6aBq1eLbVVvvzgLWH/ReL/LWskDTJt1UftUzEbuX972rp4BAR/jPAUhhS69DMAyZcdi4NdgsFKQ==";
+        };
+        _acTlk4AF = {
+            "id" = "acTlk4AF";
+            "file" = "friendsandfoes-neoforge-5.0.3+mc26.2.jar";
+            "hash" = "sha512-Vle5qunSVKVzcsfZdmOwGiIFE6XqADjKqzhM4XDoyzHPWbGAUUJvOVd64Qh2ks8mACVMzP/edM/yzliZju3VuA==";
+        };
+        _2Dkypz1U = {
+            "id" = "2Dkypz1U";
+            "file" = "friendsandfoes-neoforge-5.0.3+mc26.3.jar";
+            "hash" = "sha512-+HzWZatCB8qU1GgvijUQag5GR2qzjE8VvNPNlKrF8hObL7TCdMU4jdBz6m3jPnl1tyUuFAFx90ElBaAezzjB3A==";
+        };
+        _llFIGBUh = {
+            "id" = "llFIGBUh";
+            "file" = "friendsandfoes-forge-5.0.3+mc1.20.1.jar";
+            "hash" = "sha512-ZAoUapsCrpDqeNnOdLzXtfwttQzpExfAiaxswfHc1PZGsXDoNlEPLcvR6s03Vw+B9igpnwetXmUifdaM70qt3g==";
+        };
     in {
         "cOko55bb" = _cOko55bb;
         "gIXPLPqx" = _gIXPLPqx;
@@ -2834,14 +2884,24 @@ let
         "2OW5bg77" = _2OW5bg77;
         "gMCytc6d" = _gMCytc6d;
         "O00BqNSR" = _O00BqNSR;
+        "tXUTTCEk" = _tXUTTCEk;
+        "LH88lfnK" = _LH88lfnK;
+        "P7ph35pa" = _P7ph35pa;
+        "AO165AAk" = _AO165AAk;
+        "6fY4clIA" = _6fY4clIA;
+        "oh4hhtt2" = _oh4hhtt2;
+        "IGWrYGvg" = _IGWrYGvg;
+        "acTlk4AF" = _acTlk4AF;
+        "2Dkypz1U" = _2Dkypz1U;
+        "llFIGBUh" = _llFIGBUh;
         "forge-1.18.2" = _vtPCwLuZ;
         "forge-1.19" = _R53ICpha;
         "forge-1.19.1" = _R53ICpha;
         "forge-1.19.2" = _Xw3rjCWU;
         "forge-1.19.3" = _giYiOv17;
         "forge-1.19.4" = _At6PlsJ2;
-        "forge-1.20" = _O00BqNSR;
-        "forge-1.20.1" = _O00BqNSR;
+        "forge-1.20" = _llFIGBUh;
+        "forge-1.20.1" = _llFIGBUh;
         "forge-1.20.2" = _KZGPFzu8;
         "neoforge-1.19" = _R53ICpha;
         "neoforge-1.19.1" = _R53ICpha;
@@ -2855,22 +2915,22 @@ let
         "neoforge-1.20.3" = _blMsUeVw;
         "neoforge-1.20.4" = _blMsUeVw;
         "neoforge-1.20.6" = _urwZMdVr;
-        "neoforge-1.21" = _v6DZwPli;
-        "neoforge-1.21.1" = _v6DZwPli;
+        "neoforge-1.21" = _LH88lfnK;
+        "neoforge-1.21.1" = _LH88lfnK;
         "neoforge-1.20.5" = _urwZMdVr;
-        "neoforge-1.21.4" = _hsJt6was;
-        "neoforge-1.21.5" = _t02uKYY9;
-        "neoforge-1.21.6" = _zXNFCV3H;
-        "neoforge-1.21.7" = _zXNFCV3H;
-        "neoforge-1.21.8" = _zXNFCV3H;
-        "neoforge-1.21.9" = _5nW46QGq;
-        "neoforge-1.21.10" = _5nW46QGq;
-        "neoforge-1.21.11" = _nSgdlHNL;
-        "neoforge-26.1" = _N8tX8i7P;
-        "neoforge-26.1.1" = _N8tX8i7P;
-        "neoforge-26.1.2" = _N8tX8i7P;
-        "neoforge-26.2" = _2OW5bg77;
-        "neoforge-26.3" = _gMCytc6d;
+        "neoforge-1.21.4" = _tXUTTCEk;
+        "neoforge-1.21.5" = _P7ph35pa;
+        "neoforge-1.21.6" = _AO165AAk;
+        "neoforge-1.21.7" = _AO165AAk;
+        "neoforge-1.21.8" = _AO165AAk;
+        "neoforge-1.21.9" = _6fY4clIA;
+        "neoforge-1.21.10" = _6fY4clIA;
+        "neoforge-1.21.11" = _oh4hhtt2;
+        "neoforge-26.1" = _IGWrYGvg;
+        "neoforge-26.1.1" = _IGWrYGvg;
+        "neoforge-26.1.2" = _IGWrYGvg;
+        "neoforge-26.2" = _acTlk4AF;
+        "neoforge-26.3" = _2Dkypz1U;
         "pkg-forge-mc1.18.2-1.3.0" = _cOko55bb;
         "pkg-forge-mc1.18.2-1.3.1" = _gIXPLPqx;
         "pkg-forge-mc1.18.2-1.3.2" = _Jf2TYP00;
@@ -3343,7 +3403,17 @@ let
         "pkg-neoforge-5.0.2+mc26.2" = _2OW5bg77;
         "pkg-neoforge-5.0.2+mc26.3" = _gMCytc6d;
         "pkg-forge-5.0.2+mc1.20.1" = _O00BqNSR;
-        "default" = _O00BqNSR;
+        "pkg-neoforge-5.0.3+mc1.21.4" = _tXUTTCEk;
+        "pkg-neoforge-5.0.3+mc1.21.1" = _LH88lfnK;
+        "pkg-neoforge-5.0.3+mc1.21.5" = _P7ph35pa;
+        "pkg-neoforge-5.0.3+mc1.21.8" = _AO165AAk;
+        "pkg-neoforge-5.0.3+mc1.21.10" = _6fY4clIA;
+        "pkg-neoforge-5.0.3+mc1.21.11" = _oh4hhtt2;
+        "pkg-neoforge-5.0.3+mc26.1.2" = _IGWrYGvg;
+        "pkg-neoforge-5.0.3+mc26.2" = _acTlk4AF;
+        "pkg-neoforge-5.0.3+mc26.3" = _2Dkypz1U;
+        "pkg-forge-5.0.3+mc1.20.1" = _llFIGBUh;
+        "default" = _llFIGBUh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "friends-and-foes-forge";

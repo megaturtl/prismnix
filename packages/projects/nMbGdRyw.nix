@@ -21,17 +21,31 @@ let
             "file" = "kantospawners-0.0.4.jar";
             "hash" = "sha512-t6GBzpN+IQzAuj+WgNAUCFkTpoR4r8TslbZdoS7OReI6MvGwO/qOhYMPjz4cAxc+ZMBHQO9iJ4sHkePIesBGQg==";
         };
+        _z02sACUD = {
+            "id" = "z02sACUD";
+            "file" = "kantospawners-fabric-0.0.5.jar";
+            "hash" = "sha512-g6TlEE+JCxieM/SUFQCEQ05lpjUCeIepS0fk+E/D+j+DmnK2WZKwPCvLQWRjkdBmSpChDuMwWIwjSFPZ1OfQFQ==";
+        };
+        _qMqKZI7b = {
+            "id" = "qMqKZI7b";
+            "file" = "kantospawners-neoforge-0.0.5.jar";
+            "hash" = "sha512-+9U54oIaAFGKfEcUOCNfiegGTb/SEAwR8ssWiOVFrjqXII5/parTMzWfM1cWHTsnVwzRT8sl40XL2JGOi15sww==";
+        };
     in {
         "L7wGFVKC" = _L7wGFVKC;
         "CsnyZXht" = _CsnyZXht;
         "eIxfcXyf" = _eIxfcXyf;
         "n3cXFyXw" = _n3cXFyXw;
-        "fabric-1.21.1" = _n3cXFyXw;
+        "z02sACUD" = _z02sACUD;
+        "qMqKZI7b" = _qMqKZI7b;
+        "fabric-1.21.1" = _z02sACUD;
+        "neoforge-1.21.1" = _qMqKZI7b;
         "pkg-0.0.1" = _L7wGFVKC;
         "pkg-0.0.2" = _CsnyZXht;
         "pkg-0.0.3" = _eIxfcXyf;
         "pkg-0.0.4" = _n3cXFyXw;
-        "default" = _n3cXFyXw;
+        "pkg-0.0.5" = _qMqKZI7b;
+        "default" = _qMqKZI7b;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kantospawners";

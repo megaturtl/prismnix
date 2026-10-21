@@ -36,6 +36,11 @@ let
             "file" = "blueOverlay26.1.zip";
             "hash" = "sha512-erEqc8x7cfFnrKNo2W2HjZVmGY5Exy3P5uUg8CFYn9JiTFDGeKmofsyXl3ZDL3gbClEvT5732qxWQ8FKo8f0Ww==";
         };
+        _YJs6mSTj = {
+            "id" = "YJs6mSTj";
+            "file" = "26.zip";
+            "hash" = "sha512-sTmqup6NuGXtLbLkgmKkDzZh4fzkbbInUhz4YgnGgxufgiktLIOAlwzgeOSuE5oY8pJcsuh2w0mQYIvnD873NQ==";
+        };
     in {
         "uSzzzlIm" = _uSzzzlIm;
         "Vg4e4hlG" = _Vg4e4hlG;
@@ -44,6 +49,7 @@ let
         "skosh7Fq" = _skosh7Fq;
         "iP0tKAkG" = _iP0tKAkG;
         "1lvMaM8F" = _1lvMaM8F;
+        "YJs6mSTj" = _YJs6mSTj;
         "minecraft-1.21.4" = _skosh7Fq;
         "minecraft-1.21" = _skosh7Fq;
         "minecraft-1.21.1" = _skosh7Fq;
@@ -60,13 +66,15 @@ let
         "minecraft-26.1.1" = _1lvMaM8F;
         "minecraft-26.1.2" = _1lvMaM8F;
         "minecraft-26.2" = _1lvMaM8F;
+        "minecraft-26.3" = _YJs6mSTj;
         "pkg-1.21.4" = _uSzzzlIm;
         "pkg-1.21" = _Vg4e4hlG;
         "pkg-1.21.5" = _YlwBbWap;
         "pkg-2.0" = _skosh7Fq;
         "pkg-1.21.10" = _iP0tKAkG;
         "pkg-26.1" = _1lvMaM8F;
-        "default" = _1lvMaM8F;
+        "pkg-26.3" = _YJs6mSTj;
+        "default" = _YJs6mSTj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "aaircrafters-blue-ui";

@@ -51,6 +51,11 @@ let
             "file" = "jetpackcraft-1.21.2-3.jar";
             "hash" = "sha512-yt0oCnQIu20WyA46LMo5fRyge0n7WsJsCBgZcGlNo3KVWcKbDm6C6618h1nX2JvIbp//cnt07C/D/a0bN0hYpA==";
         };
+        _ilmKVTN1 = {
+            "id" = "ilmKVTN1";
+            "file" = "Jetpack-datapack 1.21.4.zip";
+            "hash" = "sha512-skz5gSlhPMlmnnlMWocIBC7ZFlHk87iah64IaIA4TdeTfCsIe95GZK/9I34WMIh03KHxYc7Y9QmLRx3GHdDbCA==";
+        };
     in {
         "aaUeHO9Y" = _aaUeHO9Y;
         "R7mvUitC" = _R7mvUitC;
@@ -62,6 +67,7 @@ let
         "PvO5abgC" = _PvO5abgC;
         "mBo7Z0qz" = _mBo7Z0qz;
         "191En9E8" = _191En9E8;
+        "ilmKVTN1" = _ilmKVTN1;
         "datapack-1.19" = _aaUeHO9Y;
         "datapack-1.19.1" = _aaUeHO9Y;
         "datapack-1.19.2" = _aaUeHO9Y;
@@ -77,6 +83,7 @@ let
         "datapack-1.21.1" = _rJCUe98D;
         "datapack-1.21.2" = _mBo7Z0qz;
         "datapack-1.21.3" = _mBo7Z0qz;
+        "datapack-1.21.4" = _ilmKVTN1;
         "fabric-1.19" = _R7mvUitC;
         "fabric-1.19.1" = _R7mvUitC;
         "fabric-1.19.2" = _R7mvUitC;
@@ -137,7 +144,8 @@ let
         "pkg-1.21-1.21.1+mod" = _PvO5abgC;
         "pkg-1.21.2-3" = _mBo7Z0qz;
         "pkg-1.21.2-3+mod" = _191En9E8;
-        "default" = _191En9E8;
+        "pkg-1.21.4" = _ilmKVTN1;
+        "default" = _ilmKVTN1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jetpackcraft";

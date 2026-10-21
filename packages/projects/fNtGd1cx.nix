@@ -66,6 +66,16 @@ let
             "file" = "VoxyServer-1.2.4-26.2.jar";
             "hash" = "sha512-rQdhyNdStsKuBcScxOLRdWltmi7oV8HU+jbvnlUpptN2N0h2BQo2NmbM1nnW6Zslk8sNgJSujUnw8e0C49BHew==";
         };
+        _Rrtp8wi8 = {
+            "id" = "Rrtp8wi8";
+            "file" = "VoxyServer-1.2.5-36.3.jar";
+            "hash" = "sha512-R4vennTvQnGSZXERPgeVWDYZZ7pJJhiT9b8T4gwb7Q4ukpc/0H+V9JF+rXAxBuDr57d7OwU/nPDbLbEWlbgSnQ==";
+        };
+        _Scr78ITR = {
+            "id" = "Scr78ITR";
+            "file" = "VoxyServer-1.2.5-26.2.jar";
+            "hash" = "sha512-sYDFwHd+kaPR+K+2LGI1yXioOZndCnSZ+ceQhAJMpdM0TiTyrrKv6NKZgDfU5LcIqWadKuDEpzJKqWdxk62lAQ==";
+        };
     in {
         "Q9OEma8b" = _Q9OEma8b;
         "3BJP76M5" = _3BJP76M5;
@@ -80,11 +90,14 @@ let
         "UXvMg0cW" = _UXvMg0cW;
         "SgwzSfeN" = _SgwzSfeN;
         "EsIPjK0A" = _EsIPjK0A;
+        "Rrtp8wi8" = _Rrtp8wi8;
+        "Scr78ITR" = _Scr78ITR;
         "fabric-1.21.11" = _W0jJInpf;
         "fabric-26.1" = _SgwzSfeN;
         "fabric-26.1.1" = _SgwzSfeN;
         "fabric-26.1.2" = _SgwzSfeN;
-        "fabric-26.2" = _EsIPjK0A;
+        "fabric-26.2" = _Scr78ITR;
+        "fabric-26.3" = _Rrtp8wi8;
         "pkg-1.0.0" = _Q9OEma8b;
         "pkg-1.1.1" = _3BJP76M5;
         "pkg-1.1.2" = _WOEu8vNA;
@@ -96,7 +109,8 @@ let
         "pkg-1.2.1" = _Y4Ajdttu;
         "pkg-1.2.3" = _UXvMg0cW;
         "pkg-1.2.4" = _EsIPjK0A;
-        "default" = _EsIPjK0A;
+        "pkg-1.2.5" = _Scr78ITR;
+        "default" = _Scr78ITR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "voxyserver";

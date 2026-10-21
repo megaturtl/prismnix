@@ -1176,6 +1176,11 @@ let
             "file" = "reliquary-1.21.1-2.0.81.1579.jar";
             "hash" = "sha512-vM9MqJIj408I71hFINhFF1ozxKzts22J6UrF9yjND41uq8A6+PYVjiX3eWOagFJBV8S8mvhRnNOPer3STuztAQ==";
         };
+        _e1ilX077 = {
+            "id" = "e1ilX077";
+            "file" = "reliquary-26.1.2-2.0.94.1582.jar";
+            "hash" = "sha512-J0CfHQ2dJkQoEEFe31MbsebU3DDHkRp18X62+h7XLgrv+EdvLgUB/DO74Gljx/7d/qAgQ1tfcY/iv0/VqBow8w==";
+        };
     in {
         "dgdNJAdF" = _dgdNJAdF;
         "F7iOLki0" = _F7iOLki0;
@@ -1412,6 +1417,7 @@ let
         "WYz8TGh8" = _WYz8TGh8;
         "hqmnw6gz" = _hqmnw6gz;
         "QDOtwDcC" = _QDOtwDcC;
+        "e1ilX077" = _e1ilX077;
         "forge-1.20.1" = _hqmnw6gz;
         "forge-1.8.9" = _kQqo1Ui8;
         "forge-1.10.2" = _aVRfqARk;
@@ -1428,7 +1434,7 @@ let
         "neoforge-1.21.11" = _40gMkmgJ;
         "neoforge-26.1" = _AzFaSvQn;
         "neoforge-26.1.1" = _AzFaSvQn;
-        "neoforge-26.1.2" = _XNlBGA86;
+        "neoforge-26.1.2" = _e1ilX077;
         "neoforge-26.2" = _myUMD9Ys;
         "neoforge-26.3" = _WYz8TGh8;
         "pkg-1.20.1-2.0.42.1238" = _dgdNJAdF;
@@ -1666,7 +1672,8 @@ let
         "pkg-26.3-2.0.96.1580" = _WYz8TGh8;
         "pkg-1.20.1-2.0.66.1577" = _hqmnw6gz;
         "pkg-1.21.1-2.0.81.1579" = _QDOtwDcC;
-        "default" = _QDOtwDcC;
+        "pkg-26.1.2-2.0.94.1582" = _e1ilX077;
+        "default" = _e1ilX077;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "reliquary-reincarnations";

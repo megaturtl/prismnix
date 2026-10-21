@@ -306,6 +306,11 @@ let
             "file" = "DiscordIntegration-1.21.1-3.2.0.jar";
             "hash" = "sha512-B0NxontBimroacf9i33ts5kv/xqVa+rzaL5wujgnu0IRh8RCnZSd5VRbaFXwZfIeXzMY1O///aZydRa8JHo2VA==";
         };
+        _ZWUBqfur = {
+            "id" = "ZWUBqfur";
+            "file" = "DiscordIntegration-26.3-4.0.5.jar";
+            "hash" = "sha512-NzHZ8C2OJ6JjaBUMUGjHrHU3n4Tpt+L609BD78xZ21/ETR6SqsjcHkcev/6vmtWuDrXlqqY+bk3Kj09LunKD+A==";
+        };
     in {
         "3G6StTbg" = _3G6StTbg;
         "XbAhyip2" = _XbAhyip2;
@@ -368,6 +373,7 @@ let
         "6wRDMcyV" = _6wRDMcyV;
         "YZiDsYeU" = _YZiDsYeU;
         "4byeE72M" = _4byeE72M;
+        "ZWUBqfur" = _ZWUBqfur;
         "forge-1.17.1" = _GzbreWVJ;
         "forge-1.18.2" = _2UElBqUg;
         "forge-1.19.4" = _j37xBfAn;
@@ -406,7 +412,7 @@ let
         "neoforge-26.1.1" = _zmu75yQz;
         "neoforge-26.1.2" = _zmu75yQz;
         "neoforge-26.2" = _zmu75yQz;
-        "neoforge-26.3" = _SIFmDI73;
+        "neoforge-26.3" = _ZWUBqfur;
         "pkg-1.17.1-2.2.0" = _3G6StTbg;
         "pkg-1.18.2-2.2.0" = _XbAhyip2;
         "pkg-1.19.4-2.2.1" = _wVEO7pj5;
@@ -468,7 +474,8 @@ let
         "pkg-1.20.6-3.2.0" = _6wRDMcyV;
         "pkg-1.21-3.2.0" = _YZiDsYeU;
         "pkg-1.21.1-3.2.0" = _4byeE72M;
-        "default" = _4byeE72M;
+        "pkg-26.3-4.0.5" = _ZWUBqfur;
+        "default" = _ZWUBqfur;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "discord-integration-(di)";

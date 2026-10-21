@@ -871,6 +871,16 @@ let
             "file" = "FarmersDelight-26.3-3.6.28+refabricated.jar";
             "hash" = "sha512-M37mt+9utLxzBFMbd9kclCunWK30euH+q19otGlHghyTLE+b5mLRiiGKnW1KjEHjHLI50InawJQQG372dHA/Yg==";
         };
+        _3cZ663AG = {
+            "id" = "3cZ663AG";
+            "file" = "FarmersDelight-26.2-3.6.29+refabricated.jar";
+            "hash" = "sha512-WzKtGIu54zAYECUsh7HU4OgZgXiZdey4MUixy3iQSMBuuq3X5odoJsE3PzqhAZzTc2YwbohHjP0sgpyH7wAgdQ==";
+        };
+        _W0KeKCgk = {
+            "id" = "W0KeKCgk";
+            "file" = "FarmersDelight-26.3-3.6.29+refabricated.jar";
+            "hash" = "sha512-4v83aW3C6qO2gx6jimOSSwcMFxbCemPxi6IPT5M2kwvjOAAxte1zQsz8tBILZA5bviQnJ1oSqph6aV7BmkGheA==";
+        };
     in {
         "M8bp9Dk5" = _M8bp9Dk5;
         "J5zT5dIA" = _J5zT5dIA;
@@ -1046,6 +1056,8 @@ let
         "DDCRIV2Z" = _DDCRIV2Z;
         "4j5QzcRp" = _4j5QzcRp;
         "Zdr0cHIz" = _Zdr0cHIz;
+        "3cZ663AG" = _3cZ663AG;
+        "W0KeKCgk" = _W0KeKCgk;
         "fabric-1.20.1" = _7H1g1o5h;
         "fabric-1.21.1" = _wbVXT4Ua;
         "fabric-1.21" = _sQbPKvBC;
@@ -1068,8 +1080,8 @@ let
         "fabric-26.1" = _DDCRIV2Z;
         "fabric-26.1.1" = _DDCRIV2Z;
         "fabric-26.1.2" = _DDCRIV2Z;
-        "fabric-26.2" = _4j5QzcRp;
-        "fabric-26.3" = _Zdr0cHIz;
+        "fabric-26.2" = _3cZ663AG;
+        "fabric-26.3" = _W0KeKCgk;
         "pkg-1.20.1-2.0.8" = _M8bp9Dk5;
         "pkg-1.20.1-2.0.9" = _J5zT5dIA;
         "pkg-1.20.1-2.0.10" = _UFctor0l;
@@ -1241,7 +1253,9 @@ let
         "pkg-26.1-3.6.28" = _DDCRIV2Z;
         "pkg-26.2-3.6.28" = _4j5QzcRp;
         "pkg-26.3-3.6.28" = _Zdr0cHIz;
-        "default" = _Zdr0cHIz;
+        "pkg-26.2-3.6.29" = _3cZ663AG;
+        "pkg-26.3-3.6.29" = _W0KeKCgk;
+        "default" = _W0KeKCgk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "farmers-delight-refabricated";

@@ -56,6 +56,11 @@ let
             "file" = "panda-anti-dupe-1.1.2+26.3.jar";
             "hash" = "sha512-vL5HADQItfRJSNpRCHWuh37kZbZqmyfiotRtQnyHn54GTcpUt+mHnWrkrbpD3Es+w5tZ7XzJLMgZCykT/3zyww==";
         };
+        _qqAuQX22 = {
+            "id" = "qqAuQX22";
+            "file" = "panda-anti-dupe-1.1.4+26.3.jar";
+            "hash" = "sha512-EYa8+sDZlvHstDndqmyT/LjrhtIBYQrtOHv9t6tnCUG9Auh3kbdwhGnEa8/Q/J745pfgD9vZ5+DLRBxL7em/vQ==";
+        };
     in {
         "GaNais58" = _GaNais58;
         "6iW773na" = _6iW773na;
@@ -68,6 +73,7 @@ let
         "WHyXxnsO" = _WHyXxnsO;
         "JHZhVXBQ" = _JHZhVXBQ;
         "7LahZ3je" = _7LahZ3je;
+        "qqAuQX22" = _qqAuQX22;
         "fabric-1.21.4" = _JnHLBtmW;
         "fabric-1.21.5" = _CHqF2OC4;
         "fabric-1.21.6" = _vfgwXvrS;
@@ -80,7 +86,7 @@ let
         "fabric-26.1.1" = _WHyXxnsO;
         "fabric-26.1.2" = _WHyXxnsO;
         "fabric-26.2" = _JHZhVXBQ;
-        "fabric-26.3" = _7LahZ3je;
+        "fabric-26.3" = _qqAuQX22;
         "pkg-1.0.0_1.21.4" = _GaNais58;
         "pkg-1.0.1_1.21.4" = _6iW773na;
         "pkg-1.1.0_1.21.4" = _JnHLBtmW;
@@ -92,7 +98,8 @@ let
         "pkg-1.1.1_26.1.1" = _WHyXxnsO;
         "pkg-1.1.1+26.2" = _JHZhVXBQ;
         "pkg-1.1.2+26.3" = _7LahZ3je;
-        "default" = _7LahZ3je;
+        "pkg-1.1.4+26.3" = _qqAuQX22;
+        "default" = _qqAuQX22;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pandaantidupe";

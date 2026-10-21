@@ -116,6 +116,26 @@ let
             "file" = "expresscarts-fabric-1.4.3+26.3.jar";
             "hash" = "sha512-Mf9GhKSSd8BlsvRq3r4eo0pP0gp76VCHM/Nyz7EOR1weQ/POGZ0j9HERYhmleGPh9YRWzQ+zdqsaF0FYnX4EKQ==";
         };
+        _vO8HHB1T = {
+            "id" = "vO8HHB1T";
+            "file" = "expresscarts-fabric-1.5.0+26.2.jar";
+            "hash" = "sha512-2K9o9cHE/14R3qB1wkkoJiC+2PwBQNFYc8nFtjrputDNu/Tj/Herlw9fYyAHUOhhc5mOeWDJF2CgTddaklIJPw==";
+        };
+        _mmR9GlDn = {
+            "id" = "mmR9GlDn";
+            "file" = "expresscarts-fabric-1.5.0+26.1.2.jar";
+            "hash" = "sha512-OR7CoetIVCckZ0WTazCjlIuN9ItW0ycHbpf3ozvDCRQuZSLgNAS4IeNDSeMZXLSBNWdQ1G1IAASzoQia08eunA==";
+        };
+        _E08Eui58 = {
+            "id" = "E08Eui58";
+            "file" = "expresscarts-fabric-1.5.0+1.21.11.jar";
+            "hash" = "sha512-rDtpLG3kvb+hB8BWhq7sLd4Tg3Y9+7prhASpIurFFXPCuk6R9eXFfpEgyjH0TWK1bZvlF61ad4ffKCqQITdWaA==";
+        };
+        _MKHUcYC5 = {
+            "id" = "MKHUcYC5";
+            "file" = "expresscarts-fabric-1.5.0+26.3.jar";
+            "hash" = "sha512-EG9Trv8xzbDd9KIAdvm/9rReae7j/vNXYlm9b/s4va+7GWJyAGuMIx1zk08nkNhIBJ1MVaxAEYJ/2Uw+TLu3UQ==";
+        };
     in {
         "y600TFlx" = _y600TFlx;
         "EaAxc78x" = _EaAxc78x;
@@ -140,6 +160,10 @@ let
         "H2dLNGIH" = _H2dLNGIH;
         "50eh0zhr" = _50eh0zhr;
         "qM6sKsen" = _qM6sKsen;
+        "vO8HHB1T" = _vO8HHB1T;
+        "mmR9GlDn" = _mmR9GlDn;
+        "E08Eui58" = _E08Eui58;
+        "MKHUcYC5" = _MKHUcYC5;
         "fabric-1.21.4" = _EaAxc78x;
         "fabric-1.21.5" = _cOayuIWg;
         "fabric-1.21.6" = _1NDjddEl;
@@ -147,12 +171,12 @@ let
         "fabric-1.21.8" = _YVntmnF0;
         "fabric-1.21.10" = _y5fxvWVv;
         "fabric-1.21.9" = _2J4B4mEc;
-        "fabric-1.21.11" = _50eh0zhr;
+        "fabric-1.21.11" = _E08Eui58;
         "fabric-26.1" = _6NC0HCad;
         "fabric-26.1.1" = _6NC0HCad;
-        "fabric-26.1.2" = _H2dLNGIH;
-        "fabric-26.2" = _y7ilKAyW;
-        "fabric-26.3" = _qM6sKsen;
+        "fabric-26.1.2" = _mmR9GlDn;
+        "fabric-26.2" = _vO8HHB1T;
+        "fabric-26.3" = _MKHUcYC5;
         "pkg-1.0.0" = _y600TFlx;
         "pkg-1.1.0+1.21.4" = _EaAxc78x;
         "pkg-1.1.0+1.21.5" = _dMhjFCn3;
@@ -176,7 +200,11 @@ let
         "pkg-1.4.3+26.1.2" = _H2dLNGIH;
         "pkg-1.4.3+1.21.11" = _50eh0zhr;
         "pkg-1.4.3+26.3" = _qM6sKsen;
-        "default" = _qM6sKsen;
+        "pkg-1.5.0+26.2" = _vO8HHB1T;
+        "pkg-1.5.0+26.1.2" = _mmR9GlDn;
+        "pkg-1.5.0+1.21.11" = _E08Eui58;
+        "pkg-1.5.0+26.3" = _MKHUcYC5;
+        "default" = _MKHUcYC5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "express-carts";

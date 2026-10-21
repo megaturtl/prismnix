@@ -61,6 +61,11 @@ let
             "file" = "dehydration-1.4.1.jar";
             "hash" = "sha512-Fv04GR4LBAPuBlyZFUZRl+kpRrtvAxWzfjMm67xn/M/SUq9tN+DiiBBIJacDVbZPlAlo6b2Q4zikhFjyL1s33Q==";
         };
+        _Ls1nAcYc = {
+            "id" = "Ls1nAcYc";
+            "file" = "dehydration-1.4.2.jar";
+            "hash" = "sha512-is+5xpBR9vMwvdjw26U/8oQchS6OYjcOwLnut4+Z8LPqmbFxItquzzxvJkUKOD3rH8J3X4I0Ar2LCawvv7mQpQ==";
+        };
     in {
         "9JFGnKQp" = _9JFGnKQp;
         "EjWyPcTK" = _EjWyPcTK;
@@ -74,11 +79,12 @@ let
         "QFQ4qmah" = _QFQ4qmah;
         "yjZs5qQj" = _yjZs5qQj;
         "4TJ5tNbT" = _4TJ5tNbT;
+        "Ls1nAcYc" = _Ls1nAcYc;
         "fabric-1.19.2" = _9JFGnKQp;
         "fabric-1.20" = _EjWyPcTK;
         "fabric-1.20.1" = _60cSGCnr;
         "fabric-1.21" = _lrH71rTP;
-        "fabric-1.21.1" = _4TJ5tNbT;
+        "fabric-1.21.1" = _Ls1nAcYc;
         "pkg-1.3.4" = _9JFGnKQp;
         "pkg-1.3.4+1.20" = _EjWyPcTK;
         "pkg-1.3.4+1.20.1" = _tVIsLApb;
@@ -91,7 +97,8 @@ let
         "pkg-1.3.9+1.21.1" = _QFQ4qmah;
         "pkg-1.4.0+1.21.1" = _yjZs5qQj;
         "pkg-1.4.1+1.21.1" = _4TJ5tNbT;
-        "default" = _4TJ5tNbT;
+        "pkg-1.4.2+1.21.1" = _Ls1nAcYc;
+        "default" = _Ls1nAcYc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dehydration";

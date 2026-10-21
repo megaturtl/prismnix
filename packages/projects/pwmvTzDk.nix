@@ -181,6 +181,11 @@ let
             "file" = "psitweaks-1.21.1-0.10.10.jar";
             "hash" = "sha512-Ghm2XQjbx/1r5IwaDEmmEJIfBSaWnQaBQtl13f6WTqomp1xgqLBhR/V0c6DJdTkyt+v+XKHfFCD3SrDRn/49SQ==";
         };
+        _sazDcHZZ = {
+            "id" = "sazDcHZZ";
+            "file" = "psitweaks-1.21.1-0.10.10-hotfix.jar";
+            "hash" = "sha512-IoAMHsOinGskbcDlbgYhso96WsF/E729uI36yf8bF7MoYBRfoxOf0GPgE594R/9D7I0VIrVYy4rjccsLi3vzPg==";
+        };
     in {
         "5ruGqOFI" = _5ruGqOFI;
         "8xnjmzLU" = _8xnjmzLU;
@@ -218,8 +223,9 @@ let
         "Tx4PSu2w" = _Tx4PSu2w;
         "xhUEUipL" = _xhUEUipL;
         "uc7wOUUl" = _uc7wOUUl;
+        "sazDcHZZ" = _sazDcHZZ;
         "forge-1.20.1" = _xhUEUipL;
-        "neoforge-1.21.1" = _uc7wOUUl;
+        "neoforge-1.21.1" = _sazDcHZZ;
         "pkg-0.7.2" = _5ruGqOFI;
         "pkg-0.8.0" = _8xnjmzLU;
         "pkg-0.8.1" = _NflQOzYE;
@@ -256,7 +262,8 @@ let
         "pkg-1.20.1-0.10.9" = _Tx4PSu2w;
         "pkg-1.20.1-0.10.10" = _xhUEUipL;
         "pkg-1.21.1-0.10.10" = _uc7wOUUl;
-        "default" = _uc7wOUUl;
+        "pkg-1.21.1-0.10.10-hotfix" = _sazDcHZZ;
+        "default" = _sazDcHZZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "psitweaks";

@@ -31,6 +31,16 @@ let
             "file" = "girlfriend-mod-2.2.0.jar";
             "hash" = "sha512-ucEWazq8DofCKBiUEqQHyWzA/R4NDMYM/ODxwg2aG6q6C334EM81Ho6DWQXxSICJ7YQhqpaiMOZfZNoXcM02eQ==";
         };
+        _x5QImUgu = {
+            "id" = "x5QImUgu";
+            "file" = "girlfriend-mod-2.3.0-mc26.3.jar";
+            "hash" = "sha512-SNRikCqQTob6kmdHXyx1iuotpEaTQIfjxIYwdZ1XOqI28jPShRxjBPyYFQOjm/K523FrJQ50rFKKThhKEv01TQ==";
+        };
+        _J1Gnky0m = {
+            "id" = "J1Gnky0m";
+            "file" = "girlfriend-mod-2.3.0-mc1.21.11.jar";
+            "hash" = "sha512-k7vNzCU7eOZVGvkd9Os1LcyGqUU0Wcl3hoRIBgyzMIm1TJe/H7wXd6URC+rcqpxkHATAvj6kIEvRnOtTlccJwg==";
+        };
     in {
         "HdKc1tgJ" = _HdKc1tgJ;
         "occ7hxwl" = _occ7hxwl;
@@ -38,17 +48,20 @@ let
         "b8wBJHCf" = _b8wBJHCf;
         "XYUt8wpc" = _XYUt8wpc;
         "C8CFBYi0" = _C8CFBYi0;
+        "x5QImUgu" = _x5QImUgu;
+        "J1Gnky0m" = _J1Gnky0m;
         "fabric-1.21.9" = _HdKc1tgJ;
         "fabric-1.21.10" = _HdKc1tgJ;
-        "fabric-1.21.11" = _ftcch82j;
+        "fabric-1.21.11" = _J1Gnky0m;
         "fabric-26.1.1" = _XYUt8wpc;
         "fabric-26.1.2" = _XYUt8wpc;
-        "fabric-26.3" = _C8CFBYi0;
+        "fabric-26.3" = _x5QImUgu;
         "pkg-1.0.0" = _XYUt8wpc;
         "pkg-1.0.1" = _occ7hxwl;
         "pkg-2.0.0" = _ftcch82j;
         "pkg-2.2.0" = _C8CFBYi0;
-        "default" = _C8CFBYi0;
+        "pkg-2.3.0" = _J1Gnky0m;
+        "default" = _J1Gnky0m;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "girlfriend";

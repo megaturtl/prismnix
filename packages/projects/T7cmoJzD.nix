@@ -16,16 +16,24 @@ let
             "file" = "poxy-1.2.0.jar";
             "hash" = "sha512-2ZgihIqmWWqRIzqwAoOF7zWyusH1d8Y7hkZL7UFBXT4ekmL899ZSoyHB/ZpBKrzxzAdaqqF/A9vRXa+uVBzVTQ==";
         };
+        _j57rCsql = {
+            "id" = "j57rCsql";
+            "file" = "poxy-1.2.1.jar";
+            "hash" = "sha512-/x4Xog4ruVVb3AWTfVwOPdln5paoF7RzraD5Cc7UevboQyRyLbfuwuW0KyVaxJz+Apfygi36ifyxxsL6cvPBUA==";
+        };
     in {
         "BVxMfYIE" = _BVxMfYIE;
         "UWeSHRT5" = _UWeSHRT5;
         "s2zaAePa" = _s2zaAePa;
+        "j57rCsql" = _j57rCsql;
         "fabric-26.1.2" = _BVxMfYIE;
         "fabric-26.2" = _s2zaAePa;
+        "fabric-26.3" = _j57rCsql;
         "pkg-1.0.0" = _BVxMfYIE;
         "pkg-1.1.0" = _UWeSHRT5;
         "pkg-1.2.0" = _s2zaAePa;
-        "default" = _s2zaAePa;
+        "pkg-1.2.1" = _j57rCsql;
+        "default" = _j57rCsql;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "poxy";

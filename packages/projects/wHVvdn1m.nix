@@ -126,6 +126,21 @@ let
             "file" = "serilumsclientbundle-26.3.0-2.6.jar";
             "hash" = "sha512-72e0IUnl/KJqfcEBC6nJTM5RThXMsqQS76woP0zcbMBa/XzhzW1CwfUY1ZNWhFw96sPwSAEqTsYNO1d/e9mx4g==";
         };
+        _5oqfbeg7 = {
+            "id" = "5oqfbeg7";
+            "file" = "serilumsclientbundle-1.21.1-2.7.jar";
+            "hash" = "sha512-RK3kz0/8DTj/PNHGZI2RzFOe7Fi7yO4HDyjOb8BioRDasZPaO1VsW8nmPqefM+C0wKzXkWV0Q2DFZhaD9ZdTaw==";
+        };
+        _pQf4QhpS = {
+            "id" = "pQf4QhpS";
+            "file" = "serilumsclientbundle-26.2.0-2.7.jar";
+            "hash" = "sha512-aq1M2TgSEYC5YkYoQ4kFR4+1FUiLZkz1CSVSUrvZJoRTL5haRR/zczGqxXWV1rG02D7naXdwcBGCB0dLo29lEw==";
+        };
+        _ygkbLrdp = {
+            "id" = "ygkbLrdp";
+            "file" = "serilumsclientbundle-26.3.0-2.7.jar";
+            "hash" = "sha512-4IIv5UHR6+9R6zFeVm/r76mX/JZST6Lco0vFngc0BybIQFyodG5eHSD0q8mpvcjZOcdMI0N0usPDFfUWrkYJSQ==";
+        };
     in {
         "uHhQU8bQ" = _uHhQU8bQ;
         "N6R6xTHx" = _N6R6xTHx;
@@ -152,8 +167,11 @@ let
         "iZq8NJDo" = _iZq8NJDo;
         "5hrnDbMr" = _5hrnDbMr;
         "yxv88LdW" = _yxv88LdW;
-        "fabric-1.21" = _iZq8NJDo;
-        "fabric-1.21.1" = _iZq8NJDo;
+        "5oqfbeg7" = _5oqfbeg7;
+        "pQf4QhpS" = _pQf4QhpS;
+        "ygkbLrdp" = _ygkbLrdp;
+        "fabric-1.21" = _5oqfbeg7;
+        "fabric-1.21.1" = _5oqfbeg7;
         "fabric-1.21.4" = _HqQ21OMR;
         "fabric-1.21.5" = _q7JmXtQY;
         "fabric-1.21.6" = _IEUwiGzg;
@@ -161,10 +179,10 @@ let
         "fabric-1.21.8" = _4Huadf9W;
         "fabric-1.21.11" = _MGIJxwwm;
         "fabric-26.1.2" = _t5JriOVc;
-        "fabric-26.2" = _5hrnDbMr;
-        "fabric-26.3" = _yxv88LdW;
-        "forge-1.21" = _iZq8NJDo;
-        "forge-1.21.1" = _iZq8NJDo;
+        "fabric-26.2" = _pQf4QhpS;
+        "fabric-26.3" = _ygkbLrdp;
+        "forge-1.21" = _5oqfbeg7;
+        "forge-1.21.1" = _5oqfbeg7;
         "forge-1.21.4" = _HqQ21OMR;
         "forge-1.21.5" = _q7JmXtQY;
         "forge-1.21.6" = _IEUwiGzg;
@@ -172,10 +190,10 @@ let
         "forge-1.21.8" = _4Huadf9W;
         "forge-1.21.11" = _MGIJxwwm;
         "forge-26.1.2" = _t5JriOVc;
-        "forge-26.2" = _5hrnDbMr;
-        "forge-26.3" = _yxv88LdW;
-        "neoforge-1.21" = _iZq8NJDo;
-        "neoforge-1.21.1" = _iZq8NJDo;
+        "forge-26.2" = _pQf4QhpS;
+        "forge-26.3" = _ygkbLrdp;
+        "neoforge-1.21" = _5oqfbeg7;
+        "neoforge-1.21.1" = _5oqfbeg7;
         "neoforge-1.21.4" = _HqQ21OMR;
         "neoforge-1.21.5" = _q7JmXtQY;
         "neoforge-1.21.6" = _IEUwiGzg;
@@ -183,10 +201,10 @@ let
         "neoforge-1.21.8" = _4Huadf9W;
         "neoforge-1.21.11" = _MGIJxwwm;
         "neoforge-26.1.2" = _t5JriOVc;
-        "neoforge-26.2" = _5hrnDbMr;
-        "neoforge-26.3" = _yxv88LdW;
-        "quilt-1.21" = _iZq8NJDo;
-        "quilt-1.21.1" = _iZq8NJDo;
+        "neoforge-26.2" = _pQf4QhpS;
+        "neoforge-26.3" = _ygkbLrdp;
+        "quilt-1.21" = _5oqfbeg7;
+        "quilt-1.21.1" = _5oqfbeg7;
         "quilt-1.21.4" = _HqQ21OMR;
         "quilt-1.21.5" = _q7JmXtQY;
         "quilt-1.21.6" = _IEUwiGzg;
@@ -194,8 +212,8 @@ let
         "quilt-1.21.8" = _4Huadf9W;
         "quilt-1.21.11" = _MGIJxwwm;
         "quilt-26.1.2" = _t5JriOVc;
-        "quilt-26.2" = _5hrnDbMr;
-        "quilt-26.3" = _yxv88LdW;
+        "quilt-26.2" = _pQf4QhpS;
+        "quilt-26.3" = _ygkbLrdp;
         "pkg-1.21.0-1.0-fabric+forge+neo" = _uHhQU8bQ;
         "pkg-1.21.0-1.1-fabric+forge+neo" = _N6R6xTHx;
         "pkg-1.21.0-1.2-fabric+forge+neo" = _mDLrlniw;
@@ -221,7 +239,10 @@ let
         "pkg-1.21.1-2.5-fabric+forge+neo" = _iZq8NJDo;
         "pkg-26.2.0-2.6-fabric+forge+neo" = _5hrnDbMr;
         "pkg-26.3.0-2.6-fabric+forge+neo" = _yxv88LdW;
-        "default" = _yxv88LdW;
+        "pkg-1.21.1-2.7-fabric+forge+neo" = _5oqfbeg7;
+        "pkg-26.2.0-2.7-fabric+forge+neo" = _pQf4QhpS;
+        "pkg-26.3.0-2.7-fabric+forge+neo" = _ygkbLrdp;
+        "default" = _ygkbLrdp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "serilums-client-bundle";

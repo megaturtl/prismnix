@@ -1196,6 +1196,31 @@ let
             "file" = "FallingTree-26.3-25.jar";
             "hash" = "sha512-wMQM4ffgfbM9QvGa7vcH7xQ/Vn5Z+WuHZjr8Ovd8FBPhMal7nDtAXx5OIXNWJUKTgfVQI9nPsJuH3qq/Xe7PLg==";
         };
+        _E3qS6Mdl = {
+            "id" = "E3qS6Mdl";
+            "file" = "FallingTree-26.1-25.jar";
+            "hash" = "sha512-utw9MyF8oEml6HMx7slomQllNMce1VkhAwwFgT1qH4dc9weyyiyRrCfQXSwgO1anvbVQJ3GtTGZaPtcpCWemqA==";
+        };
+        _VGlJITqh = {
+            "id" = "VGlJITqh";
+            "file" = "FallingTree-26.1.1-25.jar";
+            "hash" = "sha512-53eh3Fj2u9GlsiLuWn1OhN2yLCk1BB1RBMngOwC70OX/m6Tcq+zbhnod/2Cnf/yxDCR+YebWTQVus2zb+hIZlQ==";
+        };
+        _87iHk1lF = {
+            "id" = "87iHk1lF";
+            "file" = "FallingTree-26.1.2-25.jar";
+            "hash" = "sha512-+fKRD3XJfHlgNk4kjHOXVEfkqR8IHnjm8XUBuO/Fh2xw14h11yo66UBVYMVAqAFpthxCpkMLKrTJ+GeqB/ydnA==";
+        };
+        _D0B62UJ5 = {
+            "id" = "D0B62UJ5";
+            "file" = "FallingTree-26.3-25.jar";
+            "hash" = "sha512-1KcImGk7udtrFZz+LQ6G98s3ob4UhWjwOURchwKfZZE5Cevna2/UMRvV8abnbCFrffxco6t3czEEs/zFSB1QYA==";
+        };
+        _6wMhF5Oq = {
+            "id" = "6wMhF5Oq";
+            "file" = "FallingTree-26.2-25.jar";
+            "hash" = "sha512-DlnKlJ5Q/HGO1GQuqK2qo5Xp/TxbvhNrDvDJ+RFEgUaCtt+pV4unfDI07if1U5nTrJCB7t8F/uAFEBNXGqMEfA==";
+        };
     in {
         "ClS5aGDu" = _ClS5aGDu;
         "by7f3jqu" = _by7f3jqu;
@@ -1436,6 +1461,11 @@ let
         "t8SGwbWX" = _t8SGwbWX;
         "AAGlDV9D" = _AAGlDV9D;
         "MGpq6CjC" = _MGpq6CjC;
+        "E3qS6Mdl" = _E3qS6Mdl;
+        "VGlJITqh" = _VGlJITqh;
+        "87iHk1lF" = _87iHk1lF;
+        "D0B62UJ5" = _D0B62UJ5;
+        "6wMhF5Oq" = _6wMhF5Oq;
         "fabric-1.16.5" = _rK4GkUX6;
         "fabric-1.17" = _nDc9P6UR;
         "fabric-1.17.1" = _59SG26Fv;
@@ -1480,11 +1510,11 @@ let
         "fabric-1.21.10" = _hDjB8uAg;
         "fabric-1.21.11" = _Hnj3s9Ez;
         "fabric-26.1-snapshot-6" = _r6e6nPT3;
-        "fabric-26.1" = _taabqQmG;
-        "fabric-26.1.1" = _1t5y4V0E;
-        "fabric-26.1.2" = _YpsBfAWL;
-        "fabric-26.2" = _sOoH5kkd;
-        "fabric-26.3" = _MGpq6CjC;
+        "fabric-26.1" = _E3qS6Mdl;
+        "fabric-26.1.1" = _VGlJITqh;
+        "fabric-26.1.2" = _87iHk1lF;
+        "fabric-26.2" = _6wMhF5Oq;
+        "fabric-26.3" = _D0B62UJ5;
         "forge-1.16.5" = _rK4GkUX6;
         "forge-1.17.1" = _59SG26Fv;
         "forge-1.18" = _jHljfMeN;
@@ -1512,11 +1542,11 @@ let
         "forge-1.21.9" = _ye05npAP;
         "forge-1.21.10" = _hDjB8uAg;
         "forge-1.21.11" = _Hnj3s9Ez;
-        "forge-26.1" = _taabqQmG;
-        "forge-26.1.1" = _1t5y4V0E;
-        "forge-26.1.2" = _YpsBfAWL;
-        "forge-26.2" = _sOoH5kkd;
-        "forge-26.3" = _MGpq6CjC;
+        "forge-26.1" = _E3qS6Mdl;
+        "forge-26.1.1" = _VGlJITqh;
+        "forge-26.1.2" = _87iHk1lF;
+        "forge-26.2" = _6wMhF5Oq;
+        "forge-26.3" = _D0B62UJ5;
         "neoforge-1.20.6" = _ud1kXOTm;
         "neoforge-1.21" = _9n1NLElA;
         "neoforge-1.21.1" = _wxGXaJMA;
@@ -1530,11 +1560,11 @@ let
         "neoforge-1.21.9" = _ye05npAP;
         "neoforge-1.21.10" = _hDjB8uAg;
         "neoforge-1.21.11" = _Hnj3s9Ez;
-        "neoforge-26.1" = _taabqQmG;
-        "neoforge-26.1.1" = _1t5y4V0E;
-        "neoforge-26.1.2" = _YpsBfAWL;
-        "neoforge-26.2" = _sOoH5kkd;
-        "neoforge-26.3" = _MGpq6CjC;
+        "neoforge-26.1" = _E3qS6Mdl;
+        "neoforge-26.1.1" = _VGlJITqh;
+        "neoforge-26.1.2" = _87iHk1lF;
+        "neoforge-26.2" = _6wMhF5Oq;
+        "neoforge-26.3" = _D0B62UJ5;
         "pkg-1.16.5-2.10.0-Fabric" = _ClS5aGDu;
         "pkg-1.16.5-2.10.0-Forge" = _by7f3jqu;
         "pkg-1.16.5-2.10.1-Forge" = _wYPHBZnq;
@@ -1774,7 +1804,12 @@ let
         "pkg-26.3-26.3.0.1" = _t8SGwbWX;
         "pkg-26.3-26.3.0.2" = _AAGlDV9D;
         "pkg-26.3-26.3.0.3" = _MGpq6CjC;
-        "default" = _MGpq6CjC;
+        "pkg-26.1-26.1.0.4" = _E3qS6Mdl;
+        "pkg-26.1.1-26.1.1.2" = _VGlJITqh;
+        "pkg-26.1.2-26.1.2.5" = _87iHk1lF;
+        "pkg-26.3-26.3.0.4" = _D0B62UJ5;
+        "pkg-26.2-26.2.0.4" = _6wMhF5Oq;
+        "default" = _6wMhF5Oq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fallingtree";

@@ -521,6 +521,11 @@ let
             "file" = "MagicMirror-26.2.0-1.0.1.2715.jar";
             "hash" = "sha512-55MCiILZcyrsLIetKzSXdgSj3PxV3Iseuk5qZOn9dC7FBvSE3UTa6u9UuDrRKtEImXGwnsxzy6xcOhpbnwl6bw==";
         };
+        _4y0jbxxH = {
+            "id" = "4y0jbxxH";
+            "file" = "MagicMirror-26.3.0-1.0.0.2757.jar";
+            "hash" = "sha512-Wntxkrug05qUIbqtEBCxYS0ocMSyBBg6BWuxr2ULFBl1GEX6bRe+3kOXtc5Rv1DR3+k4tPvfrv3V+iTOlvlofg==";
+        };
     in {
         "HD8TUNQ5" = _HD8TUNQ5;
         "1Y4oqZ3M" = _1Y4oqZ3M;
@@ -626,6 +631,7 @@ let
         "TopUjR9e" = _TopUjR9e;
         "Bn9ApBHJ" = _Bn9ApBHJ;
         "KR7MVkAQ" = _KR7MVkAQ;
+        "4y0jbxxH" = _4y0jbxxH;
         "forge-1.20.1" = _XnwmpiQq;
         "forge-1.12.2" = _1Y4oqZ3M;
         "forge-1.14.4" = _sCITpZW9;
@@ -648,6 +654,7 @@ let
         "neoforge-1.21.11" = _TopUjR9e;
         "neoforge-26.1.2" = _Bn9ApBHJ;
         "neoforge-26.2" = _KR7MVkAQ;
+        "neoforge-26.3" = _4y0jbxxH;
         "pkg-1.20.1-1.1.1.768" = _HD8TUNQ5;
         "pkg-0.1.1.427" = _1Y4oqZ3M;
         "pkg-0.3.0.719" = _VjoZDncp;
@@ -752,7 +759,8 @@ let
         "pkg-1.21.11-1.0.1.2707" = _TopUjR9e;
         "pkg-26.1.2-1.0.1.2711" = _Bn9ApBHJ;
         "pkg-26.2.0-1.0.1.2715" = _KR7MVkAQ;
-        "default" = _KR7MVkAQ;
+        "pkg-26.3.0-1.0.0.2757" = _4y0jbxxH;
+        "default" = _4y0jbxxH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-magic-mirror";

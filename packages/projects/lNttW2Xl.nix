@@ -686,6 +686,16 @@ let
             "file" = "TerraFirmaGreg-Core-Modern-0.9.27.jar";
             "hash" = "sha512-9S1gW7i/pnDY+7klpF98FPHrLmMomSSzzexyVOIcmnn+KSPW3eseU7meYHFhCoi0DMpAfhIN2PnkSJJpPESUtQ==";
         };
+        _WfKnJlQo = {
+            "id" = "WfKnJlQo";
+            "file" = "TerraFirmaGreg-Core-Modern-0.9.28.jar";
+            "hash" = "sha512-R9uBJACrrlzJI87vf8aGg3Nr8TEJcI4FdHygiiicBZCAigvLnzHGIp4ykFKkp/QODGP/tMPwyXf/m0sEcoCjvA==";
+        };
+        _QTyP1mj7 = {
+            "id" = "QTyP1mj7";
+            "file" = "TerraFirmaGreg-Core-Modern-0.9.29.jar";
+            "hash" = "sha512-JSuag4Srf/s+/SyRtR3ioo7ivlWxA1bubci7iPcnxJ/jQ7PQ6fC51oF1TcdOxOxEosc0cjxd07mJe81mvWjSlg==";
+        };
     in {
         "LuHLuSrA" = _LuHLuSrA;
         "xMsNuWB7" = _xMsNuWB7;
@@ -824,7 +834,9 @@ let
         "8CWHkOAu" = _8CWHkOAu;
         "Hh5dD4g3" = _Hh5dD4g3;
         "n0Y3ywtk" = _n0Y3ywtk;
-        "forge-1.20.1" = _n0Y3ywtk;
+        "WfKnJlQo" = _WfKnJlQo;
+        "QTyP1mj7" = _QTyP1mj7;
+        "forge-1.20.1" = _QTyP1mj7;
         "forge-1.12.1" = _22gGCpy3;
         "forge-1.12.2" = _uXJ0dIRp;
         "neoforge-1.20.1" = _V6SPXlVC;
@@ -964,7 +976,9 @@ let
         "pkg-0.9.25" = _8CWHkOAu;
         "pkg-0.9.26" = _Hh5dD4g3;
         "pkg-0.9.27" = _n0Y3ywtk;
-        "default" = _n0Y3ywtk;
+        "pkg-0.9.28" = _WfKnJlQo;
+        "pkg-0.9.29" = _QTyP1mj7;
+        "default" = _QTyP1mj7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "terrafirmagreg-core";

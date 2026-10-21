@@ -106,6 +106,11 @@ let
             "file" = "EasierSleeping-1.20.1-2.1.4.jar";
             "hash" = "sha512-Sh1RTUnYbGoIPacsNFE8P7ZAxtQcFkqSbd0uKYYNCBYpZd2FKq8tLsaPK/tPNWcqATDBxWVctNVDYB33IpE6Gw==";
         };
+        _1WvmmdpI = {
+            "id" = "1WvmmdpI";
+            "file" = "EasierSleeping-26.3-4.0.2.jar";
+            "hash" = "sha512-M3tj1+Y7i33NaPpK7KcWOX8KsMC0OTT+ce5qXwkcrBctn1QltcSr+Slqx3viLFxyj3dQMVBu3D7VTCow1p7SFw==";
+        };
     in {
         "uf1IVhCT" = _uf1IVhCT;
         "u0Uam6wS" = _u0Uam6wS;
@@ -128,6 +133,7 @@ let
         "brsJCAmx" = _brsJCAmx;
         "AXyQgC36" = _AXyQgC36;
         "nxy4gc4J" = _nxy4gc4J;
+        "1WvmmdpI" = _1WvmmdpI;
         "forge-1.17.1" = _uf1IVhCT;
         "forge-1.18.2" = _6a4dDTCH;
         "forge-1.19.4" = _Wm5zq605;
@@ -153,7 +159,7 @@ let
         "neoforge-26.1.1" = _AXyQgC36;
         "neoforge-26.1.2" = _AXyQgC36;
         "neoforge-26.2" = _AXyQgC36;
-        "neoforge-26.3" = _AXyQgC36;
+        "neoforge-26.3" = _1WvmmdpI;
         "pkg-1.17.1-2.1.0" = _uf1IVhCT;
         "pkg-1.18.2-2.1.0" = _u0Uam6wS;
         "pkg-1.19.4-2.1.2" = _ESho6U5X;
@@ -175,7 +181,8 @@ let
         "pkg-1.21.11-4.0.2" = _brsJCAmx;
         "pkg-26.1-4.0.2" = _AXyQgC36;
         "pkg-1.20.1-2.1.4" = _nxy4gc4J;
-        "default" = _nxy4gc4J;
+        "pkg-26.3-4.0.2" = _1WvmmdpI;
+        "default" = _1WvmmdpI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "easier-sleeping";

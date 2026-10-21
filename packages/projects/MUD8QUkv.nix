@@ -201,6 +201,11 @@ let
             "file" = "TailsLegacy-4.0.4+26.3-fabric.jar";
             "hash" = "sha512-ltAh+VAccIJ/L43tp05+JrbMc7/EW+B6FRPAHM14TIxwgwnI1ohS/O5GSZ1akuVTdiAhxXuJ+gzr4JTF55EThA==";
         };
+        _omP1NKwh = {
+            "id" = "omP1NKwh";
+            "file" = "TailsLegacy-4.0.4+1.21.1-fabric.jar";
+            "hash" = "sha512-QAqtVmbJSzC2dnWHbCZOMboEQJsK0z5hQTfGDlRtRUV24KPCtThII2t5x8fk5AW2CuotZ9eHG17JJjT/W7WZBQ==";
+        };
     in {
         "zgl9VdYX" = _zgl9VdYX;
         "yeu7qvfY" = _yeu7qvfY;
@@ -242,6 +247,7 @@ let
         "mViYdXdu" = _mViYdXdu;
         "pUWtuNFn" = _pUWtuNFn;
         "iZHIyGps" = _iZHIyGps;
+        "omP1NKwh" = _omP1NKwh;
         "forge-1.7.10" = _QZlvXwAw;
         "forge-1.12.2" = _aM41rkBP;
         "forge-1.18" = _Gjl2mMH0;
@@ -264,6 +270,8 @@ let
         "fabric-26.1.1" = _dfRuY3bE;
         "fabric-26.1.2" = _dfRuY3bE;
         "fabric-26.3" = _iZHIyGps;
+        "fabric-1.21" = _omP1NKwh;
+        "fabric-1.21.1" = _omP1NKwh;
         "pkg-4.0.0+1.7.10-forge" = _zgl9VdYX;
         "pkg-4.0.0+1.12.2-forge" = _yeu7qvfY;
         "pkg-4.0.0+1.18.2-forge" = _ImKeh06i;
@@ -304,7 +312,8 @@ let
         "pkg-4.0.4+26.2-fabric" = _mViYdXdu;
         "pkg-4.0.4+26.3-neoforge" = _pUWtuNFn;
         "pkg-4.0.4+26.3-fabric" = _iZHIyGps;
-        "default" = _iZHIyGps;
+        "pkg-4.0.4+1.21.1-fabric" = _omP1NKwh;
+        "default" = _omP1NKwh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tails-legacy";

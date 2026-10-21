@@ -291,6 +291,26 @@ let
             "file" = "HexAutomata-neoforge-1.21.1-0.3.5.1.pre64.jar";
             "hash" = "sha512-aMRS9SQ7WZDmaARKQDe8dRt/O5rC1eojHzYBr/LG8jwwMHypani9jEWeE2VGRu5cHr+PhZ5cXVaeQEc7VdIGjg==";
         };
+        _wCPc12q0 = {
+            "id" = "wCPc12q0";
+            "file" = "HexAutomata-fabric-1.21.1-0.3.5.2.pre64.jar";
+            "hash" = "sha512-047rDKK+7JNG9yHUJNkIq8q7pLbUEUMhFfB9U80FlV2rebB7vUVJ7Z4eaU/B2WoFXY9rK3BhMCdFd+Khn6+8IQ==";
+        };
+        _HJDE492I = {
+            "id" = "HJDE492I";
+            "file" = "HexAutomata-neoforge-1.21.1-0.3.5.2.pre64.jar";
+            "hash" = "sha512-nWsmioFBjgzyNwSF07aLf79KWrGxPhzgzUPCu3lCuaZDNZJjwlBaJV+1ZXyIDXG14O+0PBKXx2mzluHk40Q4BA==";
+        };
+        _7fi3bOOs = {
+            "id" = "7fi3bOOs";
+            "file" = "HexAutomata-fabric-1.20.1-0.3.5.2.jar";
+            "hash" = "sha512-qnKDuZJGtfivoXSSrUXG6y7DjGRncgwACdW2nWjc3zd0FWpv/W9+wHPKN38ZnnmfX1+7RlscxhJYyb6fkAcGcQ==";
+        };
+        _ctC1y0cp = {
+            "id" = "ctC1y0cp";
+            "file" = "HexAutomata-forge-1.20.1-0.3.5.2.jar";
+            "hash" = "sha512-dQU6Q25xWjEgXh4prjLT/wwWw1QN9p6sy+oEJFPxY6OTUbv2hsD83Mt6pt8wsOC9SLDM7usScF0xnwOGeT2Tvw==";
+        };
     in {
         "DokFPO3C" = _DokFPO3C;
         "D9aEaTu3" = _D9aEaTu3;
@@ -350,10 +370,14 @@ let
         "HjGLrT9H" = _HjGLrT9H;
         "CQNxhPrN" = _CQNxhPrN;
         "Ywp4qrmc" = _Ywp4qrmc;
-        "fabric-1.20.1" = _JcXa0efA;
-        "fabric-1.21.1" = _CQNxhPrN;
-        "forge-1.20.1" = _3QqV4Atr;
-        "neoforge-1.21.1" = _Ywp4qrmc;
+        "wCPc12q0" = _wCPc12q0;
+        "HJDE492I" = _HJDE492I;
+        "7fi3bOOs" = _7fi3bOOs;
+        "ctC1y0cp" = _ctC1y0cp;
+        "fabric-1.20.1" = _7fi3bOOs;
+        "fabric-1.21.1" = _wCPc12q0;
+        "forge-1.20.1" = _ctC1y0cp;
+        "neoforge-1.21.1" = _HJDE492I;
         "pkg-1.20.1-0.1" = _D9aEaTu3;
         "pkg-1.20.1-0.1.0.1" = _8WL0Inc8;
         "pkg-1.20.1-0.1.1" = _U7g7uNBR;
@@ -377,7 +401,9 @@ let
         "pkg-1.21.1-0.3.5.1.pre53" = _2NFVGHwF;
         "pkg-1.21.1-0.3.5.1.pre53.fix1" = _HjGLrT9H;
         "pkg-1.21.1-0.3.5.1.pre64" = _Ywp4qrmc;
-        "default" = _Ywp4qrmc;
+        "pkg-1.21.1-0.3.5.2.pre64" = _HJDE492I;
+        "pkg-1.20.1-0.3.5.2" = _ctC1y0cp;
+        "default" = _ctC1y0cp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hexautomata";

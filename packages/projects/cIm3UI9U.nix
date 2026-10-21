@@ -51,6 +51,11 @@ let
             "file" = "Redone Shinies 4.1.zip";
             "hash" = "sha512-vGuCNbbgCgdewjGD5/Cu+v5pt0gzdcf3qIqShBOY/cT0HatQ/ZrsNyNz0nSY1Z/caTZc+7XQqnnQs/TjWinotQ==";
         };
+        _PhxwED3e = {
+            "id" = "PhxwED3e";
+            "file" = "Redone Shinies V2 1.0.zip";
+            "hash" = "sha512-IbIopnsLjOInIn6fBPFuMpRyaZDU0H+C6fiakcFaAUwRyZpOnTcnqy7Dw2GsI/SvSwhqovcsM01P7nZvP2MquQ==";
+        };
     in {
         "UCSchpA3" = _UCSchpA3;
         "iETR08lo" = _iETR08lo;
@@ -62,9 +67,10 @@ let
         "lGeLRSqO" = _lGeLRSqO;
         "iFz7viDi" = _iFz7viDi;
         "8rNRPWnB" = _8rNRPWnB;
-        "minecraft-1.21.1" = _8rNRPWnB;
-        "minecraft-1.21" = _8rNRPWnB;
-        "pkg-1.0" = _UCSchpA3;
+        "PhxwED3e" = _PhxwED3e;
+        "minecraft-1.21.1" = _PhxwED3e;
+        "minecraft-1.21" = _PhxwED3e;
+        "pkg-1.0" = _PhxwED3e;
         "pkg-2.0" = _iETR08lo;
         "pkg-2.1" = _yLTEKhUg;
         "pkg-3.0" = _noZo0YAT;
@@ -74,7 +80,7 @@ let
         "pkg-3.4" = _lGeLRSqO;
         "pkg-4.0" = _iFz7viDi;
         "pkg-4.1" = _8rNRPWnB;
-        "default" = _8rNRPWnB;
+        "default" = _PhxwED3e;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "redone-shinies";

@@ -646,6 +646,16 @@ let
             "file" = "BetterUnpackables_v5.1.0-beta.4_mc26.3-26.4s4.zip";
             "hash" = "sha512-/mOv1tDL5QiJOJ66hV5RNAgNU+LS4qmcfhLEDuUnA+NZgVcW5sc9p3ycP2gHI1oTdhwvhEh8K6uJBqLv+ak39A==";
         };
+        _xUk1ZhTQ = {
+            "id" = "xUk1ZhTQ";
+            "file" = "BetterUnpackables_v5.1.0-beta.5_mc26.3-26.4snap5.zip";
+            "hash" = "sha512-UGQM7K1xSRdggeJQW9lIaafkmxL4fB2bvoBhvdwI3klOYcNC/UEsOdU1Z7Y4BN1HtlAgkLYg06dDY2GNQGvXGg==";
+        };
+        _dnm7wh5W = {
+            "id" = "dnm7wh5W";
+            "file" = "BetterUnpackables_v5.1.0-beta.6_mc26.3-26.4snap5.zip";
+            "hash" = "sha512-/u9iQV2kYuXim0i5nHbOB9TNWO8swKL/+fSy2Gn3pW5/byyXx25t45iYtftaQetsvsTXC4WSV+calZRHhXbs0A==";
+        };
     in {
         "niaxbXcl" = _niaxbXcl;
         "2N9ex882" = _2N9ex882;
@@ -776,6 +786,8 @@ let
         "fS0CfTQ2" = _fS0CfTQ2;
         "viTS04Xz" = _viTS04Xz;
         "2A0cONHJ" = _2A0cONHJ;
+        "xUk1ZhTQ" = _xUk1ZhTQ;
+        "dnm7wh5W" = _dnm7wh5W;
         "datapack-1.21.2-pre1" = _niaxbXcl;
         "datapack-1.21.2-pre2" = _niaxbXcl;
         "datapack-1.21.2-pre3" = _niaxbXcl;
@@ -913,11 +925,12 @@ let
         "datapack-26.3-rc-1" = _Bw1AAKEE;
         "datapack-26.3-rc-2" = _Bw1AAKEE;
         "datapack-26.3-rc-3" = _Bw1AAKEE;
-        "datapack-26.3" = _2A0cONHJ;
-        "datapack-26.4-snapshot-1" = _bNaKdScT;
-        "datapack-26.4-snapshot-2" = _bNaKdScT;
-        "datapack-26.4-snapshot-3" = _bNaKdScT;
-        "datapack-26.4-snapshot-4" = _2A0cONHJ;
+        "datapack-26.3" = _dnm7wh5W;
+        "datapack-26.4-snapshot-1" = _xUk1ZhTQ;
+        "datapack-26.4-snapshot-2" = _xUk1ZhTQ;
+        "datapack-26.4-snapshot-3" = _xUk1ZhTQ;
+        "datapack-26.4-snapshot-4" = _xUk1ZhTQ;
+        "datapack-26.4-snapshot-5" = _dnm7wh5W;
         "fabric-1.21.2-pre1" = _2N9ex882;
         "fabric-1.21.2-pre2" = _2N9ex882;
         "fabric-1.21.2-pre3" = _2N9ex882;
@@ -1108,7 +1121,9 @@ let
         "pkg-v5.0.1" = _fS0CfTQ2;
         "pkg-v5.0.1+mod" = _viTS04Xz;
         "pkg-v5.1.0-beta.4" = _2A0cONHJ;
-        "default" = _2A0cONHJ;
+        "pkg-v5.1.0-beta.5" = _xUk1ZhTQ;
+        "pkg-v5.1.0-beta.6" = _dnm7wh5W;
+        "default" = _dnm7wh5W;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-unpackables";

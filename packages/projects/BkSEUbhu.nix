@@ -71,6 +71,21 @@ let
             "file" = "chikas_plants_mod-v1.0.1-1.21.1.jar";
             "hash" = "sha512-G4Kx3RnI3sm4W6BJwBk0WTROttf+L6dX3N4JqEbtsdKrm7EPoL6FCc6Evx6c0TESRiWnCc5rNCD6YuqPbrdjyw==";
         };
+        _4w2D4hoA = {
+            "id" = "4w2D4hoA";
+            "file" = "chikas_plants_mod-v1.1.3-Forge-1.20.1.jar";
+            "hash" = "sha512-RYOt5LynUdBdiSHPNtIyd8c/F6OwlPb0ppsHDIxF23f35jeoPJPxkvS+OLrazLmlneUqId8ongv3TuVP92HQEw==";
+        };
+        _NzGNYehu = {
+            "id" = "NzGNYehu";
+            "file" = "chikas_plants_mod-v1.0.2-1.21.1.jar";
+            "hash" = "sha512-vc6XXc4FueZFT9OFbJgdZdLBdKKl6aoFR3KQfvf2u6xGOBqZJMgEnqUox7FXqV5idagvMxYADAqlmLUBHA84dw==";
+        };
+        _Y4qC8TzN = {
+            "id" = "Y4qC8TzN";
+            "file" = "chikas_plants_mod-v1.0.1-1.19.2.jar";
+            "hash" = "sha512-OnPe7IQILXkX+VPHEpYbOVcMqidSwDODlPIqIl3PCevGtTk+8hdw9clDICjqY6Az1EqCb74GZCcAKYHgfWg6BQ==";
+        };
     in {
         "VVdJmZNZ" = _VVdJmZNZ;
         "RkcJogJV" = _RkcJogJV;
@@ -86,9 +101,12 @@ let
         "Cg24ogEO" = _Cg24ogEO;
         "XY3d96wF" = _XY3d96wF;
         "qyQ60xi6" = _qyQ60xi6;
-        "forge-1.19.2" = _jkvFk8g3;
-        "forge-1.20.1" = _XY3d96wF;
-        "neoforge-1.21.1" = _qyQ60xi6;
+        "4w2D4hoA" = _4w2D4hoA;
+        "NzGNYehu" = _NzGNYehu;
+        "Y4qC8TzN" = _Y4qC8TzN;
+        "forge-1.19.2" = _Y4qC8TzN;
+        "forge-1.20.1" = _4w2D4hoA;
+        "neoforge-1.21.1" = _NzGNYehu;
         "pkg-v0.9.0-1.19.2" = _VVdJmZNZ;
         "pkg-v0.9.1-1.19.2" = _RkcJogJV;
         "pkg-v0.9.2-1.19.2" = _XMrDuQLl;
@@ -103,7 +121,10 @@ let
         "pkg-v1.0.0-1.21.1" = _Cg24ogEO;
         "pkg-v1.1.2-1.20.1" = _XY3d96wF;
         "pkg-v1.0.1-1.21.1" = _qyQ60xi6;
-        "default" = _qyQ60xi6;
+        "pkg-v1.1.3-1.20.1" = _4w2D4hoA;
+        "pkg-v1.0.2-1.21.1" = _NzGNYehu;
+        "pkg-v1.0.1-1.19.2" = _Y4qC8TzN;
+        "default" = _Y4qC8TzN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chikas-plants-mod";

@@ -601,6 +601,21 @@ let
             "file" = "Tinted Campfires-neoforge-26.2-1.1.0.jar";
             "hash" = "sha512-P4vQuR4EqewfmUFE0Z/tBrMZOXFQMFAIvMgLsHNcv21Cw4ISgKFIdspfCH/q0Im1fZOGlld77un93gt2+yVlLg==";
         };
+        _xrD8Nc29 = {
+            "id" = "xrD8Nc29";
+            "file" = "Tinted Campfires-fabric-26.3-1.1.0.jar";
+            "hash" = "sha512-3kC0soU1Hn7spQ2VgTMfCjUJ/hVBz2biiM3TVTbOAzc0vD3EoUfUU4YyXy/KVSjSVdaChR1n9szNRRA7W5rB1Q==";
+        };
+        _9lXUrPVb = {
+            "id" = "9lXUrPVb";
+            "file" = "Tinted Campfires-forge-26.3-1.0.0.jar";
+            "hash" = "sha512-nEoQ4Xy6SPdISXfaZOyVn8P3YyH+6Vbh/3Tr0KyDY012OOJA+0fHXbU6VcuhyRdWwOG66eswAE5HaqSvfv24dA==";
+        };
+        _wtooMLij = {
+            "id" = "wtooMLij";
+            "file" = "Tinted Campfires-neoforge-26.3-1.1.0.jar";
+            "hash" = "sha512-ei/H6zBAI3noIcKBKQDiH+AsxMOzgygG0Wmz97+S1MIZ7/1vKndUcXVq0zAAzoccorBz4Lm3Kn59GOTgyNOYhA==";
+        };
     in {
         "b7qmjhn9" = _b7qmjhn9;
         "cc5Hpt8B" = _cc5Hpt8B;
@@ -722,6 +737,9 @@ let
         "UBCq4Muc" = _UBCq4Muc;
         "dpKoEOGP" = _dpKoEOGP;
         "QLK6PJYt" = _QLK6PJYt;
+        "xrD8Nc29" = _xrD8Nc29;
+        "9lXUrPVb" = _9lXUrPVb;
+        "wtooMLij" = _wtooMLij;
         "forge-1.19.2" = _e8k4ImfE;
         "forge-1.19.4" = _Le9OkGcA;
         "forge-1.20" = _hrg95HJZ;
@@ -744,6 +762,7 @@ let
         "forge-1.21.11" = _l03l8Yuf;
         "forge-26.1.2" = _99HXymSL;
         "forge-26.2" = _dpKoEOGP;
+        "forge-26.3" = _9lXUrPVb;
         "neoforge-1.20.2" = _gSvlwlQi;
         "neoforge-1.20.3" = _REza6mwf;
         "neoforge-1.20.4" = _ij440MFJ;
@@ -763,6 +782,7 @@ let
         "neoforge-26.1.1" = _2mdEStLt;
         "neoforge-26.1.2" = _tw4OdKot;
         "neoforge-26.2" = _QLK6PJYt;
+        "neoforge-26.3" = _wtooMLij;
         "fabric-1.20.2" = _cxMxuVb0;
         "fabric-1.20.3" = _WLdvNEio;
         "fabric-1.20.4" = _KlzHcowb;
@@ -782,6 +802,7 @@ let
         "fabric-26.1.1" = _QNmFcx8Y;
         "fabric-26.1.2" = _XVUz29EM;
         "fabric-26.2" = _UBCq4Muc;
+        "fabric-26.3" = _xrD8Nc29;
         "pkg-1.19.2-1.2.6" = _b7qmjhn9;
         "pkg-1.19.4-1.2.8" = _cc5Hpt8B;
         "pkg-1.20-1.2.8" = _Aj3Z1lYO;
@@ -800,7 +821,7 @@ let
         "pkg-1.20-1.2.11" = _hrg95HJZ;
         "pkg-1.20.1-1.2.11" = _aCiVlL3X;
         "pkg-1.2.11" = _SFOshEHW;
-        "pkg-1.0.0" = _dpKoEOGP;
+        "pkg-1.0.0" = _9lXUrPVb;
         "pkg-1.2.12" = _ZAl1Qcn1;
         "pkg-1.0.1" = _TpY3wq9A;
         "pkg-1.2.13" = _NODtME5d;
@@ -809,8 +830,8 @@ let
         "pkg-1.0.3" = _QNpke3g1;
         "pkg-1.2.15" = _Ewktsxrz;
         "pkg-1.0.4" = _34cs5muB;
-        "pkg-1.1.0" = _QLK6PJYt;
-        "default" = _QLK6PJYt;
+        "pkg-1.1.0" = _wtooMLij;
+        "default" = _wtooMLij;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tinted-campfires";

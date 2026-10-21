@@ -76,6 +76,16 @@ let
             "file" = "WinterParticles-1.10.jar";
             "hash" = "sha512-++Xr1Ka9W8HFr4sYh5kJUEPcDcLtd3Hn/wOvpZ4G2iWVzmBnQYzC8GIxBHzlYcT3GK1agm7Z3DJOVqnVY/WssQ==";
         };
+        _l08tydEC = {
+            "id" = "l08tydEC";
+            "file" = "WinterParticles-1.11.jar";
+            "hash" = "sha512-4RXpkRMLo9+dz/iAr7nMfDu2nie9VmSMfY/8H+z0y6nBs8QO9wyWSRbvaa6Q9PNf/ecmbxw1J4qxD7wfRsB5tA==";
+        };
+        _QpPEg4mf = {
+            "id" = "QpPEg4mf";
+            "file" = "WinterParticles-26.x-port-1.11.jar";
+            "hash" = "sha512-g1bob5RCPs7kKhCykDOenbZHDy1w2z+XOclv/S9EIiMegZsU0/MfG+/1kU0OIPnNRIeTvKHrM+W26/RNVQVGGg==";
+        };
     in {
         "Kz8B6Niq" = _Kz8B6Niq;
         "Npo6O37n" = _Npo6O37n;
@@ -92,18 +102,20 @@ let
         "s3d6RYHp" = _s3d6RYHp;
         "8OYZl6gi" = _8OYZl6gi;
         "D6fR2nMd" = _D6fR2nMd;
-        "fabric-1.21" = _D6fR2nMd;
-        "fabric-1.21.1" = _D6fR2nMd;
-        "fabric-1.21.2" = _D6fR2nMd;
-        "fabric-1.21.3" = _D6fR2nMd;
-        "fabric-1.21.4" = _D6fR2nMd;
-        "fabric-1.21.5" = _D6fR2nMd;
-        "fabric-1.21.6" = _D6fR2nMd;
-        "fabric-1.21.7" = _D6fR2nMd;
-        "fabric-1.21.8" = _D6fR2nMd;
-        "fabric-1.21.9" = _D6fR2nMd;
-        "fabric-1.21.10" = _D6fR2nMd;
-        "fabric-1.21.11" = _D6fR2nMd;
+        "l08tydEC" = _l08tydEC;
+        "QpPEg4mf" = _QpPEg4mf;
+        "fabric-1.21" = _l08tydEC;
+        "fabric-1.21.1" = _l08tydEC;
+        "fabric-1.21.2" = _l08tydEC;
+        "fabric-1.21.3" = _l08tydEC;
+        "fabric-1.21.4" = _l08tydEC;
+        "fabric-1.21.5" = _l08tydEC;
+        "fabric-1.21.6" = _l08tydEC;
+        "fabric-1.21.7" = _l08tydEC;
+        "fabric-1.21.8" = _l08tydEC;
+        "fabric-1.21.9" = _l08tydEC;
+        "fabric-1.21.10" = _l08tydEC;
+        "fabric-1.21.11" = _l08tydEC;
         "fabric-1.20" = _AOqEPcxG;
         "fabric-1.20.1" = _AOqEPcxG;
         "fabric-1.20.2" = _AOqEPcxG;
@@ -111,10 +123,10 @@ let
         "fabric-1.20.4" = _AOqEPcxG;
         "fabric-1.20.5" = _AOqEPcxG;
         "fabric-1.20.6" = _AOqEPcxG;
-        "fabric-26.1" = _8OYZl6gi;
-        "fabric-26.1.1" = _8OYZl6gi;
-        "fabric-26.1.2" = _8OYZl6gi;
-        "fabric-26.2" = _8OYZl6gi;
+        "fabric-26.1" = _QpPEg4mf;
+        "fabric-26.1.1" = _QpPEg4mf;
+        "fabric-26.1.2" = _QpPEg4mf;
+        "fabric-26.2" = _QpPEg4mf;
         "pkg-1.0" = _Kz8B6Niq;
         "pkg-1.1" = _Npo6O37n;
         "pkg-1.2" = _AOqEPcxG;
@@ -126,7 +138,8 @@ let
         "pkg-1.8" = _K9NdOAVr;
         "pkg-1.9" = _s3d6RYHp;
         "pkg-1.10" = _D6fR2nMd;
-        "default" = _D6fR2nMd;
+        "pkg-1.11" = _QpPEg4mf;
+        "default" = _QpPEg4mf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "winter-particles";

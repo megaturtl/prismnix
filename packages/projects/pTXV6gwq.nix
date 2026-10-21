@@ -931,6 +931,11 @@ let
             "file" = "easy_mob_spawn_control-1.6.2.jar";
             "hash" = "sha512-3NY1zgXuUgAghQ0aKBrqZie/HmzjVumbY7oBGy5VGZEwqLZVI902XlL4tWKgGHqJfa+VHNwbuTdCgRe/4kxN5g==";
         };
+        _j2X9K26h = {
+            "id" = "j2X9K26h";
+            "file" = "easy_mob_spawn_control-1.6.2-1.jar";
+            "hash" = "sha512-qkRFWQbAjsdMKkolkMU5IPezGd7nFN6NNMV8w+1/6ovYRIQRLJXNuJYY98Q5nVAPEO1g+YOx43Zf8+92l8yV8g==";
+        };
     in {
         "f5em2Lr6" = _f5em2Lr6;
         "S6YXclM6" = _S6YXclM6;
@@ -1118,13 +1123,14 @@ let
         "BF9W0z82" = _BF9W0z82;
         "SJQW7lPE" = _SJQW7lPE;
         "jowCaR2N" = _jowCaR2N;
+        "j2X9K26h" = _j2X9K26h;
         "forge-1.20.1" = _4NHg067j;
         "forge-1.19.2" = _eTH97Zun;
         "neoforge-1.21.1" = _mfDzYK72;
         "neoforge-26.1" = _Lw9N61g2;
         "neoforge-1.21.11" = _jowCaR2N;
         "neoforge-26.2" = _MzGVPSVx;
-        "neoforge-26.3" = _swlUYm3B;
+        "neoforge-26.3" = _j2X9K26h;
         "neoforge-26.1.1" = _Lw9N61g2;
         "neoforge-26.1.2" = _Lw9N61g2;
         "neoforge-1.21.4" = _YB25yOUh;
@@ -1201,7 +1207,8 @@ let
         "pkg-1.6.1-2" = _ziRkPtqJ;
         "pkg-1.6.1-3" = _CCZPOKVq;
         "pkg-1.6.2" = _jowCaR2N;
-        "default" = _jowCaR2N;
+        "pkg-1.6.2-1" = _j2X9K26h;
+        "default" = _j2X9K26h;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "easy-mob-spawn-control";

@@ -31,6 +31,11 @@ let
             "file" = "leafsvariants-1.0.0.jar";
             "hash" = "sha512-QV7S3HDX8/87Y7BunjcnWBF2MzGJCG684ZmRd4Zou6TIAKwzLhrtxm5WYGRo9hcH9EutgB5SJU1CniS3K0ZGvw==";
         };
+        _G1n8zcKm = {
+            "id" = "G1n8zcKm";
+            "file" = "leafsvariants-1.0.0.jar";
+            "hash" = "sha512-fd5E17+nUfIsWdnm5yvesevXaQxn3V5d9cOVdBdcnh29ajBemZFPfoBQjThOQAgIh1sjb0KQbxpZ+3ncO8taDw==";
+        };
     in {
         "1lE4lAlc" = _1lE4lAlc;
         "wekujsCZ" = _wekujsCZ;
@@ -38,14 +43,16 @@ let
         "vkcQbfRw" = _vkcQbfRw;
         "ACSnsc9M" = _ACSnsc9M;
         "YKuqz9L8" = _YKuqz9L8;
-        "forge-1.18.2" = _YKuqz9L8;
+        "G1n8zcKm" = _G1n8zcKm;
+        "forge-1.18.2" = _G1n8zcKm;
         "pkg-1.0.0" = _1lE4lAlc;
         "pkg-1.2.0" = _wekujsCZ;
         "pkg-1.3.0" = _pzH9MR5k;
         "pkg-1.4.0" = _vkcQbfRw;
         "pkg-1.5.0" = _ACSnsc9M;
         "pkg-1.6.0" = _YKuqz9L8;
-        "default" = _YKuqz9L8;
+        "pkg-1.7" = _G1n8zcKm;
+        "default" = _G1n8zcKm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "leafs-variants";

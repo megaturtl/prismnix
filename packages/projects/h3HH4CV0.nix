@@ -51,6 +51,11 @@ let
             "file" = "Excalibur Vanilla  Copper Age Backport 2.0.zip";
             "hash" = "sha512-xYedp2Gk6Avueve4eK4BwszvFCBniPhoydck8tzEsm+d675GsdaCHWk3rv8Vs5/202S6wVJG79ChrG+/XZZEPg==";
         };
+        _M8L8v7tK = {
+            "id" = "M8L8v7tK";
+            "file" = "Excalibur Vanilla  Copper Age Backport 2.1.zip";
+            "hash" = "sha512-/3/B5Ne1zizEV3fhLbp5D06CbjhkhsHa7pOLEobloBVdduNb0l9vsejt/JZUghxbfoCOz42dPRrw4Jsn3gDqMg==";
+        };
     in {
         "Ajwh8pAP" = _Ajwh8pAP;
         "5xLdIhCT" = _5xLdIhCT;
@@ -62,9 +67,10 @@ let
         "yC306QAh" = _yC306QAh;
         "5xOmbp2s" = _5xOmbp2s;
         "1cYlxYB1" = _1cYlxYB1;
-        "minecraft-1.20.1" = _1cYlxYB1;
-        "minecraft-1.21.1" = _1cYlxYB1;
-        "minecraft-1.21" = _1cYlxYB1;
+        "M8L8v7tK" = _M8L8v7tK;
+        "minecraft-1.20.1" = _M8L8v7tK;
+        "minecraft-1.21.1" = _M8L8v7tK;
+        "minecraft-1.21" = _M8L8v7tK;
         "pkg-1.0" = _Ajwh8pAP;
         "pkg-1.2" = _5xLdIhCT;
         "pkg-1.3" = _zkfakpWL;
@@ -75,7 +81,8 @@ let
         "pkg-1.8" = _yC306QAh;
         "pkg-1.9" = _5xOmbp2s;
         "pkg-2.0" = _1cYlxYB1;
-        "default" = _1cYlxYB1;
+        "pkg-2.1" = _M8L8v7tK;
+        "default" = _M8L8v7tK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "excal-vanilla-backport-support";

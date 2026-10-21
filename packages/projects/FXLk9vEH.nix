@@ -696,6 +696,11 @@ let
             "file" = "MagicDoorknob-26.2.0-1.0.0.2622.jar";
             "hash" = "sha512-PMjZn/5J47VkL0mBD5Oqhv5/m1z5Cvs61raThXkIlaB+pxSSNjOrpTKcxjLjmmJ0+dhZ3FMXbiPEhiK/a2bKcw==";
         };
+        _HmzeNnbX = {
+            "id" = "HmzeNnbX";
+            "file" = "MagicDoorknob-26.3.0-1.0.0.2753.jar";
+            "hash" = "sha512-tFJNlXFu9uJ67SOFrA+LUPymaOC0Ny3+COBCQogCXLIf0772V0dDj0wjVyaWFVHc6ZYBQ9TzcEAErPch6t/kOQ==";
+        };
     in {
         "qFCgLcHF" = _qFCgLcHF;
         "3xZDqa4x" = _3xZDqa4x;
@@ -836,6 +841,7 @@ let
         "6JH9rnWP" = _6JH9rnWP;
         "z67j7Ei6" = _z67j7Ei6;
         "8Jo1Tlal" = _8Jo1Tlal;
+        "HmzeNnbX" = _HmzeNnbX;
         "forge-1.20.1" = _hwJN2uDT;
         "forge-1.12.2" = _3xZDqa4x;
         "forge-1.14.4" = _vdZgdCtf;
@@ -859,6 +865,7 @@ let
         "neoforge-1.21.11" = _aKo1uucz;
         "neoforge-26.1.2" = _z67j7Ei6;
         "neoforge-26.2" = _8Jo1Tlal;
+        "neoforge-26.3" = _HmzeNnbX;
         "pkg-1.20.1-1.0.1.797" = _qFCgLcHF;
         "pkg-0.0.4.548" = _3xZDqa4x;
         "pkg-0.1.0.663" = _ZOiflGom;
@@ -998,7 +1005,8 @@ let
         "pkg-1.21.1-2.0.1.2607" = _6JH9rnWP;
         "pkg-26.1.2-1.0.0.2613" = _z67j7Ei6;
         "pkg-26.2.0-1.0.0.2622" = _8Jo1Tlal;
-        "default" = _8Jo1Tlal;
+        "pkg-26.3.0-1.0.0.2753" = _HmzeNnbX;
+        "default" = _HmzeNnbX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-magic-doorknob";

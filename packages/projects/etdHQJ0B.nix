@@ -491,6 +491,46 @@ let
             "file" = "mapstitch-fabric-1.1.7+26.2.jar";
             "hash" = "sha512-3WEXoqcrQmSoKJqgxPR+NQoJCCjFbhCE99KkwQOtM+U3Pr0OL/V335ztzUk/eLhGzufj/1nlM6ql3I7uFZGV/g==";
         };
+        _5G8bu7Nt = {
+            "id" = "5G8bu7Nt";
+            "file" = "mapstitch-neoforge-1.2.0+26.1.2.jar";
+            "hash" = "sha512-LWMoiMgTClk7OqXR5SqeKI5AemTxUEzohWPQP+ayEtfuuj3F2JtGkM43c9CRaC7S/LhZORlopxzAuyjMoHRqzg==";
+        };
+        _eysqiUKs = {
+            "id" = "eysqiUKs";
+            "file" = "mapstitch-fabric-1.2.0+26.2.jar";
+            "hash" = "sha512-xzgDSBWjarjhVnllbMPkypDUKPHb1Pa5Evfzu3/ljnwfaeWp6ZFqDRdtceaNcjx/aRIneb1aQH9YYlhck9KYow==";
+        };
+        _XgQNqjtg = {
+            "id" = "XgQNqjtg";
+            "file" = "mapstitch-fabric-1.2.0+26.3.jar";
+            "hash" = "sha512-r+xKORg+vu/hWw8c0xNawtBXDPXk44Yh9PxH0xV6rs8YYwCJHC3DvhmRVDiolBathxNEdFdBnPRnK080cTX5Rw==";
+        };
+        _iF1NkSQ6 = {
+            "id" = "iF1NkSQ6";
+            "file" = "mapstitch-fabric-1.2.0+1.21.1.jar";
+            "hash" = "sha512-pe+Gs0hSijZxH0ELNP985Od8cOt/V2qA2K6ljQ5NGfSj0OeyYf/FP9RMiAB058Cms3kxb22v47G305YdwxpH0g==";
+        };
+        _Vt3DNdyp = {
+            "id" = "Vt3DNdyp";
+            "file" = "mapstitch-fabric-1.2.0+26.1.2.jar";
+            "hash" = "sha512-3PLcT0LcFUi2KA4ObdP9xkMoGDZulW23s78y6jN838fuz+cfdyVDDiyKXu33FR4GpjCuvBGhPxl6bQ6ZtAPLzA==";
+        };
+        _uGGnhvmY = {
+            "id" = "uGGnhvmY";
+            "file" = "mapstitch-neoforge-1.2.0+26.2.jar";
+            "hash" = "sha512-QPR2Hh8ERl3muJJ4DgUGJ1cqyq+ixo6zzWbUjjUUkXeUnhOykzCLhye/Pd2hCm/8vuxob1Epm/Epntez+hMRqA==";
+        };
+        _rpbhU8b8 = {
+            "id" = "rpbhU8b8";
+            "file" = "mapstitch-neoforge-1.2.0+26.3.jar";
+            "hash" = "sha512-vSa5RehlrD1qOunTya+3IgDSTGWXMN+O8eNc31PCkq4b2X0xisNLVhMc6ZMfI//56CTukQsYqxQvTcTPbrvKiA==";
+        };
+        _TRsMiTjt = {
+            "id" = "TRsMiTjt";
+            "file" = "mapstitch-neoforge-1.2.0+1.21.1.jar";
+            "hash" = "sha512-XQ1V0imD4P0cob4RQ+ce717+9PMatmilBUVOunXxvw0/tdLx+66dLmFsrFiIR6rsxNW0lmCqEWbQL/QhEMW2eA==";
+        };
     in {
         "CAswwO1q" = _CAswwO1q;
         "YYEqTJa0" = _YYEqTJa0;
@@ -590,19 +630,28 @@ let
         "XCLI1dyk" = _XCLI1dyk;
         "oDB5IJ7O" = _oDB5IJ7O;
         "fjluFJJH" = _fjluFJJH;
-        "neoforge-26.1.2" = _bFVor7vu;
-        "neoforge-1.21.1" = _cQ6kGy5y;
-        "neoforge-26.1" = _bFVor7vu;
-        "neoforge-26.1.1" = _bFVor7vu;
-        "neoforge-1.21" = _cQ6kGy5y;
-        "neoforge-26.2" = _dZyI6WH2;
-        "fabric-26.2" = _fjluFJJH;
-        "fabric-26.1.2" = _xjxYA6LO;
-        "fabric-1.21" = _XCLI1dyk;
-        "fabric-1.21.1" = _XCLI1dyk;
-        "fabric-26.1" = _xjxYA6LO;
-        "fabric-26.1.1" = _xjxYA6LO;
-        "fabric-26.3" = _oDB5IJ7O;
+        "5G8bu7Nt" = _5G8bu7Nt;
+        "eysqiUKs" = _eysqiUKs;
+        "XgQNqjtg" = _XgQNqjtg;
+        "iF1NkSQ6" = _iF1NkSQ6;
+        "Vt3DNdyp" = _Vt3DNdyp;
+        "uGGnhvmY" = _uGGnhvmY;
+        "rpbhU8b8" = _rpbhU8b8;
+        "TRsMiTjt" = _TRsMiTjt;
+        "neoforge-26.1.2" = _5G8bu7Nt;
+        "neoforge-1.21.1" = _TRsMiTjt;
+        "neoforge-26.1" = _5G8bu7Nt;
+        "neoforge-26.1.1" = _5G8bu7Nt;
+        "neoforge-1.21" = _TRsMiTjt;
+        "neoforge-26.2" = _uGGnhvmY;
+        "neoforge-26.3" = _rpbhU8b8;
+        "fabric-26.2" = _eysqiUKs;
+        "fabric-26.1.2" = _Vt3DNdyp;
+        "fabric-1.21" = _iF1NkSQ6;
+        "fabric-1.21.1" = _iF1NkSQ6;
+        "fabric-26.1" = _Vt3DNdyp;
+        "fabric-26.1.1" = _Vt3DNdyp;
+        "fabric-26.3" = _XgQNqjtg;
         "pkg-1.0.0+26.1.2-neoforge" = _CAswwO1q;
         "pkg-1.0.0+26.2-fabric" = _YYEqTJa0;
         "pkg-1.0.0+26.1.2-fabric" = _voRSQNiZ;
@@ -677,7 +726,11 @@ let
         "pkg-1.1.7+26.1.2" = _xjxYA6LO;
         "pkg-1.1.7+1.21.1" = _XCLI1dyk;
         "pkg-1.1.7+26.3" = _oDB5IJ7O;
-        "default" = _fjluFJJH;
+        "pkg-1.2.0+26.1.2" = _Vt3DNdyp;
+        "pkg-1.2.0+26.2" = _uGGnhvmY;
+        "pkg-1.2.0+26.3" = _rpbhU8b8;
+        "pkg-1.2.0+1.21.1" = _TRsMiTjt;
+        "default" = _TRsMiTjt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mapstitch";

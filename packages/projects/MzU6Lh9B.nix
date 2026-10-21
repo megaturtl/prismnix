@@ -151,6 +151,16 @@ let
             "file" = "antos-neoforge-1.21.1-1.4.5.jar";
             "hash" = "sha512-AhSE9oXmB+LqiUpedNjWQlqdVWsnlzKfC4C7FKwVK0WLj19/LmMdkEsFy+Nx4xxfBJeqoilFa1oUa+W66iov0Q==";
         };
+        _mZKwiigv = {
+            "id" = "mZKwiigv";
+            "file" = "antos-neoforge-1.21.1-1.4.6.jar";
+            "hash" = "sha512-QPbkgbneV0gSq5g4GkX6XVY6g8HWYne/TWqOuxKrhydf1V2vdYt6CYI0vIFKMauU2aMcw1ofYYIr4PI2xD3t3Q==";
+        };
+        _xN7LDHQ5 = {
+            "id" = "xN7LDHQ5";
+            "file" = "antos-fabric-1.21.1-1.4.6.jar";
+            "hash" = "sha512-HJjNTF/9DA2U8LuMaaKVIBgZp01rNSzaoM54nX9tnyX0O2nmJAfI2wrWkPil1ILYOWGCdgsey9y4XxpNUKyW/w==";
+        };
     in {
         "wXA8Z4N3" = _wXA8Z4N3;
         "wh77H1tX" = _wh77H1tX;
@@ -182,8 +192,10 @@ let
         "QHRy15rp" = _QHRy15rp;
         "g54UOzs1" = _g54UOzs1;
         "Oi0rEz8H" = _Oi0rEz8H;
-        "neoforge-1.21.1" = _Oi0rEz8H;
-        "fabric-1.21.1" = _g54UOzs1;
+        "mZKwiigv" = _mZKwiigv;
+        "xN7LDHQ5" = _xN7LDHQ5;
+        "neoforge-1.21.1" = _mZKwiigv;
+        "fabric-1.21.1" = _xN7LDHQ5;
         "forge-1.20.1" = _QHRy15rp;
         "pkg-1.1.0" = _wh77H1tX;
         "pkg-1.1.1" = _aOZ2En8v;
@@ -197,7 +209,8 @@ let
         "pkg-1.4.3" = _GY2tOjTp;
         "pkg-1.4.4" = _ZJeVszZW;
         "pkg-1.4.5" = _Oi0rEz8H;
-        "default" = _Oi0rEz8H;
+        "pkg-1.4.6" = _xN7LDHQ5;
+        "default" = _xN7LDHQ5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "antos";

@@ -81,6 +81,16 @@ let
             "file" = "BCLib-20.0.15-forge.jar";
             "hash" = "sha512-2E1+b6MR0RY1NbBUgt0AzyQGjWrGD2I8VIaRL8yy7KtPvWA+atXuWm4N1RIrTDc89jbROrb1YrtksAqLhJF4xA==";
         };
+        _jOvRCohy = {
+            "id" = "jOvRCohy";
+            "file" = "BCLib-20.0.16-fabric.jar";
+            "hash" = "sha512-2bF26afVRV4W4ggu6emfNW8eZivMM71OVgw8cnV9ZMoYzoWc7equGB6+RCrs27VDy06vhvxhlAGAB4OXL1B6Pg==";
+        };
+        _XALK8REZ = {
+            "id" = "XALK8REZ";
+            "file" = "BCLib-20.0.16-forge.jar";
+            "hash" = "sha512-4/kG4iGBY2p4r6PAkpqpr/ARkYEKMlQGW4qy3W8MjrsNw6cw9KlkQObesVf1Divtof20s7heSRq3VPNd2c/LFA==";
+        };
     in {
         "BihAwamG" = _BihAwamG;
         "j1k5uYYe" = _j1k5uYYe;
@@ -98,12 +108,14 @@ let
         "VlDWdMk5" = _VlDWdMk5;
         "pdsS0Uhz" = _pdsS0Uhz;
         "p9nVoqfX" = _p9nVoqfX;
-        "forge-1.20.1" = _p9nVoqfX;
-        "forge-1.20" = _p9nVoqfX;
-        "fabric-1.20" = _pdsS0Uhz;
-        "fabric-1.20.1" = _pdsS0Uhz;
-        "quilt-1.20" = _pdsS0Uhz;
-        "quilt-1.20.1" = _pdsS0Uhz;
+        "jOvRCohy" = _jOvRCohy;
+        "XALK8REZ" = _XALK8REZ;
+        "forge-1.20.1" = _XALK8REZ;
+        "forge-1.20" = _XALK8REZ;
+        "fabric-1.20" = _jOvRCohy;
+        "fabric-1.20.1" = _jOvRCohy;
+        "quilt-1.20" = _jOvRCohy;
+        "quilt-1.20.1" = _jOvRCohy;
         "pkg-20.0.1" = _BihAwamG;
         "pkg-20.0.2" = _j1k5uYYe;
         "pkg-20.0.3" = _648XJxmC;
@@ -120,7 +132,9 @@ let
         "pkg-20.0.14-fabric" = _VlDWdMk5;
         "pkg-20.0.15-fabric" = _pdsS0Uhz;
         "pkg-20.0.15" = _p9nVoqfX;
-        "default" = _p9nVoqfX;
+        "pkg-20.0.16-fabric" = _jOvRCohy;
+        "pkg-20.0.16" = _XALK8REZ;
+        "default" = _XALK8REZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bclib-forge";

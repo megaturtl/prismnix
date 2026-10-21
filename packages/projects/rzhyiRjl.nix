@@ -161,6 +161,21 @@ let
             "file" = "serilumsrpgbundle-26.3.0-3.1.jar";
             "hash" = "sha512-4+FKkkVm3ndrGJEE7JjsVCGAUGfdKw7XuDLPLrPLHEy24OD8y0F7lLdphOjqf/F626VM1KKNBL1MDcdDzklkyA==";
         };
+        _V9WcvLcs = {
+            "id" = "V9WcvLcs";
+            "file" = "serilumsrpgbundle-1.21.1-3.2.jar";
+            "hash" = "sha512-Q3f+iOcIHRe90SEFBY6zwaY58/gKbtoVV9pIIJX1RnQW19ctKcnSS4WLSRYXtlHQo4b2iP3c5RtN3bruvvCaFQ==";
+        };
+        _fvo2d9kS = {
+            "id" = "fvo2d9kS";
+            "file" = "serilumsrpgbundle-26.2.0-3.2.jar";
+            "hash" = "sha512-sWbX2sSOkOxOP28ai8tuwp8sANWn5n9hQIaZgOqBZz6HZh7VAvKaDHXhtjiR47ne8twJvydKpn+Mhw8/aNaNKw==";
+        };
+        _KRvPBip9 = {
+            "id" = "KRvPBip9";
+            "file" = "serilumsrpgbundle-26.3.0-3.2.jar";
+            "hash" = "sha512-aOSnqCYRUXq08TOnBJScwCCAAlwhKYodVmetUDeKmGp7VESrJGEj5dlIR/lQK6e50XWy2uZSMeqEx4LaRVXJ9A==";
+        };
     in {
         "TQM3I0Md" = _TQM3I0Md;
         "tBasOa63" = _tBasOa63;
@@ -194,8 +209,11 @@ let
         "pBI9DqJ0" = _pBI9DqJ0;
         "h8F65P7U" = _h8F65P7U;
         "cnd1mYeE" = _cnd1mYeE;
-        "fabric-1.21" = _pBI9DqJ0;
-        "fabric-1.21.1" = _pBI9DqJ0;
+        "V9WcvLcs" = _V9WcvLcs;
+        "fvo2d9kS" = _fvo2d9kS;
+        "KRvPBip9" = _KRvPBip9;
+        "fabric-1.21" = _V9WcvLcs;
+        "fabric-1.21.1" = _V9WcvLcs;
         "fabric-1.21.4" = _9gtnnRi4;
         "fabric-1.21.5" = _Q9Qv3ngO;
         "fabric-1.21.6" = _mzO0xSH0;
@@ -203,10 +221,10 @@ let
         "fabric-1.21.8" = _MEgr2Dmv;
         "fabric-1.21.11" = _IgAT3I8q;
         "fabric-26.1.2" = _8DDwzNkb;
-        "fabric-26.2" = _h8F65P7U;
-        "fabric-26.3" = _cnd1mYeE;
-        "forge-1.21" = _pBI9DqJ0;
-        "forge-1.21.1" = _pBI9DqJ0;
+        "fabric-26.2" = _fvo2d9kS;
+        "fabric-26.3" = _KRvPBip9;
+        "forge-1.21" = _V9WcvLcs;
+        "forge-1.21.1" = _V9WcvLcs;
         "forge-1.21.4" = _9gtnnRi4;
         "forge-1.21.5" = _Q9Qv3ngO;
         "forge-1.21.6" = _mzO0xSH0;
@@ -214,10 +232,10 @@ let
         "forge-1.21.8" = _MEgr2Dmv;
         "forge-1.21.11" = _IgAT3I8q;
         "forge-26.1.2" = _8DDwzNkb;
-        "forge-26.2" = _h8F65P7U;
-        "forge-26.3" = _cnd1mYeE;
-        "neoforge-1.21" = _pBI9DqJ0;
-        "neoforge-1.21.1" = _pBI9DqJ0;
+        "forge-26.2" = _fvo2d9kS;
+        "forge-26.3" = _KRvPBip9;
+        "neoforge-1.21" = _V9WcvLcs;
+        "neoforge-1.21.1" = _V9WcvLcs;
         "neoforge-1.21.4" = _9gtnnRi4;
         "neoforge-1.21.5" = _Q9Qv3ngO;
         "neoforge-1.21.6" = _mzO0xSH0;
@@ -225,10 +243,10 @@ let
         "neoforge-1.21.8" = _MEgr2Dmv;
         "neoforge-1.21.11" = _IgAT3I8q;
         "neoforge-26.1.2" = _8DDwzNkb;
-        "neoforge-26.2" = _h8F65P7U;
-        "neoforge-26.3" = _cnd1mYeE;
-        "quilt-1.21" = _pBI9DqJ0;
-        "quilt-1.21.1" = _pBI9DqJ0;
+        "neoforge-26.2" = _fvo2d9kS;
+        "neoforge-26.3" = _KRvPBip9;
+        "quilt-1.21" = _V9WcvLcs;
+        "quilt-1.21.1" = _V9WcvLcs;
         "quilt-1.21.4" = _9gtnnRi4;
         "quilt-1.21.5" = _Q9Qv3ngO;
         "quilt-1.21.6" = _mzO0xSH0;
@@ -236,8 +254,8 @@ let
         "quilt-1.21.8" = _MEgr2Dmv;
         "quilt-1.21.11" = _IgAT3I8q;
         "quilt-26.1.2" = _8DDwzNkb;
-        "quilt-26.2" = _h8F65P7U;
-        "quilt-26.3" = _cnd1mYeE;
+        "quilt-26.2" = _fvo2d9kS;
+        "quilt-26.3" = _KRvPBip9;
         "pkg-1.21.0-1.0-fabric+forge+neo" = _TQM3I0Md;
         "pkg-1.21.0-1.1-fabric+forge+neo" = _tBasOa63;
         "pkg-1.21.0-2.0-fabric+forge+neo" = _Mdl31rC0;
@@ -270,7 +288,10 @@ let
         "pkg-1.21.1-3.0-fabric+forge+neo" = _pBI9DqJ0;
         "pkg-26.2.0-3.1-fabric+forge+neo" = _h8F65P7U;
         "pkg-26.3.0-3.1-fabric+forge+neo" = _cnd1mYeE;
-        "default" = _cnd1mYeE;
+        "pkg-1.21.1-3.2-fabric+forge+neo" = _V9WcvLcs;
+        "pkg-26.2.0-3.2-fabric+forge+neo" = _fvo2d9kS;
+        "pkg-26.3.0-3.2-fabric+forge+neo" = _KRvPBip9;
+        "default" = _KRvPBip9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "serilums-rpg-bundle";

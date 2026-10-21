@@ -86,6 +86,26 @@ let
             "file" = "FreshAnimations_v1.10.5.zip";
             "hash" = "sha512-9PKh0pTC4K/iRbaYf+pKhP8SDxMafyz7FneenMXQoAs9Sb8VhayCfWaQw2Qh6N2iA7DG5kK7DGqgZ8WSHdjcMA==";
         };
+        _KYOqeb1P = {
+            "id" = "KYOqeb1P";
+            "file" = "FreshAnimations_v1.11_1.20+.zip";
+            "hash" = "sha512-YEtFF8h9/DAYC7OTcBBs0wSXD/Q8vWwcDoVzu3HSWYfxiCVtbIngrOdUC7/R2QmGnutv0kb9Be9WWInP78CcpQ==";
+        };
+        _KRebM55x = {
+            "id" = "KRebM55x";
+            "file" = "FreshAnimations_v1.11_26.1+.zip";
+            "hash" = "sha512-gF+znVc5sph+PPNBk0VnUy6Yh19zgBTP2Q7eihq6v6KvY6zhdi0PthR13WfzLdU5BE2A4uPeEC3JS+yg5T6zaA==";
+        };
+        _aQjwvDfY = {
+            "id" = "aQjwvDfY";
+            "file" = "FreshAnimations_v1.11.1_1.20+.zip";
+            "hash" = "sha512-ZBoD1Vw2kgzJpw2JG8yjNHsZaWi8tWN3gfIbQXsf+JPOYGUqvPAr6HKHL8ETDMxnhRVeo7GaDtSE3nFLYinJIg==";
+        };
+        _tvGVYMD4 = {
+            "id" = "tvGVYMD4";
+            "file" = "FreshAnimations_v1.11.1_26.1+.zip";
+            "hash" = "sha512-U1ej28509b22iPPE5vfK224NgdPd5B1GAXmT1bxUVqMlo5o/qtDUcb5R/Mc+OkchjsZO2OACSwks0Re0IvIzVg==";
+        };
     in {
         "s5KTavJK" = _s5KTavJK;
         "KQ9bQsZi" = _KQ9bQsZi;
@@ -104,6 +124,10 @@ let
         "F9QwVhGH" = _F9QwVhGH;
         "xN57JJts" = _xN57JJts;
         "RGIzA5em" = _RGIzA5em;
+        "KYOqeb1P" = _KYOqeb1P;
+        "KRebM55x" = _KRebM55x;
+        "aQjwvDfY" = _aQjwvDfY;
+        "tvGVYMD4" = _tvGVYMD4;
         "minecraft-1.13.2" = _s5KTavJK;
         "minecraft-1.14.4" = _s5KTavJK;
         "minecraft-1.15.2" = _s5KTavJK;
@@ -115,29 +139,30 @@ let
         "minecraft-1.19.1" = _WhoErU2P;
         "minecraft-1.19.2" = _WhoErU2P;
         "minecraft-1.19.4" = _8vtPih5h;
-        "minecraft-1.20" = _xN57JJts;
-        "minecraft-1.20.1" = _xN57JJts;
-        "minecraft-1.20.2" = _xN57JJts;
-        "minecraft-1.20.3" = _xN57JJts;
-        "minecraft-1.20.4" = _xN57JJts;
-        "minecraft-1.20.5" = _xN57JJts;
-        "minecraft-1.20.6" = _xN57JJts;
-        "minecraft-1.21" = _xN57JJts;
-        "minecraft-1.21.1" = _xN57JJts;
-        "minecraft-1.21.2" = _xN57JJts;
-        "minecraft-1.21.3" = _xN57JJts;
-        "minecraft-1.21.4" = _xN57JJts;
-        "minecraft-1.21.5" = _xN57JJts;
-        "minecraft-1.21.6" = _xN57JJts;
-        "minecraft-1.21.7" = _xN57JJts;
-        "minecraft-1.21.8" = _xN57JJts;
-        "minecraft-1.21.9" = _xN57JJts;
-        "minecraft-1.21.10" = _xN57JJts;
-        "minecraft-1.21.11" = _xN57JJts;
-        "minecraft-26.1" = _RGIzA5em;
-        "minecraft-26.1.1" = _RGIzA5em;
-        "minecraft-26.1.2" = _RGIzA5em;
-        "minecraft-26.2" = _RGIzA5em;
+        "minecraft-1.20" = _aQjwvDfY;
+        "minecraft-1.20.1" = _aQjwvDfY;
+        "minecraft-1.20.2" = _aQjwvDfY;
+        "minecraft-1.20.3" = _aQjwvDfY;
+        "minecraft-1.20.4" = _aQjwvDfY;
+        "minecraft-1.20.5" = _aQjwvDfY;
+        "minecraft-1.20.6" = _aQjwvDfY;
+        "minecraft-1.21" = _aQjwvDfY;
+        "minecraft-1.21.1" = _aQjwvDfY;
+        "minecraft-1.21.2" = _aQjwvDfY;
+        "minecraft-1.21.3" = _aQjwvDfY;
+        "minecraft-1.21.4" = _aQjwvDfY;
+        "minecraft-1.21.5" = _aQjwvDfY;
+        "minecraft-1.21.6" = _aQjwvDfY;
+        "minecraft-1.21.7" = _aQjwvDfY;
+        "minecraft-1.21.8" = _aQjwvDfY;
+        "minecraft-1.21.9" = _aQjwvDfY;
+        "minecraft-1.21.10" = _aQjwvDfY;
+        "minecraft-1.21.11" = _aQjwvDfY;
+        "minecraft-26.1" = _tvGVYMD4;
+        "minecraft-26.1.1" = _tvGVYMD4;
+        "minecraft-26.1.2" = _tvGVYMD4;
+        "minecraft-26.2" = _tvGVYMD4;
+        "minecraft-26.3" = _tvGVYMD4;
         "pkg-1.0.0" = _s5KTavJK;
         "pkg-1.6.0" = _KQ9bQsZi;
         "pkg-1.6.1" = _O8LeIQn4;
@@ -155,7 +180,9 @@ let
         "pkg-1.10.3" = _F9QwVhGH;
         "pkg-1.10.4" = _xN57JJts;
         "pkg-1.10.5" = _RGIzA5em;
-        "default" = _RGIzA5em;
+        "pkg-1.11.0" = _KRebM55x;
+        "pkg-1.11.1" = _tvGVYMD4;
+        "default" = _tvGVYMD4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fresh-animations";

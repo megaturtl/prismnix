@@ -256,6 +256,16 @@ let
             "file" = "tretackshop-5.2.0--1.20.1.jar";
             "hash" = "sha512-HjbbsCS24vwYn/J2XGu9yOeWy6hRMJ1jibTdsvBFRJCuKn05Fl3Vh2xOiXl8Q3PSPGkosMJ8aQg4Ih7AOlgvmA==";
         };
+        _l1rrNKZ0 = {
+            "id" = "l1rrNKZ0";
+            "file" = "tretackshop-5.2.1--1.21.1.jar";
+            "hash" = "sha512-P6/2Spia03nbVGPYaxGLOlNtOfdL71FXVu55PTnGHD7lt1fCtxsTjm0vu57mtTvVa7jHgd/l7aw5FPT4nTTuHQ==";
+        };
+        _zi9SbtuH = {
+            "id" = "zi9SbtuH";
+            "file" = "tretackshop-5.2.1--1.20.1.jar";
+            "hash" = "sha512-Pwj5qyYE4FBC9LVAdmafizoj1kTlHYiBnBr6Bw08DVLbPn9mTXK2u7d47VpDuuaG98ohG62iQGYt/AkesPoZoQ==";
+        };
     in {
         "hG1IvE9c" = _hG1IvE9c;
         "4pu8Vd0N" = _4pu8Vd0N;
@@ -308,8 +318,10 @@ let
         "yVa7IR5g" = _yVa7IR5g;
         "XxzVpfaC" = _XxzVpfaC;
         "hToVxUPx" = _hToVxUPx;
+        "l1rrNKZ0" = _l1rrNKZ0;
+        "zi9SbtuH" = _zi9SbtuH;
         "forge-1.18.2" = _L6qh4Vj6;
-        "forge-1.20.1" = _hToVxUPx;
+        "forge-1.20.1" = _zi9SbtuH;
         "forge-1.16.5" = _41NxTAHO;
         "forge-1.18" = _L6qh4Vj6;
         "forge-1.18.1" = _L6qh4Vj6;
@@ -318,8 +330,8 @@ let
         "forge-1.20.4" = _WM5TqeTe;
         "forge-1.20.5" = _WM5TqeTe;
         "forge-1.20.6" = _WM5TqeTe;
-        "neoforge-1.20.1" = _XxzVpfaC;
-        "neoforge-1.21.1" = _pK0HhBsL;
+        "neoforge-1.20.1" = _zi9SbtuH;
+        "neoforge-1.21.1" = _l1rrNKZ0;
         "pkg-0.3.3-BETA" = _hG1IvE9c;
         "pkg-1.0.0--1.18.2" = _4pu8Vd0N;
         "pkg-0.3.0--1.20.1--BETA" = _UoXLgjQe;
@@ -370,7 +382,9 @@ let
         "pkg-5.1.0--1.20.1" = _yVa7IR5g;
         "pkg-5.1.1--1.20.1" = _XxzVpfaC;
         "pkg-5.2.0--1.20.1" = _hToVxUPx;
-        "default" = _hToVxUPx;
+        "pkg-5.2.1--1.21.1" = _l1rrNKZ0;
+        "pkg-5.2.1--1.20.1" = _zi9SbtuH;
+        "default" = _zi9SbtuH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tres-tack-shop";

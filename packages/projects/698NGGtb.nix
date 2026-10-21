@@ -86,6 +86,16 @@ let
             "file" = "vane-core-1.21.1.jar";
             "hash" = "sha512-5tJjuKfeizLPMiCDS4GK39N+G0ftqWjghHECqobzrR16+6u3LNTf0SLiLV/1DZagBT+xqtHPwJvY89hpNiSWbg==";
         };
+        _AJYDir13 = {
+            "id" = "AJYDir13";
+            "file" = "vane-core-1.23.0.jar";
+            "hash" = "sha512-apLr3fC4QAyzU4gwCUDw+0PvFQ4ClCht3X28G2TyUvJyFu1oz7IW9lk7ASwIJ70YNeet0GuPkb+tC5KZp+Atlw==";
+        };
+        _Zn7X0KQK = {
+            "id" = "Zn7X0KQK";
+            "file" = "vane-geyser-extension-1.23.0.jar";
+            "hash" = "sha512-WxuY1G1Gw8XPNLPZryRK2S3lMb3CqkMbstOGb317DoNwe/N/N6CRRJ9p7Sm3R4EeEYUCqTDTZso5V883Myk2CA==";
+        };
     in {
         "phgoNLLt" = _phgoNLLt;
         "AlzUrzCs" = _AlzUrzCs;
@@ -104,6 +114,8 @@ let
         "8brI6wN3" = _8brI6wN3;
         "7iN7nUoH" = _7iN7nUoH;
         "hSyzjZEi" = _hSyzjZEi;
+        "AJYDir13" = _AJYDir13;
+        "Zn7X0KQK" = _Zn7X0KQK;
         "paper-1.19.2" = _phgoNLLt;
         "paper-1.19.3" = _AlzUrzCs;
         "paper-1.19.4" = _trhIpteV;
@@ -118,6 +130,7 @@ let
         "paper-1.21.7" = _Z9TLW1LC;
         "paper-1.21.10" = _8brI6wN3;
         "paper-1.21.11" = _hSyzjZEi;
+        "paper-26.3" = _AJYDir13;
         "purpur-1.19.2" = _phgoNLLt;
         "purpur-1.19.3" = _AlzUrzCs;
         "purpur-1.19.4" = _trhIpteV;
@@ -132,6 +145,7 @@ let
         "purpur-1.21.7" = _Z9TLW1LC;
         "purpur-1.21.10" = _8brI6wN3;
         "purpur-1.21.11" = _hSyzjZEi;
+        "purpur-26.3" = _AJYDir13;
         "waterfall-1.19.2" = _phgoNLLt;
         "waterfall-1.19.3" = _AlzUrzCs;
         "waterfall-1.19.4" = _trhIpteV;
@@ -152,6 +166,8 @@ let
         "velocity-1.21.7" = _Z9TLW1LC;
         "velocity-1.21.10" = _8brI6wN3;
         "velocity-1.21.11" = _7iN7nUoH;
+        "velocity-26.3" = _AJYDir13;
+        "geyser-26.3" = _Zn7X0KQK;
         "pkg-v1.10.1" = _phgoNLLt;
         "pkg-v1.10.3" = _AlzUrzCs;
         "pkg-v1.11.0" = _trhIpteV;
@@ -169,7 +185,9 @@ let
         "pkg-v1.20.0" = _8brI6wN3;
         "pkg-v1.21.0" = _7iN7nUoH;
         "pkg-v1.21.1" = _hSyzjZEi;
-        "default" = _hSyzjZEi;
+        "pkg-v1.23.0" = _AJYDir13;
+        "pkg-v1.23.0-Geyser" = _Zn7X0KQK;
+        "default" = _Zn7X0KQK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vane";

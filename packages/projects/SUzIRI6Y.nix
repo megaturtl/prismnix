@@ -111,6 +111,11 @@ let
             "file" = "MagicalTorches-1.20.1-2.0.4.jar";
             "hash" = "sha512-cpDup7Ihp3VRtanXQkY8oGmE03cKjWCJlzxC6vqC8aBs1Qmvj/4FMpfFKq1B+6Dqexv0U9hhgqA1FXuwtQxFmw==";
         };
+        _wGVFftga = {
+            "id" = "wGVFftga";
+            "file" = "MagicalTorches-26.3-3.0.1.jar";
+            "hash" = "sha512-vcpUburp7B0fqnnqF2o0UFCecMhTc6Jc6ctmTLRooLxmqSZTCmS2hVxf8zHl2+lw7EXleoa0qJ8kUEXiSe39lg==";
+        };
     in {
         "n0bvTGti" = _n0bvTGti;
         "cJybcK7h" = _cJybcK7h;
@@ -134,6 +139,7 @@ let
         "KZ9kos46" = _KZ9kos46;
         "RtQnWman" = _RtQnWman;
         "L33NrPYm" = _L33NrPYm;
+        "wGVFftga" = _wGVFftga;
         "forge-1.17.1" = _n0bvTGti;
         "forge-1.18.2" = _cJybcK7h;
         "forge-1.19.4" = _vAyIVk1s;
@@ -160,7 +166,7 @@ let
         "neoforge-26.1.1" = _KZ9kos46;
         "neoforge-26.1.2" = _KZ9kos46;
         "neoforge-26.2" = _KZ9kos46;
-        "neoforge-26.3" = _KZ9kos46;
+        "neoforge-26.3" = _wGVFftga;
         "pkg-1.17.1-2.0.1" = _n0bvTGti;
         "pkg-1.18.2-2.0.1" = _cJybcK7h;
         "pkg-1.19.4-2.0.2" = _WZlPw3zU;
@@ -183,7 +189,8 @@ let
         "pkg-26.1-3.0.1" = _KZ9kos46;
         "pkg-1.21.1-3.0.2" = _RtQnWman;
         "pkg-1.20.1-2.0.4" = _L33NrPYm;
-        "default" = _L33NrPYm;
+        "pkg-26.3-3.0.1" = _wGVFftga;
+        "default" = _wGVFftga;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "magical-torches";

@@ -21,17 +21,24 @@ let
             "file" = "nolandoapocalypse-1.1.2-1.20.1.jar";
             "hash" = "sha512-lVCKC8c4KhHB0WPBqOunyVSTVgTQACjRh4V7HJemFsBAnJms7ZrxDkRPDMeYWtwiStTKq4GuaOokSpJGj1csIQ==";
         };
+        _jcC1ERZL = {
+            "id" = "jcC1ERZL";
+            "file" = "nolandoapocalypse-1.1.3-1.20.1.jar";
+            "hash" = "sha512-L2S0Dv27K6HgxN2yeMFEW3vMx7+FZPYzR53mlHY5PaPXSKBTUL4Ckw5D3hJSKbpx5yuGE4DHmyrdcV3sG88wjg==";
+        };
     in {
         "SKV7Ndaa" = _SKV7Ndaa;
         "eX9wYTn8" = _eX9wYTn8;
         "9R9fqFEs" = _9R9fqFEs;
         "NdDBKn6V" = _NdDBKn6V;
-        "forge-1.20.1" = _NdDBKn6V;
+        "jcC1ERZL" = _jcC1ERZL;
+        "forge-1.20.1" = _jcC1ERZL;
         "pkg-1.0.2-1.20.1" = _SKV7Ndaa;
         "pkg-1.1.0-1.20.1" = _eX9wYTn8;
         "pkg-1.1.1-1.20.1" = _9R9fqFEs;
         "pkg-1.1.2-1.20.1" = _NdDBKn6V;
-        "default" = _NdDBKn6V;
+        "pkg-1.1.3-1.20.1" = _jcC1ERZL;
+        "default" = _jcC1ERZL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nolando-apocalypse";

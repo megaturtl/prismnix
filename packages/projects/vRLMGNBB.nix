@@ -126,6 +126,11 @@ let
             "file" = "coreshader-devtools-1.3.20.jar";
             "hash" = "sha512-rvvB3LQ46rYMY3eXmqgiUSPu+3DJvlNin2blgiIELf3DgSoMvG9+9RdFjqUVkaOcVZ+s3wPFi1LrBf9jk3KDsA==";
         };
+        _NH0B6tLE = {
+            "id" = "NH0B6tLE";
+            "file" = "coreshader-devtools-1.3.21.jar";
+            "hash" = "sha512-7WywUgtzpWebimbGzjeLlOO0bUi3BOIj1flmLFMUyt/457CF1lzjdzJGdqYhek3Cux8VO1dQ5ZSmiYdUTOvGfg==";
+        };
     in {
         "X31SVO8e" = _X31SVO8e;
         "e5gXZH7P" = _e5gXZH7P;
@@ -152,6 +157,7 @@ let
         "pcYW8P3u" = _pcYW8P3u;
         "MeP6O72r" = _MeP6O72r;
         "sLBjv6fo" = _sLBjv6fo;
+        "NH0B6tLE" = _NH0B6tLE;
         "fabric-26.2-snapshot-1" = _e5gXZH7P;
         "fabric-26.2-snapshot-6" = _O0iHcZOB;
         "fabric-26.2-snapshot-7" = _Fzo9TP3o;
@@ -170,6 +176,7 @@ let
         "fabric-26.4-snapshot-1" = _pcYW8P3u;
         "fabric-26.4-snapshot-2" = _MeP6O72r;
         "fabric-26.4-snapshot-3" = _sLBjv6fo;
+        "fabric-26.4-snapshot-4" = _NH0B6tLE;
         "pkg-1.0.0" = _X31SVO8e;
         "pkg-1.1.0" = _e5gXZH7P;
         "pkg-1.1.1" = _O0iHcZOB;
@@ -195,7 +202,8 @@ let
         "pkg-1.3.18" = _pcYW8P3u;
         "pkg-1.3.19" = _MeP6O72r;
         "pkg-1.3.20" = _sLBjv6fo;
-        "default" = _sLBjv6fo;
+        "pkg-1.3.21" = _NH0B6tLE;
+        "default" = _NH0B6tLE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shader-devtools";

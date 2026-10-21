@@ -16,15 +16,37 @@ let
             "file" = "hedges_bestiary-1.0.7.jar";
             "hash" = "sha512-zBPeeBhX6PShVOlYosQFGewX1/JF5ltR/2USUMBTYC12tXKw3JCCmBOqFMxY8rHM0PyynOFtbFkWJuncHfzvNQ==";
         };
+        _ztUjdi56 = {
+            "id" = "ztUjdi56";
+            "file" = "hedges_bestiary-1.1.0-neo.jar";
+            "hash" = "sha512-/yzcdCq2Y5AJF4VNjk5d/wrc8m8L+Y0M/xR9s8orvF/w42B45U2bz6usrqMzStSuDmbFenRtBT5ULZgYD4o+KA==";
+        };
+        _jLgWBSP8 = {
+            "id" = "jLgWBSP8";
+            "file" = "hedges_bestiary_1.1.1-neo.jar";
+            "hash" = "sha512-AIAh1jPXaQ6EFQ6G4zCmx+63jblw+IH3ZXcjgW6cjTKzDi1MDW0XcJdxdkVgX13S+ojw2P9k8Hg8fKh3uWitRw==";
+        };
+        _9aAlPLPW = {
+            "id" = "9aAlPLPW";
+            "file" = "hedges_bestiary_1.1.2-neo.jar";
+            "hash" = "sha512-th9vhJudzVH4qJ1IZMjZvkoJ8REcD2saTfHc9U8zN7mn+rSJ8f084BujRDGwjTuSWBE63N7Ua1H73a96vwqiQQ==";
+        };
     in {
         "aT1S96fT" = _aT1S96fT;
         "Yf2MZZ0J" = _Yf2MZZ0J;
         "ZLqBa9qM" = _ZLqBa9qM;
+        "ztUjdi56" = _ztUjdi56;
+        "jLgWBSP8" = _jLgWBSP8;
+        "9aAlPLPW" = _9aAlPLPW;
         "forge-1.20.1" = _ZLqBa9qM;
+        "neoforge-1.21.1" = _9aAlPLPW;
         "pkg-1.0.0" = _aT1S96fT;
         "pkg-1.0.5" = _Yf2MZZ0J;
         "pkg-1.0.7" = _ZLqBa9qM;
-        "default" = _ZLqBa9qM;
+        "pkg-1.1.0" = _ztUjdi56;
+        "pkg-1.1.1" = _jLgWBSP8;
+        "pkg-1.1.2" = _9aAlPLPW;
+        "default" = _9aAlPLPW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hedges-bestiary";

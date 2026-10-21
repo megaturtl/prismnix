@@ -51,6 +51,36 @@ let
             "file" = "ultimineunchained-1.2.2-1.21.1-NEOFORGE.jar";
             "hash" = "sha512-Q6XD3tm8Sxi9zz60RY0D4deQMwIgcuq8ey6gdaXCz178twm/9pK5XXVx/NtdjnS/0elbTuc///l6XAndeOlGWw==";
         };
+        _mr1lhau7 = {
+            "id" = "mr1lhau7";
+            "file" = "UltimineUnchained-2.0.0-FABRIC.jar";
+            "hash" = "sha512-GYdxgEjH3JK7nOJ71d1eWlfmRVox2h03KFkqUwEr3MMu/XErJplpz82xELd20/jhit9H8CV0InY7ktc+8fmwRA==";
+        };
+        _8TPkYQMH = {
+            "id" = "8TPkYQMH";
+            "file" = "UltimineUnchained-2.0.0-FORGE.jar";
+            "hash" = "sha512-9r/4rJPJTvEE5NQeJbt5l9sf7zlIxH2I4eVEsBHd6ECry1Ii4TBP7Gm5huTMU5D3lN3/eQ7VFM1UF37iw6YUVA==";
+        };
+        _S4DLMHiS = {
+            "id" = "S4DLMHiS";
+            "file" = "UltimineUnchained-2.0.0-NEOFORGE.jar";
+            "hash" = "sha512-EFtFgcIs3BirkwPootatdq5LTKy2KzrDQMGuTT3xZuXXyM4MgiV65QjVcrbBF9+XJGpoK+OcoO9fjgsAOvj9mg==";
+        };
+        _dawvipwH = {
+            "id" = "dawvipwH";
+            "file" = "UltimineUnchained-2.1.0-FABRIC.jar";
+            "hash" = "sha512-YiY70y2PEQVPHBN4sQmnPs6NDN5qu18xu5XF09MS+6XHUPD/bhe3dkA9nQdYDZqIs2qcAvdMnIqSzs3E3SDOrQ==";
+        };
+        _7nVDDDfP = {
+            "id" = "7nVDDDfP";
+            "file" = "UltimineUnchained-2.1.0-FORGE.jar";
+            "hash" = "sha512-/TJ5vjI1la78IaGgxj1Ol8G+bZVGW2/SuSyiE60YG2yTpDrtdvl6lzs48G9JQyY7iOyhOmxIwrq/CkFB6m9clg==";
+        };
+        _fcgRf8qt = {
+            "id" = "fcgRf8qt";
+            "file" = "UltimineUnchained-2.1.0-NEOFORGE.jar";
+            "hash" = "sha512-5mOe6PdljZInr7Sa+4EWiObhFAqC37U2Vs4uF4XO4QRBPSaWVZG/V8qC07D1LOnHrbnBV5DtsWcvq4CGUbP/kw==";
+        };
     in {
         "1R43tHE7" = _1R43tHE7;
         "VVceid93" = _VVceid93;
@@ -62,16 +92,32 @@ let
         "YwaxBO1s" = _YwaxBO1s;
         "VEghIBDN" = _VEghIBDN;
         "iPtVyq9c" = _iPtVyq9c;
-        "fabric-1.20.1" = _pmvBrAh0;
-        "fabric-1.21.1" = _VEghIBDN;
-        "forge-1.20.1" = _YwaxBO1s;
-        "neoforge-1.21.1" = _iPtVyq9c;
+        "mr1lhau7" = _mr1lhau7;
+        "8TPkYQMH" = _8TPkYQMH;
+        "S4DLMHiS" = _S4DLMHiS;
+        "dawvipwH" = _dawvipwH;
+        "7nVDDDfP" = _7nVDDDfP;
+        "fcgRf8qt" = _fcgRf8qt;
+        "fabric-1.20.1" = _dawvipwH;
+        "fabric-1.21.1" = _dawvipwH;
+        "fabric-1.20.4" = _dawvipwH;
+        "fabric-1.20.5" = _dawvipwH;
+        "fabric-1.20.6" = _dawvipwH;
+        "fabric-1.21" = _dawvipwH;
+        "forge-1.20.1" = _7nVDDDfP;
+        "forge-1.20.4" = _7nVDDDfP;
+        "neoforge-1.21.1" = _fcgRf8qt;
+        "neoforge-1.20.4" = _fcgRf8qt;
+        "neoforge-1.20.6" = _fcgRf8qt;
+        "neoforge-1.21" = _fcgRf8qt;
         "pkg-1.2.0-1.20.1" = _VVceid93;
         "pkg-1.2.0-1.21.1" = _SLmC34CS;
         "pkg-1.2.1-1.21.1" = _KL7yZxlk;
         "pkg-1.2.1-1.20.1" = _YwaxBO1s;
         "pkg-1.2.2-1.21.1" = _iPtVyq9c;
-        "default" = _iPtVyq9c;
+        "pkg-2.0.0" = _S4DLMHiS;
+        "pkg-2.1.0" = _fcgRf8qt;
+        "default" = _fcgRf8qt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ultimine-unchained";

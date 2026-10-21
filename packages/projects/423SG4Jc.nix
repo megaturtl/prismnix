@@ -91,6 +91,11 @@ let
             "file" = "MoreMobGriefingOptions-1.20.1-2.0.5.jar";
             "hash" = "sha512-XQNT3d3GSL6jSUyq9CslbtxxH9mOb9JvRTo9yDMuhenWRRPnXgu5zg3koVy5kWV/06ODemJhn4VxjuMQsglo+A==";
         };
+        _RwCWHEJw = {
+            "id" = "RwCWHEJw";
+            "file" = "MoreMobGriefingOptions-26.3-3.0.2.jar";
+            "hash" = "sha512-tlrb0Zxd1fAtzA+QabY1ZcaNyQNQ5sEFZ87mr9/2DH4SDOtrc3L4jsNKErUwhf6GfFSY6LWWhwanewyykUpDMw==";
+        };
     in {
         "70GTJI28" = _70GTJI28;
         "n1NhdD9X" = _n1NhdD9X;
@@ -110,6 +115,7 @@ let
         "ouR2voEB" = _ouR2voEB;
         "gCJqjeOa" = _gCJqjeOa;
         "z73tB4v4" = _z73tB4v4;
+        "RwCWHEJw" = _RwCWHEJw;
         "forge-1.17.1" = _70GTJI28;
         "forge-1.18.2" = _n1NhdD9X;
         "forge-1.19.4" = _uFRUbOx5;
@@ -135,7 +141,7 @@ let
         "neoforge-26.1.1" = _gCJqjeOa;
         "neoforge-26.1.2" = _gCJqjeOa;
         "neoforge-26.2" = _gCJqjeOa;
-        "neoforge-26.3" = _gCJqjeOa;
+        "neoforge-26.3" = _RwCWHEJw;
         "pkg-1.17.1-2.0.1" = _70GTJI28;
         "pkg-1.18.2-2.0.1" = _n1NhdD9X;
         "pkg-1.19.4-2.0.3" = _uFRUbOx5;
@@ -154,7 +160,8 @@ let
         "pkg-1.21.11-3.0.2" = _ouR2voEB;
         "pkg-26.1-3.0.2" = _gCJqjeOa;
         "pkg-1.20.1-2.0.5" = _z73tB4v4;
-        "default" = _z73tB4v4;
+        "pkg-26.3-3.0.2" = _RwCWHEJw;
+        "default" = _RwCWHEJw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-mobgriefing-options";

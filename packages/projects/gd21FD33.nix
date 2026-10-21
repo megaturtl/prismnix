@@ -86,6 +86,16 @@ let
             "file" = "villager_fletcher_house-1.0.0 Neoforge 26.2.jar";
             "hash" = "sha512-xPbD+XVNeHPV6/B8srW+8MR3ideLGYgF6ujCrXkmn+7bcQG+dvE3TGz7AJ1A9D46QL065ElRh7O4BRzrKNc0Ew==";
         };
+        _748LHbnY = {
+            "id" = "748LHbnY";
+            "file" = "villager_fletcher_house-1.0.0 Fabric 26.3.jar";
+            "hash" = "sha512-Z4qd4TCUSr4P+Wb+9gCmwjirzX3xstbRLdcX5sMz3c8q5gS+9wdIEZ7tOKHeohuwcwa27zhIoL75/FKkMGBwRQ==";
+        };
+        _BIabCHcZ = {
+            "id" = "BIabCHcZ";
+            "file" = "villager_fletcher_house-1.0.0 Neoforge 26.3.jar";
+            "hash" = "sha512-0VwH3lFk3Mnjvic39WhRUuKwGX4yblF5VvkGz/pVvqU+1Ah382xshJJZBgnp8OJCkK1SGLDPdP7dH3SWfs941A==";
+        };
     in {
         "Y1JyZAFN" = _Y1JyZAFN;
         "wCUaeHvO" = _wCUaeHvO;
@@ -104,6 +114,8 @@ let
         "FPsTn6KC" = _FPsTn6KC;
         "JH2LFNu9" = _JH2LFNu9;
         "TxSqB7Et" = _TxSqB7Et;
+        "748LHbnY" = _748LHbnY;
+        "BIabCHcZ" = _BIabCHcZ;
         "forge-1.16.5" = _Y1JyZAFN;
         "forge-1.17.1" = _wCUaeHvO;
         "forge-1.18.2" = _uK78P546;
@@ -114,15 +126,17 @@ let
         "fabric-1.21.1" = _8vn8AE5M;
         "fabric-26.1.2" = _GPADhtsQ;
         "fabric-26.2" = _JH2LFNu9;
+        "fabric-26.3" = _748LHbnY;
         "neoforge-1.21.1" = _ouYNasUg;
         "neoforge-1.21.4" = _56FGtAVz;
         "neoforge-1.21.8" = _aVeeSGSq;
         "neoforge-1.21.11" = _2qrW6l5l;
         "neoforge-26.1.2" = _FPsTn6KC;
         "neoforge-26.2" = _TxSqB7Et;
-        "pkg-1.0.0" = _TxSqB7Et;
+        "neoforge-26.3" = _BIabCHcZ;
+        "pkg-1.0.0" = _BIabCHcZ;
         "pkg-1.0.1" = _677Bnnyz;
-        "default" = _TxSqB7Et;
+        "default" = _BIabCHcZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "villager-fletcher-house";

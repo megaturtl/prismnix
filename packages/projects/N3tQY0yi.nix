@@ -66,6 +66,16 @@ let
             "file" = "basalt_watchtower-1.0.0 Neoforge 26.2.jar";
             "hash" = "sha512-dqG/9C6LvWlajNB4Fz5khbB7DBhpBKgWgxoEdo5QSHl11yxryO3vx4WOXQr8rkpMSiqbqB3Md26VfOjm0NthkA==";
         };
+        _8NpSUq14 = {
+            "id" = "8NpSUq14";
+            "file" = "basalt_watchtower-1.0.0 Fabric 26.3.jar";
+            "hash" = "sha512-Xg2TLQxWicprN68HGpsEBss4IFXGyoQYkbCiTE5cMbQs2Fyzp4N4shCm2ggH1/DOAhmGI3SxybbSjGv9SuOsJw==";
+        };
+        _Wtjxu8Kx = {
+            "id" = "Wtjxu8Kx";
+            "file" = "basalt_watchtower-1.0.0 Neoforge 26.3.jar";
+            "hash" = "sha512-r0LZyFEaJv0oSYHZVXR/IPneLJApMgpAEy9TeV7d5xAi/JzR0TAurGKYLNCW1E5DPjTnzzcd9tmZcSzUZx5SuA==";
+        };
     in {
         "wF45lskT" = _wF45lskT;
         "46Z1rwqr" = _46Z1rwqr;
@@ -80,6 +90,8 @@ let
         "hAgiXH9c" = _hAgiXH9c;
         "ILcBikKn" = _ILcBikKn;
         "Gv3BtFAd" = _Gv3BtFAd;
+        "8NpSUq14" = _8NpSUq14;
+        "Wtjxu8Kx" = _Wtjxu8Kx;
         "forge-1.18.2" = _wF45lskT;
         "forge-1.19.2" = _46Z1rwqr;
         "forge-1.20.1" = _6XFfouGm;
@@ -89,6 +101,7 @@ let
         "neoforge-1.21.11" = _YLVGtyMF;
         "neoforge-26.1.2" = _hAgiXH9c;
         "neoforge-26.2" = _Gv3BtFAd;
+        "neoforge-26.3" = _Wtjxu8Kx;
         "fabric-1.21.8" = _nrwyN8Fq;
         "fabric-1.21.9" = _nrwyN8Fq;
         "fabric-1.21.10" = _nrwyN8Fq;
@@ -96,8 +109,9 @@ let
         "fabric-1.21.1" = _d5zUs5Mj;
         "fabric-26.1.2" = _foslj99G;
         "fabric-26.2" = _ILcBikKn;
-        "pkg-1.0.0" = _Gv3BtFAd;
-        "default" = _Gv3BtFAd;
+        "fabric-26.3" = _8NpSUq14;
+        "pkg-1.0.0" = _Wtjxu8Kx;
+        "default" = _Wtjxu8Kx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "basalt-watchtower";

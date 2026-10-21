@@ -86,6 +86,11 @@ let
             "file" = "nowaitvillagerscream-1.0.6.jar";
             "hash" = "sha512-6/JkLVeqESWhxrZxVDyZvpmU/aokWNTo3Lm3gYqsC6gKzhiYV52sL3eajscAxjFnR2uTe2fUvCFsCmBW5YiCdw==";
         };
+        _maxCOxzd = {
+            "id" = "maxCOxzd";
+            "file" = "nowaitvillagerscream-1.0.6-1.jar";
+            "hash" = "sha512-0t/vuCFIbe6M2K59hnG5tDxobe8Iv5+RvrHQyw4rJj0yIpRJZ7gZq3ZREmjKtfa6WX1uaW77rp7NTqtpJ0L8bw==";
+        };
     in {
         "gtwuiy7A" = _gtwuiy7A;
         "NMmubkxp" = _NMmubkxp;
@@ -104,6 +109,7 @@ let
         "4evKRYDI" = _4evKRYDI;
         "XxkHa25E" = _XxkHa25E;
         "bQLjJpMF" = _bQLjJpMF;
+        "maxCOxzd" = _maxCOxzd;
         "forge-1.19.2" = _1KhJZuaR;
         "forge-1.19.3" = _1KhJZuaR;
         "forge-1.19.4" = _1KhJZuaR;
@@ -115,13 +121,14 @@ let
         "forge-1.20.6" = _fmKr0mqr;
         "neoforge-1.21.1" = _4evKRYDI;
         "neoforge-1.21.11" = _XxkHa25E;
-        "neoforge-26.3" = _bQLjJpMF;
+        "neoforge-26.3" = _maxCOxzd;
         "pkg-1.0.2" = _AuvNsfjo;
         "pkg-1.0.3" = _1KhJZuaR;
         "pkg-1.0.4" = _M7F1aEoL;
         "pkg-1.0.5" = _pp0c9z5Y;
         "pkg-1.0.6" = _bQLjJpMF;
-        "default" = _bQLjJpMF;
+        "pkg-1.0.6-1" = _maxCOxzd;
+        "default" = _maxCOxzd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "no-no-wait-villager-scream";

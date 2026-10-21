@@ -281,6 +281,261 @@ let
             "file" = "flowering_oak_leaves-1.0.0-mc.26.3.zip";
             "hash" = "sha512-DpmXFoiFvPpysBBt+ik8X4b+Mv90jSj5j2pRqzZHN4y0Chy3C1rEHQ0RKO7Lez047PI1Wqfje/t0a7KYkAF4kw==";
         };
+        _pMrWIAhG = {
+            "id" = "pMrWIAhG";
+            "file" = "Flowering Oak Leaves 1.1.0 MC1.13.zip";
+            "hash" = "sha512-62VDOA/1XUZAVD/VKzLZipULujMGf6eVdToWf8eENWWHhgGebiRYrBCwl5kNRsd3mnEvGjhGqEHzS63yXTkO8g==";
+        };
+        _9C3yy4xO = {
+            "id" = "9C3yy4xO";
+            "file" = "Flowering Oak Leaves 1.1.0 MC1.13.1.zip";
+            "hash" = "sha512-X10sNjxWkpQtfVOUMGigupzmGV+1+cJwf78jfL6C9rUF5SPEqQjR+Y9AMUvLTrm5iayEfxJHtRreL2+qHjVQMg==";
+        };
+        _4vS9b5Bl = {
+            "id" = "4vS9b5Bl";
+            "file" = "Flowering Oak Leaves 1.1.0 MC1.13.2.zip";
+            "hash" = "sha512-X10sNjxWkpQtfVOUMGigupzmGV+1+cJwf78jfL6C9rUF5SPEqQjR+Y9AMUvLTrm5iayEfxJHtRreL2+qHjVQMg==";
+        };
+        _jHQUiYm3 = {
+            "id" = "jHQUiYm3";
+            "file" = "Flowering Oak Leaves 1.1.0 MC1.14.zip";
+            "hash" = "sha512-X10sNjxWkpQtfVOUMGigupzmGV+1+cJwf78jfL6C9rUF5SPEqQjR+Y9AMUvLTrm5iayEfxJHtRreL2+qHjVQMg==";
+        };
+        _mllR5HmW = {
+            "id" = "mllR5HmW";
+            "file" = "Flowering Oak Leaves 1.1.0 MC1.14.1.zip";
+            "hash" = "sha512-X10sNjxWkpQtfVOUMGigupzmGV+1+cJwf78jfL6C9rUF5SPEqQjR+Y9AMUvLTrm5iayEfxJHtRreL2+qHjVQMg==";
+        };
+        _gK0K9h7f = {
+            "id" = "gK0K9h7f";
+            "file" = "Flowering Oak Leaves 1.1.0 MC1.14.2.zip";
+            "hash" = "sha512-X10sNjxWkpQtfVOUMGigupzmGV+1+cJwf78jfL6C9rUF5SPEqQjR+Y9AMUvLTrm5iayEfxJHtRreL2+qHjVQMg==";
+        };
+        _AvhrxCds = {
+            "id" = "AvhrxCds";
+            "file" = "Flowering Oak Leaves 1.1.0 MC1.14.3.zip";
+            "hash" = "sha512-X10sNjxWkpQtfVOUMGigupzmGV+1+cJwf78jfL6C9rUF5SPEqQjR+Y9AMUvLTrm5iayEfxJHtRreL2+qHjVQMg==";
+        };
+        _CNZd9zFY = {
+            "id" = "CNZd9zFY";
+            "file" = "Flowering Oak Leaves 1.1.0 MC1.14.4.zip";
+            "hash" = "sha512-X10sNjxWkpQtfVOUMGigupzmGV+1+cJwf78jfL6C9rUF5SPEqQjR+Y9AMUvLTrm5iayEfxJHtRreL2+qHjVQMg==";
+        };
+        _rclvvl5P = {
+            "id" = "rclvvl5P";
+            "file" = "Flowering Oak Leaves 1.1.0 MC1.15.zip";
+            "hash" = "sha512-fUvd9CQA3HHie9rRgjVz09Jh7wy3VkewhMNCcIDIH0RHoJkoY6kSLi0TFAXd/6lPu55dZkn+6Ig8l8FkJdfNLw==";
+        };
+        _iFNXr0PT = {
+            "id" = "iFNXr0PT";
+            "file" = "Flowering Oak Leaves 1.1.0 MC1.15.1.zip";
+            "hash" = "sha512-fUvd9CQA3HHie9rRgjVz09Jh7wy3VkewhMNCcIDIH0RHoJkoY6kSLi0TFAXd/6lPu55dZkn+6Ig8l8FkJdfNLw==";
+        };
+        _Nf9WxGeD = {
+            "id" = "Nf9WxGeD";
+            "file" = "Flowering Oak Leaves 1.1.0 MC1.15.2.zip";
+            "hash" = "sha512-fUvd9CQA3HHie9rRgjVz09Jh7wy3VkewhMNCcIDIH0RHoJkoY6kSLi0TFAXd/6lPu55dZkn+6Ig8l8FkJdfNLw==";
+        };
+        _fDuAFH0q = {
+            "id" = "fDuAFH0q";
+            "file" = "Flowering Oak Leaves 1.1.0 MC1.16.zip";
+            "hash" = "sha512-HMPTfqpWcoLU9d1vKSH8QJsye/ImrKLA1awEK8NGCIAI8ZzC/tkbTQdGtQkQ3wl+LuGopGx0qiKUlw+pfpOc+A==";
+        };
+        _HeshUTz9 = {
+            "id" = "HeshUTz9";
+            "file" = "Flowering Oak Leaves 1.1.0 MC1.16.1.zip";
+            "hash" = "sha512-HMPTfqpWcoLU9d1vKSH8QJsye/ImrKLA1awEK8NGCIAI8ZzC/tkbTQdGtQkQ3wl+LuGopGx0qiKUlw+pfpOc+A==";
+        };
+        _13jKGkRX = {
+            "id" = "13jKGkRX";
+            "file" = "Flowering Oak Leaves 1.1.0 MC1.16.2.zip";
+            "hash" = "sha512-R/stIM9WZIWBFf8eEREznm6nCjvTaf8E0/p4p9gw4uxRB2s8HdUvUeZzoTpRLBe/Fw5FN1bE6usxjUa94Yoi1A==";
+        };
+        _M8IcUjK8 = {
+            "id" = "M8IcUjK8";
+            "file" = "Flowering Oak Leaves 1.1.0 MC1.16.3.zip";
+            "hash" = "sha512-R/stIM9WZIWBFf8eEREznm6nCjvTaf8E0/p4p9gw4uxRB2s8HdUvUeZzoTpRLBe/Fw5FN1bE6usxjUa94Yoi1A==";
+        };
+        _X5a4jm08 = {
+            "id" = "X5a4jm08";
+            "file" = "Flowering Oak Leaves 1.1.0 MC1.16.4.zip";
+            "hash" = "sha512-R/stIM9WZIWBFf8eEREznm6nCjvTaf8E0/p4p9gw4uxRB2s8HdUvUeZzoTpRLBe/Fw5FN1bE6usxjUa94Yoi1A==";
+        };
+        _SIwyMlsH = {
+            "id" = "SIwyMlsH";
+            "file" = "Flowering Oak Leaves 1.1.0 MC1.16.5.zip";
+            "hash" = "sha512-R/stIM9WZIWBFf8eEREznm6nCjvTaf8E0/p4p9gw4uxRB2s8HdUvUeZzoTpRLBe/Fw5FN1bE6usxjUa94Yoi1A==";
+        };
+        _eRrOfYGA = {
+            "id" = "eRrOfYGA";
+            "file" = "Flowering Oak Leaves 1.1.0 MC1.17.zip";
+            "hash" = "sha512-G+ro33f848lF9EZAzSAqBh7sT0AZpG8QBOdcHz0NyGwlC3/jmqzlTBLXH3OfYEQXkUMHx0XliCw0PbPiGDroTg==";
+        };
+        _AM8UO376 = {
+            "id" = "AM8UO376";
+            "file" = "Flowering Oak Leaves 1.1.0 MC1.17.1.zip";
+            "hash" = "sha512-G+ro33f848lF9EZAzSAqBh7sT0AZpG8QBOdcHz0NyGwlC3/jmqzlTBLXH3OfYEQXkUMHx0XliCw0PbPiGDroTg==";
+        };
+        _Xbr9eLII = {
+            "id" = "Xbr9eLII";
+            "file" = "Flowering Oak Leaves 1.1.0 MC1.18.zip";
+            "hash" = "sha512-YC5+z0kg9GqCFzo+M3jC71pIGum+ecvLvUoJxaUmlfiY1g7pIgT4Aa4iVE3UjJWQ/M5e5A5seiwfdEn5dWnY9w==";
+        };
+        _A186cISs = {
+            "id" = "A186cISs";
+            "file" = "Flowering Oak Leaves 1.1.0 MC1.18.1.zip";
+            "hash" = "sha512-YC5+z0kg9GqCFzo+M3jC71pIGum+ecvLvUoJxaUmlfiY1g7pIgT4Aa4iVE3UjJWQ/M5e5A5seiwfdEn5dWnY9w==";
+        };
+        _agvvAo8F = {
+            "id" = "agvvAo8F";
+            "file" = "Flowering Oak Leaves 1.1.0 MC1.18.2.zip";
+            "hash" = "sha512-GURKCQsKPYsGspebokd8UUVxDaoFz78UbK7d7IASFUUDBuWEyfVMeVl/nFBUlaUefUWfZkG3r7JuZBgr0fXRsg==";
+        };
+        _bqNfSA7Y = {
+            "id" = "bqNfSA7Y";
+            "file" = "Flowering Oak Leaves 1.1.0 MC1.19.zip";
+            "hash" = "sha512-mDegjEr6bdBuGn1tyJgI5AYUO4uiv9RlKfnFOvu8N6vo+8gpItj05avRw4YbfEb5VrruRrmgQUzYnvorg4405w==";
+        };
+        _ASxMZF3n = {
+            "id" = "ASxMZF3n";
+            "file" = "Flowering Oak Leaves 1.1.0 MC1.19.1.zip";
+            "hash" = "sha512-mDegjEr6bdBuGn1tyJgI5AYUO4uiv9RlKfnFOvu8N6vo+8gpItj05avRw4YbfEb5VrruRrmgQUzYnvorg4405w==";
+        };
+        _m5q92dS6 = {
+            "id" = "m5q92dS6";
+            "file" = "Flowering Oak Leaves 1.1.0 MC1.19.2.zip";
+            "hash" = "sha512-mDegjEr6bdBuGn1tyJgI5AYUO4uiv9RlKfnFOvu8N6vo+8gpItj05avRw4YbfEb5VrruRrmgQUzYnvorg4405w==";
+        };
+        _mocqVwK0 = {
+            "id" = "mocqVwK0";
+            "file" = "Flowering Oak Leaves 1.1.0 MC1.19.3.zip";
+            "hash" = "sha512-dLfhK0UgmMHzMKZBRnpfSeDOBYsJQ1D2LqLvDAK1Sk3FCeR3LNgzI5BFx5dVEGSzp7Lu//v3w3gnksjO5iVlmw==";
+        };
+        _jeiuiDrP = {
+            "id" = "jeiuiDrP";
+            "file" = "Flowering Oak Leaves 1.1.0 MC1.19.4.zip";
+            "hash" = "sha512-fmzR4hUT62gwr7srXcJ/htcSehMZZqiLvsoqjjFM9o6QQg5d8rbLLLOBwjCVmwBW4gOQLdXfb+Q3B23afNHefA==";
+        };
+        _D8zHyf7K = {
+            "id" = "D8zHyf7K";
+            "file" = "Flowering Oak Leaves 1.1.0 MC1.20.zip";
+            "hash" = "sha512-dU9NSzXtUSzOvaBwssgy0bzQ4S/soNN1icMuYLoUZ0sKFQY32jL+8axELXnz5mDtE9BHaN5CctTt+xtLqnJVkg==";
+        };
+        _Tt2JXauQ = {
+            "id" = "Tt2JXauQ";
+            "file" = "Flowering Oak Leaves 1.1.0 MC1.20.1.zip";
+            "hash" = "sha512-dU9NSzXtUSzOvaBwssgy0bzQ4S/soNN1icMuYLoUZ0sKFQY32jL+8axELXnz5mDtE9BHaN5CctTt+xtLqnJVkg==";
+        };
+        _2QyA4QbZ = {
+            "id" = "2QyA4QbZ";
+            "file" = "Flowering Oak Leaves 1.1.0 MC1.20.2.zip";
+            "hash" = "sha512-rQ/3WAloHuw6ONt1esAND8gpW1OlgYPBvA3vCoJl3gdwrdDa28bTijFFaLHbeMc5f0ZPnloehZSYkKX4YLTBoQ==";
+        };
+        _yPMPhpSH = {
+            "id" = "yPMPhpSH";
+            "file" = "Flowering Oak Leaves 1.1.0 MC1.20.3.zip";
+            "hash" = "sha512-JE11SiwUFuZKZIDbEKXuTbfmknVRPwsSnnBTgh2ylmDLevZBf99wkvj0ka0dffCDc8yNucpMh8KHUvlgi+L+lg==";
+        };
+        _daJ1fZN3 = {
+            "id" = "daJ1fZN3";
+            "file" = "Flowering Oak Leaves 1.1.0 MC1.20.4.zip";
+            "hash" = "sha512-GPnqAUu0IcW1dndlVdVnYnKyjzgtcsJ4cdZgCwWa7DBwGA3fC5hfvZsNpTMQPwPmYL5an83P+qk1d23NmCpAdg==";
+        };
+        _rNOiOgNf = {
+            "id" = "rNOiOgNf";
+            "file" = "Flowering Oak Leaves 1.1.0 MC1.20.5.zip";
+            "hash" = "sha512-HyP37vmsxmgBOZgYANZ1VxL3Vyk0VXv1QRL9LPuneJP2wV8QqG/F1sY9uv3FZQ6F4wsttY2EyoTttFztDF4+ag==";
+        };
+        _UQ0jdyus = {
+            "id" = "UQ0jdyus";
+            "file" = "Flowering Oak Leaves 1.1.0 MC1.20.6.zip";
+            "hash" = "sha512-HyP37vmsxmgBOZgYANZ1VxL3Vyk0VXv1QRL9LPuneJP2wV8QqG/F1sY9uv3FZQ6F4wsttY2EyoTttFztDF4+ag==";
+        };
+        _tugfhh0T = {
+            "id" = "tugfhh0T";
+            "file" = "Flowering Oak Leaves 1.1.0 MC1.21.zip";
+            "hash" = "sha512-WC4cdVD1VCOE9wgGs/6lgMxMBfTnNQypqCqdd8OjV5CGlHdGbEV6DWMykZAN0jl/5x5XkW1kr2JplHh1MlNQbA==";
+        };
+        _SEvRkSe9 = {
+            "id" = "SEvRkSe9";
+            "file" = "Flowering Oak Leaves 1.1.0 MC1.21.1.zip";
+            "hash" = "sha512-WC4cdVD1VCOE9wgGs/6lgMxMBfTnNQypqCqdd8OjV5CGlHdGbEV6DWMykZAN0jl/5x5XkW1kr2JplHh1MlNQbA==";
+        };
+        _jJGNNchi = {
+            "id" = "jJGNNchi";
+            "file" = "Flowering Oak Leaves 1.1.0 MC1.21.2.zip";
+            "hash" = "sha512-/Bq0/8niNYD+v/jHg+VolWZ0DRRfUjw7Oxo0s1l5XZy1ji8Qpc6mqrFT/m4lcLqTqoZOYVWWhoIF0oIj39Uzdg==";
+        };
+        _gaBHb3p3 = {
+            "id" = "gaBHb3p3";
+            "file" = "Flowering Oak Leaves 1.1.0 MC1.21.3.zip";
+            "hash" = "sha512-/Bq0/8niNYD+v/jHg+VolWZ0DRRfUjw7Oxo0s1l5XZy1ji8Qpc6mqrFT/m4lcLqTqoZOYVWWhoIF0oIj39Uzdg==";
+        };
+        _6rhjpUdE = {
+            "id" = "6rhjpUdE";
+            "file" = "Flowering Oak Leaves 1.1.0 MC1.21.4.zip";
+            "hash" = "sha512-bKeQCbxnqsr22Nj9Wl58jqDNTapvSqk+yVEWp8W6b1kKzaVMjJngzUW4P9hh70Vg0RFqmgstCyFkd2AZkX07Ww==";
+        };
+        _TsgIbEnE = {
+            "id" = "TsgIbEnE";
+            "file" = "Flowering Oak Leaves 1.1.0 MC1.21.5.zip";
+            "hash" = "sha512-y8OGWf7RiUjtNsqMZoJiMNt1uJSc7TlBj/ECw1F0XCSrTjWRc+JToC54xZtRdys2XXo4Gx5p+D1C83q79PphLQ==";
+        };
+        _VWzaWz67 = {
+            "id" = "VWzaWz67";
+            "file" = "Flowering Oak Leaves 1.1.0 MC1.21.6.zip";
+            "hash" = "sha512-R06ct05hMUotkQBfxL850kLF9bL4/P3Mq4QSY8dssaCUhiqi0y0Zp+x0acaa39inwaSP5olnGCu5g/QWtS874g==";
+        };
+        _ib78q2rm = {
+            "id" = "ib78q2rm";
+            "file" = "Flowering Oak Leaves 1.1.0 MC1.21.7.zip";
+            "hash" = "sha512-g71aoiwJd+/3dyDsWhbLO4lDcoLTl4WpQiqpG6fkYWMnPXUNML1r9MVmdjWRC5J+SZpv52DUPrRy2iASjXSJWw==";
+        };
+        _h4aQIiCL = {
+            "id" = "h4aQIiCL";
+            "file" = "Flowering Oak Leaves 1.1.0 MC1.21.8.zip";
+            "hash" = "sha512-g71aoiwJd+/3dyDsWhbLO4lDcoLTl4WpQiqpG6fkYWMnPXUNML1r9MVmdjWRC5J+SZpv52DUPrRy2iASjXSJWw==";
+        };
+        _H53DFktQ = {
+            "id" = "H53DFktQ";
+            "file" = "Flowering Oak Leaves 1.1.0 MC1.21.9.zip";
+            "hash" = "sha512-WkCOimeZI0ZtEHuIRSa8Sq6rYt3Rsf+/r9leWvIsrCdHSuTRvfjcEK4ZM3ywFOOT6eSYqCX0iStBzm+zPeK7tw==";
+        };
+        _TSEOe9Mb = {
+            "id" = "TSEOe9Mb";
+            "file" = "Flowering Oak Leaves 1.1.0 MC1.21.10.zip";
+            "hash" = "sha512-WkCOimeZI0ZtEHuIRSa8Sq6rYt3Rsf+/r9leWvIsrCdHSuTRvfjcEK4ZM3ywFOOT6eSYqCX0iStBzm+zPeK7tw==";
+        };
+        _Lccn0kH6 = {
+            "id" = "Lccn0kH6";
+            "file" = "Flowering Oak Leaves 1.1.0 MC1.21.11.zip";
+            "hash" = "sha512-ksEVZqAkdDKcWa5CfWn4GqMgy8rdttvM1I7l1n6CFs6c3q+rhF6DfuuCzM8FboFpZCnVCNFylOdOON197bzB+w==";
+        };
+        _WarKn3Z0 = {
+            "id" = "WarKn3Z0";
+            "file" = "Flowering Oak Leaves 1.1.0 MC26.1.zip";
+            "hash" = "sha512-LFzwxPsGp8DKPrv5wFIp1VytjpFSw4wXlFbFR+6KPLsbT9PxmNTw+rO+TkYs+WHM0RxQdSvFl9KGlL5Bb7Inqg==";
+        };
+        _ur4BBpXI = {
+            "id" = "ur4BBpXI";
+            "file" = "Flowering Oak Leaves 1.1.0 MC26.1.1.zip";
+            "hash" = "sha512-LFzwxPsGp8DKPrv5wFIp1VytjpFSw4wXlFbFR+6KPLsbT9PxmNTw+rO+TkYs+WHM0RxQdSvFl9KGlL5Bb7Inqg==";
+        };
+        _Z46o9CzT = {
+            "id" = "Z46o9CzT";
+            "file" = "Flowering Oak Leaves 1.1.0 MC26.1.2.zip";
+            "hash" = "sha512-JWz4o8Xu52uvmW6hUjzPkUV/Ia0AdmqsB+0ao2xlsXwpY8a2FtmRvsPYZSEsc3+rw7Bc0kTDzZrVUJBK9Ut0Ng==";
+        };
+        _W9pxRyam = {
+            "id" = "W9pxRyam";
+            "file" = "Flowering Oak Leaves 1.1.0 MC26.2.zip";
+            "hash" = "sha512-7sy+hzzy+c0glJTOpcOoCO/+KyrpWd7+MKjHqLVQXDXrP3EcGklQgcpSh/Lh0FSfOME8V1Gw0MP1YqyXHaaXrg==";
+        };
+        _HogwWy1Y = {
+            "id" = "HogwWy1Y";
+            "file" = "Flowering Oak Leaves 1.1.0 MC26.3.zip";
+            "hash" = "sha512-i8aWybCYqGv8jtO4SU06Lye9oBHLDpIoJoPjRRNwZfh8hdq7WEeqd1RwhpkRB+m8InHQDrQeaNqqq+pFVBHj1A==";
+        };
     in {
         "meDVHXxv" = _meDVHXxv;
         "QPV194hJ" = _QPV194hJ;
@@ -338,57 +593,108 @@ let
         "iSny6PCq" = _iSny6PCq;
         "AprtZzLo" = _AprtZzLo;
         "hPlq9p8R" = _hPlq9p8R;
-        "minecraft-1.19.4" = _qdw6AE30;
-        "minecraft-1.19.3" = _SQQJPX1X;
-        "minecraft-1.19" = _9rahF0w6;
-        "minecraft-1.19.1" = _Or12g2GE;
-        "minecraft-1.19.2" = _f2u5Zzbl;
-        "minecraft-1.18" = _hGlNv0I1;
-        "minecraft-1.18.1" = _Xmj7lRMm;
-        "minecraft-1.18.2" = _zUPcQ5Jc;
-        "minecraft-1.17" = _fjpEWHzI;
-        "minecraft-1.17.1" = _tFs1W4q0;
-        "minecraft-1.13" = _sSjH6QEi;
-        "minecraft-1.13.1" = _FCaRhUgC;
-        "minecraft-1.13.2" = _WcOtmbVH;
-        "minecraft-1.14" = _B2hriomV;
-        "minecraft-1.14.1" = _PkWJCPWZ;
-        "minecraft-1.14.2" = _4GufQuql;
-        "minecraft-1.14.3" = _dAPBCWEA;
-        "minecraft-1.14.4" = _1P2xncQi;
-        "minecraft-1.15" = _2IMLIdeZ;
-        "minecraft-1.15.1" = _uOEOEsUS;
-        "minecraft-1.15.2" = _DEXUnJ3h;
-        "minecraft-1.16" = _djjH6oXO;
-        "minecraft-1.16.1" = _Pbp8MbDF;
-        "minecraft-1.16.2" = _J00OYcF9;
-        "minecraft-1.16.3" = _ctM6G8kr;
-        "minecraft-1.16.4" = _QCSFS24R;
-        "minecraft-1.16.5" = _8xeckOYl;
-        "minecraft-1.20" = _N7NXawNH;
-        "minecraft-1.20.1" = _lOAQWfJI;
-        "minecraft-1.20.2" = _RRPS3YGE;
-        "minecraft-1.20.3" = _HCGGxbqC;
-        "minecraft-1.20.4" = _XDhkWCy7;
-        "minecraft-1.20.5" = _7qXvTrSw;
-        "minecraft-1.20.6" = _PqrsDOkf;
-        "minecraft-1.21" = _4J5e7APF;
-        "minecraft-1.21.1" = _WkI6DZQ7;
-        "minecraft-1.21.2" = _ZNyHVfeP;
-        "minecraft-1.21.3" = _fph887kW;
-        "minecraft-1.21.4" = _pR5CgLKy;
-        "minecraft-1.21.5" = _ihm2KdIq;
-        "minecraft-1.21.6" = _WFMUwwMY;
-        "minecraft-1.21.7" = _b8xbjjXB;
-        "minecraft-1.21.8" = _KkWoLL81;
-        "minecraft-1.21.9" = _G5adTwWo;
-        "minecraft-1.21.10" = _YewJQAT9;
-        "minecraft-1.21.11" = _xFkkJdGj;
-        "minecraft-26.1" = _xFrhik6i;
-        "minecraft-26.1.1" = _uF3iJ8KN;
-        "minecraft-26.1.2" = _iSny6PCq;
-        "minecraft-26.2" = _AprtZzLo;
-        "minecraft-26.3" = _hPlq9p8R;
+        "pMrWIAhG" = _pMrWIAhG;
+        "9C3yy4xO" = _9C3yy4xO;
+        "4vS9b5Bl" = _4vS9b5Bl;
+        "jHQUiYm3" = _jHQUiYm3;
+        "mllR5HmW" = _mllR5HmW;
+        "gK0K9h7f" = _gK0K9h7f;
+        "AvhrxCds" = _AvhrxCds;
+        "CNZd9zFY" = _CNZd9zFY;
+        "rclvvl5P" = _rclvvl5P;
+        "iFNXr0PT" = _iFNXr0PT;
+        "Nf9WxGeD" = _Nf9WxGeD;
+        "fDuAFH0q" = _fDuAFH0q;
+        "HeshUTz9" = _HeshUTz9;
+        "13jKGkRX" = _13jKGkRX;
+        "M8IcUjK8" = _M8IcUjK8;
+        "X5a4jm08" = _X5a4jm08;
+        "SIwyMlsH" = _SIwyMlsH;
+        "eRrOfYGA" = _eRrOfYGA;
+        "AM8UO376" = _AM8UO376;
+        "Xbr9eLII" = _Xbr9eLII;
+        "A186cISs" = _A186cISs;
+        "agvvAo8F" = _agvvAo8F;
+        "bqNfSA7Y" = _bqNfSA7Y;
+        "ASxMZF3n" = _ASxMZF3n;
+        "m5q92dS6" = _m5q92dS6;
+        "mocqVwK0" = _mocqVwK0;
+        "jeiuiDrP" = _jeiuiDrP;
+        "D8zHyf7K" = _D8zHyf7K;
+        "Tt2JXauQ" = _Tt2JXauQ;
+        "2QyA4QbZ" = _2QyA4QbZ;
+        "yPMPhpSH" = _yPMPhpSH;
+        "daJ1fZN3" = _daJ1fZN3;
+        "rNOiOgNf" = _rNOiOgNf;
+        "UQ0jdyus" = _UQ0jdyus;
+        "tugfhh0T" = _tugfhh0T;
+        "SEvRkSe9" = _SEvRkSe9;
+        "jJGNNchi" = _jJGNNchi;
+        "gaBHb3p3" = _gaBHb3p3;
+        "6rhjpUdE" = _6rhjpUdE;
+        "TsgIbEnE" = _TsgIbEnE;
+        "VWzaWz67" = _VWzaWz67;
+        "ib78q2rm" = _ib78q2rm;
+        "h4aQIiCL" = _h4aQIiCL;
+        "H53DFktQ" = _H53DFktQ;
+        "TSEOe9Mb" = _TSEOe9Mb;
+        "Lccn0kH6" = _Lccn0kH6;
+        "WarKn3Z0" = _WarKn3Z0;
+        "ur4BBpXI" = _ur4BBpXI;
+        "Z46o9CzT" = _Z46o9CzT;
+        "W9pxRyam" = _W9pxRyam;
+        "HogwWy1Y" = _HogwWy1Y;
+        "minecraft-1.19.4" = _jeiuiDrP;
+        "minecraft-1.19.3" = _mocqVwK0;
+        "minecraft-1.19" = _bqNfSA7Y;
+        "minecraft-1.19.1" = _ASxMZF3n;
+        "minecraft-1.19.2" = _m5q92dS6;
+        "minecraft-1.18" = _Xbr9eLII;
+        "minecraft-1.18.1" = _A186cISs;
+        "minecraft-1.18.2" = _agvvAo8F;
+        "minecraft-1.17" = _eRrOfYGA;
+        "minecraft-1.17.1" = _AM8UO376;
+        "minecraft-1.13" = _pMrWIAhG;
+        "minecraft-1.13.1" = _9C3yy4xO;
+        "minecraft-1.13.2" = _4vS9b5Bl;
+        "minecraft-1.14" = _jHQUiYm3;
+        "minecraft-1.14.1" = _mllR5HmW;
+        "minecraft-1.14.2" = _gK0K9h7f;
+        "minecraft-1.14.3" = _AvhrxCds;
+        "minecraft-1.14.4" = _CNZd9zFY;
+        "minecraft-1.15" = _rclvvl5P;
+        "minecraft-1.15.1" = _iFNXr0PT;
+        "minecraft-1.15.2" = _Nf9WxGeD;
+        "minecraft-1.16" = _fDuAFH0q;
+        "minecraft-1.16.1" = _HeshUTz9;
+        "minecraft-1.16.2" = _13jKGkRX;
+        "minecraft-1.16.3" = _M8IcUjK8;
+        "minecraft-1.16.4" = _X5a4jm08;
+        "minecraft-1.16.5" = _SIwyMlsH;
+        "minecraft-1.20" = _D8zHyf7K;
+        "minecraft-1.20.1" = _Tt2JXauQ;
+        "minecraft-1.20.2" = _2QyA4QbZ;
+        "minecraft-1.20.3" = _yPMPhpSH;
+        "minecraft-1.20.4" = _daJ1fZN3;
+        "minecraft-1.20.5" = _rNOiOgNf;
+        "minecraft-1.20.6" = _UQ0jdyus;
+        "minecraft-1.21" = _tugfhh0T;
+        "minecraft-1.21.1" = _SEvRkSe9;
+        "minecraft-1.21.2" = _jJGNNchi;
+        "minecraft-1.21.3" = _gaBHb3p3;
+        "minecraft-1.21.4" = _6rhjpUdE;
+        "minecraft-1.21.5" = _TsgIbEnE;
+        "minecraft-1.21.6" = _VWzaWz67;
+        "minecraft-1.21.7" = _ib78q2rm;
+        "minecraft-1.21.8" = _h4aQIiCL;
+        "minecraft-1.21.9" = _H53DFktQ;
+        "minecraft-1.21.10" = _TSEOe9Mb;
+        "minecraft-1.21.11" = _Lccn0kH6;
+        "minecraft-26.1" = _WarKn3Z0;
+        "minecraft-26.1.1" = _ur4BBpXI;
+        "minecraft-26.1.2" = _Z46o9CzT;
+        "minecraft-26.2" = _W9pxRyam;
+        "minecraft-26.3" = _HogwWy1Y;
         "pkg-0.1" = _PFJjEZpS;
         "pkg-1.0.0-mc.1.13" = _sSjH6QEi;
         "pkg-1.0.0-mc.1.13.1" = _FCaRhUgC;
@@ -441,7 +747,58 @@ let
         "pkg-1.0.0-mc.26.1.2" = _iSny6PCq;
         "pkg-1.0.0-mc.26.2" = _AprtZzLo;
         "pkg-1.0.0-mc.26.3" = _hPlq9p8R;
-        "default" = _hPlq9p8R;
+        "pkg-1.1.0-mc1.13" = _pMrWIAhG;
+        "pkg-1.1.0-mc1.13.1" = _9C3yy4xO;
+        "pkg-1.1.0-mc1.13.2" = _4vS9b5Bl;
+        "pkg-1.1.0-mc1.14" = _jHQUiYm3;
+        "pkg-1.1.0-mc1.14.1" = _mllR5HmW;
+        "pkg-1.1.0-mc1.14.2" = _gK0K9h7f;
+        "pkg-1.1.0-mc1.14.3" = _AvhrxCds;
+        "pkg-1.1.0-mc1.14.4" = _CNZd9zFY;
+        "pkg-1.1.0-mc1.15" = _rclvvl5P;
+        "pkg-1.1.0-mc1.15.1" = _iFNXr0PT;
+        "pkg-1.1.0-mc1.15.2" = _Nf9WxGeD;
+        "pkg-1.1.0-mc1.16" = _fDuAFH0q;
+        "pkg-1.1.0-mc1.16.1" = _HeshUTz9;
+        "pkg-1.1.0-mc1.16.2" = _13jKGkRX;
+        "pkg-1.1.0-mc1.16.3" = _M8IcUjK8;
+        "pkg-1.1.0-mc1.16.4" = _X5a4jm08;
+        "pkg-1.1.0-mc1.16.5" = _SIwyMlsH;
+        "pkg-1.1.0-mc1.17" = _eRrOfYGA;
+        "pkg-1.1.0-mc1.17.1" = _AM8UO376;
+        "pkg-1.1.0-mc1.18" = _Xbr9eLII;
+        "pkg-1.1.0-mc1.18.1" = _A186cISs;
+        "pkg-1.1.0-mc1.18.2" = _agvvAo8F;
+        "pkg-1.1.0-mc1.19" = _bqNfSA7Y;
+        "pkg-1.1.0-mc1.19.1" = _ASxMZF3n;
+        "pkg-1.1.0-mc1.19.2" = _m5q92dS6;
+        "pkg-1.1.0-mc1.19.3" = _mocqVwK0;
+        "pkg-1.1.0-mc1.19.4" = _jeiuiDrP;
+        "pkg-1.1.0-mc1.20" = _D8zHyf7K;
+        "pkg-1.1.0-mc1.20.1" = _Tt2JXauQ;
+        "pkg-1.1.0-mc1.20.2" = _2QyA4QbZ;
+        "pkg-1.1.0-mc1.20.3" = _yPMPhpSH;
+        "pkg-1.1.0-mc1.20.4" = _daJ1fZN3;
+        "pkg-1.1.0-mc1.20.5" = _rNOiOgNf;
+        "pkg-1.1.0-mc1.20.6" = _UQ0jdyus;
+        "pkg-1.1.0-mc1.21" = _tugfhh0T;
+        "pkg-1.1.0-mc1.21.1" = _SEvRkSe9;
+        "pkg-1.1.0-mc1.21.2" = _jJGNNchi;
+        "pkg-1.1.0-mc1.21.3" = _gaBHb3p3;
+        "pkg-1.1.0-mc1.21.4" = _6rhjpUdE;
+        "pkg-1.1.0-mc1.21.5" = _TsgIbEnE;
+        "pkg-1.1.0-mc1.21.6" = _VWzaWz67;
+        "pkg-1.1.0-mc1.21.7" = _ib78q2rm;
+        "pkg-1.1.0-mc1.21.8" = _h4aQIiCL;
+        "pkg-1.1.0-mc1.21.9" = _H53DFktQ;
+        "pkg-1.1.0-mc1.21.10" = _TSEOe9Mb;
+        "pkg-1.1.0-mc1.21.11" = _Lccn0kH6;
+        "pkg-1.1.0-mc26.1" = _WarKn3Z0;
+        "pkg-1.1.0-mc26.1.1" = _ur4BBpXI;
+        "pkg-1.1.0-mc26.1.2" = _Z46o9CzT;
+        "pkg-1.1.0-mc26.2" = _W9pxRyam;
+        "pkg-1.1.0-mc26.3" = _HogwWy1Y;
+        "default" = _HogwWy1Y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "flowering-oak-leaves";

@@ -101,6 +101,26 @@ let
             "file" = "compact-chat-1.21.1-neoforge-3.1.0.jar";
             "hash" = "sha512-h9x8DeTKAzn5OGhguYmtQDxludkKLR2RauF6kIvV+YqUFDirQnBZNYLAwVf+LQVmuUeZkFZW5BsPJtsGYyd2uQ==";
         };
+        _8TawLc8c = {
+            "id" = "8TawLc8c";
+            "file" = "compact-chat-1.21.1-fabric-3.2.0.jar";
+            "hash" = "sha512-PgGggm3YN8Mo2ilBbCloulHkzBpzU8zc28HqSixwzbQ6MgidstYGLsB/lhXs65NVJ4uSBRKAf3WFhI5VQIUMNQ==";
+        };
+        _R48UpFTL = {
+            "id" = "R48UpFTL";
+            "file" = "compact-chat-1.21.1-neoforge-3.2.0.jar";
+            "hash" = "sha512-tZPgcCjlvpNAgF/gdlLRMs2a9d6r1D3NeK3lUdfGoqhx5KrcSM33tHiWrtR5t7021xQjUTfmrM7WYN2FHcJu4Q==";
+        };
+        _yiUIRkHJ = {
+            "id" = "yiUIRkHJ";
+            "file" = "compact-chat-26.1-fabric-3.2.0.jar";
+            "hash" = "sha512-z9QwGKIhcb5TM3n9L6oVntONs3SvVruGyYhMv4hEmLdRkhLpTvi4cyxP/LYuz4XmcpQ62AuSfVmKPCWmVj9s4g==";
+        };
+        _ytiGhyKJ = {
+            "id" = "ytiGhyKJ";
+            "file" = "compact-chat-26.1-neoforge-3.2.0.jar";
+            "hash" = "sha512-KHlQIw85/7I9j2u3sD23ChIUA8WTXjq/QxyDU4slHX3j3PcymnouAaYlDSBZi5OUOvahmCsj87RKPwVYZZ3yWQ==";
+        };
     in {
         "Ek66Tl7v" = _Ek66Tl7v;
         "HtrOglNQ" = _HtrOglNQ;
@@ -122,6 +142,10 @@ let
         "BbZPvS9n" = _BbZPvS9n;
         "KiVtmscA" = _KiVtmscA;
         "fUJy3Jnx" = _fUJy3Jnx;
+        "8TawLc8c" = _8TawLc8c;
+        "R48UpFTL" = _R48UpFTL;
+        "yiUIRkHJ" = _yiUIRkHJ;
+        "ytiGhyKJ" = _ytiGhyKJ;
         "fabric-1.17.1" = _WFkhcRyP;
         "fabric-1.18" = _AOCXUcg5;
         "fabric-1.18.1" = _AOCXUcg5;
@@ -141,28 +165,38 @@ let
         "fabric-1.20.4" = _uDcCGuqq;
         "fabric-1.20.6" = _5MK2BXrp;
         "fabric-1.21" = _5MK2BXrp;
-        "fabric-1.21.1" = _KiVtmscA;
-        "fabric-1.21.2" = _KiVtmscA;
-        "fabric-1.21.3" = _KiVtmscA;
-        "fabric-1.21.4" = _KiVtmscA;
-        "fabric-1.21.5" = _KiVtmscA;
-        "fabric-1.21.6" = _KiVtmscA;
-        "fabric-1.21.7" = _KiVtmscA;
-        "fabric-1.21.8" = _KiVtmscA;
-        "fabric-1.21.9" = _KiVtmscA;
-        "fabric-1.21.10" = _KiVtmscA;
-        "fabric-1.21.11" = _KiVtmscA;
-        "neoforge-1.21.1" = _fUJy3Jnx;
-        "neoforge-1.21.2" = _fUJy3Jnx;
-        "neoforge-1.21.3" = _fUJy3Jnx;
-        "neoforge-1.21.4" = _fUJy3Jnx;
-        "neoforge-1.21.5" = _fUJy3Jnx;
-        "neoforge-1.21.6" = _fUJy3Jnx;
-        "neoforge-1.21.7" = _fUJy3Jnx;
-        "neoforge-1.21.8" = _fUJy3Jnx;
-        "neoforge-1.21.9" = _fUJy3Jnx;
-        "neoforge-1.21.10" = _fUJy3Jnx;
-        "neoforge-1.21.11" = _fUJy3Jnx;
+        "fabric-1.21.1" = _8TawLc8c;
+        "fabric-1.21.2" = _8TawLc8c;
+        "fabric-1.21.3" = _8TawLc8c;
+        "fabric-1.21.4" = _8TawLc8c;
+        "fabric-1.21.5" = _8TawLc8c;
+        "fabric-1.21.6" = _8TawLc8c;
+        "fabric-1.21.7" = _8TawLc8c;
+        "fabric-1.21.8" = _8TawLc8c;
+        "fabric-1.21.9" = _8TawLc8c;
+        "fabric-1.21.10" = _8TawLc8c;
+        "fabric-1.21.11" = _8TawLc8c;
+        "fabric-26.1" = _yiUIRkHJ;
+        "fabric-26.1.1" = _yiUIRkHJ;
+        "fabric-26.1.2" = _yiUIRkHJ;
+        "fabric-26.2" = _yiUIRkHJ;
+        "fabric-26.3" = _yiUIRkHJ;
+        "neoforge-1.21.1" = _R48UpFTL;
+        "neoforge-1.21.2" = _R48UpFTL;
+        "neoforge-1.21.3" = _R48UpFTL;
+        "neoforge-1.21.4" = _R48UpFTL;
+        "neoforge-1.21.5" = _R48UpFTL;
+        "neoforge-1.21.6" = _R48UpFTL;
+        "neoforge-1.21.7" = _R48UpFTL;
+        "neoforge-1.21.8" = _R48UpFTL;
+        "neoforge-1.21.9" = _R48UpFTL;
+        "neoforge-1.21.10" = _R48UpFTL;
+        "neoforge-1.21.11" = _R48UpFTL;
+        "neoforge-26.1" = _ytiGhyKJ;
+        "neoforge-26.1.1" = _ytiGhyKJ;
+        "neoforge-26.1.2" = _ytiGhyKJ;
+        "neoforge-26.2" = _ytiGhyKJ;
+        "neoforge-26.3" = _ytiGhyKJ;
         "pkg-1.0.0" = _Ek66Tl7v;
         "pkg-1.0.1" = _HtrOglNQ;
         "pkg-1.1" = _WFkhcRyP;
@@ -181,7 +215,8 @@ let
         "pkg-2.1.1" = _5MK2BXrp;
         "pkg-3.0.0" = _BbZPvS9n;
         "pkg-3.1.0" = _fUJy3Jnx;
-        "default" = _fUJy3Jnx;
+        "pkg-3.2.0" = _ytiGhyKJ;
+        "default" = _ytiGhyKJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "compact-chat";

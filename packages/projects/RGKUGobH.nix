@@ -231,6 +231,26 @@ let
             "file" = "custom_tooltip_api-fabric-5.2.0+1.21.1.jar";
             "hash" = "sha512-eXiGJGgejzwllP+dHkW9th4dkGXnl3bDu2VC40Pl41L6w6TsFGXczF1cREuuT/OaYt6Wz/MlVm7qgtF/oD5wQQ==";
         };
+        _d0rFn35L = {
+            "id" = "d0rFn35L";
+            "file" = "custom_tooltip_api-forge-5.2.1+1.20.1.jar";
+            "hash" = "sha512-8aNMS3NbetjYe3diGBPGvemIPLwrn+Ho+D11nOxry8SKkH59Yohrq0seh81Cz1osRgUvLHzHRvoQ3giMiastZg==";
+        };
+        _YNZtFFmc = {
+            "id" = "YNZtFFmc";
+            "file" = "custom_tooltip_api-fabric-5.2.1+1.20.1.jar";
+            "hash" = "sha512-A4FkVPQcd97jl8t/ZagXRcQcuNsofQrxoCXP4rWLCljAfWeVre3dCxB9+RlQirflwwiu0DW7NYSjEZDjRgxB3A==";
+        };
+        _YccIb0Mc = {
+            "id" = "YccIb0Mc";
+            "file" = "custom_tooltip_api-neoforge-5.2.1+1.21.1.jar";
+            "hash" = "sha512-5tV31WNdYS/yg7VHH+7RwTjEicc9JjAQTJbI6o3X2Hs/CkhQI78LFowLGxgS51R1F4e2WIRfRyJIBxkdDN2Oyw==";
+        };
+        _7O7RUKNm = {
+            "id" = "7O7RUKNm";
+            "file" = "custom_tooltip_api-fabric-5.2.1+1.21.1.jar";
+            "hash" = "sha512-jKc9fUizjanBdEfV1ELAYy9eATtKakRo+yUgDI6OiWmcSS8U/Xoop9A7Y7+1KrBNP7DyaeQAKRwuqgps/T2wAw==";
+        };
     in {
         "Gm4Z1qqa" = _Gm4Z1qqa;
         "kPTZciT5" = _kPTZciT5;
@@ -278,10 +298,14 @@ let
         "4NDkWeS4" = _4NDkWeS4;
         "fTuEGlZF" = _fTuEGlZF;
         "SsHS4SwO" = _SsHS4SwO;
-        "fabric-1.20.1" = _4NDkWeS4;
-        "fabric-1.21.1" = _SsHS4SwO;
-        "neoforge-1.21.1" = _fTuEGlZF;
-        "forge-1.20.1" = _QhLjsomu;
+        "d0rFn35L" = _d0rFn35L;
+        "YNZtFFmc" = _YNZtFFmc;
+        "YccIb0Mc" = _YccIb0Mc;
+        "7O7RUKNm" = _7O7RUKNm;
+        "fabric-1.20.1" = _YNZtFFmc;
+        "fabric-1.21.1" = _7O7RUKNm;
+        "neoforge-1.21.1" = _YccIb0Mc;
+        "forge-1.20.1" = _d0rFn35L;
         "pkg-1.0.0" = _Gm4Z1qqa;
         "pkg-1.1.0" = _kPTZciT5;
         "pkg-1.2.0" = _sgxVsrTw;
@@ -306,7 +330,9 @@ let
         "pkg-5.1.1+1.21.1" = _J4umbjx9;
         "pkg-5.2.0+1.20.1" = _4NDkWeS4;
         "pkg-5.2.0+1.21.1" = _SsHS4SwO;
-        "default" = _SsHS4SwO;
+        "pkg-5.2.1+1.20.1" = _YNZtFFmc;
+        "pkg-5.2.1+1.21.1" = _7O7RUKNm;
+        "default" = _7O7RUKNm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "custom-tooltip-api";

@@ -1601,6 +1601,16 @@ let
             "file" = "CreativeCore_NEOFORGE_v2.13.51_mc1.21.1.jar";
             "hash" = "sha512-hkMB+hIpURID/Ckem2g9ta88tKpPrtDvHrVBEkkbPJf5tQBrQtQfssFp9/yTrRNFn1B5xv/HPcSxRe5ht2h5lw==";
         };
+        _CuGhBotX = {
+            "id" = "CuGhBotX";
+            "file" = "CreativeCore_NEOFORGE_v2.14.22_mc26.3.jar";
+            "hash" = "sha512-BD+sP26ogMEqObRkgz2XD95KseAKXG/Cm+FXY6CWDoflwbz0k19hzTdKzNPeUPtV4gpYB2E4VA419fL9o96AHg==";
+        };
+        _mzuUQoPB = {
+            "id" = "mzuUQoPB";
+            "file" = "CreativeCore_FABRIC_v2.14.22_mc26.3.jar";
+            "hash" = "sha512-Jsas8bE4WiXjW0SBw5B/gk+OGqv+d29lAVar6QXiT5iyU6O50aGpqUxuNsfIiNtN/HiW83nWEzZ0voks2xqH0Q==";
+        };
     in {
         "KQPGT13V" = _KQPGT13V;
         "fV0nS6Hk" = _fV0nS6Hk;
@@ -1922,6 +1932,8 @@ let
         "C1lNe7Iw" = _C1lNe7Iw;
         "zdCqLdHs" = _zdCqLdHs;
         "vRMtFt35" = _vRMtFt35;
+        "CuGhBotX" = _CuGhBotX;
+        "mzuUQoPB" = _mzuUQoPB;
         "forge-1.12.2" = _KQPGT13V;
         "forge-1.16.5" = _fV0nS6Hk;
         "forge-1.17.1" = _L9bEkcLq;
@@ -1956,7 +1968,7 @@ let
         "fabric-26.1" = _Zx1s0cYT;
         "fabric-26.1.2" = _atlpYjof;
         "fabric-26.2" = _SI6rsPDj;
-        "fabric-26.3" = _GO707F1h;
+        "fabric-26.3" = _mzuUQoPB;
         "neoforge-1.20" = _T7kYEKfo;
         "neoforge-1.20.1" = _m9VEcxwz;
         "neoforge-1.20.4" = _tEZ8zqTM;
@@ -1975,7 +1987,7 @@ let
         "neoforge-26.1" = _DSPqEs86;
         "neoforge-26.1.2" = _OqoUKynf;
         "neoforge-26.2" = _Mwk5iw3d;
-        "neoforge-26.3" = _zdCqLdHs;
+        "neoforge-26.3" = _CuGhBotX;
         "pkg-1.10.62" = _KQPGT13V;
         "pkg-2.2.1" = _fV0nS6Hk;
         "pkg-2.2.2" = _L9bEkcLq;
@@ -2163,7 +2175,8 @@ let
         "pkg-2.14.20" = _C1lNe7Iw;
         "pkg-2.14.21" = _zdCqLdHs;
         "pkg-2.13.51" = _vRMtFt35;
-        "default" = _vRMtFt35;
+        "pkg-2.14.22" = _mzuUQoPB;
+        "default" = _mzuUQoPB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "creativecore";

@@ -241,6 +241,46 @@ let
             "file" = "first-class-flying-forge-1.21.11-1.2.1+native.20260919.jar";
             "hash" = "sha512-u+Zk4SrVf/xqb6TUTPRBbd7qQsCsCzTj5MT2EBM2uU0m2fICzCoWDgK/5KxWDRUkBFiuFTepwf8UaD0bAkkf2A==";
         };
+        _f0iVsaIk = {
+            "id" = "f0iVsaIk";
+            "file" = "first-class-flying-mc26.3-1.2.1+port.20261019.jar";
+            "hash" = "sha512-7XrdYNJtPjWXN6UaCFpB0qciisTmhO4SNJTHPjI9DXPKIIXok+uW8buVa61RY2UQZrndsgDGWhHOaW4VnGTLHg==";
+        };
+        _LNlYS802 = {
+            "id" = "LNlYS802";
+            "file" = "first-class-flying-mc26.2-1.2.1+port.20261019.jar";
+            "hash" = "sha512-Wq6p1FzwGdHbOkmbeFqEX9MUNfHkls2bn0gxZBWV/tB2xhv81YPP/ogDsOoXT0bIj8IU2kppXALmJWELWq6SJw==";
+        };
+        _eeOVxskI = {
+            "id" = "eeOVxskI";
+            "file" = "first-class-flying-mc1.20.1-1.2.1+port.20261019.jar";
+            "hash" = "sha512-MkGioIL4RjLNLLtja8s0MUPsiLiGFsV3gRnQph4ODQngteXGdrngxz9jvlS5ikUiLohDZ8547pybOKWYVdrPLA==";
+        };
+        _TxT6odE4 = {
+            "id" = "TxT6odE4";
+            "file" = "first-class-flying-mc1.20-1.2.1+port.20261019.jar";
+            "hash" = "sha512-kAvzLKDafZoybMGdlk5UhbMaYbIGU29WSRWGvzf4NvQ1TnZPIZsSoyHJOGZyNKtcuKRecPmH4dv9l354sBYkOA==";
+        };
+        _FSLBtNPN = {
+            "id" = "FSLBtNPN";
+            "file" = "first-class-flying-forge-26.3-1.2.1+native.20261019.jar";
+            "hash" = "sha512-q+ztDGSWyn1HRePcZUk6zYilgaxVZaF3jNJ45NTxjLt5UgSpD1iVmHubmPXNaTXVbLZpb1H6um2HewzNQs871A==";
+        };
+        _xAkP8uEA = {
+            "id" = "xAkP8uEA";
+            "file" = "first-class-flying-forge-26.2-1.2.1+native.20261019.jar";
+            "hash" = "sha512-4D56UuBqxRkgt+XMnunbjYtkWOjW+8iy5uLeKhKUJaRX00yid/iX6KcDM1tsBYVTAo6t8bbQOXxmAgUNeO/SZA==";
+        };
+        _AhS3DRKO = {
+            "id" = "AhS3DRKO";
+            "file" = "first-class-flying-neoforge-26.3-1.2.1+native.20261019.jar";
+            "hash" = "sha512-SIOy72MsJDjEJGv5gllm3rVjVe+nitckNwtFaezEVVp2gAFQNcHiGV0YUbks3aPXPE+Iuv3Gc5hc6yrUoShL8w==";
+        };
+        _tL8JfUHO = {
+            "id" = "tL8JfUHO";
+            "file" = "first-class-flying-neoforge-26.2-1.2.1+native.20261019.jar";
+            "hash" = "sha512-qvjCMYs6gA9I/t6YdeYCv4+PGbOyyKVua4KSKvaIp1TQze280SGzbDH9OooFaPetKWN9HsGsJn6JDFaDcn5PJQ==";
+        };
     in {
         "HTR1uSSf" = _HTR1uSSf;
         "zFMxUkft" = _zFMxUkft;
@@ -290,6 +330,14 @@ let
         "190bEKU8" = _190bEKU8;
         "UnIAIth7" = _UnIAIth7;
         "P9jLA51p" = _P9jLA51p;
+        "f0iVsaIk" = _f0iVsaIk;
+        "LNlYS802" = _LNlYS802;
+        "eeOVxskI" = _eeOVxskI;
+        "TxT6odE4" = _TxT6odE4;
+        "FSLBtNPN" = _FSLBtNPN;
+        "xAkP8uEA" = _xAkP8uEA;
+        "AhS3DRKO" = _AhS3DRKO;
+        "tL8JfUHO" = _tL8JfUHO;
         "fabric-26.1" = _97Ee31Mb;
         "fabric-26.1.1" = _97Ee31Mb;
         "fabric-26.1.2" = _97Ee31Mb;
@@ -305,6 +353,10 @@ let
         "fabric-1.21.9" = _mvm3mGGP;
         "fabric-1.21.10" = _4zL3bNZh;
         "fabric-1.21.11" = _vDXPSGuy;
+        "fabric-26.3" = _f0iVsaIk;
+        "fabric-26.2" = _LNlYS802;
+        "fabric-1.20.1" = _eeOVxskI;
+        "fabric-1.20" = _TxT6odE4;
         "neoforge-26.1.2" = _RYCeUxdb;
         "neoforge-26.1.1" = _LnnD0xJk;
         "neoforge-26.1" = _cnqhLkQl;
@@ -320,6 +372,8 @@ let
         "neoforge-1.21.1" = _NrCsyqEX;
         "neoforge-1.21" = _d7K7TGBK;
         "neoforge-1.21.11" = _UnIAIth7;
+        "neoforge-26.3" = _AhS3DRKO;
+        "neoforge-26.2" = _tL8JfUHO;
         "forge-1.21.3" = _qhgpEdaF;
         "forge-26.1.2" = _AyKx26NP;
         "forge-26.1.1" = _AzYFtNAc;
@@ -334,6 +388,8 @@ let
         "forge-1.21.1" = _2bwORUIU;
         "forge-1.21" = _190bEKU8;
         "forge-1.21.11" = _P9jLA51p;
+        "forge-26.3" = _FSLBtNPN;
+        "forge-26.2" = _xAkP8uEA;
         "pkg-1.1.2" = _HTR1uSSf;
         "pkg-1.2.0+mc1.21-1.21.1" = _zFMxUkft;
         "pkg-1.2.0+mc1.21.2-1.21.3" = _ndqW7JXp;
@@ -382,7 +438,15 @@ let
         "pkg-1.2.1+mc1.21-forge" = _190bEKU8;
         "pkg-1.2.1+mc1.21.11-neoforge" = _UnIAIth7;
         "pkg-1.2.1+mc1.21.11-forge" = _P9jLA51p;
-        "default" = _P9jLA51p;
+        "pkg-1.2.1+mc26.3-fabric" = _f0iVsaIk;
+        "pkg-1.2.1+mc26.2-fabric" = _LNlYS802;
+        "pkg-1.2.1+mc1.20.1-fabric" = _eeOVxskI;
+        "pkg-1.2.1+mc1.20-fabric" = _TxT6odE4;
+        "pkg-1.2.1+mc26.3-forge" = _FSLBtNPN;
+        "pkg-1.2.1+mc26.2-forge" = _xAkP8uEA;
+        "pkg-1.2.1+mc26.3-neoforge" = _AhS3DRKO;
+        "pkg-1.2.1+mc26.2-neoforge" = _tL8JfUHO;
+        "default" = _tL8JfUHO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "first-class-flying";

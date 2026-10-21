@@ -266,6 +266,16 @@ let
             "file" = "gravelmon-fabric-4.0.0-Alpha.14.jar";
             "hash" = "sha512-cZCn7dl9GERrHJywGXFvbiPrYExAvfkYaMQouvrMLJ/yvcjMp60LSHwUtSjzHn7uzU6hj0S+1d7tYkh7/KXPdw==";
         };
+        _8lN81RfK = {
+            "id" = "8lN81RfK";
+            "file" = "gravelmon-fabric-4.0.0-Alpha.15.jar";
+            "hash" = "sha512-60tbRXyYV/9DBXmMWgxORz96ON1NcMydCylamG8PdpZoFuj7ZYO9sFMc4nEFYvOwJvP1bUnt0FqqDALVSGeimw==";
+        };
+        _4ATZHRCu = {
+            "id" = "4ATZHRCu";
+            "file" = "gravelmon-neoforge-4.0.0-Alpha.15.jar";
+            "hash" = "sha512-Qj2c7KYszCuNf1N4wtCkseQcCo/l0KpBL66HQ7Ab4pgeBlpDAQBu1JI6+HtYlPlMR8UBP12VMEZnG9z3ugQO8g==";
+        };
     in {
         "BnffWKdG" = _BnffWKdG;
         "mtl71EV6" = _mtl71EV6;
@@ -320,13 +330,15 @@ let
         "qzkAyLlA" = _qzkAyLlA;
         "xcjQ0VAQ" = _xcjQ0VAQ;
         "aOHiUAUN" = _aOHiUAUN;
+        "8lN81RfK" = _8lN81RfK;
+        "4ATZHRCu" = _4ATZHRCu;
         "fabric-1.20.1" = _EaHNJeS7;
         "fabric-1.20.2" = _g9Blt68n;
         "fabric-1.20.3" = _g9Blt68n;
         "fabric-1.20.4" = _g9Blt68n;
-        "fabric-1.21.1" = _aOHiUAUN;
+        "fabric-1.21.1" = _8lN81RfK;
         "forge-1.20.1" = _Al8GmaIg;
-        "neoforge-1.21.1" = _xcjQ0VAQ;
+        "neoforge-1.21.1" = _4ATZHRCu;
         "pkg-2.0.0" = _mtl71EV6;
         "pkg-2.0.1" = _1RePSRxR;
         "pkg-2.0.3" = _uA4jYsOW;
@@ -354,7 +366,8 @@ let
         "pkg-4.0.0-Alpha.12" = _D2AmGAxh;
         "pkg-4.0.0-Alpha.13" = _qzkAyLlA;
         "pkg-4.0.0-Alpha.14" = _aOHiUAUN;
-        "default" = _aOHiUAUN;
+        "pkg-4.0.0-Alpha.15" = _4ATZHRCu;
+        "default" = _4ATZHRCu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gravelmon";

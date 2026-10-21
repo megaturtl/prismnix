@@ -11,9 +11,15 @@ let
             "file" = "§6Bray's Zombie Overhaul v1.4.zip";
             "hash" = "sha512-xcwdjfO6HdSwqmpprP5Uw5zhc7ZpD4txctCwaKLbiICwWGtHC2SJUWsEZa6GxDIhd64lcWtwM74mO+gXywVeGg==";
         };
+        _gYn4Gqnt = {
+            "id" = "gYn4Gqnt";
+            "file" = "Bray's Zombie Overhaul v1.5.zip";
+            "hash" = "sha512-kvOKWtf3qAJshSMudPBm3TbmdWrI0sbFL1v6o8CnjbdtoQdys4kHFYoyBtqNBbkqRj6Fg1QDxwRTLCFMaPv4ZA==";
+        };
     in {
         "6fPp4UgK" = _6fPp4UgK;
         "YLttPsfB" = _YLttPsfB;
+        "gYn4Gqnt" = _gYn4Gqnt;
         "minecraft-1.20" = _YLttPsfB;
         "minecraft-1.20.1" = _YLttPsfB;
         "minecraft-1.20.2" = _YLttPsfB;
@@ -21,17 +27,17 @@ let
         "minecraft-1.20.4" = _YLttPsfB;
         "minecraft-1.20.5" = _YLttPsfB;
         "minecraft-1.20.6" = _YLttPsfB;
-        "minecraft-1.21" = _YLttPsfB;
-        "minecraft-1.21.1" = _YLttPsfB;
-        "minecraft-1.21.2" = _YLttPsfB;
-        "minecraft-1.21.3" = _YLttPsfB;
-        "minecraft-1.21.4" = _YLttPsfB;
-        "minecraft-1.21.5" = _YLttPsfB;
-        "minecraft-1.21.6" = _YLttPsfB;
-        "minecraft-1.21.7" = _YLttPsfB;
-        "minecraft-1.21.8" = _YLttPsfB;
-        "minecraft-1.21.9" = _YLttPsfB;
-        "minecraft-1.21.10" = _YLttPsfB;
+        "minecraft-1.21" = _gYn4Gqnt;
+        "minecraft-1.21.1" = _gYn4Gqnt;
+        "minecraft-1.21.2" = _gYn4Gqnt;
+        "minecraft-1.21.3" = _gYn4Gqnt;
+        "minecraft-1.21.4" = _gYn4Gqnt;
+        "minecraft-1.21.5" = _gYn4Gqnt;
+        "minecraft-1.21.6" = _gYn4Gqnt;
+        "minecraft-1.21.7" = _gYn4Gqnt;
+        "minecraft-1.21.8" = _gYn4Gqnt;
+        "minecraft-1.21.9" = _gYn4Gqnt;
+        "minecraft-1.21.10" = _gYn4Gqnt;
         "minecraft-22w42a" = _YLttPsfB;
         "minecraft-22w43a" = _YLttPsfB;
         "minecraft-22w44a" = _YLttPsfB;
@@ -84,10 +90,16 @@ let
         "minecraft-24w44a" = _YLttPsfB;
         "minecraft-24w45a" = _YLttPsfB;
         "minecraft-24w46a" = _YLttPsfB;
-        "minecraft-1.21.11" = _YLttPsfB;
+        "minecraft-1.21.11" = _gYn4Gqnt;
+        "minecraft-26.1" = _gYn4Gqnt;
+        "minecraft-26.1.1" = _gYn4Gqnt;
+        "minecraft-26.1.2" = _gYn4Gqnt;
+        "minecraft-26.2" = _gYn4Gqnt;
+        "minecraft-26.3" = _gYn4Gqnt;
         "pkg-1.3" = _6fPp4UgK;
         "pkg-1.4" = _YLttPsfB;
-        "default" = _YLttPsfB;
+        "pkg-1.5" = _gYn4Gqnt;
+        "default" = _gYn4Gqnt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "brays-zombie-overhaul";

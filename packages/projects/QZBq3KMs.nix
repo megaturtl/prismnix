@@ -156,6 +156,11 @@ let
             "file" = "earth-and-water-1.0.6-26.2-hotfix.jar";
             "hash" = "sha512-HlUq6YkLMY+jXkh6puK/peb/SRuYUpRqBIFjzFS0lZeqrvCfU59Vp2YkNCCG+ayTUsrcDJ5ieDb49dVZ+1SZtg==";
         };
+        _mjHxn13r = {
+            "id" = "mjHxn13r";
+            "file" = "earth-and-water-1.0.6-26.3-hotfix-2.jar";
+            "hash" = "sha512-C9RqfTjA9QC+5hZpGBNU9nwQEHykVx1gS/T/7A9e9c0G+mlbZsbKvrsNbgWwsHrt3t+RvRoMAUq4ViBlMQLmHw==";
+        };
     in {
         "FRrbw517" = _FRrbw517;
         "HugEiQ2p" = _HugEiQ2p;
@@ -188,6 +193,7 @@ let
         "j9BnjA80" = _j9BnjA80;
         "uLbkwZSx" = _uLbkwZSx;
         "Rm2ilAKu" = _Rm2ilAKu;
+        "mjHxn13r" = _mjHxn13r;
         "fabric-1.21.11" = _sCTJF8Mr;
         "fabric-1.21" = _U9yJauSG;
         "fabric-1.21.1" = _U9yJauSG;
@@ -211,15 +217,15 @@ let
         "fabric-26.1.1" = _TnAW8TCH;
         "fabric-26.1.2" = _TnAW8TCH;
         "fabric-26.2" = _Rm2ilAKu;
-        "fabric-26.3" = _uLbkwZSx;
+        "fabric-26.3" = _mjHxn13r;
         "pkg-1.0.0" = _FRrbw517;
         "pkg-1.0.1" = _HugEiQ2p;
         "pkg-1.0.2" = _NgJcPwg2;
         "pkg-1.0.3" = _CAgvcC9W;
         "pkg-1.0.4" = _aZHYQELA;
         "pkg-1.0.5" = _TnAW8TCH;
-        "pkg-1.0.6" = _Rm2ilAKu;
-        "default" = _Rm2ilAKu;
+        "pkg-1.0.6" = _mjHxn13r;
+        "default" = _mjHxn13r;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "earth-and-water";

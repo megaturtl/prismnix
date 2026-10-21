@@ -706,6 +706,16 @@ let
             "file" = "ItemPhysic_FABRIC_v1.8.17_mc26.3.jar";
             "hash" = "sha512-Npgcb3u/3IYBqluiKXuB+5uMA1fwYZv0HWp83OnfIfR40BgQZCKkjJNNdwLBGBlzs7vNOKQlBP6BNfdwmNRqnA==";
         };
+        _pS3Gv8zQ = {
+            "id" = "pS3Gv8zQ";
+            "file" = "ItemPhysic_NEOFORGE_v1.8.18_mc26.3.jar";
+            "hash" = "sha512-FHTUezhSaihKzbt2ZbgOZRBOSkyr6uDa3aJOp6YgBPFRi71gJtQMjYt/A2H77m3DsDOKCE1YkBnuRS/cMNh4Dg==";
+        };
+        _dPCINVjI = {
+            "id" = "dPCINVjI";
+            "file" = "ItemPhysic_FABRIC_v1.8.18_mc26.3.jar";
+            "hash" = "sha512-gvPG/eW1rcK1U7Z89/6wjfYrOzbokgr7O5eqCeGGYO3bbus0IZV5RFTd3Xy5tkqPfGCdt7u8twRPXm1TVE9PjA==";
+        };
     in {
         "nNX015Cf" = _nNX015Cf;
         "AbXNUUgZ" = _AbXNUUgZ;
@@ -848,6 +858,8 @@ let
         "M4yLedCn" = _M4yLedCn;
         "AlzbK3xP" = _AlzbK3xP;
         "XHwrPuII" = _XHwrPuII;
+        "pS3Gv8zQ" = _pS3Gv8zQ;
+        "dPCINVjI" = _dPCINVjI;
         "forge-1.18.2" = _eont7AlW;
         "forge-1.19.2" = _pHa2uS92;
         "forge-1.19.3" = _XRNfVOHz;
@@ -875,7 +887,7 @@ let
         "fabric-26.1" = _2BSFO7dh;
         "fabric-26.1.2" = _PjkIOfg7;
         "fabric-26.2" = _a7vcCKc2;
-        "fabric-26.3" = _XHwrPuII;
+        "fabric-26.3" = _dPCINVjI;
         "neoforge-1.20" = _IKqX4OuY;
         "neoforge-1.20.1" = _SEfbysti;
         "neoforge-1.20.4" = _ppeb4lxn;
@@ -894,7 +906,7 @@ let
         "neoforge-26.1" = _4qQgF0kx;
         "neoforge-26.1.2" = _d3r4znYZ;
         "neoforge-26.2" = _rAYq8vLf;
-        "neoforge-26.3" = _AlzbK3xP;
+        "neoforge-26.3" = _pS3Gv8zQ;
         "pkg-1.4.23" = _nNX015Cf;
         "pkg-1.6.6" = _xM8YkBJK;
         "pkg-1.6.6+1.19.3" = _8hzGae8J;
@@ -930,7 +942,8 @@ let
         "pkg-1.8.15" = _5fZKyu0X;
         "pkg-1.8.16" = _ayLMiCjE;
         "pkg-1.8.17" = _XHwrPuII;
-        "default" = _XHwrPuII;
+        "pkg-1.8.18" = _dPCINVjI;
+        "default" = _dPCINVjI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "itemphysic";

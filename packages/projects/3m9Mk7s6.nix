@@ -106,6 +106,11 @@ let
             "file" = "Bray's World v1.4.1.zip";
             "hash" = "sha512-HSOZ/3oQ2MTDycM/XCFaDFxG0VqE54bihEdTovGtG6IQnzH4FqcwHK7ZCkbBtD3YhbuA5MTYAj3m3A7ZSkz0BQ==";
         };
+        _ZzFexcmF = {
+            "id" = "ZzFexcmF";
+            "file" = "Bray's World v1.4.2.zip";
+            "hash" = "sha512-Xe6b8slZMR7gCh7ZQpuArKX4k/gikKEF0gaoiORp0e7oLWJnpM1uaKq93NSnsahUWVTDQpxgCCWH/NxPgVF3pA==";
+        };
     in {
         "3mz81EXB" = _3mz81EXB;
         "KxcHPLHW" = _KxcHPLHW;
@@ -128,6 +133,7 @@ let
         "9b3erQuS" = _9b3erQuS;
         "X8Ox9vJi" = _X8Ox9vJi;
         "dnJiQeBP" = _dnJiQeBP;
+        "ZzFexcmF" = _ZzFexcmF;
         "minecraft-1.20" = _9b3erQuS;
         "minecraft-1.20.1" = _9b3erQuS;
         "minecraft-1.20.2" = _9b3erQuS;
@@ -135,23 +141,23 @@ let
         "minecraft-1.20.4" = _9b3erQuS;
         "minecraft-1.20.5" = _9b3erQuS;
         "minecraft-1.20.6" = _9b3erQuS;
-        "minecraft-1.21" = _9b3erQuS;
-        "minecraft-1.21.1" = _9b3erQuS;
-        "minecraft-1.21.2" = _9b3erQuS;
-        "minecraft-1.21.3" = _9b3erQuS;
-        "minecraft-1.21.4" = _9b3erQuS;
-        "minecraft-1.21.5" = _9b3erQuS;
-        "minecraft-1.21.6" = _9b3erQuS;
-        "minecraft-1.21.7" = _9b3erQuS;
-        "minecraft-1.21.8" = _9b3erQuS;
-        "minecraft-1.21.9" = _dnJiQeBP;
-        "minecraft-1.21.10" = _dnJiQeBP;
-        "minecraft-1.21.11" = _dnJiQeBP;
-        "minecraft-26.1" = _dnJiQeBP;
-        "minecraft-26.1.1" = _dnJiQeBP;
-        "minecraft-26.1.2" = _dnJiQeBP;
-        "minecraft-26.2" = _dnJiQeBP;
-        "minecraft-26.3" = _dnJiQeBP;
+        "minecraft-1.21" = _ZzFexcmF;
+        "minecraft-1.21.1" = _ZzFexcmF;
+        "minecraft-1.21.2" = _ZzFexcmF;
+        "minecraft-1.21.3" = _ZzFexcmF;
+        "minecraft-1.21.4" = _ZzFexcmF;
+        "minecraft-1.21.5" = _ZzFexcmF;
+        "minecraft-1.21.6" = _ZzFexcmF;
+        "minecraft-1.21.7" = _ZzFexcmF;
+        "minecraft-1.21.8" = _ZzFexcmF;
+        "minecraft-1.21.9" = _ZzFexcmF;
+        "minecraft-1.21.10" = _ZzFexcmF;
+        "minecraft-1.21.11" = _ZzFexcmF;
+        "minecraft-26.1" = _ZzFexcmF;
+        "minecraft-26.1.1" = _ZzFexcmF;
+        "minecraft-26.1.2" = _ZzFexcmF;
+        "minecraft-26.2" = _ZzFexcmF;
+        "minecraft-26.3" = _ZzFexcmF;
         "pkg-1.0.0" = _3mz81EXB;
         "pkg-1.0.1" = _KxcHPLHW;
         "pkg-1.0.2" = _bsGyeRif;
@@ -172,7 +178,8 @@ let
         "pkg-1.3.8" = _9b3erQuS;
         "pkg-1.4" = _X8Ox9vJi;
         "pkg-1.4.1" = _dnJiQeBP;
-        "default" = _dnJiQeBP;
+        "pkg-1.4.2" = _ZzFexcmF;
+        "default" = _ZzFexcmF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "braysworld";

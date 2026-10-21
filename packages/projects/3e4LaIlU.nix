@@ -31,6 +31,11 @@ let
             "file" = "nether-s-exoticism-1.21.1-1.2.9.jar";
             "hash" = "sha512-bbtctemJMxE2UWtqop6FrZ3ddBF+xcJulIBTBqpcMwShkS3ey5aBw3u9v3DmkJr9S5cWZlEEZCWLEpevFZSTGg==";
         };
+        _bFYdruyC = {
+            "id" = "bFYdruyC";
+            "file" = "netherexotics.jar";
+            "hash" = "sha512-4RkwoRKJf2ayiH6nI6skXZnXX/Pr69wLBlCGqaDGI6GI7gZKWmVbnjf1h6LPCnaLyRi4KouKUybVYDZAFviCNA==";
+        };
     in {
         "q6074RRu" = _q6074RRu;
         "qHbHtan2" = _qHbHtan2;
@@ -38,16 +43,17 @@ let
         "ViO3xCL3" = _ViO3xCL3;
         "C9hh7bJO" = _C9hh7bJO;
         "iKlUgadq" = _iKlUgadq;
+        "bFYdruyC" = _bFYdruyC;
         "forge-1.18.2" = _677srxWk;
         "forge-1.16.5" = _qHbHtan2;
         "forge-1.19.2" = _ViO3xCL3;
         "forge-1.20.1" = _C9hh7bJO;
-        "neoforge-1.21.1" = _iKlUgadq;
+        "neoforge-1.21.1" = _bFYdruyC;
         "pkg-1.1.5" = _q6074RRu;
         "pkg-1.1.3" = _qHbHtan2;
         "pkg-1.2.4" = _ViO3xCL3;
-        "pkg-1.2.9" = _iKlUgadq;
-        "default" = _iKlUgadq;
+        "pkg-1.2.9" = _bFYdruyC;
+        "default" = _bFYdruyC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nethers-exoticism";

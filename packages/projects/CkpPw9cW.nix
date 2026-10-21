@@ -166,6 +166,11 @@ let
             "file" = "elytrapitchhelper-fabric-3.0.1+26.4-alpha.4.jar";
             "hash" = "sha512-i0BcEaIIbQcmLBjF6OiYPKvOHPzPKrkCTpJWAE7Ov8dZG2dTKNc3yVCP5U8AcKNJDQNH3PWidO5t7NBNwCjvkg==";
         };
+        _N1HZWYow = {
+            "id" = "N1HZWYow";
+            "file" = "elytrapitchhelper-fabric-3.0.1+26.4-alpha.5.jar";
+            "hash" = "sha512-QhQXCWdjeAr4X0KIvYUTzKjpwjjtLDoSnvCaeLLMJeMqqGzNENLTC/lYZOg3xdd6FjwlA9D67BkGUlosb4gNtQ==";
+        };
     in {
         "aA5lRSK0" = _aA5lRSK0;
         "fSYQSlQl" = _fSYQSlQl;
@@ -200,6 +205,7 @@ let
         "FdKspjpo" = _FdKspjpo;
         "ZXmVHPBC" = _ZXmVHPBC;
         "pAwCwNsj" = _pAwCwNsj;
+        "N1HZWYow" = _N1HZWYow;
         "fabric-1.21.8" = _iSHLXi9C;
         "fabric-1.21.9" = _n8j4JVzP;
         "fabric-1.21.10" = _n8j4JVzP;
@@ -272,6 +278,7 @@ let
         "fabric-26.4-snapshot-2" = _l3vu83N1;
         "fabric-26.4-snapshot-3" = _l3vu83N1;
         "fabric-26.4-snapshot-4" = _pAwCwNsj;
+        "fabric-26.4-snapshot-5" = _N1HZWYow;
         "neoforge-26.1" = _c745h3Tp;
         "neoforge-26.1.1" = _c745h3Tp;
         "neoforge-26.1.2" = _c745h3Tp;
@@ -311,7 +318,8 @@ let
         "pkg-3.0.1+26.3-neoforge" = _FdKspjpo;
         "pkg-3.0.1+26.3-fabric" = _ZXmVHPBC;
         "pkg-3.0.1+26.4-alpha.4-fabric" = _pAwCwNsj;
-        "default" = _pAwCwNsj;
+        "pkg-3.0.1+26.4-alpha.5-fabric" = _N1HZWYow;
+        "default" = _N1HZWYow;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elytrapitchhelper";

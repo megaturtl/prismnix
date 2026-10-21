@@ -46,6 +46,11 @@ let
             "file" = "getspawners-1.1.6.jar";
             "hash" = "sha512-OvOrX1n3tFX7NelyXqiKeRCjW4QFnHJOlg2kz337+csWMuSHv35eDIJL/Guh5I/Dv+J1tLkGKnXTLusufG7n9A==";
         };
+        _4tWBo1SL = {
+            "id" = "4tWBo1SL";
+            "file" = "getspawners-1.1.7.jar";
+            "hash" = "sha512-9r6ppI2uAx5t71eKqcjP5+KOUKm770gmWxernJys3QLRgRItHoxNdtjnaB1d5lQ4HrQyn8919Mhluy9KaWlpHg==";
+        };
     in {
         "7uhzQ1st" = _7uhzQ1st;
         "pdTXAuMa" = _pdTXAuMa;
@@ -56,12 +61,13 @@ let
         "EcOC7uxq" = _EcOC7uxq;
         "2iAxDrCo" = _2iAxDrCo;
         "iMG0iQuq" = _iMG0iQuq;
+        "4tWBo1SL" = _4tWBo1SL;
         "fabric-1.21.11" = _7uhzQ1st;
         "fabric-26.1" = _5U10xJxK;
         "fabric-26.1.1" = _PGw8Q6NK;
         "fabric-26.1.2" = _EcOC7uxq;
         "fabric-26.2" = _2iAxDrCo;
-        "fabric-26.3" = _iMG0iQuq;
+        "fabric-26.3" = _4tWBo1SL;
         "pkg-1.0.0" = _7uhzQ1st;
         "pkg-1.1.0" = _pdTXAuMa;
         "pkg-1.1.1" = _5U10xJxK;
@@ -70,7 +76,8 @@ let
         "pkg-1.1.4" = _KAC0fpBe;
         "pkg-1.1.5" = _2iAxDrCo;
         "pkg-1.1.6" = _iMG0iQuq;
-        "default" = _iMG0iQuq;
+        "pkg-1.1.7" = _4tWBo1SL;
+        "default" = _4tWBo1SL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "getspawners";

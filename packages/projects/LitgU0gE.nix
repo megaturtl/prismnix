@@ -1246,6 +1246,11 @@ let
             "file" = "avoidlib+fabric+neoforge-26.3-1.31.jar";
             "hash" = "sha512-rLuzRz14tKw2Hr0FAm6FUD1gmnhMb28VON+gjoachkXeW8QdEx5yYbcFyiTQNkt2y2n9Huemeqf1CZM6tsSoJg==";
         };
+        _OqPcu1bQ = {
+            "id" = "OqPcu1bQ";
+            "file" = "avoidlib+26.4-1.32-experimental-1.jar";
+            "hash" = "sha512-GkFdfNvu7KiDIqHoBvLBXqWloJs5Fdhpru76FxSxfyMBhLou8sYfjU/ydfIZQCPXfAaYcij6kT1WAP2o5zROqA==";
+        };
     in {
         "MNN5qN02" = _MNN5qN02;
         "6Erv7P5r" = _6Erv7P5r;
@@ -1496,6 +1501,7 @@ let
         "XOTBrnH9" = _XOTBrnH9;
         "GyyIpLD2" = _GyyIpLD2;
         "yDAFdl3F" = _yDAFdl3F;
+        "OqPcu1bQ" = _OqPcu1bQ;
         "fabric-1.21.11" = _zJkxrjiG;
         "fabric-26.1" = _XOTBrnH9;
         "fabric-26.1.1" = _XOTBrnH9;
@@ -1517,6 +1523,7 @@ let
         "fabric-26.4-snapshot-3" = _Y0EReo0g;
         "fabric-26.4-snapshot-4" = _mR8f8iyX;
         "fabric-1.21.5" = _dnxqwsyV;
+        "fabric-26.4-snapshot-5" = _OqPcu1bQ;
         "neoforge-26.1" = _XOTBrnH9;
         "neoforge-26.1.1" = _XOTBrnH9;
         "neoforge-26.1.2" = _XOTBrnH9;
@@ -1568,7 +1575,8 @@ let
         "pkg-1.29" = _rTpJrM1V;
         "pkg-1.30" = _N0rEueh5;
         "pkg-1.31" = _yDAFdl3F;
-        "default" = _yDAFdl3F;
+        "pkg-1.32-experimental-1" = _OqPcu1bQ;
+        "default" = _OqPcu1bQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "avoid";

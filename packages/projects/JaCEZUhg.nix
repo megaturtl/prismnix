@@ -436,6 +436,11 @@ let
             "file" = "TerraFirmaCraft-NeoForge-1.21.1-4.2.12.jar";
             "hash" = "sha512-5TX6RpSiT64pe+LtC/PSmp4fFNd1isuUajieneBufjrdnMsnLMwHx/7jsfaFBHboURKlDdeqfFJPtFBEXzGl8A==";
         };
+        _dR2GA31g = {
+            "id" = "dR2GA31g";
+            "file" = "TerraFirmaCraft-Forge-1.20.1-3.2.28.jar";
+            "hash" = "sha512-Zl7bunK5wtnzM0pZPfMhR2ovMnwmvefsMoxWWvo6ya5EKycwSQvf9DPPRjFjn7xm5yTYHCaSkV6mQQj0XhdDvA==";
+        };
     in {
         "FOgRdBUC" = _FOgRdBUC;
         "XhQYXiMy" = _XhQYXiMy;
@@ -524,11 +529,12 @@ let
         "XJqVIULL" = _XJqVIULL;
         "YAR7HJGA" = _YAR7HJGA;
         "2gXJo8Ol" = _2gXJo8Ol;
+        "dR2GA31g" = _dR2GA31g;
         "forge-1.18.2" = _gGitRm7b;
         "forge-1.7.10" = _XhQYXiMy;
         "forge-1.12.2" = _k4rM7PTU;
-        "forge-1.20.1" = _YAR7HJGA;
-        "neoforge-1.20.1" = _YAR7HJGA;
+        "forge-1.20.1" = _dR2GA31g;
+        "neoforge-1.20.1" = _dR2GA31g;
         "neoforge-1.21.1" = _2gXJo8Ol;
         "pkg-2.2.29" = _FOgRdBUC;
         "pkg-0.79.30.925" = _XhQYXiMy;
@@ -617,7 +623,8 @@ let
         "pkg-3.2.26" = _XJqVIULL;
         "pkg-3.2.27" = _YAR7HJGA;
         "pkg-4.2.12" = _2gXJo8Ol;
-        "default" = _2gXJo8Ol;
+        "pkg-3.2.28" = _dR2GA31g;
+        "default" = _dR2GA31g;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "terrafirmacraft";

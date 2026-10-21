@@ -921,6 +921,11 @@ let
             "file" = "BlockFront-1.21.1-0.9.0.51b-RELEASE.jar";
             "hash" = "sha512-q7mjt6OUki3TLJPryZBl4ijpPLcFcxW7Aool7m7R9sgHsT7MyA2R34N6Evi7CdMCrkrWJo/JEtme5CY6nIarBg==";
         };
+        _khGZf5IO = {
+            "id" = "khGZf5IO";
+            "file" = "BlockFront-1.21.1-0.9.0.52b-RELEASE.jar";
+            "hash" = "sha512-JC5Zx74PyaB8FT7QlgrLw5Sb/8ogHLSqytLzBnMZyw462qrMV1X8FEP/KOU9GIiaauUkDRSb1PKTWNyFR3TxQw==";
+        };
     in {
         "8Sq6D8yG" = _8Sq6D8yG;
         "iog9ZURL" = _iog9ZURL;
@@ -1106,13 +1111,14 @@ let
         "ud7gtWqP" = _ud7gtWqP;
         "cSkmRTlm" = _cSkmRTlm;
         "tR02OlOp" = _tR02OlOp;
+        "khGZf5IO" = _khGZf5IO;
         "forge-1.19.4" = _ubapOU0W;
         "forge-1.20.1" = _Iamz39kt;
         "forge-1.20" = _Iamz39kt;
         "neoforge-1.20.4" = _YdagCrng;
         "neoforge-1.20.6" = _G6F8bicn;
         "neoforge-1.21" = _iF1BMp4J;
-        "neoforge-1.21.1" = _tR02OlOp;
+        "neoforge-1.21.1" = _khGZf5IO;
         "pkg-0.1.8.6a" = _8Sq6D8yG;
         "pkg-0.1.8.7a" = _iog9ZURL;
         "pkg-0.1.8.8a" = _HKV8OeUo;
@@ -1290,7 +1296,8 @@ let
         "pkg-0.9.0.49b" = _ud7gtWqP;
         "pkg-0.9.0.50b" = _cSkmRTlm;
         "pkg-0.9.0.51b" = _tR02OlOp;
-        "default" = _tR02OlOp;
+        "pkg-0.9.0.52b" = _khGZf5IO;
+        "default" = _khGZf5IO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blockfront";

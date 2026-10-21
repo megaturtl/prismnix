@@ -741,6 +741,11 @@ let
             "file" = "HCsCR-2.1.14+26.3-neoforge.jar";
             "hash" = "sha512-CT+gPSMV3FUr7c/rL8vuYPrMb7et1D2dqcvxKFhFW6qi1lUD8qxVG6OMlxmRVqPeetcYjBzbksdGkhWm/FTr6Q==";
         };
+        _HjCitTAM = {
+            "id" = "HjCitTAM";
+            "file" = "HCsCR-2.1.15-alpha.1+26.4-fabric.jar";
+            "hash" = "sha512-YXpck9+eWnc4JB5VwNXcqVngMCqefwddE8Vu1gGn7bMzOvnfVx5HQhdq8RjhDgHpoOUoU8tJI5e2cMIcvuKdWQ==";
+        };
     in {
         "8bLzPHTt" = _8bLzPHTt;
         "mzCoc0b2" = _mzCoc0b2;
@@ -890,6 +895,7 @@ let
         "PiUq0OLj" = _PiUq0OLj;
         "5Uyx6hqS" = _5Uyx6hqS;
         "vrT1zaHE" = _vrT1zaHE;
+        "HjCitTAM" = _HjCitTAM;
         "fabric-1.16.5" = _PpPFnEiL;
         "fabric-1.17.1" = _yaBNa21S;
         "fabric-1.18.2" = _CeJxoCFz;
@@ -913,6 +919,7 @@ let
         "fabric-26.4-snapshot-2" = _Jx9aqsid;
         "fabric-26.4-snapshot-3" = _7IlpdX68;
         "fabric-26.4-snapshot-4" = _nbRAz7aZ;
+        "fabric-26.4-snapshot-5" = _HjCitTAM;
         "forge-1.16.5" = _H2a2OFWH;
         "forge-1.17.1" = _v7ZjkUp9;
         "forge-1.18.2" = _PFhW7Z6X;
@@ -969,6 +976,7 @@ let
         "quilt-26.4-snapshot-2" = _Jx9aqsid;
         "quilt-26.4-snapshot-3" = _7IlpdX68;
         "quilt-26.4-snapshot-4" = _nbRAz7aZ;
+        "quilt-26.4-snapshot-5" = _HjCitTAM;
         "pkg-2.1.4+1.16.5-fabric" = _8bLzPHTt;
         "pkg-2.1.4+1.16.5-forge" = _mzCoc0b2;
         "pkg-2.1.4+1.17.1-fabric" = _U4ZCtNtd;
@@ -1117,7 +1125,8 @@ let
         "pkg-2.1.14+26.3-fabric" = _PiUq0OLj;
         "pkg-2.1.14+26.3-forge" = _5Uyx6hqS;
         "pkg-2.1.14+26.3-neoforge" = _vrT1zaHE;
-        "default" = _vrT1zaHE;
+        "pkg-2.1.15-alpha.1+26.4-fabric" = _HjCitTAM;
+        "default" = _HjCitTAM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hcscr";

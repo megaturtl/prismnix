@@ -376,6 +376,21 @@ let
             "file" = "better_modlist-21.1.4.jar";
             "hash" = "sha512-kyq42LCV/Tzlph0c6RAxdONr9bHOKXWyS1cill8HVb4gxtTZUB9CtLaSMXuH8LNqIc/O/SWOLwD8/ZZl3nH7vg==";
         };
+        _QRL2q28j = {
+            "id" = "QRL2q28j";
+            "file" = "better_modlist-21.1.5.jar";
+            "hash" = "sha512-ZfR9Lj1y2UEd0HrAdAx3Gh6iaToectabg7p+3zsgq/Z1EKvIjm/J9vcYmXgzFaYuJS0IuUWhPo0bqsumooTWgA==";
+        };
+        _2QULU2YL = {
+            "id" = "2QULU2YL";
+            "file" = "better_modlist-26.1.8.jar";
+            "hash" = "sha512-7cIJtBraKuaAAhyvpe3g6gIEgYYLk7NZDOJOOrT7Qx9uYVcaz5B25YINk88b2/n/pnjdQDjkKYm/VSY4klWwvg==";
+        };
+        _AOqR8J8T = {
+            "id" = "AOqR8J8T";
+            "file" = "better_modlist-26.2.3.jar";
+            "hash" = "sha512-imAOhdaxQ0i8suTUec56x/9XknNvh8UJd/5O+xgLLXV28JOxZL2zCfIaUKndJ6e+X0lcj1ayvb3IahaJWi5Z+w==";
+        };
     in {
         "V7ZltmRo" = _V7ZltmRo;
         "xeyAqqAm" = _xeyAqqAm;
@@ -452,8 +467,11 @@ let
         "ORRVBsst" = _ORRVBsst;
         "FuS9shWc" = _FuS9shWc;
         "ZID4kkto" = _ZID4kkto;
+        "QRL2q28j" = _QRL2q28j;
+        "2QULU2YL" = _2QULU2YL;
+        "AOqR8J8T" = _AOqR8J8T;
         "neoforge-1.21" = _dUiI4lk6;
-        "neoforge-1.21.1" = _ZID4kkto;
+        "neoforge-1.21.1" = _QRL2q28j;
         "neoforge-1.20" = _tslHpPrw;
         "neoforge-1.20.1" = _3lITuXoU;
         "neoforge-1.21.2" = _dihJmCzh;
@@ -466,10 +484,10 @@ let
         "neoforge-1.21.9" = _x2vdaIQl;
         "neoforge-1.21.10" = _x2vdaIQl;
         "neoforge-1.21.11" = _joenEtvI;
-        "neoforge-26.1" = _FuS9shWc;
-        "neoforge-26.1.1" = _FuS9shWc;
-        "neoforge-26.1.2" = _FuS9shWc;
-        "neoforge-26.2" = _gukFjDk4;
+        "neoforge-26.1" = _2QULU2YL;
+        "neoforge-26.1.1" = _2QULU2YL;
+        "neoforge-26.1.2" = _2QULU2YL;
+        "neoforge-26.2" = _AOqR8J8T;
         "neoforge-26.3" = _fqJXu5Yc;
         "forge-1.20" = _tslHpPrw;
         "forge-1.20.1" = _3lITuXoU;
@@ -548,7 +566,10 @@ let
         "pkg-21.1.3" = _ORRVBsst;
         "pkg-26.1.7" = _FuS9shWc;
         "pkg-21.1.4" = _ZID4kkto;
-        "default" = _ZID4kkto;
+        "pkg-21.1.5" = _QRL2q28j;
+        "pkg-26.1.8" = _2QULU2YL;
+        "pkg-26.2.3" = _AOqR8J8T;
+        "default" = _AOqR8J8T;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-modlist";

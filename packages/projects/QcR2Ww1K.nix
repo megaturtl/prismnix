@@ -71,6 +71,11 @@ let
             "file" = "cloud_layers-neoforge-1.21-2.1.jar";
             "hash" = "sha512-/C40zt+EDq621RMHVy6b1zuurLB3cbCHCaefOku48IoS0O/JwvaAI53DSW9jHZLupHpPdmVFm32BpIxWGEC9Vw==";
         };
+        _lrInPveT = {
+            "id" = "lrInPveT";
+            "file" = "cloud_layers-fabric-1.21-2.2.jar";
+            "hash" = "sha512-dsafoPc1VXNsJapTE9m4i8laOoG/V7w1JTdXRO7be0E6zObajA8vTURZ2Zh7gJLb9e25wMgwmpWvZg9+/idzdQ==";
+        };
     in {
         "GlxqdP3P" = _GlxqdP3P;
         "PWv3dhog" = _PWv3dhog;
@@ -86,14 +91,15 @@ let
         "8wsoNuyT" = _8wsoNuyT;
         "Ga3gx9Rr" = _Ga3gx9Rr;
         "BlQIY6t1" = _BlQIY6t1;
-        "fabric-1.21" = _Ga3gx9Rr;
-        "fabric-1.21.1" = _Ga3gx9Rr;
+        "lrInPveT" = _lrInPveT;
+        "fabric-1.21" = _lrInPveT;
+        "fabric-1.21.1" = _lrInPveT;
         "fabric-1.20.1" = _8wsoNuyT;
         "fabric-1.20.4" = _YYIbDvIz;
         "fabric-1.19.2" = _AO65RTUj;
         "fabric-1.20" = _8wsoNuyT;
-        "quilt-1.21" = _Ga3gx9Rr;
-        "quilt-1.21.1" = _Ga3gx9Rr;
+        "quilt-1.21" = _lrInPveT;
+        "quilt-1.21.1" = _lrInPveT;
         "quilt-1.20.1" = _8wsoNuyT;
         "quilt-1.20.4" = _YYIbDvIz;
         "quilt-1.19.2" = _AO65RTUj;
@@ -110,7 +116,8 @@ let
         "pkg-1.1+1.19.2" = _AO65RTUj;
         "pkg-2.0" = _8wsoNuyT;
         "pkg-2.1" = _BlQIY6t1;
-        "default" = _BlQIY6t1;
+        "pkg-2.2" = _lrInPveT;
+        "default" = _lrInPveT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cloud-layers";

@@ -11,17 +11,31 @@ let
             "file" = "witherswrathRP.zip";
             "hash" = "sha512-hLxC7BjxaTlTbZ8yhXD4g27zEaZ3lyrmcLGavocFn3HJUO49Brd88i+L7KDzbPYRVjtQtc36iLtYr21MEc2XCw==";
         };
+        _NBCtrRdJ = {
+            "id" = "NBCtrRdJ";
+            "file" = "witherswrath-rp.zip";
+            "hash" = "sha512-FpUaMGSqO6uQkrq9EE1Hd1f+nfqIDv/0hemwudnqkgfoo3DW4zNqknHna9jjZW1PXIvYW+BKiCeAXUYKcKio8A==";
+        };
     in {
         "C02spzqZ" = _C02spzqZ;
         "jyUBp0HX" = _jyUBp0HX;
+        "NBCtrRdJ" = _NBCtrRdJ;
         "minecraft-1.21.4" = _C02spzqZ;
         "minecraft-1.21.5" = _jyUBp0HX;
         "minecraft-1.21.6" = _jyUBp0HX;
         "minecraft-1.21.7" = _jyUBp0HX;
         "minecraft-1.21.8" = _jyUBp0HX;
+        "minecraft-1.21.10" = _NBCtrRdJ;
+        "minecraft-1.21.11" = _NBCtrRdJ;
+        "minecraft-26.1" = _NBCtrRdJ;
+        "minecraft-26.1.1" = _NBCtrRdJ;
+        "minecraft-26.1.2" = _NBCtrRdJ;
+        "minecraft-26.2" = _NBCtrRdJ;
+        "minecraft-26.3" = _NBCtrRdJ;
         "pkg-1.0" = _C02spzqZ;
         "pkg-2.0" = _jyUBp0HX;
-        "default" = _jyUBp0HX;
+        "pkg-2.1" = _NBCtrRdJ;
+        "default" = _NBCtrRdJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "withers-wrath-rp";

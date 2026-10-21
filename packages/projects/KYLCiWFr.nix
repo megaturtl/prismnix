@@ -86,6 +86,16 @@ let
             "file" = "pokemon_editor-neoforge-1.7.0.jar";
             "hash" = "sha512-RBv8H0iiauSsD+hiGSaWeC8NK9sJVcpCKK9yeAmL/A7T5MVO3XxB/apaOlJx3NF5kRtR2mvLWVosVNggmu0rZw==";
         };
+        _ylWNUDAS = {
+            "id" = "ylWNUDAS";
+            "file" = "pokemon_editor-fabric-1.8.0.jar";
+            "hash" = "sha512-3BCOX1y4EvuiO0rZCLtDyYhrHUmlCSBzm+8wdlUCfQN58BQtrGCTazD6ee6NmxGYPiUHfD0+7wXyV56iyMcUoQ==";
+        };
+        _QGTk6dJ9 = {
+            "id" = "QGTk6dJ9";
+            "file" = "pokemon_editor-neoforge-1.8.0.jar";
+            "hash" = "sha512-WUTtsIgU0Fr6nhV3afvUBxJHJPJx+qy8gMZdh5yl31F2qNW6Uv4K632g6BaPrqx9cZmcTkwYxtglUArn/KGuPA==";
+        };
     in {
         "tYNxnTDK" = _tYNxnTDK;
         "bqHpG6vL" = _bqHpG6vL;
@@ -104,18 +114,20 @@ let
         "8w2a6gWZ" = _8w2a6gWZ;
         "INycyjVm" = _INycyjVm;
         "PfUYsdlm" = _PfUYsdlm;
-        "neoforge-1.21.1" = _PfUYsdlm;
-        "fabric-1.21.1" = _INycyjVm;
-        "fabric-1.21.2" = _INycyjVm;
-        "fabric-1.21.3" = _INycyjVm;
-        "fabric-1.21.4" = _INycyjVm;
-        "fabric-1.21.5" = _INycyjVm;
-        "fabric-1.21.6" = _INycyjVm;
-        "fabric-1.21.7" = _INycyjVm;
-        "fabric-1.21.8" = _INycyjVm;
-        "fabric-1.21.9" = _INycyjVm;
-        "fabric-1.21.10" = _INycyjVm;
-        "fabric-1.21.11" = _INycyjVm;
+        "ylWNUDAS" = _ylWNUDAS;
+        "QGTk6dJ9" = _QGTk6dJ9;
+        "neoforge-1.21.1" = _QGTk6dJ9;
+        "fabric-1.21.1" = _ylWNUDAS;
+        "fabric-1.21.2" = _ylWNUDAS;
+        "fabric-1.21.3" = _ylWNUDAS;
+        "fabric-1.21.4" = _ylWNUDAS;
+        "fabric-1.21.5" = _ylWNUDAS;
+        "fabric-1.21.6" = _ylWNUDAS;
+        "fabric-1.21.7" = _ylWNUDAS;
+        "fabric-1.21.8" = _ylWNUDAS;
+        "fabric-1.21.9" = _ylWNUDAS;
+        "fabric-1.21.10" = _ylWNUDAS;
+        "fabric-1.21.11" = _ylWNUDAS;
         "pkg-1.0.0" = _tYNxnTDK;
         "pkg-1.1.0" = _tJRxN0QB;
         "pkg-1.2.0" = _h4cPf1b7;
@@ -125,7 +137,8 @@ let
         "pkg-1.6.0" = _RKAT9i1N;
         "pkg-1.6.1" = _8w2a6gWZ;
         "pkg-1.7.0" = _PfUYsdlm;
-        "default" = _PfUYsdlm;
+        "pkg-1.8.0" = _QGTk6dJ9;
+        "default" = _QGTk6dJ9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pokemon-editor-cobblemon";

@@ -641,6 +641,16 @@ let
             "file" = "witchery-0.5.25+mc26.1.2.jar";
             "hash" = "sha512-CLkiJEyjoaXdO+Z+s611khgEe+/z6VY71JcHChOKSSftI8JeNxIn5dipZVDiAgXg1wbfQAwoD8dm0ysPFSYNyA==";
         };
+        _1v86qEiN = {
+            "id" = "1v86qEiN";
+            "file" = "witchery-0.5.26+mc1.21.1.jar";
+            "hash" = "sha512-EiomLibV6IZm/AS+p5a7w9cCTGI7brETSc6FxR9R4bHSd2nsO9yE0uJTJUsRcQ08FvaVmtnTq4iSyspShxoNmQ==";
+        };
+        _z3XZUPDN = {
+            "id" = "z3XZUPDN";
+            "file" = "witchery-0.5.26+mc26.1.2.jar";
+            "hash" = "sha512-A586mFShpvWKce+kcN8ErdnyrBpiTwhbdX6asOzORH8fzn4y8IB6ym8cihqktpKVQRi5DuhDdtJ5gu/Xo5lRFw==";
+        };
     in {
         "ooy3LAyx" = _ooy3LAyx;
         "noScuzuz" = _noScuzuz;
@@ -770,11 +780,13 @@ let
         "FBYoIMOk" = _FBYoIMOk;
         "E101Oa4h" = _E101Oa4h;
         "puaz9XYs" = _puaz9XYs;
+        "1v86qEiN" = _1v86qEiN;
+        "z3XZUPDN" = _z3XZUPDN;
         "fabric-1.21.1" = _UollMwVJ;
-        "neoforge-1.21.1" = _E101Oa4h;
+        "neoforge-1.21.1" = _1v86qEiN;
         "neoforge-1.21.2" = _LoRKrTYv;
         "neoforge-1.21.3" = _LoRKrTYv;
-        "neoforge-26.1.2" = _puaz9XYs;
+        "neoforge-26.1.2" = _z3XZUPDN;
         "pkg-0.1.0" = _ooy3LAyx;
         "pkg-0.1.1b" = _dEY6QYWA;
         "pkg-0.1.2" = _Yq5gQ0uh;
@@ -857,7 +869,8 @@ let
         "pkg-0.5.23" = _YDTiTByQ;
         "pkg-0.5.24" = _FBYoIMOk;
         "pkg-0.5.25" = _puaz9XYs;
-        "default" = _puaz9XYs;
+        "pkg-0.5.26" = _z3XZUPDN;
+        "default" = _z3XZUPDN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "just-another-witchery-remake";

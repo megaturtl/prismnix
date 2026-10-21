@@ -11,13 +11,20 @@ let
             "file" = "cera-1.0.1.jar";
             "hash" = "sha512-Zi6kWt7MVrLzsUxhU2gA17iQSlBW/K1WPQoPTLmHK348PxsKzczJaGsqs+IhJW0NWNnB3SJ8iQsnjkffb1legA==";
         };
+        _aqSuvjyl = {
+            "id" = "aqSuvjyl";
+            "file" = "cera-1.0.2.jar";
+            "hash" = "sha512-cnk2q4qWKCHoPOGB4glG2sfSF/EwAz/s14MW+EU368HttHsQ9zpc0ymB1/rDw8ggILqQurLV3ma0q6rB3JPArg==";
+        };
     in {
         "CIU0Y1Xy" = _CIU0Y1Xy;
         "yAj5VKe1" = _yAj5VKe1;
-        "ornithe-1.8.9" = _yAj5VKe1;
+        "aqSuvjyl" = _aqSuvjyl;
+        "ornithe-1.8.9" = _aqSuvjyl;
         "pkg-1.0.0" = _CIU0Y1Xy;
         "pkg-1.0.1" = _yAj5VKe1;
-        "default" = _yAj5VKe1;
+        "pkg-1.0.2" = _aqSuvjyl;
+        "default" = _aqSuvjyl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cera";

@@ -381,6 +381,36 @@ let
             "file" = "tiny_takeover_backport-neoforge-1.21.1-1.6.3.jar";
             "hash" = "sha512-ZrB+0RRhHrex9VyunSxgSs7BOl06/6SJsaGGu9v6mxFo+3+mpWW5unbgd6ZEKA/A2zeIUwWJ2sHZChOsmTTCAQ==";
         };
+        _FyUvPys5 = {
+            "id" = "FyUvPys5";
+            "file" = "tiny_takeover_backport-fabric-1.20.1-1.7.0.jar";
+            "hash" = "sha512-6IHG3O3huHF3AJcApaKEckQQvnnqOYgP9Vr3K+umlIAvlOF2Rtgb5WGb3e6gCs/fBPDDXrsAvMYJ12CqCC4qPA==";
+        };
+        _DFBjgkiV = {
+            "id" = "DFBjgkiV";
+            "file" = "tiny_takeover_backport-forge-1.20.1-1.7.0.jar";
+            "hash" = "sha512-AEa6F8l/gV9WGMWSmn8bSLu1Mbv9F3zx99hhtiWeeNtkGbdsdTYtgzz2VsFWyfmtwnwFI5dECIe6IAucftvV6g==";
+        };
+        _a7r9ubkq = {
+            "id" = "a7r9ubkq";
+            "file" = "tiny_takeover_backport-fabric-1.21.1-1.7.0.jar";
+            "hash" = "sha512-AilGljW+bp+soCWQwf7zxD18vYWWRHRBijs4IaPEG5SZ+yXrSHDU7fhUj38jGeu74RUIVPflq2S3XlFqPC/Wog==";
+        };
+        _rgvX4IZI = {
+            "id" = "rgvX4IZI";
+            "file" = "tiny_takeover_backport-neoforge-1.21.1-1.7.0.jar";
+            "hash" = "sha512-BFYZuljza4Osknubr9YMiE1S4Hu2b3BUSWuh09DdtJSvKU/vSXTmV1Zmef2n//EcSeLeq3Mm/IOCA8N9MQq9FQ==";
+        };
+        _Fuk4NbC8 = {
+            "id" = "Fuk4NbC8";
+            "file" = "tiny_takeover_backport-fabric-1.20.1-1.7.1.jar";
+            "hash" = "sha512-uocv/xkRPGUaAuXoqDN0VIMCmYmPSVGi2ZBY+IhohdI8gFrw6G+JCqQ87EwO58vpxLMesmpgYonVLk2BHyw75g==";
+        };
+        _mb9rlCXp = {
+            "id" = "mb9rlCXp";
+            "file" = "tiny_takeover_backport-forge-1.20.1-1.7.1.jar";
+            "hash" = "sha512-EXuX1dAX6cWosev63Ygg8R5R089PJQ7fSdhSoSpRB1tFv/sGPkmriFWLIYQ1ZVoNSOlplj9gXgDaXzuZYsBDbA==";
+        };
     in {
         "SpyZfVwv" = _SpyZfVwv;
         "wzir0AaC" = _wzir0AaC;
@@ -458,10 +488,16 @@ let
         "UXODXup2" = _UXODXup2;
         "rFelsdfF" = _rFelsdfF;
         "5JqJpRdN" = _5JqJpRdN;
-        "neoforge-1.21.1" = _5JqJpRdN;
-        "fabric-1.21.1" = _rFelsdfF;
-        "fabric-1.20.1" = _5ieHCZ1X;
-        "forge-1.20.1" = _UXODXup2;
+        "FyUvPys5" = _FyUvPys5;
+        "DFBjgkiV" = _DFBjgkiV;
+        "a7r9ubkq" = _a7r9ubkq;
+        "rgvX4IZI" = _rgvX4IZI;
+        "Fuk4NbC8" = _Fuk4NbC8;
+        "mb9rlCXp" = _mb9rlCXp;
+        "neoforge-1.21.1" = _rgvX4IZI;
+        "fabric-1.21.1" = _a7r9ubkq;
+        "fabric-1.20.1" = _Fuk4NbC8;
+        "forge-1.20.1" = _mb9rlCXp;
         "pkg-1.0.0-1.21.1-neoforge" = _SpyZfVwv;
         "pkg-1.0.0-1.21.1-fabric" = _wzir0AaC;
         "pkg-1.0.1-1.21.1-neoforge" = _ot6xhUjy;
@@ -538,7 +574,13 @@ let
         "pkg-1.6.3-1.20.1-forge" = _UXODXup2;
         "pkg-1.6.3-1.21.1-fabric" = _rFelsdfF;
         "pkg-1.6.3-1.21.1-neoforge" = _5JqJpRdN;
-        "default" = _5JqJpRdN;
+        "pkg-1.7.0-1.20.1-fabric" = _FyUvPys5;
+        "pkg-1.7.0-1.20.1-forge" = _DFBjgkiV;
+        "pkg-1.7.0-1.21.1-fabric" = _a7r9ubkq;
+        "pkg-1.7.0-1.21.1-neoforge" = _rgvX4IZI;
+        "pkg-1.7.1-1.20.1-fabric" = _Fuk4NbC8;
+        "pkg-1.7.1-1.20.1-forge" = _mb9rlCXp;
+        "default" = _mb9rlCXp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tiny-takeover-backport";

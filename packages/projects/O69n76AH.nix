@@ -11,13 +11,27 @@ let
             "file" = "kantoblocks-1.1.0.jar";
             "hash" = "sha512-kBOfskURIHq17lpmVTmtz4laBfp83rCx6ZSwNG0xTjt8D9t9ibOlzfM8z3Rwl1WUKqJZG79/30zWCYJkJja6Sw==";
         };
+        _KYb9vjPb = {
+            "id" = "KYb9vjPb";
+            "file" = "kantoblocks-fabric-1.1.1.jar";
+            "hash" = "sha512-e657duk3w6uHQo3Vq2zPMmeoKEoQSRUUTSD6A2phQNtnPpSgqo7C7ZOJvzqky3BceUDeFMcAwSS+/snNHm2QzQ==";
+        };
+        _Hzi0Jj1U = {
+            "id" = "Hzi0Jj1U";
+            "file" = "kantoblocks-neoforge-1.1.1.jar";
+            "hash" = "sha512-IlP+v7bglvfC6KfC3KEqCeIkM5dDwNABkWb/D5dEocOKeyoHIS0bRH26F25Tl+/ek/K73KH0VzAwkM7LVVlD4g==";
+        };
     in {
         "lIWqnEzK" = _lIWqnEzK;
         "p1Xx7EAP" = _p1Xx7EAP;
-        "fabric-1.21.1" = _p1Xx7EAP;
+        "KYb9vjPb" = _KYb9vjPb;
+        "Hzi0Jj1U" = _Hzi0Jj1U;
+        "fabric-1.21.1" = _KYb9vjPb;
+        "neoforge-1.21.1" = _Hzi0Jj1U;
         "pkg-1.0.9" = _lIWqnEzK;
         "pkg-1.1.0" = _p1Xx7EAP;
-        "default" = _p1Xx7EAP;
+        "pkg-1.1.1" = _Hzi0Jj1U;
+        "default" = _Hzi0Jj1U;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kantoblocks";
