@@ -21,17 +21,31 @@ let
             "file" = "skyfall-2.3.0+mc26.2.jar";
             "hash" = "sha512-kXCGieLGVlxaRl/hTpZq1fGdRYy5SGFeo/eYzBplR04J/2vsYYiKtUPAMBKOlrp4IMZiEMrZ2gYv7wohlxeGcg==";
         };
+        _rybkPCGA = {
+            "id" = "rybkPCGA";
+            "file" = "skyfall-2.4.0+mc26.2.jar";
+            "hash" = "sha512-2+cwM8ibS2nc6prTuhgSdh1AM7uhEx726Iqx7hwUQLDeUFBiHclIdU48hPIQzSJyEyQgPE3NR0AtMsiesWO9cw==";
+        };
+        _YFg0R4eJ = {
+            "id" = "YFg0R4eJ";
+            "file" = "skyfall-2.4.0+mc26.3.jar";
+            "hash" = "sha512-roean8abJAgiJaYM5/CD0HdS8MN8zCpXVApXxwAZJXfZTGg4mso474oeiFCRBbOGkMV0fjln4pGYcpZJVcGCzA==";
+        };
     in {
         "fztK0gp7" = _fztK0gp7;
         "WEisx0Eu" = _WEisx0Eu;
         "K9yG2kL5" = _K9yG2kL5;
         "JdqHVguV" = _JdqHVguV;
-        "fabric-26.2" = _JdqHVguV;
+        "rybkPCGA" = _rybkPCGA;
+        "YFg0R4eJ" = _YFg0R4eJ;
+        "fabric-26.2" = _rybkPCGA;
+        "fabric-26.3" = _YFg0R4eJ;
         "pkg-2.0.0" = _fztK0gp7;
         "pkg-2.1.0" = _WEisx0Eu;
         "pkg-2.2.0" = _K9yG2kL5;
         "pkg-2.3.0" = _JdqHVguV;
-        "default" = _JdqHVguV;
+        "pkg-2.4.0" = _YFg0R4eJ;
+        "default" = _YFg0R4eJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skyfall";

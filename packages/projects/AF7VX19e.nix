@@ -86,6 +86,11 @@ let
             "file" = "collectors_caravan-9.0.0.jar";
             "hash" = "sha512-7nQG2+8tF67yMgRtJlThZNZx3KQhkLMCxi25KPjoFCopWri6gxIKKWajpTy9Jcb4FrLZnPdeeIdV82/T9w+WQw==";
         };
+        _G7TnESjW = {
+            "id" = "G7TnESjW";
+            "file" = "collectors_caravan-10.0.0.jar";
+            "hash" = "sha512-BaxDWHqhcgB6RitjF/CHg5Sfau2qAdDtCquY85XkRDQgL6JBd5iZPdHh2Ms5NTqrNeZOQgMOBy3f5+tNmhpxtA==";
+        };
     in {
         "EoagtGqK" = _EoagtGqK;
         "gSea8T9M" = _gSea8T9M;
@@ -104,9 +109,10 @@ let
         "ITf0JfTV" = _ITf0JfTV;
         "7fRvbUUw" = _7fRvbUUw;
         "hXPH9QkQ" = _hXPH9QkQ;
+        "G7TnESjW" = _G7TnESjW;
         "forge-1.20.1" = _ITf0JfTV;
         "forge-1.21.1" = _7fRvbUUw;
-        "neoforge-1.21.1" = _hXPH9QkQ;
+        "neoforge-1.21.1" = _G7TnESjW;
         "pkg-4.0.0" = _EoagtGqK;
         "pkg-4.0.2" = _gSea8T9M;
         "pkg-4.1.0" = _gDE1R6Ng;
@@ -124,7 +130,8 @@ let
         "pkg-8.3.0" = _ITf0JfTV;
         "pkg-8.5.0" = _7fRvbUUw;
         "pkg-9.0.0" = _hXPH9QkQ;
-        "default" = _hXPH9QkQ;
+        "pkg-10.0.0" = _G7TnESjW;
+        "default" = _G7TnESjW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "collectors-caravan";

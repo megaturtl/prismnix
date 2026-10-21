@@ -461,6 +461,26 @@ let
             "file" = "gravels_extended_battles-neoforge-2.0.0-Alpha.32.jar";
             "hash" = "sha512-l9Zpg3gcmVFOKE2rMlt1EW9rQHCCuKqwxcq6xPemj55/LxsxKzRTDf3P6RHOusMvbhR+RKplAUOeS9ZSdCPE0w==";
         };
+        _ChVROghp = {
+            "id" = "ChVROghp";
+            "file" = "gravels_extended_battles-fabric-2.0.0-Alpha.33.jar";
+            "hash" = "sha512-DM9ZrfE7tDO88bSZA5/g6woFqN70YfmweqYX8UWGGDCWYbC/bByp0ZP0OLsNBVoSZOkeSEXX3aHTy/QsU4MLxA==";
+        };
+        _ch3PPQXG = {
+            "id" = "ch3PPQXG";
+            "file" = "gravels_extended_battles-neoforge-2.0.0-Alpha.33.jar";
+            "hash" = "sha512-+XKBklgwqgINZA6b39/vFEtGO30EaGfReaQvu5BCKvsdycqyjH/ds4FJDG3BrxgAeLRdIDpMsohPRPruPaSEzQ==";
+        };
+        _UZgbQ4Aj = {
+            "id" = "UZgbQ4Aj";
+            "file" = "gravels_extended_battles-neoforge-2.0.0-Alpha.35.jar";
+            "hash" = "sha512-cEW/oLweqH1s3OWLSqhLbJEbePZr/Rd4hifi0+EIXUnaavyBFaGVSdaCjP4WXq4bWSSrsNvZ2oN0Ipox3nJ7Kg==";
+        };
+        _3fsZhAHn = {
+            "id" = "3fsZhAHn";
+            "file" = "gravels_extended_battles-fabric-2.0.0-Alpha.35.jar";
+            "hash" = "sha512-muRJftcfiWpC1wYKSbMG4DIqVMwFypb/QekPb4yc4HnKgmSPyBeukO+PjbMsHWGEfX0m9XR2cKKrq42z/EkTRQ==";
+        };
     in {
         "JHlPgr3T" = _JHlPgr3T;
         "5SiG7t44" = _5SiG7t44;
@@ -554,10 +574,14 @@ let
         "b1CDqsXS" = _b1CDqsXS;
         "kZtE8JCY" = _kZtE8JCY;
         "DeiYArYM" = _DeiYArYM;
+        "ChVROghp" = _ChVROghp;
+        "ch3PPQXG" = _ch3PPQXG;
+        "UZgbQ4Aj" = _UZgbQ4Aj;
+        "3fsZhAHn" = _3fsZhAHn;
         "forge-1.20.1" = _Ku3j8ind;
         "fabric-1.20.1" = _Mt56Htbr;
-        "fabric-1.21.1" = _kZtE8JCY;
-        "neoforge-1.21.1" = _DeiYArYM;
+        "fabric-1.21.1" = _3fsZhAHn;
+        "neoforge-1.21.1" = _UZgbQ4Aj;
         "pkg-1.0.0" = _5SiG7t44;
         "pkg-1.0.1" = _hcgMsa6C;
         "pkg-1.2.0" = _twUDiFTT;
@@ -609,7 +633,9 @@ let
         "pkg-2.0.0-Alpha.30" = _mprQ9t42;
         "pkg-2.0.0-Alpha.31" = _b1CDqsXS;
         "pkg-2.0.0-Alpha.32" = _DeiYArYM;
-        "default" = _DeiYArYM;
+        "pkg-2.0.0-Alpha.33" = _ch3PPQXG;
+        "pkg-2.0.0-Alpha.35" = _3fsZhAHn;
+        "default" = _3fsZhAHn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gravels-extended-battles";

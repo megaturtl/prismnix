@@ -56,6 +56,16 @@ let
             "file" = "AliveAndWell-3.0.9+mc26.3-fabric-public.jar";
             "hash" = "sha512-uFE5+q//KAQtQM+/G9iPDmHj/K6KzNex5JX69Q0hEOfYWokfHm+0qv0xBTdQh2wnXR4oEG5N1HapM9RumV29QQ==";
         };
+        _vffUfzxV = {
+            "id" = "vffUfzxV";
+            "file" = "AliveAndWell-3.0.10+mc26.3-fabric-public.jar";
+            "hash" = "sha512-NlSShr6EkdLkRt4EJuwaSXCcpdtqdcPCy8+yQQLO+/BUzNEWrklc12cDOnDyCNHdq/qH0DxzizO9kYZJN1TLPg==";
+        };
+        _gbmIyKrL = {
+            "id" = "gbmIyKrL";
+            "file" = "AliveAndWell-3.0.11+mc26.3-fabric-public.jar";
+            "hash" = "sha512-KCGXuLDepsbYovkpaVgcaqsBJPMM0loXMX7eX8GoZauKoSUP3IlY5RBwh3y3I36qVfkV7/7KTeO231I2HFFL/g==";
+        };
     in {
         "6XBKxqJ3" = _6XBKxqJ3;
         "ypsADd6E" = _ypsADd6E;
@@ -68,8 +78,10 @@ let
         "Nlw2X7iJ" = _Nlw2X7iJ;
         "VNnqZ0Ci" = _VNnqZ0Ci;
         "BOeRmzwg" = _BOeRmzwg;
+        "vffUfzxV" = _vffUfzxV;
+        "gbmIyKrL" = _gbmIyKrL;
         "fabric-1.19.2" = _ypsADd6E;
-        "fabric-26.3" = _BOeRmzwg;
+        "fabric-26.3" = _gbmIyKrL;
         "neoforge-26.3" = _Nlw2X7iJ;
         "pkg-2.5.18-modrinth" = _6XBKxqJ3;
         "pkg-2.5.18-dev" = _ypsADd6E;
@@ -82,7 +94,9 @@ let
         "pkg-3.0.6+mc26.3-neoforge-public" = _Nlw2X7iJ;
         "pkg-3.0.8+mc26.3-fabric-public" = _VNnqZ0Ci;
         "pkg-3.0.9+mc26.3-fabric-public" = _BOeRmzwg;
-        "default" = _BOeRmzwg;
+        "pkg-3.0.10+mc26.3-fabric-public" = _vffUfzxV;
+        "pkg-3.0.11+mc26.3-fabric-public" = _gbmIyKrL;
+        "default" = _gbmIyKrL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "alive-well";

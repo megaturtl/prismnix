@@ -86,6 +86,26 @@ let
             "file" = "hqspeaker-neoforge-1.21.1-1.0.8.jar";
             "hash" = "sha512-JS9dEWmp7e2l8sNDlMkenYUbN3MJIlyqCGebJuhaJg3PEvz8kH0Brg11DJBBurlX4TYzJGAXrOtal7UIky60nQ==";
         };
+        _eBAHsf1G = {
+            "id" = "eBAHsf1G";
+            "file" = "hqspeaker-forge-1.20.1-1.0.9.jar";
+            "hash" = "sha512-D5K41hX8Ga76bvv3E28cY2ZGmE6scTiV/l/m6XCZKCF4FfgUQTVhDV5iHJ9ePEpph/LwjJug0TjBAmHHjKlA1g==";
+        };
+        _YW0yMtY9 = {
+            "id" = "YW0yMtY9";
+            "file" = "hqspeaker-neoforge-1.21.1-1.0.9.jar";
+            "hash" = "sha512-VAmQo+nJoiIJZX3MdWL779HkipfDvUmnX3MkRz+H2v2fKo0YPCbEFpAJjTS2W+E1716gyzF6J62Zg3cIC6eniQ==";
+        };
+        _5s4CXuRT = {
+            "id" = "5s4CXuRT";
+            "file" = "hqspeaker-forge-1.20.1-1.1.0.jar";
+            "hash" = "sha512-px6nE8uGDVf0XeAR3SDHv5LRmvGljQSOKNZeTfe5amY4l8NVSUhT19iS3ZVqfiTo1p42DP+N+N4wzcY99hHqNA==";
+        };
+        _hWeNkQpe = {
+            "id" = "hWeNkQpe";
+            "file" = "hqspeaker-neoforge-1.21.1-1.1.0.jar";
+            "hash" = "sha512-aGbGtvCA23TTMZjuZYSEg/EmtKtuQeZ8/O0txgnUg6jOOua0o/iZECDeQMfn7E3tIhBGBRZzu52svUZfo6qfPA==";
+        };
     in {
         "G1AkBKTd" = _G1AkBKTd;
         "u5PEI5Ax" = _u5PEI5Ax;
@@ -104,8 +124,12 @@ let
         "1uUfQ9Aw" = _1uUfQ9Aw;
         "IcC4UnaZ" = _IcC4UnaZ;
         "qSUSaLk7" = _qSUSaLk7;
-        "forge-1.20.1" = _IcC4UnaZ;
-        "neoforge-1.21.1" = _qSUSaLk7;
+        "eBAHsf1G" = _eBAHsf1G;
+        "YW0yMtY9" = _YW0yMtY9;
+        "5s4CXuRT" = _5s4CXuRT;
+        "hWeNkQpe" = _hWeNkQpe;
+        "forge-1.20.1" = _5s4CXuRT;
+        "neoforge-1.21.1" = _hWeNkQpe;
         "pkg-1.0.0" = _G1AkBKTd;
         "pkg-1.0.1-forge" = _u5PEI5Ax;
         "pkg-1.0.1-neoforge" = _bLer3NjH;
@@ -123,7 +147,11 @@ let
         "pkg-1.0.7-Neoforge" = _1uUfQ9Aw;
         "pkg-1.0.8-Forge" = _IcC4UnaZ;
         "pkg-1.0.8-Neoforge" = _qSUSaLk7;
-        "default" = _qSUSaLk7;
+        "pkg-1.0.9-Forge" = _eBAHsf1G;
+        "pkg-1.0.9-Neoforge" = _YW0yMtY9;
+        "pkg-1.1.0-Forge" = _5s4CXuRT;
+        "pkg-1.1.0-Neoforge" = _hWeNkQpe;
+        "default" = _hWeNkQpe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cchq-speakers";

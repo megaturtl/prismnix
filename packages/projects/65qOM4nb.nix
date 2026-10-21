@@ -71,6 +71,16 @@ let
             "file" = "Nether-API-v1.5.2-mc1.12.2.jar";
             "hash" = "sha512-UYx/AVAEmcdY78j7j7i2Rqhu9QjFFtrZ+w/PH1KTKahIU9pQGkBogQe9h1Ql13HLMXs13RwJB0F+BZTrlSj+Ng==";
         };
+        _S7kWr0s0 = {
+            "id" = "S7kWr0s0";
+            "file" = "Nether-API-v1.5.3-mc1.12.2.jar";
+            "hash" = "sha512-9No3SSvJHCIBGKtgScKw4ojZv83i7XiECZ7/4JDSPlp6FVELwwWS/XBdbom4OQuZFnAlNv2ZAJyr65Ffv2uvWQ==";
+        };
+        _ZnbZ8HHk = {
+            "id" = "ZnbZ8HHk";
+            "file" = "Nether-API-v1.5.4-mc1.12.2.jar";
+            "hash" = "sha512-1SYtHcjXuNJlBFP6nRKGOVkxSjxLFtsdYRkYW0Q9CRONv1iXMJ/IuTJu3SbyMzHNF4nFR3cO4woC2RXh2qpBHA==";
+        };
     in {
         "kk0lME7s" = _kk0lME7s;
         "n4yD1Zje" = _n4yD1Zje;
@@ -86,7 +96,9 @@ let
         "VsETicHl" = _VsETicHl;
         "vLckW1FJ" = _vLckW1FJ;
         "mcE8QTRq" = _mcE8QTRq;
-        "forge-1.12.2" = _mcE8QTRq;
+        "S7kWr0s0" = _S7kWr0s0;
+        "ZnbZ8HHk" = _ZnbZ8HHk;
+        "forge-1.12.2" = _ZnbZ8HHk;
         "pkg-1.0.0" = _kk0lME7s;
         "pkg-1.0.1" = _n4yD1Zje;
         "pkg-1.1.0" = _KEeaPDgW;
@@ -101,7 +113,9 @@ let
         "pkg-1.5.0" = _VsETicHl;
         "pkg-1.5.1" = _vLckW1FJ;
         "pkg-1.5.2" = _mcE8QTRq;
-        "default" = _mcE8QTRq;
+        "pkg-1.5.3" = _S7kWr0s0;
+        "pkg-1.5.4" = _ZnbZ8HHk;
+        "default" = _ZnbZ8HHk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nether-api";

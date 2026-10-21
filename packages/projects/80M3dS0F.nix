@@ -106,6 +106,11 @@ let
             "file" = "orevolution-1.21.1-6.0.0-beta.jar";
             "hash" = "sha512-x7SY+HkmdYsiNYNEkX87UuAs4ztvgKEOPzR86BSaSsyUditPsgyCZzikM1tP6wSdyshomLSqhdBOePmkNo0oVA==";
         };
+        _E6rYMhbw = {
+            "id" = "E6rYMhbw";
+            "file" = "orevolution-1.21.1-6.0.0.jar";
+            "hash" = "sha512-YscuaFKBU3FSZZcpatBRmsY1BJ62y16wRpWL0l9uStoVbkucKCDkQkCLCpT7NmMbv172S19Cb6DUREogBQBvyQ==";
+        };
     in {
         "zEWlpLDm" = _zEWlpLDm;
         "Xrz9xZb2" = _Xrz9xZb2;
@@ -128,8 +133,9 @@ let
         "aJfq5EMZ" = _aJfq5EMZ;
         "AxVH2ziJ" = _AxVH2ziJ;
         "oiji3cdS" = _oiji3cdS;
+        "E6rYMhbw" = _E6rYMhbw;
         "neoforge-1.21.4" = _Xrz9xZb2;
-        "neoforge-1.21.1" = _oiji3cdS;
+        "neoforge-1.21.1" = _E6rYMhbw;
         "forge-1.20.1" = _aJfq5EMZ;
         "pkg-1.0.0" = _zEWlpLDm;
         "pkg-1.0.1" = _tQ8n4ukq;
@@ -151,7 +157,8 @@ let
         "pkg-1.20.1-4.2.1" = _aJfq5EMZ;
         "pkg-1.21.1-5.1.1" = _AxVH2ziJ;
         "pkg-6.0.0-beta-a" = _oiji3cdS;
-        "default" = _oiji3cdS;
+        "pkg-1.21.1-6.0.0" = _E6rYMhbw;
+        "default" = _E6rYMhbw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "orevolution";

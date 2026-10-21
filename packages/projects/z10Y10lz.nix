@@ -61,6 +61,16 @@ let
             "file" = "Figura-Lite-mc1.20.1-1.3.6-hotfix.jar";
             "hash" = "sha512-Q8uuujbZSK9F0JMs9zRwJC+ZbAcrXZbdmShTRs0i7iwWuNmMT2fJAB2t3StdV7nmFzNOjpKGwXsUY3R1TrUn4g==";
         };
+        _BsqVeNKH = {
+            "id" = "BsqVeNKH";
+            "file" = "Figura-Lite-mc1.20.1-1.3.7.jar";
+            "hash" = "sha512-nCbnRPlVHK5utIxaCBfSf4/MTXM7WgqOVXz2TdLaonjyQuDkhV8nNoOoJxhnOC5jZJ9LQx4A1rufXk17mM8s4Q==";
+        };
+        _4PCP35Hf = {
+            "id" = "4PCP35Hf";
+            "file" = "Figura-Lite-mc1.21.1-1.3.7.jar";
+            "hash" = "sha512-UtKMrkacjkWjB0rycN2q3Yxc6f8jiG3WV4Q1bYyLTG/0MnkmS4qR3QGaXtTT3/wwlYrSN+CwbixSr6XP5qnv5g==";
+        };
     in {
         "yHJLarFQ" = _yHJLarFQ;
         "YaEwocRk" = _YaEwocRk;
@@ -74,8 +84,10 @@ let
         "IPFEeByG" = _IPFEeByG;
         "XuP6TDP8" = _XuP6TDP8;
         "bNVB0UWG" = _bNVB0UWG;
-        "fabric-1.20.1" = _bNVB0UWG;
-        "fabric-1.21.1" = _UTq0EySV;
+        "BsqVeNKH" = _BsqVeNKH;
+        "4PCP35Hf" = _4PCP35Hf;
+        "fabric-1.20.1" = _BsqVeNKH;
+        "fabric-1.21.1" = _4PCP35Hf;
         "pkg-1.20.1-1.1.0" = _yHJLarFQ;
         "pkg-1.21.1-1.1.0" = _YaEwocRk;
         "pkg-1.20.1-1.2.0" = _FcN45HHg;
@@ -88,7 +100,9 @@ let
         "pkg-1.20.1-1.3.5-community-only" = _IPFEeByG;
         "pkg-1.20.1-1.3.6-community-only" = _XuP6TDP8;
         "pkg-1.20.1-1.3.6-hotfix-commu" = _bNVB0UWG;
-        "default" = _bNVB0UWG;
+        "pkg-1.20.1-1.3.7" = _BsqVeNKH;
+        "pkg-1.21.1-1.3.7" = _4PCP35Hf;
+        "default" = _4PCP35Hf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "figura-lite";

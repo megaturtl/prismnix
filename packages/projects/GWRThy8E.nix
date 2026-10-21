@@ -36,6 +36,16 @@ let
             "file" = "Luster_v5.6.zip";
             "hash" = "sha512-UtjSwqytKA4dBnZrt6VmblbjZPkUbh65t9DD+ja4IKdGLXRfcr2Euxmrz8fK0RADhAomIb5e9QAX3jyg00Nmog==";
         };
+        _o4HDjVfE = {
+            "id" = "o4HDjVfE";
+            "file" = "Luster_v5.7.zip";
+            "hash" = "sha512-iCB/lHD4Lep4lD8gBuYdgqCcU5GPRtn6Uraf4CNixSV9fj0YmCVtCuf95AECACX9EnWgJQ4yJEIaquSqM6zMsA==";
+        };
+        _LGgEZnra = {
+            "id" = "LGgEZnra";
+            "file" = "Luster_v5.0a.zip";
+            "hash" = "sha512-cCgH8ywQOAD78XykeB1vJqBh0AU6pKli2XqDd9sRiStVfzQc1QBBvzoNr2aeYcFd3MeSXQi9QhhfZ4O4kZ5DiQ==";
+        };
     in {
         "oOEnBI5q" = _oOEnBI5q;
         "SZrA7iNU" = _SZrA7iNU;
@@ -44,20 +54,23 @@ let
         "hKFXp83z" = _hKFXp83z;
         "Gm5ykz6E" = _Gm5ykz6E;
         "llNsSrFi" = _llNsSrFi;
-        "iris-1.21.11" = _llNsSrFi;
-        "iris-26.1" = _llNsSrFi;
-        "iris-26.1.1" = _llNsSrFi;
-        "iris-26.1.2" = _llNsSrFi;
-        "iris-26.2" = _llNsSrFi;
-        "iris-26.3" = _llNsSrFi;
-        "pkg-v5.0" = _oOEnBI5q;
+        "o4HDjVfE" = _o4HDjVfE;
+        "LGgEZnra" = _LGgEZnra;
+        "iris-1.21.11" = _o4HDjVfE;
+        "iris-26.1" = _LGgEZnra;
+        "iris-26.1.1" = _LGgEZnra;
+        "iris-26.1.2" = _LGgEZnra;
+        "iris-26.2" = _LGgEZnra;
+        "iris-26.3" = _LGgEZnra;
+        "pkg-v5.0" = _o4HDjVfE;
         "pkg-v5.1" = _SZrA7iNU;
         "pkg-v5.2" = _Lms60I7J;
         "pkg-v5.3" = _RaO8LtUj;
         "pkg-v5.4" = _hKFXp83z;
         "pkg-v5.5" = _Gm5ykz6E;
         "pkg-v5.6" = _llNsSrFi;
-        "default" = _llNsSrFi;
+        "pkg-v5.0a" = _LGgEZnra;
+        "default" = _LGgEZnra;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "luster-shaders";

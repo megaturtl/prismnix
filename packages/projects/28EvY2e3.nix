@@ -21,19 +21,27 @@ let
             "file" = "OptiZoom-1.2.jar";
             "hash" = "sha512-6yiXRr1MOaPerjUCXJWqdHSbKRVXgT/ZOhmxIZv7p7wAetQaL84ok4EcXz5ztMqmNbrV+9RPaS/P5Lw79oY0+A==";
         };
+        _1bcpiBgg = {
+            "id" = "1bcpiBgg";
+            "file" = "OptiZoom-1.3.jar";
+            "hash" = "sha512-YC8+K0uNQYzcdkGugfO/r95i5bu4AIphx8BoMo39mTWLO14FjeT/GXyseLY0/5llrvi8utuN0Wx8tuOPQGacGQ==";
+        };
     in {
         "LQyDOJKw" = _LQyDOJKw;
         "CfRp7lid" = _CfRp7lid;
         "d6YkSWn1" = _d6YkSWn1;
         "2JMrSR4f" = _2JMrSR4f;
+        "1bcpiBgg" = _1bcpiBgg;
         "fabric-1.21.11" = _LQyDOJKw;
         "fabric-26.1" = _d6YkSWn1;
         "fabric-26.1.1" = _d6YkSWn1;
         "fabric-26.2" = _2JMrSR4f;
+        "fabric-26.3" = _1bcpiBgg;
         "pkg-1.0-SNAPSHOT" = _LQyDOJKw;
         "pkg-1.1" = _d6YkSWn1;
         "pkg-1.2" = _2JMrSR4f;
-        "default" = _2JMrSR4f;
+        "pkg-1.3" = _1bcpiBgg;
+        "default" = _1bcpiBgg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "opti-zoom";

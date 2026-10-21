@@ -21,17 +21,24 @@ let
             "file" = "BetterPetTeleporting-1.3.jar";
             "hash" = "sha512-0g5jKyF5IwXzlrikvppQcUynCWgmk4BvFLlWINEGTSEqVN5tEnVfcRfDAEY93KmL/fHqFWld/CwIC0WtP1PeXQ==";
         };
+        _vW9l5FCk = {
+            "id" = "vW9l5FCk";
+            "file" = "BetterPetTeleporting-1.4.jar";
+            "hash" = "sha512-WxVvSo6yBTy1LK908kQ75qHJ3CB29OpsIHxPHSgLxtwP27iP1RDO2hoJSm6hqNYcyvhmpdQkBLU6yQpl9IpFWQ==";
+        };
     in {
         "tbAPqdE5" = _tbAPqdE5;
         "iqyYCQN6" = _iqyYCQN6;
         "S8pw7tNC" = _S8pw7tNC;
         "g5cWfugj" = _g5cWfugj;
-        "forge-1.12.2" = _g5cWfugj;
+        "vW9l5FCk" = _vW9l5FCk;
+        "forge-1.12.2" = _vW9l5FCk;
         "pkg-1.0" = _tbAPqdE5;
         "pkg-1.1" = _iqyYCQN6;
         "pkg-1.2" = _S8pw7tNC;
         "pkg-1.3" = _g5cWfugj;
-        "default" = _g5cWfugj;
+        "pkg-1.4" = _vW9l5FCk;
+        "default" = _vW9l5FCk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-pet-teleporting";

@@ -406,6 +406,11 @@ let
             "file" = "WorldEvents-1.9.7-EXPLOSION-UNRELEASED-0b18f9cc.jar";
             "hash" = "sha512-2oZ26WXjPh2wfAIz0W0zVQUou1z1sMMVfi4w5iWfRGYj/56exQbeFJll7sdoHQujlsWZ2zxr/52iFfOzFO+Cpw==";
         };
+        _qUcxu1RP = {
+            "id" = "qUcxu1RP";
+            "file" = "WorldEvents-1.9.8.jar";
+            "hash" = "sha512-jCurPYQbTmq7Dh/w6Ubq+xS8ty5jRr1wWYhGZB7zrypANu3Z/dR0zowKamcJvh81hKww45B0lVqQ4bke7bIDMA==";
+        };
     in {
         "vMteVOdl" = _vMteVOdl;
         "CNhl1dAl" = _CNhl1dAl;
@@ -488,6 +493,7 @@ let
         "5hkpOEZR" = _5hkpOEZR;
         "oJM8nRNP" = _oJM8nRNP;
         "G0A1C1rU" = _G0A1C1rU;
+        "qUcxu1RP" = _qUcxu1RP;
         "paper-1.21" = _oJM8nRNP;
         "paper-1.21.1" = _oJM8nRNP;
         "paper-1.21.2" = _oJM8nRNP;
@@ -509,7 +515,7 @@ let
         "paper-1.21.11" = _oJM8nRNP;
         "paper-26.1" = _oJM8nRNP;
         "paper-26.1.1" = _oJM8nRNP;
-        "paper-26.1.2" = _G0A1C1rU;
+        "paper-26.1.2" = _qUcxu1RP;
         "paper-26.2" = _oJM8nRNP;
         "purpur-1.21" = _oJM8nRNP;
         "purpur-1.21.1" = _oJM8nRNP;
@@ -638,7 +644,8 @@ let
         "pkg-1.9.4" = _5hkpOEZR;
         "pkg-1.9.5" = _oJM8nRNP;
         "pkg-1.9.7" = _G0A1C1rU;
-        "default" = _G0A1C1rU;
+        "pkg-1.9.8" = _qUcxu1RP;
+        "default" = _qUcxu1RP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "worldevents";

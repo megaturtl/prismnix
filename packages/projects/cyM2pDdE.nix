@@ -96,6 +96,16 @@ let
             "file" = "tlm-self-talk-1.3.2-neoforge-1.21.1.jar";
             "hash" = "sha512-HXa2LjxbKD3MvTieNo2sO/BhBEyclzLwJwaN9mxxCM7kqeShidGxhOHhvW66z1rm6vU/Az+KyNgYOT9LIPhCKQ==";
         };
+        _OZNa57zH = {
+            "id" = "OZNa57zH";
+            "file" = "tlm-self-talk-1.4.0-forge-1.20.1.jar";
+            "hash" = "sha512-Ha2tw2j1qB3Viu1IeMTaCirD4MKbno2T5c5K8SksiLUN4zdiypFOOt8HkUMrVFNA2rQeFOXyoWvuEdT1Jo6uqA==";
+        };
+        _Ne8qkOue = {
+            "id" = "Ne8qkOue";
+            "file" = "tlm-self-talk-1.4.0-neoforge-1.21.1.jar";
+            "hash" = "sha512-MRx3OocA7URTDN9Oku2iDxWoFAytqxmSx3/DNANm0SzunHTIgLciraIKM3GxjKJNYR1KtWfsNEs8d7MOZx3p7A==";
+        };
     in {
         "WQQQxqD4" = _WQQQxqD4;
         "jhxEtEKR" = _jhxEtEKR;
@@ -116,8 +126,10 @@ let
         "U7AvvdY0" = _U7AvvdY0;
         "unTAAmwF" = _unTAAmwF;
         "s4U2IUKv" = _s4U2IUKv;
-        "neoforge-1.21.1" = _s4U2IUKv;
-        "forge-1.20.1" = _unTAAmwF;
+        "OZNa57zH" = _OZNa57zH;
+        "Ne8qkOue" = _Ne8qkOue;
+        "neoforge-1.21.1" = _Ne8qkOue;
+        "forge-1.20.1" = _OZNa57zH;
         "pkg-1.0.0" = _WQQQxqD4;
         "pkg-1.0.1" = _jhxEtEKR;
         "pkg-1.0.2" = _tGpZUBuH;
@@ -137,7 +149,9 @@ let
         "pkg-1.3.1-neoforge-1.21.1" = _U7AvvdY0;
         "pkg-1.3.2-forge-1.20.1" = _unTAAmwF;
         "pkg-1.3.2-neoforge-1.21.1" = _s4U2IUKv;
-        "default" = _s4U2IUKv;
+        "pkg-1.4.0-forge-1.20.1" = _OZNa57zH;
+        "pkg-1.4.0-neoforge-1.21.1" = _Ne8qkOue;
+        "default" = _Ne8qkOue;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "touhoulittlemaid-self-talk";

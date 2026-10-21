@@ -801,6 +801,16 @@ let
             "file" = "stonezone-1.21-2.11.20-fabric.jar";
             "hash" = "sha512-RTCSGT4KQNNtvCbUOca75KfR40DSoTS8VtpKRP45XA+09Sm9PhAK6mp0n7sdYxIB7vTHPCcMPZ5yoakjn9NPiQ==";
         };
+        _puB4TTAc = {
+            "id" = "puB4TTAc";
+            "file" = "stonezone-1.21-2.11.21-neoforge.jar";
+            "hash" = "sha512-BFmAOwQZqNbZ59txtC2t6CAVa7ET00e31nx5fvRMgZK5kcxo/t5Tp1xAbubUl/4PFRVbFxAgpFRUntPYeg/GpQ==";
+        };
+        _I1qxbt6l = {
+            "id" = "I1qxbt6l";
+            "file" = "stonezone-1.21-2.11.21-fabric.jar";
+            "hash" = "sha512-iS/vGYeRg60PXFHup+HioH8rWdyjCO9GSQR0zVPaVIu/KcL4k6r+Ja0iI0cdjzfuJHg7o43uOAB1JdChTVz/Og==";
+        };
     in {
         "dUZ8Wo8N" = _dUZ8Wo8N;
         "yXOm4mzF" = _yXOm4mzF;
@@ -962,12 +972,14 @@ let
         "3H2XiGTN" = _3H2XiGTN;
         "A7WDcVtt" = _A7WDcVtt;
         "xVmuCo9I" = _xVmuCo9I;
+        "puB4TTAc" = _puB4TTAc;
+        "I1qxbt6l" = _I1qxbt6l;
         "forge-1.20.1" = _TQLrJ303;
         "fabric-1.20.1" = _NU4JBKen;
         "fabric-1.21" = _7fo6DzzB;
-        "fabric-1.21.1" = _xVmuCo9I;
+        "fabric-1.21.1" = _I1qxbt6l;
         "neoforge-1.21" = _5yz4JuMs;
-        "neoforge-1.21.1" = _A7WDcVtt;
+        "neoforge-1.21.1" = _puB4TTAc;
         "pkg-1.20-2.7.0" = _yXOm4mzF;
         "pkg-1.20-2.7.1" = _MP4926TM;
         "pkg-1.20-2.7.2" = _uju9fd9A;
@@ -1088,7 +1100,8 @@ let
         "pkg-1.21-2.11.18" = _fdA0ExZd;
         "pkg-1.21-2.11.19" = _3H2XiGTN;
         "pkg-1.21-2.11.20" = _xVmuCo9I;
-        "default" = _xVmuCo9I;
+        "pkg-1.21-2.11.21" = _I1qxbt6l;
+        "default" = _I1qxbt6l;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stone-zone";

@@ -101,6 +101,11 @@ let
             "file" = "thedulling-0.3.0-forge-1.20.1.jar";
             "hash" = "sha512-uTiLoGSVYB0YOG4QspwkJYXI1P4E8wX6Si/eeei4OP+xWVBmBCmk7XEQZS/gzXql41G9jUdCKnTP6LkNcL18iA==";
         };
+        _K7tyIVGL = {
+            "id" = "K7tyIVGL";
+            "file" = "thedulling-0.3.1-forge-1.20.1.jar";
+            "hash" = "sha512-qsVVsqwreZiw0juHJQutMP7Vg3vh4It3LV4WOR+ukzdq8fdr341pgSRdLemSIh5k/MnqkxVKS5OuGrjjqwLONQ==";
+        };
     in {
         "fzFwSpCZ" = _fzFwSpCZ;
         "ECwXPOBO" = _ECwXPOBO;
@@ -122,7 +127,8 @@ let
         "uck0wrVE" = _uck0wrVE;
         "e9lwc5SE" = _e9lwc5SE;
         "9tWNr08Z" = _9tWNr08Z;
-        "forge-1.20.1" = _9tWNr08Z;
+        "K7tyIVGL" = _K7tyIVGL;
+        "forge-1.20.1" = _K7tyIVGL;
         "pkg-0.0.1" = _fzFwSpCZ;
         "pkg-0.0.3" = _ECwXPOBO;
         "pkg-0.1.1" = _z2wBRkJ6;
@@ -143,7 +149,8 @@ let
         "pkg-0.2.8" = _uck0wrVE;
         "pkg-0.2.9" = _e9lwc5SE;
         "pkg-0.3.0" = _9tWNr08Z;
-        "default" = _9tWNr08Z;
+        "pkg-0.3.1" = _K7tyIVGL;
+        "default" = _K7tyIVGL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-dulling";

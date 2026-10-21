@@ -141,6 +141,11 @@ let
             "file" = "hysk_tooltips-2.2.0+1.21.1+neoforge.jar";
             "hash" = "sha512-8qlPymcOKwqTQgjZQiRKX+ighvz8nPP3q1ZLlXQgKTR5tfcP6xnFnu2T3s3Q3w5P33O2jBUPsGv4eFlg4PY51w==";
         };
+        _XEuP98eA = {
+            "id" = "XEuP98eA";
+            "file" = "hysk-tooltips-2.2.0+26.3.jar";
+            "hash" = "sha512-Exr3autX4kQknZj0oyI/+lV1OnhXBdwKnVIas5UsObg9RJuRYFwkPC0FWIdx1xbYj4qAtZ+VLTnH2Qr7OvktwA==";
+        };
     in {
         "HGnVv7Ak" = _HGnVv7Ak;
         "EyQUMAXD" = _EyQUMAXD;
@@ -170,6 +175,7 @@ let
         "t5J8WOEg" = _t5J8WOEg;
         "nd27JEw3" = _nd27JEw3;
         "aQT964TV" = _aQT964TV;
+        "XEuP98eA" = _XEuP98eA;
         "fabric-1.21.11" = _YAplAiYi;
         "fabric-1.21.10" = _qSlLo0zv;
         "fabric-1.21.9" = _fTSultJ8;
@@ -179,6 +185,7 @@ let
         "fabric-26.1.1" = _T659wQOY;
         "fabric-26.1.2" = _zPaWNqdc;
         "fabric-26.2" = _t5J8WOEg;
+        "fabric-26.3" = _XEuP98eA;
         "forge-1.20.1" = _nd27JEw3;
         "neoforge-1.21.1" = _aQT964TV;
         "pkg-1.0.2" = _HGnVv7Ak;
@@ -209,7 +216,8 @@ let
         "pkg-2.2.0C+26.2" = _t5J8WOEg;
         "pkg-2.2.0-1.20.1+forge" = _nd27JEw3;
         "pkg-2.2.0" = _aQT964TV;
-        "default" = _aQT964TV;
+        "pkg-2.2.0+26.3" = _XEuP98eA;
+        "default" = _XEuP98eA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hysk-tooltips";

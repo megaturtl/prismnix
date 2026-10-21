@@ -46,6 +46,16 @@ let
             "file" = "panda-tnt-fusion-1.0.0+26.3.jar";
             "hash" = "sha512-NjjXUQ8YKinZ1FWVOThJANdSmTZX0PSMMgPBLlfPBo3mSWFTirPDirP3tkOD7Cahpm7/JaXAhYI7902veGt3Rg==";
         };
+        _mdu7Sdtc = {
+            "id" = "mdu7Sdtc";
+            "file" = "panda-tnt-fusion-1.0.2+26.3.jar";
+            "hash" = "sha512-wV/MOaSaPSm5luwymkjg0i76IafJc7xmkEhYFevSfXaTofa/B9ZgMz4FUVfS4bEKQLkSC2O6RameAEIYWO4ugw==";
+        };
+        _WgHhIkpW = {
+            "id" = "WgHhIkpW";
+            "file" = "panda-tnt-fusion-1.0.3+26.3.jar";
+            "hash" = "sha512-J0/Gj+QdBOjPt4/PVa5IX7/no23/GTQ5+CqCMITbrVYMEkBQhP3PwaqXXqYZRWkabiEsu/n0UT5+6bx2kPsicw==";
+        };
     in {
         "w3BLpAD5" = _w3BLpAD5;
         "zlq9aUHT" = _zlq9aUHT;
@@ -56,6 +66,8 @@ let
         "2ZZDxl5L" = _2ZZDxl5L;
         "VhfVP1Zo" = _VhfVP1Zo;
         "8gONJ7oR" = _8gONJ7oR;
+        "mdu7Sdtc" = _mdu7Sdtc;
+        "WgHhIkpW" = _WgHhIkpW;
         "fabric-1.21.4" = _w3BLpAD5;
         "fabric-1.21.5" = _zlq9aUHT;
         "fabric-1.21.6" = _i0dUuDPr;
@@ -68,7 +80,7 @@ let
         "fabric-26.1.1" = _2ZZDxl5L;
         "fabric-26.1.2" = _2ZZDxl5L;
         "fabric-26.2" = _VhfVP1Zo;
-        "fabric-26.3" = _8gONJ7oR;
+        "fabric-26.3" = _WgHhIkpW;
         "pkg-1.0.0_1.21.4" = _w3BLpAD5;
         "pkg-1.0.0_1.21.5" = _zlq9aUHT;
         "pkg-1.0.0_1.21.6+1.21.7" = _i0dUuDPr;
@@ -78,7 +90,9 @@ let
         "pkg-1.0.0_26.1.1" = _2ZZDxl5L;
         "pkg-1.0.0+26.2" = _VhfVP1Zo;
         "pkg-1.0.0+26.3" = _8gONJ7oR;
-        "default" = _8gONJ7oR;
+        "pkg-1.0.2+26.3" = _mdu7Sdtc;
+        "pkg-1.0.3+26.3" = _WgHhIkpW;
+        "default" = _WgHhIkpW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pandatntfusion";

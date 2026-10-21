@@ -16,17 +16,25 @@ let
             "file" = "low-static-fire-1.1.0+1.21.1.jar";
             "hash" = "sha512-2kx5V/IHUiWfXktWVJEZ/P6kTfw3rsIX1+Kh5QfJcJGVBna+sGXacBn5n36GsJcr65Aty+AnYiGIZbb521lTxw==";
         };
+        _gvxQNnkU = {
+            "id" = "gvxQNnkU";
+            "file" = "low-static-fire-1.1.0+26.3.jar";
+            "hash" = "sha512-VOHC4vdBTPrcDtl64VlQBT634Edls1sB7JXz37p1EzfWGMtdWoX8urjxbERyxnZpLPmHkFKkrBWOKhNSs/PT0w==";
+        };
     in {
         "imSyQkr2" = _imSyQkr2;
         "C5f9fUkG" = _C5f9fUkG;
         "LLlfXSnY" = _LLlfXSnY;
+        "gvxQNnkU" = _gvxQNnkU;
         "fabric-1.21.11" = _imSyQkr2;
         "fabric-26.2" = _C5f9fUkG;
         "fabric-1.21.1" = _LLlfXSnY;
+        "fabric-26.3" = _gvxQNnkU;
         "pkg-1.5.3" = _imSyQkr2;
         "pkg-1.1.0+26.2" = _C5f9fUkG;
         "pkg-1.1.0+1.21.1" = _LLlfXSnY;
-        "default" = _LLlfXSnY;
+        "pkg-1.1.0+26.3" = _gvxQNnkU;
+        "default" = _gvxQNnkU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "low-static-fire";

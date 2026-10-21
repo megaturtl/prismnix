@@ -46,6 +46,11 @@ let
             "file" = "ScoreboardPL-1.5.0.jar";
             "hash" = "sha512-3LNiW3ntqXdIdszhBbNunzLB+DX9h1Q391vAF8KzA5pia2TovkkdZnIX2zDv8WtVzOnEhv7SHsKt1yoUuleW7w==";
         };
+        _YIvAlCL1 = {
+            "id" = "YIvAlCL1";
+            "file" = "ScoreboardPL-1.6.0.jar";
+            "hash" = "sha512-BgOk4cNJg1eKs5T+1UQHTxBAzR7+rxDNZ7xvEzg39iV3JYmyLdX0O/qRxqqcUK7J2uSQUMVlM6XjQ+L8QpBLyQ==";
+        };
     in {
         "uDPRAsCT" = _uDPRAsCT;
         "nKkdjDEy" = _nKkdjDEy;
@@ -56,6 +61,7 @@ let
         "mxRX8bqx" = _mxRX8bqx;
         "yTpxrz28" = _yTpxrz28;
         "uNnEZr5i" = _uNnEZr5i;
+        "YIvAlCL1" = _YIvAlCL1;
         "bukkit-1.21" = _yTpxrz28;
         "bukkit-1.21.1" = _yTpxrz28;
         "bukkit-1.21.2" = _yTpxrz28;
@@ -72,6 +78,7 @@ let
         "bukkit-26.1.1" = _uNnEZr5i;
         "bukkit-26.1.2" = _uNnEZr5i;
         "bukkit-26.2" = _uNnEZr5i;
+        "bukkit-26.3" = _YIvAlCL1;
         "folia-1.21" = _yTpxrz28;
         "folia-1.21.1" = _yTpxrz28;
         "folia-1.21.2" = _yTpxrz28;
@@ -88,6 +95,7 @@ let
         "folia-26.1.1" = _uNnEZr5i;
         "folia-26.1.2" = _uNnEZr5i;
         "folia-26.2" = _uNnEZr5i;
+        "folia-26.3" = _YIvAlCL1;
         "paper-1.21" = _yTpxrz28;
         "paper-1.21.1" = _yTpxrz28;
         "paper-1.21.2" = _yTpxrz28;
@@ -104,6 +112,7 @@ let
         "paper-26.1.1" = _uNnEZr5i;
         "paper-26.1.2" = _uNnEZr5i;
         "paper-26.2" = _uNnEZr5i;
+        "paper-26.3" = _YIvAlCL1;
         "purpur-1.21" = _yTpxrz28;
         "purpur-1.21.1" = _yTpxrz28;
         "purpur-1.21.2" = _yTpxrz28;
@@ -120,6 +129,7 @@ let
         "purpur-26.1.1" = _uNnEZr5i;
         "purpur-26.1.2" = _uNnEZr5i;
         "purpur-26.2" = _uNnEZr5i;
+        "purpur-26.3" = _YIvAlCL1;
         "spigot-1.21" = _yTpxrz28;
         "spigot-1.21.1" = _yTpxrz28;
         "spigot-1.21.2" = _yTpxrz28;
@@ -136,6 +146,7 @@ let
         "spigot-26.1.1" = _uNnEZr5i;
         "spigot-26.1.2" = _uNnEZr5i;
         "spigot-26.2" = _uNnEZr5i;
+        "spigot-26.3" = _YIvAlCL1;
         "pkg-1.0.0" = _uDPRAsCT;
         "pkg-1.1.0" = _nKkdjDEy;
         "pkg-1.1.1" = _hZfdZ1di;
@@ -144,7 +155,8 @@ let
         "pkg-1.3.1" = _mxRX8bqx;
         "pkg-1.4.0" = _yTpxrz28;
         "pkg-1.5.0" = _uNnEZr5i;
-        "default" = _uNnEZr5i;
+        "pkg-1.6.0" = _YIvAlCL1;
+        "default" = _YIvAlCL1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "scoreboardpl";

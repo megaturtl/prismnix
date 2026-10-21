@@ -21,20 +21,32 @@ let
             "file" = "Redstone Tweaks 2.4.7 Bare Bones.zip";
             "hash" = "sha512-fbtywKjaHn/dMVJxF9juvpsXex0/rBhSsxEhSRCN7bRa6gtbWC+AyBMcKqe/PAaYVJ2Vi9LovNPBy8NS2TlfYw==";
         };
+        _nNWU1RNt = {
+            "id" = "nNWU1RNt";
+            "file" = "Redstone Tweaks 2.5.6 Bare Bones.zip";
+            "hash" = "sha512-6sjt9VPG75uMJulJmLCNpM2o3R5pXnwCpmdYWHJD/uvbBoqYRpjlFjyON4R7s+5ufpQpzqmJs5eMv3rwXIVvlg==";
+        };
     in {
         "txsg665x" = _txsg665x;
         "7JZghkH2" = _7JZghkH2;
         "MEnvsId6" = _MEnvsId6;
         "fDz0pIuc" = _fDz0pIuc;
+        "nNWU1RNt" = _nNWU1RNt;
         "minecraft-1.20.2" = _txsg665x;
         "minecraft-1.21" = _MEnvsId6;
         "minecraft-1.21.1" = _MEnvsId6;
         "minecraft-1.21.4" = _fDz0pIuc;
+        "minecraft-26.1" = _nNWU1RNt;
+        "minecraft-26.1.1" = _nNWU1RNt;
+        "minecraft-26.1.2" = _nNWU1RNt;
+        "minecraft-26.2" = _nNWU1RNt;
+        "minecraft-26.3" = _nNWU1RNt;
         "pkg-2.4.1" = _txsg665x;
         "pkg-2.4.5" = _7JZghkH2;
         "pkg-2.4.5b" = _MEnvsId6;
         "pkg-2.4.7" = _fDz0pIuc;
-        "default" = _fDz0pIuc;
+        "pkg-2.5.6" = _nNWU1RNt;
+        "default" = _nNWU1RNt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "redstone-tweaks-bare-bones";

@@ -31,6 +31,21 @@ let
             "file" = "Death-Effects-fabric-1.21.11-0.1.jar";
             "hash" = "sha512-hSjfavZSDWi0McGv1cr09hGDtWwM1PKFtbb5XEQm5YMbAz74O50P1e4bnX1//n2gp2SASzXenurlPFx+N6LSqQ==";
         };
+        _rkTIUVnA = {
+            "id" = "rkTIUVnA";
+            "file" = "Death-Effects-fabric-26.1-0.1.jar";
+            "hash" = "sha512-8Cugh7U2Vu+lsSxZu/dRWM5GPZQO+p81RoJHnwwaLfMP9kB8+EtpMG/wTzAat5Uhb27T7jsqJIxIOrmpDXTDlQ==";
+        };
+        _VHiUUt3h = {
+            "id" = "VHiUUt3h";
+            "file" = "Death-Effects-fabric-26.2-0.1.jar";
+            "hash" = "sha512-543Q3TWYWTP/esRrXqVuKpRf2u5TWwAsq2JtIVXDJbGlo32HoCfMc1kxDuh/KiYgfj23CSJytHVm9UKRaQy6uQ==";
+        };
+        _zgi4oXVK = {
+            "id" = "zgi4oXVK";
+            "file" = "Death-Effects-fabric-26.3-0.1.jar";
+            "hash" = "sha512-7xZd5FINufPj2ZKsRLUl9TB0yBOAxo/2PftTuk9e1LkQ7Hk/rDDpcM8NERWCXUkQ5U6hbpMkeB0deaZbmlAbvA==";
+        };
     in {
         "53RRhVQl" = _53RRhVQl;
         "bGFfBYb5" = _bGFfBYb5;
@@ -38,6 +53,9 @@ let
         "oF9XIdq8" = _oF9XIdq8;
         "DDxo3sR8" = _DDxo3sR8;
         "1sStTY6X" = _1sStTY6X;
+        "rkTIUVnA" = _rkTIUVnA;
+        "VHiUUt3h" = _VHiUUt3h;
+        "zgi4oXVK" = _zgi4oXVK;
         "fabric-1.21.1" = _53RRhVQl;
         "fabric-1.21.2" = _53RRhVQl;
         "fabric-1.21.3" = _bGFfBYb5;
@@ -47,13 +65,21 @@ let
         "fabric-1.21.7" = _DDxo3sR8;
         "fabric-1.21.8" = _DDxo3sR8;
         "fabric-1.21.11" = _1sStTY6X;
+        "fabric-26.1" = _rkTIUVnA;
+        "fabric-26.1.1" = _rkTIUVnA;
+        "fabric-26.1.2" = _rkTIUVnA;
+        "fabric-26.2" = _VHiUUt3h;
+        "fabric-26.3" = _zgi4oXVK;
         "pkg-fabric-1.21.2-0.1" = _53RRhVQl;
         "pkg-fabric-1.21.3-0.1" = _bGFfBYb5;
         "pkg-fabric-1.21.4-0.1" = _qcTjpvf0;
         "pkg-fabric-1.21.5-0.1" = _oF9XIdq8;
         "pkg-fabric-1.21.6-0.1" = _DDxo3sR8;
         "pkg-fabric-1.21.11-0.1" = _1sStTY6X;
-        "default" = _1sStTY6X;
+        "pkg-fabric-26.1-0.1" = _rkTIUVnA;
+        "pkg-fabric-26.2-0.1" = _VHiUUt3h;
+        "pkg-fabric-26.3-0.1" = _zgi4oXVK;
+        "default" = _zgi4oXVK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "death-effects";

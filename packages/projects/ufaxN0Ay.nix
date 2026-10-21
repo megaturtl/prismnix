@@ -1041,6 +1041,11 @@ let
             "file" = "Kobolds-4.1.1.jar";
             "hash" = "sha512-kVLAnSmLRJMv5JCWUlEQOsQhqHkodTIJ+ByY/Lp4RltgOb5NEkOOPJgqSn65kn4cM6hs4W/zQEZklKaTP1LfYg==";
         };
+        _TiHomHFQ = {
+            "id" = "TiHomHFQ";
+            "file" = "Kobolds-4.0.2.jar";
+            "hash" = "sha512-1uvMustTGeJ1HzLFnOFS0u7f1CCJyLtuINcBDalvApC5OPtBFPw2MW7KfQyOOnzn2SCXOF5ztyljobsYNlQDWQ==";
+        };
     in {
         "OZtXi3vX" = _OZtXi3vX;
         "u9a6yuhK" = _u9a6yuhK;
@@ -1250,13 +1255,14 @@ let
         "gNSi7Zu1" = _gNSi7Zu1;
         "g1afAer5" = _g1afAer5;
         "kCXMvrK7" = _kCXMvrK7;
+        "TiHomHFQ" = _TiHomHFQ;
         "forge-1.16.5" = _Emwox2lP;
         "forge-1.17.1" = _WQmyyh48;
         "forge-1.18.2" = _LI7tRbfG;
         "forge-1.19.2" = _Sfk53dSn;
         "forge-1.19.4" = _uOip5DIK;
         "forge-1.20.1" = _ZPkbHxUq;
-        "neoforge-1.21.1" = _g1afAer5;
+        "neoforge-1.21.1" = _TiHomHFQ;
         "neoforge-1.21.2" = _EON13hjX;
         "neoforge-1.21.3" = _EON13hjX;
         "neoforge-1.21.4" = _U7AJhJ3F;
@@ -1471,7 +1477,8 @@ let
         "pkg-4.1.0" = _gNSi7Zu1;
         "pkg-4.0.1" = _g1afAer5;
         "pkg-4.1.1" = _kCXMvrK7;
-        "default" = _kCXMvrK7;
+        "pkg-4.0.2" = _TiHomHFQ;
+        "default" = _TiHomHFQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kobolds";

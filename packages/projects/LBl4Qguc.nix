@@ -176,6 +176,16 @@ let
             "file" = "capturexp-neoforge-1.8.1-1.3.0.jar";
             "hash" = "sha512-s3ZjvhHdgcZgAXDXCY3XN0gT3Wy9GtPi3BhgqtU4+2OgRKnt8l2Jdorwyg0k7fH9J3UbP21JwPIK18UoZcxKsA==";
         };
+        _kOksvvoK = {
+            "id" = "kOksvvoK";
+            "file" = "capturexp-fabric-1.8.2-1.3.0.jar";
+            "hash" = "sha512-cMVvhoX0xOifdtlahDCp/xOBuV3kkuAeGPsnVTtF6kr7+OlKvT8hzAaD6Thl4jx53Cnef1eyKMqEjza3CbvZ9w==";
+        };
+        _ecaODhiN = {
+            "id" = "ecaODhiN";
+            "file" = "capturexp-neoforge-1.8.2-1.3.0.jar";
+            "hash" = "sha512-vlveu4SGXkPh9u1egMdNCejOgh0m7aLV52y0iJAB/WiCJvCVof6eD0rGoTFE9wvYzuGDHLOfKoiA0MfydgzAJQ==";
+        };
     in {
         "q6cbMvby" = _q6cbMvby;
         "yoQcavkj" = _yoQcavkj;
@@ -212,11 +222,13 @@ let
         "tizgHzZ5" = _tizgHzZ5;
         "FOUiJc3h" = _FOUiJc3h;
         "Y1C29Xyl" = _Y1C29Xyl;
+        "kOksvvoK" = _kOksvvoK;
+        "ecaODhiN" = _ecaODhiN;
         "fabric-1.19.2" = _ZV5CO4zs;
         "fabric-1.20.1" = _9nPOeA1v;
-        "fabric-1.21.1" = _FOUiJc3h;
+        "fabric-1.21.1" = _kOksvvoK;
         "forge-1.20.1" = _gKDB84ol;
-        "neoforge-1.21.1" = _Y1C29Xyl;
+        "neoforge-1.21.1" = _ecaODhiN;
         "pkg-1.3-fabric-1.0.0" = _q6cbMvby;
         "pkg-1.4-fabric-1.0.0" = _yoQcavkj;
         "pkg-1.4-forge-1.0.0" = _cBYd7lXZ;
@@ -252,7 +264,9 @@ let
         "pkg-1.8.0-neoforge-1.3.0" = _tizgHzZ5;
         "pkg-1.8.1-fabric-1.3.0" = _FOUiJc3h;
         "pkg-1.8.1-neoforge-1.3.0" = _Y1C29Xyl;
-        "default" = _Y1C29Xyl;
+        "pkg-1.8.2-fabric-1.3.0" = _kOksvvoK;
+        "pkg-1.8.2-neoforge-1.3.0" = _ecaODhiN;
+        "default" = _ecaODhiN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-capture-xp";

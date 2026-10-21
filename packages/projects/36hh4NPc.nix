@@ -481,6 +481,16 @@ let
             "file" = "kkremind-1.21.1-10.26.2a.jar";
             "hash" = "sha512-7CzXy8eGShWyeqzM/pza8c0W7IiyqPIgylziAimIUJ2ZTF53J3dHeeyfYVjXe6SwVE6G9o/5JZR6BTxyGEbdVQ==";
         };
+        _zUdLZArT = {
+            "id" = "zUdLZArT";
+            "file" = "kkremind-1.21.1-10.26.2b.jar";
+            "hash" = "sha512-zRgGhF2GaNT6uxZIqNmFDnWe6xAELj3BbdwKyMsVBXGi5mVg3TAvvLK6RmzuoyAgFsz2k+aQhEPEFWEZyblAtg==";
+        };
+        _SDoaH87R = {
+            "id" = "SDoaH87R";
+            "file" = "kkremind-1.21.1-10.26.2b.jar";
+            "hash" = "sha512-qGXb0rpz01t3wRaNh6cKArphnWoUzkF9CBAjEyA4vmJxSbXVHmEheqssP307M4AW07UuCC9ENHVmtdx5IaGsZg==";
+        };
     in {
         "cRPzrmZA" = _cRPzrmZA;
         "2cB7TdWO" = _2cB7TdWO;
@@ -578,8 +588,10 @@ let
         "SZnCGACY" = _SZnCGACY;
         "lUoKilHR" = _lUoKilHR;
         "m6C8XgBt" = _m6C8XgBt;
+        "zUdLZArT" = _zUdLZArT;
+        "SDoaH87R" = _SDoaH87R;
         "forge-1.20.1" = _gERDuSQk;
-        "neoforge-1.21.1" = _m6C8XgBt;
+        "neoforge-1.21.1" = _SDoaH87R;
         "neoforge-1.21.2" = _wsnWrNSd;
         "neoforge-1.21.3" = _wsnWrNSd;
         "neoforge-1.21.4" = _wsnWrNSd;
@@ -687,7 +699,8 @@ let
         "pkg-10.26.1a-1.21.1" = _SZnCGACY;
         "pkg-10.26.2-1.21.1" = _lUoKilHR;
         "pkg-10.26.2a-1.21.1" = _m6C8XgBt;
-        "default" = _m6C8XgBt;
+        "pkg-10.26.2b-1.21.1" = _SDoaH87R;
+        "default" = _SDoaH87R;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kingdom-keys-remind";

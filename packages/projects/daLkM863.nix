@@ -86,6 +86,11 @@ let
             "file" = "WorldPreGenerator-1.20.1-4.0.1.jar";
             "hash" = "sha512-hTv1C6ECjgSXoBIM+ThqctkRXpVQeQFjKNIF3d57iA0J835U/5As9kDNCOGpVjlHawPzPCNm0MRHoZVXKiBakg==";
         };
+        _bo84EzTN = {
+            "id" = "bo84EzTN";
+            "file" = "WorldPreGenerator-26.3-5.0.2.jar";
+            "hash" = "sha512-E3YDuzwmeQ0ItLHO6m555RV1iGMQ8Gm2Ke5vX7dcY19CJ73z9QY+vBQfL+ohRFHIVVCFsrWWxybRyvsjglNgrg==";
+        };
     in {
         "8H9lRMk6" = _8H9lRMk6;
         "iNYD7ET9" = _iNYD7ET9;
@@ -104,6 +109,7 @@ let
         "u3Jgh7f5" = _u3Jgh7f5;
         "tK1GDNrm" = _tK1GDNrm;
         "WiVlgX3V" = _WiVlgX3V;
+        "bo84EzTN" = _bo84EzTN;
         "forge-1.17.1" = _8H9lRMk6;
         "forge-1.18.2" = _iNYD7ET9;
         "forge-1.19.4" = _O9nz6a29;
@@ -129,7 +135,7 @@ let
         "neoforge-26.1.1" = _tK1GDNrm;
         "neoforge-26.1.2" = _tK1GDNrm;
         "neoforge-26.2" = _tK1GDNrm;
-        "neoforge-26.3" = _tK1GDNrm;
+        "neoforge-26.3" = _bo84EzTN;
         "pkg-1.17.1-2.0.0" = _8H9lRMk6;
         "pkg-1.18.2-3.0.1" = _iNYD7ET9;
         "pkg-1.19.4-3.0.1" = _O9nz6a29;
@@ -147,7 +153,8 @@ let
         "pkg-1.21.11-5.0.2" = _u3Jgh7f5;
         "pkg-26.1-5.0.2" = _tK1GDNrm;
         "pkg-1.20.1-4.0.1" = _WiVlgX3V;
-        "default" = _WiVlgX3V;
+        "pkg-26.3-5.0.2" = _bo84EzTN;
+        "default" = _bo84EzTN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "world-pre-generator";

@@ -141,6 +141,16 @@ let
             "file" = "better-wither-skull-rates-1.7.jar";
             "hash" = "sha512-2VzGW8emfaPkCMbyWl2qF7iFDlu/AcX7xosnSQeGFHNxZ7DH7VwEWEICi46FgQq5iEvzx7tCrFfDUQPr69KVmA==";
         };
+        _zBfqPysF = {
+            "id" = "zBfqPysF";
+            "file" = "Better Wither Skull Rates.zip";
+            "hash" = "sha512-bX+U4hLQeTLvDSK86FqoUXHBET73T6ZDMdcC+7OPq77ShKH3TWqZ8ydWk/ACLHIiQouL9XOcdHHxe5uw6yuTzw==";
+        };
+        _RfKwIFVD = {
+            "id" = "RfKwIFVD";
+            "file" = "better-wither-skull-rates-1.7.1.jar";
+            "hash" = "sha512-vK+F6DMJ9Px/MWUTo/SIbfOTFa40edGKa05olnRiE5hpjIwVk2t1rpdSRXrZe6pGBRDmnUi6BQSoJIbMNfo8hA==";
+        };
     in {
         "xDwCDL0L" = _xDwCDL0L;
         "wK1J06EZ" = _wK1J06EZ;
@@ -170,6 +180,8 @@ let
         "49XrRje5" = _49XrRje5;
         "aVvMdYoh" = _aVvMdYoh;
         "mfT5iEx4" = _mfT5iEx4;
+        "zBfqPysF" = _zBfqPysF;
+        "RfKwIFVD" = _RfKwIFVD;
         "datapack-1.21" = _wK1J06EZ;
         "datapack-1.21.3" = _oEPOeHhf;
         "datapack-1.21.4" = _acsgUYV1;
@@ -183,7 +195,7 @@ let
         "datapack-1.21.11" = _Ctlh8Ulu;
         "datapack-26.1" = _iM2YmT6w;
         "datapack-26.2" = _KJLQfj41;
-        "datapack-26.3" = _aVvMdYoh;
+        "datapack-26.3" = _zBfqPysF;
         "fabric-1.21.4" = _YN3cXwzt;
         "fabric-1.20.1" = _fpy0md8a;
         "fabric-1.21.5" = _IKonkgv1;
@@ -196,7 +208,7 @@ let
         "fabric-1.21.1" = _iICCLIrt;
         "fabric-26.1" = _czudpqtX;
         "fabric-26.2" = _jjFpEvNp;
-        "fabric-26.3" = _mfT5iEx4;
+        "fabric-26.3" = _RfKwIFVD;
         "forge-1.21.4" = _YN3cXwzt;
         "forge-1.20.1" = _fpy0md8a;
         "forge-1.21.5" = _IKonkgv1;
@@ -209,15 +221,15 @@ let
         "forge-1.21.1" = _iICCLIrt;
         "forge-26.1" = _czudpqtX;
         "forge-26.2" = _jjFpEvNp;
-        "forge-26.3" = _mfT5iEx4;
+        "forge-26.3" = _RfKwIFVD;
         "neoforge-1.21.10" = _fElgzneH;
         "neoforge-1.21.11" = _F6Xe7Dnd;
         "neoforge-1.21.1" = _iICCLIrt;
         "neoforge-26.1" = _czudpqtX;
         "neoforge-26.2" = _jjFpEvNp;
-        "neoforge-26.3" = _mfT5iEx4;
+        "neoforge-26.3" = _RfKwIFVD;
         "quilt-26.2" = _jjFpEvNp;
-        "quilt-26.3" = _mfT5iEx4;
+        "quilt-26.3" = _RfKwIFVD;
         "pkg-1.0" = _xDwCDL0L;
         "pkg-1.1" = _wK1J06EZ;
         "pkg-1.2" = _IKonkgv1;
@@ -231,7 +243,9 @@ let
         "pkg-1.6+mod" = _49XrRje5;
         "pkg-1.7" = _aVvMdYoh;
         "pkg-1.7+mod" = _mfT5iEx4;
-        "default" = _mfT5iEx4;
+        "pkg-1.7.1" = _zBfqPysF;
+        "pkg-1.7.1+mod" = _RfKwIFVD;
+        "default" = _RfKwIFVD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-wither-skull-rates";

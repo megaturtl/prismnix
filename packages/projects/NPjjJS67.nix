@@ -111,6 +111,41 @@ let
             "file" = "QuintMenu-1.2.17-Forge-26.3.jar";
             "hash" = "sha512-VzAY+BvPWDTQhacccMbc7jSkpp/LW2mMKF4lW/BGxpFIrK36dd/X4mLTuyh/AimL6gTdVW0Gr2C32lV7UTKtwg==";
         };
+        _CtP9RXOI = {
+            "id" = "CtP9RXOI";
+            "file" = "QuintMenu-1.2.18-Fabric-1.21.4-1.21.5.jar";
+            "hash" = "sha512-mtWM6ojBG7TKd+GpLJMn8o4RdrG/vytG1nBWe0zCDWHcSi/j4s9lAVguBjVtrpmUmTm8IQdeI7ykfGC3ITLjnQ==";
+        };
+        _zy6MZDql = {
+            "id" = "zy6MZDql";
+            "file" = "QuintMenu-1.2.18-Fabric-1.21.6-1.21.10.jar";
+            "hash" = "sha512-VbiBgioJBNaUF/iBpa0Ezof98AaWq9JcLXuMt4boseFyCH5Jq9K7AUYR8fSQj641W7z6/PcC7XEFIj1XnbEbag==";
+        };
+        _D0cLYlda = {
+            "id" = "D0cLYlda";
+            "file" = "QuintMenu-1.2.18-Fabric-1.21.11.jar";
+            "hash" = "sha512-0PE6TpHueR6AiSCgHQ5XAg8MNafwi7fjaNGjkBtpfD8MWISHOU18h8THUbu+XAC8WU5CEPKAuEoYHvQ9wavBqA==";
+        };
+        _OxtZzuUm = {
+            "id" = "OxtZzuUm";
+            "file" = "QuintMenu-1.2.18-Fabric-1.21-1.21.3.jar";
+            "hash" = "sha512-7HlqdcRWFJtz4s7iKv0k3yaOC+xhqWhqo8LWTmzs22HUDbP5BizT9wlzCP/nZ/Mhs8cSb1PGvxTM5sGphjVIGA==";
+        };
+        _gN8I87iN = {
+            "id" = "gN8I87iN";
+            "file" = "QuintMenu-1.2.18-Fabric-26.1.x.jar";
+            "hash" = "sha512-wsPZYPqwiyKaAerJII7Mcvxzk4ikvySl8fDTvHv8jHsIskqrHD5ojfoJwsYD0v9UyOukU9N0H11d6sp+JSEj1Q==";
+        };
+        _S0okFqJx = {
+            "id" = "S0okFqJx";
+            "file" = "QuintMenu-1.2.18-Fabric-26.2.jar";
+            "hash" = "sha512-DZNh5Rhr65TwS98XrOEmdBfIH3cSWVa1v2dUZL7BFmBxe1VgITfvHHBkAxQI6Jml99CJy4UzuPkZwFVd/NjYeg==";
+        };
+        _a8dVkwo9 = {
+            "id" = "a8dVkwo9";
+            "file" = "QuintMenu-1.2.18-Fabric-26.3.jar";
+            "hash" = "sha512-YmyOo+PkKwzMu/Yl0k1CBK3Ll/yAUAJSVn3VzNTNSvd7Da5BbDer3d2F8tXH60yfpjFM8JpJw5UoSEM/sWaOCA==";
+        };
     in {
         "xD7ydZ3r" = _xD7ydZ3r;
         "Xk7j0ev4" = _Xk7j0ev4;
@@ -134,23 +169,30 @@ let
         "3zBnMiWd" = _3zBnMiWd;
         "Xb4go5s6" = _Xb4go5s6;
         "GKJu2UVq" = _GKJu2UVq;
-        "fabric-1.21.11" = _xD7ydZ3r;
-        "fabric-1.21.4" = _Xk7j0ev4;
-        "fabric-1.21.5" = _Xk7j0ev4;
-        "fabric-26.1" = _fOrLOtC4;
-        "fabric-26.1.1" = _fOrLOtC4;
-        "fabric-26.1.2" = _fOrLOtC4;
-        "fabric-1.21.6" = _Yx9B0rzs;
-        "fabric-1.21.7" = _Yx9B0rzs;
-        "fabric-1.21.8" = _Yx9B0rzs;
-        "fabric-1.21.9" = _Yx9B0rzs;
-        "fabric-1.21.10" = _Yx9B0rzs;
-        "fabric-1.21" = _duwYwSbx;
-        "fabric-1.21.1" = _duwYwSbx;
-        "fabric-1.21.2" = _duwYwSbx;
-        "fabric-1.21.3" = _duwYwSbx;
-        "fabric-26.2" = _3zBnMiWd;
-        "fabric-26.3" = _Xb4go5s6;
+        "CtP9RXOI" = _CtP9RXOI;
+        "zy6MZDql" = _zy6MZDql;
+        "D0cLYlda" = _D0cLYlda;
+        "OxtZzuUm" = _OxtZzuUm;
+        "gN8I87iN" = _gN8I87iN;
+        "S0okFqJx" = _S0okFqJx;
+        "a8dVkwo9" = _a8dVkwo9;
+        "fabric-1.21.11" = _D0cLYlda;
+        "fabric-1.21.4" = _CtP9RXOI;
+        "fabric-1.21.5" = _CtP9RXOI;
+        "fabric-26.1" = _gN8I87iN;
+        "fabric-26.1.1" = _gN8I87iN;
+        "fabric-26.1.2" = _gN8I87iN;
+        "fabric-1.21.6" = _zy6MZDql;
+        "fabric-1.21.7" = _zy6MZDql;
+        "fabric-1.21.8" = _zy6MZDql;
+        "fabric-1.21.9" = _zy6MZDql;
+        "fabric-1.21.10" = _zy6MZDql;
+        "fabric-1.21" = _OxtZzuUm;
+        "fabric-1.21.1" = _OxtZzuUm;
+        "fabric-1.21.2" = _OxtZzuUm;
+        "fabric-1.21.3" = _OxtZzuUm;
+        "fabric-26.2" = _S0okFqJx;
+        "fabric-26.3" = _a8dVkwo9;
         "forge-26.1" = _jm7B2n98;
         "forge-26.1.1" = _jm7B2n98;
         "forge-26.1.2" = _jm7B2n98;
@@ -170,7 +212,8 @@ let
         "pkg-1.2.14" = _3gGsbeYg;
         "pkg-1.2.15" = _3zBnMiWd;
         "pkg-1.2.17" = _GKJu2UVq;
-        "default" = _GKJu2UVq;
+        "pkg-1.2.18" = _a8dVkwo9;
+        "default" = _a8dVkwo9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "quintessential-quintuplets-theme";

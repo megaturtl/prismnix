@@ -61,6 +61,11 @@ let
             "file" = "movement_plus-neoforge-2.2.2.jar";
             "hash" = "sha512-W4D2xkXkkHaZIUPO+iKhL/FzwN5P8QtPBuBeQg/1UXtthPf5236gy8+QWc5427W8W4axueKD9zsIx2Z8pBiH9Q==";
         };
+        _yeQ5Is0X = {
+            "id" = "yeQ5Is0X";
+            "file" = "movement_plus-fabric-2.1.1.jar";
+            "hash" = "sha512-w5ad1Z3HecJneVy4i1DFm9v00ONUVkpec91A04UjQZyudTY/qpdSPr0aRRQIC2eglfzAorJjAyWXdU182uinZw==";
+        };
     in {
         "f8TUIn9V" = _f8TUIn9V;
         "A8xmAj4V" = _A8xmAj4V;
@@ -74,6 +79,7 @@ let
         "dWDMPMub" = _dWDMPMub;
         "OIL5jQmB" = _OIL5jQmB;
         "DdnVfraW" = _DdnVfraW;
+        "yeQ5Is0X" = _yeQ5Is0X;
         "forge-1.18.1" = _f8TUIn9V;
         "forge-1.18.2" = _f8TUIn9V;
         "forge-1.19.2" = _A8xmAj4V;
@@ -81,7 +87,7 @@ let
         "neoforge-1.21.11" = _wc45GzSV;
         "neoforge-26.1.2" = _dWDMPMub;
         "neoforge-26.2" = _DdnVfraW;
-        "fabric-1.21.1" = _yu4WFr4G;
+        "fabric-1.21.1" = _yeQ5Is0X;
         "fabric-1.21.11" = _VAEY9uJA;
         "fabric-26.1" = _5g3rDBsG;
         "fabric-26.1.1" = _5g3rDBsG;
@@ -98,7 +104,8 @@ let
         "pkg-2.2.1+neoforge" = _dWDMPMub;
         "pkg-2.2.2+fabric" = _OIL5jQmB;
         "pkg-2.2.2+neoforge" = _DdnVfraW;
-        "default" = _DdnVfraW;
+        "pkg-2.1.1+fabric" = _yeQ5Is0X;
+        "default" = _yeQ5Is0X;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "movement_plus";

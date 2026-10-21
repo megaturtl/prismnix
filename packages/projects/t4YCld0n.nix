@@ -91,6 +91,21 @@ let
             "file" = "auto-disconnect-0.5-1.21.11-fabric.jar";
             "hash" = "sha512-t8/PA8OQtdlsolLgv2cCOXWt9tKnNX5IaTtLG/csni9L9+jbuj2tr9xIMOsx9EWZmFO1+cjTRbbL12WJOU49lg==";
         };
+        _z3mK7olg = {
+            "id" = "z3mK7olg";
+            "file" = "auto-disconnect-0.5-26.1-fabric.jar";
+            "hash" = "sha512-pVM7eGFY2ue3spZlbdOpLpYMkttKN27TvAOlWe8UTGkmn5pEXm7dhaXTI0aLvVJXeh2GgCd0GbJQNDmnJMQNdg==";
+        };
+        _tROByhOU = {
+            "id" = "tROByhOU";
+            "file" = "auto-disconnect-0.5-26.2-fabric.jar";
+            "hash" = "sha512-4pFgzD2V1nvjVHBr8ywE9HNnTTsIUKGns02BrO/Js8xdlVP5iSZ3iaCoTu8DMzVdvMekefH5GkhgLlsBoHM97g==";
+        };
+        _ohKbkKII = {
+            "id" = "ohKbkKII";
+            "file" = "auto-disconnect-0.5-26.3-fabric.jar";
+            "hash" = "sha512-FcjU8r4EbOozVScuo7m3iYDudJFg10YthjgEMD7TR1wxYWL122TV3x5fRZjEnWwTKuRmeGKUq49cWvbRP/QLWQ==";
+        };
     in {
         "qWd49fwI" = _qWd49fwI;
         "jNVzIwkU" = _jNVzIwkU;
@@ -110,6 +125,9 @@ let
         "nQNS6Pch" = _nQNS6Pch;
         "kJAWWj33" = _kJAWWj33;
         "O817MFd2" = _O817MFd2;
+        "z3mK7olg" = _z3mK7olg;
+        "tROByhOU" = _tROByhOU;
+        "ohKbkKII" = _ohKbkKII;
         "fabric-1.21" = _gi8aiFqH;
         "fabric-1.21.1" = _IUVCm6eg;
         "fabric-1.20" = _R2YLbttz;
@@ -124,6 +142,9 @@ let
         "fabric-1.21.7" = _kJAWWj33;
         "fabric-1.21.8" = _kJAWWj33;
         "fabric-1.21.11" = _O817MFd2;
+        "fabric-26.1" = _z3mK7olg;
+        "fabric-26.2" = _tROByhOU;
+        "fabric-26.3" = _ohKbkKII;
         "pkg-0.1-1.21-fabric" = _qWd49fwI;
         "pkg-0.2-1.21-fabric" = _jNVzIwkU;
         "pkg-0.3-1.20-fabric" = _zHouBX9N;
@@ -142,7 +163,10 @@ let
         "pkg-0.5-1.21.5-fabric" = _nQNS6Pch;
         "pkg-0.5-1.21.7-fabric" = _kJAWWj33;
         "pkg-0.5-1.21.11-fabric" = _O817MFd2;
-        "default" = _O817MFd2;
+        "pkg-0.5-26.1-fabric" = _z3mK7olg;
+        "pkg-0.5-26.2-fabric" = _tROByhOU;
+        "pkg-0.5-26.3-fabric" = _ohKbkKII;
+        "default" = _ohKbkKII;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "auto-disconnect";

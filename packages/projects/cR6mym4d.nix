@@ -21,24 +21,31 @@ let
             "file" = "Ice Cream x Fresh Animations.zip";
             "hash" = "sha512-Lwk3UITOPWksBgfvvBVezPJYXZm1xg6HDzKMqwceX/90oajw4toF52FyKkL7u3qPUlYBGImdYV/GJ0tHjl5acQ==";
         };
+        _IwVJVNGY = {
+            "id" = "IwVJVNGY";
+            "file" = "Ice Cream x Fresh Animations.zip";
+            "hash" = "sha512-qClXlzQdzlmO2RL9u5VjYciBTPgBOgiZF1aHWU0366t3RENxeYgIjKnBCn5IQNdka5qctUlKVAEqyDSwlofMqg==";
+        };
     in {
         "gn4D2XeW" = _gn4D2XeW;
         "9aMD2kzx" = _9aMD2kzx;
         "JujEtNKE" = _JujEtNKE;
         "rWlCs5dF" = _rWlCs5dF;
-        "minecraft-1.21.9" = _rWlCs5dF;
-        "minecraft-1.21.10" = _rWlCs5dF;
-        "minecraft-1.21.11" = _rWlCs5dF;
-        "minecraft-26.1" = _rWlCs5dF;
-        "minecraft-26.1.1" = _rWlCs5dF;
-        "minecraft-26.1.2" = _rWlCs5dF;
-        "minecraft-26.2" = _rWlCs5dF;
-        "minecraft-26.3" = _rWlCs5dF;
+        "IwVJVNGY" = _IwVJVNGY;
+        "minecraft-1.21.9" = _IwVJVNGY;
+        "minecraft-1.21.10" = _IwVJVNGY;
+        "minecraft-1.21.11" = _IwVJVNGY;
+        "minecraft-26.1" = _IwVJVNGY;
+        "minecraft-26.1.1" = _IwVJVNGY;
+        "minecraft-26.1.2" = _IwVJVNGY;
+        "minecraft-26.2" = _IwVJVNGY;
+        "minecraft-26.3" = _IwVJVNGY;
         "pkg-1.0" = _gn4D2XeW;
         "pkg-1.1" = _9aMD2kzx;
         "pkg-1.2" = _JujEtNKE;
         "pkg-1.3" = _rWlCs5dF;
-        "default" = _rWlCs5dF;
+        "pkg-1.4" = _IwVJVNGY;
+        "default" = _IwVJVNGY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ice-cream-fa";

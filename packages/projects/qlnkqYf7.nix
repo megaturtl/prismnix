@@ -76,6 +76,16 @@ let
             "file" = "skinmc_mod-fabric-2.3.0.jar";
             "hash" = "sha512-zXKMILIVxhmW5lgNUooR+cbPl5sIJ5f+x9eBHLhSTLGHQE0hYA5MNTf5BRAfzsAgjw9V1sL+E0ZkmfGMVecAHg==";
         };
+        _drbedfiX = {
+            "id" = "drbedfiX";
+            "file" = "skinmc_mod-fabric-2.4.0.jar";
+            "hash" = "sha512-H4oBH6DyNuch29ICyFIS3dxuVHFwtiWMtZpIvw3tKQG+q26PZhTeSNdhrtyc8ck9dZGEt5KB0DJVZaR7BWKAhw==";
+        };
+        _oNmGFgGe = {
+            "id" = "oNmGFgGe";
+            "file" = "skinmc_mod-neoforge-2.4.0.jar";
+            "hash" = "sha512-H5tOFw6ltixbIwS+3uQsqCiuFsKbQXmJtsQ/b43r7AePiGTdzEYe+lYQ51JugZhzbYnaMG+NQ+uDlIbDiZC2Og==";
+        };
     in {
         "XMLHYpPO" = _XMLHYpPO;
         "WcNRuruJ" = _WcNRuruJ;
@@ -92,6 +102,8 @@ let
         "2u04fqHk" = _2u04fqHk;
         "cMn4avnb" = _cMn4avnb;
         "dO4Wcqvs" = _dO4Wcqvs;
+        "drbedfiX" = _drbedfiX;
+        "oNmGFgGe" = _oNmGFgGe;
         "fabric-1.18" = _XMLHYpPO;
         "fabric-1.19" = _WcNRuruJ;
         "fabric-1.20" = _sKYZB6nu;
@@ -99,9 +111,11 @@ let
         "fabric-1.21.4" = _oYQmjDsI;
         "fabric-1.21.11" = _2u04fqHk;
         "fabric-26.2" = _dO4Wcqvs;
+        "fabric-26.3" = _drbedfiX;
         "neoforge-1.21.4" = _QFVJLUaU;
         "neoforge-1.21.11" = _PE5os89m;
         "neoforge-26.2" = _cMn4avnb;
+        "neoforge-26.3" = _oNmGFgGe;
         "pkg-1.0.0" = _WcNRuruJ;
         "pkg-1.20-1.0.0" = _sKYZB6nu;
         "pkg-2.0.0" = _zBSfDstP;
@@ -109,7 +123,8 @@ let
         "pkg-2.1.1" = _jaDG8nYm;
         "pkg-2.2.0" = _2u04fqHk;
         "pkg-2.3.0" = _dO4Wcqvs;
-        "default" = _dO4Wcqvs;
+        "pkg-2.4.0" = _oNmGFgGe;
+        "default" = _oNmGFgGe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skinmc";

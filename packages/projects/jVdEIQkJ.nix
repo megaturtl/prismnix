@@ -21,11 +21,23 @@ let
             "file" = "sethome-1.19.3-1.19.4.jar";
             "hash" = "sha512-20GJKI6x+JHJwi4KnIfVfcEuy2gGvZKoW1yoC4tJ5yuFp5hmrk65hfoOgmQCHQbSqnLKRPf14vOZ3Z4SiMslzA==";
         };
+        _QilvsG0d = {
+            "id" = "QilvsG0d";
+            "file" = "simplesethome-1.1.0+mc26.2.jar";
+            "hash" = "sha512-ec8fQJmjYZ9h6511kw0mrE/w5LIQ+UBQVFiAyEkFjwbrAx31zcAqjVW5ckyegLfpIBmtXmEydifqij/xbHg1kg==";
+        };
+        _Jrhm7mpA = {
+            "id" = "Jrhm7mpA";
+            "file" = "simplesethome-1.1.0+mc26.3.jar";
+            "hash" = "sha512-ZuECAAhLXNzGBtoPQ0l/1aNWRFvx9gQEOyZRUJDTyU0q86wEt3aBxaLygMWRsYWJUVgmw5a02UWQO1Ul2pcMng==";
+        };
     in {
         "ogQvWx4n" = _ogQvWx4n;
         "xTL5nQCc" = _xTL5nQCc;
         "y6k6jyLy" = _y6k6jyLy;
         "ctcf6Ma3" = _ctcf6Ma3;
+        "QilvsG0d" = _QilvsG0d;
+        "Jrhm7mpA" = _Jrhm7mpA;
         "fabric-1.21.2" = _ogQvWx4n;
         "fabric-1.21.3" = _ogQvWx4n;
         "fabric-1.21.4" = _ogQvWx4n;
@@ -44,8 +56,12 @@ let
         "fabric-1.20.6" = _y6k6jyLy;
         "fabric-1.19.3" = _ctcf6Ma3;
         "fabric-1.19.4" = _ctcf6Ma3;
+        "fabric-26.2" = _QilvsG0d;
+        "fabric-26.3" = _Jrhm7mpA;
         "pkg-1.0" = _ctcf6Ma3;
-        "default" = _ctcf6Ma3;
+        "pkg-1.1.0+mc26.2" = _QilvsG0d;
+        "pkg-1.1.0+mc26.3" = _Jrhm7mpA;
+        "default" = _Jrhm7mpA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simplesethome";

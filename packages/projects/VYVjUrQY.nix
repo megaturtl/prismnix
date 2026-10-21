@@ -21,19 +21,33 @@ let
             "file" = "nature-x-plus-2.0.10.jar";
             "hash" = "sha512-x4ZzvuBb5hdU/2ZPcFhW2JpSY0B9CNH9YtUprfECLXH03lGsbHJ++Y6v3URX2HuozFy3hSoe2wf/dsetrAjX8g==";
         };
+        _sx5RMRvA = {
+            "id" = "sx5RMRvA";
+            "file" = "nature-x-plus-26.0.jar";
+            "hash" = "sha512-zqacJ3zg9tz/grLVxUTfxjTfZ5GvIatbCzT//xOirXSoHZawPtvlHUeSXRkvJbMgI/kIp1UqTzRvUQSz+A6L4Q==";
+        };
+        _EIDl3sri = {
+            "id" = "EIDl3sri";
+            "file" = "nature-x-plus-26.0.1.jar";
+            "hash" = "sha512-7q6/mfvcHRgROnC3nMN64AAYp+Kqk8QzqA+sQDZ71z0YpB/mfEAGFQm/abOxC05BVDNH2uW3Gyl1LSocr12+mA==";
+        };
     in {
         "DhVPHwKC" = _DhVPHwKC;
         "OBM0ELAV" = _OBM0ELAV;
         "Sqcwa6Ju" = _Sqcwa6Ju;
         "BQdLpHun" = _BQdLpHun;
+        "sx5RMRvA" = _sx5RMRvA;
+        "EIDl3sri" = _EIDl3sri;
         "fabric-26.1.1" = _DhVPHwKC;
         "fabric-26.1.2" = _Sqcwa6Ju;
-        "fabric-26.3" = _BQdLpHun;
+        "fabric-26.3" = _EIDl3sri;
         "pkg-2.0.3" = _DhVPHwKC;
         "pkg-2.0.8" = _OBM0ELAV;
         "pkg-2.0.9" = _Sqcwa6Ju;
         "pkg-2.0.10" = _BQdLpHun;
-        "default" = _BQdLpHun;
+        "pkg-26.0" = _sx5RMRvA;
+        "pkg-26.0.1" = _EIDl3sri;
+        "default" = _EIDl3sri;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nature-x-plus";

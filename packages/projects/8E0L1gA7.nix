@@ -101,6 +101,26 @@ let
             "file" = "guide_shelf-1.3.6.jar";
             "hash" = "sha512-wkeU/ye4pXvLqp90um04pW9AmpVQEBnHyrWxmwH2b34thVwTimOC365qERVwFzG+P/KT7nKxY5mGJBXiCtsOEQ==";
         };
+        _MeyRy3wC = {
+            "id" = "MeyRy3wC";
+            "file" = "guide_shelf-1.3.7.jar";
+            "hash" = "sha512-PKUWC23FgrL/b8bdDgjhwSLb3ek82ICo+a8LOPGOalewfwGp4MmIco55V8Ymy7HbUv8IqPJEVw7IwUYQpTfzBQ==";
+        };
+        _7wCG507x = {
+            "id" = "7wCG507x";
+            "file" = "guide_shelf-1.3.7.jar";
+            "hash" = "sha512-TLH2CPfuhWCIUNfG8tgi6HplXaBOOH6YcdDY9glUPsOIRTo1SwWh1ebRpZK15IUMnIw/n9S8QD9LWY47Hfukuw==";
+        };
+        _MJlUww65 = {
+            "id" = "MJlUww65";
+            "file" = "guide_shelf-1.3.8.jar";
+            "hash" = "sha512-yn3EnAGRUXjelrVggN3KuPV9Z3a6ly1lv1DPCCtjplzNvpNc+gRz/RSNn3mHijZ93MV3EI+pGKgkgQY7v7L7aw==";
+        };
+        _3q9WY7sH = {
+            "id" = "3q9WY7sH";
+            "file" = "guide_shelf-1.3.8.jar";
+            "hash" = "sha512-TgcaTyu4vQjqvvFqp9xrWm3xcmrHvnWVO0pvT4zrJY0KGL4UhfWO53eXIoG8GT4viz9C43C49QY5Qtp0nK/BAg==";
+        };
     in {
         "Ao0hYow2" = _Ao0hYow2;
         "6rgBeunJ" = _6rgBeunJ;
@@ -122,8 +142,12 @@ let
         "sDKEMIMr" = _sDKEMIMr;
         "fDshwkXY" = _fDshwkXY;
         "rfpYVBCq" = _rfpYVBCq;
-        "forge-1.20.1" = _fDshwkXY;
-        "neoforge-1.21.1" = _rfpYVBCq;
+        "MeyRy3wC" = _MeyRy3wC;
+        "7wCG507x" = _7wCG507x;
+        "MJlUww65" = _MJlUww65;
+        "3q9WY7sH" = _3q9WY7sH;
+        "forge-1.20.1" = _MJlUww65;
+        "neoforge-1.21.1" = _3q9WY7sH;
         "pkg-1.0.2" = _6rgBeunJ;
         "pkg-1.1.0" = _ZIQEqLJ3;
         "pkg-1.2.0" = _Qzd9qY8Z;
@@ -134,7 +158,9 @@ let
         "pkg-1.3.4" = _AgTEMJQF;
         "pkg-1.3.5" = _sDKEMIMr;
         "pkg-1.3.6" = _rfpYVBCq;
-        "default" = _rfpYVBCq;
+        "pkg-1.3.7" = _7wCG507x;
+        "pkg-1.3.8" = _3q9WY7sH;
+        "default" = _3q9WY7sH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "guide-shelf";

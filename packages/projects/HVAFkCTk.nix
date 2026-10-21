@@ -151,6 +151,11 @@ let
             "file" = "pipez_optimizer-1.0.0-26.1.2.jar";
             "hash" = "sha512-0VcZEDL8w1Xp74AotE+M0pqq1KZFlIH4uJLqSPqIIicH4mrVgr0D/bn2j+7MHKXTmL8mHOUBtUQ5nS3zvaon2g==";
         };
+        _yg66Aeew = {
+            "id" = "yg66Aeew";
+            "file" = "pipez_optimizer-1.0.10-1.20.1.jar";
+            "hash" = "sha512-KyGaQHA2YHMpz7XjUArcBc5aNZ9xGuzrHjds3d91B6ELqjQeIOLOwKY451txaOMTTxHQ2+Nfq47ELhZV8qO2lQ==";
+        };
     in {
         "OVXKZgVD" = _OVXKZgVD;
         "jq4VYbGA" = _jq4VYbGA;
@@ -182,11 +187,12 @@ let
         "PDF2M0i9" = _PDF2M0i9;
         "5xMlPffn" = _5xMlPffn;
         "Q4dI2Glz" = _Q4dI2Glz;
+        "yg66Aeew" = _yg66Aeew;
         "neoforge-1.21.1" = _5xMlPffn;
         "neoforge-26.1" = _Q4dI2Glz;
         "neoforge-26.1.1" = _Q4dI2Glz;
         "neoforge-26.1.2" = _Q4dI2Glz;
-        "forge-1.20.1" = _EfyLNr22;
+        "forge-1.20.1" = _yg66Aeew;
         "forge-1.19.2" = _PDF2M0i9;
         "pkg-1.0.0-1.21.1" = _OVXKZgVD;
         "pkg-1.0.0-1.20.1" = _jq4VYbGA;
@@ -218,7 +224,8 @@ let
         "pkg-1.0.2-1.19.2" = _PDF2M0i9;
         "pkg-1.0.15-1.21.1" = _5xMlPffn;
         "pkg-1.0.0-26.1.2" = _Q4dI2Glz;
-        "default" = _Q4dI2Glz;
+        "pkg-1.0.10-1.20.1" = _yg66Aeew;
+        "default" = _yg66Aeew;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pipez-optimizer";

@@ -706,6 +706,16 @@ let
             "file" = "Ecologics-NeoFab-26.2-2.6.3.jar";
             "hash" = "sha512-7OgcaCjuFhtTkIDAdkpDlHFXry25O/hsHu63HhZK/I0Zu8Cy2sohUoUNyDm/PsO+ETSVfnfx2FbzEQgFtjI98Q==";
         };
+        _hsRvGp2m = {
+            "id" = "hsRvGp2m";
+            "file" = "Ecologics-Fabric-1.21.11-2.4.7.jar";
+            "hash" = "sha512-j+LQAl3ZIHwD+27TZdwCeybRKoj2xYefRanCZgvpQVZxIZltON7t9c6wphgBglOlOWGPjdTLnJbUqng9lQMAeg==";
+        };
+        _3JYBHW1y = {
+            "id" = "3JYBHW1y";
+            "file" = "Ecologics-NeoForge-1.21.11-2.4.7.jar";
+            "hash" = "sha512-FOTNw2dzEWD3CGBsrWY/zSqJXlJLu8OZH8lne5Te37eMQdhdAfD3Td58NjKRK5ao2J31gwo5C1NNEDm0pk2FUg==";
+        };
     in {
         "YX5CyxAZ" = _YX5CyxAZ;
         "3Zsi9mGq" = _3Zsi9mGq;
@@ -848,6 +858,8 @@ let
         "5UofDvyh" = _5UofDvyh;
         "lG4Nfk6a" = _lG4Nfk6a;
         "BzrmmkyM" = _BzrmmkyM;
+        "hsRvGp2m" = _hsRvGp2m;
+        "3JYBHW1y" = _3JYBHW1y;
         "forge-1.18.1" = _kC3xFh5w;
         "forge-1.18.2" = _soCWwgLU;
         "forge-1.19" = _n8IIJXsz;
@@ -863,14 +875,14 @@ let
         "fabric-1.19.3" = _6NHTZf2I;
         "fabric-1.20.1" = _BjQqWBo8;
         "fabric-1.21.1" = _U4PbcAbF;
-        "fabric-1.21.11" = _MdD8J4en;
+        "fabric-1.21.11" = _hsRvGp2m;
         "fabric-26.1" = _Ps5szbk8;
         "fabric-26.1.1" = _Ps5szbk8;
         "fabric-26.1.2" = _lG4Nfk6a;
         "fabric-26.2" = _BzrmmkyM;
         "fabric-26.3" = _5UofDvyh;
         "neoforge-1.21.1" = _ihEiqSv4;
-        "neoforge-1.21.11" = _vKhIyoZ5;
+        "neoforge-1.21.11" = _3JYBHW1y;
         "neoforge-26.1" = _Ps5szbk8;
         "neoforge-26.1.1" = _Ps5szbk8;
         "neoforge-26.1.2" = _lG4Nfk6a;
@@ -981,7 +993,9 @@ let
         "pkg-2.7.1-NeoFab" = _5UofDvyh;
         "pkg-2.5.5-NeoFab" = _lG4Nfk6a;
         "pkg-2.6.3-NeoFab" = _BzrmmkyM;
-        "default" = _BzrmmkyM;
+        "pkg-2.4.7-Fabric" = _hsRvGp2m;
+        "pkg-2.4.7-NeoForge" = _3JYBHW1y;
+        "default" = _3JYBHW1y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ecologics";

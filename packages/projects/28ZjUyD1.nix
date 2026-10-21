@@ -51,6 +51,11 @@ let
             "file" = "trial-chamber-time-removal-26.2.jar";
             "hash" = "sha512-BmwNkFLijbKfSog525cRfCzcoMVo4NiRmypC9gVppdDpVAm3cSw6K6v0TR23mJ2OoQdOThmGvaphTZ3uFqMpaQ==";
         };
+        _p6cKFB93 = {
+            "id" = "p6cKFB93";
+            "file" = "trial-chamber-time-removal-26.3.jar";
+            "hash" = "sha512-v7z2pxpXK4+SrMc3SRdw03LH+lzLMIBrubamz4J2uVYFJ40GVjIshNsMoJWJGPPOpC/Ao8xmplDpiWs23Ctr0A==";
+        };
     in {
         "xJpwDy1w" = _xJpwDy1w;
         "D1JhtI4k" = _D1JhtI4k;
@@ -62,6 +67,7 @@ let
         "3cAsB6tK" = _3cAsB6tK;
         "p3d8FIzp" = _p3d8FIzp;
         "eNIafGJ2" = _eNIafGJ2;
+        "p6cKFB93" = _p6cKFB93;
         "fabric-1.21.6" = _xJpwDy1w;
         "fabric-1.21.7" = _D1JhtI4k;
         "fabric-1.21.8" = _6gR7dEFr;
@@ -72,8 +78,9 @@ let
         "fabric-26.1.1" = _3cAsB6tK;
         "fabric-26.1.2" = _p3d8FIzp;
         "fabric-26.2" = _eNIafGJ2;
-        "pkg-1.0.0" = _eNIafGJ2;
-        "default" = _eNIafGJ2;
+        "fabric-26.3" = _p6cKFB93;
+        "pkg-1.0.0" = _p6cKFB93;
+        "default" = _p6cKFB93;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trial-chamber-time-remover";

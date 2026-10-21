@@ -371,6 +371,11 @@ let
             "file" = "petrolpark-1.21.1-1.5.11.jar";
             "hash" = "sha512-T3ObQsmg/InAROEpmrduNj/vvXJnolaz0meUMXSBNJedZtfoHYmCvkTev03rjRnlNYvS/yjpHlKZvHCwjfn6fw==";
         };
+        _iOye2uqD = {
+            "id" = "iOye2uqD";
+            "file" = "petrolpark-1.21.1-1.5.12.jar";
+            "hash" = "sha512-GZZp19r88RAC5NwE0FVgqfu75cqvYmZbrl1eyCpQKGTGsgWpZDwhs7sblPgeGKSg1hszGriDLlCilVXQAlNFCw==";
+        };
     in {
         "m9awExs5" = _m9awExs5;
         "z0ut2cAG" = _z0ut2cAG;
@@ -446,9 +451,10 @@ let
         "8Ds17i85" = _8Ds17i85;
         "rnpYOWPP" = _rnpYOWPP;
         "oTAOaxiw" = _oTAOaxiw;
+        "iOye2uqD" = _iOye2uqD;
         "forge-1.20.1" = _IIDzUTjo;
         "neoforge-1.20.1" = _7FNMmjsv;
-        "neoforge-1.21.1" = _oTAOaxiw;
+        "neoforge-1.21.1" = _iOye2uqD;
         "pkg-1.20.1-1.0.0" = _m9awExs5;
         "pkg-1.20.1-1.0.1" = _z0ut2cAG;
         "pkg-1.20.1-1.0.3" = _GhnOVSwj;
@@ -523,7 +529,8 @@ let
         "pkg-1.21.1-1.5.9" = _8Ds17i85;
         "pkg-1.21.1-1.5.10" = _rnpYOWPP;
         "pkg-1.21.1-1.5.11" = _oTAOaxiw;
-        "default" = _oTAOaxiw;
+        "pkg-1.21.1-1.5.12" = _iOye2uqD;
+        "default" = _iOye2uqD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "petrolpark";

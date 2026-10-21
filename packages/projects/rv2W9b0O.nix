@@ -41,6 +41,11 @@ let
             "file" = "FermiumMixins-1.0.13.jar";
             "hash" = "sha512-6UODS1AK5HKUSHN5RYrTGS6AmjtKTmwR/lAmCXb719Sz/aJVu/agjXdjRqBLuP0P5GSeGxZ4/4sOkC97LkdEzQ==";
         };
+        _QhfkSkqS = {
+            "id" = "QhfkSkqS";
+            "file" = "FermiumMixins-1.0.14.jar";
+            "hash" = "sha512-pCd8HLYrTUms2T6PWaHY9FhBWzxZDSZpyhdCMZ1RN9LsuK0pWOR8Fsp5ocLL4+KktNdOFnkB/hvkUwZTqXyyHg==";
+        };
     in {
         "oqas988N" = _oqas988N;
         "FXsS3269" = _FXsS3269;
@@ -50,7 +55,8 @@ let
         "ri9xJiWk" = _ri9xJiWk;
         "lky50nZO" = _lky50nZO;
         "CUEhzdPh" = _CUEhzdPh;
-        "forge-1.12.2" = _CUEhzdPh;
+        "QhfkSkqS" = _QhfkSkqS;
+        "forge-1.12.2" = _QhfkSkqS;
         "pkg-1.0.0" = _oqas988N;
         "pkg-1.0.1" = _FXsS3269;
         "pkg-1.0.2" = _6H4STwyt;
@@ -59,7 +65,8 @@ let
         "pkg-1.0.5" = _ri9xJiWk;
         "pkg-1.0.12" = _lky50nZO;
         "pkg-1.0.13" = _CUEhzdPh;
-        "default" = _CUEhzdPh;
+        "pkg-1.0.14" = _QhfkSkqS;
+        "default" = _QhfkSkqS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fermiummixins";

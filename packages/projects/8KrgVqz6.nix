@@ -121,6 +121,11 @@ let
             "file" = "DimensionAccessManager-1.20.1-3.1.1.jar";
             "hash" = "sha512-ji0vCjoWzcChOev2jpggI6AxUm3LBHUtRcPtzWLuHOOzkSmej8FScnVoyAOwrXN1H3ot5AAHXCyMLL3BUvTLaQ==";
         };
+        _qZFzblXq = {
+            "id" = "qZFzblXq";
+            "file" = "DimensionAccessManager-26.3-4.0.2.jar";
+            "hash" = "sha512-qUbsLaaqt6W+PGORJPln8dU/khBu60ykvGWcX25y+bKEC6ImnWIgfmxTM5DtCk7ATUQqbADPNmXisyXd8WFTXA==";
+        };
     in {
         "nKcwMntA" = _nKcwMntA;
         "PFAIXm0b" = _PFAIXm0b;
@@ -146,6 +151,7 @@ let
         "zB8aR3qt" = _zB8aR3qt;
         "2XwUlbNf" = _2XwUlbNf;
         "OmAE6QWp" = _OmAE6QWp;
+        "qZFzblXq" = _qZFzblXq;
         "forge-1.17.1" = _nKcwMntA;
         "forge-1.18.2" = _zxyokhzn;
         "forge-1.19.4" = _uafGOf0m;
@@ -172,7 +178,7 @@ let
         "neoforge-26.1.1" = _2XwUlbNf;
         "neoforge-26.1.2" = _2XwUlbNf;
         "neoforge-26.2" = _2XwUlbNf;
-        "neoforge-26.3" = _2XwUlbNf;
+        "neoforge-26.3" = _qZFzblXq;
         "pkg-1.17.1-3.0.1" = _nKcwMntA;
         "pkg-1.18.2-3.0.4" = _PFAIXm0b;
         "pkg-1.19.4-3.0.4" = _aSdExyTy;
@@ -197,7 +203,8 @@ let
         "pkg-1.21.11-4.0.2" = _zB8aR3qt;
         "pkg-26.1-4.0.2" = _2XwUlbNf;
         "pkg-1.20.1-3.1.1" = _OmAE6QWp;
-        "default" = _OmAE6QWp;
+        "pkg-26.3-4.0.2" = _qZFzblXq;
+        "default" = _qZFzblXq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dimension-access-manager";

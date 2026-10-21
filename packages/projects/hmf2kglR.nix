@@ -101,6 +101,16 @@ let
             "file" = "silents-minemons-4.4.3.jar";
             "hash" = "sha512-rvw9FWNLKXqUwjoXuSs8DACts2YO8fgwW4t5p8CLWDjHlMUZpt/LWeeDrMR1GZSsw1aSh3CDNDsbs9FnSw+lFQ==";
         };
+        _quRnTA2V = {
+            "id" = "quRnTA2V";
+            "file" = "silentsminemons-4.5.zip";
+            "hash" = "sha512-iojWsJ4RBzQ2DtZLTYRufDjJrmV5EzQYzN47vlLUBIu5xL5sJfa/jKkIqohOs5K5wPWmYhDiW4McCIMseCRbmg==";
+        };
+        _xszDcD5l = {
+            "id" = "xszDcD5l";
+            "file" = "silents-minemons-4.5.jar";
+            "hash" = "sha512-Et/OWOuDkm/yyvGM9bfHGXawCqiXGUIfyCp5dY5c5nT2W5Jg0J3SqRfMAagJRs+OcDNdQmFGwp9YTE6wmCi9tA==";
+        };
     in {
         "JpzkMOHV" = _JpzkMOHV;
         "fXpIRGS7" = _fXpIRGS7;
@@ -122,15 +132,17 @@ let
         "UDRMTXqv" = _UDRMTXqv;
         "GTuNTMOF" = _GTuNTMOF;
         "D20ZJmAP" = _D20ZJmAP;
-        "datapack-1.21.1" = _GTuNTMOF;
+        "quRnTA2V" = _quRnTA2V;
+        "xszDcD5l" = _xszDcD5l;
+        "datapack-1.21.1" = _quRnTA2V;
         "datapack-24w12a" = _n0ZsItdG;
-        "fabric-1.21.1" = _D20ZJmAP;
+        "fabric-1.21.1" = _xszDcD5l;
         "fabric-24w12a" = _UDRMTXqv;
-        "forge-1.21.1" = _D20ZJmAP;
+        "forge-1.21.1" = _xszDcD5l;
         "forge-24w12a" = _UDRMTXqv;
-        "neoforge-1.21.1" = _D20ZJmAP;
+        "neoforge-1.21.1" = _xszDcD5l;
         "neoforge-24w12a" = _UDRMTXqv;
-        "quilt-1.21.1" = _D20ZJmAP;
+        "quilt-1.21.1" = _xszDcD5l;
         "quilt-24w12a" = _UDRMTXqv;
         "pkg-1.1" = _JpzkMOHV;
         "pkg-1.2" = _fXpIRGS7;
@@ -152,7 +164,9 @@ let
         "pkg-4.4.2+mod" = _UDRMTXqv;
         "pkg-4.4.3" = _GTuNTMOF;
         "pkg-4.4.3+mod" = _D20ZJmAP;
-        "default" = _D20ZJmAP;
+        "pkg-4.5" = _quRnTA2V;
+        "pkg-4.5+mod" = _xszDcD5l;
+        "default" = _xszDcD5l;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "silents-minemons";

@@ -141,6 +141,16 @@ let
             "file" = "ringworld-neoforge-1.4.0+mc26.3.jar";
             "hash" = "sha512-MgcAKqS/UiTb9Do30W8fKkV4+UjENP8PApl4V/PNcyExI7zC1J0wBDoiz+0UiHMiYqZOBWLaWvLEiFANAWDhkg==";
         };
+        _v2V7Tq5x = {
+            "id" = "v2V7Tq5x";
+            "file" = "ringworld-1.4.0+mc1.21.1.jar";
+            "hash" = "sha512-RP5j1/BNOXBFwWa5LXq19pCbtFea3QUv4Re32Prnb890LcbxQ0EzrTlESYtHIA+NopZSMXjvwyIaKbyyeKikkg==";
+        };
+        _ViQoxrHa = {
+            "id" = "ViQoxrHa";
+            "file" = "ringworld-neoforge-1.4.0+mc1.21.1.jar";
+            "hash" = "sha512-PuzXhPbETjFAZjjURB7nsOdT3ZxQjtGZZCr3wioozbqvV7ZAXL0uz4Bbvd3n4WBsgxGda6mMlCYEpkPRw2kB7A==";
+        };
     in {
         "W2I2Gf5c" = _W2I2Gf5c;
         "bJkRENhv" = _bJkRENhv;
@@ -170,16 +180,20 @@ let
         "WrhyPQKP" = _WrhyPQKP;
         "J3ZzQgOZ" = _J3ZzQgOZ;
         "UdZZwm0o" = _UdZZwm0o;
+        "v2V7Tq5x" = _v2V7Tq5x;
+        "ViQoxrHa" = _ViQoxrHa;
         "fabric-26.1.2" = _oYIAzjqq;
         "fabric-26.1" = _oYIAzjqq;
         "fabric-26.1.1" = _oYIAzjqq;
         "fabric-26.2" = _mkq74qTF;
         "fabric-26.3" = _J3ZzQgOZ;
+        "fabric-1.21.1" = _v2V7Tq5x;
         "neoforge-26.1.2" = _7mNqdfKW;
         "neoforge-26.1" = _7mNqdfKW;
         "neoforge-26.1.1" = _7mNqdfKW;
         "neoforge-26.2" = _WrhyPQKP;
         "neoforge-26.3" = _UdZZwm0o;
+        "neoforge-1.21.1" = _ViQoxrHa;
         "pkg-0.2.0-alpha.2-fabric+mc26.1.2" = _W2I2Gf5c;
         "pkg-0.2.0-alpha.1-neoforge+mc26.1.2" = _bJkRENhv;
         "pkg-0.2.0-alpha.3-fabric+mc26.1.2" = _lnY3EC8t;
@@ -208,7 +222,9 @@ let
         "pkg-1.4.0-neoforge+mc26.2" = _WrhyPQKP;
         "pkg-1.4.0-fabric+mc26.3" = _J3ZzQgOZ;
         "pkg-1.4.0-neoforge+mc26.3" = _UdZZwm0o;
-        "default" = _UdZZwm0o;
+        "pkg-1.4.0-fabric+mc1.21.1" = _v2V7Tq5x;
+        "pkg-1.4.0-neoforge+mc1.21.1" = _ViQoxrHa;
+        "default" = _ViQoxrHa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ringworld";

@@ -111,6 +111,21 @@ let
             "file" = "serilumsspawnbundle-26.3.0-2.5.jar";
             "hash" = "sha512-QY3Pu2ZFbAOKKX4e176LDI83xQcHR+uWAaAkBs0v8BpAiwwW8b78S42Zt0YB0J7d+G3xPL0zKA1FsUl6ERmvlw==";
         };
+        _sVcQv7s7 = {
+            "id" = "sVcQv7s7";
+            "file" = "serilumsspawnbundle-1.21.1-2.6.jar";
+            "hash" = "sha512-D/AH+kTMr02reguY1AhjZcwnuJKlpXpJMdDpARbQD0mK+P35nZOPRCLH3dvbq/zbjW7JZ3uJgly2FurRXnYU0A==";
+        };
+        _8lGeNcNw = {
+            "id" = "8lGeNcNw";
+            "file" = "serilumsspawnbundle-26.2.0-2.6.jar";
+            "hash" = "sha512-p6Wkn2fbUXvocu4z+v/Md9pKKW2Ym3Xlu16xalhddX29RoXMggs3YRsSLG+Mmpdgj3KZCAz4Q1dGVzwr3wGoxA==";
+        };
+        _pE7wycoR = {
+            "id" = "pE7wycoR";
+            "file" = "serilumsspawnbundle-26.3.0-2.6.jar";
+            "hash" = "sha512-mm0uCA9G3ivcvvdZxqTKkloI06geiLy6B59YcK/eoiviBnYXHQE+IlST6v85yQQTNOgcYpMsz5s0pVTuIfcI0w==";
+        };
     in {
         "dpgKLfyd" = _dpgKLfyd;
         "9AVEk1Pb" = _9AVEk1Pb;
@@ -134,8 +149,11 @@ let
         "2NrrM0kI" = _2NrrM0kI;
         "IWUlzK17" = _IWUlzK17;
         "LYzSkcao" = _LYzSkcao;
-        "fabric-1.21" = _2NrrM0kI;
-        "fabric-1.21.1" = _2NrrM0kI;
+        "sVcQv7s7" = _sVcQv7s7;
+        "8lGeNcNw" = _8lGeNcNw;
+        "pE7wycoR" = _pE7wycoR;
+        "fabric-1.21" = _sVcQv7s7;
+        "fabric-1.21.1" = _sVcQv7s7;
         "fabric-1.21.4" = _3RZfHLM0;
         "fabric-1.21.5" = _QxgahpD8;
         "fabric-1.21.6" = _eF7zIPB7;
@@ -143,10 +161,10 @@ let
         "fabric-1.21.8" = _RvXdwbCM;
         "fabric-1.21.11" = _bL0o9ltW;
         "fabric-26.1.2" = _TlFUJ5CO;
-        "fabric-26.2" = _IWUlzK17;
-        "fabric-26.3" = _LYzSkcao;
-        "forge-1.21" = _2NrrM0kI;
-        "forge-1.21.1" = _2NrrM0kI;
+        "fabric-26.2" = _8lGeNcNw;
+        "fabric-26.3" = _pE7wycoR;
+        "forge-1.21" = _sVcQv7s7;
+        "forge-1.21.1" = _sVcQv7s7;
         "forge-1.21.4" = _3RZfHLM0;
         "forge-1.21.5" = _QxgahpD8;
         "forge-1.21.6" = _eF7zIPB7;
@@ -154,10 +172,10 @@ let
         "forge-1.21.8" = _RvXdwbCM;
         "forge-1.21.11" = _bL0o9ltW;
         "forge-26.1.2" = _TlFUJ5CO;
-        "forge-26.2" = _IWUlzK17;
-        "forge-26.3" = _LYzSkcao;
-        "neoforge-1.21" = _2NrrM0kI;
-        "neoforge-1.21.1" = _2NrrM0kI;
+        "forge-26.2" = _8lGeNcNw;
+        "forge-26.3" = _pE7wycoR;
+        "neoforge-1.21" = _sVcQv7s7;
+        "neoforge-1.21.1" = _sVcQv7s7;
         "neoforge-1.21.4" = _3RZfHLM0;
         "neoforge-1.21.5" = _QxgahpD8;
         "neoforge-1.21.6" = _eF7zIPB7;
@@ -165,10 +183,10 @@ let
         "neoforge-1.21.8" = _RvXdwbCM;
         "neoforge-1.21.11" = _bL0o9ltW;
         "neoforge-26.1.2" = _TlFUJ5CO;
-        "neoforge-26.2" = _IWUlzK17;
-        "neoforge-26.3" = _LYzSkcao;
-        "quilt-1.21" = _2NrrM0kI;
-        "quilt-1.21.1" = _2NrrM0kI;
+        "neoforge-26.2" = _8lGeNcNw;
+        "neoforge-26.3" = _pE7wycoR;
+        "quilt-1.21" = _sVcQv7s7;
+        "quilt-1.21.1" = _sVcQv7s7;
         "quilt-1.21.4" = _3RZfHLM0;
         "quilt-1.21.5" = _QxgahpD8;
         "quilt-1.21.6" = _eF7zIPB7;
@@ -176,8 +194,8 @@ let
         "quilt-1.21.8" = _RvXdwbCM;
         "quilt-1.21.11" = _bL0o9ltW;
         "quilt-26.1.2" = _TlFUJ5CO;
-        "quilt-26.2" = _IWUlzK17;
-        "quilt-26.3" = _LYzSkcao;
+        "quilt-26.2" = _8lGeNcNw;
+        "quilt-26.3" = _pE7wycoR;
         "pkg-1.21.0-1.0-fabric+forge+neo" = _dpgKLfyd;
         "pkg-1.21.0-1.1-fabric+forge+neo" = _9AVEk1Pb;
         "pkg-1.21.0-2.0-fabric+forge+neo" = _nynLi1x5;
@@ -200,7 +218,10 @@ let
         "pkg-1.21.1-2.4-fabric+forge+neo" = _2NrrM0kI;
         "pkg-26.2.0-2.5-fabric+forge+neo" = _IWUlzK17;
         "pkg-26.3.0-2.5-fabric+forge+neo" = _LYzSkcao;
-        "default" = _LYzSkcao;
+        "pkg-1.21.1-2.6-fabric+forge+neo" = _sVcQv7s7;
+        "pkg-26.2.0-2.6-fabric+forge+neo" = _8lGeNcNw;
+        "pkg-26.3.0-2.6-fabric+forge+neo" = _pE7wycoR;
+        "default" = _pE7wycoR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "serilums-spawn-bundle";

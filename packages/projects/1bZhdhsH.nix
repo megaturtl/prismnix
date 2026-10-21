@@ -4686,6 +4686,11 @@ let
             "file" = "plasmovoice-neoforge-26.3-2.2.0-beta.2.jar";
             "hash" = "sha512-YYltgBIVBAGqKnVqYQyOOVJNVDPjyyHqBFUfBGwJGxHtjQ3D2YFEYxTHVivTHADMuDlWDDXFru6/OU0wNIcSjg==";
         };
+        _xicjWy5L = {
+            "id" = "xicjWy5L";
+            "file" = "plasmovoice-fabric-26.4-2.2.0-beta.2+973d41c.jar";
+            "hash" = "sha512-sFvqkemqqlF34VhGjh9fUDK/C1tHlZHQJWw1Un/G5aI3jYjO4sWpRdlpiKYFR/yPoVnA0JdMOjGCNMpR1w2uEQ==";
+        };
     in {
         "zlQbC0Oq" = _zlQbC0Oq;
         "UIMRLcYI" = _UIMRLcYI;
@@ -5624,6 +5629,7 @@ let
         "2Gzvbq1H" = _2Gzvbq1H;
         "Fh3yPHxq" = _Fh3yPHxq;
         "IVp0Gm4d" = _IVp0Gm4d;
+        "xicjWy5L" = _xicjWy5L;
         "fabric-1.17" = _N9vOymRx;
         "fabric-1.17.1" = _fHEQPw5a;
         "fabric-1.16.4" = _9Zgx9Y3d;
@@ -5660,6 +5666,7 @@ let
         "fabric-26.1.2" = _SowC1eAd;
         "fabric-26.2" = _57E6hPQg;
         "fabric-26.3" = _Fh3yPHxq;
+        "fabric-26.4-snapshot-5" = _xicjWy5L;
         "forge-1.17" = _UWzwfmfX;
         "forge-1.17.1" = _bHsbPNxp;
         "forge-1.16.4" = _KwUIvqax;
@@ -6783,7 +6790,8 @@ let
         "pkg-neoforge-26.2-2.2.0-beta.2" = _2Gzvbq1H;
         "pkg-fabric-26.3-2.2.0-beta.2" = _Fh3yPHxq;
         "pkg-neoforge-26.3-2.2.0-beta.2" = _IVp0Gm4d;
-        "default" = _IVp0Gm4d;
+        "pkg-fabric-26.4-2.2.0-beta.2+973d41c" = _xicjWy5L;
+        "default" = _xicjWy5L;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "plasmo-voice";

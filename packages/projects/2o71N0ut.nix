@@ -26,13 +26,19 @@ let
             "file" = "Brays Enchanted Outline v1.0.1.zip";
             "hash" = "sha512-0Fa3z4XnJJWRTAwVLa+xWbLkVuS7yKJ4tJr9osP7VpVLufq5iTCR4uXkDA10puYNlfSrjuacZgkwoFYJdVQgNg==";
         };
+        _WERSwRgD = {
+            "id" = "WERSwRgD";
+            "file" = "Brays Enchanted Outline v1.1.zip";
+            "hash" = "sha512-5h5gKRgJmEI4VLDyxHpuDUEeB0FU0454PaQfjkMj7sDs/h64l70UpM8eFbQkwvvoaBEnDg2BAfs4Pp4beL4Aow==";
+        };
     in {
         "YXkFc0n6" = _YXkFc0n6;
         "pyiFGVlo" = _pyiFGVlo;
         "SbI2qOmL" = _SbI2qOmL;
         "o77Q5plI" = _o77Q5plI;
         "kHtFdP8w" = _kHtFdP8w;
-        "minecraft-1.21.5" = _kHtFdP8w;
+        "WERSwRgD" = _WERSwRgD;
+        "minecraft-1.21.5" = _WERSwRgD;
         "minecraft-1.18" = _pyiFGVlo;
         "minecraft-1.18.1" = _pyiFGVlo;
         "minecraft-1.18.2" = _pyiFGVlo;
@@ -50,19 +56,26 @@ let
         "minecraft-1.20.6" = _kHtFdP8w;
         "minecraft-1.21" = _kHtFdP8w;
         "minecraft-1.21.1" = _kHtFdP8w;
-        "minecraft-1.21.2" = _kHtFdP8w;
-        "minecraft-1.21.3" = _kHtFdP8w;
-        "minecraft-1.21.4" = _kHtFdP8w;
-        "minecraft-1.21.6" = _kHtFdP8w;
-        "minecraft-1.21.7" = _kHtFdP8w;
-        "minecraft-1.21.8" = _kHtFdP8w;
-        "minecraft-1.21.9" = _kHtFdP8w;
+        "minecraft-1.21.2" = _WERSwRgD;
+        "minecraft-1.21.3" = _WERSwRgD;
+        "minecraft-1.21.4" = _WERSwRgD;
+        "minecraft-1.21.6" = _WERSwRgD;
+        "minecraft-1.21.7" = _WERSwRgD;
+        "minecraft-1.21.8" = _WERSwRgD;
+        "minecraft-1.21.9" = _WERSwRgD;
+        "minecraft-1.21.10" = _WERSwRgD;
+        "minecraft-1.21.11" = _WERSwRgD;
+        "minecraft-26.1" = _WERSwRgD;
+        "minecraft-26.1.1" = _WERSwRgD;
+        "minecraft-26.1.2" = _WERSwRgD;
+        "minecraft-26.2" = _WERSwRgD;
+        "minecraft-26.3" = _WERSwRgD;
         "pkg-1.0" = _YXkFc0n6;
-        "pkg-1.1" = _pyiFGVlo;
+        "pkg-1.1" = _WERSwRgD;
         "pkg-1.2" = _SbI2qOmL;
         "pkg-1" = _o77Q5plI;
         "pkg-1.0.1" = _kHtFdP8w;
-        "default" = _kHtFdP8w;
+        "default" = _WERSwRgD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "brays-better-enchanted-outlines";

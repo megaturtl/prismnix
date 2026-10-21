@@ -636,6 +636,26 @@ let
             "file" = "searchonmcmod-neoforge-1.21.9-1.21.10-0.1.0.jar";
             "hash" = "sha512-xNn9CzADw1Myz5M/JWtRsPHjBc2JJXpJbYCS1sFDmfAysvckzE3vs/+UIBHHr64HGQU/tDDcTUxzyFOcnMjFgg==";
         };
+        _NUMv3Xly = {
+            "id" = "NUMv3Xly";
+            "file" = "searchonmcmod-fabric-26.3-0.1.1.jar";
+            "hash" = "sha512-Jx3aG0Vgyd+wlvYEv+hcW6SrlydeqMh59IfxLhZbeE+JYTDACT6DGfM3C3g7LDal0lDkQe/xXEJDkwFBJfzvdw==";
+        };
+        _tpFdGGpH = {
+            "id" = "tpFdGGpH";
+            "file" = "searchonmcmod-neoforge-26.3-0.1.1.jar";
+            "hash" = "sha512-1Fh8ZPNB0RDwYubSkq1NR2iFXstnr+TCL8az0goEk828vipEAkuiwjzVzi37WXyAIE9n/XYpojwVIbFTxE3J6A==";
+        };
+        _bWRmj0HN = {
+            "id" = "bWRmj0HN";
+            "file" = "searchonmcmod-fabric-26.2-0.1.1.jar";
+            "hash" = "sha512-l3AI6erMsd0GqdryZqcbghBwb/5hM/hosN3hq8iq+ffr0WwdqVsT7H6YimUg0qGK05JQBNnjfASItq5BBOK/iQ==";
+        };
+        _dVNqvCZn = {
+            "id" = "dVNqvCZn";
+            "file" = "searchonmcmod-neoforge-26.2-0.1.1.jar";
+            "hash" = "sha512-oOlsYLrJUIjycq1zUK9KnchrMg69Rwy61AYuMnTEIxkUTgYbdz1hcTbqKjLMNgdaJtm7RYT27nCk0UWR+g/XMw==";
+        };
     in {
         "xI39nuCg" = _xI39nuCg;
         "eClAKOau" = _eClAKOau;
@@ -764,6 +784,10 @@ let
         "IGlsriG0" = _IGlsriG0;
         "wZfnJ45Y" = _wZfnJ45Y;
         "iQ9CzdjG" = _iQ9CzdjG;
+        "NUMv3Xly" = _NUMv3Xly;
+        "tpFdGGpH" = _tpFdGGpH;
+        "bWRmj0HN" = _bWRmj0HN;
+        "dVNqvCZn" = _dVNqvCZn;
         "forge-1.20" = _DE5p2dLh;
         "forge-1.20.1" = _DE5p2dLh;
         "forge-1.20.2" = _DE5p2dLh;
@@ -810,6 +834,8 @@ let
         "fabric-26.1" = _YLErbgYs;
         "fabric-26.1.1" = _YLErbgYs;
         "fabric-26.1.2" = _YLErbgYs;
+        "fabric-26.3" = _NUMv3Xly;
+        "fabric-26.2" = _bWRmj0HN;
         "neoforge-1.21" = _jXd42NMd;
         "neoforge-1.21.1" = _jXd42NMd;
         "neoforge-1.21.2" = _jXd42NMd;
@@ -825,6 +851,8 @@ let
         "neoforge-26.1" = _y6mSyDI8;
         "neoforge-26.1.1" = _y6mSyDI8;
         "neoforge-26.1.2" = _y6mSyDI8;
+        "neoforge-26.3" = _tpFdGGpH;
+        "neoforge-26.2" = _dVNqvCZn;
         "pkg-0.0.3" = _BhpyNWYS;
         "pkg-0.0.2" = _eIdljbtp;
         "pkg-0.0.4" = _zKYYi0Lq;
@@ -839,7 +867,8 @@ let
         "pkg-0.0.9.1" = _JhrkV829;
         "pkg-0.0.9.2" = _LCqUNZH3;
         "pkg-0.1.0" = _iQ9CzdjG;
-        "default" = _iQ9CzdjG;
+        "pkg-0.1.1" = _dVNqvCZn;
+        "default" = _dVNqvCZn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "search-on-mcmod";

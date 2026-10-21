@@ -61,6 +61,11 @@ let
             "file" = "Comprogrammer.zip";
             "hash" = "sha512-W6qjGCK75yTZCzYlAGUzV6diYanxq3mCtgXBGeO7Cf/pqYA6XjAsPihxJjIrzVcaARORDhW5J6nwde0VAUxwIQ==";
         };
+        _HGadclOj = {
+            "id" = "HGadclOj";
+            "file" = "Comprogrammer.zip";
+            "hash" = "sha512-9BvEiKZ8gHvhwN0DFI9H3ol/Agnm3uDX8vmv979ofLd32UdZ4Wyhlzgi4TlPonD/YrAdctqjNPyJ5wUIkPieXA==";
+        };
     in {
         "BzDMFzh4" = _BzDMFzh4;
         "rSg5WU1c" = _rSg5WU1c;
@@ -74,8 +79,9 @@ let
         "tJqBStYD" = _tJqBStYD;
         "a2TFCtNZ" = _a2TFCtNZ;
         "RrwgMOVY" = _RrwgMOVY;
-        "minecraft-1.20.1" = _RrwgMOVY;
-        "minecraft-1.21.1" = _RrwgMOVY;
+        "HGadclOj" = _HGadclOj;
+        "minecraft-1.20.1" = _HGadclOj;
+        "minecraft-1.21.1" = _HGadclOj;
         "minecraft-1.20" = _RrwgMOVY;
         "minecraft-23w31a" = _RrwgMOVY;
         "minecraft-23w32a" = _RrwgMOVY;
@@ -132,7 +138,7 @@ let
         "minecraft-1.21-pre3" = _RrwgMOVY;
         "minecraft-1.21-pre4" = _RrwgMOVY;
         "minecraft-1.21-rc1" = _RrwgMOVY;
-        "minecraft-1.21" = _RrwgMOVY;
+        "minecraft-1.21" = _HGadclOj;
         "minecraft-24w33a" = _RrwgMOVY;
         "minecraft-24w34a" = _RrwgMOVY;
         "minecraft-24w35a" = _RrwgMOVY;
@@ -167,7 +173,8 @@ let
         "pkg-C1.3.1" = _tJqBStYD;
         "pkg-C1.4" = _a2TFCtNZ;
         "pkg-C1.5" = _RrwgMOVY;
-        "default" = _RrwgMOVY;
+        "pkg-C1.5.1" = _HGadclOj;
+        "default" = _HGadclOj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cavegrammersuperpack";

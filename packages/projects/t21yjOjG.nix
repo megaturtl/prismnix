@@ -81,6 +81,46 @@ let
             "file" = "SelectiveMining-neoforge-1.21.8.jar";
             "hash" = "sha512-94taW/YQVf01eZ7PDcQIGuN7fsmpBdl9T/GY1HLg2ct46IuKZkLUBBSvOdfXjqghno9qR/dq53CutiU60xwibQ==";
         };
+        _BxFmALH8 = {
+            "id" = "BxFmALH8";
+            "file" = "SelectiveMining-neoforge-26.1.jar";
+            "hash" = "sha512-wl6IjPJ5PJvZzuhpLQoQXXqVvKpvG5LJ1vTs94pgpIV8nAVDGrDxzDVmeGd1uLm9i9VzNSPlMPcEFRqLt9KjFQ==";
+        };
+        _GmWqnfiz = {
+            "id" = "GmWqnfiz";
+            "file" = "SelectiveMining-neoforge-26.2.jar";
+            "hash" = "sha512-CAVT/UGDNZUDYTxmUxInFOGwIrMGol3MzpiO04qS9Ye3qEBYHdjR5sCFZJB3c7Jab0sc6M0E7N3QWWmiLI5n0g==";
+        };
+        _7DPhMyy6 = {
+            "id" = "7DPhMyy6";
+            "file" = "SelectiveMining-neoforge-26.3.jar";
+            "hash" = "sha512-pFTI/LGdCbhmdsreYUO1jw8ksAAqX5+4kO5fSu5/pSSMSR139UvGqdt0oZxmXuo9a4vzqh4qgDjWQaXUNwJLTA==";
+        };
+        _lrxXPLpr = {
+            "id" = "lrxXPLpr";
+            "file" = "SelectiveMining-neoforge-26.1.1.jar";
+            "hash" = "sha512-tKVw5Q03t6rvBGlCIjAQfehpdFSTtgYCyQc+eLOH6qcfYcG7AN3t+9w6HcWC4fc9A1x9qxLQxPy/w+OYCJH2pg==";
+        };
+        _rVUeyk3W = {
+            "id" = "rVUeyk3W";
+            "file" = "SelectiveMining-neoforge-26.1.2.jar";
+            "hash" = "sha512-EVut2BgoRBKSTaL7lIcZIA7InCvZO/3Bdq0AzPbM1Bna+POnGs4wTQJOHnFVr2IoPFXX80m4KsECTX31FNWoig==";
+        };
+        _TSw2ItZA = {
+            "id" = "TSw2ItZA";
+            "file" = "SelectiveMining-neoforge-1.21.9.jar";
+            "hash" = "sha512-ceOzCbGFHVDPfbT9cDr5btHQTJh/CzMvpudKYLcB9ty8WeK9hzDo3oHYW/nC9PeoThlmuuKlE5uEIhClE+pkFg==";
+        };
+        _edBtXlr3 = {
+            "id" = "edBtXlr3";
+            "file" = "SelectiveMining-neoforge-1.21.10.jar";
+            "hash" = "sha512-YTjwcffnfsHz/wGZ91MqJ7rIbZFXGDkVJT2wFL9OOTJohpL0+l7lWanoMDjT5ZvKACgwM4Gf5VQ2C4MIUBoD+A==";
+        };
+        _Kx3WbLSz = {
+            "id" = "Kx3WbLSz";
+            "file" = "SelectiveMining-neoforge-1.21.11.jar";
+            "hash" = "sha512-TXAO0uB+0sXi7ktN0LZzXzjytXAYsZaJR182l9Uy9Qx1qFXLhr0h53CeXhCWy96O7O+vhHIhgT1JhRlJ2APQRA==";
+        };
     in {
         "987Vg3ll" = _987Vg3ll;
         "FUQMismc" = _FUQMismc;
@@ -98,6 +138,14 @@ let
         "lmzdiSki" = _lmzdiSki;
         "jm9tKm0y" = _jm9tKm0y;
         "P5E1zXYt" = _P5E1zXYt;
+        "BxFmALH8" = _BxFmALH8;
+        "GmWqnfiz" = _GmWqnfiz;
+        "7DPhMyy6" = _7DPhMyy6;
+        "lrxXPLpr" = _lrxXPLpr;
+        "rVUeyk3W" = _rVUeyk3W;
+        "TSw2ItZA" = _TSw2ItZA;
+        "edBtXlr3" = _edBtXlr3;
+        "Kx3WbLSz" = _Kx3WbLSz;
         "fabric-1.16.1" = _TPIlIEL1;
         "fabric-1.16.2" = _TPIlIEL1;
         "fabric-1.16.3" = _TPIlIEL1;
@@ -144,6 +192,14 @@ let
         "neoforge-1.21.6" = _P5E1zXYt;
         "neoforge-1.21.7" = _P5E1zXYt;
         "neoforge-1.21.8" = _P5E1zXYt;
+        "neoforge-26.1" = _BxFmALH8;
+        "neoforge-26.2" = _GmWqnfiz;
+        "neoforge-26.3" = _7DPhMyy6;
+        "neoforge-26.1.1" = _lrxXPLpr;
+        "neoforge-26.1.2" = _rVUeyk3W;
+        "neoforge-1.21.9" = _TSw2ItZA;
+        "neoforge-1.21.10" = _edBtXlr3;
+        "neoforge-1.21.11" = _Kx3WbLSz;
         "pkg-1.0" = _987Vg3ll;
         "pkg-1.1" = _FUQMismc;
         "pkg-1.2" = _U0cXKy92;
@@ -153,7 +209,8 @@ let
         "pkg-2.0" = _MNHh9BVT;
         "pkg-2.1" = _RsMCmJcx;
         "pkg-26.1" = _P5E1zXYt;
-        "default" = _P5E1zXYt;
+        "pkg-2026.1" = _Kx3WbLSz;
+        "default" = _Kx3WbLSz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "selective-mining";

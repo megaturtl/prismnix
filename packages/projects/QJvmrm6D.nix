@@ -151,6 +151,16 @@ let
             "file" = "NeoSync-26.1.2-1.7.2.jar";
             "hash" = "sha512-AyucoOXxgWLEwE6QoHyar0HKCFcmAyX3+lgj+GKkZDHodXflI4REbB0sfvSG21In1ZxfbaW1RRsRDooIgE2mlw==";
         };
+        _UQ6vHEZe = {
+            "id" = "UQ6vHEZe";
+            "file" = "NeoSync-1.21.1-1.7.2.jar";
+            "hash" = "sha512-ebdaGyMFMzDVt7FfroAgYLXVcnml5l4sB7JyU+sskrw/EbbLmmIbbPsw3AyGzOr75ZiKNMV7rv3XeKRrm80N8w==";
+        };
+        _HuP7tGI8 = {
+            "id" = "HuP7tGI8";
+            "file" = "NeoSync-26.1.2-1.7.3.jar";
+            "hash" = "sha512-UyBm/w4+LA0BbQl0/T7lhAE4B2tMSsxzn8S5U6aLR3jB+yemrPp4vQO8T1F2y62by8Vr9voyhpjz5VX7FfnRkw==";
+        };
     in {
         "rq4Ifugf" = _rq4Ifugf;
         "ZlNtOtD7" = _ZlNtOtD7;
@@ -182,7 +192,9 @@ let
         "gbuyskFY" = _gbuyskFY;
         "GAi2vqCu" = _GAi2vqCu;
         "ruPQwks2" = _ruPQwks2;
-        "neoforge-1.21.1" = _gbuyskFY;
+        "UQ6vHEZe" = _UQ6vHEZe;
+        "HuP7tGI8" = _HuP7tGI8;
+        "neoforge-1.21.1" = _UQ6vHEZe;
         "neoforge-1.21.2" = _rq4Ifugf;
         "neoforge-1.21.3" = _rq4Ifugf;
         "neoforge-1.21.4" = _rq4Ifugf;
@@ -193,7 +205,7 @@ let
         "neoforge-1.21.9" = _rq4Ifugf;
         "neoforge-1.21.10" = _rq4Ifugf;
         "neoforge-1.21.11" = _rq4Ifugf;
-        "neoforge-26.1.2" = _ruPQwks2;
+        "neoforge-26.1.2" = _HuP7tGI8;
         "pkg-1.0.0" = _rq4Ifugf;
         "pkg-1.21.1-1.1.0" = _ZlNtOtD7;
         "pkg-1.21.1-1.2.0" = _vB95Gs3T;
@@ -224,7 +236,9 @@ let
         "pkg-1.21.1-1.7.1" = _gbuyskFY;
         "pkg-26.1.2-1.7.1" = _GAi2vqCu;
         "pkg-26.1.2-1.7.2" = _ruPQwks2;
-        "default" = _ruPQwks2;
+        "pkg-1.21.1-1.7.2" = _UQ6vHEZe;
+        "pkg-26.1.2-1.7.3" = _HuP7tGI8;
+        "default" = _HuP7tGI8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "neosync";

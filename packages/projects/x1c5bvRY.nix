@@ -31,6 +31,11 @@ let
             "file" = "RX-RNTM-[3.2_X1000].jar";
             "hash" = "sha512-QJQCgDcyO40mp0v/b7q3lr6QnCUf4hJkkj8xemdkhlwBbWr+QDZqIlxIlQ+mSCUHzNxQ10Kx1IWT1HKDwkHIIg==";
         };
+        _Ywvbu2Ql = {
+            "id" = "Ywvbu2Ql";
+            "file" = "RX-RNTM-[3.3_X1000].jar";
+            "hash" = "sha512-14BvI+TKOeW4S0JiBFQJtOqr9UQ4iSR0jnnl52vnIpPo7LSBa+vrqhkxMETruw8VLBn4Cq/hwX55f+zjEq57gQ==";
+        };
     in {
         "OfVCy0Sz" = _OfVCy0Sz;
         "lVsuZmrC" = _lVsuZmrC;
@@ -38,14 +43,16 @@ let
         "nDgZtdM4" = _nDgZtdM4;
         "JhTjZkUd" = _JhTjZkUd;
         "xa4ZchKE" = _xa4ZchKE;
-        "forge-1.7.10" = _xa4ZchKE;
+        "Ywvbu2Ql" = _Ywvbu2Ql;
+        "forge-1.7.10" = _Ywvbu2Ql;
         "pkg-1.0.0" = _OfVCy0Sz;
         "pkg-1.0.2" = _lVsuZmrC;
         "pkg-1.0.3" = _Va2ZUbja;
         "pkg-2.0" = _nDgZtdM4;
         "pkg-2.3" = _JhTjZkUd;
         "pkg-3.2" = _xa4ZchKE;
-        "default" = _xa4ZchKE;
+        "pkg-3.3" = _Ywvbu2Ql;
+        "default" = _Ywvbu2Ql;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ragexs-nuclear-tech";

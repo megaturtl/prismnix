@@ -31,6 +31,11 @@ let
             "file" = "do_not_join-5.2.jar";
             "hash" = "sha512-eQa+5DrS3UOalUN/+Z0woBuAydxCtsUjEZYD2U0uqjQ7B1WN3YBkrCO3Y/gJPXwockBfNX77SVmo8VolD3jD8g==";
         };
+        _R1Si43eD = {
+            "id" = "R1Si43eD";
+            "file" = "do_not_join-5.2.jar";
+            "hash" = "sha512-dagP6mAictMolZdNsn/6vTJ/tRcg16/r96XKo/pmvV9YshhpwjvoJf3PlS46l8YqOq/u5qtT4SdO/GqU4OUhlA==";
+        };
     in {
         "Sjmk35cY" = _Sjmk35cY;
         "cxe7hkF3" = _cxe7hkF3;
@@ -38,14 +43,16 @@ let
         "xknuJ38W" = _xknuJ38W;
         "cPPhF4Hu" = _cPPhF4Hu;
         "epIQu1Yu" = _epIQu1Yu;
-        "forge-1.20.1" = _epIQu1Yu;
+        "R1Si43eD" = _R1Si43eD;
+        "forge-1.20.1" = _R1Si43eD;
         "pkg-3.4.0" = _Sjmk35cY;
         "pkg-3.4.1" = _cxe7hkF3;
         "pkg-4.0" = _bRHmFTu3;
         "pkg-5.0" = _xknuJ38W;
         "pkg-5.1" = _cPPhF4Hu;
         "pkg-5.2" = _epIQu1Yu;
-        "default" = _epIQu1Yu;
+        "pkg-5.3" = _R1Si43eD;
+        "default" = _R1Si43eD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "do_not_join.jar";

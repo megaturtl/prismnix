@@ -1081,6 +1081,11 @@ let
             "file" = "mcwifipnp-2.1.4-26.3-forge.jar";
             "hash" = "sha512-toiv5FqV4uwMH85MqfQzJ/hG2WZHCPpoMpKtdyqcmLBWIRUdsf6SI2sZDzCBkOr665gEAz5ZQnVE8aEhPbTrYA==";
         };
+        _43loegS8 = {
+            "id" = "43loegS8";
+            "file" = "mcwifipnp-2.1.4-26.4-snapshot-5-fabric.jar";
+            "hash" = "sha512-dRwPu9789NUOQR0ut4PS7561plmvqfw+rhzvw1qGrKf6ByoULqfGnqGGKLJrr+PedfKnoiU/YEq18NKZpGymQg==";
+        };
     in {
         "of1ORk84" = _of1ORk84;
         "mKiGBz7A" = _mKiGBz7A;
@@ -1298,6 +1303,7 @@ let
         "Bj7WrQZY" = _Bj7WrQZY;
         "m51OXj2s" = _m51OXj2s;
         "6gfWLZmn" = _6gfWLZmn;
+        "43loegS8" = _43loegS8;
         "fabric-1.15.2" = _of1ORk84;
         "fabric-1.16.2" = _aiEB27mU;
         "fabric-1.16.3" = _aiEB27mU;
@@ -1348,6 +1354,7 @@ let
         "fabric-26.3-snapshot-8" = _Bgc7doc8;
         "fabric-26.3-snapshot-10" = _mJtD0elR;
         "fabric-26.3" = _Bj7WrQZY;
+        "fabric-26.4-snapshot-5" = _43loegS8;
         "forge-1.15.2" = _mKiGBz7A;
         "forge-1.16.2" = _HIWkm2nf;
         "forge-1.16.3" = _HIWkm2nf;
@@ -1474,8 +1481,8 @@ let
         "pkg-2.1.0" = _pUxvYXjL;
         "pkg-2.1.2" = _kysOyOyB;
         "pkg-2.1.3" = _LTHxlBmf;
-        "pkg-2.1.4" = _6gfWLZmn;
-        "default" = _6gfWLZmn;
+        "pkg-2.1.4" = _43loegS8;
+        "default" = _43loegS8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mcwifipnp";

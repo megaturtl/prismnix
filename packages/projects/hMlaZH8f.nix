@@ -5491,6 +5491,21 @@ let
             "file" = "sophisticatedstorage-1.21.1-1.6.7.2184.jar";
             "hash" = "sha512-O6z2DZk/tj3UN68EfTkuRS8Sah88LsIn4DRptFe9ehXWOPnwdv767sVwXQ5iuSPhvyAqqf1SiLVcOB7MP14KbA==";
         };
+        _Km4c0H4T = {
+            "id" = "Km4c0H4T";
+            "file" = "sophisticatedstorage-26.2-1.5.123.2188.jar";
+            "hash" = "sha512-ZX7NGJwif0q8oEHCfodj8UDJS/FzakUxMUMOMeYx8nqb7XuBOcFtLv50ltQTUwKjRVtKsDT0WgtbEMs4cEJ0Pg==";
+        };
+        _GeltrI5C = {
+            "id" = "GeltrI5C";
+            "file" = "sophisticatedstorage-26.3-1.5.124.2189.jar";
+            "hash" = "sha512-iF63tyLVLQjeyhhKm5Evlm18SIcd85a7v878yCF7RuTwM/e2GVGsrw6SKe/Nhgjm5jVwkRI/tWTCDg6hdfpixg==";
+        };
+        _PepDmBFR = {
+            "id" = "PepDmBFR";
+            "file" = "sophisticatedstorage-26.1.2-1.5.123.2190.jar";
+            "hash" = "sha512-zY1WInLdIqlEnQxcCEQ9XlaBB6+8pBmueiOesfu6mN+RceBHi4otwR7fuDGAeTE6cGYZys/zx6/rbLPPtekcaA==";
+        };
     in {
         "DPn8eRTh" = _DPn8eRTh;
         "RXe8DxOX" = _RXe8DxOX;
@@ -6590,6 +6605,9 @@ let
         "JPdG6yYD" = _JPdG6yYD;
         "vFpp1Lw7" = _vFpp1Lw7;
         "6B0lbqeG" = _6B0lbqeG;
+        "Km4c0H4T" = _Km4c0H4T;
+        "GeltrI5C" = _GeltrI5C;
+        "PepDmBFR" = _PepDmBFR;
         "neoforge-1.21" = _E1mq466c;
         "neoforge-1.21.1" = _6B0lbqeG;
         "neoforge-1.20.1" = _vFpp1Lw7;
@@ -6600,9 +6618,9 @@ let
         "neoforge-1.21.11" = _Y6cTQFva;
         "neoforge-26.1" = _WXpGSu2r;
         "neoforge-26.1.1" = _WXpGSu2r;
-        "neoforge-26.1.2" = _zggA8ls7;
-        "neoforge-26.2" = _JPdG6yYD;
-        "neoforge-26.3" = _vbyKOzIR;
+        "neoforge-26.1.2" = _PepDmBFR;
+        "neoforge-26.2" = _Km4c0H4T;
+        "neoforge-26.3" = _GeltrI5C;
         "forge-1.20.1" = _vFpp1Lw7;
         "forge-1.18.2" = _6JKSnOXi;
         "forge-1.19.2" = _CaDoXF6o;
@@ -7703,7 +7721,10 @@ let
         "pkg-26.2-1.5.122.2186" = _JPdG6yYD;
         "pkg-1.20.1-1.5.6.2183" = _vFpp1Lw7;
         "pkg-1.21.1-1.6.7.2184" = _6B0lbqeG;
-        "default" = _6B0lbqeG;
+        "pkg-26.2-1.5.123.2188" = _Km4c0H4T;
+        "pkg-26.3-1.5.124.2189" = _GeltrI5C;
+        "pkg-26.1.2-1.5.123.2190" = _PepDmBFR;
+        "default" = _PepDmBFR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sophisticated-storage";

@@ -306,6 +306,46 @@ let
             "file" = "chatbox-1.1.5.1+1.20.1-forge.jar";
             "hash" = "sha512-cSe+fTxkRZljRIB6Yky7uIhl461o1yNgPKFztK80jxzmgGOvQBinWjoA/p7KQSceYB4PqZT2MYWpw7+3iAiO4g==";
         };
+        _dQ2ePGxK = {
+            "id" = "dQ2ePGxK";
+            "file" = "chatbox-neoforge-1.21.1-1.1.6beta.jar";
+            "hash" = "sha512-NPZAQJQOrgCXQkn50HU573Kdckge6j1m92NFF6p15MUMxzi+9aQxvdFTOREH4YiCoZ0svqwP+tRuBUgg5Ip8Jg==";
+        };
+        _A9yw2npL = {
+            "id" = "A9yw2npL";
+            "file" = "chatbox-1.1.6beta+1.20.1-fabric.jar";
+            "hash" = "sha512-3tIbW8TGS9NSp7qunOGbEQ5Vc+Nl3dkh5UwqPQ/KpaTHS0Z4dK4xTXnK0lWlCxNLz6A0q8dDSIRa47xaX7qHQA==";
+        };
+        _zXIhk3fH = {
+            "id" = "zXIhk3fH";
+            "file" = "chatbox-1.1.6beta+1.20.1-forge.jar";
+            "hash" = "sha512-1g2J5SkIPLubQxmR5sDeJE4OfEZi4Udeu/Yh9GZRaBmZ0HqxQjMHWqraI7eQxLgTg2UetXyvA9ZSJI26DuF3dw==";
+        };
+        _z8DiM6e7 = {
+            "id" = "z8DiM6e7";
+            "file" = "chatbox-1.1.6beta+1.21-fabric.jar";
+            "hash" = "sha512-GGFBhE/sz1cfjmTkBGnWAb7jUXR4CAfEpyu/6b4aZtezgEtwpgO52P2gUe9WUQbY7g2LL3kQdo3doRg/T/oUrg==";
+        };
+        _AFCwtg0S = {
+            "id" = "AFCwtg0S";
+            "file" = "chatbox-1.1.6.1beta+1.20.1-fabric.jar";
+            "hash" = "sha512-5+iQXMfodrqh0MhYy1SaROkqB6ofnJ80Akt2n+mQUWfXi0gBzhJDrvQ8Dbo8qKNPKRsW4lz+2iN9LsQl/zpxkA==";
+        };
+        _YfsmB1Xa = {
+            "id" = "YfsmB1Xa";
+            "file" = "chatbox-1.1.6.1beta+1.20.1-forge.jar";
+            "hash" = "sha512-paIDZjQzwb5To8//zWgMEKQuiybaLhFO2oxAIX+TNeMiB32mDbnngyHz7Wyj/yggzcO9kcxfjsHyLxaVyCYKgg==";
+        };
+        _wfjHxQok = {
+            "id" = "wfjHxQok";
+            "file" = "chatbox-1.1.6.1beta+1.21-fabric.jar";
+            "hash" = "sha512-7BlYF6dHP9ira9N+1l6QhejbyZ9EYmuEq4/ylEKL1+Y3890G4NjYEYSKQxYxcLG0CxJD/TaSkUzpZeuCAxJSJA==";
+        };
+        _SrMLcfNy = {
+            "id" = "SrMLcfNy";
+            "file" = "chatbox-neoforge-1.21.1-1.1.6.1beta.jar";
+            "hash" = "sha512-8PprOuLrYGFZ/g9wPqAAqAReOwkJltmOw8ymNevLW7e599ZFS7/NpULdJvi9DqF6a7pLI6dLpmb/+1grXwCn1A==";
+        };
     in {
         "h3TmChmM" = _h3TmChmM;
         "rkmzAshI" = _rkmzAshI;
@@ -368,19 +408,27 @@ let
         "PLusNlz1" = _PLusNlz1;
         "K1bvUhzl" = _K1bvUhzl;
         "6I9ZDd2R" = _6I9ZDd2R;
+        "dQ2ePGxK" = _dQ2ePGxK;
+        "A9yw2npL" = _A9yw2npL;
+        "zXIhk3fH" = _zXIhk3fH;
+        "z8DiM6e7" = _z8DiM6e7;
+        "AFCwtg0S" = _AFCwtg0S;
+        "YfsmB1Xa" = _YfsmB1Xa;
+        "wfjHxQok" = _wfjHxQok;
+        "SrMLcfNy" = _SrMLcfNy;
         "neoforge-1.21" = _SlRkkPkk;
-        "neoforge-1.21.1" = _2p8wreOu;
+        "neoforge-1.21.1" = _SrMLcfNy;
         "neoforge-1.21.11" = _G5NzfR95;
         "neoforge-26.1.2" = _Yq9FO2dP;
         "neoforge-26.3" = _fmOEfBpD;
-        "fabric-1.21" = _PLusNlz1;
+        "fabric-1.21" = _wfjHxQok;
         "fabric-1.21.1" = _PLusNlz1;
         "fabric-1.21.8" = _VaFVk85c;
-        "fabric-1.20.1" = _K1bvUhzl;
+        "fabric-1.20.1" = _AFCwtg0S;
         "fabric-1.21.11" = _glUuGban;
         "fabric-26.1.2" = _Yq9FO2dP;
         "fabric-26.3" = _fmOEfBpD;
-        "forge-1.20.1" = _6I9ZDd2R;
+        "forge-1.20.1" = _YfsmB1Xa;
         "pkg-1.0.0" = _h3TmChmM;
         "pkg-1.0.1" = _rkmzAshI;
         "pkg-1.0.2" = _yyAMsZeH;
@@ -430,7 +478,15 @@ let
         "pkg-1.1.5.1-fabric-1.21" = _PLusNlz1;
         "pkg-1.1.5.1-fabric-1.20.1" = _K1bvUhzl;
         "pkg-1.1.5.1-forge-1.20.1" = _6I9ZDd2R;
-        "default" = _6I9ZDd2R;
+        "pkg-1.1.6beta-neoforge-1.21.1" = _dQ2ePGxK;
+        "pkg-1.1.6beta-fabric-1.20.1" = _A9yw2npL;
+        "pkg-1.1.6beta-forge-1.20.1" = _zXIhk3fH;
+        "pkg-1.1.6beta-fabric-1.21" = _z8DiM6e7;
+        "pkg-1.1.6.1beta-fabric-1.20.1" = _AFCwtg0S;
+        "pkg-1.1.6.1beta-forge-1.20.1" = _YfsmB1Xa;
+        "pkg-1.1.6.1beta-fabric-1.21" = _wfjHxQok;
+        "pkg-1.1.6.1beta-neoforge-1.21.1" = _SrMLcfNy;
+        "default" = _SrMLcfNy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chatbox";

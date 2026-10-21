@@ -51,6 +51,46 @@ let
             "file" = "ender_potions-1.1.0+1.21.4.jar";
             "hash" = "sha512-9V1lPaBRstgDJmLNoQZrCcFi7b2ubfvWOf6badn9mXrpBeyPsuOsDlTXTzGe2cCLav8ZoUt2p1C8skfhY7kr2g==";
         };
+        _BdBgFGRC = {
+            "id" = "BdBgFGRC";
+            "file" = "ender_potions-neoforge-2.0.0+26.3.jar";
+            "hash" = "sha512-IlGPoRC5O9IFZ7F3G6l0ogFHLRqaWq4fFa46mxJ4WeD3XOqMbyIbKrgt3PZe0mxU7VUh/c5uvPt1np9uESEDPw==";
+        };
+        _YQgPL3p2 = {
+            "id" = "YQgPL3p2";
+            "file" = "ender_potions-neoforge-2.0.0+26.2.jar";
+            "hash" = "sha512-n3zrCu2682fLRd59MTIbJCmyEtqT9CoX9iW72B/tu01uGCV9hU+em14cWNfy67UWv1Iax+GRcCobYk/DSQwPdQ==";
+        };
+        _wEA4XUZR = {
+            "id" = "wEA4XUZR";
+            "file" = "ender_potions-neoforge-2.0.0+26.1.2.jar";
+            "hash" = "sha512-HSAIrbjA5+qQI5MlLN2Puig87RBPuq++8p+AxhBizd+iYOG/8u6G4k1xNT+/fFOFK+i1N6h8s/JyZbMoyXVNZQ==";
+        };
+        _DoBT6873 = {
+            "id" = "DoBT6873";
+            "file" = "ender_potions-neoforge-2.0.0+1.21.1.jar";
+            "hash" = "sha512-VJMeq27EKBs1t9PlrbLbkXtvvtPIvGrqmOszol8sM6qha+dkP57TXxkeIB7gQ9teQJMX+hTjllwaL4ZaP6E21g==";
+        };
+        _ZmRp437N = {
+            "id" = "ZmRp437N";
+            "file" = "ender_potions-fabric-2.0.0+26.3.jar";
+            "hash" = "sha512-+Xux5hgKGl3e2i37bgdbAnFj8XN0vJb9oQUTzOhRFSgKL5Mksu/4mT4U1POkap+/gsX5sBoRVaVOfKfPMR6rvg==";
+        };
+        _yBMuwyTR = {
+            "id" = "yBMuwyTR";
+            "file" = "ender_potions-fabric-2.0.0+26.1.2.jar";
+            "hash" = "sha512-l8vukpZ+xciS97IVAXoVKsF0l/whudet3n+zthiqNjK1RgERXqJrr4XCtx1BhTares/RJw29tGhsMyIrp0Do5w==";
+        };
+        _TKZMwkvM = {
+            "id" = "TKZMwkvM";
+            "file" = "ender_potions-fabric-2.0.0+1.21.1.jar";
+            "hash" = "sha512-1m8IcZ9xUxoqdhsUnqid4h0rXRft+KvPUVrqfCNOvhw4XACzHiEfPOxwl1hZ1B90fP5mgjj66ufc8l2ohzjBsg==";
+        };
+        _C0X00BbA = {
+            "id" = "C0X00BbA";
+            "file" = "ender_potions-fabric-2.0.0+26.2.jar";
+            "hash" = "sha512-+SnEFa2CzWaAxMs7BVAVxpUL/wpilDRKWlLtDY7qdYMeDn0BGdh641RZi534qK0rXa04jscrCJx09/y0AuNycg==";
+        };
     in {
         "z5mzEHeU" = _z5mzEHeU;
         "qUpJJaSa" = _qUpJJaSa;
@@ -62,19 +102,41 @@ let
         "gXEJDJjl" = _gXEJDJjl;
         "WBcVqReI" = _WBcVqReI;
         "F0QXSNkX" = _F0QXSNkX;
-        "fabric-1.21" = _z5mzEHeU;
-        "fabric-1.21.1" = _Y0cAR8dT;
+        "BdBgFGRC" = _BdBgFGRC;
+        "YQgPL3p2" = _YQgPL3p2;
+        "wEA4XUZR" = _wEA4XUZR;
+        "DoBT6873" = _DoBT6873;
+        "ZmRp437N" = _ZmRp437N;
+        "yBMuwyTR" = _yBMuwyTR;
+        "TKZMwkvM" = _TKZMwkvM;
+        "C0X00BbA" = _C0X00BbA;
+        "fabric-1.21" = _TKZMwkvM;
+        "fabric-1.21.1" = _TKZMwkvM;
         "fabric-1.21.4" = _gXEJDJjl;
-        "neoforge-1.21" = _vTtDBphJ;
-        "neoforge-1.21.1" = _WBcVqReI;
+        "fabric-26.3" = _ZmRp437N;
+        "fabric-26.1" = _yBMuwyTR;
+        "fabric-26.1.1" = _yBMuwyTR;
+        "fabric-26.1.2" = _yBMuwyTR;
+        "fabric-26.2" = _C0X00BbA;
+        "neoforge-1.21" = _DoBT6873;
+        "neoforge-1.21.1" = _DoBT6873;
         "neoforge-1.21.4" = _F0QXSNkX;
+        "neoforge-26.3" = _BdBgFGRC;
+        "neoforge-26.2" = _YQgPL3p2;
+        "neoforge-26.1" = _wEA4XUZR;
+        "neoforge-26.1.1" = _wEA4XUZR;
+        "neoforge-26.1.2" = _wEA4XUZR;
         "pkg-1.0.0+1.21.1" = _uon22Xdj;
         "pkg-1.0.0+1.21.4" = _DZbY6EAa;
         "pkg-1.0.1+1.21.1" = _vTtDBphJ;
         "pkg-1.0.1+1.21.4" = _E2urVfOZ;
         "pkg-1.1.0+1.21.1" = _WBcVqReI;
         "pkg-1.1.0+1.21.4" = _F0QXSNkX;
-        "default" = _F0QXSNkX;
+        "pkg-2.0.0+26.3" = _ZmRp437N;
+        "pkg-2.0.0+26.2" = _C0X00BbA;
+        "pkg-2.0.0+26.1.2" = _yBMuwyTR;
+        "pkg-2.0.0+1.21.1" = _TKZMwkvM;
+        "default" = _C0X00BbA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ender-potions";

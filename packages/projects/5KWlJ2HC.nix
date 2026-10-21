@@ -241,6 +241,16 @@ let
             "file" = "MoreCobblemonTweaks-fabric-1.3.5.jar";
             "hash" = "sha512-Lf45RvKV00aBQMMrva8yk6M8i4SQHNe4bWbNc4dbIoJ2W9HR54isnI0p46t9z5b0y9LF91KDiWKJ5S3tUckl8A==";
         };
+        _M790FsW7 = {
+            "id" = "M790FsW7";
+            "file" = "MoreCobblemonTweaks-neoforge-1.3.6.jar";
+            "hash" = "sha512-Ddb1Y7yUdN1+Y+o/VHqv9S20EMXElxKT8PS+vgvTiyugqi37W4rqJLE9PrhbVAK7EzSsGTNMXUYfdMq+GeQGvQ==";
+        };
+        _g4m18yE2 = {
+            "id" = "g4m18yE2";
+            "file" = "MoreCobblemonTweaks-fabric-1.3.6.jar";
+            "hash" = "sha512-2Z/pi3Qe0gnSU3xExp/v2IhJCFnnHy6lfjsXCAPT2OVxb5BPP3Ak8fbo/ZX4L8rEL2yXpj+2BH9QCuFEfB9pKw==";
+        };
     in {
         "yFHIkD3A" = _yFHIkD3A;
         "RgtGnShe" = _RgtGnShe;
@@ -290,9 +300,11 @@ let
         "tzXJpwG8" = _tzXJpwG8;
         "sNu0sTvk" = _sNu0sTvk;
         "j4HsonDT" = _j4HsonDT;
+        "M790FsW7" = _M790FsW7;
+        "g4m18yE2" = _g4m18yE2;
         "fabric-1.20.1" = _UYr6G7VK;
-        "fabric-1.21.1" = _j4HsonDT;
-        "neoforge-1.21.1" = _sNu0sTvk;
+        "fabric-1.21.1" = _g4m18yE2;
+        "neoforge-1.21.1" = _M790FsW7;
         "pkg-v0.1.0" = _yFHIkD3A;
         "pkg-v0.1.1" = _RgtGnShe;
         "pkg-v0.1.2" = _pN8PE3HQ;
@@ -341,7 +353,9 @@ let
         "pkg-1.3.4-fabric" = _tzXJpwG8;
         "pkg-1.3.5-neoforge" = _sNu0sTvk;
         "pkg-1.3.5-fabric" = _j4HsonDT;
-        "default" = _j4HsonDT;
+        "pkg-1.3.6-neoforge" = _M790FsW7;
+        "pkg-1.3.6-fabric" = _g4m18yE2;
+        "default" = _g4m18yE2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-cobblemon-tweaks";

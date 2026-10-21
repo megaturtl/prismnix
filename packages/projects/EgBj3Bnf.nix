@@ -336,6 +336,41 @@ let
             "file" = "timm-1.1.2-1.21.11.jar";
             "hash" = "sha512-v9sKxxfU/G5kTU3W8jiX+4l7rnZovIOqNr8MAHoGHBbgVR5DOlwdvrORCKmynWX4pBCon+c1c09847ccnJTApA==";
         };
+        _EFCHmFUM = {
+            "id" = "EFCHmFUM";
+            "file" = "timm-1.1.3-1.21.1.jar";
+            "hash" = "sha512-6LqWzc+nGIRwbilxTXi8CeoLQqx1JW4Qg1HGmdDrvLODS0HAsnI+vxJYkz0QqkhEv3GcE0/wzQUyn8+M/1uHaQ==";
+        };
+        _uBBa2bMO = {
+            "id" = "uBBa2bMO";
+            "file" = "timm-1.1.3-26.3.jar";
+            "hash" = "sha512-5aWHvoT76RdY3HC1NJGLB/shd9t/NrK44yszEmce6818YCnauWOqUUrNZCc0Q90vtByydhePClP7d6QpjkM/gQ==";
+        };
+        _HQX93wmP = {
+            "id" = "HQX93wmP";
+            "file" = "timm-1.1.3-1.20.1.jar";
+            "hash" = "sha512-U/LdhNfuNRmUV4LayiOK3JCJo/ecXaMaLlh2Vep9vDV3uI5N6IGadYWSDaCBdqG96lTpT5Xqmx1W1dygERkY0w==";
+        };
+        _VT9eQFmR = {
+            "id" = "VT9eQFmR";
+            "file" = "timm-1.1.3-26.1.2.jar";
+            "hash" = "sha512-fY3IsaXm15iF2NfQsj9iP89m93WIVWgCXYQ+7yxIAWWPyrssX6384ennpZ29ZxETif1yD5ww78dEs0tSZK14zA==";
+        };
+        _umlR9tbj = {
+            "id" = "umlR9tbj";
+            "file" = "timm-1.1.3-26.2.jar";
+            "hash" = "sha512-CVc566Hp/D37D1JTPddLZIx9yt5ZTKBQ61wrQIwGWqK8TYfrkS5CojXieY3hWd88tQUWM+p8vlRDOGiOhYJtIA==";
+        };
+        _Shoilc2v = {
+            "id" = "Shoilc2v";
+            "file" = "timm-1.1.3-1.21.3.jar";
+            "hash" = "sha512-sS6230eBAtujnE38y5uwfxirtozWv2dwxe+2wpte4U7+rJ10Vk5kw/j/TpOk/d9O9Sc4m4VV2hcx/9gdkNIHjQ==";
+        };
+        _P3rynDZu = {
+            "id" = "P3rynDZu";
+            "file" = "timm-1.1.3-1.21.11.jar";
+            "hash" = "sha512-APoMQ55z9N4L7RKsxPEntr+COP94mnnWYYH5TphB6KoHkQG/2f2Rsdm/tV0Wbj2suH7mnDZT1vXwEbLNePyXmQ==";
+        };
     in {
         "j03rOCu9" = _j03rOCu9;
         "sElxQQeo" = _sElxQQeo;
@@ -404,29 +439,41 @@ let
         "WjJuedsU" = _WjJuedsU;
         "KcBhm4yr" = _KcBhm4yr;
         "VTzD4nm5" = _VTzD4nm5;
-        "fabric-1.20.4" = _4KflZCmG;
-        "fabric-1.20.1" = _4KflZCmG;
-        "fabric-1.20.2" = _4KflZCmG;
+        "EFCHmFUM" = _EFCHmFUM;
+        "uBBa2bMO" = _uBBa2bMO;
+        "HQX93wmP" = _HQX93wmP;
+        "VT9eQFmR" = _VT9eQFmR;
+        "umlR9tbj" = _umlR9tbj;
+        "Shoilc2v" = _Shoilc2v;
+        "P3rynDZu" = _P3rynDZu;
+        "fabric-1.20.4" = _HQX93wmP;
+        "fabric-1.20.1" = _HQX93wmP;
+        "fabric-1.20.2" = _HQX93wmP;
         "fabric-1.19.2" = _D31DO4vL;
         "fabric-1.18.2" = _3F2VwYez;
         "fabric-1.19.4" = _ROp5JkZs;
         "fabric-1.20.5" = _kdFAmnGI;
         "fabric-1.20.6" = _kdFAmnGI;
-        "fabric-1.21" = _WjJuedsU;
-        "fabric-1.21.1" = _WjJuedsU;
-        "fabric-1.21.2" = _KcBhm4yr;
-        "fabric-1.21.3" = _KcBhm4yr;
+        "fabric-1.21" = _EFCHmFUM;
+        "fabric-1.21.1" = _EFCHmFUM;
+        "fabric-1.21.2" = _Shoilc2v;
+        "fabric-1.21.3" = _Shoilc2v;
         "fabric-1.21.4" = _MMi1gaCn;
         "fabric-1.21.5" = _RnwQi6p9;
         "fabric-1.19.3" = _ROp5JkZs;
-        "fabric-1.20" = _4KflZCmG;
-        "fabric-1.20.3" = _4KflZCmG;
+        "fabric-1.20" = _HQX93wmP;
+        "fabric-1.20.3" = _HQX93wmP;
         "fabric-1.21.6" = _4SyMDPAZ;
         "fabric-1.21.7" = _4SyMDPAZ;
         "fabric-1.21.8" = _4SyMDPAZ;
         "fabric-1.21.9" = _9QJ4svD4;
         "fabric-1.21.10" = _9QJ4svD4;
-        "fabric-1.21.11" = _VTzD4nm5;
+        "fabric-1.21.11" = _P3rynDZu;
+        "fabric-26.3" = _uBBa2bMO;
+        "fabric-26.1" = _VT9eQFmR;
+        "fabric-26.1.1" = _VT9eQFmR;
+        "fabric-26.1.2" = _VT9eQFmR;
+        "fabric-26.2" = _umlR9tbj;
         "forge-1.20.1" = _jTRnWsbx;
         "forge-1.20.2" = _ojNojLDi;
         "forge-1.20.3" = _gUO8ftmV;
@@ -467,7 +514,14 @@ let
         "pkg-1.1.0" = _TXsv6WEY;
         "pkg-1.1.1" = _SuHt7spd;
         "pkg-1.1.2" = _VTzD4nm5;
-        "default" = _VTzD4nm5;
+        "pkg-1.1.3-1.21.1" = _EFCHmFUM;
+        "pkg-1.1.3-26.3" = _uBBa2bMO;
+        "pkg-1.1.3-1.20.1" = _HQX93wmP;
+        "pkg-1.1.3-26.1.2" = _VT9eQFmR;
+        "pkg-1.1.3-26.2" = _umlR9tbj;
+        "pkg-1.1.3-1.21.3" = _Shoilc2v;
+        "pkg-1.1.3-1.21.11" = _P3rynDZu;
+        "default" = _P3rynDZu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immersivemusicmod";

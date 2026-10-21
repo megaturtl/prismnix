@@ -231,6 +231,26 @@ let
             "file" = "Valoria-1.21.1-1.1.0.2.jar";
             "hash" = "sha512-KGJI8ia95QXfosy/StYvF85x13iPbTvVhHsjzd4ahjwc3jRG0ALZ8AyqpGw35Yz2WwtikXLecM1+XrKeBiSZjQ==";
         };
+        _IB4TE3Lm = {
+            "id" = "IB4TE3Lm";
+            "file" = "Valoria-1.21.1-1.1.0.3.jar";
+            "hash" = "sha512-zCU0qBjqLvPU2IEMBU4RAspy+6x85D1fhLwH/ICeGViu7CUQwkujNCQzmx7ZVM9aHGaaQb6JNnvUMw49Jhnvmg==";
+        };
+        _wUuC79PI = {
+            "id" = "wUuC79PI";
+            "file" = "Valoria-1.20.1-1.1.0.3.jar";
+            "hash" = "sha512-DksiNfh8mEuWdLvLUmLnFeJuYeYjNdDxrmPJOPKigbYIrbkQ0+n4ApYtWUFJ0DZ55tS0LjOrdfEJ1YyNK0iafQ==";
+        };
+        _6Tg1UBn1 = {
+            "id" = "6Tg1UBn1";
+            "file" = "Valoria-1.21.1-1.1.0.4.jar";
+            "hash" = "sha512-OsEN4ubkCzDNiCRfG+Gsv/La3fTg4aCym6WqAWtVNskTli4G5VG3hJwa6OwzQh8gT8TFLNXDSvkl+j6z6Seamw==";
+        };
+        _vE9RXGVL = {
+            "id" = "vE9RXGVL";
+            "file" = "Valoria-1.20.1-1.1.0.4.jar";
+            "hash" = "sha512-8Lg81/IRCwKcv4kACMaUF5ZpxI+CCZC7+Cw3pm5wWLkZIh4sinArDFBqLmTjY+oMOVYk3W3MlI2TSI1Dzn1L3g==";
+        };
     in {
         "u6jTU6lR" = _u6jTU6lR;
         "UcGAO5D7" = _UcGAO5D7;
@@ -278,7 +298,11 @@ let
         "ROOi5uTd" = _ROOi5uTd;
         "bs57GQAc" = _bs57GQAc;
         "NDbxWEf5" = _NDbxWEf5;
-        "forge-1.20.1" = _bs57GQAc;
+        "IB4TE3Lm" = _IB4TE3Lm;
+        "wUuC79PI" = _wUuC79PI;
+        "6Tg1UBn1" = _6Tg1UBn1;
+        "vE9RXGVL" = _vE9RXGVL;
+        "forge-1.20.1" = _vE9RXGVL;
         "forge-1.20" = _34vtTYLH;
         "forge-1.20.2" = _WSyzDBbV;
         "forge-1.20.3" = _WSyzDBbV;
@@ -291,7 +315,7 @@ let
         "neoforge-1.20.4" = _VFHEpbo2;
         "neoforge-1.20.5" = _VFHEpbo2;
         "neoforge-1.20.6" = _VFHEpbo2;
-        "neoforge-1.21.1" = _NDbxWEf5;
+        "neoforge-1.21.1" = _6Tg1UBn1;
         "pkg-0.5.0.1b" = _u6jTU6lR;
         "pkg-0.5.0.1bf" = _UcGAO5D7;
         "pkg-0.5.1_b" = _AbWkkoid;
@@ -338,7 +362,11 @@ let
         "pkg-1.21.1-1.1.0.1" = _ROOi5uTd;
         "pkg-1.20.1-1.1.0.1" = _bs57GQAc;
         "pkg-1.21.1-1.1.0.2" = _NDbxWEf5;
-        "default" = _NDbxWEf5;
+        "pkg-1.21.1-1.1.0.3" = _IB4TE3Lm;
+        "pkg-1.20.1-1.1.0.3" = _wUuC79PI;
+        "pkg-1.21.1-1.1.0.4" = _6Tg1UBn1;
+        "pkg-1.20.1-1.1.0.4" = _vE9RXGVL;
+        "default" = _vE9RXGVL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "valoria";

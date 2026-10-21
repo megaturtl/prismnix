@@ -566,6 +566,16 @@ let
             "file" = "cobblemonraiddens-neoforge-0.13.3+1.21.1.jar";
             "hash" = "sha512-RfyRGtM9fmX/eqZHw0WG4b5nmVlTlyOmqVqkWJPNB8fDRdg3XqbcJmbQy3DPjygqt7Ey3+iUlc7FJ5sCIV/5Vg==";
         };
+        _1Qqxt55J = {
+            "id" = "1Qqxt55J";
+            "file" = "cobblemonraiddens-fabric-0.13.4+1.21.1.jar";
+            "hash" = "sha512-DUpFSn2UjMEJVEOSCbDoyT32ikJIsOwKpSrG0UZ12ols8kBKtjVknVehMqL0VEvXMCl7FqiKjoQjLjnofr2YSA==";
+        };
+        _LWL8Dlw8 = {
+            "id" = "LWL8Dlw8";
+            "file" = "cobblemonraiddens-neoforge-0.13.4+1.21.1.jar";
+            "hash" = "sha512-YIOvsTMsefGAHjgl8tV37AX5lJSJ0hvBYRYh5xrRQtxUZabFe6hn1pJiQRH3WmhIZtifIYZ1jzKr2yeZ89JAVA==";
+        };
     in {
         "TA26XHgo" = _TA26XHgo;
         "FuKSO9xD" = _FuKSO9xD;
@@ -680,8 +690,10 @@ let
         "fsS4FhP4" = _fsS4FhP4;
         "Qo7QOJv0" = _Qo7QOJv0;
         "XzLyoC2V" = _XzLyoC2V;
-        "fabric-1.21.1" = _Qo7QOJv0;
-        "neoforge-1.21.1" = _XzLyoC2V;
+        "1Qqxt55J" = _1Qqxt55J;
+        "LWL8Dlw8" = _LWL8Dlw8;
+        "fabric-1.21.1" = _1Qqxt55J;
+        "neoforge-1.21.1" = _LWL8Dlw8;
         "pkg-0.3.0+1.21.1" = _FuKSO9xD;
         "pkg-0.3.2+1.21.1" = _c1ptr2i7;
         "pkg-0.3.3+1.21.1" = _a2v4f4w2;
@@ -739,7 +751,8 @@ let
         "pkg-0.13.1+1.21.1" = _WZICOdyS;
         "pkg-0.13.2+1.21.1" = _fsS4FhP4;
         "pkg-0.13.3+1.21.1" = _XzLyoC2V;
-        "default" = _XzLyoC2V;
+        "pkg-0.13.4+1.21.1" = _LWL8Dlw8;
+        "default" = _LWL8Dlw8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemonraiddens";

@@ -76,6 +76,21 @@ let
             "file" = "ProxySwitcher-Forge-2.0.0+1.16.5.jar";
             "hash" = "sha512-VHp48cXXD/ndBNQEE3zgQTDyA8igm+wm7f+QLBEoykBhqd3Ykb/GRTm2QEVM3EPdFna7lElI0w9t7/Zjaqzn5g==";
         };
+        _MK8YQcjW = {
+            "id" = "MK8YQcjW";
+            "file" = "ProxySwitcher-2.0.0+26.1.jar";
+            "hash" = "sha512-4h+lnNHvzzPWiOqWuR6CF8EghpnmrJB1vMJBJKrfS0fHTmmc6oqzxOFVxNgofkQVL+8L69K7lxAmzu7SYRtwOw==";
+        };
+        _qV4M8imF = {
+            "id" = "qV4M8imF";
+            "file" = "ProxySwitcher-2.0.0+26.2.jar";
+            "hash" = "sha512-wWX4SEJhY/+smVh+1bpeF9r/GR9SSQ5lA/GGsU+8t/TNpa36B/2ZgLb0t2jQgXLuKvJpx5RrIHFa87tf/EokhA==";
+        };
+        _35QQM5G2 = {
+            "id" = "35QQM5G2";
+            "file" = "ProxySwitcher-2.0.0+26.3.jar";
+            "hash" = "sha512-v0ZihDCD8JFBMctM//eOMlgzFfVemTbrowUl5QarCeOUqM7LVE/J3eIlmiXYOadIr8IPeVqO0nxGjU6PiX/6Ng==";
+        };
     in {
         "zg0ZiWOv" = _zg0ZiWOv;
         "oOCUCUeZ" = _oOCUCUeZ;
@@ -92,12 +107,20 @@ let
         "ouC9oytq" = _ouC9oytq;
         "QSHQcMn4" = _QSHQcMn4;
         "eDDfHGL5" = _eDDfHGL5;
+        "MK8YQcjW" = _MK8YQcjW;
+        "qV4M8imF" = _qV4M8imF;
+        "35QQM5G2" = _35QQM5G2;
         "fabric-1.16.5" = _yllWOHTw;
         "fabric-1.19.4" = _Yd4Kql4o;
         "fabric-1.20.1" = _C4xP4fCG;
         "fabric-1.21.4" = _SyHvJpRO;
         "fabric-1.21.8" = _ouC9oytq;
         "fabric-1.21.11" = _QSHQcMn4;
+        "fabric-26.1" = _MK8YQcjW;
+        "fabric-26.1.1" = _MK8YQcjW;
+        "fabric-26.1.2" = _MK8YQcjW;
+        "fabric-26.2" = _qV4M8imF;
+        "fabric-26.3" = _35QQM5G2;
         "forge-1.16.5" = _eDDfHGL5;
         "pkg-1.0.0+1.16.5" = _zg0ZiWOv;
         "pkg-1.0.0+1.19.4" = _oOCUCUeZ;
@@ -113,7 +136,10 @@ let
         "pkg-2.0.0+1.21.4" = _SyHvJpRO;
         "pkg-2.0.0+1.21.8" = _ouC9oytq;
         "pkg-2.0.0+1.21.11" = _QSHQcMn4;
-        "default" = _eDDfHGL5;
+        "pkg-2.0.0+26.1" = _MK8YQcjW;
+        "pkg-2.0.0+26.2" = _qV4M8imF;
+        "pkg-2.0.0+26.3" = _35QQM5G2;
+        "default" = _35QQM5G2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "proxyswitcher";

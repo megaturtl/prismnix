@@ -71,6 +71,11 @@ let
             "file" = "cuteorigins-1.0.8-ALPHA.jar";
             "hash" = "sha512-5qUiOcT41t/1yNC9zx3RZ05MwXgUj8NPkcAqw1cju5kst4lk7nANO0NFpNMeFEoSnOqRQsqTjFrkxme7nnM/yA==";
         };
+        _zyqm7HiM = {
+            "id" = "zyqm7HiM";
+            "file" = "cuteorigins-1.1.0-ALPHA.jar";
+            "hash" = "sha512-r3EkGWLHD3OWOM6RimHlam4itozKTbYKhojP1kwk8QFvfNojzwfQnUwlWDa25Gj9cOieOSt1zjzUT+fnkFwUkw==";
+        };
     in {
         "xDYrJQl8" = _xDYrJQl8;
         "SGu9ojjW" = _SGu9ojjW;
@@ -86,6 +91,7 @@ let
         "WmczBWTs" = _WmczBWTs;
         "TRpUkKtB" = _TRpUkKtB;
         "GZduDpMN" = _GZduDpMN;
+        "zyqm7HiM" = _zyqm7HiM;
         "fabric-1.21.4" = _4Oxxl7xh;
         "fabric-1.21.5" = _4u8GGGZx;
         "fabric-1.21.6" = _xcPTAEXh;
@@ -98,6 +104,7 @@ let
         "fabric-26.1.1" = _TRpUkKtB;
         "fabric-26.1.2" = _TRpUkKtB;
         "fabric-26.2" = _GZduDpMN;
+        "fabric-26.3" = _zyqm7HiM;
         "pkg-1.0" = _xDYrJQl8;
         "pkg-1.0.1" = _SGu9ojjW;
         "pkg-1.0.2-ALPHA" = _YrQhaaLU;
@@ -107,7 +114,8 @@ let
         "pkg-1.0.6-ALPHA" = _b7jm6rQS;
         "pkg-1.0.7-ALPHA" = _ftx11WRh;
         "pkg-1.0.8-ALPHA" = _GZduDpMN;
-        "default" = _GZduDpMN;
+        "pkg-1.1.0-ALPHA" = _zyqm7HiM;
+        "default" = _zyqm7HiM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cuteorigins";

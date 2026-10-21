@@ -16,17 +16,24 @@ let
             "file" = "Better Slabs-V4.jar";
             "hash" = "sha512-5wF2k9N9cViw1QFUNVS+tvnHwlnpvpqv+zs1pI48V5NOcgaONPOMLFeNiryfM0/W8gqRQRYU4iFkhG3cZq0XLQ==";
         };
+        _3Mraf0T4 = {
+            "id" = "3Mraf0T4";
+            "file" = "Better Slabs-V7.jar";
+            "hash" = "sha512-1Fc9tg2mFVOdftoW7TaC7CYTM79xuzaJExR2EF8vTJIUX9NKIg4OdvQoplMoNu1BoCkOalPe8e9THmGOYWchLA==";
+        };
     in {
         "W18W9yz0" = _W18W9yz0;
         "14BCxoM6" = _14BCxoM6;
         "iisAWrNV" = _iisAWrNV;
+        "3Mraf0T4" = _3Mraf0T4;
         "fabric-1.21.11" = _W18W9yz0;
         "fabric-26.2" = _14BCxoM6;
-        "fabric-26.3" = _iisAWrNV;
+        "fabric-26.3" = _3Mraf0T4;
         "pkg-V1" = _W18W9yz0;
         "pkg-V2" = _14BCxoM6;
         "pkg-V3" = _iisAWrNV;
-        "default" = _iisAWrNV;
+        "pkg-V4" = _3Mraf0T4;
+        "default" = _3Mraf0T4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-slabs";

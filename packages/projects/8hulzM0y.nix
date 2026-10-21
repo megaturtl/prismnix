@@ -231,6 +231,16 @@ let
             "file" = "nice-actions-3.0.jar";
             "hash" = "sha512-a/CKqewYSlu/j3sKuZTzw2kGobgMv7Ku5SvcH2A4475qQetaqPMcHkhr3wFlCtERzlahDpMSPn8SIbrNSgn3Fg==";
         };
+        _i7NUdzT3 = {
+            "id" = "i7NUdzT3";
+            "file" = "nice_actions_3.1.zip";
+            "hash" = "sha512-5D2CoVPh5udOeSLazDODYU7wKdT5LxUfPDW9oToycORp0bKzVNPTX4odywXZXXpMhLXw/ppp6dS8sw2NweY2ZA==";
+        };
+        _K3THjoey = {
+            "id" = "K3THjoey";
+            "file" = "nice-actions-3.1.jar";
+            "hash" = "sha512-oLibqoVMgIKBbh6zaiTjAHFms1a8nsryQjuWB+fpqjUPXlQc31nmBPnBzaBXO3bCCO0LhIfAj2zk/vIdlf5HDg==";
+        };
     in {
         "ULWF8M4i" = _ULWF8M4i;
         "5ASuRttv" = _5ASuRttv;
@@ -278,6 +288,8 @@ let
         "iUXfb0gj" = _iUXfb0gj;
         "dYwtu0D9" = _dYwtu0D9;
         "OwHFvUg5" = _OwHFvUg5;
+        "i7NUdzT3" = _i7NUdzT3;
+        "K3THjoey" = _K3THjoey;
         "datapack-1.21.6" = _dl0ysn6S;
         "datapack-1.21.7" = _dl0ysn6S;
         "datapack-1.21.8" = _dl0ysn6S;
@@ -288,7 +300,7 @@ let
         "datapack-26.1.1" = _hvQ9fT6s;
         "datapack-26.1.2" = _hvQ9fT6s;
         "datapack-26.2" = _K9ZMGWuw;
-        "datapack-26.3" = _dYwtu0D9;
+        "datapack-26.3" = _i7NUdzT3;
         "fabric-1.21.6" = _VfWoU57y;
         "fabric-1.21.7" = _VfWoU57y;
         "fabric-1.21.8" = _VfWoU57y;
@@ -299,7 +311,7 @@ let
         "fabric-26.1.1" = _PWqYzAWZ;
         "fabric-26.1.2" = _PWqYzAWZ;
         "fabric-26.2" = _ttUID4Qk;
-        "fabric-26.3" = _OwHFvUg5;
+        "fabric-26.3" = _K3THjoey;
         "forge-1.21.6" = _VfWoU57y;
         "forge-1.21.7" = _VfWoU57y;
         "forge-1.21.8" = _VfWoU57y;
@@ -310,7 +322,7 @@ let
         "forge-26.1.1" = _PWqYzAWZ;
         "forge-26.1.2" = _PWqYzAWZ;
         "forge-26.2" = _ttUID4Qk;
-        "forge-26.3" = _OwHFvUg5;
+        "forge-26.3" = _K3THjoey;
         "neoforge-1.21.6" = _VfWoU57y;
         "neoforge-1.21.7" = _VfWoU57y;
         "neoforge-1.21.8" = _VfWoU57y;
@@ -321,7 +333,7 @@ let
         "neoforge-26.1.1" = _PWqYzAWZ;
         "neoforge-26.1.2" = _PWqYzAWZ;
         "neoforge-26.2" = _ttUID4Qk;
-        "neoforge-26.3" = _OwHFvUg5;
+        "neoforge-26.3" = _K3THjoey;
         "quilt-1.21.6" = _VfWoU57y;
         "quilt-1.21.7" = _VfWoU57y;
         "quilt-1.21.8" = _VfWoU57y;
@@ -332,7 +344,7 @@ let
         "quilt-26.1.1" = _PWqYzAWZ;
         "quilt-26.1.2" = _PWqYzAWZ;
         "quilt-26.2" = _ttUID4Qk;
-        "quilt-26.3" = _OwHFvUg5;
+        "quilt-26.3" = _K3THjoey;
         "pkg-1.0" = _VqaNKY3m;
         "pkg-1.0+mod" = _oaJAR9UN;
         "pkg-1.1" = _DeXjgglk;
@@ -375,7 +387,9 @@ let
         "pkg-2.9-mod" = _iUXfb0gj;
         "pkg-3.0" = _dYwtu0D9;
         "pkg-3.0-mod" = _OwHFvUg5;
-        "default" = _OwHFvUg5;
+        "pkg-3.1" = _i7NUdzT3;
+        "pkg-3.1-mod" = _K3THjoey;
+        "default" = _K3THjoey;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nice-actions";

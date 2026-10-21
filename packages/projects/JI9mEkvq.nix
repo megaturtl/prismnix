@@ -441,6 +441,16 @@ let
             "file" = "arts_and_crafts-neoforge-26.1.2-1.6.0-beta2.jar";
             "hash" = "sha512-EX8q6jZA2lPh1+fdtSNgX9YaiBXXBdbhWZuc9qVB6WpDPlSTK7a32IadsND/kugptWb0SHZkpnQEPf5w1EnzWQ==";
         };
+        _u90yzFev = {
+            "id" = "u90yzFev";
+            "file" = "arts_and_crafts-fabric-1.21.1-1.6.0.jar";
+            "hash" = "sha512-UToOypE8VOZssS5y/wg7PD3wcOfYGMptR9AqZMF8t4Fz/IayOjWq+U85+t/XW6Ytxb+1Ms2P5SaUcTVMTqJRSQ==";
+        };
+        _pXe7WqJt = {
+            "id" = "pXe7WqJt";
+            "file" = "arts_and_crafts-neoforge-1.21.1-1.6.0.jar";
+            "hash" = "sha512-txW2AAgGI59HlTaJ8eCNIq2l9a4gUtnP20Ec+hc40eozwokin2uVLgv1krQ3CKEx2rYxXZLnWJJyZYAED7oaaw==";
+        };
     in {
         "FN4ITpvV" = _FN4ITpvV;
         "lhVs3UF0" = _lhVs3UF0;
@@ -530,20 +540,22 @@ let
         "lyexkio8" = _lyexkio8;
         "bU1D8a7e" = _bU1D8a7e;
         "4BqccA4I" = _4BqccA4I;
+        "u90yzFev" = _u90yzFev;
+        "pXe7WqJt" = _pXe7WqJt;
         "fabric-1.20.1" = _7XVwJ4Ps;
         "fabric-1.21" = _K9F1Ihn0;
-        "fabric-1.21.1" = _9uKP9W23;
+        "fabric-1.21.1" = _u90yzFev;
         "fabric-1.21.11" = _PGhVo13l;
         "fabric-26.1.2" = _bU1D8a7e;
         "quilt-1.20.1" = _7XVwJ4Ps;
         "quilt-1.21" = _K9F1Ihn0;
-        "quilt-1.21.1" = _9uKP9W23;
+        "quilt-1.21.1" = _u90yzFev;
         "quilt-1.21.11" = _PGhVo13l;
         "quilt-26.1.2" = _bU1D8a7e;
         "forge-1.20.1" = _BhWxJI1t;
         "neoforge-1.20.1" = _BhWxJI1t;
         "neoforge-1.21" = _jAKL8DlH;
-        "neoforge-1.21.1" = _Aq4HVonr;
+        "neoforge-1.21.1" = _pXe7WqJt;
         "neoforge-1.21.11" = _O9u5ZcQh;
         "neoforge-26.1.2" = _4BqccA4I;
         "pkg-1.0.0" = _lhVs3UF0;
@@ -575,7 +587,8 @@ let
         "pkg-1.5.4" = _7XVwJ4Ps;
         "pkg-1.6.0-beta" = _lyexkio8;
         "pkg-1.6.0-beta2" = _4BqccA4I;
-        "default" = _4BqccA4I;
+        "pkg-V1.6.0" = _pXe7WqJt;
+        "default" = _pXe7WqJt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "artsandcrafts";

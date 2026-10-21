@@ -4616,6 +4616,56 @@ let
             "file" = "sophisticatedbackpacks-1.21.1-3.26.12.2208.jar";
             "hash" = "sha512-GbUDCA0L0OUi4JNP2gtJIvLw1a2UYQPl2vhr6G4B5ejsZ0TzTpFbQfxNFXj8bKzwBMyl0Qq4vfdtLyaDHge7ZQ==";
         };
+        _owOPmMwr = {
+            "id" = "owOPmMwr";
+            "file" = "sophisticatedbackpacks-26.1.2-3.26.14.2211.jar";
+            "hash" = "sha512-srCUZL+TgJ2dpUUmcdTKy4dF3/7pA/7CfPncoHAJi+KEo5RUaW8mMlu/HhJu/TfjPIoZKO0M9IBgCazCQ7u6kQ==";
+        };
+        _9t7h3uBT = {
+            "id" = "9t7h3uBT";
+            "file" = "sophisticatedbackpacks-26.3-3.26.14.2212.jar";
+            "hash" = "sha512-W+lk+iEeJnRK3+0qy7aZrY4Y2gM5/GSlaqa60moJwF555qxPCBoyKppsxxwjf6U16OXDnYx6g36aMdHNQANcpA==";
+        };
+        _lj5bJ7jT = {
+            "id" = "lj5bJ7jT";
+            "file" = "sophisticatedbackpacks-26.2-3.26.13.2213.jar";
+            "hash" = "sha512-rw1GYZL1hkXgpoqPHQM7uPmS6knnM6Ma+m8fLiSldHR3+kR6Ywk9x+dldLa3DiED8ol1vHihsepPfatNcHenRQ==";
+        };
+        _c7sbewSf = {
+            "id" = "c7sbewSf";
+            "file" = "sophisticatedbackpacks-1.20.1-3.26.13.2215.jar";
+            "hash" = "sha512-5849NjgIQRGoH6gcOkpTKKwNlMCoJOQVepk+VI72h0fnDZoaXKsLCXkqcpHyu4gDKKa+oDbr0eHwJ3OXDxLIDg==";
+        };
+        _AW1Jh0G5 = {
+            "id" = "AW1Jh0G5";
+            "file" = "sophisticatedbackpacks-1.21.1-3.26.13.2214.jar";
+            "hash" = "sha512-T4aLnapw2zZIX2zC6nZo59yrOhXjwcUIOHA3bZYd74GiKBKueWjcsfDSlkOS1TT4ozio44+K+z9IXHLBHd+ufg==";
+        };
+        _9vZ4CAcJ = {
+            "id" = "9vZ4CAcJ";
+            "file" = "sophisticatedbackpacks-26.3-3.26.15.2225.jar";
+            "hash" = "sha512-SqO6uPa43+lerOcFNiKQt/espq7Ww/T5x5wcu4btVSrYeK8aZfIjBBLBEvYNTQVMxwTaydeQq0DQ59rGCrNXiQ==";
+        };
+        _qKvWoev9 = {
+            "id" = "qKvWoev9";
+            "file" = "sophisticatedbackpacks-26.2-3.26.14.2223.jar";
+            "hash" = "sha512-7+aSwCbncj5MvSv43PenuxMeL3RJm9l+dhTX0wtqm6UQMXAYeXijlJQWcwii1Xym80hrxSRyZ1ykIxcZ7VgHyg==";
+        };
+        _4nFA9xMY = {
+            "id" = "4nFA9xMY";
+            "file" = "sophisticatedbackpacks-26.1.2-3.26.15.2224.jar";
+            "hash" = "sha512-fKdlIi3Bd9cM8ZjE9TpxwLEi0Yp9oTRACnFqSUJ0lOMUQk+354VM5rbEvE/gGrCTu16uzkK6hzLEZs917OqonA==";
+        };
+        _HEEmP5R4 = {
+            "id" = "HEEmP5R4";
+            "file" = "sophisticatedbackpacks-1.20.1-3.26.14.2226.jar";
+            "hash" = "sha512-1sARVFQOx367RfFOmC7AwnBrV5Z4TEwlhefrCfXQ1oiOOwvrUwXO6cE+qpN/HP21OwCBren7YAc3M+O5/eobew==";
+        };
+        _eg9lPtG4 = {
+            "id" = "eg9lPtG4";
+            "file" = "sophisticatedbackpacks-1.21.1-3.26.14.2222.jar";
+            "hash" = "sha512-otT0hu/W6wgGwsNYxCFzALVs/KJYk8punEyF0uFj8X9E8F5gLWLsjxfEJqFeQMMQQ2q5C6nO6rFPrHcQv1IRkQ==";
+        };
     in {
         "HNx6YaQC" = _HNx6YaQC;
         "suz8ANPn" = _suz8ANPn;
@@ -5540,9 +5590,19 @@ let
         "wfDx3oyJ" = _wfDx3oyJ;
         "X7q2xTaV" = _X7q2xTaV;
         "QkVLEgt1" = _QkVLEgt1;
+        "owOPmMwr" = _owOPmMwr;
+        "9t7h3uBT" = _9t7h3uBT;
+        "lj5bJ7jT" = _lj5bJ7jT;
+        "c7sbewSf" = _c7sbewSf;
+        "AW1Jh0G5" = _AW1Jh0G5;
+        "9vZ4CAcJ" = _9vZ4CAcJ;
+        "qKvWoev9" = _qKvWoev9;
+        "4nFA9xMY" = _4nFA9xMY;
+        "HEEmP5R4" = _HEEmP5R4;
+        "eg9lPtG4" = _eg9lPtG4;
         "neoforge-1.21" = _q4YzYKAb;
-        "neoforge-1.21.1" = _QkVLEgt1;
-        "neoforge-1.20.1" = _X7q2xTaV;
+        "neoforge-1.21.1" = _eg9lPtG4;
+        "neoforge-1.20.1" = _HEEmP5R4;
         "neoforge-1.21.4" = _dqO5nftG;
         "neoforge-1.21.5" = _5RzMBbVq;
         "neoforge-1.21.8" = _ma67qtGe;
@@ -5550,10 +5610,10 @@ let
         "neoforge-1.21.11" = _36YO13Ox;
         "neoforge-26.1" = _7CsDRcYC;
         "neoforge-26.1.1" = _7CsDRcYC;
-        "neoforge-26.1.2" = _LlztJyLf;
-        "neoforge-26.2" = _c2sypDK1;
-        "neoforge-26.3" = _wfDx3oyJ;
-        "forge-1.20.1" = _X7q2xTaV;
+        "neoforge-26.1.2" = _4nFA9xMY;
+        "neoforge-26.2" = _qKvWoev9;
+        "neoforge-26.3" = _9vZ4CAcJ;
+        "forge-1.20.1" = _HEEmP5R4;
         "forge-1.19.2" = _1TblkbcZ;
         "forge-1.18.2" = _ySJuJiG9;
         "forge-1.16.5" = _aplfC9U1;
@@ -6478,7 +6538,17 @@ let
         "pkg-26.3-3.26.13.2209" = _wfDx3oyJ;
         "pkg-1.20.1-3.26.12.2206" = _X7q2xTaV;
         "pkg-1.21.1-3.26.12.2208" = _QkVLEgt1;
-        "default" = _QkVLEgt1;
+        "pkg-26.1.2-3.26.14.2211" = _owOPmMwr;
+        "pkg-26.3-3.26.14.2212" = _9t7h3uBT;
+        "pkg-26.2-3.26.13.2213" = _lj5bJ7jT;
+        "pkg-1.20.1-3.26.13.2215" = _c7sbewSf;
+        "pkg-1.21.1-3.26.13.2214" = _AW1Jh0G5;
+        "pkg-26.3-3.26.15.2225" = _9vZ4CAcJ;
+        "pkg-26.2-3.26.14.2223" = _qKvWoev9;
+        "pkg-26.1.2-3.26.15.2224" = _4nFA9xMY;
+        "pkg-1.20.1-3.26.14.2226" = _HEEmP5R4;
+        "pkg-1.21.1-3.26.14.2222" = _eg9lPtG4;
+        "default" = _eg9lPtG4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sophisticated-backpacks";

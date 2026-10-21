@@ -96,6 +96,16 @@ let
             "file" = "village_bounties-1.2_26.2.jar";
             "hash" = "sha512-92CNfAS53lLuIDQ7pfEBsWr07fh0NVUX4cSWWbCbiCPg/dqm4FHybP9iDz53F5DIDtqzP1a14GNu2+v3iirLvA==";
         };
+        _71YEGeIJ = {
+            "id" = "71YEGeIJ";
+            "file" = "village_bounties-1.2_1.21.1-fabric.jar";
+            "hash" = "sha512-8k7jnUr55MCaOmQvJjQOJesVqvpRnfsyRETxCxx4oE4pQwstldAWk+vm5goeTB/kstxTcngQ7Jw9Xm4fdcebWg==";
+        };
+        _wjKaoY8B = {
+            "id" = "wjKaoY8B";
+            "file" = "village_bounties-1.2_26.2-fabric.jar";
+            "hash" = "sha512-MtXOEQvbREEThG142Ih8JCA3IblGzABBFk116x96ufuisp7mDOmsp8uC3uefbokVVq81zHRnnMIBB+h4zNeZ5A==";
+        };
     in {
         "qPCSt8Cr" = _qPCSt8Cr;
         "go9TCxY0" = _go9TCxY0;
@@ -116,11 +126,15 @@ let
         "UrRm1m8k" = _UrRm1m8k;
         "61TMtYdh" = _61TMtYdh;
         "LsJnjJCo" = _LsJnjJCo;
+        "71YEGeIJ" = _71YEGeIJ;
+        "wjKaoY8B" = _wjKaoY8B;
         "neoforge-1.21.1" = _Sn8bVqCZ;
         "neoforge-1.21.4" = _ODNMvpLk;
         "neoforge-1.21.8" = _UrRm1m8k;
         "neoforge-26.2" = _LsJnjJCo;
         "neoforge-1.21.11" = _61TMtYdh;
+        "fabric-1.21.1" = _71YEGeIJ;
+        "fabric-26.2" = _wjKaoY8B;
         "pkg-0.9.8_1.21.1" = _qPCSt8Cr;
         "pkg-0.9.8_1.21.4" = _go9TCxY0;
         "pkg-0.9.8_1.21.8" = _SQsoiK9b;
@@ -140,7 +154,9 @@ let
         "pkg-1.2_1.21.8" = _UrRm1m8k;
         "pkg-1.2_1.21.11" = _61TMtYdh;
         "pkg-1.2_26.2" = _LsJnjJCo;
-        "default" = _LsJnjJCo;
+        "pkg-1.2_1.21.1_FABRIC" = _71YEGeIJ;
+        "pkg-1.2_26.2_FABRIC" = _wjKaoY8B;
+        "default" = _wjKaoY8B;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "village-bounties";

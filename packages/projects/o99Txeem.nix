@@ -21,21 +21,29 @@ let
             "file" = "Player Extension X Just Expressions v07-1.20.1.zip";
             "hash" = "sha512-zMnfD0tvZ2mOBtuVY31Pij+pXfmpXBZddVXtUgEwkPtsScmD6prf+hYsmCU5SvzpObzzDsyxmfkEZZwR2sfOdw==";
         };
+        _kDO4sHob = {
+            "id" = "kDO4sHob";
+            "file" = "Player Extension X Just Expressions v1.1 - 26.3.zip";
+            "hash" = "sha512-EljitCv4n22LoIdD5cCyKtsw+BGBdOqFQWUrFT069/zy+cLeQ2OMZTo/NGbxC8QDyg480310ILPMh6BoVzjLxA==";
+        };
     in {
         "K01ITcjD" = _K01ITcjD;
         "PO4C7p4Q" = _PO4C7p4Q;
         "NnsSP6uy" = _NnsSP6uy;
         "83OYgBgH" = _83OYgBgH;
+        "kDO4sHob" = _kDO4sHob;
         "minecraft-26.2" = _K01ITcjD;
         "minecraft-26.1" = _PO4C7p4Q;
         "minecraft-1.21.11" = _NnsSP6uy;
         "minecraft-1.20" = _83OYgBgH;
         "minecraft-1.20.1" = _83OYgBgH;
+        "minecraft-26.3" = _kDO4sHob;
         "pkg-1.0" = _K01ITcjD;
         "pkg-0.9" = _PO4C7p4Q;
         "pkg-0.8" = _NnsSP6uy;
         "pkg-0.7" = _83OYgBgH;
-        "default" = _83OYgBgH;
+        "pkg-1.1" = _kDO4sHob;
+        "default" = _kDO4sHob;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "player-extension-x-just-expressions";

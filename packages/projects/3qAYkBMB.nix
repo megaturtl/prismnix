@@ -5441,6 +5441,16 @@ let
             "file" = "polytone-26.3-6.8.7-neoforge.jar";
             "hash" = "sha512-wsXWexQP7fPWdm+6JYQZRwTOQpeuDKJkbtJTPouUmsN7JkschlnMtUt3nxOsKAMl9VJl9QsPeVucKMMpDWQscw==";
         };
+        _ZjyRLG2C = {
+            "id" = "ZjyRLG2C";
+            "file" = "polytone-1.21-5.2.0-neoforge.jar";
+            "hash" = "sha512-/BXYhJOscK4Hq9S3rc8mCAuehETmw6t128cdOgtwwVrLa4zVAQENS27tvM0XE3hBa8zEbcjsxJr0LCgE8fGuew==";
+        };
+        _lcATZLPx = {
+            "id" = "lcATZLPx";
+            "file" = "polytone-1.21-5.2.0-fabric.jar";
+            "hash" = "sha512-+L3uAyCXkk/1aL+XNW7V2mfoMFL6zYAKxF4BK4GIB6NGyW+eW90CRTr1Ib8tJbHDsqzuGZXNuEbprCUAcpvUQA==";
+        };
     in {
         "mB6nZzWZ" = _mB6nZzWZ;
         "Tx03b2mF" = _Tx03b2mF;
@@ -6530,6 +6540,8 @@ let
         "O5VwGMv5" = _O5VwGMv5;
         "YLBwojvo" = _YLBwojvo;
         "6aNLLVl0" = _6aNLLVl0;
+        "ZjyRLG2C" = _ZjyRLG2C;
+        "lcATZLPx" = _lcATZLPx;
         "forge-1.20" = _mB6nZzWZ;
         "forge-1.20.1" = _keUL5Iuv;
         "forge-1.19.2" = _oVGa6Ebi;
@@ -6541,7 +6553,7 @@ let
         "fabric-1.20.4" = _J39ptUd8;
         "fabric-1.20.6" = _l7ai8RMK;
         "fabric-1.21" = _OmvjAXWl;
-        "fabric-1.21.1" = _ZRDLMfVh;
+        "fabric-1.21.1" = _lcATZLPx;
         "fabric-1.21.2" = _iOBYXB31;
         "fabric-1.21.3" = _iOBYXB31;
         "fabric-1.21.4" = _7rPD3Q0C;
@@ -6559,7 +6571,7 @@ let
         "neoforge-1.19.2" = _HCGS7CeV;
         "neoforge-1.20.6" = _8FgEzAG8;
         "neoforge-1.21" = _g907ZKM2;
-        "neoforge-1.21.1" = _JCFLo8vy;
+        "neoforge-1.21.1" = _ZjyRLG2C;
         "neoforge-1.21.2" = _d6h9ZYUC;
         "neoforge-1.21.3" = _d6h9ZYUC;
         "neoforge-1.21.4" = _jzMhMCRv;
@@ -7172,7 +7184,8 @@ let
         "pkg-1.21-5.1.3" = _ZRDLMfVh;
         "pkg-26.1.2-6.8.1" = _YLBwojvo;
         "pkg-26.3-6.8.7" = _6aNLLVl0;
-        "default" = _6aNLLVl0;
+        "pkg-1.21-5.2.0" = _lcATZLPx;
+        "default" = _lcATZLPx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "polytone";

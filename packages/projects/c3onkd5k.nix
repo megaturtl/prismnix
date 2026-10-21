@@ -1496,6 +1496,26 @@ let
             "file" = "AsyncParticles-26.3.2.1+26.3.jar";
             "hash" = "sha512-zlwvh2y5tmMLvY1+TRtyXLX+oKW8Bd979kZNUzJR90CacG6TD6amalkPx3G6XLzkDW04M/iggrF2SVEv2DYfbA==";
         };
+        _3q4SgkEe = {
+            "id" = "3q4SgkEe";
+            "file" = "AsyncParticles-20.1.4.3+1.20.1.jar";
+            "hash" = "sha512-hzznVWsvBLu3Q5HuzUcu89Zn7BXdAtMBSnxPN+GwfNyjZEOsO0JZJG9QlYwJO0xQzBFbTU2QWCIVA2CF/qbnYg==";
+        };
+        _SZhdCb0Q = {
+            "id" = "SZhdCb0Q";
+            "file" = "AsyncParticles-21.1.4.9+1.21.1.jar";
+            "hash" = "sha512-KWQJSraVKlTsHJ3qhOiPdoMUlCtxM+X+j6ykTSi6KxYbSNo2oYUFhMfwG162WcIdbchaCfb2wJudO0H3Za1Sew==";
+        };
+        _qLpoOaqY = {
+            "id" = "qLpoOaqY";
+            "file" = "AsyncParticles-21.1.4.10+1.21.1.jar";
+            "hash" = "sha512-CwfNv2z4jHXoxf3tz111RXnsN+WSlPIqRUN8+gK0flr2IYJ7PgARNbH0V2XID7QFgpRHiNY6mgbSCXuvI8n6/g==";
+        };
+        _Ruqe5dGD = {
+            "id" = "Ruqe5dGD";
+            "file" = "AsyncParticles-20.1.4.4+1.20.1.jar";
+            "hash" = "sha512-DP+VvIy2WJR1/MnsBYELynOV7z1pi6EDKJbhIdMnZmeCCbTG8/dwQizmhq/QqtwCV+/DHZRBOlZgibanxElxKg==";
+        };
     in {
         "GzezCLf9" = _GzezCLf9;
         "HaBZAlE0" = _HaBZAlE0;
@@ -1796,9 +1816,13 @@ let
         "q1kMzdRe" = _q1kMzdRe;
         "oM9ACnlx" = _oM9ACnlx;
         "msLpUZAi" = _msLpUZAi;
-        "fabric-1.20.1" = _ArJBB8kB;
+        "3q4SgkEe" = _3q4SgkEe;
+        "SZhdCb0Q" = _SZhdCb0Q;
+        "qLpoOaqY" = _qLpoOaqY;
+        "Ruqe5dGD" = _Ruqe5dGD;
+        "fabric-1.20.1" = _Ruqe5dGD;
         "fabric-1.21" = _NhjwLSEy;
-        "fabric-1.21.1" = _2SWKpL3t;
+        "fabric-1.21.1" = _qLpoOaqY;
         "fabric-1.21.4" = _l3lpwKZl;
         "fabric-1.21.5" = _6w5WtEx2;
         "fabric-1.21.6" = _hln1vTm4;
@@ -1814,9 +1838,9 @@ let
         "fabric-26.3-snapshot-7" = _SnE4O1Sk;
         "fabric-26.3-rc-3" = _FmbchDVp;
         "fabric-26.3" = _msLpUZAi;
-        "forge-1.20.1" = _ArJBB8kB;
+        "forge-1.20.1" = _Ruqe5dGD;
         "neoforge-1.21" = _NhjwLSEy;
-        "neoforge-1.21.1" = _2SWKpL3t;
+        "neoforge-1.21.1" = _qLpoOaqY;
         "neoforge-1.20.1" = _bw4JNVwQ;
         "neoforge-1.21.4" = _l3lpwKZl;
         "neoforge-1.21.5" = _6w5WtEx2;
@@ -2130,7 +2154,11 @@ let
         "pkg-26.1.2.8" = _q1kMzdRe;
         "pkg-26.2.2.11" = _oM9ACnlx;
         "pkg-26.3.2.1" = _msLpUZAi;
-        "default" = _msLpUZAi;
+        "pkg-20.1.4.3" = _3q4SgkEe;
+        "pkg-21.1.4.9" = _SZhdCb0Q;
+        "pkg-21.1.4.10" = _qLpoOaqY;
+        "pkg-20.1.4.4" = _Ruqe5dGD;
+        "default" = _Ruqe5dGD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "asyncparticles";

@@ -251,6 +251,11 @@ let
             "file" = "ae2lt-forge-1.20.1-2.1.2-beta2.jar";
             "hash" = "sha512-ukx/SH+IPFYv7vQH8d5slNevvj8SFA3QhX7U+mZVKEk1G7ZbdMrle2fOUnurJmc8Be/5iI09+R4kk/ewp5OeQw==";
         };
+        _KYzEhdFY = {
+            "id" = "KYzEhdFY";
+            "file" = "ae2lt-2.1.2-beta4.jar";
+            "hash" = "sha512-hFympakrcNLpvcdPqTxOyLplzIbb8m92x7yA6Y/lgfL5Ts/SrYVxgs9snvJ9fpUXCWB05tLUiWPtwKo5wkGS+w==";
+        };
     in {
         "24sppfGm" = _24sppfGm;
         "OKa8GT9D" = _OKa8GT9D;
@@ -302,7 +307,8 @@ let
         "Hj7rsUUQ" = _Hj7rsUUQ;
         "AosdXlfS" = _AosdXlfS;
         "eS1qyjYH" = _eS1qyjYH;
-        "neoforge-1.21.1" = _AosdXlfS;
+        "KYzEhdFY" = _KYzEhdFY;
+        "neoforge-1.21.1" = _KYzEhdFY;
         "neoforge-26.1.2" = _3kMh6U7h;
         "forge-1.20.1" = _eS1qyjYH;
         "pkg-1.0.0" = _24sppfGm;
@@ -354,7 +360,8 @@ let
         "pkg-2.1.2-beta2" = _Hj7rsUUQ;
         "pkg-2.1.2-beta3" = _AosdXlfS;
         "pkg-2.1.2-beta2-forge.1.20.1" = _eS1qyjYH;
-        "default" = _eS1qyjYH;
+        "pkg-2.1.2-beta4" = _KYzEhdFY;
+        "default" = _KYzEhdFY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ae2-lightning-tech";

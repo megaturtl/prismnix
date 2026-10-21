@@ -121,6 +121,16 @@ let
             "file" = "Trident-1.4.0+26.2.jar";
             "hash" = "sha512-D+1RAvQXbG3nE4ft6dDqzL50tLTgC4hGnFRzQ09KEV02Hue4QJ2Bvp3NGtggZ7kUa2/k0P1RuXlB0dl1Vx1E6w==";
         };
+        _bpLSCDR4 = {
+            "id" = "bpLSCDR4";
+            "file" = "Trident-1.4.1+26.3.jar";
+            "hash" = "sha512-n3k2v7fxlfSnndZ0bHyBWEFgGRtD9yv75uZGEyVFYg09/+DGbQ6TVnHsZAsSsprofKZSXqxyDpTR7Gok0iMCtw==";
+        };
+        _ReJcpJhB = {
+            "id" = "ReJcpJhB";
+            "file" = "Trident-1.4.1+26.2.jar";
+            "hash" = "sha512-UAsyFmXJaxjIc1OprANCW6gNgwl/LVeNicYuohDDpIURG8hNR01h8pW4lhbDX3vGopYT9YGMTHw37ziVo5Dt/A==";
+        };
     in {
         "EuiVJ35u" = _EuiVJ35u;
         "iHkqlrmm" = _iHkqlrmm;
@@ -146,10 +156,13 @@ let
         "v1IxPRs5" = _v1IxPRs5;
         "kU6e7xVq" = _kU6e7xVq;
         "Iz6MAqgr" = _Iz6MAqgr;
+        "bpLSCDR4" = _bpLSCDR4;
+        "ReJcpJhB" = _ReJcpJhB;
         "fabric-1.21.8" = _ZlJc2gkD;
         "fabric-1.21.11" = _v1IxPRs5;
         "fabric-26.1.2" = _kU6e7xVq;
-        "fabric-26.2" = _Iz6MAqgr;
+        "fabric-26.2" = _ReJcpJhB;
+        "fabric-26.3" = _bpLSCDR4;
         "pkg-1.0.0" = _EuiVJ35u;
         "pkg-1.0.1" = _iHkqlrmm;
         "pkg-1.0.2" = _fupcK0Uo;
@@ -172,7 +185,8 @@ let
         "pkg-1.3.0" = _eK4UCRkF;
         "pkg-1.3.1" = _kU6e7xVq;
         "pkg-1.4.0" = _Iz6MAqgr;
-        "default" = _Iz6MAqgr;
+        "pkg-1.4.1" = _ReJcpJhB;
+        "default" = _ReJcpJhB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trident-mcci";

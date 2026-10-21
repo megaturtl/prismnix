@@ -131,6 +131,11 @@ let
             "file" = "draftout-1.17.2.jar";
             "hash" = "sha512-27/qyjvy4KzqlDBeRTQmZjKwjjVP5weFO4TL4vOTmTiR2JoOVDY8OUR0bMzv3L+u97fy/+HO/6jjNFRiFuNp+A==";
         };
+        _MDDuShtC = {
+            "id" = "MDDuShtC";
+            "file" = "draftout-1.18.0.jar";
+            "hash" = "sha512-8Z0RRK4T3WPg6NNXQrVaeZKahqcYlYqPAmb4MWs84/iP85P4xaRMBnyt+TwHy4qFRRos6sH8ve1uq96gLQI/mw==";
+        };
     in {
         "CNlSfiIS" = _CNlSfiIS;
         "xePGCuqY" = _xePGCuqY;
@@ -158,8 +163,9 @@ let
         "ToVMmiZu" = _ToVMmiZu;
         "maPqQHtD" = _maPqQHtD;
         "keCFw7dS" = _keCFw7dS;
+        "MDDuShtC" = _MDDuShtC;
         "fabric-26.1.1" = _elEFtZSP;
-        "fabric-26.3" = _keCFw7dS;
+        "fabric-26.3" = _MDDuShtC;
         "pkg-1.8.0" = _CNlSfiIS;
         "pkg-1.8.1" = _xePGCuqY;
         "pkg-1.8.2" = _sBMDMKUq;
@@ -186,7 +192,8 @@ let
         "pkg-1.17.0" = _ToVMmiZu;
         "pkg-1.17.1" = _maPqQHtD;
         "pkg-1.17.2" = _keCFw7dS;
-        "default" = _keCFw7dS;
+        "pkg-1.18.0" = _MDDuShtC;
+        "default" = _MDDuShtC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "draftout";

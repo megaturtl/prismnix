@@ -141,6 +141,16 @@ let
             "file" = "debris-of-fortune-1.7.jar";
             "hash" = "sha512-OZ2H+h8bzm310jb5lPpkP/jy1AduFK5Rv93BuzDvuXj25fMEcTTYIO07bMWI8BP1g8cssqW149e8rgRIOjp2Lw==";
         };
+        _87Lt2xYO = {
+            "id" = "87Lt2xYO";
+            "file" = "Debris of Fortune.zip";
+            "hash" = "sha512-lWrGMzClYP0jDWWnZ7+QUrMb0pY1Ba/+LAUp5Ja5n62O01KshwKZ+A2eJf1Os3vNmyGvIB8jYNSQjL9MSESmBQ==";
+        };
+        _a4yRRo2c = {
+            "id" = "a4yRRo2c";
+            "file" = "debris-of-fortune-1.7.1.jar";
+            "hash" = "sha512-YQ2w4KLK612clCX0XjhPFMlr5mbsNsg6h653EE334qT9m8FpBuOsf+8RqgsgVxu6WcEfYLCvvqtMkplVcoQUCA==";
+        };
     in {
         "gSqArCV3" = _gSqArCV3;
         "rInqgdRw" = _rInqgdRw;
@@ -170,6 +180,8 @@ let
         "vGWBRYcu" = _vGWBRYcu;
         "B3dSyzb5" = _B3dSyzb5;
         "nQiasMwW" = _nQiasMwW;
+        "87Lt2xYO" = _87Lt2xYO;
+        "a4yRRo2c" = _a4yRRo2c;
         "datapack-1.21" = _gSqArCV3;
         "datapack-1.21.3" = _rInqgdRw;
         "datapack-1.20" = _Tmt7oWQh;
@@ -184,7 +196,7 @@ let
         "datapack-1.21.11" = _DHETBCkI;
         "datapack-26.1" = _TBAZpdWd;
         "datapack-26.2" = _QROqVb2f;
-        "datapack-26.3" = _B3dSyzb5;
+        "datapack-26.3" = _87Lt2xYO;
         "fabric-1.21.4" = _CweH4z2E;
         "fabric-1.20.1" = _znenxs7u;
         "fabric-1.21.5" = _V7rMz6Kd;
@@ -197,7 +209,7 @@ let
         "fabric-1.21.1" = _Nwq9Jttm;
         "fabric-26.1" = _EeZFQX28;
         "fabric-26.2" = _lBwtXyk4;
-        "fabric-26.3" = _nQiasMwW;
+        "fabric-26.3" = _a4yRRo2c;
         "forge-1.21.4" = _CweH4z2E;
         "forge-1.20.1" = _znenxs7u;
         "forge-1.21.5" = _V7rMz6Kd;
@@ -210,14 +222,14 @@ let
         "forge-1.21.1" = _Nwq9Jttm;
         "forge-26.1" = _EeZFQX28;
         "forge-26.2" = _lBwtXyk4;
-        "forge-26.3" = _nQiasMwW;
+        "forge-26.3" = _a4yRRo2c;
         "neoforge-1.21.11" = _G7UGwo4m;
         "neoforge-1.21.1" = _Nwq9Jttm;
         "neoforge-26.1" = _EeZFQX28;
         "neoforge-26.2" = _lBwtXyk4;
-        "neoforge-26.3" = _nQiasMwW;
+        "neoforge-26.3" = _a4yRRo2c;
         "quilt-26.2" = _lBwtXyk4;
-        "quilt-26.3" = _nQiasMwW;
+        "quilt-26.3" = _a4yRRo2c;
         "pkg-1.0" = _gSqArCV3;
         "pkg-1.1" = _znenxs7u;
         "pkg-1.2" = _V7rMz6Kd;
@@ -231,7 +243,9 @@ let
         "pkg-1.6+mod" = _vGWBRYcu;
         "pkg-1.7" = _B3dSyzb5;
         "pkg-1.7+mod" = _nQiasMwW;
-        "default" = _nQiasMwW;
+        "pkg-1.7.1" = _87Lt2xYO;
+        "pkg-1.7.1+mod" = _a4yRRo2c;
+        "default" = _a4yRRo2c;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "debris-of-fortune";

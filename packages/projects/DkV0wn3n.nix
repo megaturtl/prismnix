@@ -36,6 +36,11 @@ let
             "file" = "utt1.7.8.16.6.jar";
             "hash" = "sha512-/HwoE4Epg7JxnwJmzaDQJyYwXXbQ+L3LPk3hpZ3YEj+Z+US8LQ97Abp+BeVYe82Zyk1Q/igqWFZEiqBH7pZWug==";
         };
+        _AEdQU1t6 = {
+            "id" = "AEdQU1t6";
+            "file" = "universaltiertagger-1.2.3+1.21.11.jar";
+            "hash" = "sha512-a4zHoXc9PEwkTpjczSFef/zMDYv2493WHQmheByqJ2cRmev5QdNJnNZ5RrUDGriSsdVDGsYjo1muyijcXP271g==";
+        };
     in {
         "3Filn2mg" = _3Filn2mg;
         "NMTipv59" = _NMTipv59;
@@ -44,7 +49,8 @@ let
         "4wZRMGRT" = _4wZRMGRT;
         "Ucxi7a7K" = _Ucxi7a7K;
         "UsDSG4Xv" = _UsDSG4Xv;
-        "fabric-1.21.11" = _UsDSG4Xv;
+        "AEdQU1t6" = _AEdQU1t6;
+        "fabric-1.21.11" = _AEdQU1t6;
         "fabric-26.1" = _3Filn2mg;
         "fabric-26.1.1" = _3Filn2mg;
         "fabric-26.1.2" = _3Filn2mg;
@@ -75,9 +81,9 @@ let
         "pkg-1.1.7" = _NMTipv59;
         "pkg-0.8.4+1.21.11" = _G2wsgvjZ;
         "pkg-1.2.0+1.21.11" = _4wZRMGRT;
-        "pkg-1.2.1+1.21.11" = _Ucxi7a7K;
+        "pkg-1.2.1+1.21.11" = _AEdQU1t6;
         "pkg-1.7.8.16.6" = _UsDSG4Xv;
-        "default" = _UsDSG4Xv;
+        "default" = _AEdQU1t6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "universetiertagger";

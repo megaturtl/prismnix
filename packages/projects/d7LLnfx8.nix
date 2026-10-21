@@ -41,6 +41,16 @@ let
             "file" = "sleepy_hollows-fabric-1.1.1.jar";
             "hash" = "sha512-VTZbilapl5kMU38jUGJJu+O26K0O8dFxMn+gn3QZS54OhsDkbtIJUtl9bT3e2KoY63gGakPeIPzno6jbXFqETg==";
         };
+        _QySASi0l = {
+            "id" = "QySASi0l";
+            "file" = "sleepy_hollows-neoforge-1.1.2.jar";
+            "hash" = "sha512-8CpWB+hsgLO3oOa2U66KtO+CrQPqxc/afsyJidr1c8Ku+Z7S+hCD9yUlHNxzkfg5L5x6uK5FLNvfo7NsMlOCgg==";
+        };
+        _GaA7oijv = {
+            "id" = "GaA7oijv";
+            "file" = "sleepy_hollows-fabric-1.1.2.jar";
+            "hash" = "sha512-1MJY9wFbRxjLvb1Ej8VFtUKQx9UgHN5ZTQfDsCLuw55KOCxlLvYqwnUyo/PWgXxctLi7vCIGmXGEsgvf1qmuRQ==";
+        };
     in {
         "klwzDwbs" = _klwzDwbs;
         "wDeelpy6" = _wDeelpy6;
@@ -50,16 +60,19 @@ let
         "mZ01f7Fa" = _mZ01f7Fa;
         "aDhk68Zt" = _aDhk68Zt;
         "ufjeBhmt" = _ufjeBhmt;
+        "QySASi0l" = _QySASi0l;
+        "GaA7oijv" = _GaA7oijv;
         "forge-1.20.1" = _klwzDwbs;
         "neoforge-1.20.1" = _klwzDwbs;
-        "neoforge-1.21.1" = _aDhk68Zt;
+        "neoforge-1.21.1" = _QySASi0l;
         "fabric-1.20.1" = _wDeelpy6;
-        "fabric-1.21.1" = _ufjeBhmt;
+        "fabric-1.21.1" = _GaA7oijv;
         "quilt-1.20.1" = _wDeelpy6;
         "pkg-1.0.2" = _wDeelpy6;
         "pkg-1.1.0" = _mZ01f7Fa;
         "pkg-1.1.1" = _ufjeBhmt;
-        "default" = _ufjeBhmt;
+        "pkg-1.1.2" = _GaA7oijv;
+        "default" = _GaA7oijv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sleepy-hollows";

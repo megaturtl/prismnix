@@ -211,6 +211,21 @@ let
             "file" = "pet_home-1.1.3-neoforge-26.1.2.jar";
             "hash" = "sha512-QOJnE/ShKoMxQ5YBN2g/ikN/VMKDg2SO17/RZ3rbBgltCV8O9+iNKqLFZgJnIAg3eAoZqN+c3ROSWadrevGDtw==";
         };
+        _nKY7sihU = {
+            "id" = "nKY7sihU";
+            "file" = "pet_home-1.1.4-fabric-1.20.1.jar";
+            "hash" = "sha512-a6gono1GdMZ7E+j2+ITELVnio08AW2c5cEPrjMW92f3/B+FTc+5jLuZDIjXEO+EYBOSLdPMwtk1xohCTvmEVFQ==";
+        };
+        _pzwcR6LY = {
+            "id" = "pzwcR6LY";
+            "file" = "pet_home-1.1.4-fabric-1.21.1.jar";
+            "hash" = "sha512-HXnHNFk/VVCFMOgfi+GR8hpL9hq/epeGl9r4A6qX/sGXK918ZGcT1ipK2NOg22QHMUGgARcXjtLRY5fSaDmnTQ==";
+        };
+        _wLbkDV9q = {
+            "id" = "wLbkDV9q";
+            "file" = "pet_home-1.1.4-forge-1.20.1.jar";
+            "hash" = "sha512-lvrQlqAo7jcKdctXQpy9N871S7c0ZuFHF1vgXZ2yEUMO2KgdE3wau7ORpboCdSOp1pu5ORUUrBu7lNJc8AvLdg==";
+        };
     in {
         "JijE6fSA" = _JijE6fSA;
         "7HTXqtth" = _7HTXqtth;
@@ -254,12 +269,15 @@ let
         "NeSKTPvW" = _NeSKTPvW;
         "HoJrHeFC" = _HoJrHeFC;
         "YDsfWW0F" = _YDsfWW0F;
+        "nKY7sihU" = _nKY7sihU;
+        "pzwcR6LY" = _pzwcR6LY;
+        "wLbkDV9q" = _wLbkDV9q;
         "neoforge-1.21.1" = _NEcPOMNr;
         "neoforge-26.1.2" = _YDsfWW0F;
         "neoforge-26.3" = _HoJrHeFC;
-        "forge-1.20.1" = _HjymrmSz;
-        "fabric-1.20.1" = _dMUmHEE5;
-        "fabric-1.21.1" = _7DjMYwoY;
+        "forge-1.20.1" = _wLbkDV9q;
+        "fabric-1.20.1" = _nKY7sihU;
+        "fabric-1.21.1" = _pzwcR6LY;
         "fabric-26.1.2" = _gcZjR3El;
         "fabric-26.3" = _NeSKTPvW;
         "pkg-1.0.7" = _JijE6fSA;
@@ -304,7 +322,10 @@ let
         "pkg-1.1.3-fabric-26.3" = _NeSKTPvW;
         "pkg-1.1.3-neoforge-26.3" = _HoJrHeFC;
         "pkg-1.1.3-neoforge-26.1.2" = _YDsfWW0F;
-        "default" = _YDsfWW0F;
+        "pkg-1.1.4-fabric-1.20.1" = _nKY7sihU;
+        "pkg-1.1.4-fabric-1.21.1" = _pzwcR6LY;
+        "pkg-1.1.4-forge-1.20.1" = _wLbkDV9q;
+        "default" = _wLbkDV9q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pet_home";

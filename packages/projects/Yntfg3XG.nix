@@ -221,6 +221,11 @@ let
             "file" = "hex_ars_link-1.21.1-0.9.5.2.pre53.fix2.jar";
             "hash" = "sha512-SzrMsbb9l3MaoUWJ2oO1D3UAw99G4KHH+FxZfqKwk3IO62K8UGtWMndLqWmzEl0AlnPKXrnMBvlQs/EKmMDGGw==";
         };
+        _XuCi2fmN = {
+            "id" = "XuCi2fmN";
+            "file" = "hex_ars_link-1.21.1-0.9.5.2.pre64.jar";
+            "hash" = "sha512-P1Z6qoiuDOU8h91JOKy9kjttodHRYcZ74mBSL1kDahOQsu1yCIqDMBlULuWWcR2g7VUnZdSWWtLZtqnYGk8tew==";
+        };
     in {
         "YkSNZcJB" = _YkSNZcJB;
         "BkDlReR6" = _BkDlReR6;
@@ -266,6 +271,7 @@ let
         "GOubRWO8" = _GOubRWO8;
         "hb959dL3" = _hb959dL3;
         "MqfW7JIe" = _MqfW7JIe;
+        "XuCi2fmN" = _XuCi2fmN;
         "forge-1.19.2" = _3raTc3En;
         "forge-1.19.3" = _NQ0sV3ZB;
         "forge-1.19.4" = _NQ0sV3ZB;
@@ -275,7 +281,7 @@ let
         "forge-1.20.4" = _3xedU73I;
         "forge-1.20.5" = _3xedU73I;
         "forge-1.20.6" = _3xedU73I;
-        "neoforge-1.21.1" = _MqfW7JIe;
+        "neoforge-1.21.1" = _XuCi2fmN;
         "pkg-0.5.1" = _YkSNZcJB;
         "pkg-0.6.0" = _BkDlReR6;
         "pkg-0.6.1" = _3EGjckIl;
@@ -315,7 +321,8 @@ let
         "pkg-1.21.1-0.9.5.2.pre53" = _GOubRWO8;
         "pkg-1.21.1-0.9.5.2.pre53.fix1" = _hb959dL3;
         "pkg-1.21.1-0.9.5.2.pre53.fix2" = _MqfW7JIe;
-        "default" = _MqfW7JIe;
+        "pkg-1.21.1-0.9.5.2.pre64" = _XuCi2fmN;
+        "default" = _XuCi2fmN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hex-ars-linker";

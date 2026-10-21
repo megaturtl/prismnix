@@ -111,6 +111,11 @@ let
             "file" = "medes_decor-1.2.5.jar";
             "hash" = "sha512-LpCOzOhLx9uUUznZsASmrcRKFkU4PuC++69BUDS7xkz771eEO0gEClwyFsXklIz4prkyLId9OEHBoVfE2HgCRw==";
         };
+        _ctzjqX7E = {
+            "id" = "ctzjqX7E";
+            "file" = "medes_decor-1.2.5.jar";
+            "hash" = "sha512-mIQaHuK0zzfGWebfwrfhuCJtrUlRMkVqTiFhAEfwyDBWfwEmStrw3fT0U/aLueIovSpeMPcg8l34R25q5kZwTA==";
+        };
     in {
         "2RnpjHDd" = _2RnpjHDd;
         "61yQN9sY" = _61yQN9sY;
@@ -134,6 +139,7 @@ let
         "gNoaKSAJ" = _gNoaKSAJ;
         "Eqjto6jj" = _Eqjto6jj;
         "NSvLMnWN" = _NSvLMnWN;
+        "ctzjqX7E" = _ctzjqX7E;
         "fabric-1.20.1" = _9kGmLDB5;
         "fabric-1.21.5" = _9Waa2Nwq;
         "fabric-1.21.1" = _rxKOXpyx;
@@ -143,6 +149,7 @@ let
         "fabric-26.1.1" = _gNoaKSAJ;
         "fabric-26.1.2" = _gNoaKSAJ;
         "fabric-26.2" = _NSvLMnWN;
+        "fabric-26.3" = _ctzjqX7E;
         "quilt-1.20.1" = _9kGmLDB5;
         "quilt-1.21.5" = _9Waa2Nwq;
         "quilt-1.21.1" = _rxKOXpyx;
@@ -152,6 +159,7 @@ let
         "quilt-26.1.1" = _gNoaKSAJ;
         "quilt-26.1.2" = _gNoaKSAJ;
         "quilt-26.2" = _NSvLMnWN;
+        "quilt-26.3" = _ctzjqX7E;
         "pkg-1.0.0" = _2RnpjHDd;
         "pkg-1.0.1" = _61yQN9sY;
         "pkg-1.1.0" = _hGglZhOA;
@@ -163,8 +171,8 @@ let
         "pkg-1.2.4" = _KioM7JD3;
         "pkg-1.2.4-fix" = _rqBbsmfJ;
         "pkg-1.2.3-fix" = _9Waa2Nwq;
-        "pkg-1.2.5" = _NSvLMnWN;
-        "default" = _NSvLMnWN;
+        "pkg-1.2.5" = _ctzjqX7E;
+        "default" = _ctzjqX7E;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "medes-decor";

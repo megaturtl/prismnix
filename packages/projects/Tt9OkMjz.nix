@@ -116,6 +116,11 @@ let
             "file" = "tleveling-1.2.1-1.20.1.jar";
             "hash" = "sha512-ydpqBV26hfZuASeHZJzpQI06WebPKm+BONGepZiPRBkuXlwup63173lWg1eAmowG/TTJugFwihjgPMo5i36zFg==";
         };
+        _z8xm9oa1 = {
+            "id" = "z8xm9oa1";
+            "file" = "tleveling-1.3.0-1.20.1.jar";
+            "hash" = "sha512-o5w+cKRbQOwiT3LYlnj39XLTrq6YnELxXPOevZ6okfFBjGbgvmmLo0Gs/vX50a7D6ubx2gNY8Vs16VVv63Cnyw==";
+        };
     in {
         "DkhnpqiN" = _DkhnpqiN;
         "IyybDXG8" = _IyybDXG8;
@@ -140,15 +145,16 @@ let
         "8dbrbCRA" = _8dbrbCRA;
         "bYtEi1qy" = _bYtEi1qy;
         "U07cbO9n" = _U07cbO9n;
+        "z8xm9oa1" = _z8xm9oa1;
         "forge-1.19.2" = _kvQj50yW;
         "forge-1.19.3" = _kvQj50yW;
         "forge-1.19.4" = _kvQj50yW;
-        "forge-1.20.1" = _U07cbO9n;
-        "forge-1.20.2" = _U07cbO9n;
-        "forge-1.20.3" = _U07cbO9n;
-        "forge-1.20.4" = _U07cbO9n;
-        "forge-1.20.5" = _U07cbO9n;
-        "forge-1.20.6" = _U07cbO9n;
+        "forge-1.20.1" = _z8xm9oa1;
+        "forge-1.20.2" = _z8xm9oa1;
+        "forge-1.20.3" = _z8xm9oa1;
+        "forge-1.20.4" = _z8xm9oa1;
+        "forge-1.20.5" = _z8xm9oa1;
+        "forge-1.20.6" = _z8xm9oa1;
         "pkg-0.0.1-1.19.2" = _DkhnpqiN;
         "pkg-0.0.2-1.19.2" = _IyybDXG8;
         "pkg-0.0.3-1.19.2" = _7wERCjYo;
@@ -172,7 +178,8 @@ let
         "pkg-1.1.1-1.20.1" = _8dbrbCRA;
         "pkg-1.2.0-1.20.1" = _bYtEi1qy;
         "pkg-1.2.1-1.20.1" = _U07cbO9n;
-        "default" = _U07cbO9n;
+        "pkg-1.3.0-1.20.1" = _z8xm9oa1;
+        "default" = _z8xm9oa1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tinkers-tool-leveling-2";

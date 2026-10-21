@@ -431,6 +431,11 @@ let
             "file" = "yuushya-26.3-fabric-2.3.0.jar";
             "hash" = "sha512-TC8iN7dDHcn/bfm5rBtY47fCaCAaNpBVugnHvxTxmGryH5ZqbCH+SO3/guAScvFk0/1Ub2A5DluA4B4izLKfSg==";
         };
+        _XqF4iIxL = {
+            "id" = "XqF4iIxL";
+            "file" = "yuushya-26.3-fabric-2.3.0-rc2.jar";
+            "hash" = "sha512-Aza+15854o4ozu+0vIeZEbDFx9xWNmmYrZkJsKa790DELn3cQaTiMNW1O+dtLIA2BG1keGMm4n98QEKIoE/8ZQ==";
+        };
     in {
         "9YgUu32k" = _9YgUu32k;
         "BQZhbPxE" = _BQZhbPxE;
@@ -518,6 +523,7 @@ let
         "L2HpYsbq" = _L2HpYsbq;
         "KanPF2Bk" = _KanPF2Bk;
         "zJTBXo46" = _zJTBXo46;
+        "XqF4iIxL" = _XqF4iIxL;
         "forge-1.20" = _udzin5Sj;
         "forge-1.20.1" = _4fDihvYF;
         "forge-1.16.5" = _koWnGi09;
@@ -534,7 +540,7 @@ let
         "fabric-1.21.1" = _dVVX3bpL;
         "fabric-1.20.6" = _tSZPPHlQ;
         "fabric-1.20.4" = _g5TBlA52;
-        "fabric-26.3" = _zJTBXo46;
+        "fabric-26.3" = _XqF4iIxL;
         "neoforge-1.21" = _L2HpYsbq;
         "neoforge-1.21.1" = _L2HpYsbq;
         "neoforge-1.20.6" = _PHcvKj3m;
@@ -550,7 +556,8 @@ let
         "pkg-2.2.3" = _tP3bW7cj;
         "pkg-2.3.0" = _KanPF2Bk;
         "pkg-2.3.0-rc1" = _zJTBXo46;
-        "default" = _zJTBXo46;
+        "pkg-2.3.0-rc2" = _XqF4iIxL;
+        "default" = _XqF4iIxL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "yuushya-townscape";

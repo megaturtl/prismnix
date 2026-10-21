@@ -36,6 +36,26 @@ let
             "file" = "xaeros-optimal-beacons-add-on-1.3.0.jar";
             "hash" = "sha512-mcPMiqCVwgirc+pWqhm/yHqfijUByRl8eN17h3fk6naJqIX2hRLr83N78gh5mNzyJToh+/vFsoASDKeCTE/TBA==";
         };
+        _KdsPAK6J = {
+            "id" = "KdsPAK6J";
+            "file" = "xaeros-optimal-beacons-add-on-1.3.1.jar";
+            "hash" = "sha512-i+GdGc0TfPOhf9UrCMRptRLPZlgAVVxa2N6ROjCRjCXGElOCPcroHijX2JXh4SJveUpNF37LuZGPrplgxpbeeg==";
+        };
+        _CNICvq5u = {
+            "id" = "CNICvq5u";
+            "file" = "xaeros-optimal-beacons-add-on-1.3.1.jar";
+            "hash" = "sha512-XCxflVq0UN8v3i8g/rKPtbjkJQUgyBRpEl9hkURUpOBcfbtq6u28uxNbrMlcR76Oe1Li7We4MbvIf9b8WSsU3g==";
+        };
+        _oC3FJSAV = {
+            "id" = "oC3FJSAV";
+            "file" = "xaeros-optimal-beacons-add-on-1.3.1.jar";
+            "hash" = "sha512-Cm+g4CLZRYaF1d1nJF8BbAJQrlEgR4URMtJC0tp3+S9DhU95P/AGfk7PKq9Y1HDE1agTlR0akWmOL0GmyarLGw==";
+        };
+        _yyFMrO9R = {
+            "id" = "yyFMrO9R";
+            "file" = "xaeros-optimal-beacons-add-on-1.3.1.jar";
+            "hash" = "sha512-bBmtShj18C7sIRjxF6NejDZPYLQUsEFEDQlY2PJ8LZeEfQz+TIMOYyHwWWIemrWdlNANKPSy84WK2KzSryOllw==";
+        };
     in {
         "BaII9vEq" = _BaII9vEq;
         "RsrPT4IY" = _RsrPT4IY;
@@ -44,15 +64,20 @@ let
         "57VwW6qu" = _57VwW6qu;
         "bj6gyWOK" = _bj6gyWOK;
         "8fu06fpZ" = _8fu06fpZ;
-        "fabric-1.21.11" = _8fu06fpZ;
-        "fabric-26.1.2" = _Ig93pVar;
-        "fabric-26.2" = _bj6gyWOK;
-        "fabric-26.3" = _57VwW6qu;
+        "KdsPAK6J" = _KdsPAK6J;
+        "CNICvq5u" = _CNICvq5u;
+        "oC3FJSAV" = _oC3FJSAV;
+        "yyFMrO9R" = _yyFMrO9R;
+        "fabric-1.21.11" = _CNICvq5u;
+        "fabric-26.1.2" = _yyFMrO9R;
+        "fabric-26.2" = _oC3FJSAV;
+        "fabric-26.3" = _KdsPAK6J;
         "pkg-1.0.0" = _BaII9vEq;
         "pkg-1.1.0" = _RsrPT4IY;
         "pkg-1.2.0" = _axhYZWML;
         "pkg-1.3.0" = _8fu06fpZ;
-        "default" = _8fu06fpZ;
+        "pkg-1.3.1" = _yyFMrO9R;
+        "default" = _yyFMrO9R;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "xaeros-optimal-beacons-add-on";

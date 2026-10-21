@@ -151,6 +151,16 @@ let
             "file" = "pokebike-fabric-3.0.jar";
             "hash" = "sha512-F7p4EQom8ETbQY5544xPujYeXK76z0o++Ng52QEJrcX09UafWQQlWfaHhYb2ZRDANDWIwBEACssqr5s3hdyvJw==";
         };
+        _AK9vIaHl = {
+            "id" = "AK9vIaHl";
+            "file" = "pokebike-fabric-4.0.jar";
+            "hash" = "sha512-g4C7XOUI0S6BSu726R4CqymarYsqJHnJvqslc44l3YoWnwOdnq4sPDAmr8BqGVXkuDBp0LJXoI9p37XrMdq91g==";
+        };
+        _m4jGQbcm = {
+            "id" = "m4jGQbcm";
+            "file" = "pokebike-neoforge-4.0.jar";
+            "hash" = "sha512-pjaDOGI8zTbrfCqNN+E0qMpUVr/uu48I3Q615GEvpU8mwivxCKof4l+vl8rLY7AqWSJ+7cq7Vh/j+grC2XeGdA==";
+        };
     in {
         "GMWbdxCy" = _GMWbdxCy;
         "JKDn9xEC" = _JKDn9xEC;
@@ -182,8 +192,10 @@ let
         "PXki8vb3" = _PXki8vb3;
         "ozjjj5ZM" = _ozjjj5ZM;
         "Us8koRQY" = _Us8koRQY;
-        "fabric-1.21.1" = _Us8koRQY;
-        "neoforge-1.21.1" = _ozjjj5ZM;
+        "AK9vIaHl" = _AK9vIaHl;
+        "m4jGQbcm" = _m4jGQbcm;
+        "fabric-1.21.1" = _AK9vIaHl;
+        "neoforge-1.21.1" = _m4jGQbcm;
         "neoforge-1.21.2" = _XuOKUH6Z;
         "neoforge-1.21.3" = _XuOKUH6Z;
         "neoforge-1.21.4" = _XuOKUH6Z;
@@ -213,7 +225,8 @@ let
         "pkg-2.0" = _k3Hjy5kx;
         "pkg-2.0.1" = _PXki8vb3;
         "pkg-3.0" = _Us8koRQY;
-        "default" = _Us8koRQY;
+        "pkg-4.0" = _m4jGQbcm;
+        "default" = _m4jGQbcm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pokebike";

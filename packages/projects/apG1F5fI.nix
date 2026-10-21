@@ -41,6 +41,16 @@ let
             "file" = "survivalwings-3.1.jar";
             "hash" = "sha512-b61F50kJFmGuCA7opAlXfbVXgaEyavC7qFc+eqcd/dl7FTul09fz1Vn5/CR6jV83LR8l5YR2E9SKJ/stWt6ELQ==";
         };
+        _p1d4uUZp = {
+            "id" = "p1d4uUZp";
+            "file" = "survivalwings-1.21.1-1.0.0.jar";
+            "hash" = "sha512-7v9AJzxdeZuNo8vcB1sreBfMqxT6iOTikcIR+9dYRzCnHI7cS/WqcwAFPSnkRAly2dzOwBaL19JxHL42CCRk2A==";
+        };
+        _DMyi94J8 = {
+            "id" = "DMyi94J8";
+            "file" = "survivalwings-1.0.0.jar";
+            "hash" = "sha512-dfjq4GQ+N0qT9ChZltJpnUWaB2vvIKpRrFVCRWn2dwp/+WfKHmu8U0CT2w7FRj11/3gU7inWqmDB5RtqAefnlQ==";
+        };
     in {
         "NmcM3GfN" = _NmcM3GfN;
         "IBoegUDK" = _IBoegUDK;
@@ -50,7 +60,10 @@ let
         "ztSiArzV" = _ztSiArzV;
         "GKRxlZ0v" = _GKRxlZ0v;
         "CddBIlb1" = _CddBIlb1;
-        "forge-1.20.1" = _CddBIlb1;
+        "p1d4uUZp" = _p1d4uUZp;
+        "DMyi94J8" = _DMyi94J8;
+        "forge-1.20.1" = _DMyi94J8;
+        "neoforge-1.21.1" = _p1d4uUZp;
         "pkg-1.0.0" = _NmcM3GfN;
         "pkg-1.0.1" = _IBoegUDK;
         "pkg-1.0.2" = _SEYYmQl3;
@@ -59,7 +72,8 @@ let
         "pkg-2.0" = _ztSiArzV;
         "pkg-3.0" = _GKRxlZ0v;
         "pkg-3.1" = _CddBIlb1;
-        "default" = _CddBIlb1;
+        "pkg-1.0" = _DMyi94J8;
+        "default" = _DMyi94J8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "survival-wings-rebrushed";

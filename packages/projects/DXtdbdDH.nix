@@ -491,6 +491,21 @@ let
             "file" = "AutoPlanter-NeoForge-26.3-26.3.2.jar";
             "hash" = "sha512-RuqOmCL31i0QVNkLj9uFnwI49UktsV+ZkqZCrNLSxG4bSGUWrND4meKDexasOoJ73dpUJnmdybqjrNjf2Gzcag==";
         };
+        _Nb1JgFDd = {
+            "id" = "Nb1JgFDd";
+            "file" = "AutoPlanter-Forge-26.3-26.3.3.jar";
+            "hash" = "sha512-a5z2uMZVf1v38SGRDsq6vtn+Vi+oWerphYdfVczPIQLtV6IICe6UCMNsYHld2zCSjzJ9+1CDbqLW77JY+Vac/Q==";
+        };
+        _coWx42p3 = {
+            "id" = "coWx42p3";
+            "file" = "AutoPlanter-Fabric-26.3-26.3.3.jar";
+            "hash" = "sha512-psuHMIjSIiHMRC20w6T4XwtYuGY1+VLckfY6H9L9yanBQ0FLEb7NwCi/VSowFBdIrNzKb90ZWD95/TDw5+jiaA==";
+        };
+        _x9NxjFUJ = {
+            "id" = "x9NxjFUJ";
+            "file" = "AutoPlanter-NeoForge-26.3-26.3.3.jar";
+            "hash" = "sha512-poiWOkws7jGC4IhnjUw4l8Sfn81gVi2/5U08tl4prnanOepav/gem+jdyWaGVb/bAWUQquazxlFoJeXrnuP79Q==";
+        };
     in {
         "AKEg9aZd" = _AKEg9aZd;
         "SDsXzUd2" = _SDsXzUd2;
@@ -590,6 +605,9 @@ let
         "WvggQ5On" = _WvggQ5On;
         "w4XyBdL1" = _w4XyBdL1;
         "t21Rl7Fk" = _t21Rl7Fk;
+        "Nb1JgFDd" = _Nb1JgFDd;
+        "coWx42p3" = _coWx42p3;
+        "x9NxjFUJ" = _x9NxjFUJ;
         "fabric-1.20" = _AKEg9aZd;
         "fabric-1.20.1" = _nsGHIsCe;
         "fabric-1.20.2" = _mRZfhfOR;
@@ -608,7 +626,7 @@ let
         "fabric-1.21.11" = _kUYzJkO9;
         "fabric-26.1.2" = _Abhwx56Y;
         "fabric-26.2" = _s8k6v5FO;
-        "fabric-26.3" = _w4XyBdL1;
+        "fabric-26.3" = _coWx42p3;
         "forge-1.20" = _SDsXzUd2;
         "forge-1.20.1" = _lqeOTYNn;
         "forge-1.20.2" = _VGMjLsxE;
@@ -625,7 +643,7 @@ let
         "forge-1.21.11" = _X3m7ekwn;
         "forge-26.1.2" = _5vj3BnKt;
         "forge-26.2" = _VZO05XuI;
-        "forge-26.3" = _WvggQ5On;
+        "forge-26.3" = _Nb1JgFDd;
         "neoforge-1.20.2" = _4t4knoNM;
         "neoforge-1.20.3" = _PEOuGFCM;
         "neoforge-1.20.4" = _Ae0kDl1P;
@@ -642,7 +660,7 @@ let
         "neoforge-1.21.11" = _g8iN2xuc;
         "neoforge-26.1.2" = _aSV1hURi;
         "neoforge-26.2" = _zXrsuqmn;
-        "neoforge-26.3" = _t21Rl7Fk;
+        "neoforge-26.3" = _x9NxjFUJ;
         "pkg-20.0" = _SDsXzUd2;
         "pkg-20.1" = _xX40wlTy;
         "pkg-20.2" = _lqeOTYNn;
@@ -689,7 +707,10 @@ let
         "pkg-26.3.2-forge" = _WvggQ5On;
         "pkg-26.3.2-fabric" = _w4XyBdL1;
         "pkg-26.3.2-neoforge" = _t21Rl7Fk;
-        "default" = _t21Rl7Fk;
+        "pkg-26.3.3-forge" = _Nb1JgFDd;
+        "pkg-26.3.3-fabric" = _coWx42p3;
+        "pkg-26.3.3-neoforge" = _x9NxjFUJ;
+        "default" = _x9NxjFUJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "auto-planter";

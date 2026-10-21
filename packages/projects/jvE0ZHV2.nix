@@ -331,6 +331,16 @@ let
             "file" = "mcedia-mtv-allinone-versionpack-1.4.7.jar";
             "hash" = "sha512-VEcr/mWFgXIgTnl+CJbzUD9K4U82tQJbwuoPkUZTgR8v5kVju0VxRIyYOpLDBcnk3YSTxOF0SR8F8kv1sMfyNA==";
         };
+        _FD3EENFg = {
+            "id" = "FD3EENFg";
+            "file" = "mcedia-mtv-plugin-universal-1.4.8.jar";
+            "hash" = "sha512-5MGgGrggmqKvIGzZ50oPG92Kjg3lDuDZXsjpTPZX+IqQZafGhJcuzvY7qt4AoQv2gR0lGz30X3nowPCKksD4AQ==";
+        };
+        _zeqKUoca = {
+            "id" = "zeqKUoca";
+            "file" = "mcedia-mtv-allinone-versionpack-1.4.8.jar";
+            "hash" = "sha512-WNZFb5h29TKpzYILZB8n0zzS/dgpbNBgbkZQ1Qn/2kU7vwZIt/5XYaAcO73Vb51DbWi4yZ5wJ6kl/OD5P+QGGw==";
+        };
     in {
         "QIiJIvRw" = _QIiJIvRw;
         "pyCncVEx" = _pyCncVEx;
@@ -398,27 +408,32 @@ let
         "VH7czPMj" = _VH7czPMj;
         "7eG1r9qZ" = _7eG1r9qZ;
         "5S1O8pu5" = _5S1O8pu5;
+        "FD3EENFg" = _FD3EENFg;
+        "zeqKUoca" = _zeqKUoca;
         "fabric-1.21.4" = _KDhAtDPU;
         "fabric-1.21.6" = _26NiX8tH;
         "fabric-1.21.7" = _26NiX8tH;
         "fabric-1.21.5" = _75QU61Et;
-        "fabric-1.21.8" = _5S1O8pu5;
+        "fabric-1.21.8" = _zeqKUoca;
         "fabric-1.21.1" = _3w329wI4;
         "fabric-1.21.2" = _KDhAtDPU;
         "fabric-1.21.3" = _KDhAtDPU;
         "fabric-1.21.9" = _QW9vsKBY;
         "fabric-1.21.10" = _QW9vsKBY;
-        "fabric-1.21.11" = _5S1O8pu5;
-        "fabric-26.1" = _5S1O8pu5;
-        "fabric-26.1.1" = _5S1O8pu5;
-        "fabric-26.1.2" = _5S1O8pu5;
-        "fabric-26.2" = _5S1O8pu5;
-        "folia-1.21.11" = _7eG1r9qZ;
-        "folia-26.1" = _7eG1r9qZ;
-        "folia-26.2" = _7eG1r9qZ;
-        "paper-1.21.11" = _7eG1r9qZ;
-        "paper-26.1" = _7eG1r9qZ;
-        "paper-26.2" = _7eG1r9qZ;
+        "fabric-1.21.11" = _zeqKUoca;
+        "fabric-26.1" = _zeqKUoca;
+        "fabric-26.1.1" = _zeqKUoca;
+        "fabric-26.1.2" = _zeqKUoca;
+        "fabric-26.2" = _zeqKUoca;
+        "fabric-26.3" = _zeqKUoca;
+        "folia-1.21.11" = _FD3EENFg;
+        "folia-26.1" = _FD3EENFg;
+        "folia-26.2" = _FD3EENFg;
+        "folia-26.3" = _FD3EENFg;
+        "paper-1.21.11" = _FD3EENFg;
+        "paper-26.1" = _FD3EENFg;
+        "paper-26.2" = _FD3EENFg;
+        "paper-26.3" = _FD3EENFg;
         "pkg-0.1-1.21.4-FAB" = _QIiJIvRw;
         "pkg-0.1-1.21.6-FAB" = _pyCncVEx;
         "pkg-0.1-1.21.7-FAB" = _sPS0KkSR;
@@ -463,7 +478,9 @@ let
         "pkg-1.3.1+26.2" = _VH7czPMj;
         "pkg-1.4.7+paper-1.21.11-plus" = _7eG1r9qZ;
         "pkg-1.4.7-versionpack" = _5S1O8pu5;
-        "default" = _5S1O8pu5;
+        "pkg-1.4.8+paper-1.21.11-plus" = _FD3EENFg;
+        "pkg-1.4.8-versionpack" = _zeqKUoca;
+        "default" = _zeqKUoca;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mcedia";

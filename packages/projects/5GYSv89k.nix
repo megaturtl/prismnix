@@ -146,6 +146,16 @@ let
             "file" = "no-offline-time-passage-servers-only-1.7.jar";
             "hash" = "sha512-hT8q3Rsru/ifDHMVB0c6SJUhtAuzWDpuTgUn4sWjDl67otnU9n8X+V2KFUBMfjB7WBeCRNaETRH59QrSHf/nBQ==";
         };
+        _SpqVy80n = {
+            "id" = "SpqVy80n";
+            "file" = "No Offline Time Passage.zip";
+            "hash" = "sha512-giwO95N/J15TP1059eSBmGO6s8oxjg4bCpc1fID9gE0HGO5adQppLy1oyKZZoEFZ9OsEZMuJKz3hKBdicNIWug==";
+        };
+        _Jk6ZuYpL = {
+            "id" = "Jk6ZuYpL";
+            "file" = "no-offline-time-passage-servers-only-1.7.1.jar";
+            "hash" = "sha512-ZXuRQe6SftMG9gixfJbedCuHGFFcbh7G+082OIJqRDCT0CzlRY0Tbi8ILU2NSDa+mMQQD1a/Y5Tk7X2hdJG+vA==";
+        };
     in {
         "hLmB0uIW" = _hLmB0uIW;
         "mDQWQOOk" = _mDQWQOOk;
@@ -176,6 +186,8 @@ let
         "tGdL7KP4" = _tGdL7KP4;
         "576dMDig" = _576dMDig;
         "UKinLdfD" = _UKinLdfD;
+        "SpqVy80n" = _SpqVy80n;
+        "Jk6ZuYpL" = _Jk6ZuYpL;
         "datapack-1.20.2" = _hLmB0uIW;
         "datapack-1.21" = _mDQWQOOk;
         "datapack-1.21.3" = _uuXeqoqL;
@@ -191,7 +203,7 @@ let
         "datapack-1.21.10" = _smenQ4A1;
         "datapack-26.1" = _6O6vgrhG;
         "datapack-26.2" = _PIq2QSX4;
-        "datapack-26.3" = _576dMDig;
+        "datapack-26.3" = _SpqVy80n;
         "fabric-1.21.4" = _hV4EXPqx;
         "fabric-1.20.1" = _cFcXk2HG;
         "fabric-1.21.5" = _U6W9oFs1;
@@ -204,7 +216,7 @@ let
         "fabric-1.21.1" = _YHb5JttX;
         "fabric-26.1" = _q03Qqu3e;
         "fabric-26.2" = _rxdEdfmK;
-        "fabric-26.3" = _UKinLdfD;
+        "fabric-26.3" = _Jk6ZuYpL;
         "forge-1.21.4" = _hV4EXPqx;
         "forge-1.20.1" = _cFcXk2HG;
         "forge-1.21.5" = _U6W9oFs1;
@@ -217,15 +229,15 @@ let
         "forge-1.21.1" = _YHb5JttX;
         "forge-26.1" = _q03Qqu3e;
         "forge-26.2" = _rxdEdfmK;
-        "forge-26.3" = _UKinLdfD;
+        "forge-26.3" = _Jk6ZuYpL;
         "neoforge-1.21.11" = _e7LbcvxH;
         "neoforge-1.21.10" = _wzNdobv5;
         "neoforge-1.21.1" = _YHb5JttX;
         "neoforge-26.1" = _q03Qqu3e;
         "neoforge-26.2" = _rxdEdfmK;
-        "neoforge-26.3" = _UKinLdfD;
+        "neoforge-26.3" = _Jk6ZuYpL;
         "quilt-26.2" = _rxdEdfmK;
-        "quilt-26.3" = _UKinLdfD;
+        "quilt-26.3" = _Jk6ZuYpL;
         "pkg-1.0" = _hLmB0uIW;
         "pkg-1.1" = _mDQWQOOk;
         "pkg-1.2" = _U6W9oFs1;
@@ -239,7 +251,9 @@ let
         "pkg-1.6+mod" = _tGdL7KP4;
         "pkg-1.7" = _576dMDig;
         "pkg-1.7+mod" = _UKinLdfD;
-        "default" = _UKinLdfD;
+        "pkg-1.7.1" = _SpqVy80n;
+        "pkg-1.7.1+mod" = _Jk6ZuYpL;
+        "default" = _Jk6ZuYpL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "no-offline-time-passage(servers-only)";

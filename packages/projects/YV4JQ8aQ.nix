@@ -311,6 +311,11 @@ let
             "file" = "city_roads-2.0-forge-1.21.3.jar";
             "hash" = "sha512-aQ8HbDevBEl/V7kOidfz9J7xWVWupswRHt9zPxP9iL0HvAi7sNd3GeNPe8gq29gbyVNmaJJfYAIJf1ls0eUUDw==";
         };
+        _BycdwY0G = {
+            "id" = "BycdwY0G";
+            "file" = "city_roads-2.0-fabric-26.3.jar";
+            "hash" = "sha512-erlAYNyebuWQH0q9hSnPLaGa5SZAweaudzdmvsnVupe9b2PCpK2LlhGjUG4sOgYfqnU2qIxqEl2YuW2+3tLO6g==";
+        };
     in {
         "PnRTQcvh" = _PnRTQcvh;
         "xC1rzFe1" = _xC1rzFe1;
@@ -374,6 +379,7 @@ let
         "qgCAHRDt" = _qgCAHRDt;
         "QUcYonuS" = _QUcYonuS;
         "8Ruy04qV" = _8Ruy04qV;
+        "BycdwY0G" = _BycdwY0G;
         "neoforge-1.21.1" = _trLcQED6;
         "neoforge-1.21.3" = _pwc3klta;
         "neoforge-1.21.4" = _jKeJyu8A;
@@ -408,6 +414,7 @@ let
         "fabric-26.1.1" = _Qd7Slbk6;
         "fabric-26.1.2" = _Qd7Slbk6;
         "fabric-26.2" = _tgohdDnM;
+        "fabric-26.3" = _BycdwY0G;
         "pkg-0.1" = _PnRTQcvh;
         "pkg-0.2" = _xC1rzFe1;
         "pkg-0.3" = _EKIiigms;
@@ -424,8 +431,8 @@ let
         "pkg-1.4" = _XhCoqqpL;
         "pkg-1.5" = _dQLnit45;
         "pkg-1.6" = _mckyD0v7;
-        "pkg-2.0" = _8Ruy04qV;
-        "default" = _8Ruy04qV;
+        "pkg-2.0" = _BycdwY0G;
+        "default" = _BycdwY0G;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "city-roads";

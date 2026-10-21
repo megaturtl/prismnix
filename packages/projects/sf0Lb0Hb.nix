@@ -56,6 +56,11 @@ let
             "file" = "Kc's Growable Ores-1.20.1-1.0.8-Forge.jar";
             "hash" = "sha512-457Za6StFF6u+cORRO8QDe3HD2IZg07c57TYB3LpZOjwjhXsLW1kUiWBEfbNHa9kETfTFydWVZOH/NEzdMzoNg==";
         };
+        _zMAZ4ErX = {
+            "id" = "zMAZ4ErX";
+            "file" = "Kc's Growable Ores-1.20.1-1.0.7-Fabric.jar";
+            "hash" = "sha512-VEh41DsHe+JIu7tK6Ip+xAfU7yCiTRUJ/okvMeT1Nk2JF85DdsVh2pV8HEVApOYxXi23BSeX++ogWZ3qv5y47g==";
+        };
     in {
         "gG6DgG8y" = _gG6DgG8y;
         "RgCQBqhd" = _RgCQBqhd;
@@ -68,6 +73,7 @@ let
         "yoN2jLLI" = _yoN2jLLI;
         "qbw9rwUM" = _qbw9rwUM;
         "sLLmIk4x" = _sLLmIk4x;
+        "zMAZ4ErX" = _zMAZ4ErX;
         "forge-1.20.1" = _sLLmIk4x;
         "forge-1.7.10" = _RgCQBqhd;
         "forge-1.20.2" = _sLLmIk4x;
@@ -105,6 +111,12 @@ let
         "fabric-26.1" = _qbw9rwUM;
         "fabric-26.1.1" = _qbw9rwUM;
         "fabric-26.1.2" = _qbw9rwUM;
+        "fabric-1.20.1" = _zMAZ4ErX;
+        "fabric-1.20.2" = _zMAZ4ErX;
+        "fabric-1.20.3" = _zMAZ4ErX;
+        "fabric-1.20.4" = _zMAZ4ErX;
+        "fabric-1.20.5" = _zMAZ4ErX;
+        "fabric-1.20.6" = _zMAZ4ErX;
         "pkg-1.20.1-1.0.1" = _gG6DgG8y;
         "pkg-1.7.10-2.5.4" = _RgCQBqhd;
         "pkg-1.20.1-1.0.3" = _Pn9QxQfu;
@@ -116,7 +128,8 @@ let
         "pkg-26.1-1.0.6-Neoforge" = _yoN2jLLI;
         "pkg-26.1-1.0.6-Fabric" = _qbw9rwUM;
         "pkg-1.20.1-1.0.8-Forge" = _sLLmIk4x;
-        "default" = _sLLmIk4x;
+        "pkg-1.20.1-1.0.7-Fabric" = _zMAZ4ErX;
+        "default" = _zMAZ4ErX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kcs-growable-ores";

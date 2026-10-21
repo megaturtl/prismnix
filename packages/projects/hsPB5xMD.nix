@@ -381,6 +381,11 @@ let
             "file" = "immersive-hotbar-1.2.2-26.4-SNAPSHOT-3.jar";
             "hash" = "sha512-3ZimT4/0aIwCWTkVfQWZz7NOoPB5gbNhvtiAMLouN5bFVSfiQLYH9stWmFhPZsuv8S/CDoa0Bd4+AbGfAIlotQ==";
         };
+        _NfI6heCP = {
+            "id" = "NfI6heCP";
+            "file" = "immersive-hotbar-1.2.3.beta.1+26.4-SNAPSHOT-5.jar";
+            "hash" = "sha512-PnbadpCF/JRGCl6wV/Ny/X9sRsjRqjbfIk83jZfPNxMWKJipKZnAD+EFK9Gym0sQzi8Pw5QrIzRtcN7vRDBiZQ==";
+        };
     in {
         "tR5V3ad8" = _tR5V3ad8;
         "Ju847al0" = _Ju847al0;
@@ -458,6 +463,7 @@ let
         "xVNruKtZ" = _xVNruKtZ;
         "QjD1Dxre" = _QjD1Dxre;
         "SmfFDMWN" = _SmfFDMWN;
+        "NfI6heCP" = _NfI6heCP;
         "fabric-1.21" = _6GuPFBfw;
         "fabric-1.21.1" = _6GuPFBfw;
         "fabric-1.21.2" = _tUSmbhf9;
@@ -485,6 +491,7 @@ let
         "fabric-26.3" = _5p5svVAS;
         "fabric-26.4-snapshot-2" = _xVNruKtZ;
         "fabric-26.4-snapshot-3" = _SmfFDMWN;
+        "fabric-26.4-snapshot-5" = _NfI6heCP;
         "neoforge-1.21.9" = _QjD1Dxre;
         "neoforge-1.21.10" = _QjD1Dxre;
         "neoforge-1.21.11" = _QjD1Dxre;
@@ -574,7 +581,8 @@ let
         "pkg-1.2.2-26.4-SNAPSHOT-2" = _xVNruKtZ;
         "pkg-1.2.2-neoforge-1.21.9-1.21.11" = _QjD1Dxre;
         "pkg-1.2.2-26.4-SNAPSHOT-3" = _SmfFDMWN;
-        "default" = _SmfFDMWN;
+        "pkg-1.2.3.beta.1+26.4-SNAPSHOT-5" = _NfI6heCP;
+        "default" = _NfI6heCP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immersive-hotbar";

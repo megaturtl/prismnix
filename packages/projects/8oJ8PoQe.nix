@@ -51,6 +51,26 @@ let
             "file" = "end_villager_trader-1.0.1-neoforge-26.1.2.jar";
             "hash" = "sha512-vKdhij58dFaJA8Vhb/V7/5EcFGhaeF4yiihulVGukW+N9dApwr7U3wSudHuLN1owq6oghcBTg2IwPG7jMwj0sg==";
         };
+        _bM50aoBn = {
+            "id" = "bM50aoBn";
+            "file" = "end_villager_trader-1.0.1-neoforge-26.3.jar";
+            "hash" = "sha512-bYIWTKeDN3esDQtsF/KphAKKUZ/BAztS+fp52BXSrpqQwDG9oC0zgIVbUKn3lNQVko3+sgae9G7q2lOlOiBtiQ==";
+        };
+        _teaKPGkL = {
+            "id" = "teaKPGkL";
+            "file" = "end_villager_trader-1.0.0 Fabric 1.20.1.jar";
+            "hash" = "sha512-Sr2N3/vsljzOvkaTHFf9t1mek3YbghGUA0XBvnZENkSP/UsSDiC9RU2sIoo5pCFhGUCgC1E3Qy6jz/6VIDAXtA==";
+        };
+        _5yBn4qgo = {
+            "id" = "5yBn4qgo";
+            "file" = "end_villager_trader-1.0.0 Fabric 1.21.1.jar";
+            "hash" = "sha512-YoSl36JY4T3e3xvAIA8qPyVKOxLhORMoViHCujzWuV4g6BSpCg7IBF6v6hf0bIvgGU2r8U3sxzlgnFMwDmd6NA==";
+        };
+        _rzmwKLHP = {
+            "id" = "rzmwKLHP";
+            "file" = "end_villager_trader-1.0.0 Fabric 26.3.jar";
+            "hash" = "sha512-OykLzhVMbppnkuwhgRU4zmHER4n6EOP27Ren3WE1uspmNPz/LFgqyrUl1VM1koXsc8bN/9pR1dsp+Q3RuHOEMg==";
+        };
     in {
         "up0VlTa2" = _up0VlTa2;
         "Ulxcy9ES" = _Ulxcy9ES;
@@ -62,15 +82,23 @@ let
         "2wIlPG8l" = _2wIlPG8l;
         "jn2zMLYZ" = _jn2zMLYZ;
         "XKwaYjQw" = _XKwaYjQw;
+        "bM50aoBn" = _bM50aoBn;
+        "teaKPGkL" = _teaKPGkL;
+        "5yBn4qgo" = _5yBn4qgo;
+        "rzmwKLHP" = _rzmwKLHP;
         "forge-1.20.1" = _pFyAkhSR;
         "neoforge-1.20.6" = _HTTQXFNf;
         "neoforge-1.21.1" = _AeUm3GSA;
         "neoforge-1.21.4" = _2wIlPG8l;
         "neoforge-1.21.8" = _jn2zMLYZ;
         "neoforge-26.1.2" = _XKwaYjQw;
+        "neoforge-26.3" = _bM50aoBn;
+        "fabric-1.20.1" = _teaKPGkL;
+        "fabric-1.21.1" = _5yBn4qgo;
+        "fabric-26.3" = _rzmwKLHP;
         "pkg-1.0.0" = _DUOjyzXO;
-        "pkg-1.0.1" = _XKwaYjQw;
-        "default" = _XKwaYjQw;
+        "pkg-1.0.1" = _rzmwKLHP;
+        "default" = _rzmwKLHP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "end-villager-trader";

@@ -161,6 +161,26 @@ let
             "file" = "stepcrafter-fabric-26.1.2-1.0.3.jar";
             "hash" = "sha512-SnBACQ+U+WPBzT3/75Xn+LRJV0smd3VQlVi+El6Nfrfg6yiw54V6FYrG+c/n7mDjhq5OAVlEC8o1mceiKw79XQ==";
         };
+        _Lu3a8xqZ = {
+            "id" = "Lu3a8xqZ";
+            "file" = "stepcrafter-neoforge-1.21.1-0.1.10.jar";
+            "hash" = "sha512-0771uTHpn9l35Ppi6MSQk1SRmg15OPVvhdAkxL4h1bYrzxDgWJFEs7GA21tytfzt/jC4gGi2IfGWguIYybyeCA==";
+        };
+        _oJsQmF0R = {
+            "id" = "oJsQmF0R";
+            "file" = "stepcrafter-fabric-1.21.1-0.1.10.jar";
+            "hash" = "sha512-pc98wrSQTaEZBpXhMC7hiVZE33zvXSwZnj/vI73BKJduXQ3gvbvap55M9uyns1vRkYSkBkQofDjHgAhMP7uVYg==";
+        };
+        _2vJ3IJY2 = {
+            "id" = "2vJ3IJY2";
+            "file" = "stepcrafter-neoforge-26.1.2-1.0.4.jar";
+            "hash" = "sha512-xUc1EKI4pDwd1WfaueyVRQf3iMtNLn2XqBEbHz06M63IDiIZ2BW/RmIZf4Bapr2HddUmznxM3MfH5qV70gT44w==";
+        };
+        _xWG1O7Gx = {
+            "id" = "xWG1O7Gx";
+            "file" = "stepcrafter-fabric-26.1.2-1.0.4.jar";
+            "hash" = "sha512-+/ulfPIMRfBgu4Lg5lUKnOfZBlHq0clifnNwbf/0WDhQ2fSSyZxZSUmQwN5awfJjDxOuqiiFH+RhYuvkJBU+AQ==";
+        };
     in {
         "DG483GUj" = _DG483GUj;
         "Iwg2LAYE" = _Iwg2LAYE;
@@ -194,10 +214,14 @@ let
         "dXBuD7kB" = _dXBuD7kB;
         "ZpjjuMkY" = _ZpjjuMkY;
         "rZJDc4o4" = _rZJDc4o4;
-        "neoforge-1.21.1" = _XneLArMN;
-        "neoforge-26.1.2" = _ZpjjuMkY;
-        "fabric-1.21.1" = _dXBuD7kB;
-        "fabric-26.1.2" = _rZJDc4o4;
+        "Lu3a8xqZ" = _Lu3a8xqZ;
+        "oJsQmF0R" = _oJsQmF0R;
+        "2vJ3IJY2" = _2vJ3IJY2;
+        "xWG1O7Gx" = _xWG1O7Gx;
+        "neoforge-1.21.1" = _Lu3a8xqZ;
+        "neoforge-26.1.2" = _2vJ3IJY2;
+        "fabric-1.21.1" = _oJsQmF0R;
+        "fabric-26.1.2" = _xWG1O7Gx;
         "pkg-1.21.1-0.0.1" = _Iwg2LAYE;
         "pkg-1.21.1-0.0.2" = _VlFN1E7d;
         "pkg-1.21.1-0.1.0" = _JNSyZ1Oz;
@@ -214,7 +238,9 @@ let
         "pkg-1.21.1-0.1.8" = _Ks84q8Lf;
         "pkg-1.21.1-0.1.9" = _dXBuD7kB;
         "pkg-26.1.2-1.0.3" = _rZJDc4o4;
-        "default" = _rZJDc4o4;
+        "pkg-1.21.1-0.1.10" = _oJsQmF0R;
+        "pkg-26.1.2-1.0.4" = _xWG1O7Gx;
+        "default" = _xWG1O7Gx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "step-crafter";

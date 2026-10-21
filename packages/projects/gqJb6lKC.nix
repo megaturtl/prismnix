@@ -51,6 +51,11 @@ let
             "file" = "advanced_tower_defense_mod-3.7-forge-1.20.1.jar";
             "hash" = "sha512-GiAZhlS+VM1tqb3tdhGgj47SujNbYq9XC/WstE6DyaiJr62PqhmoDkC/prsQcBQ9TksA3Py20an+hdHYjYBj+w==";
         };
+        _jX71cw8r = {
+            "id" = "jX71cw8r";
+            "file" = "advanced_tower_defense_mod-3.8-forge-1.20.1.jar";
+            "hash" = "sha512-ZETSoAaKr61jQnar/HewLq5KnwhS7PQRUEwVJY1ER1YMQ7zx7EY8tnrVW5mQyJcBD52Z4W7Ai4z6vXM67eE0mQ==";
+        };
     in {
         "lMuyvL8b" = _lMuyvL8b;
         "UYTYDzvM" = _UYTYDzvM;
@@ -62,7 +67,8 @@ let
         "aPWkl48w" = _aPWkl48w;
         "29RwVj8L" = _29RwVj8L;
         "YtAr5sfB" = _YtAr5sfB;
-        "forge-1.20.1" = _YtAr5sfB;
+        "jX71cw8r" = _jX71cw8r;
+        "forge-1.20.1" = _jX71cw8r;
         "pkg-1.0.0" = _lMuyvL8b;
         "pkg-1.01" = _UYTYDzvM;
         "pkg-1.0.2" = _lxXeBTN0;
@@ -73,7 +79,8 @@ let
         "pkg-3.5" = _aPWkl48w;
         "pkg-3.6" = _29RwVj8L;
         "pkg-3.7" = _YtAr5sfB;
-        "default" = _YtAr5sfB;
+        "pkg-3.8" = _jX71cw8r;
+        "default" = _jX71cw8r;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "advanced-tower-defense-mod";

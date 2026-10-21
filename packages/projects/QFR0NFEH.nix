@@ -26,19 +26,26 @@ let
             "file" = "the_beyond-1.0.0.jar";
             "hash" = "sha512-cJ8qi5TpLCDFBSd3VuVjwxk2GBBuDHUdoH6qjQ4k9c52ebkB7hvfkUcsuv9s+1uocEJgwYSwD1DYjZDNSAAkFg==";
         };
+        _aBH0IbX3 = {
+            "id" = "aBH0IbX3";
+            "file" = "the_beyond-1.0.1.jar";
+            "hash" = "sha512-pe9FV2God0FHY/eRpP+73d3iK/Gb/6X0wVo1+0sVHHiFiUU8YwpiZAWu+F3+y1wqvrH9rH6fJnMHWzGqrMGmxg==";
+        };
     in {
         "fjgoZ3ti" = _fjgoZ3ti;
         "dulmktgZ" = _dulmktgZ;
         "mCOIl8bE" = _mCOIl8bE;
         "AxM8UD5v" = _AxM8UD5v;
         "RwrA0IJe" = _RwrA0IJe;
-        "neoforge-1.21.1" = _RwrA0IJe;
+        "aBH0IbX3" = _aBH0IbX3;
+        "neoforge-1.21.1" = _aBH0IbX3;
         "pkg-0.1.0" = _fjgoZ3ti;
         "pkg-0.0.3-InDev" = _dulmktgZ;
         "pkg-0.0.4-InDev" = _mCOIl8bE;
         "pkg-0.0.5-InDev" = _AxM8UD5v;
         "pkg-1.0.0" = _RwrA0IJe;
-        "default" = _RwrA0IJe;
+        "pkg-1.0.1" = _aBH0IbX3;
+        "default" = _aBH0IbX3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-beyond";

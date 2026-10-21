@@ -176,6 +176,11 @@ let
             "file" = "wetland_whimsy-2.0.4-1.21.1.jar";
             "hash" = "sha512-el+UTUO9gxdSKyfRlyzhHgq4MOIvnGXCEQPzCk4ev3ZyC+iAKkD+TARm8FEoFLMdptu5TWUiOSPbAfohHJbFnQ==";
         };
+        _rSs37OB4 = {
+            "id" = "rSs37OB4";
+            "file" = "wetland_whimsy-2.1.0-1.21.1.jar";
+            "hash" = "sha512-0W75CCBtgNSl7qffUgaS1c7+/hVeCNCZf8N00yV+jBWByqPaLGK5EOdXB2l9STcppGGtwsTz0cTrYPXGY16o+A==";
+        };
     in {
         "IibNIf62" = _IibNIf62;
         "9HxM5iIZ" = _9HxM5iIZ;
@@ -212,7 +217,8 @@ let
         "GAUIiiMT" = _GAUIiiMT;
         "IzZRu6cT" = _IzZRu6cT;
         "nJipj2lk" = _nJipj2lk;
-        "neoforge-1.21.1" = _nJipj2lk;
+        "rSs37OB4" = _rSs37OB4;
+        "neoforge-1.21.1" = _rSs37OB4;
         "neoforge-1.20.1" = _OtmA6Gy5;
         "forge-1.20.1" = _AEk8W7Wy;
         "pkg-0.1" = _IibNIf62;
@@ -250,7 +256,8 @@ let
         "pkg-2.0.2-1.21.1" = _GAUIiiMT;
         "pkg-2.0.3-1.21.1" = _IzZRu6cT;
         "pkg-2.0.4-1.21.1" = _nJipj2lk;
-        "default" = _nJipj2lk;
+        "pkg-2.1.0-1.21.1" = _rSs37OB4;
+        "default" = _rSs37OB4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wetland-whimsy";

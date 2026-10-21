@@ -71,6 +71,11 @@ let
             "file" = "vortylib-1.2.5.3.jar";
             "hash" = "sha512-1akIot8+zRt9YELiKxGSKfsQWZKi3nNsUgIbZA0oNRGcwurPeivnjyIYOhNb9Po/CE1rpYjv/Nct/hV5eRG1zw==";
         };
+        _UQOGOML3 = {
+            "id" = "UQOGOML3";
+            "file" = "vortylib-1.2.6.jar";
+            "hash" = "sha512-vryFVfq9v1cy95lLR3MITdu1lZHK+QWFKIfqiEJdPXDKag5YoI6WpEBpCLlbX3+Ot0QI4fzDQRtbblp9XjfSkA==";
+        };
     in {
         "xoEPpZ0X" = _xoEPpZ0X;
         "tp1QsEM6" = _tp1QsEM6;
@@ -86,7 +91,8 @@ let
         "xNOPMtPL" = _xNOPMtPL;
         "OFGkx5zX" = _OFGkx5zX;
         "t6mtVRbL" = _t6mtVRbL;
-        "neoforge-1.21.1" = _t6mtVRbL;
+        "UQOGOML3" = _UQOGOML3;
+        "neoforge-1.21.1" = _UQOGOML3;
         "forge-1.20.1" = _OFGkx5zX;
         "pkg-1.0" = _xoEPpZ0X;
         "pkg-1.1" = _tp1QsEM6;
@@ -99,7 +105,8 @@ let
         "pkg-1.2.5.1" = _nSjGEaix;
         "pkg-1.2.5.2" = _OFGkx5zX;
         "pkg-1.2.5.3" = _t6mtVRbL;
-        "default" = _t6mtVRbL;
+        "pkg-1.2.6" = _UQOGOML3;
+        "default" = _UQOGOML3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vortylib";

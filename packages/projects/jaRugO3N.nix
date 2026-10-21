@@ -11,13 +11,20 @@ let
             "file" = "avengersmod-2.0.0 .jar";
             "hash" = "sha512-19iFm0SlC5ud9+EfOAuZhMGPskR+IyJPE/XHGb/gql/gEL6HwUbddHMc7tdY5xvVko6fzx+vIm5bMxu3p+871g==";
         };
+        _RSjidVVM = {
+            "id" = "RSjidVVM";
+            "file" = "avengersmod-1.0.0.jar";
+            "hash" = "sha512-ZvZDnjuNte+KDwAfqG6Gwt0mdBYmqHlzfF3uoJ583qRV+bnExy69VzykY+NZPFnq7GNFZYH3qGcy5WRxaQCG/A==";
+        };
     in {
         "Tzyuo8jf" = _Tzyuo8jf;
         "NXW83o3j" = _NXW83o3j;
+        "RSjidVVM" = _RSjidVVM;
         "fabric-1.21.11" = _Tzyuo8jf;
         "fabric-26.2" = _NXW83o3j;
-        "pkg-1.0.0" = _NXW83o3j;
-        "default" = _NXW83o3j;
+        "fabric-26.3" = _RSjidVVM;
+        "pkg-1.0.0" = _RSjidVVM;
+        "default" = _RSjidVVM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "avengers";

@@ -51,6 +51,21 @@ let
             "file" = "KeybindAtlas-v2.0.0-mc1.21.1-neoforge.jar";
             "hash" = "sha512-j9UTOoICAvxz7AKkn8+hmBwMshuHGyeMJadcnaWyA9NNFpEvjtNHX7UVRwxUoCGBFL93xDEeE7zGPSNJN2mI+Q==";
         };
+        _JD9xjSs2 = {
+            "id" = "JD9xjSs2";
+            "file" = "KeybindAtlas-v2.0.0-mc1.21.1-fabric.jar";
+            "hash" = "sha512-Uage5vzYHU02VbDCj/zhARI8VGQqU8RyN1hcEJektlspwLAE51FszLvRdKY6cu9Fm+Zze4546F1mpUbY5MDNLw==";
+        };
+        _E95sdTmi = {
+            "id" = "E95sdTmi";
+            "file" = "KeybindAtlas-v2.0.0-mc1.20.1-fabric.jar";
+            "hash" = "sha512-re60i2lz7w2i0us44yYjHUqyvUtOasW+wlTdL3l7r36kE8TBvXYbz34U8JznrUYJkHv2/h0YjEUyyMZJ7MJ2AA==";
+        };
+        _7aG2ZCaU = {
+            "id" = "7aG2ZCaU";
+            "file" = "KeybindAtlas-v2.0.0-mc26.2-neoforge.jar";
+            "hash" = "sha512-r06CGWIxoheDceEKi92u3q+PZ40CDzbIwHEWYuVzLfrh5qJ66wkIqpzWwdEEpw3AWTlNDXycRdrpF2eISqOpXw==";
+        };
     in {
         "m9vhAuEP" = _m9vhAuEP;
         "SdqAGJHB" = _SdqAGJHB;
@@ -62,17 +77,23 @@ let
         "MrzMcDXs" = _MrzMcDXs;
         "HGCzXJmT" = _HGCzXJmT;
         "zT1hSwL5" = _zT1hSwL5;
+        "JD9xjSs2" = _JD9xjSs2;
+        "E95sdTmi" = _E95sdTmi;
+        "7aG2ZCaU" = _7aG2ZCaU;
         "forge-1.20.1" = _HGCzXJmT;
         "neoforge-1.20.1" = _HGCzXJmT;
         "neoforge-1.21.1" = _zT1hSwL5;
+        "neoforge-26.2" = _7aG2ZCaU;
+        "fabric-1.21.1" = _JD9xjSs2;
+        "fabric-1.20.1" = _E95sdTmi;
         "pkg-1.0.0" = _m9vhAuEP;
         "pkg-1.1.0" = _SdqAGJHB;
         "pkg-1.2.0" = _JuF0Qzei;
         "pkg-1.3.0" = _co95sn88;
         "pkg-1.3.1" = _rPSHJz9d;
         "pkg-1.4.0" = _MrzMcDXs;
-        "pkg-2.0.0" = _zT1hSwL5;
-        "default" = _zT1hSwL5;
+        "pkg-2.0.0" = _7aG2ZCaU;
+        "default" = _7aG2ZCaU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "keybind-atlas";

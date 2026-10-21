@@ -151,6 +151,31 @@ let
             "file" = "rw_additionalpaintings-reforged-2.0.1-26.3.jar";
             "hash" = "sha512-8TjSkwolbRrEHQeoQQ6d7ZQHK4M1AONbyjkl8mYAb+o11WqyxFxareOKXjOSrl8OKoLD+z3PcKnyY0I536ACoA==";
         };
+        _Hxt3SnmZ = {
+            "id" = "Hxt3SnmZ";
+            "file" = "rw_additionalpaintings-reforged-2.1.0-1.20.1.jar";
+            "hash" = "sha512-GSEFd8YQelRfPTlndfkfbD/wphLtcqcPVL7EARcbVaBx2iq1a34fHdrw8qVXemDA5F0nAG+tzl4gSLkgPdOtXA==";
+        };
+        _fUp84CNy = {
+            "id" = "fUp84CNy";
+            "file" = "rw_additionalpaintings-reforged-2.1.0-1.21.1.jar";
+            "hash" = "sha512-Ext+i9etzE5mLhm4mzoQbNitCm9wX7FPoFisc1sUPeWiWaQcJgDmRqapwwyZqDCn+4QUO8b8GPg43QarOdkPFA==";
+        };
+        _b1dK9yjr = {
+            "id" = "b1dK9yjr";
+            "file" = "rw_additionalpaintings-reforged-2.1.0-26.1.2.jar";
+            "hash" = "sha512-ao0JZhpwVNvBgBAMDW426VTBzoC9KkHdhwrgYkC0eHNylN3SypN0GhKjy/FJd8VePyXi4kujmtH1ImnpVNKiag==";
+        };
+        _UZlkESPc = {
+            "id" = "UZlkESPc";
+            "file" = "rw_additionalpaintings-reforged-2.1.0-26.2.jar";
+            "hash" = "sha512-9WGZbdSzx7XyojwNnXMFNkA4Cp80YLoUgt4sNpVSBgTFIV87GvZzDcp5Db9YD7LItrihQmT5VuwfRINgN2Jgbw==";
+        };
+        _N8XV82dN = {
+            "id" = "N8XV82dN";
+            "file" = "rw_additionalpaintings-reforged-2.1.0-26.3.jar";
+            "hash" = "sha512-rPesgzKU7czelLmB2D6m0Gf3wCw7acEnBUm2ceaQvMs/FMLaDeDDchWoIbk9TCehtoolr8dVTYhSuxJg1nyKkw==";
+        };
     in {
         "aONPIc2m" = _aONPIc2m;
         "NRWHZytq" = _NRWHZytq;
@@ -182,7 +207,12 @@ let
         "a2HtjHH2" = _a2HtjHH2;
         "gI1Cahax" = _gI1Cahax;
         "jTfElqio" = _jTfElqio;
-        "forge-1.20.1" = _9Nn3CSIL;
+        "Hxt3SnmZ" = _Hxt3SnmZ;
+        "fUp84CNy" = _fUp84CNy;
+        "b1dK9yjr" = _b1dK9yjr;
+        "UZlkESPc" = _UZlkESPc;
+        "N8XV82dN" = _N8XV82dN;
+        "forge-1.20.1" = _Hxt3SnmZ;
         "forge-1.16.5" = _ZeVWntAP;
         "forge-1.14.4" = _f3MSAb6E;
         "forge-1.18.2" = _9rg3N4IE;
@@ -201,15 +231,15 @@ let
         "neoforge-1.20.4" = _VPZYL7kc;
         "neoforge-1.20.6" = _wUBPaXeV;
         "neoforge-1.21" = _u2JOsAlt;
-        "neoforge-1.21.1" = _wCD8cm5e;
+        "neoforge-1.21.1" = _fUp84CNy;
         "neoforge-1.21.2" = _OS0r0wDn;
         "neoforge-1.21.3" = _OS0r0wDn;
         "neoforge-1.21.4" = _OS0r0wDn;
         "neoforge-1.20.1" = _R6O2gpXi;
         "neoforge-1.21.8" = _HE6nY9ll;
-        "neoforge-26.1.2" = _a2HtjHH2;
-        "neoforge-26.2" = _gI1Cahax;
-        "neoforge-26.3" = _jTfElqio;
+        "neoforge-26.1.2" = _b1dK9yjr;
+        "neoforge-26.2" = _UZlkESPc;
+        "neoforge-26.3" = _N8XV82dN;
         "quilt-1.20.1" = _cywLXNYe;
         "quilt-1.20.2" = _cywLXNYe;
         "quilt-1.20.3" = _cywLXNYe;
@@ -226,7 +256,8 @@ let
         "pkg-1.4.0" = _4tw6c1J9;
         "pkg-1.4.1" = _HE6nY9ll;
         "pkg-2.0.1" = _jTfElqio;
-        "default" = _jTfElqio;
+        "pkg-2.1.0" = _N8XV82dN;
+        "default" = _N8XV82dN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rispwinds-additional-paintings-forgefabric";

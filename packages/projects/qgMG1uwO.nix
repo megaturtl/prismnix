@@ -51,6 +51,11 @@ let
             "file" = "rail-path-tool-2.0.0.jar";
             "hash" = "sha512-oQNLFdefzpFgtfZjeEIyYmJRacrhU54ceRApvErKUH6Hsi4eCeX3V8ZmDt5vu10dawHpx6gRNChJxvtmoN0lgg==";
         };
+        _wAp6mKOH = {
+            "id" = "wAp6mKOH";
+            "file" = "rail-path-tool-2.0.1.jar";
+            "hash" = "sha512-IHAFsd8mvhuWfobz0M4gv8AUFfs1ReeteIe7nC42n4E5H2gbIsuvbB0/zXSv8QWXfW96tSyDoFS1Do/GDmTd+w==";
+        };
     in {
         "oDXvcaAn" = _oDXvcaAn;
         "G6JYkXHE" = _G6JYkXHE;
@@ -62,8 +67,9 @@ let
         "myP82KpV" = _myP82KpV;
         "sUnT1qBb" = _sUnT1qBb;
         "UAvsNMKU" = _UAvsNMKU;
-        "fabric-1.21.10" = _UAvsNMKU;
-        "fabric-1.21.11" = _UAvsNMKU;
+        "wAp6mKOH" = _wAp6mKOH;
+        "fabric-1.21.10" = _wAp6mKOH;
+        "fabric-1.21.11" = _wAp6mKOH;
         "pkg-1.0.0" = _oDXvcaAn;
         "pkg-1.0.1" = _G6JYkXHE;
         "pkg-1.0.3" = _6EsGQAvm;
@@ -74,7 +80,8 @@ let
         "pkg-1.0.50" = _myP82KpV;
         "pkg-1.0.55" = _sUnT1qBb;
         "pkg-2.0.0" = _UAvsNMKU;
-        "default" = _UAvsNMKU;
+        "pkg-2.0.1" = _wAp6mKOH;
+        "default" = _wAp6mKOH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "railway-tools-for-axioms";

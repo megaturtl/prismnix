@@ -91,6 +91,21 @@ let
             "file" = "attack-blocker-0.5-1.21.10-fabric.jar";
             "hash" = "sha512-uDK+Uv0mGmJTjAKX2Lpr/jzjD36iOqHlqeA1ZVsQrOf3sh5DT270wbzFEnXhYiQ6yXjfZDWFpK9jSUJhGJEuTQ==";
         };
+        _HPpI2swY = {
+            "id" = "HPpI2swY";
+            "file" = "attack-blocker-0.5-26.1-fabric.jar";
+            "hash" = "sha512-BIbNtL3bh961IXIZFbcXb2RfQ0oCo5BjAQqX6eaEEaXLd78OnBIovlSbrNusbyldiATG4zE+xPIAMt7L2yJaIQ==";
+        };
+        _mgGGgfrG = {
+            "id" = "mgGGgfrG";
+            "file" = "attack-blocker-0.5-26.2-fabric.jar";
+            "hash" = "sha512-fUfvk2B0r/LxojRhuh90HuuJiTQCO5DkINzhemU67nU8C8nxdMDK0jTuJ1u6WTX+0WzOoU/m1qQ+Kf6bnmH4FQ==";
+        };
+        _tIjT3AAt = {
+            "id" = "tIjT3AAt";
+            "file" = "attack-blocker-0.5-26.3-fabric.jar";
+            "hash" = "sha512-/gYFlKchBLQdJL8/4MDVeAzmv4hFx6ui7gtMGVMfYMFBA0js6WWnPUJNEk2jEqz2YF31+lbgK76/Nz7DtBwfJg==";
+        };
     in {
         "koBeV9au" = _koBeV9au;
         "B8De5AUP" = _B8De5AUP;
@@ -110,6 +125,9 @@ let
         "ymRqU9hl" = _ymRqU9hl;
         "dGnhiGdH" = _dGnhiGdH;
         "DU8pN6OP" = _DU8pN6OP;
+        "HPpI2swY" = _HPpI2swY;
+        "mgGGgfrG" = _mgGGgfrG;
+        "tIjT3AAt" = _tIjT3AAt;
         "fabric-1.20.6" = _QV3O0TvU;
         "fabric-1.20" = _R8wf9HNQ;
         "fabric-1.20.1" = _R8wf9HNQ;
@@ -129,6 +147,9 @@ let
         "fabric-1.21.9" = _DU8pN6OP;
         "fabric-1.21.10" = _DU8pN6OP;
         "fabric-1.21.11" = _DU8pN6OP;
+        "fabric-26.1" = _HPpI2swY;
+        "fabric-26.2" = _mgGGgfrG;
+        "fabric-26.3" = _tIjT3AAt;
         "pkg-0.1-1.20.6-fabric" = _koBeV9au;
         "pkg-0.2-1.20-fabric" = _B8De5AUP;
         "pkg-0.2-1.20.2-fabric" = _oV8VMieQ;
@@ -147,7 +168,10 @@ let
         "pkg-0.5-1.21-fabric" = _ymRqU9hl;
         "pkg-0.5-1.21.5-fabric" = _dGnhiGdH;
         "pkg-0.5-1.21.10-fabric" = _DU8pN6OP;
-        "default" = _DU8pN6OP;
+        "pkg-0.5-26.1-fabric" = _HPpI2swY;
+        "pkg-0.5-26.2-fabric" = _mgGGgfrG;
+        "pkg-0.5-26.3-fabric" = _tIjT3AAt;
+        "default" = _tIjT3AAt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "attack-blocker";

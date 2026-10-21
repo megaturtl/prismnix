@@ -31,6 +31,16 @@ let
             "file" = "flight-enchantment-1.0.0.jar";
             "hash" = "sha512-Gp+v1koKjfAxRgJtVwBjzsst21tmWzzBxY0w3FcdvtON6raFlkR+hHSuFZiHL/1WM0qAlOONfpErFxjLskelug==";
         };
+        _uHudPfPI = {
+            "id" = "uHudPfPI";
+            "file" = "Flight Enchantment v1.0.1 [26.3].zip";
+            "hash" = "sha512-47GyT7oAHpT18ZQeVuyfwP3y73wxpL2jp16cMBmxRPbM7qKNMZXVDyzj6n6ChUtTNM5t2q4M3C1UeRBH9xcUOA==";
+        };
+        _m2EIFnbu = {
+            "id" = "m2EIFnbu";
+            "file" = "flight-enchantment-1.0.1.jar";
+            "hash" = "sha512-nJa5mX2naPy2R0uYDSAZPcZ/AjYOwzKCGq+mb4Aa4d1U2NeYMkvGnoFENTbppN1/8s8QhFIGtXaG2BDIqp5pew==";
+        };
     in {
         "XjGPUIHF" = _XjGPUIHF;
         "ws0AMCU5" = _ws0AMCU5;
@@ -38,39 +48,43 @@ let
         "PaUcHOt6" = _PaUcHOt6;
         "UkkVZIKr" = _UkkVZIKr;
         "bx0tYX8v" = _bx0tYX8v;
+        "uHudPfPI" = _uHudPfPI;
+        "m2EIFnbu" = _m2EIFnbu;
         "datapack-1.21.11" = _XjGPUIHF;
         "datapack-26.1" = _XjGPUIHF;
         "datapack-26.1.1" = _XjGPUIHF;
         "datapack-26.1.2" = _XjGPUIHF;
         "datapack-26.2" = _ZuhEhxyD;
-        "datapack-26.3" = _UkkVZIKr;
+        "datapack-26.3" = _uHudPfPI;
         "fabric-1.21.11" = _ws0AMCU5;
         "fabric-26.1" = _ws0AMCU5;
         "fabric-26.1.1" = _ws0AMCU5;
         "fabric-26.1.2" = _ws0AMCU5;
         "fabric-26.2" = _PaUcHOt6;
-        "fabric-26.3" = _bx0tYX8v;
+        "fabric-26.3" = _m2EIFnbu;
         "forge-1.21.11" = _ws0AMCU5;
         "forge-26.1" = _ws0AMCU5;
         "forge-26.1.1" = _ws0AMCU5;
         "forge-26.1.2" = _ws0AMCU5;
         "forge-26.2" = _PaUcHOt6;
-        "forge-26.3" = _bx0tYX8v;
+        "forge-26.3" = _m2EIFnbu;
         "neoforge-1.21.11" = _ws0AMCU5;
         "neoforge-26.1" = _ws0AMCU5;
         "neoforge-26.1.1" = _ws0AMCU5;
         "neoforge-26.1.2" = _ws0AMCU5;
         "neoforge-26.2" = _PaUcHOt6;
-        "neoforge-26.3" = _bx0tYX8v;
+        "neoforge-26.3" = _m2EIFnbu;
         "quilt-1.21.11" = _ws0AMCU5;
         "quilt-26.1" = _ws0AMCU5;
         "quilt-26.1.1" = _ws0AMCU5;
         "quilt-26.1.2" = _ws0AMCU5;
         "quilt-26.2" = _PaUcHOt6;
-        "quilt-26.3" = _bx0tYX8v;
+        "quilt-26.3" = _m2EIFnbu;
         "pkg-1.0.0" = _UkkVZIKr;
         "pkg-1.0.0+mod" = _bx0tYX8v;
-        "default" = _bx0tYX8v;
+        "pkg-1.0.1" = _uHudPfPI;
+        "pkg-1.0.1+mod" = _m2EIFnbu;
+        "default" = _m2EIFnbu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "flight-enchantment";

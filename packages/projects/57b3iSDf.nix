@@ -321,6 +321,11 @@ let
             "file" = "pop_up_emotes-1.5.6.jar";
             "hash" = "sha512-0YFZouFISZYaAOgt9I8gdy/PEfdR137gS7HIoXpZx7I4Go1cQ4gf41P69F+N/idYX6k4tQewuIg6ukmTtvb8YQ==";
         };
+        _OxfQXYVx = {
+            "id" = "OxfQXYVx";
+            "file" = "pop_up_emotes-1.5.6-1.jar";
+            "hash" = "sha512-VytE8Rabx486w6v/uFM24LntMvU99kT31onG4eT9l/u1dG0b9fRvT7Yo/BtBf9OMJHudTGTwZVoUBJbl8N5heA==";
+        };
     in {
         "3IFIi1Zu" = _3IFIi1Zu;
         "XKm4AvPN" = _XKm4AvPN;
@@ -386,11 +391,12 @@ let
         "bIbhV2zo" = _bIbhV2zo;
         "V5qmT5vo" = _V5qmT5vo;
         "nAE3d00P" = _nAE3d00P;
+        "OxfQXYVx" = _OxfQXYVx;
         "forge-1.20.1" = _NKDYUJeG;
         "forge-1.19.2" = _XKm4AvPN;
         "neoforge-1.21.1" = _pEtZp06z;
         "neoforge-1.21.10" = _mmpz2DkC;
-        "neoforge-26.3" = _UpirakPF;
+        "neoforge-26.3" = _OxfQXYVx;
         "fabric-1.20.1" = _V5qmT5vo;
         "fabric-1.21.11" = _bIbhV2zo;
         "fabric-1.21.8" = _br5AChAX;
@@ -422,7 +428,8 @@ let
         "pkg-1.5.4" = _Yz3wbxVZ;
         "pkg-1.5.5" = _jxHlimN9;
         "pkg-1.5.6" = _nAE3d00P;
-        "default" = _nAE3d00P;
+        "pkg-1.5.6-1" = _OxfQXYVx;
+        "default" = _OxfQXYVx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pop-up-emotes";

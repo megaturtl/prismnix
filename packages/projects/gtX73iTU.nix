@@ -81,6 +81,11 @@ let
             "file" = "avaritia_delight-0.3.4.jar";
             "hash" = "sha512-vp4VoEp/+4QnnliIPdcfanaqyI9D32vsERxczESM7ZKTVA2HNrc+i9RtbP3YZn5DkuiZC/M1vEFmK87K+k7TIg==";
         };
+        _1rfsBIX6 = {
+            "id" = "1rfsBIX6";
+            "file" = "avaritia_delight-1.20.1-0.3.4-fix.jar";
+            "hash" = "sha512-+W3yvxGK88xNPe33IQG3c80ndzCeqOOfp9O1bmtmHsNo7VYM+26nOpETxpeoegeLLMRFafrEZkPe8lmsJw7Rsw==";
+        };
     in {
         "7VUQs3QX" = _7VUQs3QX;
         "OdoqvOxX" = _OdoqvOxX;
@@ -98,7 +103,8 @@ let
         "RNUA0O9n" = _RNUA0O9n;
         "jKclpmBp" = _jKclpmBp;
         "gLzTpuRt" = _gLzTpuRt;
-        "forge-1.20.1" = _gLzTpuRt;
+        "1rfsBIX6" = _1rfsBIX6;
+        "forge-1.20.1" = _1rfsBIX6;
         "neoforge-1.20.1" = _XhjlBIxb;
         "neoforge-1.21.1" = _QtdkM9Oa;
         "pkg-0.1" = _7VUQs3QX;
@@ -117,7 +123,8 @@ let
         "pkg-1.20.1-0.3.3" = _RNUA0O9n;
         "pkg-1.20.1-0.3.3-fix" = _jKclpmBp;
         "pkg-1.20.1-0.3.4" = _gLzTpuRt;
-        "default" = _gLzTpuRt;
+        "pkg-1.20.1-0.3.4-fix" = _1rfsBIX6;
+        "default" = _1rfsBIX6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "avaritias-delight";

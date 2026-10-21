@@ -81,6 +81,16 @@ let
             "file" = "tolerable_creepers-fabric-1.21.1-2.2.4.jar";
             "hash" = "sha512-PyNJds4ohH+TMh4NLV4rhHx0rCQ/6qLtl83gJwo8XhpSq2TdGyjnOSyLYUF/0PhhukG9mURa/GkAGDsJGkqQew==";
         };
+        _3Y8Ax6sX = {
+            "id" = "3Y8Ax6sX";
+            "file" = "tolerable_creepers-neoforge-1.21.1-2.3.0.jar";
+            "hash" = "sha512-emdV/6ow8nqt0FcHByWbHYZR3leJ4MVuZ6+00vzHTIzyzk/4n6Ug6pogKt3e+cM9M82AZ4hXSYm9zmoU4WVeZQ==";
+        };
+        _s0tCV1Zn = {
+            "id" = "s0tCV1Zn";
+            "file" = "tolerable_creepers-fabric-1.21.1-2.3.0.jar";
+            "hash" = "sha512-tCU+g3pBVVLqG4W02ustzwomN74ol72XWmnvJ1TwAE47NVi/nQz0EZe/PCAw32dMDs5qSYyJK276zBxahd5Jmg==";
+        };
     in {
         "qPOV056t" = _qPOV056t;
         "sE0J43E3" = _sE0J43E3;
@@ -98,8 +108,10 @@ let
         "T1W4Sn7u" = _T1W4Sn7u;
         "vb41f0Ua" = _vb41f0Ua;
         "39QiZU7m" = _39QiZU7m;
-        "neoforge-1.21.1" = _vb41f0Ua;
-        "fabric-1.21.1" = _39QiZU7m;
+        "3Y8Ax6sX" = _3Y8Ax6sX;
+        "s0tCV1Zn" = _s0tCV1Zn;
+        "neoforge-1.21.1" = _3Y8Ax6sX;
+        "fabric-1.21.1" = _s0tCV1Zn;
         "pkg-2.0.0-1.21.1-neoforge" = _qPOV056t;
         "pkg-2.0.0-1.21.1-fabric" = _sE0J43E3;
         "pkg-2.1.0-1.21.1-neoforge" = _ZSG5kkmQ;
@@ -116,7 +128,9 @@ let
         "pkg-2.2.3-1.21.1-neoforge" = _T1W4Sn7u;
         "pkg-2.2.4-1.21.1-neoforge" = _vb41f0Ua;
         "pkg-2.2.4-1.21.1-fabric" = _39QiZU7m;
-        "default" = _39QiZU7m;
+        "pkg-2.3.0-1.21.1-neoforge" = _3Y8Ax6sX;
+        "pkg-2.3.0-1.21.1-fabric" = _s0tCV1Zn;
+        "default" = _s0tCV1Zn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tolerable-creepers";

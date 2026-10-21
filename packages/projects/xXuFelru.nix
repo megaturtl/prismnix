@@ -76,6 +76,21 @@ let
             "file" = "Genesis-2.0.0-NEOFORGE.jar";
             "hash" = "sha512-b36aw0J3YlJEcX4/RPn5lJWLlPP1LT/yNAAUzSgsx/rR1taA1cAV0EONX6SIGlTNbnNSn25B4FsqTMkiDU5IYw==";
         };
+        _rtXr2ogs = {
+            "id" = "rtXr2ogs";
+            "file" = "Genesis-2.1.0-FABRIC.jar";
+            "hash" = "sha512-jXE9sdvHXTd+z1V4eo3uC2oaJG0FqEf9R5yxXcvSz9m8oQrpCAc6BCSDHLC/I0/ztHh/uygFP1SsSDC4RsnGvg==";
+        };
+        _rvGmz4Da = {
+            "id" = "rvGmz4Da";
+            "file" = "Genesis-2.1.0-FORGE.jar";
+            "hash" = "sha512-HpCWTZfgqhSqGpB+oFWMPk4AWWA5iwDHEztJrH1JlJ0hxwJ9ec7s+vkrOB+AGsnmD03H9q9hwhuahSFImltcWA==";
+        };
+        _Ts3PTNAu = {
+            "id" = "Ts3PTNAu";
+            "file" = "Genesis-2.1.0-NEOFORGE.jar";
+            "hash" = "sha512-+jkgFunO7zH959qsA7bSNh4uFQ+mYtq8OD/i9fWpgfRFDuDUd8LJo3+gqG9LEKa30s6M3d0AjHRr72vUKxmevQ==";
+        };
     in {
         "OAoIQndZ" = _OAoIQndZ;
         "10fzZKmp" = _10fzZKmp;
@@ -92,25 +107,28 @@ let
         "v7nxop14" = _v7nxop14;
         "lcZmx3Vw" = _lcZmx3Vw;
         "6S6Pu243" = _6S6Pu243;
-        "fabric-1.20.1" = _v7nxop14;
-        "fabric-1.21.1" = _v7nxop14;
-        "fabric-1.20.2" = _v7nxop14;
-        "fabric-1.20.3" = _v7nxop14;
-        "fabric-1.20.4" = _v7nxop14;
-        "fabric-1.20.5" = _v7nxop14;
-        "fabric-1.20.6" = _v7nxop14;
-        "fabric-1.21" = _v7nxop14;
-        "forge-1.20.1" = _lcZmx3Vw;
-        "forge-1.20.2" = _lcZmx3Vw;
-        "forge-1.20.3" = _lcZmx3Vw;
-        "forge-1.20.4" = _lcZmx3Vw;
-        "forge-1.20.6" = _lcZmx3Vw;
-        "forge-1.21" = _lcZmx3Vw;
-        "neoforge-1.21.1" = _6S6Pu243;
-        "neoforge-1.20.4" = _6S6Pu243;
-        "neoforge-1.20.5" = _6S6Pu243;
-        "neoforge-1.20.6" = _6S6Pu243;
-        "neoforge-1.21" = _6S6Pu243;
+        "rtXr2ogs" = _rtXr2ogs;
+        "rvGmz4Da" = _rvGmz4Da;
+        "Ts3PTNAu" = _Ts3PTNAu;
+        "fabric-1.20.1" = _rtXr2ogs;
+        "fabric-1.21.1" = _rtXr2ogs;
+        "fabric-1.20.2" = _rtXr2ogs;
+        "fabric-1.20.3" = _rtXr2ogs;
+        "fabric-1.20.4" = _rtXr2ogs;
+        "fabric-1.20.5" = _rtXr2ogs;
+        "fabric-1.20.6" = _rtXr2ogs;
+        "fabric-1.21" = _rtXr2ogs;
+        "forge-1.20.1" = _rvGmz4Da;
+        "forge-1.20.2" = _rvGmz4Da;
+        "forge-1.20.3" = _rvGmz4Da;
+        "forge-1.20.4" = _rvGmz4Da;
+        "forge-1.20.6" = _rvGmz4Da;
+        "forge-1.21" = _rvGmz4Da;
+        "neoforge-1.21.1" = _Ts3PTNAu;
+        "neoforge-1.20.4" = _Ts3PTNAu;
+        "neoforge-1.20.5" = _Ts3PTNAu;
+        "neoforge-1.20.6" = _Ts3PTNAu;
+        "neoforge-1.21" = _Ts3PTNAu;
         "pkg-1.0.0-1.20.1" = _10fzZKmp;
         "pkg-1.0.0-1.21.1" = _jY0gEcrD;
         "pkg-1.1.0-1.20.1" = _Up3J341S;
@@ -118,7 +136,8 @@ let
         "pkg-1.1.1-1.21.1" = _3gRxgOI9;
         "pkg-1.1.1-1.20.1" = _m7vPlxTY;
         "pkg-2.0.0" = _6S6Pu243;
-        "default" = _6S6Pu243;
+        "pkg-2.1.0" = _Ts3PTNAu;
+        "default" = _Ts3PTNAu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "genesis-world-previewer-pregenerator";

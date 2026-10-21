@@ -546,6 +546,11 @@ let
             "file" = "psycho_villagers-0.5.8.jar";
             "hash" = "sha512-ec/DWP08bcP1LVGP5xXhWTzAZ4qVYbOVJUn8VeTqPDUdIDGCYfAJTB9ynqtxKT1mcgKmL0xxqWeeykNJYpn6KQ==";
         };
+        _xbrvnWli = {
+            "id" = "xbrvnWli";
+            "file" = "psycho_villagers-0.5.8-1.jar";
+            "hash" = "sha512-0xtCuM8jvxnbzZhnF/Q3OB9FYiuu4AoHTegewl1st/FW3Q9/skwPoGljo9m0ugU4zepRMAcu/TsO4a7LDx3iMQ==";
+        };
     in {
         "Dv0AFIVH" = _Dv0AFIVH;
         "Vvgklsx0" = _Vvgklsx0;
@@ -656,6 +661,7 @@ let
         "fcBuNK2L" = _fcBuNK2L;
         "lk0mVZfi" = _lk0mVZfi;
         "29rhQWmJ" = _29rhQWmJ;
+        "xbrvnWli" = _xbrvnWli;
         "forge-1.20.1" = _y9HRH1yI;
         "forge-1.20.2" = _Vvgklsx0;
         "forge-1.20.3" = _Vvgklsx0;
@@ -664,7 +670,7 @@ let
         "forge-1.20.6" = _Vvgklsx0;
         "forge-1.19.2" = _zrsBNtfi;
         "neoforge-1.21.1" = _2MbvwKix;
-        "neoforge-26.3" = _29rhQWmJ;
+        "neoforge-26.3" = _xbrvnWli;
         "neoforge-26.1" = _fcBuNK2L;
         "neoforge-26.1.1" = _fcBuNK2L;
         "neoforge-26.1.2" = _fcBuNK2L;
@@ -719,7 +725,8 @@ let
         "pkg-0.5.7-2" = _8aGvbHwp;
         "pkg-0.5.7-3" = _7o5hlajN;
         "pkg-0.5.8" = _29rhQWmJ;
-        "default" = _29rhQWmJ;
+        "pkg-0.5.8-1" = _xbrvnWli;
+        "default" = _xbrvnWli;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "psycho-villagers";

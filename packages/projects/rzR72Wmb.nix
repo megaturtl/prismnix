@@ -46,6 +46,36 @@ let
             "file" = "couplings-fabric-1.21.5-1.0.0.jar";
             "hash" = "sha512-evTLemFqltJqMa36Eg86FRU/R02Mgr+zrHlmwujBVOOFoE9d+wI/FiM3qt3ya1qCmFt+8hbQovFO7UCSoItwoQ==";
         };
+        _LthTTbZR = {
+            "id" = "LthTTbZR";
+            "file" = "couplings-fabric-26.1-1.0.0.jar";
+            "hash" = "sha512-raoVCpIE55r5bd/Rkk3BpPNG4T1zoNqDavauQYHaEs/b5KSrapJCXUUNX8euAUxq+tWvud+rYkf4AhS1IlOy0A==";
+        };
+        _jn8ciUkX = {
+            "id" = "jn8ciUkX";
+            "file" = "couplings-neoforge-26.1-1.0.0.jar";
+            "hash" = "sha512-G2q9H5dq44qO5N8sjRrnw1LWYeU4MDWSDJM1BsC09RWAH6gpXwavnxZxTgYEV7uCOK4zqglFVlqcKPEHra+L9g==";
+        };
+        _JrVXA8ma = {
+            "id" = "JrVXA8ma";
+            "file" = "couplings-neoforge-26.2-1.0.0.jar";
+            "hash" = "sha512-Yr3PBcCrhVGqZvvLTnPEmPo3Pfopzqn68dPbtYpHZ50TndTtl4ZWxkWutI5+jVBJDWV88GI1IlXCHEbS+th/2w==";
+        };
+        _hKfLrccN = {
+            "id" = "hKfLrccN";
+            "file" = "couplings-fabric-26.2-1.0.0.jar";
+            "hash" = "sha512-H5viZctGPf3Lc1tfk5uF2p4H363WjNoWZvCGp2zxio2BkeNeqyx0azRBdw9yZP7sgOeBRrBrEKKraA5vC0y9Vg==";
+        };
+        _iyf7Ndia = {
+            "id" = "iyf7Ndia";
+            "file" = "couplings-neoforge-26.3-1.0.0.jar";
+            "hash" = "sha512-HlNp0Aze5bdZ99JIrmSLR5nX54ZFriROgGMPQ+Oy34WiUVXlEpUfPQW5cpqAZgtTQko1kMgjWyEjArH8DURHsg==";
+        };
+        _oHdE2YJ3 = {
+            "id" = "oHdE2YJ3";
+            "file" = "couplings-fabric-26.3-1.0.0.jar";
+            "hash" = "sha512-XRboMBCKBr3j4Zf0UeHgZC7TgIlzz+yw8bmDHJVcoUKB5+w8mykj3tb8/oieBX1WLRUcovjvjxZ8pKVZEA8njA==";
+        };
     in {
         "8I9zFYaT" = _8I9zFYaT;
         "HUAK0zUQ" = _HUAK0zUQ;
@@ -56,6 +86,12 @@ let
         "2PJ8695a" = _2PJ8695a;
         "ynIFYbOB" = _ynIFYbOB;
         "3S7etXUG" = _3S7etXUG;
+        "LthTTbZR" = _LthTTbZR;
+        "jn8ciUkX" = _jn8ciUkX;
+        "JrVXA8ma" = _JrVXA8ma;
+        "hKfLrccN" = _hKfLrccN;
+        "iyf7Ndia" = _iyf7Ndia;
+        "oHdE2YJ3" = _oHdE2YJ3;
         "forge-1.21.1" = _8I9zFYaT;
         "forge-1.21.2" = _8I9zFYaT;
         "forge-1.21.3" = _8I9zFYaT;
@@ -66,13 +102,23 @@ let
         "neoforge-1.21.3" = _HUAK0zUQ;
         "neoforge-1.21.4" = _VoqIpBHs;
         "neoforge-1.21.5" = _2PJ8695a;
+        "neoforge-26.1" = _jn8ciUkX;
+        "neoforge-26.1.1" = _jn8ciUkX;
+        "neoforge-26.1.2" = _jn8ciUkX;
+        "neoforge-26.2" = _JrVXA8ma;
+        "neoforge-26.3" = _iyf7Ndia;
         "fabric-1.21.1" = _HvIovAqD;
         "fabric-1.21.2" = _HvIovAqD;
         "fabric-1.21.3" = _HvIovAqD;
         "fabric-1.21.4" = _jjfhvO9T;
         "fabric-1.21.5" = _3S7etXUG;
-        "pkg-1.0.0" = _3S7etXUG;
-        "default" = _3S7etXUG;
+        "fabric-26.1" = _LthTTbZR;
+        "fabric-26.1.1" = _LthTTbZR;
+        "fabric-26.1.2" = _LthTTbZR;
+        "fabric-26.2" = _hKfLrccN;
+        "fabric-26.3" = _oHdE2YJ3;
+        "pkg-1.0.0" = _oHdE2YJ3;
+        "default" = _oHdE2YJ3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "couplings-revamped";

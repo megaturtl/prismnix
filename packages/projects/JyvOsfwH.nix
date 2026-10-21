@@ -16,10 +16,16 @@ let
             "file" = "§bBray's Better Books v1.2.zip";
             "hash" = "sha512-e1phoXMuls8Opik4Gjbt3ovVDP1SaNBgJCfPp2HUCXBHqwaGORfw43saULSqwNK3hJ41BDpL53L0hAHA/2f7+g==";
         };
+        _r9wtxz83 = {
+            "id" = "r9wtxz83";
+            "file" = "Bray's Better Books! v1.3.zip";
+            "hash" = "sha512-SFI8+VItr3yqT1kwUsNyDVNAkJzrynXGyRLcfjnkundOwr/L+xBpv3waxHwNQcqxuTabMsGwesYLfEagSZv+oQ==";
+        };
     in {
         "POe9t1sg" = _POe9t1sg;
         "9QSc7BqL" = _9QSc7BqL;
         "jmul2qaS" = _jmul2qaS;
+        "r9wtxz83" = _r9wtxz83;
         "minecraft-25w02a" = _POe9t1sg;
         "minecraft-25w03a" = _POe9t1sg;
         "minecraft-25w04a" = _POe9t1sg;
@@ -35,7 +41,7 @@ let
         "minecraft-1.21.5-pre3" = _POe9t1sg;
         "minecraft-1.21.5-rc1" = _POe9t1sg;
         "minecraft-1.21.5-rc2" = _POe9t1sg;
-        "minecraft-1.21.5" = _jmul2qaS;
+        "minecraft-1.21.5" = _r9wtxz83;
         "minecraft-25w15a" = _POe9t1sg;
         "minecraft-25w16a" = _POe9t1sg;
         "minecraft-25w17a" = _POe9t1sg;
@@ -77,11 +83,11 @@ let
         "minecraft-1.21.1" = _jmul2qaS;
         "minecraft-1.21.2" = _jmul2qaS;
         "minecraft-1.21.3" = _jmul2qaS;
-        "minecraft-1.21.4" = _jmul2qaS;
-        "minecraft-1.21.6" = _jmul2qaS;
-        "minecraft-1.21.7" = _jmul2qaS;
-        "minecraft-1.21.8" = _jmul2qaS;
-        "minecraft-1.21.9" = _jmul2qaS;
+        "minecraft-1.21.4" = _r9wtxz83;
+        "minecraft-1.21.6" = _r9wtxz83;
+        "minecraft-1.21.7" = _r9wtxz83;
+        "minecraft-1.21.8" = _r9wtxz83;
+        "minecraft-1.21.9" = _r9wtxz83;
         "minecraft-22w42a" = _jmul2qaS;
         "minecraft-22w43a" = _jmul2qaS;
         "minecraft-22w44a" = _jmul2qaS;
@@ -132,12 +138,18 @@ let
         "minecraft-24w44a" = _jmul2qaS;
         "minecraft-24w45a" = _jmul2qaS;
         "minecraft-24w46a" = _jmul2qaS;
-        "minecraft-1.21.10" = _jmul2qaS;
-        "minecraft-1.21.11" = _jmul2qaS;
+        "minecraft-1.21.10" = _r9wtxz83;
+        "minecraft-1.21.11" = _r9wtxz83;
+        "minecraft-26.1" = _r9wtxz83;
+        "minecraft-26.1.1" = _r9wtxz83;
+        "minecraft-26.1.2" = _r9wtxz83;
+        "minecraft-26.2" = _r9wtxz83;
+        "minecraft-26.3" = _r9wtxz83;
         "pkg-1.0" = _POe9t1sg;
         "pkg-1.1" = _9QSc7BqL;
         "pkg-1.2" = _jmul2qaS;
-        "default" = _jmul2qaS;
+        "pkg-1.3" = _r9wtxz83;
+        "default" = _r9wtxz83;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "brays-better-books";
