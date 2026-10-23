@@ -91,6 +91,66 @@ let
             "file" = "copper-fire-neoforge-26.2-1.1.0.jar";
             "hash" = "sha512-AzqI7QHyuuGJUrxqlN35Jg/UC9/j6gVIDP0ByI+EH1uAdlJebr8KdyVew0EPVcbMHAJnYLmPtUTGsDzK+jvtYA==";
         };
+        _y1Udb6tw = {
+            "id" = "y1Udb6tw";
+            "file" = "copper-fire-fabric-1.21.1-1.1.1.jar";
+            "hash" = "sha512-PImtI+DcZuwIBpiR7NeBePbiO+t2YSZEXd+hrsV9hYYBnPk1AuWrqfmW7aIEqs8R2PZSCi1hsXKso6zAf/K3/Q==";
+        };
+        _eDYoWyzF = {
+            "id" = "eDYoWyzF";
+            "file" = "copper-fire-neoforge-1.21.1-1.1.1.jar";
+            "hash" = "sha512-e5AI3Ve+QRgEBIemfunXAPJHreVrc4cgiMh13qkIFxZvgHFdIdvUad3gjRjJiVxPADQ9PGCcWPo8jnpX8wc9Cw==";
+        };
+        _LvqJgnoL = {
+            "id" = "LvqJgnoL";
+            "file" = "copper-fire-fabric-1.21.10-1.1.1.jar";
+            "hash" = "sha512-SzNnt9QWrVyG1ls5pBf+qK6LqFVQKJ3LfTB78F57pueXPo8N74NZmf0aO4qm24BCP9pyDutq7H1SifgGzkgCkQ==";
+        };
+        _mTcvPwaJ = {
+            "id" = "mTcvPwaJ";
+            "file" = "copper-fire-neoforge-1.21.10-1.1.1.jar";
+            "hash" = "sha512-8ABlod2xCi10wFneQ3D6Vu5DRX9bjzUNQB7G8nZ1lbcL9Iob61I0XFrJCrGHQsZzel1rz4/P3Nav30vf0sFy1Q==";
+        };
+        _JvtR58lr = {
+            "id" = "JvtR58lr";
+            "file" = "copper-fire-fabric-1.21.11-1.1.1.jar";
+            "hash" = "sha512-GBW3xnYLL7eX6+SAzWh2D6YV2oKuWh7tsSjsLIWOYeBe9gOqhP6WqC5Xp0Sf/Y2dO7V9DKUKmbzUPtdaodCAfA==";
+        };
+        _vLhyI93v = {
+            "id" = "vLhyI93v";
+            "file" = "copper-fire-fabric-26.1-1.1.1.jar";
+            "hash" = "sha512-t28ns/Vb8bCWXZ7r+EAqm+kZJLULYy/qT+1zAz6mM4ObyU48yM/sGTuDs3fvUotbl/TtfUpodQ6XtZBiqRp0ew==";
+        };
+        _n7ij6RO3 = {
+            "id" = "n7ij6RO3";
+            "file" = "copper-fire-neoforge-1.21.11-1.1.1.jar";
+            "hash" = "sha512-a2mgEIWvhrfI8z+EAZF2tjaArBQ3ElVhCTlRpbnw0yR1NT1sKkNatcFQhn2ZwWLBptkQk0xzNKmDXj7kHw0hEw==";
+        };
+        _5pLpvlgc = {
+            "id" = "5pLpvlgc";
+            "file" = "copper-fire-neoforge-26.1-1.1.1.jar";
+            "hash" = "sha512-bpkF59j+a4CSLmED/Hmq9qyxltdR0YYHYK9nxyktiiL/4KvHMrFjcUik5m//pgN0Z2WnpdeyLHgynZDYwkvhrQ==";
+        };
+        _Cu9KE6JJ = {
+            "id" = "Cu9KE6JJ";
+            "file" = "copper-fire-fabric-26.1.2-1.1.1.jar";
+            "hash" = "sha512-xWUdytDqpi8CcKV/TioXUQ5XEGzLrhXZsDzD/eW7IwxwxFSU+eSo8eDyfwws19xiVorII8R7CR/36TeqvqJm6Q==";
+        };
+        _aZHojWtH = {
+            "id" = "aZHojWtH";
+            "file" = "copper-fire-neoforge-26.1.2-1.1.1.jar";
+            "hash" = "sha512-bCUO1mqNCBse9/mLlmI8Ae7YZ4ihFB79sPzexsYOPNDDXVR97V5O/z88g67sQy3IxLx362E9fUs40R76u2uFIQ==";
+        };
+        _2inw8QWt = {
+            "id" = "2inw8QWt";
+            "file" = "copper-fire-fabric-26.2-1.1.1.jar";
+            "hash" = "sha512-zXghrAkbZQPKs3gPd2yODzt3BjlqK5p+HeZDXl9LBuobiR1dcoDzvuueZogdld4ehNi1Fj3KIH5hIVfa2MDQZw==";
+        };
+        _GREBqyEC = {
+            "id" = "GREBqyEC";
+            "file" = "copper-fire-neoforge-26.2-1.1.1.jar";
+            "hash" = "sha512-2lLTRs6ZYMyM8+JSOMJCtF+iyB9+jcJfKqMlWR7rqNXnXEZ4mWJTdMzcAPNk/dwJexAyLFtKnvA9NfubgouVkA==";
+        };
     in {
         "B4IdzIg1" = _B4IdzIg1;
         "T00saTWR" = _T00saTWR;
@@ -110,22 +170,37 @@ let
         "CK0rBZ3F" = _CK0rBZ3F;
         "5XnRNr9e" = _5XnRNr9e;
         "TeSndhXd" = _TeSndhXd;
-        "fabric-1.21.10" = _OAHPC7Mt;
-        "fabric-1.21.11" = _KwV5eLG3;
-        "fabric-26.1" = _A0T18NDg;
-        "fabric-26.1.1" = _A0T18NDg;
-        "fabric-26.1.2" = _J0GFM7zQ;
-        "fabric-26.2" = _5XnRNr9e;
-        "neoforge-1.21.10" = _Fihp3VbX;
-        "neoforge-1.21.11" = _wKETjJcN;
-        "neoforge-26.1" = _WZAK2jiq;
-        "neoforge-26.1.1" = _WZAK2jiq;
-        "neoforge-26.1.2" = _CK0rBZ3F;
-        "neoforge-26.2" = _TeSndhXd;
+        "y1Udb6tw" = _y1Udb6tw;
+        "eDYoWyzF" = _eDYoWyzF;
+        "LvqJgnoL" = _LvqJgnoL;
+        "mTcvPwaJ" = _mTcvPwaJ;
+        "JvtR58lr" = _JvtR58lr;
+        "vLhyI93v" = _vLhyI93v;
+        "n7ij6RO3" = _n7ij6RO3;
+        "5pLpvlgc" = _5pLpvlgc;
+        "Cu9KE6JJ" = _Cu9KE6JJ;
+        "aZHojWtH" = _aZHojWtH;
+        "2inw8QWt" = _2inw8QWt;
+        "GREBqyEC" = _GREBqyEC;
+        "fabric-1.21.10" = _LvqJgnoL;
+        "fabric-1.21.11" = _JvtR58lr;
+        "fabric-26.1" = _vLhyI93v;
+        "fabric-26.1.1" = _vLhyI93v;
+        "fabric-26.1.2" = _Cu9KE6JJ;
+        "fabric-26.2" = _2inw8QWt;
+        "fabric-1.21.1" = _y1Udb6tw;
+        "neoforge-1.21.10" = _mTcvPwaJ;
+        "neoforge-1.21.11" = _n7ij6RO3;
+        "neoforge-26.1" = _5pLpvlgc;
+        "neoforge-26.1.1" = _5pLpvlgc;
+        "neoforge-26.1.2" = _aZHojWtH;
+        "neoforge-26.2" = _GREBqyEC;
+        "neoforge-1.21.1" = _eDYoWyzF;
         "pkg-1.0.0" = _ValaWdpL;
         "pkg-1.0.1" = _UfU71ea7;
         "pkg-1.1.0" = _TeSndhXd;
-        "default" = _TeSndhXd;
+        "pkg-1.1.1" = _GREBqyEC;
+        "default" = _GREBqyEC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "copper-fire";

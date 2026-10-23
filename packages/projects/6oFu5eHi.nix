@@ -286,6 +286,16 @@ let
             "file" = "additionalentityattributes-neoforge-2.2.4+26.2.jar";
             "hash" = "sha512-JDQCmQj2iNnb3x8iDgMEuNY5xUkyK+pWB13Jm6KE1hev38/xfQ4TFPjpqOR4FGv+MSBBuMNjlMCULSbnZkUwyA==";
         };
+        _b2o0BJHm = {
+            "id" = "b2o0BJHm";
+            "file" = "additionalentityattributes-fabric-2.2.4+26.3.jar";
+            "hash" = "sha512-OxqZnUzvtyFfJjRUA1mCXYovcFqLVy/rggs9l6Rh7Zz/Zw46GFpvi/NJ9K5Cf2xEsaW6HHG9OQ4vokGNem8M5A==";
+        };
+        _8BwgMuZX = {
+            "id" = "8BwgMuZX";
+            "file" = "additionalentityattributes-neoforge-2.2.4+26.3.jar";
+            "hash" = "sha512-GOniRxgGvKq0Qm2bt0I6/j56vJDqgN1MYXTc2ReG5fjBcsYrx9/mpNpM8C2KZERPNVYa39cuSLaLmVKJHcgoUw==";
+        };
     in {
         "gA9oxPhM" = _gA9oxPhM;
         "Sc4VSdrQ" = _Sc4VSdrQ;
@@ -344,6 +354,8 @@ let
         "Cit9RTI3" = _Cit9RTI3;
         "94Ym5HsD" = _94Ym5HsD;
         "P21CDwF3" = _P21CDwF3;
+        "b2o0BJHm" = _b2o0BJHm;
+        "8BwgMuZX" = _8BwgMuZX;
         "fabric-1.19.3" = _xC97ogTY;
         "fabric-1.19.2" = _ht3amcX1;
         "fabric-1.19.4" = _RAAaS6TR;
@@ -367,6 +379,7 @@ let
         "fabric-1.21.9" = _K4Omdx9I;
         "fabric-26.1.2" = _mbieWtq0;
         "fabric-26.2" = _94Ym5HsD;
+        "fabric-26.3" = _b2o0BJHm;
         "quilt-1.19.4" = _RAAaS6TR;
         "quilt-1.20" = _FULyznlV;
         "quilt-1.20.1" = _FULyznlV;
@@ -389,6 +402,7 @@ let
         "neoforge-1.21.10" = _Od8TAeh0;
         "neoforge-26.1.2" = _Cit9RTI3;
         "neoforge-26.2" = _P21CDwF3;
+        "neoforge-26.3" = _8BwgMuZX;
         "pkg-1.2.1+1.19.3" = _gA9oxPhM;
         "pkg-1.2.0+1.19.2" = _Sc4VSdrQ;
         "pkg-1.2.2+1.19.4" = _TpPwKfKx;
@@ -433,7 +447,8 @@ let
         "pkg-2.2.4+1.21.11" = _MMphjoyw;
         "pkg-2.2.4+26.1" = _Cit9RTI3;
         "pkg-2.2.4+26.2" = _P21CDwF3;
-        "default" = _P21CDwF3;
+        "pkg-2.2.4+26.3" = _8BwgMuZX;
+        "default" = _8BwgMuZX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "additionalentityattributes";

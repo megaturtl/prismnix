@@ -166,6 +166,16 @@ let
             "file" = "PlutosCoffeeMod-Fabric-1.20.1+3.0.10+build.32.jar";
             "hash" = "sha512-O1MxnjV3nYvvzR8lRRMzG8OUFBG3O8wewCblLrjGzlvvIPZrxTdCH1c+dFjLGvq0kUSwZ+en8qSBziJdK+4zuQ==";
         };
+        _B6aGOJNA = {
+            "id" = "B6aGOJNA";
+            "file" = "PlutosCoffeeMod-Fabric-1.20.1+3.1.0+build.35.jar";
+            "hash" = "sha512-0l06FxPrDln3oNdAt2ASPnMRpjtbNIdGcL+jjO9j45jEcFnNxxy3DIdMWQkV39uLW6DjGHCHOcnQdg2ZI47j+w==";
+        };
+        _N5vHCpgT = {
+            "id" = "N5vHCpgT";
+            "file" = "PlutosCoffeeMod-Fabric-1.21.1+3.1.0+build.39.jar";
+            "hash" = "sha512-oVvqlig5vwkxNNGvBdeguLZYgpSju9mT0N/HMgt9UOzgJt4m3T0q4PYlb4MyPFucF8Ke7SzZrZ6GT8LucHZBZg==";
+        };
     in {
         "diM9dXxk" = _diM9dXxk;
         "odi3dDIP" = _odi3dDIP;
@@ -200,16 +210,20 @@ let
         "LqkPtkNV" = _LqkPtkNV;
         "y97f0HWJ" = _y97f0HWJ;
         "QPUD6vZM" = _QPUD6vZM;
+        "B6aGOJNA" = _B6aGOJNA;
+        "N5vHCpgT" = _N5vHCpgT;
         "fabric-1.19.2" = _diM9dXxk;
         "fabric-1.19.3" = _odi3dDIP;
         "fabric-1.19.4" = _uTdN51zn;
-        "fabric-1.20" = _QPUD6vZM;
-        "fabric-1.20.1" = _QPUD6vZM;
+        "fabric-1.20" = _B6aGOJNA;
+        "fabric-1.20.1" = _B6aGOJNA;
         "fabric-1.20.2" = _UAcfGhJF;
         "fabric-1.20.3" = _IOl6MLjy;
         "fabric-1.20.4" = _IOl6MLjy;
         "fabric-1.20.5" = _5PWMFwzH;
         "fabric-1.20.6" = _5PWMFwzH;
+        "fabric-1.21" = _N5vHCpgT;
+        "fabric-1.21.1" = _N5vHCpgT;
         "pkg-1.19.2-2.0" = _diM9dXxk;
         "pkg-1.19.3-2.0" = _odi3dDIP;
         "pkg-1.19.4-2.0" = _uTdN51zn;
@@ -243,7 +257,9 @@ let
         "pkg-1.20.1+3.0.8+build.23" = _LqkPtkNV;
         "pkg-1.20.1+3.0.9+build.28" = _y97f0HWJ;
         "pkg-1.20.1+3.0.10+build.32" = _QPUD6vZM;
-        "default" = _QPUD6vZM;
+        "pkg-1.20.1+3.1.0+build.35" = _B6aGOJNA;
+        "pkg-1.21.1+3.1.0+beta.1" = _N5vHCpgT;
+        "default" = _N5vHCpgT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "plutos-coffee-mod";

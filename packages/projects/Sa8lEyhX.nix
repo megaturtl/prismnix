@@ -51,6 +51,11 @@ let
             "file" = "bury_me_deep-1.21.1-2.0.0.jar";
             "hash" = "sha512-gsL842LW00Ad3NcMngoNrvMmMo3e66GkH5S05uGYB5cfQQ0lGF7P1ys3ZmXup/sXeYB/GcuvwLss9xZrAXt80g==";
         };
+        _VeA51U2Q = {
+            "id" = "VeA51U2Q";
+            "file" = "bury_me_deep-1.21.1-2.0.1.jar";
+            "hash" = "sha512-ozfR+IawoCUzNtmo1clxiTnJ/j4nXZ0PGKaFhQYZPlu+VFP/EZYzRTPUg5uzqpnFRh7MaRhfd0mXoMeTlLSt1w==";
+        };
     in {
         "zTiTCHE2" = _zTiTCHE2;
         "3vgIXlIK" = _3vgIXlIK;
@@ -62,8 +67,9 @@ let
         "duPBkqcy" = _duPBkqcy;
         "dCszVbra" = _dCszVbra;
         "5cgTONdy" = _5cgTONdy;
+        "VeA51U2Q" = _VeA51U2Q;
         "forge-1.20.1" = _dCszVbra;
-        "neoforge-1.21.1" = _5cgTONdy;
+        "neoforge-1.21.1" = _VeA51U2Q;
         "pkg-1.0.0" = _zTiTCHE2;
         "pkg-1.0.1" = _3vgIXlIK;
         "pkg-1.0.2" = _BW0XnGsH;
@@ -74,7 +80,8 @@ let
         "pkg-1.0.7" = _duPBkqcy;
         "pkg-1.0.8" = _dCszVbra;
         "pkg-2.0.0" = _5cgTONdy;
-        "default" = _5cgTONdy;
+        "pkg-2.0.1" = _VeA51U2Q;
+        "default" = _VeA51U2Q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bury-me-deep";

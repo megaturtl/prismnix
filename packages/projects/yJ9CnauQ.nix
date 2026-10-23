@@ -131,6 +131,11 @@ let
             "file" = "rpessentials-5.0.0.jar";
             "hash" = "sha512-nEh94IYdaZP83vkN9UtSRdyrj7ZJkRskNB6eUqdYaz0iKmGxnLzx27IazBIRimM60DEnWTNnYNA1BRM0NEX2TQ==";
         };
+        _d6D4pioM = {
+            "id" = "d6D4pioM";
+            "file" = "rpessentials-5.0.1.jar";
+            "hash" = "sha512-KJDNgGAgrmx95Ke6wFXAGGu8yZMuDnyud29CfkOc221pKgMrHHo/jh/QB342ulzaJHS64nwgvkx9IHbZcLsd5g==";
+        };
     in {
         "AhCP5pMC" = _AhCP5pMC;
         "dmobsawh" = _dmobsawh;
@@ -158,7 +163,8 @@ let
         "9k8tJwVj" = _9k8tJwVj;
         "jeY5Bd3E" = _jeY5Bd3E;
         "DtGKEcaa" = _DtGKEcaa;
-        "neoforge-1.21.1" = _DtGKEcaa;
+        "d6D4pioM" = _d6D4pioM;
+        "neoforge-1.21.1" = _d6D4pioM;
         "pkg-1.1.1" = _AhCP5pMC;
         "pkg-1.1.2" = _dmobsawh;
         "pkg-1.1.3" = _lRPhayzB;
@@ -185,7 +191,8 @@ let
         "pkg-5.0.0_beta3" = _9k8tJwVj;
         "pkg-5.0.0_beta4" = _jeY5Bd3E;
         "pkg-5.0.0" = _DtGKEcaa;
-        "default" = _DtGKEcaa;
+        "pkg-5.0.1" = _d6D4pioM;
+        "default" = _d6D4pioM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rp-essentials";

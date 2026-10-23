@@ -21,17 +21,24 @@ let
             "file" = "createaerophysicsgantry-1.0.3.jar";
             "hash" = "sha512-E4IYsFtEvnU97FwF50o/VOqtacIUSgDx+UJON+7Egzm/54jWD0e2M6ooSuDMpmBoR6S6ABs7qtO8jMf64dZPHQ==";
         };
+        _ulpRYWR7 = {
+            "id" = "ulpRYWR7";
+            "file" = "createaerophysicsgantry-1.1.0.jar";
+            "hash" = "sha512-vqXChgkj4vN+yiHNJU4c6RXf5GQYAYBhNL3qz3eOEK1e/j1HM0VdzsHS8bjA4QJ+pij/udKZqwkNJWC7sfZl6g==";
+        };
     in {
         "QzJpIvNV" = _QzJpIvNV;
         "bDyEIoyd" = _bDyEIoyd;
         "44l8Syx2" = _44l8Syx2;
         "QoeKSEzn" = _QoeKSEzn;
-        "neoforge-1.21.1" = _QoeKSEzn;
+        "ulpRYWR7" = _ulpRYWR7;
+        "neoforge-1.21.1" = _ulpRYWR7;
         "pkg-1.0.0" = _QzJpIvNV;
         "pkg-1.0.1" = _bDyEIoyd;
         "pkg-1.0.2" = _44l8Syx2;
         "pkg-1.0.3" = _QoeKSEzn;
-        "default" = _QoeKSEzn;
+        "pkg-1.1.0" = _ulpRYWR7;
+        "default" = _ulpRYWR7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-aeronautics-physics-gantry";

@@ -136,6 +136,26 @@ let
             "file" = "inventory_menu-1.2.0.jar";
             "hash" = "sha512-i3GiODLDdv7sfZpSsigXKDlgyK8kcsToKnMce9dOxJYQpdF9E5e0MnmUIHRnXVmi7X6dvo4OOwKZQBt0gTNxeQ==";
         };
+        _Vq7Twscx = {
+            "id" = "Vq7Twscx";
+            "file" = "inventory_menu-1.2.1.jar";
+            "hash" = "sha512-SWl7RbHze7iaUbRHsWpA4a+ifinlgpuEMHrtwCx2hCEQPthUknLPDoX4KnmdysuxepjUAc5T3D6ODk6uQxziiw==";
+        };
+        _WTBbzAYv = {
+            "id" = "WTBbzAYv";
+            "file" = "inventory_menu-1.2.1.jar";
+            "hash" = "sha512-b2XjbmRZ8E63sKR2jh4/CDO8o3i/RLHs09Pwa8Mo6Wqxi6PyfkM9E+oJH5enHAlnko6SrSwjiAsU9CrSeooIwQ==";
+        };
+        _bNR5bENw = {
+            "id" = "bNR5bENw";
+            "file" = "inventory_menu-1.2.1.jar";
+            "hash" = "sha512-NrGJDvNuruIjWAmiYYnwRCrCC2WsyvIIxJ2bj7P0j0O2aDmAOWs+04Rlq8xBLfwA21bFYngYlTva3j5eN2vNfQ==";
+        };
+        _JypiwcEd = {
+            "id" = "JypiwcEd";
+            "file" = "inventory_menu-1.2.1.jar";
+            "hash" = "sha512-1AM7yZeOLqq0l10iyv6zhjiYrjoJ9ZvoVEf6/4TP3R2mKu9lm5hHpeqa9g+OgXZNB3OuhPLKnbGjEItA/B4+sQ==";
+        };
     in {
         "Lu8odyHo" = _Lu8odyHo;
         "f9dbxML2" = _f9dbxML2;
@@ -164,6 +184,10 @@ let
         "yIzi30bu" = _yIzi30bu;
         "V9VQqQ5A" = _V9VQqQ5A;
         "TDJezeSK" = _TDJezeSK;
+        "Vq7Twscx" = _Vq7Twscx;
+        "WTBbzAYv" = _WTBbzAYv;
+        "bNR5bENw" = _bNR5bENw;
+        "JypiwcEd" = _JypiwcEd;
         "fabric-1.21.8" = _jVCAx19e;
         "fabric-1.21.9" = _gHabuvKs;
         "fabric-1.21.10" = _tY02NPoT;
@@ -174,12 +198,12 @@ let
         "fabric-1.21.5" = _InFuOQbw;
         "fabric-1.21.6" = _k4Qx50mN;
         "fabric-1.21.7" = _6Wod2NQp;
-        "fabric-1.21.11" = _x3FJy39C;
-        "fabric-26.1" = _yIzi30bu;
-        "fabric-26.1.1" = _yIzi30bu;
-        "fabric-26.1.2" = _yIzi30bu;
-        "fabric-26.2" = _V9VQqQ5A;
-        "fabric-26.3" = _TDJezeSK;
+        "fabric-1.21.11" = _Vq7Twscx;
+        "fabric-26.1" = _WTBbzAYv;
+        "fabric-26.1.1" = _WTBbzAYv;
+        "fabric-26.1.2" = _WTBbzAYv;
+        "fabric-26.2" = _bNR5bENw;
+        "fabric-26.3" = _JypiwcEd;
         "pkg-1.0.0" = _Lu8odyHo;
         "pkg-1.0.1" = _f9dbxML2;
         "pkg-1.0.2" = _JvAubWao;
@@ -191,7 +215,8 @@ let
         "pkg-1.0.8" = _XvcT4C9y;
         "pkg-1.1.0" = _ll06aSDo;
         "pkg-1.2.0" = _TDJezeSK;
-        "default" = _TDJezeSK;
+        "pkg-1.2.1" = _JypiwcEd;
+        "default" = _JypiwcEd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "inventory-menu";

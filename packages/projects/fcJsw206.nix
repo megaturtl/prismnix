@@ -96,6 +96,16 @@ let
             "file" = "stks-tool-trims-1.2.0+26.3.jar";
             "hash" = "sha512-t2DJGhRpRFm+urT2f7sgwrE1xihB0Q5lEy4Zjm84/k7yPxCrrIDLsSM+2WlEMDM+gTkEm0wGlbcOUTWzeDuA4g==";
         };
+        _UwcawtqJ = {
+            "id" = "UwcawtqJ";
+            "file" = "STK-ToolTrim-data.zip";
+            "hash" = "sha512-f7rDnS2IWb25nR5eg5fH2lxD/V7+mufhhCMOOKxS0fGgbNzKKpfEgQ95dtip5Cdlz6vP+abTC/ZDKCGdIPv6XQ==";
+        };
+        _cyA7awAf = {
+            "id" = "cyA7awAf";
+            "file" = "stks-tool-trims-1.2.1+26.2.jar";
+            "hash" = "sha512-GPBFxvjla2KKDnyiLTRSSW8D1TBIG25HIffJ9yAbysHJMgmj3LXm2kXCFlLLHtcnYmX7zVK3O0Y8LAXS2Ojw0g==";
+        };
     in {
         "AkiC6PSu" = _AkiC6PSu;
         "8aeECTLi" = _8aeECTLi;
@@ -116,6 +126,8 @@ let
         "UKu38ka8" = _UKu38ka8;
         "X2I3STQ1" = _X2I3STQ1;
         "qHiHkQTb" = _qHiHkQTb;
+        "UwcawtqJ" = _UwcawtqJ;
+        "cyA7awAf" = _cyA7awAf;
         "datapack-1.21.4" = _4FAqf4BK;
         "datapack-1.21" = _RvVWbbnJ;
         "datapack-1.21.1" = _RvVWbbnJ;
@@ -127,19 +139,19 @@ let
         "datapack-1.21.8" = _2EfR2lHt;
         "datapack-1.21.9" = _whlA0Aj3;
         "datapack-1.21.10" = _whlA0Aj3;
-        "datapack-1.21.11" = _whlA0Aj3;
-        "datapack-26.1" = _whlA0Aj3;
-        "datapack-26.1.1" = _whlA0Aj3;
-        "datapack-26.1.2" = _whlA0Aj3;
-        "datapack-26.2" = _whlA0Aj3;
+        "datapack-1.21.11" = _UwcawtqJ;
+        "datapack-26.1" = _UwcawtqJ;
+        "datapack-26.1.1" = _UwcawtqJ;
+        "datapack-26.1.2" = _UwcawtqJ;
+        "datapack-26.2" = _UwcawtqJ;
         "datapack-26.3" = _X2I3STQ1;
         "fabric-1.21.9" = _THzzdOlH;
         "fabric-1.21.10" = _THzzdOlH;
-        "fabric-1.21.11" = _THzzdOlH;
-        "fabric-26.1" = _THzzdOlH;
-        "fabric-26.1.1" = _THzzdOlH;
-        "fabric-26.1.2" = _THzzdOlH;
-        "fabric-26.2" = _THzzdOlH;
+        "fabric-1.21.11" = _cyA7awAf;
+        "fabric-26.1" = _cyA7awAf;
+        "fabric-26.1.1" = _cyA7awAf;
+        "fabric-26.1.2" = _cyA7awAf;
+        "fabric-26.2" = _cyA7awAf;
         "fabric-1.21" = _UC7IwMue;
         "fabric-1.21.1" = _UC7IwMue;
         "fabric-1.21.2" = _UC7IwMue;
@@ -152,11 +164,11 @@ let
         "fabric-26.3" = _qHiHkQTb;
         "forge-1.21.9" = _THzzdOlH;
         "forge-1.21.10" = _THzzdOlH;
-        "forge-1.21.11" = _THzzdOlH;
-        "forge-26.1" = _THzzdOlH;
-        "forge-26.1.1" = _THzzdOlH;
-        "forge-26.1.2" = _THzzdOlH;
-        "forge-26.2" = _THzzdOlH;
+        "forge-1.21.11" = _cyA7awAf;
+        "forge-26.1" = _cyA7awAf;
+        "forge-26.1.1" = _cyA7awAf;
+        "forge-26.1.2" = _cyA7awAf;
+        "forge-26.2" = _cyA7awAf;
         "forge-1.21.5" = _zSid6Yns;
         "forge-1.21.6" = _zSid6Yns;
         "forge-1.21.7" = _zSid6Yns;
@@ -167,11 +179,11 @@ let
         "forge-26.3" = _qHiHkQTb;
         "neoforge-1.21.9" = _THzzdOlH;
         "neoforge-1.21.10" = _THzzdOlH;
-        "neoforge-1.21.11" = _THzzdOlH;
-        "neoforge-26.1" = _THzzdOlH;
-        "neoforge-26.1.1" = _THzzdOlH;
-        "neoforge-26.1.2" = _THzzdOlH;
-        "neoforge-26.2" = _THzzdOlH;
+        "neoforge-1.21.11" = _cyA7awAf;
+        "neoforge-26.1" = _cyA7awAf;
+        "neoforge-26.1.1" = _cyA7awAf;
+        "neoforge-26.1.2" = _cyA7awAf;
+        "neoforge-26.2" = _cyA7awAf;
         "neoforge-1.21.5" = _zSid6Yns;
         "neoforge-1.21.6" = _zSid6Yns;
         "neoforge-1.21.7" = _zSid6Yns;
@@ -182,11 +194,11 @@ let
         "neoforge-26.3" = _qHiHkQTb;
         "quilt-1.21.9" = _THzzdOlH;
         "quilt-1.21.10" = _THzzdOlH;
-        "quilt-1.21.11" = _THzzdOlH;
-        "quilt-26.1" = _THzzdOlH;
-        "quilt-26.1.1" = _THzzdOlH;
-        "quilt-26.1.2" = _THzzdOlH;
-        "quilt-26.2" = _THzzdOlH;
+        "quilt-1.21.11" = _cyA7awAf;
+        "quilt-26.1" = _cyA7awAf;
+        "quilt-26.1.1" = _cyA7awAf;
+        "quilt-26.1.2" = _cyA7awAf;
+        "quilt-26.2" = _cyA7awAf;
         "quilt-1.21" = _UC7IwMue;
         "quilt-1.21.1" = _UC7IwMue;
         "quilt-1.21.2" = _UC7IwMue;
@@ -216,7 +228,9 @@ let
         "pkg-1.1.0+1.21.4+mod" = _UKu38ka8;
         "pkg-1.2.0+26.3" = _X2I3STQ1;
         "pkg-1.2.0+26.3+mod" = _qHiHkQTb;
-        "default" = _qHiHkQTb;
+        "pkg-1.2.1+26.2" = _UwcawtqJ;
+        "pkg-1.2.1+26.2+mod" = _cyA7awAf;
+        "default" = _cyA7awAf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stks-tool-trims";

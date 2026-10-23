@@ -6,11 +6,19 @@ let
             "file" = "oresim-1.0.0.jar";
             "hash" = "sha512-Hsu9rpe9bDvlL7EfsRab4M6SgR0++nrMqsRn8biUcXRSWVHrwIM8VKC4grT3jZys4SRGaBBGPh85Rofy3U2/zA==";
         };
+        _vrMV9UH1 = {
+            "id" = "vrMV9UH1";
+            "file" = "oresim-1.1.jar";
+            "hash" = "sha512-CpfNx7aNDdG3zWX0ZQYumNNwZq/p6fIgnVFc5XMY7KbxLyI/Kk+7/R+oULMzZY13Z2YXk22v8aNeNNbisHcCSA==";
+        };
     in {
         "Udl8H8AQ" = _Udl8H8AQ;
+        "vrMV9UH1" = _vrMV9UH1;
         "fabric-1.21.11" = _Udl8H8AQ;
+        "fabric-26.2" = _vrMV9UH1;
         "pkg-1.0.0" = _Udl8H8AQ;
-        "default" = _Udl8H8AQ;
+        "pkg-1.1" = _vrMV9UH1;
+        "default" = _vrMV9UH1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "oresim";

@@ -91,6 +91,16 @@ let
             "file" = "litematica-easy-place-fix-plus-1.0.19+26.3.jar";
             "hash" = "sha512-uiIUf0ign5R1v27TYgxZbCAAoT1MzD9JZUStQPJeoIrjqUgXa/82yrXo/ImqwtlAELVwN3QV9Da6/x2LS2H+Hg==";
         };
+        _v3VrxWFF = {
+            "id" = "v3VrxWFF";
+            "file" = "litematica-easy-place-fix-plus-1.0.20+26.3.jar";
+            "hash" = "sha512-H/6UeTUFQfpzSv2YyJo7qy9I5i42t2Cu2sBx801BJoU4P0Rc5tKIymov1ytAI2VrXJFyvavAYQLR/8pafHrTYA==";
+        };
+        _WogXUdoj = {
+            "id" = "WogXUdoj";
+            "file" = "litematica-easy-place-fix-plus-1.0.20+1.21.11.jar";
+            "hash" = "sha512-cnOnt3LqVe7N3pgHFYLsl+LLNJ2EunalaZWak0Q3uO5R6ac3ZnR8b2vOVuuWozbmBgDFcPX1/bfFkKXwuluxxw==";
+        };
     in {
         "XQm1wGPV" = _XQm1wGPV;
         "mzQ6OnHm" = _mzQ6OnHm;
@@ -110,9 +120,11 @@ let
         "WHRy3bHV" = _WHRy3bHV;
         "7a3IstAa" = _7a3IstAa;
         "u8ITIyHQ" = _u8ITIyHQ;
+        "v3VrxWFF" = _v3VrxWFF;
+        "WogXUdoj" = _WogXUdoj;
         "fabric-26.2" = _gW2Hmsjm;
-        "fabric-26.3" = _u8ITIyHQ;
-        "fabric-1.21.11" = _7a3IstAa;
+        "fabric-26.3" = _v3VrxWFF;
+        "fabric-1.21.11" = _WogXUdoj;
         "pkg-1.0+26.2" = _XQm1wGPV;
         "pkg-1.0.1+26.2" = _mzQ6OnHm;
         "pkg-1.0.2+26.2" = _lHaKi0AG;
@@ -131,7 +143,9 @@ let
         "pkg-1.0.18+26.3" = _WHRy3bHV;
         "pkg-1.0.19+1.21.11" = _7a3IstAa;
         "pkg-1.0.19+26.3" = _u8ITIyHQ;
-        "default" = _u8ITIyHQ;
+        "pkg-1.0.20+26.3" = _v3VrxWFF;
+        "pkg-1.0.20+1.21.11" = _WogXUdoj;
+        "default" = _WogXUdoj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "easyplacefixplus";

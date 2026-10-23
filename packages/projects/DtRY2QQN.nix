@@ -51,6 +51,11 @@ let
             "file" = "Create_Warnautics-1.0.8+mc.1.21.1.jar";
             "hash" = "sha512-p4Mct8C8bEgKp/NZ1ECChlhBJ12PpEhxWc4K1RRduI9zv9qy6WKRByIWkLdkqSS+IhiMD1HBDe/yFoCEm0KwTw==";
         };
+        _jpF6JTEp = {
+            "id" = "jpF6JTEp";
+            "file" = "Create_Warnautics-1.1+mc.1.21.1.jar";
+            "hash" = "sha512-eiWASjaf1oEZ6Z/ScOSYhuDMQyXzYYbBpDGXIigwv4bF12xMI2n+jXwYnt2wDq+4QOAZdvjwjSyET3BPJFmubw==";
+        };
     in {
         "MSKuRBLy" = _MSKuRBLy;
         "C4THVs4b" = _C4THVs4b;
@@ -62,7 +67,8 @@ let
         "LPMh7gyG" = _LPMh7gyG;
         "zBT3rCFd" = _zBT3rCFd;
         "YO1GPUvv" = _YO1GPUvv;
-        "neoforge-1.21.1" = _YO1GPUvv;
+        "jpF6JTEp" = _jpF6JTEp;
+        "neoforge-1.21.1" = _jpF6JTEp;
         "pkg-1.0.0" = _MSKuRBLy;
         "pkg-1.0.1" = _C4THVs4b;
         "pkg-1.0.2" = _kDsngVoG;
@@ -73,7 +79,8 @@ let
         "pkg-1.0.7" = _LPMh7gyG;
         "pkg-1.0.8" = _zBT3rCFd;
         "pkg-1.0.9" = _YO1GPUvv;
-        "default" = _YO1GPUvv;
+        "pkg-1.1" = _jpF6JTEp;
+        "default" = _jpF6JTEp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-warnautics";

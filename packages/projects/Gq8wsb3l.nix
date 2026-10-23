@@ -51,6 +51,11 @@ let
             "file" = "xxlenderchest-1.1.7.jar";
             "hash" = "sha512-dLX2J+iJnKPDSrBfG4592sfQk+3itCv3F5MUerFC7GH8Bg4yWJvvKBryfnuMFULfZqhAzlUHENd9eBnVgP3zKA==";
         };
+        _1TzjbNpe = {
+            "id" = "1TzjbNpe";
+            "file" = "xxlenderchest-1.1.8.jar";
+            "hash" = "sha512-NlvR/pnxqUQOWCMkQfeGSKDs9YFTMFaRGiRuSIrAs+c8AuJT/7zRctXQdXyJCeD5vCxcfbyVORLbs3wPJM4tjw==";
+        };
     in {
         "WDwzxwmC" = _WDwzxwmC;
         "iEfVgTKy" = _iEfVgTKy;
@@ -62,12 +67,13 @@ let
         "LEjWGjrr" = _LEjWGjrr;
         "16J7zdIl" = _16J7zdIl;
         "Xbge2ySl" = _Xbge2ySl;
+        "1TzjbNpe" = _1TzjbNpe;
         "fabric-1.21.11" = _WDwzxwmC;
         "fabric-26.1" = _KEVwkbJx;
         "fabric-26.1.1" = _cXoiIcqq;
         "fabric-26.1.2" = _LEjWGjrr;
         "fabric-26.2" = _16J7zdIl;
-        "fabric-26.3" = _Xbge2ySl;
+        "fabric-26.3" = _1TzjbNpe;
         "pkg-1.0.0" = _WDwzxwmC;
         "pkg-1.1.0" = _iEfVgTKy;
         "pkg-1.1.1" = _HEAgH7U7;
@@ -77,7 +83,8 @@ let
         "pkg-1.1.5" = _5kLIJhmh;
         "pkg-1.1.6" = _16J7zdIl;
         "pkg-1.1.7" = _Xbge2ySl;
-        "default" = _Xbge2ySl;
+        "pkg-1.1.8" = _1TzjbNpe;
+        "default" = _1TzjbNpe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "xxlenderchest";

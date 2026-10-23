@@ -126,6 +126,21 @@ let
             "file" = "PlutosDrinksAPI-1.20.1+0.4.8+build.179.jar";
             "hash" = "sha512-FoJ3MFi6Y2XrbK06WaLlomiIovrdNt38h7yckyMqSNEUNvRvtuPLc8bUvUGXSaa4O/g5MDzkYsTp/MkPPKCO1w==";
         };
+        _Ijgwv0yU = {
+            "id" = "Ijgwv0yU";
+            "file" = "PlutosDrinksAPI-1.20.1+0.5.1+build.188.jar";
+            "hash" = "sha512-C9FX8h3ZlxU+rrZQzHc49GkGgZN4qM27TsWjXmXOoF0DbLlG6tw2ssk5E/v2zNCtg6EFBJoAAWpCT9Cm4r2Iyg==";
+        };
+        _zzoEmw2d = {
+            "id" = "zzoEmw2d";
+            "file" = "PlutosDrinksAPI-1.20.1+0.5.2+build.191.jar";
+            "hash" = "sha512-Py/5iy4uuQBofpMxSpv5n2z1QQw3GUbPXGvNwt4KkFRB3fOmeulGdqtT5K5BLaoMm62Ic6IPoXVrvbkGCRLLVg==";
+        };
+        _GdfIUw2C = {
+            "id" = "GdfIUw2C";
+            "file" = "PlutosDrinksAPI-1.21.1+1.5.2+build.195.jar";
+            "hash" = "sha512-Nr+sN27+RiW/RW/LhCXq1/mC+si71Wxag3N7CAiCkDs65RKIssTTapZ8cjHs8ETJ7k8pKnC0YrxXaUuGv6QBjg==";
+        };
     in {
         "jZUsfQH9" = _jZUsfQH9;
         "Of0DtZSu" = _Of0DtZSu;
@@ -152,13 +167,18 @@ let
         "Vnf5m3sE" = _Vnf5m3sE;
         "bt4KMW2W" = _bt4KMW2W;
         "pjWoVLae" = _pjWoVLae;
-        "fabric-1.20" = _pjWoVLae;
-        "fabric-1.20.1" = _pjWoVLae;
+        "Ijgwv0yU" = _Ijgwv0yU;
+        "zzoEmw2d" = _zzoEmw2d;
+        "GdfIUw2C" = _GdfIUw2C;
+        "fabric-1.20" = _zzoEmw2d;
+        "fabric-1.20.1" = _zzoEmw2d;
         "fabric-1.20.2" = _UGXRTYMA;
         "fabric-1.20.3" = _oFQwzhCq;
         "fabric-1.20.4" = _oFQwzhCq;
         "fabric-1.20.5" = _Wbiz2thq;
         "fabric-1.20.6" = _Wbiz2thq;
+        "fabric-1.21" = _GdfIUw2C;
+        "fabric-1.21.1" = _GdfIUw2C;
         "pkg-0.1.0+1.20.1" = _jZUsfQH9;
         "pkg-0.1.1+1.20.1" = _Of0DtZSu;
         "pkg-0.1.2+1.20.1" = _9Eu7QvfT;
@@ -184,7 +204,10 @@ let
         "pkg-1.20.1+0.4.6+build.170" = _Vnf5m3sE;
         "pkg-1.20.1+0.4.7+build.173" = _bt4KMW2W;
         "pkg-1.20.1+0.4.8+build.179" = _pjWoVLae;
-        "default" = _pjWoVLae;
+        "pkg-1.20.1+0.5.1+build.188" = _Ijgwv0yU;
+        "pkg-1.20.1+0.5.2+build.191" = _zzoEmw2d;
+        "pkg-1.21.1+1.5.2+beta.1" = _GdfIUw2C;
+        "default" = _GdfIUw2C;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pdapi";

@@ -581,6 +581,21 @@ let
             "file" = "solarcooker-neoforge-26.3-5.3.0.0.jar";
             "hash" = "sha512-6VSB0FC41G5gsEPyrNZsaVkHzhn9U2HC9TjG3QrelGqaVBsaS9MZl263Q6BlDyR70AqjqD6rtM6P3DVlZHJO/w==";
         };
+        _ddRExveu = {
+            "id" = "ddRExveu";
+            "file" = "solarcooker-fabric-26.3-5.3.1.0.jar";
+            "hash" = "sha512-e1G0/IFbBWJOp+DcMmAlGQLM9QmHcrP7xRHOm+xYyNgaTrCAf8ihj1iwRQUyi1vF0auDYgMCC9BeooQF/fMERw==";
+        };
+        _PlTJ1oGS = {
+            "id" = "PlTJ1oGS";
+            "file" = "solarcooker-forge-26.3-5.3.1.0.jar";
+            "hash" = "sha512-DBHLTKpEfzyALIApZm0rR02fWmakzzd3UaB8Yj9Uykbya9qmbHzlWCrjkak4eNscKHxB5eLVHiFq5GPQunkAuQ==";
+        };
+        _aFdt1MZF = {
+            "id" = "aFdt1MZF";
+            "file" = "solarcooker-neoforge-26.3-5.3.1.0.jar";
+            "hash" = "sha512-G1RvwdI6P3mc9+BORayjTDkGmXHhw3NwTcv4DxV5WOKGKKU1edIfr3rq36+cGSx52JeoYypcdHIhRCno/oEcUA==";
+        };
     in {
         "dQmZCGD3" = _dQmZCGD3;
         "FdPTJlku" = _FdPTJlku;
@@ -698,6 +713,9 @@ let
         "8NBWlFIQ" = _8NBWlFIQ;
         "vVBG4K1s" = _vVBG4K1s;
         "P36SCVpt" = _P36SCVpt;
+        "ddRExveu" = _ddRExveu;
+        "PlTJ1oGS" = _PlTJ1oGS;
+        "aFdt1MZF" = _aFdt1MZF;
         "forge-1.15.2" = _dQmZCGD3;
         "forge-1.16.5" = _FdPTJlku;
         "forge-1.17.1" = _iVkGV9YD;
@@ -725,7 +743,7 @@ let
         "forge-26.1.1" = _x4Yc6P52;
         "forge-26.1.2" = _IhmuIoUw;
         "forge-26.2" = _EoZBdksv;
-        "forge-26.3" = _vVBG4K1s;
+        "forge-26.3" = _PlTJ1oGS;
         "neoforge-1.20.1" = _iwYSgVi3;
         "neoforge-1.20.4" = _I1yjInXs;
         "neoforge-1.20.6" = _Twc4fYkX;
@@ -743,7 +761,7 @@ let
         "neoforge-26.1.1" = _TlF3igS2;
         "neoforge-26.1.2" = _FIioTRnH;
         "neoforge-26.2" = _JvBsHMDF;
-        "neoforge-26.3" = _P36SCVpt;
+        "neoforge-26.3" = _aFdt1MZF;
         "fabric-1.20.4" = _5HhZ9bA0;
         "fabric-1.20.6" = _682Nw79x;
         "fabric-1.21" = _sSbGh1Ix;
@@ -760,7 +778,7 @@ let
         "fabric-26.1.1" = _8JqETJRG;
         "fabric-26.1.2" = _z5EVr2WE;
         "fabric-26.2" = _zFAiVvDV;
-        "fabric-26.3" = _8NBWlFIQ;
+        "fabric-26.3" = _ddRExveu;
         "quilt-1.20.4" = _5HhZ9bA0;
         "quilt-1.20.6" = _682Nw79x;
         "quilt-1.21" = _sSbGh1Ix;
@@ -777,7 +795,7 @@ let
         "quilt-26.1.1" = _8JqETJRG;
         "quilt-26.1.2" = _z5EVr2WE;
         "quilt-26.2" = _zFAiVvDV;
-        "quilt-26.3" = _8NBWlFIQ;
+        "quilt-26.3" = _ddRExveu;
         "pkg-0.4.0" = _dQmZCGD3;
         "pkg-1.16.5-1.0.2.0" = _FdPTJlku;
         "pkg-1.17.1-1.0.2.0" = _iVkGV9YD;
@@ -827,7 +845,8 @@ let
         "pkg-26.1.2-5.1.1.0" = _IhmuIoUw;
         "pkg-26.2-5.2.2.0" = _JvBsHMDF;
         "pkg-26.3-5.3.0.0" = _P36SCVpt;
-        "default" = _P36SCVpt;
+        "pkg-26.3-5.3.1.0" = _aFdt1MZF;
+        "default" = _aFdt1MZF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "solar-cooker";

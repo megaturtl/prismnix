@@ -26,12 +26,18 @@ let
             "file" = "pop-1.21.3-1.0.0.jar";
             "hash" = "sha512-ve8+ODXnvQH5mcwpLunhxmniflosSjlYy4hd5NX1/Hlzf8VPNUH5iULE5/aFjy7LftufyX7Do5DpVkXB4jdPLw==";
         };
+        _AQpJVYxO = {
+            "id" = "AQpJVYxO";
+            "file" = "pop-26.1.2-1.0.0.jar";
+            "hash" = "sha512-T6Esw07jVuezRx3AW4itXv5AlFy9CbaTvo5V22bS31Tjw5Hesbty3m/sJMG/0vOUw/A5l5Je0vqpm7Sxp2ob9g==";
+        };
     in {
         "b45I2njv" = _b45I2njv;
         "PHhPNw1t" = _PHhPNw1t;
         "GljTgpvM" = _GljTgpvM;
         "QZezsdyT" = _QZezsdyT;
         "OEnPPTEx" = _OEnPPTEx;
+        "AQpJVYxO" = _AQpJVYxO;
         "forge-1.16.5" = _b45I2njv;
         "forge-1.18" = _PHhPNw1t;
         "forge-1.18.1" = _PHhPNw1t;
@@ -48,8 +54,11 @@ let
         "neoforge-1.21.6" = _OEnPPTEx;
         "neoforge-1.21.7" = _OEnPPTEx;
         "neoforge-1.21.8" = _OEnPPTEx;
-        "pkg-1.0.0" = _OEnPPTEx;
-        "default" = _OEnPPTEx;
+        "neoforge-26.1.2" = _AQpJVYxO;
+        "neoforge-26.2" = _AQpJVYxO;
+        "neoforge-26.3" = _AQpJVYxO;
+        "pkg-1.0.0" = _AQpJVYxO;
+        "default" = _AQpJVYxO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pop";

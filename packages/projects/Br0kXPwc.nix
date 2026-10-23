@@ -246,6 +246,16 @@ let
             "file" = "tensura-neoforge-2.0.1.3.jar";
             "hash" = "sha512-IszeRKYIU8apG37CAcw6QWXCk4KAJmB2b7X3q828UPdRrKCJQW4nBNkr1dAfzZkOIfyDvghZ3+PDSfZnTF6ktA==";
         };
+        _DZ5a1IEG = {
+            "id" = "DZ5a1IEG";
+            "file" = "tensura-fabric-2.0.1.4.jar";
+            "hash" = "sha512-+/Hr29CLyH2gYdG+7V1wh+cBf0d9tpHv+sEf++bFM6lKFba3hSW8sy80Z/CQnsrAByV5dkA/AHV4y9aqhK/d9w==";
+        };
+        _DfQPJq9I = {
+            "id" = "DfQPJq9I";
+            "file" = "tensura-neoforge-2.0.1.4.jar";
+            "hash" = "sha512-uxJ8hqqPSqCnNJeVh/A3uG5fwZcLhdXY8pdutoX4Df+z0VvI/d5GYorotaDpAlT3dWN7VXGCGQHJpafdcLXM0Q==";
+        };
     in {
         "eaRL5ZUn" = _eaRL5ZUn;
         "gUVR386O" = _gUVR386O;
@@ -296,9 +306,11 @@ let
         "uw05A7u2" = _uw05A7u2;
         "YQ5c2eA3" = _YQ5c2eA3;
         "LttkLzXM" = _LttkLzXM;
+        "DZ5a1IEG" = _DZ5a1IEG;
+        "DfQPJq9I" = _DfQPJq9I;
         "forge-1.19.2" = _1mkMljD5;
-        "neoforge-1.21.1" = _LttkLzXM;
-        "fabric-1.21.1" = _YQ5c2eA3;
+        "neoforge-1.21.1" = _DfQPJq9I;
+        "fabric-1.21.1" = _DZ5a1IEG;
         "pkg-1.0.0.0" = _eaRL5ZUn;
         "pkg-1.0.0.1" = _gUVR386O;
         "pkg-1.0.0.2" = _9xnjlkDg;
@@ -337,7 +349,8 @@ let
         "pkg-2.0.1.0" = _dXLkZE8R;
         "pkg-2.0.1.1" = _uw05A7u2;
         "pkg-2.0.1.3" = _LttkLzXM;
-        "default" = _LttkLzXM;
+        "pkg-2.0.1.4" = _DfQPJq9I;
+        "default" = _DfQPJq9I;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tensura-reincarnated";

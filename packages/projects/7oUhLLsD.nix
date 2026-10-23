@@ -56,6 +56,11 @@ let
             "file" = "relicera-1.2.3.jar";
             "hash" = "sha512-xfecZccjNBl/CF6BbBKMdrhf/Zt0ew6CfX+HoUmoDGuBhKcf/sZUHMYTaVF7bHMP3T0SYBe7YBniw5EUeIurFQ==";
         };
+        _dcPvqQs2 = {
+            "id" = "dcPvqQs2";
+            "file" = "relicera-1.2.4.jar";
+            "hash" = "sha512-S/uHdaoPZYcTTftVrRdwBjvlhrPF21qYk98G02Zqtdw6K89H76X+Fs5hBrWiNun5E4tVD9Cj4vEkibMRyWboHw==";
+        };
     in {
         "kosdaOoZ" = _kosdaOoZ;
         "kBH3uEpX" = _kBH3uEpX;
@@ -68,7 +73,8 @@ let
         "q7u1Eu4T" = _q7u1Eu4T;
         "qU02F8ff" = _qU02F8ff;
         "JQqh4hke" = _JQqh4hke;
-        "forge-1.20.1" = _JQqh4hke;
+        "dcPvqQs2" = _dcPvqQs2;
+        "forge-1.20.1" = _dcPvqQs2;
         "forge-1.20.2" = _mFR8b1PF;
         "forge-1.20.3" = _mFR8b1PF;
         "forge-1.20.4" = _mFR8b1PF;
@@ -85,7 +91,8 @@ let
         "pkg-1.2.1" = _q7u1Eu4T;
         "pkg-1.2.2" = _qU02F8ff;
         "pkg-1.2.3" = _JQqh4hke;
-        "default" = _JQqh4hke;
+        "pkg-1.2.4" = _dcPvqQs2;
+        "default" = _dcPvqQs2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "relicera";

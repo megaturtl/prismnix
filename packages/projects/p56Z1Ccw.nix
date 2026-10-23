@@ -71,6 +71,16 @@ let
             "file" = "cobblemon-radical-changes-5.0.jar";
             "hash" = "sha512-icqO5YxZ/oSXpiiXtXWFchAhxwuNkvW4GUnuwKykGA2FRUo/CmMXV6uxIoDM8Hznmjk4N05od6znQqa8sMwqKQ==";
         };
+        _yuh7ee8R = {
+            "id" = "yuh7ee8R";
+            "file" = "Cobblemon Radical Changes 6.0.zip";
+            "hash" = "sha512-aftEZKgVHWS58btUAueQhbVFN9TAzG64oPMyQLcokL/RDR08ARdaWs+UBDzhkV8Ef2wEh1EQHINs2PWLMTemRA==";
+        };
+        _hXMqr867 = {
+            "id" = "hXMqr867";
+            "file" = "cobblemon-radical-changes-6.0.jar";
+            "hash" = "sha512-QEtwKyfTHxNQUHxDtvlgdNQbigfNtRiPxp5h8g5sYoP4mQRwe1sPwd2HOYnYSSG1qnmGkSUVB683ROyQQyH2zg==";
+        };
     in {
         "qJyDoQI7" = _qJyDoQI7;
         "6LkfnWWL" = _6LkfnWWL;
@@ -86,9 +96,14 @@ let
         "NAO2OZFI" = _NAO2OZFI;
         "1ouSXNNx" = _1ouSXNNx;
         "gmdODwXj" = _gmdODwXj;
-        "datapack-1.21.1" = _1ouSXNNx;
-        "fabric-1.21.1" = _gmdODwXj;
-        "neoforge-1.21.1" = _gmdODwXj;
+        "yuh7ee8R" = _yuh7ee8R;
+        "hXMqr867" = _hXMqr867;
+        "datapack-1.21.1" = _yuh7ee8R;
+        "datapack-1.21" = _yuh7ee8R;
+        "fabric-1.21.1" = _hXMqr867;
+        "fabric-1.21" = _hXMqr867;
+        "neoforge-1.21.1" = _hXMqr867;
+        "neoforge-1.21" = _hXMqr867;
         "minecraft-1.21.1" = _1ouSXNNx;
         "pkg-1.0" = _qJyDoQI7;
         "pkg-2.0.0" = _6LkfnWWL;
@@ -104,7 +119,9 @@ let
         "pkg-4.2+mod" = _NAO2OZFI;
         "pkg-5.0" = _1ouSXNNx;
         "pkg-5.0+mod" = _gmdODwXj;
-        "default" = _gmdODwXj;
+        "pkg-6.0" = _yuh7ee8R;
+        "pkg-6.0+mod" = _hXMqr867;
+        "default" = _hXMqr867;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-radical-changes";

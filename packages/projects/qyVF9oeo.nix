@@ -1501,6 +1501,81 @@ let
             "file" = "sound-physics-remastered-forge-1.5.1+26.3.jar";
             "hash" = "sha512-oIbKX7OYt7OB7q8aySaFkiAbqD6ynHjlAhtr0VI40sCpaoDez97OKrw8dgJo0yidkdRzOOg/QfadyzkjjbumVA==";
         };
+        _g7QjtGGU = {
+            "id" = "g7QjtGGU";
+            "file" = "sound-physics-remastered-forge-1.21.1-1.5.2.jar";
+            "hash" = "sha512-hPwjGk7IQOk/M7rLMzbuIA8uI195c/t/dThbmnE62ZeT3fi7LVThJ8P9vcNCtSGsWwQwiBgg01/vWbLT/Ke5iA==";
+        };
+        _85fA7L1W = {
+            "id" = "85fA7L1W";
+            "file" = "sound-physics-remastered-neoforge-1.21.1-1.5.2.jar";
+            "hash" = "sha512-lYdH3BkUU241dRLdLwuSby7pNtrOP5pDoOjrUa5vNbnHNZUp7kjSrFDRkLArYX2U0i7O0gLs0wVklMcaSVixSw==";
+        };
+        _BYhL3BDk = {
+            "id" = "BYhL3BDk";
+            "file" = "sound-physics-remastered-fabric-1.21.1-1.5.2.jar";
+            "hash" = "sha512-swykxd8OaS13nBB8IHGdKSACHMRO4HgR8qfAHPGQ/HQzeYqzXe4QsxoxL9PxsPIxzCnQTr0Ia4LiBoqHgIDyNg==";
+        };
+        _jUtNitfw = {
+            "id" = "jUtNitfw";
+            "file" = "sound-physics-remastered-forge-1.21.11-1.5.2.jar";
+            "hash" = "sha512-hB9EUysVugm1GINluA+GFqkVXSFGwQr38uS0jdJK3BAbJrs3E44Ov8xPjrB3FwnoCFEiPWC54OBkNPuVSA7F2w==";
+        };
+        _U2JVjlTA = {
+            "id" = "U2JVjlTA";
+            "file" = "sound-physics-remastered-neoforge-1.21.11-1.5.2.jar";
+            "hash" = "sha512-yyl8izxI80PpfMQbBd6yHQfq6BvtIctGwX7DGu3Ux4UNCb5BGGC5X8BVTxk3/K/bWiCrg8ce8ucLmO5g5G+lXA==";
+        };
+        _61lf1wKt = {
+            "id" = "61lf1wKt";
+            "file" = "sound-physics-remastered-fabric-1.21.11-1.5.2.jar";
+            "hash" = "sha512-q7XezhC4SrnwplihiuT50umSgyKzEzzjIFcPb4DNRiG6lKFyIAATctnYECBdC/a9vWFgblsdRDyyoAod8K0Xig==";
+        };
+        _CV5Kt82p = {
+            "id" = "CV5Kt82p";
+            "file" = "sound-physics-remastered-forge-1.5.2+26.1.2.jar";
+            "hash" = "sha512-5NJiIc2m7Wih5u5j49tNVYLyDRZYEbuZm0xKjmGmxvz6xddV7iBddLrdc8Khd5RwHmPfZeEsmDZKdBRAR7OxSw==";
+        };
+        _bi1FjWU6 = {
+            "id" = "bi1FjWU6";
+            "file" = "sound-physics-remastered-neoforge-1.5.2+26.1.2.jar";
+            "hash" = "sha512-VnJUOIdPVPtFNVfWQxSs0IJNIpnoXL8AE/c3Mxc2v8a3ve3N6T6TROwjwSPmlpp3uJCiCangE2ZM2JH/DwtXkA==";
+        };
+        _Acwz0QbP = {
+            "id" = "Acwz0QbP";
+            "file" = "sound-physics-remastered-fabric-1.5.2+26.1.2.jar";
+            "hash" = "sha512-2Py71WcO/ckhLHpMGALV9F/ozunvYeSFZUYKQ1dudpM6X8I393/zVRN0h8rXbtpBrRPkSxP+CWzZjWSP04hx0A==";
+        };
+        _nG0fQELi = {
+            "id" = "nG0fQELi";
+            "file" = "sound-physics-remastered-forge-1.5.2+26.2.jar";
+            "hash" = "sha512-HPTDO49kGpldCg27CVjF/xzxVNLJsB9ORiPRdjLg+Vc4pbS0yfa6a1/Wy7cVZgmV4eBIVTavz6aTfpN1T7uO/Q==";
+        };
+        _CA1gc9mX = {
+            "id" = "CA1gc9mX";
+            "file" = "sound-physics-remastered-neoforge-1.5.2+26.2.jar";
+            "hash" = "sha512-3VeWQXfmqokF3y7zCjzOnmPEZuZ61bS5EMiafQdfYtdPWAk1HJa8e8yOFo72/sM/WgcKXIq4T7cr1CF0dqMG6w==";
+        };
+        _spaXzTE9 = {
+            "id" = "spaXzTE9";
+            "file" = "sound-physics-remastered-fabric-1.5.2+26.2.jar";
+            "hash" = "sha512-1YCZGOEpsyR2f07J0/zGpgTeeGDyUS258902jYiUzIN23m62WeeM6Fu5cCAxWjr4d9lvB66hYOBMeSXgUho2fg==";
+        };
+        _M5cFFuL2 = {
+            "id" = "M5cFFuL2";
+            "file" = "sound-physics-remastered-forge-1.5.2+26.3.jar";
+            "hash" = "sha512-nxqNPUpprpJRRxO5bvqqsAD6TLFRIZ2TCUTZA2GFEkYCt+xk2KrxF+3Xr6AWKgdiiEukVprmQEIQUYfCgJaDNQ==";
+        };
+        _fsyAOst7 = {
+            "id" = "fsyAOst7";
+            "file" = "sound-physics-remastered-neoforge-1.5.2+26.3.jar";
+            "hash" = "sha512-TSp+c5gsdOU9XmgNNv2hGKzkKAfnOThdjd54dJ3euLRtbUM5XLV033nFr7YPK5mxGm9Zd96TF8RebV87GhqVgQ==";
+        };
+        _gA7nKz5g = {
+            "id" = "gA7nKz5g";
+            "file" = "sound-physics-remastered-fabric-1.5.2+26.3.jar";
+            "hash" = "sha512-F1LmP0kLl2F/YvijJxPkCzBdh+NbRx2VYzW8zkq4s6QN9bOYiWq5skuTDnhpUzwwhrqjG0rbNfr1hR0+7PRsDA==";
+        };
     in {
         "tbyD9fqo" = _tbyD9fqo;
         "CK4lQQ9O" = _CK4lQQ9O;
@@ -1802,6 +1877,21 @@ let
         "MVooSqHq" = _MVooSqHq;
         "9loJgQlO" = _9loJgQlO;
         "9fsEYAXC" = _9fsEYAXC;
+        "g7QjtGGU" = _g7QjtGGU;
+        "85fA7L1W" = _85fA7L1W;
+        "BYhL3BDk" = _BYhL3BDk;
+        "jUtNitfw" = _jUtNitfw;
+        "U2JVjlTA" = _U2JVjlTA;
+        "61lf1wKt" = _61lf1wKt;
+        "CV5Kt82p" = _CV5Kt82p;
+        "bi1FjWU6" = _bi1FjWU6;
+        "Acwz0QbP" = _Acwz0QbP;
+        "nG0fQELi" = _nG0fQELi;
+        "CA1gc9mX" = _CA1gc9mX;
+        "spaXzTE9" = _spaXzTE9;
+        "M5cFFuL2" = _M5cFFuL2;
+        "fsyAOst7" = _fsyAOst7;
+        "gA7nKz5g" = _gA7nKz5g;
         "forge-1.19" = _74oofD7s;
         "forge-1.19.1" = _ZQ358klw;
         "forge-1.19.2" = _cT0aLJ8N;
@@ -1812,8 +1902,8 @@ let
         "forge-1.20.2" = _i9vcidyG;
         "forge-1.20.4" = _mKQcogVn;
         "forge-1.20.6" = _MgbZRiG5;
-        "forge-1.21" = _hjqFKSNL;
-        "forge-1.21.1" = _hjqFKSNL;
+        "forge-1.21" = _g7QjtGGU;
+        "forge-1.21.1" = _g7QjtGGU;
         "forge-1.21.3" = _c0jIG24R;
         "forge-1.21.4" = _Hd5cV8ki;
         "forge-1.21.5" = _v0gtGOMN;
@@ -1822,12 +1912,12 @@ let
         "forge-1.21.8" = _4V9NXSUN;
         "forge-1.21.9" = _QoPZf0xy;
         "forge-1.21.10" = _Zevu9NLr;
-        "forge-1.21.11" = _fEnVDnQy;
-        "forge-26.1" = _AGRaV6qK;
-        "forge-26.1.1" = _AGRaV6qK;
-        "forge-26.1.2" = _AGRaV6qK;
-        "forge-26.2" = _6Zba3CwE;
-        "forge-26.3" = _9fsEYAXC;
+        "forge-1.21.11" = _jUtNitfw;
+        "forge-26.1" = _CV5Kt82p;
+        "forge-26.1.1" = _CV5Kt82p;
+        "forge-26.1.2" = _CV5Kt82p;
+        "forge-26.2" = _nG0fQELi;
+        "forge-26.3" = _M5cFFuL2;
         "fabric-1.19" = _34AzinYF;
         "fabric-1.19.1" = _8DVONifo;
         "fabric-1.19.2" = _D7fOLtmp;
@@ -1839,8 +1929,8 @@ let
         "fabric-1.20.4" = _Yh3XWCNn;
         "fabric-1.20.5" = _LlnzkNS9;
         "fabric-1.20.6" = _s5PSGIl7;
-        "fabric-1.21" = _tVu2EZ4u;
-        "fabric-1.21.1" = _tVu2EZ4u;
+        "fabric-1.21" = _BYhL3BDk;
+        "fabric-1.21.1" = _BYhL3BDk;
         "fabric-1.21.3" = _HQmzjJ3p;
         "fabric-1.21.4" = _6mKaWW6b;
         "fabric-1.21.5" = _VvbAHIWf;
@@ -1849,12 +1939,12 @@ let
         "fabric-1.21.8" = _gUaL8lMJ;
         "fabric-1.21.9" = _dkg8dQOa;
         "fabric-1.21.10" = _pDo1ElL2;
-        "fabric-1.21.11" = _pfqxi9qs;
-        "fabric-26.1" = _y3vsp51g;
-        "fabric-26.1.1" = _y3vsp51g;
-        "fabric-26.1.2" = _y3vsp51g;
-        "fabric-26.2" = _d8iioMMp;
-        "fabric-26.3" = _9loJgQlO;
+        "fabric-1.21.11" = _61lf1wKt;
+        "fabric-26.1" = _Acwz0QbP;
+        "fabric-26.1.1" = _Acwz0QbP;
+        "fabric-26.1.2" = _Acwz0QbP;
+        "fabric-26.2" = _spaXzTE9;
+        "fabric-26.3" = _gA7nKz5g;
         "neoforge-1.20.1" = _sSV5WT7s;
         "neoforge-1.19.2" = _JPBZW9Vf;
         "neoforge-1.19.4" = _bKhTczPg;
@@ -1862,8 +1952,8 @@ let
         "neoforge-1.20.4" = _eQg3x7U0;
         "neoforge-1.20.5" = _GZpOvsk2;
         "neoforge-1.20.6" = _BwDWoRgh;
-        "neoforge-1.21" = _Dd2tmpsk;
-        "neoforge-1.21.1" = _Dd2tmpsk;
+        "neoforge-1.21" = _85fA7L1W;
+        "neoforge-1.21.1" = _85fA7L1W;
         "neoforge-1.21.3" = _VBcz7r0j;
         "neoforge-1.21.4" = _thfTQpK3;
         "neoforge-1.21.5" = _Zec2D7gq;
@@ -1872,12 +1962,12 @@ let
         "neoforge-1.21.8" = _yOC9aHax;
         "neoforge-1.21.9" = _PVce87mn;
         "neoforge-1.21.10" = _BTy2x7RS;
-        "neoforge-1.21.11" = _kkDJ1ncH;
-        "neoforge-26.1" = _fJhWavsR;
-        "neoforge-26.1.1" = _fJhWavsR;
-        "neoforge-26.1.2" = _fJhWavsR;
-        "neoforge-26.2" = _T2rk5I7r;
-        "neoforge-26.3" = _MVooSqHq;
+        "neoforge-1.21.11" = _U2JVjlTA;
+        "neoforge-26.1" = _bi1FjWU6;
+        "neoforge-26.1.1" = _bi1FjWU6;
+        "neoforge-26.1.2" = _bi1FjWU6;
+        "neoforge-26.2" = _CA1gc9mX;
+        "neoforge-26.3" = _fsyAOst7;
         "quilt-1.20.1" = _sCsWXt85;
         "quilt-1.19.2" = _D7fOLtmp;
         "quilt-1.19.4" = _I2nXZGRy;
@@ -1885,8 +1975,8 @@ let
         "quilt-1.20.4" = _Yh3XWCNn;
         "quilt-1.20.5" = _LlnzkNS9;
         "quilt-1.20.6" = _s5PSGIl7;
-        "quilt-1.21" = _tVu2EZ4u;
-        "quilt-1.21.1" = _tVu2EZ4u;
+        "quilt-1.21" = _BYhL3BDk;
+        "quilt-1.21.1" = _BYhL3BDk;
         "quilt-1.21.3" = _HQmzjJ3p;
         "quilt-1.21.4" = _6mKaWW6b;
         "quilt-1.21.5" = _VvbAHIWf;
@@ -1895,12 +1985,12 @@ let
         "quilt-1.21.8" = _gUaL8lMJ;
         "quilt-1.21.9" = _dkg8dQOa;
         "quilt-1.21.10" = _pDo1ElL2;
-        "quilt-1.21.11" = _pfqxi9qs;
-        "quilt-26.1" = _y3vsp51g;
-        "quilt-26.1.1" = _y3vsp51g;
-        "quilt-26.1.2" = _y3vsp51g;
-        "quilt-26.2" = _d8iioMMp;
-        "quilt-26.3" = _9loJgQlO;
+        "quilt-1.21.11" = _61lf1wKt;
+        "quilt-26.1" = _Acwz0QbP;
+        "quilt-26.1.1" = _Acwz0QbP;
+        "quilt-26.1.2" = _Acwz0QbP;
+        "quilt-26.2" = _spaXzTE9;
+        "quilt-26.3" = _gA7nKz5g;
         "pkg-forge-1.19-1.0.6" = _tbyD9fqo;
         "pkg-fabric-1.19-1.0.6" = _CK4lQQ9O;
         "pkg-forge-1.19-1.0.7" = _x9IWXNJ1;
@@ -2199,7 +2289,22 @@ let
         "pkg-neoforge-1.5.1+26.3" = _MVooSqHq;
         "pkg-fabric-1.5.1+26.3" = _9loJgQlO;
         "pkg-forge-1.5.1+26.3" = _9fsEYAXC;
-        "default" = _9fsEYAXC;
+        "pkg-forge-1.21.1-1.5.2" = _g7QjtGGU;
+        "pkg-neoforge-1.21.1-1.5.2" = _85fA7L1W;
+        "pkg-fabric-1.21.1-1.5.2" = _BYhL3BDk;
+        "pkg-forge-1.21.11-1.5.2" = _jUtNitfw;
+        "pkg-neoforge-1.21.11-1.5.2" = _U2JVjlTA;
+        "pkg-fabric-1.21.11-1.5.2" = _61lf1wKt;
+        "pkg-forge-1.5.2+26.1.2" = _CV5Kt82p;
+        "pkg-neoforge-1.5.2+26.1.2" = _bi1FjWU6;
+        "pkg-fabric-1.5.2+26.1.2" = _Acwz0QbP;
+        "pkg-forge-1.5.2+26.2" = _nG0fQELi;
+        "pkg-neoforge-1.5.2+26.2" = _CA1gc9mX;
+        "pkg-fabric-1.5.2+26.2" = _spaXzTE9;
+        "pkg-forge-1.5.2+26.3" = _M5cFFuL2;
+        "pkg-neoforge-1.5.2+26.3" = _fsyAOst7;
+        "pkg-fabric-1.5.2+26.3" = _gA7nKz5g;
+        "default" = _gA7nKz5g;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sound-physics-remastered";

@@ -146,6 +146,11 @@ let
             "file" = "creatingspace-1.21.1-1.7.18.jar";
             "hash" = "sha512-vetUNUp4ZOdbKj8C+67Uiv6+qOZAay7GVlGJJLmQh99c/pzVGGAoCAxQRDdocACxUWwsez8VhROfakL+HBa1/A==";
         };
+        _MU9ngpM5 = {
+            "id" = "MU9ngpM5";
+            "file" = "creatingspace-1.21.1-1.7.23.jar";
+            "hash" = "sha512-ES0Nhu/R5jSwo7nf2zEoB9jB/TkTMJ0AZMl2zUbg2Qhv0ripK4DkOLvwnpAFicSfi5MvxAQwzhTYYQuayzNpXQ==";
+        };
     in {
         "KMC0cdhM" = _KMC0cdhM;
         "aMLDpRoD" = _aMLDpRoD;
@@ -176,9 +181,10 @@ let
         "iZ8wqmwD" = _iZ8wqmwD;
         "K5Rur7by" = _K5Rur7by;
         "WKHiRq8M" = _WKHiRq8M;
+        "MU9ngpM5" = _MU9ngpM5;
         "forge-1.19.2" = _V6pwgJ1R;
         "forge-1.20.1" = _zzAcnBx5;
-        "neoforge-1.21.1" = _WKHiRq8M;
+        "neoforge-1.21.1" = _MU9ngpM5;
         "pkg-1.7.0c" = _KMC0cdhM;
         "pkg-1.19.2_1.7.1" = _aMLDpRoD;
         "pkg-1.19.2_1.7.4" = _KQO2cc66;
@@ -208,7 +214,8 @@ let
         "pkg-1.21.1_1.7.16" = _iZ8wqmwD;
         "pkg-1.21.1_1.7.17" = _K5Rur7by;
         "pkg-1.7.18" = _WKHiRq8M;
-        "default" = _WKHiRq8M;
+        "pkg-1.7.23" = _MU9ngpM5;
+        "default" = _MU9ngpM5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "creating-space";

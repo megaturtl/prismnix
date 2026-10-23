@@ -91,6 +91,16 @@ let
             "file" = "immersive-storms-2.0.0+26.1.x-beta.1.jar";
             "hash" = "sha512-50+Mc0Y0K2bnFqoeEfagtBHmeF3eHOnkA8b5CmfzUOsGRRTxeTinLh6I+ZzTjnwgtgOb0DY7G7q1K76nuAyreQ==";
         };
+        _l0dqpSTL = {
+            "id" = "l0dqpSTL";
+            "file" = "immersive-storms-2.0.0+26.1.x-beta.2.jar";
+            "hash" = "sha512-+6P5jBL7CVzefv2otHyUcy4NCvNnqJvmaI1nSvIyy/8j3qwMJj91QRfNXyQZ3X+c0OrS9xjA6emWKbUXw3lfSA==";
+        };
+        _iRQgQpgH = {
+            "id" = "iRQgQpgH";
+            "file" = "immersive-storms-2.0.0+26.1.x-beta.3.jar";
+            "hash" = "sha512-ioJvzwCJVbqjfOvPoynAARP6y0tR3zONwJrKF0oao5ILv9DxI0tuaBPClRnWRTcGMKmNHYoj9FcLtNlDfesVMQ==";
+        };
     in {
         "VKsOam42" = _VKsOam42;
         "5MCkiSQZ" = _5MCkiSQZ;
@@ -110,6 +120,8 @@ let
         "H52O6tyT" = _H52O6tyT;
         "iArYgr87" = _iArYgr87;
         "8ckgv4RY" = _8ckgv4RY;
+        "l0dqpSTL" = _l0dqpSTL;
+        "iRQgQpgH" = _iRQgQpgH;
         "fabric-1.21.5" = _VKsOam42;
         "fabric-1.21.6" = _7ER9eIwK;
         "fabric-1.21.7" = _7ER9eIwK;
@@ -117,9 +129,9 @@ let
         "fabric-1.21.9" = _FrbWed93;
         "fabric-1.21.10" = _FrbWed93;
         "fabric-1.21.11" = _x2JFd9xZ;
-        "fabric-26.1" = _8ckgv4RY;
-        "fabric-26.1.1" = _8ckgv4RY;
-        "fabric-26.1.2" = _8ckgv4RY;
+        "fabric-26.1" = _iRQgQpgH;
+        "fabric-26.1.1" = _iRQgQpgH;
+        "fabric-26.1.2" = _iRQgQpgH;
         "fabric-26.2" = _H52O6tyT;
         "fabric-26.3" = _iArYgr87;
         "quilt-1.21.5" = _VKsOam42;
@@ -129,14 +141,14 @@ let
         "quilt-1.21.9" = _FrbWed93;
         "quilt-1.21.10" = _FrbWed93;
         "quilt-1.21.11" = _x2JFd9xZ;
-        "quilt-26.1" = _8ckgv4RY;
-        "quilt-26.1.1" = _8ckgv4RY;
-        "quilt-26.1.2" = _8ckgv4RY;
+        "quilt-26.1" = _iRQgQpgH;
+        "quilt-26.1.1" = _iRQgQpgH;
+        "quilt-26.1.2" = _iRQgQpgH;
         "quilt-26.2" = _H52O6tyT;
         "quilt-26.3" = _iArYgr87;
-        "neoforge-26.1" = _8ckgv4RY;
-        "neoforge-26.1.1" = _8ckgv4RY;
-        "neoforge-26.1.2" = _8ckgv4RY;
+        "neoforge-26.1" = _iRQgQpgH;
+        "neoforge-26.1.1" = _iRQgQpgH;
+        "neoforge-26.1.2" = _iRQgQpgH;
         "pkg-1.0.0" = _VKsOam42;
         "pkg-1.1.0" = _5MCkiSQZ;
         "pkg-1.1.1" = _6YcdwejQ;
@@ -155,7 +167,9 @@ let
         "pkg-1.8.0+26.2" = _H52O6tyT;
         "pkg-1.8.0+26.3" = _iArYgr87;
         "pkg-2.0.0+26.1.x-beta.1" = _8ckgv4RY;
-        "default" = _8ckgv4RY;
+        "pkg-2.0.0+26.1.x-beta.2" = _l0dqpSTL;
+        "pkg-2.0.0+26.1.x-beta.3" = _iRQgQpgH;
+        "default" = _iRQgQpgH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immersive-storms";

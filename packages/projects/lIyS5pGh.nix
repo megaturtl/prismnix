@@ -281,6 +281,26 @@ let
             "file" = "blocksyouneed_luna-1.12 BETA-3-forge-1.20.1.jar";
             "hash" = "sha512-P8o/2TcF2hmvqdDm/+I0+kpMVVvRoEmk0LnALvpqCeKF6JaZtnULeFDVL0olDRuIECWZBPlj3rSHnLox9HR7Bg==";
         };
+        _b826uyHB = {
+            "id" = "b826uyHB";
+            "file" = "blocksyouneed_luna-1.12-forge-1.20.1.jar";
+            "hash" = "sha512-qoPKglu5nh/YbtNxkURBzLw51IqTIVKQp7irFK55DvKpj8mZYDD/LYwWuELytpP7JyCursL72SEMeuRwshPd3Q==";
+        };
+        _FMWi0sv1 = {
+            "id" = "FMWi0sv1";
+            "file" = "blocksyouneed_luna-1.12-neoforge-1.21.1.jar";
+            "hash" = "sha512-xlsktRzIUQ8v47StkN04Sa1SWijmq/e8CdT/EWOKKgW+ZaCGRida5J7gBtzA25uCaHFdkVb/Efsb7dYzU9WJDA==";
+        };
+        _TQnilWnv = {
+            "id" = "TQnilWnv";
+            "file" = "blocksyouneed_luna-1.12.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-QeQOyZflHzzNtzePuIgVSQQPZVw4ZCb8qNgIt5w+27FUtH8iSAPfLZVEbzqQOLIqFZBnyCtoctKuUG1gAVRprQ==";
+        };
+        _v6XEmWkm = {
+            "id" = "v6XEmWkm";
+            "file" = "blocksyouneed_luna-1.12.1-neoforge-26.1.2.jar";
+            "hash" = "sha512-i/Jz9l7ieiN1WFruviJvxipiu8CDS5LuPr/zNJ85AZ3uXMKAG3BiCa6fTMCOiaoZdGWdQXvpYB0CYusUXxeIXg==";
+        };
     in {
         "E1Ersf5n" = _E1Ersf5n;
         "obOuqVht" = _obOuqVht;
@@ -338,13 +358,18 @@ let
         "kKAnIVFZ" = _kKAnIVFZ;
         "1MAjVAge" = _1MAjVAge;
         "XS1HEXVT" = _XS1HEXVT;
-        "forge-1.20.1" = _XS1HEXVT;
+        "b826uyHB" = _b826uyHB;
+        "FMWi0sv1" = _FMWi0sv1;
+        "TQnilWnv" = _TQnilWnv;
+        "v6XEmWkm" = _v6XEmWkm;
+        "forge-1.20.1" = _b826uyHB;
         "forge-1.19.4" = _6uQk89RY;
         "forge-1.19.2" = _p10YLs1Z;
         "forge-1.18.2" = _eLFWPh3H;
         "neoforge-1.20.6" = _z8CqAiRe;
-        "neoforge-1.21.1" = _wXB9rYMv;
+        "neoforge-1.21.1" = _TQnilWnv;
         "neoforge-1.21.4" = _V3pbdltb;
+        "neoforge-26.1.2" = _v6XEmWkm;
         "pkg-1.4" = _E1Ersf5n;
         "pkg-1.4.2" = _obOuqVht;
         "pkg-1.4.3" = _jkb2BKU7;
@@ -384,7 +409,9 @@ let
         "pkg-v1.12.BETA" = _kKAnIVFZ;
         "pkg-1.12.BETA-2" = _1MAjVAge;
         "pkg-v1.12.BETA-3" = _XS1HEXVT;
-        "default" = _XS1HEXVT;
+        "pkg-v1.12" = _FMWi0sv1;
+        "pkg-v1.12.1" = _v6XEmWkm;
+        "default" = _v6XEmWkm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blocks-you-need";

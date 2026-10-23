@@ -166,6 +166,11 @@ let
             "file" = "betterscreens-4.0.1+26.3-fabric.jar";
             "hash" = "sha512-EtTkjrIoUyD7LhABUvnpN8vusmWu2C9sSOFqmrBMYyOgsab4gvoi/moy5fchViX3GbRFZNultxrZkFkAs4tiXQ==";
         };
+        _N7nYoMDW = {
+            "id" = "N7nYoMDW";
+            "file" = "betterscreens-2.1.1-hotfix.1+1.8.9-fabric.jar";
+            "hash" = "sha512-Ejio3OhHyCVj2QiB9OafkgpEh+zPh8KtJRNZ8UFrdBXPHUAacTgUGP24156NLehjvhHJikU+QDV5QJA1XelUdA==";
+        };
     in {
         "f1s6jOAU" = _f1s6jOAU;
         "y6b3rm2N" = _y6b3rm2N;
@@ -200,6 +205,7 @@ let
         "E8vgd0AG" = _E8vgd0AG;
         "pyolTqmv" = _pyolTqmv;
         "CT3IG6IC" = _CT3IG6IC;
+        "N7nYoMDW" = _N7nYoMDW;
         "fabric-1.21.8" = _5kgvtbuE;
         "fabric-1.21.10" = _hjgJ1G8A;
         "fabric-1.21.11" = _w3MhEzEK;
@@ -208,7 +214,7 @@ let
         "fabric-26.1.2" = _IdEZWyAp;
         "fabric-26.2" = _pyolTqmv;
         "fabric-26.3" = _CT3IG6IC;
-        "ornithe-1.8.9" = _pXYrN6Vf;
+        "ornithe-1.8.9" = _N7nYoMDW;
         "pkg-1.0.1" = _f1s6jOAU;
         "pkg-2.0.0" = _y6b3rm2N;
         "pkg-2.0.1" = _7iYhvPUK;
@@ -234,7 +240,8 @@ let
         "pkg-3.0.2" = _ldLxi6yH;
         "pkg-4.0.0" = _E8vgd0AG;
         "pkg-4.0.1" = _CT3IG6IC;
-        "default" = _CT3IG6IC;
+        "pkg-2.1.1-hotfix.1" = _N7nYoMDW;
+        "default" = _N7nYoMDW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-screens";

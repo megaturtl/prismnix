@@ -141,6 +141,16 @@ let
             "file" = "crystals-fabric-1.4.1.jar";
             "hash" = "sha512-WW4XD4vw3Rnlsn9twUA+uybsCMjy1SK5b8h5FW/h4E6semr1NAa9WHKtqbgN+/ELUSHdgKpj3CSbkIO9QL6L1A==";
         };
+        _i9Fsksid = {
+            "id" = "i9Fsksid";
+            "file" = "crystals-neoforge-1.4.2.jar";
+            "hash" = "sha512-igIoP4v2CSEUnn9WDpDbS2a7d/rFi1Vu9bn141T8HdBaIoHvUKq4GKiU5EIv4eSb41Q7QQMQShNrIBgMIvPKMQ==";
+        };
+        _mhgWlrJq = {
+            "id" = "mhgWlrJq";
+            "file" = "crystals-fabric-1.4.2.jar";
+            "hash" = "sha512-s6I776cI1XN+dtdhBJfnL40aH+i8u/D33peiJRDClEfsxM6uuY3VPezibi6SGrcCMKu7PmJXUJdqsA88Rm/nGQ==";
+        };
     in {
         "XXhb73LE" = _XXhb73LE;
         "rsrluQa7" = _rsrluQa7;
@@ -170,6 +180,8 @@ let
         "8CpjNXJN" = _8CpjNXJN;
         "4bOjuUaf" = _4bOjuUaf;
         "3zfrGSKP" = _3zfrGSKP;
+        "i9Fsksid" = _i9Fsksid;
+        "mhgWlrJq" = _mhgWlrJq;
         "fabric-1.20.4" = _sGZT7NJt;
         "fabric-1.20.1" = _sGZT7NJt;
         "fabric-1.20.2" = _sGZT7NJt;
@@ -186,7 +198,7 @@ let
         "fabric-1.21.8" = _8CpjNXJN;
         "fabric-1.21.9" = _8CpjNXJN;
         "fabric-1.21.10" = _8CpjNXJN;
-        "fabric-1.21.11" = _3zfrGSKP;
+        "fabric-1.21.11" = _mhgWlrJq;
         "quilt-1.20.4" = _sGZT7NJt;
         "quilt-1.20.1" = _sGZT7NJt;
         "quilt-1.20.2" = _sGZT7NJt;
@@ -203,7 +215,7 @@ let
         "quilt-1.21.8" = _8CpjNXJN;
         "quilt-1.21.9" = _8CpjNXJN;
         "quilt-1.21.10" = _8CpjNXJN;
-        "quilt-1.21.11" = _3zfrGSKP;
+        "quilt-1.21.11" = _mhgWlrJq;
         "forge-1.20.4" = _JlPg1dRr;
         "forge-1.20.1" = _JlPg1dRr;
         "forge-1.20.2" = _JlPg1dRr;
@@ -224,7 +236,7 @@ let
         "neoforge-1.21.8" = _ntF2vAr9;
         "neoforge-1.21.9" = _ntF2vAr9;
         "neoforge-1.21.10" = _ntF2vAr9;
-        "neoforge-1.21.11" = _4bOjuUaf;
+        "neoforge-1.21.11" = _i9Fsksid;
         "pkg-1.0.0" = _rsrluQa7;
         "pkg-1.1.0" = _esEYa16Q;
         "pkg-1.1.1" = _i6wj8yBU;
@@ -239,7 +251,8 @@ let
         "pkg-1.2.3p" = _o7rYxqE3;
         "pkg-1.4.0" = _8CpjNXJN;
         "pkg-1.4.1" = _3zfrGSKP;
-        "default" = _3zfrGSKP;
+        "pkg-1.4.2" = _mhgWlrJq;
+        "default" = _mhgWlrJq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crystals";

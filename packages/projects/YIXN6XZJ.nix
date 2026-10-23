@@ -41,6 +41,16 @@ let
             "file" = "railways-0.1.5j-beta+fabric-mc1.21.11.jar";
             "hash" = "sha512-omg2sC9RLnp7I/seC8QxjXDj2kbRvi45gx9DrVHECdBpNqX7wYmvJ7XIU+ROCOsArHA1a882sddy6yY2oWjlMA==";
         };
+        _q8OTz1n0 = {
+            "id" = "q8OTz1n0";
+            "file" = "railways-0.1.5j-beta+fabric-mc26.2.jar";
+            "hash" = "sha512-xuRIiId6YUgdS5w4SM24ELmtR7I5mXyo9BfUP08F/Aw5djB7t9C+7QfbNt2SlKrwFdXxE2Kavgpdh8Hy1VfmHw==";
+        };
+        _hHMPTAqS = {
+            "id" = "hHMPTAqS";
+            "file" = "railways-0.1.5j-beta+fabric-mc1.21.10.jar";
+            "hash" = "sha512-0S9+Tif0cc7oGrYjTRLyyKybwzYbcsCbjmdCThwP7LqOLgKYetJvTrsofvl0YES/1A/df8NHvZTSPIctZeJqbQ==";
+        };
     in {
         "p4GrSyor" = _p4GrSyor;
         "C1Am5sJQ" = _C1Am5sJQ;
@@ -50,7 +60,11 @@ let
         "qYSFUkTp" = _qYSFUkTp;
         "pUpLn3Z0" = _pUpLn3Z0;
         "wl3hjvRA" = _wl3hjvRA;
+        "q8OTz1n0" = _q8OTz1n0;
+        "hHMPTAqS" = _hHMPTAqS;
         "fabric-1.21.11" = _wl3hjvRA;
+        "fabric-26.2" = _q8OTz1n0;
+        "fabric-1.21.10" = _hHMPTAqS;
         "pkg-0.1.0-beta+fabric-mc1.21.11" = _p4GrSyor;
         "pkg-0.1.5b-beta+fabric-mc1.21.11" = _C1Am5sJQ;
         "pkg-0.1.5d-beta+fabric-mc1.21.11" = _zgQPh4UY;
@@ -59,7 +73,9 @@ let
         "pkg-0.1.5h-beta+fabric-mc1.21.11" = _qYSFUkTp;
         "pkg-0.1.5i-beta+fabric-mc1.21.11" = _pUpLn3Z0;
         "pkg-0.1.5j-beta+fabric-mc1.21.11" = _wl3hjvRA;
-        "default" = _wl3hjvRA;
+        "pkg-0.1.5j-beta+fabric-mc26.2" = _q8OTz1n0;
+        "pkg-0.1.5j-beta+fabric-mc1.21.10" = _hHMPTAqS;
+        "default" = _hHMPTAqS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "steam-n-rails-fly";

@@ -31,6 +31,11 @@ let
             "file" = "RotP-Mandom-1.1.2.jar";
             "hash" = "sha512-qX6yeq8bfhCD6H01dA3Q/Snz9YMZdWZqfUT9Oqqc8fF+K3943aOPazd5OZu93gyM9n/XKaMJgCfhafZ9JzFi4Q==";
         };
+        _zoR4Wh1M = {
+            "id" = "zoR4Wh1M";
+            "file" = "RotP-Mandom-1.2.0.jar";
+            "hash" = "sha512-qtD7paKnF4/zuN4HnKn7CWKfIViXJVxS1EF/FRGmNHZP7SW+U9kUbpSKtHVCoEMPID44R1OydhOUqpXVnixEDg==";
+        };
     in {
         "2wCCr6VP" = _2wCCr6VP;
         "rWtfnPP8" = _rWtfnPP8;
@@ -38,14 +43,16 @@ let
         "s7ZivUNR" = _s7ZivUNR;
         "Vi3w3KQ5" = _Vi3w3KQ5;
         "Sji64JH4" = _Sji64JH4;
-        "forge-1.16.5" = _Sji64JH4;
+        "zoR4Wh1M" = _zoR4Wh1M;
+        "forge-1.16.5" = _zoR4Wh1M;
         "pkg-1.0.8" = _2wCCr6VP;
         "pkg-1.0.8.2" = _rWtfnPP8;
         "pkg-1.1.0" = _4KJmprSp;
         "pkg-1.1.0-1" = _s7ZivUNR;
         "pkg-1.1.1" = _Vi3w3KQ5;
         "pkg-1.1.2" = _Sji64JH4;
-        "default" = _Sji64JH4;
+        "pkg-1.2.0" = _zoR4Wh1M;
+        "default" = _zoR4Wh1M;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ripples-of-the-past-mandom-addon";

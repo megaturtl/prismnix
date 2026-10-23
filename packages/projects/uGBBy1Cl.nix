@@ -31,6 +31,11 @@ let
             "file" = "simply_tensura_additions-1.2.0.jar";
             "hash" = "sha512-ECs3i7E5XDjoPbSEUf66GaDPUp76DWR+2q5a3XgnPCTRBRIdCUdqdb0bCj0UTt83Kvx731inafKRaiW6nLKMeQ==";
         };
+        _xAuGlrx9 = {
+            "id" = "xAuGlrx9";
+            "file" = "ascension-3.0.1.jar";
+            "hash" = "sha512-yYraNq5DPPoGMKoPPf+zT4mqeaGB31caqcOgQ5kRCwoD4RjLuvIZSAMpqUwANL+OwTAL4ILMLQPdVkWlK07OhA==";
+        };
     in {
         "NLmGFsHW" = _NLmGFsHW;
         "6qor6MMz" = _6qor6MMz;
@@ -38,14 +43,16 @@ let
         "XHAh6XvA" = _XHAh6XvA;
         "2xS4ToiI" = _2xS4ToiI;
         "bej1yxrX" = _bej1yxrX;
-        "neoforge-1.21.1" = _bej1yxrX;
+        "xAuGlrx9" = _xAuGlrx9;
+        "neoforge-1.21.1" = _xAuGlrx9;
         "pkg-1.0.0" = _NLmGFsHW;
         "pkg-1.0.1" = _6qor6MMz;
         "pkg-1.0.4" = _pj8rYR8O;
         "pkg-1.0.6" = _XHAh6XvA;
         "pkg-1.0.9" = _2xS4ToiI;
         "pkg-1.2.0" = _bej1yxrX;
-        "default" = _bej1yxrX;
+        "pkg-3.0.1" = _xAuGlrx9;
+        "default" = _xAuGlrx9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simply-tensura-addon";

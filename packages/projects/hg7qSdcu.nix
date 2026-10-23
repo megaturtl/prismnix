@@ -56,6 +56,11 @@ let
             "file" = "§4Beastial.zip";
             "hash" = "sha512-nPrzfMszl1+MM7vbeNgHbJsXk7dpnaOXkSh6DgF6XsjSkZwfHZQPZlV2qR1nJa4mTtQowoh/PdSgRRpOuaIZwQ==";
         };
+        _ntGSD9V0 = {
+            "id" = "ntGSD9V0";
+            "file" = "§4Beastial.zip";
+            "hash" = "sha512-PysyqPf5O8t9mJ3sYdxYJFg3gqUaXiLx89luBAWH2inXqrxVIaquU/BDUK/8vx4nZ8i24qp5/bydRd3pp9nqbg==";
+        };
     in {
         "8OQt74FN" = _8OQt74FN;
         "hRNdylZv" = _hRNdylZv;
@@ -68,6 +73,7 @@ let
         "I14S1VV4" = _I14S1VV4;
         "Bot2jzjJ" = _Bot2jzjJ;
         "oflzhxaR" = _oflzhxaR;
+        "ntGSD9V0" = _ntGSD9V0;
         "minecraft-1.21" = _oflzhxaR;
         "minecraft-1.18.2" = _oflzhxaR;
         "minecraft-1.19" = _oflzhxaR;
@@ -92,6 +98,11 @@ let
         "minecraft-1.21.8" = _oflzhxaR;
         "minecraft-1.21.9" = _oflzhxaR;
         "minecraft-1.21.10" = _oflzhxaR;
+        "minecraft-26.1" = _ntGSD9V0;
+        "minecraft-26.1.1" = _ntGSD9V0;
+        "minecraft-26.1.2" = _ntGSD9V0;
+        "minecraft-26.2" = _ntGSD9V0;
+        "minecraft-26.3" = _ntGSD9V0;
         "pkg-1.0.0" = _8OQt74FN;
         "pkg-1.0.1" = _hRNdylZv;
         "pkg-1.0.2" = _GVHyAFpD;
@@ -103,7 +114,8 @@ let
         "pkg-1.5.0" = _I14S1VV4;
         "pkg-1.5.1" = _Bot2jzjJ;
         "pkg-1.6" = _oflzhxaR;
-        "default" = _oflzhxaR;
+        "pkg-1.7" = _ntGSD9V0;
+        "default" = _ntGSD9V0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "beastial";

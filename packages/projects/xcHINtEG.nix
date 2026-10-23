@@ -636,6 +636,26 @@ let
             "file" = "awakened-1.21.0+1.21.1.jar";
             "hash" = "sha512-opbOu3097sCZkQKRqta/Rw9qyxbGiY0YVKquG/SX7nxPx4xSuL0sIcT4S6iDRl2n1ytlttxjQPnCP6DoojpNLw==";
         };
+        _pLBOCUyF = {
+            "id" = "pLBOCUyF";
+            "file" = "awakened-1.21.1+1.21.11.jar";
+            "hash" = "sha512-+rHoU5SVQMkJzZTPBffEDQBpLGy1gyYW7MZW7k+XXNDDewmPbfbEQ8Dh/qD0egwjeo7ztt5227kRyg5r3dkAYQ==";
+        };
+        _vUYHwHk2 = {
+            "id" = "vUYHwHk2";
+            "file" = "awakened-1.21.1+1.21.1.jar";
+            "hash" = "sha512-m+IGPm37gjERi2oLgggoNEtdNK4njdkhZwGFdlX36z+Txr9wL8YqGFELenx9qz603A+uhUUY3qmsZpmLWuAajw==";
+        };
+        _VpoZiU5Y = {
+            "id" = "VpoZiU5Y";
+            "file" = "awakened-1.21.10+1.21.1.jar";
+            "hash" = "sha512-Rky9Bgqrv1drmTr/mjitTIZaCy2Y8/t5OClTjYaWzdewX/O+AQyFS9t3/5B49HIYty4uCbAcJqaPfu4fujPgUg==";
+        };
+        _YwOVU2fi = {
+            "id" = "YwOVU2fi";
+            "file" = "awakened-1.21.10+1.21.11.jar";
+            "hash" = "sha512-Cko1VJTRYqp0Ilaxae7kgLDGDUL6ZNgDGI9T5hcsFZ5oTCbGALnwPknBsB/BC/zKe6BcABPOmr1LCiCtKCAh5w==";
+        };
     in {
         "w05CXVeZ" = _w05CXVeZ;
         "HdiEHc6q" = _HdiEHc6q;
@@ -764,8 +784,12 @@ let
         "haUQi8po" = _haUQi8po;
         "p3sNITKF" = _p3sNITKF;
         "ke7fe0hz" = _ke7fe0hz;
-        "neoforge-1.21.11" = _p3sNITKF;
-        "neoforge-1.21.1" = _ke7fe0hz;
+        "pLBOCUyF" = _pLBOCUyF;
+        "vUYHwHk2" = _vUYHwHk2;
+        "VpoZiU5Y" = _VpoZiU5Y;
+        "YwOVU2fi" = _YwOVU2fi;
+        "neoforge-1.21.11" = _YwOVU2fi;
+        "neoforge-1.21.1" = _VpoZiU5Y;
         "pkg-0.2.0" = _w05CXVeZ;
         "pkg-0.3.0" = _HdiEHc6q;
         "pkg-0.4.0" = _IT26pW79;
@@ -832,7 +856,9 @@ let
         "pkg-1.20.0" = _ATSmbdWW;
         "pkg-1.20.1" = _haUQi8po;
         "pkg-1.21.0" = _ke7fe0hz;
-        "default" = _ke7fe0hz;
+        "pkg-1.21.1" = _vUYHwHk2;
+        "pkg-1.21.10" = _YwOVU2fi;
+        "default" = _YwOVU2fi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-awakening";

@@ -151,6 +151,26 @@ let
             "file" = "phonescraft-1.14-neoforge-26.1.2.jar";
             "hash" = "sha512-6caG/Cs6LvvFVq3XSW2rdH9Pnz0IJu+zhAuP1E0IWUht7QwEGTpAoChRPsLeoctjtM+peam8twyMRShqJpNoWw==";
         };
+        _uJLTW3un = {
+            "id" = "uJLTW3un";
+            "file" = "phonescraft-v1.15.jar";
+            "hash" = "sha512-u3JZkjR+Q2xN4AAW9n/edxnWEuGrYRKeoeehXBhONZhJ2F+j8MIEpkDMuudnXCNXUJwKGeEtLNcIeL5xQxJ+pg==";
+        };
+        _EwJC3W6f = {
+            "id" = "EwJC3W6f";
+            "file" = "phonescraft-v1.15-neoforge.jar";
+            "hash" = "sha512-lodgBdzOsdpPr2jkjVGO06t+8p9or5zrQn0aPaPQhgSkm47R/nY9E2FDOTbYudT1Ta7rfwBIsHuhfWZZBIDvpA==";
+        };
+        _HqbK5VIS = {
+            "id" = "HqbK5VIS";
+            "file" = "phonescraft-v1.15-neoforge.jar";
+            "hash" = "sha512-euWSnD6kzfwB3gOS2HFyfHLmhRo4RoRosT5ZdCzznTr3/Ap/3NO1JDs7Hz+w1gE+By063itgr/MLkuM6zPqpgg==";
+        };
+        _IL0jRxfX = {
+            "id" = "IL0jRxfX";
+            "file" = "phonescraft-1.15-neoforge-26.1.2.jar";
+            "hash" = "sha512-diDK/0w1L4LQsvP6QetDX9nKIghRCE1qikqKAbaZumA1BB8qw/KO25ZtDwBYyI9v9TrkW3B3mHcO4yC4d/KC7A==";
+        };
     in {
         "uGpQYFEM" = _uGpQYFEM;
         "b4aOnvoS" = _b4aOnvoS;
@@ -182,18 +202,23 @@ let
         "wX1539Nz" = _wX1539Nz;
         "MrtwG5oE" = _MrtwG5oE;
         "8d24ev3B" = _8d24ev3B;
-        "forge-1.20.1" = _gSsXgf7e;
-        "neoforge-1.21.1" = _wX1539Nz;
+        "uJLTW3un" = _uJLTW3un;
+        "EwJC3W6f" = _EwJC3W6f;
+        "HqbK5VIS" = _HqbK5VIS;
+        "IL0jRxfX" = _IL0jRxfX;
+        "forge-1.20.1" = _uJLTW3un;
+        "forge-1.21.1" = _EwJC3W6f;
+        "neoforge-1.21.1" = _EwJC3W6f;
         "neoforge-1.21.4" = _xe7DxZu1;
         "neoforge-1.21.2" = _B97cXeMl;
         "neoforge-1.21.3" = _B97cXeMl;
         "neoforge-1.21.5" = _xe7DxZu1;
         "neoforge-1.21.6" = _xe7DxZu1;
         "neoforge-1.21.7" = _xe7DxZu1;
-        "neoforge-1.21.8" = _MrtwG5oE;
+        "neoforge-1.21.8" = _HqbK5VIS;
         "neoforge-1.21.9" = _aE0dNb7a;
         "neoforge-1.21.10" = _aE0dNb7a;
-        "neoforge-26.1.2" = _8d24ev3B;
+        "neoforge-26.1.2" = _IL0jRxfX;
         "pkg-1.5" = _b4aOnvoS;
         "pkg-1.6" = _w4oumUgc;
         "pkg-1.7" = _O5kTjMHf;
@@ -206,7 +231,8 @@ let
         "pkg-1.12" = _hkgd7XP7;
         "pkg-1.13" = _aE0dNb7a;
         "pkg-1.14" = _8d24ev3B;
-        "default" = _8d24ev3B;
+        "pkg-1.15" = _IL0jRxfX;
+        "default" = _IL0jRxfX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "phonescraft";

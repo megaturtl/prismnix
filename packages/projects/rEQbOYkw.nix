@@ -131,6 +131,16 @@ let
             "file" = "szymeks_grill_mod-1.15-26.1.2-neoforge.jar";
             "hash" = "sha512-ZbGu28HMOaq6uIWws26XjYfLHNbqTAAXTqdScPM7HoMioYSBbDvRflRCzGsXj+OK9TM9CASQP3TDp0Nmx56+Tw==";
         };
+        _l9H52aSG = {
+            "id" = "l9H52aSG";
+            "file" = "szymeks_grill_mod-1.16-neoforge-26.1.2.jar";
+            "hash" = "sha512-E9KCnqmN62+7ReodkFWmtAVB+wZ1ei9ex/m66+2uiUgpNrmDsNSzlX2eMlKs5L1ndlVjfyZib9d3m8wajYtGtQ==";
+        };
+        _cjdPPpPW = {
+            "id" = "cjdPPpPW";
+            "file" = "szymeks_grill_mod-1.16-neoforge-26.3.jar";
+            "hash" = "sha512-HhLrScrHHFxxd8MWYTcBKgi63b5HGuYmutb/KXWhOKCaKNc5Vy3SlscT4Eyc7hFaaLZUq8wxxy3X1G2FdPytXw==";
+        };
     in {
         "K4NaSXSA" = _K4NaSXSA;
         "9brHqLFy" = _9brHqLFy;
@@ -158,6 +168,8 @@ let
         "ufWAoPF5" = _ufWAoPF5;
         "LJWpXhDe" = _LJWpXhDe;
         "PxPrHImR" = _PxPrHImR;
+        "l9H52aSG" = _l9H52aSG;
+        "cjdPPpPW" = _cjdPPpPW;
         "forge-1.16.5" = _ixO9c9iD;
         "forge-1.18.2" = _cRg2OjJl;
         "forge-1.19.2" = _z7EsLtSO;
@@ -165,7 +177,8 @@ let
         "forge-1.20.1" = _d1NWIo6q;
         "neoforge-1.21.1" = _KUK0J8Fj;
         "neoforge-1.21.4" = _ufWAoPF5;
-        "neoforge-26.1.2" = _PxPrHImR;
+        "neoforge-26.1.2" = _l9H52aSG;
+        "neoforge-26.3" = _cjdPPpPW;
         "pkg-1.0" = _K4NaSXSA;
         "pkg-1.01" = _9brHqLFy;
         "pkg-1.02" = _3sQSZC3p;
@@ -183,7 +196,8 @@ let
         "pkg-1.13" = _kbOa75Oj;
         "pkg-1.14" = _LJWpXhDe;
         "pkg-1.15" = _PxPrHImR;
-        "default" = _PxPrHImR;
+        "pkg-1.16" = _cjdPPpPW;
+        "default" = _cjdPPpPW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "szymeks-grill-mod";

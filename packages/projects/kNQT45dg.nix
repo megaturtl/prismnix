@@ -601,6 +601,26 @@ let
             "file" = "martinis-cutting-and-crafting-26.3+26.4.jar";
             "hash" = "sha512-baIz+P58/RFRy6+B8DGySJXeGvDHmw+cSa30JVjwioNUmqb1NE6b3H3Zjkqg9XFG1YllqCs/6HJsWTqToXxd7Q==";
         };
+        _XBXqUyfp = {
+            "id" = "XBXqUyfp";
+            "file" = "Martini's_Cutting_and_Crafting_26.4_new.zip";
+            "hash" = "sha512-j+7Fibng/18T8is941LFbXInff9fBNOOZTYA/MsPq5UmLpbDD7wUlN5BdbmTBmaG9R3UeA1wGNkMGn3vV/BpGw==";
+        };
+        _xYhCoHEI = {
+            "id" = "xYhCoHEI";
+            "file" = "martinis-cutting-and-crafting-26.3+26.4.jar";
+            "hash" = "sha512-lv5BK2g68QJZemfKXpWZOAp6LyICmeVDO7oxA0ooayflOlgVDLMirNlPbm2tOyannlhuU6WJwwwyZtmOb9N/mw==";
+        };
+        _Pj269VpU = {
+            "id" = "Pj269VpU";
+            "file" = "Martini's_Cutting_and_Crafting_26.4_new.zip";
+            "hash" = "sha512-hDttgoNrssOxoU4S5xcsbQ3+HcqyOCiYiOZHm99BHX5jXGCTAVEi/hrF3E5gYUIqRstzf5DARkue7Uh0UT4fhg==";
+        };
+        _tnlMA21S = {
+            "id" = "tnlMA21S";
+            "file" = "martinis-cutting-and-crafting-26.3+26.4.jar";
+            "hash" = "sha512-l0VAIFJjiby43rsM4PVkxysUt2AFg4h/fZQt5zBmruj0GKTTq3LVrx2CQc1b8yT3khi3c+AX/KthdciMHht3Tw==";
+        };
     in {
         "BPUpppit" = _BPUpppit;
         "FsmRW8QT" = _FsmRW8QT;
@@ -722,6 +742,10 @@ let
         "xgspSsdU" = _xgspSsdU;
         "ooD4HUh5" = _ooD4HUh5;
         "WxuNMmWv" = _WxuNMmWv;
+        "XBXqUyfp" = _XBXqUyfp;
+        "xYhCoHEI" = _xYhCoHEI;
+        "Pj269VpU" = _Pj269VpU;
+        "tnlMA21S" = _tnlMA21S;
         "datapack-24w44a" = _mA7zGzJc;
         "datapack-24w45a" = _mA7zGzJc;
         "datapack-24w46a" = _mA7zGzJc;
@@ -846,11 +870,12 @@ let
         "datapack-26.3-rc-1" = _rLQUsDko;
         "datapack-26.3-rc-2" = _rLQUsDko;
         "datapack-26.3-rc-3" = _rLQUsDko;
-        "datapack-26.3" = _ooD4HUh5;
-        "datapack-26.4-snapshot-1" = _ooD4HUh5;
-        "datapack-26.4-snapshot-2" = _ooD4HUh5;
-        "datapack-26.4-snapshot-3" = _ooD4HUh5;
-        "datapack-26.4-snapshot-4" = _ooD4HUh5;
+        "datapack-26.3" = _Pj269VpU;
+        "datapack-26.4-snapshot-1" = _Pj269VpU;
+        "datapack-26.4-snapshot-2" = _Pj269VpU;
+        "datapack-26.4-snapshot-3" = _Pj269VpU;
+        "datapack-26.4-snapshot-4" = _Pj269VpU;
+        "datapack-26.4-snapshot-5" = _Pj269VpU;
         "fabric-24w44a" = _kOLR9kbD;
         "fabric-24w45a" = _kOLR9kbD;
         "fabric-24w46a" = _kOLR9kbD;
@@ -983,11 +1008,12 @@ let
         "fabric-26.3-rc-1" = _xgspSsdU;
         "fabric-26.3-rc-2" = _xgspSsdU;
         "fabric-26.3-rc-3" = _xgspSsdU;
-        "fabric-26.3" = _WxuNMmWv;
-        "fabric-26.4-snapshot-1" = _WxuNMmWv;
-        "fabric-26.4-snapshot-2" = _WxuNMmWv;
-        "fabric-26.4-snapshot-3" = _WxuNMmWv;
-        "fabric-26.4-snapshot-4" = _WxuNMmWv;
+        "fabric-26.3" = _tnlMA21S;
+        "fabric-26.4-snapshot-1" = _tnlMA21S;
+        "fabric-26.4-snapshot-2" = _tnlMA21S;
+        "fabric-26.4-snapshot-3" = _tnlMA21S;
+        "fabric-26.4-snapshot-4" = _tnlMA21S;
+        "fabric-26.4-snapshot-5" = _tnlMA21S;
         "quilt-24w44a" = _kOLR9kbD;
         "quilt-24w45a" = _kOLR9kbD;
         "quilt-24w46a" = _kOLR9kbD;
@@ -1120,11 +1146,12 @@ let
         "quilt-26.3-rc-1" = _xgspSsdU;
         "quilt-26.3-rc-2" = _xgspSsdU;
         "quilt-26.3-rc-3" = _xgspSsdU;
-        "quilt-26.3" = _WxuNMmWv;
-        "quilt-26.4-snapshot-1" = _WxuNMmWv;
-        "quilt-26.4-snapshot-2" = _WxuNMmWv;
-        "quilt-26.4-snapshot-3" = _WxuNMmWv;
-        "quilt-26.4-snapshot-4" = _WxuNMmWv;
+        "quilt-26.3" = _tnlMA21S;
+        "quilt-26.4-snapshot-1" = _tnlMA21S;
+        "quilt-26.4-snapshot-2" = _tnlMA21S;
+        "quilt-26.4-snapshot-3" = _tnlMA21S;
+        "quilt-26.4-snapshot-4" = _tnlMA21S;
+        "quilt-26.4-snapshot-5" = _tnlMA21S;
         "neoforge-1.21.3" = _kOLR9kbD;
         "neoforge-24w44a" = _kOLR9kbD;
         "neoforge-24w45a" = _kOLR9kbD;
@@ -1257,11 +1284,12 @@ let
         "neoforge-26.3-rc-1" = _xgspSsdU;
         "neoforge-26.3-rc-2" = _xgspSsdU;
         "neoforge-26.3-rc-3" = _xgspSsdU;
-        "neoforge-26.3" = _WxuNMmWv;
-        "neoforge-26.4-snapshot-1" = _WxuNMmWv;
-        "neoforge-26.4-snapshot-2" = _WxuNMmWv;
-        "neoforge-26.4-snapshot-3" = _WxuNMmWv;
-        "neoforge-26.4-snapshot-4" = _WxuNMmWv;
+        "neoforge-26.3" = _tnlMA21S;
+        "neoforge-26.4-snapshot-1" = _tnlMA21S;
+        "neoforge-26.4-snapshot-2" = _tnlMA21S;
+        "neoforge-26.4-snapshot-3" = _tnlMA21S;
+        "neoforge-26.4-snapshot-4" = _tnlMA21S;
+        "neoforge-26.4-snapshot-5" = _tnlMA21S;
         "forge-1.21.4" = _zvtvKto3;
         "forge-25w02a" = _zvtvKto3;
         "forge-25w03a" = _zvtvKto3;
@@ -1373,11 +1401,12 @@ let
         "forge-26.3-rc-1" = _xgspSsdU;
         "forge-26.3-rc-2" = _xgspSsdU;
         "forge-26.3-rc-3" = _xgspSsdU;
-        "forge-26.3" = _WxuNMmWv;
-        "forge-26.4-snapshot-1" = _WxuNMmWv;
-        "forge-26.4-snapshot-2" = _WxuNMmWv;
-        "forge-26.4-snapshot-3" = _WxuNMmWv;
-        "forge-26.4-snapshot-4" = _WxuNMmWv;
+        "forge-26.3" = _tnlMA21S;
+        "forge-26.4-snapshot-1" = _tnlMA21S;
+        "forge-26.4-snapshot-2" = _tnlMA21S;
+        "forge-26.4-snapshot-3" = _tnlMA21S;
+        "forge-26.4-snapshot-4" = _tnlMA21S;
+        "forge-26.4-snapshot-5" = _tnlMA21S;
         "pkg-0.0.1a" = _FsmRW8QT;
         "pkg-0.0.2a" = _pd7ggicO;
         "pkg-0.0.2a+mod" = _vvOjFWVs;
@@ -1475,9 +1504,9 @@ let
         "pkg-26.3-rc-2+mod" = _rXG2rb6G;
         "pkg-26.4-Snapshot-1" = _mAo6erzp;
         "pkg-26.4-Snapshot-1+mod" = _qoRFAoJO;
-        "pkg-26.3+26.4" = _ooD4HUh5;
-        "pkg-26.3+26.4+mod" = _WxuNMmWv;
-        "default" = _WxuNMmWv;
+        "pkg-26.3+26.4" = _Pj269VpU;
+        "pkg-26.3+26.4+mod" = _tnlMA21S;
+        "default" = _tnlMA21S;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "martinis-cutting-and-crafting";

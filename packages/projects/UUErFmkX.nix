@@ -101,6 +101,21 @@ let
             "file" = "JourneyPAC-fabric-26.1.2-1.1.10.jar";
             "hash" = "sha512-WCNMt26wLnTvh6ZkJM5YYBCHCz1flP5XKXgePEFMPdAppbgIeDVW0uYiMq28PIQOw6bNUHFpaasb2KXtKOm43g==";
         };
+        _Kwp9elWW = {
+            "id" = "Kwp9elWW";
+            "file" = "JourneyPAC-fabric-26.3-1.1.11.jar";
+            "hash" = "sha512-NYTkWOCmDDbzy3qENioUz7r7obluDdDlo19ewNYpXRXK7jOFL/cbUCb/f/FzYZF80S753VGxP110IUqRxvY/mw==";
+        };
+        _1lGLehRE = {
+            "id" = "1lGLehRE";
+            "file" = "JourneyPAC-forge-26.3-1.1.11.jar";
+            "hash" = "sha512-9Rh/oIQ4HLmVCcOIjmoWtwtUnUHHopJkppZ7Y5zEgGLcbbvHzmT/W7BMc/DtRENwcsQOsHmX24fVRGbsxwkbZg==";
+        };
+        _sbTUba9B = {
+            "id" = "sbTUba9B";
+            "file" = "JourneyPAC-neoforge-26.3-1.1.11.jar";
+            "hash" = "sha512-r4g3hOl2WDMORxRXNHPfwQ45FYhj+usVY4ogj2GL5Xr1UAH8hldcMXaxLaNXdDDXzpsFZNg9N+w3x4iMLF+TMg==";
+        };
     in {
         "6d05hIMg" = _6d05hIMg;
         "ze2iHvaL" = _ze2iHvaL;
@@ -122,6 +137,9 @@ let
         "NFqR0DVq" = _NFqR0DVq;
         "k9rxaOrb" = _k9rxaOrb;
         "RnHl3t09" = _RnHl3t09;
+        "Kwp9elWW" = _Kwp9elWW;
+        "1lGLehRE" = _1lGLehRE;
+        "sbTUba9B" = _sbTUba9B;
         "forge-1.19.2" = _je6dbGKQ;
         "forge-1.20.1" = _IZREBbHX;
         "forge-1.21" = _2QhlY93o;
@@ -133,6 +151,7 @@ let
         "forge-1.21.8" = _2gNeHEOV;
         "forge-1.21.11" = _Ydoe4JRs;
         "forge-26.1.2" = _NFqR0DVq;
+        "forge-26.3" = _1lGLehRE;
         "fabric-1.19.2" = _F5GKdD2I;
         "fabric-1.20.1" = _LkvhAe8b;
         "fabric-1.20.2" = _LkvhAe8b;
@@ -154,6 +173,7 @@ let
         "fabric-1.21.11" = _Ll534s4T;
         "fabric-26.1.2" = _RnHl3t09;
         "fabric-26.2" = _RnHl3t09;
+        "fabric-26.3" = _Kwp9elWW;
         "neoforge-1.21" = _Q22HXCFT;
         "neoforge-1.21.1" = _Q22HXCFT;
         "neoforge-1.21.2" = _Q22HXCFT;
@@ -168,6 +188,7 @@ let
         "neoforge-1.21.11" = _d8aDYniB;
         "neoforge-26.1.2" = _k9rxaOrb;
         "neoforge-26.2" = _k9rxaOrb;
+        "neoforge-26.3" = _sbTUba9B;
         "pkg-forge-1.19.2-1.0" = _6d05hIMg;
         "pkg-forge-1.19.2-1.1.2" = _ze2iHvaL;
         "pkg-forge-1.19.2-1.1.3" = _91cwkjeg;
@@ -188,7 +209,10 @@ let
         "pkg-forge-26.1.2-1.1.10" = _NFqR0DVq;
         "pkg-neoforge-26.1.2-1.1.10" = _k9rxaOrb;
         "pkg-fabric-26.1.2-1.1.10" = _RnHl3t09;
-        "default" = _RnHl3t09;
+        "pkg-fabric-26.3-1.1.11" = _Kwp9elWW;
+        "pkg-forge-26.3-1.1.11" = _1lGLehRE;
+        "pkg-neoforge-26.3-1.1.11" = _sbTUba9B;
+        "default" = _sbTUba9B;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "journey-pac";

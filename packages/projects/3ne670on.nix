@@ -151,6 +151,11 @@ let
             "file" = "teleport_commands-1.21.1-v1.3.5.jar";
             "hash" = "sha512-e+lcFSDgPvODlfN1L3B2MMWBwl/e3NXDgaZNJigIG7tWPaItQbK49CAOjWSysk7BJJsFKliInBKGSqY0jEFv4A==";
         };
+        _EDcoFIQF = {
+            "id" = "EDcoFIQF";
+            "file" = "teleport_commands-merged-26.3-v1.3.5.jar";
+            "hash" = "sha512-S9YFYG5yxKB175cGIz5vi1gTW0sAktHBeWdGuU1mgbKk0H19nrwuUXbqgn9B8z/RC3TZvAkJJTfrctnUVJkFUQ==";
+        };
     in {
         "L9TJQTow" = _L9TJQTow;
         "yWFvRsPu" = _yWFvRsPu;
@@ -182,6 +187,7 @@ let
         "2U7aPvUc" = _2U7aPvUc;
         "q67AqHid" = _q67AqHid;
         "YoOeKNAU" = _YoOeKNAU;
+        "EDcoFIQF" = _EDcoFIQF;
         "fabric-1.20.4" = _GJ49BT4q;
         "fabric-1.20.5" = _GJ49BT4q;
         "fabric-1.20.6" = _GJ49BT4q;
@@ -195,6 +201,7 @@ let
         "fabric-26.1" = _q67AqHid;
         "fabric-26.1.1" = _q67AqHid;
         "fabric-26.1.2" = _q67AqHid;
+        "fabric-26.3" = _EDcoFIQF;
         "neoforge-1.20.4" = _HuGhSONK;
         "neoforge-1.20.5" = _HuGhSONK;
         "neoforge-1.20.6" = _HuGhSONK;
@@ -208,6 +215,7 @@ let
         "neoforge-26.1" = _q67AqHid;
         "neoforge-26.1.1" = _q67AqHid;
         "neoforge-26.1.2" = _q67AqHid;
+        "neoforge-26.3" = _EDcoFIQF;
         "quilt-1.20.4" = _GJ49BT4q;
         "quilt-1.20.5" = _GJ49BT4q;
         "quilt-1.20.6" = _GJ49BT4q;
@@ -221,6 +229,7 @@ let
         "quilt-26.1" = _q67AqHid;
         "quilt-26.1.1" = _q67AqHid;
         "quilt-26.1.2" = _q67AqHid;
+        "quilt-26.3" = _EDcoFIQF;
         "pkg-1.0.2" = _L9TJQTow;
         "pkg-1.0.5" = _ldLHdXnj;
         "pkg-1.1.0" = _GJ49BT4q;
@@ -234,8 +243,8 @@ let
         "pkg-1.3.2" = _P4t70i1a;
         "pkg-1.3.3" = _OSiGulDW;
         "pkg-1.3.4" = _2U7aPvUc;
-        "pkg-1.3.5" = _YoOeKNAU;
-        "default" = _YoOeKNAU;
+        "pkg-1.3.5" = _EDcoFIQF;
+        "default" = _EDcoFIQF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "teleport-commands";

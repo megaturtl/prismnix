@@ -26,20 +26,27 @@ let
             "file" = "alshanex_familiars-1.21.1_v4.0.3.jar";
             "hash" = "sha512-eVx3ACQUxL05Uy/pejFXf1Wobi1W0THQq8tR3YpowsmWVPcbo/CQjMVN4JTqx/xy4Xl1Mff2hJM4Apk0QHCiPA==";
         };
+        _2bwB44Aa = {
+            "id" = "2bwB44Aa";
+            "file" = "alshanex_familiars-1.21.1_v5.0.jar";
+            "hash" = "sha512-896JijoVNOdGTOxxA8kwfUgEn2moTPbGrstL1wfnb1Gw+8dmZe71MT1QH90+LfYN71u8SoC0ldig69w15Ro+sA==";
+        };
     in {
         "vvMgpPkX" = _vvMgpPkX;
         "s37qxMBY" = _s37qxMBY;
         "19KDfd5x" = _19KDfd5x;
         "2TlTV9lw" = _2TlTV9lw;
         "cnBuaArR" = _cnBuaArR;
+        "2bwB44Aa" = _2bwB44Aa;
         "forge-1.20.1" = _vvMgpPkX;
-        "neoforge-1.21.1" = _cnBuaArR;
+        "neoforge-1.21.1" = _2bwB44Aa;
         "pkg-1.20.1_v1.1.2_HotFix" = _vvMgpPkX;
         "pkg-1.21.1_v1.1.2_HotFix" = _s37qxMBY;
         "pkg-1.21.1_v2.0_HotFix" = _19KDfd5x;
         "pkg-1.21.1_v4.0" = _2TlTV9lw;
         "pkg-1.21.1_v4.0.3" = _cnBuaArR;
-        "default" = _cnBuaArR;
+        "pkg-1.21.1_v5.0" = _2bwB44Aa;
+        "default" = _2bwB44Aa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "alshanexs-familiars";

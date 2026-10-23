@@ -71,6 +71,16 @@ let
             "file" = "DnDMonsterOrigins-1.3.zip";
             "hash" = "sha512-tD8Sjll52s4qQAq4Zj/BOEoG6250EeTRuDhl19XSMuqh4IbSilvlFB2VkIRpISaSAWaI5ipJFabcQYXynHSNqw==";
         };
+        _2lXzXnDr = {
+            "id" = "2lXzXnDr";
+            "file" = "DnDMonsterOrigins-1.21.1-NeoOrigins.zip";
+            "hash" = "sha512-te7PzZfs2qihKr8ZoM1lI3bFOEh+CkzUyyn6R2SoSYg5sgKBvKdO0wwZGVHP5gPjnkty10x7yzZ7cw/R1I+qXA==";
+        };
+        _RcTxsQ07 = {
+            "id" = "RcTxsQ07";
+            "file" = "DnDMonsterOrigins-1.21.1-Fabric.zip";
+            "hash" = "sha512-S324rtSgme5ZuWsRTLT4dzZFSt9p5DVN0kQmpMCmrwb0V4e1PgrngmEZ2OM5KhoSiuU1xX0UOepmLjVuu1w3Qw==";
+        };
     in {
         "CnWG4AOh" = _CnWG4AOh;
         "csPHV2PF" = _csPHV2PF;
@@ -86,6 +96,8 @@ let
         "AEUeIbp1" = _AEUeIbp1;
         "tAwuVVuQ" = _tAwuVVuQ;
         "u55any0Y" = _u55any0Y;
+        "2lXzXnDr" = _2lXzXnDr;
+        "RcTxsQ07" = _RcTxsQ07;
         "fabric-1.18" = _CnWG4AOh;
         "fabric-1.18.1" = _csPHV2PF;
         "fabric-1.18.2" = _gWuG6pVH;
@@ -110,7 +122,7 @@ let
         "datapack-1.20.2" = _u55any0Y;
         "datapack-1.20.3" = _AEUeIbp1;
         "datapack-1.20.4" = _AEUeIbp1;
-        "datapack-1.21.1" = _tAwuVVuQ;
+        "datapack-1.21.1" = _RcTxsQ07;
         "pkg-1.18" = _CnWG4AOh;
         "pkg-1.18.1" = _csPHV2PF;
         "pkg-1.18.2" = _gWuG6pVH;
@@ -125,7 +137,9 @@ let
         "pkg-1.0.0" = _AEUeIbp1;
         "pkg-1.0.3" = _tAwuVVuQ;
         "pkg-1.3" = _u55any0Y;
-        "default" = _u55any0Y;
+        "pkg-NeoForge-1.21.1" = _2lXzXnDr;
+        "pkg-Fabric-1.21.1" = _RcTxsQ07;
+        "default" = _RcTxsQ07;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dungeons-and-dragons-origins";

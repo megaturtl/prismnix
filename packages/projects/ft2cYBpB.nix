@@ -136,6 +136,21 @@ let
             "file" = "atmospherics-2.6.7-mc-26.3.jar";
             "hash" = "sha512-J0IxYsZbvW9SXsBEv5ZX3F7HRiRNOQGTDZoDqIY8s0tEDE+3Q3qe6SmV+NzwQcVwgEB6GduXCgM0zILtLzQQkg==";
         };
+        _nptxMreF = {
+            "id" = "nptxMreF";
+            "file" = "atmospherics-2.6.8-mc-26.3.jar";
+            "hash" = "sha512-RykpJbEz411KWNed/MLBXyN7tGLe2fbpf4p9YT4AixsxsYJPcu8Hy1gQovtga2IDqexMaIhIuNE9mFB3VVMjNw==";
+        };
+        _ym2LOhkk = {
+            "id" = "ym2LOhkk";
+            "file" = "atmospherics-2.6.8-mc-fabric-1.20.1.jar";
+            "hash" = "sha512-k4fzL6vKp17UNPCw4mnzZHf+dOJp1PFLn2IQvvmjKtSb3uZqTBZSAmKi8Uevdz7Xo+6F6MX/2WvEH9jOq/tL/Q==";
+        };
+        _Yakx2hFh = {
+            "id" = "Yakx2hFh";
+            "file" = "atmospherics-2.6.8-mc-1.20.1.jar";
+            "hash" = "sha512-OAMlOXFgZAkwrlfPFY3GTO9oH7BFh9h7Pj5mz4E8vI8B90kogB/WD7y/YJf5yW0DOfpk3iEVkXZIIA5NOSwhRQ==";
+        };
     in {
         "c5otEUSQ" = _c5otEUSQ;
         "kd0xVsBU" = _kd0xVsBU;
@@ -164,13 +179,18 @@ let
         "wJSd2gZD" = _wJSd2gZD;
         "ypMUWkFh" = _ypMUWkFh;
         "DbHCSFGO" = _DbHCSFGO;
+        "nptxMreF" = _nptxMreF;
+        "ym2LOhkk" = _ym2LOhkk;
+        "Yakx2hFh" = _Yakx2hFh;
         "fabric-1.21.11" = _36CJxKFF;
         "fabric-26.1" = _LeQKXuNM;
         "fabric-26.1.1" = _LeQKXuNM;
         "fabric-26.1.2" = _LeQKXuNM;
         "fabric-26.2" = _wJSd2gZD;
-        "fabric-26.3" = _DbHCSFGO;
+        "fabric-26.3" = _nptxMreF;
+        "fabric-1.20.1" = _ym2LOhkk;
         "neoforge-1.21.1" = _yJJkB7Qc;
+        "forge-1.20.1" = _Yakx2hFh;
         "pkg-1.0" = _5Z6JuGV7;
         "pkg-2.0" = _NeP3efi0;
         "pkg-2.2" = _bSiXiMG9;
@@ -186,7 +206,8 @@ let
         "pkg-2.6.5.2" = _yJJkB7Qc;
         "pkg-2.6.6.1" = _ypMUWkFh;
         "pkg-2.6.7" = _DbHCSFGO;
-        "default" = _DbHCSFGO;
+        "pkg-2.6.8" = _Yakx2hFh;
+        "default" = _Yakx2hFh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "atmospherics";

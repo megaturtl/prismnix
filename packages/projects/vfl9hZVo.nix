@@ -36,6 +36,11 @@ let
             "file" = "no_hurtcam-1.0.3.jar";
             "hash" = "sha512-GnzOJGJP/ZSd1ZdV0tONMsw1Tb3aNxmCZQ+w8LjHotL8lg6CpRUzNVIlI3wQvQLcgSza/Vpf4fCj47t/BmbxTw==";
         };
+        _6Ct529q1 = {
+            "id" = "6Ct529q1";
+            "file" = "no-hurtcam-1.0.3.jar";
+            "hash" = "sha512-bwGf9A5qFaGvcCO9XUL8v3ZYDwl+Ygdgay8rIkmxeXqz7uAzFYwKeG6eb6fLj8BEOKI4lbOU8dWC0hpIiK8I/w==";
+        };
     in {
         "yYxcRU74" = _yYxcRU74;
         "MBLbJHRO" = _MBLbJHRO;
@@ -44,14 +49,16 @@ let
         "ql3vzTMl" = _ql3vzTMl;
         "GecUzak6" = _GecUzak6;
         "ewtQaQu2" = _ewtQaQu2;
+        "6Ct529q1" = _6Ct529q1;
         "fabric-1.21.11" = _MBLbJHRO;
         "fabric-1.21.4" = _gwzj6h8u;
         "fabric-26.2" = _GecUzak6;
         "fabric-26.3" = _ewtQaQu2;
+        "fabric-1.21.1" = _6Ct529q1;
         "pkg-1.0.0" = _yYxcRU74;
         "pkg-1.0.2" = _ql3vzTMl;
-        "pkg-1.0.3" = _ewtQaQu2;
-        "default" = _ewtQaQu2;
+        "pkg-1.0.3" = _6Ct529q1;
+        "default" = _6Ct529q1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "no_hurt_cam";

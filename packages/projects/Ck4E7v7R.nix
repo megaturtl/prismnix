@@ -476,6 +476,11 @@ let
             "file" = "guideme-26.3.4-alpha.jar";
             "hash" = "sha512-D+6EIx0y4QbQiqAognpscTb+PK2Q4puOHQyA8qYg41lPVV6L7iH0u1cXTm5i+ZLS83bumHTj3qA9FNn1vRIPVQ==";
         };
+        _mUlgxNj8 = {
+            "id" = "mUlgxNj8";
+            "file" = "guideme-21.1.20.jar";
+            "hash" = "sha512-XodVClb5eiOZa0wuBqBnqYX527s6ed0HowL6snX/JGN+2HXlDur84DDdgoeZ0yPlDYbMJQnVMBEGnIlYhqHL2w==";
+        };
     in {
         "bk0EGcWt" = _bk0EGcWt;
         "xp5Eb3cc" = _xp5Eb3cc;
@@ -572,7 +577,8 @@ let
         "69ocM6po" = _69ocM6po;
         "kCCUXhEU" = _kCCUXhEU;
         "k8pDKdkO" = _k8pDKdkO;
-        "neoforge-1.21.1" = _hFpGwC6q;
+        "mUlgxNj8" = _mUlgxNj8;
+        "neoforge-1.21.1" = _mUlgxNj8;
         "neoforge-1.20.4" = _ReOCRQ9T;
         "neoforge-1.21.5" = _o5fVAod4;
         "neoforge-1.21.8" = _4piwoOoM;
@@ -700,7 +706,8 @@ let
         "pkg-26.3.3-alpha" = _69ocM6po;
         "pkg-26.2.2-alpha" = _kCCUXhEU;
         "pkg-26.3.4-alpha" = _k8pDKdkO;
-        "default" = _k8pDKdkO;
+        "pkg-21.1.20" = _mUlgxNj8;
+        "default" = _mUlgxNj8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "guideme";

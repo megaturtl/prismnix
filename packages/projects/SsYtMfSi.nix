@@ -11,13 +11,20 @@ let
             "file" = "DragonsOfTheCosmos-[1.0.1].jar";
             "hash" = "sha512-pADzXflRjPVlUXqLobrp9GuddrrRhG0cl9todBcHvatrNZ18GeXjxmv5z8YMiuDaW63D1JpCiwRfcVdMbLZ3JQ==";
         };
+        _OLdfc1nd = {
+            "id" = "OLdfc1nd";
+            "file" = "DragonsOfTheCosmos-[1.0.2].jar";
+            "hash" = "sha512-+hgy2LsV6d9pm4SmNhO1t0Y2l9xX3Nvbs2E6+r77HdWo6B9QJ7F7C/jYSO/yV9w8/nKnD2q46kpwyJaj0hFXbA==";
+        };
     in {
         "7PUFrk5I" = _7PUFrk5I;
         "463DMX0A" = _463DMX0A;
-        "forge-1.18.2" = _463DMX0A;
+        "OLdfc1nd" = _OLdfc1nd;
+        "forge-1.18.2" = _OLdfc1nd;
         "pkg-1.0.0" = _7PUFrk5I;
         "pkg-1.0.1" = _463DMX0A;
-        "default" = _463DMX0A;
+        "pkg-1.0.2" = _OLdfc1nd;
+        "default" = _OLdfc1nd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dragons-of-the-cosmos";

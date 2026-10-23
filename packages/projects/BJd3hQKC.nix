@@ -26,19 +26,26 @@ let
             "file" = "create_more_fluid_tanks-1.1.6.jar";
             "hash" = "sha512-/voc8Wy9QRyPrIdMl00b/YeFPFjrM0Lhx7JtNt2C+OOYKVOVqtd6kOGzMDjSGaM2B2z0ajQ4yK0rz9TbK2DBmA==";
         };
+        _xD6BVT9A = {
+            "id" = "xD6BVT9A";
+            "file" = "create_more_fluid_tanks-1.2.jar";
+            "hash" = "sha512-4li3ai/Lc8/tFxfoi9o3K7qZb1x9+zrBLKa/1n8jlHl1C9vyAgX3c0B+tiKTyKhsUuuV7y3jOHLsutTwPzCpVA==";
+        };
     in {
         "5JsqnUol" = _5JsqnUol;
         "ejOUGFAV" = _ejOUGFAV;
         "p2a66Hw4" = _p2a66Hw4;
         "S9n0N1Qm" = _S9n0N1Qm;
         "OqBmdGrb" = _OqBmdGrb;
-        "neoforge-1.21.1" = _OqBmdGrb;
+        "xD6BVT9A" = _xD6BVT9A;
+        "neoforge-1.21.1" = _xD6BVT9A;
         "pkg-1.0.0" = _5JsqnUol;
         "pkg-1.0.5" = _ejOUGFAV;
         "pkg-1.1.0" = _p2a66Hw4;
         "pkg-1.1.5" = _S9n0N1Qm;
         "pkg-1.1.6" = _OqBmdGrb;
-        "default" = _OqBmdGrb;
+        "pkg-1.2" = _xD6BVT9A;
+        "default" = _xD6BVT9A;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-more-fluid-tanks";

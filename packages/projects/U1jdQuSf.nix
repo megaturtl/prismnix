@@ -46,6 +46,11 @@ let
             "file" = "The_Graveyard_3.3_(NEOFORGE)_for_1.20.4.jar";
             "hash" = "sha512-WvWGwDyEup10iGksCQkq3eG341n0RR0ayZTHK7oayzDf4z4jRrlcyoaLV27QSR7/2HU7TI1EFmdAncu2DcG0OA==";
         };
+        _2mh0cIYX = {
+            "id" = "2mh0cIYX";
+            "file" = "graveyard-FORGE-4.0.0+mc1.20.1.jar";
+            "hash" = "sha512-yn09n2AJh2DWx6GOpHDNzaItu6uFShySz36N+nE+HUji48aZdAHzbgjmzrAZXpJ3KfsxO3Ha5XOPcFnSWoP/kw==";
+        };
     in {
         "sEPLZFn6" = _sEPLZFn6;
         "IPp5noAi" = _IPp5noAi;
@@ -56,11 +61,12 @@ let
         "Q66WyQ3F" = _Q66WyQ3F;
         "76pRxOAk" = _76pRxOAk;
         "A0qu83FW" = _A0qu83FW;
+        "2mh0cIYX" = _2mh0cIYX;
         "forge-1.18.2" = _DKXNgqie;
         "forge-1.19" = _IPp5noAi;
         "forge-1.19.2" = _TpOl3Wys;
         "forge-1.20" = _Q66WyQ3F;
-        "forge-1.20.1" = _Q66WyQ3F;
+        "forge-1.20.1" = _2mh0cIYX;
         "neoforge-1.20.4" = _A0qu83FW;
         "pkg-1.9.6" = _sEPLZFn6;
         "pkg-1.10+1.19" = _IPp5noAi;
@@ -71,7 +77,8 @@ let
         "pkg-3.1" = _Q66WyQ3F;
         "pkg-3.2" = _76pRxOAk;
         "pkg-3.3" = _A0qu83FW;
-        "default" = _A0qu83FW;
+        "pkg-4.0.0+mc1.20.1-forge" = _2mh0cIYX;
+        "default" = _2mh0cIYX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-graveyard-forge";

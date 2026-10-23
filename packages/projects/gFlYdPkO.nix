@@ -1761,6 +1761,11 @@ let
             "file" = "the_deep_void-1.99.3.1-forge-1.20.1.jar";
             "hash" = "sha512-ww/dTPMuNfLrev8Y6x2KpYMYh351xdsThQ4TltTNyOC5s6Nd91iSSYQN2PHb5Og5RV8wfpmwj4gsyp4QDG9UiA==";
         };
+        _EgYEEFhp = {
+            "id" = "EgYEEFhp";
+            "file" = "the_deep_void-1.99.4-forge-1.20.1.jar";
+            "hash" = "sha512-2H0qHUEzgbvoCo2ul+/KGJ3xk6dYpcd9l1z2OwbuIxAQSroCSUbGU9Lg8jBWGbZPsFd7LKoytkevT3vIh5eUsg==";
+        };
     in {
         "wvISFKsn" = _wvISFKsn;
         "ckkd0Upi" = _ckkd0Upi;
@@ -2114,7 +2119,8 @@ let
         "u41dCwr0" = _u41dCwr0;
         "CojxKfkK" = _CojxKfkK;
         "lgJEd5D6" = _lgJEd5D6;
-        "forge-1.20.1" = _lgJEd5D6;
+        "EgYEEFhp" = _EgYEEFhp;
+        "forge-1.20.1" = _EgYEEFhp;
         "forge-1.19.4" = _4ehazqnb;
         "forge-1.19.2" = _uewylNzo;
         "neoforge-1.20.4" = _WPvcdaNZ;
@@ -2249,7 +2255,8 @@ let
         "pkg-1.99.2.1" = _u41dCwr0;
         "pkg-1.99.3" = _CojxKfkK;
         "pkg-1.99.3.1" = _lgJEd5D6;
-        "default" = _lgJEd5D6;
+        "pkg-1.99.4" = _EgYEEFhp;
+        "default" = _EgYEEFhp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "(mortius)-the-deep-void";

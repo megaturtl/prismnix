@@ -221,6 +221,51 @@ let
             "file" = "flowerymooblooms-neoforge-3.0.3+mc26.2.jar";
             "hash" = "sha512-WvrDTaxd+sctZaweIvuVHA2DY2fEFFw3AH8Mk+BoZBY4VRgjzErL8jIGDYIGKU41B81nHJ6GBOR1ptRDYQGiLQ==";
         };
+        _Gk9qp1ts = {
+            "id" = "Gk9qp1ts";
+            "file" = "flowerymooblooms-neoforge-3.0.3+mc1.21.1.jar";
+            "hash" = "sha512-Ywl8jGN9PFNKG3MG+XKi542vOV2bDHQRIGjqPiXG2M18g9Qf20MYd6mdjVQnlt5Y9bVK5/sZEKP1IedLWuixeQ==";
+        };
+        _ooFvSDLX = {
+            "id" = "ooFvSDLX";
+            "file" = "flowerymooblooms-neoforge-3.0.3+mc1.21.4.jar";
+            "hash" = "sha512-8825DO/R8aLSYXN5qUv5VSf7hfpszXn1OgiPldW5+uX/4Upaz/MOQeQDWW4SQg8MDAqjYgDRdpcenSp2DIlhIA==";
+        };
+        _NN8QXUoD = {
+            "id" = "NN8QXUoD";
+            "file" = "flowerymooblooms-neoforge-3.0.3+mc1.21.5.jar";
+            "hash" = "sha512-VC9Hx2MnmU+BFoG4hmpTIjeElybVpj8ByOLDzx1l1XIVDsarSb4obXXYPhaNhLZCK43uQ3/mxz1Rd/m8oYKUog==";
+        };
+        _km6ylSBG = {
+            "id" = "km6ylSBG";
+            "file" = "flowerymooblooms-neoforge-3.0.3+mc1.21.10.jar";
+            "hash" = "sha512-vVGCtElDqwcnoREEgd2aqUjHQukgR0yDorKr9jrBRj1Jea+hjn8MTDZ/l7Fue2jxqc/s/VXYTty5mrGdGtUu7Q==";
+        };
+        _yFRt93IN = {
+            "id" = "yFRt93IN";
+            "file" = "flowerymooblooms-neoforge-3.0.3+mc1.21.8.jar";
+            "hash" = "sha512-Xd/0OWkH0zdS0DeOBx8B/JDouh9ejNlfliLUyfrCoGMQS/S8wRmrRXijk0iutL74eXy5PdCyAKBsidB+4dTL9Q==";
+        };
+        _iJWvFOuu = {
+            "id" = "iJWvFOuu";
+            "file" = "flowerymooblooms-neoforge-3.0.3+mc1.21.11.jar";
+            "hash" = "sha512-8+z1y1PST+jJblJGIRDyFCBl918Ly0Z+2nDFOL33AcBtgxpC/3WnsWmb2j5yeh26BG/Ic/qVRA34Vcc20OZbpg==";
+        };
+        _N0lK9Vk8 = {
+            "id" = "N0lK9Vk8";
+            "file" = "flowerymooblooms-neoforge-3.0.3+mc26.1.2.jar";
+            "hash" = "sha512-YUb1DTl7xsLjXU9TVZxU1LdjwB7UX3+6cr4+xWpgYG6K9sLnBPhnMDNHXwanPpWMvJQlE94ODuDWlw4MOWUnBw==";
+        };
+        _7uIDEA6t = {
+            "id" = "7uIDEA6t";
+            "file" = "flowerymooblooms-neoforge-3.0.3+mc26.2.jar";
+            "hash" = "sha512-NOvyz7gLj91FLaG4AfG8SKeVSjMlp4wtVsYkf0PV+v2qtpLxoo6G4KMH19JkKoNLltrdVLdMWtzI1rTxCMRHUg==";
+        };
+        _mEzVfqxz = {
+            "id" = "mEzVfqxz";
+            "file" = "flowerymooblooms-neoforge-3.0.3+mc26.3.jar";
+            "hash" = "sha512-rS+t6Km3SrcMWZW3srX613eCfDONrY8xAlXETNAghUPlfMKWeUdmpXujDK89O+6ZbMxB5awvHT91BkAOx1Sj6g==";
+        };
     in {
         "Y17p12a1" = _Y17p12a1;
         "n4P2S03p" = _n4P2S03p;
@@ -266,6 +311,15 @@ let
         "1wn9dPLd" = _1wn9dPLd;
         "UDUWKakf" = _UDUWKakf;
         "IYR1HQHE" = _IYR1HQHE;
+        "Gk9qp1ts" = _Gk9qp1ts;
+        "ooFvSDLX" = _ooFvSDLX;
+        "NN8QXUoD" = _NN8QXUoD;
+        "km6ylSBG" = _km6ylSBG;
+        "yFRt93IN" = _yFRt93IN;
+        "iJWvFOuu" = _iJWvFOuu;
+        "N0lK9Vk8" = _N0lK9Vk8;
+        "7uIDEA6t" = _7uIDEA6t;
+        "mEzVfqxz" = _mEzVfqxz;
         "forge-1.19" = _9O2PHDbl;
         "forge-1.19.1" = _9O2PHDbl;
         "forge-1.19.2" = _MwifMlri;
@@ -278,20 +332,21 @@ let
         "neoforge-1.20.3" = _LHxsUDmt;
         "neoforge-1.20.4" = _LHxsUDmt;
         "neoforge-1.20.6" = _RwZz64Ve;
-        "neoforge-1.21" = _Kz3PjwHn;
-        "neoforge-1.21.1" = _Kz3PjwHn;
-        "neoforge-1.21.4" = _QJkjWMTx;
-        "neoforge-1.21.5" = _slWa9aAa;
-        "neoforge-1.21.6" = _EOAed0FN;
-        "neoforge-1.21.7" = _EOAed0FN;
-        "neoforge-1.21.8" = _EOAed0FN;
-        "neoforge-1.21.9" = _1wn9dPLd;
-        "neoforge-1.21.10" = _1wn9dPLd;
-        "neoforge-1.21.11" = _UDUWKakf;
-        "neoforge-26.1" = _iIbvdJIH;
-        "neoforge-26.1.1" = _iIbvdJIH;
-        "neoforge-26.1.2" = _iIbvdJIH;
-        "neoforge-26.2" = _IYR1HQHE;
+        "neoforge-1.21" = _Gk9qp1ts;
+        "neoforge-1.21.1" = _Gk9qp1ts;
+        "neoforge-1.21.4" = _ooFvSDLX;
+        "neoforge-1.21.5" = _NN8QXUoD;
+        "neoforge-1.21.6" = _yFRt93IN;
+        "neoforge-1.21.7" = _yFRt93IN;
+        "neoforge-1.21.8" = _yFRt93IN;
+        "neoforge-1.21.9" = _km6ylSBG;
+        "neoforge-1.21.10" = _km6ylSBG;
+        "neoforge-1.21.11" = _iJWvFOuu;
+        "neoforge-26.1" = _N0lK9Vk8;
+        "neoforge-26.1.1" = _N0lK9Vk8;
+        "neoforge-26.1.2" = _N0lK9Vk8;
+        "neoforge-26.2" = _7uIDEA6t;
+        "neoforge-26.3" = _mEzVfqxz;
         "pkg-forge-mc1.19.2-1.0.0" = _Y17p12a1;
         "pkg-forge-mc1.19.3-1.0.0" = _n4P2S03p;
         "pkg-forge-mc1.19.4-1.0.0" = _kKbMxIUZ;
@@ -328,15 +383,16 @@ let
         "pkg-neoforge-3.0.2+mc1.21.8" = _ywjkrrtU;
         "pkg-neoforge-3.0.2+mc1.21.10" = _rYvvj3rp;
         "pkg-neoforge-3.0.2+mc1.21.11" = _zDmSJ1zE;
-        "pkg-neoforge-3.0.3+mc1.21.1" = _Kz3PjwHn;
-        "pkg-neoforge-3.0.3+mc1.21.4" = _QJkjWMTx;
-        "pkg-neoforge-3.0.3+mc1.21.5" = _slWa9aAa;
-        "pkg-neoforge-3.0.3+mc1.21.8" = _EOAed0FN;
-        "pkg-neoforge-3.0.3+mc26.1.2" = _iIbvdJIH;
-        "pkg-neoforge-3.0.3+mc1.21.10" = _1wn9dPLd;
-        "pkg-neoforge-3.0.3+mc1.21.11" = _UDUWKakf;
-        "pkg-neoforge-3.0.3+mc26.2" = _IYR1HQHE;
-        "default" = _IYR1HQHE;
+        "pkg-neoforge-3.0.3+mc1.21.1" = _Gk9qp1ts;
+        "pkg-neoforge-3.0.3+mc1.21.4" = _ooFvSDLX;
+        "pkg-neoforge-3.0.3+mc1.21.5" = _NN8QXUoD;
+        "pkg-neoforge-3.0.3+mc1.21.8" = _yFRt93IN;
+        "pkg-neoforge-3.0.3+mc26.1.2" = _N0lK9Vk8;
+        "pkg-neoforge-3.0.3+mc1.21.10" = _km6ylSBG;
+        "pkg-neoforge-3.0.3+mc1.21.11" = _iJWvFOuu;
+        "pkg-neoforge-3.0.3+mc26.2" = _7uIDEA6t;
+        "pkg-neoforge-3.0.3+mc26.3" = _mEzVfqxz;
+        "default" = _mEzVfqxz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "friends-and-foes-flowery-mooblooms-forge";

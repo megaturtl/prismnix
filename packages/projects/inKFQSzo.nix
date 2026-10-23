@@ -101,6 +101,11 @@ let
             "file" = "create_stats-1.15.33.jar";
             "hash" = "sha512-bhnMt2a1WAz2Db9wnG97KY2BYxt9x1mwtgIg8Vi7NEhe349opiBAO19g+AJHoL5AqGNqp6cWI91s8UYvQvSF7Q==";
         };
+        _l3jw2bCj = {
+            "id" = "l3jw2bCj";
+            "file" = "create_stats-1.16.0.jar";
+            "hash" = "sha512-4I2on5OqHMU29WpTnXulMnqZkJ76yus3yGmoVpw/f/qzPKPMINoAF9x6X+abr9YXiejzaROAjk85cv04eCL3Mg==";
+        };
     in {
         "oXROLBPQ" = _oXROLBPQ;
         "g4SfFu71" = _g4SfFu71;
@@ -122,13 +127,14 @@ let
         "qNHHPdLy" = _qNHHPdLy;
         "GxIRYBRQ" = _GxIRYBRQ;
         "JTZ0xemb" = _JTZ0xemb;
+        "l3jw2bCj" = _l3jw2bCj;
         "forge-1.20.1" = _dltl0unZ;
         "forge-1.20.2" = _dltl0unZ;
         "forge-1.20.3" = _dltl0unZ;
         "forge-1.20.4" = _dltl0unZ;
         "forge-1.20.5" = _dltl0unZ;
         "forge-1.20.6" = _dltl0unZ;
-        "neoforge-1.21.1" = _JTZ0xemb;
+        "neoforge-1.21.1" = _l3jw2bCj;
         "pkg-0.1.3.A" = _oXROLBPQ;
         "pkg-0.3.0" = _g4SfFu71;
         "pkg-0.9.90_a" = _z6StBVgL;
@@ -149,7 +155,8 @@ let
         "pkg-1.13.1" = _qNHHPdLy;
         "pkg-1.15.0" = _GxIRYBRQ;
         "pkg-1.15.33_AD" = _JTZ0xemb;
-        "default" = _JTZ0xemb;
+        "pkg-1.16.0" = _l3jw2bCj;
+        "default" = _l3jw2bCj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-graphs-power";

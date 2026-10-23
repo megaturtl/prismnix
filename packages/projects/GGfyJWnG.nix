@@ -161,6 +161,16 @@ let
             "file" = "FoodEffectTooltips-2.1.2+26.2.jar";
             "hash" = "sha512-Ei4x3wXkgxF2SqjiJJzZPRHC0AyVIjIJ9ho0KXq6HLFbnnS4zDuU1K4jZ9ptuiC7ksrh2FtkwShKS54wnojN8w==";
         };
+        _kbNgzPtF = {
+            "id" = "kbNgzPtF";
+            "file" = "FoodEffectTooltips-2.1.2+26.3.jar";
+            "hash" = "sha512-sGJp2ZXmSrkhtuV83hiBJCgKz69UZY7h+XzgV1IGkDP1z7HfSNAnI9hYgLvGWV731wkoWfr00J7hzo7SI03SKg==";
+        };
+        _y3HxlAg9 = {
+            "id" = "y3HxlAg9";
+            "file" = "FoodEffectTooltips-2.1.2+26.3.jar";
+            "hash" = "sha512-at3Qh0RLUsz6r7H9UOCzyvzJR3nmH3q1RVBoaJRfapUh1Su9orLb2+MGvHXQGh2hwAxgVpRTAubYWvqlOPlROQ==";
+        };
     in {
         "I7IzyRhA" = _I7IzyRhA;
         "sRIcEcwO" = _sRIcEcwO;
@@ -194,6 +204,8 @@ let
         "znxxRVTP" = _znxxRVTP;
         "aXyL1zFA" = _aXyL1zFA;
         "uMk0y4qS" = _uMk0y4qS;
+        "kbNgzPtF" = _kbNgzPtF;
+        "y3HxlAg9" = _y3HxlAg9;
         "fabric-1.18.2" = _mGv3wZuw;
         "fabric-1.19.2" = _7v5XLI1b;
         "fabric-1.17.1" = _YYzMFqTS;
@@ -215,6 +227,7 @@ let
         "fabric-26.1.1" = _QLe68Z8p;
         "fabric-26.1.2" = _QLe68Z8p;
         "fabric-26.2" = _aXyL1zFA;
+        "fabric-26.3" = _kbNgzPtF;
         "quilt-1.19.4" = _pLmZERF9;
         "quilt-1.20" = _aJiMrtqD;
         "quilt-1.20.1" = _aJiMrtqD;
@@ -230,6 +243,7 @@ let
         "neoforge-26.1.1" = _znxxRVTP;
         "neoforge-26.1.2" = _znxxRVTP;
         "neoforge-26.2" = _uMk0y4qS;
+        "neoforge-26.3" = _y3HxlAg9;
         "pkg-1.0.0" = _sRIcEcwO;
         "pkg-1.0.1" = _YYzMFqTS;
         "pkg-1.1.1" = _7v5XLI1b;
@@ -254,7 +268,8 @@ let
         "pkg-2.1.2+26.1.1" = _QLe68Z8p;
         "pkg-2.1.2+26.1" = _znxxRVTP;
         "pkg-2.1.2+26.2" = _uMk0y4qS;
-        "default" = _uMk0y4qS;
+        "pkg-2.1.2+26.3" = _y3HxlAg9;
+        "default" = _y3HxlAg9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "foodeffecttooltips";

@@ -111,6 +111,16 @@ let
             "file" = "dmz_ragnarok-1.5.1.jar";
             "hash" = "sha512-4lovMrtc3td3q37zcqqp2nF3qIjee691rySdVx2kv+EcewzV+IjsFZWTtzUdAvMfKrk1kuWowHKTL09l1wS/zg==";
         };
+        _3Cvuh1Aj = {
+            "id" = "3Cvuh1Aj";
+            "file" = "dmz_ragnarok-1.6.0.jar";
+            "hash" = "sha512-Vm5PafG432i1oiO8bEp9qKKxJV7ugbrCPWercNM3qp0YU07lD26RtE6RxUwY5rhrx8duzevGyrVya+ouDjag3g==";
+        };
+        _P6S8keNG = {
+            "id" = "P6S8keNG";
+            "file" = "dmz_ragnarok-1.6.1.jar";
+            "hash" = "sha512-iapiXxlnZy0Tbtf/Xh7gIsWrdXsvA1SdEAi5+f+wRiS0HIveglDKvzjUUByx3OFftQaPVnEdOSpCsZi+9WOOIw==";
+        };
     in {
         "U4YiT80i" = _U4YiT80i;
         "WRrEjDEw" = _WRrEjDEw;
@@ -134,7 +144,9 @@ let
         "dRSQ6bDD" = _dRSQ6bDD;
         "IdI9psMr" = _IdI9psMr;
         "wHWPOqDG" = _wHWPOqDG;
-        "forge-1.20.1" = _wHWPOqDG;
+        "3Cvuh1Aj" = _3Cvuh1Aj;
+        "P6S8keNG" = _P6S8keNG;
+        "forge-1.20.1" = _P6S8keNG;
         "pkg-1.1.335" = _U4YiT80i;
         "pkg-1.1.338" = _WRrEjDEw;
         "pkg-1.1.343" = _35KBYxhx;
@@ -157,7 +169,9 @@ let
         "pkg-1.1.537" = _dRSQ6bDD;
         "pkg-1.5.0" = _IdI9psMr;
         "pkg-1.5.1" = _wHWPOqDG;
-        "default" = _wHWPOqDG;
+        "pkg-1.6.0" = _3Cvuh1Aj;
+        "pkg-1.6.1" = _P6S8keNG;
+        "default" = _P6S8keNG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dmz-ragnarok";

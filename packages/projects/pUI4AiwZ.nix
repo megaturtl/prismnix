@@ -346,6 +346,11 @@ let
             "file" = "NookureStaff-1.5.8-b4cb5d5.jar";
             "hash" = "sha512-jDRb5LOdh6QeqboDTYVMXoDUhR+B6tNIIZb03rDQ4emRYNfmsqJHbjzafAza9EyXfILWB++wdP8HCNtLG/Up5w==";
         };
+        _qhMjeoi9 = {
+            "id" = "qhMjeoi9";
+            "file" = "NookureStaff-1.5.9-5aaadde.jar";
+            "hash" = "sha512-XzCsRGm3+V93e63w5v+4zA4+BSbvgl9hfMKDs9XpWTasUsscKulTbyN+qNGvM3JzrCD7QH6fwPoOR/YPDFWVjg==";
+        };
     in {
         "KPb4iIZv" = _KPb4iIZv;
         "4XeUjQ1A" = _4XeUjQ1A;
@@ -416,6 +421,7 @@ let
         "TJhDh0M0" = _TJhDh0M0;
         "zn0FFsbF" = _zn0FFsbF;
         "nC3cVgr6" = _nC3cVgr6;
+        "qhMjeoi9" = _qhMjeoi9;
         "paper-1.19.4" = _kp8915xS;
         "paper-1.20.6" = _kp8915xS;
         "paper-1.21" = _kp8915xS;
@@ -425,9 +431,11 @@ let
         "paper-1.21.4" = _kp8915xS;
         "paper-1.21.5" = _kp8915xS;
         "paper-1.21.6" = _kp8915xS;
-        "paper-1.21.7" = _nC3cVgr6;
-        "paper-1.21.11" = _nC3cVgr6;
-        "paper-26.1.2" = _nC3cVgr6;
+        "paper-1.21.7" = _qhMjeoi9;
+        "paper-1.21.11" = _qhMjeoi9;
+        "paper-26.1.2" = _qhMjeoi9;
+        "paper-26.2" = _qhMjeoi9;
+        "paper-26.3" = _qhMjeoi9;
         "purpur-1.19.4" = _kp8915xS;
         "purpur-1.20.6" = _kp8915xS;
         "purpur-1.21" = _kp8915xS;
@@ -437,9 +445,11 @@ let
         "purpur-1.21.4" = _kp8915xS;
         "purpur-1.21.5" = _kp8915xS;
         "purpur-1.21.6" = _kp8915xS;
-        "purpur-1.21.7" = _nC3cVgr6;
-        "purpur-1.21.11" = _nC3cVgr6;
-        "purpur-26.1.2" = _nC3cVgr6;
+        "purpur-1.21.7" = _qhMjeoi9;
+        "purpur-1.21.11" = _qhMjeoi9;
+        "purpur-26.1.2" = _qhMjeoi9;
+        "purpur-26.2" = _qhMjeoi9;
+        "purpur-26.3" = _qhMjeoi9;
         "velocity-1.19.4" = _kp8915xS;
         "velocity-1.20.6" = _kp8915xS;
         "velocity-1.21" = _kp8915xS;
@@ -449,9 +459,11 @@ let
         "velocity-1.21.4" = _kp8915xS;
         "velocity-1.21.5" = _kp8915xS;
         "velocity-1.21.6" = _kp8915xS;
-        "velocity-1.21.7" = _nC3cVgr6;
-        "velocity-1.21.11" = _nC3cVgr6;
-        "velocity-26.1.2" = _nC3cVgr6;
+        "velocity-1.21.7" = _qhMjeoi9;
+        "velocity-1.21.11" = _qhMjeoi9;
+        "velocity-26.1.2" = _qhMjeoi9;
+        "velocity-26.2" = _qhMjeoi9;
+        "velocity-26.3" = _qhMjeoi9;
         "pkg-1.4.5-d10da83" = _KPb4iIZv;
         "pkg-1.4.6-24e1c91" = _4XeUjQ1A;
         "pkg-1.4.6-6d0c5c7" = _37lfuEDB;
@@ -519,7 +531,8 @@ let
         "pkg-1.5.7-1d9bacf" = _TJhDh0M0;
         "pkg-1.5.8-d9b159a" = _zn0FFsbF;
         "pkg-1.5.8-b4cb5d5" = _nC3cVgr6;
-        "default" = _nC3cVgr6;
+        "pkg-1.5.9-5aaadde" = _qhMjeoi9;
+        "default" = _qhMjeoi9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "staff";

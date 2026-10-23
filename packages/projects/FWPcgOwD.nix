@@ -206,6 +206,46 @@ let
             "file" = "stationbuilder-NEOFORGE-0.2.0+1.21.4.jar";
             "hash" = "sha512-ntsOdp9SELldc5o6YSMFQmydfxwoWkj2rV/8Fd+AYPoseUPtYo/ZO4W7hZu9H17cwBjteBeUVg7X9xKXa2ESRw==";
         };
+        _sRIWaLYm = {
+            "id" = "sRIWaLYm";
+            "file" = "stationbuilder-FORGE-0.2.1+1.20.1.jar";
+            "hash" = "sha512-D6L2LpiAtMyey4DyqhPfEZwFCCBAZJeDOtbUg+kg+2Xku/O53k+gmMumtBLjtu22o6KbjwwArIQ0za8Phj2VBQ==";
+        };
+        _GJ5PX23F = {
+            "id" = "GJ5PX23F";
+            "file" = "stationbuilder-FORGE-0.2.1+1.20.4.jar";
+            "hash" = "sha512-mbB1GxADfsu3gHCVMP8CH1ze5tfRLNvSCAxccEA1wuI9tvYv4uCRzB8UfL/JADqk2A5hgOk943UGpltbgA8v8A==";
+        };
+        _GQ3ItUoR = {
+            "id" = "GQ3ItUoR";
+            "file" = "stationbuilder-NEOFORGE-0.2.1+1.21.1.jar";
+            "hash" = "sha512-TXO0UaaNvLaU5qUVjXmcixQ2aqihfp5IZSADwg0QaXYNOixMKDrF7MGVgUc6FXskgGBK47L9wOZQsASkwnfJWw==";
+        };
+        _S5gaoUXO = {
+            "id" = "S5gaoUXO";
+            "file" = "stationbuilder-NEOFORGE-0.2.1+1.21.4.jar";
+            "hash" = "sha512-the26ilQG7KY0dvVY3LOPLvH364PVAsTkutl677Ny0KI+8cq/PCdKMGQCWv9rawzeYEq6hsX3wr9zat4My7QWQ==";
+        };
+        _c4wzFBEI = {
+            "id" = "c4wzFBEI";
+            "file" = "stationbuilder-FABRIC-0.2.1+1.20.1.jar";
+            "hash" = "sha512-Q4r1HPd7/YCxSoD0MCy3sDKGM1/oDUMc9N0z03rA0TVeuzBwmmxToLTUFcf1kK7jA4ckpLBv1IAU+rLIWBJkDg==";
+        };
+        _Kpnagksf = {
+            "id" = "Kpnagksf";
+            "file" = "stationbuilder-FABRIC-0.2.1+1.20.4.jar";
+            "hash" = "sha512-SaUcOAE4nhglz1HtycUSxy89WIpn/ttiSWg40WGpQqYW9kvXuJqU1Vo4eJA8RFjLGHtrPtWbeLgSFMRSdNs7vA==";
+        };
+        _NpYrdKl4 = {
+            "id" = "NpYrdKl4";
+            "file" = "stationbuilder-FABRIC-0.2.1+1.21.1.jar";
+            "hash" = "sha512-3vgf89rjVB+EiKS1mJnVs01SO62nMmwFrwqnAwUufjZ2+LFYwv2pl/lAB9yVBmzQbuN6PVkIgeLqq7i2mqqwMQ==";
+        };
+        _bCDzE2Nb = {
+            "id" = "bCDzE2Nb";
+            "file" = "stationbuilder-FABRIC-0.2.1+1.21.4.jar";
+            "hash" = "sha512-9Uc+r/8qvbEpPVVtdSRadnz1EWFgcSrPFITLHg98f1cYLLyxgxWWbB35XJ8YWkmsr/owbhpTMyb5AY3F46yGRQ==";
+        };
     in {
         "Ps2zlh29" = _Ps2zlh29;
         "EL5U8AGE" = _EL5U8AGE;
@@ -248,14 +288,22 @@ let
         "UiurVjUE" = _UiurVjUE;
         "wI72WZR1" = _wI72WZR1;
         "4MnH6PSe" = _4MnH6PSe;
-        "fabric-1.20.4" = _RK9FQXvO;
-        "fabric-1.20.1" = _rDULtOkh;
-        "fabric-1.21.4" = _UiurVjUE;
-        "fabric-1.21.1" = _PArteZAc;
-        "forge-1.20.1" = _hRPq3jG7;
-        "forge-1.20.4" = _V4LD114G;
-        "neoforge-1.21.1" = _wI72WZR1;
-        "neoforge-1.21.4" = _4MnH6PSe;
+        "sRIWaLYm" = _sRIWaLYm;
+        "GJ5PX23F" = _GJ5PX23F;
+        "GQ3ItUoR" = _GQ3ItUoR;
+        "S5gaoUXO" = _S5gaoUXO;
+        "c4wzFBEI" = _c4wzFBEI;
+        "Kpnagksf" = _Kpnagksf;
+        "NpYrdKl4" = _NpYrdKl4;
+        "bCDzE2Nb" = _bCDzE2Nb;
+        "fabric-1.20.4" = _Kpnagksf;
+        "fabric-1.20.1" = _c4wzFBEI;
+        "fabric-1.21.4" = _bCDzE2Nb;
+        "fabric-1.21.1" = _NpYrdKl4;
+        "forge-1.20.1" = _sRIWaLYm;
+        "forge-1.20.4" = _GJ5PX23F;
+        "neoforge-1.21.1" = _GQ3ItUoR;
+        "neoforge-1.21.4" = _S5gaoUXO;
         "pkg-FABRIC-0.1.0+1.20.4" = _Ps2zlh29;
         "pkg-FABRIC-0.1.0+1.20.1" = _EL5U8AGE;
         "pkg-FABRIC-0.1.1+1.20.4" = _SgI5gQx3;
@@ -297,7 +345,15 @@ let
         "pkg-FABRIC-0.2.0+1.21.4" = _UiurVjUE;
         "pkg-NEOFORGE-0.2.0+1.21.1" = _wI72WZR1;
         "pkg-NEOFORGE-0.2.0+1.21.4" = _4MnH6PSe;
-        "default" = _4MnH6PSe;
+        "pkg-FORGE-0.2.1+1.20.1" = _sRIWaLYm;
+        "pkg-FORGE-0.2.1+1.20.4" = _GJ5PX23F;
+        "pkg-NEOFORGE-0.2.1+1.21.1" = _GQ3ItUoR;
+        "pkg-NEOFORGE-0.2.1+1.21.4" = _S5gaoUXO;
+        "pkg-FABRIC-0.2.1+1.20.1" = _c4wzFBEI;
+        "pkg-FABRIC-0.2.1+1.20.4" = _Kpnagksf;
+        "pkg-FABRIC-0.2.1+1.21.1" = _NpYrdKl4;
+        "pkg-FABRIC-0.2.1+1.21.4" = _bCDzE2Nb;
+        "default" = _bCDzE2Nb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "station-builder";

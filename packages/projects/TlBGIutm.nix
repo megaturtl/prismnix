@@ -21,17 +21,30 @@ let
             "file" = "kantomodels-neoforge-1.3.6.jar";
             "hash" = "sha512-dNoTLRE56S0EjzGTv/Ypx/2RV52r0cDsMzXVcLSiUs475aSspn9XmRAT8+/UxeoG3HKmaogKFJFoRp230hU2VA==";
         };
+        _ZOkDS0rq = {
+            "id" = "ZOkDS0rq";
+            "file" = "kantomodels-fabric-1.3.7.jar";
+            "hash" = "sha512-LbH7Ra0XG92rpT6jJ9C6iFmWkqK2j2mzaGp4bAE+Ou3dkHQAqsBVAs6gqeZxntAW+RecIzESfnsOjgfkcCZ0Ww==";
+        };
+        _I4mHdltW = {
+            "id" = "I4mHdltW";
+            "file" = "kantomodels-neoforge-1.3.7.jar";
+            "hash" = "sha512-KnHCBqw2oPuKPcUGdhhwIaXD/iph9g8FUTOBQFJD4EUsje+eI1GWr3leVIATZRo0ZBnPB2qBnrHzFQiSKLiEWA==";
+        };
     in {
         "aU3iWmQ4" = _aU3iWmQ4;
         "R5qDLKDt" = _R5qDLKDt;
         "oTraeklB" = _oTraeklB;
         "RusSH0rp" = _RusSH0rp;
-        "fabric-1.21.1" = _oTraeklB;
-        "neoforge-1.21.1" = _RusSH0rp;
+        "ZOkDS0rq" = _ZOkDS0rq;
+        "I4mHdltW" = _I4mHdltW;
+        "fabric-1.21.1" = _ZOkDS0rq;
+        "neoforge-1.21.1" = _I4mHdltW;
         "pkg-1.3.4" = _aU3iWmQ4;
         "pkg-1.3.5" = _R5qDLKDt;
         "pkg-1.3.6" = _RusSH0rp;
-        "default" = _RusSH0rp;
+        "pkg-1.3.7" = _I4mHdltW;
+        "default" = _I4mHdltW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kantomodels";

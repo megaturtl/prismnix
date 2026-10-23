@@ -51,6 +51,16 @@ let
             "file" = "Happy Ghast Girl Alt.zip";
             "hash" = "sha512-Y068iKSRkUWtYyEl5MrzXWnoNKZk+X15MvihpzkcbUPrSvOF401Mn11bi+MbQy8MM3Bw6/97cLJ263SF5BVL8g==";
         };
+        _Wx9NgMmt = {
+            "id" = "Wx9NgMmt";
+            "file" = "Happy Ghast Girl Alt.zip";
+            "hash" = "sha512-seE1koHdZOJiNbe1WSDC85HH76sIcqUQinOiAFQatqDL1PQDtGte1GVcWGxpQq51cxL9nGg/deeyz+vGCC8Shw==";
+        };
+        _ximydeZM = {
+            "id" = "ximydeZM";
+            "file" = "Happy Ghast Girl.zip";
+            "hash" = "sha512-5A4L8tUKfKhM+BPXayYQN9qnTzW9VhRu5tUtkRwO+k0kGlVONDxDZ/zByG59MOhDhrgd/7TxEDCKSL930iKNDg==";
+        };
     in {
         "uvuljIcI" = _uvuljIcI;
         "90k8nhXP" = _90k8nhXP;
@@ -62,12 +72,19 @@ let
         "lXDQ9UFb" = _lXDQ9UFb;
         "7tKdAIlP" = _7tKdAIlP;
         "TKs9ibHD" = _TKs9ibHD;
+        "Wx9NgMmt" = _Wx9NgMmt;
+        "ximydeZM" = _ximydeZM;
         "minecraft-1.21.6" = _TKs9ibHD;
         "minecraft-1.21.7" = _lXDQ9UFb;
         "minecraft-1.21.8" = _lXDQ9UFb;
         "minecraft-1.21.11" = _PQImSwrt;
         "minecraft-1.21.9" = _PQImSwrt;
         "minecraft-1.21.10" = _PQImSwrt;
+        "minecraft-26.1" = _ximydeZM;
+        "minecraft-26.1.1" = _ximydeZM;
+        "minecraft-26.1.2" = _ximydeZM;
+        "minecraft-26.2" = _ximydeZM;
+        "minecraft-26.3" = _ximydeZM;
         "pkg-v0.1" = _uvuljIcI;
         "pkg-v0.2" = _90k8nhXP;
         "pkg-v1.0-2" = _FsClQ3cN;
@@ -78,7 +95,9 @@ let
         "pkg-v1.5-1.21.7-1.21.8-Alt" = _lXDQ9UFb;
         "pkg-v1.5-1.21.6" = _7tKdAIlP;
         "pkg-v1.5-1.21.6-Alt" = _TKs9ibHD;
-        "default" = _TKs9ibHD;
+        "pkg-v2.0-FINAL-Alt" = _Wx9NgMmt;
+        "pkg-v2.0-FINAL" = _ximydeZM;
+        "default" = _ximydeZM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "happy-ghast-girl";

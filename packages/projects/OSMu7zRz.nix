@@ -101,6 +101,11 @@ let
             "file" = "bettertab-2.2.1+26.2.jar";
             "hash" = "sha512-AQM00BZDSFznAd57V26NDS/FRaYceQEfhsJWcNrB39A7N/Z9vPmwSeXubGlNiL4sg1dWz71kxpk0cVbF3cdXyQ==";
         };
+        _oOUd5fkv = {
+            "id" = "oOUd5fkv";
+            "file" = "bettertab-2.3.0+26.3.jar";
+            "hash" = "sha512-P9Bz5EKnrxOyygnREdJjHs9Of9/ooLH2KocU9Xm9E5Fm9z55qcusmM5So5LBHvosghDK/7vJp9gmFh0jxrvaxg==";
+        };
     in {
         "VxEOsxgJ" = _VxEOsxgJ;
         "kczOAU9q" = _kczOAU9q;
@@ -122,6 +127,7 @@ let
         "CJMw7FBv" = _CJMw7FBv;
         "trYHo6So" = _trYHo6So;
         "4C7vJeTJ" = _4C7vJeTJ;
+        "oOUd5fkv" = _oOUd5fkv;
         "fabric-1.20.3" = _VxEOsxgJ;
         "fabric-1.20.4" = _VxEOsxgJ;
         "fabric-1.20.5" = _Wyw4PCGX;
@@ -146,6 +152,7 @@ let
         "fabric-26.1.1" = _trYHo6So;
         "fabric-26.1.2" = _trYHo6So;
         "fabric-26.2" = _4C7vJeTJ;
+        "fabric-26.3" = _oOUd5fkv;
         "pkg-1.0.0+1.20.4" = _VxEOsxgJ;
         "pkg-1.0.0+1.20.5-1.21.x" = _kczOAU9q;
         "pkg-1.0.0+1.21.2" = _HodMwYJ3;
@@ -166,7 +173,8 @@ let
         "pkg-2.2.0+26.1" = _CJMw7FBv;
         "pkg-2.2.1+26.1.2" = _trYHo6So;
         "pkg-2.2.1+26.2" = _4C7vJeTJ;
-        "default" = _4C7vJeTJ;
+        "pkg-2.3.0+26.3" = _oOUd5fkv;
+        "default" = _oOUd5fkv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bettertab";

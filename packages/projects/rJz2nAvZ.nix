@@ -96,6 +96,16 @@ let
             "file" = "PrideFurnaces-1.3.0+26.2.jar";
             "hash" = "sha512-4AqJBFGWuc06YNBjjdgVf9RzSjJGIme8DpJD0r0vGGTpFEu75VtTvJ0jDg039Vgo/xKR8dQIJZBipMFvKq+6yA==";
         };
+        _LnIYpeuC = {
+            "id" = "LnIYpeuC";
+            "file" = "pride-furnaces-1.3.0+26.3.jar";
+            "hash" = "sha512-U9SW45LkSTBu4j9oyPfC1CHihgH+3tdvuse+JjzPo4C0kjUR5Vj7hbApiXBElQrzYhYHC8MynXuXFl52FhsxSQ==";
+        };
+        _BVkBY2lo = {
+            "id" = "BVkBY2lo";
+            "file" = "PrideFurnaces-1.3.0+26.3.jar";
+            "hash" = "sha512-NLsCoCPVqZlR7pmRpPUhFzC8svz/gR9+IeNjSgqHcv+UqzMzvPZH2ZYdkIgm5Sumr0otI1SOmSBHMO948pYDBw==";
+        };
     in {
         "FgSfHCkv" = _FgSfHCkv;
         "Iz8c4EQ7" = _Iz8c4EQ7;
@@ -116,6 +126,8 @@ let
         "7rpptkTm" = _7rpptkTm;
         "1VO8FwBM" = _1VO8FwBM;
         "fT0Zo05F" = _fT0Zo05F;
+        "LnIYpeuC" = _LnIYpeuC;
+        "BVkBY2lo" = _BVkBY2lo;
         "fabric-1.19" = _HNvfXnwt;
         "fabric-1.18.2" = _Iz8c4EQ7;
         "fabric-1.19.3" = _pywndkFu;
@@ -135,6 +147,7 @@ let
         "fabric-26.1.1" = _cxIggKzA;
         "fabric-26.1.2" = _cxIggKzA;
         "fabric-26.2" = _1VO8FwBM;
+        "fabric-26.3" = _LnIYpeuC;
         "quilt-1.20" = _fKZNoMaH;
         "quilt-1.20.1" = _fKZNoMaH;
         "quilt-1.19.3" = _pywndkFu;
@@ -147,6 +160,7 @@ let
         "neoforge-26.1.1" = _7rpptkTm;
         "neoforge-26.1.2" = _7rpptkTm;
         "neoforge-26.2" = _fT0Zo05F;
+        "neoforge-26.3" = _BVkBY2lo;
         "pkg-1.0.0" = _hrc04CG5;
         "pkg-1.0.0+1.20" = _FDXDLlyl;
         "pkg-1.0.1+1.20" = _fKZNoMaH;
@@ -162,7 +176,8 @@ let
         "pkg-1.3.0+1.21.11-neoforge" = _xPVRZBtX;
         "pkg-1.3.0+26.1" = _7rpptkTm;
         "pkg-1.3.0+26.2" = _fT0Zo05F;
-        "default" = _fT0Zo05F;
+        "pkg-1.3.0+26.3" = _BVkBY2lo;
+        "default" = _BVkBY2lo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pride-furnaces";

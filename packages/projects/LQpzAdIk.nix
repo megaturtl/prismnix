@@ -86,6 +86,21 @@ let
             "file" = "maplesrabbitcollection-fabric-26.2.0-1.0.jar";
             "hash" = "sha512-Bhs3jZmFnScaDStEuEP+GE4FucJQ0ZftHMpUMQb/nyu+ZK1OzhnKDCuL1Z6Oooe1hXh0kqPOjWBo2nkrjaxDsQ==";
         };
+        _Fj7qDRGB = {
+            "id" = "Fj7qDRGB";
+            "file" = "maplesrabbitcollection-neoforge-26.3.0-1.0.jar";
+            "hash" = "sha512-xVH3R7gs/ilQUIxYDYjIl/w8Y63AJn2Z/TrULCBw75IjiH1rBisp/0eaQ9sjvH/JIm9izSTtLWNB3DZ75C9cEQ==";
+        };
+        _IRJHxVqz = {
+            "id" = "IRJHxVqz";
+            "file" = "maplesrabbitcollection-forge-26.3.0-1.0.jar";
+            "hash" = "sha512-S91xtZY6T2KuB8hRz05H2PYqbTVZYRjJ1ocR29B3twwvGD+RnP8qT3SfblgIfMZ3Jx+SExEFIUoefrSbk55WIg==";
+        };
+        _wudihfK0 = {
+            "id" = "wudihfK0";
+            "file" = "maplesrabbitcollection-fabric-26.3.0-1.0.jar";
+            "hash" = "sha512-PjhSFzpAclJW4oKzM3JWS2imF04t3pINM+e80w3tBWjihVL5u7bXZf+a7MG0SyrvFuXS1qBqnwgqvQp1DRjTow==";
+        };
     in {
         "Y2qX901a" = _Y2qX901a;
         "2pT6iaUI" = _2pT6iaUI;
@@ -104,29 +119,36 @@ let
         "iSqcZq2Z" = _iSqcZq2Z;
         "fcnDb678" = _fcnDb678;
         "XQhCkQFf" = _XQhCkQFf;
+        "Fj7qDRGB" = _Fj7qDRGB;
+        "IRJHxVqz" = _IRJHxVqz;
+        "wudihfK0" = _wudihfK0;
         "neoforge-26.1.1" = _Y2qX901a;
         "neoforge-26.1.2" = _XdlpP33Z;
         "neoforge-1.21.1" = _9arDBloQ;
         "neoforge-1.21.11" = _nWDhfsXx;
         "neoforge-26.2" = _iSqcZq2Z;
+        "neoforge-26.3" = _Fj7qDRGB;
         "forge-26.1.1" = _2pT6iaUI;
         "forge-26.1.2" = _7HS0GNdB;
         "forge-1.20.1" = _fIxV91rC;
         "forge-1.21.1" = _Vo4LjwTk;
         "forge-1.21.11" = _uguNsPpT;
         "forge-26.2" = _fcnDb678;
+        "forge-26.3" = _IRJHxVqz;
         "fabric-26.1.1" = _a6O4CzLC;
         "fabric-26.1.2" = _q2O6rVio;
         "fabric-1.20.1" = _drgLx3e6;
         "fabric-1.21.1" = _Q9XQNph6;
         "fabric-1.21.11" = _K698ABWt;
         "fabric-26.2" = _XQhCkQFf;
+        "fabric-26.3" = _wudihfK0;
         "quilt-26.1.1" = _a6O4CzLC;
         "quilt-26.1.2" = _q2O6rVio;
         "quilt-1.20.1" = _drgLx3e6;
         "quilt-1.21.1" = _Q9XQNph6;
         "quilt-1.21.11" = _K698ABWt;
         "quilt-26.2" = _XQhCkQFf;
+        "quilt-26.3" = _wudihfK0;
         "pkg-26.1.1-1.0-neoforge" = _Y2qX901a;
         "pkg-26.1.1-1.0-forge" = _2pT6iaUI;
         "pkg-26.1.1-1.0-fabric" = _a6O4CzLC;
@@ -144,7 +166,10 @@ let
         "pkg-26.2-1.0-neoforge" = _iSqcZq2Z;
         "pkg-26.2-1.0-forge" = _fcnDb678;
         "pkg-26.2-1.0-fabric" = _XQhCkQFf;
-        "default" = _XQhCkQFf;
+        "pkg-26.3-1.0-neoforge" = _Fj7qDRGB;
+        "pkg-26.3-1.0-forge" = _IRJHxVqz;
+        "pkg-26.3-1.0-fabric" = _wudihfK0;
+        "default" = _wudihfK0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "maples-rabbit-collection";

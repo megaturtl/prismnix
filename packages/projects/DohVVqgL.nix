@@ -61,6 +61,16 @@ let
             "file" = "DisableAccessibilityScreen-1.2.1+26.2-neoforge.jar";
             "hash" = "sha512-jL1I0dFoqZTs7TjeqRvD0EV952bLyWyIY9ZeSiTUAKX5epjOo5w56AnbROlWC8aal2xTDe/m3JlQQH4oNJqm/Q==";
         };
+        _rTRT74u8 = {
+            "id" = "rTRT74u8";
+            "file" = "disableaccessibilityscreen-1.2.1+26.3.jar";
+            "hash" = "sha512-c3rhrWcplxKl7PDklsW3zN96gKa/6xpn/DKRJEWpQE7b0wTcj3YBZrfKIby3+m38SFo3KP8K6RgrfULiKJ90qA==";
+        };
+        _woWcnx6v = {
+            "id" = "woWcnx6v";
+            "file" = "DisableAccessibilityScreen-1.2.1+26.3-neoforge.jar";
+            "hash" = "sha512-TSceBzbj9lx/tsMjOGsQjRvvAWuVwM5MOGuBY4R/6p63BosBMzILdLwDwS6QTdbT/9qOMaLDqRPBt5be9tzrjw==";
+        };
     in {
         "7g1b2siS" = _7g1b2siS;
         "qYBM2hhR" = _qYBM2hhR;
@@ -74,6 +84,8 @@ let
         "eoxTZBGv" = _eoxTZBGv;
         "UQIeDjLR" = _UQIeDjLR;
         "vizY4Wrg" = _vizY4Wrg;
+        "rTRT74u8" = _rTRT74u8;
+        "woWcnx6v" = _woWcnx6v;
         "fabric-23w03a" = _7g1b2siS;
         "fabric-1.19.4" = _qYBM2hhR;
         "fabric-1.20" = _kHjurWm1;
@@ -91,6 +103,7 @@ let
         "fabric-26.1" = _eoxTZBGv;
         "fabric-26.1.1" = _eoxTZBGv;
         "fabric-26.2" = _UQIeDjLR;
+        "fabric-26.3" = _rTRT74u8;
         "quilt-1.20" = _kHjurWm1;
         "quilt-1.20.1" = _kHjurWm1;
         "quilt-1.20.2" = _TzpGFgO9;
@@ -102,6 +115,7 @@ let
         "neoforge-26.1" = _orVa85mJ;
         "neoforge-26.1.1" = _orVa85mJ;
         "neoforge-26.2" = _vizY4Wrg;
+        "neoforge-26.3" = _woWcnx6v;
         "pkg-1.0.0" = _7g1b2siS;
         "pkg-1.0.1" = _OFLKtuug;
         "pkg-1.1.0+1.21.4" = _xwAaYjSx;
@@ -110,7 +124,9 @@ let
         "pkg-1.2.1+1.21.11-fabric" = _eoxTZBGv;
         "pkg-1.2.1+26.2" = _UQIeDjLR;
         "pkg-1.2.1+26.2-neoforge" = _vizY4Wrg;
-        "default" = _vizY4Wrg;
+        "pkg-1.2.1+26.3" = _rTRT74u8;
+        "pkg-1.2.1+26.3-neoforge" = _woWcnx6v;
+        "default" = _woWcnx6v;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "disable-accessibility-screen";

@@ -731,6 +731,11 @@ let
             "file" = "admiral-forge-0.4.10+26.3.jar";
             "hash" = "sha512-AC4dQQUDBVARSd4mKXnx3tgH2n3eSarlmv+/mCKaZ0ku+eyeQ8MKIThVOhmOaO/fLsJX0h9npTd3KUG3CMJpkg==";
         };
+        _uZ4aeb3P = {
+            "id" = "uZ4aeb3P";
+            "file" = "admiral-fabric-0.4.10+26.3.jar";
+            "hash" = "sha512-XqD4ZGPnLvZmHGR2LY67sFL1AX6ErIwcqHKo1yF8GIths8muyax8Fzoprz66slSLFlMe5L98tjQq3fM2dt/WkQ==";
+        };
     in {
         "bWWL2PVZ" = _bWWL2PVZ;
         "LlRWznBU" = _LlRWznBU;
@@ -878,6 +883,7 @@ let
         "5lMsTUsc" = _5lMsTUsc;
         "gn1gaDfn" = _gn1gaDfn;
         "DjSVWxEn" = _DjSVWxEn;
+        "uZ4aeb3P" = _uZ4aeb3P;
         "forge-1.19.4" = _nHTfObN2;
         "forge-1.20" = _nHTfObN2;
         "forge-1.20.1" = _nHTfObN2;
@@ -958,6 +964,7 @@ let
         "fabric-26.1.1" = _xBcoYy5V;
         "fabric-26.1.2" = _xBcoYy5V;
         "fabric-26.2" = _UFDpDqeR;
+        "fabric-26.3" = _uZ4aeb3P;
         "pkg-0.4.0+1.20.1+forge" = _bWWL2PVZ;
         "pkg-0.4.0+1.20.1+fabric" = _LlRWznBU;
         "pkg-0.4.1+1.19.2+forge" = _N0ssxtfn;
@@ -1102,7 +1109,8 @@ let
         "pkg-0.4.10+26.2+fabric" = _UFDpDqeR;
         "pkg-0.4.10+26.3+forge" = _DjSVWxEn;
         "pkg-0.4.10+26.3+neoforge" = _gn1gaDfn;
-        "default" = _DjSVWxEn;
+        "pkg-0.4.10+26.3+fabric" = _uZ4aeb3P;
+        "default" = _uZ4aeb3P;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "admiral";

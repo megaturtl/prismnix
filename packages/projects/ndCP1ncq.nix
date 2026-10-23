@@ -241,6 +241,16 @@ let
             "file" = "nice-keep-inventory-4.1.jar";
             "hash" = "sha512-1JUH6yFG1j1lS94WlAFil2ySxV+KE6ik5lBAAW83I287olB7x2yh/SAcVijEsFwrPJjgnHiHhQecGo16qcX34A==";
         };
+        _MI095eN7 = {
+            "id" = "MI095eN7";
+            "file" = "nice_keep_inventory_4.2.zip";
+            "hash" = "sha512-yxN9EKn937VbZh43h6sd4uGldOL0OC+Y2B8inK6Zv/Mgm69t3I9LxJmDPNWKOaw3hphFWMRWQtRa9HhJfkFyjQ==";
+        };
+        _8dC9gNxS = {
+            "id" = "8dC9gNxS";
+            "file" = "nice-keep-inventory-4.2.jar";
+            "hash" = "sha512-1WNo1cayfciWR1qLj2hEME1i833Btoyy1blwDawOYUqyHMTD+xh44isK7bZq6Hu2nabyyUIOoVxgcG5OO0u2Vg==";
+        };
     in {
         "XejDHhuB" = _XejDHhuB;
         "WJsRBl8U" = _WJsRBl8U;
@@ -290,6 +300,8 @@ let
         "c997yAOh" = _c997yAOh;
         "2vmxFUBE" = _2vmxFUBE;
         "74XM0yKv" = _74XM0yKv;
+        "MI095eN7" = _MI095eN7;
+        "8dC9gNxS" = _8dC9gNxS;
         "datapack-1.21.4" = _iCNYt0hb;
         "datapack-1.21.5" = _mxnFgLG7;
         "datapack-1.21.6" = _9azYJIQK;
@@ -302,7 +314,7 @@ let
         "datapack-26.1.1" = _BLdoqYh9;
         "datapack-26.1.2" = _BLdoqYh9;
         "datapack-26.2" = _XcehGgxd;
-        "datapack-26.3" = _2vmxFUBE;
+        "datapack-26.3" = _MI095eN7;
         "fabric-1.21.4" = _3iy5JsXm;
         "fabric-1.21.5" = _G8xW9TPP;
         "fabric-1.21.6" = _FnjfS5dE;
@@ -315,7 +327,7 @@ let
         "fabric-26.1.1" = _vMAqO4PP;
         "fabric-26.1.2" = _vMAqO4PP;
         "fabric-26.2" = _mzIlNdJZ;
-        "fabric-26.3" = _74XM0yKv;
+        "fabric-26.3" = _8dC9gNxS;
         "forge-1.21.4" = _3iy5JsXm;
         "forge-1.21.5" = _G8xW9TPP;
         "forge-1.21.6" = _FnjfS5dE;
@@ -328,7 +340,7 @@ let
         "forge-26.1.1" = _vMAqO4PP;
         "forge-26.1.2" = _vMAqO4PP;
         "forge-26.2" = _mzIlNdJZ;
-        "forge-26.3" = _74XM0yKv;
+        "forge-26.3" = _8dC9gNxS;
         "neoforge-1.21.4" = _3iy5JsXm;
         "neoforge-1.21.5" = _G8xW9TPP;
         "neoforge-1.21.6" = _FnjfS5dE;
@@ -341,7 +353,7 @@ let
         "neoforge-26.1.1" = _vMAqO4PP;
         "neoforge-26.1.2" = _vMAqO4PP;
         "neoforge-26.2" = _mzIlNdJZ;
-        "neoforge-26.3" = _74XM0yKv;
+        "neoforge-26.3" = _8dC9gNxS;
         "quilt-1.21.4" = _3iy5JsXm;
         "quilt-1.21.5" = _G8xW9TPP;
         "quilt-1.21.6" = _FnjfS5dE;
@@ -354,7 +366,7 @@ let
         "quilt-26.1.1" = _vMAqO4PP;
         "quilt-26.1.2" = _vMAqO4PP;
         "quilt-26.2" = _mzIlNdJZ;
-        "quilt-26.3" = _74XM0yKv;
+        "quilt-26.3" = _8dC9gNxS;
         "pkg-1.0" = _XejDHhuB;
         "pkg-1.0+mod" = _WJsRBl8U;
         "pkg-1.1" = _iCNYt0hb;
@@ -403,7 +415,9 @@ let
         "pkg-4.0-mod" = _c997yAOh;
         "pkg-4.1" = _2vmxFUBE;
         "pkg-4.1-mod" = _74XM0yKv;
-        "default" = _74XM0yKv;
+        "pkg-4.2" = _MI095eN7;
+        "pkg-4.2-mod" = _8dC9gNxS;
+        "default" = _8dC9gNxS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nice-keep-inventory";

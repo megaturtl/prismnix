@@ -731,6 +731,16 @@ let
             "file" = "sky_aesthetics-neoforge-2.1.4.jar";
             "hash" = "sha512-THbUdUTELClm2JQ2R7YA7M5DXHD5xi4F+RDgvAdNwK9XThUzulOLSL2lc90eny/+9t/Ol7tZ3OsWBzn51r2csA==";
         };
+        _uwlOVvBN = {
+            "id" = "uwlOVvBN";
+            "file" = "sky_aesthetics-fabric-2.2.0.jar";
+            "hash" = "sha512-qfxOjMj3zoPaNLOAtA4J1vtuyPtoDKBrNd8YJWpSxs9wufLLS3vWUptiLCZKUBwvzqxwxi4Rs4lIo3AslhCB7Q==";
+        };
+        _ZKwxlVGT = {
+            "id" = "ZKwxlVGT";
+            "file" = "sky_aesthetics-neoforge-2.2.0.jar";
+            "hash" = "sha512-3We2/QOi1w3iGzBc0rJVMOJvs0lRvdXglbtr07DeDrt/FoesnPpjqyu5DkOMrSE1c2CW0MgBiVpUI7THI+gIMg==";
+        };
     in {
         "o79FCyge" = _o79FCyge;
         "aRJFjFez" = _aRJFjFez;
@@ -878,6 +888,8 @@ let
         "TVOq6X2y" = _TVOq6X2y;
         "DM74ZvzT" = _DM74ZvzT;
         "AlXMRydN" = _AlXMRydN;
+        "uwlOVvBN" = _uwlOVvBN;
+        "ZKwxlVGT" = _ZKwxlVGT;
         "fabric-1.21" = _c74V8y9A;
         "fabric-1.21.1" = _c74V8y9A;
         "fabric-1.20.6" = _evoUiDfD;
@@ -886,7 +898,7 @@ let
         "fabric-1.21.4" = _FpLtEj9r;
         "fabric-1.21.5" = _ywWdcmPz;
         "fabric-1.21.11" = _sze8mSOj;
-        "fabric-26.1.2" = _Nyo4DMBv;
+        "fabric-26.1.2" = _uwlOVvBN;
         "fabric-26.2" = _ti5YlIKN;
         "fabric-26.3" = _DM74ZvzT;
         "neoforge-1.21" = _CCCpQYZS;
@@ -897,7 +909,7 @@ let
         "neoforge-1.21.4" = _cxEKm0sc;
         "neoforge-1.21.5" = _IxrvrR5m;
         "neoforge-1.21.11" = _RAqK8uDQ;
-        "neoforge-26.1.2" = _1ufcLPoH;
+        "neoforge-26.1.2" = _ZKwxlVGT;
         "neoforge-26.2" = _TVOq6X2y;
         "neoforge-26.3" = _AlXMRydN;
         "pkg-1.0.0" = _RLQehzYr;
@@ -958,7 +970,8 @@ let
         "pkg-2.1.2" = _FGjHA9KH;
         "pkg-2.1.3" = _z3qjoPQY;
         "pkg-2.1.4" = _AlXMRydN;
-        "default" = _AlXMRydN;
+        "pkg-2.2.0" = _ZKwxlVGT;
+        "default" = _ZKwxlVGT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sky-aesthetics";

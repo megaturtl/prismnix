@@ -1,0 +1,104 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _6TWaOqaf = {
+            "id" = "6TWaOqaf";
+            "file" = "Better Ender Pearl.zip";
+            "hash" = "sha512-dm1CCr15tKEYKSZH32b6RQtgCFH1w8iX58QzpHo8qBCslc5AVwvLLiZV2CIPgmKVA4ElUIMqEIdWgkMnIrnplA==";
+        };
+    in {
+        "6TWaOqaf" = _6TWaOqaf;
+        "minecraft-1.19" = _6TWaOqaf;
+        "minecraft-1.19.1" = _6TWaOqaf;
+        "minecraft-1.19.2" = _6TWaOqaf;
+        "minecraft-22w42a" = _6TWaOqaf;
+        "minecraft-22w43a" = _6TWaOqaf;
+        "minecraft-22w44a" = _6TWaOqaf;
+        "minecraft-1.19.3" = _6TWaOqaf;
+        "minecraft-1.19.4" = _6TWaOqaf;
+        "minecraft-23w14a" = _6TWaOqaf;
+        "minecraft-23w16a" = _6TWaOqaf;
+        "minecraft-1.20" = _6TWaOqaf;
+        "minecraft-1.20.1" = _6TWaOqaf;
+        "minecraft-23w31a" = _6TWaOqaf;
+        "minecraft-23w32a" = _6TWaOqaf;
+        "minecraft-23w33a" = _6TWaOqaf;
+        "minecraft-23w35a" = _6TWaOqaf;
+        "minecraft-1.20.2-pre1" = _6TWaOqaf;
+        "minecraft-1.20.2" = _6TWaOqaf;
+        "minecraft-23w42a" = _6TWaOqaf;
+        "minecraft-23w43a" = _6TWaOqaf;
+        "minecraft-23w43b" = _6TWaOqaf;
+        "minecraft-23w44a" = _6TWaOqaf;
+        "minecraft-23w45a" = _6TWaOqaf;
+        "minecraft-23w46a" = _6TWaOqaf;
+        "minecraft-1.20.3" = _6TWaOqaf;
+        "minecraft-1.20.4" = _6TWaOqaf;
+        "minecraft-24w03a" = _6TWaOqaf;
+        "minecraft-24w03b" = _6TWaOqaf;
+        "minecraft-24w04a" = _6TWaOqaf;
+        "minecraft-24w05a" = _6TWaOqaf;
+        "minecraft-24w05b" = _6TWaOqaf;
+        "minecraft-24w06a" = _6TWaOqaf;
+        "minecraft-24w07a" = _6TWaOqaf;
+        "minecraft-24w09a" = _6TWaOqaf;
+        "minecraft-24w10a" = _6TWaOqaf;
+        "minecraft-24w11a" = _6TWaOqaf;
+        "minecraft-24w12a" = _6TWaOqaf;
+        "minecraft-24w13a" = _6TWaOqaf;
+        "minecraft-24w14potato" = _6TWaOqaf;
+        "minecraft-24w14a" = _6TWaOqaf;
+        "minecraft-1.20.5-pre1" = _6TWaOqaf;
+        "minecraft-1.20.5-pre2" = _6TWaOqaf;
+        "minecraft-1.20.5-pre3" = _6TWaOqaf;
+        "minecraft-1.20.5" = _6TWaOqaf;
+        "minecraft-1.20.6" = _6TWaOqaf;
+        "minecraft-24w18a" = _6TWaOqaf;
+        "minecraft-24w19a" = _6TWaOqaf;
+        "minecraft-24w19b" = _6TWaOqaf;
+        "minecraft-24w20a" = _6TWaOqaf;
+        "minecraft-1.21" = _6TWaOqaf;
+        "minecraft-1.21.1" = _6TWaOqaf;
+        "minecraft-24w33a" = _6TWaOqaf;
+        "minecraft-24w34a" = _6TWaOqaf;
+        "minecraft-24w35a" = _6TWaOqaf;
+        "minecraft-24w36a" = _6TWaOqaf;
+        "minecraft-24w37a" = _6TWaOqaf;
+        "minecraft-24w38a" = _6TWaOqaf;
+        "minecraft-24w39a" = _6TWaOqaf;
+        "minecraft-24w40a" = _6TWaOqaf;
+        "minecraft-1.21.2-pre1" = _6TWaOqaf;
+        "minecraft-1.21.2-pre2" = _6TWaOqaf;
+        "minecraft-1.21.2" = _6TWaOqaf;
+        "minecraft-1.21.3" = _6TWaOqaf;
+        "minecraft-24w44a" = _6TWaOqaf;
+        "minecraft-24w45a" = _6TWaOqaf;
+        "minecraft-24w46a" = _6TWaOqaf;
+        "minecraft-1.21.4" = _6TWaOqaf;
+        "minecraft-1.21.5" = _6TWaOqaf;
+        "minecraft-1.21.6" = _6TWaOqaf;
+        "minecraft-1.21.7" = _6TWaOqaf;
+        "minecraft-1.21.8" = _6TWaOqaf;
+        "minecraft-1.21.9" = _6TWaOqaf;
+        "minecraft-1.21.10" = _6TWaOqaf;
+        "minecraft-1.21.11" = _6TWaOqaf;
+        "pkg-v1" = _6TWaOqaf;
+        "default" = _6TWaOqaf;
+    });
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "better-ender-pearl";
+        id = "S0l3GaO5";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "CC-BY-4.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Creative Commons Attribution 4.0 International";
+                shortName = "CC-BY-4.0";
+                url = null;
+            };
+        };
+    };
+in callPackage fn {}

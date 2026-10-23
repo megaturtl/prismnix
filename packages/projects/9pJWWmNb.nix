@@ -256,6 +256,26 @@ let
             "file" = "heralds_luna-2.5-forge-1.20.1.jar";
             "hash" = "sha512-ATHQT1u9az6ojy58I1bnAUqcQ1yiaSQmga4pWycG/nV5XJkmbQtJtnPwoHHVuSp2f+XllBJ1LhznKgicXpjjVQ==";
         };
+        _c2rttZyq = {
+            "id" = "c2rttZyq";
+            "file" = "heralds_luna-2.5.1-forge-1.20.1.jar";
+            "hash" = "sha512-CGkDLl2RYHiXg5NWqIKMKmJtdxJzLASFIfofVK+2kgxpOWEzqiSpt7ebQ66s9EIHllqZJPfOCKaa/XB3RXMiTg==";
+        };
+        _Aknvcjqd = {
+            "id" = "Aknvcjqd";
+            "file" = "heralds_luna-2.5.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-xZQA2/1nvpFoZ7qrptCcbjVibsFepglSc0BJLHYK0/geOBmOBfQyvLbMGjw8XEeD5A/SSJNk1szj2aiZvDCZ+g==";
+        };
+        _FEVH8Omk = {
+            "id" = "FEVH8Omk";
+            "file" = "heralds_luna-2.5.1-neoforge-26.1.2.jar";
+            "hash" = "sha512-HqxwyYAOP2AVDjzWqvc0n9kSmNSpq+lPxlaE9nPfZNj6MjD5BPfdmnHhFRd6ePlcdDfkLwQpIftxiF6Q33zH4Q==";
+        };
+        _RoM1tS1l = {
+            "id" = "RoM1tS1l";
+            "file" = "heralds_luna-2.5.1-neoforge-26.3.jar";
+            "hash" = "sha512-HN0QDEWlwBBxsmqSZJRzrpDcDQfm0aChXyAIDoaO8nUBzTorr6ZIHV38GyxWwmeUdO4g9WDMc4kefHRvZR+WYQ==";
+        };
     in {
         "EXYGjiF8" = _EXYGjiF8;
         "jUpwOw2M" = _jUpwOw2M;
@@ -308,7 +328,11 @@ let
         "zE1oZG3Y" = _zE1oZG3Y;
         "7IpJaW5W" = _7IpJaW5W;
         "Hikbo7gp" = _Hikbo7gp;
-        "forge-1.20.1" = _Hikbo7gp;
+        "c2rttZyq" = _c2rttZyq;
+        "Aknvcjqd" = _Aknvcjqd;
+        "FEVH8Omk" = _FEVH8Omk;
+        "RoM1tS1l" = _RoM1tS1l;
+        "forge-1.20.1" = _c2rttZyq;
         "forge-1.19.4" = _TmAsK7tP;
         "forge-1.19.2" = _5i73Oh3F;
         "forge-1.18.2" = _AHziKUju;
@@ -318,10 +342,12 @@ let
         "forge-1.14.4" = _qLSkBdfv;
         "forge-1.15.2" = _XYiwdr5Z;
         "neoforge-1.20.6" = _5We0Eezt;
-        "neoforge-1.21.1" = _zE1oZG3Y;
+        "neoforge-1.21.1" = _Aknvcjqd;
         "neoforge-1.21.4" = _31PnhRN4;
         "neoforge-1.20.4" = _Ove056c5;
         "neoforge-1.21.8" = _7IpJaW5W;
+        "neoforge-26.1.2" = _FEVH8Omk;
+        "neoforge-26.3" = _RoM1tS1l;
         "pkg-1.0.0" = _EXYGjiF8;
         "pkg-1.0.1" = _jUpwOw2M;
         "pkg-1.0.2" = _oFWDwOnC;
@@ -341,7 +367,8 @@ let
         "pkg-v2.4" = _31PnhRN4;
         "pkg-v2.a5" = _7IpJaW5W;
         "pkg-v2.5" = _Hikbo7gp;
-        "default" = _Hikbo7gp;
+        "pkg-v2.5.1" = _RoM1tS1l;
+        "default" = _RoM1tS1l;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "heralds-ii";

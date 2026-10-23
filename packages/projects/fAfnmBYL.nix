@@ -431,6 +431,21 @@ let
             "file" = "sapling-fabric-26.2.0-2.6.jar";
             "hash" = "sha512-dnfvhA0K2j+yo+OFRGrTcL8Hk/YcXcaByJwKgWUaCBbMR97yrNNBLpC+HF7XebsRjUZ9FaODGu4Jssc+gwvuRA==";
         };
+        _8VViMrJ0 = {
+            "id" = "8VViMrJ0";
+            "file" = "sapling-neoforge-26.3.0-2.6.jar";
+            "hash" = "sha512-D6hDg6Vjm5IBI14L2ulW/RkYneNDhZdCyd8ZwgCAvqc7WQHb0GrkJraqirjnldbdmJNPhk/LRdntXjluwX3+ug==";
+        };
+        _IG3poyLW = {
+            "id" = "IG3poyLW";
+            "file" = "sapling-forge-26.3.0-2.6.jar";
+            "hash" = "sha512-iDC1qdLoRm/qcPVPngH20iPjn+fXJBf0zR8jvSudzkWeGe7c7Q1FN+kTwPq031KqDTJs/0SRvVKTq3NwNWJMPw==";
+        };
+        _iCc03gUt = {
+            "id" = "iCc03gUt";
+            "file" = "sapling-fabric-26.3.0-2.6.jar";
+            "hash" = "sha512-53yO9OIcnG2ndZ1eSjbV5PcdK6NFF1iUiwk3BLt1s11cfXM1m3Zb7zTuDBJq28Rmsy16Qkune3XfGyiFCov87Q==";
+        };
     in {
         "i0I4bARY" = _i0I4bARY;
         "K9tbGUxM" = _K9tbGUxM;
@@ -518,12 +533,16 @@ let
         "EJPyyuRD" = _EJPyyuRD;
         "g0Cv7Rq7" = _g0Cv7Rq7;
         "HDM1RBi1" = _HDM1RBi1;
+        "8VViMrJ0" = _8VViMrJ0;
+        "IG3poyLW" = _IG3poyLW;
+        "iCc03gUt" = _iCc03gUt;
         "neoforge-1.21.1" = _9TsU0rKs;
         "neoforge-1.21.11" = _foIfkJex;
         "neoforge-26.1" = _fyrSiY2X;
         "neoforge-26.1.1" = _CERKPSZA;
         "neoforge-26.1.2" = _qL1g8VyJ;
         "neoforge-26.2" = _EJPyyuRD;
+        "neoforge-26.3" = _8VViMrJ0;
         "forge-1.21.1" = _8AbiHQmh;
         "forge-1.20.1" = _6hTdeK67;
         "forge-1.21.11" = _GY7llpyr;
@@ -531,6 +550,7 @@ let
         "forge-26.1.1" = _JqPJqVl2;
         "forge-26.1.2" = _21feay9Q;
         "forge-26.2" = _g0Cv7Rq7;
+        "forge-26.3" = _IG3poyLW;
         "fabric-1.21.1" = _DKZbzlTY;
         "fabric-1.20.1" = _egPmOmX2;
         "fabric-1.21.11" = _vWGosbfB;
@@ -538,6 +558,7 @@ let
         "fabric-26.1.1" = _dk8xgvuI;
         "fabric-26.1.2" = _p3cTgm6w;
         "fabric-26.2" = _HDM1RBi1;
+        "fabric-26.3" = _iCc03gUt;
         "quilt-1.21.1" = _DKZbzlTY;
         "quilt-1.20.1" = _egPmOmX2;
         "quilt-1.21.11" = _vWGosbfB;
@@ -545,6 +566,7 @@ let
         "quilt-26.1.1" = _dk8xgvuI;
         "quilt-26.1.2" = _p3cTgm6w;
         "quilt-26.2" = _HDM1RBi1;
+        "quilt-26.3" = _iCc03gUt;
         "pkg-neoforge-1.21.1-1.0" = _i0I4bARY;
         "pkg-forge-1.21.1-1.0" = _K9tbGUxM;
         "pkg-fabric-1.21.1-1.0" = _mdy7Ylhl;
@@ -631,7 +653,10 @@ let
         "pkg-26.2-1.0-neoforge" = _EJPyyuRD;
         "pkg-26.2-1.0-forge" = _g0Cv7Rq7;
         "pkg-26.2-1.0-fabric" = _HDM1RBi1;
-        "default" = _HDM1RBi1;
+        "pkg-26.3-2.6-neoforge" = _8VViMrJ0;
+        "pkg-26.3-2.6-forge" = _IG3poyLW;
+        "pkg-26.3-2.6-fabric" = _iCc03gUt;
+        "default" = _iCc03gUt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sapling";

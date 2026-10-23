@@ -366,6 +366,11 @@ let
             "file" = "rpf-1.4.8.jar";
             "hash" = "sha512-a96b+ikjz3M0Bb6OQWc0kFlSfjfukrXBA4OpEYi0UqTpjoGWMyI91oTQzT49YEL8Y6H7MYP52OErx9BTu0o2PA==";
         };
+        _yA7AczVk = {
+            "id" = "yA7AczVk";
+            "file" = "RPF-1.4.9-beta-26.3-universal.jar";
+            "hash" = "sha512-lngXw748s49Ybpu0W8+DkFVQbIGmIqHm1t/QFWgpsPQSWuNvRoifYsyuvGNxDnEn9hL/I6t29ULh7iQlC3DUTw==";
+        };
     in {
         "I9lGwVhU" = _I9lGwVhU;
         "hc6W79cY" = _hc6W79cY;
@@ -440,6 +445,7 @@ let
         "nyC0Ihz1" = _nyC0Ihz1;
         "UuEy5q8h" = _UuEy5q8h;
         "jHgzmiHz" = _jHgzmiHz;
+        "yA7AczVk" = _yA7AczVk;
         "fabric-1.21.6" = _X3l5fb9S;
         "fabric-1.21.7" = _X3l5fb9S;
         "fabric-1.21.8" = _X3l5fb9S;
@@ -450,6 +456,7 @@ let
         "fabric-26.1.1" = _UuEy5q8h;
         "fabric-26.1.2" = _UuEy5q8h;
         "fabric-26.2" = _jHgzmiHz;
+        "fabric-26.3" = _yA7AczVk;
         "quilt-1.21.9" = _ZVGlS7qd;
         "quilt-1.21.10" = _ZVGlS7qd;
         "quilt-1.21.11" = _Or5szAw7;
@@ -460,6 +467,7 @@ let
         "quilt-26.1.1" = _UuEy5q8h;
         "quilt-26.1.2" = _UuEy5q8h;
         "quilt-26.2" = _jHgzmiHz;
+        "neoforge-26.3" = _yA7AczVk;
         "pkg-1.0.5-alpha" = _FwwRSkVS;
         "pkg-1.1.0" = _YmDTOTPZ;
         "pkg-1.1.1-1.21.10" = _dHKQpy7s;
@@ -529,7 +537,8 @@ let
         "pkg-1.4.7-26.1" = _nyC0Ihz1;
         "pkg-1.4.8-26.1" = _UuEy5q8h;
         "pkg-1.4.8-26.2" = _jHgzmiHz;
-        "default" = _jHgzmiHz;
+        "pkg-1.4.9-beta-26.3" = _yA7AczVk;
+        "default" = _yA7AczVk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rpf";

@@ -26,12 +26,24 @@ let
             "file" = "commandbinds-26.1-fabric-1.0.0.jar";
             "hash" = "sha512-t6M0xQ5o4XmXkPbO1eDQQa4HKc0EsBQLOCAG2qxqiZ/UHyptfqj0oqg50JyX4Es9ihE6zqBrqq1yHHUKGRoNCA==";
         };
+        _9rZkNswC = {
+            "id" = "9rZkNswC";
+            "file" = "commandbinds-26.2-fabric-1.0.0.jar";
+            "hash" = "sha512-PFjq/WjwKCesvbJEjmTxTXdosPjbeCxFUDxj0uzgQ7qpIHTkkMHQ9kMVuV+idNUFVRlo2oBOIvZKLJKexqV2Xg==";
+        };
+        _PoIRgCdC = {
+            "id" = "PoIRgCdC";
+            "file" = "commandbinds-26.3-fabric-1.0.0.jar";
+            "hash" = "sha512-Q9Z99YE/ngx4Mf1T1Iji2s2KSHieuPcjGKhVYU4Tys/10I2K3gsWDdJNiXKXSwSNarvwOmBY+Yo2lMzcPh1BRQ==";
+        };
     in {
         "tX6pwLKA" = _tX6pwLKA;
         "L0mt57lc" = _L0mt57lc;
         "5ax9vvSd" = _5ax9vvSd;
         "A4OIgAV7" = _A4OIgAV7;
         "Sq7NRhDl" = _Sq7NRhDl;
+        "9rZkNswC" = _9rZkNswC;
+        "PoIRgCdC" = _PoIRgCdC;
         "fabric-1.21" = _tX6pwLKA;
         "fabric-1.21.1" = _tX6pwLKA;
         "fabric-1.21.2" = _tX6pwLKA;
@@ -47,8 +59,10 @@ let
         "fabric-26.1" = _Sq7NRhDl;
         "fabric-26.1.1" = _Sq7NRhDl;
         "fabric-26.1.2" = _Sq7NRhDl;
-        "pkg-1.0.0" = _Sq7NRhDl;
-        "default" = _Sq7NRhDl;
+        "fabric-26.2" = _9rZkNswC;
+        "fabric-26.3" = _PoIRgCdC;
+        "pkg-1.0.0" = _PoIRgCdC;
+        "default" = _PoIRgCdC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "commandbinds";

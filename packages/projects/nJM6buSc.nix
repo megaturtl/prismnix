@@ -56,6 +56,11 @@ let
             "file" = "create_blueprinted-2.2.4.jar";
             "hash" = "sha512-8cWST267xQL1KCU4XfsfsMsceRfJf/OQeDYY4SmExqpuKoF6T42mZ6Tf57Q9h0/HnwmMJ1h0OZS/UEUdOy8pqQ==";
         };
+        _lxJoI3h3 = {
+            "id" = "lxJoI3h3";
+            "file" = "create_blueprinted-2.2.5.jar";
+            "hash" = "sha512-JyZ/P3DEVlsZJhiS9l6T7X+hzIXbB0RtYI6p+dZ2li72gQGl+XKNyVCGZP55JTjGd1ZeR/A5D3aZdTfZ4vwMLg==";
+        };
     in {
         "mOiSp6dd" = _mOiSp6dd;
         "onk5C6Df" = _onk5C6Df;
@@ -68,7 +73,8 @@ let
         "B8tUKMOR" = _B8tUKMOR;
         "9cKdYAyz" = _9cKdYAyz;
         "BUtMYN0D" = _BUtMYN0D;
-        "neoforge-1.21.1" = _BUtMYN0D;
+        "lxJoI3h3" = _lxJoI3h3;
+        "neoforge-1.21.1" = _lxJoI3h3;
         "forge-1.20.1" = _wE5L8285;
         "pkg-1.0" = _mOiSp6dd;
         "pkg-1.0.1" = _onk5C6Df;
@@ -81,7 +87,8 @@ let
         "pkg-2.2.2+mc1.21.1-neoforge" = _B8tUKMOR;
         "pkg-2.2.3+mc1.21.1-neoforge" = _9cKdYAyz;
         "pkg-2.2.4+mc1.21.1-neoforge" = _BUtMYN0D;
-        "default" = _BUtMYN0D;
+        "pkg-2.2.5+mc1.21.1-neoforge" = _lxJoI3h3;
+        "default" = _lxJoI3h3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-blueprinted";

@@ -26,12 +26,18 @@ let
             "file" = "§4Beastial-FA.zip";
             "hash" = "sha512-adwi75vtR1SV3CQR4uJZEZSEdpmw8JOV+V6RBeiSNz6EsN1/ICwlUWxXrLHaNMh6X3Os3K8c6rx3H5csXwfLCQ==";
         };
+        _IkiKzbMv = {
+            "id" = "IkiKzbMv";
+            "file" = "§4Beastial-FA.zip";
+            "hash" = "sha512-jPcnTehwBO5wM87ZgFX+1mc8S553oYxK+3/ynVUXq4i9PN2+Q1xwZr04/BoO7bUA371zFyaNZd6XL3SuiIlXBg==";
+        };
     in {
         "i1NJYnC8" = _i1NJYnC8;
         "tE5PlZdl" = _tE5PlZdl;
         "TH8GmquK" = _TH8GmquK;
         "VyNT3sgV" = _VyNT3sgV;
         "EvWlWTbZ" = _EvWlWTbZ;
+        "IkiKzbMv" = _IkiKzbMv;
         "minecraft-1.18.2" = _tE5PlZdl;
         "minecraft-1.19" = _tE5PlZdl;
         "minecraft-1.19.1" = _tE5PlZdl;
@@ -57,11 +63,17 @@ let
         "minecraft-1.21.9" = _EvWlWTbZ;
         "minecraft-1.21.10" = _EvWlWTbZ;
         "minecraft-1.21.11" = _EvWlWTbZ;
+        "minecraft-26.1" = _IkiKzbMv;
+        "minecraft-26.1.1" = _IkiKzbMv;
+        "minecraft-26.1.2" = _IkiKzbMv;
+        "minecraft-26.2" = _IkiKzbMv;
+        "minecraft-26.3" = _IkiKzbMv;
         "pkg-1.0.0" = _i1NJYnC8;
         "pkg-1.0.1" = _TH8GmquK;
         "pkg-1.1" = _VyNT3sgV;
         "pkg-1.1.1" = _EvWlWTbZ;
-        "default" = _EvWlWTbZ;
+        "pkg-1.2" = _IkiKzbMv;
+        "default" = _IkiKzbMv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "beastial-fresh-animations-patch-";

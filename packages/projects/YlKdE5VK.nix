@@ -851,6 +851,16 @@ let
             "file" = "ViaFabric-0.4.22+186-26.x.jar";
             "hash" = "sha512-kJjXVZe1qRu1D6gCKOcp6H7ZrucOGf2ob9xMDnMSfq8bfs5bcaYRSbNNmo4XwFYPS+DWwVU35zYdIOD9ZBtvTg==";
         };
+        _RHUjlSk8 = {
+            "id" = "RHUjlSk8";
+            "file" = "ViaFabric-0.4.22+187-26.x.jar";
+            "hash" = "sha512-n1yOyY6aqDVTYY7sY8FgFZc8TFhnMt2I1RblVbGt7QveNlWJmDpj5bdHQrf0zNbUnijjHlnDcc/EsHk/ZsaxPg==";
+        };
+        _z1FVDMnq = {
+            "id" = "z1FVDMnq";
+            "file" = "ViaFabric-0.4.22+188-26.x.jar";
+            "hash" = "sha512-CQ6LR7QTUjuGgsOVO+ttmeWpJHOo0FgL2/agVzUqrbiti3otCPNsmcFO0ylJIxAsRXJMiLJNaXoFtymSXOA94w==";
+        };
     in {
         "Czu1J2go" = _Czu1J2go;
         "45dNsrNu" = _45dNsrNu;
@@ -1022,6 +1032,8 @@ let
         "lQ51eydS" = _lQ51eydS;
         "ki97gFLP" = _ki97gFLP;
         "qiAP0t9R" = _qiAP0t9R;
+        "RHUjlSk8" = _RHUjlSk8;
+        "z1FVDMnq" = _z1FVDMnq;
         "fabric-1.8.9" = _jIfyL2G3;
         "fabric-1.14.4" = _lQ51eydS;
         "fabric-1.15.2" = _lQ51eydS;
@@ -1067,11 +1079,11 @@ let
         "fabric-1.21.9" = _nWGb09E0;
         "fabric-1.21.10" = _kdVGOJPv;
         "fabric-1.21.11" = _lQ51eydS;
-        "fabric-26.1" = _qiAP0t9R;
-        "fabric-26.1.1" = _qiAP0t9R;
-        "fabric-26.1.2" = _qiAP0t9R;
-        "fabric-26.2" = _qiAP0t9R;
-        "fabric-26.3" = _qiAP0t9R;
+        "fabric-26.1" = _z1FVDMnq;
+        "fabric-26.1.1" = _z1FVDMnq;
+        "fabric-26.1.2" = _z1FVDMnq;
+        "fabric-26.2" = _z1FVDMnq;
+        "fabric-26.3" = _z1FVDMnq;
         "pkg-0.4.6+273-main" = _Czu1J2go;
         "pkg-0.4.7+1-main" = _45dNsrNu;
         "pkg-0.4.7+3-main" = _mi2wL9gn;
@@ -1241,7 +1253,9 @@ let
         "pkg-0.4.22+184-1.14-1.21" = _lQ51eydS;
         "pkg-0.4.22+185-26.x" = _ki97gFLP;
         "pkg-0.4.22+186-26.x" = _qiAP0t9R;
-        "default" = _qiAP0t9R;
+        "pkg-0.4.22+187-26.x" = _RHUjlSk8;
+        "pkg-0.4.22+188-26.x" = _z1FVDMnq;
+        "default" = _z1FVDMnq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "viafabric";

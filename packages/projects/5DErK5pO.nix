@@ -206,6 +206,16 @@ let
             "file" = "er-1.2.3-forge-1.20.1.jar";
             "hash" = "sha512-oU+mF+V9Kn4x+TU01W5Ja7+Bml8Zjfu8CToRo2qmcQ2BC1YmHduot+cfo12YthOMmwwZqCxw8tt5vHLuT78h1w==";
         };
+        _2VSBqepI = {
+            "id" = "2VSBqepI";
+            "file" = "er-1.2.4-neoforge-1.21.1.jar";
+            "hash" = "sha512-Mefen25S1pNdUTdZ+ENdS+Qf6swDnWGO+zUpQDPUVqB5TK1NXmZ2n2IzKzCO7QV8bTxmaYGL1jhBL8ZA/HH1yg==";
+        };
+        _epoLDwUk = {
+            "id" = "epoLDwUk";
+            "file" = "er-1.2.4-forge-1.20.1.jar";
+            "hash" = "sha512-S5cfIt9/I8r0EhgaKLMXa8UewjvMVv6DKgsOTvHAFP5LOyzLlFXuZW4eCun4j16lVMrIbNCiBoxGCzRUGOcuSA==";
+        };
     in {
         "66qOAzoV" = _66qOAzoV;
         "VTNGC3bQ" = _VTNGC3bQ;
@@ -248,8 +258,10 @@ let
         "WzTOIv5h" = _WzTOIv5h;
         "fzXhczvh" = _fzXhczvh;
         "e5EdBDXn" = _e5EdBDXn;
-        "neoforge-1.21.1" = _fzXhczvh;
-        "forge-1.20.1" = _e5EdBDXn;
+        "2VSBqepI" = _2VSBqepI;
+        "epoLDwUk" = _epoLDwUk;
+        "neoforge-1.21.1" = _2VSBqepI;
+        "forge-1.20.1" = _epoLDwUk;
         "pkg-1.0.17" = _66qOAzoV;
         "pkg-1.0.18" = _VTNGC3bQ;
         "pkg-1.0.19" = _pjcztaLu;
@@ -272,7 +284,8 @@ let
         "pkg-1.2.1" = _ZoZ19v1n;
         "pkg-1.2.2" = _WzTOIv5h;
         "pkg-1.2.3" = _e5EdBDXn;
-        "default" = _e5EdBDXn;
+        "pkg-1.2.4" = _epoLDwUk;
+        "default" = _epoLDwUk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elemental-reaction";

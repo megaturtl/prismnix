@@ -31,6 +31,11 @@ let
             "file" = "hedges_bestiary_1.1.2-neo.jar";
             "hash" = "sha512-th9vhJudzVH4qJ1IZMjZvkoJ8REcD2saTfHc9U8zN7mn+rSJ8f084BujRDGwjTuSWBE63N7Ua1H73a96vwqiQQ==";
         };
+        _KpNk8n7C = {
+            "id" = "KpNk8n7C";
+            "file" = "hedges_bestiary-1.1.3-neo.jar";
+            "hash" = "sha512-pRHg92WXmHd33dFJ+CpIVP4bcV1iJo+wQ+xP1N6ot1ur+ESmJCQibEc804iJ9mFLqY20BfhveMxQMYnvSqvLUA==";
+        };
     in {
         "aT1S96fT" = _aT1S96fT;
         "Yf2MZZ0J" = _Yf2MZZ0J;
@@ -38,15 +43,17 @@ let
         "ztUjdi56" = _ztUjdi56;
         "jLgWBSP8" = _jLgWBSP8;
         "9aAlPLPW" = _9aAlPLPW;
+        "KpNk8n7C" = _KpNk8n7C;
         "forge-1.20.1" = _ZLqBa9qM;
-        "neoforge-1.21.1" = _9aAlPLPW;
+        "neoforge-1.21.1" = _KpNk8n7C;
         "pkg-1.0.0" = _aT1S96fT;
         "pkg-1.0.5" = _Yf2MZZ0J;
         "pkg-1.0.7" = _ZLqBa9qM;
         "pkg-1.1.0" = _ztUjdi56;
         "pkg-1.1.1" = _jLgWBSP8;
         "pkg-1.1.2" = _9aAlPLPW;
-        "default" = _9aAlPLPW;
+        "pkg-1.1.3" = _KpNk8n7C;
+        "default" = _KpNk8n7C;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hedges-bestiary";

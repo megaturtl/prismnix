@@ -31,6 +31,16 @@ let
             "file" = "dimensional_sable-1.0.5.jar";
             "hash" = "sha512-hEIausGKyxQwQkS5BsAul99E332AfX+kUn6AKq7U/qtjW0set1otqQoqgzhUbo35kMa2hsOUC9aEGeQaE8kIQw==";
         };
+        _qU6WVBqC = {
+            "id" = "qU6WVBqC";
+            "file" = "dimensional_sable-1.1.0.jar";
+            "hash" = "sha512-PZ+n5e2jF7zELFEjXc3eO1hFG7oRfRFpyv7fae5qZfMvHguexl+Nu+Typqfu+22AO1CY/cFw61X2yXipdwZ2Vw==";
+        };
+        _WHNBfjyl = {
+            "id" = "WHNBfjyl";
+            "file" = "dimensionalsable-fabric-1.21.1-1.1.0.jar";
+            "hash" = "sha512-VghBF5eZVr4ImHokIE3iTRLNCS28yWfFJu4gFg7R9tkycwTFnTP6cGzGsm7F5oMky9OuT279tVczdcRljTZ+yQ==";
+        };
     in {
         "rjmMauWa" = _rjmMauWa;
         "GbkKDBUp" = _GbkKDBUp;
@@ -38,14 +48,18 @@ let
         "wr0Auy0N" = _wr0Auy0N;
         "LrkdIDoN" = _LrkdIDoN;
         "l9l5j4Zh" = _l9l5j4Zh;
-        "neoforge-1.21.1" = _l9l5j4Zh;
+        "qU6WVBqC" = _qU6WVBqC;
+        "WHNBfjyl" = _WHNBfjyl;
+        "neoforge-1.21.1" = _qU6WVBqC;
+        "fabric-1.21.1" = _WHNBfjyl;
         "pkg-1.0.0" = _rjmMauWa;
         "pkg-1.0.1" = _GbkKDBUp;
         "pkg-1.0.2" = _YzfEQ64q;
         "pkg-1.0.3" = _wr0Auy0N;
         "pkg-1.0.4" = _LrkdIDoN;
         "pkg-1.0.5" = _l9l5j4Zh;
-        "default" = _l9l5j4Zh;
+        "pkg-1.1.0" = _WHNBfjyl;
+        "default" = _WHNBfjyl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dimensional-sable";

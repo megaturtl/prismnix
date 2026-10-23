@@ -51,6 +51,16 @@ let
             "file" = "ItemLimit.jar";
             "hash" = "sha512-Y9TdUxXar5F84YVLjdaLTROBMgifKs4GqctX9YyKV7v6ARF6F6fu3jZ9xl9W+lD15fLL7kA8ScXOy4DURa7Gag==";
         };
+        _RkqUIRoA = {
+            "id" = "RkqUIRoA";
+            "file" = "ItemLimit.jar";
+            "hash" = "sha512-hC3uUS4kdQZQfKxEtRUlY0fctRSd5q+eQpezaaNmL3VNix7qifCsgphHToP6ar78C1+jPHm4SJSg5Ko5LXmhzw==";
+        };
+        _lLwzb6Pv = {
+            "id" = "lLwzb6Pv";
+            "file" = "ItemLimit.jar";
+            "hash" = "sha512-yrDuwOJC1LjYoHilrRBWSGzG7t9ZbUlYOuZ61uHUcfxWjsIH24iS59fx7WDCkFWEQQejEJdpWdO82eFSSh5D9g==";
+        };
     in {
         "96h0RJk8" = _96h0RJk8;
         "DxpkYAyV" = _DxpkYAyV;
@@ -62,6 +72,8 @@ let
         "Kstsa7w4" = _Kstsa7w4;
         "HTqzsT2o" = _HTqzsT2o;
         "gl7I7ozs" = _gl7I7ozs;
+        "RkqUIRoA" = _RkqUIRoA;
+        "lLwzb6Pv" = _lLwzb6Pv;
         "paper-1.21" = _vUIUYPDy;
         "paper-1.21.1" = _vUIUYPDy;
         "paper-1.21.2" = _vUIUYPDy;
@@ -73,8 +85,8 @@ let
         "paper-1.21.8" = _vUIUYPDy;
         "paper-1.21.9" = _vUIUYPDy;
         "paper-1.21.10" = _vUIUYPDy;
-        "paper-1.21.11" = _Kstsa7w4;
-        "paper-26.2" = _gl7I7ozs;
+        "paper-1.21.11" = _lLwzb6Pv;
+        "paper-26.2" = _RkqUIRoA;
         "bukkit-1.21" = _vUIUYPDy;
         "bukkit-1.21.1" = _vUIUYPDy;
         "bukkit-1.21.2" = _vUIUYPDy;
@@ -98,8 +110,8 @@ let
         "spigot-1.21.8" = _vUIUYPDy;
         "spigot-1.21.9" = _vUIUYPDy;
         "spigot-1.21.10" = _vUIUYPDy;
-        "spigot-1.21.11" = _Kstsa7w4;
-        "spigot-26.2" = _gl7I7ozs;
+        "spigot-1.21.11" = _lLwzb6Pv;
+        "spigot-26.2" = _RkqUIRoA;
         "pkg-1.0-SNAPSHOT" = _96h0RJk8;
         "pkg-1.1-SNAPSHOT" = _DxpkYAyV;
         "pkg-1.2-Release" = _Ss29TEfn;
@@ -109,7 +121,8 @@ let
         "pkg-1.2.1-SNAPSHOT" = _gQ4IHG4X;
         "pkg-1.2.2" = _HTqzsT2o;
         "pkg-1.2.3" = _gl7I7ozs;
-        "default" = _gl7I7ozs;
+        "pkg-1.2.4" = _lLwzb6Pv;
+        "default" = _lLwzb6Pv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "itemlimit";

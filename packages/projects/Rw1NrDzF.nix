@@ -591,6 +591,11 @@ let
             "file" = "Cucumber-26.1.2-9.0.6.jar";
             "hash" = "sha512-BQCbgaJl2fV1cp2yOVoJr9Lod32gsvt4RlH0Mygi53fH31iVZvMmMl5GcAl56sIPN+XLPd5b1Vzo3H3LshF5EA==";
         };
+        _SSzjv5lL = {
+            "id" = "SSzjv5lL";
+            "file" = "Cucumber-26.1.2-9.0.7.jar";
+            "hash" = "sha512-AJP9VH6Hjs4gSNbk+CdYQPTvp9rmFxEW/HCgXWcWPxDBPS0XaLoXuZyXpx+JywoNjMP7yniYnYfmVvsi+3EIjw==";
+        };
     in {
         "EkMPSM9o" = _EkMPSM9o;
         "2dH6xGM2" = _2dH6xGM2;
@@ -710,6 +715,7 @@ let
         "9vlthx4G" = _9vlthx4G;
         "xyPCsGIo" = _xyPCsGIo;
         "ZkLAGLIj" = _ZkLAGLIj;
+        "SSzjv5lL" = _SSzjv5lL;
         "forge-1.12" = _6W4dHWuQ;
         "forge-1.12.2" = _qGk4NMk6;
         "forge-1.14.4" = _Fhiz8vTH;
@@ -729,7 +735,7 @@ let
         "forge-1.20.1" = _xnLznSfT;
         "neoforge-1.21" = _8421rqFF;
         "neoforge-1.21.1" = _8421rqFF;
-        "neoforge-26.1.2" = _ZkLAGLIj;
+        "neoforge-26.1.2" = _SSzjv5lL;
         "pkg-1.0.0" = _EkMPSM9o;
         "pkg-1.0.1" = _2dH6xGM2;
         "pkg-1.0.2" = _G3RvrSgb;
@@ -847,7 +853,8 @@ let
         "pkg-9.0.4" = _9vlthx4G;
         "pkg-9.0.5" = _xyPCsGIo;
         "pkg-9.0.6" = _ZkLAGLIj;
-        "default" = _ZkLAGLIj;
+        "pkg-9.0.7" = _SSzjv5lL;
+        "default" = _SSzjv5lL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cucumber";

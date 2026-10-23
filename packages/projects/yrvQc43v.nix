@@ -21,21 +21,51 @@ let
             "file" = "moddedstarry_1.0_v1.19.2.zip";
             "hash" = "sha512-yzoNUSTOiPoU7Wnj+ikTwGeH9x9/SRvtf/nT6SK6kojcfpCT5YX2A3KNe4AYuVcbp8LhQr2wcqvBd8TRv2ezeQ==";
         };
+        _RSQktixR = {
+            "id" = "RSQktixR";
+            "file" = "moddedstarry_2.0_v1.19.2.zip";
+            "hash" = "sha512-1n/V4TNFVWXKQp4rVY+9ME/BGujdf++qRf2Z4c6ogu4bWPEYWhVM9feImBvqybHBuQDsRV+7WPFOkcUWm66neQ==";
+        };
+        _M39L5pJl = {
+            "id" = "M39L5pJl";
+            "file" = "moddedstarry_2.0_v1.20.1.zip";
+            "hash" = "sha512-mLWCbiapIesz0uUcfExkQAASjTeEJQoi/GzxVJHaxprLqHG56odXPpzgkOwemYExleLvhHa6mMoGG4KNNWNWag==";
+        };
+        _Zjxadihv = {
+            "id" = "Zjxadihv";
+            "file" = "moddedstarry_2.0_.v1.21.1.zip";
+            "hash" = "sha512-nOBYSzsb1FcEyBIpiunVrYmjNBoysv4voNehoRVUKRL1EVgrZeFYPtvLLjEVJi+1zY9fCj1SRSUyuONu1UkPTQ==";
+        };
+        _p55BRck8 = {
+            "id" = "p55BRck8";
+            "file" = "moddedstarry_2.0_v1.21.11.zip";
+            "hash" = "sha512-YscqdBZXrTPVxqIRbpMStFLcZvlFCSUHFv/xdQ6pjcKyIiD2aaKuIBU7HN805koVw1DxtoQ55HZGL93Az5Rv6w==";
+        };
     in {
         "Ml3hOtn0" = _Ml3hOtn0;
         "54sEBqMQ" = _54sEBqMQ;
         "xVsiyUxO" = _xVsiyUxO;
         "qGiljBSd" = _qGiljBSd;
-        "minecraft-1.20" = _Ml3hOtn0;
-        "minecraft-1.20.1" = _Ml3hOtn0;
-        "minecraft-1.21.11" = _54sEBqMQ;
-        "minecraft-26.1" = _54sEBqMQ;
-        "minecraft-26.2" = _54sEBqMQ;
-        "minecraft-1.21" = _xVsiyUxO;
-        "minecraft-1.21.1" = _xVsiyUxO;
-        "minecraft-1.19.2" = _qGiljBSd;
+        "RSQktixR" = _RSQktixR;
+        "M39L5pJl" = _M39L5pJl;
+        "Zjxadihv" = _Zjxadihv;
+        "p55BRck8" = _p55BRck8;
+        "minecraft-1.20" = _M39L5pJl;
+        "minecraft-1.20.1" = _M39L5pJl;
+        "minecraft-1.21.11" = _p55BRck8;
+        "minecraft-26.1" = _p55BRck8;
+        "minecraft-26.2" = _p55BRck8;
+        "minecraft-1.21" = _Zjxadihv;
+        "minecraft-1.21.1" = _Zjxadihv;
+        "minecraft-1.19.2" = _RSQktixR;
+        "minecraft-1.19" = _RSQktixR;
+        "minecraft-1.19.1" = _RSQktixR;
+        "minecraft-1.21.9" = _p55BRck8;
+        "minecraft-1.21.10" = _p55BRck8;
+        "minecraft-26.3" = _p55BRck8;
         "pkg-1" = _qGiljBSd;
-        "default" = _qGiljBSd;
+        "pkg-2" = _p55BRck8;
+        "default" = _p55BRck8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "starry-guihotbar-extra-additions";

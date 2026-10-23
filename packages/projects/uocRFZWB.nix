@@ -61,6 +61,11 @@ let
             "file" = "ArdaMaps-1.1.2+mc.1.20.1.jar";
             "hash" = "sha512-x3LBNrQ1asREbkN+TtJdMO+EWqMkzJOItyuf8A3xo6s8p2XGatCh0AnqcExHUdSP1wkRhdj4/pg0x2eH//ZPlw==";
         };
+        _2ZEqXkYz = {
+            "id" = "2ZEqXkYz";
+            "file" = "ArdaMaps-1.1.3+mc.1.20.1.jar";
+            "hash" = "sha512-ZGMqu1t7tQATe5JOJobCShjyx3Cc0cErT++D6lX9+8GG6lDQ91Bs1NrY80dxyfrelYx1DbAxAeXdvuXTqUJCxg==";
+        };
     in {
         "bOJXJ8hA" = _bOJXJ8hA;
         "In0544Xh" = _In0544Xh;
@@ -74,7 +79,8 @@ let
         "ZboOsl7l" = _ZboOsl7l;
         "q3Iyo7Or" = _q3Iyo7Or;
         "wgYzuB06" = _wgYzuB06;
-        "fabric-1.20.1" = _wgYzuB06;
+        "2ZEqXkYz" = _2ZEqXkYz;
+        "fabric-1.20.1" = _2ZEqXkYz;
         "fabric-26.1.2" = _q3Iyo7Or;
         "pkg-0.8.2" = _bOJXJ8hA;
         "pkg-0.8.3" = _In0544Xh;
@@ -88,7 +94,8 @@ let
         "pkg-1.1.1+mc.1.20.1" = _ZboOsl7l;
         "pkg-1.2.0+mc.26.1.2" = _q3Iyo7Or;
         "pkg-1.1.2+mc.1.20.1" = _wgYzuB06;
-        "default" = _wgYzuB06;
+        "pkg-1.1.3+mc.1.20.1" = _2ZEqXkYz;
+        "default" = _2ZEqXkYz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ardamaps";

@@ -241,6 +241,16 @@ let
             "file" = "martinis-cooking-and-smelting-26.3+26.4.jar";
             "hash" = "sha512-5wY0MeYtj6Uptyzw25OILs1c0ueq05ubnBxDDGmDZWHhm4aYENdOKjlR3NkL9DYWMt/Wd5xKe/agznDKpYA8kA==";
         };
+        _lcWNCHBs = {
+            "id" = "lcWNCHBs";
+            "file" = "Martini's_Cooking&Smelting_26.4.zip";
+            "hash" = "sha512-pPBR7sWduYeDlbSZWnGsnjGvnEdytcYafMmDxaFzcS68dCcRTJBLfm8ESNQPPNVmBMNT0PKsSr8028Y5OeEvRA==";
+        };
+        _Vev1xCFZ = {
+            "id" = "Vev1xCFZ";
+            "file" = "martinis-cooking-and-smelting-26.3+26.4.jar";
+            "hash" = "sha512-WpTDuSNirfSyGOU+VUZ7gWEoi/kx2UILix2bp0TPwmhM6Bpe8DiWywGyFIb6sCKwx5Cb4cwNAPSYIIVdCAXFqw==";
+        };
     in {
         "o4mlP99I" = _o4mlP99I;
         "ykjFGYbP" = _ykjFGYbP;
@@ -290,6 +300,8 @@ let
         "OSgzdAUj" = _OSgzdAUj;
         "rOfQly7n" = _rOfQly7n;
         "a89gWgej" = _a89gWgej;
+        "lcWNCHBs" = _lcWNCHBs;
+        "Vev1xCFZ" = _Vev1xCFZ;
         "datapack-24w44a" = _wClSBEqV;
         "datapack-24w45a" = _wClSBEqV;
         "datapack-24w46a" = _wClSBEqV;
@@ -422,11 +434,12 @@ let
         "datapack-26.3-rc-1" = _PksvwGUk;
         "datapack-26.3-rc-2" = _PksvwGUk;
         "datapack-26.3-rc-3" = _PksvwGUk;
-        "datapack-26.3" = _rOfQly7n;
-        "datapack-26.4-snapshot-1" = _rOfQly7n;
-        "datapack-26.4-snapshot-2" = _rOfQly7n;
-        "datapack-26.4-snapshot-3" = _rOfQly7n;
-        "datapack-26.4-snapshot-4" = _rOfQly7n;
+        "datapack-26.3" = _lcWNCHBs;
+        "datapack-26.4-snapshot-1" = _lcWNCHBs;
+        "datapack-26.4-snapshot-2" = _lcWNCHBs;
+        "datapack-26.4-snapshot-3" = _lcWNCHBs;
+        "datapack-26.4-snapshot-4" = _lcWNCHBs;
+        "datapack-26.4-snapshot-5" = _lcWNCHBs;
         "fabric-1.21.3" = _IwSPt2Zb;
         "fabric-24w44a" = _IwSPt2Zb;
         "fabric-24w45a" = _IwSPt2Zb;
@@ -559,11 +572,12 @@ let
         "fabric-26.3-rc-1" = _B4kxkwml;
         "fabric-26.3-rc-2" = _B4kxkwml;
         "fabric-26.3-rc-3" = _B4kxkwml;
-        "fabric-26.3" = _a89gWgej;
-        "fabric-26.4-snapshot-1" = _a89gWgej;
-        "fabric-26.4-snapshot-2" = _a89gWgej;
-        "fabric-26.4-snapshot-3" = _a89gWgej;
-        "fabric-26.4-snapshot-4" = _a89gWgej;
+        "fabric-26.3" = _Vev1xCFZ;
+        "fabric-26.4-snapshot-1" = _Vev1xCFZ;
+        "fabric-26.4-snapshot-2" = _Vev1xCFZ;
+        "fabric-26.4-snapshot-3" = _Vev1xCFZ;
+        "fabric-26.4-snapshot-4" = _Vev1xCFZ;
+        "fabric-26.4-snapshot-5" = _Vev1xCFZ;
         "quilt-1.21.3" = _IwSPt2Zb;
         "quilt-24w44a" = _IwSPt2Zb;
         "quilt-24w45a" = _IwSPt2Zb;
@@ -696,11 +710,12 @@ let
         "quilt-26.3-rc-1" = _B4kxkwml;
         "quilt-26.3-rc-2" = _B4kxkwml;
         "quilt-26.3-rc-3" = _B4kxkwml;
-        "quilt-26.3" = _a89gWgej;
-        "quilt-26.4-snapshot-1" = _a89gWgej;
-        "quilt-26.4-snapshot-2" = _a89gWgej;
-        "quilt-26.4-snapshot-3" = _a89gWgej;
-        "quilt-26.4-snapshot-4" = _a89gWgej;
+        "quilt-26.3" = _Vev1xCFZ;
+        "quilt-26.4-snapshot-1" = _Vev1xCFZ;
+        "quilt-26.4-snapshot-2" = _Vev1xCFZ;
+        "quilt-26.4-snapshot-3" = _Vev1xCFZ;
+        "quilt-26.4-snapshot-4" = _Vev1xCFZ;
+        "quilt-26.4-snapshot-5" = _Vev1xCFZ;
         "neoforge-1.21.4" = _IwSPt2Zb;
         "neoforge-25w02a" = _IwSPt2Zb;
         "neoforge-25w03a" = _IwSPt2Zb;
@@ -833,11 +848,12 @@ let
         "neoforge-26.3-rc-1" = _B4kxkwml;
         "neoforge-26.3-rc-2" = _B4kxkwml;
         "neoforge-26.3-rc-3" = _B4kxkwml;
-        "neoforge-26.3" = _a89gWgej;
-        "neoforge-26.4-snapshot-1" = _a89gWgej;
-        "neoforge-26.4-snapshot-2" = _a89gWgej;
-        "neoforge-26.4-snapshot-3" = _a89gWgej;
-        "neoforge-26.4-snapshot-4" = _a89gWgej;
+        "neoforge-26.3" = _Vev1xCFZ;
+        "neoforge-26.4-snapshot-1" = _Vev1xCFZ;
+        "neoforge-26.4-snapshot-2" = _Vev1xCFZ;
+        "neoforge-26.4-snapshot-3" = _Vev1xCFZ;
+        "neoforge-26.4-snapshot-4" = _Vev1xCFZ;
+        "neoforge-26.4-snapshot-5" = _Vev1xCFZ;
         "forge-1.21.5" = _IwSPt2Zb;
         "forge-25w15a" = _IwSPt2Zb;
         "forge-25w16a" = _IwSPt2Zb;
@@ -970,11 +986,12 @@ let
         "forge-26.3-rc-1" = _B4kxkwml;
         "forge-26.3-rc-2" = _B4kxkwml;
         "forge-26.3-rc-3" = _B4kxkwml;
-        "forge-26.3" = _a89gWgej;
-        "forge-26.4-snapshot-1" = _a89gWgej;
-        "forge-26.4-snapshot-2" = _a89gWgej;
-        "forge-26.4-snapshot-3" = _a89gWgej;
-        "forge-26.4-snapshot-4" = _a89gWgej;
+        "forge-26.3" = _Vev1xCFZ;
+        "forge-26.4-snapshot-1" = _Vev1xCFZ;
+        "forge-26.4-snapshot-2" = _Vev1xCFZ;
+        "forge-26.4-snapshot-3" = _Vev1xCFZ;
+        "forge-26.4-snapshot-4" = _Vev1xCFZ;
+        "forge-26.4-snapshot-5" = _Vev1xCFZ;
         "pkg-0.0.1a" = _o4mlP99I;
         "pkg-0.0.2a" = _ykjFGYbP;
         "pkg-0.0.3a" = _f5bomK99;
@@ -1016,9 +1033,9 @@ let
         "pkg-26.3+mod" = _fEeeYlB4;
         "pkg-26.4-Snapshot-1" = _RxRPDBLC;
         "pkg-26.4-Snapshot-1+mod" = _P7bMGDOI;
-        "pkg-26.3+26.4" = _rOfQly7n;
-        "pkg-26.3+26.4+mod" = _a89gWgej;
-        "default" = _a89gWgej;
+        "pkg-26.3+26.4" = _lcWNCHBs;
+        "pkg-26.3+26.4+mod" = _Vev1xCFZ;
+        "default" = _Vev1xCFZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "martinis-cooking-and-smelting";

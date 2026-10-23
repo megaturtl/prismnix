@@ -231,6 +231,26 @@ let
             "file" = "GoodMC-Fabric-26.3-6.0.2f.jar";
             "hash" = "sha512-zxy35WAt4UEjVqCXNUYGVDsg0lGDPdpLbBlbeeSHTKxPoOd33jpHyHgohtofHB10juLfuuQ8vhuGb5WWkworLg==";
         };
+        _sn2JmzIH = {
+            "id" = "sn2JmzIH";
+            "file" = "GoodMC-NeoForge-26.2-5.0.3.jar";
+            "hash" = "sha512-tHGokUYKnTKW+kMoYbsrcODk4i+f0Q4C5WmG/HU4/d74CH9HO8ORdsoxysgyMWtt0uFrlzvuBdpNZaMI7sYOdw==";
+        };
+        _nfLcb5GX = {
+            "id" = "nfLcb5GX";
+            "file" = "GoodMC-Fabric-26.2-5.0.3f.jar";
+            "hash" = "sha512-9yU44vtvY7dsH3IxVNOu4OdvydCCRFU2VE6RU/+Tk+2bj/V6fKpvfuk+NvDIt2bkGMnzRJL+E2DxJoMYu2KhDQ==";
+        };
+        _w6x4KqOu = {
+            "id" = "w6x4KqOu";
+            "file" = "GoodMC-NeoForge-26.3-6.0.3.jar";
+            "hash" = "sha512-BPM6+0gsx5muIDAigGZ+BpvvjigJVqZ3cn5zE/H1Htkj2RRNyLo8B/eiTYCpEgtQltfEvIl4xyRIdU8OP3T2rA==";
+        };
+        _F0YGQ0j7 = {
+            "id" = "F0YGQ0j7";
+            "file" = "GoodMC-Fabric-26.3-6.0.3f.jar";
+            "hash" = "sha512-bbJ6HaFsBj5ETalfYvhAyQ8LPSSnMHdCgSRCfTbHgpM7vjernCI14hA+pl06Pc9RfzjW9/mul0cqGCSUqZrPkA==";
+        };
     in {
         "xWn2Uva0" = _xWn2Uva0;
         "WSgpwSqe" = _WSgpwSqe;
@@ -278,14 +298,18 @@ let
         "6DBJNpsx" = _6DBJNpsx;
         "rNfSgi7q" = _rNfSgi7q;
         "bIT2NW7Q" = _bIT2NW7Q;
+        "sn2JmzIH" = _sn2JmzIH;
+        "nfLcb5GX" = _nfLcb5GX;
+        "w6x4KqOu" = _w6x4KqOu;
+        "F0YGQ0j7" = _F0YGQ0j7;
         "forge-1.12.2" = _HQKPAirH;
         "forge-1.20.1" = _VE6Qxfij;
         "neoforge-1.20.1" = _VE6Qxfij;
-        "neoforge-26.2" = _BwNc0UmI;
-        "neoforge-26.3" = _rNfSgi7q;
+        "neoforge-26.2" = _sn2JmzIH;
+        "neoforge-26.3" = _w6x4KqOu;
         "fabric-1.20.1" = _G6PTwK23;
-        "fabric-26.2" = _6DBJNpsx;
-        "fabric-26.3" = _bIT2NW7Q;
+        "fabric-26.2" = _nfLcb5GX;
+        "fabric-26.3" = _F0YGQ0j7;
         "quilt-1.20.1" = _G6PTwK23;
         "pkg-0.1.0" = _xWn2Uva0;
         "pkg-0.1.1" = _WSgpwSqe;
@@ -333,7 +357,11 @@ let
         "pkg-5.0.2f" = _6DBJNpsx;
         "pkg-6.0.2" = _rNfSgi7q;
         "pkg-6.0.2f" = _bIT2NW7Q;
-        "default" = _bIT2NW7Q;
+        "pkg-5.0.3" = _sn2JmzIH;
+        "pkg-5.0.3f" = _nfLcb5GX;
+        "pkg-6.0.3" = _w6x4KqOu;
+        "pkg-6.0.3f" = _F0YGQ0j7;
+        "default" = _F0YGQ0j7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "goodmc-old-combat";

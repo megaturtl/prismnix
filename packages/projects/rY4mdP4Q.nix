@@ -71,6 +71,11 @@ let
             "file" = "progressivestages-3.0.6.jar";
             "hash" = "sha512-R32VKBolbILL8RFLw5gR8D7+Z5J65kEsVNOpytyibT/QdSPo0O45LQUq/SkjIPRjOUmhg8KXXv1hjzOURNb7bw==";
         };
+        _pdUKI7Vh = {
+            "id" = "pdUKI7Vh";
+            "file" = "progressivestages-3.1.1.jar";
+            "hash" = "sha512-DGlWhc0zVyMqQcNeI1sw9OtWiIWmDQMWpqGzbAhW8zYkVkivEfapWJXxFlTjUqPGlc6uN+zy5Yr4sF2wvmPq1g==";
+        };
     in {
         "tS3SsCnK" = _tS3SsCnK;
         "UkCkzv3F" = _UkCkzv3F;
@@ -86,8 +91,9 @@ let
         "pZlloUS8" = _pZlloUS8;
         "Jj5dfGtr" = _Jj5dfGtr;
         "BTzuIQDe" = _BTzuIQDe;
+        "pdUKI7Vh" = _pdUKI7Vh;
         "neoforge-1.21" = _bJDWciBd;
-        "neoforge-1.21.1" = _BTzuIQDe;
+        "neoforge-1.21.1" = _pdUKI7Vh;
         "neoforge-1.21.2" = _J1BsRBDq;
         "neoforge-1.21.3" = _J1BsRBDq;
         "neoforge-1.21.4" = _J1BsRBDq;
@@ -111,7 +117,8 @@ let
         "pkg-3.0.5" = _pZlloUS8;
         "pkg-3.1.0" = _Jj5dfGtr;
         "pkg-3.0.6" = _BTzuIQDe;
-        "default" = _BTzuIQDe;
+        "pkg-3.1.1" = _pdUKI7Vh;
+        "default" = _pdUKI7Vh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "progressivestages";

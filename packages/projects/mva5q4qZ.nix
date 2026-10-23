@@ -111,6 +111,11 @@ let
             "file" = "create_submarine-3.4.4.jar";
             "hash" = "sha512-tzIKMFxtmT9Xk/hrXWf4/AOndOX3C3CVHR0uQq7i29mq8ROPCUC038QYl7uotne/kq0RJnBrCxRLsCYyCNFQpA==";
         };
+        _twCxciVp = {
+            "id" = "twCxciVp";
+            "file" = "create_submarine-3.4.5.jar";
+            "hash" = "sha512-SLq2T/ZWb1PZjA+/+Bqq5rTiZHGIcy9hM77jl5joVocypA2xKJl6PAZ9A6Bw64WDjky7XmCzWtUhr2sI11Z0WA==";
+        };
     in {
         "uYqwnn9X" = _uYqwnn9X;
         "5kwbs7hJ" = _5kwbs7hJ;
@@ -134,7 +139,8 @@ let
         "dbrSfQ3m" = _dbrSfQ3m;
         "5VcZP3Zg" = _5VcZP3Zg;
         "2pD4gdnd" = _2pD4gdnd;
-        "neoforge-1.21.1" = _2pD4gdnd;
+        "twCxciVp" = _twCxciVp;
+        "neoforge-1.21.1" = _twCxciVp;
         "pkg-1.1.1" = _uYqwnn9X;
         "pkg-1.1.4" = _5kwbs7hJ;
         "pkg-2.0.0" = _Swcvg8j6;
@@ -157,7 +163,8 @@ let
         "pkg-3.4.2" = _dbrSfQ3m;
         "pkg-3.4.3" = _5VcZP3Zg;
         "pkg-3.4.4" = _2pD4gdnd;
-        "default" = _2pD4gdnd;
+        "pkg-3.4.5" = _twCxciVp;
+        "default" = _twCxciVp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-deep-seas";

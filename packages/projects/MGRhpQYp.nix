@@ -41,6 +41,11 @@ let
             "file" = "revive-1.1.2.jar";
             "hash" = "sha512-UkG8a3l3k0XoKSBYcsQxaUEiPCh/1NZ4TI4+r/JNj6E7VKSk4G5TI4kb2X+yWJ2RfCjQgsB+6V2A6Oi/PkXkTQ==";
         };
+        _EMrqiXvy = {
+            "id" = "EMrqiXvy";
+            "file" = "revive-1.1.3.jar";
+            "hash" = "sha512-bUvOxVKnyXG9I6uv7DD/Ni9Yf+QKSHXkYeypXvBPt7pxUYORGnLw+c/DsKCBCYz0ohwSC/IB+i9sCBDibyMbYA==";
+        };
     in {
         "XbfG13NP" = _XbfG13NP;
         "FAbCgDn8" = _FAbCgDn8;
@@ -50,11 +55,12 @@ let
         "NQ6OPUUp" = _NQ6OPUUp;
         "ci83TtcS" = _ci83TtcS;
         "tVrFlq6Q" = _tVrFlq6Q;
+        "EMrqiXvy" = _EMrqiXvy;
         "fabric-1.19.2" = _XbfG13NP;
         "fabric-1.20" = _FAbCgDn8;
         "fabric-1.20.1" = _eW6ZYUVj;
         "fabric-1.21" = _gLP9gI6N;
-        "fabric-1.21.1" = _tVrFlq6Q;
+        "fabric-1.21.1" = _EMrqiXvy;
         "pkg-1.0.5" = _XbfG13NP;
         "pkg-1.0.7+1.20" = _FAbCgDn8;
         "pkg-1.0.7+1.20.1" = _eW6ZYUVj;
@@ -63,7 +69,8 @@ let
         "pkg-1.1.0+1.21.1" = _NQ6OPUUp;
         "pkg-1.1.1+1.21.1" = _ci83TtcS;
         "pkg-1.1.2+1.21.1" = _tVrFlq6Q;
-        "default" = _tVrFlq6Q;
+        "pkg-1.1.3+1.21.1" = _EMrqiXvy;
+        "default" = _EMrqiXvy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "revive";

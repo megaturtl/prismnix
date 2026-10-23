@@ -31,6 +31,11 @@ let
             "file" = "rewardz-1.0.3.jar";
             "hash" = "sha512-TRCmyNw4ov+gwL0pSfXpNXkwC2naRHUeQWyDi3TJTGUvOuN/46qZ7uEHR1OAPF+K5HCq8pbOX4/NsZCJM1rl8Q==";
         };
+        _ODpgL912 = {
+            "id" = "ODpgL912";
+            "file" = "rewardz-1.0.4.jar";
+            "hash" = "sha512-XxxE9h3Xyw08CoEFmtcVEfLy/Ohng4tq4/Iaru/mG8F4+UMlo2IDO/YmsI9yMkCmj2F8md4Yh5lv/czjiX1tqQ==";
+        };
     in {
         "eYkFjNxp" = _eYkFjNxp;
         "P78k5jSN" = _P78k5jSN;
@@ -38,16 +43,18 @@ let
         "B4VUHxlA" = _B4VUHxlA;
         "f5r9A7d7" = _f5r9A7d7;
         "Oe2Q62VL" = _Oe2Q62VL;
+        "ODpgL912" = _ODpgL912;
         "fabric-1.20.1" = _B4VUHxlA;
         "fabric-1.21" = _f5r9A7d7;
-        "fabric-1.21.1" = _Oe2Q62VL;
+        "fabric-1.21.1" = _ODpgL912;
         "pkg-1.0.0" = _eYkFjNxp;
         "pkg-1.0.1+1.20.1" = _P78k5jSN;
         "pkg-1.0.2+1.20.1" = _I92ARa63;
         "pkg-1.0.3+1.20.1" = _B4VUHxlA;
         "pkg-1.0.3+1.21" = _f5r9A7d7;
         "pkg-1.0.3+1.21.1" = _Oe2Q62VL;
-        "default" = _Oe2Q62VL;
+        "pkg-1.0.4+1.21.1" = _ODpgL912;
+        "default" = _ODpgL912;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rewardz";

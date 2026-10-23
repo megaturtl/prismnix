@@ -116,6 +116,11 @@ let
             "file" = "pipeorgans-0.9.2+1.21.1.jar";
             "hash" = "sha512-6OArvFbASakhrxrjneGVIX/rdUFUZJ3GvVH1LYFS/O55chOEqljU4MqDprHRZeT5kp5n2OdIHQ2XzhfiiYG/ZA==";
         };
+        _mv1qcsse = {
+            "id" = "mv1qcsse";
+            "file" = "pipeorgans-0.9.2.1+1.21.1.jar";
+            "hash" = "sha512-AXCM0xUo87uT8uaFcctUlRM45ZE/2Cj++Hocj629gsmjeNikeocaxgQAhnzc5fuJqAvbzl/oA/K9Nj4BKtJQsQ==";
+        };
     in {
         "cWDcbqv4" = _cWDcbqv4;
         "8Jml60aj" = _8Jml60aj;
@@ -140,8 +145,9 @@ let
         "5sciO8mR" = _5sciO8mR;
         "jqGHLZO3" = _jqGHLZO3;
         "7ED5y7GK" = _7ED5y7GK;
+        "mv1qcsse" = _mv1qcsse;
         "forge-1.20.1" = _jqGHLZO3;
-        "neoforge-1.21.1" = _7ED5y7GK;
+        "neoforge-1.21.1" = _mv1qcsse;
         "pkg-0.0.2" = _cWDcbqv4;
         "pkg-0.0.3" = _8Jml60aj;
         "pkg-0.4" = _XKF4WEmd;
@@ -165,7 +171,8 @@ let
         "pkg-0.9.0-1.20.1" = _5sciO8mR;
         "pkg-0.9.1-1.20.1" = _jqGHLZO3;
         "pkg-0.9.2-1.21.1" = _7ED5y7GK;
-        "default" = _7ED5y7GK;
+        "pkg-0.9.2.1-1.21.1" = _mv1qcsse;
+        "default" = _mv1qcsse;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-sound-of-steam";

@@ -26,19 +26,26 @@ let
             "file" = "codechickenlib-3.3.8-universal.jar";
             "hash" = "sha512-4ZBe9kamxI9kB3YnSB2DmxIwkqO+mjAFa4tnu21LKWocyB2VX+xO3xPQpox0U5lcXhSKprMx33g6cdC1rsAAsQ==";
         };
+        _CBqIvJQ2 = {
+            "id" = "CBqIvJQ2";
+            "file" = "codechickenlib-3.3.10-universal.jar";
+            "hash" = "sha512-x1JSLVoU9OIfGYzsTFjU1MPG1lpxTa8IjAs6s1sruSVKxwunuLmI2xy6ZMsVwr8cQobnP83lVCzbRomqVuU2Zg==";
+        };
     in {
         "dFaQvKMf" = _dFaQvKMf;
         "iBR8uRy3" = _iBR8uRy3;
         "PJCPc5mp" = _PJCPc5mp;
         "TxC8fLdQ" = _TxC8fLdQ;
         "7dcZOXlH" = _7dcZOXlH;
-        "forge-1.12.2" = _7dcZOXlH;
+        "CBqIvJQ2" = _CBqIvJQ2;
+        "forge-1.12.2" = _CBqIvJQ2;
         "pkg-3.3.4" = _dFaQvKMf;
         "pkg-3.3.5" = _iBR8uRy3;
         "pkg-3.3.7" = _PJCPc5mp;
         "pkg-3.3.8" = _TxC8fLdQ;
         "pkg-3.3.9" = _7dcZOXlH;
-        "default" = _7dcZOXlH;
+        "pkg-3.3.10" = _CBqIvJQ2;
+        "default" = _CBqIvJQ2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "codechicken-lib-cre";

@@ -246,6 +246,11 @@ let
             "file" = "droppeditemtweaks-2.0.1+1.8.9-fabric.jar";
             "hash" = "sha512-BR6gmwWrsAxEKMiXP3giNF4T87E3A602D/ntC7lwklgMqdjDVmNDT3/rOBWh+8YAlpswPOHtxZsZdwMJ8Tap0Q==";
         };
+        _T5e0O3e5 = {
+            "id" = "T5e0O3e5";
+            "file" = "droppeditemtweaks-2.0.1-hotfix.1+1.8.9-fabric.jar";
+            "hash" = "sha512-C1ighffoWem9og9svy+AZzZ5Q0+Z6Tvl6RmRayHkxlA/c78+egXvWcDV5JAqOm2N4qYGRBA8xeLoOpQS+RnjAw==";
+        };
     in {
         "wUDzNixL" = _wUDzNixL;
         "tv8CIthp" = _tv8CIthp;
@@ -296,6 +301,7 @@ let
         "J1invMb1" = _J1invMb1;
         "RFQnu1Qa" = _RFQnu1Qa;
         "8GoRmVgm" = _8GoRmVgm;
+        "T5e0O3e5" = _T5e0O3e5;
         "fabric-1.20" = _XtrqXPhU;
         "fabric-1.20.1" = _XtrqXPhU;
         "fabric-1.20.3" = _XtrqXPhU;
@@ -328,7 +334,7 @@ let
         "neoforge-1.21.6" = _mFHurA8W;
         "neoforge-1.21.7" = _mFHurA8W;
         "neoforge-1.21.8" = _mFHurA8W;
-        "ornithe-1.8.9" = _8GoRmVgm;
+        "ornithe-1.8.9" = _T5e0O3e5;
         "pkg-1.0.0" = _tvJPHgi6;
         "pkg-1.0.1" = _O7W5Pqs4;
         "pkg-1.1.0" = _8HzOqMP0;
@@ -344,7 +350,8 @@ let
         "pkg-1.2.9" = _BvifgxvO;
         "pkg-2.0.0" = _J1invMb1;
         "pkg-2.0.1" = _8GoRmVgm;
-        "default" = _8GoRmVgm;
+        "pkg-2.0.1-hotfix.1" = _T5e0O3e5;
+        "default" = _T5e0O3e5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "droppeditemtweaks";
