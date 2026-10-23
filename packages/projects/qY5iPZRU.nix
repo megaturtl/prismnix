@@ -46,6 +46,11 @@ let
             "file" = "Cosmetic Forms [v1.4].jar";
             "hash" = "sha512-6uT65UAXUxpKk442GGsTwD2iSZ9dbQ+nvIPU99ZcNLjN8TGzWA9jMAJ8opzK9WA7Fuh80Ab81xMIUUK5MDRkDA==";
         };
+        _BdY9ifhe = {
+            "id" = "BdY9ifhe";
+            "file" = "Cosmetic-Forms [v1.5].jar";
+            "hash" = "sha512-GBLDHklU7UhIjdJQadNHwTNCbFdVAvexsrQ2IrTEsXXHcj4bHcnEmNO2PEwma8P20CQKhs0rN3gXx1m4wpbpIg==";
+        };
     in {
         "Qnx63jMa" = _Qnx63jMa;
         "GnRP1LCa" = _GnRP1LCa;
@@ -56,8 +61,9 @@ let
         "XrygkNx0" = _XrygkNx0;
         "In8NQ8dL" = _In8NQ8dL;
         "WPSlHwi5" = _WPSlHwi5;
-        "fabric-1.21.1" = _WPSlHwi5;
-        "neoforge-1.21.1" = _WPSlHwi5;
+        "BdY9ifhe" = _BdY9ifhe;
+        "fabric-1.21.1" = _BdY9ifhe;
+        "neoforge-1.21.1" = _BdY9ifhe;
         "datapack-1.21.1" = _In8NQ8dL;
         "minecraft-1.21.1" = _In8NQ8dL;
         "pkg-v1.0-mod" = _Qnx63jMa;
@@ -69,7 +75,8 @@ let
         "pkg-v1.3-mod" = _XrygkNx0;
         "pkg-v1.3" = _In8NQ8dL;
         "pkg-v1.4" = _WPSlHwi5;
-        "default" = _WPSlHwi5;
+        "pkg-1.5" = _BdY9ifhe;
+        "default" = _BdY9ifhe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cosmetic-megas";

@@ -196,6 +196,11 @@ let
             "file" = "modifiedtornadodamage-0.0.32.jar";
             "hash" = "sha512-dIzIynUuRRe/uPrc2u9SczeQ0AboLnCSTWJtYf13fpjuyLD6LJC4+SgGKJHIL0HcOCWs/BD7jOXBrK9JyNa7AQ==";
         };
+        _n9Gpf1bV = {
+            "id" = "n9Gpf1bV";
+            "file" = "modifiedtornadodamage-0.0.33.jar";
+            "hash" = "sha512-66bNVjrHsXoldstcNJVLY6Jwnnitsj6x9EJeU376Zc+faaBwAc53sBELIpF65D7P2HwW9qBKUmhBqCFa0eWxEQ==";
+        };
     in {
         "NqEcMAVz" = _NqEcMAVz;
         "fthXMPzn" = _fthXMPzn;
@@ -236,7 +241,8 @@ let
         "ym8wctme" = _ym8wctme;
         "IfdCE1UY" = _IfdCE1UY;
         "AwGHtofy" = _AwGHtofy;
-        "neoforge-1.21.1" = _AwGHtofy;
+        "n9Gpf1bV" = _n9Gpf1bV;
+        "neoforge-1.21.1" = _n9Gpf1bV;
         "forge-1.20.1" = _fDDp4YUY;
         "pkg-0.0.2" = _NqEcMAVz;
         "pkg-0.0.3" = _fthXMPzn;
@@ -277,7 +283,8 @@ let
         "pkg-0.0.31" = _ym8wctme;
         "pkg-0.0.311" = _IfdCE1UY;
         "pkg-0.0.32" = _AwGHtofy;
-        "default" = _AwGHtofy;
+        "pkg-0.0.33" = _n9Gpf1bV;
+        "default" = _n9Gpf1bV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modified-tornado-damage";

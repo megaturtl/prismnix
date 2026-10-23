@@ -96,6 +96,16 @@ let
             "file" = "WitherTurnsSkeletons-1.6.0+26.2.jar";
             "hash" = "sha512-EVFKDIDrBtdzC0Wu+H3k648pJsoIuZ1IDDfAUCMzJUMRme4kU8WZdFZq9gvjem3j24on3PB/lGyZJJW1gpNhAg==";
         };
+        _sweGkAVE = {
+            "id" = "sweGkAVE";
+            "file" = "WitherTurnsSkeletons-1.6.0+26.3.jar";
+            "hash" = "sha512-OnJWtcWlTT5Gi7PNRAW8vAjuHVFDpaycRoW7sxUx1ppQctdq6RVwjmRfA6aPVLIv+N3lz926vVixGv9I8r93vw==";
+        };
+        _Swz5czuz = {
+            "id" = "Swz5czuz";
+            "file" = "WitherTurnsSkeletons-1.6.0+26.3.jar";
+            "hash" = "sha512-re9DCkUZ1bNJ44cba52LyiT0WlpG2q05LK30Al2o+Ur8wNcFVvTxecRC66J/8W9tdJFjzcelwwxIMZr51n9FKg==";
+        };
     in {
         "uKfftxaB" = _uKfftxaB;
         "4YrNubqB" = _4YrNubqB;
@@ -116,6 +126,8 @@ let
         "M1fRVPwh" = _M1fRVPwh;
         "aBZ2tKuZ" = _aBZ2tKuZ;
         "x9obnacx" = _x9obnacx;
+        "sweGkAVE" = _sweGkAVE;
+        "Swz5czuz" = _Swz5czuz;
         "fabric-1.17.1" = _uKfftxaB;
         "fabric-1.18" = _4YrNubqB;
         "fabric-1.18.1" = _4YrNubqB;
@@ -138,6 +150,7 @@ let
         "fabric-26.1.1" = _Vz9xEx6A;
         "fabric-26.1.2" = _Vz9xEx6A;
         "fabric-26.2" = _aBZ2tKuZ;
+        "fabric-26.3" = _sweGkAVE;
         "quilt-1.20.2" = _4RP9FMmE;
         "quilt-1.20.6" = _qTr7aQ6x;
         "neoforge-1.21.11" = _uz7movL8;
@@ -145,6 +158,7 @@ let
         "neoforge-26.1.1" = _M1fRVPwh;
         "neoforge-26.1.2" = _M1fRVPwh;
         "neoforge-26.2" = _x9obnacx;
+        "neoforge-26.3" = _Swz5czuz;
         "pkg-1.0.0" = _uKfftxaB;
         "pkg-1.1.0" = _4YrNubqB;
         "pkg-1.2.0-1.18.2" = _DxWwMoP0;
@@ -161,7 +175,8 @@ let
         "pkg-1.5.1+1.21.11-neoforge" = _uz7movL8;
         "pkg-1.6.0+26.1" = _M1fRVPwh;
         "pkg-1.6.0+26.2" = _x9obnacx;
-        "default" = _x9obnacx;
+        "pkg-1.6.0+26.3" = _Swz5czuz;
+        "default" = _Swz5czuz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "witherturnsskeletons";

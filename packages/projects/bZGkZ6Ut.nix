@@ -86,6 +86,16 @@ let
             "file" = "reloaded-8.jar";
             "hash" = "sha512-6jlE2yv5CGw9Y8I2MFs71L4mJhCR8IMx3dM7/WhbVlg023Wq+0g6poHDaUgPcKRzWE7w1oen42vsLwdLjZXoew==";
         };
+        _3wLtpRgk = {
+            "id" = "3wLtpRgk";
+            "file" = "reloaded_v9.zip";
+            "hash" = "sha512-We2tsmSfk8zvMbA8vTe/5o5ZwMxdm5qZLlfPHeLLgl4aNz0ijTTOf9sExs+i6pDG4Wn4a6m3oNEjMT8AG00i1g==";
+        };
+        _3v4leRGm = {
+            "id" = "3v4leRGm";
+            "file" = "reloaded-9.jar";
+            "hash" = "sha512-jcURyx0jjtX3RDykS9lUSKvF7YLtlj5mKDPBpdlcsyX8ZqhWXiJOuh+CUUeNNI5neafsVVAdwVws2u1te0VtgQ==";
+        };
     in {
         "nmA04TT8" = _nmA04TT8;
         "vupZ4EmU" = _vupZ4EmU;
@@ -104,31 +114,38 @@ let
         "N7oQpoo5" = _N7oQpoo5;
         "CLBDK4qZ" = _CLBDK4qZ;
         "clXJTya3" = _clXJTya3;
+        "3wLtpRgk" = _3wLtpRgk;
+        "3v4leRGm" = _3v4leRGm;
         "datapack-1.21.11" = _czuQerlQ;
         "datapack-26.1" = _tQxt2dXu;
         "datapack-26.1.1" = _tQxt2dXu;
         "datapack-26.1.2" = _tQxt2dXu;
         "datapack-26.2" = _CLBDK4qZ;
+        "datapack-26.3" = _3wLtpRgk;
         "fabric-1.21.11" = _2nFmSNG7;
         "fabric-26.1" = _N7oQpoo5;
         "fabric-26.1.1" = _N7oQpoo5;
         "fabric-26.1.2" = _N7oQpoo5;
         "fabric-26.2" = _clXJTya3;
+        "fabric-26.3" = _3v4leRGm;
         "forge-1.21.11" = _2nFmSNG7;
         "forge-26.1" = _N7oQpoo5;
         "forge-26.1.1" = _N7oQpoo5;
         "forge-26.1.2" = _N7oQpoo5;
         "forge-26.2" = _clXJTya3;
+        "forge-26.3" = _3v4leRGm;
         "neoforge-1.21.11" = _2nFmSNG7;
         "neoforge-26.1" = _N7oQpoo5;
         "neoforge-26.1.1" = _N7oQpoo5;
         "neoforge-26.1.2" = _N7oQpoo5;
         "neoforge-26.2" = _clXJTya3;
+        "neoforge-26.3" = _3v4leRGm;
         "quilt-1.21.11" = _2nFmSNG7;
         "quilt-26.1" = _N7oQpoo5;
         "quilt-26.1.1" = _N7oQpoo5;
         "quilt-26.1.2" = _N7oQpoo5;
         "quilt-26.2" = _clXJTya3;
+        "quilt-26.3" = _3v4leRGm;
         "pkg-1" = _nmA04TT8;
         "pkg-1+why+do+you+want+this+as+a+mod" = _vupZ4EmU;
         "pkg-2" = _KRFzmYfH;
@@ -145,7 +162,9 @@ let
         "pkg-7+mod" = _N7oQpoo5;
         "pkg-8" = _CLBDK4qZ;
         "pkg-8+mod" = _clXJTya3;
-        "default" = _clXJTya3;
+        "pkg-9" = _3wLtpRgk;
+        "pkg-9+mod" = _3v4leRGm;
+        "default" = _3v4leRGm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "reloaded";

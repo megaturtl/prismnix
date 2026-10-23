@@ -76,6 +76,11 @@ let
             "file" = "defensive-measures-1.1.3-beta-26.2.jar";
             "hash" = "sha512-85WM88aq3C1Zxmbu0WZgEXnfbx+nDhE7EOE+erZM5RpTlifBriLVkczfRonn7FjdOsKtgCfEHl/uT+qCkFu+0A==";
         };
+        _x9BPVSvW = {
+            "id" = "x9BPVSvW";
+            "file" = "defensive-measures-1.1.3-beta-26.3.jar";
+            "hash" = "sha512-w3AT03uRkw/73XbScLF4Gj13xg+Nw8XuRXCqimHx+/fPfNdht3gf5XaI1pQw8Aacr2xdL/fSJl5E0qwSo5YSAw==";
+        };
     in {
         "5QM4yyWZ" = _5QM4yyWZ;
         "ZeFpvMoy" = _ZeFpvMoy;
@@ -92,6 +97,7 @@ let
         "QlE1WChu" = _QlE1WChu;
         "YqKuH6Hm" = _YqKuH6Hm;
         "LuoWP7vP" = _LuoWP7vP;
+        "x9BPVSvW" = _x9BPVSvW;
         "fabric-1.19.2" = _m6DmuFai;
         "fabric-1.21.4" = _JUsJ8Tn1;
         "fabric-1.21.11" = _QlE1WChu;
@@ -99,6 +105,7 @@ let
         "fabric-26.1.1" = _YqKuH6Hm;
         "fabric-26.1.2" = _YqKuH6Hm;
         "fabric-26.2" = _LuoWP7vP;
+        "fabric-26.3" = _x9BPVSvW;
         "quilt-1.19.2" = _Vw3NYmxR;
         "quilt-1.21.4" = _JUsJ8Tn1;
         "quilt-1.21.11" = _76H6OqYR;
@@ -117,7 +124,8 @@ let
         "pkg-1.1.3-beta-1.21.11" = _QlE1WChu;
         "pkg-1.1.3-beta-26.1.x" = _YqKuH6Hm;
         "pkg-1.1.3-beta-26.2.x" = _LuoWP7vP;
-        "default" = _LuoWP7vP;
+        "pkg-1.1.3-beta-26.3.x" = _x9BPVSvW;
+        "default" = _x9BPVSvW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "defensive-measures";

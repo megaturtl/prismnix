@@ -251,6 +251,16 @@ let
             "file" = "horse-stats-vanilla-4.7.0+1.21.11.jar";
             "hash" = "sha512-C/mo6cp11o+NXAFxowmbFAcnZjLcuROyGDm/8rvMRHt7HMQvxxzXjU8anoZmComHw2UkQ9/0hi7kJPPJbHvhyA==";
         };
+        _ziQc7XsX = {
+            "id" = "ziQc7XsX";
+            "file" = "horse-stats-vanilla-neoforge-4.8.0+26.3.jar";
+            "hash" = "sha512-/qlRTrsY34hdnN0Zb/P0UwIqY2SDDIb3fPInitN5vyNW2IhCLib4WaFOeVVt6LI6JL6P/YjBSFwc8+1uPx95dA==";
+        };
+        _1AphsqIB = {
+            "id" = "1AphsqIB";
+            "file" = "horse-stats-vanilla-fabric-4.8.0+26.3.jar";
+            "hash" = "sha512-F5Bm3rAf/WOKQkDhoXA9psSL01fB62pAYX3XUpMSn63Pn3LCHRa/bv/vSwJoqB0ailW0ai/N+Ccr/Gb7ldPGUA==";
+        };
     in {
         "dNynywS2" = _dNynywS2;
         "JyM5Tqxc" = _JyM5Tqxc;
@@ -302,6 +312,8 @@ let
         "8tPQkNiF" = _8tPQkNiF;
         "5JQFqXOF" = _5JQFqXOF;
         "AnGpdjJ6" = _AnGpdjJ6;
+        "ziQc7XsX" = _ziQc7XsX;
+        "1AphsqIB" = _1AphsqIB;
         "fabric-1.16.5" = _JyM5Tqxc;
         "fabric-1.17-pre1" = _JNU6xXEr;
         "fabric-1.17-pre2" = _JNU6xXEr;
@@ -353,7 +365,7 @@ let
         "fabric-26.1.1" = _8tPQkNiF;
         "fabric-26.1.2" = _8tPQkNiF;
         "fabric-26.2" = _bUyByoQ3;
-        "fabric-26.3" = _utqwfJ0n;
+        "fabric-26.3" = _1AphsqIB;
         "fabric-1.18.1" = _OriNlZQd;
         "fabric-1.18.2" = _OriNlZQd;
         "quilt-1.19.3" = _oM0TwEzG;
@@ -377,12 +389,12 @@ let
         "quilt-26.1.1" = _8tPQkNiF;
         "quilt-26.1.2" = _8tPQkNiF;
         "quilt-26.2" = _bUyByoQ3;
-        "quilt-26.3" = _utqwfJ0n;
+        "quilt-26.3" = _1AphsqIB;
         "neoforge-26.1" = _DMkmNY1a;
         "neoforge-26.1.1" = _DMkmNY1a;
         "neoforge-26.1.2" = _DMkmNY1a;
         "neoforge-26.2" = _9ER13CQq;
-        "neoforge-26.3" = _8HIFxRJh;
+        "neoforge-26.3" = _ziQc7XsX;
         "pkg-4.1.6" = _dNynywS2;
         "pkg-4.1.7" = _JyM5Tqxc;
         "pkg-4.1.8" = _JNU6xXEr;
@@ -432,7 +444,9 @@ let
         "pkg-4.7.0+26.1.2-fabric" = _8tPQkNiF;
         "pkg-4.7.0+1.21.1" = _5JQFqXOF;
         "pkg-4.7.0+1.21.11" = _AnGpdjJ6;
-        "default" = _AnGpdjJ6;
+        "pkg-4.8.0+26.3-neoforge" = _ziQc7XsX;
+        "pkg-4.8.0+26.3-fabric" = _1AphsqIB;
+        "default" = _1AphsqIB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "horsestatsvanilla";

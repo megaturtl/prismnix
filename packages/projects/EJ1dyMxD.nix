@@ -236,6 +236,16 @@ let
             "file" = "Mello 0.72.zip";
             "hash" = "sha512-g52TgkzsmuvbG5dZF3o1rI7My8Wr5LmDtW9YL/MHHYD2NU9Y/RkVyXlowfe6K5ADoxVQfahl8r2Cz6FLc1hwGQ==";
         };
+        _RjXjXE8U = {
+            "id" = "RjXjXE8U";
+            "file" = "Mello 0.721.zip";
+            "hash" = "sha512-WiaP5B3AOMttqD+/RrF4rjdrH8anNaH2ihgn87iIfNrwKKmABsfSBKZE5KJtasAmnw+2XKrOOazVpCgXpOy2JA==";
+        };
+        _rZyBrPzE = {
+            "id" = "rZyBrPzE";
+            "file" = "Mello 0.73.zip";
+            "hash" = "sha512-z9rjiCJpEXH/y6rTTeLQtN9WkILn2nAIcBdUvNuELHWbJKkltTWjDeA/4yAPQmK8cO6OVWfZhWKlUUXawh28qQ==";
+        };
     in {
         "A6PSFluC" = _A6PSFluC;
         "YDfXIcW9" = _YDfXIcW9;
@@ -284,6 +294,8 @@ let
         "wRyCu8zN" = _wRyCu8zN;
         "BdGBHE1j" = _BdGBHE1j;
         "f0wezvuD" = _f0wezvuD;
+        "RjXjXE8U" = _RjXjXE8U;
+        "rZyBrPzE" = _rZyBrPzE;
         "iris-1.21" = _ZPvmUpma;
         "iris-1.21.1" = _ZPvmUpma;
         "iris-1.21.2" = _ZPvmUpma;
@@ -299,7 +311,7 @@ let
         "iris-26.1" = _Wlv7gxcf;
         "iris-26.1.1" = _Wlv7gxcf;
         "iris-26.1.2" = _Wlv7gxcf;
-        "iris-26.2" = _f0wezvuD;
+        "iris-26.2" = _rZyBrPzE;
         "iris-1.20" = _ZPvmUpma;
         "iris-1.20.1" = _ZPvmUpma;
         "iris-1.20.2" = _ZPvmUpma;
@@ -307,7 +319,7 @@ let
         "iris-1.20.4" = _ZPvmUpma;
         "iris-1.20.5" = _ZPvmUpma;
         "iris-1.20.6" = _ZPvmUpma;
-        "iris-26.3" = _f0wezvuD;
+        "iris-26.3" = _rZyBrPzE;
         "pkg-0.1" = _A6PSFluC;
         "pkg-0.2" = _YDfXIcW9;
         "pkg-0.21" = _YSUdW5dR;
@@ -355,7 +367,9 @@ let
         "pkg-0.71" = _wRyCu8zN;
         "pkg-0.711" = _BdGBHE1j;
         "pkg-0.72" = _f0wezvuD;
-        "default" = _f0wezvuD;
+        "pkg-0.721" = _RjXjXE8U;
+        "pkg-0.73" = _rZyBrPzE;
+        "default" = _rZyBrPzE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mello";

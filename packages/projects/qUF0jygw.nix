@@ -206,6 +206,21 @@ let
             "file" = "emote-2.3.1.jar";
             "hash" = "sha512-4T1ePOWZVJCK8YxAGz7x82114hOXHFwHUzoNb7RB3/7RTjPFCXAaRonIF8lgue6YKo4ihPMxGfUAQjf+xb9Eew==";
         };
+        _y8mGLOGe = {
+            "id" = "y8mGLOGe";
+            "file" = "emote-3.0.0.jar";
+            "hash" = "sha512-TVwuS9MJkkNxKg2LRMovuQjLO3wOtXwNc40mfMXZ2V0F9z3ltNPIHTsFPQHMlrveDFbcp+KmUS19RDedRxFzxg==";
+        };
+        _fc6on69s = {
+            "id" = "fc6on69s";
+            "file" = "emote-3.0.0.jar";
+            "hash" = "sha512-WQYjUASjozYpqrdYL+tXBy2UrCtLDEpN57HOaQoWEcA266R2G//uFT+DwtSscnsSsW0lGbtNL1vQL9nFz2lvng==";
+        };
+        _4PzwqEae = {
+            "id" = "4PzwqEae";
+            "file" = "emote-3.0.0.jar";
+            "hash" = "sha512-v0Asm6bJNBssIHJVuhEj1neeBzAUylm2HPcuH4fhKJBiKWm+0XVnKJf7G+Yesvm4iB8X5jMwi+GaziisNwx9yg==";
+        };
     in {
         "ThqQJJm4" = _ThqQJJm4;
         "8ZNYVfCW" = _8ZNYVfCW;
@@ -248,10 +263,13 @@ let
         "NuDhPvhN" = _NuDhPvhN;
         "VuqhG2Lx" = _VuqhG2Lx;
         "f5akcmoG" = _f5akcmoG;
-        "fabric-26.1" = _NuDhPvhN;
-        "fabric-26.1.1" = _NuDhPvhN;
-        "fabric-26.1.2" = _NuDhPvhN;
-        "fabric-26.2" = _VuqhG2Lx;
+        "y8mGLOGe" = _y8mGLOGe;
+        "fc6on69s" = _fc6on69s;
+        "4PzwqEae" = _4PzwqEae;
+        "fabric-26.1" = _y8mGLOGe;
+        "fabric-26.1.1" = _y8mGLOGe;
+        "fabric-26.1.2" = _y8mGLOGe;
+        "fabric-26.2" = _fc6on69s;
         "fabric-26.3-snapshot-1" = _5dM7ldQ1;
         "fabric-26.3-snapshot-2" = _5dM7ldQ1;
         "fabric-26.3-snapshot-3" = _5dM7ldQ1;
@@ -267,9 +285,9 @@ let
         "fabric-26.3-pre-3" = _gQKpc2VC;
         "fabric-26.3-rc-1" = _gQKpc2VC;
         "fabric-26.3-rc-2" = _gQKpc2VC;
-        "fabric-26.3" = _f5akcmoG;
-        "fabric-26.1.1-rc-1" = _NuDhPvhN;
-        "fabric-26.1.2-rc-1" = _NuDhPvhN;
+        "fabric-26.3" = _4PzwqEae;
+        "fabric-26.1.1-rc-1" = _y8mGLOGe;
+        "fabric-26.1.2-rc-1" = _y8mGLOGe;
         "pkg-0.1.0" = _ThqQJJm4;
         "pkg-0.2.0" = _8ZNYVfCW;
         "pkg-0.3.0" = _xi9NjsJs;
@@ -311,7 +329,10 @@ let
         "pkg-2.3.1+26.1" = _NuDhPvhN;
         "pkg-2.3.1+26.2" = _VuqhG2Lx;
         "pkg-2.3.1+26.3" = _f5akcmoG;
-        "default" = _f5akcmoG;
+        "pkg-3.0.0+26.1-beta1" = _y8mGLOGe;
+        "pkg-3.0.0+26.2-beta1" = _fc6on69s;
+        "pkg-3.0.0+26.3-beta1" = _4PzwqEae;
+        "default" = _4PzwqEae;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "emote";

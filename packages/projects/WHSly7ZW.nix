@@ -56,6 +56,21 @@ let
             "file" = "infinitetrading-1.0.1.jar";
             "hash" = "sha512-42rSDjwL8ReAucG7yuY9FqT04ZyoQNM7YW+8Trw8to7SXYrfL4oYdI0rS/b2B0yzso0h/oJh4s9m87pr6KN1nA==";
         };
+        _u9I1MhNc = {
+            "id" = "u9I1MhNc";
+            "file" = "infinitetrading-1.1.8.jar";
+            "hash" = "sha512-IhbrtXILVC06NFHkzmTAqyIH+Y7qJbVxMiGQ9Sxep3ZnqqXL4tK/1Jyzsb7N7JIdTIRqzY3uxSjbFC8D6Ycsyg==";
+        };
+        _MXAzAHGP = {
+            "id" = "MXAzAHGP";
+            "file" = "infinitetrading-1.1.8.jar";
+            "hash" = "sha512-1isAzF+DE7jGwr1LZS/3s6StAfptMqcANABSysdoTlnxgl/9KPC9XVt18f5e0XGTPAnC9qpymF1GfU0f2Ct2Ug==";
+        };
+        _H4gEt88y = {
+            "id" = "H4gEt88y";
+            "file" = "infinitetrading-1.1.8.jar";
+            "hash" = "sha512-q+I7t60TKmgjpHkEsW9XBe4Va8zop6ynfHwWCWORFhdOcwn1XfeLUjBCBF+yRVaQ2EpsaeyRGGqV0dXJEv20aw==";
+        };
     in {
         "4ZhHmmLC" = _4ZhHmmLC;
         "FQ8uo3oR" = _FQ8uo3oR;
@@ -68,13 +83,16 @@ let
         "bRRc82h3" = _bRRc82h3;
         "MWiyStrp" = _MWiyStrp;
         "e8EyBZdO" = _e8EyBZdO;
+        "u9I1MhNc" = _u9I1MhNc;
+        "MXAzAHGP" = _MXAzAHGP;
+        "H4gEt88y" = _H4gEt88y;
         "neoforge-1.21.1" = _e8EyBZdO;
         "fabric-1.21.10" = _FQ8uo3oR;
-        "fabric-26.1" = _MWiyStrp;
-        "fabric-26.1.1" = _MWiyStrp;
-        "fabric-26.1.2" = _MWiyStrp;
-        "fabric-26.2" = _bRRc82h3;
-        "fabric-26.3" = _J4L9u6yd;
+        "fabric-26.1" = _H4gEt88y;
+        "fabric-26.1.1" = _H4gEt88y;
+        "fabric-26.1.2" = _H4gEt88y;
+        "fabric-26.2" = _MXAzAHGP;
+        "fabric-26.3" = _u9I1MhNc;
         "pkg-1.0.0" = _4ZhHmmLC;
         "pkg-1.1.2" = _FQ8uo3oR;
         "pkg-1.1.4" = _vmcdDEBZ;
@@ -84,7 +102,8 @@ let
         "pkg-1.1.7+26.3" = _J4L9u6yd;
         "pkg-1.1.7" = _MWiyStrp;
         "pkg-1.0.1" = _e8EyBZdO;
-        "default" = _e8EyBZdO;
+        "pkg-1.1.8" = _H4gEt88y;
+        "default" = _H4gEt88y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "infinitetrading";

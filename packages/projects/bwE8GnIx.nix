@@ -41,6 +41,16 @@ let
             "file" = "girlfriend-mod-2.3.0-mc1.21.11.jar";
             "hash" = "sha512-k7vNzCU7eOZVGvkd9Os1LcyGqUU0Wcl3hoRIBgyzMIm1TJe/H7wXd6URC+rcqpxkHATAvj6kIEvRnOtTlccJwg==";
         };
+        _VB6q0AqS = {
+            "id" = "VB6q0AqS";
+            "file" = "girlfriend-mod-2.3.0-neoforge-mc26.3.jar";
+            "hash" = "sha512-3835uLXW9sN/GA/uVXlQuvNdovnBDe43dj7HmjbblNB/5vlpMEbSZr2nrrLw2du4mb8/bAKswXnM3+DL5aN8Dg==";
+        };
+        _of09W7jH = {
+            "id" = "of09W7jH";
+            "file" = "girlfriend-mod-2.3.0-neoforge-mc1.21.11.jar";
+            "hash" = "sha512-Fo8kJK5XxCiEedCCCD+pAGykdvQyK8qa4Fsq3nI8uZcJWml68jg+25GN2xDNFYQbfyugfRAYGoulvfba6OEsag==";
+        };
     in {
         "HdKc1tgJ" = _HdKc1tgJ;
         "occ7hxwl" = _occ7hxwl;
@@ -50,18 +60,24 @@ let
         "C8CFBYi0" = _C8CFBYi0;
         "x5QImUgu" = _x5QImUgu;
         "J1Gnky0m" = _J1Gnky0m;
+        "VB6q0AqS" = _VB6q0AqS;
+        "of09W7jH" = _of09W7jH;
         "fabric-1.21.9" = _HdKc1tgJ;
         "fabric-1.21.10" = _HdKc1tgJ;
         "fabric-1.21.11" = _J1Gnky0m;
         "fabric-26.1.1" = _XYUt8wpc;
         "fabric-26.1.2" = _XYUt8wpc;
         "fabric-26.3" = _x5QImUgu;
+        "neoforge-26.3" = _VB6q0AqS;
+        "neoforge-1.21.11" = _of09W7jH;
         "pkg-1.0.0" = _XYUt8wpc;
         "pkg-1.0.1" = _occ7hxwl;
         "pkg-2.0.0" = _ftcch82j;
         "pkg-2.2.0" = _C8CFBYi0;
         "pkg-2.3.0" = _J1Gnky0m;
-        "default" = _J1Gnky0m;
+        "pkg-2.3.0-neoforge+26.3" = _VB6q0AqS;
+        "pkg-2.3.0-neoforge+1.21.11" = _of09W7jH;
+        "default" = _of09W7jH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "girlfriend";

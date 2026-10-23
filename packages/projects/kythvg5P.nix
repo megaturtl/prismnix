@@ -91,6 +91,21 @@ let
             "file" = "mtr-traffic-addon-26.10.3.jar";
             "hash" = "sha512-bbH92BkCgw5UOJ/7ycsHf5Si9no4x2rLuvS1Vup/hlFHh33FihnYCi5KDi2EiKwCuJH3AYZfxwVNSQOXl7JHFQ==";
         };
+        _AjsxIQrR = {
+            "id" = "AjsxIQrR";
+            "file" = "mtr-traffic-addon-26.10.3.jar";
+            "hash" = "sha512-hL31LE+r3cTs0IXQoER8NnTK1wPqQ1t5fouNsv9CzowsqliQBNJNgbgpt9hBNUYz3M/seh0l9I2DUHap3S8OaQ==";
+        };
+        _vmZbG1Gj = {
+            "id" = "vmZbG1Gj";
+            "file" = "mtr-traffic-addon-26.10.3.jar";
+            "hash" = "sha512-r7n9H2auoeDjHkTdcVq57VBtGFV1/KoQpPzNYzrP7q6laUE3b+rYEjjwn5PuCF3mlHmewxj4WpLtgr6RXNg93g==";
+        };
+        _vFz0GETK = {
+            "id" = "vFz0GETK";
+            "file" = "mtr-traffic-addon-26.10.3.jar";
+            "hash" = "sha512-LTksRwkEB2HEGABvlfz545YbuJw/2BeHabg49XQmzxVYeyaqkyyTxki7/MS3SU9bAqsbLVkR7/E6yw84jgv+jA==";
+        };
     in {
         "5iPvAMrp" = _5iPvAMrp;
         "EDUNtZT7" = _EDUNtZT7;
@@ -110,18 +125,21 @@ let
         "IMBSMF3b" = _IMBSMF3b;
         "MRJ5bHpl" = _MRJ5bHpl;
         "eDiSY6Bl" = _eDiSY6Bl;
+        "AjsxIQrR" = _AjsxIQrR;
+        "vmZbG1Gj" = _vmZbG1Gj;
+        "vFz0GETK" = _vFz0GETK;
         "fabric-1.20.1" = _eDiSY6Bl;
-        "fabric-1.20.4" = _6y7w1z7I;
-        "fabric-1.21.1" = _bs5gyaQX;
-        "forge-1.20.1" = _MRJ5bHpl;
+        "fabric-1.20.4" = _vmZbG1Gj;
+        "fabric-1.21.1" = _vFz0GETK;
+        "forge-1.20.1" = _AjsxIQrR;
         "pkg-26.8" = _DHX5LXDE;
         "pkg-26.8.1" = _L5xr2hid;
         "pkg-26.9" = _bs5gyaQX;
         "pkg-26.10" = _XmqZw6rW;
         "pkg-26.10.1" = _RWuGbAsf;
         "pkg-26.10.2" = _MRJ5bHpl;
-        "pkg-26.10.3" = _eDiSY6Bl;
-        "default" = _eDiSY6Bl;
+        "pkg-26.10.3" = _vFz0GETK;
+        "default" = _vFz0GETK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mtr-traffic-addon";

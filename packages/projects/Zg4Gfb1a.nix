@@ -66,6 +66,26 @@ let
             "file" = "movement_plus-fabric-2.1.1.jar";
             "hash" = "sha512-w5ad1Z3HecJneVy4i1DFm9v00ONUVkpec91A04UjQZyudTY/qpdSPr0aRRQIC2eglfzAorJjAyWXdU182uinZw==";
         };
+        _gpXORgj7 = {
+            "id" = "gpXORgj7";
+            "file" = "movement_plus-fabric-2.2.0.1.jar";
+            "hash" = "sha512-i99MLJdIbf/lwbBemuKBx+IHQIiE6yYawxAILiUfTy4dq/NGIYyVnQiig8cTQr4AtTXpFANMvo5xJ8PTjqvnWQ==";
+        };
+        _tgYlRXeH = {
+            "id" = "tgYlRXeH";
+            "file" = "movement_plus-fabric-2.2.1.1.jar";
+            "hash" = "sha512-bv9MykdrCTctAixGf+amvLb3qnDua4iE3py1lGCwwFZQbO4wq4Zus5dFptyIydj//nZP5Fvm9yqq7drIPsVu2g==";
+        };
+        _kiJZFGie = {
+            "id" = "kiJZFGie";
+            "file" = "movement_plus-fabric-2.3.0.jar";
+            "hash" = "sha512-vNPgnoKz/VNGiYz8FqrRYdZac+p9Cxyh5fVEvclOiLgUhx2u5nBPXS9lqUvEsYAMjhofFXUHa5Bgb3uEXiqPpA==";
+        };
+        _SLsLMxvK = {
+            "id" = "SLsLMxvK";
+            "file" = "movement_plus-neoforge-2.3.0.jar";
+            "hash" = "sha512-exckNoqjqZQwfGc6Aw2RbFxG6cgSSKNHXZNGWKB+palBGlJyfcgqpZuVqa4DT5fXPHMFrVdp4Vt/CZlmqjc4Kw==";
+        };
     in {
         "f8TUIn9V" = _f8TUIn9V;
         "A8xmAj4V" = _A8xmAj4V;
@@ -80,19 +100,25 @@ let
         "OIL5jQmB" = _OIL5jQmB;
         "DdnVfraW" = _DdnVfraW;
         "yeQ5Is0X" = _yeQ5Is0X;
+        "gpXORgj7" = _gpXORgj7;
+        "tgYlRXeH" = _tgYlRXeH;
+        "kiJZFGie" = _kiJZFGie;
+        "SLsLMxvK" = _SLsLMxvK;
         "forge-1.18.1" = _f8TUIn9V;
         "forge-1.18.2" = _f8TUIn9V;
         "forge-1.19.2" = _A8xmAj4V;
         "neoforge-1.21.1" = _SbHnFiMl;
         "neoforge-1.21.11" = _wc45GzSV;
         "neoforge-26.1.2" = _dWDMPMub;
-        "neoforge-26.2" = _DdnVfraW;
+        "neoforge-26.2" = _SLsLMxvK;
+        "neoforge-26.3" = _SLsLMxvK;
         "fabric-1.21.1" = _yeQ5Is0X;
-        "fabric-1.21.11" = _VAEY9uJA;
+        "fabric-1.21.11" = _gpXORgj7;
         "fabric-26.1" = _5g3rDBsG;
         "fabric-26.1.1" = _5g3rDBsG;
-        "fabric-26.1.2" = _5g3rDBsG;
-        "fabric-26.2" = _OIL5jQmB;
+        "fabric-26.1.2" = _tgYlRXeH;
+        "fabric-26.2" = _kiJZFGie;
+        "fabric-26.3" = _kiJZFGie;
         "pkg-1.1.0" = _f8TUIn9V;
         "pkg-1.1.1" = _A8xmAj4V;
         "pkg-2.0.0" = _MLr6PPdo;
@@ -105,7 +131,11 @@ let
         "pkg-2.2.2+fabric" = _OIL5jQmB;
         "pkg-2.2.2+neoforge" = _DdnVfraW;
         "pkg-2.1.1+fabric" = _yeQ5Is0X;
-        "default" = _yeQ5Is0X;
+        "pkg-2.2.0.1+fabric" = _gpXORgj7;
+        "pkg-2.2.1.1+fabric" = _tgYlRXeH;
+        "pkg-2.3.0+fabric" = _kiJZFGie;
+        "pkg-2.3.0+neoforge" = _SLsLMxvK;
+        "default" = _SLsLMxvK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "movement_plus";

@@ -26,19 +26,33 @@ let
             "file" = "dmzrevamp-2.1.1.jar";
             "hash" = "sha512-gCkIf0qp2BlD0JkxLj+Lzzi7zO2CaWWSpfWtrtPRDAySO0J8Oinn2sQNKC9wcwMT0Wiy+/shnxqY1lBhTTcVwg==";
         };
+        _f59H98vt = {
+            "id" = "f59H98vt";
+            "file" = "dmzrevamp-2.2.jar";
+            "hash" = "sha512-Lu7rIl47ScdznZOJKEGBnuR++lC4OPvb+xm4fN6hhEiUQ2m0lW6P0CKYbYgW9ITfe/ioXxNwlFxWolqVK36IkA==";
+        };
+        _7GbpWxCI = {
+            "id" = "7GbpWxCI";
+            "file" = "dmzrevamp-2.2-HOTFIX2.jar";
+            "hash" = "sha512-7YPbSj6SKtQnLM9sBUBQOxKQgVTLvcKfrWVUehX75ogd2mVyfFDE8m5ph+7UpZ5+vjvoPW1wdiHLYLSRm3v7xA==";
+        };
     in {
         "skAKD2e8" = _skAKD2e8;
         "yUKfvMNc" = _yUKfvMNc;
         "A0uUr51K" = _A0uUr51K;
         "maYp2F3v" = _maYp2F3v;
         "QmWvryzj" = _QmWvryzj;
-        "forge-1.20.1" = _QmWvryzj;
+        "f59H98vt" = _f59H98vt;
+        "7GbpWxCI" = _7GbpWxCI;
+        "forge-1.20.1" = _7GbpWxCI;
         "pkg-2.0.5" = _skAKD2e8;
         "pkg-2.0.6" = _yUKfvMNc;
         "pkg-2.0.9" = _A0uUr51K;
         "pkg-2.1.0" = _maYp2F3v;
         "pkg-2.1.1" = _QmWvryzj;
-        "default" = _QmWvryzj;
+        "pkg-2.2" = _f59H98vt;
+        "pkg-2.2-HOTFIX2" = _7GbpWxCI;
+        "default" = _7GbpWxCI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dragon-mine-z-overhaul";

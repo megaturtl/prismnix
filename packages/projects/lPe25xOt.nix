@@ -151,6 +151,21 @@ let
             "file" = "Scatha-Pro v2.5 (MC 26.3).jar";
             "hash" = "sha512-aE9VtpWEmodwIEFgYvwZA6duUaki5LefYgevXwIZIkyw3lbVq7nHcW5bbC/fOvuqbeB39sbSOIGE2KmHMX1YQA==";
         };
+        _3MuAKvNJ = {
+            "id" = "3MuAKvNJ";
+            "file" = "Scatha-Pro v2.6 (MC 26.1.x).jar";
+            "hash" = "sha512-aabC8EQlIX9HwVEOEopEHPELAMQ8jIhEjKF9H4oRjXYr+Q2jmBnhqHbkCZ7iLx07ra3zX//CrG2nuYDO6H/K0Q==";
+        };
+        _yEmesHvu = {
+            "id" = "yEmesHvu";
+            "file" = "Scatha-Pro v2.6 (MC 26.2).jar";
+            "hash" = "sha512-4ScDT34r8maR73qXHa4FPfhhtLxTrz6OvBQai7G4Oq3d8I+21lvJxUILGw778urKYJSniHIeL3LKNfqV3Zy5bg==";
+        };
+        _RiYZW32r = {
+            "id" = "RiYZW32r";
+            "file" = "Scatha-Pro v2.6 (MC 26.3).jar";
+            "hash" = "sha512-D+JY/uc+USvwE2k/GbnJByTsyE9wX64ulMT0AH0rwQXc449hpcw2GhBzx0vjb3fhEnUq9MphxHDxj/HYH0E4DQ==";
+        };
     in {
         "7Fsj9znk" = _7Fsj9znk;
         "avgfLoHB" = _avgfLoHB;
@@ -182,15 +197,18 @@ let
         "IYT385Gc" = _IYT385Gc;
         "e3uTV6qz" = _e3uTV6qz;
         "iMD3VjQj" = _iMD3VjQj;
+        "3MuAKvNJ" = _3MuAKvNJ;
+        "yEmesHvu" = _yEmesHvu;
+        "RiYZW32r" = _RiYZW32r;
         "forge-1.8.9" = _YCTI0zxf;
         "fabric-1.21.11" = _SU0LKCmG;
         "fabric-1.21.9" = _T7IBEiH1;
         "fabric-1.21.10" = _T7IBEiH1;
-        "fabric-26.1.1" = _IYT385Gc;
-        "fabric-26.1.2" = _IYT385Gc;
-        "fabric-26.1" = _IYT385Gc;
-        "fabric-26.2" = _e3uTV6qz;
-        "fabric-26.3" = _iMD3VjQj;
+        "fabric-26.1.1" = _3MuAKvNJ;
+        "fabric-26.1.2" = _3MuAKvNJ;
+        "fabric-26.1" = _3MuAKvNJ;
+        "fabric-26.2" = _yEmesHvu;
+        "fabric-26.3" = _RiYZW32r;
         "pkg-1.2.3.1" = _7Fsj9znk;
         "pkg-1.3" = _avgfLoHB;
         "pkg-1.3.1" = _HrGCDh6y;
@@ -211,7 +229,8 @@ let
         "pkg-2.4" = _ets5g5yX;
         "pkg-2.4.1" = _W9wPiEkQ;
         "pkg-2.5" = _iMD3VjQj;
-        "default" = _iMD3VjQj;
+        "pkg-2.6" = _RiYZW32r;
+        "default" = _RiYZW32r;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "scatha-pro";

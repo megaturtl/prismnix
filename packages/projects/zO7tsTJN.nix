@@ -996,6 +996,16 @@ let
             "file" = "yyzsbackpack-0.0.11-reborn+26.3.jar";
             "hash" = "sha512-tdjmzVEderJWMs2pzzpgj9+94zcpXKi/1oV6vX4OQp8+gPUiPK6f/AhUz53NdrWQw9lgULhgwU0YmfZMceTZwQ==";
         };
+        _mgV3AQ27 = {
+            "id" = "mgV3AQ27";
+            "file" = "yyzsbackpack-0.0.11-reborn+1.21.1.jar";
+            "hash" = "sha512-nrD0oDIkYgsvWTK+ObsF9JJ3CetfhYEfWb/TdMS1XKZdF+TgU/SzVH81Qa873hb02NBVgd54l1JRQFUzbhNzRA==";
+        };
+        _IHq6KYni = {
+            "id" = "IHq6KYni";
+            "file" = "yyzsbackpack-0.0.11-reborn+1.21.1.jar";
+            "hash" = "sha512-uNzQUFyxjMRoJT+3wPqFUKaELAA5hhbz1tkS3noscKS1Be8QE+Dh19+I7J/+tWPHPnpNCz26okL7Tajfe9Dxsw==";
+        };
     in {
         "VtFsx4a4" = _VtFsx4a4;
         "K1uzIQzr" = _K1uzIQzr;
@@ -1196,6 +1206,8 @@ let
         "V0vrucR3" = _V0vrucR3;
         "9yivy8jG" = _9yivy8jG;
         "HQvkmO98" = _HQvkmO98;
+        "mgV3AQ27" = _mgV3AQ27;
+        "IHq6KYni" = _IHq6KYni;
         "forge-1.20.1" = _HzlWgEri;
         "forge-1.20.2" = _VNvlcxtt;
         "forge-1.20.3" = _VNvlcxtt;
@@ -1214,7 +1226,7 @@ let
         "fabric-1.20.4" = _zgVybsNV;
         "fabric-1.20.5" = _sQC0TWWl;
         "fabric-1.20.6" = _sQC0TWWl;
-        "fabric-1.21.1" = _XX8IIM6d;
+        "fabric-1.21.1" = _mgV3AQ27;
         "fabric-1.21.2" = _vhbfrwsT;
         "fabric-1.21.3" = _vhbfrwsT;
         "fabric-1.21.4" = _97Kgap9t;
@@ -1236,7 +1248,7 @@ let
         "fabric-26.3" = _9yivy8jG;
         "neoforge-1.20.5" = _xVP8pryS;
         "neoforge-1.20.6" = _xVP8pryS;
-        "neoforge-1.21.1" = _te7Afz7R;
+        "neoforge-1.21.1" = _IHq6KYni;
         "neoforge-1.21.2" = _yqYV2F67;
         "neoforge-1.21.3" = _yqYV2F67;
         "neoforge-1.21.4" = _GOEvS74L;
@@ -1315,7 +1327,8 @@ let
         "pkg-0.0.10-reborn+26.2" = _BUA3Pjct;
         "pkg-0.0.10-reborn+26.3" = _V0vrucR3;
         "pkg-0.0.11-reborn+26.3" = _HQvkmO98;
-        "default" = _HQvkmO98;
+        "pkg-0.0.11-reborn+1.21.1" = _IHq6KYni;
+        "default" = _IHq6KYni;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "yyzs-backpack";

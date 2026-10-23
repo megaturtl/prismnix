@@ -21,17 +21,24 @@ let
             "file" = "gunsandtargets-1.0.5.1.jar";
             "hash" = "sha512-xiHXHoh7gQsB3zis0eEISWddedlPvEti5k26WeKhrwCtuHoZIQ2uOIOMV9DN5+ttCAX2cks7N3+e5TSWwH30Tw==";
         };
+        _itjhGJEn = {
+            "id" = "itjhGJEn";
+            "file" = "gunsandtargets-1.0.6.jar";
+            "hash" = "sha512-t3oQzZsD9T8kgmH2wxcvN0293xMT2igEhW84fQiV+PLQ5gb0pk0s+zqwRf6iCr/HGGOj5u7bonH28gEORBB8RQ==";
+        };
     in {
         "9nCeYtML" = _9nCeYtML;
         "5PhQFR9Y" = _5PhQFR9Y;
         "GV2eBMlc" = _GV2eBMlc;
         "FdDDILLi" = _FdDDILLi;
-        "forge-1.20.1" = _FdDDILLi;
+        "itjhGJEn" = _itjhGJEn;
+        "forge-1.20.1" = _itjhGJEn;
         "pkg-1.0.0" = _9nCeYtML;
         "pkg-1.0.4" = _5PhQFR9Y;
         "pkg-1.0.5" = _GV2eBMlc;
         "pkg-1.0.5.1" = _FdDDILLi;
-        "default" = _FdDDILLi;
+        "pkg-1.0.6" = _itjhGJEn;
+        "default" = _itjhGJEn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tacz-gunsandtargets";

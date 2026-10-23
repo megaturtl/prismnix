@@ -136,6 +136,16 @@ let
             "file" = "GD-BetterLoot_v1.4.0-1.21+_Mod.jar";
             "hash" = "sha512-pkz2bkuApaYPwkwnxJxal+ch1wR8Oj3z6f4K/leLanyzjYKDxUUhwPuDQRDslP9zMb6xsGDsDdnN845jcvYY5Q==";
         };
+        _LqxGKufv = {
+            "id" = "LqxGKufv";
+            "file" = "GD-BetterLoot_v1.4.1-26.3_DP.zip";
+            "hash" = "sha512-Xn1zVZm89SKtnuj2gLW0SooreP3hfgWqFp+tJ0PoyHdHm1LAEY6u8igLYvyn333Vawgoi3qlTBbvvA622JWwog==";
+        };
+        _5IfL5PFz = {
+            "id" = "5IfL5PFz";
+            "file" = "GD-BetterLoot_v1.4.1-26.3_Mod.jar";
+            "hash" = "sha512-nr8KE+3FmzP1X7DUnFiW8r0nM6eN3YuLJY0c3ugDRlAiobPrCo/hr/Gd3rB509aJ6PUar3xXB8MUgSXGfhOUJg==";
+        };
     in {
         "mLQdKV49" = _mLQdKV49;
         "nf7fNi7G" = _nf7fNi7G;
@@ -164,6 +174,8 @@ let
         "Ggga7aRo" = _Ggga7aRo;
         "GoVUGAil" = _GoVUGAil;
         "v7KHV0XB" = _v7KHV0XB;
+        "LqxGKufv" = _LqxGKufv;
+        "5IfL5PFz" = _5IfL5PFz;
         "datapack-1.20.5" = _jYSgWmTB;
         "datapack-1.20.6" = _jYSgWmTB;
         "datapack-1.21" = _TxsJZMHm;
@@ -182,6 +194,7 @@ let
         "datapack-26.1.1" = _GoVUGAil;
         "datapack-26.1.2" = _GoVUGAil;
         "datapack-26.2" = _GoVUGAil;
+        "datapack-26.3" = _LqxGKufv;
         "fabric-1.20.5" = _LMPmOTSj;
         "fabric-1.20.6" = _LMPmOTSj;
         "fabric-1.21" = _dUJ5G7TN;
@@ -200,6 +213,7 @@ let
         "fabric-26.1.1" = _v7KHV0XB;
         "fabric-26.1.2" = _v7KHV0XB;
         "fabric-26.2" = _v7KHV0XB;
+        "fabric-26.3" = _5IfL5PFz;
         "forge-1.20.5" = _LMPmOTSj;
         "forge-1.20.6" = _LMPmOTSj;
         "forge-1.21" = _dUJ5G7TN;
@@ -218,6 +232,7 @@ let
         "forge-26.1.1" = _v7KHV0XB;
         "forge-26.1.2" = _v7KHV0XB;
         "forge-26.2" = _v7KHV0XB;
+        "forge-26.3" = _5IfL5PFz;
         "neoforge-1.20.5" = _LMPmOTSj;
         "neoforge-1.20.6" = _LMPmOTSj;
         "neoforge-1.21" = _dUJ5G7TN;
@@ -236,6 +251,7 @@ let
         "neoforge-26.1.1" = _v7KHV0XB;
         "neoforge-26.1.2" = _v7KHV0XB;
         "neoforge-26.2" = _v7KHV0XB;
+        "neoforge-26.3" = _5IfL5PFz;
         "quilt-1.20.5" = _LMPmOTSj;
         "quilt-1.20.6" = _LMPmOTSj;
         "quilt-1.21" = _dUJ5G7TN;
@@ -254,6 +270,7 @@ let
         "quilt-26.1.1" = _v7KHV0XB;
         "quilt-26.1.2" = _v7KHV0XB;
         "quilt-26.2" = _v7KHV0XB;
+        "quilt-26.3" = _5IfL5PFz;
         "pkg-1.0b1" = _nf7fNi7G;
         "pkg-1.0b2" = _PlhdPrT0;
         "pkg-1.0b3" = _VTTpcgQJ;
@@ -265,7 +282,8 @@ let
         "pkg-1.2.1" = _dUJ5G7TN;
         "pkg-1.3" = _Ggga7aRo;
         "pkg-1.4.0" = _v7KHV0XB;
-        "default" = _v7KHV0XB;
+        "pkg-1.4.1" = _5IfL5PFz;
+        "default" = _5IfL5PFz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gd-betterloot";

@@ -41,6 +41,26 @@ let
             "file" = "Crystal Optimizer 1.21.4.jar";
             "hash" = "sha512-zq/jfEAuW2+z/Bf8k21QZw+FJNYB+CgoesoVBtWcNz4jUoW+clqEE8BdbRzW3VaiOKizkeDWcYGvUXdkt8ly5Q==";
         };
+        _Fn9YuG8r = {
+            "id" = "Fn9YuG8r";
+            "file" = "Crystal Optimizer 26.1.jar";
+            "hash" = "sha512-J8LFFs2oNHBOGNV2KcPhVXdIuxIDBMAffxSOEiEjN5T46sl4bmlXLvXeWTGsNScU2qLnSAVYcUmaeWggAXw4Vw==";
+        };
+        _VjCAkZTY = {
+            "id" = "VjCAkZTY";
+            "file" = "Crystal Optimizer 26.1.1.jar";
+            "hash" = "sha512-no39KfgezVk5ih3Ukwm/6OS8XHnxQ3wlz/gSQf5cxmVkPB390uN1IaN5K2NwZA9yUnQ7fnAO8tIp2CNWRXmGOA==";
+        };
+        _aPrDRFxg = {
+            "id" = "aPrDRFxg";
+            "file" = "Crystal Optimizer 26.2.jar";
+            "hash" = "sha512-tpsJAz3/NDqC5LZHhuT6BdGUwIU34BkRhCvzAcLUENnzsAJyE8ayzWm7REJdI7SMj+7FJFBzhxGYuNj2sryM3A==";
+        };
+        _Z4YM5l7w = {
+            "id" = "Z4YM5l7w";
+            "file" = "Crystal Optimizer 26.3.jar";
+            "hash" = "sha512-z64UuMD/lzztJDCXUE1SJoUex+5hUrh86AfWPXU2plB0OOn958jlpGjQDDZuc1WKLMa3n9fJ0peMRI7zBq+IuA==";
+        };
     in {
         "bu5rRQXa" = _bu5rRQXa;
         "OZ7ftQFZ" = _OZ7ftQFZ;
@@ -50,6 +70,10 @@ let
         "PICTMMGw" = _PICTMMGw;
         "qfWZvGoM" = _qfWZvGoM;
         "tOZsFKdk" = _tOZsFKdk;
+        "Fn9YuG8r" = _Fn9YuG8r;
+        "VjCAkZTY" = _VjCAkZTY;
+        "aPrDRFxg" = _aPrDRFxg;
+        "Z4YM5l7w" = _Z4YM5l7w;
         "fabric-1.21.11" = _bu5rRQXa;
         "fabric-1.21.10" = _OZ7ftQFZ;
         "fabric-1.21.9" = _dHORoRr3;
@@ -58,6 +82,11 @@ let
         "fabric-1.21.6" = _PICTMMGw;
         "fabric-1.21.5" = _qfWZvGoM;
         "fabric-1.21.4" = _tOZsFKdk;
+        "fabric-26.1" = _Fn9YuG8r;
+        "fabric-26.1.1" = _VjCAkZTY;
+        "fabric-26.1.2" = _Fn9YuG8r;
+        "fabric-26.2" = _aPrDRFxg;
+        "fabric-26.3" = _Z4YM5l7w;
         "pkg-1.21.11" = _bu5rRQXa;
         "pkg-1.21.10" = _OZ7ftQFZ;
         "pkg-1.21.9" = _dHORoRr3;
@@ -66,7 +95,11 @@ let
         "pkg-1.21.6" = _PICTMMGw;
         "pkg-1.21.5" = _qfWZvGoM;
         "pkg-1.21.4" = _tOZsFKdk;
-        "default" = _tOZsFKdk;
+        "pkg-26.1" = _Fn9YuG8r;
+        "pkg-26.1.1" = _VjCAkZTY;
+        "pkg-26.2" = _aPrDRFxg;
+        "pkg-26.3" = _Z4YM5l7w;
+        "default" = _Z4YM5l7w;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fleckycrystaloptimizer";

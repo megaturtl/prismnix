@@ -36,6 +36,11 @@ let
             "file" = "bobo_lib-1.3-1.20.1-forge.jar";
             "hash" = "sha512-lRIAg9puX88QonZSZ1jAxOvW/5GEyYXjlDFTfQeSMVGQAK/RuGiqYRuwaIrCaCGf57hbFHHNSW8kvM+HT43oyw==";
         };
+        _IYn3dEWc = {
+            "id" = "IYn3dEWc";
+            "file" = "bobo_lib-1.3.1-1.21.1-neoforge.jar";
+            "hash" = "sha512-Lpp4w6s287iKoGJgVkeXkeuowq8jZHLNxggPkhttICx51JynydY0ek59YOjLer1Q7lhsEuTznzBTj8MlmyyLmw==";
+        };
     in {
         "F4svFIUc" = _F4svFIUc;
         "G9ZoSaOd" = _G9ZoSaOd;
@@ -44,13 +49,14 @@ let
         "19mvqLgj" = _19mvqLgj;
         "lMtmho4B" = _lMtmho4B;
         "hwDpsChW" = _hwDpsChW;
+        "IYn3dEWc" = _IYn3dEWc;
         "forge-1.20" = _hwDpsChW;
         "forge-1.20.1" = _hwDpsChW;
         "forge-1.20.2" = _hwDpsChW;
         "forge-1.20.3" = _hwDpsChW;
         "forge-1.20.4" = _hwDpsChW;
         "forge-1.20.6" = _hwDpsChW;
-        "neoforge-1.21.1" = _lMtmho4B;
+        "neoforge-1.21.1" = _IYn3dEWc;
         "pkg-1.0-1.20.1" = _F4svFIUc;
         "pkg-1.1-1.20.1" = _G9ZoSaOd;
         "pkg-1.1-1.21.1" = _rLITzt4V;
@@ -58,7 +64,8 @@ let
         "pkg-1.2.2-1.21.1" = _19mvqLgj;
         "pkg-1.3-1.21.1" = _lMtmho4B;
         "pkg-1.3-1.20.1" = _hwDpsChW;
-        "default" = _hwDpsChW;
+        "pkg-1.3.1-1.21.1" = _IYn3dEWc;
+        "default" = _IYn3dEWc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bobo-lib";

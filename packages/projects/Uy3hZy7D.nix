@@ -16,10 +16,16 @@ let
             "file" = "StringDupBack.jar";
             "hash" = "sha512-l7028c/euOQms/Xu4sqEe/YV5XRANaYq84gNNb92SbAQyfujvLvuMtBQ1FpFoTPvJo/d6PIwIE8de29UF1pmGw==";
         };
+        _OAWPb2fk = {
+            "id" = "OAWPb2fk";
+            "file" = "StringDupBack.jar";
+            "hash" = "sha512-l7028c/euOQms/Xu4sqEe/YV5XRANaYq84gNNb92SbAQyfujvLvuMtBQ1FpFoTPvJo/d6PIwIE8de29UF1pmGw==";
+        };
     in {
         "NNHydj9B" = _NNHydj9B;
         "zpIZANk6" = _zpIZANk6;
         "8dfO0K0P" = _8dfO0K0P;
+        "OAWPb2fk" = _OAWPb2fk;
         "bukkit-1.21" = _8dfO0K0P;
         "bukkit-1.21.1" = _8dfO0K0P;
         "bukkit-1.21.2" = _8dfO0K0P;
@@ -36,6 +42,7 @@ let
         "bukkit-26.1.1" = _8dfO0K0P;
         "bukkit-26.1.2" = _8dfO0K0P;
         "bukkit-26.2" = _8dfO0K0P;
+        "bukkit-26.3" = _OAWPb2fk;
         "paper-1.21" = _8dfO0K0P;
         "paper-1.21.1" = _8dfO0K0P;
         "paper-1.21.2" = _8dfO0K0P;
@@ -52,6 +59,7 @@ let
         "paper-26.1.1" = _8dfO0K0P;
         "paper-26.1.2" = _8dfO0K0P;
         "paper-26.2" = _8dfO0K0P;
+        "paper-26.3" = _OAWPb2fk;
         "purpur-1.21" = _8dfO0K0P;
         "purpur-1.21.1" = _8dfO0K0P;
         "purpur-1.21.2" = _8dfO0K0P;
@@ -68,6 +76,7 @@ let
         "purpur-26.1.1" = _8dfO0K0P;
         "purpur-26.1.2" = _8dfO0K0P;
         "purpur-26.2" = _8dfO0K0P;
+        "purpur-26.3" = _OAWPb2fk;
         "spigot-1.21" = _8dfO0K0P;
         "spigot-1.21.1" = _8dfO0K0P;
         "spigot-1.21.2" = _8dfO0K0P;
@@ -84,6 +93,7 @@ let
         "spigot-26.1.1" = _8dfO0K0P;
         "spigot-26.1.2" = _8dfO0K0P;
         "spigot-26.2" = _8dfO0K0P;
+        "spigot-26.3" = _OAWPb2fk;
         "datapack-1.21" = _zpIZANk6;
         "datapack-1.21.1" = _zpIZANk6;
         "datapack-1.21.2" = _zpIZANk6;
@@ -96,7 +106,8 @@ let
         "pkg-1.0" = _NNHydj9B;
         "pkg-1.1" = _zpIZANk6;
         "pkg-1.2" = _8dfO0K0P;
-        "default" = _8dfO0K0P;
+        "pkg-1.3" = _OAWPb2fk;
+        "default" = _OAWPb2fk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stringdupback";

@@ -76,6 +76,11 @@ let
             "file" = "dungeonz-1.3.0.jar";
             "hash" = "sha512-N4OneL04MGzBPyTxKadnSMo6a++EnOwRiy8ZyVT1s0fLPNhroCgssUzMGJHYeJc0sobcVg+mUHE8ajVIpy1mGw==";
         };
+        _KJUJZBSi = {
+            "id" = "KJUJZBSi";
+            "file" = "dungeonz-1.3.1.jar";
+            "hash" = "sha512-ZVAK/jnCnR457B3pKk/W59K+3nYuuKF30NeZNGz6XLUhGObcwrDKf6naeipceW5DULnE5Dxymw38LT5Ox1fY7g==";
+        };
     in {
         "sl2FuoWu" = _sl2FuoWu;
         "Ukjd4XYm" = _Ukjd4XYm;
@@ -92,11 +97,12 @@ let
         "ogVRZ1wh" = _ogVRZ1wh;
         "Qx1ebMxz" = _Qx1ebMxz;
         "BOTC37SN" = _BOTC37SN;
+        "KJUJZBSi" = _KJUJZBSi;
         "fabric-1.19.2" = _Ukjd4XYm;
         "fabric-1.20" = _XziIttdX;
         "fabric-1.20.1" = _IoQfGPq7;
         "fabric-1.21" = _RaRL6Eba;
-        "fabric-1.21.1" = _BOTC37SN;
+        "fabric-1.21.1" = _KJUJZBSi;
         "pkg-1.0.0" = _sl2FuoWu;
         "pkg-1.0.1+1.19.2" = _Ukjd4XYm;
         "pkg-1.0.1+1.20" = _XziIttdX;
@@ -112,7 +118,8 @@ let
         "pkg-1.2.1+1.21.1" = _ogVRZ1wh;
         "pkg-1.2.2+1.21.1" = _Qx1ebMxz;
         "pkg-1.3.0+1.21.1" = _BOTC37SN;
-        "default" = _BOTC37SN;
+        "pkg-1.3.1+1.21.1" = _KJUJZBSi;
+        "default" = _KJUJZBSi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dungeonz";

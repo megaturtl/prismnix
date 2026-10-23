@@ -71,6 +71,26 @@ let
             "file" = "netherite_tweaks_luna-1.2.2-neoforge-1.21.8.jar";
             "hash" = "sha512-xje19Gw5xITitJ+w4AmuFO+gUWTE8niXvrmhM+NMNwyxw8dZMiugE0rdgszqEZ8iZuGeA6smYBeo5mChEdXUYg==";
         };
+        _yB5S4t8n = {
+            "id" = "yB5S4t8n";
+            "file" = "netherite_tweaks_luna-1.2.3-forge-1.20.1.jar";
+            "hash" = "sha512-L64mCrZohAVTdJYIjSI76YSKDAOwsorkMi2kYHIYwkTLN4QLNdMIdnL68P8BN1mSEjZncEth42AauHjIm8idTQ==";
+        };
+        _NXMMbXnN = {
+            "id" = "NXMMbXnN";
+            "file" = "netherite_tweaks_luna-1.2.3-neoforge-1.21.1.jar";
+            "hash" = "sha512-JYp++fssyXgl1jLXl2cBfV+aYCTQmRjx22ANjPzWNDc84G0wlRj/OW1DF85gLOSdCJbu2o+UEg2eWhAg92TTqw==";
+        };
+        _JG8RGfJg = {
+            "id" = "JG8RGfJg";
+            "file" = "netherite_tweaks_luna-1.2.3-neoforge-26.1.2.jar";
+            "hash" = "sha512-xLCM/RLncqJqRMRV9/xuon7OEWTjWWINtJ2syht7E412U3cakxuXuHi3XidlGrn0MqHY1sUAhqG/qtsjvcXAug==";
+        };
+        _mNTJHFat = {
+            "id" = "mNTJHFat";
+            "file" = "netherite_tweaks_luna-1.2.3-neoforge-26.3.jar";
+            "hash" = "sha512-UhEpO2LZ6+udCCvMzHhJuFEyTFESDAHPs6UuQk2rBQNuN1QP/RRzbO/CQGmTICx/5lzk8MUXwOyQIEeT8QuOeg==";
+        };
     in {
         "qiVpVTZb" = _qiVpVTZb;
         "SIMWZDoa" = _SIMWZDoa;
@@ -86,17 +106,24 @@ let
         "AMtNV3lz" = _AMtNV3lz;
         "X2Eu2Pa2" = _X2Eu2Pa2;
         "wXDQ2Hr1" = _wXDQ2Hr1;
-        "forge-1.20.1" = _AMtNV3lz;
-        "neoforge-1.21.1" = _X2Eu2Pa2;
+        "yB5S4t8n" = _yB5S4t8n;
+        "NXMMbXnN" = _NXMMbXnN;
+        "JG8RGfJg" = _JG8RGfJg;
+        "mNTJHFat" = _mNTJHFat;
+        "forge-1.20.1" = _yB5S4t8n;
+        "neoforge-1.21.1" = _NXMMbXnN;
         "neoforge-1.21.4" = _bKWIvjz8;
         "neoforge-1.21.8" = _wXDQ2Hr1;
+        "neoforge-26.1.2" = _JG8RGfJg;
+        "neoforge-26.3" = _mNTJHFat;
         "pkg-FORGE-1.0.0" = _qiVpVTZb;
         "pkg-NEOFORGE-1.0.0" = _SIMWZDoa;
         "pkg-v1.1" = _YpmLvmBn;
         "pkg-v1.2" = _x8Jg4CEr;
         "pkg-v1.2.1" = _bKWIvjz8;
         "pkg-v1.2.2" = _wXDQ2Hr1;
-        "default" = _wXDQ2Hr1;
+        "pkg-v1.2.3" = _mNTJHFat;
+        "default" = _mNTJHFat;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "netherite_tweaks";

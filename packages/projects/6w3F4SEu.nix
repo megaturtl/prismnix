@@ -76,6 +76,11 @@ let
             "file" = "Pixel Perfection 26.3-97.1.zip";
             "hash" = "sha512-foXTyScG8ykpqQI3BTHtgzfwtDdJs2T3+5nBwyD1dVFooEH1Jwmd0rH1G3ZW9MIlmn8/SI+13epeFL6BrXBGdQ==";
         };
+        _UT4foa3M = {
+            "id" = "UT4foa3M";
+            "file" = "Pixel Perfection 26.3-97.2.zip";
+            "hash" = "sha512-6mppCsdQwB6DbOKMFB+qMLDnuQ5PYjbFhzoy7mwr8/KQ6c3dUkb/k8P9Ae9Cpvgvs0dvsNzMXydum2d4G8vKhg==";
+        };
     in {
         "GIKEbHOX" = _GIKEbHOX;
         "8HUXdaIC" = _8HUXdaIC;
@@ -92,6 +97,7 @@ let
         "Ae9rQ5IN" = _Ae9rQ5IN;
         "M27tmode" = _M27tmode;
         "p5E8V0JR" = _p5E8V0JR;
+        "UT4foa3M" = _UT4foa3M;
         "minecraft-1.19.3" = _GIKEbHOX;
         "minecraft-1.19.4" = _GIKEbHOX;
         "minecraft-1.20" = _8HUXdaIC;
@@ -118,7 +124,7 @@ let
         "minecraft-26.1.1" = _ry4VI4eZ;
         "minecraft-26.1.2" = _ry4VI4eZ;
         "minecraft-26.2" = _M27tmode;
-        "minecraft-26.3" = _p5E8V0JR;
+        "minecraft-26.3" = _UT4foa3M;
         "pkg-v13.21.2" = _GIKEbHOX;
         "pkg-13.21.3" = _8HUXdaIC;
         "pkg-40.21.5" = _zq4PGf0O;
@@ -134,7 +140,8 @@ let
         "pkg-26.2-88.0" = _Ae9rQ5IN;
         "pkg-26.2-88.0-1" = _M27tmode;
         "pkg-26.3-97.1" = _p5E8V0JR;
-        "default" = _p5E8V0JR;
+        "pkg-26.3-97.2" = _UT4foa3M;
+        "default" = _UT4foa3M;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pixel-perfection-legacy";

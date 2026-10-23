@@ -71,6 +71,11 @@ let
             "file" = "Dark GUI Enhanced v4.2.zip";
             "hash" = "sha512-0IP+l7Fx7O2mf5sryQUw51UqqNnolytbkU18diJfaMvjIevJUL2UAqK+jid71uNZOr8J09p0ZEVDGJ5FONtecg==";
         };
+        _nq6ek5IK = {
+            "id" = "nq6ek5IK";
+            "file" = "Dark GUI Enhanced v4.3.zip";
+            "hash" = "sha512-2vvwfZ+ZEZ3vYXY8mobQnXQ4YqbqQQCSArGChVWWmCgD3qdcSI0OCEgHvNH+QdmIx9uLd7CEkA66wtt7obTMKQ==";
+        };
     in {
         "9vsiJDog" = _9vsiJDog;
         "4F9RorgI" = _4F9RorgI;
@@ -86,6 +91,7 @@ let
         "yZ0KQRgK" = _yZ0KQRgK;
         "HPnB7tpf" = _HPnB7tpf;
         "DtBEYfgc" = _DtBEYfgc;
+        "nq6ek5IK" = _nq6ek5IK;
         "minecraft-1.21" = _9vsiJDog;
         "minecraft-1.21.1" = _9vsiJDog;
         "minecraft-1.21.4" = _vBkmUZI7;
@@ -96,8 +102,8 @@ let
         "minecraft-26.1" = _SO4zPv2W;
         "minecraft-26.1.1" = _SO4zPv2W;
         "minecraft-26.1.2" = _SO4zPv2W;
-        "minecraft-26.2" = _DtBEYfgc;
-        "minecraft-26.3" = _DtBEYfgc;
+        "minecraft-26.2" = _nq6ek5IK;
+        "minecraft-26.3" = _nq6ek5IK;
         "pkg-1.0" = _9vsiJDog;
         "pkg-2.0" = _4F9RorgI;
         "pkg-2.0c" = _vBkmUZI7;
@@ -111,7 +117,8 @@ let
         "pkg-4.0" = _yZ0KQRgK;
         "pkg-4.1" = _HPnB7tpf;
         "pkg-4.2" = _DtBEYfgc;
-        "default" = _DtBEYfgc;
+        "pkg-4.3" = _nq6ek5IK;
+        "default" = _nq6ek5IK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dark-gui-enhanced";

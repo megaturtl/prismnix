@@ -86,6 +86,11 @@ let
             "file" = "Voxy World Gen V2-fabric-26.2-2.4.3.jar";
             "hash" = "sha512-wuZBqxxjEPxn/5T37cUttBp8s4LHNtK/LiMVa+Me2Mh42kITClxvc3WsDv2Y+ZhA8HkyPzSLK/b8s32NMp7z8w==";
         };
+        _PBUpsg0a = {
+            "id" = "PBUpsg0a";
+            "file" = "Voxy World Gen V2-26.3-2.2.4.jar";
+            "hash" = "sha512-SfJBux//9wAHTIvsboI0T69Ldi5P2ovr8R7jmjPi5obt4OQcd+I43MbRh9yYLE82M49XpIR9vCO0YnLqrW+6TQ==";
+        };
     in {
         "GxpnIino" = _GxpnIino;
         "vCm8RXTc" = _vCm8RXTc;
@@ -104,6 +109,7 @@ let
         "II0QK5sq" = _II0QK5sq;
         "PzNUZlWw" = _PzNUZlWw;
         "fZooaCeC" = _fZooaCeC;
+        "PBUpsg0a" = _PBUpsg0a;
         "fabric-1.21.11" = _68QZfMFI;
         "fabric-1.21.6" = _68QZfMFI;
         "fabric-1.21.7" = _68QZfMFI;
@@ -114,6 +120,7 @@ let
         "fabric-26.1.1" = _tRiQxKkc;
         "fabric-26.1.2" = _tRiQxKkc;
         "fabric-26.2" = _fZooaCeC;
+        "fabric-26.3" = _PBUpsg0a;
         "neoforge-1.21.1" = _PzNUZlWw;
         "pkg-1.1.3" = _GxpnIino;
         "pkg-1.1.6" = _vCm8RXTc;
@@ -125,13 +132,13 @@ let
         "pkg-2.2.1" = _ljQCqlPY;
         "pkg-2.2.2" = _7wUSa6iF;
         "pkg-2.2.3" = _h8WC8uM7;
-        "pkg-2.2.4" = _68QZfMFI;
+        "pkg-2.2.4" = _PBUpsg0a;
         "pkg-2.2.4-26.1.2" = _tRiQxKkc;
         "pkg-2.3.0" = _Y5dFgyjM;
         "pkg-2.3.1" = _vkebWGK4;
         "pkg-2.4.2" = _PzNUZlWw;
         "pkg-2.4.3" = _fZooaCeC;
-        "default" = _fZooaCeC;
+        "default" = _PBUpsg0a;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "voxy-worldgen";

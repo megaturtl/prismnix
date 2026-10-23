@@ -26,19 +26,26 @@ let
             "file" = "Tokusatsu Hero Instrumentality Project-Evolution-forge-1.20.1-1.2.2 release.jar";
             "hash" = "sha512-uoA6hoIMCgVIWODU3Q+i7qXyA1qAHhvsb6SxJjqG8G5kYeslar0MkSy+8+m3MjsT+06YpBrk+Mq2VpSmRYWN6A==";
         };
+        _YX5tdWRi = {
+            "id" = "YX5tdWRi";
+            "file" = "Tokusatsu Hero Instrumentality Project-Evolution-forge-1.20.1-1.3.0 release.jar";
+            "hash" = "sha512-hS3Wfk8ETt+0FoVnlMXIk4hhDDhn9dsB/SiXaLFzi40bUq2l1HgRHL9vDThni2ZUSbNtSdCuzymNM8ea/RhhvQ==";
+        };
     in {
         "FZ9mI9nD" = _FZ9mI9nD;
         "qgFk9CVb" = _qgFk9CVb;
         "pXeSfGIF" = _pXeSfGIF;
         "IF5gzwhf" = _IF5gzwhf;
         "ipstmi4R" = _ipstmi4R;
-        "forge-1.20.1" = _ipstmi4R;
+        "YX5tdWRi" = _YX5tdWRi;
+        "forge-1.20.1" = _YX5tdWRi;
         "pkg-1.0.0" = _FZ9mI9nD;
         "pkg-1.1.5" = _qgFk9CVb;
         "pkg-1.2.0" = _pXeSfGIF;
         "pkg-1.2.1" = _IF5gzwhf;
         "pkg-1.2.2" = _ipstmi4R;
-        "default" = _ipstmi4R;
+        "pkg-1.3.0" = _YX5tdWRi;
+        "default" = _YX5tdWRi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "thip-evo";

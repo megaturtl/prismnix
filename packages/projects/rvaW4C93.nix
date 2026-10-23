@@ -671,6 +671,41 @@ let
             "file" = "neovitae-1.21.1-1.1.45.jar";
             "hash" = "sha512-BBmplDmWW87C+LJpNPckhGaYAha74hTBZqchh0DiXoau1VoBGDBdvppPTlNsFw6idaQcVo9eseDfSVxM/Bo5JQ==";
         };
+        _BvU2fhhe = {
+            "id" = "BvU2fhhe";
+            "file" = "neovitae-26.1.2-1.1.46.jar";
+            "hash" = "sha512-uzGQjSC5H9EngbarXTqZPteMzhJW6G0uzU9ph9q+essPxO9EimvdiPPJ8hcM7w4wgoU/xpBpOgk0fQHg6DTdvA==";
+        };
+        _Y44QwwZv = {
+            "id" = "Y44QwwZv";
+            "file" = "neovitae-1.21.1-1.1.46.jar";
+            "hash" = "sha512-1TlMuA/I1dJjtl5XCaSmdY3yPfD6aOl2Jt3PBZAYaJTD5oFi7AVnXwFeoxIF2pxAoQJqVXpUQcHuemWhzmwpew==";
+        };
+        _L802VXQX = {
+            "id" = "L802VXQX";
+            "file" = "neovitae-1.21.1-1.1.47.jar";
+            "hash" = "sha512-O+01+5WSGcn3kWQ4NLEvNIqnDem6pc5uXORrtChIkhYlA4ue0uSjoOcpyXHQ3zrO8r+8fw2hS05gADuXXe1gLw==";
+        };
+        _KnfU8fSq = {
+            "id" = "KnfU8fSq";
+            "file" = "neovitae-26.1.2-1.1.47.jar";
+            "hash" = "sha512-aqiAN39bxNSDZSlU/Aqq/W+SiHZVHCx95QEX6yu2haCwneaes10BSonkUzV4xj81TDNWF1caL71MocNplWe2VA==";
+        };
+        _J7EcBMWX = {
+            "id" = "J7EcBMWX";
+            "file" = "neovitae-26.1.2-1.1.48.jar";
+            "hash" = "sha512-uNG3R5toLAqqx3gyyfOqeVAfpLpUeMa6aZy4vLGeADc2WTsh8/bwM+zsKBF6bbXkTd02tcBESYzmDIDJOkNXfA==";
+        };
+        _EDggA1ka = {
+            "id" = "EDggA1ka";
+            "file" = "neovitae-1.21.1-1.1.48.jar";
+            "hash" = "sha512-AT6ToR3yke+8OJzsyWnZo1GFICflQcL5rVviOJ4KRQAQ42wbeoOZE3nCkXXeCbVT9VPzBObS34pQzG6dnEIZew==";
+        };
+        _gRWirB3S = {
+            "id" = "gRWirB3S";
+            "file" = "neovitae-26.1.2-1.1.49.jar";
+            "hash" = "sha512-OKxcJRr3NQNt8peST/6CMMbTnQ9hk11Pl1HesVaAMKofINX8PYz1Spul6CLczfIhcnmZ15iY/7vbv8pIMTozVQ==";
+        };
     in {
         "BiznzMYW" = _BiznzMYW;
         "LnPRMiPL" = _LnPRMiPL;
@@ -806,8 +841,15 @@ let
         "nt0gFkED" = _nt0gFkED;
         "H0sjsldJ" = _H0sjsldJ;
         "IsK9Alp9" = _IsK9Alp9;
-        "neoforge-1.21.1" = _IsK9Alp9;
-        "neoforge-26.1.2" = _H0sjsldJ;
+        "BvU2fhhe" = _BvU2fhhe;
+        "Y44QwwZv" = _Y44QwwZv;
+        "L802VXQX" = _L802VXQX;
+        "KnfU8fSq" = _KnfU8fSq;
+        "J7EcBMWX" = _J7EcBMWX;
+        "EDggA1ka" = _EDggA1ka;
+        "gRWirB3S" = _gRWirB3S;
+        "neoforge-1.21.1" = _EDggA1ka;
+        "neoforge-26.1.2" = _gRWirB3S;
         "pkg-3.4.0-2-beta" = _BiznzMYW;
         "pkg-1.21.1-1.0.0" = _LnPRMiPL;
         "pkg-1.21.1-1.0.1" = _ZB23S51J;
@@ -936,7 +978,14 @@ let
         "pkg-1.21.1-1.1.44" = _nt0gFkED;
         "pkg-26.1.2-1.1.45" = _H0sjsldJ;
         "pkg-1.21.1-1.1.45" = _IsK9Alp9;
-        "default" = _IsK9Alp9;
+        "pkg-26.1.2-1.1.46" = _BvU2fhhe;
+        "pkg-1.21.1-1.1.46" = _Y44QwwZv;
+        "pkg-1.21.1-1.1.47" = _L802VXQX;
+        "pkg-26.1.2-1.1.47" = _KnfU8fSq;
+        "pkg-26.1.2-1.1.48" = _J7EcBMWX;
+        "pkg-1.21.1-1.1.48" = _EDggA1ka;
+        "pkg-26.1.2-1.1.49" = _gRWirB3S;
+        "default" = _gRWirB3S;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "neovitae";

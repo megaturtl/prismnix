@@ -31,6 +31,11 @@ let
             "file" = "afterburner-0.1.27.jar";
             "hash" = "sha512-lS7t0MWNA0JZQH1ffbDpWnNOtMZH5/kAqpUqmKboOONYXxMH7jI5rIzdd7xPKYHuQD+y5Jgj+26UbFOMZM60nw==";
         };
+        _TNVh3qd5 = {
+            "id" = "TNVh3qd5";
+            "file" = "afterburner-0.1.27-neoforge-1.21.1.jar";
+            "hash" = "sha512-O9CMJkBvORswgWFsRGQnvKYJa7bOvs3Vfla7nP4ajPtj4dAz/JeCW6bjn8EnkYwdbtMWfzLUlO1zDWJGsk2L7Q==";
+        };
     in {
         "4B2bZUcN" = _4B2bZUcN;
         "RFyaLxlU" = _RFyaLxlU;
@@ -38,6 +43,7 @@ let
         "m6A5dfWy" = _m6A5dfWy;
         "baXvbhby" = _baXvbhby;
         "NQlPiQyM" = _NQlPiQyM;
+        "TNVh3qd5" = _TNVh3qd5;
         "fabric-1.21.1" = _FrlL9TOV;
         "fabric-1.21.2" = _4B2bZUcN;
         "fabric-1.21.3" = _4B2bZUcN;
@@ -53,11 +59,12 @@ let
         "forge-1.21.1" = _m6A5dfWy;
         "forge-26.3" = _baXvbhby;
         "forge-1.21.11" = _NQlPiQyM;
+        "neoforge-1.21.1" = _TNVh3qd5;
         "pkg-1.0.0" = _4B2bZUcN;
         "pkg-0.1.26" = _RFyaLxlU;
         "pkg-0.1.28" = _FrlL9TOV;
-        "pkg-0.1.27" = _NQlPiQyM;
-        "default" = _NQlPiQyM;
+        "pkg-0.1.27" = _TNVh3qd5;
+        "default" = _TNVh3qd5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "litephysics";

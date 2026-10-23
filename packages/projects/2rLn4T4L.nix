@@ -161,6 +161,11 @@ let
             "file" = "allstacksinfinite-14.0.2.1.jar";
             "hash" = "sha512-IHffrUTkGLFNIHRq9tWuyhi08cZ5Z/8J4Z087RFg4ri8LBlk7OB+EyXea+VZTBuvXN8nR9N5hS4h9Ev+vhi29w==";
         };
+        _Cu1biA3j = {
+            "id" = "Cu1biA3j";
+            "file" = "allstacksinfinite-fabric-1.20.1-14.0.0.3.jar";
+            "hash" = "sha512-/4TwbQGL3hKV4o1YhJZN0mSqvcsJ1zCfIgEdA+MnJ7mNxN/XSw7IWMHqnB7G9ERSi7zmBdULHD5BkpOXRvdMzw==";
+        };
     in {
         "icQYNBu4" = _icQYNBu4;
         "PkKu4D5X" = _PkKu4D5X;
@@ -194,6 +199,7 @@ let
         "TkIQU6m8" = _TkIQU6m8;
         "uJsg6NLy" = _uJsg6NLy;
         "BcJ3sBVP" = _BcJ3sBVP;
+        "Cu1biA3j" = _Cu1biA3j;
         "forge-1.20.1" = _aRXNh6gO;
         "forge-26.1" = _fqPcSPce;
         "forge-26.1.1" = _fqPcSPce;
@@ -214,7 +220,7 @@ let
         "fabric-26.3" = _W9kiclxX;
         "fabric-1.21.11" = _BcJ3sBVP;
         "fabric-1.21.1" = _2DAmIWrm;
-        "fabric-1.20.1" = _TkIQU6m8;
+        "fabric-1.20.1" = _Cu1biA3j;
         "quilt-26.1" = _yBAF4OpK;
         "quilt-26.1.1" = _yBAF4OpK;
         "quilt-26.1.2" = _yBAF4OpK;
@@ -249,7 +255,8 @@ let
         "pkg-14.0.0.2" = _TkIQU6m8;
         "pkg-14.1.0.1" = _uJsg6NLy;
         "pkg-14.0.2.1" = _BcJ3sBVP;
-        "default" = _BcJ3sBVP;
+        "pkg-14.0.0.3" = _Cu1biA3j;
+        "default" = _Cu1biA3j;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "all-stacks-infinite";

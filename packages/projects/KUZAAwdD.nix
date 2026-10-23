@@ -201,6 +201,21 @@ let
             "file" = "BetterModsButton-v26.1.1-mc26.1.x-NeoForge.jar";
             "hash" = "sha512-2JTLffh40wkTbkFs5R3+zleLfbl0mN4Br5XFA9CC0pMlK/jpnI/wORdERAf1z29uk9XNmEDntacMva9eVM3a8w==";
         };
+        _YnfRRpiI = {
+            "id" = "YnfRRpiI";
+            "file" = "bettermodsbutton-v26.1.2-mc26.1.x+neoforge.jar";
+            "hash" = "sha512-7/DAf85FV72ecwc7NfcvKx5bEohcjo520KNy6zJ8+/zmi4mq/GoMoUIyirT7hz81Od7dhdf+XrfTkYuEoJgVmg==";
+        };
+        _MV8tMD3B = {
+            "id" = "MV8tMD3B";
+            "file" = "bettermodsbutton-v21.1.1-mc1.21.1+forge.jar";
+            "hash" = "sha512-BrBoTtGbQrrK3NQv5ZjyBl7TRXnT8t/ySPgE9rfXwycXHnlRBRpyFhGwunbdzjjfXp8NsITLU/z4XKQEIBPj8w==";
+        };
+        _rUhhAuse = {
+            "id" = "rUhhAuse";
+            "file" = "bettermodsbutton-v21.1.1-mc1.21.1+neoforge.jar";
+            "hash" = "sha512-wKY10WHBIrmL5BcK/ywKZ+6pf/hfUEEG7GTY161kbBAMFUhMQbFQOcy2+aqUWARu7lMhH1vD3+Ebs8oGXl3fhw==";
+        };
     in {
         "G9u47YRO" = _G9u47YRO;
         "qmlcUv5U" = _qmlcUv5U;
@@ -242,6 +257,9 @@ let
         "w3q0TdGH" = _w3q0TdGH;
         "U8J4AbVl" = _U8J4AbVl;
         "YgXEIfjD" = _YgXEIfjD;
+        "YnfRRpiI" = _YnfRRpiI;
+        "MV8tMD3B" = _MV8tMD3B;
+        "rUhhAuse" = _rUhhAuse;
         "forge-1.19" = _qmlcUv5U;
         "forge-1.19.1" = _mx4Ie6P6;
         "forge-1.19.2" = _XJQlBJYK;
@@ -252,12 +270,12 @@ let
         "forge-1.20.1" = _bSoVaTgS;
         "forge-1.20.4" = _GUTxpChz;
         "forge-1.21" = _5jEZocbm;
-        "forge-1.21.1" = _rNUCxWuG;
+        "forge-1.21.1" = _MV8tMD3B;
         "forge-1.21.3" = _Se8C6ZPT;
         "forge-1.21.4" = _wvzoTd8W;
         "neoforge-1.20.4" = _Od6xmslE;
         "neoforge-1.21" = _eqSZDZmC;
-        "neoforge-1.21.1" = _Yqmy3U2b;
+        "neoforge-1.21.1" = _rUhhAuse;
         "neoforge-1.21.3" = _4PKSqyVG;
         "neoforge-1.21.4" = _lmczB61Y;
         "neoforge-1.21.5" = _aMp5JbyG;
@@ -267,9 +285,9 @@ let
         "neoforge-1.21.9" = _9DMcE9tq;
         "neoforge-1.21.10" = _KgBenKhi;
         "neoforge-1.21.11" = _w3q0TdGH;
-        "neoforge-26.1" = _YgXEIfjD;
-        "neoforge-26.1.1" = _YgXEIfjD;
-        "neoforge-26.1.2" = _YgXEIfjD;
+        "neoforge-26.1" = _YnfRRpiI;
+        "neoforge-26.1.1" = _YnfRRpiI;
+        "neoforge-26.1.2" = _YnfRRpiI;
         "pkg-v4.0.0-1.19-Forge" = _G9u47YRO;
         "pkg-v4.1.0-1.19.1-Forge" = _qmlcUv5U;
         "pkg-v4.1.1-1.19.1-Forge" = _4XAK1Tfg;
@@ -310,7 +328,9 @@ let
         "pkg-21.11.0" = _w3q0TdGH;
         "pkg-26.1.0" = _U8J4AbVl;
         "pkg-26.1.1" = _YgXEIfjD;
-        "default" = _YgXEIfjD;
+        "pkg-26.1.2" = _YnfRRpiI;
+        "pkg-21.1.1" = _rUhhAuse;
+        "default" = _rUhhAuse;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-mods-button";

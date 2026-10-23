@@ -196,6 +196,26 @@ let
             "file" = "colorfulanvils-2.9.0+26.3.jar";
             "hash" = "sha512-p94DUcrNHlEdY6D/HTjEpOB6aFVFgbH6U841skBpChh63KBLhRvqWuxIFrHP328FEN3OoXQ0QDL/HUZ2GjrqVA==";
         };
+        _7XEZlrae = {
+            "id" = "7XEZlrae";
+            "file" = "colorfulanvils-3.0.0+1.21.8-1.21.11.jar";
+            "hash" = "sha512-2EEqeWhb9jaCQwNLc8+SoLP8BTgDPovdHIBeALebMyjVoLAoM998L595I5wR4zrNaYpFBVPwR55/tI46ecyZtg==";
+        };
+        _m818thpE = {
+            "id" = "m818thpE";
+            "file" = "colorfulanvils-3.0.0+26.1-26.1.2.jar";
+            "hash" = "sha512-TEw2RoTndg29oPF1tWiPeWdwKzLY+FS8AZt/E2RlkikBrvCIXbS64HuB0SKMiMv8IsS2Lpe5juXLnNjwYeEmtg==";
+        };
+        _YkhUCPDA = {
+            "id" = "YkhUCPDA";
+            "file" = "colorfulanvils-3.0.0+26.2.jar";
+            "hash" = "sha512-O0zRSFsFiHR/39IauYN2whZt58z4h5HvXEWmfP21arww71riC+bpFJo7RkO/LNPnERB1ChLxRcl35Gnz+MeEJA==";
+        };
+        _D4OHm4oh = {
+            "id" = "D4OHm4oh";
+            "file" = "colorfulanvils-3.0.0+26.3.jar";
+            "hash" = "sha512-QcpX8sRFNGME/F806QEU9lmKwVUcasnQMaNiD+AI1xn0oe2oOzdCnNegjxy/DJ1CXc/p/+XMH0c/+l6j4woDWg==";
+        };
     in {
         "Xfp0pxLh" = _Xfp0pxLh;
         "r7FwGNgq" = _r7FwGNgq;
@@ -236,15 +256,19 @@ let
         "8zfCHRgJ" = _8zfCHRgJ;
         "IDstgZ8A" = _IDstgZ8A;
         "3h8mE5d7" = _3h8mE5d7;
-        "fabric-1.21.8" = _U5wKqb3R;
-        "fabric-1.21.9" = _U5wKqb3R;
-        "fabric-1.21.10" = _U5wKqb3R;
-        "fabric-1.21.11" = _U5wKqb3R;
-        "fabric-26.1" = _8zfCHRgJ;
-        "fabric-26.1.1" = _8zfCHRgJ;
-        "fabric-26.1.2" = _8zfCHRgJ;
-        "fabric-26.2" = _IDstgZ8A;
-        "fabric-26.3" = _3h8mE5d7;
+        "7XEZlrae" = _7XEZlrae;
+        "m818thpE" = _m818thpE;
+        "YkhUCPDA" = _YkhUCPDA;
+        "D4OHm4oh" = _D4OHm4oh;
+        "fabric-1.21.8" = _7XEZlrae;
+        "fabric-1.21.9" = _7XEZlrae;
+        "fabric-1.21.10" = _7XEZlrae;
+        "fabric-1.21.11" = _7XEZlrae;
+        "fabric-26.1" = _m818thpE;
+        "fabric-26.1.1" = _m818thpE;
+        "fabric-26.1.2" = _m818thpE;
+        "fabric-26.2" = _YkhUCPDA;
+        "fabric-26.3" = _D4OHm4oh;
         "pkg-1.3.0+1.21.8" = _Xfp0pxLh;
         "pkg-1.4.0+1.21.8-1.21.11" = _r7FwGNgq;
         "pkg-1.5.0+1.21.8-1.21.11" = _mlWN02uM;
@@ -284,7 +308,11 @@ let
         "pkg-2.9.0+26.1-26.1.2" = _8zfCHRgJ;
         "pkg-2.9.0+26.2" = _IDstgZ8A;
         "pkg-2.9.0+26.3" = _3h8mE5d7;
-        "default" = _3h8mE5d7;
+        "pkg-3.0.0+1.21.8-1.21.11" = _7XEZlrae;
+        "pkg-3.0.0+26.1-26.1.2" = _m818thpE;
+        "pkg-3.0.0+26.2" = _YkhUCPDA;
+        "pkg-3.0.0+26.3" = _D4OHm4oh;
+        "default" = _D4OHm4oh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "colorful-anvils-unoffical-port";

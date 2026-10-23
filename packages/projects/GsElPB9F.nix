@@ -21,11 +21,17 @@ let
             "file" = "underwater-swim-fix-1.0.3.jar";
             "hash" = "sha512-zb00h3szIel9/62PNqLSVMT2l0yPfi5kvuFsKVvUzUkWZDeidP01rIc+RarwpzYmlHLGVdqJsMXBpjYrtgmWkQ==";
         };
+        _YNLJBfJr = {
+            "id" = "YNLJBfJr";
+            "file" = "underwater-swim-fix-1.0.4.jar";
+            "hash" = "sha512-du2WJcqcKvKNSuOTFAS4ph30DWppNywvRsiEWyR6pHRjubwedZ2Y11jTkHb1fI/aBOr5jueb9rZBV6X4H4v7tg==";
+        };
     in {
         "r6ljnO2J" = _r6ljnO2J;
         "djgKxde0" = _djgKxde0;
         "kPPvQkYk" = _kPPvQkYk;
         "7mE2CVc0" = _7mE2CVc0;
+        "YNLJBfJr" = _YNLJBfJr;
         "fabric-19w11b" = _r6ljnO2J;
         "fabric-19w12a" = _r6ljnO2J;
         "fabric-19w13a" = _r6ljnO2J;
@@ -310,11 +316,13 @@ let
         "fabric-1.21.11-rc3" = _7mE2CVc0;
         "fabric-1.21.11" = _7mE2CVc0;
         "fabric-26.1-snapshot-1" = _7mE2CVc0;
+        "fabric-26.3" = _YNLJBfJr;
         "pkg-1.0.0" = _r6ljnO2J;
         "pkg-1.0.1" = _djgKxde0;
         "pkg-1.0.2" = _kPPvQkYk;
         "pkg-1.0.3" = _7mE2CVc0;
-        "default" = _7mE2CVc0;
+        "pkg-1.0.4" = _YNLJBfJr;
+        "default" = _YNLJBfJr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "underwater-swim-fix-(mc-220390)";

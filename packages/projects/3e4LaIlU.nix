@@ -36,6 +36,11 @@ let
             "file" = "netherexotics.jar";
             "hash" = "sha512-4RkwoRKJf2ayiH6nI6skXZnXX/Pr69wLBlCGqaDGI6GI7gZKWmVbnjf1h6LPCnaLyRi4KouKUybVYDZAFviCNA==";
         };
+        _KsxlyyNB = {
+            "id" = "KsxlyyNB";
+            "file" = "netherexotics-1.3.0.jar";
+            "hash" = "sha512-O6nRFMLiBW37f+AOmt5WJgkx26c7JQT54skO6OJ8ewAhFZ+XzwCjBZmQdi9jv2rUjKi3+ni+2qDOtX18k6HYNg==";
+        };
     in {
         "q6074RRu" = _q6074RRu;
         "qHbHtan2" = _qHbHtan2;
@@ -44,16 +49,18 @@ let
         "C9hh7bJO" = _C9hh7bJO;
         "iKlUgadq" = _iKlUgadq;
         "bFYdruyC" = _bFYdruyC;
+        "KsxlyyNB" = _KsxlyyNB;
         "forge-1.18.2" = _677srxWk;
         "forge-1.16.5" = _qHbHtan2;
         "forge-1.19.2" = _ViO3xCL3;
         "forge-1.20.1" = _C9hh7bJO;
-        "neoforge-1.21.1" = _bFYdruyC;
+        "neoforge-1.21.1" = _KsxlyyNB;
         "pkg-1.1.5" = _q6074RRu;
         "pkg-1.1.3" = _qHbHtan2;
         "pkg-1.2.4" = _ViO3xCL3;
         "pkg-1.2.9" = _bFYdruyC;
-        "default" = _bFYdruyC;
+        "pkg-1.3.0" = _KsxlyyNB;
+        "default" = _KsxlyyNB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nethers-exoticism";

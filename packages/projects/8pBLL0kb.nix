@@ -586,6 +586,11 @@ let
             "file" = "weaponsexpanded_26.1_2.1.2_fabric.jar";
             "hash" = "sha512-iOZyBn9ZeFV0eFaVjl+XIlAzrSakPDVO0j5lELq7kXEhDE3C7SKwW6ILXzLybSyd+PJSgxAeeiG9b+g2cl3RXg==";
         };
+        _DHzAogC2 = {
+            "id" = "DHzAogC2";
+            "file" = "weaponsexpanded_26.3_2.1.2.1_fabric.jar";
+            "hash" = "sha512-gvZlBnH3gHHn24SdSgble7nl0lLWr9LyhlypRcDksx05SK3FS9ZKHFXPkfYBcu8dsxzLdM2t5iI/dJAAIHNaOA==";
+        };
     in {
         "cAr6T7RL" = _cAr6T7RL;
         "UoYuxe5K" = _UoYuxe5K;
@@ -704,6 +709,7 @@ let
         "s0VUQsFx" = _s0VUQsFx;
         "e6V8ZX1T" = _e6V8ZX1T;
         "eR3ipqEY" = _eR3ipqEY;
+        "DHzAogC2" = _DHzAogC2;
         "fabric-1.20.1" = _v0JAcGtw;
         "fabric-1.21.4" = _loC4JZ4Z;
         "fabric-1.21.5" = _VspbQQSu;
@@ -724,7 +730,7 @@ let
         "fabric-1.20.2" = _v0JAcGtw;
         "fabric-1.20.3" = _v0JAcGtw;
         "fabric-1.20.4" = _v0JAcGtw;
-        "fabric-26.3" = _s0VUQsFx;
+        "fabric-26.3" = _DHzAogC2;
         "forge-1.20.1" = _PKsmwcip;
         "forge-26.1" = _jRwGwsfT;
         "forge-26.1.1" = _jRwGwsfT;
@@ -746,7 +752,7 @@ let
         "quilt-1.21.8" = _DGZBYnr3;
         "quilt-1.21.9" = _5dOEEyfL;
         "quilt-1.21.10" = _5dOEEyfL;
-        "quilt-26.3" = _s0VUQsFx;
+        "quilt-26.3" = _DHzAogC2;
         "neoforge-26.1" = _trbLsOMv;
         "neoforge-26.1.1" = _trbLsOMv;
         "neoforge-26.1.2" = _trbLsOMv;
@@ -801,7 +807,8 @@ let
         "pkg-2.1.0" = _EBYwNtDg;
         "pkg-2.1.1" = _OY3OzyMT;
         "pkg-2.1.2" = _eR3ipqEY;
-        "default" = _eR3ipqEY;
+        "pkg-2.1.2.1" = _DHzAogC2;
+        "default" = _DHzAogC2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "weaponsexpanded";

@@ -16,23 +16,32 @@ let
             "file" = "Krpmon v0.3.1.zip";
             "hash" = "sha512-A/5pAS1SjWONAUtgrXuWT1nSFnUUpo1dMnrNza/QP68tIWqMRqzT+8yMev7AGa/Nk25FmmWTHkXULpMkjHTzMQ==";
         };
+        _uufSCkd1 = {
+            "id" = "uufSCkd1";
+            "file" = "Krpmon v0.4.1.zip";
+            "hash" = "sha512-A/5pAS1SjWONAUtgrXuWT1nSFnUUpo1dMnrNza/QP68tIWqMRqzT+8yMev7AGa/Nk25FmmWTHkXULpMkjHTzMQ==";
+        };
     in {
         "hv00pl9a" = _hv00pl9a;
         "p474Ji0o" = _p474Ji0o;
         "wfUrJPdT" = _wfUrJPdT;
+        "uufSCkd1" = _uufSCkd1;
         "iris-1.21.11" = _hv00pl9a;
         "iris-26.1" = _p474Ji0o;
         "iris-26.1.1" = _p474Ji0o;
         "iris-26.1.2" = _p474Ji0o;
         "iris-26.2" = _wfUrJPdT;
+        "iris-26.3" = _uufSCkd1;
         "fabric-26.1" = _p474Ji0o;
         "fabric-26.1.1" = _p474Ji0o;
         "fabric-26.1.2" = _p474Ji0o;
         "optifine-26.2" = _wfUrJPdT;
+        "optifine-26.3" = _uufSCkd1;
         "pkg-0.1.3" = _hv00pl9a;
         "pkg-0.2.1" = _p474Ji0o;
         "pkg-0.3.1" = _wfUrJPdT;
-        "default" = _wfUrJPdT;
+        "pkg-0.4.1" = _uufSCkd1;
+        "default" = _uufSCkd1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "krpmon-lite";

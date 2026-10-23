@@ -141,6 +141,21 @@ let
             "file" = "maplesbeecollection-fabric-26.2.0-1.1.jar";
             "hash" = "sha512-EQ6JD1v2d6DlThyQznwAd7I+Bly/jqQSvlKG/xW+NJvVYdiWj1ZupU0fIGqAn7KCCTmWufhYGG66K20XARERHA==";
         };
+        _9TlWaxTu = {
+            "id" = "9TlWaxTu";
+            "file" = "maplesbeecollection-neoforge-26.3.0-1.1.jar";
+            "hash" = "sha512-xvdZYH4ClrWjGl9W3NKkA4wn3xfrpV0v6keDaaDP0HwSX99VLSwQo8+rd2SrHr+45CN7PWxl/VgGCUZA1idiiw==";
+        };
+        _mDmQWjIW = {
+            "id" = "mDmQWjIW";
+            "file" = "maplesbeecollection-forge-26.3.0-1.1.jar";
+            "hash" = "sha512-K9rGTMYahuzEfzlHcXRuUzVbwKT2h037GHBg/UrDQ3dHQKbzds6eAgN0HEZpGZok5XkYhlR9q6lRloL4QnYEWQ==";
+        };
+        _647Y59pa = {
+            "id" = "647Y59pa";
+            "file" = "maplesbeecollection-fabric-26.3.0-1.1.jar";
+            "hash" = "sha512-NnTcV0dl85iWN2CdLlGMVbVTgzsOYBmBAdFQKu8Nk99DrDgijTK9jw/k3Q1Z+693xt9OE1RltTUTz8rxxn+J/g==";
+        };
     in {
         "ZbjnnFdM" = _ZbjnnFdM;
         "DcOS58HA" = _DcOS58HA;
@@ -170,12 +185,16 @@ let
         "JJ8FH5ZF" = _JJ8FH5ZF;
         "YyiYsdWe" = _YyiYsdWe;
         "CYu7zppC" = _CYu7zppC;
+        "9TlWaxTu" = _9TlWaxTu;
+        "mDmQWjIW" = _mDmQWjIW;
+        "647Y59pa" = _647Y59pa;
         "neoforge-1.21.1" = _ek6mCd36;
         "neoforge-1.21.11" = _aM042s4a;
         "neoforge-26.1" = _HwRiK2JG;
         "neoforge-26.1.1" = _Y8RtUwSJ;
         "neoforge-26.1.2" = _UXu2VgT2;
         "neoforge-26.2" = _JJ8FH5ZF;
+        "neoforge-26.3" = _9TlWaxTu;
         "forge-1.21.1" = _DqwDghWh;
         "forge-1.20.1" = _9zFA2WCs;
         "forge-1.21.11" = _jcjdy2ti;
@@ -183,6 +202,7 @@ let
         "forge-26.1.1" = _rrGtlamL;
         "forge-26.1.2" = _H0zRtkXw;
         "forge-26.2" = _YyiYsdWe;
+        "forge-26.3" = _mDmQWjIW;
         "fabric-1.21.1" = _AizwM2UY;
         "fabric-1.20.1" = _ououAAAJ;
         "fabric-1.21.11" = _PvBT8eSY;
@@ -190,6 +210,7 @@ let
         "fabric-26.1.1" = _XEEPF6cs;
         "fabric-26.1.2" = _8WLC31VU;
         "fabric-26.2" = _CYu7zppC;
+        "fabric-26.3" = _647Y59pa;
         "quilt-1.21.1" = _AizwM2UY;
         "quilt-1.20.1" = _ououAAAJ;
         "quilt-1.21.11" = _PvBT8eSY;
@@ -197,6 +218,7 @@ let
         "quilt-26.1.1" = _XEEPF6cs;
         "quilt-26.1.2" = _8WLC31VU;
         "quilt-26.2" = _CYu7zppC;
+        "quilt-26.3" = _647Y59pa;
         "pkg-neoforge-1.21.1-1.0" = _ZbjnnFdM;
         "pkg-forge-1.21.1-1.0" = _DcOS58HA;
         "pkg-fabric-1.21.1-1.0" = _3NzdBDWV;
@@ -225,7 +247,10 @@ let
         "pkg-26.2-1.1-neoforge" = _JJ8FH5ZF;
         "pkg-26.2-1.1-forge" = _YyiYsdWe;
         "pkg-26.2-1.1-fabric" = _CYu7zppC;
-        "default" = _CYu7zppC;
+        "pkg-26.3-1.1-neoforge" = _9TlWaxTu;
+        "pkg-26.3-1.1-forge" = _mDmQWjIW;
+        "pkg-26.3-1.1-fabric" = _647Y59pa;
+        "default" = _647Y59pa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "maples-bee-collection";

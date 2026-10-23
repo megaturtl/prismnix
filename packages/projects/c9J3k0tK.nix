@@ -26,12 +26,18 @@ let
             "file" = "elytra-drag-0.4-1.21+.jar";
             "hash" = "sha512-kHOBhBCuazekvmLQLaVD8vwhDPFk9fR7SuHMVq9TkUhWUOSJrN5nPjd3XcfXzeQWooFqXzO64WpCXNrjssBqVg==";
         };
+        _3EjGv2uS = {
+            "id" = "3EjGv2uS";
+            "file" = "elytra-drag-0.2.0+26.3.jar";
+            "hash" = "sha512-anW1iCzGJmxJ9y6GErVKm+FABgZVa9TJFVjc8wr4UkPQs4XgWV+EJjgCskJu0mRil/cVMBgBn9EmS3Q9rr4mhQ==";
+        };
     in {
         "moI4Qyek" = _moI4Qyek;
         "K9qi2KK7" = _K9qi2KK7;
         "g78w1NgB" = _g78w1NgB;
         "XB2nMJ9K" = _XB2nMJ9K;
         "b71UOJt2" = _b71UOJt2;
+        "3EjGv2uS" = _3EjGv2uS;
         "fabric-1.20.1" = _XB2nMJ9K;
         "fabric-1.20" = _K9qi2KK7;
         "fabric-1.19" = _g78w1NgB;
@@ -46,12 +52,14 @@ let
         "fabric-1.20.6" = _XB2nMJ9K;
         "fabric-1.21" = _b71UOJt2;
         "fabric-1.21.1" = _b71UOJt2;
+        "fabric-26.3" = _3EjGv2uS;
         "pkg-0.1-1.20.1" = _moI4Qyek;
         "pkg-0.2-1.20+" = _K9qi2KK7;
         "pkg-0.2-1.19" = _g78w1NgB;
         "pkg-0.3-1.20+" = _XB2nMJ9K;
         "pkg-0.4-1.21+" = _b71UOJt2;
-        "default" = _b71UOJt2;
+        "pkg-0.2.0+26.3" = _3EjGv2uS;
+        "default" = _3EjGv2uS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elytra-drag";

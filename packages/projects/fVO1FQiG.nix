@@ -101,6 +101,76 @@ let
             "file" = "ViveMonkeCraft-1.1.0.0-26.3-Release.jar";
             "hash" = "sha512-DORtK/eio8Z3tFlrrL3da0FK5IQCmu9YN/e9rxwO4SThnVBOz57zg2QvdGhU/ThEpiLDZyFxT42sNpgD6T928Q==";
         };
+        _UEygHypn = {
+            "id" = "UEygHypn";
+            "file" = "ViveMonkeCraft-1.1.0.1-1.21.4-Beta.jar";
+            "hash" = "sha512-VLnrQTYEB/ayh6Th8ne6OehBpZejKXX8sIXwlvTZE+n0WyvQT9YnsPNFrQRAST/oOrFhyyaTYxI4VzVQXFoF6w==";
+        };
+        _XRw0RrSF = {
+            "id" = "XRw0RrSF";
+            "file" = "ViveMonkeCraft-1.1.0.1-1.21.5-Beta.jar";
+            "hash" = "sha512-653L5gKrMYFU3A+NS5uZjvSPy8KtWIdzoU+IS8RtpTiKC2u72ZsYclTfvKaPyg827d9ywbIudwIhGI0jLojmZg==";
+        };
+        _T26FyBXR = {
+            "id" = "T26FyBXR";
+            "file" = "ViveMonkeCraft-1.1.0.1-1.21.6-Beta.jar";
+            "hash" = "sha512-8oFXJO9K3HmuIR0AiMsTZobGV79uLzgVmVbZ6amhpGmXYinHLQOEzFVdoMt9uwOb+9j3uwDRbrn/AfwJFDIaRA==";
+        };
+        _bXowuXl5 = {
+            "id" = "bXowuXl5";
+            "file" = "ViveMonkeCraft-1.1.0.1-1.21.7-Beta.jar";
+            "hash" = "sha512-Wt2YCLvUw9ho3czd8gjkcj5nZJbfIUcb2YLsiYeJl2Zl/mKqAewIZdG+cJr6Rk2gB8gXhXWnwW6Ihw3vj/45YQ==";
+        };
+        _urttxk6J = {
+            "id" = "urttxk6J";
+            "file" = "ViveMonkeCraft-1.1.0.1-1.21.8-Beta.jar";
+            "hash" = "sha512-lUnLsj8W4pZul1MqK4m+p24GuEfNcVGzIyXQ1lRgkInAgowcWxTwwGTXu3R5npvvbL8rGArDfL5klSTyc4/fxQ==";
+        };
+        _SSyJB3JS = {
+            "id" = "SSyJB3JS";
+            "file" = "ViveMonkeCraft-1.1.0.1-1.21.9-Beta.jar";
+            "hash" = "sha512-PezDpgONxSRS4ht0Tm4TwhLH2ivFcGIOC5qx3hQjom8o63S+AaPmI7W9fr+HBS8xRSDmkgNDnKD4SJOV+pXBXw==";
+        };
+        _FU1B257n = {
+            "id" = "FU1B257n";
+            "file" = "ViveMonkeCraft-1.1.0.1-1.21.10-Beta.jar";
+            "hash" = "sha512-hGY2/xvLX2Eq0ydUgVWH8oy5n49hOP1JGF0UDVD0r8eRB8Q9RJhOIRxEtdaV6PZNEmpY0ElIXHdWvaP807mqTQ==";
+        };
+        _ld1bOBXO = {
+            "id" = "ld1bOBXO";
+            "file" = "ViveMonkeCraft-1.1.0.1-1.21.11-Beta.jar";
+            "hash" = "sha512-1G4kKpFrakeUoqnQVc8Ua+4D6nxaFgU0dwZXO6zlHDJloj5DM66B8rBpX/ITAgtxNgG+M0EbYri7XN78JiuGGg==";
+        };
+        _iPx9H5Dc = {
+            "id" = "iPx9H5Dc";
+            "file" = "ViveMonkeCraft-1.1.0.1-26.1.1-Beta.jar";
+            "hash" = "sha512-Pz4yF4Cpjoa3bqwboO1U3BO7FyYVKQ5Txsu21jyg8hYXgHK5X+NEjg2GTCTpZDg2pa6JstvVBmBHqHErX0+JYw==";
+        };
+        _boreJYll = {
+            "id" = "boreJYll";
+            "file" = "ViveMonkeCraft-1.1.0.1-26.1.2-Beta.jar";
+            "hash" = "sha512-G2fDY5fiGRdZu+4lrXyHBSyYfrNHgTzts6mFVz3KE1AgBOmPi2bb1XqPnRuDd8Yn0NvMfZ17JsgRx651NuiiRA==";
+        };
+        _nEqjfvs9 = {
+            "id" = "nEqjfvs9";
+            "file" = "ViveMonkeCraft-1.1.0.1-26.2-Beta.jar";
+            "hash" = "sha512-1zpYo6bRnGasdeszZdqa1S+iZnN2Q6PzUgRbFlzmLnepgUJQmVr1jxLE4NY+yv9dIzo/58DIdjR2dDRqq+r/eg==";
+        };
+        _qrelz8FB = {
+            "id" = "qrelz8FB";
+            "file" = "ViveMonkeCraft-1.1.0.1-26.3-Beta.jar";
+            "hash" = "sha512-I60N9BWwKgxuOE74Wdg1bfCkzrrOO73RNMrnA9LwL0zJjzewlWk5SCS52I5dZ7kLaVGLVpIpfjuQKVcArLsTFw==";
+        };
+        _W4PHWGNU = {
+            "id" = "W4PHWGNU";
+            "file" = "ViveMonkeCraft-NeoForge-1.1.0.1-26.3-alpha.jar";
+            "hash" = "sha512-gkCqrW3Pu5QVfvzLvaeS9BEk0baeBwjBgEwYDDxaBfschdzpNAlsTSpsyT72DJhHqFge/J6IXwzHhkwhuIrTCg==";
+        };
+        _brHOyWzP = {
+            "id" = "brHOyWzP";
+            "file" = "ViveMonkeCraft-Forge-1.1.0.1-26.3-Beta.jar";
+            "hash" = "sha512-pbjs42u8Y03g7Ou43Zc2EtjW5fooMa4n7Istsd9iuPEAva4rC8GMJf5F7F7cUqVOyCG3LLHqgh/jO6+kUbHrEg==";
+        };
     in {
         "14XIWdbD" = _14XIWdbD;
         "mQHcOsRd" = _mQHcOsRd;
@@ -122,18 +192,34 @@ let
         "tj2zPh6P" = _tj2zPh6P;
         "FJnHHm8A" = _FJnHHm8A;
         "CIiaSolt" = _CIiaSolt;
-        "fabric-1.21.4" = _FJnHHm8A;
-        "fabric-1.21.5" = _tj2zPh6P;
-        "fabric-1.21.6" = _cKXbYXpd;
-        "fabric-26.1.2" = _ccQJ8JlW;
-        "fabric-26.2" = _vcze62oY;
-        "fabric-1.21.10" = _Rlg5Q8fy;
-        "fabric-1.21.11" = _JYFipkeJ;
-        "fabric-1.21.7" = _oo6a0fYu;
-        "fabric-1.21.8" = _V00EgBLj;
-        "fabric-1.21.9" = _q76SmuAN;
-        "fabric-26.1.1" = _jJKRTsUw;
-        "fabric-26.3" = _CIiaSolt;
+        "UEygHypn" = _UEygHypn;
+        "XRw0RrSF" = _XRw0RrSF;
+        "T26FyBXR" = _T26FyBXR;
+        "bXowuXl5" = _bXowuXl5;
+        "urttxk6J" = _urttxk6J;
+        "SSyJB3JS" = _SSyJB3JS;
+        "FU1B257n" = _FU1B257n;
+        "ld1bOBXO" = _ld1bOBXO;
+        "iPx9H5Dc" = _iPx9H5Dc;
+        "boreJYll" = _boreJYll;
+        "nEqjfvs9" = _nEqjfvs9;
+        "qrelz8FB" = _qrelz8FB;
+        "W4PHWGNU" = _W4PHWGNU;
+        "brHOyWzP" = _brHOyWzP;
+        "fabric-1.21.4" = _UEygHypn;
+        "fabric-1.21.5" = _XRw0RrSF;
+        "fabric-1.21.6" = _T26FyBXR;
+        "fabric-26.1.2" = _boreJYll;
+        "fabric-26.2" = _nEqjfvs9;
+        "fabric-1.21.10" = _FU1B257n;
+        "fabric-1.21.11" = _ld1bOBXO;
+        "fabric-1.21.7" = _bXowuXl5;
+        "fabric-1.21.8" = _urttxk6J;
+        "fabric-1.21.9" = _SSyJB3JS;
+        "fabric-26.1.1" = _iPx9H5Dc;
+        "fabric-26.3" = _qrelz8FB;
+        "neoforge-26.3" = _W4PHWGNU;
+        "forge-26.3" = _brHOyWzP;
         "pkg-1.0.0.0-1.21.4-Beta-1" = _14XIWdbD;
         "pkg-1.0.0.1-1.21.4-Beta-2" = _mQHcOsRd;
         "pkg-1.0.0.0-1.21.5" = _YXggT8U1;
@@ -154,7 +240,20 @@ let
         "pkg-1.0.0.3-1.21.5-Release" = _tj2zPh6P;
         "pkg-1.0.0.3-1.21.4-Release" = _FJnHHm8A;
         "pkg-1.1.0.0-26.3-Release" = _CIiaSolt;
-        "default" = _CIiaSolt;
+        "pkg-1.1.0.1-1.21.4-Beta" = _UEygHypn;
+        "pkg-1.1.0.1-1.21.5-Beta" = _XRw0RrSF;
+        "pkg-1.1.0.1-1.21.6-Beta" = _T26FyBXR;
+        "pkg-1.1.0.1-1.21.7-Beta" = _bXowuXl5;
+        "pkg-1.1.0.1-1.21.8-Beta" = _urttxk6J;
+        "pkg-1.1.0.1-1.21.9-Beta" = _SSyJB3JS;
+        "pkg-1.1.0.1-1.21.10-Beta" = _FU1B257n;
+        "pkg-1.1.0.1-1.21.11-Beta" = _ld1bOBXO;
+        "pkg-1.1.0.1-26.1.1-Beta" = _iPx9H5Dc;
+        "pkg-1.1.0.1-26.1.2-Beta" = _boreJYll;
+        "pkg-1.1.0.1-26.2-Beta" = _nEqjfvs9;
+        "pkg-1.1.0.1-26.3-Beta" = _qrelz8FB;
+        "pkg-1.1.0.1-26.3-Alpha" = _brHOyWzP;
+        "default" = _brHOyWzP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vivemonkecraft";

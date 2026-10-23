@@ -281,6 +281,261 @@ let
             "file" = "better_cake_slices-26.3.zip";
             "hash" = "sha512-ec7fljipXDoFBP6sMMqmB4dGuipvyLdnSasLql5jw8VEL8tUvTMLOwQrHdCQXSqxbSV+uboCXLTe5sIIZYb9Bg==";
         };
+        _MlzAToG7 = {
+            "id" = "MlzAToG7";
+            "file" = "Better Cake Slices 1.1.0 MC1.13.zip";
+            "hash" = "sha512-ujmKV0PFRWPyaNSYv8p9heqv01mwEm5XSPRJ0CjrLIUbgaauSBc9BmvVp3oqEP1GN50xzGyfL6k9err+MtBwfw==";
+        };
+        _pXMbyUB0 = {
+            "id" = "pXMbyUB0";
+            "file" = "Better Cake Slices 1.1.0 MC1.13.1.zip";
+            "hash" = "sha512-ujmKV0PFRWPyaNSYv8p9heqv01mwEm5XSPRJ0CjrLIUbgaauSBc9BmvVp3oqEP1GN50xzGyfL6k9err+MtBwfw==";
+        };
+        _FR6TEbty = {
+            "id" = "FR6TEbty";
+            "file" = "Better Cake Slices 1.1.0 MC1.13.2.zip";
+            "hash" = "sha512-f3FWU/XIzAqCvBqtyig0oH8I7DH5RGyEcmXw9SO0QB1fAoFKoF/mxyDe0qb0xveZkQXQjwtSTjtq5XGMEwudxA==";
+        };
+        _Oe854NtO = {
+            "id" = "Oe854NtO";
+            "file" = "Better Cake Slices 1.1.0 MC1.14.zip";
+            "hash" = "sha512-f3FWU/XIzAqCvBqtyig0oH8I7DH5RGyEcmXw9SO0QB1fAoFKoF/mxyDe0qb0xveZkQXQjwtSTjtq5XGMEwudxA==";
+        };
+        _vjM7f9yd = {
+            "id" = "vjM7f9yd";
+            "file" = "Better Cake Slices 1.1.0 MC1.14.1.zip";
+            "hash" = "sha512-v26e0OBiAsF4qkGkKIBkZp2WYmddcKED2AoTWuK2t6PYjC7b1knJFSxqcchQL2/YJVzoLYjx1foff2UdWNcO5Q==";
+        };
+        _GwMmPcL5 = {
+            "id" = "GwMmPcL5";
+            "file" = "Better Cake Slices 1.1.0 MC1.14.2.zip";
+            "hash" = "sha512-v26e0OBiAsF4qkGkKIBkZp2WYmddcKED2AoTWuK2t6PYjC7b1knJFSxqcchQL2/YJVzoLYjx1foff2UdWNcO5Q==";
+        };
+        _9OjMRjZF = {
+            "id" = "9OjMRjZF";
+            "file" = "Better Cake Slices 1.1.0 MC1.14.3.zip";
+            "hash" = "sha512-xeZla+EQLE9LM5W1AEKlvnra2At4OqFjf8oHK14kd4c0zHp1fOF/qLnkMACmwN5SmLTflFuH0JuePKWovzKuHQ==";
+        };
+        _pDMhHc5d = {
+            "id" = "pDMhHc5d";
+            "file" = "Better Cake Slices 1.1.0 MC1.14.4.zip";
+            "hash" = "sha512-+hk4N8GBIpSawD7QNS98fKXJmoCXd2Eli1lbB/6Ogz+SIgSiFM2VA9hKHyOZA241AFUlkcAb/vxuuPtPxVfkKA==";
+        };
+        _JvsmyTJ0 = {
+            "id" = "JvsmyTJ0";
+            "file" = "Better Cake Slices 1.1.0 MC1.15.zip";
+            "hash" = "sha512-WXND2Nn5aZnFNIb6qJFNwQ0MfM2fqg9ZnNwRJBqNsw0UQCK46ofnceqJ/OuwfoUhQilw6In9GspdqdTyRdPpfA==";
+        };
+        _RFkM5ts4 = {
+            "id" = "RFkM5ts4";
+            "file" = "Better Cake Slices 1.1.0 MC1.15.1.zip";
+            "hash" = "sha512-ThXjBS8jsk/e/xy0D/YQ02C3ysZVCwYfguBuRoS8tmu1I05HDCtYXF9DdJRI15F996cmZKDG3jpKCqD808izRg==";
+        };
+        _HIXnVBgm = {
+            "id" = "HIXnVBgm";
+            "file" = "Better Cake Slices 1.1.0 MC1.15.2.zip";
+            "hash" = "sha512-0ktPh0A3DkfxTBfiq1LqmXa8xHUGVhoY88HJe2CCcY6AZz0Vg66Wf0y8BBvr7fokriBxjYYVspO53z/rBsREaA==";
+        };
+        _Xu3bpsXe = {
+            "id" = "Xu3bpsXe";
+            "file" = "Better Cake Slices 1.1.0 MC1.16.zip";
+            "hash" = "sha512-0ktPh0A3DkfxTBfiq1LqmXa8xHUGVhoY88HJe2CCcY6AZz0Vg66Wf0y8BBvr7fokriBxjYYVspO53z/rBsREaA==";
+        };
+        _v1oIposK = {
+            "id" = "v1oIposK";
+            "file" = "Better Cake Slices 1.1.0 MC1.16.1.zip";
+            "hash" = "sha512-/MKUFtI6JaGaHvhYepesTlZY966MXKs2z+cw0IrRRQ+oIXJqtw+aWnrx1GIFjtGFfFDy6lJlQQwiGOdk/RmCcA==";
+        };
+        _pSVOZKhT = {
+            "id" = "pSVOZKhT";
+            "file" = "Better Cake Slices 1.1.0 MC1.16.2.zip";
+            "hash" = "sha512-VhnMe3eAJyxplVK5/PtUIy6TNGRDg8FYQMi+HuURPQW6sdr/0gfiyJKX2OYtf0g51wSqdZWRxvwNzbuI1w05AQ==";
+        };
+        _Q2KDts45 = {
+            "id" = "Q2KDts45";
+            "file" = "Better Cake Slices 1.1.0 MC1.16.3.zip";
+            "hash" = "sha512-Q6LI1dOgWqaHecIOWL9y51k5VsvuBd9m9/0v2DcHfMXXFLo8zGuoAEGcJwHHu1m2WHaQNweivdQr2Fc2uyMF/w==";
+        };
+        _lmCF8x7L = {
+            "id" = "lmCF8x7L";
+            "file" = "Better Cake Slices 1.1.0 MC1.16.4.zip";
+            "hash" = "sha512-MwUxf46MRjSNbDq7SXNJclwmIyE1UTUXu6eKh0wM/HtBUDn++pZypoEN4kUWVhUhMpacEnn3NhvuMiC2ptWF6g==";
+        };
+        _RdS53lEl = {
+            "id" = "RdS53lEl";
+            "file" = "Better Cake Slices 1.1.0 MC1.16.5.zip";
+            "hash" = "sha512-j3Nac49TIBVyKtw/I1EU7Sdy38NyLsR3VZIaLBZgQx+FMHXMt5n2qz59+sAHBdbZPmXMmRnkoWMK8K6EWczowA==";
+        };
+        _tS93VVSu = {
+            "id" = "tS93VVSu";
+            "file" = "Better Cake Slices 1.1.0 MC1.17.zip";
+            "hash" = "sha512-Yel2TLhKEiRTXtq7VH+mD7PrS8+c3L33J0mR9ZWdVqJDYdezZB9qcqlnhL1MjqzRFTsvt87h1z4AsU6XaCoAkQ==";
+        };
+        _k5m1pUeZ = {
+            "id" = "k5m1pUeZ";
+            "file" = "Better Cake Slices 1.1.0 MC1.17.1.zip";
+            "hash" = "sha512-Yel2TLhKEiRTXtq7VH+mD7PrS8+c3L33J0mR9ZWdVqJDYdezZB9qcqlnhL1MjqzRFTsvt87h1z4AsU6XaCoAkQ==";
+        };
+        _4vZFS7r2 = {
+            "id" = "4vZFS7r2";
+            "file" = "Better Cake Slices 1.1.0 MC1.18.zip";
+            "hash" = "sha512-PB6nCIzaLS03sTYSWEiAz8UtYMOrqyLPqTxd53qeMCT1CzXW2o75krpjpuMirneeXcnunEkDw7H4cHY7RGYmPA==";
+        };
+        _q1fBAYVo = {
+            "id" = "q1fBAYVo";
+            "file" = "Better Cake Slices 1.1.0 MC1.18.1.zip";
+            "hash" = "sha512-RW1PzbkbVposP+Cclm5U6BfYyvRE3wk8dTI+pJercKdDFLRr0dnNeoqZzN+PAQQ7jN+0VsVE8XwuT9MlbMhWOg==";
+        };
+        _MtFwGjmk = {
+            "id" = "MtFwGjmk";
+            "file" = "Better Cake Slices 1.1.0 MC1.18.2.zip";
+            "hash" = "sha512-Fx0mQxdPhR/MLMatB5I/O0BKRHZJemjJLEoo3tEhcZyifzUJ7czuLSATWNWr3yl89Cb71EoRmC3+xTF0YvkYfg==";
+        };
+        _o8MNJNxO = {
+            "id" = "o8MNJNxO";
+            "file" = "Better Cake Slices 1.1.0 MC1.19.zip";
+            "hash" = "sha512-WX5eFJdCKpNiis2EpZ/AtORht5rFmB3nYVbwPjEKv+dZBJu+oZxDup9LhLB5JPzWqgjMvGl9IpKDpb1sb9Owvw==";
+        };
+        _uvwYFfWP = {
+            "id" = "uvwYFfWP";
+            "file" = "Better Cake Slices 1.1.0 MC1.19.1.zip";
+            "hash" = "sha512-e4BwhLN/A33MdCGqGM7jPUChWX7NUhNx7sLOXdaAAamKnuhu99F/GGIn0MUSNVFWyoa+m4qt+/PYXFKPz0sS0w==";
+        };
+        _ZDn3q0jw = {
+            "id" = "ZDn3q0jw";
+            "file" = "Better Cake Slices 1.1.0 MC1.19.2.zip";
+            "hash" = "sha512-JjKUCrallhGAJJ26ivtu19FShBzLg686akKLi0Ekx/Zhi8vzmLXHZut2Vv2UsSzzCbEVCm/DBJeLjdag3U9yuw==";
+        };
+        _eBwW8EIZ = {
+            "id" = "eBwW8EIZ";
+            "file" = "Better Cake Slices 1.1.0 MC1.19.3.zip";
+            "hash" = "sha512-1jX59aHKbsqO6csVGVtJ60nTyqFfq1aLfjOrR56d7wPmUJkn2P6HBX/C7YvLrmhH9vj8Yg8qOx+q0IC5x9KMfA==";
+        };
+        _PEBI67DR = {
+            "id" = "PEBI67DR";
+            "file" = "Better Cake Slices 1.1.0 MC1.19.4.zip";
+            "hash" = "sha512-AaY4b6mvBcZyp6WDx1LfMaXUSm5f/nOjozlqGf8EOfSGlWR/51FH0ioPx5ur7u/TwudXiZ2rp/0+HLNCi0eOoA==";
+        };
+        _7IAa8C9p = {
+            "id" = "7IAa8C9p";
+            "file" = "Better Cake Slices 1.1.0 MC1.20.zip";
+            "hash" = "sha512-hKK9gWWiT6I5eQ9w5o3Cke5clb06HlY7ErYGTxfHIIoZHnaJvPpOVRTIngkzUDVw7JPwpGgDohPzlEHcB30pEQ==";
+        };
+        _2da0d3t1 = {
+            "id" = "2da0d3t1";
+            "file" = "Better Cake Slices 1.1.0 MC1.20.1.zip";
+            "hash" = "sha512-+rk97X8/3lfozC5lNJ9AGZ9ARLA7gDfFw6b8HPeVaEAkdHRS+cQCuZv4awUXvL8BGxki9heI9OrPR49F9cYXIA==";
+        };
+        _IZEno4Nz = {
+            "id" = "IZEno4Nz";
+            "file" = "Better Cake Slices 1.1.0 MC1.20.2.zip";
+            "hash" = "sha512-WDJY7t3rp3Pb4oGvOWCibO5EpIy8cwEdjdaWJez3mJoCtneEdNg/c/n4bUB/DjFlOKhsCSlZ31uXJMgs3LkUng==";
+        };
+        _jxglE9Cb = {
+            "id" = "jxglE9Cb";
+            "file" = "Better Cake Slices 1.1.0 MC1.20.3.zip";
+            "hash" = "sha512-8bk1r1QwkOApyXwTErOkDbTC8qpHuP7+VlCnRbDLGJXto2gKd9YUeV+ompzD1ex0lGJC0m6SfRZ1jZgdeKwxAA==";
+        };
+        _7A6N5ml8 = {
+            "id" = "7A6N5ml8";
+            "file" = "Better Cake Slices 1.1.0 MC1.20.4.zip";
+            "hash" = "sha512-WF0+tyUzFV0Z1jIrWkm2Zu416xZWmtFagz7iflT3MTglN7XBoPhWGT+5jw6eaoFvw4TZ6Atdt5PCWCOSw+PKSg==";
+        };
+        _7i0C5PIN = {
+            "id" = "7i0C5PIN";
+            "file" = "Better Cake Slices 1.1.0 MC1.20.5.zip";
+            "hash" = "sha512-xPB+j6VXl+ybDv6hi95NTnWPiPLUH8mpsW6AUpwNcnQxovQ/JfTmvsv4dLs2UGD9y1JLfR6BkRvpL8wJbyu3Zg==";
+        };
+        _jNWS7J0B = {
+            "id" = "jNWS7J0B";
+            "file" = "Better Cake Slices 1.1.0 MC1.20.6.zip";
+            "hash" = "sha512-FZvu9d4NkcalBvPwXOvCUk3WkPbdDyfKBCpC/ZRAsvKEvaAfgpdk2rVhGlxdggPqUEcPcYuuwUir84jqTp0Spw==";
+        };
+        _7SWMegaF = {
+            "id" = "7SWMegaF";
+            "file" = "Better Cake Slices 1.1.0 MC1.21.zip";
+            "hash" = "sha512-CaEEJxQkyyDjKcR4moYuzt1huZfmmVYXr82mAlcFIGckc3hSimFZT6sMxaRm4v0vi1XRy5WnSdB6vCp+yL8p0w==";
+        };
+        _hG8XrJ4i = {
+            "id" = "hG8XrJ4i";
+            "file" = "Better Cake Slices 1.1.0 MC1.21.1.zip";
+            "hash" = "sha512-GUzUwJdRJNr/4YKgQIkETX5ey4TGOc8v4rMD3iPTivFy2wm35eibdmjkukqadrTpeKkUZoCC8P0rwpWkzCexgw==";
+        };
+        _mieunBag = {
+            "id" = "mieunBag";
+            "file" = "Better Cake Slices 1.1.0 MC1.21.2.zip";
+            "hash" = "sha512-V9ifyIigOlX6+b5z4Oxo6yKa0CzF16tmqTsFe0gm6ib6yc9kyy1B9ql7ZQ/VoR6YeUI/j4q9T7+EHIhusTaMsw==";
+        };
+        _kwnc4Jpv = {
+            "id" = "kwnc4Jpv";
+            "file" = "Better Cake Slices 1.1.0 MC1.21.3.zip";
+            "hash" = "sha512-BbdhUQAYgOHVv8aR0rV1etcbSbvnxRJeRKCMpxBiaAgA2pg2p10FCBmkKt9Q8bjQJFSko8Vf45nrymfNHgfYKQ==";
+        };
+        _3QNYxqZr = {
+            "id" = "3QNYxqZr";
+            "file" = "Better Cake Slices 1.1.0 MC1.21.4.zip";
+            "hash" = "sha512-AdlpatAL+ICWQ6O2VsNRX9Iv0N+yAUlP1Hem9jx282j2bIicffiYhH5Qoc9MRakkcrkuYbUEhZSq2WN+6MQOjg==";
+        };
+        _wkjXDfsD = {
+            "id" = "wkjXDfsD";
+            "file" = "Better Cake Slices 1.1.0 MC1.21.5.zip";
+            "hash" = "sha512-yzmvwPDjAW2hxiklfI/TgccZ2h5aQnKDIq8aRsBRs0x/+JG9pAnMvJNdB0eCJdQ0rlZgbEhDZpN7aAZbi7AXQQ==";
+        };
+        _qT0lJMgi = {
+            "id" = "qT0lJMgi";
+            "file" = "Better Cake Slices 1.1.0 MC1.21.6.zip";
+            "hash" = "sha512-5eWn4S/a8EtIWmb6zGg0rdR1gMecMHOymVeyZaYYPbWj8VSUvdfkRLBPy8OY2N3sD4YaORb6q8k8D2eTsYBKng==";
+        };
+        _xNLEIeRb = {
+            "id" = "xNLEIeRb";
+            "file" = "Better Cake Slices 1.1.0 MC1.21.7.zip";
+            "hash" = "sha512-f8t+hlrHL4QllYXl4breqwFiB3rwQXvKIkzMkXVnAUmOCvPpvQ8hY+BGNzR34sUPbxu8uVmw0oW8P/jN9s3xoA==";
+        };
+        _Q1eLvCha = {
+            "id" = "Q1eLvCha";
+            "file" = "Better Cake Slices 1.1.0 MC1.21.8.zip";
+            "hash" = "sha512-H0ZMzwXilYfGkDM3vlwVp2Yt7exQ+pDP4IleYOSAqKBWXr7GNAF+5b7ORTSxz43a3qvfWiT1ohVjEtLIl9Qaow==";
+        };
+        _wRRf63oT = {
+            "id" = "wRRf63oT";
+            "file" = "Better Cake Slices 1.1.0 MC1.21.9.zip";
+            "hash" = "sha512-GxcpqD0vyK8y0ZcQBzG+ImJOBsHalDSHhNB1H2BWvhGjmym2Bcmmqg1VL2JokSRNvZVNKJ4GWeWL6hovTwxXmQ==";
+        };
+        _ku9joOaY = {
+            "id" = "ku9joOaY";
+            "file" = "Better Cake Slices 1.1.0 MC1.21.10.zip";
+            "hash" = "sha512-eP0ioJa0pG5vA5g1m9GI2tdpv1CNRd3MvExfN0TdaIa8NJyXwXIvOR8pz9neiqgpf0khgyUvsub7Ujzaky6Ehw==";
+        };
+        _jOMoVbvh = {
+            "id" = "jOMoVbvh";
+            "file" = "Better Cake Slices 1.1.0 MC1.21.11.zip";
+            "hash" = "sha512-FSldHAFRNNoFgn9+mz65M/LxAgou441stTQz4yx8QwR5hbmSbhmiml/GIRe7VeecXsIBnC9eUVYU9IQTHotMLw==";
+        };
+        _oEdMboch = {
+            "id" = "oEdMboch";
+            "file" = "Better Cake Slices 1.1.0 MC26.1.zip";
+            "hash" = "sha512-Tgue8sL8lYXoJxV27Jh8hrdjR6fb3lgu4BpVBHMmgMke3nBUi+PjjfVOq0KQezPWnxfM2H5Fc7qWKN0bn8Exgw==";
+        };
+        _6p0yiX9K = {
+            "id" = "6p0yiX9K";
+            "file" = "Better Cake Slices 1.1.0 MC26.1.1.zip";
+            "hash" = "sha512-CgfzpGVQlVSxDAzdNGTGtPuegLbRdbgFsZzHcuNGwLFcI94ZEg28UICpZCtzDYb4jegiKp0inZ3e2OiWLG+RpQ==";
+        };
+        _Oks1onBd = {
+            "id" = "Oks1onBd";
+            "file" = "Better Cake Slices 1.1.0 MC26.1.2.zip";
+            "hash" = "sha512-bEwtEY+gCip5gbL0zr9MjjZq82VkQYuOaneDdYS/jUJgO2S1t2FB3tFkxykVOkolhyh8hf17VC8kRUFVgYIKHg==";
+        };
+        _PoQj9lf6 = {
+            "id" = "PoQj9lf6";
+            "file" = "Better Cake Slices 1.1.0 MC26.2.zip";
+            "hash" = "sha512-RcuIuQ4ZdhH1QQ+gIZAL0zRifEiQJBvf7tNOeP3jJzqxTBPYEiwKfbzU0oKnHVS1K6Hw/CNlZQthBetb2LOcAw==";
+        };
+        _DHvNgu4s = {
+            "id" = "DHvNgu4s";
+            "file" = "Better Cake Slices 1.1.0 MC26.3.zip";
+            "hash" = "sha512-MeuW1xFzppk4po5xUbVhgKqNVA4HNngf/xfr3U4YANgqvGxwZa1awnpGFIanzhJuH2O5TkHlB5n7Apb/bSoCzw==";
+        };
     in {
         "9USNQGmF" = _9USNQGmF;
         "HwcjUoXu" = _HwcjUoXu;
@@ -338,57 +593,108 @@ let
         "cIjlOVjU" = _cIjlOVjU;
         "1NfFLM6j" = _1NfFLM6j;
         "QGp97fNP" = _QGp97fNP;
-        "minecraft-1.19.4" = _PZQkFrs6;
-        "minecraft-1.19.3" = _kwUzqet9;
-        "minecraft-1.19" = _eL2MGVl4;
-        "minecraft-1.19.1" = _JIdKj4wa;
-        "minecraft-1.19.2" = _cdJxNain;
-        "minecraft-1.18" = _bT2K3yBf;
-        "minecraft-1.18.1" = _N7ROUY9H;
-        "minecraft-1.18.2" = _3RqkHbHk;
-        "minecraft-1.17" = _36i0qwSO;
-        "minecraft-1.17.1" = _izWWuH8M;
-        "minecraft-1.13" = _9t5zLdGe;
-        "minecraft-1.13.1" = _KSRTqXrG;
-        "minecraft-1.13.2" = _s63qEJVB;
-        "minecraft-1.14" = _W53C6nZ2;
-        "minecraft-1.14.1" = _hNyXs0Xo;
-        "minecraft-1.14.2" = _2ATxVnys;
-        "minecraft-1.14.3" = _Z6SjSF1Y;
-        "minecraft-1.14.4" = _OeAnUFvM;
-        "minecraft-1.15" = _BgTzHtKO;
-        "minecraft-1.15.1" = _IgylZRwd;
-        "minecraft-1.15.2" = _h3JJf1kc;
-        "minecraft-1.16" = _6MGILGbH;
-        "minecraft-1.16.1" = _kYkCutLx;
-        "minecraft-1.16.2" = _MR95MtP5;
-        "minecraft-1.16.3" = _6FwgNCl9;
-        "minecraft-1.16.4" = _wJQXx9N9;
-        "minecraft-1.16.5" = _88NoaWnZ;
-        "minecraft-1.20" = _s33kSIHd;
-        "minecraft-1.20.1" = _3sc8hvZ9;
-        "minecraft-1.20.2" = _hImYwyPW;
-        "minecraft-1.20.3" = _3Mru5KXS;
-        "minecraft-1.20.4" = _Lw84sxou;
-        "minecraft-1.20.5" = _FQ7aCgQE;
-        "minecraft-1.20.6" = _Nup8yuWQ;
-        "minecraft-1.21" = _VJH38Kuf;
-        "minecraft-1.21.1" = _Qls3Unsh;
-        "minecraft-1.21.2" = _P7KlK14J;
-        "minecraft-1.21.3" = _rzh52HTG;
-        "minecraft-1.21.4" = _xn4oCKFT;
-        "minecraft-1.21.5" = _UeLPSmle;
-        "minecraft-1.21.6" = _7FpPoOqX;
-        "minecraft-1.21.7" = _iTZ1Ml3l;
-        "minecraft-1.21.8" = _9BmGPL0N;
-        "minecraft-1.21.9" = _qu0rbBcx;
-        "minecraft-1.21.10" = _ivTMEDgf;
-        "minecraft-1.21.11" = _2BfnaY3r;
-        "minecraft-26.1" = _GJhOvP2H;
-        "minecraft-26.1.1" = _EZO6B8te;
-        "minecraft-26.1.2" = _cIjlOVjU;
-        "minecraft-26.2" = _1NfFLM6j;
-        "minecraft-26.3" = _QGp97fNP;
+        "MlzAToG7" = _MlzAToG7;
+        "pXMbyUB0" = _pXMbyUB0;
+        "FR6TEbty" = _FR6TEbty;
+        "Oe854NtO" = _Oe854NtO;
+        "vjM7f9yd" = _vjM7f9yd;
+        "GwMmPcL5" = _GwMmPcL5;
+        "9OjMRjZF" = _9OjMRjZF;
+        "pDMhHc5d" = _pDMhHc5d;
+        "JvsmyTJ0" = _JvsmyTJ0;
+        "RFkM5ts4" = _RFkM5ts4;
+        "HIXnVBgm" = _HIXnVBgm;
+        "Xu3bpsXe" = _Xu3bpsXe;
+        "v1oIposK" = _v1oIposK;
+        "pSVOZKhT" = _pSVOZKhT;
+        "Q2KDts45" = _Q2KDts45;
+        "lmCF8x7L" = _lmCF8x7L;
+        "RdS53lEl" = _RdS53lEl;
+        "tS93VVSu" = _tS93VVSu;
+        "k5m1pUeZ" = _k5m1pUeZ;
+        "4vZFS7r2" = _4vZFS7r2;
+        "q1fBAYVo" = _q1fBAYVo;
+        "MtFwGjmk" = _MtFwGjmk;
+        "o8MNJNxO" = _o8MNJNxO;
+        "uvwYFfWP" = _uvwYFfWP;
+        "ZDn3q0jw" = _ZDn3q0jw;
+        "eBwW8EIZ" = _eBwW8EIZ;
+        "PEBI67DR" = _PEBI67DR;
+        "7IAa8C9p" = _7IAa8C9p;
+        "2da0d3t1" = _2da0d3t1;
+        "IZEno4Nz" = _IZEno4Nz;
+        "jxglE9Cb" = _jxglE9Cb;
+        "7A6N5ml8" = _7A6N5ml8;
+        "7i0C5PIN" = _7i0C5PIN;
+        "jNWS7J0B" = _jNWS7J0B;
+        "7SWMegaF" = _7SWMegaF;
+        "hG8XrJ4i" = _hG8XrJ4i;
+        "mieunBag" = _mieunBag;
+        "kwnc4Jpv" = _kwnc4Jpv;
+        "3QNYxqZr" = _3QNYxqZr;
+        "wkjXDfsD" = _wkjXDfsD;
+        "qT0lJMgi" = _qT0lJMgi;
+        "xNLEIeRb" = _xNLEIeRb;
+        "Q1eLvCha" = _Q1eLvCha;
+        "wRRf63oT" = _wRRf63oT;
+        "ku9joOaY" = _ku9joOaY;
+        "jOMoVbvh" = _jOMoVbvh;
+        "oEdMboch" = _oEdMboch;
+        "6p0yiX9K" = _6p0yiX9K;
+        "Oks1onBd" = _Oks1onBd;
+        "PoQj9lf6" = _PoQj9lf6;
+        "DHvNgu4s" = _DHvNgu4s;
+        "minecraft-1.19.4" = _PEBI67DR;
+        "minecraft-1.19.3" = _eBwW8EIZ;
+        "minecraft-1.19" = _o8MNJNxO;
+        "minecraft-1.19.1" = _uvwYFfWP;
+        "minecraft-1.19.2" = _ZDn3q0jw;
+        "minecraft-1.18" = _4vZFS7r2;
+        "minecraft-1.18.1" = _q1fBAYVo;
+        "minecraft-1.18.2" = _MtFwGjmk;
+        "minecraft-1.17" = _tS93VVSu;
+        "minecraft-1.17.1" = _k5m1pUeZ;
+        "minecraft-1.13" = _MlzAToG7;
+        "minecraft-1.13.1" = _pXMbyUB0;
+        "minecraft-1.13.2" = _FR6TEbty;
+        "minecraft-1.14" = _Oe854NtO;
+        "minecraft-1.14.1" = _vjM7f9yd;
+        "minecraft-1.14.2" = _GwMmPcL5;
+        "minecraft-1.14.3" = _9OjMRjZF;
+        "minecraft-1.14.4" = _pDMhHc5d;
+        "minecraft-1.15" = _JvsmyTJ0;
+        "minecraft-1.15.1" = _RFkM5ts4;
+        "minecraft-1.15.2" = _HIXnVBgm;
+        "minecraft-1.16" = _Xu3bpsXe;
+        "minecraft-1.16.1" = _v1oIposK;
+        "minecraft-1.16.2" = _pSVOZKhT;
+        "minecraft-1.16.3" = _Q2KDts45;
+        "minecraft-1.16.4" = _lmCF8x7L;
+        "minecraft-1.16.5" = _RdS53lEl;
+        "minecraft-1.20" = _7IAa8C9p;
+        "minecraft-1.20.1" = _2da0d3t1;
+        "minecraft-1.20.2" = _IZEno4Nz;
+        "minecraft-1.20.3" = _jxglE9Cb;
+        "minecraft-1.20.4" = _7A6N5ml8;
+        "minecraft-1.20.5" = _7i0C5PIN;
+        "minecraft-1.20.6" = _jNWS7J0B;
+        "minecraft-1.21" = _7SWMegaF;
+        "minecraft-1.21.1" = _hG8XrJ4i;
+        "minecraft-1.21.2" = _mieunBag;
+        "minecraft-1.21.3" = _kwnc4Jpv;
+        "minecraft-1.21.4" = _3QNYxqZr;
+        "minecraft-1.21.5" = _wkjXDfsD;
+        "minecraft-1.21.6" = _qT0lJMgi;
+        "minecraft-1.21.7" = _xNLEIeRb;
+        "minecraft-1.21.8" = _Q1eLvCha;
+        "minecraft-1.21.9" = _wRRf63oT;
+        "minecraft-1.21.10" = _ku9joOaY;
+        "minecraft-1.21.11" = _jOMoVbvh;
+        "minecraft-26.1" = _oEdMboch;
+        "minecraft-26.1.1" = _6p0yiX9K;
+        "minecraft-26.1.2" = _Oks1onBd;
+        "minecraft-26.2" = _PoQj9lf6;
+        "minecraft-26.3" = _DHvNgu4s;
         "pkg-0.1" = _2NrPmse4;
         "pkg-1.0.0-mc.1.13" = _9t5zLdGe;
         "pkg-1.0.0-mc.1.13.1" = _KSRTqXrG;
@@ -441,7 +747,58 @@ let
         "pkg-1.0.0-mc.26.1.2" = _cIjlOVjU;
         "pkg-1.0.0-mc.26.2" = _1NfFLM6j;
         "pkg-1.0.0-mc.26.3" = _QGp97fNP;
-        "default" = _QGp97fNP;
+        "pkg-1.1.0-mc1.13" = _MlzAToG7;
+        "pkg-1.1.0-mc1.13.1" = _pXMbyUB0;
+        "pkg-1.1.0-mc1.13.2" = _FR6TEbty;
+        "pkg-1.1.0-mc1.14" = _Oe854NtO;
+        "pkg-1.1.0-mc1.14.1" = _vjM7f9yd;
+        "pkg-1.1.0-mc1.14.2" = _GwMmPcL5;
+        "pkg-1.1.0-mc1.14.3" = _9OjMRjZF;
+        "pkg-1.1.0-mc1.14.4" = _pDMhHc5d;
+        "pkg-1.1.0-mc1.15" = _JvsmyTJ0;
+        "pkg-1.1.0-mc1.15.1" = _RFkM5ts4;
+        "pkg-1.1.0-mc1.15.2" = _HIXnVBgm;
+        "pkg-1.1.0-mc1.16" = _Xu3bpsXe;
+        "pkg-1.1.0-mc1.16.1" = _v1oIposK;
+        "pkg-1.1.0-mc1.16.2" = _pSVOZKhT;
+        "pkg-1.1.0-mc1.16.3" = _Q2KDts45;
+        "pkg-1.1.0-mc1.16.4" = _lmCF8x7L;
+        "pkg-1.1.0-mc1.16.5" = _RdS53lEl;
+        "pkg-1.1.0-mc1.17" = _tS93VVSu;
+        "pkg-1.1.0-mc1.17.1" = _k5m1pUeZ;
+        "pkg-1.1.0-mc1.18" = _4vZFS7r2;
+        "pkg-1.1.0-mc1.18.1" = _q1fBAYVo;
+        "pkg-1.1.0-mc1.18.2" = _MtFwGjmk;
+        "pkg-1.1.0-mc1.19" = _o8MNJNxO;
+        "pkg-1.1.0-mc1.19.1" = _uvwYFfWP;
+        "pkg-1.1.0-mc1.19.2" = _ZDn3q0jw;
+        "pkg-1.1.0-mc1.19.3" = _eBwW8EIZ;
+        "pkg-1.1.0-mc1.19.4" = _PEBI67DR;
+        "pkg-1.1.0-mc1.20" = _7IAa8C9p;
+        "pkg-1.1.0-mc1.20.1" = _2da0d3t1;
+        "pkg-1.1.0-mc1.20.2" = _IZEno4Nz;
+        "pkg-1.1.0-mc1.20.3" = _jxglE9Cb;
+        "pkg-1.1.0-mc1.20.4" = _7A6N5ml8;
+        "pkg-1.1.0-mc1.20.5" = _7i0C5PIN;
+        "pkg-1.1.0-mc1.20.6" = _jNWS7J0B;
+        "pkg-1.1.0-mc1.21" = _7SWMegaF;
+        "pkg-1.1.0-mc1.21.1" = _hG8XrJ4i;
+        "pkg-1.1.0-mc1.21.2" = _mieunBag;
+        "pkg-1.1.0-mc1.21.3" = _kwnc4Jpv;
+        "pkg-1.1.0-mc1.21.4" = _3QNYxqZr;
+        "pkg-1.1.0-mc1.21.5" = _wkjXDfsD;
+        "pkg-1.1.0-mc1.21.6" = _qT0lJMgi;
+        "pkg-1.1.0-mc1.21.7" = _xNLEIeRb;
+        "pkg-1.1.0-mc1.21.8" = _Q1eLvCha;
+        "pkg-1.1.0-mc1.21.9" = _wRRf63oT;
+        "pkg-1.1.0-mc1.21.10" = _ku9joOaY;
+        "pkg-1.1.0-mc1.21.11" = _jOMoVbvh;
+        "pkg-1.1.0-mc26.1" = _oEdMboch;
+        "pkg-1.1.0-mc26.1.1" = _6p0yiX9K;
+        "pkg-1.1.0-mc26.1.2" = _Oks1onBd;
+        "pkg-1.1.0-mc26.2" = _PoQj9lf6;
+        "pkg-1.1.0-mc26.3" = _DHvNgu4s;
+        "default" = _DHvNgu4s;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-cake-slices";

@@ -116,6 +116,11 @@ let
             "file" = "zombies_everywhere-1.0.2-forge+mc1.20.1-beta.jar";
             "hash" = "sha512-MZGOulT2W+yDNL4GJ4jTC67faFn6lXQL6lWJI41OEJIfukjHmkEJ47orVQC9m2G3ZqUtRJNlgB5d/i0WCX1uAQ==";
         };
+        _I2jENCur = {
+            "id" = "I2jENCur";
+            "file" = "zombies_everywhere-1.0.2-neoforge+mc26.1.2-beta.jar";
+            "hash" = "sha512-/PXyEz0laM2gBgtLpHqA4njnOhhCXpvJJF3vxTqfbTQ6c00qkBwLKNN2ansk3CHK3tlNMBzVOGHaC4apM/9m4w==";
+        };
     in {
         "a9sbVFGv" = _a9sbVFGv;
         "grzR6jUC" = _grzR6jUC;
@@ -140,8 +145,9 @@ let
         "k1XnGDfs" = _k1XnGDfs;
         "eXsRW6zi" = _eXsRW6zi;
         "jvFHA6kB" = _jvFHA6kB;
+        "I2jENCur" = _I2jENCur;
         "neoforge-1.21.1" = _k1XnGDfs;
-        "neoforge-26.1.2" = _4KH1sH5E;
+        "neoforge-26.1.2" = _I2jENCur;
         "forge-1.20.1" = _jvFHA6kB;
         "pkg-1.0.0-1.21.1" = _a9sbVFGv;
         "pkg-1.1.0-1.21.1" = _grzR6jUC;
@@ -166,7 +172,8 @@ let
         "pkg-1.4.3-neoforge+mc1.21.1-hotfix" = _k1XnGDfs;
         "pkg-1.0.1-forge+mc1.20.1-beta" = _eXsRW6zi;
         "pkg-1.0.2-forge+mc1.20.1-beta" = _jvFHA6kB;
-        "default" = _jvFHA6kB;
+        "pkg-1.0.2-neoforge+mc26.1.2-beta" = _I2jENCur;
+        "default" = _I2jENCur;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zombieseverywhere";

@@ -456,6 +456,11 @@ let
             "file" = "Create Encased-1.21.1-1.9.0-ht3.jar";
             "hash" = "sha512-7Sf2QLKzBUarLl2NVuYpG1Wa52sf5IsVIcC58QwjgoKnOkTleBxx/FgIjmyFJq1cAc9e9U+t9WQNEYrlPYpn1A==";
         };
+        _RrwdLx9S = {
+            "id" = "RrwdLx9S";
+            "file" = "Create Encased-1.21.1-1.10.0.jar";
+            "hash" = "sha512-7qhCbsYuQ3vTE5Zre3Nj2WqKZL1RGUmga8caE0u84oNMcFewAPkcqNeRUl4N57CVIytdkVEHlkcol6agvTcVkA==";
+        };
     in {
         "oMs4bPqU" = _oMs4bPqU;
         "ajXB63z0" = _ajXB63z0;
@@ -548,11 +553,12 @@ let
         "R3MyXfQc" = _R3MyXfQc;
         "qEcBfwlD" = _qEcBfwlD;
         "t6MATlU9" = _t6MATlU9;
+        "RrwdLx9S" = _RrwdLx9S;
         "forge-1.18.2" = _CVuWRQ9C;
         "forge-1.19.2" = _OcbYnMnp;
         "forge-1.20.1" = _2OhwBKIK;
         "neoforge-1.21" = _sjCAxK2s;
-        "neoforge-1.21.1" = _t6MATlU9;
+        "neoforge-1.21.1" = _RrwdLx9S;
         "pkg-1.18.2-1.1.2" = _oMs4bPqU;
         "pkg-1.19.2-1.1.2-hotfix-1" = _ajXB63z0;
         "pkg-1.18.2-1.1.2-hotfix-1" = _LC5uJUV2;
@@ -633,7 +639,8 @@ let
         "pkg-1.21.1-1.9.0-ht1" = _R3MyXfQc;
         "pkg-1.21.1-1.9.0-ht2" = _qEcBfwlD;
         "pkg-1.21.1-1.9.0-ht3" = _t6MATlU9;
-        "default" = _t6MATlU9;
+        "pkg-1.21.1-1.10.0" = _RrwdLx9S;
+        "default" = _RrwdLx9S;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-encased";

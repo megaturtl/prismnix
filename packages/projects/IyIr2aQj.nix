@@ -16,10 +16,16 @@ let
             "file" = "treecapitatorlite-1.0.1-1.21.4+.jar";
             "hash" = "sha512-mOGfc7BcbMlVQRnH3MtZilBWyTu/9ScwDSEGQw3f3GZVK/ACpZLeAzNmzkat4qUicATfx2r1C0jlvWz+2gDtJA==";
         };
+        _lVanDHeb = {
+            "id" = "lVanDHeb";
+            "file" = "treecapitatorlite-1.0.2+26.3.jar";
+            "hash" = "sha512-g8tsMkAsLjAaLegMyYlYwjQcHb/rSAR9gYtVT8AYQu4X2w00z/na36datk241fixvdWSJ4MlFSA5NuEy/JqLNg==";
+        };
     in {
         "kxpIU4Bi" = _kxpIU4Bi;
         "RZRSETod" = _RZRSETod;
         "5oDVrgFh" = _5oDVrgFh;
+        "lVanDHeb" = _lVanDHeb;
         "fabric-26.1" = _kxpIU4Bi;
         "fabric-26.1.1" = _kxpIU4Bi;
         "fabric-26.1.2" = _kxpIU4Bi;
@@ -35,10 +41,12 @@ let
         "fabric-1.21.9" = _5oDVrgFh;
         "fabric-1.21.10" = _5oDVrgFh;
         "fabric-1.21.11" = _5oDVrgFh;
+        "fabric-26.3" = _lVanDHeb;
         "pkg-1.0.2" = _kxpIU4Bi;
         "pkg-1.0.0" = _RZRSETod;
         "pkg-1.0.1" = _5oDVrgFh;
-        "default" = _5oDVrgFh;
+        "pkg-1.0.3" = _lVanDHeb;
+        "default" = _lVanDHeb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "treecapitator-lite";

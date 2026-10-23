@@ -31,6 +31,11 @@ let
             "file" = "scuba_gear-1.20.4-1.0.6.jar";
             "hash" = "sha512-KRYVp1/VWcWhwy+ULUDehWPEm8N/noKTymg+7i+J1L/oSpU3lTzMjqT/UNYLcHRU8qnhPSMMODnqTp/rlM4S/g==";
         };
+        _87Ag9Dat = {
+            "id" = "87Ag9Dat";
+            "file" = "scuba_gear-26.1.2-1.1.0.jar";
+            "hash" = "sha512-M4HBBIAJZw/mFIuI54qc1Wq+u50HlygqZaXoXZKp0AeR1HYVpeuxhi3LkQ1DOVbiUdEjxa+k6BOSLmGB110rTw==";
+        };
     in {
         "1PmwBI6C" = _1PmwBI6C;
         "A1El1KOy" = _A1El1KOy;
@@ -38,6 +43,7 @@ let
         "QOQN879X" = _QOQN879X;
         "QGN20HZi" = _QGN20HZi;
         "2zbnuLJr" = _2zbnuLJr;
+        "87Ag9Dat" = _87Ag9Dat;
         "forge-1.16.5" = _1PmwBI6C;
         "forge-1.18.2" = _A1El1KOy;
         "forge-1.19" = _J7IwlNls;
@@ -46,11 +52,13 @@ let
         "forge-1.19.4" = _QOQN879X;
         "forge-1.20.1" = _QGN20HZi;
         "neoforge-1.20.4" = _2zbnuLJr;
+        "neoforge-26.1.2" = _87Ag9Dat;
         "pkg-1.0.3" = _1PmwBI6C;
         "pkg-1.0.4" = _A1El1KOy;
         "pkg-1.0.5" = _J7IwlNls;
         "pkg-1.0.6" = _2zbnuLJr;
-        "default" = _2zbnuLJr;
+        "pkg-1.1.0" = _87Ag9Dat;
+        "default" = _87Ag9Dat;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "scuba-gear";

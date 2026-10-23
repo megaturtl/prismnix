@@ -166,6 +166,46 @@ let
             "file" = "zombieimprovements-fabric-1.2.2+26.3.jar";
             "hash" = "sha512-L+GC4UmSMF9dEU7eIPWitr4wVE3q699Fcq1B12tPfnjoC9Qu4ey1xb0fEQ9+B5KFAAijb1o8F/ejWlAzVQ0lgA==";
         };
+        _AtjJoCwx = {
+            "id" = "AtjJoCwx";
+            "file" = "zombieimprovements-neoforge-1.2.3+26.1.2.jar";
+            "hash" = "sha512-sv/dMCHWKz/FGgBF5aRAwtricWLFPbMc9Gj30JqtO5ijmyBOWIxAv0v0VirIQLLtzo6dPMnO5tImbMIhyj527Q==";
+        };
+        _1PbjqsDB = {
+            "id" = "1PbjqsDB";
+            "file" = "zombieimprovements-neoforge-1.2.3+26.3.jar";
+            "hash" = "sha512-KHMzmvhlebe13LLGtYXfY6gctTrKrzMagMe0V6QqMIu7XW74SYmXUzG9okUX90Z+hN2eaSVhN1TrTjQlOv67JA==";
+        };
+        _lIQZduDc = {
+            "id" = "lIQZduDc";
+            "file" = "zombieimprovements-neoforge-1.2.3+26.2.jar";
+            "hash" = "sha512-mhOFYZlvtV3gVnXVGj1jds6LmxvD2CsUEPllxuN5zBEQ7yR2/RBvW/juiytJAFY/BfxpPAu3AA3Bf2gHSrCOpA==";
+        };
+        _EklyZCQ1 = {
+            "id" = "EklyZCQ1";
+            "file" = "zombieimprovements-neoforge-1.2.3+1.21.1.jar";
+            "hash" = "sha512-mNcG+t4hGgh89+hXkU+F+YvFW02U1hB0Us/RKaINkkGFiy6ePnB/r5go7wT977p9GSVn0x/Doh3LDlz9DuMWrg==";
+        };
+        _bMQRFfGZ = {
+            "id" = "bMQRFfGZ";
+            "file" = "zombieimprovements-fabric-1.2.3+1.21.1.jar";
+            "hash" = "sha512-VpyAOYlry+nZCtJV9noUNt6GYIoRAEiYc0vLI1GnM6P05oi+Bfk6ZABVM8XIzC97bYWrv/sJkd9LSqiypad7BA==";
+        };
+        _I0XuFD3z = {
+            "id" = "I0XuFD3z";
+            "file" = "zombieimprovements-fabric-1.2.3+26.3.jar";
+            "hash" = "sha512-Dt2N3+EoTDYrNjRvC44TOhqPcrTKp1+D2pk6duB4+M2QeW1PDj4i897yJ8ydF3aOIq/c4Wrx7M4g3DfJScs78A==";
+        };
+        _qBmFBVKH = {
+            "id" = "qBmFBVKH";
+            "file" = "zombieimprovements-fabric-1.2.3+26.2.jar";
+            "hash" = "sha512-CM6BhwHmFvBVuN156xh6vt0SLEBb7cSrE7/TKpqptS9OhjLKCOIp0bzJDwupAqf+3UX+5eBzChpik7iU5VmtLQ==";
+        };
+        _jFD6vptb = {
+            "id" = "jFD6vptb";
+            "file" = "zombieimprovements-fabric-1.2.3+26.1.2.jar";
+            "hash" = "sha512-IQOyLNhtyUSllnIqG9ggYSWFdGoSBUtZy5qO+2ZQa+TAwMYhpZ2e1felPPFjcPinauX+vj1avGLPSxK0dt162g==";
+        };
     in {
         "y6psA4wC" = _y6psA4wC;
         "9bzc9nWX" = _9bzc9nWX;
@@ -200,22 +240,33 @@ let
         "dlwDRjqx" = _dlwDRjqx;
         "bhXxGeVH" = _bhXxGeVH;
         "2PRZShmu" = _2PRZShmu;
-        "fabric-1.21.1" = _iVtvx2kF;
+        "AtjJoCwx" = _AtjJoCwx;
+        "1PbjqsDB" = _1PbjqsDB;
+        "lIQZduDc" = _lIQZduDc;
+        "EklyZCQ1" = _EklyZCQ1;
+        "bMQRFfGZ" = _bMQRFfGZ;
+        "I0XuFD3z" = _I0XuFD3z;
+        "qBmFBVKH" = _qBmFBVKH;
+        "jFD6vptb" = _jFD6vptb;
+        "fabric-1.21.1" = _bMQRFfGZ;
         "fabric-1.21.8" = _Zcpt7LWv;
         "fabric-1.21.10" = _n5EJxb0m;
         "fabric-1.21.11" = _YrUOwfIu;
-        "fabric-26.1" = _e5yYUzOh;
-        "fabric-26.1.1" = _e5yYUzOh;
-        "fabric-26.1.2" = _e5yYUzOh;
-        "fabric-26.2" = _e5yYUzOh;
-        "fabric-26.3" = _2PRZShmu;
+        "fabric-26.1" = _jFD6vptb;
+        "fabric-26.1.1" = _jFD6vptb;
+        "fabric-26.1.2" = _jFD6vptb;
+        "fabric-26.2" = _qBmFBVKH;
+        "fabric-26.3" = _I0XuFD3z;
+        "fabric-1.21" = _bMQRFfGZ;
         "neoforge-1.21.10" = _QQSega9e;
-        "neoforge-1.21.1" = _3ywYz3xA;
+        "neoforge-1.21.1" = _EklyZCQ1;
         "neoforge-1.21.11" = _qhFWfoPr;
-        "neoforge-26.1" = _dlwDRjqx;
-        "neoforge-26.1.1" = _dlwDRjqx;
-        "neoforge-26.1.2" = _dlwDRjqx;
-        "neoforge-26.2" = _bhXxGeVH;
+        "neoforge-26.1" = _AtjJoCwx;
+        "neoforge-26.1.1" = _AtjJoCwx;
+        "neoforge-26.1.2" = _AtjJoCwx;
+        "neoforge-26.2" = _lIQZduDc;
+        "neoforge-26.3" = _1PbjqsDB;
+        "neoforge-1.21" = _EklyZCQ1;
         "pkg-1.0.0+1.21.1" = _y6psA4wC;
         "pkg-1.0.0+1.21.8" = _9bzc9nWX;
         "pkg-1.0.1+1.21.1" = _xlGmCXvi;
@@ -249,7 +300,11 @@ let
         "pkg-1.2.2+26.1-neoforge" = _dlwDRjqx;
         "pkg-1.2.2+26.2" = _bhXxGeVH;
         "pkg-1.2.2+26.3" = _2PRZShmu;
-        "default" = _2PRZShmu;
+        "pkg-1.2.3+26.1.2" = _jFD6vptb;
+        "pkg-1.2.3+26.3" = _I0XuFD3z;
+        "pkg-1.2.3+26.2" = _qBmFBVKH;
+        "pkg-1.2.3+1.21.1" = _bMQRFfGZ;
+        "default" = _jFD6vptb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zombieimprovements";

@@ -246,6 +246,21 @@ let
             "file" = "antarchy-forge-1.20.1-2.2.6.jar";
             "hash" = "sha512-Pbd2UHw63To4yhnGyWsddnZyyt3EL1RRbeAwE3vnn7+IGWVr67XB9kNQfaSdY0vs1ZM3g12UxxHnYAvS2J6Atw==";
         };
+        _n8WwHKbn = {
+            "id" = "n8WwHKbn";
+            "file" = "antarchy-2.2.7+1.21.1-fabric.jar";
+            "hash" = "sha512-hcXb30SrHyes9ii4jTN1RwJRVzeY0ChKlbfvEkfsUrU6tU6LQEGExX2SaUfsESRr4UDFbQKYS3VJWFcHTmtDDA==";
+        };
+        _j8MRnpZm = {
+            "id" = "j8MRnpZm";
+            "file" = "antarchy-2.2.7+1.21.1-neoforge.jar";
+            "hash" = "sha512-Aqfwy/XiAPyn+gkHZ34steiKii0pui2xNeO0U95VmLiUyy1E9MxjsbZc8C5hhe+kEjiMeR0uFHkdy5MTetCXQg==";
+        };
+        _TIiwQYt0 = {
+            "id" = "TIiwQYt0";
+            "file" = "antarchy-forge-1.20.1-2.2.7.jar";
+            "hash" = "sha512-5y+87iO/tEM2aMtC88KxN+nASj/4KqYDXB0YEcd5WszWdhkCuYFg9cIOMy3ucRBIFmpk5PEZwz0oAJkbp+7F1A==";
+        };
     in {
         "qgH4iMrS" = _qgH4iMrS;
         "NcwigKSp" = _NcwigKSp;
@@ -296,9 +311,12 @@ let
         "yM1aWWvK" = _yM1aWWvK;
         "v5nkDw9m" = _v5nkDw9m;
         "iK1zA41B" = _iK1zA41B;
-        "fabric-1.21.1" = _yM1aWWvK;
-        "neoforge-1.21.1" = _v5nkDw9m;
-        "forge-1.20.1" = _iK1zA41B;
+        "n8WwHKbn" = _n8WwHKbn;
+        "j8MRnpZm" = _j8MRnpZm;
+        "TIiwQYt0" = _TIiwQYt0;
+        "fabric-1.21.1" = _n8WwHKbn;
+        "neoforge-1.21.1" = _j8MRnpZm;
+        "forge-1.20.1" = _TIiwQYt0;
         "pkg-beta-V1+1.21.1-fabric" = _qgH4iMrS;
         "pkg-beta-V5+1.21.1-neoforge" = _NcwigKSp;
         "pkg-beta-V6+1.21.1-fabric" = _5OV2ytTI;
@@ -348,7 +366,10 @@ let
         "pkg-2.2.6+1.21.1-fabric" = _yM1aWWvK;
         "pkg-2.2.6+1.21.1-neoforge" = _v5nkDw9m;
         "pkg-2.2.6" = _iK1zA41B;
-        "default" = _iK1zA41B;
+        "pkg-2.2.7+1.21.1-fabric" = _n8WwHKbn;
+        "pkg-2.2.7+1.21.1-neoforge" = _j8MRnpZm;
+        "pkg-2.2.7" = _TIiwQYt0;
+        "default" = _TIiwQYt0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "antarchy";

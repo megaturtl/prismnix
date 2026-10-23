@@ -126,6 +126,11 @@ let
             "file" = "chalk-3.2.0+26.2.jar";
             "hash" = "sha512-f/O91b8gr8+y4d2sJbkyoY8lz2OmBIyzZVoUVTgcDIbRi+Otx0K2otuR6NuCGGM55SyNtHmoiozxmqq6n/CKOw==";
         };
+        _IfK88aD4 = {
+            "id" = "IfK88aD4";
+            "file" = "chalk-3.2.0+26.3.jar";
+            "hash" = "sha512-6f5efBxgVm5qqCU/LmrWfKFMcqCgDh2+RRSQiAzm2cXRGJubjOTZsYGujCb0UV4OMuuZYgC+cQVlC2fPBvRkTw==";
+        };
     in {
         "uPEa7LBz" = _uPEa7LBz;
         "WIVrCBs3" = _WIVrCBs3;
@@ -152,6 +157,7 @@ let
         "G9Oljtjl" = _G9Oljtjl;
         "t82eeyB1" = _t82eeyB1;
         "Im9gI64u" = _Im9gI64u;
+        "IfK88aD4" = _IfK88aD4;
         "fabric-1.17.1" = _uPEa7LBz;
         "fabric-1.18" = _HExgjOqr;
         "fabric-1.18.1" = _HExgjOqr;
@@ -178,6 +184,7 @@ let
         "fabric-26.1.1" = _t82eeyB1;
         "fabric-26.1.2" = _t82eeyB1;
         "fabric-26.2" = _Im9gI64u;
+        "fabric-26.3" = _IfK88aD4;
         "quilt-1.19" = _2kBPnANn;
         "quilt-1.19.1" = _2kBPnANn;
         "quilt-1.19.2" = _2kBPnANn;
@@ -211,7 +218,8 @@ let
         "pkg-3.1.0+26.1" = _G9Oljtjl;
         "pkg-3.1.1+26.1" = _t82eeyB1;
         "pkg-3.2.0+26.2" = _Im9gI64u;
-        "default" = _Im9gI64u;
+        "pkg-3.2.0+26.3" = _IfK88aD4;
+        "default" = _IfK88aD4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chalk";

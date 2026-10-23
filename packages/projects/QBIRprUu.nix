@@ -471,6 +471,16 @@ let
             "file" = "swbb-fabric-1.21.1-1.4.0-beta.jar";
             "hash" = "sha512-XFHMgd/LkEf9b9q11ih936kAy7fN+az/cOxhKGAiwQN2KmjE1bwh/ru4byegvKubriGZ8N6IpVS1raFbO5sXAg==";
         };
+        _AL6hTYUo = {
+            "id" = "AL6hTYUo";
+            "file" = "swbb-neoforge-1.21.1-1.4.1-beta.jar";
+            "hash" = "sha512-dmLPXKO1d5pZmXSVCXwK6ox/exUzRitRWhbvjq6MIoBQANzaEt4tFA/XYkyJCJp7pYYxc5aAe0weqY+jzJR7+A==";
+        };
+        _w90kr05N = {
+            "id" = "w90kr05N";
+            "file" = "swbb-fabric-1.21.1-1.4.1-beta.jar";
+            "hash" = "sha512-yJUFn0LmQgDAWGBtIN633L8FZdfCO8xabW4Z6i2N6hEcRgSTCvXTHhOUWZuvk4L0d88puunt40ZfuozIygfyFw==";
+        };
     in {
         "KjpK96yR" = _KjpK96yR;
         "6UpjzNXl" = _6UpjzNXl;
@@ -566,9 +576,11 @@ let
         "ICNUvIEF" = _ICNUvIEF;
         "DdRUFPgO" = _DdRUFPgO;
         "6chzZzb5" = _6chzZzb5;
+        "AL6hTYUo" = _AL6hTYUo;
+        "w90kr05N" = _w90kr05N;
         "fabric-1.20.2" = _6UpjzNXl;
-        "fabric-1.21.1" = _6chzZzb5;
-        "neoforge-1.21.1" = _DdRUFPgO;
+        "fabric-1.21.1" = _w90kr05N;
+        "neoforge-1.21.1" = _AL6hTYUo;
         "pkg-legacy-pswg-adventures-0.0.16" = _KjpK96yR;
         "pkg-legacy-pswg-adventures-0.0.24.1" = _6UpjzNXl;
         "pkg-0.5.0" = _zkjZpWRP;
@@ -617,7 +629,8 @@ let
         "pkg-1.3.6-beta" = _MZibEgbB;
         "pkg-1.3.8-beta" = _ICNUvIEF;
         "pkg-1.4.0-beta" = _6chzZzb5;
-        "default" = _6chzZzb5;
+        "pkg-1.4.1-beta" = _w90kr05N;
+        "default" = _w90kr05N;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "starwars-bb";

@@ -41,6 +41,11 @@ let
             "file" = "caelum-3.0.0.6+1.21.1.jar";
             "hash" = "sha512-HtPiCa08HIwa7bvNQuD544TIN4rW09vvWIQRzyIE2ank3jubdQ/Of2NzVH2NjEnajhaguKOfcbVmKlmZJSn74Q==";
         };
+        _v7m56Suu = {
+            "id" = "v7m56Suu";
+            "file" = "caelum-3.0.0.7+1.21.1.jar";
+            "hash" = "sha512-uWZn3uOummoEdCTmwCCDQUi6MVZy8Dh6j5fgED3TvPJNjHnpVjDnt72qJwiHna8i/D1Adrz9co8fVkMTX0J3bg==";
+        };
     in {
         "7JGuqBG4" = _7JGuqBG4;
         "ouDwow5o" = _ouDwow5o;
@@ -50,9 +55,10 @@ let
         "gh76BJSg" = _gh76BJSg;
         "q4NoMKwI" = _q4NoMKwI;
         "n6LJlQL2" = _n6LJlQL2;
+        "v7m56Suu" = _v7m56Suu;
         "forge-1.20.1" = _7JGuqBG4;
         "neoforge-1.20.1" = _7JGuqBG4;
-        "neoforge-1.21.1" = _n6LJlQL2;
+        "neoforge-1.21.1" = _v7m56Suu;
         "pkg-1.20.1-2.0.0.0" = _7JGuqBG4;
         "pkg-2.0.0.0" = _ouDwow5o;
         "pkg-3.0.0.0" = _Tlm0xIvF;
@@ -61,7 +67,8 @@ let
         "pkg-3.0.0.4" = _gh76BJSg;
         "pkg-3.0.0.5" = _q4NoMKwI;
         "pkg-3.0.0.6" = _n6LJlQL2;
-        "default" = _n6LJlQL2;
+        "pkg-3.0.0.7" = _v7m56Suu;
+        "default" = _v7m56Suu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "caelum";

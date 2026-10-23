@@ -246,6 +246,246 @@ let
             "file" = "alternative_nether_portal_color-26.3.zip";
             "hash" = "sha512-o1MSp4hiu8Lu+6CxBnEHudVa1VUveC+jDkDN546HIyl/IBMhNoxQ2qhioBmpn4HOvOK/lqF4FymO1kFiaTadVw==";
         };
+        _SrjXqX8J = {
+            "id" = "SrjXqX8J";
+            "file" = "Alternative Nether Portal Color 1.1.0 MC1.14.zip";
+            "hash" = "sha512-IuvbC5dLRy0JXa1zW1hV/6KVHgAdArbd0oZdAd5TwdhFr5vVW6th5MvMoDGhxM7vVOKRXMGQXSn6Y3LbUi/6RA==";
+        };
+        _WwtPs3Fh = {
+            "id" = "WwtPs3Fh";
+            "file" = "Alternative Nether Portal Color 1.1.0 MC1.14.1.zip";
+            "hash" = "sha512-IuvbC5dLRy0JXa1zW1hV/6KVHgAdArbd0oZdAd5TwdhFr5vVW6th5MvMoDGhxM7vVOKRXMGQXSn6Y3LbUi/6RA==";
+        };
+        _q1Ff9917 = {
+            "id" = "q1Ff9917";
+            "file" = "Alternative Nether Portal Color 1.1.0 MC1.14.2.zip";
+            "hash" = "sha512-5FJ2SHIjBUuaRTBv8TKPELR/aY6jnThpT/ezm7k7kXMNAyuHIu/qNm80zlh0bepCd0hZbzQ6Nq3zj1OicghbmQ==";
+        };
+        _RAZUSklV = {
+            "id" = "RAZUSklV";
+            "file" = "Alternative Nether Portal Color 1.1.0 MC1.14.3.zip";
+            "hash" = "sha512-GWKgW0JxLwmpG2c5+yc2CgRxsM/UxF1RDQD1I3lbiAYVpdHIvKrBvnK+d0fkTmTyz63syEXlVX+DerUpZXxNLA==";
+        };
+        _yOXvmX65 = {
+            "id" = "yOXvmX65";
+            "file" = "Alternative Nether Portal Color 1.1.0 MC1.14.4.zip";
+            "hash" = "sha512-GWKgW0JxLwmpG2c5+yc2CgRxsM/UxF1RDQD1I3lbiAYVpdHIvKrBvnK+d0fkTmTyz63syEXlVX+DerUpZXxNLA==";
+        };
+        _5tQV2k3z = {
+            "id" = "5tQV2k3z";
+            "file" = "Alternative Nether Portal Color 1.1.0 MC1.15.zip";
+            "hash" = "sha512-c2yNrMBD04pdRCE07NMIpYc2TvG4WjoVMG/4kWqtgGqDBAOr5tAl+n1kYRoqIxnLPZYtDc8h8EpGsS7Qw1Zadg==";
+        };
+        _LxRRueb9 = {
+            "id" = "LxRRueb9";
+            "file" = "Alternative Nether Portal Color 1.1.0 MC1.15.1.zip";
+            "hash" = "sha512-c2yNrMBD04pdRCE07NMIpYc2TvG4WjoVMG/4kWqtgGqDBAOr5tAl+n1kYRoqIxnLPZYtDc8h8EpGsS7Qw1Zadg==";
+        };
+        _6NuuoSoz = {
+            "id" = "6NuuoSoz";
+            "file" = "Alternative Nether Portal Color 1.1.0 MC1.15.2.zip";
+            "hash" = "sha512-BWGy4T5sfd+7tG7TLW952xBomAXWjVNwGDgpFzpLb8QHKfdBm6fMlQR2Y92KedW7kM2x2EKNkJq1KzVn/wQA0g==";
+        };
+        _pUCX420X = {
+            "id" = "pUCX420X";
+            "file" = "Alternative Nether Portal Color 1.1.0 MC1.16.zip";
+            "hash" = "sha512-tqPaqVzMemQkM3fe9LHl+2DJDDPUzTh/aHzyyFGTm72cNo5BT5vBLUIbkeLQjZe8F5kXrZNhwyK1nGyGeLCXHg==";
+        };
+        _lFbDdZUD = {
+            "id" = "lFbDdZUD";
+            "file" = "Alternative Nether Portal Color 1.1.0 MC1.16.1.zip";
+            "hash" = "sha512-ieSLfCZyJY2EZN40cN/SFaZDCBxsOowKQiqprMpYjDJQQ8iOyp6CqN3kuSIceg+ksJ+zYbVxxpWJRMIL8wcEDg==";
+        };
+        _mHFddUPD = {
+            "id" = "mHFddUPD";
+            "file" = "Alternative Nether Portal Color 1.1.0 MC1.16.2.zip";
+            "hash" = "sha512-G7NtI24ZBCs+TjtQgKN7DFFsf2T6zprQl7T5NKp+pMEHPji2+KOY+GNkA4ApmsdRU7yWI+TtWak4sf7U7x0L6g==";
+        };
+        _ePsjlpzG = {
+            "id" = "ePsjlpzG";
+            "file" = "Alternative Nether Portal Color 1.1.0 MC1.16.3.zip";
+            "hash" = "sha512-kImOXA/0RNW6TF7YRAVTkI+x1dmnVGq1zXksn244zUNJOLEfvDQibAZuAPjKKsaJHRValCTs5rujKrOju0vqLA==";
+        };
+        _xnH2UG3k = {
+            "id" = "xnH2UG3k";
+            "file" = "Alternative Nether Portal Color 1.1.0 MC1.16.4.zip";
+            "hash" = "sha512-DCQDGvH8Abv4Xysb7oocn9hpYlZvId4Ur7bBjXM86ZnyHxcO/NYtx3mAumvX9YjNa4AUFikHQ0NVFK+HxtEgvA==";
+        };
+        _nKBxrDji = {
+            "id" = "nKBxrDji";
+            "file" = "Alternative Nether Portal Color 1.1.0 MC1.16.5.zip";
+            "hash" = "sha512-F0NKeniv2vahZEU+m0t8uUfdVAnbDjMN+fTxLRcVgJDcYgtbDvSY5Ub1sZIb9CwMWYIOvC16f1trolaKFfhnoA==";
+        };
+        _bKrF9nGg = {
+            "id" = "bKrF9nGg";
+            "file" = "Alternative Nether Portal Color 1.1.0 MC1.17.zip";
+            "hash" = "sha512-sofOyyBBoiEnMoBxdtB3jYHJR5TGRGRfKlSlGoIT/OAiOrZReJhEIkloI9LyL+iOht7+drKtIwEbTzT1pRMhRQ==";
+        };
+        _XtX2NLJA = {
+            "id" = "XtX2NLJA";
+            "file" = "Alternative Nether Portal Color 1.1.0 MC1.17.1.zip";
+            "hash" = "sha512-2Wx2B/gkrq0HzVJg1VjGIL2beew6D+S22cOcG6v+OUvlei4zALkpdNo7PPXyQOqh5drTP/zFRb4ljA9q11/gAQ==";
+        };
+        _MjitPsxR = {
+            "id" = "MjitPsxR";
+            "file" = "Alternative Nether Portal Color 1.1.0 MC1.18.zip";
+            "hash" = "sha512-UC2u9w4y5p3un4Jr6wANetXfT/SdL9DSQB49J4oZitrImRdqyqxRgrHbfGsbNunHHQt8BwDGeH+8+Q7lMEs2zg==";
+        };
+        _9LnwL9n2 = {
+            "id" = "9LnwL9n2";
+            "file" = "Alternative Nether Portal Color 1.1.0 MC1.18.1.zip";
+            "hash" = "sha512-YkeTbOYB9p6olrJsy7uioppoKvuCshARIIlmE4/a+PGcX8MKK9/a5yYIUN8gqG8w1IC3R/fPI3C3NzE7mfvrNQ==";
+        };
+        _xeoLDsab = {
+            "id" = "xeoLDsab";
+            "file" = "Alternative Nether Portal Color 1.1.0 MC1.18.2.zip";
+            "hash" = "sha512-JsF2Jm0DVCXsyRwUyszWJnZYHZtIYs19vsigXAXpvTfLqiCmT+Yei0XB7MidIPqVs/KmKyn20QxG0EVAG5SZ8g==";
+        };
+        _Y9HhjS9b = {
+            "id" = "Y9HhjS9b";
+            "file" = "Alternative Nether Portal Color 1.1.0 MC1.19.zip";
+            "hash" = "sha512-0BgjToasxzGEaGCO7RMxG20dCyU72p8vAxM1cv0FH88TdUljpNFfBRUf/J9aE8zjfdUhPCHpfk7TQJRNjVt0KA==";
+        };
+        _3ymozkgh = {
+            "id" = "3ymozkgh";
+            "file" = "Alternative Nether Portal Color 1.1.0 MC1.19.1.zip";
+            "hash" = "sha512-0BgjToasxzGEaGCO7RMxG20dCyU72p8vAxM1cv0FH88TdUljpNFfBRUf/J9aE8zjfdUhPCHpfk7TQJRNjVt0KA==";
+        };
+        _ngMT8P5w = {
+            "id" = "ngMT8P5w";
+            "file" = "Alternative Nether Portal Color 1.1.0 MC1.19.2.zip";
+            "hash" = "sha512-kA1pCg2IZqmPycei5UMqbMk0kON5V5eVxFKWfjsyIDUmBR18/888E1Wm6YSAKpgGao96q3lMXKI40iMYyB88HQ==";
+        };
+        _jutXVu7Y = {
+            "id" = "jutXVu7Y";
+            "file" = "Alternative Nether Portal Color 1.1.0 MC1.19.3.zip";
+            "hash" = "sha512-Uk4/1LDHZad/1N0J27KLt5eAPzAUTQhemJDd3c3tpmKgNJPQ/53quAv5HHXcG9hUobX1iabC9V7+VMuwRY0TXQ==";
+        };
+        _sUd40Ufc = {
+            "id" = "sUd40Ufc";
+            "file" = "Alternative Nether Portal Color 1.1.0 MC1.19.4.zip";
+            "hash" = "sha512-2hAm/+RYEQqvfTPDfNLda/tlDU2nd8eHb3lkNTy95Jaf61D5pXEwT8Ecsjsh1hoNlNPqYpdM4ZtWdFwpy8mIzw==";
+        };
+        _RozgTBic = {
+            "id" = "RozgTBic";
+            "file" = "Alternative Nether Portal Color 1.1.0 MC1.20.zip";
+            "hash" = "sha512-CeLnjkb6tFZdEdZq/w2JyE1agSXhq+VmkZWTuT6RxszRQzOj187zKXjgIwbkSJkTk+Y+bCXHj9Sse+HBhmtqMw==";
+        };
+        _qonAVYkd = {
+            "id" = "qonAVYkd";
+            "file" = "Alternative Nether Portal Color 1.1.0 MC1.20.1.zip";
+            "hash" = "sha512-1Ffru8bWNtEetQtVoIxjqIrZOUGCXJaSsqAwKDpRkiNgMy3RkIiRYRATnaDT5q+S76fOE7y1Rk2dsnU6W/1nwA==";
+        };
+        _CAqUcZOR = {
+            "id" = "CAqUcZOR";
+            "file" = "Alternative Nether Portal Color 1.1.0 MC1.20.2.zip";
+            "hash" = "sha512-woZeV10tQumPXIMd/kcGdAQBiUe3Q6wfF9MsWvBdyMQY3OW9Lgm5Oemeh/VNMOqaIMYDYqkKcj7siqn6UGXmYA==";
+        };
+        _hc87PzZv = {
+            "id" = "hc87PzZv";
+            "file" = "Alternative Nether Portal Color 1.1.0 MC1.20.3.zip";
+            "hash" = "sha512-+m1ohTNUYxSAY7cCUGk8RTF2pqyUfaKd6fNczo5eHyRLXYHAJPrEcIqFIKY9BOJbRHGibfGSCwMiBBwTMGDBxw==";
+        };
+        _WSCVPfLV = {
+            "id" = "WSCVPfLV";
+            "file" = "Alternative Nether Portal Color 1.1.0 MC1.20.4.zip";
+            "hash" = "sha512-G8DZNxSBkTKnan9GlTET5PBJvAvjlqzj1IOt05dwz6SWBfUNP4YbCiY+1kEE3N6yqz2YWtQiAGS9n4QytiT4Wg==";
+        };
+        _fHXlU5vU = {
+            "id" = "fHXlU5vU";
+            "file" = "Alternative Nether Portal Color 1.1.0 MC1.20.5.zip";
+            "hash" = "sha512-fLbnZqqCfFmhweSeTfouZZgfU3e/3iuTGtxji+Ok+yORwRSgn6Ar3miTAmCreWcxPWAJQ6VlM3F1CwfzhML77Q==";
+        };
+        _HtULyyLY = {
+            "id" = "HtULyyLY";
+            "file" = "Alternative Nether Portal Color 1.1.0 MC1.20.6.zip";
+            "hash" = "sha512-gaB6uGGGe2NeQPQRwB+RBEkIsoVqvaqGozfgGv3tH+OB+Fkd2ump6yIz+Yrdb2hPp75hEALSpEFJ/fNb9wpbCw==";
+        };
+        _zsDvYjcE = {
+            "id" = "zsDvYjcE";
+            "file" = "Alternative Nether Portal Color 1.1.0 MC1.21.zip";
+            "hash" = "sha512-G/WyUHDASIcU/q10wN91ZR/4xdqfI72tf07c/NgibAPwp7UViFQiyFv4Iv8plCGbBfoE941FnIRYpjQYKN1s8w==";
+        };
+        _Qd0Ujge6 = {
+            "id" = "Qd0Ujge6";
+            "file" = "Alternative Nether Portal Color 1.1.0 MC1.21.1.zip";
+            "hash" = "sha512-ze3JcCmBXu65pamlPwQsoO4nFDR3w0Dmh7r1X77UrlUkrlzwMliYwl2QLWeN2GQdsD1Tg5db/0MZOO7xILLRxg==";
+        };
+        _aMzKjXol = {
+            "id" = "aMzKjXol";
+            "file" = "Alternative Nether Portal Color 1.1.0 MC1.21.2.zip";
+            "hash" = "sha512-V1HOJcQdMZcpL/X/WYW5lr+49SLTNfxXhmH1w2tLj2CN1FgGp4vP1PccZupBClAcG/asUD5VdMzrjRs7pvWUDg==";
+        };
+        _TyNsVNNx = {
+            "id" = "TyNsVNNx";
+            "file" = "Alternative Nether Portal Color 1.1.0 MC1.21.3.zip";
+            "hash" = "sha512-NeB3TJwL2tkAPPskiLbRml9ZDFDFbcCYxZBqDK+PaTFmj4APe1Pd+6C8tD09QAhB/KQVa9w1BETbEJl2L1QI6A==";
+        };
+        _yup7dx86 = {
+            "id" = "yup7dx86";
+            "file" = "Alternative Nether Portal Color 1.1.0 MC1.21.4.zip";
+            "hash" = "sha512-xK8AK1pP9qJAh3wc5ImS/+hwMWofpxBwW04dRIDjaXqGi8FXSwzoAgahTeTgdSP6mG+gRD9yTJRTa3ysJUzHHQ==";
+        };
+        _B74vwomX = {
+            "id" = "B74vwomX";
+            "file" = "Alternative Nether Portal Color 1.1.0 MC1.21.5.zip";
+            "hash" = "sha512-OJtcD5r2QrTraoYV8CKc3n5h6GwMZUI/RFbsG32p4A0V0rkCG6WL1Wd4VDYfXsPjSKwGW2UDXjNvAjW+GVEktw==";
+        };
+        _m1rgYUu6 = {
+            "id" = "m1rgYUu6";
+            "file" = "Alternative Nether Portal Color 1.1.0 MC1.21.6.zip";
+            "hash" = "sha512-ZDeHdmDwIC+k7l9vfdu+qlrWNY93bD96AYETUX4GMABuksq/Aw+HaRw8IYW8Yk8Tvz4yAjblgEW1c2Cj1F0ArA==";
+        };
+        _jr5euxWm = {
+            "id" = "jr5euxWm";
+            "file" = "Alternative Nether Portal Color 1.1.0 MC1.21.7.zip";
+            "hash" = "sha512-hWW4QF9UwmwDhvKoKJHzRvwY4lWV2g0r68cnRE7Ihh6naASl6HMxWfWFG6tXwvqrDPwdihfGKR6PHL5UCzXrSw==";
+        };
+        _toIVTiMr = {
+            "id" = "toIVTiMr";
+            "file" = "Alternative Nether Portal Color 1.1.0 MC1.21.8.zip";
+            "hash" = "sha512-xWROuWUeo8VswIpxKjAVcehEYXuHKhEj12G90AiRvKnM0dQOd+G4QNOg0VLjGizUYa7qGjp8rgH7F8JneKF3wQ==";
+        };
+        _x4zt8JJ1 = {
+            "id" = "x4zt8JJ1";
+            "file" = "Alternative Nether Portal Color 1.1.0 MC1.21.9.zip";
+            "hash" = "sha512-oD3aHBu4wjlBQjux8ajHUYiV/+a+hemkey9NyFj/fz/ZAqDX6t75aL6i5SRiKjBscT1Rvrj8uFD7/pR/y1CCpA==";
+        };
+        _EQg925gm = {
+            "id" = "EQg925gm";
+            "file" = "Alternative Nether Portal Color 1.1.0 MC1.21.10.zip";
+            "hash" = "sha512-+6DipPuDxk2PkecV+ZPRMspxnlPTaF5MAvHEsoiBDXBHFKg27d0SR1SaOPJ7QNmpJABXSKCRhltLv78hT5l7cQ==";
+        };
+        _74mqpJiU = {
+            "id" = "74mqpJiU";
+            "file" = "Alternative Nether Portal Color 1.1.0 MC1.21.11.zip";
+            "hash" = "sha512-JMYpKkL7DCnB6NFkj8RYKKwGH5FZRrIoDCzVY3oThyy82Z69ETUwiJAe7/2LbmnkppKmF5HoIHuU8dK184pG+w==";
+        };
+        _Q6W2iDVx = {
+            "id" = "Q6W2iDVx";
+            "file" = "Alternative Nether Portal Color 1.1.0 MC26.1.zip";
+            "hash" = "sha512-WXNnlJSbDfX2eBsy4q1YL5nFafBKOlEZlf6feKS9+sVqQWasTLogZ110xAosiTwpYhlCFpmFVmex3hYFr8J+xw==";
+        };
+        _ZDAmaFyg = {
+            "id" = "ZDAmaFyg";
+            "file" = "Alternative Nether Portal Color 1.1.0 MC26.1.1.zip";
+            "hash" = "sha512-LJMl8VPb4atjtqbzE3hb2F1KZ4HvKhmqE8y+lAxzhXQWC5KVAnwmC/PH008aKyrVaBbd4LW1AYGAgaJmmnyEtQ==";
+        };
+        _a86QgbUt = {
+            "id" = "a86QgbUt";
+            "file" = "Alternative Nether Portal Color 1.1.0 MC26.1.2.zip";
+            "hash" = "sha512-3HjG/+wI0t6fo5iZU37aY8sMi/hp9KXk4RB5XJnn3hcB2aA1ol+Mi8qPmF99lO27Q7HGDf/YMC6AujJSD0As4g==";
+        };
+        _TTSuBBM6 = {
+            "id" = "TTSuBBM6";
+            "file" = "Alternative Nether Portal Color 1.1.0 MC26.2.zip";
+            "hash" = "sha512-7Kq2Q1BOsM6KNfgI7V3j91RF+ezcNrniFTdi80xPDZ6fz+d0m4mlveu6dUxmRjO6PfkBDAHr+6+q2ulGe6NOgQ==";
+        };
+        _RB0l4Idx = {
+            "id" = "RB0l4Idx";
+            "file" = "Alternative Nether Portal Color 1.1.0 MC26.3.zip";
+            "hash" = "sha512-3vBKYYGp/2G9KFjOApKnqv7nqmFfjRVi6S+3UgJ0+1RrwVMbuTQRxtRG0F/9MxSbPRPTNDthouSOFhcn85Qz+A==";
+        };
     in {
         "IhS4Kduj" = _IhS4Kduj;
         "XL2Wu81f" = _XL2Wu81f;
@@ -296,54 +536,102 @@ let
         "H0xLHVA8" = _H0xLHVA8;
         "F1dvcMDH" = _F1dvcMDH;
         "r5zIZeu9" = _r5zIZeu9;
-        "minecraft-1.19.4" = _GfUdhGVp;
-        "minecraft-1.14" = _XL2Wu81f;
-        "minecraft-1.14.1" = _OTQr8FAz;
-        "minecraft-1.14.2" = _1De8tXyt;
-        "minecraft-1.14.3" = _5w5Ihuf0;
-        "minecraft-1.14.4" = _Z01XfxNM;
-        "minecraft-1.15" = _ofYWu9mE;
-        "minecraft-1.15.1" = _D9KkgAg2;
-        "minecraft-1.15.2" = _fxPzU78y;
-        "minecraft-1.16" = _zxU9eiBl;
-        "minecraft-1.16.1" = _SNEBfyiR;
-        "minecraft-1.16.2" = _aLHisk8E;
-        "minecraft-1.16.3" = _5Xh6Kqpr;
-        "minecraft-1.16.4" = _hlOXwqFt;
-        "minecraft-1.16.5" = _uinP0rMt;
-        "minecraft-1.17" = _jmZDRrId;
-        "minecraft-1.17.1" = _G7PxV9Tp;
-        "minecraft-1.18" = _hnyaRBRj;
-        "minecraft-1.18.1" = _rh7N9tsQ;
-        "minecraft-1.18.2" = _nw7kYFWV;
-        "minecraft-1.19" = _9lmBo1D1;
-        "minecraft-1.19.1" = _7QgV4bVY;
-        "minecraft-1.19.2" = _AWVHQHBK;
-        "minecraft-1.19.3" = _5FIJMkr7;
-        "minecraft-1.20" = _yAyTIPsA;
-        "minecraft-1.20.1" = _gxtmJ9mk;
-        "minecraft-1.20.2" = _NpaTYuXI;
-        "minecraft-1.20.3" = _TZGGRtWc;
-        "minecraft-1.20.4" = _x2ZbFNZw;
-        "minecraft-1.20.5" = _sA3q8Hek;
-        "minecraft-1.20.6" = _AQRpoUft;
-        "minecraft-1.21" = _vECqFHyM;
-        "minecraft-1.21.1" = _rTWVcavK;
-        "minecraft-1.21.2" = _9uCZRfV5;
-        "minecraft-1.21.3" = _5Gedd3Dg;
-        "minecraft-1.21.4" = _weNj0adH;
-        "minecraft-1.21.5" = _eYQm2WUp;
-        "minecraft-1.21.6" = _jr9jD0SE;
-        "minecraft-1.21.7" = _MusmCKzY;
-        "minecraft-1.21.8" = _erfNJ6Pp;
-        "minecraft-1.21.9" = _CvzGQ73F;
-        "minecraft-1.21.10" = _3lqnCneF;
-        "minecraft-1.21.11" = _UAoVDGfQ;
-        "minecraft-26.1" = _zjPD4iy0;
-        "minecraft-26.1.1" = _HgzNkXd0;
-        "minecraft-26.1.2" = _H0xLHVA8;
-        "minecraft-26.2" = _F1dvcMDH;
-        "minecraft-26.3" = _r5zIZeu9;
+        "SrjXqX8J" = _SrjXqX8J;
+        "WwtPs3Fh" = _WwtPs3Fh;
+        "q1Ff9917" = _q1Ff9917;
+        "RAZUSklV" = _RAZUSklV;
+        "yOXvmX65" = _yOXvmX65;
+        "5tQV2k3z" = _5tQV2k3z;
+        "LxRRueb9" = _LxRRueb9;
+        "6NuuoSoz" = _6NuuoSoz;
+        "pUCX420X" = _pUCX420X;
+        "lFbDdZUD" = _lFbDdZUD;
+        "mHFddUPD" = _mHFddUPD;
+        "ePsjlpzG" = _ePsjlpzG;
+        "xnH2UG3k" = _xnH2UG3k;
+        "nKBxrDji" = _nKBxrDji;
+        "bKrF9nGg" = _bKrF9nGg;
+        "XtX2NLJA" = _XtX2NLJA;
+        "MjitPsxR" = _MjitPsxR;
+        "9LnwL9n2" = _9LnwL9n2;
+        "xeoLDsab" = _xeoLDsab;
+        "Y9HhjS9b" = _Y9HhjS9b;
+        "3ymozkgh" = _3ymozkgh;
+        "ngMT8P5w" = _ngMT8P5w;
+        "jutXVu7Y" = _jutXVu7Y;
+        "sUd40Ufc" = _sUd40Ufc;
+        "RozgTBic" = _RozgTBic;
+        "qonAVYkd" = _qonAVYkd;
+        "CAqUcZOR" = _CAqUcZOR;
+        "hc87PzZv" = _hc87PzZv;
+        "WSCVPfLV" = _WSCVPfLV;
+        "fHXlU5vU" = _fHXlU5vU;
+        "HtULyyLY" = _HtULyyLY;
+        "zsDvYjcE" = _zsDvYjcE;
+        "Qd0Ujge6" = _Qd0Ujge6;
+        "aMzKjXol" = _aMzKjXol;
+        "TyNsVNNx" = _TyNsVNNx;
+        "yup7dx86" = _yup7dx86;
+        "B74vwomX" = _B74vwomX;
+        "m1rgYUu6" = _m1rgYUu6;
+        "jr5euxWm" = _jr5euxWm;
+        "toIVTiMr" = _toIVTiMr;
+        "x4zt8JJ1" = _x4zt8JJ1;
+        "EQg925gm" = _EQg925gm;
+        "74mqpJiU" = _74mqpJiU;
+        "Q6W2iDVx" = _Q6W2iDVx;
+        "ZDAmaFyg" = _ZDAmaFyg;
+        "a86QgbUt" = _a86QgbUt;
+        "TTSuBBM6" = _TTSuBBM6;
+        "RB0l4Idx" = _RB0l4Idx;
+        "minecraft-1.19.4" = _sUd40Ufc;
+        "minecraft-1.14" = _SrjXqX8J;
+        "minecraft-1.14.1" = _WwtPs3Fh;
+        "minecraft-1.14.2" = _q1Ff9917;
+        "minecraft-1.14.3" = _RAZUSklV;
+        "minecraft-1.14.4" = _yOXvmX65;
+        "minecraft-1.15" = _5tQV2k3z;
+        "minecraft-1.15.1" = _LxRRueb9;
+        "minecraft-1.15.2" = _6NuuoSoz;
+        "minecraft-1.16" = _pUCX420X;
+        "minecraft-1.16.1" = _lFbDdZUD;
+        "minecraft-1.16.2" = _mHFddUPD;
+        "minecraft-1.16.3" = _ePsjlpzG;
+        "minecraft-1.16.4" = _xnH2UG3k;
+        "minecraft-1.16.5" = _nKBxrDji;
+        "minecraft-1.17" = _bKrF9nGg;
+        "minecraft-1.17.1" = _XtX2NLJA;
+        "minecraft-1.18" = _MjitPsxR;
+        "minecraft-1.18.1" = _9LnwL9n2;
+        "minecraft-1.18.2" = _xeoLDsab;
+        "minecraft-1.19" = _Y9HhjS9b;
+        "minecraft-1.19.1" = _3ymozkgh;
+        "minecraft-1.19.2" = _ngMT8P5w;
+        "minecraft-1.19.3" = _jutXVu7Y;
+        "minecraft-1.20" = _RozgTBic;
+        "minecraft-1.20.1" = _qonAVYkd;
+        "minecraft-1.20.2" = _CAqUcZOR;
+        "minecraft-1.20.3" = _hc87PzZv;
+        "minecraft-1.20.4" = _WSCVPfLV;
+        "minecraft-1.20.5" = _fHXlU5vU;
+        "minecraft-1.20.6" = _HtULyyLY;
+        "minecraft-1.21" = _zsDvYjcE;
+        "minecraft-1.21.1" = _Qd0Ujge6;
+        "minecraft-1.21.2" = _aMzKjXol;
+        "minecraft-1.21.3" = _TyNsVNNx;
+        "minecraft-1.21.4" = _yup7dx86;
+        "minecraft-1.21.5" = _B74vwomX;
+        "minecraft-1.21.6" = _m1rgYUu6;
+        "minecraft-1.21.7" = _jr5euxWm;
+        "minecraft-1.21.8" = _toIVTiMr;
+        "minecraft-1.21.9" = _x4zt8JJ1;
+        "minecraft-1.21.10" = _EQg925gm;
+        "minecraft-1.21.11" = _74mqpJiU;
+        "minecraft-26.1" = _Q6W2iDVx;
+        "minecraft-26.1.1" = _ZDAmaFyg;
+        "minecraft-26.1.2" = _a86QgbUt;
+        "minecraft-26.2" = _TTSuBBM6;
+        "minecraft-26.3" = _RB0l4Idx;
         "pkg-0.1" = _IhS4Kduj;
         "pkg-1.0.0-mc.1.14" = _XL2Wu81f;
         "pkg-1.0.0-mc.1.14.1" = _OTQr8FAz;
@@ -393,7 +681,55 @@ let
         "pkg-1.0.0-mc.26.1.2" = _H0xLHVA8;
         "pkg-1.0.0-mc.26.2" = _F1dvcMDH;
         "pkg-1.0.0-mc.26.3" = _r5zIZeu9;
-        "default" = _r5zIZeu9;
+        "pkg-1.1.0-mc1.14" = _SrjXqX8J;
+        "pkg-1.1.0-mc1.14.1" = _WwtPs3Fh;
+        "pkg-1.1.0-mc1.14.2" = _q1Ff9917;
+        "pkg-1.1.0-mc1.14.3" = _RAZUSklV;
+        "pkg-1.1.0-mc1.14.4" = _yOXvmX65;
+        "pkg-1.1.0-mc1.15" = _5tQV2k3z;
+        "pkg-1.1.0-mc1.15.1" = _LxRRueb9;
+        "pkg-1.1.0-mc1.15.2" = _6NuuoSoz;
+        "pkg-1.1.0-mc1.16" = _pUCX420X;
+        "pkg-1.1.0-mc1.16.1" = _lFbDdZUD;
+        "pkg-1.1.0-mc1.16.2" = _mHFddUPD;
+        "pkg-1.1.0-mc1.16.3" = _ePsjlpzG;
+        "pkg-1.1.0-mc1.16.4" = _xnH2UG3k;
+        "pkg-1.1.0-mc1.16.5" = _nKBxrDji;
+        "pkg-1.1.0-mc1.17" = _bKrF9nGg;
+        "pkg-1.1.0-mc1.17.1" = _XtX2NLJA;
+        "pkg-1.1.0-mc1.18" = _MjitPsxR;
+        "pkg-1.1.0-mc1.18.1" = _9LnwL9n2;
+        "pkg-1.1.0-mc1.18.2" = _xeoLDsab;
+        "pkg-1.1.0-mc1.19" = _Y9HhjS9b;
+        "pkg-1.1.0-mc1.19.1" = _3ymozkgh;
+        "pkg-1.1.0-mc1.19.2" = _ngMT8P5w;
+        "pkg-1.1.0-mc1.19.3" = _jutXVu7Y;
+        "pkg-1.1.0-mc1.19.4" = _sUd40Ufc;
+        "pkg-1.1.0-mc1.20" = _RozgTBic;
+        "pkg-1.1.0-mc1.20.1" = _qonAVYkd;
+        "pkg-1.1.0-mc1.20.2" = _CAqUcZOR;
+        "pkg-1.1.0-mc1.20.3" = _hc87PzZv;
+        "pkg-1.1.0-mc1.20.4" = _WSCVPfLV;
+        "pkg-1.1.0-mc1.20.5" = _fHXlU5vU;
+        "pkg-1.1.0-mc1.20.6" = _HtULyyLY;
+        "pkg-1.1.0-mc1.21" = _zsDvYjcE;
+        "pkg-1.1.0-mc1.21.1" = _Qd0Ujge6;
+        "pkg-1.1.0-mc1.21.2" = _aMzKjXol;
+        "pkg-1.1.0-mc1.21.3" = _TyNsVNNx;
+        "pkg-1.1.0-mc1.21.4" = _yup7dx86;
+        "pkg-1.1.0-mc1.21.5" = _B74vwomX;
+        "pkg-1.1.0-mc1.21.6" = _m1rgYUu6;
+        "pkg-1.1.0-mc1.21.7" = _jr5euxWm;
+        "pkg-1.1.0-mc1.21.8" = _toIVTiMr;
+        "pkg-1.1.0-mc1.21.9" = _x4zt8JJ1;
+        "pkg-1.1.0-mc1.21.10" = _EQg925gm;
+        "pkg-1.1.0-mc1.21.11" = _74mqpJiU;
+        "pkg-1.1.0-mc26.1" = _Q6W2iDVx;
+        "pkg-1.1.0-mc26.1.1" = _ZDAmaFyg;
+        "pkg-1.1.0-mc26.1.2" = _a86QgbUt;
+        "pkg-1.1.0-mc26.2" = _TTSuBBM6;
+        "pkg-1.1.0-mc26.3" = _RB0l4Idx;
+        "default" = _RB0l4Idx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "alternative-nether-portal-color";

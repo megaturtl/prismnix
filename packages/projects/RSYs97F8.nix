@@ -446,6 +446,16 @@ let
             "file" = "useful_ores-neoforge-2.2.0+mc1.21.3.jar";
             "hash" = "sha512-wR6aRnJ0GkOLy2ywc0qm6cypM1hIs6uB15KRJJg4eHlnznuy1MfQ5ZcdqVPuAoXh14+9x48euEZt0GPJT0QsCw==";
         };
+        _i1lyJkfi = {
+            "id" = "i1lyJkfi";
+            "file" = "useful-ores-fabric-2.2.0.1.jar";
+            "hash" = "sha512-EqCmPErwa2RjYwDOGtytq2DKTvtDKCSwAdM8l7YU3uanQzMFF9GEWEh85NQ7nUT80wm9kDD/OPV1akyGQiv80g==";
+        };
+        _5SgfWHcP = {
+            "id" = "5SgfWHcP";
+            "file" = "useful-ores-neoforge-2.2.0.1-26.3.jar";
+            "hash" = "sha512-9voGkq9F4T59CGIChuyjDeSvUKOBvAzlIgL/9WtKbVDuZWUS1yAopBSLdvvM9hNut1k6tzMhSbqHC60v6QvpYQ==";
+        };
     in {
         "2aAegw9y" = _2aAegw9y;
         "rMpDJlbG" = _rMpDJlbG;
@@ -536,9 +546,11 @@ let
         "krXnJNHy" = _krXnJNHy;
         "ybFEuZaa" = _ybFEuZaa;
         "7k2yOUBW" = _7k2yOUBW;
+        "i1lyJkfi" = _i1lyJkfi;
+        "5SgfWHcP" = _5SgfWHcP;
         "neoforge-26.1.2" = _bEAqI8xP;
         "neoforge-26.2" = _pFXPpqRT;
-        "neoforge-26.3" = _7MvWviVL;
+        "neoforge-26.3" = _5SgfWHcP;
         "neoforge-1.21.11" = _kGBvay7F;
         "neoforge-1.21.10" = _krXnJNHy;
         "neoforge-1.21.7" = _D4jYL9ch;
@@ -551,7 +563,7 @@ let
         "neoforge-1.21.1" = _ZymFchKL;
         "fabric-26.1.2" = _tt8yNHVT;
         "fabric-26.2" = _b73KIWPJ;
-        "fabric-26.3" = _YbFYaE6H;
+        "fabric-26.3" = _i1lyJkfi;
         "fabric-1.21.11" = _H2J816qL;
         "fabric-1.21.10" = _NNSqg4BM;
         "fabric-1.21.7" = _SgYTgnIe;
@@ -610,7 +622,8 @@ let
         "pkg-2.2.0-1.21-1.21.1" = _ZymFchKL;
         "pkg-2.2.0-1.21.10" = _krXnJNHy;
         "pkg-2.2.0-1.21.3" = _7k2yOUBW;
-        "default" = _7k2yOUBW;
+        "pkg-2.2.0.1-26.3" = _5SgfWHcP;
+        "default" = _5SgfWHcP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "useful-ores";

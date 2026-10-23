@@ -341,6 +341,26 @@ let
             "file" = "FlowerPatch-neoforge-26.3-16.0.1.jar";
             "hash" = "sha512-IEfoFzZ7S9JrVlzKUFoCT7vSEwzWojvkki5mLbyC3s48x432ofnUSa4rqqdgshRbNeY2+qzINry5uhGTLgICjg==";
         };
+        _peCboG0h = {
+            "id" = "peCboG0h";
+            "file" = "FlowerPatch-fabric-26.3-16.0.2.jar";
+            "hash" = "sha512-Utl0UfuDLd5aGM/CWkXGySHBTra1X8nc1/EgbAJlHAYgQKLejfL16AhMHGyM5MI+FqJbv9empNFaRPC/UEdZiQ==";
+        };
+        _x94v3GU8 = {
+            "id" = "x94v3GU8";
+            "file" = "FlowerPatch-neoforge-26.3-16.0.2.jar";
+            "hash" = "sha512-pBwkI6FdU0bMTvTjGa5Oh29jqEiR2VTrPMgidGz8H+oCd0NU+bLWn9qdXg82545rrphiMT2h81enFksN4zFiJw==";
+        };
+        _Q61rdS0J = {
+            "id" = "Q61rdS0J";
+            "file" = "FlowerPatch-fabric-26.1.2-14.1.0.jar";
+            "hash" = "sha512-hSVeeEqJaxjeI1ofewM2f+iilvI4bT2fwUhAIyXtt/ENw9b1haS+w1pUcKLbiXpHcJ5MconwqwL2CIWUKpaXmg==";
+        };
+        _zspOVTZr = {
+            "id" = "zspOVTZr";
+            "file" = "FlowerPatch-neoforge-26.1.2-14.1.0.jar";
+            "hash" = "sha512-Trh9VktQdKSAPA+gfHRDb8EGS0dVzfb4OG32LamfMWBNOvy6b3CjW2GyDydzoj2DAdTAldNpeC8X3/LB2a6r2g==";
+        };
     in {
         "G5FbWORq" = _G5FbWORq;
         "NOPf9fHy" = _NOPf9fHy;
@@ -410,6 +430,10 @@ let
         "mwHsVNbl" = _mwHsVNbl;
         "YkIJkb4t" = _YkIJkb4t;
         "hOuPct9G" = _hOuPct9G;
+        "peCboG0h" = _peCboG0h;
+        "x94v3GU8" = _x94v3GU8;
+        "Q61rdS0J" = _Q61rdS0J;
+        "zspOVTZr" = _zspOVTZr;
         "forge-1.18.2" = _G5FbWORq;
         "forge-1.19" = _MLODzvxN;
         "forge-1.19.1" = _MLODzvxN;
@@ -439,7 +463,8 @@ let
         "fabric-1.21.11" = _JiJQZcyj;
         "fabric-26.1.1" = _8gY3NM1K;
         "fabric-26.2" = _b6QRqz5o;
-        "fabric-26.3" = _YkIJkb4t;
+        "fabric-26.3" = _peCboG0h;
+        "fabric-26.1.2" = _Q61rdS0J;
         "neoforge-1.20.2" = _mIgLBgBv;
         "neoforge-1.20.4" = _da9dwCjm;
         "neoforge-1.20.6" = _ppEvAPwl;
@@ -453,7 +478,8 @@ let
         "neoforge-1.21.11" = _Z664vzgB;
         "neoforge-26.1.1" = _o5tpMidv;
         "neoforge-26.2" = _GerYi7bk;
-        "neoforge-26.3" = _hOuPct9G;
+        "neoforge-26.3" = _x94v3GU8;
+        "neoforge-26.1.2" = _zspOVTZr;
         "pkg-1.0.0" = _cbjuDBLW;
         "pkg-1.2.0" = _dD8fNaSY;
         "pkg-1.3.0" = _KbpCJ9J4;
@@ -488,7 +514,9 @@ let
         "pkg-15.0.0" = _GerYi7bk;
         "pkg-16.0.0" = _mwHsVNbl;
         "pkg-16.0.1" = _hOuPct9G;
-        "default" = _hOuPct9G;
+        "pkg-16.0.2" = _x94v3GU8;
+        "pkg-14.1.0" = _zspOVTZr;
+        "default" = _zspOVTZr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "flower-patch";

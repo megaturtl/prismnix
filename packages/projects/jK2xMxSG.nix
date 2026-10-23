@@ -121,6 +121,11 @@ let
             "file" = "display-delight-1.8.4-mc26.2.jar";
             "hash" = "sha512-uyDSlkmnyIKBYAtuiNJMW4C9v6YY8wXpXoy9hcNaV1jqBOXaN4f/R6Vqj9KKurkaT436gELPnzIw3ndipauCrg==";
         };
+        _1NU2weOx = {
+            "id" = "1NU2weOx";
+            "file" = "display-delight-1.8.5-mc26.3.jar";
+            "hash" = "sha512-g5hZuN+Pu5t1KTxEh4G0GvOrmNQCP40CCYwIxTWLdo56Jk1LIIZyHeiINyPPU8+wccqumMQbjDGKM/Bw+VNiNw==";
+        };
     in {
         "ZMy9411n" = _ZMy9411n;
         "x1S5ZHxV" = _x1S5ZHxV;
@@ -146,11 +151,13 @@ let
         "mQ4bMaqF" = _mQ4bMaqF;
         "Cy6o76lH" = _Cy6o76lH;
         "MSrMWH4D" = _MSrMWH4D;
+        "1NU2weOx" = _1NU2weOx;
         "fabric-1.21.1" = _10ODL2xQ;
         "fabric-1.21.11" = _3JuqJYU1;
         "fabric-1.20.1" = _O2weK21x;
         "fabric-26.1.2" = _mQ4bMaqF;
         "fabric-26.2" = _MSrMWH4D;
+        "fabric-26.3" = _1NU2weOx;
         "pkg-1.0.0-mc1.21.1" = _ZMy9411n;
         "pkg-1.2.0-mc1.21.1" = _x1S5ZHxV;
         "pkg-1.4.0-mc1.21.1" = _yXgO5bMI;
@@ -175,7 +182,8 @@ let
         "pkg-1.8.3-mc26.1.2" = _mQ4bMaqF;
         "pkg-1.8.3-mc26.2" = _Cy6o76lH;
         "pkg-1.8.4-mc26.2" = _MSrMWH4D;
-        "default" = _MSrMWH4D;
+        "pkg-1.8.5-mc26.3" = _1NU2weOx;
+        "default" = _1NU2weOx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "display-delight-fabric";

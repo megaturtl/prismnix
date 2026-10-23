@@ -26,19 +26,26 @@ let
             "file" = "Sinew-1.21.1-1.3.0.jar";
             "hash" = "sha512-onWnoxm4KGJkhIz1PSPwQ6f5hKZylSkXPUMWcsTKH8pGu5gQD7BtCz/o8PL8TjbtklBaYn/z+/Sf5mRQmiVU6A==";
         };
+        _RZyz4KvF = {
+            "id" = "RZyz4KvF";
+            "file" = "Sinew-1.21.1-1.4.0.jar";
+            "hash" = "sha512-U6WMpik3GULwuFhi+sT5dBfQorjKMfFZTmf9ZR7LirnyUe1rQ1Yf36obMkmt9mZaUKAzJkIp0+caZSgGwIntfA==";
+        };
     in {
         "maURn48A" = _maURn48A;
         "EPIZhpL4" = _EPIZhpL4;
         "pxScoMJC" = _pxScoMJC;
         "uhOLERJI" = _uhOLERJI;
         "6X5MONzE" = _6X5MONzE;
-        "neoforge-1.21.1" = _6X5MONzE;
+        "RZyz4KvF" = _RZyz4KvF;
+        "neoforge-1.21.1" = _RZyz4KvF;
         "pkg-1.1.1" = _maURn48A;
         "pkg-1.2.11" = _EPIZhpL4;
         "pkg-1.2.12" = _pxScoMJC;
         "pkg-1.2.15" = _uhOLERJI;
         "pkg-1.3.0" = _6X5MONzE;
-        "default" = _6X5MONzE;
+        "pkg-1.4.0" = _RZyz4KvF;
+        "default" = _RZyz4KvF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sinew";

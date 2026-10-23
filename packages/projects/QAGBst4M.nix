@@ -3406,6 +3406,16 @@ let
             "file" = "puzzleslib-v26.3.15-mc26.3.x+fabric.jar";
             "hash" = "sha512-3j8ysQnGMFGQsT5VJrmMmEA0jzPLeGs9lKlWajN/c7uNjieq1iFPeVrQ+nGkiJypP+ERYThv1XrXA8bvLJSrrg==";
         };
+        _kiX1lfse = {
+            "id" = "kiX1lfse";
+            "file" = "puzzleslib-v21.1.65-mc1.21.1+neoforge.jar";
+            "hash" = "sha512-ntk8dd9vYeg5RZRKA2MEqXSj4J6rNKy+ntu0maV1OW28eJ3cKoEXQWincROwnu8s38tJNyj3PGCB2j8nYwveog==";
+        };
+        _NiTMKi94 = {
+            "id" = "NiTMKi94";
+            "file" = "puzzleslib-v21.1.65-mc1.21.1+fabric.jar";
+            "hash" = "sha512-Ppi5RmOzaXqm9uqNzEbeyb5tUwnsoCBZaSrOKZGHZV9aMWJXTjRbJfs3j/v8M0szpIC4n2l+FJ/UOI4B/qWUuA==";
+        };
     in {
         "n3g4OsEQ" = _n3g4OsEQ;
         "4bHK0bos" = _4bHK0bos;
@@ -4088,6 +4098,8 @@ let
         "XkWV0WSp" = _XkWV0WSp;
         "LkRTTxrD" = _LkRTTxrD;
         "68hLXNWE" = _68hLXNWE;
+        "kiX1lfse" = _kiX1lfse;
+        "NiTMKi94" = _NiTMKi94;
         "forge-1.19" = _o5YLPKfR;
         "forge-1.19.1" = _iYV1Feh5;
         "forge-1.19.2" = _UbCrBSit;
@@ -4107,7 +4119,7 @@ let
         "fabric-1.20.1" = _QSW0oJPl;
         "fabric-1.20.4" = _PYkg1A3a;
         "fabric-1.21" = _a5KN1w1N;
-        "fabric-1.21.1" = _SOu6522s;
+        "fabric-1.21.1" = _NiTMKi94;
         "fabric-1.21.3" = _vMKyNIOg;
         "fabric-1.21.4" = _s2SzGyZz;
         "fabric-1.21.5" = _25gaMibl;
@@ -4124,7 +4136,7 @@ let
         "fabric-26.3" = _68hLXNWE;
         "neoforge-1.20.4" = _U81E0ABr;
         "neoforge-1.21" = _X06v0OZx;
-        "neoforge-1.21.1" = _lATqZwtV;
+        "neoforge-1.21.1" = _kiX1lfse;
         "neoforge-1.21.3" = _CyRDUXp9;
         "neoforge-1.21.4" = _HOC9OUuE;
         "neoforge-1.21.5" = _b9thQ57Y;
@@ -4754,7 +4766,8 @@ let
         "pkg-v8.1.36-1.20.1-Fabric" = _QSW0oJPl;
         "pkg-26.2.5" = _XkWV0WSp;
         "pkg-26.3.15" = _68hLXNWE;
-        "default" = _68hLXNWE;
+        "pkg-21.1.65" = _NiTMKi94;
+        "default" = _NiTMKi94;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "puzzles-lib";

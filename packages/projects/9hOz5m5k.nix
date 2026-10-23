@@ -51,6 +51,31 @@ let
             "file" = "MagicalCampfires-fabric-2.2.jar";
             "hash" = "sha512-2g1pEvz9ZD+qS4gt5q6WGx6XPSill1JxdxovDZQkakQ+sN3U8weBhGNqSc1Nta2IMQItHdJRBZBGH4e+Fd0QDw==";
         };
+        _K64c2ZGU = {
+            "id" = "K64c2ZGU";
+            "file" = "MagicalCampfires-fabric-2.3.jar";
+            "hash" = "sha512-jvWqMkwQS4tSS3GcxvR38vJsrFGRMf71++g3NqVFvIpwO6V2BPdkpmj3lPkCso44vUcTkdedrewG/s7RT2FdqQ==";
+        };
+        _RUn38OPp = {
+            "id" = "RUn38OPp";
+            "file" = "MagicalCampfires-forge-2.3.jar";
+            "hash" = "sha512-fjdrygbLo4/HcBZ2989pYH1iwRpX6CNGfjhaQn6SaiNoTVuS+lvdARsWkS8Ufp5gLBqHnihPFt90dDHl/IUgig==";
+        };
+        _z6zaNidL = {
+            "id" = "z6zaNidL";
+            "file" = "MagicalCampfires-neoforge-2.3.jar";
+            "hash" = "sha512-vWo5bbGkXDnORAdM6DMg40lHyy75Xdguz0FSxzs6boqBtkocxdDoQypYK3Ku1iSfltLbtiPLMnygkldAbAIFUQ==";
+        };
+        _6t0Af2RY = {
+            "id" = "6t0Af2RY";
+            "file" = "MagicalCampfires-paper-2.3.jar";
+            "hash" = "sha512-LgrfsbzdI538NoNxixOU5QQzuz2rKB9KeSNKcjBmKz0FmMIREwnwVhO3QeucgWGIq33eztTZObMkhusrERLuPw==";
+        };
+        _7cIUGCsq = {
+            "id" = "7cIUGCsq";
+            "file" = "MagicalCampfires-spigot-2.3.jar";
+            "hash" = "sha512-C+8/Hv05JMzbUgnNTy6xyboHwB64oKsxGER0lFb8MJCtOnhPZQ3J5wzJYCdcQ+HPk66F9IWxYEijXn3bPcRS+Q==";
+        };
     in {
         "KEzB3U05" = _KEzB3U05;
         "kUXtNIQA" = _kUXtNIQA;
@@ -62,6 +87,11 @@ let
         "yDIZ0z8z" = _yDIZ0z8z;
         "T9FdkZJM" = _T9FdkZJM;
         "ggd0zhOa" = _ggd0zhOa;
+        "K64c2ZGU" = _K64c2ZGU;
+        "RUn38OPp" = _RUn38OPp;
+        "z6zaNidL" = _z6zaNidL;
+        "6t0Af2RY" = _6t0Af2RY;
+        "7cIUGCsq" = _7cIUGCsq;
         "paper-1.21" = _RPIzrf5J;
         "paper-1.19" = _RPIzrf5J;
         "paper-1.19.1" = _RPIzrf5J;
@@ -88,6 +118,7 @@ let
         "paper-1.21.11" = _RPIzrf5J;
         "paper-26.1" = _RPIzrf5J;
         "paper-26.1.1" = _RPIzrf5J;
+        "paper-26.3" = _6t0Af2RY;
         "purpur-1.19" = _RPIzrf5J;
         "purpur-1.19.1" = _RPIzrf5J;
         "purpur-1.19.2" = _RPIzrf5J;
@@ -114,6 +145,7 @@ let
         "purpur-1.21.11" = _RPIzrf5J;
         "purpur-26.1" = _RPIzrf5J;
         "purpur-26.1.1" = _RPIzrf5J;
+        "purpur-26.3" = _6t0Af2RY;
         "folia-1.19" = _RPIzrf5J;
         "folia-1.19.1" = _RPIzrf5J;
         "folia-1.19.2" = _RPIzrf5J;
@@ -140,6 +172,7 @@ let
         "folia-1.21.11" = _RPIzrf5J;
         "folia-26.1" = _RPIzrf5J;
         "folia-26.1.1" = _RPIzrf5J;
+        "folia-26.3" = _6t0Af2RY;
         "fabric-1.19" = _T9FdkZJM;
         "fabric-1.19.1" = _T9FdkZJM;
         "fabric-1.19.2" = _T9FdkZJM;
@@ -166,6 +199,7 @@ let
         "fabric-1.21.11" = _xZXYSVyB;
         "fabric-26.1" = _ggd0zhOa;
         "fabric-26.1.1" = _ggd0zhOa;
+        "fabric-26.3" = _K64c2ZGU;
         "bukkit-1.18" = _yDIZ0z8z;
         "bukkit-1.18.1" = _yDIZ0z8z;
         "bukkit-1.18.2" = _yDIZ0z8z;
@@ -195,6 +229,7 @@ let
         "bukkit-1.21.11" = _yDIZ0z8z;
         "bukkit-26.1" = _yDIZ0z8z;
         "bukkit-26.1.1" = _yDIZ0z8z;
+        "bukkit-26.3" = _7cIUGCsq;
         "spigot-1.18" = _yDIZ0z8z;
         "spigot-1.18.1" = _yDIZ0z8z;
         "spigot-1.18.2" = _yDIZ0z8z;
@@ -224,6 +259,10 @@ let
         "spigot-1.21.11" = _yDIZ0z8z;
         "spigot-26.1" = _yDIZ0z8z;
         "spigot-26.1.1" = _yDIZ0z8z;
+        "spigot-26.3" = _7cIUGCsq;
+        "quilt-26.3" = _K64c2ZGU;
+        "forge-26.3" = _RUn38OPp;
+        "neoforge-26.3" = _z6zaNidL;
         "pkg-1.0-SNAPSHOT" = _KEzB3U05;
         "pkg-1.1-1.21" = _kUXtNIQA;
         "pkg-2.0" = _V7DeHdaI;
@@ -231,7 +270,12 @@ let
         "pkg-2.1" = _yDIZ0z8z;
         "pkg-2.1-BUGFIX" = _T9FdkZJM;
         "pkg-2.2" = _ggd0zhOa;
-        "default" = _ggd0zhOa;
+        "pkg-2.3+26.3-fabric" = _K64c2ZGU;
+        "pkg-2.3+26.3-forge" = _RUn38OPp;
+        "pkg-2.3+26.3-neoforge" = _z6zaNidL;
+        "pkg-2.3+26.3-paper" = _6t0Af2RY;
+        "pkg-2.3+26.3-spigot" = _7cIUGCsq;
+        "default" = _7cIUGCsq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "magical-campfires";

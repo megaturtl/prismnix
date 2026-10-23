@@ -21,17 +21,30 @@ let
             "file" = "kantoteleports-neoforge-0.1.1.jar";
             "hash" = "sha512-dbvomSg2sPdH4Na7ykYB3b0cfBNKFiCBy9gzhUzqm31Hncidgare/c2GlqhRDYQYMuaSVY2LMm7LS1UAS2nedw==";
         };
+        _oiq23Z9J = {
+            "id" = "oiq23Z9J";
+            "file" = "kantoteleports-fabric-0.1.2.jar";
+            "hash" = "sha512-fQgTWd8qFMC3HcSWRYGTcxbcwUUo4+hhSh13WMXX6nOITwJGYpX0TAc4p+nVKwePuamn/pHo8f1y6/h/7QYJdg==";
+        };
+        _1UbvPAYV = {
+            "id" = "1UbvPAYV";
+            "file" = "kantoteleports-neoforge-0.1.2.jar";
+            "hash" = "sha512-ITGYy+xfi2hYtJ4FRCkuZyNJgDte4k7eGW3WD0JnLzD4PV/eWDuYLOZ3nEVxM+5Q3lsPIg8+j79aDJKyLZqs5A==";
+        };
     in {
         "LqS37UYN" = _LqS37UYN;
         "paIvSgIR" = _paIvSgIR;
         "ZD5m2SIl" = _ZD5m2SIl;
         "ap5P6lFs" = _ap5P6lFs;
-        "fabric-1.21.1" = _ZD5m2SIl;
-        "neoforge-1.21.1" = _ap5P6lFs;
+        "oiq23Z9J" = _oiq23Z9J;
+        "1UbvPAYV" = _1UbvPAYV;
+        "fabric-1.21.1" = _oiq23Z9J;
+        "neoforge-1.21.1" = _1UbvPAYV;
         "pkg-0.0.9" = _LqS37UYN;
         "pkg-0.1.0" = _paIvSgIR;
         "pkg-0.1.1" = _ap5P6lFs;
-        "default" = _ap5P6lFs;
+        "pkg-0.1.2" = _1UbvPAYV;
+        "default" = _1UbvPAYV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kantoteleports";

@@ -131,6 +131,21 @@ let
             "file" = "automobility-1.0.0-beta.1+26.3-fabric.jar";
             "hash" = "sha512-oanBZHMcD3las47v+JxqVGKrLYACjQ3yp4n/x+PaYVFt0YDy7fcQb1ay9dWsYZBQaedAdJSzyn6eAhrYNjt+JA==";
         };
+        _UDzzsVeH = {
+            "id" = "UDzzsVeH";
+            "file" = "automobility-1.3.0+26.3-fabric.jar";
+            "hash" = "sha512-nLm8ozBz8c4jU9I7jz5p0M5NbmqJP5KiH9xe2yJ8Kd/McuH2O4xmJmVmjaPVjhVHbMQVAGSG0OTgcXS1qTLZBQ==";
+        };
+        _BZoYl4yW = {
+            "id" = "BZoYl4yW";
+            "file" = "automobility-1.3.0+26.1.2-fabric.jar";
+            "hash" = "sha512-rqHPl6PMz91sll97Qujg0Ru51ep5WV9NPvluBaRf1YqpOxN1vqqD0TI0aY7OQlmnl7z4OYdPk0G+SODTDSIDBQ==";
+        };
+        _Clo3IK15 = {
+            "id" = "Clo3IK15";
+            "file" = "automobility-1.3.0+26.2-fabric.jar";
+            "hash" = "sha512-S5bfnWMFrvG7nusHkeofrEiGOTLFqxqA/RZRAsz5MLx93maFzq8OlIO2kXmQYeXiy0CAfNQOHT1R4ibWiT1Qcg==";
+        };
     in {
         "hLtsCYTw" = _hLtsCYTw;
         "PM380Ozo" = _PM380Ozo;
@@ -158,11 +173,14 @@ let
         "aaEhqJ6l" = _aaEhqJ6l;
         "Bf9dpNtl" = _Bf9dpNtl;
         "ORcg5phe" = _ORcg5phe;
+        "UDzzsVeH" = _UDzzsVeH;
+        "BZoYl4yW" = _BZoYl4yW;
+        "Clo3IK15" = _Clo3IK15;
         "fabric-26.1" = _8qn3OqtD;
         "fabric-26.1.1" = _8qn3OqtD;
-        "fabric-26.1.2" = _aaEhqJ6l;
-        "fabric-26.2" = _Bf9dpNtl;
-        "fabric-26.3" = _ORcg5phe;
+        "fabric-26.1.2" = _BZoYl4yW;
+        "fabric-26.2" = _Clo3IK15;
+        "fabric-26.3" = _UDzzsVeH;
         "pkg-0.5.0-unofficial.1+26.1.2" = _hLtsCYTw;
         "pkg-0.5.0-unofficial.2+26.1.2" = _PM380Ozo;
         "pkg-0.5.0-unofficial.24+26.1.2" = _TKECyKkz;
@@ -189,7 +207,10 @@ let
         "pkg-1.0.0-beta.1+26.1.2" = _aaEhqJ6l;
         "pkg-1.0.0-beta.1+26.2" = _Bf9dpNtl;
         "pkg-1.0.0-beta.1+26.3" = _ORcg5phe;
-        "default" = _ORcg5phe;
+        "pkg-1.3.0+26.3-fabric" = _UDzzsVeH;
+        "pkg-1.3.0+26.1.2-fabric" = _BZoYl4yW;
+        "pkg-1.3.0+26.2-fabric" = _Clo3IK15;
+        "default" = _Clo3IK15;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "automobility-unofficial-port";

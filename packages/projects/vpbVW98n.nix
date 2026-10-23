@@ -101,6 +101,11 @@ let
             "file" = "blanketrtp-2.0.9.jar";
             "hash" = "sha512-BnjcZAVGI0/kpuq4WMiAORF1M835jhMPD2+uSgHzAwDvhPav0559qKPUxRRm9q25rCF/MT3ZtWJLG7gRPgpjOw==";
         };
+        _hw7tUOFJ = {
+            "id" = "hw7tUOFJ";
+            "file" = "blanketrtp-2.1.0.jar";
+            "hash" = "sha512-GcK5aT4tjGRYUZ8UrZ6kuBrGKUUBHvrYC6NYA1F6CUJw0EYJ4myp6rhS4tezveA1e66AOfCBL/5wNSVAULJe6g==";
+        };
     in {
         "cT8xdyox" = _cT8xdyox;
         "A0ljVTD4" = _A0ljVTD4;
@@ -122,9 +127,10 @@ let
         "4C2jYrF5" = _4C2jYrF5;
         "hJHN3aQ8" = _hJHN3aQ8;
         "C97XMvo9" = _C97XMvo9;
+        "hw7tUOFJ" = _hw7tUOFJ;
         "fabric-1.20.1" = _KygRN9u1;
         "fabric-1.21" = _bva1BQYg;
-        "fabric-1.21.1" = _C97XMvo9;
+        "fabric-1.21.1" = _hw7tUOFJ;
         "pkg-1.0.0" = _cT8xdyox;
         "pkg-1.0.1" = _RY4J4jYN;
         "pkg-1.0.2" = _EtnEncp1;
@@ -141,7 +147,8 @@ let
         "pkg-2.0.7.1" = _4C2jYrF5;
         "pkg-2.0.8" = _hJHN3aQ8;
         "pkg-2.0.9" = _C97XMvo9;
-        "default" = _C97XMvo9;
+        "pkg-2.1.0" = _hw7tUOFJ;
+        "default" = _hw7tUOFJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blanketrtp";

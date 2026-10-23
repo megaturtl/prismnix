@@ -186,6 +186,11 @@ let
             "file" = "command_modification-2.3.0-neoforge-1.21-1.21.1.jar";
             "hash" = "sha512-h3GruDDV8RvM0tpDrOiSv8ruYIit9s+VCNUlUaj73i9xL5TY2TUOAg/ydq3ut4wWN4bmcBRXdzb7fvLD0b+COw==";
         };
+        _A4RZuHl5 = {
+            "id" = "A4RZuHl5";
+            "file" = "command_modification-2.3.0-forge-1.16.x.jar";
+            "hash" = "sha512-52zENH6XNbkeWK4vlOgKh7Gva09ZwNUk2Fgui+R4BPXVvaisMnuzXt6Z9Ep1YQ+IjajqXKlEC5/VoTqoU9ZdMA==";
+        };
     in {
         "oNQwNHkL" = _oNQwNHkL;
         "W5lNe5B6" = _W5lNe5B6;
@@ -224,19 +229,20 @@ let
         "PNbD9hrq" = _PNbD9hrq;
         "u6cTrvl4" = _u6cTrvl4;
         "O2G1BZbE" = _O2G1BZbE;
+        "A4RZuHl5" = _A4RZuHl5;
         "forge-1.20.1" = _uhcfOnKO;
-        "forge-1.16.5" = _jQ5JixoD;
+        "forge-1.16.5" = _A4RZuHl5;
         "forge-1.18.2" = _UppsGteW;
         "forge-1.19" = _mUA13ndx;
         "forge-1.19.1" = _mUA13ndx;
         "forge-1.19.2" = _mUA13ndx;
         "forge-1.19.3" = _mUA13ndx;
         "forge-1.19.4" = _mUA13ndx;
-        "forge-1.16" = _jQ5JixoD;
-        "forge-1.16.1" = _jQ5JixoD;
-        "forge-1.16.2" = _jQ5JixoD;
-        "forge-1.16.3" = _jQ5JixoD;
-        "forge-1.16.4" = _jQ5JixoD;
+        "forge-1.16" = _A4RZuHl5;
+        "forge-1.16.1" = _A4RZuHl5;
+        "forge-1.16.2" = _A4RZuHl5;
+        "forge-1.16.3" = _A4RZuHl5;
+        "forge-1.16.4" = _A4RZuHl5;
         "forge-1.18" = _UppsGteW;
         "forge-1.18.1" = _UppsGteW;
         "forge-1.12.2" = _MaTPKn0k;
@@ -293,8 +299,8 @@ let
         "pkg-2.1.1" = _n57ZktG5;
         "pkg-2.0.0" = _svUDxPag;
         "pkg-2.2.0" = _WFlB6gJH;
-        "pkg-2.3.0" = _O2G1BZbE;
-        "default" = _O2G1BZbE;
+        "pkg-2.3.0" = _A4RZuHl5;
+        "default" = _A4RZuHl5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "command_modification";

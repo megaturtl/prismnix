@@ -51,6 +51,26 @@ let
             "file" = "irons_artifice-26.1.2-1.1.0.jar";
             "hash" = "sha512-DQgAfsb0Kxwq6rBP74S9Ii121BFoM7S0DPWhpNGzmEUWyEa12hXalWmNx5yfs7xnfQ+Df/O1FBpKnzEmhnpKHA==";
         };
+        _BAlh9ETN = {
+            "id" = "BAlh9ETN";
+            "file" = "irons_artifice-1.20.1-1.1.0.jar";
+            "hash" = "sha512-Eq5Kl0hIBplmufwyUg1adebsg+35Q9+uG+04IEy00y6CawqoPK8RTBYH2MSKXJteIAV6ZW7VJaIY9eC+yajocg==";
+        };
+        _LHRImsnZ = {
+            "id" = "LHRImsnZ";
+            "file" = "irons_artifice-1.20.1-1.1.1.jar";
+            "hash" = "sha512-OHdADoQrn8Iszo6oPH9sJY8s2vXmBCOEyzW2EkTGLWAwKjXIsPbaWBGLZu8WKS4oH0eWBlFxl7q4DttVVo2ckw==";
+        };
+        _ttABG4v0 = {
+            "id" = "ttABG4v0";
+            "file" = "irons_artifice-1.21.1-1.1.1.jar";
+            "hash" = "sha512-EwpaJrgYPmCJzDizasuDMlJulmQNMgEN4P1qM5wRQ3J31i8wDfwUQYg1tlRVV/EU5Tmy6Prct8BErLuMLA15zw==";
+        };
+        _BaFWxFb1 = {
+            "id" = "BaFWxFb1";
+            "file" = "irons_artifice-26.1.2-1.1.1.jar";
+            "hash" = "sha512-mQYWZ3wC/LpP0iuGwG6NdzpiwlOouxjEtMmh+G2rpmgck6k56AIS551NzNQ5wS/s8q4yv9frDl8Mz0n+riUlvw==";
+        };
     in {
         "unBZMIYI" = _unBZMIYI;
         "1QTbxEbd" = _1QTbxEbd;
@@ -62,8 +82,13 @@ let
         "Fe6s54C4" = _Fe6s54C4;
         "Q2dK8Qgh" = _Q2dK8Qgh;
         "3sIU4Me8" = _3sIU4Me8;
-        "neoforge-26.1.2" = _3sIU4Me8;
-        "neoforge-1.21.1" = _Q2dK8Qgh;
+        "BAlh9ETN" = _BAlh9ETN;
+        "LHRImsnZ" = _LHRImsnZ;
+        "ttABG4v0" = _ttABG4v0;
+        "BaFWxFb1" = _BaFWxFb1;
+        "neoforge-26.1.2" = _BaFWxFb1;
+        "neoforge-1.21.1" = _ttABG4v0;
+        "forge-1.20.1" = _LHRImsnZ;
         "pkg-0.0.9" = _unBZMIYI;
         "pkg-0.1.1" = _1QTbxEbd;
         "pkg-0.2.0" = _ZySQmr2Q;
@@ -74,7 +99,11 @@ let
         "pkg-1.21.1-1.0.1.1" = _Fe6s54C4;
         "pkg-1.21.1-1.1.0" = _Q2dK8Qgh;
         "pkg-26.1.2-1.1.0" = _3sIU4Me8;
-        "default" = _3sIU4Me8;
+        "pkg-1.20.1-1.1.0" = _BAlh9ETN;
+        "pkg-1.20.1-1.1.1" = _LHRImsnZ;
+        "pkg-1.21.1-1.1.1" = _ttABG4v0;
+        "pkg-26.1.2-1.1.1" = _BaFWxFb1;
+        "default" = _BaFWxFb1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "irons-artifice";

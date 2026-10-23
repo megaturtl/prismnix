@@ -66,6 +66,16 @@ let
             "file" = "wolfSaddle-bag-26.2-Forge-1.0.0.jar";
             "hash" = "sha512-NaoRUXEluXzLIs6XBxgQdMs3fLDW4HuoKrLFpcWyoz0TM4lRrFCmHoFm1GWDzqPcm2FB3v610XHoTV1eP5qTgg==";
         };
+        _8BIMVorT = {
+            "id" = "8BIMVorT";
+            "file" = "wolfSaddle-bag-26.3-Fabric-1.26.jar";
+            "hash" = "sha512-8pIb0KknGEC0rViTQ2tJcf4Msts/eWC22Mr1v9Nzakdx6Ka4uaCDXD99ztzTvpnhO0HwlbhWFeVyFN/MBNt3nQ==";
+        };
+        _IPagSea8 = {
+            "id" = "IPagSea8";
+            "file" = "wolfSaddle-bag-26.2-Fabric-1.26.jar";
+            "hash" = "sha512-Ys16wsgO1E6VAayVnRAO9bS94iHe9ryp2E1A5uEnccu4noeiEnNJ8/j8ob+CqgHZ5YT30HMjFp2IBDtl1rxPEg==";
+        };
     in {
         "EMIT1WDh" = _EMIT1WDh;
         "tLJDbQ6N" = _tLJDbQ6N;
@@ -80,6 +90,8 @@ let
         "Q8GiAY63" = _Q8GiAY63;
         "cRad30JL" = _cRad30JL;
         "kvlem8F0" = _kvlem8F0;
+        "8BIMVorT" = _8BIMVorT;
+        "IPagSea8" = _IPagSea8;
         "fabric-1.21" = _EMIT1WDh;
         "fabric-1.21.1" = _EMIT1WDh;
         "fabric-1.21.2" = _EMIT1WDh;
@@ -95,7 +107,8 @@ let
         "fabric-26.1" = _5jDE0KsG;
         "fabric-26.1.1" = _8stDmSVP;
         "fabric-26.1.2" = _8stDmSVP;
-        "fabric-26.2" = _Q8GiAY63;
+        "fabric-26.2" = _IPagSea8;
+        "fabric-26.3" = _8BIMVorT;
         "forge-26.1" = _WgkMBRXI;
         "forge-26.1.1" = _XEI1j4Ea;
         "forge-26.1.2" = _XEI1j4Ea;
@@ -104,7 +117,8 @@ let
         "neoforge-26.1.1" = _2IRa4ijE;
         "neoforge-26.2" = _cRad30JL;
         "pkg-1.0.0" = _kvlem8F0;
-        "default" = _kvlem8F0;
+        "pkg-1.26" = _IPagSea8;
+        "default" = _IPagSea8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "saddlebag";

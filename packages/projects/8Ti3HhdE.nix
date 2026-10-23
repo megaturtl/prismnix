@@ -511,6 +511,16 @@ let
             "file" = "warping-wonders-4.1.jar";
             "hash" = "sha512-45FEfF2rJFh/gkFEDABK8KnOygayULJsAIUks65tI9w202j7tLA1RkQn3GlX8D8+fZHWDlFEvqTX4/q8aKORlg==";
         };
+        _Rg8YHnTJ = {
+            "id" = "Rg8YHnTJ";
+            "file" = "warping_wonders_4.2.zip";
+            "hash" = "sha512-T64pjll9v/KipJ7hAA5IBrJ9NBTDcpgliZ+LUfbaZz7VqwPHm3QBY9WV1VdhRGxH++9Yo3kOFVzhUhb+nj/Asw==";
+        };
+        _jOE6W8hL = {
+            "id" = "jOE6W8hL";
+            "file" = "warping-wonders-4.2.jar";
+            "hash" = "sha512-0hhWt3+IGpVsNUQf6iKfT8td0HrWscNW16a+KEktmIwKoO831X5rH5Gm+KUMSEjF1e0QHGIFnWNDhWf6VlWI6w==";
+        };
     in {
         "wzDRFcA5" = _wzDRFcA5;
         "yiN1vsml" = _yiN1vsml;
@@ -614,6 +624,8 @@ let
         "UGOwYYe3" = _UGOwYYe3;
         "jRRzhAY7" = _jRRzhAY7;
         "5RQ8HtwG" = _5RQ8HtwG;
+        "Rg8YHnTJ" = _Rg8YHnTJ;
+        "jOE6W8hL" = _jOE6W8hL;
         "datapack-1.21-pre2" = _jL5JZYhM;
         "datapack-1.21-pre3" = _vIgxGhZA;
         "datapack-1.21" = _EEoPQw7Q;
@@ -631,7 +643,7 @@ let
         "datapack-26.1.1" = _3QHq24lD;
         "datapack-26.1.2" = _3QHq24lD;
         "datapack-26.2" = _rlKA60I3;
-        "datapack-26.3" = _jRRzhAY7;
+        "datapack-26.3" = _Rg8YHnTJ;
         "fabric-1.21-pre2" = _hmABhIBS;
         "fabric-1.21-pre3" = _XwrAIL6p;
         "fabric-1.21" = _yjdNOCZb;
@@ -649,7 +661,7 @@ let
         "fabric-26.1.1" = _SKDxp1kR;
         "fabric-26.1.2" = _SKDxp1kR;
         "fabric-26.2" = _9ENLvI6z;
-        "fabric-26.3" = _5RQ8HtwG;
+        "fabric-26.3" = _jOE6W8hL;
         "forge-1.21-pre2" = _hmABhIBS;
         "forge-1.21-pre3" = _XwrAIL6p;
         "forge-1.21" = _yjdNOCZb;
@@ -667,7 +679,7 @@ let
         "forge-26.1.1" = _SKDxp1kR;
         "forge-26.1.2" = _SKDxp1kR;
         "forge-26.2" = _9ENLvI6z;
-        "forge-26.3" = _5RQ8HtwG;
+        "forge-26.3" = _jOE6W8hL;
         "quilt-1.21-pre2" = _hmABhIBS;
         "quilt-1.21-pre3" = _XwrAIL6p;
         "quilt-1.21" = _yjdNOCZb;
@@ -685,7 +697,7 @@ let
         "quilt-26.1.1" = _SKDxp1kR;
         "quilt-26.1.2" = _SKDxp1kR;
         "quilt-26.2" = _9ENLvI6z;
-        "quilt-26.3" = _5RQ8HtwG;
+        "quilt-26.3" = _jOE6W8hL;
         "neoforge-1.21.2" = _Wudq2k0k;
         "neoforge-1.21.3" = _Wudq2k0k;
         "neoforge-1.21.4" = _tZZigHoz;
@@ -700,7 +712,7 @@ let
         "neoforge-26.1.1" = _SKDxp1kR;
         "neoforge-26.1.2" = _SKDxp1kR;
         "neoforge-26.2" = _9ENLvI6z;
-        "neoforge-26.3" = _5RQ8HtwG;
+        "neoforge-26.3" = _jOE6W8hL;
         "pkg-1" = _wzDRFcA5;
         "pkg-1+mod" = _yiN1vsml;
         "pkg-b2" = _jL5JZYhM;
@@ -795,7 +807,9 @@ let
         "pkg-4.0-mod" = _UGOwYYe3;
         "pkg-4.1" = _jRRzhAY7;
         "pkg-4.1-mod" = _5RQ8HtwG;
-        "default" = _5RQ8HtwG;
+        "pkg-4.2" = _Rg8YHnTJ;
+        "pkg-4.2-mod" = _jOE6W8hL;
+        "default" = _jOE6W8hL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "warping-wonders";

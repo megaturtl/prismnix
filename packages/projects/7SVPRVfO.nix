@@ -36,6 +36,11 @@ let
             "file" = "The Food Eating Animation.zip";
             "hash" = "sha512-ooVxOqEzvFTIJl4SnbGDVhTYxdvDzLtaDmGlYR5l9Up7t43uH4nfrMbUeNp0e9nK7UdzPVAsScjX0B0Q2q1pkg==";
         };
+        _k9s8sCPx = {
+            "id" = "k9s8sCPx";
+            "file" = "The Food Eating Animation.zip";
+            "hash" = "sha512-zAZxaSftLSySRA94wPSY0ETYnuWwfOi4Y+NDvfJyXS34+Qv9AfVS+B+GzwZuBZL3rv1u9Jzg+7Et0eyAxJ1zEQ==";
+        };
     in {
         "SV6AmG6P" = _SV6AmG6P;
         "eVm41lYf" = _eVm41lYf;
@@ -44,12 +49,13 @@ let
         "FNnl0XU7" = _FNnl0XU7;
         "uH1AD9Of" = _uH1AD9Of;
         "7u70WEf4" = _7u70WEf4;
-        "minecraft-1.21.6" = _7u70WEf4;
-        "minecraft-1.21.7" = _7u70WEf4;
-        "minecraft-1.21.8" = _7u70WEf4;
-        "minecraft-1.21.9" = _7u70WEf4;
-        "minecraft-1.21.10" = _7u70WEf4;
-        "minecraft-1.21.11" = _7u70WEf4;
+        "k9s8sCPx" = _k9s8sCPx;
+        "minecraft-1.21.6" = _k9s8sCPx;
+        "minecraft-1.21.7" = _k9s8sCPx;
+        "minecraft-1.21.8" = _k9s8sCPx;
+        "minecraft-1.21.9" = _k9s8sCPx;
+        "minecraft-1.21.10" = _k9s8sCPx;
+        "minecraft-1.21.11" = _k9s8sCPx;
         "minecraft-1.6.1" = _7u70WEf4;
         "minecraft-1.6.2" = _7u70WEf4;
         "minecraft-1.6.4" = _7u70WEf4;
@@ -174,12 +180,12 @@ let
         "minecraft-24w44a" = _7u70WEf4;
         "minecraft-24w45a" = _7u70WEf4;
         "minecraft-24w46a" = _7u70WEf4;
-        "minecraft-1.21.4" = _7u70WEf4;
-        "minecraft-1.21.5" = _7u70WEf4;
-        "minecraft-26.1" = _uH1AD9Of;
-        "minecraft-26.1.1" = _uH1AD9Of;
-        "minecraft-26.1.2" = _uH1AD9Of;
-        "minecraft-26.2" = _7u70WEf4;
+        "minecraft-1.21.4" = _k9s8sCPx;
+        "minecraft-1.21.5" = _k9s8sCPx;
+        "minecraft-26.1" = _k9s8sCPx;
+        "minecraft-26.1.1" = _k9s8sCPx;
+        "minecraft-26.1.2" = _k9s8sCPx;
+        "minecraft-26.2" = _k9s8sCPx;
         "minecraft-26.3-snapshot-1" = _7u70WEf4;
         "minecraft-26.3-snapshot-2" = _7u70WEf4;
         "minecraft-26.3-snapshot-3" = _7u70WEf4;
@@ -196,7 +202,7 @@ let
         "minecraft-26.3-rc-1" = _7u70WEf4;
         "minecraft-26.3-rc-2" = _7u70WEf4;
         "minecraft-26.3-rc-3" = _7u70WEf4;
-        "minecraft-26.3" = _7u70WEf4;
+        "minecraft-26.3" = _k9s8sCPx;
         "pkg-1.0.0" = _SV6AmG6P;
         "pkg-1.1.0" = _eVm41lYf;
         "pkg-2.0" = _SLvMbSgI;
@@ -204,7 +210,8 @@ let
         "pkg-2.2" = _FNnl0XU7;
         "pkg-2.3" = _uH1AD9Of;
         "pkg-2.4" = _7u70WEf4;
-        "default" = _7u70WEf4;
+        "pkg-2.5" = _k9s8sCPx;
+        "default" = _k9s8sCPx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-food-eating-animation";

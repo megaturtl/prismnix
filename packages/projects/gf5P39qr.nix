@@ -131,6 +131,16 @@ let
             "file" = "meecreeps-1.21.1-3.0.1.jar";
             "hash" = "sha512-IhmUAIXeOKJyFLRXgkrl3H2n5a4eH5auN8Twq7ElAqOz8Y3n3Dh2EiYBRFGVFBN4E1kkXqsJWHlHGXlReFHR3A==";
         };
+        _9JoPtG97 = {
+            "id" = "9JoPtG97";
+            "file" = "meecreeps-26.3-5.0.0.jar";
+            "hash" = "sha512-FJfm9F9GF5iID8Hc0ODzaKe+h8lTLgl2REOQT6h2blbm1gqoyIb2Rsyi7/guRRfdfGE/EIaf7uIMsmmW29TseA==";
+        };
+        _XPkTb7sw = {
+            "id" = "XPkTb7sw";
+            "file" = "meecreeps-fabric-26.3-5.0.0.jar";
+            "hash" = "sha512-cIgDbtkT05xtn39NMKm8OuKscPuP5KpZh7dEJ/py/sW7ChpIwM+jusBNpCSBDdWtxA3qH2eZzlD8RdTWTP4zlw==";
+        };
     in {
         "KIftIDld" = _KIftIDld;
         "XIKdPCrH" = _XIKdPCrH;
@@ -158,12 +168,16 @@ let
         "RNz5obeT" = _RNz5obeT;
         "GIR5nd3Z" = _GIR5nd3Z;
         "XfYwpH41" = _XfYwpH41;
+        "9JoPtG97" = _9JoPtG97;
+        "XPkTb7sw" = _XPkTb7sw;
         "forge-1.12.1" = _B53PG5uP;
         "forge-1.12.2" = _kGSPaHaM;
         "forge-1.20.1" = _IlwL9ydV;
         "neoforge-1.21.1" = _XfYwpH41;
         "neoforge-26.2" = _RNz5obeT;
+        "neoforge-26.3" = _9JoPtG97;
         "fabric-26.2" = _GIR5nd3Z;
+        "fabric-26.3" = _XPkTb7sw;
         "pkg-1.12-0.0.5beta" = _KIftIDld;
         "pkg-1.12-0.0.6beta" = _XIKdPCrH;
         "pkg-1.12-0.1.0beta" = _Ua7Rso8W;
@@ -189,7 +203,8 @@ let
         "pkg-1.21.1-3.0.0" = _vtWOXLgo;
         "pkg-26.2-4.0.0" = _GIR5nd3Z;
         "pkg-1.21.1-3.0.1" = _XfYwpH41;
-        "default" = _XfYwpH41;
+        "pkg-26.3-5.0.0" = _XPkTb7sw;
+        "default" = _XPkTb7sw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "meecreeps";

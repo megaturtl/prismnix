@@ -66,6 +66,31 @@ let
             "file" = "The_Graveyard_3.1_(FABRIC)_for_1.20.1.jar";
             "hash" = "sha512-1cbZQQnshJEPo5QRYQAgPQhlwbOFaiaVId+/XdRupVVWrzRG9Qn3rvl9bhVjaFO5IlipjWlfJ1AyF3kiSWIh5A==";
         };
+        _cgUy6o7y = {
+            "id" = "cgUy6o7y";
+            "file" = "graveyard-FABRIC-4.0.0+mc1.20.1.jar";
+            "hash" = "sha512-4eDAx3zcbwET00MPlmIEtsn6OTL/tntgyvgWYQ0xkkX4D4CCH5nLOf2/HEMU7Li27OyoLtD5wdX1ZsEXQdST3Q==";
+        };
+        _o5pQ7KmB = {
+            "id" = "o5pQ7KmB";
+            "file" = "graveyard-FABRIC-4.0.0+mc1.21.1.jar";
+            "hash" = "sha512-Tlm7rwwwuyDx6qFjPto3BY+2eO9f25BQ3xWalJA+b81kPWB9jyy7DOLtiYCUFSe+5Up38XiM3A7inZzLeILgVg==";
+        };
+        _kbVnoPBK = {
+            "id" = "kbVnoPBK";
+            "file" = "graveyard-NEOFORGE-4.0.0+mc1.21.1.jar";
+            "hash" = "sha512-RFZ+PKXznGpws79ovON95UVcBMVLtvNzBBwEnX2OxbpUE3w81h46rXeoVUQZg+DolNJmPSYD9cNCuNYtZuCjHg==";
+        };
+        _K7Mf88UP = {
+            "id" = "K7Mf88UP";
+            "file" = "graveyard-FABRIC-4.0.0+mc1.21.8.jar";
+            "hash" = "sha512-fr1LHrIRvOD4e4ASFBlAPyzRQ07mV+8gVeVMrNwwjsykerA8jIr5JA5rJbJfZPDqIam9XwCeK1/PqsyZv+BfPQ==";
+        };
+        _aFkmI06W = {
+            "id" = "aFkmI06W";
+            "file" = "graveyard-NEOFORGE-4.0.0+mc1.21.8.jar";
+            "hash" = "sha512-AKHHfnt/HFzg8r15xSGW+niuObNUubnkUHsUkA7iGYn38zDGbekCk3EoRopfVMR7G/9UsDXyNm/fImqeGkctrg==";
+        };
     in {
         "T2v9Zocf" = _T2v9Zocf;
         "ADGfi5tR" = _ADGfi5tR;
@@ -80,14 +105,25 @@ let
         "PWLzRlBv" = _PWLzRlBv;
         "4pakbmo2" = _4pakbmo2;
         "Hpn2GMza" = _Hpn2GMza;
+        "cgUy6o7y" = _cgUy6o7y;
+        "o5pQ7KmB" = _o5pQ7KmB;
+        "kbVnoPBK" = _kbVnoPBK;
+        "K7Mf88UP" = _K7Mf88UP;
+        "aFkmI06W" = _aFkmI06W;
         "fabric-1.18.2" = _T2v9Zocf;
         "fabric-1.19" = _ADGfi5tR;
         "fabric-1.19.2" = _OXDcBMyv;
         "fabric-1.19.3" = _iVynlDtc;
         "fabric-1.19.4" = _eAAKbtBg;
-        "fabric-1.20" = _PWLzRlBv;
-        "fabric-1.20.1" = _Hpn2GMza;
+        "fabric-1.20" = _cgUy6o7y;
+        "fabric-1.20.1" = _cgUy6o7y;
         "fabric-1.20.4" = _4pakbmo2;
+        "fabric-1.21.1" = _o5pQ7KmB;
+        "fabric-1.21.7" = _K7Mf88UP;
+        "fabric-1.21.8" = _K7Mf88UP;
+        "neoforge-1.21.1" = _kbVnoPBK;
+        "neoforge-1.21.7" = _aFkmI06W;
+        "neoforge-1.21.8" = _aFkmI06W;
         "pkg-1.9+1.18.2" = _T2v9Zocf;
         "pkg-1.10+1.19" = _ADGfi5tR;
         "pkg-2.1" = _DFoxFE8s;
@@ -101,7 +137,12 @@ let
         "pkg-2.9" = _PWLzRlBv;
         "pkg-3.2" = _4pakbmo2;
         "pkg-3.1" = _Hpn2GMza;
-        "default" = _Hpn2GMza;
+        "pkg-4.0.0+mc1.20.1-fabric" = _cgUy6o7y;
+        "pkg-4.0.0+mc1.21.1-fabric" = _o5pQ7KmB;
+        "pkg-4.0.0+mc1.21.1-neoforge" = _kbVnoPBK;
+        "pkg-4.0.0+mc1.21.8-fabric" = _K7Mf88UP;
+        "pkg-4.0.0+mc1.21.8-neoforge" = _aFkmI06W;
+        "default" = _aFkmI06W;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-graveyard-fabric";

@@ -261,6 +261,16 @@ let
             "file" = "modifiedbiomesource-neoforge-0.0.4+26.3.jar";
             "hash" = "sha512-t8Q1gEw3g+yosHKyhxsogTzTqV9JKXup9W5t3NSQEDdInWSUmIiL4YNBBkgkivfY1TtFEXvWE+6qxyKLMGbbcA==";
         };
+        _St0OAjYr = {
+            "id" = "St0OAjYr";
+            "file" = "modifiedbiomesource-fabric-0.0.4+hotfix+26.3.jar";
+            "hash" = "sha512-Ish1ZYoXO5Fo24QRuu/Mg18/sPCkno+yvlOMBR8x0eGuKPebscYd53jyvigXoEv22SVFdmffoDSNMFQ/ED3QDA==";
+        };
+        _qasUGwsS = {
+            "id" = "qasUGwsS";
+            "file" = "modifiedbiomesource-neoforge-0.0.4+hotfix+26.3.jar";
+            "hash" = "sha512-ZWw7nt9KZ3o5z9NOCBQ36PmbEWS5ckfWNH2qk/U7+Eza3PPN7bYtCa3Ep/RaTlGzuCFBFlthKre6n27UrV+Rvg==";
+        };
     in {
         "zUSSluW2" = _zUSSluW2;
         "o9pxehBc" = _o9pxehBc;
@@ -314,6 +324,8 @@ let
         "x3z9ZuQs" = _x3z9ZuQs;
         "eWUCDyZu" = _eWUCDyZu;
         "Ovvy7vhW" = _Ovvy7vhW;
+        "St0OAjYr" = _St0OAjYr;
+        "qasUGwsS" = _qasUGwsS;
         "fabric-1.20.1" = _9SVuIMX3;
         "fabric-1.21" = _r6i2qPRK;
         "fabric-1.21.1" = _nWORAdkx;
@@ -331,7 +343,7 @@ let
         "fabric-26.1.1" = _3Ei5A3Hk;
         "fabric-26.1.2" = _3Ei5A3Hk;
         "fabric-26.2" = _JQMDsuBr;
-        "fabric-26.3" = _eWUCDyZu;
+        "fabric-26.3" = _St0OAjYr;
         "forge-1.20.1" = _nMzllBZm;
         "neoforge-1.20.1" = _nMzllBZm;
         "neoforge-1.21" = _WjQEIMVZ;
@@ -350,7 +362,7 @@ let
         "neoforge-26.1.1" = _q8z8lhHd;
         "neoforge-26.1.2" = _q8z8lhHd;
         "neoforge-26.2" = _x3z9ZuQs;
-        "neoforge-26.3" = _Ovvy7vhW;
+        "neoforge-26.3" = _qasUGwsS;
         "pkg-0.0.1+1.20.1" = _o9pxehBc;
         "pkg-0.0.1+1.21" = _PUWdJ5Jb;
         "pkg-0.0.1+1.21.2" = _smYiO1CZ;
@@ -377,7 +389,8 @@ let
         "pkg-0.0.4+26.1" = _q8z8lhHd;
         "pkg-0.0.4+26.2" = _x3z9ZuQs;
         "pkg-0.0.4+26.3" = _Ovvy7vhW;
-        "default" = _Ovvy7vhW;
+        "pkg-0.0.4+hotfix+26.3" = _qasUGwsS;
+        "default" = _qasUGwsS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modifiedbiomesource";

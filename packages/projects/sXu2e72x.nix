@@ -31,6 +31,11 @@ let
             "file" = "antifreecam-1.0.5.jar";
             "hash" = "sha512-IOXEmxGs8r6rFWdSQ9Zb8xAJpiHNG2ziyRzGrTXUEvrYKJmLrAkwUSB+Oyr9+6NI4kBzxVctSOHISyUc4R0TqQ==";
         };
+        _dsgwR3ah = {
+            "id" = "dsgwR3ah";
+            "file" = "antifreecam-1.0.6.jar";
+            "hash" = "sha512-eoyiPXBwtInFato20H6CcMn3E9JFGFErCFeSSv/j8fwwgX/qWcj8DlgVCwFtswJzYdYmRLKpyTwpm1Vnwa8VLA==";
+        };
     in {
         "YhRoIj1n" = _YhRoIj1n;
         "2k4HyarG" = _2k4HyarG;
@@ -38,6 +43,7 @@ let
         "U3OSPK2l" = _U3OSPK2l;
         "GDVp7jXu" = _GDVp7jXu;
         "U2jGnvCU" = _U2jGnvCU;
+        "dsgwR3ah" = _dsgwR3ah;
         "fabric-1.21.5" = _2k4HyarG;
         "fabric-1.21.10" = _EGmphsdX;
         "fabric-1.21.11" = _U3OSPK2l;
@@ -45,13 +51,15 @@ let
         "fabric-26.1.1" = _GDVp7jXu;
         "fabric-26.1.2" = _GDVp7jXu;
         "fabric-26.2" = _U2jGnvCU;
+        "fabric-26.3" = _dsgwR3ah;
         "pkg-1.0.0" = _YhRoIj1n;
         "pkg-1.0.1" = _2k4HyarG;
         "pkg-1.0.2" = _EGmphsdX;
         "pkg-1.0.3" = _U3OSPK2l;
         "pkg-1.0.4" = _GDVp7jXu;
         "pkg-1.0.5" = _U2jGnvCU;
-        "default" = _U2jGnvCU;
+        "pkg-1.0.6" = _dsgwR3ah;
+        "default" = _dsgwR3ah;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "antifreecam";

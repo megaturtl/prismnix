@@ -136,6 +136,11 @@ let
             "file" = "[1.6] Enhanced Boss Bars.zip";
             "hash" = "sha512-ndwr8zx4ZeqL+zebp0u9SJO3fmLg8WLBTF1hwUUXRyFP7CsLVwWTfSzKC9RaD01O0sWqrpjej9hoDci/Mt7NZQ==";
         };
+        _ShyA8a0U = {
+            "id" = "ShyA8a0U";
+            "file" = "[1.6] Enhanced Boss Bars.zip";
+            "hash" = "sha512-aOYElItjCFAxMYgQThatoK+o7ijQccaFI6HIW6CSdo1raYB7grTLKifOVnqaYaqI5+zvWuqpb7GU3sE888f1AA==";
+        };
     in {
         "ml3AyY1Y" = _ml3AyY1Y;
         "H6cXqe3t" = _H6cXqe3t;
@@ -164,6 +169,7 @@ let
         "fzlnlUF3" = _fzlnlUF3;
         "4dNK8b2b" = _4dNK8b2b;
         "EcgWW9Yi" = _EcgWW9Yi;
+        "ShyA8a0U" = _ShyA8a0U;
         "minecraft-1.16" = _iDFU9huR;
         "minecraft-1.16.1" = _iDFU9huR;
         "minecraft-1.16.2" = _HMBkGfJ1;
@@ -185,16 +191,18 @@ let
         "minecraft-1.20.6" = _dyyhokxb;
         "minecraft-1.21" = _4dNK8b2b;
         "minecraft-1.21.1" = _4dNK8b2b;
-        "minecraft-26.1" = _EcgWW9Yi;
-        "minecraft-26.1.1" = _EcgWW9Yi;
-        "minecraft-26.1.2" = _EcgWW9Yi;
+        "minecraft-26.1" = _ShyA8a0U;
+        "minecraft-26.1.1" = _ShyA8a0U;
+        "minecraft-26.1.2" = _ShyA8a0U;
+        "minecraft-26.2" = _ShyA8a0U;
+        "minecraft-26.3" = _ShyA8a0U;
         "pkg-1.2" = _hE8eXhto;
         "pkg-1.3" = _UeydEnnB;
         "pkg-1.4" = _CDma29yJ;
         "pkg-1.4.1" = _dyyhokxb;
         "pkg-1.5" = _hCwfKdKs;
-        "pkg-1.6" = _EcgWW9Yi;
-        "default" = _EcgWW9Yi;
+        "pkg-1.6" = _ShyA8a0U;
+        "default" = _ShyA8a0U;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enhanced-boss-bars";

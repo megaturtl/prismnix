@@ -86,6 +86,11 @@ let
             "file" = "TheArtOfBartending-Fabric-1.20.1+1.0.2+build.115.jar";
             "hash" = "sha512-S1abQ7X8aa/3SWonjHpFekk12Gn9PuBRAzJ1ynpCy0eiiiyrYnCx+jHHBNUcgFxvxG4OfR5EoAyItnAAqpi81Q==";
         };
+        _Lc2KEEGL = {
+            "id" = "Lc2KEEGL";
+            "file" = "TheArtOfBartending-Fabric-1.20.1+1.0.3+build.117.jar";
+            "hash" = "sha512-1zaXWVWrMVU/But9nTNvOZvxrGOrZncuvJwSeekc5byw0OSQWjngjgIyiklEnEAv/5NZsfit36F/jOaRWDX5aQ==";
+        };
     in {
         "yi3E6V8p" = _yi3E6V8p;
         "W15mKHyy" = _W15mKHyy;
@@ -104,8 +109,9 @@ let
         "EtFmUiLC" = _EtFmUiLC;
         "2DeNvO7d" = _2DeNvO7d;
         "MwDzMgN6" = _MwDzMgN6;
-        "fabric-1.20" = _MwDzMgN6;
-        "fabric-1.20.1" = _MwDzMgN6;
+        "Lc2KEEGL" = _Lc2KEEGL;
+        "fabric-1.20" = _Lc2KEEGL;
+        "fabric-1.20.1" = _Lc2KEEGL;
         "pkg-1.20.1+0.1.1" = _yi3E6V8p;
         "pkg-1.20.1+0.1.2" = _W15mKHyy;
         "pkg-1.20.1+0.2.0" = _5D58UgZf;
@@ -123,7 +129,8 @@ let
         "pkg-1.20.1+1.0.0+build.97" = _EtFmUiLC;
         "pkg-1.20.1+1.0.1+build.102" = _2DeNvO7d;
         "pkg-1.20.1+1.0.2+build.115" = _MwDzMgN6;
-        "default" = _MwDzMgN6;
+        "pkg-1.20.1+1.0.3+build.117" = _Lc2KEEGL;
+        "default" = _Lc2KEEGL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bartending";

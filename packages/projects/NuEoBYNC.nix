@@ -1,0 +1,73 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _mLPRRguJ = {
+            "id" = "mLPRRguJ";
+            "file" = "SEUS.PTGI.HRR.2.1.Reforged.zip";
+            "hash" = "sha512-nJQX2MObNwG+tbO64W21pSbQjQoC594npXmN71ztCV2g+jBN59kxIESh/6NpUzg8MKR4dHTyoObQ4pTOoYAB2g==";
+        };
+        _jychvKlD = {
+            "id" = "jychvKlD";
+            "file" = "SEUS PTGI HRR 2.1 Reforged v7.6.zip";
+            "hash" = "sha512-Rz+m41vbHFCa1rxiEFxucC6q7IggrET+EbspGyItWFYnzNFXuAAETwI9HfH+bQpV9e28zcRJKNc4Jyfk3XM86A==";
+        };
+        _5oZKw92w = {
+            "id" = "5oZKw92w";
+            "file" = "SEUS PTGI HRR 2.1 Reforged v7.7.zip";
+            "hash" = "sha512-bzatgVwm+nPTjcPaAEd0E2R2r2DomrL+KngQQvnx7cZgArvG0yNDldFm5dvr/XQx0hvT0Dlrsg6vRY1PJgYKTA==";
+        };
+        _GTCKcgZ8 = {
+            "id" = "GTCKcgZ8";
+            "file" = "SEUS PTGI HRR 2.1 Reforged 7.8.zip";
+            "hash" = "sha512-BfkW/8/ZFLzF3/QywTqmvY/V/fdDIwdqUBRnkFlPfPU96X1VkjmPVKMbQLtevT6GHIijf0oxDNTjhqgLLqpRBA==";
+        };
+    in {
+        "mLPRRguJ" = _mLPRRguJ;
+        "jychvKlD" = _jychvKlD;
+        "5oZKw92w" = _5oZKw92w;
+        "GTCKcgZ8" = _GTCKcgZ8;
+        "iris-1.15" = _GTCKcgZ8;
+        "iris-1.16" = _GTCKcgZ8;
+        "iris-1.17" = _GTCKcgZ8;
+        "iris-1.18" = _GTCKcgZ8;
+        "iris-1.19" = _GTCKcgZ8;
+        "iris-1.20" = _GTCKcgZ8;
+        "iris-1.21" = _GTCKcgZ8;
+        "iris-26.1" = _GTCKcgZ8;
+        "iris-26.2" = _GTCKcgZ8;
+        "iris-26.3" = _GTCKcgZ8;
+        "iris-26.1.2" = _jychvKlD;
+        "optifine-1.15" = _GTCKcgZ8;
+        "optifine-1.16" = _GTCKcgZ8;
+        "optifine-1.17" = _GTCKcgZ8;
+        "optifine-1.18" = _GTCKcgZ8;
+        "optifine-1.19" = _GTCKcgZ8;
+        "optifine-1.20" = _GTCKcgZ8;
+        "optifine-1.21" = _GTCKcgZ8;
+        "optifine-26.1" = _GTCKcgZ8;
+        "optifine-26.2" = _GTCKcgZ8;
+        "optifine-26.3" = _GTCKcgZ8;
+        "optifine-26.1.2" = _jychvKlD;
+        "pkg-7.5" = _mLPRRguJ;
+        "pkg-7.6" = _jychvKlD;
+        "pkg-7.7" = _5oZKw92w;
+        "pkg-7.8" = _GTCKcgZ8;
+        "default" = _GTCKcgZ8;
+    });
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "seus-ptgi-hrr-reforged";
+        id = "NuEoBYNC";
+        type = "shader";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-LICENSE" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-LICENSE";
+                shortName = "LicenseRef-LICENSE";
+                url = "https://github.com/seusptgireforged/seusptgireforged.github.io/blob/main/LICENCE.txt";
+            };
+        };
+    };
+in callPackage fn {}

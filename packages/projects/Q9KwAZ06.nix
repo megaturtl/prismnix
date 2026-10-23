@@ -146,6 +146,11 @@ let
             "file" = "Resprited.zip";
             "hash" = "sha512-Bo6P5xgocg3HEUAvfR+UN+rL/1IJzmgVOA/B9syTg0AQ1rxCGref/hGueA3iuRYEZh0PJDCeynoQVXsbnnkqYg==";
         };
+        _cw9gkrt5 = {
+            "id" = "cw9gkrt5";
+            "file" = "Resprited.zip";
+            "hash" = "sha512-XrwpteM8Jn1Q1doQ69UVou/XKpX6lkrEtCW6eZ5BdhDjiKUaSWuNdx5FX2wqhUnbat9TpqcoPdHCR78D8uojMQ==";
+        };
     in {
         "iywVM9Np" = _iywVM9Np;
         "3IphJVfz" = _3IphJVfz;
@@ -176,20 +181,21 @@ let
         "LLjIPF8n" = _LLjIPF8n;
         "dKuMlasM" = _dKuMlasM;
         "ylyw9WtF" = _ylyw9WtF;
+        "cw9gkrt5" = _cw9gkrt5;
         "minecraft-1.21" = _bEZ8vZLq;
         "minecraft-1.21.4" = _g71fIcSj;
-        "minecraft-1.21.5" = _ylyw9WtF;
+        "minecraft-1.21.5" = _cw9gkrt5;
         "minecraft-1.21.7" = _LLjIPF8n;
         "minecraft-1.21.8" = _LLjIPF8n;
         "minecraft-1.21.9" = _LLjIPF8n;
         "minecraft-1.21.10" = _LLjIPF8n;
-        "minecraft-1.21.11" = _ylyw9WtF;
+        "minecraft-1.21.11" = _cw9gkrt5;
         "minecraft-1.21.6" = _LLjIPF8n;
-        "minecraft-26.1" = _ylyw9WtF;
-        "minecraft-26.1.1" = _ylyw9WtF;
-        "minecraft-26.1.2" = _ylyw9WtF;
-        "minecraft-26.2" = _ylyw9WtF;
-        "minecraft-26.3" = _ylyw9WtF;
+        "minecraft-26.1" = _cw9gkrt5;
+        "minecraft-26.1.1" = _cw9gkrt5;
+        "minecraft-26.1.2" = _cw9gkrt5;
+        "minecraft-26.2" = _cw9gkrt5;
+        "minecraft-26.3" = _cw9gkrt5;
         "pkg-v0.1" = _iywVM9Np;
         "pkg-v0.2" = _3IphJVfz;
         "pkg-v0.3" = _EJgajqy8;
@@ -219,7 +225,8 @@ let
         "pkg-v0.24" = _LLjIPF8n;
         "pkg-v0.25" = _dKuMlasM;
         "pkg-v0.25.1" = _ylyw9WtF;
-        "default" = _ylyw9WtF;
+        "pkg-v0.26" = _cw9gkrt5;
+        "default" = _cw9gkrt5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "resprited";

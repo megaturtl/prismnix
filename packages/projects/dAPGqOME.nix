@@ -11,13 +11,20 @@ let
             "file" = "familiarslib-1.21.1-1.7.1.jar";
             "hash" = "sha512-fzG4nTQCwy1CfQGE+2sZ89I6h5qoE6hG1f6RLaDKYhALbot5f0a19kmBwIzM5ky7DgmPSb+BBIXfTfawiTgCrw==";
         };
+        _9bQAzzox = {
+            "id" = "9bQAzzox";
+            "file" = "familiarslib-1.21.1-2.0.jar";
+            "hash" = "sha512-a6OOy4AkPdUXJI/UAA86tgsv36UWK8kAtAQLb3XeBtll9DLF/7rn2+9kZMrp3GdW10weteM4PJ4DODZOZDeSdQ==";
+        };
     in {
         "OtvYyM7e" = _OtvYyM7e;
         "2gOPLUTN" = _2gOPLUTN;
-        "neoforge-1.21.1" = _2gOPLUTN;
+        "9bQAzzox" = _9bQAzzox;
+        "neoforge-1.21.1" = _9bQAzzox;
         "pkg-1.21.1-1.7" = _OtvYyM7e;
         "pkg-1.21.1-1.7.1" = _2gOPLUTN;
-        "default" = _2gOPLUTN;
+        "pkg-1.21.1-2.0" = _9bQAzzox;
+        "default" = _9bQAzzox;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "familiarslib";

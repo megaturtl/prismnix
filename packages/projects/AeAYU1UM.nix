@@ -56,6 +56,16 @@ let
             "file" = "modifiedbiomesourceterrablender-fabric-0.0.1+26.1.jar";
             "hash" = "sha512-1BWJ/h/7hCb8HnFspN7IEkDs/8MjEM6/QB9QYKarOyWHK/ketpc4IJIjehrS9btTXmnCbniw2GtVntYuVtpuWg==";
         };
+        _TSfMkL75 = {
+            "id" = "TSfMkL75";
+            "file" = "modifiedbiomesourceterrablender-fabric-0.0.1+26.3.jar";
+            "hash" = "sha512-2JUEloekqMqKv2B4GuKI15p4vaSAGwQOoIrVhqJ6qOjzK4bwnd2fooHRS1g2WfxN4dzsZXoxMl4sDLIgEkQZjg==";
+        };
+        _sSzjNGEu = {
+            "id" = "sSzjNGEu";
+            "file" = "modifiedbiomesourceterrablender-neoforge-0.0.1+26.3.jar";
+            "hash" = "sha512-26F1QoEirbPgeZg03D1DixQtfdf605IpNnyXgywU/G8xAya7PeMvYR3BOTly+z1NO/KvUIxLqCo727bLJIKX+Q==";
+        };
     in {
         "lRclcgT0" = _lRclcgT0;
         "nNh8CWTL" = _nNh8CWTL;
@@ -68,6 +78,8 @@ let
         "iDirEY9e" = _iDirEY9e;
         "gNpzPex0" = _gNpzPex0;
         "sSGvZSNO" = _sSGvZSNO;
+        "TSfMkL75" = _TSfMkL75;
+        "sSzjNGEu" = _sSzjNGEu;
         "fabric-1.20.1" = _lRclcgT0;
         "fabric-1.21" = _X6panP3c;
         "fabric-1.21.1" = _X6panP3c;
@@ -85,6 +97,7 @@ let
         "fabric-26.1.1" = _iDirEY9e;
         "fabric-26.1.2" = _iDirEY9e;
         "fabric-26.2" = _sSGvZSNO;
+        "fabric-26.3" = _TSfMkL75;
         "forge-1.20.1" = _nNh8CWTL;
         "neoforge-1.20.1" = _nNh8CWTL;
         "neoforge-1.21" = _rlDwZFXu;
@@ -103,12 +116,14 @@ let
         "neoforge-26.1.1" = _gNpzPex0;
         "neoforge-26.1.2" = _gNpzPex0;
         "neoforge-26.2" = _gNpzPex0;
+        "neoforge-26.3" = _sSzjNGEu;
         "pkg-0.0.1+1.20.1" = _nNh8CWTL;
         "pkg-0.0.1+1.21" = _rlDwZFXu;
         "pkg-0.0.1+1.21.2" = _lRhBBhQm;
         "pkg-0.0.1+1.21.11" = _xqrYvrKl;
         "pkg-0.0.1+26.1" = _sSGvZSNO;
-        "default" = _sSGvZSNO;
+        "pkg-0.0.1+26.3" = _sSzjNGEu;
+        "default" = _sSzjNGEu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modifiedbiomesourceterrablender";

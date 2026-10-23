@@ -41,6 +41,11 @@ let
             "file" = "PvpBot Test.jar";
             "hash" = "sha512-q2zrL0JFq7p3zv4abY89tEbqNHcfAKZT/Y0ZU1AwIiYcuGRRSSsLJ5ocM05l/7Qs2SN6KCLCrFbtLBu6gn3VRQ==";
         };
+        _sQe1hHFf = {
+            "id" = "sQe1hHFf";
+            "file" = "pvpbot-4.0.0.jar";
+            "hash" = "sha512-VmUu9MlcOnlBJQz7ZuZ+vHhGwboXJpZRwfpptGvq7+43XzUr0lPq2gFo/1m+/6E60ATeOaXSlNR7DtyUQ7bhMw==";
+        };
     in {
         "xmiUNlz3" = _xmiUNlz3;
         "TMUTj2qa" = _TMUTj2qa;
@@ -50,7 +55,8 @@ let
         "cWdhN8IR" = _cWdhN8IR;
         "ntGuFCaM" = _ntGuFCaM;
         "Szopfj6Q" = _Szopfj6Q;
-        "fabric-1.21.1" = _Szopfj6Q;
+        "sQe1hHFf" = _sQe1hHFf;
+        "fabric-1.21.1" = _sQe1hHFf;
         "pkg-1.0.0" = _xmiUNlz3;
         "pkg-1.5.0b" = _TMUTj2qa;
         "pkg-1.5.0" = _svYqBRIY;
@@ -59,7 +65,8 @@ let
         "pkg-3.0.0" = _cWdhN8IR;
         "pkg-3.5.0" = _ntGuFCaM;
         "pkg-3.5.5" = _Szopfj6Q;
-        "default" = _Szopfj6Q;
+        "pkg-4.0.0" = _sQe1hHFf;
+        "default" = _sQe1hHFf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vulgars-pvp-bot";

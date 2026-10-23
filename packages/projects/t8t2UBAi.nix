@@ -11,13 +11,20 @@ let
             "file" = "sitlog-1.0.1.jar";
             "hash" = "sha512-uW9gMNTYGeGawjNDsci1RJT90C9k1klnBxeTQeNR1nhmZXqZGQ0xyji1r4SKkhgnfKyP6RjTfWir2xsDyAc8YQ==";
         };
+        _HcTceXtK = {
+            "id" = "HcTceXtK";
+            "file" = "sitlog-1.0.2.jar";
+            "hash" = "sha512-Ji9M6sQQBOzBKPK3Ve3uj82YfJOpZ7nHCAJNgvcGgbiPvUkN2isvZsIy/4i6UTp+yq9/LKyQA/k1KEptbl/ROw==";
+        };
     in {
         "ehlfvEEH" = _ehlfvEEH;
         "5FVrBMIE" = _5FVrBMIE;
-        "fabric-1.21.1" = _5FVrBMIE;
+        "HcTceXtK" = _HcTceXtK;
+        "fabric-1.21.1" = _HcTceXtK;
         "pkg-1.0.0" = _ehlfvEEH;
         "pkg-1.0.1+1.21.1" = _5FVrBMIE;
-        "default" = _5FVrBMIE;
+        "pkg-1.0.2+1.21.1" = _HcTceXtK;
+        "default" = _HcTceXtK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sitlog";

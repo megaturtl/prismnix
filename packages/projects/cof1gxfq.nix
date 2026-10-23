@@ -206,6 +206,11 @@ let
             "file" = "TPAtools-fabric-1.2.1+26.3.jar";
             "hash" = "sha512-WEf9jCMq0LFBe9jrRFCvgAUT+Cv0hSqq9oTW/GETMC+ZJyVfETI+xkB785JeV0DDP77sRLeE4HtRCvBA6jwsuA==";
         };
+        _jdaWr9hn = {
+            "id" = "jdaWr9hn";
+            "file" = "TPAtools-fabric-1.2.2+mc26.3.jar";
+            "hash" = "sha512-v+NO3/lMqGtepTe5U/2MIemh8dfkUPSvDnMzWTw49pQ8pvxHCQZC8ifJoZBBrCl/gbAINUGTuc3JewI/VUBu0Q==";
+        };
     in {
         "7QZP2e1x" = _7QZP2e1x;
         "nw7Kff4q" = _nw7Kff4q;
@@ -248,6 +253,7 @@ let
         "GSe2iXe1" = _GSe2iXe1;
         "7g2IGWQJ" = _7g2IGWQJ;
         "AmFfzUwY" = _AmFfzUwY;
+        "jdaWr9hn" = _jdaWr9hn;
         "forge-1.20.1" = _24tf3EYx;
         "forge-1.20.2" = _24tf3EYx;
         "forge-1.20.3" = _24tf3EYx;
@@ -284,7 +290,7 @@ let
         "fabric-26.1.1" = _f260gPE7;
         "fabric-26.1.2" = _f260gPE7;
         "fabric-26.2" = _ruUc2DLW;
-        "fabric-26.3" = _AmFfzUwY;
+        "fabric-26.3" = _jdaWr9hn;
         "quilt-1.20" = _Wr3SAwzG;
         "quilt-1.20.1" = _Wr3SAwzG;
         "quilt-1.20.2" = _Wr3SAwzG;
@@ -332,7 +338,8 @@ let
         "pkg-1.2.1+1.21-1.21.1" = _GSe2iXe1;
         "pkg-1.2.1+1.21.2-1.21.4" = _7g2IGWQJ;
         "pkg-1.2.1+26.3" = _AmFfzUwY;
-        "default" = _AmFfzUwY;
+        "pkg-1.2.2+mc26.3" = _jdaWr9hn;
+        "default" = _jdaWr9hn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tpatools";

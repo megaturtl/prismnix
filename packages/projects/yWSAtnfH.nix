@@ -856,6 +856,11 @@ let
             "file" = "BHMenu-Forge-1.7.10-2.4.7.jar";
             "hash" = "sha512-yanLMQ3dw+v0PCsEE8cgc1mtog4XSOR9qBG6jcCAG5b8bM0gALB8gRbl/C7A4hijv743DMAolOcTcjcJkF+3Qw==";
         };
+        _Czpihdus = {
+            "id" = "Czpihdus";
+            "file" = "BHMenu-Forge-1.12.2-2.4.8.jar";
+            "hash" = "sha512-jxOqdleLSzo+Etq9qUHFPsjV7R+Lso3Y6lW4FBAJt7QW7EB7flPxcGPKMcTIvJ0eD7RChkEpoJRAv/NIB/esFQ==";
+        };
     in {
         "5yuZc9ZO" = _5yuZc9ZO;
         "DLXfi5mx" = _DLXfi5mx;
@@ -1028,9 +1033,10 @@ let
         "sQtDoPiw" = _sQtDoPiw;
         "n0maai4Q" = _n0maai4Q;
         "85ivIcpj" = _85ivIcpj;
+        "Czpihdus" = _Czpihdus;
         "forge-1.12" = _n64nrOMS;
         "forge-1.12.1" = _n64nrOMS;
-        "forge-1.12.2" = _n0maai4Q;
+        "forge-1.12.2" = _Czpihdus;
         "forge-1.13" = _DLXfi5mx;
         "forge-1.13.1" = _DLXfi5mx;
         "forge-1.13.2" = _Arjcyc4M;
@@ -1161,7 +1167,8 @@ let
         "pkg-2.5.4" = _iLFmg6WM;
         "pkg-3.0.0" = _sQtDoPiw;
         "pkg-2.4.7" = _85ivIcpj;
-        "default" = _85ivIcpj;
+        "pkg-2.4.8" = _Czpihdus;
+        "default" = _Czpihdus;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bisect-mod";

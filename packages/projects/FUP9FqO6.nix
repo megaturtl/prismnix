@@ -111,6 +111,16 @@ let
             "file" = "cobblemon-breathers-fabric-1.6.0.jar";
             "hash" = "sha512-1q8iYiE4LltncBN+xJDPL6DYzLy09/dmFZqZDUJ77QsqsUhV46gRVdceENMjOBOscJdDiOtV+Y0VScxd7nT56g==";
         };
+        _sr0QgMvO = {
+            "id" = "sr0QgMvO";
+            "file" = "cobblemon-breathers-fabric-1.6.1.jar";
+            "hash" = "sha512-16sw/5sqDd1bzXAAEkxXLEtLAoGzINHVKbOnKTRVr8foye9PuyDTJMCDIHJitS3bzwU73SoTD/YmoQ4vgbexFg==";
+        };
+        _YPLGgcTi = {
+            "id" = "YPLGgcTi";
+            "file" = "cobblemon-breathers-neoforge-1.6.1.jar";
+            "hash" = "sha512-vmCONdDBmMJZqs7Vbk7zs07GGEltL0HsDSlmtHAcvoCbMB5rB/dvZc/FWAZhUJGRG1kDHyyz4CGfkQaBbL6A0A==";
+        };
     in {
         "D2Aeltxk" = _D2Aeltxk;
         "MnVMGVdB" = _MnVMGVdB;
@@ -134,8 +144,10 @@ let
         "YLyW1Txn" = _YLyW1Txn;
         "6mFFKLL4" = _6mFFKLL4;
         "jxucqh4y" = _jxucqh4y;
-        "fabric-1.21.1" = _jxucqh4y;
-        "neoforge-1.21.1" = _6mFFKLL4;
+        "sr0QgMvO" = _sr0QgMvO;
+        "YPLGgcTi" = _YPLGgcTi;
+        "fabric-1.21.1" = _sr0QgMvO;
+        "neoforge-1.21.1" = _YPLGgcTi;
         "pkg-1.0.0" = _MnVMGVdB;
         "pkg-1.0.1" = _jbZfN8La;
         "pkg-1.1.0" = _IsQiFl2r;
@@ -147,7 +159,8 @@ let
         "pkg-1.4.0" = _ynKixcg0;
         "pkg-1.5.0" = _YLyW1Txn;
         "pkg-1.6.0" = _jxucqh4y;
-        "default" = _jxucqh4y;
+        "pkg-1.6.1" = _YPLGgcTi;
+        "default" = _YPLGgcTi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-breathers";

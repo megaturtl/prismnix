@@ -36,6 +36,11 @@ let
             "file" = "lightstones-1.7.2.jar";
             "hash" = "sha512-6fzixUjyOCy3t5A7TcsD4tMdd87dPrj0fHjbd4PGM2RvgRs48y5NwYj7x+DRnjzkp2zG42iU6IhXbPgg01IjIw==";
         };
+        _jZkVwAzG = {
+            "id" = "jZkVwAzG";
+            "file" = "lightstones-1.8.0.jar";
+            "hash" = "sha512-rL0Jw+ahh/Z7f8qoY0rahgU570337WEP4Odq9R+5aELqVMz954TLmSOU60rN1eHh4ZG83Ic4+VDpl2PD9ng9rw==";
+        };
     in {
         "8Y3wBPum" = _8Y3wBPum;
         "qi8nVaHt" = _qi8nVaHt;
@@ -44,9 +49,16 @@ let
         "USUT6oEo" = _USUT6oEo;
         "oJMTbPtn" = _oJMTbPtn;
         "3si8VCTc" = _3si8VCTc;
+        "jZkVwAzG" = _jZkVwAzG;
         "fabric-1.16.5" = _8Y3wBPum;
         "fabric-1.18.2" = _Cf2P7edW;
         "fabric-1.19.2" = _3si8VCTc;
+        "fabric-1.20.1" = _jZkVwAzG;
+        "fabric-1.20.2" = _jZkVwAzG;
+        "fabric-1.20.3" = _jZkVwAzG;
+        "fabric-1.20.4" = _jZkVwAzG;
+        "fabric-1.20.5" = _jZkVwAzG;
+        "fabric-1.20.6" = _jZkVwAzG;
         "forge-1.16.5" = _qi8nVaHt;
         "forge-1.18.2" = _gMKbSZXB;
         "forge-1.19.2" = _USUT6oEo;
@@ -57,7 +69,8 @@ let
         "pkg-1.7.0" = _USUT6oEo;
         "pkg-1.7.1" = _oJMTbPtn;
         "pkg-1.7.2" = _3si8VCTc;
-        "default" = _3si8VCTc;
+        "pkg-1.8.0" = _jZkVwAzG;
+        "default" = _jZkVwAzG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lightstones";

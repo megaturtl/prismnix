@@ -56,6 +56,16 @@ let
             "file" = "toolbar-sounds-1.1.jar";
             "hash" = "sha512-dICVhHW9g93ohmuKMoCF3jZF3aTl/o7VfU9mn7P5uZf30DFjakeZVsgmpzWXTjBQZwEuLhp6sV6wykdzcR5zqQ==";
         };
+        _3TZLvLT1 = {
+            "id" = "3TZLvLT1";
+            "file" = "toolbar_sounds_v1.1_26.3.zip";
+            "hash" = "sha512-KHw8oUhEWEtWhda6mcF19PNTEji5D97DSRLeZ5FbeHqvhkdJnc8JmbEn8jtvGj13ekURv5TFg3sfeYzVeIf6BQ==";
+        };
+        _FQFO3MGf = {
+            "id" = "FQFO3MGf";
+            "file" = "toolbar-sounds-1.1.jar";
+            "hash" = "sha512-FtxFpBpBHZR4rrGxHSa24dmN+gxHShJydsVLGhEY1415EJP/hwMU9ubSJpfI4y8NxGxkwsk1BK/Pa8y3UYtk3Q==";
+        };
     in {
         "VfokLEX1" = _VfokLEX1;
         "LrWn6mW1" = _LrWn6mW1;
@@ -68,6 +78,8 @@ let
         "1BO9mKJt" = _1BO9mKJt;
         "4vN8AlK3" = _4vN8AlK3;
         "fY59penG" = _fY59penG;
+        "3TZLvLT1" = _3TZLvLT1;
+        "FQFO3MGf" = _FQFO3MGf;
         "datapack-1.19" = _VfokLEX1;
         "datapack-1.19.1" = _VfokLEX1;
         "datapack-1.19.2" = _VfokLEX1;
@@ -95,6 +107,7 @@ let
         "datapack-26.1.1" = _4vN8AlK3;
         "datapack-26.1.2" = _4vN8AlK3;
         "datapack-26.2" = _4vN8AlK3;
+        "datapack-26.3" = _3TZLvLT1;
         "fabric-1.20" = _e6Edt62k;
         "fabric-1.20.1" = _e6Edt62k;
         "fabric-1.20.2" = _e6Edt62k;
@@ -118,6 +131,7 @@ let
         "fabric-26.1.1" = _fY59penG;
         "fabric-26.1.2" = _fY59penG;
         "fabric-26.2" = _fY59penG;
+        "fabric-26.3" = _FQFO3MGf;
         "forge-1.20" = _e6Edt62k;
         "forge-1.20.1" = _e6Edt62k;
         "forge-1.20.2" = _e6Edt62k;
@@ -141,6 +155,7 @@ let
         "forge-26.1.1" = _fY59penG;
         "forge-26.1.2" = _fY59penG;
         "forge-26.2" = _fY59penG;
+        "forge-26.3" = _FQFO3MGf;
         "neoforge-1.20" = _e6Edt62k;
         "neoforge-1.20.1" = _e6Edt62k;
         "neoforge-1.20.2" = _e6Edt62k;
@@ -164,6 +179,7 @@ let
         "neoforge-26.1.1" = _fY59penG;
         "neoforge-26.1.2" = _fY59penG;
         "neoforge-26.2" = _fY59penG;
+        "neoforge-26.3" = _FQFO3MGf;
         "quilt-1.20" = _e6Edt62k;
         "quilt-1.20.1" = _e6Edt62k;
         "quilt-1.20.2" = _e6Edt62k;
@@ -187,10 +203,11 @@ let
         "quilt-26.1.1" = _fY59penG;
         "quilt-26.1.2" = _fY59penG;
         "quilt-26.2" = _fY59penG;
+        "quilt-26.3" = _FQFO3MGf;
         "pkg-1.0" = _VfokLEX1;
-        "pkg-1.1" = _4vN8AlK3;
-        "pkg-1.1+mod" = _fY59penG;
-        "default" = _fY59penG;
+        "pkg-1.1" = _3TZLvLT1;
+        "pkg-1.1+mod" = _FQFO3MGf;
+        "default" = _FQFO3MGf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "toolbar-sounds";

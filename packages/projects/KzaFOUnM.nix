@@ -96,6 +96,11 @@ let
             "file" = "dragonminez-2.1.3.jar";
             "hash" = "sha512-sw0MzNzAXcrs0Yd0+oNjiEoaUwS8BzKHkX3pw3ej5LQHECSXL2lv/eAP1AnbX8qGbudUeiAWFCDOo/m6xPCMqg==";
         };
+        _3nadKnJi = {
+            "id" = "3nadKnJi";
+            "file" = "dragonminez-2.2.jar";
+            "hash" = "sha512-BCsugTYNM1NcTQjpNzDiYzjc9/QGLAOYU/r/iLja3IciMfmnLHg+B9qBmSbEvPT4AAC9cTHcSVEeMzLfcxIUcg==";
+        };
     in {
         "ScmMZ86E" = _ScmMZ86E;
         "JUMrhq1X" = _JUMrhq1X;
@@ -116,7 +121,8 @@ let
         "UIo444Xy" = _UIo444Xy;
         "t1Qn8aCi" = _t1Qn8aCi;
         "yZ4DgZaE" = _yZ4DgZaE;
-        "forge-1.20.1" = _yZ4DgZaE;
+        "3nadKnJi" = _3nadKnJi;
+        "forge-1.20.1" = _3nadKnJi;
         "pkg-v1.1.0" = _ScmMZ86E;
         "pkg-v1.1.2" = _JUMrhq1X;
         "pkg-v1.1.3" = _oKawz4iq;
@@ -136,7 +142,8 @@ let
         "pkg-2.1.1b" = _UIo444Xy;
         "pkg-2.1.2" = _t1Qn8aCi;
         "pkg-2.1.3" = _yZ4DgZaE;
-        "default" = _yZ4DgZaE;
+        "pkg-2.2" = _3nadKnJi;
+        "default" = _3nadKnJi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dragonminez";

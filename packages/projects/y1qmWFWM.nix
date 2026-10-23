@@ -41,6 +41,11 @@ let
             "file" = "applied-generators-0.3.0+26.1.2.jar";
             "hash" = "sha512-5dOWr2EPn309iuoITdfcc+25s9Sp12SD4VE97HPVpPgfcLNRaVSctJEGaI7ly0hH3PwmenUqZoBYGfZgOCMAyA==";
         };
+        _zqlEPjwN = {
+            "id" = "zqlEPjwN";
+            "file" = "applied-generators-0.3.1+26.1.2.jar";
+            "hash" = "sha512-BmAWOG+JQw5P4Im4P/FbRiugpPurGhKnlKuSTL8Hb9IfBeg5DrrzQ29lVyUndGN+++fdTtfwZXYPOPMKxwD7jg==";
+        };
     in {
         "epvDbwPf" = _epvDbwPf;
         "4sQbAy9s" = _4sQbAy9s;
@@ -50,8 +55,9 @@ let
         "1MM9rVXK" = _1MM9rVXK;
         "InEKowoU" = _InEKowoU;
         "BkYJIeHq" = _BkYJIeHq;
+        "zqlEPjwN" = _zqlEPjwN;
         "neoforge-1.21.1" = _InEKowoU;
-        "neoforge-26.1.2" = _BkYJIeHq;
+        "neoforge-26.1.2" = _zqlEPjwN;
         "pkg-0.2.2" = _epvDbwPf;
         "pkg-0.2.4" = _4sQbAy9s;
         "pkg-0.2.5+1.21.1" = _TZFgM6T8;
@@ -60,7 +66,8 @@ let
         "pkg-0.2.6+26.1.2" = _1MM9rVXK;
         "pkg-0.3.0+1.21.1" = _InEKowoU;
         "pkg-0.3.0+26.1.2" = _BkYJIeHq;
-        "default" = _BkYJIeHq;
+        "pkg-0.3.1+26.1.2" = _zqlEPjwN;
+        "default" = _zqlEPjwN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "applied-generators";

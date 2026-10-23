@@ -51,6 +51,16 @@ let
             "file" = "milky_way-1.21.1-3.0.0.jar";
             "hash" = "sha512-D41jHr+zl/w9cZywpMrcFZwCGhXP4JVeTw7KbEWIaFxb4At4M3wz4PwWeHDCAM/YvmD/eWIVNspTa6F5JAIKmQ==";
         };
+        _WVX6jmLt = {
+            "id" = "WVX6jmLt";
+            "file" = "milky_way-1.21.1-3.0.1.jar";
+            "hash" = "sha512-JAr4kxm1ZsF1rgnCrYwyp6CD2aL339ZC7e0TcF8R4d0sNFmz9gf3MT0MYXBWlGB8YGI2oBE4DMcgUj6Y7GPSwA==";
+        };
+        _ZZkGgHZf = {
+            "id" = "ZZkGgHZf";
+            "file" = "milky_way-1.21.1-3.0.2.jar";
+            "hash" = "sha512-8uDzL8bKTdkcTypnMT9GrEzsb77rdvG3Yui5vL3gjrTbeLcroq6MpuNdWMyn4JDj6UjBy9gj69Jh8tb14kh6/Q==";
+        };
     in {
         "AdagUvvO" = _AdagUvvO;
         "iiAdDd4e" = _iiAdDd4e;
@@ -62,9 +72,11 @@ let
         "SwikYNzM" = _SwikYNzM;
         "M2uo33Ub" = _M2uo33Ub;
         "X6K8vIqw" = _X6K8vIqw;
+        "WVX6jmLt" = _WVX6jmLt;
+        "ZZkGgHZf" = _ZZkGgHZf;
         "forge-1.19.2" = _M2uo33Ub;
         "forge-1.20.1" = _SwikYNzM;
-        "neoforge-1.21.1" = _X6K8vIqw;
+        "neoforge-1.21.1" = _ZZkGgHZf;
         "pkg-1.0.0" = _AdagUvvO;
         "pkg-1.0.1" = _iiAdDd4e;
         "pkg-1.0.2" = _J48SaCiW;
@@ -75,7 +87,9 @@ let
         "pkg-2.0.0" = _SwikYNzM;
         "pkg-1.1.1" = _M2uo33Ub;
         "pkg-3.0.0" = _X6K8vIqw;
-        "default" = _X6K8vIqw;
+        "pkg-3.0.1" = _WVX6jmLt;
+        "pkg-3.0.2" = _ZZkGgHZf;
+        "default" = _ZZkGgHZf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "milky-way";

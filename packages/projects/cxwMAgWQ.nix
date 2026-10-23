@@ -251,6 +251,16 @@ let
             "file" = "pehkui-rebuilt-neoforge-3.8.8+1.21.1.jar";
             "hash" = "sha512-Q4DemxFsmY0bf/4IQwGx6+p3t3TlOQcTM7mKZSP34CdKZvk5+k2LPnbXAShU27AMUlo+9cg8B8p00vlRiPXLJg==";
         };
+        _Zq48T6pj = {
+            "id" = "Zq48T6pj";
+            "file" = "pehkui-rebuilt-neoforge-3.9.1+1.21.1.jar";
+            "hash" = "sha512-D/RZGrhfgLn5XxQ3KVP7eVSIq7/6SU92UQIqMLUYWneSpGi4okYCn6+I/1XnP+N5cwmfJTnLS8ZKsrrtIczHAg==";
+        };
+        _WwFZyanw = {
+            "id" = "WwFZyanw";
+            "file" = "pehkui-rebuilt-fabric-3.9.1+1.21.1.jar";
+            "hash" = "sha512-rzDkbFj75GIHNWz5yZXkISUMPAgB4Tm1mZA6ulFVYaqyoWACNZTm0TBTzG+YMM3tdGM76NbNK6a18PDcDHTb3A==";
+        };
     in {
         "8jAPmdu0" = _8jAPmdu0;
         "ZvqEKuNn" = _ZvqEKuNn;
@@ -302,7 +312,9 @@ let
         "Cu4642KA" = _Cu4642KA;
         "oWBeEAuN" = _oWBeEAuN;
         "jh1i6DJE" = _jh1i6DJE;
-        "fabric-1.21.1" = _oWBeEAuN;
+        "Zq48T6pj" = _Zq48T6pj;
+        "WwFZyanw" = _WwFZyanw;
+        "fabric-1.21.1" = _WwFZyanw;
         "fabric-1.21.2" = _eYjpf8Om;
         "fabric-1.21.3" = _eYjpf8Om;
         "fabric-1.21.4" = _eYjpf8Om;
@@ -317,10 +329,10 @@ let
         "fabric-26.1.1" = _JDAu6BGS;
         "fabric-26.1.2" = _IWt5Ps64;
         "fabric-26.2" = _gPaTqaxW;
-        "fabric-1.21" = _oWBeEAuN;
+        "fabric-1.21" = _WwFZyanw;
         "fabric-26.3" = _gyV813Az;
-        "neoforge-1.21" = _jh1i6DJE;
-        "neoforge-1.21.1" = _jh1i6DJE;
+        "neoforge-1.21" = _Zq48T6pj;
+        "neoforge-1.21.1" = _Zq48T6pj;
         "neoforge-1.21.2" = _dDZolaKH;
         "neoforge-1.21.3" = _dDZolaKH;
         "neoforge-1.21.4" = _dDZolaKH;
@@ -378,7 +390,8 @@ let
         "pkg-3.8.7+26.3" = _hiStS16s;
         "pkg-3.8.7+1.21.1-hotfix" = _Cu4642KA;
         "pkg-3.8.8+1.21.1" = _jh1i6DJE;
-        "default" = _jh1i6DJE;
+        "pkg-3.9.1+1.21.1" = _WwFZyanw;
+        "default" = _WwFZyanw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pehkui-rebuilt";

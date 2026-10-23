@@ -516,6 +516,16 @@ let
             "file" = "additionaladditions-neoforge-10.0.14.jar";
             "hash" = "sha512-6pSNqOMHbLZ+DsmUfahkv9hH4Dj7gpjepYDENzt4a5iTAhJ9FH/j6wW7lzHiz4PbmLuURmMhUbsOQLkmTWoaEA==";
         };
+        _QW8CXyRC = {
+            "id" = "QW8CXyRC";
+            "file" = "additionaladditions-fabric-10.0.15.jar";
+            "hash" = "sha512-QzqxhYPflxy5dsRm5Gq8D/r9TjGnN4E2+1Ud/wygIYknImJPyjJ1ri9GZ6z5JFtcmX5WYDbUqlYC++JmiqF65A==";
+        };
+        _gDz4CtMP = {
+            "id" = "gDz4CtMP";
+            "file" = "additionaladditions-neoforge-10.0.15.jar";
+            "hash" = "sha512-Z4S8CcQ8ltMlqJ1JgOA38FmUVAo9WE9PSR+lPXFW3hj5Reol36q8NDunepd7xgK/9f+9T/uRNDbRv/hBihkC2w==";
+        };
     in {
         "5ySIoXsy" = _5ySIoXsy;
         "1Z7erZAH" = _1Z7erZAH;
@@ -620,6 +630,8 @@ let
         "ARUzLwy2" = _ARUzLwy2;
         "1RIHaXDM" = _1RIHaXDM;
         "Ag6oHzXJ" = _Ag6oHzXJ;
+        "QW8CXyRC" = _QW8CXyRC;
+        "gDz4CtMP" = _gDz4CtMP;
         "fabric-1.17.1" = _x34RrDla;
         "fabric-1.18-pre2" = _PrlGaWYX;
         "fabric-1.18-rc1" = _Kx7YxmYX;
@@ -641,7 +653,7 @@ let
         "fabric-26.1.1" = _Ys0Pjlxp;
         "fabric-26.1.2" = _Ys0Pjlxp;
         "fabric-26.2" = _cF8K7F4d;
-        "fabric-26.3" = _1RIHaXDM;
+        "fabric-26.3" = _QW8CXyRC;
         "forge-1.18" = _zOOCzpvo;
         "forge-1.18.1" = _zOOCzpvo;
         "forge-1.18.2" = _NCMqaI5l;
@@ -661,7 +673,7 @@ let
         "neoforge-26.1.1" = _2NgNd3pK;
         "neoforge-26.1.2" = _2NgNd3pK;
         "neoforge-26.2" = _gLhDFIE6;
-        "neoforge-26.3" = _Ag6oHzXJ;
+        "neoforge-26.3" = _gDz4CtMP;
         "pkg-1.0.0" = _5ySIoXsy;
         "pkg-1.1.0" = _1Z7erZAH;
         "pkg-1.2.0" = _Z4fDOsHb;
@@ -763,7 +775,9 @@ let
         "pkg-10.0.9+1.21.4-neoforge" = _ARUzLwy2;
         "pkg-10.0.14+26.3-fabric" = _1RIHaXDM;
         "pkg-10.0.14+26.3-neoforge" = _Ag6oHzXJ;
-        "default" = _Ag6oHzXJ;
+        "pkg-10.0.15+26.3-fabric" = _QW8CXyRC;
+        "pkg-10.0.15+26.3-neoforge" = _gDz4CtMP;
+        "default" = _gDz4CtMP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "addadd";

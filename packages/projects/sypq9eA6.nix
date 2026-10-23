@@ -451,6 +451,16 @@ let
             "file" = "bigger-stack-size-v2.5.1.0.jar";
             "hash" = "sha512-iisNr0aU3GSAbg9FLHrxRRFWIPCe/wuUo3F6RGhOb5/nlRCFclyBnvZUR5ifJjUksjSWCKYr8eT1aa1iMxpyKg==";
         };
+        _a9rSKW8Z = {
+            "id" = "a9rSKW8Z";
+            "file" = "bigger-stack-size-v.2.5.2.zip";
+            "hash" = "sha512-2N4xy1oxGTJs48idqKZJBDzjfRGwwguiofRpXQpHk9HGOja+CjxdAb8x0oieKshty59ppeaYHAtFEgkBSQV6Hw==";
+        };
+        _y4eImctz = {
+            "id" = "y4eImctz";
+            "file" = "bigger-stack-size-v.2.5.2.jar";
+            "hash" = "sha512-6AklXwxgyPcavDi+IzhwF0+aotzW1f0GYe1dUkoaICNfR529cozbQLxIhmenYWmxNoeE+Sy5Fa7NH/DVfzmikQ==";
+        };
     in {
         "frw4rxa7" = _frw4rxa7;
         "qGyDFeuh" = _qGyDFeuh;
@@ -542,6 +552,8 @@ let
         "rZ23yqgr" = _rZ23yqgr;
         "55bi462e" = _55bi462e;
         "7ruyU6Tr" = _7ruyU6Tr;
+        "a9rSKW8Z" = _a9rSKW8Z;
+        "y4eImctz" = _y4eImctz;
         "datapack-1.20.5" = _frw4rxa7;
         "datapack-1.20.6" = _frw4rxa7;
         "datapack-1.21" = _hnghQp9d;
@@ -561,7 +573,7 @@ let
         "datapack-26.1.1" = _qZ0EuKA7;
         "datapack-26.1.2" = _qZ0EuKA7;
         "datapack-26.2" = _qZ0EuKA7;
-        "datapack-26.3" = _55bi462e;
+        "datapack-26.3" = _a9rSKW8Z;
         "fabric-1.20.5" = _qGyDFeuh;
         "fabric-1.20.6" = _qGyDFeuh;
         "fabric-1.21" = _8gTzrJKk;
@@ -581,7 +593,7 @@ let
         "fabric-26.1.1" = _55BuhFT5;
         "fabric-26.1.2" = _55BuhFT5;
         "fabric-26.2" = _55BuhFT5;
-        "fabric-26.3" = _7ruyU6Tr;
+        "fabric-26.3" = _y4eImctz;
         "forge-1.20.5" = _qGyDFeuh;
         "forge-1.20.6" = _qGyDFeuh;
         "forge-1.21" = _8gTzrJKk;
@@ -601,7 +613,7 @@ let
         "forge-26.1.1" = _55BuhFT5;
         "forge-26.1.2" = _55BuhFT5;
         "forge-26.2" = _55BuhFT5;
-        "forge-26.3" = _7ruyU6Tr;
+        "forge-26.3" = _y4eImctz;
         "quilt-1.20.5" = _qGyDFeuh;
         "quilt-1.20.6" = _qGyDFeuh;
         "quilt-1.21" = _8gTzrJKk;
@@ -621,7 +633,7 @@ let
         "quilt-26.1.1" = _55BuhFT5;
         "quilt-26.1.2" = _55BuhFT5;
         "quilt-26.2" = _55BuhFT5;
-        "quilt-26.3" = _7ruyU6Tr;
+        "quilt-26.3" = _y4eImctz;
         "neoforge-1.21" = _8gTzrJKk;
         "neoforge-1.21.1" = _8gTzrJKk;
         "neoforge-1.21.2" = _8gTzrJKk;
@@ -639,7 +651,7 @@ let
         "neoforge-26.1.1" = _55BuhFT5;
         "neoforge-26.1.2" = _55BuhFT5;
         "neoforge-26.2" = _55BuhFT5;
-        "neoforge-26.3" = _7ruyU6Tr;
+        "neoforge-26.3" = _y4eImctz;
         "pkg-v.1.0.0" = _ymQ8XZ4A;
         "pkg-v.1.0.0+mod" = _K36caau5;
         "pkg-v.1.1.0" = _82oja3am;
@@ -716,7 +728,9 @@ let
         "pkg-v2.5.1+mod" = _rZ23yqgr;
         "pkg-v2.5.1.0" = _55bi462e;
         "pkg-v2.5.1.0+mod" = _7ruyU6Tr;
-        "default" = _7ruyU6Tr;
+        "pkg-v.2.5.2" = _a9rSKW8Z;
+        "pkg-v.2.5.2+mod" = _y4eImctz;
+        "default" = _y4eImctz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bigger-stack-size";

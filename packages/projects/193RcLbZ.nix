@@ -96,6 +96,11 @@ let
             "file" = "AliensUntapped-1.3.5.jar";
             "hash" = "sha512-O+isL6vULiJPiG5qiDIoJIMZHhD0/yI2f6M7oapxGOTWFlLK7cDQs4IKc+b3jalM/UTUigKVN+1QjgNSyaCOPg==";
         };
+        _MGLR1rXs = {
+            "id" = "MGLR1rXs";
+            "file" = "AliensUntapped-1.3.5.2.jar";
+            "hash" = "sha512-sdh+VkZ0VUGWB4i/rPFwiW4WaGQs5osnTY6P4QVEyS4v316WpfcEe2w/QDs9irZtoTwllIhfC7R/8ZAXacq+pQ==";
+        };
     in {
         "p3NdOGVY" = _p3NdOGVY;
         "GX9xENCO" = _GX9xENCO;
@@ -116,7 +121,8 @@ let
         "WOAEMcxL" = _WOAEMcxL;
         "JyD2iXTh" = _JyD2iXTh;
         "TRKvDDIR" = _TRKvDDIR;
-        "forge-1.20.1" = _TRKvDDIR;
+        "MGLR1rXs" = _MGLR1rXs;
+        "forge-1.20.1" = _MGLR1rXs;
         "pkg-1.0.0" = _p3NdOGVY;
         "pkg-1.0.1" = _GX9xENCO;
         "pkg-1.0.2" = _eeI7s381;
@@ -136,7 +142,8 @@ let
         "pkg-1.3.4" = _WOAEMcxL;
         "pkg-1.3.5" = _JyD2iXTh;
         "pkg-1.3.5.1" = _TRKvDDIR;
-        "default" = _TRKvDDIR;
+        "pkg-1.3.5.2" = _MGLR1rXs;
+        "default" = _MGLR1rXs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "aliens-untapped";

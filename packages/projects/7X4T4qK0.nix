@@ -2576,6 +2576,41 @@ let
             "file" = "angelblock-26.3-3.14.0.jar";
             "hash" = "sha512-i3HPRNesN/Um0f7T41SGo2kTatefKc/2Wxeh/uC/4GtI/cawgY1S3Ke70050z3yLEtJbU1brnXhWrd75lUB90g==";
         };
+        _k4DM8Wb0 = {
+            "id" = "k4DM8Wb0";
+            "file" = "angelblock-1.21.1-3.15.0.jar";
+            "hash" = "sha512-947WsivFaAAvGLvvJTHRlX+Gp53vwDJK73ktNJqosJk5T94TgSoLD/TKjFjEsRqXzs1qzDwwjyJRjDThilBJ9A==";
+        };
+        _VJtWZcJK = {
+            "id" = "VJtWZcJK";
+            "file" = "angelblock-1.21.10-3.15.0.jar";
+            "hash" = "sha512-2pfOYZUmUK+vOgzqAq51yf82fb78lPtleVZXoeY4z5trOzK9+jkhYmbAM69OeV2RmPJMgSpN3mPvDY39O2LqIg==";
+        };
+        _MgP88ELh = {
+            "id" = "MgP88ELh";
+            "file" = "angelblock-1.21.11-3.15.0.jar";
+            "hash" = "sha512-bSaAsrn+LK1qgAFMaCdwcC+v8u919xIC3Ki8lqJtFltk3/IDgE+xPtREmMrGN7kx1oeMZu911N1qd+F4hagLZA==";
+        };
+        _ijhPyLCD = {
+            "id" = "ijhPyLCD";
+            "file" = "angelblock-26.1.1-3.15.0.jar";
+            "hash" = "sha512-CoNyHWik5TGWJrdiCb6EvsY7tjpy/0PDnAQuiA0CzmQG5gR3fFTnxonRw8Wi1kJmKEexKztlTwgt/KCFGi+hQQ==";
+        };
+        _1XbEzhwt = {
+            "id" = "1XbEzhwt";
+            "file" = "angelblock-26.1.2-3.15.0.jar";
+            "hash" = "sha512-WUTxj4SNXLHZdm6WcWIwDdVVvwMBanfnkrlVr+QI578TBl6Xi4D3uC4nfaNF2Ixx4DA9fwdtQYY90efCj6BVhA==";
+        };
+        _ZR6v8DNC = {
+            "id" = "ZR6v8DNC";
+            "file" = "angelblock-26.2-3.15.0.jar";
+            "hash" = "sha512-rz3EuRgcXJyHli4VWgoa2bAPmfyloI/gqaigYj23WbDzhw0u6LfdyDDtrf48j74bc199dwvDv50C830CcKNR3w==";
+        };
+        _qythLGXY = {
+            "id" = "qythLGXY";
+            "file" = "angelblock-26.3-3.15.0.jar";
+            "hash" = "sha512-7rZTqCLmX1Fwyd0/rq5gYMRsnrXRgIlXXlk5SPhuDs+1cmHfDj6srdHPOmwzo9oIGwDwQi2tezsSUxEKU9GZ3g==";
+        };
     in {
         "XU4vhKxb" = _XU4vhKxb;
         "24sZAWEc" = _24sZAWEc;
@@ -3092,21 +3127,28 @@ let
         "tkij8h6l" = _tkij8h6l;
         "15QrNqUj" = _15QrNqUj;
         "24qOjZsK" = _24qOjZsK;
+        "k4DM8Wb0" = _k4DM8Wb0;
+        "VJtWZcJK" = _VJtWZcJK;
+        "MgP88ELh" = _MgP88ELh;
+        "ijhPyLCD" = _ijhPyLCD;
+        "1XbEzhwt" = _1XbEzhwt;
+        "ZR6v8DNC" = _ZR6v8DNC;
+        "qythLGXY" = _qythLGXY;
         "neoforge-1.21.4" = _GRCbjnPr;
         "neoforge-1.21.5" = _tK0BTyBs;
-        "neoforge-1.21.1" = _UJLcJjSA;
+        "neoforge-1.21.1" = _k4DM8Wb0;
         "neoforge-1.21.6" = _RINB4Tk8;
         "neoforge-1.21.7" = _aivIxdG0;
         "neoforge-1.21.3" = _s9Vqa5Cr;
         "neoforge-1.21.8" = _jUpooTE3;
         "neoforge-1.21.9" = _QFFU8KNX;
-        "neoforge-1.21.10" = _wDAR3Qfd;
-        "neoforge-1.21.11" = _xDonVlRE;
-        "neoforge-26.1" = _2zXhb3Uu;
-        "neoforge-26.1.1" = _2zXhb3Uu;
-        "neoforge-26.1.2" = _9cyRGTkp;
-        "neoforge-26.2" = _tkij8h6l;
-        "neoforge-26.3" = _24qOjZsK;
+        "neoforge-1.21.10" = _VJtWZcJK;
+        "neoforge-1.21.11" = _MgP88ELh;
+        "neoforge-26.1" = _ijhPyLCD;
+        "neoforge-26.1.1" = _ijhPyLCD;
+        "neoforge-26.1.2" = _1XbEzhwt;
+        "neoforge-26.2" = _ZR6v8DNC;
+        "neoforge-26.3" = _qythLGXY;
         "pkg-1.21.4-1.1.5" = _XU4vhKxb;
         "pkg-1.21.5-1.0.3-beta" = _24sZAWEc;
         "pkg-1.21.4-1.1.6" = _zSyCrZtf;
@@ -3622,7 +3664,14 @@ let
         "pkg-26.2-3.14.0" = _tkij8h6l;
         "pkg-26.3-3.14.0-beta" = _15QrNqUj;
         "pkg-26.3-3.14.0" = _24qOjZsK;
-        "default" = _24qOjZsK;
+        "pkg-1.21.1-3.15.0" = _k4DM8Wb0;
+        "pkg-1.21.10-3.15.0" = _VJtWZcJK;
+        "pkg-1.21.11-3.15.0" = _MgP88ELh;
+        "pkg-26.1.1-3.15.0" = _ijhPyLCD;
+        "pkg-26.1.2-3.15.0" = _1XbEzhwt;
+        "pkg-26.2-3.15.0" = _ZR6v8DNC;
+        "pkg-26.3-3.15.0" = _qythLGXY;
+        "default" = _qythLGXY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "angel-block-mod";

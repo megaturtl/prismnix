@@ -296,6 +296,16 @@ let
             "file" = "CreamyKeys-26.3.jar";
             "hash" = "sha512-dTL/6C+xt9EYJdCm15+HAhxiQH1qPn+OUYB80yhQIrzIe/Rjh5BH4lUXFbrCe1wAlETp5+aMFOrGhxlIghczHQ==";
         };
+        _7zNB7a1P = {
+            "id" = "7zNB7a1P";
+            "file" = "CreamyKeys-1.21.X-26.X.jar";
+            "hash" = "sha512-HhENZw1OM78eYdKrRADXpL9wqL0EmzpoOR73c46w7eCCiR9cFnoZLhlFaDiCFRny9RKXETbjKpexYPQx+sYL2g==";
+        };
+        _5Lu2jDni = {
+            "id" = "5Lu2jDni";
+            "file" = "CreamyKeys-1.8.9+1.21.X-26.X.jar";
+            "hash" = "sha512-HhENZw1OM78eYdKrRADXpL9wqL0EmzpoOR73c46w7eCCiR9cFnoZLhlFaDiCFRny9RKXETbjKpexYPQx+sYL2g==";
+        };
     in {
         "GVtGaqma" = _GVtGaqma;
         "JLpbPvhK" = _JLpbPvhK;
@@ -356,7 +366,9 @@ let
         "aKl8hi2y" = _aKl8hi2y;
         "pdFnz68w" = _pdFnz68w;
         "iN3wCcrg" = _iN3wCcrg;
-        "fabric-1.21" = _Eov7pihM;
+        "7zNB7a1P" = _7zNB7a1P;
+        "5Lu2jDni" = _5Lu2jDni;
+        "fabric-1.21" = _7zNB7a1P;
         "fabric-1.17.1" = _JLpbPvhK;
         "fabric-1.18" = _b6GawUlJ;
         "fabric-1.18.1" = _6akNujpG;
@@ -373,23 +385,23 @@ let
         "fabric-1.20.4" = _lyeD8MrC;
         "fabric-1.20.5" = _lyeD8MrC;
         "fabric-1.20.6" = _lyeD8MrC;
-        "fabric-1.21.1" = _Eov7pihM;
-        "fabric-1.21.2" = _Eov7pihM;
-        "fabric-1.21.3" = _Eov7pihM;
-        "fabric-1.21.4" = _Eov7pihM;
-        "fabric-1.21.5" = _Eov7pihM;
-        "fabric-1.21.6" = _Eov7pihM;
-        "fabric-1.21.7" = _Eov7pihM;
-        "fabric-1.21.8" = _Eov7pihM;
-        "fabric-1.21.9" = _Eov7pihM;
-        "fabric-1.21.10" = _Eov7pihM;
-        "fabric-1.21.11" = _Eov7pihM;
-        "fabric-26.1" = _Jyl9Mf7R;
-        "fabric-26.1.1" = _Jyl9Mf7R;
-        "fabric-26.1.2" = _Jyl9Mf7R;
-        "fabric-26.2" = _aKl8hi2y;
-        "fabric-26.3" = _iN3wCcrg;
-        "forge-1.8.9" = _pdFnz68w;
+        "fabric-1.21.1" = _7zNB7a1P;
+        "fabric-1.21.2" = _7zNB7a1P;
+        "fabric-1.21.3" = _7zNB7a1P;
+        "fabric-1.21.4" = _7zNB7a1P;
+        "fabric-1.21.5" = _7zNB7a1P;
+        "fabric-1.21.6" = _7zNB7a1P;
+        "fabric-1.21.7" = _7zNB7a1P;
+        "fabric-1.21.8" = _7zNB7a1P;
+        "fabric-1.21.9" = _7zNB7a1P;
+        "fabric-1.21.10" = _7zNB7a1P;
+        "fabric-1.21.11" = _7zNB7a1P;
+        "fabric-26.1" = _7zNB7a1P;
+        "fabric-26.1.1" = _7zNB7a1P;
+        "fabric-26.1.2" = _7zNB7a1P;
+        "fabric-26.2" = _7zNB7a1P;
+        "fabric-26.3" = _7zNB7a1P;
+        "forge-1.8.9" = _5Lu2jDni;
         "pkg-1.21" = _l3KtTfcZ;
         "pkg-1.17.1" = _JLpbPvhK;
         "pkg-1.18" = _b6GawUlJ;
@@ -425,9 +437,10 @@ let
         "pkg-0.0.4+1.21.x" = _Eov7pihM;
         "pkg-0.0.4+26.1.x" = _Jyl9Mf7R;
         "pkg-0.0.4+26.2" = _aKl8hi2y;
-        "pkg-1.8.9" = _pdFnz68w;
+        "pkg-1.8.9" = _5Lu2jDni;
         "pkg-0.0.4+26.3" = _iN3wCcrg;
-        "default" = _iN3wCcrg;
+        "pkg-1.21.X+26.3" = _7zNB7a1P;
+        "default" = _5Lu2jDni;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "creamykeys";

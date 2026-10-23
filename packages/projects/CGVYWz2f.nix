@@ -211,6 +211,11 @@ let
             "file" = "librarian-filter-fabric-1.20.1-1.0.5.jar";
             "hash" = "sha512-aorAlZXtpSAt6WyPWfFV2MC8LkqN5wEnOoM2z3VC9F8BQyck9Ee829lt7jB3EMDuTvK841snV0gyelRHOnLppQ==";
         };
+        _uGPhbGlQ = {
+            "id" = "uGPhbGlQ";
+            "file" = "librarian-filter-neoforge-1.21.1-1.0.1.jar";
+            "hash" = "sha512-8eZmKV2+kQwoyEFOHBxh2u+t698QVKBFtgAVJQ5sQKrMPditlWgmmi8UplOwSVLcQFTLwE+3sKcmCKcG9C1YYg==";
+        };
     in {
         "lFo8RvN7" = _lFo8RvN7;
         "9OJgNkES" = _9OJgNkES;
@@ -254,6 +259,7 @@ let
         "wFlVArRg" = _wFlVArRg;
         "jAmprMks" = _jAmprMks;
         "3PkdS8Cj" = _3PkdS8Cj;
+        "uGPhbGlQ" = _uGPhbGlQ;
         "fabric-1.20.1" = _3PkdS8Cj;
         "fabric-1.20.2" = _lFo8RvN7;
         "fabric-1.21.5" = _9OJgNkES;
@@ -279,16 +285,16 @@ let
         "neoforge-26.1.2" = _WXW2B05Z;
         "neoforge-26.2" = _yERnReav;
         "neoforge-1.21.11" = _vIYDZW03;
-        "neoforge-1.21.1" = _CxGoUfC7;
+        "neoforge-1.21.1" = _uGPhbGlQ;
         "neoforge-1.21.10" = _TIqhqGpT;
         "neoforge-26.3" = _zoyiTo2e;
         "pkg-1.0.0" = _zmPcOgf7;
-        "pkg-1.0.1" = _jAmprMks;
+        "pkg-1.0.1" = _uGPhbGlQ;
         "pkg-1.0.2" = _L96BGjdJ;
         "pkg-1.0.3" = _vIYDZW03;
         "pkg-1.0.4" = _ra416b4O;
         "pkg-1.0.5" = _3PkdS8Cj;
-        "default" = _3PkdS8Cj;
+        "default" = _uGPhbGlQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "easylibrariantrade";

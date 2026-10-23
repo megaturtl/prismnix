@@ -1,0 +1,145 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _EQbDCesZ = {
+            "id" = "EQbDCesZ";
+            "file" = "Kawaikute Gomen Music Disc.zip";
+            "hash" = "sha512-C06t+UyJQedp2YuTyIgUV7LV+bpyzOahZaMUEOVUUi1qDHch273sDZeY8X7OTiWAohB2g7crX/uug63jXwvgng==";
+        };
+        _f3jIjTev = {
+            "id" = "f3jIjTev";
+            "file" = "Kawaikute Gomen Music Disc 1.1.zip";
+            "hash" = "sha512-b8d0JQ74AciVVcpiaxD1Kevt2Sj+Xk1nFEDhgs9PXKqwsSK7eTvYY6D5fID/LaoPPVy5BAw3Wl52cDpw79Qg1g==";
+        };
+        _CwbhT3AA = {
+            "id" = "CwbhT3AA";
+            "file" = "Kawaikute_Gomen_Music_Disc-1.16-1.21.11-1.1.zip";
+            "hash" = "sha512-b8d0JQ74AciVVcpiaxD1Kevt2Sj+Xk1nFEDhgs9PXKqwsSK7eTvYY6D5fID/LaoPPVy5BAw3Wl52cDpw79Qg1g==";
+        };
+        _k4Z0itcH = {
+            "id" = "k4Z0itcH";
+            "file" = "Kawaikute_Gomen_Music_Disc-1.16-26.1-1.1.zip";
+            "hash" = "sha512-Rg5LDQQEBkPBvOxpl+M6siW51R1mMuv3VE006+7hFJLq74dkUqmZ9zghhMQ5CUX5uDV0g9KTpWXaya7rFcRpPQ==";
+        };
+        _GY2QjG6O = {
+            "id" = "GY2QjG6O";
+            "file" = "Kawaikute_Gomen_Music_Disc-1.16-26.3-1.1.zip";
+            "hash" = "sha512-Rg5LDQQEBkPBvOxpl+M6siW51R1mMuv3VE006+7hFJLq74dkUqmZ9zghhMQ5CUX5uDV0g9KTpWXaya7rFcRpPQ==";
+        };
+    in {
+        "EQbDCesZ" = _EQbDCesZ;
+        "f3jIjTev" = _f3jIjTev;
+        "CwbhT3AA" = _CwbhT3AA;
+        "k4Z0itcH" = _k4Z0itcH;
+        "GY2QjG6O" = _GY2QjG6O;
+        "minecraft-1.16" = _k4Z0itcH;
+        "minecraft-1.16.1" = _k4Z0itcH;
+        "minecraft-1.16.2" = _k4Z0itcH;
+        "minecraft-1.16.3" = _k4Z0itcH;
+        "minecraft-1.16.4" = _k4Z0itcH;
+        "minecraft-1.16.5" = _k4Z0itcH;
+        "minecraft-1.17" = _GY2QjG6O;
+        "minecraft-1.17.1" = _GY2QjG6O;
+        "minecraft-1.18" = _GY2QjG6O;
+        "minecraft-1.18.1" = _GY2QjG6O;
+        "minecraft-1.18.2" = _GY2QjG6O;
+        "minecraft-1.19" = _GY2QjG6O;
+        "minecraft-1.19.1" = _GY2QjG6O;
+        "minecraft-1.19.2" = _GY2QjG6O;
+        "minecraft-1.19.3" = _GY2QjG6O;
+        "minecraft-1.19.4" = _GY2QjG6O;
+        "minecraft-1.20" = _GY2QjG6O;
+        "minecraft-1.20.1" = _GY2QjG6O;
+        "minecraft-1.20.2" = _GY2QjG6O;
+        "minecraft-1.20.3" = _GY2QjG6O;
+        "minecraft-1.20.4" = _GY2QjG6O;
+        "minecraft-1.20.5" = _GY2QjG6O;
+        "minecraft-1.20.6" = _GY2QjG6O;
+        "minecraft-1.21" = _GY2QjG6O;
+        "minecraft-1.21.1" = _GY2QjG6O;
+        "minecraft-1.21.2" = _GY2QjG6O;
+        "minecraft-1.21.3" = _GY2QjG6O;
+        "minecraft-1.21.4" = _GY2QjG6O;
+        "minecraft-1.21.5" = _GY2QjG6O;
+        "minecraft-1.21.6" = _GY2QjG6O;
+        "minecraft-1.21.7" = _GY2QjG6O;
+        "minecraft-1.21.8" = _GY2QjG6O;
+        "minecraft-1.21.9" = _GY2QjG6O;
+        "minecraft-1.21.10" = _GY2QjG6O;
+        "minecraft-1.21.11" = _GY2QjG6O;
+        "minecraft-26.1" = _GY2QjG6O;
+        "minecraft-22w42a" = _GY2QjG6O;
+        "minecraft-22w43a" = _GY2QjG6O;
+        "minecraft-22w44a" = _GY2QjG6O;
+        "minecraft-23w14a" = _GY2QjG6O;
+        "minecraft-23w16a" = _GY2QjG6O;
+        "minecraft-23w31a" = _GY2QjG6O;
+        "minecraft-23w32a" = _GY2QjG6O;
+        "minecraft-23w33a" = _GY2QjG6O;
+        "minecraft-23w35a" = _GY2QjG6O;
+        "minecraft-1.20.2-pre1" = _GY2QjG6O;
+        "minecraft-23w42a" = _GY2QjG6O;
+        "minecraft-23w43a" = _GY2QjG6O;
+        "minecraft-23w43b" = _GY2QjG6O;
+        "minecraft-23w44a" = _GY2QjG6O;
+        "minecraft-23w45a" = _GY2QjG6O;
+        "minecraft-23w46a" = _GY2QjG6O;
+        "minecraft-24w03a" = _GY2QjG6O;
+        "minecraft-24w03b" = _GY2QjG6O;
+        "minecraft-24w04a" = _GY2QjG6O;
+        "minecraft-24w05a" = _GY2QjG6O;
+        "minecraft-24w05b" = _GY2QjG6O;
+        "minecraft-24w06a" = _GY2QjG6O;
+        "minecraft-24w07a" = _GY2QjG6O;
+        "minecraft-24w09a" = _GY2QjG6O;
+        "minecraft-24w10a" = _GY2QjG6O;
+        "minecraft-24w11a" = _GY2QjG6O;
+        "minecraft-24w12a" = _GY2QjG6O;
+        "minecraft-24w13a" = _GY2QjG6O;
+        "minecraft-24w14potato" = _GY2QjG6O;
+        "minecraft-24w14a" = _GY2QjG6O;
+        "minecraft-1.20.5-pre1" = _GY2QjG6O;
+        "minecraft-1.20.5-pre2" = _GY2QjG6O;
+        "minecraft-1.20.5-pre3" = _GY2QjG6O;
+        "minecraft-24w18a" = _GY2QjG6O;
+        "minecraft-24w19a" = _GY2QjG6O;
+        "minecraft-24w19b" = _GY2QjG6O;
+        "minecraft-24w20a" = _GY2QjG6O;
+        "minecraft-24w33a" = _GY2QjG6O;
+        "minecraft-24w34a" = _GY2QjG6O;
+        "minecraft-24w35a" = _GY2QjG6O;
+        "minecraft-24w36a" = _GY2QjG6O;
+        "minecraft-24w37a" = _GY2QjG6O;
+        "minecraft-24w38a" = _GY2QjG6O;
+        "minecraft-24w39a" = _GY2QjG6O;
+        "minecraft-24w40a" = _GY2QjG6O;
+        "minecraft-1.21.2-pre1" = _GY2QjG6O;
+        "minecraft-1.21.2-pre2" = _GY2QjG6O;
+        "minecraft-24w44a" = _GY2QjG6O;
+        "minecraft-24w45a" = _GY2QjG6O;
+        "minecraft-24w46a" = _GY2QjG6O;
+        "minecraft-26.1.1" = _GY2QjG6O;
+        "minecraft-26.1.2" = _GY2QjG6O;
+        "minecraft-26.2" = _GY2QjG6O;
+        "minecraft-26.3" = _GY2QjG6O;
+        "pkg-1.0" = _EQbDCesZ;
+        "pkg-1.1" = _GY2QjG6O;
+        "default" = _GY2QjG6O;
+    });
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "kawaikute-gomen-music-disc";
+        id = "QBAbXJHa";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-All-Rights-Reserved";
+                shortName = "LicenseRef-All-Rights-Reserved";
+                url = null;
+            };
+        };
+    };
+in callPackage fn {}

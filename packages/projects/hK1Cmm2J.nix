@@ -126,6 +126,21 @@ let
             "file" = "maplesfrogcollection-fabric-26.2.0-1.0.jar";
             "hash" = "sha512-t3B9dUavBjohTkEVWc6uG3Xzbe0ovio3ekrQ0LyrnbRnRgGH5560wHOBt5m2v/YJG1fntLdrDF3WXzUafAaC8Q==";
         };
+        _cCg0PVWZ = {
+            "id" = "cCg0PVWZ";
+            "file" = "maplesfrogcollection-neoforge-26.3.0-1.1.jar";
+            "hash" = "sha512-nY4SSUT0MGkjgDOi3C1NDfPBW7+BDRaskI51sSBARDYdhBMUqp4MeK+NWbqfyIMFTw/G6NH5UY/8QPXwK00etA==";
+        };
+        _ZUvD8KVq = {
+            "id" = "ZUvD8KVq";
+            "file" = "maplesfrogcollection-forge-26.3.0-1.1.jar";
+            "hash" = "sha512-7LVp1TZVEs1yZJbY/sp207VIWtufAldu7jb1cH0yws4n8jtMBvikIxBsg0v/Dyu+8V3P/sLObR+ClAOgD4UbBg==";
+        };
+        _HOluBeZv = {
+            "id" = "HOluBeZv";
+            "file" = "maplesfrogcollection-fabric-26.3.0-1.1.jar";
+            "hash" = "sha512-QGV1Z3UsIZ4i2MT5KqOLD+9k1tbewYRYyuyqNftHE+L2GNBeUu/jqP2FPvJIcAoP9EIBOrpwkM0f7UpKS3+HNw==";
+        };
     in {
         "B2zgJ4Iv" = _B2zgJ4Iv;
         "EDffOdLL" = _EDffOdLL;
@@ -152,25 +167,32 @@ let
         "nK4meO2S" = _nK4meO2S;
         "9jogDtLg" = _9jogDtLg;
         "htleJGzE" = _htleJGzE;
+        "cCg0PVWZ" = _cCg0PVWZ;
+        "ZUvD8KVq" = _ZUvD8KVq;
+        "HOluBeZv" = _HOluBeZv;
         "forge-1.20.1" = _ejghYvkc;
         "forge-1.21.1" = _6KvzlulK;
         "forge-1.21.11" = _6xUH9G2l;
         "forge-26.1.2" = _41IOetAl;
         "forge-26.2" = _9jogDtLg;
+        "forge-26.3" = _ZUvD8KVq;
         "fabric-1.20.1" = _zXQxOBJO;
         "fabric-1.21.1" = _ZY8J6ooO;
         "fabric-1.21.11" = _lKG4XYQJ;
         "fabric-26.1.2" = _rLUVnF2A;
         "fabric-26.2" = _htleJGzE;
+        "fabric-26.3" = _HOluBeZv;
         "quilt-1.20.1" = _zXQxOBJO;
         "quilt-1.21.1" = _ZY8J6ooO;
         "quilt-1.21.11" = _lKG4XYQJ;
         "quilt-26.1.2" = _rLUVnF2A;
         "quilt-26.2" = _htleJGzE;
+        "quilt-26.3" = _HOluBeZv;
         "neoforge-1.21.1" = _ICsY4iil;
         "neoforge-1.21.11" = _ZGqc11ku;
         "neoforge-26.1.2" = _CJ8h3ZRN;
         "neoforge-26.2" = _nK4meO2S;
+        "neoforge-26.3" = _cCg0PVWZ;
         "pkg-1.20.1-1.0-forge" = _B2zgJ4Iv;
         "pkg-1.20.1-1.0-fabric" = _EDffOdLL;
         "pkg-1.21.1-1.0-neoforge" = _Scza9y61;
@@ -196,7 +218,10 @@ let
         "pkg-26.2-1.0-neoforge" = _nK4meO2S;
         "pkg-26.2-1.0-forge" = _9jogDtLg;
         "pkg-26.2-1.0-fabric" = _htleJGzE;
-        "default" = _htleJGzE;
+        "pkg-26.3-1.1-neoforge" = _cCg0PVWZ;
+        "pkg-26.3-1.1-forge" = _ZUvD8KVq;
+        "pkg-26.3-1.1-fabric" = _HOluBeZv;
+        "default" = _HOluBeZv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "maples-frog-collection";

@@ -126,6 +126,36 @@ let
             "file" = "record-able-V1-0.11-modern.jar";
             "hash" = "sha512-1U66iWtO+PzRhGpHWnFibM6J7cGHcZs03KkHWelitOphHQ213bY1rbBwCgw4l3ERKZXBNBPyo+fbFfB2vsyXZg==";
         };
+        _V0uers88 = {
+            "id" = "V0uers88";
+            "file" = "record-able-V1-0.11.5-legacy.jar";
+            "hash" = "sha512-ORX6OR0i/sp8IyLZoDY2V1HfFN/+vTulK5+e5yl8MkDPOu6yy1PhtRjgdmyCHyVqlI/XGRRTF0+DFGZp7nGiEQ==";
+        };
+        _R6vJlbJp = {
+            "id" = "R6vJlbJp";
+            "file" = "record-able-V1-0.11.5-sandwich.jar";
+            "hash" = "sha512-h8b30VCfQqudh5VzHQ3A5qOgTz0AAX4R6dWKNkb996bILU7eEddoEtPgiISdVY/KCyWybDDD/9ORVoSjQ9ddDA==";
+        };
+        _b07DgXyg = {
+            "id" = "b07DgXyg";
+            "file" = "record-able-V1-0.11.5-modern.jar";
+            "hash" = "sha512-EPMZasq5SsZ+kbDhvO8oKS2JMCdVdE66z2XIj2zGzXhtzx9Mxvg1I+f7zvR3O6/Fh2BHmKOSGZHMh6aLeD7Fng==";
+        };
+        _2nhqQZfQ = {
+            "id" = "2nhqQZfQ";
+            "file" = "record-able-V1-0.11.5H1-legacy.jar";
+            "hash" = "sha512-vNSYmdJT8MAuXqrzmt7gmavdl2mXS7+jyVNaTKeWk4T7qWmg1mCuFR0XJ70jSMRNtLUmpnUlSU6xqPHu0HcU+A==";
+        };
+        _WKpwTH1U = {
+            "id" = "WKpwTH1U";
+            "file" = "record-able-V1-0.11.5H1-sandwich.jar";
+            "hash" = "sha512-vFQQoXWdIuaKcQY+bGq4XuoMFmvymOuUcTmDH1deTrDbdNcoCygwxOFd/NT31WC2JkN6saQxS1k5C44xm+FQCg==";
+        };
+        _AhuEdIV8 = {
+            "id" = "AhuEdIV8";
+            "file" = "record-able-V1-0.11.5H1-modern.jar";
+            "hash" = "sha512-iJOT2O+Ces6OiBjOhlFCWuurZ7qiqZKNaOOjyiwVH/HwF13eBSAG078S7FO/wqrKd8KdhK4bledo18+6wjU9zw==";
+        };
     in {
         "A5VaaVPr" = _A5VaaVPr;
         "BQu4NHUp" = _BQu4NHUp;
@@ -152,29 +182,36 @@ let
         "7LVD1nun" = _7LVD1nun;
         "ldVL331g" = _ldVL331g;
         "g89nDmDd" = _g89nDmDd;
-        "fabric-1.21.11" = _ldVL331g;
-        "fabric-26.1" = _g89nDmDd;
-        "fabric-26.1.1" = _g89nDmDd;
-        "fabric-26.1.2" = _g89nDmDd;
-        "fabric-1.21" = _ldVL331g;
-        "fabric-1.21.1" = _ldVL331g;
-        "fabric-1.21.2" = _ldVL331g;
-        "fabric-1.21.3" = _ldVL331g;
-        "fabric-1.21.4" = _ldVL331g;
-        "fabric-1.21.5" = _ldVL331g;
-        "fabric-1.21.6" = _ldVL331g;
-        "fabric-1.21.7" = _ldVL331g;
-        "fabric-1.21.8" = _ldVL331g;
-        "fabric-1.21.9" = _ldVL331g;
-        "fabric-1.21.10" = _ldVL331g;
-        "fabric-1.20.2" = _7LVD1nun;
-        "fabric-1.20.3" = _7LVD1nun;
-        "fabric-1.20.4" = _7LVD1nun;
-        "fabric-1.20.5" = _ldVL331g;
-        "fabric-1.20.6" = _ldVL331g;
-        "fabric-26.2" = _g89nDmDd;
+        "V0uers88" = _V0uers88;
+        "R6vJlbJp" = _R6vJlbJp;
+        "b07DgXyg" = _b07DgXyg;
+        "2nhqQZfQ" = _2nhqQZfQ;
+        "WKpwTH1U" = _WKpwTH1U;
+        "AhuEdIV8" = _AhuEdIV8;
+        "fabric-1.21.11" = _WKpwTH1U;
+        "fabric-26.1" = _AhuEdIV8;
+        "fabric-26.1.1" = _AhuEdIV8;
+        "fabric-26.1.2" = _AhuEdIV8;
+        "fabric-1.21" = _WKpwTH1U;
+        "fabric-1.21.1" = _WKpwTH1U;
+        "fabric-1.21.2" = _WKpwTH1U;
+        "fabric-1.21.3" = _WKpwTH1U;
+        "fabric-1.21.4" = _WKpwTH1U;
+        "fabric-1.21.5" = _WKpwTH1U;
+        "fabric-1.21.6" = _WKpwTH1U;
+        "fabric-1.21.7" = _WKpwTH1U;
+        "fabric-1.21.8" = _WKpwTH1U;
+        "fabric-1.21.9" = _WKpwTH1U;
+        "fabric-1.21.10" = _WKpwTH1U;
+        "fabric-1.20.2" = _2nhqQZfQ;
+        "fabric-1.20.3" = _2nhqQZfQ;
+        "fabric-1.20.4" = _2nhqQZfQ;
+        "fabric-1.20.5" = _WKpwTH1U;
+        "fabric-1.20.6" = _WKpwTH1U;
+        "fabric-26.2" = _AhuEdIV8;
         "fabric-1.20" = _7LVD1nun;
         "fabric-1.20.1" = _7LVD1nun;
+        "fabric-26.3" = _AhuEdIV8;
         "pkg-V1-0.01" = _A5VaaVPr;
         "pkg-V1-0.02" = _BQu4NHUp;
         "pkg-V1-0.03" = _8nfUzvC3;
@@ -200,7 +237,13 @@ let
         "pkg-V1-0.11-legacy" = _7LVD1nun;
         "pkg-V1-0.11-sandwich" = _ldVL331g;
         "pkg-V1-0.11-modern" = _g89nDmDd;
-        "default" = _g89nDmDd;
+        "pkg-V1-0.11.5-legacy" = _V0uers88;
+        "pkg-V1-0.11.5-sandwich" = _R6vJlbJp;
+        "pkg-V1-0.11.5-modern" = _b07DgXyg;
+        "pkg-V1-0.11.5H1-legacy" = _2nhqQZfQ;
+        "pkg-V1-0.11.5H1-sandwich" = _WKpwTH1U;
+        "pkg-V1-0.11.5H1-modern" = _AhuEdIV8;
+        "default" = _AhuEdIV8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "record-able";

@@ -1016,6 +1016,16 @@ let
             "file" = "biology-dictionary-1.3.2-mc26.1.2-fabric.jar";
             "hash" = "sha512-XzJAEU61KRogO1I78CQ+PEzScEQF4PYRZpmL6Sam+myz6eOrAmS3zxbbMjj2LVPmiwGICLXRsbwS/1ljw16/uQ==";
         };
+        _iVx2CyCD = {
+            "id" = "iVx2CyCD";
+            "file" = "biology-dictionary-1.4.0-mc26.3-neoforge.jar";
+            "hash" = "sha512-FX9/j8ADV+G7yLe6vw8RcBeTcsw180PiqEi4WlfXwoJMCC3qc5LGAXOUUkIyGWY+Hjo+MmyJtOQnrJmLf9VTVg==";
+        };
+        _o7vbdBSt = {
+            "id" = "o7vbdBSt";
+            "file" = "biology-dictionary-1.4.0-mc26.3-fabric.jar";
+            "hash" = "sha512-UEPwp7H6JkmwgjYY0TVwW4YTrxBDNsqy1DUJlmFyTkXE9thKt9nXHffUItYEp82ukrK67W+MCUvTjM0vU1XSXA==";
+        };
     in {
         "rmNEHubR" = _rmNEHubR;
         "jV70aY6h" = _jV70aY6h;
@@ -1220,17 +1230,19 @@ let
         "td2M3OYY" = _td2M3OYY;
         "dXMD6an7" = _dXMD6an7;
         "4urlrH0r" = _4urlrH0r;
+        "iVx2CyCD" = _iVx2CyCD;
+        "o7vbdBSt" = _o7vbdBSt;
         "fabric-1.21.11" = _td2M3OYY;
         "fabric-1.21.1" = _xXsem0ao;
         "fabric-1.20.1" = _T3kyOb2L;
         "fabric-26.1.2" = _4urlrH0r;
         "fabric-26.2" = _XhqOgjMD;
-        "fabric-26.3" = _MPric8oG;
+        "fabric-26.3" = _o7vbdBSt;
         "neoforge-1.21.11" = _s9yOYIBQ;
         "neoforge-1.21.1" = _5LVpZtTs;
         "neoforge-26.1.2" = _dXMD6an7;
         "neoforge-26.2" = _BmK1rJz4;
-        "neoforge-26.3" = _7x7Aomzy;
+        "neoforge-26.3" = _iVx2CyCD;
         "forge-1.20.1" = _sUQbenNf;
         "pkg-0.5.0" = _rmNEHubR;
         "pkg-0.5.1" = _jV70aY6h;
@@ -1435,7 +1447,9 @@ let
         "pkg-v1.3.2-mc1.21.11-fabric" = _td2M3OYY;
         "pkg-v1.3.2-mc26.1.2-neoforge" = _dXMD6an7;
         "pkg-v1.3.2-mc26.1.2-fabric" = _4urlrH0r;
-        "default" = _4urlrH0r;
+        "pkg-v1.4.0-mc26.3-neoforge" = _iVx2CyCD;
+        "pkg-v1.4.0-mc26.3-fabric" = _o7vbdBSt;
+        "default" = _o7vbdBSt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "biology-dictionary";

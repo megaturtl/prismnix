@@ -436,6 +436,26 @@ let
             "file" = "tcc-1.4.19+1.21.1.jar";
             "hash" = "sha512-XulgGFTtCVSmisZcDl5lmIbtLvFJloTxenWRNVaBMI7bbAtAI6azw4Plo/xqNVcbwMlVxtYfD17nH7YDCFQAMg==";
         };
+        _UWHPm0MZ = {
+            "id" = "UWHPm0MZ";
+            "file" = "tcc-1.4.21-hotfix.jar";
+            "hash" = "sha512-Z1OCVoCUW/Q5jgKr7auoRzXvq6h+Wbft6fGyRDbezmqggixuLXQ3xxvQ8/h6MIYDfXedl6NKc+R5jv7ZT7nVPg==";
+        };
+        _bmeDSWwN = {
+            "id" = "bmeDSWwN";
+            "file" = "tcc-1.4.21-hotfix+1.21.1.jar";
+            "hash" = "sha512-TXvbMiXKkqITtFrufEQf+v5Bvjqdrb4TZE7XvdM4eFfW2nX/HZRAGN12hio9d9OO1fvGY/Hmh2+RufMwqXP9Bw==";
+        };
+        _yzjgEQ0I = {
+            "id" = "yzjgEQ0I";
+            "file" = "tcc-1.5.0.jar";
+            "hash" = "sha512-pyIj+dB4lMtCW1JYUGIS9nzJvuBRBDULfawKJLvWdAviVBkWGs2rT2ARPqp8n6tTPPIza9KeeUtOvoEUJ105VQ==";
+        };
+        _lYJCldpf = {
+            "id" = "lYJCldpf";
+            "file" = "tcc-1.5.0+1.21.1.jar";
+            "hash" = "sha512-Om1t8bqKQI5Xtux4pKnLFnOpgs/WVLitD6xbxHAHeV96apy4Pw89cj3NWJbUOcBJ0cblMN5zJAHOwuRzt+PjGw==";
+        };
     in {
         "ex6ht5ox" = _ex6ht5ox;
         "i2FfW8mz" = _i2FfW8mz;
@@ -524,8 +544,12 @@ let
         "e0tQOu95" = _e0tQOu95;
         "XnsB37fK" = _XnsB37fK;
         "zbY7Fk59" = _zbY7Fk59;
-        "forge-1.20.1" = _XnsB37fK;
-        "neoforge-1.21.1" = _zbY7Fk59;
+        "UWHPm0MZ" = _UWHPm0MZ;
+        "bmeDSWwN" = _bmeDSWwN;
+        "yzjgEQ0I" = _yzjgEQ0I;
+        "lYJCldpf" = _lYJCldpf;
+        "forge-1.20.1" = _yzjgEQ0I;
+        "neoforge-1.21.1" = _lYJCldpf;
         "pkg-1.0.8" = _i2FfW8mz;
         "pkg-1.0.9" = _gK9beQxL;
         "pkg-1.1.0" = _Ragx92mS;
@@ -611,7 +635,11 @@ let
         "pkg-1.4.18+1.21.1" = _e0tQOu95;
         "pkg-1.4.19" = _XnsB37fK;
         "pkg-1.4.19+1.21.1" = _zbY7Fk59;
-        "default" = _zbY7Fk59;
+        "pkg-1.4.21-hotfix" = _UWHPm0MZ;
+        "pkg-1.4.21-hotfix+1.21.1" = _bmeDSWwN;
+        "pkg-1.5.0" = _yzjgEQ0I;
+        "pkg-1.5.0+1.21.1" = _lYJCldpf;
+        "default" = _lYJCldpf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "taczcurios";

@@ -126,6 +126,11 @@ let
             "file" = "Metropolis-0.7.2-beta+fabric-1.20.1_20261020.jar";
             "hash" = "sha512-u7cJQ54rg+1felNYTbCBRF6yCSkJJkZqahAgnIQEhtWYWvENuc9oC5GxpGEBwd3wqF3eDJOUPnacLxlTGFXkRg==";
         };
+        _3l9iP93b = {
+            "id" = "3l9iP93b";
+            "file" = "Metropolis-0.7.3-beta+fabric-1.20.1_20261022.jar";
+            "hash" = "sha512-peNs6jAH0zIDfHKFLdEBsAs2XP/p91Hj5JjKyVwdFTNtucK9fQ7QNdJBWT+N/o5O6pd9yXeMBV2s0PA4Tt8Ymw==";
+        };
     in {
         "gVyx75r9" = _gVyx75r9;
         "gJaLf5ME" = _gJaLf5ME;
@@ -152,9 +157,10 @@ let
         "MS6fqz0b" = _MS6fqz0b;
         "C9kH4du8" = _C9kH4du8;
         "OQER1BBk" = _OQER1BBk;
+        "3l9iP93b" = _3l9iP93b;
         "fabric-1.19.2" = _ivmGNrwW;
         "fabric-1.18.2" = _Ght7Q8n4;
-        "fabric-1.20.1" = _OQER1BBk;
+        "fabric-1.20.1" = _3l9iP93b;
         "fabric-1.19.4" = _j5dTe6Me;
         "pkg-0.1.72-MTR3-alpha" = _gVyx75r9;
         "pkg-0.2.0-MTR3-prebeta" = _gJaLf5ME;
@@ -176,7 +182,8 @@ let
         "pkg-0.7.0-beta" = _MS6fqz0b;
         "pkg-0.7.1-beta" = _C9kH4du8;
         "pkg-0.7.2-beta" = _OQER1BBk;
-        "default" = _OQER1BBk;
+        "pkg-0.7.3-beta" = _3l9iP93b;
+        "default" = _3l9iP93b;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "metropolis";

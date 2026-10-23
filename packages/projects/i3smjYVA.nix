@@ -11,24 +11,31 @@ let
             "file" = "best-crosshair-2.0.0.jar";
             "hash" = "sha512-vuLtv96ZCvoCX+XMxEqoJJeIteoIESngfZ7Pht+6YjFZ+nVp8s6/ESZBL0TjNdI93F0r9cqiuSLhXEFanh1H+A==";
         };
+        _PGvUYDSk = {
+            "id" = "PGvUYDSk";
+            "file" = "best-crosshair-1.21.11-2.1.1v.jar";
+            "hash" = "sha512-D5KyOIHrJsKwt4g1OGHyxeEVYa7OwIyXpPKGQt3/bM8uoYTI2QHJEBogylwfzOt68qETOZQK8PfZ1L5xt47e/g==";
+        };
     in {
         "4r0emoti" = _4r0emoti;
         "irGcDiPG" = _irGcDiPG;
-        "fabric-1.21" = _irGcDiPG;
-        "fabric-1.21.1" = _irGcDiPG;
-        "fabric-1.21.2" = _irGcDiPG;
-        "fabric-1.21.3" = _irGcDiPG;
-        "fabric-1.21.4" = _irGcDiPG;
-        "fabric-1.21.5" = _irGcDiPG;
-        "fabric-1.21.6" = _irGcDiPG;
-        "fabric-1.21.7" = _irGcDiPG;
-        "fabric-1.21.8" = _irGcDiPG;
-        "fabric-1.21.9" = _irGcDiPG;
-        "fabric-1.21.10" = _irGcDiPG;
-        "fabric-1.21.11" = _irGcDiPG;
+        "PGvUYDSk" = _PGvUYDSk;
+        "fabric-1.21" = _PGvUYDSk;
+        "fabric-1.21.1" = _PGvUYDSk;
+        "fabric-1.21.2" = _PGvUYDSk;
+        "fabric-1.21.3" = _PGvUYDSk;
+        "fabric-1.21.4" = _PGvUYDSk;
+        "fabric-1.21.5" = _PGvUYDSk;
+        "fabric-1.21.6" = _PGvUYDSk;
+        "fabric-1.21.7" = _PGvUYDSk;
+        "fabric-1.21.8" = _PGvUYDSk;
+        "fabric-1.21.9" = _PGvUYDSk;
+        "fabric-1.21.10" = _PGvUYDSk;
+        "fabric-1.21.11" = _PGvUYDSk;
         "pkg-1.1.1" = _4r0emoti;
         "pkg-2.0.0" = _irGcDiPG;
-        "default" = _irGcDiPG;
+        "pkg-2.1.1" = _PGvUYDSk;
+        "default" = _PGvUYDSk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "best-crosshair";

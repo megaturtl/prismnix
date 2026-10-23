@@ -96,6 +96,11 @@ let
             "file" = "just_dandy-1.21.1-3.0.4.jar";
             "hash" = "sha512-lWApkLs7XG0uHqdYw3+vlNVPbLDD17sA+1O4+uOUqSL3fgATLwxBcPpPelQyI5lbUyr/qDuYlcshDMVmGa6akg==";
         };
+        _ymjQWsoG = {
+            "id" = "ymjQWsoG";
+            "file" = "just_dandy-1.21.1-3.0.5.jar";
+            "hash" = "sha512-p5eQrrcS+Suu9oPHj3zWChk3TYwL6kYWY2qozcRkKYsZum2iZnVBVgMVzNZFCpjmmlCzwmKnOCg5Z8g9Wukwjw==";
+        };
     in {
         "WJhmNIyS" = _WJhmNIyS;
         "lcrKDDYU" = _lcrKDDYU;
@@ -116,9 +121,10 @@ let
         "7wxF4yY7" = _7wxF4yY7;
         "tyeKnppe" = _tyeKnppe;
         "YO49n2gC" = _YO49n2gC;
+        "ymjQWsoG" = _ymjQWsoG;
         "forge-1.19.2" = _Zj00lBDq;
         "forge-1.20.1" = _65yvdnJ4;
-        "neoforge-1.21.1" = _YO49n2gC;
+        "neoforge-1.21.1" = _ymjQWsoG;
         "pkg-1.0.0" = _WJhmNIyS;
         "pkg-2.0.0" = _lcrKDDYU;
         "pkg-1.0.1" = _8YGm1qtE;
@@ -138,7 +144,8 @@ let
         "pkg-3.0.2" = _7wxF4yY7;
         "pkg-3.0.3" = _tyeKnppe;
         "pkg-3.0.4" = _YO49n2gC;
-        "default" = _YO49n2gC;
+        "pkg-3.0.5" = _ymjQWsoG;
+        "default" = _ymjQWsoG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "just-dandy";
