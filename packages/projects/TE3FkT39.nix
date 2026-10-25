@@ -36,6 +36,11 @@ let
             "file" = "harous-leashed-fences-1.1.0+26.2.X.jar";
             "hash" = "sha512-AJ4726EpT3vTO1zybbDByBrBEWyQxFnkCkICOJ7K30jALGADdyZFnznJ25eKj1dJhbk1M9xuUFM9mlCQxr7q5Q==";
         };
+        _ysSYFjwx = {
+            "id" = "ysSYFjwx";
+            "file" = "harous-leashed-fences-1.1.0+26.3.X.jar";
+            "hash" = "sha512-6rylBaS9XnVrTjTb+lueQndmIlQg/dWIDq93T7fTkVcL36APfwGP1+R98soEF1WIULczvCRgRWrsaCOhP8wjvQ==";
+        };
     in {
         "JJ1WTH4s" = _JJ1WTH4s;
         "lJDqwgkv" = _lJDqwgkv;
@@ -44,12 +49,14 @@ let
         "igPMmX5S" = _igPMmX5S;
         "eG3py5vu" = _eG3py5vu;
         "OYV44IOw" = _OYV44IOw;
+        "ysSYFjwx" = _ysSYFjwx;
         "fabric-1.21.10" = _lJDqwgkv;
         "fabric-1.21.11" = _O6R9s055;
         "fabric-26.1" = _pVEaNZyq;
         "fabric-26.1.1" = _igPMmX5S;
         "fabric-26.1.2" = _eG3py5vu;
         "fabric-26.2" = _OYV44IOw;
+        "fabric-26.3" = _ysSYFjwx;
         "pkg-1.0.0+1.21.10" = _JJ1WTH4s;
         "pkg-1.0.1+1.21.10" = _lJDqwgkv;
         "pkg-1.0.1+1.21.11" = _O6R9s055;
@@ -57,7 +64,8 @@ let
         "pkg-1.1.0+26.1.1" = _igPMmX5S;
         "pkg-1.1.0+26.1.X" = _eG3py5vu;
         "pkg-1.1.0+26.2.X" = _OYV44IOw;
-        "default" = _OYV44IOw;
+        "pkg-1.1.0+26.3.X" = _ysSYFjwx;
+        "default" = _ysSYFjwx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "harous-leashed-fences";

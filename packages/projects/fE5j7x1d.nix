@@ -106,6 +106,26 @@ let
             "file" = "polars_exploration_additions-1.2.0-neoforge-1.21.8.jar";
             "hash" = "sha512-qe+UXRptIFt9C6Myeo/D6kaUMF/9GQ2DwMdKYyrOM6bxgoOOIOfvB9qUC7c+Vhaztu6r53QBsEp/0gd/TB10KA==";
         };
+        _VL18EUDs = {
+            "id" = "VL18EUDs";
+            "file" = "polars_exploration_additions-1.3.1-forge-1.20.1.jar";
+            "hash" = "sha512-GAM4Y0yEtlbvk/Fn3SAjbSjOfcrTlFqIWj7XF6e4hiVxiEyDHEUvASmUcQykCmLSKBs9gTeKXvHm2f+YNykXMA==";
+        };
+        _bABPYbRm = {
+            "id" = "bABPYbRm";
+            "file" = "polars_exploration_additions-1.3.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-OfGtvB4ojHggk+7MroH62pGHUqCpjFxJc02J3hq98Sn04PCKRoV4Estci2ygHhidtDIXwx87fYuA7x5J0899bw==";
+        };
+        _uwScNx8Q = {
+            "id" = "uwScNx8Q";
+            "file" = "polars_exploration_additions-1.3.1-neoforge-1.21.4.jar";
+            "hash" = "sha512-xtNpHgSTPqU1lCOKEwfb0eg1yacHWob6YwD2eco4/9vUIu2TbiCu8HcVwa9LyrIFI66aiZeKmi9t07YEx9RaBQ==";
+        };
+        _qWtqteiJ = {
+            "id" = "qWtqteiJ";
+            "file" = "polars_exploration_additions-1.2.1-neoforge-1.21.8.jar";
+            "hash" = "sha512-zBANgLfKM4vzZoaB3N2c3rdZFL9VpxZsVnY9rFZXVhJrt4/E2aqvZKkXAoYzMwppXmFQ/9cWc+8y+PJntu68Fg==";
+        };
     in {
         "nUrKIXbq" = _nUrKIXbq;
         "Nb4NPsna" = _Nb4NPsna;
@@ -128,10 +148,14 @@ let
         "s9tARRJR" = _s9tARRJR;
         "1hZW0Ndc" = _1hZW0Ndc;
         "8cfw4OAw" = _8cfw4OAw;
-        "neoforge-1.21.1" = _s9tARRJR;
-        "neoforge-1.21.4" = _1hZW0Ndc;
-        "neoforge-1.21.8" = _8cfw4OAw;
-        "forge-1.20.1" = _tqhG0Ax7;
+        "VL18EUDs" = _VL18EUDs;
+        "bABPYbRm" = _bABPYbRm;
+        "uwScNx8Q" = _uwScNx8Q;
+        "qWtqteiJ" = _qWtqteiJ;
+        "neoforge-1.21.1" = _bABPYbRm;
+        "neoforge-1.21.4" = _uwScNx8Q;
+        "neoforge-1.21.8" = _qWtqteiJ;
+        "forge-1.20.1" = _VL18EUDs;
         "pkg-1.0.3" = _nUrKIXbq;
         "pkg-1.0.2" = _X3AljVYP;
         "pkg-1.0.4" = _8WNCPYed;
@@ -141,7 +165,9 @@ let
         "pkg-1.1.2" = _1jcThRwl;
         "pkg-1.2.0" = _8cfw4OAw;
         "pkg-1.3.0" = _1hZW0Ndc;
-        "default" = _8cfw4OAw;
+        "pkg-1.3.1" = _uwScNx8Q;
+        "pkg-1.2.1" = _qWtqteiJ;
+        "default" = _qWtqteiJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "polars-exploration-additions";

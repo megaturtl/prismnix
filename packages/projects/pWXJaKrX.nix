@@ -1411,6 +1411,56 @@ let
             "file" = "vanillahud-3.5.9+26.3.jar";
             "hash" = "sha512-cUipqZPaLSVfI7p8Vi31vNy4f4FjE1JNTB8lrPLXVChasUwrJtnqlQ/vbsyS4te5w3yvFKmEhmP29eHzZTy0rA==";
         };
+        _Q0t8u1yL = {
+            "id" = "Q0t8u1yL";
+            "file" = "vanillahud-3.5.10+1.8.9.jar";
+            "hash" = "sha512-34ySYetQEVXksAjKU7Y5rP6hKz7EIZxvWsh0i0Y2+dCCT/hjf2ypm6UcGrsWQSydJhmVDPSu7EdVk4sj4oXBvw==";
+        };
+        _uInGX8V8 = {
+            "id" = "uInGX8V8";
+            "file" = "vanillahud-3.5.10+1.21.1.jar";
+            "hash" = "sha512-mXY9j9KZIqbX7dHuyXkdxV0GrQnqYoDLT9eeOCfOzep12pWTZnHSBEUIufwElWgm3K6IbrGvNAq3cnbCRu4R6A==";
+        };
+        _wJbpg7Vm = {
+            "id" = "wJbpg7Vm";
+            "file" = "vanillahud-3.5.10+1.21.4.jar";
+            "hash" = "sha512-Q3+0/IJv96HYybnJjwgsM24Um+APaRfdoSZLGMsResZkpZdD5GdA+NJO1lGSmmSnM+7LTmaxns3MEHXWrw+Q0g==";
+        };
+        _mLpGeU6Q = {
+            "id" = "mLpGeU6Q";
+            "file" = "vanillahud-3.5.10+1.21.5.jar";
+            "hash" = "sha512-tewwctb1pTVCFKBRdH5Mf+ZjkzyBNXGxwzukw5iqhmeeJ7JtXm/KOjrYQkklK6l4lPMIaMS5SN/Ca7/qBECh6A==";
+        };
+        _MFGsYba4 = {
+            "id" = "MFGsYba4";
+            "file" = "vanillahud-3.5.10+1.21.8.jar";
+            "hash" = "sha512-k+/6eMnUVJgFQMbyDK3IvmIK7tqdNwYcpx6bLFt0o9sb5D4YPMyx/1OfwFXAg682lVNt0wMSAcw96cZ/5erqbw==";
+        };
+        _l61ClyFF = {
+            "id" = "l61ClyFF";
+            "file" = "vanillahud-3.5.10+1.21.10.jar";
+            "hash" = "sha512-Ftac3+Et9Q7ppYfWsUI5InqLn1OSbSAIJAFMKZFJ8p3JzqNL5SIuM57bvHZHpZ4VE5tHvlRKt4G3Cgi7ufDMDw==";
+        };
+        _Ptc8hYAq = {
+            "id" = "Ptc8hYAq";
+            "file" = "vanillahud-3.5.10+1.21.11.jar";
+            "hash" = "sha512-Pp+VsiM+Q8LxU9yqh48PPTzFzp3PlJ5Iu1q37K5sEZ1752L0Xa6sPGursWvRkraxLNBP9boq9kaQ8aVK40h2dA==";
+        };
+        _DZaiGt15 = {
+            "id" = "DZaiGt15";
+            "file" = "vanillahud-3.5.10+26.1.jar";
+            "hash" = "sha512-m3uUWKitF01eeYzmsYBu4uZBl/TP1kDRpjtM5eINNJvMLjumnYtxC3YSQGgx/wGlmd6NoxIFEL5dREB2Mqk2rg==";
+        };
+        _rcdwsU6K = {
+            "id" = "rcdwsU6K";
+            "file" = "vanillahud-3.5.10+26.2.jar";
+            "hash" = "sha512-CRFJAZw6uOk68xjhqyUAamZCTuBH3uv5RmGAygvqlsHJphqLP6AhBZqgSJLi/adrD1zN5CMwYwycDWgI3OTTbQ==";
+        };
+        _45cUbgpB = {
+            "id" = "45cUbgpB";
+            "file" = "vanillahud-3.5.10+26.3.jar";
+            "hash" = "sha512-BRQunDhxtyJnBZzUREJY0FVFkuomcsOisLMKfnqygcw+09cMwdyWmW+VKVExHDWEbOxZ0a52j5fGXF86sli+tg==";
+        };
     in {
         "wlW58CxG" = _wlW58CxG;
         "WhtJvMer" = _WhtJvMer;
@@ -1694,19 +1744,29 @@ let
         "FYrn3ddG" = _FYrn3ddG;
         "xnrsxyJU" = _xnrsxyJU;
         "E8EKi2IN" = _E8EKi2IN;
+        "Q0t8u1yL" = _Q0t8u1yL;
+        "uInGX8V8" = _uInGX8V8;
+        "wJbpg7Vm" = _wJbpg7Vm;
+        "mLpGeU6Q" = _mLpGeU6Q;
+        "MFGsYba4" = _MFGsYba4;
+        "l61ClyFF" = _l61ClyFF;
+        "Ptc8hYAq" = _Ptc8hYAq;
+        "DZaiGt15" = _DZaiGt15;
+        "rcdwsU6K" = _rcdwsU6K;
+        "45cUbgpB" = _45cUbgpB;
         "forge-1.8.9" = _hvJoY3aU;
-        "fabric-1.21.1" = _kv2kchWk;
-        "fabric-1.21.4" = _7x1yDY1M;
-        "fabric-1.21.5" = _uPtUMwNm;
-        "fabric-1.21.8" = _2IAcTikd;
-        "fabric-1.21.10" = _pKl7PCeJ;
-        "fabric-1.21.11" = _vx4e8JKz;
-        "fabric-26.1" = _FYrn3ddG;
-        "fabric-26.1.1" = _FYrn3ddG;
-        "fabric-26.1.2" = _FYrn3ddG;
-        "fabric-26.2" = _xnrsxyJU;
-        "fabric-26.3" = _E8EKi2IN;
-        "ornithe-1.8.9" = _Tx46oWu8;
+        "fabric-1.21.1" = _uInGX8V8;
+        "fabric-1.21.4" = _wJbpg7Vm;
+        "fabric-1.21.5" = _mLpGeU6Q;
+        "fabric-1.21.8" = _MFGsYba4;
+        "fabric-1.21.10" = _l61ClyFF;
+        "fabric-1.21.11" = _Ptc8hYAq;
+        "fabric-26.1" = _DZaiGt15;
+        "fabric-26.1.1" = _DZaiGt15;
+        "fabric-26.1.2" = _DZaiGt15;
+        "fabric-26.2" = _rcdwsU6K;
+        "fabric-26.3" = _45cUbgpB;
+        "ornithe-1.8.9" = _Q0t8u1yL;
         "pkg-v2.0.0" = _wlW58CxG;
         "pkg-v2.0.1" = _WhtJvMer;
         "pkg-v2.1.0" = _S7WcxHtB;
@@ -1866,7 +1926,8 @@ let
         "pkg-v3.5.7" = _gvVE7znL;
         "pkg-v3.5.8" = _wEZrt14c;
         "pkg-v3.5.9" = _E8EKi2IN;
-        "default" = _E8EKi2IN;
+        "pkg-v3.5.10" = _45cUbgpB;
+        "default" = _45cUbgpB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanillahud";

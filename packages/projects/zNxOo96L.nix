@@ -51,6 +51,16 @@ let
             "file" = "japanese-temple-26.1.jar";
             "hash" = "sha512-FRlsPy1jqGvDDGb9PPpxgvQFcmfqKCpcXnYVB0WNVZ+Z889VhFlohsR3NHqn9HPLi1163sRxENSfOSZ3uvb06A==";
         };
+        _ToBI89Mz = {
+            "id" = "ToBI89Mz";
+            "file" = "japanese-temple.zip";
+            "hash" = "sha512-QHgKVJG8b9RQqTeS6pq2MIs2zdVezVHxEvrjX415m5WDupaEfWQt/c3Grm0wfrKga0wNkzLDaRh3uN/3sOQg4Q==";
+        };
+        _BhvTk7u5 = {
+            "id" = "BhvTk7u5";
+            "file" = "japanese-temple-1.0.0.jar";
+            "hash" = "sha512-0WumILsfbKGXYt0wg1fAz3R+Q3R+BjNXn5wnM5JWQRRmodSTFNIWf0IM/D8O0+Nlsdty3mjKkI/DfiscDQgeWg==";
+        };
     in {
         "3OUsj2HG" = _3OUsj2HG;
         "HQzrCWM1" = _HQzrCWM1;
@@ -62,6 +72,8 @@ let
         "35ixoDtK" = _35ixoDtK;
         "oDtLMrp0" = _oDtLMrp0;
         "JKj0IbQr" = _JKj0IbQr;
+        "ToBI89Mz" = _ToBI89Mz;
+        "BhvTk7u5" = _BhvTk7u5;
         "datapack-1.21" = _3OUsj2HG;
         "datapack-1.21.1" = _3OUsj2HG;
         "datapack-1.21.2" = _3OUsj2HG;
@@ -75,6 +87,10 @@ let
         "datapack-1.21.9" = _crf1O9oT;
         "datapack-1.21.10" = _Kt0AaRt5;
         "datapack-26.1" = _oDtLMrp0;
+        "datapack-26.1.1" = _ToBI89Mz;
+        "datapack-26.1.2" = _ToBI89Mz;
+        "datapack-26.2" = _ToBI89Mz;
+        "datapack-26.3" = _ToBI89Mz;
         "fabric-1.21" = _HQzrCWM1;
         "fabric-1.21.1" = _HQzrCWM1;
         "fabric-1.21.2" = _HQzrCWM1;
@@ -88,6 +104,10 @@ let
         "fabric-1.21.9" = _Z2i1Mstt;
         "fabric-1.21.10" = _Qsvvd62J;
         "fabric-26.1" = _JKj0IbQr;
+        "fabric-26.1.1" = _BhvTk7u5;
+        "fabric-26.1.2" = _BhvTk7u5;
+        "fabric-26.2" = _BhvTk7u5;
+        "fabric-26.3" = _BhvTk7u5;
         "forge-1.21" = _HQzrCWM1;
         "forge-1.21.1" = _HQzrCWM1;
         "forge-1.21.2" = _HQzrCWM1;
@@ -101,6 +121,10 @@ let
         "forge-1.21.9" = _Z2i1Mstt;
         "forge-1.21.10" = _Qsvvd62J;
         "forge-26.1" = _JKj0IbQr;
+        "forge-26.1.1" = _BhvTk7u5;
+        "forge-26.1.2" = _BhvTk7u5;
+        "forge-26.2" = _BhvTk7u5;
+        "forge-26.3" = _BhvTk7u5;
         "neoforge-1.21" = _HQzrCWM1;
         "neoforge-1.21.1" = _HQzrCWM1;
         "neoforge-1.21.2" = _HQzrCWM1;
@@ -114,6 +138,10 @@ let
         "neoforge-1.21.9" = _Z2i1Mstt;
         "neoforge-1.21.10" = _Qsvvd62J;
         "neoforge-26.1" = _JKj0IbQr;
+        "neoforge-26.1.1" = _BhvTk7u5;
+        "neoforge-26.1.2" = _BhvTk7u5;
+        "neoforge-26.2" = _BhvTk7u5;
+        "neoforge-26.3" = _BhvTk7u5;
         "quilt-1.21" = _HQzrCWM1;
         "quilt-1.21.1" = _HQzrCWM1;
         "quilt-1.21.2" = _HQzrCWM1;
@@ -127,6 +155,10 @@ let
         "quilt-1.21.9" = _Z2i1Mstt;
         "quilt-1.21.10" = _Qsvvd62J;
         "quilt-26.1" = _JKj0IbQr;
+        "quilt-26.1.1" = _BhvTk7u5;
+        "quilt-26.1.2" = _BhvTk7u5;
+        "quilt-26.2" = _BhvTk7u5;
+        "quilt-26.3" = _BhvTk7u5;
         "pkg-1.0" = _3OUsj2HG;
         "pkg-1.0+mod" = _HQzrCWM1;
         "pkg-1.0_1.21.9-comp" = _crf1O9oT;
@@ -137,7 +169,9 @@ let
         "pkg-1.0_1.21.11-comp+mod" = _35ixoDtK;
         "pkg-26.1" = _oDtLMrp0;
         "pkg-26.1+mod" = _JKj0IbQr;
-        "default" = _JKj0IbQr;
+        "pkg-1.0.0" = _ToBI89Mz;
+        "pkg-1.0.0+mod" = _BhvTk7u5;
+        "default" = _BhvTk7u5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "japanese-temple";

@@ -101,6 +101,56 @@ let
             "file" = "ancientstructures-fabric-1.20.1-0.0.14.jar";
             "hash" = "sha512-3pVEwr/fC1OJRDq3VzK2r0MzX/kGsyTUoB651ugaq8xqCoUFf1EOlD0brB0od/gsQ2ApGN/9rrmA035Emrf5Xg==";
         };
+        _W6svh8BW = {
+            "id" = "W6svh8BW";
+            "file" = "ancientstructures-neoforge-1.21.1-0.1.2.jar";
+            "hash" = "sha512-a8okT60P6/XHMwkMIwsSOfAlXOUIbKzgQkCsTDlIYdp6xv243XUp7qp7H+tlnkIsV0+rEuwG40LafXREt/or2g==";
+        };
+        _kR4MNkPr = {
+            "id" = "kR4MNkPr";
+            "file" = "ancientstructures-fabric-1.21.1-0.1.2.jar";
+            "hash" = "sha512-ej/uW3l60OI75aN3nyhX00yRHJOZ/D8/3c6wVRLWfAv1nfFksnYNGb4LDqKHPevo2MOpoX3lf7mFeKcrtVb/FQ==";
+        };
+        _bgcENAW8 = {
+            "id" = "bgcENAW8";
+            "file" = "ancientstructures-fabric-1.20.1-0.0.15.jar";
+            "hash" = "sha512-ZP79yXtNvR8fjKUAbaTZSMYi+EexB+alc6sPfCsZGDKgBjgIYIbJbzpU8SZN/Hz5ByTVSIV9hOzZMkQkljFkDQ==";
+        };
+        _ApXMqvXG = {
+            "id" = "ApXMqvXG";
+            "file" = "ancientstructures-forge-1.20.1-0.0.15.jar";
+            "hash" = "sha512-iqKdJWly94ii38Vb8I3VR03C6E8cAyTTW9DAgUyLwPgBj+99hTDYacmAlc59TjSVjWF4BjbWPY8kP7F5kOu5Kg==";
+        };
+        _AQlwcVfE = {
+            "id" = "AQlwcVfE";
+            "file" = "ancientstructures-neoforge-1.21.11-0.2.0.jar";
+            "hash" = "sha512-8AosnaD+OwgJwEFE06l8cDnjTnG9rBaGP2QBleRJo3KqQIqraEulHwN56yDxlPV0fpZfeGRon79P8mv59aiGqQ==";
+        };
+        _WEXYssw6 = {
+            "id" = "WEXYssw6";
+            "file" = "ancientstructures-fabric-1.21.11-0.2.0.jar";
+            "hash" = "sha512-omFkNSIgVaWYNgSNlEMF9rZmVNBW898zTrbqKgq0JWaOSDfRbJWl2B6a8fhL4mNF537oOg6Av31iT11ZF9nRGg==";
+        };
+        _DKJnSlxC = {
+            "id" = "DKJnSlxC";
+            "file" = "ancientstructures-fabric-26.1.2-0.3.0.jar";
+            "hash" = "sha512-NRM+asu9Moeft52bRW3F8G0EvJ8gswZeySQqZdr3DvwjN9L4CFUSaQZPRjBir+gocrvUsxIMBJvh78Q2dfdLMw==";
+        };
+        _fQDUYSUm = {
+            "id" = "fQDUYSUm";
+            "file" = "ancientstructures-neoforge-26.1.2-0.3.0.jar";
+            "hash" = "sha512-wfzyJ2TDtGgSC1Q07LT2gNES2qOBA7KaZNxAUbEmLqlchKZoSDaTVut6Bppc5D3QwIykQfAPcIWqmcExTUedpQ==";
+        };
+        _Wpq7okmW = {
+            "id" = "Wpq7okmW";
+            "file" = "ancientstructures-fabric-26.3-0.4.0.jar";
+            "hash" = "sha512-FYmelQbJiIelxPsPkiUbgenPbDBnOjdsBGpMRcjrO/1Wz5f3FSx4Uu8xM7HKyBcRgScZcHYlIbvQJbXYuU2DAw==";
+        };
+        _uR7qMdPH = {
+            "id" = "uR7qMdPH";
+            "file" = "ancientstructures-neoforge-26.3-0.4.0.jar";
+            "hash" = "sha512-H87FQhjbM+l8dty2hN+dVvLiwg9eD1edBZ43arWkjX+93BrnL+YzZVvttc7I4zTZeMU+DHBGUo2hY20XQtEl3w==";
+        };
     in {
         "4y55iorr" = _4y55iorr;
         "cl9KW1jE" = _cl9KW1jE;
@@ -122,10 +172,26 @@ let
         "xJ5o5f35" = _xJ5o5f35;
         "3z4jdRLE" = _3z4jdRLE;
         "gpdVsFya" = _gpdVsFya;
-        "forge-1.20.1" = _3z4jdRLE;
-        "fabric-1.20.1" = _gpdVsFya;
-        "fabric-1.21.1" = _IMDgDxHP;
-        "neoforge-1.21.1" = _y6lK8Sua;
+        "W6svh8BW" = _W6svh8BW;
+        "kR4MNkPr" = _kR4MNkPr;
+        "bgcENAW8" = _bgcENAW8;
+        "ApXMqvXG" = _ApXMqvXG;
+        "AQlwcVfE" = _AQlwcVfE;
+        "WEXYssw6" = _WEXYssw6;
+        "DKJnSlxC" = _DKJnSlxC;
+        "fQDUYSUm" = _fQDUYSUm;
+        "Wpq7okmW" = _Wpq7okmW;
+        "uR7qMdPH" = _uR7qMdPH;
+        "forge-1.20.1" = _ApXMqvXG;
+        "fabric-1.20.1" = _bgcENAW8;
+        "fabric-1.21.1" = _kR4MNkPr;
+        "fabric-1.21.11" = _WEXYssw6;
+        "fabric-26.1.2" = _DKJnSlxC;
+        "fabric-26.3" = _Wpq7okmW;
+        "neoforge-1.21.1" = _W6svh8BW;
+        "neoforge-1.21.11" = _AQlwcVfE;
+        "neoforge-26.1.2" = _fQDUYSUm;
+        "neoforge-26.3" = _uR7qMdPH;
         "pkg-0.0.2" = _4y55iorr;
         "pkg-0.0.3" = _cl9KW1jE;
         "pkg-0.0.4" = _yy3xEUXV;
@@ -138,7 +204,12 @@ let
         "pkg-0.1.1" = _y6lK8Sua;
         "pkg-0.0.11" = _xJ5o5f35;
         "pkg-0.0.14" = _gpdVsFya;
-        "default" = _gpdVsFya;
+        "pkg-0.1.2" = _kR4MNkPr;
+        "pkg-0.0.15" = _ApXMqvXG;
+        "pkg-0.2.0" = _WEXYssw6;
+        "pkg-0.3.0" = _fQDUYSUm;
+        "pkg-0.4.0" = _uR7qMdPH;
+        "default" = _uR7qMdPH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ancient-structures";

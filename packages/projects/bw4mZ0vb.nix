@@ -156,6 +156,41 @@ let
             "file" = "avalight-26.3-neoforge-2.4.jar";
             "hash" = "sha512-Jbe7yIhZyWZ+Yd6cvMIvjaFPqOO7NgQj/ZFl7Xa4+ZDw2rvm7mcKWzwdUEULNaBeyb9HhrjCDhW9RppxuyZ5vw==";
         };
+        _Tyw40Lvj = {
+            "id" = "Tyw40Lvj";
+            "file" = "avalight-1.21.1-fabric-2.1.jar";
+            "hash" = "sha512-uQmUIdBhkVjc69FVjvCjiBcrbAA0xFLwPIEKhUoZ2uTJLO1X0Buqwdqt67/KsY3s1ICtqAkXfmUcK2juS35w4g==";
+        };
+        _QPiYq6uo = {
+            "id" = "QPiYq6uo";
+            "file" = "avalight-1.21.11-fabric-2.1.1.jar";
+            "hash" = "sha512-5iCgEAb5OnSC+tO1tGC05nd5bPWJXRg4sBKt5fVyjR2NjN1qhLAzC2qNcVVVt8Xb2EG3RsVIWSPd/kt94tsSDA==";
+        };
+        _cVSTbfVC = {
+            "id" = "cVSTbfVC";
+            "file" = "avalight-26.1-fabric-2.2.jar";
+            "hash" = "sha512-v+uc5UOBR9te4arl2RHHJMdxYM2yUuvBNGg/aDaDvCIKMPgUV4QJpv+RQ2+glps5V2ji7xkzAaPj3ghUVfO6dA==";
+        };
+        _7Aptdnna = {
+            "id" = "7Aptdnna";
+            "file" = "avalight-26.2-fabric-2.3.jar";
+            "hash" = "sha512-NSzEStwg40rZ0+W6EZOV9vb1dJCzcvbCMDcH55Wm7ERZoYtrmIrwIV1/lCcRTQAbxmQzM/jXBPgykDgNsDfGtw==";
+        };
+        _ur3jGc81 = {
+            "id" = "ur3jGc81";
+            "file" = "avalight-26.3-fabric-2.4.jar";
+            "hash" = "sha512-0CM4Zzb9K6cvtw/KcoqiYwHYvPi7jgP97LvAeaXo0xp4m9Vq9ny4rWfmiKrUJU8+jRJzr3J+fDW7iqNYkhgqBg==";
+        };
+        _CdE4VSPQ = {
+            "id" = "CdE4VSPQ";
+            "file" = "avalight-26.3-fabric-2.4.1.jar";
+            "hash" = "sha512-mnIMpYUl06PyJUo9tRqUc7aMzuxHmzuuGd4eIlVMd4QOoHM5F8MQRfgDyfuR/3/YGKko7Lz575x//TYsxr2MTA==";
+        };
+        _h2y9IXcu = {
+            "id" = "h2y9IXcu";
+            "file" = "avalight-26.3-neoforge-2.4.1.jar";
+            "hash" = "sha512-GCHWV53Kh0rmwlmVFI4LGa0Ij92+jURMxkf1C7kNrEuNmslP6qB4vr4YgB12Cmt/0tldZeAcSW/rpXx9VoZ7hg==";
+        };
     in {
         "vJt2vjRJ" = _vJt2vjRJ;
         "mz6S1HPt" = _mz6S1HPt;
@@ -188,6 +223,13 @@ let
         "3Xlg77pY" = _3Xlg77pY;
         "AUOOBrmX" = _AUOOBrmX;
         "xz4vcrcO" = _xz4vcrcO;
+        "Tyw40Lvj" = _Tyw40Lvj;
+        "QPiYq6uo" = _QPiYq6uo;
+        "cVSTbfVC" = _cVSTbfVC;
+        "7Aptdnna" = _7Aptdnna;
+        "ur3jGc81" = _ur3jGc81;
+        "CdE4VSPQ" = _CdE4VSPQ;
+        "h2y9IXcu" = _h2y9IXcu;
         "forge-1.19.4" = _syYy0eIm;
         "forge-1.20" = _5myvyTd7;
         "forge-1.20.2" = _Yn1ppmjx;
@@ -201,18 +243,26 @@ let
         "neoforge-26.1.1" = _3Xlg77pY;
         "neoforge-26.1.2" = _3Xlg77pY;
         "neoforge-26.2" = _AUOOBrmX;
-        "neoforge-26.3" = _xz4vcrcO;
+        "neoforge-26.3" = _h2y9IXcu;
+        "fabric-1.21.1" = _Tyw40Lvj;
+        "fabric-1.21.11" = _QPiYq6uo;
+        "fabric-26.1" = _cVSTbfVC;
+        "fabric-26.1.1" = _cVSTbfVC;
+        "fabric-26.1.2" = _cVSTbfVC;
+        "fabric-26.2" = _7Aptdnna;
+        "fabric-26.3" = _CdE4VSPQ;
         "pkg-2.0.0" = _1oz3duWK;
         "pkg-2.0.1" = _Jeo36yKK;
         "pkg-2.0.2" = _jWS0CbGU;
         "pkg-2.0.3" = _yqi9fpa3;
         "pkg-2.0.4" = _5myvyTd7;
-        "pkg-2.1" = _tV8dBDyv;
-        "pkg-2.1.1" = _UC2SGWQB;
-        "pkg-2.2" = _3Xlg77pY;
-        "pkg-2.3" = _AUOOBrmX;
-        "pkg-2.4" = _xz4vcrcO;
-        "default" = _xz4vcrcO;
+        "pkg-2.1" = _Tyw40Lvj;
+        "pkg-2.1.1" = _QPiYq6uo;
+        "pkg-2.2" = _cVSTbfVC;
+        "pkg-2.3" = _7Aptdnna;
+        "pkg-2.4" = _ur3jGc81;
+        "pkg-2.4.1" = _h2y9IXcu;
+        "default" = _h2y9IXcu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "a.v.a-alliance-of-valiant-arms-guns-light";

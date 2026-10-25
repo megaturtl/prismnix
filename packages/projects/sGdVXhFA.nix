@@ -71,6 +71,11 @@ let
             "file" = "phayriosis_two-B.0.0.7-forge-1.20.1.jar";
             "hash" = "sha512-9K3TPLhcuK0NR08bYhSc1JHWNZ/X+QDdQsYMIpg4u/tC4mytV3ybMST0m7dq44d0uH0TxOaqvOe1VM7o2PMbzQ==";
         };
+        _Whuvp5c5 = {
+            "id" = "Whuvp5c5";
+            "file" = "phayriosis_two-0.0.8-forge-1.20.1.jar";
+            "hash" = "sha512-loDo7IKQLY/M/WqdHsMNpLAb2GWHs9uxEJ4xced9k7xHwXd9sD17LCb6QBaheexTjyYQZy7RjUxc8eYWZPhyUg==";
+        };
     in {
         "By4y52SY" = _By4y52SY;
         "uDgPGpLw" = _uDgPGpLw;
@@ -86,7 +91,8 @@ let
         "OTbpe4eE" = _OTbpe4eE;
         "lYCboClM" = _lYCboClM;
         "5aRtqSMa" = _5aRtqSMa;
-        "forge-1.20.1" = _5aRtqSMa;
+        "Whuvp5c5" = _Whuvp5c5;
+        "forge-1.20.1" = _Whuvp5c5;
         "pkg-0.2.0.0" = _By4y52SY;
         "pkg-0.3.0.0" = _uDgPGpLw;
         "pkg-0.3.1.0" = _AJF7Tb2u;
@@ -100,7 +106,8 @@ let
         "pkg-0.0.5" = _OTbpe4eE;
         "pkg-0.0.6" = _lYCboClM;
         "pkg-0.0.7" = _5aRtqSMa;
-        "default" = _5aRtqSMa;
+        "pkg-0.0.8" = _Whuvp5c5;
+        "default" = _Whuvp5c5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "phayriosis-parasite-infection";

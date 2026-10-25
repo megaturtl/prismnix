@@ -31,6 +31,26 @@ let
             "file" = "triggers-fabric-1.21.1-1.0.1.jar";
             "hash" = "sha512-z3ms8JbwVjETDqpcImiG08rr1WMiJemu0qOWCSyJPaS+KBVxcQunm2CehZceVKKTPBuhGSY0H0vTl4KKb29wxg==";
         };
+        _1llDbuyy = {
+            "id" = "1llDbuyy";
+            "file" = "triggers-fabric-1.20.1-1.1.0.jar";
+            "hash" = "sha512-AYoPW6t+IBwRw8DJSGGb5qZas5mrvjNZ/BYgsmiwUOEnAdnVnA+hAAlkaUBBn3NCkcUkJ899LqXfjdalTb0o3A==";
+        };
+        _PZiSpSxq = {
+            "id" = "PZiSpSxq";
+            "file" = "triggers-forge-1.20.1-1.1.0.jar";
+            "hash" = "sha512-xtwdzhp8KHwapkf7QxyGaEgGlb2HB7UUtDyscT9BCe+xwykutoGTY+kpQq8GQGyUfHONLilQs6s4Qxcy1ah3zg==";
+        };
+        _jI7epwua = {
+            "id" = "jI7epwua";
+            "file" = "triggers-fabric-1.21.1-1.1.0.jar";
+            "hash" = "sha512-cTJEdF+HXvNkZ54ZmwiBAcfUTRrVbOCAjMclSzDAziVdV01Kz2kDUjEhaDQCXiv1hsxNix3uS6sbw6GFdy1Flg==";
+        };
+        _rs1yqVtE = {
+            "id" = "rs1yqVtE";
+            "file" = "triggers-neoforge-1.21.1-1.1.0.jar";
+            "hash" = "sha512-ExaMJNK0LnRLL72a+zWHysxguGHY3v7bWR7Nr1DEwwF5dMncRkwTmBoeLLAHe36Hq/jIF8Y3jm7tzvDe4DskDg==";
+        };
     in {
         "dyvj3RoQ" = _dyvj3RoQ;
         "l1tZqCrR" = _l1tZqCrR;
@@ -38,17 +58,25 @@ let
         "iYqt2E7N" = _iYqt2E7N;
         "XogHdPAh" = _XogHdPAh;
         "3OhmyeyO" = _3OhmyeyO;
-        "fabric-1.20.1" = _nG3Xut89;
-        "fabric-1.21.1" = _3OhmyeyO;
-        "forge-1.20.1" = _iYqt2E7N;
-        "neoforge-1.21.1" = _XogHdPAh;
+        "1llDbuyy" = _1llDbuyy;
+        "PZiSpSxq" = _PZiSpSxq;
+        "jI7epwua" = _jI7epwua;
+        "rs1yqVtE" = _rs1yqVtE;
+        "fabric-1.20.1" = _1llDbuyy;
+        "fabric-1.21.1" = _jI7epwua;
+        "forge-1.20.1" = _PZiSpSxq;
+        "neoforge-1.21.1" = _rs1yqVtE;
         "pkg-1.0.0-1.20.1-fabric" = _dyvj3RoQ;
         "pkg-1.0.0-1.20.1-forge" = _l1tZqCrR;
         "pkg-1.0.1-1.20.1-fabric" = _nG3Xut89;
         "pkg-1.0.1-1.20.1-forge" = _iYqt2E7N;
         "pkg-1.0.1-1.21.1-neoforge" = _XogHdPAh;
         "pkg-1.0.1-1.21.1-fabric" = _3OhmyeyO;
-        "default" = _3OhmyeyO;
+        "pkg-1.1.0-1.20.1-fabric" = _1llDbuyy;
+        "pkg-1.1.0-1.20.1-forge" = _PZiSpSxq;
+        "pkg-1.1.0-1.21.1-fabric" = _jI7epwua;
+        "pkg-1.1.0-1.21.1-neoforge" = _rs1yqVtE;
+        "default" = _rs1yqVtE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "triggers";

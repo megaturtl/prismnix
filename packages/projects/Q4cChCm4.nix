@@ -51,6 +51,11 @@ let
             "file" = "§6Cinnamon - 1.8.0.zip";
             "hash" = "sha512-hVO+0Q5X9YW9cB2NlTNdwWMvroTQ1lAddC49My80CZVAB6Jm7b3cbAW/P3/jh31OPn79anxv8gXAr7A6oDOVgw==";
         };
+        _CWGBJm04 = {
+            "id" = "CWGBJm04";
+            "file" = "§6Cinnamon - 1.8.1.zip";
+            "hash" = "sha512-gR1NWCZnGeVY7kdDKu6CrtgcD0qaCuaZeruk361nIgsF3t+AhIIPK6v/vYyxzAdiJYOz1tl1rIfori4m1euO7w==";
+        };
     in {
         "KLV7aQro" = _KLV7aQro;
         "3kxJ9rAD" = _3kxJ9rAD;
@@ -62,8 +67,9 @@ let
         "5hraPpfF" = _5hraPpfF;
         "PjvmB3ta" = _PjvmB3ta;
         "M49KUNoR" = _M49KUNoR;
-        "minecraft-1.21.10" = _M49KUNoR;
-        "minecraft-1.21.11" = _M49KUNoR;
+        "CWGBJm04" = _CWGBJm04;
+        "minecraft-1.21.10" = _CWGBJm04;
+        "minecraft-1.21.11" = _CWGBJm04;
         "minecraft-1.6.1" = _QEatA24m;
         "minecraft-1.6.2" = _QEatA24m;
         "minecraft-1.6.4" = _QEatA24m;
@@ -193,11 +199,12 @@ let
         "minecraft-1.21.6" = _M49KUNoR;
         "minecraft-1.21.7" = _M49KUNoR;
         "minecraft-1.21.8" = _M49KUNoR;
-        "minecraft-1.21.9" = _M49KUNoR;
-        "minecraft-26.1" = _PjvmB3ta;
-        "minecraft-26.1.1" = _PjvmB3ta;
-        "minecraft-26.1.2" = _PjvmB3ta;
-        "minecraft-26.2" = _PjvmB3ta;
+        "minecraft-1.21.9" = _CWGBJm04;
+        "minecraft-26.1" = _CWGBJm04;
+        "minecraft-26.1.1" = _CWGBJm04;
+        "minecraft-26.1.2" = _CWGBJm04;
+        "minecraft-26.2" = _CWGBJm04;
+        "minecraft-26.3" = _CWGBJm04;
         "pkg-1.0.0" = _KLV7aQro;
         "pkg-1.1.0" = _3kxJ9rAD;
         "pkg-1.2.0" = _XeheMmdO;
@@ -208,7 +215,8 @@ let
         "pkg-1.6.0" = _5hraPpfF;
         "pkg-1.7.0" = _PjvmB3ta;
         "pkg-1.8.0" = _M49KUNoR;
-        "default" = _M49KUNoR;
+        "pkg-1.8.1" = _CWGBJm04;
+        "default" = _CWGBJm04;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cinnamon-resource-pack";

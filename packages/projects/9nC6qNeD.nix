@@ -96,6 +96,11 @@ let
             "file" = "notlag-mc26.3-3.2.0-mega.jar";
             "hash" = "sha512-FH19LrAEBo372zUJ1Y0WZqRx+XdqB9RUY47L7a8Skf2v7APp4NFY3fjjKwo/rKvHsjVKckdfFo+RiA/or7NFww==";
         };
+        _ERSzUll7 = {
+            "id" = "ERSzUll7";
+            "file" = "notlag-mc26.3-3.3.0.jar";
+            "hash" = "sha512-S8RwvtyL/bzK7aCB+rGitBpdwN8FESpnkY4jpd38O1/ILGP6DZCUIHJ2cGxcaiuV2FiTR0pRbG7m/2WVTX4g7A==";
+        };
     in {
         "D15Az5VZ" = _D15Az5VZ;
         "41ti1fQO" = _41ti1fQO;
@@ -116,12 +121,13 @@ let
         "s3f2SFKT" = _s3f2SFKT;
         "Fb7VIxuV" = _Fb7VIxuV;
         "Z3HUnCsB" = _Z3HUnCsB;
+        "ERSzUll7" = _ERSzUll7;
         "fabric-1.21.4" = _41ti1fQO;
         "fabric-1.21.11" = _yL0V0hJI;
         "fabric-1.21.10" = _9tnjqXk4;
         "fabric-26.1.2" = _n3mfmknL;
         "fabric-26.2" = _AM7yXVCo;
-        "fabric-26.3" = _Z3HUnCsB;
+        "fabric-26.3" = _ERSzUll7;
         "forge-1.8.9" = _s3f2SFKT;
         "pkg-1.0.0" = _RCc3QN8S;
         "pkg-beta-1" = _41ti1fQO;
@@ -138,7 +144,8 @@ let
         "pkg-3.1.0-legacy+1.8.9" = _s3f2SFKT;
         "pkg-3.1.3" = _Fb7VIxuV;
         "pkg-3.2.0-mega" = _Z3HUnCsB;
-        "default" = _Z3HUnCsB;
+        "pkg-3.3.0" = _ERSzUll7;
+        "default" = _ERSzUll7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "!lag";

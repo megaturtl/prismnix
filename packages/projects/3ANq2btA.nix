@@ -1931,6 +1931,16 @@ let
             "file" = "evilcraft-26.1.2-neoforge-1.2.108-1172.jar";
             "hash" = "sha512-g/RPh8BS1SyxzhKt1yLwlmB/gRFUJNXSnW/xahIzfjXaffAYrFQ8ElGzQBw4P4emtq1ixtCCeF0UjFU3OcweIQ==";
         };
+        _9ogfMGcj = {
+            "id" = "9ogfMGcj";
+            "file" = "evilcraft-26.1.2-neoforge-1.2.108-1183.jar";
+            "hash" = "sha512-bKBYejiR0lqnRe2DvIhvCX412ncKg+XSbj4q7gCvEPQ463nDv9dTZUTvRhDjGrmOMRBTcDwtHjrARvV6jcrssg==";
+        };
+        _LAJuy0eU = {
+            "id" = "LAJuy0eU";
+            "file" = "evilcraft-1.21.1-neoforge-1.2.99-1182.jar";
+            "hash" = "sha512-rVwFvo1fi6xzpf6Wjw6fITwtRe/X1MU7LGKqEe6VfiWOG2hN6ISyRR9hBgjktvKdQT/RWr1bLMKRGkqZqjnU3w==";
+        };
     in {
         "3xHlulzQ" = _3xHlulzQ;
         "xtJrr47Z" = _xtJrr47Z;
@@ -2318,6 +2328,8 @@ let
         "RHkie0nw" = _RHkie0nw;
         "7bX8EvEh" = _7bX8EvEh;
         "wQNiJFZx" = _wQNiJFZx;
+        "9ogfMGcj" = _9ogfMGcj;
+        "LAJuy0eU" = _LAJuy0eU;
         "forge-1.18.2" = _9A10CKm2;
         "forge-1.19" = _QB5jl0mU;
         "forge-1.19.2" = _ZKTV3iRb;
@@ -2326,13 +2338,13 @@ let
         "forge-1.20.1" = _iJb4i4xy;
         "neoforge-1.20.4" = _GCOQzd8Q;
         "neoforge-1.21" = _BlMOLpXY;
-        "neoforge-1.21.1" = _qu1zRLV9;
+        "neoforge-1.21.1" = _LAJuy0eU;
         "neoforge-1.21.4" = _RzdU3M9k;
         "neoforge-1.21.8" = _dv8Y1ChL;
         "neoforge-1.21.10" = _P3lyaR65;
         "neoforge-1.21.11" = _L64CPRVG;
         "neoforge-26.1.1" = _tvxO7Ngd;
-        "neoforge-26.1.2" = _wQNiJFZx;
+        "neoforge-26.1.2" = _9ogfMGcj;
         "neoforge-26.2" = _7z7VPzeq;
         "neoforge-26.3" = _7bX8EvEh;
         "pkg-1.1.24" = _3xHlulzQ;
@@ -2721,7 +2733,9 @@ let
         "pkg-26.1.2-1.2.108-1169" = _RHkie0nw;
         "pkg-26.3-1.2.98-1170" = _7bX8EvEh;
         "pkg-26.1.2-1.2.108-1172" = _wQNiJFZx;
-        "default" = _wQNiJFZx;
+        "pkg-26.1.2-1.2.108-1183" = _9ogfMGcj;
+        "pkg-1.21.1-1.2.99-1182" = _LAJuy0eU;
+        "default" = _LAJuy0eU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "evilcraft";

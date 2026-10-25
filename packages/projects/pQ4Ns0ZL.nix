@@ -71,6 +71,11 @@ let
             "file" = "Hopper Speed Simulator-2.0.1.jar";
             "hash" = "sha512-3QLefydOaAEKLyIdnN9bcYewpqYiI5S+Pj7QatfVUlBIr1ompXkGuFSfux07i4n+QfRjvWsWWDZbZWkxBHhy2A==";
         };
+        _oJtkKp5p = {
+            "id" = "oJtkKp5p";
+            "file" = "Hopper Speed Simulator-2.0.2.jar";
+            "hash" = "sha512-HrQ2+xSFqFg3w1wAODH5Dx8J7X8+sfMwfoE9/ImjoWtl/ZmG47QFVUfpJAxsnECSK/m1L8zwdSOWs/NCe8AH6A==";
+        };
     in {
         "qa8gyRLu" = _qa8gyRLu;
         "2ecpjjG7" = _2ecpjjG7;
@@ -86,6 +91,7 @@ let
         "9Q88v1FK" = _9Q88v1FK;
         "kSlddFox" = _kSlddFox;
         "FjvpFY7K" = _FjvpFY7K;
+        "oJtkKp5p" = _oJtkKp5p;
         "fabric-1.19" = _2ecpjjG7;
         "fabric-1.19.1" = _2ecpjjG7;
         "fabric-1.19.2" = _2ecpjjG7;
@@ -111,8 +117,8 @@ let
         "fabric-26.1" = _9Q88v1FK;
         "fabric-26.1.1" = _9Q88v1FK;
         "fabric-26.1.2" = _9Q88v1FK;
-        "fabric-26.2" = _FjvpFY7K;
-        "fabric-26.3" = _FjvpFY7K;
+        "fabric-26.2" = _oJtkKp5p;
+        "fabric-26.3" = _oJtkKp5p;
         "quilt-1.19" = _2ecpjjG7;
         "quilt-1.19.1" = _2ecpjjG7;
         "quilt-1.19.2" = _2ecpjjG7;
@@ -138,22 +144,22 @@ let
         "quilt-26.1" = _9Q88v1FK;
         "quilt-26.1.1" = _9Q88v1FK;
         "quilt-26.1.2" = _9Q88v1FK;
-        "quilt-26.2" = _FjvpFY7K;
-        "quilt-26.3" = _FjvpFY7K;
-        "folia-26.2" = _FjvpFY7K;
-        "folia-26.3" = _FjvpFY7K;
-        "forge-26.2" = _FjvpFY7K;
-        "forge-26.3" = _FjvpFY7K;
-        "neoforge-26.2" = _FjvpFY7K;
-        "neoforge-26.3" = _FjvpFY7K;
-        "paper-26.2" = _FjvpFY7K;
-        "paper-26.3" = _FjvpFY7K;
-        "purpur-26.2" = _FjvpFY7K;
-        "purpur-26.3" = _FjvpFY7K;
-        "spigot-26.2" = _FjvpFY7K;
-        "spigot-26.3" = _FjvpFY7K;
-        "sponge-26.2" = _FjvpFY7K;
-        "sponge-26.3" = _FjvpFY7K;
+        "quilt-26.2" = _oJtkKp5p;
+        "quilt-26.3" = _oJtkKp5p;
+        "folia-26.2" = _oJtkKp5p;
+        "folia-26.3" = _oJtkKp5p;
+        "forge-26.2" = _oJtkKp5p;
+        "forge-26.3" = _oJtkKp5p;
+        "neoforge-26.2" = _oJtkKp5p;
+        "neoforge-26.3" = _oJtkKp5p;
+        "paper-26.2" = _oJtkKp5p;
+        "paper-26.3" = _oJtkKp5p;
+        "purpur-26.2" = _oJtkKp5p;
+        "purpur-26.3" = _oJtkKp5p;
+        "spigot-26.2" = _oJtkKp5p;
+        "spigot-26.3" = _oJtkKp5p;
+        "sponge-26.2" = _oJtkKp5p;
+        "sponge-26.3" = _oJtkKp5p;
         "pkg-1.0.0" = _qa8gyRLu;
         "pkg-1.1.0" = _2ecpjjG7;
         "pkg-1.2.0" = _LiNY6Xbi;
@@ -168,7 +174,8 @@ let
         "pkg-1.4.2" = _9Q88v1FK;
         "pkg-mc26.2-2.0.0" = _kSlddFox;
         "pkg-mc26.2-2.0.1" = _FjvpFY7K;
-        "default" = _FjvpFY7K;
+        "pkg-mc26.3-2.0.2" = _oJtkKp5p;
+        "default" = _oJtkKp5p;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hopperspeedsim";

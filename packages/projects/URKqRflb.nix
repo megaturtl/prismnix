@@ -666,6 +666,36 @@ let
             "file" = "Colored Water-neoforge-lite-1.21.11-2.0.0.jar";
             "hash" = "sha512-C7UszjuVmRer+7c9UNw88X/TTKAPc9pidShhL6bT/kxs2zrobLMckoYrYSkLxiLpDbD+O59QZuH6x20q8uzKtw==";
         };
+        _IK6A91yG = {
+            "id" = "IK6A91yG";
+            "file" = "Colored Water-fabric-1.21.11-2.1.0.jar";
+            "hash" = "sha512-J3LvycrZrv+i5BKfCe/2n1b5TsbpGX6LWOs3qKGt9nKQ6I7txBSSmAxLFANxy6GpXDevb/n8pm8jW06udppCqA==";
+        };
+        _rkOSLEQO = {
+            "id" = "rkOSLEQO";
+            "file" = "Colored Water-forge-lite-1.21.11-2.1.0.jar";
+            "hash" = "sha512-hM8JW10DcuYhRwgTLNAYm+I48gqLyxPB5Gf349d1Si21sL3SqlDlqLEqs5KcJi4ApVA7bBvwVevKBXLBwBJgnw==";
+        };
+        _YJDBvaNd = {
+            "id" = "YJDBvaNd";
+            "file" = "Colored Water-fabric-lite-1.21.11-2.1.0.jar";
+            "hash" = "sha512-yk36tLlpKi1I2LEoS5pLktou1j9VwIn54MB+nIkgxt2kN+TOFFumqJX/40n0pOlqwsBewitDwsD7VKB91Hs5Ug==";
+        };
+        _dq3vDRkF = {
+            "id" = "dq3vDRkF";
+            "file" = "Colored Water-forge-1.21.11-2.1.0.jar";
+            "hash" = "sha512-BguQMfgivTf27Ep1jbcbv/pfqvuo9rQlBq2GPiCELaFPfSGyHnL82N6jSxHkBGj8m1qJNbT6bnvgp8EAySDoCg==";
+        };
+        _unIk5Rb6 = {
+            "id" = "unIk5Rb6";
+            "file" = "Colored Water-neoforge-1.21.11-2.1.0.jar";
+            "hash" = "sha512-ticS7xP+QiNHdlEAMbDF++UcnP5VWax4I0UHgMa6nxLp/dx9cU42nO/hPLF4IrTitRoLRh8CUmQSrv0Xp2jlzg==";
+        };
+        _2g9QDVFt = {
+            "id" = "2g9QDVFt";
+            "file" = "Colored Water-neoforge-lite-1.21.11-2.1.0.jar";
+            "hash" = "sha512-wEPc5pdJSo0LJ85QkMMRrUGUPUMicNkZJsiWSWrgXwwEXTgN4NxAtGLJYn1+gFO78h48mrtasQFE+r3FH2OFNQ==";
+        };
     in {
         "X8V4kWng" = _X8V4kWng;
         "T7GkcQNP" = _T7GkcQNP;
@@ -800,6 +830,12 @@ let
         "IZHq21lO" = _IZHq21lO;
         "6A2R2tBc" = _6A2R2tBc;
         "eIfUncY0" = _eIfUncY0;
+        "IK6A91yG" = _IK6A91yG;
+        "rkOSLEQO" = _rkOSLEQO;
+        "YJDBvaNd" = _YJDBvaNd;
+        "dq3vDRkF" = _dq3vDRkF;
+        "unIk5Rb6" = _unIk5Rb6;
+        "2g9QDVFt" = _2g9QDVFt;
         "forge-1.19.2" = _X8V4kWng;
         "forge-1.20" = _A8xmbuQb;
         "forge-1.20.1" = _qhsqT9Vc;
@@ -817,7 +853,7 @@ let
         "forge-1.21.8" = _zUlbPVXQ;
         "forge-1.21.9" = _AxIK5MXq;
         "forge-1.21.10" = _WdFi2Iql;
-        "forge-1.21.11" = _IZHq21lO;
+        "forge-1.21.11" = _dq3vDRkF;
         "fabric-1.20.2" = _k1M1wH8a;
         "fabric-1.20.3" = _u4SK1IoN;
         "fabric-1.20.4" = _RpKMhFf0;
@@ -834,7 +870,7 @@ let
         "fabric-1.21.8" = _alQbOCvl;
         "fabric-1.21.9" = _hUkKAFsZ;
         "fabric-1.21.10" = _SRpiuOMo;
-        "fabric-1.21.11" = _kdGd1hk8;
+        "fabric-1.21.11" = _YJDBvaNd;
         "neoforge-1.20.2" = _eS1rV9ts;
         "neoforge-1.20.3" = _8D7RLZRJ;
         "neoforge-1.20.4" = _n85fDfpl;
@@ -849,7 +885,7 @@ let
         "neoforge-1.21.8" = _k0fBmjF9;
         "neoforge-1.21.9" = _RGP65Vi4;
         "neoforge-1.21.10" = _zzuOx5Hp;
-        "neoforge-1.21.11" = _eIfUncY0;
+        "neoforge-1.21.11" = _2g9QDVFt;
         "pkg-1.19.2-1.3.7" = _X8V4kWng;
         "pkg-1.20-1.3.7" = _T7GkcQNP;
         "pkg-1.20.1-1.3.7" = _Vd7JWE0O;
@@ -876,7 +912,8 @@ let
         "pkg-2.0.0-alpha.7" = _zKPJvwof;
         "pkg-2.0.0-beta.1" = _5c0PSgtT;
         "pkg-2.0.0" = _eIfUncY0;
-        "default" = _eIfUncY0;
+        "pkg-2.1.0" = _2g9QDVFt;
+        "default" = _2g9QDVFt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "coloredwater";

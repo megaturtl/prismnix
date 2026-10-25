@@ -201,6 +201,46 @@ let
             "file" = "reconstructedwands-neoforge-26.2-1.1.5.jar";
             "hash" = "sha512-Jekwv/n6fNcL5tCnbCVmvc4K3Lg9O9glaWaPPUnS23MVzXIV+0AWph7+H0BMsYMkFqHYwdG3PwyL4UuRN4yDMQ==";
         };
+        _1K7A9NSK = {
+            "id" = "1K7A9NSK";
+            "file" = "reconstructedwands-fabric-1.20.1-2.0.0.jar";
+            "hash" = "sha512-ThZqgjrSpPaZRxno0fuUge+0rY3k6lhtEELYi57P/1AOS5GsIcqJqjaT24VaI8uJ4suakB6T36oc9lvm+JBlMw==";
+        };
+        _lmaDtyPN = {
+            "id" = "lmaDtyPN";
+            "file" = "reconstructedwands-fabric-1.21.1-2.0.0.jar";
+            "hash" = "sha512-y7G+drFGI/sqjpgj0ZRve4UPVnhjgzMfElqOOskoKFJHQvKL3g3WSrIPzDiReNG3QQC5fWetji/o7hvbga9wnw==";
+        };
+        _52zsxPgP = {
+            "id" = "52zsxPgP";
+            "file" = "reconstructedwands-fabric-26.2-2.0.0.jar";
+            "hash" = "sha512-tbl5fCLqcLpIHpKlNmVabne1BguzJiPjQv7563GHUi13MLuOolsm2ht4N18RnKTxDki9IRlAS/AY4WRALR9IuQ==";
+        };
+        _ZipsBUvZ = {
+            "id" = "ZipsBUvZ";
+            "file" = "reconstructedwands-fabric-26.3-2.0.0.jar";
+            "hash" = "sha512-FIybxcY+52PW6BNK1ZEaruSA5cIflggM6EuIVC0JSspbl1i4EQkIQRgKgCc3SrjRGZs4RYgC8Dl6GMt81FGS8g==";
+        };
+        _9GEl1HkG = {
+            "id" = "9GEl1HkG";
+            "file" = "reconstructedwands-forge-1.20.1-2.0.0.jar";
+            "hash" = "sha512-rjcPsm9/cffBBLmrL870WVOr5FY8q/bpCczm6sYGlIHVtH29ZmgPuS8NcLKWbCEDgQ2qmPESYJoxN8gJ2eJagA==";
+        };
+        _DySmVFHw = {
+            "id" = "DySmVFHw";
+            "file" = "reconstructedwands-neoforge-1.21.1-2.0.0.jar";
+            "hash" = "sha512-pQFOSk9yDghRy2OmF3CR3tIxWovvOYP+RYJsNv2l37a8DbSVdrfMI/hVtmkQstYD9IEP6MybuUVWc6kUrRpFtw==";
+        };
+        _I1wAvbaV = {
+            "id" = "I1wAvbaV";
+            "file" = "reconstructedwands-neoforge-26.2-2.0.0.jar";
+            "hash" = "sha512-bD8sBfs5hOKLsN7tr7RL6izXPaUXP8PVCbFQhZBJM93swBNSGCGkl7aaKc0+1bgprbqAW7YW3B59Nz2bO0bXSA==";
+        };
+        _XjZCNfit = {
+            "id" = "XjZCNfit";
+            "file" = "reconstructedwands-neoforge-26.3-2.0.0.jar";
+            "hash" = "sha512-escfJytkJFqX5RM5SJ7ERNbcxFBxKBKXYLRV9m+XYwXWUwCrP/CtGzdab2aCd//wLpLrQzqDIkYkwNCTXqZEUw==";
+        };
     in {
         "JEkqCnZf" = _JEkqCnZf;
         "oqWEMNI8" = _oqWEMNI8;
@@ -242,21 +282,31 @@ let
         "waxpyfWe" = _waxpyfWe;
         "CrzyXHZ5" = _CrzyXHZ5;
         "ArxcjK0Q" = _ArxcjK0Q;
-        "neoforge-1.21.1" = _CrzyXHZ5;
+        "1K7A9NSK" = _1K7A9NSK;
+        "lmaDtyPN" = _lmaDtyPN;
+        "52zsxPgP" = _52zsxPgP;
+        "ZipsBUvZ" = _ZipsBUvZ;
+        "9GEl1HkG" = _9GEl1HkG;
+        "DySmVFHw" = _DySmVFHw;
+        "I1wAvbaV" = _I1wAvbaV;
+        "XjZCNfit" = _XjZCNfit;
+        "neoforge-1.21.1" = _DySmVFHw;
         "neoforge-1.21.2" = _WnAVRjOK;
         "neoforge-1.21.3" = _hol6LY2Q;
         "neoforge-1.21.4" = _VmDifNyj;
         "neoforge-1.21.5" = _58kWM4j4;
         "neoforge-1.20.1" = _to2icQEF;
-        "neoforge-26.2" = _ArxcjK0Q;
-        "fabric-1.21.1" = _FlKqi7og;
+        "neoforge-26.2" = _I1wAvbaV;
+        "neoforge-26.3" = _XjZCNfit;
+        "fabric-1.21.1" = _lmaDtyPN;
         "fabric-1.21.2" = _Lbi4ftr5;
         "fabric-1.21.3" = _7oXvMmhC;
         "fabric-1.21.4" = _y8fAwBiB;
         "fabric-1.21.5" = _H6oNJvn7;
-        "fabric-1.20.1" = _odCS0KFp;
-        "fabric-26.2" = _aGpYK9pP;
-        "forge-1.20.1" = _waxpyfWe;
+        "fabric-1.20.1" = _1K7A9NSK;
+        "fabric-26.2" = _52zsxPgP;
+        "fabric-26.3" = _ZipsBUvZ;
+        "forge-1.20.1" = _9GEl1HkG;
         "pkg-1.0.0" = _H6oNJvn7;
         "pkg-1.1.0" = _rMcsbrpA;
         "pkg-1.1.1" = _sU89e806;
@@ -273,7 +323,15 @@ let
         "pkg-1.1.5+forge-1.20.1" = _waxpyfWe;
         "pkg-1.1.5+neoforge-1.21.1" = _CrzyXHZ5;
         "pkg-1.1.5+neoforge-26.2" = _ArxcjK0Q;
-        "default" = _ArxcjK0Q;
+        "pkg-2.0.0+fabric-1.20.1" = _1K7A9NSK;
+        "pkg-2.0.0+fabric-1.21.1" = _lmaDtyPN;
+        "pkg-2.0.0+fabric-26.2" = _52zsxPgP;
+        "pkg-2.0.0+fabric-26.3" = _ZipsBUvZ;
+        "pkg-2.0.0+forge-1.20.1" = _9GEl1HkG;
+        "pkg-2.0.0+neoforge-1.21.1" = _DySmVFHw;
+        "pkg-2.0.0+neoforge-26.2" = _I1wAvbaV;
+        "pkg-2.0.0+neoforge-26.3" = _XjZCNfit;
+        "default" = _XjZCNfit;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "reconstructed-wands";

@@ -576,6 +576,16 @@ let
             "file" = "reverie_dreams-fabric+0.6.7+26.1.2.jar";
             "hash" = "sha512-EGy9sNfJzplQbizqXkBL+rp8J8ZKH8Qd74e2IM4kc0j6R1Wc72tAxF99ctg6XEY/xYXBaIsxFieXi/Y52Pb5yw==";
         };
+        _AWFWv0IV = {
+            "id" = "AWFWv0IV";
+            "file" = "reverie_dreams-fabric+0.6.8+26.1.2.jar";
+            "hash" = "sha512-TbfCEdotUufnDySZEpGRG6O1YO8iIbJWTIuQ+azw1+laL/2xd/4wDoOE6Xy65Oxobh13NfWu51ftKlS7xNWqBg==";
+        };
+        _l8j0waLY = {
+            "id" = "l8j0waLY";
+            "file" = "reverie_dreams-neoforge+0.6.8+26.1.2.jar";
+            "hash" = "sha512-RJPBM6R9G0raVebTPZ/jbNQ97xEK6i6kRSbLmucohLidDIkLSnrepk3PP4bHHV4fPFMx93WglWjW9LFjTA2nKQ==";
+        };
     in {
         "qxCAzahJ" = _qxCAzahJ;
         "Ye1EiOU6" = _Ye1EiOU6;
@@ -692,6 +702,8 @@ let
         "Y3iiSXOT" = _Y3iiSXOT;
         "VP0tQi2x" = _VP0tQi2x;
         "pqe4V6ss" = _pqe4V6ss;
+        "AWFWv0IV" = _AWFWv0IV;
+        "l8j0waLY" = _l8j0waLY;
         "fabric-1.21.4" = _PPNmVSyk;
         "fabric-1.21.5" = _TKKowKDh;
         "fabric-1.21.7" = _ilhvskfS;
@@ -701,9 +713,9 @@ let
         "fabric-1.21.9" = _nxcO7MgT;
         "fabric-1.21.10" = _nxcO7MgT;
         "fabric-1.21.11" = _SqJHmlb4;
-        "fabric-26.1.2" = _pqe4V6ss;
+        "fabric-26.1.2" = _AWFWv0IV;
         "neoforge-1.21.11" = _nQS6TxHo;
-        "neoforge-26.1.2" = _VP0tQi2x;
+        "neoforge-26.1.2" = _l8j0waLY;
         "pkg-0.1.0(Outdated-Version)" = _qxCAzahJ;
         "pkg-0.1.1(Outdated-Version)" = _Ye1EiOU6;
         "pkg-0.1.2" = _TKKowKDh;
@@ -788,7 +800,8 @@ let
         "pkg-0.6.5+26.1.2" = _PJux3xWH;
         "pkg-0.6.6+26.1.2" = _Y3iiSXOT;
         "pkg-0.6.7+26.1.2" = _pqe4V6ss;
-        "default" = _pqe4V6ss;
+        "pkg-0.6.8+26.1.2" = _l8j0waLY;
+        "default" = _l8j0waLY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gensokyo-reverie-of-lost-dreams";

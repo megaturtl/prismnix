@@ -66,6 +66,11 @@ let
             "file" = "verity-6.0.0-beta.9.jar";
             "hash" = "sha512-Y9hof19YG1Kn5zW2vsj8CySZUR4d/WI29UXWOGJkIJL5a/2oB5y9l+uGwbkS4PJczt9rmBYTekpXCvvsggEr6Q==";
         };
+        _BAk03uPV = {
+            "id" = "BAk03uPV";
+            "file" = "verity-6.0.0.jar";
+            "hash" = "sha512-IjhLCEODsPbm62uNbeIBBo6nujZ06je3QvRoilvxjZrpcPnAi2kzfSuLPO8DNZ9BLqQFQ/tQexB8+DO0WQhrCA==";
+        };
     in {
         "5QXbQ4rF" = _5QXbQ4rF;
         "7qhItxce" = _7qhItxce;
@@ -80,7 +85,8 @@ let
         "AcPvfTsy" = _AcPvfTsy;
         "PMajeBuW" = _PMajeBuW;
         "NK8aevfA" = _NK8aevfA;
-        "forge-1.20.1" = _NK8aevfA;
+        "BAk03uPV" = _BAk03uPV;
+        "forge-1.20.1" = _BAk03uPV;
         "pkg-5.6.2" = _5QXbQ4rF;
         "pkg-5.7.2" = _7qhItxce;
         "pkg-5.7.3" = _yAt0wv1Z;
@@ -94,7 +100,8 @@ let
         "pkg-v6.0.0-beta.7" = _AcPvfTsy;
         "pkg-v6.0.0-beta.8" = _PMajeBuW;
         "pkg-v6.0.0-beta.9" = _NK8aevfA;
-        "default" = _NK8aevfA;
+        "pkg-6.0.0" = _BAk03uPV;
+        "default" = _BAk03uPV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "verity-je-official";

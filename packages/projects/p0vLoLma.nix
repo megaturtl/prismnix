@@ -76,6 +76,16 @@ let
             "file" = "Lobby Parkour-26.2-v1.3.7.jar";
             "hash" = "sha512-vrk6ekclevN6XImshZ3HHxhwYBR3i7JvomXAQQux1bq3Kp47EZwmDjVXopSBuan3S4pVV9Flfcz03qvUYR3Jyg==";
         };
+        _YYFXVtBh = {
+            "id" = "YYFXVtBh";
+            "file" = "Lobby Parkour-26.3-v1.4.0.jar";
+            "hash" = "sha512-ap6GxaffQHxN/LHp19YnSqKTBmHiXHjVtfC2jzBUlBMwWcZ/4iFnKH+ItwqklghdZRUN5ohCjwcFFJdMl6KrYA==";
+        };
+        _BJHOFcUq = {
+            "id" = "BJHOFcUq";
+            "file" = "Lobby Parkour-26.2-v1.4.0.jar";
+            "hash" = "sha512-LpotXk2dc/ujSZTZsY8fLMUfsrHwvwYXy/DmVRNwaD02ZCdUxk6pP55J+MTvjfq2s9Q0xPtvdIfk8Kj+Cl2tQA==";
+        };
     in {
         "GoArtYxx" = _GoArtYxx;
         "2rWiGc36" = _2rWiGc36;
@@ -92,6 +102,8 @@ let
         "yR5RGt7Y" = _yR5RGt7Y;
         "W4HcVy3u" = _W4HcVy3u;
         "hCjWNurr" = _hCjWNurr;
+        "YYFXVtBh" = _YYFXVtBh;
+        "BJHOFcUq" = _BJHOFcUq;
         "paper-1.21" = _FQvFAQud;
         "paper-1.21.1" = _FQvFAQud;
         "paper-1.21.2" = _FQvFAQud;
@@ -107,8 +119,8 @@ let
         "paper-26.1.2" = _O4OPf2of;
         "paper-26.1" = _O4OPf2of;
         "paper-26.1.1" = _O4OPf2of;
-        "paper-26.2" = _hCjWNurr;
-        "paper-26.3" = _W4HcVy3u;
+        "paper-26.2" = _BJHOFcUq;
+        "paper-26.3" = _YYFXVtBh;
         "folia-1.21" = _FQvFAQud;
         "folia-1.21.1" = _FQvFAQud;
         "folia-1.21.2" = _FQvFAQud;
@@ -124,8 +136,8 @@ let
         "folia-26.1.2" = _O4OPf2of;
         "folia-26.1" = _O4OPf2of;
         "folia-26.1.1" = _O4OPf2of;
-        "folia-26.2" = _hCjWNurr;
-        "folia-26.3" = _W4HcVy3u;
+        "folia-26.2" = _BJHOFcUq;
+        "folia-26.3" = _YYFXVtBh;
         "purpur-1.21" = _FQvFAQud;
         "purpur-1.21.1" = _FQvFAQud;
         "purpur-1.21.2" = _FQvFAQud;
@@ -157,7 +169,8 @@ let
         "pkg-1.3.5" = _NFkJrU8O;
         "pkg-1.3.6" = _yR5RGt7Y;
         "pkg-1.3.7" = _hCjWNurr;
-        "default" = _hCjWNurr;
+        "pkg-1.4.0" = _BJHOFcUq;
+        "default" = _BJHOFcUq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lobby-parkour";

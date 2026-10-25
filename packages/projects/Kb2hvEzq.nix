@@ -331,6 +331,36 @@ let
             "file" = "simple-crosshair-editor-4.2.0-mc26.4.jar";
             "hash" = "sha512-BD65dBqz0rWzj/bU46qDLVJTUdgXu/VxCpehhBzQpDy4KQRHE6Nolrt7aJ2mGMRHNIyBZgEC3aP9sM2r2gV8MQ==";
         };
+        _EwoWfQmv = {
+            "id" = "EwoWfQmv";
+            "file" = "simple-crosshair-editor-4.2.1-mc26.4.jar";
+            "hash" = "sha512-ihgd93tFc+1WzoPiWJjnWtwJzEqpCNd08SL8wu4bT+PBBuTgFMs09k3fE9z9z5pEs86Owx7cdkjrsKlVTOEu1Q==";
+        };
+        _6yCI5ZkE = {
+            "id" = "6yCI5ZkE";
+            "file" = "simple-crosshair-editor-4.2.1-mc26.1.jar";
+            "hash" = "sha512-D1ljL/kFK697NMsxM0fILqN0GNMFR7r1EOrVht/O0PSNefoZYpdbUK9lEz61e5/KznBKfiDucCm/aiiFXcbZ8A==";
+        };
+        _dYlF0IwA = {
+            "id" = "dYlF0IwA";
+            "file" = "simple-crosshair-editor-4.2.1-mc26.2.jar";
+            "hash" = "sha512-mNc776RpYWgWsJufFQJJomQpwO6vhYhzxn3mlV+IZcavfCvazrDuifnZhjSSAvojFtBArBxzCoUMTqTpUUaOZg==";
+        };
+        _e9HD709L = {
+            "id" = "e9HD709L";
+            "file" = "simple-crosshair-editor-4.2.1-mc26.3.jar";
+            "hash" = "sha512-oBux1LCg4BEs7Svq/S9btUWZYlBq8IQxFsvX2B+7mzFvVPsqkl6Md23VHun7Cu3mAIUFhFnl2T0951SQ2liBIQ==";
+        };
+        _fp49fQTY = {
+            "id" = "fp49fQTY";
+            "file" = "simple-crosshair-editor-4.2.1-mc1.21.11.jar";
+            "hash" = "sha512-909o0PuYtjZBytqlaX0TdHybo8z0Uq2rCgkBEgtdkQgwP8xX3jYS/qqCRP8YXiZCQE7g1IziPXPqF+W+YlT+UQ==";
+        };
+        _lp3jq9HS = {
+            "id" = "lp3jq9HS";
+            "file" = "simple-crosshair-editor-4.2.2-mc26.4.jar";
+            "hash" = "sha512-W5ZUoJ8M4sLtBetIiiEjqAU5dRCwPUgSKNiydo4Ioh/HEkccAm7d8JBB3iA7pTjVpvSoaouMJZ+/iqQoifBJdg==";
+        };
     in {
         "PUAg70VB" = _PUAg70VB;
         "lyG2ntzf" = _lyG2ntzf;
@@ -398,14 +428,20 @@ let
         "BEaTyBe7" = _BEaTyBe7;
         "YHkQXkNk" = _YHkQXkNk;
         "YAt3rheD" = _YAt3rheD;
+        "EwoWfQmv" = _EwoWfQmv;
+        "6yCI5ZkE" = _6yCI5ZkE;
+        "dYlF0IwA" = _dYlF0IwA;
+        "e9HD709L" = _e9HD709L;
+        "fp49fQTY" = _fp49fQTY;
+        "lp3jq9HS" = _lp3jq9HS;
         "fabric-1.21" = _iOP8jRzg;
         "fabric-1.21.1" = _XHF65cMY;
         "fabric-1.21.4" = _9kAgyqnL;
         "fabric-1.21.10" = _lDvjNFMK;
-        "fabric-1.21.11" = _rBH5VPYr;
-        "fabric-26.1" = _xGZtt3Lq;
-        "fabric-26.1.1" = _xGZtt3Lq;
-        "fabric-26.1.2" = _xGZtt3Lq;
+        "fabric-1.21.11" = _fp49fQTY;
+        "fabric-26.1" = _6yCI5ZkE;
+        "fabric-26.1.1" = _6yCI5ZkE;
+        "fabric-26.1.2" = _6yCI5ZkE;
         "fabric-1.21.9" = _totXRBHg;
         "fabric-1.21.8" = _yqghM7Bm;
         "fabric-1.21.7" = _6pAs27lf;
@@ -413,7 +449,7 @@ let
         "fabric-1.21.5" = _yPQ2bUNL;
         "fabric-1.21.2" = _6sGY89Ja;
         "fabric-1.21.3" = _XtWfzATd;
-        "fabric-26.2" = _BEaTyBe7;
+        "fabric-26.2" = _dYlF0IwA;
         "fabric-26.3-snapshot-1" = _HighvL1Y;
         "fabric-26.3-snapshot-2" = _HighvL1Y;
         "fabric-26.3-snapshot-3" = _HighvL1Y;
@@ -423,12 +459,12 @@ let
         "fabric-26.3-snapshot-7" = _HighvL1Y;
         "fabric-26.3-snapshot-8" = _HighvL1Y;
         "fabric-26.3-snapshot-9" = _HighvL1Y;
-        "fabric-26.3" = _YHkQXkNk;
-        "fabric-26.4-snapshot-1" = _YAt3rheD;
-        "fabric-26.4-snapshot-2" = _YAt3rheD;
-        "fabric-26.4-snapshot-3" = _YAt3rheD;
-        "fabric-26.4-snapshot-4" = _YAt3rheD;
-        "fabric-26.4-snapshot-5" = _YAt3rheD;
+        "fabric-26.3" = _e9HD709L;
+        "fabric-26.4-snapshot-1" = _lp3jq9HS;
+        "fabric-26.4-snapshot-2" = _lp3jq9HS;
+        "fabric-26.4-snapshot-3" = _lp3jq9HS;
+        "fabric-26.4-snapshot-4" = _lp3jq9HS;
+        "fabric-26.4-snapshot-5" = _lp3jq9HS;
         "pkg-1.0.0.1.21" = _lyG2ntzf;
         "pkg-1.0.0.1.21.4" = _5Hc82ob5;
         "pkg-1.0.0.1.21.10" = _952TVzDY;
@@ -490,7 +526,13 @@ let
         "pkg-4.2.0-mc26.2" = _BEaTyBe7;
         "pkg-4.2.0-mc26.3" = _YHkQXkNk;
         "pkg-4.2.0-mc26.4" = _YAt3rheD;
-        "default" = _YAt3rheD;
+        "pkg-4.2.1-mc26.4" = _EwoWfQmv;
+        "pkg-4.2.1-mc26.1" = _6yCI5ZkE;
+        "pkg-4.2.1-mc26.2" = _dYlF0IwA;
+        "pkg-4.2.1-mc26.3" = _e9HD709L;
+        "pkg-4.2.1-mc1.21.11" = _fp49fQTY;
+        "pkg-4.2.2-mc26.4" = _lp3jq9HS;
+        "default" = _lp3jq9HS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-crosshair-editor";

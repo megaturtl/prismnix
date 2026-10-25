@@ -16,15 +16,30 @@ let
             "file" = "CombatEvolution-MoreExecutionAnimations-1.20.1-1.2.jar";
             "hash" = "sha512-bbjQ5ehM41WdgXQoNbIRFFf2HfUv+sfvkA5baMDKQG/payTrrMuF+9qFEgA8rBaSrNIzvUV+dS8tiBAItRQ+QA==";
         };
+        _NIiwWf90 = {
+            "id" = "NIiwWf90";
+            "file" = "CombatEvolution-MoreExecutionAnimations-1.20.1-1.4.jar";
+            "hash" = "sha512-RogiId0enyBWBVxBd6V//lgLslzO6r1gKK1bmwRIJ8Ncov3BSgjYE6woN+ho9iyXK5Q3uSjbuv5fmTf7tUL0hg==";
+        };
+        _XmUfqjhe = {
+            "id" = "XmUfqjhe";
+            "file" = "CombatEvolution-MoreExecutionAnimations-1.21.1-2.0.jar";
+            "hash" = "sha512-jYF7Wfzmbet9SsQqLWMmAwMrPcfGUlgz0mlSwKVoE5Y6Vwtu0cvLm+UwVmYvMc/k1T5hxz8Yz5dtq79AIMvwgw==";
+        };
     in {
         "BbS6zczi" = _BbS6zczi;
         "9Fn8XDAN" = _9Fn8XDAN;
         "9sn17vfD" = _9sn17vfD;
-        "forge-1.20.1" = _9sn17vfD;
+        "NIiwWf90" = _NIiwWf90;
+        "XmUfqjhe" = _XmUfqjhe;
+        "forge-1.20.1" = _NIiwWf90;
+        "neoforge-1.21.1" = _XmUfqjhe;
         "pkg-1.0" = _BbS6zczi;
         "pkg-1.1" = _9Fn8XDAN;
         "pkg-1.2" = _9sn17vfD;
-        "default" = _9sn17vfD;
+        "pkg-1.4" = _NIiwWf90;
+        "pkg-2.0" = _XmUfqjhe;
+        "default" = _XmUfqjhe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "combat-evolution-x-more-execution-animations";

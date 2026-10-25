@@ -201,6 +201,11 @@ let
             "file" = "geneticsresequenced-1.21.1-1.15.0-build.51.jar";
             "hash" = "sha512-QfEKhZ1uhYJiQvORhzdawwwuhNV6oORBQmyFHctMCf0StKr3NUjsNAGLc6LpIuVx4IrzgzhUr4JHhi8MScdEcw==";
         };
+        _5WWWmANP = {
+            "id" = "5WWWmANP";
+            "file" = "genetics-resequenced-1.20.1-1.15.2-build.6.jar";
+            "hash" = "sha512-Fco4+ns0MdsKbPeaMil7Jjsl/NrmKUsREiC9GPlymBd/IIhCsfPuSE3gaysRtnqvSlnJHv4LgP/X8sxk8AX7wQ==";
+        };
     in {
         "oTUE5WnG" = _oTUE5WnG;
         "nPo6Qv0B" = _nPo6Qv0B;
@@ -242,9 +247,10 @@ let
         "tGPNg2fk" = _tGPNg2fk;
         "MrvVJBzl" = _MrvVJBzl;
         "ZCtE6Dfu" = _ZCtE6Dfu;
+        "5WWWmANP" = _5WWWmANP;
         "forge-1.19" = _NBXiJwsb;
         "forge-1.19.2" = _NBXiJwsb;
-        "forge-1.20.1" = _MrvVJBzl;
+        "forge-1.20.1" = _5WWWmANP;
         "neoforge-1.21" = _gpEHMmLK;
         "neoforge-1.21.1" = _ZCtE6Dfu;
         "neoforge-26.1.2" = _tGPNg2fk;
@@ -288,7 +294,8 @@ let
         "pkg-1.14.2-build.6" = _tGPNg2fk;
         "pkg-1.15.0-build.2" = _MrvVJBzl;
         "pkg-1.15.0-build.51" = _ZCtE6Dfu;
-        "default" = _ZCtE6Dfu;
+        "pkg-1.15.2-build.6" = _5WWWmANP;
+        "default" = _5WWWmANP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "genetics-resequenced";

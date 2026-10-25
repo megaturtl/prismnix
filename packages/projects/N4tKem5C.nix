@@ -101,6 +101,16 @@ let
             "file" = "blockfront-survival-patch-Update-9.jar";
             "hash" = "sha512-+lEDtKP53z2PlUrr8Q2A95X64zGAx/hU7olZ6qvYh2BfH1BybSNt/oPjFXAhtpEIFTHA44X8etjh49k7zFprVg==";
         };
+        _lBYpZKme = {
+            "id" = "lBYpZKme";
+            "file" = "BlockFront Unofficial Survival Patch 10.zip";
+            "hash" = "sha512-OAxJJbxaL2is7g6F/3V64ykTbqKfInGjD2MF9RglXaoKWc9DfCGgEPLrjNlsc5kSDvBrMyrgIA6MkPz4oGy3+Q==";
+        };
+        _Vlst9wXW = {
+            "id" = "Vlst9wXW";
+            "file" = "blockfront-survival-patch-Update-10.jar";
+            "hash" = "sha512-nMp1XkSIIN29Fb8cNanY1oeannkXorMOOY9m2XNKy9fP7WJmAeDV+eGOVPhinCdkilTDFFtY4ZpfgGkBnNVTDQ==";
+        };
     in {
         "aXNnuI8V" = _aXNnuI8V;
         "oejUvEJs" = _oejUvEJs;
@@ -122,8 +132,10 @@ let
         "3HQt8x3v" = _3HQt8x3v;
         "RJ7t5jqu" = _RJ7t5jqu;
         "CeQPgLNK" = _CeQPgLNK;
-        "datapack-1.21.1" = _RJ7t5jqu;
-        "neoforge-1.21.1" = _CeQPgLNK;
+        "lBYpZKme" = _lBYpZKme;
+        "Vlst9wXW" = _Vlst9wXW;
+        "datapack-1.21.1" = _lBYpZKme;
+        "neoforge-1.21.1" = _Vlst9wXW;
         "pkg-Release" = _oejUvEJs;
         "pkg-Update-1" = _ecTP96uT;
         "pkg-Update-2" = _8WZFiUfk;
@@ -134,7 +146,8 @@ let
         "pkg-Update-7" = _djmUkn8b;
         "pkg-Update-8" = _3HQt8x3v;
         "pkg-Update-9" = _CeQPgLNK;
-        "default" = _CeQPgLNK;
+        "pkg-Update-10" = _Vlst9wXW;
+        "default" = _Vlst9wXW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blockfront-survival-patch";

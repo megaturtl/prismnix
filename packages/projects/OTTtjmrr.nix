@@ -31,6 +31,11 @@ let
             "file" = "extended-signals-common-1.5.12-beta-git-c2f596f-t2026-08-11T13-38-47.580685300Z-1.21.1.jar";
             "hash" = "sha512-qJGB9Kp5Q6e49L8aKIhMxoNd+Slly0K17xS7Rz57dlLf4Hv86YZaN5ct5f4qyJ/isDAF+RV2OMaEa1XmPx3Wyg==";
         };
+        _cxiA1g35 = {
+            "id" = "cxiA1g35";
+            "file" = "extended-signals-common-1.9.35-beta-git-70c423f-t2026-10-24T12-12-05.127942200Z-1.21.1.jar";
+            "hash" = "sha512-+cNVfkVN+xeNPv/MG2sYNUhKsXk3bNkLQ+1ff5QnFnvflMmOIYYs2aS/QAlmBBGpFrNzrutXU1Ev3C0+OdTTNw==";
+        };
     in {
         "fXOFSYTX" = _fXOFSYTX;
         "oUXbi2su" = _oUXbi2su;
@@ -38,13 +43,15 @@ let
         "k4m287fN" = _k4m287fN;
         "FhRks2ve" = _FhRks2ve;
         "gqqqNHmx" = _gqqqNHmx;
+        "cxiA1g35" = _cxiA1g35;
         "forge-1.20.1" = _FhRks2ve;
-        "neoforge-1.21.1" = _gqqqNHmx;
+        "neoforge-1.21.1" = _cxiA1g35;
         "pkg-0.0.0a" = _oUXbi2su;
         "pkg-0.0.7" = _k4m287fN;
         "pkg-0.0.8" = _FhRks2ve;
         "pkg-1.5.12" = _gqqqNHmx;
-        "default" = _gqqqNHmx;
+        "pkg-1.9.35-beta" = _cxiA1g35;
+        "default" = _cxiA1g35;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-extended-signals";

@@ -141,6 +141,26 @@ let
             "file" = "meecreeps-fabric-26.3-5.0.0.jar";
             "hash" = "sha512-cIgDbtkT05xtn39NMKm8OuKscPuP5KpZh7dEJ/py/sW7ChpIwM+jusBNpCSBDdWtxA3qH2eZzlD8RdTWTP4zlw==";
         };
+        _Qi4Op09o = {
+            "id" = "Qi4Op09o";
+            "file" = "meecreeps-26.2-4.0.1.jar";
+            "hash" = "sha512-h36uv+8tF/ySbECE+O0OTX7tCwUUoHHu0/EaR6+kVG6Hq8N4VX3vRnFWR0ib/TJB5yQoVZEyjirMwwQIP/qfUg==";
+        };
+        _a2u9WwO9 = {
+            "id" = "a2u9WwO9";
+            "file" = "meecreeps-fabric-26.2-4.0.1.jar";
+            "hash" = "sha512-H15l6DE+MmZ6zFGGzwmPkiVtYa3IbxVOc/gzOnynmjv7H3pPF8G2Dl54PbY3jcndjLdBOIzBShr/szSP0YegzQ==";
+        };
+        _r3YS8uEK = {
+            "id" = "r3YS8uEK";
+            "file" = "meecreeps-26.3-5.0.1.jar";
+            "hash" = "sha512-77GvJpX7bpc63vfQhi9oUIhSnFbNFpvzKHxDTe7gmFDFE68BQB8eOJux7EkTf3lMIxvN+irbVI6t0DRjas8wNg==";
+        };
+        _V524U7NC = {
+            "id" = "V524U7NC";
+            "file" = "meecreeps-fabric-26.3-5.0.1.jar";
+            "hash" = "sha512-3X1PY7V5LcbhfdLZFgY57M0ntHTFheYoV/+lCo2OGPPl0KSyPoQ3d3SowgzmUH0x3yK3hV2K4xbGtF4H+OpglA==";
+        };
     in {
         "KIftIDld" = _KIftIDld;
         "XIKdPCrH" = _XIKdPCrH;
@@ -170,14 +190,18 @@ let
         "XfYwpH41" = _XfYwpH41;
         "9JoPtG97" = _9JoPtG97;
         "XPkTb7sw" = _XPkTb7sw;
+        "Qi4Op09o" = _Qi4Op09o;
+        "a2u9WwO9" = _a2u9WwO9;
+        "r3YS8uEK" = _r3YS8uEK;
+        "V524U7NC" = _V524U7NC;
         "forge-1.12.1" = _B53PG5uP;
         "forge-1.12.2" = _kGSPaHaM;
         "forge-1.20.1" = _IlwL9ydV;
         "neoforge-1.21.1" = _XfYwpH41;
-        "neoforge-26.2" = _RNz5obeT;
-        "neoforge-26.3" = _9JoPtG97;
-        "fabric-26.2" = _GIR5nd3Z;
-        "fabric-26.3" = _XPkTb7sw;
+        "neoforge-26.2" = _Qi4Op09o;
+        "neoforge-26.3" = _r3YS8uEK;
+        "fabric-26.2" = _a2u9WwO9;
+        "fabric-26.3" = _V524U7NC;
         "pkg-1.12-0.0.5beta" = _KIftIDld;
         "pkg-1.12-0.0.6beta" = _XIKdPCrH;
         "pkg-1.12-0.1.0beta" = _Ua7Rso8W;
@@ -204,7 +228,9 @@ let
         "pkg-26.2-4.0.0" = _GIR5nd3Z;
         "pkg-1.21.1-3.0.1" = _XfYwpH41;
         "pkg-26.3-5.0.0" = _XPkTb7sw;
-        "default" = _XPkTb7sw;
+        "pkg-26.2-4.0.1" = _a2u9WwO9;
+        "pkg-26.3-5.0.1" = _V524U7NC;
+        "default" = _V524U7NC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "meecreeps";

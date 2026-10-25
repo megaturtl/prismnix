@@ -46,6 +46,21 @@ let
             "file" = "airplace-1.1.1.jar";
             "hash" = "sha512-VSyntL5EUiH6s2DyTTlHMxMHCUAMZRPf0nd1WlYaz/7aHNbXFY6w5hNTv5pE6rEacJsK30TU03vN92n3M7Pzbw==";
         };
+        _oh6Hpey6 = {
+            "id" = "oh6Hpey6";
+            "file" = "airplace-1.1.2.jar";
+            "hash" = "sha512-rf5DKq0DOvcUyEiyfHlLFgFL7WCO267iAnTrkmNOI7H1mMIyl+lwkMz79I8y5nR+gU25fxQ9x9AsF8iet5ix9Q==";
+        };
+        _bSRoDkDn = {
+            "id" = "bSRoDkDn";
+            "file" = "airplace-1.1.2.jar";
+            "hash" = "sha512-mF6yp91kUDFJgXzKiC48CpLZqPkkobO1EsQUh1tITkG55q1uJJNRtT6/31VqEF/XYgZhVx0GSOdWsx5v7Bo6BQ==";
+        };
+        _YMupgTY4 = {
+            "id" = "YMupgTY4";
+            "file" = "airplace-1.1.2.jar";
+            "hash" = "sha512-TG7U3S4WtmbIOI9i57QPHiIV3egisnWeQYs6Vh/bKLNuQa6NylIXMk7lXcZsLFMC00ErxAeHRKTRNMFh5ek1yA==";
+        };
     in {
         "ebeTKhzi" = _ebeTKhzi;
         "axW7OZZO" = _axW7OZZO;
@@ -56,6 +71,9 @@ let
         "qZvFnxsH" = _qZvFnxsH;
         "gq2XjVik" = _gq2XjVik;
         "qaM5fn64" = _qaM5fn64;
+        "oh6Hpey6" = _oh6Hpey6;
+        "bSRoDkDn" = _bSRoDkDn;
+        "YMupgTY4" = _YMupgTY4;
         "fabric-1.21.4" = _SNZZgUO4;
         "fabric-1.21.5" = _Dtmdscpm;
         "fabric-1.21.6" = _Dtmdscpm;
@@ -74,15 +92,16 @@ let
         "fabric-1.20.4" = _fMwmW9OQ;
         "fabric-1.20.5" = _fMwmW9OQ;
         "fabric-1.20.6" = _fMwmW9OQ;
-        "fabric-26.1" = _qZvFnxsH;
-        "fabric-26.1.1" = _qZvFnxsH;
-        "fabric-26.1.2" = _qZvFnxsH;
-        "fabric-26.2" = _gq2XjVik;
-        "fabric-26.3" = _qaM5fn64;
+        "fabric-26.1" = _YMupgTY4;
+        "fabric-26.1.1" = _YMupgTY4;
+        "fabric-26.1.2" = _YMupgTY4;
+        "fabric-26.2" = _bSRoDkDn;
+        "fabric-26.3" = _oh6Hpey6;
         "pkg-1.0.0" = _ebeTKhzi;
         "pkg-1.1.0" = _Dtmdscpm;
         "pkg-1.1.1" = _qaM5fn64;
-        "default" = _qaM5fn64;
+        "pkg-1.1.2" = _YMupgTY4;
+        "default" = _YMupgTY4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "airplace";

@@ -136,6 +136,11 @@ let
             "file" = "ic2additions1.7.10-0.9.0.jar";
             "hash" = "sha512-ZBm3v5uq9hmBJ/8f6eURMqzqIzVQksAGBwyXAvMcIMYmIgONRkAHVBdCr4rCF1zaCNVo6wu1yw9WK5YCOglb+w==";
         };
+        _CGzDqp5a = {
+            "id" = "CGzDqp5a";
+            "file" = "ic2additions1.12.2-2.2.1.jar";
+            "hash" = "sha512-w1OxFsPunITwo4bzem5ukXdUw6AfzNsUg2pbBOvLdiP1/PQ+uUVZik8cf1nnKjv8j0mEjcf5gzHKBl6fWE4iqQ==";
+        };
     in {
         "K8tyQdx1" = _K8tyQdx1;
         "x7hoQY9w" = _x7hoQY9w;
@@ -164,7 +169,8 @@ let
         "9a2GSnA0" = _9a2GSnA0;
         "oKD01LLY" = _oKD01LLY;
         "yoBvFWCX" = _yoBvFWCX;
-        "forge-1.12.2" = _oKD01LLY;
+        "CGzDqp5a" = _CGzDqp5a;
+        "forge-1.12.2" = _CGzDqp5a;
         "forge-1.7.10" = _yoBvFWCX;
         "pkg-0.0.2" = _K8tyQdx1;
         "pkg-0.0.3" = _x7hoQY9w;
@@ -193,7 +199,8 @@ let
         "pkg-2.1.2" = _9a2GSnA0;
         "pkg-2.2.0" = _oKD01LLY;
         "pkg-0.9.0" = _yoBvFWCX;
-        "default" = _yoBvFWCX;
+        "pkg-2.2.1" = _CGzDqp5a;
+        "default" = _CGzDqp5a;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ic2additions";

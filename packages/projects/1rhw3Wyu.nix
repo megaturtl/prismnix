@@ -391,6 +391,16 @@ let
             "file" = "customchestmenus-fabric-1.21.1-2.4.1.jar";
             "hash" = "sha512-NAawER0Z1KPCauWsd78NPFcPpMJ7J2KVbpTVGefjeyQfhEWgnT+BzDo1bCNf2GoWXkEdVSEm1csMGyKuzXmU3A==";
         };
+        _nSTIZpNp = {
+            "id" = "nSTIZpNp";
+            "file" = "customchestmenus-fabric-26.3-2.4.0.jar";
+            "hash" = "sha512-ilxwBHzpNI44ItVRO/2ehlsVxcPZN+HwXwgGObGxDA0ItzoKDriGoh0aZ2G0ZJtj06geqlwHs4lItG1akZhgmQ==";
+        };
+        _Oa5AskRR = {
+            "id" = "Oa5AskRR";
+            "file" = "customchestmenus-neoforge-26.3-2.4.0.jar";
+            "hash" = "sha512-cI6jQkEn4NZ7bkVDa6q0hO0At2sR82BJ0dC7ODzQYv/7aAP6AHApbBTOL8fYbvC5rqptOuJn39jKJxediKxUnA==";
+        };
     in {
         "UM4ZAu4w" = _UM4ZAu4w;
         "lNOwTVh2" = _lNOwTVh2;
@@ -470,6 +480,8 @@ let
         "cRChfnhf" = _cRChfnhf;
         "QY2X31bi" = _QY2X31bi;
         "CyLUkO61" = _CyLUkO61;
+        "nSTIZpNp" = _nSTIZpNp;
+        "Oa5AskRR" = _Oa5AskRR;
         "neoforge-1.21.8" = _bCE65WIB;
         "neoforge-1.21.6" = _bCE65WIB;
         "neoforge-1.21.7" = _bCE65WIB;
@@ -480,7 +492,7 @@ let
         "neoforge-26.1" = _rGITEi8G;
         "neoforge-26.1.1" = _rGITEi8G;
         "neoforge-26.1.2" = _rGITEi8G;
-        "neoforge-26.2" = _i3bC1KGt;
+        "neoforge-26.2" = _Oa5AskRR;
         "fabric-1.21.6" = _qHLRWYsi;
         "fabric-1.21.7" = _qHLRWYsi;
         "fabric-1.21.8" = _qHLRWYsi;
@@ -494,7 +506,7 @@ let
         "fabric-26.1" = _GOuWKGU3;
         "fabric-26.1.1" = _GOuWKGU3;
         "fabric-26.1.2" = _GOuWKGU3;
-        "fabric-26.2" = _1ykuKavR;
+        "fabric-26.2" = _nSTIZpNp;
         "forge-1.20.1" = _8yJupEal;
         "pkg-1.0.0" = _UM4ZAu4w;
         "pkg-1.0.1" = _G48yV1tX;
@@ -516,9 +528,9 @@ let
         "pkg-2.2.0" = _GAlJ4OEX;
         "pkg-2.3.0" = _4FapmVou;
         "pkg-2.3.1" = _bTbMFUHD;
-        "pkg-2.4.0" = _cRChfnhf;
+        "pkg-2.4.0" = _Oa5AskRR;
         "pkg-2.4.1" = _CyLUkO61;
-        "default" = _CyLUkO61;
+        "default" = _Oa5AskRR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "custom-chest-menus";

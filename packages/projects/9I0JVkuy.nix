@@ -76,6 +76,16 @@ let
             "file" = "ultra_hard_mode-1.13-neoforge-26.1.2.jar";
             "hash" = "sha512-zFXEn/WIgEPm3s727HSLBvj7nvTfWaAf8rXlr4XartyRgys2ICfLdDvdf0hosZ1wYNwbJofPqGqJRbzMUNiQgw==";
         };
+        _9EYmHyTR = {
+            "id" = "9EYmHyTR";
+            "file" = "ultra-hard-mode-26.3-1.13.jar";
+            "hash" = "sha512-ad5lhzIRaBDGDMtQEksDL8+rdwa8LHAqlUGClcWvDRkRGx0KJamg8rNqOZ0ONNWMHrFue727PwUwgcT1mi76qA==";
+        };
+        _XBYN25Cp = {
+            "id" = "XBYN25Cp";
+            "file" = "ultra-hard-mode-26.3-1.13.jar";
+            "hash" = "sha512-raVhZQeGs8ti/zcNlQssV9LQqHAJyN2lNUz5vZ1eLFv2dkx2Vkuyu0Bw5On0gOwlp4drRioExo3V3NCJDMPXDA==";
+        };
     in {
         "ZxvaMtUu" = _ZxvaMtUu;
         "5fPByhqb" = _5fPByhqb;
@@ -92,6 +102,8 @@ let
         "4B1hCBWq" = _4B1hCBWq;
         "FNN2eH5x" = _FNN2eH5x;
         "pHTn4hC6" = _pHTn4hC6;
+        "9EYmHyTR" = _9EYmHyTR;
+        "XBYN25Cp" = _XBYN25Cp;
         "forge-1.20.1" = _3OK87FnD;
         "forge-1.19.2" = _9uIPynGT;
         "forge-1.19.4" = _Y3Yjz0vn;
@@ -102,11 +114,13 @@ let
         "neoforge-1.21.5" = _HQ8FALIX;
         "neoforge-1.21.8" = _FNN2eH5x;
         "neoforge-26.1.2" = _pHTn4hC6;
+        "neoforge-26.3" = _9EYmHyTR;
+        "fabric-26.3" = _XBYN25Cp;
         "pkg-1.7.3" = _ZxvaMtUu;
         "pkg-1.7.5" = _5fPByhqb;
         "pkg-1.12.3" = _ZpzKN5XS;
-        "pkg-1.13" = _pHTn4hC6;
-        "default" = _pHTn4hC6;
+        "pkg-1.13" = _XBYN25Cp;
+        "default" = _XBYN25Cp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ultra-hard-mode";

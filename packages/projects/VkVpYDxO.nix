@@ -241,6 +241,11 @@ let
             "file" = "NaturalProgression-1.20.1-2.3.9-2.3.9.jar";
             "hash" = "sha512-obTk5e3DDMZPAo1MGDrtO0+Kcnj5PFIOBpuo8YtmUmXcL0vqIcrp4xvS7clsmU4bMDh1oAnV/jyskngtnIxM2Q==";
         };
+        _6j1WqaTo = {
+            "id" = "6j1WqaTo";
+            "file" = "Natural Progression-1.21.1-3.0.0.jar";
+            "hash" = "sha512-06ilBLqi7FXED8LZWR4SfJuIPXVzcBKilEtZauyUpHoYtviIF7gpnWcl3j+tRaxDuQ5J3XmOKWJRVF4Z3TT8jA==";
+        };
     in {
         "qr0E9NFF" = _qr0E9NFF;
         "DDOqvwIN" = _DDOqvwIN;
@@ -290,6 +295,7 @@ let
         "NmhKqRxF" = _NmhKqRxF;
         "dZBtndf9" = _dZBtndf9;
         "KK4OZz0e" = _KK4OZz0e;
+        "6j1WqaTo" = _6j1WqaTo;
         "forge-1.14.4" = _aryK9Zkc;
         "forge-1.15.2" = _jiLe6efM;
         "forge-1.16.4" = _q6yjXGf4;
@@ -300,6 +306,7 @@ let
         "forge-1.19.4" = _7XbDKyYQ;
         "forge-1.19.3" = _jyL3uT0P;
         "forge-1.20.1" = _KK4OZz0e;
+        "neoforge-1.21.1" = _6j1WqaTo;
         "pkg-1.14.4-1.0.0" = _qr0E9NFF;
         "pkg-1.14.4-1.0.1" = _DDOqvwIN;
         "pkg-1.14.4-1.0.2" = _gV2819LL;
@@ -347,7 +354,8 @@ let
         "pkg-1.20.1-2.3.7" = _NmhKqRxF;
         "pkg-1.20.1-2.3.8" = _dZBtndf9;
         "pkg-1.20.1-2.3.9" = _KK4OZz0e;
-        "default" = _KK4OZz0e;
+        "pkg-1.21.1-3.0.0" = _6j1WqaTo;
+        "default" = _6j1WqaTo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "natural-progression";

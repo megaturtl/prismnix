@@ -111,6 +111,11 @@ let
             "file" = "nohunger-3.0.0.1-beta.jar";
             "hash" = "sha512-jqyAhgATzCQ+fXC0HmMz0AIfog52SFC36FfnYNy6cZxl7LYKUkP9H+X0iiVRGbf9OJ+iOtOD3l9chSW+RYEbBA==";
         };
+        _Cj9rLOS3 = {
+            "id" = "Cj9rLOS3";
+            "file" = "nohunger-2.1.1.0.jar";
+            "hash" = "sha512-Wf6Gfz1stB18FxvJ5RwmU12p3gyi2FVhIP9baFWcWkGtSDAuDqxe8ICy8AlaWWICfyRpLxdz/ys+ZSJXwHtwWw==";
+        };
     in {
         "klYjiIOI" = _klYjiIOI;
         "JvNOVLLQ" = _JvNOVLLQ;
@@ -134,13 +139,14 @@ let
         "4kBmEx9a" = _4kBmEx9a;
         "CkSEuYpY" = _CkSEuYpY;
         "zVGMJ0Yk" = _zVGMJ0Yk;
+        "Cj9rLOS3" = _Cj9rLOS3;
         "forge-1.20.1" = _s48a6BHo;
         "forge-1.20.2" = _Klr8p62h;
         "forge-1.20.3" = _Klr8p62h;
         "forge-1.20.4" = _Klr8p62h;
         "forge-1.20.5" = _Klr8p62h;
         "forge-1.20.6" = _Klr8p62h;
-        "neoforge-1.21.1" = _CkSEuYpY;
+        "neoforge-1.21.1" = _Cj9rLOS3;
         "neoforge-26.1.2" = _zVGMJ0Yk;
         "pkg-1.1.0" = _klYjiIOI;
         "pkg-1.1.1" = _JvNOVLLQ;
@@ -164,7 +170,8 @@ let
         "pkg-3.0.0.0-beta" = _4kBmEx9a;
         "pkg-2.1.0.1" = _CkSEuYpY;
         "pkg-3.0.0.1-beta" = _zVGMJ0Yk;
-        "default" = _zVGMJ0Yk;
+        "pkg-2.1.1.0" = _Cj9rLOS3;
+        "default" = _Cj9rLOS3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "no-hunger";

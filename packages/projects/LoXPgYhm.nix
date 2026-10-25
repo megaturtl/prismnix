@@ -146,6 +146,26 @@ let
             "file" = "nopryingeyes-fabric-26.2-3.2.0-beta.jar";
             "hash" = "sha512-w+Wvobm5lYy2QSUCPcMvASivia51rVoHU0405mKl1jAUND+YsUsrEJe3qpDKWNbJiLSbS5v4ug+Fl3Qqf3h0QQ==";
         };
+        _UlH2K978 = {
+            "id" = "UlH2K978";
+            "file" = "nopryingeyes-fabric-1.21.1-3.2.1-beta.jar";
+            "hash" = "sha512-4mL+3R13Kvd3y+1HzKzYQ0XJoqVbZXUkQtBN/0IT43eK/6on8TPo+P1TeV+WNw8GOdKdltVruqOJ9wZ1YEjgpA==";
+        };
+        _NLWZaS04 = {
+            "id" = "NLWZaS04";
+            "file" = "nopryingeyes-neoforge-1.21.1-3.2.1-beta.jar";
+            "hash" = "sha512-yzcBzGJ9qvpwqp+dGjpNstKuv7vUW5qPWR8KScnV/NDmJnhhdyRWDi6u1k/lWfgW4uO2wg6xH4L24kN5yzV/4Q==";
+        };
+        _SjEiSCIf = {
+            "id" = "SjEiSCIf";
+            "file" = "nopryingeyes-fabric-1.21.1-3.2.2-beta.jar";
+            "hash" = "sha512-iLAyHj0oFkN+VIBBjpfKRRZWQj4inWRAWMxus/UFUjdyWGMVaAVceNGqGL16zERKb3RbyHLVt50FcMXpqQtdCw==";
+        };
+        _VpvU4mYD = {
+            "id" = "VpvU4mYD";
+            "file" = "nopryingeyes-neoforge-1.21.1-3.2.2-beta.jar";
+            "hash" = "sha512-FF8d5fsReStEWL0au0kt1sGrFdP+qSSWrtOjuqEHqRyLAGCX1RCgMWo6ALs15e2RpgCCYWYA7tACB1A3rrluOg==";
+        };
     in {
         "kLgNKP1z" = _kLgNKP1z;
         "p9HztZI7" = _p9HztZI7;
@@ -176,6 +196,10 @@ let
         "NxxVKNRP" = _NxxVKNRP;
         "cFHrkqN8" = _cFHrkqN8;
         "1IhozFfn" = _1IhozFfn;
+        "UlH2K978" = _UlH2K978;
+        "NLWZaS04" = _NLWZaS04;
+        "SjEiSCIf" = _SjEiSCIf;
+        "VpvU4mYD" = _VpvU4mYD;
         "fabric-1.19.2" = _nr6M1PSW;
         "fabric-1.19.4" = _DWknIrtq;
         "fabric-1.19.3" = _i06Y4r7L;
@@ -192,7 +216,9 @@ let
         "fabric-1.21.11" = _GWft7Ppq;
         "fabric-26.1.2" = _9xWCcBaS;
         "fabric-26.2" = _1IhozFfn;
+        "fabric-1.21.1" = _SjEiSCIf;
         "neoforge-26.2" = _cFHrkqN8;
+        "neoforge-1.21.1" = _VpvU4mYD;
         "pkg-1.19.2-v1.3.0" = _kLgNKP1z;
         "pkg-1.19.2-v1.4.0" = _p9HztZI7;
         "pkg-1.19.4-v1.5.0" = _DWknIrtq;
@@ -222,7 +248,11 @@ let
         "pkg-3.1.0-beta" = _NxxVKNRP;
         "pkg-3.2.0-beta+neoforge" = _cFHrkqN8;
         "pkg-3.2.0-beta+fabric" = _1IhozFfn;
-        "default" = _1IhozFfn;
+        "pkg-3.2.1-1.21.1-beta+fabric" = _UlH2K978;
+        "pkg-3.2.1-1.21.1-beta+neoforge" = _NLWZaS04;
+        "pkg-3.2.2-1.21.1-beta+fabric" = _SjEiSCIf;
+        "pkg-3.2.2-1.21.1-beta+neoforge" = _VpvU4mYD;
+        "default" = _VpvU4mYD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "no-prying-eyes";

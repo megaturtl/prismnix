@@ -66,6 +66,91 @@ let
             "file" = "AutoSprint-2.4.1-1.21.11-fabric.jar";
             "hash" = "sha512-9RNO6OpDEkxRkutdqZT3+hxmnCoOIZpRGrMO/N/cHgtMrMGMOjAZfMCLJBhPh3IzwVk9xJJ2MBrta3oT1EYzrQ==";
         };
+        _RRI4Hp4u = {
+            "id" = "RRI4Hp4u";
+            "file" = "AutoSprint-1.21.jar";
+            "hash" = "sha512-+b/BUQYqKEYVM/Jtfm3imIXYAgYOLwt+pR3JFfWeORdk99J73oKmFcu2zwABWyHo4fFjbpgdJDIFJKocd3/FrA==";
+        };
+        _HFAA0fPR = {
+            "id" = "HFAA0fPR";
+            "file" = "AutoSprint-1.21.1.jar";
+            "hash" = "sha512-O4vMyqUXpovH1kNTVS+S5vnW6qcMIq4JCH/tUbIGhSvVW29p73A4JwAZbhxIjfk7T4qpJfrv6WpzsVHv+BC4WQ==";
+        };
+        _RIhaqSxB = {
+            "id" = "RIhaqSxB";
+            "file" = "AutoSprint-1.21.2.jar";
+            "hash" = "sha512-1+V/rm+7J1TkRzG++1MVIUcNgt7aEdxISz3VrM9avYkweVTKT8uJ155ByA0JkfjjLHaUng38AKVkjR9xmWZxzQ==";
+        };
+        _qlT9pCwQ = {
+            "id" = "qlT9pCwQ";
+            "file" = "AutoSprint-1.21.3.jar";
+            "hash" = "sha512-KF5TRoMEjJqBqnOkASNtVEMv2N8g+0AC7c0XQO2gB1wB1tAUdtFajpmHxpMEV9pT50VoXjwQ3IGY+fesm6jbwg==";
+        };
+        _OEVvKw64 = {
+            "id" = "OEVvKw64";
+            "file" = "AutoSprint-1.21.4.jar";
+            "hash" = "sha512-0uEaNxaWE+/Rbf7opVBmUjA6KISs4ieoxcIWUltjX72GCF1/OulnUjOUlthTBCNdBNDGUH+/CBv1I0fSeoklWg==";
+        };
+        _LP40Sdyf = {
+            "id" = "LP40Sdyf";
+            "file" = "AutoSprint-1.21.5.jar";
+            "hash" = "sha512-mi9YqzmWjgfbOp/TSFe7YJQcr1foVRaewx9Ci+bEysSRiwY8KSGMyv9EaTcfyMOI/cOoU8jMpHXcVviSU9srZA==";
+        };
+        _hqWN3IV4 = {
+            "id" = "hqWN3IV4";
+            "file" = "AutoSprint-1.21.6.jar";
+            "hash" = "sha512-F9cyD/c2kR7C0t+AG1TBrbcSTfH3OXkF//31xGZ+JzhG06Lx10r+aSS+dEjiKx15kvpHX4kl5pfs07ntC31SYQ==";
+        };
+        _w2t4OUJA = {
+            "id" = "w2t4OUJA";
+            "file" = "AutoSprint-1.21.7.jar";
+            "hash" = "sha512-k6gk0HGDivoKLe7kmMYv9V2zCM6I3Q9pe6ZAlZgj7GXCC+MO6bAK9KgbKmGNchk+9+slBwYYl20CdLv9KR0gsg==";
+        };
+        _ZEKwQOiu = {
+            "id" = "ZEKwQOiu";
+            "file" = "AutoSprint-1.21.8.jar";
+            "hash" = "sha512-g+N0vzg8vBFHkae42vOaP016VGr5BWf0R0bWbDHvCy1mLxmrE7cHRsKi4xfb1rgT+O12Yh4X5ucWwktfYYEDqw==";
+        };
+        _PPbzmxVW = {
+            "id" = "PPbzmxVW";
+            "file" = "AutoSprint-1.21.9.jar";
+            "hash" = "sha512-08zApsTbL5IbG0BESrevB1eEFI4AwbHfJVRja9veQtg5bHkZ0VJpP/wqpKDBC/WEPlnB+t/mTmvXdvfahUyi/w==";
+        };
+        _ZvGdlkEE = {
+            "id" = "ZvGdlkEE";
+            "file" = "AutoSprint-1.21.10.jar";
+            "hash" = "sha512-NaK6Fp3U4/T13O71efeWtDB7qwXjgJJYLVNAOqKpuOePp/l0mA6DYsJQ1Js8g6rGQroffzzW9dUflaufOn1w9A==";
+        };
+        _ypBzcuKN = {
+            "id" = "ypBzcuKN";
+            "file" = "AutoSprint-1.21.11.jar";
+            "hash" = "sha512-tGbaCilxEreRyZ+B84ObWH4Xa4bH+ufUOZ9wYsLu+bvMgOAdS6T2gYYYTfF619WkBxaQdZJ5sCdji4ybosrLaw==";
+        };
+        _d6n81XKR = {
+            "id" = "d6n81XKR";
+            "file" = "AutoSprint-26.1.jar";
+            "hash" = "sha512-5ep02GhtPWIv25Ag4bSeugS5IV5WLRNlZ5yWo0deuFvbdxPw1NUmvq3HVlgrxnBrs9XyCgoRuo0mp+y4RRzURw==";
+        };
+        _2uKc13Sr = {
+            "id" = "2uKc13Sr";
+            "file" = "AutoSprint-26.1.1.jar";
+            "hash" = "sha512-P35foHFbXvdmUo46xg7QI7puS/EDfaxUIPCAjujhsnmI+ZOvjyZSVfDcRPanJ5Tk9qWA/+CSKOLYCSE9lZ8Y0Q==";
+        };
+        _AanqPIQJ = {
+            "id" = "AanqPIQJ";
+            "file" = "AutoSprint-26.2.jar";
+            "hash" = "sha512-pNaftrkOTWeBWxGEGy5PB1L/OmoaVjZnXFpLqDpEKeRgh5qQKLWApCV1PYOGfUuEkHLwpLqllMBa1kpLr+dK0Q==";
+        };
+        _7BR8c4VH = {
+            "id" = "7BR8c4VH";
+            "file" = "AutoSprint-26.3.jar";
+            "hash" = "sha512-cA8oZt1zVkIZnjKGU01n2vqKYbPkcVI/1DQrXsSJkP8rJX28BtsxfeAz4p6YRLbeNNIWm+x1KgEPsMnGBSqI3w==";
+        };
+        _hX3FMRiN = {
+            "id" = "hX3FMRiN";
+            "file" = "AutoSprint-26.1.2.jar";
+            "hash" = "sha512-WXinAwdOkCDYSQT3d23F8cmBYfGBr7pZNObMdSDHhMNr8EiFRn07rlWRht03DR3zpJBUcduONek/x7Rok3T3Sg==";
+        };
     in {
         "ZiKlLoxb" = _ZiKlLoxb;
         "VNuwvucv" = _VNuwvucv;
@@ -80,10 +165,40 @@ let
         "jqFJ7KZV" = _jqFJ7KZV;
         "RDrQFHxt" = _RDrQFHxt;
         "wQGjgM9R" = _wQGjgM9R;
-        "fabric-1.21.1" = _5woSs0DX;
-        "fabric-1.21.4" = _RDrQFHxt;
-        "fabric-1.21.5" = _zfkj7u8A;
-        "fabric-1.21.11" = _wQGjgM9R;
+        "RRI4Hp4u" = _RRI4Hp4u;
+        "HFAA0fPR" = _HFAA0fPR;
+        "RIhaqSxB" = _RIhaqSxB;
+        "qlT9pCwQ" = _qlT9pCwQ;
+        "OEVvKw64" = _OEVvKw64;
+        "LP40Sdyf" = _LP40Sdyf;
+        "hqWN3IV4" = _hqWN3IV4;
+        "w2t4OUJA" = _w2t4OUJA;
+        "ZEKwQOiu" = _ZEKwQOiu;
+        "PPbzmxVW" = _PPbzmxVW;
+        "ZvGdlkEE" = _ZvGdlkEE;
+        "ypBzcuKN" = _ypBzcuKN;
+        "d6n81XKR" = _d6n81XKR;
+        "2uKc13Sr" = _2uKc13Sr;
+        "AanqPIQJ" = _AanqPIQJ;
+        "7BR8c4VH" = _7BR8c4VH;
+        "hX3FMRiN" = _hX3FMRiN;
+        "fabric-1.21.1" = _HFAA0fPR;
+        "fabric-1.21.4" = _OEVvKw64;
+        "fabric-1.21.5" = _LP40Sdyf;
+        "fabric-1.21.11" = _ypBzcuKN;
+        "fabric-1.21" = _RRI4Hp4u;
+        "fabric-1.21.2" = _RIhaqSxB;
+        "fabric-1.21.3" = _qlT9pCwQ;
+        "fabric-1.21.6" = _hqWN3IV4;
+        "fabric-1.21.7" = _w2t4OUJA;
+        "fabric-1.21.8" = _ZEKwQOiu;
+        "fabric-1.21.9" = _PPbzmxVW;
+        "fabric-1.21.10" = _ZvGdlkEE;
+        "fabric-26.1" = _d6n81XKR;
+        "fabric-26.1.1" = _2uKc13Sr;
+        "fabric-26.2" = _AanqPIQJ;
+        "fabric-26.3" = _7BR8c4VH;
+        "fabric-26.1.2" = _hX3FMRiN;
         "pkg-2.3.1" = _ZiKlLoxb;
         "pkg-2.3.2" = _A3rriejf;
         "pkg-2.3.3" = _7SBeJFfP;
@@ -93,8 +208,8 @@ let
         "pkg-2.3.7" = _zfkj7u8A;
         "pkg-2.3.8" = _jqFJ7KZV;
         "pkg-2.3.9" = _RDrQFHxt;
-        "pkg-2.4.1" = _wQGjgM9R;
-        "default" = _wQGjgM9R;
+        "pkg-2.4.1" = _hX3FMRiN;
+        "default" = _hX3FMRiN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "autosprinting";

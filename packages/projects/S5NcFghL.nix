@@ -16,16 +16,24 @@ let
             "file" = "Real Working Villagers.jar";
             "hash" = "sha512-MQ0rpr1FWn6prpH0E4eNMLer7nfIJ4TaboNlHyXCnHnBK8v8e+7/Pi3JDX494JT6WXmhSroEfYyYxgU+4IbDFg==";
         };
+        _KCrT2Pel = {
+            "id" = "KCrT2Pel";
+            "file" = "real-working-villagers-26.3.jar";
+            "hash" = "sha512-Winh9QMcr171+1FEsmWnAFzxq3PA4obsDIe83SETku7vWTQpd0m0RIjMnBsTpO5Lh4Y0mSGzkyUUPu72YbC/Yw==";
+        };
     in {
         "h5KgXfn3" = _h5KgXfn3;
         "I3SE7qhC" = _I3SE7qhC;
         "MZH66GHA" = _MZH66GHA;
+        "KCrT2Pel" = _KCrT2Pel;
         "fabric-26.1.2" = _I3SE7qhC;
         "fabric-26.2" = _MZH66GHA;
+        "fabric-26.3" = _KCrT2Pel;
         "pkg-1.0.0" = _h5KgXfn3;
         "pkg-1.0.1" = _I3SE7qhC;
         "pkg-1.0.2" = _MZH66GHA;
-        "default" = _MZH66GHA;
+        "pkg-1.0.3" = _KCrT2Pel;
+        "default" = _KCrT2Pel;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "real-working-villagers";

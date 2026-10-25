@@ -56,6 +56,21 @@ let
             "file" = "mobilitymodifications-1.0.0+mc-1.21.11.jar";
             "hash" = "sha512-Gg6QgFE7LqCzjpIsMmcwG+aeSpE89/aUbuNjmvgkdvU8fEfzw7Mp19JWaprP39MgDSVrgsUEBrmU03CxyPoo8w==";
         };
+        _p5XljGrs = {
+            "id" = "p5XljGrs";
+            "file" = "mobilitymodifications-1.0.0+mc-26.1.jar";
+            "hash" = "sha512-cDdXOycb75WtKEBN28q5eG0BTz4z5xfVsk40uHFvC6Tf43Mlk2w3qiisGIb8SHAxikWliN2Uuos7OUNzAIJ4Pg==";
+        };
+        _DMpgqQve = {
+            "id" = "DMpgqQve";
+            "file" = "mobilitymodifications-1.0.0+mc-26.2.jar";
+            "hash" = "sha512-228iCO8e+0++x4hNj2YnpocfV43QyXaLx8A8st7KUnJcfkapuoL4LCU7IFxvV66xiYgqGVC9t6N3Mm175l/KbQ==";
+        };
+        _BI3EcAUF = {
+            "id" = "BI3EcAUF";
+            "file" = "mobilitymodifications-1.0.0+mc-26.3.jar";
+            "hash" = "sha512-BYJhEzqITKhZwWvgXmJBb2OwoKy0t03VB5UOw08izytDdzvcDt0mTE2f4xXt1ltRAMPLK8c+ov+6Ri+asJKFkQ==";
+        };
     in {
         "ZkwjbfVR" = _ZkwjbfVR;
         "OqTW9xKl" = _OqTW9xKl;
@@ -68,6 +83,9 @@ let
         "nzTIBptp" = _nzTIBptp;
         "hrXB3VpC" = _hrXB3VpC;
         "aQLY8Gmf" = _aQLY8Gmf;
+        "p5XljGrs" = _p5XljGrs;
+        "DMpgqQve" = _DMpgqQve;
+        "BI3EcAUF" = _BI3EcAUF;
         "fabric-1.21" = _ZkwjbfVR;
         "fabric-1.21.1" = _ZkwjbfVR;
         "fabric-1.21.2" = _OqTW9xKl;
@@ -80,8 +98,16 @@ let
         "fabric-1.21.9" = _nzTIBptp;
         "fabric-1.21.10" = _hrXB3VpC;
         "fabric-1.21.11" = _aQLY8Gmf;
+        "fabric-26.1" = _p5XljGrs;
+        "fabric-26.1.1" = _p5XljGrs;
+        "fabric-26.1.2" = _p5XljGrs;
+        "fabric-26.2" = _DMpgqQve;
+        "fabric-26.3" = _BI3EcAUF;
         "pkg-1.0.0" = _aQLY8Gmf;
-        "default" = _aQLY8Gmf;
+        "pkg-1.0.0+mc-26.1" = _p5XljGrs;
+        "pkg-1.0.0+mc-26.2" = _DMpgqQve;
+        "pkg-1.0.0+mc-26.3" = _BI3EcAUF;
+        "default" = _BI3EcAUF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "advanced-mobility";

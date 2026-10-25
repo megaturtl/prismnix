@@ -176,6 +176,21 @@ let
             "file" = "MFDP_1_12_8_26_3.zip";
             "hash" = "sha512-rPVWwakqCGz6Sg7S7WVaD490jyqVzJWcAhUjTutDVacZ3ot3aMdYdQ3SYC2X2W9hvTJtuCfPQNYPpRjK2EygOA==";
         };
+        _Uea3HPCA = {
+            "id" = "Uea3HPCA";
+            "file" = "matcha-flavoured-1.12.8-beta+mod.jar";
+            "hash" = "sha512-gorklQCDMDQs7TC3zBj2VvIjur+QNzRcFRwilBBuN72PVc2QxTrsx7oqm9ncZ5z7pEbuR5r+AGTuE1iqNYBRxw==";
+        };
+        _GS2k0TTD = {
+            "id" = "GS2k0TTD";
+            "file" = "MFRP_1_12_8_26_3.zip";
+            "hash" = "sha512-Jim3YjLdDmDplN2G6cZKba9tVIkmRq736LaAkbTYiL/r7eruvaXpFtLwe+NRqxL3AFpOit6Tg891kgfqqGqkCw==";
+        };
+        _FKX8AyUV = {
+            "id" = "FKX8AyUV";
+            "file" = "MFDP_1_12_8_26_3.zip";
+            "hash" = "sha512-56EDXxmuP6gYEtxcr+iAbTWpFwIG/raOUWN7BeNIN26jCW9MgVvA2JE1VVL61+AsVChqmEMrp9xEry3iiweVOw==";
+        };
     in {
         "HRgbUUqY" = _HRgbUUqY;
         "gnV7BvcI" = _gnV7BvcI;
@@ -212,19 +227,22 @@ let
         "ZGQD0Nqu" = _ZGQD0Nqu;
         "9NVOi2ql" = _9NVOi2ql;
         "87BnsBTB" = _87BnsBTB;
+        "Uea3HPCA" = _Uea3HPCA;
+        "GS2k0TTD" = _GS2k0TTD;
+        "FKX8AyUV" = _FKX8AyUV;
         "datapack-26.1.2" = _gnV7BvcI;
         "datapack-26.2" = _cwZ158UI;
-        "datapack-26.3" = _87BnsBTB;
+        "datapack-26.3" = _FKX8AyUV;
         "minecraft-26.2" = _WRkL802v;
-        "minecraft-26.3" = _9NVOi2ql;
+        "minecraft-26.3" = _GS2k0TTD;
         "fabric-26.2" = _6P1xrjpb;
-        "fabric-26.3" = _ZGQD0Nqu;
+        "fabric-26.3" = _Uea3HPCA;
         "forge-26.2" = _6P1xrjpb;
-        "forge-26.3" = _ZGQD0Nqu;
+        "forge-26.3" = _Uea3HPCA;
         "neoforge-26.2" = _6P1xrjpb;
-        "neoforge-26.3" = _ZGQD0Nqu;
+        "neoforge-26.3" = _Uea3HPCA;
         "quilt-26.2" = _6P1xrjpb;
-        "quilt-26.3" = _ZGQD0Nqu;
+        "quilt-26.3" = _Uea3HPCA;
         "pkg-v0.2-alpha" = _HRgbUUqY;
         "pkg-v0.3-alpha" = _gnV7BvcI;
         "pkg-0.4-alpha" = _Cvo2E277;
@@ -255,10 +273,10 @@ let
         "pkg-1.12.7-beta+mod" = _LHKoGl8a;
         "pkg-1.12.7-beta+rp" = _leNTHiGm;
         "pkg-1.12.7-beta+dp" = _IlPSTNOv;
-        "pkg-1.12.8-beta+mod" = _ZGQD0Nqu;
-        "pkg-1.12.8-beta+rp" = _9NVOi2ql;
-        "pkg-1.12.8-beta+dp" = _87BnsBTB;
-        "default" = _87BnsBTB;
+        "pkg-1.12.8-beta+mod" = _Uea3HPCA;
+        "pkg-1.12.8-beta+rp" = _GS2k0TTD;
+        "pkg-1.12.8-beta+dp" = _FKX8AyUV;
+        "default" = _FKX8AyUV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "matcha-flavoured";

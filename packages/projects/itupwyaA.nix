@@ -831,6 +831,106 @@ let
             "file" = "[MTR4]fangsu-mc1.20.4-FORGE-1.1.2.jar";
             "hash" = "sha512-/vqnODkVp+6L38eDLcpLTWxsCcFV6Daq3nK7X5S1ri3rtsyrwwqaL4R7vFAYxeTSkxWNd4bA4JjoGmn7/eQg1Q==";
         };
+        _KGQwcA1Q = {
+            "id" = "KGQwcA1Q";
+            "file" = "[MTR3]fangsu-mc1.18.2-FABRIC-1.2.0.jar";
+            "hash" = "sha512-SYOKNMzYWbC0xM1wBtI8I44JHiJdTS71TQQYjKr9fU9bnkmIO0UPZGI2lxC8KiAbCq6dRzTJ7UmtxGTIitUSmg==";
+        };
+        _DV9kl5g2 = {
+            "id" = "DV9kl5g2";
+            "file" = "[MTR3]fangsu-mc1.18.2-FORGE-1.2.0.jar";
+            "hash" = "sha512-lBxD/JZXsAKBVxpt04rPGBS3rlMjIrBXM4znl8dqd42m1dtvb1/3MDx7RbSSXTMhwDbzRhgNXmKZqtNzouOT/w==";
+        };
+        _rX1OoDz4 = {
+            "id" = "rX1OoDz4";
+            "file" = "[MTR3]fangsu-mc1.19.2-FABRIC-1.2.0.jar";
+            "hash" = "sha512-95PDlF4yHhQRH+CRkQlsvFYo10p6xFScZ3ZwLm/yUH0FCf37sGW4acuKxZxyHZ2UBeFaXr2rEYsjgoYVXg3tLQ==";
+        };
+        _TU4yHaHb = {
+            "id" = "TU4yHaHb";
+            "file" = "[MTR3]fangsu-mc1.19.2-FORGE-1.2.0.jar";
+            "hash" = "sha512-2OvodPWfwLH/gk7+QCHR23fuM+3YJFP3bsW+elVKn1vK7NBx2D9zB0uMD1zORt9BxLz5RXmiobDhTemyPLNckw==";
+        };
+        _8CgFazdz = {
+            "id" = "8CgFazdz";
+            "file" = "[MTR3]fangsu-mc1.19.3-FABRIC-1.2.0.jar";
+            "hash" = "sha512-w+Tx9tXxVQD/1YIeub2IeUCiqlVrugM+vGBq2xRCRVH1NIRA+gTiUTGCEcLBdWRAwRjE+xVh5hyIIuuVnaKzeg==";
+        };
+        _FjT1db5p = {
+            "id" = "FjT1db5p";
+            "file" = "[MTR3]fangsu-mc1.19.3-FORGE-1.2.0.jar";
+            "hash" = "sha512-BBRnIf+th+Lsck/TKR+6kgEf1BR/QE1aK1bxAWzTkyfgp5kUoo10bSnUgowDcS4l0U61PF4umn79xaeMrmI30A==";
+        };
+        _Yg5OU9t8 = {
+            "id" = "Yg5OU9t8";
+            "file" = "[MTR3]fangsu-mc1.19.4-FABRIC-1.2.0.jar";
+            "hash" = "sha512-LRJymz5DAw6WAeqyXiCA/lx/ZHDF3BRId6pekG08j99zpCk22igt7jaMV4k1Cp2YXGd9zESKH610HNT30cbqdg==";
+        };
+        _G1O96vGl = {
+            "id" = "G1O96vGl";
+            "file" = "[MTR3]fangsu-mc1.19.4-FORGE-1.2.0.jar";
+            "hash" = "sha512-pnsnQTbkILj8hcgg1LPJ7P9zrWdr2lO7b7CvLht0/nMZD45Hr+AP7gpXC1acBsBfe8BPgY6fLIiwbfTs8t7EDQ==";
+        };
+        _PniqIynY = {
+            "id" = "PniqIynY";
+            "file" = "[MTR3]fangsu-mc1.20.1-FABRIC-1.2.0.jar";
+            "hash" = "sha512-ZaEVj7jXPulpu1NTz9jg2vKvVlhgJYH6AoCa/GfgpAs/vDGWN+d+9idpkHyS6LawCAowLUOd3e229aBWl3U5gg==";
+        };
+        _lqMFuNMy = {
+            "id" = "lqMFuNMy";
+            "file" = "[MTR3]fangsu-mc1.20.1-FORGE-1.2.0.jar";
+            "hash" = "sha512-KwtGkX8A6EPMhGtRftNf0wk6mhittuxmkiXfUSxfXGaF5dPvNHT4fwLAI2vTL1LrmvaSkUU5ktKlCYngWaWlbQ==";
+        };
+        _PXdiwhIS = {
+            "id" = "PXdiwhIS";
+            "file" = "[MTR4]fangsu-mc1.18.2-FABRIC-1.2.0.jar";
+            "hash" = "sha512-g6iCF6ahJerPgGczdlIFDfkCkxpD0rD2p4P4LsKY0+NCYYn3htOiyBEy6obY3gYPlFED5304assa5Et0JdfY4g==";
+        };
+        _JVflpWVI = {
+            "id" = "JVflpWVI";
+            "file" = "[MTR4]fangsu-mc1.18.2-FORGE-1.2.0.jar";
+            "hash" = "sha512-icVBS4roPRHHMrL1agQOGsgyT4HZSVRV+wxwlBdjnmkAm5TITUx2FG4n1VAEEyBmllrDoVKQC3cbgLSm+eL20A==";
+        };
+        _M0ehq9S3 = {
+            "id" = "M0ehq9S3";
+            "file" = "[MTR4]fangsu-mc1.19.2-FABRIC-1.2.0.jar";
+            "hash" = "sha512-2r78ivOboD4gb3zpse9eBapmpgIhXsPLFbo5XEVRIgaM44R2pGAtatYWoq+6Afj6Vu5N5pP1Mi8gbEeFpDTdVg==";
+        };
+        _ZVc6Fr7G = {
+            "id" = "ZVc6Fr7G";
+            "file" = "[MTR4]fangsu-mc1.19.2-FORGE-1.2.0.jar";
+            "hash" = "sha512-DwEDdMlj2uDlFzn08J/YZKNceLfOsFqb775GFryuJSuP89T77WqvEZ2X9M4eERbZJNFL7t6OdtDB1x2UeD9ehw==";
+        };
+        _47YkPiXO = {
+            "id" = "47YkPiXO";
+            "file" = "[MTR4]fangsu-mc1.19.4-FABRIC-1.2.0.jar";
+            "hash" = "sha512-t+urBfQhn/ylZOLa3OVk0xGAhOXzF1DSjO0Y8DL6/ZQOWdb34iXutxaKQSRBoGWZhyy6wgfKYMAzXYtspulZyQ==";
+        };
+        _51MRRFy2 = {
+            "id" = "51MRRFy2";
+            "file" = "[MTR4]fangsu-mc1.19.4-FORGE-1.2.0.jar";
+            "hash" = "sha512-DFlwx00HGjqGFl00+WWLlCdutpqnaeJS2Nfw9x/0N6Nn/9j2IZqXFraWo1TUK53MKEyfZbF6XYBFYro2n8IWqw==";
+        };
+        _Q1aJOEyO = {
+            "id" = "Q1aJOEyO";
+            "file" = "[MTR4]fangsu-mc1.20.1-FABRIC-1.2.0.jar";
+            "hash" = "sha512-wnY2cwMg2ucCkCP3//S8je9XssCC+56CDgm8tdYtVjWU5AYJbBRZ+Mlj0ZjjULiePFXZlU2nUhKhHiHvOC8vqA==";
+        };
+        _EorkPBGp = {
+            "id" = "EorkPBGp";
+            "file" = "[MTR4]fangsu-mc1.20.1-FORGE-1.2.0.jar";
+            "hash" = "sha512-DLw/qDEA68i18om9TFGA2QxgcO5V1BVlDWNMv2zkkOpkb+XcxkvFbAWxYwarvt8nUMbgwJVjadGKif5bPKqbUA==";
+        };
+        _dVaGid2C = {
+            "id" = "dVaGid2C";
+            "file" = "[MTR4]fangsu-mc1.20.4-FABRIC-1.2.0.jar";
+            "hash" = "sha512-metskDwcOGKWfalQk6NWwEcZdK1YunX0lOV+VoY8aQaGKbh7wWJ+2Ce9wRORQbns4MEfSZ2SsZeeVDRFD7vb/Q==";
+        };
+        _A4dqA9a9 = {
+            "id" = "A4dqA9a9";
+            "file" = "[MTR4]fangsu-mc1.20.4-FORGE-1.2.0.jar";
+            "hash" = "sha512-5aNVEGwQsbZR/1Kj/HOwodOcEChUIOhGs82MSy08DH13Ait1owsepL05LouuAc9daGe5pgDK5YplYmNSHAYlFg==";
+        };
     in {
         "SjajWO5d" = _SjajWO5d;
         "XlHCi8el" = _XlHCi8el;
@@ -998,18 +1098,38 @@ let
         "ok0L5CUL" = _ok0L5CUL;
         "ts0VHfGd" = _ts0VHfGd;
         "zmFjNagG" = _zmFjNagG;
-        "forge-1.20.1" = _ok0L5CUL;
-        "forge-1.18.2" = _SaCXKeJs;
-        "forge-1.19.2" = _wg75swuM;
-        "forge-1.19.3" = _uglzavG4;
-        "forge-1.19.4" = _dcFzPfAE;
-        "forge-1.20.4" = _zmFjNagG;
-        "fabric-1.20.1" = _bBY7f5x3;
-        "fabric-1.18.2" = _MQxi7Vpb;
-        "fabric-1.19.2" = _M29YFYzS;
-        "fabric-1.19.3" = _fswkrWil;
-        "fabric-1.19.4" = _UO6Hmzl6;
-        "fabric-1.20.4" = _ts0VHfGd;
+        "KGQwcA1Q" = _KGQwcA1Q;
+        "DV9kl5g2" = _DV9kl5g2;
+        "rX1OoDz4" = _rX1OoDz4;
+        "TU4yHaHb" = _TU4yHaHb;
+        "8CgFazdz" = _8CgFazdz;
+        "FjT1db5p" = _FjT1db5p;
+        "Yg5OU9t8" = _Yg5OU9t8;
+        "G1O96vGl" = _G1O96vGl;
+        "PniqIynY" = _PniqIynY;
+        "lqMFuNMy" = _lqMFuNMy;
+        "PXdiwhIS" = _PXdiwhIS;
+        "JVflpWVI" = _JVflpWVI;
+        "M0ehq9S3" = _M0ehq9S3;
+        "ZVc6Fr7G" = _ZVc6Fr7G;
+        "47YkPiXO" = _47YkPiXO;
+        "51MRRFy2" = _51MRRFy2;
+        "Q1aJOEyO" = _Q1aJOEyO;
+        "EorkPBGp" = _EorkPBGp;
+        "dVaGid2C" = _dVaGid2C;
+        "A4dqA9a9" = _A4dqA9a9;
+        "forge-1.20.1" = _EorkPBGp;
+        "forge-1.18.2" = _JVflpWVI;
+        "forge-1.19.2" = _ZVc6Fr7G;
+        "forge-1.19.3" = _FjT1db5p;
+        "forge-1.19.4" = _51MRRFy2;
+        "forge-1.20.4" = _A4dqA9a9;
+        "fabric-1.20.1" = _Q1aJOEyO;
+        "fabric-1.18.2" = _PXdiwhIS;
+        "fabric-1.19.2" = _M0ehq9S3;
+        "fabric-1.19.3" = _8CgFazdz;
+        "fabric-1.19.4" = _47YkPiXO;
+        "fabric-1.20.4" = _dVaGid2C;
         "pkg-0.1.1" = _XlHCi8el;
         "pkg-0.1.3" = _k4B0FAfr;
         "pkg-0.4.2" = _3JtbbPZq;
@@ -1167,7 +1287,27 @@ let
         "pkg-MTR4+1.1.2+forge.1.20.1" = _ok0L5CUL;
         "pkg-MTR4+1.1.2+fabric.1.20.4" = _ts0VHfGd;
         "pkg-MTR4+1.1.2+forge.1.20.4" = _zmFjNagG;
-        "default" = _zmFjNagG;
+        "pkg-MTR3+1.2.0+fabric.1.18.2" = _KGQwcA1Q;
+        "pkg-MTR3+1.2.0+forge.1.18.2" = _DV9kl5g2;
+        "pkg-MTR3+1.2.0+fabric.1.19.2" = _rX1OoDz4;
+        "pkg-MTR3+1.2.0+forge.1.19.2" = _TU4yHaHb;
+        "pkg-MTR3+1.2.0+fabric.1.19.3" = _8CgFazdz;
+        "pkg-MTR3+1.2.0+forge.1.19.3" = _FjT1db5p;
+        "pkg-MTR3+1.2.0+fabric.1.19.4" = _Yg5OU9t8;
+        "pkg-MTR3+1.2.0+forge.1.19.4" = _G1O96vGl;
+        "pkg-MTR3+1.2.0+fabric.1.20.1" = _PniqIynY;
+        "pkg-MTR3+1.2.0+forge.1.20.1" = _lqMFuNMy;
+        "pkg-MTR4+1.2.0+fabric.1.18.2" = _PXdiwhIS;
+        "pkg-MTR4+1.2.0+forge.1.18.2" = _JVflpWVI;
+        "pkg-MTR4+1.2.0+fabric.1.19.2" = _M0ehq9S3;
+        "pkg-MTR4+1.2.0+forge.1.19.2" = _ZVc6Fr7G;
+        "pkg-MTR4+1.2.0+fabric.1.19.4" = _47YkPiXO;
+        "pkg-MTR4+1.2.0+forge.1.19.4" = _51MRRFy2;
+        "pkg-MTR4+1.2.0+fabric.1.20.1" = _Q1aJOEyO;
+        "pkg-MTR4+1.2.0+forge.1.20.1" = _EorkPBGp;
+        "pkg-MTR4+1.2.0+fabric.1.20.4" = _dVaGid2C;
+        "pkg-MTR4+1.2.0+forge.1.20.4" = _A4dqA9a9;
+        "default" = _A4dqA9a9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fangsu-mtr-addon";

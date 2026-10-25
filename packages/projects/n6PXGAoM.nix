@@ -1306,6 +1306,16 @@ let
             "file" = "betterstats-5.7.0+fn-26.3.jar";
             "hash" = "sha512-sK2iIYJ3J4Ta50h9Gacl69MR7/KP6ZgSyBNzdZOnv/mg0RoF4unyWHNnZaNBNEqUrlp3q+NmWhUAtTVIApcouw==";
         };
+        _L2K41Cw5 = {
+            "id" = "L2K41Cw5";
+            "file" = "betterstats-3.13.9+neoforge-1.21.1-rev.1.jar";
+            "hash" = "sha512-HNNh8hfcItGyfvy4Bv8yPDK6FaJJ3J43jHeSJlKZ6HYclnNMiFcn6fvaDtFM5dhtx1oZwUUABHlcPthARccPXA==";
+        };
+        _GSF3fkG9 = {
+            "id" = "GSF3fkG9";
+            "file" = "betterstats-5.8.0+fn-26.3.jar";
+            "hash" = "sha512-9DUsJ/PGDgvZPV87t6stcHgWQzKTP+HQPOxOi3lcxIRFj75GUe2hCq3oncICJr6vJ9k12JGz8+ZI/AfkT+5oqw==";
+        };
     in {
         "EnelgdHp" = _EnelgdHp;
         "Fk8W9xAv" = _Fk8W9xAv;
@@ -1568,6 +1578,8 @@ let
         "RSAHmixS" = _RSAHmixS;
         "3AMagEMz" = _3AMagEMz;
         "Mefnti0P" = _Mefnti0P;
+        "L2K41Cw5" = _L2K41Cw5;
+        "GSF3fkG9" = _GSF3fkG9;
         "fabric-1.18.1" = _WajeE658;
         "fabric-1.18.2" = _I0YaiUKC;
         "fabric-1.19" = _H4ve3iC9;
@@ -1601,7 +1613,7 @@ let
         "fabric-26w14a" = _LqOH9k7B;
         "fabric-26.1.2" = _LqOH9k7B;
         "fabric-26.2" = _ga3HGfK0;
-        "fabric-26.3" = _Mefnti0P;
+        "fabric-26.3" = _GSF3fkG9;
         "forge-1.18.2" = _RM7Dy7vu;
         "forge-1.19.2" = _9PPcvO4i;
         "quilt-1.20" = _L2ERNR7d;
@@ -1631,8 +1643,8 @@ let
         "neoforge-26w14a" = _LqOH9k7B;
         "neoforge-26.1.2" = _LqOH9k7B;
         "neoforge-26.2" = _ga3HGfK0;
-        "neoforge-26.3" = _Mefnti0P;
-        "neoforge-1.21.1" = _3AMagEMz;
+        "neoforge-26.3" = _GSF3fkG9;
+        "neoforge-1.21.1" = _L2K41Cw5;
         "pkg-v1.0" = _EnelgdHp;
         "pkg-v1.0b" = _Fk8W9xAv;
         "pkg-v1.0.1" = _8RhZhQYw;
@@ -1892,7 +1904,9 @@ let
         "pkg-5.6.0+fn-26.3" = _RSAHmixS;
         "pkg-3.13.9+neoforge-1.21.1" = _3AMagEMz;
         "pkg-5.7.0+fn-26.3" = _Mefnti0P;
-        "default" = _Mefnti0P;
+        "pkg-3.13.9+neoforge-1.21.1-rev.1" = _L2K41Cw5;
+        "pkg-5.8.0+fn-26.3" = _GSF3fkG9;
+        "default" = _GSF3fkG9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-stats";

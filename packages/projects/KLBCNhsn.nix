@@ -361,6 +361,16 @@ let
             "file" = "jojo-stone-block-crusaders-4.1.jar";
             "hash" = "sha512-lBXy+fpb+i0cVwhcEIrzTa/cyfcempcWh3AjQ5chKpyspMWB1wxXDqACmFvQgdgr9hrB6C+YGTG21wpprJcesg==";
         };
+        _W0KxktUQ = {
+            "id" = "W0KxktUQ";
+            "file" = "jjba - stone block crusader.zip";
+            "hash" = "sha512-3LdWmheh+Zqbcpa4LO2GWTsGO8O9HTXjAmeSrpvM+ZDaZv5FBv6lftqsS7s/DM0DpQMxTa36/muMM/vFQXEAPA==";
+        };
+        _4ZIl0aVp = {
+            "id" = "4ZIl0aVp";
+            "file" = "jojo-stone-block-crusaders-4.3.jar";
+            "hash" = "sha512-KQ4M+U4S4YE4wyTw/DbB9ywz57Gx0lsC2Px0QQE/SzpKc1dAxF/mlcivkZbjK3SIisawLeVNGDyAfU39AGoKmw==";
+        };
     in {
         "410QTbrl" = _410QTbrl;
         "j93xmKLe" = _j93xmKLe;
@@ -434,11 +444,13 @@ let
         "AOnUO4rk" = _AOnUO4rk;
         "eUjfqEDR" = _eUjfqEDR;
         "hpYBdCg3" = _hpYBdCg3;
-        "datapack-1.21.11" = _eUjfqEDR;
-        "fabric-1.21.11" = _hpYBdCg3;
-        "forge-1.21.11" = _hpYBdCg3;
-        "neoforge-1.21.11" = _hpYBdCg3;
-        "quilt-1.21.11" = _hpYBdCg3;
+        "W0KxktUQ" = _W0KxktUQ;
+        "4ZIl0aVp" = _4ZIl0aVp;
+        "datapack-1.21.11" = _W0KxktUQ;
+        "fabric-1.21.11" = _4ZIl0aVp;
+        "forge-1.21.11" = _4ZIl0aVp;
+        "neoforge-1.21.11" = _4ZIl0aVp;
+        "quilt-1.21.11" = _4ZIl0aVp;
         "pkg-0.1" = _j93xmKLe;
         "pkg-0.2" = _2DuEOX1q;
         "pkg-0.3" = _8uwXWAiI;
@@ -502,7 +514,9 @@ let
         "pkg-4.0+mod" = _AOnUO4rk;
         "pkg-4.1" = _eUjfqEDR;
         "pkg-4.1+mod" = _hpYBdCg3;
-        "default" = _hpYBdCg3;
+        "pkg-4.3" = _W0KxktUQ;
+        "pkg-4.3+mod" = _4ZIl0aVp;
+        "default" = _4ZIl0aVp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jojo-stone-block-crusaders";

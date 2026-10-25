@@ -111,6 +111,21 @@ let
             "file" = "3d_placeable_food-3.1.0-forge-26.1.2.jar";
             "hash" = "sha512-jQezF90Hq8NX8hwgkt72fY4IY0FOuMDj7QfMDNHCY6oonuhy8lS+bfAtm0kZ6fj1yp+3cWNQr7+4EffhiUHtgA==";
         };
+        _RRYA6HjI = {
+            "id" = "RRYA6HjI";
+            "file" = "3d_placeable_food-3.0.2-fabric-26.2-26.3.jar";
+            "hash" = "sha512-OXeHwCrwE9KAP7+p+84tqhqSJw0cKE8UcAZr6IpHgxdS9BSH6sro4uhkJlJOdvLItyfIXAoGXHuOgoWWsmjt+A==";
+        };
+        _THc0vl6X = {
+            "id" = "THc0vl6X";
+            "file" = "3d_placeable_food-3.1.0-neoforge-26.2-26.3.jar";
+            "hash" = "sha512-hafmNObLdnpeZ8N0AqyV3mQxjcZgWdEKRu+DDekvAtSjTX0kRg96Df6e/AKd343PKL/VvjN6dosUie4NMUfSbw==";
+        };
+        _Bhh3GE9j = {
+            "id" = "Bhh3GE9j";
+            "file" = "3d_placeable_food-3.1.0-forge-26.2-26.3.jar";
+            "hash" = "sha512-LiPLMoomGkgzu7SzOUSsvYnUXQ3k2pUecFMMteuQVc9LC3l34o0/GTyVf5YCdwZNmFRY1o1MF9TO7kEZ65isNA==";
+        };
     in {
         "Vl47OGYN" = _Vl47OGYN;
         "gm07771X" = _gm07771X;
@@ -134,6 +149,9 @@ let
         "88dxtIBy" = _88dxtIBy;
         "9KmAdiei" = _9KmAdiei;
         "AqDzHHVS" = _AqDzHHVS;
+        "RRYA6HjI" = _RRYA6HjI;
+        "THc0vl6X" = _THc0vl6X;
+        "Bhh3GE9j" = _Bhh3GE9j;
         "forge-1.16.5" = _Vl47OGYN;
         "forge-1.18.2" = _gm07771X;
         "forge-1.19.2" = _OnKV47mz;
@@ -147,6 +165,8 @@ let
         "forge-1.21.10" = _OMUyb4Dj;
         "forge-1.21.11" = _8j7tivON;
         "forge-26.1.2" = _AqDzHHVS;
+        "forge-26.2" = _Bhh3GE9j;
+        "forge-26.3" = _Bhh3GE9j;
         "fabric-1.19.2" = _Dn9BYJTs;
         "fabric-1.20.1" = _ogHC3NaV;
         "fabric-1.21" = _F9DGEOfs;
@@ -158,6 +178,8 @@ let
         "fabric-1.21.10" = _bsO1q4UJ;
         "fabric-1.21.11" = _HJG8eqim;
         "fabric-26.1.2" = _88dxtIBy;
+        "fabric-26.2" = _RRYA6HjI;
+        "fabric-26.3" = _RRYA6HjI;
         "neoforge-1.21.1" = _E9Uai99v;
         "neoforge-1.21.5" = _ECiJV3IY;
         "neoforge-1.21.6" = _ECiJV3IY;
@@ -167,6 +189,8 @@ let
         "neoforge-1.21.10" = _XNVUyl72;
         "neoforge-1.21.11" = _OEAvzsZP;
         "neoforge-26.1.2" = _9KmAdiei;
+        "neoforge-26.2" = _THc0vl6X;
+        "neoforge-26.3" = _THc0vl6X;
         "pkg-1.1.5" = _Vl47OGYN;
         "pkg-1.1.4" = _gm07771X;
         "pkg-1.1.1" = _OnKV47mz;
@@ -178,9 +202,9 @@ let
         "pkg-2.0.0" = _F9DGEOfs;
         "pkg-3.0.0" = _bsO1q4UJ;
         "pkg-3.0.1" = _8j7tivON;
-        "pkg-3.0.2" = _88dxtIBy;
-        "pkg-3.1.0" = _AqDzHHVS;
-        "default" = _AqDzHHVS;
+        "pkg-3.0.2" = _RRYA6HjI;
+        "pkg-3.1.0" = _Bhh3GE9j;
+        "default" = _Bhh3GE9j;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "3d-placeable-food";

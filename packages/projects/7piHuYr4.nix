@@ -36,6 +36,16 @@ let
             "file" = "phantom_remover-1.0.1-neoforge-26.1.2.jar";
             "hash" = "sha512-5lX4643cG3HiLOJU0OLybno5xuUkBSqHS0x3BIN2r3eFlNBAa8RqdLDEYT2IUFYzmehO1faK7QYitJ9K5zXtVg==";
         };
+        _gglYnRmZ = {
+            "id" = "gglYnRmZ";
+            "file" = "phantom-remover-26.3-1.0.1.jar";
+            "hash" = "sha512-xn+tBT24ClKLq9DEonc9VsMFx8hk+qM/2t47LNh8YxOg/0QWcbgMHXefgXPCnqi/SS/jwV6mSkhWr5ThYdjkjQ==";
+        };
+        _pkcojyun = {
+            "id" = "pkcojyun";
+            "file" = "phantom-remover-26.3-1.0.1.jar";
+            "hash" = "sha512-3K/rAdI6CN+rJTdbjCTaEcqtWW4hsfg38mPq6GfeCzUPxEPZDpH4iX3mrwqV1j/gJGFfO+uFL/Jmox+671kfGA==";
+        };
     in {
         "FkHqNbfY" = _FkHqNbfY;
         "G9COyun7" = _G9COyun7;
@@ -44,6 +54,8 @@ let
         "LRRQEOTM" = _LRRQEOTM;
         "i8ooXfdx" = _i8ooXfdx;
         "2Tf89AZp" = _2Tf89AZp;
+        "gglYnRmZ" = _gglYnRmZ;
+        "pkcojyun" = _pkcojyun;
         "forge-1.20.1" = _FkHqNbfY;
         "neoforge-1.20.4" = _G9COyun7;
         "neoforge-1.21.1" = _tpDAWo8w;
@@ -51,8 +63,10 @@ let
         "neoforge-1.21.5" = _LRRQEOTM;
         "neoforge-1.21.8" = _i8ooXfdx;
         "neoforge-26.1.2" = _2Tf89AZp;
-        "pkg-1.0.1" = _2Tf89AZp;
-        "default" = _2Tf89AZp;
+        "neoforge-26.3" = _gglYnRmZ;
+        "fabric-26.3" = _pkcojyun;
+        "pkg-1.0.1" = _pkcojyun;
+        "default" = _pkcojyun;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "phantom-remover";

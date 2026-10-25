@@ -111,6 +111,21 @@ let
             "file" = "spearcore-1.20.1-forge-3.1.0.jar";
             "hash" = "sha512-h9GI2aMOFaBxCR1sJsPJuyGIGhS4ET9r9bQN1f0JdxkuU6dJ/SfiuDB1+eugbdZ5VLukkocYADCTxEvFc3v7Sg==";
         };
+        _pZTv4sFS = {
+            "id" = "pZTv4sFS";
+            "file" = "spearcore-1.20.1-forge-3.2.0.jar";
+            "hash" = "sha512-+XN0hDPucbAn0G/2Gi9f+g+YbZv70jI16JCo0n1k4+QDsP4y/5ktLhhea90CsITSFCW3SwIvJSJ4M9/auUvt3g==";
+        };
+        _8GwgxvNo = {
+            "id" = "8GwgxvNo";
+            "file" = "spearcore-1.21.1-neo-3.2.0.jar";
+            "hash" = "sha512-zt+ca17bQ+8vH7RLa6l/ttrrOBD+AbvTj2ltj9u9pOH/rHIuy7sgTueGoKvZKtjEPBWDLNq7eD9ilP5xrKskTw==";
+        };
+        _szMqxP3n = {
+            "id" = "szMqxP3n";
+            "file" = "spearcore-1.20.1-forge-3.2.0hotfix.jar";
+            "hash" = "sha512-ZYBcrdM6PjOiDWeLz1IRoUBn0ptyPdxz9p2ZcoX5rdGnU52sq8deJAIQty0P49abiq4GIVlt/wSXARz9jhiciw==";
+        };
     in {
         "XKgNFzEv" = _XKgNFzEv;
         "Nk8Aj7TN" = _Nk8Aj7TN;
@@ -134,8 +149,11 @@ let
         "yqgRboZ3" = _yqgRboZ3;
         "xY1JShfy" = _xY1JShfy;
         "a7CYJ826" = _a7CYJ826;
-        "neoforge-1.21.1" = _xY1JShfy;
-        "forge-1.20.1" = _a7CYJ826;
+        "pZTv4sFS" = _pZTv4sFS;
+        "8GwgxvNo" = _8GwgxvNo;
+        "szMqxP3n" = _szMqxP3n;
+        "neoforge-1.21.1" = _8GwgxvNo;
+        "forge-1.20.1" = _szMqxP3n;
         "pkg-1.0.0" = _XKgNFzEv;
         "pkg-1.1.0" = _Nk8Aj7TN;
         "pkg-1.2.0" = _9hMYuK9b;
@@ -156,7 +174,9 @@ let
         "pkg-3.0.2" = _VACE3YyE;
         "pkg-3.0.3" = _yqgRboZ3;
         "pkg-3.1.0" = _a7CYJ826;
-        "default" = _a7CYJ826;
+        "pkg-3.2.0" = _8GwgxvNo;
+        "pkg-3.2.0hotfix" = _szMqxP3n;
+        "default" = _szMqxP3n;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spear-core";

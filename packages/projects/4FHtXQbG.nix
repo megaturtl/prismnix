@@ -61,6 +61,31 @@ let
             "file" = "biggerenderchest-26.2-0.1.1+mc26.2.jar";
             "hash" = "sha512-GqP/hEeD2wt9aS52HpB0iLljAMFUdH8kZtOUQNK0jq2obr3KFV0kSOaN8vlhksYjYDlK48FfkDPr0fyMpTeslg==";
         };
+        _zM9xvXlT = {
+            "id" = "zM9xvXlT";
+            "file" = "biggerenderchest-26.1.2-0.1.1+mc26.1.2.jar";
+            "hash" = "sha512-eCM3ib3sp8NEXHar3EfPPTgzBoSjZW69duZOUyvz+u7xQ+/PeDoSj9p+7GG9DqBVvJBemmAMOmiu/tri3NWMUA==";
+        };
+        _SSDWHiip = {
+            "id" = "SSDWHiip";
+            "file" = "biggerenderchest-1.21.1-0.1.1+mc1.21.1.jar";
+            "hash" = "sha512-EVWCQD91VxDX37GmCVFsGQlKgneviRLTYovqIAa5lTiB6EmbO0M3Q5es6AK1jVeXnugyYdOyLUipRM/RAmCsnQ==";
+        };
+        _oiqyDnEl = {
+            "id" = "oiqyDnEl";
+            "file" = "biggerenderchest-1.20.6-0.1.1+mc1.20.6.jar";
+            "hash" = "sha512-EdudzAx8tgEUwrcU7g5SuNXDH4HWmIupjoN4TYHmztTc+dwrRkkdELMl1M11QQSKZUwX6xNW8L13y2b0ys0Y6w==";
+        };
+        _qqZrjTnO = {
+            "id" = "qqZrjTnO";
+            "file" = "biggerenderchest-1.20.4-0.1.1+mc1.20.4.jar";
+            "hash" = "sha512-mwpGV97z+ebXs37ui5Flkum3BRfEtDH3Xue5BHNvGWQRMjSHB47K7WYf44DUMHb8HJL7XYJ3wnGYkipyOGziCA==";
+        };
+        _u6OWjJhg = {
+            "id" = "u6OWjJhg";
+            "file" = "biggerenderchest-1.20.1-0.1.1+mc1.20.1.jar";
+            "hash" = "sha512-ADiSCOHiFklMibAKmztRkUch/daB3Vigx9qKK0m7G6brGOYNS3PEpUQhhGMC0rE1xbZ4XdbdvOUbXA3iMpMWxA==";
+        };
     in {
         "HisEB7Sr" = _HisEB7Sr;
         "pSrsoA1f" = _pSrsoA1f;
@@ -74,27 +99,32 @@ let
         "x3a5paes" = _x3a5paes;
         "DfNqOIoc" = _DfNqOIoc;
         "NWkDpIsj" = _NWkDpIsj;
-        "fabric-1.21.1" = _HisEB7Sr;
-        "fabric-1.21.2" = _HisEB7Sr;
-        "fabric-1.21.3" = _HisEB7Sr;
-        "fabric-1.21.4" = _HisEB7Sr;
-        "fabric-1.21.5" = _HisEB7Sr;
-        "fabric-1.21.6" = _HisEB7Sr;
-        "fabric-1.21.7" = _HisEB7Sr;
-        "fabric-1.21.8" = _HisEB7Sr;
-        "fabric-1.21.9" = _HisEB7Sr;
-        "fabric-1.21.10" = _HisEB7Sr;
-        "fabric-1.21.11" = _HisEB7Sr;
-        "fabric-26.1" = _pSrsoA1f;
-        "fabric-26.1.1" = _pSrsoA1f;
-        "fabric-26.1.2" = _pSrsoA1f;
-        "fabric-1.20.5" = _OcgMBNK9;
-        "fabric-1.20.6" = _OcgMBNK9;
-        "fabric-1.20" = _KNHmJMZC;
-        "fabric-1.20.1" = _KNHmJMZC;
-        "fabric-1.20.2" = _KNHmJMZC;
-        "fabric-1.20.3" = _KNHmJMZC;
-        "fabric-1.20.4" = _KNHmJMZC;
+        "zM9xvXlT" = _zM9xvXlT;
+        "SSDWHiip" = _SSDWHiip;
+        "oiqyDnEl" = _oiqyDnEl;
+        "qqZrjTnO" = _qqZrjTnO;
+        "u6OWjJhg" = _u6OWjJhg;
+        "fabric-1.21.1" = _SSDWHiip;
+        "fabric-1.21.2" = _SSDWHiip;
+        "fabric-1.21.3" = _SSDWHiip;
+        "fabric-1.21.4" = _SSDWHiip;
+        "fabric-1.21.5" = _SSDWHiip;
+        "fabric-1.21.6" = _SSDWHiip;
+        "fabric-1.21.7" = _SSDWHiip;
+        "fabric-1.21.8" = _SSDWHiip;
+        "fabric-1.21.9" = _SSDWHiip;
+        "fabric-1.21.10" = _SSDWHiip;
+        "fabric-1.21.11" = _SSDWHiip;
+        "fabric-26.1" = _zM9xvXlT;
+        "fabric-26.1.1" = _zM9xvXlT;
+        "fabric-26.1.2" = _zM9xvXlT;
+        "fabric-1.20.5" = _oiqyDnEl;
+        "fabric-1.20.6" = _oiqyDnEl;
+        "fabric-1.20" = _u6OWjJhg;
+        "fabric-1.20.1" = _u6OWjJhg;
+        "fabric-1.20.2" = _qqZrjTnO;
+        "fabric-1.20.3" = _qqZrjTnO;
+        "fabric-1.20.4" = _qqZrjTnO;
         "fabric-1.19" = _FbjckTZx;
         "fabric-1.19.1" = _FbjckTZx;
         "fabric-1.19.2" = _FbjckTZx;
@@ -118,7 +148,12 @@ let
         "pkg-0.1.0+mc26.3" = _x3a5paes;
         "pkg-0.1.1+mc26.3" = _DfNqOIoc;
         "pkg-0.1.1+mc26.2" = _NWkDpIsj;
-        "default" = _NWkDpIsj;
+        "pkg-0.1.1+mc26.1.2" = _zM9xvXlT;
+        "pkg-0.1.1+mc1.21.1" = _SSDWHiip;
+        "pkg-0.1.1+mc1.20.6" = _oiqyDnEl;
+        "pkg-0.1.1+mc1.20.4" = _qqZrjTnO;
+        "pkg-0.1.1+mc1.20.1" = _u6OWjJhg;
+        "default" = _u6OWjJhg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bigger-ender-chest";

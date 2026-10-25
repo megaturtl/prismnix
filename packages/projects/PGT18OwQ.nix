@@ -61,6 +61,11 @@ let
             "file" = "small-netherite-beacons-1.0.2+26.2.X.jar";
             "hash" = "sha512-ob8ODB5YyrFMAavXUmwobK29KjZsC9kz4WiBm8B5WW3nJ09E0gsPXKwmErja+yDQe2u/4JNpw9WvGxOIkZzwgw==";
         };
+        _UWqtu5mX = {
+            "id" = "UWqtu5mX";
+            "file" = "small-netherite-beacons-1.0.2+26.3.X.jar";
+            "hash" = "sha512-D++tDMLpXauoZ66HnW+yH9GQvc/1BF0M8YCQoz/ugQZf06w8hLSnmep5whsT1mfeQxCCPD3omZESzuZbDtYBsw==";
+        };
     in {
         "9g63Mcj3" = _9g63Mcj3;
         "qc520qzv" = _qc520qzv;
@@ -74,6 +79,7 @@ let
         "zkTsZtMU" = _zkTsZtMU;
         "Hwc5dZTf" = _Hwc5dZTf;
         "sqX12DLI" = _sqX12DLI;
+        "UWqtu5mX" = _UWqtu5mX;
         "fabric-1.21.4" = _9g63Mcj3;
         "fabric-1.21.5" = _qc520qzv;
         "fabric-1.21.6" = _O5xmEKwE;
@@ -86,13 +92,15 @@ let
         "fabric-26.1.1" = _zkTsZtMU;
         "fabric-26.1.2" = _Hwc5dZTf;
         "fabric-26.2" = _sqX12DLI;
+        "fabric-26.3" = _UWqtu5mX;
         "pkg-1.0.2" = _2l1GxKXU;
         "pkg-1.0.2+1.21.11" = _T4ONWDra;
         "pkg-1.0.2+26.1" = _pRvMUO31;
         "pkg-1.0.2+26.1.1" = _zkTsZtMU;
         "pkg-1.0.2+26.1.X" = _Hwc5dZTf;
         "pkg-1.0.2+26.2.X" = _sqX12DLI;
-        "default" = _sqX12DLI;
+        "pkg-1.0.2+26.3.X" = _UWqtu5mX;
+        "default" = _UWqtu5mX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "small-netherite-beacons";

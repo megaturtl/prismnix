@@ -426,6 +426,26 @@ let
             "file" = "Platform-fabric-1.21.1-1.4.jar";
             "hash" = "sha512-BxMFHSn3Om9XPyMXnVCFKH94WJlvF0gzA1cSAmMsN/9e43JBrJW/QN4RG8vv0M6huYWWsMosgnP1mPAlPshseQ==";
         };
+        _nvZnBH8j = {
+            "id" = "nvZnBH8j";
+            "file" = "Platform-forge-1.20.1-1.4.1.jar";
+            "hash" = "sha512-ql3YqGdoqQk/irYhRwcb/JejzN2ufFQQagz9b/LshYDdBMuQZP/1SlMT/etuHPt0RW9VNi7G294yVgIb6eS8aQ==";
+        };
+        _PlpqPRDF = {
+            "id" = "PlpqPRDF";
+            "file" = "Platform-fabric-1.20.1-1.4.1.jar";
+            "hash" = "sha512-YaxugxN6ZhMI0iDlbh0zKEm7fW0fii3wN+RTvLQOERpg91haPKAyR03q5tSz/pvR1ONzkp5aBI3sKOEjObZuDA==";
+        };
+        _QHFLNdoG = {
+            "id" = "QHFLNdoG";
+            "file" = "Platform-neoforge-1.21.1-1.4.1.jar";
+            "hash" = "sha512-qN4lQxqijLu+9YtkjQJ12IC70ybf75yXR+Oiofwne+2r+oWPo2QKwPQ9SHCilGurIMHDEIpGOslTrYvs02rfuQ==";
+        };
+        _lCYBF5gk = {
+            "id" = "lCYBF5gk";
+            "file" = "Platform-fabric-1.21.1-1.4.1.jar";
+            "hash" = "sha512-ejDvoY4eJ+aHRrsrl8EpQT2sE+O7SxVUSt5NckzKD8J/KjbXk8m6plzrEnMVs7T/KNX+psxmRQoF7O8Csgq0iQ==";
+        };
     in {
         "pZ2CfWLR" = _pZ2CfWLR;
         "lCUXuH7l" = _lCUXuH7l;
@@ -512,16 +532,20 @@ let
         "ludrMJBy" = _ludrMJBy;
         "m6VuG10s" = _m6VuG10s;
         "ANBgWmzC" = _ANBgWmzC;
+        "nvZnBH8j" = _nvZnBH8j;
+        "PlpqPRDF" = _PlpqPRDF;
+        "QHFLNdoG" = _QHFLNdoG;
+        "lCYBF5gk" = _lCYBF5gk;
         "forge-1.16.5" = _5P8DRtBe;
         "forge-1.19.2" = _BV6W9AJn;
-        "forge-1.20.1" = _pnAJaOBr;
+        "forge-1.20.1" = _nvZnBH8j;
         "fabric-1.16.5" = _oCgdL86K;
         "fabric-1.19.2" = _SObSxyt2;
-        "fabric-1.20.1" = _ludrMJBy;
-        "fabric-1.21.1" = _ANBgWmzC;
+        "fabric-1.20.1" = _PlpqPRDF;
+        "fabric-1.21.1" = _lCYBF5gk;
         "neoforge-1.19.2" = _aETveCQR;
         "neoforge-1.20.1" = _cS1YqodR;
-        "neoforge-1.21.1" = _m6VuG10s;
+        "neoforge-1.21.1" = _QHFLNdoG;
         "quilt-1.19.2" = _sLhB9lnN;
         "quilt-1.20.1" = _cr7ZXq3u;
         "pkg-1.1.0" = _lCUXuH7l;
@@ -565,7 +589,8 @@ let
         "pkg-1.3.3" = _BbIdNbF1;
         "pkg-1.3.4" = _kM9ocKlu;
         "pkg-1.4" = _ANBgWmzC;
-        "default" = _ANBgWmzC;
+        "pkg-1.4.1" = _lCYBF5gk;
+        "default" = _lCYBF5gk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "platform";

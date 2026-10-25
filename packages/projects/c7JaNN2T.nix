@@ -561,6 +561,11 @@ let
             "file" = "builds_n_barrens-23.13-neoforge-1.21.1.jar";
             "hash" = "sha512-bm+bnYIt1NV5zc0c7qbFQERABb9InTx0FK2rwthk3D/SIe8d4g79SGnyJJnhnO1vC0u64wGoz1mH9KJzcraDfg==";
         };
+        _xTUYM66l = {
+            "id" = "xTUYM66l";
+            "file" = "builds_n_barrens-23.14-neoforge-1.21.1.jar";
+            "hash" = "sha512-W521EQEwCbQLOwKE0vAu+r6lR62LszqLQqM0H8AlNyL004WHWdyp68upYg5efVM8CiJDxKOxPxVq7sECcgWP1w==";
+        };
     in {
         "o5Kn0bRg" = _o5Kn0bRg;
         "ya68VEcS" = _ya68VEcS;
@@ -674,8 +679,9 @@ let
         "ZvWiQjGZ" = _ZvWiQjGZ;
         "bde2hc2R" = _bde2hc2R;
         "RJJWIPW7" = _RJJWIPW7;
+        "xTUYM66l" = _xTUYM66l;
         "neoforge-1.21.8" = _jsk5Dknf;
-        "neoforge-1.21.1" = _RJJWIPW7;
+        "neoforge-1.21.1" = _xTUYM66l;
         "pkg-1.b" = _o5Kn0bRg;
         "pkg-1.1.b" = _ya68VEcS;
         "pkg-1.2.b" = _k26xZF7D;
@@ -788,7 +794,8 @@ let
         "pkg-23.11" = _ZvWiQjGZ;
         "pkg-23.12" = _bde2hc2R;
         "pkg-23.13" = _RJJWIPW7;
-        "default" = _RJJWIPW7;
+        "pkg-23.14" = _xTUYM66l;
+        "default" = _xTUYM66l;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "buildsnbarrens";

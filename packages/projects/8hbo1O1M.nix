@@ -361,6 +361,16 @@ let
             "file" = "FlowerPatch-neoforge-26.1.2-14.1.0.jar";
             "hash" = "sha512-Trh9VktQdKSAPA+gfHRDb8EGS0dVzfb4OG32LamfMWBNOvy6b3CjW2GyDydzoj2DAdTAldNpeC8X3/LB2a6r2g==";
         };
+        _Pxnjjpuf = {
+            "id" = "Pxnjjpuf";
+            "file" = "FlowerPatch-fabric-26.1.2-14.1.1.jar";
+            "hash" = "sha512-7cPTT6MwmpFSP4h5FJI9aw/ZAZf//G94zKbkRX/SOUAT1wvg+yCXB2JrP39ypQGYYxbX7eTqVYvA1UVC8Jqcwg==";
+        };
+        _mQ22t3DU = {
+            "id" = "mQ22t3DU";
+            "file" = "FlowerPatch-neoforge-26.1.2-14.1.1.jar";
+            "hash" = "sha512-f7MMUCyfRHRyKUx0vV5bkdRaMHdxvTEr6zHV5TKWIowuJC4JsBpR1YIGc/iTcOXE7+R24A/zLnSxXQEvoQYjbQ==";
+        };
     in {
         "G5FbWORq" = _G5FbWORq;
         "NOPf9fHy" = _NOPf9fHy;
@@ -434,6 +444,8 @@ let
         "x94v3GU8" = _x94v3GU8;
         "Q61rdS0J" = _Q61rdS0J;
         "zspOVTZr" = _zspOVTZr;
+        "Pxnjjpuf" = _Pxnjjpuf;
+        "mQ22t3DU" = _mQ22t3DU;
         "forge-1.18.2" = _G5FbWORq;
         "forge-1.19" = _MLODzvxN;
         "forge-1.19.1" = _MLODzvxN;
@@ -464,7 +476,7 @@ let
         "fabric-26.1.1" = _8gY3NM1K;
         "fabric-26.2" = _b6QRqz5o;
         "fabric-26.3" = _peCboG0h;
-        "fabric-26.1.2" = _Q61rdS0J;
+        "fabric-26.1.2" = _Pxnjjpuf;
         "neoforge-1.20.2" = _mIgLBgBv;
         "neoforge-1.20.4" = _da9dwCjm;
         "neoforge-1.20.6" = _ppEvAPwl;
@@ -479,7 +491,7 @@ let
         "neoforge-26.1.1" = _o5tpMidv;
         "neoforge-26.2" = _GerYi7bk;
         "neoforge-26.3" = _x94v3GU8;
-        "neoforge-26.1.2" = _zspOVTZr;
+        "neoforge-26.1.2" = _mQ22t3DU;
         "pkg-1.0.0" = _cbjuDBLW;
         "pkg-1.2.0" = _dD8fNaSY;
         "pkg-1.3.0" = _KbpCJ9J4;
@@ -516,7 +528,8 @@ let
         "pkg-16.0.1" = _hOuPct9G;
         "pkg-16.0.2" = _x94v3GU8;
         "pkg-14.1.0" = _zspOVTZr;
-        "default" = _zspOVTZr;
+        "pkg-14.1.1" = _mQ22t3DU;
+        "default" = _mQ22t3DU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "flower-patch";

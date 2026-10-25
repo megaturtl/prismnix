@@ -21,17 +21,24 @@ let
             "file" = "Titanium_Rewrite-1.8.9-forge-V0.3.1.jar";
             "hash" = "sha512-P3nXx+18jJXtALqSjOd/tuHpJq5SKTfOShYaHKQIC1DQut110NQQIkyjdoufYWmIy46W0Z50+8Few23NkSh87Q==";
         };
+        _pg3G0OUI = {
+            "id" = "pg3G0OUI";
+            "file" = "titanium-V0.1+mc1.8.9.jar";
+            "hash" = "sha512-AHK/X84gwEIOlIJEwNdmkNbNEQyRXFNQ2S9+10k4PKmOKl/USSQ7DYlXBsRs+XFM6h1d+kGSZFOMZ96017NwcQ==";
+        };
     in {
         "aWw4OezK" = _aWw4OezK;
         "nasT0Or7" = _nasT0Or7;
         "96CF4pSh" = _96CF4pSh;
         "cCwy66ZE" = _cCwy66ZE;
+        "pg3G0OUI" = _pg3G0OUI;
         "forge-1.8.9" = _cCwy66ZE;
-        "pkg-V0.1" = _aWw4OezK;
+        "ornithe-1.8.9" = _pg3G0OUI;
+        "pkg-V0.1" = _pg3G0OUI;
         "pkg-V0.2" = _nasT0Or7;
         "pkg-V0.3" = _96CF4pSh;
         "pkg-V0.3.1" = _cCwy66ZE;
-        "default" = _cCwy66ZE;
+        "default" = _pg3G0OUI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "titaniumod";

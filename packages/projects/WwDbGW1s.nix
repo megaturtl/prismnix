@@ -131,6 +131,11 @@ let
             "file" = "cobblemon-armors-1.6.0+1.8.2.jar";
             "hash" = "sha512-qisRUp1VynBdUvVfz6VYFjfX5g8yGHUApeA/yU/q7JcWkx4dkSIXVQfCLNtyfX7oHEoujTIzTwAaqUis409hWw==";
         };
+        _Gy5532R0 = {
+            "id" = "Gy5532R0";
+            "file" = "cobblemon-armors-1.6.0+1.8.3.jar";
+            "hash" = "sha512-2OXuOx74DWCg/FtQZsZTknL+bKP8STJgVTRIlWvvsTm8+nB4E+5saLj4bHwiOncJ4M3VKG0207lCVzBuEAzqSg==";
+        };
     in {
         "qgKwudjO" = _qgKwudjO;
         "Pn5APjPT" = _Pn5APjPT;
@@ -158,13 +163,14 @@ let
         "Vvkvb4EF" = _Vvkvb4EF;
         "cmjDnQgO" = _cmjDnQgO;
         "bbuLGt1k" = _bbuLGt1k;
+        "Gy5532R0" = _Gy5532R0;
         "fabric-1.20.1" = _nHaVpDE4;
         "fabric-1.20.2" = _NbrzRT5o;
         "fabric-1.20.3" = _NbrzRT5o;
         "fabric-1.20.4" = _NbrzRT5o;
         "fabric-1.20.5" = _NbrzRT5o;
         "fabric-1.20.6" = _NbrzRT5o;
-        "fabric-1.21.1" = _bbuLGt1k;
+        "fabric-1.21.1" = _Gy5532R0;
         "pkg-1.0.0" = _qgKwudjO;
         "pkg-1.0.1" = _Pn5APjPT;
         "pkg-1.1.0" = _8wSYF5Aj;
@@ -191,7 +197,8 @@ let
         "pkg-1.6.0+1.8.0" = _Vvkvb4EF;
         "pkg-1.6.0+1.8.1" = _cmjDnQgO;
         "pkg-1.6.0+1.8.2" = _bbuLGt1k;
-        "default" = _bbuLGt1k;
+        "pkg-1.6.0+1.8.3" = _Gy5532R0;
+        "default" = _Gy5532R0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-armors";

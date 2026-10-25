@@ -216,6 +216,11 @@ let
             "file" = "class-artifacts-forge-2.2.0-Beta_10.jar";
             "hash" = "sha512-YjhvNGq8Y3y3txtWiO5QoOHlDb2n6C8uDg0o8qPS2n/Zl86G+1Vp10Zyz1Ai26e4Rc5+T67sgpWi7Il9HCJKCA==";
         };
+        _a8lU2O52 = {
+            "id" = "a8lU2O52";
+            "file" = "class-artifacts-forge-2.2.0-Beta_11.jar";
+            "hash" = "sha512-NoKKelPkF9EoQS+XXh+43BOli+asSjd5y768VvLd961vp0SZSEh+CMCJOQH6yLspQX1nqkYkHhc2AdXoNMy1ew==";
+        };
     in {
         "qL9zZe2h" = _qL9zZe2h;
         "hvabW3cE" = _hvabW3cE;
@@ -260,7 +265,8 @@ let
         "v6jrXY2L" = _v6jrXY2L;
         "TOGldIkt" = _TOGldIkt;
         "N35Actz7" = _N35Actz7;
-        "forge-1.20.1" = _N35Actz7;
+        "a8lU2O52" = _a8lU2O52;
+        "forge-1.20.1" = _a8lU2O52;
         "forge-1.20.2" = _rR277XnF;
         "forge-1.20.3" = _rR277XnF;
         "forge-1.20.4" = _rR277XnF;
@@ -303,8 +309,8 @@ let
         "pkg-2.1.7" = _5vhNnMxv;
         "pkg-2.1.8" = _staMFUi5;
         "pkg-2.1.9" = _ZJq9nF2n;
-        "pkg-2.2.0" = _N35Actz7;
-        "default" = _N35Actz7;
+        "pkg-2.2.0" = _a8lU2O52;
+        "default" = _a8lU2O52;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rpg-class-artifacts";

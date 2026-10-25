@@ -26,30 +26,44 @@ let
             "file" = "thearchivist-1.4.0.jar";
             "hash" = "sha512-qqQtlmvSGCouSs/Z+rGkLAuTa6puC5BUIIMluYoqzyRKehsMTEBiOvtUMUODczcS+c5JHhzRrne0bVEejX6XJQ==";
         };
+        _XxTGAHqu = {
+            "id" = "XxTGAHqu";
+            "file" = "thearchivist-1.5.0.jar";
+            "hash" = "sha512-WnGbWSlqRahYcWY7oigOKRTY6FGfjArdCc7NivY4VwNqSG9SKd4VUrplXIozByJr8yt5dpv0qF1J3jTedh+S6g==";
+        };
+        _UBIkXA2G = {
+            "id" = "UBIkXA2G";
+            "file" = "thearchivist-1.5.2.jar";
+            "hash" = "sha512-KEMX/JXsf259NGOnMzqZ7rSX2UoaxSUeRe8R0M6yBnWrut75K2dhOBhZ09fqDwwdSrSsnq+NPsOCMUbNEYQeFQ==";
+        };
     in {
         "nC8cutAU" = _nC8cutAU;
         "18TE6FLE" = _18TE6FLE;
         "QtNE18hi" = _QtNE18hi;
         "sjEkEyu9" = _sjEkEyu9;
         "mcZJVgOW" = _mcZJVgOW;
-        "fabric-1.21" = _mcZJVgOW;
-        "fabric-1.21.1" = _mcZJVgOW;
-        "fabric-1.21.2" = _mcZJVgOW;
-        "fabric-1.21.3" = _mcZJVgOW;
-        "fabric-1.21.4" = _mcZJVgOW;
-        "fabric-1.21.5" = _mcZJVgOW;
-        "fabric-1.21.6" = _mcZJVgOW;
-        "fabric-1.21.7" = _mcZJVgOW;
-        "fabric-1.21.8" = _mcZJVgOW;
-        "fabric-1.21.9" = _mcZJVgOW;
-        "fabric-1.21.10" = _mcZJVgOW;
-        "fabric-1.21.11" = _mcZJVgOW;
+        "XxTGAHqu" = _XxTGAHqu;
+        "UBIkXA2G" = _UBIkXA2G;
+        "fabric-1.21" = _UBIkXA2G;
+        "fabric-1.21.1" = _UBIkXA2G;
+        "fabric-1.21.2" = _UBIkXA2G;
+        "fabric-1.21.3" = _UBIkXA2G;
+        "fabric-1.21.4" = _UBIkXA2G;
+        "fabric-1.21.5" = _UBIkXA2G;
+        "fabric-1.21.6" = _UBIkXA2G;
+        "fabric-1.21.7" = _UBIkXA2G;
+        "fabric-1.21.8" = _UBIkXA2G;
+        "fabric-1.21.9" = _UBIkXA2G;
+        "fabric-1.21.10" = _UBIkXA2G;
+        "fabric-1.21.11" = _UBIkXA2G;
         "pkg-1.0.0" = _nC8cutAU;
         "pkg-1.1.0" = _18TE6FLE;
         "pkg-1.2.0" = _QtNE18hi;
         "pkg-1.3.0" = _sjEkEyu9;
         "pkg-1.4.0" = _mcZJVgOW;
-        "default" = _mcZJVgOW;
+        "pkg-1.5.0" = _XxTGAHqu;
+        "pkg-1.5.2" = _UBIkXA2G;
+        "default" = _UBIkXA2G;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-archivist";

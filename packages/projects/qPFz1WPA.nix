@@ -106,6 +106,26 @@ let
             "file" = "fancytrinkets-1.21-4.0.1.jar";
             "hash" = "sha512-k2uTGBm7jRnzs/0AxFeEXQTG1ntcPX//rw+bsRTXNlY7fUuTuhs9OQMOlZKCwb5J7zWVaSkBFhP/L1ZNYZRuNw==";
         };
+        _YkBWk4gU = {
+            "id" = "YkBWk4gU";
+            "file" = "fancytrinkets-26.2-5.0.0.jar";
+            "hash" = "sha512-U7xIQWt8tQss+hcs/Y+JyfIVdUL0MKB9oSjMSJ5a4K75g1Qtpz/3sOgSCCq5k54FE/zhbYEKyTd5JS8J60j5GA==";
+        };
+        _lEvLwvts = {
+            "id" = "lEvLwvts";
+            "file" = "fancytrinkets-fabric-26.2-5.0.0-fabric.jar";
+            "hash" = "sha512-IYhHWHYSoYjIYx6KMvQ2qTWLI87aEUIlic7w2sE3bVs2xobBvUPo3/OdxAKuaopywG0SONeC7QI4Td5sagRcyA==";
+        };
+        _xkdMxeSJ = {
+            "id" = "xkdMxeSJ";
+            "file" = "fancytrinkets-26.3-6.0.0.jar";
+            "hash" = "sha512-fhq9qjXZa1DdX6NsoS9+68UX8FFQpU6wLbVZjTI90jn3fLAm2G4iB4rJGu8pf2+qgYssgp6BgowhetT0vGCEng==";
+        };
+        _qu8gMVJe = {
+            "id" = "qu8gMVJe";
+            "file" = "fancytrinkets-fabric-26.3-6.0.0-fabric.jar";
+            "hash" = "sha512-s6tBDYCKoVCCqbEnwoySk02j2JBKK0WpggNEFuRbwW8C8Ip1l7rIXR/vzHo5Z6NVNp/lPytt/pO8S3GDGHuDzA==";
+        };
     in {
         "RIRFmVDX" = _RIRFmVDX;
         "wDVY99Va" = _wDVY99Va;
@@ -128,12 +148,20 @@ let
         "ww8K7tDE" = _ww8K7tDE;
         "kOuy1d86" = _kOuy1d86;
         "gRZumyq6" = _gRZumyq6;
+        "YkBWk4gU" = _YkBWk4gU;
+        "lEvLwvts" = _lEvLwvts;
+        "xkdMxeSJ" = _xkdMxeSJ;
+        "qu8gMVJe" = _qu8gMVJe;
         "forge-1.18.2" = _u6jeV1TS;
         "forge-1.19.2" = _dL9lH0Nk;
         "forge-1.19.3" = _dL9lH0Nk;
         "forge-1.19.4" = _dL9lH0Nk;
         "forge-1.20.1" = _kOuy1d86;
         "neoforge-1.21.1" = _gRZumyq6;
+        "neoforge-26.2" = _YkBWk4gU;
+        "neoforge-26.3" = _xkdMxeSJ;
+        "fabric-26.2" = _lEvLwvts;
+        "fabric-26.3" = _qu8gMVJe;
         "pkg-1.18-1.0.0" = _RIRFmVDX;
         "pkg-1.19-2.0.0" = _wDVY99Va;
         "pkg-1.19-2.0.1" = _2Ip4flLR;
@@ -154,7 +182,11 @@ let
         "pkg-1.21-4.0.0" = _L5GUixuR;
         "pkg-1.20-3.0.6" = _kOuy1d86;
         "pkg-1.21-4.0.1" = _gRZumyq6;
-        "default" = _gRZumyq6;
+        "pkg-26.2-5.0.0" = _YkBWk4gU;
+        "pkg-26.2-5.0.0-fabric" = _lEvLwvts;
+        "pkg-26.3-6.0.0" = _xkdMxeSJ;
+        "pkg-26.3-6.0.0-fabric" = _qu8gMVJe;
+        "default" = _qu8gMVJe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fancy-trinkets";

@@ -16,16 +16,23 @@ let
             "file" = "ABB-SGP.zip";
             "hash" = "sha512-93XEcTkO9/09nQViuSjEr3DZsiU7Md721HNwlwKtfG29nfOIdAv8nlW2fXa+sNXfWuQxvqt90SGrRlGJvCHpkg==";
         };
+        _BeY4NTxg = {
+            "id" = "BeY4NTxg";
+            "file" = "ABB-SGP.zip";
+            "hash" = "sha512-klbTwt2RrpHf2mbc9/T1hNJ7RclBU9OLiwqXukjvFCKZD5RDms1HIO31bdLFK2VEc04spqcRuANAbrX9A2uYWw==";
+        };
     in {
         "IlRVcXQJ" = _IlRVcXQJ;
         "IfZVerwS" = _IfZVerwS;
         "maDw6ZQ3" = _maDw6ZQ3;
-        "minecraft-1.20.1" = _maDw6ZQ3;
-        "minecraft-1.20.4" = _maDw6ZQ3;
+        "BeY4NTxg" = _BeY4NTxg;
+        "minecraft-1.20.1" = _BeY4NTxg;
+        "minecraft-1.20.4" = _BeY4NTxg;
         "pkg-0.1" = _IlRVcXQJ;
         "pkg-0.2" = _IfZVerwS;
         "pkg-1.0" = _maDw6ZQ3;
-        "default" = _maDw6ZQ3;
+        "pkg-1.1" = _BeY4NTxg;
+        "default" = _BeY4NTxg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "abb-sgp-for-mtr4";

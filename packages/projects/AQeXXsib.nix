@@ -46,6 +46,11 @@ let
             "file" = "HTLib-1.20.1-1.2.0.jar";
             "hash" = "sha512-GhQWN84g0VSrmdN0qK8WJlHFIVs7d/fP4D7nCa5OgXM2GjgYJsBLry2rkbjzBHTaR/JIhy9PtNaXWAQx0qADbw==";
         };
+        _JMxQCi53 = {
+            "id" = "JMxQCi53";
+            "file" = "HTLib-1.20.1-1.3.0.jar";
+            "hash" = "sha512-HCfwdn2sB3cBsdEdD9qA/UtATIUqA8TbUmU6pMeS/Rw0FlK9aELXM5azlNftsMI6IR+q9r2qJYlwmDef3giOiA==";
+        };
     in {
         "pEE0xNlM" = _pEE0xNlM;
         "Fqwyv4De" = _Fqwyv4De;
@@ -56,10 +61,11 @@ let
         "BSfjOFEg" = _BSfjOFEg;
         "a3SeKb8M" = _a3SeKb8M;
         "sJVSVeav" = _sJVSVeav;
+        "JMxQCi53" = _JMxQCi53;
         "forge-1.19.2" = _Fqwyv4De;
         "forge-1.19.3" = _8dHqWOvz;
         "forge-1.19.4" = _2kwJ8N9p;
-        "forge-1.20.1" = _sJVSVeav;
+        "forge-1.20.1" = _JMxQCi53;
         "forge-1.20.2" = _sJVSVeav;
         "forge-1.21.1" = _BSfjOFEg;
         "neoforge-1.21.1" = _UOUuFRoh;
@@ -71,7 +77,8 @@ let
         "pkg-1.0.0" = _TmBsdJCJ;
         "pkg-1.1.0" = _a3SeKb8M;
         "pkg-1.2.0" = _sJVSVeav;
-        "default" = _sJVSVeav;
+        "pkg-1.3.0" = _JMxQCi53;
+        "default" = _JMxQCi53;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pangteens-lib";

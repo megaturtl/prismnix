@@ -91,6 +91,16 @@ let
             "file" = "exposure-space-fabric-1.3.0.jar";
             "hash" = "sha512-lwIwTNtg8dkSRfIVHUFCvlj9w5os1e5I4olgEYQVV/OFaN5FfVAOXKxyHJek/EYv/J6PHzOtydhU5s7gXkYsnw==";
         };
+        _lJjz54hX = {
+            "id" = "lJjz54hX";
+            "file" = "exposure-space-neoforge-1.4.0.jar";
+            "hash" = "sha512-gUgrH7RXtSf+LcMlu7ZT+3G2BL6lpW9043k93zCrhxHZVM7vlh/38sPxcPW+3yHKHvHC6ZSsRjY4gNAcxIByqg==";
+        };
+        _kIyGiVYK = {
+            "id" = "kIyGiVYK";
+            "file" = "exposure-space-fabric-1.4.0.jar";
+            "hash" = "sha512-FpbAjhg7utvURzr8oTy2YQlZThXpliziYO6O/JnuRR6XxwCqXSfnSXH0NteMQ1s53XKv9TCbRaqEyKLFZhZc6A==";
+        };
     in {
         "XHZxEPZF" = _XHZxEPZF;
         "aQ2rjugi" = _aQ2rjugi;
@@ -110,8 +120,10 @@ let
         "wlyMdoGS" = _wlyMdoGS;
         "1D6nSN9B" = _1D6nSN9B;
         "OurinBTB" = _OurinBTB;
-        "fabric-1.21.1" = _OurinBTB;
-        "neoforge-1.21.1" = _1D6nSN9B;
+        "lJjz54hX" = _lJjz54hX;
+        "kIyGiVYK" = _kIyGiVYK;
+        "fabric-1.21.1" = _kIyGiVYK;
+        "neoforge-1.21.1" = _lJjz54hX;
         "pkg-1.0.0" = _XHZxEPZF;
         "pkg-1.0.1" = _XA79tO1e;
         "pkg-1.0.15" = _dQc9aFKv;
@@ -122,7 +134,8 @@ let
         "pkg-1.2.7" = _SdaNSzQP;
         "pkg-1.2.8" = _wlyMdoGS;
         "pkg-1.3.0" = _OurinBTB;
-        "default" = _OurinBTB;
+        "pkg-1.4.0" = _kIyGiVYK;
+        "default" = _kIyGiVYK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "exposure-space";

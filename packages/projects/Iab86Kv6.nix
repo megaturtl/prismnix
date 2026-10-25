@@ -41,6 +41,26 @@ let
             "file" = "ls_spooky_foods-1.0.3-neoforge-26.1.2.jar";
             "hash" = "sha512-rTkfCKDw1NGOjGcOMcMJwbjLdETul07Mm5HYEH0tFa2h8Kitlq+zEOS1NqVel3QKR91UU7PZu+MCUBMLlbfsPw==";
         };
+        _VHi3xkJK = {
+            "id" = "VHi3xkJK";
+            "file" = "ls_spooky_foods-1.0.3-neoforge-26.3.jar";
+            "hash" = "sha512-Rs4HipqD3pHSRWfgHvqqUSq/CjaHkEGtAyGlAwFaAj9UtwN5CbQi0h1OqNTB7s5gOTSspEE+GUWBlvzaV/h9Bg==";
+        };
+        _KRly6lod = {
+            "id" = "KRly6lod";
+            "file" = "ls_spooky_foods-1.0.0 Fabric 1.20.1.jar";
+            "hash" = "sha512-OEqRIUZrvxYNCcby11Ec2Xd+CmK+myGGomL1SkMTP9azwFdZCBD2G3qcTU4NYRvidv+4BdJv6S9Uao76zt40fA==";
+        };
+        _wyjI1kol = {
+            "id" = "wyjI1kol";
+            "file" = "ls_spooky_foods-1.0.0 Fabric 1.21.1.jar";
+            "hash" = "sha512-Uc7T9P7j1fldnD+FaZUeX00QSv4lRyR2YjnBjJSfwMKug3vPVHA6UBc1CJ0GnaVcDbMjkacXA6AA4HFywom/QQ==";
+        };
+        _DKQucg4O = {
+            "id" = "DKQucg4O";
+            "file" = "ls_spooky_foods-1.0.0 Fabric 26.3.jar";
+            "hash" = "sha512-ski3PV39jTmykg16eJVUvPI70z0oer3hwltNd/7PKSgqhkgSbioB5CmdNQ9tqgZp8IRbay4QCHYAIeBbeVRAVQ==";
+        };
     in {
         "kXjz4E7B" = _kXjz4E7B;
         "gdzp3svd" = _gdzp3svd;
@@ -50,16 +70,24 @@ let
         "SWh2235x" = _SWh2235x;
         "u0npLKJa" = _u0npLKJa;
         "j3LfEo9I" = _j3LfEo9I;
+        "VHi3xkJK" = _VHi3xkJK;
+        "KRly6lod" = _KRly6lod;
+        "wyjI1kol" = _wyjI1kol;
+        "DKQucg4O" = _DKQucg4O;
         "forge-1.20.1" = _O6KfE5sf;
         "neoforge-1.21.1" = _itOwVIxu;
         "neoforge-1.21.4" = _cxu8BVCr;
         "neoforge-1.21.8" = _SWh2235x;
         "neoforge-26.1.2" = _j3LfEo9I;
+        "neoforge-26.3" = _VHi3xkJK;
         "fabric-1.21.8" = _u0npLKJa;
+        "fabric-1.20.1" = _KRly6lod;
+        "fabric-1.21.1" = _wyjI1kol;
+        "fabric-26.3" = _DKQucg4O;
         "pkg-1.0.0" = _gdzp3svd;
         "pkg-1.0.2" = _O6KfE5sf;
-        "pkg-1.0.3" = _j3LfEo9I;
-        "default" = _j3LfEo9I;
+        "pkg-1.0.3" = _DKQucg4O;
+        "default" = _DKQucg4O;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spooky-foods";

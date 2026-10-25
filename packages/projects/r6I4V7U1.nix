@@ -216,6 +216,11 @@ let
             "file" = "AnimatedHearts-2.1.0-NeoForge.jar";
             "hash" = "sha512-I/BkAi0BDW3vLrq+4FL0VjX8I8xBY4QWZpxnQeFnuHegFvqUAiJmCGbP+J3LaISKxzBPmzffjpnnmJvvgermVQ==";
         };
+        _AUuoCtCq = {
+            "id" = "AUuoCtCq";
+            "file" = "AnimatedHearts-Fabric-2.1.0.jar";
+            "hash" = "sha512-pce0fbdlycS8+AzjPrR4L38nCRXQoVOTkM/7LIoLouSEj8ky2oji4+VIAt1OemwATgHalfFpjfSxcccJEJVGaw==";
+        };
     in {
         "Jdlp3EjY" = _Jdlp3EjY;
         "ukSkmHTj" = _ukSkmHTj;
@@ -260,6 +265,7 @@ let
         "Hjjf2HkM" = _Hjjf2HkM;
         "zHcvdphp" = _zHcvdphp;
         "OcAr9Je0" = _OcAr9Je0;
+        "AUuoCtCq" = _AUuoCtCq;
         "forge-1.20.1" = _FTnEbHXR;
         "neoforge-1.21.1" = _OcAr9Je0;
         "neoforge-26.2" = _fobB4tXi;
@@ -271,6 +277,7 @@ let
         "fabric-26.1.1" = _zHcvdphp;
         "fabric-26.3" = _zHcvdphp;
         "fabric-1.21.11" = _Hjjf2HkM;
+        "fabric-1.21.1" = _AUuoCtCq;
         "pkg-1.0.0" = _Jdlp3EjY;
         "pkg-1.0.7" = _ukSkmHTj;
         "pkg-1.2.0" = _ItJxGPCj;
@@ -285,8 +292,8 @@ let
         "pkg-1.8.1" = _L4Dq2FM0;
         "pkg-1.9.0" = _6SFNuPzB;
         "pkg-2.0.0" = _boWi3vZq;
-        "pkg-2.1.0" = _OcAr9Je0;
-        "default" = _OcAr9Je0;
+        "pkg-2.1.0" = _AUuoCtCq;
+        "default" = _AUuoCtCq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "animated-heart";

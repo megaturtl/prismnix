@@ -251,6 +251,21 @@ let
             "file" = "ChatShot (26.2-fabric)-1.0.10.jar";
             "hash" = "sha512-W/TIVUZKgixB7hBNH7Azv/a5I7/S0afjrmid+aIVqOH8ZuU6D/abFZJhHv03dl8IWJhj6q1UbXW48YaaopZ1PA==";
         };
+        _egPwfYF2 = {
+            "id" = "egPwfYF2";
+            "file" = "ChatShot (26.3-neoforge)-1.0.11.jar";
+            "hash" = "sha512-hBhFj4F8QkB9fgYuFK0dw9HwjFAv/s07FOuwBFLX4/4N8vnGdZHLKwr3UVGwP6i2LkLCepdD76RH2kTdwEu9qg==";
+        };
+        _On0cIyAN = {
+            "id" = "On0cIyAN";
+            "file" = "ChatShot (26.2-neoforge)-1.0.11.jar";
+            "hash" = "sha512-+kdx2xSnnRKekhnq5A73DUtOJtp+8hvFmIKrZeeAqSAPboP0dUJFcomDnyEmnkVeGhcl8C4r1jZ4Z4j+15AuIw==";
+        };
+        _V7LpXmM1 = {
+            "id" = "V7LpXmM1";
+            "file" = "ChatShot (26.3-fabric)-1.0.11.jar";
+            "hash" = "sha512-afi1Ja1pzaL6Ogd35XKdoX8mHizAhFnWrDGN5Nc2KUsjO4nWb3SwsUeaIiq33T/ktBQkpTSePhwm9POD8JP3tg==";
+        };
     in {
         "Bg4KTdgW" = _Bg4KTdgW;
         "j6A07Bxh" = _j6A07Bxh;
@@ -302,6 +317,9 @@ let
         "lAzdJ2qE" = _lAzdJ2qE;
         "FNwyYnaw" = _FNwyYnaw;
         "cY5mf87P" = _cY5mf87P;
+        "egPwfYF2" = _egPwfYF2;
+        "On0cIyAN" = _On0cIyAN;
+        "V7LpXmM1" = _V7LpXmM1;
         "fabric-1.20" = _lYyMjOcQ;
         "fabric-1.20.1" = _lYyMjOcQ;
         "fabric-1.20.2" = _lYyMjOcQ;
@@ -321,6 +339,7 @@ let
         "fabric-26.1.1" = _FNwyYnaw;
         "fabric-26.1.2" = _FNwyYnaw;
         "fabric-26.2" = _cY5mf87P;
+        "fabric-26.3" = _V7LpXmM1;
         "quilt-1.20" = _lYyMjOcQ;
         "quilt-1.20.1" = _lYyMjOcQ;
         "quilt-1.20.2" = _lYyMjOcQ;
@@ -359,6 +378,8 @@ let
         "neoforge-26.1" = _lAzdJ2qE;
         "neoforge-26.1.1" = _lAzdJ2qE;
         "neoforge-26.1.2" = _lAzdJ2qE;
+        "neoforge-26.3" = _egPwfYF2;
+        "neoforge-26.2" = _On0cIyAN;
         "pkg-1.0.0" = _j6A07Bxh;
         "pkg-1.0.1" = _ylwFpPks;
         "pkg-1.0.2" = _msj3SAlF;
@@ -370,7 +391,8 @@ let
         "pkg-1.0.8" = _RPR374j9;
         "pkg-1.0.9" = _FNwyYnaw;
         "pkg-1.0.10" = _cY5mf87P;
-        "default" = _cY5mf87P;
+        "pkg-1.0.11" = _V7LpXmM1;
+        "default" = _V7LpXmM1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chatshot";

@@ -186,6 +186,16 @@ let
             "file" = "trek-B0.6.2.jar";
             "hash" = "sha512-F/NYAsL4264CYVNxi21AorTDrhVY5uh1AOz/6Fn+LmB+ALO+drjIy+59qTKgQuvlonnfmSn7e1EADqGvSfzByQ==";
         };
+        _LvAOPa1r = {
+            "id" = "LvAOPa1r";
+            "file" = "Trek 26.3 B0.6.2.1.zip";
+            "hash" = "sha512-sm2BFo4tLc7ka/dmKjdRVzLjwJvnSg38yH6jx+NpDVauMiEIEBlFPoPOuVmfmHjVOwlW2nL75ht5i3XzBK36Fg==";
+        };
+        _v6y24ZlJ = {
+            "id" = "v6y24ZlJ";
+            "file" = "trek-B0.6.2.1.jar";
+            "hash" = "sha512-aP2Urd7cecy+mCLP4dBWaR1do8BdWPAH2kXTCVwwtmwAS2SfRI5+KoRJhh3AT1V6QdduPiFgTYVWeqKgtreLtQ==";
+        };
     in {
         "JjjcGn9a" = _JjjcGn9a;
         "Qg6awRId" = _Qg6awRId;
@@ -224,6 +234,8 @@ let
         "c92jt3Xd" = _c92jt3Xd;
         "1GsZGXOm" = _1GsZGXOm;
         "OYbFzi8L" = _OYbFzi8L;
+        "LvAOPa1r" = _LvAOPa1r;
+        "v6y24ZlJ" = _v6y24ZlJ;
         "datapack-1.19" = _ZoqThLO3;
         "datapack-1.19.1" = _ZoqThLO3;
         "datapack-1.19.2" = _ZoqThLO3;
@@ -252,6 +264,7 @@ let
         "datapack-26.1.1" = _c92jt3Xd;
         "datapack-26.1.2" = _c92jt3Xd;
         "datapack-26.2" = _c92jt3Xd;
+        "datapack-26.3" = _LvAOPa1r;
         "fabric-1.19" = _1GsZGXOm;
         "fabric-1.19.1" = _1GsZGXOm;
         "fabric-1.19.2" = _1GsZGXOm;
@@ -280,6 +293,7 @@ let
         "fabric-26.1.1" = _OYbFzi8L;
         "fabric-26.1.2" = _OYbFzi8L;
         "fabric-26.2" = _OYbFzi8L;
+        "fabric-26.3" = _v6y24ZlJ;
         "forge-1.19" = _1GsZGXOm;
         "forge-1.19.1" = _1GsZGXOm;
         "forge-1.19.2" = _1GsZGXOm;
@@ -308,6 +322,7 @@ let
         "forge-26.1.1" = _OYbFzi8L;
         "forge-26.1.2" = _OYbFzi8L;
         "forge-26.2" = _OYbFzi8L;
+        "forge-26.3" = _v6y24ZlJ;
         "neoforge-1.19" = _1GsZGXOm;
         "neoforge-1.19.1" = _1GsZGXOm;
         "neoforge-1.19.2" = _1GsZGXOm;
@@ -336,6 +351,7 @@ let
         "neoforge-26.1.1" = _OYbFzi8L;
         "neoforge-26.1.2" = _OYbFzi8L;
         "neoforge-26.2" = _OYbFzi8L;
+        "neoforge-26.3" = _v6y24ZlJ;
         "quilt-1.19" = _1GsZGXOm;
         "quilt-1.19.1" = _1GsZGXOm;
         "quilt-1.19.2" = _1GsZGXOm;
@@ -364,6 +380,7 @@ let
         "quilt-26.1.1" = _OYbFzi8L;
         "quilt-26.1.2" = _OYbFzi8L;
         "quilt-26.2" = _OYbFzi8L;
+        "quilt-26.3" = _v6y24ZlJ;
         "pkg-B0.1" = _JjjcGn9a;
         "pkg-B0.2" = _aNYZgbrw;
         "pkg-B0.2+mod" = _yAsk4MKR;
@@ -389,7 +406,9 @@ let
         "pkg-B0.6.1.1+mod" = _O1utQuJh;
         "pkg-B0.6.2" = _c92jt3Xd;
         "pkg-B0.6.2+mod" = _OYbFzi8L;
-        "default" = _OYbFzi8L;
+        "pkg-B0.6.2.1" = _LvAOPa1r;
+        "pkg-B0.6.2.1+mod" = _v6y24ZlJ;
+        "default" = _v6y24ZlJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trek";

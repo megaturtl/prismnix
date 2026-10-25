@@ -141,6 +141,11 @@ let
             "file" = "render-distance-cycler-v2.2.0-26.3.jar";
             "hash" = "sha512-AyAAVgWvV7M7axHAx7FGiTe+JBEnCmHp4v/4Di3Jqk3h/u5KFKpUtMLZwmh30SAGK+JHR9C56Kgage/IIAi96g==";
         };
+        _3cMiYpyd = {
+            "id" = "3cMiYpyd";
+            "file" = "render-distance-cycler-v2.2.1-26.3.jar";
+            "hash" = "sha512-SHe2fhPPkZ0ILB8ilmXLeGdd21MxW2IwRw6cUsScAvM6pp92L4CNml1sBZ68M0ZBelmmgblNvSWYeSl5qBwkdA==";
+        };
     in {
         "34x5xNMH" = _34x5xNMH;
         "eQ31Flrp" = _eQ31Flrp;
@@ -170,6 +175,7 @@ let
         "79sdQfEQ" = _79sdQfEQ;
         "6K1gFfHG" = _6K1gFfHG;
         "nPnFbDZQ" = _nPnFbDZQ;
+        "3cMiYpyd" = _3cMiYpyd;
         "fabric-1.21.6" = _MVBC4vFv;
         "fabric-1.21.7" = _MVBC4vFv;
         "fabric-1.21.8" = _MVBC4vFv;
@@ -180,7 +186,7 @@ let
         "fabric-26.1.1" = _6K1gFfHG;
         "fabric-26.1.2" = _6K1gFfHG;
         "fabric-26.2" = _6K1gFfHG;
-        "fabric-26.3" = _nPnFbDZQ;
+        "fabric-26.3" = _3cMiYpyd;
         "pkg-1.0.0-1.21.6-8" = _34x5xNMH;
         "pkg-1.0.0-1.21.9" = _eQ31Flrp;
         "pkg-1.0.0-1.21.9-10" = _ll9Yr4HV;
@@ -209,7 +215,8 @@ let
         "pkg-2.2.0-1.21.11" = _79sdQfEQ;
         "pkg-2.2.0-26.1-2" = _6K1gFfHG;
         "pkg-2.2.0-26.3" = _nPnFbDZQ;
-        "default" = _nPnFbDZQ;
+        "pkg-2.2.1-26.3" = _3cMiYpyd;
+        "default" = _3cMiYpyd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "render-distance-cycler";

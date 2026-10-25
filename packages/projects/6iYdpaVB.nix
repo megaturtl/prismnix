@@ -111,6 +111,16 @@ let
             "file" = "delfos-1.21.10.jar";
             "hash" = "sha512-dGnjeYSYBsH28MlKZIpCAlfKmXOUNq3jNYyZvXfStTej0T3gUCrTnBJNzyzfW30P/KSZEiWu8gcv/J9Jns0Xkg==";
         };
+        _XujvtFHx = {
+            "id" = "XujvtFHx";
+            "file" = "delfos.zip";
+            "hash" = "sha512-rS0kOzqCcjVP79EpS0g58GJ/7Dsp3zWU8ncXkOFyhtU22RvBdQr37WezngarvxyRKK6N2dbi3wzrgLWnBDbKDg==";
+        };
+        _eSL4dyyp = {
+            "id" = "eSL4dyyp";
+            "file" = "delfos-1.0.0.jar";
+            "hash" = "sha512-Baqn1I8k8H/83pPTUHeEtiTO55nYk8QqKI/DRsHKc8eqtvypWDUtZ3APs6z7NyW17KuCt7KSC60auuT9c99NFg==";
+        };
     in {
         "PBezWfUZ" = _PBezWfUZ;
         "Ud23ugFR" = _Ud23ugFR;
@@ -134,6 +144,8 @@ let
         "IiDCpDiV" = _IiDCpDiV;
         "ihWhjOxs" = _ihWhjOxs;
         "9FrH0iqH" = _9FrH0iqH;
+        "XujvtFHx" = _XujvtFHx;
+        "eSL4dyyp" = _eSL4dyyp;
         "datapack-1.21" = _PBezWfUZ;
         "datapack-1.21.1" = _psyIT0PR;
         "datapack-1.21.2" = _Ig1jnveT;
@@ -146,6 +158,11 @@ let
         "datapack-1.21.9" = _l1twOMv2;
         "datapack-1.21.10" = _ihWhjOxs;
         "datapack-1.21.11" = _ihWhjOxs;
+        "datapack-26.1" = _XujvtFHx;
+        "datapack-26.1.1" = _XujvtFHx;
+        "datapack-26.1.2" = _XujvtFHx;
+        "datapack-26.2" = _XujvtFHx;
+        "datapack-26.3" = _XujvtFHx;
         "fabric-1.21" = _Ud23ugFR;
         "fabric-1.21.1" = _9zQqlP8N;
         "fabric-1.21.2" = _9yeWeRqv;
@@ -158,6 +175,11 @@ let
         "fabric-1.21.9" = _IiDCpDiV;
         "fabric-1.21.10" = _9FrH0iqH;
         "fabric-1.21.11" = _9FrH0iqH;
+        "fabric-26.1" = _eSL4dyyp;
+        "fabric-26.1.1" = _eSL4dyyp;
+        "fabric-26.1.2" = _eSL4dyyp;
+        "fabric-26.2" = _eSL4dyyp;
+        "fabric-26.3" = _eSL4dyyp;
         "forge-1.21" = _Ud23ugFR;
         "forge-1.21.1" = _9zQqlP8N;
         "forge-1.21.2" = _9yeWeRqv;
@@ -170,6 +192,11 @@ let
         "forge-1.21.9" = _IiDCpDiV;
         "forge-1.21.10" = _9FrH0iqH;
         "forge-1.21.11" = _9FrH0iqH;
+        "forge-26.1" = _eSL4dyyp;
+        "forge-26.1.1" = _eSL4dyyp;
+        "forge-26.1.2" = _eSL4dyyp;
+        "forge-26.2" = _eSL4dyyp;
+        "forge-26.3" = _eSL4dyyp;
         "neoforge-1.21" = _Ud23ugFR;
         "neoforge-1.21.1" = _9zQqlP8N;
         "neoforge-1.21.2" = _9yeWeRqv;
@@ -182,6 +209,11 @@ let
         "neoforge-1.21.9" = _IiDCpDiV;
         "neoforge-1.21.10" = _9FrH0iqH;
         "neoforge-1.21.11" = _9FrH0iqH;
+        "neoforge-26.1" = _eSL4dyyp;
+        "neoforge-26.1.1" = _eSL4dyyp;
+        "neoforge-26.1.2" = _eSL4dyyp;
+        "neoforge-26.2" = _eSL4dyyp;
+        "neoforge-26.3" = _eSL4dyyp;
         "quilt-1.21" = _Ud23ugFR;
         "quilt-1.21.1" = _9zQqlP8N;
         "quilt-1.21.2" = _9yeWeRqv;
@@ -194,6 +226,11 @@ let
         "quilt-1.21.9" = _IiDCpDiV;
         "quilt-1.21.10" = _9FrH0iqH;
         "quilt-1.21.11" = _9FrH0iqH;
+        "quilt-26.1" = _eSL4dyyp;
+        "quilt-26.1.1" = _eSL4dyyp;
+        "quilt-26.1.2" = _eSL4dyyp;
+        "quilt-26.2" = _eSL4dyyp;
+        "quilt-26.3" = _eSL4dyyp;
         "pkg-1.21" = _PBezWfUZ;
         "pkg-1.21+mod" = _Ud23ugFR;
         "pkg-1.21.1" = _psyIT0PR;
@@ -216,7 +253,9 @@ let
         "pkg-1.21.9+mod" = _IiDCpDiV;
         "pkg-1.21-Plus" = _ihWhjOxs;
         "pkg-1.21-Plus+mod" = _9FrH0iqH;
-        "default" = _9FrH0iqH;
+        "pkg-1.0.0" = _XujvtFHx;
+        "pkg-1.0.0+mod" = _eSL4dyyp;
+        "default" = _eSL4dyyp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "delfos";

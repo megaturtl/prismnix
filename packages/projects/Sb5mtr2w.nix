@@ -61,6 +61,11 @@ let
             "file" = "Fresh Buckets.zip";
             "hash" = "sha512-VyBd6wEzQXa4imtYpZ1gFq49RpwJvqeuOaK5S0wOUfcLeIikuCEao1MwrxVCYNyjO5OfWAiM0UJuxTxQIn7+Xw==";
         };
+        _r1qy8Jyu = {
+            "id" = "r1qy8Jyu";
+            "file" = "Fresh Buckets.zip";
+            "hash" = "sha512-j2C7H0NhE0VvPEjzzTVHI04xNZjL5s+Lo7UpBNEItIGPFVFEJ7vD2qJIMXsTyhWRn6FXIcntKiSds97/QWVdTQ==";
+        };
     in {
         "lOarefGy" = _lOarefGy;
         "I9EgpjxC" = _I9EgpjxC;
@@ -74,16 +79,17 @@ let
         "MoIGtCs1" = _MoIGtCs1;
         "4xiD5quS" = _4xiD5quS;
         "mx8zelZe" = _mx8zelZe;
-        "minecraft-1.21.4" = _mx8zelZe;
-        "minecraft-1.21.5" = _mx8zelZe;
-        "minecraft-1.21.6" = _mx8zelZe;
-        "minecraft-1.21.7" = _mx8zelZe;
-        "minecraft-1.21.8" = _mx8zelZe;
-        "minecraft-1.20.1" = _mx8zelZe;
-        "minecraft-1.21" = _mx8zelZe;
-        "minecraft-1.21.1" = _mx8zelZe;
-        "minecraft-1.21.9" = _mx8zelZe;
-        "minecraft-1.21.10" = _mx8zelZe;
+        "r1qy8Jyu" = _r1qy8Jyu;
+        "minecraft-1.21.4" = _r1qy8Jyu;
+        "minecraft-1.21.5" = _r1qy8Jyu;
+        "minecraft-1.21.6" = _r1qy8Jyu;
+        "minecraft-1.21.7" = _r1qy8Jyu;
+        "minecraft-1.21.8" = _r1qy8Jyu;
+        "minecraft-1.20.1" = _r1qy8Jyu;
+        "minecraft-1.21" = _r1qy8Jyu;
+        "minecraft-1.21.1" = _r1qy8Jyu;
+        "minecraft-1.21.9" = _r1qy8Jyu;
+        "minecraft-1.21.10" = _r1qy8Jyu;
         "minecraft-22w42a" = _1js3JgFT;
         "minecraft-22w43a" = _1js3JgFT;
         "minecraft-22w44a" = _1js3JgFT;
@@ -119,8 +125,8 @@ let
         "minecraft-1.20.5-pre1" = _1js3JgFT;
         "minecraft-1.20.5-pre2" = _1js3JgFT;
         "minecraft-1.20.5-pre3" = _1js3JgFT;
-        "minecraft-1.21.2" = _mx8zelZe;
-        "minecraft-1.21.11" = _mx8zelZe;
+        "minecraft-1.21.2" = _r1qy8Jyu;
+        "minecraft-1.21.11" = _r1qy8Jyu;
         "minecraft-1.20" = _1js3JgFT;
         "minecraft-1.20.2" = _1js3JgFT;
         "minecraft-1.20.3" = _1js3JgFT;
@@ -145,11 +151,11 @@ let
         "minecraft-24w44a" = _1js3JgFT;
         "minecraft-24w45a" = _1js3JgFT;
         "minecraft-24w46a" = _1js3JgFT;
-        "minecraft-26.1" = _mx8zelZe;
-        "minecraft-26.1.1" = _mx8zelZe;
-        "minecraft-26.1.2" = _mx8zelZe;
-        "minecraft-26.2" = _mx8zelZe;
-        "minecraft-26.3" = _mx8zelZe;
+        "minecraft-26.1" = _r1qy8Jyu;
+        "minecraft-26.1.1" = _r1qy8Jyu;
+        "minecraft-26.1.2" = _r1qy8Jyu;
+        "minecraft-26.2" = _r1qy8Jyu;
+        "minecraft-26.3" = _r1qy8Jyu;
         "pkg-1.0" = _XtMyfioO;
         "pkg-1.0.1" = _P87qsgMB;
         "pkg-1.1" = _b3B9wJPa;
@@ -160,7 +166,8 @@ let
         "pkg-1.2.2" = _MoIGtCs1;
         "pkg-1.2.3" = _4xiD5quS;
         "pkg-1.2.4" = _mx8zelZe;
-        "default" = _mx8zelZe;
+        "pkg-1.2.5" = _r1qy8Jyu;
+        "default" = _r1qy8Jyu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fresh-buckets";

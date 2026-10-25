@@ -51,6 +51,16 @@ let
             "file" = "moonsteel-1.1.0-7.3_03.jar";
             "hash" = "sha512-//NXdKqYrTY6SWBSfkwT3QuB0tiXIgpZZVq6typ9Wjlr7GLijwRxSCSXNDfbeB4Ah5ZFH3M10cZq0HJYefIY7w==";
         };
+        _1d8iCMHd = {
+            "id" = "1d8iCMHd";
+            "file" = "moonsteel-1.1.1-7.3_04.jar";
+            "hash" = "sha512-5dstgb1ZuK0GldADx+SMC3bMlTfXBNehZgGB7asCCK/fiPgB0CoiahjisT1/mztl0Z+gTCnNpYRXXxg0hr4yFA==";
+        };
+        _1CESzwTD = {
+            "id" = "1CESzwTD";
+            "file" = "moonsteel-1.2.0+8.0.1.jar";
+            "hash" = "sha512-1/A6de4wgVASgPVBeLXGFHI6xgkFDsroaAOH1SaTuHb7I/3a+rNEe1TJs1SqpFjvKqKyTozrD6Sa6VYJFXW0ig==";
+        };
     in {
         "RLoNoaPa" = _RLoNoaPa;
         "iN3ZS3pQ" = _iN3ZS3pQ;
@@ -62,7 +72,9 @@ let
         "MA8P3W2k" = _MA8P3W2k;
         "dVYoHhpd" = _dVYoHhpd;
         "wacJc9SH" = _wacJc9SH;
-        "bta-babric-b1.7.3" = _wacJc9SH;
+        "1d8iCMHd" = _1d8iCMHd;
+        "1CESzwTD" = _1CESzwTD;
+        "bta-babric-b1.7.3" = _1CESzwTD;
         "pkg-1.0.1-7.1" = _RLoNoaPa;
         "pkg-1.0.2-7.1" = _iN3ZS3pQ;
         "pkg-1.0.3-7.1" = _yS7AnO0u;
@@ -73,7 +85,9 @@ let
         "pkg-1.0.7-7.2-pre2" = _MA8P3W2k;
         "pkg-1.0.8-7.2_01" = _dVYoHhpd;
         "pkg-1.1.0-7.3_03" = _wacJc9SH;
-        "default" = _wacJc9SH;
+        "pkg-1.1.1-7.3_04" = _1d8iCMHd;
+        "pkg-1.2.0+8.0.1" = _1CESzwTD;
+        "default" = _1CESzwTD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "moonmoonmoon";

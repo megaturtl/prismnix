@@ -56,6 +56,21 @@ let
             "file" = "26.1-1.3.2.jar";
             "hash" = "sha512-cs+7y6QCGl5VxCK9R4cAVesuHNMPARUSGOQbNNdxC2MAFVqVmB7KoUGetDI2FsaMfyVIAaqxptkgZv38zBKkeg==";
         };
+        _3fJgNLd7 = {
+            "id" = "3fJgNLd7";
+            "file" = "Rendersnap-mc26.3-1.4-fabric.jar";
+            "hash" = "sha512-swEV0FnCjmbzq+rbXfIG5srCF1AwanqH6hXla7NFriZTdskd+6rZr1SpQ413frZUwCzOmMXMUOA4lQlatlP65w==";
+        };
+        _mfBc3yhb = {
+            "id" = "mfBc3yhb";
+            "file" = "Rendersnap-mc26.2-1.4-fabric.jar";
+            "hash" = "sha512-Mf6k0hUuyTu7JP0zjL6otaD8y4j0+3b81phsuFKCmJGgwPi75EnfopOkLqXsFSihomperLpvhVkZF+6FUioNcw==";
+        };
+        _MpNIVYhr = {
+            "id" = "MpNIVYhr";
+            "file" = "Rendersnap-mc26.1.x-1.4-fabric.jar";
+            "hash" = "sha512-cErTATwRsSiuhrJqayhSGai/uWqJVhzP1/KRBqB8R0FfDlOaBnQ5owih8DST/ota97TUzYicX256o7Low3HEFQ==";
+        };
     in {
         "PM9TfJCL" = _PM9TfJCL;
         "Ho1UsvNV" = _Ho1UsvNV;
@@ -68,9 +83,12 @@ let
         "wy80wnc5" = _wy80wnc5;
         "XcwOFXUN" = _XcwOFXUN;
         "6VbOrkkB" = _6VbOrkkB;
-        "fabric-26.1.2" = _6VbOrkkB;
-        "fabric-26.1" = _6VbOrkkB;
-        "fabric-26.1.1" = _6VbOrkkB;
+        "3fJgNLd7" = _3fJgNLd7;
+        "mfBc3yhb" = _mfBc3yhb;
+        "MpNIVYhr" = _MpNIVYhr;
+        "fabric-26.1.2" = _MpNIVYhr;
+        "fabric-26.1" = _MpNIVYhr;
+        "fabric-26.1.1" = _MpNIVYhr;
         "fabric-26.2-snapshot-2" = _QVxgBxlD;
         "fabric-26.2-snapshot-3" = _QVxgBxlD;
         "fabric-26.2-snapshot-4" = _QVxgBxlD;
@@ -81,8 +99,8 @@ let
         "fabric-26.2-pre-1" = _QVxgBxlD;
         "fabric-26.2-pre-2" = _QVxgBxlD;
         "fabric-26.2-pre-3" = _QVxgBxlD;
-        "fabric-26.2" = _XcwOFXUN;
-        "fabric-26.3" = _wy80wnc5;
+        "fabric-26.2" = _mfBc3yhb;
+        "fabric-26.3" = _3fJgNLd7;
         "pkg-1.0.0" = _PM9TfJCL;
         "pkg-1.0.1" = _Ho1UsvNV;
         "pkg-1.1.0" = _QVxgBxlD;
@@ -90,7 +108,10 @@ let
         "pkg-1.3" = _x0ZFAzaY;
         "pkg-1.3.1" = _7tcL4g6D;
         "pkg-1.3.2" = _6VbOrkkB;
-        "default" = _6VbOrkkB;
+        "pkg-1.4" = _3fJgNLd7;
+        "pkg-1.4-mc26.2" = _mfBc3yhb;
+        "pkg-1.4-mc26.1" = _MpNIVYhr;
+        "default" = _MpNIVYhr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rendersnap";

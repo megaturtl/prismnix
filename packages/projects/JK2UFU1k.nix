@@ -21,11 +21,17 @@ let
             "file" = "SprintByDefault-1.1.jar";
             "hash" = "sha512-/vdavANy4Cnwt+MX0nBnRNSDzGds1WvPzyMUjVvP+4ZwLxot722/hY5ws/TZw1Z/b1eeCVL1J4RDMR6krlohqg==";
         };
+        _RoM2oBlq = {
+            "id" = "RoM2oBlq";
+            "file" = "sprintbydefault-1.2.0.jar";
+            "hash" = "sha512-Jjpeeku9xCLXV2xbjso+tHOa84IAe0249puNyMs7oB1JwTjVWMCHbv3cROJ5JGun9SXwZWgIQxotnEAyVQdFbg==";
+        };
     in {
         "Pcti0aPy" = _Pcti0aPy;
         "ZftJuggD" = _ZftJuggD;
         "iXKWgoSq" = _iXKWgoSq;
         "Mkw1S8cZ" = _Mkw1S8cZ;
+        "RoM2oBlq" = _RoM2oBlq;
         "fabric-1.21" = _Mkw1S8cZ;
         "fabric-1.21.1" = _Mkw1S8cZ;
         "fabric-1.21.2" = _Mkw1S8cZ;
@@ -38,11 +44,17 @@ let
         "fabric-1.21.9" = _Mkw1S8cZ;
         "fabric-1.21.10" = _Mkw1S8cZ;
         "fabric-1.21.11" = _Mkw1S8cZ;
+        "fabric-26.1" = _RoM2oBlq;
+        "fabric-26.1.1" = _RoM2oBlq;
+        "fabric-26.1.2" = _RoM2oBlq;
+        "fabric-26.2" = _RoM2oBlq;
+        "fabric-26.3" = _RoM2oBlq;
         "pkg-1.21" = _Pcti0aPy;
         "pkg-1.21.4" = _ZftJuggD;
         "pkg-1.21.5-1.21.10" = _iXKWgoSq;
         "pkg-1.21.11" = _Mkw1S8cZ;
-        "default" = _Mkw1S8cZ;
+        "pkg-26.1-26.3" = _RoM2oBlq;
+        "default" = _RoM2oBlq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sprintbydefault";

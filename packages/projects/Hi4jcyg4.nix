@@ -96,6 +96,11 @@ let
             "file" = "carpetskyadditions-26.3-6.7.0.jar";
             "hash" = "sha512-Tk7KrHON5cKUvHPtibE5UcdOeA2ATj8QYAYRniRBgRsoVbNDwWlPtfHG6nLO0/8POLKHi03QY8M/i9StY8Igcg==";
         };
+        _lTDYWkDx = {
+            "id" = "lTDYWkDx";
+            "file" = "carpetskyadditions-1.21.1-5.0.1.jar";
+            "hash" = "sha512-FM3ekk83QjbnTQNTGo1e3g0n0W2lXrSszKVW/eOM7QaVQ6y5dEvRN/3k8whz/kx+Z0JtxAP3HjH6GiDpsG6jeg==";
+        };
     in {
         "cKHWe2P0" = _cKHWe2P0;
         "AIY3pDt9" = _AIY3pDt9;
@@ -116,7 +121,8 @@ let
         "NZVMIXfE" = _NZVMIXfE;
         "n1R56Log" = _n1R56Log;
         "JKjvlqD2" = _JKjvlqD2;
-        "fabric-1.21.1" = _cKHWe2P0;
+        "lTDYWkDx" = _lTDYWkDx;
+        "fabric-1.21.1" = _lTDYWkDx;
         "fabric-1.21.4" = _OqdH7QVf;
         "fabric-1.21.5" = _Fh3N5sha;
         "fabric-1.21.7" = _dgrqyWy9;
@@ -147,7 +153,8 @@ let
         "pkg-26.1.1-6.6.0" = _NZVMIXfE;
         "pkg-26.2-6.6.1" = _n1R56Log;
         "pkg-26.3-6.7.0" = _JKjvlqD2;
-        "default" = _JKjvlqD2;
+        "pkg-1.21.1-5.0.1" = _lTDYWkDx;
+        "default" = _lTDYWkDx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "carpetskyadditionsreborn";

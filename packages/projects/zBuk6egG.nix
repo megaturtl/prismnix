@@ -131,6 +131,16 @@ let
             "file" = "create_winery-2.0.2-neoforge-1.21.1.jar";
             "hash" = "sha512-iBL9SzKZ0inG7fyKRqjJNhCiyFd5Og/7BFOO3wFGbPNZqK/B949R1v+LYTUtUuwjHesqSe/ZbWm0pohZh7p9pw==";
         };
+        _5H926JU3 = {
+            "id" = "5H926JU3";
+            "file" = "create_winery-2.0.3-forge-1.20.1.jar";
+            "hash" = "sha512-l1VgsHHSceLciiB3rUZJsCQkQx28k/F6iFRr7Jx8ZjV2jhr2RG3jspRPoJLgY9ROO3c4oiBqb6fjuBG7rL0+xQ==";
+        };
+        _mbnef0lU = {
+            "id" = "mbnef0lU";
+            "file" = "create_winery-2.0.3-neoforge-1.21.1.jar";
+            "hash" = "sha512-8nGUKHxBFy5fTzxJfAMlN5RfA+IrhJk1J7Pv46bGDPA3GnvEEh4McCTuDTSE1C5wmWkA1di0sRMTUJcSDUhGyg==";
+        };
     in {
         "ae3tMpwB" = _ae3tMpwB;
         "mdRXsBjX" = _mdRXsBjX;
@@ -158,16 +168,18 @@ let
         "cWG4gb7P" = _cWG4gb7P;
         "g0zxx7Ku" = _g0zxx7Ku;
         "vTUNDdDM" = _vTUNDdDM;
+        "5H926JU3" = _5H926JU3;
+        "mbnef0lU" = _mbnef0lU;
         "forge-1.18.2" = _UTa9tjCW;
         "forge-1.19.2" = _JUyG4GV7;
-        "forge-1.20" = _g0zxx7Ku;
-        "forge-1.20.1" = _g0zxx7Ku;
+        "forge-1.20" = _5H926JU3;
+        "forge-1.20.1" = _5H926JU3;
         "neoforge-1.18.2" = _UTa9tjCW;
         "neoforge-1.19.2" = _JUyG4GV7;
-        "neoforge-1.20" = _g0zxx7Ku;
-        "neoforge-1.20.1" = _g0zxx7Ku;
-        "neoforge-1.21" = _vTUNDdDM;
-        "neoforge-1.21.1" = _vTUNDdDM;
+        "neoforge-1.20" = _5H926JU3;
+        "neoforge-1.20.1" = _5H926JU3;
+        "neoforge-1.21" = _mbnef0lU;
+        "neoforge-1.21.1" = _mbnef0lU;
         "pkg-1.2.0" = _PWyfERkx;
         "pkg-1.3.0" = _c3Ti1M5X;
         "pkg-1.4.0" = _GXbWggk4;
@@ -179,7 +191,8 @@ let
         "pkg-2.0.0" = _PdfStE6r;
         "pkg-2.0.1" = _cWG4gb7P;
         "pkg-2.0.2" = _vTUNDdDM;
-        "default" = _vTUNDdDM;
+        "pkg-2.0.3" = _mbnef0lU;
+        "default" = _mbnef0lU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-winery";

@@ -196,6 +196,11 @@ let
             "file" = "TimberReplant-5.2.0.jar";
             "hash" = "sha512-poP2C8Qq/dzhZBJPXdSCYUw3V+Oycdf4fjhjLdby2XCLXt574tS6K6D4R9gevvPpMMTm6VWBVoSFqcRTAwMcKQ==";
         };
+        _7NtLRLnD = {
+            "id" = "7NtLRLnD";
+            "file" = "TimberReplant-5.3.0.jar";
+            "hash" = "sha512-fQP5XTHvAN8te3Uzd12/qlPIXq+K8aJRuUmOuKQGsKxztcLagBUYpq4hwQ1JyyP1urZGp3y8o7LjSMHNzXQAAg==";
+        };
     in {
         "mKL4HPe3" = _mKL4HPe3;
         "8vHOCu9W" = _8vHOCu9W;
@@ -236,6 +241,7 @@ let
         "xnG307Fk" = _xnG307Fk;
         "MA4td645" = _MA4td645;
         "UkpGQ7yh" = _UkpGQ7yh;
+        "7NtLRLnD" = _7NtLRLnD;
         "forge-1.21" = _mKL4HPe3;
         "forge-1.20.1" = _87vcwepU;
         "forge-1.20.2" = _8vHOCu9W;
@@ -390,6 +396,7 @@ let
         "neoforge-26.1.1" = _9rhKVZDF;
         "neoforge-26.1.2" = _MKI8r0sp;
         "neoforge-26.2" = _ZCOL2JMO;
+        "neoforge-26.3" = _7NtLRLnD;
         "pkg-1.7.0" = _mKL4HPe3;
         "pkg-1.8.0" = _8vHOCu9W;
         "pkg-1.9.0" = _khZPNRxt;
@@ -429,7 +436,8 @@ let
         "pkg-5.0.0" = _xnG307Fk;
         "pkg-5.1.0" = _MA4td645;
         "pkg-5.2.0" = _UkpGQ7yh;
-        "default" = _UkpGQ7yh;
+        "pkg-5.3.0" = _7NtLRLnD;
+        "default" = _7NtLRLnD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "timberreplant";

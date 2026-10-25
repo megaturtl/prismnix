@@ -71,6 +71,21 @@ let
             "file" = "AdvancedReachDisplay-3.1.0-26.3.jar";
             "hash" = "sha512-yvZ5Ys+e1mdvvC1XIa9/OkseJvJqX4ZXXtcB9QgcEa7zyokq6MANL7wCtlglQc+xHF5pl+nq/LmnY674t5x60Q==";
         };
+        _rMYnDDth = {
+            "id" = "rMYnDDth";
+            "file" = "AdvancedReachDisplay-3.1.0-26.2.jar";
+            "hash" = "sha512-8AqDducMJHHgJay595UGC3ebU4U+/fEJC93dZHhXkRegwLYH2F1yyQYhcXSEI1+S3WX7+vIJVPy4PLjPAql9wQ==";
+        };
+        _4IcTfsBQ = {
+            "id" = "4IcTfsBQ";
+            "file" = "AdvancedReachDisplay-3.1.0-26.1.2.jar";
+            "hash" = "sha512-bX7MKVBbXVRmUiG3okXtOWA2z3ILASz1sfm/CSVXa2ojkEO27jCM9xUR67jE0mBkMyVeVsbvk7nGp84jIh4JIQ==";
+        };
+        _xqhMSwDC = {
+            "id" = "xqhMSwDC";
+            "file" = "AdvancedReachDisplay-3.1.0-1.21.11.jar";
+            "hash" = "sha512-WnYI9Tr3Dak7RwavUV6ij6C2uV9jAtugdPKX7FG/9NnTw4V3R9YrHV0u/RaK06iyvC7ykUesPAsAjKgf06TmfQ==";
+        };
     in {
         "YcRdiHa9" = _YcRdiHa9;
         "afTTqptb" = _afTTqptb;
@@ -86,17 +101,20 @@ let
         "qxZP5OpG" = _qxZP5OpG;
         "OjKSOMf1" = _OjKSOMf1;
         "hqki9i72" = _hqki9i72;
+        "rMYnDDth" = _rMYnDDth;
+        "4IcTfsBQ" = _4IcTfsBQ;
+        "xqhMSwDC" = _xqhMSwDC;
         "fabric-1.21.5" = _YcRdiHa9;
         "fabric-1.21.6" = _afTTqptb;
         "fabric-1.21.7" = _afTTqptb;
         "fabric-1.21.8" = _afTTqptb;
         "fabric-1.21.9" = _nYBcOD9t;
         "fabric-1.21.10" = _l3FdqfTl;
-        "fabric-1.21.11" = _bwnMvOMH;
+        "fabric-1.21.11" = _xqhMSwDC;
         "fabric-26.1" = _ui9vNjZx;
         "fabric-26.1.1" = _ui9vNjZx;
-        "fabric-26.1.2" = _ui9vNjZx;
-        "fabric-26.2" = _OjKSOMf1;
+        "fabric-26.1.2" = _4IcTfsBQ;
+        "fabric-26.2" = _rMYnDDth;
         "fabric-26.3" = _hqki9i72;
         "pkg-2.1.0-1.21.5" = _YcRdiHa9;
         "pkg-2.2.0-1.21.6-8" = _afTTqptb;
@@ -112,7 +130,10 @@ let
         "pkg-3.0.2-26.2" = _qxZP5OpG;
         "pkg-3.0.3-26.3" = _OjKSOMf1;
         "pkg-3.1.0-26.3" = _hqki9i72;
-        "default" = _hqki9i72;
+        "pkg-3.1.0-26.2" = _rMYnDDth;
+        "pkg-3.1.0-26.1.2" = _4IcTfsBQ;
+        "pkg-3.1.0-1.21.11" = _xqhMSwDC;
+        "default" = _xqhMSwDC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "advanced-reach-display";

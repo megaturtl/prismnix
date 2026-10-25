@@ -96,6 +96,11 @@ let
             "file" = "Simplified 26.3.zip";
             "hash" = "sha512-x9I8GbarCi6WHqOb+f3jv8k+ZlLldaAwXTn56zjFGtQ4IOArANwHwOR6GK1ZvQ+fHIU/ptPH6IqjVJ86FuhjPw==";
         };
+        _z77L0NGA = {
+            "id" = "z77L0NGA";
+            "file" = "Simplified 26.3.zip";
+            "hash" = "sha512-491dNOaP9spsi0POkjzottFb1vj7X7IphXV1z8VC3qY1Q0sDdM7olsf2x6vhGHQqnuxTcouxaPQp6ApG6Vo1Zg==";
+        };
     in {
         "twngailM" = _twngailM;
         "cH1dRo7R" = _cH1dRo7R;
@@ -116,6 +121,7 @@ let
         "nuMLR4bR" = _nuMLR4bR;
         "1Y6AnR2g" = _1Y6AnR2g;
         "u3GVVbjP" = _u3GVVbjP;
+        "z77L0NGA" = _z77L0NGA;
         "minecraft-1.21.5" = _twngailM;
         "minecraft-1.21.6" = _cH1dRo7R;
         "minecraft-1.21.7" = _KTZj31mR;
@@ -127,7 +133,7 @@ let
         "minecraft-26.1.1" = _DSVzSmwm;
         "minecraft-26.1.2" = _DSVzSmwm;
         "minecraft-26.2" = _lGSewAut;
-        "minecraft-26.3" = _u3GVVbjP;
+        "minecraft-26.3" = _z77L0NGA;
         "pkg-1.0" = _twngailM;
         "pkg-1.1" = _cH1dRo7R;
         "pkg-1.2" = _KTZj31mR;
@@ -147,7 +153,8 @@ let
         "pkg-1.9.2" = _nuMLR4bR;
         "pkg-1.9.3" = _1Y6AnR2g;
         "pkg-1.9.4" = _u3GVVbjP;
-        "default" = _u3GVVbjP;
+        "pkg-1.9.5" = _z77L0NGA;
+        "default" = _z77L0NGA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jeelh-simplified";

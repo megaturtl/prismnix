@@ -21,19 +21,26 @@ let
             "file" = "ectolum-1.1.0+1.21.11.jar";
             "hash" = "sha512-w8VAbUoWLNgNacC3+5py9aTxgEdgJdW9PAx8ondyoU2gGmOtt/0an87Ty2spsWtb8sS6tPokSOg5XmUq+JccDw==";
         };
+        _GMTuYK8e = {
+            "id" = "GMTuYK8e";
+            "file" = "ectolum-1.2.0+1.21.11.jar";
+            "hash" = "sha512-JA/QHBmkw1dUWFR0l1kyUJDnWw/4XdprRlkyk/rMxho0K664b6PKuK95Br0bN+etde1rLeDtsku07/EuHn7Gxg==";
+        };
     in {
         "A2XuYfrZ" = _A2XuYfrZ;
         "lxRf1rTf" = _lxRf1rTf;
         "LdCvyibi" = _LdCvyibi;
         "NQtyNMXo" = _NQtyNMXo;
+        "GMTuYK8e" = _GMTuYK8e;
         "fabric-1.20.1" = _lxRf1rTf;
         "fabric-1.21.1" = _LdCvyibi;
-        "fabric-1.21.11" = _NQtyNMXo;
+        "fabric-1.21.11" = _GMTuYK8e;
         "pkg-1.0.0" = _A2XuYfrZ;
         "pkg-1.1.0" = _lxRf1rTf;
         "pkg-1.1.0+1.21.1" = _LdCvyibi;
         "pkg-1.1.0+1.21.11" = _NQtyNMXo;
-        "default" = _NQtyNMXo;
+        "pkg-1.2.0+1.21.11" = _GMTuYK8e;
+        "default" = _GMTuYK8e;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ectoluminescence";

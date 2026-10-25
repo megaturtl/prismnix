@@ -206,6 +206,11 @@ let
             "file" = "nemos_vertical_slabs-Fabric-26.2-2.3.5.jar";
             "hash" = "sha512-gnZKBcFK7ngadkOeEU9GygVMWNVvzM0yYQ3/yIvElQqa15iBLMER7DntlOvuV67fzYhcpcH2Drchp1uoBXh2/A==";
         };
+        _ZSsEdATV = {
+            "id" = "ZSsEdATV";
+            "file" = "nemos_vertical_slabs-Fabric-26.3-2.4.jar";
+            "hash" = "sha512-jQ9M6RGxHnHNIQGzwOvmmkwHEsnWHnvBTAXUWULfxRmPqQPb/GBDYuuj3g0XaN6R2NUSiqLHFKknH60VxLItnA==";
+        };
     in {
         "qzddZNCX" = _qzddZNCX;
         "Ihu1opM7" = _Ihu1opM7;
@@ -248,6 +253,7 @@ let
         "hL10eszF" = _hL10eszF;
         "XSqmIvWI" = _XSqmIvWI;
         "rcrOTDP8" = _rcrOTDP8;
+        "ZSsEdATV" = _ZSsEdATV;
         "fabric-1.20.1" = _mcQAWc8b;
         "fabric-1.21" = _SuXN0QqL;
         "fabric-1.21.1" = _rGyemUIk;
@@ -260,7 +266,7 @@ let
         "fabric-1.21.11" = _nGOlOZ5Q;
         "fabric-26.1.2" = _lLj9xAdX;
         "fabric-26.2" = _rcrOTDP8;
-        "fabric-26.3" = _XSqmIvWI;
+        "fabric-26.3" = _ZSsEdATV;
         "forge-1.21.8" = _b3y1L2Fg;
         "neoforge-1.21.8" = _66qClme0;
         "pkg-1.0-1.20.1" = _qzddZNCX;
@@ -298,7 +304,8 @@ let
         "pkg-26.2-2.3.4" = _hL10eszF;
         "pkg-26.3-2.3.5" = _XSqmIvWI;
         "pkg-26.2-2.3.5" = _rcrOTDP8;
-        "default" = _rcrOTDP8;
+        "pkg-26.3-2.4" = _ZSsEdATV;
+        "default" = _ZSsEdATV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nemos-vertical-slabs";

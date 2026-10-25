@@ -101,6 +101,11 @@ let
             "file" = "create_radar-0.4.9.4-1.21.1.jar";
             "hash" = "sha512-nOER6n45/peabUI3ZoILvdjH5h7Pcts1uUU5MwqtwM1Fte7Uae9Lv+s2scVYIJ4EgBn1pKJTtD87azvU+8isYw==";
         };
+        _CO03SdmX = {
+            "id" = "CO03SdmX";
+            "file" = "create_radar-5.0-1.21.1.jar";
+            "hash" = "sha512-iP8P5Fn544AuVOi0NdKkxGMpGb+9hB9SN3gK133Hkm+WPEDLpNDMzEehcumXvRvvBBdj7zNV8BdLie65KwFziA==";
+        };
     in {
         "7CVx0y2X" = _7CVx0y2X;
         "N8cv2ENf" = _N8cv2ENf;
@@ -122,13 +127,14 @@ let
         "vz0tPRci" = _vz0tPRci;
         "ruxlsWci" = _ruxlsWci;
         "AntNFNAx" = _AntNFNAx;
+        "CO03SdmX" = _CO03SdmX;
         "forge-1.20.1" = _ruxlsWci;
         "forge-1.20.2" = _ruxlsWci;
         "forge-1.20.3" = _ruxlsWci;
         "forge-1.20.4" = _ruxlsWci;
         "forge-1.20.5" = _ruxlsWci;
         "forge-1.20.6" = _ruxlsWci;
-        "neoforge-1.21.1" = _AntNFNAx;
+        "neoforge-1.21.1" = _CO03SdmX;
         "pkg-0.1-45" = _7CVx0y2X;
         "pkg-0.1-53" = _N8cv2ENf;
         "pkg-0.1-56" = _2wqu0mPh;
@@ -145,7 +151,8 @@ let
         "pkg-0.4.9.2-1.21.1" = _vz0tPRci;
         "pkg-0.4.5" = _ruxlsWci;
         "pkg-0.4.9.4-1.21.1" = _AntNFNAx;
-        "default" = _AntNFNAx;
+        "pkg-5.0-1.21.1" = _CO03SdmX;
+        "default" = _CO03SdmX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-radars";

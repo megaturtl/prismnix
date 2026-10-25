@@ -41,6 +41,16 @@ let
             "file" = "smp-pvp-bot-carpet-mod-1.2.jar";
             "hash" = "sha512-qQ+R0RIEDslp+2j0pG9ioMM6ERaD/WxWPvwsgjBeEKq7qb022XvDvkVlrPwugG0UnIOMx5OsKCdxDjoehNs5NA==";
         };
+        _VRQEDuw0 = {
+            "id" = "VRQEDuw0";
+            "file" = "SMP PvP Bot 1.3 26.3.zip";
+            "hash" = "sha512-e6W7clxMyV0AAgD7q75Ji1RPtDkT7SIGvmUDzlb5E/Jzo4WaXQ7AQtRBkFaCOpncQpeOgpEjRs5oXKADNnYo1g==";
+        };
+        _uWnLdkIu = {
+            "id" = "uWnLdkIu";
+            "file" = "smp-pvp-bot-carpet-mod-1.3.jar";
+            "hash" = "sha512-FL3z2Uk5Zlif2Kh19AbDQBZzPRwLShhorIOA5K0vTSf8mj3hoZm5iQjDDo/6bOU1qyMJh3c/ytPE08OJetvUxg==";
+        };
     in {
         "yfggIzVe" = _yfggIzVe;
         "cR8xEKB2" = _cR8xEKB2;
@@ -50,38 +60,42 @@ let
         "DCo3q0Ve" = _DCo3q0Ve;
         "2rn5zV96" = _2rn5zV96;
         "io8q3P16" = _io8q3P16;
+        "VRQEDuw0" = _VRQEDuw0;
+        "uWnLdkIu" = _uWnLdkIu;
         "datapack-26.1" = _v084xEI6;
         "datapack-26.1.1" = _v084xEI6;
         "datapack-26.1.2" = _v084xEI6;
         "datapack-26.2" = _v084xEI6;
-        "datapack-26.3" = _2rn5zV96;
+        "datapack-26.3" = _VRQEDuw0;
         "fabric-26.1" = _DCo3q0Ve;
         "fabric-26.1.1" = _DCo3q0Ve;
         "fabric-26.1.2" = _DCo3q0Ve;
         "fabric-26.2" = _DCo3q0Ve;
-        "fabric-26.3" = _io8q3P16;
+        "fabric-26.3" = _uWnLdkIu;
         "forge-26.1" = _DCo3q0Ve;
         "forge-26.1.1" = _DCo3q0Ve;
         "forge-26.1.2" = _DCo3q0Ve;
         "forge-26.2" = _DCo3q0Ve;
-        "forge-26.3" = _io8q3P16;
+        "forge-26.3" = _uWnLdkIu;
         "neoforge-26.1" = _DCo3q0Ve;
         "neoforge-26.1.1" = _DCo3q0Ve;
         "neoforge-26.1.2" = _DCo3q0Ve;
         "neoforge-26.2" = _DCo3q0Ve;
-        "neoforge-26.3" = _io8q3P16;
+        "neoforge-26.3" = _uWnLdkIu;
         "quilt-26.1" = _DCo3q0Ve;
         "quilt-26.1.1" = _DCo3q0Ve;
         "quilt-26.1.2" = _DCo3q0Ve;
         "quilt-26.2" = _DCo3q0Ve;
-        "quilt-26.3" = _io8q3P16;
+        "quilt-26.3" = _uWnLdkIu;
         "pkg-1.0" = _yfggIzVe;
         "pkg-1.0mod" = _cR8xEKB2;
         "pkg-1.1" = _9wpEfm8G;
         "pkg-1.1mod" = _Ryy4BRvh;
         "pkg-1.2" = _2rn5zV96;
         "pkg-1.2mod" = _io8q3P16;
-        "default" = _io8q3P16;
+        "pkg-1.3" = _VRQEDuw0;
+        "pkg-1.3mod" = _uWnLdkIu;
+        "default" = _uWnLdkIu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "smp-pvp-bot-carpet-mod";

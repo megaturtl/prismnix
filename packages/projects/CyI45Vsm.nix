@@ -36,6 +36,11 @@ let
             "file" = "Morphica.jar";
             "hash" = "sha512-iC3dkplgn2dQjJi0s6GICREmDNc3CpyBZDB9pkqtN4yWY4UNU0VLNkTiYb9igYExKRvpp2L+9oABu4n+qXQtyw==";
         };
+        _WhsDQk1s = {
+            "id" = "WhsDQk1s";
+            "file" = "morphica-26.3.jar";
+            "hash" = "sha512-k8ark0TOhHnbF14d7s+e7qv7JpJ14r66HaJn5rJubwM0nukE9MIBUSADfXH6/dTK9nkXt6LKB44VjsCFvdDlSA==";
+        };
     in {
         "kt0z9E6B" = _kt0z9E6B;
         "4WxBosWG" = _4WxBosWG;
@@ -44,10 +49,12 @@ let
         "bdimsVHm" = _bdimsVHm;
         "s4xRWeIg" = _s4xRWeIg;
         "yYRZLwAf" = _yYRZLwAf;
+        "WhsDQk1s" = _WhsDQk1s;
         "fabric-26.1" = _s4xRWeIg;
         "fabric-26.1.1" = _s4xRWeIg;
         "fabric-26.1.2" = _s4xRWeIg;
         "fabric-26.2" = _yYRZLwAf;
+        "fabric-26.3" = _WhsDQk1s;
         "pkg-1.0.0" = _kt0z9E6B;
         "pkg-1.1.3" = _4WxBosWG;
         "pkg-1.1.6" = _sSktKcdX;
@@ -55,7 +62,8 @@ let
         "pkg-1.3.8" = _bdimsVHm;
         "pkg-1.3.9" = _s4xRWeIg;
         "pkg-1.4.0" = _yYRZLwAf;
-        "default" = _yYRZLwAf;
+        "pkg-1.4.1" = _WhsDQk1s;
+        "default" = _WhsDQk1s;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "morphica";

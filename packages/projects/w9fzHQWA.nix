@@ -71,6 +71,51 @@ let
             "file" = "seedatlas-xaero-forge-26.3-xaero-1.47.0.jar";
             "hash" = "sha512-4qNonJaGg4o+sIaE/RZafD/aAROGTWlrHUS7A1Sb51x12fb+FKTL9azaPKtU3Xge03RL+gnaEssfsFmeNhB4xw==";
         };
+        _2kCh14Wg = {
+            "id" = "2kCh14Wg";
+            "file" = "seedatlas-xaero-2.0.0-mc26.1.2-fabric.jar";
+            "hash" = "sha512-8g7rjY+yewNRy6xfIQrtakBDQbHeanQmYqR1yQK4Zr9WRbFwG6YfFPXvUgHYCMVT/w4cCs42BS+I7JkutRXnsg==";
+        };
+        _wDrNLKzF = {
+            "id" = "wDrNLKzF";
+            "file" = "seedatlas-xaero-2.0.0-mc26.1.2-forge.jar";
+            "hash" = "sha512-IZZ+Y8HsIxXz7f9uYZHhGanSuyHUnsD1XzYBXpK6S5EoCQRrlm4QhnpYQbuUQDo12Ltjj0bjvRxuyBSPfCXNcA==";
+        };
+        _7KCOeYGO = {
+            "id" = "7KCOeYGO";
+            "file" = "seedatlas-xaero-2.0.0-mc26.1.2-neoforge.jar";
+            "hash" = "sha512-53G0V0XDv9OVBk+xqAFiQkFz4oRaFhD9zGmhkxgpTi0O/PYDfgDEHwj3xOs8oRLBBYrf0cHSwml2NGypTp2vAw==";
+        };
+        _XrzQKbma = {
+            "id" = "XrzQKbma";
+            "file" = "seedatlas-xaero-2.0.0-mc26.2-fabric.jar";
+            "hash" = "sha512-ZnCtICZGI+axAWWSS3vLY5LHCWqDf6upu1pO8UnPqe6Mz1JtDyGyj8HmPKLYw26X6fiNFiYGxSJo2BU8CYuWCA==";
+        };
+        _bzeSTfJj = {
+            "id" = "bzeSTfJj";
+            "file" = "seedatlas-xaero-2.0.0-mc26.2-forge.jar";
+            "hash" = "sha512-EmVyhTL3t/DQfaXbCp9H4xTdHCDKh5GUn6mQob4UWC5EPDlxpoMXKgJM1YVdfWALzhhiqLnY8a/R5zgq/aNEcA==";
+        };
+        _F7Yx1Ryw = {
+            "id" = "F7Yx1Ryw";
+            "file" = "seedatlas-xaero-2.0.0-mc26.2-neoforge.jar";
+            "hash" = "sha512-Vag/rOmgj25yHdOz1sIz1BXCcBXfL6Jf/n6QP93d7TR5+LvBnJD/bOvv+jGqncR0MZRiX3MRg2ogaFWCB+EPLA==";
+        };
+        _VTKOOPIK = {
+            "id" = "VTKOOPIK";
+            "file" = "seedatlas-xaero-2.0.0-mc26.3-fabric.jar";
+            "hash" = "sha512-7fgl+gSddVJnLyUl+rayz2/gH47SEKgSrmPuKPgeOb4xsP5HCoFsRYPKc3Z/u4hpHlTyA6iEjdxeqkm/fMIH9Q==";
+        };
+        _FTlaQOtq = {
+            "id" = "FTlaQOtq";
+            "file" = "seedatlas-xaero-2.0.0-mc26.3-forge.jar";
+            "hash" = "sha512-oYbTwtfr/jgmEBSlIUIZ/2qkzCQ56efu/qqgJ2eV21Bku15A4V55DnSMXT4qAcapVIYX7Ut4VytLJUZ+oUXX8A==";
+        };
+        _bTeOSz0M = {
+            "id" = "bTeOSz0M";
+            "file" = "seedatlas-xaero-2.0.0-mc26.3-neoforge.jar";
+            "hash" = "sha512-tmNfdzRTTk2FqPZxOBNwSQhiV+B4Xna4zLZ/2uUmsiECMoF9/eE0CTzS6ZaXtCd/LAOATjS0WshK4lWi0vYrjQ==";
+        };
     in {
         "YVVcKP7y" = _YVVcKP7y;
         "4dKB7pWW" = _4dKB7pWW;
@@ -86,13 +131,24 @@ let
         "6aqCU9DA" = _6aqCU9DA;
         "a2we0JmG" = _a2we0JmG;
         "ofRk10v9" = _ofRk10v9;
-        "fabric-26.2" = _pY4yog1d;
-        "fabric-26.1.2" = _4dKB7pWW;
-        "fabric-26.3" = _RV2jwgVq;
-        "neoforge-26.2" = _haMnrfqe;
-        "neoforge-26.3" = _6aqCU9DA;
-        "forge-26.2" = _a2we0JmG;
-        "forge-26.3" = _ofRk10v9;
+        "2kCh14Wg" = _2kCh14Wg;
+        "wDrNLKzF" = _wDrNLKzF;
+        "7KCOeYGO" = _7KCOeYGO;
+        "XrzQKbma" = _XrzQKbma;
+        "bzeSTfJj" = _bzeSTfJj;
+        "F7Yx1Ryw" = _F7Yx1Ryw;
+        "VTKOOPIK" = _VTKOOPIK;
+        "FTlaQOtq" = _FTlaQOtq;
+        "bTeOSz0M" = _bTeOSz0M;
+        "fabric-26.2" = _XrzQKbma;
+        "fabric-26.1.2" = _2kCh14Wg;
+        "fabric-26.3" = _VTKOOPIK;
+        "neoforge-26.2" = _F7Yx1Ryw;
+        "neoforge-26.3" = _bTeOSz0M;
+        "neoforge-26.1.2" = _7KCOeYGO;
+        "forge-26.2" = _bzeSTfJj;
+        "forge-26.3" = _FTlaQOtq;
+        "forge-26.1.2" = _wDrNLKzF;
         "pkg-26.2" = _V6jm1CrK;
         "pkg-26.1.2" = _4dKB7pWW;
         "pkg-26.3" = _scHp8Eml;
@@ -100,7 +156,16 @@ let
         "pkg-1.1-26.3" = _7CFdY0ey;
         "pkg-1.1.1-26.2" = _a2we0JmG;
         "pkg-1.1.1-26.3" = _ofRk10v9;
-        "default" = _ofRk10v9;
+        "pkg-2.0.0-mc26.1.2-fabric" = _2kCh14Wg;
+        "pkg-2.0.0-mc26.1.2-forge" = _wDrNLKzF;
+        "pkg-2.0.0-mc26.1.2-neoforge" = _7KCOeYGO;
+        "pkg-2.0.0-mc26.2-fabric" = _XrzQKbma;
+        "pkg-2.0.0-mc26.2-forge" = _bzeSTfJj;
+        "pkg-2.0.0-mc26.2-neoforge" = _F7Yx1Ryw;
+        "pkg-2.0.0-mc26.3-fabric" = _VTKOOPIK;
+        "pkg-2.0.0-mc26.3-forge" = _FTlaQOtq;
+        "pkg-2.0.0-mc26.3-neoforge" = _bTeOSz0M;
+        "default" = _bTeOSz0M;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "seed-atlas";

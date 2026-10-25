@@ -11,9 +11,21 @@ let
             "file" = "japanese-castle-1.0.jar";
             "hash" = "sha512-X0PwmcGdbByvl/SaMdqwgF/A18aJOfRIy33ylTegR9gbhxyHbsB3W03SEvMvHGNA2fNXw4bFPs2L9YLs0utSZw==";
         };
+        _bjtFoTE8 = {
+            "id" = "bjtFoTE8";
+            "file" = "japanese-castle.zip";
+            "hash" = "sha512-wR9G/E/WJ4s6YPmdjwlXXIXUoPUtIegir6XlgV3vJbBDbqheFD4AfrdJI0jKtCk2V4Vn4Qg+LvXt2Uf886b8pA==";
+        };
+        _G9NmuNN6 = {
+            "id" = "G9NmuNN6";
+            "file" = "japanese-castle-1.0.0.jar";
+            "hash" = "sha512-1tpowHOoPHkUGJjIJCENF9WdTDhAIpgUkGuIr41f/gEg8WOLTJzb7r1vCig7GW8XlI9GywRElJjx3oSg4jsQsg==";
+        };
     in {
         "PaJVk0aj" = _PaJVk0aj;
         "cQIZ8NdJ" = _cQIZ8NdJ;
+        "bjtFoTE8" = _bjtFoTE8;
+        "G9NmuNN6" = _G9NmuNN6;
         "datapack-1.21" = _PaJVk0aj;
         "datapack-1.21.1" = _PaJVk0aj;
         "datapack-1.21.2" = _PaJVk0aj;
@@ -26,6 +38,11 @@ let
         "datapack-1.21.9" = _PaJVk0aj;
         "datapack-1.21.10" = _PaJVk0aj;
         "datapack-1.21.11" = _PaJVk0aj;
+        "datapack-26.1" = _bjtFoTE8;
+        "datapack-26.1.1" = _bjtFoTE8;
+        "datapack-26.1.2" = _bjtFoTE8;
+        "datapack-26.2" = _bjtFoTE8;
+        "datapack-26.3" = _bjtFoTE8;
         "fabric-1.21" = _cQIZ8NdJ;
         "fabric-1.21.1" = _cQIZ8NdJ;
         "fabric-1.21.2" = _cQIZ8NdJ;
@@ -38,6 +55,11 @@ let
         "fabric-1.21.9" = _cQIZ8NdJ;
         "fabric-1.21.10" = _cQIZ8NdJ;
         "fabric-1.21.11" = _cQIZ8NdJ;
+        "fabric-26.1" = _G9NmuNN6;
+        "fabric-26.1.1" = _G9NmuNN6;
+        "fabric-26.1.2" = _G9NmuNN6;
+        "fabric-26.2" = _G9NmuNN6;
+        "fabric-26.3" = _G9NmuNN6;
         "forge-1.21" = _cQIZ8NdJ;
         "forge-1.21.1" = _cQIZ8NdJ;
         "forge-1.21.2" = _cQIZ8NdJ;
@@ -50,6 +72,11 @@ let
         "forge-1.21.9" = _cQIZ8NdJ;
         "forge-1.21.10" = _cQIZ8NdJ;
         "forge-1.21.11" = _cQIZ8NdJ;
+        "forge-26.1" = _G9NmuNN6;
+        "forge-26.1.1" = _G9NmuNN6;
+        "forge-26.1.2" = _G9NmuNN6;
+        "forge-26.2" = _G9NmuNN6;
+        "forge-26.3" = _G9NmuNN6;
         "neoforge-1.21" = _cQIZ8NdJ;
         "neoforge-1.21.1" = _cQIZ8NdJ;
         "neoforge-1.21.2" = _cQIZ8NdJ;
@@ -62,6 +89,11 @@ let
         "neoforge-1.21.9" = _cQIZ8NdJ;
         "neoforge-1.21.10" = _cQIZ8NdJ;
         "neoforge-1.21.11" = _cQIZ8NdJ;
+        "neoforge-26.1" = _G9NmuNN6;
+        "neoforge-26.1.1" = _G9NmuNN6;
+        "neoforge-26.1.2" = _G9NmuNN6;
+        "neoforge-26.2" = _G9NmuNN6;
+        "neoforge-26.3" = _G9NmuNN6;
         "quilt-1.21" = _cQIZ8NdJ;
         "quilt-1.21.1" = _cQIZ8NdJ;
         "quilt-1.21.2" = _cQIZ8NdJ;
@@ -74,9 +106,16 @@ let
         "quilt-1.21.9" = _cQIZ8NdJ;
         "quilt-1.21.10" = _cQIZ8NdJ;
         "quilt-1.21.11" = _cQIZ8NdJ;
+        "quilt-26.1" = _G9NmuNN6;
+        "quilt-26.1.1" = _G9NmuNN6;
+        "quilt-26.1.2" = _G9NmuNN6;
+        "quilt-26.2" = _G9NmuNN6;
+        "quilt-26.3" = _G9NmuNN6;
         "pkg-1.0" = _PaJVk0aj;
         "pkg-1.0+mod" = _cQIZ8NdJ;
-        "default" = _cQIZ8NdJ;
+        "pkg-1.0.0" = _bjtFoTE8;
+        "pkg-1.0.0+mod" = _G9NmuNN6;
+        "default" = _G9NmuNN6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "japanese-castle";

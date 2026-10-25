@@ -56,6 +56,11 @@ let
             "file" = "oldcannons-1.0.4-FABRIC-MC-26.3.jar";
             "hash" = "sha512-80wtV9rZw5VkvFRf2tXFXSTFTL27oyXsR51qPHRVsNrQq+aaNVeiilP3L87lx48hOiMJ448EmDjH448U3PsdQg==";
         };
+        _jy0ObmVg = {
+            "id" = "jy0ObmVg";
+            "file" = "oldcannons-1.0.5-FABRIC-MC-1.21.11.jar";
+            "hash" = "sha512-y87GBgSyAxS9UDF9zqTlOjMdUoadbrq3UI84PG7+sUjgHktiRXTWKvY9K/YXuu2HRTa8d7T8DsnL1suCvOL7jw==";
+        };
     in {
         "igdHp8Um" = _igdHp8Um;
         "5rkYtiaa" = _5rkYtiaa;
@@ -68,11 +73,12 @@ let
         "m2qnEwSv" = _m2qnEwSv;
         "kLRXnVza" = _kLRXnVza;
         "Lpxyj63b" = _Lpxyj63b;
+        "jy0ObmVg" = _jy0ObmVg;
         "fabric-26.1" = _lAHGLvCU;
         "fabric-26.1.1" = _lAHGLvCU;
         "fabric-26.1.2" = _lAHGLvCU;
         "fabric-26.2" = _BhUjWo1M;
-        "fabric-1.21.11" = _jUcuwBmV;
+        "fabric-1.21.11" = _jy0ObmVg;
         "fabric-1.21.1" = _agX0Iiva;
         "fabric-1.20.1" = _kLRXnVza;
         "fabric-26.3" = _Lpxyj63b;
@@ -82,7 +88,8 @@ let
         "pkg-1.0.3" = _UtkxqJgr;
         "pkg-1.0.4" = _Lpxyj63b;
         "pkg-1.0.3.5" = _m2qnEwSv;
-        "default" = _Lpxyj63b;
+        "pkg-1.0.5" = _jy0ObmVg;
+        "default" = _jy0ObmVg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "oldcannons";

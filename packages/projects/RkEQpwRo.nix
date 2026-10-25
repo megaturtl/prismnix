@@ -116,6 +116,21 @@ let
             "file" = "AutoThirdPerson-26.3.jar";
             "hash" = "sha512-xMlhsW98VNi3R1c1QeZAk0WCkr2aPBB4sbIFCrIPKwwKdgVDbPxNjxtdAcTja7MPFg/KQGl+mXa+DYplPEAS7Q==";
         };
+        _IG3LbCck = {
+            "id" = "IG3LbCck";
+            "file" = "AutoThirdPerson-1.1.0+26.2.jar";
+            "hash" = "sha512-2CV8ABKFKCGqMzG0JWhH8Qw6P5ygjx/sekVdtbNZgulIOHUNZ/KfVxpz1raGBHywBDxoi56DDwWqwKIPSJMbyg==";
+        };
+        _qkoZs5It = {
+            "id" = "qkoZs5It";
+            "file" = "autothirdperson-1.0.0+26.x.jar";
+            "hash" = "sha512-QpIykfyKifGwQmXhLzzrVroxSFVik9G3Hmm/iMe5BFqtuUNu67MX79MYRqf8wlRAsIjRQSW3nJeuUFVwKn0SOw==";
+        };
+        _y9zZ4CPl = {
+            "id" = "y9zZ4CPl";
+            "file" = "autothirdperson-1.0.0+26.x.jar";
+            "hash" = "sha512-Ba7Eum7ITVd0ad0czqJmM2ro4O5gp3rb7T3EvwrsCBaSawhqmD5fcPCF7lYZBS/VIHZL9syg9vtGm3zdvNSbyw==";
+        };
     in {
         "LcnLF0bD" = _LcnLF0bD;
         "uHmhqLwH" = _uHmhqLwH;
@@ -140,16 +155,19 @@ let
         "19VFlSl0" = _19VFlSl0;
         "rcoGDptY" = _rcoGDptY;
         "bBr4llwJ" = _bBr4llwJ;
+        "IG3LbCck" = _IG3LbCck;
+        "qkoZs5It" = _qkoZs5It;
+        "y9zZ4CPl" = _y9zZ4CPl;
         "fabric-1.21.6" = _LcnLF0bD;
         "fabric-1.21.7" = _uHmhqLwH;
         "fabric-1.21.8" = _fcpvBxvX;
         "fabric-1.21.9" = _fcpvBxvX;
         "fabric-1.21.10" = _fcpvBxvX;
         "fabric-1.21.11" = _h1vK33EX;
-        "fabric-26.1" = _MEkiFq0B;
-        "fabric-26.1.1" = _MEkiFq0B;
-        "fabric-26.1.2" = _MEkiFq0B;
-        "fabric-26.2" = _MEkiFq0B;
+        "fabric-26.1" = _IG3LbCck;
+        "fabric-26.1.1" = _IG3LbCck;
+        "fabric-26.1.2" = _IG3LbCck;
+        "fabric-26.2" = _IG3LbCck;
         "fabric-1.20.1" = _GE9VjBa1;
         "fabric-1.20.2" = _GE9VjBa1;
         "fabric-1.20.3" = _GE9VjBa1;
@@ -158,16 +176,16 @@ let
         "fabric-1.20.6" = _GE9VjBa1;
         "fabric-1.21.1" = _28TowPoV;
         "fabric-26.3" = _bBr4llwJ;
-        "forge-26.1" = _p2x7vU6s;
-        "forge-26.1.1" = _p2x7vU6s;
-        "forge-26.1.2" = _p2x7vU6s;
-        "forge-26.2" = _p2x7vU6s;
+        "forge-26.1" = _qkoZs5It;
+        "forge-26.1.1" = _qkoZs5It;
+        "forge-26.1.2" = _qkoZs5It;
+        "forge-26.2" = _qkoZs5It;
         "forge-1.20.1" = _2bXFmMOI;
         "forge-26.3" = _bBr4llwJ;
-        "neoforge-26.1" = _N38UjMXu;
-        "neoforge-26.1.1" = _N38UjMXu;
-        "neoforge-26.1.2" = _N38UjMXu;
-        "neoforge-26.2" = _N38UjMXu;
+        "neoforge-26.1" = _y9zZ4CPl;
+        "neoforge-26.1.1" = _y9zZ4CPl;
+        "neoforge-26.1.2" = _y9zZ4CPl;
+        "neoforge-26.2" = _y9zZ4CPl;
         "neoforge-1.21.1" = _jWLpcHg0;
         "neoforge-1.21.5" = _NZ4cG3Q1;
         "neoforge-1.21.8" = _19VFlSl0;
@@ -175,7 +193,8 @@ let
         "neoforge-26.3" = _bBr4llwJ;
         "pkg-1.0" = _bBr4llwJ;
         "pkg-1.1" = _rcoGDptY;
-        "default" = _bBr4llwJ;
+        "pkg-1.2" = _y9zZ4CPl;
+        "default" = _y9zZ4CPl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "auto-third-person-official";

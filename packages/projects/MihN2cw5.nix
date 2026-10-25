@@ -396,6 +396,11 @@ let
             "file" = "Vanishmod-26.3-1.1.21.jar";
             "hash" = "sha512-v1yc8uCwcSw7I1D0EaiK4CAQhr569n/Do1HVE6mKGMU2ZAMc42MtsvnHebJJWuQn8fGutaSp+SqKdaMwI+/GCA==";
         };
+        _ejmhJsjw = {
+            "id" = "ejmhJsjw";
+            "file" = "Vanishmod-26.3-1.1.21.1.jar";
+            "hash" = "sha512-pJm4fL00D4ugFE+vahAaiMFHxAmUo3zRvLfRfwnbij3K2dhPdpS5pgsDTU6+HwMSzp361bUQzEwQhKmodACOfA==";
+        };
     in {
         "JQEkcrj4" = _JQEkcrj4;
         "6JmS3MpG" = _6JmS3MpG;
@@ -476,6 +481,7 @@ let
         "iVEuBaPo" = _iVEuBaPo;
         "ZffjwCMj" = _ZffjwCMj;
         "VI8r6Gnt" = _VI8r6Gnt;
+        "ejmhJsjw" = _ejmhJsjw;
         "forge-1.16.5" = _JQEkcrj4;
         "forge-1.18.2" = _qfRnh9ez;
         "forge-1.19.2" = _hZKxu8GI;
@@ -499,7 +505,7 @@ let
         "neoforge-1.21.11" = _iVEuBaPo;
         "neoforge-26.1.2" = _iVEuBaPo;
         "neoforge-26.2" = _ZffjwCMj;
-        "neoforge-26.3" = _VI8r6Gnt;
+        "neoforge-26.3" = _ejmhJsjw;
         "pkg-v1.1.6" = _JQEkcrj4;
         "pkg-v1.1.8" = _tpkYzAwf;
         "pkg-v1.1.9" = _PZZycs0w;
@@ -524,7 +530,8 @@ let
         "pkg-1.1.19.1" = _ZqDGQbfq;
         "pkg-1.1.20" = _zPRJFcoL;
         "pkg-1.1.21" = _VI8r6Gnt;
-        "default" = _VI8r6Gnt;
+        "pkg-1.1.21.1" = _ejmhJsjw;
+        "default" = _ejmhJsjw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanishmod";

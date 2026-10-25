@@ -71,6 +71,11 @@ let
             "file" = "phantoms-in-the-end-1.0.2+26.2.X.jar";
             "hash" = "sha512-ZiNgNhS6puSZb4kHwztpIa979AsBo06Z14sEYx7grdNlNEidsOYW5VIdSPY1q7vX2yIqe8MmKJReLVqd8SKzwA==";
         };
+        _mKAWVySv = {
+            "id" = "mKAWVySv";
+            "file" = "phantoms-in-the-end-1.0.2+26.3.X.jar";
+            "hash" = "sha512-a7w3zNKcp4/Y0+McqZWyFolhzU68SOieNoCSADFlGwYRx/vjyJ4sYxKGkgowsm/VGQP/hUFk3oqJXAZ/xjLXXA==";
+        };
     in {
         "afYisnD7" = _afYisnD7;
         "tEarITqm" = _tEarITqm;
@@ -86,6 +91,7 @@ let
         "x80QbG1m" = _x80QbG1m;
         "DHYTC8Hn" = _DHYTC8Hn;
         "4bCdpEtQ" = _4bCdpEtQ;
+        "mKAWVySv" = _mKAWVySv;
         "fabric-1.21.4" = _ankGHFSy;
         "fabric-1.21.5" = _sZIa3Z46;
         "fabric-1.21.6" = _bNNYmNYx;
@@ -98,6 +104,7 @@ let
         "fabric-26.1.1" = _x80QbG1m;
         "fabric-26.1.2" = _DHYTC8Hn;
         "fabric-26.2" = _4bCdpEtQ;
+        "fabric-26.3" = _mKAWVySv;
         "pkg-1.0.0" = _tEarITqm;
         "pkg-1.0.1" = _1MX7UwU8;
         "pkg-1.0.2" = _sQuCcVbK;
@@ -106,7 +113,8 @@ let
         "pkg-1.0.2+26.1.1" = _x80QbG1m;
         "pkg-1.0.2+26.1.X" = _DHYTC8Hn;
         "pkg-1.0.2+26.2.X" = _4bCdpEtQ;
-        "default" = _4bCdpEtQ;
+        "pkg-1.0.2+26.3.X" = _mKAWVySv;
+        "default" = _mKAWVySv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "phantoms-in-the-end";

@@ -51,6 +51,11 @@ let
             "file" = "Morph-o-Tool-1.8-39.jar";
             "hash" = "sha512-BJ7+BXNxAB5Nu2sSx4MBcVf+TDwzYE6lYQh3xYUjP9Fe1vpz6WpBrejYdX3rykvy2+Y/e4wNJTkdZVvJK63jNQ==";
         };
+        _1UplNZbT = {
+            "id" = "1UplNZbT";
+            "file" = "Morph-o-Tool-1.8-40.jar";
+            "hash" = "sha512-Hrl+dFIiOPT9x8kV5ddGBtYNGE2Vwus29V4vZ4t8sfujLBI3ttdWCZeyacHMsxRJua6kg1bueZWmZBO4SJoV2g==";
+        };
     in {
         "k7G5h4g5" = _k7G5h4g5;
         "lrSMe5yJ" = _lrSMe5yJ;
@@ -62,13 +67,14 @@ let
         "TVNGQu54" = _TVNGQu54;
         "CItFodYh" = _CItFodYh;
         "XVhB7EX7" = _XVhB7EX7;
+        "1UplNZbT" = _1UplNZbT;
         "forge-1.15.2" = _k7G5h4g5;
         "forge-1.16.5" = _lrSMe5yJ;
         "forge-1.18.2" = _x9OHZ7m4;
         "forge-1.19.2" = _TVNGQu54;
         "forge-1.12.2" = _UOq3HezC;
         "forge-1.20.1" = _CItFodYh;
-        "neoforge-1.21.1" = _XVhB7EX7;
+        "neoforge-1.21.1" = _1UplNZbT;
         "pkg-1.3-23" = _k7G5h4g5;
         "pkg-1.4-27" = _lrSMe5yJ;
         "pkg-1.5-32" = _x9OHZ7m4;
@@ -79,7 +85,8 @@ let
         "pkg-1.19.2-1.6-37" = _TVNGQu54;
         "pkg-1.20.1-1.7-38" = _CItFodYh;
         "pkg-1.21.1-1.8-39" = _XVhB7EX7;
-        "default" = _XVhB7EX7;
+        "pkg-1.21.1-1.8-40" = _1UplNZbT;
+        "default" = _1UplNZbT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "morph-o-tool";

@@ -71,6 +71,11 @@ let
             "file" = "aeroweather-1.6.3.jar";
             "hash" = "sha512-DQDWRbwJV2JnPKq0ua8NRrp7AcRGmFav0WTQkC4+QbSmlGEhtjYDPV3JFmNVBzqQKqUYpD/VZWc8CM9RIqT9FA==";
         };
+        _6hJ3azUI = {
+            "id" = "6hJ3azUI";
+            "file" = "aeroweather-1.6.4.jar";
+            "hash" = "sha512-CfRpvf6jp+VXtpKR3jSQ+eFzNJerUARURNkqwSs0g+jYCZp2ohmHL+6CikQHZEfAIv0k2xy3TrvLb6Czf7L7Qg==";
+        };
     in {
         "CWcdZWtk" = _CWcdZWtk;
         "RTgHDDcZ" = _RTgHDDcZ;
@@ -86,7 +91,8 @@ let
         "CoReAXTd" = _CoReAXTd;
         "so5TrfRQ" = _so5TrfRQ;
         "ASducgXt" = _ASducgXt;
-        "neoforge-1.21.1" = _ASducgXt;
+        "6hJ3azUI" = _6hJ3azUI;
+        "neoforge-1.21.1" = _6hJ3azUI;
         "pkg-1.0.0" = _CWcdZWtk;
         "pkg-1.1.0" = _RTgHDDcZ;
         "pkg-1.2.0" = _L6LEoBWf;
@@ -101,7 +107,8 @@ let
         "pkg-1.6.1" = _CoReAXTd;
         "pkg-1.6.2" = _so5TrfRQ;
         "pkg-1.6.3" = _ASducgXt;
-        "default" = _ASducgXt;
+        "pkg-1.6.4" = _6hJ3azUI;
+        "default" = _6hJ3azUI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "aeroweather";

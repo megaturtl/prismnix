@@ -86,6 +86,16 @@ let
             "file" = "aftershock-fabric-1.21.1-1.0.1.jar";
             "hash" = "sha512-oZId5P70doEIRgpUrk5i6imqfWJ5vG9lvJHx2+s9EyYI6MleQ29oA3kP8RK2G92WT3/SXEpFM3WPoJbc64KsTQ==";
         };
+        _kgV4O5gw = {
+            "id" = "kgV4O5gw";
+            "file" = "aftershock-neoforge-1.21.1-1.0.2.jar";
+            "hash" = "sha512-HvN/lkxRS6FXEfTx9wLQSXZj9AeZklIJHWnKWiBOXjUy+kJNcmDVWHX4sBcEBQ2rhwhsGt2N3sAaTRhC8IM/iQ==";
+        };
+        _PDflkEEU = {
+            "id" = "PDflkEEU";
+            "file" = "aftershock-fabric-1.21.1-1.0.2.jar";
+            "hash" = "sha512-QHci9MzczaqEOi+U+YJ/NTw/SSgmN3CIedbDE+3xrCBXJP6UjcTxK8Fr9wibQKMsQsOlMCpllTjYioZu9cC2Fw==";
+        };
     in {
         "3BB1LdRJ" = _3BB1LdRJ;
         "1tJ3Kq6T" = _1tJ3Kq6T;
@@ -104,11 +114,13 @@ let
         "RDBMbq3W" = _RDBMbq3W;
         "dsIsCE3M" = _dsIsCE3M;
         "LaKRLtZF" = _LaKRLtZF;
+        "kgV4O5gw" = _kgV4O5gw;
+        "PDflkEEU" = _PDflkEEU;
         "fabric-1.20.1" = _DiLJv7Yd;
-        "fabric-1.21.1" = _LaKRLtZF;
+        "fabric-1.21.1" = _PDflkEEU;
         "quilt-1.20.1" = _DiLJv7Yd;
         "forge-1.20.1" = _h4Oi3Z8G;
-        "neoforge-1.21.1" = _dsIsCE3M;
+        "neoforge-1.21.1" = _kgV4O5gw;
         "pkg-0.0.1" = _3BB1LdRJ;
         "pkg-0.0.2" = _1tJ3Kq6T;
         "pkg-0.0.3" = _w6c5EMsA;
@@ -120,7 +132,8 @@ let
         "pkg-0.0.8" = _h4Oi3Z8G;
         "pkg-1.0.0" = _RDBMbq3W;
         "pkg-1.0.1" = _LaKRLtZF;
-        "default" = _LaKRLtZF;
+        "pkg-1.0.2" = _PDflkEEU;
+        "default" = _PDflkEEU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "aftershock";

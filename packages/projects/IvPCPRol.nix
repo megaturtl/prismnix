@@ -176,6 +176,16 @@ let
             "file" = "Trails&Tales+-V1.1-Neoforge-26.3.jar";
             "hash" = "sha512-R0loNG/n7XqYw8En/e1aIHS1syT93+vFOM0HrVFIzA3MyBHcP0gognONz9gwGYJV0B60aqm4JG3GO/NfUcbbnA==";
         };
+        _aillpzZl = {
+            "id" = "aillpzZl";
+            "file" = "Trails&TalesPlus-V1.2-Neoforge-26.3.jar";
+            "hash" = "sha512-md9NDbe9BocuAFc7WdN6gvOqikV196Rvyv+cIvdLOyTdcmIcgU8n8PpOVB3ZG7s/xAqQxN6Y807unMBz59gWeg==";
+        };
+        _yY3QLFwk = {
+            "id" = "yY3QLFwk";
+            "file" = "Trails&TalesPlus-V1.2-Forge-26.3.jar";
+            "hash" = "sha512-lAiT2LEM0CMEcFxJb5KvPq51zvuV+6u9w6/qMicMP1nz1zcofvAIwCZzhsFHfMsWE5o4PlRWsjisnAwwE/qJUw==";
+        };
     in {
         "KE7rlnxK" = _KE7rlnxK;
         "qEy7SV9e" = _qEy7SV9e;
@@ -212,6 +222,8 @@ let
         "zBcXoC00" = _zBcXoC00;
         "z8H8miOC" = _z8H8miOC;
         "aHbUC4Do" = _aHbUC4Do;
+        "aillpzZl" = _aillpzZl;
+        "yY3QLFwk" = _yY3QLFwk;
         "forge-1.20" = _KE7rlnxK;
         "forge-1.20.1" = _qEy7SV9e;
         "forge-1.21.1" = _FM4CNHLw;
@@ -227,7 +239,7 @@ let
         "forge-26.1.1" = _mpJeEOxf;
         "forge-26.1.2" = _mpJeEOxf;
         "forge-26.2" = _FpDzhrHR;
-        "forge-26.3" = _z8H8miOC;
+        "forge-26.3" = _yY3QLFwk;
         "neoforge-1.21.1" = _WOvaOhzl;
         "neoforge-1.21.4" = _EIybIGbp;
         "neoforge-1.21.5" = _uFbvqZQg;
@@ -241,7 +253,7 @@ let
         "neoforge-26.1.1" = _v4fxWtA5;
         "neoforge-26.1.2" = _v4fxWtA5;
         "neoforge-26.2" = _uaWTS4PD;
-        "neoforge-26.3" = _aHbUC4Do;
+        "neoforge-26.3" = _aillpzZl;
         "pkg-1.20-1.0" = _KE7rlnxK;
         "pkg-1.20.1-1.0.0" = _qEy7SV9e;
         "pkg-1.0.0" = _z8H8miOC;
@@ -251,7 +263,9 @@ let
         "pkg-3.1.0" = _lWeQI8ui;
         "pkg-1.2.0" = _mpJeEOxf;
         "pkg-V1.1-Neoforge-26.3" = _aHbUC4Do;
-        "default" = _aHbUC4Do;
+        "pkg-V1.2-Neoforge-26.3" = _aillpzZl;
+        "pkg-V1.2-Forge-26.3" = _yY3QLFwk;
+        "default" = _yY3QLFwk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trails-and-tales-plus";

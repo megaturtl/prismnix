@@ -51,6 +51,46 @@ let
             "file" = "AutoTotem-26.3.jar";
             "hash" = "sha512-2jmNkgkjmX/Yun5h0ZocTYKiKTCSg+0EqjwiGM1gn2NusICFzg7GOaCuYZISEB8PEVUuE/4S8wXbOi/5Fv8tsQ==";
         };
+        _NLVDFtGh = {
+            "id" = "NLVDFtGh";
+            "file" = "AutoTotem-26.3.jar";
+            "hash" = "sha512-IzqNebtm2vbylIXgbVZhzYDkBuODzswfA4boUUjlZIrpopmb4oea81tSnpVsHV0VRcM2faVuxI3uZ4BdMU+IfQ==";
+        };
+        _h8ANFbed = {
+            "id" = "h8ANFbed";
+            "file" = "autototem-1.0.0.jar";
+            "hash" = "sha512-i0U9Bh1RITBdGnUJeULt/cHO6qGDRJtJ9eaiU9Oc3Q82mSk/s1NzIsnSB1XUbQL4o1O5EDFgCTfIo59UCuRe4Q==";
+        };
+        _rN4MT1y3 = {
+            "id" = "rN4MT1y3";
+            "file" = "autototem-1.0.0.jar";
+            "hash" = "sha512-nUyKYDUrtpbRfzsM51sZikbNp9zuJU6fMJRJetDDsevdsJKkcSvq5pksr4XdT/kecZa7x0NLTUVihvonTeDLOA==";
+        };
+        _NOu4eiLS = {
+            "id" = "NOu4eiLS";
+            "file" = "autototem-1.0.0.jar";
+            "hash" = "sha512-djImlZClKXps7WmGqA8tGD8xeIYYACggllpJy99hKQyAcKoWOqI2jVfB7n2fFLhJjcdsbMgV7/28TsQhbs1KNA==";
+        };
+        _SIs7vDfq = {
+            "id" = "SIs7vDfq";
+            "file" = "autototem-1.0.0.jar";
+            "hash" = "sha512-gwCe/U4Zrq23xgSFDSYzYe4C0GheADO5DtgJzljkGlnGnEJco9gSDFmRl4h82TYqKz5sFDPGmCdSyqYGhuq4zw==";
+        };
+        _aBWYIOj9 = {
+            "id" = "aBWYIOj9";
+            "file" = "autototem-1.0.0.jar";
+            "hash" = "sha512-hlYBoeVJwBb/nLa0m/2Gr29m5S3PjNt0ZkgVirxq9oC21BEspJ6/K5VlaCpNd7OvGb+VGAJJwzluAgM4bUuWdw==";
+        };
+        _QwXdcpEw = {
+            "id" = "QwXdcpEw";
+            "file" = "autototem-1.0.0.jar";
+            "hash" = "sha512-0nudWp2LltfVPlQs192XZT1HdJAttBJztIE9O1D/xIQrZn7geHqxQo2WtDwoTFbarcmU8m+jnmVj5oL+k59JLw==";
+        };
+        _a96br89m = {
+            "id" = "a96br89m";
+            "file" = "autototem-1.0.jar";
+            "hash" = "sha512-hpG7KkF6aQLCRkWoGXbty46FPM/UWkZtmnFOo4yopoCZh5pkaTNfFAoNqZKQaQUvXrln9h6NIZU+fPSi14Ogmw==";
+        };
     in {
         "4EhgLibU" = _4EhgLibU;
         "FbwYaYqk" = _FbwYaYqk;
@@ -62,37 +102,46 @@ let
         "GTzwCUjv" = _GTzwCUjv;
         "Zn7pZxBN" = _Zn7pZxBN;
         "ytkLmYaD" = _ytkLmYaD;
-        "forge-1.20.1" = _4EhgLibU;
-        "forge-1.20.2" = _4EhgLibU;
-        "forge-1.20.3" = _4EhgLibU;
-        "forge-1.20.4" = _4EhgLibU;
-        "forge-26.1" = _FbwYaYqk;
-        "forge-26.1.1" = _FbwYaYqk;
-        "forge-26.1.2" = _FbwYaYqk;
-        "forge-26.2" = _FbwYaYqk;
+        "NLVDFtGh" = _NLVDFtGh;
+        "h8ANFbed" = _h8ANFbed;
+        "rN4MT1y3" = _rN4MT1y3;
+        "NOu4eiLS" = _NOu4eiLS;
+        "SIs7vDfq" = _SIs7vDfq;
+        "aBWYIOj9" = _aBWYIOj9;
+        "QwXdcpEw" = _QwXdcpEw;
+        "a96br89m" = _a96br89m;
+        "forge-1.20.1" = _a96br89m;
+        "forge-1.20.2" = _a96br89m;
+        "forge-1.20.3" = _a96br89m;
+        "forge-1.20.4" = _a96br89m;
+        "forge-26.1" = _rN4MT1y3;
+        "forge-26.1.1" = _rN4MT1y3;
+        "forge-26.1.2" = _rN4MT1y3;
+        "forge-26.2" = _rN4MT1y3;
         "forge-1.19.2" = _GTzwCUjv;
         "forge-1.19.4" = _Zn7pZxBN;
-        "forge-26.3" = _ytkLmYaD;
-        "neoforge-26.1" = _z8JFtjzj;
-        "neoforge-26.1.1" = _z8JFtjzj;
-        "neoforge-26.1.2" = _z8JFtjzj;
-        "neoforge-26.2" = _z8JFtjzj;
-        "neoforge-1.21.1" = _twKqvh7X;
-        "neoforge-26.3" = _ytkLmYaD;
-        "fabric-26.1" = _b9B1XQqy;
-        "fabric-26.1.1" = _b9B1XQqy;
-        "fabric-26.1.2" = _b9B1XQqy;
-        "fabric-26.2" = _b9B1XQqy;
-        "fabric-1.20.1" = _crAvRN78;
-        "fabric-1.20.2" = _crAvRN78;
-        "fabric-1.20.3" = _crAvRN78;
-        "fabric-1.20.4" = _crAvRN78;
-        "fabric-1.20.5" = _crAvRN78;
-        "fabric-1.20.6" = _crAvRN78;
-        "fabric-1.21.1" = _DQBb3O09;
-        "fabric-26.3" = _ytkLmYaD;
+        "forge-26.3" = _NLVDFtGh;
+        "neoforge-26.1" = _NOu4eiLS;
+        "neoforge-26.1.1" = _NOu4eiLS;
+        "neoforge-26.1.2" = _NOu4eiLS;
+        "neoforge-26.2" = _NOu4eiLS;
+        "neoforge-1.21.1" = _aBWYIOj9;
+        "neoforge-26.3" = _NLVDFtGh;
+        "fabric-26.1" = _h8ANFbed;
+        "fabric-26.1.1" = _h8ANFbed;
+        "fabric-26.1.2" = _h8ANFbed;
+        "fabric-26.2" = _h8ANFbed;
+        "fabric-1.20.1" = _QwXdcpEw;
+        "fabric-1.20.2" = _QwXdcpEw;
+        "fabric-1.20.3" = _QwXdcpEw;
+        "fabric-1.20.4" = _QwXdcpEw;
+        "fabric-1.20.5" = _QwXdcpEw;
+        "fabric-1.20.6" = _QwXdcpEw;
+        "fabric-1.21.1" = _SIs7vDfq;
+        "fabric-26.3" = _NLVDFtGh;
         "pkg-1.0.0" = _ytkLmYaD;
-        "default" = _ytkLmYaD;
+        "pkg-1.0.1" = _a96br89m;
+        "default" = _a96br89m;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-auto-totem";

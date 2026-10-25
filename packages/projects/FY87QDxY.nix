@@ -381,6 +381,56 @@ let
             "file" = "VoluminousEnergy-26.2-0.5 Alpha 2.jar";
             "hash" = "sha512-+tPZyeF0jCfyZ8fZiNmw+KDk8U1k6gy81Nc0rCKXPVkcyGQLJ03GsHZd2GLy72ZiOvRIjCnRv72dA4mTOdqjEw==";
         };
+        _VFva2kNe = {
+            "id" = "VFva2kNe";
+            "file" = "VoluminousEnergy-1.18.2J9-0.4.0.1a.jar";
+            "hash" = "sha512-jCfzkCX31pnxixoNUAeAVVXsZhQwWazN6uqTJo7LO/Mxz1dyLE8om6yIsg/NHqSQfRngx9Yg7r0ElUVGI5tb4Q==";
+        };
+        _fwyIp0dt = {
+            "id" = "fwyIp0dt";
+            "file" = "VoluminousEnergy-1.18.2JX-0.4.0.1a.jar";
+            "hash" = "sha512-I/0t7081nYyhyc3PgGEVbQLftfYWluxlCmUNv/Pxat9XBUfTs/lTLVoNPFaHUAGe9mf4R4o59DxVKuYxQ/2exQ==";
+        };
+        _KAL5Pw7l = {
+            "id" = "KAL5Pw7l";
+            "file" = "VoluminousEnergy-1.19-0.4.0.1a.jar";
+            "hash" = "sha512-j9Tr706NsGAWLR6CII8kNn4w2uEr77B30QMUHu0DtK0WX8uvFCJmHhApMEjcnu6hOPrUHPrOfChGCqG3FWf72g==";
+        };
+        _a00yCQwJ = {
+            "id" = "a00yCQwJ";
+            "file" = "VoluminousEnergy-1.19.3-0.4.0.1a.jar";
+            "hash" = "sha512-iKC75jbkvfRRc1AgJYPN38WADEN0KYuIBCYK1fcUCNSldqgz/CHe6eDNSMvaA+zLNLIHRve8nz+eXUv+t4n1IQ==";
+        };
+        _B8Fg1XO5 = {
+            "id" = "B8Fg1XO5";
+            "file" = "VoluminousEnergy-1.19.4-0.4.0.1a.jar";
+            "hash" = "sha512-xX2Wk/sTn867OB4N4UzuyQqe+aj7qjuQBVh46dlh65/P6EACdL8LCMyEQjbq4dAg309m6gMEGkcqQIXFyiwdvQ==";
+        };
+        _AnUlzr7R = {
+            "id" = "AnUlzr7R";
+            "file" = "VoluminousEnergy-1.20.1-0.4.0.1a.jar";
+            "hash" = "sha512-DhDcd1SlhA5vgVIlkjERPj5IGumGr15+vn7R1aalpRtq/Sf5MLWiY9sI+Pz6ypgdkMJDkUxXqRDGBX7RS3vzxQ==";
+        };
+        _N3T8BCSF = {
+            "id" = "N3T8BCSF";
+            "file" = "VoluminousEnergy-1.21.1-0.5 Alpha 2a.jar";
+            "hash" = "sha512-K6qRde8uxu6jVMvNtSMhVhLm85sUJf5yleWuCVTczvRVqiD1QIq/Z6kcEF9+n2p4vPwL7X0r6DE/I5HBqRL7zg==";
+        };
+        _LOp3Ta1A = {
+            "id" = "LOp3Ta1A";
+            "file" = "VoluminousEnergy-26.1.2-0.5 Alpha 2a.jar";
+            "hash" = "sha512-ghfWTVxXF7dTsFFtom0S+UyPDK1Prp9yQJHjBE//3HnG+SMXB7MUvZgIdjzkiGH6L5xJISfLI3a19SgRu68gYA==";
+        };
+        _HIhISd8W = {
+            "id" = "HIhISd8W";
+            "file" = "VoluminousEnergy-26.2-0.5 Alpha 2a.jar";
+            "hash" = "sha512-dGUdzpLsa5PCE99seal4VyrfiTaNTOOtbQHcOeG0dZegvpMYo1R5jc52/diGzZnpPJ4s2SmvllwmHkOdRrWLQw==";
+        };
+        _MeqwpFux = {
+            "id" = "MeqwpFux";
+            "file" = "VoluminousEnergy-26.3-0.5 Alpha 1.jar";
+            "hash" = "sha512-3l/6QsHbY5HWzZ54juQPHvDgmrtgHgjuKnpYfJuNXdgWCF4j0fw2eOpqZWfL78LmHUmHuLcMsXKRYrXOganynw==";
+        };
     in {
         "fCkmvLa5" = _fCkmvLa5;
         "pAfzSr7Z" = _pAfzSr7Z;
@@ -458,20 +508,31 @@ let
         "sNTEIih9" = _sNTEIih9;
         "YtSnYPMw" = _YtSnYPMw;
         "wpaxvFGI" = _wpaxvFGI;
+        "VFva2kNe" = _VFva2kNe;
+        "fwyIp0dt" = _fwyIp0dt;
+        "KAL5Pw7l" = _KAL5Pw7l;
+        "a00yCQwJ" = _a00yCQwJ;
+        "B8Fg1XO5" = _B8Fg1XO5;
+        "AnUlzr7R" = _AnUlzr7R;
+        "N3T8BCSF" = _N3T8BCSF;
+        "LOp3Ta1A" = _LOp3Ta1A;
+        "HIhISd8W" = _HIhISd8W;
+        "MeqwpFux" = _MeqwpFux;
         "forge-1.17.1" = _fCkmvLa5;
-        "forge-1.18.2" = _CIX9dVM3;
-        "forge-1.19" = _EZVjdsXm;
-        "forge-1.19.1" = _EZVjdsXm;
-        "forge-1.19.2" = _EZVjdsXm;
-        "forge-1.19.3" = _B3xZEADi;
-        "forge-1.19.4" = _x1uJ95rt;
+        "forge-1.18.2" = _fwyIp0dt;
+        "forge-1.19" = _KAL5Pw7l;
+        "forge-1.19.1" = _KAL5Pw7l;
+        "forge-1.19.2" = _KAL5Pw7l;
+        "forge-1.19.3" = _a00yCQwJ;
+        "forge-1.19.4" = _B8Fg1XO5;
         "forge-1.20" = _iVy2NdcE;
-        "forge-1.20.1" = _yXwuBIKX;
+        "forge-1.20.1" = _AnUlzr7R;
         "forge-1.20.2" = _9IMvp0dg;
         "forge-1.20.4" = _tAAza6rF;
-        "neoforge-1.21.1" = _sNTEIih9;
-        "neoforge-26.1.2" = _YtSnYPMw;
-        "neoforge-26.2" = _wpaxvFGI;
+        "neoforge-1.21.1" = _N3T8BCSF;
+        "neoforge-26.1.2" = _LOp3Ta1A;
+        "neoforge-26.2" = _HIhISd8W;
+        "neoforge-26.3" = _MeqwpFux;
         "pkg-1.17.1-0.2 Alpha 4" = _fCkmvLa5;
         "pkg-1.18.2-0.3.1.0" = _pAfzSr7Z;
         "pkg-1.19-0.3.0.0" = _3vE2bNRT;
@@ -548,7 +609,17 @@ let
         "pkg-1.21.1-0.5_Alpha_2" = _sNTEIih9;
         "pkg-26.1.2-0.5_Alpha_2" = _YtSnYPMw;
         "pkg-26.2-0.5_Alpha_2" = _wpaxvFGI;
-        "default" = _wpaxvFGI;
+        "pkg-1.18.2J9-0.4.0.1a" = _VFva2kNe;
+        "pkg-1.18.2JX-0.4.0.1a" = _fwyIp0dt;
+        "pkg-1.19-0.4.0.1a" = _KAL5Pw7l;
+        "pkg-1.19.3-0.4.0.1a" = _a00yCQwJ;
+        "pkg-1.19.4-0.4.0.1a" = _B8Fg1XO5;
+        "pkg-1.20.1-0.4.0.1a" = _AnUlzr7R;
+        "pkg-1.21.1-0.5_Alpha_2a" = _N3T8BCSF;
+        "pkg-26.1.2-0.5_Alpha_2a" = _LOp3Ta1A;
+        "pkg-26.2-0.5_Alpha_2a" = _HIhISd8W;
+        "pkg-26.3-0.5_Alpha_1" = _MeqwpFux;
+        "default" = _MeqwpFux;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "voluminous_energy";

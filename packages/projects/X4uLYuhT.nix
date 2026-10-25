@@ -241,6 +241,46 @@ let
             "file" = "Elite x Quality Guns Neoforge v6.0 - 1.21.1Final.jar";
             "hash" = "sha512-tbJB+SwFhoTVTovumJ229eJKhhfqisQUOBuksGEAP2hehoHZPu48oXVOwKTyEQBZLLJuGzoLZgqQx+xNM0II4A==";
         };
+        _C78q5ET6 = {
+            "id" = "C78q5ET6";
+            "file" = "Elite X Quality Guns Fabric Final v6.1 - 1.20.1.jar";
+            "hash" = "sha512-2wsbv7alKGXMCmGIo00WL+hQSk65Rz/DU56IPPwD9mMNl3xQlVPjfIJzaYkvy0VQY0Z6hkgpSIz713eK+F3+cw==";
+        };
+        _eZCdI4v8 = {
+            "id" = "eZCdI4v8";
+            "file" = "Elite X Quality Guns Forge  Final v6.1 - 1.20.1.jar";
+            "hash" = "sha512-gn+MwiCVdoh6vTgTHp8pCsOo8wIs4vWp+FhvweL+0OmPAC+0AwAV/AcgqyEq66QL+QvQMTx/pVlbr06/qWbFgw==";
+        };
+        _3Pd12sWQ = {
+            "id" = "3Pd12sWQ";
+            "file" = "Elite X Quality Guns Fabric Final v6.1 - 1.21.1.jar";
+            "hash" = "sha512-KjcOoi3yW01TK2gl7bpnY+bF114FB1Cf3HZENiAu2bxc3e/lQmWkI9/WHcQn+TsS/VbqI420KAvGtWVGIMuefg==";
+        };
+        _baGQcmvP = {
+            "id" = "baGQcmvP";
+            "file" = "Elite X Quality Guns NeoForge Final v6.1 - 1.21.1.jar";
+            "hash" = "sha512-WrArikTF7MQN30kzwaOb1JVio3R7Ime0PPZmGBN98I2KykAoLhJbOO/GMfFLsPYyDKoLPUzK20t0w/S06Cadqw==";
+        };
+        _Gl77Ckbr = {
+            "id" = "Gl77Ckbr";
+            "file" = "Elite X Quality Guns Fabric Final v6.1 - 26.3.jar";
+            "hash" = "sha512-nMq6neZoSYpVtLr5duZVdtFfrWLXSFDnUnQT6DxdxsN+8JHQUsglWEsG/4ynpTEMQUddqgHTHnpjvhppyy+ALg==";
+        };
+        _XgB5InV0 = {
+            "id" = "XgB5InV0";
+            "file" = "Elite X Quality Guns NeoForge Final v6.1 - 26.3.jar";
+            "hash" = "sha512-wcdHlvDZt6j2N28u9ffGtcjiGOz26CD1XlsAN1mTQApbdY9fiju0emR8zJQUEVUleTBMT4RRSUnzqeNTKxcncw==";
+        };
+        _jqSndFWh = {
+            "id" = "jqSndFWh";
+            "file" = "Elite X Quality Guns Fabric v6.1 - 1.21.1 Hotfix.jar";
+            "hash" = "sha512-X7pr8LcUrwGVAbKH/iY1nLlBSgzMqKshu4CCgY5Z/gf9uugGMng2qduZ6rQtR1VhcvTrwyeWIw4Ragq6GvPEFw==";
+        };
+        _CLNr4Uaz = {
+            "id" = "CLNr4Uaz";
+            "file" = "Elite X Quality Guns NeoForge v6.1 - 1.21.1 Hotfix.jar";
+            "hash" = "sha512-IXDiDHsLrR0B2eh6wJVqvADFdufFKpWI/eNyczKEIVTppsiZky6FUDazYQRbZOmNcHyA5Ed0Y3PJl28FVWsiQA==";
+        };
     in {
         "WmzDxCpQ" = _WmzDxCpQ;
         "wudEvnTY" = _wudEvnTY;
@@ -290,15 +330,25 @@ let
         "qHMVqJyV" = _qHMVqJyV;
         "EAoc32R2" = _EAoc32R2;
         "QL7LUYDv" = _QL7LUYDv;
+        "C78q5ET6" = _C78q5ET6;
+        "eZCdI4v8" = _eZCdI4v8;
+        "3Pd12sWQ" = _3Pd12sWQ;
+        "baGQcmvP" = _baGQcmvP;
+        "Gl77Ckbr" = _Gl77Ckbr;
+        "XgB5InV0" = _XgB5InV0;
+        "jqSndFWh" = _jqSndFWh;
+        "CLNr4Uaz" = _CLNr4Uaz;
         "forge-1.18.2" = _VYbJlMi8;
         "forge-1.19.2" = _g471wdBU;
-        "forge-1.20.1" = _HCgRvwdF;
-        "fabric-1.20.1" = _qHMVqJyV;
-        "fabric-1.21.1" = _EAoc32R2;
+        "forge-1.20.1" = _eZCdI4v8;
+        "fabric-1.20.1" = _C78q5ET6;
+        "fabric-1.21.1" = _jqSndFWh;
+        "fabric-26.3" = _Gl77Ckbr;
         "neoforge-1.18.2" = _LoWJrWVR;
         "neoforge-1.19.2" = _LoWJrWVR;
         "neoforge-1.20.1" = _6ksck19n;
-        "neoforge-1.21.1" = _QL7LUYDv;
+        "neoforge-1.21.1" = _CLNr4Uaz;
+        "neoforge-26.3" = _XgB5InV0;
         "pkg-1.0" = _wudEvnTY;
         "pkg-1.1" = _u4UJ0TZt;
         "pkg-1.2" = _nS7SAzg0;
@@ -316,7 +366,8 @@ let
         "pkg-5.0" = _qZwPFgUx;
         "pkg-5.1" = _3UlXeirn;
         "pkg-6.0" = _QL7LUYDv;
-        "default" = _QL7LUYDv;
+        "pkg-6.1" = _CLNr4Uaz;
+        "default" = _CLNr4Uaz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elite-x-quality-guns";

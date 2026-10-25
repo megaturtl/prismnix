@@ -56,6 +56,16 @@ let
             "file" = "Evolved Mekanism-1.21.1-1.3.0.jar";
             "hash" = "sha512-tn2pD/KzHZNU1IjkLG1FbC6FNLTP17trXmP8UW1judSGS7DcSWzrcsJTvHFH2tBXRzBCDmGWA4nekXHzCoTjfA==";
         };
+        _uwdEwCpJ = {
+            "id" = "uwdEwCpJ";
+            "file" = "Evolved Mekanism-1.20.1-1.3.0-fix1.jar";
+            "hash" = "sha512-rmOaflG8C5r3SqZCFAIva8p6B8Ib2EdMgKjOqT6IMYMXGH84Haz6aIo0qjW1dgy6+wtQJqtqmpGmAVIRyKpY3A==";
+        };
+        _jEyvXXE7 = {
+            "id" = "jEyvXXE7";
+            "file" = "Evolved Mekanism-1.21.1-1.3.0-fix1.jar";
+            "hash" = "sha512-G+8j1rxCrUOPOOUCLrCupYGhy2ZDxhRsN/OSWYcPwQOEUbospfLuoste2anU12mVQ3gXFWM5nZauoN5xPixf1Q==";
+        };
     in {
         "S7CnxC15" = _S7CnxC15;
         "BJB4UJsK" = _BJB4UJsK;
@@ -68,9 +78,11 @@ let
         "3vuQZTlx" = _3vuQZTlx;
         "KpdBhCdx" = _KpdBhCdx;
         "dDbaI8Wa" = _dDbaI8Wa;
-        "forge-1.20.1" = _KpdBhCdx;
+        "uwdEwCpJ" = _uwdEwCpJ;
+        "jEyvXXE7" = _jEyvXXE7;
+        "forge-1.20.1" = _uwdEwCpJ;
         "neoforge-1.21" = _F6Z646Nv;
-        "neoforge-1.21.1" = _dDbaI8Wa;
+        "neoforge-1.21.1" = _jEyvXXE7;
         "pkg-1.2.1" = _BJB4UJsK;
         "pkg-1.2.1-fix1" = _MuHUrKwG;
         "pkg-1.2.1-fix2" = _F6Z646Nv;
@@ -78,7 +90,9 @@ let
         "pkg-1.2.1-fix4" = _1x3pOAo1;
         "pkg-1.20.1-1.3.0" = _KpdBhCdx;
         "pkg-1.21.1-1.3.0" = _dDbaI8Wa;
-        "default" = _dDbaI8Wa;
+        "pkg-1.20.1-1.3.0-fix1" = _uwdEwCpJ;
+        "pkg-1.21.1-1.3.0-fix1" = _jEyvXXE7;
+        "default" = _jEyvXXE7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "evolved-mekanism";

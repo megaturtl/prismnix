@@ -71,6 +71,16 @@ let
             "file" = "csr-neoforge-26.1.2-2.1.1.jar";
             "hash" = "sha512-R4npmY0egMSbBnF1XAziEe31zuo7L0mUN/lPbkggUvX035Aen+Dk6B6KQkmFEgqWAgF3Tvj7ACONiARAk99tlw==";
         };
+        _HbsPmGMK = {
+            "id" = "HbsPmGMK";
+            "file" = "csr-neoforge-26.1.2-2.1.2.jar";
+            "hash" = "sha512-bsNn79s0DAC1VfD97CNHHfiBxCMWOV1ZXwD9RsAEztqbtuHFJa7BFJx1w7EI4g5SSP6YOe3jukCD/UJE1gTyeQ==";
+        };
+        _EmCk0vJT = {
+            "id" = "EmCk0vJT";
+            "file" = "csr-fabric-26.1.2-2.1.2.jar";
+            "hash" = "sha512-YxbPnYIFnUkZHdKQLbEED49JRHTORNNtkDaBfvGf4AQCDf1ie6y7ZD14/HPD2MA4X7XDMzLH5d4fvv3qerHW+w==";
+        };
     in {
         "qFwpYy9m" = _qFwpYy9m;
         "HhTOFUqt" = _HhTOFUqt;
@@ -86,11 +96,13 @@ let
         "OFxwHQ6b" = _OFxwHQ6b;
         "w6rPm92f" = _w6rPm92f;
         "O0Ak8bX7" = _O0Ak8bX7;
+        "HbsPmGMK" = _HbsPmGMK;
+        "EmCk0vJT" = _EmCk0vJT;
         "fabric-1.21.1" = _OFxwHQ6b;
-        "fabric-26.1.2" = _w6rPm92f;
+        "fabric-26.1.2" = _EmCk0vJT;
         "neoforge-1.21.1" = _s7jP6vT9;
         "neoforge-1.21.4" = _2MM0obin;
-        "neoforge-26.1.2" = _O0Ak8bX7;
+        "neoforge-26.1.2" = _HbsPmGMK;
         "pkg-1.0.0" = _qFwpYy9m;
         "pkg-1.0.1" = _HhTOFUqt;
         "pkg-1.0.2" = _3cwSY3rh;
@@ -100,7 +112,8 @@ let
         "pkg-2.1.0" = _kFTU4mCI;
         "pkg-1.0.3" = _OFxwHQ6b;
         "pkg-2.1.1" = _O0Ak8bX7;
-        "default" = _O0Ak8bX7;
+        "pkg-2.1.2" = _EmCk0vJT;
+        "default" = _EmCk0vJT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "clay-soldiers-remake";

@@ -451,6 +451,21 @@ let
             "file" = "ThDilos.Fox.Origin_V5.0.0.1_1.21.1-Origins.Pre.3.jar";
             "hash" = "sha512-QxNzmuzIL3qA4hcq92mLpyZEK4uYRRzaU55MNg1wrmXLG08HZJrky7BB14+otoILqms9xmUkRUyo0OEkkH1PwQ==";
         };
+        _i7J7Oe3R = {
+            "id" = "i7J7Oe3R";
+            "file" = "ThDilos.Fox.Origin_V5.1.0_1.19.4-1.20.x.jar";
+            "hash" = "sha512-b1d2fDPT7e/x5asuA94sAXB/sBO13nJyscL0LBTt0yDSaYav1l1Mdu+u7ZJ4YM2oG7bu/zsg2Yq4JxxMkxrOTw==";
+        };
+        _ajRCEo34 = {
+            "id" = "ajRCEo34";
+            "file" = "ThDilos.Fox.Origin_V5.1.0_1.21.1-Origins.Pre.4.jar";
+            "hash" = "sha512-se9Fben4eXEgmadfH43O+mO33YiJGsoa0KQSYWaJEt2dBLcmUrg1JoAGPB2VewFG3ws4+VWkTaG6vaDkTC4ZEA==";
+        };
+        _hJ6MS4TA = {
+            "id" = "hJ6MS4TA";
+            "file" = "ThDilos.Fox.Origin_V5.1.0_26.3-Origins-Legacy.jar";
+            "hash" = "sha512-3bIb32k34B0YwLYfzGlU7xemJBbJL6Cct4PQmkJWb+z+i3Z5hwWS8TFa80rOh/C8ZB9SAcjZ4eDwbXGQ4QV3lw==";
+        };
     in {
         "TwBgbA5y" = _TwBgbA5y;
         "f8WXk2T8" = _f8WXk2T8;
@@ -542,28 +557,32 @@ let
         "56MAtjRn" = _56MAtjRn;
         "SIYqns9l" = _SIYqns9l;
         "I7O90meo" = _I7O90meo;
-        "fabric-1.20.1" = _SIYqns9l;
+        "i7J7Oe3R" = _i7J7Oe3R;
+        "ajRCEo34" = _ajRCEo34;
+        "hJ6MS4TA" = _hJ6MS4TA;
+        "fabric-1.20.1" = _i7J7Oe3R;
         "fabric-1.18.2" = _BFnLBM2k;
         "fabric-1.19.1" = _xucLOcJB;
         "fabric-1.19.2" = _xucLOcJB;
         "fabric-1.19.3" = _xucLOcJB;
-        "fabric-1.19.4" = _SIYqns9l;
-        "fabric-1.20" = _SIYqns9l;
-        "fabric-1.20.2" = _SIYqns9l;
+        "fabric-1.19.4" = _i7J7Oe3R;
+        "fabric-1.20" = _i7J7Oe3R;
+        "fabric-1.20.2" = _i7J7Oe3R;
         "fabric-1.19" = _xucLOcJB;
         "fabric-1.20.3" = _TeZ8xtJR;
         "fabric-1.20.4" = _TeZ8xtJR;
         "fabric-1.21" = _VE7BY7BD;
-        "fabric-1.21.1" = _I7O90meo;
+        "fabric-1.21.1" = _ajRCEo34;
+        "fabric-26.3" = _hJ6MS4TA;
         "forge-1.18.2" = _BFnLBM2k;
         "forge-1.19" = _xucLOcJB;
         "forge-1.19.1" = _xucLOcJB;
         "forge-1.19.2" = _xucLOcJB;
         "forge-1.19.3" = _xucLOcJB;
-        "forge-1.19.4" = _SIYqns9l;
-        "forge-1.20" = _SIYqns9l;
-        "forge-1.20.1" = _SIYqns9l;
-        "forge-1.20.2" = _SIYqns9l;
+        "forge-1.19.4" = _i7J7Oe3R;
+        "forge-1.20" = _i7J7Oe3R;
+        "forge-1.20.1" = _i7J7Oe3R;
+        "forge-1.20.2" = _i7J7Oe3R;
         "forge-1.20.3" = _TeZ8xtJR;
         "forge-1.20.4" = _TeZ8xtJR;
         "forge-1.21" = _VE7BY7BD;
@@ -573,14 +592,14 @@ let
         "quilt-1.19.1" = _xucLOcJB;
         "quilt-1.19.2" = _xucLOcJB;
         "quilt-1.19.3" = _xucLOcJB;
-        "quilt-1.19.4" = _SIYqns9l;
-        "quilt-1.20" = _SIYqns9l;
-        "quilt-1.20.1" = _SIYqns9l;
-        "quilt-1.20.2" = _SIYqns9l;
+        "quilt-1.19.4" = _i7J7Oe3R;
+        "quilt-1.20" = _i7J7Oe3R;
+        "quilt-1.20.1" = _i7J7Oe3R;
+        "quilt-1.20.2" = _i7J7Oe3R;
         "quilt-1.20.3" = _TeZ8xtJR;
         "quilt-1.20.4" = _TeZ8xtJR;
         "quilt-1.21" = _VE7BY7BD;
-        "quilt-1.21.1" = _56MAtjRn;
+        "quilt-1.21.1" = _ajRCEo34;
         "pkg-2.4.0" = _TwBgbA5y;
         "pkg-2.5.0" = _f8WXk2T8;
         "pkg-2.6.0" = _zaHe1Yw9;
@@ -617,7 +636,8 @@ let
         "pkg-4.5.0" = _AR2nZyBe;
         "pkg-5.0.0" = _SIYqns9l;
         "pkg-5.0.0.1" = _I7O90meo;
-        "default" = _I7O90meo;
+        "pkg-5.1.0" = _hJ6MS4TA;
+        "default" = _hJ6MS4TA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "thdilos-fox-origin";

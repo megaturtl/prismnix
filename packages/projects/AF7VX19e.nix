@@ -91,6 +91,26 @@ let
             "file" = "collectors_caravan-10.0.0.jar";
             "hash" = "sha512-BaxDWHqhcgB6RitjF/CHg5Sfau2qAdDtCquY85XkRDQgL6JBd5iZPdHh2Ms5NTqrNeZOQgMOBy3f5+tNmhpxtA==";
         };
+        _DL9XigWz = {
+            "id" = "DL9XigWz";
+            "file" = "collectors_caravan-10.0.0.jar";
+            "hash" = "sha512-3TS3+6X0NCSQ7FLAKNzUqThFmx9LQswHU0eflb+nFuZeA2jT+2p2u9DHp6zPrvZMbOCggKD3KNtJdIc65Ye+QA==";
+        };
+        _LQwWStbX = {
+            "id" = "LQwWStbX";
+            "file" = "collectors_caravan-10.0.1.jar";
+            "hash" = "sha512-cFUucBaWOwps0r7gnKBa5yOwK3CD8xHLhE8J5iJ2nbtFw3ElbHnMic0uObgVBlZlKf0ndpzcnGNrudeWkY5DSw==";
+        };
+        _pcjDjBaV = {
+            "id" = "pcjDjBaV";
+            "file" = "collectors_caravan-10.0.1.jar";
+            "hash" = "sha512-4+drRcMOv31kMVf5gVO+ZxDFVRKTSCaqs1DsyA04AElmhLOJNklTUW135Hq4H+NlqYEMVQVR2nfyZaIYiB1Haw==";
+        };
+        _fcPwdIqM = {
+            "id" = "fcPwdIqM";
+            "file" = "collectors_caravan-10.0.1.jar";
+            "hash" = "sha512-jUJyNdkZWzs67GC+lZNYv3AaY1w16dGSmv+Bt3DoQ6zDQY8VmoywtLWFqMb5c4bBm1hoNALWeJCwfq+ltoFXPw==";
+        };
     in {
         "EoagtGqK" = _EoagtGqK;
         "gSea8T9M" = _gSea8T9M;
@@ -110,9 +130,14 @@ let
         "7fRvbUUw" = _7fRvbUUw;
         "hXPH9QkQ" = _hXPH9QkQ;
         "G7TnESjW" = _G7TnESjW;
-        "forge-1.20.1" = _ITf0JfTV;
+        "DL9XigWz" = _DL9XigWz;
+        "LQwWStbX" = _LQwWStbX;
+        "pcjDjBaV" = _pcjDjBaV;
+        "fcPwdIqM" = _fcPwdIqM;
+        "forge-1.20.1" = _fcPwdIqM;
         "forge-1.21.1" = _7fRvbUUw;
-        "neoforge-1.21.1" = _G7TnESjW;
+        "neoforge-1.21.1" = _pcjDjBaV;
+        "fabric-1.20.1" = _LQwWStbX;
         "pkg-4.0.0" = _EoagtGqK;
         "pkg-4.0.2" = _gSea8T9M;
         "pkg-4.1.0" = _gDE1R6Ng;
@@ -130,8 +155,9 @@ let
         "pkg-8.3.0" = _ITf0JfTV;
         "pkg-8.5.0" = _7fRvbUUw;
         "pkg-9.0.0" = _hXPH9QkQ;
-        "pkg-10.0.0" = _G7TnESjW;
-        "default" = _G7TnESjW;
+        "pkg-10.0.0" = _DL9XigWz;
+        "pkg-10.0.1" = _fcPwdIqM;
+        "default" = _fcPwdIqM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "collectors-caravan";

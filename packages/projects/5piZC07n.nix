@@ -111,6 +111,11 @@ let
             "file" = "whiteout-0.21.0.jar";
             "hash" = "sha512-KjqJZpj8Yh0U0UX8QHFjPjBrweQcgaUQ2TQsu3/6BjCXdzstMkSiz2rNw/gSRIcmywWuySPlXLwokFZJc2D53w==";
         };
+        _EIEZ1A9z = {
+            "id" = "EIEZ1A9z";
+            "file" = "whiteout-0.21.2.jar";
+            "hash" = "sha512-mDNxpz7GmbL6uxIR9jLhsKWAvMOIfPTELQVrPQJFy8y8P4A1GgqE3hmKcE72IHymuoMyPSDUW1wGF45If9+6CA==";
+        };
     in {
         "Rb561IQH" = _Rb561IQH;
         "3CC3XHF7" = _3CC3XHF7;
@@ -134,6 +139,7 @@ let
         "Y0kB8H63" = _Y0kB8H63;
         "8ByiWYCJ" = _8ByiWYCJ;
         "tHR78Xra" = _tHR78Xra;
+        "EIEZ1A9z" = _EIEZ1A9z;
         "fabric-1.21.1" = _Rb561IQH;
         "fabric-1.21.3" = _78eKblkc;
         "fabric-1.21.4" = _ckvMvpIt;
@@ -147,7 +153,7 @@ let
         "fabric-26.1.1" = _klSvzezN;
         "fabric-26.1.2" = _klSvzezN;
         "fabric-26.2" = _8ByiWYCJ;
-        "fabric-26.3" = _tHR78Xra;
+        "fabric-26.3" = _EIEZ1A9z;
         "pkg-0.13.0" = _Rb561IQH;
         "pkg-0.14.0" = _3CC3XHF7;
         "pkg-0.14.1" = _78eKblkc;
@@ -170,7 +176,8 @@ let
         "pkg-0.19.0" = _Y0kB8H63;
         "pkg-0.20.0" = _8ByiWYCJ;
         "pkg-0.21.0" = _tHR78Xra;
-        "default" = _tHR78Xra;
+        "pkg-0.21.2" = _EIEZ1A9z;
+        "default" = _EIEZ1A9z;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "whiteout";

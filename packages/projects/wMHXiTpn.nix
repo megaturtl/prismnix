@@ -111,6 +111,16 @@ let
             "file" = "origins-support-2.4.jar";
             "hash" = "sha512-JclWUzu2DgCM+FzOQt2RJOlVPcOUnmoRDAktnqh4gV7VGCCsDRjrCkfurYwLoeb4WH2kM9MMN3/PZswQ/x0u7w==";
         };
+        _bNTOO4zb = {
+            "id" = "bNTOO4zb";
+            "file" = "Supportive Origins - 1.20.1-2.5.zip";
+            "hash" = "sha512-63pKqIp7/lHoGhuVD1f6ZXdnV6C5n0Hlu0IlV4WN8Pdw61auaA/A/Z0Yh/IOHE8lUIeHxDb0MXLq7Zc6oQZqxg==";
+        };
+        _OSNp0L1r = {
+            "id" = "OSNp0L1r";
+            "file" = "origins-support-2.5.jar";
+            "hash" = "sha512-hwhP0qoIUy9QQfhOGHRZjsyULMa4QM7sH3uUJmqIVGoH2IPh005dUKmm2f0JXuWvwbdBROo3bX7QEqZtk33mdQ==";
+        };
     in {
         "JZm27hm5" = _JZm27hm5;
         "xeVzYLMT" = _xeVzYLMT;
@@ -134,12 +144,14 @@ let
         "9ob4EDED" = _9ob4EDED;
         "zlYO9Yhy" = _zlYO9Yhy;
         "UcwmlVz4" = _UcwmlVz4;
-        "datapack-1.20.1" = _zlYO9Yhy;
+        "bNTOO4zb" = _bNTOO4zb;
+        "OSNp0L1r" = _OSNp0L1r;
+        "datapack-1.20.1" = _bNTOO4zb;
         "datapack-1.20.2" = _GLS1la1X;
-        "datapack-1.20" = _zlYO9Yhy;
-        "fabric-1.20.1" = _UcwmlVz4;
+        "datapack-1.20" = _bNTOO4zb;
+        "fabric-1.20.1" = _OSNp0L1r;
         "fabric-1.20.2" = _O9wdpG83;
-        "fabric-1.20" = _UcwmlVz4;
+        "fabric-1.20" = _OSNp0L1r;
         "forge-1.20.1" = _ywgOqToo;
         "pkg-1.0" = _JZm27hm5;
         "pkg-1.0+mod" = _xeVzYLMT;
@@ -163,7 +175,9 @@ let
         "pkg-2.3+mod" = _9ob4EDED;
         "pkg-2.4" = _zlYO9Yhy;
         "pkg-2.4+mod" = _UcwmlVz4;
-        "default" = _UcwmlVz4;
+        "pkg-2.5" = _bNTOO4zb;
+        "pkg-2.5+mod" = _OSNp0L1r;
+        "default" = _OSNp0L1r;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "origins-support";

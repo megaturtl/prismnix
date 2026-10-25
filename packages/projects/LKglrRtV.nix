@@ -66,6 +66,71 @@ let
             "file" = "heartistica-mc26.3-fabric-1.0.0.jar";
             "hash" = "sha512-P2SMEOEQc8eefwp1yAKbKP2CMsA0HSQAMvC37ivkgXlLbvLEtkcJ+0rL2ORklVqcQERp4NvMmlcoxDvmeRGQrA==";
         };
+        _NHHsTO37 = {
+            "id" = "NHHsTO37";
+            "file" = "heartistica-mc1.19.2-fabric-1.0.1.jar";
+            "hash" = "sha512-tDTMBUl7A678Y8cFU1/RGcB2c20KwHGPx+f+3zKH07UUI3qqXyO+pCefHXsdnUk98XdWGv7GkuIa9w+uRue+Ag==";
+        };
+        _1VAXN0d9 = {
+            "id" = "1VAXN0d9";
+            "file" = "heartistica-mc1.20.1-fabric-1.0.1.jar";
+            "hash" = "sha512-eSqMsWPxec8PXkKXdlprQpAFyXWiGaRV9z1hyMvObqela73ggOer3YaTfXqFUPJ0qoosQLNel+3qBBO6G2ErbA==";
+        };
+        _IGVkSs0w = {
+            "id" = "IGVkSs0w";
+            "file" = "heartistica-mc1.20.6-fabric-1.0.1.jar";
+            "hash" = "sha512-j4kOmBJaG/Q4KWDtuySww4NDzAvMpI6afVGvDWInVf6hhM0wmTPYQqHvFQBIfbzEIIE2ZGtD985pmFVIlovn4w==";
+        };
+        _AYw2HHnu = {
+            "id" = "AYw2HHnu";
+            "file" = "heartistica-mc1.21.1-fabric-1.0.1.jar";
+            "hash" = "sha512-M1sZmEZl/0iz8xz0pE/gbh1zVHdl0IFerOy6T2nmeM1nkDxuC2fLKkZcQwcu+wjo6qIDflfR/mqw6heL/byaPw==";
+        };
+        _REVYem38 = {
+            "id" = "REVYem38";
+            "file" = "heartistica-mc1.21.2-1.21.4-fabric-1.0.1.jar";
+            "hash" = "sha512-oA2LSRT3qUFXcluuHL46rk/QLx0KSau443vRa1K3qdw6RNJUihCBmQUat8IrpAYKaodBDbV9TJkZ5lPLfT+j8g==";
+        };
+        _ELhlCI6Z = {
+            "id" = "ELhlCI6Z";
+            "file" = "heartistica-mc1.21.5-fabric-1.0.1.jar";
+            "hash" = "sha512-gqgszkghEm1Lt6QSIUSv3biSO8UIEk0v6KH4TVmjdyUAO7fGlz0f+HiubuSUF8C80f63uj+i56RkLG+HECrhyA==";
+        };
+        _BFenmGaa = {
+            "id" = "BFenmGaa";
+            "file" = "heartistica-mc1.21.6-fabric-1.0.1.jar";
+            "hash" = "sha512-Tx25NuMaMgyDqLqajr8+LMbXvo2YQz6DavYUsXdZS8rsqPheemQfkJzyvZEcmDjuFhER6eaVITNasc07KEweFQ==";
+        };
+        _UVnZudZ0 = {
+            "id" = "UVnZudZ0";
+            "file" = "heartistica-mc1.21.8-fabric-1.0.1.jar";
+            "hash" = "sha512-3zJsXNMSwbrm9otURmDR4kqyzjD2UB4Aqk1w/as9MorEO4YWlJriqlGLjKYr2n/80HVXOWgWo4PknKL7v2l4Zw==";
+        };
+        _592LctI4 = {
+            "id" = "592LctI4";
+            "file" = "heartistica-mc1.21.10-fabric-1.0.1.jar";
+            "hash" = "sha512-kSi4RmqaJLYNFLnOkNW/ywzZxuMSAlzj+uRCB9La3wCtD2pW7kIqRpTdHV8pBodnMIXgNxX+VQAhhz3Z4hQHaA==";
+        };
+        _7e9UhEl0 = {
+            "id" = "7e9UhEl0";
+            "file" = "heartistica-mc1.21.11-fabric-1.0.1.jar";
+            "hash" = "sha512-OtGoy7g2G8Vt/pT2uo4TuvCZKLvO29cSOIhQxjkMfvaBDULmDUVk44ZW2uKN54bDqExgVEHSZaHPEgD82PwigA==";
+        };
+        _S79CVfVl = {
+            "id" = "S79CVfVl";
+            "file" = "heartistica-mc26.1.2-fabric-1.0.1.jar";
+            "hash" = "sha512-/v97JN2iEgxYWb1f3hFjw7wYuPdHxwM7J5S6DV0amGiIeB8B+WUlxbHQm4VMWWa+OLBS5nimBVaZ16BKsjqw3g==";
+        };
+        _4zi8YwEW = {
+            "id" = "4zi8YwEW";
+            "file" = "heartistica-mc26.2-fabric-1.0.1.jar";
+            "hash" = "sha512-0b4fGgA0LsXHyhl/0VG1rsntSgcXcF/tjRkMxU8ut3RYcugsolhvoTavejWtgaGpKcS4+t2YxxZjMp8PEDZ2Dg==";
+        };
+        _SpaUmqNp = {
+            "id" = "SpaUmqNp";
+            "file" = "heartistica-mc26.3-fabric-1.0.1.jar";
+            "hash" = "sha512-ka7HncqcAVQbMI0JioX+whToiEkXcjnLEJTTm3BQxUMe3bPTxZCjd4HY0TCCFmb1MJJzU0pL70SbEKPIJvbk9A==";
+        };
     in {
         "ZNAKNm4U" = _ZNAKNm4U;
         "6CgoTXAt" = _6CgoTXAt;
@@ -80,23 +145,37 @@ let
         "fBbeusdy" = _fBbeusdy;
         "iHwJeefW" = _iHwJeefW;
         "bGkGZ2Zg" = _bGkGZ2Zg;
-        "fabric-1.19.2" = _ZNAKNm4U;
-        "fabric-1.20.1" = _6CgoTXAt;
-        "fabric-1.20.6" = _Un4897fy;
-        "fabric-1.21.1" = _5Hdg7Ccz;
-        "fabric-1.21.2" = _ttTJceVv;
-        "fabric-1.21.3" = _ttTJceVv;
-        "fabric-1.21.4" = _ttTJceVv;
-        "fabric-1.21.5" = _D6sJDfnn;
-        "fabric-1.21.6" = _zXY4yEUW;
-        "fabric-1.21.8" = _mcdgWdTJ;
-        "fabric-1.21.10" = _jZTXkX6Y;
-        "fabric-1.21.11" = _j4ljs3D4;
-        "fabric-26.1.2" = _fBbeusdy;
-        "fabric-26.2" = _iHwJeefW;
-        "fabric-26.3" = _bGkGZ2Zg;
+        "NHHsTO37" = _NHHsTO37;
+        "1VAXN0d9" = _1VAXN0d9;
+        "IGVkSs0w" = _IGVkSs0w;
+        "AYw2HHnu" = _AYw2HHnu;
+        "REVYem38" = _REVYem38;
+        "ELhlCI6Z" = _ELhlCI6Z;
+        "BFenmGaa" = _BFenmGaa;
+        "UVnZudZ0" = _UVnZudZ0;
+        "592LctI4" = _592LctI4;
+        "7e9UhEl0" = _7e9UhEl0;
+        "S79CVfVl" = _S79CVfVl;
+        "4zi8YwEW" = _4zi8YwEW;
+        "SpaUmqNp" = _SpaUmqNp;
+        "fabric-1.19.2" = _NHHsTO37;
+        "fabric-1.20.1" = _1VAXN0d9;
+        "fabric-1.20.6" = _IGVkSs0w;
+        "fabric-1.21.1" = _AYw2HHnu;
+        "fabric-1.21.2" = _REVYem38;
+        "fabric-1.21.3" = _REVYem38;
+        "fabric-1.21.4" = _REVYem38;
+        "fabric-1.21.5" = _ELhlCI6Z;
+        "fabric-1.21.6" = _BFenmGaa;
+        "fabric-1.21.8" = _UVnZudZ0;
+        "fabric-1.21.10" = _592LctI4;
+        "fabric-1.21.11" = _7e9UhEl0;
+        "fabric-26.1.2" = _S79CVfVl;
+        "fabric-26.2" = _4zi8YwEW;
+        "fabric-26.3" = _SpaUmqNp;
         "pkg-1.0.0" = _bGkGZ2Zg;
-        "default" = _bGkGZ2Zg;
+        "pkg-1.0.1" = _SpaUmqNp;
+        "default" = _SpaUmqNp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "heartistica";

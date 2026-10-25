@@ -11,13 +11,20 @@ let
             "file" = "DMZCharactersPlus-0.9.0.jar";
             "hash" = "sha512-XlbwgIvqD7GPtcZ9FhPhx8Dvsr7P+K+xzEVK05WwDNdGJAxfxLNUfrpcCJjBhNhejF8njlEkpcMLq3IxJdE+fg==";
         };
+        _DzRDKo72 = {
+            "id" = "DzRDKo72";
+            "file" = "DMZCharactersPlus-1.0.0.jar";
+            "hash" = "sha512-gxsj3gg4dBubf9BfPeYKZy2U8WC2G32TH7t06wscxTtgL9fPY/2N2ACsV9RXh7ADVewzXVcnc+pzR5hMGppbEw==";
+        };
     in {
         "MVdQj9Sj" = _MVdQj9Sj;
         "pHJMOErV" = _pHJMOErV;
-        "forge-1.20.1" = _pHJMOErV;
+        "DzRDKo72" = _DzRDKo72;
+        "forge-1.20.1" = _DzRDKo72;
         "pkg-0.1.0" = _MVdQj9Sj;
         "pkg-0.9.0" = _pHJMOErV;
-        "default" = _pHJMOErV;
+        "pkg-1.0.0" = _DzRDKo72;
+        "default" = _DzRDKo72;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dragonminezcharactersplus";

@@ -81,6 +81,16 @@ let
             "file" = "HideYourArmor-1.7.0-universal.jar";
             "hash" = "sha512-8/ifY5Hgv0s+1a7ddqKbFoU6O96QhrCKNZzZ3lY9dvVcxH+2DnO6ANreW046Kgsh3z/eZKDyK3Z6KM37yvkrTg==";
         };
+        _rqgmbJ5b = {
+            "id" = "rqgmbJ5b";
+            "file" = "HideYourArmor-1.7.1+mc26.1.2-universal.jar";
+            "hash" = "sha512-vGI2h+Aug6/hg1+UEapn3pr0VL21qtEun/5WJEG9XL4CpH97/Lkk5XveCRsV9mNO5/sLsw1+OYBiFrd7xX2NSw==";
+        };
+        _JA8k1Tf0 = {
+            "id" = "JA8k1Tf0";
+            "file" = "HideYourArmor-1.7.1+mc26.3-universal.jar";
+            "hash" = "sha512-jHxPTPM0pZUGtlWTttdqGOC4Y0Nx4UGzcjRDxCg3luSIJzJ54gOncgBX07/5lX3eJJtsUc1M8H77//H0keas5A==";
+        };
     in {
         "5RRGe9uM" = _5RRGe9uM;
         "OcgSNgHf" = _OcgSNgHf;
@@ -98,14 +108,17 @@ let
         "apUqdfGI" = _apUqdfGI;
         "l9bZkZXZ" = _l9bZkZXZ;
         "uD8BlPPH" = _uD8BlPPH;
+        "rqgmbJ5b" = _rqgmbJ5b;
+        "JA8k1Tf0" = _JA8k1Tf0;
         "fabric-1.21.4" = _OcgSNgHf;
         "fabric-1.21.11" = _Zx5O38Om;
         "fabric-26.1" = _KWWY9RKT;
-        "fabric-26.1.2" = _AKhMiMi8;
-        "fabric-26.2" = _l9bZkZXZ;
-        "fabric-26.3" = _uD8BlPPH;
-        "neoforge-26.2" = _l9bZkZXZ;
-        "neoforge-26.3" = _uD8BlPPH;
+        "fabric-26.1.2" = _rqgmbJ5b;
+        "fabric-26.2" = _rqgmbJ5b;
+        "fabric-26.3" = _JA8k1Tf0;
+        "neoforge-26.2" = _rqgmbJ5b;
+        "neoforge-26.3" = _JA8k1Tf0;
+        "neoforge-26.1.2" = _rqgmbJ5b;
         "pkg-1.0" = _5RRGe9uM;
         "pkg-1.1.0" = _OcgSNgHf;
         "pkg-1.2.0" = _lP9WN4Rt;
@@ -122,7 +135,8 @@ let
         "pkg-1.6.0" = _apUqdfGI;
         "pkg-1.6.1" = _l9bZkZXZ;
         "pkg-1.7.0" = _uD8BlPPH;
-        "default" = _uD8BlPPH;
+        "pkg-1.7.1" = _JA8k1Tf0;
+        "default" = _JA8k1Tf0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hide-your-armour";

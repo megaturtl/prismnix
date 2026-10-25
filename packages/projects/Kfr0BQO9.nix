@@ -216,6 +216,21 @@ let
             "file" = "enchantments-plus-fabric-1.2.4+1.21.8.jar";
             "hash" = "sha512-I9JBYkFTXxlq9OMVxYbsdQh5BgBI+aU6PU+8lPw0Y+0EgUPEjf57rd+DuTOF+OIiK+yChYqUgf9jweurEpMx6w==";
         };
+        _Z3KwJZ4b = {
+            "id" = "Z3KwJZ4b";
+            "file" = "enchantments-plus-fabric-1.2.5+1.21.9.jar";
+            "hash" = "sha512-q7hZDNn97Fsyh0CE63DCDBJYkwqT8OtPvwniKXfZgKQcQ2T0KoQauYYe6j43R99ttgavlestM1XCiKTZUDJ7rw==";
+        };
+        _ZKH3f8SU = {
+            "id" = "ZKH3f8SU";
+            "file" = "enchantments-plus-fabric-1.2.5+1.21.10.jar";
+            "hash" = "sha512-bI87HqW6oWE/UJSrPNee21fskJM41yZEVbxHe+D5MewyL5yOLZI8IUajUzs/9cVcugHEsYgiI1uHZBDOiiGdNw==";
+        };
+        _dmnHpRZE = {
+            "id" = "dmnHpRZE";
+            "file" = "enchantments-plus-fabric-1.2.5+1.21.11.jar";
+            "hash" = "sha512-Jt4YctVjwYmDV6QU7D8dHeKyNExQldX0/ar11yr5XzwIXLk4TT+1bNhJER+vLm6xrFvLQt08kKSAJOiFOWNCAw==";
+        };
     in {
         "guEFSpJC" = _guEFSpJC;
         "Fnk4pvxO" = _Fnk4pvxO;
@@ -260,6 +275,9 @@ let
         "kzGLx8VE" = _kzGLx8VE;
         "uCkGUWCB" = _uCkGUWCB;
         "8IKq6G4b" = _8IKq6G4b;
+        "Z3KwJZ4b" = _Z3KwJZ4b;
+        "ZKH3f8SU" = _ZKH3f8SU;
+        "dmnHpRZE" = _dmnHpRZE;
         "fabric-1.19.3" = _S9iPaSlF;
         "fabric-1.19.2" = _HMP81OFV;
         "fabric-1.19" = _SVj9v0cA;
@@ -284,6 +302,9 @@ let
         "fabric-1.21.6" = _kzGLx8VE;
         "fabric-1.21.7" = _uCkGUWCB;
         "fabric-1.21.8" = _8IKq6G4b;
+        "fabric-1.21.9" = _Z3KwJZ4b;
+        "fabric-1.21.10" = _ZKH3f8SU;
+        "fabric-1.21.11" = _dmnHpRZE;
         "pkg-1.1.3+1.19.3" = _guEFSpJC;
         "pkg-1.1.2+1.19.3" = _Fnk4pvxO;
         "pkg-1.1.1+1.19.2" = _pYH8a5fP;
@@ -327,7 +348,10 @@ let
         "pkg-1.2.4+1.21.6" = _kzGLx8VE;
         "pkg-1.2.4+1.21.7" = _uCkGUWCB;
         "pkg-1.2.4+1.21.8" = _8IKq6G4b;
-        "default" = _8IKq6G4b;
+        "pkg-1.2.5+1.21.9" = _Z3KwJZ4b;
+        "pkg-1.2.5+1.21.10" = _ZKH3f8SU;
+        "pkg-1.2.5+1.21.11" = _dmnHpRZE;
+        "default" = _dmnHpRZE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchantments-plus";

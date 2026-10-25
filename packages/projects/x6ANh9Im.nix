@@ -26,19 +26,26 @@ let
             "file" = "smog-0.4.1+mc1.21.1.jar";
             "hash" = "sha512-h1Rm/Vt6OgBNvMBb3g2wFhKBpubVxHSLZL/AIR+tKAweP4yt/gGG/jpUQJ2QPbbZbYwS0VPVWmPT8UjR+xbRlg==";
         };
+        _IuPaCzrH = {
+            "id" = "IuPaCzrH";
+            "file" = "smog-0.5.0+mc1.21.1.jar";
+            "hash" = "sha512-FITYCbqN4eOASIzLCnAW0LZ5vj2HspqBaAJOLKS2YCoZEsL5Tv17jCYgwKRG3HI7f48Z3N2v2XZUnihDBBegaA==";
+        };
     in {
         "est68GrJ" = _est68GrJ;
         "Kd8wt35p" = _Kd8wt35p;
         "xL1lm9lo" = _xL1lm9lo;
         "QZ5ia6Ma" = _QZ5ia6Ma;
         "iIucZWbR" = _iIucZWbR;
-        "neoforge-1.21.1" = _iIucZWbR;
+        "IuPaCzrH" = _IuPaCzrH;
+        "neoforge-1.21.1" = _IuPaCzrH;
         "pkg-0.3.0" = _est68GrJ;
         "pkg-0.3.1" = _Kd8wt35p;
         "pkg-0.4.0" = _xL1lm9lo;
         "pkg-0.4.0.1" = _QZ5ia6Ma;
         "pkg-0.4.1" = _iIucZWbR;
-        "default" = _iIucZWbR;
+        "pkg-0.5.0" = _IuPaCzrH;
+        "default" = _IuPaCzrH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-smog";

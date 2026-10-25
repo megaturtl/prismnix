@@ -6071,6 +6071,16 @@ let
             "file" = "fabric-api-0.164.1+26.4.jar";
             "hash" = "sha512-oJ7W2DXfTE5Uq6+i2eE7nL2oIb94qpi5+aUGA8vAJWhAk0u0QOpfsTu4SHmnddHeu4cFuDJ97X7+35J9MiS6Dg==";
         };
+        _EQKgpeKu = {
+            "id" = "EQKgpeKu";
+            "file" = "fabric-api-0.165.0+26.3.jar";
+            "hash" = "sha512-CkuKFOhHtxVntVe0PZBsIWf6Jj7u7zdFSoIbooaZbj2hYW3C2WR3NtKKJQ1ez0AFQcroCDWbKaYjJKim8q1eMA==";
+        };
+        _tCBJwbEV = {
+            "id" = "tCBJwbEV";
+            "file" = "fabric-api-0.165.0+26.4.jar";
+            "hash" = "sha512-XUaVFQSR1QZrlfQApuWhmh6ahe3QdBgofpfvUFnxJK1EftH/YfjAbrwmMvr7eJc5gOn/h5YHUJzRcmLfIfSYAw==";
+        };
     in {
         "KZS9tylY" = _KZS9tylY;
         "EW33COvi" = _EW33COvi;
@@ -7286,6 +7296,8 @@ let
         "LEklt8GT" = _LEklt8GT;
         "lT0oNjkF" = _lT0oNjkF;
         "ZsOLXwvh" = _ZsOLXwvh;
+        "EQKgpeKu" = _EQKgpeKu;
+        "tCBJwbEV" = _tCBJwbEV;
         "fabric-18w49a" = _Vz2fCyj1;
         "fabric-18w50a" = _ePwgymTJ;
         "fabric-19w02a" = _IFHFSVDc;
@@ -7673,12 +7685,12 @@ let
         "fabric-26.3-pre-3" = _cFI1ZXnT;
         "fabric-26.3-rc-1" = _QfyrYezy;
         "fabric-26.3-rc-2" = _i5JXnZn6;
-        "fabric-26.3" = _LEklt8GT;
+        "fabric-26.3" = _EQKgpeKu;
         "fabric-26.4-snapshot-1" = _Z5cdv1Ks;
         "fabric-26.4-snapshot-2" = _kGKn4wa2;
         "fabric-26.4-snapshot-3" = _ds8TaZ94;
         "fabric-26.4-snapshot-4" = _lT0oNjkF;
-        "fabric-26.4-snapshot-5" = _ZsOLXwvh;
+        "fabric-26.4-snapshot-5" = _tCBJwbEV;
         "pkg-0.1.0.36" = _KZS9tylY;
         "pkg-0.1.0.42" = _EW33COvi;
         "pkg-0.1.0.46" = _Vz2fCyj1;
@@ -8892,7 +8904,9 @@ let
         "pkg-0.164.0+26.3" = _LEklt8GT;
         "pkg-0.164.0+26.4" = _lT0oNjkF;
         "pkg-0.164.1+26.4" = _ZsOLXwvh;
-        "default" = _ZsOLXwvh;
+        "pkg-0.165.0+26.3" = _EQKgpeKu;
+        "pkg-0.165.0+26.4" = _tCBJwbEV;
+        "default" = _tCBJwbEV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fabric-api";

@@ -1611,6 +1611,21 @@ let
             "file" = "CreativeCore_FABRIC_v2.14.22_mc26.3.jar";
             "hash" = "sha512-Jsas8bE4WiXjW0SBw5B/gk+OGqv+d29lAVar6QXiT5iyU6O50aGpqUxuNsfIiNtN/HiW83nWEzZ0voks2xqH0Q==";
         };
+        _FogHwRAz = {
+            "id" = "FogHwRAz";
+            "file" = "CreativeCore_FABRIC_v2.14.23_mc26.3.jar";
+            "hash" = "sha512-bJs/seGMD4qKFENbvnSs+T3qH4/LIEJ3sJZzLpvkhIlhPd2GuBY6+Ovvzf/bcizbR6t//bghH78M7ueISw5lGA==";
+        };
+        _Jyax6gDi = {
+            "id" = "Jyax6gDi";
+            "file" = "CreativeCore_NEOFORGE_v2.14.24_mc26.3.jar";
+            "hash" = "sha512-iKw4cm3EoUB0QipX4nBjbn9++1ZeKiMzWHIdl+K8rzhiTy/89V8Su2GKHZGKSuRElg6kTIJloTgcYsXsVsb7Hw==";
+        };
+        _7YUEsxpw = {
+            "id" = "7YUEsxpw";
+            "file" = "CreativeCore_FABRIC_v2.14.24_mc26.3.jar";
+            "hash" = "sha512-0Fu6sZLq/55mSWvAunsrzmfB0j2ZEy7HJB3SxMB8UZmYO9YK2DJGsK14YJonJDWFEPoYlTDBmwWQ9d5JS70Z5Q==";
+        };
     in {
         "KQPGT13V" = _KQPGT13V;
         "fV0nS6Hk" = _fV0nS6Hk;
@@ -1934,6 +1949,9 @@ let
         "vRMtFt35" = _vRMtFt35;
         "CuGhBotX" = _CuGhBotX;
         "mzuUQoPB" = _mzuUQoPB;
+        "FogHwRAz" = _FogHwRAz;
+        "Jyax6gDi" = _Jyax6gDi;
+        "7YUEsxpw" = _7YUEsxpw;
         "forge-1.12.2" = _KQPGT13V;
         "forge-1.16.5" = _fV0nS6Hk;
         "forge-1.17.1" = _L9bEkcLq;
@@ -1968,7 +1986,7 @@ let
         "fabric-26.1" = _Zx1s0cYT;
         "fabric-26.1.2" = _atlpYjof;
         "fabric-26.2" = _SI6rsPDj;
-        "fabric-26.3" = _mzuUQoPB;
+        "fabric-26.3" = _7YUEsxpw;
         "neoforge-1.20" = _T7kYEKfo;
         "neoforge-1.20.1" = _m9VEcxwz;
         "neoforge-1.20.4" = _tEZ8zqTM;
@@ -1987,7 +2005,7 @@ let
         "neoforge-26.1" = _DSPqEs86;
         "neoforge-26.1.2" = _OqoUKynf;
         "neoforge-26.2" = _Mwk5iw3d;
-        "neoforge-26.3" = _CuGhBotX;
+        "neoforge-26.3" = _Jyax6gDi;
         "pkg-1.10.62" = _KQPGT13V;
         "pkg-2.2.1" = _fV0nS6Hk;
         "pkg-2.2.2" = _L9bEkcLq;
@@ -2176,7 +2194,9 @@ let
         "pkg-2.14.21" = _zdCqLdHs;
         "pkg-2.13.51" = _vRMtFt35;
         "pkg-2.14.22" = _mzuUQoPB;
-        "default" = _mzuUQoPB;
+        "pkg-2.14.23" = _FogHwRAz;
+        "pkg-2.14.24" = _7YUEsxpw;
+        "default" = _7YUEsxpw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "creativecore";

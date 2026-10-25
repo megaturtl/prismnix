@@ -331,6 +331,16 @@ let
             "file" = "jurassicsaga-0.2.3-forge-1.20.1.jar";
             "hash" = "sha512-Z4IoxB2KvvEck+c68B2Yg/o8wVLibm0DxOZ8bBqwuSVJf+IDkgknJ/73daUU1WwcehLrW8ieGbukM+wZIaIkjw==";
         };
+        _nti1NZVa = {
+            "id" = "nti1NZVa";
+            "file" = "jurassicsaga-0.3-neoforge-1.21.1.jar";
+            "hash" = "sha512-1h/RRxYokb4XpZrfFv1Z4Rruv/Ibe/ylG+4poArJlW84MzwQd7JOKmjj2nhaJr04wqg/NQKyei9q3iD5ZBjn0g==";
+        };
+        _CNKZCH40 = {
+            "id" = "CNKZCH40";
+            "file" = "jurassicsaga-0.3-forge-1.20.1.jar";
+            "hash" = "sha512-50c9IKaH3vS6BZBKJ3gmvjMFyRjcoET0ZnCg3UMF8XfmVglx4c7xtOk/2vQFpeKvl++F9zdC8EsTfrCTZPgNRQ==";
+        };
     in {
         "ej95mNDh" = _ej95mNDh;
         "wsvgtgdy" = _wsvgtgdy;
@@ -398,11 +408,13 @@ let
         "odlIJ15e" = _odlIJ15e;
         "EzDlTUHi" = _EzDlTUHi;
         "2jMgnaYZ" = _2jMgnaYZ;
-        "neoforge-1.21.1" = _EzDlTUHi;
+        "nti1NZVa" = _nti1NZVa;
+        "CNKZCH40" = _CNKZCH40;
+        "neoforge-1.21.1" = _nti1NZVa;
         "neoforge-1.20.1" = _F2s7vJx1;
         "fabric-1.21.1" = _2hn955Ef;
         "fabric-1.20.1" = _hvPFdYSb;
-        "forge-1.20.1" = _2jMgnaYZ;
+        "forge-1.20.1" = _CNKZCH40;
         "pkg-0.0.3.2" = _wsvgtgdy;
         "pkg-0.1" = _Eo0BXkvG;
         "pkg-0.1.1" = _fByUVcNO;
@@ -429,7 +441,8 @@ let
         "pkg-0.2.1" = _Va3G53TV;
         "pkg-0.2.2" = _odlIJ15e;
         "pkg-0.2.3" = _2jMgnaYZ;
-        "default" = _2jMgnaYZ;
+        "pkg-0.3" = _CNKZCH40;
+        "default" = _CNKZCH40;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jurassic-saga";
