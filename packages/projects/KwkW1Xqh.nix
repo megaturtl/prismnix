@@ -6,8 +6,14 @@ let
             "file" = "SprintPlus-1.0.0.jar";
             "hash" = "sha512-4XNL898+Ars+EYXqNPmog8K2D5qXU/6ezA+3IBAghYyEOiqBVMKQvE7y2eBR/nFVZ60iYyrNuWXcNdUUEQOYCw==";
         };
+        _FQO75n9Z = {
+            "id" = "FQO75n9Z";
+            "file" = "SprintPlus-1.1.1.jar";
+            "hash" = "sha512-S8fN48+cUfwIRSiOY+uv6DQ2/Uzgfq6e1/HUkeLBZ4McxAgEgcZ4VxrbwJwrNtELnoNLY4MjgWZazsg2LyMf5A==";
+        };
     in {
         "dyX0t1uW" = _dyX0t1uW;
+        "FQO75n9Z" = _FQO75n9Z;
         "fabric-1.21" = _dyX0t1uW;
         "fabric-1.21.1" = _dyX0t1uW;
         "fabric-1.21.2" = _dyX0t1uW;
@@ -20,8 +26,14 @@ let
         "fabric-1.21.9" = _dyX0t1uW;
         "fabric-1.21.10" = _dyX0t1uW;
         "fabric-1.21.11" = _dyX0t1uW;
+        "fabric-26.1" = _FQO75n9Z;
+        "fabric-26.1.1" = _FQO75n9Z;
+        "fabric-26.1.2" = _FQO75n9Z;
+        "fabric-26.2" = _FQO75n9Z;
+        "fabric-26.3" = _FQO75n9Z;
         "pkg-1.0.0" = _dyX0t1uW;
-        "default" = _dyX0t1uW;
+        "pkg-1.1.1" = _FQO75n9Z;
+        "default" = _FQO75n9Z;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sprintplus";

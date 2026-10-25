@@ -41,6 +41,16 @@ let
             "file" = "pvp pack 107.zip";
             "hash" = "sha512-taDFP0xquVlTlJ/k8x6P/kDI18HPWifcQjltJvE0kTUBb70h3uvB4dzHo5FO9vOdSq0x+St8KJN+urebb4c73w==";
         };
+        _9T2HcQZj = {
+            "id" = "9T2HcQZj";
+            "file" = "pvp pack 108.zip";
+            "hash" = "sha512-W0W3t0Xd/DfQiZw+nMqtpyb3QjfnedXpWrgYNnPq4EUiN+7QSGQlZ0x8n1IHLCsPGkSIwyCpmUVv8/qS9531dg==";
+        };
+        _ynrBTABL = {
+            "id" = "ynrBTABL";
+            "file" = "pvp pack 109.zip";
+            "hash" = "sha512-QkfelgLzYJtpgVFBaqnra/N96TUCvL9020Jv53Jso3BE+lHlSVsaSkY3j/1L9GPWbRC5RxzQztuPR9hINykTPg==";
+        };
     in {
         "RUvYwHM4" = _RUvYwHM4;
         "CJoi9yMu" = _CJoi9yMu;
@@ -50,12 +60,14 @@ let
         "zbSQnqxl" = _zbSQnqxl;
         "CX3VbSGR" = _CX3VbSGR;
         "2cWILoFp" = _2cWILoFp;
-        "minecraft-1.21.11" = _2cWILoFp;
-        "minecraft-26.1" = _2cWILoFp;
-        "minecraft-26.1.1" = _2cWILoFp;
-        "minecraft-26.1.2" = _2cWILoFp;
-        "minecraft-26.2" = _2cWILoFp;
-        "minecraft-26.3" = _2cWILoFp;
+        "9T2HcQZj" = _9T2HcQZj;
+        "ynrBTABL" = _ynrBTABL;
+        "minecraft-1.21.11" = _ynrBTABL;
+        "minecraft-26.1" = _ynrBTABL;
+        "minecraft-26.1.1" = _ynrBTABL;
+        "minecraft-26.1.2" = _ynrBTABL;
+        "minecraft-26.2" = _ynrBTABL;
+        "minecraft-26.3" = _ynrBTABL;
         "pkg-1.0.0" = _RUvYwHM4;
         "pkg-1.0.1" = _CJoi9yMu;
         "pkg-1.0.2" = _fxbl3qVn;
@@ -64,7 +76,9 @@ let
         "pkg-1.0.5" = _zbSQnqxl;
         "pkg-1.0.6" = _CX3VbSGR;
         "pkg-1.0.7" = _2cWILoFp;
-        "default" = _2cWILoFp;
+        "pkg-1.0.8" = _9T2HcQZj;
+        "pkg-1.0.9" = _ynrBTABL;
+        "default" = _ynrBTABL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pvp-pack-thiftron";

@@ -31,6 +31,11 @@ let
             "file" = "Rainbow Outline §d26.2.zip";
             "hash" = "sha512-Isw8bgGVtQMc+Ul590kEbfQH2xHNtjEzHWToFTtNAt4UF8f/moNzzMvwOnBl28DTGdIteQUXaKe5T6d/a3pEfg==";
         };
+        _fCyJFOOr = {
+            "id" = "fCyJFOOr";
+            "file" = "Rainbow Outline §g26.3.zip";
+            "hash" = "sha512-ObaADgyNlIdp2yYVh+MwcTtsmBfZGeUDWp1+vKICUJ2cliwxtZLzn5kUHbHQkp3SzgTL5kaoJG6FM4S7NJcfYw==";
+        };
     in {
         "prjxrmJI" = _prjxrmJI;
         "GXKxu1t5" = _GXKxu1t5;
@@ -38,6 +43,7 @@ let
         "tKnORSje" = _tKnORSje;
         "5DbVtUnz" = _5DbVtUnz;
         "QnJCpb9f" = _QnJCpb9f;
+        "fCyJFOOr" = _fCyJFOOr;
         "minecraft-26.1" = _prjxrmJI;
         "minecraft-26.1.1" = _prjxrmJI;
         "minecraft-26.1.2" = _prjxrmJI;
@@ -102,12 +108,14 @@ let
         "minecraft-1.20.5" = _5DbVtUnz;
         "minecraft-1.20.6" = _5DbVtUnz;
         "minecraft-26.2" = _QnJCpb9f;
+        "minecraft-26.3" = _fCyJFOOr;
         "pkg-1.0.0" = _GXKxu1t5;
         "pkg-1.20" = _xgvmb9Em;
         "pkg-Beta1.0.1" = _tKnORSje;
         "pkg-1.0.2" = _5DbVtUnz;
         "pkg-26.2" = _QnJCpb9f;
-        "default" = _QnJCpb9f;
+        "pkg-26.3" = _fCyJFOOr;
+        "default" = _fCyJFOOr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rainbow-outline";

@@ -111,6 +111,16 @@ let
             "file" = "philipps_alarm_mod-2.2.0-forge-1.20.1.jar";
             "hash" = "sha512-yQC+fYcGswmZi2TELxTKvkRlp4Zm3z8odtuNkxYkOeQvUhaYukbPHI6gwAMwqEfx2uIcC4ehu+al+da2Nlc0ZQ==";
         };
+        _nd7kogVJ = {
+            "id" = "nd7kogVJ";
+            "file" = "philipps_alarm_mod-2.2.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-letcHVSvtbSR6XAHr+aRjNS2fRjx4ONPOSmjAIrQfeff61utAelROEhR16t544MO51ORuXw/xpL0/hsHs9Dd0A==";
+        };
+        _BpuGlNly = {
+            "id" = "BpuGlNly";
+            "file" = "philipps_alarm_mod-2.2.1-forge-1.20.1.jar";
+            "hash" = "sha512-d7XocgRg/ztkFdtR1E4JGkiKTw8yQ8NyakBZhYlvLe508tjxl2+O3aZZysLDHgaG6tSj0yKSJA35sQhb5n0yQg==";
+        };
     in {
         "u0vIsTCV" = _u0vIsTCV;
         "Z6rrD5JN" = _Z6rrD5JN;
@@ -134,8 +144,10 @@ let
         "ycBP11FA" = _ycBP11FA;
         "sDtYWHpu" = _sDtYWHpu;
         "QpOZoGDu" = _QpOZoGDu;
-        "forge-1.20.1" = _QpOZoGDu;
-        "neoforge-1.21.1" = _sDtYWHpu;
+        "nd7kogVJ" = _nd7kogVJ;
+        "BpuGlNly" = _BpuGlNly;
+        "forge-1.20.1" = _BpuGlNly;
+        "neoforge-1.21.1" = _nd7kogVJ;
         "pkg-1.0.0" = _u0vIsTCV;
         "pkg-1.1.2" = _Z6rrD5JN;
         "pkg-1.2.0" = _WI7L1uT1;
@@ -149,7 +161,8 @@ let
         "pkg-2.0.4" = _Bo9HH6N8;
         "pkg-2.1.0" = _ycBP11FA;
         "pkg-2.2.0" = _QpOZoGDu;
-        "default" = _QpOZoGDu;
+        "pkg-2.2.1" = _BpuGlNly;
+        "default" = _BpuGlNly;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "philipps-alarm-mod";

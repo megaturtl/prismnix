@@ -31,6 +31,11 @@ let
             "file" = "citresewn-continuation-1.2.2-fork.13+1.21.3.jar";
             "hash" = "sha512-Expro6FlRaJVyzffr+EKgiEVFW1N13DRBnvJJGXRcbyExxChrL0bYQgKv77MSl6zqrc/fWATaa/ttVGZ3MQLSQ==";
         };
+        _sZ4LgUrM = {
+            "id" = "sZ4LgUrM";
+            "file" = "citresewn-continuation-1.2.2-fork.14+26.3.jar";
+            "hash" = "sha512-wFOg+Gk7N+H04WY5FAVtdwwqEUVv/m7RK0FUfJg9NmWuPFPYmdxcabpT/ub4RxzjSEdyO1LLJqztqQBJKhiELg==";
+        };
     in {
         "3bjfw6Xx" = _3bjfw6Xx;
         "E73F5mkd" = _E73F5mkd;
@@ -38,6 +43,7 @@ let
         "rza9yjm4" = _rza9yjm4;
         "K8DW4S3g" = _K8DW4S3g;
         "UFuJQcUQ" = _UFuJQcUQ;
+        "sZ4LgUrM" = _sZ4LgUrM;
         "fabric-1.21.11" = _3bjfw6Xx;
         "fabric-1.21.10" = _E73F5mkd;
         "fabric-1.21.5" = _hK999CZp;
@@ -54,8 +60,9 @@ let
         "fabric-26.1.2" = _K8DW4S3g;
         "fabric-26.2" = _K8DW4S3g;
         "fabric-1.21.3" = _UFuJQcUQ;
-        "pkg-1.0" = _UFuJQcUQ;
-        "default" = _UFuJQcUQ;
+        "fabric-26.3" = _sZ4LgUrM;
+        "pkg-1.0" = _sZ4LgUrM;
+        "default" = _sZ4LgUrM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cit-resewn-fork";

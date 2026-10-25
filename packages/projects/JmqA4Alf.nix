@@ -431,6 +431,36 @@ let
             "file" = "litematica-material-hud-1.0.19+1.21.11.jar";
             "hash" = "sha512-/rmX/e9dkJoOQIithazNFjAo6rDAoAASJh5RVdNNXx83ZBbKOCxSYcD3CH0MvEg4nWQBorsE/3JEwG5fuK0QmQ==";
         };
+        _Bm9lHS2k = {
+            "id" = "Bm9lHS2k";
+            "file" = "litematica-material-hud-1.0.20+26.3.jar";
+            "hash" = "sha512-LvcxWB1Sq9XHFc7wNcu5w4fGydMtuDD7uUMtkztQEEqn83TU3UkXpdUjfOvjwdB4VuUHNWikXiH5z0hgMqXI0Q==";
+        };
+        _ga7RQAoe = {
+            "id" = "ga7RQAoe";
+            "file" = "litematica-material-hud-1.0.20+26.2.jar";
+            "hash" = "sha512-WqcKOFIkGMXBvct9lJuzS4zBiZ7AqGJ7sTgB9YX8s4Cc0XE9dEwxCXfMOlDK4qr3L+S4sxlBaUy9VaUv0ofl4g==";
+        };
+        _jq0StmQP = {
+            "id" = "jq0StmQP";
+            "file" = "litematica-material-hud-1.0.20+1.21.11.jar";
+            "hash" = "sha512-/IyFY43Pd6Er2iofO+zkYvOX9wIQNu54/awO1SdKa+2hI6FGHJI+LLOgN9BPLoNMVsbcJf/eZsk7zv7F1R3zbA==";
+        };
+        _q8OO0o6m = {
+            "id" = "q8OO0o6m";
+            "file" = "litematica-material-hud-1.0.21+26.3.jar";
+            "hash" = "sha512-jXqdc9EunMPvGRO6zmnAN4cRiUrH5nLp9JZ6FfFY1op6nG5scfTbWw9jSfXZHdSaF45NvDezYSdG20TQ7H7EJw==";
+        };
+        _AWTDTc42 = {
+            "id" = "AWTDTc42";
+            "file" = "litematica-material-hud-1.0.21+26.2.jar";
+            "hash" = "sha512-DKRhdXHnhh1oSgPFzmxTDYdGyo0iJEnvAnyoTrjh0E0gCbDS+HJo+r6btGcISQGoFlzT0+RNlHRnmgpBU9OPlw==";
+        };
+        _9WbfI8An = {
+            "id" = "9WbfI8An";
+            "file" = "litematica-material-hud-1.0.21+1.21.11.jar";
+            "hash" = "sha512-4yuK2ypYxXoM5ne06OAX6wIEuS+KH14WD79Hdcls5oV0UiZd3/iaEUkPv61we/OSa6yG7uHKNugZb5oxj7Gzgw==";
+        };
     in {
         "z2IZqkAA" = _z2IZqkAA;
         "WtOCkLpA" = _WtOCkLpA;
@@ -518,12 +548,18 @@ let
         "8yZ1AOsM" = _8yZ1AOsM;
         "7shxEXSd" = _7shxEXSd;
         "7qv5z0tL" = _7qv5z0tL;
-        "fabric-26.2" = _7shxEXSd;
-        "fabric-1.21.11" = _7qv5z0tL;
+        "Bm9lHS2k" = _Bm9lHS2k;
+        "ga7RQAoe" = _ga7RQAoe;
+        "jq0StmQP" = _jq0StmQP;
+        "q8OO0o6m" = _q8OO0o6m;
+        "AWTDTc42" = _AWTDTc42;
+        "9WbfI8An" = _9WbfI8An;
+        "fabric-26.2" = _AWTDTc42;
+        "fabric-1.21.11" = _9WbfI8An;
         "fabric-26.1" = _8wVTpizB;
         "fabric-26.1.1" = _8wVTpizB;
         "fabric-26.1.2" = _8wVTpizB;
-        "fabric-26.3" = _8yZ1AOsM;
+        "fabric-26.3" = _q8OO0o6m;
         "pkg-0.0.1+26.2" = _z2IZqkAA;
         "pkg-0.0.2+26.2" = _WtOCkLpA;
         "pkg-0.0.2+1.21.11" = _S45x0GGc;
@@ -610,7 +646,13 @@ let
         "pkg-1.0.19+26.3" = _8yZ1AOsM;
         "pkg-1.0.19+26.2" = _7shxEXSd;
         "pkg-1.0.19+1.21.11" = _7qv5z0tL;
-        "default" = _7qv5z0tL;
+        "pkg-1.0.20+26.3" = _Bm9lHS2k;
+        "pkg-1.0.20+26.2" = _ga7RQAoe;
+        "pkg-1.0.20+1.21.11" = _jq0StmQP;
+        "pkg-1.0.21+26.3" = _q8OO0o6m;
+        "pkg-1.0.21+26.2" = _AWTDTc42;
+        "pkg-1.0.21+1.21.11" = _9WbfI8An;
+        "default" = _9WbfI8An;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "material-hud";

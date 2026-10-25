@@ -71,6 +71,11 @@ let
             "file" = "archaicfix-0.8.0.jar";
             "hash" = "sha512-1V8/JhFTPMAefiRjEQwBEoFXSjpavGM0tu2JKfgoiz8jrnRoewtRwf2n1FYr2EIgXAlkUjqFISAgbFzJYCfEFA==";
         };
+        _HagnT2ce = {
+            "id" = "HagnT2ce";
+            "file" = "archaicfix-0.8.2.jar";
+            "hash" = "sha512-CB2t99loSBCe4SGEZKEBlypzfy6nEukwOgSLEHgDZWyl+qQ8dl0AQOoM+svMnXbj6v3nqn2huoypNF1ER0v4xw==";
+        };
     in {
         "91JtupNR" = _91JtupNR;
         "uRbmK1eK" = _uRbmK1eK;
@@ -86,7 +91,8 @@ let
         "kTflr9kJ" = _kTflr9kJ;
         "QCMittJd" = _QCMittJd;
         "pHrxpfYF" = _pHrxpfYF;
-        "forge-1.7.10" = _pHrxpfYF;
+        "HagnT2ce" = _HagnT2ce;
+        "forge-1.7.10" = _HagnT2ce;
         "pkg-0.6.1" = _91JtupNR;
         "pkg-0.6.2" = _uRbmK1eK;
         "pkg-0.7.0" = _kGIl2zKd;
@@ -101,7 +107,8 @@ let
         "pkg-0.7.9" = _kTflr9kJ;
         "pkg-0.7.10" = _QCMittJd;
         "pkg-0.8.0" = _pHrxpfYF;
-        "default" = _pHrxpfYF;
+        "pkg-0.8.2" = _HagnT2ce;
+        "default" = _HagnT2ce;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "archaicfix";

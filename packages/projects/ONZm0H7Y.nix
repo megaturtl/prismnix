@@ -191,6 +191,16 @@ let
             "file" = "bbe-neoforge-1.4.0+mc26.3.jar";
             "hash" = "sha512-LVckXFyerHu0yid/Lr3cfwtei+9NMj/FSD7ZPvNPKBTVw7Ewy36xZk4nHZwuVVxEnnehXIZ4of5uj/NHQ6n/Zg==";
         };
+        _n5mL5flA = {
+            "id" = "n5mL5flA";
+            "file" = "bbe-fabric-1.3.9+mc26.2-mod.jar";
+            "hash" = "sha512-H55clU9pg89jDkuQaBXSrwqBjpHKvGW0sT3ewAWJ5E4VgSRY4V18DNADtxpwMQ7woqS5HJjQaVsHA0o9yWM52A==";
+        };
+        _NofccQYm = {
+            "id" = "NofccQYm";
+            "file" = "bbe-neoforge-1.3.9+mc26.2.jar";
+            "hash" = "sha512-Y3vldSEjAlR/FoHyDKt8gD6JhC4opQcVLay2NZFACT+cjHtf8WVzIS7hj9NaE6K38hrJ69M5pnY8AXlwM+2CMw==";
+        };
     in {
         "zxUnLjv5" = _zxUnLjv5;
         "LETYHWaQ" = _LETYHWaQ;
@@ -230,6 +240,8 @@ let
         "9VvhfLcA" = _9VvhfLcA;
         "FU2tstk7" = _FU2tstk7;
         "mifbgFWa" = _mifbgFWa;
+        "n5mL5flA" = _n5mL5flA;
+        "NofccQYm" = _NofccQYm;
         "fabric-1.21.6" = _nZ02Iiki;
         "fabric-1.21.7" = _nZ02Iiki;
         "fabric-1.21.8" = _nZ02Iiki;
@@ -241,14 +253,14 @@ let
         "fabric-26.1.2" = _Kd9uKKlh;
         "fabric-1.21" = _pK7WAKWZ;
         "fabric-1.21.1" = _pK7WAKWZ;
-        "fabric-26.2" = _Sr2VjbpG;
+        "fabric-26.2" = _n5mL5flA;
         "fabric-26.3" = _FU2tstk7;
         "neoforge-1.21" = _JgYqDEaQ;
         "neoforge-1.21.1" = _JgYqDEaQ;
         "neoforge-26.1" = _P2BhYINY;
         "neoforge-26.1.1" = _P2BhYINY;
         "neoforge-26.1.2" = _P2BhYINY;
-        "neoforge-26.2" = _vfpPl6mq;
+        "neoforge-26.2" = _NofccQYm;
         "neoforge-26.3" = _mifbgFWa;
         "pkg-1.0.0+1.21.8" = _zxUnLjv5;
         "pkg-1.0.0+1.21.10" = _LETYHWaQ;
@@ -282,7 +294,8 @@ let
         "pkg-1.3.4+mc1.21.1" = _JgYqDEaQ;
         "pkg-1.3.9+mc26.3" = _9VvhfLcA;
         "pkg-1.4.0+mc26.3" = _mifbgFWa;
-        "default" = _mifbgFWa;
+        "pkg-1.3.9+mc26.2" = _NofccQYm;
+        "default" = _NofccQYm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-block-entities";

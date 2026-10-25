@@ -1501,6 +1501,21 @@ let
             "file" = "fish_of_thieves-mc26.3-v26.3.0.1-fabric.jar";
             "hash" = "sha512-LYiOdTRF2Mcu4aLJ70d/XtpDIQ+6csg2ml4e4BfWOCTPssFY7HGQoQtvV4msl9mryRF+0YgRSvKcxfOTaTNYFA==";
         };
+        _QC6QMSjC = {
+            "id" = "QC6QMSjC";
+            "file" = "fish_of_thieves-mc1.20.1-v3.4.0-forge.jar";
+            "hash" = "sha512-/YHmlg8FFLxVauvl1fYWilh6GyPTUhKmwl/LOptLtdVYrjl9MD2b+7tB++94t6T7DmUk4vYIPmmK/fYbahInXw==";
+        };
+        _D2B66QAn = {
+            "id" = "D2B66QAn";
+            "file" = "fish_of_thieves-mc1.20.1-v3.4.0-fabric.jar";
+            "hash" = "sha512-hLNwpULTPRsAx1vFSmlkSojEbSe6C83Cxf7PzbUGSCAWfDcuLI7I7yo+EDN1dknHKvPnvDg4ensQ4mrPI0HZdw==";
+        };
+        _Mcww9QAv = {
+            "id" = "Mcww9QAv";
+            "file" = "fish_of_thieves-mc1.21.1-v21.1.3.0-fabric.jar";
+            "hash" = "sha512-rEzSYKfY6R2e4r1rK/dcDhGPk0kgdqMDI000EkQe3owMHvQcNTGGTyYODokIn5fFh/XgvGIghgBPm/7LQ4R92g==";
+        };
     in {
         "b2q3gw8a" = _b2q3gw8a;
         "mNU5HDuU" = _mNU5HDuU;
@@ -1802,6 +1817,9 @@ let
         "hvfzPFhF" = _hvfzPFhF;
         "J9sIQZK0" = _J9sIQZK0;
         "EtlFr8f9" = _EtlFr8f9;
+        "QC6QMSjC" = _QC6QMSjC;
+        "D2B66QAn" = _D2B66QAn;
+        "Mcww9QAv" = _Mcww9QAv;
         "fabric-1.18.1" = _b2q3gw8a;
         "fabric-1.18.2" = _LttuWRES;
         "fabric-1.19" = _xOSwBLhp;
@@ -1810,12 +1828,12 @@ let
         "fabric-1.19.3" = _IlCSOHDp;
         "fabric-1.19.4" = _RL2cGwR9;
         "fabric-1.20" = _4ch5FODy;
-        "fabric-1.20.1" = _l9q8R2Z0;
+        "fabric-1.20.1" = _D2B66QAn;
         "fabric-1.20.2" = _bQLzqC9Q;
         "fabric-1.20.6" = _Tf0yKMOE;
         "fabric-1.21" = _pQIC41HZ;
         "fabric-1.20.4" = _a3KL8qxP;
-        "fabric-1.21.1" = _ClUK5mV5;
+        "fabric-1.21.1" = _Mcww9QAv;
         "fabric-1.21.4" = _sITzTyMN;
         "fabric-1.21.5" = _DLw6UXfQ;
         "fabric-1.21.8" = _Iwone7mf;
@@ -1832,7 +1850,7 @@ let
         "forge-1.19.3" = _Maq2nduT;
         "forge-1.19.4" = _XUbbB9HG;
         "forge-1.20" = _uUW5O5l0;
-        "forge-1.20.1" = _OJIIkgJy;
+        "forge-1.20.1" = _QC6QMSjC;
         "forge-1.20.2" = _9n8yLTyW;
         "forge-1.20.4" = _2nNikRqo;
         "neoforge-1.20.2" = _jne4dPOp;
@@ -2084,7 +2102,10 @@ let
         "pkg-26.2.1.2-fabric" = _hvfzPFhF;
         "pkg-26.3.0.1-neoforge" = _J9sIQZK0;
         "pkg-26.3.0.1-fabric" = _EtlFr8f9;
-        "default" = _EtlFr8f9;
+        "pkg-3.4.0-forge" = _QC6QMSjC;
+        "pkg-3.4.0-fabric" = _D2B66QAn;
+        "pkg-21.1.3.0-fabric" = _Mcww9QAv;
+        "default" = _Mcww9QAv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fish-of-thieves";

@@ -56,6 +56,46 @@ let
             "file" = "Trusty Tools v1.2.1.zip";
             "hash" = "sha512-H+xalo7goJrWTOoJQzB92VGPUaB38+yAwG0MlI7ai/HwN7jBImsU/VsoefQ8Ka6CIKMUif2rlaUC3wM1PQJdkw==";
         };
+        _oaWvyyvi = {
+            "id" = "oaWvyyvi";
+            "file" = "Trusty Tools v1.3.zip";
+            "hash" = "sha512-Zbkh+G5UpurCDowO/xgCbwCPEh4E7hXDfWY4yCniEHw40y/0HF6hr4XxrI+LirZqEVK8Bk8V2oggCiaxGox8AQ==";
+        };
+        _aRESjAgB = {
+            "id" = "aRESjAgB";
+            "file" = "Trusty Tools v1.3.zip";
+            "hash" = "sha512-yZzyT5bxEs4d//xjFYf0a+doCFHfwn8h2YpuIR90JMzzrS/dJbWrb6fMzfPx/viot26zHJun5m8n0cgdLXXKOw==";
+        };
+        _VSNlwpyB = {
+            "id" = "VSNlwpyB";
+            "file" = "Trusty Tools v1.3.zip";
+            "hash" = "sha512-r039vbNBLDDIm2+2F5cU77LGFKg8kXLyQPb3aoUuDcUVplp4T74FZPja7f2CdAMHNcZ3VSEsORPqa1wfhcmXoQ==";
+        };
+        _OMv9GuID = {
+            "id" = "OMv9GuID";
+            "file" = "Trusty Tools v1.3.zip";
+            "hash" = "sha512-21Imf/5+5VFtquZrj36HqXqk99EuBbRzxIl+pAvMPfnaHElC3Z6ZrcAo93EMUpaEaXDx37Yi/Q4DUN6Tw1eTQA==";
+        };
+        _rTS8aljY = {
+            "id" = "rTS8aljY";
+            "file" = "Trusty Tools v1.3.zip";
+            "hash" = "sha512-d+PBhgNOdQ6T/ETPL4/C70fgxL0Wm6mnW43KnHGq/JCbLqAbXrrZY7eli6LVb4eked8R4Wu3JVoV5d0vjH8X1A==";
+        };
+        _PPwGTywa = {
+            "id" = "PPwGTywa";
+            "file" = "Trusty Tools v1.3.zip";
+            "hash" = "sha512-FtU0Ga9vhUjuPfYCehl+ov/TO17DJ2blqn2gaRker2LG8dglp/tELvwuNnmj1WJX7sIxw3TjqENy5uT7RBJJQw==";
+        };
+        _kQYY0pFV = {
+            "id" = "kQYY0pFV";
+            "file" = "Trusty Tools v1.3.zip";
+            "hash" = "sha512-1d2VAcuZHq4zfcAh9v0jvC+yqaRqGm7X5/PnYyYy4ikRJfm66tyKwlX6yBNtlBAkswdaBjIirlUVnv/NvOvyAg==";
+        };
+        _X1BPqtqm = {
+            "id" = "X1BPqtqm";
+            "file" = "Trusty Tools v1.3.zip";
+            "hash" = "sha512-X6w17+onFfexIhXnxXB5SVDKVEBENc2iGaAY2eNKLNQ/hmt40vJQ3Cg2wjOX0fF7rsuZ2oWOx64N+79xJG+GSg==";
+        };
     in {
         "fPIX1fgi" = _fPIX1fgi;
         "hXW4STD2" = _hXW4STD2;
@@ -68,19 +108,33 @@ let
         "Nus8UeiT" = _Nus8UeiT;
         "ibRjMaVe" = _ibRjMaVe;
         "c3NJnmRH" = _c3NJnmRH;
-        "minecraft-1.21.9" = _X1mRiMlT;
-        "minecraft-1.21.10" = _X1mRiMlT;
-        "minecraft-1.21.4" = _ibRjMaVe;
-        "minecraft-1.21.5" = _Nus8UeiT;
-        "minecraft-1.21.6" = _AL7dM4qC;
-        "minecraft-1.21.7" = _AL7dM4qC;
-        "minecraft-1.21.8" = _AL7dM4qC;
-        "minecraft-1.21.11" = _c3NJnmRH;
+        "oaWvyyvi" = _oaWvyyvi;
+        "aRESjAgB" = _aRESjAgB;
+        "VSNlwpyB" = _VSNlwpyB;
+        "OMv9GuID" = _OMv9GuID;
+        "rTS8aljY" = _rTS8aljY;
+        "PPwGTywa" = _PPwGTywa;
+        "kQYY0pFV" = _kQYY0pFV;
+        "X1BPqtqm" = _X1BPqtqm;
+        "minecraft-1.21.9" = _OMv9GuID;
+        "minecraft-1.21.10" = _OMv9GuID;
+        "minecraft-1.21.4" = _oaWvyyvi;
+        "minecraft-1.21.5" = _aRESjAgB;
+        "minecraft-1.21.6" = _VSNlwpyB;
+        "minecraft-1.21.7" = _VSNlwpyB;
+        "minecraft-1.21.8" = _VSNlwpyB;
+        "minecraft-1.21.11" = _rTS8aljY;
+        "minecraft-26.1" = _PPwGTywa;
+        "minecraft-26.1.1" = _PPwGTywa;
+        "minecraft-26.1.2" = _PPwGTywa;
+        "minecraft-26.2" = _kQYY0pFV;
+        "minecraft-26.3" = _X1BPqtqm;
         "pkg-1.0" = _fPIX1fgi;
         "pkg-1.1" = _VfSHyNrq;
         "pkg-1.2" = _ibRjMaVe;
         "pkg-1.2.1" = _c3NJnmRH;
-        "default" = _c3NJnmRH;
+        "pkg-1.3" = _X1BPqtqm;
+        "default" = _X1BPqtqm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trusty-tools";

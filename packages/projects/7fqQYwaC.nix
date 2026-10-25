@@ -106,6 +106,11 @@ let
             "file" = "fdbosses-3.2-1.21.1.jar";
             "hash" = "sha512-t4rOqrUlk9XpnKh5zr5ra2FT2GxkrUI/hiAwI+1S2jEN9S/pHefEdbQNyKtHG2sb1jfI5TvukzCQaCjH+hWdsA==";
         };
+        _3w93Q3oG = {
+            "id" = "3w93Q3oG";
+            "file" = "fdbosses-3.2-1.20.1.jar";
+            "hash" = "sha512-gjgT8XyMHcyxCvh9zeZBpQVG2PsIKwdwrW7AjA5jmKbl4DXT1ACZ34YKJm33PXhodi15BgJHGPfv7/1k7Kg4mg==";
+        };
     in {
         "HAYJQ1je" = _HAYJQ1je;
         "ofw6mRur" = _ofw6mRur;
@@ -128,9 +133,10 @@ let
         "mubOR5lN" = _mubOR5lN;
         "EjoywCe2" = _EjoywCe2;
         "kwrLMvMC" = _kwrLMvMC;
+        "3w93Q3oG" = _3w93Q3oG;
         "neoforge-1.21.1" = _kwrLMvMC;
-        "neoforge-1.20.1" = _EjoywCe2;
-        "forge-1.20.1" = _EjoywCe2;
+        "neoforge-1.20.1" = _3w93Q3oG;
+        "forge-1.20.1" = _3w93Q3oG;
         "pkg-1.0.0" = _HAYJQ1je;
         "pkg-1.0.1" = _ofw6mRur;
         "pkg-1.0.2" = _eJOlbX41;
@@ -148,7 +154,8 @@ let
         "pkg-3.1.0" = _NYiglfRA;
         "pkg-3.1.0.3" = _EjoywCe2;
         "pkg-3.2" = _kwrLMvMC;
-        "default" = _kwrLMvMC;
+        "pkg-3.2-1.20.1" = _3w93Q3oG;
+        "default" = _3w93Q3oG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "qliphoth-awakening";

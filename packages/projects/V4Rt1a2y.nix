@@ -41,6 +41,26 @@ let
             "file" = "syals_delight-1.20.1-1.0.2.jar";
             "hash" = "sha512-v9uS+uY9h3ZBETJfSranpYq6VFbf/iUSzNboRFYbcMEkUbgKXiED2gZKqvauv1UjxiADDIjcTQxaL8/XNSPUsw==";
         };
+        _VEv5PxTF = {
+            "id" = "VEv5PxTF";
+            "file" = "syals_delight-1.20.1-1.0.0.jar";
+            "hash" = "sha512-5f88eDGYzwMDQ4zzZxxVSIRlYYUaErW3uLl3ZZU2iC6ctBeRRJ3vVY4bw6NL33kPJMBRUdhw6WSqJ5Zw/wbnqw==";
+        };
+        _DIU8g5ht = {
+            "id" = "DIU8g5ht";
+            "file" = "syals_delight-1.21.1-1.0.0.jar";
+            "hash" = "sha512-+/9vWQyYtB5kdvGkL+4n1Mi2Ps8hPR08c4GuytEkhVARbbIpuPB1kVWRvwZz8bUjM4a1aG+C6oqsPHI9+FTsCA==";
+        };
+        _3qRoFOLV = {
+            "id" = "3qRoFOLV";
+            "file" = "syals_delight-1.12.2-1.0.0.jar";
+            "hash" = "sha512-l6OQJeJIlCJLZKFOn+mGzJ92O/7EeNG7LmRJCBxjsRaVn+b06OgKmT5U+/6Pp85YetDSUwv2DZS+t2sXr5KBIA==";
+        };
+        _S0lNdz0g = {
+            "id" = "S0lNdz0g";
+            "file" = "syals_delight_gtfo-1.12.2.zip";
+            "hash" = "sha512-9PnM0zjMpkaNaN3TT2Cw6bMA7kBayuc5//nlUOv78ruRfK7ikEl9QBjRzWUSkUKNaUkMvxyRKkBWtaoeoNN4kA==";
+        };
     in {
         "3p4f2SRR" = _3p4f2SRR;
         "MJeby0dW" = _MJeby0dW;
@@ -50,8 +70,16 @@ let
         "pXDqQV1F" = _pXDqQV1F;
         "D33q7AKU" = _D33q7AKU;
         "eOxxVc67" = _eOxxVc67;
+        "VEv5PxTF" = _VEv5PxTF;
+        "DIU8g5ht" = _DIU8g5ht;
+        "3qRoFOLV" = _3qRoFOLV;
+        "S0lNdz0g" = _S0lNdz0g;
         "forge-1.20.1" = _eOxxVc67;
+        "forge-1.12.2" = _3qRoFOLV;
         "neoforge-1.21.1" = _D33q7AKU;
+        "fabric-1.20.1" = _VEv5PxTF;
+        "fabric-1.21.1" = _DIU8g5ht;
+        "minecraft-1.12.2" = _S0lNdz0g;
         "pkg-1.0.0" = _3p4f2SRR;
         "pkg-1.0.1" = _MJeby0dW;
         "pkg-1.21.1-1.0.0" = _ohqBxUyp;
@@ -60,7 +88,11 @@ let
         "pkg-1.0.3" = _pXDqQV1F;
         "pkg-1.21.1-1.0.4" = _D33q7AKU;
         "pkg-1.20.1-1.0.2" = _eOxxVc67;
-        "default" = _eOxxVc67;
+        "pkg-1.20.1-fabric-1.0.0" = _VEv5PxTF;
+        "pkg-1.21.1-fabric-1.0.0" = _DIU8g5ht;
+        "pkg-1.12.2-Forge-Cleanroom-1.0.0" = _3qRoFOLV;
+        "pkg-SyalsdelightModernChips-1.12.2" = _S0lNdz0g;
+        "default" = _S0lNdz0g;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "syals-delight";

@@ -1836,6 +1836,11 @@ let
             "file" = "autotorch-v1.10.0-mc26.3-neoforge.jar";
             "hash" = "sha512-j5dG22hIs5ABp3L4AXE3ln7kCzdnHiJ9BKNQzF/AwXA17dyVcNrIK3zRYaODhhiGzEKEofvwtbUb9MIoqF0Lqw==";
         };
+        _OMrTS6Rn = {
+            "id" = "OMrTS6Rn";
+            "file" = "autotorch-v1.10.1-mc26.3-forge.jar";
+            "hash" = "sha512-0j+4wsGO1/lX7Jec3lu/ipo/lvzpghH9PiDdfSjpy+OYsqy2RaNzSPAMjyHsnujZDlVZQbdgwiDchuvW8q2xsw==";
+        };
     in {
         "1Q3besUW" = _1Q3besUW;
         "H5vnDLTU" = _H5vnDLTU;
@@ -2204,6 +2209,7 @@ let
         "NpvsYU40" = _NpvsYU40;
         "xITpUp4q" = _xITpUp4q;
         "UmR9xYrc" = _UmR9xYrc;
+        "OMrTS6Rn" = _OMrTS6Rn;
         "neoforge-26.1.2" = _a28PNEJb;
         "neoforge-1.21.1" = _75Ic0v2A;
         "neoforge-1.21.11" = _C8crxCUO;
@@ -2230,7 +2236,7 @@ let
         "forge-1.17.1" = _1uR6R7Vw;
         "forge-1.20.1" = _QEQb709N;
         "forge-1.18.2" = _vCWXznLa;
-        "forge-26.3" = _xITpUp4q;
+        "forge-26.3" = _OMrTS6Rn;
         "fabric-26.1.2" = _AcxBze88;
         "fabric-1.21.1" = _9RyHwQDA;
         "fabric-1.21.11" = _nR5F4IZp;
@@ -2597,7 +2603,8 @@ let
         "pkg-1.10.0+mc26.3.fabric" = _NpvsYU40;
         "pkg-1.10.0+mc26.3.forge" = _xITpUp4q;
         "pkg-1.10.0+mc26.3.neoforge" = _UmR9xYrc;
-        "default" = _UmR9xYrc;
+        "pkg-1.10.1+mc26.3.forge" = _OMrTS6Rn;
+        "default" = _OMrTS6Rn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "auto-torch-skr";

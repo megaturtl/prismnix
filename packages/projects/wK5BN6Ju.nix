@@ -431,6 +431,11 @@ let
             "file" = "tysc-2.1.1+26.1.jar";
             "hash" = "sha512-Vm0GuSEKxlO741Q+3umQ3/Y/0au7x+sO6DV3R99cUsrGajm8UWbWcgF4TgpVAo/L5pKjlFJ9a2u5Kf9uKXm7YA==";
         };
+        _IGSg0w1K = {
+            "id" = "IGSg0w1K";
+            "file" = "tysc-2.1.1+1.21.1.jar";
+            "hash" = "sha512-2bBHr7Ymf/28e63+uCwhQlhNKUGvF4CJB48w+YZPbKJT7tuZkke3C0xQ+9h2fINwbjxNFcDEM76wG706A0XhSA==";
+        };
     in {
         "8ssjNCWK" = _8ssjNCWK;
         "8ThfI5rT" = _8ThfI5rT;
@@ -518,6 +523,7 @@ let
         "EWLyFcfr" = _EWLyFcfr;
         "SagqHyjy" = _SagqHyjy;
         "IsvzMqWX" = _IsvzMqWX;
+        "IGSg0w1K" = _IGSg0w1K;
         "fabric-1.21.7" = _ne9an9du;
         "fabric-1.21.8" = _ne9an9du;
         "fabric-1.21" = _zH9yXgsJ;
@@ -534,7 +540,7 @@ let
         "fabric-26.3" = _KlkE9yv6;
         "fabric-1.20.1" = _eNmr4HA0;
         "neoforge-1.21" = _c0AnQUsT;
-        "neoforge-1.21.1" = _FOvjyFJE;
+        "neoforge-1.21.1" = _IGSg0w1K;
         "neoforge-1.21.4" = _7hlMNbh6;
         "neoforge-1.21.8" = _rF88xENq;
         "neoforge-1.21.10" = _VpTMI2Xv;
@@ -556,8 +562,8 @@ let
         "pkg-2.0.0" = _lrZdQoYQ;
         "pkg-2.0.1" = _7ZkmLL9e;
         "pkg-2.1.0" = _mr0xQ1vH;
-        "pkg-2.1.1" = _IsvzMqWX;
-        "default" = _IsvzMqWX;
+        "pkg-2.1.1" = _IGSg0w1K;
+        "default" = _IGSg0w1K;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "take-your-stream-chat";

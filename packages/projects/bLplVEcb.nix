@@ -121,6 +121,11 @@ let
             "file" = "dmz_ragnarok-1.6.1.jar";
             "hash" = "sha512-iapiXxlnZy0Tbtf/Xh7gIsWrdXsvA1SdEAi5+f+wRiS0HIveglDKvzjUUByx3OFftQaPVnEdOSpCsZi+9WOOIw==";
         };
+        _vAJ1RLer = {
+            "id" = "vAJ1RLer";
+            "file" = "dmz_ragnarok-1.6.1.jar";
+            "hash" = "sha512-iYFcx0pcNF46J6QJYmtTlxTmBADm4fh4sjbtipD2Mb/XkLMVjUyC/9iW6HWNr8PnWfLbtE6z8rgWmJjbL6zGoA==";
+        };
     in {
         "U4YiT80i" = _U4YiT80i;
         "WRrEjDEw" = _WRrEjDEw;
@@ -146,7 +151,8 @@ let
         "wHWPOqDG" = _wHWPOqDG;
         "3Cvuh1Aj" = _3Cvuh1Aj;
         "P6S8keNG" = _P6S8keNG;
-        "forge-1.20.1" = _P6S8keNG;
+        "vAJ1RLer" = _vAJ1RLer;
+        "forge-1.20.1" = _vAJ1RLer;
         "pkg-1.1.335" = _U4YiT80i;
         "pkg-1.1.338" = _WRrEjDEw;
         "pkg-1.1.343" = _35KBYxhx;
@@ -170,8 +176,8 @@ let
         "pkg-1.5.0" = _IdI9psMr;
         "pkg-1.5.1" = _wHWPOqDG;
         "pkg-1.6.0" = _3Cvuh1Aj;
-        "pkg-1.6.1" = _P6S8keNG;
-        "default" = _P6S8keNG;
+        "pkg-1.6.1" = _vAJ1RLer;
+        "default" = _vAJ1RLer;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dmz-ragnarok";

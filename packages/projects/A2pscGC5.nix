@@ -171,6 +171,16 @@ let
             "file" = "hexdebug-fabric-0.9.0+1.20.1.jar";
             "hash" = "sha512-nvj11e5OYqtjAQrrTtUsN1oTWw4odPSpwBB5THmRj4amZGlYFngnhW8qM/dtZ7YMkbjKVdALlCDg36QL6nq3Cg==";
         };
+        _641HJOJm = {
+            "id" = "641HJOJm";
+            "file" = "hexdebug-fabric-0.9.1+1.20.1.jar";
+            "hash" = "sha512-mY0uf4MdnLRdCDHZdsJZ8ps/Gue8bS0kE/QKdZGxBif3srBTYhrI4T2f7M6p7y992sdFdpnxSEm9+eQvSiHRPg==";
+        };
+        _IGJWRG2Y = {
+            "id" = "IGJWRG2Y";
+            "file" = "hexdebug-forge-0.9.1+1.20.1.jar";
+            "hash" = "sha512-T1dhUb1Xifec4n04RySXuPB1/CdwuBq9U7nIvQskg7vOVW2XxZnzKewhm9n7Xn+ABbUxg6xROfrXI5QGUt8o1Q==";
+        };
     in {
         "yGsgEO1A" = _yGsgEO1A;
         "caQsCGE2" = _caQsCGE2;
@@ -206,11 +216,13 @@ let
         "Z7znfg3O" = _Z7znfg3O;
         "923l1ZpG" = _923l1ZpG;
         "n6XoNKik" = _n6XoNKik;
-        "fabric-1.20.1" = _n6XoNKik;
+        "641HJOJm" = _641HJOJm;
+        "IGJWRG2Y" = _IGJWRG2Y;
+        "fabric-1.20.1" = _641HJOJm;
         "fabric-1.19.2" = _ML4PSn9X;
-        "quilt-1.20.1" = _n6XoNKik;
+        "quilt-1.20.1" = _641HJOJm;
         "quilt-1.19.2" = _ML4PSn9X;
-        "forge-1.20.1" = _923l1ZpG;
+        "forge-1.20.1" = _IGJWRG2Y;
         "forge-1.19.2" = _GFtXxb4X;
         "pkg-0.1.0+1.20.1" = _caQsCGE2;
         "pkg-0.1.1+1.20.1" = _3CNyHVf6;
@@ -229,7 +241,8 @@ let
         "pkg-0.8.0+1.20.1" = _BIAwSQvS;
         "pkg-0.8.1+1.20.1" = _Z7znfg3O;
         "pkg-0.9.0+1.20.1" = _n6XoNKik;
-        "default" = _n6XoNKik;
+        "pkg-0.9.1+1.20.1" = _IGJWRG2Y;
+        "default" = _IGJWRG2Y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hexdebug";

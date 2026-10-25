@@ -146,6 +146,11 @@ let
             "file" = "BTPmod-forge-1.20.1-1.7.0.jar";
             "hash" = "sha512-Bi3u1rVlg4XxUWKKZpqETgigJnIMau1+ikS+UjDw7ZKKxikuWus9N/2yOH2UEWt7o4Q2whQ9q+vcrJegPDV5OQ==";
         };
+        _qzEF8AlY = {
+            "id" = "qzEF8AlY";
+            "file" = "BetterTacticalPresentation-2.0.0.jar";
+            "hash" = "sha512-TAPDeCNB6ZYv25Fidk9b6/d3w7DNdTFZA1dBTXGpSrTYLL7jqZh6L/eB0inL1M9ckmPUWdlLoZBUZO3RdbcEpg==";
+        };
     in {
         "lbde5QWN" = _lbde5QWN;
         "ulSiUrud" = _ulSiUrud;
@@ -176,7 +181,8 @@ let
         "A6pAuLMT" = _A6pAuLMT;
         "Bylh0pTo" = _Bylh0pTo;
         "P0JKOqxD" = _P0JKOqxD;
-        "forge-1.20.1" = _P0JKOqxD;
+        "qzEF8AlY" = _qzEF8AlY;
+        "forge-1.20.1" = _qzEF8AlY;
         "pkg-1.0.0" = _lbde5QWN;
         "pkg-1.1.0" = _ulSiUrud;
         "pkg-1.1.1" = _6LU7uN5h;
@@ -206,7 +212,8 @@ let
         "pkg-1.6.1" = _A6pAuLMT;
         "pkg-1.6.2" = _Bylh0pTo;
         "pkg-1.7.0" = _P0JKOqxD;
-        "default" = _P0JKOqxD;
+        "pkg-2.0.0" = _qzEF8AlY;
+        "default" = _qzEF8AlY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "btpmod";

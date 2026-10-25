@@ -136,6 +136,11 @@ let
             "file" = "geyserfloatingpoints.jar";
             "hash" = "sha512-Jto/hXmhJ9H6Y5Y0UynLAmXZwJF5fGWxtLm3kN1oZr2K4a71v+XeneqaWwUfpOAaGUSi41XnaCqOuIslFVORfA==";
         };
+        _qwpFiYNf = {
+            "id" = "qwpFiYNf";
+            "file" = "geyserfloatingpoints.jar";
+            "hash" = "sha512-5gCBMy9b1M9OCpkoKDRGEwASCCbWoXkCqhKMufhRPaJ+VYSp0zqT08iB8D2LoWW97xH+ki1E59eGUK+qYSZO9Q==";
+        };
     in {
         "JqTuZZFE" = _JqTuZZFE;
         "ufuzHTnV" = _ufuzHTnV;
@@ -164,6 +169,7 @@ let
         "vOunZbhU" = _vOunZbhU;
         "k9hEJUbT" = _k9hEJUbT;
         "8gAKLR24" = _8gAKLR24;
+        "qwpFiYNf" = _qwpFiYNf;
         "bukkit-1.21.8" = _1kzhNzNn;
         "bukkit-1.21.9" = _DefPrCZw;
         "bukkit-1.21.10" = _DefPrCZw;
@@ -182,7 +188,7 @@ let
         "geyser-1.21.8" = _Kyq6SCE0;
         "geyser-1.21.9" = _yYoBVIkr;
         "geyser-1.21.10" = _yYoBVIkr;
-        "geyser-1.21.11" = _8gAKLR24;
+        "geyser-1.21.11" = _qwpFiYNf;
         "pkg-1.1" = _JqTuZZFE;
         "pkg-1.2-35a522f" = _ufuzHTnV;
         "pkg-1.2-5bf6781" = _RpN8pCy5;
@@ -205,8 +211,8 @@ let
         "pkg-1.5-d364281" = _ZIILurx1;
         "pkg-1.5-07efb39" = _mhqstB4v;
         "pkg-1.5-4d69ec6" = _Kyq6SCE0;
-        "pkg-2.0" = _8gAKLR24;
-        "default" = _8gAKLR24;
+        "pkg-2.0" = _qwpFiYNf;
+        "default" = _qwpFiYNf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "geyserfloatingpoints";

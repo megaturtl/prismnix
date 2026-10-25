@@ -466,6 +466,11 @@ let
             "file" = "unloadedactivity-0.7.3+mc26.3.jar";
             "hash" = "sha512-fT6V+IUDBj4UkIGzFsW3rOpGLZHCGSbJnhb44f8S1uM/GRVZ4hlF2UbDw5/HKQ4E0QohSLKRRnTguzgUyou6Vw==";
         };
+        _qojjwGLJ = {
+            "id" = "qojjwGLJ";
+            "file" = "unloadedactivity-0.7.4+mc1.21-1.21.1.jar";
+            "hash" = "sha512-5DeLyYj449BMnRR90K4eN30qG0VLRaBmjzdlHX72x1OgRnMjGTqomemtlkP3fGSgPuKp0VBs+x6vCbB91xTYYA==";
+        };
     in {
         "qU7uAolt" = _qU7uAolt;
         "Hf5FHLOo" = _Hf5FHLOo;
@@ -560,6 +565,7 @@ let
         "zyIRwSx2" = _zyIRwSx2;
         "Sl3u0QF7" = _Sl3u0QF7;
         "Altq0dVG" = _Altq0dVG;
+        "qojjwGLJ" = _qojjwGLJ;
         "fabric-1.19.3" = _bTtdBuFE;
         "fabric-1.19.2" = _tLFR4HoO;
         "fabric-1.19.4" = _E3UP0VFd;
@@ -570,8 +576,8 @@ let
         "fabric-1.20.3" = _Uhiognve;
         "fabric-1.20.5" = _noriPjaP;
         "fabric-1.20.6" = _noriPjaP;
-        "fabric-1.21" = _Sl3u0QF7;
-        "fabric-1.21.1" = _Sl3u0QF7;
+        "fabric-1.21" = _qojjwGLJ;
+        "fabric-1.21.1" = _qojjwGLJ;
         "fabric-1.21.2" = _z985IbtS;
         "fabric-1.21.3" = _z985IbtS;
         "fabric-1.21.4" = _wv02MTXl;
@@ -597,8 +603,8 @@ let
         "quilt-1.20.3" = _Uhiognve;
         "quilt-1.20.5" = _noriPjaP;
         "quilt-1.20.6" = _noriPjaP;
-        "quilt-1.21" = _Sl3u0QF7;
-        "quilt-1.21.1" = _Sl3u0QF7;
+        "quilt-1.21" = _qojjwGLJ;
+        "quilt-1.21.1" = _qojjwGLJ;
         "quilt-1.21.2" = _z985IbtS;
         "quilt-1.21.3" = _z985IbtS;
         "quilt-1.21.4" = _wv02MTXl;
@@ -625,8 +631,8 @@ let
         "neoforge-1.20.4" = _Uhiognve;
         "neoforge-1.20.5" = _noriPjaP;
         "neoforge-1.20.6" = _noriPjaP;
-        "neoforge-1.21" = _Sl3u0QF7;
-        "neoforge-1.21.1" = _Sl3u0QF7;
+        "neoforge-1.21" = _qojjwGLJ;
+        "neoforge-1.21.1" = _qojjwGLJ;
         "neoforge-1.21.2" = _z985IbtS;
         "neoforge-1.21.3" = _z985IbtS;
         "neoforge-1.21.4" = _wv02MTXl;
@@ -735,7 +741,8 @@ let
         "pkg-0.7.3+mc1.20-1.20.1" = _zyIRwSx2;
         "pkg-0.7.3+1.21-1.21.1" = _Sl3u0QF7;
         "pkg-0.7.3+26.3" = _Altq0dVG;
-        "default" = _Altq0dVG;
+        "pkg-0.7.4+mc1.21-1.21.1" = _qojjwGLJ;
+        "default" = _qojjwGLJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "unloaded-activity";

@@ -76,6 +76,16 @@ let
             "file" = "the_backwoods-1.7.0-neoforge-1.21.1.jar";
             "hash" = "sha512-eia+7CeFAM2khPWDlrXiUlT86y022PVkuy8gfMmh/9jSzLv8FPE4zBQO0jZ3nz2L/exLG6v5/wJU6jGDukTVSQ==";
         };
+        _8Kdhf2cx = {
+            "id" = "8Kdhf2cx";
+            "file" = "the_backwoods-1.8.0-neoforge-1.21.1.jar";
+            "hash" = "sha512-N2r0uJAxzxmZ0PWMuOvnrr1c9JBhkwpuX5ueMYkN1OdV3WnWy2oROfhM28MtzkD+FGZgpns/5muUHpG3KaqnqQ==";
+        };
+        _tzXYdcda = {
+            "id" = "tzXYdcda";
+            "file" = "the_backwoods-1.8.0-neoforge-26.1.2.jar";
+            "hash" = "sha512-zHuA+49mflDnNJRk0BFsrA+3SI6oWbAEHMoApo60Nb2CMzlH/4GQyhF+VWC/jgLtuVwClnxbEUyk5fAZUSisyw==";
+        };
     in {
         "WBeWkMnP" = _WBeWkMnP;
         "f0Rqp6pu" = _f0Rqp6pu;
@@ -92,8 +102,11 @@ let
         "ta7RWxg4" = _ta7RWxg4;
         "EovjYmnA" = _EovjYmnA;
         "fpHqAaAq" = _fpHqAaAq;
-        "neoforge-1.21.1" = _fpHqAaAq;
+        "8Kdhf2cx" = _8Kdhf2cx;
+        "tzXYdcda" = _tzXYdcda;
+        "neoforge-1.21.1" = _8Kdhf2cx;
         "neoforge-1.21.8" = _EovjYmnA;
+        "neoforge-26.1.2" = _tzXYdcda;
         "forge-1.20.1" = _MC4nEJjm;
         "pkg-1.0.0" = _WBeWkMnP;
         "pkg-1.1.0" = _f0Rqp6pu;
@@ -106,7 +119,8 @@ let
         "pkg-1.5.2" = _1C4pwN6x;
         "pkg-1.6.0" = _ta7RWxg4;
         "pkg-1.7.0" = _fpHqAaAq;
-        "default" = _fpHqAaAq;
+        "pkg-1.8.0" = _tzXYdcda;
+        "default" = _tzXYdcda;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "backwoods";

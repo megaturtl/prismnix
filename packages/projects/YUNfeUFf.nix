@@ -66,6 +66,11 @@ let
             "file" = "playerlocator-1.0.0+mc-26.2.jar";
             "hash" = "sha512-P1esXeYQZ99jCkfCzumdlX9VET+KGxbbMCJIiuUG8IHgw2e3RDCZk1SIVcb9NoQNzN37/k9YWYhPt6Pjzt9EUg==";
         };
+        _WcpPPUfL = {
+            "id" = "WcpPPUfL";
+            "file" = "playerlocator-1.0.0+mc-26.3.jar";
+            "hash" = "sha512-JkYFzxnOpOW2hWwdIYMk1ycVpTpebuWcwm1L8y6OtEWm1SdpsljlW5+sTOoLy6x6Ik6dJLfFHXu0blR0ftqYmg==";
+        };
     in {
         "Q7AzTV3Q" = _Q7AzTV3Q;
         "jk3VRvXo" = _jk3VRvXo;
@@ -80,6 +85,7 @@ let
         "xOZSkJ4g" = _xOZSkJ4g;
         "qU2GgrAK" = _qU2GgrAK;
         "42MBFzp8" = _42MBFzp8;
+        "WcpPPUfL" = _WcpPPUfL;
         "fabric-1.21" = _Q7AzTV3Q;
         "fabric-1.21.1" = _Q7AzTV3Q;
         "fabric-1.21.2" = _jk3VRvXo;
@@ -96,10 +102,12 @@ let
         "fabric-26.1.1" = _qU2GgrAK;
         "fabric-26.1.2" = _qU2GgrAK;
         "fabric-26.2" = _42MBFzp8;
+        "fabric-26.3" = _WcpPPUfL;
         "pkg-1.0.0" = _xOZSkJ4g;
         "pkg-1.0.0+mc-26.1" = _qU2GgrAK;
         "pkg-1.0.0+mc-26.2" = _42MBFzp8;
-        "default" = _42MBFzp8;
+        "pkg-1.0.0+mc-26.3" = _WcpPPUfL;
+        "default" = _WcpPPUfL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "player-locator";

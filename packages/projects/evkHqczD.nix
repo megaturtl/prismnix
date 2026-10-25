@@ -306,6 +306,41 @@ let
             "file" = "gameinfo-1.21.11+build.1.jar";
             "hash" = "sha512-F+PeOAmQzg39BRMqMyk3BD77NHVQoJStGKTHWrOwSq+THnBSEp65S1RrgjwC/HNhLhNPqGHCnX0Y43unlyMUcg==";
         };
+        _5refdhcn = {
+            "id" = "5refdhcn";
+            "file" = "GameInfo-26.3-Fabric-3.1.2.2.jar";
+            "hash" = "sha512-eglaSfF6Ohh8d+L7yeJkmsbF+nUz7hNxoGcGMBoMGah4l4h0JIoB5Kcv5QXUBYY8VjWtCgD0JPp1sCkwglrDVA==";
+        };
+        _HXFhSqcp = {
+            "id" = "HXFhSqcp";
+            "file" = "gameinfo-1.21.1+build.1.jar";
+            "hash" = "sha512-Oonncy6bSAh2dwMCyNXwSQw2Q4fCCW68qKa/QK++p8a3WQiS/7weImV08+sMuHwa5j0yhwDa7pXx+m78zEaPWA==";
+        };
+        _o2cQnoS8 = {
+            "id" = "o2cQnoS8";
+            "file" = "GameInfo-26.3-Fabric-3.1.3.jar";
+            "hash" = "sha512-JcjquIfMp3cqHSODuJ/hdP5GEg2B7pdjrTk5xj/82PeNDT61P7juWjJEM00HFsBfUEkdrelaFvveXxyxVg3+Tw==";
+        };
+        _FFMnFMaC = {
+            "id" = "FFMnFMaC";
+            "file" = "GameInfo-26.3-Fabric-3.1.3.1.jar";
+            "hash" = "sha512-in0wG2EhRkazyMl3C8fXbC9bmf9hLR2AXe8qzeG51Fn922dCbjTT4zHBLoht3TOeI35vRrEbWJ7YyfDAgheepg==";
+        };
+        _mWYo2Y5f = {
+            "id" = "mWYo2Y5f";
+            "file" = "GameInfo-26.4-snapshot-5-Fabric-4.0.6.1.alpha.jar";
+            "hash" = "sha512-nzINA8vXDq4Z8seTWE+HLk10pE4mlVhSrgR0nZ+i3i9a4fo7WhME0A70aXt/1AjA4uBDqU5mNi/g9ESZzEMWyw==";
+        };
+        _gyNlUCy4 = {
+            "id" = "gyNlUCy4";
+            "file" = "GameInfo-26.2-Fabric-2.1.1.1.jar";
+            "hash" = "sha512-U8we+7DP3B0/bx/Gg6iwQKSAwNPMjPRd1hIxIIF68dLWEExceqgfZJHlb03/cb6a7PEwXqVwKdBm1trH4UgdAw==";
+        };
+        _ImtWA678 = {
+            "id" = "ImtWA678";
+            "file" = "GameInfo-26.3-NeoForge-3.1.0.jar";
+            "hash" = "sha512-CWlZ5ZKBlCTbSCS9/4fc7Eco185sGUcms1I48bkvj2YeI2iz+1Ok8nuPxnXzaQl9FSX+0zPAMkDrGkj3y1HhsQ==";
+        };
     in {
         "1XogJU6n" = _1XogJU6n;
         "rWh0tzft" = _rWh0tzft;
@@ -368,7 +403,14 @@ let
         "uONUFYH7" = _uONUFYH7;
         "xafJCkSq" = _xafJCkSq;
         "2X1V5DKQ" = _2X1V5DKQ;
-        "fabric-26.2" = _uONUFYH7;
+        "5refdhcn" = _5refdhcn;
+        "HXFhSqcp" = _HXFhSqcp;
+        "o2cQnoS8" = _o2cQnoS8;
+        "FFMnFMaC" = _FFMnFMaC;
+        "mWYo2Y5f" = _mWYo2Y5f;
+        "gyNlUCy4" = _gyNlUCy4;
+        "ImtWA678" = _ImtWA678;
+        "fabric-26.2" = _gyNlUCy4;
         "fabric-26.3-snapshot-4" = _a12zl6L8;
         "fabric-26.3-snapshot-1" = _5BpsTI2A;
         "fabric-26.3-snapshot-2" = _GTNEYDkL;
@@ -388,14 +430,15 @@ let
         "fabric-26.3-rc-1" = _BxvtaI55;
         "fabric-26.3-rc-2" = _gbFR6xbr;
         "fabric-26.3-rc-3" = _TRnJTfDW;
-        "fabric-26.3" = _JIkp1yEw;
+        "fabric-26.3" = _FFMnFMaC;
         "fabric-26.4-snapshot-1" = _eCy5KQG7;
         "fabric-26.4-snapshot-2" = _udjIg3xU;
         "fabric-26.4-snapshot-3" = _ePt1UI0z;
         "fabric-26.4-snapshot-4" = _Mcifd3Ij;
-        "fabric-26.4-snapshot-5" = _xafJCkSq;
+        "fabric-26.4-snapshot-5" = _mWYo2Y5f;
         "fabric-1.21.11" = _2X1V5DKQ;
-        "neoforge-26.3" = _ywAL6wBY;
+        "fabric-1.21.1" = _HXFhSqcp;
+        "neoforge-26.3" = _ImtWA678;
         "pkg-v29-20260721" = _1XogJU6n;
         "pkg-v30-20260814" = _rWh0tzft;
         "pkg-v101-20260815" = _rw9gHq6n;
@@ -457,7 +500,14 @@ let
         "pkg-26.2-2.1.1-Fabric" = _uONUFYH7;
         "pkg-26.4-snapshot-5-4.0.6.alpha" = _xafJCkSq;
         "pkg-1.21.11+build.1-Fabric" = _2X1V5DKQ;
-        "default" = _2X1V5DKQ;
+        "pkg-26.3-3.1.2.2-Fabric" = _5refdhcn;
+        "pkg-1.21.1+build.1-Fabric" = _HXFhSqcp;
+        "pkg-26.3-3.1.3-Fabric" = _o2cQnoS8;
+        "pkg-26.3-3.1.3.1-Fabric" = _FFMnFMaC;
+        "pkg-26.4-snapshot-5-4.0.6.1.alpha" = _mWYo2Y5f;
+        "pkg-26.2-2.1.1.1-Fabric" = _gyNlUCy4;
+        "pkg-26.3-3.1.0-NeoForge" = _ImtWA678;
+        "default" = _ImtWA678;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gameinfo";

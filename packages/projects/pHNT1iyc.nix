@@ -596,6 +596,16 @@ let
             "file" = "tesseract-api-neoforge-1.12.18-1.21.1.jar";
             "hash" = "sha512-RAsdA9U3nUsJjSDmYUNZ9Fise0NSAfHmTRtio7ZlqrQL+XDDqt+wCivaWKHMRlmYPcbBzSpIJi0AIRUuGnNi6A==";
         };
+        _2O9gtyBA = {
+            "id" = "2O9gtyBA";
+            "file" = "tesseract-api-neoforge-1.13.6-26.1.2.jar";
+            "hash" = "sha512-qGJjuzxhZfZ8WxgTGlc6HVBKOg1PTrTfzWTNZKxMSQWIMQpwbd03/eC/4Dm/k4uVvEr98pjwHAbeJisDjuKmig==";
+        };
+        _84xLgpze = {
+            "id" = "84xLgpze";
+            "file" = "tesseract-api-neoforge-1.12.19-1.21.1.jar";
+            "hash" = "sha512-KoHLClrRwMX+XqF1g2joQDqfuiZSBtZjq+TYns31wB7HKC09th08MNPMVI3Q2E5jORivuiXw1Gx9eHw2GSZFOw==";
+        };
     in {
         "xpdG2QyQ" = _xpdG2QyQ;
         "gYeIx7qd" = _gYeIx7qd;
@@ -716,10 +726,12 @@ let
         "FzrOyEX6" = _FzrOyEX6;
         "A1EoA71q" = _A1EoA71q;
         "luummThA" = _luummThA;
+        "2O9gtyBA" = _2O9gtyBA;
+        "84xLgpze" = _84xLgpze;
         "neoforge-1.20.4" = _EAkN36Zh;
         "neoforge-1.21" = _XrSPqBjK;
-        "neoforge-1.21.1" = _luummThA;
-        "neoforge-26.1.2" = _FzrOyEX6;
+        "neoforge-1.21.1" = _84xLgpze;
+        "neoforge-26.1.2" = _2O9gtyBA;
         "pkg-1.0.0+1.20.4" = _xpdG2QyQ;
         "pkg-1.0.1+1.20.4" = _gYeIx7qd;
         "pkg-1.0.3+1.20.4" = _zLfS1Y0C;
@@ -839,7 +851,9 @@ let
         "pkg-1.13.5-alpha-26.1.2" = _FzrOyEX6;
         "pkg-1.12.17-1.21.1" = _A1EoA71q;
         "pkg-1.12.18-1.21.1" = _luummThA;
-        "default" = _luummThA;
+        "pkg-1.13.6-26.1.2" = _2O9gtyBA;
+        "pkg-1.12.19-1.21.1" = _84xLgpze;
+        "default" = _84xLgpze;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tesseract-api";

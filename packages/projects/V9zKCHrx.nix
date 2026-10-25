@@ -806,6 +806,11 @@ let
             "file" = "reobf-kimetsunoyaibamultiplayer-1.6.5700.jar";
             "hash" = "sha512-BllXtHyD5PY8cqrBu+WNj0SJlq9f2LrJ0u/MCwwNQ84oMs2iWjcqPGhNzmjqi59Dd2+CyXTAJjOF2cgIcqQApg==";
         };
+        _p5i9bIrG = {
+            "id" = "p5i9bIrG";
+            "file" = "reobf-kimetsunoyaibamultiplayer-1.6.5701.jar";
+            "hash" = "sha512-ImNK++gJ1xUOHbIJrbAfA2GHvjC7ggzAFItH7ApAkMn10IGh+Jp8/faftW8x1/4pX+GYnvB2rw0lByDS4N7SpA==";
+        };
     in {
         "miPGd38F" = _miPGd38F;
         "jki9W4EP" = _jki9W4EP;
@@ -968,12 +973,13 @@ let
         "YlOyt4T4" = _YlOyt4T4;
         "N9low1bZ" = _N9low1bZ;
         "y5HL05R2" = _y5HL05R2;
-        "forge-1.20.1" = _y5HL05R2;
-        "forge-1.20.2" = _y5HL05R2;
-        "forge-1.20.3" = _y5HL05R2;
-        "forge-1.20.4" = _y5HL05R2;
-        "forge-1.20.5" = _y5HL05R2;
-        "forge-1.20.6" = _y5HL05R2;
+        "p5i9bIrG" = _p5i9bIrG;
+        "forge-1.20.1" = _p5i9bIrG;
+        "forge-1.20.2" = _p5i9bIrG;
+        "forge-1.20.3" = _p5i9bIrG;
+        "forge-1.20.4" = _p5i9bIrG;
+        "forge-1.20.5" = _p5i9bIrG;
+        "forge-1.20.6" = _p5i9bIrG;
         "pkg-1.0.0" = _miPGd38F;
         "pkg-1.1.0" = _jki9W4EP;
         "pkg-1.2.0" = _nmhnwg9M;
@@ -1134,7 +1140,8 @@ let
         "pkg-1.6.5698" = _YlOyt4T4;
         "pkg-1.6.5699" = _N9low1bZ;
         "pkg-1.6.5700" = _y5HL05R2;
-        "default" = _y5HL05R2;
+        "pkg-1.6.5701" = _p5i9bIrG;
+        "default" = _p5i9bIrG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kimetsunoyaiba-tweaks";

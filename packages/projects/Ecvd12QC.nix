@@ -376,6 +376,11 @@ let
             "file" = "modularui2-2.3.92-1.7.10.jar";
             "hash" = "sha512-GU/an77inxpUiIOyAQXKnbCVMZ9l2tVIyzMvD18BQhLi9X/GonX9CsC4nFNKld6u/Qqd8a6X8311MBOjMhOyRQ==";
         };
+        _SPlaNcJ1 = {
+            "id" = "SPlaNcJ1";
+            "file" = "modularui2-2.3.93-1.7.10.jar";
+            "hash" = "sha512-lsvbZXFZPK3MMQjsrKS0DZ7U2bpL6ng4Df2AwVKbVKyoT+wI32Uxwl7imuiAqSL/wX1YjIuFAU1NU/wlTDW6mg==";
+        };
     in {
         "JYuifPjH" = _JYuifPjH;
         "61bKBHwb" = _61bKBHwb;
@@ -452,9 +457,10 @@ let
         "mhaIqWeu" = _mhaIqWeu;
         "TgboeDo0" = _TgboeDo0;
         "ezyBrMTL" = _ezyBrMTL;
+        "SPlaNcJ1" = _SPlaNcJ1;
         "forge-1.12.2" = _1twp2z8Y;
         "forge-1.20.1" = _SLauVa1g;
-        "forge-1.7.10" = _ezyBrMTL;
+        "forge-1.7.10" = _SPlaNcJ1;
         "pkg-2.0.0" = _JYuifPjH;
         "pkg-2.0.2" = _61bKBHwb;
         "pkg-2.0.3" = _yMVbznUL;
@@ -530,7 +536,8 @@ let
         "pkg-2.3.90-1.7.10" = _mhaIqWeu;
         "pkg-2.3.91-1.7.10" = _TgboeDo0;
         "pkg-2.3.92-1.7.10" = _ezyBrMTL;
-        "default" = _ezyBrMTL;
+        "pkg-2.3.93-1.7.10" = _SPlaNcJ1;
+        "default" = _SPlaNcJ1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modularui";

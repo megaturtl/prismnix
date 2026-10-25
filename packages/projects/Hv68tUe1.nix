@@ -26,12 +26,18 @@ let
             "file" = "codecium-1.2.2+26.3.jar";
             "hash" = "sha512-Bx6pJreMXUldI7eVsHGUux1EX/3+rFeuNY0UstsCEb3kA1m1O7hVyOihCISa6l4hTl927VEP0rHJqO7rGSHbiA==";
         };
+        _eiKbsR6o = {
+            "id" = "eiKbsR6o";
+            "file" = "codecium-1.2.3+26.4.jar";
+            "hash" = "sha512-e/r0i9LEXN8STlkRtmgAruO6hMqLah+ujIv4d64klw2/9hbEWDWAgrGU6lQVA9EpgEaLKmncTQuuWyd8VS45cg==";
+        };
     in {
         "BxSRzkcx" = _BxSRzkcx;
         "1gcLlzdX" = _1gcLlzdX;
         "3HNvoHDc" = _3HNvoHDc;
         "wrgoXqaG" = _wrgoXqaG;
         "VrDfhswp" = _VrDfhswp;
+        "eiKbsR6o" = _eiKbsR6o;
         "fabric-1.21.4" = _BxSRzkcx;
         "fabric-1.21.5" = _1gcLlzdX;
         "fabric-1.21.6" = _1gcLlzdX;
@@ -91,12 +97,15 @@ let
         "fabric-26.3-snapshot-9" = _VrDfhswp;
         "fabric-26.3-snapshot-10" = _VrDfhswp;
         "fabric-26.3-pre-1" = _VrDfhswp;
+        "fabric-26.4-snapshot-4" = _eiKbsR6o;
+        "fabric-26.4-snapshot-5" = _eiKbsR6o;
         "pkg-1.0.0" = _BxSRzkcx;
         "pkg-1.1.0" = _1gcLlzdX;
         "pkg-1.2.0+26.1" = _3HNvoHDc;
         "pkg-1.2.1+26.3" = _wrgoXqaG;
         "pkg-1.2.2+26.3" = _VrDfhswp;
-        "default" = _VrDfhswp;
+        "pkg-1.2.3+26.4" = _eiKbsR6o;
+        "default" = _eiKbsR6o;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "codecium";

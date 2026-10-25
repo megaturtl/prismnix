@@ -546,6 +546,56 @@ let
             "file" = "rpgmoblevelingsystem-neoforge-26.3-2.0.7.jar";
             "hash" = "sha512-7UG8iXggylP1K0dU0YOsByXMc6WgPqt2ZA9x9l/FUbwh/vQLRJLab70CwoeSe855Ob6lWvtU/MWsN5ZrA6oGSg==";
         };
+        _yZajgLjE = {
+            "id" = "yZajgLjE";
+            "file" = "remnant_mobs-fabric-1.20.1-3.0.0.jar";
+            "hash" = "sha512-sumo3p5QklYxVqArwTSJrI8Cn4kLXG7iA/llvgmGbqYhP5iWwUP0n9kIDsFUi8vQr8xZKpz9ijE4odVj7I3bDA==";
+        };
+        _SnGeNFwq = {
+            "id" = "SnGeNFwq";
+            "file" = "remnant_mobs-fabric-1.21.1-3.0.0.jar";
+            "hash" = "sha512-6kqAKmfbj+ciL0pl3YGxEwHMbYZ6jTtVSLMcuC+WSWbuhJOBg2w3IWFQTZuuZYVfVc6WxPG6tWCFlwrjqbWSOw==";
+        };
+        _ZYtIqTrI = {
+            "id" = "ZYtIqTrI";
+            "file" = "remnant_mobs-fabric-26.1.2-3.0.0.jar";
+            "hash" = "sha512-4ORn3R1oLYvYj+GklhuaYA6PqWLmId4Ton5tPRFEdFR2CAjlTO429ESXczNZLPf1S8q08sbdgaNPdSTxPwEe4Q==";
+        };
+        _I5KcHS7D = {
+            "id" = "I5KcHS7D";
+            "file" = "remnant_mobs-fabric-26.2-3.0.0.jar";
+            "hash" = "sha512-fdKcH1Q5ZcVW7iqlDgkSn14RMNpAeWKDGWYebrzzfAp9ctbzwu/1JqgcSrcDq6p6DZbmNhRNHwfRdiQUxHs3KA==";
+        };
+        _N18Cdu9h = {
+            "id" = "N18Cdu9h";
+            "file" = "remnant_mobs-fabric-26.3-3.0.0.jar";
+            "hash" = "sha512-V0MaVotn7gjxG2Z+QE8MO1cMirpaAh/7lKsCjSfVrLRlGAgkQc+FmCV6G3fZ1PSxLGg5/5Iw56xlw8c9k73u3Q==";
+        };
+        _faYgohZ3 = {
+            "id" = "faYgohZ3";
+            "file" = "remnant_mobs-forge-1.20.1-3.0.0.jar";
+            "hash" = "sha512-6Smb3QpCkcoFovwRJQL5HyrVx8zJyfBWY0Bbih5bba6BxcsDkZ1QuVjwO3YJSS2/aWYKPuUYjzR4Z9QOCUEOiA==";
+        };
+        _9GU0cPjU = {
+            "id" = "9GU0cPjU";
+            "file" = "remnant_mobs-neoforge-1.21.1-3.0.0.jar";
+            "hash" = "sha512-qBc+pFgXIq0Hjq1uWCdlZiwUuy924hb0E2AK2hR12fW8ufXgAkqTwWOjHqsi8Y+3Mu0TxtixGLH1uL2KtlQTvw==";
+        };
+        _QdaS17Rh = {
+            "id" = "QdaS17Rh";
+            "file" = "remnant_mobs-neoforge-26.1.2-3.0.0.jar";
+            "hash" = "sha512-m8ed5r471UFu6ITlnMxDuXuZHzXP5D/OVBLtDDIUq1YygmMWIK5Y6vifNnPlYusqVd+W9rXya38YuuHpibA1hg==";
+        };
+        _Uj4pRhbg = {
+            "id" = "Uj4pRhbg";
+            "file" = "remnant_mobs-neoforge-26.2-3.0.0.jar";
+            "hash" = "sha512-7gZ4LKZJ1kXaEQB8D7yjmSOKyG+ypY0muYTGZ+NpWWedWjkQ2dK5IOfU6rjk/Oy1Z7JsGXX309wP4bJwgqDkpA==";
+        };
+        _2zv1L2aF = {
+            "id" = "2zv1L2aF";
+            "file" = "remnant_mobs-neoforge-26.3-3.0.0.jar";
+            "hash" = "sha512-L6sxYc9ujoqNeeklTdsh0e4BApTmvNeco1Ok79VdgGHCg0Zp3O0gp+gvITynHLKH3+ZKg8gNaIUJkZzYY4wT0g==";
+        };
     in {
         "wWd6YFec" = _wWd6YFec;
         "GFXumiKL" = _GFXumiKL;
@@ -656,17 +706,31 @@ let
         "Jotlloxu" = _Jotlloxu;
         "DnW5f3IS" = _DnW5f3IS;
         "rJgsna5d" = _rJgsna5d;
-        "forge-1.20.1" = _ysGVaW5Y;
+        "yZajgLjE" = _yZajgLjE;
+        "SnGeNFwq" = _SnGeNFwq;
+        "ZYtIqTrI" = _ZYtIqTrI;
+        "I5KcHS7D" = _I5KcHS7D;
+        "N18Cdu9h" = _N18Cdu9h;
+        "faYgohZ3" = _faYgohZ3;
+        "9GU0cPjU" = _9GU0cPjU;
+        "QdaS17Rh" = _QdaS17Rh;
+        "Uj4pRhbg" = _Uj4pRhbg;
+        "2zv1L2aF" = _2zv1L2aF;
+        "forge-1.20.1" = _faYgohZ3;
         "forge-1.19.2" = _ZKRsos5I;
         "forge-1.18.2" = _iPdp9SzW;
         "forge-1.16.5" = _sp23PoVX;
         "neoforge-1.20.6" = _9t87JUvS;
-        "neoforge-1.21.1" = _Jotlloxu;
+        "neoforge-1.21.1" = _9GU0cPjU;
         "neoforge-1.20.1" = _tcIDS6Q6;
-        "neoforge-26.3" = _rJgsna5d;
-        "fabric-1.20.1" = _Zj5zE4Kn;
-        "fabric-1.21.1" = _FQR898DR;
-        "fabric-26.3" = _DnW5f3IS;
+        "neoforge-26.3" = _2zv1L2aF;
+        "neoforge-26.1.2" = _QdaS17Rh;
+        "neoforge-26.2" = _Uj4pRhbg;
+        "fabric-1.20.1" = _yZajgLjE;
+        "fabric-1.21.1" = _SnGeNFwq;
+        "fabric-26.3" = _N18Cdu9h;
+        "fabric-26.1.2" = _ZYtIqTrI;
+        "fabric-26.2" = _I5KcHS7D;
         "pkg-0.0.1" = _sOTDQjxL;
         "pkg-0.1.0" = _pjxuU3bT;
         "pkg-0.2.0" = _WsTgD7kb;
@@ -697,7 +761,8 @@ let
         "pkg-2.0.4" = _GEhZd5Ua;
         "pkg-2.0.5" = _q64jj3at;
         "pkg-2.0.7" = _rJgsna5d;
-        "default" = _rJgsna5d;
+        "pkg-3.0.0" = _2zv1L2aF;
+        "default" = _2zv1L2aF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rpg-mob-leveling-system";

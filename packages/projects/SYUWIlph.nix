@@ -11,9 +11,21 @@ let
             "file" = "pillager-medieval-mansion-1.0.jar";
             "hash" = "sha512-JvBK1I+CWNK7DDxKonEsQvMh6c9iPeeU8uvqSPHu0QkLGG5BRswICbO5zZ+lZJ1820uBxR5XXbIEwF3ZVZYTuw==";
         };
+        _YdtCimhX = {
+            "id" = "YdtCimhX";
+            "file" = "pillagermedievalmansion.zip";
+            "hash" = "sha512-nWKPU+SUtV12AeomgoR3Mz30oqqZPjuuSdVdikU3j0vuusKeB5Ox/Ap/oPkS7E8Ykubpr4PWv/ZfBUo9LnetZQ==";
+        };
+        _otCLNg9B = {
+            "id" = "otCLNg9B";
+            "file" = "pillager-medieval-mansion-dungeon-1.0.0.jar";
+            "hash" = "sha512-GwBgkKlKd5pRvEd+gm5a++nqUosLVVgvYl0Y99VCHSSEbMtzFt/Jc2ItAF0S1dikbeq4Sj6aTk/9WhbvK3Km3w==";
+        };
     in {
         "onTyY3qm" = _onTyY3qm;
         "5v0RE9S8" = _5v0RE9S8;
+        "YdtCimhX" = _YdtCimhX;
+        "otCLNg9B" = _otCLNg9B;
         "datapack-1.21" = _onTyY3qm;
         "datapack-1.21.1" = _onTyY3qm;
         "datapack-1.21.2" = _onTyY3qm;
@@ -26,6 +38,11 @@ let
         "datapack-1.21.9" = _onTyY3qm;
         "datapack-1.21.10" = _onTyY3qm;
         "datapack-1.21.11" = _onTyY3qm;
+        "datapack-26.1" = _YdtCimhX;
+        "datapack-26.1.1" = _YdtCimhX;
+        "datapack-26.1.2" = _YdtCimhX;
+        "datapack-26.2" = _YdtCimhX;
+        "datapack-26.3" = _YdtCimhX;
         "fabric-1.21" = _5v0RE9S8;
         "fabric-1.21.1" = _5v0RE9S8;
         "fabric-1.21.2" = _5v0RE9S8;
@@ -38,6 +55,11 @@ let
         "fabric-1.21.9" = _5v0RE9S8;
         "fabric-1.21.10" = _5v0RE9S8;
         "fabric-1.21.11" = _5v0RE9S8;
+        "fabric-26.1" = _otCLNg9B;
+        "fabric-26.1.1" = _otCLNg9B;
+        "fabric-26.1.2" = _otCLNg9B;
+        "fabric-26.2" = _otCLNg9B;
+        "fabric-26.3" = _otCLNg9B;
         "forge-1.21" = _5v0RE9S8;
         "forge-1.21.1" = _5v0RE9S8;
         "forge-1.21.2" = _5v0RE9S8;
@@ -50,6 +72,11 @@ let
         "forge-1.21.9" = _5v0RE9S8;
         "forge-1.21.10" = _5v0RE9S8;
         "forge-1.21.11" = _5v0RE9S8;
+        "forge-26.1" = _otCLNg9B;
+        "forge-26.1.1" = _otCLNg9B;
+        "forge-26.1.2" = _otCLNg9B;
+        "forge-26.2" = _otCLNg9B;
+        "forge-26.3" = _otCLNg9B;
         "neoforge-1.21" = _5v0RE9S8;
         "neoforge-1.21.1" = _5v0RE9S8;
         "neoforge-1.21.2" = _5v0RE9S8;
@@ -62,6 +89,11 @@ let
         "neoforge-1.21.9" = _5v0RE9S8;
         "neoforge-1.21.10" = _5v0RE9S8;
         "neoforge-1.21.11" = _5v0RE9S8;
+        "neoforge-26.1" = _otCLNg9B;
+        "neoforge-26.1.1" = _otCLNg9B;
+        "neoforge-26.1.2" = _otCLNg9B;
+        "neoforge-26.2" = _otCLNg9B;
+        "neoforge-26.3" = _otCLNg9B;
         "quilt-1.21" = _5v0RE9S8;
         "quilt-1.21.1" = _5v0RE9S8;
         "quilt-1.21.2" = _5v0RE9S8;
@@ -74,9 +106,16 @@ let
         "quilt-1.21.9" = _5v0RE9S8;
         "quilt-1.21.10" = _5v0RE9S8;
         "quilt-1.21.11" = _5v0RE9S8;
+        "quilt-26.1" = _otCLNg9B;
+        "quilt-26.1.1" = _otCLNg9B;
+        "quilt-26.1.2" = _otCLNg9B;
+        "quilt-26.2" = _otCLNg9B;
+        "quilt-26.3" = _otCLNg9B;
         "pkg-1.0" = _onTyY3qm;
         "pkg-1.0+mod" = _5v0RE9S8;
-        "default" = _5v0RE9S8;
+        "pkg-1.0.0" = _YdtCimhX;
+        "pkg-1.0.0+mod" = _otCLNg9B;
+        "default" = _otCLNg9B;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pillager-medieval-mansion-dungeon";

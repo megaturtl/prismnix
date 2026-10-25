@@ -41,6 +41,11 @@ let
             "file" = "enigmaticaddons-1.2.6.jar";
             "hash" = "sha512-7rMJJm+62s9u+14haGX+VaEfECg2LGSVW4x8JZ3L5iIY5p041xTiqz/MHi0KhHmNdnouIYI920QIZQkCCbsuMw==";
         };
+        _8UpnBHv1 = {
+            "id" = "8UpnBHv1";
+            "file" = "enigmaticaddons-1.2.7.jar";
+            "hash" = "sha512-eex4R0GGrJ8/WVrboBDQy878RQEg6sB+n6pWcBx/gvSAJHZiPcRvznUMLKjxtqFr4uifLjxAnpDgtynXIGV2Yg==";
+        };
     in {
         "tnNDkawP" = _tnNDkawP;
         "MfVMLuWe" = _MfVMLuWe;
@@ -50,7 +55,8 @@ let
         "56hGwehA" = _56hGwehA;
         "aPY6JZQ4" = _aPY6JZQ4;
         "EajlN3M4" = _EajlN3M4;
-        "forge-1.20.1" = _EajlN3M4;
+        "8UpnBHv1" = _8UpnBHv1;
+        "forge-1.20.1" = _8UpnBHv1;
         "forge-1.19.2" = _Sl3jjWXz;
         "pkg-1.1.2" = _tnNDkawP;
         "pkg-1.19.2-1.1.2" = _MfVMLuWe;
@@ -60,7 +66,8 @@ let
         "pkg-1.2.5" = _56hGwehA;
         "pkg-1.2.5.2" = _aPY6JZQ4;
         "pkg-1.2.6" = _EajlN3M4;
-        "default" = _EajlN3M4;
+        "pkg-1.2.7" = _8UpnBHv1;
+        "default" = _8UpnBHv1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enigmatic-addons";

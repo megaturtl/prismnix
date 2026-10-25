@@ -71,6 +71,16 @@ let
             "file" = "Assembled-Legendary-Tooltips-1.20.1.zip";
             "hash" = "sha512-xjbW7jZD8cn+brZwBGlFpHblc9aiwLKL8HOrKuMoX3pYwx2iYRlJOJAkKxjMINHfnpaV1dvbROH7gZhoBs6bog==";
         };
+        _ZgCbxU2p = {
+            "id" = "ZgCbxU2p";
+            "file" = "Assembled-Legendary-Tooltips-1.21.x.zip";
+            "hash" = "sha512-BATKgRTg5yi7yEeQP9IkutYO45LVX97lzxbSMqmtQzo8xxYO1knFtCYnvaem5JTbigx0CE/esep6cQ8BeTjtfA==";
+        };
+        _QWQnnHbB = {
+            "id" = "QWQnnHbB";
+            "file" = "Assembled-Legendary-Tooltips-1.20.1.zip";
+            "hash" = "sha512-TFbLofBi23Vn1PmcE16F5ffg+juzSAKqUkk70sEMIBZiJj29A9ll1jh+HL9nAtENsj98x4O7RLSsJYtSyIOQ2Q==";
+        };
     in {
         "TbapmZEI" = _TbapmZEI;
         "GS9kVBW6" = _GS9kVBW6;
@@ -86,20 +96,22 @@ let
         "SWFrOx56" = _SWFrOx56;
         "2rSeAOgn" = _2rSeAOgn;
         "faQnEu8y" = _faQnEu8y;
-        "minecraft-1.21.1" = _2rSeAOgn;
-        "minecraft-1.21" = _2rSeAOgn;
-        "minecraft-1.20" = _faQnEu8y;
-        "minecraft-1.20.1" = _faQnEu8y;
-        "minecraft-1.21.2" = _2rSeAOgn;
-        "minecraft-1.21.3" = _2rSeAOgn;
-        "minecraft-1.21.4" = _2rSeAOgn;
-        "minecraft-1.21.5" = _2rSeAOgn;
-        "minecraft-1.21.6" = _2rSeAOgn;
-        "minecraft-1.21.7" = _2rSeAOgn;
-        "minecraft-1.21.8" = _2rSeAOgn;
-        "minecraft-1.21.9" = _2rSeAOgn;
-        "minecraft-1.21.10" = _2rSeAOgn;
-        "minecraft-1.21.11" = _2rSeAOgn;
+        "ZgCbxU2p" = _ZgCbxU2p;
+        "QWQnnHbB" = _QWQnnHbB;
+        "minecraft-1.21.1" = _ZgCbxU2p;
+        "minecraft-1.21" = _ZgCbxU2p;
+        "minecraft-1.20" = _QWQnnHbB;
+        "minecraft-1.20.1" = _QWQnnHbB;
+        "minecraft-1.21.2" = _ZgCbxU2p;
+        "minecraft-1.21.3" = _ZgCbxU2p;
+        "minecraft-1.21.4" = _ZgCbxU2p;
+        "minecraft-1.21.5" = _ZgCbxU2p;
+        "minecraft-1.21.6" = _ZgCbxU2p;
+        "minecraft-1.21.7" = _ZgCbxU2p;
+        "minecraft-1.21.8" = _ZgCbxU2p;
+        "minecraft-1.21.9" = _ZgCbxU2p;
+        "minecraft-1.21.10" = _ZgCbxU2p;
+        "minecraft-1.21.11" = _ZgCbxU2p;
         "pkg-1.0.0" = _TbapmZEI;
         "pkg-1.1.0" = _xKLbs1vb;
         "pkg-1.2.0" = _pDNy5rOZ;
@@ -108,7 +120,8 @@ let
         "pkg-1.5.0" = _mP1lSgP3;
         "pkg-2.0.0" = _SWFrOx56;
         "pkg-2.1.0" = _faQnEu8y;
-        "default" = _faQnEu8y;
+        "pkg-2.2.0" = _QWQnnHbB;
+        "default" = _QWQnnHbB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "assembled-legendary-tooltips";

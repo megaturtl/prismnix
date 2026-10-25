@@ -86,6 +86,41 @@ let
             "file" = "catppuccin-addon-2.3.0+mc1.21.1.jar";
             "hash" = "sha512-oEe+TZUFZR0U797JVXH9ICeOEIgGf8z/Tr9p3aCZDrdKjGJX1uZSw96b2IYxd62N4DHleLHR9VmAS5AzLvyxEQ==";
         };
+        _FyzbDoJl = {
+            "id" = "FyzbDoJl";
+            "file" = "catppuccin-addon-2.4.0+mc1.21.10.jar";
+            "hash" = "sha512-C9y+Y9c2G+XxIA7SBqdZ1rOaX1ZHU0diggJE7rhLU+EIFOviQWF2cdXwND5gvZd1VHrE2YWVg6WkvQ/Y2zpHhg==";
+        };
+        _NN2znQHH = {
+            "id" = "NN2znQHH";
+            "file" = "catppuccin-addon-2.4.0+mc1.21.11.jar";
+            "hash" = "sha512-k0cNm5bdd6rh43+TxQzGe/A7/DaXD6it2bQMzJS3XtaPSNBUeMbok0pxVZhLtKeVMwGcQfYdN6Ca1kG5VGhOCA==";
+        };
+        _TAH6i1zw = {
+            "id" = "TAH6i1zw";
+            "file" = "catppuccin-addon-2.4.0+mc26.2.jar";
+            "hash" = "sha512-cA/LQkWSj1hT/V2c3rMyjqyqDLjWe3DjCzVufEH+0IL7MXWKN9DKVZajx9buW+oTPKIj2gI0eVpdcu9yVF3lag==";
+        };
+        _dJhBGQqw = {
+            "id" = "dJhBGQqw";
+            "file" = "catppuccin-addon-2.4.0+mc26.1.2.jar";
+            "hash" = "sha512-tRztnucPaBcnHdVqJDMvztefssULVRjTxANjqBPQSzqut59syUxX9s4UDlKOazZPHMD1cdl4H8n6/6aHO9X6ZQ==";
+        };
+        _qYL9moA0 = {
+            "id" = "qYL9moA0";
+            "file" = "catppuccin-addon-2.4.0+mc1.21.4.jar";
+            "hash" = "sha512-5d0dZanF9xE1OjqbGk87voaedFnGzsja5ajFufIEL1K17muhsHUn0opUezp/G4sjTiDQhs9UuqlMvy5x8w80sQ==";
+        };
+        _tZMGnkFG = {
+            "id" = "tZMGnkFG";
+            "file" = "catppuccin-addon-2.4.0+mc26.3.jar";
+            "hash" = "sha512-xvBOpaG7KE5FmOKr/5rIU4LoBg8lsPYb7zC/cf+3zPu3KvK9HvRXbd1bAp6p5aMnB2hf8gC4mjxLXYcSUiAWVw==";
+        };
+        _VEh7gsIf = {
+            "id" = "VEh7gsIf";
+            "file" = "catppuccin-addon-2.4.0+mc1.21.1.jar";
+            "hash" = "sha512-7dzUq4YKxG4C6k1jLTnU1kan7cwN16ZLt2UJ0szuKB3Oi6X7EKSDCnfLZNWEsTWuVALxCty8Wfos5mAfjxK7TA==";
+        };
     in {
         "6BFyRAv0" = _6BFyRAv0;
         "e8cfiNdW" = _e8cfiNdW;
@@ -104,13 +139,21 @@ let
         "AXxxYk4U" = _AXxxYk4U;
         "TcVkSNaL" = _TcVkSNaL;
         "RiPkGBEi" = _RiPkGBEi;
+        "FyzbDoJl" = _FyzbDoJl;
+        "NN2znQHH" = _NN2znQHH;
+        "TAH6i1zw" = _TAH6i1zw;
+        "dJhBGQqw" = _dJhBGQqw;
+        "qYL9moA0" = _qYL9moA0;
+        "tZMGnkFG" = _tZMGnkFG;
+        "VEh7gsIf" = _VEh7gsIf;
         "fabric-1.21" = _6BFyRAv0;
-        "fabric-1.21.1" = _RiPkGBEi;
-        "fabric-1.21.4" = _AXxxYk4U;
-        "fabric-1.21.10" = _9gYhssM7;
-        "fabric-1.21.11" = _Cs0veF9p;
-        "fabric-26.1.2" = _TcVkSNaL;
-        "fabric-26.2" = _liCSkEFO;
+        "fabric-1.21.1" = _VEh7gsIf;
+        "fabric-1.21.4" = _qYL9moA0;
+        "fabric-1.21.10" = _FyzbDoJl;
+        "fabric-1.21.11" = _NN2znQHH;
+        "fabric-26.1.2" = _dJhBGQqw;
+        "fabric-26.2" = _TAH6i1zw;
+        "fabric-26.3" = _tZMGnkFG;
         "pkg-2.1.0" = _eUnr893E;
         "pkg-2.2.0+mc1.21.11" = _stu93A8Y;
         "pkg-2.2.0+mc26.1.2" = _bbFpSBOK;
@@ -124,7 +167,14 @@ let
         "pkg-2.3.0+mc1.21.4" = _AXxxYk4U;
         "pkg-2.3.0+mc26.1.2" = _TcVkSNaL;
         "pkg-2.3.0+mc1.21.1" = _RiPkGBEi;
-        "default" = _RiPkGBEi;
+        "pkg-2.4.0+mc1.21.10" = _FyzbDoJl;
+        "pkg-2.4.0+mc1.21.11" = _NN2znQHH;
+        "pkg-2.4.0+mc26.2" = _TAH6i1zw;
+        "pkg-2.4.0+mc26.1.2" = _dJhBGQqw;
+        "pkg-2.4.0+mc1.21.4" = _qYL9moA0;
+        "pkg-2.4.0+mc26.3" = _tZMGnkFG;
+        "pkg-2.4.0+mc1.21.1" = _VEh7gsIf;
+        "default" = _VEh7gsIf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "catppuccin-theme-addon";

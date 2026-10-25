@@ -121,6 +121,16 @@ let
             "file" = "stonehenge-26.1.jar";
             "hash" = "sha512-YTk4y/GVFprzS6Dxga40Zry4rfItubJ12+Gl+jo+t+y+fgyxtnK8GW6aYPSa0pOs7uN4WUD0zpPyojGQMis1sA==";
         };
+        _25K7ZR6L = {
+            "id" = "25K7ZR6L";
+            "file" = "stonehenge.zip";
+            "hash" = "sha512-3w48+uzCXIh0ckgwdPbi9E8DYuE26IrKJNjF1LrvxE7Kbj4E9fdk/UzO1pjUn6cXR49izOLEeN1bkrZJow+yYA==";
+        };
+        _FpQuEng6 = {
+            "id" = "FpQuEng6";
+            "file" = "stonehenge-1.0.0.jar";
+            "hash" = "sha512-5QAxyKc2u4PnIn+fiZ+paoc4UY2g3smKnUjiYU0ia8TvtDVOV3u17pLmCupEjXelnDQrPYeJtaj9nzS7AhmymA==";
+        };
     in {
         "BJIu6qtC" = _BJIu6qtC;
         "7yPS7bfc" = _7yPS7bfc;
@@ -146,6 +156,8 @@ let
         "GYILXOdT" = _GYILXOdT;
         "XqKU5Y1b" = _XqKU5Y1b;
         "ewR14ZMH" = _ewR14ZMH;
+        "25K7ZR6L" = _25K7ZR6L;
+        "FpQuEng6" = _FpQuEng6;
         "datapack-1.21" = _BJIu6qtC;
         "datapack-1.21.1" = _qpFDupVl;
         "datapack-1.21.2" = _QLu4NWqf;
@@ -159,6 +171,10 @@ let
         "datapack-1.21.10" = _IEhec80U;
         "datapack-1.21.11" = _IEhec80U;
         "datapack-26.1" = _XqKU5Y1b;
+        "datapack-26.1.1" = _25K7ZR6L;
+        "datapack-26.1.2" = _25K7ZR6L;
+        "datapack-26.2" = _25K7ZR6L;
+        "datapack-26.3" = _25K7ZR6L;
         "fabric-1.21" = _7yPS7bfc;
         "fabric-1.21.1" = _4XFJRzIV;
         "fabric-1.21.2" = _E6nQzaam;
@@ -172,6 +188,10 @@ let
         "fabric-1.21.10" = _GYILXOdT;
         "fabric-1.21.11" = _GYILXOdT;
         "fabric-26.1" = _ewR14ZMH;
+        "fabric-26.1.1" = _FpQuEng6;
+        "fabric-26.1.2" = _FpQuEng6;
+        "fabric-26.2" = _FpQuEng6;
+        "fabric-26.3" = _FpQuEng6;
         "forge-1.21" = _7yPS7bfc;
         "forge-1.21.1" = _4XFJRzIV;
         "forge-1.21.2" = _E6nQzaam;
@@ -185,6 +205,10 @@ let
         "forge-1.21.10" = _GYILXOdT;
         "forge-1.21.11" = _GYILXOdT;
         "forge-26.1" = _ewR14ZMH;
+        "forge-26.1.1" = _FpQuEng6;
+        "forge-26.1.2" = _FpQuEng6;
+        "forge-26.2" = _FpQuEng6;
+        "forge-26.3" = _FpQuEng6;
         "neoforge-1.21" = _7yPS7bfc;
         "neoforge-1.21.1" = _4XFJRzIV;
         "neoforge-1.21.2" = _E6nQzaam;
@@ -198,6 +222,10 @@ let
         "neoforge-1.21.10" = _GYILXOdT;
         "neoforge-1.21.11" = _GYILXOdT;
         "neoforge-26.1" = _ewR14ZMH;
+        "neoforge-26.1.1" = _FpQuEng6;
+        "neoforge-26.1.2" = _FpQuEng6;
+        "neoforge-26.2" = _FpQuEng6;
+        "neoforge-26.3" = _FpQuEng6;
         "quilt-1.21" = _7yPS7bfc;
         "quilt-1.21.1" = _4XFJRzIV;
         "quilt-1.21.2" = _E6nQzaam;
@@ -211,6 +239,10 @@ let
         "quilt-1.21.10" = _GYILXOdT;
         "quilt-1.21.11" = _GYILXOdT;
         "quilt-26.1" = _ewR14ZMH;
+        "quilt-26.1.1" = _FpQuEng6;
+        "quilt-26.1.2" = _FpQuEng6;
+        "quilt-26.2" = _FpQuEng6;
+        "quilt-26.3" = _FpQuEng6;
         "pkg-1.21" = _BJIu6qtC;
         "pkg-1.21+mod" = _7yPS7bfc;
         "pkg-1.21.1" = _qpFDupVl;
@@ -235,7 +267,9 @@ let
         "pkg-1.21-Plus+mod" = _GYILXOdT;
         "pkg-26.1" = _XqKU5Y1b;
         "pkg-26.1+mod" = _ewR14ZMH;
-        "default" = _ewR14ZMH;
+        "pkg-1.0.0" = _25K7ZR6L;
+        "pkg-1.0.0+mod" = _FpQuEng6;
+        "default" = _FpQuEng6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stonehenge";

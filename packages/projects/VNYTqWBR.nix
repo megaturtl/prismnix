@@ -166,6 +166,21 @@ let
             "file" = "morebiomecolouredblocks-1.1.0+mc-1.21.11.jar";
             "hash" = "sha512-FGT+AZOhGFeooFaCMKuKLSnabNV9zLLQqWQ5myYZ3jDmreeyL1P6M9Wmn0P7Q0UqFUStdwxBl4Lpf29Vif2f9g==";
         };
+        _E1I4vSzT = {
+            "id" = "E1I4vSzT";
+            "file" = "morebiomecolouredblocks-1.1.0+mc-26.1.jar";
+            "hash" = "sha512-8SZgstfMcp8mquE0R4w3vPIEDp6MHSTnbfPqTeJFqBZ0CuOlI6JVj6+trmlSzxkPSmSdV2CsLwigYuuZ+ZRpZw==";
+        };
+        _QQGteh01 = {
+            "id" = "QQGteh01";
+            "file" = "morebiomecolouredblocks-1.1.0+mc-26.2.jar";
+            "hash" = "sha512-sjqknVIdnp8s20Cry+ZvHcmfkH9l32mDI+4kzrxmmlIrAcaYrg8VfpvFOFs8LLGf6dLxSpzrvevV+yYaNUbAbQ==";
+        };
+        _umvxZw7L = {
+            "id" = "umvxZw7L";
+            "file" = "morebiomecolouredblocks-1.1.0+mc-26.3.jar";
+            "hash" = "sha512-mflrdE33Hjh21twiufVjeDG3PYN9q+dbYevENHyT5QZa2MHmWf5tzWWY9N7SsdKEH/fp+aZn5sOtJgVd7wN1Ug==";
+        };
     in {
         "txUAYKqv" = _txUAYKqv;
         "qlhUhXUJ" = _qlhUhXUJ;
@@ -200,6 +215,9 @@ let
         "U8EYZsIG" = _U8EYZsIG;
         "YEDUwnFt" = _YEDUwnFt;
         "mgkGj2AZ" = _mgkGj2AZ;
+        "E1I4vSzT" = _E1I4vSzT;
+        "QQGteh01" = _QQGteh01;
+        "umvxZw7L" = _umvxZw7L;
         "fabric-1.21" = _8wnVRM7l;
         "fabric-1.21.1" = _8wnVRM7l;
         "fabric-1.21.2" = _iE78Yonn;
@@ -212,10 +230,18 @@ let
         "fabric-1.21.9" = _U8EYZsIG;
         "fabric-1.21.10" = _YEDUwnFt;
         "fabric-1.21.11" = _mgkGj2AZ;
+        "fabric-26.1" = _E1I4vSzT;
+        "fabric-26.1.1" = _E1I4vSzT;
+        "fabric-26.1.2" = _E1I4vSzT;
+        "fabric-26.2" = _QQGteh01;
+        "fabric-26.3" = _umvxZw7L;
         "pkg-1.0.0" = _6jmJT5GS;
         "pkg-1.0.1" = _uPFe5hUN;
         "pkg-1.1.0" = _mgkGj2AZ;
-        "default" = _mgkGj2AZ;
+        "pkg-1.1.0+mc-26.1" = _E1I4vSzT;
+        "pkg-1.1.0+mc-26.2" = _QQGteh01;
+        "pkg-1.1.0+mc-26.3" = _umvxZw7L;
+        "default" = _umvxZw7L;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-biome-coloured-blocks";

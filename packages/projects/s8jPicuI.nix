@@ -711,6 +711,11 @@ let
             "file" = "invsearch-storage-indexer-1.3.3+26.2-quilt.jar";
             "hash" = "sha512-QFb7CK50fyFzEy+o3R4W/nHb95zEJ5Jm3cJzEq0HxM5YomsyoXYZ1PRx5D88nILb2fdhz7nrkNgQf18M09G0qQ==";
         };
+        _vcbcjoz0 = {
+            "id" = "vcbcjoz0";
+            "file" = "invsearch-storage-indexer-1.3.4-dev.2+26.3-fabric.jar";
+            "hash" = "sha512-KWKMV6d9pvMhEm5mJOviADdW7Kfm1Leb5bg3sVoQi6u0O+MGhvSxWOZ6c2cbZ3jM2NPV+wP0wF8tWcNWmTjG7Q==";
+        };
     in {
         "VxZuQFkh" = _VxZuQFkh;
         "rEYIYQYi" = _rEYIYQYi;
@@ -854,9 +859,10 @@ let
         "1kM0XAMm" = _1kM0XAMm;
         "EwVDL6xS" = _EwVDL6xS;
         "UGo9bzoz" = _UGo9bzoz;
+        "vcbcjoz0" = _vcbcjoz0;
         "fabric-26.1.2" = _5q5ujZRe;
         "fabric-26.2" = _JolC0gbw;
-        "fabric-26.3" = _Odkh0j7I;
+        "fabric-26.3" = _vcbcjoz0;
         "fabric-1.19.2" = _meJny3Dj;
         "fabric-26.1.1" = _kE3NqpgL;
         "fabric-1.20.1" = _HM5VbpxD;
@@ -994,7 +1000,8 @@ let
         "pkg-1.3.3+26.1.1-quilt" = _1kM0XAMm;
         "pkg-1.3.3+26.1.2-quilt" = _EwVDL6xS;
         "pkg-1.3.3+26.2-quilt" = _UGo9bzoz;
-        "default" = _UGo9bzoz;
+        "pkg-1.3.4-dev.2+26.3-fabric" = _vcbcjoz0;
+        "default" = _vcbcjoz0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "invsearch";

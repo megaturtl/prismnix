@@ -291,6 +291,11 @@ let
             "file" = "moderndeco-4.0.2-neoforge-1.21.1.jar";
             "hash" = "sha512-depio5m1/AKzv2L0E+exlAl2N8agOw2YZOrpIcRRxL0mz/lFT+yedSxm7/42avntgg05+qItNfSukjvXmscF3w==";
         };
+        _A4tYZ6bv = {
+            "id" = "A4tYZ6bv";
+            "file" = "decoplus-5.1.1-fabric-26.3.jar";
+            "hash" = "sha512-+AsJ+zHc99cMyUNxS4RvkboV4pG4SHpYbRrKSkM3JqTadwy4x/SV/WDjlhjCvlofBJqIoy+SQpQ9foI2rEXApA==";
+        };
     in {
         "SyXAh3xY" = _SyXAh3xY;
         "fj8keKl2" = _fj8keKl2;
@@ -350,9 +355,11 @@ let
         "YVajEMk9" = _YVajEMk9;
         "yqQv9J6E" = _yqQv9J6E;
         "n35LG26X" = _n35LG26X;
+        "A4tYZ6bv" = _A4tYZ6bv;
         "forge-1.20.1" = _yqQv9J6E;
         "neoforge-1.20.6" = _zyHXVlfX;
         "neoforge-1.21.1" = _n35LG26X;
+        "fabric-26.3" = _A4tYZ6bv;
         "pkg-0.0.2" = _SyXAh3xY;
         "pkg-0.0.5" = _fj8keKl2;
         "pkg-0.0.6" = _U0LC0tdP;
@@ -400,7 +407,8 @@ let
         "pkg-3.6.2" = _YWwhxQUt;
         "pkg-3.7.0" = _YVajEMk9;
         "pkg-4.0.2" = _n35LG26X;
-        "default" = _n35LG26X;
+        "pkg-5.1.1" = _A4tYZ6bv;
+        "default" = _A4tYZ6bv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "moderndeco";

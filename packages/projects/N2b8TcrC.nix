@@ -31,6 +31,11 @@ let
             "file" = "titans-1.2.3-1.21.1.jar";
             "hash" = "sha512-PVcClvGtXBwW4rGR2MextiuOVj3Kpk7nRpvgm8Uown/eqS+2E0r1kzC7EqWkBj5DTgIpssvLCudBYO5GUbnjkw==";
         };
+        _Ipvo6eHR = {
+            "id" = "Ipvo6eHR";
+            "file" = "titans-1.2.3-1.21.11.jar";
+            "hash" = "sha512-mlTAz1M9s5WfE75Ugd//3NkYIm58K01/qEoeQ6caTNePkgmnPcHa0cM2a4bGIthaIe+F9BQZFMcA2EDNjpBw1A==";
+        };
     in {
         "7gAb30ea" = _7gAb30ea;
         "UPwKYnku" = _UPwKYnku;
@@ -38,15 +43,18 @@ let
         "4VLXzxe7" = _4VLXzxe7;
         "uHRK4N8a" = _uHRK4N8a;
         "Wi7yFHG1" = _Wi7yFHG1;
+        "Ipvo6eHR" = _Ipvo6eHR;
         "forge-1.21.1" = _Wi7yFHG1;
         "forge-1.20.1" = _uHRK4N8a;
+        "fabric-1.21.11" = _Ipvo6eHR;
         "pkg-1.0.0-1.21.1" = _7gAb30ea;
         "pkg-1.1.0-1.20.1" = _UPwKYnku;
         "pkg-1.2.1-1.20.1" = _GqwY4BF7;
         "pkg-1.2.2-1.20.1" = _4VLXzxe7;
         "pkg-1.2.3-1.20.1" = _uHRK4N8a;
         "pkg-1.2.3-1.21.1" = _Wi7yFHG1;
-        "default" = _Wi7yFHG1;
+        "pkg-1.2.3-1.21.11" = _Ipvo6eHR;
+        "default" = _Ipvo6eHR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "titans-mod";

@@ -276,6 +276,11 @@ let
             "file" = "contentified-10.0.3.jar";
             "hash" = "sha512-qDzc/Ng82slZadmOx49jMrxE/eFzBo/qoU1G59Nn5RXgyuhmBMr4g4V4dk7wDj3eHPe1WoWEK4+l4SZ+qo34Mw==";
         };
+        _enl1evK2 = {
+            "id" = "enl1evK2";
+            "file" = "contentified-10.0.4.jar";
+            "hash" = "sha512-j9eo7IVrRgiPrvYrrB3WBeV4t/9cYe59pjlfiWWpbyuok9y4S3G2q+xydnOco5cGIKf3qGeXnyEh+1hnT2tyBQ==";
+        };
     in {
         "Rbfsrfq5" = _Rbfsrfq5;
         "HzD5p7AV" = _HzD5p7AV;
@@ -332,6 +337,7 @@ let
         "T6o0BIxl" = _T6o0BIxl;
         "XIVBd8el" = _XIVBd8el;
         "N1W1ZcIj" = _N1W1ZcIj;
+        "enl1evK2" = _enl1evK2;
         "fabric-1.21.5" = _GjeIwIBj;
         "fabric-1.21.6" = _RYi8tQFg;
         "fabric-1.21.7" = _RYi8tQFg;
@@ -343,7 +349,7 @@ let
         "fabric-26.1.1" = _JnWqeFmG;
         "fabric-26.1.2" = _JnWqeFmG;
         "fabric-26.2" = _nGfy9ceF;
-        "fabric-26.3" = _N1W1ZcIj;
+        "fabric-26.3" = _enl1evK2;
         "pkg-1.0.0" = _Rbfsrfq5;
         "pkg-1.1.0" = _HzD5p7AV;
         "pkg-1.2.0" = _UfIMEDPb;
@@ -399,7 +405,8 @@ let
         "pkg-10.0.1" = _T6o0BIxl;
         "pkg-10.0.2" = _XIVBd8el;
         "pkg-10.0.3" = _N1W1ZcIj;
-        "default" = _N1W1ZcIj;
+        "pkg-10.0.4" = _enl1evK2;
+        "default" = _enl1evK2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "contentified";

@@ -121,6 +121,16 @@ let
             "file" = "petra-26.1.jar";
             "hash" = "sha512-AB4hJUggfVsRqHi9pGOOvhDbxwyxAwD+TIlcMD6SOSFTG9uiVZu7bGQ1X4kiP82aXLuhqA3bmwvpt++yP+pyOg==";
         };
+        _zkx6jmn1 = {
+            "id" = "zkx6jmn1";
+            "file" = "petra.zip";
+            "hash" = "sha512-I/PZkRK94nRcnJk4uP6IBqw4BPvT/rIL4ZsRQUWQ+gj9anf11+Wb+90NSZpZEdAqtUjsppe9l/nQ9KJJgSaulg==";
+        };
+        _QOPk1rwy = {
+            "id" = "QOPk1rwy";
+            "file" = "petra-1.0.0.jar";
+            "hash" = "sha512-dLjhVoZq/dAyrHolPkA17kIjuRxI4GowPIuPHF+TGs59Tj3d99uaw7q64VLiRHSvuB0Hzr018PeP1RHIiHbimQ==";
+        };
     in {
         "XdA7d21e" = _XdA7d21e;
         "YbXzoLKN" = _YbXzoLKN;
@@ -146,6 +156,8 @@ let
         "ICtiolIO" = _ICtiolIO;
         "B224zkEt" = _B224zkEt;
         "KWAk4PvJ" = _KWAk4PvJ;
+        "zkx6jmn1" = _zkx6jmn1;
+        "QOPk1rwy" = _QOPk1rwy;
         "datapack-1.21" = _XdA7d21e;
         "datapack-1.21.1" = _x48VPBRe;
         "datapack-1.21.2" = _ui4CZrvO;
@@ -159,6 +171,10 @@ let
         "datapack-1.21.10" = _WAZcCDlG;
         "datapack-1.21.11" = _WAZcCDlG;
         "datapack-26.1" = _B224zkEt;
+        "datapack-26.1.1" = _zkx6jmn1;
+        "datapack-26.1.2" = _zkx6jmn1;
+        "datapack-26.2" = _zkx6jmn1;
+        "datapack-26.3" = _zkx6jmn1;
         "fabric-1.21" = _YbXzoLKN;
         "fabric-1.21.1" = _A3YDyaO0;
         "fabric-1.21.2" = _7apP285B;
@@ -172,6 +188,10 @@ let
         "fabric-1.21.10" = _ICtiolIO;
         "fabric-1.21.11" = _ICtiolIO;
         "fabric-26.1" = _KWAk4PvJ;
+        "fabric-26.1.1" = _QOPk1rwy;
+        "fabric-26.1.2" = _QOPk1rwy;
+        "fabric-26.2" = _QOPk1rwy;
+        "fabric-26.3" = _QOPk1rwy;
         "forge-1.21" = _YbXzoLKN;
         "forge-1.21.1" = _A3YDyaO0;
         "forge-1.21.2" = _7apP285B;
@@ -185,6 +205,10 @@ let
         "forge-1.21.10" = _ICtiolIO;
         "forge-1.21.11" = _ICtiolIO;
         "forge-26.1" = _KWAk4PvJ;
+        "forge-26.1.1" = _QOPk1rwy;
+        "forge-26.1.2" = _QOPk1rwy;
+        "forge-26.2" = _QOPk1rwy;
+        "forge-26.3" = _QOPk1rwy;
         "neoforge-1.21" = _YbXzoLKN;
         "neoforge-1.21.1" = _A3YDyaO0;
         "neoforge-1.21.2" = _7apP285B;
@@ -198,6 +222,10 @@ let
         "neoforge-1.21.10" = _ICtiolIO;
         "neoforge-1.21.11" = _ICtiolIO;
         "neoforge-26.1" = _KWAk4PvJ;
+        "neoforge-26.1.1" = _QOPk1rwy;
+        "neoforge-26.1.2" = _QOPk1rwy;
+        "neoforge-26.2" = _QOPk1rwy;
+        "neoforge-26.3" = _QOPk1rwy;
         "quilt-1.21" = _YbXzoLKN;
         "quilt-1.21.1" = _A3YDyaO0;
         "quilt-1.21.2" = _7apP285B;
@@ -211,6 +239,10 @@ let
         "quilt-1.21.10" = _ICtiolIO;
         "quilt-1.21.11" = _ICtiolIO;
         "quilt-26.1" = _KWAk4PvJ;
+        "quilt-26.1.1" = _QOPk1rwy;
+        "quilt-26.1.2" = _QOPk1rwy;
+        "quilt-26.2" = _QOPk1rwy;
+        "quilt-26.3" = _QOPk1rwy;
         "pkg-1.21" = _XdA7d21e;
         "pkg-1.21+mod" = _YbXzoLKN;
         "pkg-1.21.1" = _x48VPBRe;
@@ -235,7 +267,9 @@ let
         "pkg-1.21-Plus+mod" = _ICtiolIO;
         "pkg-26.1" = _B224zkEt;
         "pkg-26.1+mod" = _KWAk4PvJ;
-        "default" = _KWAk4PvJ;
+        "pkg-1.0.0" = _zkx6jmn1;
+        "pkg-1.0.0+mod" = _QOPk1rwy;
+        "default" = _QOPk1rwy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "petra";

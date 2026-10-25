@@ -1006,6 +1006,51 @@ let
             "file" = "BetterAdvancements-Forge-26.3-0.6.0.78.jar";
             "hash" = "sha512-d/zWs3tEkqA4bb+mfRlVxBcDF+WBWdCfUpRW3MvDKnpnkhkYRZcZRPpndgDO7UroWCzkfUWU39JYdzrgPKJrog==";
         };
+        _IL9Wd0EV = {
+            "id" = "IL9Wd0EV";
+            "file" = "BetterAdvancements-Fabric-26.3-0.6.0.79.jar";
+            "hash" = "sha512-+2R4iV40C5iGRBNhAT11bdn/hGuS17yWBV2YcgL4v7m7mEG9K6TELT8DYxrio1JQvxCzRmvI2n/9WwFGP4DB+A==";
+        };
+        _1EJXJ2Sy = {
+            "id" = "1EJXJ2Sy";
+            "file" = "BetterAdvancements-NeoForge-26.3-0.6.0.79.jar";
+            "hash" = "sha512-LRMRxIGdg/e/rNA9Mia1y7oSVxaWIcAIFuduKMVMx08VtctyDf+r9m8IjQiRdGw4ylr7fe0VLr97yN8q2OWaKQ==";
+        };
+        _aNMqTrxm = {
+            "id" = "aNMqTrxm";
+            "file" = "BetterAdvancements-Forge-26.3-0.6.0.79.jar";
+            "hash" = "sha512-MBA6/d36R5zQ2TqUjL5zDJ3kGJasaS8Vwwzjn8g8Xb8JqTijksowh7X/chPPa/hF8lwAYcYP4ZySWaJ/GdO2kw==";
+        };
+        _i44bRAHH = {
+            "id" = "i44bRAHH";
+            "file" = "BetterAdvancements-Fabric-26.3-0.6.0.80.jar";
+            "hash" = "sha512-DHEcwscfItYt3NOcYdmiRnx3cwfAys3I4JKUDeoHIt9Y9ZJkXXAb/zW6dUlMdAFDfhHcsxMQls8bpg5eb2S3GQ==";
+        };
+        _HF5P6EOZ = {
+            "id" = "HF5P6EOZ";
+            "file" = "BetterAdvancements-NeoForge-26.3-0.6.0.80.jar";
+            "hash" = "sha512-ND9JdZX43S/y33+wBHudNNfjz9wI/bcRcZDcPPW1Ykb9xtLRE3bo/EI5whrVl5Z7ERG7frftZ2Sw3xQUThr9aQ==";
+        };
+        _DdW0myxo = {
+            "id" = "DdW0myxo";
+            "file" = "BetterAdvancements-Forge-26.3-0.6.0.80.jar";
+            "hash" = "sha512-7y/zfsNahX/YkB2Uz1bWcm2q4Cc6IOOH/iA/S+Ox2wUyCl5jUqtbREJojBzD+GZwVmWka9/svUt+oHsQ60JjUA==";
+        };
+        _FQp3HIDr = {
+            "id" = "FQp3HIDr";
+            "file" = "BetterAdvancements-Fabric-26.3-0.6.0.81.jar";
+            "hash" = "sha512-VO6hVsogUte/7MHXBhA9ef3QsHDSnAGnoBmH2JiqU04MNN7mWt+3SmsW8lxbHJlFRB1dcDNjgIB4xW6lJhRtbQ==";
+        };
+        _MtlP1KmU = {
+            "id" = "MtlP1KmU";
+            "file" = "BetterAdvancements-NeoForge-26.3-0.6.0.81.jar";
+            "hash" = "sha512-9hJmrzvsRDTcvegxCPwpUOimF9iD4WzLNSkNW0zIq5NbkgYsWOTGmHem8rAFM0DmxxGwB6iz0FaW0YibH6tILw==";
+        };
+        _judJJXb2 = {
+            "id" = "judJJXb2";
+            "file" = "BetterAdvancements-Forge-26.3-0.6.0.81.jar";
+            "hash" = "sha512-LlNGItMUvPI8dXcvfhR4nYtdFcAI77545rZAiNs5EcBc2iiYlxGjbjnr2ONsynABAVkONydUsQSDwHdJNxwv4A==";
+        };
     in {
         "AmRxRO80" = _AmRxRO80;
         "mF22Qbd5" = _mF22Qbd5;
@@ -1208,6 +1253,15 @@ let
         "Y2FyQ15a" = _Y2FyQ15a;
         "ETfNjSEm" = _ETfNjSEm;
         "mjoOri2R" = _mjoOri2R;
+        "IL9Wd0EV" = _IL9Wd0EV;
+        "1EJXJ2Sy" = _1EJXJ2Sy;
+        "aNMqTrxm" = _aNMqTrxm;
+        "i44bRAHH" = _i44bRAHH;
+        "HF5P6EOZ" = _HF5P6EOZ;
+        "DdW0myxo" = _DdW0myxo;
+        "FQp3HIDr" = _FQp3HIDr;
+        "MtlP1KmU" = _MtlP1KmU;
+        "judJJXb2" = _judJJXb2;
         "forge-1.19.2" = _Zmn6s0Hf;
         "forge-1.19.3" = _PbZp4J62;
         "forge-1.19.4" = _Vp4GnzGH;
@@ -1231,7 +1285,7 @@ let
         "forge-1.21.11" = _oUzvAnkT;
         "forge-26.2" = _7o1P908s;
         "forge-26.1.2" = _QOJvSu6p;
-        "forge-26.3" = _mjoOri2R;
+        "forge-26.3" = _judJJXb2;
         "fabric-1.19.2" = _MqXjcA0Z;
         "fabric-1.19.3" = _4KGj29N0;
         "fabric-1.19.4" = _KcsAOipK;
@@ -1254,7 +1308,7 @@ let
         "fabric-1.21.11" = _8im6QWDT;
         "fabric-26.1.2" = _EJXDbJy9;
         "fabric-26.2" = _fqZg8lOe;
-        "fabric-26.3" = _Y2FyQ15a;
+        "fabric-26.3" = _FQp3HIDr;
         "neoforge-1.20.2" = _QjBEtzgB;
         "neoforge-1.20.4" = _KYnk9e1O;
         "neoforge-1.21" = _MRRlgWcA;
@@ -1272,7 +1326,7 @@ let
         "neoforge-26.1.2" = _8Hsu82sg;
         "neoforge-1.20.1" = _b7M4dLeR;
         "neoforge-26.2" = _kn85SmV1;
-        "neoforge-26.3" = _ETfNjSEm;
+        "neoforge-26.3" = _MtlP1KmU;
         "pkg-0.2.2.147" = _9KWatbqT;
         "pkg-0.3.1.150" = _6pucCggs;
         "pkg-0.3.1.153" = _4KGj29N0;
@@ -1348,7 +1402,10 @@ let
         "pkg-0.6.0.76" = _QOJvSu6p;
         "pkg-0.6.0.77" = _7o1P908s;
         "pkg-0.6.0.78" = _mjoOri2R;
-        "default" = _mjoOri2R;
+        "pkg-0.6.0.79" = _aNMqTrxm;
+        "pkg-0.6.0.80" = _DdW0myxo;
+        "pkg-0.6.0.81" = _judJJXb2;
+        "default" = _judJJXb2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-advancements";

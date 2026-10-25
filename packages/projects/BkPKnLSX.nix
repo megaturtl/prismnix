@@ -41,6 +41,16 @@ let
             "file" = "AvaritiaSpear-1.21.1-neo-1.3.2.jar";
             "hash" = "sha512-QcFH7skyGWsOs+RnFqJ8quBOKYU8CtL707yyaHWEIyiNncNWxbPeDgdCDMXhcRcvJXYTP0wq2zhW4t+Su+/9Hw==";
         };
+        _EP0fJoBh = {
+            "id" = "EP0fJoBh";
+            "file" = "AvaritiaSpear-1.20.1-forge-1.4.0.jar";
+            "hash" = "sha512-LNOujcLu4jeCGoIx1UwkPMBtSTB9ysamrv99s66Z5dkajMNyAg9niI8+BmA4PujX4j6NFoXkyemfBFIpdBnyRg==";
+        };
+        _oJr1KXc5 = {
+            "id" = "oJr1KXc5";
+            "file" = "AvaritiaSpear-1.21.1-neo-1.4.0.jar";
+            "hash" = "sha512-9QSKfID0e4cFIFm22mTEkx76a/f4Ad8+gMQpvf73+mOTUOB8pBqIfg7Iia4JmkD91Mi8jL7Tc1z+BctWZXo/nw==";
+        };
     in {
         "F0wT5e6s" = _F0wT5e6s;
         "SBSMNXgh" = _SBSMNXgh;
@@ -50,8 +60,15 @@ let
         "2kaHsRQp" = _2kaHsRQp;
         "xnhGxSGf" = _xnhGxSGf;
         "XoGb2CWp" = _XoGb2CWp;
-        "neoforge-1.21.1" = _XoGb2CWp;
-        "forge-1.20.1" = _xnhGxSGf;
+        "EP0fJoBh" = _EP0fJoBh;
+        "oJr1KXc5" = _oJr1KXc5;
+        "neoforge-1.21.1" = _oJr1KXc5;
+        "forge-1.20.1" = _EP0fJoBh;
+        "forge-1.20.2" = _EP0fJoBh;
+        "forge-1.20.3" = _EP0fJoBh;
+        "forge-1.20.4" = _EP0fJoBh;
+        "forge-1.20.5" = _EP0fJoBh;
+        "forge-1.20.6" = _EP0fJoBh;
         "pkg-1.0.0" = _F0wT5e6s;
         "pkg-1.1.0" = _SBSMNXgh;
         "pkg-1.2.0" = _27I1WXmS;
@@ -59,7 +76,8 @@ let
         "pkg-1.3.1" = _q860JfqZ;
         "pkg-1.3.2" = _XoGb2CWp;
         "pkg-1.3.3" = _xnhGxSGf;
-        "default" = _XoGb2CWp;
+        "pkg-1.4.0" = _oJr1KXc5;
+        "default" = _oJr1KXc5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "avaritia-spear";

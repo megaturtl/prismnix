@@ -421,6 +421,11 @@ let
             "file" = "blockhighlight-2.93+26.3.jar";
             "hash" = "sha512-9+jS9OOz+Q6zf8FwxcQsNsTgV/edGbuJ+mOr0UTzjl07IY8s/LhsSMTigQxHCz4tW7Bqwgl4ZhUc5QxigcJWeg==";
         };
+        _NrJfExvs = {
+            "id" = "NrJfExvs";
+            "file" = "blockhighlight-2.93.1+1.8.9.jar";
+            "hash" = "sha512-hoeIvcfW7JebLXeGAymxZAejBe7V7dPoYSG2Ojn7uezyQ5LdSmJAy3CxHdcN1Vsp9B1FNVXsRQ3QyPVlpLeFKw==";
+        };
     in {
         "fPlBWWKv" = _fPlBWWKv;
         "T88TE4rj" = _T88TE4rj;
@@ -506,6 +511,7 @@ let
         "EeWr5EcD" = _EeWr5EcD;
         "GFYOqZfh" = _GFYOqZfh;
         "jnqNbsCc" = _jnqNbsCc;
+        "NrJfExvs" = _NrJfExvs;
         "fabric-1.20.1" = _6y3qBi1A;
         "fabric-1.20.2" = _V6LTwTpL;
         "fabric-1.20" = _nyN0bnCV;
@@ -530,7 +536,7 @@ let
         "fabric-26.1.2" = _EeWr5EcD;
         "fabric-26.2" = _GFYOqZfh;
         "fabric-26.3" = _jnqNbsCc;
-        "ornithe-1.8.9" = _uYUotyDS;
+        "ornithe-1.8.9" = _NrJfExvs;
         "pkg-1.0" = _2ReWxsFe;
         "pkg-2.0" = _AwwtVD3o;
         "pkg-2.2" = _ZLpekoiK;
@@ -583,7 +589,8 @@ let
         "pkg-2.93+26.1.2" = _EeWr5EcD;
         "pkg-2.93+26.2" = _GFYOqZfh;
         "pkg-2.93+26.3" = _jnqNbsCc;
-        "default" = _jnqNbsCc;
+        "pkg-2.93.1+1.8.9" = _NrJfExvs;
+        "default" = _NrJfExvs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "custom-block-highlight";

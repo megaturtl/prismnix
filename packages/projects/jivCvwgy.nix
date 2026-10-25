@@ -31,6 +31,16 @@ let
             "file" = "No-Miss-26.3.jar";
             "hash" = "sha512-sMZdbX6QCqv9yYBP3FKgHvZo5zq8kkiUQYuNossUyAAqseD2tx7n1pMiSNAGuB7j9ZCAjXXdgzJvokzjKD8d+w==";
         };
+        _u8t1t2gf = {
+            "id" = "u8t1t2gf";
+            "file" = "No-Miss-26.3.jar";
+            "hash" = "sha512-SD09/x+iy/WC39WpO+6KND8bHGSIeFluaEOlUXzzRvxrOnfdtld++H6A+/JsIHX6CFOODo3P9/4uc2i8XCjMiQ==";
+        };
+        _MukkVXIS = {
+            "id" = "MukkVXIS";
+            "file" = "No-Miss-26.2.jar";
+            "hash" = "sha512-IW6xlEYySdPe+UyO3JT6uSkCblLTrGA27eCa09DCV/Fp2YvW4z9r34YOq/R1yQBdoKRSuaJCaNKjf9HyhTEInw==";
+        };
     in {
         "2N5913kh" = _2N5913kh;
         "bloBuYEj" = _bloBuYEj;
@@ -38,6 +48,8 @@ let
         "fr3jMBY4" = _fr3jMBY4;
         "LZWGEh4I" = _LZWGEh4I;
         "Ev4aJmVc" = _Ev4aJmVc;
+        "u8t1t2gf" = _u8t1t2gf;
+        "MukkVXIS" = _MukkVXIS;
         "fabric-1.21" = _2N5913kh;
         "fabric-1.21.1" = _2N5913kh;
         "fabric-1.21.2" = _2N5913kh;
@@ -60,11 +72,11 @@ let
         "fabric-26.1" = _fr3jMBY4;
         "fabric-26.1.1" = _fr3jMBY4;
         "fabric-26.1.2" = _fr3jMBY4;
-        "fabric-26.2" = _LZWGEh4I;
-        "fabric-26.3" = _Ev4aJmVc;
+        "fabric-26.2" = _MukkVXIS;
+        "fabric-26.3" = _u8t1t2gf;
         "pkg-1.0" = _bloBuYEj;
-        "pkg-1.1" = _Ev4aJmVc;
-        "default" = _Ev4aJmVc;
+        "pkg-1.1" = _MukkVXIS;
+        "default" = _MukkVXIS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "no-miss";

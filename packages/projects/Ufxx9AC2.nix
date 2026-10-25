@@ -56,6 +56,11 @@ let
             "file" = "keybindery-1.3.0+26.3.jar";
             "hash" = "sha512-bAIJV40otlFtXcwTIwTsFC40h1XrwFZ5w4zd1DKtWtEvuuTPSGZdGA93/Z7U3Yf7NCzi8Md+61/zoo7EDPfA6A==";
         };
+        _q3I0ROmg = {
+            "id" = "q3I0ROmg";
+            "file" = "keybindery-1.5.0+26.3.jar";
+            "hash" = "sha512-ai56GD8PBYDqeyRJxKNW4tIDOW/O+HoOEWsn/Gv1LodfWmyXRF7lc+jWjG+y3ejM0Qv+1mQ1LhDFX8GWUnXWRA==";
+        };
     in {
         "mYTlFYe3" = _mYTlFYe3;
         "4uKEnBmZ" = _4uKEnBmZ;
@@ -68,9 +73,10 @@ let
         "GLEI41Qt" = _GLEI41Qt;
         "CG2bkUEp" = _CG2bkUEp;
         "sXvJwSzU" = _sXvJwSzU;
+        "q3I0ROmg" = _q3I0ROmg;
         "fabric-1.21.11" = _mYTlFYe3;
         "fabric-26.2" = _TOuiXM6l;
-        "fabric-26.3" = _sXvJwSzU;
+        "fabric-26.3" = _q3I0ROmg;
         "pkg-1.0.2" = _mYTlFYe3;
         "pkg-1.0.2+26.2" = _4uKEnBmZ;
         "pkg-1.0.3+26.2" = _uzpBONkD;
@@ -82,7 +88,8 @@ let
         "pkg-1.2.1+26.3" = _GLEI41Qt;
         "pkg-1.2.2+26.3" = _CG2bkUEp;
         "pkg-1.3.0+26.3" = _sXvJwSzU;
-        "default" = _sXvJwSzU;
+        "pkg-1.5.0+26.3" = _q3I0ROmg;
+        "default" = _q3I0ROmg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "keybindery";

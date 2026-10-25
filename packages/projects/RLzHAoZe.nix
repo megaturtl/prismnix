@@ -2651,6 +2651,11 @@ let
             "file" = "Resourcify (26.3-fabric)-1.8.7.jar";
             "hash" = "sha512-mUdE4TaulC9AuFVvlOQoskgJI5ZgZ2HpOUe4+8gUJX5K2hevW9bboYlZL388VkGiBfCKvpC+T9OXMd1p3Q5OdQ==";
         };
+        _ol15YPGp = {
+            "id" = "ol15YPGp";
+            "file" = "Resourcify (26.3-neoforge)-1.8.7.jar";
+            "hash" = "sha512-9qDtACg0t0X33EVoObDV96FpXd/MdarxmvMWj+ZFSBS8V/EjXjnri1hDG6v5LDYOgNoQghm24GD61ggTHjRuEA==";
+        };
     in {
         "ztRaXSvc" = _ztRaXSvc;
         "jgtjWz6E" = _jgtjWz6E;
@@ -3182,6 +3187,7 @@ let
         "6luHOxvR" = _6luHOxvR;
         "BMSGqAJ7" = _BMSGqAJ7;
         "fRxNdO2e" = _fRxNdO2e;
+        "ol15YPGp" = _ol15YPGp;
         "forge-1.8.9" = _9z1sC7BC;
         "forge-1.12.2" = _sl8MXedu;
         "forge-1.16" = _aD8XmRXj;
@@ -3301,6 +3307,7 @@ let
         "neoforge-26.1.1" = _S0pZMui0;
         "neoforge-26.1.2" = _S0pZMui0;
         "neoforge-26.2" = _6luHOxvR;
+        "neoforge-26.3" = _ol15YPGp;
         "pkg-1.0.0" = _IOJCoqKR;
         "pkg-1.0.1" = _PiKwfxXd;
         "pkg-1.1.0" = _lygqd0WO;
@@ -3342,8 +3349,8 @@ let
         "pkg-1.6.2" = _i8DPaDhL;
         "pkg-1.8.5" = _tWL8XHWU;
         "pkg-1.8.6" = _tQuFUT7L;
-        "pkg-1.8.7" = _fRxNdO2e;
-        "default" = _fRxNdO2e;
+        "pkg-1.8.7" = _ol15YPGp;
+        "default" = _ol15YPGp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "resourcify";

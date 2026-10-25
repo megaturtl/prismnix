@@ -201,6 +201,46 @@ let
             "file" = "fine_tuned_weaponry-neoforge-1.21.1-2.3.1.jar";
             "hash" = "sha512-RyJHjlGV8zjhx/5Z3X/fymvGmaf9mUs/bCZzZ0qUwfaRRhJAXJ5soWzjQfGNtp4nvo7Jp4olsJw5cg2Oz6dYpw==";
         };
+        _2QKqDUrV = {
+            "id" = "2QKqDUrV";
+            "file" = "runeborn-fabric-1.20.1-3.0.0.jar";
+            "hash" = "sha512-nZJro80P6V7mrHGOjp18OQyTJ42TFsnR+L9AJsMvGezecwTT9EAQRFBjDfCz2NLl/RHQ0wPSLZdA5+NaujUvIg==";
+        };
+        _neUsIuXQ = {
+            "id" = "neUsIuXQ";
+            "file" = "runeborn-fabric-1.21.1-3.0.0.jar";
+            "hash" = "sha512-3uUmkrJh7pj308wumoad1aU9vOVYthcrK6Ufkg/YF5ENzOv4JrFvcAHjteDRZo6d/NwmqV2FPbs4rFDaN/BzQA==";
+        };
+        _D8icTO2e = {
+            "id" = "D8icTO2e";
+            "file" = "runeborn-fabric-26.2-3.0.0.jar";
+            "hash" = "sha512-7va16D4tLyg+Q96MXdP4HKPh1C8fzp/76/DQVgLtHJmdQcdA2FLXhHdgeFKX5QBFjsK0Ggv4kjSPKEHVVseH+Q==";
+        };
+        _QWYVRIu2 = {
+            "id" = "QWYVRIu2";
+            "file" = "runeborn-fabric-26.3-3.0.0.jar";
+            "hash" = "sha512-BEQC9R14Xeh9DPo7t5lCvY+e7ydS/l02yMuHLgBQE/pXgNut1jPutlcm0gxLyUKYKXQCszVghJnWXEpu/EOmrw==";
+        };
+        _qdkH9Yw5 = {
+            "id" = "qdkH9Yw5";
+            "file" = "runeborn-forge-1.20.1-3.0.0.jar";
+            "hash" = "sha512-I6kmuTbd5ZIM4viNxdnaqoPdVImQLYfKGV6lJFa7HpBvCE+zdIYGumpm1OmRKbbWNwrJ/VDkSfw2Eyl4abYV4Q==";
+        };
+        _9IohPC6P = {
+            "id" = "9IohPC6P";
+            "file" = "runeborn-neoforge-1.21.1-3.0.0.jar";
+            "hash" = "sha512-NznkDSD/Cex6FwYiTYBLXXOzc1TbpBP7SDZAmxbw8s61200myTK/BqWOlRF/ZW30w7o+r3j9YypHDM9paWJ5TA==";
+        };
+        _jNg5Cmu2 = {
+            "id" = "jNg5Cmu2";
+            "file" = "runeborn-neoforge-26.2-3.0.0.jar";
+            "hash" = "sha512-8Z5A3xNSbA91F2j/4wMn9EC7O7d+Lvp+J+5ij/ErUrRuhkPb393U7ig8hDflNIEALrPs9+vT7aWgEVQWbTMrtQ==";
+        };
+        _1WUa6wA0 = {
+            "id" = "1WUa6wA0";
+            "file" = "runeborn-neoforge-26.3-3.0.0.jar";
+            "hash" = "sha512-KUx9BTg91xcnaf7F3orU0lJDWHcW60eQQA6CIVgK/SJqRszEl1iYWLiCOtJqd5DyJcOyIIKv4gvZAKYs7Z5YPA==";
+        };
     in {
         "5DYjOv2n" = _5DYjOv2n;
         "Sj8aMdYT" = _Sj8aMdYT;
@@ -242,12 +282,24 @@ let
         "VqiddKbp" = _VqiddKbp;
         "54l5mZxV" = _54l5mZxV;
         "rWxxuFN2" = _rWxxuFN2;
-        "forge-1.20.1" = _VqiddKbp;
+        "2QKqDUrV" = _2QKqDUrV;
+        "neUsIuXQ" = _neUsIuXQ;
+        "D8icTO2e" = _D8icTO2e;
+        "QWYVRIu2" = _QWYVRIu2;
+        "qdkH9Yw5" = _qdkH9Yw5;
+        "9IohPC6P" = _9IohPC6P;
+        "jNg5Cmu2" = _jNg5Cmu2;
+        "1WUa6wA0" = _1WUa6wA0;
+        "forge-1.20.1" = _qdkH9Yw5;
         "forge-1.19.2" = _jjhEYKya;
         "neoforge-1.20.1" = _DL7FOmEA;
-        "neoforge-1.21.1" = _rWxxuFN2;
-        "fabric-1.20.1" = _H02GmlxD;
-        "fabric-1.21.1" = _54l5mZxV;
+        "neoforge-1.21.1" = _9IohPC6P;
+        "neoforge-26.2" = _jNg5Cmu2;
+        "neoforge-26.3" = _1WUa6wA0;
+        "fabric-1.20.1" = _2QKqDUrV;
+        "fabric-1.21.1" = _neUsIuXQ;
+        "fabric-26.2" = _D8icTO2e;
+        "fabric-26.3" = _QWYVRIu2;
         "pkg-0.1.0" = _5DYjOv2n;
         "pkg-1.0.0" = _OveyuwBL;
         "pkg-1.1.0" = _U9t9hVM4;
@@ -268,7 +320,15 @@ let
         "pkg-2.3.1+forge-1.20.1" = _VqiddKbp;
         "pkg-2.3.1+fabric-1.21.1" = _54l5mZxV;
         "pkg-2.3.1+neoforge-1.21.1" = _rWxxuFN2;
-        "default" = _rWxxuFN2;
+        "pkg-3.0.0+fabric-1.20.1" = _2QKqDUrV;
+        "pkg-3.0.0+fabric-1.21.1" = _neUsIuXQ;
+        "pkg-3.0.0+fabric-26.2" = _D8icTO2e;
+        "pkg-3.0.0+fabric-26.3" = _QWYVRIu2;
+        "pkg-3.0.0+forge-1.20.1" = _qdkH9Yw5;
+        "pkg-3.0.0+neoforge-1.21.1" = _9IohPC6P;
+        "pkg-3.0.0+neoforge-26.2" = _jNg5Cmu2;
+        "pkg-3.0.0+neoforge-26.3" = _1WUa6wA0;
+        "default" = _1WUa6wA0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fine-tunned-weaponry";

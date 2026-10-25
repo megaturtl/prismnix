@@ -21,17 +21,30 @@ let
             "file" = "skyfront-forge-1.20.1-1.4.0.jar";
             "hash" = "sha512-2XITESeYQYV4e3lir79gUiw1I+MozzFzPfi+ITzoON3ri5kcc59UDydWEPmhlz0jJ4T6IrzdfxvlS9ml8/1pcg==";
         };
+        _kgIOOvmP = {
+            "id" = "kgIOOvmP";
+            "file" = "skyfront-1.21.1-1.5.0.jar";
+            "hash" = "sha512-dm2MOJB1cxBUwJhl+lzG5ICVVRcb7abk9W3L4UR/2XPq4NJS9dycazdEKhWaWE+vag/MMmfeNQ1yCD2Hl2vsCw==";
+        };
+        _POPWIciN = {
+            "id" = "POPWIciN";
+            "file" = "skyfront-1.20.1-1.5.0.jar";
+            "hash" = "sha512-Q6JVkr7y+1Pujfz2K5etCm/z4A9zGtxA1XGV1ZbNxtQIQ1lEBXmBdGSa23abiY/Gkp9Y7IcjEqCml94heuoRzQ==";
+        };
     in {
         "d9Ekb5Ya" = _d9Ekb5Ya;
         "msIfFGBy" = _msIfFGBy;
         "fjeV1Wwj" = _fjeV1Wwj;
         "wQ5BWZ8z" = _wQ5BWZ8z;
-        "forge-1.20.1" = _wQ5BWZ8z;
-        "neoforge-1.21.1" = _fjeV1Wwj;
+        "kgIOOvmP" = _kgIOOvmP;
+        "POPWIciN" = _POPWIciN;
+        "forge-1.20.1" = _POPWIciN;
+        "neoforge-1.21.1" = _kgIOOvmP;
         "pkg-1.0.0" = _d9Ekb5Ya;
         "pkg-1.2.0" = _msIfFGBy;
         "pkg-1.4.0" = _wQ5BWZ8z;
-        "default" = _wQ5BWZ8z;
+        "pkg-1.5.0" = _POPWIciN;
+        "default" = _POPWIciN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shahed";

@@ -61,6 +61,11 @@ let
             "file" = "Fresh Ores and Ingots.zip";
             "hash" = "sha512-q4Ikqh1AUcIMImzC4LE2l8mj2TLHR7OKS7lyQkdKnQ5YI8BX9Xf562tOv/Xsp4Pz9Tv2mCylhLEbyL25nvMHcg==";
         };
+        _18VpiQGX = {
+            "id" = "18VpiQGX";
+            "file" = "Fresh Ores and Ingots.zip";
+            "hash" = "sha512-kd5nSZAdDUgBSEBHXhAm3pUgSmipwVtyPj7krhpORgwu9n+WK1KzC75hndjaSuvJmfz9u3w/p2z6koy7FjxXuQ==";
+        };
     in {
         "wQU6V5uE" = _wQU6V5uE;
         "kmok6D7E" = _kmok6D7E;
@@ -74,23 +79,24 @@ let
         "bZaAnvEm" = _bZaAnvEm;
         "w6xtmOID" = _w6xtmOID;
         "dAIKCjx3" = _dAIKCjx3;
-        "minecraft-1.21.4" = _dAIKCjx3;
-        "minecraft-1.21.5" = _dAIKCjx3;
-        "minecraft-1.21.6" = _dAIKCjx3;
-        "minecraft-1.21.7" = _dAIKCjx3;
-        "minecraft-1.21.8" = _dAIKCjx3;
-        "minecraft-1.20.1" = _dAIKCjx3;
-        "minecraft-1.21" = _dAIKCjx3;
-        "minecraft-1.21.1" = _dAIKCjx3;
-        "minecraft-1.21.9" = _dAIKCjx3;
-        "minecraft-1.21.10" = _dAIKCjx3;
-        "minecraft-1.21.11" = _dAIKCjx3;
-        "minecraft-1.21.2" = _dAIKCjx3;
-        "minecraft-26.1" = _dAIKCjx3;
-        "minecraft-26.1.1" = _dAIKCjx3;
-        "minecraft-26.1.2" = _dAIKCjx3;
-        "minecraft-26.2" = _dAIKCjx3;
-        "minecraft-26.3" = _dAIKCjx3;
+        "18VpiQGX" = _18VpiQGX;
+        "minecraft-1.21.4" = _18VpiQGX;
+        "minecraft-1.21.5" = _18VpiQGX;
+        "minecraft-1.21.6" = _18VpiQGX;
+        "minecraft-1.21.7" = _18VpiQGX;
+        "minecraft-1.21.8" = _18VpiQGX;
+        "minecraft-1.20.1" = _18VpiQGX;
+        "minecraft-1.21" = _18VpiQGX;
+        "minecraft-1.21.1" = _18VpiQGX;
+        "minecraft-1.21.9" = _18VpiQGX;
+        "minecraft-1.21.10" = _18VpiQGX;
+        "minecraft-1.21.11" = _18VpiQGX;
+        "minecraft-1.21.2" = _18VpiQGX;
+        "minecraft-26.1" = _18VpiQGX;
+        "minecraft-26.1.1" = _18VpiQGX;
+        "minecraft-26.1.2" = _18VpiQGX;
+        "minecraft-26.2" = _18VpiQGX;
+        "minecraft-26.3" = _18VpiQGX;
         "pkg-1.0" = _wQU6V5uE;
         "pkg-1.0.1" = _CH9ottG2;
         "pkg-1.1" = _NqiQJbNj;
@@ -102,7 +108,8 @@ let
         "pkg-1.2.5" = _bZaAnvEm;
         "pkg-1.2.6" = _w6xtmOID;
         "pkg-1.2.7" = _dAIKCjx3;
-        "default" = _dAIKCjx3;
+        "pkg-1.2.8" = _18VpiQGX;
+        "default" = _18VpiQGX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fresh-ores-and-ingots";

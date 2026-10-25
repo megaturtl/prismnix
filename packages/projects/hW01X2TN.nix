@@ -21,11 +21,17 @@ let
             "file" = "visual-ratio-1.1.3.jar";
             "hash" = "sha512-zG0cXpRbJQso4oquudTmyL1czgbna6S42vhdp5Bw0OeL20ojIzzTDpfkiGQFZ0nRprf6QPvMA/SxRo0cCawRFA==";
         };
+        _D3n60zMw = {
+            "id" = "D3n60zMw";
+            "file" = "visual-ratio-1.1.4.jar";
+            "hash" = "sha512-EUd6IOFj1uby6Pl2VJDbjGdCktFjrkSY7sBBGXdXNslvdMjIIHucyHxNtjKnwCprxC7M+fHoQMHPG4Al2n//NA==";
+        };
     in {
         "iFxDF3DV" = _iFxDF3DV;
         "mpolBth4" = _mpolBth4;
         "6KgJTRbj" = _6KgJTRbj;
         "r9uJhC8e" = _r9uJhC8e;
+        "D3n60zMw" = _D3n60zMw;
         "fabric-1.21.8" = _iFxDF3DV;
         "fabric-1.21.9" = _iFxDF3DV;
         "fabric-1.21.10" = _iFxDF3DV;
@@ -34,11 +40,13 @@ let
         "fabric-26.1.1" = _6KgJTRbj;
         "fabric-26.1.2" = _6KgJTRbj;
         "fabric-26.2" = _r9uJhC8e;
+        "fabric-26.3" = _D3n60zMw;
         "pkg-1.0.0" = _iFxDF3DV;
         "pkg-1.1.1" = _mpolBth4;
         "pkg-1.1.2" = _6KgJTRbj;
         "pkg-1.1.3" = _r9uJhC8e;
-        "default" = _r9uJhC8e;
+        "pkg-1.1.4" = _D3n60zMw;
+        "default" = _D3n60zMw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "visual-ratio";

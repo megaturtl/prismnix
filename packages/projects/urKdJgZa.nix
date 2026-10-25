@@ -41,6 +41,16 @@ let
             "file" = "super-hero-mod-2.0.4-snapshot.3.jar";
             "hash" = "sha512-EjwloYhrEky1dBaYkJsB5dTGc9FBlJ8hit1rV7h83gGwFcL7NZOUoR9ML+knZLl3Iy+k1MHe5gOP4CyKY52pEw==";
         };
+        _SudTeAIP = {
+            "id" = "SudTeAIP";
+            "file" = "super-hero-mod-2.0.4-snapshot.4.jar";
+            "hash" = "sha512-9Cq13Zzz1CjlueUQJ7rx3hMLqSVxbkZSiENfGIyf/GVF6FeISbMCF5iZ/LdRUCYFoJCFaKlsODmGrIIl5ILH4A==";
+        };
+        _6Z4lQlG9 = {
+            "id" = "6Z4lQlG9";
+            "file" = "super-hero-mod-2.0.4-snapshot.5.jar";
+            "hash" = "sha512-HpGxvqu1UYppZT9SA1mwzYCGJVnuD8ClZHzPm0gzuMdI6K3t3d9beTaI8yJTGvEWZgxKsHbPY1J0HictkpptFA==";
+        };
     in {
         "E3jax9kE" = _E3jax9kE;
         "5QM6alPh" = _5QM6alPh;
@@ -50,8 +60,10 @@ let
         "PboauqdG" = _PboauqdG;
         "19gP06sa" = _19gP06sa;
         "dDF4wLaK" = _dDF4wLaK;
+        "SudTeAIP" = _SudTeAIP;
+        "6Z4lQlG9" = _6Z4lQlG9;
         "fabric-1.21.4" = _E3jax9kE;
-        "fabric-26.2" = _dDF4wLaK;
+        "fabric-26.2" = _6Z4lQlG9;
         "pkg-1.0.0" = _E3jax9kE;
         "pkg-2.0.0" = _5QM6alPh;
         "pkg-2.0.1" = _sV7hWarI;
@@ -60,7 +72,9 @@ let
         "pkg-2.0.4-snapshot.1" = _PboauqdG;
         "pkg-2.0.4-snapshot.2" = _19gP06sa;
         "pkg-2.0.4-snapshot.3" = _dDF4wLaK;
-        "default" = _dDF4wLaK;
+        "pkg-2.0.4-snapshot.4" = _SudTeAIP;
+        "pkg-2.0.4-snapshot.5" = _6Z4lQlG9;
+        "default" = _6Z4lQlG9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "light-super-hero-mod";

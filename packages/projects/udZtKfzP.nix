@@ -176,6 +176,11 @@ let
             "file" = "neoecoae-21.2.9.jar";
             "hash" = "sha512-NSfxsOFbP11QoSVwctpyqP2G/OP7VVcqZ5l58Dsjwh1jQJnzEzHCUKliqS2U5MS2XZGR0W7wVsngXC4SBcgKfw==";
         };
+        _kzNgvnUI = {
+            "id" = "kzNgvnUI";
+            "file" = "neoecoae-21.2.10.jar";
+            "hash" = "sha512-RPlkCB2w3oZLKNktSKf3HNmLuQdE6lRZzYeZQQJkbJSkzBphzf9GvNBmdrq0AvRX8yWWdkA9IKH7XpF9/OM6ww==";
+        };
     in {
         "fk6J0mSI" = _fk6J0mSI;
         "Fgo9rAPU" = _Fgo9rAPU;
@@ -212,7 +217,8 @@ let
         "oDsj8gNb" = _oDsj8gNb;
         "bj6yJnY0" = _bj6yJnY0;
         "26GPFo2j" = _26GPFo2j;
-        "neoforge-1.21.1" = _26GPFo2j;
+        "kzNgvnUI" = _kzNgvnUI;
+        "neoforge-1.21.1" = _kzNgvnUI;
         "forge-1.20.1" = _Qm3GW128;
         "pkg-1.0.0" = _fk6J0mSI;
         "pkg-1.1.0" = _Fgo9rAPU;
@@ -248,7 +254,8 @@ let
         "pkg-21.2.7" = _oDsj8gNb;
         "pkg-21.2.8" = _bj6yJnY0;
         "pkg-21.2.9" = _26GPFo2j;
-        "default" = _26GPFo2j;
+        "pkg-21.2.10" = _kzNgvnUI;
+        "default" = _kzNgvnUI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "neoecoae";

@@ -51,6 +51,11 @@ let
             "file" = "change_of_cart-1.21.1-3.0.0.jar";
             "hash" = "sha512-XDuDXFx0wOIEUtTw/pv1EJqm+qRx2NoYXlyEnhRfKwZQqJ1/azr3sOEAc8y3i0yd0XTVFxf9Ut7Bsfa4q8fGGQ==";
         };
+        _LiuUKJJd = {
+            "id" = "LiuUKJJd";
+            "file" = "change_of_cart-1.21.1-3.0.1.jar";
+            "hash" = "sha512-AtStFaQwCV27D0SzYR3bKBRwEDrIEsl6SWpK2TziJRuUvnQZdyi+64dystIlUg2QzKdWIifBAK39LKlbzn++3A==";
+        };
     in {
         "TyBTztAN" = _TyBTztAN;
         "RJwev15E" = _RJwev15E;
@@ -62,10 +67,11 @@ let
         "MG1mojaL" = _MG1mojaL;
         "6DcTWPHt" = _6DcTWPHt;
         "NewKETKl" = _NewKETKl;
+        "LiuUKJJd" = _LiuUKJJd;
         "forge-1.19.2" = _itU8qkwl;
         "forge-1.20.1" = _6DcTWPHt;
         "neoforge-1.20.1" = _6DcTWPHt;
-        "neoforge-1.21.1" = _NewKETKl;
+        "neoforge-1.21.1" = _LiuUKJJd;
         "pkg-1.0.0" = _TyBTztAN;
         "pkg-1.1.0" = _RJwev15E;
         "pkg-2.0.0" = _GK9ZQET0;
@@ -76,7 +82,8 @@ let
         "pkg-2.1.3" = _MG1mojaL;
         "pkg-2.1.4" = _6DcTWPHt;
         "pkg-3.0.0" = _NewKETKl;
-        "default" = _NewKETKl;
+        "pkg-3.0.1" = _LiuUKJJd;
+        "default" = _LiuUKJJd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "change-of-cart";

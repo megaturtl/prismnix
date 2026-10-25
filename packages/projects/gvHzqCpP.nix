@@ -106,6 +106,11 @@ let
             "file" = "more-trim-materials-26.2-1.3.0.zip";
             "hash" = "sha512-74y7Zy7rzzcDNf1I/cY/hDsaJ1ymUUKr5kyxrFQ8Ec44aOVC0z8mLi4BRg3Uu2jOg3JFusUGHG52bi3xLnFPWA==";
         };
+        _MWEpgF2S = {
+            "id" = "MWEpgF2S";
+            "file" = "more-trim-materials-26.3-1.3.1.zip";
+            "hash" = "sha512-i28YbWMC8zfbtpua97xWZFzMOk7L/940ZhNsEFrWD888ETj8ByjAJB+wD94mpDcWB7Ty8SldNcOhKzIs/I3IOw==";
+        };
     in {
         "jbie1MV6" = _jbie1MV6;
         "fOHTOLxl" = _fOHTOLxl;
@@ -128,6 +133,7 @@ let
         "r6ug3Gnu" = _r6ug3Gnu;
         "iouTtfmg" = _iouTtfmg;
         "22y3pVNd" = _22y3pVNd;
+        "MWEpgF2S" = _MWEpgF2S;
         "datapack-24w21a" = _jbie1MV6;
         "datapack-24w21b" = _jbie1MV6;
         "datapack-1.21-pre1" = _jbie1MV6;
@@ -180,7 +186,7 @@ let
         "datapack-1.21.5-pre3" = _iouTtfmg;
         "datapack-1.21.5-rc1" = _iouTtfmg;
         "datapack-1.21.5-rc2" = _iouTtfmg;
-        "datapack-1.21.5" = _22y3pVNd;
+        "datapack-1.21.5" = _MWEpgF2S;
         "datapack-25w14craftmine" = _iouTtfmg;
         "datapack-25w15a" = _iouTtfmg;
         "datapack-25w16a" = _iouTtfmg;
@@ -194,12 +200,12 @@ let
         "datapack-1.21.6-pre3" = _iouTtfmg;
         "datapack-1.21.6-pre4" = _iouTtfmg;
         "datapack-1.21.6-rc1" = _iouTtfmg;
-        "datapack-1.21.6" = _22y3pVNd;
+        "datapack-1.21.6" = _MWEpgF2S;
         "datapack-1.21.7-rc1" = _iouTtfmg;
         "datapack-1.21.7-rc2" = _iouTtfmg;
-        "datapack-1.21.7" = _22y3pVNd;
+        "datapack-1.21.7" = _MWEpgF2S;
         "datapack-1.21.8-rc1" = _iouTtfmg;
-        "datapack-1.21.8" = _22y3pVNd;
+        "datapack-1.21.8" = _MWEpgF2S;
         "datapack-25w31a" = _iouTtfmg;
         "datapack-25w32a" = _iouTtfmg;
         "datapack-25w33a" = _iouTtfmg;
@@ -214,9 +220,9 @@ let
         "datapack-1.21.9-pre3" = _iouTtfmg;
         "datapack-1.21.9-pre4" = _iouTtfmg;
         "datapack-1.21.9-rc1" = _iouTtfmg;
-        "datapack-1.21.9" = _22y3pVNd;
+        "datapack-1.21.9" = _MWEpgF2S;
         "datapack-1.21.10-rc1" = _iouTtfmg;
-        "datapack-1.21.10" = _22y3pVNd;
+        "datapack-1.21.10" = _MWEpgF2S;
         "datapack-25w41a" = _iouTtfmg;
         "datapack-25w42a" = _iouTtfmg;
         "datapack-25w43a" = _iouTtfmg;
@@ -231,7 +237,7 @@ let
         "datapack-1.21.11-rc1" = _iouTtfmg;
         "datapack-1.21.11-rc2" = _iouTtfmg;
         "datapack-1.21.11-rc3" = _iouTtfmg;
-        "datapack-1.21.11" = _22y3pVNd;
+        "datapack-1.21.11" = _MWEpgF2S;
         "datapack-26.1-snapshot-1" = _iouTtfmg;
         "datapack-26.1-snapshot-2" = _iouTtfmg;
         "datapack-26.1-snapshot-3" = _iouTtfmg;
@@ -249,13 +255,13 @@ let
         "datapack-26.1-rc-1" = _iouTtfmg;
         "datapack-26.1-rc-2" = _iouTtfmg;
         "datapack-26.1-rc-3" = _iouTtfmg;
-        "datapack-26.1" = _22y3pVNd;
+        "datapack-26.1" = _MWEpgF2S;
         "datapack-26.1.1-rc-1" = _iouTtfmg;
-        "datapack-26.1.1" = _22y3pVNd;
+        "datapack-26.1.1" = _MWEpgF2S;
         "datapack-26w14a" = _iouTtfmg;
         "datapack-26.2-snapshot-1" = _iouTtfmg;
         "datapack-26.1.2-rc-1" = _iouTtfmg;
-        "datapack-26.1.2" = _22y3pVNd;
+        "datapack-26.1.2" = _MWEpgF2S;
         "datapack-26.2-snapshot-2" = _iouTtfmg;
         "datapack-26.2-snapshot-3" = _iouTtfmg;
         "datapack-26.2-snapshot-4" = _iouTtfmg;
@@ -271,7 +277,8 @@ let
         "datapack-26.2-pre-6" = _iouTtfmg;
         "datapack-26.2-rc-1" = _iouTtfmg;
         "datapack-26.2-rc-2" = _iouTtfmg;
-        "datapack-26.2" = _22y3pVNd;
+        "datapack-26.2" = _MWEpgF2S;
+        "datapack-26.3" = _MWEpgF2S;
         "minecraft-24w21a" = _jbie1MV6;
         "minecraft-24w21b" = _jbie1MV6;
         "minecraft-1.21-pre1" = _jbie1MV6;
@@ -437,7 +444,8 @@ let
         "pkg-26.2-1.2.8" = _r6ug3Gnu;
         "pkg-26.2-1.2.9" = _iouTtfmg;
         "pkg-26.2-1.3.0" = _22y3pVNd;
-        "default" = _22y3pVNd;
+        "pkg-26.3-1.3.1" = _MWEpgF2S;
+        "default" = _MWEpgF2S;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-trim-materials-dp";

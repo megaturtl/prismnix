@@ -481,6 +481,16 @@ let
             "file" = "recipes-plus-1.8.7+backport.jar";
             "hash" = "sha512-aGjmuvsdz1K0uhhLlE5IKkaCluwrpi7NKrduIbqqkHiS7Ls2qa+enL+Me1rkViouNPhtTkb71Qh/RuWfROyi5Q==";
         };
+        _qEQtfC5Z = {
+            "id" = "qEQtfC5Z";
+            "file" = "recipes_plus.zip";
+            "hash" = "sha512-l1nNnCamaf+P9XHx12X6kV4X/GTKi/rvJD/v/bsboxRkIZM/Hsny6RCPSxf3siiszt20OYYfZIWPDYZdRwDNwA==";
+        };
+        _qvOq1VQF = {
+            "id" = "qvOq1VQF";
+            "file" = "recipes-plus-1.8.8.jar";
+            "hash" = "sha512-1vk/UrVmH5Lm5GCxpAYU5o3y1U7l0eItFg3iN+02ru074wS6KAcCDsDScS1k71Lxyjbwa0YTqLrdr1stKcbB9A==";
+        };
     in {
         "MnekBwlC" = _MnekBwlC;
         "cWv1yVzi" = _cWv1yVzi;
@@ -578,6 +588,8 @@ let
         "EWIpaGka" = _EWIpaGka;
         "i5fglCti" = _i5fglCti;
         "otedEDPB" = _otedEDPB;
+        "qEQtfC5Z" = _qEQtfC5Z;
+        "qvOq1VQF" = _qvOq1VQF;
         "datapack-1.15" = _Mh9Jbuwo;
         "datapack-1.15.1" = _Mh9Jbuwo;
         "datapack-1.15.2" = _Mh9Jbuwo;
@@ -657,6 +669,12 @@ let
         "datapack-1.20.3-pre2" = _i5fglCti;
         "datapack-1.20.3-pre3" = _i5fglCti;
         "datapack-1.20.3-pre4" = _i5fglCti;
+        "datapack-26.3" = _qEQtfC5Z;
+        "datapack-26.4-snapshot-1" = _qEQtfC5Z;
+        "datapack-26.4-snapshot-2" = _qEQtfC5Z;
+        "datapack-26.4-snapshot-3" = _qEQtfC5Z;
+        "datapack-26.4-snapshot-4" = _qEQtfC5Z;
+        "datapack-26.4-snapshot-5" = _qEQtfC5Z;
         "fabric-1.15" = _2esMfqkO;
         "fabric-1.15.1" = _2esMfqkO;
         "fabric-1.15.2" = _2esMfqkO;
@@ -736,6 +754,12 @@ let
         "fabric-1.20.3-pre2" = _otedEDPB;
         "fabric-1.20.3-pre3" = _otedEDPB;
         "fabric-1.20.3-pre4" = _otedEDPB;
+        "fabric-26.3" = _qvOq1VQF;
+        "fabric-26.4-snapshot-1" = _qvOq1VQF;
+        "fabric-26.4-snapshot-2" = _qvOq1VQF;
+        "fabric-26.4-snapshot-3" = _qvOq1VQF;
+        "fabric-26.4-snapshot-4" = _qvOq1VQF;
+        "fabric-26.4-snapshot-5" = _qvOq1VQF;
         "forge-1.15" = _2esMfqkO;
         "forge-1.15.1" = _2esMfqkO;
         "forge-1.15.2" = _2esMfqkO;
@@ -815,6 +839,12 @@ let
         "forge-1.20.3-pre2" = _otedEDPB;
         "forge-1.20.3-pre3" = _otedEDPB;
         "forge-1.20.3-pre4" = _otedEDPB;
+        "forge-26.3" = _qvOq1VQF;
+        "forge-26.4-snapshot-1" = _qvOq1VQF;
+        "forge-26.4-snapshot-2" = _qvOq1VQF;
+        "forge-26.4-snapshot-3" = _qvOq1VQF;
+        "forge-26.4-snapshot-4" = _qvOq1VQF;
+        "forge-26.4-snapshot-5" = _qvOq1VQF;
         "quilt-1.15" = _2esMfqkO;
         "quilt-1.15.1" = _2esMfqkO;
         "quilt-1.15.2" = _2esMfqkO;
@@ -894,6 +924,12 @@ let
         "quilt-1.20.3-pre2" = _otedEDPB;
         "quilt-1.20.3-pre3" = _otedEDPB;
         "quilt-1.20.3-pre4" = _otedEDPB;
+        "quilt-26.3" = _qvOq1VQF;
+        "quilt-26.4-snapshot-1" = _qvOq1VQF;
+        "quilt-26.4-snapshot-2" = _qvOq1VQF;
+        "quilt-26.4-snapshot-3" = _qvOq1VQF;
+        "quilt-26.4-snapshot-4" = _qvOq1VQF;
+        "quilt-26.4-snapshot-5" = _qvOq1VQF;
         "neoforge-1.15" = _2esMfqkO;
         "neoforge-1.15.1" = _2esMfqkO;
         "neoforge-1.15.2" = _2esMfqkO;
@@ -973,6 +1009,12 @@ let
         "neoforge-1.20.3-pre2" = _otedEDPB;
         "neoforge-1.20.3-pre3" = _otedEDPB;
         "neoforge-1.20.3-pre4" = _otedEDPB;
+        "neoforge-26.3" = _qvOq1VQF;
+        "neoforge-26.4-snapshot-1" = _qvOq1VQF;
+        "neoforge-26.4-snapshot-2" = _qvOq1VQF;
+        "neoforge-26.4-snapshot-3" = _qvOq1VQF;
+        "neoforge-26.4-snapshot-4" = _qvOq1VQF;
+        "neoforge-26.4-snapshot-5" = _qvOq1VQF;
         "pkg-0.4" = _MnekBwlC;
         "pkg-0.4+mod" = _cWv1yVzi;
         "pkg-0.4.1" = _NMnJGpQJ;
@@ -1069,7 +1111,9 @@ let
         "pkg-1.8.7+mod" = _EWIpaGka;
         "pkg-1.8.7+backport_(!incomplete)" = _i5fglCti;
         "pkg-1.8.7+backport+mod_(!incomplete)" = _otedEDPB;
-        "default" = _otedEDPB;
+        "pkg-1.8.8" = _qEQtfC5Z;
+        "pkg-1.8.8+mod" = _qvOq1VQF;
+        "default" = _qvOq1VQF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "recipes-plus";

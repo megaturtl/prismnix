@@ -81,6 +81,16 @@ let
             "file" = "create_cheese_factory-1.5.0-neoforge-1.21.1.jar";
             "hash" = "sha512-PkH92qwZ9j8v9mD7h56SLquU3quRdLrq9p+sAng9hUzxWSqu/FKKOHwACPxnhGTUoaJr+5v8/v9g2BCKYiG2Ng==";
         };
+        _c8fZ4OIL = {
+            "id" = "c8fZ4OIL";
+            "file" = "create_cheese_factory-1.5.1-forge-1.20.1.jar";
+            "hash" = "sha512-jyUldoylE9rDtlefi8epCQBtvZwpT0SjCQ4oUQqvdy/O5ilb+tdVcu2/8npBlZd/3lEgmewxTtKvgt18KKp5JQ==";
+        };
+        _nCBJh4ds = {
+            "id" = "nCBJh4ds";
+            "file" = "create_cheese_factory-1.5.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-We1tgoVvwUzGFmKzcFiH+KICCaxeynELyvQ49QPgLU6KayvZqnjR9HQbwWi2DvdkFm71fP7lWHgqK+mQbUUwXQ==";
+        };
     in {
         "vYy9gVkf" = _vYy9gVkf;
         "PohWPR8A" = _PohWPR8A;
@@ -98,23 +108,26 @@ let
         "p5PLPbLP" = _p5PLPbLP;
         "OmSlVhUd" = _OmSlVhUd;
         "ypKQ14L3" = _ypKQ14L3;
+        "c8fZ4OIL" = _c8fZ4OIL;
+        "nCBJh4ds" = _nCBJh4ds;
         "forge-1.18.2" = _UIpkWFgd;
         "forge-1.19.2" = _tjZfcFG1;
-        "forge-1.20" = _OmSlVhUd;
-        "forge-1.20.1" = _OmSlVhUd;
-        "neoforge-1.20" = _OmSlVhUd;
-        "neoforge-1.20.1" = _OmSlVhUd;
+        "forge-1.20" = _c8fZ4OIL;
+        "forge-1.20.1" = _c8fZ4OIL;
+        "neoforge-1.20" = _c8fZ4OIL;
+        "neoforge-1.20.1" = _c8fZ4OIL;
         "neoforge-1.18.2" = _UIpkWFgd;
         "neoforge-1.19.2" = _tjZfcFG1;
-        "neoforge-1.21" = _ypKQ14L3;
-        "neoforge-1.21.1" = _ypKQ14L3;
+        "neoforge-1.21" = _nCBJh4ds;
+        "neoforge-1.21.1" = _nCBJh4ds;
         "pkg-1.0.0" = _Is7qDVMT;
         "pkg-1.1.0" = _NQDuKnhx;
         "pkg-1.2.0" = _aNcMg0O6;
         "pkg-1.3.0" = _fZ6VFiAd;
         "pkg-1.4.0" = _p5PLPbLP;
         "pkg-1.5.0" = _ypKQ14L3;
-        "default" = _ypKQ14L3;
+        "pkg-1.5.1" = _nCBJh4ds;
+        "default" = _nCBJh4ds;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-cheese";

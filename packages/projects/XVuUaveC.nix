@@ -46,6 +46,26 @@ let
             "file" = "DarkClient-0.10.4+1.21.11.jar";
             "hash" = "sha512-1bQ7n3dWw1qt7lcFbX7Tz//fWDiobrrxolPELeEcsf+zXZK9b10bSQuH1W/9NwNiCE7cdq8x/tpO0Ihns7/rRg==";
         };
+        _2gZGv1rc = {
+            "id" = "2gZGv1rc";
+            "file" = "DarkClient-1.2.0+26.2.jar";
+            "hash" = "sha512-J6jlcEbaNYzqS/5ZZl6RbKqqQEp3l4btu2Xi4I5YuJcbV0lxyRZ/znbNZhKtFzVIlWarZlAqBW3mSGGMdoz3ng==";
+        };
+        _KSuyCJSg = {
+            "id" = "KSuyCJSg";
+            "file" = "DarkClient-1.2.0+1.21.11.jar";
+            "hash" = "sha512-nk7znZD0aUozn/w/9nvgH35a6IP6PsHbiKBJXMWaY+pu2WG8ZBeIqP6d7Zyrl+T+343t9XKalJgHD4dQtSG1/A==";
+        };
+        _JUMXCwqG = {
+            "id" = "JUMXCwqG";
+            "file" = "DarkClient-1.2.1+26.2.jar";
+            "hash" = "sha512-BYPFnL80hOqQPXpzfSCfPG+ealB5mnmA9rxENeEHYNJHRix/B9P2OAxft8Jf3kBpFLtJcgATQ2OBLqO9bzaGkg==";
+        };
+        _qVqSv7uK = {
+            "id" = "qVqSv7uK";
+            "file" = "DarkClient-1.2.1+1.21.11.jar";
+            "hash" = "sha512-F0oWCPbY98Oef7Cp5VAvK7UubSHr232uPuqNmwPfHAkXXtrX4Ebn8LiiXu724W/BShBEvaG/22r8Mr894B5ZdA==";
+        };
     in {
         "QCQiXeOO" = _QCQiXeOO;
         "YuDhIGmV" = _YuDhIGmV;
@@ -56,8 +76,12 @@ let
         "NrFaL7b3" = _NrFaL7b3;
         "eG9wNRMb" = _eG9wNRMb;
         "wBUcabi9" = _wBUcabi9;
-        "fabric-1.21.11" = _wBUcabi9;
-        "fabric-26.2" = _eG9wNRMb;
+        "2gZGv1rc" = _2gZGv1rc;
+        "KSuyCJSg" = _KSuyCJSg;
+        "JUMXCwqG" = _JUMXCwqG;
+        "qVqSv7uK" = _qVqSv7uK;
+        "fabric-1.21.11" = _qVqSv7uK;
+        "fabric-26.2" = _JUMXCwqG;
         "pkg-1.0.0" = _QCQiXeOO;
         "pkg-1.0.1" = _YuDhIGmV;
         "pkg-1.0.2" = _cpL093hv;
@@ -66,7 +90,9 @@ let
         "pkg-1.0.5" = _IyDB2lvX;
         "pkg-1.0.6" = _NrFaL7b3;
         "pkg-1.1.0" = _wBUcabi9;
-        "default" = _wBUcabi9;
+        "pkg-1.2.0" = _KSuyCJSg;
+        "pkg-1.2.1" = _qVqSv7uK;
+        "default" = _qVqSv7uK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dark-client";

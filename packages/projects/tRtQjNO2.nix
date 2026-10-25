@@ -41,6 +41,11 @@ let
             "file" = "Arda's Uncrafting Table 1.2 [NEOFORGE] [1.21.1].jar";
             "hash" = "sha512-dHlbZ1faCYH7KnSgbUY+UVINeeHP3Ez34/AgoLDG5IPVKCSKtagCz867UCQKxvPghZziYaikLzlJxpYamX9xYQ==";
         };
+        _k3CSQFL4 = {
+            "id" = "k3CSQFL4";
+            "file" = "Arda's Uncrafting Table 1.3 [FORGE] [1.12.2].jar";
+            "hash" = "sha512-IPf9UMqmn7EXnn1YBmIEgEoX4s9UHWLHAAzE+bD1+TlZibM1i4TYGsqbA4m3jyApytoZoWCwoT/+s9wVgbjtNQ==";
+        };
     in {
         "Jc12IMVW" = _Jc12IMVW;
         "IVi7o3Xt" = _IVi7o3Xt;
@@ -50,14 +55,17 @@ let
         "Hsap4F6m" = _Hsap4F6m;
         "SdDFtAoN" = _SdDFtAoN;
         "uyFh9nVP" = _uyFh9nVP;
+        "k3CSQFL4" = _k3CSQFL4;
         "neoforge-1.21.1" = _uyFh9nVP;
         "forge-1.20.1" = _SdDFtAoN;
         "forge-1.16.5" = _Hsap4F6m;
+        "forge-1.12.2" = _k3CSQFL4;
         "fabric-1.20.1" = _90KR5JIv;
         "pkg-1.0" = _90KR5JIv;
         "pkg-1.1" = _Hsap4F6m;
         "pkg-1.2" = _uyFh9nVP;
-        "default" = _uyFh9nVP;
+        "pkg-1.3" = _k3CSQFL4;
+        "default" = _k3CSQFL4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ardas-uncrafting-table";

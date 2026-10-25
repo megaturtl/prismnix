@@ -21,22 +21,30 @@ let
             "file" = "graceful-packets-1.0.0+26.2.jar";
             "hash" = "sha512-G1auXLAufofW1C/0WpcU0NrFcQ3QSQvm28Dx13qstJM0TAFO33Vq8xMrvqjjxpZFAGaZ/L6WaeUcc4rk4e3ocQ==";
         };
+        _vbxJpUiA = {
+            "id" = "vbxJpUiA";
+            "file" = "graceful-packets-1.0.0+26.3.jar";
+            "hash" = "sha512-pd/o/IA8Ho1VgnFsWwW2jtOy9RCYYaWplCu2kKg0BxcSMoj1/67fbpgMVV8TddHTDTcWPW8gDMkddXSkxGB/dQ==";
+        };
     in {
         "uzLCnw3P" = _uzLCnw3P;
         "Hr1krgAu" = _Hr1krgAu;
         "pPqeiPDL" = _pPqeiPDL;
         "uSbkbjBq" = _uSbkbjBq;
+        "vbxJpUiA" = _vbxJpUiA;
         "fabric-1.21.9" = _uzLCnw3P;
         "fabric-1.21.10" = _uzLCnw3P;
         "fabric-1.21.11" = _Hr1krgAu;
         "fabric-26.1.1" = _pPqeiPDL;
         "fabric-26.1.2" = _pPqeiPDL;
         "fabric-26.2" = _uSbkbjBq;
+        "fabric-26.3" = _vbxJpUiA;
         "pkg-1.0.0_1.21.9+1.21.10" = _uzLCnw3P;
         "pkg-1.0.0_1.21.11" = _Hr1krgAu;
         "pkg-1.0.0+26.1.1" = _pPqeiPDL;
         "pkg-1.0.0+26.2" = _uSbkbjBq;
-        "default" = _uSbkbjBq;
+        "pkg-1.0.0+26.3" = _vbxJpUiA;
+        "default" = _vbxJpUiA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "graceful-packets";

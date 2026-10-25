@@ -106,6 +106,16 @@ let
             "file" = "SkyBlock Legacy.zip";
             "hash" = "sha512-gc7amPnyVLPjdZW1RZlHuaroWlvvQx2AdrruWp5dK3t8OocR/DyO1b9d3sGRGErqIIP9boFG0jQTRG3PY8w+Wg==";
         };
+        _gAodbwXM = {
+            "id" = "gAodbwXM";
+            "file" = "SkyBlock Legacy (Lite).zip";
+            "hash" = "sha512-1zxaQmbY5ZHFa+CCkef/znyk1nIZK2cy0UbOtCcmyGTVRi1cdIeztZNGAT0eP4HTmOH35FEZqXw1FrSFLxbw/Q==";
+        };
+        _eGvoM94W = {
+            "id" = "eGvoM94W";
+            "file" = "SkyBlock Legacy.zip";
+            "hash" = "sha512-rf9g+/pqXVn6yszfThpK7wUPfZc1NjYLAzV0kP+6xSMvyqxE68Ybjty7fAksJEKDkHFf5Att2fkqjpMk7vrkcA==";
+        };
     in {
         "WV8cyFHV" = _WV8cyFHV;
         "JGLwIdgg" = _JGLwIdgg;
@@ -128,12 +138,14 @@ let
         "us6LPOI9" = _us6LPOI9;
         "LmqPAF5A" = _LmqPAF5A;
         "SDnauqoH" = _SDnauqoH;
-        "minecraft-1.21.11" = _SDnauqoH;
-        "minecraft-26.1" = _SDnauqoH;
-        "minecraft-26.1.1" = _SDnauqoH;
-        "minecraft-26.1.2" = _SDnauqoH;
-        "minecraft-26.2" = _SDnauqoH;
-        "minecraft-26.3" = _SDnauqoH;
+        "gAodbwXM" = _gAodbwXM;
+        "eGvoM94W" = _eGvoM94W;
+        "minecraft-1.21.11" = _eGvoM94W;
+        "minecraft-26.1" = _eGvoM94W;
+        "minecraft-26.1.1" = _eGvoM94W;
+        "minecraft-26.1.2" = _eGvoM94W;
+        "minecraft-26.2" = _eGvoM94W;
+        "minecraft-26.3" = _eGvoM94W;
         "pkg-v1.0.0" = _WV8cyFHV;
         "pkg-v1.0.1" = _JGLwIdgg;
         "pkg-v1.0.2" = _KaclESlY;
@@ -155,7 +167,9 @@ let
         "pkg-v2.1.0" = _us6LPOI9;
         "pkg-v2.1.1-lite" = _LmqPAF5A;
         "pkg-v2.1.1" = _SDnauqoH;
-        "default" = _SDnauqoH;
+        "pkg-v2.1.2-lite" = _gAodbwXM;
+        "pkg-v2.1.2" = _eGvoM94W;
+        "default" = _eGvoM94W;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hypixel-skyblock-legacy";

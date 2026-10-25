@@ -121,6 +121,11 @@ let
             "file" = "tradeoptimizer-fabric-1.7.2+mc26.2.jar";
             "hash" = "sha512-cwFup54qu/LPlF8+H6C8iI7EcxVRL+6VJex7LzDczgUZl6sA+eGSMMf8qJd6KpuGULuzFPGSCJMW/kUVfyOzqA==";
         };
+        _GtQZGxHJ = {
+            "id" = "GtQZGxHJ";
+            "file" = "tradeoptimizer-fabric-1.7.2+mc26.1.jar";
+            "hash" = "sha512-UC+4ZE2ed0WQARvp17MKqkk6WKVsHo7tcxn9JH4Sv9XQhVnBU1/DHcZNHZG4PZqyKCaGSjGpd5MkAvYmZczvmw==";
+        };
     in {
         "JEAlohzE" = _JEAlohzE;
         "jgl8FeYL" = _jgl8FeYL;
@@ -146,10 +151,11 @@ let
         "L0eBTQhp" = _L0eBTQhp;
         "mtlgTKKt" = _mtlgTKKt;
         "IAfVQ2Wd" = _IAfVQ2Wd;
-        "fabric-26.1.2" = _xC9hyNy5;
+        "GtQZGxHJ" = _GtQZGxHJ;
+        "fabric-26.1.2" = _GtQZGxHJ;
         "fabric-26.2" = _IAfVQ2Wd;
-        "fabric-26.1" = _xC9hyNy5;
-        "fabric-26.1.1" = _xC9hyNy5;
+        "fabric-26.1" = _GtQZGxHJ;
+        "fabric-26.1.1" = _GtQZGxHJ;
         "fabric-1.21.9" = _Q8NbzgnR;
         "fabric-1.21.10" = _Q8NbzgnR;
         "fabric-1.21.11" = _Q8NbzgnR;
@@ -178,7 +184,8 @@ let
         "pkg-1.7.2+mc26.3" = _L0eBTQhp;
         "pkg-1.7.2+mc26.3neoforge" = _mtlgTKKt;
         "pkg-1.7.2+mc26.2" = _IAfVQ2Wd;
-        "default" = _IAfVQ2Wd;
+        "pkg-1.7.2+mc26.1" = _GtQZGxHJ;
+        "default" = _GtQZGxHJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trade-picker";

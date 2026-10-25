@@ -146,6 +146,16 @@ let
             "file" = "highly_customizable_damage_numbers-neoforge-26.2-1.2.0.jar";
             "hash" = "sha512-DOn/+iun8dYLGgGTW9aw+gYm9qENNBIhvpqOHYNPfhvGmnxO/S9DwWbViQ8k4RMGlF6UQxXSf/uuaYF0C291/w==";
         };
+        _Blx7EG1B = {
+            "id" = "Blx7EG1B";
+            "file" = "highly_customizable_damage_numbers-fabric-26.2-1.2.01.jar";
+            "hash" = "sha512-JUVVPDJRsIWy4nth3XSUarW3P1aU11JGkYFIU3qvCDDznryFUrdHUgdcnhXoYneX6fSFLiAck5fBJhTKO/2Dkg==";
+        };
+        _JpAHWAQx = {
+            "id" = "JpAHWAQx";
+            "file" = "highly_customizable_damage_numbers-neoforge-26.2-1.2.01.jar";
+            "hash" = "sha512-IKLmlRMK+8lDiejjv+VWgiFWOQ8RZrX+dxvLLo2ofRxz0+gixouC5Ak2DLbraTS8nfNgT52Z8zoR5u7Z4s8aQg==";
+        };
     in {
         "8PILrdAp" = _8PILrdAp;
         "nLbvIsaS" = _nLbvIsaS;
@@ -176,6 +186,8 @@ let
         "rsTVs2KV" = _rsTVs2KV;
         "XuyP3Mi6" = _XuyP3Mi6;
         "tivdfEyu" = _tivdfEyu;
+        "Blx7EG1B" = _Blx7EG1B;
+        "JpAHWAQx" = _JpAHWAQx;
         "fabric-1.21" = _l8pkbdLI;
         "fabric-1.21.1" = _l8pkbdLI;
         "fabric-1.21.2" = _JsScXgeP;
@@ -193,7 +205,7 @@ let
         "fabric-26.1.2" = _zriC1yRr;
         "fabric-1.20" = _V1ka5QKr;
         "fabric-1.20.1" = _V1ka5QKr;
-        "fabric-26.2" = _XuyP3Mi6;
+        "fabric-26.2" = _Blx7EG1B;
         "forge-1.21" = _RT2IdwQO;
         "forge-1.21.1" = _RT2IdwQO;
         "forge-1.21.4" = _aepZ6L0Y;
@@ -221,7 +233,7 @@ let
         "neoforge-26.1" = _fk3yUlq0;
         "neoforge-26.1.1" = _fk3yUlq0;
         "neoforge-26.1.2" = _fk3yUlq0;
-        "neoforge-26.2" = _tivdfEyu;
+        "neoforge-26.2" = _JpAHWAQx;
         "pkg-v1.1.3+mc1.21" = _IhOgSVVU;
         "pkg-v1.1.3+mc1.21.2" = _Q1oTqfae;
         "pkg-v1.1.3+mc1.21.4" = _GltInibz;
@@ -235,7 +247,8 @@ let
         "pkg-v1.1.3+mc1.20.1" = _mc8Q1wPF;
         "pkg-v1.1.31+mc1.21.1" = _rsTVs2KV;
         "pkg-v1.2.0+mc26.2" = _tivdfEyu;
-        "default" = _tivdfEyu;
+        "pkg-v1.2.01+mc26.2" = _JpAHWAQx;
+        "default" = _JpAHWAQx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hicudan";

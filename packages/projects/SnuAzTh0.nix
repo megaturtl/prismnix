@@ -81,6 +81,16 @@ let
             "file" = "tacz-mesh-loader-fabric-1.21.1-0.1.8.jar";
             "hash" = "sha512-IRVxYKtxDxtPpt182joWPvrtIV9IZ6B8CdUsRp6U0DtkFQvQom33ewEqIXpfUuhOAv/cqeaNLqcqariecEE/VQ==";
         };
+        _z5hrYrq1 = {
+            "id" = "z5hrYrq1";
+            "file" = "tacz-mesh-loader-fabric-1.20.1-0.1.8-hotfix1.jar";
+            "hash" = "sha512-r+oTxaofKexK/axDSQEOE+R1S1/1EYP1lbdntB3RKRAu9YHRSBrhOo0sz8cVR5r+UZGPws+pHfh7Xza3/1PFnQ==";
+        };
+        _QgREwV73 = {
+            "id" = "QgREwV73";
+            "file" = "tacz-mesh-loader-fabric-1.21.1-0.1.8-hotfix1.jar";
+            "hash" = "sha512-0SWWTcpKtYBo2GdOwoaMPRd7HrFX9Hjv/0EQDvk+QWEsYeBQF9yrr7P1J4P2HDW6/qIdJM/E8yEoMkj1kXNPLA==";
+        };
     in {
         "96zPunJ9" = _96zPunJ9;
         "b9p8tyiC" = _b9p8tyiC;
@@ -98,15 +108,18 @@ let
         "omjWKcwC" = _omjWKcwC;
         "vf3mu3IU" = _vf3mu3IU;
         "ufO3DlxM" = _ufO3DlxM;
+        "z5hrYrq1" = _z5hrYrq1;
+        "QgREwV73" = _QgREwV73;
         "forge-1.20.1" = _PGQI9VTN;
-        "fabric-1.20.1" = _omjWKcwC;
-        "fabric-1.21.1" = _ufO3DlxM;
+        "fabric-1.20.1" = _z5hrYrq1;
+        "fabric-1.21.1" = _QgREwV73;
         "neoforge-1.21.1" = _vf3mu3IU;
         "pkg-0.1.5" = _EB8G9mbd;
         "pkg-0.1.6" = _zbZz3VtT;
         "pkg-0.1.7" = _wsIljAdE;
         "pkg-0.1.8" = _ufO3DlxM;
-        "default" = _ufO3DlxM;
+        "pkg-0.1.8-hotfix1" = _QgREwV73;
+        "default" = _QgREwV73;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tacz-mesh-loader";

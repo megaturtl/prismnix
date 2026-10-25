@@ -181,6 +181,11 @@ let
             "file" = "playeremotes-neoforge-2.0.1+26.3.jar";
             "hash" = "sha512-YKox2kSLdNT8mAHsayWypbq6coPxXjehp/iKe3py8Pj+u8phWGilPgzjGpqEQly5DGQdM2GnFA/yNg4AnDHL2Q==";
         };
+        _1VFgxZdm = {
+            "id" = "1VFgxZdm";
+            "file" = "playeremotes-fabric-2.0.1.1+1.21.11.jar";
+            "hash" = "sha512-2g7QtuIKgDZa2zoF2z4nvHPbNaGfLVscm/rVlWyGFoVf8hDpmKA99YdKH3DQFM65embbyEPgqSaxYbHRajWW5Q==";
+        };
     in {
         "t1bvALQN" = _t1bvALQN;
         "MZ5U0nzm" = _MZ5U0nzm;
@@ -218,11 +223,12 @@ let
         "Y72Fp3d3" = _Y72Fp3d3;
         "fOutqD0U" = _fOutqD0U;
         "5LAQTh22" = _5LAQTh22;
+        "1VFgxZdm" = _1VFgxZdm;
         "fabric-1.21.1" = _NwtJEpct;
         "fabric-1.21" = _NwtJEpct;
         "fabric-1.20.4" = _mkuUfTtS;
         "fabric-1.20.1" = _ot67Rguv;
-        "fabric-1.21.11" = _ETKRmzOX;
+        "fabric-1.21.11" = _1VFgxZdm;
         "fabric-26.1" = _cLNZttgA;
         "fabric-26.1.1" = _cLNZttgA;
         "fabric-26.1.2" = _cLNZttgA;
@@ -273,7 +279,8 @@ let
         "pkg-2.0.1+26.1.2-neoforge" = _Y72Fp3d3;
         "pkg-2.0.1+26.3-fabric" = _fOutqD0U;
         "pkg-2.0.1+26.3-neoforge" = _5LAQTh22;
-        "default" = _5LAQTh22;
+        "pkg-2.0.1.1+1.21.11-fabric" = _1VFgxZdm;
+        "default" = _1VFgxZdm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "player-emotes";

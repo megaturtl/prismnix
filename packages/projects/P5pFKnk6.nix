@@ -106,6 +106,26 @@ let
             "file" = "tradetweaks-1.20.1-2.3.0.jar";
             "hash" = "sha512-t+FOcXUwDdpevwW9xu3jUITVpfALTAx/a9bYaHm/PIuNzDF+RAgFmgOdlJR/pV/yGjkg7Rx0zYGjlu8FfJRyiA==";
         };
+        _gNEzULtA = {
+            "id" = "gNEzULtA";
+            "file" = "tradetweaks-1.21.1-2.4.0-neoforge.jar";
+            "hash" = "sha512-82eXOM6qOAv4TQMbuCq0H3P8N7elpuugBNI44xpJxmWlROm/XXjVv9d3AvpI+BAbdyyabpUK6HEvhuGgkw204A==";
+        };
+        _jHm4GuZ1 = {
+            "id" = "jHm4GuZ1";
+            "file" = "tradetweaks-1.20.1-2.4.0-forge.jar";
+            "hash" = "sha512-bwxYrKIborwI4/SNuiwGEzXp23Gz5wq1byu6SRBwWGUCOKncJHJZnp+D2qklyWcmTxTbAq9orG9/RiRnng5zeQ==";
+        };
+        _vK2d7k1x = {
+            "id" = "vK2d7k1x";
+            "file" = "tradetweaks-1.21.1-2.4.0-fabric.jar";
+            "hash" = "sha512-jQlbHT3mxe+tF79nrv1QWwZc/y4+nwWQv4O0Qy7VaEBWYr2uZP3AuQvyAoZfwW27LwQqguWuTsaedyAdEhOACQ==";
+        };
+        _UCIsJQnK = {
+            "id" = "UCIsJQnK";
+            "file" = "tradetweaks-1.20.1-2.4.0-fabric.jar";
+            "hash" = "sha512-R/ipbFgvVCklpIXwa0K7xdARzjxApys38N7amf0pWE2iiy7WXRc/zvI1EtS4bS/FW1EH6lY+i3hwoR9oONnZZw==";
+        };
     in {
         "oFZLaaBj" = _oFZLaaBj;
         "uONUQCJ7" = _uONUQCJ7;
@@ -128,8 +148,14 @@ let
         "1wk4HggX" = _1wk4HggX;
         "LOzZqZoC" = _LOzZqZoC;
         "vyci7TF8" = _vyci7TF8;
-        "forge-1.20.1" = _vyci7TF8;
-        "neoforge-1.21.1" = _LOzZqZoC;
+        "gNEzULtA" = _gNEzULtA;
+        "jHm4GuZ1" = _jHm4GuZ1;
+        "vK2d7k1x" = _vK2d7k1x;
+        "UCIsJQnK" = _UCIsJQnK;
+        "forge-1.20.1" = _jHm4GuZ1;
+        "neoforge-1.21.1" = _gNEzULtA;
+        "fabric-1.21.1" = _vK2d7k1x;
+        "fabric-1.20.1" = _UCIsJQnK;
         "pkg-0.1.0" = _oFZLaaBj;
         "pkg-0.1.1" = _uONUQCJ7;
         "pkg-0.2.0" = _DiipGhLS;
@@ -151,7 +177,11 @@ let
         "pkg-1.21.1-2.2.1" = _1wk4HggX;
         "pkg-1.21.1-2.3.0" = _LOzZqZoC;
         "pkg-1.20.1-2.3.0" = _vyci7TF8;
-        "default" = _vyci7TF8;
+        "pkg-1.21.1-2.4.0-neoforge" = _gNEzULtA;
+        "pkg-1.20.1-2.4.0-forge" = _jHm4GuZ1;
+        "pkg-1.21.1-2.4.0-fabric" = _vK2d7k1x;
+        "pkg-1.20.1-2.4.0-fabric" = _UCIsJQnK;
+        "default" = _UCIsJQnK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trade-tweaks";

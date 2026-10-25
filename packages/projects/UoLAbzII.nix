@@ -101,6 +101,16 @@ let
             "file" = "Fresh Food.zip";
             "hash" = "sha512-oOFR2V3G6qeksvItMSAbgxd6FxRDpwV8IwmTVtd1d/Xw+LRPWf/YM1U7URZ5gBx6JWw6nyYToeGqy4lcJF0U7Q==";
         };
+        _ZlpG0Sbo = {
+            "id" = "ZlpG0Sbo";
+            "file" = "Fresh Food.zip";
+            "hash" = "sha512-44qkzzdEgNEf9lgcVFjzeqEZXqrX1APGSepeFB3tcarXb1iIvt3uX4MB8PUO+uySpRpqfH2rSHOTeP1JskuRGQ==";
+        };
+        _ghfAWfn6 = {
+            "id" = "ghfAWfn6";
+            "file" = "Fresh Food.zip";
+            "hash" = "sha512-9EnLbC7765gTBbRB5ttNfI+M9a6bue68LbyWN6lqouJOuL8U2fH9+wbrDJlvqomXDLKcvoCD8kNU74WO9ZWDAw==";
+        };
     in {
         "KtdT9fuF" = _KtdT9fuF;
         "rTBjufX4" = _rTBjufX4;
@@ -122,23 +132,25 @@ let
         "kQYADnq4" = _kQYADnq4;
         "DdBV0zoy" = _DdBV0zoy;
         "zgUA58EZ" = _zgUA58EZ;
-        "minecraft-1.21.4" = _zgUA58EZ;
-        "minecraft-1.21.5" = _zgUA58EZ;
-        "minecraft-1.21.6" = _zgUA58EZ;
-        "minecraft-1.21.7" = _zgUA58EZ;
-        "minecraft-1.21.8" = _zgUA58EZ;
-        "minecraft-1.21.9" = _zgUA58EZ;
-        "minecraft-1.21.10" = _zgUA58EZ;
-        "minecraft-1.21.11" = _zgUA58EZ;
-        "minecraft-1.20.1" = _zgUA58EZ;
-        "minecraft-1.21" = _zgUA58EZ;
-        "minecraft-1.21.1" = _zgUA58EZ;
-        "minecraft-1.21.2" = _zgUA58EZ;
-        "minecraft-26.1" = _zgUA58EZ;
-        "minecraft-26.1.1" = _zgUA58EZ;
-        "minecraft-26.1.2" = _zgUA58EZ;
-        "minecraft-26.2" = _zgUA58EZ;
-        "minecraft-26.3" = _zgUA58EZ;
+        "ZlpG0Sbo" = _ZlpG0Sbo;
+        "ghfAWfn6" = _ghfAWfn6;
+        "minecraft-1.21.4" = _ghfAWfn6;
+        "minecraft-1.21.5" = _ghfAWfn6;
+        "minecraft-1.21.6" = _ghfAWfn6;
+        "minecraft-1.21.7" = _ghfAWfn6;
+        "minecraft-1.21.8" = _ghfAWfn6;
+        "minecraft-1.21.9" = _ghfAWfn6;
+        "minecraft-1.21.10" = _ghfAWfn6;
+        "minecraft-1.21.11" = _ghfAWfn6;
+        "minecraft-1.20.1" = _ghfAWfn6;
+        "minecraft-1.21" = _ghfAWfn6;
+        "minecraft-1.21.1" = _ghfAWfn6;
+        "minecraft-1.21.2" = _ghfAWfn6;
+        "minecraft-26.1" = _ghfAWfn6;
+        "minecraft-26.1.1" = _ghfAWfn6;
+        "minecraft-26.1.2" = _ghfAWfn6;
+        "minecraft-26.2" = _ghfAWfn6;
+        "minecraft-26.3" = _ghfAWfn6;
         "pkg-1.0" = _rTBjufX4;
         "pkg-1.1" = _MhXgBda0;
         "pkg-1.2" = _KxdCpXm4;
@@ -155,7 +167,9 @@ let
         "pkg-1.3.4" = _kQYADnq4;
         "pkg-1.3.5" = _DdBV0zoy;
         "pkg-1.3.6" = _zgUA58EZ;
-        "default" = _zgUA58EZ;
+        "pkg-1.3.7" = _ZlpG0Sbo;
+        "pkg-1.3.8" = _ghfAWfn6;
+        "default" = _ghfAWfn6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fresh-food";

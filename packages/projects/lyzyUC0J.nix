@@ -46,6 +46,11 @@ let
             "file" = "红显调谐 RedstoneTuning 0.9a1.zip";
             "hash" = "sha512-zyGymLRb4YNWFeqgVFqUsIHMfaL5Bl8DFJRates+XU7hpr1JwxjZYfV9P2RVz5ij5eSSVq7SDXaJU7uZEx44aA==";
         };
+        _eCtJu4vu = {
+            "id" = "eCtJu4vu";
+            "file" = "红显调谐 RedstoneTuning 1.0.zip";
+            "hash" = "sha512-nnCjPWWCVVixbcRKwqIft3IVRij6EkWeorJOjApWIMWZlRlpAWeG4lwsltb4Xtlp0cWxuhih/QoYT0mCh/JW1Q==";
+        };
     in {
         "pqx5bppK" = _pqx5bppK;
         "xgxKOtKM" = _xgxKOtKM;
@@ -56,6 +61,7 @@ let
         "Z6zLadTw" = _Z6zLadTw;
         "uzMIsUkE" = _uzMIsUkE;
         "mYN91C0V" = _mYN91C0V;
+        "eCtJu4vu" = _eCtJu4vu;
         "minecraft-24w44a" = _pqx5bppK;
         "minecraft-24w45a" = _pqx5bppK;
         "minecraft-24w46a" = _pqx5bppK;
@@ -69,11 +75,11 @@ let
         "minecraft-1.21.11" = _mYN91C0V;
         "minecraft-1.21.2" = _mYN91C0V;
         "minecraft-1.21.3" = _mYN91C0V;
-        "minecraft-26.1" = _mYN91C0V;
-        "minecraft-26.1.1" = _mYN91C0V;
-        "minecraft-26.1.2" = _mYN91C0V;
-        "minecraft-26.2" = _mYN91C0V;
-        "minecraft-26.3" = _mYN91C0V;
+        "minecraft-26.1" = _eCtJu4vu;
+        "minecraft-26.1.1" = _eCtJu4vu;
+        "minecraft-26.1.2" = _eCtJu4vu;
+        "minecraft-26.2" = _eCtJu4vu;
+        "minecraft-26.3" = _eCtJu4vu;
         "pkg-0.1.69" = _pqx5bppK;
         "pkg-0.2.69" = _xgxKOtKM;
         "pkg-0.3.69" = _9SlUOCfN;
@@ -83,7 +89,8 @@ let
         "pkg-0.7.69" = _Z6zLadTw;
         "pkg-0.9" = _uzMIsUkE;
         "pkg-0.9a1" = _mYN91C0V;
-        "default" = _mYN91C0V;
+        "pkg-1.0" = _eCtJu4vu;
+        "default" = _eCtJu4vu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "redstonetuning";

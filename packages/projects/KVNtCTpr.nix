@@ -231,6 +231,46 @@ let
             "file" = "cobblemonminigames-neoforge-4.1.1+cobblemon1.8.0.jar";
             "hash" = "sha512-vz8jZBWMV6RZD7m9KPVSOVjnMcp6TBjznde/QqaCkbJIYYLxrYqRTy95Z8s/fHsabBgEGQ9V6A6RIIu0FRHINQ==";
         };
+        _vf2NTM4P = {
+            "id" = "vf2NTM4P";
+            "file" = "cobblemonminigames-fabric-4.2.0+cobblemon1.7.3.jar";
+            "hash" = "sha512-ZK7sgL1iEfSOXd1MDMChNZlDNEYzMInoZhjwgfCJpZuv3zjgY6+F/RJa/OndQcjISCPFMJtLTwgIWydwztR3mg==";
+        };
+        _JAbyN4hW = {
+            "id" = "JAbyN4hW";
+            "file" = "cobblemonminigames-neoforge-4.2.0+cobblemon1.7.3.jar";
+            "hash" = "sha512-w0/G2JLUfmw0FSlIpUUMOj2aty0oxoAjDAC5L7h80IUBkXFhBXkgcYJ1Zx1QQOC/t2fR6ladSDNW4aTJs+d8kw==";
+        };
+        _Eh4CfBlb = {
+            "id" = "Eh4CfBlb";
+            "file" = "cobblemonminigames-fabric-4.2.0+cobblemon1.8.0.jar";
+            "hash" = "sha512-0aJqG3QnEbCFN0DdWu/8N3+3iYe+3sdRJxo8q5sEabJKIp+i0A/HPSqRri/awZ2CZq5DyIL+PoVhcPjzgx7Arw==";
+        };
+        _2dHfXMeg = {
+            "id" = "2dHfXMeg";
+            "file" = "cobblemonminigames-neoforge-4.2.0+cobblemon1.8.0.jar";
+            "hash" = "sha512-1bQrU+C916vV67eFQHjFH7hJzi5vqMRoZ51Cjti0APKoqMKuxwrhBKqfCy0MR+2suRLX+c5nu0HIYnxclcehuA==";
+        };
+        _XKgQ6zGb = {
+            "id" = "XKgQ6zGb";
+            "file" = "cobblemonminigames-fabric-4.2.1+cobblemon1.7.3.jar";
+            "hash" = "sha512-oCJBXyYha/+uV2KfuFgCoIdpuBLoMNKuHEKp6Z/Q2P0SHILEZ26GLziSMAm3SdSvj7c5q/z2djfoX//wSrJyrw==";
+        };
+        _GKs9xwRR = {
+            "id" = "GKs9xwRR";
+            "file" = "cobblemonminigames-neoforge-4.2.1+cobblemon1.7.3.jar";
+            "hash" = "sha512-KfhcescnkhCYx0mksFy2y2t1pgj2ModrrZUfd2KHZcN6ZQY9Y21VrRrSaahMdq8vYyMnwVOToiSgn6ksQ+RGZA==";
+        };
+        _xqEWabEx = {
+            "id" = "xqEWabEx";
+            "file" = "cobblemonminigames-fabric-4.2.1+cobblemon1.8.0.jar";
+            "hash" = "sha512-JmogxudK5EZnYesMtjHB+P/y7r0f2gyXaxP1xkvN1dtIAlLQH6mOepYCWTinDQucQSq6Bh9pM7vdl666DhRjBg==";
+        };
+        _KqCDJVDx = {
+            "id" = "KqCDJVDx";
+            "file" = "cobblemonminigames-neoforge-4.2.1+cobblemon1.8.0.jar";
+            "hash" = "sha512-Xzqm8FQdmc0399OG5uJx8N74dpvY6eD8me4pkHlnKHeW++ntZMSIEjy4VMHiwcKNfVcNWdViy+a6ogtnNqnBUQ==";
+        };
     in {
         "pBSpI6kW" = _pBSpI6kW;
         "IhjJ6Peo" = _IhjJ6Peo;
@@ -278,8 +318,16 @@ let
         "Rr9ygFWV" = _Rr9ygFWV;
         "f5AuTUie" = _f5AuTUie;
         "mm1hskvk" = _mm1hskvk;
-        "neoforge-1.21.1" = _mm1hskvk;
-        "fabric-1.21.1" = _f5AuTUie;
+        "vf2NTM4P" = _vf2NTM4P;
+        "JAbyN4hW" = _JAbyN4hW;
+        "Eh4CfBlb" = _Eh4CfBlb;
+        "2dHfXMeg" = _2dHfXMeg;
+        "XKgQ6zGb" = _XKgQ6zGb;
+        "GKs9xwRR" = _GKs9xwRR;
+        "xqEWabEx" = _xqEWabEx;
+        "KqCDJVDx" = _KqCDJVDx;
+        "neoforge-1.21.1" = _KqCDJVDx;
+        "fabric-1.21.1" = _xqEWabEx;
         "pkg-1.0.0" = _IhjJ6Peo;
         "pkg-1.0.1" = _lxUKvMGF;
         "pkg-1.0.2" = _JyFFGSZ9;
@@ -303,7 +351,11 @@ let
         "pkg-4.1.0+cobblemon1.8.0" = _XvG6ZWb5;
         "pkg-4.1.1+cobblemon1.7.3" = _Rr9ygFWV;
         "pkg-4.1.1+cobblemon1.8.0" = _mm1hskvk;
-        "default" = _mm1hskvk;
+        "pkg-4.2.0+cobblemon1.7.3" = _JAbyN4hW;
+        "pkg-4.2.0+cobblemon1.8.0" = _2dHfXMeg;
+        "pkg-4.2.1+cobblemon1.7.3" = _GKs9xwRR;
+        "pkg-4.2.1+cobblemon1.8.0" = _KqCDJVDx;
+        "default" = _KqCDJVDx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-minigames";

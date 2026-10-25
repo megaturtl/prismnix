@@ -46,6 +46,11 @@ let
             "file" = "PandaColors-1.3.1+26.3.jar";
             "hash" = "sha512-t2D8pCwslkkf+ABZc3aLAT+lPA53wkYeDmigZuMxxcvaDYt0n5x3+noL0VBQaasEidGZ8CRSiFqIwbKI8WsG3w==";
         };
+        _Eju0vAOM = {
+            "id" = "Eju0vAOM";
+            "file" = "PandaColors-1.3.2+26.3.jar";
+            "hash" = "sha512-858pkeu74dnQgDQybl+ICEuiYB4SEV0uOSQv6O3P7MIfVPUL/9GJWHbn9voyaEiy5j/2FPGkeeKM1hUSU9gklA==";
+        };
     in {
         "rtjBf2iA" = _rtjBf2iA;
         "jEpmRPxg" = _jEpmRPxg;
@@ -56,6 +61,7 @@ let
         "oxlYuxVK" = _oxlYuxVK;
         "qsoxRfRB" = _qsoxRfRB;
         "thDAuaYg" = _thDAuaYg;
+        "Eju0vAOM" = _Eju0vAOM;
         "fabric-1.21.6" = _jEpmRPxg;
         "fabric-1.21.7" = _jEpmRPxg;
         "fabric-1.21.8" = _jEpmRPxg;
@@ -65,7 +71,7 @@ let
         "fabric-26.1.1" = _A2BsZ4pM;
         "fabric-26.1.2" = _A2BsZ4pM;
         "fabric-26.2" = _oxlYuxVK;
-        "fabric-26.3" = _thDAuaYg;
+        "fabric-26.3" = _Eju0vAOM;
         "pkg-1.0.0_1.21.6+1.121.8" = _rtjBf2iA;
         "pkg-1.1.0_1.21.6+1.121.8" = _jEpmRPxg;
         "pkg-1.1.0_1.21.9+1.21.10" = _Cek01xrB;
@@ -75,7 +81,8 @@ let
         "pkg-1.2.0+26.2" = _oxlYuxVK;
         "pkg-1.2.0+26.3" = _qsoxRfRB;
         "pkg-1.3.1+26.3" = _thDAuaYg;
-        "default" = _thDAuaYg;
+        "pkg-1.3.2+26.3" = _Eju0vAOM;
+        "default" = _Eju0vAOM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "panda-colors";

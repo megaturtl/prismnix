@@ -566,6 +566,126 @@ let
             "file" = "FancyHealthBar-26.2-1.2.4.jar";
             "hash" = "sha512-Ty6xUHvfTiORGShT4andnOU0bBk5CL+4ZnPkEqHX3g/UjB6M4C9Pl3Oqj4If/uKaqVypEQrMIOGbzTbuFQH93w==";
         };
+        _HltfPBXc = {
+            "id" = "HltfPBXc";
+            "file" = "FancyHealthBar-1.20-1.2.5.jar";
+            "hash" = "sha512-Nqr6+porGKLwWwEe7IyTz08RhnC0i3wB43OzzFW6duFV4BnPSTKXqWNl+BFfzwnMsh1rn/z2j+MGM8i0Q4y6aw==";
+        };
+        _xoEKv6cD = {
+            "id" = "xoEKv6cD";
+            "file" = "FancyHealthBar-1.20.1-1.2.5.jar";
+            "hash" = "sha512-wYTeFEegF/GRdmfD2kh7BIUcCwlRm9LScmx9XHtjGzzxC/mNjFWogvXodgIg5YsVGN1Kh5RQkX5bbXWkZ2RG3w==";
+        };
+        _dUwaicws = {
+            "id" = "dUwaicws";
+            "file" = "FancyHealthBar-1.20.2-1.2.5.jar";
+            "hash" = "sha512-uWHzvkVVGiYTOUpaqpNrdMSNeKqvbXuVmGkXvu/QpHxhdzaDmp7EIOL8g2uX6CrGhCVN78g7pJDa6wHcumqRZw==";
+        };
+        _3BjooyLf = {
+            "id" = "3BjooyLf";
+            "file" = "FancyHealthBar-1.20.3-1.2.5.jar";
+            "hash" = "sha512-skKM+GLdKdKbhxVBD2KCjXVlrjxUc72zqxAG09DnM0GUxzuH1aQybkKwn5p05+ISV/B+bnx1Co/yNmSyCDAMbQ==";
+        };
+        _Vpu6Dezk = {
+            "id" = "Vpu6Dezk";
+            "file" = "FancyHealthBar-1.20.4-1.2.5.jar";
+            "hash" = "sha512-+ylMSK09eFW6MWDCnaGFQELQtfsO0v1ihgOjDrpO9FCUHy3FBs+KWHINB55MOoJBPlgQEmZFvkhe0vdeymR0uQ==";
+        };
+        _RNjTJVLC = {
+            "id" = "RNjTJVLC";
+            "file" = "FancyHealthBar-1.20.5-1.2.5.jar";
+            "hash" = "sha512-jgX3OVACFan8zkQmED63Pf8iRWhczQFMlZ4q1uH1HePzlCXFAIfpEs6bRFYrwglTfyTJHSutBSFJsOdADG798g==";
+        };
+        _728a2Hfd = {
+            "id" = "728a2Hfd";
+            "file" = "FancyHealthBar-1.20.6-1.2.5.jar";
+            "hash" = "sha512-8wwdiVkWw2E3xPD8RqZj/EhSSEOADEWbV697C9GTXJth14jMeiObrlHPWDC225sPs8R0ZlHNiUQ06meS0cnNhw==";
+        };
+        _HAO8JSmJ = {
+            "id" = "HAO8JSmJ";
+            "file" = "FancyHealthBar-1.21-1.2.5.jar";
+            "hash" = "sha512-V9qkTg2wAlsQCnRo8Tj7FHGo1bFdm4H5um7jgLkeNjDc8D82ousvqFc3mxb9UxU/Fc8Bs7wdrfiIVenbqfclOw==";
+        };
+        _EDWMmFXM = {
+            "id" = "EDWMmFXM";
+            "file" = "FancyHealthBar-1.21.1-1.2.5.jar";
+            "hash" = "sha512-zTkHD0TZ0eBtj9HH3mIBCYUEc6pBYcgL1WzX8HLTWYMQNKTJfZ41IQzxYcqbrogvA5Fd3L1+ueagH1HNSBw63w==";
+        };
+        _H9RXUiPZ = {
+            "id" = "H9RXUiPZ";
+            "file" = "FancyHealthBar-1.21.10-1.2.5.jar";
+            "hash" = "sha512-p4xzaRPLhRXHyfvNGuNfphhwYSLsG1iJy1fZbW56KGkbB3Fl8pfp7Oucz5ObwYOteGMwh3NERICDvV5GNe37hg==";
+        };
+        _dIDHm2g8 = {
+            "id" = "dIDHm2g8";
+            "file" = "FancyHealthBar-1.21.11-1.2.5.jar";
+            "hash" = "sha512-l7Cdll/d0v7teiOcPjuo7DGAQQGgDb/u/RyNZlq+z4Eq33WUxfc4IxQnO/TO7hWOPCtH0ygMNow6c731Swn0nA==";
+        };
+        _DZLbooE0 = {
+            "id" = "DZLbooE0";
+            "file" = "FancyHealthBar-1.21.6-1.2.5.jar";
+            "hash" = "sha512-cI3TImHkpOuHArgsIbWAMMbuWF6/7965Xpxep+9Fttyl7iz9ACAAPFFEpH70s0G9jzrWmn61kW+CIIhilmdQng==";
+        };
+        _rVlm3uwN = {
+            "id" = "rVlm3uwN";
+            "file" = "FancyHealthBar-1.21.2-1.2.5.jar";
+            "hash" = "sha512-SkaEj6t1UE5BHRDFF0RfatPQR7m4Pf14wxZGxOUE54pOvfcWD+n10yQsyS42Zy1RDm8E5EXblHRVSmurLH4WDg==";
+        };
+        _ZDVnQd7P = {
+            "id" = "ZDVnQd7P";
+            "file" = "FancyHealthBar-1.21.3-1.2.5.jar";
+            "hash" = "sha512-WdzAM+FeX5w+IZVBGzG4Y6hQns+IPpoloXPfJZ9lhKR6ASC+RDJoyBPv0c7IArpODTfKCL4TdEbJUXj1KrtB4Q==";
+        };
+        _2nfG0xJD = {
+            "id" = "2nfG0xJD";
+            "file" = "FancyHealthBar-1.21.4-1.2.5.jar";
+            "hash" = "sha512-cV/xvdTf/9McI7VJVabhLg8N0R2dPvcCLAQUgtd8vXzROsaY+hniOI67ifioIP5nPC1KfrttVvVMDHq87cLBmg==";
+        };
+        _fIHFG8Hn = {
+            "id" = "fIHFG8Hn";
+            "file" = "FancyHealthBar-1.21.5-1.2.5.jar";
+            "hash" = "sha512-LwEgsezEgQTSUC5RjjrjCS+x3dSFha1IUGJrhDBDiGSezduXjaP4L47Kfh9YQ1uXRYG2I+QI4pqbFNXXN6Epig==";
+        };
+        _gtopRBJl = {
+            "id" = "gtopRBJl";
+            "file" = "FancyHealthBar-1.21.7-1.2.5.jar";
+            "hash" = "sha512-F8GmR1khBq7jUa0bi5QT96OUCwRkx3n2C2RBjdYtUIdiBQNCFQXVEsdASD0Qz55/6f/xWNfdL7qhfyhhl/TOyw==";
+        };
+        _K8YsZdQk = {
+            "id" = "K8YsZdQk";
+            "file" = "FancyHealthBar-1.21.8-1.2.5.jar";
+            "hash" = "sha512-b/lVH7D7OV/mRtkMg+FXTT1YMSjtkiWKiGPijC5+86+1syovwqV7RiXLOUz6UicdEqSA2Vbk1lpqH2To2q41xQ==";
+        };
+        _he5H5zql = {
+            "id" = "he5H5zql";
+            "file" = "FancyHealthBar-1.21.9-1.2.5.jar";
+            "hash" = "sha512-RhCs2Xho2tBBGs31NUUF3X0EBXUPHaVqwWYN5T7wlQ0T/31pBqWkVEEMz3AFp1lx5kxBgpOLXX9BreenZdPI3w==";
+        };
+        _xgaKYAm8 = {
+            "id" = "xgaKYAm8";
+            "file" = "FancyHealthBar-26.1-1.2.5.jar";
+            "hash" = "sha512-v9Gt/gtKWYi3YtltoXY80Arl5kZ5l4XILJ7zXr/mgZ0ea+XbmeOL2l8w9Nfb5p9M1LJ6IlUeAOA87Gast3MH1Q==";
+        };
+        _zq8SzHor = {
+            "id" = "zq8SzHor";
+            "file" = "FancyHealthBar-26.1.1-1.2.5.jar";
+            "hash" = "sha512-CdRzJ1de3zDAEKu3lOurKQvDOn1lbWjpHiQQk6ilifHf0poijMQSOOc17fr9vLDweMe9O7TmGv35kxFGtSKuSg==";
+        };
+        _KFSL0IMr = {
+            "id" = "KFSL0IMr";
+            "file" = "FancyHealthBar-26.1.2-1.2.5.jar";
+            "hash" = "sha512-3vBt7DIO0pRha+P1tMxoKzukVJ182i9wC9jkZbfb5N5761dnc+84DIDhzKKRKbEmjyXXBLR/Kb2p6lEBLzBZcw==";
+        };
+        _P6WHPvW9 = {
+            "id" = "P6WHPvW9";
+            "file" = "FancyHealthBar-26.2-1.2.5.jar";
+            "hash" = "sha512-USl4AQnsp6NFKKOgvNKquvT2NSbYNnnvKYW7f0/jFvWfsBziUWCMEKObpTvkQrvtbFUPKq2uyu4VkAqBoy1I+g==";
+        };
+        _5bfipGN1 = {
+            "id" = "5bfipGN1";
+            "file" = "FancyHealthBar-26.3-1.2.5.jar";
+            "hash" = "sha512-zq+Els+bjNIDT/F10BZEeS8xx99qtJhmXSG+TXfL/7O0AMEJRsVuqEnOrD03CSDB0/yXYq1EzdCEmUqkje920A==";
+        };
     in {
         "ORjOWX0C" = _ORjOWX0C;
         "wZBUNk8o" = _wZBUNk8o;
@@ -680,29 +800,54 @@ let
         "S9pLASIZ" = _S9pLASIZ;
         "GU7maRCp" = _GU7maRCp;
         "LWAqX1kt" = _LWAqX1kt;
-        "fabric-1.20.4" = _d3HQ0Pvr;
-        "fabric-1.20.3" = _XL9Y47FS;
-        "fabric-1.21" = _lCkgh14n;
-        "fabric-1.21.1" = _ULxVuf1G;
-        "fabric-1.21.2" = _RUaZlPLm;
-        "fabric-1.21.3" = _mw4R6V9m;
-        "fabric-1.21.4" = _JwhITkGG;
-        "fabric-1.20.1" = _aucw4s64;
-        "fabric-1.20" = _6HJUiDHw;
-        "fabric-1.20.2" = _UMMC1VR6;
-        "fabric-1.20.5" = _FD0thJh1;
-        "fabric-1.20.6" = _m2Ey9p3p;
-        "fabric-1.21.5" = _vp9IDNL5;
-        "fabric-1.21.6" = _MU66P5YB;
-        "fabric-1.21.7" = _8fEUkr1G;
-        "fabric-1.21.8" = _5Mtw3GHm;
-        "fabric-1.21.9" = _H2bu5g8f;
-        "fabric-1.21.10" = _UDndRN65;
-        "fabric-1.21.11" = _rRgzIw45;
-        "fabric-26.1" = _jewshfnd;
-        "fabric-26.1.1" = _S9pLASIZ;
-        "fabric-26.1.2" = _GU7maRCp;
-        "fabric-26.2" = _LWAqX1kt;
+        "HltfPBXc" = _HltfPBXc;
+        "xoEKv6cD" = _xoEKv6cD;
+        "dUwaicws" = _dUwaicws;
+        "3BjooyLf" = _3BjooyLf;
+        "Vpu6Dezk" = _Vpu6Dezk;
+        "RNjTJVLC" = _RNjTJVLC;
+        "728a2Hfd" = _728a2Hfd;
+        "HAO8JSmJ" = _HAO8JSmJ;
+        "EDWMmFXM" = _EDWMmFXM;
+        "H9RXUiPZ" = _H9RXUiPZ;
+        "dIDHm2g8" = _dIDHm2g8;
+        "DZLbooE0" = _DZLbooE0;
+        "rVlm3uwN" = _rVlm3uwN;
+        "ZDVnQd7P" = _ZDVnQd7P;
+        "2nfG0xJD" = _2nfG0xJD;
+        "fIHFG8Hn" = _fIHFG8Hn;
+        "gtopRBJl" = _gtopRBJl;
+        "K8YsZdQk" = _K8YsZdQk;
+        "he5H5zql" = _he5H5zql;
+        "xgaKYAm8" = _xgaKYAm8;
+        "zq8SzHor" = _zq8SzHor;
+        "KFSL0IMr" = _KFSL0IMr;
+        "P6WHPvW9" = _P6WHPvW9;
+        "5bfipGN1" = _5bfipGN1;
+        "fabric-1.20.4" = _Vpu6Dezk;
+        "fabric-1.20.3" = _3BjooyLf;
+        "fabric-1.21" = _HAO8JSmJ;
+        "fabric-1.21.1" = _EDWMmFXM;
+        "fabric-1.21.2" = _rVlm3uwN;
+        "fabric-1.21.3" = _ZDVnQd7P;
+        "fabric-1.21.4" = _2nfG0xJD;
+        "fabric-1.20.1" = _xoEKv6cD;
+        "fabric-1.20" = _HltfPBXc;
+        "fabric-1.20.2" = _dUwaicws;
+        "fabric-1.20.5" = _RNjTJVLC;
+        "fabric-1.20.6" = _728a2Hfd;
+        "fabric-1.21.5" = _fIHFG8Hn;
+        "fabric-1.21.6" = _DZLbooE0;
+        "fabric-1.21.7" = _gtopRBJl;
+        "fabric-1.21.8" = _K8YsZdQk;
+        "fabric-1.21.9" = _he5H5zql;
+        "fabric-1.21.10" = _H9RXUiPZ;
+        "fabric-1.21.11" = _dIDHm2g8;
+        "fabric-26.1" = _xgaKYAm8;
+        "fabric-26.1.1" = _zq8SzHor;
+        "fabric-26.1.2" = _KFSL0IMr;
+        "fabric-26.2" = _P6WHPvW9;
+        "fabric-26.3" = _5bfipGN1;
         "pkg-1.0.0+1.20.4" = _ORjOWX0C;
         "pkg-1.0.0+1.20.3" = _wZBUNk8o;
         "pkg-1.0.1+1.20.4" = _P5Gqvjuw;
@@ -816,7 +961,31 @@ let
         "pkg-1.2.4+26.1.1" = _S9pLASIZ;
         "pkg-1.2.4+26.1.2" = _GU7maRCp;
         "pkg-1.2.4+26.2" = _LWAqX1kt;
-        "default" = _LWAqX1kt;
+        "pkg-1.2.5+1.20" = _HltfPBXc;
+        "pkg-1.2.5+1.20.1" = _xoEKv6cD;
+        "pkg-1.2.5+1.20.2" = _dUwaicws;
+        "pkg-1.2.5+1.20.3" = _3BjooyLf;
+        "pkg-1.2.5+1.20.4" = _Vpu6Dezk;
+        "pkg-1.2.5+1.20.5" = _RNjTJVLC;
+        "pkg-1.2.5+1.20.6" = _728a2Hfd;
+        "pkg-1.2.5+1.21" = _HAO8JSmJ;
+        "pkg-1.2.5+1.21.1" = _EDWMmFXM;
+        "pkg-1.2.5+1.21.10" = _H9RXUiPZ;
+        "pkg-1.2.5+1.21.11" = _dIDHm2g8;
+        "pkg-1.2.5+1.21.6" = _DZLbooE0;
+        "pkg-1.2.5+1.21.2" = _rVlm3uwN;
+        "pkg-1.2.5+1.21.3" = _ZDVnQd7P;
+        "pkg-1.2.5+1.21.4" = _2nfG0xJD;
+        "pkg-1.2.5+1.21.5" = _fIHFG8Hn;
+        "pkg-1.2.5+1.21.7" = _gtopRBJl;
+        "pkg-1.2.5+1.21.8" = _K8YsZdQk;
+        "pkg-1.2.5+1.21.9" = _he5H5zql;
+        "pkg-1.2.5+26.1" = _xgaKYAm8;
+        "pkg-1.2.5+26.1.1" = _zq8SzHor;
+        "pkg-1.2.5+26.1.2" = _KFSL0IMr;
+        "pkg-1.2.5+26.2" = _P6WHPvW9;
+        "pkg-1.2.5+26.3" = _5bfipGN1;
+        "default" = _5bfipGN1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fancy-health-bar";

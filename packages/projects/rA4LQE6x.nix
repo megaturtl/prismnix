@@ -21,11 +21,17 @@ let
             "file" = "FrozenHomes.jar";
             "hash" = "sha512-AzlAiK0ApbS8EJn+n+ow9DIo6zCR4v+9I1d9hwUdtwxheUw7AEbv33rtdN4tqHyQqsYC7pwo/BqCKKhe5YXpvQ==";
         };
+        _tJ8BRfLl = {
+            "id" = "tJ8BRfLl";
+            "file" = "FrozenHomes-2.1.0.jar";
+            "hash" = "sha512-a4kHdFQ29spFwA9qbk+z5Pwl+FboPg2OAb+yfwjR3OdE8UcPjlBUqCBX0JvjtXgju1wTV7zWwbLUY/ocCf8C2w==";
+        };
     in {
         "xtwjCWHz" = _xtwjCWHz;
         "ByAdDu3A" = _ByAdDu3A;
         "GjWiQhps" = _GjWiQhps;
         "dDqkZUaN" = _dDqkZUaN;
+        "tJ8BRfLl" = _tJ8BRfLl;
         "paper-1.2.1" = _xtwjCWHz;
         "paper-1.2.2" = _xtwjCWHz;
         "paper-1.2.3" = _xtwjCWHz;
@@ -50,10 +56,11 @@ let
         "paper-1.21.9" = _ByAdDu3A;
         "paper-1.21.10" = _ByAdDu3A;
         "paper-1.21.11" = _ByAdDu3A;
-        "paper-26.1" = _GjWiQhps;
-        "paper-26.1.1" = _GjWiQhps;
-        "paper-26.1.2" = _GjWiQhps;
-        "paper-26.2" = _dDqkZUaN;
+        "paper-26.1" = _tJ8BRfLl;
+        "paper-26.1.1" = _tJ8BRfLl;
+        "paper-26.1.2" = _tJ8BRfLl;
+        "paper-26.2" = _tJ8BRfLl;
+        "paper-26.3" = _tJ8BRfLl;
         "spigot-1.2.1" = _xtwjCWHz;
         "spigot-1.2.2" = _xtwjCWHz;
         "spigot-1.2.3" = _xtwjCWHz;
@@ -78,6 +85,11 @@ let
         "spigot-1.21.9" = _ByAdDu3A;
         "spigot-1.21.10" = _ByAdDu3A;
         "spigot-1.21.11" = _ByAdDu3A;
+        "spigot-26.1" = _tJ8BRfLl;
+        "spigot-26.1.1" = _tJ8BRfLl;
+        "spigot-26.1.2" = _tJ8BRfLl;
+        "spigot-26.2" = _tJ8BRfLl;
+        "spigot-26.3" = _tJ8BRfLl;
         "purpur-1.21" = _ByAdDu3A;
         "purpur-1.21.1" = _ByAdDu3A;
         "purpur-1.21.2" = _ByAdDu3A;
@@ -90,19 +102,22 @@ let
         "purpur-1.21.9" = _ByAdDu3A;
         "purpur-1.21.10" = _ByAdDu3A;
         "purpur-1.21.11" = _ByAdDu3A;
-        "purpur-26.1" = _GjWiQhps;
-        "purpur-26.1.1" = _GjWiQhps;
-        "purpur-26.1.2" = _GjWiQhps;
-        "purpur-26.2" = _dDqkZUaN;
-        "folia-26.1" = _GjWiQhps;
-        "folia-26.1.1" = _GjWiQhps;
-        "folia-26.1.2" = _GjWiQhps;
-        "folia-26.2" = _dDqkZUaN;
+        "purpur-26.1" = _tJ8BRfLl;
+        "purpur-26.1.1" = _tJ8BRfLl;
+        "purpur-26.1.2" = _tJ8BRfLl;
+        "purpur-26.2" = _tJ8BRfLl;
+        "purpur-26.3" = _tJ8BRfLl;
+        "folia-26.1" = _tJ8BRfLl;
+        "folia-26.1.1" = _tJ8BRfLl;
+        "folia-26.1.2" = _tJ8BRfLl;
+        "folia-26.2" = _tJ8BRfLl;
+        "folia-26.3" = _tJ8BRfLl;
         "pkg-1.0.0" = _xtwjCWHz;
         "pkg-2.0" = _ByAdDu3A;
         "pkg-1.1.0" = _GjWiQhps;
         "pkg-1.1.1" = _dDqkZUaN;
-        "default" = _dDqkZUaN;
+        "pkg-2.1.0" = _tJ8BRfLl;
+        "default" = _tJ8BRfLl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "frozenhomes";

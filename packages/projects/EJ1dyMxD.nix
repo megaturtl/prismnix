@@ -246,6 +246,11 @@ let
             "file" = "Mello 0.73.zip";
             "hash" = "sha512-z9rjiCJpEXH/y6rTTeLQtN9WkILn2nAIcBdUvNuELHWbJKkltTWjDeA/4yAPQmK8cO6OVWfZhWKlUUXawh28qQ==";
         };
+        _TjD2cSFX = {
+            "id" = "TjD2cSFX";
+            "file" = "Mello 0.731.zip";
+            "hash" = "sha512-OQ8Q3CLT72U7gP3RDJYpswcdQ2baYpFy2KAZ920RlR3piW/3miogWXjGCNyexx6mIGBr0+qNImz6GNcE95fjfQ==";
+        };
     in {
         "A6PSFluC" = _A6PSFluC;
         "YDfXIcW9" = _YDfXIcW9;
@@ -296,6 +301,7 @@ let
         "f0wezvuD" = _f0wezvuD;
         "RjXjXE8U" = _RjXjXE8U;
         "rZyBrPzE" = _rZyBrPzE;
+        "TjD2cSFX" = _TjD2cSFX;
         "iris-1.21" = _ZPvmUpma;
         "iris-1.21.1" = _ZPvmUpma;
         "iris-1.21.2" = _ZPvmUpma;
@@ -311,7 +317,7 @@ let
         "iris-26.1" = _Wlv7gxcf;
         "iris-26.1.1" = _Wlv7gxcf;
         "iris-26.1.2" = _Wlv7gxcf;
-        "iris-26.2" = _rZyBrPzE;
+        "iris-26.2" = _TjD2cSFX;
         "iris-1.20" = _ZPvmUpma;
         "iris-1.20.1" = _ZPvmUpma;
         "iris-1.20.2" = _ZPvmUpma;
@@ -319,7 +325,7 @@ let
         "iris-1.20.4" = _ZPvmUpma;
         "iris-1.20.5" = _ZPvmUpma;
         "iris-1.20.6" = _ZPvmUpma;
-        "iris-26.3" = _rZyBrPzE;
+        "iris-26.3" = _TjD2cSFX;
         "pkg-0.1" = _A6PSFluC;
         "pkg-0.2" = _YDfXIcW9;
         "pkg-0.21" = _YSUdW5dR;
@@ -369,7 +375,8 @@ let
         "pkg-0.72" = _f0wezvuD;
         "pkg-0.721" = _RjXjXE8U;
         "pkg-0.73" = _rZyBrPzE;
-        "default" = _rZyBrPzE;
+        "pkg-0.731" = _TjD2cSFX;
+        "default" = _TjD2cSFX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mello";

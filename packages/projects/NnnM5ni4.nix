@@ -61,6 +61,11 @@ let
             "file" = "elytra-bonk-neoforge-1.0.1+26.1.jar";
             "hash" = "sha512-wUM5lJ3yCjuAY/CC4E/fnhVU2dfEHVo/4OBc4CZBtuQXLlGfdheE+acBIvDqbuHJ1PjYqTzusp1SpUFl+yGC7A==";
         };
+        _88GBdfUu = {
+            "id" = "88GBdfUu";
+            "file" = "elytra-bonk-forge-1.0.1+1.20.1.jar";
+            "hash" = "sha512-cO7yoW3MrUaC0jiiV+si/k4evRv1FZ4pxVVKV5lQ65i61GmjJ4mHxdM6snnqf8tpwUCb49yHUtrv/uwxfzEvLg==";
+        };
     in {
         "3Sm1kHBm" = _3Sm1kHBm;
         "FuTshzC1" = _FuTshzC1;
@@ -74,6 +79,7 @@ let
         "K9JyHrPV" = _K9JyHrPV;
         "lLXSfqgd" = _lLXSfqgd;
         "CkTpHxqT" = _CkTpHxqT;
+        "88GBdfUu" = _88GBdfUu;
         "fabric-1.21.1" = _ay3taIrC;
         "fabric-1.21.11" = _MuoP0b8O;
         "fabric-26.1" = _lLXSfqgd;
@@ -88,13 +94,15 @@ let
         "neoforge-26.1.2" = _CkTpHxqT;
         "neoforge-26.2" = _CkTpHxqT;
         "neoforge-26.3" = _CkTpHxqT;
+        "forge-1.20.1" = _88GBdfUu;
         "pkg-1.0.0+1.21.1" = _FuTshzC1;
         "pkg-1.0.0+1.21.11" = _PkoSovM5;
         "pkg-1.0.0+26.1" = _eqYGZMLa;
         "pkg-1.0.1+1.21.1" = _ZijODs6S;
         "pkg-1.0.1+1.21.11" = _K9JyHrPV;
         "pkg-1.0.1+26.1" = _CkTpHxqT;
-        "default" = _CkTpHxqT;
+        "pkg-1.0.1+1.20.1" = _88GBdfUu;
+        "default" = _88GBdfUu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elytra-bonk";

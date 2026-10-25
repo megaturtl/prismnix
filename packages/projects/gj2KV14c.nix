@@ -151,6 +151,66 @@ let
             "file" = "SimpleCraftEditor-fabric-26.3-1.3.0.jar";
             "hash" = "sha512-6O5qwKLfq4F1Ogtsskx50+FDIrw7rsOEXeQ5GBuHWQB8JhAju+NgSjAF/zU6EQhUgE7OTG0Bi29psv3JYDAQRg==";
         };
+        _nIC7ICYl = {
+            "id" = "nIC7ICYl";
+            "file" = "SimpleCraftEditor-forge-1.20.1-1.3.1.jar";
+            "hash" = "sha512-WR9Fnbt0hT8KjNpFNLq9+dKpZm6G+x7bxNMHiXMq9GBNbMEAhCNpwbp+JXkxWp8FkdfhzV0iD5PFm7X2zGkcaw==";
+        };
+        _iaxhEYsS = {
+            "id" = "iaxhEYsS";
+            "file" = "SimpleCraftEditor-fabric-1.20.1-1.3.1.jar";
+            "hash" = "sha512-qWDGhXFal7F/CniXVSPKybeZgPVIK+uAwQgxKNc7mC6xe5qqRjjNwushvz71H/xHoL83WtfwU6GFx2v3T+jhLw==";
+        };
+        _arE69Dm7 = {
+            "id" = "arE69Dm7";
+            "file" = "SimpleCraftEditor-neoforge-1.21.1-1.3.1.jar";
+            "hash" = "sha512-2Ccz8gWi/Hk7VXnDq/1YrlNM8Z5mezMCN6eOS7pElC/sNa8tA10wkWbzANY+LptoUbIuaBtvIWC5rs3f64E03A==";
+        };
+        _dDXrpKbL = {
+            "id" = "dDXrpKbL";
+            "file" = "SimpleCraftEditor-fabric-1.21.1-1.3.1.jar";
+            "hash" = "sha512-znzLA7td329cqd0CA8R1aryBq43afOceuTAWjCj4F/3ioyB6U/OC/Om5L9XvSAzl9gLszxdAfhl/ROxJxY6xpw==";
+        };
+        _Vx0oLO8S = {
+            "id" = "Vx0oLO8S";
+            "file" = "SimpleCraftEditor-neoforge-1.21.11-1.3.1.jar";
+            "hash" = "sha512-i+Q/kawVk8A66VaCJQLo5CgBTcpZlWY+H1jUFx1SK/Ga9OTNhdS45hRrGP9F4OnIQ/4++hNg1lnyYTgmAxIkbg==";
+        };
+        _holAB4XU = {
+            "id" = "holAB4XU";
+            "file" = "SimpleCraftEditor-fabric-1.21.11-1.3.1.jar";
+            "hash" = "sha512-/cpiqp2yDZWBspTOPo5krKZ6t28/X4J0EuPh7TPNwi7B1XuDtOWZZ1EoLRuOvGLPs2BR1gIuUyYG+GaNalnl/A==";
+        };
+        _FPkHdXzg = {
+            "id" = "FPkHdXzg";
+            "file" = "SimpleCraftEditor-neoforge-26.1.2-1.3.1.jar";
+            "hash" = "sha512-Pj1u1J5m8zGgdXMS2EbIVQXiRrDrNeAHcdMyzqc0WmM9DI1RluPRsQ+ZuWMnxqHdF1OEACSlHoRCQNYku26qdg==";
+        };
+        _4e7x2SIu = {
+            "id" = "4e7x2SIu";
+            "file" = "SimpleCraftEditor-fabric-26.1.2-1.3.1.jar";
+            "hash" = "sha512-TV2+0aRBHZrQEEeXkAcoPw7S3nBVzcS2xZIqljLOrtzhJNcf71Q/TjINf8ZEVus1qgERERi9rQV6Dm+rp9kx/A==";
+        };
+        _UwZGsVxZ = {
+            "id" = "UwZGsVxZ";
+            "file" = "SimpleCraftEditor-neoforge-26.2-1.3.1.jar";
+            "hash" = "sha512-AgM/8xA6T0Zlsu/MUeloBDO+ykRaBiFsCP4E1CXjlYtmsMNbYYaC83yPwDa/qj3qdpUeGjAeZP/y8IjZnIH+IA==";
+        };
+        _in13ObeB = {
+            "id" = "in13ObeB";
+            "file" = "SimpleCraftEditor-fabric-26.2-1.3.1.jar";
+            "hash" = "sha512-X/0VEZwy+uJygSfOKG/3KoeiplKC2EFtcjnN9DNnd63/z/YIWQcKDkLe/nCqFX/ooR8Cv5oDtRPMFh7FMPx6cA==";
+        };
+        _d3Xs62Vm = {
+            "id" = "d3Xs62Vm";
+            "file" = "SimpleCraftEditor-neoforge-26.3-1.3.1.jar";
+            "hash" = "sha512-TeDXx1Dn0a8KJKz+lpCSIPNrEj1bR21gFt4XJ6pCORnN97H8l+KdFLhpJwkh3HWHbamCSL3o2Qp7UxjsUwjNxw==";
+        };
+        _IXdlT7XX = {
+            "id" = "IXdlT7XX";
+            "file" = "SimpleCraftEditor-fabric-26.3-1.3.1.jar";
+            "hash" = "sha512-CzMG/eVr3xNf57hGXSa6os3SwmySkclsiNLexYkbYFbokeVvS0+nRlz7Lg4u7TRBMw9jLoHcC0a9G3PNflIhyg==";
+        };
     in {
         "lFbl7VYD" = _lFbl7VYD;
         "ExdigR3p" = _ExdigR3p;
@@ -182,23 +242,36 @@ let
         "aiBFbv5N" = _aiBFbv5N;
         "twvt927f" = _twvt927f;
         "DEfI1Bj9" = _DEfI1Bj9;
-        "fabric-1.20.1" = _DiomQPtp;
-        "fabric-1.21.1" = _OpKkzRBG;
-        "fabric-1.21.11" = _WwQxhTv5;
-        "fabric-26.1.2" = _iGFi5oTC;
-        "fabric-26.2" = _aiBFbv5N;
-        "fabric-26.3" = _DEfI1Bj9;
-        "forge-1.20.1" = _hVGDQnXg;
-        "neoforge-1.21.1" = _MtUn2jzM;
-        "neoforge-1.21.11" = _wFGLu9JK;
-        "neoforge-26.1.2" = _T9uShb8L;
-        "neoforge-26.2" = _gXARkQLv;
-        "neoforge-26.3" = _twvt927f;
+        "nIC7ICYl" = _nIC7ICYl;
+        "iaxhEYsS" = _iaxhEYsS;
+        "arE69Dm7" = _arE69Dm7;
+        "dDXrpKbL" = _dDXrpKbL;
+        "Vx0oLO8S" = _Vx0oLO8S;
+        "holAB4XU" = _holAB4XU;
+        "FPkHdXzg" = _FPkHdXzg;
+        "4e7x2SIu" = _4e7x2SIu;
+        "UwZGsVxZ" = _UwZGsVxZ;
+        "in13ObeB" = _in13ObeB;
+        "d3Xs62Vm" = _d3Xs62Vm;
+        "IXdlT7XX" = _IXdlT7XX;
+        "fabric-1.20.1" = _iaxhEYsS;
+        "fabric-1.21.1" = _dDXrpKbL;
+        "fabric-1.21.11" = _holAB4XU;
+        "fabric-26.1.2" = _4e7x2SIu;
+        "fabric-26.2" = _in13ObeB;
+        "fabric-26.3" = _IXdlT7XX;
+        "forge-1.20.1" = _nIC7ICYl;
+        "neoforge-1.21.1" = _arE69Dm7;
+        "neoforge-1.21.11" = _Vx0oLO8S;
+        "neoforge-26.1.2" = _FPkHdXzg;
+        "neoforge-26.2" = _UwZGsVxZ;
+        "neoforge-26.3" = _d3Xs62Vm;
         "pkg-1.0.0" = _He1F2BYO;
         "pkg-1.1.0" = _kGWgFPF7;
         "pkg-1.2.0" = _VWD0I1OA;
         "pkg-1.3.0" = _DEfI1Bj9;
-        "default" = _DEfI1Bj9;
+        "pkg-1.3.1" = _IXdlT7XX;
+        "default" = _IXdlT7XX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-craft-editor";

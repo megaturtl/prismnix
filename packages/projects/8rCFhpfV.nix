@@ -101,6 +101,56 @@ let
             "file" = "colered-crosshair-1.1.1-26.1.2.jar";
             "hash" = "sha512-4T0C/OYBMxJUqHrm3HjBEiL5cJF6cM1ynKK1DDwkvNBBp3B0g1gGK1iYdvzWeYkCG5ocfDVJWtZ6nSFzPBlxIQ==";
         };
+        _u8hOaP2s = {
+            "id" = "u8hOaP2s";
+            "file" = "colered-crosshair-1.1.2-26.3.jar";
+            "hash" = "sha512-88m7l9xvpJ3ZTILhnP2XGrSsSGTDc9kGvycCERU3nIVrzapb+LGAdIC2ztgS4yLv/q3orZ6ZIs3POlbV4KfJ/g==";
+        };
+        _P3PXTng9 = {
+            "id" = "P3PXTng9";
+            "file" = "colered-crosshair-1.1.2-1.21.11.jar";
+            "hash" = "sha512-EaGOF2i5jbqMOanJQKL2pS654lMkTyclw/60tBYehKjCZ8srIuwrYEVInDoJiRWSLmYvHwy54IZ1zI0+uOeesw==";
+        };
+        _MUer8nXI = {
+            "id" = "MUer8nXI";
+            "file" = "colered-crosshair-1.1.2-26.1.2.jar";
+            "hash" = "sha512-mCb9Ct1SxXpPEO3MTO6+yBoagk+YxZSr7Xqt2MAmw6z+VUE89/9DvmwmpIzNs4D7qc5FZF1qfrM9koOEG6QckQ==";
+        };
+        _wgFhMpCw = {
+            "id" = "wgFhMpCw";
+            "file" = "colered-crosshair-1.1.2-quilt-26.3.jar";
+            "hash" = "sha512-eY2fFtDg2yOu/sq2tlK5Jq82F+HtNcoDRxWHtVQNzWwDPwjpHgKD10z+ryGq1M/bEyLbEegymlX/zc6fVTtUJw==";
+        };
+        _7ZDfVL32 = {
+            "id" = "7ZDfVL32";
+            "file" = "colered-crosshair-1.1.2-quilt-1.21.11.jar";
+            "hash" = "sha512-xldbBu4nppgeJAV3MZw80X7pCO2tIt4kHRiqm9XbnFJ/w7RE1PhWP3Hi7DL8An/N5DwWqNJCEE52xHn9xXeTig==";
+        };
+        _OnuzKsWM = {
+            "id" = "OnuzKsWM";
+            "file" = "colered-crosshair-1.1.2-26.1.jar";
+            "hash" = "sha512-I/hpHGCiuD9WFf0I+V9K2veSElR1vKuGsHFvoBY21qSO3/uoCPy0Yp0yRRkuKKjYAw/dUNgb9QZP2NJ4njC90A==";
+        };
+        _SeJMg5cu = {
+            "id" = "SeJMg5cu";
+            "file" = "colered-crosshair-1.1.2-26.1.1.jar";
+            "hash" = "sha512-NhI23hRhNllp0rExoUIcbyw8FZhkNsKBhhJnlvzwQKZFGAm3EQz4w8cE2v0G/BMbWsKtDCf79fT6+IO6ReHTMw==";
+        };
+        _cQrP9joJ = {
+            "id" = "cQrP9joJ";
+            "file" = "colered-crosshair-1.1.2-26.2.jar";
+            "hash" = "sha512-G6AiXGlWyAw6pB5MPhz1qDGCpVPT3E+V1eIAf0d7R70XE9EKVctc4NcHWvLaIhdtpkftJiyF7vU2mObePBoBbA==";
+        };
+        _S3ECiJrw = {
+            "id" = "S3ECiJrw";
+            "file" = "colered-crosshair-1.1.2-neoforge-26.3.jar";
+            "hash" = "sha512-XyKCGAD6flUk8i/upWfh81oC7YJehHSNQa0sF3DqAPvyGCx9MTHPVj1tHOOkf8+MXOSHOV8srb2mhAVsS1hmoQ==";
+        };
+        _Ysz8DhUR = {
+            "id" = "Ysz8DhUR";
+            "file" = "colered-crosshair-1.1.2-neoforge-1.21.11.jar";
+            "hash" = "sha512-45neo5t8MZ73+mg4fEOuTJfC2FQ+yVGTKlearxHyVrsdkW9NlvRbIV+5fgKUbMp+NmkeFA1Fu/G8U8PjtEtCuQ==";
+        };
     in {
         "Av1YQ2Gf" = _Av1YQ2Gf;
         "97ccGxue" = _97ccGxue;
@@ -122,8 +172,18 @@ let
         "VmjF0FQX" = _VmjF0FQX;
         "98ADRKOn" = _98ADRKOn;
         "yQcsaH4q" = _yQcsaH4q;
+        "u8hOaP2s" = _u8hOaP2s;
+        "P3PXTng9" = _P3PXTng9;
+        "MUer8nXI" = _MUer8nXI;
+        "wgFhMpCw" = _wgFhMpCw;
+        "7ZDfVL32" = _7ZDfVL32;
+        "OnuzKsWM" = _OnuzKsWM;
+        "SeJMg5cu" = _SeJMg5cu;
+        "cQrP9joJ" = _cQrP9joJ;
+        "S3ECiJrw" = _S3ECiJrw;
+        "Ysz8DhUR" = _Ysz8DhUR;
         "fabric-1.21.10" = _a5wtJavB;
-        "fabric-1.21.11" = _98ADRKOn;
+        "fabric-1.21.11" = _P3PXTng9;
         "fabric-1.21" = _WQJMNzfU;
         "fabric-1.21.1" = _WQJMNzfU;
         "fabric-1.21.2" = _WQJMNzfU;
@@ -134,11 +194,13 @@ let
         "fabric-1.21.7" = _WQJMNzfU;
         "fabric-1.21.8" = _WQJMNzfU;
         "fabric-1.21.9" = _wBRNDezp;
-        "fabric-26.1" = _yQcsaH4q;
-        "fabric-26.1.1" = _yQcsaH4q;
-        "fabric-26.1.2" = _yQcsaH4q;
+        "fabric-26.1" = _OnuzKsWM;
+        "fabric-26.1.1" = _SeJMg5cu;
+        "fabric-26.1.2" = _MUer8nXI;
+        "fabric-26.3" = _u8hOaP2s;
+        "fabric-26.2" = _cQrP9joJ;
         "neoforge-1.21.10" = _Tf6kYJwZ;
-        "neoforge-1.21.11" = _Tf6kYJwZ;
+        "neoforge-1.21.11" = _Ysz8DhUR;
         "neoforge-1.21.1" = _9ApByJVD;
         "neoforge-1.21.2" = _9ApByJVD;
         "neoforge-1.21.3" = _9ApByJVD;
@@ -148,6 +210,7 @@ let
         "neoforge-1.21.7" = _9ApByJVD;
         "neoforge-1.21.8" = _9ApByJVD;
         "neoforge-1.21.9" = _Tf6kYJwZ;
+        "neoforge-26.3" = _S3ECiJrw;
         "quilt-1.21" = _Ni7rTaqi;
         "quilt-1.21.1" = _Ni7rTaqi;
         "quilt-1.21.2" = _Ni7rTaqi;
@@ -159,7 +222,8 @@ let
         "quilt-1.21.8" = _Ni7rTaqi;
         "quilt-1.21.9" = _Ni7rTaqi;
         "quilt-1.21.10" = _Ni7rTaqi;
-        "quilt-1.21.11" = _Ni7rTaqi;
+        "quilt-1.21.11" = _7ZDfVL32;
+        "quilt-26.3" = _wgFhMpCw;
         "pkg-1.0.0" = _Av1YQ2Gf;
         "pkg-1.0.1" = _97ccGxue;
         "pkg-1.0.1-neoforge" = _dYI2olMg;
@@ -178,7 +242,17 @@ let
         "pkg-1.0.9" = _ZLmEeV2L;
         "pkg-1.1" = _VmjF0FQX;
         "pkg-1.1.1" = _yQcsaH4q;
-        "default" = _yQcsaH4q;
+        "pkg-1.1.2-26.3" = _u8hOaP2s;
+        "pkg-1.1.2-1.21.11" = _P3PXTng9;
+        "pkg-1.1.2-26.1.2" = _MUer8nXI;
+        "pkg-1.1.2-quilt-26.3" = _wgFhMpCw;
+        "pkg-1.1.2-quilt-1.21.11" = _7ZDfVL32;
+        "pkg-1.1.2-26.1" = _OnuzKsWM;
+        "pkg-1.1.2-26.1.1" = _SeJMg5cu;
+        "pkg-1.1.2-26.2" = _cQrP9joJ;
+        "pkg-1.1.2-neoforge-26.3" = _S3ECiJrw;
+        "pkg-1.1.2-neoforge-1.21.11" = _Ysz8DhUR;
+        "default" = _Ysz8DhUR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "colored-crosshair";

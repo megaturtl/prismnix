@@ -86,6 +86,21 @@ let
             "file" = "chikas_plants_mod-v1.0.1-1.19.2.jar";
             "hash" = "sha512-OnPe7IQILXkX+VPHEpYbOVcMqidSwDODlPIqIl3PCevGtTk+8hdw9clDICjqY6Az1EqCb74GZCcAKYHgfWg6BQ==";
         };
+        _v0UZig3u = {
+            "id" = "v0UZig3u";
+            "file" = "chikas_plants_mod-v1.0.2-1.19.2.jar";
+            "hash" = "sha512-iqs+i2SXRYKNVylctXSyA1pfwFt3elNeN6PiZkaur/HS+0OflkJ+QYi0W4Hbu6b197+VlQOHjp9GlPPLTQl4eA==";
+        };
+        _THbVpfqd = {
+            "id" = "THbVpfqd";
+            "file" = "chikas_plants_mod-v1.1.4-Forge-1.20.1.jar";
+            "hash" = "sha512-dido2F6GbLQk1f6eOKNSihvBqPr1ZAt4olRnQjmly7PWTjsujV1kCCLHDkH5BEaNXnW6fWNigjUjwzvTtj/mAw==";
+        };
+        _HK2pNkHT = {
+            "id" = "HK2pNkHT";
+            "file" = "chikas_plants_mod-v1.0.3-1.21.1.jar";
+            "hash" = "sha512-EUbsyPmuhqv5wffKiCBP2cnZPml8g243qWVbgKN5er2JJw+jQYKdcSRi2j84pV57G+0XDNuhc2TDCYU+HAT/yw==";
+        };
     in {
         "VVdJmZNZ" = _VVdJmZNZ;
         "RkcJogJV" = _RkcJogJV;
@@ -104,9 +119,12 @@ let
         "4w2D4hoA" = _4w2D4hoA;
         "NzGNYehu" = _NzGNYehu;
         "Y4qC8TzN" = _Y4qC8TzN;
-        "forge-1.19.2" = _Y4qC8TzN;
-        "forge-1.20.1" = _4w2D4hoA;
-        "neoforge-1.21.1" = _NzGNYehu;
+        "v0UZig3u" = _v0UZig3u;
+        "THbVpfqd" = _THbVpfqd;
+        "HK2pNkHT" = _HK2pNkHT;
+        "forge-1.19.2" = _v0UZig3u;
+        "forge-1.20.1" = _THbVpfqd;
+        "neoforge-1.21.1" = _HK2pNkHT;
         "pkg-v0.9.0-1.19.2" = _VVdJmZNZ;
         "pkg-v0.9.1-1.19.2" = _RkcJogJV;
         "pkg-v0.9.2-1.19.2" = _XMrDuQLl;
@@ -124,7 +142,10 @@ let
         "pkg-v1.1.3-1.20.1" = _4w2D4hoA;
         "pkg-v1.0.2-1.21.1" = _NzGNYehu;
         "pkg-v1.0.1-1.19.2" = _Y4qC8TzN;
-        "default" = _Y4qC8TzN;
+        "pkg-v1.0.2-1.19.2" = _v0UZig3u;
+        "pkg-v1.1.4-1.20.1" = _THbVpfqd;
+        "pkg-v1.0.3-1.21.1" = _HK2pNkHT;
+        "default" = _HK2pNkHT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chikas-plants-mod";

@@ -36,6 +36,36 @@ let
             "file" = "Cloudflared-neoforge-21.1.1.jar";
             "hash" = "sha512-JwyFDc0occ01hDvJ9xraM6BqqzFFYrHT2SZbFzbP0AUsuMB6aPuQ1FF0OTVA8GRv0+i2hHFxZGgau556Ww0a8g==";
         };
+        _9eWWzhvF = {
+            "id" = "9eWWzhvF";
+            "file" = "Cloudflared-7.10.3.jar";
+            "hash" = "sha512-n7jVp8cjijdct6Iok0S6nsFR2UYIash3ujvAl2UZpMm+T8GZkA/kPeadpRPKWkRJYXytL1aq++UjCAFYEC8l0g==";
+        };
+        _BTAYN2fR = {
+            "id" = "BTAYN2fR";
+            "file" = "Cloudflared-1.12.2-12.2.3.jar";
+            "hash" = "sha512-KWBu86xOzRXSBH5F2ZPuvooN8AqOmXWR2za5S7oqUWUE3ufYbdnYF6uYo8I7JxzUbjz3NL9dD75x1q0K6yzw7Q==";
+        };
+        _YcYogubN = {
+            "id" = "YcYogubN";
+            "file" = "Cloudflared-19.2.3-forge.jar";
+            "hash" = "sha512-iQn9/RNOcY+mWbIBkZETqffOkIb4F9dMO2MwFVdKilPGJ4Cu5CtTmyEZcLTgIypB8reuSwOV2Vs1Em1XERMAiQ==";
+        };
+        _sA3gWWp4 = {
+            "id" = "sA3gWWp4";
+            "file" = "Cloudflared-19.2.3-fabric.jar";
+            "hash" = "sha512-d+Au9aYT5Eqfv2DW6088aQnUTDi4TovvwBEayGeVErK8Pzctqjohhhr0ro3misrFSonX75Pwpn9BfrldGoMYFA==";
+        };
+        _eOVQJ3Lj = {
+            "id" = "eOVQJ3Lj";
+            "file" = "Cloudflared-neoforge-21.1.3.jar";
+            "hash" = "sha512-tvhMX8gOqg1XJEI9m1Pqc9Y5w6gCuILzIi2w02XDWduwncIuUGuOPHtG6w+89OkQb5WtwovJZGHCNfYPiY98EA==";
+        };
+        _vPwKN3gN = {
+            "id" = "vPwKN3gN";
+            "file" = "Cloudflared-fabric-21.1.3.jar";
+            "hash" = "sha512-EXzW76EKLyNIWSCKwYGOBU0JBv2sOyruplCOuTUYlTC9xPZN6uxpYXorPaa6NSJtksyPUL3DV9nrfMVPrZQplg==";
+        };
     in {
         "3REXuT8M" = _3REXuT8M;
         "lZdA6aLn" = _lZdA6aLn;
@@ -44,32 +74,42 @@ let
         "QIpEJxjP" = _QIpEJxjP;
         "Xw61bw2U" = _Xw61bw2U;
         "CIHSwlCu" = _CIHSwlCu;
-        "forge-1.12.2" = _LP7YFmyu;
-        "forge-1.19.2" = _MrcTJMvv;
-        "forge-1.19.3" = _MrcTJMvv;
-        "forge-1.19.4" = _MrcTJMvv;
-        "forge-1.20" = _MrcTJMvv;
-        "forge-1.20.1" = _MrcTJMvv;
-        "forge-1.20.2" = _MrcTJMvv;
-        "forge-1.20.3" = _MrcTJMvv;
-        "forge-1.20.4" = _MrcTJMvv;
-        "forge-1.7.10" = _QIpEJxjP;
-        "fabric-1.19.2" = _lZdA6aLn;
-        "fabric-1.19.3" = _lZdA6aLn;
-        "fabric-1.19.4" = _lZdA6aLn;
-        "fabric-1.20" = _lZdA6aLn;
-        "fabric-1.20.1" = _lZdA6aLn;
-        "fabric-1.20.2" = _lZdA6aLn;
-        "fabric-1.20.3" = _lZdA6aLn;
-        "fabric-1.20.4" = _lZdA6aLn;
-        "fabric-1.21.1" = _Xw61bw2U;
-        "neoforge-1.21.1" = _CIHSwlCu;
+        "9eWWzhvF" = _9eWWzhvF;
+        "BTAYN2fR" = _BTAYN2fR;
+        "YcYogubN" = _YcYogubN;
+        "sA3gWWp4" = _sA3gWWp4;
+        "eOVQJ3Lj" = _eOVQJ3Lj;
+        "vPwKN3gN" = _vPwKN3gN;
+        "forge-1.12.2" = _BTAYN2fR;
+        "forge-1.19.2" = _YcYogubN;
+        "forge-1.19.3" = _YcYogubN;
+        "forge-1.19.4" = _YcYogubN;
+        "forge-1.20" = _YcYogubN;
+        "forge-1.20.1" = _YcYogubN;
+        "forge-1.20.2" = _YcYogubN;
+        "forge-1.20.3" = _YcYogubN;
+        "forge-1.20.4" = _YcYogubN;
+        "forge-1.7.10" = _9eWWzhvF;
+        "fabric-1.19.2" = _sA3gWWp4;
+        "fabric-1.19.3" = _sA3gWWp4;
+        "fabric-1.19.4" = _sA3gWWp4;
+        "fabric-1.20" = _sA3gWWp4;
+        "fabric-1.20.1" = _sA3gWWp4;
+        "fabric-1.20.2" = _sA3gWWp4;
+        "fabric-1.20.3" = _sA3gWWp4;
+        "fabric-1.20.4" = _sA3gWWp4;
+        "fabric-1.21.1" = _vPwKN3gN;
+        "neoforge-1.21.1" = _eOVQJ3Lj;
         "pkg-12.2.1" = _3REXuT8M;
         "pkg-19.2.1" = _MrcTJMvv;
         "pkg-12.2.2" = _LP7YFmyu;
         "pkg-v7.10.1" = _QIpEJxjP;
         "pkg-21.1.1" = _CIHSwlCu;
-        "default" = _CIHSwlCu;
+        "pkg-7.10.3" = _9eWWzhvF;
+        "pkg-12.2.3" = _BTAYN2fR;
+        "pkg-19.2.3" = _sA3gWWp4;
+        "pkg-21.1.3" = _vPwKN3gN;
+        "default" = _vPwKN3gN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cloudflared";

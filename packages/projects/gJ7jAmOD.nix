@@ -36,6 +36,16 @@ let
             "file" = "AlwaysSnow-1.0.4.jar";
             "hash" = "sha512-8hQPkMI+oYHeCpYqEmDkdsYiSFxsl9crnJc2Rbl9Two8XUYV9eRVB1Rg344zt64M0saVvLtw5EuU6ZwazYmTLQ==";
         };
+        _RZ17pdLU = {
+            "id" = "RZ17pdLU";
+            "file" = "AlwaysSnow-1.0.4.jar";
+            "hash" = "sha512-iAuTlwTZjnOn0+6a8h8CcSP6kmAXvSVRjdV0EMUutNU3ewJsCaGbgNc9xsEfrpdmE5XkpoRm4BeXx57RA6Xphg==";
+        };
+        _RnYHlScR = {
+            "id" = "RnYHlScR";
+            "file" = "AlwaysSnow-1.0.5.jar";
+            "hash" = "sha512-OxNSd5IVIRcD2C0/mY6zp6JT7h9hOLUum8YMoOKygZEb7l1yMFwY80ZJueYy8ruPFzhFgm7USN/e1rX7abTP1Q==";
+        };
     in {
         "obqRCfOf" = _obqRCfOf;
         "C4IX9XFL" = _C4IX9XFL;
@@ -44,6 +54,8 @@ let
         "ROLYZ7CM" = _ROLYZ7CM;
         "XjSe9CWM" = _XjSe9CWM;
         "BrOeJqN2" = _BrOeJqN2;
+        "RZ17pdLU" = _RZ17pdLU;
+        "RnYHlScR" = _RnYHlScR;
         "fabric-1.20" = _obqRCfOf;
         "fabric-1.20.1" = _obqRCfOf;
         "fabric-1.20.2" = _obqRCfOf;
@@ -62,6 +74,7 @@ let
         "fabric-26.1.1" = _BrOeJqN2;
         "fabric-26.1.2" = _BrOeJqN2;
         "fabric-26.2" = _BrOeJqN2;
+        "fabric-26.3" = _RnYHlScR;
         "quilt-1.20" = _obqRCfOf;
         "quilt-1.20.1" = _obqRCfOf;
         "quilt-1.20.2" = _obqRCfOf;
@@ -80,11 +93,13 @@ let
         "quilt-26.1.1" = _BrOeJqN2;
         "quilt-26.1.2" = _BrOeJqN2;
         "quilt-26.2" = _BrOeJqN2;
+        "quilt-26.3" = _RZ17pdLU;
         "pkg-1.0.0" = _obqRCfOf;
         "pkg-1.0.2" = _OGGmfKBn;
         "pkg-1.0.3" = _BrOeJqN2;
-        "pkg-1.0.4" = _XjSe9CWM;
-        "default" = _BrOeJqN2;
+        "pkg-1.0.4" = _RZ17pdLU;
+        "pkg-1.0.5" = _RnYHlScR;
+        "default" = _RnYHlScR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "always-snow";

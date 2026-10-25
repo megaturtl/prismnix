@@ -66,6 +66,11 @@ let
             "file" = "powerchip-2.1.2.jar";
             "hash" = "sha512-AoOaX48y+Lqtl3F/7YCWM956q2kjpxw3hxYGTMljd6f8TTpiZKq47dE7Hlk0u8iV0ZvcFcKbHPvL0vd7Ya9HNQ==";
         };
+        _YIxQG5Q4 = {
+            "id" = "YIxQG5Q4";
+            "file" = "powerchip-2.1.2.jar";
+            "hash" = "sha512-52DQIgcEjuzoNfTo9gC1uoqZUCmQX6htmzShkQzqo8EI/cozoOdasB4Opv70UX46Bpwvqn0DiAKnUejDa91Jyg==";
+        };
     in {
         "w3SEOrUZ" = _w3SEOrUZ;
         "8C5Ja17v" = _8C5Ja17v;
@@ -80,7 +85,8 @@ let
         "SGG3pI7R" = _SGG3pI7R;
         "pw9UtPlH" = _pw9UtPlH;
         "sQ0nPlqx" = _sQ0nPlqx;
-        "neoforge-1.21.1" = _sQ0nPlqx;
+        "YIxQG5Q4" = _YIxQG5Q4;
+        "neoforge-1.21.1" = _YIxQG5Q4;
         "pkg-powerchip-v08615" = _w3SEOrUZ;
         "pkg-powerchip-vaf748" = _8C5Ja17v;
         "pkg-powerchip-vb230b" = _pVszBBbe;
@@ -94,7 +100,8 @@ let
         "pkg-powerchip-v45e27" = _SGG3pI7R;
         "pkg-powerchip-vda6a2" = _pw9UtPlH;
         "pkg-powerchip-vdf952" = _sQ0nPlqx;
-        "default" = _sQ0nPlqx;
+        "pkg-powerchip-v300a9" = _YIxQG5Q4;
+        "default" = _YIxQG5Q4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-power-chip";

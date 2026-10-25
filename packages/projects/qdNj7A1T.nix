@@ -76,6 +76,11 @@ let
             "file" = "Fresh Music Discs.zip";
             "hash" = "sha512-cvywturIdzky1Y/cKoCK1meZeavloXKFGB6vuOV+nsq1YBGCmgWOxHz0gE5CLO3lpnFS8RUq4MmWpa0shHaOZg==";
         };
+        _Cqygp2KE = {
+            "id" = "Cqygp2KE";
+            "file" = "Fresh Music Discs.zip";
+            "hash" = "sha512-zD8h+lpx/cuQvIpYaIsv9LIlRDUr5OcclpFb1tydZJUw/vvX9sVqg9nZdfaEvPMRbRTyHOa9J0d9d0OjYrvBmQ==";
+        };
     in {
         "mO7CyGXZ" = _mO7CyGXZ;
         "n6rhxVdy" = _n6rhxVdy;
@@ -92,23 +97,24 @@ let
         "s2cAkYTJ" = _s2cAkYTJ;
         "4RW276b7" = _4RW276b7;
         "LaQf9d98" = _LaQf9d98;
-        "minecraft-1.21.4" = _LaQf9d98;
-        "minecraft-1.21.5" = _LaQf9d98;
-        "minecraft-1.21.6" = _LaQf9d98;
-        "minecraft-1.21.7" = _LaQf9d98;
-        "minecraft-1.21.8" = _LaQf9d98;
-        "minecraft-1.20.1" = _LaQf9d98;
-        "minecraft-1.21.1" = _LaQf9d98;
-        "minecraft-1.21.9" = _LaQf9d98;
-        "minecraft-1.21.10" = _LaQf9d98;
-        "minecraft-1.21" = _LaQf9d98;
-        "minecraft-1.21.2" = _LaQf9d98;
-        "minecraft-1.21.11" = _LaQf9d98;
-        "minecraft-26.1" = _LaQf9d98;
-        "minecraft-26.1.1" = _LaQf9d98;
-        "minecraft-26.1.2" = _LaQf9d98;
-        "minecraft-26.2" = _LaQf9d98;
-        "minecraft-26.3" = _LaQf9d98;
+        "Cqygp2KE" = _Cqygp2KE;
+        "minecraft-1.21.4" = _Cqygp2KE;
+        "minecraft-1.21.5" = _Cqygp2KE;
+        "minecraft-1.21.6" = _Cqygp2KE;
+        "minecraft-1.21.7" = _Cqygp2KE;
+        "minecraft-1.21.8" = _Cqygp2KE;
+        "minecraft-1.20.1" = _Cqygp2KE;
+        "minecraft-1.21.1" = _Cqygp2KE;
+        "minecraft-1.21.9" = _Cqygp2KE;
+        "minecraft-1.21.10" = _Cqygp2KE;
+        "minecraft-1.21" = _Cqygp2KE;
+        "minecraft-1.21.2" = _Cqygp2KE;
+        "minecraft-1.21.11" = _Cqygp2KE;
+        "minecraft-26.1" = _Cqygp2KE;
+        "minecraft-26.1.1" = _Cqygp2KE;
+        "minecraft-26.1.2" = _Cqygp2KE;
+        "minecraft-26.2" = _Cqygp2KE;
+        "minecraft-26.3" = _Cqygp2KE;
         "pkg-1.0" = _n6rhxVdy;
         "pkg-1.1" = _1Z4f1nAY;
         "pkg-1.2" = _PpHnQ5um;
@@ -121,7 +127,8 @@ let
         "pkg-1.3.1" = _s2cAkYTJ;
         "pkg-1.3.2" = _4RW276b7;
         "pkg-1.3.3" = _LaQf9d98;
-        "default" = _LaQf9d98;
+        "pkg-1.3.4" = _Cqygp2KE;
+        "default" = _Cqygp2KE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fresh-music-discs";

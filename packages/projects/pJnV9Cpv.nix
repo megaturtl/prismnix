@@ -61,6 +61,11 @@ let
             "file" = "harous-netherite-shulkers-1.1.0+26.2.X.jar";
             "hash" = "sha512-2u7X7ebyYNo+vSVPg/6htRb8CjLcPdRpigrc1+oqZAudn2B7ibPa1D8PDwSxzsHiqqYISrG+BUSWTbUgWgTaRw==";
         };
+        _IVrSPtmd = {
+            "id" = "IVrSPtmd";
+            "file" = "harous-netherite-shulkers-1.1.0+26.3.X.jar";
+            "hash" = "sha512-9TF4fsVmFtRBNSADse7gi+8zdntKOg3E3rO4IZO5DkGsikssqRdP+j55WGepR4GHM2F8G84RkBL0Flxq7g0mOQ==";
+        };
     in {
         "SfA1CaEM" = _SfA1CaEM;
         "OJZm7f7N" = _OJZm7f7N;
@@ -74,6 +79,7 @@ let
         "r9RxTWjl" = _r9RxTWjl;
         "JQ2Yq5VD" = _JQ2Yq5VD;
         "LzWARb0w" = _LzWARb0w;
+        "IVrSPtmd" = _IVrSPtmd;
         "fabric-1.21.4" = _SfA1CaEM;
         "fabric-1.21.8" = _AzJeOen6;
         "fabric-1.21.6" = _AzJeOen6;
@@ -86,6 +92,7 @@ let
         "fabric-26.1.1" = _r9RxTWjl;
         "fabric-26.1.2" = _JQ2Yq5VD;
         "fabric-26.2" = _LzWARb0w;
+        "fabric-26.3" = _IVrSPtmd;
         "pkg-1.0.0" = _OJZm7f7N;
         "pkg-1.0.1" = _KF2rSL05;
         "pkg-1.0.2" = _VFJs0UAa;
@@ -95,7 +102,8 @@ let
         "pkg-1.1.0+26.1.1" = _r9RxTWjl;
         "pkg-1.1.0+26.1.X" = _JQ2Yq5VD;
         "pkg-1.1.0+26.2.X" = _LzWARb0w;
-        "default" = _LzWARb0w;
+        "pkg-1.1.0+26.3.X" = _IVrSPtmd;
+        "default" = _IVrSPtmd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "harous-netherite-shulkers";

@@ -21,16 +21,30 @@ let
             "file" = "wither_spawn_fix_wsa_compatible-1.1.0-neoforge-1.21.1.jar";
             "hash" = "sha512-34P0wEXFhT1Evutm4JJVU21n3Kf3CifRkGjR/LtwuDMiFf7vwIvYsbDTIQusn4UJ+OATM5KwstHiyS1Cm+0Y8Q==";
         };
+        _XlPtvdNh = {
+            "id" = "XlPtvdNh";
+            "file" = "wither-spawn-fix-wsa-compatible-26.3-1.1.0.jar";
+            "hash" = "sha512-Rg2/HdI/JIS4QLspEwnLnMj8czv/4SWsv92UwqEQ29XOTl8+JjFandSH+B4cwRGCrlWRVgDsZVhDP1mNWFxUyA==";
+        };
+        _x2xjdj3v = {
+            "id" = "x2xjdj3v";
+            "file" = "wither-spawn-fix-wsa-compatible-26.3-1.1.0.jar";
+            "hash" = "sha512-wW0i3s9/PvzW4I3HfP+ImAf+B3+vAU3/xBR6X3iffziTjnUx6Gs6KFoKL/h3uno4sQo+dMCEjndqowjD0g//1A==";
+        };
     in {
         "aFgK0k0W" = _aFgK0k0W;
         "l9bHNKfG" = _l9bHNKfG;
         "esvCWBy2" = _esvCWBy2;
         "AnACNPIS" = _AnACNPIS;
+        "XlPtvdNh" = _XlPtvdNh;
+        "x2xjdj3v" = _x2xjdj3v;
         "forge-1.20.1" = _esvCWBy2;
         "neoforge-1.21.1" = _AnACNPIS;
+        "neoforge-26.3" = _XlPtvdNh;
+        "fabric-26.3" = _x2xjdj3v;
         "pkg-1.0.0" = _l9bHNKfG;
-        "pkg-1.1.0" = _AnACNPIS;
-        "default" = _AnACNPIS;
+        "pkg-1.1.0" = _x2xjdj3v;
+        "default" = _x2xjdj3v;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wither-spawn-fix-wsa-compatible";

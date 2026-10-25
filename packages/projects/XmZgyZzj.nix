@@ -81,6 +81,11 @@ let
             "file" = "appliedcreate-1.21.1-1.1.7.jar";
             "hash" = "sha512-eEwLsBceuhPAdsXyGD19sfAFzcur9bsMhfIuVuJWzGoROa7N0LSypIMU3DCXj8EBckZOiCGhZAC5jdLM24fzPw==";
         };
+        _rqrW3P8C = {
+            "id" = "rqrW3P8C";
+            "file" = "appliedcreate-1.21.1-1.1.8.jar";
+            "hash" = "sha512-kW3ZTIJmmv7iQToffmusgFTWXoHtSJX4GtjCzRMZZPz7pFIPM+L9j0o7kvcq0I7/oV58QEVgidctyGPeHeMdAQ==";
+        };
     in {
         "V2l23EWr" = _V2l23EWr;
         "Bge4yJR0" = _Bge4yJR0;
@@ -98,8 +103,9 @@ let
         "Xm22wdvJ" = _Xm22wdvJ;
         "fDyVqIgs" = _fDyVqIgs;
         "2bWngfNH" = _2bWngfNH;
+        "rqrW3P8C" = _rqrW3P8C;
         "forge-1.20.1" = _Xm22wdvJ;
-        "neoforge-1.21.1" = _2bWngfNH;
+        "neoforge-1.21.1" = _rqrW3P8C;
         "pkg-1.0.0" = _Bge4yJR0;
         "pkg-1.1.0" = _XSn4LiAn;
         "pkg-1.1.1" = _H5L9coUT;
@@ -109,7 +115,8 @@ let
         "pkg-1.1.5" = _HElFht3c;
         "pkg-1.1.6" = _fDyVqIgs;
         "pkg-1.1.7" = _2bWngfNH;
-        "default" = _2bWngfNH;
+        "pkg-1.1.8" = _rqrW3P8C;
+        "default" = _rqrW3P8C;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "applied-create";

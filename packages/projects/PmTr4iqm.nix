@@ -106,6 +106,16 @@ let
             "file" = "playerstats-1.21-1.21.1-1.10.0.jar";
             "hash" = "sha512-EYhGP+k0VV0PdVAWmev5QUu2Yl+3Icixu99oWuw61C3qajx8DTBJWg2gsattIs+zrMIECEuFtxnnXiyi06El1g==";
         };
+        _Pb3yLyaw = {
+            "id" = "Pb3yLyaw";
+            "file" = "playerstats-1.20.1-1.11.0.jar";
+            "hash" = "sha512-Ju+YYg/NWR2N0x+dxjfkOhN1Do6MYy624JwgKHDl6/HWaWMh0fqjstRnqtiPwVRI3zabPxF7VjyIZVkxKPAYFA==";
+        };
+        _Y55UGWXw = {
+            "id" = "Y55UGWXw";
+            "file" = "playerstats-1.21-1.21.1-1.11.0.jar";
+            "hash" = "sha512-2Ch4k0E6gKqF4Toqrhb6RcrF1o43RkA/fUKYI2INgEHcvAnoThJQQs0i7G0kftcFtqoPoZ3e7FuDBoG+0BMZjQ==";
+        };
     in {
         "oWHahgiw" = _oWHahgiw;
         "My73eSWF" = _My73eSWF;
@@ -128,9 +138,11 @@ let
         "BQNvBlWF" = _BQNvBlWF;
         "G8XzW4RQ" = _G8XzW4RQ;
         "4o1jSt5O" = _4o1jSt5O;
-        "forge-1.20.1" = _G8XzW4RQ;
-        "neoforge-1.21.1" = _4o1jSt5O;
-        "neoforge-1.21" = _4o1jSt5O;
+        "Pb3yLyaw" = _Pb3yLyaw;
+        "Y55UGWXw" = _Y55UGWXw;
+        "forge-1.20.1" = _Pb3yLyaw;
+        "neoforge-1.21.1" = _Y55UGWXw;
+        "neoforge-1.21" = _Y55UGWXw;
         "pkg-1.4.1" = _oWHahgiw;
         "pkg-1.5.0" = _My73eSWF;
         "pkg-1.6.0" = _STtfxi6A;
@@ -149,7 +161,8 @@ let
         "pkg-1.21.1-1.8.2" = _e7kIaqDI;
         "pkg-1.9.0" = _BQNvBlWF;
         "pkg-1.10.0" = _4o1jSt5O;
-        "default" = _4o1jSt5O;
+        "pkg-1.11.0" = _Y55UGWXw;
+        "default" = _Y55UGWXw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "player_stats";

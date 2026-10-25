@@ -196,6 +196,11 @@ let
             "file" = "Flint-1.0.0.jar";
             "hash" = "sha512-72eoMm0cQ5oMEsHfNgB9VFoOaWz1RTtZrQOrRjToRRoapaor8ryt5JKA2IJZtO4LM8oTO3gY1ogqf3h6eML6jw==";
         };
+        _IYEkmw9B = {
+            "id" = "IYEkmw9B";
+            "file" = "Flint-1.0.0.jar";
+            "hash" = "sha512-Vo887Mx6ofvN0ua+cfsHU46cVR30rF7EMWjwOkH8YtFmWl6xy+/SSSAbYZF8WDRmuyeNlAvUUc/62jecZ2RnFw==";
+        };
     in {
         "eU3IAPeq" = _eU3IAPeq;
         "Cor4Tpj8" = _Cor4Tpj8;
@@ -236,9 +241,10 @@ let
         "oTItTN4n" = _oTItTN4n;
         "w2YQTH1Z" = _w2YQTH1Z;
         "6ORfmCHg" = _6ORfmCHg;
+        "IYEkmw9B" = _IYEkmw9B;
         "fabric-1.21.3" = _17zwvWQS;
         "fabric-1.21.8" = _Y1WY0BGb;
-        "fabric-1.21.11" = _6ORfmCHg;
+        "fabric-1.21.11" = _IYEkmw9B;
         "pkg-v14" = _eU3IAPeq;
         "pkg-v15" = _Cor4Tpj8;
         "pkg-v16" = _sGeIWDp0;
@@ -278,7 +284,8 @@ let
         "pkg-v55" = _oTItTN4n;
         "pkg-v56" = _w2YQTH1Z;
         "pkg-v57" = _6ORfmCHg;
-        "default" = _6ORfmCHg;
+        "pkg-v58" = _IYEkmw9B;
+        "default" = _IYEkmw9B;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "flint";

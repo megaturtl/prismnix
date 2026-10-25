@@ -11,9 +11,21 @@ let
             "file" = "mcdonalds-1.0.jar";
             "hash" = "sha512-WvjD0Ots2ajVf1FSRR7QJj920jMkBAK1hdyMeELjeCZqoLJNgQ+60AmUhUk0eCypyKkqGPBzR3scUeG5zvt2eQ==";
         };
+        _Zik4rbQq = {
+            "id" = "Zik4rbQq";
+            "file" = "mcdonalds.zip";
+            "hash" = "sha512-1ls4eMOj3Bfq12e+m9DoU+ubX7WwE3RFVKnmnJpKciWen5psyHaej+XbrxdJ6mG2T+V1tgOB8k7dKQNNwUfRjw==";
+        };
+        _ZPCQVvDp = {
+            "id" = "ZPCQVvDp";
+            "file" = "mcdonalds-1.0.0.jar";
+            "hash" = "sha512-LiLyMl616tZDrDHprKfCMlVInYLh/fxi4rI1PL04bTeECuR3qou4a2JEJavzxyj2eolTCzduWnGhESeDZdywvw==";
+        };
     in {
         "zLFlkzxo" = _zLFlkzxo;
         "m9NCDSwf" = _m9NCDSwf;
+        "Zik4rbQq" = _Zik4rbQq;
+        "ZPCQVvDp" = _ZPCQVvDp;
         "datapack-1.21" = _zLFlkzxo;
         "datapack-1.21.1" = _zLFlkzxo;
         "datapack-1.21.2" = _zLFlkzxo;
@@ -26,6 +38,11 @@ let
         "datapack-1.21.9" = _zLFlkzxo;
         "datapack-1.21.10" = _zLFlkzxo;
         "datapack-1.21.11" = _zLFlkzxo;
+        "datapack-26.1" = _Zik4rbQq;
+        "datapack-26.1.1" = _Zik4rbQq;
+        "datapack-26.1.2" = _Zik4rbQq;
+        "datapack-26.2" = _Zik4rbQq;
+        "datapack-26.3" = _Zik4rbQq;
         "fabric-1.21" = _m9NCDSwf;
         "fabric-1.21.1" = _m9NCDSwf;
         "fabric-1.21.2" = _m9NCDSwf;
@@ -38,6 +55,11 @@ let
         "fabric-1.21.9" = _m9NCDSwf;
         "fabric-1.21.10" = _m9NCDSwf;
         "fabric-1.21.11" = _m9NCDSwf;
+        "fabric-26.1" = _ZPCQVvDp;
+        "fabric-26.1.1" = _ZPCQVvDp;
+        "fabric-26.1.2" = _ZPCQVvDp;
+        "fabric-26.2" = _ZPCQVvDp;
+        "fabric-26.3" = _ZPCQVvDp;
         "forge-1.21" = _m9NCDSwf;
         "forge-1.21.1" = _m9NCDSwf;
         "forge-1.21.2" = _m9NCDSwf;
@@ -50,6 +72,11 @@ let
         "forge-1.21.9" = _m9NCDSwf;
         "forge-1.21.10" = _m9NCDSwf;
         "forge-1.21.11" = _m9NCDSwf;
+        "forge-26.1" = _ZPCQVvDp;
+        "forge-26.1.1" = _ZPCQVvDp;
+        "forge-26.1.2" = _ZPCQVvDp;
+        "forge-26.2" = _ZPCQVvDp;
+        "forge-26.3" = _ZPCQVvDp;
         "neoforge-1.21" = _m9NCDSwf;
         "neoforge-1.21.1" = _m9NCDSwf;
         "neoforge-1.21.2" = _m9NCDSwf;
@@ -62,6 +89,11 @@ let
         "neoforge-1.21.9" = _m9NCDSwf;
         "neoforge-1.21.10" = _m9NCDSwf;
         "neoforge-1.21.11" = _m9NCDSwf;
+        "neoforge-26.1" = _ZPCQVvDp;
+        "neoforge-26.1.1" = _ZPCQVvDp;
+        "neoforge-26.1.2" = _ZPCQVvDp;
+        "neoforge-26.2" = _ZPCQVvDp;
+        "neoforge-26.3" = _ZPCQVvDp;
         "quilt-1.21" = _m9NCDSwf;
         "quilt-1.21.1" = _m9NCDSwf;
         "quilt-1.21.2" = _m9NCDSwf;
@@ -74,9 +106,16 @@ let
         "quilt-1.21.9" = _m9NCDSwf;
         "quilt-1.21.10" = _m9NCDSwf;
         "quilt-1.21.11" = _m9NCDSwf;
+        "quilt-26.1" = _ZPCQVvDp;
+        "quilt-26.1.1" = _ZPCQVvDp;
+        "quilt-26.1.2" = _ZPCQVvDp;
+        "quilt-26.2" = _ZPCQVvDp;
+        "quilt-26.3" = _ZPCQVvDp;
         "pkg-1.0" = _zLFlkzxo;
         "pkg-1.0+mod" = _m9NCDSwf;
-        "default" = _m9NCDSwf;
+        "pkg-1.0.0" = _Zik4rbQq;
+        "pkg-1.0.0+mod" = _ZPCQVvDp;
+        "default" = _ZPCQVvDp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mcdonalds";

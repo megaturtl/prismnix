@@ -311,6 +311,16 @@ let
             "file" = "lostcities-modern-tweaks-v5.0.1.zip";
             "hash" = "sha512-T299/ypp4xpfCFI3W+1GzSKlNYGUvCPDBf0u9BYUkeie2pgKl+rj/33z1lHeLmsYaya8d0rguXMUhLYun4DvCA==";
         };
+        _DyFEv6Vt = {
+            "id" = "DyFEv6Vt";
+            "file" = "lostcities-modern-tweaks-v6.0.0.jar";
+            "hash" = "sha512-80ChJJ0ruem82Eqyky9wmXPWlQIiGD+YR4V7ZzmYpjuNQgdormZiRbvpTClumDTRk+GLJlYWKR2rbmvxzOuqZA==";
+        };
+        _mPYVp9v6 = {
+            "id" = "mPYVp9v6";
+            "file" = "lostcities-modern-tweaks-v6.0.0.zip";
+            "hash" = "sha512-roGgTnhQDcwB0sbP3ZjhIdiQVMChusY/7XcxqYPiOibgjWvdUw2c4hD/pLbih0jQ4VydAHRxteCcwdwMgWVwUw==";
+        };
     in {
         "gF8LFEbW" = _gF8LFEbW;
         "wpcpGIfr" = _wpcpGIfr;
@@ -374,17 +384,22 @@ let
         "V9IgZv70" = _V9IgZv70;
         "i6sYdEVj" = _i6sYdEVj;
         "NW7Gkjh1" = _NW7Gkjh1;
+        "DyFEv6Vt" = _DyFEv6Vt;
+        "mPYVp9v6" = _mPYVp9v6;
         "forge-1.20.1" = _BWJEXXxe;
         "datapack-1.20.1" = _QMeF5oDr;
         "datapack-1.21.1" = _3WAjLeV6;
         "datapack-1.21.11" = _LeEV7qlk;
         "datapack-26.1.2" = _V9IgZv70;
         "datapack-26.2" = _NW7Gkjh1;
+        "datapack-26.3" = _mPYVp9v6;
         "neoforge-1.21.1" = _xGbh2WVe;
         "neoforge-1.21.11" = _MOcgySHw;
         "neoforge-26.1.2" = _VWk6D1qI;
         "neoforge-26.2" = _i6sYdEVj;
+        "neoforge-26.3" = _DyFEv6Vt;
         "fabric-26.2" = _i6sYdEVj;
+        "fabric-26.3" = _DyFEv6Vt;
         "pkg-1.0.0" = _wpcpGIfr;
         "pkg-1.0.1" = _eCl8mKyz;
         "pkg-1.0.2" = _DOpoOFpP;
@@ -416,7 +431,8 @@ let
         "pkg-3.1.1" = _LeEV7qlk;
         "pkg-4.0.1" = _V9IgZv70;
         "pkg-5.0.1" = _NW7Gkjh1;
-        "default" = _NW7Gkjh1;
+        "pkg-6.0.0" = _mPYVp9v6;
+        "default" = _mPYVp9v6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lost-cities-modern-tweaks";

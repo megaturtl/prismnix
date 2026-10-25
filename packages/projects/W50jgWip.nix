@@ -221,6 +221,11 @@ let
             "file" = "Jujutsucraft-Improve-1.9.1.2.jar";
             "hash" = "sha512-NWYyN9xHXNM6pu5Eo3D1+fsSKGBgjzhZKdhJhC8i3rUuyvfIYAVds7260XMWC2dUOTqvcX5zQi/AUFYBBJXZCA==";
         };
+        _EKOTcli9 = {
+            "id" = "EKOTcli9";
+            "file" = "Jujutsucraft-Improve-1.9.2.jar";
+            "hash" = "sha512-m5bL1CA8ORnOOBVGXt4EITsenfqqmWkZG03OBrLNsd1EIQhy6vqrZSQfyntOLqipucthIeYd80afPmYgzhFPfQ==";
+        };
     in {
         "Y4VVzJuZ" = _Y4VVzJuZ;
         "quVkBVmp" = _quVkBVmp;
@@ -266,7 +271,8 @@ let
         "W2YQ2AUy" = _W2YQ2AUy;
         "fB7yCo3A" = _fB7yCo3A;
         "XvC7ay27" = _XvC7ay27;
-        "forge-1.20.1" = _XvC7ay27;
+        "EKOTcli9" = _EKOTcli9;
+        "forge-1.20.1" = _EKOTcli9;
         "pkg-1.5" = _Y4VVzJuZ;
         "pkg-1.5all" = _quVkBVmp;
         "pkg-1.5.2all" = _WUYCjPRa;
@@ -311,7 +317,8 @@ let
         "pkg-1.9.1" = _W2YQ2AUy;
         "pkg-1.9.1.1" = _fB7yCo3A;
         "pkg-1.9.1.2" = _XvC7ay27;
-        "default" = _XvC7ay27;
+        "pkg-1.9.2" = _EKOTcli9;
+        "default" = _EKOTcli9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jujutsucraft-improve";

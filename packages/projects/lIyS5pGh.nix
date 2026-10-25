@@ -301,6 +301,36 @@ let
             "file" = "blocksyouneed_luna-1.12.1-neoforge-26.1.2.jar";
             "hash" = "sha512-i/Jz9l7ieiN1WFruviJvxipiu8CDS5LuPr/zNJ85AZ3uXMKAG3BiCa6fTMCOiaoZdGWdQXvpYB0CYusUXxeIXg==";
         };
+        _Oy7AxbEV = {
+            "id" = "Oy7AxbEV";
+            "file" = "blocksyouneed_luna-1.12.2-forge-1.20.1.jar";
+            "hash" = "sha512-8w5i6A/OWnTsvCzRX8vEMQUF054ivQoaZ8DSfVHihlCF4Okj48SP+/A7kPKW1z78Dq4saC7l7kV8ZrPsZuBijA==";
+        };
+        _VSAZFiyB = {
+            "id" = "VSAZFiyB";
+            "file" = "blocksyouneed_luna-1.12.2-neoforge-1.21.1.jar";
+            "hash" = "sha512-kSQPCNy91d9QMbcEYJRp766nUeAAb78NoAmGJZM9lHSte+bBiu6SJ2oBRL/YiAWtMNqsIi/sONXYdUBo8Z+Ryw==";
+        };
+        _kQBs19B8 = {
+            "id" = "kQBs19B8";
+            "file" = "blocksyouneed_luna-1.12.2-neoforge-26.1.2.jar";
+            "hash" = "sha512-5EMwgThrWFwGhUC6pxrQQQpg62nfMX/oBFQWFroF4S2BASB5tWxEad13MSFI88VYx1+G9yMuH6DVPv004PceGQ==";
+        };
+        _7Fw5KJXH = {
+            "id" = "7Fw5KJXH";
+            "file" = "blocksyouneed_luna-1.12.3-forge-1.20.1.jar";
+            "hash" = "sha512-Ll1dSF5ZnBsgCW2tG03tfQKuJgnrZS12dF/lZ9vPHxuE16sgWZV+5B6eFgSefZxYkd9+wTGciYf6PBx2HScPgw==";
+        };
+        _CijkpHBm = {
+            "id" = "CijkpHBm";
+            "file" = "blocksyouneed_luna-1.12.3-neoforge-1.21.1.jar";
+            "hash" = "sha512-tbk7713cJb+jkiDlmXUoArs3tBkt3Tk8Q6ADDbexTa5Mmyk/uC0ViD9rfdP1j0RnNT3B1eD4TB78PRaOGtHEiw==";
+        };
+        _JRUg3m1C = {
+            "id" = "JRUg3m1C";
+            "file" = "blocksyouneed_luna-1.12.3-neoforge-26.1.2.jar";
+            "hash" = "sha512-mmuKy/jGSsk3Q7/ztr+qBhXyNfF9HNBdqgX3ZlaedGuC3u8xRNNvGPoWGrz2nptgB3aScNgktyabUg/zUxt0Gg==";
+        };
     in {
         "E1Ersf5n" = _E1Ersf5n;
         "obOuqVht" = _obOuqVht;
@@ -362,14 +392,20 @@ let
         "FMWi0sv1" = _FMWi0sv1;
         "TQnilWnv" = _TQnilWnv;
         "v6XEmWkm" = _v6XEmWkm;
-        "forge-1.20.1" = _b826uyHB;
+        "Oy7AxbEV" = _Oy7AxbEV;
+        "VSAZFiyB" = _VSAZFiyB;
+        "kQBs19B8" = _kQBs19B8;
+        "7Fw5KJXH" = _7Fw5KJXH;
+        "CijkpHBm" = _CijkpHBm;
+        "JRUg3m1C" = _JRUg3m1C;
+        "forge-1.20.1" = _7Fw5KJXH;
         "forge-1.19.4" = _6uQk89RY;
         "forge-1.19.2" = _p10YLs1Z;
         "forge-1.18.2" = _eLFWPh3H;
         "neoforge-1.20.6" = _z8CqAiRe;
-        "neoforge-1.21.1" = _TQnilWnv;
+        "neoforge-1.21.1" = _CijkpHBm;
         "neoforge-1.21.4" = _V3pbdltb;
-        "neoforge-26.1.2" = _v6XEmWkm;
+        "neoforge-26.1.2" = _JRUg3m1C;
         "pkg-1.4" = _E1Ersf5n;
         "pkg-1.4.2" = _obOuqVht;
         "pkg-1.4.3" = _jkb2BKU7;
@@ -411,7 +447,9 @@ let
         "pkg-v1.12.BETA-3" = _XS1HEXVT;
         "pkg-v1.12" = _FMWi0sv1;
         "pkg-v1.12.1" = _v6XEmWkm;
-        "default" = _v6XEmWkm;
+        "pkg-v1.12.2" = _kQBs19B8;
+        "pkg-v1.12.3" = _JRUg3m1C;
+        "default" = _JRUg3m1C;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blocks-you-need";

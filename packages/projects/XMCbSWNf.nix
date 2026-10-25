@@ -16,15 +16,22 @@ let
             "file" = "DMZoutfits+-1.0.2.jar";
             "hash" = "sha512-H0IHr9dcMksuuYyyRyvB/gxt/VKbgwFln2Jd00wtppIHvnFZxGq1thP7olVYWqIlDUWgW5yvZQUgf/7+LIRNNA==";
         };
+        _hY9B7126 = {
+            "id" = "hY9B7126";
+            "file" = "DMZoutfits+-1.1.0.jar";
+            "hash" = "sha512-jdNFLU/uY0DLUT4G32UYUinZ9cqF/48PnCDiaTuDUK2BkQ5EC0Vyoaopgj+6baNwMdzYUxNcdarNM6a/3KYB3Q==";
+        };
     in {
         "imKlsml9" = _imKlsml9;
         "YukZmqY4" = _YukZmqY4;
         "U19Xm8mW" = _U19Xm8mW;
-        "forge-1.20.1" = _U19Xm8mW;
+        "hY9B7126" = _hY9B7126;
+        "forge-1.20.1" = _hY9B7126;
         "pkg-1.0.0" = _imKlsml9;
         "pkg-1.0.1" = _YukZmqY4;
         "pkg-1.0.2" = _U19Xm8mW;
-        "default" = _U19Xm8mW;
+        "pkg-1.1.0" = _hY9B7126;
+        "default" = _hY9B7126;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dmz-outfits-plus";

@@ -596,6 +596,21 @@ let
             "file" = "soundattract-7.0.2.jar";
             "hash" = "sha512-2dM/YDmCnzL6KDCCbm+cQPxJy4JgXvabEBOIeBlkgvurlakt7coK0k1VqPqPISsHaQB5QT2cQgGTGwkMpSz+Og==";
         };
+        _gAPJl8zM = {
+            "id" = "gAPJl8zM";
+            "file" = "soundattract-7.0.2a.jar";
+            "hash" = "sha512-ee6ZERcSzsziyYfk0jOtAaOptFwHVhKPp0YLSDFE8p2R1AMfMHgXYzkhdLZW7umFMI7bqlBDAVRK5/WB/MmaIg==";
+        };
+        _emXofEJc = {
+            "id" = "emXofEJc";
+            "file" = "soundattract-7.0.2a.jar";
+            "hash" = "sha512-UegK17uddBsbBSsqBnu3Vis7G3dtJVkr8m/moRBzGxg2nIjIKLq05d4Ky/Z4MFKe8eb3+K0rQVHU2CiV28+j7A==";
+        };
+        _LBWgA1cd = {
+            "id" = "LBWgA1cd";
+            "file" = "soundattract-7.0.2.jar";
+            "hash" = "sha512-1+JihIorHX4HBdP6d6zVa3zpr34vhy/gyGfw8jjsOZf9i6cvUDO264dxxr1Fpe7JZu6kZTpO1ZHYG3dbmweNTA==";
+        };
     in {
         "4Z7xgC5k" = _4Z7xgC5k;
         "rrWHVsF4" = _rrWHVsF4;
@@ -716,6 +731,9 @@ let
         "6LyKLkEC" = _6LyKLkEC;
         "2VyTJh3d" = _2VyTJh3d;
         "LXNtulzO" = _LXNtulzO;
+        "gAPJl8zM" = _gAPJl8zM;
+        "emXofEJc" = _emXofEJc;
+        "LBWgA1cd" = _LBWgA1cd;
         "forge-1.18" = _rrWHVsF4;
         "forge-1.18.1" = _rrWHVsF4;
         "forge-1.18.2" = _1zpBdUOH;
@@ -724,8 +742,9 @@ let
         "forge-1.19.2" = _JSt8rmuD;
         "forge-1.20.1" = _6LyKLkEC;
         "forge-1.20" = _wJbAD1ZH;
-        "fabric-1.20.1" = _2VyTJh3d;
-        "fabric-1.21.1" = _LXNtulzO;
+        "fabric-1.20.1" = _gAPJl8zM;
+        "fabric-1.21.1" = _emXofEJc;
+        "fabric-1.21.11" = _LBWgA1cd;
         "neoforge-1.21.1" = _gCBXBgLy;
         "neoforge-1.21.11" = _KH70ACvO;
         "neoforge-26.2" = _slSVjRoj;
@@ -794,8 +813,9 @@ let
         "pkg-6.3.3b" = _HeN6cwOK;
         "pkg-7.0.0" = _Q6Zjy2Yu;
         "pkg-7.0.1" = _IA7bVyvf;
-        "pkg-7.0.2" = _LXNtulzO;
-        "default" = _LXNtulzO;
+        "pkg-7.0.2" = _LBWgA1cd;
+        "pkg-7.0.2a" = _emXofEJc;
+        "default" = _LBWgA1cd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "attract-to-sound";

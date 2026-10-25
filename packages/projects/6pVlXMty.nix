@@ -261,6 +261,16 @@ let
             "file" = "bronze-neoforge-2.2.2+26.1.jar";
             "hash" = "sha512-N8Nt23Y2oXA+YS/LHYz5kxoVL2my1ih76T9MgAUsKSv+JolAWDL0HhIYGESiE8SxlbgKzGD4HtPg4oNcJnmTrg==";
         };
+        _TSGhlGC1 = {
+            "id" = "TSGhlGC1";
+            "file" = "bronze-fabric-2.3.0+26.1.jar";
+            "hash" = "sha512-GiZ47bMmeTC6oluMvVmwf93vu+YvhmmY5ZODLDlxUHh3Ci4JMXKUjXUjQmpwXuvVvB9rvXnFFlhOg3Ci8g9D8Q==";
+        };
+        _nIurtHvt = {
+            "id" = "nIurtHvt";
+            "file" = "bronze-neoforge-2.3.0+26.1.jar";
+            "hash" = "sha512-FOdRjbY/gBXfCWFTxeJO1m/7+XJcnTD2JbpmHb4WldiSeHz8KPxfVTOMVR4ThbPrnrCXincua6bFFakcWR6hdA==";
+        };
     in {
         "7LTzq6vr" = _7LTzq6vr;
         "s1isBf0Z" = _s1isBf0Z;
@@ -314,6 +324,8 @@ let
         "sPNkptsh" = _sPNkptsh;
         "hNXeBX02" = _hNXeBX02;
         "HjZ7LgcL" = _HjZ7LgcL;
+        "TSGhlGC1" = _TSGhlGC1;
+        "nIurtHvt" = _nIurtHvt;
         "fabric-1.20.6" = _vazvcuOE;
         "fabric-1.21-pre2" = _DELBwtz4;
         "fabric-1.21" = _7iQRlapD;
@@ -322,17 +334,17 @@ let
         "fabric-1.21.5" = _OkdujA1u;
         "fabric-1.21.10" = _ie5PMqMo;
         "fabric-1.21.11" = _pYbzcsqu;
-        "fabric-26.1" = _hNXeBX02;
-        "fabric-26.1.1" = _hNXeBX02;
-        "fabric-26.1.2" = _hNXeBX02;
+        "fabric-26.1" = _TSGhlGC1;
+        "fabric-26.1.1" = _TSGhlGC1;
+        "fabric-26.1.2" = _TSGhlGC1;
         "quilt-1.20.6" = _vazvcuOE;
         "neoforge-1.21.1" = _3Ji0UTaT;
         "neoforge-1.21.5" = _5PZsVN80;
         "neoforge-1.21.10" = _AeJGNYCY;
         "neoforge-1.21.11" = _kXapgAO0;
-        "neoforge-26.1" = _HjZ7LgcL;
-        "neoforge-26.1.1" = _HjZ7LgcL;
-        "neoforge-26.1.2" = _HjZ7LgcL;
+        "neoforge-26.1" = _nIurtHvt;
+        "neoforge-26.1.1" = _nIurtHvt;
+        "neoforge-26.1.2" = _nIurtHvt;
         "pkg-1.0.0" = _7LTzq6vr;
         "pkg-1.0.1" = _s1isBf0Z;
         "pkg-1.0.2" = _vazvcuOE;
@@ -366,7 +378,8 @@ let
         "pkg-2.2.0+26.1.x" = _ijZgErnI;
         "pkg-2.2.1+26.1.x" = _sPNkptsh;
         "pkg-2.2.2+26.1.x" = _HjZ7LgcL;
-        "default" = _HjZ7LgcL;
+        "pkg-2.3.0+26.1.x" = _nIurtHvt;
+        "default" = _nIurtHvt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bronze";

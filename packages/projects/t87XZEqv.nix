@@ -191,6 +191,11 @@ let
             "file" = "Kilt-21.1.15.jar";
             "hash" = "sha512-5YrEOLRbb0fRinSZREEJaSU0aw76R670JRHuZ2GQ1xIhrwumVjDPe3YoGxYJgI+49iNc88pfckLGmWlP0MvGOg==";
         };
+        _78FmWB64 = {
+            "id" = "78FmWB64";
+            "file" = "Kilt-21.1.17.jar";
+            "hash" = "sha512-aFyEJ34r/3fzL2l9zaoFDWT5Ygi9wOo/vrDI3hcxRBUqCJhC2xAQaLmcTLLZ9I0npLfD/ljeCfTDf+WypKE0fQ==";
+        };
     in {
         "EZSdSRAL" = _EZSdSRAL;
         "OacGiohQ" = _OacGiohQ;
@@ -230,8 +235,9 @@ let
         "1Z2VE3M8" = _1Z2VE3M8;
         "tWFRgVHV" = _tWFRgVHV;
         "FVVpTWMd" = _FVVpTWMd;
+        "78FmWB64" = _78FmWB64;
         "fabric-1.20.1" = _ZuseJZSH;
-        "fabric-1.21.1" = _FVVpTWMd;
+        "fabric-1.21.1" = _78FmWB64;
         "pkg-20.1.0" = _EZSdSRAL;
         "pkg-20.1.1" = _OacGiohQ;
         "pkg-20.1.2" = _jTHxuZMV;
@@ -270,7 +276,8 @@ let
         "pkg-21.1.13" = _1Z2VE3M8;
         "pkg-21.1.14" = _tWFRgVHV;
         "pkg-21.1.15" = _FVVpTWMd;
-        "default" = _FVVpTWMd;
+        "pkg-21.1.17" = _78FmWB64;
+        "default" = _78FmWB64;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kilt";

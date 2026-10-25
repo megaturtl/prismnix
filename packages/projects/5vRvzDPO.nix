@@ -16,16 +16,23 @@ let
             "file" = "Fully Hisuian Starters 1.1.1.zip";
             "hash" = "sha512-wUfLset6jFwTxA5+oorY89DjjR5rFxJi9F8y0DBAC0D2q0D+4cFcrZb2YGzpHt7wPDCNeFxJIbsJWk74jAxUJg==";
         };
+        _zVd5RT2u = {
+            "id" = "zVd5RT2u";
+            "file" = "Fully Hisuian Starters 1.1.2.zip";
+            "hash" = "sha512-tSmOCDI2jIBKCIa8ZKDB+5MT+AC00RLDXLOqYy73RKWSgph7fgMe92tgZKYGb2JVTqIq0okmPhZlbz/g6sDiCQ==";
+        };
     in {
         "kq1X2y3s" = _kq1X2y3s;
         "BwB0Kq2o" = _BwB0Kq2o;
         "6RwfalgE" = _6RwfalgE;
+        "zVd5RT2u" = _zVd5RT2u;
         "minecraft-1.20.1" = _BwB0Kq2o;
-        "minecraft-1.21.1" = _6RwfalgE;
+        "minecraft-1.21.1" = _zVd5RT2u;
         "pkg-1.0.0" = _kq1X2y3s;
         "pkg-1.1.0" = _BwB0Kq2o;
         "pkg-1.1.1" = _6RwfalgE;
-        "default" = _6RwfalgE;
+        "pkg-1.1.2" = _zVd5RT2u;
+        "default" = _zVd5RT2u;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fully-hisuian-starters";

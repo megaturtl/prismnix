@@ -71,6 +71,26 @@ let
             "file" = "The Brazilian Project [26.1.2-1.5.0].zip";
             "hash" = "sha512-FXxye7mfGJX9GYmlACCbzqaIE0IQpCQ1MBTZEHm5kifDiO+iINAxfJzWj/zXHD2uz4jp65zysqchvxzTdsbW8g==";
         };
+        _Q2ScYXzZ = {
+            "id" = "Q2ScYXzZ";
+            "file" = "The Brazilian Project [1.19.2-1.5.2].zip";
+            "hash" = "sha512-mtzKf3j/lFFAStMsolHBYgHxawD0Gf8bZnxpTSJCbdtZXxJXe9safMYYDbxH6EUBjJlwnrog9wtcMhDebgcBVQ==";
+        };
+        _FSOqICqO = {
+            "id" = "FSOqICqO";
+            "file" = "The Brazilian Project [1.20.1-1.5.2].zip";
+            "hash" = "sha512-pbV+sXcJfYbA1utLIdNZZ2wMc35wN9jlEKokcg55o4sF2zSYE58+YIKf63ZokP6b2a1tRZw6z8QFLKjQc2pLTw==";
+        };
+        _JXO6CEja = {
+            "id" = "JXO6CEja";
+            "file" = "The Brazilian Project [1.21.1-1.5.2].zip";
+            "hash" = "sha512-rFTvafWFvMQJss3o+3ZNu5W66pdgNnMJgeIvI30SRNHyQWtQAFheN3z7io8G/IeEBbYz0jbqlQ3wGwvBgtgRSg==";
+        };
+        _bXXt5l3B = {
+            "id" = "bXXt5l3B";
+            "file" = "The Brazilian Project [26.1.2-1.5.2].zip";
+            "hash" = "sha512-7Xm/r4a8gLqIObZjM8big0Rj5UTC/Y6/nhICzGbD+XNGOehWVvKYBwOo97KDz0DFJovHPRBBmdDJkEbEcgxraw==";
+        };
     in {
         "B84eDpDn" = _B84eDpDn;
         "rRsOq2ub" = _rRsOq2ub;
@@ -86,16 +106,20 @@ let
         "2ji0ngis" = _2ji0ngis;
         "I3Aleucm" = _I3Aleucm;
         "t6dUsaXN" = _t6dUsaXN;
-        "minecraft-1.21" = _I3Aleucm;
-        "minecraft-1.21.1" = _I3Aleucm;
-        "minecraft-1.20" = _2ji0ngis;
-        "minecraft-1.20.1" = _2ji0ngis;
-        "minecraft-26.1" = _t6dUsaXN;
-        "minecraft-26.1.1" = _t6dUsaXN;
-        "minecraft-26.1.2" = _t6dUsaXN;
-        "minecraft-1.19" = _fFo1xDOv;
-        "minecraft-1.19.1" = _fFo1xDOv;
-        "minecraft-1.19.2" = _fFo1xDOv;
+        "Q2ScYXzZ" = _Q2ScYXzZ;
+        "FSOqICqO" = _FSOqICqO;
+        "JXO6CEja" = _JXO6CEja;
+        "bXXt5l3B" = _bXXt5l3B;
+        "minecraft-1.21" = _JXO6CEja;
+        "minecraft-1.21.1" = _JXO6CEja;
+        "minecraft-1.20" = _FSOqICqO;
+        "minecraft-1.20.1" = _FSOqICqO;
+        "minecraft-26.1" = _bXXt5l3B;
+        "minecraft-26.1.1" = _bXXt5l3B;
+        "minecraft-26.1.2" = _bXXt5l3B;
+        "minecraft-1.19" = _Q2ScYXzZ;
+        "minecraft-1.19.1" = _Q2ScYXzZ;
+        "minecraft-1.19.2" = _Q2ScYXzZ;
         "pkg-1.0.0" = _B84eDpDn;
         "pkg-1.1.0" = _rRsOq2ub;
         "pkg-1.2.0" = _gPSuZs11;
@@ -103,7 +127,9 @@ let
         "pkg-1.3.1" = _Ssh71vV7;
         "pkg-1.4.0" = _Y26wqVrr;
         "pkg-1.5.0" = _t6dUsaXN;
-        "default" = _t6dUsaXN;
+        "pkg-1.5.2" = _bXXt5l3B;
+        "pkg-1.20.1" = _FSOqICqO;
+        "default" = _bXXt5l3B;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "brazilian-project";

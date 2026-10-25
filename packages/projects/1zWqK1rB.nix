@@ -91,6 +91,11 @@ let
             "file" = "Fast-Furnaces-1.0.1-1.19.2-forge.jar";
             "hash" = "sha512-ZSHRpTbG36dkQbcHFU5svbyD7tSjxpYZWk/dGYxfVzt4zTKVpWbg07n85YiW0VWJFrbZRdlVMsft9K3FVFppfQ==";
         };
+        _vntMoC0x = {
+            "id" = "vntMoC0x";
+            "file" = "fast_furnaces-1.21.1-NEO-1.0.0.jar";
+            "hash" = "sha512-6Io/IkeY6NywNxRxCW17CbO9+pY6klFGx9Ggy+SPlEG50ayWFD41a5ItfgwHuilefZ2RTe5Z2xZuiVQMlj9NsQ==";
+        };
     in {
         "7qPcEJ0D" = _7qPcEJ0D;
         "Wbs6VZ4q" = _Wbs6VZ4q;
@@ -110,6 +115,7 @@ let
         "UKk844YS" = _UKk844YS;
         "WXIqmOAx" = _WXIqmOAx;
         "G6hNRYil" = _G6hNRYil;
+        "vntMoC0x" = _vntMoC0x;
         "datapack-1.21" = _UKk844YS;
         "datapack-1.21.1" = _UKk844YS;
         "datapack-1.21.2" = _UKk844YS;
@@ -136,6 +142,7 @@ let
         "datapack-26.3" = _UKk844YS;
         "datapack-1.19.2" = _WXIqmOAx;
         "forge-1.19.2" = _G6hNRYil;
+        "neoforge-1.21.1" = _vntMoC0x;
         "pkg-Multi_1.0.0" = _7qPcEJ0D;
         "pkg-Multi_1.1.0" = _Wbs6VZ4q;
         "pkg-Multi_1.1.0b" = _skGXL40U;
@@ -154,7 +161,8 @@ let
         "pkg-Multi_1.2.9b" = _UKk844YS;
         "pkg-1.19.2-1.0.1-Datapack" = _WXIqmOAx;
         "pkg-1.19.2-1.0.1-Forge" = _G6hNRYil;
-        "default" = _G6hNRYil;
+        "pkg-1.21.1-NEOFORGE-1.0.0" = _vntMoC0x;
+        "default" = _vntMoC0x;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fast-furnaces";

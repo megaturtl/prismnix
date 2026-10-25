@@ -66,6 +66,16 @@ let
             "file" = "dreamshift-0.1.4.3.1-forge.jar";
             "hash" = "sha512-LoopmNciVPlMcuwFY3xsfDEpvPXjmvYrV3RHfx0l0+IpPjV3oWx0mwVyVB4uScUySCF7NBph3Um/9HdG3Azj+g==";
         };
+        _sKrHGST1 = {
+            "id" = "sKrHGST1";
+            "file" = "dreamshift-0.2.1-fabric.jar";
+            "hash" = "sha512-am/YNjpyK6u6Q6Y0kB4+/f1Ppx0l0j+/j4RG1D4rpQukovoN4lrjImEpO1gzv8RZoglpSDolva+9O5tTHKkLWw==";
+        };
+        _tfr9qfGY = {
+            "id" = "tfr9qfGY";
+            "file" = "dreamshift-0.2.1-forge.jar";
+            "hash" = "sha512-yuKTHVJLkbEODOuPOEW7N+ZmvYi1pXNDsP8h2CUvlm7ZecFcd7z98FC7NIGDPxZJMR2u27gZ2+7F7iG2cbSGCg==";
+        };
     in {
         "nh9Q3RmQ" = _nh9Q3RmQ;
         "GbIQYpWh" = _GbIQYpWh;
@@ -80,8 +90,10 @@ let
         "ml48srab" = _ml48srab;
         "b86Glw4w" = _b86Glw4w;
         "CqcwRS7n" = _CqcwRS7n;
-        "fabric-1.20.1" = _b86Glw4w;
-        "forge-1.20.1" = _CqcwRS7n;
+        "sKrHGST1" = _sKrHGST1;
+        "tfr9qfGY" = _tfr9qfGY;
+        "fabric-1.20.1" = _sKrHGST1;
+        "forge-1.20.1" = _tfr9qfGY;
         "pkg-0.1.0-fabric" = _nh9Q3RmQ;
         "pkg-0.1.1" = _GbIQYpWh;
         "pkg-0.1.2" = _cgS3kgtH;
@@ -95,7 +107,9 @@ let
         "pkg-0.1.4.3-forge" = _ml48srab;
         "pkg-0.1.4.3.1-fabric" = _b86Glw4w;
         "pkg-0.1.4.3.1-forge" = _CqcwRS7n;
-        "default" = _CqcwRS7n;
+        "pkg-0.2.1-fabric" = _sKrHGST1;
+        "pkg-0.2.1-forge" = _tfr9qfGY;
+        "default" = _tfr9qfGY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dreamshift";

@@ -206,6 +206,11 @@ let
             "file" = "TailsLegacy-4.0.4+1.21.1-fabric.jar";
             "hash" = "sha512-QAqtVmbJSzC2dnWHbCZOMboEQJsK0z5hQTfGDlRtRUV24KPCtThII2t5x8fk5AW2CuotZ9eHG17JJjT/W7WZBQ==";
         };
+        _rNae6cKS = {
+            "id" = "rNae6cKS";
+            "file" = "TailsLegacy-4.0.5+1.21.1-neoforge.jar";
+            "hash" = "sha512-dbSOzGKKtdI4OB6mLs3qlz2i/NRFUJGK9J3WgMmKkxdr2QJmYFqgokWlGLBgHYmnEPzxohyXhFZ5wjeKZluNMw==";
+        };
     in {
         "zgl9VdYX" = _zgl9VdYX;
         "yeu7qvfY" = _yeu7qvfY;
@@ -248,6 +253,7 @@ let
         "pUWtuNFn" = _pUWtuNFn;
         "iZHIyGps" = _iZHIyGps;
         "omP1NKwh" = _omP1NKwh;
+        "rNae6cKS" = _rNae6cKS;
         "forge-1.7.10" = _QZlvXwAw;
         "forge-1.12.2" = _aM41rkBP;
         "forge-1.18" = _Gjl2mMH0;
@@ -257,8 +263,8 @@ let
         "forge-1.19.2" = _prYcwuum;
         "forge-1.20" = _RXQsjUu8;
         "forge-1.20.1" = _RXQsjUu8;
-        "neoforge-1.21" = _vTsZjvJE;
-        "neoforge-1.21.1" = _vTsZjvJE;
+        "neoforge-1.21" = _rNae6cKS;
+        "neoforge-1.21.1" = _rNae6cKS;
         "neoforge-1.21.11" = _J8kXVpvo;
         "neoforge-26.1" = _B2e3oItW;
         "neoforge-26.1.1" = _B2e3oItW;
@@ -313,7 +319,8 @@ let
         "pkg-4.0.4+26.3-neoforge" = _pUWtuNFn;
         "pkg-4.0.4+26.3-fabric" = _iZHIyGps;
         "pkg-4.0.4+1.21.1-fabric" = _omP1NKwh;
-        "default" = _omP1NKwh;
+        "pkg-4.0.5+1.21.1-neoforge" = _rNae6cKS;
+        "default" = _rNae6cKS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tails-legacy";

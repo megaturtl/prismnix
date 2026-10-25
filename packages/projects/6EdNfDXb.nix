@@ -46,6 +46,11 @@ let
             "file" = "fleshz-1.6.1.jar";
             "hash" = "sha512-Z6wUN8sXMzZHV3JwBbt2bGp60nVu+iZUDGU8sh2AJJf7Z+I6X07WRu22goRjs/rLifzsSwKzMLd6YNNzCDGCLA==";
         };
+        _mABXz2xI = {
+            "id" = "mABXz2xI";
+            "file" = "fleshz-1.7.0.jar";
+            "hash" = "sha512-5/zf7U5VNI3ALkwID+Qz0Uo82ol5M/3RBn/LMinLoOoG8GIPVz/P+PRyl4fONbA3ygMWQv0g5lfrFwB4Gxn3fA==";
+        };
     in {
         "CFYSl0sm" = _CFYSl0sm;
         "UWaNyG7b" = _UWaNyG7b;
@@ -56,13 +61,14 @@ let
         "vhZG1pkF" = _vhZG1pkF;
         "pm0tXGVp" = _pm0tXGVp;
         "S1tMRK4N" = _S1tMRK4N;
+        "mABXz2xI" = _mABXz2xI;
         "fabric-1.19.2" = _CFYSl0sm;
         "fabric-1.19.4" = _UWaNyG7b;
         "fabric-1.20" = _o3GVe8XK;
         "fabric-1.20.1" = _ulllHFQZ;
         "fabric-1.20.6" = _uvaogtgz;
         "fabric-1.21" = _vhZG1pkF;
-        "fabric-1.21.1" = _S1tMRK4N;
+        "fabric-1.21.1" = _mABXz2xI;
         "pkg-1.4.7" = _CFYSl0sm;
         "pkg-1.5.0+1.19.4" = _UWaNyG7b;
         "pkg-1.5.0+1.20" = _o3GVe8XK;
@@ -72,7 +78,8 @@ let
         "pkg-1.5.1+1.21" = _vhZG1pkF;
         "pkg-1.6.0+1.21.1" = _pm0tXGVp;
         "pkg-1.6.1+1.21.1" = _S1tMRK4N;
-        "default" = _S1tMRK4N;
+        "pkg-1.7.0+1.21.1" = _mABXz2xI;
+        "default" = _mABXz2xI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fleshz";

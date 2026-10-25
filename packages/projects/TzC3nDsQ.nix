@@ -101,6 +101,16 @@ let
             "file" = "Luminous Monsters V1.2.8 - NeoForge 1.21.1.jar";
             "hash" = "sha512-Xq/6VDm4nGa3hRPszYYM5WmVjCfmFTRrx4bBn0qZhljg0iJotcSYdMTp0YRQh6VQyGJbQ/AQfGp3Na41tWtp2w==";
         };
+        _pXGMrHSL = {
+            "id" = "pXGMrHSL";
+            "file" = "Luminous Monsters V1.3.0 - Forge 1.20.1.jar";
+            "hash" = "sha512-BHWhQE35IJjGo1jRSgjsnVhGNxt3kueoFClRm46zhfzDUpVyNpMsvzzdV9YTbe8P9iiLTbCsiPgAvD1SLGSOJQ==";
+        };
+        _8fAkFPZf = {
+            "id" = "8fAkFPZf";
+            "file" = "Luminous Monsters V1.3.0 - NeoForge 1.21.1.jar";
+            "hash" = "sha512-d/oRtarjg/kvI+xMWYz0z4HmY/f2fthpTH/pLHMzTEATblsJ/kQbD0OLZAY6zdazKPdpStViXCuqnucxciNzXQ==";
+        };
     in {
         "vgZmrzBl" = _vgZmrzBl;
         "wRDZV7sl" = _wRDZV7sl;
@@ -122,11 +132,13 @@ let
         "J9sXJaqL" = _J9sXJaqL;
         "yOQ5gIqL" = _yOQ5gIqL;
         "TfJjGBM2" = _TfJjGBM2;
+        "pXGMrHSL" = _pXGMrHSL;
+        "8fAkFPZf" = _8fAkFPZf;
         "forge-1.19.4" = _vgZmrzBl;
         "forge-1.19.2" = _wRDZV7sl;
-        "forge-1.20.1" = _J9sXJaqL;
+        "forge-1.20.1" = _pXGMrHSL;
         "neoforge-1.20.4" = _yOQ5gIqL;
-        "neoforge-1.21.1" = _TfJjGBM2;
+        "neoforge-1.21.1" = _8fAkFPZf;
         "pkg-1.2.2" = _wRDZV7sl;
         "pkg-1.2.3" = _KCcuaB93;
         "pkg-1.2.4" = _i6ntZc3g;
@@ -135,7 +147,8 @@ let
         "pkg-1.2.62" = _fH1KQMJ6;
         "pkg-1.2.7" = _HEp1dzVK;
         "pkg-1.2.8" = _TfJjGBM2;
-        "default" = _TfJjGBM2;
+        "pkg-1.3.0" = _8fAkFPZf;
+        "default" = _8fAkFPZf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "luminous-monsters";

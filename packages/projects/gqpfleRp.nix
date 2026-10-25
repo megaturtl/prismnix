@@ -31,6 +31,11 @@ let
             "file" = "cloth-config-26.2.155.jar";
             "hash" = "sha512-DutCW3X0oeDbOgIB1N9ubJXkbHCU0FAn+4DqTPvNcXnThghQWZPSdGWFKACau7rTjHzVWL5OofMXgQr85pYkFw==";
         };
+        _6fMKFjxL = {
+            "id" = "6fMKFjxL";
+            "file" = "cloth-config-forge-26.3.159.jar";
+            "hash" = "sha512-ZscJIgmS4SBn3xc7NVgrcfPmSmZYK5okBBeVpbUNxhHWAVzPMaoSV1IyohHwYqpfy+49VMWZxklyAzf9pY4Nag==";
+        };
     in {
         "PTCr1EDZ" = _PTCr1EDZ;
         "xpYSe34O" = _xpYSe34O;
@@ -38,6 +43,7 @@ let
         "7GNiwPNY" = _7GNiwPNY;
         "ztJ6yowh" = _ztJ6yowh;
         "agXJRBzJ" = _agXJRBzJ;
+        "6fMKFjxL" = _6fMKFjxL;
         "forge-1.21.5" = _PTCr1EDZ;
         "forge-1.21.6" = _xpYSe34O;
         "forge-1.21.7" = _xpYSe34O;
@@ -49,13 +55,15 @@ let
         "forge-26.1.1" = _ztJ6yowh;
         "forge-26.1.2" = _ztJ6yowh;
         "forge-26.2" = _agXJRBzJ;
+        "forge-26.3" = _6fMKFjxL;
         "pkg-18.0.145" = _PTCr1EDZ;
         "pkg-19.0.147" = _xpYSe34O;
         "pkg-20.0.149" = _vhFq3l0K;
         "pkg-21.11.153" = _7GNiwPNY;
         "pkg-26.1.154" = _ztJ6yowh;
         "pkg-26.2.155" = _agXJRBzJ;
-        "default" = _agXJRBzJ;
+        "pkg-26.3.159" = _6fMKFjxL;
+        "default" = _6fMKFjxL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cloth-config-forge";

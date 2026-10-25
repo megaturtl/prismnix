@@ -71,6 +71,11 @@ let
             "file" = "abyssbound-1.3.2-forge-1.20.1.jar";
             "hash" = "sha512-VZlr4Kef0cxmNKrryWymetxgQoxuLsm/PNNMKLx66Zx8jpS6HTyoDu76HZmFeD4hsvHkvm8ZKwCh0YubeRmNZg==";
         };
+        _hEvOSCvN = {
+            "id" = "hEvOSCvN";
+            "file" = "abyssbound-1.3.3-forge-1.20.1.jar";
+            "hash" = "sha512-ny9Xe6MYbJ/33omUDVIAWVr9Z1/s3gAyZvKF5djdTI6l8JrjxgENY0i0OL/1qttc7Nu9ikBX22TXbnnBxGlUZQ==";
+        };
     in {
         "X5DJlnDF" = _X5DJlnDF;
         "iNQs6LYJ" = _iNQs6LYJ;
@@ -86,7 +91,8 @@ let
         "mMsPkqxf" = _mMsPkqxf;
         "6ESmzlnH" = _6ESmzlnH;
         "RRaiud87" = _RRaiud87;
-        "forge-1.20.1" = _RRaiud87;
+        "hEvOSCvN" = _hEvOSCvN;
+        "forge-1.20.1" = _hEvOSCvN;
         "pkg-1.0.0" = _X5DJlnDF;
         "pkg-1.1.0" = _iNQs6LYJ;
         "pkg-1.1.1" = _aFkes8Ky;
@@ -101,7 +107,8 @@ let
         "pkg-1.3" = _mMsPkqxf;
         "pkg-1.3.1" = _6ESmzlnH;
         "pkg-1.3.2" = _RRaiud87;
-        "default" = _RRaiud87;
+        "pkg-1.3.3" = _hEvOSCvN;
+        "default" = _hEvOSCvN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "abyssbound";

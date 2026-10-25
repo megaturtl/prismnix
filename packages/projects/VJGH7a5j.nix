@@ -41,6 +41,26 @@ let
             "file" = "zac-1.1.0.jar";
             "hash" = "sha512-6iSD1fFMebxSMM9qP0wYNI+MNHAzAlJBU8Dd6jEgibACwFcnqoKWM3eODKzIGrLccGJiKLccrUUH5gphlQpYHQ==";
         };
+        _5yS5R6E4 = {
+            "id" = "5yS5R6E4";
+            "file" = "zac-1.2.0-forge-mc1.20.1.jar";
+            "hash" = "sha512-GVvvXiiAMEIXArlqVcI9QiteDZWwntf6SWngYf/v6AYT42Tg5TP8/mZzX0k3XBlJ2oADDdNK6VtGjTBZ+ERoCQ==";
+        };
+        _BwJfFrdQ = {
+            "id" = "BwJfFrdQ";
+            "file" = "zac-1.2.0-fabric-mc1.20.1.jar";
+            "hash" = "sha512-v8eZ71ai5ANrLhZOK3dcXXt1mt4bPloqZdud5GhpAXVzbb81wpa7YxR73FwXYY/J/zMhRIYRZoxRwBypUUbTdg==";
+        };
+        _btngdO4s = {
+            "id" = "btngdO4s";
+            "file" = "zac-1.2.0-neoforge-mc1.21.1.jar";
+            "hash" = "sha512-ZC9gXSNAugMhfW4QIZy+EQMpxN3A9t+9YSPMiVCOo+SdXNY8scaJHB3B1D7Onl0wkqVIXTxdD1WOIQQKq6yN+A==";
+        };
+        _xRYHXZjG = {
+            "id" = "xRYHXZjG";
+            "file" = "zac-1.2.0-fabric-mc1.21.1.jar";
+            "hash" = "sha512-nWast30BRysYoq/bmShQ0iePOD1R3UYzQruTFqyUrb1uUjthxmrsgp0sHOFqm7IeU20cje9Z4oY2eiP0HF5NiQ==";
+        };
     in {
         "2zlnrFmf" = _2zlnrFmf;
         "lEk1YKd8" = _lEk1YKd8;
@@ -50,13 +70,18 @@ let
         "yC8xwRqA" = _yC8xwRqA;
         "1rI11Qb4" = _1rI11Qb4;
         "fcOBog1S" = _fcOBog1S;
-        "forge-1.20.1" = _GhxDd5zh;
-        "fabric-1.20.1" = _yC8xwRqA;
-        "fabric-1.21.1" = _fcOBog1S;
-        "neoforge-1.21.1" = _1rI11Qb4;
+        "5yS5R6E4" = _5yS5R6E4;
+        "BwJfFrdQ" = _BwJfFrdQ;
+        "btngdO4s" = _btngdO4s;
+        "xRYHXZjG" = _xRYHXZjG;
+        "forge-1.20.1" = _5yS5R6E4;
+        "fabric-1.20.1" = _BwJfFrdQ;
+        "fabric-1.21.1" = _xRYHXZjG;
+        "neoforge-1.21.1" = _btngdO4s;
         "pkg-1.0.0" = _mDSbyFVd;
         "pkg-1.1.0" = _fcOBog1S;
-        "default" = _fcOBog1S;
+        "pkg-1.2.0" = _xRYHXZjG;
+        "default" = _xRYHXZjG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zac";

@@ -141,6 +141,11 @@ let
             "file" = "tool_trinkets-neoforge-1.0.1.jar";
             "hash" = "sha512-tNrvM7Tr3P7/78+EXHZO6j/CUivlqlmXuwUwQLYPfJJV4dH8+WMPK5ylpl2jpadyiKFKaG4C7ENk3AsGkg1VOg==";
         };
+        _57kFCU3M = {
+            "id" = "57kFCU3M";
+            "file" = "tool_trinkets-neoforge-1.0.1-raw.jar";
+            "hash" = "sha512-vZqR+xNb8HiGQh5uqwGJbuE9LqTOarYPxVAe15NVPcPGC4OohQno4bQgP2MKOOd+rlFxxE0i3Jx1oRB15kDO4Q==";
+        };
     in {
         "plL1KKPI" = _plL1KKPI;
         "2V1YoY8V" = _2V1YoY8V;
@@ -170,6 +175,7 @@ let
         "9IPC9FPS" = _9IPC9FPS;
         "DNpT77of" = _DNpT77of;
         "KAsAyuE1" = _KAsAyuE1;
+        "57kFCU3M" = _57kFCU3M;
         "fabric-1.20" = _plL1KKPI;
         "fabric-1.20.1" = _plL1KKPI;
         "fabric-1.20.5" = _le3aw4d1;
@@ -236,12 +242,13 @@ let
         "neoforge-26.1.1" = _Et7TPL9N;
         "neoforge-26.1.2" = _Et7TPL9N;
         "neoforge-26.2" = _Et7TPL9N;
+        "neoforge-26.3" = _57kFCU3M;
         "pkg-1.0.0" = _QkmvHftK;
-        "pkg-1.0.1" = _KAsAyuE1;
+        "pkg-1.0.1" = _57kFCU3M;
         "pkg-1.0.2" = _ijqDUEbZ;
         "pkg-1.0.3" = _c8SoRVey;
         "pkg-1.0.4" = _iPxVbu5S;
-        "default" = _KAsAyuE1;
+        "default" = _57kFCU3M;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tool_trinkets";

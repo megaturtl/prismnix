@@ -31,6 +31,11 @@ let
             "file" = "ingeniumapi-1.0.2-NEOFORGE-MC-26.X.jar";
             "hash" = "sha512-jJ6Q+DlcGEfXBgfOGUzu470zOqNHwYVz5etfogpm7UaqABFO2qCc7qwxk//i/onzD8Omwc+h1Q8/rHvPCXLgjg==";
         };
+        _D6FnVXlX = {
+            "id" = "D6FnVXlX";
+            "file" = "ingeniumapi-1.1-FABRIC-MC-1.21.11.jar";
+            "hash" = "sha512-ZcWrVgda8Qzr3rWpscGVjO/LGMQRGQo/OYbDYvWc5YMHN7pAnOlE0bYk3O4rGINl7zGLl7gQqqcAJAYtQPf5eQ==";
+        };
     in {
         "VYmEo1o8" = _VYmEo1o8;
         "Q8AjB7JJ" = _Q8AjB7JJ;
@@ -38,11 +43,12 @@ let
         "gMKN8rgX" = _gMKN8rgX;
         "ACcUSzgo" = _ACcUSzgo;
         "K2TKa3U4" = _K2TKa3U4;
+        "D6FnVXlX" = _D6FnVXlX;
         "fabric-26.1" = _VYmEo1o8;
         "fabric-26.1.1" = _VYmEo1o8;
         "fabric-26.1.2" = _VYmEo1o8;
         "fabric-26.2" = _VYmEo1o8;
-        "fabric-1.21.11" = _Q8AjB7JJ;
+        "fabric-1.21.11" = _D6FnVXlX;
         "fabric-1.20.1" = _Nh4QNlwd;
         "fabric-1.20.2" = _Nh4QNlwd;
         "fabric-1.20.3" = _Nh4QNlwd;
@@ -69,7 +75,8 @@ let
         "neoforge-26.3" = _K2TKa3U4;
         "forge-1.20.1" = _ACcUSzgo;
         "pkg-1.0.2" = _K2TKa3U4;
-        "default" = _K2TKa3U4;
+        "pkg-1.1" = _D6FnVXlX;
+        "default" = _D6FnVXlX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ingeniumapi";

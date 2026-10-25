@@ -96,6 +96,26 @@ let
             "file" = "signtastic-1.21-4.0.3.jar";
             "hash" = "sha512-PgNdTZZy7XowamyHwR+FFZvA5rSYQAUw/f5CsKhFqpkSoKC41idUh/69Ir6f27SQ4BxOP+bfu3dJLSXL/bREAw==";
         };
+        _L9nQxKbp = {
+            "id" = "L9nQxKbp";
+            "file" = "signtastic-26.2-5.0.0.jar";
+            "hash" = "sha512-1FJBMQQmziUC95ZNiICWNJYFcyhLB1tK2ACKlAHuOuQ7qOhO62HJciRtXG4U848a+Lgl5BHmzE0POqh/z8sFNg==";
+        };
+        _eLE3GVYh = {
+            "id" = "eLE3GVYh";
+            "file" = "signtastic-fabric-26.2-5.0.0-fabric.jar";
+            "hash" = "sha512-OsrNaN3Iu3K/K/v5lVp2B79fiaqQipL54h7nhjlY4lw+Bn0cCjh1IAMvssI4qtOjBF5KFd2Cn1YerDR5gvxDXA==";
+        };
+        _8utJcLiY = {
+            "id" = "8utJcLiY";
+            "file" = "signtastic-26.3-6.0.0.jar";
+            "hash" = "sha512-qyYnhEWV48OhLQXnjhz5ntfF7CmWXCuOVcZN6YS3DYtgpq0Sm45FFkH95H3liVubgYi5B6e8oTInW+mbqmC9CA==";
+        };
+        _fKsuRgd3 = {
+            "id" = "fKsuRgd3";
+            "file" = "signtastic-fabric-26.3-6.0.0-fabric.jar";
+            "hash" = "sha512-dCG0uuVNlt+4+jDL/cOF8zt2dScix5O/2ggBpcOfomBThZzw/MXVbkK6AzS+VUxNi7cLX2CGT1xqHYmWDg3Alw==";
+        };
     in {
         "qt7uv1oY" = _qt7uv1oY;
         "n7LLxeTi" = _n7LLxeTi;
@@ -116,6 +136,10 @@ let
         "49ev6rGT" = _49ev6rGT;
         "p23NrfNR" = _p23NrfNR;
         "JWC5f9XB" = _JWC5f9XB;
+        "L9nQxKbp" = _L9nQxKbp;
+        "eLE3GVYh" = _eLE3GVYh;
+        "8utJcLiY" = _8utJcLiY;
+        "fKsuRgd3" = _fKsuRgd3;
         "forge-1.16.5" = _4XDjhtMJ;
         "forge-1.18.2" = _KMr1CrVp;
         "forge-1.19" = _vvyNcuCu;
@@ -125,6 +149,10 @@ let
         "forge-1.19.4" = _hlq9pDiY;
         "forge-1.20.1" = _sV50zG77;
         "neoforge-1.21.1" = _JWC5f9XB;
+        "neoforge-26.2" = _L9nQxKbp;
+        "neoforge-26.3" = _8utJcLiY;
+        "fabric-26.2" = _eLE3GVYh;
+        "fabric-26.3" = _fKsuRgd3;
         "pkg-1.16-0.0.1" = _qt7uv1oY;
         "pkg-1.16-0.0.2" = _n7LLxeTi;
         "pkg-1.16-0.0.3" = _d8aAObgE;
@@ -144,7 +172,11 @@ let
         "pkg-1.21-4.0.1" = _49ev6rGT;
         "pkg-1.21-4.0.2" = _p23NrfNR;
         "pkg-1.21-4.0.3" = _JWC5f9XB;
-        "default" = _JWC5f9XB;
+        "pkg-26.2-5.0.0" = _L9nQxKbp;
+        "pkg-26.2-5.0.0-fabric" = _eLE3GVYh;
+        "pkg-26.3-6.0.0" = _8utJcLiY;
+        "pkg-26.3-6.0.0-fabric" = _fKsuRgd3;
+        "default" = _fKsuRgd3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "signtastic";

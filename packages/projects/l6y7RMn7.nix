@@ -186,6 +186,16 @@ let
             "file" = "keybindsgalore-1.9.0+26.3-neoforge.jar";
             "hash" = "sha512-iND0t7CClKKGuWT5ziO0IjYVnoHfYbxJgs68yOpGrivvSkJdlEz5JmjVFjmaTLp/Hhr1agjrTPabsAMCShfChw==";
         };
+        _5BAXgOWp = {
+            "id" = "5BAXgOWp";
+            "file" = "keybindsgalore-1.9.1+26.3-neoforge.jar";
+            "hash" = "sha512-n1+7pqKUjNt8XlhpnpNvwQCDP2ShJGISGRMMJR9dqYVvINKE+YtKGxkG/onkR6mFI4STLZisVuBsnCTRXgppQg==";
+        };
+        _6ikPQeLZ = {
+            "id" = "6ikPQeLZ";
+            "file" = "keybindsgalore-1.9.1+26.3.jar";
+            "hash" = "sha512-20nFiS7KhFet3EijRokVhiGH4Y9ClFJnoih3gl+b4V6E6V0yJ66d9wZ62nj0jnTmT36y8VOkFXMG8UT0mu9fnw==";
+        };
     in {
         "okKM9Lay" = _okKM9Lay;
         "zXOwLIyD" = _zXOwLIyD;
@@ -224,6 +234,8 @@ let
         "zCLq83OM" = _zCLq83OM;
         "1P32slTU" = _1P32slTU;
         "GvX5xcam" = _GvX5xcam;
+        "5BAXgOWp" = _5BAXgOWp;
+        "6ikPQeLZ" = _6ikPQeLZ;
         "fabric-1.20" = _2dUA6Sq8;
         "fabric-1.20.1" = _oZhJ5v1x;
         "fabric-1.20.2" = _2dUA6Sq8;
@@ -246,10 +258,10 @@ let
         "fabric-26.1.1" = _PqMPzDUP;
         "fabric-26.1.2" = _PqMPzDUP;
         "fabric-26.2" = _AtKZQVfW;
-        "fabric-26.3" = _1P32slTU;
+        "fabric-26.3" = _6ikPQeLZ;
         "neoforge-1.21.1" = _5D4OoqiL;
         "neoforge-26.2" = _OmOcyOGS;
-        "neoforge-26.3" = _GvX5xcam;
+        "neoforge-26.3" = _5BAXgOWp;
         "pkg-0.1-1.20" = _okKM9Lay;
         "pkg-0.2-1.20" = _zXOwLIyD;
         "pkg-0.3-1.20.x" = _2dUA6Sq8;
@@ -282,7 +294,8 @@ let
         "pkg-1.7.2+26.2" = _ahIn2wp6;
         "pkg-1.8.0" = _zCLq83OM;
         "pkg-1.9.0" = _GvX5xcam;
-        "default" = _GvX5xcam;
+        "pkg-1.9.1" = _6ikPQeLZ;
+        "default" = _6ikPQeLZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "keybindsgalore+(hvb007)";

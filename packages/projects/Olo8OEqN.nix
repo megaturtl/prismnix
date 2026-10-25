@@ -36,6 +36,11 @@ let
             "file" = "ASTERA 3D TORCH 2.1.zip";
             "hash" = "sha512-spDWzGnKWZR3kipwkr46SVJjXjbWwMrXaNQbT8WSPdeF1mAzWanqd9VW20nRjCKjjM8su/jnSrF5hrDoHP2rWw==";
         };
+        _ktyQV5Wt = {
+            "id" = "ktyQV5Wt";
+            "file" = "ASTERA 3D TORCH 2.6.zip";
+            "hash" = "sha512-rFZCg7ZrGrwYYocnHCgoU5gZJB0rtk+7VkuhWC9hbwgV9CEyw4nKwMEoxBhnUtc+COWDSrdBGbhYEdx0GDD9Sg==";
+        };
     in {
         "3lqF5rzQ" = _3lqF5rzQ;
         "6SUnBTri" = _6SUnBTri;
@@ -44,6 +49,7 @@ let
         "70wGYN5x" = _70wGYN5x;
         "Rwa2Tc5Y" = _Rwa2Tc5Y;
         "DavfsrCp" = _DavfsrCp;
+        "ktyQV5Wt" = _ktyQV5Wt;
         "minecraft-1.21.1" = _Rwa2Tc5Y;
         "minecraft-1.21.2" = _Rwa2Tc5Y;
         "minecraft-1.21.3" = _Rwa2Tc5Y;
@@ -52,15 +58,15 @@ let
         "minecraft-1.21.6" = _Rwa2Tc5Y;
         "minecraft-1.21.7" = _Rwa2Tc5Y;
         "minecraft-1.21.8" = _Rwa2Tc5Y;
-        "minecraft-1.21.9" = _DavfsrCp;
-        "minecraft-1.21.10" = _DavfsrCp;
-        "minecraft-1.21.11" = _DavfsrCp;
-        "minecraft-26.1" = _DavfsrCp;
-        "minecraft-26.1.1" = _DavfsrCp;
-        "minecraft-26.1.2" = _DavfsrCp;
-        "minecraft-26.2" = _DavfsrCp;
+        "minecraft-1.21.9" = _ktyQV5Wt;
+        "minecraft-1.21.10" = _ktyQV5Wt;
+        "minecraft-1.21.11" = _ktyQV5Wt;
+        "minecraft-26.1" = _ktyQV5Wt;
+        "minecraft-26.1.1" = _ktyQV5Wt;
+        "minecraft-26.1.2" = _ktyQV5Wt;
+        "minecraft-26.2" = _ktyQV5Wt;
         "minecraft-1.21" = _Rwa2Tc5Y;
-        "minecraft-26.3" = _DavfsrCp;
+        "minecraft-26.3" = _ktyQV5Wt;
         "pkg-0.1" = _3lqF5rzQ;
         "pkg-0.2" = _6SUnBTri;
         "pkg-0.3" = _1T69FcgA;
@@ -68,7 +74,8 @@ let
         "pkg-0.5" = _70wGYN5x;
         "pkg-0.6" = _Rwa2Tc5Y;
         "pkg-2.1" = _DavfsrCp;
-        "default" = _DavfsrCp;
+        "pkg-2.6" = _ktyQV5Wt;
+        "default" = _ktyQV5Wt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "astera-3d-torch";

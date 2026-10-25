@@ -266,6 +266,21 @@ let
             "file" = "stardewcraft-0.6.3fix1-mc1.20.1-forge.jar";
             "hash" = "sha512-Psd/rygnmad54Y0mS3mCFWtojUqB7Pi3lJ6P9jCc3bXjz1KFNNkFiDQgOKstEvY3NCk77Adnrv1aW5werRpMSw==";
         };
+        _OyEOv9wo = {
+            "id" = "OyEOv9wo";
+            "file" = "stardewcraft-0.6.3fix2-mc1.21.1-fabric.jar";
+            "hash" = "sha512-CHvr+9CihXWY6LmYPV1f3Sz4fjiO/DX76r9+plWCLgWF86yWRNK9sBsQ4gYGNuF/YrAo8pAQdn+sj/So7lBp9A==";
+        };
+        _BU4CZBJJ = {
+            "id" = "BU4CZBJJ";
+            "file" = "stardewcraft-0.6.3fix2-mc1.21.1-neoforge.jar";
+            "hash" = "sha512-zf8rbU3Imm/XqdOBGwr7LQwcEQCoUS7YYOi3qRl0qZoLnT06N7EFBdhASkCNn3wb139QEtK9Ghj0kRuytDTXSw==";
+        };
+        _Q0qOGjqZ = {
+            "id" = "Q0qOGjqZ";
+            "file" = "stardewcraft-0.6.3fix2-mc1.20.1-forge.jar";
+            "hash" = "sha512-9Lf3yhcoKuNCO9i8A6FWR4dAy+yYinFZkUSoa72txAhTC4z+wMkuTMm3DQvT7vNDRXIAQ6IlC16EAL/YmetfQw==";
+        };
     in {
         "zMhq0OWG" = _zMhq0OWG;
         "zeL4hw40" = _zeL4hw40;
@@ -320,8 +335,12 @@ let
         "S9YYOMfw" = _S9YYOMfw;
         "TkTg3GVR" = _TkTg3GVR;
         "7jGwsW2p" = _7jGwsW2p;
-        "neoforge-1.21.1" = _TkTg3GVR;
-        "forge-1.20.1" = _7jGwsW2p;
+        "OyEOv9wo" = _OyEOv9wo;
+        "BU4CZBJJ" = _BU4CZBJJ;
+        "Q0qOGjqZ" = _Q0qOGjqZ;
+        "neoforge-1.21.1" = _BU4CZBJJ;
+        "forge-1.20.1" = _Q0qOGjqZ;
+        "fabric-1.21.1" = _OyEOv9wo;
         "pkg-0.3.6-alpha" = _zMhq0OWG;
         "pkg-0.3.8-fix3" = _zeL4hw40;
         "pkg-0.3.9" = _PDZcUtXC;
@@ -374,7 +393,10 @@ let
         "pkg-0.6.3" = _S9YYOMfw;
         "pkg-0.6.3fix1-neoforge" = _TkTg3GVR;
         "pkg-0.6.3fix1-forge" = _7jGwsW2p;
-        "default" = _7jGwsW2p;
+        "pkg-0.6.3fix2-fabric" = _OyEOv9wo;
+        "pkg-0.6.3fix2-neoforge" = _BU4CZBJJ;
+        "pkg-0.6.3fix2-forge" = _Q0qOGjqZ;
+        "default" = _Q0qOGjqZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "starfield-pastoral";

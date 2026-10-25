@@ -31,6 +31,11 @@ let
             "file" = "Overlays 26.3§7.zip";
             "hash" = "sha512-mpGE9v/xwIcuBliUSrCLuDlWhN4hRMYNeIm3GIfH8LxFl0vU++irbOJrSJ428+FSGCH2AOm6xt1gqtROyluc5A==";
         };
+        _WnKRH4xO = {
+            "id" = "WnKRH4xO";
+            "file" = "Overlays 1.21§7.zip";
+            "hash" = "sha512-DRbUHxZpcGJR5NcbvLhlj9FS9ZRvJffqJQTTT+aICECGh12eOU9orDQHiyzNIRRLAQZG/iFFUxDWsQO/clJ3rQ==";
+        };
     in {
         "HTBBiyeC" = _HTBBiyeC;
         "8ZAC7SmJ" = _8ZAC7SmJ;
@@ -38,7 +43,8 @@ let
         "GjmvCrWJ" = _GjmvCrWJ;
         "YnKSn71c" = _YnKSn71c;
         "aec07ne7" = _aec07ne7;
-        "minecraft-1.14" = _aec07ne7;
+        "WnKRH4xO" = _WnKRH4xO;
+        "minecraft-1.14" = _WnKRH4xO;
         "minecraft-1.15" = _8ZAC7SmJ;
         "minecraft-1.16" = _8ZAC7SmJ;
         "minecraft-1.17" = _8ZAC7SmJ;
@@ -51,7 +57,7 @@ let
         "minecraft-1.21.8" = _GjmvCrWJ;
         "minecraft-1.21.10" = _aec07ne7;
         "minecraft-1.21.9" = _GjmvCrWJ;
-        "minecraft-1.21.11" = _aec07ne7;
+        "minecraft-1.21.11" = _WnKRH4xO;
         "minecraft-1.21.1" = _GjmvCrWJ;
         "minecraft-24w33a" = _GjmvCrWJ;
         "minecraft-24w34a" = _GjmvCrWJ;
@@ -71,7 +77,7 @@ let
         "minecraft-1.21.4" = _GjmvCrWJ;
         "minecraft-1.21.5" = _GjmvCrWJ;
         "minecraft-26.3-snapshot-7" = _GjmvCrWJ;
-        "minecraft-1.14.4" = _YnKSn71c;
+        "minecraft-1.14.4" = _WnKRH4xO;
         "minecraft-1.15.2" = _aec07ne7;
         "minecraft-1.16.5" = _aec07ne7;
         "minecraft-1.17.1" = _aec07ne7;
@@ -83,13 +89,20 @@ let
         "minecraft-26.1" = _aec07ne7;
         "minecraft-26.1.1" = _aec07ne7;
         "minecraft-26.3" = _aec07ne7;
+        "minecraft-1.13" = _WnKRH4xO;
+        "minecraft-1.13.1" = _WnKRH4xO;
+        "minecraft-1.13.2" = _WnKRH4xO;
+        "minecraft-1.14.1" = _WnKRH4xO;
+        "minecraft-1.14.2" = _WnKRH4xO;
+        "minecraft-1.14.3" = _WnKRH4xO;
         "pkg-v13" = _HTBBiyeC;
         "pkg-v13.1" = _8ZAC7SmJ;
         "pkg-v14" = _g3G42ebh;
         "pkg-v14.1" = _GjmvCrWJ;
         "pkg-v14.2" = _YnKSn71c;
         "pkg-26.3" = _aec07ne7;
-        "default" = _aec07ne7;
+        "pkg-v15" = _WnKRH4xO;
+        "default" = _WnKRH4xO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "overlays";

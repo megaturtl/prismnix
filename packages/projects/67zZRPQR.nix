@@ -11,9 +11,21 @@ let
             "file" = "ancient-jungle-ring-1.0.jar";
             "hash" = "sha512-I+nTt1z05dW3y4keAS75Y46/pKTZOrB8hpM/kj8wjkrJvzEAR1q5SjPBNnivi5+hoBFWA+qSk7LZKq/6Sjg2qA==";
         };
+        _XsCYATLd = {
+            "id" = "XsCYATLd";
+            "file" = "ancient-jungle-ring.zip";
+            "hash" = "sha512-juKJfJvaLtcUggAE79iKonvbLl7NGOq9v1x4iw+BUVFNzrmZZ6YLneRd+DJI7ZsM09zumbGH4ukTTjy9Avd3IQ==";
+        };
+        _Z6HUjKLz = {
+            "id" = "Z6HUjKLz";
+            "file" = "ancient-jungle-ring-1.0.0.jar";
+            "hash" = "sha512-4i4mIY8MwGnooH3e138+ZXA1JiVBXZDPFqXf5zP9uQ7hVFiZOjsTA+EoAVyQ09Z/SNsx3i7QKbp0JGKhIJFWIQ==";
+        };
     in {
         "d4vmsmGj" = _d4vmsmGj;
         "FoFaWeWP" = _FoFaWeWP;
+        "XsCYATLd" = _XsCYATLd;
+        "Z6HUjKLz" = _Z6HUjKLz;
         "datapack-1.21" = _d4vmsmGj;
         "datapack-1.21.1" = _d4vmsmGj;
         "datapack-1.21.2" = _d4vmsmGj;
@@ -26,6 +38,11 @@ let
         "datapack-1.21.9" = _d4vmsmGj;
         "datapack-1.21.10" = _d4vmsmGj;
         "datapack-1.21.11" = _d4vmsmGj;
+        "datapack-26.1" = _XsCYATLd;
+        "datapack-26.1.1" = _XsCYATLd;
+        "datapack-26.1.2" = _XsCYATLd;
+        "datapack-26.2" = _XsCYATLd;
+        "datapack-26.3" = _XsCYATLd;
         "fabric-1.21" = _FoFaWeWP;
         "fabric-1.21.1" = _FoFaWeWP;
         "fabric-1.21.2" = _FoFaWeWP;
@@ -38,6 +55,11 @@ let
         "fabric-1.21.9" = _FoFaWeWP;
         "fabric-1.21.10" = _FoFaWeWP;
         "fabric-1.21.11" = _FoFaWeWP;
+        "fabric-26.1" = _Z6HUjKLz;
+        "fabric-26.1.1" = _Z6HUjKLz;
+        "fabric-26.1.2" = _Z6HUjKLz;
+        "fabric-26.2" = _Z6HUjKLz;
+        "fabric-26.3" = _Z6HUjKLz;
         "forge-1.21" = _FoFaWeWP;
         "forge-1.21.1" = _FoFaWeWP;
         "forge-1.21.2" = _FoFaWeWP;
@@ -50,6 +72,11 @@ let
         "forge-1.21.9" = _FoFaWeWP;
         "forge-1.21.10" = _FoFaWeWP;
         "forge-1.21.11" = _FoFaWeWP;
+        "forge-26.1" = _Z6HUjKLz;
+        "forge-26.1.1" = _Z6HUjKLz;
+        "forge-26.1.2" = _Z6HUjKLz;
+        "forge-26.2" = _Z6HUjKLz;
+        "forge-26.3" = _Z6HUjKLz;
         "neoforge-1.21" = _FoFaWeWP;
         "neoforge-1.21.1" = _FoFaWeWP;
         "neoforge-1.21.2" = _FoFaWeWP;
@@ -62,6 +89,11 @@ let
         "neoforge-1.21.9" = _FoFaWeWP;
         "neoforge-1.21.10" = _FoFaWeWP;
         "neoforge-1.21.11" = _FoFaWeWP;
+        "neoforge-26.1" = _Z6HUjKLz;
+        "neoforge-26.1.1" = _Z6HUjKLz;
+        "neoforge-26.1.2" = _Z6HUjKLz;
+        "neoforge-26.2" = _Z6HUjKLz;
+        "neoforge-26.3" = _Z6HUjKLz;
         "quilt-1.21" = _FoFaWeWP;
         "quilt-1.21.1" = _FoFaWeWP;
         "quilt-1.21.2" = _FoFaWeWP;
@@ -74,9 +106,16 @@ let
         "quilt-1.21.9" = _FoFaWeWP;
         "quilt-1.21.10" = _FoFaWeWP;
         "quilt-1.21.11" = _FoFaWeWP;
+        "quilt-26.1" = _Z6HUjKLz;
+        "quilt-26.1.1" = _Z6HUjKLz;
+        "quilt-26.1.2" = _Z6HUjKLz;
+        "quilt-26.2" = _Z6HUjKLz;
+        "quilt-26.3" = _Z6HUjKLz;
         "pkg-1.0" = _d4vmsmGj;
         "pkg-1.0+mod" = _FoFaWeWP;
-        "default" = _FoFaWeWP;
+        "pkg-1.0.0" = _XsCYATLd;
+        "pkg-1.0.0+mod" = _Z6HUjKLz;
+        "default" = _Z6HUjKLz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ancient-jungle-ring";

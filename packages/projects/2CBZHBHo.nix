@@ -151,6 +151,21 @@ let
             "file" = "tramways-0.3.3-mc1.20.1-forge-18.jar";
             "hash" = "sha512-1jIqTfeFJJJEjClpAlH/BhyF/Kf/2Y1mToEuc+2UiPyj5GQsngmxEwsfLt7U8BojGS2+DgwX2SMCDqIInBKUlw==";
         };
+        _Ao82KmI4 = {
+            "id" = "Ao82KmI4";
+            "file" = "tramways-0.4.0-mc1.21.1-19.jar";
+            "hash" = "sha512-M0WCHDPJyVAcWAHKWYF6r+FhLMlHnSUzAUKK5fhAU/9snS3ePYmdNn9MPypLIlxwXYXSYj15IZN6hU1e14VNGA==";
+        };
+        _80x7Qfmx = {
+            "id" = "80x7Qfmx";
+            "file" = "tramways-0.4.0-mc1.20.1-fabric-20.jar";
+            "hash" = "sha512-jAgjgtEzEu7lxUe3aJ7Sv5QFL7CuvQG5vVYc0qhuRWX+jzoe9fPfFsux0+Uy5FNbhr7gWtz0DoEEr7WDsKagvA==";
+        };
+        _oX8UUh0l = {
+            "id" = "oX8UUh0l";
+            "file" = "tramways-0.4.0-mc1.20.1-forge-22.jar";
+            "hash" = "sha512-DH2EDTu/6e/Q7f6+xu3VZQ/1G2WDK6wbaAJxpWkVVfQMzkPoXT80O+Qpflu2SzULHL3+tTitEV/msb4XJARflg==";
+        };
     in {
         "UGYNt5wJ" = _UGYNt5wJ;
         "vFnvd9PQ" = _vFnvd9PQ;
@@ -182,8 +197,12 @@ let
         "MPlILYHg" = _MPlILYHg;
         "3UkOS4Iu" = _3UkOS4Iu;
         "1fHGYmgy" = _1fHGYmgy;
-        "forge-1.20.1" = _1fHGYmgy;
-        "fabric-1.20.1" = _3UkOS4Iu;
+        "Ao82KmI4" = _Ao82KmI4;
+        "80x7Qfmx" = _80x7Qfmx;
+        "oX8UUh0l" = _oX8UUh0l;
+        "forge-1.20.1" = _oX8UUh0l;
+        "fabric-1.20.1" = _80x7Qfmx;
+        "neoforge-1.21.1" = _Ao82KmI4;
         "pkg-0.0.0" = _UGYNt5wJ;
         "pkg-0.0.1" = _vFnvd9PQ;
         "pkg-0.0.2" = _iaPx4jwH;
@@ -202,7 +221,8 @@ let
         "pkg-0.3.1" = _UHV6Oikc;
         "pkg-0.3.2" = _MPlILYHg;
         "pkg-0.3.3" = _1fHGYmgy;
-        "default" = _1fHGYmgy;
+        "pkg-0.4.0" = _oX8UUh0l;
+        "default" = _oX8UUh0l;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tramways";

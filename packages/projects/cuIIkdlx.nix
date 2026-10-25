@@ -201,6 +201,16 @@ let
             "file" = "kaleidoscope_chinesefood-1.1.15-1.20.1-all.jar";
             "hash" = "sha512-KJWeknwspzzI1HnRl6/iFV4O+wIpkGU7Wx9voehIah6bWBHr30HxN9/+y1VZGtbfsXGrIITnkmjScffEdnsQyA==";
         };
+        _NQtt6JoY = {
+            "id" = "NQtt6JoY";
+            "file" = "kaleidoscope_chinesefood-1.1.16-1.20.1-all.jar";
+            "hash" = "sha512-SMVckgVJvAxX4bg+Ej85FGt7wxIqmXBm8rShIBv7QFpvzKq1uLeKisfq0mhRHO9A0gQyJBkbUPLnhfA3LSwIvA==";
+        };
+        _hFfTIf8r = {
+            "id" = "hFfTIf8r";
+            "file" = "kaleidoscope_chinesefood-1.1.16-neoforge+1.21.1.jar";
+            "hash" = "sha512-R2SeIdPcT++7Xz3eC+JyDWtKDt4dajYEBX6mIO4hk3QgqSroNzRjOMdZKTSJHYCYSjevEVPtCsi6Pmew6KwERg==";
+        };
     in {
         "LEBtFHIZ" = _LEBtFHIZ;
         "7NKxcMWF" = _7NKxcMWF;
@@ -242,8 +252,10 @@ let
         "8eQnNETS" = _8eQnNETS;
         "Bm5RNpZe" = _Bm5RNpZe;
         "QnA8SbZs" = _QnA8SbZs;
-        "forge-1.20.1" = _QnA8SbZs;
-        "neoforge-1.21.1" = _Bm5RNpZe;
+        "NQtt6JoY" = _NQtt6JoY;
+        "hFfTIf8r" = _hFfTIf8r;
+        "forge-1.20.1" = _NQtt6JoY;
+        "neoforge-1.21.1" = _hFfTIf8r;
         "pkg-1.0.1-BETA-1.20.1" = _LEBtFHIZ;
         "pkg-1.0.2-BETA-1.20.1" = _7NKxcMWF;
         "pkg-1.0.1-BETA-neoforge+1.21.1" = _SUYOBtIU;
@@ -284,7 +296,9 @@ let
         "pkg-1.1.14-1.20.1-feature" = _8eQnNETS;
         "pkg-1.1.15-neoforge+1.21.1" = _Bm5RNpZe;
         "pkg-1.1.15-1.20.1" = _QnA8SbZs;
-        "default" = _QnA8SbZs;
+        "pkg-1.1.16-1.20.1" = _NQtt6JoY;
+        "pkg-1.1.16-neoforge+1.21.1" = _hFfTIf8r;
+        "default" = _hFfTIf8r;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kaleidoscopechinesefood";

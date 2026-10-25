@@ -91,6 +91,11 @@ let
             "file" = "meowmrow kittycat ui (26.2) v1.zip";
             "hash" = "sha512-oPUI7pQYNFNjRaYmhekLti52LI0bjw/fvFcIqPd5+1QaZ7cwFj5RZT8AiDUnzMQiYylnmB+7iDBqSwOppbJf0A==";
         };
+        _QkIIf08l = {
+            "id" = "QkIIf08l";
+            "file" = "meowmrow kittycat ui (26.3) v1.zip";
+            "hash" = "sha512-tmaeCccRbxVr2dpWRKdPmNG2lztT9P6GHbHj5Nm0IXVehgWNKqsmlai0++VEuFVV8CpUxdLrGl+wkUB4bKn7AA==";
+        };
     in {
         "EDRR69TO" = _EDRR69TO;
         "8SuIwcUw" = _8SuIwcUw;
@@ -110,6 +115,7 @@ let
         "206nHx98" = _206nHx98;
         "74p7Qpub" = _74p7Qpub;
         "IgPp6B3W" = _IgPp6B3W;
+        "QkIIf08l" = _QkIIf08l;
         "minecraft-1.7.2" = _Ip9twAzt;
         "minecraft-1.7.3" = _Ip9twAzt;
         "minecraft-1.7.4" = _Ip9twAzt;
@@ -192,7 +198,8 @@ let
         "minecraft-26.1" = _74p7Qpub;
         "minecraft-26.1.1" = _74p7Qpub;
         "minecraft-26.1.2" = _74p7Qpub;
-        "minecraft-26.2" = _IgPp6B3W;
+        "minecraft-26.2" = _QkIIf08l;
+        "minecraft-26.3" = _QkIIf08l;
         "pkg-demeow1.7-1.16" = _EDRR69TO;
         "pkg-demeow1.17-26.2" = _8SuIwcUw;
         "pkg-1.7" = _Ip9twAzt;
@@ -211,7 +218,8 @@ let
         "pkg-1.21.6-1.21.10" = _206nHx98;
         "pkg-1.21.11-26.1" = _74p7Qpub;
         "pkg-26.2" = _IgPp6B3W;
-        "default" = _IgPp6B3W;
+        "pkg-26.3" = _QkIIf08l;
+        "default" = _QkIIf08l;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "meowmrow-kittycat-ui";

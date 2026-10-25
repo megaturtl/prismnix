@@ -2806,6 +2806,31 @@ let
             "file" = "travelersbackpack-neoforge-26.3-11.4.2.jar";
             "hash" = "sha512-+Cq+lpU46kCvEvm0hJI8k9xVRdUioWDMlR7b5DNsN6A/6RvpcmHcJFKvyH2mp1x/jONyMq9uqFQtqd0aAbtnrg==";
         };
+        _ZqrwMSn5 = {
+            "id" = "ZqrwMSn5";
+            "file" = "travelersbackpack-neoforge-1.21.1-10.1.40.jar";
+            "hash" = "sha512-A5UOV3Kzz4rpH2REuJgNiVix4GOIFZdkwu0d7iANIJv/3oNgLh9A4uI+EIku7x5ips/YyKvpYwvhvt8xLtbGHg==";
+        };
+        _KC2rTuNy = {
+            "id" = "KC2rTuNy";
+            "file" = "travelersbackpack-forge-1.20.1-9.1.58.jar";
+            "hash" = "sha512-SPByFSBww6RzMDHeKJVyNCdzKX0HkaL+5nMpbTl0l5TP7hABKW/EigecOyv0ADCxkweYOjyW+0xNGYFHYZ0ntw==";
+        };
+        _456c47fG = {
+            "id" = "456c47fG";
+            "file" = "travelersbackpack-neoforge-1.21.11-10.11.8.jar";
+            "hash" = "sha512-qHgsdpz6JN3dSf9zPr7kcwP5nZL03AolBBJZWlBHd5xFc1fj1LvyCChcZ0J0QdOxYpu1oMBn6Pr8Y6bjDRAayg==";
+        };
+        _LX6k4E9I = {
+            "id" = "LX6k4E9I";
+            "file" = "travelersbackpack-neoforge-26.1.2-11.2.9.jar";
+            "hash" = "sha512-EN4nVKWQq35USl4QJOtiM2oGqaWFQchj6HkycD+jS4kgf9xYBFbyB8VDgFKYhdiJxWVRLRuLR+roX8DACj3e2Q==";
+        };
+        _wUABrDVo = {
+            "id" = "wUABrDVo";
+            "file" = "travelersbackpack-neoforge-26.2-11.3.5.jar";
+            "hash" = "sha512-m11MxhxtmXAS8wmtrLWsrtt1G1bSE+uQg9uHQ3YdLLRCB1iV18Ne8ypky1BDZfHMBsP01z+wtAbp1BSytr3ijQ==";
+        };
     in {
         "3JLbcslr" = _3JLbcslr;
         "kenpECMd" = _kenpECMd;
@@ -3368,6 +3393,11 @@ let
         "WH4UEEYQ" = _WH4UEEYQ;
         "SmhjfeWr" = _SmhjfeWr;
         "GdWh2g1e" = _GdWh2g1e;
+        "ZqrwMSn5" = _ZqrwMSn5;
+        "KC2rTuNy" = _KC2rTuNy;
+        "456c47fG" = _456c47fG;
+        "LX6k4E9I" = _LX6k4E9I;
+        "wUABrDVo" = _wUABrDVo;
         "forge-1.12.2" = _3JLbcslr;
         "forge-1.16.5" = _6NAEVL5U;
         "forge-1.17.1" = _ZX1zUypH;
@@ -3376,7 +3406,7 @@ let
         "forge-1.19.3" = _apja6Dhu;
         "forge-1.19.4" = _c6ESk0Q0;
         "forge-1.20" = _wKi1ch7v;
-        "forge-1.20.1" = _wuJ2J0SL;
+        "forge-1.20.1" = _KC2rTuNy;
         "forge-1.20.2" = _o7DGCFqj;
         "forge-1.20.4" = _5qngrLbH;
         "forge-1.20.6" = _KZG9ydbw;
@@ -3410,18 +3440,18 @@ let
         "neoforge-1.20.4" = _BNberKGE;
         "neoforge-1.20.6" = _7F2hRnJ3;
         "neoforge-1.21" = _41RS1Evh;
-        "neoforge-1.21.1" = _LcOq0PxG;
+        "neoforge-1.21.1" = _ZqrwMSn5;
         "neoforge-1.21.4" = _nLe8wldk;
         "neoforge-1.21.5" = _9RhcBbVi;
         "neoforge-1.21.6" = _GW4N7597;
         "neoforge-1.21.7" = _IVbYZshY;
         "neoforge-1.21.8" = _IVbYZshY;
         "neoforge-1.21.10" = _xaHpF00O;
-        "neoforge-1.21.11" = _7tZN0j70;
+        "neoforge-1.21.11" = _456c47fG;
         "neoforge-26.1" = _gvH9BSzg;
         "neoforge-26.1.1" = _gvH9BSzg;
-        "neoforge-26.1.2" = _glTGAXmg;
-        "neoforge-26.2" = _EMeTJkWH;
+        "neoforge-26.1.2" = _LX6k4E9I;
+        "neoforge-26.2" = _wUABrDVo;
         "neoforge-26.3" = _GdWh2g1e;
         "pkg-1.12.2-1.0.35" = _3JLbcslr;
         "pkg-1.16.5-5.4.4" = _kenpECMd;
@@ -3713,7 +3743,7 @@ let
         "pkg-1.21.1-10.1.34" = _6JmlLOwp;
         "pkg-1.20.1-9.1.53" = _fTwokW7g;
         "pkg-1.21.11-10.11.7" = _7tZN0j70;
-        "pkg-1.21.11-10.11.8" = _D3V21Ir2;
+        "pkg-1.21.11-10.11.8" = _456c47fG;
         "pkg-1.21.11-10.11.9" = _XbEGJQSG;
         "pkg-26.1.1-11.1.0" = _4pU0yjR4;
         "pkg-26.1.2-11.2.0" = _gvH9BSzg;
@@ -3732,7 +3762,7 @@ let
         "pkg-26.2-11.3.0" = _YSfNfb9x;
         "pkg-1.20.1-9.1.56" = _YU3VeLg8;
         "pkg-1.21.1-10.1.37" = _NXJGtmmW;
-        "pkg-26.1.2-11.2.9" = _ZgfhEJnC;
+        "pkg-26.1.2-11.2.9" = _LX6k4E9I;
         "pkg-1.21.1-10.1.38" = _vHWNjFpl;
         "pkg-26.2-11.3.1" = _xTncPhKM;
         "pkg-1.21.11-10.11.10" = _LfmQsEdR;
@@ -3748,7 +3778,10 @@ let
         "pkg-26.2-11.3.4" = _EMeTJkWH;
         "pkg-26.3-11.4.1" = _SmhjfeWr;
         "pkg-26.3-11.4.2" = _GdWh2g1e;
-        "default" = _GdWh2g1e;
+        "pkg-1.21.1-10.1.40" = _ZqrwMSn5;
+        "pkg-1.20.1-9.1.58" = _KC2rTuNy;
+        "pkg-26.2-11.3.5" = _wUABrDVo;
+        "default" = _wUABrDVo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "travelersbackpack";

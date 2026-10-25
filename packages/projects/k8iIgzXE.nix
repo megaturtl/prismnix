@@ -2801,6 +2801,16 @@ let
             "file" = "caxton-neoforge-26.3-1.2.0-alpha.2.jar";
             "hash" = "sha512-R10fuWE1mKpoEmKol7vTypiEKFhuV8FXC3e4+QyWEeelxx41r2iQk5ths81U7pIHw+aWYwm5tJ7lKiVY3HWrAA==";
         };
+        _oWdmFHba = {
+            "id" = "oWdmFHba";
+            "file" = "caxton-fabric-26.3-1.2.0-alpha.3.jar";
+            "hash" = "sha512-8nJj7FC6pFXlmeXCp0neVG6Cr2K2vJ5SHM6dFwE4t4m1VcPpaLm0Qay8IskF/Qc80ooS2RK94WtmS4pfZKqwSA==";
+        };
+        _dHJeicbQ = {
+            "id" = "dHJeicbQ";
+            "file" = "caxton-neoforge-26.3-1.2.0-alpha.3.jar";
+            "hash" = "sha512-WNfnF0akNfwHReHWBZ1ye78Pbn1YdTDrFx+pMmSIZFlDJ02HRGjp7/hDZpRpPiNUuN5BaC9MV/2oc0Nqwzx7Mg==";
+        };
     in {
         "AbbZK6Pg" = _AbbZK6Pg;
         "OyEGDAqF" = _OyEGDAqF;
@@ -3362,6 +3372,8 @@ let
         "lOy6RSRI" = _lOy6RSRI;
         "pq5h5xmw" = _pq5h5xmw;
         "9LgiZv6S" = _9LgiZv6S;
+        "oWdmFHba" = _oWdmFHba;
+        "dHJeicbQ" = _dHJeicbQ;
         "fabric-1.19.3-pre1" = _AbbZK6Pg;
         "fabric-1.19.3-pre3" = _OyEGDAqF;
         "fabric-1.19.3" = _u7O1ycNu;
@@ -3413,7 +3425,7 @@ let
         "fabric-26.2-rc-2" = _foNX8wNV;
         "fabric-26.2" = _wVI9Rvrv;
         "fabric-26.3-rc-1" = _lOy6RSRI;
-        "fabric-26.3" = _pq5h5xmw;
+        "fabric-26.3" = _oWdmFHba;
         "forge-1.20.1" = _PgTzb56Y;
         "forge-1.18.2" = _bdAgshUc;
         "forge-1.19.2" = _x9CBDmQn;
@@ -3443,7 +3455,7 @@ let
         "neoforge-26.1" = _wCGXeHz7;
         "neoforge-26.1.2" = _R5hEpcll;
         "neoforge-26.2" = _6DD08Tqw;
-        "neoforge-26.3" = _9LgiZv6S;
+        "neoforge-26.3" = _dHJeicbQ;
         "pkg-0.1.0" = _AbbZK6Pg;
         "pkg-0.1.1" = _OyEGDAqF;
         "pkg-0.2.0" = _XxHvZpLo;
@@ -3998,7 +4010,9 @@ let
         "pkg-1.2.0-alpha.1+26.3-rc-1-FABRIC" = _lOy6RSRI;
         "pkg-1.2.0-alpha.2+26.3-FABRIC" = _pq5h5xmw;
         "pkg-1.2.0-alpha.2+26.3-NEOFORGE" = _9LgiZv6S;
-        "default" = _9LgiZv6S;
+        "pkg-1.2.0-alpha.3+26.3-FABRIC" = _oWdmFHba;
+        "pkg-1.2.0-alpha.3+26.3-NEOFORGE" = _dHJeicbQ;
+        "default" = _dHJeicbQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "caxton";

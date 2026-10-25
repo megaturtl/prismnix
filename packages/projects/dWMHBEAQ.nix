@@ -311,6 +311,16 @@ let
             "file" = "elytratrails-1.6.8-26.3.jar";
             "hash" = "sha512-5KdSRNPViZBFSR2ae6GPuKp5DLfOCLDKOtQm6gfmXVqbMw4OlcdcyI7cqztM+Xw8fsHSt8hipEf4Hlg6xhiPvw==";
         };
+        _MPuC5AJ2 = {
+            "id" = "MPuC5AJ2";
+            "file" = "elytratrails-1.6.9-26.2.jar";
+            "hash" = "sha512-ylyMi8YPmr3se5s1PWEXkK6NM6NdstOC7KNM2q9ClsJHDW08NtHiYQQkP0Qe4ARgFqHpfeFfaPJoQQUR5cazsg==";
+        };
+        _C4wdFxQq = {
+            "id" = "C4wdFxQq";
+            "file" = "elytratrails-1.6.9-26.3.jar";
+            "hash" = "sha512-JQKDSCKYOqib6e5YD8ehj2hii599otI25ri0KB4uCCqJSabhxiqqVSwGUJ73qw2ldGFGNUrFpbUnzAzU9hjpkA==";
+        };
     in {
         "CfFozPOO" = _CfFozPOO;
         "LnF8d50s" = _LnF8d50s;
@@ -374,6 +384,8 @@ let
         "PgCvLele" = _PgCvLele;
         "4si44k97" = _4si44k97;
         "wrsw1PYm" = _wrsw1PYm;
+        "MPuC5AJ2" = _MPuC5AJ2;
+        "C4wdFxQq" = _C4wdFxQq;
         "fabric-1.21.11" = _9KJRbgAa;
         "fabric-26.1" = _5we4VeeY;
         "fabric-26.1.1" = _5we4VeeY;
@@ -381,13 +393,13 @@ let
         "fabric-26.2-snapshot-1" = _ENnaF6A8;
         "fabric-1.20.1" = _c63ONIoI;
         "fabric-1.21.1" = _26ZE7cvJ;
-        "fabric-26.2" = _PgCvLele;
+        "fabric-26.2" = _MPuC5AJ2;
         "fabric-26.3-snapshot-3" = _YOG6Rv6C;
         "fabric-26.3-snapshot-7" = _cv91Gfrw;
         "fabric-26.3-pre-1" = _dyN3AzLm;
         "fabric-26.3-pre-2" = _JAa0fuT7;
         "fabric-26.3-rc-3" = _WEGvx2fH;
-        "fabric-26.3" = _wrsw1PYm;
+        "fabric-26.3" = _C4wdFxQq;
         "pkg-1.0.0" = _CfFozPOO;
         "pkg-1.0.1" = _LnF8d50s;
         "pkg-1.1.0" = _lhUP0Wa9;
@@ -450,7 +462,9 @@ let
         "pkg-1.6.7-26.2" = _PgCvLele;
         "pkg-1.6.7-26.3" = _4si44k97;
         "pkg-1.6.8-26.3" = _wrsw1PYm;
-        "default" = _wrsw1PYm;
+        "pkg-1.6.9-26.2" = _MPuC5AJ2;
+        "pkg-1.6.9-26.3" = _C4wdFxQq;
+        "default" = _C4wdFxQq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elytra-contrails-mod";

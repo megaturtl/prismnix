@@ -171,6 +171,51 @@ let
             "file" = "shulker_bundle-1.7.jar";
             "hash" = "sha512-vgZnEuWGzvfEEq6FHxTQX972gjFPQLKUOKyOFNYIhTI82B48btnnYlai2Lc4PGGLnHHXULlFVRWhHr23+EnYsQ==";
         };
+        _ehHInBFL = {
+            "id" = "ehHInBFL";
+            "file" = "shulker_bundle-1.8.jar";
+            "hash" = "sha512-zj0aQyCl0g0dMSG03PrOvR4KIIjItPMdHjvjwcRQPIhZ1OoklmSu/40/C2LvHyqjsalR7Msf+Gc/+VeE8NVN5w==";
+        };
+        _lWxXj4e1 = {
+            "id" = "lWxXj4e1";
+            "file" = "shulker_bundle-1.8.jar";
+            "hash" = "sha512-Vq8tdsvS3Uu1D22BYANBgYk30ntz1LA5N+kvFtdKI8UYyvtL2clgXhswQcUoYWETYMnvM1GTHbEUb3NLrXrvsw==";
+        };
+        _Ybz63Hkl = {
+            "id" = "Ybz63Hkl";
+            "file" = "shulker_bundle-1.8.jar";
+            "hash" = "sha512-rq2pYzcqmz1Hgrd9Et5Cq10EUaKyRrWq/XcKHVJjDnMtJOtqo7hfSwU2t7sGgc9nzJpWIylJuHuUX0kha2eAtg==";
+        };
+        _cjybXdBw = {
+            "id" = "cjybXdBw";
+            "file" = "shulker_bundle-1.8.jar";
+            "hash" = "sha512-VUB9v4Su0ASFsBpIijbTuMUYuepXhCvBN06gleCFO8AH7KqZnoI4emAwOSmKU3bCfzHjBvb1OHUV+y+SHmri/A==";
+        };
+        _U9OICHfy = {
+            "id" = "U9OICHfy";
+            "file" = "shulker_bundle-1.8.jar";
+            "hash" = "sha512-cFgbgqXHEQODFLS/r172e8XX5jMts3LsTmOqtOooXMqBoJAc8pJR3mUOSOEz4JlwuHSxr+4f+ATdhMfuxaIklw==";
+        };
+        _mHi5UjcC = {
+            "id" = "mHi5UjcC";
+            "file" = "shulker_bundle-1.8.jar";
+            "hash" = "sha512-Qx9JVhGuOrjn2DRbHou4r7tgtU5O2e7qkY+GdhsoGQM5qwXibqkEw6yl+13Tx/NjCS9KHcDgArjjPkvL6fLOsA==";
+        };
+        _J3wl3A1k = {
+            "id" = "J3wl3A1k";
+            "file" = "shulker_bundle-1.8.jar";
+            "hash" = "sha512-mIT1v+KEhZYXvRY8kZ5Urqr9cKFnwru+4DflNQUvVZsh7ueKZuCOcd/NDoNgD0iRd3nc3XGfR+r17TqkpGfTqQ==";
+        };
+        _G5XIpobt = {
+            "id" = "G5XIpobt";
+            "file" = "shulker_bundle-1.8.jar";
+            "hash" = "sha512-hHLSc8iM4SwRlJt/yviZwKRbPRPunUXUs5HD8GLhLPlVm0hkppWAVWBTZjHDpVDdqVL76OAdfz6XHcK8zwThRg==";
+        };
+        _6KbE8IVG = {
+            "id" = "6KbE8IVG";
+            "file" = "shulker_bundle-1.8.jar";
+            "hash" = "sha512-AjpRo0f3xgRs6/lVf4zkMcy+cpkwXUoRxnCsZW7LDr3Gf1pwZPtDMZ27KQTk5QMM0ntSeSoktP0y2DP1myc20Q==";
+        };
     in {
         "AX67e8rl" = _AX67e8rl;
         "9dRMW5iO" = _9dRMW5iO;
@@ -206,20 +251,29 @@ let
         "cx4sG4FR" = _cx4sG4FR;
         "VltKqbG7" = _VltKqbG7;
         "uX6sHxMW" = _uX6sHxMW;
-        "fabric-1.21.5" = _Y4VG2Hc5;
-        "fabric-1.21.6" = _AA6J1X4F;
-        "fabric-1.21.7" = _AA6J1X4F;
-        "fabric-1.21.8" = _AA6J1X4F;
-        "fabric-1.21.9" = _9zASnC3j;
-        "fabric-1.21.10" = _9zASnC3j;
-        "fabric-1.21.11" = _uX6sHxMW;
-        "fabric-26.1" = _VltKqbG7;
-        "fabric-26.1.1" = _VltKqbG7;
-        "fabric-26.1.2" = _VltKqbG7;
-        "fabric-26.2" = _cx4sG4FR;
-        "fabric-26.3" = _LyJoAPkm;
-        "fabric-1.21.3" = _R6PomHGD;
-        "fabric-1.21.4" = _u4o4hfDE;
+        "ehHInBFL" = _ehHInBFL;
+        "lWxXj4e1" = _lWxXj4e1;
+        "Ybz63Hkl" = _Ybz63Hkl;
+        "cjybXdBw" = _cjybXdBw;
+        "U9OICHfy" = _U9OICHfy;
+        "mHi5UjcC" = _mHi5UjcC;
+        "J3wl3A1k" = _J3wl3A1k;
+        "G5XIpobt" = _G5XIpobt;
+        "6KbE8IVG" = _6KbE8IVG;
+        "fabric-1.21.5" = _Ybz63Hkl;
+        "fabric-1.21.6" = _cjybXdBw;
+        "fabric-1.21.7" = _cjybXdBw;
+        "fabric-1.21.8" = _cjybXdBw;
+        "fabric-1.21.9" = _U9OICHfy;
+        "fabric-1.21.10" = _U9OICHfy;
+        "fabric-1.21.11" = _mHi5UjcC;
+        "fabric-26.1" = _J3wl3A1k;
+        "fabric-26.1.1" = _J3wl3A1k;
+        "fabric-26.1.2" = _J3wl3A1k;
+        "fabric-26.2" = _G5XIpobt;
+        "fabric-26.3" = _6KbE8IVG;
+        "fabric-1.21.3" = _ehHInBFL;
+        "fabric-1.21.4" = _lWxXj4e1;
         "pkg-1.0" = _AX67e8rl;
         "pkg-1.1" = _MAdwmBJn;
         "pkg-1.2" = _njqWC7o9;
@@ -229,7 +283,8 @@ let
         "pkg-1.5" = _Ch3Ws6a7;
         "pkg-1.6" = _DpIwpQnz;
         "pkg-1.7" = _uX6sHxMW;
-        "default" = _uX6sHxMW;
+        "pkg-shulker_bundle-1.8" = _6KbE8IVG;
+        "default" = _6KbE8IVG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shulker-bundle";

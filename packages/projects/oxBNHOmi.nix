@@ -386,6 +386,11 @@ let
             "file" = "shippy-ships-1.0.27-FABRIC-MC-1.21.11.jar";
             "hash" = "sha512-wpimokk1nnjWA9MiezISg4Uvd19gspR0q1Zgzg+UpDZUyFiUHgME/YvlTyahrusZXcVudPNfrKdUsB/xBN+NJw==";
         };
+        _7j511A1m = {
+            "id" = "7j511A1m";
+            "file" = "shippy-ships-1.0.28-FABRIC-MC-1.21.11.jar";
+            "hash" = "sha512-rRWQGYe34h4hHYOmE/P2soIAqfv437jJkdWf+RwG/zz5ajRnCX7iv7v3h0NYDej8O635OxbPmiksF5VgSZwcLA==";
+        };
     in {
         "GU9bK0ll" = _GU9bK0ll;
         "ELGpyPLo" = _ELGpyPLo;
@@ -464,13 +469,14 @@ let
         "xhBJ1OGV" = _xhBJ1OGV;
         "vrK02nxe" = _vrK02nxe;
         "VT7AfL7e" = _VT7AfL7e;
+        "7j511A1m" = _7j511A1m;
         "fabric-1.20.1" = _J3GaDBjE;
         "fabric-26.1" = _bpiMNvvj;
         "fabric-26.1.1" = _bpiMNvvj;
         "fabric-26.1.2" = _bpiMNvvj;
         "fabric-26.2" = _8TXwapdl;
         "fabric-1.21.1" = _wgMKtIcJ;
-        "fabric-1.21.11" = _VT7AfL7e;
+        "fabric-1.21.11" = _7j511A1m;
         "fabric-1.21.10" = _AQCZgZyL;
         "fabric-1.21.8" = _fKRwHKEO;
         "fabric-1.20.2" = _bdu8yAbe;
@@ -517,7 +523,8 @@ let
         "pkg-201.25.1" = _diWNTHFc;
         "pkg-211.25.1" = _BD6nH3bv;
         "pkg-1.0.27" = _VT7AfL7e;
-        "default" = _VT7AfL7e;
+        "pkg-1.0.28" = _7j511A1m;
+        "default" = _7j511A1m;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shippy-ships";

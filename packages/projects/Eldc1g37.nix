@@ -856,6 +856,16 @@ let
             "file" = "tcdcommons-5.7.0+fn-26.3.jar";
             "hash" = "sha512-QZ4GuUOzpENUOrDk4J80u7Svuz1lOfgKvgH3vI2GN2SG5RbJrjbfmdvlon4xVoQB1Oii2JphUMAsrWUpZgZB8Q==";
         };
+        _mro8KOYg = {
+            "id" = "mro8KOYg";
+            "file" = "tcdcommons-3.12.8+neoforge-1.21.1-rev.1.jar";
+            "hash" = "sha512-Rh0G7GC2LpXDpsxHz/immGWK86Cf5P/Qf4ZFo8MctAeCF9OhOKzYpShytnFRPmePUbuaRtFbQthCNig5uzW4xw==";
+        };
+        _GVSkIJY4 = {
+            "id" = "GVSkIJY4";
+            "file" = "tcdcommons-5.8.0+fn-26.3.jar";
+            "hash" = "sha512-rcWwfZFwD+J9Kzx6SC4v7ZaHBczxr2m/7LN4lSZYcnQPB2bTQFSeT5L/anUUPsmmIcumTUqBox4OBBpz/jf9gQ==";
+        };
     in {
         "LTzuOBR9" = _LTzuOBR9;
         "zqYM256z" = _zqYM256z;
@@ -1028,6 +1038,8 @@ let
         "e8CTufLc" = _e8CTufLc;
         "DMLrWt2p" = _DMLrWt2p;
         "y6a97oNq" = _y6a97oNq;
+        "mro8KOYg" = _mro8KOYg;
+        "GVSkIJY4" = _GVSkIJY4;
         "fabric-1.18.2" = _3ozJR9Wg;
         "fabric-1.19.2" = _TDJYcvSZ;
         "fabric-1.19.3" = _o6Y39pqg;
@@ -1056,7 +1068,7 @@ let
         "fabric-26w14a" = _uSpV2sxA;
         "fabric-26.1.2" = _uSpV2sxA;
         "fabric-26.2" = _NM3aWYRR;
-        "fabric-26.3" = _y6a97oNq;
+        "fabric-26.3" = _GVSkIJY4;
         "forge-1.18.2" = _Jf38xzKF;
         "forge-1.19.2" = _ziv1qJtR;
         "quilt-1.20" = _2mfYVOhd;
@@ -1086,8 +1098,8 @@ let
         "neoforge-26w14a" = _uSpV2sxA;
         "neoforge-26.1.2" = _uSpV2sxA;
         "neoforge-26.2" = _NM3aWYRR;
-        "neoforge-26.3" = _y6a97oNq;
-        "neoforge-1.21.1" = _DMLrWt2p;
+        "neoforge-26.3" = _GVSkIJY4;
+        "neoforge-1.21.1" = _mro8KOYg;
         "pkg-v1.0+1.18.2" = _LTzuOBR9;
         "pkg-v1.0+1.19.2" = _zqYM256z;
         "pkg-v2.0+1.18.2" = _CqxoRbpQ;
@@ -1258,7 +1270,9 @@ let
         "pkg-5.6.0+fn-26.3" = _e8CTufLc;
         "pkg-3.12.8+neoforge-1.21.1" = _DMLrWt2p;
         "pkg-5.7.0+fn-26.3" = _y6a97oNq;
-        "default" = _y6a97oNq;
+        "pkg-3.12.8+neoforge-1.21.1-rev.1" = _mro8KOYg;
+        "pkg-5.8.0+fn-26.3" = _GVSkIJY4;
+        "default" = _GVSkIJY4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tcdcommons";

@@ -46,6 +46,11 @@ let
             "file" = "contract-blade-forge-1.20.1-1.1.1.jar";
             "hash" = "sha512-5Pq3U8ASan4D7h5zeJGNLK0OM9Do01D120cjgls6fv5YO3iTj6cRoS9Tu8+yOsAO3T9MpY54WRpNL/+encadoA==";
         };
+        _6GKjZSFc = {
+            "id" = "6GKjZSFc";
+            "file" = "contract-blade-forge-1.20.1-1.2.0.jar";
+            "hash" = "sha512-U+bI1s436Sh0Z+f16EnQ9cImYYvzahLriaVLu85enlKhtUZHrEAJi83BUblxy2WquCD0yd00wjmx+V6I1zKjKQ==";
+        };
     in {
         "uOkpgA5p" = _uOkpgA5p;
         "pw4ytwj6" = _pw4ytwj6;
@@ -56,7 +61,8 @@ let
         "elU6Ojhv" = _elU6Ojhv;
         "S7hWi8to" = _S7hWi8to;
         "pGz17Zpn" = _pGz17Zpn;
-        "forge-1.20.1" = _pGz17Zpn;
+        "6GKjZSFc" = _6GKjZSFc;
+        "forge-1.20.1" = _6GKjZSFc;
         "pkg-0.1.0-beta.1" = _uOkpgA5p;
         "pkg-1.0.1" = _pw4ytwj6;
         "pkg-1.0.2" = _x30v7zv4;
@@ -66,7 +72,8 @@ let
         "pkg-1.0.8" = _elU6Ojhv;
         "pkg-1.1.0" = _S7hWi8to;
         "pkg-1.1.1" = _pGz17Zpn;
-        "default" = _pGz17Zpn;
+        "pkg-1.2.0" = _6GKjZSFc;
+        "default" = _6GKjZSFc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "contract-blade";

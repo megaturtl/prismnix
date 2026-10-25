@@ -306,6 +306,51 @@ let
             "file" = "NoCooldowns-26.2-neoforge-1.7.2.jar";
             "hash" = "sha512-pCJ2ifthPHu1xaYHq9sIsVGLz1t4etVcFYyj40bYU3TWO3rBfKivCaQpt8ELj7YflYhcLmgyFTQOUksyJWiLNQ==";
         };
+        _sVkQLPs5 = {
+            "id" = "sVkQLPs5";
+            "file" = "No-Cooldowns-26.3-fabric-1.8.jar";
+            "hash" = "sha512-tQeMWDldcejI1ZpCO2OAZG/2CX16+jFMpXu5uolizIp5N3NKj2DV0Dm2DPJ5W5nt8xCMQd+4n79jRWvKVlDmMQ==";
+        };
+        _LNoBazCG = {
+            "id" = "LNoBazCG";
+            "file" = "No-Cooldowns-26.3-forge-1.8.jar";
+            "hash" = "sha512-fSphLmLJ9sAj4shgbRpbuLVooIpYZBXrJBtlksvCYzyTC+jSS9IpQ+02EXH3bSdMZ8nnDJSOBKQ+LOte8rUfsA==";
+        };
+        _Ut8IMzpj = {
+            "id" = "Ut8IMzpj";
+            "file" = "No-Cooldowns-26.3-neoforge-1.8.jar";
+            "hash" = "sha512-KUJRQ0FFmtjv9S7XE8bRgouI3/8pmQQu7lvDZMCPZRE5xoC35Fnuo6jnGIb0BmbBHNFuq4FHly1mdXANR4H2FQ==";
+        };
+        _c2RTjBRJ = {
+            "id" = "c2RTjBRJ";
+            "file" = "No-Cooldowns-26.2-fabric-1.8.jar";
+            "hash" = "sha512-8uf4jQtveAZjTjupuE9oWzLVHANAxn2llKPYGbDiZrFwgQZUR+4Ik68YbXRt5rOXkFN2HIWvTqOcUtHbtpq5GA==";
+        };
+        _iX34S8N9 = {
+            "id" = "iX34S8N9";
+            "file" = "No-Cooldowns-26.2-forge-1.8.jar";
+            "hash" = "sha512-BZpolOHgoSNKsntVSln75odFijxnYOwZ28R4ch6T60GsDklkOvUO2KYwqpNQZTG2JS1QTAiJBRteMHmBSLvnXw==";
+        };
+        _XtQg2IQe = {
+            "id" = "XtQg2IQe";
+            "file" = "No-Cooldowns-26.2-neoforge-1.8.jar";
+            "hash" = "sha512-aGnwhM8kqnyhge6gCitAp47E/hS9HOjFuFN1UqnfiUxbOUWBJ8fD5fpBPphrqb0hTAV5ohpgreE+GhkiR/8OhA==";
+        };
+        _b2Vvr8sI = {
+            "id" = "b2Vvr8sI";
+            "file" = "No-Cooldowns-26.1.2-fabric-1.8.jar";
+            "hash" = "sha512-6JAurYPW4+83W87k1hQjAmcmfBV1ENnYs1MyxN3+oJ3x0DZetLq59nAHBjAn7w850/uvyd/4BbILmOqjFstGvw==";
+        };
+        _8ydN0xDI = {
+            "id" = "8ydN0xDI";
+            "file" = "No-Cooldowns-26.1.2-forge-1.8.jar";
+            "hash" = "sha512-IMDNT9bspn1IxmRELy6hkugA5XYwviL7BkbACshpgYXXWalePd7Df885RrTQ9xAGnO93ifb4iawl7NXTEl5NFg==";
+        };
+        _dfvga3Dy = {
+            "id" = "dfvga3Dy";
+            "file" = "No-Cooldowns-26.1.2-neoforge-1.8.jar";
+            "hash" = "sha512-sIXx44Oi0IfYx0sPJjOaefszMDCQ2oYm+jSXPZYcgI/RAvnsW1ukQ9rt6T//NjKeuLiOeK4RqWBaQWe0b9UkZg==";
+        };
     in {
         "3tQRwQAk" = _3tQRwQAk;
         "dFn4Zlpv" = _dFn4Zlpv;
@@ -368,6 +413,15 @@ let
         "mP3432Vc" = _mP3432Vc;
         "cxMVyJ2A" = _cxMVyJ2A;
         "h82YdMuo" = _h82YdMuo;
+        "sVkQLPs5" = _sVkQLPs5;
+        "LNoBazCG" = _LNoBazCG;
+        "Ut8IMzpj" = _Ut8IMzpj;
+        "c2RTjBRJ" = _c2RTjBRJ;
+        "iX34S8N9" = _iX34S8N9;
+        "XtQg2IQe" = _XtQg2IQe;
+        "b2Vvr8sI" = _b2Vvr8sI;
+        "8ydN0xDI" = _8ydN0xDI;
+        "dfvga3Dy" = _dfvga3Dy;
         "fabric-1.21.8" = _6nfBeOXd;
         "fabric-1.21.9" = _pNHQASRv;
         "fabric-1.21.10" = _S3fpFn0F;
@@ -375,7 +429,9 @@ let
         "fabric-1.20.1" = _5nGbLGHg;
         "fabric-1.21.1" = _PcYmjJMZ;
         "fabric-26.1" = _yA03eNG4;
-        "fabric-26.2" = _mP3432Vc;
+        "fabric-26.2" = _c2RTjBRJ;
+        "fabric-26.3" = _sVkQLPs5;
+        "fabric-26.1.2" = _b2Vvr8sI;
         "forge-1.21.8" = _oHPPnmUN;
         "forge-1.21.9" = _WYwLPUu3;
         "forge-1.21.10" = _vJVHvXOy;
@@ -383,14 +439,18 @@ let
         "forge-1.20.1" = _FiDlI4ne;
         "forge-1.21.1" = _s2jdV7sx;
         "forge-26.1" = _co3bkk4x;
-        "forge-26.2" = _cxMVyJ2A;
+        "forge-26.2" = _iX34S8N9;
+        "forge-26.3" = _LNoBazCG;
+        "forge-26.1.2" = _8ydN0xDI;
         "neoforge-1.21.8" = _ANOcarXs;
         "neoforge-1.21.9" = _laJrTnFt;
         "neoforge-1.21.10" = _ptc7ZMiT;
         "neoforge-1.21.11" = _2r9gJhCQ;
         "neoforge-1.21.1" = _URHV2CTM;
         "neoforge-26.1" = _8b2BFofD;
-        "neoforge-26.2" = _h82YdMuo;
+        "neoforge-26.2" = _XtQg2IQe;
+        "neoforge-26.3" = _Ut8IMzpj;
+        "neoforge-26.1.2" = _dfvga3Dy;
         "pkg-1.0" = _3tQRwQAk;
         "pkg-1.1" = _dFn4Zlpv;
         "pkg-1.2" = _kuI2e125;
@@ -405,7 +465,8 @@ let
         "pkg-1.6.3" = _ptc7ZMiT;
         "pkg-1.7.2" = _h82YdMuo;
         "pkg-1.6.3.1" = _URHV2CTM;
-        "default" = _h82YdMuo;
+        "pkg-1.8" = _dfvga3Dy;
+        "default" = _dfvga3Dy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "no-cooldowns";

@@ -66,6 +66,21 @@ let
             "file" = "KeybindAtlas-v2.0.0-mc26.2-neoforge.jar";
             "hash" = "sha512-r06CGWIxoheDceEKi92u3q+PZ40CDzbIwHEWYuVzLfrh5qJ66wkIqpzWwdEEpw3AWTlNDXycRdrpF2eISqOpXw==";
         };
+        _Ji9mRi3I = {
+            "id" = "Ji9mRi3I";
+            "file" = "KeybindAtlas-v2.0.0-mc26.2-fabric.jar";
+            "hash" = "sha512-y6EJ7h9v2FsnzjnLNi2PuyVnEuY2lrhVhKPB9m1NebtroWLurkdaFwlDnEuWx4WXLWUHawBC/WLgLDJJvzEvsw==";
+        };
+        _Q8NUYD0R = {
+            "id" = "Q8NUYD0R";
+            "file" = "KeybindAtlas-v2.0.0-mc1.20.4-forge.jar";
+            "hash" = "sha512-Gpq/t+LYUbMB0ivXD6GRRmBZ9eZbvhfvRS49o2rv7SJNyHiK5J08jqjwIvceRa60ipjBh8q16152TW2Zx5lCMA==";
+        };
+        _vbxXN6T6 = {
+            "id" = "vbxXN6T6";
+            "file" = "KeybindAtlas-v2.1.0-mc1.20.4-neoforge.jar";
+            "hash" = "sha512-mUxpdYtSr/pN6gDPc4yDTFU3BTe8uOocLQbPqIcnUiecT4zlLvkHeWCLpwNoViXEKGEmJMTBYET3Jdpo9mos4w==";
+        };
     in {
         "m9vhAuEP" = _m9vhAuEP;
         "SdqAGJHB" = _SdqAGJHB;
@@ -80,20 +95,27 @@ let
         "JD9xjSs2" = _JD9xjSs2;
         "E95sdTmi" = _E95sdTmi;
         "7aG2ZCaU" = _7aG2ZCaU;
+        "Ji9mRi3I" = _Ji9mRi3I;
+        "Q8NUYD0R" = _Q8NUYD0R;
+        "vbxXN6T6" = _vbxXN6T6;
         "forge-1.20.1" = _HGCzXJmT;
+        "forge-1.20.4" = _Q8NUYD0R;
         "neoforge-1.20.1" = _HGCzXJmT;
         "neoforge-1.21.1" = _zT1hSwL5;
         "neoforge-26.2" = _7aG2ZCaU;
+        "neoforge-1.20.4" = _vbxXN6T6;
         "fabric-1.21.1" = _JD9xjSs2;
         "fabric-1.20.1" = _E95sdTmi;
+        "fabric-26.2" = _Ji9mRi3I;
         "pkg-1.0.0" = _m9vhAuEP;
         "pkg-1.1.0" = _SdqAGJHB;
         "pkg-1.2.0" = _JuF0Qzei;
         "pkg-1.3.0" = _co95sn88;
         "pkg-1.3.1" = _rPSHJz9d;
         "pkg-1.4.0" = _MrzMcDXs;
-        "pkg-2.0.0" = _7aG2ZCaU;
-        "default" = _7aG2ZCaU;
+        "pkg-2.0.0" = _Q8NUYD0R;
+        "pkg-2.1.0" = _vbxXN6T6;
+        "default" = _vbxXN6T6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "keybind-atlas";
