@@ -46,6 +46,21 @@ let
             "file" = "arcadia-ah-1.4.0.jar";
             "hash" = "sha512-4qNvE+nFvBvPNpvalT6VrdLWF/qkSZz2/DEUYp2yGkv3smG/5ymSNXmteWAl2DDFoTN+8pIfAPWLKMc+mZqVpA==";
         };
+        _jjPCW91M = {
+            "id" = "jjPCW91M";
+            "file" = "arcadia-ah-forge-1.20.1-2.0.0.jar";
+            "hash" = "sha512-n5Yoz4m+CKxot3pnyDXm/KaGOER5UQGK/H3+gughFbdr2sG9Xlk5RrN2NFLQjXmTp0Mfsa48z/WLVYgsVpQElw==";
+        };
+        _yjo9tcdK = {
+            "id" = "yjo9tcdK";
+            "file" = "arcadia-ah-neoforge-1.21.1-2.0.0.jar";
+            "hash" = "sha512-aMuHYv+Rgw6f9rhHAJGIYEef/x2A2oFmsvQjd+FII4aiHH8sijXJleziNEk7ZfGfiIYEm26tQlFfNhumUztJLw==";
+        };
+        _iDaDDtOa = {
+            "id" = "iDaDDtOa";
+            "file" = "arcadia-ah-neoforge-26.1.2-2.0.0.jar";
+            "hash" = "sha512-l602dM0jhUVUcmdAd/q5AVwBnxGguRyJmc2fB9io6EV4fHs3nTIT8kvwB8a9XZWDkqQp4Pt1j0c78O452w69tw==";
+        };
     in {
         "fhzZRGfa" = _fhzZRGfa;
         "rZIimL2t" = _rZIimL2t;
@@ -56,8 +71,12 @@ let
         "heqsI3al" = _heqsI3al;
         "flumrzNh" = _flumrzNh;
         "S1uUjbfn" = _S1uUjbfn;
-        "neoforge-1.21.1" = _S1uUjbfn;
-        "forge-1.20.1" = _heqsI3al;
+        "jjPCW91M" = _jjPCW91M;
+        "yjo9tcdK" = _yjo9tcdK;
+        "iDaDDtOa" = _iDaDDtOa;
+        "neoforge-1.21.1" = _yjo9tcdK;
+        "neoforge-26.1.2" = _iDaDDtOa;
+        "forge-1.20.1" = _jjPCW91M;
         "forge-1.20.2" = _heqsI3al;
         "forge-1.20.3" = _heqsI3al;
         "forge-1.20.4" = _heqsI3al;
@@ -69,7 +88,10 @@ let
         "pkg-1.3.3" = _85bEoY8g;
         "pkg-1.3.4" = _flumrzNh;
         "pkg-1.21.1-1.4.0" = _S1uUjbfn;
-        "default" = _S1uUjbfn;
+        "pkg-2.0.0+forge-1.20.1" = _jjPCW91M;
+        "pkg-2.0.0+neoforge-1.21.1" = _yjo9tcdK;
+        "pkg-2.0.0+neoforge-26.1.2" = _iDaDDtOa;
+        "default" = _iDaDDtOa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "arcadia-ah";

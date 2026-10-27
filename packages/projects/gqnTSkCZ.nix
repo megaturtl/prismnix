@@ -231,6 +231,11 @@ let
             "file" = "lategamegolems-1.20.1-forge-3.3.5.jar";
             "hash" = "sha512-S27/wGLulZDLta2EZGNoQ1cFzamNywNjrDvylUMToVst+Ox7VKmmquHy50t3bY++CwXtxXW1HDfppLH0POZ93Q==";
         };
+        _I3VxSFVK = {
+            "id" = "I3VxSFVK";
+            "file" = "lategamegolems-1.21.1-neoforge-3.4.0.jar";
+            "hash" = "sha512-FayFvL89b4184rHS0JAbIm85PV4SNmlEXiMXJFWUkjt27KfCgPQ637g0rINymT08LBoo22vBinL0LOE7YcoXNA==";
+        };
     in {
         "5ikAlMyl" = _5ikAlMyl;
         "bGBH6LWs" = _bGBH6LWs;
@@ -278,6 +283,7 @@ let
         "StvxnYlB" = _StvxnYlB;
         "fthW6CML" = _fthW6CML;
         "ce2ayPl7" = _ce2ayPl7;
+        "I3VxSFVK" = _I3VxSFVK;
         "forge-1.21.1" = _3jSVE3So;
         "forge-1.21.2" = _3jSVE3So;
         "forge-1.21.3" = _3jSVE3So;
@@ -292,7 +298,7 @@ let
         "forge-1.20.5" = _k1jK4JkK;
         "forge-1.20.6" = _k1jK4JkK;
         "forge-1.21.4" = _3jSVE3So;
-        "neoforge-1.21.1" = _fthW6CML;
+        "neoforge-1.21.1" = _I3VxSFVK;
         "neoforge-1.21.2" = _UNQew1pn;
         "neoforge-1.21.3" = _UNQew1pn;
         "neoforge-1.21.4" = _UNQew1pn;
@@ -317,7 +323,8 @@ let
         "pkg-3.3.3" = _NQPpHz9f;
         "pkg-3.3.4" = _StvxnYlB;
         "pkg-3.3.5" = _ce2ayPl7;
-        "default" = _ce2ayPl7;
+        "pkg-3.4.0" = _I3VxSFVK;
+        "default" = _I3VxSFVK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "late-game-golems";

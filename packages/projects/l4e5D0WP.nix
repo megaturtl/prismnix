@@ -41,6 +41,11 @@ let
             "file" = "§bukia spears.zip";
             "hash" = "sha512-p1PXRsC/6fVnkhP7fpjwvdt78Q23he3WeW/ClWE1vBoAiSQlHvSK3c8OcX2cohrxASP5imcXeLzJyMuFBMrsNA==";
         };
+        _1lSnfePg = {
+            "id" = "1lSnfePg";
+            "file" = "§bukia spears.zip";
+            "hash" = "sha512-zT2P+KZWV39nLwyBIRZmK5pu7BoPhfJRUFQO9DlAg0+NT4P4B8CimmtXHC5meDAxEwixVX58K+Mp/JBqDvq/AQ==";
+        };
     in {
         "dclD4Ui0" = _dclD4Ui0;
         "yVOxKET9" = _yVOxKET9;
@@ -50,6 +55,7 @@ let
         "C70In037" = _C70In037;
         "KgY9Twn1" = _KgY9Twn1;
         "jHQxrpZd" = _jHQxrpZd;
+        "1lSnfePg" = _1lSnfePg;
         "minecraft-25w41a" = _yVOxKET9;
         "minecraft-25w42a" = _3WVUDWpu;
         "minecraft-25w43a" = _3WVUDWpu;
@@ -62,6 +68,7 @@ let
         "minecraft-1.21.11-rc2" = _AzD0hebg;
         "minecraft-1.21.11" = _KgY9Twn1;
         "minecraft-26.1" = _jHQxrpZd;
+        "minecraft-26.3" = _1lSnfePg;
         "pkg-0.0" = _dclD4Ui0;
         "pkg-0.1" = _yVOxKET9;
         "pkg-0.2" = _3WVUDWpu;
@@ -70,7 +77,8 @@ let
         "pkg-1.1" = _C70In037;
         "pkg-1.2" = _KgY9Twn1;
         "pkg-1.3" = _jHQxrpZd;
-        "default" = _jHQxrpZd;
+        "pkg-1.4" = _1lSnfePg;
+        "default" = _1lSnfePg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ukias-spears-lances";

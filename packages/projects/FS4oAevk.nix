@@ -106,6 +106,11 @@ let
             "file" = "AnvilCraft_AlloyExtension-1.21.1-neoforge-1.0.6.jar";
             "hash" = "sha512-1xy7aNeWV1q5QRpFDXM1EWSylqYrL1ISkBo2090jfUZJPVTnzzY3vp/jx4hjOVqp22tyMmFM7PngVAU+brIIpg==";
         };
+        _BvcxEyL6 = {
+            "id" = "BvcxEyL6";
+            "file" = "AnvilCraft_AlloyExtension-1.21.1-neoforge-1.0.7.jar";
+            "hash" = "sha512-pbNIp13gj3abDyub4z0gykRxdB2j9RvqLZCnT/HpVKwhoaCBKsUHf78d2Sea/xcsC6HcFM5ifP7jGDTXn5B7/A==";
+        };
     in {
         "fML2Al6j" = _fML2Al6j;
         "zoxauLRb" = _zoxauLRb;
@@ -128,7 +133,8 @@ let
         "aHPKMEhl" = _aHPKMEhl;
         "jBHCX3PA" = _jBHCX3PA;
         "PlgQQvVO" = _PlgQQvVO;
-        "neoforge-1.21.1" = _PlgQQvVO;
+        "BvcxEyL6" = _BvcxEyL6;
+        "neoforge-1.21.1" = _BvcxEyL6;
         "neoforge-1.21" = _MAyXpIeu;
         "pkg-0.5" = _fML2Al6j;
         "pkg-0.6" = _zoxauLRb;
@@ -151,7 +157,8 @@ let
         "pkg-1.0.4" = _aHPKMEhl;
         "pkg-1.0.5" = _jBHCX3PA;
         "pkg-1.0.6" = _PlgQQvVO;
-        "default" = _PlgQQvVO;
+        "pkg-1.0.7" = _BvcxEyL6;
+        "default" = _BvcxEyL6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "anvilcraft-alloyextension";

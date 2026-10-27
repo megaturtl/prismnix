@@ -161,6 +161,26 @@ let
             "file" = "FPS-Monitor-1.0.0-dev.jar";
             "hash" = "sha512-VFlXWFyWbuoFIn6Ied5BNJHtxYUdZJDaChrBtLl4WkSYN2WtNrXYBvzrh+mnd1TEyXjcIg4hAOoGmWz1CXamQA==";
         };
+        _fqfrZcNs = {
+            "id" = "fqfrZcNs";
+            "file" = "FPS-Monitor-1.21.1-1.4.0-Fabric.jar";
+            "hash" = "sha512-I3UojBwgxvbzOrR/oL/V1ri878BkL2GI7gSpWHJhvf0ZXg6WYRPEqqN/UPYomZJ56gdLJDeCeeehMxUvPGqlVA==";
+        };
+        _lO8uYoKb = {
+            "id" = "lO8uYoKb";
+            "file" = "FPS-Monitor-1.21.1-1.4.0.jar";
+            "hash" = "sha512-WBlAvsDQ9Coft+9F3M6S717/UsQrzFdyTxI/Mfol9qZb34l1EcDWvNpcW4vvAIcGYRj4oKdf10S3uc9W/HKA3g==";
+        };
+        _BcKcKPFi = {
+            "id" = "BcKcKPFi";
+            "file" = "FPS-Monitor-26.3-1.4.0-Fabric.jar";
+            "hash" = "sha512-VoejV1Sva5QBNDTuf/PRNkP5esObN/6QNUnQs9o/9H6WbmujO03rQCSyoRETz0DiESPPsu6HqGfCG8pUd6nWFw==";
+        };
+        _prpsKesv = {
+            "id" = "prpsKesv";
+            "file" = "FPS-Monitor-26.3-1.4.0.jar";
+            "hash" = "sha512-4ok8qlO/utmY3GYESH/s5angsjQlzeFolriGw/0t+xbplDrhWW41TM5VeHqTRRCnjYtq50KSIBdqXB5A5Sr0Mg==";
+        };
     in {
         "8nAH1H6f" = _8nAH1H6f;
         "ej8ha5l7" = _ej8ha5l7;
@@ -194,6 +214,10 @@ let
         "1Qf6PHjR" = _1Qf6PHjR;
         "VdU0veVP" = _VdU0veVP;
         "9vQUvHmV" = _9vQUvHmV;
+        "fqfrZcNs" = _fqfrZcNs;
+        "lO8uYoKb" = _lO8uYoKb;
+        "BcKcKPFi" = _BcKcKPFi;
+        "prpsKesv" = _prpsKesv;
         "forge-1.20" = _8nAH1H6f;
         "forge-1.20.1" = _8nAH1H6f;
         "forge-1.19.4" = _Stpr3vlh;
@@ -226,6 +250,10 @@ let
         "fabric-1.16.3" = _9vQUvHmV;
         "fabric-1.16.4" = _9vQUvHmV;
         "fabric-1.16.5" = _9vQUvHmV;
+        "fabric-1.21.1" = _fqfrZcNs;
+        "fabric-26.3" = _BcKcKPFi;
+        "neoforge-1.21.1" = _lO8uYoKb;
+        "neoforge-26.3" = _prpsKesv;
         "pkg-1.20-1.3.0" = _ej8ha5l7;
         "pkg-1.19-1.3.0" = _faJVn0GJ;
         "pkg-1.19.3-1.3.0" = _QFuikgg1;
@@ -241,7 +269,11 @@ let
         "pkg-1.17-1.0.1" = _yERLk5l4;
         "pkg-1.16-1.0.1" = _1Qf6PHjR;
         "pkg-1.16-1.0.0" = _9vQUvHmV;
-        "default" = _9vQUvHmV;
+        "pkg-1.21.1-1.4.0-Fabric" = _fqfrZcNs;
+        "pkg-1.21.1-1.4.0-NeoForge" = _lO8uYoKb;
+        "pkg-26.3-1.4.0-Fabric" = _BcKcKPFi;
+        "pkg-26.3-1.4.0-NeoForge" = _prpsKesv;
+        "default" = _prpsKesv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fps-monitor";

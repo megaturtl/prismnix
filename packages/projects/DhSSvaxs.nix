@@ -256,6 +256,36 @@ let
             "file" = "beautify-3.5.5-fabric+26.3.jar";
             "hash" = "sha512-JEXEBswZBtczg3HQHIlkSYcefYKznRAFTxr6pRVUsi3Bxm4J6OH3yT+oj06X12onVVnV9snYbwXQgKJ2Eoo+Vg==";
         };
+        _C7lvo7Lr = {
+            "id" = "C7lvo7Lr";
+            "file" = "beautify-3.6.0-fabric+1.20.1.jar";
+            "hash" = "sha512-sSa4lgIfjw9kNarjNiDQ4hHStqNNYeQZrJ9a09kxDSZsqJugVbYtVsk+B+MuuHfzLFJLJg+j3TiMpobap3yfwQ==";
+        };
+        _MB1tvrhH = {
+            "id" = "MB1tvrhH";
+            "file" = "beautify-3.6.0-fabric+1.21.1.jar";
+            "hash" = "sha512-7nwBIDs1oHjNVngqeHyY4nZLwrUSZT+eAP3i4UJts1fJca2J2CAeqwRKTkufwlglk/UGABg8ROcdeoTbp5fvUQ==";
+        };
+        _Pi7GhI9b = {
+            "id" = "Pi7GhI9b";
+            "file" = "beautify-3.6.0-fabric+1.21.11.jar";
+            "hash" = "sha512-+W0xLq+kT4rLumWA0LSfErKMli1+u6VDeXWfaBe71pPwxpX4XaMi+a48uDkwJM+wV6OrWzT41H7ny8UtXT5ekQ==";
+        };
+        _KBpnpE9u = {
+            "id" = "KBpnpE9u";
+            "file" = "beautify-3.6.0-fabric+26.1.2.jar";
+            "hash" = "sha512-wlnujss/QJNa4/9JiKEUlYqTC35o5KrNQcdtTnJHyAE4Ku8X7N6Nw83Ky86yNd30natTC47D6zZAjVivFGdrvA==";
+        };
+        _iKK80bNR = {
+            "id" = "iKK80bNR";
+            "file" = "beautify-3.6.0-fabric+26.2.jar";
+            "hash" = "sha512-2PIx3aE5ldboFZ4qayFESA/z6d5MwEnLHt7GnO5x/f9x+Tg2lj5D9lCLsf+eQRuWN0/93kSslP9btmKlGJQ0Og==";
+        };
+        _OhMfSW7u = {
+            "id" = "OhMfSW7u";
+            "file" = "beautify-3.6.0-fabric+26.3.jar";
+            "hash" = "sha512-AP8PMhMGT9mhZlceEAfotSQvk5mC9+heuZU50B2ALyHR31PqmlH6B6kZd/96aG/LTX+SBF5ipnsotuSt8BHbrA==";
+        };
     in {
         "vGUQVAgf" = _vGUQVAgf;
         "DTK3Rmx4" = _DTK3Rmx4;
@@ -308,6 +338,12 @@ let
         "O2Qq15rg" = _O2Qq15rg;
         "aBoMg1S0" = _aBoMg1S0;
         "PsBWmTqK" = _PsBWmTqK;
+        "C7lvo7Lr" = _C7lvo7Lr;
+        "MB1tvrhH" = _MB1tvrhH;
+        "Pi7GhI9b" = _Pi7GhI9b;
+        "KBpnpE9u" = _KBpnpE9u;
+        "iKK80bNR" = _iKK80bNR;
+        "OhMfSW7u" = _OhMfSW7u;
         "fabric-1.18" = _eLefP1tn;
         "fabric-1.18.1" = _eLefP1tn;
         "fabric-1.18.2" = _eLefP1tn;
@@ -316,14 +352,14 @@ let
         "fabric-1.19.2" = _Um4xHnUP;
         "fabric-1.19.3" = _9Vv3ktn2;
         "fabric-1.20" = _6tIaagwA;
-        "fabric-1.20.1" = _keoZPWbY;
+        "fabric-1.20.1" = _C7lvo7Lr;
         "fabric-1.20.2" = _TYVNZK9i;
         "fabric-1.20.3" = _gkoWKOgH;
         "fabric-1.20.4" = _gkoWKOgH;
         "fabric-1.20.5" = _m4AmgeAG;
         "fabric-1.20.6" = _m4AmgeAG;
         "fabric-1.21" = _tHOYXwOR;
-        "fabric-1.21.1" = _UDgsyyfA;
+        "fabric-1.21.1" = _MB1tvrhH;
         "fabric-1.21.2" = _2StQYvMt;
         "fabric-1.21.3" = _2StQYvMt;
         "fabric-1.21.4" = _8UJnwaHz;
@@ -333,12 +369,12 @@ let
         "fabric-1.21.8" = _QCd1MlL7;
         "fabric-1.21.9" = _uYEdErec;
         "fabric-1.21.10" = _uYEdErec;
-        "fabric-1.21.11" = _Hprl1Dit;
+        "fabric-1.21.11" = _Pi7GhI9b;
         "fabric-26.1" = _glraw2Zf;
         "fabric-26.1.1" = _glraw2Zf;
-        "fabric-26.1.2" = _O2Qq15rg;
-        "fabric-26.2" = _aBoMg1S0;
-        "fabric-26.3" = _PsBWmTqK;
+        "fabric-26.1.2" = _KBpnpE9u;
+        "fabric-26.2" = _iKK80bNR;
+        "fabric-26.3" = _OhMfSW7u;
         "pkg-1.0.0+fabric-1.18.2" = _vGUQVAgf;
         "pkg-1.0.0+fabric-1.19.2" = _DTK3Rmx4;
         "pkg-1.0.1+fabric-1.19.2" = _lC8BjJoj;
@@ -390,7 +426,13 @@ let
         "pkg-3.5.5-fabric+26.1.2" = _O2Qq15rg;
         "pkg-3.5.5-fabric+26.2" = _aBoMg1S0;
         "pkg-3.5.5-fabric+26.3" = _PsBWmTqK;
-        "default" = _PsBWmTqK;
+        "pkg-3.6.0-fabric+1.20.1" = _C7lvo7Lr;
+        "pkg-3.6.0-fabric+1.21.1" = _MB1tvrhH;
+        "pkg-3.6.0-fabric+1.21.11" = _Pi7GhI9b;
+        "pkg-3.6.0-fabric+26.1.2" = _KBpnpE9u;
+        "pkg-3.6.0-fabric+26.2" = _iKK80bNR;
+        "pkg-3.6.0-fabric+26.3" = _OhMfSW7u;
+        "default" = _OhMfSW7u;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "beautify-refabricated";

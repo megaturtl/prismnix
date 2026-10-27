@@ -91,6 +91,11 @@ let
             "file" = "Mizuno x Fresh Animations 4.8 (26.1+).zip";
             "hash" = "sha512-2Sv0xSUHwgpz8bh3hgF4JW8ng3SqruQHdI09z9TdmCWGanx3uwF3QtHAzbpifwM25FafflUI9Mn/I0GXYdCjZg==";
         };
+        _DqGNLpGt = {
+            "id" = "DqGNLpGt";
+            "file" = "Mizuno x Fresh Animations 4.9 (26.1+).zip";
+            "hash" = "sha512-6HL681LqJp2FkF28Me0AUo4iClzxfzYXAeVFzRW9X1l9TyICk42ZFVtM6J9YwTR6tzh5A8t+Q11O1eY3AIYA3A==";
+        };
     in {
         "aYP8Og7r" = _aYP8Og7r;
         "IqFyLEj1" = _IqFyLEj1;
@@ -110,6 +115,7 @@ let
         "hRFznm0o" = _hRFznm0o;
         "DNBMIX95" = _DNBMIX95;
         "tfnuWIpn" = _tfnuWIpn;
+        "DqGNLpGt" = _DqGNLpGt;
         "minecraft-1.19.4" = _ePCFgvMX;
         "minecraft-1.20" = _A1H5RhS8;
         "minecraft-1.20.1" = _A1H5RhS8;
@@ -130,11 +136,11 @@ let
         "minecraft-1.21.9" = _A1H5RhS8;
         "minecraft-1.21.10" = _A1H5RhS8;
         "minecraft-1.21.11" = _A1H5RhS8;
-        "minecraft-26.1" = _tfnuWIpn;
-        "minecraft-26.1.1" = _tfnuWIpn;
-        "minecraft-26.1.2" = _tfnuWIpn;
-        "minecraft-26.2" = _tfnuWIpn;
-        "minecraft-26.3" = _tfnuWIpn;
+        "minecraft-26.1" = _DqGNLpGt;
+        "minecraft-26.1.1" = _DqGNLpGt;
+        "minecraft-26.1.2" = _DqGNLpGt;
+        "minecraft-26.2" = _DqGNLpGt;
+        "minecraft-26.3" = _DqGNLpGt;
         "pkg-1.8.1" = _aYP8Og7r;
         "pkg-1.9" = _IqFyLEj1;
         "pkg-3.0" = _2DLkTUD4;
@@ -147,7 +153,8 @@ let
         "pkg-4.6" = _omaLleU2;
         "pkg-4.7" = _DNBMIX95;
         "pkg-4.8" = _tfnuWIpn;
-        "default" = _tfnuWIpn;
+        "pkg-4.9" = _DqGNLpGt;
+        "default" = _DqGNLpGt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mizuno-x-fresh-animations";

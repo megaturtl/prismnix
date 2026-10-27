@@ -56,6 +56,16 @@ let
             "file" = "dagger-1.2.1-neoforge.jar";
             "hash" = "sha512-9gnhmCPi8ZUVP6h4239oOSsE5bW7BEtmvS7Zhp99oKeYClZKzi3FzBBzcbVG77bvdvkqOvW/Ro3LAV5kPDcB3w==";
         };
+        _5t5W9c6v = {
+            "id" = "5t5W9c6v";
+            "file" = "dagger-1.2.2.jar";
+            "hash" = "sha512-FrycWPHME19ubQY/9v6RfkJxhdLKvA00LYDF/byDiNdjARzxuObIW0gzNprwLtZDqT/tljvnlQhK4ryZjhMq4A==";
+        };
+        _SIKQNTiC = {
+            "id" = "SIKQNTiC";
+            "file" = "dagger-1.2.2-neoforge.jar";
+            "hash" = "sha512-yu18/LGVZvdE7N8cq2kcbrV5a0m6IAn5vSEdAGcvL2LRxzhHcklF7FmtvIY8MsX2x0SzPWmVfPGutKngY/DNBQ==";
+        };
     in {
         "4ToXbifM" = _4ToXbifM;
         "jlTkFoPX" = _jlTkFoPX;
@@ -68,11 +78,13 @@ let
         "zr2ENRCs" = _zr2ENRCs;
         "es3uj3fF" = _es3uj3fF;
         "9mIQnihq" = _9mIQnihq;
+        "5t5W9c6v" = _5t5W9c6v;
+        "SIKQNTiC" = _SIKQNTiC;
         "fabric-26.1" = _4ToXbifM;
         "fabric-26.1.1" = _4ToXbifM;
         "fabric-26.1.2" = _4ToXbifM;
         "fabric-26.2" = _O7VrT6tr;
-        "fabric-26.3" = _es3uj3fF;
+        "fabric-26.3" = _5t5W9c6v;
         "forge-26.1" = _jlTkFoPX;
         "forge-26.1.1" = _jlTkFoPX;
         "forge-26.1.2" = _jlTkFoPX;
@@ -80,13 +92,14 @@ let
         "neoforge-26.1.1" = _3eSWTfLv;
         "neoforge-26.1.2" = _3eSWTfLv;
         "neoforge-26.2" = _zr2ENRCs;
-        "neoforge-26.3" = _9mIQnihq;
+        "neoforge-26.3" = _SIKQNTiC;
         "pkg-1.0.0" = _3eSWTfLv;
         "pkg-1.0.1" = _Of5R021i;
         "pkg-1.1.0" = _QlNXu2rS;
         "pkg-1.2.0" = _zr2ENRCs;
         "pkg-1.2.1" = _9mIQnihq;
-        "default" = _9mIQnihq;
+        "pkg-1.2.2" = _SIKQNTiC;
+        "default" = _SIKQNTiC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dual-daggers";

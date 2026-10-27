@@ -156,6 +156,11 @@ let
             "file" = "flashlight-2.1.0-neoforge-26.1-26.2.jar";
             "hash" = "sha512-rQsahG3JmsH2Y5pPrE+FBDaZWAXCg5lp92zdkJsYOYF2nb8jnf2QEnacmmthFbVeNuwsCLNj+xtyiInsTe4hHw==";
         };
+        _gd5iTIkF = {
+            "id" = "gd5iTIkF";
+            "file" = "flashlight-2.1.0-neoforge-26.1-26.2.jar";
+            "hash" = "sha512-O3e7df/Jc2+SsOazYzvPA2peMiWHnK6NpGQQKDElmDFftqGvSmfKNzN6lLS3l5Q/7mfGNjJYOfU9f7OnVdZnmA==";
+        };
     in {
         "nxxk1VQq" = _nxxk1VQq;
         "d9NHCRtj" = _d9NHCRtj;
@@ -188,6 +193,7 @@ let
         "rGIAbkNk" = _rGIAbkNk;
         "THm1hRBi" = _THm1hRBi;
         "ODep8Jnf" = _ODep8Jnf;
+        "gd5iTIkF" = _gd5iTIkF;
         "forge-1.20.1" = _dkQtiEhc;
         "forge-1.20.2" = _dkQtiEhc;
         "forge-1.20.3" = _dkQtiEhc;
@@ -206,10 +212,10 @@ let
         "neoforge-1.21.9" = _gWhkqgh6;
         "neoforge-1.21.10" = _gWhkqgh6;
         "neoforge-1.21.11" = _gWhkqgh6;
-        "neoforge-26.1" = _ODep8Jnf;
-        "neoforge-26.1.1" = _ODep8Jnf;
-        "neoforge-26.1.2" = _ODep8Jnf;
-        "neoforge-26.2" = _ODep8Jnf;
+        "neoforge-26.1" = _gd5iTIkF;
+        "neoforge-26.1.1" = _gd5iTIkF;
+        "neoforge-26.1.2" = _gd5iTIkF;
+        "neoforge-26.2" = _gd5iTIkF;
         "fabric-1.21.11" = _rGIAbkNk;
         "fabric-1.21.1" = _ewJWhj18;
         "fabric-1.21.2" = _KR0yIG7r;
@@ -245,7 +251,8 @@ let
         "pkg-2.1.0-neoforge" = _gWhkqgh6;
         "pkg-2.1.0-fabric-26.1-26.2" = _THm1hRBi;
         "pkg-2.1.0-neoforge-26.1-26.2" = _ODep8Jnf;
-        "default" = _ODep8Jnf;
+        "pkg-2.1.0-neoforge-26.1-26.2-Hotfix" = _gd5iTIkF;
+        "default" = _gd5iTIkF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dynamic-flashlight";

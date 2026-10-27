@@ -86,6 +86,26 @@ let
             "file" = "cobbledollars-villagers-overhaul-rca-fabric-0.3.0.jar";
             "hash" = "sha512-Hx/iKewpH19RhzwA2713PZGQsskO7Rk+iAkt7clOwXaN6juvPv/mcbszFZPjmVP6Pcc3CvmHFPJkt2scEaQCtg==";
         };
+        _mmEv1UpD = {
+            "id" = "mmEv1UpD";
+            "file" = "cobbledollars-villagers-overhaul-rca-fabric-0.4.1.jar";
+            "hash" = "sha512-URmrNSl3gBGxQA438b8yDUDsd0MA+at+B4rsCj2FGjffcck6tV9lDmP0AByfwKdzn0HiEhdvxQm2j4LrkaIEQw==";
+        };
+        _BeknBZaY = {
+            "id" = "BeknBZaY";
+            "file" = "cobbledollars-villagers-overhaul-rca-neoforge-0.4.1.jar";
+            "hash" = "sha512-hmIoDbTVD2Hhppmz6mxHXsFlkP2rT70Q+yj9Di8jo40fhBFMqmfSKMo+KGvd26YyPBS5MEPQfSiPgDzXW5TQIg==";
+        };
+        _JAq8JfF3 = {
+            "id" = "JAq8JfF3";
+            "file" = "cobbledollars-villagers-overhaul-rca-fabric-0.4.2.jar";
+            "hash" = "sha512-qporzehUcFImuuRjo8wSuBZvgcbbZk68NJIloJgQWKw3DM1zukblgAPaxfN03QgQhtLhWsPpJCKRv2vOQD2yeg==";
+        };
+        _s9cWkVAL = {
+            "id" = "s9cWkVAL";
+            "file" = "cobbledollars-villagers-overhaul-rca-neoforge-0.4.2.jar";
+            "hash" = "sha512-noD9KvIJx+n/9IAhXTra59/PnLlGdFO8UWRdaf4hIEoWTcm/Z617MTHCIi9SZwOMkh1NnsxHqzaNtBbfmH+qWg==";
+        };
     in {
         "AFxpEbfD" = _AFxpEbfD;
         "xjfgds32" = _xjfgds32;
@@ -104,8 +124,22 @@ let
         "U5H2dW9I" = _U5H2dW9I;
         "wYH8asVa" = _wYH8asVa;
         "WIjDv4ti" = _WIjDv4ti;
-        "neoforge-1.21.1" = _wYH8asVa;
-        "fabric-1.21.1" = _WIjDv4ti;
+        "mmEv1UpD" = _mmEv1UpD;
+        "BeknBZaY" = _BeknBZaY;
+        "JAq8JfF3" = _JAq8JfF3;
+        "s9cWkVAL" = _s9cWkVAL;
+        "neoforge-1.21.1" = _s9cWkVAL;
+        "fabric-1.21.1" = _JAq8JfF3;
+        "fabric-1.21.2" = _JAq8JfF3;
+        "fabric-1.21.3" = _JAq8JfF3;
+        "fabric-1.21.4" = _JAq8JfF3;
+        "fabric-1.21.5" = _JAq8JfF3;
+        "fabric-1.21.6" = _JAq8JfF3;
+        "fabric-1.21.7" = _JAq8JfF3;
+        "fabric-1.21.8" = _JAq8JfF3;
+        "fabric-1.21.9" = _JAq8JfF3;
+        "fabric-1.21.10" = _JAq8JfF3;
+        "fabric-1.21.11" = _JAq8JfF3;
         "pkg-0.1" = _AFxpEbfD;
         "pkg-0.1.1" = _RlwFW73h;
         "pkg-0.1.1.5-hotfix" = _8LjJUi2u;
@@ -116,7 +150,9 @@ let
         "pkg-0.2.2" = _GJugeXm3;
         "pkg-0.2.3" = _U5H2dW9I;
         "pkg-0.3.0" = _WIjDv4ti;
-        "default" = _WIjDv4ti;
+        "pkg-0.4.1" = _BeknBZaY;
+        "pkg-0.4.2" = _s9cWkVAL;
+        "default" = _s9cWkVAL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-villager-overhaul";

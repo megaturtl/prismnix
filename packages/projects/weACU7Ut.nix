@@ -206,6 +206,26 @@ let
             "file" = "hqtiers-4.0-26.3.jar";
             "hash" = "sha512-MzuYArLxdqP4sruZg6I6V39vVjL7GKkBT3fBry813jOkx0tF8TwL/vBs2F2AkVIH1wm76GYPZXxBCTH76FPyxQ==";
         };
+        _Sy6vxxVd = {
+            "id" = "Sy6vxxVd";
+            "file" = "hqtiers-4.1-1.21.11.jar";
+            "hash" = "sha512-7qmFRmFKyE9/XrgMqaxKrykbatJG2JTKTommP+7UT49TA0bme8xDpE+bjJmtGYAVFISQIEJ3MnYGAjzodFVowg==";
+        };
+        _P6ZHQa7E = {
+            "id" = "P6ZHQa7E";
+            "file" = "hqtiers-4.1-26.1.2.jar";
+            "hash" = "sha512-0PcefG6DLJhigg17kd2+5Izv/wCeqXrmjSLcXjObooAdel6ZuujefJzZFuTg8MAVUYZrcZB4nIEzTNyYciHxVQ==";
+        };
+        _kfIicJUJ = {
+            "id" = "kfIicJUJ";
+            "file" = "hqtiers-4.1-26.2.jar";
+            "hash" = "sha512-B0NTZaxD6K9Mn70oio7S/bS9HJLdcUOcWvHUuoUlEkshczWI7aaLTuVwc0KV1xHgvL8LHVc/WeJZSZ2mT4OlPA==";
+        };
+        _z5glF3Np = {
+            "id" = "z5glF3Np";
+            "file" = "hqtiers-4.1-26.3.jar";
+            "hash" = "sha512-zgP2sQdQRxK8ArZwRry4CWRwwrUVySwJylq98eh9V7sPWGepb+YNm0d+koLzMi4C4HAOePJ7soJS1cG0uqbigw==";
+        };
     in {
         "g23D56kP" = _g23D56kP;
         "MxT86lBl" = _MxT86lBl;
@@ -248,12 +268,16 @@ let
         "ZZbWXuQg" = _ZZbWXuQg;
         "iqrGWema" = _iqrGWema;
         "Zix3NOfQ" = _Zix3NOfQ;
-        "fabric-1.21.11" = _cc3PUCMF;
-        "fabric-26.1" = _ZZbWXuQg;
-        "fabric-26.1.1" = _ZZbWXuQg;
-        "fabric-26.1.2" = _ZZbWXuQg;
-        "fabric-26.2" = _iqrGWema;
-        "fabric-26.3" = _Zix3NOfQ;
+        "Sy6vxxVd" = _Sy6vxxVd;
+        "P6ZHQa7E" = _P6ZHQa7E;
+        "kfIicJUJ" = _kfIicJUJ;
+        "z5glF3Np" = _z5glF3Np;
+        "fabric-1.21.11" = _Sy6vxxVd;
+        "fabric-26.1" = _P6ZHQa7E;
+        "fabric-26.1.1" = _P6ZHQa7E;
+        "fabric-26.1.2" = _P6ZHQa7E;
+        "fabric-26.2" = _kfIicJUJ;
+        "fabric-26.3" = _z5glF3Np;
         "pkg-1.0-1.21.11" = _g23D56kP;
         "pkg-2.0-1.21.11" = _MxT86lBl;
         "pkg-2.1-1.21.11" = _bwG3sYjX;
@@ -295,7 +319,11 @@ let
         "pkg-4.0-26.1.2" = _ZZbWXuQg;
         "pkg-4.0-26.2" = _iqrGWema;
         "pkg-4.0-26.3" = _Zix3NOfQ;
-        "default" = _Zix3NOfQ;
+        "pkg-4.1-1.21.11" = _Sy6vxxVd;
+        "pkg-4.1-26.1.2" = _P6ZHQa7E;
+        "pkg-4.1-26.2" = _kfIicJUJ;
+        "pkg-4.1-26.3" = _z5glF3Np;
+        "default" = _z5glF3Np;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hqtiers";

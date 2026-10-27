@@ -466,6 +466,11 @@ let
             "file" = "TokimisToolshed-1.8.jar";
             "hash" = "sha512-BeJ5xgviuHxt+lHCLTrEXn2TcZRZbZvmrBMngMxc9JQe4rfWXaTZ77ljDjythe5A41QzfXLDS/1l5iih3HJXpA==";
         };
+        _uOT9CMQz = {
+            "id" = "uOT9CMQz";
+            "file" = "tokimistoolshed-fabric-1.9+mc1.20.1.jar";
+            "hash" = "sha512-U5UKbleDzRQEwnyoBGTaklR1qE8vDAiWUz++2S9KDncA+wjJjvwLhuyfc+vbJYQCNm6n24mtug2h1isu+AGtdA==";
+        };
     in {
         "Cn9Ba4wH" = _Cn9Ba4wH;
         "sS9sXo1H" = _sS9sXo1H;
@@ -560,7 +565,8 @@ let
         "6o9h8Meo" = _6o9h8Meo;
         "un3E9biT" = _un3E9biT;
         "atduT5bd" = _atduT5bd;
-        "fabric-1.20.1" = _bflfjOj0;
+        "uOT9CMQz" = _uOT9CMQz;
+        "fabric-1.20.1" = _uOT9CMQz;
         "fabric-1.21" = _koJtbek6;
         "fabric-1.21.1" = _koJtbek6;
         "fabric-1.21.2" = _jRBOPIjj;
@@ -660,7 +666,8 @@ let
         "pkg-1.8+fabric-1.21.11" = _6o9h8Meo;
         "pkg-1.8+fabric-26.1" = _un3E9biT;
         "pkg-1.8+fabric-26.2" = _atduT5bd;
-        "default" = _atduT5bd;
+        "pkg-1.9+fabric-1.20.1" = _uOT9CMQz;
+        "default" = _uOT9CMQz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tokimistoolshed";

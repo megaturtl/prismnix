@@ -66,6 +66,11 @@ let
             "file" = "cclive-utilities-1.7.2.jar";
             "hash" = "sha512-nt12Sa0pMkxbUcJXapeYwbAN5lOHqBOU8tY2sSJxh/2SZsRx05RvJTqY4bx/PtRIX0DouSK4MxzXlmbaEDoQdA==";
         };
+        _TiYZC72B = {
+            "id" = "TiYZC72B";
+            "file" = "cclive-utilities-1.7.2.jar";
+            "hash" = "sha512-+ms9LUKcV8NUsTE5T2e5xUZ0p0oYOrm466ialdTOAqUtSlMH1pKq3ZqhDN7rTyKRhe/WkEl6sEPp/pcNrIQ94Q==";
+        };
     in {
         "naCp6yNK" = _naCp6yNK;
         "hx92ii75" = _hx92ii75;
@@ -80,10 +85,11 @@ let
         "PUU5fDef" = _PUU5fDef;
         "Vk5Nkp0q" = _Vk5Nkp0q;
         "DpGwxPpI" = _DpGwxPpI;
+        "TiYZC72B" = _TiYZC72B;
         "fabric-1.21.7" = _PUU5fDef;
         "fabric-1.21.8" = _PUU5fDef;
         "fabric-26.1.2" = _Vk5Nkp0q;
-        "fabric-26.3" = _DpGwxPpI;
+        "fabric-26.3" = _TiYZC72B;
         "pkg-1.4.0" = _naCp6yNK;
         "pkg-1.4.1" = _hx92ii75;
         "pkg-1.4.2" = _i7cD1Q90;
@@ -95,8 +101,8 @@ let
         "pkg-1.6.2" = _UbZNKsy9;
         "pkg-1.7.0" = _pel1yR1A;
         "pkg-1.7.1" = _PUU5fDef;
-        "pkg-1.7.2" = _DpGwxPpI;
-        "default" = _DpGwxPpI;
+        "pkg-1.7.2" = _TiYZC72B;
+        "default" = _TiYZC72B;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cclive-utilities";

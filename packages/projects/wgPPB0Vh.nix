@@ -196,6 +196,71 @@ let
             "file" = "DonutSMP Streamer Utility's 1.21.11 V5.jar";
             "hash" = "sha512-OSbvOy5RY/lwkmaEccpHMQCdpVIKm+bdQMrO7OgeQZ0d27BrpKdDQhn00nI6C18lwJzhK9zW148OrhGcOpA1DQ==";
         };
+        _isO9oBVM = {
+            "id" = "isO9oBVM";
+            "file" = "DonutSMP Streamer Utility's 1.21.11 V6.jar";
+            "hash" = "sha512-6Ezs3zUIqEVGE7kLvxhA5hoSvAl4MYyu/D8n/kIVF32yq4DiTeW5vSbslG1hCGpy0vn/qEJtpZzupZIGxBUtKA==";
+        };
+        _u5Y1j11S = {
+            "id" = "u5Y1j11S";
+            "file" = "DonutSMP Streamer Utility's 1.21.4 V6.jar";
+            "hash" = "sha512-ywRMUdixFDTCsj3Iy2fe4BScuecgyfzG7Z8LkY6OKcmNSeKs6hPTtocfZum5qyaYSYdKSfSn90hWAwKkpYrFdw==";
+        };
+        _LVFzwebs = {
+            "id" = "LVFzwebs";
+            "file" = "DonutSMP Streamer Utility's 1.21.5 V6.jar";
+            "hash" = "sha512-kb4aMPGGTANISA2io8jjIaTG6V2yr9l4TD9SqjSdA6e1rLrCvAXwLOxQwsnXb8FNBPp5ydZeAoRAt1CN5u0ruw==";
+        };
+        _SN9AfFJB = {
+            "id" = "SN9AfFJB";
+            "file" = "DonutSMP Streamer Utility's 1.21.6 V6.jar";
+            "hash" = "sha512-XNrS9lzsV5my4ttuPItQABh3UYjP0Fug43PaC0wHJIpdML3wu+ndHbVA66kDKbVry5lY3EFKZgpoXkdwJ21GwA==";
+        };
+        _LjVvoA6Y = {
+            "id" = "LjVvoA6Y";
+            "file" = "DonutSMP Streamer Utility's 1.21.7 V6.jar";
+            "hash" = "sha512-GoCQUhIRmYulx3uCpPcTHjNjID6tK380tXrtmaBBs+qWVOJBzoK1pyT+S4H8hSCmycK4YUK1521EHoLWDNclsw==";
+        };
+        _CXPZTRHR = {
+            "id" = "CXPZTRHR";
+            "file" = "DonutSMP Streamer Utility's 1.21.8 V6.jar";
+            "hash" = "sha512-Z+p+FI4ptDzeJdWZrGAm2lUmuJDKqlhNrYuK2iM3z8+JBZ4DC9nNJjS9y4bXENxOMoHV+d2em1U0tpdfgVP2Ug==";
+        };
+        _NdF4ejtG = {
+            "id" = "NdF4ejtG";
+            "file" = "DonutSMP Streamer Utility's 1.21.9 V6.jar";
+            "hash" = "sha512-HJ9hBOWT9dnRG7JCSqKu5EwyvxAQa8Ya/RwyGuTAAXA7+hGRwfWu0NImqXIcJR/+8daXYpKvZIHWouDe0ts24w==";
+        };
+        _MRS9cdqQ = {
+            "id" = "MRS9cdqQ";
+            "file" = "DonutSMP Streamer Utility's 1.21.10 V6.jar";
+            "hash" = "sha512-2EyQfWgUEOprHBKh6svjqM/Lkv7ZDzjBn7WCCOu3qqnYSoYnBFVPn0KLrYBSFNWlvZDsNyqDwbtJ8joSVAVKWg==";
+        };
+        _sAVJJwfm = {
+            "id" = "sAVJJwfm";
+            "file" = "DonutSMP Streamer Utility's 26.1 V6.jar";
+            "hash" = "sha512-0yb7GiOo9I/8oP0qvVNXXVYhzDjXD0jir8yf/B8g71dpe1fbdJVR2rL0N17epwLK3/ny61ZtkE3djCv/s5aKOw==";
+        };
+        _GofUTQbz = {
+            "id" = "GofUTQbz";
+            "file" = "DonutSMP Streamer Utility's 26.1.1 V6.jar";
+            "hash" = "sha512-AgpeVfAzhTO1knkIRbfEHZ59MWb7ve7fVgkbwZkXMFrLcB++eQS4hFJkf/gGWmGBSEOpT1GoBe9hJZTH86jsbA==";
+        };
+        _UNedRoEa = {
+            "id" = "UNedRoEa";
+            "file" = "DonutSMP Streamer Utility's 26.1.2 V6.jar";
+            "hash" = "sha512-gK8G+U/Rq4mifzgsyqKg8c3tNpl9zUb6c3iFsq4MB5P6wbnDHJH1xpVFq9HECIQ9dtlGfL3e2iJQT3eJgSVnFA==";
+        };
+        _WKenIwMB = {
+            "id" = "WKenIwMB";
+            "file" = "DonutSMP Streamer Utility's 26.2 V6.jar";
+            "hash" = "sha512-t5RNECeIVZQxNXZ83oM+4ivFTJ2l4/drTdViugXpKPWOfzXQ576/6wNVU+4GHAlKuZD81+G9Xl3LqrVbibpyDw==";
+        };
+        _H7YvO5Sg = {
+            "id" = "H7YvO5Sg";
+            "file" = "DonutSMP Streamer Utility's 26.3 V6.jar";
+            "hash" = "sha512-LCPH5CrnEtJsWLoTXyU4PsdnFbkVWanyNMUH59c5lYevijZ4ePgNyAdaH4CLFQIkOQfm/KQa1fF8majs53/43A==";
+        };
     in {
         "RRGVjeoU" = _RRGVjeoU;
         "jygcL0rY" = _jygcL0rY;
@@ -236,19 +301,32 @@ let
         "qhr8AKkd" = _qhr8AKkd;
         "ke7NujNp" = _ke7NujNp;
         "jWJEXW2o" = _jWJEXW2o;
-        "fabric-1.21.4" = _surXNHJj;
-        "fabric-1.21.5" = _9SI570T1;
-        "fabric-1.21.6" = _kmJowW5Y;
-        "fabric-1.21.7" = _8Vht3Tz6;
-        "fabric-1.21.8" = _2ua7Is2X;
-        "fabric-1.21.9" = _ZmgPHaOj;
-        "fabric-1.21.10" = _ka63vzZR;
-        "fabric-1.21.11" = _jWJEXW2o;
-        "fabric-26.1" = _IMwRZSDH;
-        "fabric-26.1.1" = _ubGFUpmr;
-        "fabric-26.2" = _qhr8AKkd;
-        "fabric-26.3" = _ke7NujNp;
-        "fabric-26.1.2" = _6bfH7gsv;
+        "isO9oBVM" = _isO9oBVM;
+        "u5Y1j11S" = _u5Y1j11S;
+        "LVFzwebs" = _LVFzwebs;
+        "SN9AfFJB" = _SN9AfFJB;
+        "LjVvoA6Y" = _LjVvoA6Y;
+        "CXPZTRHR" = _CXPZTRHR;
+        "NdF4ejtG" = _NdF4ejtG;
+        "MRS9cdqQ" = _MRS9cdqQ;
+        "sAVJJwfm" = _sAVJJwfm;
+        "GofUTQbz" = _GofUTQbz;
+        "UNedRoEa" = _UNedRoEa;
+        "WKenIwMB" = _WKenIwMB;
+        "H7YvO5Sg" = _H7YvO5Sg;
+        "fabric-1.21.4" = _u5Y1j11S;
+        "fabric-1.21.5" = _LVFzwebs;
+        "fabric-1.21.6" = _SN9AfFJB;
+        "fabric-1.21.7" = _LjVvoA6Y;
+        "fabric-1.21.8" = _CXPZTRHR;
+        "fabric-1.21.9" = _NdF4ejtG;
+        "fabric-1.21.10" = _MRS9cdqQ;
+        "fabric-1.21.11" = _isO9oBVM;
+        "fabric-26.1" = _sAVJJwfm;
+        "fabric-26.1.1" = _GofUTQbz;
+        "fabric-26.2" = _WKenIwMB;
+        "fabric-26.3" = _H7YvO5Sg;
+        "fabric-26.1.2" = _UNedRoEa;
         "pkg-3.0" = _hXdsibeJ;
         "pkg-1.21.4" = _2vY6t23f;
         "pkg-1.21.5" = _9mrYW3kU;
@@ -264,7 +342,8 @@ let
         "pkg-26.3" = _jTouxV2A;
         "pkg-1.21.11" = _tQ2BdBLE;
         "pkg-5.0" = _jWJEXW2o;
-        "default" = _jWJEXW2o;
+        "pkg-V6" = _H7YvO5Sg;
+        "default" = _H7YvO5Sg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "donutsmp-streamer-utilitys";

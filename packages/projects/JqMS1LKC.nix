@@ -186,6 +186,16 @@ let
             "file" = "rustlingspots-neoforge-5.1.jar";
             "hash" = "sha512-rYpYM2/wX7zNgxfnoxneHmthYaTfFDtDsYzAxiIdy+R/Xq2ed1IfD1Ym9OUnnhQPEtcKDcsfzalLd41s3/mTXg==";
         };
+        _5ZfTkfsU = {
+            "id" = "5ZfTkfsU";
+            "file" = "rustlingspots-neoforge-6.0.jar";
+            "hash" = "sha512-CDiDtGovP3zKziTuz3JHuYWTcVQb9qTOb88npjuIBBlpnyxvdhdMujhbLs6Z4D+160KuBJ7Z2rCwyUDz6NcCHg==";
+        };
+        _phXTFqWl = {
+            "id" = "phXTFqWl";
+            "file" = "rustlingspots-fabric-6.0.jar";
+            "hash" = "sha512-rIUXrT5p01bsjEFUyhJu5GaHXsgOpQf4ofVHz1ZPNj7fA1ArngFFR3hABkauVOLUZULdqcIKcOQrCJ9fhrmRqQ==";
+        };
     in {
         "Y9Ml4bZ7" = _Y9Ml4bZ7;
         "pc2T2nP1" = _pc2T2nP1;
@@ -224,8 +234,10 @@ let
         "pkeOFyfo" = _pkeOFyfo;
         "fLAdUzhn" = _fLAdUzhn;
         "1szYIfKQ" = _1szYIfKQ;
-        "neoforge-1.21.1" = _1szYIfKQ;
-        "fabric-1.21.1" = _fLAdUzhn;
+        "5ZfTkfsU" = _5ZfTkfsU;
+        "phXTFqWl" = _phXTFqWl;
+        "neoforge-1.21.1" = _5ZfTkfsU;
+        "fabric-1.21.1" = _phXTFqWl;
         "pkg-1.0" = _Y9Ml4bZ7;
         "pkg-1.1" = _pc2T2nP1;
         "pkg-1.2" = _zEDBKpKn;
@@ -248,7 +260,8 @@ let
         "pkg-5.0" = _U4ZbvS1y;
         "pkg-5.0.1" = _pkeOFyfo;
         "pkg-5.1" = _1szYIfKQ;
-        "default" = _1szYIfKQ;
+        "pkg-6.0" = _phXTFqWl;
+        "default" = _phXTFqWl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-rustling-spots";

@@ -31,6 +31,21 @@ let
             "file" = "LotTweaks-mc26.3-fabric-2.4.5.jar";
             "hash" = "sha512-aRmlMG6PbEhaX7K/M33McSd5NwNiko7OPNkSdTlXDNVXryHnmDxpwDu+HgC7muZzzDAkmEHQ7D775PoFxdeNTw==";
         };
+        _MfXhE8xa = {
+            "id" = "MfXhE8xa";
+            "file" = "LotTweaks-mc26.1.2-fabric-2.4.6.jar";
+            "hash" = "sha512-Kkm+LwJDr41XiV3NLL6zk1x7skTBnDM0NOOHCZjl9Q6BxIsxZzzQq+i5ZIwmLAELiMxCqAxf0E0GM78/fK1VdA==";
+        };
+        _59toRG61 = {
+            "id" = "59toRG61";
+            "file" = "LotTweaks-mc26.2-fabric-2.4.6.jar";
+            "hash" = "sha512-Ejd+OxER8+xUVaJpfkZgsxn20yOtpZL6fzFasgLdt0Dt5nG/ey2q+lRfyDsa4AMxiKvGIBnyXSSnBbXDmEZgWA==";
+        };
+        _1S0ufNxc = {
+            "id" = "1S0ufNxc";
+            "file" = "LotTweaks-mc26.3-fabric-2.4.6.jar";
+            "hash" = "sha512-sDVd/Cj6M5WopT7NlPox7hQenfnSgqcOU8CnyCKRiMMeGmL5naGI6m/xa3jame2e8l69bdJTr+XAia8MJvp0WQ==";
+        };
     in {
         "loQ5wRMV" = _loQ5wRMV;
         "SmxWncvn" = _SmxWncvn;
@@ -38,15 +53,19 @@ let
         "2UoykGvJ" = _2UoykGvJ;
         "FnbZDnkM" = _FnbZDnkM;
         "q0bZ8umF" = _q0bZ8umF;
-        "fabric-26.1.2" = _2UoykGvJ;
+        "MfXhE8xa" = _MfXhE8xa;
+        "59toRG61" = _59toRG61;
+        "1S0ufNxc" = _1S0ufNxc;
+        "fabric-26.1.2" = _MfXhE8xa;
         "fabric-1.21.11" = _SmxWncvn;
-        "fabric-26.2" = _FnbZDnkM;
-        "fabric-26.3" = _q0bZ8umF;
+        "fabric-26.2" = _59toRG61;
+        "fabric-26.3" = _1S0ufNxc;
         "pkg-2.4.3" = _VD39GVCE;
         "pkg-2.4.2" = _SmxWncvn;
         "pkg-2.4.4" = _FnbZDnkM;
         "pkg-2.4.5" = _q0bZ8umF;
-        "default" = _q0bZ8umF;
+        "pkg-2.4.6" = _1S0ufNxc;
+        "default" = _1S0ufNxc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lottweaks";

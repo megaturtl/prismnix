@@ -36,6 +36,21 @@ let
             "file" = "Energy-Flashlight_v1-0-1_26-2.jar";
             "hash" = "sha512-+X1lt2+p4UGpObHVPZVshRUq+HfQmQ/kbxRRC+qDG2fXUq38C/eDbQDtX8osbDJyyq2B8a8JYVEd9Jla15ip0g==";
         };
+        _chimgKJj = {
+            "id" = "chimgKJj";
+            "file" = "energy-flashlight-1.0.1.jar";
+            "hash" = "sha512-20TGBtjefjz0CjEE2uByQMQ8wC9fSwpzNmVnNHkOMJZMdg3sbKQK3SFHtx5wHtDAdzz7XK/Jcrf7OzDpKM0GPQ==";
+        };
+        _n7iLf1zw = {
+            "id" = "n7iLf1zw";
+            "file" = "Energy-Flashlight_DP_v1-0-1_26-3.zip";
+            "hash" = "sha512-yIRAPzoecdnrNgRLyojPFEzS6pdmvv/RU18RwGYgius3rUvrDlv+5N7WNmD9gG1NKsG5bowQ/vcD1dlBglRSdA==";
+        };
+        _RMrv4uQa = {
+            "id" = "RMrv4uQa";
+            "file" = "Energy-FlashLight_RP_v1-0-0_26-3.zip";
+            "hash" = "sha512-G4h8ZB6y5k81ryz/aHPeBPFQ94On5j1u9dw5zJXN+m4L5IJq7JC4M/Jia9FsSP+MJyghbN4/gd71OsSskMEx4g==";
+        };
     in {
         "aSlT4LNO" = _aSlT4LNO;
         "sYzG5JnZ" = _sYzG5JnZ;
@@ -44,6 +59,9 @@ let
         "KfG9IAUL" = _KfG9IAUL;
         "LB6jDeVf" = _LB6jDeVf;
         "RtnE0bRB" = _RtnE0bRB;
+        "chimgKJj" = _chimgKJj;
+        "n7iLf1zw" = _n7iLf1zw;
+        "RMrv4uQa" = _RMrv4uQa;
         "datapack-1.21.6" = _aSlT4LNO;
         "datapack-1.21.7" = _aSlT4LNO;
         "datapack-1.21.8" = _aSlT4LNO;
@@ -51,6 +69,7 @@ let
         "datapack-1.21.10" = _cPMrWCsy;
         "datapack-1.21.11" = _cPMrWCsy;
         "datapack-26.2" = _KfG9IAUL;
+        "datapack-26.3" = _n7iLf1zw;
         "minecraft-1.21.6" = _aSlT4LNO;
         "minecraft-1.21.7" = _aSlT4LNO;
         "minecraft-1.21.8" = _aSlT4LNO;
@@ -58,6 +77,7 @@ let
         "minecraft-1.21.10" = _cPMrWCsy;
         "minecraft-1.21.11" = _cPMrWCsy;
         "minecraft-26.2" = _LB6jDeVf;
+        "minecraft-26.3" = _RMrv4uQa;
         "fabric-1.21.6" = _sYzG5JnZ;
         "fabric-1.21.7" = _sYzG5JnZ;
         "fabric-1.21.8" = _sYzG5JnZ;
@@ -65,6 +85,7 @@ let
         "fabric-1.21.10" = _X0XEsYs4;
         "fabric-1.21.11" = _X0XEsYs4;
         "fabric-26.2" = _RtnE0bRB;
+        "fabric-26.3" = _chimgKJj;
         "neoforge-1.21.6" = _sYzG5JnZ;
         "neoforge-1.21.7" = _sYzG5JnZ;
         "neoforge-1.21.8" = _sYzG5JnZ;
@@ -72,6 +93,7 @@ let
         "neoforge-1.21.10" = _X0XEsYs4;
         "neoforge-1.21.11" = _X0XEsYs4;
         "neoforge-26.2" = _RtnE0bRB;
+        "neoforge-26.3" = _chimgKJj;
         "quilt-1.21.6" = _sYzG5JnZ;
         "quilt-1.21.7" = _sYzG5JnZ;
         "quilt-1.21.8" = _sYzG5JnZ;
@@ -79,10 +101,12 @@ let
         "quilt-1.21.10" = _X0XEsYs4;
         "quilt-1.21.11" = _X0XEsYs4;
         "quilt-26.2" = _RtnE0bRB;
-        "pkg-1.0.0" = _LB6jDeVf;
+        "quilt-26.3" = _chimgKJj;
+        "pkg-1.0.0" = _RMrv4uQa;
         "pkg-1.0.0+mod" = _X0XEsYs4;
-        "pkg-1.0.1" = _RtnE0bRB;
-        "default" = _RtnE0bRB;
+        "pkg-1.0.1" = _n7iLf1zw;
+        "pkg-1.0.1+mod" = _chimgKJj;
+        "default" = _RMrv4uQa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "energy-flashlight";

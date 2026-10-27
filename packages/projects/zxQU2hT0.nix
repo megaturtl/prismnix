@@ -36,6 +36,11 @@ let
             "file" = "§9Bray's Zombie Overhaul FA v1.4.zip";
             "hash" = "sha512-p6Kdio/e7yVCobnBAuo37V4cy76clkggsS6PceAPYm3RTlytuGOihH3csboRtcj8HknmmI+LNrrGDP/lZ9dmdQ==";
         };
+        _HEDwqhXB = {
+            "id" = "HEDwqhXB";
+            "file" = "Bray's Zombie Overhaul x Fresh Animations v1.5.zip";
+            "hash" = "sha512-/EMOb4iwjT4hDhCXEWzZf2P8cIM/aCBmf/bFs1yWN11kI6iHfYLhUSEIb1oIs1BAo5UwsW0jdzA20DgBayqOWQ==";
+        };
     in {
         "LBuLsgS6" = _LBuLsgS6;
         "FzKOyEXN" = _FzKOyEXN;
@@ -44,6 +49,7 @@ let
         "mrWCCYjH" = _mrWCCYjH;
         "osKOecnr" = _osKOecnr;
         "2YAVbBRq" = _2YAVbBRq;
+        "HEDwqhXB" = _HEDwqhXB;
         "minecraft-1.18.2" = _p9KSgiUa;
         "minecraft-1.19" = _p9KSgiUa;
         "minecraft-1.19.1" = _p9KSgiUa;
@@ -119,13 +125,19 @@ let
         "minecraft-24w44a" = _2YAVbBRq;
         "minecraft-24w45a" = _2YAVbBRq;
         "minecraft-24w46a" = _2YAVbBRq;
+        "minecraft-26.1" = _HEDwqhXB;
+        "minecraft-26.1.1" = _HEDwqhXB;
+        "minecraft-26.1.2" = _HEDwqhXB;
+        "minecraft-26.2" = _HEDwqhXB;
+        "minecraft-26.3" = _HEDwqhXB;
         "pkg-1.0" = _LBuLsgS6;
         "pkg-1.1" = _FzKOyEXN;
         "pkg-1.2" = _a2w13ZSU;
         "pkg-1.2.1" = _mrWCCYjH;
         "pkg-1.3" = _osKOecnr;
         "pkg-1.4" = _2YAVbBRq;
-        "default" = _2YAVbBRq;
+        "pkg-1.5" = _HEDwqhXB;
+        "default" = _HEDwqhXB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "brays-zombie-overhaul-fresh-animations";

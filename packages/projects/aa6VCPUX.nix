@@ -56,6 +56,11 @@ let
             "file" = "tool-trim-26.3-1.1.1.zip";
             "hash" = "sha512-07E+UIA981carV4CtP5dJULhPsQTZxE5yEmH609uXbIeenK7Kn24BeV+ed8xXa4T7bSJfAfcc875sE2f3pc7WQ==";
         };
+        _aBLNiqvb = {
+            "id" = "aBLNiqvb";
+            "file" = "tool-trim-26.3-1.1.2.zip";
+            "hash" = "sha512-JovkK9koJ1XxiwXQmy+WPX75EWM701ZSgiKeWp90iQN4g5/UcbB3I5xECp+I5ApvPzB3Y1WEyxlfofRAW2hAbw==";
+        };
     in {
         "eWDF2Yf2" = _eWDF2Yf2;
         "U6UJSs1g" = _U6UJSs1g;
@@ -68,6 +73,7 @@ let
         "2d7NNrLk" = _2d7NNrLk;
         "WUZtm3OW" = _WUZtm3OW;
         "r0BZlrPi" = _r0BZlrPi;
+        "aBLNiqvb" = _aBLNiqvb;
         "datapack-24w21a" = _2d7NNrLk;
         "datapack-24w21b" = _2d7NNrLk;
         "datapack-1.21-pre1" = _2d7NNrLk;
@@ -75,9 +81,9 @@ let
         "datapack-1.21-pre3" = _2d7NNrLk;
         "datapack-1.21-pre4" = _2d7NNrLk;
         "datapack-1.21-rc1" = _2d7NNrLk;
-        "datapack-1.21" = _r0BZlrPi;
+        "datapack-1.21" = _aBLNiqvb;
         "datapack-1.21.1-rc1" = _2d7NNrLk;
-        "datapack-1.21.1" = _r0BZlrPi;
+        "datapack-1.21.1" = _aBLNiqvb;
         "datapack-24w33a" = _2d7NNrLk;
         "datapack-24w34a" = _2d7NNrLk;
         "datapack-24w35a" = _2d7NNrLk;
@@ -93,8 +99,8 @@ let
         "datapack-1.21.2-pre5" = _2d7NNrLk;
         "datapack-1.21.2-rc1" = _2d7NNrLk;
         "datapack-1.21.2-rc2" = _2d7NNrLk;
-        "datapack-1.21.2" = _r0BZlrPi;
-        "datapack-1.21.3" = _r0BZlrPi;
+        "datapack-1.21.2" = _aBLNiqvb;
+        "datapack-1.21.3" = _aBLNiqvb;
         "datapack-24w44a" = _2d7NNrLk;
         "datapack-24w45a" = _2d7NNrLk;
         "datapack-24w46a" = _2d7NNrLk;
@@ -104,7 +110,7 @@ let
         "datapack-1.21.4-rc1" = _2d7NNrLk;
         "datapack-1.21.4-rc2" = _2d7NNrLk;
         "datapack-1.21.4-rc3" = _2d7NNrLk;
-        "datapack-1.21.4" = _r0BZlrPi;
+        "datapack-1.21.4" = _aBLNiqvb;
         "datapack-25w02a" = _2d7NNrLk;
         "datapack-25w03a" = _2d7NNrLk;
         "datapack-25w04a" = _2d7NNrLk;
@@ -120,7 +126,7 @@ let
         "datapack-1.21.5-pre3" = _2d7NNrLk;
         "datapack-1.21.5-rc1" = _2d7NNrLk;
         "datapack-1.21.5-rc2" = _2d7NNrLk;
-        "datapack-1.21.5" = _r0BZlrPi;
+        "datapack-1.21.5" = _aBLNiqvb;
         "datapack-25w14craftmine" = _2d7NNrLk;
         "datapack-25w15a" = _2d7NNrLk;
         "datapack-25w16a" = _2d7NNrLk;
@@ -134,12 +140,12 @@ let
         "datapack-1.21.6-pre3" = _2d7NNrLk;
         "datapack-1.21.6-pre4" = _2d7NNrLk;
         "datapack-1.21.6-rc1" = _2d7NNrLk;
-        "datapack-1.21.6" = _r0BZlrPi;
+        "datapack-1.21.6" = _aBLNiqvb;
         "datapack-1.21.7-rc1" = _2d7NNrLk;
         "datapack-1.21.7-rc2" = _2d7NNrLk;
-        "datapack-1.21.7" = _r0BZlrPi;
+        "datapack-1.21.7" = _aBLNiqvb;
         "datapack-1.21.8-rc1" = _2d7NNrLk;
-        "datapack-1.21.8" = _r0BZlrPi;
+        "datapack-1.21.8" = _aBLNiqvb;
         "datapack-25w31a" = _2d7NNrLk;
         "datapack-25w32a" = _2d7NNrLk;
         "datapack-25w33a" = _2d7NNrLk;
@@ -154,9 +160,9 @@ let
         "datapack-1.21.9-pre3" = _2d7NNrLk;
         "datapack-1.21.9-pre4" = _2d7NNrLk;
         "datapack-1.21.9-rc1" = _2d7NNrLk;
-        "datapack-1.21.9" = _r0BZlrPi;
+        "datapack-1.21.9" = _aBLNiqvb;
         "datapack-1.21.10-rc1" = _2d7NNrLk;
-        "datapack-1.21.10" = _r0BZlrPi;
+        "datapack-1.21.10" = _aBLNiqvb;
         "datapack-25w41a" = _2d7NNrLk;
         "datapack-25w42a" = _2d7NNrLk;
         "datapack-25w43a" = _2d7NNrLk;
@@ -171,7 +177,7 @@ let
         "datapack-1.21.11-rc1" = _2d7NNrLk;
         "datapack-1.21.11-rc2" = _2d7NNrLk;
         "datapack-1.21.11-rc3" = _2d7NNrLk;
-        "datapack-1.21.11" = _r0BZlrPi;
+        "datapack-1.21.11" = _aBLNiqvb;
         "datapack-26.1-snapshot-1" = _2d7NNrLk;
         "datapack-26.1-snapshot-2" = _2d7NNrLk;
         "datapack-26.1-snapshot-3" = _2d7NNrLk;
@@ -189,13 +195,13 @@ let
         "datapack-26.1-rc-1" = _2d7NNrLk;
         "datapack-26.1-rc-2" = _2d7NNrLk;
         "datapack-26.1-rc-3" = _2d7NNrLk;
-        "datapack-26.1" = _r0BZlrPi;
+        "datapack-26.1" = _aBLNiqvb;
         "datapack-26.1.1-rc-1" = _2d7NNrLk;
-        "datapack-26.1.1" = _r0BZlrPi;
+        "datapack-26.1.1" = _aBLNiqvb;
         "datapack-26w14a" = _2d7NNrLk;
         "datapack-26.2-snapshot-1" = _2d7NNrLk;
         "datapack-26.1.2-rc-1" = _2d7NNrLk;
-        "datapack-26.1.2" = _r0BZlrPi;
+        "datapack-26.1.2" = _aBLNiqvb;
         "datapack-26.2-snapshot-2" = _2d7NNrLk;
         "datapack-26.2-snapshot-3" = _2d7NNrLk;
         "datapack-26.2-snapshot-4" = _2d7NNrLk;
@@ -211,8 +217,8 @@ let
         "datapack-26.2-pre-6" = _2d7NNrLk;
         "datapack-26.2-rc-1" = _2d7NNrLk;
         "datapack-26.2-rc-2" = _2d7NNrLk;
-        "datapack-26.2" = _r0BZlrPi;
-        "datapack-26.3" = _r0BZlrPi;
+        "datapack-26.2" = _aBLNiqvb;
+        "datapack-26.3" = _aBLNiqvb;
         "minecraft-24w21a" = _2d7NNrLk;
         "minecraft-24w21b" = _2d7NNrLk;
         "minecraft-1.21-pre1" = _2d7NNrLk;
@@ -368,7 +374,8 @@ let
         "pkg-26.2-1.0.8" = _2d7NNrLk;
         "pkg-26.2-1.1.0" = _WUZtm3OW;
         "pkg-26.3-1.1.1" = _r0BZlrPi;
-        "default" = _r0BZlrPi;
+        "pkg-26.3-1.1.2" = _aBLNiqvb;
+        "default" = _aBLNiqvb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tool-trim";

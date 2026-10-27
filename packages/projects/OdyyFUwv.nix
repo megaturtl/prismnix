@@ -21,16 +21,23 @@ let
             "file" = "sereneslicecompat-forge-1.20.1-0.3.3.jar";
             "hash" = "sha512-mb+lWYziwqiF49Mrm46X6xZITSrK4lDPrCixbf4h8DGinn+gvsUZrTSjsQ92ovziCY93YKo6NRGcf4TGkz5wGA==";
         };
+        _RzWHpo3G = {
+            "id" = "RzWHpo3G";
+            "file" = "sereneslicecompat-0.4.3.jar";
+            "hash" = "sha512-3XE2VBl2gfdQ3+iDdZZxgP+TIyCjZf04QkcYfT0dHUHoTGJwuvyNGDFzc7o+zOqq6vMr7dwxPM4lG0Qfcea4Fw==";
+        };
     in {
         "IcX7nIDh" = _IcX7nIDh;
         "kX44f6aq" = _kX44f6aq;
         "JtubsatY" = _JtubsatY;
         "Sz8pv0eP" = _Sz8pv0eP;
-        "neoforge-1.21.1" = _JtubsatY;
+        "RzWHpo3G" = _RzWHpo3G;
+        "neoforge-1.21.1" = _RzWHpo3G;
         "forge-1.20.1" = _Sz8pv0eP;
         "pkg-0.2.3" = _kX44f6aq;
         "pkg-0.3.3" = _Sz8pv0eP;
-        "default" = _Sz8pv0eP;
+        "pkg-0.4.3" = _RzWHpo3G;
+        "default" = _RzWHpo3G;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "serene-slice-compat";

@@ -81,6 +81,21 @@ let
             "file" = "bakery_villager_trader-1.2.1-neoforge-26.3.jar";
             "hash" = "sha512-Kg7wnNyBAxVnPvq16Oxtk/23HBKzXh7h9d5OFFZFAcuODeVXhtZLrGjPY9i0SqkYip3o2WbsuiO0tcDddOc4Sg==";
         };
+        _cSOHZLu2 = {
+            "id" = "cSOHZLu2";
+            "file" = "bakery_villager_trader-1.0.0 Fabric 1.20.1.jar";
+            "hash" = "sha512-JxCdMjYzpR5P7zbjoP0RoDlRGY0WUGt/4zdLIp+P7W8fvQJf2hFbawiJqXyBq6w4VgeOPjWWnhCIWxTRRPD5hg==";
+        };
+        _BcrKPD2e = {
+            "id" = "BcrKPD2e";
+            "file" = "bakery_villager_trader-1.0.0 Fabric 1.21.1.jar";
+            "hash" = "sha512-LCyFf3FtDsXj7Gbt2U0YuOu89R/D5AJMnbVy1A+P+X3xz7FWonpTuWous0dprbtRZsdwQnVx61XKT1HzVoi8Bg==";
+        };
+        _iRVuTO5t = {
+            "id" = "iRVuTO5t";
+            "file" = "bakery_villager_trader-1.0.0 Fabric 26.3.jar";
+            "hash" = "sha512-f4e5WVRacKs+Gl5SJZ4P8wN0u7j+h2Ad1+9Br2Z/L8bYjuQYYE3RP6oVVtcE+7kNX4F4RfiMPKQ2UdT7S7Dmsg==";
+        };
     in {
         "U6FUvHkX" = _U6FUvHkX;
         "G1tqhiR1" = _G1tqhiR1;
@@ -98,6 +113,9 @@ let
         "LrwPtKw3" = _LrwPtKw3;
         "unxPKdjB" = _unxPKdjB;
         "YcpL6MWZ" = _YcpL6MWZ;
+        "cSOHZLu2" = _cSOHZLu2;
+        "BcrKPD2e" = _BcrKPD2e;
+        "iRVuTO5t" = _iRVuTO5t;
         "forge-1.19.2" = _nGALB5Zq;
         "forge-1.20.1" = _e6j0bB0j;
         "forge-1.20.4" = _Ps1VFyDn;
@@ -107,11 +125,14 @@ let
         "neoforge-1.21.4" = _hT7A0o0n;
         "neoforge-26.1.2" = _unxPKdjB;
         "neoforge-26.3" = _YcpL6MWZ;
+        "fabric-1.20.1" = _cSOHZLu2;
+        "fabric-1.21.1" = _BcrKPD2e;
+        "fabric-26.3" = _iRVuTO5t;
         "pkg-1.0.0" = _Ps1VFyDn;
         "pkg-1.1.0" = _L10vqZ5U;
         "pkg-1.2.0" = _LrwPtKw3;
-        "pkg-1.2.1" = _YcpL6MWZ;
-        "default" = _YcpL6MWZ;
+        "pkg-1.2.1" = _iRVuTO5t;
+        "default" = _iRVuTO5t;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bakery-villager-trader";

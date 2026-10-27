@@ -146,6 +146,21 @@ let
             "file" = "infinite-saved-hotbars-1.3.0.jar";
             "hash" = "sha512-/EhrsoKZKDXQMHvcytKU1/HB78cmM7zLynkSY97QBwet4SpObhZdeWJqwPxTOgZXa1wSBycek2ERiZAFKj2RhQ==";
         };
+        _ej459TBe = {
+            "id" = "ej459TBe";
+            "file" = "infinite-saved-hotbars-1.3.1.jar";
+            "hash" = "sha512-aoUoqn3R4EXGAb9wq5ENsV3hUHeLXKqH33gczTZ53i6EQQkCccAE/3G7khKMjX/qndNiUofRIS0DWxnrOc7bGQ==";
+        };
+        _zkp9VKxy = {
+            "id" = "zkp9VKxy";
+            "file" = "infinite-saved-hotbars-1.3.1.jar";
+            "hash" = "sha512-3nZSP7DFtK47tLdzo222Z8yxoTTB/2lJuDj17vA+nOUei0oZyybRTiHQMYgyIuXhBrgojk4DSEkD2va4DI67tw==";
+        };
+        _2wG4MjZa = {
+            "id" = "2wG4MjZa";
+            "file" = "infinite-saved-hotbars-1.3.1.jar";
+            "hash" = "sha512-6UifmiuWl9gFTuJDQi7oTt6XXNGyvtvUOLg1OrjTUrGPgRhaWxto5VTCMgF2u3bFf4Ve2Vj1rjKEx9rSFYLsHg==";
+        };
     in {
         "wSqQogJA" = _wSqQogJA;
         "9pzdL61k" = _9pzdL61k;
@@ -176,6 +191,9 @@ let
         "CcRiGbL8" = _CcRiGbL8;
         "9eIblsBY" = _9eIblsBY;
         "rAF6BZYr" = _rAF6BZYr;
+        "ej459TBe" = _ej459TBe;
+        "zkp9VKxy" = _zkp9VKxy;
+        "2wG4MjZa" = _2wG4MjZa;
         "fabric-1.21.1" = _luwkRI5r;
         "fabric-1.21.2" = _hQlxr2kI;
         "fabric-1.21.3" = _hQlxr2kI;
@@ -188,11 +206,11 @@ let
         "fabric-1.21.9" = _b9rrZGIF;
         "fabric-1.21.10" = _b9rrZGIF;
         "fabric-1.21.11" = _f5OqDtJM;
-        "fabric-26.1" = _9eIblsBY;
-        "fabric-26.1.1" = _9eIblsBY;
-        "fabric-26.1.2" = _9eIblsBY;
-        "fabric-26.2" = _CcRiGbL8;
-        "fabric-26.3" = _rAF6BZYr;
+        "fabric-26.1" = _ej459TBe;
+        "fabric-26.1.1" = _ej459TBe;
+        "fabric-26.1.2" = _ej459TBe;
+        "fabric-26.2" = _zkp9VKxy;
+        "fabric-26.3" = _2wG4MjZa;
         "pkg-1.0.0" = _9pzdL61k;
         "pkg-1.1.0" = _5VH0381T;
         "pkg-1.1.1" = _ldz0tqvs;
@@ -201,7 +219,8 @@ let
         "pkg-1.2.1" = _Mhn4DXq0;
         "pkg-1.2.2" = _mTNe7GWl;
         "pkg-1.3.0" = _rAF6BZYr;
-        "default" = _rAF6BZYr;
+        "pkg-1.3.1" = _2wG4MjZa;
+        "default" = _2wG4MjZa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "infinite-saved-hotbars";

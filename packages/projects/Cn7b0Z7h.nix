@@ -1,0 +1,131 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _BDm8iWHr = {
+            "id" = "BDm8iWHr";
+            "file" = "Just Better Impaling v1.0.0+1.21.4.zip";
+            "hash" = "sha512-YvHU7KWCsj+gFnP3530vtGB/zI0cH1yhdI6cHLhI3Ezo8vTeMSQx8QlMjeAcJxuBTj2fTmnVQRDSHP0s37gIdg==";
+        };
+        _h7KjqRNb = {
+            "id" = "h7KjqRNb";
+            "file" = "just-better-impaling-v1.0.0+1.21.x.jar";
+            "hash" = "sha512-hGCdxfVUUd9HCqU/z6kO52REJHiUaDfDEieodIbbmGb2LdM/u3ciozMbpA8kDaRFBtM+r62tIgCxSgyWVtSeLg==";
+        };
+        _f2TdDH6v = {
+            "id" = "f2TdDH6v";
+            "file" = "Just Better Impaling v1.0.1+1.21.5.zip";
+            "hash" = "sha512-gytnH09eYTy4MZ8DXJFakl9HXsbcq5qq323clDGNzF9TKSCU6kBGN4p/v0zH7cBcmEuZuyGn2Ev5s74gw4JrEQ==";
+        };
+        _8yN2fTwl = {
+            "id" = "8yN2fTwl";
+            "file" = "just-better-impaling-v1.0.1+1.21.5.jar";
+            "hash" = "sha512-W6HqEGJEdt6XQheUKsq8d14dMvwTGjiLMM3HxlWnKTVOKagfC/n1nuJqv9Wus8sTtxCFPbbI7sXzFQ2j7WBiKw==";
+        };
+    in {
+        "BDm8iWHr" = _BDm8iWHr;
+        "h7KjqRNb" = _h7KjqRNb;
+        "f2TdDH6v" = _f2TdDH6v;
+        "8yN2fTwl" = _8yN2fTwl;
+        "datapack-1.21" = _BDm8iWHr;
+        "datapack-1.21.1" = _BDm8iWHr;
+        "datapack-1.21.2" = _BDm8iWHr;
+        "datapack-1.21.3" = _BDm8iWHr;
+        "datapack-1.21.4" = _BDm8iWHr;
+        "datapack-1.21.5" = _f2TdDH6v;
+        "datapack-1.21.6" = _f2TdDH6v;
+        "datapack-1.21.7" = _f2TdDH6v;
+        "datapack-1.21.8" = _f2TdDH6v;
+        "datapack-1.21.9" = _f2TdDH6v;
+        "datapack-1.21.10" = _f2TdDH6v;
+        "datapack-1.21.11" = _f2TdDH6v;
+        "datapack-26.1" = _f2TdDH6v;
+        "datapack-26.1.1" = _f2TdDH6v;
+        "datapack-26.1.2" = _f2TdDH6v;
+        "datapack-26.2" = _f2TdDH6v;
+        "fabric-1.21" = _h7KjqRNb;
+        "fabric-1.21.1" = _h7KjqRNb;
+        "fabric-1.21.2" = _h7KjqRNb;
+        "fabric-1.21.3" = _h7KjqRNb;
+        "fabric-1.21.4" = _h7KjqRNb;
+        "fabric-1.21.5" = _8yN2fTwl;
+        "fabric-1.21.6" = _8yN2fTwl;
+        "fabric-1.21.7" = _8yN2fTwl;
+        "fabric-1.21.8" = _8yN2fTwl;
+        "fabric-1.21.9" = _8yN2fTwl;
+        "fabric-1.21.10" = _8yN2fTwl;
+        "fabric-1.21.11" = _8yN2fTwl;
+        "fabric-26.1" = _8yN2fTwl;
+        "fabric-26.1.1" = _8yN2fTwl;
+        "fabric-26.1.2" = _8yN2fTwl;
+        "fabric-26.2" = _8yN2fTwl;
+        "forge-1.21" = _h7KjqRNb;
+        "forge-1.21.1" = _h7KjqRNb;
+        "forge-1.21.2" = _h7KjqRNb;
+        "forge-1.21.3" = _h7KjqRNb;
+        "forge-1.21.4" = _h7KjqRNb;
+        "forge-1.21.5" = _8yN2fTwl;
+        "forge-1.21.6" = _8yN2fTwl;
+        "forge-1.21.7" = _8yN2fTwl;
+        "forge-1.21.8" = _8yN2fTwl;
+        "forge-1.21.9" = _8yN2fTwl;
+        "forge-1.21.10" = _8yN2fTwl;
+        "forge-1.21.11" = _8yN2fTwl;
+        "forge-26.1" = _8yN2fTwl;
+        "forge-26.1.1" = _8yN2fTwl;
+        "forge-26.1.2" = _8yN2fTwl;
+        "forge-26.2" = _8yN2fTwl;
+        "neoforge-1.21" = _h7KjqRNb;
+        "neoforge-1.21.1" = _h7KjqRNb;
+        "neoforge-1.21.2" = _h7KjqRNb;
+        "neoforge-1.21.3" = _h7KjqRNb;
+        "neoforge-1.21.4" = _h7KjqRNb;
+        "neoforge-1.21.5" = _8yN2fTwl;
+        "neoforge-1.21.6" = _8yN2fTwl;
+        "neoforge-1.21.7" = _8yN2fTwl;
+        "neoforge-1.21.8" = _8yN2fTwl;
+        "neoforge-1.21.9" = _8yN2fTwl;
+        "neoforge-1.21.10" = _8yN2fTwl;
+        "neoforge-1.21.11" = _8yN2fTwl;
+        "neoforge-26.1" = _8yN2fTwl;
+        "neoforge-26.1.1" = _8yN2fTwl;
+        "neoforge-26.1.2" = _8yN2fTwl;
+        "neoforge-26.2" = _8yN2fTwl;
+        "quilt-1.21" = _h7KjqRNb;
+        "quilt-1.21.1" = _h7KjqRNb;
+        "quilt-1.21.2" = _h7KjqRNb;
+        "quilt-1.21.3" = _h7KjqRNb;
+        "quilt-1.21.4" = _h7KjqRNb;
+        "quilt-1.21.5" = _8yN2fTwl;
+        "quilt-1.21.6" = _8yN2fTwl;
+        "quilt-1.21.7" = _8yN2fTwl;
+        "quilt-1.21.8" = _8yN2fTwl;
+        "quilt-1.21.9" = _8yN2fTwl;
+        "quilt-1.21.10" = _8yN2fTwl;
+        "quilt-1.21.11" = _8yN2fTwl;
+        "quilt-26.1" = _8yN2fTwl;
+        "quilt-26.1.1" = _8yN2fTwl;
+        "quilt-26.1.2" = _8yN2fTwl;
+        "quilt-26.2" = _8yN2fTwl;
+        "pkg-v1.0.0+1.21.x" = _BDm8iWHr;
+        "pkg-v1.0.0+1.21.x+mod" = _h7KjqRNb;
+        "pkg-v1.0.1+1.21.5" = _f2TdDH6v;
+        "pkg-v1.0.1+1.21.5+mod" = _8yN2fTwl;
+        "default" = _8yN2fTwl;
+    });
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "just-better-impaling";
+        id = "Cn7b0Z7h";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-All-Rights-Reserved";
+                shortName = "LicenseRef-All-Rights-Reserved";
+                url = null;
+            };
+        };
+    };
+in callPackage fn {}

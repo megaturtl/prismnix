@@ -631,6 +631,26 @@ let
             "file" = "VanillaBackport-fabric-1.21.1-1.2.1.jar";
             "hash" = "sha512-nKBz0GW/fsgGrbtKvt/xiIcKQnaUgD+rLZCbAhZsgluHXWpcpm/Ii6ROfILoXb8unWpA6ZAkmCxtBTM5raJq8g==";
         };
+        _oWVWW4Xg = {
+            "id" = "oWVWW4Xg";
+            "file" = "VanillaBackport-forge-1.20.1-1.2.2.jar";
+            "hash" = "sha512-/0wSLegd8W77rzUhgpG2ukSU7wRmG5aboujT2fYcqNjCzGPp0ffUZ6AOqnVoEThQcxPY29mdLyBL+ebEQ/PY+g==";
+        };
+        _SgvHEKg5 = {
+            "id" = "SgvHEKg5";
+            "file" = "VanillaBackport-fabric-1.20.1-1.2.2.jar";
+            "hash" = "sha512-/5DI7bfKlL4rfQ6CIUzBs7r+bk2/cK/z1PVJZM0ZLbQGQxiMeHNdSz5U4oGG8DUGSo5bmomJQgyMv+MsSKjAhQ==";
+        };
+        _mGS7BxD4 = {
+            "id" = "mGS7BxD4";
+            "file" = "VanillaBackport-neoforge-1.21.1-1.2.2.jar";
+            "hash" = "sha512-ibD75m+ybLx02LpV0ubHbqllKggSWCqVWx8yYEodAz8r5Z8G33zUIyUguO26YHSsckUlE21c6qHPzoilOrfZoA==";
+        };
+        _pdLJZwZ1 = {
+            "id" = "pdLJZwZ1";
+            "file" = "VanillaBackport-fabric-1.21.1-1.2.2.jar";
+            "hash" = "sha512-X11g6p2D6L0Kf+CWUoiGipoYJIY6CZj1lL2Is5EDz+VfuR+VJvPscOwr8BV2J/moUNyqljIcvBkocIj9sz0iEg==";
+        };
     in {
         "Qw4ZYXoQ" = _Qw4ZYXoQ;
         "OnSAeWl2" = _OnSAeWl2;
@@ -758,14 +778,18 @@ let
         "63UOZaVt" = _63UOZaVt;
         "PvX474Ov" = _PvX474Ov;
         "zV9qNgaH" = _zV9qNgaH;
+        "oWVWW4Xg" = _oWVWW4Xg;
+        "SgvHEKg5" = _SgvHEKg5;
+        "mGS7BxD4" = _mGS7BxD4;
+        "pdLJZwZ1" = _pdLJZwZ1;
         "forge-1.16.5" = _Qw4ZYXoQ;
         "forge-1.18.2" = _OnSAeWl2;
-        "forge-1.20.1" = _uwapmmA8;
+        "forge-1.20.1" = _oWVWW4Xg;
         "fabric-1.18.2" = _hSNb273B;
-        "fabric-1.20.1" = _63UOZaVt;
-        "fabric-1.21.1" = _zV9qNgaH;
+        "fabric-1.20.1" = _SgvHEKg5;
+        "fabric-1.21.1" = _pdLJZwZ1;
         "neoforge-1.20.1" = _AG1aA0JA;
-        "neoforge-1.21.1" = _PvX474Ov;
+        "neoforge-1.21.1" = _mGS7BxD4;
         "quilt-1.20.1" = _dSNYTnTL;
         "pkg-CCB-1.16.5-7.2.0" = _Qw4ZYXoQ;
         "pkg-TWB-1.18.2-1.2.4" = _hSNb273B;
@@ -815,7 +839,8 @@ let
         "pkg-1.1.7.10" = _ayvoY8lx;
         "pkg-1.2" = _qE607Sw1;
         "pkg-1.2.1" = _zV9qNgaH;
-        "default" = _zV9qNgaH;
+        "pkg-1.2.2" = _pdLJZwZ1;
+        "default" = _pdLJZwZ1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanillabackport";

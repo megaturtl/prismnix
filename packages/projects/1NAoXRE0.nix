@@ -2086,6 +2086,21 @@ let
             "file" = "[AFTP] 25w14craftmine.zip";
             "hash" = "sha512-O78sM8sMCLXPIjcvm+xu0DoqDc5XpZfIJM5CL5NuFja5K4DgbHNVns4jY/6Y6DrK7gDi5maEcKrslUOmp1ucBw==";
         };
+        _GqIWAe4m = {
+            "id" = "GqIWAe4m";
+            "file" = "[AFTP] 23w13a_or_b.zip";
+            "hash" = "sha512-W1HSYaQpu2lxiH96EgLgUwawsi+WW6xB29gSSjRHYB8j7XVYhU1TO98b7IZLDpPZmvp05Taza9E0w7+lvTv9pQ==";
+        };
+        _vhbHSMPu = {
+            "id" = "vhbHSMPu";
+            "file" = "[AFTP] 24w14potato.zip";
+            "hash" = "sha512-zT2sHUdE9YZldf/9srCu1XUuy6pikjNXzjg4QOZ9ZlRgqzRMed0g7uitcNis0siQVgSFEc1fL1Mgovh+AIld1g==";
+        };
+        _Vk2HwQpz = {
+            "id" = "Vk2HwQpz";
+            "file" = "[AFTP] 25w14craftmine.zip";
+            "hash" = "sha512-7pkC03O3KVeuSOdUL3hBMrcHDRO9V2i8Qc3Hx6QQ/huU1HItuni+Srag0VPaaOdM8shUG5xm3xzgLc3KHOPYEA==";
+        };
     in {
         "FZkw2bhG" = _FZkw2bhG;
         "wH1jwt1B" = _wH1jwt1B;
@@ -2504,10 +2519,13 @@ let
         "tsrWCExu" = _tsrWCExu;
         "oFzLccbM" = _oFzLccbM;
         "LTnLmzEw" = _LTnLmzEw;
-        "minecraft-25w14craftmine" = _LTnLmzEw;
+        "GqIWAe4m" = _GqIWAe4m;
+        "vhbHSMPu" = _vhbHSMPu;
+        "Vk2HwQpz" = _Vk2HwQpz;
+        "minecraft-25w14craftmine" = _Vk2HwQpz;
         "minecraft-1.RV-Pre1" = _RgOj0vKy;
-        "minecraft-23w13a_or_b" = _tsrWCExu;
-        "minecraft-24w14potato" = _oFzLccbM;
+        "minecraft-23w13a_or_b" = _GqIWAe4m;
+        "minecraft-24w14potato" = _vhbHSMPu;
         "minecraft-22w13oneblockatatime" = _Iavz24OD;
         "minecraft-15w14a" = _WHysCHNR;
         "minecraft-20w14infinite" = _EM7Py5uM;
@@ -2930,7 +2948,10 @@ let
         "pkg-261018+23w13a_or_b" = _tsrWCExu;
         "pkg-261018+24w14potato" = _oFzLccbM;
         "pkg-261018+25w14craftmine" = _LTnLmzEw;
-        "default" = _LTnLmzEw;
+        "pkg-261025+23w13a_or_b" = _GqIWAe4m;
+        "pkg-261025+24w14potato" = _vhbHSMPu;
+        "pkg-261025+25w14craftmine" = _Vk2HwQpz;
+        "default" = _Vk2HwQpz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "april-fools-translation";

@@ -41,6 +41,11 @@ let
             "file" = "salts-anti-aliasing-1.0.jar";
             "hash" = "sha512-oAKZoHyYT/8sVAySPnVrf6zBfv9XxMTK4HW+mwgskopNVO3HeTM7UbJ2WrVX59/mh4BzWzmA3mgfRWO/wxn1Bg==";
         };
+        _4S168Cb3 = {
+            "id" = "4S168Cb3";
+            "file" = "salts-anti-aliasing-mc26.3-1.1.jar";
+            "hash" = "sha512-ECuZAhcN8ibLhFPu7pizVcz7D8Zy1NW3qgrnK60HXLpJ2XeucLUrU13NwC16qTp3wFZu+tF3pX0ja/HN4mI7sw==";
+        };
     in {
         "1nVgZO4j" = _1nVgZO4j;
         "no3pcgWF" = _no3pcgWF;
@@ -50,6 +55,7 @@ let
         "4VsS4tqn" = _4VsS4tqn;
         "AqE1vSw1" = _AqE1vSw1;
         "S30QlPdX" = _S30QlPdX;
+        "4S168Cb3" = _4S168Cb3;
         "fabric-26.1.2" = _cq3J8EMj;
         "fabric-1.21.11" = _AqE1vSw1;
         "fabric-1.21.1" = _4VsS4tqn;
@@ -57,12 +63,14 @@ let
         "fabric-1.21.9" = _AqE1vSw1;
         "fabric-1.21.10" = _AqE1vSw1;
         "fabric-26.2" = _S30QlPdX;
+        "fabric-26.3" = _4S168Cb3;
         "pkg-0.1" = _1nVgZO4j;
         "pkg-0.1.1" = _O8FdMC7M;
         "pkg-0.1.2" = _4VsS4tqn;
         "pkg-0.1.3" = _AqE1vSw1;
         "pkg-1.0" = _S30QlPdX;
-        "default" = _S30QlPdX;
+        "pkg-1.1" = _4S168Cb3;
+        "default" = _4S168Cb3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "salts-anti-aliasing";

@@ -391,6 +391,11 @@ let
             "file" = "lwjgl3ify-3.0.39.jar";
             "hash" = "sha512-WovO/mMi9xQlmjz0sXGvJ4p5NIVosdHSfSMeHJ842oXqf7ZvpM/XjbDq4fIi2rZtgV7UAH/LcXxku28IVkM7QQ==";
         };
+        _rkIMpTy5 = {
+            "id" = "rkIMpTy5";
+            "file" = "lwjgl3ify-3.0.40.jar";
+            "hash" = "sha512-+OboSe1VcWPbWrVXVqeRI/7ksnBIcy0dbZs0DgYvelDYXH9X5VVjHdEF9OCLQasMr4bsnUsiRVtLnzfkgDv/JQ==";
+        };
     in {
         "WoudWjrD" = _WoudWjrD;
         "pSzRScA4" = _pSzRScA4;
@@ -470,7 +475,8 @@ let
         "pLifcaJE" = _pLifcaJE;
         "ybksGsAM" = _ybksGsAM;
         "DKp8C8G7" = _DKp8C8G7;
-        "forge-1.7.10" = _DKp8C8G7;
+        "rkIMpTy5" = _rkIMpTy5;
+        "forge-1.7.10" = _rkIMpTy5;
         "pkg-2.0.3" = _WoudWjrD;
         "pkg-2.0.4" = _pSzRScA4;
         "pkg-2.0.5" = _EWcB9XvA;
@@ -549,7 +555,8 @@ let
         "pkg-3.0.37" = _pLifcaJE;
         "pkg-3.0.38" = _ybksGsAM;
         "pkg-3.0.39" = _DKp8C8G7;
-        "default" = _DKp8C8G7;
+        "pkg-3.0.40" = _rkIMpTy5;
+        "default" = _rkIMpTy5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lwjgl3ify";

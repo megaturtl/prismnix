@@ -276,6 +276,11 @@ let
             "file" = "mythsandlegends-1.0.9.jar";
             "hash" = "sha512-RkxNLpo6v02EZe3ZhuRFfVn6wCLHHVPPE1frCa4mAkccgLNUm6/URUmHPkWqbicZuNglW96vPIL9pVrOSjoV7g==";
         };
+        _iSzid89U = {
+            "id" = "iSzid89U";
+            "file" = "mythsandlegends-1.1.0.jar";
+            "hash" = "sha512-WDieFIgTm5Gstt7EjfjEQp/JOtbkYKAy2Es3aaC/6ryOkwtsslPye3060H06k0yDzHgVGgbO0yHYZWswpFXRPA==";
+        };
     in {
         "hdmLNmwA" = _hdmLNmwA;
         "dRDs7kbh" = _dRDs7kbh;
@@ -332,13 +337,14 @@ let
         "eJ17DSpk" = _eJ17DSpk;
         "J9qH2IC8" = _J9qH2IC8;
         "BdYLfbs2" = _BdYLfbs2;
+        "iSzid89U" = _iSzid89U;
         "forge-1.21.1" = _2P7zF9WL;
         "forge-1.21.2" = _2P7zF9WL;
         "forge-1.21.3" = _2P7zF9WL;
         "forge-1.20.1" = _J9qH2IC8;
         "forge-1.21.4" = _1CJdxdaQ;
         "neoforge-1.21" = _gLiTJksI;
-        "neoforge-1.21.1" = _BdYLfbs2;
+        "neoforge-1.21.1" = _iSzid89U;
         "pkg-0.0.1" = _hdmLNmwA;
         "pkg-0.0.2" = _45YDZPri;
         "pkg-0.0.3" = _1SquGeTV;
@@ -371,7 +377,8 @@ let
         "pkg-1.0.7" = _2NH5jBAD;
         "pkg-1.0.8" = _WMTtDEK1;
         "pkg-1.0.9" = _BdYLfbs2;
-        "default" = _BdYLfbs2;
+        "pkg-1.1.0" = _iSzid89U;
+        "default" = _iSzid89U;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "myths-and-legends";

@@ -746,6 +746,16 @@ let
             "file" = "epic-fight-21.17.3.1-mc1.21.1-neoforge.jar";
             "hash" = "sha512-05wdSiGY5/IIDNyY3okNJtZYoCtEyDmaMBx8AAXZmR/5fMlIgYI6naqJUvO4nrPZGXwvg88Pu6nHmSx3khshIg==";
         };
+        _7L8xLZgb = {
+            "id" = "7L8xLZgb";
+            "file" = "epic-fight-20.15.0-mc1.20.1-forge.jar";
+            "hash" = "sha512-FNQEf4CtiYnJX4g+zn2TVIK+W5ldINO89As0zuu2fQkZ1OC/QDv4VDKJDBY6fow7lW95Lp00EhPQ9miWEeOfhA==";
+        };
+        _3YRxef6J = {
+            "id" = "3YRxef6J";
+            "file" = "epic-fight-20.15.1-mc1.20.1-forge.jar";
+            "hash" = "sha512-TA5ctar1/pcCt4RwRHl1q8wC9vfaT5iMQmcfiFO7mEfXFilQMYKHCScmFSOJXyTjpevqpiAXBpYQgccBDSctgw==";
+        };
     in {
         "gDDYyt4W" = _gDDYyt4W;
         "othKAsCK" = _othKAsCK;
@@ -896,6 +906,8 @@ let
         "NQynI1o8" = _NQynI1o8;
         "VK0u97Q8" = _VK0u97Q8;
         "8HHhJt6i" = _8HHhJt6i;
+        "7L8xLZgb" = _7L8xLZgb;
+        "3YRxef6J" = _3YRxef6J;
         "forge-1.12.2" = _gDDYyt4W;
         "forge-1.14.4" = _othKAsCK;
         "forge-1.16.4" = _zQ4A2BRR;
@@ -903,7 +915,7 @@ let
         "forge-1.17.1" = _euZdWfop;
         "forge-1.18.2" = _6SuH0tnY;
         "forge-1.19.2" = _UICaPHaU;
-        "forge-1.20.1" = _KEBfkBat;
+        "forge-1.20.1" = _3YRxef6J;
         "forge-1.20" = _5RBRsoVd;
         "forge-1.20.2" = _5RBRsoVd;
         "forge-1.20.3" = _5RBRsoVd;
@@ -1060,7 +1072,9 @@ let
         "pkg-21.17.2-mc1.21.1-neoforge" = _NQynI1o8;
         "pkg-21.17.3-mc1.21.1-neoforge" = _VK0u97Q8;
         "pkg-21.17.3.1-mc1.21.1-neoforge" = _8HHhJt6i;
-        "default" = _8HHhJt6i;
+        "pkg-20.15.0-mc1.20.1-forge" = _7L8xLZgb;
+        "pkg-20.15.1-mc1.20.1-forge" = _3YRxef6J;
+        "default" = _3YRxef6J;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "epic-fight";

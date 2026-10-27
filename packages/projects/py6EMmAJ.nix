@@ -1386,6 +1386,16 @@ let
             "file" = "yawp-1.21.10-fabric-0.6.2-beta2.jar";
             "hash" = "sha512-whnpicG+ichjCunT3oyr2zqi+DnxZPhEQaV5kaEHGFtmBhZyAZm5RTQYSrLz00IwXAVndecuuJvIliojESbhfw==";
         };
+        _GfqZjWSD = {
+            "id" = "GfqZjWSD";
+            "file" = "yawp-26.2-neoforge-0.6.4-beta1.jar";
+            "hash" = "sha512-OqAm9jjhYmyQlZSt5x9o81HvWwnq/OLF+1rX8i7A56i0yzXzxzRUel08WGAfkjNkB66LX1UELhIk7e1jhngs1Q==";
+        };
+        _Hmvw6vqS = {
+            "id" = "Hmvw6vqS";
+            "file" = "yawp-26.2-fabric-0.6.4-beta1.jar";
+            "hash" = "sha512-ykBF2s9J1SVJMgmSv8ACdz5xS1LtyVqdE9+SaZatwS4tffTguloXHll7fJpVxZ4TdLmw4TpZdb52SHY41MaD+A==";
+        };
     in {
         "tUhfTRKi" = _tUhfTRKi;
         "QY6qaE08" = _QY6qaE08;
@@ -1664,6 +1674,8 @@ let
         "eGQzhoez" = _eGQzhoez;
         "aeajajd1" = _aeajajd1;
         "sBcjW3yB" = _sBcjW3yB;
+        "GfqZjWSD" = _GfqZjWSD;
+        "Hmvw6vqS" = _Hmvw6vqS;
         "forge-1.16.5" = _164VGBVX;
         "forge-1.18.2" = _3AtMoHFx;
         "forge-1.19.2" = _oiLkDvse;
@@ -1693,7 +1705,7 @@ let
         "fabric-1.21.10" = _sBcjW3yB;
         "fabric-1.21.11" = _eGQzhoez;
         "fabric-26.1.2" = _4wmcTKat;
-        "fabric-26.2" = _TYzWu4vF;
+        "fabric-26.2" = _Hmvw6vqS;
         "neoforge-1.20.4" = _ggOsdy1K;
         "neoforge-1.21.1" = _HngBli00;
         "neoforge-1.21.4" = _OSWMOCYY;
@@ -1704,7 +1716,7 @@ let
         "neoforge-1.21.10" = _aeajajd1;
         "neoforge-1.21.11" = _HKFOiRJv;
         "neoforge-26.1.2" = _POtMceXf;
-        "neoforge-26.2" = _6YrxPNaC;
+        "neoforge-26.2" = _GfqZjWSD;
         "pkg-1.16.5-0.0.1.0-beta1" = _tUhfTRKi;
         "pkg-1.18.2-0.0.1.0-beta1" = _QY6qaE08;
         "pkg-1.16.5-0.0.1.0-beta2" = _o8Jfvtlc;
@@ -1796,7 +1808,8 @@ let
         "pkg-1.21.1-0.6.3-beta4" = _HngBli00;
         "pkg-1.21.11-0.6.2-beta2" = _eGQzhoez;
         "pkg-1.21.10-0.6.2-beta2" = _sBcjW3yB;
-        "default" = _sBcjW3yB;
+        "pkg-26.2-0.6.4-beta1" = _Hmvw6vqS;
+        "default" = _Hmvw6vqS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "yawp";

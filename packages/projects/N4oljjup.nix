@@ -61,6 +61,21 @@ let
             "file" = "dsrebirth-1.20.1-1.4.1.jar";
             "hash" = "sha512-j4ErkwQ0XiJKCgxIsYK1v6etEFXpTDcQTmP4RDofmMqz8bdtucKJ6VDFY/tyecc6f5rC8Ne7/MdpWv/I1aHfSQ==";
         };
+        _mjab850e = {
+            "id" = "mjab850e";
+            "file" = "dsrebirth-1.20.1-1.4.2.jar";
+            "hash" = "sha512-bV0piSLxmWrbaYG3l5ffXpY0Vzh6aREQpT9+NE7fRKrF3tpFxDPFi3lyxs/rx07OIiCS/a+24oHdWu9/GLPMMg==";
+        };
+        _V57sW6Fy = {
+            "id" = "V57sW6Fy";
+            "file" = "dsrebirth-1.21.1-1.4.2.jar";
+            "hash" = "sha512-5rU6IAssy5oHMld6QSzbBPuYbPH8eouvv6Hb60UEjmJOiSa7YAyR8y/nKB8kGCYIh0tGhKNAD1x8ijcp8DgORA==";
+        };
+        _O362n2Eq = {
+            "id" = "O362n2Eq";
+            "file" = "dsrebirth-26.1.2-1.4.2.jar";
+            "hash" = "sha512-6lZPkmn7e9t+0/ZFG4H302YRdY9MFA+eCWk8v9oaFiTxnwX1EoZCyc8nSPfmQwBxNKmqTAmJWzAlkQKFs03wSg==";
+        };
     in {
         "qm0E8DOl" = _qm0E8DOl;
         "Dr0XPVR2" = _Dr0XPVR2;
@@ -74,16 +89,20 @@ let
         "gQd3AjSg" = _gQd3AjSg;
         "84pqxSGr" = _84pqxSGr;
         "WfO0cipT" = _WfO0cipT;
-        "neoforge-26.1.2" = _gQd3AjSg;
-        "neoforge-1.21.1" = _84pqxSGr;
-        "forge-1.20.1" = _WfO0cipT;
+        "mjab850e" = _mjab850e;
+        "V57sW6Fy" = _V57sW6Fy;
+        "O362n2Eq" = _O362n2Eq;
+        "neoforge-26.1.2" = _O362n2Eq;
+        "neoforge-1.21.1" = _V57sW6Fy;
+        "forge-1.20.1" = _mjab850e;
         "pkg-0.5.0" = _qm0E8DOl;
         "pkg-1.0.0" = _Dr0XPVR2;
         "pkg-1.3.1" = _hUTnOKxI;
         "pkg-1.3.2" = _az3sJQIv;
         "pkg-1.4.0" = _t7rvHX2y;
         "pkg-1.4.1" = _WfO0cipT;
-        "default" = _WfO0cipT;
+        "pkg-1.4.2" = _O362n2Eq;
+        "default" = _O362n2Eq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dynamic-surroundings-rebirth-by-uawiegrfv";

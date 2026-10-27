@@ -591,6 +591,16 @@ let
             "file" = "monolib-neoforge-26.1.2-4.1.2.jar";
             "hash" = "sha512-dDQE79ALFu7Q+oTM9q+cDKqBQlzS6m/AFpX6il8SsOM5TPA/LdbKBaGbKnaEWqe6OADxx1LRRW3LNgAJxSwGiw==";
         };
+        _2eoAUQW8 = {
+            "id" = "2eoAUQW8";
+            "file" = "monolib-fabric-26.3-4.1.2.jar";
+            "hash" = "sha512-9WynOmJ+qM81pLbT9c6SzWt+XsWv/p7hBjmWQT0gxShdKQBWXpBN3tO86mkDSF5jpDHMdT7Qh89VLOgBg12OSA==";
+        };
+        _74eWQhT5 = {
+            "id" = "74eWQhT5";
+            "file" = "monolib-neoforge-26.3-4.1.2.jar";
+            "hash" = "sha512-KZiVLC1tsbOJO7pqBfi48Q2WCWH1jAQneMQoZHxziycI0ANIgFphFGZAyzELmCFNcDoxuI8f0infba+GTid5cA==";
+        };
     in {
         "BbkmvTag" = _BbkmvTag;
         "MzC0Lrwv" = _MzC0Lrwv;
@@ -710,6 +720,8 @@ let
         "YIL3k0PZ" = _YIL3k0PZ;
         "Q9prlBe9" = _Q9prlBe9;
         "ebNCmuNN" = _ebNCmuNN;
+        "2eoAUQW8" = _2eoAUQW8;
+        "74eWQhT5" = _74eWQhT5;
         "forge-1.20" = _dfbmSud0;
         "forge-1.20.1" = _njYIJ5XO;
         "forge-1.20.2" = _UCIHOC9y;
@@ -748,6 +760,7 @@ let
         "fabric-26.1.2" = _Q9prlBe9;
         "fabric-26.1" = _hkYCNbeF;
         "fabric-26.1.1" = _hkYCNbeF;
+        "fabric-26.3" = _2eoAUQW8;
         "neoforge-1.20.4" = _heK7Cob0;
         "neoforge-1.20.6" = _VTxYgGVJ;
         "neoforge-1.20.1" = _RxX9E6XN;
@@ -763,6 +776,7 @@ let
         "neoforge-26.1.2" = _ebNCmuNN;
         "neoforge-26.1" = _1OOFZQjw;
         "neoforge-26.1.1" = _1OOFZQjw;
+        "neoforge-26.3" = _74eWQhT5;
         "pkg-1.0.0" = _5VEEnkhb;
         "pkg-1.0.1" = _5GalSR2d;
         "pkg-1.1.0" = _stArmoNd;
@@ -818,7 +832,9 @@ let
         "pkg-neoforge-1.21.1-4.1.2" = _YIL3k0PZ;
         "pkg-fabric-26.1.2-4.1.2" = _Q9prlBe9;
         "pkg-neoforge-26.1.2-4.1.2" = _ebNCmuNN;
-        "default" = _ebNCmuNN;
+        "pkg-fabric-26.3-4.1.2" = _2eoAUQW8;
+        "pkg-neoforge-26.3-4.1.2" = _74eWQhT5;
+        "default" = _74eWQhT5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "monolib";

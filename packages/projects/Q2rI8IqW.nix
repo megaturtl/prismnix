@@ -266,6 +266,16 @@ let
             "file" = "custom-glow-enchantment-outline-fabric-26.3-1.2.3.jar";
             "hash" = "sha512-8YRTNN7oihoXaT/bEZnE7huZRLizk8cQM9g+FqJBgMZpDomzGVanO7g5U1ura88Q9r9C/jdNKjf6IkaD9/eFyA==";
         };
+        _Fa7WFIRE = {
+            "id" = "Fa7WFIRE";
+            "file" = "custom-glow-enchantment-outline-forge-1.20.1-1.2.4.jar";
+            "hash" = "sha512-Ere/g2Rs++d4oD1UFBLA6ZCeXUVP72ie9U9u1/Ng7fmkEtWlXf4k2Hj/94pCrBOLQFRsDy/A02jBG0lYdw+Yug==";
+        };
+        _d0xjkIro = {
+            "id" = "d0xjkIro";
+            "file" = "custom-glow-enchantment-outline-neoforge-1.21.1-1.2.4.jar";
+            "hash" = "sha512-sFukE3C54JTDrsjUK7P/gQ3llZbeie5Hwn/fJcBtr9BWHu4LF53/wrj8wSWGvcuXbivggyEb2f37uBcPG+mK7A==";
+        };
     in {
         "j6GkPIdU" = _j6GkPIdU;
         "qTmXpaTD" = _qTmXpaTD;
@@ -320,19 +330,21 @@ let
         "GrMBG0Yr" = _GrMBG0Yr;
         "BRwWMXiZ" = _BRwWMXiZ;
         "SkACuFeW" = _SkACuFeW;
+        "Fa7WFIRE" = _Fa7WFIRE;
+        "d0xjkIro" = _d0xjkIro;
         "forge-1.19.2" = _j6GkPIdU;
-        "forge-1.20.1" = _7R5zzQfR;
+        "forge-1.20.1" = _Fa7WFIRE;
         "fabric-1.20.1" = _LZ8XLOiH;
         "fabric-1.21.1" = _CDws4Y7n;
         "fabric-1.21.11" = _s5cQ39tm;
         "fabric-26.1.2" = _GoXEKjwC;
         "fabric-26.2" = _GrMBG0Yr;
         "fabric-26.3" = _SkACuFeW;
-        "neoforge-1.21.1" = _93ZMCKHs;
+        "neoforge-1.21.1" = _d0xjkIro;
         "neoforge-1.21.11" = _8sYL1dD4;
         "neoforge-26.1.2" = _UxdM6D14;
         "neoforge-26.2" = _iN0mittc;
-        "neoforge-1.20.1" = _7R5zzQfR;
+        "neoforge-1.20.1" = _Fa7WFIRE;
         "neoforge-26.3" = _BRwWMXiZ;
         "pkg-1.0.0" = _qPTqzqQn;
         "pkg-1.0.1" = _P3OfmNHX;
@@ -341,7 +353,8 @@ let
         "pkg-1.2.1" = _yMqK62pY;
         "pkg-1.2.2" = _yN8CjuLv;
         "pkg-1.2.3" = _SkACuFeW;
-        "default" = _SkACuFeW;
+        "pkg-1.2.4" = _d0xjkIro;
+        "default" = _d0xjkIro;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "custom-glow-enchantment-outline";

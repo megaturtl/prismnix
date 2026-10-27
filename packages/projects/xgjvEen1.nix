@@ -151,6 +151,16 @@ let
             "file" = "Warium 1.3.7.jar";
             "hash" = "sha512-Mh79UJGttqpghe4r2UmKon3dMKMdpBoaYU9u8WvvDpbPbnMTJ9XMI8DYm2iAVHG1imUAMeS6M2fG6h/2zbQsuw==";
         };
+        _bwWP2aam = {
+            "id" = "bwWP2aam";
+            "file" = "Warium 1.3.8.jar";
+            "hash" = "sha512-U5dEtnVAldjH5W76p6ZNBP+LEw3azVoKrbIatJT0BqlKz9My2r1vIt5EiwrBQ2KztU+GwyvqRp93Lj1KXCu2Lg==";
+        };
+        _nwjxPQPO = {
+            "id" = "nwjxPQPO";
+            "file" = "Warium 1.3.9.jar";
+            "hash" = "sha512-226YNTyEc0yFQtNEm95bQsPssqd65eTtjUnbOpRVcAwQt9fjT/mXhrcp9DvxEb1uiBGKPyoBJ+hNM23YM16Sdw==";
+        };
     in {
         "kQITTAiv" = _kQITTAiv;
         "4CyBkPH8" = _4CyBkPH8;
@@ -182,7 +192,9 @@ let
         "adqMZRgd" = _adqMZRgd;
         "4tpVljl7" = _4tpVljl7;
         "KFDB6lBG" = _KFDB6lBG;
-        "forge-1.20.1" = _KFDB6lBG;
+        "bwWP2aam" = _bwWP2aam;
+        "nwjxPQPO" = _nwjxPQPO;
+        "forge-1.20.1" = _nwjxPQPO;
         "pkg-0.2.0" = _kQITTAiv;
         "pkg-0.2.1" = _4CyBkPH8;
         "pkg-1.0.0" = _X0Mn5sFx;
@@ -213,7 +225,9 @@ let
         "pkg-1.3.5" = _adqMZRgd;
         "pkg-1.3.6" = _4tpVljl7;
         "pkg-1.3.7" = _KFDB6lBG;
-        "default" = _KFDB6lBG;
+        "pkg-1.3.8" = _bwWP2aam;
+        "pkg-1.3.9" = _nwjxPQPO;
+        "default" = _nwjxPQPO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "warium";

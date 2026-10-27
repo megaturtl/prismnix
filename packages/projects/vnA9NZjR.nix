@@ -166,6 +166,16 @@ let
             "file" = "survivors-elegy-1.1.1.jar";
             "hash" = "sha512-6K5s3NmlItadlv175bR/9Dx6qSQ8TFqv+b09qxAJEFPHtsu2o6DRs0bgd5X4H/oll1GF2BNJ6gm53GoutdyNwA==";
         };
+        _PpByTQqt = {
+            "id" = "PpByTQqt";
+            "file" = "Datapack_Survivors_Elegy_v1.1.2.zip";
+            "hash" = "sha512-dsVM426F57SpPFn9FYmWkhfFsdUUsprvU+XiqQgXHUgwK4onXgo9zjykjrA11tftI6JPS9wfLYSm/ZnXqOA7nQ==";
+        };
+        _6WkkU78m = {
+            "id" = "6WkkU78m";
+            "file" = "survivors-elegy-1.1.2.jar";
+            "hash" = "sha512-nE9dhjtO602Kqhkorr7fBw9sLHZM0oKrcDftUkgnEeFveP4UJ8GiO7dW2AgVpdvV6syC7sW/UJBzVlyPM76iRA==";
+        };
     in {
         "Iw8iezBp" = _Iw8iezBp;
         "VHCXWZZ7" = _VHCXWZZ7;
@@ -200,6 +210,8 @@ let
         "2q2TcOF8" = _2q2TcOF8;
         "NAt779WN" = _NAt779WN;
         "OJvRn5DG" = _OJvRn5DG;
+        "PpByTQqt" = _PpByTQqt;
+        "6WkkU78m" = _6WkkU78m;
         "datapack-1.20.1" = _3ahISYMw;
         "datapack-1.20" = _3ahISYMw;
         "datapack-1.20.2" = _cnsaj75z;
@@ -216,11 +228,11 @@ let
         "datapack-1.21.11" = _fIrUZX2o;
         "datapack-26.1.2" = _O2gP9pTe;
         "datapack-26.2" = _SIgK3rjN;
-        "datapack-26.3" = _NAt779WN;
-        "fabric-26.3" = _OJvRn5DG;
-        "forge-26.3" = _OJvRn5DG;
-        "neoforge-26.3" = _OJvRn5DG;
-        "quilt-26.3" = _OJvRn5DG;
+        "datapack-26.3" = _PpByTQqt;
+        "fabric-26.3" = _6WkkU78m;
+        "forge-26.3" = _6WkkU78m;
+        "neoforge-26.3" = _6WkkU78m;
+        "quilt-26.3" = _6WkkU78m;
         "pkg-0.8.2" = _Iw8iezBp;
         "pkg-0.8.3" = _VHCXWZZ7;
         "pkg-0.8.4" = _3ahISYMw;
@@ -254,7 +266,9 @@ let
         "pkg-1.1.0+mod" = _2q2TcOF8;
         "pkg-1.1.1" = _NAt779WN;
         "pkg-1.1.1+mod" = _OJvRn5DG;
-        "default" = _OJvRn5DG;
+        "pkg-1.1.2" = _PpByTQqt;
+        "pkg-1.1.2+mod" = _6WkkU78m;
+        "default" = _6WkkU78m;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "survivors-elegy";

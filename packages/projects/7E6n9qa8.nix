@@ -21,19 +21,26 @@ let
             "file" = "welcomescreen-1.0.1.jar";
             "hash" = "sha512-zP5xYYBiG5WQBHWLbJyZcxBW6WTfCJgD3reYxFbVtM9sXzb0qgq9FK3cuhnwDtvOke3vJ8J2SqnshQSq3i28mQ==";
         };
+        _hKQEPQHT = {
+            "id" = "hKQEPQHT";
+            "file" = "welcomescreen-1.1.0.jar";
+            "hash" = "sha512-wZamvFXt+vaFw7cW2zWF9wmqw9o4AKPG7yvnY+Lg+Ju25TmxhwUsZOFV9Q3A12zF4g1zj5s/4JvkwvyxXrgx1A==";
+        };
     in {
         "nnINhHFK" = _nnINhHFK;
         "8zXgcI8k" = _8zXgcI8k;
         "4g4TT8pE" = _4g4TT8pE;
         "IyTaQzm9" = _IyTaQzm9;
+        "hKQEPQHT" = _hKQEPQHT;
         "fabric-1.20.1" = _8zXgcI8k;
         "fabric-1.21" = _4g4TT8pE;
-        "fabric-1.21.1" = _IyTaQzm9;
+        "fabric-1.21.1" = _hKQEPQHT;
         "pkg-1.0.0" = _nnINhHFK;
         "pkg-1.0.1+1.20.1" = _8zXgcI8k;
         "pkg-1.0.1+1.21" = _4g4TT8pE;
         "pkg-1.0.1+1.21.1" = _IyTaQzm9;
-        "default" = _IyTaQzm9;
+        "pkg-1.1.0+1.21.1" = _hKQEPQHT;
+        "default" = _hKQEPQHT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "welcomescreen";

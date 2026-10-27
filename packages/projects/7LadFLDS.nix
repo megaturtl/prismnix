@@ -61,6 +61,11 @@ let
             "file" = "WatheExtended-4.0.0-beta.1-h1.4.jar";
             "hash" = "sha512-jXlAxpyoMIpt+EpYeP6hs7Pq41y/Il/tFavO/KP2d6ty3oT5xCr3dyqCT08PD3tCul0BAMNmARZiW9ygcwGjEA==";
         };
+        _dRfvsZYx = {
+            "id" = "dRfvsZYx";
+            "file" = "WatheExtended-4.0.0-beta.2-h1.4.jar";
+            "hash" = "sha512-yaKCoTo6Ceg0nhHUdbbKwZGgsWx5UKre3eUMj2+N2TeluKvQtUd6HBQhZ2oW/R35RHJmqwHyqzrGIRgwZ1L+eA==";
+        };
     in {
         "rOllqJYm" = _rOllqJYm;
         "oRIBcNnL" = _oRIBcNnL;
@@ -74,7 +79,8 @@ let
         "NzT67k4R" = _NzT67k4R;
         "5JxtUnuB" = _5JxtUnuB;
         "gE3pDMxS" = _gE3pDMxS;
-        "fabric-1.21.1" = _gE3pDMxS;
+        "dRfvsZYx" = _dRfvsZYx;
+        "fabric-1.21.1" = _dRfvsZYx;
         "pkg-3.0.132" = _rOllqJYm;
         "pkg-3.1.132" = _oRIBcNnL;
         "pkg-3.2.132" = _6GCBrXpb;
@@ -87,7 +93,8 @@ let
         "pkg-3.7.141" = _NzT67k4R;
         "pkg-3.8.141" = _5JxtUnuB;
         "pkg-4.0.0-beta.1-h1.4" = _gE3pDMxS;
-        "default" = _gE3pDMxS;
+        "pkg-4.0.0-beta.2-h1.4" = _dRfvsZYx;
+        "default" = _dRfvsZYx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wathe-extended";

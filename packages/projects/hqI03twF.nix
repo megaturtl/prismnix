@@ -31,6 +31,11 @@ let
             "file" = "sablexaeromaps-1.21.1-1.4.1.jar";
             "hash" = "sha512-FNfZALENPmKVOCjeB+CXxQ/OgV3zyToa0Zs1BTR+I5GUm21oRLHzsF7fdSNmL+ewfyuIWvGtQrBpYqbPeWygwQ==";
         };
+        _x8eDZf7t = {
+            "id" = "x8eDZf7t";
+            "file" = "sablexaeromaps-1.21.1-1.4.2.jar";
+            "hash" = "sha512-mPnZnsI8iteBSnu/I5hNNxFZ6iZ3XgzcM10X8YIjhXdqwkmqmhvtbXi1BMSRjXdd7s9BIVtGHqcCnZXpJlkwQw==";
+        };
     in {
         "pF5r5eTU" = _pF5r5eTU;
         "qStwrqdo" = _qStwrqdo;
@@ -38,14 +43,16 @@ let
         "kLbFYiWn" = _kLbFYiWn;
         "OVRvt9iu" = _OVRvt9iu;
         "BwfxFcwh" = _BwfxFcwh;
-        "neoforge-1.21.1" = _BwfxFcwh;
+        "x8eDZf7t" = _x8eDZf7t;
+        "neoforge-1.21.1" = _x8eDZf7t;
         "pkg-1.0.6" = _pF5r5eTU;
         "pkg-1.0.7" = _qStwrqdo;
         "pkg-1.0.11" = _CPOrb2O5;
         "pkg-1.0.23" = _kLbFYiWn;
         "pkg-1.0.35" = _OVRvt9iu;
         "pkg-1.4.1" = _BwfxFcwh;
-        "default" = _BwfxFcwh;
+        "pkg-1.4.2" = _x8eDZf7t;
+        "default" = _x8eDZf7t;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-xaeros-map";

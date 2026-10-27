@@ -106,6 +106,11 @@ let
             "file" = "daffas_arsenal-3.7.1.2.jar";
             "hash" = "sha512-jrEcPKNeBh8lkzPFxH0y/IK1ERNNtjJvrnKLQil7ff+bS7pgM4w1IslNEf9I9YwG8iuFEay4hopa7sXT0Yxiwg==";
         };
+        _L7Tt2nAJ = {
+            "id" = "L7Tt2nAJ";
+            "file" = "daffas_arsenal-3.8.0.jar";
+            "hash" = "sha512-TfOFDp1HAVzslLtbTLC7PdAj/dYDa4UprV9/oJoQjKokga2JCXmGrrQSzO3MgAvs25hDFYeE11hZoL6uoAHD2A==";
+        };
     in {
         "fgnxKCS3" = _fgnxKCS3;
         "NFcGqKpj" = _NFcGqKpj;
@@ -128,7 +133,8 @@ let
         "R6XMUVkj" = _R6XMUVkj;
         "1Q9ypxVQ" = _1Q9ypxVQ;
         "uPBbwZ6X" = _uPBbwZ6X;
-        "forge-1.20.1" = _uPBbwZ6X;
+        "L7Tt2nAJ" = _L7Tt2nAJ;
+        "forge-1.20.1" = _L7Tt2nAJ;
         "pkg-2.0" = _fgnxKCS3;
         "pkg-2.0.1" = _NFcGqKpj;
         "pkg-2.1.0" = _IeJ9Ksoy;
@@ -150,7 +156,8 @@ let
         "pkg-3.6.0" = _R6XMUVkj;
         "pkg-3.7.1.1" = _1Q9ypxVQ;
         "pkg-3.7.1.2" = _uPBbwZ6X;
-        "default" = _uPBbwZ6X;
+        "pkg-3.8.0" = _L7Tt2nAJ;
+        "default" = _L7Tt2nAJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "daffasarsenal";

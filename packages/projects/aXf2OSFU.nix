@@ -671,6 +671,11 @@ let
             "file" = "ok_zoomer-17.0.0-beta.6.jar";
             "hash" = "sha512-3dLE9vM4iH/eApjYbrlmBdiZ6tLGS4pnifZhEVmSy6y098XiTglOBYPFSoIjnV6ebiYvSDFrNs/SBkmshIqkCQ==";
         };
+        _g9ICu3fu = {
+            "id" = "g9ICu3fu";
+            "file" = "ok_zoomer-19.0.0-beta.3.jar";
+            "hash" = "sha512-nuC2uNxqNNSSzLg9cCFXWpAjtAcNPbB+u2vMrJrhx2aEXLt6WtLWM8XFmqCFOHq6TwQMSmBETxKC8/OAnybT0g==";
+        };
     in {
         "KK5vv9Ca" = _KK5vv9Ca;
         "78Hjm4bd" = _78Hjm4bd;
@@ -806,6 +811,7 @@ let
         "3UXOK2JF" = _3UXOK2JF;
         "W6FIzMaR" = _W6FIzMaR;
         "ycdBK0pX" = _ycdBK0pX;
+        "g9ICu3fu" = _g9ICu3fu;
         "fabric-1.16.2" = _L7TmfftT;
         "fabric-1.15" = _78Hjm4bd;
         "fabric-1.15.1" = _78Hjm4bd;
@@ -880,7 +886,7 @@ let
         "fabric-26.3-rc-1" = _JBjgPuHH;
         "fabric-26.3-rc-2" = _JBjgPuHH;
         "fabric-26.3-rc-3" = _JBjgPuHH;
-        "fabric-26.3" = _3UXOK2JF;
+        "fabric-26.3" = _g9ICu3fu;
         "quilt-1.18.2" = _nu6gjAtJ;
         "quilt-1.19" = _vNZwWPKn;
         "quilt-1.19.1" = _vNZwWPKn;
@@ -963,7 +969,7 @@ let
         "neoforge-26.3-rc-1" = _JBjgPuHH;
         "neoforge-26.3-rc-2" = _JBjgPuHH;
         "neoforge-26.3-rc-3" = _JBjgPuHH;
-        "neoforge-26.3" = _3UXOK2JF;
+        "neoforge-26.3" = _g9ICu3fu;
         "forge-1.20.1" = _8M3vtEOe;
         "pkg-4.0.0+1.16.2" = _KK5vv9Ca;
         "pkg-4.0.0+1.15.2" = _78Hjm4bd;
@@ -1099,7 +1105,8 @@ let
         "pkg-19.0.0-beta.2" = _3UXOK2JF;
         "pkg-18.0.0-beta.3" = _W6FIzMaR;
         "pkg-17.0.0-beta.6" = _ycdBK0pX;
-        "default" = _ycdBK0pX;
+        "pkg-19.0.0-beta.3" = _g9ICu3fu;
+        "default" = _g9ICu3fu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ok-zoomer";

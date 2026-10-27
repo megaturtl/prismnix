@@ -201,6 +201,16 @@ let
             "file" = "rad-gyms-fabric-0.5.1.jar";
             "hash" = "sha512-E+Bo8lAQRYRsXWt7LCWFc8r7TR85j9GpMMyK+j4izGnL/xQBUvJGjUK0sI/sLNp9F+xfyz5DtQBdbcmDVGjaCQ==";
         };
+        _IyfkNvWb = {
+            "id" = "IyfkNvWb";
+            "file" = "rad-gyms-neoforge-0.5.2.jar";
+            "hash" = "sha512-6eJNIrubmFsuJLQ5hlJdzv7gaoodHXtBg8itutx3QIctySh7MjH4on3+2RCGuP4S1m3Zbp80v18JG5JvpOaf2Q==";
+        };
+        _phkPsqy1 = {
+            "id" = "phkPsqy1";
+            "file" = "rad-gyms-fabric-0.5.2.jar";
+            "hash" = "sha512-sRx5k5fXQML86IWlowHaL+A7eIqC5yz/ebRSlDGy6eZy0sZ+Iw8iBUuGEBMkuKJ26G/WQXVMzn7t+cGL0qRnfw==";
+        };
     in {
         "r8D4D624" = _r8D4D624;
         "E19tSTU8" = _E19tSTU8;
@@ -242,8 +252,10 @@ let
         "GczZp4sE" = _GczZp4sE;
         "MXKyaWXk" = _MXKyaWXk;
         "4T9MgiCi" = _4T9MgiCi;
-        "fabric-1.21.1" = _4T9MgiCi;
-        "neoforge-1.21.1" = _MXKyaWXk;
+        "IyfkNvWb" = _IyfkNvWb;
+        "phkPsqy1" = _phkPsqy1;
+        "fabric-1.21.1" = _phkPsqy1;
+        "neoforge-1.21.1" = _IyfkNvWb;
         "pkg-1.6.1_0.1.1-beta" = _r8D4D624;
         "pkg-1.6.1_0.1.2-stable" = _E19tSTU8;
         "pkg-1.6.1_0.1.3-stable" = _294mkDpn;
@@ -277,7 +289,8 @@ let
         "pkg-1.7.3_0.4.4" = _2AR7EuiZ;
         "pkg-1.8.1_0.5.0" = _GczZp4sE;
         "pkg-1.8.2_0.5.1" = _4T9MgiCi;
-        "default" = _4T9MgiCi;
+        "pkg-1.8.3_0.5.2" = _phkPsqy1;
+        "default" = _phkPsqy1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rad-gyms";

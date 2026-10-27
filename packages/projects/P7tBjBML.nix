@@ -16,15 +16,22 @@ let
             "file" = "trainerattributeslib-1.7.2-1.0.2.jar";
             "hash" = "sha512-1X45f46YbqJjbitbkW7Xv5xVSQnwSCTKq5OHnY28zzJdPGg458WXioJ/zi8dZjFvrKWd9NMCIGZBHDxV6KxZrw==";
         };
+        _JBgwPsP3 = {
+            "id" = "JBgwPsP3";
+            "file" = "TrainerAccessories-1.8.3-1.0.0.jar";
+            "hash" = "sha512-le6KkxwLdR7ifEKA66wmVhQXPtKffaljXM0+8nEHMN8sF2AhjRdlLrcbZkDFhDLJxpY1wTaL44v6FTJsz777eQ==";
+        };
     in {
         "ppKuKrBM" = _ppKuKrBM;
         "jXdjKzt6" = _jXdjKzt6;
         "CAoa3iMJ" = _CAoa3iMJ;
-        "fabric-1.21.1" = _CAoa3iMJ;
+        "JBgwPsP3" = _JBgwPsP3;
+        "fabric-1.21.1" = _JBgwPsP3;
         "pkg-1.7.1-1.0.0" = _ppKuKrBM;
         "pkg-1.7.3-1.0.2" = _jXdjKzt6;
         "pkg-1.7.2-1.0.2" = _CAoa3iMJ;
-        "default" = _CAoa3iMJ;
+        "pkg-1.8.3-1.0.0" = _JBgwPsP3;
+        "default" = _JBgwPsP3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trainerattributeslib";

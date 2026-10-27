@@ -106,6 +106,11 @@ let
             "file" = "voxelized_furniture-1.7.2-forge-1.20.1.jar";
             "hash" = "sha512-p2og7MF82M72fM+4FHEMJ7xBFdde5ICgjiK1eMq5p2z0+bJ9DvIoKPa1QVCGB5zth3FTv+6xvA/7ImqAfm1R9A==";
         };
+        _yuKtAqXt = {
+            "id" = "yuKtAqXt";
+            "file" = "voxelized_furniture-1.7.2-fabric-26.1.2.jar";
+            "hash" = "sha512-5ySRe3mKW9cRR/2x/6RgJlrNrYncWcKgdccon3muSmaJb3nudjAe4/p20j1KhnbuMHSF0FImgTw0vqZhAJTWpQ==";
+        };
     in {
         "80WdDCNu" = _80WdDCNu;
         "SkGdOOUJ" = _SkGdOOUJ;
@@ -128,11 +133,12 @@ let
         "Ksm6Chgi" = _Ksm6Chgi;
         "796sPEBS" = _796sPEBS;
         "4BLTgTcp" = _4BLTgTcp;
+        "yuKtAqXt" = _yuKtAqXt;
         "neoforge-1.21.8" = _9FxrVxHj;
         "neoforge-1.21.1" = _9NNWmWKq;
         "neoforge-26.1.2" = _Ksm6Chgi;
         "neoforge-26.2" = _796sPEBS;
-        "fabric-26.1.2" = _Dz7bKJ8t;
+        "fabric-26.1.2" = _yuKtAqXt;
         "fabric-26.2" = _NXziC3SU;
         "forge-1.20.1" = _4BLTgTcp;
         "pkg-1.2.0" = _80WdDCNu;
@@ -142,8 +148,8 @@ let
         "pkg-1.5.2" = _BDVFLxMq;
         "pkg-1.6" = _EtW2Tm5l;
         "pkg-1.7.0" = _NXziC3SU;
-        "pkg-1.7.2" = _4BLTgTcp;
-        "default" = _4BLTgTcp;
+        "pkg-1.7.2" = _yuKtAqXt;
+        "default" = _yuKtAqXt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "voxelized-furniture";

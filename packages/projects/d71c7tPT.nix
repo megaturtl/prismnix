@@ -51,6 +51,11 @@ let
             "file" = "localtime-1.4.0.jar";
             "hash" = "sha512-fWFs9MBhEVDUQqvS8DVb74O95JApN7tY22LK1YecCqgTbWHeqerhcsoF00LHwYPMGzwelkYXqFPZAU1ry/GdCg==";
         };
+        _ix24LP80 = {
+            "id" = "ix24LP80";
+            "file" = "localtime-1.5.0.jar";
+            "hash" = "sha512-w1loXlrjsSxvJdGLeehhlPgwteFWQGCYF3+LBOEF3/kMxhOzwjoWuD1/r+FvKsMzW94wL0uIX7nxwLAtK1zXNA==";
+        };
     in {
         "46gwqfrM" = _46gwqfrM;
         "fieLybeS" = _fieLybeS;
@@ -62,6 +67,7 @@ let
         "KlEbDe2A" = _KlEbDe2A;
         "TSiGE1r3" = _TSiGE1r3;
         "VBj717Oz" = _VBj717Oz;
+        "ix24LP80" = _ix24LP80;
         "fabric-1.21.2" = _nbrJxwYa;
         "fabric-1.21.3" = _Er6UKtBM;
         "fabric-1.21.4" = _PJ01Qwgj;
@@ -69,12 +75,14 @@ let
         "fabric-1.21.1" = _KlEbDe2A;
         "fabric-1.21.10" = _TSiGE1r3;
         "fabric-26.2" = _VBj717Oz;
+        "fabric-26.3" = _ix24LP80;
         "pkg-1.0.0" = _fieLybeS;
         "pkg-1.1.0" = _bU3S88aY;
         "pkg-1.2.0" = _KlEbDe2A;
         "pkg-1.3.0" = _TSiGE1r3;
         "pkg-1.4.0" = _VBj717Oz;
-        "default" = _VBj717Oz;
+        "pkg-1.5.0" = _ix24LP80;
+        "default" = _ix24LP80;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "localtime";

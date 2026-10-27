@@ -6,15 +6,23 @@ let
             "file" = "CPVP Aesthetic.zip";
             "hash" = "sha512-F+rgvsXQprgnOWHaarG9QeBXiCHKvn4p1p/bLghaVhtxVIRELyIxnyA9mi237WRaX+TPJD50fi3sPdV+QZ1+Ew==";
         };
+        _XLWE12Kf = {
+            "id" = "XLWE12Kf";
+            "file" = "CPVP Aesthetic.zip";
+            "hash" = "sha512-L+6akOxrrMt+gsxuZbjSrcxfTaCugt1j9XAQsYQmIDFswCl1IDtht+USq2wt7rrTejKjFn0qYVJrHjDHzRZLyQ==";
+        };
     in {
         "bkkgjWEF" = _bkkgjWEF;
-        "minecraft-1.21.11" = _bkkgjWEF;
-        "minecraft-26.1" = _bkkgjWEF;
-        "minecraft-26.1.1" = _bkkgjWEF;
-        "minecraft-26.1.2" = _bkkgjWEF;
-        "minecraft-26.2" = _bkkgjWEF;
+        "XLWE12Kf" = _XLWE12Kf;
+        "minecraft-1.21.11" = _XLWE12Kf;
+        "minecraft-26.1" = _XLWE12Kf;
+        "minecraft-26.1.1" = _XLWE12Kf;
+        "minecraft-26.1.2" = _XLWE12Kf;
+        "minecraft-26.2" = _XLWE12Kf;
+        "minecraft-26.3" = _XLWE12Kf;
         "pkg-7" = _bkkgjWEF;
-        "default" = _bkkgjWEF;
+        "pkg-8" = _XLWE12Kf;
+        "default" = _XLWE12Kf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cpvp-aesthetic";

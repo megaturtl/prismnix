@@ -181,6 +181,21 @@ let
             "file" = "world-gamerules-1.3.7+26.2.jar";
             "hash" = "sha512-YD7pDlnGwYB0FDZpMK3nVlfQ9xAKQK436QCzv9SzH3NJXONk1OrWzLAudSOtJHUZEHyosEjUCVn6TKrv9F/eSQ==";
         };
+        _WEi802fI = {
+            "id" = "WEi802fI";
+            "file" = "world-gamerules-1.3.8+26.1.2.jar";
+            "hash" = "sha512-nzSqOKwPdLquVN44WwGM19JlSu9YUI0+Ookig5tYy3WmW2gsLE1uxf6bNRWuj1fywshXKx0y9H8lPwqAEzEHoQ==";
+        };
+        _L3sqEL2K = {
+            "id" = "L3sqEL2K";
+            "file" = "world-gamerules-1.3.8+26.2.jar";
+            "hash" = "sha512-TuH3xwICQHst1/aNDMnUrVF7p5s9uLpshqPzJAncfWC3Oz+UsI9Ip5xjs/WawNcnHs6cSc2NMUSXzksTtDdBzQ==";
+        };
+        _9mOUThWC = {
+            "id" = "9mOUThWC";
+            "file" = "world-gamerules-1.3.8+26.3.jar";
+            "hash" = "sha512-PckhY/xHY8/3XoyCe9MJ2Sd327tSI8umkn5I1dnFWTFl7wyyEeV8SaiE/06bkrS7TOEDicZekyJ4EWqV09qhtg==";
+        };
     in {
         "EzyTiHYu" = _EzyTiHYu;
         "U71bZsWj" = _U71bZsWj;
@@ -218,6 +233,9 @@ let
         "9If5qWPg" = _9If5qWPg;
         "2QWxHSgU" = _2QWxHSgU;
         "xcsO2Qx9" = _xcsO2Qx9;
+        "WEi802fI" = _WEi802fI;
+        "L3sqEL2K" = _L3sqEL2K;
+        "9mOUThWC" = _9mOUThWC;
         "fabric-1.20.5" = _U71bZsWj;
         "fabric-1.20.6" = _U71bZsWj;
         "fabric-1.21" = _L9r1N0Yv;
@@ -236,10 +254,11 @@ let
         "fabric-1.21.9" = _KF6dpMOv;
         "fabric-1.21.10" = _KF6dpMOv;
         "fabric-1.21.11" = _9If5qWPg;
-        "fabric-26.1" = _2QWxHSgU;
-        "fabric-26.1.1" = _2QWxHSgU;
-        "fabric-26.1.2" = _2QWxHSgU;
-        "fabric-26.2" = _xcsO2Qx9;
+        "fabric-26.1" = _WEi802fI;
+        "fabric-26.1.1" = _WEi802fI;
+        "fabric-26.1.2" = _WEi802fI;
+        "fabric-26.2" = _L3sqEL2K;
+        "fabric-26.3" = _9mOUThWC;
         "quilt-1.20.5" = _U71bZsWj;
         "quilt-1.20.6" = _U71bZsWj;
         "quilt-1.21" = _L9r1N0Yv;
@@ -258,10 +277,11 @@ let
         "quilt-1.21.9" = _KF6dpMOv;
         "quilt-1.21.10" = _KF6dpMOv;
         "quilt-1.21.11" = _9If5qWPg;
-        "quilt-26.1" = _2QWxHSgU;
-        "quilt-26.1.1" = _2QWxHSgU;
-        "quilt-26.1.2" = _2QWxHSgU;
-        "quilt-26.2" = _xcsO2Qx9;
+        "quilt-26.1" = _WEi802fI;
+        "quilt-26.1.1" = _WEi802fI;
+        "quilt-26.1.2" = _WEi802fI;
+        "quilt-26.2" = _L3sqEL2K;
+        "quilt-26.3" = _9mOUThWC;
         "pkg-1.0.1+1.21" = _EzyTiHYu;
         "pkg-1.1.0+1.21" = _U71bZsWj;
         "pkg-1.1.0+1.20.1" = _zpVGnnMP;
@@ -298,7 +318,10 @@ let
         "pkg-1.3.6+1.21.11" = _9If5qWPg;
         "pkg-1.3.7+26.1" = _2QWxHSgU;
         "pkg-1.3.7+26.2" = _xcsO2Qx9;
-        "default" = _xcsO2Qx9;
+        "pkg-1.3.8+26.1.2" = _WEi802fI;
+        "pkg-1.3.8+26.2" = _L3sqEL2K;
+        "pkg-1.3.8+26.3" = _9mOUThWC;
+        "default" = _9mOUThWC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "worldgamerules";

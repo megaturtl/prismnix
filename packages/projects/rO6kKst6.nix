@@ -251,6 +251,26 @@ let
             "file" = "railcraft-reborn-1.21.1-1.2.13.jar";
             "hash" = "sha512-Nq/vx2B6en4KNEhllGK4VcUBayKjudDkc27xmoIL6gB9dTyP9E6O/2x2HTjtzACK5BCM4XJuzS0TGFTAX4eQog==";
         };
+        _YBhfL1an = {
+            "id" = "YBhfL1an";
+            "file" = "railcraft-reborn-1.21.1-1.2.14.jar";
+            "hash" = "sha512-CxTN4rJibeXMfCHnZduDS9YzOwe9peghOPeanKif/LOR3OlN6+w3Y98cfyoYvLEa8PODbro1zxFD2FLWIAVZBw==";
+        };
+        _er3igMwP = {
+            "id" = "er3igMwP";
+            "file" = "railcraft-reborn-26.1.2-1.4.7.jar";
+            "hash" = "sha512-iMo84MVU+S0GKroBqdo4lfzM1eU6ORhh1BJRzFIYh5Tem1cw0EVsG8Ef+T3twhCwc1l3Wy772nNlu7hfnuZxwA==";
+        };
+        _IVTRjOCZ = {
+            "id" = "IVTRjOCZ";
+            "file" = "railcraft-reborn-26.1.2-1.4.8.jar";
+            "hash" = "sha512-eqK/2dVEmDo5wPQZO6ImFwS+ynYTTmnmbTUbxfNwdaPL43mB6eDY0/OXhXLntNJAUQiBb2Er3fUjTEWhG23g0Q==";
+        };
+        _pFiPGIUN = {
+            "id" = "pFiPGIUN";
+            "file" = "railcraft-reborn-1.21.1-1.2.15.jar";
+            "hash" = "sha512-m50UJ0XHtvZZ4p8oZ2tWlKl0m4iVAL6dEvixQaeI/TWYOtSEHfEmKZOrEn7Zx1lCrkXTZrgvWrpSXhxaHlAlow==";
+        };
     in {
         "ASbJgSOz" = _ASbJgSOz;
         "7akE0o9F" = _7akE0o9F;
@@ -302,12 +322,16 @@ let
         "hJ8XyMRF" = _hJ8XyMRF;
         "qPWscOSx" = _qPWscOSx;
         "9KKMprGJ" = _9KKMprGJ;
+        "YBhfL1an" = _YBhfL1an;
+        "er3igMwP" = _er3igMwP;
+        "IVTRjOCZ" = _IVTRjOCZ;
+        "pFiPGIUN" = _pFiPGIUN;
         "forge-1.20.1" = _wNOUeJHM;
         "neoforge-1.20.1" = _wNOUeJHM;
         "neoforge-1.21" = _Pos7XJEZ;
-        "neoforge-1.21.1" = _9KKMprGJ;
+        "neoforge-1.21.1" = _pFiPGIUN;
         "neoforge-1.21.10" = _nfNePSUE;
-        "neoforge-26.1.2" = _qPWscOSx;
+        "neoforge-26.1.2" = _IVTRjOCZ;
         "pkg-1.0.0" = _ASbJgSOz;
         "pkg-1.0.1" = _7akE0o9F;
         "pkg-1.0.2" = _9ydikkdo;
@@ -358,7 +382,11 @@ let
         "pkg-1.4.5" = _hJ8XyMRF;
         "pkg-1.4.6" = _qPWscOSx;
         "pkg-1.2.13" = _9KKMprGJ;
-        "default" = _9KKMprGJ;
+        "pkg-1.2.14" = _YBhfL1an;
+        "pkg-1.4.7" = _er3igMwP;
+        "pkg-1.4.8" = _IVTRjOCZ;
+        "pkg-1.2.15" = _pFiPGIUN;
+        "default" = _pFiPGIUN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "railcraft-reborn";

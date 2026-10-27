@@ -31,6 +31,16 @@ let
             "file" = "passable-leaves-datapack-1.0.1.jar";
             "hash" = "sha512-Ijv9FEsOslUnJhFVk5CVzbZNxOJgizk8BnbDGOAywi2eOR7sVKVy59SoUQSmlH1S9CHxudzY1DvkWbWCiEr1sA==";
         };
+        _YKDdHDWZ = {
+            "id" = "YKDdHDWZ";
+            "file" = "Passable-Leaves_v1-0-2_26-3.zip";
+            "hash" = "sha512-mW51bPlv0laTgqWSOSa949H49znnoqBy36lT5qqgN5g6onitVDv12epuADDfCMC4FONwMVQXDx176F4lNEvdsg==";
+        };
+        _5nPwzSMa = {
+            "id" = "5nPwzSMa";
+            "file" = "passable-leaves-datapack-1.0.2.jar";
+            "hash" = "sha512-PwLe8NR+UixtoTLI78GPRAP3OOVLR7v9ZTTwvp8W+QYm8G2xGTXekvGdetsuQ/to8EJHcaIKLajUV2YZyQXpgg==";
+        };
     in {
         "daXntNYG" = _daXntNYG;
         "CYgDnr7b" = _CYgDnr7b;
@@ -38,6 +48,8 @@ let
         "Ou80HdNV" = _Ou80HdNV;
         "BTtgmwko" = _BTtgmwko;
         "QUvFj7Ev" = _QUvFj7Ev;
+        "YKDdHDWZ" = _YKDdHDWZ;
+        "5nPwzSMa" = _5nPwzSMa;
         "datapack-1.21" = _daXntNYG;
         "datapack-1.21.1" = _daXntNYG;
         "datapack-1.21.2" = _daXntNYG;
@@ -53,6 +65,7 @@ let
         "datapack-26.1.1" = _6mvFymSG;
         "datapack-26.1.2" = _6mvFymSG;
         "datapack-26.2" = _BTtgmwko;
+        "datapack-26.3" = _YKDdHDWZ;
         "fabric-1.21" = _CYgDnr7b;
         "fabric-1.21.1" = _CYgDnr7b;
         "fabric-1.21.2" = _CYgDnr7b;
@@ -65,6 +78,7 @@ let
         "fabric-1.21.10" = _Ou80HdNV;
         "fabric-1.21.11" = _Ou80HdNV;
         "fabric-26.2" = _QUvFj7Ev;
+        "fabric-26.3" = _5nPwzSMa;
         "neoforge-1.21" = _CYgDnr7b;
         "neoforge-1.21.1" = _CYgDnr7b;
         "neoforge-1.21.2" = _CYgDnr7b;
@@ -77,6 +91,7 @@ let
         "neoforge-1.21.10" = _Ou80HdNV;
         "neoforge-1.21.11" = _Ou80HdNV;
         "neoforge-26.2" = _QUvFj7Ev;
+        "neoforge-26.3" = _5nPwzSMa;
         "quilt-1.21" = _CYgDnr7b;
         "quilt-1.21.1" = _CYgDnr7b;
         "quilt-1.21.2" = _CYgDnr7b;
@@ -89,11 +104,14 @@ let
         "quilt-1.21.10" = _Ou80HdNV;
         "quilt-1.21.11" = _Ou80HdNV;
         "quilt-26.2" = _QUvFj7Ev;
+        "quilt-26.3" = _5nPwzSMa;
         "pkg-1.0.0" = _6mvFymSG;
         "pkg-1.0.0+mod" = _Ou80HdNV;
         "pkg-1.0.1" = _BTtgmwko;
         "pkg-1.0.1+mod" = _QUvFj7Ev;
-        "default" = _QUvFj7Ev;
+        "pkg-1.0.2" = _YKDdHDWZ;
+        "pkg-1.0.2+mod" = _5nPwzSMa;
+        "default" = _5nPwzSMa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "passable-leaves-datapack";

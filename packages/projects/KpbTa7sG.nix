@@ -61,6 +61,26 @@ let
             "file" = "cobblemonbattleplus-neoforge-3.0.0.jar";
             "hash" = "sha512-369++TeRKaLv0OYpTJcK+7w1/yE0r2ytcotSzIVR/24vSLVdN4hsoBCQlEA32GUFZuJfqWBcThPMFVVIu9ecXw==";
         };
+        _dHyAfSYQ = {
+            "id" = "dHyAfSYQ";
+            "file" = "cobblemonbattleplus-fabric-3.0.1.jar";
+            "hash" = "sha512-45+KLhxDuO/Bv/LDZ6SG6JGdeRcIrYPxQYLgaCQXZXzy1p5kKLEd7PEQyBc3S7yWFjr7MfxupSmxsLL1Y6r0IA==";
+        };
+        _xCav3Y3m = {
+            "id" = "xCav3Y3m";
+            "file" = "cobblemonbattleplus-neoforge-3.0.1.jar";
+            "hash" = "sha512-OeUReKHdsLe0TuQJU7ceXfsMNqm/5WUFdTEkY9ZD+SJhP8MaSQ7vC4d4nsSxLrGgRDgYH8BRzwgkOO0FsM2+hQ==";
+        };
+        _eBsKygms = {
+            "id" = "eBsKygms";
+            "file" = "cobblemonbattleplus-fabric-3.0.2.jar";
+            "hash" = "sha512-MvU+op9h0w4cVgHStOd6OBwLXJIiv5IZHCo803JwatCE98MUDw2RB2COXmBuPK2tNwLOg5uBka8FQraZScAnIg==";
+        };
+        _6RpQ0bO0 = {
+            "id" = "6RpQ0bO0";
+            "file" = "cobblemonbattleplus-neoforge-3.0.2.jar";
+            "hash" = "sha512-YSHJLOKJzcRnsD0FRMC44On1ZA+zlf8M0MNrZyDHaMOT2HsfawLc3iLw41dcZFcgk508NP4qt1V9GDn8EZOXww==";
+        };
     in {
         "Zpqsy6jo" = _Zpqsy6jo;
         "brJRMjwC" = _brJRMjwC;
@@ -74,8 +94,12 @@ let
         "XtiIiAIu" = _XtiIiAIu;
         "K3b71tGw" = _K3b71tGw;
         "Ml68cwIj" = _Ml68cwIj;
-        "fabric-1.21.1" = _K3b71tGw;
-        "neoforge-1.21.1" = _Ml68cwIj;
+        "dHyAfSYQ" = _dHyAfSYQ;
+        "xCav3Y3m" = _xCav3Y3m;
+        "eBsKygms" = _eBsKygms;
+        "6RpQ0bO0" = _6RpQ0bO0;
+        "fabric-1.21.1" = _eBsKygms;
+        "neoforge-1.21.1" = _6RpQ0bO0;
         "pkg-1.0.0" = _Zpqsy6jo;
         "pkg-1.1.1" = _brJRMjwC;
         "pkg-1.1.2" = _DKFZSs3Q;
@@ -86,7 +110,9 @@ let
         "pkg-1.1.7" = _RJAyATOe;
         "pkg-2.0.0" = _XtiIiAIu;
         "pkg-3.0.0" = _Ml68cwIj;
-        "default" = _Ml68cwIj;
+        "pkg-3.0.1" = _xCav3Y3m;
+        "pkg-3.0.2" = _6RpQ0bO0;
+        "default" = _6RpQ0bO0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-battleplus";

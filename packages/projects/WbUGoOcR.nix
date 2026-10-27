@@ -356,6 +356,26 @@ let
             "file" = "youtubers-1.6.9-neoforge-1.21.1.jar";
             "hash" = "sha512-5/6FI2NX1Cf40KfR3iwWt8ok1xiyXyKh4qmQM/nVYsoVbhnTv7r7yPMRhLcxvOSjmiRVgOnhrTxU/2JPMADOfg==";
         };
+        _Jllq1v3R = {
+            "id" = "Jllq1v3R";
+            "file" = "youtubers-1.7.0-neoforge-1.21.1.jar";
+            "hash" = "sha512-fEagrZ55+Pc1eX/Rw1W9ZnCiJN6xmH7NQwKqY5HqqPuZw+/+3n5a3GiEOLkIfTvU8HxfGa3kdh8CHfvrhutu7A==";
+        };
+        _4AeLbNLZ = {
+            "id" = "4AeLbNLZ";
+            "file" = "youtubers-1.7.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-xOl/JqmSaHAkcrC3t39cw1mzT9wAXAGg23rcOzOB7AwGR/8PTzO/X3rJ/EIP2VJSSB5I1PDnb7XlhzBk0JzL+A==";
+        };
+        _R9uxBVWq = {
+            "id" = "R9uxBVWq";
+            "file" = "youtubers-1.7.2-neoforge-1.21.1.jar";
+            "hash" = "sha512-45CEMQgL7xJViOUuxo92wV/2jQfZCWfpzKQ+zei+xxUg814MhnipUmzY1yX/8AjuyX3/AW3Yby6/C9OzLrBYsQ==";
+        };
+        _41fcNLSC = {
+            "id" = "41fcNLSC";
+            "file" = "youtubers-1.7.3-neoforge-1.21.1.jar";
+            "hash" = "sha512-CeMfr0xcvoGf+SmvCSrpEt+2tceRtBB/F/FiHdkJB35pw6UHVtnkJbQAJ0V+NNOxEM/7h9RK5PefDW4giUvN9w==";
+        };
     in {
         "1gvSmSzS" = _1gvSmSzS;
         "M4wVU8kn" = _M4wVU8kn;
@@ -428,12 +448,16 @@ let
         "sYvjABtt" = _sYvjABtt;
         "sRmRUw0n" = _sRmRUw0n;
         "4M4g8G3U" = _4M4g8G3U;
+        "Jllq1v3R" = _Jllq1v3R;
+        "4AeLbNLZ" = _4AeLbNLZ;
+        "R9uxBVWq" = _R9uxBVWq;
+        "41fcNLSC" = _41fcNLSC;
         "neoforge-1.21.4" = _wWkCxZQw;
         "neoforge-1.21.5" = _wWkCxZQw;
         "neoforge-1.21.6" = _wWkCxZQw;
         "neoforge-1.21.7" = _wWkCxZQw;
         "neoforge-1.21.8" = _wWkCxZQw;
-        "neoforge-1.21.1" = _4M4g8G3U;
+        "neoforge-1.21.1" = _41fcNLSC;
         "neoforge-1.21.2" = _wWkCxZQw;
         "neoforge-1.21.3" = _wWkCxZQw;
         "neoforge-1.21.9" = _wWkCxZQw;
@@ -503,7 +527,11 @@ let
         "pkg-1.6.7" = _sYvjABtt;
         "pkg-1.6.8" = _sRmRUw0n;
         "pkg-1.6.9" = _4M4g8G3U;
-        "default" = _4M4g8G3U;
+        "pkg-1.7.0" = _Jllq1v3R;
+        "pkg-1.7.1" = _4AeLbNLZ;
+        "pkg-1.7.2" = _R9uxBVWq;
+        "pkg-1.7.3" = _41fcNLSC;
+        "default" = _41fcNLSC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "knarfy,-system-zee,-and-fundy";

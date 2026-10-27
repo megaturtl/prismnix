@@ -1046,6 +1046,21 @@ let
             "file" = "angelica-2.2.37.jar";
             "hash" = "sha512-yleybExNAe3+aiIySUMaCCInjUK7r8pctefBWtwfBAGc4ZLG2OZLrxZXHkoZgSBuxjK7rKDecnBvbcEU2lrd+g==";
         };
+        _1tH5mSBd = {
+            "id" = "1tH5mSBd";
+            "file" = "angelica-2.2.38.jar";
+            "hash" = "sha512-UnlulbJaqKdBCM7KErPbnau+ijSmWGOtRwO+YKn9rjlf5eqW9bHxfgZrZQKg9kcGaDSF5JG3FLvCV4Dhv+iiwQ==";
+        };
+        _XSc0KOiW = {
+            "id" = "XSc0KOiW";
+            "file" = "angelica-2.2.39.jar";
+            "hash" = "sha512-glGsOWj0PD/ILZCLUx3gb75AXxSVuO9FRcsC3F13atHlT75k1YhNZmlsbq9TxO0kehFyl5Fqyab5LyKQKZm12A==";
+        };
+        _YcyvYs1Q = {
+            "id" = "YcyvYs1Q";
+            "file" = "angelica-2.2.40.jar";
+            "hash" = "sha512-CjXv44DnoKgTB4IP5vYx9rKSD42o3grSw3GaEb90VxyOC4PLTQ8zDVngXWCf68rPw3ndRFmr4z7nupWVyVN9NA==";
+        };
     in {
         "GRmV423v" = _GRmV423v;
         "YkDiZW8D" = _YkDiZW8D;
@@ -1256,7 +1271,10 @@ let
         "yv5QMvVk" = _yv5QMvVk;
         "SegsgXcr" = _SegsgXcr;
         "A285SopH" = _A285SopH;
-        "forge-1.7.10" = _A285SopH;
+        "1tH5mSBd" = _1tH5mSBd;
+        "XSc0KOiW" = _XSc0KOiW;
+        "YcyvYs1Q" = _YcyvYs1Q;
+        "forge-1.7.10" = _YcyvYs1Q;
         "pkg-1.0.0-alpha35" = _GRmV423v;
         "pkg-1.0.0-alpha36a" = _YkDiZW8D;
         "pkg-1.0.0-alpha37" = _jsoYE0Si;
@@ -1466,7 +1484,10 @@ let
         "pkg-2.2.35" = _yv5QMvVk;
         "pkg-2.2.36" = _SegsgXcr;
         "pkg-2.2.37" = _A285SopH;
-        "default" = _A285SopH;
+        "pkg-2.2.38" = _1tH5mSBd;
+        "pkg-2.2.39" = _XSc0KOiW;
+        "pkg-2.2.40" = _YcyvYs1Q;
+        "default" = _YcyvYs1Q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "angelica";

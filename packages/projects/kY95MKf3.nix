@@ -196,6 +196,11 @@ let
             "file" = "EpicfightDd-20.14.1.19.1.jar";
             "hash" = "sha512-uFHtd608WVoe8HAom0/kMHhuxkrnZwPbCgVrknYNKDiQWNNYexW04Y+KBe98DrXRXkcqVjMGclQIFbXZoBoDwA==";
         };
+        _mL0urgie = {
+            "id" = "mL0urgie";
+            "file" = "EpicfightDd-20.14.1.19.2.jar";
+            "hash" = "sha512-Qkmc/i2UEKilGqnS2XEkD/XueOJoVWYSzABUDcN1pEork0X/GrIeGsN75GvGWdf7muPvMY+8S6+LIKbkSCt2lQ==";
+        };
     in {
         "ZeSWGQGK" = _ZeSWGQGK;
         "ZSmSgKiP" = _ZSmSgKiP;
@@ -236,7 +241,8 @@ let
         "Td61ebW1" = _Td61ebW1;
         "1A0wmDFo" = _1A0wmDFo;
         "MedR0IvG" = _MedR0IvG;
-        "forge-1.20.1" = _MedR0IvG;
+        "mL0urgie" = _mL0urgie;
+        "forge-1.20.1" = _mL0urgie;
         "neoforge-1.21.1" = _kCZCK2dK;
         "pkg-20.14.1.0.0" = _ZeSWGQGK;
         "pkg-20.14.1.1.0" = _ZSmSgKiP;
@@ -277,7 +283,8 @@ let
         "pkg-20.14.1.18.0" = _Td61ebW1;
         "pkg-20.14.1.19.0" = _1A0wmDFo;
         "pkg-20.14.1.19.1" = _MedR0IvG;
-        "default" = _MedR0IvG;
+        "pkg-20.14.1.19.2" = _mL0urgie;
+        "default" = _mL0urgie;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "epic-fight-dawn-day";

@@ -1026,6 +1026,66 @@ let
             "file" = "biology-dictionary-1.4.0-mc26.3-fabric.jar";
             "hash" = "sha512-UEPwp7H6JkmwgjYY0TVwW4YTrxBDNsqy1DUJlmFyTkXE9thKt9nXHffUItYEp82ukrK67W+MCUvTjM0vU1XSXA==";
         };
+        _A81WHoeP = {
+            "id" = "A81WHoeP";
+            "file" = "biology-dictionary-1.4.0-mc26.2-neoforge.jar";
+            "hash" = "sha512-9Gp1Vmq1XHw8v8lBj9RaNviI+NuWqbbzWn8k5+IMNPzJPM3NbTHelWsQxkRpyxRB3tlCrOO2W6Spgd8Z2YDk2w==";
+        };
+        _4zpL2KVv = {
+            "id" = "4zpL2KVv";
+            "file" = "biology-dictionary-1.4.0-mc26.2-fabric.jar";
+            "hash" = "sha512-Sqvc4WS1hImevsnUt/HJnywhIMdbaFSE8Ep3xi31Hi5K/q6Y3ZLPnJI9B6XnzzFdSFd3EwNF1ByalteOSO6+cg==";
+        };
+        _YJmKeYqD = {
+            "id" = "YJmKeYqD";
+            "file" = "biology-dictionary-1.4.0-mc26.1.2-neoforge.jar";
+            "hash" = "sha512-4qglJpWQi/MsKBSe3CYZN76D4cQ6de7DaPo4+t9Ca1QJx7sQnz9+ocNxfoFvhxbeNcH7aq6dYW9UOGgsV0V2Jg==";
+        };
+        _jeKWJlbX = {
+            "id" = "jeKWJlbX";
+            "file" = "biology-dictionary-1.4.0-mc26.1.2-fabric.jar";
+            "hash" = "sha512-mIDrJoSCX5d2ODWvS9SSNMhiIf3tjZYiqcxAZJ8zFspIuWCpfHiu0gYVvPRWGDwqZez4iSt5OZHiglqb8P8w3g==";
+        };
+        _xL26WZeQ = {
+            "id" = "xL26WZeQ";
+            "file" = "biology-dictionary-1.4.0-mc1.21.11-neoforge.jar";
+            "hash" = "sha512-hqitW81E1Un8cDYUNDzfZuck2qzTD+W7aT9ggEya7fxPH16+PYCyeSHJlev2oGIfKkXRla8YyR6iSt0zS/Rrvg==";
+        };
+        _iJeBoCmr = {
+            "id" = "iJeBoCmr";
+            "file" = "biology-dictionary-1.4.0-mc1.21.11-fabric.jar";
+            "hash" = "sha512-LejOAYoKVqTAHGNbevXjLfOC/mwJ3pEQ26hUHZDTUiT8FVIE04Z1LIZjhRw/wDrfu4tOQkVAn/n1KoRZ6gMnHw==";
+        };
+        _sTJGA05C = {
+            "id" = "sTJGA05C";
+            "file" = "biology-dictionary-1.4.0-mc1.21.1-neoforge.jar";
+            "hash" = "sha512-g+k4ysGePIB9SsZ/j1obl1rcuLr2y/gysmwto26nBlI1N8n0iLtlNTVk/EhuvtPdEB24FaYlQeao2FpUJm7/Hw==";
+        };
+        _Xc366lVG = {
+            "id" = "Xc366lVG";
+            "file" = "biology-dictionary-1.4.0-mc1.21.1-fabric.jar";
+            "hash" = "sha512-C9TbUxbLS6L0ENx7PulABoTyqUbiuQjOFZvdYUB+Y45aqnmaORr8avKuPZ4mXwPkGXUL/4Lz472ZRvIB2f77IA==";
+        };
+        _4PNoXT3H = {
+            "id" = "4PNoXT3H";
+            "file" = "biology-dictionary-1.4.0-mc1.20.1-forge.jar";
+            "hash" = "sha512-ApvSm2YIo3mEsekMu5Hh4KdZOaU5K1p0iKOBRbdimagNxsjwtntoxuCQmCfsc3eWfVkEuMxuSjyWbsZqwnfUuw==";
+        };
+        _9iDkYyrb = {
+            "id" = "9iDkYyrb";
+            "file" = "biology-dictionary-1.4.0-mc1.20.1-fabric.jar";
+            "hash" = "sha512-iz5pxMqY6HmNbAHM2HhwheWr7NPQG+BJHA8wlN+kcWzTgyRnbTclRIVTTrgcyUHj2666yN+6Xl/AiDejlebMJw==";
+        };
+        _sftiHmjt = {
+            "id" = "sftiHmjt";
+            "file" = "biology-dictionary-1.4.1-mc26.3-neoforge.jar";
+            "hash" = "sha512-O0B+aXhuLV34eUX72VsDujopWN1840fDvXw7+Nh13vTz6InRqJx5x7cO5lG7EgKEd4Fy8I98DWligvw8B+zD/g==";
+        };
+        _iVmvWfNz = {
+            "id" = "iVmvWfNz";
+            "file" = "biology-dictionary-1.4.1-mc26.3-fabric.jar";
+            "hash" = "sha512-AXabZ3o5Mq+0R4rJG2mOS8EiMy7utS1Xe0isd9UAyfX0mTti/Sj8hXGyol9iLA827/DEXYioZiJxMpXUCn0mrg==";
+        };
     in {
         "rmNEHubR" = _rmNEHubR;
         "jV70aY6h" = _jV70aY6h;
@@ -1232,18 +1292,30 @@ let
         "4urlrH0r" = _4urlrH0r;
         "iVx2CyCD" = _iVx2CyCD;
         "o7vbdBSt" = _o7vbdBSt;
-        "fabric-1.21.11" = _td2M3OYY;
-        "fabric-1.21.1" = _xXsem0ao;
-        "fabric-1.20.1" = _T3kyOb2L;
-        "fabric-26.1.2" = _4urlrH0r;
-        "fabric-26.2" = _XhqOgjMD;
-        "fabric-26.3" = _o7vbdBSt;
-        "neoforge-1.21.11" = _s9yOYIBQ;
-        "neoforge-1.21.1" = _5LVpZtTs;
-        "neoforge-26.1.2" = _dXMD6an7;
-        "neoforge-26.2" = _BmK1rJz4;
-        "neoforge-26.3" = _iVx2CyCD;
-        "forge-1.20.1" = _sUQbenNf;
+        "A81WHoeP" = _A81WHoeP;
+        "4zpL2KVv" = _4zpL2KVv;
+        "YJmKeYqD" = _YJmKeYqD;
+        "jeKWJlbX" = _jeKWJlbX;
+        "xL26WZeQ" = _xL26WZeQ;
+        "iJeBoCmr" = _iJeBoCmr;
+        "sTJGA05C" = _sTJGA05C;
+        "Xc366lVG" = _Xc366lVG;
+        "4PNoXT3H" = _4PNoXT3H;
+        "9iDkYyrb" = _9iDkYyrb;
+        "sftiHmjt" = _sftiHmjt;
+        "iVmvWfNz" = _iVmvWfNz;
+        "fabric-1.21.11" = _iJeBoCmr;
+        "fabric-1.21.1" = _Xc366lVG;
+        "fabric-1.20.1" = _9iDkYyrb;
+        "fabric-26.1.2" = _jeKWJlbX;
+        "fabric-26.2" = _4zpL2KVv;
+        "fabric-26.3" = _iVmvWfNz;
+        "neoforge-1.21.11" = _xL26WZeQ;
+        "neoforge-1.21.1" = _sTJGA05C;
+        "neoforge-26.1.2" = _YJmKeYqD;
+        "neoforge-26.2" = _A81WHoeP;
+        "neoforge-26.3" = _sftiHmjt;
+        "forge-1.20.1" = _4PNoXT3H;
         "pkg-0.5.0" = _rmNEHubR;
         "pkg-0.5.1" = _jV70aY6h;
         "pkg-v0.5.2-mc1.21.11-fabric" = _unBC7Fcq;
@@ -1449,7 +1521,19 @@ let
         "pkg-v1.3.2-mc26.1.2-fabric" = _4urlrH0r;
         "pkg-v1.4.0-mc26.3-neoforge" = _iVx2CyCD;
         "pkg-v1.4.0-mc26.3-fabric" = _o7vbdBSt;
-        "default" = _o7vbdBSt;
+        "pkg-v1.4.0-mc26.2-neoforge" = _A81WHoeP;
+        "pkg-v1.4.0-mc26.2-fabric" = _4zpL2KVv;
+        "pkg-v1.4.0-mc26.1.2-neoforge" = _YJmKeYqD;
+        "pkg-v1.4.0-mc26.1.2-fabric" = _jeKWJlbX;
+        "pkg-v1.4.0-mc1.21.11-neoforge" = _xL26WZeQ;
+        "pkg-v1.4.0-mc1.21.11-fabric" = _iJeBoCmr;
+        "pkg-v1.4.0-mc1.21.1-neoforge" = _sTJGA05C;
+        "pkg-v1.4.0-mc1.21.1-fabric" = _Xc366lVG;
+        "pkg-v1.4.0-mc1.20.1-forge" = _4PNoXT3H;
+        "pkg-v1.4.0-mc1.20.1-fabric" = _9iDkYyrb;
+        "pkg-v1.4.1-mc26.3-neoforge" = _sftiHmjt;
+        "pkg-v1.4.1-mc26.3-fabric" = _iVmvWfNz;
+        "default" = _iVmvWfNz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "biology-dictionary";

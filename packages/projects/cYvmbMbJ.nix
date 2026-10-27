@@ -101,6 +101,56 @@ let
             "file" = "better_farming_plus-neoforge-1.21.1-0.5.0.jar";
             "hash" = "sha512-l+bpEclPLjOicEEaLH7HJ1TQKStt1BYeHejdKQlZNZ5+KWDuVKbgu/l16v6gc/Z4DKVsw/j1UMdHYX0EMXo99w==";
         };
+        _IX5soINq = {
+            "id" = "IX5soINq";
+            "file" = "better_farming_plus-fabric-1.20.1-1.0.0.jar";
+            "hash" = "sha512-Lj4XWbHCKnaTKeqzQjSWh5dM1vLB9utXEktNiwdrNvzOUYlsq3WZ54h0ob/RzoQEtTtq3NmjRJgyQxuzGiQ8Wg==";
+        };
+        _rMQLueQx = {
+            "id" = "rMQLueQx";
+            "file" = "better_farming_plus-fabric-1.21.1-1.0.0.jar";
+            "hash" = "sha512-eDql5ny7QezcdinpZHGrNvc8HT6CSn538p6tE5cUi2W9v6ZuoaJwiiJjT0OjBBC3VFQ7rm0kch7D8Aa3SyL1gA==";
+        };
+        _E5IxSjyn = {
+            "id" = "E5IxSjyn";
+            "file" = "better_farming_plus-fabric-26.1.2-1.0.0.jar";
+            "hash" = "sha512-5sBp+pIVuT63m8LYv1QSBLeBsCL5BCFohDWvVCZHw6EWqoQfh0soeYp82AwiiDNKUCHnD2pU6hrTX8wQozF9/A==";
+        };
+        _qMYaOIPa = {
+            "id" = "qMYaOIPa";
+            "file" = "better_farming_plus-fabric-26.2-1.0.0.jar";
+            "hash" = "sha512-4UXw07C6uXjtM1OV2ZoIlOqC/19e3Z4bfuebONGNP0HSDHASuXgNwpE1ynzCFH+0EKtq5n14VkkYPqgDC3U1AA==";
+        };
+        _qFd6jTUM = {
+            "id" = "qFd6jTUM";
+            "file" = "better_farming_plus-fabric-26.3-1.0.0.jar";
+            "hash" = "sha512-uNJnA/8BpTk0aSuWzwFAPC8zTxDVfpG2vSpAIQjD9PB4iO4T5WbV51QxrZjBFMxBXyGPNmqTgon/X9QuN5ch+g==";
+        };
+        _wKLhb0Vy = {
+            "id" = "wKLhb0Vy";
+            "file" = "better_farming_plus-forge-1.20.1-1.0.0.jar";
+            "hash" = "sha512-c9YitvGfgieMn78Z9Vc0QRwE5F0llQOiSdbNnvE73vJAG8ZhD7SAFfCknNszvq+ewrpowzIHvcftEl/ckzl6wA==";
+        };
+        _Tnsm7vVi = {
+            "id" = "Tnsm7vVi";
+            "file" = "better_farming_plus-neoforge-1.21.1-1.0.0.jar";
+            "hash" = "sha512-HtkH0Ngf0JVc+bIC/ihi4oMfXodEC6s9s3anHBHG2aB0L1PLejNiLmwNVJ5r+ua0R4ppEML41osZSrfuVmz1YA==";
+        };
+        _9fUeC8U5 = {
+            "id" = "9fUeC8U5";
+            "file" = "better_farming_plus-neoforge-26.1.2-1.0.0.jar";
+            "hash" = "sha512-sowEc+GtuijVE90WauclOV2AUrdTZPnfRd+qUunuorjh+vnZ6w+dc8sBhIn6C9Uq3vjLySLoQeWJaB5XG/62jg==";
+        };
+        _CBn4Wz62 = {
+            "id" = "CBn4Wz62";
+            "file" = "better_farming_plus-neoforge-26.2-1.0.0.jar";
+            "hash" = "sha512-W7eD+pV6J3gwktdrsYSdoLa98J+02ohc6O5u6FS3JnPFXhXtCVEm89Qbo7kH8M1aSMsGgmtf/5WuCxGVyhax1w==";
+        };
+        _b6RghLFq = {
+            "id" = "b6RghLFq";
+            "file" = "better_farming_plus-neoforge-26.3-1.0.0.jar";
+            "hash" = "sha512-sfxHC8fFKL0ClrgHMvr1bOutMIKKHqq7eOA5anoHo2sxMeH/rTg+Qz2klvj8Y/JcmlPcYX47xqIabV2wbeF7vg==";
+        };
     in {
         "ZbWPOHkJ" = _ZbWPOHkJ;
         "HBzGsCId" = _HBzGsCId;
@@ -122,16 +172,32 @@ let
         "xNv9AQ44" = _xNv9AQ44;
         "SrRqR6KM" = _SrRqR6KM;
         "GiBDC7l5" = _GiBDC7l5;
-        "forge-1.20.1" = _xNv9AQ44;
+        "IX5soINq" = _IX5soINq;
+        "rMQLueQx" = _rMQLueQx;
+        "E5IxSjyn" = _E5IxSjyn;
+        "qMYaOIPa" = _qMYaOIPa;
+        "qFd6jTUM" = _qFd6jTUM;
+        "wKLhb0Vy" = _wKLhb0Vy;
+        "Tnsm7vVi" = _Tnsm7vVi;
+        "9fUeC8U5" = _9fUeC8U5;
+        "CBn4Wz62" = _CBn4Wz62;
+        "b6RghLFq" = _b6RghLFq;
+        "forge-1.20.1" = _wKLhb0Vy;
         "forge-1.18.2" = _VIPx3ymG;
         "forge-1.19.2" = _Qa6B7Gm4;
         "forge-1.16.5" = _hJIns67p;
         "neoforge-1.20.1" = _tyO6xF3B;
-        "neoforge-1.21.1" = _GiBDC7l5;
+        "neoforge-1.21.1" = _Tnsm7vVi;
         "neoforge-1.21.5" = _qNzzWCnf;
         "neoforge-1.21.8" = _8DCQET7t;
-        "fabric-1.20.1" = _19HmRDO6;
-        "fabric-1.21.1" = _SrRqR6KM;
+        "neoforge-26.1.2" = _9fUeC8U5;
+        "neoforge-26.2" = _CBn4Wz62;
+        "neoforge-26.3" = _b6RghLFq;
+        "fabric-1.20.1" = _IX5soINq;
+        "fabric-1.21.1" = _rMQLueQx;
+        "fabric-26.1.2" = _E5IxSjyn;
+        "fabric-26.2" = _qMYaOIPa;
+        "fabric-26.3" = _qFd6jTUM;
         "pkg-0.1.0" = _HBzGsCId;
         "pkg-0.2.0" = _gFoQR1VG;
         "pkg-0.3.0" = _8DCQET7t;
@@ -140,7 +206,17 @@ let
         "pkg-0.5.0+forge-1.20.1" = _xNv9AQ44;
         "pkg-0.5.0+fabric-1.21.1" = _SrRqR6KM;
         "pkg-0.5.0+neoforge-1.21.1" = _GiBDC7l5;
-        "default" = _GiBDC7l5;
+        "pkg-1.0.0+fabric-1.20.1" = _IX5soINq;
+        "pkg-1.0.0+fabric-1.21.1" = _rMQLueQx;
+        "pkg-1.0.0+fabric-26.1.2" = _E5IxSjyn;
+        "pkg-1.0.0+fabric-26.2" = _qMYaOIPa;
+        "pkg-1.0.0+fabric-26.3" = _qFd6jTUM;
+        "pkg-1.0.0+forge-1.20.1" = _wKLhb0Vy;
+        "pkg-1.0.0+neoforge-1.21.1" = _Tnsm7vVi;
+        "pkg-1.0.0+neoforge-26.1.2" = _9fUeC8U5;
+        "pkg-1.0.0+neoforge-26.2" = _CBn4Wz62;
+        "pkg-1.0.0+neoforge-26.3" = _b6RghLFq;
+        "default" = _b6RghLFq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-farming-plus";

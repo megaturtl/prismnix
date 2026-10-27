@@ -66,6 +66,11 @@ let
             "file" = "bibliowoods-26.1.2-1.7.1.jar";
             "hash" = "sha512-MIo83PCneyWzx6RlhNDxdti+F93ZQhqAfgoY8+J/+kgexaXgqFdw6M3Q5TXtGlR9QmmPyWBDxycQv+EF5+XYhA==";
         };
+        _AfSNosXB = {
+            "id" = "AfSNosXB";
+            "file" = "bibliowoods-26.1.2-1.7.2.jar";
+            "hash" = "sha512-DUGXEKku/+Ri1/8/z1ePu75Fjl+rJ4yglSzMbtlPc3nnwtoqXsLBjFd5Fwaip6XqKhc/mx9Ang+QYr309rkalg==";
+        };
     in {
         "Ni3u57pD" = _Ni3u57pD;
         "XOEhkCRG" = _XOEhkCRG;
@@ -80,10 +85,11 @@ let
         "RPOH9rwH" = _RPOH9rwH;
         "E3ppGyVf" = _E3ppGyVf;
         "hk9y93mZ" = _hk9y93mZ;
+        "AfSNosXB" = _AfSNosXB;
         "neoforge-1.21.1" = _RPOH9rwH;
-        "neoforge-26.1" = _hk9y93mZ;
-        "neoforge-26.1.1" = _hk9y93mZ;
-        "neoforge-26.1.2" = _hk9y93mZ;
+        "neoforge-26.1" = _AfSNosXB;
+        "neoforge-26.1.1" = _AfSNosXB;
+        "neoforge-26.1.2" = _AfSNosXB;
         "pkg-1.0.1" = _Ni3u57pD;
         "pkg-1.2.0" = _XOEhkCRG;
         "pkg-1.3.0" = _IX8SNaNI;
@@ -97,7 +103,8 @@ let
         "pkg-1.6.5" = _RPOH9rwH;
         "pkg-1.7.0" = _E3ppGyVf;
         "pkg-1.7.1" = _hk9y93mZ;
-        "default" = _hk9y93mZ;
+        "pkg-1.7.2" = _AfSNosXB;
+        "default" = _AfSNosXB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bibliowoods-legacy";

@@ -611,6 +611,21 @@ let
             "file" = "overgeared-forge-1.20.1-1.6.36.jar";
             "hash" = "sha512-1OsWaqpNiF6ebOL2342Ib6LEuTXnt7GptkyqhsScLf2ZSQ71bH0n86EokW0JnbSJsmvlOZAM01w4ajJpAkzcsw==";
         };
+        _U1jaXO19 = {
+            "id" = "U1jaXO19";
+            "file" = "overgeared-neoforge-1.21.1-1.6.20.jar";
+            "hash" = "sha512-VTGAP4Kw0+e1qGKxcKG4lwTUylXcbv8D7kNBURvP1gTgq4ksSeZ/VOlTDjoO39yv4NJxPt7CPsP3rlqjScPhcQ==";
+        };
+        _tN0TdF4z = {
+            "id" = "tN0TdF4z";
+            "file" = "overgeared-forge-1.20.1-1.6.37.jar";
+            "hash" = "sha512-aAjVhFlIAeZHcqPudUiEme29qs2qoPEIi7SN5HPjdigyexFk9iVx1ltfAETFCpncihxg4EFuE1JgMMTIIntOlA==";
+        };
+        _ueC241vg = {
+            "id" = "ueC241vg";
+            "file" = "overgeared-fabric-1.20.1-0.1.4.jar";
+            "hash" = "sha512-KIbN046kyahKrYteR3hjTt2YnDnmajkAoUcZR12ijahgqbgcgdOwbExhhFcybdIcsV/jQPFwrNivo6VwMp4zyQ==";
+        };
     in {
         "mk8CljdN" = _mk8CljdN;
         "92hIAPKo" = _92hIAPKo;
@@ -734,10 +749,13 @@ let
         "ZVk3KqFC" = _ZVk3KqFC;
         "YNvbzmgq" = _YNvbzmgq;
         "3ukhuK2v" = _3ukhuK2v;
-        "forge-1.20.1" = _3ukhuK2v;
-        "neoforge-1.20.1" = _3ukhuK2v;
-        "neoforge-1.21.1" = _YNvbzmgq;
-        "fabric-1.20.1" = _ZVk3KqFC;
+        "U1jaXO19" = _U1jaXO19;
+        "tN0TdF4z" = _tN0TdF4z;
+        "ueC241vg" = _ueC241vg;
+        "forge-1.20.1" = _tN0TdF4z;
+        "neoforge-1.20.1" = _tN0TdF4z;
+        "neoforge-1.21.1" = _U1jaXO19;
+        "fabric-1.20.1" = _ueC241vg;
         "fabric-1.20.2" = _ZVk3KqFC;
         "fabric-1.20.3" = _ZVk3KqFC;
         "fabric-1.20.4" = _ZVk3KqFC;
@@ -865,7 +883,10 @@ let
         "pkg-fabric-1.20.1-0.1.3" = _ZVk3KqFC;
         "pkg-neoforge-1.21.1-1.6.19" = _YNvbzmgq;
         "pkg-forge-1.20.1-1.6.36" = _3ukhuK2v;
-        "default" = _3ukhuK2v;
+        "pkg-neoforge-1.21.1-1.6.20" = _U1jaXO19;
+        "pkg-forge-1.20.1-1.6.37" = _tN0TdF4z;
+        "pkg-fabric-1.20.1-0.1.4" = _ueC241vg;
+        "default" = _ueC241vg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "overgeared";

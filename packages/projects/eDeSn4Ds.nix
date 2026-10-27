@@ -51,6 +51,16 @@ let
             "file" = "tf_dnv-fabric-2.0.3.jar";
             "hash" = "sha512-H+hX9Kc+e/UKcpKg6qeY9AQddZDSRmA7uzDeLp7sdvBseij9hoEN5PCoEhAUvsbwSu5/L7k/uioPQH0DXsyGFg==";
         };
+        _hPYbuaFt = {
+            "id" = "hPYbuaFt";
+            "file" = "tf_dnv-fabric-26.1.2-2.0.3.jar";
+            "hash" = "sha512-s2W8Up522/4O+JjZKdIslGuUvMFoCrTLzOXZcFeTxF3qn3Yq/MUbxKwkkLEIsxPkui3tjpOG14sBupePagkNHw==";
+        };
+        _rwknSEnD = {
+            "id" = "rwknSEnD";
+            "file" = "tf_dnv-neoforge-26.1.2-2.0.3.jar";
+            "hash" = "sha512-Rbig2fhrJccdT2k3Jj0dBktTdMDRf9uPQC/j6tcoWswQWqUzT8zq++qMiriINSEu2OPnwyZltDt0/16Sc4KKnA==";
+        };
     in {
         "L1fzWNvI" = _L1fzWNvI;
         "8orvtNT2" = _8orvtNT2;
@@ -62,10 +72,14 @@ let
         "FGqCqNkE" = _FGqCqNkE;
         "VkpANa50" = _VkpANa50;
         "co5ANLqq" = _co5ANLqq;
+        "hPYbuaFt" = _hPYbuaFt;
+        "rwknSEnD" = _rwknSEnD;
         "forge-1.20.1" = _FGqCqNkE;
         "neoforge-1.21.1" = _VkpANa50;
         "neoforge-1.20.1" = _FGqCqNkE;
+        "neoforge-26.1.2" = _rwknSEnD;
         "fabric-1.21.1" = _co5ANLqq;
+        "fabric-26.1.2" = _hPYbuaFt;
         "pkg-1.1.0" = _L1fzWNvI;
         "pkg-2.0.0" = _8orvtNT2;
         "pkg-2.0.2" = _nVvp5UFC;
@@ -74,7 +88,9 @@ let
         "pkg-2.0.3" = _co5ANLqq;
         "pkg-1.2.2" = _EsxY1B4q;
         "pkg-1.2.3" = _FGqCqNkE;
-        "default" = _co5ANLqq;
+        "pkg-for-ft-4.9.768-alpha" = _hPYbuaFt;
+        "pkg-for-tf-4.9.3817-alpha" = _rwknSEnD;
+        "default" = _rwknSEnD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-twilight-forest-dungeons-villages";

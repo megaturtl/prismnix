@@ -946,6 +946,16 @@ let
             "file" = "serversidehorror-26.3-neoforge-5.jar";
             "hash" = "sha512-ZAr8pn3OSlSDRvB+O6V1KaF/qr+w2dNrd9jWCUYTKUUVfwqV9xPAz+ZIyikFkf9pwxtALQRx+KTMmGNsdHtv1w==";
         };
+        _asIKFyJc = {
+            "id" = "asIKFyJc";
+            "file" = "serversidehorror-1.19.2-fabric-5.0.1.jar";
+            "hash" = "sha512-/L76gQ4JiQRPgrcZldVnTydF3d1/+X55rO1CXYfGv1l0Q7p8zUsTxVxVe6Zlrz2rROb0mAh/8N+kBndsYS/m9w==";
+        };
+        _9uWcubNn = {
+            "id" = "9uWcubNn";
+            "file" = "serversidehorror-1.19.2-forge-5.0.1.jar";
+            "hash" = "sha512-pWObRhklcI4uMDQ2gMmYnMPaQkt0T5AgH15mBcAPzIkv1b3cG/scEYzVqdYEon4b4rSYNx8n6zEQenEV6/jC3w==";
+        };
     in {
         "FPUYLnPg" = _FPUYLnPg;
         "n5ZGu3F3" = _n5ZGu3F3;
@@ -1136,7 +1146,9 @@ let
         "CfdKrTCU" = _CfdKrTCU;
         "2BLsZqfI" = _2BLsZqfI;
         "RpZX5A7L" = _RpZX5A7L;
-        "fabric-1.19.2" = _mv0m2RYk;
+        "asIKFyJc" = _asIKFyJc;
+        "9uWcubNn" = _9uWcubNn;
+        "fabric-1.19.2" = _asIKFyJc;
         "fabric-1.19.4" = _MneGelOV;
         "fabric-1.20" = _M7asNaee;
         "fabric-1.20.1" = _M7asNaee;
@@ -1162,9 +1174,9 @@ let
         "fabric-26.1.2" = _19hVEwYE;
         "fabric-26.2" = _8C1uIUqu;
         "fabric-26.3" = _CfdKrTCU;
-        "fabric-1.19" = _mv0m2RYk;
-        "fabric-1.19.1" = _mv0m2RYk;
-        "quilt-1.19.2" = _mv0m2RYk;
+        "fabric-1.19" = _asIKFyJc;
+        "fabric-1.19.1" = _asIKFyJc;
+        "quilt-1.19.2" = _asIKFyJc;
         "quilt-1.19.4" = _MneGelOV;
         "quilt-1.20" = _M7asNaee;
         "quilt-1.20.1" = _M7asNaee;
@@ -1190,11 +1202,11 @@ let
         "quilt-26.1.2" = _19hVEwYE;
         "quilt-26.2" = _8C1uIUqu;
         "quilt-26.3" = _CfdKrTCU;
-        "quilt-1.19" = _mv0m2RYk;
-        "quilt-1.19.1" = _mv0m2RYk;
-        "forge-1.19" = _hl8vagsa;
-        "forge-1.19.1" = _hl8vagsa;
-        "forge-1.19.2" = _hl8vagsa;
+        "quilt-1.19" = _asIKFyJc;
+        "quilt-1.19.1" = _asIKFyJc;
+        "forge-1.19" = _9uWcubNn;
+        "forge-1.19.1" = _9uWcubNn;
+        "forge-1.19.2" = _9uWcubNn;
         "forge-1.19.4" = _ug2a2HRt;
         "forge-1.20" = _vGjYUGG5;
         "forge-1.20.1" = _vGjYUGG5;
@@ -1429,7 +1441,9 @@ let
         "pkg-26.3-fabric-5" = _CfdKrTCU;
         "pkg-26.3-forge-5" = _2BLsZqfI;
         "pkg-26.3-neoforge-5" = _RpZX5A7L;
-        "default" = _RpZX5A7L;
+        "pkg-1.19.2-fabric-5.0.1" = _asIKFyJc;
+        "pkg-1.19.2-forge-5.0.1" = _9uWcubNn;
+        "default" = _9uWcubNn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "server-side-horror";

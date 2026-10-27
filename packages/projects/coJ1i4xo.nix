@@ -211,6 +211,26 @@ let
             "file" = "rusticpancakes-neoforge-26.1.2-1.2.0.jar";
             "hash" = "sha512-qPs+WgTg6gqOQuEJk4NqHaLQ7Oep6/KhNkxusH8cBhP/0HZQNLbyKLqXYq89aenxdBIrmMrBC7D8IlDMqMV+xA==";
         };
+        _NEdrFESc = {
+            "id" = "NEdrFESc";
+            "file" = "rusticpancakes-fabric-26.2-1.2.0.jar";
+            "hash" = "sha512-c0dTiMRmx0mtnKoWfHo0wim/n4tukuMLBkVJnZdnHpIEjUihLCblbR9P2g9+Fj+tCkATIiyLDuj7z+sH8/b7pw==";
+        };
+        _4xu5OQBk = {
+            "id" = "4xu5OQBk";
+            "file" = "rusticpancakes-neoforge-26.2-1.2.0.jar";
+            "hash" = "sha512-oOIfXKijg9NEqf00RR2nULk9d4ievXVSdIzhw1yRBYjxpIedFzK21i0eAyVwcUERDlJgcguVFu9dJ0nAyo90EQ==";
+        };
+        _M5cO2OZ3 = {
+            "id" = "M5cO2OZ3";
+            "file" = "rusticpancakes-fabric-26.3-1.2.0.jar";
+            "hash" = "sha512-u8O5F94hb3GthwZS1V2s2C/WMZF4XdFTDkBBamr73mqHM+aeg8yH5cG8J5rna2IXUmuF1In0iu9qm3MgJb4Z5Q==";
+        };
+        _yrplTBZf = {
+            "id" = "yrplTBZf";
+            "file" = "rusticpancakes-neoforge-26.3-1.2.0.jar";
+            "hash" = "sha512-t9aBmz9JOxfktWQSpyfJgiIf/lhIE+gCfDsn3e1a/at4caeXMCSnXt87lFBfljGzLDCOfE6+ePosTL81ZsYQWA==";
+        };
     in {
         "KQgltL0f" = _KQgltL0f;
         "LTvg2mkF" = _LTvg2mkF;
@@ -254,6 +274,10 @@ let
         "M9a7Z7k6" = _M9a7Z7k6;
         "SC22O1ZW" = _SC22O1ZW;
         "MNUE9fvi" = _MNUE9fvi;
+        "NEdrFESc" = _NEdrFESc;
+        "4xu5OQBk" = _4xu5OQBk;
+        "M5cO2OZ3" = _M5cO2OZ3;
+        "yrplTBZf" = _yrplTBZf;
         "neoforge-1.21" = _79ULcpbJ;
         "neoforge-1.21.1" = _tU3ISY8W;
         "neoforge-1.20.1" = _jGW6OOHf;
@@ -267,6 +291,8 @@ let
         "neoforge-1.21.10" = _zdTsU9ko;
         "neoforge-1.21.11" = _M9a7Z7k6;
         "neoforge-26.1.2" = _MNUE9fvi;
+        "neoforge-26.2" = _4xu5OQBk;
+        "neoforge-26.3" = _yrplTBZf;
         "forge-1.20.1" = _jGW6OOHf;
         "forge-1.19.2" = _aKCR0XhO;
         "fabric-1.21" = _pi7qdmSJ;
@@ -283,12 +309,14 @@ let
         "fabric-26.1" = _SC22O1ZW;
         "fabric-26.1.1" = _SC22O1ZW;
         "fabric-26.1.2" = _SC22O1ZW;
+        "fabric-26.2" = _NEdrFESc;
+        "fabric-26.3" = _M5cO2OZ3;
         "pkg-1.0.0" = _pi7qdmSJ;
         "pkg-1.1.0" = _ZIFHaOEp;
-        "pkg-1.2.0" = _MNUE9fvi;
+        "pkg-1.2.0" = _yrplTBZf;
         "pkg-1.2.1" = _zdTsU9ko;
         "pkg-1.2.2" = _tU3ISY8W;
-        "default" = _MNUE9fvi;
+        "default" = _yrplTBZf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rustic-pancakes";

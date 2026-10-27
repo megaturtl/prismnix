@@ -41,6 +41,16 @@ let
             "file" = "[1.21.1-neoforge]-Epic-Knights-Slavic-Armory-2.3.jar";
             "hash" = "sha512-HWPhn8DXvXV4TCZUiwKad+8CcxL8XJct/NUO8oRoCdzLSZH8JIc8287uoSOl/6pOvXdFWDN7gsXSbuIb4dHRNA==";
         };
+        _6VRleoLT = {
+            "id" = "6VRleoLT";
+            "file" = "[1.21.1-fabric]-Epic-Knights-Slavic-Armory-2.4.jar";
+            "hash" = "sha512-QIJ3On2sV3HyYMfQLvAE5f2aEGvd3OE2ztq5twRrpDFmIecqQ04giWs7wa/uYOGzFsMPDhOFpsGIvkJS98w5Tg==";
+        };
+        _MH4PuhNU = {
+            "id" = "MH4PuhNU";
+            "file" = "[1.21.1-neoforge]-Epic-Knights-Slavic-Armory-2.4.jar";
+            "hash" = "sha512-OjhI2K+VCs4S2GAJUIDDyReS29eXnUd2AFdXxvKaKcHtyoeeHnEynw9UKrmc121DLfGkZ9JrRmdazfYXVbemSA==";
+        };
     in {
         "nJPvyLMX" = _nJPvyLMX;
         "9kWPA3Lm" = _9kWPA3Lm;
@@ -50,17 +60,20 @@ let
         "TcyQvfoo" = _TcyQvfoo;
         "WR1fwkqf" = _WR1fwkqf;
         "CjCtY8A1" = _CjCtY8A1;
+        "6VRleoLT" = _6VRleoLT;
+        "MH4PuhNU" = _MH4PuhNU;
         "fabric-1.20.1" = _ppHVto8Y;
-        "fabric-1.21" = _WR1fwkqf;
-        "fabric-1.21.1" = _WR1fwkqf;
+        "fabric-1.21" = _6VRleoLT;
+        "fabric-1.21.1" = _6VRleoLT;
         "forge-1.20.1" = _Q5VtlZ47;
-        "neoforge-1.21" = _CjCtY8A1;
-        "neoforge-1.21.1" = _CjCtY8A1;
+        "neoforge-1.21" = _MH4PuhNU;
+        "neoforge-1.21.1" = _MH4PuhNU;
         "pkg-2.0" = _9kWPA3Lm;
         "pkg-2.1" = _LC70NJrh;
         "pkg-2.2" = _TcyQvfoo;
         "pkg-2.3" = _CjCtY8A1;
-        "default" = _CjCtY8A1;
+        "pkg-2.4" = _MH4PuhNU;
+        "default" = _MH4PuhNU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "epic-knights-slavic-armory";

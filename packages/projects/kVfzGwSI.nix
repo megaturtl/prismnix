@@ -141,6 +141,56 @@ let
             "file" = "robotica-neoforge-26.2-1.0.1.jar";
             "hash" = "sha512-dd71A03szmXJ5Sji9BQnyIKy3t6nl7MSbWwQCjv3fqQE3FbrXqWfUHFyAvZbX1G2OJGOFcV2rOJ5836okDxBog==";
         };
+        _4NZClOWY = {
+            "id" = "4NZClOWY";
+            "file" = "chronofall-fabric-1.20.1-2.0.0.jar";
+            "hash" = "sha512-iAOqA2nqX7pdw5x3UkI7Vm7Dd6C7tf6o1TteHUmOQdUA/yKj99oaPI9heH5CmUh/tNTRhJYpP4cqyaovUtQyjA==";
+        };
+        _bSV9XyEZ = {
+            "id" = "bSV9XyEZ";
+            "file" = "chronofall-fabric-1.21.1-2.0.0.jar";
+            "hash" = "sha512-zshBbNzO2iyPw/A7GoHCD/a7FSGLkRllqG/3f46gO0uBitQfOIobPRuPS1V3Jleahg/hTeFlvh7eTPp6ks11gA==";
+        };
+        _4FZ2Pj86 = {
+            "id" = "4FZ2Pj86";
+            "file" = "chronofall-fabric-26.1.2-2.0.0.jar";
+            "hash" = "sha512-HFRqOHBaKf+U1ksED+RKbY7+0rdLJxuuTU66tKBMutGv+uuDqTheC21rEzYHis8YadVP3VzCScCqg5L/E6TiZg==";
+        };
+        _h3OJ8wBm = {
+            "id" = "h3OJ8wBm";
+            "file" = "chronofall-fabric-26.2-2.0.0.jar";
+            "hash" = "sha512-TeL00myOeg340gca7e/6UImERRC351+lCflw7DLx5OJiGIzRx9NM13KWL7ZuE/TcRQaVFeNYTZ/hyqhPDlWslQ==";
+        };
+        _H3ar1wO3 = {
+            "id" = "H3ar1wO3";
+            "file" = "chronofall-fabric-26.3-2.0.0.jar";
+            "hash" = "sha512-qNzBI3Wx8sLX1LxePLiTWW/IOxOnj7lY+mp3oJ9ASs55ULt2tS8iB05Nc5aGe6QXrkBR5WZN8/fmQvkebdv4Zg==";
+        };
+        _frKFQqsE = {
+            "id" = "frKFQqsE";
+            "file" = "chronofall-forge-1.20.1-2.0.0.jar";
+            "hash" = "sha512-lxgyNTbUyhZL7V1lleiAY92jo9qfjD/blWFbN9EweUPKklK/CBtcMOqBYlKFQDyPTg96kR+nMULpARe9vk06Uw==";
+        };
+        _zcl3NWYX = {
+            "id" = "zcl3NWYX";
+            "file" = "chronofall-neoforge-1.21.1-2.0.0.jar";
+            "hash" = "sha512-wYJCWvOo2ugMj/rEBs2ukXCCYMQVt82eO4E4WUHaXRXDdIpjW9O5lJiqg5mqCOIMqWfXaFpIpVQ/hj8KynICPA==";
+        };
+        _wrN8ZBh4 = {
+            "id" = "wrN8ZBh4";
+            "file" = "chronofall-neoforge-26.1.2-2.0.0.jar";
+            "hash" = "sha512-mFE/IWKRZYUIPssNk/2eaodMRgl7U+KKEqdqmKsc05vedcZB//m6gr919tqiFNgO7kW8oM4JizvMqNYNZSlZfg==";
+        };
+        _YRkfuPpR = {
+            "id" = "YRkfuPpR";
+            "file" = "chronofall-neoforge-26.2-2.0.0.jar";
+            "hash" = "sha512-zpWBb9f0BZy75PjTg94txYFw0WRjpQ4nALVrqubDSkb7AtVzRDGqr4XcVPZQyHac65k+8qVOVwmiWaURRYfssA==";
+        };
+        _KWguLTyY = {
+            "id" = "KWguLTyY";
+            "file" = "chronofall-neoforge-26.3-2.0.0.jar";
+            "hash" = "sha512-c4xk1sCmxTRQqZq3Zt7DROSF4lEDFd1kINSc6JATRtnFOZY8tRw+VsDzas0dpXEztmcTsDDHfCyokgxypKZdXQ==";
+        };
     in {
         "IB0d9fTJ" = _IB0d9fTJ;
         "c77N5dZV" = _c77N5dZV;
@@ -170,18 +220,32 @@ let
         "VoNRuA5z" = _VoNRuA5z;
         "tHQYfkTP" = _tHQYfkTP;
         "mbf1bJBD" = _mbf1bJBD;
-        "forge-1.20.1" = _VoNRuA5z;
+        "4NZClOWY" = _4NZClOWY;
+        "bSV9XyEZ" = _bSV9XyEZ;
+        "4FZ2Pj86" = _4FZ2Pj86;
+        "h3OJ8wBm" = _h3OJ8wBm;
+        "H3ar1wO3" = _H3ar1wO3;
+        "frKFQqsE" = _frKFQqsE;
+        "zcl3NWYX" = _zcl3NWYX;
+        "wrN8ZBh4" = _wrN8ZBh4;
+        "YRkfuPpR" = _YRkfuPpR;
+        "KWguLTyY" = _KWguLTyY;
+        "forge-1.20.1" = _frKFQqsE;
         "forge-1.19.2" = _48Js8mcj;
         "forge-1.16.5" = _gLraMSr7;
         "forge-1.18.2" = _IzTHiKTV;
         "neoforge-1.20.1" = _Zy2HH6nn;
-        "neoforge-1.21.1" = _tHQYfkTP;
+        "neoforge-1.21.1" = _zcl3NWYX;
         "neoforge-1.21.5" = _SfsZfGBL;
         "neoforge-1.21.8" = _qYOzFH5q;
-        "neoforge-26.2" = _mbf1bJBD;
-        "fabric-1.20.1" = _5wgjPrPo;
-        "fabric-1.21.1" = _oO7cuVlq;
-        "fabric-26.2" = _P5KLdPnY;
+        "neoforge-26.2" = _YRkfuPpR;
+        "neoforge-26.1.2" = _wrN8ZBh4;
+        "neoforge-26.3" = _KWguLTyY;
+        "fabric-1.20.1" = _4NZClOWY;
+        "fabric-1.21.1" = _bSV9XyEZ;
+        "fabric-26.2" = _h3OJ8wBm;
+        "fabric-26.1.2" = _4FZ2Pj86;
+        "fabric-26.3" = _H3ar1wO3;
         "pkg-0.1.0" = _c77N5dZV;
         "pkg-0.2.0" = _FAc5Q8YQ;
         "pkg-0.3.0" = _kZ0q7Zxs;
@@ -196,7 +260,17 @@ let
         "pkg-1.0.1+forge-1.20.1" = _VoNRuA5z;
         "pkg-1.0.1+neoforge-1.21.1" = _tHQYfkTP;
         "pkg-1.0.1+neoforge-26.2" = _mbf1bJBD;
-        "default" = _mbf1bJBD;
+        "pkg-2.0.0+fabric-1.20.1" = _4NZClOWY;
+        "pkg-2.0.0+fabric-1.21.1" = _bSV9XyEZ;
+        "pkg-2.0.0+fabric-26.1.2" = _4FZ2Pj86;
+        "pkg-2.0.0+fabric-26.2" = _h3OJ8wBm;
+        "pkg-2.0.0+fabric-26.3" = _H3ar1wO3;
+        "pkg-2.0.0+forge-1.20.1" = _frKFQqsE;
+        "pkg-2.0.0+neoforge-1.21.1" = _zcl3NWYX;
+        "pkg-2.0.0+neoforge-26.1.2" = _wrN8ZBh4;
+        "pkg-2.0.0+neoforge-26.2" = _YRkfuPpR;
+        "pkg-2.0.0+neoforge-26.3" = _KWguLTyY;
+        "default" = _KWguLTyY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "robotica";

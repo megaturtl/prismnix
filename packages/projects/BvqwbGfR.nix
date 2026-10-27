@@ -266,6 +266,26 @@ let
             "file" = "opcommands-2.3.0-forge-1.20.1.jar";
             "hash" = "sha512-ca9e5G+DAvxFehbERLcxsTexLwl0OT+O4SjTclB5U9B6K2kcd0YN7KcvinGqIIDfdIOkMg9xn04M9uIAdDui6g==";
         };
+        _wXvg8b2k = {
+            "id" = "wXvg8b2k";
+            "file" = "opcommands-2.3.1-neoforge-1.21.8.jar";
+            "hash" = "sha512-LS2aV3hRHdCIOWCFrIoSwf2h4wiDeHgZ6AtVDcEFk5W+JCfWlBWWcE10XoAqatfurxl3a1al1U8mp38AGCFDcA==";
+        };
+        _rOfhESBy = {
+            "id" = "rOfhESBy";
+            "file" = "opcommands-2.3.1-neoforge-1.21.4.jar";
+            "hash" = "sha512-43mxbX2EHawRILdGRpBYWw9xWsv1J9ABst5RYDjfd81gOlubXRQiPBwH2hA9QE0/nTzr4XntbkhnkoNETOF5bQ==";
+        };
+        _4oAuhJ0F = {
+            "id" = "4oAuhJ0F";
+            "file" = "opcommands-2.3.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-FYMhA7c6bDn9wpToHzCbJMCLZK3ohEMXXTE9TQ2iuO94qEL0FfFXZa7JF5fISxwCJ8HKQ1KAuQPsIKUvo+rJzQ==";
+        };
+        _VECIO6V8 = {
+            "id" = "VECIO6V8";
+            "file" = "opcommands-2.3.1-forge-1.20.1.jar";
+            "hash" = "sha512-aHRzsM/Q6ELwIZ7WhExdooKhNjgeI6qMnb5G4TRQmUjgzqYbRAYEsLBhaWM0S8PjBFaHBrGUO7xOyebXfflGLA==";
+        };
     in {
         "qe3Wc5Kq" = _qe3Wc5Kq;
         "gVFybkOa" = _gVFybkOa;
@@ -320,11 +340,15 @@ let
         "F7HGmtMZ" = _F7HGmtMZ;
         "UPCNOlUY" = _UPCNOlUY;
         "MWMLXjq2" = _MWMLXjq2;
-        "forge-1.20.1" = _MWMLXjq2;
+        "wXvg8b2k" = _wXvg8b2k;
+        "rOfhESBy" = _rOfhESBy;
+        "4oAuhJ0F" = _4oAuhJ0F;
+        "VECIO6V8" = _VECIO6V8;
+        "forge-1.20.1" = _VECIO6V8;
         "forge-1.16.5" = _Be7f9oYA;
-        "neoforge-1.21.1" = _UPCNOlUY;
-        "neoforge-1.21.4" = _F7HGmtMZ;
-        "neoforge-1.21.8" = _3i7yZOfJ;
+        "neoforge-1.21.1" = _4oAuhJ0F;
+        "neoforge-1.21.4" = _rOfhESBy;
+        "neoforge-1.21.8" = _wXvg8b2k;
         "fabric-1.20.1" = _PaV21aIu;
         "pkg-0.1.0" = _gVFybkOa;
         "pkg-0.1.1" = _YewJ3hrd;
@@ -343,7 +367,8 @@ let
         "pkg-2.2.0" = _ErCPS6gy;
         "pkg-2.2.1" = _PaV21aIu;
         "pkg-2.3.0" = _MWMLXjq2;
-        "default" = _MWMLXjq2;
+        "pkg-2.3.1" = _VECIO6V8;
+        "default" = _VECIO6V8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "opcommands";

@@ -46,6 +46,11 @@ let
             "file" = "smitherz-1.1.1.jar";
             "hash" = "sha512-TXw82JtRY1KxyCB4qzioZahbPYkgCJQ3ht/Fg0/k8tmSc0gkAr0I7hw+UzSC/BRa/xHJRNipiZkT51Ys1wZrGQ==";
         };
+        _oVJezzDw = {
+            "id" = "oVJezzDw";
+            "file" = "smitherz-1.2.0.jar";
+            "hash" = "sha512-DzLimvmNcHFx1b6XKfj9W+RL4l6LKvSkX56dzmuhLbXtmliy863zK7p0e4wD1Mq1V6hrC9foE53JFuuzQAm6hA==";
+        };
     in {
         "u4OJnmZv" = _u4OJnmZv;
         "4ZHdtbU8" = _4ZHdtbU8;
@@ -56,8 +61,9 @@ let
         "yqrzOb56" = _yqrzOb56;
         "a1b8wZSX" = _a1b8wZSX;
         "PBBLy4uc" = _PBBLy4uc;
+        "oVJezzDw" = _oVJezzDw;
         "fabric-1.20.1" = _5EEPnMB7;
-        "fabric-1.21.1" = _PBBLy4uc;
+        "fabric-1.21.1" = _oVJezzDw;
         "pkg-1.0.0" = _u4OJnmZv;
         "pkg-1.0.1+1.20.1" = _4ZHdtbU8;
         "pkg-1.0.2+1.20.1" = _eLWMZMdN;
@@ -67,7 +73,8 @@ let
         "pkg-1.0.6+1.21.1" = _yqrzOb56;
         "pkg-1.1.0+1.21.1" = _a1b8wZSX;
         "pkg-1.1.1+1.21.1" = _PBBLy4uc;
-        "default" = _PBBLy4uc;
+        "pkg-1.2.0+1.21.1" = _oVJezzDw;
+        "default" = _oVJezzDw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "smitherz";

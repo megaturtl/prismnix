@@ -31,6 +31,21 @@ let
             "file" = "DART SLRV v1.5.zip";
             "hash" = "sha512-16A5RB7K0jrpmHGklfDCUij+Gt9P+se3RcowGrJjjsF8xKCXRLfZgXImAnzXhMt0h+Yp3Je303hpcqQ2n8Y4qg==";
         };
+        _vl73HDIk = {
+            "id" = "vl73HDIk";
+            "file" = "DART SLRV v1.6.zip";
+            "hash" = "sha512-aIvHpQksFZmzXYXbKDv5jAs12etDs2Fh76ODhOoIBVOzgBM45zmBS3zVvz9FXjTqieW9oa3sxnlIUxKxsEX4eQ==";
+        };
+        _uc6qT91w = {
+            "id" = "uc6qT91w";
+            "file" = "DART SLRV v1.7.zip";
+            "hash" = "sha512-/ESRbkJCXmE8lpFsuWXu1df0nj58pPcPy/sT5TI7v4YE4BOa7T2TFRn/zWvG9Hz3ZtSxLLhYpmDtP0zpghNglQ==";
+        };
+        _pTtmeAgg = {
+            "id" = "pTtmeAgg";
+            "file" = "DART SLRV v1.8.zip";
+            "hash" = "sha512-amqPKvg/Hj3n6xQ/SWX3L193bkVeH64pqH+EOIrFG2ZV2c0KpD0PZ4I4lTBqU2c65hxzxizilPtARJG9OzCOxg==";
+        };
     in {
         "IOHom9bg" = _IOHom9bg;
         "xVEz8PKg" = _xVEz8PKg;
@@ -38,20 +53,26 @@ let
         "bydEM8Ih" = _bydEM8Ih;
         "gKYzMi6S" = _gKYzMi6S;
         "6f3zlWJa" = _6f3zlWJa;
+        "vl73HDIk" = _vl73HDIk;
+        "uc6qT91w" = _uc6qT91w;
+        "pTtmeAgg" = _pTtmeAgg;
         "minecraft-1.16.5" = _6f3zlWJa;
-        "minecraft-1.17.1" = _6f3zlWJa;
-        "minecraft-1.18.2" = _6f3zlWJa;
-        "minecraft-1.19.2" = _gKYzMi6S;
-        "minecraft-1.19.4" = _6f3zlWJa;
-        "minecraft-1.20.1" = _6f3zlWJa;
-        "minecraft-1.20.4" = _6f3zlWJa;
+        "minecraft-1.17.1" = _pTtmeAgg;
+        "minecraft-1.18.2" = _pTtmeAgg;
+        "minecraft-1.19.2" = _pTtmeAgg;
+        "minecraft-1.19.4" = _pTtmeAgg;
+        "minecraft-1.20.1" = _pTtmeAgg;
+        "minecraft-1.20.4" = _pTtmeAgg;
         "pkg-1.0" = _IOHom9bg;
         "pkg-1.1" = _xVEz8PKg;
         "pkg-1.2" = _FJ8uQtRz;
         "pkg-1.3" = _bydEM8Ih;
         "pkg-1.4" = _gKYzMi6S;
         "pkg-1.5" = _6f3zlWJa;
-        "default" = _6f3zlWJa;
+        "pkg-1.6" = _vl73HDIk;
+        "pkg-1.7" = _uc6qT91w;
+        "pkg-1.8" = _pTtmeAgg;
+        "default" = _pTtmeAgg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dart-slrv";

@@ -521,6 +521,26 @@ let
             "file" = "swbb-neoforge-1.21.1-1.4.8-beta.jar";
             "hash" = "sha512-Lye8H0gChnIOctwQFOBTmZsA4u6n27oWFpuw0G2tkJTTy8hI+W3hEe6KCq4LSAetNCeMi/0yflJZJ5/lyoTxrg==";
         };
+        _8SJR0iDc = {
+            "id" = "8SJR0iDc";
+            "file" = "swbb-neoforge-1.21.1-1.5.0-beta.jar";
+            "hash" = "sha512-kkOTHkRWOQjfC+blWlDqlz4Ur8LMvCY562MRh0JWnlCW45j+3CDjupmZxWR9lrUzo4noo7j/jeUjJKZHPTgB3Q==";
+        };
+        _Kqn9fXHG = {
+            "id" = "Kqn9fXHG";
+            "file" = "swbb-fabric-1.21.1-1.5.0-beta.jar";
+            "hash" = "sha512-x49ctPN6WO3oKcV4IDDdXPPyqhRflecJdc6LDWIdADOJO5u59VEyG75BHBjOZp84G1SeuWtL3DfflGOZbwDK9g==";
+        };
+        _F5Asqgrj = {
+            "id" = "F5Asqgrj";
+            "file" = "swbb-fabric-1.21.1-1.5.2-beta.jar";
+            "hash" = "sha512-O3+kTOMsRjfHp+Tryk1NuIU82y+gQw1CYYt/EjVdEOuopL0pMuNSGMsXfxDZiovjDL4x6yWX5GbEC9D+/9rhHA==";
+        };
+        _8aIgWXLe = {
+            "id" = "8aIgWXLe";
+            "file" = "swbb-neoforge-1.21.1-1.5.2-beta.jar";
+            "hash" = "sha512-U5uZKKfVkhjHxW+VcJe+xl3xmorIltnDl5SqCI2Be3h6TBOY7dWNGqqZ3SDZ41xJ/MGlBRN0kOflKNXlrFOJig==";
+        };
     in {
         "KjpK96yR" = _KjpK96yR;
         "6UpjzNXl" = _6UpjzNXl;
@@ -626,9 +646,13 @@ let
         "6uDh0RIQ" = _6uDh0RIQ;
         "eS52eouw" = _eS52eouw;
         "Zc2XjaZY" = _Zc2XjaZY;
+        "8SJR0iDc" = _8SJR0iDc;
+        "Kqn9fXHG" = _Kqn9fXHG;
+        "F5Asqgrj" = _F5Asqgrj;
+        "8aIgWXLe" = _8aIgWXLe;
         "fabric-1.20.2" = _6UpjzNXl;
-        "fabric-1.21.1" = _eS52eouw;
-        "neoforge-1.21.1" = _Zc2XjaZY;
+        "fabric-1.21.1" = _F5Asqgrj;
+        "neoforge-1.21.1" = _8aIgWXLe;
         "pkg-legacy-pswg-adventures-0.0.16" = _KjpK96yR;
         "pkg-legacy-pswg-adventures-0.0.24.1" = _6UpjzNXl;
         "pkg-0.5.0" = _zkjZpWRP;
@@ -682,7 +706,9 @@ let
         "pkg-1.4.6-beta" = _Hnf5kcMp;
         "pkg-1.4.7-beta" = _6uDh0RIQ;
         "pkg-1.4.8-beta" = _Zc2XjaZY;
-        "default" = _Zc2XjaZY;
+        "pkg-1.5.0-beta" = _Kqn9fXHG;
+        "pkg-1.5.2-beta" = _8aIgWXLe;
+        "default" = _8aIgWXLe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "starwars-bb";

@@ -41,6 +41,16 @@ let
             "file" = "ZW RP .zip";
             "hash" = "sha512-wou+hiyJyLW7FVGb665kwLgVzGG9bD+X5bnhqcfO0PZp8IknrLzeqfpWS1D/kM+6ngOjbjyLK3Hqm9CyE9d0ag==";
         };
+        _5RanvbPU = {
+            "id" = "5RanvbPU";
+            "file" = "ZW RP.zip";
+            "hash" = "sha512-8KwiNLglO9vI1bYWjgxCGPHjU2DclFjA8B258JL7bUfle6dbmoSDzOxA2ksNuUOg5hMKJ2kn/c/5Gk8zJDMuag==";
+        };
+        _iPSmU48O = {
+            "id" = "iPSmU48O";
+            "file" = "ZW RP.zip";
+            "hash" = "sha512-tUEgl4i4EDP1GVva7l1x+iBybo9NpIfgSu1n2EnKNpKy+6Dxyq43eL27OFMO5fAGPsMlI2QUKghm2+dkd4X/6w==";
+        };
     in {
         "c7DAdyy2" = _c7DAdyy2;
         "Ma6i8KWw" = _Ma6i8KWw;
@@ -50,6 +60,8 @@ let
         "D7EnDiCB" = _D7EnDiCB;
         "3i6ZgFkt" = _3i6ZgFkt;
         "lfwF9ni3" = _lfwF9ni3;
+        "5RanvbPU" = _5RanvbPU;
+        "iPSmU48O" = _iPSmU48O;
         "minecraft-1.20.1" = _c7DAdyy2;
         "minecraft-1.20.2" = _Ma6i8KWw;
         "minecraft-1.20.3" = _c7DAdyy2;
@@ -60,13 +72,13 @@ let
         "minecraft-1.21.2" = _Ma6i8KWw;
         "minecraft-1.21.3" = _Ma6i8KWw;
         "minecraft-1.21.4" = _Ma6i8KWw;
-        "minecraft-1.21.5" = _lfwF9ni3;
-        "minecraft-1.21.9" = _lfwF9ni3;
-        "minecraft-1.21.10" = _lfwF9ni3;
-        "minecraft-1.21.11" = _lfwF9ni3;
-        "minecraft-1.21.6" = _lfwF9ni3;
-        "minecraft-1.21.7" = _lfwF9ni3;
-        "minecraft-1.21.8" = _lfwF9ni3;
+        "minecraft-1.21.5" = _iPSmU48O;
+        "minecraft-1.21.9" = _iPSmU48O;
+        "minecraft-1.21.10" = _iPSmU48O;
+        "minecraft-1.21.11" = _iPSmU48O;
+        "minecraft-1.21.6" = _iPSmU48O;
+        "minecraft-1.21.7" = _iPSmU48O;
+        "minecraft-1.21.8" = _iPSmU48O;
         "pkg-2.3" = _c7DAdyy2;
         "pkg-3.0" = _kxGHov2r;
         "pkg-3.1" = _pviFnSLc;
@@ -74,7 +86,9 @@ let
         "pkg-4.0-beta1" = _D7EnDiCB;
         "pkg-4.0-beta2" = _3i6ZgFkt;
         "pkg-4.1" = _lfwF9ni3;
-        "default" = _lfwF9ni3;
+        "pkg-4.2" = _5RanvbPU;
+        "pkg-4.2.1" = _iPSmU48O;
+        "default" = _iPSmU48O;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zeroworlds-resoursepack";

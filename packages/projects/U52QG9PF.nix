@@ -991,6 +991,11 @@ let
             "file" = "B - Simply Cozy 1.9.54.jar";
             "hash" = "sha512-Wn9bPA9K7Mg4aKHpjLLLGSmrS4M97McxfGmzIAmdjOrR4/dRSP9VzMqxscQk++yq1Uyo4bmbG08+j46+RouMsQ==";
         };
+        _PKknwHJN = {
+            "id" = "PKknwHJN";
+            "file" = "B - Simply Cozy 1.9.55.jar";
+            "hash" = "sha512-YtWqAib1BEiLUcdJzEttdbEkTH7GE+3+TQXG+/dw9tlZiGBjB3RM9DC7EnkAld8jU5wqjmTRuMrCFEhFCqw5YQ==";
+        };
     in {
         "LgYDkcho" = _LgYDkcho;
         "zLptarbN" = _zLptarbN;
@@ -1190,6 +1195,7 @@ let
         "WqypIdE5" = _WqypIdE5;
         "dZ1mTWfy" = _dZ1mTWfy;
         "HBdeY8Sj" = _HBdeY8Sj;
+        "PKknwHJN" = _PKknwHJN;
         "fabric-1.21" = _BLvmxHHN;
         "fabric-1.21.1" = _BLvmxHHN;
         "fabric-1.21.2" = _ikiX739m;
@@ -1201,7 +1207,7 @@ let
         "fabric-26.1.1" = _ObakYRPo;
         "fabric-26.1.2" = _ObakYRPo;
         "fabric-26.2" = _sZ4iQ2G8;
-        "fabric-26.3" = _HBdeY8Sj;
+        "fabric-26.3" = _PKknwHJN;
         "pkg-1.0.0" = _LgYDkcho;
         "pkg-1.0.1" = _zLptarbN;
         "pkg-1.0.2" = _ARFdz9md;
@@ -1399,7 +1405,8 @@ let
         "pkg-1.9.52" = _WqypIdE5;
         "pkg-1.9.53" = _dZ1mTWfy;
         "pkg-1.9.54" = _HBdeY8Sj;
-        "default" = _HBdeY8Sj;
+        "pkg-1.9.55" = _PKknwHJN;
+        "default" = _PKknwHJN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simply-cozy";

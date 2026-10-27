@@ -206,6 +206,16 @@ let
             "file" = "anvilcraft_pigsplus-neoforge-2.14.1.jar";
             "hash" = "sha512-DqSs9K7TBiOSOjVhUwjwgtvTBBeiSMrcCiBSOb4t6e9sWTYXOObWLvZQWCJvj3TmYBbytKnBGsLMY3oLCbw3sQ==";
         };
+        _eQtHmulX = {
+            "id" = "eQtHmulX";
+            "file" = "anvilcraft_pigsplus-neoforge-2.15.0.jar";
+            "hash" = "sha512-s5p3ntvKeh1VTdaaVibhZd4Wi79E3fqFYcZ3s9d5Ijfy1y35ej4uPahwXZlJm38b5vxWaDFk+DLlyd4mS56sPg==";
+        };
+        _gX9Hg4er = {
+            "id" = "gX9Hg4er";
+            "file" = "anvilcraft_pigsplus-neoforge-2.15.1.jar";
+            "hash" = "sha512-2mkFMQoWfrL1oLOE3Wlf4A4xFviAcGJxEbLQvmpHpRALVB+BbkE7ZbIijyE6FyhPH+FjJStKZCvDAayIqnNL5A==";
+        };
     in {
         "u75ZgTau" = _u75ZgTau;
         "ViJYQrRq" = _ViJYQrRq;
@@ -248,7 +258,9 @@ let
         "wl6TdCyd" = _wl6TdCyd;
         "Q7DD73nX" = _Q7DD73nX;
         "HQwi29V0" = _HQwi29V0;
-        "neoforge-1.21.1" = _HQwi29V0;
+        "eQtHmulX" = _eQtHmulX;
+        "gX9Hg4er" = _gX9Hg4er;
+        "neoforge-1.21.1" = _gX9Hg4er;
         "pkg-0.1.0" = _u75ZgTau;
         "pkg-0.1.1" = _ViJYQrRq;
         "pkg-0.1.2" = _vNzUmwjk;
@@ -290,7 +302,9 @@ let
         "pkg-2.13.1" = _wl6TdCyd;
         "pkg-2.14.0" = _Q7DD73nX;
         "pkg-2.14.1" = _HQwi29V0;
-        "default" = _HQwi29V0;
+        "pkg-2.15.0" = _eQtHmulX;
+        "pkg-2.15.1" = _gX9Hg4er;
+        "default" = _gX9Hg4er;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "anvilcraftpigsplus";

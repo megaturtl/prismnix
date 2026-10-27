@@ -11,9 +11,15 @@ let
             "file" = "Blue Ancient Debris 1.21.9+.zip";
             "hash" = "sha512-3d+tPZkbIEji7zzo1eEvZLuBhC++scRtDi2afbli/oMSqGu7SbCO0pFwR2h5Cykp0YAYklp3/vo6WRwQvoj16w==";
         };
+        _bKlPeuWD = {
+            "id" = "bKlPeuWD";
+            "file" = "Blue Ancient Debris v2.0.zip";
+            "hash" = "sha512-3ePtLcQnF2j7CMjwwby7ZCHgNi8wXi5D73HKxQcR9m4EF7Ksa/tOCQNvP54AsrK8rreHx4KgHLCbmC6hBGYe1A==";
+        };
     in {
         "hySlPNL3" = _hySlPNL3;
         "PrTPPpQL" = _PrTPPpQL;
+        "bKlPeuWD" = _bKlPeuWD;
         "minecraft-1.16" = _hySlPNL3;
         "minecraft-1.16.1" = _hySlPNL3;
         "minecraft-1.16.2" = _hySlPNL3;
@@ -46,16 +52,18 @@ let
         "minecraft-1.21.6" = _hySlPNL3;
         "minecraft-1.21.7" = _hySlPNL3;
         "minecraft-1.21.8" = _hySlPNL3;
-        "minecraft-1.21.9" = _PrTPPpQL;
-        "minecraft-1.21.10" = _PrTPPpQL;
-        "minecraft-1.21.11" = _PrTPPpQL;
-        "minecraft-26.1" = _PrTPPpQL;
-        "minecraft-26.1.1" = _PrTPPpQL;
-        "minecraft-26.1.2" = _PrTPPpQL;
-        "minecraft-26.2" = _PrTPPpQL;
+        "minecraft-1.21.9" = _bKlPeuWD;
+        "minecraft-1.21.10" = _bKlPeuWD;
+        "minecraft-1.21.11" = _bKlPeuWD;
+        "minecraft-26.1" = _bKlPeuWD;
+        "minecraft-26.1.1" = _bKlPeuWD;
+        "minecraft-26.1.2" = _bKlPeuWD;
+        "minecraft-26.2" = _bKlPeuWD;
+        "minecraft-26.3" = _bKlPeuWD;
         "pkg-1.16" = _hySlPNL3;
         "pkg-1.21.9" = _PrTPPpQL;
-        "default" = _PrTPPpQL;
+        "pkg-2.0" = _bKlPeuWD;
+        "default" = _bKlPeuWD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blue-ancient-debris1";

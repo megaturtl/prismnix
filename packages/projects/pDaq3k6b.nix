@@ -401,6 +401,21 @@ let
             "file" = "VillagerLobotimizer-1.17.0.jar";
             "hash" = "sha512-Wib7B+TsYvsGgAYesJ7V6YWlaWB2eFlW4/YHYk9cDZ5nCRb6jUttmCY0Rk8Asf3JQ2te1ZacnccthNeTRvLYew==";
         };
+        _ckD4la2e = {
+            "id" = "ckD4la2e";
+            "file" = "VillagerLobotimizer-1.17.1.jar";
+            "hash" = "sha512-5lRnB4pm9LzfS6KmzMM4yJGV+IY4Py/WUGB7+OQz42B5+SyiSp9T1cNwplCCvTlZhQcvHTEHU9PRzlUQAOXxZA==";
+        };
+        _eJ8HyC4l = {
+            "id" = "eJ8HyC4l";
+            "file" = "VillagerLobotimizer-1.17.1.jar";
+            "hash" = "sha512-5lRnB4pm9LzfS6KmzMM4yJGV+IY4Py/WUGB7+OQz42B5+SyiSp9T1cNwplCCvTlZhQcvHTEHU9PRzlUQAOXxZA==";
+        };
+        _o0yqaH7u = {
+            "id" = "o0yqaH7u";
+            "file" = "VillagerLobotimizer-1.18.0.jar";
+            "hash" = "sha512-OMjJ/O6ekD8jQholAioe0iSMMkwhAiVxN24pJFmIxzlYiNXuGqB0mspIuNiBQL0KVMvH646j3yUYlrCUSuwGTA==";
+        };
     in {
         "af5jBSt8" = _af5jBSt8;
         "C1XViGAr" = _C1XViGAr;
@@ -482,6 +497,9 @@ let
         "Ah1DzOHG" = _Ah1DzOHG;
         "KbvqZTTd" = _KbvqZTTd;
         "GSyzI4Km" = _GSyzI4Km;
+        "ckD4la2e" = _ckD4la2e;
+        "eJ8HyC4l" = _eJ8HyC4l;
+        "o0yqaH7u" = _o0yqaH7u;
         "paper-1.21" = _3iIjtwm5;
         "paper-1.21.1" = _3iIjtwm5;
         "paper-1.21.2" = _3iIjtwm5;
@@ -493,12 +511,12 @@ let
         "paper-1.21.8" = _92lleNzQ;
         "paper-1.21.9" = _92lleNzQ;
         "paper-1.21.10" = _92lleNzQ;
-        "paper-1.21.11" = _GSyzI4Km;
-        "paper-26.1" = _GSyzI4Km;
-        "paper-26.1.1" = _GSyzI4Km;
-        "paper-26.1.2" = _GSyzI4Km;
-        "paper-26.2" = _GSyzI4Km;
-        "paper-26.3" = _GSyzI4Km;
+        "paper-1.21.11" = _o0yqaH7u;
+        "paper-26.1" = _o0yqaH7u;
+        "paper-26.1.1" = _o0yqaH7u;
+        "paper-26.1.2" = _o0yqaH7u;
+        "paper-26.2" = _o0yqaH7u;
+        "paper-26.3" = _o0yqaH7u;
         "purpur-1.21" = _3iIjtwm5;
         "purpur-1.21.1" = _3iIjtwm5;
         "purpur-1.21.2" = _3iIjtwm5;
@@ -510,23 +528,23 @@ let
         "purpur-1.21.8" = _92lleNzQ;
         "purpur-1.21.9" = _92lleNzQ;
         "purpur-1.21.10" = _92lleNzQ;
-        "purpur-1.21.11" = _GSyzI4Km;
-        "purpur-26.1" = _GSyzI4Km;
-        "purpur-26.1.1" = _GSyzI4Km;
-        "purpur-26.1.2" = _GSyzI4Km;
-        "purpur-26.2" = _GSyzI4Km;
-        "purpur-26.3" = _GSyzI4Km;
+        "purpur-1.21.11" = _o0yqaH7u;
+        "purpur-26.1" = _o0yqaH7u;
+        "purpur-26.1.1" = _o0yqaH7u;
+        "purpur-26.1.2" = _o0yqaH7u;
+        "purpur-26.2" = _o0yqaH7u;
+        "purpur-26.3" = _o0yqaH7u;
         "folia-1.21.6" = _92lleNzQ;
         "folia-1.21.7" = _92lleNzQ;
         "folia-1.21.8" = _92lleNzQ;
         "folia-1.21.9" = _92lleNzQ;
         "folia-1.21.10" = _92lleNzQ;
-        "folia-1.21.11" = _GSyzI4Km;
-        "folia-26.1" = _GSyzI4Km;
-        "folia-26.1.1" = _GSyzI4Km;
-        "folia-26.1.2" = _GSyzI4Km;
-        "folia-26.2" = _GSyzI4Km;
-        "folia-26.3" = _GSyzI4Km;
+        "folia-1.21.11" = _o0yqaH7u;
+        "folia-26.1" = _o0yqaH7u;
+        "folia-26.1.1" = _o0yqaH7u;
+        "folia-26.1.2" = _o0yqaH7u;
+        "folia-26.2" = _o0yqaH7u;
+        "folia-26.3" = _o0yqaH7u;
         "pkg-1.1" = _af5jBSt8;
         "pkg-1.2" = _C1XViGAr;
         "pkg-1.3" = _T8jl49BQ;
@@ -607,7 +625,10 @@ let
         "pkg-1.16.2" = _Ah1DzOHG;
         "pkg-1.17.0-snapshot-4d2fc16" = _KbvqZTTd;
         "pkg-1.17.0" = _GSyzI4Km;
-        "default" = _GSyzI4Km;
+        "pkg-1.17.1-snapshot-190b446" = _ckD4la2e;
+        "pkg-1.17.1" = _eJ8HyC4l;
+        "pkg-1.18.0-snapshot-9f43232" = _o0yqaH7u;
+        "default" = _o0yqaH7u;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "villagerlobotomy";

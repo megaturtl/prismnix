@@ -281,6 +281,16 @@ let
             "file" = "HostileCivilization4.5NeoForge1.21.1.jar";
             "hash" = "sha512-Z1z9ZtJx3Xpf7JiUQxQbjy+x/W0PfSBvNHE0IixmmTEAv5FNyOviy2s67oLB5EECdobHJmd11X5sdHG2/DLX5A==";
         };
+        _oD7RYqAT = {
+            "id" = "oD7RYqAT";
+            "file" = "HostileCivilization4.6Forge1.20.1.jar";
+            "hash" = "sha512-ChrW99ZtvhTcJ5fUaIHd3RKyD7Y+ZoMtxqz3PEdwChHoGrt+/F9wCQofoa53KEIptOLm/HDHN+k5VSE+aPU12A==";
+        };
+        _bYF2ZTdC = {
+            "id" = "bYF2ZTdC";
+            "file" = "HostileCivilization4.6NeoForge1.21.1.jar";
+            "hash" = "sha512-JUjMawVhhgezwfkRToTg6iJZe2oFFd/U0He9msvcWKX8gV/lZULWB/hD3J+gcfM730gankN8pWVJYRUrHM2Feg==";
+        };
     in {
         "A2KwHFZg" = _A2KwHFZg;
         "Jk51OrqX" = _Jk51OrqX;
@@ -338,8 +348,10 @@ let
         "ZLRF8G9x" = _ZLRF8G9x;
         "M6f9MTFT" = _M6f9MTFT;
         "OkaL7zx4" = _OkaL7zx4;
-        "forge-1.20.1" = _M6f9MTFT;
-        "neoforge-1.21.1" = _OkaL7zx4;
+        "oD7RYqAT" = _oD7RYqAT;
+        "bYF2ZTdC" = _bYF2ZTdC;
+        "forge-1.20.1" = _oD7RYqAT;
+        "neoforge-1.21.1" = _bYF2ZTdC;
         "pkg-1.8" = _Jk51OrqX;
         "pkg-1.9" = _wISwHL5N;
         "pkg-2.0" = _sg8qJVft;
@@ -368,7 +380,8 @@ let
         "pkg-4.3" = _3vCE4GHJ;
         "pkg-4.4" = _ZLRF8G9x;
         "pkg-4.5" = _OkaL7zx4;
-        "default" = _OkaL7zx4;
+        "pkg-4.6" = _bYF2ZTdC;
+        "default" = _bYF2ZTdC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hostile-civilization";

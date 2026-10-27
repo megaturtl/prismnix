@@ -216,6 +216,51 @@ let
             "file" = "flashback-actors-1.21.1-0.10.10.jar";
             "hash" = "sha512-5NtvS1uwEPo6KRhzv98CiVRej+RMGNp5IPdFgSCyvBWE7hTiel54Ln/AgJJjxMLRmjOxNs2tXxUZuZFgYFIJzA==";
         };
+        _LDtz1pUD = {
+            "id" = "LDtz1pUD";
+            "file" = "flashback-actors-1.21.1-0.11.0.jar";
+            "hash" = "sha512-lIQrQKLqM1r/0Fyf7a2BYJX8eFqY6MSwZupT0D2vtdaoYzFAaGiAKU/0uGUYHckojiqIngmTjXr15SLBJUJkRg==";
+        };
+        _aqxUscs5 = {
+            "id" = "aqxUscs5";
+            "file" = "flashback-actors-1.21.4-0.11.0.jar";
+            "hash" = "sha512-lYD9C1HcxvbvO9X59F2MwY9IRFmmIvjaQcLcu02KKpPHjJtFvP+4rZIoK5/D/pdwH+jwJmxwckfNkVKPNWnm6w==";
+        };
+        _hrdPdQDP = {
+            "id" = "hrdPdQDP";
+            "file" = "flashback-actors-1.21.5-0.11.0.jar";
+            "hash" = "sha512-BijC/ss11eW8YUplu4MU84o2JdiD5h1rjM+DY0ay2+cnMLyHD7gWHD0cK0/UHvpGpOcFkWq5qxLk2yznsCNTNg==";
+        };
+        _e2A7o9gd = {
+            "id" = "e2A7o9gd";
+            "file" = "flashback-actors-1.21.8-0.11.0.jar";
+            "hash" = "sha512-PgfRO7VHSHAT7p1pXMc/mmyfzoEZDywfyP1F55f49eMJ/y0rkW4piTiUVKF9luaX1es6OOl3PmZZomqFZLjBNA==";
+        };
+        _MyBhzHLp = {
+            "id" = "MyBhzHLp";
+            "file" = "flashback-actors-1.21.10-0.11.0.jar";
+            "hash" = "sha512-+jLJU0I8K1hrzv7sMiMB2syQLWFMCJS+CYAA17Iice0OCgttGLT0uO5mq6+xGEXg0V0GbhfgHmWIgNapHHcaqg==";
+        };
+        _XZbX8y4I = {
+            "id" = "XZbX8y4I";
+            "file" = "flashback-actors-1.21.11-0.11.0.jar";
+            "hash" = "sha512-fUgyvRGxfPPQrBczRo+A/nT0jd43n3+Mg8fXzNVwtVrbvax2VoxuEfqFxdJZ/AlBCm5DZrnbq6uYnRWB4MdGlA==";
+        };
+        _3IZVbVYR = {
+            "id" = "3IZVbVYR";
+            "file" = "flashback-actors-26.1.2-0.11.0.jar";
+            "hash" = "sha512-YkOssl8cuOT3zdC6XkNQcQF5ufcIoQki7mjMzHzPW2IdaGWMIwl/nX+Zv5kk39EAKnEeP22ehc2BTiDW9Bfpvw==";
+        };
+        _FL9vwaW4 = {
+            "id" = "FL9vwaW4";
+            "file" = "flashback-actors-26.2-0.11.0.jar";
+            "hash" = "sha512-07keobgjAzvv+8fd8xCapnYBSRa0r3RT0tX+dnSzDGUlzL//3kcCYYNASfaKMLIpxXOC7VbP6VEXS12L3lQinQ==";
+        };
+        _UUh2Uxyw = {
+            "id" = "UUh2Uxyw";
+            "file" = "flashback-actors-26.3-0.11.0.jar";
+            "hash" = "sha512-ckjmaVDSGGfe3ddAUoXNcdFHb6UVljVoMOi3b6mTA/z9FX/nkubZR0mCVGHcxVAnRc9IVtnV3rrAud9Dh1rQAw==";
+        };
     in {
         "sqpqtdQL" = _sqpqtdQL;
         "4H2lsd2t" = _4H2lsd2t;
@@ -260,27 +305,37 @@ let
         "d2F8PnXF" = _d2F8PnXF;
         "T4XTjFuJ" = _T4XTjFuJ;
         "tcuyFUIt" = _tcuyFUIt;
-        "fabric-26.2" = _l4qjeb7k;
-        "fabric-26.1" = _b3Z76QWd;
-        "fabric-26.1.1" = _b3Z76QWd;
-        "fabric-26.1.2" = _b3Z76QWd;
-        "fabric-1.21.11" = _tbuOClCr;
-        "fabric-1.21.9" = _TXWVX8ZF;
-        "fabric-1.21.10" = _TXWVX8ZF;
-        "fabric-1.21.6" = _ojQBtl54;
-        "fabric-1.21.7" = _ojQBtl54;
-        "fabric-1.21.8" = _ojQBtl54;
-        "fabric-1.21" = _tcuyFUIt;
-        "fabric-1.21.1" = _tcuyFUIt;
-        "fabric-26.3" = _HfKh4IXs;
-        "fabric-1.21.5" = _d2F8PnXF;
-        "fabric-1.21.4" = _T4XTjFuJ;
+        "LDtz1pUD" = _LDtz1pUD;
+        "aqxUscs5" = _aqxUscs5;
+        "hrdPdQDP" = _hrdPdQDP;
+        "e2A7o9gd" = _e2A7o9gd;
+        "MyBhzHLp" = _MyBhzHLp;
+        "XZbX8y4I" = _XZbX8y4I;
+        "3IZVbVYR" = _3IZVbVYR;
+        "FL9vwaW4" = _FL9vwaW4;
+        "UUh2Uxyw" = _UUh2Uxyw;
+        "fabric-26.2" = _FL9vwaW4;
+        "fabric-26.1" = _3IZVbVYR;
+        "fabric-26.1.1" = _3IZVbVYR;
+        "fabric-26.1.2" = _3IZVbVYR;
+        "fabric-1.21.11" = _XZbX8y4I;
+        "fabric-1.21.9" = _MyBhzHLp;
+        "fabric-1.21.10" = _MyBhzHLp;
+        "fabric-1.21.6" = _e2A7o9gd;
+        "fabric-1.21.7" = _e2A7o9gd;
+        "fabric-1.21.8" = _e2A7o9gd;
+        "fabric-1.21" = _LDtz1pUD;
+        "fabric-1.21.1" = _LDtz1pUD;
+        "fabric-26.3" = _UUh2Uxyw;
+        "fabric-1.21.5" = _hrdPdQDP;
+        "fabric-1.21.4" = _aqxUscs5;
         "pkg-0.9.4" = _qu6Mfde1;
         "pkg-0.9.5" = _V6FfbTcH;
         "pkg-0.10.0" = _W6y7Guau;
         "pkg-0.10.1" = _bOVPtj2f;
         "pkg-0.10.10" = _tcuyFUIt;
-        "default" = _tcuyFUIt;
+        "pkg-0.11.0" = _UUh2Uxyw;
+        "default" = _UUh2Uxyw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "flashback-actors";

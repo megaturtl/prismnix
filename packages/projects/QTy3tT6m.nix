@@ -136,6 +136,11 @@ let
             "file" = "goetydelight-1.5.1fix1.jar";
             "hash" = "sha512-hGAeaTx3KyL3ywXPv5kxjN73vSbDjjb7nTEqhqgZPwGFOoUKcxRN28f1c0k2k5uHikt0OHlO5ZUweuoHdLF68w==";
         };
+        _nmF2QW74 = {
+            "id" = "nmF2QW74";
+            "file" = "goetydelight-1.5.2.jar";
+            "hash" = "sha512-10egDTrC9B/HCHS43pxDkohAQpL2l57nj75xJn1kfT8BltXcJr2SV5QSB+ViqS2NwEype345OFUXXOrf1M8VuA==";
+        };
     in {
         "n6IkKzLM" = _n6IkKzLM;
         "pfn5VTmF" = _pfn5VTmF;
@@ -164,7 +169,8 @@ let
         "KAfqvrlB" = _KAfqvrlB;
         "5MFnXGcU" = _5MFnXGcU;
         "bSagYom7" = _bSagYom7;
-        "forge-1.20.1" = _bSagYom7;
+        "nmF2QW74" = _nmF2QW74;
+        "forge-1.20.1" = _nmF2QW74;
         "neoforge-1.21.1" = _RnBqHDpE;
         "pkg-1.0.0" = _pfn5VTmF;
         "pkg-1.0.0-alpha.11" = _c7inzWOf;
@@ -192,7 +198,8 @@ let
         "pkg-1.5.0fix4" = _KAfqvrlB;
         "pkg-1.5.1" = _5MFnXGcU;
         "pkg-1.5.1fix1" = _bSagYom7;
-        "default" = _bSagYom7;
+        "pkg-1.5.2" = _nmF2QW74;
+        "default" = _nmF2QW74;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "goetydelight";

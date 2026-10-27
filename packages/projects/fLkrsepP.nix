@@ -131,6 +131,16 @@ let
             "file" = "BetterItemFrames-4.0.1.jar";
             "hash" = "sha512-f/DYMrUJJi+Xop+9XE0OiyQlLnsDrHiv2gQ+mwoQ/aJ97s7sCzjobtJdA1zdaxAFcQUFSbHTQGH6XfQ7AD6Rqg==";
         };
+        _2ifJaEEX = {
+            "id" = "2ifJaEEX";
+            "file" = "BetterItemFrames-5.0.0.jar";
+            "hash" = "sha512-3PaiwlLJCaCARhCEfqu0MlLGTZZbnb+ptA/1/nmC1C1oM1Ys6lBB0xBza4/uGEmBKasO1F+6J08XzkxcyGAxjQ==";
+        };
+        _RiyBWXhJ = {
+            "id" = "RiyBWXhJ";
+            "file" = "BetterItemFrames-5.0.0.jar";
+            "hash" = "sha512-Guor4ylARO4k3gkp5OnIjo+C6MaSH2I8i14+iitRGNYY730R8A8dZPL23uBc27/wFApMff0tCQ+EzlD3hKfw+g==";
+        };
     in {
         "ScEURx7A" = _ScEURx7A;
         "kvouXoU0" = _kvouXoU0;
@@ -158,6 +168,8 @@ let
         "XWJ2zp8J" = _XWJ2zp8J;
         "AvYNnNTe" = _AvYNnNTe;
         "fMSPHaVt" = _fMSPHaVt;
+        "2ifJaEEX" = _2ifJaEEX;
+        "RiyBWXhJ" = _RiyBWXhJ;
         "neoforge-1.21.1" = _3LTzv904;
         "neoforge-1.21.4" = _t8NAz2JL;
         "neoforge-1.21.5" = _Tpu31XP5;
@@ -169,6 +181,7 @@ let
         "neoforge-1.21.11" = _mQTNNljZ;
         "neoforge-26.1" = _fMSPHaVt;
         "neoforge-26.1.1" = _fMSPHaVt;
+        "neoforge-26.2" = _RiyBWXhJ;
         "fabric-1.21.1" = _3KBfZAgB;
         "fabric-1.21.5" = _m9M5ODjZ;
         "fabric-1.21.6" = _m9M5ODjZ;
@@ -179,6 +192,7 @@ let
         "fabric-1.21.11" = _s2wbeSfB;
         "fabric-26.1" = _AvYNnNTe;
         "fabric-26.1.1" = _AvYNnNTe;
+        "fabric-26.2" = _2ifJaEEX;
         "pkg-mc1.21.1-1.0" = _ScEURx7A;
         "pkg-mc1.21.1-1.1" = _kvouXoU0;
         "pkg-mc1.21.4-1.1" = _t8NAz2JL;
@@ -196,7 +210,9 @@ let
         "pkg-4.0.0+neoforge" = _XWJ2zp8J;
         "pkg-4.0.1+fabric" = _AvYNnNTe;
         "pkg-4.0.1+neoforge" = _fMSPHaVt;
-        "default" = _fMSPHaVt;
+        "pkg-5.0.0+fabric" = _2ifJaEEX;
+        "pkg-5.0.0+neoforge" = _RiyBWXhJ;
+        "default" = _RiyBWXhJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-invisible-item-frames";

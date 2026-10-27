@@ -381,6 +381,16 @@ let
             "file" = "ninjagoanotherfix.jar";
             "hash" = "sha512-3sr343tWCy6O6m8urIkj2lHGTWZCOVi+pK+TFymQSQUJh6bUTGuv7vztAR0lNY7xThhRuEHyLGKYvLkFRi6utw==";
         };
+        _PlrruBZK = {
+            "id" = "PlrruBZK";
+            "file" = "ninjago_race_update.jar";
+            "hash" = "sha512-1/QF9YTBtCMYsHiO3Nd4m8D5CghnD7ksY9iihrg/qIo+If3MLxSvGMbSUFNgcqDy41iPARcHdSIAezVM//vYDQ==";
+        };
+        _TOg5APQl = {
+            "id" = "TOg5APQl";
+            "file" = "ninjago_bugfix.jar";
+            "hash" = "sha512-AZ/LzsyZVdJ7+E6fCUPS2f1tHvLAS3Q5tNGol1rueTatqtb5fpdgNcZ+Vcjp2hqHZmoUA0oQel4lRnZN3hv5zA==";
+        };
     in {
         "T1SioSO8" = _T1SioSO8;
         "1UaOjujs" = _1UaOjujs;
@@ -458,7 +468,9 @@ let
         "jqvGIIQI" = _jqvGIIQI;
         "FBaQurWL" = _FBaQurWL;
         "HM1jvqFS" = _HM1jvqFS;
-        "forge-1.20.1" = _HM1jvqFS;
+        "PlrruBZK" = _PlrruBZK;
+        "TOg5APQl" = _TOg5APQl;
+        "forge-1.20.1" = _TOg5APQl;
         "pkg-1" = _T1SioSO8;
         "pkg-2" = _1UaOjujs;
         "pkg-3" = _nkExCMaQ;
@@ -517,7 +529,9 @@ let
         "pkg-1.16.0" = _jqvGIIQI;
         "pkg-1.16.5" = _FBaQurWL;
         "pkg-1.16.7" = _HM1jvqFS;
-        "default" = _HM1jvqFS;
+        "pkg-17" = _PlrruBZK;
+        "pkg-17.1" = _TOg5APQl;
+        "default" = _TOg5APQl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ninjago-palladium-addonpack";

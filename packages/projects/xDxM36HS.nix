@@ -31,6 +31,11 @@ let
             "file" = "palettinator-0.5.1-alpha.jar";
             "hash" = "sha512-Yu1VSShSz/HXaAXeq6b+KpuGKJRN2CYisYtvO0Tdd9p9m0AW7MOpcgooilm0K99Isu1wSN8HjvsDSW1Ck6lBuA==";
         };
+        _SGrbLXss = {
+            "id" = "SGrbLXss";
+            "file" = "palettinator-0.6.2-alpha.jar";
+            "hash" = "sha512-wL8AOMegLXJFX/UKzc4uPKCL0UGLEaKG/e3Zl6TAH8AFelOhVJ0N/ecfP16++Bzc9E8DeD3hJ/zMoUFt3xl9+g==";
+        };
     in {
         "6XmnBTf5" = _6XmnBTf5;
         "nMsRYhm7" = _nMsRYhm7;
@@ -38,15 +43,18 @@ let
         "PyQ8zTOt" = _PyQ8zTOt;
         "KpzoxBcJ" = _KpzoxBcJ;
         "dMfuhzyQ" = _dMfuhzyQ;
+        "SGrbLXss" = _SGrbLXss;
         "fabric-26.1.2" = _dMfuhzyQ;
         "fabric-26.2" = _dMfuhzyQ;
+        "fabric-26.3" = _SGrbLXss;
         "pkg-0.1.0-alpha" = _6XmnBTf5;
         "pkg-0.2.0-alpha" = _nMsRYhm7;
         "pkg-0.3.0-alpha" = _RspR4N6H;
         "pkg-0.4.0-alpha" = _PyQ8zTOt;
         "pkg-0.5.0-alpha" = _KpzoxBcJ;
         "pkg-0.5.1-alpha" = _dMfuhzyQ;
-        "default" = _dMfuhzyQ;
+        "pkg-0.6.2-alpha" = _SGrbLXss;
+        "default" = _SGrbLXss;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "palettinator";

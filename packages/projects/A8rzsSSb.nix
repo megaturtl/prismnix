@@ -1256,6 +1256,11 @@ let
             "file" = "Mini-boss Boss Bars 1.21.1 1.0.37.jar";
             "hash" = "sha512-3+2nDFC/Iq+b2fitu/Fk9XyCQPlllQea6ke/QSJDoHQUPm/bXZ25riA+Ar+eOM8m6hyTvtwbe43mmnVaR0O4nw==";
         };
+        _R4oCCWSR = {
+            "id" = "R4oCCWSR";
+            "file" = "Mini-boss Boss Bars 1.20.1 1.0.180.jar";
+            "hash" = "sha512-iEfaccOGFOcZuFvxD51K/ItpqykPOZi0xGAZVy8iNp2pFT23LJDGWeyOJ5V/6bnkKZWTAQ2S2Nlp/LHObEls7A==";
+        };
     in {
         "r3AnSt4Q" = _r3AnSt4Q;
         "ErXtzrSI" = _ErXtzrSI;
@@ -1508,10 +1513,11 @@ let
         "UhWdVX5I" = _UhWdVX5I;
         "iX83H8Om" = _iX83H8Om;
         "lbj1cuOl" = _lbj1cuOl;
-        "forge-1.20.1" = _UhWdVX5I;
+        "R4oCCWSR" = _R4oCCWSR;
+        "forge-1.20.1" = _R4oCCWSR;
         "forge-1.21" = _lbj1cuOl;
         "forge-1.21.1" = _lbj1cuOl;
-        "neoforge-1.20.1" = _UhWdVX5I;
+        "neoforge-1.20.1" = _R4oCCWSR;
         "neoforge-1.21" = _lbj1cuOl;
         "neoforge-1.21.1" = _lbj1cuOl;
         "datapack-1.21" = _iX83H8Om;
@@ -1695,7 +1701,8 @@ let
         "pkg-1.0.177" = _GONL8osT;
         "pkg-1.0.178" = _DrFIX5nk;
         "pkg-1.0.179" = _UhWdVX5I;
-        "default" = _lbj1cuOl;
+        "pkg-1.0.180" = _R4oCCWSR;
+        "default" = _R4oCCWSR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mini-boss-boss-bars";

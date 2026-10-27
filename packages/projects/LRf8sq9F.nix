@@ -26,19 +26,26 @@ let
             "file" = "opkontor-fabric-0.4.2+mc1.21.11.jar";
             "hash" = "sha512-5tjsy9x5ECrooKwLmP37F80KMcAaIjC6xyUBnTeXfPHb6fvHjWp9WCryJuXn55ZPdM9YGHbMVKPqdX/rLFTpBg==";
         };
+        _PQNoRbVC = {
+            "id" = "PQNoRbVC";
+            "file" = "opkontor-fabric-0.4.3+mc1.21.11.jar";
+            "hash" = "sha512-oMn2Bd7yjsYf9Y3kqPqpojvQ9rZZbGJy6dOsKpyeMg+c1CmmgsAsgx/0Z7YaDSiWFULd+sIGOJIlQr2+U3vQhQ==";
+        };
     in {
         "H5Hy9Muj" = _H5Hy9Muj;
         "qB7XoTWX" = _qB7XoTWX;
         "J46tGppj" = _J46tGppj;
         "yAQvizQC" = _yAQvizQC;
         "STPuX1Rm" = _STPuX1Rm;
-        "fabric-1.21.11" = _STPuX1Rm;
+        "PQNoRbVC" = _PQNoRbVC;
+        "fabric-1.21.11" = _PQNoRbVC;
         "pkg-0.2.19" = _H5Hy9Muj;
         "pkg-0.3.0" = _qB7XoTWX;
         "pkg-0.4.0" = _J46tGppj;
         "pkg-0.4.1" = _yAQvizQC;
         "pkg-0.4.2" = _STPuX1Rm;
-        "default" = _STPuX1Rm;
+        "pkg-0.4.3" = _PQNoRbVC;
+        "default" = _PQNoRbVC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "opkontor";

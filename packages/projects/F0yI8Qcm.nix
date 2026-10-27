@@ -151,6 +151,11 @@ let
             "file" = "obsidianequipmentrework-fabric-1.0+mc1.21.11.jar";
             "hash" = "sha512-ApHLNw8ICrKTnP8u1IAGpo/MNn5q5t4vdaDJlFTVdi+2JWMnyfDEnye6AC/uxZfQEBq1zIYmiXEl1cZ+0uoeNQ==";
         };
+        _tjVqu8Wm = {
+            "id" = "tjVqu8Wm";
+            "file" = "obsidianequipmentrework-fabric-1.1+mc1.20.1.jar";
+            "hash" = "sha512-Ze7CrdS5YTAPJtKUoj2U7wuqPUq2RUtBp0czFfS6/qBIZtcoB5FVWhQjFEi0RBk5nwAQ86cV1xL3qj7EaYTaRQ==";
+        };
     in {
         "4HYQoIde" = _4HYQoIde;
         "F2LBGoec" = _F2LBGoec;
@@ -182,7 +187,8 @@ let
         "Kjc98sY2" = _Kjc98sY2;
         "hSfWX5QI" = _hSfWX5QI;
         "QX3rWKf5" = _QX3rWKf5;
-        "fabric-1.20.1" = _sHrvAT6v;
+        "tjVqu8Wm" = _tjVqu8Wm;
+        "fabric-1.20.1" = _tjVqu8Wm;
         "fabric-1.21" = _BPUSQG0F;
         "fabric-1.21.1" = _BPUSQG0F;
         "fabric-1.21.2" = _G5sQNfYf;
@@ -220,7 +226,8 @@ let
         "pkg-1.0+fabric-1.21.4" = _Kjc98sY2;
         "pkg-1.0+fabric-1.21.10" = _hSfWX5QI;
         "pkg-1.0+fabric-1.21.11" = _QX3rWKf5;
-        "default" = _QX3rWKf5;
+        "pkg-1.1+fabric-1.20.1" = _tjVqu8Wm;
+        "default" = _tjVqu8Wm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "obsidian-equipment-reworked";

@@ -66,6 +66,11 @@ let
             "file" = "AliveAndWell-3.0.11+mc26.3-fabric-public.jar";
             "hash" = "sha512-KCGXuLDepsbYovkpaVgcaqsBJPMM0loXMX7eX8GoZauKoSUP3IlY5RBwh3y3I36qVfkV7/7KTeO231I2HFFL/g==";
         };
+        _QANhprGU = {
+            "id" = "QANhprGU";
+            "file" = "AliveAndWell-3.0.12+mc26.3-fabric-public.jar";
+            "hash" = "sha512-uZlLBGH77X7tHKYN9rBTEvbFFyOYxNWtmBPfAek87T9PhI3ZEXmpV8z/Akkbdciahb+34GMAyYwlORae5123wA==";
+        };
     in {
         "6XBKxqJ3" = _6XBKxqJ3;
         "ypsADd6E" = _ypsADd6E;
@@ -80,8 +85,9 @@ let
         "BOeRmzwg" = _BOeRmzwg;
         "vffUfzxV" = _vffUfzxV;
         "gbmIyKrL" = _gbmIyKrL;
+        "QANhprGU" = _QANhprGU;
         "fabric-1.19.2" = _ypsADd6E;
-        "fabric-26.3" = _gbmIyKrL;
+        "fabric-26.3" = _QANhprGU;
         "neoforge-26.3" = _Nlw2X7iJ;
         "pkg-2.5.18-modrinth" = _6XBKxqJ3;
         "pkg-2.5.18-dev" = _ypsADd6E;
@@ -96,7 +102,8 @@ let
         "pkg-3.0.9+mc26.3-fabric-public" = _BOeRmzwg;
         "pkg-3.0.10+mc26.3-fabric-public" = _vffUfzxV;
         "pkg-3.0.11+mc26.3-fabric-public" = _gbmIyKrL;
-        "default" = _gbmIyKrL;
+        "pkg-3.0.12+mc26.3-fabric-public" = _QANhprGU;
+        "default" = _QANhprGU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "alive-well";

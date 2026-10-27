@@ -36,6 +36,11 @@ let
             "file" = "cavesnotcliffs-2.0.4.jar";
             "hash" = "sha512-7LJVMnBKiT2wGYQ3YpU5+VRG+BY6J3UKntTltmZw3dI52O3qH42yPKnL/9t31VH205Eb4CNJg1LQ7oFTnHUt9g==";
         };
+        _E6nIvhGj = {
+            "id" = "E6nIvhGj";
+            "file" = "cavesnotcliffs-2.0.5.jar";
+            "hash" = "sha512-OqbLLaCPKelxEgBumGF/uqaTP6xFpkwgZDrUZyMmNPZS3L9Q5oc0kvK/UKsGuYYdH1blOffmSerrILbS/TodZg==";
+        };
     in {
         "NGRM6ypB" = _NGRM6ypB;
         "RJCe77u0" = _RJCe77u0;
@@ -44,7 +49,8 @@ let
         "WCynzKwO" = _WCynzKwO;
         "QeKF1cNG" = _QeKF1cNG;
         "8XyrKR8M" = _8XyrKR8M;
-        "forge-1.12.2" = _8XyrKR8M;
+        "E6nIvhGj" = _E6nIvhGj;
+        "forge-1.12.2" = _E6nIvhGj;
         "pkg-0.0.1" = _NGRM6ypB;
         "pkg-1.5.0" = _RJCe77u0;
         "pkg-2.0.0" = _WnCJkruP;
@@ -52,7 +58,8 @@ let
         "pkg-2.0.2" = _WCynzKwO;
         "pkg-2.0.3" = _QeKF1cNG;
         "pkg-2.0.4" = _8XyrKR8M;
-        "default" = _8XyrKR8M;
+        "pkg-2.0.5" = _E6nIvhGj;
+        "default" = _E6nIvhGj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "caves-not-cliffs-backported";

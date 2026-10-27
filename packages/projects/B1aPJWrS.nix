@@ -46,6 +46,11 @@ let
             "file" = "wynncraft-translator-2.6.5.jar";
             "hash" = "sha512-xZPNN6LVQW6m6TKE4CVKw53ZY9y4CaxJov4PR0P+eKe9+9Wh3r3rjdUuf8UHF2KsOKCMj/3/YBqxTAeu5j4F4Q==";
         };
+        _6jJnUTal = {
+            "id" = "6jJnUTal";
+            "file" = "wynncraft-translator-2.6.6.jar";
+            "hash" = "sha512-A5OJjjwgHOJDvlTf617xfSQqXxioHwzIxxP91B5+V1IFc9iGPkopd3up3XqAFGN4oWftkzBHiRcS0azm/m8Png==";
+        };
     in {
         "oWCH2Qp3" = _oWCH2Qp3;
         "wZNsFnl7" = _wZNsFnl7;
@@ -56,7 +61,8 @@ let
         "TbxlMdIW" = _TbxlMdIW;
         "pg6HJOil" = _pg6HJOil;
         "pEMJTrLt" = _pEMJTrLt;
-        "fabric-1.21.11" = _pEMJTrLt;
+        "6jJnUTal" = _6jJnUTal;
+        "fabric-1.21.11" = _6jJnUTal;
         "pkg-2.4.0" = _oWCH2Qp3;
         "pkg-2.4.1" = _wZNsFnl7;
         "pkg-2.4.2" = _Vbwr90JG;
@@ -66,7 +72,8 @@ let
         "pkg-2.6.3" = _TbxlMdIW;
         "pkg-2.6.4" = _pg6HJOil;
         "pkg-2.6.5" = _pEMJTrLt;
-        "default" = _pEMJTrLt;
+        "pkg-2.6.6" = _6jJnUTal;
+        "default" = _6jJnUTal;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wynntranslaterussia";
