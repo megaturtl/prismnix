@@ -61,6 +61,11 @@ let
             "file" = "Better_Vanilla+MC 1.21.zip";
             "hash" = "sha512-kxxlXDx51b7Up368cQXPXBZ+2NZl4pozQUOInI3FzeD9he+gHPNAPbQ/u8a90lL/CWTS8yrNa1mj4zghIkN6RA==";
         };
+        _1xTkCEuz = {
+            "id" = "1xTkCEuz";
+            "file" = "Better_Vanilla+MC 1.21.zip";
+            "hash" = "sha512-i11n4sL9ySjVXP+HZFXJ1qZljBMOVzPkQTIFJK6jSE20ZYxstSkon13Dx23GGM+dUPauw//PYB+WwmhwUaIogw==";
+        };
     in {
         "pUanzqaJ" = _pUanzqaJ;
         "9Fk3oAgO" = _9Fk3oAgO;
@@ -74,18 +79,19 @@ let
         "v5huyKSo" = _v5huyKSo;
         "yWIG6x7K" = _yWIG6x7K;
         "FUUbd84N" = _FUUbd84N;
-        "minecraft-1.21" = _FUUbd84N;
-        "minecraft-1.21.1" = _FUUbd84N;
-        "minecraft-1.21.2" = _FUUbd84N;
-        "minecraft-1.21.3" = _FUUbd84N;
-        "minecraft-1.21.4" = _FUUbd84N;
-        "minecraft-1.21.5" = _FUUbd84N;
-        "minecraft-1.21.6" = _FUUbd84N;
-        "minecraft-1.21.7" = _FUUbd84N;
-        "minecraft-1.21.8" = _FUUbd84N;
-        "minecraft-1.21.9" = _FUUbd84N;
-        "minecraft-1.21.10" = _FUUbd84N;
-        "minecraft-1.21.11" = _FUUbd84N;
+        "1xTkCEuz" = _1xTkCEuz;
+        "minecraft-1.21" = _1xTkCEuz;
+        "minecraft-1.21.1" = _1xTkCEuz;
+        "minecraft-1.21.2" = _1xTkCEuz;
+        "minecraft-1.21.3" = _1xTkCEuz;
+        "minecraft-1.21.4" = _1xTkCEuz;
+        "minecraft-1.21.5" = _1xTkCEuz;
+        "minecraft-1.21.6" = _1xTkCEuz;
+        "minecraft-1.21.7" = _1xTkCEuz;
+        "minecraft-1.21.8" = _1xTkCEuz;
+        "minecraft-1.21.9" = _1xTkCEuz;
+        "minecraft-1.21.10" = _1xTkCEuz;
+        "minecraft-1.21.11" = _1xTkCEuz;
         "minecraft-23w31a" = _FUUbd84N;
         "minecraft-23w32a" = _FUUbd84N;
         "minecraft-23w33a" = _FUUbd84N;
@@ -131,11 +137,11 @@ let
         "minecraft-24w44a" = _FUUbd84N;
         "minecraft-24w45a" = _FUUbd84N;
         "minecraft-24w46a" = _FUUbd84N;
-        "minecraft-26.1" = _FUUbd84N;
-        "minecraft-26.1.1" = _FUUbd84N;
-        "minecraft-26.1.2" = _FUUbd84N;
-        "minecraft-26.2" = _FUUbd84N;
-        "minecraft-26.3" = _FUUbd84N;
+        "minecraft-26.1" = _1xTkCEuz;
+        "minecraft-26.1.1" = _1xTkCEuz;
+        "minecraft-26.1.2" = _1xTkCEuz;
+        "minecraft-26.2" = _1xTkCEuz;
+        "minecraft-26.3" = _1xTkCEuz;
         "pkg-1.0.0" = _pUanzqaJ;
         "pkg-1.1.0" = _9Fk3oAgO;
         "pkg-1.2.0" = _8mdZBzIo;
@@ -147,7 +153,8 @@ let
         "pkg-1.8.0" = _4JzU8P35;
         "pkg-1.9.0" = _v5huyKSo;
         "pkg-1.10.0" = _FUUbd84N;
-        "default" = _FUUbd84N;
+        "pkg-1.11.0" = _1xTkCEuz;
+        "default" = _1xTkCEuz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better_vanilla-mc";

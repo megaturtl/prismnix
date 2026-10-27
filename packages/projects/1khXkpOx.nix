@@ -236,6 +236,11 @@ let
             "file" = "onelayer-0.7.3.jar";
             "hash" = "sha512-Eh4dVNpTPcTz3P+x3fEMaqJ7O5EUZLlZAgPa3h3k0PF6ZwX2UUfsMCCGWcCSdwe5QmB1Xol6LYZTcaYPp1XrQw==";
         };
+        _MLBLorCV = {
+            "id" = "MLBLorCV";
+            "file" = "onelayer-0.7.4.jar";
+            "hash" = "sha512-vIL3F2em6vePaiylusDCMMdgWnuvJbJuSl63C1VG8vbDL+EmxVpDlJzJ6PoWW4oX9znex1TpSAFhQkSwLH381A==";
+        };
     in {
         "p0Hy3CyX" = _p0Hy3CyX;
         "HWahTG44" = _HWahTG44;
@@ -284,6 +289,7 @@ let
         "DzOUYHA6" = _DzOUYHA6;
         "XUpJTLVl" = _XUpJTLVl;
         "A9cDVwGR" = _A9cDVwGR;
+        "MLBLorCV" = _MLBLorCV;
         "neoforge-1.21.1" = _XUpJTLVl;
         "neoforge-1.21.11" = _bleAoWUj;
         "neoforge-1.21" = _XUpJTLVl;
@@ -291,7 +297,7 @@ let
         "neoforge-26.1.1" = _Rt9o1RYm;
         "neoforge-26.1.2" = _JBhQpvRG;
         "neoforge-26.2" = _S6S1GW88;
-        "neoforge-26.3" = _A9cDVwGR;
+        "neoforge-26.3" = _MLBLorCV;
         "forge-1.20.1" = _DzOUYHA6;
         "forge-1.20" = _DzOUYHA6;
         "pkg-0.3.0" = _HWahTG44;
@@ -312,7 +318,8 @@ let
         "pkg-0.7.1" = _nFiwUCQQ;
         "pkg-0.6.1" = _XUpJTLVl;
         "pkg-0.7.3" = _A9cDVwGR;
-        "default" = _A9cDVwGR;
+        "pkg-0.7.4" = _MLBLorCV;
+        "default" = _MLBLorCV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "onelayer";

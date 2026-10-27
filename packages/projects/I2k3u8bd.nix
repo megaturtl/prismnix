@@ -46,6 +46,26 @@ let
             "file" = "deep_dark_trader-1.0.2-neoforge-26.1.2.jar";
             "hash" = "sha512-DOKZ/hpKQZVWLOc8OgxCr3woU3BFxQEzGNR++ohYsd93OG2PhZP/YGI1qGGnjxnLB817CTsE1JoJo9tco6dTqA==";
         };
+        _CTM2s4SP = {
+            "id" = "CTM2s4SP";
+            "file" = "deep_dark_trader-1.0.2-neoforge-26.3.jar";
+            "hash" = "sha512-sNw0/gR7uJplqWmB2RT6wI15k99WeWrt9PIZrg3CFeGaEOFEseYaZp7VodElI30Lh6/8e2U7cr7/L1n2lNhIeg==";
+        };
+        _jPhgZ2Oo = {
+            "id" = "jPhgZ2Oo";
+            "file" = "deep_dark_trader-1.0.0 Fabric 1.20.1.jar";
+            "hash" = "sha512-12mOUu1ihV/04liPByYiufELmqmC29e05CpYoZzJpTC+7YE3gR8SdMNAPiUMhyGYzHoLVNeEUAmXqzfkqplBNQ==";
+        };
+        _Tw8dBTfs = {
+            "id" = "Tw8dBTfs";
+            "file" = "deep_dark_trader-1.0.0 Fabric 1.21.1.jar";
+            "hash" = "sha512-ear3ExbUcayJlm3msubxFfEyZEMTMGcOHFLThy27e/nNV51gmkFtI9IkMePISygnwfjmoEEd/6eaGr9138BshA==";
+        };
+        _DzbyoIdp = {
+            "id" = "DzbyoIdp";
+            "file" = "deep_dark_trader-1.0.0 Fabric 26.3.jar";
+            "hash" = "sha512-D3GaRv0Mbm14zR4J1vJgPQdjzZOxxJ+qIYqlpxFNI55PoSOwPZxM8mR4vHdr1WIJiUwYQQs7I5xKZwgeAQnLxg==";
+        };
     in {
         "UXIDS34T" = _UXIDS34T;
         "yELG3DPl" = _yELG3DPl;
@@ -56,14 +76,22 @@ let
         "rgQPG0Fv" = _rgQPG0Fv;
         "mMlWkEjS" = _mMlWkEjS;
         "ihNeMlhK" = _ihNeMlhK;
+        "CTM2s4SP" = _CTM2s4SP;
+        "jPhgZ2Oo" = _jPhgZ2Oo;
+        "Tw8dBTfs" = _Tw8dBTfs;
+        "DzbyoIdp" = _DzbyoIdp;
         "forge-1.20.1" = _TUHJBWpf;
         "neoforge-1.21.1" = _9GYBFNGh;
         "neoforge-1.21.4" = _rgQPG0Fv;
         "neoforge-1.21.8" = _mMlWkEjS;
         "neoforge-26.1.2" = _ihNeMlhK;
+        "neoforge-26.3" = _CTM2s4SP;
+        "fabric-1.20.1" = _jPhgZ2Oo;
+        "fabric-1.21.1" = _Tw8dBTfs;
+        "fabric-26.3" = _DzbyoIdp;
         "pkg-1.0.1" = _eZfEyox2;
-        "pkg-1.0.2" = _ihNeMlhK;
-        "default" = _ihNeMlhK;
+        "pkg-1.0.2" = _DzbyoIdp;
+        "default" = _DzbyoIdp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "deep-dark-trader";

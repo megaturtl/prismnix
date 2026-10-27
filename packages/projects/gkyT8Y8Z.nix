@@ -146,6 +146,61 @@ let
             "file" = "physicsswapping-neoforge-1.2.0+26.3.jar";
             "hash" = "sha512-FKIf7NOskLlNLfiaG/85VgR9prRuezMsWqSVX0scvGtYe3xqpLk+utTFDTSnaRHVR52q3mktHP7w4PytBWyKmQ==";
         };
+        _qaA1TTtc = {
+            "id" = "qaA1TTtc";
+            "file" = "physicsswapping-neoforge-1.3.0+26.3.jar";
+            "hash" = "sha512-7CKn8C3PNqT6Td9BDa6kw6esCK5zp3rrCOsJ8eKXoDrRp4vAdTJPdSfEi6qFNslEMSa2O07h4JU9X9Etbe0WPw==";
+        };
+        _NbcF8XKX = {
+            "id" = "NbcF8XKX";
+            "file" = "physicsswapping-fabric-1.3.0+26.3.jar";
+            "hash" = "sha512-hsV5jV7Ik6P2nOpJpxQ4Y4dMFtuXCPDmqQ+3twSBUn6ueDJiI4oVXvoxHLMooqWiHqxSToieFbMFkhaHr/QkLQ==";
+        };
+        _RcmbGd06 = {
+            "id" = "RcmbGd06";
+            "file" = "physicsswapping-neoforge-1.3.0+26.2.jar";
+            "hash" = "sha512-vk/ZFfeOL/WpQPUZ9Q+JBUErU9UUOnY3IbkKaLiNiAU5mHH6u4X8KUiB+WdMhrbL7//Vf0J4ghfk11SUHWRJvg==";
+        };
+        _fzvrSH3n = {
+            "id" = "fzvrSH3n";
+            "file" = "physicsswapping-fabric-1.3.0+26.2.jar";
+            "hash" = "sha512-e/bTGHA5jJRbnDfrJa4pLSAt7910s4R52zMiwcfZXVFm85ol1ch452qXpKePi+vXaLydeRelTrCt+S/knR1c7w==";
+        };
+        _q4wgDdqk = {
+            "id" = "q4wgDdqk";
+            "file" = "physicsswapping-neoforge-1.3.0+26.1.jar";
+            "hash" = "sha512-Pwrm7N4LoaCIeUDT5vGMSmI6/XEpLksfur331O9wxEk4kcmRnGKoAfsXr6PZe730+Wn5hHj1m46S7zQ75YVoVA==";
+        };
+        _ms2AKeDu = {
+            "id" = "ms2AKeDu";
+            "file" = "physicsswapping-fabric-1.3.0+26.1.jar";
+            "hash" = "sha512-aw8sMLX+WQkqbgnFXq9yvxKyqZhTS3k9FKt+NvbzlWUCCMVEEcyGPMyECDXEy5yPzipJgXWsgDjyW7+4xjVbXA==";
+        };
+        _OcJ1ZLZm = {
+            "id" = "OcJ1ZLZm";
+            "file" = "physicsswapping-neoforge-1.3.0+1.21.11.jar";
+            "hash" = "sha512-0tCc5nUyrExvnpnBFNrT/ZgjqNlVwwg1GBYj82+KiS07q1yLIEEQtLGJ5yuofhlmPNlODFAII26NK8jmqvEvhw==";
+        };
+        _lnWbj3xR = {
+            "id" = "lnWbj3xR";
+            "file" = "physicsswapping-fabric-1.3.0+1.21.11.jar";
+            "hash" = "sha512-ydhg9bgMZsrXDdmk2UyRwy6jnBvDzNfp1duqSGSAkTccYABCKYKGpeFOXEMyPBwiMlEG9ma1clTD+wT1PgoBOg==";
+        };
+        _ahimkgoT = {
+            "id" = "ahimkgoT";
+            "file" = "physicsswapping-neoforge-1.3.0+1.21.1.jar";
+            "hash" = "sha512-p9O3MzY5ZTP/mrBLvuF/hfRY0l/+creOyh7A1XbiFnZg9wypqiMZOuIrgrDh2SzC4hPQEEpgm94c3whuzGGD/g==";
+        };
+        _ywdSbnXd = {
+            "id" = "ywdSbnXd";
+            "file" = "physicsswapping-fabric-1.3.0+1.21.1.jar";
+            "hash" = "sha512-BbjoV/QnMQoG4faeWWNjyI/NvznVGxZVHLzK4C7kvVeahAWggi9AANCgnqewTSzL3pGT0Aj32Rv1AVFEEptGew==";
+        };
+        _3qGGmCFs = {
+            "id" = "3qGGmCFs";
+            "file" = "physicsswapping-fabric-1.3.0+1.20.1.jar";
+            "hash" = "sha512-3kwd0AjP13ZAc5OwWINyG3RRynALbhaXU/2F+I4P0+KFQGGsnB1Eh8BiA5GXmGoK2H5W0gtwX5GeWqvKsLt9LA==";
+        };
     in {
         "LwfUxv67" = _LwfUxv67;
         "fQtT9hOw" = _fQtT9hOw;
@@ -176,29 +231,41 @@ let
         "qb0Jayfu" = _qb0Jayfu;
         "MzpUkMuR" = _MzpUkMuR;
         "ilzNC5f1" = _ilzNC5f1;
+        "qaA1TTtc" = _qaA1TTtc;
+        "NbcF8XKX" = _NbcF8XKX;
+        "RcmbGd06" = _RcmbGd06;
+        "fzvrSH3n" = _fzvrSH3n;
+        "q4wgDdqk" = _q4wgDdqk;
+        "ms2AKeDu" = _ms2AKeDu;
+        "OcJ1ZLZm" = _OcJ1ZLZm;
+        "lnWbj3xR" = _lnWbj3xR;
+        "ahimkgoT" = _ahimkgoT;
+        "ywdSbnXd" = _ywdSbnXd;
+        "3qGGmCFs" = _3qGGmCFs;
         "fabric-1.20" = _6LoIYk7V;
-        "fabric-1.20.1" = _MBd6Ol2y;
-        "fabric-1.21.1" = _MQlLd3KW;
-        "fabric-1.21.11" = _2Dpd7hUh;
-        "fabric-26.1" = _r8L7orFQ;
-        "fabric-26.1.1" = _r8L7orFQ;
-        "fabric-26.1.2" = _r8L7orFQ;
-        "fabric-26.2" = _glRHu5xH;
+        "fabric-1.20.1" = _3qGGmCFs;
+        "fabric-1.21.1" = _ywdSbnXd;
+        "fabric-1.21.11" = _lnWbj3xR;
+        "fabric-26.1" = _ms2AKeDu;
+        "fabric-26.1.1" = _ms2AKeDu;
+        "fabric-26.1.2" = _ms2AKeDu;
+        "fabric-26.2" = _fzvrSH3n;
         "fabric-1.21" = _iQDgGJfw;
-        "fabric-26.3" = _MzpUkMuR;
-        "neoforge-1.21.1" = _gzQrOKV2;
-        "neoforge-1.21.11" = _H6hxhk6A;
-        "neoforge-26.1" = _GqrohXDs;
-        "neoforge-26.1.1" = _GqrohXDs;
-        "neoforge-26.1.2" = _GqrohXDs;
-        "neoforge-26.2" = _qb0Jayfu;
-        "neoforge-26.3" = _ilzNC5f1;
+        "fabric-26.3" = _NbcF8XKX;
+        "neoforge-1.21.1" = _ahimkgoT;
+        "neoforge-1.21.11" = _OcJ1ZLZm;
+        "neoforge-26.1" = _q4wgDdqk;
+        "neoforge-26.1.1" = _q4wgDdqk;
+        "neoforge-26.1.2" = _q4wgDdqk;
+        "neoforge-26.2" = _RcmbGd06;
+        "neoforge-26.3" = _qaA1TTtc;
         "pkg-1.0.0" = _K9ivYTVK;
         "pkg-1.0.1" = _x6wUHhsu;
         "pkg-1.0.2" = _WPIuP4M5;
         "pkg-1.1.0" = _SZ5IEO1i;
         "pkg-1.2.0" = _ilzNC5f1;
-        "default" = _ilzNC5f1;
+        "pkg-1.3.0" = _3qGGmCFs;
+        "default" = _3qGGmCFs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "physics-swapping";

@@ -76,6 +76,11 @@ let
             "file" = "arrzenhanced-3.0.2.jar";
             "hash" = "sha512-cJFOfMMPwDCgqe40egeGZtfxgBpPBnrS1V3YDvlXqzznqrryB1GPQbFxUb29UpWQIILFI8Dfsibo3aX9JqifnQ==";
         };
+        _lNpuXSiF = {
+            "id" = "lNpuXSiF";
+            "file" = "arrzenhanced-3.0.3.jar";
+            "hash" = "sha512-/YJO1NoDww4qMaL5ranWaZ3SIVjrenFAv7LSD8se1KbEgn3C4NWuyIHoIao8i4EWNNJWeMNVsxSp7e3RrT4fZw==";
+        };
     in {
         "KKtz16ii" = _KKtz16ii;
         "jtfvuP6Q" = _jtfvuP6Q;
@@ -92,7 +97,8 @@ let
         "uv75vFYL" = _uv75vFYL;
         "xgDIvlhZ" = _xgDIvlhZ;
         "tzDicLLy" = _tzDicLLy;
-        "forge-1.20.1" = _tzDicLLy;
+        "lNpuXSiF" = _lNpuXSiF;
+        "forge-1.20.1" = _lNpuXSiF;
         "pkg-1.0.0" = _KKtz16ii;
         "pkg-1.0.1" = _jtfvuP6Q;
         "pkg-1.0.2" = _IpPV2zLt;
@@ -108,7 +114,8 @@ let
         "pkg-3.0.0" = _uv75vFYL;
         "pkg-3.0.1" = _xgDIvlhZ;
         "pkg-3.0.2" = _tzDicLLy;
-        "default" = _tzDicLLy;
+        "pkg-3.0.3" = _lNpuXSiF;
+        "default" = _lNpuXSiF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "arrzees-multiverse";

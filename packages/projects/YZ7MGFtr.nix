@@ -76,6 +76,21 @@ let
             "file" = "zachsliminal-1.5.0 256x-fabric-1.21.11.jar";
             "hash" = "sha512-g1wpAKvVLNP/QGX1WrtsBdDIgPCTaje8uZ+8NlUKxBy25WLsJR9dkYwglO1iVlf25rBaitpGN0kraEJW4lkvAA==";
         };
+        _bKWCJLyv = {
+            "id" = "bKWCJLyv";
+            "file" = "zachsliminal-1.5.8-fabric-1.21.11.jar";
+            "hash" = "sha512-QLgkMOZkYg0DHG7pWr2ezon/js4Xs9rn8ZtvrjS8zeTApshtJ0vK/zSpmfCI8UVrlRF6uIcfDN8i3SQCbm0gmg==";
+        };
+        _THa7xmYS = {
+            "id" = "THa7xmYS";
+            "file" = "zachsliminal-1.5.8-fabric-1.21.11.jar";
+            "hash" = "sha512-KA1Iat6MAqvPVBx0mGf980waDmbLmNLLw6gSCPU5vgTRxQF5/oQc/VZG8WjKKXX2XvwcyvBPJyr3/tE6eArTWg==";
+        };
+        _GELJ2u9I = {
+            "id" = "GELJ2u9I";
+            "file" = "zachsliminal-1.5.8-fabric-1.21.11.jar";
+            "hash" = "sha512-95rJaIQYl/ksgAmqSJolLjR6+vz8wil99s5cAh2j1xGyzqSwjP0Y1/ZEv7Xopo5JAFZzCIZWBYSauelJHEYRLw==";
+        };
     in {
         "9ILBZ1Fb" = _9ILBZ1Fb;
         "oX1vtA2B" = _oX1vtA2B;
@@ -92,8 +107,11 @@ let
         "U165VYH6" = _U165VYH6;
         "cDl91O0G" = _cDl91O0G;
         "sSyp1bwQ" = _sSyp1bwQ;
+        "bKWCJLyv" = _bKWCJLyv;
+        "THa7xmYS" = _THa7xmYS;
+        "GELJ2u9I" = _GELJ2u9I;
         "fabric-1.21.8" = _HrvNVy54;
-        "fabric-1.21.11" = _sSyp1bwQ;
+        "fabric-1.21.11" = _GELJ2u9I;
         "forge-1.20.1" = _FPmo8ep3;
         "pkg-1.0.1" = _wc2l27nC;
         "pkg-1.0.0" = _AxFdE2AV;
@@ -105,7 +123,10 @@ let
         "pkg-1.3.5.1" = _U165VYH6;
         "pkg-1.5.0" = _cDl91O0G;
         "pkg-256x1.5.0" = _sSyp1bwQ;
-        "default" = _sSyp1bwQ;
+        "pkg-512x1.5.8" = _bKWCJLyv;
+        "pkg-256x1.5.8" = _THa7xmYS;
+        "pkg-128x1.5.8" = _GELJ2u9I;
+        "default" = _GELJ2u9I;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zachs-liminalbackrooms-blocks";

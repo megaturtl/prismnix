@@ -261,6 +261,11 @@ let
             "file" = "historystages-6.1.0-1.21.1.jar";
             "hash" = "sha512-grWSciaiU5Xtut521cbjKokGbN4sAJo+5MDSuFgX6BjBmKrKAf2EADxiVoZZQHlYo7U9WyBBhbI7Pm0Qw5p4qQ==";
         };
+        _YrOTBLUX = {
+            "id" = "YrOTBLUX";
+            "file" = "historystages-6.1.0-1.20.1.jar";
+            "hash" = "sha512-BE3rG8EZ8ZtejESX7gIMcsyGnJkIfzhsMxLVpeRMnnxHRVDRnaiCaVuUdS8lxCOL6OqnGnqv3JEVbRQzOlK3VQ==";
+        };
     in {
         "KJUY6XS1" = _KJUY6XS1;
         "TKGeCaRA" = _TKGeCaRA;
@@ -314,8 +319,9 @@ let
         "EZhMNmq2" = _EZhMNmq2;
         "DlDpx34R" = _DlDpx34R;
         "Ri4PrQrR" = _Ri4PrQrR;
-        "forge-1.20.1" = _DlDpx34R;
-        "forge-1.20" = _DlDpx34R;
+        "YrOTBLUX" = _YrOTBLUX;
+        "forge-1.20.1" = _YrOTBLUX;
+        "forge-1.20" = _YrOTBLUX;
         "forge-1.19" = _9kb7LdGj;
         "forge-1.19.1" = _9kb7LdGj;
         "forge-1.19.2" = _9kb7LdGj;
@@ -375,7 +381,8 @@ let
         "pkg-6.0.2-1.21.1" = _EZhMNmq2;
         "pkg-6.0.2-1.20.1" = _DlDpx34R;
         "pkg-6.1.0-1.21.1" = _Ri4PrQrR;
-        "default" = _Ri4PrQrR;
+        "pkg-6.1.0-1.20.1" = _YrOTBLUX;
+        "default" = _YrOTBLUX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "history-stages";

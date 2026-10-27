@@ -71,6 +71,11 @@ let
             "file" = "snowballkb-1.6-26.2.jar";
             "hash" = "sha512-y8erXWwetkCD2ianC4rNI467z+3wwyAF7U1zHEvDaeGqw770JU0KGOqQQwG3nE/fGxuw2YX/eEUMjazraaJGwg==";
         };
+        _KtybIJDW = {
+            "id" = "KtybIJDW";
+            "file" = "snowballkb-1.6-26.3.jar";
+            "hash" = "sha512-ItTnEn2Zc1ELYSVxAmtGJQX5p9ydcu7JF1hkJt4xQqG/sFUPYo3zZ3vmhHr15wvJKYld7VLsVqaKh7ZaT237Jg==";
+        };
     in {
         "ZVXYDgSw" = _ZVXYDgSw;
         "6McwrBlN" = _6McwrBlN;
@@ -86,6 +91,7 @@ let
         "1TVfha5A" = _1TVfha5A;
         "aOyAkQRa" = _aOyAkQRa;
         "PqRAnkpo" = _PqRAnkpo;
+        "KtybIJDW" = _KtybIJDW;
         "fabric-1.17" = _ZVXYDgSw;
         "fabric-1.17.1" = _ZVXYDgSw;
         "fabric-1.18.1" = _6McwrBlN;
@@ -111,6 +117,7 @@ let
         "fabric-1.21.11" = _1TVfha5A;
         "fabric-26.1.2" = _aOyAkQRa;
         "fabric-26.2" = _PqRAnkpo;
+        "fabric-26.3" = _KtybIJDW;
         "quilt-1.19" = _oaoQQkfL;
         "quilt-1.21.5" = _10dC3Vmw;
         "quilt-1.21.6" = _10dC3Vmw;
@@ -130,7 +137,8 @@ let
         "pkg-1.5.1-1.21.11" = _1TVfha5A;
         "pkg-1.6-26.1.2" = _aOyAkQRa;
         "pkg-1.6-26.2" = _PqRAnkpo;
-        "default" = _PqRAnkpo;
+        "pkg-1.6-26.3" = _KtybIJDW;
+        "default" = _KtybIJDW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "snowball-and-egg-knockback";

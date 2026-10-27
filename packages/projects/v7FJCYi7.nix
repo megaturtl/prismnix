@@ -246,6 +246,51 @@ let
             "file" = "CuisineCraft 0.0.6 Fabric (1.20.1).jar";
             "hash" = "sha512-mX8g/VNm5FNchUETofdpJ8LpSRtrq50JFJbp9wjntBA6lgn8pU/9b9OviCTFMvN5mW8eb/sFZmie0KseXbWC/w==";
         };
+        _RJPszPXG = {
+            "id" = "RJPszPXG";
+            "file" = "CulinaryCraft 0.0.7 (1.12.2).jar";
+            "hash" = "sha512-TeZG5NMAEKahLQbhjgnvEEqRGn+M6ktQcqkmRi/Reb7a2NmIDKI0JQgd7xbXV1I7jNV15oikA8Q2Y0WuV0ysOw==";
+        };
+        _TAFwEQCP = {
+            "id" = "TAFwEQCP";
+            "file" = "CulinaryCraft 0.0.7 (1.16.5).jar";
+            "hash" = "sha512-cI5g08BTZTsqhAMqcAANaKIV9kkDnCNFSDzMiM2Xk7LdqBbXVpaT6XagbvvMnLVTptlkG/Dj3hsiaQGgh9AMeQ==";
+        };
+        _SnUWxpmC = {
+            "id" = "SnUWxpmC";
+            "file" = "CulinaryCraft 0.0.7 (1.18.2).jar";
+            "hash" = "sha512-BQU8Wx9plmK97YVnDrBQzeufOolAQbMKaZ/iXHV5qkOwjtkTGCtw6EhjHnGcZHJvzNQVNjmXLY0k8ERvQj+a4A==";
+        };
+        _7E5cF0A0 = {
+            "id" = "7E5cF0A0";
+            "file" = "CulinaryCraft 0.0.7 (1.19.2).jar";
+            "hash" = "sha512-2hWtZm7PL5G3p/AZaVil0lm74F+02XD0yOmRrQz1zLza52KgbegR1MkE4aY6lk5d1Ro9hrU0/U6bG5zAFQtdAA==";
+        };
+        _T7g7krdy = {
+            "id" = "T7g7krdy";
+            "file" = "CulinaryCraft 0.0.7 (1.20.1).jar";
+            "hash" = "sha512-5MOSGnkilCf02wVAeQWGhFj1WxThOm3XpAILmWqdlx0QLcQPk5YH1UD4gKigqlb+2fdKNxIwxjneH3Qw1OVAWA==";
+        };
+        _GEjoEOFe = {
+            "id" = "GEjoEOFe";
+            "file" = "CulinaryCraft 0.0.7 (1.21.1).jar";
+            "hash" = "sha512-ZjsCa/H1cSZTej/EDKsCp0zhc9bfdElK1LLVzJ88ODY8o+3kDNWVncFjefyGPtfhVxWTk9ETp0EQcQiaQZ9DgQ==";
+        };
+        _5xz2uI0M = {
+            "id" = "5xz2uI0M";
+            "file" = "CuisineCraft 0.0.7 Fabric (1.20.1).jar";
+            "hash" = "sha512-20grHQTkMSFhfMUsYU2ExGtyxJggSwmhIqbyGPvu889LEbF1YBmRodbscV4QH4ZTM/AGIvYe55vLSZrbXJPj1Q==";
+        };
+        _nJfXh308 = {
+            "id" = "nJfXh308";
+            "file" = "CulinaryCraft 0.0.7 Fabric (1.21.1).jar";
+            "hash" = "sha512-uNQ4Dc5cZxRLVscyVN33w8OOJhBd8Iqvq34UNMWXEwp2Cd3rxlB+LZB5gPfJOxVsGIh/33eAuEmx+Z2JrC9NTQ==";
+        };
+        _YYTdIMJ1 = {
+            "id" = "YYTdIMJ1";
+            "file" = "CulinaryCraft 0.0.7 NeoForge (1.21.1).jar";
+            "hash" = "sha512-m8uzwISYOn1PRV2f+QPG2u/7X4lp2nqHcqsRYArNIgyDWb6009D4pj5GTaDzpMvOyLQC+YiFXRHbz4igr3GaNA==";
+        };
     in {
         "qWQK80KN" = _qWQK80KN;
         "9uoRA1IK" = _9uoRA1IK;
@@ -296,26 +341,36 @@ let
         "U41G0gCj" = _U41G0gCj;
         "g8QSbJRZ" = _g8QSbJRZ;
         "W1OSZa20" = _W1OSZa20;
-        "forge-1.12.2" = _yYzzbn39;
-        "forge-1.16.5" = _EPaYnPqw;
-        "forge-1.18.2" = _VG2MDgrA;
-        "forge-1.19.2" = _QMFUWcMi;
+        "RJPszPXG" = _RJPszPXG;
+        "TAFwEQCP" = _TAFwEQCP;
+        "SnUWxpmC" = _SnUWxpmC;
+        "7E5cF0A0" = _7E5cF0A0;
+        "T7g7krdy" = _T7g7krdy;
+        "GEjoEOFe" = _GEjoEOFe;
+        "5xz2uI0M" = _5xz2uI0M;
+        "nJfXh308" = _nJfXh308;
+        "YYTdIMJ1" = _YYTdIMJ1;
+        "forge-1.12.2" = _RJPszPXG;
+        "forge-1.16.5" = _TAFwEQCP;
+        "forge-1.18.2" = _SnUWxpmC;
+        "forge-1.19.2" = _7E5cF0A0;
         "forge-1.20" = _f6F1qAT1;
-        "forge-1.20.1" = _J8BEoW7L;
+        "forge-1.20.1" = _T7g7krdy;
         "forge-1.21" = _Q7RpfQ5p;
-        "forge-1.21.1" = _ZKUDC7oe;
+        "forge-1.21.1" = _GEjoEOFe;
         "fabric-1.21" = _7sfBdYob;
-        "fabric-1.21.1" = _U41G0gCj;
-        "fabric-1.20.1" = _W1OSZa20;
+        "fabric-1.21.1" = _nJfXh308;
+        "fabric-1.20.1" = _5xz2uI0M;
         "neoforge-1.21" = _GM3RJBoe;
-        "neoforge-1.21.1" = _g8QSbJRZ;
+        "neoforge-1.21.1" = _YYTdIMJ1;
         "pkg-0.0.1" = _MME9uhMI;
         "pkg-0.0.2" = _70NuGqgg;
         "pkg-0.0.3" = _Iw7gisLz;
         "pkg-0.0.4" = _YjIIdY1T;
         "pkg-0.0.5" = _GM3RJBoe;
         "pkg-0.0.6" = _W1OSZa20;
-        "default" = _W1OSZa20;
+        "pkg-0.0.7" = _YYTdIMJ1;
+        "default" = _YYTdIMJ1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "culinarycraft-a-better-food-experience";

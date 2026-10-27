@@ -81,6 +81,26 @@ let
             "file" = "ae2webintegration-1.0.2-forge-1.20.1.jar";
             "hash" = "sha512-KZ+CBv0iNiCWDScZ5TaXkxMoc/xK6nT2wL9hUMpRVf0U6D++7q2dDdubMpVayMoiZSuW9/ERZSlxRmPgsavh2A==";
         };
+        _rTQVcfxu = {
+            "id" = "rTQVcfxu";
+            "file" = "ae2webintegration-2.0.0-neoforge-1.21.1.jar";
+            "hash" = "sha512-l/k69cHKkFwQbRZh9utDpAHn/ZzMt65iyXGeVNUbC3bhDV1bKyYkYUVSRu67SLE/WMEYLYv3Jo3GorMlWFY9kw==";
+        };
+        _93XQqh0w = {
+            "id" = "93XQqh0w";
+            "file" = "ae2webintegration-2.0.0-forge-1.7.10.jar";
+            "hash" = "sha512-RvKvo/wSD9VidQQdg51ieBsebb1Z/Bpfg8PPX2RN7YuyN9br4uBYmQBN+rhE92v3gJDnlsSU7WStoELO0aLQDg==";
+        };
+        _nvVX9Hfa = {
+            "id" = "nvVX9Hfa";
+            "file" = "ae2webintegration-2.0.0-forge-1.12.2.jar";
+            "hash" = "sha512-wq5du6P5Ji7fCSpeNq0R7mzDSjsgSKm25P4fgAPhk7KBV2kOw8Nn4MOTlJdS09v/uinTZzp8KslrCzvOrWONXg==";
+        };
+        _76A9qyLV = {
+            "id" = "76A9qyLV";
+            "file" = "ae2webintegration-2.0.0-forge-1.20.1.jar";
+            "hash" = "sha512-bhSIDp8xR11Wi5i0J/9+zMwOD2iBocmVvI/UPaP1UbbwrhGhJkgWLZKaIxJ1/OpZqdEfPvmJWiGqyIGqHtGJvQ==";
+        };
     in {
         "BolQpI1y" = _BolQpI1y;
         "uKr8hC0T" = _uKr8hC0T;
@@ -98,10 +118,14 @@ let
         "n0mpflCp" = _n0mpflCp;
         "ZIvbhrns" = _ZIvbhrns;
         "69MXjRJP" = _69MXjRJP;
-        "forge-1.7.10" = _mu6oJZsZ;
-        "forge-1.12.2" = _ZIvbhrns;
-        "forge-1.20.1" = _69MXjRJP;
-        "neoforge-1.21.1" = _n0mpflCp;
+        "rTQVcfxu" = _rTQVcfxu;
+        "93XQqh0w" = _93XQqh0w;
+        "nvVX9Hfa" = _nvVX9Hfa;
+        "76A9qyLV" = _76A9qyLV;
+        "forge-1.7.10" = _93XQqh0w;
+        "forge-1.12.2" = _nvVX9Hfa;
+        "forge-1.20.1" = _76A9qyLV;
+        "neoforge-1.21.1" = _rTQVcfxu;
         "pkg-0.0.8-forge-1.7.10" = _BolQpI1y;
         "pkg-0.0.8-forge-1.12.2" = _uKr8hC0T;
         "pkg-0.0.9-alpha-forge-1.7.10" = _wsSJH9gG;
@@ -118,7 +142,11 @@ let
         "pkg-1.0.2-neoforge-1.21.1" = _n0mpflCp;
         "pkg-1.0.1-forge-1.12.2" = _ZIvbhrns;
         "pkg-1.0.2-forge-1.20.1" = _69MXjRJP;
-        "default" = _69MXjRJP;
+        "pkg-2.0.0-neoforge-1.21.1" = _rTQVcfxu;
+        "pkg-2.0.0-forge-1.7.10" = _93XQqh0w;
+        "pkg-2.0.0-forge-1.12.2" = _nvVX9Hfa;
+        "pkg-2.0.0-forge-1.20.1" = _76A9qyLV;
+        "default" = _76A9qyLV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ae2-web-integration";

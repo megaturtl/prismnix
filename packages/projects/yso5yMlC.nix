@@ -296,6 +296,21 @@ let
             "file" = "SkyCofl-2.0.0-Fabric-26.1.2.jar";
             "hash" = "sha512-hMk19/ydvAMDguaDqpyRvvPfLp/7J7OhpvbPBK9ald+wjAChQm0uJXsR+XVZRN59P2c0zIubmFD5JAsqSE24Iw==";
         };
+        _jsSggpgW = {
+            "id" = "jsSggpgW";
+            "file" = "SkyCofl-2.0.1-Fabric-26.3.jar";
+            "hash" = "sha512-0HFEGxPFQUCqrW2RxxZEKMSZ+oaN02mOiNKg6Zgay/WoV4CiB9sefNN0hOY+NrV5fWkqGbbe/PBBHG+fG7+KGA==";
+        };
+        _bq40AuzS = {
+            "id" = "bq40AuzS";
+            "file" = "SkyCofl-2.0.1-Fabric-26.1.2.jar";
+            "hash" = "sha512-4u31L1U1U7RLCn2fH526BQXhKjmxVSH8b2NgO6OJdM3QDxlUbJLU/nJlvtg5+g8wpAASgKXJGPkLA5ari1YhZA==";
+        };
+        _aPyDh3z5 = {
+            "id" = "aPyDh3z5";
+            "file" = "SkyCofl-2.0.1-Fabric-26.2.jar";
+            "hash" = "sha512-+VMN/PbV8O27uFn92XPtIdOXxoJ+aaAxth8wHSjju6qyYKw3DQVNyqjNbs9mj3RsqJzUDNBV2NsNqpJKmiV/Aw==";
+        };
     in {
         "2G4lIGE4" = _2G4lIGE4;
         "tjfBX0Gk" = _tjfBX0Gk;
@@ -356,16 +371,19 @@ let
         "huVdk8OT" = _huVdk8OT;
         "cpwVKRfK" = _cpwVKRfK;
         "lMVPu4uv" = _lMVPu4uv;
+        "jsSggpgW" = _jsSggpgW;
+        "bq40AuzS" = _bq40AuzS;
+        "aPyDh3z5" = _aPyDh3z5;
         "fabric-1.21.10" = _ArO5BGIS;
         "fabric-1.21.5" = _4mZQxzzy;
         "fabric-1.21.8" = _v2jcUyjE;
         "fabric-1.21.11" = _Hv9xkSmM;
         "fabric-1.21.9" = _nGVhpdCU;
         "fabric-26.1" = _2Ibp5Voi;
-        "fabric-26.1.2" = _lMVPu4uv;
+        "fabric-26.1.2" = _bq40AuzS;
         "fabric-26.1.1" = _EsFzkzBK;
-        "fabric-26.2" = _cpwVKRfK;
-        "fabric-26.3" = _huVdk8OT;
+        "fabric-26.2" = _aPyDh3z5;
+        "fabric-26.3" = _jsSggpgW;
         "forge-1.8.9" = _zUODh032;
         "neoforge-1.8.9" = _d1rGVnz6;
         "pkg-1.7.8" = _FfJ3fmse;
@@ -413,7 +431,10 @@ let
         "pkg-2.0.0_Fabric_26.3" = _huVdk8OT;
         "pkg-2.0.0_Fabric_26.2" = _cpwVKRfK;
         "pkg-2.0.0_Fabric_26.1.2" = _lMVPu4uv;
-        "default" = _lMVPu4uv;
+        "pkg-2.0.1_Fabric_26.3" = _jsSggpgW;
+        "pkg-2.0.1_Fabric_26.1.2" = _bq40AuzS;
+        "pkg-2.0.1_Fabric_26.2" = _aPyDh3z5;
+        "default" = _aPyDh3z5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skycofl";

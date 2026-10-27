@@ -221,6 +221,11 @@ let
             "file" = "tctcore-2.2-neoforge-26.2.jar";
             "hash" = "sha512-CQz10NAgW0LA5zeO3EBm6AAjkd1h3EzIYCzqKrqkMaSOzilMJEAHply8DOLdTWMNcF1ddLlp1rtRgh/cGpQO2w==";
         };
+        _8nDVQ66i = {
+            "id" = "8nDVQ66i";
+            "file" = "tctcore-2.2-neoforge-26.3.jar";
+            "hash" = "sha512-CT/+50/59yz5kXBbWm9MsfftcYVO4VSQdBv7JeCB16dbIM3WBmEEi//9OzZBqEjqHaILwBK0DEFhAcbSxNb9hg==";
+        };
     in {
         "81CEkhCK" = _81CEkhCK;
         "2KvdQ23l" = _2KvdQ23l;
@@ -266,6 +271,7 @@ let
         "Sbe0BKxu" = _Sbe0BKxu;
         "pjn0UQjr" = _pjn0UQjr;
         "6w78WwOY" = _6w78WwOY;
+        "8nDVQ66i" = _8nDVQ66i;
         "forge-1.19.2" = _xVlNI5o1;
         "forge-1.19.4" = _EEASysee;
         "forge-1.20.1" = _rCkABXJz;
@@ -284,12 +290,13 @@ let
         "neoforge-1.21.8" = _Sbe0BKxu;
         "neoforge-26.1.2" = _pjn0UQjr;
         "neoforge-26.2" = _6w78WwOY;
+        "neoforge-26.3" = _8nDVQ66i;
         "pkg-1.6" = _RaB3pdTb;
         "pkg-7.0" = _Fhxcxd4l;
         "pkg-2.0" = _ScJ7Y76h;
         "pkg-2.1" = _8OdphJCN;
-        "pkg-2.2" = _6w78WwOY;
-        "default" = _6w78WwOY;
+        "pkg-2.2" = _8nDVQ66i;
+        "default" = _8nDVQ66i;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tct-core";

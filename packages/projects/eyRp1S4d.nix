@@ -381,6 +381,11 @@ let
             "file" = "blocktopia-5.0.jar";
             "hash" = "sha512-U3syBaoPNdgDHHkvR0Bxwwpiw6alUySSgLNJfkb4tgnr44lFGeOdNrBHxqDeISv0fGdzRHoNZuLGeRNnfz5Lzg==";
         };
+        _6y70qyPU = {
+            "id" = "6y70qyPU";
+            "file" = "blocktopia-5.1.jar";
+            "hash" = "sha512-0Ax/7V8/Fui/lzVCZBgmheVVKOJQ3rzNQ5bkUvem1No2JbBrG4tjZWnevL4QK5jddOCBROWgjBHMCHLNjQ+M2A==";
+        };
     in {
         "HPYnlHEv" = _HPYnlHEv;
         "O36TrfPM" = _O36TrfPM;
@@ -458,7 +463,8 @@ let
         "nIjSfjrk" = _nIjSfjrk;
         "dh2Dajsq" = _dh2Dajsq;
         "i18eyjW9" = _i18eyjW9;
-        "fabric-1.21.1" = _i18eyjW9;
+        "6y70qyPU" = _6y70qyPU;
+        "fabric-1.21.1" = _6y70qyPU;
         "fabric-1.21" = _8I5auX8c;
         "quilt-1.21" = _8I5auX8c;
         "quilt-1.21.1" = _I017S0Wf;
@@ -538,7 +544,8 @@ let
         "pkg-4.7" = _nIjSfjrk;
         "pkg-5.0-alpha-1" = _dh2Dajsq;
         "pkg-5.0" = _i18eyjW9;
-        "default" = _i18eyjW9;
+        "pkg-5.1" = _6y70qyPU;
+        "default" = _6y70qyPU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blocktopiat";

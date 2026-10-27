@@ -826,6 +826,11 @@ let
             "file" = "TARDIS-7.1.3-b6328c58bc.jar";
             "hash" = "sha512-805+IB7TK0EHGZq/I0gTLH3aVXT1Zd2qegBCOP2ThfU7e4I8/N7rqHJ/lCMc4eA/u8wxfJBSGw3P4QbVXoSGNQ==";
         };
+        _sMuRRXWJ = {
+            "id" = "sMuRRXWJ";
+            "file" = "TARDIS-7.1.3-b97c5aa667.jar";
+            "hash" = "sha512-dO0MRI4FVN0HHHhKNInUuujZDngdDQp+qo2gXbF9uQ4FVzLHgLjrCXr3U1vNwRVrzTu+LTT6QaIiBlSOPkxohA==";
+        };
     in {
         "xQYwkd3l" = _xQYwkd3l;
         "cdnqF5er" = _cdnqF5er;
@@ -992,6 +997,7 @@ let
         "CmUZvCGV" = _CmUZvCGV;
         "jZZgMwu2" = _jZZgMwu2;
         "WyGexmW7" = _WyGexmW7;
+        "sMuRRXWJ" = _sMuRRXWJ;
         "paper-1.19.2" = _xQYwkd3l;
         "paper-1.19.3" = _cdnqF5er;
         "paper-1.19.4" = _QhnjXSdv;
@@ -1004,7 +1010,7 @@ let
         "paper-26.1.1" = _auFoDMAu;
         "paper-26.1.2" = _auFoDMAu;
         "paper-26.2" = _QY7sIDpt;
-        "paper-26.3" = _WyGexmW7;
+        "paper-26.3" = _sMuRRXWJ;
         "purpur-1.19.2" = _xQYwkd3l;
         "purpur-1.19.3" = _cdnqF5er;
         "purpur-1.19.4" = _QhnjXSdv;
@@ -1180,7 +1186,8 @@ let
         "pkg-7.1.3-b527ed329d" = _CmUZvCGV;
         "pkg-7.1.3-b5a725fdb9" = _jZZgMwu2;
         "pkg-7.1.3-b6328c58bc" = _WyGexmW7;
-        "default" = _WyGexmW7;
+        "pkg-7.1.3-b97c5aa667" = _sMuRRXWJ;
+        "default" = _sMuRRXWJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tardis";

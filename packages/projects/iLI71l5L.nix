@@ -26,24 +26,31 @@ let
             "file" = "terracart-2.0+26.3.jar";
             "hash" = "sha512-0yLKUUv8Jw7p3Vq/ivQqwtq80YPSEWqIuH0DhBrw131MSo5G5hFUBxH9PgpsUNIxy4Vr2MhGo4Ho/5bIG4U0ww==";
         };
+        _geJNhdvr = {
+            "id" = "geJNhdvr";
+            "file" = "terracart-3.0.jar";
+            "hash" = "sha512-sH5frK2wXMiCJNDm2T5BaCk8AF9GFtkbhKSj2+YHjrytjF1hjH9iSB4y9RJS0RvjiAg+9iY1toHIYGdOntMvNQ==";
+        };
     in {
         "mZ7j76Zq" = _mZ7j76Zq;
         "vwwLYjRO" = _vwwLYjRO;
         "pokmXorP" = _pokmXorP;
         "vse7Wglq" = _vse7Wglq;
         "tzpPg6RG" = _tzpPg6RG;
+        "geJNhdvr" = _geJNhdvr;
         "fabric-1.21.11" = _mZ7j76Zq;
         "fabric-26.1" = _vwwLYjRO;
         "fabric-26.1.1" = _vwwLYjRO;
         "fabric-26.1.2" = _vwwLYjRO;
         "fabric-26.2" = _vse7Wglq;
-        "fabric-26.3" = _tzpPg6RG;
+        "fabric-26.3" = _geJNhdvr;
         "pkg-1.0" = _mZ7j76Zq;
         "pkg-1.1" = _vwwLYjRO;
         "pkg-1.1+26.2" = _pokmXorP;
         "pkg-2.0" = _vse7Wglq;
         "pkg-2.0+26.3" = _tzpPg6RG;
-        "default" = _tzpPg6RG;
+        "pkg-3.0" = _geJNhdvr;
+        "default" = _geJNhdvr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "terraincart";

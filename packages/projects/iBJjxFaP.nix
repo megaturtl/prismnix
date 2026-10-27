@@ -26,19 +26,26 @@ let
             "file" = "cosmic-textures-1.2.jar";
             "hash" = "sha512-LO3Ok5PfZ2d6HiJd0qHzTqJduAtZgVbghlUWJkPPJqTF9cHGTxZreajuwREISEOuPJDVytxzisnb0OXx8F1VBA==";
         };
+        _bM0pZGzn = {
+            "id" = "bM0pZGzn";
+            "file" = "cosmic-textures-1.2.1.jar";
+            "hash" = "sha512-W1fqbHB6xw8jcE/pSWyUmqzpByltrqg5J804LLUKXOqvuIABnIvCvK5G0SeccBE07jh1l5uFzDJZS67rsqDXMw==";
+        };
     in {
         "hVfQbZ8Q" = _hVfQbZ8Q;
         "3A9hemZE" = _3A9hemZE;
         "D9H6rxMX" = _D9H6rxMX;
         "Ad0qnvfy" = _Ad0qnvfy;
         "qJSPhlis" = _qJSPhlis;
-        "fabric-1.21.10" = _qJSPhlis;
-        "fabric-1.21.11" = _qJSPhlis;
+        "bM0pZGzn" = _bM0pZGzn;
+        "fabric-1.21.10" = _bM0pZGzn;
+        "fabric-1.21.11" = _bM0pZGzn;
         "pkg-1.0.0" = _hVfQbZ8Q;
         "pkg-1.0.1" = _3A9hemZE;
         "pkg-1.0.2" = _D9H6rxMX;
         "pkg-1.2" = _qJSPhlis;
-        "default" = _qJSPhlis;
+        "pkg-1.2.1" = _bM0pZGzn;
+        "default" = _bM0pZGzn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cosmictextures";

@@ -166,6 +166,11 @@ let
             "file" = "cataclysm_spellbooks-1.1.14-1.21.jar";
             "hash" = "sha512-JVlTBwXVbwkr+fVCfoS88rAon3EdSGWMEj65fRSlTDORYuoBmDbaSUFtDillTCs22oI7nNPMfila/cBo7Vbwpw==";
         };
+        _7fmcTGwb = {
+            "id" = "7fmcTGwb";
+            "file" = "cataclysm_spellbooks-1.1.15-1.21.jar";
+            "hash" = "sha512-NY6HaQ6hsaNB1u3+Ow7BRazA5mikhy4y88BTC0ZjA/ZF/VpXKvJ/ynQOXOG5vEx0xuCyyjGwhYjDbaxPRuT6bA==";
+        };
     in {
         "QXSgkvUy" = _QXSgkvUy;
         "HdkHkm9Z" = _HdkHkm9Z;
@@ -200,9 +205,10 @@ let
         "5NYz9vZy" = _5NYz9vZy;
         "m8aMfihn" = _m8aMfihn;
         "RhD1njZh" = _RhD1njZh;
+        "7fmcTGwb" = _7fmcTGwb;
         "forge-1.19.2" = _YfSu1aeW;
         "forge-1.20.1" = _e7VE8bSy;
-        "neoforge-1.21.1" = _RhD1njZh;
+        "neoforge-1.21.1" = _7fmcTGwb;
         "pkg-1.0.0" = _QXSgkvUy;
         "pkg-1.0.1" = _HdkHkm9Z;
         "pkg-1.0.2-1.19.2" = _OdL8bjjy;
@@ -235,7 +241,8 @@ let
         "pkg-1.1.12-1.21" = _5NYz9vZy;
         "pkg-1.1.13-1.21" = _m8aMfihn;
         "pkg-1.1.14-1.21" = _RhD1njZh;
-        "default" = _RhD1njZh;
+        "pkg-1.1.15-1.21" = _7fmcTGwb;
+        "default" = _7fmcTGwb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cataclysm-spellbooks";

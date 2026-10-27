@@ -4666,6 +4666,16 @@ let
             "file" = "sophisticatedbackpacks-1.21.1-3.26.14.2222.jar";
             "hash" = "sha512-otT0hu/W6wgGwsNYxCFzALVs/KJYk8punEyF0uFj8X9E8F5gLWLsjxfEJqFeQMMQQ2q5C6nO6rFPrHcQv1IRkQ==";
         };
+        _3SXYeyvp = {
+            "id" = "3SXYeyvp";
+            "file" = "sophisticatedbackpacks-1.21.1-3.26.15.2227.jar";
+            "hash" = "sha512-7FQtb4zwydp375YH+TcUgt4WWAD7acGcVxHvyaOahUf3d+jStlzIhv2k7zW+3ctYGp6QJmGlq1A4+jad5Pyr3Q==";
+        };
+        _gz5fZz47 = {
+            "id" = "gz5fZz47";
+            "file" = "sophisticatedbackpacks-1.20.1-3.26.15.2228.jar";
+            "hash" = "sha512-mVmawFmOc1CGAuLPNwGVCldJJWU0QpRQ4hsgFQ+w9ZOAXfx/pZJ/5fcyBYdGDPS4sdYZEPgGecTYXtC0pisRAw==";
+        };
     in {
         "HNx6YaQC" = _HNx6YaQC;
         "suz8ANPn" = _suz8ANPn;
@@ -5600,9 +5610,11 @@ let
         "4nFA9xMY" = _4nFA9xMY;
         "HEEmP5R4" = _HEEmP5R4;
         "eg9lPtG4" = _eg9lPtG4;
+        "3SXYeyvp" = _3SXYeyvp;
+        "gz5fZz47" = _gz5fZz47;
         "neoforge-1.21" = _q4YzYKAb;
-        "neoforge-1.21.1" = _eg9lPtG4;
-        "neoforge-1.20.1" = _HEEmP5R4;
+        "neoforge-1.21.1" = _3SXYeyvp;
+        "neoforge-1.20.1" = _gz5fZz47;
         "neoforge-1.21.4" = _dqO5nftG;
         "neoforge-1.21.5" = _5RzMBbVq;
         "neoforge-1.21.8" = _ma67qtGe;
@@ -5613,7 +5625,7 @@ let
         "neoforge-26.1.2" = _4nFA9xMY;
         "neoforge-26.2" = _qKvWoev9;
         "neoforge-26.3" = _9vZ4CAcJ;
-        "forge-1.20.1" = _HEEmP5R4;
+        "forge-1.20.1" = _gz5fZz47;
         "forge-1.19.2" = _1TblkbcZ;
         "forge-1.18.2" = _ySJuJiG9;
         "forge-1.16.5" = _aplfC9U1;
@@ -6548,7 +6560,9 @@ let
         "pkg-26.1.2-3.26.15.2224" = _4nFA9xMY;
         "pkg-1.20.1-3.26.14.2226" = _HEEmP5R4;
         "pkg-1.21.1-3.26.14.2222" = _eg9lPtG4;
-        "default" = _eg9lPtG4;
+        "pkg-1.21.1-3.26.15.2227" = _3SXYeyvp;
+        "pkg-1.20.1-3.26.15.2228" = _gz5fZz47;
+        "default" = _gz5fZz47;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sophisticated-backpacks";

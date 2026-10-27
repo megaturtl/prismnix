@@ -1946,6 +1946,16 @@ let
             "file" = "better-clouds-1.15.0-beta.6+26.3-fabric.jar";
             "hash" = "sha512-dT27qGGnunMi5qG2mL4wXuevsK/2RuDy65V5vOtFm0d6WhxTZG83xes9+OW7GaLZ+O5N5kGxuR/qswPvmEZaqg==";
         };
+        _ujPgoyS7 = {
+            "id" = "ujPgoyS7";
+            "file" = "better-clouds-1.15.0-beta.7+26.3-neoforge.jar";
+            "hash" = "sha512-E+Pb9oPOemYmnd0C2G0/zGMua6rXk4uFCzpuXp3kOplt6Ek3jfNAMpH4jwJK7MKQsmVYZM/2N0aPpOHFIXD1OA==";
+        };
+        _mo1L4rI7 = {
+            "id" = "mo1L4rI7";
+            "file" = "better-clouds-1.15.0-beta.7+26.3-fabric.jar";
+            "hash" = "sha512-H9OBSZGYJ2XpKGVNqRCqP/qDUPbREJugKZ3yZHfcrOGG0p8Pt6udmVo45dJMLfMDxTOL9zEVjGQUNytM+8/kBA==";
+        };
     in {
         "2P4z29Lc" = _2P4z29Lc;
         "f4jg6EtK" = _f4jg6EtK;
@@ -2336,6 +2346,8 @@ let
         "oaGCnLRU" = _oaGCnLRU;
         "KWoNm31y" = _KWoNm31y;
         "OUAWBlxh" = _OUAWBlxh;
+        "ujPgoyS7" = _ujPgoyS7;
+        "mo1L4rI7" = _mo1L4rI7;
         "fabric-1.18.1" = _2EEKJCHK;
         "fabric-1.17.1" = _W1j4ucem;
         "fabric-1.18" = _2EEKJCHK;
@@ -2364,7 +2376,7 @@ let
         "fabric-26.1.1" = _bkU1BWd8;
         "fabric-26.1.2" = _Jf0v8y9Y;
         "fabric-26.2" = _6hLnIcGQ;
-        "fabric-26.3" = _OUAWBlxh;
+        "fabric-26.3" = _mo1L4rI7;
         "neoforge-1.21" = _UvRCtZxT;
         "neoforge-1.20.6" = _UrxGCQBN;
         "neoforge-1.20.4" = _MzeesNiG;
@@ -2381,7 +2393,7 @@ let
         "neoforge-26.1" = _6614HttX;
         "neoforge-26.1.2" = _nNnnD5Om;
         "neoforge-26.2" = _HLg3L2FJ;
-        "neoforge-26.3" = _KWoNm31y;
+        "neoforge-26.3" = _ujPgoyS7;
         "forge-1.20" = _hQgUzZa4;
         "forge-1.20.1" = _hQgUzZa4;
         "forge-1.21" = _ucwzanPQ;
@@ -2754,7 +2766,8 @@ let
         "pkg-1.13.11+1.21.11-fabric-release" = _tfuzaCjw;
         "pkg-1.15.0-beta.5" = _oaGCnLRU;
         "pkg-1.15.0-beta.6" = _OUAWBlxh;
-        "default" = _OUAWBlxh;
+        "pkg-1.15.0-beta.7" = _mo1L4rI7;
+        "default" = _mo1L4rI7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-clouds";

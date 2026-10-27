@@ -36,6 +36,11 @@ let
             "file" = "pbba-0.1.6-forge.1.20.1.jar";
             "hash" = "sha512-WHZfssQO8xlgOxpqma2/DiTzlIBtDKzT5T6VrJHqYoWvuR818QpFQ2llGFxbF/Llx3+F64duVGYrKdHmVt25/Q==";
         };
+        _rUYHLgkd = {
+            "id" = "rUYHLgkd";
+            "file" = "pbba-0.1.7-forge.1.20.1.jar";
+            "hash" = "sha512-M7OIo35G4YyBGFzMQPkn232z5Qdrp4xQJ+iYYRcmEaoFQaxCrZws8G5u0EH+43/iB0lzHGowAEwBFuXiL0rYlQ==";
+        };
     in {
         "zIHf5Fjj" = _zIHf5Fjj;
         "jjfiuQvb" = _jjfiuQvb;
@@ -44,11 +49,12 @@ let
         "5vWkazLg" = _5vWkazLg;
         "iTAozUNk" = _iTAozUNk;
         "ZBzfVT8U" = _ZBzfVT8U;
+        "rUYHLgkd" = _rUYHLgkd;
         "fabric-1.21.11" = _jkpqJH8g;
         "fabric-1.21" = _5vWkazLg;
         "fabric-1.21.1" = _5vWkazLg;
         "fabric-1.20.1" = _iTAozUNk;
-        "forge-1.20.1" = _ZBzfVT8U;
+        "forge-1.20.1" = _rUYHLgkd;
         "pkg-0.1.0" = _zIHf5Fjj;
         "pkg-0.1.1" = _jjfiuQvb;
         "pkg-0.1.4" = _pqkeseky;
@@ -56,7 +62,8 @@ let
         "pkg-0.1.5+mc1.21-1.21.1" = _5vWkazLg;
         "pkg-0.1.5+mc1.20.1" = _iTAozUNk;
         "pkg-0.1.6-forge.1.20.1" = _ZBzfVT8U;
-        "default" = _ZBzfVT8U;
+        "pkg-0.1.7-forge.1.20.1" = _rUYHLgkd;
+        "default" = _rUYHLgkd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pbba";

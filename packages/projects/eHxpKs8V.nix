@@ -411,6 +411,16 @@ let
             "file" = "banksystem-neoforge-1.21.1-2.1.1.jar";
             "hash" = "sha512-VHQMHlB3rtbJQnR+lIXsNVZNh/4vSkbtg5y4IkoekSoBmnpJ36uBuRRYFeZmaoBMiRRVbEzBkQ5JdjkgxHiq2Q==";
         };
+        _TyRMdRPm = {
+            "id" = "TyRMdRPm";
+            "file" = "banksystem-neoforge-1.21.1-2.1.2.jar";
+            "hash" = "sha512-RQg9VFR1Bu8TgmhRxSWMQP0fy7g/Lcsztbcw+xELOdePA9C9Cy++oy2dXzOMx0z/vGwUFXFkV2rzfcQjg5PRZw==";
+        };
+        _NStdJogl = {
+            "id" = "NStdJogl";
+            "file" = "banksystem-fabric-1.21.1-2.1.2.jar";
+            "hash" = "sha512-RoBFHnaeV6onHySdkRRbQP40onb1Rmf3878XccnTCj/iqZFj0vnI1l3kyjV5AKmVfRYpT5Ws4hmijPdfr7ZTnw==";
+        };
     in {
         "QKinB2KF" = _QKinB2KF;
         "pW6nATuB" = _pW6nATuB;
@@ -494,6 +504,8 @@ let
         "dbOLmllL" = _dbOLmllL;
         "r2y3YMLo" = _r2y3YMLo;
         "vBLWIVVu" = _vBLWIVVu;
+        "TyRMdRPm" = _TyRMdRPm;
+        "NStdJogl" = _NStdJogl;
         "quilt-1.20.1" = _XsQ1d0pz;
         "quilt-1.19.2" = _v9a2U0U2;
         "quilt-1.19.3" = _QIeBZZwE;
@@ -507,7 +519,7 @@ let
         "fabric-1.20.4" = _XFM0L9EL;
         "fabric-1.20.6" = _IZNxW2dT;
         "fabric-1.21" = _eBVyJ77K;
-        "fabric-1.21.1" = _r2y3YMLo;
+        "fabric-1.21.1" = _NStdJogl;
         "forge-1.20.1" = _IwJYh17e;
         "forge-1.19.2" = _CRO0vBrU;
         "forge-1.19.3" = _4o7e9Jph;
@@ -516,7 +528,7 @@ let
         "forge-1.20.4" = _9sskeq0O;
         "neoforge-1.20.6" = _5xdfbgFx;
         "neoforge-1.21" = _n03UPTjs;
-        "neoforge-1.21.1" = _vBLWIVVu;
+        "neoforge-1.21.1" = _TyRMdRPm;
         "pkg-1.3.1" = _NuYy3Hwd;
         "pkg-1.3.4" = _1TQPYxA3;
         "pkg-1.4.0" = _Kdz7yeuN;
@@ -526,7 +538,8 @@ let
         "pkg-1.21.1-2.0.7" = _Bb3PiJae;
         "pkg-1.21.1-2.1.0" = _dbOLmllL;
         "pkg-1.21.1-2.1.1" = _vBLWIVVu;
-        "default" = _vBLWIVVu;
+        "pkg-1.21.1-2.1.2" = _NStdJogl;
+        "default" = _NStdJogl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kroia_banksystem";

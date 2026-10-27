@@ -46,6 +46,21 @@ let
             "file" = "PanoramaScreenshot-1.1.1-26.1.2.jar";
             "hash" = "sha512-iEqY5hizj+QvHStG+vyCv09uuF077dsD4p0y0ILebFIH6beZmyjykeBhG89+pTHZEeqHHxH26I1XRgb41cDvNQ==";
         };
+        _snVRXz8I = {
+            "id" = "snVRXz8I";
+            "file" = "PanoramaScreenshot-1.1.2-26.2.jar";
+            "hash" = "sha512-pyUDOudZ0b+TmovaIXKStoP8XpT7S2YbRxlj6h+ZGiQERSFt1lDS3nLk5fDo3ThJxdPULXWoLwb5V039/qtP6w==";
+        };
+        _dwsIC8nX = {
+            "id" = "dwsIC8nX";
+            "file" = "PanoramaScreenshot-1.1.3-26.3.jar";
+            "hash" = "sha512-ievrQh/a82QTJAsZKQ1u8O75v09oqau98mQPYVfmmsepO+y16mDZDFA33VXMxZ7hDSLstFJrBJy5uIZnTkhCpA==";
+        };
+        _RGJI37a6 = {
+            "id" = "RGJI37a6";
+            "file" = "PanoramaScreenshot-1.1.3-26.4-snapshot-5.jar";
+            "hash" = "sha512-vuxNq+B9eduKvvYSy+AbtvHcnPiPoDewUXHbtckEWj74o66gWHeO/NQ+LA0xjiMK4cgUSTeqA24BJ9zX4B8Q8A==";
+        };
     in {
         "N74Uu1Sl" = _N74Uu1Sl;
         "2gAZAOFy" = _2gAZAOFy;
@@ -56,6 +71,9 @@ let
         "hZL8qXj9" = _hZL8qXj9;
         "OzgMc6Lm" = _OzgMc6Lm;
         "rwWMVcYO" = _rwWMVcYO;
+        "snVRXz8I" = _snVRXz8I;
+        "dwsIC8nX" = _dwsIC8nX;
+        "RGJI37a6" = _RGJI37a6;
         "fabric-1.20.4" = _N74Uu1Sl;
         "fabric-1.20.1" = _2gAZAOFy;
         "fabric-1.20.6" = _HyIta7hr;
@@ -65,6 +83,9 @@ let
         "fabric-1.21.10" = _hZL8qXj9;
         "fabric-1.21.11" = _OzgMc6Lm;
         "fabric-26.1.2" = _rwWMVcYO;
+        "fabric-26.2" = _snVRXz8I;
+        "fabric-26.3" = _dwsIC8nX;
+        "fabric-26.4-snapshot-5" = _RGJI37a6;
         "quilt-1.20.4" = _N74Uu1Sl;
         "quilt-1.20.1" = _2gAZAOFy;
         "quilt-1.20.6" = _HyIta7hr;
@@ -74,6 +95,9 @@ let
         "quilt-1.21.10" = _hZL8qXj9;
         "quilt-1.21.11" = _OzgMc6Lm;
         "quilt-26.1.2" = _rwWMVcYO;
+        "quilt-26.2" = _snVRXz8I;
+        "quilt-26.3" = _dwsIC8nX;
+        "quilt-26.4-snapshot-5" = _RGJI37a6;
         "pkg-1.0.0" = _N74Uu1Sl;
         "pkg-1.0.0-1.20.1" = _2gAZAOFy;
         "pkg-1.0.0-1.20.6" = _HyIta7hr;
@@ -83,7 +107,10 @@ let
         "pkg-1.0.2-1.21.10" = _hZL8qXj9;
         "pkg-1.1.0-1.21.11" = _OzgMc6Lm;
         "pkg-1.1.1-26.1.2" = _rwWMVcYO;
-        "default" = _rwWMVcYO;
+        "pkg-1.1.2-26.2" = _snVRXz8I;
+        "pkg-1.1.3-26.3" = _dwsIC8nX;
+        "pkg-1.1.3-26.4-snapshot-5" = _RGJI37a6;
+        "default" = _RGJI37a6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "panorama-screenshot";

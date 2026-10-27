@@ -71,6 +71,26 @@ let
             "file" = "little-guys-0.1.6+1.21.10.jar";
             "hash" = "sha512-EYSerKOjmWN6hFR2XEU8rrPU1+hFISW98TcOk9+c6ILgTwZNZKwiJOQjkZ5UzSGXnhd/XqmHW7VMVGhVyvEWqw==";
         };
+        _Nk4eSnwH = {
+            "id" = "Nk4eSnwH";
+            "file" = "little-guys-0.1.7+26.1.jar";
+            "hash" = "sha512-FBZV2bdgpoVWyMKFETG+S+QR89wYZwuYYImJBvzRrMUbzPA6GV8B2FSHj/8zzI9sk6JiLRAHaiJl5fU0AU1ZvQ==";
+        };
+        _ZljOmyFO = {
+            "id" = "ZljOmyFO";
+            "file" = "little-guys-0.1.7+26.1.2.jar";
+            "hash" = "sha512-VDqZW6fJFmtfXPSGSuQJqyjdm3p2lHSUu0/uxlJR6u8hq0MLzwU7ZqXZQBmvPvVrqgGrgFbI2SkyuXGxnUfq7A==";
+        };
+        _I4bTvLnk = {
+            "id" = "I4bTvLnk";
+            "file" = "little-guys-0.1.7+26.2.jar";
+            "hash" = "sha512-rC+XwA4avZIZQu3gU3bIwaXoErse57Nfw+Fp6c3I09I7sZSz8sNJcWQ9AKn0NfeSNlutP7t+dGjV1AkLQNrnkw==";
+        };
+        _5pyzio5Z = {
+            "id" = "5pyzio5Z";
+            "file" = "little-guys-0.1.7+26.3.jar";
+            "hash" = "sha512-9oNHpXbEST1DnqdqTN6PlciLimJS7ii8mXh2OFg7Bpjyjqmx6KKRHiIYUwrF+u0omuHyK0LtR+707VOGGhASKQ==";
+        };
     in {
         "2eolAusZ" = _2eolAusZ;
         "t4BBMgH0" = _t4BBMgH0;
@@ -86,6 +106,10 @@ let
         "LES6obAy" = _LES6obAy;
         "DZrXT3ij" = _DZrXT3ij;
         "RFAATB80" = _RFAATB80;
+        "Nk4eSnwH" = _Nk4eSnwH;
+        "ZljOmyFO" = _ZljOmyFO;
+        "I4bTvLnk" = _I4bTvLnk;
+        "5pyzio5Z" = _5pyzio5Z;
         "fabric-1.20.6" = _2eolAusZ;
         "fabric-1.21" = _XnericNm;
         "fabric-1.21.3" = _QpmXD9AO;
@@ -96,6 +120,11 @@ let
         "fabric-1.21.8" = _LES6obAy;
         "fabric-1.21.9" = _DZrXT3ij;
         "fabric-1.21.10" = _RFAATB80;
+        "fabric-26.1" = _Nk4eSnwH;
+        "fabric-26.1.1" = _Nk4eSnwH;
+        "fabric-26.1.2" = _ZljOmyFO;
+        "fabric-26.2" = _I4bTvLnk;
+        "fabric-26.3" = _5pyzio5Z;
         "pkg-0.0.1+1.20.6" = _2eolAusZ;
         "pkg-0.1.0+1.21" = _t4BBMgH0;
         "pkg-0.1.1+1.21" = _VLAaeAHq;
@@ -110,7 +139,11 @@ let
         "pkg-0.1.6+1.21.8" = _LES6obAy;
         "pkg-0.1.6+1.21.9" = _DZrXT3ij;
         "pkg-0.1.6+1.21.10" = _RFAATB80;
-        "default" = _RFAATB80;
+        "pkg-0.1.7+26.1" = _Nk4eSnwH;
+        "pkg-0.1.7+26.1.2" = _ZljOmyFO;
+        "pkg-0.1.7+26.2" = _I4bTvLnk;
+        "pkg-0.1.7+26.3" = _5pyzio5Z;
+        "default" = _5pyzio5Z;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-little-guys";

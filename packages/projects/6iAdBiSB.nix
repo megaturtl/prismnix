@@ -571,6 +571,11 @@ let
             "file" = "SimpleSorterR-neoforge-26.3-3.6.1.jar";
             "hash" = "sha512-Rmn+NoYSSA8luFSOSRaxt5lsDN9ZQHg0l8mpO/F2HoBLIRYsxwvfjvLtqAGWv9K0+SFFLdT0fjDPvLaFQJ0g2A==";
         };
+        _DYanvVhu = {
+            "id" = "DYanvVhu";
+            "file" = "SimpleSorterR-26.3-3.6.2.jar";
+            "hash" = "sha512-pbZj62xxcmvHdKp+UBwc1wgQibigJKeOBgIFJlLiGp9Xgq0KNXRiPLBS4xVh6ufe+tv8NG8wOpMkYp3yCUnEqg==";
+        };
     in {
         "NYgBeRwM" = _NYgBeRwM;
         "5U1bDvEF" = _5U1bDvEF;
@@ -686,6 +691,7 @@ let
         "kx0hAnsf" = _kx0hAnsf;
         "5MqsTxPW" = _5MqsTxPW;
         "7FmfuY8O" = _7FmfuY8O;
+        "DYanvVhu" = _DYanvVhu;
         "fabric-1.21.1" = _w3s5ZXPy;
         "fabric-1.21.11" = _PlF7hXaV;
         "fabric-1.21" = _w3s5ZXPy;
@@ -717,7 +723,7 @@ let
         "fabric-26.2-pre-6" = _wdokOm6o;
         "fabric-26.2" = _IOtL9pw7;
         "fabric-26.3-snapshot-4" = _kx0hAnsf;
-        "fabric-26.3" = _5MqsTxPW;
+        "fabric-26.3" = _DYanvVhu;
         "forge-1.20.1" = _UYeTVfeR;
         "forge-1.21" = _qzBKZoV7;
         "neoforge-1.20.1" = _UYeTVfeR;
@@ -747,9 +753,9 @@ let
         "pkg-3.5.3" = _wr9LR9o8;
         "pkg-3.6.0" = _eAJI3jVB;
         "pkg-3.6.1" = _7FmfuY8O;
-        "pkg-3.6.2" = _FAQTASrR;
+        "pkg-3.6.2" = _DYanvVhu;
         "pkg-3.6.3" = _wdokOm6o;
-        "default" = _7FmfuY8O;
+        "default" = _DYanvVhu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simplesorterr";

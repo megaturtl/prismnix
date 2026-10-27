@@ -61,6 +61,11 @@ let
             "file" = "anvilcraft_kaleidoscope-neoforge-anc-1.6-1.21.1-1.0.0+build.27.jar";
             "hash" = "sha512-i5MKGJHKIXA2F2rOMBnnXhazWAPas85LOiRtQkLr7ORtNSVmrK4r8aUxYZ1KCibiZIS5PEv3q+DUyuszjJdezw==";
         };
+        _PAArlblb = {
+            "id" = "PAArlblb";
+            "file" = "anvilcraft_kaleidoscope-neoforge-anc-1.6-1.21.1-1.0.0+build.28.jar";
+            "hash" = "sha512-J+8yiknTpAnwdLE6duzNeGD4/cdxDnpHhOS7LcSP/KYtYfmAeY8E8bpkieEKMIFwnl0VZdSiW3F2ph3qiqQxrw==";
+        };
     in {
         "7NbALJ8E" = _7NbALJ8E;
         "Vl7BQ42O" = _Vl7BQ42O;
@@ -74,7 +79,8 @@ let
         "oIcTg7OD" = _oIcTg7OD;
         "4ICr7K0h" = _4ICr7K0h;
         "dGYz44Xw" = _dGYz44Xw;
-        "neoforge-1.21.1" = _dGYz44Xw;
+        "PAArlblb" = _PAArlblb;
+        "neoforge-1.21.1" = _PAArlblb;
         "pkg-1.21.1-1.0.0" = _7NbALJ8E;
         "pkg-1.21.1-1.0.0+build.13" = _Vl7BQ42O;
         "pkg-1.21.1-1.0.0+build.14" = _mFvhR0jH;
@@ -87,7 +93,8 @@ let
         "pkg-anc-1.6-1.21.1-1.0.0+build.25" = _oIcTg7OD;
         "pkg-anc-1.6-1.21.1-1.0.0+build.26" = _4ICr7K0h;
         "pkg-anc-1.6-1.21.1-1.0.0+build.27" = _dGYz44Xw;
-        "default" = _dGYz44Xw;
+        "pkg-anc-1.6-1.21.1-1.0.0+build.28" = _PAArlblb;
+        "default" = _PAArlblb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "anvilcraft-kaleidoscope";

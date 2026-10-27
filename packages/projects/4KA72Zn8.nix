@@ -211,6 +211,11 @@ let
             "file" = "DiSky 4.29.0.jar";
             "hash" = "sha512-4r0wtng+T1azRJ/tmtDDuspEMU8fKXL9ypbX+oCFPqwai1rmPtasFexjlPs6QPvDApS3IRkpi+Or2oZiEyCBmA==";
         };
+        _HRsUUnPC = {
+            "id" = "HRsUUnPC";
+            "file" = "DiSky-5.0.0-b1.jar";
+            "hash" = "sha512-P7hFc4iXCJbOJRC1U6mrPfCDsmgcpMFhGHvxIksUwWJhNo5MNiH00OpU29R3unEPV2NkJ57LwJLS0gWtzuPW4g==";
+        };
     in {
         "KN9EfzvV" = _KN9EfzvV;
         "JaIXgqR6" = _JaIXgqR6;
@@ -254,6 +259,7 @@ let
         "o3K7jEmU" = _o3K7jEmU;
         "zfNj3jDN" = _zfNj3jDN;
         "cgggJgFD" = _cgggJgFD;
+        "HRsUUnPC" = _HRsUUnPC;
         "paper-1.13" = _pbi7oF25;
         "paper-1.13.1" = _pbi7oF25;
         "paper-1.13.2" = _pbi7oF25;
@@ -317,16 +323,18 @@ let
         "paper-1.21.2" = _cgggJgFD;
         "paper-1.21.3" = _cgggJgFD;
         "paper-1.21.4" = _cgggJgFD;
-        "paper-1.21.5" = _cgggJgFD;
-        "paper-1.21.6" = _cgggJgFD;
-        "paper-1.21.7" = _cgggJgFD;
-        "paper-1.21.8" = _cgggJgFD;
-        "paper-1.21.9" = _cgggJgFD;
-        "paper-1.21.10" = _cgggJgFD;
-        "paper-1.21.11" = _cgggJgFD;
-        "paper-26.1" = _cgggJgFD;
-        "paper-26.1.1" = _cgggJgFD;
-        "paper-26.1.2" = _cgggJgFD;
+        "paper-1.21.5" = _HRsUUnPC;
+        "paper-1.21.6" = _HRsUUnPC;
+        "paper-1.21.7" = _HRsUUnPC;
+        "paper-1.21.8" = _HRsUUnPC;
+        "paper-1.21.9" = _HRsUUnPC;
+        "paper-1.21.10" = _HRsUUnPC;
+        "paper-1.21.11" = _HRsUUnPC;
+        "paper-26.1" = _HRsUUnPC;
+        "paper-26.1.1" = _HRsUUnPC;
+        "paper-26.1.2" = _HRsUUnPC;
+        "paper-26.2" = _HRsUUnPC;
+        "paper-26.3" = _HRsUUnPC;
         "purpur-1.13" = _EZDu9ptL;
         "purpur-1.13.1" = _EZDu9ptL;
         "purpur-1.13.2" = _EZDu9ptL;
@@ -390,16 +398,18 @@ let
         "purpur-1.21.2" = _zfNj3jDN;
         "purpur-1.21.3" = _zfNj3jDN;
         "purpur-1.21.4" = _zfNj3jDN;
-        "purpur-1.21.5" = _zfNj3jDN;
-        "purpur-1.21.6" = _zfNj3jDN;
-        "purpur-1.21.7" = _zfNj3jDN;
-        "purpur-1.21.8" = _zfNj3jDN;
-        "purpur-1.21.9" = _zfNj3jDN;
-        "purpur-1.21.10" = _zfNj3jDN;
-        "purpur-1.21.11" = _zfNj3jDN;
-        "purpur-26.1" = _zfNj3jDN;
-        "purpur-26.1.1" = _zfNj3jDN;
-        "purpur-26.1.2" = _zfNj3jDN;
+        "purpur-1.21.5" = _HRsUUnPC;
+        "purpur-1.21.6" = _HRsUUnPC;
+        "purpur-1.21.7" = _HRsUUnPC;
+        "purpur-1.21.8" = _HRsUUnPC;
+        "purpur-1.21.9" = _HRsUUnPC;
+        "purpur-1.21.10" = _HRsUUnPC;
+        "purpur-1.21.11" = _HRsUUnPC;
+        "purpur-26.1" = _HRsUUnPC;
+        "purpur-26.1.1" = _HRsUUnPC;
+        "purpur-26.1.2" = _HRsUUnPC;
+        "purpur-26.2" = _HRsUUnPC;
+        "purpur-26.3" = _HRsUUnPC;
         "spigot-1.13" = _pbi7oF25;
         "spigot-1.13.1" = _pbi7oF25;
         "spigot-1.13.2" = _pbi7oF25;
@@ -589,7 +599,8 @@ let
         "pkg-4.27.0" = _o3K7jEmU;
         "pkg-4.28.0" = _zfNj3jDN;
         "pkg-4.29.0" = _cgggJgFD;
-        "default" = _cgggJgFD;
+        "pkg-5.0.0-b1" = _HRsUUnPC;
+        "default" = _HRsUUnPC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "disky";

@@ -221,6 +221,11 @@ let
             "file" = "rarity-system-forge-2.1.4.jar";
             "hash" = "sha512-k/BbckmpvpfW6ncRh9GfR3ALlRHTNMg2VBuROIdUJi9lPxTxHHF0Ish1+5ef1OgAxwimOO1z3p2a0j3RGlwmNA==";
         };
+        _OAYLXIyA = {
+            "id" = "OAYLXIyA";
+            "file" = "rarity-system-forge-2.1.5.jar";
+            "hash" = "sha512-KZDvlLT858TKhZdP4n+vjeuBbcZDzIZ2oHcpRsi8U7j8cx5r+v6BIhQ+RD2nDgvzUKaLpgl+td/+/GUmE+Z7kg==";
+        };
     in {
         "5QvVieqe" = _5QvVieqe;
         "8A4NuPDd" = _8A4NuPDd;
@@ -266,7 +271,8 @@ let
         "v1GBBIli" = _v1GBBIli;
         "205mkXmo" = _205mkXmo;
         "2OAfHW6d" = _2OAfHW6d;
-        "forge-1.20.1" = _2OAfHW6d;
+        "OAYLXIyA" = _OAYLXIyA;
+        "forge-1.20.1" = _OAYLXIyA;
         "forge-1.20.2" = _Sphr3Tgp;
         "forge-1.20.3" = _Sphr3Tgp;
         "forge-1.20.4" = _Sphr3Tgp;
@@ -307,7 +313,8 @@ let
         "pkg-2.1.2" = _v1GBBIli;
         "pkg-2.1.3" = _205mkXmo;
         "pkg-2.1.4" = _2OAfHW6d;
-        "default" = _2OAfHW6d;
+        "pkg-2.1.5" = _OAYLXIyA;
+        "default" = _OAYLXIyA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "epic-rpg-rarity-system";

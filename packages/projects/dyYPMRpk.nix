@@ -201,6 +201,66 @@ let
             "file" = "compact-bedwars-hud-1.21.1-neoforge-1.3.jar";
             "hash" = "sha512-ta1NP0Mo28yEcSNuhbB964Vx/dmgbYhQ5+ySjL6Ywy+VFqBEtt0xWXXSapnkL6zteLbhMa5ytbE//6ZQuqsriw==";
         };
+        _5sHaNVwk = {
+            "id" = "5sHaNVwk";
+            "file" = "compact-bedwars-hud-1.21.11-fabric-1.3.1.jar";
+            "hash" = "sha512-n5eUB9t/DPPvRv27wNlBWl/Vvtm60Bd86+kS75AodabcTJdCNOJXq7ORx3GJexUPnW361OSr4F2eT+bSYaPpwQ==";
+        };
+        _ivyqBStp = {
+            "id" = "ivyqBStp";
+            "file" = "compact-bedwars-hud-1.20.1-fabric-1.3.1.jar";
+            "hash" = "sha512-av8e0LEe8NjyLyfcBc9yiMIelfUCh1whnYxCAk0/zuGHnamQqyBj1tcyweDeWFZuiGPo9mgG420934IwmP2k9A==";
+        };
+        _wDdJZr8W = {
+            "id" = "wDdJZr8W";
+            "file" = "compact-bedwars-hud-1.21.1-fabric-1.3.1.jar";
+            "hash" = "sha512-SsviPZ9OkHc64toi/1gQv4hz9e0d30Qo5OnlCThVpjwP9kO3kgO3s9d/ltERFb2MWsnZaX3TKpac1sl5j16Ffw==";
+        };
+        _eIHjeByX = {
+            "id" = "eIHjeByX";
+            "file" = "compact-bedwars-hud-1.21.4-fabric-1.3.1.jar";
+            "hash" = "sha512-MymtHH6R23SdsfruSf8cP7b0EPKiZIOLonNTvAtqRk4SXD4zdilAiIKrphq/8H1g5Tql24vh295n/qnh8+ypOA==";
+        };
+        _juqn65lT = {
+            "id" = "juqn65lT";
+            "file" = "compact-bedwars-hud-26.1.x-fabric-1.3.1.jar";
+            "hash" = "sha512-7giXvJA87Olc13aGmMW9uQS6sjmLj36wW7oHmgeHQmYp250JsGEVpbEoeT6X52QkyF+kL5bg7PvHA7pSEVNBvQ==";
+        };
+        _LoiBgQOy = {
+            "id" = "LoiBgQOy";
+            "file" = "compact-bedwars-hud-26.2-fabric-1.3.1.jar";
+            "hash" = "sha512-hYfgPjs06E1LC51J+M7f6kKRWl2KebACOJ2OCBzCNU86+/eLFiGjX1p1GbCVWLYay2kceCp7y96TSXMo2Kg15g==";
+        };
+        _DoZijEuV = {
+            "id" = "DoZijEuV";
+            "file" = "compact-bedwars-hud-26.3-fabric-1.3.1.jar";
+            "hash" = "sha512-fNTlTXTWE2L6ShdPqprJh24587P5h0XCNlcvxBpi9cSbLInCzwuI5HAUllsAaZXREA0a9vDfGkwAfe6HHln4yg==";
+        };
+        _VpUyKZ26 = {
+            "id" = "VpUyKZ26";
+            "file" = "compact-bedwars-hud-1.20.1-forge-1.3.1.jar";
+            "hash" = "sha512-Jlb1x5AC+QmV/xkxNvRj3PTO+s2FdMoc89jYq7uPp/3O7qqLeRnGNEDwRGcCxsLWTcke8RFXIT1vlqkqN4QrmQ==";
+        };
+        _wCdmWczC = {
+            "id" = "wCdmWczC";
+            "file" = "compact-bedwars-hud-1.21.1-forge-1.3.1.jar";
+            "hash" = "sha512-274EnPF+1Shg0XDlnasQLF1asK7XSmcrbLqm4oIGRahNtlIE1/5NgyLAa1Of95wd0A+gazj6sY7UY8Cx0DqRSQ==";
+        };
+        _7JMFiYue = {
+            "id" = "7JMFiYue";
+            "file" = "compact-bedwars-hud-1.8.9-forge-1.3.1.jar";
+            "hash" = "sha512-q+sXGf40vglSQMMSK0P284AXHqwrQkn9cZjYWLfX7VAuqF9Mkk1n9pTFhXGfdhj1AfuTn4EJeCckYSo+XvzsuQ==";
+        };
+        _vrZA18TQ = {
+            "id" = "vrZA18TQ";
+            "file" = "compact-bedwars-hud-1.20.1-neoforge-1.3.1.jar";
+            "hash" = "sha512-qkZn+N6gA/N+By4QTTg56xbcuC5cpbgBYjEHLw+E1A/aZ+NR9PrWnpfEVPzXntCQtCpz8bqhkxsfbK5BK6ixog==";
+        };
+        _CyGrllV2 = {
+            "id" = "CyGrllV2";
+            "file" = "compact-bedwars-hud-1.21.1-neoforge-1.3.1.jar";
+            "hash" = "sha512-pAHHVvNzBVaFqhaaUaLWN0nTtFqFAO6jKAXS42D5XDC8BPEjjqbumWH2xxASdI5KkIy0DxnSyjhY3rFA8SON4Q==";
+        };
     in {
         "ewQD1Zxk" = _ewQD1Zxk;
         "ArA0gKKn" = _ArA0gKKn;
@@ -242,27 +302,40 @@ let
         "k9wCM2DO" = _k9wCM2DO;
         "tjKBabBs" = _tjKBabBs;
         "lo34ByLX" = _lo34ByLX;
-        "fabric-1.21.11" = _EIo8IwNE;
-        "fabric-1.21.1" = _IoSC6vAv;
-        "fabric-1.20.1" = _gU7h5bXu;
-        "fabric-1.21.4" = _uBSIBJGI;
-        "fabric-26.1" = _YbLJVZHy;
-        "fabric-26.1.1" = _YbLJVZHy;
-        "fabric-26.1.2" = _YbLJVZHy;
-        "fabric-26.2" = _vCxN6kib;
-        "fabric-26.3" = _JcHJo76c;
-        "forge-1.21.1" = _Ukv0i7Tz;
-        "forge-1.20.1" = _fWLX6owD;
-        "forge-1.8.9" = _k9wCM2DO;
-        "neoforge-1.20.1" = _tjKBabBs;
-        "neoforge-1.21.1" = _lo34ByLX;
+        "5sHaNVwk" = _5sHaNVwk;
+        "ivyqBStp" = _ivyqBStp;
+        "wDdJZr8W" = _wDdJZr8W;
+        "eIHjeByX" = _eIHjeByX;
+        "juqn65lT" = _juqn65lT;
+        "LoiBgQOy" = _LoiBgQOy;
+        "DoZijEuV" = _DoZijEuV;
+        "VpUyKZ26" = _VpUyKZ26;
+        "wCdmWczC" = _wCdmWczC;
+        "7JMFiYue" = _7JMFiYue;
+        "vrZA18TQ" = _vrZA18TQ;
+        "CyGrllV2" = _CyGrllV2;
+        "fabric-1.21.11" = _5sHaNVwk;
+        "fabric-1.21.1" = _wDdJZr8W;
+        "fabric-1.20.1" = _ivyqBStp;
+        "fabric-1.21.4" = _eIHjeByX;
+        "fabric-26.1" = _juqn65lT;
+        "fabric-26.1.1" = _juqn65lT;
+        "fabric-26.1.2" = _juqn65lT;
+        "fabric-26.2" = _LoiBgQOy;
+        "fabric-26.3" = _DoZijEuV;
+        "forge-1.21.1" = _wCdmWczC;
+        "forge-1.20.1" = _VpUyKZ26;
+        "forge-1.8.9" = _7JMFiYue;
+        "neoforge-1.20.1" = _vrZA18TQ;
+        "neoforge-1.21.1" = _CyGrllV2;
         "pkg-1.0" = _ewQD1Zxk;
         "pkg-1.1" = _g4dRdqtC;
         "pkg-1.2" = _MoUKJZVm;
         "pkg-1.2.1" = _zmqpr5jE;
         "pkg-1.2.2" = _sNxe9Ag2;
         "pkg-1.3" = _lo34ByLX;
-        "default" = _lo34ByLX;
+        "pkg-1.3.1" = _CyGrllV2;
+        "default" = _CyGrllV2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "compact-bedwars-hud";

@@ -301,6 +301,16 @@ let
             "file" = "stockmarket-neoforge-1.21.1-2.1.1.jar";
             "hash" = "sha512-ZzKpu9yBByaq9IPaUhMdWOvyIE6tJ0UeTlRbvQr8wixXQNuG9KRDkmtIsH11QaOLbYUW41zuCpRVn6zY2DDAyQ==";
         };
+        _XDt9I4a9 = {
+            "id" = "XDt9I4a9";
+            "file" = "stockmarket-fabric-1.21.1-2.1.2.jar";
+            "hash" = "sha512-FV7BjsOXYMY9eVWMlo1fZZw9nkuvia1anukuLHkGtMLvd1+x8mxiCSJBp9cEORQgW1RzRgqevKvrRuy/okEPag==";
+        };
+        _Re8MzPWU = {
+            "id" = "Re8MzPWU";
+            "file" = "stockmarket-neoforge-1.21.1-2.1.2.jar";
+            "hash" = "sha512-LfJtk+q2YYj4PZV6YldpswWOETOfy5HkgawCHPV8jZwC9FcuIIQoP3ImWuwThy4UZB/dAp1X2LEiYpLxlm9UAw==";
+        };
     in {
         "vS0BBdLq" = _vS0BBdLq;
         "bPrJFWZj" = _bPrJFWZj;
@@ -362,6 +372,8 @@ let
         "Xx1yid7Q" = _Xx1yid7Q;
         "rjDqBSJY" = _rjDqBSJY;
         "hNAhTWkR" = _hNAhTWkR;
+        "XDt9I4a9" = _XDt9I4a9;
+        "Re8MzPWU" = _Re8MzPWU;
         "fabric-1.20.1" = _nSLhtRo9;
         "fabric-1.19.2" = _UqAThDcC;
         "fabric-1.19.3" = _dUADxZ7X;
@@ -369,7 +381,7 @@ let
         "fabric-1.20.2" = _RExkaSya;
         "fabric-1.20.4" = _34JBmzZF;
         "fabric-1.21" = _1FPslSum;
-        "fabric-1.21.1" = _rjDqBSJY;
+        "fabric-1.21.1" = _XDt9I4a9;
         "fabric-1.20.6" = _unaDAsZ9;
         "forge-1.20.1" = _CgSzmppo;
         "forge-1.19.2" = _LexcOyM4;
@@ -384,7 +396,7 @@ let
         "quilt-1.20.4" = _CDjHaSnC;
         "neoforge-1.20.6" = _scXN16wd;
         "neoforge-1.21" = _YEBgjhc8;
-        "neoforge-1.21.1" = _hNAhTWkR;
+        "neoforge-1.21.1" = _Re8MzPWU;
         "pkg-1.2.0" = _dKOBHxoL;
         "pkg-1.2.3" = _AK90FzCW;
         "pkg-1.3.0" = _r2VuDxHO;
@@ -394,7 +406,8 @@ let
         "pkg-1.21.1-2.0.7" = _jje7VUJW;
         "pkg-1.21.1-2.1.0" = _Xx1yid7Q;
         "pkg-1.21.1-2.1.1" = _hNAhTWkR;
-        "default" = _hNAhTWkR;
+        "pkg-1.21.1-2.1.2" = _Re8MzPWU;
+        "default" = _Re8MzPWU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kroia_stockmarket";

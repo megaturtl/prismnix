@@ -46,6 +46,26 @@ let
             "file" = "Arda's Uncrafting Table 1.3 [FORGE] [1.12.2].jar";
             "hash" = "sha512-IPf9UMqmn7EXnn1YBmIEgEoX4s9UHWLHAAzE+bD1+TlZibM1i4TYGsqbA4m3jyApytoZoWCwoT/+s9wVgbjtNQ==";
         };
+        _TpTTwcEX = {
+            "id" = "TpTTwcEX";
+            "file" = "Arda's Uncrafting Table 1.3 [BABRIC] [B1.7.3].jar";
+            "hash" = "sha512-Lq4IVL/4XwRuBTsnAFRsvGjSgQgGci/I0O9ziCRnDrFu4jl3KtrG8oZknpPLakw83S5JMq4zsXU0xi0sbb49Yg==";
+        };
+        _QV8f5nvc = {
+            "id" = "QV8f5nvc";
+            "file" = "Arda's Uncrafting Table 1.3 [NEOFORGE] [1.21.1].jar";
+            "hash" = "sha512-JSgMowDX9FfAMpVTHI8bxvs6EU4PPnYD4x+gfCBf+49T5aDjQAT4wg0u5iWOShMrhWwCiY8Rv7RPMuYizrilLA==";
+        };
+        _qznOkERs = {
+            "id" = "qznOkERs";
+            "file" = "Arda's Uncrafting Table 1.3 [FORGE] [1.20.1].jar";
+            "hash" = "sha512-DH2ybniGrP7duQ2qMZpTsaM2BAS9njqPpFvfXTsdNPyMua7ZFP6XlGEH4abKwfI2xhh1+7GMTHWYcYIUxqakag==";
+        };
+        _k8xfRAU9 = {
+            "id" = "k8xfRAU9";
+            "file" = "Arda's Uncrafting Table 1.3 [FORGE] [1.7.10].jar";
+            "hash" = "sha512-qjTOX0YjJsgr9lIf6bgDWlVqy9waQci5wS1bvqWgUy0e8v67ZOprjTqFg1hlf8HxXqM/iGlzLdsFEEDPca4P/w==";
+        };
     in {
         "Jc12IMVW" = _Jc12IMVW;
         "IVi7o3Xt" = _IVi7o3Xt;
@@ -56,16 +76,22 @@ let
         "SdDFtAoN" = _SdDFtAoN;
         "uyFh9nVP" = _uyFh9nVP;
         "k3CSQFL4" = _k3CSQFL4;
-        "neoforge-1.21.1" = _uyFh9nVP;
-        "forge-1.20.1" = _SdDFtAoN;
+        "TpTTwcEX" = _TpTTwcEX;
+        "QV8f5nvc" = _QV8f5nvc;
+        "qznOkERs" = _qznOkERs;
+        "k8xfRAU9" = _k8xfRAU9;
+        "neoforge-1.21.1" = _QV8f5nvc;
+        "forge-1.20.1" = _qznOkERs;
         "forge-1.16.5" = _Hsap4F6m;
         "forge-1.12.2" = _k3CSQFL4;
+        "forge-1.7.10" = _k8xfRAU9;
         "fabric-1.20.1" = _90KR5JIv;
+        "babric-b1.7.3" = _TpTTwcEX;
         "pkg-1.0" = _90KR5JIv;
         "pkg-1.1" = _Hsap4F6m;
         "pkg-1.2" = _uyFh9nVP;
-        "pkg-1.3" = _k3CSQFL4;
-        "default" = _k3CSQFL4;
+        "pkg-1.3" = _k8xfRAU9;
+        "default" = _k8xfRAU9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ardas-uncrafting-table";

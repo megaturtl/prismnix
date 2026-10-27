@@ -81,6 +81,11 @@ let
             "file" = "showfps-1.9.0.jar";
             "hash" = "sha512-kVLVwfF+bnSDEAeR/D6uFIbOYQoq8y7doKRSk6bSCu/PIixKrBZ6sdxHsoeDwIsFfRwexEwrPilYvd2cJRYGwg==";
         };
+        _Ibzfsq1O = {
+            "id" = "Ibzfsq1O";
+            "file" = "showfps-2.0.0.jar";
+            "hash" = "sha512-xi6Kx5R4ccYzWtVm2AfkL/CUWDXedVZm5sFgABuIBjkSkQrIgYc/o66obbC5NB9HhvEYCna3BPEisAop+2xrbw==";
+        };
     in {
         "Lr3Ub60P" = _Lr3Ub60P;
         "8hnLSxlk" = _8hnLSxlk;
@@ -98,6 +103,7 @@ let
         "mTCwL6YM" = _mTCwL6YM;
         "fpz5IhHh" = _fpz5IhHh;
         "W3ApmZJa" = _W3ApmZJa;
+        "Ibzfsq1O" = _Ibzfsq1O;
         "forge-1.20.1" = _mSDyAigZ;
         "fabric-1.21" = _52iTPzCL;
         "fabric-1.21.5" = _vsp2xb8H;
@@ -111,6 +117,7 @@ let
         "fabric-26.1.1" = _mTCwL6YM;
         "fabric-26.1.2" = _fpz5IhHh;
         "fabric-26.2" = _W3ApmZJa;
+        "fabric-26.3" = _Ibzfsq1O;
         "pkg-1.0.0" = _Lr3Ub60P;
         "pkg-1.1.0" = _8hnLSxlk;
         "pkg-1.1.1" = _dStH5pmP;
@@ -127,7 +134,8 @@ let
         "pkg-1.8.1" = _mTCwL6YM;
         "pkg-1.8.2" = _fpz5IhHh;
         "pkg-1.9.0" = _W3ApmZJa;
-        "default" = _W3ApmZJa;
+        "pkg-2.0.0" = _Ibzfsq1O;
+        "default" = _Ibzfsq1O;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "showfps";

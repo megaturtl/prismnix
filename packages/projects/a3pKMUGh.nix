@@ -86,6 +86,31 @@ let
             "file" = "kastsize-1.0.0+26.3.jar";
             "hash" = "sha512-5kpG+zGxanQJCymdQJgyvr4z5d2BRy6uCELUSleCCqNudIiYSg9kwjps45ZdoL2QBNfGxh6LMDx7FA0G1chTVw==";
         };
+        _DWU1OAcm = {
+            "id" = "DWU1OAcm";
+            "file" = "kastsize-2.0.0-1.21.11.jar";
+            "hash" = "sha512-kztju/+AEGTM1cj/V423pXRnAdINWTq7gxfcT0Ac5C+PTtEQLZX4TBti4JO5wKmasYfS7+7cfLefYzJS3+JJuw==";
+        };
+        _tmQLIcKC = {
+            "id" = "tmQLIcKC";
+            "file" = "kastsize-2.0.0-26.1.1.jar";
+            "hash" = "sha512-Tzf6AeEmQ6MTvppYM+DPryHKHuecOdLqPJkTYKl7obufUFhEGimC6muIvZAa1EdDg1hGfqmhEN7QcCcam7Kn4g==";
+        };
+        _sM8k64b2 = {
+            "id" = "sM8k64b2";
+            "file" = "kastsize-2.0.0-26.1.jar";
+            "hash" = "sha512-q55MS9kPcMUajCASCadKswEqXkYXqDhyobvQVxO0e0gB+O9+IpIGr3D0FfAX1pK5jp0kFLI3zNcUhyY8XyHhag==";
+        };
+        _7Hdl7bzd = {
+            "id" = "7Hdl7bzd";
+            "file" = "kastsize-2.0.0-26.2.jar";
+            "hash" = "sha512-HAsLr4OlF5pH+FCIXRPLf3w6ZCd/Bgrr4RE5G76bNvkvksFFSBdWLm1BwxJMXQ1v7cIeuUKFNWSu9Z+ig7MfJA==";
+        };
+        _KLWw6yyC = {
+            "id" = "KLWw6yyC";
+            "file" = "kastsize-2.0.0-26.3.jar";
+            "hash" = "sha512-K563zFhukLSS5AVvpbvJ/tJ5cRQdKVmnqIXF7tWQ75ZLg8OOEqGrqceLl4sQ8ndmpv+IvIgNbfz0FRf0bSXPXg==";
+        };
     in {
         "67gufs6L" = _67gufs6L;
         "OKjWx9ts" = _OKjWx9ts;
@@ -104,8 +129,13 @@ let
         "LLDB7Sze" = _LLDB7Sze;
         "KhQoQp8N" = _KhQoQp8N;
         "3IaMet44" = _3IaMet44;
+        "DWU1OAcm" = _DWU1OAcm;
+        "tmQLIcKC" = _tmQLIcKC;
+        "sM8k64b2" = _sM8k64b2;
+        "7Hdl7bzd" = _7Hdl7bzd;
+        "KLWw6yyC" = _KLWw6yyC;
         "fabric-1.21.10" = _67gufs6L;
-        "fabric-1.21.11" = _OKjWx9ts;
+        "fabric-1.21.11" = _DWU1OAcm;
         "fabric-1.21.9" = _z5FnS858;
         "fabric-1.21.8" = _JHVeIuqf;
         "fabric-1.21.7" = _GfEfsAgA;
@@ -117,12 +147,18 @@ let
         "fabric-1.21.1" = _PbWnOGx6;
         "fabric-1.21" = _wSwkezhv;
         "fabric-1.16.5" = _NbNeZ3R8;
-        "fabric-26.1" = _IhQQcapR;
-        "fabric-26.1.1" = _LLDB7Sze;
-        "fabric-26.2" = _KhQoQp8N;
-        "fabric-26.3" = _3IaMet44;
+        "fabric-26.1" = _sM8k64b2;
+        "fabric-26.1.1" = _sM8k64b2;
+        "fabric-26.2" = _7Hdl7bzd;
+        "fabric-26.3" = _KLWw6yyC;
+        "fabric-26.1.2" = _sM8k64b2;
         "pkg-1.0.0" = _3IaMet44;
-        "default" = _3IaMet44;
+        "pkg-2.0.0-1.21.11" = _DWU1OAcm;
+        "pkg-2.0.0-26.1.1" = _tmQLIcKC;
+        "pkg-2.0.0-26.1" = _sM8k64b2;
+        "pkg-2.0.0-26.2" = _7Hdl7bzd;
+        "pkg-2.0.0-26.3" = _KLWw6yyC;
+        "default" = _KLWw6yyC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kastsize-aspect-ratio-stretch";

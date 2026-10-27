@@ -361,6 +361,11 @@ let
             "file" = "better-nether-21.800.3.jar";
             "hash" = "sha512-C9LdhrSFDOTdGq0o3wIdNVttOHmSiQIDvfscy4cSUHEolUWbb57sYnFbDjmiE3JlIERmST3QSC4rJmh4JZqxRw==";
         };
+        _t1mgEH0G = {
+            "id" = "t1mgEH0G";
+            "file" = "better-nether-26.302.0.jar";
+            "hash" = "sha512-JZbnqqLRQ3el3qpxF5KRrTA2B8fZt69+06MnjQOXyAu2+4qZM5Yd0EZsk12hr89g7jHORsU3eUxXJL+v5bppbg==";
+        };
     in {
         "sPFMoqd5" = _sPFMoqd5;
         "MaTuYgp1" = _MaTuYgp1;
@@ -434,6 +439,7 @@ let
         "YPOCUl1I" = _YPOCUl1I;
         "MUV7eOIE" = _MUV7eOIE;
         "U02K7CUI" = _U02K7CUI;
+        "t1mgEH0G" = _t1mgEH0G;
         "fabric-1.19" = _aVzW3Afg;
         "fabric-1.19.1" = _aVzW3Afg;
         "fabric-1.19.2" = _aVzW3Afg;
@@ -454,7 +460,7 @@ let
         "fabric-26.1.2" = _MUV7eOIE;
         "fabric-26.3-snapshot-6" = _htDJeQkj;
         "fabric-26.2" = _YPOCUl1I;
-        "fabric-26.3" = _UdlwCBiL;
+        "fabric-26.3" = _t1mgEH0G;
         "pkg-7.1.1" = _sPFMoqd5;
         "pkg-7.1.2" = _MaTuYgp1;
         "pkg-8.1.0-pre1" = _jjV0S0fX;
@@ -527,7 +533,8 @@ let
         "pkg-26.201.4" = _YPOCUl1I;
         "pkg-26.101.4" = _MUV7eOIE;
         "pkg-21.800.3" = _U02K7CUI;
-        "default" = _U02K7CUI;
+        "pkg-26.302.0" = _t1mgEH0G;
+        "default" = _t1mgEH0G;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "betternether";

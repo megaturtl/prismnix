@@ -1006,6 +1006,16 @@ let
             "file" = "yyzsbackpack-0.0.11-reborn+1.21.1.jar";
             "hash" = "sha512-uNzQUFyxjMRoJT+3wPqFUKaELAA5hhbz1tkS3noscKS1Be8QE+Dh19+I7J/+tWPHPnpNCz26okL7Tajfe9Dxsw==";
         };
+        _mHFSAYGR = {
+            "id" = "mHFSAYGR";
+            "file" = "yyzsbackpack-0.0.11-reborn+1.20.1.jar";
+            "hash" = "sha512-ODjFYzuCwDun3agbfuVyXs+dTwRbQV/05GUVJhD1cTEIs3jyIJmEsBu3lkzehFZYeV2zau+3Z3Ua2tROGBe6qg==";
+        };
+        _erss7lQu = {
+            "id" = "erss7lQu";
+            "file" = "yyzsbackpack-0.0.11-reborn+1.20.1.jar";
+            "hash" = "sha512-I978WFzExwBiu3NPDVDgYGXNwz0HLcA+JWRKUiLlRJTjO3e/yQSJPHdWCHCu1SlMHdA0JNDWWVbvbDeCy34vvQ==";
+        };
     in {
         "VtFsx4a4" = _VtFsx4a4;
         "K1uzIQzr" = _K1uzIQzr;
@@ -1208,7 +1218,9 @@ let
         "HQvkmO98" = _HQvkmO98;
         "mgV3AQ27" = _mgV3AQ27;
         "IHq6KYni" = _IHq6KYni;
-        "forge-1.20.1" = _HzlWgEri;
+        "mHFSAYGR" = _mHFSAYGR;
+        "erss7lQu" = _erss7lQu;
+        "forge-1.20.1" = _erss7lQu;
         "forge-1.20.2" = _VNvlcxtt;
         "forge-1.20.3" = _VNvlcxtt;
         "forge-1.20.4" = _VNvlcxtt;
@@ -1220,7 +1232,7 @@ let
         "forge-1.18" = _qmrLFtxC;
         "forge-1.18.1" = _qmrLFtxC;
         "forge-1.18.2" = _qmrLFtxC;
-        "fabric-1.20.1" = _1lRq00dU;
+        "fabric-1.20.1" = _mHFSAYGR;
         "fabric-1.20.2" = _zgVybsNV;
         "fabric-1.20.3" = _zgVybsNV;
         "fabric-1.20.4" = _zgVybsNV;
@@ -1328,7 +1340,8 @@ let
         "pkg-0.0.10-reborn+26.3" = _V0vrucR3;
         "pkg-0.0.11-reborn+26.3" = _HQvkmO98;
         "pkg-0.0.11-reborn+1.21.1" = _IHq6KYni;
-        "default" = _IHq6KYni;
+        "pkg-0.0.11-reborn+1.20.1" = _erss7lQu;
+        "default" = _erss7lQu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "yyzs-backpack";

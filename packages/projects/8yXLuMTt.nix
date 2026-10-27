@@ -111,6 +111,26 @@ let
             "file" = "litematica-easy-place-fix-plus-1.0.21+1.21.11.jar";
             "hash" = "sha512-gUvtXHsa2m0YOaY+DJ1r1bQU+F8b4TnWEmMfQ/jiPGQXKSmnZXHcs6f9ZPejtebbEgmkQhVvIozDAlAdejlfkw==";
         };
+        _c6vxfwwb = {
+            "id" = "c6vxfwwb";
+            "file" = "litematica-easy-place-fix-plus-1.0.21+26.2.jar";
+            "hash" = "sha512-vJzUzhAD5gQ4YbWJNFbAoPyo3U+vEsvNPPWCvm6r2h5peCUR0Tu4sASQEC/D3p8zGlukaD9FI8iL3TshWBUHYw==";
+        };
+        _EzzTTtqg = {
+            "id" = "EzzTTtqg";
+            "file" = "litematica-easy-place-fix-plus-1.0.22+26.3.jar";
+            "hash" = "sha512-k20wUhtgwxv7y3gVny/fFlFOcdtn4E8/eN+uQt7Ee9vXQqnMtkKfzH9LTyBPu0JehhUEAdCNoPFaN7l1HxQK6w==";
+        };
+        _HRXzROh2 = {
+            "id" = "HRXzROh2";
+            "file" = "litematica-easy-place-fix-plus-1.0.22+26.2.jar";
+            "hash" = "sha512-SGuB9AE06d0mpLJ1HY68TlCrYOeBlKG1WYlyUZigE7ZfaBqlcX/LDPHrR1jqQ6CrSmOAbSXtRfcRKaPkILya6g==";
+        };
+        _D0PBF6pB = {
+            "id" = "D0PBF6pB";
+            "file" = "litematica-easy-place-fix-plus-1.0.22+1.21.11.jar";
+            "hash" = "sha512-HU25ma0u+ZBtvysNt2YYRW6nlY5w2YP7uUBEg8PMJYWbPj2KPHqjnQxTMj3Yc7L1AvszIKTrwVa97rqeUrziHw==";
+        };
     in {
         "XQm1wGPV" = _XQm1wGPV;
         "mzQ6OnHm" = _mzQ6OnHm;
@@ -134,9 +154,13 @@ let
         "WogXUdoj" = _WogXUdoj;
         "kmq9UOxU" = _kmq9UOxU;
         "alAr0OZD" = _alAr0OZD;
-        "fabric-26.2" = _gW2Hmsjm;
-        "fabric-26.3" = _kmq9UOxU;
-        "fabric-1.21.11" = _alAr0OZD;
+        "c6vxfwwb" = _c6vxfwwb;
+        "EzzTTtqg" = _EzzTTtqg;
+        "HRXzROh2" = _HRXzROh2;
+        "D0PBF6pB" = _D0PBF6pB;
+        "fabric-26.2" = _HRXzROh2;
+        "fabric-26.3" = _EzzTTtqg;
+        "fabric-1.21.11" = _D0PBF6pB;
         "pkg-1.0+26.2" = _XQm1wGPV;
         "pkg-1.0.1+26.2" = _mzQ6OnHm;
         "pkg-1.0.2+26.2" = _lHaKi0AG;
@@ -159,7 +183,11 @@ let
         "pkg-1.0.20+1.21.11" = _WogXUdoj;
         "pkg-1.0.21+26.3" = _kmq9UOxU;
         "pkg-1.0.21+1.21.11" = _alAr0OZD;
-        "default" = _alAr0OZD;
+        "pkg-1.0.21+26.2" = _c6vxfwwb;
+        "pkg-1.0.22+26.3" = _EzzTTtqg;
+        "pkg-1.0.22+26.2" = _HRXzROh2;
+        "pkg-1.0.22+1.21.11" = _D0PBF6pB;
+        "default" = _D0PBF6pB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "easyplacefixplus";

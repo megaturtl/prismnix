@@ -111,6 +111,26 @@ let
             "file" = "schematicindex-0.8.1+1.21.11.jar";
             "hash" = "sha512-lDUtwD/jsZBRYx89/DFQs3Cm1MzeGVbkbWppVg5lUn+vN8vWxvRW4IMOz71DALkY6pHjM807G/m5OjiLKxyh8g==";
         };
+        _6Ciud1ue = {
+            "id" = "6Ciud1ue";
+            "file" = "schematicindex-0.8.2+1.21.11.jar";
+            "hash" = "sha512-JjFcrw7uL/6oRThLRYvIGv0f+0L0ZPnfchtdONEH9tm4hfg/DOQKeWKQmI/TXfe2Y+I6T1XWaRbQhLZzNuH0Mw==";
+        };
+        _zQpg20r2 = {
+            "id" = "zQpg20r2";
+            "file" = "schematicindex-0.8.2+26.1.jar";
+            "hash" = "sha512-a5qOS+jT5S46wXqIn9xT5VkUiZ3ZFIBaCLQrNLEcciUkQafPF0ttjanFF3I4oEcbICSgqx2QpDFr+Jjkv/jtew==";
+        };
+        _D0GpYSpu = {
+            "id" = "D0GpYSpu";
+            "file" = "schematicindex-0.8.2+26.2.jar";
+            "hash" = "sha512-ijEnohxz85vUHu3VfbhIaaZ6TY/V34ErqcZcGaS4Qjt4X70HaRj8aU8BoJ6ADiHtYIFeS0F+ZzmRj7SNNTHX1w==";
+        };
+        _7Jc5cbCQ = {
+            "id" = "7Jc5cbCQ";
+            "file" = "schematicindex-0.8.2+26.3.jar";
+            "hash" = "sha512-fJDH55nXBVqvMLUmJGQwT8p9k20/KDrjNcJuLMZslePwUbTFJI00guZI5dj+TFtYS37+FNM5nAW9sZZrjR7Qiw==";
+        };
     in {
         "JTS5UaQD" = _JTS5UaQD;
         "tyqAwfVm" = _tyqAwfVm;
@@ -134,9 +154,16 @@ let
         "CiOEFAFv" = _CiOEFAFv;
         "91OIdDvt" = _91OIdDvt;
         "s8L6qHr0" = _s8L6qHr0;
-        "fabric-1.21.11" = _s8L6qHr0;
-        "fabric-26.2" = _CiOEFAFv;
-        "fabric-26.1.2" = _91OIdDvt;
+        "6Ciud1ue" = _6Ciud1ue;
+        "zQpg20r2" = _zQpg20r2;
+        "D0GpYSpu" = _D0GpYSpu;
+        "7Jc5cbCQ" = _7Jc5cbCQ;
+        "fabric-1.21.11" = _6Ciud1ue;
+        "fabric-26.2" = _D0GpYSpu;
+        "fabric-26.1.2" = _zQpg20r2;
+        "fabric-26.1" = _zQpg20r2;
+        "fabric-26.1.1" = _zQpg20r2;
+        "fabric-26.3" = _7Jc5cbCQ;
         "pkg-0.6.5" = _JTS5UaQD;
         "pkg-0.6.6+1.21.11" = _tyqAwfVm;
         "pkg-0.6.6+26.2" = _5XDQSQlH;
@@ -159,7 +186,11 @@ let
         "pkg-0.8.1+26.2" = _CiOEFAFv;
         "pkg-0.8.1+26.1.2" = _91OIdDvt;
         "pkg-0.8.1+1.21.11" = _s8L6qHr0;
-        "default" = _s8L6qHr0;
+        "pkg-0.8.2+1.21.11" = _6Ciud1ue;
+        "pkg-0.8.2+26.1" = _zQpg20r2;
+        "pkg-0.8.2+26.2" = _D0GpYSpu;
+        "pkg-0.8.2+26.3" = _7Jc5cbCQ;
+        "default" = _7Jc5cbCQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-schematic-index";

@@ -1921,6 +1921,16 @@ let
             "file" = "fzzy_config-0.7.7+fix3+26.3+neoforge.jar";
             "hash" = "sha512-+r+Wzw4aGtQJKcnifaAB/ALVVt9tCBkaKwtU4rMpQOHRkJSsA7Z1qw0JPnZcN6yWCGIfWZi8wwiSeVSV+fGiLg==";
         };
+        _81mqutcg = {
+            "id" = "81mqutcg";
+            "file" = "fzzy_config-0.7.7+fix1+1.21.3+neoforge.jar";
+            "hash" = "sha512-hlbczvUrB6p8loPhjG/OfbPQUniqeZbfLmWWnchmDppHaCwzsfa73WBOej1gM4Y0w8th6L/v8oOEtH7nieNg1A==";
+        };
+        _jRuOkBAG = {
+            "id" = "jRuOkBAG";
+            "file" = "fzzy_config-0.7.7+fix1+1.21+neoforge.jar";
+            "hash" = "sha512-fqB0rCvuNHGiE+1uVdO+r97RZjHqUX7LxnETJPavgraXydORqq3O//Z+2hPV3MK/tQETc8c6cBV2EGC22JzxXA==";
+        };
     in {
         "tEFdzg81" = _tEFdzg81;
         "oH9tBYMC" = _oH9tBYMC;
@@ -2306,6 +2316,8 @@ let
         "bJQInisc" = _bJQInisc;
         "YkOumqzV" = _YkOumqzV;
         "FS7j9uST" = _FS7j9uST;
+        "81mqutcg" = _81mqutcg;
+        "jRuOkBAG" = _jRuOkBAG;
         "fabric-1.20.1" = _JHYH0fYB;
         "fabric-1.20.5" = _Ozzrjblv;
         "fabric-1.20.6" = _Ozzrjblv;
@@ -2380,11 +2392,11 @@ let
         "neoforge-1.20.4" = _QH0fLChv;
         "neoforge-1.20.5" = _sBNunYy4;
         "neoforge-1.20.6" = _sBNunYy4;
-        "neoforge-1.21" = _uG7oHgw6;
-        "neoforge-1.21.1" = _uG7oHgw6;
-        "neoforge-1.21.2" = _v5knfNYj;
-        "neoforge-1.21.3" = _v5knfNYj;
-        "neoforge-1.21.4" = _v5knfNYj;
+        "neoforge-1.21" = _jRuOkBAG;
+        "neoforge-1.21.1" = _jRuOkBAG;
+        "neoforge-1.21.2" = _81mqutcg;
+        "neoforge-1.21.3" = _81mqutcg;
+        "neoforge-1.21.4" = _81mqutcg;
         "neoforge-1.21.5" = _8f5GOHxb;
         "neoforge-1.21.6" = _vO9PZ3UJ;
         "neoforge-1.21.7" = _i0cYEUec;
@@ -2779,7 +2791,9 @@ let
         "pkg-0.7.7+fix2+26.3+neoforge" = _bJQInisc;
         "pkg-0.7.7+fix3+26.3" = _YkOumqzV;
         "pkg-0.7.7+fix3+26.3+neoforge" = _FS7j9uST;
-        "default" = _FS7j9uST;
+        "pkg-0.7.7+fix1+1.21.3+neoforge" = _81mqutcg;
+        "pkg-0.7.7+fix1+1.21+neoforge" = _jRuOkBAG;
+        "default" = _jRuOkBAG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fzzy-config";

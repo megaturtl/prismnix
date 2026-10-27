@@ -976,6 +976,11 @@ let
             "file" = "pets-mod-0.7.9-1.5.2-ornithe.jar";
             "hash" = "sha512-vgxyYRXK59/RsmfFYqsxbPbklNdviIHx/J51wVMx8ybOz3OFPivW7EchgMAmzw0zPyQ3o2zcruEtJTkkwyY09A==";
         };
+        _y0iSoc70 = {
+            "id" = "y0iSoc70";
+            "file" = "pets-mod-0.7.9-1.8.9-ornithe+build.3.jar";
+            "hash" = "sha512-hFxK2z56Hqh3ySXumzZ1HmTV/coac7PP1lrIPjc7tsCOmOEF+NrMObQw3g2QZELPt3wAnwwRolpRPmvTB1gOhQ==";
+        };
     in {
         "QXwNiseV" = _QXwNiseV;
         "fNYBq9w9" = _fNYBq9w9;
@@ -1172,6 +1177,7 @@ let
         "2zJ2Mmkk" = _2zJ2Mmkk;
         "bJ4atTup" = _bJ4atTup;
         "UZy7OIOE" = _UZy7OIOE;
+        "y0iSoc70" = _y0iSoc70;
         "fabric-1.21.11" = _CPwFdYy0;
         "fabric-26.1" = _O9ZcoNMs;
         "fabric-26.1.1" = _O9ZcoNMs;
@@ -1365,16 +1371,16 @@ let
         "ornithe-1.9.2" = _l763xzwa;
         "ornithe-1.9.3" = _l763xzwa;
         "ornithe-1.9.4" = _l763xzwa;
-        "ornithe-1.8" = _E3OuEpri;
-        "ornithe-1.8.1" = _E3OuEpri;
-        "ornithe-1.8.2" = _E3OuEpri;
-        "ornithe-1.8.3" = _E3OuEpri;
-        "ornithe-1.8.4" = _E3OuEpri;
-        "ornithe-1.8.5" = _E3OuEpri;
-        "ornithe-1.8.6" = _E3OuEpri;
-        "ornithe-1.8.7" = _E3OuEpri;
-        "ornithe-1.8.8" = _E3OuEpri;
-        "ornithe-1.8.9" = _E3OuEpri;
+        "ornithe-1.8" = _y0iSoc70;
+        "ornithe-1.8.1" = _y0iSoc70;
+        "ornithe-1.8.2" = _y0iSoc70;
+        "ornithe-1.8.3" = _y0iSoc70;
+        "ornithe-1.8.4" = _y0iSoc70;
+        "ornithe-1.8.5" = _y0iSoc70;
+        "ornithe-1.8.6" = _y0iSoc70;
+        "ornithe-1.8.7" = _y0iSoc70;
+        "ornithe-1.8.8" = _y0iSoc70;
+        "ornithe-1.8.9" = _y0iSoc70;
         "ornithe-1.7.8" = _5lJo1S31;
         "ornithe-1.7.9" = _5lJo1S31;
         "ornithe-1.7.10" = _5lJo1S31;
@@ -1631,7 +1637,8 @@ let
         "pkg-0.7.9-1.6.4-Legacy-Fabric" = _Jz3rbV0c;
         "pkg-0.7.9-1.5.2-Ritsugamis" = _bJ4atTup;
         "pkg-0.7.9-1.5.2-Ornithe" = _UZy7OIOE;
-        "default" = _UZy7OIOE;
+        "pkg-0.7.9-1.8.9-Ornithe+build.3" = _y0iSoc70;
+        "default" = _y0iSoc70;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pets-mod";

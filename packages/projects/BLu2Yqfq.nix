@@ -106,6 +106,16 @@ let
             "file" = "create_radar-5.0-1.21.1.jar";
             "hash" = "sha512-iP8P5Fn544AuVOi0NdKkxGMpGb+9hB9SN3gK133Hkm+WPEDLpNDMzEehcumXvRvvBBdj7zNV8BdLie65KwFziA==";
         };
+        _R0YpyH4w = {
+            "id" = "R0YpyH4w";
+            "file" = "create_radar-5.0.1-1.21.1.jar";
+            "hash" = "sha512-EpoqfVVyXb0M8SdnoIFBto1jLrXDRm1gA7N7BDPML1lPLryewTn8App8ChbrjiEI7aRNwopViBPYK7n1GM+fzg==";
+        };
+        _PxQPBxAp = {
+            "id" = "PxQPBxAp";
+            "file" = "create_radar-5.0.2-1.21.1.jar";
+            "hash" = "sha512-5Ris64InPGU6ns279XOIyvPO3V14HDSTwXHalmGmyjCGzeFE0ZNnhh8HN+GUFqjF/GN7NKR4KjD9cGBAh8xDiA==";
+        };
     in {
         "7CVx0y2X" = _7CVx0y2X;
         "N8cv2ENf" = _N8cv2ENf;
@@ -128,13 +138,15 @@ let
         "ruxlsWci" = _ruxlsWci;
         "AntNFNAx" = _AntNFNAx;
         "CO03SdmX" = _CO03SdmX;
+        "R0YpyH4w" = _R0YpyH4w;
+        "PxQPBxAp" = _PxQPBxAp;
         "forge-1.20.1" = _ruxlsWci;
         "forge-1.20.2" = _ruxlsWci;
         "forge-1.20.3" = _ruxlsWci;
         "forge-1.20.4" = _ruxlsWci;
         "forge-1.20.5" = _ruxlsWci;
         "forge-1.20.6" = _ruxlsWci;
-        "neoforge-1.21.1" = _CO03SdmX;
+        "neoforge-1.21.1" = _PxQPBxAp;
         "pkg-0.1-45" = _7CVx0y2X;
         "pkg-0.1-53" = _N8cv2ENf;
         "pkg-0.1-56" = _2wqu0mPh;
@@ -152,7 +164,9 @@ let
         "pkg-0.4.5" = _ruxlsWci;
         "pkg-0.4.9.4-1.21.1" = _AntNFNAx;
         "pkg-5.0-1.21.1" = _CO03SdmX;
-        "default" = _CO03SdmX;
+        "pkg-5.0.1-1.21.1" = _R0YpyH4w;
+        "pkg-5.0.2-1.21.1" = _PxQPBxAp;
+        "default" = _PxQPBxAp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-radars";

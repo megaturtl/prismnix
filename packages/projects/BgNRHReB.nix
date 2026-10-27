@@ -431,6 +431,11 @@ let
             "file" = "bclib-3.0.16.jar";
             "hash" = "sha512-fmVzSPN/1Rh3sTKuV8XLS7421gEmOyRWNp7HmsG5eLjdPCUKrT6XjitxFl3PC4surNQhd0eqoukQs0/U/2f0aQ==";
         };
+        _P4VUgzMy = {
+            "id" = "P4VUgzMy";
+            "file" = "bclib-26.302.0.jar";
+            "hash" = "sha512-sjdvTm7KlVuTtCxAgTsn34hz9J/bVz3Oj6+cSxoWcW0CFlZrNqaIDBLm4jo0Xy1yRWFQ3n1HCgNVkWGiZ9oAHA==";
+        };
     in {
         "cMDt7fG3" = _cMDt7fG3;
         "FcJeV6Yg" = _FcJeV6Yg;
@@ -518,6 +523,7 @@ let
         "TZEtveQ9" = _TZEtveQ9;
         "cT6SaL2o" = _cT6SaL2o;
         "SF3ws3Yh" = _SF3ws3Yh;
+        "P4VUgzMy" = _P4VUgzMy;
         "fabric-1.19" = _Z8nIBt5J;
         "fabric-1.19.1" = _Z8nIBt5J;
         "fabric-1.19.2" = _Z8nIBt5J;
@@ -538,7 +544,7 @@ let
         "fabric-26.1.2" = _TZEtveQ9;
         "fabric-26.3-snapshot-6" = _31VXHys0;
         "fabric-26.2" = _WJXAZffT;
-        "fabric-26.3" = _DgMxtpAh;
+        "fabric-26.3" = _P4VUgzMy;
         "pkg-2.1.1" = _cMDt7fG3;
         "pkg-2.1.2" = _FcJeV6Yg;
         "pkg-2.1.3" = _E5bVN8yO;
@@ -625,7 +631,8 @@ let
         "pkg-26.101.4" = _TZEtveQ9;
         "pkg-21.800.3" = _cT6SaL2o;
         "pkg-3.0.16" = _SF3ws3Yh;
-        "default" = _SF3ws3Yh;
+        "pkg-26.302.0" = _P4VUgzMy;
+        "default" = _P4VUgzMy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bclib";

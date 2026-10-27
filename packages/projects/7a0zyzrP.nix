@@ -96,6 +96,11 @@ let
             "file" = "WeatherModRemasteredV1.2.96.jar";
             "hash" = "sha512-FmJSDE80wkuvmnzwf7qKGlI1ONzzjogB6bItcWnC203c7AJHeKVRcuQWnbzEyEYqVtXbRITbFlQF7yb7Zf87TQ==";
         };
+        _T7zeyE8c = {
+            "id" = "T7zeyE8c";
+            "file" = "WeatherModRemasteredV1.2.97.jar";
+            "hash" = "sha512-CA1qVqT3qQgN+CwHdPZsWiY359D+7larCNoJtE2FOfSMzsQx1cYo1ALypKO8JQhe6XRuTsaT+sM2sU0mop1xgA==";
+        };
     in {
         "UH9nBci1" = _UH9nBci1;
         "w4TD3R2i" = _w4TD3R2i;
@@ -116,13 +121,14 @@ let
         "upwzpDfb" = _upwzpDfb;
         "uW1XhA2N" = _uW1XhA2N;
         "bZP6rg2R" = _bZP6rg2R;
+        "T7zeyE8c" = _T7zeyE8c;
         "fabric-1.21.4" = _fjLuTyAm;
         "fabric-1.21.7" = _f1jXciYJ;
         "fabric-1.21.8" = _f1jXciYJ;
         "fabric-1.21.6" = _f1jXciYJ;
         "fabric-1.21.9" = _adhy1Xqo;
         "fabric-1.21.10" = _adhy1Xqo;
-        "fabric-1.21.11" = _bZP6rg2R;
+        "fabric-1.21.11" = _T7zeyE8c;
         "pkg-1.1" = _UH9nBci1;
         "pkg-1.1.2" = _w4TD3R2i;
         "pkg-1.1.3" = _fjLuTyAm;
@@ -142,7 +148,8 @@ let
         "pkg-1.2.94" = _upwzpDfb;
         "pkg-1.2.95" = _uW1XhA2N;
         "pkg-1.2.96" = _bZP6rg2R;
-        "default" = _bZP6rg2R;
+        "pkg-1.2.97" = _T7zeyE8c;
+        "default" = _T7zeyE8c;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "weather-and-tornadoes-remastered";

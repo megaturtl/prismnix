@@ -31,6 +31,11 @@ let
             "file" = "ReVespera VXPT Alpha v7 (Chocapic13 shader edit).zip";
             "hash" = "sha512-+H837lt+QAb2PvVAC9c/6SlvAdByhTiDPlBh6scXBBdmwgdCT4RtIkD3fxrFIU62AyBHqEfBFLZVu5rd/0H3ww==";
         };
+        _ky4MUuk7 = {
+            "id" = "ky4MUuk7";
+            "file" = "ReVespera VXPT Alpha v7.1 (Chocapic13 shader edit).zip";
+            "hash" = "sha512-cqX7n9hR4KtgLiiK5fysuDGDHxwf0wfbzCvcemA9pP3xX+KrL/hdK8OgBIhZ4ho7UFPyvVNGo7baSkh2UOcmkA==";
+        };
     in {
         "6Xs7eWrI" = _6Xs7eWrI;
         "myh9USO6" = _myh9USO6;
@@ -38,22 +43,24 @@ let
         "Uy4BgHnN" = _Uy4BgHnN;
         "VDFaC6ER" = _VDFaC6ER;
         "qr61mN7F" = _qr61mN7F;
-        "iris-1.21.8" = _qr61mN7F;
-        "iris-1.21.9" = _qr61mN7F;
-        "iris-1.21.10" = _qr61mN7F;
-        "iris-1.21.11" = _qr61mN7F;
-        "iris-26.1" = _qr61mN7F;
-        "iris-26.1.1" = _qr61mN7F;
-        "iris-26.1.2" = _qr61mN7F;
-        "iris-26.2" = _qr61mN7F;
-        "iris-26.3" = _qr61mN7F;
+        "ky4MUuk7" = _ky4MUuk7;
+        "iris-1.21.8" = _ky4MUuk7;
+        "iris-1.21.9" = _ky4MUuk7;
+        "iris-1.21.10" = _ky4MUuk7;
+        "iris-1.21.11" = _ky4MUuk7;
+        "iris-26.1" = _ky4MUuk7;
+        "iris-26.1.1" = _ky4MUuk7;
+        "iris-26.1.2" = _ky4MUuk7;
+        "iris-26.2" = _ky4MUuk7;
+        "iris-26.3" = _ky4MUuk7;
         "pkg-3" = _6Xs7eWrI;
         "pkg-4" = _myh9USO6;
         "pkg-5" = _smbnqXO7;
         "pkg-5.1" = _Uy4BgHnN;
         "pkg-6" = _VDFaC6ER;
         "pkg-7" = _qr61mN7F;
-        "default" = _qr61mN7F;
+        "pkg-7.1" = _ky4MUuk7;
+        "default" = _ky4MUuk7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "revesperashader";

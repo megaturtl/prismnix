@@ -26,26 +26,35 @@ let
             "file" = "gahtmod-1.1.2-mc1.21.1.jar";
             "hash" = "sha512-wkZnvC71fn03HApMfzed4BgJHrT/LaB3oO5DA4ode3Vx00fOnP0iQBzLpQTFuCfx78Cx6sI+PDktPO/SyS2anQ==";
         };
+        _D2Hvl4pH = {
+            "id" = "D2Hvl4pH";
+            "file" = "gahtmod-1.2-mc1.21.4.jar";
+            "hash" = "sha512-v5yx/XHwoFd7fvh7KXIJIu9pWoA6qjquxwffIbd40PGOoQmz6B9uGmmMljsgL3oe5ok2zfCLG7+2aJV077AsLQ==";
+        };
     in {
         "aGxfhjdm" = _aGxfhjdm;
         "m3gLmM7c" = _m3gLmM7c;
         "PO9Xzf6b" = _PO9Xzf6b;
         "Xe2ysi2W" = _Xe2ysi2W;
         "q6GP4XxT" = _q6GP4XxT;
+        "D2Hvl4pH" = _D2Hvl4pH;
         "fabric-1.20.4" = _aGxfhjdm;
         "fabric-1.20.6" = _PO9Xzf6b;
         "fabric-1.21" = _Xe2ysi2W;
         "fabric-1.21.1" = _q6GP4XxT;
+        "fabric-1.21.4" = _D2Hvl4pH;
         "quilt-1.20.4" = _aGxfhjdm;
         "quilt-1.20.6" = _PO9Xzf6b;
         "quilt-1.21" = _Xe2ysi2W;
         "quilt-1.21.1" = _q6GP4XxT;
+        "quilt-1.21.4" = _D2Hvl4pH;
         "pkg-1.0.0-mc1.20.4" = _aGxfhjdm;
         "pkg-1.1.1-mc1.20.6" = _m3gLmM7c;
         "pkg-1.1.2-mc1.20.6" = _PO9Xzf6b;
         "pkg-1.1.2-mc1.21" = _Xe2ysi2W;
         "pkg-1.1.2-mc1.21.1" = _q6GP4XxT;
-        "default" = _q6GP4XxT;
+        "pkg-1.2-mc1.21.4" = _D2Hvl4pH;
+        "default" = _D2Hvl4pH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gaht-mod";

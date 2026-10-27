@@ -241,6 +241,11 @@ let
             "file" = "worldweaver-21.800.3.jar";
             "hash" = "sha512-PQc6VkDlJuX7XqKNY0gKOhrmQPanvivfpQxIINbFj2Pfuvcceft5QMZ+jnWwg+q8yxTyBteks8B0ZhNXyhieKw==";
         };
+        _pVzJ78kH = {
+            "id" = "pVzJ78kH";
+            "file" = "worldweaver-26.302.0.jar";
+            "hash" = "sha512-kxbqkG2C4aApaG/FnfcICj0SAW+/Zhicn9CN0I5lBkwHa9c+/rRfhbEyz5ln5VwUn6GV1z58mgkxi28qOPbaBg==";
+        };
     in {
         "71qB5ADd" = _71qB5ADd;
         "OWspNUyV" = _OWspNUyV;
@@ -290,6 +295,7 @@ let
         "w2XdJLb6" = _w2XdJLb6;
         "UoxStTIn" = _UoxStTIn;
         "7AzzWJ94" = _7AzzWJ94;
+        "pVzJ78kH" = _pVzJ78kH;
         "fabric-1.21" = _mPmeykPR;
         "fabric-1.21.1" = _mPmeykPR;
         "fabric-1.21.6" = _7AzzWJ94;
@@ -300,7 +306,7 @@ let
         "fabric-26.1.2" = _UoxStTIn;
         "fabric-26.3-snapshot-6" = _3SgzOfbQ;
         "fabric-26.2" = _w2XdJLb6;
-        "fabric-26.3" = _ZICP89ny;
+        "fabric-26.3" = _pVzJ78kH;
         "pkg-21.0.0" = _71qB5ADd;
         "pkg-21.0.1" = _OWspNUyV;
         "pkg-21.0.2" = _c6sTpGND;
@@ -349,7 +355,8 @@ let
         "pkg-26.201.4" = _w2XdJLb6;
         "pkg-26.101.4" = _UoxStTIn;
         "pkg-21.800.3" = _7AzzWJ94;
-        "default" = _7AzzWJ94;
+        "pkg-26.302.0" = _pVzJ78kH;
+        "default" = _pVzJ78kH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "worldweaver";

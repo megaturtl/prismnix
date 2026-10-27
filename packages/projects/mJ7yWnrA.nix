@@ -231,6 +231,11 @@ let
             "file" = "magitech-2.4.4.jar";
             "hash" = "sha512-ZXKrd/CtnKm7rbzSI0261z+07I057MHQwyZK7N2TFmA4CbYYHZG9/P6A3PC6L2yk+F5pPAOhbt/6cZ6s1FMWzA==";
         };
+        _fGruYNk3 = {
+            "id" = "fGruYNk3";
+            "file" = "magitech-2.4.5.jar";
+            "hash" = "sha512-hDXsPyH9HhI2XyBZtvJVmCY1Y4hvDViS4RLCAkOj0hypIEkfyNu36NBtPpeBg68L10jACj3JCN4Q6ilEd8yRug==";
+        };
     in {
         "xc8mH8ny" = _xc8mH8ny;
         "9z2APDAu" = _9z2APDAu;
@@ -278,7 +283,8 @@ let
         "4gS6iLkU" = _4gS6iLkU;
         "2Y0Ahg1p" = _2Y0Ahg1p;
         "jmhWokaA" = _jmhWokaA;
-        "neoforge-1.21.1" = _jmhWokaA;
+        "fGruYNk3" = _fGruYNk3;
+        "neoforge-1.21.1" = _fGruYNk3;
         "pkg-0.4.0" = _xc8mH8ny;
         "pkg-0.4.1" = _9z2APDAu;
         "pkg-0.5.1" = _NRUlaX7K;
@@ -325,7 +331,8 @@ let
         "pkg-2.4.2" = _4gS6iLkU;
         "pkg-2.4.3" = _2Y0Ahg1p;
         "pkg-2.4.4" = _jmhWokaA;
-        "default" = _jmhWokaA;
+        "pkg-2.4.5" = _fGruYNk3;
+        "default" = _fGruYNk3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "magitech_mod";

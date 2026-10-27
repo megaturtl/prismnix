@@ -61,6 +61,11 @@ let
             "file" = "satchel_slots-2.1.2.jar";
             "hash" = "sha512-3RYftINfVfycKxnyhIdQbiC/SfqQAnf0VYBniJP8pHcmSX9DPKJoTDf0R36mSkjoef9PGiHd3pdLJ5QVZoL0tQ==";
         };
+        _npUBjKsB = {
+            "id" = "npUBjKsB";
+            "file" = "satchel_slots-2.1.2+26.3.jar";
+            "hash" = "sha512-ykB6hFmdxPfk/AeJDRWkVzZs1zNKAFozpnWdrO8eArD6HWy/wdmYZ3axtOVgnVnTsjLtLJ2wAQNiWMhuGx8Gsw==";
+        };
     in {
         "USz2YyaP" = _USz2YyaP;
         "CpFySHrL" = _CpFySHrL;
@@ -74,6 +79,7 @@ let
         "7Xo8Usnp" = _7Xo8Usnp;
         "FGSoo7tR" = _FGSoo7tR;
         "jiQxRKpG" = _jiQxRKpG;
+        "npUBjKsB" = _npUBjKsB;
         "fabric-1.18.2" = _f5O7qtye;
         "fabric-1.19" = _5Izm9L1W;
         "fabric-1.19.1" = _5Izm9L1W;
@@ -83,6 +89,7 @@ let
         "fabric-1.21.11" = _7Xo8Usnp;
         "fabric-26.1.2" = _FGSoo7tR;
         "fabric-26.2" = _jiQxRKpG;
+        "fabric-26.3" = _npUBjKsB;
         "quilt-1.18.2" = _f5O7qtye;
         "quilt-1.19" = _5Izm9L1W;
         "quilt-1.19.1" = _5Izm9L1W;
@@ -92,8 +99,10 @@ let
         "quilt-1.21.11" = _7Xo8Usnp;
         "quilt-26.1.2" = _FGSoo7tR;
         "quilt-26.2" = _jiQxRKpG;
+        "quilt-26.3" = _npUBjKsB;
         "neoforge-26.1.2" = _FGSoo7tR;
         "neoforge-26.2" = _jiQxRKpG;
+        "neoforge-26.3" = _npUBjKsB;
         "pkg-1.1.1" = _CpFySHrL;
         "pkg-1.1.2" = _5Izm9L1W;
         "pkg-2.0.0" = _9HWWh8B3;
@@ -103,7 +112,8 @@ let
         "pkg-1.21.11-2.1.2" = _7Xo8Usnp;
         "pkg-26.1.2-2.1.2" = _FGSoo7tR;
         "pkg-26.2-2.1.2" = _jiQxRKpG;
-        "default" = _jiQxRKpG;
+        "pkg-26.3-2.1.2" = _npUBjKsB;
+        "default" = _npUBjKsB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "satchel-slots";

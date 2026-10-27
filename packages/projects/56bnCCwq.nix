@@ -41,6 +41,11 @@ let
             "file" = "Slag-n-Embers-1.21.1-1.2b.jar";
             "hash" = "sha512-tIbb9bnpJ685KX22cAMiRlXXX0FavHuoc+1OyhC0jBYA/GuZ3/7tHo7/Rwfq32KFfyZeJluIgWPOtbzVwRg1Cg==";
         };
+        _TIEhyvYw = {
+            "id" = "TIEhyvYw";
+            "file" = "Slag-n-Embers-26.1.2-1.2c.beta.jar";
+            "hash" = "sha512-fyPPJabDKbNvfuUy0/5VZWvOEZyia5UVHSnSdsmUmgeWET8l1v3/rOJHIHa0YwrjcPxxNNBNSSA1OZfOVdfi1g==";
+        };
     in {
         "KsZ7bAwp" = _KsZ7bAwp;
         "TVFlR1WC" = _TVFlR1WC;
@@ -50,7 +55,9 @@ let
         "CGRQn5ML" = _CGRQn5ML;
         "JX1tQLdh" = _JX1tQLdh;
         "KfV9qBiR" = _KfV9qBiR;
+        "TIEhyvYw" = _TIEhyvYw;
         "neoforge-1.21.1" = _KfV9qBiR;
+        "neoforge-26.1.2" = _TIEhyvYw;
         "pkg-1.0" = _KsZ7bAwp;
         "pkg-1.0b" = _TVFlR1WC;
         "pkg-1.0c" = _d8Ke07XG;
@@ -59,7 +66,8 @@ let
         "pkg-1.1a" = _CGRQn5ML;
         "pkg-1.21.1-1.2a" = _JX1tQLdh;
         "pkg-1.21.1-1.2b" = _KfV9qBiR;
-        "default" = _KfV9qBiR;
+        "pkg-26.1.2-1.2c.beta" = _TIEhyvYw;
+        "default" = _TIEhyvYw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "slag-n-embers";

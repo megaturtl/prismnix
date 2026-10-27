@@ -61,6 +61,11 @@ let
             "file" = "syals_delight_gtfo-1.12.2.zip";
             "hash" = "sha512-9PnM0zjMpkaNaN3TT2Cw6bMA7kBayuc5//nlUOv78ruRfK7ikEl9QBjRzWUSkUKNaUkMvxyRKkBWtaoeoNN4kA==";
         };
+        _XQIjZ6bL = {
+            "id" = "XQIjZ6bL";
+            "file" = "syals_delight-1.12.2-1.0.1.jar";
+            "hash" = "sha512-bIbIrHhsDdU0RdpiKu1rBDkVJJ/n7Ms5gWpXY2ttNv40/Gw4CnxcH+UQ4EkgdCdCZIf8zAXXE/AKHPl03sq/rg==";
+        };
     in {
         "3p4f2SRR" = _3p4f2SRR;
         "MJeby0dW" = _MJeby0dW;
@@ -74,8 +79,9 @@ let
         "DIU8g5ht" = _DIU8g5ht;
         "3qRoFOLV" = _3qRoFOLV;
         "S0lNdz0g" = _S0lNdz0g;
+        "XQIjZ6bL" = _XQIjZ6bL;
         "forge-1.20.1" = _eOxxVc67;
-        "forge-1.12.2" = _3qRoFOLV;
+        "forge-1.12.2" = _XQIjZ6bL;
         "neoforge-1.21.1" = _D33q7AKU;
         "fabric-1.20.1" = _VEv5PxTF;
         "fabric-1.21.1" = _DIU8g5ht;
@@ -92,7 +98,8 @@ let
         "pkg-1.21.1-fabric-1.0.0" = _DIU8g5ht;
         "pkg-1.12.2-Forge-Cleanroom-1.0.0" = _3qRoFOLV;
         "pkg-SyalsdelightModernChips-1.12.2" = _S0lNdz0g;
-        "default" = _S0lNdz0g;
+        "pkg-1.12.2-Forge-Cleanroom-1.0.1" = _XQIjZ6bL;
+        "default" = _XQIjZ6bL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "syals-delight";

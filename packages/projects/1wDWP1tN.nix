@@ -221,6 +221,11 @@ let
             "file" = "ThaumicHorizons-1.8.27.jar";
             "hash" = "sha512-1Visvljh24KA+AbHsQKUEXRPfFCSaaFZQDQ5JDtmCrDJHPA7JnKPXPrO5PvfBVvP2Syn2gjgp6c+EEL7b+X8SQ==";
         };
+        _CAxsiiqV = {
+            "id" = "CAxsiiqV";
+            "file" = "ThaumicHorizons-1.8.28.jar";
+            "hash" = "sha512-uLrjxa+0soMXgtSSlx78dd8XwGqyArRxvLfJl0zN/55jlx5UmF8PWxXBN4bgJeLtGjqORbPSed0un5EuRc0z4g==";
+        };
     in {
         "Hmg5SE1K" = _Hmg5SE1K;
         "p5zpAgDj" = _p5zpAgDj;
@@ -266,7 +271,8 @@ let
         "ngMLyPBx" = _ngMLyPBx;
         "jnIuVWyC" = _jnIuVWyC;
         "s2QeQsPh" = _s2QeQsPh;
-        "forge-1.7.10" = _s2QeQsPh;
+        "CAxsiiqV" = _CAxsiiqV;
+        "forge-1.7.10" = _CAxsiiqV;
         "pkg-1.3.2" = _Hmg5SE1K;
         "pkg-1.3.4" = _p5zpAgDj;
         "pkg-1.3.5" = _4v2m9MXY;
@@ -311,7 +317,8 @@ let
         "pkg-1.8.25" = _ngMLyPBx;
         "pkg-1.8.26" = _jnIuVWyC;
         "pkg-1.8.27" = _s2QeQsPh;
-        "default" = _s2QeQsPh;
+        "pkg-1.8.28" = _CAxsiiqV;
+        "default" = _CAxsiiqV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "thaumic-horizons";

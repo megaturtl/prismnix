@@ -61,6 +61,16 @@ let
             "file" = "winefoxs_spellbooks-1.21.1-1.0.1.jar";
             "hash" = "sha512-8jYtlpH4tWRpRELHHfDQTXksELKZ2xgshcuMk0VJMJJCUqOFdqvnzHqBe++/YuVsgvbo77okPVmWcBKCqOvhag==";
         };
+        _98wbJtM2 = {
+            "id" = "98wbJtM2";
+            "file" = "winefoxs_spellbooks-1.21.1-1.0.2.jar";
+            "hash" = "sha512-YIhuCsLtRdu8KktptAJiL9Xe2KEjRlFaFwaMhFDbsdC50XVN9rFXsJlIVWutGJnN0iNruzdAyWx5thMy5KduIA==";
+        };
+        _jciCjRIM = {
+            "id" = "jciCjRIM";
+            "file" = "winefoxs_spellbooks-1.21.1-1.0.3.jar";
+            "hash" = "sha512-itN6ylaQuJx20Xffsmhw4PJ+3Vt7dBD1+Izr4ae0gJq1wLK88HkMmZX1gtOLP4f8jWfXkljaqYksMQ06GXbV6w==";
+        };
     in {
         "89FnIbse" = _89FnIbse;
         "QObMOr8m" = _QObMOr8m;
@@ -74,7 +84,9 @@ let
         "39lSLf3I" = _39lSLf3I;
         "41hivtFC" = _41hivtFC;
         "5ymEZzTk" = _5ymEZzTk;
-        "neoforge-1.21.1" = _5ymEZzTk;
+        "98wbJtM2" = _98wbJtM2;
+        "jciCjRIM" = _jciCjRIM;
+        "neoforge-1.21.1" = _jciCjRIM;
         "pkg-1.0.0-beta.2" = _89FnIbse;
         "pkg-1.0.0-beta.3" = _QObMOr8m;
         "pkg-1.0.0-beta.4" = _GOc3yjk3;
@@ -87,7 +99,9 @@ let
         "pkg-1.0.0-beta.11" = _39lSLf3I;
         "pkg-1.0.0" = _41hivtFC;
         "pkg-1.0.1" = _5ymEZzTk;
-        "default" = _5ymEZzTk;
+        "pkg-1.0.2" = _98wbJtM2;
+        "pkg-1.0.3" = _jciCjRIM;
+        "default" = _jciCjRIM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "winefoxs_spellbooks";

@@ -21,17 +21,24 @@ let
             "file" = "RLCombat-1.12.2-2.2.5.jar";
             "hash" = "sha512-N4j0xPgY9tgT+8qA9MzTimY33WLnBO29qpOQ2tx78NeU587b/EQXXml0dxVBLQ6g0BXFUauazC5sA8paUFYbmQ==";
         };
+        _WofKu1rW = {
+            "id" = "WofKu1rW";
+            "file" = "RLCombat-1.12.2-2.2.6.jar";
+            "hash" = "sha512-yaZN5P1e6u7gTKzNzDHPQ/kTAOP7Rt1jPvy2x4HdaqbPEvvlvDaUWXcWFxZyIl/6ea1boeveEmkm8tz67k3BBw==";
+        };
     in {
         "C0NERnvt" = _C0NERnvt;
         "rfFs4mr6" = _rfFs4mr6;
         "6P1rF2qs" = _6P1rF2qs;
         "BFL1JhCj" = _BFL1JhCj;
-        "forge-1.12.2" = _BFL1JhCj;
+        "WofKu1rW" = _WofKu1rW;
+        "forge-1.12.2" = _WofKu1rW;
         "pkg-2.0.8" = _C0NERnvt;
         "pkg-2.2.0" = _rfFs4mr6;
         "pkg-2.2.1" = _6P1rF2qs;
         "pkg-2.2.5" = _BFL1JhCj;
-        "default" = _BFL1JhCj;
+        "pkg-2.2.6" = _WofKu1rW;
+        "default" = _WofKu1rW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rlcombat";

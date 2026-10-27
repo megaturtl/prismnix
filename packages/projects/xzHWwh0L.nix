@@ -91,6 +91,11 @@ let
             "file" = "sharedhealth-1.2.12.jar";
             "hash" = "sha512-2JweuLPrHE5Z7DCqmSu186DWDiSWbhrMdyhCTzFGxqK6yJuqChO/IfK45CNohvRDXheeLXuwJ5Gw9v/mHWF2Cw==";
         };
+        _BPWqdw1B = {
+            "id" = "BPWqdw1B";
+            "file" = "sharedhealth-1.2.13.jar";
+            "hash" = "sha512-qUzDVMpuZP29etoICrt81VlV+5pYZ4Gy7PBJvLGo9KzvL6/wFKwKbYPDmSTVRDN9ROaOWyp9fmAtdopMZ3SZTg==";
+        };
     in {
         "fC2iOGKl" = _fC2iOGKl;
         "lmjdd5ot" = _lmjdd5ot;
@@ -110,6 +115,7 @@ let
         "aTxOymJk" = _aTxOymJk;
         "XRAfrR0r" = _XRAfrR0r;
         "IJ1hbDL0" = _IJ1hbDL0;
+        "BPWqdw1B" = _BPWqdw1B;
         "fabric-1.20.1" = _XXnbe1C8;
         "fabric-1.20.2" = _lmjdd5ot;
         "fabric-1.20.4" = _QRd5zpnA;
@@ -126,6 +132,7 @@ let
         "fabric-26.1.1" = _XRAfrR0r;
         "fabric-26.1.2" = _XRAfrR0r;
         "fabric-26.2" = _IJ1hbDL0;
+        "fabric-26.3" = _BPWqdw1B;
         "pkg-1.0.0_01" = _fC2iOGKl;
         "pkg-1.1.0" = _lmjdd5ot;
         "pkg-1.2.0" = _JQRzt39J;
@@ -141,7 +148,8 @@ let
         "pkg-1.2.10" = _aTxOymJk;
         "pkg-1.2.11" = _XRAfrR0r;
         "pkg-1.2.12" = _IJ1hbDL0;
-        "default" = _IJ1hbDL0;
+        "pkg-1.2.13" = _BPWqdw1B;
+        "default" = _BPWqdw1B;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sharedhealth";

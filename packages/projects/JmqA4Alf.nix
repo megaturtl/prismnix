@@ -461,6 +461,21 @@ let
             "file" = "litematica-material-hud-1.0.21+1.21.11.jar";
             "hash" = "sha512-4yuK2ypYxXoM5ne06OAX6wIEuS+KH14WD79Hdcls5oV0UiZd3/iaEUkPv61we/OSa6yG7uHKNugZb5oxj7Gzgw==";
         };
+        _FOehq8jL = {
+            "id" = "FOehq8jL";
+            "file" = "litematica-material-hud-1.0.22+26.3.jar";
+            "hash" = "sha512-ZsZQHMrV9xEef69R8aqDE4kRl5Kwsmnn7iK7DmM2l0K0IFajWBldj1lGlptQN5IUtauQZqbUn2zknc4bO+PiHA==";
+        };
+        _p89RJqWd = {
+            "id" = "p89RJqWd";
+            "file" = "litematica-material-hud-1.0.22+26.2.jar";
+            "hash" = "sha512-lZtXiikEppCLKNCkWdyotGj0A36LH4LEfw10CzX2PHTagi9ygYOHi46CscTo7D/A0tg/vviKsm/1giFLqSV0VA==";
+        };
+        _tMy3mbf5 = {
+            "id" = "tMy3mbf5";
+            "file" = "litematica-material-hud-1.0.22+1.21.11.jar";
+            "hash" = "sha512-7/VicCeG/Cpj9oNyk5eMDykVe/7yaRjXZ7RwYyCr6v8VhzLruk4TSc1aYjT3pQL56x2ongxBUxL9Fp0dzbjnyw==";
+        };
     in {
         "z2IZqkAA" = _z2IZqkAA;
         "WtOCkLpA" = _WtOCkLpA;
@@ -554,12 +569,15 @@ let
         "q8OO0o6m" = _q8OO0o6m;
         "AWTDTc42" = _AWTDTc42;
         "9WbfI8An" = _9WbfI8An;
-        "fabric-26.2" = _AWTDTc42;
-        "fabric-1.21.11" = _9WbfI8An;
+        "FOehq8jL" = _FOehq8jL;
+        "p89RJqWd" = _p89RJqWd;
+        "tMy3mbf5" = _tMy3mbf5;
+        "fabric-26.2" = _p89RJqWd;
+        "fabric-1.21.11" = _tMy3mbf5;
         "fabric-26.1" = _8wVTpizB;
         "fabric-26.1.1" = _8wVTpizB;
         "fabric-26.1.2" = _8wVTpizB;
-        "fabric-26.3" = _q8OO0o6m;
+        "fabric-26.3" = _FOehq8jL;
         "pkg-0.0.1+26.2" = _z2IZqkAA;
         "pkg-0.0.2+26.2" = _WtOCkLpA;
         "pkg-0.0.2+1.21.11" = _S45x0GGc;
@@ -652,7 +670,10 @@ let
         "pkg-1.0.21+26.3" = _q8OO0o6m;
         "pkg-1.0.21+26.2" = _AWTDTc42;
         "pkg-1.0.21+1.21.11" = _9WbfI8An;
-        "default" = _9WbfI8An;
+        "pkg-1.0.22+26.3" = _FOehq8jL;
+        "pkg-1.0.22+26.2" = _p89RJqWd;
+        "pkg-1.0.22+1.21.11" = _tMy3mbf5;
+        "default" = _tMy3mbf5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "material-hud";

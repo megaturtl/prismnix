@@ -361,6 +361,21 @@ let
             "file" = "kingdom_come_combat-1.7.4+neoforge-mc1.21.1.jar";
             "hash" = "sha512-JwDLbt2JTOqwdbKrEeDUo+ITe7ZJJJwqSjfm90n0mGhcrkjvcfzy5sts9NbC+3ZIWcsBsLfc2Y1GPunj4pzMzA==";
         };
+        _c1P4EGvK = {
+            "id" = "c1P4EGvK";
+            "file" = "kingdom_come_combat-1.7.5+neoforge-mc1.21.1.jar";
+            "hash" = "sha512-UfaBbNmDKlwzZ+MRdf6alB6x4BfTZLDtqBUxPxrUYmd2ikCJ44Z6LZcMWJ/ma9Xr1sq7c0oioSRa243cZ8/qjA==";
+        };
+        _it1KwLQC = {
+            "id" = "it1KwLQC";
+            "file" = "kingdom_come_combat-1.7.5+fabric-mc1.21.11.jar";
+            "hash" = "sha512-xFdbkTCEIxJuslccOl0R/+U+lfrU+6neW0rRM6gZ7EkyqCT22ezAJY4TXg0Qcs44Y5RTzoECqtNAnyb/7gYN6Q==";
+        };
+        _oTtLlo5U = {
+            "id" = "oTtLlo5U";
+            "file" = "kingdom_come_combat-1.7.5+fabric-mc1.21.1.jar";
+            "hash" = "sha512-xPnotnV2OPu4DBBBZ1g0qFdesf4fg2W91UJUQq6xNxPOfbQbdqF4DwkJiSILMSLcTEBXx6dM42F5oFxJjSRVXw==";
+        };
     in {
         "FKiZVsg3" = _FKiZVsg3;
         "poH3Tte9" = _poH3Tte9;
@@ -434,13 +449,16 @@ let
         "gVNlZ5sO" = _gVNlZ5sO;
         "dPWMfFUx" = _dPWMfFUx;
         "cbn8K8Ic" = _cbn8K8Ic;
+        "c1P4EGvK" = _c1P4EGvK;
+        "it1KwLQC" = _it1KwLQC;
+        "oTtLlo5U" = _oTtLlo5U;
         "fabric-1.21.7" = _BUJDKXJx;
         "fabric-1.21.8" = _BUJDKXJx;
-        "fabric-1.21.11" = _dPWMfFUx;
+        "fabric-1.21.11" = _it1KwLQC;
         "fabric-1.21.10" = _gVNlZ5sO;
-        "fabric-1.21.1" = _zfuzqOhB;
+        "fabric-1.21.1" = _oTtLlo5U;
         "fabric-1.21.6" = _BUJDKXJx;
-        "neoforge-1.21.1" = _cbn8K8Ic;
+        "neoforge-1.21.1" = _c1P4EGvK;
         "pkg-1.0.0" = _poH3Tte9;
         "pkg-1.0.1" = _Dpdq7RPj;
         "pkg-1.3.1" = _8m9AH0Pc;
@@ -457,7 +475,8 @@ let
         "pkg-1.7.2" = _rgjhEkaK;
         "pkg-1.7.3" = _QpqEUVir;
         "pkg-1.7.4" = _cbn8K8Ic;
-        "default" = _cbn8K8Ic;
+        "pkg-1.7.5" = _oTtLlo5U;
+        "default" = _oTtLlo5U;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kingdomcome-combat";

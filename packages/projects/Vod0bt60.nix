@@ -61,6 +61,46 @@ let
             "file" = "Barsita-1.20-1.1.2-Forge.jar";
             "hash" = "sha512-hu2NB0VEaoJLcvqyU1IfPUHmjY2Qhe6kDqt5GLsojxVZL7FkLza2RU1hD1J1nuJzMvKoe8AeN+x5Ywydw9wKmw==";
         };
+        _EbES2TiA = {
+            "id" = "EbES2TiA";
+            "file" = "Barista-1.21.1-1.3.0-Fabric.jar";
+            "hash" = "sha512-su6kveJFxT8/eyQ76sdU4uWKU15s9YtDIaNxt27r7IbAWFJs5RdlMrbV03vxGb8HTvxu/cpcj5OeoemIlFcWZg==";
+        };
+        _NN3QM8qz = {
+            "id" = "NN3QM8qz";
+            "file" = "Barista-1.21.1-1.3.0.jar";
+            "hash" = "sha512-rqkkkIaDtGQhV/y6s7FEl25ywfmsiiUBvZKbV8Gu8OJZV1P9whuJel4fjyqiBz5L3HGvGvZ60tD+tqtublpoWQ==";
+        };
+        _iUJX7nTx = {
+            "id" = "iUJX7nTx";
+            "file" = "Barista-1.21.1-1.3.1-Fabric.jar";
+            "hash" = "sha512-En7+4Y9ZmZWr3L/guTM82XB+7GzyfrUzSn4hJsXlp/c8V245eqA3OugiiXhuKIUCyZUCLHwYtyUEYH3vaXktrQ==";
+        };
+        _eONiFYP2 = {
+            "id" = "eONiFYP2";
+            "file" = "Barista-1.21.1-1.3.1.jar";
+            "hash" = "sha512-akpRZdWAjVPALTTGUGaqbblapB8RMfO7CwUe2ayRGK0yb3r1kjvWqOLn95S4u7Kld+YfwexuawF6EANnkL9A3g==";
+        };
+        _w26atkHn = {
+            "id" = "w26atkHn";
+            "file" = "Barista-26.2-1.4.0-Fabric.jar";
+            "hash" = "sha512-ahbcafe5ypV3+ggoAfcscvMw/5n08ARXIQYwJKHSS8vh7qf+bsxXYuqo9FARi8neeKbJ0RI1qONrjrxNCQ1iwg==";
+        };
+        _OsUrIegV = {
+            "id" = "OsUrIegV";
+            "file" = "Barista-26.2-1.4.0.jar";
+            "hash" = "sha512-aGFVFFWZvyh3vBUyF1Wqsr38P3UYEsBWUVPEYEUoZ57D2Auq+khPkvhtkc63vLfg3GlAp1igOAVh0kTP8v9KfA==";
+        };
+        _XoCusNwW = {
+            "id" = "XoCusNwW";
+            "file" = "Barista-26.3-1.4.0-Fabric.jar";
+            "hash" = "sha512-UTrAVmX/UlLuKPgz4Mwtgk14dp1y4zziz4g9tWX/b8VvL5GeT6FEGWMKha70zGA0urt20XC1mOpEkakyFp4Afw==";
+        };
+        _V2wQWxuU = {
+            "id" = "V2wQWxuU";
+            "file" = "Barista-26.3-1.4.0.jar";
+            "hash" = "sha512-SIbB0OaaYxrcM40hBSlfh4brTyyP32+N299XE2jPESxICFQ2evIYoP5w6o5aqPgxO78ydU+EzI8tGi+DoUIspg==";
+        };
     in {
         "i4daCMnT" = _i4daCMnT;
         "uYTXf3SH" = _uYTXf3SH;
@@ -74,6 +114,14 @@ let
         "5jaUxwc4" = _5jaUxwc4;
         "9QbN3akF" = _9QbN3akF;
         "mglZYfss" = _mglZYfss;
+        "EbES2TiA" = _EbES2TiA;
+        "NN3QM8qz" = _NN3QM8qz;
+        "iUJX7nTx" = _iUJX7nTx;
+        "eONiFYP2" = _eONiFYP2;
+        "w26atkHn" = _w26atkHn;
+        "OsUrIegV" = _OsUrIegV;
+        "XoCusNwW" = _XoCusNwW;
+        "V2wQWxuU" = _V2wQWxuU;
         "fabric-1.16" = _i4daCMnT;
         "fabric-1.16.1" = _i4daCMnT;
         "fabric-1.16.2" = _i4daCMnT;
@@ -91,6 +139,9 @@ let
         "fabric-1.19.3" = _TMOCiKtR;
         "fabric-1.19.4" = _sMSCkcxP;
         "fabric-1.20" = _9QbN3akF;
+        "fabric-1.21.1" = _iUJX7nTx;
+        "fabric-26.2" = _w26atkHn;
+        "fabric-26.3" = _XoCusNwW;
         "forge-1.16" = _uYTXf3SH;
         "forge-1.16.1" = _uYTXf3SH;
         "forge-1.16.2" = _uYTXf3SH;
@@ -108,9 +159,20 @@ let
         "forge-1.19.3" = _QJRPkPTO;
         "forge-1.19.4" = _5jaUxwc4;
         "forge-1.20" = _mglZYfss;
+        "neoforge-1.21.1" = _eONiFYP2;
+        "neoforge-26.2" = _OsUrIegV;
+        "neoforge-26.3" = _V2wQWxuU;
         "pkg-1.0.2" = _ORAj2cIE;
         "pkg-1.1.2" = _mglZYfss;
-        "default" = _mglZYfss;
+        "pkg-1.21.1-1.3.0-Fabric" = _EbES2TiA;
+        "pkg-1.21.1-1.3.0-NeoForge" = _NN3QM8qz;
+        "pkg-1.21.1-1.3.1-Fabric" = _iUJX7nTx;
+        "pkg-1.21.1-1.3.1-NeoForge" = _eONiFYP2;
+        "pkg-26.2-1.4.0-Fabric" = _w26atkHn;
+        "pkg-26.2-1.4.0-NeoForge" = _OsUrIegV;
+        "pkg-26.3-1.4.0-Fabric" = _XoCusNwW;
+        "pkg-26.3-1.4.0-NeoForge" = _V2wQWxuU;
+        "default" = _V2wQWxuU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "barista";

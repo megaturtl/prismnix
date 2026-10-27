@@ -51,6 +51,11 @@ let
             "file" = "mobeffectsvfx-1.21.1-1.1.jar";
             "hash" = "sha512-8cOHDACDkWgTvbyIz6xxHcxI3mCU3hDZylyvxZNbmjBYgx7ZyyCkY8aRjK4uIBFxr5Hh7M/MEd4z1QdGo2FMdA==";
         };
+        _wCxKWa6w = {
+            "id" = "wCxKWa6w";
+            "file" = "mobeffectsvfx-26.2-1.0.jar";
+            "hash" = "sha512-DGkV1knNn9lEyp8Tcn5vLIlWg9PZCPUz4gTYX2k3PY8N6qPha1jsxnV1RWQg/SHoDkcH+xN6x/5MYsRkv3wBPQ==";
+        };
     in {
         "KZ0ESVx4" = _KZ0ESVx4;
         "CDbyuTxN" = _CDbyuTxN;
@@ -62,11 +67,13 @@ let
         "P3YlY8ZQ" = _P3YlY8ZQ;
         "737hukxL" = _737hukxL;
         "4i8kZCqW" = _4i8kZCqW;
+        "wCxKWa6w" = _wCxKWa6w;
         "forge-1.20.1" = _OYL8P9EI;
         "neoforge-1.20.1" = _OYL8P9EI;
         "neoforge-1.21.1" = _4i8kZCqW;
         "neoforge-26.1.2" = _737hukxL;
         "neoforge-26.3" = _P3YlY8ZQ;
+        "neoforge-26.2" = _wCxKWa6w;
         "pkg-0.6" = _KZ0ESVx4;
         "pkg-0.7" = _CDbyuTxN;
         "pkg-0.8" = _OYL8P9EI;
@@ -77,7 +84,8 @@ let
         "pkg-26.3-1.0" = _P3YlY8ZQ;
         "pkg-26.1.2-1.1" = _737hukxL;
         "pkg-1.21.1-1.1" = _4i8kZCqW;
-        "default" = _4i8kZCqW;
+        "pkg-26.2-1.0" = _wCxKWa6w;
+        "default" = _wCxKWa6w;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mobeffectsvfx";

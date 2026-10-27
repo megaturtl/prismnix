@@ -136,6 +136,16 @@ let
             "file" = "Sortilege-1.21.1-9.1.jar";
             "hash" = "sha512-ekRevn/p8Us/UDLDhzguOPH1e09BRdghkQ3tSlrgekgroHI7msxcUrCfNQFyfLiwZ6kSrgqndiSKellzKk3Ecg==";
         };
+        _3yzjwmDd = {
+            "id" = "3yzjwmDd";
+            "file" = "Sortilege-1.21.1-9.2.jar";
+            "hash" = "sha512-OORLkagQekLEn1iq19bPPEsw6Wg5KRoZTluKbtK9ILuhwTY2oBMmIIcNMaWBLKalkKuLVE/cHbD09m6ATxFNgw==";
+        };
+        _grkVZSuP = {
+            "id" = "grkVZSuP";
+            "file" = "Sortilege-Neo-1.21.1-9.2.jar";
+            "hash" = "sha512-1+fDlvaR27jm+1E+sPAPNyxYMg/GrloWU7g3oXjrWh6mcohE1hAvmKk1azD1wN/hFPY6iWcMMU6/VpEiQVUPow==";
+        };
     in {
         "ZdpxKq4X" = _ZdpxKq4X;
         "RpefRDxX" = _RpefRDxX;
@@ -164,6 +174,8 @@ let
         "3e9uICRH" = _3e9uICRH;
         "qsvS3NyS" = _qsvS3NyS;
         "rCyUF4f0" = _rCyUF4f0;
+        "3yzjwmDd" = _3yzjwmDd;
+        "grkVZSuP" = _grkVZSuP;
         "forge-1.19.2" = _FqaulnOl;
         "forge-1.19.3" = _FqaulnOl;
         "forge-1.19.4" = _FqaulnOl;
@@ -173,7 +185,28 @@ let
         "fabric-1.20.4" = _qsvS3NyS;
         "fabric-1.20.5" = _qsvS3NyS;
         "fabric-1.20.6" = _qsvS3NyS;
-        "fabric-1.21.1" = _rCyUF4f0;
+        "fabric-1.21.1" = _3yzjwmDd;
+        "fabric-1.21.2" = _3yzjwmDd;
+        "fabric-1.21.3" = _3yzjwmDd;
+        "fabric-1.21.4" = _3yzjwmDd;
+        "fabric-1.21.5" = _3yzjwmDd;
+        "fabric-1.21.6" = _3yzjwmDd;
+        "fabric-1.21.7" = _3yzjwmDd;
+        "fabric-1.21.8" = _3yzjwmDd;
+        "fabric-1.21.9" = _3yzjwmDd;
+        "fabric-1.21.10" = _3yzjwmDd;
+        "fabric-1.21.11" = _3yzjwmDd;
+        "neoforge-1.21.1" = _grkVZSuP;
+        "neoforge-1.21.2" = _grkVZSuP;
+        "neoforge-1.21.3" = _grkVZSuP;
+        "neoforge-1.21.4" = _grkVZSuP;
+        "neoforge-1.21.5" = _grkVZSuP;
+        "neoforge-1.21.6" = _grkVZSuP;
+        "neoforge-1.21.7" = _grkVZSuP;
+        "neoforge-1.21.8" = _grkVZSuP;
+        "neoforge-1.21.9" = _grkVZSuP;
+        "neoforge-1.21.10" = _grkVZSuP;
+        "neoforge-1.21.11" = _grkVZSuP;
         "pkg-5.0" = _ZdpxKq4X;
         "pkg-5.1" = _RpefRDxX;
         "pkg-5.2" = _cctHDRxS;
@@ -198,7 +231,9 @@ let
         "pkg-8.3" = _3e9uICRH;
         "pkg-9.0" = _qsvS3NyS;
         "pkg-fabric-1.21.1-9.1" = _rCyUF4f0;
-        "default" = _rCyUF4f0;
+        "pkg-fabric-1.21.1-9.2" = _3yzjwmDd;
+        "pkg-neo-1.21.1-9.2" = _grkVZSuP;
+        "default" = _grkVZSuP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sortilege";

@@ -126,6 +126,11 @@ let
             "file" = "simple-armor-hud-26.2-1.10.0.jar";
             "hash" = "sha512-0zPCbjBV27X4pMxZyOTopPIc08onPDEh422IP5vLljzZgHNCt8lswnVMoXvuefwcIGaskqZGzCzlFabr+Xei8w==";
         };
+        _RNWNxB9a = {
+            "id" = "RNWNxB9a";
+            "file" = "simple-armor-hud-26.3-1.10.0.jar";
+            "hash" = "sha512-wYwJTxY7GDVcpyXcrRDA+Lpj09OW7mmv+N7jom8EBGrVdSzqrfO115Fgwp+t+rbuFp8aB/+hZ97gH6UWhrcxlQ==";
+        };
     in {
         "L5KH45lm" = _L5KH45lm;
         "vrRpPtzm" = _vrRpPtzm;
@@ -152,6 +157,7 @@ let
         "9Um2oTZ9" = _9Um2oTZ9;
         "U4diXqQG" = _U4diXqQG;
         "2ykDDaNM" = _2ykDDaNM;
+        "RNWNxB9a" = _RNWNxB9a;
         "fabric-1.19.4" = _vrRpPtzm;
         "fabric-1.20-rc1" = _pSdkZeTW;
         "fabric-1.20" = _qZuBkKeD;
@@ -174,6 +180,7 @@ let
         "fabric-26.1.1" = _U4diXqQG;
         "fabric-26.1.2" = _U4diXqQG;
         "fabric-26.2" = _2ykDDaNM;
+        "fabric-26.3" = _RNWNxB9a;
         "pkg-1.2.3-1.19.4" = _L5KH45lm;
         "pkg-1.3.0-1.19.4" = _vrRpPtzm;
         "pkg-1.3.0-1.20-rc1" = _pSdkZeTW;
@@ -199,7 +206,8 @@ let
         "pkg-1.9.0-26.1" = _9Um2oTZ9;
         "pkg-1.9.1-26.1" = _U4diXqQG;
         "pkg-1.10.0-26.2" = _2ykDDaNM;
-        "default" = _2ykDDaNM;
+        "pkg-1.10.0-26.3" = _RNWNxB9a;
+        "default" = _RNWNxB9a;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-armor-hud";

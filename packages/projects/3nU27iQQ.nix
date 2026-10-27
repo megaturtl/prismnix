@@ -41,6 +41,11 @@ let
             "file" = "fast-xp-1.0.0.jar";
             "hash" = "sha512-GHvtq0YDiO4kbU5RZFZBYaFBGQyus9noHP/Niubx6auJ7t06U0R0ahEdxta0Nc4ATWgXrnUlK8raU6vFuG1PTQ==";
         };
+        _MrMo7Ohv = {
+            "id" = "MrMo7Ohv";
+            "file" = "fastxp-1.0.0.jar";
+            "hash" = "sha512-t1vsnFGdPL7ErOB++/qLgw+WaQL+XRgO6Dx1jZfoeAqwkyrFcrl4I7pyba9hT2Vxb3taim1gh1dod5NVkBPEGA==";
+        };
     in {
         "xXhDcK6b" = _xXhDcK6b;
         "poxBC607" = _poxBC607;
@@ -50,6 +55,7 @@ let
         "qZ7hgZme" = _qZ7hgZme;
         "aGMUNKzY" = _aGMUNKzY;
         "m7pmroo5" = _m7pmroo5;
+        "MrMo7Ohv" = _MrMo7Ohv;
         "fabric-1.21.4" = _m7pmroo5;
         "fabric-1.21.8" = _m7pmroo5;
         "fabric-1.21.10" = _m7pmroo5;
@@ -59,8 +65,9 @@ let
         "fabric-1.21.6" = _m7pmroo5;
         "fabric-1.21.7" = _m7pmroo5;
         "fabric-1.21.9" = _m7pmroo5;
-        "pkg-1.0.0" = _m7pmroo5;
-        "default" = _m7pmroo5;
+        "neoforge-1.21.11" = _MrMo7Ohv;
+        "pkg-1.0.0" = _MrMo7Ohv;
+        "default" = _MrMo7Ohv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fast-xp";

@@ -6,11 +6,18 @@ let
             "file" = "createexcavationorecompat-1.0.0.jar";
             "hash" = "sha512-B6Bq8ul6R/Ubx4sn/R3q3b9W2FRlMPd1qjG2oiaWeZSYv73blcovAW4nEWvslb4MsYcBZsUtqbB5jMgNuII7sg==";
         };
+        _5P9clKSE = {
+            "id" = "5P9clKSE";
+            "file" = "createexcavationorecompat-1.1.0.jar";
+            "hash" = "sha512-V8xhtJSEKssKuihBdmYCejyLFOxUV/+mb1NJVe23IAV4KdBoy16IVFXQQFEH1/Ur7T++amp/wDv2UT6HGhkdlg==";
+        };
     in {
         "FsnKIUhC" = _FsnKIUhC;
-        "neoforge-1.21.1" = _FsnKIUhC;
+        "5P9clKSE" = _5P9clKSE;
+        "neoforge-1.21.1" = _5P9clKSE;
         "pkg-1.0.0" = _FsnKIUhC;
-        "default" = _FsnKIUhC;
+        "pkg-1.1.0" = _5P9clKSE;
+        "default" = _5P9clKSE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "orecompatcreate";

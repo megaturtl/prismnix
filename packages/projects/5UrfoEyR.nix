@@ -351,6 +351,11 @@ let
             "file" = "invasivezombies-2.0.2-mc26.3.jar";
             "hash" = "sha512-2mMg5nmJ4WGM1iIBXi7H0es+rGk32TeywE45KmQ4f+GOr0f5wK+WzUVRnIrGhJGYaGBtcE6KHwWzXLkkD4XdRg==";
         };
+        _DQeEr76Q = {
+            "id" = "DQeEr76Q";
+            "file" = "invasivezombies-2.0.2-mc26.3.jar";
+            "hash" = "sha512-qkJZOoCiPtSM8U2cypWwha5AKOlYwGflLaO2mY+qxWxyAZCe7TgulTixJFbJZd82Yv8fExd1iNDVLJ4jq3uGdg==";
+        };
     in {
         "aIf9ct8e" = _aIf9ct8e;
         "ft8yg5lY" = _ft8yg5lY;
@@ -422,6 +427,7 @@ let
         "R0vKOORN" = _R0vKOORN;
         "spFgLEGs" = _spFgLEGs;
         "E3MiwdDZ" = _E3MiwdDZ;
+        "DQeEr76Q" = _DQeEr76Q;
         "fabric-1.19.4" = _OHRSkb6q;
         "fabric-1.20.1" = _XeCEQWT1;
         "fabric-1.20.6" = _nqNTU2I0;
@@ -442,7 +448,7 @@ let
         "fabric-1.21.3" = _kD8MAEqK;
         "fabric-26.1.2" = _R0vKOORN;
         "fabric-26.2" = _spFgLEGs;
-        "fabric-26.3" = _E3MiwdDZ;
+        "fabric-26.3" = _DQeEr76Q;
         "pkg-1.0" = _ha9YAsOV;
         "pkg-1.0.1" = _Fz6KlBk6;
         "pkg-1.0.2" = _2L6d6geN;
@@ -454,8 +460,8 @@ let
         "pkg-1.0.8" = _hQ7Ht5Q9;
         "pkg-2.0.0" = _tQBjxBp4;
         "pkg-2.0.1" = _HqoQ2vfN;
-        "pkg-2.0.2" = _E3MiwdDZ;
-        "default" = _E3MiwdDZ;
+        "pkg-2.0.2" = _DQeEr76Q;
+        "default" = _DQeEr76Q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "invasive-zombies";

@@ -81,6 +81,16 @@ let
             "file" = "druids-fabric-1.3+1.20.1.jar";
             "hash" = "sha512-z9R6QufqZIaFWdDjZfCTQUYL3VbRQV3zcB4QveqAYURYDIFsQWxAKxvY6WWFYlFVVIiQK4rPhGsO5tO2WlboFA==";
         };
+        _3cyHZsow = {
+            "id" = "3cyHZsow";
+            "file" = "druids-fabric-1.4+1.21.1.jar";
+            "hash" = "sha512-GaiqhNPbeVBDwk5L8MKRXqEKygWR4srDOLLjQdNdHHqSHTZmDB5Xm3/ffANtoujGDtqIKvNR8/Mr/9xsTIQJ7w==";
+        };
+        _UImnTps0 = {
+            "id" = "UImnTps0";
+            "file" = "druids-neoforge-1.4+1.21.1.jar";
+            "hash" = "sha512-kBSxd6P1nkasz7/szy5vPVqWbZqqwcT7r33pMHSZjXo14ELwkGYSNXeUmw2TcA26jxeLV0qBXA9FNTrM1dsm+Q==";
+        };
     in {
         "8AmZ1FGN" = _8AmZ1FGN;
         "jq04i9gv" = _jq04i9gv;
@@ -98,9 +108,11 @@ let
         "fhjHXkOG" = _fhjHXkOG;
         "vEHgOLjq" = _vEHgOLjq;
         "Rg07fYuz" = _Rg07fYuz;
-        "fabric-1.21.1" = _u8aAv6e4;
+        "3cyHZsow" = _3cyHZsow;
+        "UImnTps0" = _UImnTps0;
+        "fabric-1.21.1" = _3cyHZsow;
         "fabric-1.20.1" = _Rg07fYuz;
-        "neoforge-1.21.1" = _fhjHXkOG;
+        "neoforge-1.21.1" = _UImnTps0;
         "forge-1.20.1" = _vEHgOLjq;
         "pkg-0.2+fabric-1.21.1" = _8AmZ1FGN;
         "pkg-0.3+fabric-1.21.1" = _jq04i9gv;
@@ -118,7 +130,9 @@ let
         "pkg-1.3+neoforge-1.21.1" = _fhjHXkOG;
         "pkg-1.3+forge-1.20.1" = _vEHgOLjq;
         "pkg-1.3+fabric-1.20.1" = _Rg07fYuz;
-        "default" = _Rg07fYuz;
+        "pkg-1.4+fabric-1.21.1" = _3cyHZsow;
+        "pkg-1.4+neoforge-1.21.1" = _UImnTps0;
+        "default" = _UImnTps0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "druids";

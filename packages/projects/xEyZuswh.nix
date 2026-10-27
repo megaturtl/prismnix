@@ -51,6 +51,21 @@ let
             "file" = "animatica-0.7.0+beta.1+26.3.jar";
             "hash" = "sha512-/FdcnWOMezdrViCjw6u1FhFBlpVQNjiFcQzOFJ8PrcmDmIL5xOlCD3fjOrWXurof/QPYPXB1ZNu++GBwLH3fHg==";
         };
+        _kt5KoQuf = {
+            "id" = "kt5KoQuf";
+            "file" = "animatica-0.7.0+beta.2+26.3.jar";
+            "hash" = "sha512-cDF6MVwzjbBoF9yh7KsZJFyTyYInDrojjzOO4tVi7/jRCpD8UI8sa+RFUUmOZpKZc2ivzsQgd8VgUv4D9nOLlg==";
+        };
+        _6kPLR90Q = {
+            "id" = "6kPLR90Q";
+            "file" = "animatica-0.7.0+beta.3+26.3-fabric.jar";
+            "hash" = "sha512-gNcBmyNTkNoejXRaZUY/t5+pVSmC6d0+yFIYqbCzh/w6CNNxuMAMBQQIFoW4E9qt8mUz/V+Mc5m+BhLATgvfvw==";
+        };
+        _tIJYrl8v = {
+            "id" = "tIJYrl8v";
+            "file" = "animatica-0.7.0+beta.3+26.3-neoforge.jar";
+            "hash" = "sha512-rpe5RiytYFOZxygzLioYM4O+oPAs1QD+6CYpnDIVMlKQJR4+tKoCAorMj6Y5bEdoWXLMbAag/sFtXNgA3xSuUg==";
+        };
     in {
         "JX3Uw3pT" = _JX3Uw3pT;
         "AcnOTlcL" = _AcnOTlcL;
@@ -62,6 +77,9 @@ let
         "q6u7sgZG" = _q6u7sgZG;
         "doj27VCh" = _doj27VCh;
         "WCOXPbj9" = _WCOXPbj9;
+        "kt5KoQuf" = _kt5KoQuf;
+        "6kPLR90Q" = _6kPLR90Q;
+        "tIJYrl8v" = _tIJYrl8v;
         "fabric-26.1" = _fei2AQqc;
         "fabric-26.1.1" = _fei2AQqc;
         "fabric-26.1.2" = _fei2AQqc;
@@ -79,7 +97,8 @@ let
         "fabric-26.2-rc-2" = _ucYrcZ8n;
         "fabric-26.2" = _SjuTFuhz;
         "fabric-26.3-snapshot-1" = _1Ss9B78j;
-        "fabric-26.3" = _WCOXPbj9;
+        "fabric-26.3" = _6kPLR90Q;
+        "neoforge-26.3" = _tIJYrl8v;
         "pkg-0.6.1+26.1" = _JX3Uw3pT;
         "pkg-0.6.1+1.21.8" = _AcnOTlcL;
         "pkg-0.6.2+26.1" = _cGCn2LMg;
@@ -89,7 +108,10 @@ let
         "pkg-0.6.3+26.2" = _SjuTFuhz;
         "pkg-0.6.3+26.3" = _doj27VCh;
         "pkg-0.7.0+beta.1+26.3" = _WCOXPbj9;
-        "default" = _WCOXPbj9;
+        "pkg-0.7.0+beta.2+26.3" = _kt5KoQuf;
+        "pkg-0.7.0+beta.3+26.3-fabric" = _6kPLR90Q;
+        "pkg-0.7.0+beta.3+26.3-neoforge" = _tIJYrl8v;
+        "default" = _tIJYrl8v;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "animaticarefabricated";

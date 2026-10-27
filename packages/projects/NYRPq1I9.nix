@@ -111,6 +111,11 @@ let
             "file" = "clearlag-1.6-neoforge-26.2.jar";
             "hash" = "sha512-KrH+8pYV8rV/ZAFmzNdaG7Edzet7QCUVr+sHTkb4Mh2ajp6ziZ+fr2KAlIpjYKW0xMiIraBedJIvLiLWjOFqFA==";
         };
+        _7wQsblPy = {
+            "id" = "7wQsblPy";
+            "file" = "clearlag-1.6-neoforge-26.3.jar";
+            "hash" = "sha512-e7DlaE0leBBrxWIa0EfkrXbyPuwXiusidcQxe5it8Vlhv6vbLxGgyqwptwW9XMFQgoW63rQDzmxC28Sonobuzg==";
+        };
     in {
         "inhG8eNW" = _inhG8eNW;
         "QahqdcKV" = _QahqdcKV;
@@ -134,6 +139,7 @@ let
         "i2ZKiLPm" = _i2ZKiLPm;
         "j600FTBM" = _j600FTBM;
         "BpjwlRwf" = _BpjwlRwf;
+        "7wQsblPy" = _7wQsblPy;
         "forge-1.18.2" = _vtpeUgce;
         "forge-1.19.2" = _FAuC5ZLX;
         "forge-1.19.4" = _JRE0Xqjl;
@@ -146,9 +152,10 @@ let
         "neoforge-1.21.8" = _i2ZKiLPm;
         "neoforge-26.1.2" = _j600FTBM;
         "neoforge-26.2" = _BpjwlRwf;
+        "neoforge-26.3" = _7wQsblPy;
         "pkg-1.5" = _QLaBPJKH;
-        "pkg-1.6" = _BpjwlRwf;
-        "default" = _BpjwlRwf;
+        "pkg-1.6" = _7wQsblPy;
+        "default" = _7wQsblPy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tct-clearlag";

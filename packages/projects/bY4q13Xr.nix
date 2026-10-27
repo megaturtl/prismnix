@@ -66,6 +66,16 @@ let
             "file" = "darkermagic-1.3.3-1.21.1-ver.b.jar";
             "hash" = "sha512-Ms8lHhkg/3hOkexSyds1Fvsi2+cRmwxFDoXirhsVAPtf3my8LOA84N+o4g4aFwU9mahMx+Wa5Bw7dgdlC9Sr3w==";
         };
+        _9Q3Z1Q8r = {
+            "id" = "9Q3Z1Q8r";
+            "file" = "darkermagic-1.4.0-1.20.1-ver.a.jar";
+            "hash" = "sha512-gzTLHD79F5taFJKJyS7jD5CGc2MnHc2SmuFGSMbNoUsPYOiMmP+/DzW0u8jUhqNNl1thZV0lNLODm70Co3tzuw==";
+        };
+        _CtfadGQa = {
+            "id" = "CtfadGQa";
+            "file" = "darkermagic-1.4.0-1.20.1.jar";
+            "hash" = "sha512-cIgKQZq3rE1kEkC5QGfUg+dClQjXXWEXL5xnpWb35YUGkffZzx/SqWi9z5cTkIRMMqd4axm/CMbD0zOVQs/I5g==";
+        };
     in {
         "t3d7KryF" = _t3d7KryF;
         "A2JT6NQv" = _A2JT6NQv;
@@ -80,7 +90,9 @@ let
         "bzzhoEdu" = _bzzhoEdu;
         "bDhRLJVp" = _bDhRLJVp;
         "oBllvIgO" = _oBllvIgO;
-        "forge-1.20.1" = _TNrkYR0t;
+        "9Q3Z1Q8r" = _9Q3Z1Q8r;
+        "CtfadGQa" = _CtfadGQa;
+        "forge-1.20.1" = _CtfadGQa;
         "neoforge-1.21.1" = _oBllvIgO;
         "pkg-1.1.0-1.20.1" = _t3d7KryF;
         "pkg-1.2.0-1.20.1" = _A2JT6NQv;
@@ -90,7 +102,8 @@ let
         "pkg-1.3.1-1.21.1" = _TnSMITy7;
         "pkg-1.3.2-1.21.1" = _bzzhoEdu;
         "pkg-1.3.3-1.21.1" = _oBllvIgO;
-        "default" = _oBllvIgO;
+        "pkg-1.4.0-1.20.1" = _CtfadGQa;
+        "default" = _CtfadGQa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "deeper-and-darker-spellbooks";

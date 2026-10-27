@@ -251,6 +251,26 @@ let
             "file" = "droppeditemtweaks-2.0.1-hotfix.1+1.8.9-fabric.jar";
             "hash" = "sha512-C1ighffoWem9og9svy+AZzZ5Q0+Z6Tvl6RmRayHkxlA/c78+egXvWcDV5JAqOm2N4qYGRBA8xeLoOpQS+RnjAw==";
         };
+        _An6vPRfb = {
+            "id" = "An6vPRfb";
+            "file" = "droppeditemtweaks-2.0.2+26.3-fabric.jar";
+            "hash" = "sha512-iWeoV+8S1KtfQ5s2iUSWLhhc+IGAFDL3YcUE08vWS1YiXvyBzCA6Q5Uh4zvFbr3GuKBQwhBkFadiFJDz0diPNg==";
+        };
+        _ei1niTZE = {
+            "id" = "ei1niTZE";
+            "file" = "droppeditemtweaks-2.0.3+1.21.11-fabric.jar";
+            "hash" = "sha512-i2JqWMSmrES0NLVi2pIC8te+CAMfvmua5A2QkeuS5gXZveAAHAKhB22lTkNu4WU/3GrGcu9hvGxokj09Jv3AFw==";
+        };
+        _Mu3aU4th = {
+            "id" = "Mu3aU4th";
+            "file" = "droppeditemtweaks-2.0.3+26.3-fabric.jar";
+            "hash" = "sha512-kWXUksmzcghuUpGQ5Puz7WwD79cnn/l0CX/o2n/Mc6OEZjzdrF4oIIFPt3uRLL9kiuY1gx9cvIz3uAZaSRi1GA==";
+        };
+        _AiATgQvT = {
+            "id" = "AiATgQvT";
+            "file" = "droppeditemtweaks-2.0.3-hotfix.1+1.21.11-fabric.jar";
+            "hash" = "sha512-zl6h63T9nB5Jk460YWZFZyCPUbkNGDWvg8rboZ+zkdZJZcEw/0vj8G2vGxJjOgkXk0vkqs8v8LD5LFPU0oIHIA==";
+        };
     in {
         "wUDzNixL" = _wUDzNixL;
         "tv8CIthp" = _tv8CIthp;
@@ -302,6 +322,10 @@ let
         "RFQnu1Qa" = _RFQnu1Qa;
         "8GoRmVgm" = _8GoRmVgm;
         "T5e0O3e5" = _T5e0O3e5;
+        "An6vPRfb" = _An6vPRfb;
+        "ei1niTZE" = _ei1niTZE;
+        "Mu3aU4th" = _Mu3aU4th;
+        "AiATgQvT" = _AiATgQvT;
         "fabric-1.20" = _XtrqXPhU;
         "fabric-1.20.1" = _XtrqXPhU;
         "fabric-1.20.3" = _XtrqXPhU;
@@ -319,12 +343,12 @@ let
         "fabric-1.21.7" = _lcMAQIRw;
         "fabric-1.21.8" = _lcMAQIRw;
         "fabric-1.21.10" = _tNlswt4E;
-        "fabric-1.21.11" = _59OOysc5;
-        "fabric-26.1" = _RFQnu1Qa;
-        "fabric-26.1.1" = _RFQnu1Qa;
-        "fabric-26.1.2" = _RFQnu1Qa;
-        "fabric-26.2" = _RFQnu1Qa;
-        "fabric-26.3" = _RFQnu1Qa;
+        "fabric-1.21.11" = _AiATgQvT;
+        "fabric-26.1" = _Mu3aU4th;
+        "fabric-26.1.1" = _Mu3aU4th;
+        "fabric-26.1.2" = _Mu3aU4th;
+        "fabric-26.2" = _Mu3aU4th;
+        "fabric-26.3" = _Mu3aU4th;
         "neoforge-1.21" = _6EvGA0Dc;
         "neoforge-1.21.1" = _6EvGA0Dc;
         "neoforge-1.21.2" = _IyN5qIIB;
@@ -351,7 +375,10 @@ let
         "pkg-2.0.0" = _J1invMb1;
         "pkg-2.0.1" = _8GoRmVgm;
         "pkg-2.0.1-hotfix.1" = _T5e0O3e5;
-        "default" = _T5e0O3e5;
+        "pkg-2.0.2" = _An6vPRfb;
+        "pkg-2.0.3" = _Mu3aU4th;
+        "pkg-2.0.3-hotfix.1" = _AiATgQvT;
+        "default" = _AiATgQvT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "droppeditemtweaks";

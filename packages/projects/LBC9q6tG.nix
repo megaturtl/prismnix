@@ -81,6 +81,51 @@ let
             "file" = "Better-Sounds-1.4.0-mc26.3.jar";
             "hash" = "sha512-X5L+XjZGfWWBjvGh+pPwaaB6+URBK9cYQj4WxdQksH6moC8n5HeG9gjzTy/ymr5RhTBu2xnS1u5YAVE4mT0gAA==";
         };
+        _XR7G9VIf = {
+            "id" = "XR7G9VIf";
+            "file" = "Better-Sounds-1.4.1-mc1.21.8.jar";
+            "hash" = "sha512-xLyojNGz5T76NhC0kUko/KcZL/RmL2Hia84ZTbLglM+F7mt+hVjXefeajY51yXy0iumlpd2uDD/HqQV+nKLwhQ==";
+        };
+        _l0LDm51x = {
+            "id" = "l0LDm51x";
+            "file" = "Better-Sounds-1.4.1-mc1.21.9.jar";
+            "hash" = "sha512-2PFK6XrE5QHUdMfBppqKXuaSaJcwdvL7Qn5X4F5DVjnF7nwcVEp1IKPD8TNu9N+ekYCJgquKdNDW3IyvB6SIlA==";
+        };
+        _DIiTVsQr = {
+            "id" = "DIiTVsQr";
+            "file" = "Better-Sounds-1.4.1-mc1.21.10.jar";
+            "hash" = "sha512-UgKz0Cm0IS5tEFxP/Sh++dpHUuIjFvKyaNjLHDg+oUV7p1S5V+4vrt6vUAclhwqgjiMWVyiafJf3Kwxfmikq8w==";
+        };
+        _H7ewlb2S = {
+            "id" = "H7ewlb2S";
+            "file" = "Better-Sounds-1.4.1-mc1.21.11.jar";
+            "hash" = "sha512-idCeRqf/Zo4X8ScuWZbsRVM386zUadoSb14XNV6K2BM1EBXFYR37RzMY1LXdoXF/q9y8enrM+biBYIIH47ph7g==";
+        };
+        _23JQrGZq = {
+            "id" = "23JQrGZq";
+            "file" = "Better-Sounds-1.4.1-mc26.1.1.jar";
+            "hash" = "sha512-gt2EGhBKbxmd53WiNfsJ2bK3+P6LODWl4SINp4hEUJxxxInKi+NRPxu22gJV6CdFuPckR97pl/6tOApbtcPuKQ==";
+        };
+        _WI6fX563 = {
+            "id" = "WI6fX563";
+            "file" = "Better-Sounds-1.4.1-mc26.1.2.jar";
+            "hash" = "sha512-pFSNUi0ttFPNJsz247iHEpGrjUzIvB0a8Dgl/Uw6nt2muhaMDZilKAHklToEc1N6n+P6pXFCTolLVR71c0GV8w==";
+        };
+        _xP93IUsN = {
+            "id" = "xP93IUsN";
+            "file" = "Better-Sounds-1.4.1-mc26.1.jar";
+            "hash" = "sha512-PceJQSUaw93C/x8kVclTjF4qK0l4OyWeiIxOLvADtNH40FFWRYZ4w9cQQrV5O/nKjZhQMgQJDpnkwGV4JJLIUA==";
+        };
+        _yCiHbxxi = {
+            "id" = "yCiHbxxi";
+            "file" = "Better-Sounds-1.4.1-mc26.2.jar";
+            "hash" = "sha512-17HJSsXXSI/6WCsNMdJBSC9bi2JDRZyYGNZXn1RrWdrdzqG2WNWBUireGgeuQ739EoY37wt2JL7qNeaSc2ZENQ==";
+        };
+        _niyOJ2PM = {
+            "id" = "niyOJ2PM";
+            "file" = "Better-Sounds-1.4.1-mc26.3.jar";
+            "hash" = "sha512-5iObasZTvBbLTJ9phBVlI0M/xJVewH4YSdUs2nsmUlAhGgRRM+hp+TmiRit7hxpBZ1JFngoefYJ+XuYY6eYGqA==";
+        };
     in {
         "FN3RtYX2" = _FN3RtYX2;
         "qTn8rnjx" = _qTn8rnjx;
@@ -98,15 +143,24 @@ let
         "ZS5aG32O" = _ZS5aG32O;
         "H0E8iupC" = _H0E8iupC;
         "VmGCBwiF" = _VmGCBwiF;
-        "fabric-1.21.8" = _ohBleq5p;
-        "fabric-1.21.9" = _5VPVFO39;
-        "fabric-1.21.10" = _Lc3bFq7C;
-        "fabric-1.21.11" = _ISLjQOhX;
-        "fabric-26.1" = _ZS5aG32O;
-        "fabric-26.2" = _H0E8iupC;
-        "fabric-26.1.1" = _ZS5aG32O;
-        "fabric-26.1.2" = _ZS5aG32O;
-        "fabric-26.3" = _VmGCBwiF;
+        "XR7G9VIf" = _XR7G9VIf;
+        "l0LDm51x" = _l0LDm51x;
+        "DIiTVsQr" = _DIiTVsQr;
+        "H7ewlb2S" = _H7ewlb2S;
+        "23JQrGZq" = _23JQrGZq;
+        "WI6fX563" = _WI6fX563;
+        "xP93IUsN" = _xP93IUsN;
+        "yCiHbxxi" = _yCiHbxxi;
+        "niyOJ2PM" = _niyOJ2PM;
+        "fabric-1.21.8" = _XR7G9VIf;
+        "fabric-1.21.9" = _l0LDm51x;
+        "fabric-1.21.10" = _DIiTVsQr;
+        "fabric-1.21.11" = _H7ewlb2S;
+        "fabric-26.1" = _xP93IUsN;
+        "fabric-26.2" = _yCiHbxxi;
+        "fabric-26.1.1" = _xP93IUsN;
+        "fabric-26.1.2" = _xP93IUsN;
+        "fabric-26.3" = _niyOJ2PM;
         "pkg-1.0.0" = _FN3RtYX2;
         "pkg-1.1.0" = _qTn8rnjx;
         "pkg-1.2.0" = _nozPgAJy;
@@ -118,7 +172,16 @@ let
         "pkg-1.4.0+mc26.1" = _ZS5aG32O;
         "pkg-1.4.0+mc26.2" = _H0E8iupC;
         "pkg-1.4.0+mc26.3" = _VmGCBwiF;
-        "default" = _VmGCBwiF;
+        "pkg-1.4.1+mc1.21.8" = _XR7G9VIf;
+        "pkg-1.4.1+mc1.21.9" = _l0LDm51x;
+        "pkg-1.4.1+mc1.21.10" = _DIiTVsQr;
+        "pkg-1.4.1+mc1.21.11" = _H7ewlb2S;
+        "pkg-1.4.1+mc26.1.1" = _23JQrGZq;
+        "pkg-1.4.1+mc26.1.2" = _WI6fX563;
+        "pkg-1.4.1+mc26.1" = _xP93IUsN;
+        "pkg-1.4.1+mc26.2" = _yCiHbxxi;
+        "pkg-1.4.1+mc26.3" = _niyOJ2PM;
+        "default" = _niyOJ2PM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-sounds-kingtomate";

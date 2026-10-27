@@ -1501,6 +1501,11 @@ let
             "file" = "CreateCyberGoggles-1.21.1-8.6.9-NeoForge.jar";
             "hash" = "sha512-6DoqhLFQNpugg1leKLGiRlUkGrNLg4KxIxsAR9Y5QFbeEkIYb9h1r9L0m167mrsdscuQ/s8jYH0dyFOBCWsT5g==";
         };
+        _Lc4pHIbd = {
+            "id" = "Lc4pHIbd";
+            "file" = "create_cyber_goggles-1.21.1-8.7.0-neoforge.jar";
+            "hash" = "sha512-yjb7eDaYBursp/JhzSF0NI8stVm1n609M95vWgl1x1/fAQiYhlBlLCETxQ03VBdzhiwybSpZ1uEZMCtNcZP2+g==";
+        };
     in {
         "sIWGkioR" = _sIWGkioR;
         "bHhd2rb6" = _bHhd2rb6;
@@ -1802,6 +1807,7 @@ let
         "ViGM0bdL" = _ViGM0bdL;
         "KiaLBnTA" = _KiaLBnTA;
         "8S36YIoy" = _8S36YIoy;
+        "Lc4pHIbd" = _Lc4pHIbd;
         "fabric-1.18.2" = _sIWGkioR;
         "fabric-1.19.2" = _sIWGkioR;
         "fabric-1.20.1" = _9sNUzRyC;
@@ -1822,7 +1828,7 @@ let
         "forge-1.19.2" = _JIOdNEPj;
         "forge-1.20.1" = _HaKiNUMI;
         "neoforge-1.20.1" = _HaKiNUMI;
-        "neoforge-1.21.1" = _8S36YIoy;
+        "neoforge-1.21.1" = _Lc4pHIbd;
         "pkg-1.18.2-1.0+Fabric" = _sIWGkioR;
         "pkg-1.18.2-1.0+Forge" = _bHhd2rb6;
         "pkg-1.20.1-1.0+NeoForge" = _TP4mh1Ck;
@@ -2123,7 +2129,8 @@ let
         "pkg-1.21.1-8.6.7-NeoForge" = _ViGM0bdL;
         "pkg-1.21.1-8.6.8-NeoForge" = _KiaLBnTA;
         "pkg-1.21.1-8.6.9-NeoForge" = _8S36YIoy;
-        "default" = _8S36YIoy;
+        "pkg-1.21.1-8.7.0-neoforge" = _Lc4pHIbd;
+        "default" = _Lc4pHIbd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-cyber-goggles";

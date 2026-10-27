@@ -256,6 +256,11 @@ let
             "file" = "CoffeeGUI_1.20.2-26.2_release_v2.2.1.zip";
             "hash" = "sha512-os7HI01zJRuWhaG5/1IwK6ZzN3ilAtexcNA/Uhvlesunsz5gsfWXB0MF8xadYQvN5S6F9/5bmng/D+9eUvknTw==";
         };
+        _HpbIP3hm = {
+            "id" = "HpbIP3hm";
+            "file" = "CoffeeGUI_1.20.2-26.3_release_v2.2.3.zip";
+            "hash" = "sha512-dDd2o0hkx/ESxU3ltSpPOYHXNSonoxymoWeDj7DcYMx7zMwqxSYedXYsO13qEfMfol8Md8Dpi2Zn+N4Gf1SZzQ==";
+        };
     in {
         "hp1d1nAA" = _hp1d1nAA;
         "MsOS5ZRE" = _MsOS5ZRE;
@@ -308,6 +313,7 @@ let
         "J7ffH2Vv" = _J7ffH2Vv;
         "IYUwzFnD" = _IYUwzFnD;
         "nWtVhqCd" = _nWtVhqCd;
+        "HpbIP3hm" = _HpbIP3hm;
         "minecraft-1.20" = _IYUwzFnD;
         "minecraft-1.20.1" = _IYUwzFnD;
         "minecraft-1.19.4" = _IYUwzFnD;
@@ -364,27 +370,27 @@ let
         "minecraft-1.8.7" = _YTZscEzZ;
         "minecraft-1.8.8" = _YTZscEzZ;
         "minecraft-1.8.9" = _YTZscEzZ;
-        "minecraft-1.20.2" = _nWtVhqCd;
-        "minecraft-1.20.3" = _nWtVhqCd;
-        "minecraft-1.20.4" = _nWtVhqCd;
-        "minecraft-1.21.2" = _nWtVhqCd;
-        "minecraft-1.21.3" = _nWtVhqCd;
-        "minecraft-1.21.4" = _nWtVhqCd;
-        "minecraft-1.21.5" = _nWtVhqCd;
-        "minecraft-1.21.6" = _nWtVhqCd;
-        "minecraft-1.21.7" = _nWtVhqCd;
-        "minecraft-1.21.8" = _nWtVhqCd;
-        "minecraft-1.21.9" = _nWtVhqCd;
-        "minecraft-1.21.10" = _nWtVhqCd;
+        "minecraft-1.20.2" = _HpbIP3hm;
+        "minecraft-1.20.3" = _HpbIP3hm;
+        "minecraft-1.20.4" = _HpbIP3hm;
+        "minecraft-1.21.2" = _HpbIP3hm;
+        "minecraft-1.21.3" = _HpbIP3hm;
+        "minecraft-1.21.4" = _HpbIP3hm;
+        "minecraft-1.21.5" = _HpbIP3hm;
+        "minecraft-1.21.6" = _HpbIP3hm;
+        "minecraft-1.21.7" = _HpbIP3hm;
+        "minecraft-1.21.8" = _HpbIP3hm;
+        "minecraft-1.21.9" = _HpbIP3hm;
+        "minecraft-1.21.10" = _HpbIP3hm;
         "minecraft-1.19.3" = _J7ffH2Vv;
-        "minecraft-1.20.5" = _nWtVhqCd;
-        "minecraft-1.20.6" = _nWtVhqCd;
-        "minecraft-1.21" = _nWtVhqCd;
-        "minecraft-1.21.1" = _nWtVhqCd;
-        "minecraft-1.21.11" = _nWtVhqCd;
-        "minecraft-26.1" = _nWtVhqCd;
-        "minecraft-26.1.1" = _nWtVhqCd;
-        "minecraft-26.1.2" = _nWtVhqCd;
+        "minecraft-1.20.5" = _HpbIP3hm;
+        "minecraft-1.20.6" = _HpbIP3hm;
+        "minecraft-1.21" = _HpbIP3hm;
+        "minecraft-1.21.1" = _HpbIP3hm;
+        "minecraft-1.21.11" = _HpbIP3hm;
+        "minecraft-26.1" = _HpbIP3hm;
+        "minecraft-26.1.1" = _HpbIP3hm;
+        "minecraft-26.1.2" = _HpbIP3hm;
         "minecraft-1.9" = _rJAkTZSM;
         "minecraft-1.9.1" = _rJAkTZSM;
         "minecraft-1.9.2" = _rJAkTZSM;
@@ -393,7 +399,8 @@ let
         "minecraft-1.10" = _rJAkTZSM;
         "minecraft-1.10.1" = _rJAkTZSM;
         "minecraft-1.10.2" = _rJAkTZSM;
-        "minecraft-26.2" = _nWtVhqCd;
+        "minecraft-26.2" = _HpbIP3hm;
+        "minecraft-26.3" = _HpbIP3hm;
         "pkg-1.0" = _2tF7SPA4;
         "pkg-1.1" = _QfIrBtU2;
         "pkg-2.0.0" = _qAZAWA0E;
@@ -403,7 +410,8 @@ let
         "pkg-2.1.1" = _CmwbM6KN;
         "pkg-2.2.0" = _nM2y49nn;
         "pkg-2.2.1" = _nWtVhqCd;
-        "default" = _nWtVhqCd;
+        "pkg-2.2.3" = _HpbIP3hm;
+        "default" = _HpbIP3hm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dark-coffe-gui";

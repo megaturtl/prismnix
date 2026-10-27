@@ -211,6 +211,11 @@ let
             "file" = "simpledrawer_2.10.0_dp_bundled.zip";
             "hash" = "sha512-XlTM/bTU7kz/9C4cnspQbnZEy3j6dIdYrF9xFy64qO+JdHyz8Dw2pcLnFWSlgDFrijASXr+a380mrg7+bGnsbQ==";
         };
+        _XWc8Mw2o = {
+            "id" = "XWc8Mw2o";
+            "file" = "simpledrawer_2.11.0_dp_bundled.zip";
+            "hash" = "sha512-rqNoAhfTD6140ZV9X6JOfFnTI7pFgy43VHxv7KY1noJoOINe5OuGD2F2kxShmYjRewz2yFltZ7nCNS1Wyv1e5g==";
+        };
     in {
         "W0koHfTJ" = _W0koHfTJ;
         "dAPqJRtp" = _dAPqJRtp;
@@ -254,6 +259,7 @@ let
         "9xl9l1PG" = _9xl9l1PG;
         "3qRkrW7m" = _3qRkrW7m;
         "xFB9Jsnt" = _xFB9Jsnt;
+        "XWc8Mw2o" = _XWc8Mw2o;
         "datapack-1.19" = _3ugrzWot;
         "datapack-1.19.1" = _3ugrzWot;
         "datapack-1.19.2" = _3ugrzWot;
@@ -277,6 +283,7 @@ let
         "datapack-26.1.1" = _3qRkrW7m;
         "datapack-26.1.2" = _3qRkrW7m;
         "datapack-26.2" = _xFB9Jsnt;
+        "datapack-26.3" = _XWc8Mw2o;
         "fabric-1.21.8" = _TzqaPgFu;
         "fabric-1.21.10" = _TzqaPgFu;
         "forge-1.21.8" = _TzqaPgFu;
@@ -327,7 +334,8 @@ let
         "pkg-2.9.4" = _9xl9l1PG;
         "pkg-2.9.5" = _3qRkrW7m;
         "pkg-2.10.0" = _xFB9Jsnt;
-        "default" = _xFB9Jsnt;
+        "pkg-2.11.0" = _XWc8Mw2o;
+        "default" = _XWc8Mw2o;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simpledrawer";

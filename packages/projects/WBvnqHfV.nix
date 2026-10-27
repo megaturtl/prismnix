@@ -321,6 +321,11 @@ let
             "file" = "natures_spirit-2.3.1-1.21.1.jar";
             "hash" = "sha512-8CKzQhfHzlbdC6wdolOufnpAF/GjWVvCC0NHmKIpkaN2H6U0GHTQ9PEDDd6KGN469rJpqTx7XDtjJveicVH7cA==";
         };
+        _EQReaqUo = {
+            "id" = "EQReaqUo";
+            "file" = "natures_spirit-2.3.2-1.21.1.jar";
+            "hash" = "sha512-MSJ7O7YIooBcYl57sPaxeAxmUwQkwF84nP+kjDL6LfCQx5T+s/oNxXGgDjNYQ/VUWjrh4OAxblHC9lWnTGapvw==";
+        };
     in {
         "6GCFqmxu" = _6GCFqmxu;
         "cUt9cfpK" = _cUt9cfpK;
@@ -386,6 +391,7 @@ let
         "fXzcxJN1" = _fXzcxJN1;
         "WTzZA3gg" = _WTzZA3gg;
         "2gTLYP0m" = _2gTLYP0m;
+        "EQReaqUo" = _EQReaqUo;
         "fabric-1.20.1" = _GW1xcaGA;
         "fabric-1.20.4" = _t2i6toEm;
         "fabric-1.20.6" = _PEDBSmFj;
@@ -398,8 +404,8 @@ let
         "quilt-1.21" = _tDTCH8Qv;
         "quilt-1.21.1" = _znuiO1Jm;
         "forge-1.20.1" = _ri5j4RHM;
-        "neoforge-1.21.1" = _2gTLYP0m;
-        "neoforge-1.21" = _2gTLYP0m;
+        "neoforge-1.21.1" = _EQReaqUo;
+        "neoforge-1.21" = _EQReaqUo;
         "neoforge-26.1.2" = _fXzcxJN1;
         "pkg-1.0" = _6GCFqmxu;
         "pkg-1.1" = _cUt9cfpK;
@@ -457,7 +463,8 @@ let
         "pkg-2.3.0-1.21.1" = _9tpL59jN;
         "pkg-2.3.0-26.1.2" = _WTzZA3gg;
         "pkg-2.3.1-1.21.1" = _2gTLYP0m;
-        "default" = _2gTLYP0m;
+        "pkg-2.3.2-1.21.1" = _EQReaqUo;
+        "default" = _EQReaqUo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "natures-spirit";

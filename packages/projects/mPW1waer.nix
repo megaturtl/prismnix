@@ -201,6 +201,11 @@ let
             "file" = "Texture MC 26.2.zip";
             "hash" = "sha512-cp0kI7Gd+WAAcSUJPBSKh/57/GGONp06J/uegM/r1hlUSsoDn0/0EH9zBS3rPhruOEDE94kxwp6bFXzZbbxhvQ==";
         };
+        _mSAURqsD = {
+            "id" = "mSAURqsD";
+            "file" = "Texture MC 26.3.zip";
+            "hash" = "sha512-MO82EspEo+gjllF/GFzJGGl/oLljokd/wM4djSn/JFw58Inei6VYElf3yBXwK/b4XWPUDqmTOchp9LkEpyj9uQ==";
+        };
     in {
         "YX4sh4q8" = _YX4sh4q8;
         "L2j07rfj" = _L2j07rfj;
@@ -242,6 +247,7 @@ let
         "24Gr5O0s" = _24Gr5O0s;
         "NDzC4z9T" = _NDzC4z9T;
         "37dcNNFq" = _37dcNNFq;
+        "mSAURqsD" = _mSAURqsD;
         "minecraft-1.6.1" = _guMzn4H7;
         "minecraft-1.6.2" = _guMzn4H7;
         "minecraft-1.6.4" = _guMzn4H7;
@@ -323,11 +329,12 @@ let
         "minecraft-1.21.8" = _E2Baohp1;
         "minecraft-1.21.9" = _E2Baohp1;
         "minecraft-1.21.10" = _E2Baohp1;
-        "minecraft-1.21.11" = _37dcNNFq;
-        "minecraft-26.1" = _37dcNNFq;
-        "minecraft-26.1.1" = _37dcNNFq;
-        "minecraft-26.1.2" = _37dcNNFq;
-        "minecraft-26.2" = _37dcNNFq;
+        "minecraft-1.21.11" = _mSAURqsD;
+        "minecraft-26.1" = _mSAURqsD;
+        "minecraft-26.1.1" = _mSAURqsD;
+        "minecraft-26.1.2" = _mSAURqsD;
+        "minecraft-26.2" = _mSAURqsD;
+        "minecraft-26.3" = _mSAURqsD;
         "pkg-1.0.0" = _JSjEEt2L;
         "pkg-1.0.1" = _XVvF9KNR;
         "pkg-1.0.2" = _Asc2daJc;
@@ -335,7 +342,8 @@ let
         "pkg-1.0.4" = _24Gr5O0s;
         "pkg-1.0.5" = _NDzC4z9T;
         "pkg-1.0.6" = _37dcNNFq;
-        "default" = _37dcNNFq;
+        "pkg-1.0.7" = _mSAURqsD;
+        "default" = _mSAURqsD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "texture_mc";

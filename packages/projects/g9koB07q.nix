@@ -11,13 +11,27 @@ let
             "file" = "bits_n_tracks-2.1.0.jar";
             "hash" = "sha512-gs02MBk83KKUzGs915vfonIUE4yT9cAmKtFU4tbB78yuCd44nj4cxRV+dUtYs+fEDYa19LfuuBcNxsfKMQvjJw==";
         };
+        _pN60Hfff = {
+            "id" = "pN60Hfff";
+            "file" = "bits_n_tracks-3.0.0.jar";
+            "hash" = "sha512-epCXaVxwvZReAXWaaAdCWs8etoKBGKB1WtBv/ANAL1v0Ed1ZSN+84+7JUl1CbU6gkpnaHmjHGefkMg7Rnry/lA==";
+        };
+        _w8rhvpAa = {
+            "id" = "w8rhvpAa";
+            "file" = "bits_n_tracks-3.0.1.jar";
+            "hash" = "sha512-aWn51AYuz4m5mcGRJ+r63nuIvbgusEgb9pur/628dGXXaESjyR4zCO+JNn6X/+uTvqO5imkwtqq+T/UWXChaLg==";
+        };
     in {
         "3db44CKX" = _3db44CKX;
         "duEsSo9r" = _duEsSo9r;
-        "neoforge-1.21.1" = _duEsSo9r;
+        "pN60Hfff" = _pN60Hfff;
+        "w8rhvpAa" = _w8rhvpAa;
+        "neoforge-1.21.1" = _w8rhvpAa;
         "pkg-2.0.0" = _3db44CKX;
         "pkg-2.1.0" = _duEsSo9r;
-        "default" = _duEsSo9r;
+        "pkg-3.0.0" = _pN60Hfff;
+        "pkg-3.0.1" = _w8rhvpAa;
+        "default" = _w8rhvpAa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bits-n-tracks-ce";

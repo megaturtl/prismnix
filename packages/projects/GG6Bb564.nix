@@ -41,6 +41,26 @@ let
             "file" = "smoothcamera-1.2.0.jar";
             "hash" = "sha512-9Hjn6hGtPRBqqkrYzy9DjWvHw8OCxXqcaOis7bhu8KDw3Ug98akxMdycYGNd0URhi2uATWd8Q4E7jeH/gjFa8A==";
         };
+        _Ypv4lwIT = {
+            "id" = "Ypv4lwIT";
+            "file" = "smoothcamera-1.2.1.jar";
+            "hash" = "sha512-AGh51P5vMQ3VsegAbzJqFpCsVY79gv8afaSVnhyN/5GtlfuC6cAk8TuVl7eKxOAx7RggnCzVvd5sCGdx2PRU4g==";
+        };
+        _n6xyqcsd = {
+            "id" = "n6xyqcsd";
+            "file" = "smoothcamera-1.1.1.jar";
+            "hash" = "sha512-qVzhIvdAzFMtsncohw9yUNeW0G5ozuqC7TQnC4H4El9XSGBbnJDeAiXA5mjxr82rOPS4st+I0B4FVRWAUYNwkg==";
+        };
+        _Dp4P6zFl = {
+            "id" = "Dp4P6zFl";
+            "file" = "smoothcamera-1.1.1.jar";
+            "hash" = "sha512-aJsvXd6Ym6/hOWwi2fO7z4usZ30T+huEFH9icvwVACPV4YqL6HUy/JCUA1UYJEZlzwrl42gVF8s5elcLVkhKqA==";
+        };
+        _90BB7IUO = {
+            "id" = "90BB7IUO";
+            "file" = "smoothcamera-1.1.1.jar";
+            "hash" = "sha512-ezUDNrt1lNbEIeaXMhEP/ZIdBrq9ulRvBSpM0LrAQayAAMCA+ffNTVLYESqUtxBhXg7Z57/b2PhrbbsvDLuL2A==";
+        };
     in {
         "YpEI37Wo" = _YpEI37Wo;
         "CQY4VaFa" = _CQY4VaFa;
@@ -50,11 +70,15 @@ let
         "zeVpJPaB" = _zeVpJPaB;
         "7Un73u6U" = _7Un73u6U;
         "1osJfMco" = _1osJfMco;
-        "fabric-1.21.11" = _FRDOIWWZ;
-        "fabric-26.1" = _CQY4VaFa;
-        "fabric-26.1.1" = _CQY4VaFa;
-        "fabric-26.1.2" = _CQY4VaFa;
-        "fabric-1.21.1" = _FRDOIWWZ;
+        "Ypv4lwIT" = _Ypv4lwIT;
+        "n6xyqcsd" = _n6xyqcsd;
+        "Dp4P6zFl" = _Dp4P6zFl;
+        "90BB7IUO" = _90BB7IUO;
+        "fabric-1.21.11" = _90BB7IUO;
+        "fabric-26.1" = _Dp4P6zFl;
+        "fabric-26.1.1" = _Dp4P6zFl;
+        "fabric-26.1.2" = _Dp4P6zFl;
+        "fabric-1.21.1" = _n6xyqcsd;
         "fabric-1.21.2" = _FRDOIWWZ;
         "fabric-1.21.3" = _FRDOIWWZ;
         "fabric-1.21.4" = _FRDOIWWZ;
@@ -82,11 +106,13 @@ let
         "fabric-1.16.3" = _zeVpJPaB;
         "fabric-1.16.4" = _zeVpJPaB;
         "fabric-1.16.5" = _zeVpJPaB;
-        "fabric-26.3" = _1osJfMco;
+        "fabric-26.3" = _Ypv4lwIT;
         "pkg-1.0.0" = _zeVpJPaB;
         "pkg-1.1.0" = _7Un73u6U;
         "pkg-1.2.0" = _1osJfMco;
-        "default" = _1osJfMco;
+        "pkg-1.2.1" = _Ypv4lwIT;
+        "pkg-1.1.1" = _90BB7IUO;
+        "default" = _90BB7IUO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "smoothcamera";

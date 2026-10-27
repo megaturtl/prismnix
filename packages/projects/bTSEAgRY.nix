@@ -276,6 +276,11 @@ let
             "file" = "matmos_tct-7.8-neoforge-26.2.jar";
             "hash" = "sha512-QlX7jez9zSxyBV+xdshZf9tXgOraSbM+VUgJ7XceMqSOGGhWp0rWlvcwVEJAJKC+Rs8+xt8/C+CtziqZ2cXD4g==";
         };
+        _rXfIIdL7 = {
+            "id" = "rXfIIdL7";
+            "file" = "matmos_tct-7.8-neoforge-26.3.jar";
+            "hash" = "sha512-7VdTWQVx9ze7YvLLLXH9H9hws3nw4HxoVbxX4W18JgjLVZdr+3/vYk4FEWotwL5BEAvC7jyfNp5joP8ulJw+DQ==";
+        };
     in {
         "KeaDQvAE" = _KeaDQvAE;
         "2bPwMtCX" = _2bPwMtCX;
@@ -332,6 +337,7 @@ let
         "2AjOVzRF" = _2AjOVzRF;
         "KEvXBcDG" = _KEvXBcDG;
         "sf6zFYOI" = _sf6zFYOI;
+        "rXfIIdL7" = _rXfIIdL7;
         "forge-1.16" = _KeaDQvAE;
         "forge-1.16.4" = _KYaB5Wqn;
         "forge-1.16.5" = _MgqZpmlk;
@@ -353,6 +359,7 @@ let
         "neoforge-1.21.8" = _2AjOVzRF;
         "neoforge-26.1.2" = _KEvXBcDG;
         "neoforge-26.2" = _sf6zFYOI;
+        "neoforge-26.3" = _rXfIIdL7;
         "pkg-3.0" = _sPcmA6bK;
         "pkg-6.0" = _KYaB5Wqn;
         "pkg-3.5" = _P8UlHOVG;
@@ -362,8 +369,8 @@ let
         "pkg-7.4" = _ZdbLwezH;
         "pkg-7.6" = _woYNOlDi;
         "pkg-7.7" = _KEvXBcDG;
-        "pkg-7.8" = _sf6zFYOI;
-        "default" = _sf6zFYOI;
+        "pkg-7.8" = _rXfIIdL7;
+        "default" = _rXfIIdL7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "matmos-ambient-sound";

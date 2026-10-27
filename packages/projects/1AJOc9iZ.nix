@@ -106,6 +106,16 @@ let
             "file" = "Bunnybergs_PBR_3D_Items_Neoforgev1.zip";
             "hash" = "sha512-jGpdhZqUBIwP3YNsv+1kI5M/GOLVCU5UalEwHNQ7Uxj5z+c+vTgikvQpYw4L7/ncnbYxW0SF3ZbzVu6wLmLahw==";
         };
+        _3DD8SzJ9 = {
+            "id" = "3DD8SzJ9";
+            "file" = "Bunnybergs_PBR_3D_items_26.3.zip";
+            "hash" = "sha512-Oyy3gjBwfzr3sTD4Gq7PtJr/Qj8JFL7rGUnTLTNCA7o2019YkbBRC+Y1F/m6zEsnvXLnu//VBgXMuSNsywMcRg==";
+        };
+        _f1z0ne6Q = {
+            "id" = "f1z0ne6Q";
+            "file" = "Bunnybergs_PBR_3D_Items_NeoForge_1.21.1_v0.1.zip";
+            "hash" = "sha512-X9hQHWCiqUdEN4MJJ3rphETAlGmgjsIU77cj5BAphU/GGqnfDKs9qfgXYQl3HyCUAimeIg3veXeEYJ4x8bHjVQ==";
+        };
     in {
         "tkrtU0xI" = _tkrtU0xI;
         "auDApdaI" = _auDApdaI;
@@ -128,6 +138,8 @@ let
         "MoF03L25" = _MoF03L25;
         "wpDWkrfQ" = _wpDWkrfQ;
         "5HjFkkMU" = _5HjFkkMU;
+        "3DD8SzJ9" = _3DD8SzJ9;
+        "f1z0ne6Q" = _f1z0ne6Q;
         "minecraft-1.20" = _tkrtU0xI;
         "minecraft-1.20.1" = _tkrtU0xI;
         "minecraft-1.20.2" = _tkrtU0xI;
@@ -135,8 +147,8 @@ let
         "minecraft-1.20.4" = _tkrtU0xI;
         "minecraft-1.20.5" = _tkrtU0xI;
         "minecraft-1.20.6" = _tkrtU0xI;
-        "minecraft-1.21" = _5HjFkkMU;
-        "minecraft-1.21.1" = _tkrtU0xI;
+        "minecraft-1.21" = _f1z0ne6Q;
+        "minecraft-1.21.1" = _f1z0ne6Q;
         "minecraft-1.21.2" = _tkrtU0xI;
         "minecraft-1.21.3" = _tkrtU0xI;
         "minecraft-1.21.4" = _tkrtU0xI;
@@ -144,12 +156,14 @@ let
         "minecraft-1.21.6" = _tkrtU0xI;
         "minecraft-1.21.7" = _tkrtU0xI;
         "minecraft-1.21.8" = _tkrtU0xI;
-        "minecraft-1.21.9" = _wpDWkrfQ;
-        "minecraft-1.21.10" = _wpDWkrfQ;
-        "minecraft-1.21.11" = _wpDWkrfQ;
-        "minecraft-26.1" = _wpDWkrfQ;
-        "minecraft-26.1.1" = _wpDWkrfQ;
-        "minecraft-26.1.2" = _wpDWkrfQ;
+        "minecraft-1.21.9" = _3DD8SzJ9;
+        "minecraft-1.21.10" = _3DD8SzJ9;
+        "minecraft-1.21.11" = _3DD8SzJ9;
+        "minecraft-26.1" = _3DD8SzJ9;
+        "minecraft-26.1.1" = _3DD8SzJ9;
+        "minecraft-26.1.2" = _3DD8SzJ9;
+        "minecraft-26.2" = _3DD8SzJ9;
+        "minecraft-26.3" = _3DD8SzJ9;
         "pkg-v1" = _tkrtU0xI;
         "pkg-v2" = _auDApdaI;
         "pkg-v3" = _jim0oasn;
@@ -171,7 +185,9 @@ let
         "pkg-v6.4" = _MoF03L25;
         "pkg-v7" = _wpDWkrfQ;
         "pkg-1.21.1" = _5HjFkkMU;
-        "default" = _5HjFkkMU;
+        "pkg-26.3" = _3DD8SzJ9;
+        "pkg-1.21.1.v0.1" = _f1z0ne6Q;
+        "default" = _f1z0ne6Q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pbr-items-bunnyberg";

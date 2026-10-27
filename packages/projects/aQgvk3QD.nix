@@ -21,16 +21,29 @@ let
             "file" = "simpleballswap-fabric-1.1.0.jar";
             "hash" = "sha512-sA2pNAEMZUQcsdGliVzdiYY8Rxzbqodqc2nuPf/VBu0Ie/LfTgJGJzVL0m2ezaaGbJOEEk9xeHtJwdcX18MnYg==";
         };
+        _lRlL9IYm = {
+            "id" = "lRlL9IYm";
+            "file" = "simpleballswap-fabric-1.2.0.jar";
+            "hash" = "sha512-4RZSu3tKM+x/Y1elU/pTjQmx1OiyYRjCT2pA21co/9zetnZnQAooQRi0IK2NIN4m1YIRwfuSxXRrQYAOhEC7pQ==";
+        };
+        _iwm2JqIS = {
+            "id" = "iwm2JqIS";
+            "file" = "simpleballswap-neoforge-1.2.0.jar";
+            "hash" = "sha512-JRG6BURNTYJRtJlz/8XmB02xazOw130HoySxRy40rKUsts4pQ0lmtz9gELMLME+BtfvhOFcAySkGcQR0QqWf+Q==";
+        };
     in {
         "u2u35NA9" = _u2u35NA9;
         "b1gc1CAp" = _b1gc1CAp;
         "9llxjA1s" = _9llxjA1s;
         "2BdTjlMS" = _2BdTjlMS;
-        "neoforge-1.21.1" = _9llxjA1s;
-        "fabric-1.21.1" = _2BdTjlMS;
+        "lRlL9IYm" = _lRlL9IYm;
+        "iwm2JqIS" = _iwm2JqIS;
+        "neoforge-1.21.1" = _iwm2JqIS;
+        "fabric-1.21.1" = _lRlL9IYm;
         "pkg-1.0.0" = _b1gc1CAp;
         "pkg-1.1.0" = _2BdTjlMS;
-        "default" = _2BdTjlMS;
+        "pkg-1.2.0" = _iwm2JqIS;
+        "default" = _iwm2JqIS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-simple-ball-swap-";

@@ -31,6 +31,11 @@ let
             "file" = "bibliobiomes-1.21.1-1.6.3.jar";
             "hash" = "sha512-AzS7/JCVKTVhZdyuMSfR9carTIkLcPj68poeefUR+q9E0T85mVWIYbt2GAeB3DOdOergJ9NlCgGQpuKQX8UDWw==";
         };
+        _jml5LI7C = {
+            "id" = "jml5LI7C";
+            "file" = "bibliobiomes-1.21.1-1.6.4.jar";
+            "hash" = "sha512-2Qd55TVbhgUPbMSA81cVZ+qPmaSKd8um3o7agqPwqpFshdCf0vUz+fbpTahc6nAp2AMsV+DdPrnaCgr7+jJhVQ==";
+        };
     in {
         "qTpFeH0b" = _qTpFeH0b;
         "EHoZ470P" = _EHoZ470P;
@@ -38,7 +43,8 @@ let
         "5d0bLSbW" = _5d0bLSbW;
         "AXBT1WVh" = _AXBT1WVh;
         "eHoIL0hb" = _eHoIL0hb;
-        "neoforge-1.21.1" = _eHoIL0hb;
+        "jml5LI7C" = _jml5LI7C;
+        "neoforge-1.21.1" = _jml5LI7C;
         "neoforge-26.1" = _AXBT1WVh;
         "neoforge-26.1.1" = _AXBT1WVh;
         "neoforge-26.1.2" = _AXBT1WVh;
@@ -48,7 +54,8 @@ let
         "pkg-1.6.2" = _5d0bLSbW;
         "pkg-1.7.0" = _AXBT1WVh;
         "pkg-1.6.3" = _eHoIL0hb;
-        "default" = _eHoIL0hb;
+        "pkg-1.6.4" = _jml5LI7C;
+        "default" = _jml5LI7C;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bibliobiomes-legacy";

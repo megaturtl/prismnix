@@ -86,6 +86,16 @@ let
             "file" = "tfp-forge-1.20.1-0.5.8.1.jar";
             "hash" = "sha512-I2NbTGR6pzBZuKdjlj58J4Y4RjLJkjBwRrJ0TCoHUS0nVzg8M6fhk4AvRT5ylqzQNTuPKSX59bYpBHRzVhiElQ==";
         };
+        _wh2ksjVt = {
+            "id" = "wh2ksjVt";
+            "file" = "cfp-forge-1.20.1-0.5.9.jar";
+            "hash" = "sha512-lXmBzQlzm8LU/0XZAx9fKOArQzXQ3drfNSJKsBQzYDJdYj1BcNyNBe9PBqLm9t6gdIN4NxkM4GfzcLcKeihzBA==";
+        };
+        _EydGQaMt = {
+            "id" = "EydGQaMt";
+            "file" = "cfp-fabric-1.20.1-0.5.9.jar";
+            "hash" = "sha512-epWmULMNk9BA4u6aX7eK6proE4khhVR7B4LqLNOfBqiNVfPE+syPE2VlRWKj7O7cKaTsdo4+RoJQfSHeWqxxyg==";
+        };
     in {
         "HB9q0QEk" = _HB9q0QEk;
         "cPK94ImO" = _cPK94ImO;
@@ -104,8 +114,10 @@ let
         "sxL6DDXm" = _sxL6DDXm;
         "TdOUfOJ6" = _TdOUfOJ6;
         "XwJ3Qyvm" = _XwJ3Qyvm;
-        "forge-1.20.1" = _XwJ3Qyvm;
-        "fabric-1.20.1" = _TdOUfOJ6;
+        "wh2ksjVt" = _wh2ksjVt;
+        "EydGQaMt" = _EydGQaMt;
+        "forge-1.20.1" = _wh2ksjVt;
+        "fabric-1.20.1" = _EydGQaMt;
         "pkg-0.4.0" = _HB9q0QEk;
         "pkg-0.4.2" = _cPK94ImO;
         "pkg-0.5.1" = _BKQL2g5m;
@@ -116,7 +128,8 @@ let
         "pkg-0.5.6" = _fINEfE1q;
         "pkg-0.5.7" = _sxL6DDXm;
         "pkg-0.5.8.1" = _XwJ3Qyvm;
-        "default" = _XwJ3Qyvm;
+        "pkg-0.5.9" = _EydGQaMt;
+        "default" = _EydGQaMt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "craftformers-prime";

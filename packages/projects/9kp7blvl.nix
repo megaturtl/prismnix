@@ -146,6 +146,16 @@ let
             "file" = "ConfluenceOtherworld-forge-1.2.9+1.20.1-261012.jar";
             "hash" = "sha512-+IvLzzoQSBP1CCahSmOFdynHo0Vojpg4JpfUv9esT58cpqLTS7/xaqmMpn3039efL7X/qgbZoXFm0s79glNFsA==";
         };
+        _OZnrrohP = {
+            "id" = "OZnrrohP";
+            "file" = "ConfluenceOtherworld-neoforge-1.2.11+1.21.1-261025.jar";
+            "hash" = "sha512-57UTIulYve35dE8F9UDqp/afVFwvtJelvlE7piZpmpqpF0kxsDKZmqIvxeUGfCngO53VrRQ11ould1SkwGp9Vw==";
+        };
+        _i5w7AXH6 = {
+            "id" = "i5w7AXH6";
+            "file" = "ConfluenceOtherworld-forge-1.2.11+1.20.1-261025.jar";
+            "hash" = "sha512-z8uVbnv/of4PMUdSS0Z94gW/GYqMcyqajs2hH1sTJH/wF2a51tqiUg+RTNk0m0Ody39zqLOKDKs3LhJppOLrTQ==";
+        };
     in {
         "C9qGAYNj" = _C9qGAYNj;
         "ZFyMaVm2" = _ZFyMaVm2;
@@ -176,8 +186,10 @@ let
         "SvvNcTJh" = _SvvNcTJh;
         "mS7YiS6f" = _mS7YiS6f;
         "40G2vna4" = _40G2vna4;
-        "neoforge-1.21.1" = _mS7YiS6f;
-        "forge-1.20.1" = _40G2vna4;
+        "OZnrrohP" = _OZnrrohP;
+        "i5w7AXH6" = _i5w7AXH6;
+        "neoforge-1.21.1" = _OZnrrohP;
+        "forge-1.20.1" = _i5w7AXH6;
         "pkg-1.0.0" = _ZFyMaVm2;
         "pkg-1.0.1" = _sFoCLI8p;
         "pkg-1.0.2" = _evIu0OMo;
@@ -205,7 +217,8 @@ let
         "pkg-1.2.3.3-260215" = _16WhJIcI;
         "pkg-1.2.4-260226" = _SvvNcTJh;
         "pkg-1.2.9" = _40G2vna4;
-        "default" = _40G2vna4;
+        "pkg-1.2.11" = _i5w7AXH6;
+        "default" = _i5w7AXH6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "confluence";

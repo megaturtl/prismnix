@@ -136,6 +136,21 @@ let
             "file" = "cozystudioscore-2.7-1.20.1.jar";
             "hash" = "sha512-6NFpeDZ/bHodW9LcOZLkJkYIPOeTIj/dEkSyJ6ZAnIJoSEYTsvRJItoN5Jm9hwbQngZxrgXcNnhH1X3Q1nSw6w==";
         };
+        _4OTruf5g = {
+            "id" = "4OTruf5g";
+            "file" = "cozystudioscore-2.8-1.20.1.jar";
+            "hash" = "sha512-W53qewytPsjfd0/LmjU1L94/2Q4TqU7+D1XmxogN7nTAnvQLLSywGkB+4qdzailnyZH4YRoK2wLNyZTmzVLCBQ==";
+        };
+        _TGsAZ2h1 = {
+            "id" = "TGsAZ2h1";
+            "file" = "cozystudioscore-2.9-1.20.1.jar";
+            "hash" = "sha512-V6E5Cx1TC7eoZVjExVadGyPPUzbytjmNj6H7W63WHKA4Rn4MXgTGawpYOpZJcxcK+D6zmzFuiWrS6S0z0cBPlw==";
+        };
+        _qgfvdEeG = {
+            "id" = "qgfvdEeG";
+            "file" = "cozystudioscore-2.9.1-1.20.1.jar";
+            "hash" = "sha512-+78QTfho9Me0agwRUBmFnhRdUcom/qajpsW8YlF/gs7v2RZUl8k4zlbujWA0joKpG2/fiEJPwM4LiLSJ6y1EWQ==";
+        };
     in {
         "HxSOfIcL" = _HxSOfIcL;
         "oR0QFbCr" = _oR0QFbCr;
@@ -164,7 +179,10 @@ let
         "t0jZE1WI" = _t0jZE1WI;
         "r8tpksPf" = _r8tpksPf;
         "Z3aE3Jxu" = _Z3aE3Jxu;
-        "fabric-1.20.1" = _Z3aE3Jxu;
+        "4OTruf5g" = _4OTruf5g;
+        "TGsAZ2h1" = _TGsAZ2h1;
+        "qgfvdEeG" = _qgfvdEeG;
+        "fabric-1.20.1" = _qgfvdEeG;
         "pkg-0.1-1.20.1" = _HxSOfIcL;
         "pkg-0.2-1.20.1" = _oR0QFbCr;
         "pkg-0.3-1.20.1" = _oKhiWD1G;
@@ -192,7 +210,10 @@ let
         "pkg-2.5-1.20.1" = _t0jZE1WI;
         "pkg-2.6-1.20.1" = _r8tpksPf;
         "pkg-2.7-1.20.1" = _Z3aE3Jxu;
-        "default" = _Z3aE3Jxu;
+        "pkg-2.8-1.20.1" = _4OTruf5g;
+        "pkg-2.9-1.20.1" = _TGsAZ2h1;
+        "pkg-2.9.1-1.20.1" = _qgfvdEeG;
+        "default" = _qgfvdEeG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cozystudios-core";

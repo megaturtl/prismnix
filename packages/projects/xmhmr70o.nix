@@ -411,6 +411,11 @@ let
             "file" = "electrodynamics-1.21.1-1.1.0.jar";
             "hash" = "sha512-OdOPkJZsONkpOIw0QnwhM/WHhYsrPEuLC9PjqLZS/sUc+slvXKQe5Zi+vXuwoQEC2K60/ebd75D3g3Dsbamelg==";
         };
+        _NX8yAjYd = {
+            "id" = "NX8yAjYd";
+            "file" = "electrodynamics-1.21.1-1.1.1.jar";
+            "hash" = "sha512-QmT/tTlIwHXpmj/c7ycXo0BNsaaYVyXN07nqJsdhAhcl67QbRVXWnEHajk4gvst0U107iPfKn4fvPbFTmvnnYw==";
+        };
     in {
         "VmXqBaON" = _VmXqBaON;
         "MHscCVOD" = _MHscCVOD;
@@ -494,6 +499,7 @@ let
         "QyRCuKfr" = _QyRCuKfr;
         "81LJg5IE" = _81LJg5IE;
         "PIMi40Ga" = _PIMi40Ga;
+        "NX8yAjYd" = _NX8yAjYd;
         "forge-1.19.2" = _SuiMXKAg;
         "forge-1.18.2" = _1BJo79gu;
         "forge-1.18.1" = _CbrG4S3u;
@@ -502,7 +508,7 @@ let
         "forge-1.16.5" = _taHzln8j;
         "forge-1.20.1" = _QyRCuKfr;
         "neoforge-1.20.1" = _QyRCuKfr;
-        "neoforge-1.21.1" = _PIMi40Ga;
+        "neoforge-1.21.1" = _NX8yAjYd;
         "pkg-1.19.2-0.8.0-5" = _VmXqBaON;
         "pkg-1.18.2-0.6.4-0" = _MHscCVOD;
         "pkg-1.18.1-0.6.2-4" = _CbrG4S3u;
@@ -585,7 +591,8 @@ let
         "pkg-1.20.1-1.0.14" = _QyRCuKfr;
         "pkg-1.21.1-1.0.14" = _81LJg5IE;
         "pkg-1.21.1-1.1.0" = _PIMi40Ga;
-        "default" = _PIMi40Ga;
+        "pkg-1.21.1-1.1.1" = _NX8yAjYd;
+        "default" = _NX8yAjYd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "electrodynamics";
