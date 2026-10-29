@@ -196,6 +196,26 @@ let
             "file" = "[1.21.1]hud_bw-4.1.0-NeoForge.jar";
             "hash" = "sha512-P6zd8XY20sPqHi9/nNxvL4x3aytzmOPldDPIWJNxMa9UADS3RGa0XOjzzqAuUpqCdjvRu2eH6/lffhgZLSgLxg==";
         };
+        _WXGeVqOt = {
+            "id" = "WXGeVqOt";
+            "file" = "[1.20.1]hud_bw-4.1.0-forge.jar";
+            "hash" = "sha512-+BrSIzzkMufb8QKlhosxO2OC4xbClWJLMaUDIqoY+ta5HTRaGygxL3/1exAetF/E95wIK3WvbKG4Zw9JVSO3Ng==";
+        };
+        _66EDly5L = {
+            "id" = "66EDly5L";
+            "file" = "[1.20.1]HUD_BW-4.1.0-fabric.jar";
+            "hash" = "sha512-J2I7t3TqpqnbEHU6Urnv9t0eOht1jMJ1TAtr74x3NAx01noPYAcxEEaRTBcJqqwvgtEwCHFpG+ArhBra44bAsQ==";
+        };
+        _yJnWjwcL = {
+            "id" = "yJnWjwcL";
+            "file" = "[1.16.5]hud_bw-4.1.0-forge.jar";
+            "hash" = "sha512-XsbLmd1JRiH7GrJEiOFMsUgBm068WL5bqCTAKcN1Ra2nzXbQkl3JnQxQblb2Uig/TcHFcmyE0tvO7EfALrulrg==";
+        };
+        _BsU7f312 = {
+            "id" = "BsU7f312";
+            "file" = "[1.16.5]HUD_BW-4.1.0-fabric.jar";
+            "hash" = "sha512-n4D3QaGXss3IP82eQDhfjHuxLq+yy9/HYDukGKLOr6G9BQi0GgVnEBaNvK7KKp9s3EGLKI29CWhSHsV2mP2BHw==";
+        };
     in {
         "Tj5QEUSf" = _Tj5QEUSf;
         "6m3hoabv" = _6m3hoabv;
@@ -236,6 +256,10 @@ let
         "r36uhHSk" = _r36uhHSk;
         "Wx5EnN4U" = _Wx5EnN4U;
         "Epv6ZFZP" = _Epv6ZFZP;
+        "WXGeVqOt" = _WXGeVqOt;
+        "66EDly5L" = _66EDly5L;
+        "yJnWjwcL" = _yJnWjwcL;
+        "BsU7f312" = _BsU7f312;
         "fabric-1.21.11" = _a7ioHbPf;
         "fabric-26.2" = _LAUNRYgb;
         "fabric-26.1" = _r36uhHSk;
@@ -247,19 +271,19 @@ let
         "fabric-1.21.3" = _rRFLQgbR;
         "fabric-1.21.4" = _rRFLQgbR;
         "fabric-1.21.5" = _rRFLQgbR;
-        "fabric-1.16.4" = _cRwM7uJi;
-        "fabric-1.16.5" = _cRwM7uJi;
+        "fabric-1.16.4" = _BsU7f312;
+        "fabric-1.16.5" = _BsU7f312;
         "fabric-1.21.6" = _yMq3bzGT;
         "fabric-1.21.7" = _yMq3bzGT;
         "fabric-1.21.8" = _yMq3bzGT;
         "fabric-1.21.9" = _WukRg92p;
         "fabric-1.21.10" = _WukRg92p;
         "fabric-1.20" = _3pqdLwQY;
-        "fabric-1.20.1" = _3pqdLwQY;
+        "fabric-1.20.1" = _66EDly5L;
         "fabric-26.3" = _vLYs7NkJ;
-        "forge-1.16.4" = _da9dNedi;
-        "forge-1.16.5" = _da9dNedi;
-        "forge-1.20.1" = _xakfAfhE;
+        "forge-1.16.4" = _yJnWjwcL;
+        "forge-1.16.5" = _yJnWjwcL;
+        "forge-1.20.1" = _WXGeVqOt;
         "forge-1.20.2" = _Kn1RhkuZ;
         "forge-1.20.3" = _Kn1RhkuZ;
         "forge-1.20.4" = _Kn1RhkuZ;
@@ -276,8 +300,8 @@ let
         "pkg-3.3-BETA" = _Kn1RhkuZ;
         "pkg-3.3-forge" = _da9dNedi;
         "pkg-4.0" = _qpr6yLHi;
-        "pkg-4.1.0" = _Epv6ZFZP;
-        "default" = _Epv6ZFZP;
+        "pkg-4.1.0" = _BsU7f312;
+        "default" = _BsU7f312;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hud-better-widgets";

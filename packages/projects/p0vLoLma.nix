@@ -86,6 +86,16 @@ let
             "file" = "Lobby Parkour-26.2-v1.4.0.jar";
             "hash" = "sha512-LpotXk2dc/ujSZTZsY8fLMUfsrHwvwYXy/DmVRNwaD02ZCdUxk6pP55J+MTvjfq2s9Q0xPtvdIfk8Kj+Cl2tQA==";
         };
+        _WjrlLKAA = {
+            "id" = "WjrlLKAA";
+            "file" = "Lobby Parkour-26.3-v1.4.1.jar";
+            "hash" = "sha512-YPnWrpqvgtimMTTshg6wnKlO5XUji0lvfpcC8R/tok1PI1Y17NfU6zpl31uVLPqRdfG+TdY1kgTF8Ev0o+uRYw==";
+        };
+        _14A4HMSQ = {
+            "id" = "14A4HMSQ";
+            "file" = "Lobby Parkour-26.2-v1.4.1.jar";
+            "hash" = "sha512-p76C9LS9ZQzRmJVmYikLNfAhun2QMfbqRCQ0C7d65AU3yILCKsJjg5jNVb9Xb1boeWqQpKQ6ylGbnyS6SrDjnQ==";
+        };
     in {
         "GoArtYxx" = _GoArtYxx;
         "2rWiGc36" = _2rWiGc36;
@@ -104,6 +114,8 @@ let
         "hCjWNurr" = _hCjWNurr;
         "YYFXVtBh" = _YYFXVtBh;
         "BJHOFcUq" = _BJHOFcUq;
+        "WjrlLKAA" = _WjrlLKAA;
+        "14A4HMSQ" = _14A4HMSQ;
         "paper-1.21" = _FQvFAQud;
         "paper-1.21.1" = _FQvFAQud;
         "paper-1.21.2" = _FQvFAQud;
@@ -119,8 +131,8 @@ let
         "paper-26.1.2" = _O4OPf2of;
         "paper-26.1" = _O4OPf2of;
         "paper-26.1.1" = _O4OPf2of;
-        "paper-26.2" = _BJHOFcUq;
-        "paper-26.3" = _YYFXVtBh;
+        "paper-26.2" = _14A4HMSQ;
+        "paper-26.3" = _WjrlLKAA;
         "folia-1.21" = _FQvFAQud;
         "folia-1.21.1" = _FQvFAQud;
         "folia-1.21.2" = _FQvFAQud;
@@ -136,8 +148,8 @@ let
         "folia-26.1.2" = _O4OPf2of;
         "folia-26.1" = _O4OPf2of;
         "folia-26.1.1" = _O4OPf2of;
-        "folia-26.2" = _BJHOFcUq;
-        "folia-26.3" = _YYFXVtBh;
+        "folia-26.2" = _14A4HMSQ;
+        "folia-26.3" = _WjrlLKAA;
         "purpur-1.21" = _FQvFAQud;
         "purpur-1.21.1" = _FQvFAQud;
         "purpur-1.21.2" = _FQvFAQud;
@@ -153,8 +165,8 @@ let
         "purpur-26.1.2" = _O4OPf2of;
         "purpur-26.1" = _O4OPf2of;
         "purpur-26.1.1" = _O4OPf2of;
-        "purpur-26.2" = _hCjWNurr;
-        "purpur-26.3" = _W4HcVy3u;
+        "purpur-26.2" = _14A4HMSQ;
+        "purpur-26.3" = _WjrlLKAA;
         "pkg-1.0.0" = _GoArtYxx;
         "pkg-1.1.0" = _2rWiGc36;
         "pkg-1.1.1" = _g2IwX7d8;
@@ -170,7 +182,8 @@ let
         "pkg-1.3.6" = _yR5RGt7Y;
         "pkg-1.3.7" = _hCjWNurr;
         "pkg-1.4.0" = _BJHOFcUq;
-        "default" = _BJHOFcUq;
+        "pkg-1.4.1" = _14A4HMSQ;
+        "default" = _14A4HMSQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lobby-parkour";

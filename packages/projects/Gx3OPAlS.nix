@@ -356,6 +356,11 @@ let
             "file" = "mooshroomspawn-26.3.0-3.9.jar";
             "hash" = "sha512-DlTRk5Vp33l2CFR8+Iho/WZ5uJqT5dmBwXJiZX24kXvS7WSGVbnoGWGabkNubIQsO4f5uLP65oob9p/zdR3YBQ==";
         };
+        _suYc0P11 = {
+            "id" = "suYc0P11";
+            "file" = "mooshroomspawn-26.1.2-3.9.jar";
+            "hash" = "sha512-7lIo1I8Qw3zB7JR9giyDvrg/AL+c1j51is+HUA8CuLZlQUVbETdreGbu2LhFMwuIRM4oDa24r+MPFxKEMg5RJA==";
+        };
     in {
         "3QKrTfRl" = _3QKrTfRl;
         "OSlQ3cTt" = _OSlQ3cTt;
@@ -428,6 +433,7 @@ let
         "irwfDrAj" = _irwfDrAj;
         "ZGysLQlm" = _ZGysLQlm;
         "HpHrR45N" = _HpHrR45N;
+        "suYc0P11" = _suYc0P11;
         "fabric-1.16.5" = _uIoTmIz8;
         "fabric-1.18.2" = _pLGkntk5;
         "fabric-1.19.2" = _b8BIYz8S;
@@ -454,7 +460,7 @@ let
         "fabric-1.21.11" = _yiXxWP5g;
         "fabric-26.1" = _APC6nxTb;
         "fabric-26.1.1" = _2tSH9Bpj;
-        "fabric-26.1.2" = _G0RjzB29;
+        "fabric-26.1.2" = _suYc0P11;
         "fabric-26.2" = _ZGysLQlm;
         "fabric-26.3" = _HpHrR45N;
         "forge-1.16.5" = _rAku5JtQ;
@@ -481,7 +487,7 @@ let
         "forge-1.21.11" = _yiXxWP5g;
         "forge-26.1" = _APC6nxTb;
         "forge-26.1.1" = _2tSH9Bpj;
-        "forge-26.1.2" = _G0RjzB29;
+        "forge-26.1.2" = _suYc0P11;
         "forge-26.2" = _ZGysLQlm;
         "forge-26.3" = _HpHrR45N;
         "quilt-1.18.2" = _pLGkntk5;
@@ -509,7 +515,7 @@ let
         "quilt-1.21.11" = _yiXxWP5g;
         "quilt-26.1" = _APC6nxTb;
         "quilt-26.1.1" = _2tSH9Bpj;
-        "quilt-26.1.2" = _G0RjzB29;
+        "quilt-26.1.2" = _suYc0P11;
         "quilt-26.2" = _ZGysLQlm;
         "quilt-26.3" = _HpHrR45N;
         "neoforge-1.20.2" = _9MdiKcNW;
@@ -532,7 +538,7 @@ let
         "neoforge-1.21.11" = _yiXxWP5g;
         "neoforge-26.1" = _APC6nxTb;
         "neoforge-26.1.1" = _2tSH9Bpj;
-        "neoforge-26.1.2" = _G0RjzB29;
+        "neoforge-26.1.2" = _suYc0P11;
         "neoforge-26.2" = _ZGysLQlm;
         "neoforge-26.3" = _HpHrR45N;
         "pkg-1.16.5-2.1-fabric" = _3QKrTfRl;
@@ -606,7 +612,8 @@ let
         "pkg-1.21.1-3.9-fabric+forge+neo" = _irwfDrAj;
         "pkg-26.2.0-3.9-fabric+forge+neo" = _ZGysLQlm;
         "pkg-26.3.0-3.9-fabric+forge+neo" = _HpHrR45N;
-        "default" = _HpHrR45N;
+        "pkg-26.1.2-3.9-fabric+forge+neo" = _suYc0P11;
+        "default" = _suYc0P11;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mooshroom-spawn";

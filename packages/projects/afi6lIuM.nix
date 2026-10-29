@@ -31,6 +31,11 @@ let
             "file" = "skeletonaimingfix-2.0.0+1.20.1-fabric.jar";
             "hash" = "sha512-OcQuVUvYKRAj8Tp/M9MtG1QnKvpW6thu+6KI3+jKPpMWBuyTr6QYw6q1oNjiVU5GBW/CpJRdgkri2xMezrOtoQ==";
         };
+        _ixt8xxBg = {
+            "id" = "ixt8xxBg";
+            "file" = "skeletonaimingfix-2.0.1+1.20.1+forge.jar";
+            "hash" = "sha512-jLo+K0+jWkG/apa5bofutabPLpdyFaYg2NRGbIKLFNnMYvYhSQ5Bkl8SuoI2BtEH/+xhiZh+Shv/11/vAwr61w==";
+        };
     in {
         "1seknO93" = _1seknO93;
         "VBRMEFmR" = _VBRMEFmR;
@@ -38,16 +43,18 @@ let
         "kJj52DFL" = _kJj52DFL;
         "TxIgjEeR" = _TxIgjEeR;
         "97f26q7g" = _97f26q7g;
+        "ixt8xxBg" = _ixt8xxBg;
         "fabric-1.21.10" = _1seknO93;
         "fabric-1.21.1" = _kJj52DFL;
         "fabric-1.20.1" = _97f26q7g;
         "neoforge-1.21.10" = _VBRMEFmR;
         "neoforge-1.21.1" = _h4tHry2B;
-        "forge-1.20.1" = _TxIgjEeR;
+        "forge-1.20.1" = _ixt8xxBg;
         "pkg-2.0.0+1.21.10" = _VBRMEFmR;
         "pkg-2.0.0+1.21.1" = _kJj52DFL;
         "pkg-2.0.0+1.20.1" = _97f26q7g;
-        "default" = _97f26q7g;
+        "pkg-2.0.1+1.20.1" = _ixt8xxBg;
+        "default" = _ixt8xxBg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skeleton-aiming-fix";

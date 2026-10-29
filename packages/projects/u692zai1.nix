@@ -276,6 +276,11 @@ let
             "file" = "villagebellrecipe-26.3.0-3.8.jar";
             "hash" = "sha512-bX2DvhViHtfvrFAlN5/tct8SqYRr3t6vFTYnIJkluGq7H2SWduy/NyEApp2pcxvqe9zEodgwUTusOuKX0TXj+w==";
         };
+        _Ysblsvnf = {
+            "id" = "Ysblsvnf";
+            "file" = "villagebellrecipe-26.1.2-3.8.jar";
+            "hash" = "sha512-ekNXhpDPJPJMxi4e3immfj9D++mqk8xSBqJ7Y2T5XDOCvDk9rRd1LEwjVQgwixCEoV1LUWWmgMH+75y7+O0rGw==";
+        };
     in {
         "24BfmQwW" = _24BfmQwW;
         "f4hYhyKL" = _f4hYhyKL;
@@ -332,6 +337,7 @@ let
         "x7nDgAnh" = _x7nDgAnh;
         "gp7AZ5j4" = _gp7AZ5j4;
         "ExnLKtZ2" = _ExnLKtZ2;
+        "Ysblsvnf" = _Ysblsvnf;
         "fabric-1.16.5" = _J4rKSHWX;
         "fabric-1.18.2" = _pBBCZuaa;
         "fabric-1.19.2" = _7ZjN0KEz;
@@ -358,7 +364,7 @@ let
         "fabric-1.21.11" = _uVrpbQ2i;
         "fabric-26.1" = _QrTmelUI;
         "fabric-26.1.1" = _AGHoZ0fh;
-        "fabric-26.1.2" = _FjWbtYav;
+        "fabric-26.1.2" = _Ysblsvnf;
         "fabric-26.2" = _gp7AZ5j4;
         "fabric-26.3" = _ExnLKtZ2;
         "forge-1.16.5" = _UgXEwOPV;
@@ -385,7 +391,7 @@ let
         "forge-1.21.11" = _uVrpbQ2i;
         "forge-26.1" = _QrTmelUI;
         "forge-26.1.1" = _AGHoZ0fh;
-        "forge-26.1.2" = _FjWbtYav;
+        "forge-26.1.2" = _Ysblsvnf;
         "forge-26.2" = _gp7AZ5j4;
         "forge-26.3" = _ExnLKtZ2;
         "quilt-1.18.2" = _pBBCZuaa;
@@ -413,7 +419,7 @@ let
         "quilt-1.21.11" = _uVrpbQ2i;
         "quilt-26.1" = _QrTmelUI;
         "quilt-26.1.1" = _AGHoZ0fh;
-        "quilt-26.1.2" = _FjWbtYav;
+        "quilt-26.1.2" = _Ysblsvnf;
         "quilt-26.2" = _gp7AZ5j4;
         "quilt-26.3" = _ExnLKtZ2;
         "neoforge-1.20.1" = _1BBc0bIC;
@@ -436,7 +442,7 @@ let
         "neoforge-1.21.11" = _uVrpbQ2i;
         "neoforge-26.1" = _QrTmelUI;
         "neoforge-26.1.1" = _AGHoZ0fh;
-        "neoforge-26.1.2" = _FjWbtYav;
+        "neoforge-26.1.2" = _Ysblsvnf;
         "neoforge-26.2" = _gp7AZ5j4;
         "neoforge-26.3" = _ExnLKtZ2;
         "pkg-1.16.5-1.7-fabric" = _24BfmQwW;
@@ -494,7 +500,8 @@ let
         "pkg-1.21.1-3.8-fabric+forge+neo" = _x7nDgAnh;
         "pkg-26.2.0-3.8-fabric+forge+neo" = _gp7AZ5j4;
         "pkg-26.3.0-3.8-fabric+forge+neo" = _ExnLKtZ2;
-        "default" = _ExnLKtZ2;
+        "pkg-26.1.2-3.8-fabric+forge+neo" = _Ysblsvnf;
+        "default" = _Ysblsvnf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "village-bell-recipe";

@@ -66,6 +66,16 @@ let
             "file" = "recursiveae2patternprovider-1.0.13.jar";
             "hash" = "sha512-WFLk7EWtC1vhXR0h+3LDZ6fec07AZEoM6c4pT4e1bmXVHE00mORVK+45Bzfm3iK8oCQCWxe3+YG+PxdCkeZw4A==";
         };
+        _WWcXNi1U = {
+            "id" = "WWcXNi1U";
+            "file" = "recursiveae2patternprovider-1.0.14.jar";
+            "hash" = "sha512-7ajRJnGejA4V2WlZs1CmuawhooPCTQ+DfIZOfqucFr8QWeM3RSKIQG9CDf/v3ADxNpb8KKoZrgXEwlC+mKb1TA==";
+        };
+        _GkYJMZR8 = {
+            "id" = "GkYJMZR8";
+            "file" = "recursiveae2patternprovider-1.1.2.jar";
+            "hash" = "sha512-jKIrobeBRkFoOg3UdPbyUZ3RDoo702sCX/AUsjVEPX5ShSq59J4KmGxrmRppy8vE7hGuewFVg0rqGIg1X8/qUg==";
+        };
     in {
         "jKzruLPy" = _jKzruLPy;
         "kSxudPjv" = _kSxudPjv;
@@ -80,8 +90,10 @@ let
         "y5yYN3lA" = _y5yYN3lA;
         "CAYls2lw" = _CAYls2lw;
         "zPCqAVbX" = _zPCqAVbX;
-        "neoforge-1.21.1" = _zPCqAVbX;
-        "neoforge-26.1.2" = _y5yYN3lA;
+        "WWcXNi1U" = _WWcXNi1U;
+        "GkYJMZR8" = _GkYJMZR8;
+        "neoforge-1.21.1" = _WWcXNi1U;
+        "neoforge-26.1.2" = _GkYJMZR8;
         "pkg-1.0.3" = _jKzruLPy;
         "pkg-1.0.4" = _kSxudPjv;
         "pkg-1.0.5" = _O8dntISP;
@@ -95,7 +107,9 @@ let
         "pkg-1.1.1" = _y5yYN3lA;
         "pkg-1.0.12" = _CAYls2lw;
         "pkg-1.0.13" = _zPCqAVbX;
-        "default" = _zPCqAVbX;
+        "pkg-1.0.14" = _WWcXNi1U;
+        "pkg-1.1.2" = _GkYJMZR8;
+        "default" = _GkYJMZR8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "recursiveae2patternprovider";

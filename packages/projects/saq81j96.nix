@@ -256,6 +256,11 @@ let
             "file" = "dailyquests-26.3.0-4.0.jar";
             "hash" = "sha512-sTbsSYIvfC33uG62h70gFTbLdZSQY5mPPhVXp5Ay7LA/TkR34GvBOYxzmK1evZuTc1cN36Q3ih6k7+HeTcl9Yw==";
         };
+        _69OsAoVn = {
+            "id" = "69OsAoVn";
+            "file" = "dailyquests-26.1.2-4.0.jar";
+            "hash" = "sha512-weW6fb2hQgkA7Bm8Hc4MtJGHtjSj8VsINcMDgyv+j5aQ5m9c8IoxBE5xOcH0QepFbhDlXVmGxqwh6KcdE4K3SA==";
+        };
     in {
         "9vmj8U5d" = _9vmj8U5d;
         "kfVcm4NN" = _kfVcm4NN;
@@ -308,6 +313,7 @@ let
         "DTwmNyol" = _DTwmNyol;
         "vgK92YLu" = _vgK92YLu;
         "dUjJxwnf" = _dUjJxwnf;
+        "69OsAoVn" = _69OsAoVn;
         "fabric-1.21" = _DTwmNyol;
         "fabric-1.21.1" = _DTwmNyol;
         "fabric-1.21.2" = _Rj6zVHPv;
@@ -322,7 +328,7 @@ let
         "fabric-1.21.11" = _7WCxtmfg;
         "fabric-26.1" = _OrZPPedS;
         "fabric-26.1.1" = _KoSPaBIN;
-        "fabric-26.1.2" = _pESyJ68V;
+        "fabric-26.1.2" = _69OsAoVn;
         "fabric-26.2" = _vgK92YLu;
         "fabric-26.3" = _dUjJxwnf;
         "forge-1.21" = _DTwmNyol;
@@ -338,7 +344,7 @@ let
         "forge-1.21.11" = _7WCxtmfg;
         "forge-26.1" = _OrZPPedS;
         "forge-26.1.1" = _KoSPaBIN;
-        "forge-26.1.2" = _pESyJ68V;
+        "forge-26.1.2" = _69OsAoVn;
         "forge-26.2" = _vgK92YLu;
         "forge-26.3" = _dUjJxwnf;
         "neoforge-1.21" = _DTwmNyol;
@@ -355,7 +361,7 @@ let
         "neoforge-1.21.11" = _7WCxtmfg;
         "neoforge-26.1" = _OrZPPedS;
         "neoforge-26.1.1" = _KoSPaBIN;
-        "neoforge-26.1.2" = _pESyJ68V;
+        "neoforge-26.1.2" = _69OsAoVn;
         "neoforge-26.2" = _vgK92YLu;
         "neoforge-26.3" = _dUjJxwnf;
         "quilt-1.21" = _DTwmNyol;
@@ -372,7 +378,7 @@ let
         "quilt-1.21.11" = _7WCxtmfg;
         "quilt-26.1" = _OrZPPedS;
         "quilt-26.1.1" = _KoSPaBIN;
-        "quilt-26.1.2" = _pESyJ68V;
+        "quilt-26.1.2" = _69OsAoVn;
         "quilt-26.2" = _vgK92YLu;
         "quilt-26.3" = _dUjJxwnf;
         "pkg-1.21.1-1.0-fabric+forge+neo" = _9vmj8U5d;
@@ -426,7 +432,8 @@ let
         "pkg-1.21.1-4.0-fabric+forge+neo" = _DTwmNyol;
         "pkg-26.2.0-4.0-fabric+forge+neo" = _vgK92YLu;
         "pkg-26.3.0-4.0-fabric+forge+neo" = _dUjJxwnf;
-        "default" = _dUjJxwnf;
+        "pkg-26.1.2-4.0-fabric+forge+neo" = _69OsAoVn;
+        "default" = _69OsAoVn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "daily-quests";

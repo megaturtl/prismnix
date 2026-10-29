@@ -366,6 +366,11 @@ let
             "file" = "respawndelay-26.3.0-5.1.jar";
             "hash" = "sha512-aqh7FBB9TOEz+phwd42yEawBZHYRrClfRuJ6VwxXr6eiNbavADweEl3rFtbFb2zuchRN14ugq6V5BbBBYF1fBg==";
         };
+        _WvDlP6v4 = {
+            "id" = "WvDlP6v4";
+            "file" = "respawndelay-26.1.2-5.1.jar";
+            "hash" = "sha512-qGgOn8VfqaDAY+iR8inYsUlyWZ0Krp8iMf7OTUP59S8mFaoVclSfIrhfaNC5JjzyCSxeNBTa775Y66uL+rHNnQ==";
+        };
     in {
         "jLD5WFGh" = _jLD5WFGh;
         "zqCRtP4f" = _zqCRtP4f;
@@ -440,6 +445,7 @@ let
         "jIGZbIyM" = _jIGZbIyM;
         "xzwBcQsD" = _xzwBcQsD;
         "StU4NSnI" = _StU4NSnI;
+        "WvDlP6v4" = _WvDlP6v4;
         "fabric-1.16.5" = _8lOmAEsB;
         "fabric-1.18.2" = _uhE1wtqw;
         "fabric-1.19.2" = _4Hjj4Tpp;
@@ -466,7 +472,7 @@ let
         "fabric-1.21.11" = _PjhhP5dA;
         "fabric-26.1" = _LozKTZOr;
         "fabric-26.1.1" = _owK9SqnM;
-        "fabric-26.1.2" = _wSbrX5rR;
+        "fabric-26.1.2" = _WvDlP6v4;
         "fabric-26.2" = _xzwBcQsD;
         "fabric-26.3" = _StU4NSnI;
         "forge-1.16.5" = _pY1d7ySe;
@@ -493,7 +499,7 @@ let
         "forge-1.21.11" = _PjhhP5dA;
         "forge-26.1" = _LozKTZOr;
         "forge-26.1.1" = _owK9SqnM;
-        "forge-26.1.2" = _wSbrX5rR;
+        "forge-26.1.2" = _WvDlP6v4;
         "forge-26.2" = _xzwBcQsD;
         "forge-26.3" = _StU4NSnI;
         "quilt-1.18.2" = _uhE1wtqw;
@@ -521,7 +527,7 @@ let
         "quilt-1.21.11" = _PjhhP5dA;
         "quilt-26.1" = _LozKTZOr;
         "quilt-26.1.1" = _owK9SqnM;
-        "quilt-26.1.2" = _wSbrX5rR;
+        "quilt-26.1.2" = _WvDlP6v4;
         "quilt-26.2" = _xzwBcQsD;
         "quilt-26.3" = _StU4NSnI;
         "neoforge-1.18.2" = _v8nog9j2;
@@ -547,7 +553,7 @@ let
         "neoforge-1.21.11" = _PjhhP5dA;
         "neoforge-26.1" = _LozKTZOr;
         "neoforge-26.1.1" = _owK9SqnM;
-        "neoforge-26.1.2" = _wSbrX5rR;
+        "neoforge-26.1.2" = _WvDlP6v4;
         "neoforge-26.2" = _xzwBcQsD;
         "neoforge-26.3" = _StU4NSnI;
         "pkg-1.16.5-2.9-fabric" = _jLD5WFGh;
@@ -623,7 +629,8 @@ let
         "pkg-1.21.1-5.1-fabric+forge+neo" = _jIGZbIyM;
         "pkg-26.2.0-5.1-fabric+forge+neo" = _xzwBcQsD;
         "pkg-26.3.0-5.1-fabric+forge+neo" = _StU4NSnI;
-        "default" = _StU4NSnI;
+        "pkg-26.1.2-5.1-fabric+forge+neo" = _WvDlP6v4;
+        "default" = _WvDlP6v4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "respawn-delay";

@@ -391,6 +391,11 @@ let
             "file" = "omegamute-26.3.0-4.6.jar";
             "hash" = "sha512-+Q6u2WxOI5OcSrMj4hZuxP81X38H6nul1aJX3nDBQr1SVRykXZSjFQrh5/7IYl9lEyh8ioBDtlwLiNz4dW5MFg==";
         };
+        _kNt7wjNY = {
+            "id" = "kNt7wjNY";
+            "file" = "omegamute-26.1.2-4.6.jar";
+            "hash" = "sha512-EpQn5NSLkkgqLgG/zAFe6ZV1JFpXxhFkmvKjHzMlcs9u6CsDi1iIYxl/+hPg1V7ngRWOeROWNYN5cVnaGBugSQ==";
+        };
     in {
         "5asAfFEi" = _5asAfFEi;
         "xsRsvhf4" = _xsRsvhf4;
@@ -470,6 +475,7 @@ let
         "V1quWtgT" = _V1quWtgT;
         "v8urOygi" = _v8urOygi;
         "MrTCtYaR" = _MrTCtYaR;
+        "kNt7wjNY" = _kNt7wjNY;
         "fabric-1.16.5" = _G9zY3DTh;
         "fabric-1.18.2" = _sfo78xEN;
         "fabric-1.19.2" = _QwuLGm8S;
@@ -496,7 +502,7 @@ let
         "fabric-1.21.11" = _9BSiWaJ8;
         "fabric-26.1" = _3EPD7BHa;
         "fabric-26.1.1" = _kJrGKCFe;
-        "fabric-26.1.2" = _roa5wzTo;
+        "fabric-26.1.2" = _kNt7wjNY;
         "fabric-26.2" = _v8urOygi;
         "fabric-26.3" = _MrTCtYaR;
         "forge-1.16.5" = _ihfcgxMy;
@@ -523,7 +529,7 @@ let
         "forge-1.21.11" = _9BSiWaJ8;
         "forge-26.1" = _3EPD7BHa;
         "forge-26.1.1" = _kJrGKCFe;
-        "forge-26.1.2" = _roa5wzTo;
+        "forge-26.1.2" = _kNt7wjNY;
         "forge-26.2" = _v8urOygi;
         "forge-26.3" = _MrTCtYaR;
         "quilt-1.18.2" = _sfo78xEN;
@@ -551,7 +557,7 @@ let
         "quilt-1.21.11" = _9BSiWaJ8;
         "quilt-26.1" = _3EPD7BHa;
         "quilt-26.1.1" = _kJrGKCFe;
-        "quilt-26.1.2" = _roa5wzTo;
+        "quilt-26.1.2" = _kNt7wjNY;
         "quilt-26.2" = _v8urOygi;
         "quilt-26.3" = _MrTCtYaR;
         "neoforge-1.20.2" = _xptBTC14;
@@ -574,7 +580,7 @@ let
         "neoforge-1.21.11" = _9BSiWaJ8;
         "neoforge-26.1" = _3EPD7BHa;
         "neoforge-26.1.1" = _kJrGKCFe;
-        "neoforge-26.1.2" = _roa5wzTo;
+        "neoforge-26.1.2" = _kNt7wjNY;
         "neoforge-26.2" = _v8urOygi;
         "neoforge-26.3" = _MrTCtYaR;
         "pkg-1.16.5-2.4-fabric" = _5asAfFEi;
@@ -654,7 +660,8 @@ let
         "pkg-1.21.1-4.6-fabric+forge+neo" = _V1quWtgT;
         "pkg-26.2.0-4.6-fabric+forge+neo" = _v8urOygi;
         "pkg-26.3.0-4.6-fabric+forge+neo" = _MrTCtYaR;
-        "default" = _MrTCtYaR;
+        "pkg-26.1.2-4.6-fabric+forge+neo" = _kNt7wjNY;
+        "default" = _kNt7wjNY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "omega-mute";

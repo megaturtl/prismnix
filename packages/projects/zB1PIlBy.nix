@@ -31,6 +31,31 @@ let
             "file" = "xaeros-drawings-fabric-mc26.1.2-0.5.0.jar";
             "hash" = "sha512-36G4uhTwrA3vwzjYyjCRC7kL+cONuqRUlTA4ncxUNJ0HCB1JYyi7LPxzOxDOIEZLyh4+OHHuneu9fPoQ6r9mfA==";
         };
+        _vScoQOil = {
+            "id" = "vScoQOil";
+            "file" = "xaeros-drawings-neoforge-mc26.2-0.6.1.jar";
+            "hash" = "sha512-kAbZ3m7EKZ2blTOhXEBRCGphur8pUFs7gPNs6mHKqi63nDVugAffFkSLlBRlSyrD9i23W2U8EH3VW+CjRbqX4A==";
+        };
+        _NdaKd5CP = {
+            "id" = "NdaKd5CP";
+            "file" = "xaeros-drawings-neoforge-0.6.1.jar";
+            "hash" = "sha512-uzP2pUlfUJULPaToIcjNwAor9082GIg52PgzAzLMyNzzL5ecZTAtydIvLH4qML6Ql5p0Afjc9jQD9opOvWx6vg==";
+        };
+        _9lAjV5Ou = {
+            "id" = "9lAjV5Ou";
+            "file" = "xaeros-drawings-fabric-mc26.1.2-0.6.1.jar";
+            "hash" = "sha512-DSSueZNs4plj3gJd/vr6JYK1GQL4QlcF6k/b1XSwW4H89OrTXylNdjWV8c2ff8e3laTTEX/m2ckULOfU0NaiZA==";
+        };
+        _Sh0B06b6 = {
+            "id" = "Sh0B06b6";
+            "file" = "xaeros-drawings-fabric-0.6.1.jar";
+            "hash" = "sha512-j8HxMMiretN3PlgKQoUxnBSW2jBU6vKQSambT5BFFKRsYJU6njDEcFWcau4xVpDuBCULjUq7ffSekbjm82bB/Q==";
+        };
+        _8v4BAEzO = {
+            "id" = "8v4BAEzO";
+            "file" = "xaeros-drawings-fabric-mc26.2-0.6.1.jar";
+            "hash" = "sha512-Iq4hXWZkl0BBgFSK0CX++YJNK+5k+4yqFy5wVovPkbacbCocyVZHFrdD8kQzgxfkHlo76aBO3oezi5NUjLz1WQ==";
+        };
     in {
         "Df2xkaXA" = _Df2xkaXA;
         "h76ARJvA" = _h76ARJvA;
@@ -38,10 +63,15 @@ let
         "tcvLrEbl" = _tcvLrEbl;
         "7iaOCRPI" = _7iaOCRPI;
         "RYYOARCp" = _RYYOARCp;
-        "neoforge-1.21.1" = _7iaOCRPI;
-        "neoforge-26.2" = _h76ARJvA;
-        "fabric-26.2" = _fz4a6pJv;
-        "fabric-1.21.1" = _tcvLrEbl;
+        "vScoQOil" = _vScoQOil;
+        "NdaKd5CP" = _NdaKd5CP;
+        "9lAjV5Ou" = _9lAjV5Ou;
+        "Sh0B06b6" = _Sh0B06b6;
+        "8v4BAEzO" = _8v4BAEzO;
+        "neoforge-1.21.1" = _NdaKd5CP;
+        "neoforge-26.2" = _vScoQOil;
+        "fabric-26.2" = _8v4BAEzO;
+        "fabric-1.21.1" = _Sh0B06b6;
         "fabric-1.21.2" = _tcvLrEbl;
         "fabric-1.21.3" = _tcvLrEbl;
         "fabric-1.21.4" = _tcvLrEbl;
@@ -52,12 +82,13 @@ let
         "fabric-1.21.9" = _tcvLrEbl;
         "fabric-1.21.10" = _tcvLrEbl;
         "fabric-1.21.11" = _tcvLrEbl;
-        "fabric-26.1.2" = _RYYOARCp;
+        "fabric-26.1.2" = _9lAjV5Ou;
         "pkg-v0.1.0" = _Df2xkaXA;
         "pkg-v0.4.0" = _h76ARJvA;
         "pkg-0.4.0" = _7iaOCRPI;
         "pkg-0.5.0" = _RYYOARCp;
-        "default" = _RYYOARCp;
+        "pkg-0.6.1" = _8v4BAEzO;
+        "default" = _8v4BAEzO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "xaeros-drawing";

@@ -16,16 +16,24 @@ let
             "file" = "np-1_0_2-forge-1_19_2.jar";
             "hash" = "sha512-USfFaJD4rFKNMtZB4gRBdQwtsiWVAhaiivHmoUv1/nnKpsdAn675KGa9lDCw8WmPy8avqdYP6j1K0+kIvT46yQ==";
         };
+        _WwUtCPGe = {
+            "id" = "WwUtCPGe";
+            "file" = "nullpresence-1.0.3-neoforge1.21.1.jar";
+            "hash" = "sha512-12LPFx/mT0Wdcs8TEoruVOS/FVkpTm1ZvHlBfL26jqlpzwkkr+Dp1XlLwtR37X8Ac0f78c+loMRhgbVM6E+t/g==";
+        };
     in {
         "lEjmIkGd" = _lEjmIkGd;
         "UhTvWpc9" = _UhTvWpc9;
         "DXXKLr83" = _DXXKLr83;
+        "WwUtCPGe" = _WwUtCPGe;
         "forge-1.20.1" = _UhTvWpc9;
         "forge-1.19.2" = _DXXKLr83;
+        "neoforge-1.21.1" = _WwUtCPGe;
         "pkg-1.0.1-forge-1.20.1" = _lEjmIkGd;
         "pkg-1.0.2-forge-1.20.1" = _UhTvWpc9;
         "pkg-1.0.2-forge-1.19.2" = _DXXKLr83;
-        "default" = _DXXKLr83;
+        "pkg-1.0.3-neoforge-1.21.1" = _WwUtCPGe;
+        "default" = _WwUtCPGe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "null-presence";

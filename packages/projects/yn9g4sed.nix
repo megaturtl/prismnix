@@ -16,10 +16,16 @@ let
             "file" = "Copper Lighter 1.2.zip";
             "hash" = "sha512-PHMhrYHpVOdEneNgfEik6HblQfJnT+QBg3pXbjII3l2i4Hp6kqbvNQHHdytb/su8iBQimi/M3h7jfzwpze743A==";
         };
+        _j4A5yyly = {
+            "id" = "j4A5yyly";
+            "file" = "Copper Lighter 2.1.zip";
+            "hash" = "sha512-mdm6unYgl2dbauqUUHKRqsFoTMmQgGXOi4d9HnjvOEtekMdOs8Wy0b66XwS9T0dPQrSOxeGDe1xuEZBk3dNxQA==";
+        };
     in {
         "OgXar8cz" = _OgXar8cz;
         "uaOPFIrL" = _uaOPFIrL;
         "trOFRy0g" = _trOFRy0g;
+        "j4A5yyly" = _j4A5yyly;
         "minecraft-1.16" = _OgXar8cz;
         "minecraft-1.16.1" = _OgXar8cz;
         "minecraft-1.16.2" = _OgXar8cz;
@@ -43,16 +49,17 @@ let
         "minecraft-1.20.4" = _trOFRy0g;
         "minecraft-1.20.5" = _trOFRy0g;
         "minecraft-1.20.6" = _trOFRy0g;
-        "minecraft-1.21" = _trOFRy0g;
-        "minecraft-1.21.1" = _trOFRy0g;
-        "minecraft-1.21.2" = _trOFRy0g;
-        "minecraft-1.21.3" = _trOFRy0g;
-        "minecraft-1.21.4" = _trOFRy0g;
-        "minecraft-1.21.5" = _trOFRy0g;
+        "minecraft-1.21" = _j4A5yyly;
+        "minecraft-1.21.1" = _j4A5yyly;
+        "minecraft-1.21.2" = _j4A5yyly;
+        "minecraft-1.21.3" = _j4A5yyly;
+        "minecraft-1.21.4" = _j4A5yyly;
+        "minecraft-1.21.5" = _j4A5yyly;
         "pkg-1.0" = _OgXar8cz;
         "pkg-1.1" = _uaOPFIrL;
         "pkg-1.2" = _trOFRy0g;
-        "default" = _trOFRy0g;
+        "pkg-2.1" = _j4A5yyly;
+        "default" = _j4A5yyly;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "copper-lighter";

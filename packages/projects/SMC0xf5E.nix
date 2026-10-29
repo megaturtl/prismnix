@@ -101,6 +101,11 @@ let
             "file" = "undergroundbeacons-26.3.0-1.2.jar";
             "hash" = "sha512-7gq2VDeLp++unvnxQGIby7i+6AORChSXA1LKbtU9r3DoY+uROPW04vIjFUaqzjEKaIwXMA/dV+4/7j/NzI4WIw==";
         };
+        _ifyu4Zx1 = {
+            "id" = "ifyu4Zx1";
+            "file" = "undergroundbeacons-26.1.2-1.2.jar";
+            "hash" = "sha512-L8pEp1wxmXJG7QMFrNtvQo62cTSLkWajtu0JdATbyjJDlg8k35WjsYv/s1bs4xIXbxRdmI+lWE5WlC0WgV5hUg==";
+        };
     in {
         "HLQ2SIMB" = _HLQ2SIMB;
         "LHTttXOg" = _LHTttXOg;
@@ -122,6 +127,7 @@ let
         "Yto2yJry" = _Yto2yJry;
         "LaP4i8bw" = _LaP4i8bw;
         "yLVoFQG4" = _yLVoFQG4;
+        "ifyu4Zx1" = _ifyu4Zx1;
         "fabric-1.20.1" = _DtATRoFt;
         "fabric-1.21" = _Yto2yJry;
         "fabric-1.21.1" = _Yto2yJry;
@@ -135,7 +141,7 @@ let
         "fabric-1.21.11" = _hNran2qN;
         "fabric-26.1" = _h1KjxGcJ;
         "fabric-26.1.1" = _YLJVelH7;
-        "fabric-26.1.2" = _jKHLAPEm;
+        "fabric-26.1.2" = _ifyu4Zx1;
         "fabric-26.2" = _LaP4i8bw;
         "fabric-26.3" = _yLVoFQG4;
         "forge-1.20.1" = _DtATRoFt;
@@ -151,7 +157,7 @@ let
         "forge-1.21.11" = _hNran2qN;
         "forge-26.1" = _h1KjxGcJ;
         "forge-26.1.1" = _YLJVelH7;
-        "forge-26.1.2" = _jKHLAPEm;
+        "forge-26.1.2" = _ifyu4Zx1;
         "forge-26.2" = _LaP4i8bw;
         "forge-26.3" = _yLVoFQG4;
         "neoforge-1.20.1" = _DtATRoFt;
@@ -167,7 +173,7 @@ let
         "neoforge-1.21.11" = _hNran2qN;
         "neoforge-26.1" = _h1KjxGcJ;
         "neoforge-26.1.1" = _YLJVelH7;
-        "neoforge-26.1.2" = _jKHLAPEm;
+        "neoforge-26.1.2" = _ifyu4Zx1;
         "neoforge-26.2" = _LaP4i8bw;
         "neoforge-26.3" = _yLVoFQG4;
         "quilt-1.20.1" = _DtATRoFt;
@@ -183,7 +189,7 @@ let
         "quilt-1.21.11" = _hNran2qN;
         "quilt-26.1" = _h1KjxGcJ;
         "quilt-26.1.1" = _YLJVelH7;
-        "quilt-26.1.2" = _jKHLAPEm;
+        "quilt-26.1.2" = _ifyu4Zx1;
         "quilt-26.2" = _LaP4i8bw;
         "quilt-26.3" = _yLVoFQG4;
         "pkg-1.20.1-1.0-fabric+forge+neo" = _HLQ2SIMB;
@@ -206,7 +212,8 @@ let
         "pkg-1.21.1-1.2-fabric+forge+neo" = _Yto2yJry;
         "pkg-26.2.0-1.2-fabric+forge+neo" = _LaP4i8bw;
         "pkg-26.3.0-1.2-fabric+forge+neo" = _yLVoFQG4;
-        "default" = _yLVoFQG4;
+        "pkg-26.1.2-1.2-fabric+forge+neo" = _ifyu4Zx1;
+        "default" = _ifyu4Zx1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "underground-beacons";

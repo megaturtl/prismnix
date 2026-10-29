@@ -56,6 +56,11 @@ let
             "file" = "plants_vs_zombies_replanted-1.0.17-forge-1.20.1.jar";
             "hash" = "sha512-sAR4mzgfVdtt+cJRC0Z5hX4R+lYHv2l9vvROun3jEMiBDJrp+xzsPN9+c/4j2LTl2pv6cImFDlv+AHfO6oElww==";
         };
+        _avQP3roX = {
+            "id" = "avQP3roX";
+            "file" = "plants_vs_zombies_replanted-1.0.18-forge-1.20.1.jar";
+            "hash" = "sha512-ijwrBm5zmFlAmOiuScYqN7hyygZ06DvMRFgBPxPCfZZgwmX99pjzFAyf9gLyQTfBwDEci6bfCDL9udZ7rAhk/g==";
+        };
     in {
         "wP4ddqaz" = _wP4ddqaz;
         "8b0WehcJ" = _8b0WehcJ;
@@ -68,7 +73,8 @@ let
         "bNrPFbGI" = _bNrPFbGI;
         "zfGS5gic" = _zfGS5gic;
         "RxN44wmt" = _RxN44wmt;
-        "forge-1.20.1" = _RxN44wmt;
+        "avQP3roX" = _avQP3roX;
+        "forge-1.20.1" = _avQP3roX;
         "pkg-1.0.7" = _wP4ddqaz;
         "pkg-1.0.8" = _8b0WehcJ;
         "pkg-1.0.9" = _aXL9svbu;
@@ -80,7 +86,8 @@ let
         "pkg-1.0.15" = _bNrPFbGI;
         "pkg-1.0.16" = _zfGS5gic;
         "pkg-1.0.17" = _RxN44wmt;
-        "default" = _RxN44wmt;
+        "pkg-1.0.18" = _avQP3roX;
+        "default" = _avQP3roX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "plants-vs-zombies-replanted";

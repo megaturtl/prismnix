@@ -156,6 +156,16 @@ let
             "file" = "delicious-kitchen-appliances-2.2.0-mc26.2-neoforge.jar";
             "hash" = "sha512-BlK7//9grv3y+FGIIFD8TOtsdgR9M5E2pHnm8XZiZSR8h8pTF0VHZ5GX5xZIKgXjmUcYYw6BO7ick8mKH4NHKA==";
         };
+        _OQTr0SFv = {
+            "id" = "OQTr0SFv";
+            "file" = "delicious-kitchen-appliances-2.3.0-mc26.3-fabric.jar";
+            "hash" = "sha512-rnlOi/c+BAEV7p5BSHidtJeJCfxXIdZGhws8XH2u0oNERTMn2uPDNyhZrOsbs4tUyF2ygyMjxcteQPcYhDpqUw==";
+        };
+        _eAx4oHs4 = {
+            "id" = "eAx4oHs4";
+            "file" = "delicious-kitchen-appliances-2.3.0-mc26.3-neoforge.jar";
+            "hash" = "sha512-ObonqW/KOAkMaHgfh2p90AVDjUhBPG4MpHO8YKd7yJJFTaiV9lVibeqOuTaz+lu27UaJDBkrbbkI0UALcVpebQ==";
+        };
     in {
         "N7Vxai1W" = _N7Vxai1W;
         "gbtqkLld" = _gbtqkLld;
@@ -188,12 +198,16 @@ let
         "WABy4KpX" = _WABy4KpX;
         "mDd6Hf97" = _mDd6Hf97;
         "k7vZHwnW" = _k7vZHwnW;
+        "OQTr0SFv" = _OQTr0SFv;
+        "eAx4oHs4" = _eAx4oHs4;
         "fabric-1.21.1" = _X9ILQJqK;
         "fabric-26.1.2" = _vPpHfyTk;
         "fabric-26.2" = _mDd6Hf97;
+        "fabric-26.3" = _OQTr0SFv;
         "neoforge-1.21.1" = _jGSnYthb;
         "neoforge-26.1.2" = _WABy4KpX;
         "neoforge-26.2" = _k7vZHwnW;
+        "neoforge-26.3" = _eAx4oHs4;
         "pkg-0.1.0" = _N7Vxai1W;
         "pkg-1.0" = _gbtqkLld;
         "pkg-1.0.3" = _rbamYJjA;
@@ -217,7 +231,8 @@ let
         "pkg-1.4.0" = _jGSnYthb;
         "pkg-2.1.0" = _WABy4KpX;
         "pkg-2.2.0" = _k7vZHwnW;
-        "default" = _k7vZHwnW;
+        "pkg-2.3.0" = _eAx4oHs4;
+        "default" = _eAx4oHs4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "delicious-kitchen-appliances";

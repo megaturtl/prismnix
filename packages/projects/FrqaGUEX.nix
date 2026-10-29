@@ -176,6 +176,11 @@ let
             "file" = "Particle-Snow-1.3.2-26.3.jar";
             "hash" = "sha512-5dbYK/XK43I3l+Up6oB5CPIKZY/BY/24dNNuAsh2sfnicw7Mr3C3XTT7c4KwzSoaVJo8M0MWWy0XNH6KKUKdEQ==";
         };
+        _doDXcMo9 = {
+            "id" = "doDXcMo9";
+            "file" = "particle-snow-1.4.0-26.1.jar";
+            "hash" = "sha512-MqD5sPqJFlP+K2C+AgyErwGvje0eS+dfjBgVUJu4XGWHm11fkUK9v5iN3CJ2tngE4xPTpKNT6bPA/ubiIG0ecA==";
+        };
     in {
         "PFEwkRqB" = _PFEwkRqB;
         "rKcf0Qor" = _rKcf0Qor;
@@ -212,6 +217,7 @@ let
         "IZs0j7p1" = _IZs0j7p1;
         "Lg4vSArH" = _Lg4vSArH;
         "IWsEyXt7" = _IWsEyXt7;
+        "doDXcMo9" = _doDXcMo9;
         "fabric-1.20.1" = _juMFJjHH;
         "fabric-1.20.2" = _BdR5ZjtS;
         "fabric-1.20.3" = _zcXhb3vT;
@@ -229,9 +235,11 @@ let
         "fabric-1.21.8" = _eA5pC2YK;
         "fabric-1.21.9" = _zyaiQheL;
         "fabric-1.21.10" = _zyaiQheL;
-        "fabric-26.1" = _IZs0j7p1;
+        "fabric-26.1" = _doDXcMo9;
         "fabric-26.2" = _Lg4vSArH;
         "fabric-26.3" = _IWsEyXt7;
+        "fabric-26.1.1" = _doDXcMo9;
+        "fabric-26.1.2" = _doDXcMo9;
         "pkg-1.0.0" = _uT8HncGI;
         "pkg-1.1.0" = _JoijLsrG;
         "pkg-1.2.0" = _4XYqSz3D;
@@ -240,7 +248,8 @@ let
         "pkg-1.3" = _biuj2B5g;
         "pkg-1.3.1" = _A4yNMD0Q;
         "pkg-1.3.2" = _IWsEyXt7;
-        "default" = _IWsEyXt7;
+        "pkg-1.4.0" = _doDXcMo9;
+        "default" = _doDXcMo9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "particle-snow";

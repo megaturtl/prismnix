@@ -161,6 +161,86 @@ let
             "file" = "fasterladderclimbing-neoforge-26.3-1.1.0-26.3.jar";
             "hash" = "sha512-AAIiKfDsuC9JIdSpmPPA5kHX+irdUhsTuPlrkOiMviywTnw2kvzaLwa4WqF+lJf8QqRyW8F/Rmydx3PwkYqgYw==";
         };
+        _PXTT1Kw3 = {
+            "id" = "PXTT1Kw3";
+            "file" = "fasterladderclimbing-fabric-1.19.2-1.2.0.jar";
+            "hash" = "sha512-XcHIQ3//7NcB8Gb7AzLiEq5kJj0ESUsAznhqCgP3pe7M2NdMoUPaAz4FdPSVny3LIgX5uF2ke8Sl5hU53bT2mw==";
+        };
+        _zkuwuYXo = {
+            "id" = "zkuwuYXo";
+            "file" = "fasterladderclimbing-fabric-1.20.1-1.2.0.jar";
+            "hash" = "sha512-19lkSIqDcbqb1WVpkIiBDG12jVGhm/tufbRGN+CkiqwZWcoV+4/fdS1L5CeXqw1tAwafEnKsHthV6wZ1Bt032Q==";
+        };
+        _5Sw9BJpd = {
+            "id" = "5Sw9BJpd";
+            "file" = "fasterladderclimbing-fabric-1.21.1-1.2.0.jar";
+            "hash" = "sha512-ml+KN4l97QQYa0ZROTRfErRve6FerTOiSC4h0IFTZVi9ZuG4TF87K3BiGhFZtrGQ2GtDiMmv0j+S9mPxwqwayQ==";
+        };
+        _MUXe29fF = {
+            "id" = "MUXe29fF";
+            "file" = "fasterladderclimbing-fabric-1.21.11-1.2.0.jar";
+            "hash" = "sha512-pmvEgZ7rOqjDztEFkIvKazGVvuTKSMNMtVUZGQhnMZmnS3hn9vNMVxHuZv34uXxDz2frr151+4Y4hZsRx+w8cQ==";
+        };
+        _iKAEMHxv = {
+            "id" = "iKAEMHxv";
+            "file" = "fasterladderclimbing-fabric-26.1.2-1.2.0.jar";
+            "hash" = "sha512-ZHQLUdw8VreyT/BKrKqiw9ZhAMf2JJPrfkHCtSHXLLEtyeNynA1cOHR7m6NBHnVxCDxULWI8Q+/D9r28WaupRQ==";
+        };
+        _CeSU2C3a = {
+            "id" = "CeSU2C3a";
+            "file" = "fasterladderclimbing-fabric-26.2-1.2.0.jar";
+            "hash" = "sha512-gYiVUFy8BWWm05xUQPDrR8e/JRLvfu4C8jwtAPtn3qmDELypIoQ1wSqypDazwvN2cAUUxmEdE9+d+v1KaC+eVQ==";
+        };
+        _np5OLTbR = {
+            "id" = "np5OLTbR";
+            "file" = "fasterladderclimbing-fabric-26.3-1.2.0.jar";
+            "hash" = "sha512-OoUl0SSjeVArdL43qNFXAUtDJyLFCK3NzkRxWU+TWwblS7D/5Inz7mHLD5m7VX3Oa5VpBd1GcZuSSmxqZ8Rd4A==";
+        };
+        _dUnAFcvN = {
+            "id" = "dUnAFcvN";
+            "file" = "fasterladderclimbing-forge-1.19.2-1.2.0.jar";
+            "hash" = "sha512-RODcgG9ZgKp7zGc/50zXFSSqtsebRhzQ7zoU521c4He7BBR14rp1cFDYeqVovdDF+yFTnUL0D/75mjGTUngAfA==";
+        };
+        _HAcHLpiF = {
+            "id" = "HAcHLpiF";
+            "file" = "fasterladderclimbing-forge-1.20.1-1.2.0.jar";
+            "hash" = "sha512-mwQ7n0cf3gEzzInj8iEVcSiQvgAFmbjOziiwi/9ezTtHC3Q6kc7jTCaYQ3/YXS9ZQE+leFpozUDyJFisfCEWpA==";
+        };
+        _abAUBfyi = {
+            "id" = "abAUBfyi";
+            "file" = "fasterladderclimbing-forge-1.21.1-1.2.0.jar";
+            "hash" = "sha512-hYQ1TJ+9D+mnO3nLque12UxDHEBKTyfe9D4romzZiEd66/g3i0sCTT3hI2Euad4dFXYm1HeV8enJv7zoxnCjcg==";
+        };
+        _hXPDC07n = {
+            "id" = "hXPDC07n";
+            "file" = "fasterladderclimbing-forge-1.21.11-1.2.0.jar";
+            "hash" = "sha512-JZ/0Kfomo8ffN/mad8B3ReVj56QmKKxyxeZor+kShbBjzlcqSzcdmJvFUc0Bu4UFEWPynBOOxSR1QnGBeqVPlQ==";
+        };
+        _dOn5tDK5 = {
+            "id" = "dOn5tDK5";
+            "file" = "fasterladderclimbing-neoforge-1.21.1-1.2.0.jar";
+            "hash" = "sha512-0+im/dC8HK5pbtKYNhoFRXpmsTMitmb3QoszVT70/bq/MXVUR1Hv1bkVEyQ7EJIpLfn84qSW7yKzqKbz0fQGTw==";
+        };
+        _eYqhQtOJ = {
+            "id" = "eYqhQtOJ";
+            "file" = "fasterladderclimbing-neoforge-1.21.11-1.2.0.jar";
+            "hash" = "sha512-j3l3rHoP1tUggFeGKxU3Nlaf2vtPeMD6MvPqchbUkqg2sntNLnTgAdLfjhabU81gxDx2IMrqdBwkllbz7iZaIQ==";
+        };
+        _UpAzCHSw = {
+            "id" = "UpAzCHSw";
+            "file" = "fasterladderclimbing-neoforge-26.1.2-1.2.0.jar";
+            "hash" = "sha512-4rPYNFIysh6Ak2tcp1Qlwkrt1DwFfAfuIoQbyjVf1isHaXXkPhVV6BqAtevaLz9au/TbWz4VxxTEYtuCeDumjA==";
+        };
+        _ZGx8hW12 = {
+            "id" = "ZGx8hW12";
+            "file" = "fasterladderclimbing-neoforge-26.2-1.2.0.jar";
+            "hash" = "sha512-Oa0M62F6KLhfytGI8LiLwnaOGWr90t8jS3NSa2Z9uOMxDXZ6VpIA7Grl+OdOY9j2yqOx43WfgGq6po8Flt0Lgg==";
+        };
+        _AZZGF8iU = {
+            "id" = "AZZGF8iU";
+            "file" = "fasterladderclimbing-neoforge-26.3-1.2.0.jar";
+            "hash" = "sha512-VrSLI9haBM+6v+pd1hd9wzyp+r/4ng2Hm5BopgPi3r3o0sYRChXWv+PXOWzria8xzfaPx+PrLZQCQnrS0bcc9g==";
+        };
     in {
         "3lGnOlAh" = _3lGnOlAh;
         "Eme25tvE" = _Eme25tvE;
@@ -194,26 +274,46 @@ let
         "KaYeyRN0" = _KaYeyRN0;
         "JDRqQj7q" = _JDRqQj7q;
         "jgHOAIaA" = _jgHOAIaA;
-        "fabric-1.20.1" = _P2Z1RQRq;
-        "fabric-1.21.1" = _rbOunhMk;
-        "fabric-1.21.11" = _1fkDK0q0;
+        "PXTT1Kw3" = _PXTT1Kw3;
+        "zkuwuYXo" = _zkuwuYXo;
+        "5Sw9BJpd" = _5Sw9BJpd;
+        "MUXe29fF" = _MUXe29fF;
+        "iKAEMHxv" = _iKAEMHxv;
+        "CeSU2C3a" = _CeSU2C3a;
+        "np5OLTbR" = _np5OLTbR;
+        "dUnAFcvN" = _dUnAFcvN;
+        "HAcHLpiF" = _HAcHLpiF;
+        "abAUBfyi" = _abAUBfyi;
+        "hXPDC07n" = _hXPDC07n;
+        "dOn5tDK5" = _dOn5tDK5;
+        "eYqhQtOJ" = _eYqhQtOJ;
+        "UpAzCHSw" = _UpAzCHSw;
+        "ZGx8hW12" = _ZGx8hW12;
+        "AZZGF8iU" = _AZZGF8iU;
+        "fabric-1.20.1" = _zkuwuYXo;
+        "fabric-1.21.1" = _5Sw9BJpd;
+        "fabric-1.21.11" = _MUXe29fF;
         "fabric-26.1" = _z8ETNNPI;
         "fabric-26.1.1" = _TFqSMskl;
-        "fabric-26.1.2" = _gg4jLlqS;
-        "fabric-26.2" = _os80jJAW;
-        "fabric-26.3" = _JDRqQj7q;
-        "forge-1.20.1" = _907KqUOu;
-        "forge-1.19.2" = _Rpg4w64n;
-        "neoforge-1.21.1" = _5IYhxtHw;
-        "neoforge-1.21.11" = _vheWFDz8;
+        "fabric-26.1.2" = _iKAEMHxv;
+        "fabric-26.2" = _CeSU2C3a;
+        "fabric-26.3" = _np5OLTbR;
+        "fabric-1.19.2" = _PXTT1Kw3;
+        "forge-1.20.1" = _HAcHLpiF;
+        "forge-1.19.2" = _dUnAFcvN;
+        "forge-1.21.1" = _abAUBfyi;
+        "forge-1.21.11" = _hXPDC07n;
+        "neoforge-1.21.1" = _dOn5tDK5;
+        "neoforge-1.21.11" = _eYqhQtOJ;
         "neoforge-26.1" = _97G2bAHn;
         "neoforge-26.1.1" = _uGk8UMHK;
-        "neoforge-26.1.2" = _ugRPm5WA;
-        "neoforge-26.2" = _KaYeyRN0;
-        "neoforge-26.3" = _jgHOAIaA;
+        "neoforge-26.1.2" = _UpAzCHSw;
+        "neoforge-26.2" = _ZGx8hW12;
+        "neoforge-26.3" = _AZZGF8iU;
         "pkg-1.0.0" = _dC44XRo1;
         "pkg-1.1.0" = _jgHOAIaA;
-        "default" = _jgHOAIaA;
+        "pkg-1.2.0" = _AZZGF8iU;
+        "default" = _AZZGF8iU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fasterladderclimbing";

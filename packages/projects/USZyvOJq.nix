@@ -671,6 +671,16 @@ let
             "file" = "insanelib-2.4.37.0.jar";
             "hash" = "sha512-3VCq2fabl17R6nBuDLVLP8GPY3BDO8n40uFcbzm3RRfSP3EPsNphIEK9feo5XAGKNejyTRlWGXINIqoSTJvtyw==";
         };
+        _hRnL6ayY = {
+            "id" = "hRnL6ayY";
+            "file" = "insanelib-2.5.0.0-alpha.jar";
+            "hash" = "sha512-BQXPIUqB0euynSKsOMcndvg5wS6Iakz1tJlqwFODt6sVHtiucuDuRIwuNJkIzuGxW58gJOEPbzi4r+W6RNCu2Q==";
+        };
+        _nXTK44qi = {
+            "id" = "nXTK44qi";
+            "file" = "insanelib-2.5.0.1-alpha.jar";
+            "hash" = "sha512-TKgAljQ4GimVbCenrzPFDLg9wBFuCdo7J9jbGYLl1CxTtP+D1G0WwbUT2nEzn9bmMIujUVEuNJ9dUYjTuNORQg==";
+        };
     in {
         "24MVTO59" = _24MVTO59;
         "UZWZIc1c" = _UZWZIc1c;
@@ -806,12 +816,14 @@ let
         "Amzuav8X" = _Amzuav8X;
         "RsGB92XT" = _RsGB92XT;
         "GF4CgHq4" = _GF4CgHq4;
+        "hRnL6ayY" = _hRnL6ayY;
+        "nXTK44qi" = _nXTK44qi;
         "forge-1.18.2" = _24MVTO59;
         "forge-1.19.2" = _UZWZIc1c;
         "forge-1.19.4" = _i1Z3Iifr;
         "forge-1.20.1" = _azl3fnxF;
         "neoforge-1.20.1" = _5oermGyM;
-        "neoforge-1.21.1" = _GF4CgHq4;
+        "neoforge-1.21.1" = _nXTK44qi;
         "neoforge-26.1.2" = _Amzuav8X;
         "pkg-1.5.1" = _24MVTO59;
         "pkg-1.7.5" = _UZWZIc1c;
@@ -946,7 +958,9 @@ let
         "pkg-3.0.1.0-beta" = _Amzuav8X;
         "pkg-2.4.36.1" = _RsGB92XT;
         "pkg-2.4.37.0" = _GF4CgHq4;
-        "default" = _GF4CgHq4;
+        "pkg-2.5.0.0-alpha" = _hRnL6ayY;
+        "pkg-2.5.0.1-alpha" = _nXTK44qi;
+        "default" = _nXTK44qi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "insanelib";

@@ -336,6 +336,11 @@ let
             "file" = "recipecommands-26.3.0-3.8.jar";
             "hash" = "sha512-825/V3yYuYn3hli3Mz8ez3FGvw5XH4TwUwPq7M7OemzTS7m8DUq60mZkfXf6T3H1ZXTYSHIDKBcPLFZFurVVPw==";
         };
+        _yO2SpHb2 = {
+            "id" = "yO2SpHb2";
+            "file" = "recipecommands-26.1.2-3.8.jar";
+            "hash" = "sha512-8hxz1ed/gJ/JcW7W/25VtoINg68kxMzu2OYIHeOpw2TvyD08Ga0jMdT3tAh1MMA+Kw4M+S4YADq+9BtxqWdsNA==";
+        };
     in {
         "Ztcb5Lvz" = _Ztcb5Lvz;
         "MTeVLTOm" = _MTeVLTOm;
@@ -404,6 +409,7 @@ let
         "IselL2oH" = _IselL2oH;
         "FtnaVDky" = _FtnaVDky;
         "nXujsKBC" = _nXujsKBC;
+        "yO2SpHb2" = _yO2SpHb2;
         "fabric-1.16.5" = _vOWOA7k6;
         "fabric-1.18.2" = _bpiPuqlu;
         "fabric-1.19.2" = _bTRBYI4X;
@@ -430,7 +436,7 @@ let
         "fabric-1.21.11" = _TRf7wtcV;
         "fabric-26.1" = _5iA2yKlA;
         "fabric-26.1.1" = _jXul6pGr;
-        "fabric-26.1.2" = _lAlamrFt;
+        "fabric-26.1.2" = _yO2SpHb2;
         "fabric-26.2" = _FtnaVDky;
         "fabric-26.3" = _nXujsKBC;
         "forge-1.16.5" = _dMkV2UML;
@@ -457,7 +463,7 @@ let
         "forge-1.21.11" = _TRf7wtcV;
         "forge-26.1" = _5iA2yKlA;
         "forge-26.1.1" = _jXul6pGr;
-        "forge-26.1.2" = _lAlamrFt;
+        "forge-26.1.2" = _yO2SpHb2;
         "forge-26.2" = _FtnaVDky;
         "forge-26.3" = _nXujsKBC;
         "quilt-1.18.2" = _bpiPuqlu;
@@ -485,7 +491,7 @@ let
         "quilt-1.21.11" = _TRf7wtcV;
         "quilt-26.1" = _5iA2yKlA;
         "quilt-26.1.1" = _jXul6pGr;
-        "quilt-26.1.2" = _lAlamrFt;
+        "quilt-26.1.2" = _yO2SpHb2;
         "quilt-26.2" = _FtnaVDky;
         "quilt-26.3" = _nXujsKBC;
         "neoforge-1.20.2" = _ysRTGgCY;
@@ -508,7 +514,7 @@ let
         "neoforge-1.21.11" = _TRf7wtcV;
         "neoforge-26.1" = _5iA2yKlA;
         "neoforge-26.1.1" = _jXul6pGr;
-        "neoforge-26.1.2" = _lAlamrFt;
+        "neoforge-26.1.2" = _yO2SpHb2;
         "neoforge-26.2" = _FtnaVDky;
         "neoforge-26.3" = _nXujsKBC;
         "pkg-1.16.5-1.8-fabric" = _Ztcb5Lvz;
@@ -578,7 +584,8 @@ let
         "pkg-1.21.1-3.8-fabric+forge+neo" = _IselL2oH;
         "pkg-26.2.0-3.8-fabric+forge+neo" = _FtnaVDky;
         "pkg-26.3.0-3.8-fabric+forge+neo" = _nXujsKBC;
-        "default" = _nXujsKBC;
+        "pkg-26.1.2-3.8-fabric+forge+neo" = _yO2SpHb2;
+        "default" = _yO2SpHb2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "recipe-commands";

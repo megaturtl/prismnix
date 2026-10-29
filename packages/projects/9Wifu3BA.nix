@@ -176,6 +176,21 @@ let
             "file" = "partyhud-neoforge-26.1.2_v1.3.jar";
             "hash" = "sha512-NZhicdi0XzhRR/QGORKzyg/5rO7xgfqIcaEOKklyhCea21Kr6d6JO+/NdaD+wzjMkmlaq2nevdeLcJ0/+t7sPg==";
         };
+        _cxX9zgjU = {
+            "id" = "cxX9zgjU";
+            "file" = "partyhud-neo-1.21.1-2.0.5.jar";
+            "hash" = "sha512-PQ6lUZD2m/r7WRQ7DXhN9TKnK0gpwj27p36Y2HEabR6zfa9VJCegkOQZsbKx1Y3lkmuEnhaaktNK8HJMTRhu1A==";
+        };
+        _MLi62z0g = {
+            "id" = "MLi62z0g";
+            "file" = "partyhud-forge-2.0.7.jar";
+            "hash" = "sha512-NmnxeCXu8N0SyQ4SjE8cs76i/Xc2d5OVDHtPDFpnOCiMh5BRK9lRtu2sk1edVX2oi3qBamHlo/nghIoWiGSbPg==";
+        };
+        _fw88HRC3 = {
+            "id" = "fw88HRC3";
+            "file" = "partyhud-neoforge-26.1.2_v1.4.jar";
+            "hash" = "sha512-3AokvmNNH/GS9ywRoR2GoGRJyr8WyoWtMKPhLOqrcvQ6Pa5KFQH5S2Y2FU73UZFuMdZ3Aq3MAZXhtaKzhqwqHQ==";
+        };
     in {
         "F6JXuBRB" = _F6JXuBRB;
         "QBN3xdgR" = _QBN3xdgR;
@@ -212,11 +227,14 @@ let
         "rWGwgqsb" = _rWGwgqsb;
         "2tDJOnAD" = _2tDJOnAD;
         "budreo4A" = _budreo4A;
-        "forge-1.20.1" = _rWGwgqsb;
-        "neoforge-1.21.1" = _2tDJOnAD;
-        "neoforge-26.1.2" = _budreo4A;
-        "neoforge-26.1" = _budreo4A;
-        "neoforge-26.1.1" = _budreo4A;
+        "cxX9zgjU" = _cxX9zgjU;
+        "MLi62z0g" = _MLi62z0g;
+        "fw88HRC3" = _fw88HRC3;
+        "forge-1.20.1" = _MLi62z0g;
+        "neoforge-1.21.1" = _cxX9zgjU;
+        "neoforge-26.1.2" = _fw88HRC3;
+        "neoforge-26.1" = _fw88HRC3;
+        "neoforge-26.1.1" = _fw88HRC3;
         "pkg-1.0.0" = _jmASOfEQ;
         "pkg-1.0.1" = _PdpkZD6G;
         "pkg-1.0.2" = _8QWbvz5a;
@@ -239,10 +257,12 @@ let
         "pkg-1.1" = _K7UHqA7f;
         "pkg-2.0.4" = _2tDJOnAD;
         "pkg-1.2" = _zkuDYJvu;
-        "pkg-2.0.5" = _LB2AClpX;
+        "pkg-2.0.5" = _cxX9zgjU;
         "pkg-2.0.6" = _rWGwgqsb;
         "pkg-1.3" = _budreo4A;
-        "default" = _budreo4A;
+        "pkg-2.0.7" = _MLi62z0g;
+        "pkg-1.4" = _fw88HRC3;
+        "default" = _fw88HRC3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "party-hud";

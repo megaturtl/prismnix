@@ -266,6 +266,16 @@ let
             "file" = "hauntedharvest-1.21-3.5.1-fabric.jar";
             "hash" = "sha512-VYUP/xPhBmezeQ9QOjqEVoMPWdaYbAZjF4L3Pc3R2gkYzyLx+zyocqbQ/+6/xXxFRmtKYxjBNSemulhEAApFeA==";
         };
+        _GZQ9JWL3 = {
+            "id" = "GZQ9JWL3";
+            "file" = "hauntedharvest-26.1.2-4.1.0-fabric.jar";
+            "hash" = "sha512-fCPW1HahKPfLW04GwFY3A+Oy2SBw3VGBtAo/sJX0TPiqfjBFZnv/2vE/rJVtdXy37LU+/OSAr2bY5LwHlYGtNg==";
+        };
+        _OlxB9Cf5 = {
+            "id" = "OlxB9Cf5";
+            "file" = "hauntedharvest-26.1.2-4.1.0-neoforge.jar";
+            "hash" = "sha512-BMk7jbSq5hcM6Maf0H0/rOxWbDgg4FgubPTK0wJ1pApWULnkE01QyufKJc4FL6AvayPaKSY3ZcHnKSlIJ5SIZA==";
+        };
     in {
         "31ZzB6ed" = _31ZzB6ed;
         "TQAxZ8TF" = _TQAxZ8TF;
@@ -320,20 +330,22 @@ let
         "ixPAONTa" = _ixPAONTa;
         "ic7IRl2m" = _ic7IRl2m;
         "vPBtCL3f" = _vPBtCL3f;
+        "GZQ9JWL3" = _GZQ9JWL3;
+        "OlxB9Cf5" = _OlxB9Cf5;
         "fabric-1.20" = _31ZzB6ed;
         "fabric-1.20.1" = _Tuz3LO3E;
         "fabric-1.20.2" = _31ZzB6ed;
         "fabric-1.19.2" = _yUzAmQT3;
         "fabric-1.21" = _K4RjWU0Z;
         "fabric-1.21.1" = _vPBtCL3f;
-        "fabric-26.1.2" = _PjmqAge9;
+        "fabric-26.1.2" = _GZQ9JWL3;
         "forge-1.20" = _TQAxZ8TF;
         "forge-1.20.1" = _Bg0FkKzl;
         "forge-1.20.2" = _TQAxZ8TF;
         "forge-1.19.2" = _BYEEKN8F;
         "neoforge-1.21" = _W3GQrLju;
         "neoforge-1.21.1" = _ic7IRl2m;
-        "neoforge-26.1.2" = _ixPAONTa;
+        "neoforge-26.1.2" = _OlxB9Cf5;
         "pkg-1.20-3.1.11" = _TQAxZ8TF;
         "pkg-1.19.2-3.1.8" = _JyqoWe1o;
         "pkg-1.20-3.1.12" = _5MiroJud;
@@ -371,7 +383,8 @@ let
         "pkg-26.1.2-4.0.2" = _RjKg9mda;
         "pkg-26.1.2-4.0.3" = _ixPAONTa;
         "pkg-1.21-3.5.1" = _vPBtCL3f;
-        "default" = _vPBtCL3f;
+        "pkg-26.1.2-4.1.0" = _OlxB9Cf5;
+        "default" = _OlxB9Cf5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "haunted-harvest";

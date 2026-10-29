@@ -356,6 +356,11 @@ let
             "file" = "hidehands-26.3.0-4.8.jar";
             "hash" = "sha512-50wkO91DQG8tzIMW7cXuMecnDSrV/5EcJLToHXXnAUoEZYI33qFIJOC50ojlFBCOn4g2HmX6k1IFptAmFSMKPg==";
         };
+        _L4FwbSeF = {
+            "id" = "L4FwbSeF";
+            "file" = "hidehands-26.1.2-4.8.jar";
+            "hash" = "sha512-cgrhL+T8NKDc+PQIzFar4kUhqPflrJBtAAd9XhRFXXytWOrf0Xhm7dn/0qKZ3poSJmcm+hvO5uZck1G7A08fKw==";
+        };
     in {
         "9NMYfWub" = _9NMYfWub;
         "JHdorQaj" = _JHdorQaj;
@@ -428,6 +433,7 @@ let
         "wx78jgv1" = _wx78jgv1;
         "87aCNS3o" = _87aCNS3o;
         "yyVaBi7f" = _yyVaBi7f;
+        "L4FwbSeF" = _L4FwbSeF;
         "fabric-1.16.5" = _ZWlMNfNg;
         "fabric-1.18.2" = _1kCUbZZ1;
         "fabric-1.19.2" = _Ph5aNjXP;
@@ -454,7 +460,7 @@ let
         "fabric-1.21.11" = _JWrqSq3m;
         "fabric-26.1" = _cYndQePV;
         "fabric-26.1.1" = _PuIiMUlf;
-        "fabric-26.1.2" = _sBTKLL2b;
+        "fabric-26.1.2" = _L4FwbSeF;
         "fabric-26.2" = _87aCNS3o;
         "fabric-26.3" = _yyVaBi7f;
         "forge-1.16.5" = _53FyPdTN;
@@ -481,7 +487,7 @@ let
         "forge-1.21.11" = _JWrqSq3m;
         "forge-26.1" = _cYndQePV;
         "forge-26.1.1" = _PuIiMUlf;
-        "forge-26.1.2" = _sBTKLL2b;
+        "forge-26.1.2" = _L4FwbSeF;
         "forge-26.2" = _87aCNS3o;
         "forge-26.3" = _yyVaBi7f;
         "quilt-1.18.2" = _1kCUbZZ1;
@@ -509,7 +515,7 @@ let
         "quilt-1.21.11" = _JWrqSq3m;
         "quilt-26.1" = _cYndQePV;
         "quilt-26.1.1" = _PuIiMUlf;
-        "quilt-26.1.2" = _sBTKLL2b;
+        "quilt-26.1.2" = _L4FwbSeF;
         "quilt-26.2" = _87aCNS3o;
         "quilt-26.3" = _yyVaBi7f;
         "neoforge-1.20.2" = _XwpbiofZ;
@@ -532,7 +538,7 @@ let
         "neoforge-1.21.11" = _JWrqSq3m;
         "neoforge-26.1" = _cYndQePV;
         "neoforge-26.1.1" = _PuIiMUlf;
-        "neoforge-26.1.2" = _sBTKLL2b;
+        "neoforge-26.1.2" = _L4FwbSeF;
         "neoforge-26.2" = _87aCNS3o;
         "neoforge-26.3" = _yyVaBi7f;
         "pkg-1.16.5-1.8-fabric" = _9NMYfWub;
@@ -606,7 +612,8 @@ let
         "pkg-1.21.1-4.8-fabric+forge+neo" = _wx78jgv1;
         "pkg-26.2.0-4.8-fabric+forge+neo" = _87aCNS3o;
         "pkg-26.3.0-4.8-fabric+forge+neo" = _yyVaBi7f;
-        "default" = _yyVaBi7f;
+        "pkg-26.1.2-4.8-fabric+forge+neo" = _L4FwbSeF;
+        "default" = _L4FwbSeF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hide-hands";

@@ -166,6 +166,11 @@ let
             "file" = "Opticores-1.1.1+1.21.x.jar";
             "hash" = "sha512-i9qn3w6ebhIJJnfXWeVT8mR4lniV0pfM9gwxWbJB33/0j8BIXoG/v9CftS9OAt3Hz9NOogYyVFPIRz5kjrW4mQ==";
         };
+        _jVL1CQHL = {
+            "id" = "jVL1CQHL";
+            "file" = "opticores-1.1.2.5+1.20.x.jar";
+            "hash" = "sha512-HVH9fgZ+gga34jlhk+bArP0Vh88z5vpSat4NJFHH0BYYQWfJ1ZI2CEavzNLuoVutl+xEJGHmvlRrxkUjpH57Nw==";
+        };
     in {
         "ASCVXdTN" = _ASCVXdTN;
         "xt4XTsZc" = _xt4XTsZc;
@@ -200,6 +205,7 @@ let
         "WRgyajYV" = _WRgyajYV;
         "79B2RlvL" = _79B2RlvL;
         "sdoLjZoP" = _sdoLjZoP;
+        "jVL1CQHL" = _jVL1CQHL;
         "neoforge-1.21.1" = _sdoLjZoP;
         "neoforge-1.21.2" = _sdoLjZoP;
         "neoforge-1.21.3" = _sdoLjZoP;
@@ -226,12 +232,12 @@ let
         "forge-1.21.9" = _r8jyZzgf;
         "forge-1.21.10" = _r8jyZzgf;
         "forge-1.21.11" = _fPHbUHbX;
-        "forge-1.20.1" = _WRgyajYV;
-        "forge-1.20.2" = _WRgyajYV;
-        "forge-1.20.3" = _WRgyajYV;
-        "forge-1.20.4" = _WRgyajYV;
-        "forge-1.20.5" = _WRgyajYV;
-        "forge-1.20.6" = _WRgyajYV;
+        "forge-1.20.1" = _jVL1CQHL;
+        "forge-1.20.2" = _jVL1CQHL;
+        "forge-1.20.3" = _jVL1CQHL;
+        "forge-1.20.4" = _jVL1CQHL;
+        "forge-1.20.5" = _jVL1CQHL;
+        "forge-1.20.6" = _jVL1CQHL;
         "fabric-1.21.1" = _tpXamHyq;
         "fabric-1.21.2" = _tpXamHyq;
         "fabric-1.21.3" = _tpXamHyq;
@@ -275,7 +281,8 @@ let
         "pkg-v1.1.1.5.5+26.x" = _VzMfTpoO;
         "pkg-1.1.1.5+1.20.x" = _WRgyajYV;
         "pkg-1.1.1+1.21.x" = _sdoLjZoP;
-        "default" = _sdoLjZoP;
+        "pkg-1.1.2.5+1.20.x" = _jVL1CQHL;
+        "default" = _jVL1CQHL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "opticores";

@@ -306,6 +306,11 @@ let
             "file" = "shulkerdropstwo-26.3.0-3.7.jar";
             "hash" = "sha512-3qd0qSdHmGx+7yT3Tmr4vGwyxYmBz4bdiGhsIoip4upvOOq9XoxG0QT3w418+m90OvPBojrGOVd0RBJu+nJrjw==";
         };
+        _KL6A4nyT = {
+            "id" = "KL6A4nyT";
+            "file" = "shulkerdropstwo-26.1.2-3.7.jar";
+            "hash" = "sha512-gcrnyen+JsWu4LhNog0ovgnWFTzHAVfuLyZuW2cpHGR4qqT6u/+KIMT7yDb06LSxESNY44H29bfJXbshCqoVDA==";
+        };
     in {
         "zFO8e7wM" = _zFO8e7wM;
         "zAwwPQ51" = _zAwwPQ51;
@@ -368,6 +373,7 @@ let
         "eFIjYo5d" = _eFIjYo5d;
         "x00LITGR" = _x00LITGR;
         "uQVlHLmU" = _uQVlHLmU;
+        "KL6A4nyT" = _KL6A4nyT;
         "fabric-1.16.5" = _x8jPV8fi;
         "fabric-1.18.2" = _zFrpQMw1;
         "fabric-1.19.2" = _nDp6glu3;
@@ -394,7 +400,7 @@ let
         "fabric-1.21.11" = _iZoTv7Bw;
         "fabric-26.1" = _3qbyyrHc;
         "fabric-26.1.1" = _UCBMX9BN;
-        "fabric-26.1.2" = _ZrssKY5R;
+        "fabric-26.1.2" = _KL6A4nyT;
         "fabric-26.2" = _x00LITGR;
         "fabric-26.3" = _uQVlHLmU;
         "forge-1.16.5" = _XsxJXK2n;
@@ -421,7 +427,7 @@ let
         "forge-1.21.11" = _iZoTv7Bw;
         "forge-26.1" = _3qbyyrHc;
         "forge-26.1.1" = _UCBMX9BN;
-        "forge-26.1.2" = _ZrssKY5R;
+        "forge-26.1.2" = _KL6A4nyT;
         "forge-26.2" = _x00LITGR;
         "forge-26.3" = _uQVlHLmU;
         "quilt-1.18.2" = _zFrpQMw1;
@@ -449,7 +455,7 @@ let
         "quilt-1.21.11" = _iZoTv7Bw;
         "quilt-26.1" = _3qbyyrHc;
         "quilt-26.1.1" = _UCBMX9BN;
-        "quilt-26.1.2" = _ZrssKY5R;
+        "quilt-26.1.2" = _KL6A4nyT;
         "quilt-26.2" = _x00LITGR;
         "quilt-26.3" = _uQVlHLmU;
         "neoforge-1.20.2" = _rgu59rCE;
@@ -472,7 +478,7 @@ let
         "neoforge-1.21.11" = _iZoTv7Bw;
         "neoforge-26.1" = _3qbyyrHc;
         "neoforge-26.1.1" = _UCBMX9BN;
-        "neoforge-26.1.2" = _ZrssKY5R;
+        "neoforge-26.1.2" = _KL6A4nyT;
         "neoforge-26.2" = _x00LITGR;
         "neoforge-26.3" = _uQVlHLmU;
         "pkg-1.16.5-2.1-fabric" = _zFO8e7wM;
@@ -536,7 +542,8 @@ let
         "pkg-1.21.1-3.7-fabric+forge+neo" = _eFIjYo5d;
         "pkg-26.2.0-3.7-fabric+forge+neo" = _x00LITGR;
         "pkg-26.3.0-3.7-fabric+forge+neo" = _uQVlHLmU;
-        "default" = _uQVlHLmU;
+        "pkg-26.1.2-3.7-fabric+forge+neo" = _KL6A4nyT;
+        "default" = _KL6A4nyT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shulker-drops-two";

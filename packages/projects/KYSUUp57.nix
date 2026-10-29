@@ -236,6 +236,11 @@ let
             "file" = "persistentinventorysearch-26.3.0-1.7.jar";
             "hash" = "sha512-wwhIuA/+uLZL6ADbvo6rEcSDr/IVECOv9NZIQJWGwpBqLy/6xzKkIvsuXDpMCfhkj4NoznWt5EVrrStlkAt6lg==";
         };
+        _gbhV9FDh = {
+            "id" = "gbhV9FDh";
+            "file" = "persistentinventorysearch-26.1.2-1.7.jar";
+            "hash" = "sha512-UEDC/Y+OQ5yOEYaPW1ORr0HrlieR8P8mb9ZMPqvhs93AK0TRD9JDSKMek/tCjOLjMvZI9y1SBmAoxPSgpQQ+CA==";
+        };
     in {
         "Rkw6SbPd" = _Rkw6SbPd;
         "ov3D4KLo" = _ov3D4KLo;
@@ -284,6 +289,7 @@ let
         "xLmBBa4y" = _xLmBBa4y;
         "4DbWWk5B" = _4DbWWk5B;
         "8Y6bnWQC" = _8Y6bnWQC;
+        "gbhV9FDh" = _gbhV9FDh;
         "fabric-1.18.2" = _gxj6B3m3;
         "fabric-1.19.2" = _SOPsabwC;
         "fabric-1.19.4" = _HpORgTLN;
@@ -307,7 +313,7 @@ let
         "fabric-1.21.11" = _nkhul8Fx;
         "fabric-26.1" = _6Na590c2;
         "fabric-26.1.1" = _gcJ1zl3I;
-        "fabric-26.1.2" = _jI5FsgbQ;
+        "fabric-26.1.2" = _gbhV9FDh;
         "fabric-26.2" = _4DbWWk5B;
         "fabric-26.3" = _8Y6bnWQC;
         "forge-1.18.2" = _gxj6B3m3;
@@ -331,7 +337,7 @@ let
         "forge-1.21.11" = _nkhul8Fx;
         "forge-26.1" = _6Na590c2;
         "forge-26.1.1" = _gcJ1zl3I;
-        "forge-26.1.2" = _jI5FsgbQ;
+        "forge-26.1.2" = _gbhV9FDh;
         "forge-26.2" = _4DbWWk5B;
         "forge-26.3" = _8Y6bnWQC;
         "quilt-1.18.2" = _gxj6B3m3;
@@ -357,7 +363,7 @@ let
         "quilt-1.21.11" = _nkhul8Fx;
         "quilt-26.1" = _6Na590c2;
         "quilt-26.1.1" = _gcJ1zl3I;
-        "quilt-26.1.2" = _jI5FsgbQ;
+        "quilt-26.1.2" = _gbhV9FDh;
         "quilt-26.2" = _4DbWWk5B;
         "quilt-26.3" = _8Y6bnWQC;
         "neoforge-1.20.2" = _LKwBWVNm;
@@ -380,7 +386,7 @@ let
         "neoforge-1.21.11" = _nkhul8Fx;
         "neoforge-26.1" = _6Na590c2;
         "neoforge-26.1.1" = _gcJ1zl3I;
-        "neoforge-26.1.2" = _jI5FsgbQ;
+        "neoforge-26.1.2" = _gbhV9FDh;
         "neoforge-26.2" = _4DbWWk5B;
         "neoforge-26.3" = _8Y6bnWQC;
         "pkg-1.18.2-1.0-forge+fabric" = _Rkw6SbPd;
@@ -430,7 +436,8 @@ let
         "pkg-1.21.1-1.7-fabric+forge+neo" = _xLmBBa4y;
         "pkg-26.2.0-1.7-fabric+forge+neo" = _4DbWWk5B;
         "pkg-26.3.0-1.7-fabric+forge+neo" = _8Y6bnWQC;
-        "default" = _8Y6bnWQC;
+        "pkg-26.1.2-1.7-fabric+forge+neo" = _gbhV9FDh;
+        "default" = _gbhV9FDh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "persistent-inventory-search";

@@ -71,6 +71,16 @@ let
             "file" = "flimsytorches-1.21.1-1.1.4.0.jar";
             "hash" = "sha512-wx2XnEoZA/v7a+4KkD617Znngvp81nJjKFrbUshth/mGsrtVYQAwbzsn8TxSPeyzSap/NaXlXFG62I79jz8VNg==";
         };
+        _TkeBfCC7 = {
+            "id" = "TkeBfCC7";
+            "file" = "flimsytorches-1.20.1-1.1.5.0.jar";
+            "hash" = "sha512-lkqmTdxHt3gc7/mq3x7z9vrMFWpRpmL885OmpAsgJjuJaLQ7ErwgizxykX8v0BjAUUPVxO1ZRWgEzptBA16C0Q==";
+        };
+        _dyH4VHlh = {
+            "id" = "dyH4VHlh";
+            "file" = "flimsytorches-1.21.1-1.1.5.0.jar";
+            "hash" = "sha512-fgaWhvfkZrJhEhL/2ZQuJNHo76f0mXDJ1Nb89Hcp1iaPE3oUzWGQHatmo9vFN1U8pA4H+FP4ztdXE3RCpXTwHg==";
+        };
     in {
         "YToK0Ksa" = _YToK0Ksa;
         "i0SqyMB6" = _i0SqyMB6;
@@ -86,11 +96,13 @@ let
         "PQU71WBp" = _PQU71WBp;
         "nc1VGyEH" = _nc1VGyEH;
         "nwEzM5lu" = _nwEzM5lu;
+        "TkeBfCC7" = _TkeBfCC7;
+        "dyH4VHlh" = _dyH4VHlh;
         "forge-1.16.4" = _YToK0Ksa;
         "forge-1.16.5" = _YToK0Ksa;
-        "forge-1.20.1" = _nc1VGyEH;
+        "forge-1.20.1" = _TkeBfCC7;
         "forge-1.19.2" = _PQU71WBp;
-        "neoforge-1.21.1" = _nwEzM5lu;
+        "neoforge-1.21.1" = _dyH4VHlh;
         "pkg-1.16.4-1.0.0" = _YToK0Ksa;
         "pkg-1.20.1-1.0.0.0" = _i0SqyMB6;
         "pkg-1.20.1-1.0.1.1" = _VkZyOY2v;
@@ -105,7 +117,9 @@ let
         "pkg-1.19.2-1.1.4.0" = _PQU71WBp;
         "pkg-1.20.1-1.1.4.0" = _nc1VGyEH;
         "pkg-1.21.1-1.1.4.0" = _nwEzM5lu;
-        "default" = _nwEzM5lu;
+        "pkg-1.20.1-1.1.5.0" = _TkeBfCC7;
+        "pkg-1.21.1-1.1.5.0" = _dyH4VHlh;
+        "default" = _dyH4VHlh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "flimsy-torches";

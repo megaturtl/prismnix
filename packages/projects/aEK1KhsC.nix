@@ -431,6 +431,11 @@ let
             "file" = "fullbrightnesstoggle-26.3.0-4.9.jar";
             "hash" = "sha512-YAJdPyGFc8Oy8IdQycPkDryhNWretT7PWsKa5omMYVZSWbaRYZRKKFFA9TT2mW4bHkY4T1EHXwgNoT3eAL0r3g==";
         };
+        _ObvYensA = {
+            "id" = "ObvYensA";
+            "file" = "fullbrightnesstoggle-26.1.2-4.9.jar";
+            "hash" = "sha512-MaCi2WPHsh2c1JCekKWoRFOY1IwP9fHFE3J9pJGWCo3xoJQCpmMs9BgeKUx1MBDBEzeq+k/IrgaPuHGhecehTQ==";
+        };
     in {
         "Yz6yqCuR" = _Yz6yqCuR;
         "5JrxeDF6" = _5JrxeDF6;
@@ -518,6 +523,7 @@ let
         "AkppfeC1" = _AkppfeC1;
         "FTkUNa7c" = _FTkUNa7c;
         "F6w1i2oV" = _F6w1i2oV;
+        "ObvYensA" = _ObvYensA;
         "fabric-1.16.5" = _21dXaQqv;
         "fabric-1.18.2" = _eicFvWGM;
         "fabric-1.19.2" = _lAzcc0Dt;
@@ -544,7 +550,7 @@ let
         "fabric-1.21.11" = _4PhWRSH8;
         "fabric-26.1" = _sBZN7ILY;
         "fabric-26.1.1" = _kFqIdVay;
-        "fabric-26.1.2" = _J8JFNHkS;
+        "fabric-26.1.2" = _ObvYensA;
         "fabric-26.2" = _FTkUNa7c;
         "fabric-26.3" = _F6w1i2oV;
         "forge-1.16.5" = _EH9ELsIL;
@@ -571,7 +577,7 @@ let
         "forge-1.21.11" = _4PhWRSH8;
         "forge-26.1" = _sBZN7ILY;
         "forge-26.1.1" = _kFqIdVay;
-        "forge-26.1.2" = _J8JFNHkS;
+        "forge-26.1.2" = _ObvYensA;
         "forge-26.2" = _FTkUNa7c;
         "forge-26.3" = _F6w1i2oV;
         "quilt-1.18.2" = _eicFvWGM;
@@ -599,7 +605,7 @@ let
         "quilt-1.21.11" = _4PhWRSH8;
         "quilt-26.1" = _sBZN7ILY;
         "quilt-26.1.1" = _kFqIdVay;
-        "quilt-26.1.2" = _J8JFNHkS;
+        "quilt-26.1.2" = _ObvYensA;
         "quilt-26.2" = _FTkUNa7c;
         "quilt-26.3" = _F6w1i2oV;
         "neoforge-1.20.2" = _WOCDMOnD;
@@ -622,7 +628,7 @@ let
         "neoforge-1.21.11" = _4PhWRSH8;
         "neoforge-26.1" = _sBZN7ILY;
         "neoforge-26.1.1" = _kFqIdVay;
-        "neoforge-26.1.2" = _J8JFNHkS;
+        "neoforge-26.1.2" = _ObvYensA;
         "neoforge-26.2" = _FTkUNa7c;
         "neoforge-26.3" = _F6w1i2oV;
         "pkg-1.16.5-1.5-fabric" = _Yz6yqCuR;
@@ -711,7 +717,8 @@ let
         "pkg-1.21.1-4.9-fabric+forge+neo" = _AkppfeC1;
         "pkg-26.2.0-4.9-fabric+forge+neo" = _FTkUNa7c;
         "pkg-26.3.0-4.9-fabric+forge+neo" = _F6w1i2oV;
-        "default" = _F6w1i2oV;
+        "pkg-26.1.2-4.9-fabric+forge+neo" = _ObvYensA;
+        "default" = _ObvYensA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "full-brightness-toggle";

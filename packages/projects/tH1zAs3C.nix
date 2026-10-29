@@ -156,6 +156,11 @@ let
             "file" = "stickyenchantinglapis-26.3.0-1.6.jar";
             "hash" = "sha512-8YF1y08Z/4EozoNjW+iPzNkcQeua+kNczi+ijgf0XWErKSVf3fllm1HI+CCkaBpw9MPceEVCwxVU2oBxY3gbDA==";
         };
+        _2YngAlNY = {
+            "id" = "2YngAlNY";
+            "file" = "stickyenchantinglapis-26.1.2-1.6.jar";
+            "hash" = "sha512-2CdlB4chPpsgHzkigNEd11/GP89XeJxA0yksxngLBt0vEem69s4NHnjIh7zlUyQPGfK+ILepa4/yOYnB0UUCVg==";
+        };
     in {
         "d94li3Ay" = _d94li3Ay;
         "T22hUjK6" = _T22hUjK6;
@@ -188,6 +193,7 @@ let
         "UY3wLKk0" = _UY3wLKk0;
         "zczpp128" = _zczpp128;
         "nY1SuMft" = _nY1SuMft;
+        "2YngAlNY" = _2YngAlNY;
         "fabric-1.20.6" = _eKflKv7U;
         "fabric-1.21" = _UY3wLKk0;
         "fabric-1.21.1" = _UY3wLKk0;
@@ -203,7 +209,7 @@ let
         "fabric-1.21.11" = _DIBtsHvs;
         "fabric-26.1" = _px5S8XlJ;
         "fabric-26.1.1" = _l7NQCyiK;
-        "fabric-26.1.2" = _cBlKA94S;
+        "fabric-26.1.2" = _2YngAlNY;
         "fabric-26.2" = _zczpp128;
         "fabric-26.3" = _nY1SuMft;
         "forge-1.20.6" = _eKflKv7U;
@@ -220,7 +226,7 @@ let
         "forge-1.21.11" = _DIBtsHvs;
         "forge-26.1" = _px5S8XlJ;
         "forge-26.1.1" = _l7NQCyiK;
-        "forge-26.1.2" = _cBlKA94S;
+        "forge-26.1.2" = _2YngAlNY;
         "forge-26.2" = _zczpp128;
         "forge-26.3" = _nY1SuMft;
         "neoforge-1.20.6" = _eKflKv7U;
@@ -238,7 +244,7 @@ let
         "neoforge-1.21.11" = _DIBtsHvs;
         "neoforge-26.1" = _px5S8XlJ;
         "neoforge-26.1.1" = _l7NQCyiK;
-        "neoforge-26.1.2" = _cBlKA94S;
+        "neoforge-26.1.2" = _2YngAlNY;
         "neoforge-26.2" = _zczpp128;
         "neoforge-26.3" = _nY1SuMft;
         "quilt-1.20.6" = _eKflKv7U;
@@ -256,7 +262,7 @@ let
         "quilt-1.21.11" = _DIBtsHvs;
         "quilt-26.1" = _px5S8XlJ;
         "quilt-26.1.1" = _l7NQCyiK;
-        "quilt-26.1.2" = _cBlKA94S;
+        "quilt-26.1.2" = _2YngAlNY;
         "quilt-26.2" = _zczpp128;
         "quilt-26.3" = _nY1SuMft;
         "pkg-1.20.6-1.0-fabric+forge+neo" = _d94li3Ay;
@@ -290,7 +296,8 @@ let
         "pkg-1.21.1-1.6-fabric+forge+neo" = _UY3wLKk0;
         "pkg-26.2.0-1.6-fabric+forge+neo" = _zczpp128;
         "pkg-26.3.0-1.6-fabric+forge+neo" = _nY1SuMft;
-        "default" = _nY1SuMft;
+        "pkg-26.1.2-1.6-fabric+forge+neo" = _2YngAlNY;
+        "default" = _2YngAlNY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sticky-enchanting-lapis";

@@ -96,6 +96,11 @@ let
             "file" = "menukit-7.4.0+26.3.jar";
             "hash" = "sha512-D7Zx85HVDrWPN+LPQHN9gtwASQXb7W355t1JylF7uDWB2u7WnA9Yit9WmSHem+Xgv3idG3KDawx4encaICnQ1w==";
         };
+        _53cR7b6v = {
+            "id" = "53cR7b6v";
+            "file" = "menukit-7.5.0+26.3.jar";
+            "hash" = "sha512-rd4mO+opzJZHVBW/L887okYK0Q8B3f4g1+J8RHsdPxnp8uIBXD9jPAJh3EpmZ0v3nslWjAKdeK9ATPd0VjdXfg==";
+        };
     in {
         "858SfbPP" = _858SfbPP;
         "s0EgkDOL" = _s0EgkDOL;
@@ -116,6 +121,7 @@ let
         "zlzklFid" = _zlzklFid;
         "MTkbEvBA" = _MTkbEvBA;
         "YlmYrzVP" = _YlmYrzVP;
+        "53cR7b6v" = _53cR7b6v;
         "fabric-1.21" = _858SfbPP;
         "fabric-1.21.1" = _858SfbPP;
         "fabric-1.21.2" = _858SfbPP;
@@ -129,7 +135,7 @@ let
         "fabric-1.21.10" = _858SfbPP;
         "fabric-1.21.11" = _R3BZelHc;
         "fabric-26.2" = _9MVkZ8fx;
-        "fabric-26.3" = _YlmYrzVP;
+        "fabric-26.3" = _53cR7b6v;
         "pkg-0.1.0" = _858SfbPP;
         "pkg-0.1.1" = _s0EgkDOL;
         "pkg-1.0.0" = _D5ikz1Hr;
@@ -149,7 +155,8 @@ let
         "pkg-7.2.0+26.3" = _zlzklFid;
         "pkg-7.3.0+26.3" = _MTkbEvBA;
         "pkg-7.4.0+26.3" = _YlmYrzVP;
-        "default" = _YlmYrzVP;
+        "pkg-7.5.0+26.3" = _53cR7b6v;
+        "default" = _53cR7b6v;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "menukit";

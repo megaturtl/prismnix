@@ -236,6 +236,11 @@ let
             "file" = "overworldpiglins-26.3.0-1.7.jar";
             "hash" = "sha512-i7zTi4QSXvvYV7lKodi9cC7Ub7YjDS/4SY6oe01VFBW0SaLmhGQ+7Nh9WwEbnHKheEEUwt/7Pzr2VwHYzja8KQ==";
         };
+        _csE37IQW = {
+            "id" = "csE37IQW";
+            "file" = "overworldpiglins-26.1.2-1.7.jar";
+            "hash" = "sha512-d3slhra9k4NL3Y8MCZTkbZDuYnUOtf2LzC3guJJALaiqsDk9FFI5FsZSpycDKD+QnNGzDwTw8oHBv+/pPGrBdA==";
+        };
     in {
         "vGQDP12E" = _vGQDP12E;
         "cGoEXVRG" = _cGoEXVRG;
@@ -284,6 +289,7 @@ let
         "5h6sZ48D" = _5h6sZ48D;
         "pyvYbZVi" = _pyvYbZVi;
         "z9WwvKHp" = _z9WwvKHp;
+        "csE37IQW" = _csE37IQW;
         "fabric-1.18.2" = _tvIXKhVy;
         "fabric-1.19.2" = _ehAlOmd4;
         "fabric-1.19.4" = _pqCFmnzw;
@@ -307,7 +313,7 @@ let
         "fabric-1.21.11" = _Pl1WaiXe;
         "fabric-26.1" = _atWpgHUe;
         "fabric-26.1.1" = _vHj8wWqP;
-        "fabric-26.1.2" = _uL8odm77;
+        "fabric-26.1.2" = _csE37IQW;
         "fabric-26.2" = _pyvYbZVi;
         "fabric-26.3" = _z9WwvKHp;
         "forge-1.18.2" = _tvIXKhVy;
@@ -331,7 +337,7 @@ let
         "forge-1.21.11" = _Pl1WaiXe;
         "forge-26.1" = _atWpgHUe;
         "forge-26.1.1" = _vHj8wWqP;
-        "forge-26.1.2" = _uL8odm77;
+        "forge-26.1.2" = _csE37IQW;
         "forge-26.2" = _pyvYbZVi;
         "forge-26.3" = _z9WwvKHp;
         "quilt-1.18.2" = _tvIXKhVy;
@@ -357,7 +363,7 @@ let
         "quilt-1.21.11" = _Pl1WaiXe;
         "quilt-26.1" = _atWpgHUe;
         "quilt-26.1.1" = _vHj8wWqP;
-        "quilt-26.1.2" = _uL8odm77;
+        "quilt-26.1.2" = _csE37IQW;
         "quilt-26.2" = _pyvYbZVi;
         "quilt-26.3" = _z9WwvKHp;
         "neoforge-1.20.2" = _zSBBf4SJ;
@@ -380,7 +386,7 @@ let
         "neoforge-1.21.11" = _Pl1WaiXe;
         "neoforge-26.1" = _atWpgHUe;
         "neoforge-26.1.1" = _vHj8wWqP;
-        "neoforge-26.1.2" = _uL8odm77;
+        "neoforge-26.1.2" = _csE37IQW;
         "neoforge-26.2" = _pyvYbZVi;
         "neoforge-26.3" = _z9WwvKHp;
         "pkg-1.18.2-1.0-forge+fabric" = _vGQDP12E;
@@ -430,7 +436,8 @@ let
         "pkg-1.21.1-1.7-fabric+forge+neo" = _5h6sZ48D;
         "pkg-26.2.0-1.7-fabric+forge+neo" = _pyvYbZVi;
         "pkg-26.3.0-1.7-fabric+forge+neo" = _z9WwvKHp;
-        "default" = _z9WwvKHp;
+        "pkg-26.1.2-1.7-fabric+forge+neo" = _csE37IQW;
+        "default" = _csE37IQW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "overworld-piglins";

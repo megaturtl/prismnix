@@ -481,6 +481,21 @@ let
             "file" = "guideme-21.1.20.jar";
             "hash" = "sha512-XodVClb5eiOZa0wuBqBnqYX527s6ed0HowL6snX/JGN+2HXlDur84DDdgoeZ0yPlDYbMJQnVMBEGnIlYhqHL2w==";
         };
+        _qioou4EK = {
+            "id" = "qioou4EK";
+            "file" = "guideme-26.3.5-alpha.jar";
+            "hash" = "sha512-loJ5DfUQYcfxIfzLvfQ7vguw02qS7a0s+7SPEQ6vzs36ywTi0KtOo1FnChXePtuCwlHpJlVfG05EzTDKehAGWw==";
+        };
+        _JBFCgJmg = {
+            "id" = "JBFCgJmg";
+            "file" = "guideme-21.1.21.jar";
+            "hash" = "sha512-7DTxrAVRjvBTmamlFoN/llRuGadbK2FQ0X4B66foO3zhrCqsiiBmwL5uJOyrWyWxakiTlza+cAytizgziNi3IA==";
+        };
+        _YNGUsefV = {
+            "id" = "YNGUsefV";
+            "file" = "guideme-26.1.16-beta.jar";
+            "hash" = "sha512-mHazx8XbTSo9iOvR4X72xgzlQSW01cd8HcmKSZD0Q2Q/WuHtksSakIWBQzcWXGj7P/N2VfF8lZyMFhe6KFmwZg==";
+        };
     in {
         "bk0EGcWt" = _bk0EGcWt;
         "xp5Eb3cc" = _xp5Eb3cc;
@@ -578,7 +593,10 @@ let
         "kCCUXhEU" = _kCCUXhEU;
         "k8pDKdkO" = _k8pDKdkO;
         "mUlgxNj8" = _mUlgxNj8;
-        "neoforge-1.21.1" = _mUlgxNj8;
+        "qioou4EK" = _qioou4EK;
+        "JBFCgJmg" = _JBFCgJmg;
+        "YNGUsefV" = _YNGUsefV;
+        "neoforge-1.21.1" = _JBFCgJmg;
         "neoforge-1.20.4" = _ReOCRQ9T;
         "neoforge-1.21.5" = _o5fVAod4;
         "neoforge-1.21.8" = _4piwoOoM;
@@ -588,7 +606,7 @@ let
         "neoforge-26.1-snapshot-3" = _LJM2gPTc;
         "neoforge-26.1-snapshot-4" = _TMLh9vTF;
         "neoforge-26.1.1" = _wGVS8dO2;
-        "neoforge-26.1.2" = _JnplCcod;
+        "neoforge-26.1.2" = _YNGUsefV;
         "neoforge-26.2" = _kCCUXhEU;
         "neoforge-26.3-snapshot-1" = _kCCUXhEU;
         "neoforge-26.3-snapshot-2" = _kCCUXhEU;
@@ -606,11 +624,13 @@ let
         "neoforge-26.3-rc-1" = _kCCUXhEU;
         "neoforge-26.3-rc-2" = _kCCUXhEU;
         "neoforge-26.3-rc-3" = _kCCUXhEU;
-        "neoforge-26.3" = _k8pDKdkO;
-        "neoforge-26.4-snapshot-1" = _k8pDKdkO;
-        "neoforge-26.4-snapshot-2" = _k8pDKdkO;
-        "neoforge-26.4-snapshot-3" = _k8pDKdkO;
-        "neoforge-26.4-snapshot-4" = _k8pDKdkO;
+        "neoforge-26.3" = _qioou4EK;
+        "neoforge-26.4-snapshot-1" = _qioou4EK;
+        "neoforge-26.4-snapshot-2" = _qioou4EK;
+        "neoforge-26.4-snapshot-3" = _qioou4EK;
+        "neoforge-26.4-snapshot-4" = _qioou4EK;
+        "neoforge-26.4-snapshot-5" = _qioou4EK;
+        "neoforge-26.4-snapshot-6" = _qioou4EK;
         "forge-1.20.1" = _i7Tp1AHw;
         "pkg-1.0.0" = _xp5Eb3cc;
         "pkg-1.0.1" = _MFsx32k5;
@@ -707,7 +727,10 @@ let
         "pkg-26.2.2-alpha" = _kCCUXhEU;
         "pkg-26.3.4-alpha" = _k8pDKdkO;
         "pkg-21.1.20" = _mUlgxNj8;
-        "default" = _mUlgxNj8;
+        "pkg-26.3.5-alpha" = _qioou4EK;
+        "pkg-21.1.21" = _JBFCgJmg;
+        "pkg-26.1.16-beta" = _YNGUsefV;
+        "default" = _YNGUsefV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "guideme";

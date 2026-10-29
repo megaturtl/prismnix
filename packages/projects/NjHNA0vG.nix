@@ -181,6 +181,16 @@ let
             "file" = "shutter-2.3.0-forge-1.20.1.jar";
             "hash" = "sha512-FKEqfSKjgYOeqtPJ+0g2C9+1mvCPwW6zfDsAafmLZUsdDTWbaSucsFjrex50xhvwdPOpDLsmx7gQaliEQkUYcA==";
         };
+        _jQPGi8HS = {
+            "id" = "jQPGi8HS";
+            "file" = "shutter-2.1.3-fabric-1.21.1.jar";
+            "hash" = "sha512-4WsRro5sPxcdR+jqexUW6Qenlong7kxRUZuJLI/kMzA9Z3MBI4nFQEj0O/MZ9VWdE4YrDuciDAurDgljIBxldw==";
+        };
+        _gXNKsx8j = {
+            "id" = "gXNKsx8j";
+            "file" = "shutter-2.4.0-fabric-1.21.11.jar";
+            "hash" = "sha512-JcYF5L9icFtXYDsFtUPUw6tHvvumbQfI8wWDmbZ5UmBD1w9VlHLj/ed2gGNkgKHI7EeK1twNzUmgJBl1l+8XKw==";
+        };
     in {
         "9EQ3yrDk" = _9EQ3yrDk;
         "LTKzQzYg" = _LTKzQzYg;
@@ -218,6 +228,8 @@ let
         "M6PpqGgB" = _M6PpqGgB;
         "ZIK2Nmq2" = _ZIK2Nmq2;
         "yIRtDpZe" = _yIRtDpZe;
+        "jQPGi8HS" = _jQPGi8HS;
+        "gXNKsx8j" = _gXNKsx8j;
         "forge-1.19.2" = _9EQ3yrDk;
         "forge-1.18.2" = _SF3YNFnA;
         "forge-1.20.1" = _yIRtDpZe;
@@ -234,9 +246,10 @@ let
         "fabric-1.20.5" = _oBFBt4aB;
         "fabric-1.20.6" = _oBFBt4aB;
         "fabric-1.21" = _nSpr0196;
-        "fabric-1.21.1" = _gCSH5TB9;
+        "fabric-1.21.1" = _jQPGi8HS;
         "fabric-1.21.2" = _nSpr0196;
         "fabric-1.21.3" = _nSpr0196;
+        "fabric-1.21.11" = _gXNKsx8j;
         "neoforge-1.21.1" = _ZIK2Nmq2;
         "neoforge-1.21.2" = _xUlKuQLJ;
         "neoforge-1.21.3" = _xUlKuQLJ;
@@ -276,7 +289,9 @@ let
         "pkg-2.2.2-forge-1.20.1" = _M6PpqGgB;
         "pkg-2.3.0-neoforge-1.21.1" = _ZIK2Nmq2;
         "pkg-2.3.0-forge-1.20.1" = _yIRtDpZe;
-        "default" = _yIRtDpZe;
+        "pkg-2.1.3-fabric-1.21.1" = _jQPGi8HS;
+        "pkg-2.4.0-fabric-1.21.11" = _gXNKsx8j;
+        "default" = _gXNKsx8j;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shutters";

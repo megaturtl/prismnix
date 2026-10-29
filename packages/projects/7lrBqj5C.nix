@@ -296,6 +296,11 @@ let
             "file" = "superflatworldnoslimes-26.3.0-3.7.jar";
             "hash" = "sha512-AiAB6whxWRYvVQ7kkGDdDnk122c8XxO43KQOa+V82TC2mbpfoCAPu0/JZkkvluHL4u1BJDlA7tJF523eB0MQYw==";
         };
+        _JqWo8Gjl = {
+            "id" = "JqWo8Gjl";
+            "file" = "superflatworldnoslimes-26.1.2-3.7.jar";
+            "hash" = "sha512-ult+jdngbJ1heA0v7e5GVdmk5t/xsDiXebcdRbnH53dwQa7502QUdkiI66yHaleR9GK6ZmJvBh69sNnWde4wdA==";
+        };
     in {
         "EqGgJVv6" = _EqGgJVv6;
         "QFq29QTR" = _QFq29QTR;
@@ -356,6 +361,7 @@ let
         "OHCdhqlM" = _OHCdhqlM;
         "U2qBVy09" = _U2qBVy09;
         "lcthLGSn" = _lcthLGSn;
+        "JqWo8Gjl" = _JqWo8Gjl;
         "fabric-1.16.5" = _ziUZGr9j;
         "fabric-1.18.2" = _YLqkNXfO;
         "fabric-1.19.2" = _dVr87WJX;
@@ -382,7 +388,7 @@ let
         "fabric-1.21.11" = _Vylnb40N;
         "fabric-26.1" = _73kvRbkc;
         "fabric-26.1.1" = _Hrx7mevG;
-        "fabric-26.1.2" = _Onb8latt;
+        "fabric-26.1.2" = _JqWo8Gjl;
         "fabric-26.2" = _U2qBVy09;
         "fabric-26.3" = _lcthLGSn;
         "forge-1.16.5" = _qsdvgE18;
@@ -409,7 +415,7 @@ let
         "forge-1.21.11" = _Vylnb40N;
         "forge-26.1" = _73kvRbkc;
         "forge-26.1.1" = _Hrx7mevG;
-        "forge-26.1.2" = _Onb8latt;
+        "forge-26.1.2" = _JqWo8Gjl;
         "forge-26.2" = _U2qBVy09;
         "forge-26.3" = _lcthLGSn;
         "quilt-1.18.2" = _YLqkNXfO;
@@ -437,7 +443,7 @@ let
         "quilt-1.21.11" = _Vylnb40N;
         "quilt-26.1" = _73kvRbkc;
         "quilt-26.1.1" = _Hrx7mevG;
-        "quilt-26.1.2" = _Onb8latt;
+        "quilt-26.1.2" = _JqWo8Gjl;
         "quilt-26.2" = _U2qBVy09;
         "quilt-26.3" = _lcthLGSn;
         "neoforge-1.20.2" = _WA6nMLtP;
@@ -460,7 +466,7 @@ let
         "neoforge-1.21.11" = _Vylnb40N;
         "neoforge-26.1" = _73kvRbkc;
         "neoforge-26.1.1" = _Hrx7mevG;
-        "neoforge-26.1.2" = _Onb8latt;
+        "neoforge-26.1.2" = _JqWo8Gjl;
         "neoforge-26.2" = _U2qBVy09;
         "neoforge-26.3" = _lcthLGSn;
         "pkg-1.16.5-1.9-fabric" = _EqGgJVv6;
@@ -522,7 +528,8 @@ let
         "pkg-1.21.1-3.7-fabric+forge+neo" = _OHCdhqlM;
         "pkg-26.2.0-3.7-fabric+forge+neo" = _U2qBVy09;
         "pkg-26.3.0-3.7-fabric+forge+neo" = _lcthLGSn;
-        "default" = _lcthLGSn;
+        "pkg-26.1.2-3.7-fabric+forge+neo" = _JqWo8Gjl;
+        "default" = _JqWo8Gjl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "superflat-world-no-slimes";

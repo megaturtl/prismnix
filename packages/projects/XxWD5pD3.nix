@@ -1791,6 +1791,16 @@ let
             "file" = "appliedenergistics2-26.3.1-alpha.jar";
             "hash" = "sha512-CyzQnLL8Y8OeYA0pie22yKws6sOWy7FSJKrdh8VV/6hGVQOvFloC33Nkbx4MwvOm1xH2afp7qaXdn+iNC5UzzA==";
         };
+        _hRMIJ07u = {
+            "id" = "hRMIJ07u";
+            "file" = "appliedenergistics2-fabric-15.4.12.jar";
+            "hash" = "sha512-s3/lLtMi70RGNycrsnLQEqok0RpBz810KfHXKxxlkuzfkIsySnvLcXW8GTqd3jBc+xicMA1ykLsjnjBpwfMDtw==";
+        };
+        _QRpVsqDI = {
+            "id" = "QRpVsqDI";
+            "file" = "appliedenergistics2-forge-15.4.12.jar";
+            "hash" = "sha512-FsAGaMgvx30WbykX446UDvhbuAsFMHwNpdjs2fHenfsBx9j6sy2oTfFwfE6ztZk2NOeUFDJDaUq2auWSiVMEVw==";
+        };
     in {
         "OqkivEmV" = _OqkivEmV;
         "DZZbZnbH" = _DZZbZnbH;
@@ -2150,13 +2160,15 @@ let
         "nVSxZcom" = _nVSxZcom;
         "XC5aMAdH" = _XC5aMAdH;
         "PDPQ4WfW" = _PDPQ4WfW;
+        "hRMIJ07u" = _hRMIJ07u;
+        "QRpVsqDI" = _QRpVsqDI;
         "forge-1.18.1" = _LmtoNQhm;
         "forge-1.18.2" = _qBbqV301;
         "forge-1.19" = _aR5tGCcS;
         "forge-1.19.1" = _s3g4KtWI;
         "forge-1.19.2" = _U8JDlAX0;
         "forge-1.19.3" = _sOqmy2ww;
-        "forge-1.20.1" = _jYgSnxye;
+        "forge-1.20.1" = _QRpVsqDI;
         "fabric-1.18" = _NX3fAZif;
         "fabric-1.18.1" = _NX3fAZif;
         "fabric-1.18.2" = _l3tOwBzj;
@@ -2164,7 +2176,7 @@ let
         "fabric-1.19.1" = _7Gq3qbtw;
         "fabric-1.19.2" = _VI3B0aKr;
         "fabric-1.19.3" = _UAuf0uiD;
-        "fabric-1.20.1" = _xIOhOI9C;
+        "fabric-1.20.1" = _hRMIJ07u;
         "neoforge-1.20.1" = _jshq8JsX;
         "neoforge-1.20.2" = _Cf5vGMwV;
         "neoforge-1.20.4" = _OK01nNQM;
@@ -2502,7 +2514,8 @@ let
         "pkg-26.1.13-beta" = _nVSxZcom;
         "pkg-26.2.1-alpha" = _XC5aMAdH;
         "pkg-26.3.1-alpha" = _PDPQ4WfW;
-        "default" = _PDPQ4WfW;
+        "pkg-15.4.12" = _QRpVsqDI;
+        "default" = _QRpVsqDI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ae2";

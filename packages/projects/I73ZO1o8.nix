@@ -21,22 +21,33 @@ let
             "file" = "Communism-1.1.1.jar";
             "hash" = "sha512-70aRog0piJsdIlQSN66RB+QUGub/0qHjncc/GbmPr/T+xQuiYTWOBRbt9C3YcMy7EmVk8zIqAMQ+mW6gw+2vaw==";
         };
+        _EHROZghZ = {
+            "id" = "EHROZghZ";
+            "file" = "Communism-1.1.2.jar";
+            "hash" = "sha512-EFxbz1FX9Qubvuk074uW/HP2aU5tXOK4y7W+KfCWBmB1+mIQap0xyNMaYGOicD5MrM0EGIDwln726QXgDgyyiQ==";
+        };
     in {
         "DkrTPlzX" = _DkrTPlzX;
         "ohrXzSdR" = _ohrXzSdR;
         "PN0UFDcI" = _PN0UFDcI;
         "sUOM2MKU" = _sUOM2MKU;
+        "EHROZghZ" = _EHROZghZ;
         "fabric-1.20.2" = _ohrXzSdR;
         "fabric-1.20" = _ohrXzSdR;
         "fabric-1.20.1" = _ohrXzSdR;
         "fabric-1.20.3" = _ohrXzSdR;
         "fabric-1.20.4" = _ohrXzSdR;
         "fabric-1.20.6" = _PN0UFDcI;
-        "fabric-1.21" = _sUOM2MKU;
+        "fabric-1.21" = _EHROZghZ;
+        "fabric-1.21.1" = _EHROZghZ;
+        "fabric-1.21.2" = _EHROZghZ;
+        "fabric-1.21.3" = _EHROZghZ;
+        "fabric-1.21.4" = _EHROZghZ;
         "pkg-1.0" = _DkrTPlzX;
         "pkg-1.1" = _PN0UFDcI;
         "pkg-1.1.1" = _sUOM2MKU;
-        "default" = _sUOM2MKU;
+        "pkg-1.1.2" = _EHROZghZ;
+        "default" = _EHROZghZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "communism";

@@ -291,6 +291,11 @@ let
             "file" = "softerhaybales-26.3.0-3.6.jar";
             "hash" = "sha512-FykrosrPBcmQf4SRBy9G5xtbQBg60WJ7BPJ8MIihhIg6wm0g3r100tVHwvpbpfeOs8gTcqucuxAnrXP9R2zAtw==";
         };
+        _mD2chHcx = {
+            "id" = "mD2chHcx";
+            "file" = "softerhaybales-26.1.2-3.6.jar";
+            "hash" = "sha512-QEc6IlIhOLvkAOMxPK8tHmGXv39IaeX/K5B5bGO9UNdpVsEMx/vZ3E7xKxJHtrqHFdjVIjHuDorfgYkUU7ZMMQ==";
+        };
     in {
         "ImEFFzs3" = _ImEFFzs3;
         "v0AQN6yX" = _v0AQN6yX;
@@ -350,6 +355,7 @@ let
         "Fj0lNumZ" = _Fj0lNumZ;
         "ipzfJMSN" = _ipzfJMSN;
         "fEpQZvli" = _fEpQZvli;
+        "mD2chHcx" = _mD2chHcx;
         "fabric-1.16.5" = _HqZRct9Z;
         "fabric-1.18.2" = _TNaAGChO;
         "fabric-1.19.2" = _7MFcBayp;
@@ -376,7 +382,7 @@ let
         "fabric-1.21.11" = _EhtNAwLM;
         "fabric-26.1" = _1azIuu15;
         "fabric-26.1.1" = _cdajDsg6;
-        "fabric-26.1.2" = _iSUmkzPo;
+        "fabric-26.1.2" = _mD2chHcx;
         "fabric-26.2" = _ipzfJMSN;
         "fabric-26.3" = _fEpQZvli;
         "forge-1.16.5" = _pMqPfeFq;
@@ -403,7 +409,7 @@ let
         "forge-1.21.11" = _EhtNAwLM;
         "forge-26.1" = _1azIuu15;
         "forge-26.1.1" = _cdajDsg6;
-        "forge-26.1.2" = _iSUmkzPo;
+        "forge-26.1.2" = _mD2chHcx;
         "forge-26.2" = _ipzfJMSN;
         "forge-26.3" = _fEpQZvli;
         "quilt-1.18.2" = _TNaAGChO;
@@ -431,7 +437,7 @@ let
         "quilt-1.21.11" = _EhtNAwLM;
         "quilt-26.1" = _1azIuu15;
         "quilt-26.1.1" = _cdajDsg6;
-        "quilt-26.1.2" = _iSUmkzPo;
+        "quilt-26.1.2" = _mD2chHcx;
         "quilt-26.2" = _ipzfJMSN;
         "quilt-26.3" = _fEpQZvli;
         "neoforge-1.20.2" = _CjuZWt6O;
@@ -454,7 +460,7 @@ let
         "neoforge-1.21.11" = _EhtNAwLM;
         "neoforge-26.1" = _1azIuu15;
         "neoforge-26.1.1" = _cdajDsg6;
-        "neoforge-26.1.2" = _iSUmkzPo;
+        "neoforge-26.1.2" = _mD2chHcx;
         "neoforge-26.2" = _ipzfJMSN;
         "neoforge-26.3" = _fEpQZvli;
         "pkg-1.16.5-1.9-fabric" = _ImEFFzs3;
@@ -515,7 +521,8 @@ let
         "pkg-1.21.1-3.6-fabric+forge+neo" = _Fj0lNumZ;
         "pkg-26.2.0-3.6-fabric+forge+neo" = _ipzfJMSN;
         "pkg-26.3.0-3.6-fabric+forge+neo" = _fEpQZvli;
-        "default" = _fEpQZvli;
+        "pkg-26.1.2-3.6-fabric+forge+neo" = _mD2chHcx;
+        "default" = _mD2chHcx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "softer-hay-bales";

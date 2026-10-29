@@ -291,6 +291,11 @@ let
             "file" = "anvilrestoration-26.3.0-2.6.jar";
             "hash" = "sha512-gWcRskEb93QMOIJ57mjSt1I05uY0EJW3Bqbvf8FpZ8SDG9RHaCV+ANKwWxZEIyUdYyDiFK90CazNAqmfTwmn0Q==";
         };
+        _xL64LO1J = {
+            "id" = "xL64LO1J";
+            "file" = "anvilrestoration-26.1.2-2.6.jar";
+            "hash" = "sha512-xfRkTKFAy4YSbUbWyqGO2dLRDjnF+L5+atJmGSEmcJkxqPRLAq5BPU59/Awh933Y07f7L4nPd7uUEd1+dqSZ9A==";
+        };
     in {
         "KcuiLueX" = _KcuiLueX;
         "KpXbL8FX" = _KpXbL8FX;
@@ -350,6 +355,7 @@ let
         "IOkybuRS" = _IOkybuRS;
         "3mEIjzkd" = _3mEIjzkd;
         "cafRex2N" = _cafRex2N;
+        "xL64LO1J" = _xL64LO1J;
         "fabric-1.16.5" = _Kg7qy60M;
         "fabric-1.18.2" = _rak5Mt27;
         "fabric-1.19.2" = _EON9WgRS;
@@ -376,7 +382,7 @@ let
         "fabric-1.21.11" = _xGzeyADa;
         "fabric-26.1" = _o6q5AeNo;
         "fabric-26.1.1" = _HR6OCCcf;
-        "fabric-26.1.2" = _wanlh2Ln;
+        "fabric-26.1.2" = _xL64LO1J;
         "fabric-26.2" = _3mEIjzkd;
         "fabric-26.3" = _cafRex2N;
         "forge-1.16.5" = _xf0SDdgd;
@@ -403,7 +409,7 @@ let
         "forge-1.21.11" = _xGzeyADa;
         "forge-26.1" = _o6q5AeNo;
         "forge-26.1.1" = _HR6OCCcf;
-        "forge-26.1.2" = _wanlh2Ln;
+        "forge-26.1.2" = _xL64LO1J;
         "forge-26.2" = _3mEIjzkd;
         "forge-26.3" = _cafRex2N;
         "quilt-1.18.2" = _rak5Mt27;
@@ -431,7 +437,7 @@ let
         "quilt-1.21.11" = _xGzeyADa;
         "quilt-26.1" = _o6q5AeNo;
         "quilt-26.1.1" = _HR6OCCcf;
-        "quilt-26.1.2" = _wanlh2Ln;
+        "quilt-26.1.2" = _xL64LO1J;
         "quilt-26.2" = _3mEIjzkd;
         "quilt-26.3" = _cafRex2N;
         "neoforge-1.20.2" = _ORpQSzSH;
@@ -454,7 +460,7 @@ let
         "neoforge-1.21.11" = _xGzeyADa;
         "neoforge-26.1" = _o6q5AeNo;
         "neoforge-26.1.1" = _HR6OCCcf;
-        "neoforge-26.1.2" = _wanlh2Ln;
+        "neoforge-26.1.2" = _xL64LO1J;
         "neoforge-26.2" = _3mEIjzkd;
         "neoforge-26.3" = _cafRex2N;
         "pkg-1.16.5-1.5-fabric" = _KcuiLueX;
@@ -515,7 +521,8 @@ let
         "pkg-1.21.1-2.6-fabric+forge+neo" = _IOkybuRS;
         "pkg-26.2.0-2.6-fabric+forge+neo" = _3mEIjzkd;
         "pkg-26.3.0-2.6-fabric+forge+neo" = _cafRex2N;
-        "default" = _cafRex2N;
+        "pkg-26.1.2-2.6-fabric+forge+neo" = _xL64LO1J;
+        "default" = _xL64LO1J;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "anvil-restoration";

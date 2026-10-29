@@ -191,6 +191,11 @@ let
             "file" = "nofeathertrample-26.3.0-1.4.jar";
             "hash" = "sha512-TBs3R+cm75OWdObo4SP+y+YpmdsTt3Ia8DPEs3Vfq9rZ3NTGIMW+pz3zkTCMnXeL4yoP8Oc2f53Op3JHNaYWKg==";
         };
+        _JPIPLlUB = {
+            "id" = "JPIPLlUB";
+            "file" = "nofeathertrample-26.1.2-1.4.jar";
+            "hash" = "sha512-Ds2NXB8bs99Tuf6pIGR9yajaOxdpCGpTSo0DVcP4rxTGy6ouniMoDd4GB3Boqm+lZiotCAVkNn9gnAtApz6YdQ==";
+        };
     in {
         "bebNycod" = _bebNycod;
         "U4HQ5EsD" = _U4HQ5EsD;
@@ -230,6 +235,7 @@ let
         "Znf3FYFb" = _Znf3FYFb;
         "ig5xBD7O" = _ig5xBD7O;
         "oXUindOM" = _oXUindOM;
+        "JPIPLlUB" = _JPIPLlUB;
         "fabric-1.19.2" = _zuBVYKd0;
         "fabric-1.20.1" = _NlUGxGCd;
         "fabric-1.20.2" = _o7rq83qq;
@@ -250,7 +256,7 @@ let
         "fabric-1.21.11" = _TXrIpdNs;
         "fabric-26.1" = _xJe1sWBm;
         "fabric-26.1.1" = _AFPv5XN5;
-        "fabric-26.1.2" = _DKQ4MGVk;
+        "fabric-26.1.2" = _JPIPLlUB;
         "fabric-26.2" = _ig5xBD7O;
         "fabric-26.3" = _oXUindOM;
         "forge-1.19.2" = _zuBVYKd0;
@@ -271,7 +277,7 @@ let
         "forge-1.21.11" = _TXrIpdNs;
         "forge-26.1" = _xJe1sWBm;
         "forge-26.1.1" = _AFPv5XN5;
-        "forge-26.1.2" = _DKQ4MGVk;
+        "forge-26.1.2" = _JPIPLlUB;
         "forge-26.2" = _ig5xBD7O;
         "forge-26.3" = _oXUindOM;
         "quilt-1.19.2" = _zuBVYKd0;
@@ -294,7 +300,7 @@ let
         "quilt-1.21.11" = _TXrIpdNs;
         "quilt-26.1" = _xJe1sWBm;
         "quilt-26.1.1" = _AFPv5XN5;
-        "quilt-26.1.2" = _DKQ4MGVk;
+        "quilt-26.1.2" = _JPIPLlUB;
         "quilt-26.2" = _ig5xBD7O;
         "quilt-26.3" = _oXUindOM;
         "neoforge-1.20.1" = _NlUGxGCd;
@@ -316,7 +322,7 @@ let
         "neoforge-1.21.11" = _TXrIpdNs;
         "neoforge-26.1" = _xJe1sWBm;
         "neoforge-26.1.1" = _AFPv5XN5;
-        "neoforge-26.1.2" = _DKQ4MGVk;
+        "neoforge-26.1.2" = _JPIPLlUB;
         "neoforge-26.2" = _ig5xBD7O;
         "neoforge-26.3" = _oXUindOM;
         "pkg-1.19.2-1.0-fabric+forge+neo" = _bebNycod;
@@ -357,7 +363,8 @@ let
         "pkg-1.21.1-1.4-fabric+forge+neo" = _Znf3FYFb;
         "pkg-26.2.0-1.4-fabric+forge+neo" = _ig5xBD7O;
         "pkg-26.3.0-1.4-fabric+forge+neo" = _oXUindOM;
-        "default" = _oXUindOM;
+        "pkg-26.1.2-1.4-fabric+forge+neo" = _JPIPLlUB;
+        "default" = _JPIPLlUB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "no-feather-trample";

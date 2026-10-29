@@ -336,6 +336,11 @@ let
             "file" = "quickpaths-26.3.0-4.0.jar";
             "hash" = "sha512-E+8DqEjypX4IukZO2yr8r4RNw6kg3EvhQQgrrKFJRh3Vnejh3YppJ3jVUS5au9NgQkFj9MTcPchG+Bx8zmOP1g==";
         };
+        _iXEY0SSa = {
+            "id" = "iXEY0SSa";
+            "file" = "quickpaths-26.1.2-4.0.jar";
+            "hash" = "sha512-tuoaQgXZDa3w+KCn9pwBQ+3g6/vd3E8ID1evHxuJVxgQn3AztrryiJK4yB3u/ZYk6xvTQj1jZwqXmdsLxTxlOQ==";
+        };
     in {
         "guesPBKi" = _guesPBKi;
         "f32rvJ0R" = _f32rvJ0R;
@@ -404,6 +409,7 @@ let
         "R6YUxIgU" = _R6YUxIgU;
         "1OAustf3" = _1OAustf3;
         "VB32xkIK" = _VB32xkIK;
+        "iXEY0SSa" = _iXEY0SSa;
         "fabric-1.16.5" = _LoC1fmTE;
         "fabric-1.18.2" = _mynqZ1qw;
         "fabric-1.19.2" = _6fwHDwtN;
@@ -430,7 +436,7 @@ let
         "fabric-1.21.11" = _kFwkuO98;
         "fabric-26.1" = _Pavh8U5Q;
         "fabric-26.1.1" = _frbmBSgZ;
-        "fabric-26.1.2" = _hH9rAN9v;
+        "fabric-26.1.2" = _iXEY0SSa;
         "fabric-26.2" = _1OAustf3;
         "fabric-26.3" = _VB32xkIK;
         "forge-1.16.5" = _Eeo81kRR;
@@ -457,7 +463,7 @@ let
         "forge-1.21.11" = _kFwkuO98;
         "forge-26.1" = _Pavh8U5Q;
         "forge-26.1.1" = _frbmBSgZ;
-        "forge-26.1.2" = _hH9rAN9v;
+        "forge-26.1.2" = _iXEY0SSa;
         "forge-26.2" = _1OAustf3;
         "forge-26.3" = _VB32xkIK;
         "quilt-1.18.2" = _mynqZ1qw;
@@ -485,7 +491,7 @@ let
         "quilt-1.21.11" = _kFwkuO98;
         "quilt-26.1" = _Pavh8U5Q;
         "quilt-26.1.1" = _frbmBSgZ;
-        "quilt-26.1.2" = _hH9rAN9v;
+        "quilt-26.1.2" = _iXEY0SSa;
         "quilt-26.2" = _1OAustf3;
         "quilt-26.3" = _VB32xkIK;
         "neoforge-1.20.2" = _fM8EzEIg;
@@ -508,7 +514,7 @@ let
         "neoforge-1.21.11" = _kFwkuO98;
         "neoforge-26.1" = _Pavh8U5Q;
         "neoforge-26.1.1" = _frbmBSgZ;
-        "neoforge-26.1.2" = _hH9rAN9v;
+        "neoforge-26.1.2" = _iXEY0SSa;
         "neoforge-26.2" = _1OAustf3;
         "neoforge-26.3" = _VB32xkIK;
         "pkg-1.16.5-2.3-fabric" = _guesPBKi;
@@ -578,7 +584,8 @@ let
         "pkg-1.21.1-4.0-fabric+forge+neo" = _R6YUxIgU;
         "pkg-26.2.0-4.0-fabric+forge+neo" = _1OAustf3;
         "pkg-26.3.0-4.0-fabric+forge+neo" = _VB32xkIK;
-        "default" = _VB32xkIK;
+        "pkg-26.1.2-4.0-fabric+forge+neo" = _iXEY0SSa;
+        "default" = _iXEY0SSa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "quick-paths";

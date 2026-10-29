@@ -76,6 +76,11 @@ let
             "file" = "goetyominous-3.1.1-1.20.1.jar";
             "hash" = "sha512-JGMIyxH1ehpewPZBTzQEwAHeSQjVQbRJ5J9v1RqQy4mdg39BMj5nXYcA+aa9bp3jnvH44xNLxf4Kr1eWcntGqw==";
         };
+        _AewFDVmg = {
+            "id" = "AewFDVmg";
+            "file" = "goetyominous-3.1.2-1.20.1.jar";
+            "hash" = "sha512-HxjzvhBsO3Xb0GwazWTTd0uoH1bMmAd0q4uCSJswzlGMQ3hcCYliTS8wGx9mJo+3XPjf4R+wo9QwYfsakW9kWQ==";
+        };
     in {
         "SaVsIK6O" = _SaVsIK6O;
         "qMZSVDHJ" = _qMZSVDHJ;
@@ -92,7 +97,8 @@ let
         "koasUJT3" = _koasUJT3;
         "ASpjvbow" = _ASpjvbow;
         "WPKHw7y5" = _WPKHw7y5;
-        "forge-1.20.1" = _WPKHw7y5;
+        "AewFDVmg" = _AewFDVmg;
+        "forge-1.20.1" = _AewFDVmg;
         "forge-1.20.2" = _koasUJT3;
         "forge-1.20.3" = _koasUJT3;
         "forge-1.20.4" = _koasUJT3;
@@ -114,7 +120,8 @@ let
         "pkg-3.0.0.fix-1.20.1" = _koasUJT3;
         "pkg-3.1.0-1.20.1" = _ASpjvbow;
         "pkg-3.1.1-1.20.1" = _WPKHw7y5;
-        "default" = _WPKHw7y5;
+        "pkg-3.1.2-1.20.1" = _AewFDVmg;
+        "default" = _AewFDVmg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "goety-ominous";

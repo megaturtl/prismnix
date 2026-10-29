@@ -266,6 +266,11 @@ let
             "file" = "oreharvester-26.3.0-2.1.jar";
             "hash" = "sha512-ypAoozgzPCWEVqdngWlJ30qel+JfmBWp25/vX9szudUeA0SwpQLt8bengTRYRL2c5+iHjtCBs6i1hn++Q+HElQ==";
         };
+        _h0HMKxqq = {
+            "id" = "h0HMKxqq";
+            "file" = "oreharvester-26.1.2-2.1.jar";
+            "hash" = "sha512-NZNSZ2lNDn2lt/Bv+AeHiJlOc43xwVQlga8FnIe7hHo9mAx8QahX6RjQIAx+wtObYpRBMFP94IXc7NZG5LZXYQ==";
+        };
     in {
         "2yJhogpY" = _2yJhogpY;
         "flrz0fNo" = _flrz0fNo;
@@ -320,6 +325,7 @@ let
         "uQfgZvnA" = _uQfgZvnA;
         "RxjvGG4Y" = _RxjvGG4Y;
         "GNL1u56u" = _GNL1u56u;
+        "h0HMKxqq" = _h0HMKxqq;
         "fabric-1.19.2" = _eKmDTM6m;
         "fabric-1.20.1" = _b770NV2t;
         "fabric-1.20.4" = _QZPMTXMO;
@@ -338,7 +344,7 @@ let
         "fabric-1.21.11" = _AxadMDiz;
         "fabric-26.1" = _qhBvxqDx;
         "fabric-26.1.1" = _KPSZKCTl;
-        "fabric-26.1.2" = _abQzmnQh;
+        "fabric-26.1.2" = _h0HMKxqq;
         "fabric-26.2" = _RxjvGG4Y;
         "fabric-26.3" = _GNL1u56u;
         "forge-1.19.2" = _eKmDTM6m;
@@ -358,7 +364,7 @@ let
         "forge-1.21.11" = _AxadMDiz;
         "forge-26.1" = _qhBvxqDx;
         "forge-26.1.1" = _KPSZKCTl;
-        "forge-26.1.2" = _abQzmnQh;
+        "forge-26.1.2" = _h0HMKxqq;
         "forge-26.2" = _RxjvGG4Y;
         "forge-26.3" = _GNL1u56u;
         "quilt-1.19.2" = _eKmDTM6m;
@@ -379,7 +385,7 @@ let
         "quilt-1.21.11" = _AxadMDiz;
         "quilt-26.1" = _qhBvxqDx;
         "quilt-26.1.1" = _KPSZKCTl;
-        "quilt-26.1.2" = _abQzmnQh;
+        "quilt-26.1.2" = _h0HMKxqq;
         "quilt-26.2" = _RxjvGG4Y;
         "quilt-26.3" = _GNL1u56u;
         "neoforge-1.20.1" = _b770NV2t;
@@ -399,7 +405,7 @@ let
         "neoforge-1.21.11" = _AxadMDiz;
         "neoforge-26.1" = _qhBvxqDx;
         "neoforge-26.1.1" = _KPSZKCTl;
-        "neoforge-26.1.2" = _abQzmnQh;
+        "neoforge-26.1.2" = _h0HMKxqq;
         "neoforge-26.2" = _RxjvGG4Y;
         "neoforge-26.3" = _GNL1u56u;
         "pkg-1.19.2-1.0-fabric+forge" = _2yJhogpY;
@@ -455,7 +461,8 @@ let
         "pkg-1.21.1-2.1-fabric+forge+neo" = _uQfgZvnA;
         "pkg-26.2.0-2.1-fabric+forge+neo" = _RxjvGG4Y;
         "pkg-26.3.0-2.1-fabric+forge+neo" = _GNL1u56u;
-        "default" = _GNL1u56u;
+        "pkg-26.1.2-2.1-fabric+forge+neo" = _h0HMKxqq;
+        "default" = _h0HMKxqq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ore-harvester";

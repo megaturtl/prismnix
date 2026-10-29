@@ -321,6 +321,11 @@ let
             "file" = "deathbackup-26.3.0-3.7.jar";
             "hash" = "sha512-o5C21xTtmoMTTb8OUMoU/n+eCBs+T9Rc5ENI0lROGJ2uLENKgsMKCz1xuJflemNSfLaLV6yBgDDB7tu4xmg83w==";
         };
+        _S5B8xfTl = {
+            "id" = "S5B8xfTl";
+            "file" = "deathbackup-26.1.2-3.7.jar";
+            "hash" = "sha512-HefQjCh+FSauykjAFa9mpnmaESEHGV4qQpNBgjC1ZMu4358nVDXvofaHPzY9EJjYPAIUMNEvSOhKsDcCXKFbKA==";
+        };
     in {
         "ZMLEfveu" = _ZMLEfveu;
         "fTjt6Kbr" = _fTjt6Kbr;
@@ -386,6 +391,7 @@ let
         "MLaXN7hf" = _MLaXN7hf;
         "M8WC4IJj" = _M8WC4IJj;
         "7D7laRNA" = _7D7laRNA;
+        "S5B8xfTl" = _S5B8xfTl;
         "fabric-1.16.5" = _n6XBGRdx;
         "fabric-1.18.2" = _g3oZniXr;
         "fabric-1.19.2" = _nG3X5aPp;
@@ -412,7 +418,7 @@ let
         "fabric-1.21.11" = _Bs2NSWH2;
         "fabric-26.1" = _4N929hSk;
         "fabric-26.1.1" = _Cp97eO3P;
-        "fabric-26.1.2" = _b6PcdJz4;
+        "fabric-26.1.2" = _S5B8xfTl;
         "fabric-26.2" = _M8WC4IJj;
         "fabric-26.3" = _7D7laRNA;
         "forge-1.16.5" = _gWSnZ3U0;
@@ -439,7 +445,7 @@ let
         "forge-1.21.11" = _Bs2NSWH2;
         "forge-26.1" = _4N929hSk;
         "forge-26.1.1" = _Cp97eO3P;
-        "forge-26.1.2" = _b6PcdJz4;
+        "forge-26.1.2" = _S5B8xfTl;
         "forge-26.2" = _M8WC4IJj;
         "forge-26.3" = _7D7laRNA;
         "quilt-1.18.2" = _g3oZniXr;
@@ -467,7 +473,7 @@ let
         "quilt-1.21.11" = _Bs2NSWH2;
         "quilt-26.1" = _4N929hSk;
         "quilt-26.1.1" = _Cp97eO3P;
-        "quilt-26.1.2" = _b6PcdJz4;
+        "quilt-26.1.2" = _S5B8xfTl;
         "quilt-26.2" = _M8WC4IJj;
         "quilt-26.3" = _7D7laRNA;
         "neoforge-1.20.2" = _lopvhzf8;
@@ -490,7 +496,7 @@ let
         "neoforge-1.21.11" = _Bs2NSWH2;
         "neoforge-26.1" = _4N929hSk;
         "neoforge-26.1.1" = _Cp97eO3P;
-        "neoforge-26.1.2" = _b6PcdJz4;
+        "neoforge-26.1.2" = _S5B8xfTl;
         "neoforge-26.2" = _M8WC4IJj;
         "neoforge-26.3" = _7D7laRNA;
         "pkg-1.16.5-1.9-fabric" = _ZMLEfveu;
@@ -557,7 +563,8 @@ let
         "pkg-1.21.1-3.7-fabric+forge+neo" = _MLaXN7hf;
         "pkg-26.2.0-3.7-fabric+forge+neo" = _M8WC4IJj;
         "pkg-26.3.0-3.7-fabric+forge+neo" = _7D7laRNA;
-        "default" = _7D7laRNA;
+        "pkg-26.1.2-3.7-fabric+forge+neo" = _S5B8xfTl;
+        "default" = _S5B8xfTl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "death-backup";

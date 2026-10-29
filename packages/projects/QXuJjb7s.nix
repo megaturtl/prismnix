@@ -341,6 +341,16 @@ let
             "file" = "Herobrine Companion-0.41-1.21.1-neoforge.jar";
             "hash" = "sha512-wofOpuBVsP5OT5CCFGpAxQo6iqn+EXjrHIqUBrlk9BlN68UJkSgfBaMcGyyd1g+pWFn9HpaZp+korYuaZtQcvA==";
         };
+        _n1i2SfEY = {
+            "id" = "n1i2SfEY";
+            "file" = "Herobrine Companion-1.20.1-forge-0.5.jar";
+            "hash" = "sha512-PSa428ZJftXq7KKnCImBtqJIvNQI/GZ4ZducbeD/jv9XLiqFjpmW6RpzpVUgOD+6umGHdsxYw10V4F0EM46wOA==";
+        };
+        _nBb5gw1g = {
+            "id" = "nBb5gw1g";
+            "file" = "Herobrine Companion-0.5-1.21.1-neoforge.jar";
+            "hash" = "sha512-j5c32NV/hhMBtqcruuIkH9pOQfa/o3GUmUyV5g20lbN3zDLlAWMeESvV1W+dkV92+RJRy1yJv8aOyK3J5FOKmw==";
+        };
     in {
         "Yj0Z2aOU" = _Yj0Z2aOU;
         "wnDTa9yN" = _wnDTa9yN;
@@ -410,8 +420,10 @@ let
         "cRzPpEnw" = _cRzPpEnw;
         "6SVO4pRg" = _6SVO4pRg;
         "lEDs76Ys" = _lEDs76Ys;
-        "forge-1.20.1" = _6SVO4pRg;
-        "neoforge-1.21.1" = _lEDs76Ys;
+        "n1i2SfEY" = _n1i2SfEY;
+        "nBb5gw1g" = _nBb5gw1g;
+        "forge-1.20.1" = _n1i2SfEY;
+        "neoforge-1.21.1" = _nBb5gw1g;
         "pkg-0.11" = _wnDTa9yN;
         "pkg-0.111" = _Q6HINZqQ;
         "pkg-0.12" = _aUH6jjdq;
@@ -449,7 +461,8 @@ let
         "pkg-0.34" = _2XldpG2t;
         "pkg-0.4" = _cRzPpEnw;
         "pkg-0.41" = _lEDs76Ys;
-        "default" = _lEDs76Ys;
+        "pkg-0.5" = _nBb5gw1g;
+        "default" = _nBb5gw1g;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "herobrine_companion";

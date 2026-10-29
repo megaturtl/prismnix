@@ -176,6 +176,16 @@ let
             "file" = "warriorcats_events-neoforge-1.21.1-1.12.2.jar";
             "hash" = "sha512-MtiXr6MT3ZzINBFst5j28dG6PwlR4mQDL1VydtVxdtyAtTDNj3mMJVqUTSdnHZfVFu/5rU04n+u7XLGTkpbPnw==";
         };
+        _fZ7Leniz = {
+            "id" = "fZ7Leniz";
+            "file" = "warriorcats_events-neoforge-1.21.1-1.13.0.jar";
+            "hash" = "sha512-fG+TSh/Y4/hpS+gISA77+cIFTwJJabvEVXrDDcWAB15VJ3DVEXCMob6EPv6iQCqUSBbMssXmTtp6W2/OqL5NTQ==";
+        };
+        _wyrSmc5p = {
+            "id" = "wyrSmc5p";
+            "file" = "warriorcats_events-forge-1.20.1-1.13.0.jar";
+            "hash" = "sha512-3jP2+6CHDnqaHZQAPlq7pD5ZxOp54VKym0xjsPhWRqAj6bauKygX0w49dNnaMZIkjOieYFs4O7namU6WvQbfxQ==";
+        };
     in {
         "Lw3gjJCH" = _Lw3gjJCH;
         "IDoNfYBw" = _IDoNfYBw;
@@ -212,8 +222,10 @@ let
         "IyNeJFsV" = _IyNeJFsV;
         "S4s1eBJm" = _S4s1eBJm;
         "k7zJS6Qi" = _k7zJS6Qi;
-        "forge-1.20.1" = _S4s1eBJm;
-        "neoforge-1.21.1" = _k7zJS6Qi;
+        "fZ7Leniz" = _fZ7Leniz;
+        "wyrSmc5p" = _wyrSmc5p;
+        "forge-1.20.1" = _wyrSmc5p;
+        "neoforge-1.21.1" = _fZ7Leniz;
         "pkg-1.0.1" = _Lw3gjJCH;
         "pkg-1.0.2" = _IDoNfYBw;
         "pkg-1.1.0" = _1YzwdE6Q;
@@ -244,7 +256,8 @@ let
         "pkg-1.12.0" = _lhQkGqQ5;
         "pkg-1.12.1" = _IyNeJFsV;
         "pkg-1.12.2" = _k7zJS6Qi;
-        "default" = _k7zJS6Qi;
+        "pkg-1.13.0" = _wyrSmc5p;
+        "default" = _wyrSmc5p;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "warrior-cats-events";

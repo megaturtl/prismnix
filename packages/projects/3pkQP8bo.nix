@@ -41,6 +41,11 @@ let
             "file" = "WOKFlowsHD3.9.2.zip";
             "hash" = "sha512-zX2qnDvAI3dSOWEqc+FCIkP8bFbBS5QpvZSjARmO5DZ2EiF7a8a/ESnLT80wpxrnn7uHyK4k2+YUnHmS6woX9A==";
         };
+        _2Xlx5ToR = {
+            "id" = "2Xlx5ToR";
+            "file" = "WOKflows26.2HD.zip";
+            "hash" = "sha512-Su4v80WeAgiBoconD9zMLL+N1CgM/eXrP+vvez6kUjC+hR3PFZwAFQMS1ewDktYLBv3xdeR8g/TN07Lj3CDgbw==";
+        };
     in {
         "WkTTc7yA" = _WkTTc7yA;
         "9jCqRO6F" = _9jCqRO6F;
@@ -50,11 +55,13 @@ let
         "xWbkFqx8" = _xWbkFqx8;
         "wQy2lftR" = _wQy2lftR;
         "lyw5UOJm" = _lyw5UOJm;
+        "2Xlx5ToR" = _2Xlx5ToR;
         "minecraft-1.21" = _9jCqRO6F;
         "minecraft-1.21.1" = _kNvYR7tI;
         "minecraft-1.21.4" = _UzVs9dhq;
         "minecraft-1.21.5" = _k19CrZ7g;
         "minecraft-1.21.11" = _lyw5UOJm;
+        "minecraft-26.2" = _2Xlx5ToR;
         "pkg-3.7-128x" = _WkTTc7yA;
         "pkg-3.7.2-128x" = _9jCqRO6F;
         "pkg-3.8.0-128x" = _kNvYR7tI;
@@ -63,7 +70,8 @@ let
         "pkg-3.9" = _xWbkFqx8;
         "pkg-3.9.1" = _wQy2lftR;
         "pkg-3.9.2" = _lyw5UOJm;
-        "default" = _lyw5UOJm;
+        "pkg-26.2" = _2Xlx5ToR;
+        "default" = _2Xlx5ToR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wokflows";

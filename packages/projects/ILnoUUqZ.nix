@@ -61,6 +61,11 @@ let
             "file" = "animalhats-30.03.2026-neoforge-1.21.8.jar";
             "hash" = "sha512-M3ehbLiS6OPM79vAevh7/vvloJ+ytvJhXyE7Y0xB5aUxz3JYZoG8sD/M1aiJ9L8Oq5/LakJVtlw0jvSslulblA==";
         };
+        _XgejrfzU = {
+            "id" = "XgejrfzU";
+            "file" = "animalhatsjams-1.1-forge-26.3.jar";
+            "hash" = "sha512-UQCx+Y2MMVcI0U4ZSAQQ7qcgynwZd/Al+OPI+osqI1d1TW+QIV1+oMacuvLUJv4m6qTMwqhbw2iL6dO/z89hig==";
+        };
     in {
         "B9CVqilw" = _B9CVqilw;
         "BIoMetUs" = _BIoMetUs;
@@ -74,11 +79,13 @@ let
         "1utbLNTA" = _1utbLNTA;
         "qgz1J6TO" = _qgz1J6TO;
         "BELVDSwG" = _BELVDSwG;
+        "XgejrfzU" = _XgejrfzU;
         "neoforge-1.21" = _PdLR08EW;
         "neoforge-1.21.1" = _PdLR08EW;
         "neoforge-1.21.8" = _BELVDSwG;
         "forge-1.20" = _CKlW8QOw;
         "forge-1.20.1" = _qgz1J6TO;
+        "forge-26.3" = _XgejrfzU;
         "pkg-14.08.05" = _BIoMetUs;
         "pkg-25.04.25" = _XuqjoUdT;
         "pkg-04.05.25" = _anWWuSAr;
@@ -86,7 +93,8 @@ let
         "pkg-20.6" = _1utbLNTA;
         "pkg-20.7" = _CKlW8QOw;
         "pkg-30.03.2026" = _BELVDSwG;
-        "default" = _BELVDSwG;
+        "pkg-1.1" = _XgejrfzU;
+        "default" = _XgejrfzU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "animals-hats";

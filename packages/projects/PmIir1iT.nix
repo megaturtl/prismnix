@@ -266,6 +266,16 @@ let
             "file" = "Valoria-1.20.1-1.1.0.5.jar";
             "hash" = "sha512-+T/w6oNQsUcByPOaTUavNWNmf1iJXqdzuq8eK/fur5hpxDIShp8ck7CW/FCae6C48M/gqEabtqTwb8XkP/QQ/g==";
         };
+        _80onLB28 = {
+            "id" = "80onLB28";
+            "file" = "Valoria-1.21.1-1.1.0.6.jar";
+            "hash" = "sha512-ruAKsHVEq+i+EpAxv5vTpYIEobwz4uTwGLZgo4BQDaFfXt7Iw7+9SVdWvCuKCdqhLfSr4a3ojQXr8YCxlPXluA==";
+        };
+        _xa1XprtA = {
+            "id" = "xa1XprtA";
+            "file" = "Valoria-1.20.1-1.1.0.6.jar";
+            "hash" = "sha512-etDH2sDMGxWkBCPfbBweVkRTJmCmBvTqVHqPYIiAAMf9GdLUqd4xRiOUmflQ9t/1mEJagMwMbdAF2Q+epqbEaw==";
+        };
     in {
         "u6jTU6lR" = _u6jTU6lR;
         "UcGAO5D7" = _UcGAO5D7;
@@ -320,7 +330,9 @@ let
         "OcyNp2s6" = _OcyNp2s6;
         "rLutnshM" = _rLutnshM;
         "7uYVJWQZ" = _7uYVJWQZ;
-        "forge-1.20.1" = _7uYVJWQZ;
+        "80onLB28" = _80onLB28;
+        "xa1XprtA" = _xa1XprtA;
+        "forge-1.20.1" = _xa1XprtA;
         "forge-1.20" = _34vtTYLH;
         "forge-1.20.2" = _WSyzDBbV;
         "forge-1.20.3" = _WSyzDBbV;
@@ -333,7 +345,7 @@ let
         "neoforge-1.20.4" = _VFHEpbo2;
         "neoforge-1.20.5" = _VFHEpbo2;
         "neoforge-1.20.6" = _VFHEpbo2;
-        "neoforge-1.21.1" = _rLutnshM;
+        "neoforge-1.21.1" = _80onLB28;
         "pkg-0.5.0.1b" = _u6jTU6lR;
         "pkg-0.5.0.1bf" = _UcGAO5D7;
         "pkg-0.5.1_b" = _AbWkkoid;
@@ -387,7 +399,9 @@ let
         "pkg-1.20.1-1.1.0.4.1" = _OcyNp2s6;
         "pkg-1.21.1-1.1.0.5" = _rLutnshM;
         "pkg-1.20.1-1.1.0.5" = _7uYVJWQZ;
-        "default" = _7uYVJWQZ;
+        "pkg-1.21.1-1.1.0.6" = _80onLB28;
+        "pkg-1.20.1-1.1.0.6" = _xa1XprtA;
+        "default" = _xa1XprtA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "valoria";

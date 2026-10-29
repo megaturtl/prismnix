@@ -326,6 +326,11 @@ let
             "file" = "playerdeathkick-26.3.0-3.7.jar";
             "hash" = "sha512-y/yUqbOE70aex9t/oWvH6RjFqx9TdoELhLDjYNri0I9UOHnSYfkKIqBkfdhVgH/REspbKhgPGbWC1xHjVcrlxQ==";
         };
+        _WQyzZlRv = {
+            "id" = "WQyzZlRv";
+            "file" = "playerdeathkick-26.1.2-3.7.jar";
+            "hash" = "sha512-1fW4SkXZec7vopQkaTOgaIcRzI2kK9T1Xds9WrWwtuew1kZ2q8j2QHYnCXZZUBMaG+A9802mTWPGIV/NeyZIxQ==";
+        };
     in {
         "N3qwD0Yi" = _N3qwD0Yi;
         "822DgYEN" = _822DgYEN;
@@ -392,6 +397,7 @@ let
         "PWkDwDkE" = _PWkDwDkE;
         "41TSby7Q" = _41TSby7Q;
         "gsJieDAP" = _gsJieDAP;
+        "WQyzZlRv" = _WQyzZlRv;
         "fabric-1.16.5" = _krW5Mqvr;
         "fabric-1.18.2" = _rdpRzZ4C;
         "fabric-1.19.2" = _d0SLBPj3;
@@ -418,7 +424,7 @@ let
         "fabric-1.21.11" = _6lIslk9U;
         "fabric-26.1" = _eWPOgR7T;
         "fabric-26.1.1" = _cAYt1cBG;
-        "fabric-26.1.2" = _hv7Zilgi;
+        "fabric-26.1.2" = _WQyzZlRv;
         "fabric-26.2" = _41TSby7Q;
         "fabric-26.3" = _gsJieDAP;
         "forge-1.16.5" = _1QrN37wh;
@@ -445,7 +451,7 @@ let
         "forge-1.21.11" = _6lIslk9U;
         "forge-26.1" = _eWPOgR7T;
         "forge-26.1.1" = _cAYt1cBG;
-        "forge-26.1.2" = _hv7Zilgi;
+        "forge-26.1.2" = _WQyzZlRv;
         "forge-26.2" = _41TSby7Q;
         "forge-26.3" = _gsJieDAP;
         "quilt-1.18.2" = _rdpRzZ4C;
@@ -473,7 +479,7 @@ let
         "quilt-1.21.11" = _6lIslk9U;
         "quilt-26.1" = _eWPOgR7T;
         "quilt-26.1.1" = _cAYt1cBG;
-        "quilt-26.1.2" = _hv7Zilgi;
+        "quilt-26.1.2" = _WQyzZlRv;
         "quilt-26.2" = _41TSby7Q;
         "quilt-26.3" = _gsJieDAP;
         "neoforge-1.20.2" = _cCR0mAAd;
@@ -496,7 +502,7 @@ let
         "neoforge-1.21.11" = _6lIslk9U;
         "neoforge-26.1" = _eWPOgR7T;
         "neoforge-26.1.1" = _cAYt1cBG;
-        "neoforge-26.1.2" = _hv7Zilgi;
+        "neoforge-26.1.2" = _WQyzZlRv;
         "neoforge-26.2" = _41TSby7Q;
         "neoforge-26.3" = _gsJieDAP;
         "pkg-1.16.5-1.9-fabric" = _N3qwD0Yi;
@@ -564,7 +570,8 @@ let
         "pkg-1.21.1-3.7-fabric+forge+neo" = _PWkDwDkE;
         "pkg-26.2.0-3.7-fabric+forge+neo" = _41TSby7Q;
         "pkg-26.3.0-3.7-fabric+forge+neo" = _gsJieDAP;
-        "default" = _gsJieDAP;
+        "pkg-26.1.2-3.7-fabric+forge+neo" = _WQyzZlRv;
+        "default" = _WQyzZlRv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "player-death-kick";

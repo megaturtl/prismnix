@@ -371,6 +371,11 @@ let
             "file" = "enchantingcommands-26.3.0-3.8.jar";
             "hash" = "sha512-NzFx0Qm+kd/wFAokRP3EsDioSJ9jOh/cq/uVEz4m8paKijnKvxnKD8WHRdL3CdbQFwn/LrjJAqyfqi7GOhdBDg==";
         };
+        _llrx9ZdG = {
+            "id" = "llrx9ZdG";
+            "file" = "enchantingcommands-26.1.2-3.8.jar";
+            "hash" = "sha512-jUZekNDvTBYn6dcU/JellO1WTuRRGiMFl8uVUE0Fi3iAh1JQzRTmAQS3lnR4aw9xXGopfDbU0CJrAojD6KHR5A==";
+        };
     in {
         "cjAOYCkU" = _cjAOYCkU;
         "L9Zch9Ym" = _L9Zch9Ym;
@@ -446,6 +451,7 @@ let
         "kFJ51wOb" = _kFJ51wOb;
         "U8W2Q5GP" = _U8W2Q5GP;
         "ITQXemvY" = _ITQXemvY;
+        "llrx9ZdG" = _llrx9ZdG;
         "fabric-1.16.5" = _3tVkwZ6z;
         "fabric-1.18.2" = _3Fo7Iy1o;
         "fabric-1.19.2" = _ZWXDHA4R;
@@ -472,7 +478,7 @@ let
         "fabric-1.21.11" = _BDtLesXB;
         "fabric-26.1" = _qNvdE2Zp;
         "fabric-26.1.1" = _KjU9UZoU;
-        "fabric-26.1.2" = _aJe7bsEf;
+        "fabric-26.1.2" = _llrx9ZdG;
         "fabric-26.2" = _U8W2Q5GP;
         "fabric-26.3" = _ITQXemvY;
         "forge-1.16.5" = _j8O7ycLq;
@@ -499,7 +505,7 @@ let
         "forge-1.21.11" = _BDtLesXB;
         "forge-26.1" = _qNvdE2Zp;
         "forge-26.1.1" = _KjU9UZoU;
-        "forge-26.1.2" = _aJe7bsEf;
+        "forge-26.1.2" = _llrx9ZdG;
         "forge-26.2" = _U8W2Q5GP;
         "forge-26.3" = _ITQXemvY;
         "quilt-1.18.2" = _3Fo7Iy1o;
@@ -527,7 +533,7 @@ let
         "quilt-1.21.11" = _BDtLesXB;
         "quilt-26.1" = _qNvdE2Zp;
         "quilt-26.1.1" = _KjU9UZoU;
-        "quilt-26.1.2" = _aJe7bsEf;
+        "quilt-26.1.2" = _llrx9ZdG;
         "quilt-26.2" = _U8W2Q5GP;
         "quilt-26.3" = _ITQXemvY;
         "neoforge-1.20.2" = _6i9Q6T3v;
@@ -550,7 +556,7 @@ let
         "neoforge-1.21.11" = _BDtLesXB;
         "neoforge-26.1" = _qNvdE2Zp;
         "neoforge-26.1.1" = _KjU9UZoU;
-        "neoforge-26.1.2" = _aJe7bsEf;
+        "neoforge-26.1.2" = _llrx9ZdG;
         "neoforge-26.2" = _U8W2Q5GP;
         "neoforge-26.3" = _ITQXemvY;
         "pkg-1.16.5-2.3-fabric" = _cjAOYCkU;
@@ -627,7 +633,8 @@ let
         "pkg-1.21.1-3.8-fabric+forge+neo" = _kFJ51wOb;
         "pkg-26.2.0-3.8-fabric+forge+neo" = _U8W2Q5GP;
         "pkg-26.3.0-3.8-fabric+forge+neo" = _ITQXemvY;
-        "default" = _ITQXemvY;
+        "pkg-26.1.2-3.8-fabric+forge+neo" = _llrx9ZdG;
+        "default" = _llrx9ZdG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchanting-commands";

@@ -361,6 +361,31 @@ let
             "file" = "stasis-1.3.4-1.21.11.jar";
             "hash" = "sha512-/Q+OcK8ErOu2pYcCi/f1cBhYZhekrxAwblCznUP0j5Xvh2PlSPdNqwQPy/3vS1v1UhZs+ijA22LQou6JHaPMjA==";
         };
+        _aKngbxFp = {
+            "id" = "aKngbxFp";
+            "file" = "stasis-1.3.5-26.3.jar";
+            "hash" = "sha512-FJS8C3HcMuO3HzSZyWNcMCR4uyoZSeKjJj6IMIpedOnlmfco7f88ZHGvaqdO5dVZzZ6pg889/7HN1vHUN8liBQ==";
+        };
+        _jhcmEeiL = {
+            "id" = "jhcmEeiL";
+            "file" = "stasis-1.3.5-1.20.1.jar";
+            "hash" = "sha512-wEC3EO16XkNouuEGlDzsOwSO6mrwLXRjPrD2+Se6AubmD3Px8fZp0n96/MFT3uUjlUubZWhjWSxgCvMJ/MdSWw==";
+        };
+        _9yABmhaR = {
+            "id" = "9yABmhaR";
+            "file" = "stasis-1.3.5-26.2.jar";
+            "hash" = "sha512-MuXSYBk6nB2Hfxfo8k/xfDDTNrVcacx+rqT3MD+q54ONwBWK9LRd1+t7NJss7xS196dWT7BryZwirQOkbBmWDQ==";
+        };
+        _ABStCjgV = {
+            "id" = "ABStCjgV";
+            "file" = "stasis-1.3.5-1.21.1.jar";
+            "hash" = "sha512-FvyRYyGj52VYyLLTSmLa96MxfrVRsb7ZC3fk2n9vfVlTLIQb1h/Ea6pCfhID9jxHAIQmA84vxxXDQzRx57HotQ==";
+        };
+        _xlElHR7q = {
+            "id" = "xlElHR7q";
+            "file" = "stasis-1.3.5-1.21.11.jar";
+            "hash" = "sha512-iLlrTWBCbo0iAMJl64dqlBvBITcgki27yjsQTlhpfsdS0iea76onsG4qsCp2iGW2xoDAjC8JIUBBgnzn+NtmwA==";
+        };
     in {
         "vMQtDBZx" = _vMQtDBZx;
         "ZbrRz25T" = _ZbrRz25T;
@@ -434,11 +459,16 @@ let
         "VguvyXLS" = _VguvyXLS;
         "n2960XS9" = _n2960XS9;
         "KObtc5gT" = _KObtc5gT;
-        "fabric-1.21.1" = _n2960XS9;
-        "fabric-1.20.1" = _VguvyXLS;
-        "fabric-1.21.11" = _KObtc5gT;
-        "fabric-26.2" = _PwmsKJtb;
-        "fabric-26.3" = _va8AIhsi;
+        "aKngbxFp" = _aKngbxFp;
+        "jhcmEeiL" = _jhcmEeiL;
+        "9yABmhaR" = _9yABmhaR;
+        "ABStCjgV" = _ABStCjgV;
+        "xlElHR7q" = _xlElHR7q;
+        "fabric-1.21.1" = _ABStCjgV;
+        "fabric-1.20.1" = _jhcmEeiL;
+        "fabric-1.21.11" = _xlElHR7q;
+        "fabric-26.2" = _9yABmhaR;
+        "fabric-26.3" = _aKngbxFp;
         "pkg-1.0.0" = _vMQtDBZx;
         "pkg-1.0.1" = _ZbrRz25T;
         "pkg-1.0.2" = _MHhCEOFW;
@@ -461,7 +491,8 @@ let
         "pkg-1.3.2" = _iboQluhU;
         "pkg-1.3.3" = _Ob0oateY;
         "pkg-1.3.4" = _KObtc5gT;
-        "default" = _KObtc5gT;
+        "pkg-1.3.5" = _xlElHR7q;
+        "default" = _xlElHR7q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stasis-paradox";

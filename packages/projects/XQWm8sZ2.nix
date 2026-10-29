@@ -56,6 +56,11 @@ let
             "file" = "corecommands-2.2.2.jar";
             "hash" = "sha512-0+I4zwOaL89K3lFwPfT5Ozr7sDRemyCLNJuu6a0F5QrSbF+NPT9j82BN9glPGjbMd9bWVwi9nRh+wkcGofCTuQ==";
         };
+        _VMdQ626s = {
+            "id" = "VMdQ626s";
+            "file" = "corecommands-2.2.3.jar";
+            "hash" = "sha512-v75PUiCte+QSOL5u9QezJ3ZGscLVIXZ2hPG57wKDKCA+E6GTd81ffhAuKf6HEa3Y0+7L1CaqxnuEeozFWXrCFw==";
+        };
     in {
         "QDSXyZIZ" = _QDSXyZIZ;
         "NTNTbXeQ" = _NTNTbXeQ;
@@ -68,6 +73,7 @@ let
         "uYVbvl2a" = _uYVbvl2a;
         "Tx4a1PW6" = _Tx4a1PW6;
         "a6CyZfqo" = _a6CyZfqo;
+        "VMdQ626s" = _VMdQ626s;
         "forge-1.20.1" = _bukhH8Vp;
         "forge-1.20.2" = _bukhH8Vp;
         "forge-1.20.3" = _bukhH8Vp;
@@ -88,7 +94,7 @@ let
         "neoforge-1.21.11" = _a6CyZfqo;
         "neoforge-26.1" = _a6CyZfqo;
         "neoforge-26.1.1" = _a6CyZfqo;
-        "neoforge-26.1.2" = _a6CyZfqo;
+        "neoforge-26.1.2" = _VMdQ626s;
         "neoforge-26.2" = _a6CyZfqo;
         "pkg-1.0.0" = _QDSXyZIZ;
         "pkg-1.0.1" = _NTNTbXeQ;
@@ -100,7 +106,8 @@ let
         "pkg-2.2.0" = _uYVbvl2a;
         "pkg-2.2.1" = _Tx4a1PW6;
         "pkg-2.2.2" = _a6CyZfqo;
-        "default" = _a6CyZfqo;
+        "pkg-2.2.3" = _VMdQ626s;
+        "default" = _VMdQ626s;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "corecommands";

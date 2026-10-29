@@ -51,6 +51,16 @@ let
             "file" = "asedojapan-fabric-1.21.1-0.2.0.jar";
             "hash" = "sha512-wHBOakiEry32HZpCl7p/6lGbVyU8HY0PVRobq0vZEGMQRQMYKL1he8XwC+AJ/45N9f3Hwx2wN5gzqHJkYkkqjQ==";
         };
+        _eyLMvuuY = {
+            "id" = "eyLMvuuY";
+            "file" = "asedojapan-forge-1.20.1-0.1.3.1.jar";
+            "hash" = "sha512-h/bsBDtkPlI+Mx9ZsSDaNtPSlGS4TNSn+1ecfl1dys4STKo8VYbYhaF8FH6MK+s5IKaFWCgxKvZ8rQSHYo6AOg==";
+        };
+        _kP3IuuJe = {
+            "id" = "kP3IuuJe";
+            "file" = "asedojapan-fabric-1.20.1-0.1.3.1.jar";
+            "hash" = "sha512-/vVCBXGFSgi85GJsHjyYOlpRi+1LKxiTLvLukuGISRrB/tXu5N8nPbKFNXhXNU/FYT9vHdw7qkPtS6dKMgc2bA==";
+        };
     in {
         "BJim5GVE" = _BJim5GVE;
         "BOcoGkn9" = _BOcoGkn9;
@@ -62,16 +72,19 @@ let
         "pJ2grEW8" = _pJ2grEW8;
         "6QVD9EGs" = _6QVD9EGs;
         "1KNUhW6v" = _1KNUhW6v;
-        "fabric-1.20.1" = _ybRB0Yil;
+        "eyLMvuuY" = _eyLMvuuY;
+        "kP3IuuJe" = _kP3IuuJe;
+        "fabric-1.20.1" = _kP3IuuJe;
         "fabric-1.21.1" = _1KNUhW6v;
-        "forge-1.20.1" = _pJ2grEW8;
+        "forge-1.20.1" = _eyLMvuuY;
         "neoforge-1.21.1" = _6QVD9EGs;
         "pkg-0.1.0" = _BOcoGkn9;
         "pkg-0.1.1" = _9d2vddZG;
         "pkg-0.1.2" = _Pd6IYreS;
         "pkg-0.1.3" = _pJ2grEW8;
         "pkg-0.2.0" = _1KNUhW6v;
-        "default" = _1KNUhW6v;
+        "pkg-0.1.3.1" = _kP3IuuJe;
+        "default" = _kP3IuuJe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ancient-structures-edo-japan";

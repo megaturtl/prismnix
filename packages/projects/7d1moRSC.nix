@@ -321,6 +321,11 @@ let
             "file" = "playertracking-26.3.0-3.7.jar";
             "hash" = "sha512-fa5ZHn658EitQwbSiJd8SbfHnsqxzhvmY53aRNVox/apn+/iFTNyeI3LYNfY+TeJuQUSFXoHCtWoY0N76YHNsg==";
         };
+        _IzNPmXa1 = {
+            "id" = "IzNPmXa1";
+            "file" = "playertracking-26.1.2-3.7.jar";
+            "hash" = "sha512-hNKYRLjFBQSZRaUeIFi8BTWaFV6ZmdmHmcN8ncc3RoCXwYB58+Cwfffp7lrsF325HV/yAXRMxmh5PByAb+SaTQ==";
+        };
     in {
         "ci6h4Asu" = _ci6h4Asu;
         "zTrCHgpc" = _zTrCHgpc;
@@ -386,6 +391,7 @@ let
         "aio0KtF5" = _aio0KtF5;
         "8yz2bbrT" = _8yz2bbrT;
         "ogtd7hmB" = _ogtd7hmB;
+        "IzNPmXa1" = _IzNPmXa1;
         "fabric-1.16.5" = _T8kkW8KV;
         "fabric-1.18.2" = _lBZxDlvq;
         "fabric-1.19.2" = _CQ6kG2dI;
@@ -412,7 +418,7 @@ let
         "fabric-1.21.11" = _P9b7YgPG;
         "fabric-26.1" = _cInh9IEZ;
         "fabric-26.1.1" = _qlxMhhHK;
-        "fabric-26.1.2" = _VHyGQ0Ig;
+        "fabric-26.1.2" = _IzNPmXa1;
         "fabric-26.2" = _8yz2bbrT;
         "fabric-26.3" = _ogtd7hmB;
         "forge-1.16.5" = _CPqVjWLL;
@@ -439,7 +445,7 @@ let
         "forge-1.21.11" = _P9b7YgPG;
         "forge-26.1" = _cInh9IEZ;
         "forge-26.1.1" = _qlxMhhHK;
-        "forge-26.1.2" = _VHyGQ0Ig;
+        "forge-26.1.2" = _IzNPmXa1;
         "forge-26.2" = _8yz2bbrT;
         "forge-26.3" = _ogtd7hmB;
         "quilt-1.18.2" = _lBZxDlvq;
@@ -467,7 +473,7 @@ let
         "quilt-1.21.11" = _P9b7YgPG;
         "quilt-26.1" = _cInh9IEZ;
         "quilt-26.1.1" = _qlxMhhHK;
-        "quilt-26.1.2" = _VHyGQ0Ig;
+        "quilt-26.1.2" = _IzNPmXa1;
         "quilt-26.2" = _8yz2bbrT;
         "quilt-26.3" = _ogtd7hmB;
         "neoforge-1.20.2" = _DbnSX9kS;
@@ -490,7 +496,7 @@ let
         "neoforge-1.21.11" = _P9b7YgPG;
         "neoforge-26.1" = _cInh9IEZ;
         "neoforge-26.1.1" = _qlxMhhHK;
-        "neoforge-26.1.2" = _VHyGQ0Ig;
+        "neoforge-26.1.2" = _IzNPmXa1;
         "neoforge-26.2" = _8yz2bbrT;
         "neoforge-26.3" = _ogtd7hmB;
         "pkg-1.16.5-2.0-fabric" = _ci6h4Asu;
@@ -557,7 +563,8 @@ let
         "pkg-1.21.1-3.7-fabric+forge+neo" = _aio0KtF5;
         "pkg-26.2.0-3.7-fabric+forge+neo" = _8yz2bbrT;
         "pkg-26.3.0-3.7-fabric+forge+neo" = _ogtd7hmB;
-        "default" = _ogtd7hmB;
+        "pkg-26.1.2-3.7-fabric+forge+neo" = _IzNPmXa1;
+        "default" = _IzNPmXa1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "player-tracking";

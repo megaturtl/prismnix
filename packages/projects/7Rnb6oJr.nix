@@ -2271,6 +2271,26 @@ let
             "file" = "music_hud-velocity-1.3.1.jar";
             "hash" = "sha512-CJI5zomhY8Xk7l3J/+VI578TMu8gSDZAew8p/nwbJiijdfykQ5eCJlyZfel0kzvO6jBCOp0+c60a55/8DZX1uQ==";
         };
+        _reaJduss = {
+            "id" = "reaJduss";
+            "file" = "music_hud-fabric-1.3.1.1+1.21.9-10.jar";
+            "hash" = "sha512-vDlvqRnvhKJrSbBz5uBdZ36daRuBzN9qQK8CNLKSWFGskRTQan/8S0uQTE2pQoH1+8m10VlxP2KuVI7fc2I6sg==";
+        };
+        _X2nLIWbs = {
+            "id" = "X2nLIWbs";
+            "file" = "music_hud-neoforge-1.3.1.1+1.21.9-10.jar";
+            "hash" = "sha512-9DLLRdVMqKHWyzraBCwlIkfy/5N/YY7UJPTtZLdCO0U4pDE1NKTw9ODE1Vd3BLBf7Y8zM6+invfv3mVlJ+jacg==";
+        };
+        _JBkeXnbh = {
+            "id" = "JBkeXnbh";
+            "file" = "music_hud-fabric-1.3.1.1+1.21.11.jar";
+            "hash" = "sha512-fU2rZl5I6p6aCY/tvayVs26QoVp6tEk76F4fIxNbWXiaGhC8tKdnkFwBcO6KoFv3nbLu2wSsFcbISTTg3T5cNA==";
+        };
+        _bSPeurUR = {
+            "id" = "bSPeurUR";
+            "file" = "music_hud-neoforge-1.3.1.1+1.21.11.jar";
+            "hash" = "sha512-d1Lx+uQtBBKJaKwVV9tmXTt3eMGTc40N+IeZ8lwqrplX7ALfBPZBb/NYKdy6K7SQaag2BQV/jiYEVpY2DhBp4w==";
+        };
     in {
         "3p2JJxxr" = _3p2JJxxr;
         "QM7a45UD" = _QM7a45UD;
@@ -2726,12 +2746,16 @@ let
         "AcTCSMIh" = _AcTCSMIh;
         "ZHpDN9nQ" = _ZHpDN9nQ;
         "8lZWCdRj" = _8lZWCdRj;
+        "reaJduss" = _reaJduss;
+        "X2nLIWbs" = _X2nLIWbs;
+        "JBkeXnbh" = _JBkeXnbh;
+        "bSPeurUR" = _bSPeurUR;
         "fabric-1.21.8" = _RZ2MkSgb;
         "fabric-1.21.6" = _RZ2MkSgb;
         "fabric-1.21.7" = _RZ2MkSgb;
-        "fabric-1.21.9" = _ZR6uhXL5;
-        "fabric-1.21.10" = _ZR6uhXL5;
-        "fabric-1.21.11" = _UGVxZMt7;
+        "fabric-1.21.9" = _reaJduss;
+        "fabric-1.21.10" = _reaJduss;
+        "fabric-1.21.11" = _JBkeXnbh;
         "fabric-1.21.1" = _TjwqNuaX;
         "fabric-26.1" = _53WXH0Cd;
         "fabric-26.1.1" = _53WXH0Cd;
@@ -2741,9 +2765,9 @@ let
         "neoforge-1.21.8" = _LT7eCZDg;
         "neoforge-1.21.6" = _LT7eCZDg;
         "neoforge-1.21.7" = _LT7eCZDg;
-        "neoforge-1.21.9" = _7CSipq83;
-        "neoforge-1.21.10" = _7CSipq83;
-        "neoforge-1.21.11" = _4IzoCnk8;
+        "neoforge-1.21.9" = _X2nLIWbs;
+        "neoforge-1.21.10" = _X2nLIWbs;
+        "neoforge-1.21.11" = _bSPeurUR;
         "neoforge-1.21.1" = _rQ1VYRYf;
         "neoforge-26.1" = _mf9vMcbs;
         "neoforge-26.1.1" = _mf9vMcbs;
@@ -3015,7 +3039,9 @@ let
         "pkg-1.3.1+26.2" = _EA4Pp4KE;
         "pkg-1.3.1+26.3" = _AcTCSMIh;
         "pkg-1.3.1" = _8lZWCdRj;
-        "default" = _8lZWCdRj;
+        "pkg-1.3.1.1+1.21.9-10" = _X2nLIWbs;
+        "pkg-1.3.1.1+1.21.11" = _bSPeurUR;
+        "default" = _bSPeurUR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "music-hud";

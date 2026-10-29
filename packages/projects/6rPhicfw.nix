@@ -296,6 +296,11 @@ let
             "file" = "icepreventscropgrowth-26.3.0-3.7.jar";
             "hash" = "sha512-0JZjNiLkQ966Q0qt7+r5OhNmL1hzzw+sD68pj1bETBNVcOHe6umHc7qxChO45zxePEJqmHnAqFQjDD9MiuBpqA==";
         };
+        _p2QyxknU = {
+            "id" = "p2QyxknU";
+            "file" = "icepreventscropgrowth-26.1.2-3.7.jar";
+            "hash" = "sha512-U/HBMAASruCPKQ/uj0uGvSxnooLAmSEZ51weKbdznkiKUChwHrRRMSFBumZdChzYnhNGMMXxH/2wgX5/esKovA==";
+        };
     in {
         "3h3GwMiU" = _3h3GwMiU;
         "AaGZMU5u" = _AaGZMU5u;
@@ -356,6 +361,7 @@ let
         "WNL6YBin" = _WNL6YBin;
         "nuZSWZb3" = _nuZSWZb3;
         "IkHVBBXg" = _IkHVBBXg;
+        "p2QyxknU" = _p2QyxknU;
         "fabric-1.16.5" = _V9Nnp4OQ;
         "fabric-1.18.2" = _3uRkdTrA;
         "fabric-1.19.2" = _4DjoH1Kn;
@@ -382,7 +388,7 @@ let
         "fabric-1.21.11" = _vyybszmE;
         "fabric-26.1" = _WOrihfVo;
         "fabric-26.1.1" = _fRQ9h7qf;
-        "fabric-26.1.2" = _vkqUWcCM;
+        "fabric-26.1.2" = _p2QyxknU;
         "fabric-26.2" = _nuZSWZb3;
         "fabric-26.3" = _IkHVBBXg;
         "forge-1.16.5" = _3t4BrBbu;
@@ -409,7 +415,7 @@ let
         "forge-1.21.11" = _vyybszmE;
         "forge-26.1" = _WOrihfVo;
         "forge-26.1.1" = _fRQ9h7qf;
-        "forge-26.1.2" = _vkqUWcCM;
+        "forge-26.1.2" = _p2QyxknU;
         "forge-26.2" = _nuZSWZb3;
         "forge-26.3" = _IkHVBBXg;
         "quilt-1.18.2" = _3uRkdTrA;
@@ -437,7 +443,7 @@ let
         "quilt-1.21.11" = _vyybszmE;
         "quilt-26.1" = _WOrihfVo;
         "quilt-26.1.1" = _fRQ9h7qf;
-        "quilt-26.1.2" = _vkqUWcCM;
+        "quilt-26.1.2" = _p2QyxknU;
         "quilt-26.2" = _nuZSWZb3;
         "quilt-26.3" = _IkHVBBXg;
         "neoforge-1.20.2" = _ve5n5KlY;
@@ -460,7 +466,7 @@ let
         "neoforge-1.21.11" = _vyybszmE;
         "neoforge-26.1" = _WOrihfVo;
         "neoforge-26.1.1" = _fRQ9h7qf;
-        "neoforge-26.1.2" = _vkqUWcCM;
+        "neoforge-26.1.2" = _p2QyxknU;
         "neoforge-26.2" = _nuZSWZb3;
         "neoforge-26.3" = _IkHVBBXg;
         "pkg-1.16.5-1.8-fabric" = _3h3GwMiU;
@@ -522,7 +528,8 @@ let
         "pkg-1.21.1-3.7-fabric+forge+neo" = _WNL6YBin;
         "pkg-26.2.0-3.7-fabric+forge+neo" = _nuZSWZb3;
         "pkg-26.3.0-3.7-fabric+forge+neo" = _IkHVBBXg;
-        "default" = _IkHVBBXg;
+        "pkg-26.1.2-3.7-fabric+forge+neo" = _p2QyxknU;
+        "default" = _p2QyxknU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ice-prevents-crop-growth";

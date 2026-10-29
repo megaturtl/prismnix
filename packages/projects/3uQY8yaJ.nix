@@ -181,6 +181,11 @@ let
             "file" = "easyelevators-26.3.0-1.5.jar";
             "hash" = "sha512-OlbS2LME93UL2/8XYJqQJvNgzKkbpTpCVpriEFSkMzl9wWujXYRkN0R+BewsrSjfsv5LwliDNqjBdqUKXyPiNA==";
         };
+        _Z1vE0uQp = {
+            "id" = "Z1vE0uQp";
+            "file" = "easyelevators-26.1.2-1.5.jar";
+            "hash" = "sha512-XHnNAvVSK7ME9+maMuyVLouHH0fJI1X/IPiqd2o/1n6QTM32NBO0K6NxTnbdJTo+/3ach+FUj7rBYyjvN3wvFA==";
+        };
     in {
         "hIoJOiof" = _hIoJOiof;
         "z5pkugnb" = _z5pkugnb;
@@ -218,6 +223,7 @@ let
         "LETF546d" = _LETF546d;
         "Axr1Yg9e" = _Axr1Yg9e;
         "XbouS6Sd" = _XbouS6Sd;
+        "Z1vE0uQp" = _Z1vE0uQp;
         "fabric-1.20.1" = _BtWcslEg;
         "fabric-1.20.6" = _9It6wAhC;
         "fabric-1.21" = _LETF546d;
@@ -234,7 +240,7 @@ let
         "fabric-1.21.11" = _kEG2bdVm;
         "fabric-26.1" = _2uKtkRLd;
         "fabric-26.1.1" = _Z2SbBD5e;
-        "fabric-26.1.2" = _I3jrIUHf;
+        "fabric-26.1.2" = _Z1vE0uQp;
         "fabric-26.2" = _Axr1Yg9e;
         "fabric-26.3" = _XbouS6Sd;
         "forge-1.20.1" = _BtWcslEg;
@@ -252,7 +258,7 @@ let
         "forge-1.21.11" = _kEG2bdVm;
         "forge-26.1" = _2uKtkRLd;
         "forge-26.1.1" = _Z2SbBD5e;
-        "forge-26.1.2" = _I3jrIUHf;
+        "forge-26.1.2" = _Z1vE0uQp;
         "forge-26.2" = _Axr1Yg9e;
         "forge-26.3" = _XbouS6Sd;
         "neoforge-1.20.1" = _BtWcslEg;
@@ -271,7 +277,7 @@ let
         "neoforge-1.21.11" = _kEG2bdVm;
         "neoforge-26.1" = _2uKtkRLd;
         "neoforge-26.1.1" = _Z2SbBD5e;
-        "neoforge-26.1.2" = _I3jrIUHf;
+        "neoforge-26.1.2" = _Z1vE0uQp;
         "neoforge-26.2" = _Axr1Yg9e;
         "neoforge-26.3" = _XbouS6Sd;
         "quilt-1.20.1" = _BtWcslEg;
@@ -290,7 +296,7 @@ let
         "quilt-1.21.11" = _kEG2bdVm;
         "quilt-26.1" = _2uKtkRLd;
         "quilt-26.1.1" = _Z2SbBD5e;
-        "quilt-26.1.2" = _I3jrIUHf;
+        "quilt-26.1.2" = _Z1vE0uQp;
         "quilt-26.2" = _Axr1Yg9e;
         "quilt-26.3" = _XbouS6Sd;
         "pkg-1.20.1-1.0-fabric+forge+neo" = _hIoJOiof;
@@ -329,7 +335,8 @@ let
         "pkg-1.21.1-1.5-fabric+forge+neo" = _LETF546d;
         "pkg-26.2.0-1.5-fabric+forge+neo" = _Axr1Yg9e;
         "pkg-26.3.0-1.5-fabric+forge+neo" = _XbouS6Sd;
-        "default" = _XbouS6Sd;
+        "pkg-26.1.2-1.5-fabric+forge+neo" = _Z1vE0uQp;
+        "default" = _Z1vE0uQp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "easy-elevators";

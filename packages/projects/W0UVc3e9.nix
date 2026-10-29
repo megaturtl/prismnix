@@ -351,6 +351,11 @@ let
             "file" = "saveandloadinventories-26.3.0-3.7.jar";
             "hash" = "sha512-pfkj3OpQgRLQZLBHYP9/kZn9xGNyuiZ/IKgG+B/lieC34dTjyQuuvIhyPi0sE9NXzjspNbcRJe0bwXf9UuPmcw==";
         };
+        _HC61yfue = {
+            "id" = "HC61yfue";
+            "file" = "saveandloadinventories-26.1.2-3.7.jar";
+            "hash" = "sha512-opssuvHnaREGHqMJABTh0XzgoAldhjdEy+oej3MPOG/tiQzRNpXWJ966/COTh37KFi0HLX4UIKYjgZZbTwhUeQ==";
+        };
     in {
         "KjqElw7Q" = _KjqElw7Q;
         "iZgXoXd6" = _iZgXoXd6;
@@ -422,6 +427,7 @@ let
         "Z68yZ9ZC" = _Z68yZ9ZC;
         "Jzpy3iFt" = _Jzpy3iFt;
         "8w6jfQT6" = _8w6jfQT6;
+        "HC61yfue" = _HC61yfue;
         "fabric-1.16.5" = _9u9xrE83;
         "fabric-1.18.2" = _TximfI3V;
         "fabric-1.19.2" = _7PAXlxO5;
@@ -448,7 +454,7 @@ let
         "fabric-1.21.11" = _FtvwkbtH;
         "fabric-26.1" = _tD4Jtwkl;
         "fabric-26.1.1" = _yYR0quC2;
-        "fabric-26.1.2" = _Iey4wdzf;
+        "fabric-26.1.2" = _HC61yfue;
         "fabric-26.2" = _Jzpy3iFt;
         "fabric-26.3" = _8w6jfQT6;
         "forge-1.16.5" = _ncFbYLWI;
@@ -475,7 +481,7 @@ let
         "forge-1.21.11" = _FtvwkbtH;
         "forge-26.1" = _tD4Jtwkl;
         "forge-26.1.1" = _yYR0quC2;
-        "forge-26.1.2" = _Iey4wdzf;
+        "forge-26.1.2" = _HC61yfue;
         "forge-26.2" = _Jzpy3iFt;
         "forge-26.3" = _8w6jfQT6;
         "quilt-1.18.2" = _TximfI3V;
@@ -503,7 +509,7 @@ let
         "quilt-1.21.11" = _FtvwkbtH;
         "quilt-26.1" = _tD4Jtwkl;
         "quilt-26.1.1" = _yYR0quC2;
-        "quilt-26.1.2" = _Iey4wdzf;
+        "quilt-26.1.2" = _HC61yfue;
         "quilt-26.2" = _Jzpy3iFt;
         "quilt-26.3" = _8w6jfQT6;
         "neoforge-1.20.2" = _Rdf94Ihl;
@@ -526,7 +532,7 @@ let
         "neoforge-1.21.11" = _FtvwkbtH;
         "neoforge-26.1" = _tD4Jtwkl;
         "neoforge-26.1.1" = _yYR0quC2;
-        "neoforge-26.1.2" = _Iey4wdzf;
+        "neoforge-26.1.2" = _HC61yfue;
         "neoforge-26.2" = _Jzpy3iFt;
         "neoforge-26.3" = _8w6jfQT6;
         "pkg-1.16.5-2.0-fabric" = _KjqElw7Q;
@@ -599,7 +605,8 @@ let
         "pkg-1.21.1-3.7-fabric+forge+neo" = _Z68yZ9ZC;
         "pkg-26.2.0-3.7-fabric+forge+neo" = _Jzpy3iFt;
         "pkg-26.3.0-3.7-fabric+forge+neo" = _8w6jfQT6;
-        "default" = _8w6jfQT6;
+        "pkg-26.1.2-3.7-fabric+forge+neo" = _HC61yfue;
+        "default" = _HC61yfue;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "save-and-load-inventories";

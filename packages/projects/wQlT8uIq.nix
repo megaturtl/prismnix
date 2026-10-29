@@ -381,6 +381,11 @@ let
             "file" = "zombievillagersfromspawner-26.3.0-4.2.jar";
             "hash" = "sha512-cf7b5VoNY/vDeQv9/jacdznZGJ2q2BA5FrjzoeAymwz+LvlheLtPInkDuO0EKhVkoYxG0HLbO3DpiVeu7R7+7A==";
         };
+        _VKeFf4KX = {
+            "id" = "VKeFf4KX";
+            "file" = "zombievillagersfromspawner-26.1.2-4.2.jar";
+            "hash" = "sha512-lPO18SPMSwvK6H1p3WS1th9XKF2bmwj+Emotr05qKZWYgldQkVQsMPT3Q2nd39EBgt0baAtZd3+mW7mkUzbxhg==";
+        };
     in {
         "Upz1BVtA" = _Upz1BVtA;
         "oouTHoD6" = _oouTHoD6;
@@ -458,6 +463,7 @@ let
         "F7Hss5nN" = _F7Hss5nN;
         "wm0hfLi2" = _wm0hfLi2;
         "wmJuAcj3" = _wmJuAcj3;
+        "VKeFf4KX" = _VKeFf4KX;
         "fabric-1.16.5" = _Vf24PNhj;
         "fabric-1.18.2" = _7ubsD7VK;
         "fabric-1.19.2" = _9WhrA8QB;
@@ -484,7 +490,7 @@ let
         "fabric-1.21.11" = _Xsf9Gm37;
         "fabric-26.1" = _CeLKVctn;
         "fabric-26.1.1" = _P4AHUkuO;
-        "fabric-26.1.2" = _pxFVsOGx;
+        "fabric-26.1.2" = _VKeFf4KX;
         "fabric-26.2" = _wm0hfLi2;
         "fabric-26.3" = _wmJuAcj3;
         "forge-1.16.5" = _jjUc8aMy;
@@ -511,7 +517,7 @@ let
         "forge-1.21.11" = _Xsf9Gm37;
         "forge-26.1" = _CeLKVctn;
         "forge-26.1.1" = _P4AHUkuO;
-        "forge-26.1.2" = _pxFVsOGx;
+        "forge-26.1.2" = _VKeFf4KX;
         "forge-26.2" = _wm0hfLi2;
         "forge-26.3" = _wmJuAcj3;
         "quilt-1.18.2" = _7ubsD7VK;
@@ -539,7 +545,7 @@ let
         "quilt-1.21.11" = _Xsf9Gm37;
         "quilt-26.1" = _CeLKVctn;
         "quilt-26.1.1" = _P4AHUkuO;
-        "quilt-26.1.2" = _pxFVsOGx;
+        "quilt-26.1.2" = _VKeFf4KX;
         "quilt-26.2" = _wm0hfLi2;
         "quilt-26.3" = _wmJuAcj3;
         "neoforge-1.20.2" = _qk6UcvEk;
@@ -562,7 +568,7 @@ let
         "neoforge-1.21.11" = _Xsf9Gm37;
         "neoforge-26.1" = _CeLKVctn;
         "neoforge-26.1.1" = _P4AHUkuO;
-        "neoforge-26.1.2" = _pxFVsOGx;
+        "neoforge-26.1.2" = _VKeFf4KX;
         "neoforge-26.2" = _wm0hfLi2;
         "neoforge-26.3" = _wmJuAcj3;
         "pkg-1.16.5-2.0-fabric" = _Upz1BVtA;
@@ -640,7 +646,8 @@ let
         "pkg-1.21.1-4.2-fabric+forge+neo" = _F7Hss5nN;
         "pkg-26.2.0-4.2-fabric+forge+neo" = _wm0hfLi2;
         "pkg-26.3.0-4.2-fabric+forge+neo" = _wmJuAcj3;
-        "default" = _wmJuAcj3;
+        "pkg-26.1.2-4.2-fabric+forge+neo" = _VKeFf4KX;
+        "default" = _VKeFf4KX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zombie-villagers-from-spawner";

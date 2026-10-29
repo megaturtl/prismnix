@@ -291,6 +291,11 @@ let
             "file" = "creativeblockreplacer-26.3.0-2.8.jar";
             "hash" = "sha512-fdpDO3pStgwpe3y/OLLpVF1e9dxvJ+7lf/gdp1Zi79SbFYtfeRs2a/VIk8Hk7WLhhsBjeh2YAB+TOCJhsSSP8w==";
         };
+        _Kk7M82o1 = {
+            "id" = "Kk7M82o1";
+            "file" = "creativeblockreplacer-26.1.2-2.8.jar";
+            "hash" = "sha512-qwsa/nPgHFTATEAxfNwMON/hApfw9gyMgrnjUJtiK/IaZuaf2MPOoJOt1VpGQoPdx2qDB74VcrClNfqPFlR3OA==";
+        };
     in {
         "BQLDWjkl" = _BQLDWjkl;
         "OcgVhsCf" = _OcgVhsCf;
@@ -350,6 +355,7 @@ let
         "Uz7cAAzD" = _Uz7cAAzD;
         "r8CKiDdY" = _r8CKiDdY;
         "95L0Gqsa" = _95L0Gqsa;
+        "Kk7M82o1" = _Kk7M82o1;
         "forge-1.16.5" = _BQLDWjkl;
         "forge-1.18.2" = _Qm3UT1Uy;
         "forge-1.19.2" = _IGQgz8dq;
@@ -374,7 +380,7 @@ let
         "forge-1.21.11" = _gxEv5xlb;
         "forge-26.1" = _cn3X8sNW;
         "forge-26.1.1" = _83JtdIPc;
-        "forge-26.1.2" = _79XjbFsY;
+        "forge-26.1.2" = _Kk7M82o1;
         "forge-26.2" = _r8CKiDdY;
         "forge-26.3" = _95L0Gqsa;
         "fabric-1.18.2" = _Qm3UT1Uy;
@@ -402,7 +408,7 @@ let
         "fabric-1.21.11" = _gxEv5xlb;
         "fabric-26.1" = _cn3X8sNW;
         "fabric-26.1.1" = _83JtdIPc;
-        "fabric-26.1.2" = _79XjbFsY;
+        "fabric-26.1.2" = _Kk7M82o1;
         "fabric-26.2" = _r8CKiDdY;
         "fabric-26.3" = _95L0Gqsa;
         "quilt-1.18.2" = _Qm3UT1Uy;
@@ -430,7 +436,7 @@ let
         "quilt-1.21.11" = _gxEv5xlb;
         "quilt-26.1" = _cn3X8sNW;
         "quilt-26.1.1" = _83JtdIPc;
-        "quilt-26.1.2" = _79XjbFsY;
+        "quilt-26.1.2" = _Kk7M82o1;
         "quilt-26.2" = _r8CKiDdY;
         "quilt-26.3" = _95L0Gqsa;
         "neoforge-1.20.2" = _7p08SQPV;
@@ -453,7 +459,7 @@ let
         "neoforge-1.21.11" = _gxEv5xlb;
         "neoforge-26.1" = _cn3X8sNW;
         "neoforge-26.1.1" = _83JtdIPc;
-        "neoforge-26.1.2" = _79XjbFsY;
+        "neoforge-26.1.2" = _Kk7M82o1;
         "neoforge-26.2" = _r8CKiDdY;
         "neoforge-26.3" = _95L0Gqsa;
         "pkg-1.16.5-1.5-forge" = _BQLDWjkl;
@@ -514,7 +520,8 @@ let
         "pkg-1.21.1-2.8-fabric+forge+neo" = _Uz7cAAzD;
         "pkg-26.2.0-2.8-fabric+forge+neo" = _r8CKiDdY;
         "pkg-26.3.0-2.8-fabric+forge+neo" = _95L0Gqsa;
-        "default" = _95L0Gqsa;
+        "pkg-26.1.2-2.8-fabric+forge+neo" = _Kk7M82o1;
+        "default" = _Kk7M82o1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "creative-block-replacer";

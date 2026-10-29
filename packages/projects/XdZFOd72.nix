@@ -141,6 +141,11 @@ let
             "file" = "the-ice-warrior-r3.1-mc26.3.jar";
             "hash" = "sha512-9L2FEgsm7oMX5heahL/8jJbemJqG1mypjuayciA/nSd3PULqS81DSAMX9v17/HiKs51sM6g0UH7Chi+Ls5LFmw==";
         };
+        _if1xDU4K = {
+            "id" = "if1xDU4K";
+            "file" = "ice_warrior_alpha4.1-mc26.4-snapshot-6.zip";
+            "hash" = "sha512-MmpfDkivai8c0zbbWfXzXLRDkQDPli7flpe6kammaKoOFvBYXuk5tvaS5jGYGIBQqjA40cCgf43NWMHgnxBmOQ==";
+        };
     in {
         "h0wPZIYK" = _h0wPZIYK;
         "trh99HNR" = _trh99HNR;
@@ -170,11 +175,13 @@ let
         "tATfV1pv" = _tATfV1pv;
         "hIyZVz0D" = _hIyZVz0D;
         "I2Xmbvrr" = _I2Xmbvrr;
+        "if1xDU4K" = _if1xDU4K;
         "datapack-1.21" = _pa0Lro9t;
         "datapack-1.21.1" = _pa0Lro9t;
         "datapack-26.3" = _hIyZVz0D;
         "datapack-26.4-snapshot-3" = _tATfV1pv;
         "datapack-26.4-snapshot-4" = _tATfV1pv;
+        "datapack-26.4-snapshot-6" = _if1xDU4K;
         "fabric-1.21.1" = _VYXU34ti;
         "fabric-1.21" = _VYXU34ti;
         "fabric-26.3" = _I2Xmbvrr;
@@ -209,7 +216,8 @@ let
         "pkg-alpha4.0-mc26.4-snapshot-3" = _tATfV1pv;
         "pkg-r3.1-mc26.3" = _hIyZVz0D;
         "pkg-r3.1-mc26.3+mod" = _I2Xmbvrr;
-        "default" = _I2Xmbvrr;
+        "pkg-alpha4.1-mc26.4-snapshot-6" = _if1xDU4K;
+        "default" = _if1xDU4K;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-ice-warrior";

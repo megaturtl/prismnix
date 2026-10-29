@@ -331,6 +331,11 @@ let
             "file" = "worldborder-26.3.0-5.0.jar";
             "hash" = "sha512-Ea/ekOim5OfA8lSGFZoBeTkdW+//pTw3bOGxMMLVCfaPzVKVtenKO9MdkZG1/pP+XNwv1xH1b+D8pFPWLc+n1g==";
         };
+        _yh5xFIHZ = {
+            "id" = "yh5xFIHZ";
+            "file" = "worldborder-26.1.2-5.0.jar";
+            "hash" = "sha512-3dgp3gIGCkl8I0E2Y00yQOV4iivQf8Jlu8H77hT+zhkLHNbiBvHGKgijzra3TSrdHAESzFd6MfMK60oFr5mGjg==";
+        };
     in {
         "fimSbUpP" = _fimSbUpP;
         "OT7RNFKD" = _OT7RNFKD;
@@ -398,6 +403,7 @@ let
         "gvK8pGyT" = _gvK8pGyT;
         "cUeoGNjU" = _cUeoGNjU;
         "gtELKGM6" = _gtELKGM6;
+        "yh5xFIHZ" = _yh5xFIHZ;
         "fabric-1.16.5" = _QOHcY5Co;
         "fabric-1.18.2" = _Gz39QmQH;
         "fabric-1.19.2" = _1Ti9PChk;
@@ -424,7 +430,7 @@ let
         "fabric-1.21.11" = _usPqny3I;
         "fabric-26.1" = _u6kosgYZ;
         "fabric-26.1.1" = _fWxehahF;
-        "fabric-26.1.2" = _qHjUs9fL;
+        "fabric-26.1.2" = _yh5xFIHZ;
         "fabric-26.2" = _cUeoGNjU;
         "fabric-26.3" = _gtELKGM6;
         "forge-1.16.5" = _3G9PbqFc;
@@ -451,7 +457,7 @@ let
         "forge-1.21.11" = _usPqny3I;
         "forge-26.1" = _u6kosgYZ;
         "forge-26.1.1" = _fWxehahF;
-        "forge-26.1.2" = _qHjUs9fL;
+        "forge-26.1.2" = _yh5xFIHZ;
         "forge-26.2" = _cUeoGNjU;
         "forge-26.3" = _gtELKGM6;
         "quilt-1.18.2" = _Gz39QmQH;
@@ -479,7 +485,7 @@ let
         "quilt-1.21.11" = _usPqny3I;
         "quilt-26.1" = _u6kosgYZ;
         "quilt-26.1.1" = _fWxehahF;
-        "quilt-26.1.2" = _qHjUs9fL;
+        "quilt-26.1.2" = _yh5xFIHZ;
         "quilt-26.2" = _cUeoGNjU;
         "quilt-26.3" = _gtELKGM6;
         "neoforge-1.20.2" = _VVq0DI29;
@@ -502,7 +508,7 @@ let
         "neoforge-1.21.11" = _usPqny3I;
         "neoforge-26.1" = _u6kosgYZ;
         "neoforge-26.1.1" = _fWxehahF;
-        "neoforge-26.1.2" = _qHjUs9fL;
+        "neoforge-26.1.2" = _yh5xFIHZ;
         "neoforge-26.2" = _cUeoGNjU;
         "neoforge-26.3" = _gtELKGM6;
         "pkg-1.16.5-2.9-fabric" = _fimSbUpP;
@@ -571,7 +577,8 @@ let
         "pkg-1.21.1-5.0-fabric+forge+neo" = _gvK8pGyT;
         "pkg-26.2.0-5.0-fabric+forge+neo" = _cUeoGNjU;
         "pkg-26.3.0-5.0-fabric+forge+neo" = _gtELKGM6;
-        "default" = _gtELKGM6;
+        "pkg-26.1.2-5.0-fabric+forge+neo" = _yh5xFIHZ;
+        "default" = _yh5xFIHZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "world-border";

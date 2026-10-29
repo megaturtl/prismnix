@@ -211,6 +211,11 @@ let
             "file" = "improvedsignediting-26.3.0-1.7.jar";
             "hash" = "sha512-djN+R8hJMhfP0OF7UwPyBycAIoTU4IMSReo2MaEyIl7pY6QSP41QJ9taErtYW5TMA5YSvmhHs3LQVFN6ph3Vcw==";
         };
+        _xGtj1EZK = {
+            "id" = "xGtj1EZK";
+            "file" = "improvedsignediting-26.1.2-1.7.jar";
+            "hash" = "sha512-pwrbqUbaDdpREMUU7Mb4ZKfBmNvJROV2vq+5BIEdArcJNfJ8YaOGgsPESXG3fdRoAS60fUOCsuRsgp+pzJO2UQ==";
+        };
     in {
         "aSQn7LjY" = _aSQn7LjY;
         "Gmelz8Dl" = _Gmelz8Dl;
@@ -254,6 +259,7 @@ let
         "MzwvGUs9" = _MzwvGUs9;
         "wmqmJ6Pz" = _wmqmJ6Pz;
         "SjslP8Lj" = _SjslP8Lj;
+        "xGtj1EZK" = _xGtj1EZK;
         "fabric-1.19.2" = _IWpENXyP;
         "fabric-1.20.1" = _bfXj7jAJ;
         "fabric-1.20.2" = _3OvxWAbV;
@@ -274,7 +280,7 @@ let
         "fabric-1.21.11" = _bGudoxkg;
         "fabric-26.1" = _VowZT40i;
         "fabric-26.1.1" = _TuAm4wBg;
-        "fabric-26.1.2" = _DjNgJWK9;
+        "fabric-26.1.2" = _xGtj1EZK;
         "fabric-26.2" = _wmqmJ6Pz;
         "fabric-26.3" = _SjslP8Lj;
         "forge-1.19.2" = _IWpENXyP;
@@ -295,7 +301,7 @@ let
         "forge-1.21.11" = _bGudoxkg;
         "forge-26.1" = _VowZT40i;
         "forge-26.1.1" = _TuAm4wBg;
-        "forge-26.1.2" = _DjNgJWK9;
+        "forge-26.1.2" = _xGtj1EZK;
         "forge-26.2" = _wmqmJ6Pz;
         "forge-26.3" = _SjslP8Lj;
         "quilt-1.19.2" = _IWpENXyP;
@@ -318,7 +324,7 @@ let
         "quilt-1.21.11" = _bGudoxkg;
         "quilt-26.1" = _VowZT40i;
         "quilt-26.1.1" = _TuAm4wBg;
-        "quilt-26.1.2" = _DjNgJWK9;
+        "quilt-26.1.2" = _xGtj1EZK;
         "quilt-26.2" = _wmqmJ6Pz;
         "quilt-26.3" = _SjslP8Lj;
         "neoforge-1.20.1" = _bfXj7jAJ;
@@ -340,7 +346,7 @@ let
         "neoforge-1.21.11" = _bGudoxkg;
         "neoforge-26.1" = _VowZT40i;
         "neoforge-26.1.1" = _TuAm4wBg;
-        "neoforge-26.1.2" = _DjNgJWK9;
+        "neoforge-26.1.2" = _xGtj1EZK;
         "neoforge-26.2" = _wmqmJ6Pz;
         "neoforge-26.3" = _SjslP8Lj;
         "pkg-1.19.2-1.0-fabric+forge+neo" = _aSQn7LjY;
@@ -385,7 +391,8 @@ let
         "pkg-1.21.1-1.7-fabric+forge+neo" = _MzwvGUs9;
         "pkg-26.2.0-1.7-fabric+forge+neo" = _wmqmJ6Pz;
         "pkg-26.3.0-1.7-fabric+forge+neo" = _SjslP8Lj;
-        "default" = _SjslP8Lj;
+        "pkg-26.1.2-1.7-fabric+forge+neo" = _xGtj1EZK;
+        "default" = _xGtj1EZK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "improved-sign-editing";

@@ -76,6 +76,11 @@ let
             "file" = "Bow & Crossbow reworked.zip";
             "hash" = "sha512-UUo7JlkLkC8Yrv9RqOsh6a1UXm7qm9JA2Xc1IW5cY4c9xDKgVIu/t81VFAY9VZw3jAWDb3SXbC5eTddgaCxS7Q==";
         };
+        _5B6lD4bY = {
+            "id" = "5B6lD4bY";
+            "file" = "Bow & Crossbow reworked.zip";
+            "hash" = "sha512-2GJZEaJLeC450xQi8bSXHcYmk+MMEDSAOMtEWLlzS/iSVtM20k8QgNo9WJI9k9/JVKyssUnhTDwFNmKoi/JTyA==";
+        };
     in {
         "CsItOXzH" = _CsItOXzH;
         "YVgq9nke" = _YVgq9nke;
@@ -92,6 +97,7 @@ let
         "oZ5QGWOS" = _oZ5QGWOS;
         "bdjUiqu6" = _bdjUiqu6;
         "GWuumuYM" = _GWuumuYM;
+        "5B6lD4bY" = _5B6lD4bY;
         "minecraft-1.20" = _CsItOXzH;
         "minecraft-1.20.1" = _CsItOXzH;
         "minecraft-1.20.2" = _YVgq9nke;
@@ -115,6 +121,7 @@ let
         "minecraft-26.1.1" = _oZ5QGWOS;
         "minecraft-26.1.2" = _bdjUiqu6;
         "minecraft-26.2" = _GWuumuYM;
+        "minecraft-26.3" = _5B6lD4bY;
         "pkg-v1-1.20-1.20.1" = _CsItOXzH;
         "pkg-1.20.2" = _YVgq9nke;
         "pkg-1.20.3-1.20.4" = _enb1EvQF;
@@ -130,7 +137,8 @@ let
         "pkg-26.1.1" = _oZ5QGWOS;
         "pkg-26.1.2" = _bdjUiqu6;
         "pkg-26.2" = _GWuumuYM;
-        "default" = _GWuumuYM;
+        "pkg-26.3" = _5B6lD4bY;
+        "default" = _5B6lD4bY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bow-crossbow-reworked";

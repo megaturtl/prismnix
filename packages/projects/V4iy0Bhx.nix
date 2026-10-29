@@ -306,6 +306,11 @@ let
             "file" = "nutritiousmilk-26.3.0-3.6.jar";
             "hash" = "sha512-4vp9Xk4bKdY0EeQBslSJhPeAkdO+yT0xE841VhZQLSakiecx3cm9rGaOcNLwH+ApeoB8taSysmGS8pR3d8W2Wg==";
         };
+        _qQ683qLi = {
+            "id" = "qQ683qLi";
+            "file" = "nutritiousmilk-26.1.2-3.6.jar";
+            "hash" = "sha512-uQD7FFLQwLOcFPwQNrPxQb4zRqymNy7zyXOUKC+vgN3wL6h2KDRVqELAuGSmpotQJhCfGifV11+2Ffa1klFFpw==";
+        };
     in {
         "5eEbhuJS" = _5eEbhuJS;
         "S0NyrQF7" = _S0NyrQF7;
@@ -368,6 +373,7 @@ let
         "3d9AWHu7" = _3d9AWHu7;
         "3d8BKpk6" = _3d8BKpk6;
         "lSyNIuDI" = _lSyNIuDI;
+        "qQ683qLi" = _qQ683qLi;
         "forge-1.16.5" = _jZqxNyxx;
         "forge-1.18.2" = _Q39qiAOx;
         "forge-1.19.2" = _iDZibzuO;
@@ -392,7 +398,7 @@ let
         "forge-1.21.11" = _pDuUkHoM;
         "forge-26.1" = _sAHWCOAe;
         "forge-26.1.1" = _g0PG85bX;
-        "forge-26.1.2" = _3UllhWMj;
+        "forge-26.1.2" = _qQ683qLi;
         "forge-26.2" = _3d8BKpk6;
         "forge-26.3" = _lSyNIuDI;
         "fabric-1.18.2" = _Q39qiAOx;
@@ -420,7 +426,7 @@ let
         "fabric-1.21.11" = _pDuUkHoM;
         "fabric-26.1" = _sAHWCOAe;
         "fabric-26.1.1" = _g0PG85bX;
-        "fabric-26.1.2" = _3UllhWMj;
+        "fabric-26.1.2" = _qQ683qLi;
         "fabric-26.2" = _3d8BKpk6;
         "fabric-26.3" = _lSyNIuDI;
         "quilt-1.18.2" = _Q39qiAOx;
@@ -448,7 +454,7 @@ let
         "quilt-1.21.11" = _pDuUkHoM;
         "quilt-26.1" = _sAHWCOAe;
         "quilt-26.1.1" = _g0PG85bX;
-        "quilt-26.1.2" = _3UllhWMj;
+        "quilt-26.1.2" = _qQ683qLi;
         "quilt-26.2" = _3d8BKpk6;
         "quilt-26.3" = _lSyNIuDI;
         "neoforge-1.20.2" = _PnYhsw2G;
@@ -471,7 +477,7 @@ let
         "neoforge-1.21.11" = _pDuUkHoM;
         "neoforge-26.1" = _sAHWCOAe;
         "neoforge-26.1.1" = _g0PG85bX;
-        "neoforge-26.1.2" = _3UllhWMj;
+        "neoforge-26.1.2" = _qQ683qLi;
         "neoforge-26.2" = _3d8BKpk6;
         "neoforge-26.3" = _lSyNIuDI;
         "pkg-1.16.5-1.8-forge" = _5eEbhuJS;
@@ -535,7 +541,8 @@ let
         "pkg-1.21.1-3.6-fabric+forge+neo" = _3d9AWHu7;
         "pkg-26.2.0-3.6-fabric+forge+neo" = _3d8BKpk6;
         "pkg-26.3.0-3.6-fabric+forge+neo" = _lSyNIuDI;
-        "default" = _lSyNIuDI;
+        "pkg-26.1.2-3.6-fabric+forge+neo" = _qQ683qLi;
+        "default" = _qQ683qLi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nutritious-milk";

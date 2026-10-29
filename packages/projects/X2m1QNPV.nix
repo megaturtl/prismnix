@@ -81,6 +81,66 @@ let
             "file" = "salts_animal_farm-26.1.2-NeoForge-0.2.jar";
             "hash" = "sha512-U3dalCsdxv1BvQ9zRPnECVjL7hCbU+HRmc8eEfun3WubY1qWI4pDXgkSjBtgigmBi28Y8KLXANqyMjM/JrGKUA==";
         };
+        _bTSnw09M = {
+            "id" = "bTSnw09M";
+            "file" = "salts_animal_farm-1.20.1-Fabric-0.3.jar";
+            "hash" = "sha512-SKwUhthuYYu05zsTvcNCpiObexBxKzgT++wWFsGlaXbKB4nDv7vbRbaeXOA/BkSyKhuiKajUyR1qGAMwdOarOA==";
+        };
+        _vqWP0g8d = {
+            "id" = "vqWP0g8d";
+            "file" = "salts_animal_farm-1.20.1-Forge-0.3.jar";
+            "hash" = "sha512-ggyrw1ektKfrNL3Paq/bQdWzBQ4ZC7WJipU8DsbduRx+MxB5Ajo+u3zzf6eUP2iNVQ1nAc68EFu0pVNhaKCxSA==";
+        };
+        _TCJb9BEX = {
+            "id" = "TCJb9BEX";
+            "file" = "salts_animal_farm-1.21.1-Fabric-0.3.jar";
+            "hash" = "sha512-5AQvCM/p9CJD+4BzksY0Zjj0yAKRQIVWmyf7TG4J7f/0sojp7III31ilCeyXrelWAkPAlbvRvj1kdm85Jg29rw==";
+        };
+        _RGfPKZiE = {
+            "id" = "RGfPKZiE";
+            "file" = "salts_animal_farm-1.21.1-NeoForge-0.3.jar";
+            "hash" = "sha512-Yht+hiN8ot3J1BGgirLquraT36eqVz/2PzVnfPv3Jjrde71tfmC+9lPXy6c9ARHe6riirtaAgMFrOUkaOszSrQ==";
+        };
+        _d5iRZXbE = {
+            "id" = "d5iRZXbE";
+            "file" = "salts_animal_farm-1.21.11-Fabric-0.3.jar";
+            "hash" = "sha512-HZUFpjNUtF2ombdUgEQCfsfXv29aIql9zPEYFxKCHYZ1+dcnZUDyAt9qMDAwhka3lMTtx+Po0MtskAO9E+0wtg==";
+        };
+        _vc0s7wNl = {
+            "id" = "vc0s7wNl";
+            "file" = "salts_animal_farm-1.21.11-NeoForge-0.3.jar";
+            "hash" = "sha512-5XruR5pufjBxS/OAHIbHIvAf9iLU1DQ5uL1AIP7IA+RI9rZlckhBDV4BMbNpQ4TDi3UnA+1BD4UrCRHnjtay4Q==";
+        };
+        _l4wP7AGq = {
+            "id" = "l4wP7AGq";
+            "file" = "salts_animal_farm-26.1.2-Fabric-0.3.jar";
+            "hash" = "sha512-U6olmICyLCLo6ACdbbINdjnEj3PDkHEpPwHRLyug/SKau4HmbY5LnZHBOi+Vcz0cXlYdoB2sWIh5eDcD5aJtwQ==";
+        };
+        _tPIBO0s6 = {
+            "id" = "tPIBO0s6";
+            "file" = "salts_animal_farm-26.1.2-NeoForge-0.3.jar";
+            "hash" = "sha512-CfG+7cFBmIiLjrlizpoKpBaCR+HC2dcSGR5PdGP/jKA3Od4OzRnOIc1C4hw479V2GJqoUUMQs6tO+3aK1NR5yA==";
+        };
+        _uIdrIYVw = {
+            "id" = "uIdrIYVw";
+            "file" = "salts_animal_farm-26.2-Fabric-0.3.jar";
+            "hash" = "sha512-tHdcmf+tRXhqPk/+VIfMGkTjDN4vC9CHxhAGZ9DbGgutnd8ioF4su3jI+iB54sh2eUjwzuJE3T42TB3zVMIbkQ==";
+        };
+        _EswG2zWO = {
+            "id" = "EswG2zWO";
+            "file" = "salts_animal_farm-26.2-NeoForge-0.3.jar";
+            "hash" = "sha512-QH/9bJzudkJ+DpspVdWt1c1Dt+eWDtWmnKrOz0PDa3BiuQn6RNL28gQS33hpnh618CX8TihvjFOzXhR1f3UbIA==";
+        };
+        _8w09h31s = {
+            "id" = "8w09h31s";
+            "file" = "salts_animal_farm-26.3-Fabric-0.3.jar";
+            "hash" = "sha512-N5uKrIKPTGrlFjYUb5koWke/5HN7HFsIkSWGWYZAHQcncGfv2g0CzIE1oDjvZkq3wfNsFny9ZeKx6L4rJmmCFw==";
+        };
+        _G7CRVNv9 = {
+            "id" = "G7CRVNv9";
+            "file" = "salts_animal_farm-26.3-NeoForge-0.3.jar";
+            "hash" = "sha512-oYIoLfDziVg2DuYJblU61rxrwRmSyfb59WtXCNiKDcK82zkQxSr+xSP96tZJgTASobaH7+0HZDoDijQgNoYrJA==";
+        };
     in {
         "7eW7Zf1G" = _7eW7Zf1G;
         "tcBdykKg" = _tcBdykKg;
@@ -98,17 +158,34 @@ let
         "J7TZJX55" = _J7TZJX55;
         "2KZsRi9e" = _2KZsRi9e;
         "Z7rhpN4O" = _Z7rhpN4O;
-        "fabric-1.20.1" = _LT2qbKUK;
-        "fabric-1.21.1" = _r6fExqdp;
-        "fabric-1.21.11" = _E1gekMyc;
-        "fabric-26.1.2" = _2KZsRi9e;
-        "forge-1.20.1" = _t1EubG0v;
-        "neoforge-1.21.1" = _mgoxBwQq;
-        "neoforge-1.21.11" = _J7TZJX55;
-        "neoforge-26.1.2" = _Z7rhpN4O;
+        "bTSnw09M" = _bTSnw09M;
+        "vqWP0g8d" = _vqWP0g8d;
+        "TCJb9BEX" = _TCJb9BEX;
+        "RGfPKZiE" = _RGfPKZiE;
+        "d5iRZXbE" = _d5iRZXbE;
+        "vc0s7wNl" = _vc0s7wNl;
+        "l4wP7AGq" = _l4wP7AGq;
+        "tPIBO0s6" = _tPIBO0s6;
+        "uIdrIYVw" = _uIdrIYVw;
+        "EswG2zWO" = _EswG2zWO;
+        "8w09h31s" = _8w09h31s;
+        "G7CRVNv9" = _G7CRVNv9;
+        "fabric-1.20.1" = _bTSnw09M;
+        "fabric-1.21.1" = _TCJb9BEX;
+        "fabric-1.21.11" = _d5iRZXbE;
+        "fabric-26.1.2" = _l4wP7AGq;
+        "fabric-26.2" = _uIdrIYVw;
+        "fabric-26.3" = _8w09h31s;
+        "forge-1.20.1" = _vqWP0g8d;
+        "neoforge-1.21.1" = _RGfPKZiE;
+        "neoforge-1.21.11" = _vc0s7wNl;
+        "neoforge-26.1.2" = _tPIBO0s6;
+        "neoforge-26.2" = _EswG2zWO;
+        "neoforge-26.3" = _G7CRVNv9;
         "pkg-0.1" = _Fm1BKTNm;
         "pkg-0.2" = _Z7rhpN4O;
-        "default" = _Z7rhpN4O;
+        "pkg-0.3" = _G7CRVNv9;
+        "default" = _G7CRVNv9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "salts-animal-farm";

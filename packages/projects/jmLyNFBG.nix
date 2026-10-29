@@ -301,6 +301,11 @@ let
             "file" = "fixedanvilrepaircost-26.3.0-3.6.jar";
             "hash" = "sha512-hoWEYT4JD+l4hvXxDg4vbOZ1499PhpHzeIhIT9F6e0XMHgIKraLyfxEu8cglvOADLJIo236OzfTz7Qj53Rm0fw==";
         };
+        _skEF7UeS = {
+            "id" = "skEF7UeS";
+            "file" = "fixedanvilrepaircost-26.1.2-3.6.jar";
+            "hash" = "sha512-fgRbGhBT5YIBUwXvdYR8AC1GxfJHnceiVQcYNfyCC/WP48WFoJf9g/zVlhqVrz9Ht07UlNRq1gyuhcQETlxO+Q==";
+        };
     in {
         "ThR1dBiA" = _ThR1dBiA;
         "WFJ4sKXL" = _WFJ4sKXL;
@@ -362,6 +367,7 @@ let
         "Hetd15yi" = _Hetd15yi;
         "JgOjTEBu" = _JgOjTEBu;
         "PVvnPFoE" = _PVvnPFoE;
+        "skEF7UeS" = _skEF7UeS;
         "fabric-1.16.5" = _lDxoYoft;
         "fabric-1.18.2" = _KOBtBPbK;
         "fabric-1.19.2" = _NZ4rPeLj;
@@ -388,7 +394,7 @@ let
         "fabric-1.21.11" = _uCZEtWWi;
         "fabric-26.1" = _Yg0kcOjo;
         "fabric-26.1.1" = _f0fFzjRF;
-        "fabric-26.1.2" = _GziPjaOO;
+        "fabric-26.1.2" = _skEF7UeS;
         "fabric-26.2" = _JgOjTEBu;
         "fabric-26.3" = _PVvnPFoE;
         "forge-1.16.5" = _wDhFy4uy;
@@ -415,7 +421,7 @@ let
         "forge-1.21.11" = _uCZEtWWi;
         "forge-26.1" = _Yg0kcOjo;
         "forge-26.1.1" = _f0fFzjRF;
-        "forge-26.1.2" = _GziPjaOO;
+        "forge-26.1.2" = _skEF7UeS;
         "forge-26.2" = _JgOjTEBu;
         "forge-26.3" = _PVvnPFoE;
         "quilt-1.18.2" = _KOBtBPbK;
@@ -443,7 +449,7 @@ let
         "quilt-1.21.11" = _uCZEtWWi;
         "quilt-26.1" = _Yg0kcOjo;
         "quilt-26.1.1" = _f0fFzjRF;
-        "quilt-26.1.2" = _GziPjaOO;
+        "quilt-26.1.2" = _skEF7UeS;
         "quilt-26.2" = _JgOjTEBu;
         "quilt-26.3" = _PVvnPFoE;
         "neoforge-1.20.2" = _QzSxzaHX;
@@ -466,7 +472,7 @@ let
         "neoforge-1.21.11" = _uCZEtWWi;
         "neoforge-26.1" = _Yg0kcOjo;
         "neoforge-26.1.1" = _f0fFzjRF;
-        "neoforge-26.1.2" = _GziPjaOO;
+        "neoforge-26.1.2" = _skEF7UeS;
         "neoforge-26.2" = _JgOjTEBu;
         "neoforge-26.3" = _PVvnPFoE;
         "pkg-1.16.5-2.0-fabric" = _ThR1dBiA;
@@ -529,7 +535,8 @@ let
         "pkg-1.21.1-3.6-fabric+forge+neo" = _Hetd15yi;
         "pkg-26.2.0-3.6-fabric+forge+neo" = _JgOjTEBu;
         "pkg-26.3.0-3.6-fabric+forge+neo" = _PVvnPFoE;
-        "default" = _PVvnPFoE;
+        "pkg-26.1.2-3.6-fabric+forge+neo" = _skEF7UeS;
+        "default" = _skEF7UeS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fixed-anvil-repair-cost";

@@ -341,6 +341,11 @@ let
             "file" = "configurabledespawntimer-26.3.0-4.7.jar";
             "hash" = "sha512-pRSW4r7T9DZS9GgJ4+2g1yluD/GzSfNvDOkymvdwSsdlPYHVFmvXOutSdG8yliagYGyEKclJdqlwfU5GnHSKzA==";
         };
+        _NkrSMkHL = {
+            "id" = "NkrSMkHL";
+            "file" = "configurabledespawntimer-26.1.2-4.7.jar";
+            "hash" = "sha512-OUzjhzLBlbmWGJFLft+K9rU50R52AFncvjum31WMaOHLSxNdGE9JjuuXoBHV+ZvGN43vef7vWWT2fNXQJJMhaQ==";
+        };
     in {
         "QGHk0Slm" = _QGHk0Slm;
         "AtHtWZS2" = _AtHtWZS2;
@@ -410,6 +415,7 @@ let
         "MBvz4NX3" = _MBvz4NX3;
         "S1SGhURk" = _S1SGhURk;
         "inJHxO9J" = _inJHxO9J;
+        "NkrSMkHL" = _NkrSMkHL;
         "forge-1.16.5" = _QGHk0Slm;
         "forge-1.18.2" = _jgvI32MZ;
         "forge-1.19.2" = _q6Y7EFZi;
@@ -434,7 +440,7 @@ let
         "forge-1.21.11" = _tdWsuVPi;
         "forge-26.1" = _hk5smbLA;
         "forge-26.1.1" = _AbZKpCVv;
-        "forge-26.1.2" = _PWSecNmd;
+        "forge-26.1.2" = _NkrSMkHL;
         "forge-26.2" = _S1SGhURk;
         "forge-26.3" = _inJHxO9J;
         "fabric-1.18.2" = _jgvI32MZ;
@@ -462,7 +468,7 @@ let
         "fabric-1.21.11" = _tdWsuVPi;
         "fabric-26.1" = _hk5smbLA;
         "fabric-26.1.1" = _AbZKpCVv;
-        "fabric-26.1.2" = _PWSecNmd;
+        "fabric-26.1.2" = _NkrSMkHL;
         "fabric-26.2" = _S1SGhURk;
         "fabric-26.3" = _inJHxO9J;
         "quilt-1.18.2" = _jgvI32MZ;
@@ -490,7 +496,7 @@ let
         "quilt-1.21.11" = _tdWsuVPi;
         "quilt-26.1" = _hk5smbLA;
         "quilt-26.1.1" = _AbZKpCVv;
-        "quilt-26.1.2" = _PWSecNmd;
+        "quilt-26.1.2" = _NkrSMkHL;
         "quilt-26.2" = _S1SGhURk;
         "quilt-26.3" = _inJHxO9J;
         "neoforge-1.20.2" = _vQr85Ggp;
@@ -513,7 +519,7 @@ let
         "neoforge-1.21.11" = _tdWsuVPi;
         "neoforge-26.1" = _hk5smbLA;
         "neoforge-26.1.1" = _AbZKpCVv;
-        "neoforge-26.1.2" = _PWSecNmd;
+        "neoforge-26.1.2" = _NkrSMkHL;
         "neoforge-26.2" = _S1SGhURk;
         "neoforge-26.3" = _inJHxO9J;
         "pkg-1.16.5-2.4-forge" = _QGHk0Slm;
@@ -584,7 +590,8 @@ let
         "pkg-1.21.1-4.7-fabric+forge+neo" = _MBvz4NX3;
         "pkg-26.2.0-4.7-fabric+forge+neo" = _S1SGhURk;
         "pkg-26.3.0-4.7-fabric+forge+neo" = _inJHxO9J;
-        "default" = _inJHxO9J;
+        "pkg-26.1.2-4.7-fabric+forge+neo" = _NkrSMkHL;
+        "default" = _NkrSMkHL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "configurable-despawn-timer";

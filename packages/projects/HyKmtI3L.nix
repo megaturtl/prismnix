@@ -291,6 +291,11 @@ let
             "file" = "furnacerecycle-26.3.0-2.8.jar";
             "hash" = "sha512-SHMvbo1SSLNHkmas68MI6HC5HgqNAbd/iUrMYztdeFL2w2Yb+DEiCGSjaiLVI31o6YQq6rK4Ei18/g5NJH+PJw==";
         };
+        _zJDjUBRO = {
+            "id" = "zJDjUBRO";
+            "file" = "furnacerecycle-26.1.2-2.8.jar";
+            "hash" = "sha512-4vhA6tmAjYg6K3YQGa+HvDPJY4r/0a7FoeNV0Ib0gcTWY6+hb5hGgoPv1ms7nSQwMfl9MsZsEZRM9KGUvRuWfA==";
+        };
     in {
         "yt5D7pLb" = _yt5D7pLb;
         "eCsaooS7" = _eCsaooS7;
@@ -350,6 +355,7 @@ let
         "KZ4jYSQP" = _KZ4jYSQP;
         "vL8sc760" = _vL8sc760;
         "TNXRmylh" = _TNXRmylh;
+        "zJDjUBRO" = _zJDjUBRO;
         "fabric-1.16.5" = _nzC0wkGt;
         "fabric-1.18.2" = _CkfiXK1U;
         "fabric-1.19.2" = _SX0jjroc;
@@ -376,7 +382,7 @@ let
         "fabric-1.21.11" = _Z8606hg0;
         "fabric-26.1" = _mLEnRfz1;
         "fabric-26.1.1" = _2oANiZR4;
-        "fabric-26.1.2" = _shl1uoCF;
+        "fabric-26.1.2" = _zJDjUBRO;
         "fabric-26.2" = _vL8sc760;
         "fabric-26.3" = _TNXRmylh;
         "forge-1.16.5" = _W5XmgEkm;
@@ -403,7 +409,7 @@ let
         "forge-1.21.11" = _Z8606hg0;
         "forge-26.1" = _mLEnRfz1;
         "forge-26.1.1" = _2oANiZR4;
-        "forge-26.1.2" = _shl1uoCF;
+        "forge-26.1.2" = _zJDjUBRO;
         "forge-26.2" = _vL8sc760;
         "forge-26.3" = _TNXRmylh;
         "quilt-1.18.2" = _CkfiXK1U;
@@ -431,7 +437,7 @@ let
         "quilt-1.21.11" = _Z8606hg0;
         "quilt-26.1" = _mLEnRfz1;
         "quilt-26.1.1" = _2oANiZR4;
-        "quilt-26.1.2" = _shl1uoCF;
+        "quilt-26.1.2" = _zJDjUBRO;
         "quilt-26.2" = _vL8sc760;
         "quilt-26.3" = _TNXRmylh;
         "neoforge-1.20.2" = _IAhxX4Sl;
@@ -454,7 +460,7 @@ let
         "neoforge-1.21.11" = _Z8606hg0;
         "neoforge-26.1" = _mLEnRfz1;
         "neoforge-26.1.1" = _2oANiZR4;
-        "neoforge-26.1.2" = _shl1uoCF;
+        "neoforge-26.1.2" = _zJDjUBRO;
         "neoforge-26.2" = _vL8sc760;
         "neoforge-26.3" = _TNXRmylh;
         "pkg-1.16.5-1.5-fabric" = _yt5D7pLb;
@@ -515,7 +521,8 @@ let
         "pkg-1.21.1-2.8-fabric+forge+neo" = _KZ4jYSQP;
         "pkg-26.2.0-2.8-fabric+forge+neo" = _vL8sc760;
         "pkg-26.3.0-2.8-fabric+forge+neo" = _TNXRmylh;
-        "default" = _TNXRmylh;
+        "pkg-26.1.2-2.8-fabric+forge+neo" = _zJDjUBRO;
+        "default" = _zJDjUBRO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "furnace-recycle";

@@ -401,6 +401,11 @@ let
             "file" = "campfirespawnandtweaks-26.3.0-4.4.jar";
             "hash" = "sha512-iMAin4UHaCrhoC4GC0qmHtKf7loc7CA2tCygFSOeTHoBC3z+HgeEsT/mZ9xAdfpwpMIQUD5vqh69iExQYdOALg==";
         };
+        _P7NRLcN7 = {
+            "id" = "P7NRLcN7";
+            "file" = "campfirespawnandtweaks-26.1.2-4.4.jar";
+            "hash" = "sha512-7ZXd/SudBcI7MGXFpwH57c/JIP0c+oRzIMX9/kZqcxSX0XlwG85xhYBxmrjYREsmT9HaEoNr6DrUynoNMnSLIQ==";
+        };
     in {
         "9NW0CANg" = _9NW0CANg;
         "3EBAL1Az" = _3EBAL1Az;
@@ -482,6 +487,7 @@ let
         "gDIsd21p" = _gDIsd21p;
         "nkMXBzz7" = _nkMXBzz7;
         "JTfOOnHC" = _JTfOOnHC;
+        "P7NRLcN7" = _P7NRLcN7;
         "fabric-1.16.5" = _p0mL3FSW;
         "fabric-1.18.2" = _WEbZlGvQ;
         "fabric-1.19.2" = _THnU5ms2;
@@ -508,7 +514,7 @@ let
         "fabric-1.21.11" = _tf2Ve4y6;
         "fabric-26.1" = _WIYgSpD4;
         "fabric-26.1.1" = _j3jnvBLd;
-        "fabric-26.1.2" = _trYjmbfC;
+        "fabric-26.1.2" = _P7NRLcN7;
         "fabric-26.2" = _nkMXBzz7;
         "fabric-26.3" = _JTfOOnHC;
         "forge-1.16.5" = _QsU6Cxhx;
@@ -535,7 +541,7 @@ let
         "forge-1.21.11" = _tf2Ve4y6;
         "forge-26.1" = _WIYgSpD4;
         "forge-26.1.1" = _j3jnvBLd;
-        "forge-26.1.2" = _trYjmbfC;
+        "forge-26.1.2" = _P7NRLcN7;
         "forge-26.2" = _nkMXBzz7;
         "forge-26.3" = _JTfOOnHC;
         "quilt-1.18.2" = _WEbZlGvQ;
@@ -563,7 +569,7 @@ let
         "quilt-1.21.11" = _tf2Ve4y6;
         "quilt-26.1" = _WIYgSpD4;
         "quilt-26.1.1" = _j3jnvBLd;
-        "quilt-26.1.2" = _trYjmbfC;
+        "quilt-26.1.2" = _P7NRLcN7;
         "quilt-26.2" = _nkMXBzz7;
         "quilt-26.3" = _JTfOOnHC;
         "neoforge-1.20.2" = _tcgtsPMh;
@@ -586,7 +592,7 @@ let
         "neoforge-1.21.11" = _tf2Ve4y6;
         "neoforge-26.1" = _WIYgSpD4;
         "neoforge-26.1.1" = _j3jnvBLd;
-        "neoforge-26.1.2" = _trYjmbfC;
+        "neoforge-26.1.2" = _P7NRLcN7;
         "neoforge-26.2" = _nkMXBzz7;
         "neoforge-26.3" = _JTfOOnHC;
         "pkg-1.16.5-1.9-fabric" = _9NW0CANg;
@@ -668,7 +674,8 @@ let
         "pkg-1.21.1-4.4-fabric+forge+neo" = _gDIsd21p;
         "pkg-26.2.0-4.4-fabric+forge+neo" = _nkMXBzz7;
         "pkg-26.3.0-4.4-fabric+forge+neo" = _JTfOOnHC;
-        "default" = _JTfOOnHC;
+        "pkg-26.1.2-4.4-fabric+forge+neo" = _P7NRLcN7;
+        "default" = _P7NRLcN7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "campfire-spawn-and-tweaks";

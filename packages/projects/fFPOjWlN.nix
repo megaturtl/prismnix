@@ -271,6 +271,21 @@ let
             "file" = "lootbeams-3.6.1-mc1.21.4.jar";
             "hash" = "sha512-Nrr7zUrYqbIA/bvuhXCR4wwOuPe0D1EpUk6Ogv6/2MTB5GWlhNdhpqbt1RyEmQmlckD7nd8nV4NiGXQ3f2NGKg==";
         };
+        _NPRGLZ5l = {
+            "id" = "NPRGLZ5l";
+            "file" = "lootbeamsup-fabric-1.21.11-5.0.0.jar";
+            "hash" = "sha512-14hcxT2gVLIVTMP2paXD7DbuKHRgvuujr/XMR66MI9BdKoEisGD7KlCVkTTJBxKUcjVY3CzAfkxC4LooLmRaNw==";
+        };
+        _NslZYMrL = {
+            "id" = "NslZYMrL";
+            "file" = "LootBeamsUp-forge-1.21.11-5.0.0.jar";
+            "hash" = "sha512-UKxwTBdKNAwBk2QRtvvAPQ5CNwJFjW13Mbv082coO+Vl53YvEiksBrGes82d2X8/a6XNgZQgRigQxms39IUyjg==";
+        };
+        _mTwtzEDz = {
+            "id" = "mTwtzEDz";
+            "file" = "lootbeamsup-neoforge-1.21.11-5.0.0.jar";
+            "hash" = "sha512-uoegRc+UdJ8zJSu0H62cjg9cDHn1kd6fPzcY0+1Tj33cTxei/VxKXZlxRYEv5BiHVi+A9Km9AxVtRYRLSgZPCQ==";
+        };
     in {
         "XYekESsc" = _XYekESsc;
         "5ZGxgmif" = _5ZGxgmif;
@@ -326,6 +341,9 @@ let
         "snceiTqn" = _snceiTqn;
         "d9zulVux" = _d9zulVux;
         "9mm8BRwo" = _9mm8BRwo;
+        "NPRGLZ5l" = _NPRGLZ5l;
+        "NslZYMrL" = _NslZYMrL;
+        "mTwtzEDz" = _mTwtzEDz;
         "fabric-1.21" = _snceiTqn;
         "fabric-1.21.1" = _snceiTqn;
         "fabric-1.20.1" = _U8r5ln92;
@@ -338,6 +356,7 @@ let
         "fabric-1.21.3" = _d9zulVux;
         "fabric-1.20" = _U8r5ln92;
         "fabric-1.21.4" = _9mm8BRwo;
+        "fabric-1.21.11" = _NPRGLZ5l;
         "quilt-1.21" = _snceiTqn;
         "quilt-1.21.1" = _snceiTqn;
         "quilt-1.20.1" = _U8r5ln92;
@@ -350,6 +369,9 @@ let
         "quilt-1.21.3" = _d9zulVux;
         "quilt-1.20" = _U8r5ln92;
         "quilt-1.21.4" = _9mm8BRwo;
+        "quilt-1.21.11" = _NPRGLZ5l;
+        "forge-1.21.11" = _NslZYMrL;
+        "neoforge-1.21.11" = _mTwtzEDz;
         "pkg-2.3.2" = _XYekESsc;
         "pkg-2.4.1" = _5ZGxgmif;
         "pkg-2.5.4" = _uOEfugo0;
@@ -400,7 +422,8 @@ let
         "pkg-3.6.1-mc1.21-.1" = _snceiTqn;
         "pkg-3.6.1-mc1.21.2-.3" = _d9zulVux;
         "pkg-3.6.1-mc1.21.4" = _9mm8BRwo;
-        "default" = _9mm8BRwo;
+        "pkg-5.0.0" = _mTwtzEDz;
+        "default" = _mTwtzEDz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "loot-beams-up";

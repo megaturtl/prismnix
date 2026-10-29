@@ -991,6 +991,11 @@ let
             "file" = "TaxFreeLevels-1.4.25-forge-1.20.1.jar";
             "hash" = "sha512-HQfU/67KzE0dFZUbBdXL4eur1rWLerGsDyU5QXRE31nINUhAGccgIQxNXxlRre/n7+lnOjrLyTM65Q0dw4+wgw==";
         };
+        _Djmky8oI = {
+            "id" = "Djmky8oI";
+            "file" = "TaxFreeLevels-1.4.26-forge-1.20.1.jar";
+            "hash" = "sha512-u0NfA7TvrpLHSTjuAxyy+/SDs0bLjVWYzQAGvpOkIsZAGu6taW2eb/+8/lzfWjh+J4vgpKODF2SoF1pAwip1Gg==";
+        };
     in {
         "kyjJQ6is" = _kyjJQ6is;
         "NQmkmN36" = _NQmkmN36;
@@ -1190,6 +1195,7 @@ let
         "jjRRufQz" = _jjRRufQz;
         "b81Q74XX" = _b81Q74XX;
         "mix9ptRS" = _mix9ptRS;
+        "Djmky8oI" = _Djmky8oI;
         "fabric-1.16.2" = _NQmkmN36;
         "fabric-1.16.3" = _NQmkmN36;
         "fabric-1.16.4" = _NQmkmN36;
@@ -1234,12 +1240,12 @@ let
         "forge-1.18.2" = _iW2k5scj;
         "forge-1.19" = _hpR2Y8l4;
         "forge-1.19.1" = _hpR2Y8l4;
-        "forge-1.19.2" = _mix9ptRS;
-        "forge-1.19.3" = _mix9ptRS;
+        "forge-1.19.2" = _Djmky8oI;
+        "forge-1.19.3" = _Djmky8oI;
         "forge-1.16.5" = _hTA88KZf;
-        "forge-1.19.4" = _mix9ptRS;
-        "forge-1.20" = _mix9ptRS;
-        "forge-1.20.1" = _mix9ptRS;
+        "forge-1.19.4" = _Djmky8oI;
+        "forge-1.20" = _Djmky8oI;
+        "forge-1.20.1" = _Djmky8oI;
         "forge-1.20.2" = _ruBcsVig;
         "forge-1.20.3" = _ruBcsVig;
         "forge-1.20.4" = _ruBcsVig;
@@ -1322,7 +1328,8 @@ let
         "pkg-1.5.4" = _nnOm34tW;
         "pkg-1.4.24" = _jjRRufQz;
         "pkg-1.4.25" = _mix9ptRS;
-        "default" = _mix9ptRS;
+        "pkg-1.4.26" = _Djmky8oI;
+        "default" = _Djmky8oI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tax-free-levels";

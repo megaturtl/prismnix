@@ -336,6 +336,11 @@ let
             "file" = "betterspawnercontrol-26.3.0-4.9.jar";
             "hash" = "sha512-4HPFsJv0VJJsqsCE9Qqxlr+tVJgtn/VbPNQAH3U1cE1+OpHSoKMaH7L0G98zGFdYNR8IvodiYjwb5xKsO0hjag==";
         };
+        _svjQzVp0 = {
+            "id" = "svjQzVp0";
+            "file" = "betterspawnercontrol-26.1.2-4.9.jar";
+            "hash" = "sha512-ip0aaP4A2fGBACJnldwWXPDbQHKIhEKuVhtAln8NBj0Bo6WmGaXnvQJ4rm29t5Z/CJOu7HLYWR4tAf9HhUl4Cg==";
+        };
     in {
         "MJ4Z4o2C" = _MJ4Z4o2C;
         "GzWxhuVG" = _GzWxhuVG;
@@ -404,6 +409,7 @@ let
         "JhtFs2Ik" = _JhtFs2Ik;
         "gG2kTTrN" = _gG2kTTrN;
         "dbVBs1Zh" = _dbVBs1Zh;
+        "svjQzVp0" = _svjQzVp0;
         "fabric-1.16.5" = _rbns0AuT;
         "fabric-1.18.2" = _CsDY3pf9;
         "fabric-1.19.2" = _14nstXwm;
@@ -430,7 +436,7 @@ let
         "fabric-1.21.11" = _92qoHTaU;
         "fabric-26.1" = _krTm0FNs;
         "fabric-26.1.1" = _tNJFJ9uY;
-        "fabric-26.1.2" = _opKWmJFb;
+        "fabric-26.1.2" = _svjQzVp0;
         "fabric-26.2" = _gG2kTTrN;
         "fabric-26.3" = _dbVBs1Zh;
         "forge-1.16.5" = _HLglgQu9;
@@ -457,7 +463,7 @@ let
         "forge-1.21.11" = _92qoHTaU;
         "forge-26.1" = _krTm0FNs;
         "forge-26.1.1" = _tNJFJ9uY;
-        "forge-26.1.2" = _opKWmJFb;
+        "forge-26.1.2" = _svjQzVp0;
         "forge-26.2" = _gG2kTTrN;
         "forge-26.3" = _dbVBs1Zh;
         "quilt-1.18.2" = _CsDY3pf9;
@@ -485,7 +491,7 @@ let
         "quilt-1.21.11" = _92qoHTaU;
         "quilt-26.1" = _krTm0FNs;
         "quilt-26.1.1" = _tNJFJ9uY;
-        "quilt-26.1.2" = _opKWmJFb;
+        "quilt-26.1.2" = _svjQzVp0;
         "quilt-26.2" = _gG2kTTrN;
         "quilt-26.3" = _dbVBs1Zh;
         "neoforge-1.20.2" = _jsIFfKsY;
@@ -508,7 +514,7 @@ let
         "neoforge-1.21.11" = _92qoHTaU;
         "neoforge-26.1" = _krTm0FNs;
         "neoforge-26.1.1" = _tNJFJ9uY;
-        "neoforge-26.1.2" = _opKWmJFb;
+        "neoforge-26.1.2" = _svjQzVp0;
         "neoforge-26.2" = _gG2kTTrN;
         "neoforge-26.3" = _dbVBs1Zh;
         "pkg-1.16.5-1.9-fabric" = _MJ4Z4o2C;
@@ -578,7 +584,8 @@ let
         "pkg-1.21.1-4.9-fabric+forge+neo" = _JhtFs2Ik;
         "pkg-26.2.0-4.9-fabric+forge+neo" = _gG2kTTrN;
         "pkg-26.3.0-4.9-fabric+forge+neo" = _dbVBs1Zh;
-        "default" = _dbVBs1Zh;
+        "pkg-26.1.2-4.9-fabric+forge+neo" = _svjQzVp0;
+        "default" = _svjQzVp0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-spawner-control";

@@ -301,6 +301,11 @@ let
             "file" = "rainbegoneritual-26.3.0-3.8.jar";
             "hash" = "sha512-6nBVfErpN5wXZgX8QNgZ7wh808GqZwLISrp/UH19yjIBH3K60E3nsX1XgMZS20GCZmK0N3599jz8uQ70LOqVTQ==";
         };
+        _vP6cGO3P = {
+            "id" = "vP6cGO3P";
+            "file" = "rainbegoneritual-26.1.2-3.8.jar";
+            "hash" = "sha512-6pRbVAzHhXZjcE7y4IBPAksWVV4gpnamyO7sF5igU+aohAG74rC6Nw9kDp9wTjrAYl08fVDiAgJgRWCJPvHc5g==";
+        };
     in {
         "M1az58d3" = _M1az58d3;
         "lkPPxxaE" = _lkPPxxaE;
@@ -362,6 +367,7 @@ let
         "9RF7yd8A" = _9RF7yd8A;
         "j18dx537" = _j18dx537;
         "swrazEBs" = _swrazEBs;
+        "vP6cGO3P" = _vP6cGO3P;
         "fabric-1.16.5" = _FpzCMEcf;
         "fabric-1.18.2" = _bGZuTMrr;
         "fabric-1.19.2" = _IpZBayGf;
@@ -388,7 +394,7 @@ let
         "fabric-1.21.11" = _HKOCtpmm;
         "fabric-26.1" = _w2WAnbVv;
         "fabric-26.1.1" = _uNB2thPh;
-        "fabric-26.1.2" = _MKsQpcJd;
+        "fabric-26.1.2" = _vP6cGO3P;
         "fabric-26.2" = _j18dx537;
         "fabric-26.3" = _swrazEBs;
         "forge-1.16.5" = _2AYb2V6Z;
@@ -415,7 +421,7 @@ let
         "forge-1.21.11" = _HKOCtpmm;
         "forge-26.1" = _w2WAnbVv;
         "forge-26.1.1" = _uNB2thPh;
-        "forge-26.1.2" = _MKsQpcJd;
+        "forge-26.1.2" = _vP6cGO3P;
         "forge-26.2" = _j18dx537;
         "forge-26.3" = _swrazEBs;
         "quilt-1.18.2" = _bGZuTMrr;
@@ -443,7 +449,7 @@ let
         "quilt-1.21.11" = _HKOCtpmm;
         "quilt-26.1" = _w2WAnbVv;
         "quilt-26.1.1" = _uNB2thPh;
-        "quilt-26.1.2" = _MKsQpcJd;
+        "quilt-26.1.2" = _vP6cGO3P;
         "quilt-26.2" = _j18dx537;
         "quilt-26.3" = _swrazEBs;
         "neoforge-1.20.2" = _SlxChDId;
@@ -466,7 +472,7 @@ let
         "neoforge-1.21.11" = _HKOCtpmm;
         "neoforge-26.1" = _w2WAnbVv;
         "neoforge-26.1.1" = _uNB2thPh;
-        "neoforge-26.1.2" = _MKsQpcJd;
+        "neoforge-26.1.2" = _vP6cGO3P;
         "neoforge-26.2" = _j18dx537;
         "neoforge-26.3" = _swrazEBs;
         "pkg-1.16.5-2.1-fabric" = _M1az58d3;
@@ -529,7 +535,8 @@ let
         "pkg-1.21.1-3.8-fabric+forge+neo" = _9RF7yd8A;
         "pkg-26.2.0-3.8-fabric+forge+neo" = _j18dx537;
         "pkg-26.3.0-3.8-fabric+forge+neo" = _swrazEBs;
-        "default" = _swrazEBs;
+        "pkg-26.1.2-3.8-fabric+forge+neo" = _vP6cGO3P;
+        "default" = _vP6cGO3P;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rain-be-gone-ritual";

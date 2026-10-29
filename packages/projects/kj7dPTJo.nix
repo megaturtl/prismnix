@@ -151,6 +151,11 @@ let
             "file" = "wanderingtradermayleave-26.3.0-2.0.jar";
             "hash" = "sha512-V/qBeLaj1jXahuqYJV57AT+mLhBImzCUXvg6h3fGhpNNMmSgSvmkub5UUaeLOl8tQP3EqgB77IQpCIONkXDbuQ==";
         };
+        _aKgPdMQ1 = {
+            "id" = "aKgPdMQ1";
+            "file" = "wanderingtradermayleave-26.1.2-2.0.jar";
+            "hash" = "sha512-yMglxUYJiewfrX2h8IOsru4a1x0d6bgvR54r9iHrfrzQIWYOh2k44JrSOM1Lf0iz4B2z7pgkdANBcEs9FS3n8Q==";
+        };
     in {
         "8HdEkBiZ" = _8HdEkBiZ;
         "TBtu4bND" = _TBtu4bND;
@@ -182,6 +187,7 @@ let
         "hTL8B8e4" = _hTL8B8e4;
         "a3GSyTbJ" = _a3GSyTbJ;
         "3UKjpyQJ" = _3UKjpyQJ;
+        "aKgPdMQ1" = _aKgPdMQ1;
         "fabric-1.20.1" = _dPc53gBu;
         "fabric-1.21" = _hTL8B8e4;
         "fabric-1.21.1" = _hTL8B8e4;
@@ -195,7 +201,7 @@ let
         "fabric-1.21.11" = _4tBA54C2;
         "fabric-26.1" = _yGVFkSDz;
         "fabric-26.1.1" = _zkz79eCf;
-        "fabric-26.1.2" = _QOt33WLT;
+        "fabric-26.1.2" = _aKgPdMQ1;
         "fabric-26.2" = _a3GSyTbJ;
         "fabric-26.3" = _3UKjpyQJ;
         "forge-1.20.1" = _dPc53gBu;
@@ -211,7 +217,7 @@ let
         "forge-1.21.11" = _4tBA54C2;
         "forge-26.1" = _yGVFkSDz;
         "forge-26.1.1" = _zkz79eCf;
-        "forge-26.1.2" = _QOt33WLT;
+        "forge-26.1.2" = _aKgPdMQ1;
         "forge-26.2" = _a3GSyTbJ;
         "forge-26.3" = _3UKjpyQJ;
         "neoforge-1.20.1" = _dPc53gBu;
@@ -227,7 +233,7 @@ let
         "neoforge-1.21.11" = _4tBA54C2;
         "neoforge-26.1" = _yGVFkSDz;
         "neoforge-26.1.1" = _zkz79eCf;
-        "neoforge-26.1.2" = _QOt33WLT;
+        "neoforge-26.1.2" = _aKgPdMQ1;
         "neoforge-26.2" = _a3GSyTbJ;
         "neoforge-26.3" = _3UKjpyQJ;
         "quilt-1.20.1" = _dPc53gBu;
@@ -243,7 +249,7 @@ let
         "quilt-1.21.11" = _4tBA54C2;
         "quilt-26.1" = _yGVFkSDz;
         "quilt-26.1.1" = _zkz79eCf;
-        "quilt-26.1.2" = _QOt33WLT;
+        "quilt-26.1.2" = _aKgPdMQ1;
         "quilt-26.2" = _a3GSyTbJ;
         "quilt-26.3" = _3UKjpyQJ;
         "pkg-1.20.1-1.0-fabric+forge+neo" = _8HdEkBiZ;
@@ -276,7 +282,8 @@ let
         "pkg-1.21.1-2.0-fabric+forge+neo" = _hTL8B8e4;
         "pkg-26.2.0-2.0-fabric+forge+neo" = _a3GSyTbJ;
         "pkg-26.3.0-2.0-fabric+forge+neo" = _3UKjpyQJ;
-        "default" = _3UKjpyQJ;
+        "pkg-26.1.2-2.0-fabric+forge+neo" = _aKgPdMQ1;
+        "default" = _aKgPdMQ1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wandering-trader-may-leave";

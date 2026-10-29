@@ -286,6 +286,11 @@ let
             "file" = "kelpfertilizer-26.3.0-3.5.jar";
             "hash" = "sha512-IkjfSno0T6ZNOsjQNpZqvsyf97SFBz8DQTL2zI+v4XSfr9oZwVkBYBT0WCYJ/pKsCBRvmpc4GdDF5jp/WtAhcw==";
         };
+        _Dg0WbHte = {
+            "id" = "Dg0WbHte";
+            "file" = "kelpfertilizer-26.1.2-3.5.jar";
+            "hash" = "sha512-q2QV6S/OJyP2Qpus/axmB+qGlbh+nhyf5h2POf3ghIKZeebf7l7mYWl6MXxl4wfXXpZUiBdajo8iztxKrR9QXQ==";
+        };
     in {
         "dSBQ7t1v" = _dSBQ7t1v;
         "AIacHlSb" = _AIacHlSb;
@@ -344,6 +349,7 @@ let
         "u8c8YL7G" = _u8c8YL7G;
         "53nPl37n" = _53nPl37n;
         "GD6zAtxQ" = _GD6zAtxQ;
+        "Dg0WbHte" = _Dg0WbHte;
         "fabric-1.16.5" = _qkpEYgcY;
         "fabric-1.18.2" = _24Exwchz;
         "fabric-1.19.2" = _qEvDeQhB;
@@ -370,7 +376,7 @@ let
         "fabric-1.21.11" = _2SmbVdmE;
         "fabric-26.1" = _tLC1FJxu;
         "fabric-26.1.1" = _4P8uLfss;
-        "fabric-26.1.2" = _eZx2vLJs;
+        "fabric-26.1.2" = _Dg0WbHte;
         "fabric-26.2" = _53nPl37n;
         "fabric-26.3" = _GD6zAtxQ;
         "forge-1.16.5" = _ZRgqQu4g;
@@ -397,7 +403,7 @@ let
         "forge-1.21.11" = _2SmbVdmE;
         "forge-26.1" = _tLC1FJxu;
         "forge-26.1.1" = _4P8uLfss;
-        "forge-26.1.2" = _eZx2vLJs;
+        "forge-26.1.2" = _Dg0WbHte;
         "forge-26.2" = _53nPl37n;
         "forge-26.3" = _GD6zAtxQ;
         "quilt-1.18.2" = _24Exwchz;
@@ -425,7 +431,7 @@ let
         "quilt-1.21.11" = _2SmbVdmE;
         "quilt-26.1" = _tLC1FJxu;
         "quilt-26.1.1" = _4P8uLfss;
-        "quilt-26.1.2" = _eZx2vLJs;
+        "quilt-26.1.2" = _Dg0WbHte;
         "quilt-26.2" = _53nPl37n;
         "quilt-26.3" = _GD6zAtxQ;
         "neoforge-1.20.2" = _vLdDzleu;
@@ -448,7 +454,7 @@ let
         "neoforge-1.21.11" = _2SmbVdmE;
         "neoforge-26.1" = _tLC1FJxu;
         "neoforge-26.1.1" = _4P8uLfss;
-        "neoforge-26.1.2" = _eZx2vLJs;
+        "neoforge-26.1.2" = _Dg0WbHte;
         "neoforge-26.2" = _53nPl37n;
         "neoforge-26.3" = _GD6zAtxQ;
         "pkg-1.16.5-2.1-fabric" = _dSBQ7t1v;
@@ -508,7 +514,8 @@ let
         "pkg-1.21.1-3.5-fabric+forge+neo" = _u8c8YL7G;
         "pkg-26.2.0-3.5-fabric+forge+neo" = _53nPl37n;
         "pkg-26.3.0-3.5-fabric+forge+neo" = _GD6zAtxQ;
-        "default" = _GD6zAtxQ;
+        "pkg-26.1.2-3.5-fabric+forge+neo" = _Dg0WbHte;
+        "default" = _Dg0WbHte;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kelp-fertilizer";

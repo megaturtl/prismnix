@@ -371,6 +371,11 @@ let
             "file" = "1x1_Potato-26.4-snapshot-5.zip";
             "hash" = "sha512-S/zLdKEr2rVw2o6bao7WwsHCulhm/eSnxkCKU7ipiRvwbC+Xe47R4Bmqa86WoDyc8E0xWAlw50+J9B+lUZZvUQ==";
         };
+        _FoqyZsQL = {
+            "id" = "FoqyZsQL";
+            "file" = "1x1_Potato-26.4-snapshot-6.zip";
+            "hash" = "sha512-8yTTkCkfyiCpG3p02XjxTkKB4ddI5seNyPdP2C+o5PoAuehkllpk/Dc1DgufkDTc8y9hhajuMYd4avtgI4LFDA==";
+        };
     in {
         "tHVbqN0A" = _tHVbqN0A;
         "WW1r8LMz" = _WW1r8LMz;
@@ -446,6 +451,7 @@ let
         "CjzWTxaz" = _CjzWTxaz;
         "33YjSBCp" = _33YjSBCp;
         "HADkcZVu" = _HADkcZVu;
+        "FoqyZsQL" = _FoqyZsQL;
         "minecraft-1.20" = _tHVbqN0A;
         "minecraft-1.20.1" = _WW1r8LMz;
         "minecraft-1.20.2" = _sdz3LuyM;
@@ -520,8 +526,9 @@ let
         "minecraft-26.4-snapshot-3" = _CjzWTxaz;
         "minecraft-26.4-snapshot-4" = _33YjSBCp;
         "minecraft-26.4-snapshot-5" = _HADkcZVu;
-        "pkg-1.0" = _HADkcZVu;
-        "default" = _HADkcZVu;
+        "minecraft-26.4-snapshot-6" = _FoqyZsQL;
+        "pkg-1.0" = _FoqyZsQL;
+        "default" = _FoqyZsQL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "1x1-potato";

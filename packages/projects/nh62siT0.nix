@@ -21,11 +21,17 @@ let
             "file" = "totem-counter-0.0.5.jar";
             "hash" = "sha512-bYURndGN7YvDCgEwyYsy1ARe/WsM7qVI0992C7u/uU1G7UyYPYlrvmL0oXiPBImWYtTulrAVjlmXKRwtJU1HVw==";
         };
+        _9IGd8mj1 = {
+            "id" = "9IGd8mj1";
+            "file" = "totem-counter-26.3.jar";
+            "hash" = "sha512-FHHOW+tHJjt1M0Fx8GH4jYs7illRhomCTFp9GNqMrdEsWORsuhOXHFTKjVjlylhmVbWuaEht8jyqFKNkEKH6Vg==";
+        };
     in {
         "gph0363H" = _gph0363H;
         "OWV7w1AT" = _OWV7w1AT;
         "GUnv7u10" = _GUnv7u10;
         "gxhFHpfF" = _gxhFHpfF;
+        "9IGd8mj1" = _9IGd8mj1;
         "fabric-1.21" = _OWV7w1AT;
         "fabric-1.21.1" = _OWV7w1AT;
         "fabric-1.21.2" = _OWV7w1AT;
@@ -40,9 +46,11 @@ let
         "fabric-1.21.11" = _OWV7w1AT;
         "fabric-26.2" = _GUnv7u10;
         "fabric-26.3-snapshot-5" = _gxhFHpfF;
+        "fabric-26.3" = _9IGd8mj1;
         "pkg-0.0.4" = _gph0363H;
         "pkg-0.0.5" = _gxhFHpfF;
-        "default" = _gxhFHpfF;
+        "pkg-0.1.0+26.3" = _9IGd8mj1;
+        "default" = _9IGd8mj1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "totem-counter-mx";

@@ -306,6 +306,11 @@ let
             "file" = "cryingghasts-26.3.0-3.7.jar";
             "hash" = "sha512-xlYZwkDRAlEBoOnhs3XKNhPuhFIsNZVI11siNYMwvOkDfWrxsprWmX3Pz5Gn4ALTUldSMZhGwmJwYYWYT6lMeg==";
         };
+        _56oyyWjb = {
+            "id" = "56oyyWjb";
+            "file" = "cryingghasts-26.1.2-3.7.jar";
+            "hash" = "sha512-DjO/qJR34L5UAMgqu3JGTJ7sXtB/zP+V9BtNaep8WY2AuljbwXDF8zfy63v+w45Ok68bS5XVE51YOyvFlF7a7A==";
+        };
     in {
         "jSaJI5M9" = _jSaJI5M9;
         "NQh3jZDs" = _NQh3jZDs;
@@ -368,6 +373,7 @@ let
         "ePU2wKLp" = _ePU2wKLp;
         "h4C7hKaP" = _h4C7hKaP;
         "Xv3fMaXI" = _Xv3fMaXI;
+        "56oyyWjb" = _56oyyWjb;
         "fabric-1.16.5" = _mO9clHEr;
         "fabric-1.18.2" = _5bS2BH1g;
         "fabric-1.19.2" = _t5GaQTsF;
@@ -394,7 +400,7 @@ let
         "fabric-1.21.11" = _NWWzgshR;
         "fabric-26.1" = _n6ge0YUa;
         "fabric-26.1.1" = _JqS1I1I6;
-        "fabric-26.1.2" = _ubLbtaEH;
+        "fabric-26.1.2" = _56oyyWjb;
         "fabric-26.2" = _h4C7hKaP;
         "fabric-26.3" = _Xv3fMaXI;
         "forge-1.16.5" = _FTmCV2bk;
@@ -421,7 +427,7 @@ let
         "forge-1.21.11" = _NWWzgshR;
         "forge-26.1" = _n6ge0YUa;
         "forge-26.1.1" = _JqS1I1I6;
-        "forge-26.1.2" = _ubLbtaEH;
+        "forge-26.1.2" = _56oyyWjb;
         "forge-26.2" = _h4C7hKaP;
         "forge-26.3" = _Xv3fMaXI;
         "quilt-1.18.2" = _5bS2BH1g;
@@ -449,7 +455,7 @@ let
         "quilt-1.21.11" = _NWWzgshR;
         "quilt-26.1" = _n6ge0YUa;
         "quilt-26.1.1" = _JqS1I1I6;
-        "quilt-26.1.2" = _ubLbtaEH;
+        "quilt-26.1.2" = _56oyyWjb;
         "quilt-26.2" = _h4C7hKaP;
         "quilt-26.3" = _Xv3fMaXI;
         "neoforge-1.20.2" = _WrTQ7P3W;
@@ -472,7 +478,7 @@ let
         "neoforge-1.21.11" = _NWWzgshR;
         "neoforge-26.1" = _n6ge0YUa;
         "neoforge-26.1.1" = _JqS1I1I6;
-        "neoforge-26.1.2" = _ubLbtaEH;
+        "neoforge-26.1.2" = _56oyyWjb;
         "neoforge-26.2" = _h4C7hKaP;
         "neoforge-26.3" = _Xv3fMaXI;
         "pkg-1.16.5-1.8-fabric" = _jSaJI5M9;
@@ -536,7 +542,8 @@ let
         "pkg-1.21.1-3.7-fabric+forge+neo" = _ePU2wKLp;
         "pkg-26.2.0-3.7-fabric+forge+neo" = _h4C7hKaP;
         "pkg-26.3.0-3.7-fabric+forge+neo" = _Xv3fMaXI;
-        "default" = _Xv3fMaXI;
+        "pkg-26.1.2-3.7-fabric+forge+neo" = _56oyyWjb;
+        "default" = _56oyyWjb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crying-ghasts";

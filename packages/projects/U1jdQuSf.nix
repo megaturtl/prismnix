@@ -51,6 +51,11 @@ let
             "file" = "graveyard-FORGE-4.0.0+mc1.20.1.jar";
             "hash" = "sha512-yn09n2AJh2DWx6GOpHDNzaItu6uFShySz36N+nE+HUji48aZdAHzbgjmzrAZXpJ3KfsxO3Ha5XOPcFnSWoP/kw==";
         };
+        _MSk4YVNp = {
+            "id" = "MSk4YVNp";
+            "file" = "graveyard-FORGE-4.0.1+mc1.20.1.jar";
+            "hash" = "sha512-a6vQYwEuWv7O1gY11sGQtVY+s22uQxI92sjquDzwYRTbkDMRe7ZJ5MhBMzH9DgeN0ed9HgYaTG13jsAK2TQdfw==";
+        };
     in {
         "sEPLZFn6" = _sEPLZFn6;
         "IPp5noAi" = _IPp5noAi;
@@ -62,11 +67,12 @@ let
         "76pRxOAk" = _76pRxOAk;
         "A0qu83FW" = _A0qu83FW;
         "2mh0cIYX" = _2mh0cIYX;
+        "MSk4YVNp" = _MSk4YVNp;
         "forge-1.18.2" = _DKXNgqie;
         "forge-1.19" = _IPp5noAi;
         "forge-1.19.2" = _TpOl3Wys;
         "forge-1.20" = _Q66WyQ3F;
-        "forge-1.20.1" = _2mh0cIYX;
+        "forge-1.20.1" = _MSk4YVNp;
         "neoforge-1.20.4" = _A0qu83FW;
         "pkg-1.9.6" = _sEPLZFn6;
         "pkg-1.10+1.19" = _IPp5noAi;
@@ -78,7 +84,8 @@ let
         "pkg-3.2" = _76pRxOAk;
         "pkg-3.3" = _A0qu83FW;
         "pkg-4.0.0+mc1.20.1-forge" = _2mh0cIYX;
-        "default" = _2mh0cIYX;
+        "pkg-4.0.1+mc1.20.1-forge" = _MSk4YVNp;
+        "default" = _MSk4YVNp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-graveyard-forge";

@@ -26,12 +26,24 @@ let
             "file" = "forest-villages-1.0.jar";
             "hash" = "sha512-vJexTrOTLEFDN2li1QHf9m5ERpXSHbsf9HP9oMWM44dKXzl4vcq2oGrClhyG0oMIviMDKhwo/fQD/5PMKfzwEw==";
         };
+        _M2kFq76x = {
+            "id" = "M2kFq76x";
+            "file" = "Forest Villages Datapack 1.0.zip";
+            "hash" = "sha512-UnEcY1LeMJ36gfwU1/vhz0ByNcaBwoBvCmQn4jfYOPx36aehdbrXuPzQmkWFh877PzyB7+CSF34xzeSGTBSG5Q==";
+        };
+        _u6VtD659 = {
+            "id" = "u6VtD659";
+            "file" = "forest-villages-1.0.jar";
+            "hash" = "sha512-e5OH5h2YTaS02/Zdd1NiDE+Tgx94uPqHYbxgRt99pQeZ+NOrjPmCOy9fRH/vVPW8tRWHP2BcNRXmbftJafOTzA==";
+        };
     in {
         "G1JvjnU6" = _G1JvjnU6;
         "XMC8gm9E" = _XMC8gm9E;
         "qQUt9oGy" = _qQUt9oGy;
         "HnBg8B2R" = _HnBg8B2R;
         "AQ0NTQDi" = _AQ0NTQDi;
+        "M2kFq76x" = _M2kFq76x;
+        "u6VtD659" = _u6VtD659;
         "datapack-1.18.2" = _G1JvjnU6;
         "datapack-1.19" = _G1JvjnU6;
         "datapack-1.19.1" = _G1JvjnU6;
@@ -61,6 +73,7 @@ let
         "datapack-26.1.1" = _G1JvjnU6;
         "datapack-26.1.2" = _G1JvjnU6;
         "datapack-26.2" = _G1JvjnU6;
+        "datapack-26.3" = _M2kFq76x;
         "fabric-1.18.2" = _AQ0NTQDi;
         "fabric-1.19" = _AQ0NTQDi;
         "fabric-1.19.1" = _AQ0NTQDi;
@@ -89,6 +102,7 @@ let
         "fabric-26.1" = _AQ0NTQDi;
         "fabric-26.1.1" = _AQ0NTQDi;
         "fabric-26.1.2" = _AQ0NTQDi;
+        "fabric-26.3" = _u6VtD659;
         "forge-1.18.2" = _AQ0NTQDi;
         "forge-1.19" = _AQ0NTQDi;
         "forge-1.19.1" = _AQ0NTQDi;
@@ -117,6 +131,7 @@ let
         "forge-26.1" = _AQ0NTQDi;
         "forge-26.1.1" = _AQ0NTQDi;
         "forge-26.1.2" = _AQ0NTQDi;
+        "forge-26.3" = _u6VtD659;
         "neoforge-1.18.2" = _AQ0NTQDi;
         "neoforge-1.19" = _AQ0NTQDi;
         "neoforge-1.19.1" = _AQ0NTQDi;
@@ -145,6 +160,7 @@ let
         "neoforge-26.1" = _AQ0NTQDi;
         "neoforge-26.1.1" = _AQ0NTQDi;
         "neoforge-26.1.2" = _AQ0NTQDi;
+        "neoforge-26.3" = _u6VtD659;
         "quilt-1.18.2" = _AQ0NTQDi;
         "quilt-1.19" = _AQ0NTQDi;
         "quilt-1.19.1" = _AQ0NTQDi;
@@ -173,9 +189,10 @@ let
         "quilt-26.1" = _AQ0NTQDi;
         "quilt-26.1.1" = _AQ0NTQDi;
         "quilt-26.1.2" = _AQ0NTQDi;
-        "pkg-1.0" = _G1JvjnU6;
-        "pkg-1.0+mod" = _AQ0NTQDi;
-        "default" = _AQ0NTQDi;
+        "quilt-26.3" = _u6VtD659;
+        "pkg-1.0" = _M2kFq76x;
+        "pkg-1.0+mod" = _u6VtD659;
+        "default" = _u6VtD659;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "forest-villages";

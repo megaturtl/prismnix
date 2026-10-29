@@ -931,6 +931,16 @@ let
             "file" = "ThirstWasTaken2-1.10.0+1.20.1-forge.jar";
             "hash" = "sha512-J9fjV+7kETQKJTbWjc5lakWkf+r8W8MaCji+uJSSCEkEJqhCU0MqLYcVLEGpKBQ550QRsu+W2sxXgae8QFjY4Q==";
         };
+        _xY0rXbw5 = {
+            "id" = "xY0rXbw5";
+            "file" = "ThirstWasTaken2-1.10.1+1.21.1-neoforge.jar";
+            "hash" = "sha512-Ph9u7LDG2/lxEA+m2iAsfYxEsCtX440uIii4AZI/aMKW6TOwGLwm6qAhyxYGJPWS0g9Pd3QVpgAF3JWAZY11zQ==";
+        };
+        _tzP3IWuw = {
+            "id" = "tzP3IWuw";
+            "file" = "ThirstWasTaken2-1.10.1+1.20.1-forge.jar";
+            "hash" = "sha512-ZfjOjRofXdoXz4plN1w4+8IqB8tXxB+N0ghjJFUzc2rdr9AS0l+zv1gTMAXwvCeJA4HD8uGvuF8cDNLSBZYpvg==";
+        };
     in {
         "FGl6DHH0" = _FGl6DHH0;
         "Lc7zbhE7" = _Lc7zbhE7;
@@ -1118,6 +1128,8 @@ let
         "7ibrxrgj" = _7ibrxrgj;
         "2uWfnxPW" = _2uWfnxPW;
         "fXYuUQV3" = _fXYuUQV3;
+        "xY0rXbw5" = _xY0rXbw5;
+        "tzP3IWuw" = _tzP3IWuw;
         "fabric-26.2" = _NrAN5yAv;
         "fabric-26.1" = _ACTe7bIa;
         "fabric-26.1.1" = _ACTe7bIa;
@@ -1132,9 +1144,9 @@ let
         "neoforge-26.1.1" = _7ibrxrgj;
         "neoforge-26.1.2" = _7ibrxrgj;
         "neoforge-1.21.11" = _PVRz0Aur;
-        "neoforge-1.21.1" = _2uWfnxPW;
+        "neoforge-1.21.1" = _xY0rXbw5;
         "neoforge-26.3" = _zKUnJ4cd;
-        "forge-1.20.1" = _fXYuUQV3;
+        "forge-1.20.1" = _tzP3IWuw;
         "pkg-26.2-1.0.0" = _FGl6DHH0;
         "pkg-26.2-1.0.1" = _Lc7zbhE7;
         "pkg-1.0.2+26.2" = _mKN6Qzcs;
@@ -1321,7 +1333,9 @@ let
         "pkg-1.10.0+26.1.2-neoforge" = _7ibrxrgj;
         "pkg-1.10.0+1.21.1-neoforge" = _2uWfnxPW;
         "pkg-1.10.0+1.20.1-forge" = _fXYuUQV3;
-        "default" = _fXYuUQV3;
+        "pkg-1.10.1+1.21.1-neoforge" = _xY0rXbw5;
+        "pkg-1.10.1+1.20.1-forge" = _tzP3IWuw;
+        "default" = _tzP3IWuw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "thirst-was-taken-2";

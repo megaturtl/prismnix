@@ -81,6 +81,51 @@ let
             "file" = "KeybindAtlas-v2.1.0-mc1.20.4-neoforge.jar";
             "hash" = "sha512-mUxpdYtSr/pN6gDPc4yDTFU3BTe8uOocLQbPqIcnUiecT4zlLvkHeWCLpwNoViXEKGEmJMTBYET3Jdpo9mos4w==";
         };
+        _q86cQbkj = {
+            "id" = "q86cQbkj";
+            "file" = "KeybindAtlas-v2.1.0-mc26.1.2-neoforge.jar";
+            "hash" = "sha512-D2yru8SWbrhGenBT3gu8aHLwxBA3sTyNq3G9r0Eha8v1vPBmn8ORByaFXCct3DclS+n67q8BTt7RnNMfxgHr1w==";
+        };
+        _WeuikUrL = {
+            "id" = "WeuikUrL";
+            "file" = "KeybindAtlas-v2.1.0-mc26.1.2-fabric.jar";
+            "hash" = "sha512-NT7+c26G0ExNJEuUvI3F2wH28MjoWMlmW5OzXL4oLemLPyzPIpjQBUynJa3WNcvYLqwlpbl2zyI1+MHRsgD67Q==";
+        };
+        _uCEUuxIh = {
+            "id" = "uCEUuxIh";
+            "file" = "KeybindAtlas-v2.1.0-mc1.20.1-forge.jar";
+            "hash" = "sha512-YNcYgwwLW/DeHEgSUGfFJ55AWsTlTZ4vyd/IRISnafAGNrgLGj5Mm9M9J3DkYigY2WsAxVoShMPbmqMb7sGwMw==";
+        };
+        _UoLJmYps = {
+            "id" = "UoLJmYps";
+            "file" = "KeybindAtlas-v2.1.0-mc1.20.1-fabric.jar";
+            "hash" = "sha512-70sVdygYWAJ4mjEgwYHN41Ggi8wHV8HBG7Wg0UzMWjeCyEzeWfwlvVEcxC9ddn54izVNIO4iuf5bNtGYZ/smCA==";
+        };
+        _AVbnK6yp = {
+            "id" = "AVbnK6yp";
+            "file" = "KeybindAtlas-v2.1.0-mc1.20.4-forge.jar";
+            "hash" = "sha512-/yovH2Io5VOGSuJt2b2FDKaU99CNYMr83ZmqRI32uj/oJDIWKzaxP7EyS/3M7wNM+DYHqcT+xwFfUjRNMUzFvg==";
+        };
+        _zZC4FCdx = {
+            "id" = "zZC4FCdx";
+            "file" = "KeybindAtlas-v2.1.0-mc1.21.1-neoforge.jar";
+            "hash" = "sha512-HvTqKCfLKBTIy2O5a40xbWfak6amHYhL6tw9kQBDHRxFe9xdDkAwQfk9fTMlH/Zw3PXX0T7C7egO5HVUuTy7pw==";
+        };
+        _KOEQpN1l = {
+            "id" = "KOEQpN1l";
+            "file" = "KeybindAtlas-v2.1.0-mc1.21.1-fabric.jar";
+            "hash" = "sha512-wN9BvNUU3XiIpqDDZg3d/3aVCT/BNpO3RoGCtYaxWIz7HvR6QRny+V/cyH3NA/wbNnfhzKcpCXim6CzyeyJWLQ==";
+        };
+        _BVZQhNJf = {
+            "id" = "BVZQhNJf";
+            "file" = "KeybindAtlas-v2.1.0-mc26.2-fabric.jar";
+            "hash" = "sha512-iFTIGWIwBOovqSYMNyyZHN/dveuf2Mm3iRhtEC4RudGvDJFw2PIhra44QfRwxI8ncis3Vr07oO782/oc9XGfQw==";
+        };
+        _m0FIFQBO = {
+            "id" = "m0FIFQBO";
+            "file" = "KeybindAtlas-v2.1.0-mc26.2-neoforge.jar";
+            "hash" = "sha512-wzZoU/27gfwcqA+Et4jFCQZX1cKyHaQ/wuw5m2Td9W+QLUzpHi/rYuNx4I3fJbM2XqSGgNPeEJs6U1DDySoAOA==";
+        };
     in {
         "m9vhAuEP" = _m9vhAuEP;
         "SdqAGJHB" = _SdqAGJHB;
@@ -98,15 +143,26 @@ let
         "Ji9mRi3I" = _Ji9mRi3I;
         "Q8NUYD0R" = _Q8NUYD0R;
         "vbxXN6T6" = _vbxXN6T6;
-        "forge-1.20.1" = _HGCzXJmT;
-        "forge-1.20.4" = _Q8NUYD0R;
+        "q86cQbkj" = _q86cQbkj;
+        "WeuikUrL" = _WeuikUrL;
+        "uCEUuxIh" = _uCEUuxIh;
+        "UoLJmYps" = _UoLJmYps;
+        "AVbnK6yp" = _AVbnK6yp;
+        "zZC4FCdx" = _zZC4FCdx;
+        "KOEQpN1l" = _KOEQpN1l;
+        "BVZQhNJf" = _BVZQhNJf;
+        "m0FIFQBO" = _m0FIFQBO;
+        "forge-1.20.1" = _uCEUuxIh;
+        "forge-1.20.4" = _AVbnK6yp;
         "neoforge-1.20.1" = _HGCzXJmT;
-        "neoforge-1.21.1" = _zT1hSwL5;
-        "neoforge-26.2" = _7aG2ZCaU;
+        "neoforge-1.21.1" = _zZC4FCdx;
+        "neoforge-26.2" = _m0FIFQBO;
         "neoforge-1.20.4" = _vbxXN6T6;
-        "fabric-1.21.1" = _JD9xjSs2;
-        "fabric-1.20.1" = _E95sdTmi;
-        "fabric-26.2" = _Ji9mRi3I;
+        "neoforge-26.1.2" = _q86cQbkj;
+        "fabric-1.21.1" = _KOEQpN1l;
+        "fabric-1.20.1" = _UoLJmYps;
+        "fabric-26.2" = _BVZQhNJf;
+        "fabric-26.1.2" = _WeuikUrL;
         "pkg-1.0.0" = _m9vhAuEP;
         "pkg-1.1.0" = _SdqAGJHB;
         "pkg-1.2.0" = _JuF0Qzei;
@@ -114,8 +170,8 @@ let
         "pkg-1.3.1" = _rPSHJz9d;
         "pkg-1.4.0" = _MrzMcDXs;
         "pkg-2.0.0" = _Q8NUYD0R;
-        "pkg-2.1.0" = _vbxXN6T6;
-        "default" = _vbxXN6T6;
+        "pkg-2.1.0" = _m0FIFQBO;
+        "default" = _m0FIFQBO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "keybind-atlas";

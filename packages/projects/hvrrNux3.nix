@@ -331,6 +331,11 @@ let
             "file" = "bottledair-26.3.0-2.6.jar";
             "hash" = "sha512-Resf/kHaImscV23LDLGndMHPge7mZVHk9A4MOLDG9zo/GSJ9+zdHIf8VCIRG7uvtyZItECDHB1bKSanq9Ofbbg==";
         };
+        _vK6dqzw1 = {
+            "id" = "vK6dqzw1";
+            "file" = "bottledair-26.1.2-2.6.jar";
+            "hash" = "sha512-i/BfrA6//Ce1PPtLE6qSDNeFgQaiLYPWFxrBqz7RjGcJbtlpzQOiKBXSy66BAr6iVk/xcJ0lb/MUrYghuEODPg==";
+        };
     in {
         "4Pxf24fF" = _4Pxf24fF;
         "KEBHGJqg" = _KEBHGJqg;
@@ -398,6 +403,7 @@ let
         "7lOpGEya" = _7lOpGEya;
         "oWBWWsc2" = _oWBWWsc2;
         "yA3lALD0" = _yA3lALD0;
+        "vK6dqzw1" = _vK6dqzw1;
         "fabric-1.16.5" = _7arNQCdn;
         "fabric-1.18.2" = _YR4lJaZs;
         "fabric-1.19.2" = _iU00AmRJ;
@@ -424,7 +430,7 @@ let
         "fabric-1.21.11" = _sfVLeE12;
         "fabric-26.1" = _rt3l3STR;
         "fabric-26.1.1" = _GOK56elo;
-        "fabric-26.1.2" = _zyOngmpA;
+        "fabric-26.1.2" = _vK6dqzw1;
         "fabric-26.2" = _oWBWWsc2;
         "fabric-26.3" = _yA3lALD0;
         "forge-1.16.5" = _AIC9yb53;
@@ -451,7 +457,7 @@ let
         "forge-1.21.11" = _sfVLeE12;
         "forge-26.1" = _rt3l3STR;
         "forge-26.1.1" = _GOK56elo;
-        "forge-26.1.2" = _zyOngmpA;
+        "forge-26.1.2" = _vK6dqzw1;
         "forge-26.2" = _oWBWWsc2;
         "forge-26.3" = _yA3lALD0;
         "quilt-1.18.2" = _YR4lJaZs;
@@ -479,7 +485,7 @@ let
         "quilt-1.21.11" = _sfVLeE12;
         "quilt-26.1" = _rt3l3STR;
         "quilt-26.1.1" = _GOK56elo;
-        "quilt-26.1.2" = _zyOngmpA;
+        "quilt-26.1.2" = _vK6dqzw1;
         "quilt-26.2" = _oWBWWsc2;
         "quilt-26.3" = _yA3lALD0;
         "neoforge-1.20.2" = _SonJAg2c;
@@ -502,7 +508,7 @@ let
         "neoforge-1.21.11" = _sfVLeE12;
         "neoforge-26.1" = _rt3l3STR;
         "neoforge-26.1.1" = _GOK56elo;
-        "neoforge-26.1.2" = _zyOngmpA;
+        "neoforge-26.1.2" = _vK6dqzw1;
         "neoforge-26.2" = _oWBWWsc2;
         "neoforge-26.3" = _yA3lALD0;
         "pkg-1.16.5-1.4-fabric" = _4Pxf24fF;
@@ -571,7 +577,8 @@ let
         "pkg-1.21.1-2.6-fabric+forge+neo" = _7lOpGEya;
         "pkg-26.2.0-2.6-fabric+forge+neo" = _oWBWWsc2;
         "pkg-26.3.0-2.6-fabric+forge+neo" = _yA3lALD0;
-        "default" = _yA3lALD0;
+        "pkg-26.1.2-2.6-fabric+forge+neo" = _vK6dqzw1;
+        "default" = _vK6dqzw1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bottled-air";

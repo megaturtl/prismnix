@@ -341,6 +341,11 @@ let
             "file" = "flowermimics-26.3.0-2.4.jar";
             "hash" = "sha512-MoNRJTi29yZA4RZ2qqsjcfKHZw7CX1qZjGCrO/x2tkM2N6buS3aEGpUAyIFHzeyK6motn9O+YDmjSt01nbYfiA==";
         };
+        _sYPLHiGe = {
+            "id" = "sYPLHiGe";
+            "file" = "flowermimics-26.1.2-2.4.jar";
+            "hash" = "sha512-LH0TjHdPFU8pW8KRSVyDwYX8S1pZAwpnBP04y4NYs5YAGV+jtwwMhwHxl5dJKWhdt5Ss4UY+3SuhhAA+tMZJUA==";
+        };
     in {
         "XrNhoHSv" = _XrNhoHSv;
         "B14i6hrP" = _B14i6hrP;
@@ -410,6 +415,7 @@ let
         "H9az4C3h" = _H9az4C3h;
         "IyPDwAtz" = _IyPDwAtz;
         "DU7aAt89" = _DU7aAt89;
+        "sYPLHiGe" = _sYPLHiGe;
         "fabric-1.18.2" = _HaufhCNW;
         "fabric-1.19.2" = _acgeEYAr;
         "fabric-1.20.1" = _ghSzLmE0;
@@ -432,7 +438,7 @@ let
         "fabric-1.21.11" = _H3O91Y6J;
         "fabric-26.1" = _pUOYfv67;
         "fabric-26.1.1" = _YeIw4Hzt;
-        "fabric-26.1.2" = _GoHzPTii;
+        "fabric-26.1.2" = _sYPLHiGe;
         "fabric-26.2" = _IyPDwAtz;
         "fabric-26.3" = _DU7aAt89;
         "forge-1.18.2" = _HaufhCNW;
@@ -455,7 +461,7 @@ let
         "forge-1.21.11" = _H3O91Y6J;
         "forge-26.1" = _pUOYfv67;
         "forge-26.1.1" = _YeIw4Hzt;
-        "forge-26.1.2" = _GoHzPTii;
+        "forge-26.1.2" = _sYPLHiGe;
         "forge-26.2" = _IyPDwAtz;
         "forge-26.3" = _DU7aAt89;
         "quilt-1.18.2" = _HaufhCNW;
@@ -480,7 +486,7 @@ let
         "quilt-1.21.11" = _H3O91Y6J;
         "quilt-26.1" = _pUOYfv67;
         "quilt-26.1.1" = _YeIw4Hzt;
-        "quilt-26.1.2" = _GoHzPTii;
+        "quilt-26.1.2" = _sYPLHiGe;
         "quilt-26.2" = _IyPDwAtz;
         "quilt-26.3" = _DU7aAt89;
         "neoforge-1.20.1" = _ghSzLmE0;
@@ -503,7 +509,7 @@ let
         "neoforge-1.21.11" = _H3O91Y6J;
         "neoforge-26.1" = _pUOYfv67;
         "neoforge-26.1.1" = _YeIw4Hzt;
-        "neoforge-26.1.2" = _GoHzPTii;
+        "neoforge-26.1.2" = _sYPLHiGe;
         "neoforge-26.2" = _IyPDwAtz;
         "neoforge-26.3" = _DU7aAt89;
         "pkg-1.18.2-1.0-forge+fabric" = _XrNhoHSv;
@@ -574,7 +580,8 @@ let
         "pkg-1.21.1-2.4-fabric+forge+neo" = _H9az4C3h;
         "pkg-26.2.0-2.4-fabric+forge+neo" = _IyPDwAtz;
         "pkg-26.3.0-2.4-fabric+forge+neo" = _DU7aAt89;
-        "default" = _DU7aAt89;
+        "pkg-26.1.2-2.4-fabric+forge+neo" = _sYPLHiGe;
+        "default" = _sYPLHiGe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "flower-mimics";

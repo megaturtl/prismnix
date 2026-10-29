@@ -526,6 +526,11 @@ let
             "file" = "Moonrise-Fabric-1.3.0-alpha.1+dd57e39.jar";
             "hash" = "sha512-skowfU5PBazwrUU5KFzKDOJSoUSzJ1jeTMLRGuQH8cowv66s3lYU7eLpXcxOTLSL5NWi43KDrogdTxyzMtXQIw==";
         };
+        _7QHz5gbK = {
+            "id" = "7QHz5gbK";
+            "file" = "Moonrise-Fabric-1.3.0-alpha.2+8c7fc39.jar";
+            "hash" = "sha512-Qs96Kw/sAz6TMbs3LSXalvBQGHQv1MAe1rlryPFNlGp2Q94jrg9TfR7HpyWdduihuwoDhUjHPc0dh0/6aIP3wA==";
+        };
     in {
         "VG2n7Ykt" = _VG2n7Ykt;
         "yP5U377b" = _yP5U377b;
@@ -632,6 +637,7 @@ let
         "xjb8GPPU" = _xjb8GPPU;
         "rjPBl8jz" = _rjPBl8jz;
         "f8xjZeop" = _f8xjZeop;
+        "7QHz5gbK" = _7QHz5gbK;
         "neoforge-1.21" = _eIaUXSTm;
         "neoforge-1.21.1" = _eIaUXSTm;
         "neoforge-1.21.3" = _BYjUlOhG;
@@ -665,6 +671,7 @@ let
         "fabric-26.2" = _72EQ5QZf;
         "fabric-26.3" = _1z5ctm95;
         "fabric-26.4-snapshot-5" = _f8xjZeop;
+        "fabric-26.4-snapshot-6" = _7QHz5gbK;
         "pkg-0.1.0-beta.1+98e8a08" = _yP5U377b;
         "pkg-0.1.0-beta.2+44f8058" = _Kxy5mXbm;
         "pkg-0.1.0-beta.3+23eddfe" = _jy6zRgXD;
@@ -718,7 +725,8 @@ let
         "pkg-1.2.1+e53de7f" = _yxlgqEFR;
         "pkg-1.0.2+ea9fc28" = _rjPBl8jz;
         "pkg-1.3.0-alpha.1+dd57e39" = _f8xjZeop;
-        "default" = _f8xjZeop;
+        "pkg-1.3.0-alpha.2+8c7fc39" = _7QHz5gbK;
+        "default" = _7QHz5gbK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "moonrise-opt";

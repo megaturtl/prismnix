@@ -121,6 +121,11 @@ let
             "file" = "souls_mod-26.1-1.5.4.jar";
             "hash" = "sha512-OE8edEq+IEZ4fbdz4Jw4H+qfTFH/fNneasFHzp4FAAI6/F2S7zRcn/iOMXc46k8OrU3AAP3ButOacCluYX73pg==";
         };
+        _JGxqEO4S = {
+            "id" = "JGxqEO4S";
+            "file" = "soulverse-0.1.0-beta.jar";
+            "hash" = "sha512-yUSnkqZb4LOT9H3G/aPTCLD8f5EviqdEC4is2wO4VFCtje2Kq0zndGTXhj6JmiIMHvAkRO7AHKcVVKWrxCC86Q==";
+        };
     in {
         "BYUN8Yds" = _BYUN8Yds;
         "ZFH3TvJb" = _ZFH3TvJb;
@@ -146,10 +151,12 @@ let
         "XWh6yfuS" = _XWh6yfuS;
         "YkAX6xQD" = _YkAX6xQD;
         "qM4pt8aM" = _qM4pt8aM;
+        "JGxqEO4S" = _JGxqEO4S;
         "fabric-1.21.1" = _TCJpEptT;
         "fabric-26.1" = _qM4pt8aM;
         "fabric-26.1.1" = _qM4pt8aM;
         "fabric-26.1.2" = _qM4pt8aM;
+        "fabric-26.3" = _JGxqEO4S;
         "pkg-0.9.0" = _BYUN8Yds;
         "pkg-1.0.0" = _ZFH3TvJb;
         "pkg-1.1.0" = _wuJLzC5u;
@@ -173,7 +180,8 @@ let
         "pkg-1.5.2" = _XWh6yfuS;
         "pkg-1.5.3" = _YkAX6xQD;
         "pkg-1.5.4" = _qM4pt8aM;
-        "default" = _qM4pt8aM;
+        "pkg-0.1.0-beta" = _JGxqEO4S;
+        "default" = _JGxqEO4S;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "souls-mod";

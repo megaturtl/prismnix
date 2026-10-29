@@ -61,6 +61,31 @@ let
             "file" = "hidearmor-1.21.11-1.4.2.jar";
             "hash" = "sha512-dEvT6Ymubrr9+SHqpQ4JV5Yiy1a41tnZsQeCd7p8zuYG6aDj2AtQwCfap8Cg0U+2FAT51cSKWvMcuV7SprNTtA==";
         };
+        _uGJVtu3V = {
+            "id" = "uGJVtu3V";
+            "file" = "show-me-your-skin-neoforge-2.0.3+26.3.jar";
+            "hash" = "sha512-h+wHOJ5c7NIOLAtutfb5woEou80Blu52SoF0oWNd+SKDKT1SJ+z3kobruxnjSYNWhfekfmbB86Ws9VRITU383w==";
+        };
+        _N2RpYAQn = {
+            "id" = "N2RpYAQn";
+            "file" = "show-me-your-skin-neoforge-2.0.3+26.2.jar";
+            "hash" = "sha512-xloE6IMkw3p6oce7OiNWaiX1naV77TMymga5KLgCfUrlrl8Qe6h0M6tDZYZsqhjMhd4SQuggYxAlrFxTDLIoTQ==";
+        };
+        _K1JNtYwO = {
+            "id" = "K1JNtYwO";
+            "file" = "show-me-your-skin-neoforge-2.0.3+26.1.2.jar";
+            "hash" = "sha512-6w2tPhUr74IKnRoH2ZvfRmC3CMWj01fpEnkJe0lyKgQa9Vp8uIvY/ASPUKe3XkQVv/yMMNaPOBmN/7Jcc5NrbA==";
+        };
+        _DPoVaXza = {
+            "id" = "DPoVaXza";
+            "file" = "show-me-your-skin-neoforge-2.0.3+26.1.1.jar";
+            "hash" = "sha512-+d4vOu6P+mP3YJwFx+Ko9jdxRv4+UYI6TGWt19vzJWC6U1QG6ENepEImyKPSFJciaYcm1FcljHCat1gdO5ocsg==";
+        };
+        _dYGK9Jkk = {
+            "id" = "dYGK9Jkk";
+            "file" = "show-me-your-skin-neoforge-2.0.3+26.1.jar";
+            "hash" = "sha512-5XI5HzNPlXeMjpEvj6YhHUqajEgCKzLj6/zaCCLuGoGMkIFb+lhE8TctShBTs5Hj0JEPPMiyrNksJBnEs7Rhww==";
+        };
     in {
         "aNBDwA1z" = _aNBDwA1z;
         "ZHgHtfHc" = _ZHgHtfHc;
@@ -74,6 +99,11 @@ let
         "ENycWWqa" = _ENycWWqa;
         "clvZsJ4d" = _clvZsJ4d;
         "R8GBiYLi" = _R8GBiYLi;
+        "uGJVtu3V" = _uGJVtu3V;
+        "N2RpYAQn" = _N2RpYAQn;
+        "K1JNtYwO" = _K1JNtYwO;
+        "DPoVaXza" = _DPoVaXza;
+        "dYGK9Jkk" = _dYGK9Jkk;
         "neoforge-1.21.1" = _aNBDwA1z;
         "neoforge-1.21" = _ZHgHtfHc;
         "neoforge-1.21.2" = _Fq7SL1db;
@@ -86,8 +116,17 @@ let
         "neoforge-1.21.9" = _ENycWWqa;
         "neoforge-1.21.10" = _clvZsJ4d;
         "neoforge-1.21.11" = _R8GBiYLi;
+        "neoforge-26.3" = _uGJVtu3V;
+        "neoforge-26.2" = _N2RpYAQn;
+        "neoforge-26.1.2" = _K1JNtYwO;
+        "neoforge-26.1.1" = _DPoVaXza;
+        "neoforge-26.1" = _dYGK9Jkk;
         "pkg-1.4.2" = _R8GBiYLi;
-        "default" = _R8GBiYLi;
+        "pkg-2.0.3" = _N2RpYAQn;
+        "pkg-2.0.3+26.1.2" = _K1JNtYwO;
+        "pkg-2.0.3+26.1.1" = _DPoVaXza;
+        "pkg-2.0.3+26.1" = _dYGK9Jkk;
+        "default" = _dYGK9Jkk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "show-me-your-skin-neoforge-port";

@@ -26,19 +26,26 @@ let
             "file" = "createschematicpreview-1.4.jar";
             "hash" = "sha512-HcuiUih/7dtkuO7Rfc2vSI1uL/NOO/M2pyluKK4IGUzAKbGKNTdLkzUIUz14aaUKul4IEDWPKuWBZb6IGxMHag==";
         };
+        _T4SAucD6 = {
+            "id" = "T4SAucD6";
+            "file" = "createschematicpreview-1.5.jar";
+            "hash" = "sha512-cqdvr0djTTzl5spcirN7HS0eid+nq+K7QJL7pbb5dWvmQX/XfiljdHI4Y9Q1INmU6k0BONFA7NHPlGfz3GQpHw==";
+        };
     in {
         "7O57bWk7" = _7O57bWk7;
         "nYpDIEZ4" = _nYpDIEZ4;
         "x6DFE2TE" = _x6DFE2TE;
         "9nC8j7Qr" = _9nC8j7Qr;
         "G9UxGwmr" = _G9UxGwmr;
-        "neoforge-1.21.1" = _G9UxGwmr;
+        "T4SAucD6" = _T4SAucD6;
+        "neoforge-1.21.1" = _T4SAucD6;
         "pkg-1.0" = _7O57bWk7;
         "pkg-1.1" = _nYpDIEZ4;
         "pkg-1.2" = _x6DFE2TE;
         "pkg-1.3" = _9nC8j7Qr;
         "pkg-1.4" = _G9UxGwmr;
-        "default" = _G9UxGwmr;
+        "pkg-1.5" = _T4SAucD6;
+        "default" = _T4SAucD6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-schematic-preview";

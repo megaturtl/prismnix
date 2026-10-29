@@ -401,6 +401,11 @@ let
             "file" = "placeableblazerods-26.3.0-4.3.jar";
             "hash" = "sha512-PBFfwaANH4WS0+UC7GtD+dnn23SdOmIRkW12OBQCCGrODULre6J4LV4q/SfjLOxMy2eSbrTiyRkQLjUSLkX6qw==";
         };
+        _cL0HTOfl = {
+            "id" = "cL0HTOfl";
+            "file" = "placeableblazerods-26.1.2-4.3.jar";
+            "hash" = "sha512-IYs8FRkVvem9q6fvlT+ElvgiJ6rWoTiwJqvimLbzY4l0r5eGsXdNclXW19DoxpAwwXBzcuich0GgE/DkwsVVwA==";
+        };
     in {
         "q5sUhhA5" = _q5sUhhA5;
         "eaGWnOOi" = _eaGWnOOi;
@@ -482,6 +487,7 @@ let
         "FyXrLIvh" = _FyXrLIvh;
         "EIJX5fi8" = _EIJX5fi8;
         "djDvKr2C" = _djDvKr2C;
+        "cL0HTOfl" = _cL0HTOfl;
         "fabric-1.16.5" = _iwaBPUYJ;
         "fabric-1.18.2" = _FliOLGAT;
         "fabric-1.19.2" = _xYte9z3n;
@@ -508,7 +514,7 @@ let
         "fabric-1.21.11" = _arQw2WOq;
         "fabric-26.1" = _d93qa87x;
         "fabric-26.1.1" = _SxMEiNWW;
-        "fabric-26.1.2" = _uKhnQpN1;
+        "fabric-26.1.2" = _cL0HTOfl;
         "fabric-26.2" = _EIJX5fi8;
         "fabric-26.3" = _djDvKr2C;
         "forge-1.16.5" = _yns77NPk;
@@ -535,7 +541,7 @@ let
         "forge-1.21.11" = _arQw2WOq;
         "forge-26.1" = _d93qa87x;
         "forge-26.1.1" = _SxMEiNWW;
-        "forge-26.1.2" = _uKhnQpN1;
+        "forge-26.1.2" = _cL0HTOfl;
         "forge-26.2" = _EIJX5fi8;
         "forge-26.3" = _djDvKr2C;
         "quilt-1.18.2" = _FliOLGAT;
@@ -563,7 +569,7 @@ let
         "quilt-1.21.11" = _arQw2WOq;
         "quilt-26.1" = _d93qa87x;
         "quilt-26.1.1" = _SxMEiNWW;
-        "quilt-26.1.2" = _uKhnQpN1;
+        "quilt-26.1.2" = _cL0HTOfl;
         "quilt-26.2" = _EIJX5fi8;
         "quilt-26.3" = _djDvKr2C;
         "neoforge-1.20.2" = _l9U2HNrG;
@@ -586,7 +592,7 @@ let
         "neoforge-1.21.11" = _arQw2WOq;
         "neoforge-26.1" = _d93qa87x;
         "neoforge-26.1.1" = _SxMEiNWW;
-        "neoforge-26.1.2" = _uKhnQpN1;
+        "neoforge-26.1.2" = _cL0HTOfl;
         "neoforge-26.2" = _EIJX5fi8;
         "neoforge-26.3" = _djDvKr2C;
         "pkg-1.16.5-1.6-fabric" = _q5sUhhA5;
@@ -669,7 +675,8 @@ let
         "pkg-1.21.1-4.3-fabric+forge+neo" = _FyXrLIvh;
         "pkg-26.2.0-4.3-fabric+forge+neo" = _EIJX5fi8;
         "pkg-26.3.0-4.3-fabric+forge+neo" = _djDvKr2C;
-        "default" = _djDvKr2C;
+        "pkg-26.1.2-4.3-fabric+forge+neo" = _cL0HTOfl;
+        "default" = _cL0HTOfl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "placeable-blaze-rods";

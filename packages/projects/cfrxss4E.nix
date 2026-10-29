@@ -136,6 +136,11 @@ let
             "file" = "screenshotcompression-26.3.0-1.4.jar";
             "hash" = "sha512-i9m2Fj8kjcTm1kS8Kw2U8wW2fdvPRjjrormZBYhjHDFsI3ZW1i6Y7PGUZf+28nJTnme46ciKCFzUg8m/JYNBng==";
         };
+        _VjfUGkCL = {
+            "id" = "VjfUGkCL";
+            "file" = "screenshotcompression-26.1.2-1.4.jar";
+            "hash" = "sha512-6+ltw1p2CQGmRQ0VzkahzumQFc3kWJ3zIruwJ0F+vUmrkANCiM8/vmMeb9Ea0tv345DeYRB+sRxMhEsCHiipvA==";
+        };
     in {
         "Ki3amh1r" = _Ki3amh1r;
         "Y5ZuiHmx" = _Y5ZuiHmx;
@@ -164,6 +169,7 @@ let
         "AYMUZYBV" = _AYMUZYBV;
         "tEuyU2xg" = _tEuyU2xg;
         "VkAbVc4t" = _VkAbVc4t;
+        "VjfUGkCL" = _VjfUGkCL;
         "fabric-1.20.1" = _DpQ7G6xZ;
         "fabric-1.21" = _AYMUZYBV;
         "fabric-1.21.1" = _AYMUZYBV;
@@ -177,7 +183,7 @@ let
         "fabric-1.21.11" = _m9ER33kn;
         "fabric-26.1" = _pp755guZ;
         "fabric-26.1.1" = _8FXqEa4i;
-        "fabric-26.1.2" = _eZrSMRYD;
+        "fabric-26.1.2" = _VjfUGkCL;
         "fabric-26.2" = _tEuyU2xg;
         "fabric-26.3" = _VkAbVc4t;
         "forge-1.20.1" = _DpQ7G6xZ;
@@ -193,7 +199,7 @@ let
         "forge-1.21.11" = _m9ER33kn;
         "forge-26.1" = _pp755guZ;
         "forge-26.1.1" = _8FXqEa4i;
-        "forge-26.1.2" = _eZrSMRYD;
+        "forge-26.1.2" = _VjfUGkCL;
         "forge-26.2" = _tEuyU2xg;
         "forge-26.3" = _VkAbVc4t;
         "neoforge-1.20.1" = _DpQ7G6xZ;
@@ -209,7 +215,7 @@ let
         "neoforge-1.21.11" = _m9ER33kn;
         "neoforge-26.1" = _pp755guZ;
         "neoforge-26.1.1" = _8FXqEa4i;
-        "neoforge-26.1.2" = _eZrSMRYD;
+        "neoforge-26.1.2" = _VjfUGkCL;
         "neoforge-26.2" = _tEuyU2xg;
         "neoforge-26.3" = _VkAbVc4t;
         "quilt-1.20.1" = _DpQ7G6xZ;
@@ -225,7 +231,7 @@ let
         "quilt-1.21.11" = _m9ER33kn;
         "quilt-26.1" = _pp755guZ;
         "quilt-26.1.1" = _8FXqEa4i;
-        "quilt-26.1.2" = _eZrSMRYD;
+        "quilt-26.1.2" = _VjfUGkCL;
         "quilt-26.2" = _tEuyU2xg;
         "quilt-26.3" = _VkAbVc4t;
         "pkg-1.20.1-1.0-fabric+forge+neo" = _Ki3amh1r;
@@ -255,7 +261,8 @@ let
         "pkg-1.21.1-1.4-fabric+forge+neo" = _AYMUZYBV;
         "pkg-26.2.0-1.4-fabric+forge+neo" = _tEuyU2xg;
         "pkg-26.3.0-1.4-fabric+forge+neo" = _VkAbVc4t;
-        "default" = _VkAbVc4t;
+        "pkg-26.1.2-1.4-fabric+forge+neo" = _VjfUGkCL;
+        "default" = _VjfUGkCL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "screenshot-compression";

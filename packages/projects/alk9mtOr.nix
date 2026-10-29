@@ -346,6 +346,11 @@ let
             "file" = "mo-variants-8.1.jar";
             "hash" = "sha512-0b0esizideoY6gTQs9fU2OyiUMG9Jb/Xz8TeDr61ynrvy1OK1TLw1JYjx/c1fBkwv1sxpmwol5bRtFHskMH7Qg==";
         };
+        _LDDF0Nul = {
+            "id" = "LDDF0Nul";
+            "file" = "MoVariants-V9.0-mc26.3.zip";
+            "hash" = "sha512-1ej7HRhv/WSJfsR1blt1cBcpOCyOMcxcG1RMOsKtJJ7mKVhMtoyRZvzur4MGPDYOnl8H/yaTv4E1yUPsKfVEgQ==";
+        };
     in {
         "FMXfJf7s" = _FMXfJf7s;
         "Uddvc7Ez" = _Uddvc7Ez;
@@ -416,6 +421,7 @@ let
         "OmKXkLHY" = _OmKXkLHY;
         "d0qFCrhT" = _d0qFCrhT;
         "zSfAV2Kk" = _zSfAV2Kk;
+        "LDDF0Nul" = _LDDF0Nul;
         "datapack-1.20.2" = _Dj3bEa0m;
         "datapack-1.20" = _Dj3bEa0m;
         "datapack-1.20.1" = _Dj3bEa0m;
@@ -444,6 +450,7 @@ let
         "datapack-26.1" = _d0qFCrhT;
         "datapack-26.1.1" = _d0qFCrhT;
         "datapack-26.1.2" = _d0qFCrhT;
+        "datapack-26.3" = _LDDF0Nul;
         "fabric-1.20.2" = _vxYLK79H;
         "fabric-1.20.3" = _vxYLK79H;
         "fabric-1.20.4" = _vxYLK79H;
@@ -611,7 +618,8 @@ let
         "pkg-8.0+mod" = _OmKXkLHY;
         "pkg-8.1" = _d0qFCrhT;
         "pkg-8.1+mod" = _zSfAV2Kk;
-        "default" = _zSfAV2Kk;
+        "pkg-9.0" = _LDDF0Nul;
+        "default" = _LDDF0Nul;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mo-variants";

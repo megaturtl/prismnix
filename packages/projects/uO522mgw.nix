@@ -291,6 +291,11 @@ let
             "file" = "scaffoldingdropsnearby-26.3.0-3.6.jar";
             "hash" = "sha512-geexrJ6I7cKvm/SRH7wD/KA60p8b+qQbvhZnP5sg0nRuveeX3M/mtTqoA7AWrXLEUZmJ3X+OhG18uEN90UjxZg==";
         };
+        _tQYpmhMo = {
+            "id" = "tQYpmhMo";
+            "file" = "scaffoldingdropsnearby-26.1.2-3.6.jar";
+            "hash" = "sha512-v0iOUDXXlV6cHV67k1cVV0j9IDD2Y4AAqkgh8hPUQ155G9R/uJepjMXshkqjWhBeMmmKsYipdToB7VJ7CM6CiA==";
+        };
     in {
         "LCaqWi3c" = _LCaqWi3c;
         "JB7ERqex" = _JB7ERqex;
@@ -350,6 +355,7 @@ let
         "MoI1myQu" = _MoI1myQu;
         "SOPOTKcB" = _SOPOTKcB;
         "HIDO8lTR" = _HIDO8lTR;
+        "tQYpmhMo" = _tQYpmhMo;
         "fabric-1.16.5" = _S4rUVOzv;
         "fabric-1.18.2" = _ZfMXVxxd;
         "fabric-1.19.2" = _wmgHQrOJ;
@@ -376,7 +382,7 @@ let
         "fabric-1.21.11" = _7uLr7YmD;
         "fabric-26.1" = _vgJehsxC;
         "fabric-26.1.1" = _RrkdGVG6;
-        "fabric-26.1.2" = _6IlLmP0j;
+        "fabric-26.1.2" = _tQYpmhMo;
         "fabric-26.2" = _SOPOTKcB;
         "fabric-26.3" = _HIDO8lTR;
         "forge-1.16.5" = _xVaqGq22;
@@ -403,7 +409,7 @@ let
         "forge-1.21.11" = _7uLr7YmD;
         "forge-26.1" = _vgJehsxC;
         "forge-26.1.1" = _RrkdGVG6;
-        "forge-26.1.2" = _6IlLmP0j;
+        "forge-26.1.2" = _tQYpmhMo;
         "forge-26.2" = _SOPOTKcB;
         "forge-26.3" = _HIDO8lTR;
         "quilt-1.18.2" = _ZfMXVxxd;
@@ -431,7 +437,7 @@ let
         "quilt-1.21.11" = _7uLr7YmD;
         "quilt-26.1" = _vgJehsxC;
         "quilt-26.1.1" = _RrkdGVG6;
-        "quilt-26.1.2" = _6IlLmP0j;
+        "quilt-26.1.2" = _tQYpmhMo;
         "quilt-26.2" = _SOPOTKcB;
         "quilt-26.3" = _HIDO8lTR;
         "neoforge-1.20.2" = _SPyw7ntt;
@@ -454,7 +460,7 @@ let
         "neoforge-1.21.11" = _7uLr7YmD;
         "neoforge-26.1" = _vgJehsxC;
         "neoforge-26.1.1" = _RrkdGVG6;
-        "neoforge-26.1.2" = _6IlLmP0j;
+        "neoforge-26.1.2" = _tQYpmhMo;
         "neoforge-26.2" = _SOPOTKcB;
         "neoforge-26.3" = _HIDO8lTR;
         "pkg-1.16.5-1.9-fabric" = _LCaqWi3c;
@@ -515,7 +521,8 @@ let
         "pkg-1.21.1-3.6-fabric+forge+neo" = _MoI1myQu;
         "pkg-26.2.0-3.6-fabric+forge+neo" = _SOPOTKcB;
         "pkg-26.3.0-3.6-fabric+forge+neo" = _HIDO8lTR;
-        "default" = _HIDO8lTR;
+        "pkg-26.1.2-3.6-fabric+forge+neo" = _tQYpmhMo;
+        "default" = _tQYpmhMo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "scaffolding-drops-nearby";

@@ -356,6 +356,11 @@ let
             "file" = "huskspawn-26.3.0-3.9.jar";
             "hash" = "sha512-jB7zeIP2sc4W4Ul8jNdDAKHb9EHb6O27Y3jBJSJHb0ZUW5epxLZn1gCrprt5fMRGptkK9mZ38xkTZvy/i3FlYA==";
         };
+        _egzVPM2R = {
+            "id" = "egzVPM2R";
+            "file" = "huskspawn-26.1.2-3.9.jar";
+            "hash" = "sha512-jxQvVcgabx18r1hMFdIShpdcksh4GHuEXof8cxEAjqxN8sr3X+WkiQ3J5TT6puk6HzZvD6oE5pWXaUHfkJ2DMw==";
+        };
     in {
         "mxjHQDuN" = _mxjHQDuN;
         "BCrwofWA" = _BCrwofWA;
@@ -428,6 +433,7 @@ let
         "bWfgBp3G" = _bWfgBp3G;
         "DWUyP5LK" = _DWUyP5LK;
         "hPFqTOMQ" = _hPFqTOMQ;
+        "egzVPM2R" = _egzVPM2R;
         "fabric-1.16.5" = _1NVB6hVR;
         "fabric-1.18.2" = _hK3i2Rxk;
         "fabric-1.19.2" = _RStwrcx8;
@@ -454,7 +460,7 @@ let
         "fabric-1.21.11" = _ioonmXwb;
         "fabric-26.1" = _IfUl2Uw2;
         "fabric-26.1.1" = _RQNF5287;
-        "fabric-26.1.2" = _P5fL5VYB;
+        "fabric-26.1.2" = _egzVPM2R;
         "fabric-26.2" = _DWUyP5LK;
         "fabric-26.3" = _hPFqTOMQ;
         "forge-1.16.5" = _rDQ4JK9t;
@@ -481,7 +487,7 @@ let
         "forge-1.21.11" = _ioonmXwb;
         "forge-26.1" = _IfUl2Uw2;
         "forge-26.1.1" = _RQNF5287;
-        "forge-26.1.2" = _P5fL5VYB;
+        "forge-26.1.2" = _egzVPM2R;
         "forge-26.2" = _DWUyP5LK;
         "forge-26.3" = _hPFqTOMQ;
         "quilt-1.18.2" = _hK3i2Rxk;
@@ -509,7 +515,7 @@ let
         "quilt-1.21.11" = _ioonmXwb;
         "quilt-26.1" = _IfUl2Uw2;
         "quilt-26.1.1" = _RQNF5287;
-        "quilt-26.1.2" = _P5fL5VYB;
+        "quilt-26.1.2" = _egzVPM2R;
         "quilt-26.2" = _DWUyP5LK;
         "quilt-26.3" = _hPFqTOMQ;
         "neoforge-1.20.2" = _9nzH3z0c;
@@ -532,7 +538,7 @@ let
         "neoforge-1.21.11" = _ioonmXwb;
         "neoforge-26.1" = _IfUl2Uw2;
         "neoforge-26.1.1" = _RQNF5287;
-        "neoforge-26.1.2" = _P5fL5VYB;
+        "neoforge-26.1.2" = _egzVPM2R;
         "neoforge-26.2" = _DWUyP5LK;
         "neoforge-26.3" = _hPFqTOMQ;
         "pkg-1.16.5-1.8-fabric" = _mxjHQDuN;
@@ -606,7 +612,8 @@ let
         "pkg-1.21.1-3.9-fabric+forge+neo" = _bWfgBp3G;
         "pkg-26.2.0-3.9-fabric+forge+neo" = _DWUyP5LK;
         "pkg-26.3.0-3.9-fabric+forge+neo" = _hPFqTOMQ;
-        "default" = _hPFqTOMQ;
+        "pkg-26.1.2-3.9-fabric+forge+neo" = _egzVPM2R;
+        "default" = _egzVPM2R;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "husk-spawn";

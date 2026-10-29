@@ -611,6 +611,16 @@ let
             "file" = "soundattract-7.0.2.jar";
             "hash" = "sha512-1+JihIorHX4HBdP6d6zVa3zpr34vhy/gyGfw8jjsOZf9i6cvUDO264dxxr1Fpe7JZu6kZTpO1ZHYG3dbmweNTA==";
         };
+        _TrtVoYWY = {
+            "id" = "TrtVoYWY";
+            "file" = "soundattract-7.0.2-26.2.jar";
+            "hash" = "sha512-+JQJiLHrjIlO7+nXs0F7av0lednGGo7QUf0yP2trz6KoAscIInWuBRc7yJUOvAE3XDy0bY5WhBAbXsjIQmEf2A==";
+        };
+        _eMWawxAD = {
+            "id" = "eMWawxAD";
+            "file" = "soundattract-7.0.2.jar";
+            "hash" = "sha512-1n31ufK2NSSeSAoo0R2wVnPouxH2MIHcHbUH6lTGnsT+gtEmZHeoTtI1d3aDOL9HildN8fHhx8APz6b4A3N1fw==";
+        };
     in {
         "4Z7xgC5k" = _4Z7xgC5k;
         "rrWHVsF4" = _rrWHVsF4;
@@ -734,6 +744,8 @@ let
         "gAPJl8zM" = _gAPJl8zM;
         "emXofEJc" = _emXofEJc;
         "LBWgA1cd" = _LBWgA1cd;
+        "TrtVoYWY" = _TrtVoYWY;
+        "eMWawxAD" = _eMWawxAD;
         "forge-1.18" = _rrWHVsF4;
         "forge-1.18.1" = _rrWHVsF4;
         "forge-1.18.2" = _1zpBdUOH;
@@ -745,7 +757,8 @@ let
         "fabric-1.20.1" = _gAPJl8zM;
         "fabric-1.21.1" = _emXofEJc;
         "fabric-1.21.11" = _LBWgA1cd;
-        "neoforge-1.21.1" = _gCBXBgLy;
+        "fabric-26.2" = _TrtVoYWY;
+        "neoforge-1.21.1" = _eMWawxAD;
         "neoforge-1.21.11" = _KH70ACvO;
         "neoforge-26.2" = _slSVjRoj;
         "pkg-1.0" = _4Z7xgC5k;
@@ -813,9 +826,9 @@ let
         "pkg-6.3.3b" = _HeN6cwOK;
         "pkg-7.0.0" = _Q6Zjy2Yu;
         "pkg-7.0.1" = _IA7bVyvf;
-        "pkg-7.0.2" = _LBWgA1cd;
+        "pkg-7.0.2" = _eMWawxAD;
         "pkg-7.0.2a" = _emXofEJc;
-        "default" = _LBWgA1cd;
+        "default" = _eMWawxAD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "attract-to-sound";

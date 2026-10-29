@@ -71,6 +71,21 @@ let
             "file" = "zombierool-26.7-beta.3.jar";
             "hash" = "sha512-oYhvEPanmcvXy9WHNpwCFLtMrZn/W5cQ9GLVImHwYfKDTBwqvS9uXF7ZdrhWgogB+doBG3NzwoJnfZV4impPFA==";
         };
+        _BowgWSkl = {
+            "id" = "BowgWSkl";
+            "file" = "zombierool-26.7-beta.4.jar";
+            "hash" = "sha512-a2kiaN47Ft86VIYAU93NGOuvI1i4nuGOvA1l4Cwjn3iTxzdz+w402HuWC3+Afl06SdSqY0JkHGsk3f99uFZFpA==";
+        };
+        _J3Jvlk9h = {
+            "id" = "J3Jvlk9h";
+            "file" = "zombierool-26.7-beta.5.jar";
+            "hash" = "sha512-5ip1MUSHcnfNyB8HAkuny3DQBp8p8UTWGBwEDHkV6QF5myZhVZeNyV8G2vmyJL8wNvOMWgxnnTUyn2daQKTXpw==";
+        };
+        _qzBH4jXk = {
+            "id" = "qzBH4jXk";
+            "file" = "zombierool-26.7-beta.6.jar";
+            "hash" = "sha512-Y4dDqM0SyYnBTA1NbvEf/T/b4hHo5VzC30eea0iU4lYM9Td7W9JSE3D0iD1vfBCGoERlScAv0OSl8AHPyEWoDQ==";
+        };
     in {
         "buVWZPQX" = _buVWZPQX;
         "kgBtkClr" = _kgBtkClr;
@@ -86,7 +101,10 @@ let
         "bCWBP3KS" = _bCWBP3KS;
         "DjDUpbDu" = _DjDUpbDu;
         "wMi10jh7" = _wMi10jh7;
-        "forge-1.20.1" = _wMi10jh7;
+        "BowgWSkl" = _BowgWSkl;
+        "J3Jvlk9h" = _J3Jvlk9h;
+        "qzBH4jXk" = _qzBH4jXk;
+        "forge-1.20.1" = _qzBH4jXk;
         "pkg-1.20.1-1.5.3.2" = _buVWZPQX;
         "pkg-1.20.1-1.6.0" = _kg2Of74A;
         "pkg-1.6.1" = _v9GxG9x9;
@@ -98,7 +116,10 @@ let
         "pkg-26.7-beta.1" = _bCWBP3KS;
         "pkg-26.7-beta.2" = _DjDUpbDu;
         "pkg-26.7-beta.3" = _wMi10jh7;
-        "default" = _wMi10jh7;
+        "pkg-26.7-beta.4" = _BowgWSkl;
+        "pkg-26.7-beta.5" = _J3Jvlk9h;
+        "pkg-26.7-beta.6" = _qzBH4jXk;
+        "default" = _qzBH4jXk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zombierool";

@@ -356,6 +356,11 @@ let
             "file" = "vanillazoom-26.3.0-3.3.jar";
             "hash" = "sha512-g83gOYthHS87STDUqEx9I8LLQz3AkZ6GO3aj85YA1REikltWkDrlBBCWzTIBqYuahitoLVobIwMlOnAcXjbAGg==";
         };
+        _SGRhkwcA = {
+            "id" = "SGRhkwcA";
+            "file" = "vanillazoom-26.1.2-3.3.jar";
+            "hash" = "sha512-SY4O+rdUvpaj82T1kFI5WIUDn8eI+pVdxQnnzjwP0HBHq3+oPvd20onkOn8syvbs4M3zD2vtPr7MO1xmWxSrqg==";
+        };
     in {
         "FXzEf3LC" = _FXzEf3LC;
         "IJdV4vHv" = _IJdV4vHv;
@@ -428,6 +433,7 @@ let
         "eYMtHdHr" = _eYMtHdHr;
         "FpEmYwcY" = _FpEmYwcY;
         "dvw8QIwu" = _dvw8QIwu;
+        "SGRhkwcA" = _SGRhkwcA;
         "fabric-1.18.2" = _IHMbmFUf;
         "fabric-1.19.2" = _efuy0qup;
         "fabric-1.19.3" = _ze3iGKM8;
@@ -453,7 +459,7 @@ let
         "fabric-1.21.11" = _yH0hWFs6;
         "fabric-26.1" = _uHvLhEk7;
         "fabric-26.1.1" = _x6OYZZ5T;
-        "fabric-26.1.2" = _bBqoewvF;
+        "fabric-26.1.2" = _SGRhkwcA;
         "fabric-26.2" = _FpEmYwcY;
         "fabric-26.3" = _dvw8QIwu;
         "forge-1.18.2" = _IHMbmFUf;
@@ -479,7 +485,7 @@ let
         "forge-1.21.11" = _yH0hWFs6;
         "forge-26.1" = _uHvLhEk7;
         "forge-26.1.1" = _x6OYZZ5T;
-        "forge-26.1.2" = _bBqoewvF;
+        "forge-26.1.2" = _SGRhkwcA;
         "forge-26.2" = _FpEmYwcY;
         "forge-26.3" = _dvw8QIwu;
         "quilt-1.18.2" = _IHMbmFUf;
@@ -507,7 +513,7 @@ let
         "quilt-1.21.11" = _yH0hWFs6;
         "quilt-26.1" = _uHvLhEk7;
         "quilt-26.1.1" = _x6OYZZ5T;
-        "quilt-26.1.2" = _bBqoewvF;
+        "quilt-26.1.2" = _SGRhkwcA;
         "quilt-26.2" = _FpEmYwcY;
         "quilt-26.3" = _dvw8QIwu;
         "neoforge-1.20.2" = _hEchLNGH;
@@ -530,7 +536,7 @@ let
         "neoforge-1.21.11" = _yH0hWFs6;
         "neoforge-26.1" = _uHvLhEk7;
         "neoforge-26.1.1" = _x6OYZZ5T;
-        "neoforge-26.1.2" = _bBqoewvF;
+        "neoforge-26.1.2" = _SGRhkwcA;
         "neoforge-26.2" = _FpEmYwcY;
         "neoforge-26.3" = _dvw8QIwu;
         "pkg-1.18.2-1.0-fabric" = _FXzEf3LC;
@@ -604,7 +610,8 @@ let
         "pkg-1.21.1-3.3-fabric+forge+neo" = _eYMtHdHr;
         "pkg-26.2.0-3.3-fabric+forge+neo" = _FpEmYwcY;
         "pkg-26.3.0-3.3-fabric+forge+neo" = _dvw8QIwu;
-        "default" = _dvw8QIwu;
+        "pkg-26.1.2-3.3-fabric+forge+neo" = _SGRhkwcA;
+        "default" = _SGRhkwcA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanilla-zoom";

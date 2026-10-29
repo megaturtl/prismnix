@@ -201,6 +201,16 @@ let
             "file" = "AllTheHeads-v21.1.2-mc1.21.1-Fabric.jar";
             "hash" = "sha512-0JuXsHxrNOSB9s29E2zGM//LaKZ3JebIGu1d6PT1B08/SASXhhoOWy37gmtyfVCdh0xkj80qTJWt6x4BXpjZXA==";
         };
+        _RWKYCTQt = {
+            "id" = "RWKYCTQt";
+            "file" = "alltheheads-v26.3.3-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-f7S3zqQq3eVdIbNFX1KnVbuIdV3tmrQ8PqTVNrBPwT8mJQBlISWq60eVNLUhgxpB+yfDPDmhnmtA89+z1fUfjg==";
+        };
+        _81S4Qaqp = {
+            "id" = "81S4Qaqp";
+            "file" = "alltheheads-v26.3.3-mc26.3.x+fabric.jar";
+            "hash" = "sha512-+N9VVuJK7V3MMGZxDmGN2+2LZLBIkXA8Am9jFkX/8AwAoPpk+nFK2JYZi1qTYHGQjuv6J7uruUce/CvxwuXcsQ==";
+        };
     in {
         "Z1NV2UN1" = _Z1NV2UN1;
         "7I4UUtgv" = _7I4UUtgv;
@@ -242,6 +252,8 @@ let
         "tKWWSsUt" = _tKWWSsUt;
         "sqescOYO" = _sqescOYO;
         "wEvm9Abo" = _wEvm9Abo;
+        "RWKYCTQt" = _RWKYCTQt;
+        "81S4Qaqp" = _81S4Qaqp;
         "fabric-1.21.8" = _j7UdEgjo;
         "fabric-1.21.10" = _A2GEggd3;
         "fabric-1.21.11" = _IdBKfdz4;
@@ -250,7 +262,7 @@ let
         "fabric-26.1.2" = _GJU8vmnF;
         "fabric-1.21.1" = _wEvm9Abo;
         "fabric-26.2" = _bsIRZnLd;
-        "fabric-26.3" = _U4JITmFR;
+        "fabric-26.3" = _81S4Qaqp;
         "neoforge-1.21.8" = _3NzWZfLG;
         "neoforge-1.21.10" = _DzDlJ25S;
         "neoforge-1.21.11" = _Q2QNAudZ;
@@ -259,7 +271,7 @@ let
         "neoforge-26.1.2" = _tKWWSsUt;
         "neoforge-1.21.1" = _sqescOYO;
         "neoforge-26.2" = _ZuEvOW4M;
-        "neoforge-26.3" = _tuvpAVw8;
+        "neoforge-26.3" = _RWKYCTQt;
         "pkg-v21.8.0-1.21.8-Fabric" = _Z1NV2UN1;
         "pkg-v21.8.0-1.21.8-NeoForge" = _7I4UUtgv;
         "pkg-21.10.0" = _s4v6D9dz;
@@ -282,7 +294,8 @@ let
         "pkg-26.3.2" = _tuvpAVw8;
         "pkg-26.1.4" = _tKWWSsUt;
         "pkg-21.1.2" = _wEvm9Abo;
-        "default" = _wEvm9Abo;
+        "pkg-26.3.3" = _81S4Qaqp;
+        "default" = _81S4Qaqp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "all-the-heads";

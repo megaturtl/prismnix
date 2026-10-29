@@ -171,6 +171,31 @@ let
             "file" = "livetextureeditor-3.jar";
             "hash" = "sha512-tYEKBkVzZc33k2OGaCr9Gg9lzs3WE75Y+VYmUIrom2XYsrtr9QFL4s14C9gbb+IIVWkap1tC6uAMyX2YYV2uSg==";
         };
+        _x5eSfQsA = {
+            "id" = "x5eSfQsA";
+            "file" = "livetextureeditor-neoforge-3-26.3.jar";
+            "hash" = "sha512-/7CNKmVSdBLmjyBv30JpX3sK7PUPZRvfnXtrKGRtqyMnGvMc0xc9N78ti3+/WNbDP0fmz9FIU5sXZftECdpfNw==";
+        };
+        _4K87jYRj = {
+            "id" = "4K87jYRj";
+            "file" = "livetextureeditor-neoforge-2.5-26.2.jar";
+            "hash" = "sha512-+GbkmXBjM90b5457vzigHkZUTrnalFfy2mI7UzQp12K1qqP5EaKUawbpoDrWatnbxW7TSsto3jU3CH+kd6FSWA==";
+        };
+        _a7W8QnAn = {
+            "id" = "a7W8QnAn";
+            "file" = "livetextureeditor-neoforge-2.5-26.1.2.jar";
+            "hash" = "sha512-MqeGaz32bFe00Rm2DiaH1jUqhR2819fuEe50IP0a0fBrXdX0bFm6wlQHcaZ4UeM7of9XGtwpOoK5lASYjSqF5A==";
+        };
+        _b5DoHyVL = {
+            "id" = "b5DoHyVL";
+            "file" = "livetextureeditor-fabric-3.jar";
+            "hash" = "sha512-/mFDog+a2bTcTiIfc0Jz1y+8MIJ7Hu3QSuYGihqu+szTynuyf4G+TRXWUd3DoYvgcO12RKdtLDqC+fcuXAa+YQ==";
+        };
+        _KDuY5i5o = {
+            "id" = "KDuY5i5o";
+            "file" = "livetextureeditor-neoforge-3.jar";
+            "hash" = "sha512-ZFDyA1G00vQW+LRynm3yLnrTdmY6HzYrFcrXwyS9X+Szj+wPoadbiG1h9kuSuOdiCFntObmJiLJEJ9Muv72owQ==";
+        };
     in {
         "TH4gb8bD" = _TH4gb8bD;
         "hhXMhYQX" = _hhXMhYQX;
@@ -206,6 +231,11 @@ let
         "Ry43MCWb" = _Ry43MCWb;
         "6X07enno" = _6X07enno;
         "qmblUJWn" = _qmblUJWn;
+        "x5eSfQsA" = _x5eSfQsA;
+        "4K87jYRj" = _4K87jYRj;
+        "a7W8QnAn" = _a7W8QnAn;
+        "b5DoHyVL" = _b5DoHyVL;
+        "KDuY5i5o" = _KDuY5i5o;
         "fabric-1.21.4" = _dttQ3RBN;
         "fabric-1.21.11" = _ozlOKTlZ;
         "fabric-1.21.10" = _BDS0Q6ql;
@@ -216,6 +246,12 @@ let
         "fabric-26.1.2" = _Ry43MCWb;
         "fabric-26.2" = _6X07enno;
         "fabric-26.3" = _qmblUJWn;
+        "fabric-1.20.1" = _b5DoHyVL;
+        "neoforge-26.3" = _x5eSfQsA;
+        "neoforge-26.2" = _4K87jYRj;
+        "neoforge-26.1.2" = _a7W8QnAn;
+        "neoforge-1.20.1" = _KDuY5i5o;
+        "forge-1.20.1" = _KDuY5i5o;
         "pkg-1.0" = _TH4gb8bD;
         "pkg-1.1" = _hhXMhYQX;
         "pkg-1.2" = _XsLxesWM;
@@ -236,9 +272,9 @@ let
         "pkg-2.2" = _2RezIsFW;
         "pkg-2.3" = _E648JKi5;
         "pkg-2.3.1" = _sXxXZWcq;
-        "pkg-2.5" = _6X07enno;
-        "pkg-3.0" = _qmblUJWn;
-        "default" = _qmblUJWn;
+        "pkg-2.5" = _a7W8QnAn;
+        "pkg-3.0" = _KDuY5i5o;
+        "default" = _KDuY5i5o;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "livetextureeditor";

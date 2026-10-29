@@ -61,6 +61,11 @@ let
             "file" = "shadedwar-2.4.0-BETA.309.jar";
             "hash" = "sha512-mx5Ld4xIfRkKNBdblqRYj41SLJTRRnsBHaJdDr+7i2nuvgUyiZ0e+gBBmexcJXA/zbXHGsdVuYI7TNvvhy05aQ==";
         };
+        _g1CoGwPg = {
+            "id" = "g1CoGwPg";
+            "file" = "shadedwar-3.0.0-BETA.629.jar";
+            "hash" = "sha512-7z4NxdJTl9Jb8Vg9nbbisWN0XZN9uVdg+ualCk/kzpBsnRgxf9JeLo/ij/WYORWkrICm13t0azAIl+VZyCVEnQ==";
+        };
     in {
         "BYIgOGPj" = _BYIgOGPj;
         "XjdZw4ZN" = _XjdZw4ZN;
@@ -74,7 +79,8 @@ let
         "mUFDPRoD" = _mUFDPRoD;
         "aFxTfCN1" = _aFxTfCN1;
         "1Ga93fGw" = _1Ga93fGw;
-        "forge-1.20.1" = _1Ga93fGw;
+        "g1CoGwPg" = _g1CoGwPg;
+        "forge-1.20.1" = _g1CoGwPg;
         "pkg-1.0.0" = _BYIgOGPj;
         "pkg-2.0.0-BETA.9" = _XjdZw4ZN;
         "pkg-2.0.0-BETA.15" = _itnlYXRV;
@@ -87,7 +93,8 @@ let
         "pkg-2.0.0-BETA.208" = _mUFDPRoD;
         "pkg-2.0.0-BETA.221" = _aFxTfCN1;
         "pkg-2.4.0-BETA.309" = _1Ga93fGw;
-        "default" = _1Ga93fGw;
+        "pkg-3.0.0-BETA.629" = _g1CoGwPg;
+        "default" = _g1CoGwPg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shaded-war";

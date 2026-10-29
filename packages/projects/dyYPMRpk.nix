@@ -261,6 +261,36 @@ let
             "file" = "compact-bedwars-hud-1.21.1-neoforge-1.3.1.jar";
             "hash" = "sha512-pAHHVvNzBVaFqhaaUaLWN0nTtFqFAO6jKAXS42D5XDC8BPEjjqbumWH2xxASdI5KkIy0DxnSyjhY3rFA8SON4Q==";
         };
+        _r4MY1h13 = {
+            "id" = "r4MY1h13";
+            "file" = "compact-bedwars-hud-26.3-forge-1.3.1.jar";
+            "hash" = "sha512-W9NZHximr/Ad9o1d99bmU4k7TdESWYeRM2y7OtO95yCBWjKZ+lVIylujrbQe3R+kRl59B8CGOfPUraJ5fds+Dg==";
+        };
+        _vTKrytHh = {
+            "id" = "vTKrytHh";
+            "file" = "compact-bedwars-hud-26.3-neoforge-1.3.1.jar";
+            "hash" = "sha512-JgLr9BbuXWQDFsF2+0a8BebXqarfpvsfMM5pl3OwD3grJHGb2LDWXFuka3Fu3y+4kXdeisxjIqb1FuWsk9lpdw==";
+        };
+        _xAuSysn0 = {
+            "id" = "xAuSysn0";
+            "file" = "compact-bedwars-hud-26.2-neoforge-1.3.1.jar";
+            "hash" = "sha512-NDJFZfHEr9vr9Pqyqjtb3SRTN7L/HXyYgAmMdTjx+XRVedhEyjTFVdH2ql9GX4qrHfBx9Ja3IXgJQMO8rigplg==";
+        };
+        _ARgDzakz = {
+            "id" = "ARgDzakz";
+            "file" = "compact-bedwars-hud-26.2-forge-1.3.1.jar";
+            "hash" = "sha512-Q0eNCW6Q3FXdu6x3wfselkCI3VpinnPUpIA0wCehHhNGF6ZLdD+300DUmX1EwqrrW4MxpBEdnHOsTx+lLeH/Kg==";
+        };
+        _9dlCivp5 = {
+            "id" = "9dlCivp5";
+            "file" = "compact-bedwars-hud-1.21.11-neoforge-1.3.1.jar";
+            "hash" = "sha512-q+gpjVUjCgf34dIrecyx2ebI9C+3pBZIXCHATogMzuGOpw7+h+FlfBpRA7YC55Ets/fPkI221sPRVgP1/KJ1yw==";
+        };
+        _NunB69wp = {
+            "id" = "NunB69wp";
+            "file" = "compact-bedwars-hud-1.21.11-forge-1.3.1.jar";
+            "hash" = "sha512-K5xvqFxckdg0uoqPOjnyHo4afotBJpnRCh4bbwqKzheiSHJaDL8Pnr83aap0GulABiqbwhtllKsR+oEOO21KnQ==";
+        };
     in {
         "ewQD1Zxk" = _ewQD1Zxk;
         "ArA0gKKn" = _ArA0gKKn;
@@ -314,6 +344,12 @@ let
         "7JMFiYue" = _7JMFiYue;
         "vrZA18TQ" = _vrZA18TQ;
         "CyGrllV2" = _CyGrllV2;
+        "r4MY1h13" = _r4MY1h13;
+        "vTKrytHh" = _vTKrytHh;
+        "xAuSysn0" = _xAuSysn0;
+        "ARgDzakz" = _ARgDzakz;
+        "9dlCivp5" = _9dlCivp5;
+        "NunB69wp" = _NunB69wp;
         "fabric-1.21.11" = _5sHaNVwk;
         "fabric-1.21.1" = _wDdJZr8W;
         "fabric-1.20.1" = _ivyqBStp;
@@ -326,16 +362,22 @@ let
         "forge-1.21.1" = _wCdmWczC;
         "forge-1.20.1" = _VpUyKZ26;
         "forge-1.8.9" = _7JMFiYue;
+        "forge-26.3" = _r4MY1h13;
+        "forge-26.2" = _ARgDzakz;
+        "forge-1.21.11" = _NunB69wp;
         "neoforge-1.20.1" = _vrZA18TQ;
         "neoforge-1.21.1" = _CyGrllV2;
+        "neoforge-26.3" = _vTKrytHh;
+        "neoforge-26.2" = _xAuSysn0;
+        "neoforge-1.21.11" = _9dlCivp5;
         "pkg-1.0" = _ewQD1Zxk;
         "pkg-1.1" = _g4dRdqtC;
         "pkg-1.2" = _MoUKJZVm;
         "pkg-1.2.1" = _zmqpr5jE;
         "pkg-1.2.2" = _sNxe9Ag2;
         "pkg-1.3" = _lo34ByLX;
-        "pkg-1.3.1" = _CyGrllV2;
-        "default" = _CyGrllV2;
+        "pkg-1.3.1" = _NunB69wp;
+        "default" = _NunB69wp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "compact-bedwars-hud";

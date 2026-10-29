@@ -1,0 +1,130 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _rcukw2N5 = {
+            "id" = "rcukw2N5";
+            "file" = "Unique Lanterns.zip";
+            "hash" = "sha512-O78mOt/w3i94jzjz/+UYcl0zfMP60zUwb+9SRQyh/iQ0nK0GTpRuyDvBl66QsTPaFgQqrSYc87Hsy5ZcSusqDw==";
+        };
+        _iWdqpwYg = {
+            "id" = "iWdqpwYg";
+            "file" = "Unique Lanterns.zip";
+            "hash" = "sha512-QgvD0IAN0CCpZU6MY6wWEd+nNravtuHU5va0J5YNbq82r1jot9uoyKBGaBY8Yh3FsfxsnyBoRJvS27Q9pfTzMg==";
+        };
+        _ApfdmUi0 = {
+            "id" = "ApfdmUi0";
+            "file" = "Unique Lanterns.zip";
+            "hash" = "sha512-3R0xdb4i6DziYDnY8MvWCmYwdVVvCBKIYJYe3w3/wCtwLQrZPZe480/5kz2bpCrL3JFkhHGEW15nM+Q6zoqQug==";
+        };
+        _1tnoFLoX = {
+            "id" = "1tnoFLoX";
+            "file" = "Unique Lanterns.zip";
+            "hash" = "sha512-NFf50uMT95SSkNbud/0a80MRW3nG6xFIk+0gDJESvZCha/jZV26+JNzVcRuhWufI8bGJafNQPeJYdYQyqF8Ipw==";
+        };
+    in {
+        "rcukw2N5" = _rcukw2N5;
+        "iWdqpwYg" = _iWdqpwYg;
+        "ApfdmUi0" = _ApfdmUi0;
+        "1tnoFLoX" = _1tnoFLoX;
+        "minecraft-1.21.9" = _1tnoFLoX;
+        "minecraft-1.21.10" = _1tnoFLoX;
+        "minecraft-1.21.11" = _1tnoFLoX;
+        "minecraft-1.21" = _1tnoFLoX;
+        "minecraft-1.21.1" = _1tnoFLoX;
+        "minecraft-1.21.2" = _1tnoFLoX;
+        "minecraft-1.21.3" = _1tnoFLoX;
+        "minecraft-1.21.4" = _1tnoFLoX;
+        "minecraft-1.21.5" = _1tnoFLoX;
+        "minecraft-1.21.6" = _1tnoFLoX;
+        "minecraft-1.21.7" = _1tnoFLoX;
+        "minecraft-1.21.8" = _1tnoFLoX;
+        "minecraft-26.1" = _1tnoFLoX;
+        "minecraft-26.1.1" = _1tnoFLoX;
+        "minecraft-26.1.2" = _1tnoFLoX;
+        "minecraft-1.20" = _1tnoFLoX;
+        "minecraft-1.20.1" = _1tnoFLoX;
+        "minecraft-23w31a" = _1tnoFLoX;
+        "minecraft-23w32a" = _1tnoFLoX;
+        "minecraft-23w33a" = _1tnoFLoX;
+        "minecraft-23w35a" = _1tnoFLoX;
+        "minecraft-1.20.2-pre1" = _1tnoFLoX;
+        "minecraft-1.20.2" = _1tnoFLoX;
+        "minecraft-23w42a" = _1tnoFLoX;
+        "minecraft-23w43a" = _1tnoFLoX;
+        "minecraft-23w43b" = _1tnoFLoX;
+        "minecraft-23w44a" = _1tnoFLoX;
+        "minecraft-23w45a" = _1tnoFLoX;
+        "minecraft-23w46a" = _1tnoFLoX;
+        "minecraft-1.20.3" = _1tnoFLoX;
+        "minecraft-1.20.4" = _1tnoFLoX;
+        "minecraft-24w03a" = _1tnoFLoX;
+        "minecraft-24w03b" = _1tnoFLoX;
+        "minecraft-24w04a" = _1tnoFLoX;
+        "minecraft-24w05a" = _1tnoFLoX;
+        "minecraft-24w05b" = _1tnoFLoX;
+        "minecraft-24w06a" = _1tnoFLoX;
+        "minecraft-24w07a" = _1tnoFLoX;
+        "minecraft-24w09a" = _1tnoFLoX;
+        "minecraft-24w10a" = _1tnoFLoX;
+        "minecraft-24w11a" = _1tnoFLoX;
+        "minecraft-24w12a" = _1tnoFLoX;
+        "minecraft-24w13a" = _1tnoFLoX;
+        "minecraft-24w14potato" = _1tnoFLoX;
+        "minecraft-24w14a" = _1tnoFLoX;
+        "minecraft-1.20.5-pre1" = _1tnoFLoX;
+        "minecraft-1.20.5-pre2" = _1tnoFLoX;
+        "minecraft-1.20.5-pre3" = _1tnoFLoX;
+        "minecraft-1.20.5" = _1tnoFLoX;
+        "minecraft-1.20.6" = _1tnoFLoX;
+        "minecraft-24w18a" = _1tnoFLoX;
+        "minecraft-24w19a" = _1tnoFLoX;
+        "minecraft-24w19b" = _1tnoFLoX;
+        "minecraft-24w20a" = _1tnoFLoX;
+        "minecraft-24w33a" = _1tnoFLoX;
+        "minecraft-24w34a" = _1tnoFLoX;
+        "minecraft-24w35a" = _1tnoFLoX;
+        "minecraft-24w36a" = _1tnoFLoX;
+        "minecraft-24w37a" = _1tnoFLoX;
+        "minecraft-24w38a" = _1tnoFLoX;
+        "minecraft-24w39a" = _1tnoFLoX;
+        "minecraft-24w40a" = _1tnoFLoX;
+        "minecraft-1.21.2-pre1" = _1tnoFLoX;
+        "minecraft-1.21.2-pre2" = _1tnoFLoX;
+        "minecraft-24w44a" = _1tnoFLoX;
+        "minecraft-24w45a" = _1tnoFLoX;
+        "minecraft-24w46a" = _1tnoFLoX;
+        "minecraft-26.2-snapshot-2" = _1tnoFLoX;
+        "minecraft-26.2-snapshot-3" = _1tnoFLoX;
+        "minecraft-26.2-snapshot-4" = _1tnoFLoX;
+        "minecraft-26.2-snapshot-5" = _1tnoFLoX;
+        "minecraft-26.2-snapshot-6" = _1tnoFLoX;
+        "minecraft-26.2-snapshot-7" = _1tnoFLoX;
+        "minecraft-26.2-snapshot-8" = _1tnoFLoX;
+        "minecraft-26.2-pre-1" = _1tnoFLoX;
+        "minecraft-26.2-pre-2" = _1tnoFLoX;
+        "minecraft-26.2-pre-3" = _1tnoFLoX;
+        "minecraft-26.2" = _1tnoFLoX;
+        "minecraft-26.3" = _1tnoFLoX;
+        "pkg-v1.0" = _rcukw2N5;
+        "pkg-v1.1" = _iWdqpwYg;
+        "pkg-v1.2" = _ApfdmUi0;
+        "pkg-v1.3" = _1tnoFLoX;
+        "default" = _1tnoFLoX;
+    });
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "unique-lanterns";
+        id = "86SnXwaU";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = null;
+            };
+        };
+    };
+in callPackage fn {}

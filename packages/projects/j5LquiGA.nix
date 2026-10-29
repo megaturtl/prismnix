@@ -311,6 +311,11 @@ let
             "file" = "naturallychargedcreepers-26.3.0-3.7.jar";
             "hash" = "sha512-V8fpJX7hmrK4gIvYDz8+eTE6S+jvUFgEadIPtrlP79yHKznFSWcJiXa67MbMHDrSDYVltFQ+lQ7nBH4Sj0MuJA==";
         };
+        _NKIatd61 = {
+            "id" = "NKIatd61";
+            "file" = "naturallychargedcreepers-26.1.2-3.7.jar";
+            "hash" = "sha512-03hxr2IHHv2SB4arHup4gk+UEpILL3uHMU4gYrjMgA0N3vip+0Av31Ba3sf6L5km8WWVQqBvOAilf5+v7xw0MQ==";
+        };
     in {
         "UpNcqbTH" = _UpNcqbTH;
         "cfdc1cS0" = _cfdc1cS0;
@@ -374,6 +379,7 @@ let
         "tgJG408J" = _tgJG408J;
         "o9AgJ4tD" = _o9AgJ4tD;
         "sJBZBlWS" = _sJBZBlWS;
+        "NKIatd61" = _NKIatd61;
         "fabric-1.16.5" = _Cixmjsu6;
         "fabric-1.18.2" = _L6dvF2sg;
         "fabric-1.19.2" = _pcAj6rJ2;
@@ -400,7 +406,7 @@ let
         "fabric-1.21.11" = _XuQIjNZy;
         "fabric-26.1" = _xRAA2SdP;
         "fabric-26.1.1" = _6mqGoQ0h;
-        "fabric-26.1.2" = _HWNQbN8w;
+        "fabric-26.1.2" = _NKIatd61;
         "fabric-26.2" = _o9AgJ4tD;
         "fabric-26.3" = _sJBZBlWS;
         "forge-1.16.5" = _Kiq6bLP9;
@@ -427,7 +433,7 @@ let
         "forge-1.21.11" = _XuQIjNZy;
         "forge-26.1" = _xRAA2SdP;
         "forge-26.1.1" = _6mqGoQ0h;
-        "forge-26.1.2" = _HWNQbN8w;
+        "forge-26.1.2" = _NKIatd61;
         "forge-26.2" = _o9AgJ4tD;
         "forge-26.3" = _sJBZBlWS;
         "quilt-1.18.2" = _L6dvF2sg;
@@ -455,7 +461,7 @@ let
         "quilt-1.21.11" = _XuQIjNZy;
         "quilt-26.1" = _xRAA2SdP;
         "quilt-26.1.1" = _6mqGoQ0h;
-        "quilt-26.1.2" = _HWNQbN8w;
+        "quilt-26.1.2" = _NKIatd61;
         "quilt-26.2" = _o9AgJ4tD;
         "quilt-26.3" = _sJBZBlWS;
         "neoforge-1.20.2" = _lK9scDa0;
@@ -478,7 +484,7 @@ let
         "neoforge-1.21.11" = _XuQIjNZy;
         "neoforge-26.1" = _xRAA2SdP;
         "neoforge-26.1.1" = _6mqGoQ0h;
-        "neoforge-26.1.2" = _HWNQbN8w;
+        "neoforge-26.1.2" = _NKIatd61;
         "neoforge-26.2" = _o9AgJ4tD;
         "neoforge-26.3" = _sJBZBlWS;
         "pkg-1.16.5-2.3-fabric" = _UpNcqbTH;
@@ -543,7 +549,8 @@ let
         "pkg-1.21.1-3.7-fabric+forge+neo" = _tgJG408J;
         "pkg-26.2.0-3.7-fabric+forge+neo" = _o9AgJ4tD;
         "pkg-26.3.0-3.7-fabric+forge+neo" = _sJBZBlWS;
-        "default" = _sJBZBlWS;
+        "pkg-26.1.2-3.7-fabric+forge+neo" = _NKIatd61;
+        "default" = _NKIatd61;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "naturally-charged-creepers";

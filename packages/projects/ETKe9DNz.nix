@@ -326,6 +326,11 @@ let
             "file" = "snowballsfreezemobs-26.3.0-4.1.jar";
             "hash" = "sha512-nYH8XdKxq3spaJVvIgm5eb96l/0hTmz3ChYF42lZ60qPmYiZbqClwNtA3cxKynzQ2LWkA+kqFa4fWd9k/tblrw==";
         };
+        _v4E1ZbMH = {
+            "id" = "v4E1ZbMH";
+            "file" = "snowballsfreezemobs-26.1.2-4.1.jar";
+            "hash" = "sha512-dvapo7yVyOMxT1HnqiCrxoekCI15PhpSqPO8T+dAdky74HwTlmV95SUN9LgpRVkJ9CQfzQSV2yX75NmpUwwsUQ==";
+        };
     in {
         "ESd6dhdW" = _ESd6dhdW;
         "HQkhWYvA" = _HQkhWYvA;
@@ -392,6 +397,7 @@ let
         "TA9dHn9E" = _TA9dHn9E;
         "QaXbIKN2" = _QaXbIKN2;
         "yRlZyA2r" = _yRlZyA2r;
+        "v4E1ZbMH" = _v4E1ZbMH;
         "fabric-1.16.5" = _t6w4pmk6;
         "fabric-1.18.2" = _agphq5Zt;
         "fabric-1.19.2" = _LebEybAw;
@@ -418,7 +424,7 @@ let
         "fabric-1.21.11" = _PyavCDqf;
         "fabric-26.1" = _UHaBrQHM;
         "fabric-26.1.1" = _bfgv8tN0;
-        "fabric-26.1.2" = _2UxAGMUp;
+        "fabric-26.1.2" = _v4E1ZbMH;
         "fabric-26.2" = _QaXbIKN2;
         "fabric-26.3" = _yRlZyA2r;
         "forge-1.16.5" = _a6MsmJE8;
@@ -445,7 +451,7 @@ let
         "forge-1.21.11" = _PyavCDqf;
         "forge-26.1" = _UHaBrQHM;
         "forge-26.1.1" = _bfgv8tN0;
-        "forge-26.1.2" = _2UxAGMUp;
+        "forge-26.1.2" = _v4E1ZbMH;
         "forge-26.2" = _QaXbIKN2;
         "forge-26.3" = _yRlZyA2r;
         "quilt-1.18.2" = _agphq5Zt;
@@ -473,7 +479,7 @@ let
         "quilt-1.21.11" = _PyavCDqf;
         "quilt-26.1" = _UHaBrQHM;
         "quilt-26.1.1" = _bfgv8tN0;
-        "quilt-26.1.2" = _2UxAGMUp;
+        "quilt-26.1.2" = _v4E1ZbMH;
         "quilt-26.2" = _QaXbIKN2;
         "quilt-26.3" = _yRlZyA2r;
         "neoforge-1.20.2" = _4Crt8H4N;
@@ -496,7 +502,7 @@ let
         "neoforge-1.21.11" = _PyavCDqf;
         "neoforge-26.1" = _UHaBrQHM;
         "neoforge-26.1.1" = _bfgv8tN0;
-        "neoforge-26.1.2" = _2UxAGMUp;
+        "neoforge-26.1.2" = _v4E1ZbMH;
         "neoforge-26.2" = _QaXbIKN2;
         "neoforge-26.3" = _yRlZyA2r;
         "pkg-1.16.5-1.9-fabric" = _ESd6dhdW;
@@ -564,7 +570,8 @@ let
         "pkg-1.21.1-4.1-fabric+forge+neo" = _TA9dHn9E;
         "pkg-26.2.0-4.1-fabric+forge+neo" = _QaXbIKN2;
         "pkg-26.3.0-4.1-fabric+forge+neo" = _yRlZyA2r;
-        "default" = _yRlZyA2r;
+        "pkg-26.1.2-4.1-fabric+forge+neo" = _v4E1ZbMH;
+        "default" = _v4E1ZbMH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "snowballs-freeze-mobs";

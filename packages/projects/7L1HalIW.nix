@@ -361,6 +361,11 @@ let
             "file" = "weakerspiderwebs-26.3.0-4.0.jar";
             "hash" = "sha512-tFmJt34CrvaXVMQUsAXp+w7vqatQF3boCm6yiSD9j97inUypSF+5bJbGJM1vpE5Z0vpI8XyH41EPh4wF9AXl7A==";
         };
+        _MyGrQKHX = {
+            "id" = "MyGrQKHX";
+            "file" = "weakerspiderwebs-26.1.2-4.0.jar";
+            "hash" = "sha512-QpQ4AU+gcDmKIKrSeT1nOlVFtuaJU5LJy+2FwsapCLlfPz+0VOhOQ7aWBAlTvn4WtKeHYW7Jsh1mx+7ansePDw==";
+        };
     in {
         "LLdcSXS6" = _LLdcSXS6;
         "wUZRfoDE" = _wUZRfoDE;
@@ -434,6 +439,7 @@ let
         "zMyz3Rbg" = _zMyz3Rbg;
         "Tq7jhUlp" = _Tq7jhUlp;
         "596P5Uhe" = _596P5Uhe;
+        "MyGrQKHX" = _MyGrQKHX;
         "fabric-1.16.5" = _iI5mN8PD;
         "fabric-1.18.2" = _PMP984TA;
         "fabric-1.19.2" = _P23h60QI;
@@ -460,7 +466,7 @@ let
         "fabric-1.21.11" = _K3D0y80V;
         "fabric-26.1" = _gh4NMJ3K;
         "fabric-26.1.1" = _fpiRMnTa;
-        "fabric-26.1.2" = _DgZNW1k0;
+        "fabric-26.1.2" = _MyGrQKHX;
         "fabric-26.2" = _Tq7jhUlp;
         "fabric-26.3" = _596P5Uhe;
         "forge-1.16.5" = _XRCAhZ8J;
@@ -487,7 +493,7 @@ let
         "forge-1.21.11" = _K3D0y80V;
         "forge-26.1" = _gh4NMJ3K;
         "forge-26.1.1" = _fpiRMnTa;
-        "forge-26.1.2" = _DgZNW1k0;
+        "forge-26.1.2" = _MyGrQKHX;
         "forge-26.2" = _Tq7jhUlp;
         "forge-26.3" = _596P5Uhe;
         "quilt-1.18.2" = _PMP984TA;
@@ -515,7 +521,7 @@ let
         "quilt-1.21.11" = _K3D0y80V;
         "quilt-26.1" = _gh4NMJ3K;
         "quilt-26.1.1" = _fpiRMnTa;
-        "quilt-26.1.2" = _DgZNW1k0;
+        "quilt-26.1.2" = _MyGrQKHX;
         "quilt-26.2" = _Tq7jhUlp;
         "quilt-26.3" = _596P5Uhe;
         "neoforge-1.20.2" = _Ef2LJTi6;
@@ -538,7 +544,7 @@ let
         "neoforge-1.21.11" = _K3D0y80V;
         "neoforge-26.1" = _gh4NMJ3K;
         "neoforge-26.1.1" = _fpiRMnTa;
-        "neoforge-26.1.2" = _DgZNW1k0;
+        "neoforge-26.1.2" = _MyGrQKHX;
         "neoforge-26.2" = _Tq7jhUlp;
         "neoforge-26.3" = _596P5Uhe;
         "pkg-1.16.5-2.4-fabric" = _LLdcSXS6;
@@ -613,7 +619,8 @@ let
         "pkg-1.21.1-4.0-fabric+forge+neo" = _zMyz3Rbg;
         "pkg-26.2.0-4.0-fabric+forge+neo" = _Tq7jhUlp;
         "pkg-26.3.0-4.0-fabric+forge+neo" = _596P5Uhe;
-        "default" = _596P5Uhe;
+        "pkg-26.1.2-4.0-fabric+forge+neo" = _MyGrQKHX;
+        "default" = _MyGrQKHX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "weaker-spiderwebs";

@@ -226,6 +226,16 @@ let
             "file" = "fluidlogistics-1.3.1-mc1.21.1.jar";
             "hash" = "sha512-4L4eHfUAHAUuId7yZCKLFtWUCTJxvafqnaopOIey4o7JZnyxJF/66KEo7pZEyAw71MNQbud8V+zLl0Ccnl++gQ==";
         };
+        _hIpezHrZ = {
+            "id" = "hIpezHrZ";
+            "file" = "fluidlogistics-1.3.2-mc1.20.1.jar";
+            "hash" = "sha512-Qp7vAc627BDVY7tzwc8EBz1N+DW1/GKwFY0QPceUi3fNDwqS81cpsm5vU09DksMLaqVTYHLkn54atKNhs1Glog==";
+        };
+        _HiLD5edv = {
+            "id" = "HiLD5edv";
+            "file" = "fluidlogistics-1.3.2-mc1.21.1.jar";
+            "hash" = "sha512-uEh1ORuxAeP+1z2rtPZL4AL81wNMRxfV6OHjXSTyksIzvOwigYZ99l0J3QUVYfjEpgTwiQYouocOqvvRSmPShg==";
+        };
     in {
         "XlcTgOiV" = _XlcTgOiV;
         "rxjdvPhW" = _rxjdvPhW;
@@ -272,8 +282,10 @@ let
         "AecYOJ0G" = _AecYOJ0G;
         "Ty89ChiK" = _Ty89ChiK;
         "YepGDZRz" = _YepGDZRz;
-        "neoforge-1.21.1" = _YepGDZRz;
-        "forge-1.20.1" = _Ty89ChiK;
+        "hIpezHrZ" = _hIpezHrZ;
+        "HiLD5edv" = _HiLD5edv;
+        "neoforge-1.21.1" = _HiLD5edv;
+        "forge-1.20.1" = _hIpezHrZ;
         "pkg-0.6.0" = _1GHrssG8;
         "pkg-0.8.0" = _rxjdvPhW;
         "pkg-0.8.5" = _ugYeV8wB;
@@ -302,7 +314,9 @@ let
         "pkg-1.3.0-mc1.21.1" = _AecYOJ0G;
         "pkg-1.3.1-mc1.20.1" = _Ty89ChiK;
         "pkg-1.3.1-mc1.21.1" = _YepGDZRz;
-        "default" = _YepGDZRz;
+        "pkg-1.3.2-mc1.20.1" = _hIpezHrZ;
+        "pkg-1.3.2-mc1.21.1" = _HiLD5edv;
+        "default" = _HiLD5edv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "createfluidlogistic";

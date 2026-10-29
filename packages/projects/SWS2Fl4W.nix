@@ -311,6 +311,11 @@ let
             "file" = "altereddamage-26.3.0-3.8.jar";
             "hash" = "sha512-sOqznEm209ia26TA7TI+/CXk696hQjgLZHUXyq1ykq3WEDz8X0T6J0NhOW+rU6Tu3Lu4zs8WqJWTUyapam1iuw==";
         };
+        _MsHotYLn = {
+            "id" = "MsHotYLn";
+            "file" = "altereddamage-26.1.2-3.8.jar";
+            "hash" = "sha512-DWWjOZ6kx/SOo5GZMu6y9Sb3VKv1Hh/v6LO+D8yKt4rYoP+YcJ/2458S9P1X8PQCqtkPL7bt+M/IRn1asmn3lw==";
+        };
     in {
         "y2oaWuTp" = _y2oaWuTp;
         "cL1td1kd" = _cL1td1kd;
@@ -374,6 +379,7 @@ let
         "JMD0kceH" = _JMD0kceH;
         "LlQgRLBd" = _LlQgRLBd;
         "GuDvD2UL" = _GuDvD2UL;
+        "MsHotYLn" = _MsHotYLn;
         "fabric-1.16.5" = _PVHosuTT;
         "fabric-1.18.2" = _jrIqx4ON;
         "fabric-1.19.2" = _4vXVaYdh;
@@ -400,7 +406,7 @@ let
         "fabric-1.21.11" = _EQvizoJy;
         "fabric-26.1" = _NRPG5Ali;
         "fabric-26.1.1" = _VvlcA9Es;
-        "fabric-26.1.2" = _kUKCIArg;
+        "fabric-26.1.2" = _MsHotYLn;
         "fabric-26.2" = _LlQgRLBd;
         "fabric-26.3" = _GuDvD2UL;
         "forge-1.16.5" = _jIWPeYoL;
@@ -427,7 +433,7 @@ let
         "forge-1.21.11" = _EQvizoJy;
         "forge-26.1" = _NRPG5Ali;
         "forge-26.1.1" = _VvlcA9Es;
-        "forge-26.1.2" = _kUKCIArg;
+        "forge-26.1.2" = _MsHotYLn;
         "forge-26.2" = _LlQgRLBd;
         "forge-26.3" = _GuDvD2UL;
         "quilt-1.18.2" = _jrIqx4ON;
@@ -455,7 +461,7 @@ let
         "quilt-1.21.11" = _EQvizoJy;
         "quilt-26.1" = _NRPG5Ali;
         "quilt-26.1.1" = _VvlcA9Es;
-        "quilt-26.1.2" = _kUKCIArg;
+        "quilt-26.1.2" = _MsHotYLn;
         "quilt-26.2" = _LlQgRLBd;
         "quilt-26.3" = _GuDvD2UL;
         "neoforge-1.20.2" = _DHYVch89;
@@ -478,7 +484,7 @@ let
         "neoforge-1.21.11" = _EQvizoJy;
         "neoforge-26.1" = _NRPG5Ali;
         "neoforge-26.1.1" = _VvlcA9Es;
-        "neoforge-26.1.2" = _kUKCIArg;
+        "neoforge-26.1.2" = _MsHotYLn;
         "neoforge-26.2" = _LlQgRLBd;
         "neoforge-26.3" = _GuDvD2UL;
         "pkg-1.16.5-1.9-fabric" = _y2oaWuTp;
@@ -543,7 +549,8 @@ let
         "pkg-1.21.1-3.8-fabric+forge+neo" = _JMD0kceH;
         "pkg-26.2.0-3.8-fabric+forge+neo" = _LlQgRLBd;
         "pkg-26.3.0-3.8-fabric+forge+neo" = _GuDvD2UL;
-        "default" = _GuDvD2UL;
+        "pkg-26.1.2-3.8-fabric+forge+neo" = _MsHotYLn;
+        "default" = _MsHotYLn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "altered-damage";

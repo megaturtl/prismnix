@@ -336,6 +336,11 @@ let
             "file" = "biggerspongeabsorptionradius-26.3.0-3.8.jar";
             "hash" = "sha512-9zI/gu79B8e5NF2mM27Wq+65TTuJtyne0KcJ/C0+C5GVrR6VatnVIvgyFWpXPWBj6+mizaOv1mA4Mnm7nmQFcw==";
         };
+        _jEVichCa = {
+            "id" = "jEVichCa";
+            "file" = "biggerspongeabsorptionradius-26.1.2-3.8.jar";
+            "hash" = "sha512-4+9x9dVg0ort8YQQO3JlPvIXlml+aKJtHs+CchEqC/IBq1wgbg9MLHJUmy453Hq4mm8lccdlsO8KwnWLhl0WXw==";
+        };
     in {
         "DZEhNppi" = _DZEhNppi;
         "6PeAKJDr" = _6PeAKJDr;
@@ -404,6 +409,7 @@ let
         "JG67Rzut" = _JG67Rzut;
         "yd6KozWq" = _yd6KozWq;
         "3IKr48hR" = _3IKr48hR;
+        "jEVichCa" = _jEVichCa;
         "fabric-1.16.5" = _mcKln5Py;
         "fabric-1.18.2" = _gQy5DKEU;
         "fabric-1.19.2" = _P6jDUvJE;
@@ -430,7 +436,7 @@ let
         "fabric-1.21.11" = _KzkF169B;
         "fabric-26.1" = _nFPEwkhN;
         "fabric-26.1.1" = _De2hgLbA;
-        "fabric-26.1.2" = _EUl1ytvB;
+        "fabric-26.1.2" = _jEVichCa;
         "fabric-26.2" = _yd6KozWq;
         "fabric-26.3" = _3IKr48hR;
         "forge-1.16.5" = _V1cEiNbL;
@@ -457,7 +463,7 @@ let
         "forge-1.21.11" = _KzkF169B;
         "forge-26.1" = _nFPEwkhN;
         "forge-26.1.1" = _De2hgLbA;
-        "forge-26.1.2" = _EUl1ytvB;
+        "forge-26.1.2" = _jEVichCa;
         "forge-26.2" = _yd6KozWq;
         "forge-26.3" = _3IKr48hR;
         "quilt-1.18.2" = _gQy5DKEU;
@@ -485,7 +491,7 @@ let
         "quilt-1.21.11" = _KzkF169B;
         "quilt-26.1" = _nFPEwkhN;
         "quilt-26.1.1" = _De2hgLbA;
-        "quilt-26.1.2" = _EUl1ytvB;
+        "quilt-26.1.2" = _jEVichCa;
         "quilt-26.2" = _yd6KozWq;
         "quilt-26.3" = _3IKr48hR;
         "neoforge-1.20.2" = _CktwrUJV;
@@ -508,7 +514,7 @@ let
         "neoforge-1.21.11" = _KzkF169B;
         "neoforge-26.1" = _nFPEwkhN;
         "neoforge-26.1.1" = _De2hgLbA;
-        "neoforge-26.1.2" = _EUl1ytvB;
+        "neoforge-26.1.2" = _jEVichCa;
         "neoforge-26.2" = _yd6KozWq;
         "neoforge-26.3" = _3IKr48hR;
         "pkg-1.16.5-2.4-fabric" = _DZEhNppi;
@@ -576,7 +582,8 @@ let
         "pkg-1.21.1-3.8-fabric+forge+neo" = _JG67Rzut;
         "pkg-26.2.0-3.8-fabric+forge+neo" = _yd6KozWq;
         "pkg-26.3.0-3.8-fabric+forge+neo" = _3IKr48hR;
-        "default" = _3IKr48hR;
+        "pkg-26.1.2-3.8-fabric+forge+neo" = _jEVichCa;
+        "default" = _jEVichCa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bigger-sponge-absorption-radius";

@@ -441,6 +441,11 @@ let
             "file" = "skeletonhorsespawn-26.3.0-4.5.jar";
             "hash" = "sha512-fZ/WUuZbRDJjSVpSYsNzMDjs5KkO0kwVtrLDfAB9cFSp9wHyTW9X3uq0XF83X5MDV/00QgosSdsLG8DlUPG/Fw==";
         };
+        _fge46iiz = {
+            "id" = "fge46iiz";
+            "file" = "skeletonhorsespawn-26.1.2-4.5.jar";
+            "hash" = "sha512-+md9IJvzWexnAjnSlRP3ExTNswKt48q8tDCsWJu+O1zpzaT8lGMjyt5ezMgATdbo+4j+BuPPmuqevXdDPdFsRA==";
+        };
     in {
         "4cmVha2O" = _4cmVha2O;
         "R6CtjGFE" = _R6CtjGFE;
@@ -530,6 +535,7 @@ let
         "T4V0vWjR" = _T4V0vWjR;
         "cuTJvk2S" = _cuTJvk2S;
         "7jS2KBeL" = _7jS2KBeL;
+        "fge46iiz" = _fge46iiz;
         "fabric-1.16.5" = _fIAtr0DQ;
         "fabric-1.18.2" = _V905zClb;
         "fabric-1.19.2" = _HiTCGHfW;
@@ -556,7 +562,7 @@ let
         "fabric-1.21.11" = _7Mn2FO7G;
         "fabric-26.1" = _zdvsvBdo;
         "fabric-26.1.1" = _HG8dArKy;
-        "fabric-26.1.2" = _WaLZaNpw;
+        "fabric-26.1.2" = _fge46iiz;
         "fabric-26.2" = _cuTJvk2S;
         "fabric-26.3" = _7jS2KBeL;
         "forge-1.16.5" = _z54iXzeP;
@@ -583,7 +589,7 @@ let
         "forge-1.21.11" = _7Mn2FO7G;
         "forge-26.1" = _zdvsvBdo;
         "forge-26.1.1" = _HG8dArKy;
-        "forge-26.1.2" = _WaLZaNpw;
+        "forge-26.1.2" = _fge46iiz;
         "forge-26.2" = _cuTJvk2S;
         "forge-26.3" = _7jS2KBeL;
         "quilt-1.18.2" = _V905zClb;
@@ -611,7 +617,7 @@ let
         "quilt-1.21.11" = _7Mn2FO7G;
         "quilt-26.1" = _zdvsvBdo;
         "quilt-26.1.1" = _HG8dArKy;
-        "quilt-26.1.2" = _WaLZaNpw;
+        "quilt-26.1.2" = _fge46iiz;
         "quilt-26.2" = _cuTJvk2S;
         "quilt-26.3" = _7jS2KBeL;
         "neoforge-1.20.2" = _MDah7CdE;
@@ -634,7 +640,7 @@ let
         "neoforge-1.21.11" = _7Mn2FO7G;
         "neoforge-26.1" = _zdvsvBdo;
         "neoforge-26.1.1" = _HG8dArKy;
-        "neoforge-26.1.2" = _WaLZaNpw;
+        "neoforge-26.1.2" = _fge46iiz;
         "neoforge-26.2" = _cuTJvk2S;
         "neoforge-26.3" = _7jS2KBeL;
         "pkg-1.16.5-2.3-fabric" = _4cmVha2O;
@@ -725,7 +731,8 @@ let
         "pkg-1.21.1-4.5-fabric+forge+neo" = _T4V0vWjR;
         "pkg-26.2.0-4.5-fabric+forge+neo" = _cuTJvk2S;
         "pkg-26.3.0-4.5-fabric+forge+neo" = _7jS2KBeL;
-        "default" = _7jS2KBeL;
+        "pkg-26.1.2-4.5-fabric+forge+neo" = _fge46iiz;
+        "default" = _fge46iiz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skeleton-horse-spawn";

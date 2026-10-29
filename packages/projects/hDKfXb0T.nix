@@ -291,6 +291,11 @@ let
             "file" = "zombieproofdoors-26.3.0-3.6.jar";
             "hash" = "sha512-3XNhe4hAVI8yZDfJPbvJq7UWuPX0q0B8oNtifD4TgMB1+GfgG+tnGuRZwnK1H+Ht+qyCI+roSis2VHKVBIRy/A==";
         };
+        _1G0gkuwL = {
+            "id" = "1G0gkuwL";
+            "file" = "zombieproofdoors-26.1.2-3.6.jar";
+            "hash" = "sha512-quZHr6dnAMAov5MYVN8yAMEEcPVB4hq/gY7wOEGrSeae5g1wNBMpFl1YdaRP73tSRgC+1Bvhaj/k8B3qvrXZrw==";
+        };
     in {
         "V2VWjHuc" = _V2VWjHuc;
         "TU0FwDFl" = _TU0FwDFl;
@@ -350,6 +355,7 @@ let
         "Sgadr0y8" = _Sgadr0y8;
         "4snd54Ix" = _4snd54Ix;
         "ONtNsJ7x" = _ONtNsJ7x;
+        "1G0gkuwL" = _1G0gkuwL;
         "fabric-1.16.5" = _U7xUIOuW;
         "fabric-1.18.2" = _8evp8zUf;
         "fabric-1.19.2" = _BC6szLH2;
@@ -376,7 +382,7 @@ let
         "fabric-1.21.11" = _FvgGtm6S;
         "fabric-26.1" = _NUkMv8Bb;
         "fabric-26.1.1" = _TVUeFT5c;
-        "fabric-26.1.2" = _1EmSooA9;
+        "fabric-26.1.2" = _1G0gkuwL;
         "fabric-26.2" = _4snd54Ix;
         "fabric-26.3" = _ONtNsJ7x;
         "forge-1.16.5" = _l5o4MYZs;
@@ -403,7 +409,7 @@ let
         "forge-1.21.11" = _FvgGtm6S;
         "forge-26.1" = _NUkMv8Bb;
         "forge-26.1.1" = _TVUeFT5c;
-        "forge-26.1.2" = _1EmSooA9;
+        "forge-26.1.2" = _1G0gkuwL;
         "forge-26.2" = _4snd54Ix;
         "forge-26.3" = _ONtNsJ7x;
         "quilt-1.18.2" = _8evp8zUf;
@@ -431,7 +437,7 @@ let
         "quilt-1.21.11" = _FvgGtm6S;
         "quilt-26.1" = _NUkMv8Bb;
         "quilt-26.1.1" = _TVUeFT5c;
-        "quilt-26.1.2" = _1EmSooA9;
+        "quilt-26.1.2" = _1G0gkuwL;
         "quilt-26.2" = _4snd54Ix;
         "quilt-26.3" = _ONtNsJ7x;
         "neoforge-1.20.2" = _7LLnDRDL;
@@ -454,7 +460,7 @@ let
         "neoforge-1.21.11" = _FvgGtm6S;
         "neoforge-26.1" = _NUkMv8Bb;
         "neoforge-26.1.1" = _TVUeFT5c;
-        "neoforge-26.1.2" = _1EmSooA9;
+        "neoforge-26.1.2" = _1G0gkuwL;
         "neoforge-26.2" = _4snd54Ix;
         "neoforge-26.3" = _ONtNsJ7x;
         "pkg-1.16.5-1.7-fabric" = _V2VWjHuc;
@@ -515,7 +521,8 @@ let
         "pkg-1.21.1-3.6-fabric+forge+neo" = _Sgadr0y8;
         "pkg-26.2.0-3.6-fabric+forge+neo" = _4snd54Ix;
         "pkg-26.3.0-3.6-fabric+forge+neo" = _ONtNsJ7x;
-        "default" = _ONtNsJ7x;
+        "pkg-26.1.2-3.6-fabric+forge+neo" = _1G0gkuwL;
+        "default" = _1G0gkuwL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zombie-proof-doors";

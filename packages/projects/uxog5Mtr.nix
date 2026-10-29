@@ -16,20 +16,27 @@ let
             "file" = "yet_another_durability_tooltip-1.0.0-build1.jar";
             "hash" = "sha512-sfX/VFWdWzStSJyE9mcA4Q0vdNN4+2gk7TYkCOSCqVj/8p2LFDCMjQ5FLuTMziCnAAldEXmtYb1CpvtLNHjSpA==";
         };
+        _uq6P4zhV = {
+            "id" = "uq6P4zhV";
+            "file" = "yet_another_durability_tooltip-1.0.1-build1.jar";
+            "hash" = "sha512-pZB6c+C3YNkAXsFHMepUsVRgPMYUzbE2WsCUrjJa19LBO7t95XELBb6bmvj5dLcyB9zOZYkvzDlj1/a07l+ZMw==";
+        };
     in {
         "l421yiTU" = _l421yiTU;
         "uo5aGMV2" = _uo5aGMV2;
         "ptRFa8E4" = _ptRFa8E4;
+        "uq6P4zhV" = _uq6P4zhV;
         "fabric-26.1.1" = _l421yiTU;
         "fabric-26.1.2" = _l421yiTU;
         "fabric-26.2-snapshot-2" = _l421yiTU;
         "fabric-26.2-snapshot-3" = _l421yiTU;
         "fabric-26.2" = _uo5aGMV2;
-        "fabric-26.3" = _ptRFa8E4;
+        "fabric-26.3" = _uq6P4zhV;
         "pkg-1.0.0" = _l421yiTU;
         "pkg-26.2-1.0.0" = _uo5aGMV2;
         "pkg-1.0.0-build1" = _ptRFa8E4;
-        "default" = _ptRFa8E4;
+        "pkg-1.0.1-build1" = _uq6P4zhV;
+        "default" = _uq6P4zhV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "yet_another_durability_tooltip";

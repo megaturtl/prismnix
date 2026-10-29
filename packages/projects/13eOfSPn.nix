@@ -61,6 +61,11 @@ let
             "file" = "Steam_Rails-1.7.3.1+fly-mc26.1.jar";
             "hash" = "sha512-+xXWySQ8KTm3nxkOvrTchw92ycmd51MYythQz2enFPFsCzQ4E3G8VwPs9I5+sTyYLBTT08oj64rHWU163oH/vg==";
         };
+        _A1raJny0 = {
+            "id" = "A1raJny0";
+            "file" = "Steam_Rails-1.7.3.2+fly-mc26.2.jar";
+            "hash" = "sha512-mjdJUBbh6tbR6KQHayflOiYAKm+I6b13LJ83DLQG+/dWIvzUfXh1aydg+Zb7oPNAjHrA/tojcZREwj7k3mSGeQ==";
+        };
     in {
         "vD87T3Tb" = _vD87T3Tb;
         "blWaVzo2" = _blWaVzo2;
@@ -74,7 +79,8 @@ let
         "wBIPfVfq" = _wBIPfVfq;
         "kWDiymeD" = _kWDiymeD;
         "eW63quVH" = _eW63quVH;
-        "fabric-26.2" = _kWDiymeD;
+        "A1raJny0" = _A1raJny0;
+        "fabric-26.2" = _A1raJny0;
         "fabric-26.1.2" = _eW63quVH;
         "fabric-26.1" = _eW63quVH;
         "fabric-26.1.1" = _eW63quVH;
@@ -90,7 +96,8 @@ let
         "pkg-1.7.3+fly-mc26.1" = _wBIPfVfq;
         "pkg-1.7.3.1+fly-mc26.2" = _kWDiymeD;
         "pkg-1.7.3.1+fly-mc26.1" = _eW63quVH;
-        "default" = _eW63quVH;
+        "pkg-1.7.3.2+fly-mc26.2" = _A1raJny0;
+        "default" = _A1raJny0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-fly-steam-n-rails-unofficial-port";

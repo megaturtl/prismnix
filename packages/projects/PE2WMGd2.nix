@@ -686,6 +686,11 @@ let
             "file" = "progression-reborn-26.1-r2.2-fabric.jar";
             "hash" = "sha512-GBdl65iXMes+w1rOTza6hel7C8otGscFcnX2J776+nxh5QahuQez5dR9k/YvOrQCHsxuvHHJ44JIbY+gtzcGPQ==";
         };
+        _kM0lydzk = {
+            "id" = "kM0lydzk";
+            "file" = "progression-reborn-1.21.1-v1.5.12.jar";
+            "hash" = "sha512-78AziVzI+E7243sawY9Q/eMlb+ELh2PydkS1ahJvYOUWYR3rqu4v7AGD6keB4lCB4ljpB5RCApMHj7K/uaD4aA==";
+        };
     in {
         "Zt9kmkjR" = _Zt9kmkjR;
         "bJU2WRPr" = _bJU2WRPr;
@@ -824,6 +829,7 @@ let
         "OCeGcGA4" = _OCeGcGA4;
         "Lvz7ilcZ" = _Lvz7ilcZ;
         "ISEb0Xq3" = _ISEb0Xq3;
+        "kM0lydzk" = _kM0lydzk;
         "fabric-1.19" = _6667i36L;
         "fabric-1.19.1" = _6667i36L;
         "fabric-1.19.2" = _6667i36L;
@@ -833,8 +839,8 @@ let
         "fabric-1.20.3" = _lWk37qwO;
         "fabric-1.20.4" = _lWk37qwO;
         "fabric-1.21.4" = _laKCDIso;
-        "fabric-1.21" = _ymAsozbk;
-        "fabric-1.21.1" = _ymAsozbk;
+        "fabric-1.21" = _kM0lydzk;
+        "fabric-1.21.1" = _kM0lydzk;
         "fabric-1.21.5" = _onwrpWYL;
         "fabric-1.21.11" = _DS0JmtsD;
         "fabric-26.1" = _ISEb0Xq3;
@@ -971,7 +977,8 @@ let
         "pkg-26.1-r2.1.1-fabric" = _OCeGcGA4;
         "pkg-26.1-r2.2-neoforge" = _Lvz7ilcZ;
         "pkg-26.1-r2.2-fabric" = _ISEb0Xq3;
-        "default" = _ISEb0Xq3;
+        "pkg-1.21.1-v1.5.12" = _kM0lydzk;
+        "default" = _kM0lydzk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "progression-reborn";

@@ -41,6 +41,11 @@ let
             "file" = "Stashlight-1.0.0+26.1.jar";
             "hash" = "sha512-8XUOFJUQVohYevjsrWOJsAqu+eem4fn4RDve4ERuFi9rabtkPUY/3OgBHb9iiUFXTz+paxnwRlxQP0rKANNu9w==";
         };
+        _VXvW0GvU = {
+            "id" = "VXvW0GvU";
+            "file" = "Stashlight-1.0.1.jar";
+            "hash" = "sha512-A1mIaYIwIDtEcfmJdHXzI5zzpunZL2i2Df7Jd6wyvBUBjNZPhHLOXROm0zThqzb5NGonzamA7eKgbA0e4gyj3w==";
+        };
     in {
         "DjaCjrUy" = _DjaCjrUy;
         "N15CsoGk" = _N15CsoGk;
@@ -50,22 +55,26 @@ let
         "zhdAcyog" = _zhdAcyog;
         "vtDh656r" = _vtDh656r;
         "7lsc7fjQ" = _7lsc7fjQ;
+        "VXvW0GvU" = _VXvW0GvU;
         "fabric-1.21.10" = _vtDh656r;
         "fabric-1.21.11" = _zhdAcyog;
         "fabric-26.1" = _7lsc7fjQ;
         "fabric-26.1.1" = _7lsc7fjQ;
         "fabric-26.1.2" = _7lsc7fjQ;
+        "fabric-26.2" = _VXvW0GvU;
         "quilt-1.21.10" = _vtDh656r;
         "quilt-1.21.11" = _zhdAcyog;
         "quilt-26.1" = _7lsc7fjQ;
         "quilt-26.1.1" = _7lsc7fjQ;
         "quilt-26.1.2" = _7lsc7fjQ;
+        "quilt-26.2" = _VXvW0GvU;
         "pkg-0.1.0-beta" = _N15CsoGk;
         "pkg-0.2.0-beta" = _wPBDZCsM;
         "pkg-0.3.0-beta" = _lLLMdAFZ;
         "pkg-0.4.0-beta" = _vtDh656r;
         "pkg-1.0.0" = _7lsc7fjQ;
-        "default" = _7lsc7fjQ;
+        "pkg-1.0.1" = _VXvW0GvU;
+        "default" = _VXvW0GvU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stashlight";

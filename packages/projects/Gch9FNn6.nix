@@ -361,6 +361,11 @@ let
             "file" = "configurableextramobdrops-26.3.0-3.8.jar";
             "hash" = "sha512-U5LDeVnikDSa7KbSdgj5qzzVq7Weha5FZhRQ9mrSmjhE9C1hZD3vZU5oKBTmZ/e99RcjKlb7ApVKGck+xdcIfQ==";
         };
+        _vYUMUETw = {
+            "id" = "vYUMUETw";
+            "file" = "configurableextramobdrops-26.1.2-3.8.jar";
+            "hash" = "sha512-rKMpvPWD9qYEomvQS04Jdpll8PyF341PSupH6nqP4sxH13NNNcpf3G9D913icJVlJhEfVZy6/pHqizP6HGE9jw==";
+        };
     in {
         "Mj6sldJ7" = _Mj6sldJ7;
         "ZzaFDpRs" = _ZzaFDpRs;
@@ -434,6 +439,7 @@ let
         "Ui4Uo5kl" = _Ui4Uo5kl;
         "DiB2bDK7" = _DiB2bDK7;
         "9hFh6aXY" = _9hFh6aXY;
+        "vYUMUETw" = _vYUMUETw;
         "fabric-1.16.5" = _BDCcbwG6;
         "fabric-1.18.2" = _xkrDIUeL;
         "fabric-1.19.2" = _nVq2NnXu;
@@ -460,7 +466,7 @@ let
         "fabric-1.21.11" = _Z6KV4WMM;
         "fabric-26.1" = _12WYi37d;
         "fabric-26.1.1" = _nlXhQ90m;
-        "fabric-26.1.2" = _sSvDIxtD;
+        "fabric-26.1.2" = _vYUMUETw;
         "fabric-26.2" = _DiB2bDK7;
         "fabric-26.3" = _9hFh6aXY;
         "forge-1.16.5" = _AWrwIVUT;
@@ -487,7 +493,7 @@ let
         "forge-1.21.11" = _Z6KV4WMM;
         "forge-26.1" = _12WYi37d;
         "forge-26.1.1" = _nlXhQ90m;
-        "forge-26.1.2" = _sSvDIxtD;
+        "forge-26.1.2" = _vYUMUETw;
         "forge-26.2" = _DiB2bDK7;
         "forge-26.3" = _9hFh6aXY;
         "quilt-1.18.2" = _xkrDIUeL;
@@ -515,7 +521,7 @@ let
         "quilt-1.21.11" = _Z6KV4WMM;
         "quilt-26.1" = _12WYi37d;
         "quilt-26.1.1" = _nlXhQ90m;
-        "quilt-26.1.2" = _sSvDIxtD;
+        "quilt-26.1.2" = _vYUMUETw;
         "quilt-26.2" = _DiB2bDK7;
         "quilt-26.3" = _9hFh6aXY;
         "neoforge-1.20.2" = _2THy6rch;
@@ -538,7 +544,7 @@ let
         "neoforge-1.21.11" = _Z6KV4WMM;
         "neoforge-26.1" = _12WYi37d;
         "neoforge-26.1.1" = _nlXhQ90m;
-        "neoforge-26.1.2" = _sSvDIxtD;
+        "neoforge-26.1.2" = _vYUMUETw;
         "neoforge-26.2" = _DiB2bDK7;
         "neoforge-26.3" = _9hFh6aXY;
         "pkg-1.16.5-2.2-fabric" = _Mj6sldJ7;
@@ -613,7 +619,8 @@ let
         "pkg-1.21.1-3.8-fabric+forge+neo" = _Ui4Uo5kl;
         "pkg-26.2.0-3.8-fabric+forge+neo" = _DiB2bDK7;
         "pkg-26.3.0-3.8-fabric+forge+neo" = _9hFh6aXY;
-        "default" = _9hFh6aXY;
+        "pkg-26.1.2-3.8-fabric+forge+neo" = _vYUMUETw;
+        "default" = _vYUMUETw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "configurable-extra-mob-drops";

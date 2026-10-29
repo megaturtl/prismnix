@@ -21,11 +21,17 @@ let
             "file" = "ModpackChecker-0.1.2+1.20.x.jar";
             "hash" = "sha512-scWMsGurLP64z5mEpibrVuLyH+eW708TXE/eJtW359ExLIl5uwvq2hkmZ7Xz8kvCo0ocLxcnYSVISdpxDMWMKQ==";
         };
+        _h98q7bJi = {
+            "id" = "h98q7bJi";
+            "file" = "ModpackChecker-0.4.1.jar";
+            "hash" = "sha512-/fqRyQj4imxC2sZ0dtzC4Wpnr3wAPHQoG9b0Ma4QK42BzHePTdy1dh4dOxDv+4WlUkxdOyfwT7/UpTahoVJr9w==";
+        };
     in {
         "Zl5ntRSu" = _Zl5ntRSu;
         "R9o0i1Eu" = _R9o0i1Eu;
         "k46pBcqe" = _k46pBcqe;
         "VogLSTVK" = _VogLSTVK;
+        "h98q7bJi" = _h98q7bJi;
         "fabric-1.20.1" = _VogLSTVK;
         "fabric-1.21" = _k46pBcqe;
         "fabric-1.21.1" = _k46pBcqe;
@@ -37,15 +43,16 @@ let
         "fabric-1.21.7" = _k46pBcqe;
         "fabric-1.20" = _VogLSTVK;
         "fabric-1.20.2" = _VogLSTVK;
-        "fabric-1.20.3" = _VogLSTVK;
-        "fabric-1.20.4" = _VogLSTVK;
+        "fabric-1.20.3" = _h98q7bJi;
+        "fabric-1.20.4" = _h98q7bJi;
         "fabric-1.20.5" = _VogLSTVK;
         "fabric-1.20.6" = _VogLSTVK;
         "pkg-0.1.0" = _Zl5ntRSu;
         "pkg-0.1.1" = _R9o0i1Eu;
         "pkg-0.1.2+1.21.x" = _k46pBcqe;
         "pkg-0.1.2+1.20.x" = _VogLSTVK;
-        "default" = _VogLSTVK;
+        "pkg-0.4.1+1.20.4" = _h98q7bJi;
+        "default" = _h98q7bJi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modpack-checker";

@@ -81,6 +81,66 @@ let
             "file" = "NPCStudio 1.3.7.jar";
             "hash" = "sha512-986At+P2iuGXOOpAoNLfGptNDcP+35Jg84Ci4LZc5hmu6X3n6sucCx5P3oaLiGToCOUAoI2njjIYl5CVnAsaKA==";
         };
+        _yRT42YLF = {
+            "id" = "yRT42YLF";
+            "file" = "NPCStudio-1.3.8-mc1.20.1-fabric.jar";
+            "hash" = "sha512-LXEUhK2NRGgNAZwUyYI9kw1f8bo+jhEkxykBJyD8TdvzLBBOGt3zFonDkpFPkOjjMuXrCAxZOg7ObbAhJsqSmw==";
+        };
+        _QTYvhsej = {
+            "id" = "QTYvhsej";
+            "file" = "NPCStudio-1.3.8-mc1.20.1-forge.jar";
+            "hash" = "sha512-syMcfnWVMgj/I8pbX1ANxhM26akxLs3G6eN7JSrLKzTylG9rP6edjqVQ370YVucz14nI27mUvIq7q8pHeOMffA==";
+        };
+        _kfT6GTNf = {
+            "id" = "kfT6GTNf";
+            "file" = "NPCStudio-1.3.8-mc1.21.11-fabric.jar";
+            "hash" = "sha512-jNGce1B0VQlcafcQsR8/I4vvrLmUe+T0zCwIcB+X2rWSJIXtu5b+zWJxcFkCfNu1vquZWDJ6LxlqnNnGaiBZmg==";
+        };
+        _3cOgZq2B = {
+            "id" = "3cOgZq2B";
+            "file" = "NPCStudio-1.3.8-mc1.21.11-forge.jar";
+            "hash" = "sha512-EJVHDSbsi/Sm+nft8D+cQ7+MkpGYZaUJjeuoS5AWoY2QzosskGs6H+Qf4TbwJmMI/USEPyft+NAAVfhcKCoMQQ==";
+        };
+        _MwKZXJzI = {
+            "id" = "MwKZXJzI";
+            "file" = "NPCStudio-1.3.8-mc1.21.11-neoforge.jar";
+            "hash" = "sha512-gVSjPPqaIOUf3qcHVybRILYdzDCn8ShcsSK7LYYivL+ciHxYfXlx7yLbqgNBsT6Hu0e9judeLWfEWh2U1koE/w==";
+        };
+        _wUFeOg9Z = {
+            "id" = "wUFeOg9Z";
+            "file" = "NPCStudio-1.3.8-mc26.1.2-fabric.jar";
+            "hash" = "sha512-nBC6MPkdqA2xuUz6f+7l4rFJkhyLmQknkNseoYIJAx9SaKE5JZwiggeLuksV+AxI1qgfouHCrwgi8YJowbFmWw==";
+        };
+        _HTLJcTHg = {
+            "id" = "HTLJcTHg";
+            "file" = "NPCStudio-1.3.8-mc26.1.2-forge.jar";
+            "hash" = "sha512-RRDEOEaW8LmFYsJN7+X03ZSPYlY3L/ySZsWEQUXYpOGdY7fKWHJTk1WbUaIjfPhUVrZRAshj54vDtMaMugvspg==";
+        };
+        _v8MdUAu7 = {
+            "id" = "v8MdUAu7";
+            "file" = "NPCStudio-1.3.8-mc26.1.2-neoforge.jar";
+            "hash" = "sha512-NXpEMCTSpSaQCA3iPVWNgSqQEbgEbf8ry+wNJbyb4Rm3eGdVJ/uS4OONlZatLJ9n5C7/KtBNTTND+tXw4/Y3ZQ==";
+        };
+        _gIhR0aRp = {
+            "id" = "gIhR0aRp";
+            "file" = "NPCStudio-1.3.8-mc26.2-fabric.jar";
+            "hash" = "sha512-8HjiEiSoLAONsynN2tPLJ26lDu7b414K1puU5tIn84soCcRiDNdK7j6mY86L2kbROGwfUj2LNk9WcBJ8K0HBVQ==";
+        };
+        _xP9izOIU = {
+            "id" = "xP9izOIU";
+            "file" = "NPCStudio-1.3.8-mc26.2-forge.jar";
+            "hash" = "sha512-Z7zWlfKQ0qVslzVQRREAT7+LvxeqU4K9mKHF7KWEq+7I7Mj/IHCHPyH/4/7Qwx10smUUe9KxdQlyIGBonusisA==";
+        };
+        _jQrkgjil = {
+            "id" = "jQrkgjil";
+            "file" = "NPCStudio-1.3.8-mc26.2-neoforge.jar";
+            "hash" = "sha512-FehOPdTtvlbq97RqEwOyb6SOrjYbA9h6iU1eVFYJPEg8Xt8MKUqpR3UqY2s9a4b/mIYrrQCchkjFxME6y0Hirg==";
+        };
+        _2a1HFvE6 = {
+            "id" = "2a1HFvE6";
+            "file" = "NPCStudio-1.3.8-mc26.3-fabric.jar";
+            "hash" = "sha512-FeIefcZHu/L9qKrTyJ8WDeb+f8oqbBZhv2I6AOIylJqYTr/p0gvtiSqx0UaFWCJr7I7LVPx8xBJ9BSiQntH1hA==";
+        };
     in {
         "AN9DMNyG" = _AN9DMNyG;
         "baRq1fET" = _baRq1fET;
@@ -98,10 +158,31 @@ let
         "gR6jPcHF" = _gR6jPcHF;
         "ysXitB6s" = _ysXitB6s;
         "InPuQHuH" = _InPuQHuH;
+        "yRT42YLF" = _yRT42YLF;
+        "QTYvhsej" = _QTYvhsej;
+        "kfT6GTNf" = _kfT6GTNf;
+        "3cOgZq2B" = _3cOgZq2B;
+        "MwKZXJzI" = _MwKZXJzI;
+        "wUFeOg9Z" = _wUFeOg9Z;
+        "HTLJcTHg" = _HTLJcTHg;
+        "v8MdUAu7" = _v8MdUAu7;
+        "gIhR0aRp" = _gIhR0aRp;
+        "xP9izOIU" = _xP9izOIU;
+        "jQrkgjil" = _jQrkgjil;
+        "2a1HFvE6" = _2a1HFvE6;
         "forge-1.8.9" = _AN9DMNyG;
-        "forge-1.20.1" = _XJvHLfzk;
-        "fabric-1.20.1" = _i9ydALz5;
-        "fabric-1.21.11" = _InPuQHuH;
+        "forge-1.20.1" = _QTYvhsej;
+        "forge-1.21.11" = _3cOgZq2B;
+        "forge-26.1.2" = _HTLJcTHg;
+        "forge-26.2" = _xP9izOIU;
+        "fabric-1.20.1" = _yRT42YLF;
+        "fabric-1.21.11" = _kfT6GTNf;
+        "fabric-26.1.2" = _wUFeOg9Z;
+        "fabric-26.2" = _gIhR0aRp;
+        "fabric-26.3" = _2a1HFvE6;
+        "neoforge-1.21.11" = _MwKZXJzI;
+        "neoforge-26.1.2" = _v8MdUAu7;
+        "neoforge-26.2" = _jQrkgjil;
         "pkg-1.3" = _AN9DMNyG;
         "pkg-1.0-SNAPSHOT" = _baRq1fET;
         "pkg-2.3" = _B3bpKFxn;
@@ -117,7 +198,8 @@ let
         "pkg-1.3.5" = _gR6jPcHF;
         "pkg-1.3.6" = _ysXitB6s;
         "pkg-1.3.7" = _InPuQHuH;
-        "default" = _InPuQHuH;
+        "pkg-1.3.8" = _2a1HFvE6;
+        "default" = _2a1HFvE6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "npc-studio";

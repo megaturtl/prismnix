@@ -461,6 +461,11 @@ let
             "file" = "netherportalspread-26.3.0-8.6.jar";
             "hash" = "sha512-Z7tcQaq23B2PVGUb7A0SDJMVo7InRfC60GiZBUtVsxPxSVZZ+LZv9paaDoBWQMzzyyotLvBvnOf00P72gMjh+g==";
         };
+        _vjpy7r6K = {
+            "id" = "vjpy7r6K";
+            "file" = "netherportalspread-26.1.2-8.6.jar";
+            "hash" = "sha512-7dFXyQ2Akbr3Lva4jmvNwXIn5BC8M3Wmv7kucbURLA1bgGxseyOQd2YtM8NjvbAiQsmRwOf1EduFChcYZV6BjQ==";
+        };
     in {
         "Qs1W8ECr" = _Qs1W8ECr;
         "WdJNnmgw" = _WdJNnmgw;
@@ -554,6 +559,7 @@ let
         "B3stCTQq" = _B3stCTQq;
         "jNTTKZBH" = _jNTTKZBH;
         "LOQ01v7s" = _LOQ01v7s;
+        "vjpy7r6K" = _vjpy7r6K;
         "fabric-1.16.5" = _IjkKiZnN;
         "fabric-1.18.2" = _Z0wnB2CW;
         "fabric-1.19.2" = _3IpJ3l1D;
@@ -580,7 +586,7 @@ let
         "fabric-1.21.11" = _stLIuN4N;
         "fabric-26.1" = _g37by2YH;
         "fabric-26.1.1" = _kNJWuN1S;
-        "fabric-26.1.2" = _rJIhWyrI;
+        "fabric-26.1.2" = _vjpy7r6K;
         "fabric-26.2" = _jNTTKZBH;
         "fabric-26.3" = _LOQ01v7s;
         "forge-1.16.5" = _tv898Bzv;
@@ -607,7 +613,7 @@ let
         "forge-1.21.11" = _stLIuN4N;
         "forge-26.1" = _g37by2YH;
         "forge-26.1.1" = _kNJWuN1S;
-        "forge-26.1.2" = _rJIhWyrI;
+        "forge-26.1.2" = _vjpy7r6K;
         "forge-26.2" = _jNTTKZBH;
         "forge-26.3" = _LOQ01v7s;
         "quilt-1.18.2" = _Z0wnB2CW;
@@ -635,7 +641,7 @@ let
         "quilt-1.21.11" = _stLIuN4N;
         "quilt-26.1" = _g37by2YH;
         "quilt-26.1.1" = _kNJWuN1S;
-        "quilt-26.1.2" = _rJIhWyrI;
+        "quilt-26.1.2" = _vjpy7r6K;
         "quilt-26.2" = _jNTTKZBH;
         "quilt-26.3" = _LOQ01v7s;
         "neoforge-1.20.2" = _tQTiD4yT;
@@ -658,7 +664,7 @@ let
         "neoforge-1.21.11" = _stLIuN4N;
         "neoforge-26.1" = _g37by2YH;
         "neoforge-26.1.1" = _kNJWuN1S;
-        "neoforge-26.1.2" = _rJIhWyrI;
+        "neoforge-26.1.2" = _vjpy7r6K;
         "neoforge-26.2" = _jNTTKZBH;
         "neoforge-26.3" = _LOQ01v7s;
         "pkg-1.16.5-6.1-fabric" = _Qs1W8ECr;
@@ -753,7 +759,8 @@ let
         "pkg-1.21.1-8.6-fabric+forge+neo" = _B3stCTQq;
         "pkg-26.2.0-8.6-fabric+forge+neo" = _jNTTKZBH;
         "pkg-26.3.0-8.6-fabric+forge+neo" = _LOQ01v7s;
-        "default" = _LOQ01v7s;
+        "pkg-26.1.2-8.6-fabric+forge+neo" = _vjpy7r6K;
+        "default" = _vjpy7r6K;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nether-portal-spread";

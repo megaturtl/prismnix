@@ -21,21 +21,29 @@ let
             "file" = "Dark JujutsuTextures.zip";
             "hash" = "sha512-vi61EoN69u/AD0VSlwEPS5dtZmSH9DjyEZq848u0L7+QpCFeHyxWy+KEX61aUR6Z6c+B3TMyskMEy+h+bo/tYA==";
         };
+        _Ag2XQrzj = {
+            "id" = "Ag2XQrzj";
+            "file" = "Dark JujutsuTextures.zip";
+            "hash" = "sha512-cgPBYKhmrKHcH1rnvzYLtSVGnwmeA+aKWjrjlV920o6ip6Q3ekZZxIyTJm3665bts1q4KN2zeQWGGbLKk3c5BQ==";
+        };
     in {
         "iHLr8yk0" = _iHLr8yk0;
         "g6Ynomwj" = _g6Ynomwj;
         "DgI2uD75" = _DgI2uD75;
         "sFCihtia" = _sFCihtia;
-        "minecraft-1.21.11" = _sFCihtia;
-        "minecraft-26.1" = _sFCihtia;
-        "minecraft-26.1.1" = _sFCihtia;
-        "minecraft-26.1.2" = _sFCihtia;
-        "minecraft-26.2" = _sFCihtia;
+        "Ag2XQrzj" = _Ag2XQrzj;
+        "minecraft-1.21.11" = _Ag2XQrzj;
+        "minecraft-26.1" = _Ag2XQrzj;
+        "minecraft-26.1.1" = _Ag2XQrzj;
+        "minecraft-26.1.2" = _Ag2XQrzj;
+        "minecraft-26.2" = _Ag2XQrzj;
+        "minecraft-26.3" = _Ag2XQrzj;
         "pkg-0.1" = _iHLr8yk0;
         "pkg-1.0" = _g6Ynomwj;
         "pkg-1.1" = _DgI2uD75;
         "pkg-1.2" = _sFCihtia;
-        "default" = _sFCihtia;
+        "pkg-1.3" = _Ag2XQrzj;
+        "default" = _Ag2XQrzj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jujutsu-textures-dark";

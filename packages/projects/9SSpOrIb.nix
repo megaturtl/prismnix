@@ -226,6 +226,11 @@ let
             "file" = "humblingbundle-26.3.0-2.5.jar";
             "hash" = "sha512-u7HCWqKy7mFAqkVWhDCL11qTseCYYT7OTYHrJPP2RfobCdBai73JIBnWIvA4H+cRm7nT3azJJ+m2ngimcw7ARg==";
         };
+        _gSxMrQwP = {
+            "id" = "gSxMrQwP";
+            "file" = "humblingbundle-26.1.2-2.5.jar";
+            "hash" = "sha512-uq7ACVGrtyvgE8NJdxZgy7bq+X4XvMYVWkUKaOVO1Jcx2waTwru2lqx1eJ45E+MCYs3EH4jKUnXdiAZi/+kdmA==";
+        };
     in {
         "A4oCbC4c" = _A4oCbC4c;
         "nx5vJcha" = _nx5vJcha;
@@ -272,6 +277,7 @@ let
         "2KFTBVpy" = _2KFTBVpy;
         "ycp3K055" = _ycp3K055;
         "1WpFN8YK" = _1WpFN8YK;
+        "gSxMrQwP" = _gSxMrQwP;
         "forge-1.16.5" = _A4oCbC4c;
         "forge-1.18.2" = _1Kv7m4o6;
         "forge-1.19.2" = _uI2F9fRO;
@@ -295,7 +301,7 @@ let
         "forge-1.21.11" = _OS9Hvrpd;
         "forge-26.1" = _zSVcnSjq;
         "forge-26.1.1" = _dWGbEB5f;
-        "forge-26.1.2" = _wKjZCn2V;
+        "forge-26.1.2" = _gSxMrQwP;
         "forge-26.2" = _ycp3K055;
         "forge-26.3" = _1WpFN8YK;
         "fabric-1.18.2" = _1Kv7m4o6;
@@ -321,7 +327,7 @@ let
         "fabric-1.21.11" = _OS9Hvrpd;
         "fabric-26.1" = _zSVcnSjq;
         "fabric-26.1.1" = _dWGbEB5f;
-        "fabric-26.1.2" = _wKjZCn2V;
+        "fabric-26.1.2" = _gSxMrQwP;
         "fabric-26.2" = _ycp3K055;
         "fabric-26.3" = _1WpFN8YK;
         "quilt-1.18.2" = _1Kv7m4o6;
@@ -347,7 +353,7 @@ let
         "quilt-1.21.11" = _OS9Hvrpd;
         "quilt-26.1" = _zSVcnSjq;
         "quilt-26.1.1" = _dWGbEB5f;
-        "quilt-26.1.2" = _wKjZCn2V;
+        "quilt-26.1.2" = _gSxMrQwP;
         "quilt-26.2" = _ycp3K055;
         "quilt-26.3" = _1WpFN8YK;
         "neoforge-1.20.2" = _NPhpX4pl;
@@ -368,7 +374,7 @@ let
         "neoforge-1.21.11" = _OS9Hvrpd;
         "neoforge-26.1" = _zSVcnSjq;
         "neoforge-26.1.1" = _dWGbEB5f;
-        "neoforge-26.1.2" = _wKjZCn2V;
+        "neoforge-26.1.2" = _gSxMrQwP;
         "neoforge-26.2" = _ycp3K055;
         "neoforge-26.3" = _1WpFN8YK;
         "pkg-1.16.5-1.6-forge" = _A4oCbC4c;
@@ -416,7 +422,8 @@ let
         "pkg-1.21.1-2.5-fabric+forge+neo" = _2KFTBVpy;
         "pkg-26.2.0-2.5-fabric+forge+neo" = _ycp3K055;
         "pkg-26.3.0-2.5-fabric+forge+neo" = _1WpFN8YK;
-        "default" = _1WpFN8YK;
+        "pkg-26.1.2-2.5-fabric+forge+neo" = _gSxMrQwP;
+        "default" = _gSxMrQwP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "humbling-bundle";

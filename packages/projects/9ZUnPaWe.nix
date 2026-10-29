@@ -61,6 +61,16 @@ let
             "file" = "EcologicalReplenishmentStation-1.2.1.jar";
             "hash" = "sha512-+uwNuopto+w40M9cPtEvn6yl46iY0/mvQ02FFaqzUN9EzZNdvLmLFgJS78iE1ZN0sIENbmuv/N6roFH8/VqDHw==";
         };
+        _YUMpGvdM = {
+            "id" = "YUMpGvdM";
+            "file" = "EcologicalReplenishmentStation-1.20.1-1.2.2.jar";
+            "hash" = "sha512-1hV0nrrwfLL5MMjP19AF+VZVdDZehvmQ+/gYqciruAkvX3hbL18m/K6WE71/kP9IZ/jw+rdjMZWinwrTkzP/ug==";
+        };
+        _qTnvh3xQ = {
+            "id" = "qTnvh3xQ";
+            "file" = "EcologicalReplenishmentStation-1.21.1-1.2.2.jar";
+            "hash" = "sha512-RXEd2XZVFpn1Y0sRSWpZyVMHg0wRu9tx/VrnanuZODjYVS/rQfiLQToP1KAnX8bgD0wE3uCG986SX39bUXFYcw==";
+        };
     in {
         "LxGbVbQ3" = _LxGbVbQ3;
         "wcLtLLer" = _wcLtLLer;
@@ -74,7 +84,10 @@ let
         "ADYsimil" = _ADYsimil;
         "XvqsK5RQ" = _XvqsK5RQ;
         "eIIUMBYY" = _eIIUMBYY;
-        "forge-1.20.1" = _eIIUMBYY;
+        "YUMpGvdM" = _YUMpGvdM;
+        "qTnvh3xQ" = _qTnvh3xQ;
+        "forge-1.20.1" = _YUMpGvdM;
+        "neoforge-1.21.1" = _qTnvh3xQ;
         "pkg-1.1.3" = _LxGbVbQ3;
         "pkg-1.1.5" = _wcLtLLer;
         "pkg-1.1.9" = _ikqAdUJj;
@@ -87,7 +100,9 @@ let
         "pkg-1.1.17" = _ADYsimil;
         "pkg-1.2.0" = _XvqsK5RQ;
         "pkg-1.2.1" = _eIIUMBYY;
-        "default" = _eIIUMBYY;
+        "pkg-1.20.1-1.2.2" = _YUMpGvdM;
+        "pkg-1.21.1-1.2.2" = _qTnvh3xQ;
+        "default" = _qTnvh3xQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ecological-replenishment-station";

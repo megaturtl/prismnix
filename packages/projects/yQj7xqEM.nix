@@ -336,6 +336,11 @@ let
             "file" = "inventorytotem-26.3.0-3.6.jar";
             "hash" = "sha512-mJk1gNgdi0Sh6AJ5rKxw5MhwocSt/Ef0mypjscwxpoEUC6dfrSitNzbGfV/TIdAEQn+kIAUCWrtnprJ7dTnJMg==";
         };
+        _hUaJtU00 = {
+            "id" = "hUaJtU00";
+            "file" = "inventorytotem-26.1.2-3.6.jar";
+            "hash" = "sha512-JmusQyc/bJI4+QTnnqPaWIpIgHKGlYayM30Su/+7EaOlRKRCChjILLRD5M7Mu9bEIZnE7Vya3yASVzP6rrGm1w==";
+        };
     in {
         "SCghXn4v" = _SCghXn4v;
         "C9Dv52X6" = _C9Dv52X6;
@@ -404,6 +409,7 @@ let
         "lgjs8TXC" = _lgjs8TXC;
         "JCvJqP0b" = _JCvJqP0b;
         "w3KKAn4J" = _w3KKAn4J;
+        "hUaJtU00" = _hUaJtU00;
         "fabric-1.16.5" = _Rxpi6JjT;
         "fabric-1.18.2" = _3spXy8yZ;
         "fabric-1.19.2" = _5e0vwBGg;
@@ -430,7 +436,7 @@ let
         "fabric-1.21.11" = _IzZmDI2F;
         "fabric-26.1" = _zWvZBxCh;
         "fabric-26.1.1" = _CC3GkNqk;
-        "fabric-26.1.2" = _YmqR8FpG;
+        "fabric-26.1.2" = _hUaJtU00;
         "fabric-26.2" = _JCvJqP0b;
         "fabric-26.3" = _w3KKAn4J;
         "forge-1.16.5" = _XEToLbwF;
@@ -457,7 +463,7 @@ let
         "forge-1.21.11" = _IzZmDI2F;
         "forge-26.1" = _zWvZBxCh;
         "forge-26.1.1" = _CC3GkNqk;
-        "forge-26.1.2" = _YmqR8FpG;
+        "forge-26.1.2" = _hUaJtU00;
         "forge-26.2" = _JCvJqP0b;
         "forge-26.3" = _w3KKAn4J;
         "quilt-1.18.2" = _3spXy8yZ;
@@ -485,7 +491,7 @@ let
         "quilt-1.21.11" = _IzZmDI2F;
         "quilt-26.1" = _zWvZBxCh;
         "quilt-26.1.1" = _CC3GkNqk;
-        "quilt-26.1.2" = _YmqR8FpG;
+        "quilt-26.1.2" = _hUaJtU00;
         "quilt-26.2" = _JCvJqP0b;
         "quilt-26.3" = _w3KKAn4J;
         "neoforge-1.20.2" = _sBHaeAe3;
@@ -508,7 +514,7 @@ let
         "neoforge-1.21.11" = _IzZmDI2F;
         "neoforge-26.1" = _zWvZBxCh;
         "neoforge-26.1.1" = _CC3GkNqk;
-        "neoforge-26.1.2" = _YmqR8FpG;
+        "neoforge-26.1.2" = _hUaJtU00;
         "neoforge-26.2" = _JCvJqP0b;
         "neoforge-26.3" = _w3KKAn4J;
         "pkg-1.16.5-1.9-fabric" = _SCghXn4v;
@@ -578,7 +584,8 @@ let
         "pkg-1.21.1-3.6-fabric+forge+neo" = _lgjs8TXC;
         "pkg-26.2.0-3.6-fabric+forge+neo" = _JCvJqP0b;
         "pkg-26.3.0-3.6-fabric+forge+neo" = _w3KKAn4J;
-        "default" = _w3KKAn4J;
+        "pkg-26.1.2-3.6-fabric+forge+neo" = _hUaJtU00;
+        "default" = _hUaJtU00;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "inventory-totem";

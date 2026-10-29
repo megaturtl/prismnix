@@ -191,6 +191,11 @@ let
             "file" = "cycletitlescreensplash-26.3.0-1.4.jar";
             "hash" = "sha512-QXBBR0droW99sr3WmKpmTeD/LaST1tpbDqm554gO6vyJHku5cwqMosaKyfwRbol4mfG2ezx504fPUlbfi8WWig==";
         };
+        _9YPy6Svt = {
+            "id" = "9YPy6Svt";
+            "file" = "cycletitlescreensplash-26.1.2-1.4.jar";
+            "hash" = "sha512-sj2CmzujcfiTONH77vE/WOP00n48bIFZyA47wEtFcCpZT0oft4Jm83iHxW1Gf3Xo3jJho507AHRgz/WzSEGqiw==";
+        };
     in {
         "7ZabyFm6" = _7ZabyFm6;
         "8f1YkUWK" = _8f1YkUWK;
@@ -230,6 +235,7 @@ let
         "oZw5Yhs8" = _oZw5Yhs8;
         "Kte0zDOF" = _Kte0zDOF;
         "rHhqu09c" = _rHhqu09c;
+        "9YPy6Svt" = _9YPy6Svt;
         "fabric-1.19.2" = _ViKEo79k;
         "fabric-1.20.1" = _Dzxhxj9Y;
         "fabric-1.20.2" = _I6qr2xQZ;
@@ -250,7 +256,7 @@ let
         "fabric-1.21.11" = _GDXIlb6P;
         "fabric-26.1" = _tDalQ8Aa;
         "fabric-26.1.1" = _aPLaD1da;
-        "fabric-26.1.2" = _n7SqiPgF;
+        "fabric-26.1.2" = _9YPy6Svt;
         "fabric-26.2" = _Kte0zDOF;
         "fabric-26.3" = _rHhqu09c;
         "forge-1.19.2" = _ViKEo79k;
@@ -271,7 +277,7 @@ let
         "forge-1.21.11" = _GDXIlb6P;
         "forge-26.1" = _tDalQ8Aa;
         "forge-26.1.1" = _aPLaD1da;
-        "forge-26.1.2" = _n7SqiPgF;
+        "forge-26.1.2" = _9YPy6Svt;
         "forge-26.2" = _Kte0zDOF;
         "forge-26.3" = _rHhqu09c;
         "quilt-1.19.2" = _ViKEo79k;
@@ -294,7 +300,7 @@ let
         "quilt-1.21.11" = _GDXIlb6P;
         "quilt-26.1" = _tDalQ8Aa;
         "quilt-26.1.1" = _aPLaD1da;
-        "quilt-26.1.2" = _n7SqiPgF;
+        "quilt-26.1.2" = _9YPy6Svt;
         "quilt-26.2" = _Kte0zDOF;
         "quilt-26.3" = _rHhqu09c;
         "neoforge-1.20.1" = _Dzxhxj9Y;
@@ -316,7 +322,7 @@ let
         "neoforge-1.21.11" = _GDXIlb6P;
         "neoforge-26.1" = _tDalQ8Aa;
         "neoforge-26.1.1" = _aPLaD1da;
-        "neoforge-26.1.2" = _n7SqiPgF;
+        "neoforge-26.1.2" = _9YPy6Svt;
         "neoforge-26.2" = _Kte0zDOF;
         "neoforge-26.3" = _rHhqu09c;
         "pkg-1.19.2-1.0-fabric+forge+neo" = _7ZabyFm6;
@@ -357,7 +363,8 @@ let
         "pkg-1.21.1-1.4-fabric+forge+neo" = _oZw5Yhs8;
         "pkg-26.2.0-1.4-fabric+forge+neo" = _Kte0zDOF;
         "pkg-26.3.0-1.4-fabric+forge+neo" = _rHhqu09c;
-        "default" = _rHhqu09c;
+        "pkg-26.1.2-1.4-fabric+forge+neo" = _9YPy6Svt;
+        "default" = _9YPy6Svt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cycle-title-screen-splash";

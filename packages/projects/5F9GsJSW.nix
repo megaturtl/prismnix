@@ -21,18 +21,25 @@ let
             "file" = "wakanda-2.0.jar";
             "hash" = "sha512-+vJu6Jda5Up8XPN4cpodjccaDbxPSTdNCpMdSdprDU8ZQxvsTu39Jlark0Z1WbggvW144jebNIdKEms2xN1dRg==";
         };
+        _sV2b33Lo = {
+            "id" = "sV2b33Lo";
+            "file" = "wakanda-3.0.jar";
+            "hash" = "sha512-DdJxebDIS8e7JdxNjuBmFq5W6mNpjdPITV9EFakMOe4ta43dAZeSJECG0pbO0/vcH4VtpbIwriji7fUtj/n0nw==";
+        };
     in {
         "O8OpW9jr" = _O8OpW9jr;
         "WbmUVg2m" = _WbmUVg2m;
         "i3Ee92EL" = _i3Ee92EL;
         "B39fCjSa" = _B39fCjSa;
+        "sV2b33Lo" = _sV2b33Lo;
         "fabric-1.20.1" = _B39fCjSa;
-        "forge-1.20.1" = _B39fCjSa;
+        "forge-1.20.1" = _sV2b33Lo;
         "pkg-1.0" = _O8OpW9jr;
         "pkg-wakanda-1.1" = _WbmUVg2m;
         "pkg-1.3" = _i3Ee92EL;
         "pkg-2.0" = _B39fCjSa;
-        "default" = _B39fCjSa;
+        "pkg-3.0" = _sV2b33Lo;
+        "default" = _sV2b33Lo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "herbs-of-wakanda";

@@ -246,6 +246,11 @@ let
             "file" = "MCXboxBroadcastExtension.jar";
             "hash" = "sha512-EkvqmJQdg+onWCgQe24uH9bHRhYP3/LfIGzSxMCrY03t1ARbipWx+BLt9mGDefNeVFfp3ILzskfWoNZjUJa09g==";
         };
+        _gGqnyeAE = {
+            "id" = "gGqnyeAE";
+            "file" = "MCXboxBroadcastExtension.jar";
+            "hash" = "sha512-EM3nY7W+K1CiSnxJ58AtEH31TM+lm+lujx93tP1pd1Y6iDs0d4spV8zUAik7692GzlYeZmUAiAFSEGAupBsAiQ==";
+        };
     in {
         "ZcJOFebe" = _ZcJOFebe;
         "fZhuY9hN" = _fZhuY9hN;
@@ -296,12 +301,14 @@ let
         "FwiDUUN6" = _FwiDUUN6;
         "FlmWAsBB" = _FlmWAsBB;
         "laiRMgHM" = _laiRMgHM;
+        "gGqnyeAE" = _gGqnyeAE;
         "geyser-1.21.10" = _oHkGgTYZ;
         "geyser-1.21.11" = _u2egBU50;
         "geyser-26.1" = _MAqjdI2q;
         "geyser-26.1.1" = _MAqjdI2q;
         "geyser-26.1.2" = _MAqjdI2q;
         "geyser-26.2" = _laiRMgHM;
+        "geyser-26.3" = _gGqnyeAE;
         "pkg-111" = _ZcJOFebe;
         "pkg-112" = _fZhuY9hN;
         "pkg-113" = _vXDboFQ2;
@@ -351,7 +358,8 @@ let
         "pkg-157" = _FwiDUUN6;
         "pkg-158" = _FlmWAsBB;
         "pkg-159" = _laiRMgHM;
-        "default" = _laiRMgHM;
+        "pkg-160" = _gGqnyeAE;
+        "default" = _gGqnyeAE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mcxboxbroadcast";

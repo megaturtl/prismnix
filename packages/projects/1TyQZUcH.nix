@@ -136,6 +136,11 @@ let
             "file" = "boggedspawn-26.3.0-1.4.jar";
             "hash" = "sha512-1RcYjsWcD9fzrc5I35CK6ZdVPBPR2brrGr9uh1DaxjKNUjbOFD5ZWK0A6JkKZssGER/o3ydkEh8WsWnzDzeQaQ==";
         };
+        _lU1JqYeb = {
+            "id" = "lU1JqYeb";
+            "file" = "boggedspawn-26.1.2-1.4.jar";
+            "hash" = "sha512-JjO372/rixt1pWxNBhomsmpkW5IfjxzUmiFsi1uT5fMllFGKoKt+gW/Kd6vN4BGNXqPO4O7+b8SkyVcyYnSxDg==";
+        };
     in {
         "sry9jAql" = _sry9jAql;
         "6pVQi7RQ" = _6pVQi7RQ;
@@ -164,6 +169,7 @@ let
         "yb9QeTNh" = _yb9QeTNh;
         "YTCh9slU" = _YTCh9slU;
         "JtKcGfiQ" = _JtKcGfiQ;
+        "lU1JqYeb" = _lU1JqYeb;
         "fabric-1.21" = _yb9QeTNh;
         "fabric-1.21.1" = _yb9QeTNh;
         "fabric-1.21.2" = _AWYcCHOX;
@@ -178,7 +184,7 @@ let
         "fabric-1.21.11" = _egOGnmf8;
         "fabric-26.1" = _zUt82q9s;
         "fabric-26.1.1" = _e12EzAIL;
-        "fabric-26.1.2" = _oq4JWGV0;
+        "fabric-26.1.2" = _lU1JqYeb;
         "fabric-26.2" = _YTCh9slU;
         "fabric-26.3" = _JtKcGfiQ;
         "forge-1.21" = _yb9QeTNh;
@@ -194,7 +200,7 @@ let
         "forge-1.21.11" = _egOGnmf8;
         "forge-26.1" = _zUt82q9s;
         "forge-26.1.1" = _e12EzAIL;
-        "forge-26.1.2" = _oq4JWGV0;
+        "forge-26.1.2" = _lU1JqYeb;
         "forge-26.2" = _YTCh9slU;
         "forge-26.3" = _JtKcGfiQ;
         "neoforge-1.21" = _yb9QeTNh;
@@ -211,7 +217,7 @@ let
         "neoforge-1.21.11" = _egOGnmf8;
         "neoforge-26.1" = _zUt82q9s;
         "neoforge-26.1.1" = _e12EzAIL;
-        "neoforge-26.1.2" = _oq4JWGV0;
+        "neoforge-26.1.2" = _lU1JqYeb;
         "neoforge-26.2" = _YTCh9slU;
         "neoforge-26.3" = _JtKcGfiQ;
         "quilt-1.21" = _yb9QeTNh;
@@ -228,7 +234,7 @@ let
         "quilt-1.21.11" = _egOGnmf8;
         "quilt-26.1" = _zUt82q9s;
         "quilt-26.1.1" = _e12EzAIL;
-        "quilt-26.1.2" = _oq4JWGV0;
+        "quilt-26.1.2" = _lU1JqYeb;
         "quilt-26.2" = _YTCh9slU;
         "quilt-26.3" = _JtKcGfiQ;
         "pkg-1.21.0-1.0-fabric+forge+neo" = _sry9jAql;
@@ -258,7 +264,8 @@ let
         "pkg-1.21.1-1.4-fabric+forge+neo" = _yb9QeTNh;
         "pkg-26.2.0-1.4-fabric+forge+neo" = _YTCh9slU;
         "pkg-26.3.0-1.4-fabric+forge+neo" = _JtKcGfiQ;
-        "default" = _JtKcGfiQ;
+        "pkg-26.1.2-1.4-fabric+forge+neo" = _lU1JqYeb;
+        "default" = _lU1JqYeb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bogged-spawn";

@@ -401,6 +401,11 @@ let
             "file" = "infinitetrading-26.3.0-6.0.jar";
             "hash" = "sha512-2XAjKIXZjZ1nFtyQ1tjrgO9DeKNDZeiZP6wBBfSfk84enifGQ2gjExqG1EmxQ/Eeg00qBAh0pfJAY8B37UK7VA==";
         };
+        _nIxF5ljJ = {
+            "id" = "nIxF5ljJ";
+            "file" = "infinitetrading-26.1.2-6.0.jar";
+            "hash" = "sha512-a3AdtbBFdKGRgwrFsBOR7TJWcdRxj7bxl3UNLBkDK7x2wA/Jbe68O8UZmd/1nvBny53zVwFkGvd7OmjoFxMmcg==";
+        };
     in {
         "maYnOCd0" = _maYnOCd0;
         "pYuRIcYd" = _pYuRIcYd;
@@ -482,6 +487,7 @@ let
         "TTHsCfcN" = _TTHsCfcN;
         "ArV1lrsc" = _ArV1lrsc;
         "8oN61WxC" = _8oN61WxC;
+        "nIxF5ljJ" = _nIxF5ljJ;
         "fabric-1.16.5" = _MkUyfmpm;
         "fabric-1.18.2" = _VQwGRe7K;
         "fabric-1.19.2" = _jCV5QRSF;
@@ -508,7 +514,7 @@ let
         "fabric-1.21.11" = _aCozovzQ;
         "fabric-26.1" = _9Vjyoxt8;
         "fabric-26.1.1" = _rmjjAg5J;
-        "fabric-26.1.2" = _dBaY8kfF;
+        "fabric-26.1.2" = _nIxF5ljJ;
         "fabric-26.2" = _ArV1lrsc;
         "fabric-26.3" = _8oN61WxC;
         "forge-1.16.5" = _poOpv8qP;
@@ -535,7 +541,7 @@ let
         "forge-1.21.11" = _aCozovzQ;
         "forge-26.1" = _9Vjyoxt8;
         "forge-26.1.1" = _rmjjAg5J;
-        "forge-26.1.2" = _dBaY8kfF;
+        "forge-26.1.2" = _nIxF5ljJ;
         "forge-26.2" = _ArV1lrsc;
         "forge-26.3" = _8oN61WxC;
         "quilt-1.18.2" = _VQwGRe7K;
@@ -563,7 +569,7 @@ let
         "quilt-1.21.11" = _aCozovzQ;
         "quilt-26.1" = _9Vjyoxt8;
         "quilt-26.1.1" = _rmjjAg5J;
-        "quilt-26.1.2" = _dBaY8kfF;
+        "quilt-26.1.2" = _nIxF5ljJ;
         "quilt-26.2" = _ArV1lrsc;
         "quilt-26.3" = _8oN61WxC;
         "neoforge-1.20.2" = _MIgj0QJI;
@@ -586,7 +592,7 @@ let
         "neoforge-1.21.11" = _aCozovzQ;
         "neoforge-26.1" = _9Vjyoxt8;
         "neoforge-26.1.1" = _rmjjAg5J;
-        "neoforge-26.1.2" = _dBaY8kfF;
+        "neoforge-26.1.2" = _nIxF5ljJ;
         "neoforge-26.2" = _ArV1lrsc;
         "neoforge-26.3" = _8oN61WxC;
         "pkg-1.16.5-2.4-fabric" = _maYnOCd0;
@@ -669,7 +675,8 @@ let
         "pkg-1.21.1-6.0-fabric+forge+neo" = _TTHsCfcN;
         "pkg-26.2.0-6.0-fabric+forge+neo" = _ArV1lrsc;
         "pkg-26.3.0-6.0-fabric+forge+neo" = _8oN61WxC;
-        "default" = _8oN61WxC;
+        "pkg-26.1.2-6.0-fabric+forge+neo" = _nIxF5ljJ;
+        "default" = _nIxF5ljJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "infinite-trading";

@@ -336,6 +336,11 @@ let
             "file" = "healingcampfire-26.3.0-6.4.jar";
             "hash" = "sha512-ZKGvDw4Khwd5dcHBXpteJdflaxHPVSSvh8cJocTYby1x8PZHAvmTdtb3X/5i23HdTYIA5Eums258uqzQxeSFFA==";
         };
+        _9pXLfjWh = {
+            "id" = "9pXLfjWh";
+            "file" = "healingcampfire-26.1.2-6.4.jar";
+            "hash" = "sha512-lmR5uw/KeryvMF5oN24VMix4AavhDPS6EeHgmASNZnoo4LkVFeuIx/Z4XxrPfcYPL4g0AyH56v5K9R13gzUgOA==";
+        };
     in {
         "xuC4AmwA" = _xuC4AmwA;
         "sy8BePKg" = _sy8BePKg;
@@ -404,6 +409,7 @@ let
         "mSJpMNZ6" = _mSJpMNZ6;
         "rZFsIKqh" = _rZFsIKqh;
         "w96063IU" = _w96063IU;
+        "9pXLfjWh" = _9pXLfjWh;
         "fabric-1.16.5" = _S7ZuhODI;
         "fabric-1.18.2" = _hcigUwew;
         "fabric-1.19.2" = _GaNg5Wb9;
@@ -430,7 +436,7 @@ let
         "fabric-1.21.11" = _FluBpCHQ;
         "fabric-26.1" = _tCoP3VFY;
         "fabric-26.1.1" = _BGeR6aQl;
-        "fabric-26.1.2" = _Gor9X15r;
+        "fabric-26.1.2" = _9pXLfjWh;
         "fabric-26.2" = _rZFsIKqh;
         "fabric-26.3" = _w96063IU;
         "forge-1.16.5" = _cdVOVic6;
@@ -457,7 +463,7 @@ let
         "forge-1.21.11" = _FluBpCHQ;
         "forge-26.1" = _tCoP3VFY;
         "forge-26.1.1" = _BGeR6aQl;
-        "forge-26.1.2" = _Gor9X15r;
+        "forge-26.1.2" = _9pXLfjWh;
         "forge-26.2" = _rZFsIKqh;
         "forge-26.3" = _w96063IU;
         "quilt-1.18.2" = _hcigUwew;
@@ -485,7 +491,7 @@ let
         "quilt-1.21.11" = _FluBpCHQ;
         "quilt-26.1" = _tCoP3VFY;
         "quilt-26.1.1" = _BGeR6aQl;
-        "quilt-26.1.2" = _Gor9X15r;
+        "quilt-26.1.2" = _9pXLfjWh;
         "quilt-26.2" = _rZFsIKqh;
         "quilt-26.3" = _w96063IU;
         "neoforge-1.20.2" = _xIJKkSTJ;
@@ -508,7 +514,7 @@ let
         "neoforge-1.21.11" = _FluBpCHQ;
         "neoforge-26.1" = _tCoP3VFY;
         "neoforge-26.1.1" = _BGeR6aQl;
-        "neoforge-26.1.2" = _Gor9X15r;
+        "neoforge-26.1.2" = _9pXLfjWh;
         "neoforge-26.2" = _rZFsIKqh;
         "neoforge-26.3" = _w96063IU;
         "pkg-1.16.5-3.9-fabric" = _xuC4AmwA;
@@ -578,7 +584,8 @@ let
         "pkg-1.21.1-6.4-fabric+forge+neo" = _mSJpMNZ6;
         "pkg-26.2.0-6.4-fabric+forge+neo" = _rZFsIKqh;
         "pkg-26.3.0-6.4-fabric+forge+neo" = _w96063IU;
-        "default" = _w96063IU;
+        "pkg-26.1.2-6.4-fabric+forge+neo" = _9pXLfjWh;
+        "default" = _9pXLfjWh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "healing-campfire";

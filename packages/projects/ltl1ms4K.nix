@@ -386,6 +386,176 @@ let
             "file" = "Multiplayer Spawners - NeoForge - 26.3 - 2.0.1.jar";
             "hash" = "sha512-aKuT+RU4M/j0DNFEbuEhqj4ZlbqRsOSaLVMBPHOGNfTU/59gKmVYG0PuKB4OMETmJ1mE+l8653A4DrMBzQW+XA==";
         };
+        _pcZzn2Pd = {
+            "id" = "pcZzn2Pd";
+            "file" = "Multiplayer Spawners - Forge - 1.20.1 - 2.0.2.jar";
+            "hash" = "sha512-K8Zd+MACgLEsxU3KnGkPDEZL7ETX49WANFIzFngSENkYHe/kicAGaChJl+cFPQbhSZv56Skrs0LzD3mhXZ6jBA==";
+        };
+        _lhwiG4mt = {
+            "id" = "lhwiG4mt";
+            "file" = "Multiplayer Spawners - Fabric - 1.21.1 - 2.0.2.jar";
+            "hash" = "sha512-S7732vcReBwFubjdK2Ot6LVmGjHXq2uvbW1kDmbdL+hVqoP0ki73iT9vTm3KI31milHfufvyJ+MvZvO6Z2jVvA==";
+        };
+        _Rq6IrgTw = {
+            "id" = "Rq6IrgTw";
+            "file" = "Multiplayer Spawners - NeoForge - 1.21.1 - 2.0.2.jar";
+            "hash" = "sha512-/cTtX0jmOUoshvEwHY5w2grhDsltI30gKOHACpK+jeFXV7iVig3I7W15cMnnT+DUmstNksUQ5iHnEZNL919nxQ==";
+        };
+        _nivH0FmT = {
+            "id" = "nivH0FmT";
+            "file" = "Multiplayer Spawners - Fabric - 1.20.1 - 2.0.2.jar";
+            "hash" = "sha512-YYl+9ZvyJi0oq9YsO4RnWw1HfqV3tE4lm8vConiAria/jcTExPHcxQvJgqwtJeN7ggqW+TcqjL5PcxesWcvKZA==";
+        };
+        _IM9pki6E = {
+            "id" = "IM9pki6E";
+            "file" = "Multiplayer Spawners - Fabric - 1.21.2 - 2.0.2.jar";
+            "hash" = "sha512-RwVYfNyBoJlIeSN0qzxBwQNV1H7IT24x/30ehyt/anW/c9tGJsVC1XRl8d2iCJEa7nxicAC1OG7cE2e2nbSJXQ==";
+        };
+        _32ucPVfO = {
+            "id" = "32ucPVfO";
+            "file" = "Multiplayer Spawners - NeoForge - 1.21.2 - 2.0.2.jar";
+            "hash" = "sha512-OiAWDnj85Zeziiz8ZrfxUuB3dPx8pr5cjJ3mEdfsRqdlEADPnkZx7ij++IlI4Q7TkmEvmevfLA9OYRuPPuXCrQ==";
+        };
+        _uIzzhIqF = {
+            "id" = "uIzzhIqF";
+            "file" = "Multiplayer Spawners - Fabric - 1.21.3 - 2.0.2.jar";
+            "hash" = "sha512-H+MEuCnN+xAML1oshvi0G46LuZNjKGE23kR7ueMEYYefdj05Lioa+/SXFwk7uBZkWKzGYU4NgQZ51T26w+DeUQ==";
+        };
+        _M33YsLg9 = {
+            "id" = "M33YsLg9";
+            "file" = "Multiplayer Spawners - NeoForge - 1.21.3 - 2.0.2.jar";
+            "hash" = "sha512-oGy5jxoG/A7SDWaPPcMhPAQwSRv3bVTR6UYKkIY/EVszlzhrHz3WxqatjWQ1buGn489WPEOtf3lNgTyCWIBPsw==";
+        };
+        _qhDnmIgh = {
+            "id" = "qhDnmIgh";
+            "file" = "Multiplayer Spawners - Fabric - 1.21.4 - 2.0.2.jar";
+            "hash" = "sha512-agsMCSYxyGRcgBIoB7Pk7QsBUZbVzFS6CaPx5iyd0N4+i2FPkIf4QaIDgxLRCP3t0zKHLhvSgVM6tmjiXRkVGg==";
+        };
+        _3MQhqsZq = {
+            "id" = "3MQhqsZq";
+            "file" = "Multiplayer Spawners - NeoForge - 1.21.4 - 2.0.2.jar";
+            "hash" = "sha512-fn6Vwe7K0wczO2Q6VHmj/8yCWpE+DEaJAIQ/F6Qndv2x+pHDZlQGQpsASAcaHgrexQRBalbwC1ooPC84zrUHhA==";
+        };
+        _JIZbetjs = {
+            "id" = "JIZbetjs";
+            "file" = "Multiplayer Spawners - Fabric - 1.21.5 - 2.0.2.jar";
+            "hash" = "sha512-L0XDDHWq9ClgRZg5uUIwZ+i+maZWb6lpauxX8e7fAe8eOV/ceWbRYXCkY7tQygMm3bHjfw/HxpysLP9YBq4IlA==";
+        };
+        _ogKFcbJr = {
+            "id" = "ogKFcbJr";
+            "file" = "Multiplayer Spawners - NeoForge - 1.21.5 - 2.0.2.jar";
+            "hash" = "sha512-O2ydrKQrwAYcFA9COSKmppAMsoDE8VWR0ZV+iZMClPe5/+Pga48+j3quMhx8dHcgkp4w9RHq1KO96dFaPFmePA==";
+        };
+        _XkmsQqOc = {
+            "id" = "XkmsQqOc";
+            "file" = "Multiplayer Spawners - Fabric - 1.21.6 - 2.0.2.jar";
+            "hash" = "sha512-pzn/6Q1fv6dej3bQLMn97FN2Pmvucbh73KV57fE9rDOycTdxTDdxnErUtBaqyQ00iMTK2jVRq7gC4etdN28BWA==";
+        };
+        _zcr1oA40 = {
+            "id" = "zcr1oA40";
+            "file" = "Multiplayer Spawners - NeoForge - 1.21.6 - 2.0.2.jar";
+            "hash" = "sha512-x3FT9SthY0xIB9VKox1pdMR/bt959AVmqJRYhMmDvFiHn3NYN6ah+LBV9OYZvGgSOQeeZKgCNHLdwTdnha7W1Q==";
+        };
+        _eHnrrfRF = {
+            "id" = "eHnrrfRF";
+            "file" = "Multiplayer Spawners - Fabric - 1.21.7 - 2.0.2.jar";
+            "hash" = "sha512-H6NWBFqPR3JKDOmijn1guirOAKjtyEDv8hp7b5xcn2r1M3HfEK6UdbViA7q/zh4ZGNwiUyMZBdvErfwG28w1yA==";
+        };
+        _1ouutELb = {
+            "id" = "1ouutELb";
+            "file" = "Multiplayer Spawners - Fabric - 1.21.8 - 2.0.2.jar";
+            "hash" = "sha512-bRNBnUAa/6LKWwnR6XodilTs3VWhCP3HCN14zW1Zql3IRHKmbTdr4mKBw2jhS6rP3dLMlrpA2CwFgSGXtEYBHA==";
+        };
+        _AHm2Zjcn = {
+            "id" = "AHm2Zjcn";
+            "file" = "Multiplayer Spawners - NeoForge - 1.21.7 - 2.0.2.jar";
+            "hash" = "sha512-Ms0/idxKnswGSgEaETxtntAeoA4SOcs5LjmG6Q/5GHt3zSbRCkChKqQubflf6dZGAiq5Q4VIXNXX5TAY8Ajr5A==";
+        };
+        _3Lw3EgVb = {
+            "id" = "3Lw3EgVb";
+            "file" = "Multiplayer Spawners - NeoForge - 1.21.8 - 2.0.2.jar";
+            "hash" = "sha512-rqy+Zg1tbdT/sqS40vo1AU5TY4/DbjLfqKS4CbFN7/W6MMShFim/Yy/+c1SmuRtXbPVgjgGqtyz9UBO6szXneQ==";
+        };
+        _IYCSpqv5 = {
+            "id" = "IYCSpqv5";
+            "file" = "Multiplayer Spawners - Fabric - 1.21.9 - 2.0.2.jar";
+            "hash" = "sha512-BMWiUAZqkBeG8l6gnCHSwtavICEwkwmDS16dkXeYyX8JtaF+mt7w+Xvr0hofEu2mU4wBgT5cXFGEZoY+0XwF8Q==";
+        };
+        _2UOO1y91 = {
+            "id" = "2UOO1y91";
+            "file" = "Multiplayer Spawners - NeoForge - 1.21.9 - 2.0.2.jar";
+            "hash" = "sha512-uwbwG6eq82T0xOcgaaVySXwozgv3uuLgFAebq3wNoSGz7Hj61+xZrlOz7r//zSmOrx5Y2WcilKzGD604hNtG0A==";
+        };
+        _aFo8MYvY = {
+            "id" = "aFo8MYvY";
+            "file" = "Multiplayer Spawners - NeoForge - 1.21.10 - 2.0.2.jar";
+            "hash" = "sha512-WSwcZcj6no4V6k6zuZCHenS4Y3A+/RmaBl3RntFyvAjayNj3FR/Rsap2NsYPLuBfi+U1/iwsKBVnkBOHDdOTlQ==";
+        };
+        _9e572YI0 = {
+            "id" = "9e572YI0";
+            "file" = "Multiplayer Spawners - Fabric - 1.21.10 - 2.0.2.jar";
+            "hash" = "sha512-fglO1aoFHnb9B9nhrt4oh74RIhUIjxDTCQF/6Z0WrPY+hK2GQPlcdMNSApm/AASzww8OpNlbCD8Z8Hi9knvFBw==";
+        };
+        _aiEU6GHK = {
+            "id" = "aiEU6GHK";
+            "file" = "Multiplayer Spawners - Fabric - 1.21.11 - 2.0.2.jar";
+            "hash" = "sha512-4tYiyb3fNyxV94fQUoMexp6hLiTMfGcv0EYReeDR5yGCNX1pq4x7Sc2W5mgZQ/9f3IZL50zGIcNvej8uijf2hQ==";
+        };
+        _5vpA3ova = {
+            "id" = "5vpA3ova";
+            "file" = "Multiplayer Spawners - NeoForge - 1.21.11 - 2.0.2.jar";
+            "hash" = "sha512-c8U6ne+gWp9QSsWjc4C5ste7T/R/aHeQYXbsyDbKd66WOBlKPy/eJB9T/PeTA6dPs4sg3ySdaRGUklOl+u3XmQ==";
+        };
+        _lTTlyzmu = {
+            "id" = "lTTlyzmu";
+            "file" = "Multiplayer Spawners - Fabric - 26.1 - 2.0.2.jar";
+            "hash" = "sha512-4/IrNQd52JzIU+H2eajFagmqIJcCouAym6XHmavJHYcMCbQdLaVbClzkYQt9RwU9wIs1eszFjXgLsyfT2Jsygg==";
+        };
+        _HfuNeFWm = {
+            "id" = "HfuNeFWm";
+            "file" = "Multiplayer Spawners - NeoForge - 26.1 - 2.0.2.jar";
+            "hash" = "sha512-5TwETcuD3dCvnaLUsOadQu+n2BQj9XH7/6de7JJaByjrrf6ubQjGKuoQpBe+WjPASpRgYUMeaOanFN93rAbUTQ==";
+        };
+        _ceU60Taj = {
+            "id" = "ceU60Taj";
+            "file" = "Multiplayer Spawners - NeoForge - 26.1.1 - 2.0.2.jar";
+            "hash" = "sha512-wiW+FgOeOP3qNAHlk9Zq/wlqH6lKxnw6Nze7CjZ8YuOxsAHkh2h24LgZsSlo7aZgR1sxJbGG1e5K3DVMcsZSiQ==";
+        };
+        _VMuQsV2Z = {
+            "id" = "VMuQsV2Z";
+            "file" = "Multiplayer Spawners - Fabric - 26.1.1 - 2.0.2.jar";
+            "hash" = "sha512-cvCvYZIartj/TEYQl4Sap7saqQGJTWEg6+RjjEnWONagSaZLomnuJpT2WcUIZX4UoBKT/TjQ9glcEeyBO4T/BQ==";
+        };
+        _7PnXGcNC = {
+            "id" = "7PnXGcNC";
+            "file" = "Multiplayer Spawners - Fabric - 26.1.2 - 2.0.2.jar";
+            "hash" = "sha512-ngJtbR7QgvoYeahx7xEYa7QYpAYWO4iNNlNghty/UDYp4y8AyWtID0NBzWgrx50O2v9W6tmz6YKDnyAR2cM8OQ==";
+        };
+        _tylXRvME = {
+            "id" = "tylXRvME";
+            "file" = "Multiplayer Spawners - Fabric - 26.2 - 2.0.2.jar";
+            "hash" = "sha512-CrHJg+uMlfvqhxe70Fm3OiaHM8ESODSeQoQxHe6j/32EWRwsh64joyB9c0MSmJ3Bo8SwGVxEvG4ss70VfPvJbA==";
+        };
+        _ZAWXsLCb = {
+            "id" = "ZAWXsLCb";
+            "file" = "Multiplayer Spawners - NeoForge - 26.1.2 - 2.0.2.jar";
+            "hash" = "sha512-ISBWvXMEIX9qApP2+kYZNv0QgAPZqU5/hijy4JFc8gVhfBAlx7VniMdLmc7szEPyUX2BuFZZuovzZAp+Yc+nLQ==";
+        };
+        _7lDt3vJ4 = {
+            "id" = "7lDt3vJ4";
+            "file" = "Multiplayer Spawners - NeoForge - 26.2 - 2.0.2.jar";
+            "hash" = "sha512-2FsTIcryP+A0Dg7tu/2wvHBsIHW9//3HrUbgldkG0TE6f1K9s4xiUs06/lgkP4LQItQ1dPxQdJ+Dy6QgJi9HtQ==";
+        };
+        _a5p5h1h1 = {
+            "id" = "a5p5h1h1";
+            "file" = "Multiplayer Spawners - NeoForge - 26.3 - 2.0.2.jar";
+            "hash" = "sha512-XSqnY/N4/6AnuM+sBPjYGgWkRJ90ZhBbfMO9K4ydlbX+MXmjis6/NtFwEALut0384mjSQC+GVGKPk7qTsPSMCw==";
+        };
+        _dtGhehVT = {
+            "id" = "dtGhehVT";
+            "file" = "Multiplayer Spawners - Fabric - 26.3 - 2.0.2.jar";
+            "hash" = "sha512-kMdiFTWViihTuc010vRgP5bTMJJo/h8VB0fYyhn3Fd2tdbx2OXXdDQZrLXWZyF2GBhCTM2lyy8s7gqEoEwS5Ng==";
+        };
     in {
         "7RV4T1JV" = _7RV4T1JV;
         "gN3KzfUi" = _gN3KzfUi;
@@ -464,40 +634,74 @@ let
         "2yiHHBuk" = _2yiHHBuk;
         "g5WyvLPt" = _g5WyvLPt;
         "PAs0k7Io" = _PAs0k7Io;
-        "fabric-1.20.1" = _Awdyc2Mj;
-        "fabric-1.21.1" = _aYuj2p1t;
-        "fabric-1.21.2" = _5BX8UPWp;
-        "fabric-1.21.3" = _f1z6ujWq;
-        "fabric-1.21.4" = _g5W6GrUt;
-        "fabric-1.21.5" = _OFdEPhnz;
-        "fabric-1.21.6" = _ahBOglVd;
-        "fabric-1.21.7" = _l7Ptm4Oe;
-        "fabric-1.21.8" = _afO7xwmW;
-        "fabric-1.21.9" = _GsG9wVx1;
-        "fabric-1.21.10" = _DmOEleqR;
-        "fabric-1.21.11" = _8EKDV28G;
-        "fabric-26.1" = _7XS73Ydj;
-        "fabric-26.1.1" = _RhwXpwyL;
-        "fabric-26.1.2" = _oaBJB6E8;
-        "fabric-26.2" = _rDvPlD8F;
-        "fabric-26.3" = _g5WyvLPt;
-        "forge-1.20.1" = _Ul3eNS6j;
-        "neoforge-1.21.1" = _F0qj8ZR7;
-        "neoforge-1.21.2" = _fyLi6KtI;
-        "neoforge-1.21.3" = _J8SxXmzt;
-        "neoforge-1.21.4" = _PjsqdXB1;
-        "neoforge-1.21.5" = _HmpW8x7K;
-        "neoforge-1.21.6" = _19N1x6r3;
-        "neoforge-1.21.7" = _bcfD3uXq;
-        "neoforge-1.21.8" = _ixVVHgmy;
-        "neoforge-1.21.9" = _SyfAeLMo;
-        "neoforge-1.21.10" = _uHfyqYfA;
-        "neoforge-1.21.11" = _P5KaRZuK;
-        "neoforge-26.1" = _wytv1GWb;
-        "neoforge-26.1.1" = _VFSPF2mv;
-        "neoforge-26.1.2" = _jyE5FUY8;
-        "neoforge-26.2" = _2yiHHBuk;
-        "neoforge-26.3" = _PAs0k7Io;
+        "pcZzn2Pd" = _pcZzn2Pd;
+        "lhwiG4mt" = _lhwiG4mt;
+        "Rq6IrgTw" = _Rq6IrgTw;
+        "nivH0FmT" = _nivH0FmT;
+        "IM9pki6E" = _IM9pki6E;
+        "32ucPVfO" = _32ucPVfO;
+        "uIzzhIqF" = _uIzzhIqF;
+        "M33YsLg9" = _M33YsLg9;
+        "qhDnmIgh" = _qhDnmIgh;
+        "3MQhqsZq" = _3MQhqsZq;
+        "JIZbetjs" = _JIZbetjs;
+        "ogKFcbJr" = _ogKFcbJr;
+        "XkmsQqOc" = _XkmsQqOc;
+        "zcr1oA40" = _zcr1oA40;
+        "eHnrrfRF" = _eHnrrfRF;
+        "1ouutELb" = _1ouutELb;
+        "AHm2Zjcn" = _AHm2Zjcn;
+        "3Lw3EgVb" = _3Lw3EgVb;
+        "IYCSpqv5" = _IYCSpqv5;
+        "2UOO1y91" = _2UOO1y91;
+        "aFo8MYvY" = _aFo8MYvY;
+        "9e572YI0" = _9e572YI0;
+        "aiEU6GHK" = _aiEU6GHK;
+        "5vpA3ova" = _5vpA3ova;
+        "lTTlyzmu" = _lTTlyzmu;
+        "HfuNeFWm" = _HfuNeFWm;
+        "ceU60Taj" = _ceU60Taj;
+        "VMuQsV2Z" = _VMuQsV2Z;
+        "7PnXGcNC" = _7PnXGcNC;
+        "tylXRvME" = _tylXRvME;
+        "ZAWXsLCb" = _ZAWXsLCb;
+        "7lDt3vJ4" = _7lDt3vJ4;
+        "a5p5h1h1" = _a5p5h1h1;
+        "dtGhehVT" = _dtGhehVT;
+        "fabric-1.20.1" = _nivH0FmT;
+        "fabric-1.21.1" = _lhwiG4mt;
+        "fabric-1.21.2" = _IM9pki6E;
+        "fabric-1.21.3" = _uIzzhIqF;
+        "fabric-1.21.4" = _qhDnmIgh;
+        "fabric-1.21.5" = _JIZbetjs;
+        "fabric-1.21.6" = _XkmsQqOc;
+        "fabric-1.21.7" = _eHnrrfRF;
+        "fabric-1.21.8" = _1ouutELb;
+        "fabric-1.21.9" = _IYCSpqv5;
+        "fabric-1.21.10" = _9e572YI0;
+        "fabric-1.21.11" = _aiEU6GHK;
+        "fabric-26.1" = _lTTlyzmu;
+        "fabric-26.1.1" = _VMuQsV2Z;
+        "fabric-26.1.2" = _7PnXGcNC;
+        "fabric-26.2" = _tylXRvME;
+        "fabric-26.3" = _dtGhehVT;
+        "forge-1.20.1" = _pcZzn2Pd;
+        "neoforge-1.21.1" = _Rq6IrgTw;
+        "neoforge-1.21.2" = _32ucPVfO;
+        "neoforge-1.21.3" = _M33YsLg9;
+        "neoforge-1.21.4" = _3MQhqsZq;
+        "neoforge-1.21.5" = _ogKFcbJr;
+        "neoforge-1.21.6" = _zcr1oA40;
+        "neoforge-1.21.7" = _AHm2Zjcn;
+        "neoforge-1.21.8" = _3Lw3EgVb;
+        "neoforge-1.21.9" = _2UOO1y91;
+        "neoforge-1.21.10" = _aFo8MYvY;
+        "neoforge-1.21.11" = _5vpA3ova;
+        "neoforge-26.1" = _HfuNeFWm;
+        "neoforge-26.1.1" = _ceU60Taj;
+        "neoforge-26.1.2" = _ZAWXsLCb;
+        "neoforge-26.2" = _7lDt3vJ4;
+        "neoforge-26.3" = _a5p5h1h1;
         "pkg-1.0.0" = _gN3KzfUi;
         "pkg-1.0.2" = _mIki9vmI;
         "pkg-1.0.3" = _kk5DfIeF;
@@ -570,7 +774,41 @@ let
         "pkg-2.0.1+neoforge-26.2" = _2yiHHBuk;
         "pkg-2.0.1+fabric-26.3" = _g5WyvLPt;
         "pkg-2.0.1+neoforge-26.3" = _PAs0k7Io;
-        "default" = _PAs0k7Io;
+        "pkg-2.0.2+forge-1.20.1" = _pcZzn2Pd;
+        "pkg-2.0.2+fabric-1.21.1" = _lhwiG4mt;
+        "pkg-2.0.2+neoforge-1.21.1" = _Rq6IrgTw;
+        "pkg-2.0.2+fabric-1.20.1" = _nivH0FmT;
+        "pkg-2.0.2+fabric-1.21.2" = _IM9pki6E;
+        "pkg-2.0.2+neoforge-1.21.2" = _32ucPVfO;
+        "pkg-2.0.2+fabric-1.21.3" = _uIzzhIqF;
+        "pkg-2.0.2+neoforge-1.21.3" = _M33YsLg9;
+        "pkg-2.0.2+fabric-1.21.4" = _qhDnmIgh;
+        "pkg-2.0.2+neoforge-1.21.4" = _3MQhqsZq;
+        "pkg-2.0.2+fabric-1.21.5" = _JIZbetjs;
+        "pkg-2.0.2+neoforge-1.21.5" = _ogKFcbJr;
+        "pkg-2.0.2+fabric-1.21.6" = _XkmsQqOc;
+        "pkg-2.0.2+neoforge-1.21.6" = _zcr1oA40;
+        "pkg-2.0.2+fabric-1.21.7" = _eHnrrfRF;
+        "pkg-2.0.2+fabric-1.21.8" = _1ouutELb;
+        "pkg-2.0.2+neoforge-1.21.7" = _AHm2Zjcn;
+        "pkg-2.0.2+neoforge-1.21.8" = _3Lw3EgVb;
+        "pkg-2.0.2+fabric-1.21.9" = _IYCSpqv5;
+        "pkg-2.0.2+neoforge-1.21.9" = _2UOO1y91;
+        "pkg-2.0.2+neoforge-1.21.10" = _aFo8MYvY;
+        "pkg-2.0.2+fabric-1.21.10" = _9e572YI0;
+        "pkg-2.0.2+fabric-1.21.11" = _aiEU6GHK;
+        "pkg-2.0.2+neoforge-1.21.11" = _5vpA3ova;
+        "pkg-2.0.2+fabric-26.1" = _lTTlyzmu;
+        "pkg-2.0.2+neoforge-26.1" = _HfuNeFWm;
+        "pkg-2.0.2+neoforge-26.1.1" = _ceU60Taj;
+        "pkg-2.0.2+fabric-26.1.1" = _VMuQsV2Z;
+        "pkg-2.0.2+fabric-26.1.2" = _7PnXGcNC;
+        "pkg-2.0.2+fabric-26.2" = _tylXRvME;
+        "pkg-2.0.2+neoforge-26.1.2" = _ZAWXsLCb;
+        "pkg-2.0.2+neoforge-26.2" = _7lDt3vJ4;
+        "pkg-2.0.2+neoforge-26.3" = _a5p5h1h1;
+        "pkg-2.0.2+fabric-26.3" = _dtGhehVT;
+        "default" = _dtGhehVT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "multiplayer-spawners";

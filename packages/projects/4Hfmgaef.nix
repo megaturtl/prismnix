@@ -526,6 +526,86 @@ let
             "file" = "overflowanimations-5.1.0+1.21.8-fabric.jar";
             "hash" = "sha512-QHPzlg/Ywjdt7wMaTeqLnjD1HusrraVTvIx99O97D5tz4HsjMUiSwT4tQ2qBuzSXlQpIx2zCK2KjY4/ic2M7tA==";
         };
+        _TMDKDqeG = {
+            "id" = "TMDKDqeG";
+            "file" = "overflowanimations-5.1.1+26.3-fabric.jar";
+            "hash" = "sha512-Wzb9HEuUnZPJ9tI/bgBWkDcbi6/mNQtlkwCEDAXLyOxIJr0ssp8zy2Bik/g2TeFqGgrP/X3M+pMqpnZjs7qY0g==";
+        };
+        _7viAScvI = {
+            "id" = "7viAScvI";
+            "file" = "overflowanimations-5.1.1+1.8.9-fabric.jar";
+            "hash" = "sha512-7sU25GNYb/xwWCwuvaidPSlYGHZ95KXp+lOK8u3vbUKs9ILi5uM3zcYGr5pF7BpKBO31WTorPwUTqZ2mv61xdQ==";
+        };
+        _UHcMIft5 = {
+            "id" = "UHcMIft5";
+            "file" = "overflowanimations-5.1.1+26.2-fabric.jar";
+            "hash" = "sha512-R+aIjow1KyjRFIliaoyIWLtqsO0GQRR+us7bg2KPU5IJ6ytaUTiV3KKi2DTWz7lLysymMJ9r6aXjtf1F9D0yDA==";
+        };
+        _CctlSgx7 = {
+            "id" = "CctlSgx7";
+            "file" = "overflowanimations-5.1.1+26.1.2-fabric.jar";
+            "hash" = "sha512-N8fkBOdZpMt/PMXIrX30/nOZQ3sJhbkfKtnG2WZ3WiDGs+0WR2RoBC5ggDr4hhoj6XYdK0XhN/MEiMB9DqUQ/w==";
+        };
+        _EoIryFGr = {
+            "id" = "EoIryFGr";
+            "file" = "overflowanimations-5.1.1+1.21.8-fabric.jar";
+            "hash" = "sha512-y46LkUH/GJI6JP+rYQna8nrtBNgDsDPKazOvvQqHAR3GDhYKTOvyghl7e9Wv/QKtphE5k4M5ayhohL18L9OvCA==";
+        };
+        _odQNoteu = {
+            "id" = "odQNoteu";
+            "file" = "overflowanimations-5.1.1+1.21.4-fabric.jar";
+            "hash" = "sha512-JVVxvLuXO3NGQIPub/XwkKNDmKDJ+VsurUj2ZoYQH5EL/ZzLAJCgU6C6vQq0qbbWQFZF4jf5pgzLgb2+tragaQ==";
+        };
+        _jOigVbyu = {
+            "id" = "jOigVbyu";
+            "file" = "overflowanimations-5.1.1+1.21.11-fabric.jar";
+            "hash" = "sha512-nIz3ryLjjccLhfjjYcRXqLxZ6HDjxjYKVXMiO5e3P+Z+xq9hZUBYBoNd239fqObblT8PU2ik1mPGYYSaEu9oIQ==";
+        };
+        _AjNZFZTO = {
+            "id" = "AjNZFZTO";
+            "file" = "overflowanimations-5.1.1+1.21.10-fabric.jar";
+            "hash" = "sha512-yBrF5/OFfJl523kkAeXVkWqUYuE/ZmT7b4C1QxrSAisG8q9JQrhkG9/Q8Ywnyaksm7mv2+HsZhJPxO80Qi3LkA==";
+        };
+        _55f7dgLI = {
+            "id" = "55f7dgLI";
+            "file" = "overflowanimations-5.1.2+1.8.9-fabric.jar";
+            "hash" = "sha512-bLIlrucc9Z0nhgWqt5pIVEqJuAo/89U1R0RPYvswQs5Hah3BxjLb/cnJIrjs5+5i5eWJMAF5VjACn/YSBJHN3Q==";
+        };
+        _lvQszAJs = {
+            "id" = "lvQszAJs";
+            "file" = "overflowanimations-5.1.2+26.3-fabric.jar";
+            "hash" = "sha512-hnUx1N8h6glkmg22adbHrNcYb3Gey10RqF6fD5SrkxxZrP4ZseKnV1aIiu1Vi9REXlgB/rPmd3jzfDzLxwGSrg==";
+        };
+        _npKPtX2N = {
+            "id" = "npKPtX2N";
+            "file" = "overflowanimations-5.1.2+26.2-fabric.jar";
+            "hash" = "sha512-DylIWQ/StmFjdatFTAMD9d7Ku4DxGSR+LlaQ72Xba2YxOJshWnHrgkYK7Ahx2zWfASGYGQZUFMRkxlR4nIEkNA==";
+        };
+        _oOfZqoAK = {
+            "id" = "oOfZqoAK";
+            "file" = "overflowanimations-5.1.2+26.1.2-fabric.jar";
+            "hash" = "sha512-r0HnX9dQCiw6jJkqdla9YxSFx000mpDBdyj7LOCGGI7yMvvbQP8rPopD67ib/DNmojKAL1IWwjZKC0XynELyfg==";
+        };
+        _Xln0bHku = {
+            "id" = "Xln0bHku";
+            "file" = "overflowanimations-5.1.2+1.21.4-fabric.jar";
+            "hash" = "sha512-xpxkxNKvQHhvO0Z9jNCSVzKBd4i7ACY7dOMYhE1rXJTcbZR2p75qnOXdpYebdMhpwDUB+KYGp2eX+ObUmY48Lg==";
+        };
+        _uFE0DgkN = {
+            "id" = "uFE0DgkN";
+            "file" = "overflowanimations-5.1.2+1.21.11-fabric.jar";
+            "hash" = "sha512-bdr/I8mmFbMAlvZXfIICf3uUCuPxZiwHMSClzDYg5QIwplScCrlWlOAzObrIbXgK/B8NarJs6TFL5oYK1TKDxA==";
+        };
+        _95jg8ckJ = {
+            "id" = "95jg8ckJ";
+            "file" = "overflowanimations-5.1.2+1.21.8-fabric.jar";
+            "hash" = "sha512-0Fkgriu/+/VgiUlc5X7s3ZWyG6g9E5eQqem9hVgcjjvmjRqqD6sHWYxOh3GGGqxMYkEb9G0Kb5fbPGNdEznkiQ==";
+        };
+        _IwuzdaRu = {
+            "id" = "IwuzdaRu";
+            "file" = "overflowanimations-5.1.2+1.21.10-fabric.jar";
+            "hash" = "sha512-oR+nwajMDuPrbByFX4rnvtflP4lDovKzV2JfPt1P4sC7a1driXgoC0QO+vGB3tkalqFWoIvS80nk0Q0/hoB5dQ==";
+        };
     in {
         "laBN0v03" = _laBN0v03;
         "pz42CEvh" = _pz42CEvh;
@@ -632,20 +712,36 @@ let
         "JbkvEJkN" = _JbkvEJkN;
         "VeVrCcgU" = _VeVrCcgU;
         "vnoYIbiy" = _vnoYIbiy;
+        "TMDKDqeG" = _TMDKDqeG;
+        "7viAScvI" = _7viAScvI;
+        "UHcMIft5" = _UHcMIft5;
+        "CctlSgx7" = _CctlSgx7;
+        "EoIryFGr" = _EoIryFGr;
+        "odQNoteu" = _odQNoteu;
+        "jOigVbyu" = _jOigVbyu;
+        "AjNZFZTO" = _AjNZFZTO;
+        "55f7dgLI" = _55f7dgLI;
+        "lvQszAJs" = _lvQszAJs;
+        "npKPtX2N" = _npKPtX2N;
+        "oOfZqoAK" = _oOfZqoAK;
+        "Xln0bHku" = _Xln0bHku;
+        "uFE0DgkN" = _uFE0DgkN;
+        "95jg8ckJ" = _95jg8ckJ;
+        "IwuzdaRu" = _IwuzdaRu;
         "forge-1.8.9" = _elKb2H82;
-        "fabric-26.3" = _LKeEuHc9;
-        "fabric-26.1" = _vPnzEtc5;
-        "fabric-26.1.1" = _vPnzEtc5;
-        "fabric-26.1.2" = _vPnzEtc5;
-        "fabric-26.2" = _UiP9gjI3;
-        "fabric-1.21.4" = _qAUiF05x;
-        "fabric-1.21.9" = _VeVrCcgU;
-        "fabric-1.21.10" = _VeVrCcgU;
-        "fabric-1.21.6" = _vnoYIbiy;
-        "fabric-1.21.7" = _vnoYIbiy;
-        "fabric-1.21.8" = _vnoYIbiy;
-        "fabric-1.21.11" = _JbkvEJkN;
-        "ornithe-1.8.9" = _X9HGErCN;
+        "fabric-26.3" = _lvQszAJs;
+        "fabric-26.1" = _oOfZqoAK;
+        "fabric-26.1.1" = _oOfZqoAK;
+        "fabric-26.1.2" = _oOfZqoAK;
+        "fabric-26.2" = _npKPtX2N;
+        "fabric-1.21.4" = _Xln0bHku;
+        "fabric-1.21.9" = _IwuzdaRu;
+        "fabric-1.21.10" = _IwuzdaRu;
+        "fabric-1.21.6" = _95jg8ckJ;
+        "fabric-1.21.7" = _95jg8ckJ;
+        "fabric-1.21.8" = _95jg8ckJ;
+        "fabric-1.21.11" = _uFE0DgkN;
+        "ornithe-1.8.9" = _55f7dgLI;
         "pkg-v2.0.0" = _laBN0v03;
         "pkg-v2.0.1" = _pz42CEvh;
         "pkg-v2.1.0" = _DzqG8tlY;
@@ -667,7 +763,9 @@ let
         "pkg-5.0.8" = _dNgl1khs;
         "pkg-5.0.9" = _ivrGXp0l;
         "pkg-5.1.0" = _vnoYIbiy;
-        "default" = _vnoYIbiy;
+        "pkg-5.1.1" = _AjNZFZTO;
+        "pkg-5.1.2" = _IwuzdaRu;
+        "default" = _IwuzdaRu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "animatium-legacy";

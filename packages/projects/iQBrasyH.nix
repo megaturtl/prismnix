@@ -331,6 +331,11 @@ let
             "file" = "passiveshield-26.3.0-4.0.jar";
             "hash" = "sha512-0pJN8KMMKfQ/08nEPJAZSYIzeNTtJSZHRlogDJnNIwl2VBYcVTCKPaEtJFiJ8kU5u5fvTrzuyl0te5deNVzUjw==";
         };
+        _wXQX60pB = {
+            "id" = "wXQX60pB";
+            "file" = "passiveshield-26.1.2-4.0.jar";
+            "hash" = "sha512-r8bDkwBBN+6l+ktNbEW+EBdyAymFxyxRt1Ne1OKzGP4/SNjPN/mB4z8wD4BWunWF1t4GJTmiLOBhyRflrOwDgQ==";
+        };
     in {
         "wxypOusk" = _wxypOusk;
         "k6gdAhF0" = _k6gdAhF0;
@@ -398,6 +403,7 @@ let
         "VmY7wihe" = _VmY7wihe;
         "WIeHIcMe" = _WIeHIcMe;
         "ih2WFeUv" = _ih2WFeUv;
+        "wXQX60pB" = _wXQX60pB;
         "fabric-1.16.5" = _Z9vT1dkx;
         "fabric-1.18.2" = _Ctw7pwzg;
         "fabric-1.19.2" = _uuBHMdCX;
@@ -424,7 +430,7 @@ let
         "fabric-1.21.11" = _aaXXPW0v;
         "fabric-26.1" = _NUnPSWZE;
         "fabric-26.1.1" = _KwhhAO5e;
-        "fabric-26.1.2" = _B5XPzeDF;
+        "fabric-26.1.2" = _wXQX60pB;
         "fabric-26.2" = _WIeHIcMe;
         "fabric-26.3" = _ih2WFeUv;
         "forge-1.16.5" = _c5KiZDvF;
@@ -451,7 +457,7 @@ let
         "forge-1.21.11" = _aaXXPW0v;
         "forge-26.1" = _NUnPSWZE;
         "forge-26.1.1" = _KwhhAO5e;
-        "forge-26.1.2" = _B5XPzeDF;
+        "forge-26.1.2" = _wXQX60pB;
         "forge-26.2" = _WIeHIcMe;
         "forge-26.3" = _ih2WFeUv;
         "quilt-1.18.2" = _Ctw7pwzg;
@@ -479,7 +485,7 @@ let
         "quilt-1.21.11" = _aaXXPW0v;
         "quilt-26.1" = _NUnPSWZE;
         "quilt-26.1.1" = _KwhhAO5e;
-        "quilt-26.1.2" = _B5XPzeDF;
+        "quilt-26.1.2" = _wXQX60pB;
         "quilt-26.2" = _WIeHIcMe;
         "quilt-26.3" = _ih2WFeUv;
         "neoforge-1.20.2" = _FFwBmdh4;
@@ -502,7 +508,7 @@ let
         "neoforge-1.21.11" = _aaXXPW0v;
         "neoforge-26.1" = _NUnPSWZE;
         "neoforge-26.1.1" = _KwhhAO5e;
-        "neoforge-26.1.2" = _B5XPzeDF;
+        "neoforge-26.1.2" = _wXQX60pB;
         "neoforge-26.2" = _WIeHIcMe;
         "neoforge-26.3" = _ih2WFeUv;
         "pkg-1.16.5-2.6-fabric" = _wxypOusk;
@@ -571,7 +577,8 @@ let
         "pkg-1.21.1-4.0-fabric+forge+neo" = _VmY7wihe;
         "pkg-26.2.0-4.0-fabric+forge+neo" = _WIeHIcMe;
         "pkg-26.3.0-4.0-fabric+forge+neo" = _ih2WFeUv;
-        "default" = _ih2WFeUv;
+        "pkg-26.1.2-4.0-fabric+forge+neo" = _wXQX60pB;
+        "default" = _wXQX60pB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "passive-shield";

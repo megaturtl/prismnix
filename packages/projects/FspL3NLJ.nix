@@ -371,6 +371,11 @@ let
             "file" = "configurablemobpotioneffects-26.3.0-4.0.jar";
             "hash" = "sha512-9O7GlOIIwubRujRlP9pwZvBNDW/kKPRmkALXJ1TggIaYMy0l9345SyBYJLl9GqLoRSlNhDxZA2LXY7SFp+HVDA==";
         };
+        _iwvvKKY5 = {
+            "id" = "iwvvKKY5";
+            "file" = "configurablemobpotioneffects-26.1.2-4.0.jar";
+            "hash" = "sha512-Bt4cf40T+o8LZSSewSRKSxHrtA/bsicZBPZHyWnwr2ptaOzlxHQHs5JS7WRzN28sqjnpHw5u9mjlEudgNXYJ+Q==";
+        };
     in {
         "mTUQcLLm" = _mTUQcLLm;
         "DFDMUDKX" = _DFDMUDKX;
@@ -446,6 +451,7 @@ let
         "XMI89RDP" = _XMI89RDP;
         "wFwHb8M3" = _wFwHb8M3;
         "NzxBSO4o" = _NzxBSO4o;
+        "iwvvKKY5" = _iwvvKKY5;
         "fabric-1.16.5" = _MdIskpPL;
         "fabric-1.18.2" = _FxmnO5cO;
         "fabric-1.19.2" = _12Mdj5gJ;
@@ -472,7 +478,7 @@ let
         "fabric-1.21.11" = _CXcEXRtL;
         "fabric-26.1" = _qriqb6B5;
         "fabric-26.1.1" = _rKEcFLQm;
-        "fabric-26.1.2" = _oVjkeKYy;
+        "fabric-26.1.2" = _iwvvKKY5;
         "fabric-26.2" = _wFwHb8M3;
         "fabric-26.3" = _NzxBSO4o;
         "forge-1.16.5" = _6H57upUK;
@@ -499,7 +505,7 @@ let
         "forge-1.21.11" = _CXcEXRtL;
         "forge-26.1" = _qriqb6B5;
         "forge-26.1.1" = _rKEcFLQm;
-        "forge-26.1.2" = _oVjkeKYy;
+        "forge-26.1.2" = _iwvvKKY5;
         "forge-26.2" = _wFwHb8M3;
         "forge-26.3" = _NzxBSO4o;
         "quilt-1.18.2" = _FxmnO5cO;
@@ -527,7 +533,7 @@ let
         "quilt-1.21.11" = _CXcEXRtL;
         "quilt-26.1" = _qriqb6B5;
         "quilt-26.1.1" = _rKEcFLQm;
-        "quilt-26.1.2" = _oVjkeKYy;
+        "quilt-26.1.2" = _iwvvKKY5;
         "quilt-26.2" = _wFwHb8M3;
         "quilt-26.3" = _NzxBSO4o;
         "neoforge-1.20.2" = _KTBVx4Bu;
@@ -550,7 +556,7 @@ let
         "neoforge-1.21.11" = _CXcEXRtL;
         "neoforge-26.1" = _qriqb6B5;
         "neoforge-26.1.1" = _rKEcFLQm;
-        "neoforge-26.1.2" = _oVjkeKYy;
+        "neoforge-26.1.2" = _iwvvKKY5;
         "neoforge-26.2" = _wFwHb8M3;
         "neoforge-26.3" = _NzxBSO4o;
         "pkg-1.16.5-1.8-fabric" = _mTUQcLLm;
@@ -627,7 +633,8 @@ let
         "pkg-1.21.1-4.0-fabric+forge+neo" = _XMI89RDP;
         "pkg-26.2.0-4.0-fabric+forge+neo" = _wFwHb8M3;
         "pkg-26.3.0-4.0-fabric+forge+neo" = _NzxBSO4o;
-        "default" = _NzxBSO4o;
+        "pkg-26.1.2-4.0-fabric+forge+neo" = _iwvvKKY5;
+        "default" = _iwvvKKY5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "configurable-mob-potion-effects";

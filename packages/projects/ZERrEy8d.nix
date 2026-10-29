@@ -411,6 +411,11 @@ let
             "file" = "healingsoup-26.3.0-5.5.jar";
             "hash" = "sha512-jf0CtuESgiSnVImvwXMQiRCK5xTVJJ1jIYTe1fe0FPGhyBhU05sDd3lu9ouTXw6cQ72q8obYiMh1p0Et1nlqQA==";
         };
+        _SdL4MCCu = {
+            "id" = "SdL4MCCu";
+            "file" = "healingsoup-26.1.2-5.5.jar";
+            "hash" = "sha512-nJKQ87CoJoyXhuP7ic+HmXVJDivOi3HbHJb8gkP1CWoVZGpZp/Ou6IvxZqbm/NUN3ryajBbMJwaK1ZGb0R+H2Q==";
+        };
     in {
         "fB7UkYXe" = _fB7UkYXe;
         "oEqUHdCL" = _oEqUHdCL;
@@ -494,6 +499,7 @@ let
         "Ov6ZoNoR" = _Ov6ZoNoR;
         "dU9IdtdB" = _dU9IdtdB;
         "g06jjnar" = _g06jjnar;
+        "SdL4MCCu" = _SdL4MCCu;
         "fabric-1.16.5" = _ztUQ0Bu8;
         "fabric-1.18.2" = _GyblKL05;
         "fabric-1.19.2" = _L5nhs3eK;
@@ -520,7 +526,7 @@ let
         "fabric-1.21.11" = _STeT1yMs;
         "fabric-26.1" = _GDanH0kv;
         "fabric-26.1.1" = _A3jVbkVU;
-        "fabric-26.1.2" = _a4tCJozp;
+        "fabric-26.1.2" = _SdL4MCCu;
         "fabric-26.2" = _dU9IdtdB;
         "fabric-26.3" = _g06jjnar;
         "forge-1.16.5" = _R6TdJxUn;
@@ -547,7 +553,7 @@ let
         "forge-1.21.11" = _STeT1yMs;
         "forge-26.1" = _GDanH0kv;
         "forge-26.1.1" = _A3jVbkVU;
-        "forge-26.1.2" = _a4tCJozp;
+        "forge-26.1.2" = _SdL4MCCu;
         "forge-26.2" = _dU9IdtdB;
         "forge-26.3" = _g06jjnar;
         "quilt-1.18.2" = _GyblKL05;
@@ -575,7 +581,7 @@ let
         "quilt-1.21.11" = _STeT1yMs;
         "quilt-26.1" = _GDanH0kv;
         "quilt-26.1.1" = _A3jVbkVU;
-        "quilt-26.1.2" = _a4tCJozp;
+        "quilt-26.1.2" = _SdL4MCCu;
         "quilt-26.2" = _dU9IdtdB;
         "quilt-26.3" = _g06jjnar;
         "neoforge-1.20.2" = _SyV7lEU7;
@@ -598,7 +604,7 @@ let
         "neoforge-1.21.11" = _STeT1yMs;
         "neoforge-26.1" = _GDanH0kv;
         "neoforge-26.1.1" = _A3jVbkVU;
-        "neoforge-26.1.2" = _a4tCJozp;
+        "neoforge-26.1.2" = _SdL4MCCu;
         "neoforge-26.2" = _dU9IdtdB;
         "neoforge-26.3" = _g06jjnar;
         "pkg-1.16.5-2.7-fabric" = _fB7UkYXe;
@@ -683,7 +689,8 @@ let
         "pkg-1.21.1-5.5-fabric+forge+neo" = _Ov6ZoNoR;
         "pkg-26.2.0-5.5-fabric+forge+neo" = _dU9IdtdB;
         "pkg-26.3.0-5.5-fabric+forge+neo" = _g06jjnar;
-        "default" = _g06jjnar;
+        "pkg-26.1.2-5.5-fabric+forge+neo" = _SdL4MCCu;
+        "default" = _SdL4MCCu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "healing-soup";

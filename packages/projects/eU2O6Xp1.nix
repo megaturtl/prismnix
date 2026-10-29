@@ -296,6 +296,11 @@ let
             "file" = "tntbreaksbedrock-26.3.0-3.7.jar";
             "hash" = "sha512-HNIpQ2ngbSN+wBhhmlcT6ENCN0619ge3Icbts14dq4GfODc4ixvZ27VWloSYxMwpNXIqRsh/qioymrQIIRIVsw==";
         };
+        _nNWlkFmI = {
+            "id" = "nNWlkFmI";
+            "file" = "tntbreaksbedrock-26.1.2-3.7.jar";
+            "hash" = "sha512-GzoC3F1EeV8XW3AZSElcTNGWmrWsUPy41at7TwOM88v8RaHgueheMfMMczlaKX3WB8O2Z8o6sULjCQJI3LV5CQ==";
+        };
     in {
         "yAR27mqp" = _yAR27mqp;
         "WwxIyXr4" = _WwxIyXr4;
@@ -356,6 +361,7 @@ let
         "Bw9ZJbHd" = _Bw9ZJbHd;
         "Eq4KUCGA" = _Eq4KUCGA;
         "btpZwt38" = _btpZwt38;
+        "nNWlkFmI" = _nNWlkFmI;
         "fabric-1.16.5" = _iA4Et8ad;
         "fabric-1.18.2" = _12y5Y9LV;
         "fabric-1.19.2" = _pQNyFLMD;
@@ -382,7 +388,7 @@ let
         "fabric-1.21.11" = _hwq9f9Cd;
         "fabric-26.1" = _12tBbtTM;
         "fabric-26.1.1" = _g6An4ihH;
-        "fabric-26.1.2" = _DPPzz4v9;
+        "fabric-26.1.2" = _nNWlkFmI;
         "fabric-26.2" = _Eq4KUCGA;
         "fabric-26.3" = _btpZwt38;
         "forge-1.16.5" = _fnxyfyP8;
@@ -409,7 +415,7 @@ let
         "forge-1.21.11" = _hwq9f9Cd;
         "forge-26.1" = _12tBbtTM;
         "forge-26.1.1" = _g6An4ihH;
-        "forge-26.1.2" = _DPPzz4v9;
+        "forge-26.1.2" = _nNWlkFmI;
         "forge-26.2" = _Eq4KUCGA;
         "forge-26.3" = _btpZwt38;
         "quilt-1.18.2" = _12y5Y9LV;
@@ -437,7 +443,7 @@ let
         "quilt-1.21.11" = _hwq9f9Cd;
         "quilt-26.1" = _12tBbtTM;
         "quilt-26.1.1" = _g6An4ihH;
-        "quilt-26.1.2" = _DPPzz4v9;
+        "quilt-26.1.2" = _nNWlkFmI;
         "quilt-26.2" = _Eq4KUCGA;
         "quilt-26.3" = _btpZwt38;
         "neoforge-1.20.2" = _ySRZXFN8;
@@ -460,7 +466,7 @@ let
         "neoforge-1.21.11" = _hwq9f9Cd;
         "neoforge-26.1" = _12tBbtTM;
         "neoforge-26.1.1" = _g6An4ihH;
-        "neoforge-26.1.2" = _DPPzz4v9;
+        "neoforge-26.1.2" = _nNWlkFmI;
         "neoforge-26.2" = _Eq4KUCGA;
         "neoforge-26.3" = _btpZwt38;
         "pkg-1.16.5-2.2-fabric" = _yAR27mqp;
@@ -522,7 +528,8 @@ let
         "pkg-1.21.1-3.7-fabric+forge+neo" = _Bw9ZJbHd;
         "pkg-26.2.0-3.7-fabric+forge+neo" = _Eq4KUCGA;
         "pkg-26.3.0-3.7-fabric+forge+neo" = _btpZwt38;
-        "default" = _btpZwt38;
+        "pkg-26.1.2-3.7-fabric+forge+neo" = _nNWlkFmI;
+        "default" = _nNWlkFmI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tnt-breaks-bedrock";

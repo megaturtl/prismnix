@@ -56,6 +56,11 @@ let
             "file" = "RTG-1.12.2-9.0.3.jar";
             "hash" = "sha512-b3cR55TphvAvxSOdDL9yYVUy4MaFslPk05bGqWdJwr4dEijbL9YaguZCsC8BJkNCcssv9C2phTkW3PlleCRSPQ==";
         };
+        _gu4kHFDI = {
+            "id" = "gu4kHFDI";
+            "file" = "RTG-1.12.2-9.0.4.jar";
+            "hash" = "sha512-262r8A9sF6uHG08gxeYGsBvdiQcsWwv0K1XLzZqejAB25Yy5ap/zFZspTME7zgdo2ctSdHvrLUEz0bL/v/pnHQ==";
+        };
     in {
         "g47AEQdb" = _g47AEQdb;
         "1xtIyjW8" = _1xtIyjW8;
@@ -68,7 +73,8 @@ let
         "XJjXedWF" = _XJjXedWF;
         "LbjRbeVF" = _LbjRbeVF;
         "CUp7D63Q" = _CUp7D63Q;
-        "forge-1.12.2" = _CUp7D63Q;
+        "gu4kHFDI" = _gu4kHFDI;
+        "forge-1.12.2" = _gu4kHFDI;
         "forge-1.12" = _AEiODb70;
         "forge-1.12.1" = _AEiODb70;
         "pkg-7.0" = _g47AEQdb;
@@ -81,7 +87,8 @@ let
         "pkg-7.3.3.4" = _XJjXedWF;
         "pkg-9.0" = _LbjRbeVF;
         "pkg-9.0.3" = _CUp7D63Q;
-        "default" = _CUp7D63Q;
+        "pkg-9.0.4" = _gu4kHFDI;
+        "default" = _gu4kHFDI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rtg-plus";

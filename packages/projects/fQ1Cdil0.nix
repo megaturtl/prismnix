@@ -46,6 +46,11 @@ let
             "file" = "DART SLRV v1.8.zip";
             "hash" = "sha512-amqPKvg/Hj3n6xQ/SWX3L193bkVeH64pqH+EOIrFG2ZV2c0KpD0PZ4I4lTBqU2c65hxzxizilPtARJG9OzCOxg==";
         };
+        _GOQYODYy = {
+            "id" = "GOQYODYy";
+            "file" = "DART SLRV v1.9.zip";
+            "hash" = "sha512-/8EpAYIIeols/GqtPmodc+9QsEzdS8XFMrMV/kDpeQxZex+nmSVqYF7iHPvuXyTRHXWHzDMhmK0+xqI2rmQpqQ==";
+        };
     in {
         "IOHom9bg" = _IOHom9bg;
         "xVEz8PKg" = _xVEz8PKg;
@@ -56,13 +61,14 @@ let
         "vl73HDIk" = _vl73HDIk;
         "uc6qT91w" = _uc6qT91w;
         "pTtmeAgg" = _pTtmeAgg;
+        "GOQYODYy" = _GOQYODYy;
         "minecraft-1.16.5" = _6f3zlWJa;
-        "minecraft-1.17.1" = _pTtmeAgg;
-        "minecraft-1.18.2" = _pTtmeAgg;
-        "minecraft-1.19.2" = _pTtmeAgg;
-        "minecraft-1.19.4" = _pTtmeAgg;
-        "minecraft-1.20.1" = _pTtmeAgg;
-        "minecraft-1.20.4" = _pTtmeAgg;
+        "minecraft-1.17.1" = _GOQYODYy;
+        "minecraft-1.18.2" = _GOQYODYy;
+        "minecraft-1.19.2" = _GOQYODYy;
+        "minecraft-1.19.4" = _GOQYODYy;
+        "minecraft-1.20.1" = _GOQYODYy;
+        "minecraft-1.20.4" = _GOQYODYy;
         "pkg-1.0" = _IOHom9bg;
         "pkg-1.1" = _xVEz8PKg;
         "pkg-1.2" = _FJ8uQtRz;
@@ -72,7 +78,8 @@ let
         "pkg-1.6" = _vl73HDIk;
         "pkg-1.7" = _uc6qT91w;
         "pkg-1.8" = _pTtmeAgg;
-        "default" = _pTtmeAgg;
+        "pkg-1.9" = _GOQYODYy;
+        "default" = _GOQYODYy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dart-slrv";

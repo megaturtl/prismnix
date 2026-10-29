@@ -816,6 +816,46 @@ let
             "file" = "yo_hooks-5.3.0.jar";
             "hash" = "sha512-xGPKi59aGWYBTmZiA3P2mLQUL7GWJCY71/tnq3k2fWOQfHLS9XfGJwkiJLGdoh6LxFUgcMkx9muezyLgAdtHKg==";
         };
+        _ZXoPfxhw = {
+            "id" = "ZXoPfxhw";
+            "file" = "yo_hooks-fabric-5.4.0+1.21.1.jar";
+            "hash" = "sha512-8PRrdjxAJ+MTAA0Uo0BtBX6NRntBYZChTJlxhuFogWB2CikgUw5z6gc4O1jzdjA5Nxv6EJyNQcnK+cxKDQ5qEw==";
+        };
+        _vqPqfNue = {
+            "id" = "vqPqfNue";
+            "file" = "yo_hooks-fabric-5.4.0+26.1.jar";
+            "hash" = "sha512-TEp720R6/yy5+RJHsLui/3X9zJ7eO8QlSuszkF1PeIiKkXH9t/g67mkZ2pAz1UkH4lIOhtRAjD8bpeb+IKT6Rw==";
+        };
+        _FVtKP7aL = {
+            "id" = "FVtKP7aL";
+            "file" = "yo_hooks-fabric-5.4.0+26.2.jar";
+            "hash" = "sha512-p5ZCEKgRPZd/nFRgQe709mBObug1xFOpe+zades290Ugcr21F/BQMxWsynwaJLjJQn/sNCvAGMWfxFLaS3rSHQ==";
+        };
+        _kQy954ib = {
+            "id" = "kQy954ib";
+            "file" = "yo_hooks-fabric-5.4.0+26.3.jar";
+            "hash" = "sha512-IzPHkFXlVtyCsP7HGJ++jD6B9I3gfrTGgAtdDovBZFk2HN03XqWP+FlKzHCJNk9fGdqtuQ4b2c+8wtfKJ0Hdkg==";
+        };
+        _lf4DqQBf = {
+            "id" = "lf4DqQBf";
+            "file" = "yo_hooks-neoforge-5.4.0+1.21.1.jar";
+            "hash" = "sha512-jLvv9AUr8pUsj36d1cMbCn3XomUzEE2fRw2Ai34KJozIVuh9OnZaLKKYpeK0MdYK6x83ppCJuDF79djKBDRjVA==";
+        };
+        _HZeXttDX = {
+            "id" = "HZeXttDX";
+            "file" = "yo_hooks-neoforge-5.4.0+26.1.jar";
+            "hash" = "sha512-r39sXadrpsNNxdaYYuF3iwPoEq2MsscGwPGbufaq0XZsoMu05We0sI5LY6DXOjMXy6lJGcvakm8wZwalyAVVdA==";
+        };
+        _bq1Ld0kl = {
+            "id" = "bq1Ld0kl";
+            "file" = "yo_hooks-neoforge-5.4.0+26.2.jar";
+            "hash" = "sha512-EGEqlojRatGWTw/l4jRR+OvamWrogeLEMhfKZ1GG2axnEVbjOdBYBJLtY3GeGN+cBx3PJ90sAQUGepP3brjShQ==";
+        };
+        _YZqaRrf1 = {
+            "id" = "YZqaRrf1";
+            "file" = "yo_hooks-neoforge-5.4.0+26.3.jar";
+            "hash" = "sha512-ciHAdATYeypGVihsyF447gWPJ+7kjA3M3Jy8iGVmCkEqIKK/FWqNnrJnYzSx4Pe4PLc6APnCztU82g+R9OjASQ==";
+        };
     in {
         "hQaiXsaI" = _hQaiXsaI;
         "gjL5S0Tp" = _gjL5S0Tp;
@@ -980,7 +1020,15 @@ let
         "JUqC2yvc" = _JUqC2yvc;
         "veVB0yre" = _veVB0yre;
         "3b5B8k6m" = _3b5B8k6m;
-        "fabric-1.21.1" = _veVB0yre;
+        "ZXoPfxhw" = _ZXoPfxhw;
+        "vqPqfNue" = _vqPqfNue;
+        "FVtKP7aL" = _FVtKP7aL;
+        "kQy954ib" = _kQy954ib;
+        "lf4DqQBf" = _lf4DqQBf;
+        "HZeXttDX" = _HZeXttDX;
+        "bq1Ld0kl" = _bq1Ld0kl;
+        "YZqaRrf1" = _YZqaRrf1;
+        "fabric-1.21.1" = _ZXoPfxhw;
         "fabric-1.20.4" = _C0YJn0uq;
         "fabric-1.20.1" = _LKG51o1V;
         "fabric-1.21.4" = _YCcDWoDD;
@@ -990,16 +1038,16 @@ let
         "fabric-1.21.8" = _XB3DG4Yy;
         "fabric-1.21.11" = _bDyqFbxe;
         "fabric-1.21.3" = _D3eRgOcz;
-        "fabric-1.21" = _veVB0yre;
+        "fabric-1.21" = _ZXoPfxhw;
         "fabric-1.21.2" = _B2fOO597;
         "fabric-1.21.6" = _XB3DG4Yy;
         "fabric-1.21.7" = _XB3DG4Yy;
-        "fabric-26.1" = _FjBU6Apj;
-        "fabric-26.1.1" = _FjBU6Apj;
-        "fabric-26.1.2" = _FjBU6Apj;
-        "fabric-26.2" = _dS66MHGO;
-        "fabric-26.3" = _3b5B8k6m;
-        "neoforge-1.21.1" = _JUqC2yvc;
+        "fabric-26.1" = _vqPqfNue;
+        "fabric-26.1.1" = _vqPqfNue;
+        "fabric-26.1.2" = _vqPqfNue;
+        "fabric-26.2" = _FVtKP7aL;
+        "fabric-26.3" = _kQy954ib;
+        "neoforge-1.21.1" = _lf4DqQBf;
         "neoforge-1.20.4" = _fcAT2sBE;
         "neoforge-1.21.4" = _mj0TsiMT;
         "neoforge-1.21.5" = _dUO1Ij2h;
@@ -1007,13 +1055,15 @@ let
         "neoforge-1.21.10" = _6aQ71sZZ;
         "neoforge-1.21.8" = _2h1DYuvy;
         "neoforge-1.21.3" = _MOF1zzDs;
-        "neoforge-1.21" = _JUqC2yvc;
+        "neoforge-1.21" = _lf4DqQBf;
         "neoforge-1.21.11" = _kvwRmUN5;
         "neoforge-1.21.6" = _2h1DYuvy;
         "neoforge-1.21.7" = _2h1DYuvy;
-        "neoforge-26.1" = _SCAvaSFt;
-        "neoforge-26.1.1" = _SCAvaSFt;
-        "neoforge-26.1.2" = _SCAvaSFt;
+        "neoforge-26.1" = _HZeXttDX;
+        "neoforge-26.1.1" = _HZeXttDX;
+        "neoforge-26.1.2" = _HZeXttDX;
+        "neoforge-26.2" = _bq1Ld0kl;
+        "neoforge-26.3" = _YZqaRrf1;
         "forge-1.20.1" = _jZnX7Gux;
         "pkg-1.0.0" = _fcAT2sBE;
         "pkg-1.1.0" = _dACubZNS;
@@ -1069,7 +1119,8 @@ let
         "pkg-5.2.0" = _oz02F2lD;
         "pkg-5.2.1" = _veVB0yre;
         "pkg-5.3.0" = _3b5B8k6m;
-        "default" = _3b5B8k6m;
+        "pkg-5.4.0" = _YZqaRrf1;
+        "default" = _YZqaRrf1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "yori3os-grappling-hooks";

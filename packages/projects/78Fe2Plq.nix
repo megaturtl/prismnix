@@ -171,6 +171,11 @@ let
             "file" = "minecraft-music-player-2.2.4-fabricmc1.14.4.jar";
             "hash" = "sha512-KZ+nieD2dypWzjBsuO++ZlQtbI3WFcCu0/MKf0VzBOhGt5zgTS/AlkRKCZ1qPQ4PJBMpY8gXhPMn9pN9neogZw==";
         };
+        _yy1nI792 = {
+            "id" = "yy1nI792";
+            "file" = "minecraft-music-player-2.2.4-fabricmc26.4-snapshot-5.jar";
+            "hash" = "sha512-iQt3x2Q0gpYb3K84+7y6mg86/5rQMschTPbz8qYPuvNxr9u9j9le5XaVW3wG9q9Jm073G/qE/aEPI9ELIpLUhw==";
+        };
     in {
         "ATMURnwv" = _ATMURnwv;
         "VYNOsslo" = _VYNOsslo;
@@ -206,6 +211,7 @@ let
         "5FJtW6R2" = _5FJtW6R2;
         "jALubaF7" = _jALubaF7;
         "6d6N5TnI" = _6d6N5TnI;
+        "yy1nI792" = _yy1nI792;
         "fabric-1.20.1" = _A9MsXINU;
         "fabric-1.21.11" = _w2RtxSBP;
         "fabric-26.2" = _altnlO01;
@@ -219,6 +225,7 @@ let
         "fabric-1.16.5" = _5FJtW6R2;
         "fabric-1.15.2" = _jALubaF7;
         "fabric-1.14.4" = _6d6N5TnI;
+        "fabric-26.4-snapshot-5" = _yy1nI792;
         "pkg-1.0.0" = _ATMURnwv;
         "pkg-2.0.0" = _VYNOsslo;
         "pkg-2.0.3" = _OhdVfhPx;
@@ -229,8 +236,8 @@ let
         "pkg-2.1.3" = _dmZrIfOl;
         "pkg-2.2.2" = _yngl8hOZ;
         "pkg-2.2.3" = _qKcBJAat;
-        "pkg-2.2.4" = _6d6N5TnI;
-        "default" = _6d6N5TnI;
+        "pkg-2.2.4" = _yy1nI792;
+        "default" = _yy1nI792;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "custom-music-player";

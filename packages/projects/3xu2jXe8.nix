@@ -71,6 +71,11 @@ let
             "file" = "createimp-1.4.3.jar";
             "hash" = "sha512-RlkUIolwBW7QRlHcMD1eY+izDUJMWKu6V3eA2eZoMvuoikzzNizWgwV63N6+PnTnotQa8YEy8hEn6GnVJs1imA==";
         };
+        _X1siOWNC = {
+            "id" = "X1siOWNC";
+            "file" = "createimp-1.4.4 HotFix.jar";
+            "hash" = "sha512-RJ+roF31LHa8zHAuGy+/PEjpByZUQAmWbs/4c7o/X3HJDu0aBZk9M90dJ8wdOp3zhqeJJ8kmItx47OpG3jpOiw==";
+        };
     in {
         "GzKajMC5" = _GzKajMC5;
         "F37VC6e6" = _F37VC6e6;
@@ -86,7 +91,8 @@ let
         "LzKSSB7X" = _LzKSSB7X;
         "nt4kkAaE" = _nt4kkAaE;
         "qC9QA9K2" = _qC9QA9K2;
-        "neoforge-1.21.1" = _qC9QA9K2;
+        "X1siOWNC" = _X1siOWNC;
+        "neoforge-1.21.1" = _X1siOWNC;
         "pkg-1.0.0" = _GzKajMC5;
         "pkg-1.1.0" = _F37VC6e6;
         "pkg-1.2.0" = _WnkqrGfO;
@@ -101,7 +107,8 @@ let
         "pkg-1.4.1" = _LzKSSB7X;
         "pkg-1.4.2" = _nt4kkAaE;
         "pkg-1.4.3" = _qC9QA9K2;
-        "default" = _qC9QA9K2;
+        "pkg-1.4.4HotFix" = _X1siOWNC;
+        "default" = _X1siOWNC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-improve";

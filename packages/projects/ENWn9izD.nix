@@ -366,6 +366,11 @@ let
             "file" = "alternativeworldsavelocation-26.3.0-3.9.jar";
             "hash" = "sha512-IkaotYJEHId7h1LaVNxlsrP4MhCFd+DXOw5hT0u53sOCu0yB4DDZfC8EjBHu2i4QRgasg5uk2fyFk7dm9NI+lw==";
         };
+        _Mj9qjV86 = {
+            "id" = "Mj9qjV86";
+            "file" = "alternativeworldsavelocation-26.1.2-3.9.jar";
+            "hash" = "sha512-02/Bi2vzIez7VrcZU99PLd0TrQYRTIoIFhu9lEn73/q0MFxCdL5mrg/zldlVCWXRtoVrDWxpkQzGM2d2LGZWlg==";
+        };
     in {
         "fqNGUxYq" = _fqNGUxYq;
         "jXdAhcXc" = _jXdAhcXc;
@@ -440,6 +445,7 @@ let
         "rKntROUT" = _rKntROUT;
         "fxTCRSMd" = _fxTCRSMd;
         "xwoLeAGh" = _xwoLeAGh;
+        "Mj9qjV86" = _Mj9qjV86;
         "fabric-1.16.5" = _2pjU7ebo;
         "fabric-1.18.2" = _RBYgbowx;
         "fabric-1.19.2" = _J64G0Kf7;
@@ -466,7 +472,7 @@ let
         "fabric-1.21.11" = _yqqDUJt9;
         "fabric-26.1" = _MzCQcmDd;
         "fabric-26.1.1" = _zPzMsDoZ;
-        "fabric-26.1.2" = _sQnEZPAo;
+        "fabric-26.1.2" = _Mj9qjV86;
         "fabric-26.2" = _fxTCRSMd;
         "fabric-26.3" = _xwoLeAGh;
         "forge-1.16.5" = _kvZzwzBC;
@@ -493,7 +499,7 @@ let
         "forge-1.21.11" = _yqqDUJt9;
         "forge-26.1" = _MzCQcmDd;
         "forge-26.1.1" = _zPzMsDoZ;
-        "forge-26.1.2" = _sQnEZPAo;
+        "forge-26.1.2" = _Mj9qjV86;
         "forge-26.2" = _fxTCRSMd;
         "forge-26.3" = _xwoLeAGh;
         "quilt-1.18.2" = _RBYgbowx;
@@ -521,7 +527,7 @@ let
         "quilt-1.21.11" = _yqqDUJt9;
         "quilt-26.1" = _MzCQcmDd;
         "quilt-26.1.1" = _zPzMsDoZ;
-        "quilt-26.1.2" = _sQnEZPAo;
+        "quilt-26.1.2" = _Mj9qjV86;
         "quilt-26.2" = _fxTCRSMd;
         "quilt-26.3" = _xwoLeAGh;
         "neoforge-1.20.2" = _U16MNmyg;
@@ -544,7 +550,7 @@ let
         "neoforge-1.21.11" = _yqqDUJt9;
         "neoforge-26.1" = _MzCQcmDd;
         "neoforge-26.1.1" = _zPzMsDoZ;
-        "neoforge-26.1.2" = _sQnEZPAo;
+        "neoforge-26.1.2" = _Mj9qjV86;
         "neoforge-26.2" = _fxTCRSMd;
         "neoforge-26.3" = _xwoLeAGh;
         "pkg-1.16.5-1.5-fabric" = _fqNGUxYq;
@@ -620,7 +626,8 @@ let
         "pkg-1.21.1-3.9-fabric+forge+neo" = _rKntROUT;
         "pkg-26.2.0-3.9-fabric+forge+neo" = _fxTCRSMd;
         "pkg-26.3.0-3.9-fabric+forge+neo" = _xwoLeAGh;
-        "default" = _xwoLeAGh;
+        "pkg-26.1.2-3.9-fabric+forge+neo" = _Mj9qjV86;
+        "default" = _Mj9qjV86;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "alternative-world-save-location";

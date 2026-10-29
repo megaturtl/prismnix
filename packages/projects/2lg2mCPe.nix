@@ -361,6 +361,11 @@ let
             "file" = "strayspawn-26.3.0-4.0.jar";
             "hash" = "sha512-C7Bl6q1rIHFo/5J44sRp3wtgxAAuyNLZaAtsL2uGoDq5F+5pNSEdkD0+zqAkT+gojXcJ41fCfR7GHuu2sbmEcQ==";
         };
+        _UJQNISLQ = {
+            "id" = "UJQNISLQ";
+            "file" = "strayspawn-26.1.2-4.0.jar";
+            "hash" = "sha512-9c6WR5KKcRGVnCjQpffR4a3oCf9WBppNu+J7vHHSQj3NSDatvf199m7n3WpssfX/sVrXR159DVefRAcA9vaOcg==";
+        };
     in {
         "3LVH55B9" = _3LVH55B9;
         "OuwOPVOI" = _OuwOPVOI;
@@ -434,6 +439,7 @@ let
         "qMBtP0o5" = _qMBtP0o5;
         "qqrPjy6Q" = _qqrPjy6Q;
         "SzLoWdAb" = _SzLoWdAb;
+        "UJQNISLQ" = _UJQNISLQ;
         "fabric-1.16.5" = _b4Y2dZn1;
         "fabric-1.18.2" = _hGRDT04D;
         "fabric-1.19.2" = _ajx9qcVu;
@@ -460,7 +466,7 @@ let
         "fabric-1.21.11" = _uWe5EBxz;
         "fabric-26.1" = _RJsbhZZl;
         "fabric-26.1.1" = _PkbEX1zj;
-        "fabric-26.1.2" = _8mGAKgR3;
+        "fabric-26.1.2" = _UJQNISLQ;
         "fabric-26.2" = _qqrPjy6Q;
         "fabric-26.3" = _SzLoWdAb;
         "forge-1.16.5" = _lZsNTkxg;
@@ -487,7 +493,7 @@ let
         "forge-1.21.11" = _uWe5EBxz;
         "forge-26.1" = _RJsbhZZl;
         "forge-26.1.1" = _PkbEX1zj;
-        "forge-26.1.2" = _8mGAKgR3;
+        "forge-26.1.2" = _UJQNISLQ;
         "forge-26.2" = _qqrPjy6Q;
         "forge-26.3" = _SzLoWdAb;
         "quilt-1.18.2" = _hGRDT04D;
@@ -515,7 +521,7 @@ let
         "quilt-1.21.11" = _uWe5EBxz;
         "quilt-26.1" = _RJsbhZZl;
         "quilt-26.1.1" = _PkbEX1zj;
-        "quilt-26.1.2" = _8mGAKgR3;
+        "quilt-26.1.2" = _UJQNISLQ;
         "quilt-26.2" = _qqrPjy6Q;
         "quilt-26.3" = _SzLoWdAb;
         "neoforge-1.20.2" = _MFeYq7pY;
@@ -538,7 +544,7 @@ let
         "neoforge-1.21.11" = _uWe5EBxz;
         "neoforge-26.1" = _RJsbhZZl;
         "neoforge-26.1.1" = _PkbEX1zj;
-        "neoforge-26.1.2" = _8mGAKgR3;
+        "neoforge-26.1.2" = _UJQNISLQ;
         "neoforge-26.2" = _qqrPjy6Q;
         "neoforge-26.3" = _SzLoWdAb;
         "pkg-1.16.5-1.9-fabric" = _3LVH55B9;
@@ -613,7 +619,8 @@ let
         "pkg-1.21.1-4.0-fabric+forge+neo" = _qMBtP0o5;
         "pkg-26.2.0-4.0-fabric+forge+neo" = _qqrPjy6Q;
         "pkg-26.3.0-4.0-fabric+forge+neo" = _SzLoWdAb;
-        "default" = _SzLoWdAb;
+        "pkg-26.1.2-4.0-fabric+forge+neo" = _UJQNISLQ;
+        "default" = _UJQNISLQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stray-spawn";

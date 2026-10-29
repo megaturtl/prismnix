@@ -196,6 +196,16 @@ let
             "file" = "fighting-styles-1.4.jar";
             "hash" = "sha512-Vyl0ra5mBZ6m9tKq9jAxbY5SOpnAtpxA3Qrpe+KSy4cC7xp2jd1q403V8P2tJ/ef2JPNhzxik+SC3kxqxUOe8Q==";
         };
+        _BEayEH1i = {
+            "id" = "BEayEH1i";
+            "file" = "Fighting Styles data+resources 1.5.zip";
+            "hash" = "sha512-sZwFu9+2g+RjL4ONurQRmBsxd9B2p7aCCqNo+12II7c4Z2JqbCIdWpbCIdlRCVFOE9ehGfZHGFBOwtpdafvtaQ==";
+        };
+        _k4M2huWP = {
+            "id" = "k4M2huWP";
+            "file" = "fighting-styles-1.5.jar";
+            "hash" = "sha512-PvwrfZkvZoCs0dKC21nK/b9fNeRe3GGwQ02dONqmiuVXv2CDdC7D2/dqtfiDRxdQuKawQlkwlhokFQ3u1zlyzw==";
+        };
     in {
         "3cCwLV8A" = _3cCwLV8A;
         "YQ9TvPGV" = _YQ9TvPGV;
@@ -236,6 +246,8 @@ let
         "FDvrpmqw" = _FDvrpmqw;
         "Vbs4Eme3" = _Vbs4Eme3;
         "ooM8oQiV" = _ooM8oQiV;
+        "BEayEH1i" = _BEayEH1i;
+        "k4M2huWP" = _k4M2huWP;
         "datapack-1.21.6" = _XwmNbtVC;
         "datapack-1.21.7" = _XwmNbtVC;
         "datapack-1.21.8" = _XwmNbtVC;
@@ -246,6 +258,7 @@ let
         "datapack-26.1.1" = _Mw46ymRV;
         "datapack-26.1.2" = _Mw46ymRV;
         "datapack-26.2" = _Vbs4Eme3;
+        "datapack-26.3" = _BEayEH1i;
         "fabric-1.21.6" = _6NoJLslK;
         "fabric-1.21.7" = _6NoJLslK;
         "fabric-1.21.8" = _6NoJLslK;
@@ -256,6 +269,7 @@ let
         "fabric-26.1.1" = _I4ntPMFE;
         "fabric-26.1.2" = _I4ntPMFE;
         "fabric-26.2" = _ooM8oQiV;
+        "fabric-26.3" = _k4M2huWP;
         "forge-1.21.6" = _6NoJLslK;
         "forge-1.21.7" = _6NoJLslK;
         "forge-1.21.8" = _6NoJLslK;
@@ -266,6 +280,7 @@ let
         "forge-26.1.1" = _I4ntPMFE;
         "forge-26.1.2" = _I4ntPMFE;
         "forge-26.2" = _ooM8oQiV;
+        "forge-26.3" = _k4M2huWP;
         "neoforge-1.21.6" = _6NoJLslK;
         "neoforge-1.21.7" = _6NoJLslK;
         "neoforge-1.21.8" = _6NoJLslK;
@@ -276,6 +291,7 @@ let
         "neoforge-26.1.1" = _I4ntPMFE;
         "neoforge-26.1.2" = _I4ntPMFE;
         "neoforge-26.2" = _ooM8oQiV;
+        "neoforge-26.3" = _k4M2huWP;
         "quilt-1.21.6" = _6NoJLslK;
         "quilt-1.21.7" = _6NoJLslK;
         "quilt-1.21.8" = _6NoJLslK;
@@ -286,6 +302,7 @@ let
         "quilt-26.1.1" = _I4ntPMFE;
         "quilt-26.1.2" = _I4ntPMFE;
         "quilt-26.2" = _ooM8oQiV;
+        "quilt-26.3" = _k4M2huWP;
         "pkg-1.0" = _3cCwLV8A;
         "pkg-1.0+mod" = _YQ9TvPGV;
         "pkg-1.0.1" = _LivNaeNe;
@@ -310,7 +327,9 @@ let
         "pkg-1.3.1+mod" = _FDvrpmqw;
         "pkg-1.4" = _Vbs4Eme3;
         "pkg-1.4+mod" = _ooM8oQiV;
-        "default" = _ooM8oQiV;
+        "pkg-1.5" = _BEayEH1i;
+        "pkg-1.5+mod" = _k4M2huWP;
+        "default" = _k4M2huWP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fighting-styles";

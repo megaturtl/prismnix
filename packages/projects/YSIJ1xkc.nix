@@ -66,6 +66,11 @@ let
             "file" = "sunbathing-v1.13.zip";
             "hash" = "sha512-ync14DgWUsL40MDafldigjfBp3V1xEbA+Zkii4k2UhchqsOHVT24XX//CbB8aZEX05VghuyTNhRFjcLhv9y6fw==";
         };
+        _c0UvRs9s = {
+            "id" = "c0UvRs9s";
+            "file" = "sunbathing-v1.14.zip";
+            "hash" = "sha512-SjgyHXzAfYXCcHtoTb9YRCuT5cu+oQN9EjcAiRZ1Wxt6FiCXiqcLMiW5VpHR1QzVZ9l7gid455wfgNWHUYJ6Xg==";
+        };
     in {
         "p5tIhdGX" = _p5tIhdGX;
         "yIUqNCnt" = _yIUqNCnt;
@@ -80,13 +85,14 @@ let
         "BCBPz0lY" = _BCBPz0lY;
         "QEsOECG8" = _QEsOECG8;
         "iYoheI9P" = _iYoheI9P;
+        "c0UvRs9s" = _c0UvRs9s;
         "minecraft-1.21.9" = _p5tIhdGX;
         "minecraft-1.21.10" = _p5tIhdGX;
-        "minecraft-1.21.11" = _iYoheI9P;
-        "minecraft-26.2" = _iYoheI9P;
+        "minecraft-1.21.11" = _c0UvRs9s;
+        "minecraft-26.2" = _c0UvRs9s;
         "minecraft-26.1" = _mLMgqOSb;
         "minecraft-26.1.1" = _BCBPz0lY;
-        "minecraft-26.1.2" = _iYoheI9P;
+        "minecraft-26.1.2" = _c0UvRs9s;
         "minecraft-1.21.1" = _BCBPz0lY;
         "minecraft-24w33a" = _QEsOECG8;
         "minecraft-24w34a" = _QEsOECG8;
@@ -102,8 +108,8 @@ let
         "minecraft-24w45a" = _QEsOECG8;
         "minecraft-24w46a" = _QEsOECG8;
         "minecraft-1.21" = _BCBPz0lY;
-        "minecraft-1.21.2" = _iYoheI9P;
-        "minecraft-26.3" = _iYoheI9P;
+        "minecraft-1.21.2" = _c0UvRs9s;
+        "minecraft-26.3" = _c0UvRs9s;
         "pkg-1.0" = _p5tIhdGX;
         "pkg-1.1" = _yIUqNCnt;
         "pkg-1.2" = _mLMgqOSb;
@@ -117,7 +123,8 @@ let
         "pkg-1.11" = _BCBPz0lY;
         "pkg-1.12" = _QEsOECG8;
         "pkg-1.13" = _iYoheI9P;
-        "default" = _iYoheI9P;
+        "pkg-1.14" = _c0UvRs9s;
+        "default" = _c0UvRs9s;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sunbathing-godrays";

@@ -26,19 +26,26 @@ let
             "file" = "esquissemod-0.3.1-1.21.1-21.1.230.jar";
             "hash" = "sha512-LPxhbqh9SI/JVBAZUgKDMCTPWYgcCTfcsIl7F4JwKu5rezKJhFiWEesdUZA7oxPih9oXx92fmRzqEwlUoSxnXA==";
         };
+        _Zf2WIInW = {
+            "id" = "Zf2WIInW";
+            "file" = "esquissemod-0.4.0-1.21.1-21.1.230.jar";
+            "hash" = "sha512-Xcbx/GQSpxVWt41sGur/R/Cdrv4eog0wyE1oKV+o13vIbIvDaNUtXeBuMNADlk8+yBtJ6kY5HMfWIal6edbK4g==";
+        };
     in {
         "UBUGmsYL" = _UBUGmsYL;
         "MvQdILeS" = _MvQdILeS;
         "zGIfele2" = _zGIfele2;
         "rY3eN6e1" = _rY3eN6e1;
         "drTnv8Ll" = _drTnv8Ll;
-        "neoforge-1.21.1" = _drTnv8Ll;
+        "Zf2WIInW" = _Zf2WIInW;
+        "neoforge-1.21.1" = _Zf2WIInW;
         "pkg-0.1.0" = _UBUGmsYL;
         "pkg-0.2.0-1.21.1-21.1.230" = _MvQdILeS;
         "pkg-0.2.1-1.21.1-21.1.230" = _zGIfele2;
         "pkg-0.3.0-1.21.1-21.1.230" = _rY3eN6e1;
         "pkg-0.3.1-1.21.1-21.1.230" = _drTnv8Ll;
-        "default" = _drTnv8Ll;
+        "pkg-0.4.0-1.21.1-21.1.230" = _Zf2WIInW;
+        "default" = _Zf2WIInW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "esquisse-mod";

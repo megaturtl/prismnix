@@ -346,6 +346,11 @@ let
             "file" = "cryingportals-26.3.0-3.0.jar";
             "hash" = "sha512-+Q2WIrGqlNG6YWJ+pqDKj/rmHHe5PqJNAoJolCOZA48siWRaDHcGDDBBHjR8EjTefxRxOzLZCS1RE/b494WrRQ==";
         };
+        _bHqLO1OP = {
+            "id" = "bHqLO1OP";
+            "file" = "cryingportals-26.1.2-3.0.jar";
+            "hash" = "sha512-32StMfagEF5TnJrEhYxNeL1JqmRzswTVMrZosOsT78dbDCG0gYElHLERw3x7+H1+o7vo8f7w/d2HXYLmPoGhZQ==";
+        };
     in {
         "zgVALaxw" = _zgVALaxw;
         "2QRPrw2S" = _2QRPrw2S;
@@ -416,6 +421,7 @@ let
         "jwT3IH2h" = _jwT3IH2h;
         "3oOJQHko" = _3oOJQHko;
         "TrozhLEo" = _TrozhLEo;
+        "bHqLO1OP" = _bHqLO1OP;
         "fabric-1.16.5" = _ZI731c9s;
         "fabric-1.18.2" = _Lmekw3aS;
         "fabric-1.19.2" = _D6NPcI90;
@@ -442,7 +448,7 @@ let
         "fabric-1.21.11" = _eVDU4NPn;
         "fabric-26.1" = _7MVJN9Rv;
         "fabric-26.1.1" = _4Ui11fA5;
-        "fabric-26.1.2" = _JFu3WZp0;
+        "fabric-26.1.2" = _bHqLO1OP;
         "fabric-26.2" = _3oOJQHko;
         "fabric-26.3" = _TrozhLEo;
         "forge-1.16.5" = _rUuW8gKG;
@@ -469,7 +475,7 @@ let
         "forge-1.21.11" = _eVDU4NPn;
         "forge-26.1" = _7MVJN9Rv;
         "forge-26.1.1" = _4Ui11fA5;
-        "forge-26.1.2" = _JFu3WZp0;
+        "forge-26.1.2" = _bHqLO1OP;
         "forge-26.2" = _3oOJQHko;
         "forge-26.3" = _TrozhLEo;
         "quilt-1.18.2" = _Lmekw3aS;
@@ -497,7 +503,7 @@ let
         "quilt-1.21.11" = _eVDU4NPn;
         "quilt-26.1" = _7MVJN9Rv;
         "quilt-26.1.1" = _4Ui11fA5;
-        "quilt-26.1.2" = _JFu3WZp0;
+        "quilt-26.1.2" = _bHqLO1OP;
         "quilt-26.2" = _3oOJQHko;
         "quilt-26.3" = _TrozhLEo;
         "neoforge-1.20.2" = _cjWd43yL;
@@ -520,7 +526,7 @@ let
         "neoforge-1.21.11" = _eVDU4NPn;
         "neoforge-26.1" = _7MVJN9Rv;
         "neoforge-26.1.1" = _4Ui11fA5;
-        "neoforge-26.1.2" = _JFu3WZp0;
+        "neoforge-26.1.2" = _bHqLO1OP;
         "neoforge-26.2" = _3oOJQHko;
         "neoforge-26.3" = _TrozhLEo;
         "pkg-1.16.5-1.5-fabric" = _zgVALaxw;
@@ -592,7 +598,8 @@ let
         "pkg-1.21.1-3.0-fabric+forge+neo" = _jwT3IH2h;
         "pkg-26.2.0-3.0-fabric+forge+neo" = _3oOJQHko;
         "pkg-26.3.0-3.0-fabric+forge+neo" = _TrozhLEo;
-        "default" = _TrozhLEo;
+        "pkg-26.1.2-3.0-fabric+forge+neo" = _bHqLO1OP;
+        "default" = _bHqLO1OP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crying-portals";

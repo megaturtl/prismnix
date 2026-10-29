@@ -91,6 +91,11 @@ let
             "file" = "Sword Daggers.zip";
             "hash" = "sha512-6WS2CIlOn5AS45SWgOLEkqQOdMngs+IdECY6lgd5WmsPcRAubaUAfpAAcpkn2xff5f22ospjFohwEbbVHOUdoA==";
         };
+        _dax9sMtJ = {
+            "id" = "dax9sMtJ";
+            "file" = "Sword Daggers 26.3.zip";
+            "hash" = "sha512-Gk3gS7K3fO30AKuONFg5t1q69FLeXkernXE4kxFcJGjoH62zPTqwmtNjgotLpPzW/yRp2h8zrTn/z9ylVR1DyQ==";
+        };
     in {
         "DHnN2Tfm" = _DHnN2Tfm;
         "XnmQgMhA" = _XnmQgMhA;
@@ -110,6 +115,7 @@ let
         "NIPNz0pb" = _NIPNz0pb;
         "zWGUh0DI" = _zWGUh0DI;
         "1iSM3Lii" = _1iSM3Lii;
+        "dax9sMtJ" = _dax9sMtJ;
         "minecraft-1.19" = _DHnN2Tfm;
         "minecraft-1.19.1" = _XnmQgMhA;
         "minecraft-1.19.2" = _XnmQgMhA;
@@ -138,6 +144,7 @@ let
         "minecraft-26.1.1" = _NIPNz0pb;
         "minecraft-26.1.2" = _zWGUh0DI;
         "minecraft-26.2" = _1iSM3Lii;
+        "minecraft-26.3" = _dax9sMtJ;
         "pkg-1.19" = _DHnN2Tfm;
         "pkg-1.19.1-1.19.2" = _XnmQgMhA;
         "pkg-1.19.3-1.19.4" = _Z6S9rws6;
@@ -156,7 +163,8 @@ let
         "pkg-26.1.1" = _NIPNz0pb;
         "pkg-26.1.2" = _zWGUh0DI;
         "pkg-26.2" = _1iSM3Lii;
-        "default" = _1iSM3Lii;
+        "pkg-26.3" = _dax9sMtJ;
+        "default" = _dax9sMtJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sword-daggers";

@@ -96,6 +96,11 @@ let
             "file" = "tarot_card_plus-2.4.12-1.20.1.jar";
             "hash" = "sha512-M3RvBRQ/TwYpy5fp95S/QDt7RgE+WxDwOkTRje14DQUHfV4spV8HL/L7r5XgjjwM18blsFubk/xf3ca5a6Aehw==";
         };
+        _Xi9uh5NC = {
+            "id" = "Xi9uh5NC";
+            "file" = "tarot_card_plus-2.4.13-1.20.1.jar";
+            "hash" = "sha512-Sgm8gRl6NIKWlcfrt66BvwVTOJow4S/fwylewwg2F32ARNi+TS77YUXY8ufz9VyW62A7Ij5adjDZRTIe4xBzrQ==";
+        };
     in {
         "RlL1Sxn5" = _RlL1Sxn5;
         "fan6QdA3" = _fan6QdA3;
@@ -116,7 +121,8 @@ let
         "WJqgFUAy" = _WJqgFUAy;
         "HtTyhMIB" = _HtTyhMIB;
         "QsZimBpL" = _QsZimBpL;
-        "forge-1.20.1" = _QsZimBpL;
+        "Xi9uh5NC" = _Xi9uh5NC;
+        "forge-1.20.1" = _Xi9uh5NC;
         "forge-1.20.2" = _fan6QdA3;
         "forge-1.20.3" = _RlL1Sxn5;
         "forge-1.20.4" = _RlL1Sxn5;
@@ -145,7 +151,8 @@ let
         "pkg-2.4.7-1.21.1" = _WJqgFUAy;
         "pkg-2.4.9-1.20.1" = _HtTyhMIB;
         "pkg-2.4.12-1.20.1" = _QsZimBpL;
-        "default" = _QsZimBpL;
+        "pkg-2.4.13-1.20.1" = _Xi9uh5NC;
+        "default" = _Xi9uh5NC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tarotcardsplus";

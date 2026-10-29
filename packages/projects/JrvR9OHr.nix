@@ -566,6 +566,11 @@ let
             "file" = "doubledoors-26.3.0-7.5.jar";
             "hash" = "sha512-CqiOs9cZdfBdEc7jR/wCNnqpxteWLQ3LLQtwHEtKKlJcGD3joh339aDusyYNxkobnenYvxIfiNiMrLDw25RDUw==";
         };
+        _UZ7rDjP8 = {
+            "id" = "UZ7rDjP8";
+            "file" = "doubledoors-26.1.2-7.5.jar";
+            "hash" = "sha512-2/PRuUQKXv47QBP51/xqdpMzH8U3eSxpLi1hvLiTmru37I4OUKFqefehXHGjoKajz3WmgdkfpkyLPlVp/AqpzA==";
+        };
     in {
         "uMtSqq25" = _uMtSqq25;
         "1cCIpEN2" = _1cCIpEN2;
@@ -680,6 +685,7 @@ let
         "nX4Yl6BD" = _nX4Yl6BD;
         "SNHMzqfS" = _SNHMzqfS;
         "KicqUZ57" = _KicqUZ57;
+        "UZ7rDjP8" = _UZ7rDjP8;
         "fabric-1.16.5" = _Kz8m9noN;
         "fabric-1.18.2" = _gD1pxTeg;
         "fabric-1.19.2" = _IX1EaUNx;
@@ -706,7 +712,7 @@ let
         "fabric-1.21.11" = _roVanbyg;
         "fabric-26.1" = _6FWS4jFL;
         "fabric-26.1.1" = _wr7KbgAV;
-        "fabric-26.1.2" = _ut99SKb6;
+        "fabric-26.1.2" = _UZ7rDjP8;
         "fabric-26.2" = _SNHMzqfS;
         "fabric-26.3" = _KicqUZ57;
         "forge-1.16.5" = _RBmJ0sL5;
@@ -733,7 +739,7 @@ let
         "forge-1.21.11" = _roVanbyg;
         "forge-26.1" = _6FWS4jFL;
         "forge-26.1.1" = _wr7KbgAV;
-        "forge-26.1.2" = _ut99SKb6;
+        "forge-26.1.2" = _UZ7rDjP8;
         "forge-26.2" = _SNHMzqfS;
         "forge-26.3" = _KicqUZ57;
         "quilt-1.18.2" = _gD1pxTeg;
@@ -761,7 +767,7 @@ let
         "quilt-1.21.11" = _roVanbyg;
         "quilt-26.1" = _6FWS4jFL;
         "quilt-26.1.1" = _wr7KbgAV;
-        "quilt-26.1.2" = _ut99SKb6;
+        "quilt-26.1.2" = _UZ7rDjP8;
         "quilt-26.2" = _SNHMzqfS;
         "quilt-26.3" = _KicqUZ57;
         "neoforge-1.20.2" = _sI6nU1bI;
@@ -784,7 +790,7 @@ let
         "neoforge-1.21.11" = _roVanbyg;
         "neoforge-26.1" = _6FWS4jFL;
         "neoforge-26.1.1" = _wr7KbgAV;
-        "neoforge-26.1.2" = _ut99SKb6;
+        "neoforge-26.1.2" = _UZ7rDjP8;
         "neoforge-26.2" = _SNHMzqfS;
         "neoforge-26.3" = _KicqUZ57;
         "pkg-1.16.5-3.6-fabric" = _uMtSqq25;
@@ -900,7 +906,8 @@ let
         "pkg-1.21.1-7.5-fabric+forge+neo" = _nX4Yl6BD;
         "pkg-26.2.0-7.5-fabric+forge+neo" = _SNHMzqfS;
         "pkg-26.3.0-7.5-fabric+forge+neo" = _KicqUZ57;
-        "default" = _KicqUZ57;
+        "pkg-26.1.2-7.5-fabric+forge+neo" = _UZ7rDjP8;
+        "default" = _UZ7rDjP8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "double-doors";

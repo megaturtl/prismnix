@@ -336,6 +336,11 @@ let
             "file" = "firespreadtweaks-26.3.0-2.9.jar";
             "hash" = "sha512-lWabCuN6KWR/Y0avd5WbzKmjCWDO3Lpsk9L1oqgvp+UsmwCA/tzMasdSS2/OC0jKvhqlxMg/XrkdCh0efUvzHQ==";
         };
+        _FitO3W1e = {
+            "id" = "FitO3W1e";
+            "file" = "firespreadtweaks-26.1.2-2.9.jar";
+            "hash" = "sha512-IvieOp5wtS9Zw4n+CqcMC/6TW2HyX1W+M8wLM4NxkPcZXNbiXxtzwu10SS6O08HlHMk9V9pOsj2IaSIF3So/4A==";
+        };
     in {
         "RDDYTutG" = _RDDYTutG;
         "yMF3YQmP" = _yMF3YQmP;
@@ -404,6 +409,7 @@ let
         "1Keje2kn" = _1Keje2kn;
         "dLmojefe" = _dLmojefe;
         "Gsc5QZeR" = _Gsc5QZeR;
+        "FitO3W1e" = _FitO3W1e;
         "fabric-1.16.5" = _wHIghfeN;
         "fabric-1.18.2" = _miYj11HU;
         "fabric-1.19.2" = _Jwk2gH4j;
@@ -430,7 +436,7 @@ let
         "fabric-1.21.11" = _q4kPQSby;
         "fabric-26.1" = _qaEq5quf;
         "fabric-26.1.1" = _KiPcHDZf;
-        "fabric-26.1.2" = _VrIrvcG7;
+        "fabric-26.1.2" = _FitO3W1e;
         "fabric-26.2" = _dLmojefe;
         "fabric-26.3" = _Gsc5QZeR;
         "forge-1.16.5" = _l2UAZ5ZC;
@@ -457,7 +463,7 @@ let
         "forge-1.21.11" = _q4kPQSby;
         "forge-26.1" = _qaEq5quf;
         "forge-26.1.1" = _KiPcHDZf;
-        "forge-26.1.2" = _VrIrvcG7;
+        "forge-26.1.2" = _FitO3W1e;
         "forge-26.2" = _dLmojefe;
         "forge-26.3" = _Gsc5QZeR;
         "quilt-1.18.2" = _miYj11HU;
@@ -485,7 +491,7 @@ let
         "quilt-1.21.11" = _q4kPQSby;
         "quilt-26.1" = _qaEq5quf;
         "quilt-26.1.1" = _KiPcHDZf;
-        "quilt-26.1.2" = _VrIrvcG7;
+        "quilt-26.1.2" = _FitO3W1e;
         "quilt-26.2" = _dLmojefe;
         "quilt-26.3" = _Gsc5QZeR;
         "neoforge-1.20.2" = _9kpjkFzE;
@@ -508,7 +514,7 @@ let
         "neoforge-1.21.11" = _q4kPQSby;
         "neoforge-26.1" = _qaEq5quf;
         "neoforge-26.1.1" = _KiPcHDZf;
-        "neoforge-26.1.2" = _VrIrvcG7;
+        "neoforge-26.1.2" = _FitO3W1e;
         "neoforge-26.2" = _dLmojefe;
         "neoforge-26.3" = _Gsc5QZeR;
         "pkg-1.16.5-1.6-fabric" = _RDDYTutG;
@@ -578,7 +584,8 @@ let
         "pkg-1.21.1-2.9-fabric+forge+neo" = _1Keje2kn;
         "pkg-26.2.0-2.9-fabric+forge+neo" = _dLmojefe;
         "pkg-26.3.0-2.9-fabric+forge+neo" = _Gsc5QZeR;
-        "default" = _Gsc5QZeR;
+        "pkg-26.1.2-2.9-fabric+forge+neo" = _FitO3W1e;
+        "default" = _FitO3W1e;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fire-spread-tweaks";

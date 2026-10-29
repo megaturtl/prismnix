@@ -351,6 +351,11 @@ let
             "file" = "firstjoinmessage-26.3.0-3.9.jar";
             "hash" = "sha512-OkTjLyIyklsGw3nFxIYQMf0tSsS7mFjNLRcXydPW0l/8helwKdo1KGy/jpJLPMqA1nDtTSw9SkEqQuC09dbBoA==";
         };
+        _mFDFVVD1 = {
+            "id" = "mFDFVVD1";
+            "file" = "firstjoinmessage-26.1.2-3.9.jar";
+            "hash" = "sha512-TlHC90080/usg79n3C/xlQNTUUETZjbBGfo1u92Ry8mHfbJzTnaAg3Q/+eYyy6vUJqiqlDLHtFabW1mHgf2erQ==";
+        };
     in {
         "Rni4JFOk" = _Rni4JFOk;
         "X8CiSwJz" = _X8CiSwJz;
@@ -422,6 +427,7 @@ let
         "ZeNYQeWa" = _ZeNYQeWa;
         "uRKCVmAL" = _uRKCVmAL;
         "weOHGNhf" = _weOHGNhf;
+        "mFDFVVD1" = _mFDFVVD1;
         "fabric-1.16.5" = _K06XRDhJ;
         "fabric-1.18.2" = _QRMC8Ipr;
         "fabric-1.19.2" = _xdoh8yLr;
@@ -448,7 +454,7 @@ let
         "fabric-1.21.11" = _Uhu35jqw;
         "fabric-26.1" = _95pU8ezK;
         "fabric-26.1.1" = _H4u32008;
-        "fabric-26.1.2" = _mg7luTeb;
+        "fabric-26.1.2" = _mFDFVVD1;
         "fabric-26.2" = _uRKCVmAL;
         "fabric-26.3" = _weOHGNhf;
         "forge-1.16.5" = _j9qRwnDW;
@@ -475,7 +481,7 @@ let
         "forge-1.21.11" = _Uhu35jqw;
         "forge-26.1" = _95pU8ezK;
         "forge-26.1.1" = _H4u32008;
-        "forge-26.1.2" = _mg7luTeb;
+        "forge-26.1.2" = _mFDFVVD1;
         "forge-26.2" = _uRKCVmAL;
         "forge-26.3" = _weOHGNhf;
         "quilt-1.18.2" = _QRMC8Ipr;
@@ -503,7 +509,7 @@ let
         "quilt-1.21.11" = _Uhu35jqw;
         "quilt-26.1" = _95pU8ezK;
         "quilt-26.1.1" = _H4u32008;
-        "quilt-26.1.2" = _mg7luTeb;
+        "quilt-26.1.2" = _mFDFVVD1;
         "quilt-26.2" = _uRKCVmAL;
         "quilt-26.3" = _weOHGNhf;
         "neoforge-1.20.2" = _W1CTq2bk;
@@ -526,7 +532,7 @@ let
         "neoforge-1.21.11" = _Uhu35jqw;
         "neoforge-26.1" = _95pU8ezK;
         "neoforge-26.1.1" = _H4u32008;
-        "neoforge-26.1.2" = _mg7luTeb;
+        "neoforge-26.1.2" = _mFDFVVD1;
         "neoforge-26.2" = _uRKCVmAL;
         "neoforge-26.3" = _weOHGNhf;
         "pkg-1.16.5-1.7-fabric" = _Rni4JFOk;
@@ -599,7 +605,8 @@ let
         "pkg-1.21.1-3.9-fabric+forge+neo" = _ZeNYQeWa;
         "pkg-26.2.0-3.9-fabric+forge+neo" = _uRKCVmAL;
         "pkg-26.3.0-3.9-fabric+forge+neo" = _weOHGNhf;
-        "default" = _weOHGNhf;
+        "pkg-26.1.2-3.9-fabric+forge+neo" = _mFDFVVD1;
+        "default" = _mFDFVVD1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "first-join-message";

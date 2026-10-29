@@ -326,6 +326,11 @@ let
             "file" = "extendedbonemeal-26.3.0-3.7.jar";
             "hash" = "sha512-DOYGr/gYwFbiF0a4SlIU+Plil4HeVYser7uW2KPLGe3vTDDikN9grrNCvYe0yPhdTGOxDGDxvGSakD/B0gA/+w==";
         };
+        _AXvh3xxm = {
+            "id" = "AXvh3xxm";
+            "file" = "extendedbonemeal-26.1.2-3.7.jar";
+            "hash" = "sha512-94v5/aeLHailP69Z+b2sUZfsicXq3z4jCndK6adl8Ry5QKhSuyowtxz/yw0N2cP7Pd+93+Bi3xK5GgLY1NHVhw==";
+        };
     in {
         "kA802ua6" = _kA802ua6;
         "NGgHFCL9" = _NGgHFCL9;
@@ -392,6 +397,7 @@ let
         "oa4Baipg" = _oa4Baipg;
         "a99sh7lY" = _a99sh7lY;
         "G2CEKxWE" = _G2CEKxWE;
+        "AXvh3xxm" = _AXvh3xxm;
         "fabric-1.16.5" = _lncD13fD;
         "fabric-1.18.2" = _vPBmANl8;
         "fabric-1.19.2" = _z4bZjSsw;
@@ -418,7 +424,7 @@ let
         "fabric-1.21.11" = _Z4hgjtLH;
         "fabric-26.1" = _PHajWhtI;
         "fabric-26.1.1" = _L8qVv8VV;
-        "fabric-26.1.2" = _hPOGgJyi;
+        "fabric-26.1.2" = _AXvh3xxm;
         "fabric-26.2" = _a99sh7lY;
         "fabric-26.3" = _G2CEKxWE;
         "forge-1.16.5" = _nKTNLs8V;
@@ -445,7 +451,7 @@ let
         "forge-1.21.11" = _Z4hgjtLH;
         "forge-26.1" = _PHajWhtI;
         "forge-26.1.1" = _L8qVv8VV;
-        "forge-26.1.2" = _hPOGgJyi;
+        "forge-26.1.2" = _AXvh3xxm;
         "forge-26.2" = _a99sh7lY;
         "forge-26.3" = _G2CEKxWE;
         "quilt-1.18.2" = _vPBmANl8;
@@ -473,7 +479,7 @@ let
         "quilt-1.21.11" = _Z4hgjtLH;
         "quilt-26.1" = _PHajWhtI;
         "quilt-26.1.1" = _L8qVv8VV;
-        "quilt-26.1.2" = _hPOGgJyi;
+        "quilt-26.1.2" = _AXvh3xxm;
         "quilt-26.2" = _a99sh7lY;
         "quilt-26.3" = _G2CEKxWE;
         "neoforge-1.20.2" = _J7zvHPoS;
@@ -496,7 +502,7 @@ let
         "neoforge-1.21.11" = _Z4hgjtLH;
         "neoforge-26.1" = _PHajWhtI;
         "neoforge-26.1.1" = _L8qVv8VV;
-        "neoforge-26.1.2" = _hPOGgJyi;
+        "neoforge-26.1.2" = _AXvh3xxm;
         "neoforge-26.2" = _a99sh7lY;
         "neoforge-26.3" = _G2CEKxWE;
         "pkg-1.16.5-1.9-fabric" = _kA802ua6;
@@ -563,7 +569,8 @@ let
         "pkg-1.21.1-3.7-fabric+forge+neo" = _oa4Baipg;
         "pkg-26.2.0-3.7-fabric+forge+neo" = _a99sh7lY;
         "pkg-26.3.0-3.7-fabric+forge+neo" = _G2CEKxWE;
-        "default" = _G2CEKxWE;
+        "pkg-26.1.2-3.7-fabric+forge+neo" = _AXvh3xxm;
+        "default" = _AXvh3xxm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "extended-bone-meal";

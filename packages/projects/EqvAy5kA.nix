@@ -111,6 +111,16 @@ let
             "file" = "sollib-forge-1.20.1-2.1.jar";
             "hash" = "sha512-qL3xfsnkB5q5Xbus6wAKrADDXkFhknDo0a0iAxnS73rkN1mzJlCgchY1sKUCFyCoO6znIgf/OKbBUab9AgW9pw==";
         };
+        _C3ur5dv9 = {
+            "id" = "C3ur5dv9";
+            "file" = "sollib-fabric-1.21.1-2.1.jar";
+            "hash" = "sha512-jkGBD+ElKYEcAzbVpO9ma5Hfl+790vpGeLsM3DBbmpw9X7V8UqXkQPrcXCW4n/VVzG+EREoEQvA7Row8rogXPw==";
+        };
+        _y0IrNxfl = {
+            "id" = "y0IrNxfl";
+            "file" = "sollib-neo-1.21.1-2.1.jar";
+            "hash" = "sha512-IQCBY9NM1HgpvhLoe7ajj6rnC732iRj0MhYZ7VNUUCkKxmsZ5rafaUl/9/G0+k+oNlIIdVU4sJJat9J9JwglUA==";
+        };
     in {
         "BFqs2cHX" = _BFqs2cHX;
         "xWDO9Wee" = _xWDO9Wee;
@@ -134,10 +144,12 @@ let
         "Z3938Mrf" = _Z3938Mrf;
         "cOGo0uYh" = _cOGo0uYh;
         "inxclim8" = _inxclim8;
+        "C3ur5dv9" = _C3ur5dv9;
+        "y0IrNxfl" = _y0IrNxfl;
         "fabric-1.20.1" = _cOGo0uYh;
-        "fabric-1.21.1" = _bZx7jJC7;
+        "fabric-1.21.1" = _C3ur5dv9;
         "forge-1.20.1" = _inxclim8;
-        "neoforge-1.21.1" = _2yx6fOYe;
+        "neoforge-1.21.1" = _y0IrNxfl;
         "neoforge-1.21.2" = _2yx6fOYe;
         "neoforge-1.21.3" = _2yx6fOYe;
         "neoforge-1.21.4" = _2yx6fOYe;
@@ -170,7 +182,9 @@ let
         "pkg-forge-1.20.1-2.0" = _Z3938Mrf;
         "pkg-fabric-1.20.1-2.1" = _cOGo0uYh;
         "pkg-forge-1.20.1-2.1" = _inxclim8;
-        "default" = _inxclim8;
+        "pkg-fabric-1.21.1-2.1" = _C3ur5dv9;
+        "pkg-neo-1.21.1-2.1" = _y0IrNxfl;
+        "default" = _y0IrNxfl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sollib";

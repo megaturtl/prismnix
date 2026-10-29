@@ -176,6 +176,16 @@ let
             "file" = "netherarchives-0.5.10+mc26.3.jar";
             "hash" = "sha512-wFKJgqpQcDhSRxy6XHOeJmB36E6MVaZCHb0csn5NbYmhhix6lenNwAZG9wGgc4pABYqwsn8029LHWmTh6XqS8Q==";
         };
+        _VfvmcHnX = {
+            "id" = "VfvmcHnX";
+            "file" = "netherarchives-0.5.11+mc26.3.jar";
+            "hash" = "sha512-kkzOhUuzfIXshSF0SUq0uCXuIVAbxOPKd+lxRaY3XEYa4GDRaHsTt6PXTP8R6smcMvlanKEcYVWEY5eXHYLK3w==";
+        };
+        _rgXWsVkk = {
+            "id" = "rgXWsVkk";
+            "file" = "netherarchives-0.5.11+mc26.1.2.jar";
+            "hash" = "sha512-7eM/g7rZYMAeuIai/iy5oI2Mr4oemaANJDzOHFDpBYQYmaWnTzegvqEtyJEepR7JIHz9YXVhp27c+vlylNGfmg==";
+        };
     in {
         "V2eyWOmB" = _V2eyWOmB;
         "D3u9rHsh" = _D3u9rHsh;
@@ -212,6 +222,8 @@ let
         "7cNbD19m" = _7cNbD19m;
         "11AhKsSE" = _11AhKsSE;
         "LQ5gHr90" = _LQ5gHr90;
+        "VfvmcHnX" = _VfvmcHnX;
+        "rgXWsVkk" = _rgXWsVkk;
         "fabric-1.20.2" = _liW4i7Ay;
         "fabric-1.20.3" = _mN8J9udt;
         "fabric-1.20.4" = _mN8J9udt;
@@ -230,13 +242,13 @@ let
         "fabric-1.21.11-rc2" = _QLA3BdwX;
         "fabric-1.21.11-rc3" = _QLA3BdwX;
         "fabric-1.21.11" = _uMqSWqGw;
-        "fabric-26.1" = _11AhKsSE;
-        "fabric-26.1.1" = _11AhKsSE;
-        "fabric-26.1.2" = _11AhKsSE;
+        "fabric-26.1" = _rgXWsVkk;
+        "fabric-26.1.1" = _rgXWsVkk;
+        "fabric-26.1.2" = _rgXWsVkk;
         "fabric-26.2" = _7cNbD19m;
         "fabric-26.3-rc-2" = _LQ5gHr90;
         "fabric-26.3-rc-3" = _LQ5gHr90;
-        "fabric-26.3" = _LQ5gHr90;
+        "fabric-26.3" = _VfvmcHnX;
         "quilt-1.20.1" = _CaohzZsn;
         "quilt-1.20.2" = _liW4i7Ay;
         "pkg-0.1.0" = _V2eyWOmB;
@@ -274,7 +286,9 @@ let
         "pkg-0.5.10+mc26.2" = _7cNbD19m;
         "pkg-0.5.10+mc26.1.2" = _11AhKsSE;
         "pkg-0.5.10+mc26.3" = _LQ5gHr90;
-        "default" = _LQ5gHr90;
+        "pkg-0.5.11+mc26.3" = _VfvmcHnX;
+        "pkg-0.5.11+mc26.1.2" = _rgXWsVkk;
+        "default" = _rgXWsVkk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nether-archives";

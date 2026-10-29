@@ -121,6 +121,11 @@ let
             "file" = "naturalcharcoal-26.3.0-1.3.jar";
             "hash" = "sha512-fzK2ybXE700qb0MZaXCZJksDXM9dnBC54Gu6R4XU2MR7M66MRyhWnewJVILkQSS2TH8h4k+92oRkWCfZFcWh6g==";
         };
+        _SVs1hyR4 = {
+            "id" = "SVs1hyR4";
+            "file" = "naturalcharcoal-26.1.2-1.3.jar";
+            "hash" = "sha512-DUr6FAFK7hjglJ7N8LKDIGFxukU9rIugy90vRrAK9bID7WbAOiz1Id6wCgXg5RXrFGzFNwyBwu78onankeSdvA==";
+        };
     in {
         "XSlF2H6L" = _XSlF2H6L;
         "ZHl08grF" = _ZHl08grF;
@@ -146,6 +151,7 @@ let
         "btOGtv5V" = _btOGtv5V;
         "G8LfpQAN" = _G8LfpQAN;
         "EZTgOX7E" = _EZTgOX7E;
+        "SVs1hyR4" = _SVs1hyR4;
         "fabric-1.20.1" = _LCI1QgsA;
         "fabric-1.21" = _btOGtv5V;
         "fabric-1.21.1" = _btOGtv5V;
@@ -159,7 +165,7 @@ let
         "fabric-1.21.11" = _UEvbJMLu;
         "fabric-26.1" = _i3tvTJtp;
         "fabric-26.1.1" = _dkgWnSZk;
-        "fabric-26.1.2" = _owdhZc3D;
+        "fabric-26.1.2" = _SVs1hyR4;
         "fabric-26.2" = _G8LfpQAN;
         "fabric-26.3" = _EZTgOX7E;
         "forge-1.20.1" = _LCI1QgsA;
@@ -175,7 +181,7 @@ let
         "forge-1.21.11" = _UEvbJMLu;
         "forge-26.1" = _i3tvTJtp;
         "forge-26.1.1" = _dkgWnSZk;
-        "forge-26.1.2" = _owdhZc3D;
+        "forge-26.1.2" = _SVs1hyR4;
         "forge-26.2" = _G8LfpQAN;
         "forge-26.3" = _EZTgOX7E;
         "neoforge-1.20.1" = _LCI1QgsA;
@@ -191,7 +197,7 @@ let
         "neoforge-1.21.11" = _UEvbJMLu;
         "neoforge-26.1" = _i3tvTJtp;
         "neoforge-26.1.1" = _dkgWnSZk;
-        "neoforge-26.1.2" = _owdhZc3D;
+        "neoforge-26.1.2" = _SVs1hyR4;
         "neoforge-26.2" = _G8LfpQAN;
         "neoforge-26.3" = _EZTgOX7E;
         "quilt-1.20.1" = _LCI1QgsA;
@@ -207,7 +213,7 @@ let
         "quilt-1.21.11" = _UEvbJMLu;
         "quilt-26.1" = _i3tvTJtp;
         "quilt-26.1.1" = _dkgWnSZk;
-        "quilt-26.1.2" = _owdhZc3D;
+        "quilt-26.1.2" = _SVs1hyR4;
         "quilt-26.2" = _G8LfpQAN;
         "quilt-26.3" = _EZTgOX7E;
         "pkg-1.20.1-1.0-fabric+forge+neo" = _XSlF2H6L;
@@ -234,7 +240,8 @@ let
         "pkg-1.21.1-1.3-fabric+forge+neo" = _btOGtv5V;
         "pkg-26.2.0-1.3-fabric+forge+neo" = _G8LfpQAN;
         "pkg-26.3.0-1.3-fabric+forge+neo" = _EZTgOX7E;
-        "default" = _EZTgOX7E;
+        "pkg-26.1.2-1.3-fabric+forge+neo" = _SVs1hyR4;
+        "default" = _SVs1hyR4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "natural-charcoal";

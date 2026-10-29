@@ -41,6 +41,16 @@ let
             "file" = "ImagineFunUtils-0.0.10.jar";
             "hash" = "sha512-GFHMc+plg+7vDV8u/K8NdeYATq8EDuuTTNpDXsrkNxf2Rn08xHxkfaVrOJDZkqbuoP3yH1hcuZaKCAOUBx+0gA==";
         };
+        _BzsZiKNt = {
+            "id" = "BzsZiKNt";
+            "file" = "ImagineFunUtils-0.0.11.jar";
+            "hash" = "sha512-ImtbSKbMUDdtWuPpMF8Qod4Zgv+k6KSbCKJJvlj/EM5rEpRim107+jDtbo3oMA/BKzlmisPXb4rHgauIn/bijg==";
+        };
+        _VM49MNMq = {
+            "id" = "VM49MNMq";
+            "file" = "ImagineFunUtils-0.0.12.jar";
+            "hash" = "sha512-yyFSLI88kHnfndY8w0m8vMac+UTLy/ur2fnB1anYQzXniZrliPiwO1nSjVwxw1lvmfQIr7DrUxtUZMeUSmr6QA==";
+        };
     in {
         "myx6u0pe" = _myx6u0pe;
         "C37CwqRd" = _C37CwqRd;
@@ -50,8 +60,10 @@ let
         "PcVwVkXI" = _PcVwVkXI;
         "D6VgV4AJ" = _D6VgV4AJ;
         "zYuGhbyB" = _zYuGhbyB;
+        "BzsZiKNt" = _BzsZiKNt;
+        "VM49MNMq" = _VM49MNMq;
         "fabric-1.21.11" = _PcVwVkXI;
-        "fabric-26.2" = _zYuGhbyB;
+        "fabric-26.2" = _VM49MNMq;
         "pkg-0.0.1" = _myx6u0pe;
         "pkg-0.0.3" = _C37CwqRd;
         "pkg-0.0.4" = _2nXfGJ62;
@@ -60,7 +72,9 @@ let
         "pkg-0.0.7" = _PcVwVkXI;
         "pkg-0.0.9" = _D6VgV4AJ;
         "pkg-0.0.10" = _zYuGhbyB;
-        "default" = _zYuGhbyB;
+        "pkg-0.0.11" = _BzsZiKNt;
+        "pkg-0.0.12" = _VM49MNMq;
+        "default" = _VM49MNMq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "imaginefunutils";

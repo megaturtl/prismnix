@@ -236,6 +236,11 @@ let
             "file" = "orediscoverybroadcast-26.3.0-2.5.jar";
             "hash" = "sha512-LNMqbsqdZ60C4awC89VsPMThZznyCxwDLW4OlVN5gKNHkecoJmRI2WKnXti0n5gSH1UuAUiFj3JYYTeMjQHceA==";
         };
+        _9pAWra0c = {
+            "id" = "9pAWra0c";
+            "file" = "orediscoverybroadcast-26.1.2-2.5.jar";
+            "hash" = "sha512-9kTrFTwTnHFspMp/Wgu/8AqNWBjzxWMfrPOu0Has4T84S681Vkyx73cTL+vy2QIE81J6Iguy5DiGeS29nDmK2Q==";
+        };
     in {
         "d2r2rkZz" = _d2r2rkZz;
         "evD342ew" = _evD342ew;
@@ -284,6 +289,7 @@ let
         "GTYA5Uv8" = _GTYA5Uv8;
         "cXWHnAD7" = _cXWHnAD7;
         "G8zsn392" = _G8zsn392;
+        "9pAWra0c" = _9pAWra0c;
         "fabric-1.19.2" = _rIrxaAtp;
         "fabric-1.20.1" = _ggd5cjip;
         "fabric-1.20.2" = _KuyKMVIh;
@@ -305,7 +311,7 @@ let
         "fabric-1.21.11" = _F7Ic5ll1;
         "fabric-26.1" = _2Dp9XVVk;
         "fabric-26.1.1" = _ApaJLNMR;
-        "fabric-26.1.2" = _SkKOyQxE;
+        "fabric-26.1.2" = _9pAWra0c;
         "fabric-26.2" = _cXWHnAD7;
         "fabric-26.3" = _G8zsn392;
         "forge-1.19.2" = _rIrxaAtp;
@@ -327,7 +333,7 @@ let
         "forge-1.21.11" = _F7Ic5ll1;
         "forge-26.1" = _2Dp9XVVk;
         "forge-26.1.1" = _ApaJLNMR;
-        "forge-26.1.2" = _SkKOyQxE;
+        "forge-26.1.2" = _9pAWra0c;
         "forge-26.2" = _cXWHnAD7;
         "forge-26.3" = _G8zsn392;
         "quilt-1.19.2" = _rIrxaAtp;
@@ -351,7 +357,7 @@ let
         "quilt-1.21.11" = _F7Ic5ll1;
         "quilt-26.1" = _2Dp9XVVk;
         "quilt-26.1.1" = _ApaJLNMR;
-        "quilt-26.1.2" = _SkKOyQxE;
+        "quilt-26.1.2" = _9pAWra0c;
         "quilt-26.2" = _cXWHnAD7;
         "quilt-26.3" = _G8zsn392;
         "neoforge-1.20.1" = _ggd5cjip;
@@ -374,7 +380,7 @@ let
         "neoforge-1.21.11" = _F7Ic5ll1;
         "neoforge-26.1" = _2Dp9XVVk;
         "neoforge-26.1.1" = _ApaJLNMR;
-        "neoforge-26.1.2" = _SkKOyQxE;
+        "neoforge-26.1.2" = _9pAWra0c;
         "neoforge-26.2" = _cXWHnAD7;
         "neoforge-26.3" = _G8zsn392;
         "pkg-1.19.2-1.0-fabric+forge+neo" = _d2r2rkZz;
@@ -424,7 +430,8 @@ let
         "pkg-1.21.1-2.5-fabric+forge+neo" = _GTYA5Uv8;
         "pkg-26.2.0-2.5-fabric+forge+neo" = _cXWHnAD7;
         "pkg-26.3.0-2.5-fabric+forge+neo" = _G8zsn392;
-        "default" = _G8zsn392;
+        "pkg-26.1.2-2.5-fabric+forge+neo" = _9pAWra0c;
+        "default" = _9pAWra0c;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ore-discovery-broadcast";

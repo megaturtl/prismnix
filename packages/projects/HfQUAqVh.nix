@@ -21,21 +21,29 @@ let
             "file" = "mBusRedux-Buses-2.0-beta-Public.zip";
             "hash" = "sha512-biPgkNYUbE4QbNmB8Fc4e1QGDLfXt9e/BVN4BbFos8MEmQKlnYDIWoymg8iciMru47cxO8BoB5cg3pbCqPtecQ==";
         };
+        _EmfXSQpf = {
+            "id" = "EmfXSQpf";
+            "file" = "mBusRedux-Buses-2.0.zip";
+            "hash" = "sha512-0jqyJVEMxgexwZ+fqyLOu7nHmqXRreird2SgOK8fF/wjC87ZXLA7ME7Ynex8sU8BwdwCvB0Zwpk64+7gd+T+eQ==";
+        };
     in {
         "bEfj9TBg" = _bEfj9TBg;
         "WmACI9P1" = _WmACI9P1;
         "X16iy3Jn" = _X16iy3Jn;
         "kHQ71PT3" = _kHQ71PT3;
-        "minecraft-1.17.1" = _kHQ71PT3;
-        "minecraft-1.18.2" = _kHQ71PT3;
-        "minecraft-1.19.2" = _kHQ71PT3;
+        "EmfXSQpf" = _EmfXSQpf;
+        "minecraft-1.17.1" = _EmfXSQpf;
+        "minecraft-1.18.2" = _EmfXSQpf;
+        "minecraft-1.19.2" = _EmfXSQpf;
         "minecraft-1.20" = _kHQ71PT3;
-        "minecraft-1.20.1" = _kHQ71PT3;
+        "minecraft-1.20.1" = _EmfXSQpf;
+        "minecraft-1.19.4" = _EmfXSQpf;
         "pkg-1.0" = _bEfj9TBg;
         "pkg-1.1" = _WmACI9P1;
         "pkg-1.2" = _X16iy3Jn;
         "pkg-2.0-beta" = _kHQ71PT3;
-        "default" = _kHQ71PT3;
+        "pkg-2.0" = _EmfXSQpf;
+        "default" = _EmfXSQpf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mbusredux";

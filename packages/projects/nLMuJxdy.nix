@@ -291,6 +291,11 @@ let
             "file" = "fallthroughslime-26.3.0-3.6.jar";
             "hash" = "sha512-+kW942DSzTQjtlv7ivhP98RVWUXA2FagSgDnkdwRzPlW55Moifc07Z/BNBXmhW+5smmuuA3pNMEbdPSzzQDTJA==";
         };
+        _u45ffY0T = {
+            "id" = "u45ffY0T";
+            "file" = "fallthroughslime-26.1.2-3.6.jar";
+            "hash" = "sha512-FeznclzM/wv5Zlw8U3tPVGc7xUZg3F7XDHlEmC6+gCzyRVWGX9P+gG2QiitoXD/S+YrUmrRbbWFe5iXq8B5XFg==";
+        };
     in {
         "sknRXzzq" = _sknRXzzq;
         "gNzSAUtK" = _gNzSAUtK;
@@ -350,6 +355,7 @@ let
         "h99l4o80" = _h99l4o80;
         "6Gxnoxrp" = _6Gxnoxrp;
         "uXdDvbV3" = _uXdDvbV3;
+        "u45ffY0T" = _u45ffY0T;
         "fabric-1.16.5" = _r4d9frKW;
         "fabric-1.18.2" = _Rmhj83V2;
         "fabric-1.19.2" = _vSN4kffL;
@@ -376,7 +382,7 @@ let
         "fabric-1.21.11" = _QOE2swWu;
         "fabric-26.1" = _gNY0bjSu;
         "fabric-26.1.1" = _U8oELlQy;
-        "fabric-26.1.2" = _tjrnGjzH;
+        "fabric-26.1.2" = _u45ffY0T;
         "fabric-26.2" = _6Gxnoxrp;
         "fabric-26.3" = _uXdDvbV3;
         "forge-1.16.5" = _pCIzZqOI;
@@ -403,7 +409,7 @@ let
         "forge-1.21.11" = _QOE2swWu;
         "forge-26.1" = _gNY0bjSu;
         "forge-26.1.1" = _U8oELlQy;
-        "forge-26.1.2" = _tjrnGjzH;
+        "forge-26.1.2" = _u45ffY0T;
         "forge-26.2" = _6Gxnoxrp;
         "forge-26.3" = _uXdDvbV3;
         "quilt-1.18.2" = _Rmhj83V2;
@@ -431,7 +437,7 @@ let
         "quilt-1.21.11" = _QOE2swWu;
         "quilt-26.1" = _gNY0bjSu;
         "quilt-26.1.1" = _U8oELlQy;
-        "quilt-26.1.2" = _tjrnGjzH;
+        "quilt-26.1.2" = _u45ffY0T;
         "quilt-26.2" = _6Gxnoxrp;
         "quilt-26.3" = _uXdDvbV3;
         "neoforge-1.20.2" = _jSnYBE2J;
@@ -454,7 +460,7 @@ let
         "neoforge-1.21.11" = _QOE2swWu;
         "neoforge-26.1" = _gNY0bjSu;
         "neoforge-26.1.1" = _U8oELlQy;
-        "neoforge-26.1.2" = _tjrnGjzH;
+        "neoforge-26.1.2" = _u45ffY0T;
         "neoforge-26.2" = _6Gxnoxrp;
         "neoforge-26.3" = _uXdDvbV3;
         "pkg-1.16.5-1.8-fabric" = _sknRXzzq;
@@ -515,7 +521,8 @@ let
         "pkg-1.21.1-3.6-fabric+forge+neo" = _h99l4o80;
         "pkg-26.2.0-3.6-fabric+forge+neo" = _6Gxnoxrp;
         "pkg-26.3.0-3.6-fabric+forge+neo" = _uXdDvbV3;
-        "default" = _uXdDvbV3;
+        "pkg-26.1.2-3.6-fabric+forge+neo" = _u45ffY0T;
+        "default" = _u45ffY0T;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fall-through-slime";

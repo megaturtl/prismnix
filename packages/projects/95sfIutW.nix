@@ -71,6 +71,11 @@ let
             "file" = "custom-player-data-2.0.4.jar";
             "hash" = "sha512-23HCQ7E3GoXxmgJDYbd7kXDx7yM5aOG2FPhLxSLjr8YYk73043OLKE1I8lREMbJBOilS61/vkr0KmBTEi77Ovw==";
         };
+        _tUpzXZUq = {
+            "id" = "tUpzXZUq";
+            "file" = "custom-player-data-3.0.0.jar";
+            "hash" = "sha512-WemXEbxjNgS6Bl77mLALOSsqUjqv/1xgBtpR1FdGUTtQ+5v4tdkd5OQ3VH3WASPHR/JtYB4xNOFE3x9gg38LJQ==";
+        };
     in {
         "n6H4YrMz" = _n6H4YrMz;
         "yuwwL1Rq" = _yuwwL1Rq;
@@ -86,7 +91,8 @@ let
         "dD8yOeRK" = _dD8yOeRK;
         "4hD7aZs0" = _4hD7aZs0;
         "zsYrZoHP" = _zsYrZoHP;
-        "fabric-1.20.6" = _zsYrZoHP;
+        "tUpzXZUq" = _tUpzXZUq;
+        "fabric-1.20.6" = _tUpzXZUq;
         "quilt-1.20.6" = _dD8yOeRK;
         "pkg-1.0.0" = _n6H4YrMz;
         "pkg-1.0.1" = _yuwwL1Rq;
@@ -102,7 +108,8 @@ let
         "pkg-2.0.2" = _dD8yOeRK;
         "pkg-2.0.3" = _4hD7aZs0;
         "pkg-2.0.4" = _zsYrZoHP;
-        "default" = _zsYrZoHP;
+        "pkg-3.0.0" = _tUpzXZUq;
+        "default" = _tUpzXZUq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "custom-player-data";

@@ -391,6 +391,11 @@ let
             "file" = "villagespawnpoint-26.3.0-4.8.jar";
             "hash" = "sha512-cJAmwvYK3YYG/5waFVknI+UvZ009FAel+VQUx5SxrJkky2Ir5BQROjsDL/1jKZxEQL9j02rZ+W1Vb/T7UOPSFw==";
         };
+        _sZZ8W41u = {
+            "id" = "sZZ8W41u";
+            "file" = "villagespawnpoint-26.1.2-4.8.jar";
+            "hash" = "sha512-wlOknPgucxshNddx1RjNuAqmksELVdu2CDmqzBeMhv1Py8YvJoIXlquf0YyLdbaMf2nn+TvhMCRu3HlIoaVj6Q==";
+        };
     in {
         "WHzZSLKD" = _WHzZSLKD;
         "8QEXEhTX" = _8QEXEhTX;
@@ -470,6 +475,7 @@ let
         "K9oDcoaf" = _K9oDcoaf;
         "3LOoYK3m" = _3LOoYK3m;
         "wYaiLmmP" = _wYaiLmmP;
+        "sZZ8W41u" = _sZZ8W41u;
         "fabric-1.16.5" = _HVDv199h;
         "fabric-1.18.2" = _dpemVPW1;
         "fabric-1.19.2" = _aJ2VCyjt;
@@ -496,7 +502,7 @@ let
         "fabric-1.21.11" = _AvTIGBQ2;
         "fabric-26.1" = _CYYoykR5;
         "fabric-26.1.1" = _i7kMMNLm;
-        "fabric-26.1.2" = _LN6N6TzO;
+        "fabric-26.1.2" = _sZZ8W41u;
         "fabric-26.2" = _3LOoYK3m;
         "fabric-26.3" = _wYaiLmmP;
         "forge-1.16.5" = _diXdQb8P;
@@ -523,7 +529,7 @@ let
         "forge-1.21.11" = _AvTIGBQ2;
         "forge-26.1" = _CYYoykR5;
         "forge-26.1.1" = _i7kMMNLm;
-        "forge-26.1.2" = _LN6N6TzO;
+        "forge-26.1.2" = _sZZ8W41u;
         "forge-26.2" = _3LOoYK3m;
         "forge-26.3" = _wYaiLmmP;
         "quilt-1.18.2" = _dpemVPW1;
@@ -551,7 +557,7 @@ let
         "quilt-1.21.11" = _AvTIGBQ2;
         "quilt-26.1" = _CYYoykR5;
         "quilt-26.1.1" = _i7kMMNLm;
-        "quilt-26.1.2" = _LN6N6TzO;
+        "quilt-26.1.2" = _sZZ8W41u;
         "quilt-26.2" = _3LOoYK3m;
         "quilt-26.3" = _wYaiLmmP;
         "neoforge-1.20.2" = _UE9lBWoG;
@@ -574,7 +580,7 @@ let
         "neoforge-1.21.11" = _AvTIGBQ2;
         "neoforge-26.1" = _CYYoykR5;
         "neoforge-26.1.1" = _i7kMMNLm;
-        "neoforge-26.1.2" = _LN6N6TzO;
+        "neoforge-26.1.2" = _sZZ8W41u;
         "neoforge-26.2" = _3LOoYK3m;
         "neoforge-26.3" = _wYaiLmmP;
         "pkg-1.16.5-2.5-fabric" = _WHzZSLKD;
@@ -655,7 +661,8 @@ let
         "pkg-1.21.1-4.8-fabric+forge+neo" = _K9oDcoaf;
         "pkg-26.2.0-4.8-fabric+forge+neo" = _3LOoYK3m;
         "pkg-26.3.0-4.8-fabric+forge+neo" = _wYaiLmmP;
-        "default" = _wYaiLmmP;
+        "pkg-26.1.2-4.8-fabric+forge+neo" = _sZZ8W41u;
+        "default" = _sZZ8W41u;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "village-spawn-point";

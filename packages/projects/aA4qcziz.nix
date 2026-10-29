@@ -106,6 +106,16 @@ let
             "file" = "moss-ruins-1.3.jar";
             "hash" = "sha512-A2YHPoXEerEK+HUpE4ufUGDUCLnHMmPUESwEMKX5Vuphnq9gvfNvgWpJnSsdyOSuqc4P0ktb9oWAGwMLDreCGA==";
         };
+        _cr8Wwx8z = {
+            "id" = "cr8Wwx8z";
+            "file" = "Moss Ruins Datapack 1.3.zip";
+            "hash" = "sha512-4Lr96vbiIjtr9rdQ9dZ4Q7l6b8+P8mAKlV7w5W5Q/1KVm12Lyx3Ur9skD2wlnfsuWy0RKZijGzEmXpNycnAqEA==";
+        };
+        _8bbN4Siy = {
+            "id" = "8bbN4Siy";
+            "file" = "moss-ruins-1.3.jar";
+            "hash" = "sha512-glMuvJ/Mc+lMBkCP9ukQDxxQWg/rjdDccvuehVNx/htT9z12Ffnns58P6m2KNlTGE9nSH071Z5bBumFBbBQVvA==";
+        };
     in {
         "uHOa3woL" = _uHOa3woL;
         "CisHrjDG" = _CisHrjDG;
@@ -128,6 +138,8 @@ let
         "KpHTvXuo" = _KpHTvXuo;
         "tJYbGR7J" = _tJYbGR7J;
         "Qr4xsPU0" = _Qr4xsPU0;
+        "cr8Wwx8z" = _cr8Wwx8z;
+        "8bbN4Siy" = _8bbN4Siy;
         "datapack-1.18.2" = _CisHrjDG;
         "datapack-1.19" = _CisHrjDG;
         "datapack-1.19.1" = _CisHrjDG;
@@ -153,6 +165,7 @@ let
         "datapack-26.1.1" = _u6LQAYmL;
         "datapack-26.1.2" = _u6LQAYmL;
         "datapack-26.2" = _u6LQAYmL;
+        "datapack-26.3" = _cr8Wwx8z;
         "fabric-1.18.2" = _uVLmmln6;
         "fabric-1.19" = _uVLmmln6;
         "fabric-1.19.1" = _uVLmmln6;
@@ -178,6 +191,7 @@ let
         "fabric-26.1.1" = _Qr4xsPU0;
         "fabric-26.1.2" = _Qr4xsPU0;
         "fabric-26.2" = _Qr4xsPU0;
+        "fabric-26.3" = _8bbN4Siy;
         "forge-1.18.2" = _uVLmmln6;
         "forge-1.19" = _uVLmmln6;
         "forge-1.19.1" = _uVLmmln6;
@@ -203,6 +217,7 @@ let
         "forge-26.1.1" = _Qr4xsPU0;
         "forge-26.1.2" = _Qr4xsPU0;
         "forge-26.2" = _Qr4xsPU0;
+        "forge-26.3" = _8bbN4Siy;
         "quilt-1.18.2" = _uVLmmln6;
         "quilt-1.19" = _uVLmmln6;
         "quilt-1.19.1" = _uVLmmln6;
@@ -228,6 +243,7 @@ let
         "quilt-26.1.1" = _Qr4xsPU0;
         "quilt-26.1.2" = _Qr4xsPU0;
         "quilt-26.2" = _Qr4xsPU0;
+        "quilt-26.3" = _8bbN4Siy;
         "neoforge-1.21" = _Qr4xsPU0;
         "neoforge-1.21.1" = _Qr4xsPU0;
         "neoforge-1.21.2" = _Qr4xsPU0;
@@ -244,13 +260,14 @@ let
         "neoforge-26.1.1" = _Qr4xsPU0;
         "neoforge-26.1.2" = _Qr4xsPU0;
         "neoforge-26.2" = _Qr4xsPU0;
+        "neoforge-26.3" = _8bbN4Siy;
         "pkg-1" = _CisHrjDG;
         "pkg-1+mod" = _uVLmmln6;
         "pkg-1.23" = _Mn91VbCE;
         "pkg-1.23+mod" = _V4CnxotN;
-        "pkg-1.3" = _u6LQAYmL;
-        "pkg-1.3+mod" = _Qr4xsPU0;
-        "default" = _Qr4xsPU0;
+        "pkg-1.3" = _cr8Wwx8z;
+        "pkg-1.3+mod" = _8bbN4Siy;
+        "default" = _8bbN4Siy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "moss-ruins";

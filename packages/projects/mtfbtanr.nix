@@ -401,6 +401,11 @@ let
             "file" = "biomespawnpoint-26.3.0-3.0.jar";
             "hash" = "sha512-DoZmqXDw+zqNKETvdK198mEsatrMSZOu+FdD6BKRVNksWPSCf8QMbvcnTym1PSnxCeyjAXHLIo7LO7SFf4RURg==";
         };
+        _QRcYQFtR = {
+            "id" = "QRcYQFtR";
+            "file" = "biomespawnpoint-26.1.2-3.0.jar";
+            "hash" = "sha512-9iQnWyPl5mpNM9lgVrMf2e4+BGLGMu85ovGngDKn9hYZwa6QQpiz2YH4GUYUZnfvIUJoALydDsIKjUMIy/XwMA==";
+        };
     in {
         "70IMoo2X" = _70IMoo2X;
         "HSB59z7r" = _HSB59z7r;
@@ -482,6 +487,7 @@ let
         "FZ5ZaUo7" = _FZ5ZaUo7;
         "K0nqmskQ" = _K0nqmskQ;
         "iJnqmNM6" = _iJnqmNM6;
+        "QRcYQFtR" = _QRcYQFtR;
         "fabric-1.16.5" = _dLxzDsAH;
         "fabric-1.18.2" = _dfR6WOXv;
         "fabric-1.19.2" = _DWINMfBG;
@@ -508,7 +514,7 @@ let
         "fabric-1.21.11" = _cpNkL5e9;
         "fabric-26.1" = _YZdJa0qZ;
         "fabric-26.1.1" = _TxzVeVxO;
-        "fabric-26.1.2" = _YCYBBteX;
+        "fabric-26.1.2" = _QRcYQFtR;
         "fabric-26.2" = _K0nqmskQ;
         "fabric-26.3" = _iJnqmNM6;
         "forge-1.16.5" = _xDcHoUkb;
@@ -535,7 +541,7 @@ let
         "forge-1.21.11" = _cpNkL5e9;
         "forge-26.1" = _YZdJa0qZ;
         "forge-26.1.1" = _TxzVeVxO;
-        "forge-26.1.2" = _YCYBBteX;
+        "forge-26.1.2" = _QRcYQFtR;
         "forge-26.2" = _K0nqmskQ;
         "forge-26.3" = _iJnqmNM6;
         "quilt-1.18.2" = _dfR6WOXv;
@@ -563,7 +569,7 @@ let
         "quilt-1.21.11" = _cpNkL5e9;
         "quilt-26.1" = _YZdJa0qZ;
         "quilt-26.1.1" = _TxzVeVxO;
-        "quilt-26.1.2" = _YCYBBteX;
+        "quilt-26.1.2" = _QRcYQFtR;
         "quilt-26.2" = _K0nqmskQ;
         "quilt-26.3" = _iJnqmNM6;
         "neoforge-1.20.2" = _zohBtc20;
@@ -586,7 +592,7 @@ let
         "neoforge-1.21.11" = _cpNkL5e9;
         "neoforge-26.1" = _YZdJa0qZ;
         "neoforge-26.1.1" = _TxzVeVxO;
-        "neoforge-26.1.2" = _YCYBBteX;
+        "neoforge-26.1.2" = _QRcYQFtR;
         "neoforge-26.2" = _K0nqmskQ;
         "neoforge-26.3" = _iJnqmNM6;
         "pkg-1.16.5-1.0-fabric" = _70IMoo2X;
@@ -669,7 +675,8 @@ let
         "pkg-1.21.1-3.0-fabric+forge+neo" = _FZ5ZaUo7;
         "pkg-26.2.0-3.0-fabric+forge+neo" = _K0nqmskQ;
         "pkg-26.3.0-3.0-fabric+forge+neo" = _iJnqmNM6;
-        "default" = _iJnqmNM6;
+        "pkg-26.1.2-3.0-fabric+forge+neo" = _QRcYQFtR;
+        "default" = _QRcYQFtR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "biome-spawn-point";

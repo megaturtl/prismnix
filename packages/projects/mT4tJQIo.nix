@@ -286,6 +286,11 @@ let
             "file" = "randomshulkercolours-26.3.0-3.5.jar";
             "hash" = "sha512-6kPe2UGAo2wMcoGALRFCOKLKTFTf9st0kr2AvWB2t21voksPAMI+kPNzti7XkvopKpu+zRG/4BDucsf2j/enYg==";
         };
+        _UIYru2Xv = {
+            "id" = "UIYru2Xv";
+            "file" = "randomshulkercolours-26.1.2-3.5.jar";
+            "hash" = "sha512-vxRFrf1WiUDDV8NB8UD1bBbI/F91RePa52+9qmo0znLjBwHocsAqhpjxGy4K99Ctp4FRR2VT+1jDecmWz+XxQg==";
+        };
     in {
         "ZBkpixOC" = _ZBkpixOC;
         "HeZn797j" = _HeZn797j;
@@ -344,6 +349,7 @@ let
         "FrdzHUb2" = _FrdzHUb2;
         "EFZuproO" = _EFZuproO;
         "zOrFvIKj" = _zOrFvIKj;
+        "UIYru2Xv" = _UIYru2Xv;
         "fabric-1.16.5" = _7RUCWTL4;
         "fabric-1.18.2" = _a7AJzWaB;
         "fabric-1.19.2" = _ginoQfnO;
@@ -370,7 +376,7 @@ let
         "fabric-1.21.11" = _xrR4321Q;
         "fabric-26.1" = _XlBh5jEw;
         "fabric-26.1.1" = _2xowS5Ln;
-        "fabric-26.1.2" = _KEINON9t;
+        "fabric-26.1.2" = _UIYru2Xv;
         "fabric-26.2" = _EFZuproO;
         "fabric-26.3" = _zOrFvIKj;
         "forge-1.16.5" = _lDBdcorU;
@@ -397,7 +403,7 @@ let
         "forge-1.21.11" = _xrR4321Q;
         "forge-26.1" = _XlBh5jEw;
         "forge-26.1.1" = _2xowS5Ln;
-        "forge-26.1.2" = _KEINON9t;
+        "forge-26.1.2" = _UIYru2Xv;
         "forge-26.2" = _EFZuproO;
         "forge-26.3" = _zOrFvIKj;
         "quilt-1.18.2" = _a7AJzWaB;
@@ -425,7 +431,7 @@ let
         "quilt-1.21.11" = _xrR4321Q;
         "quilt-26.1" = _XlBh5jEw;
         "quilt-26.1.1" = _2xowS5Ln;
-        "quilt-26.1.2" = _KEINON9t;
+        "quilt-26.1.2" = _UIYru2Xv;
         "quilt-26.2" = _EFZuproO;
         "quilt-26.3" = _zOrFvIKj;
         "neoforge-1.20.2" = _mn37cw4B;
@@ -448,7 +454,7 @@ let
         "neoforge-1.21.11" = _xrR4321Q;
         "neoforge-26.1" = _XlBh5jEw;
         "neoforge-26.1.1" = _2xowS5Ln;
-        "neoforge-26.1.2" = _KEINON9t;
+        "neoforge-26.1.2" = _UIYru2Xv;
         "neoforge-26.2" = _EFZuproO;
         "neoforge-26.3" = _zOrFvIKj;
         "pkg-1.16.5-1.7-fabric" = _ZBkpixOC;
@@ -508,7 +514,8 @@ let
         "pkg-1.21.1-3.5-fabric+forge+neo" = _FrdzHUb2;
         "pkg-26.2.0-3.5-fabric+forge+neo" = _EFZuproO;
         "pkg-26.3.0-3.5-fabric+forge+neo" = _zOrFvIKj;
-        "default" = _zOrFvIKj;
+        "pkg-26.1.2-3.5-fabric+forge+neo" = _UIYru2Xv;
+        "default" = _UIYru2Xv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "random-shulker-colours";

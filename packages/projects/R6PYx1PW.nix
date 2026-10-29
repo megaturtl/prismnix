@@ -316,6 +316,11 @@ let
             "file" = "fishontheline-26.3.0-3.6.jar";
             "hash" = "sha512-nm0cWQF9Mw7L6cIwVDtT4LskAaVjHpoUM3owdW6RhdHlzRd7g6T9dM+CGXqcNmoPskXmu2aO+7dgTrNbhdY01w==";
         };
+        _2nzXYdud = {
+            "id" = "2nzXYdud";
+            "file" = "fishontheline-26.1.2-3.6.jar";
+            "hash" = "sha512-P0wmalivhmc3hx4JKKllJ8uVVVrRsBwrx3NMER0NhkiOsV4vOzwT+psDThe0NWHkVwd6nEGhbcZQmghNuetXJA==";
+        };
     in {
         "2T2zf4I5" = _2T2zf4I5;
         "b8NTRlat" = _b8NTRlat;
@@ -380,6 +385,7 @@ let
         "cZy9gPEq" = _cZy9gPEq;
         "ACBlKOFn" = _ACBlKOFn;
         "QrRu5GgV" = _QrRu5GgV;
+        "2nzXYdud" = _2nzXYdud;
         "fabric-1.16.5" = _n3ScyPHf;
         "fabric-1.18.2" = _nXhHqXlJ;
         "fabric-1.19.2" = _73s2K38W;
@@ -406,7 +412,7 @@ let
         "fabric-1.21.11" = _209iSL2o;
         "fabric-26.1" = _weJ3kSsO;
         "fabric-26.1.1" = _CYdk6tIy;
-        "fabric-26.1.2" = _nqzEJ1yQ;
+        "fabric-26.1.2" = _2nzXYdud;
         "fabric-26.2" = _ACBlKOFn;
         "fabric-26.3" = _QrRu5GgV;
         "forge-1.16.5" = _vTyLu9WA;
@@ -433,7 +439,7 @@ let
         "forge-1.21.11" = _209iSL2o;
         "forge-26.1" = _weJ3kSsO;
         "forge-26.1.1" = _CYdk6tIy;
-        "forge-26.1.2" = _nqzEJ1yQ;
+        "forge-26.1.2" = _2nzXYdud;
         "forge-26.2" = _ACBlKOFn;
         "forge-26.3" = _QrRu5GgV;
         "quilt-1.18.2" = _nXhHqXlJ;
@@ -461,7 +467,7 @@ let
         "quilt-1.21.11" = _209iSL2o;
         "quilt-26.1" = _weJ3kSsO;
         "quilt-26.1.1" = _CYdk6tIy;
-        "quilt-26.1.2" = _nqzEJ1yQ;
+        "quilt-26.1.2" = _2nzXYdud;
         "quilt-26.2" = _ACBlKOFn;
         "quilt-26.3" = _QrRu5GgV;
         "neoforge-1.20.2" = _WID2QkRt;
@@ -484,7 +490,7 @@ let
         "neoforge-1.21.11" = _209iSL2o;
         "neoforge-26.1" = _weJ3kSsO;
         "neoforge-26.1.1" = _CYdk6tIy;
-        "neoforge-26.1.2" = _nqzEJ1yQ;
+        "neoforge-26.1.2" = _2nzXYdud;
         "neoforge-26.2" = _ACBlKOFn;
         "neoforge-26.3" = _QrRu5GgV;
         "pkg-1.16.5-1.7-fabric" = _2T2zf4I5;
@@ -550,7 +556,8 @@ let
         "pkg-1.21.1-3.6-fabric+forge+neo" = _cZy9gPEq;
         "pkg-26.2.0-3.6-fabric+forge+neo" = _ACBlKOFn;
         "pkg-26.3.0-3.6-fabric+forge+neo" = _QrRu5GgV;
-        "default" = _QrRu5GgV;
+        "pkg-26.1.2-3.6-fabric+forge+neo" = _2nzXYdud;
+        "default" = _2nzXYdud;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fish-on-the-line";

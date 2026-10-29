@@ -196,6 +196,46 @@ let
             "file" = "elytra-and-capes-2.3.2+fabric-mc26.3.jar";
             "hash" = "sha512-l07aUbO/2BiiWq9XSl+K8EV7Q3zBr5kYiJSrzjQSgtENhgy53KWGFgUXWVbflZVxf9arnzVTZmtziqw7yz4lGg==";
         };
+        _Ndje01rb = {
+            "id" = "Ndje01rb";
+            "file" = "elytra-and-capes-2.3.3+fabric-mc1.20.1.jar";
+            "hash" = "sha512-ETjcV0ZcmEr3USwc80FnUvDFtmi+I5GwD4kNVoaX60s3m6/mtq4lDu4PVywxCi2cvdEu7zXdvl67kJJ3FFA5wQ==";
+        };
+        _qiPbyY0p = {
+            "id" = "qiPbyY0p";
+            "file" = "elytra-and-capes-2.3.3+fabric-mc1.21-1.21.1.jar";
+            "hash" = "sha512-DWqoLiIWnTDkKsE5HHLv/BVR22eAwvi0/XzRMxFMdCsVYNzQTH4kt8cNcrvgK7dkTZ5Ekfxi0tY/EfSd0Lg7jw==";
+        };
+        _8DhY6A20 = {
+            "id" = "8DhY6A20";
+            "file" = "elytra-and-capes-2.3.3+fabric-mc1.21.6-1.21.8.jar";
+            "hash" = "sha512-snig2XzXUxSDNp4GX0YkAmLrjh6zBvzZH4z73IB7z+BFWflrfmSYxSHPEZFm5BENAc3jf3csfEt4XSSdP1z5GA==";
+        };
+        _uShjWnPI = {
+            "id" = "uShjWnPI";
+            "file" = "elytra-and-capes-2.3.3+fabric-mc1.21.9-1.21.10.jar";
+            "hash" = "sha512-/v7rbNLbihDnRbc9AJxGmHmgWAfNKlCXT1ayeeGcJk/I5Nlo9p41R+nlkU++BYaTHTaseye/S49uUbd7sfG8ZA==";
+        };
+        _V53SAq6E = {
+            "id" = "V53SAq6E";
+            "file" = "elytra-and-capes-2.3.3+fabric-mc1.21.11.jar";
+            "hash" = "sha512-Q4bD783smaohXnJLFAXHPlmy7f+J0PvmdXwHHDTSPxgquCzAaBbi12cA3TzneIGodj/rQKZhs2prwlf+I94PmA==";
+        };
+        _snfLdSfc = {
+            "id" = "snfLdSfc";
+            "file" = "elytra-and-capes-2.3.3+fabric-mc26.1x.jar";
+            "hash" = "sha512-shhnr6jDyk55s9xBhPuW1bKktvbMnI9YR84hqvFKq/BZdefObkHfSqJS1J2YL0wF4OrsYx+EWGkWTVq1BJq/Uw==";
+        };
+        _ssI5aUfz = {
+            "id" = "ssI5aUfz";
+            "file" = "elytra-and-capes-2.3.3+fabric-mc26.2.jar";
+            "hash" = "sha512-th9wz3g82vWPvVJ6dEB7qZBy2dv2Z9GDrVcZDJsuhhw1aMczWnZsfbxI6nbzpu/4ofEWV+RQsrR0t3YT6XKUQg==";
+        };
+        _6ilFmAI9 = {
+            "id" = "6ilFmAI9";
+            "file" = "elytra-and-capes-2.3.3+fabric-mc26.3.jar";
+            "hash" = "sha512-b0tT46fOtxmeBhGazJ9cTZKmIjNb04n4mw4O0UnzcqH/LVCarMUsRNVASNmdnt6sjVp+wO5/JVo0jGIJ/nNb9A==";
+        };
     in {
         "XQG6y02s" = _XQG6y02s;
         "yQ4G7HTN" = _yQ4G7HTN;
@@ -236,13 +276,28 @@ let
         "egnY2kcJ" = _egnY2kcJ;
         "4F0QHaz7" = _4F0QHaz7;
         "j3Lsq42O" = _j3Lsq42O;
-        "fabric-26.1.2" = _egnY2kcJ;
-        "fabric-26.1" = _egnY2kcJ;
-        "fabric-26.1.1" = _egnY2kcJ;
-        "fabric-26.2" = _4F0QHaz7;
-        "fabric-26.3" = _j3Lsq42O;
-        "fabric-1.21.6" = _HUTBoKvj;
-        "fabric-1.20.1" = _bGS7vdys;
+        "Ndje01rb" = _Ndje01rb;
+        "qiPbyY0p" = _qiPbyY0p;
+        "8DhY6A20" = _8DhY6A20;
+        "uShjWnPI" = _uShjWnPI;
+        "V53SAq6E" = _V53SAq6E;
+        "snfLdSfc" = _snfLdSfc;
+        "ssI5aUfz" = _ssI5aUfz;
+        "6ilFmAI9" = _6ilFmAI9;
+        "fabric-26.1.2" = _snfLdSfc;
+        "fabric-26.1" = _snfLdSfc;
+        "fabric-26.1.1" = _snfLdSfc;
+        "fabric-26.2" = _ssI5aUfz;
+        "fabric-26.3" = _6ilFmAI9;
+        "fabric-1.21.6" = _8DhY6A20;
+        "fabric-1.20.1" = _Ndje01rb;
+        "fabric-1.21" = _qiPbyY0p;
+        "fabric-1.21.1" = _qiPbyY0p;
+        "fabric-1.21.7" = _8DhY6A20;
+        "fabric-1.21.8" = _8DhY6A20;
+        "fabric-1.21.9" = _uShjWnPI;
+        "fabric-1.21.10" = _uShjWnPI;
+        "fabric-1.21.11" = _V53SAq6E;
         "pkg-1.0.0" = _XQG6y02s;
         "pkg-1.0.0+fabric-mc26.1x" = _yQ4G7HTN;
         "pkg-1.0.0+fabric-mc26.2" = _757NgQUt;
@@ -282,7 +337,15 @@ let
         "pkg-2.3.2+fabric-mc26.1x" = _egnY2kcJ;
         "pkg-2.3.2+fabric-mc26.2" = _4F0QHaz7;
         "pkg-2.3.2+fabric-mc26.3" = _j3Lsq42O;
-        "default" = _j3Lsq42O;
+        "pkg-2.3.3+fabric-mc1.20.1" = _Ndje01rb;
+        "pkg-2.3.3+fabric-mc1.21-1.21.1" = _qiPbyY0p;
+        "pkg-2.3.3+fabric-mc1.21.6-1.21.8" = _8DhY6A20;
+        "pkg-2.3.3+fabric-mc1.21.9-1.21.10" = _uShjWnPI;
+        "pkg-2.3.3+fabric-mc1.21.11" = _V53SAq6E;
+        "pkg-2.3.3+fabric-mc26.1x" = _snfLdSfc;
+        "pkg-2.3.3+fabric-mc26.2" = _ssI5aUfz;
+        "pkg-2.3.3+fabric-mc26.3" = _6ilFmAI9;
+        "default" = _6ilFmAI9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elytra-and-capes";

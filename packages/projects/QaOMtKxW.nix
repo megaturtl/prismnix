@@ -36,6 +36,16 @@ let
             "file" = "enchanted-book-cloning-26.2.jar";
             "hash" = "sha512-c7If/9eQrHDxv1L/ackBtOOFaTMhxwufvd8i1TLbqGZuHlOwUA3Fape5eVHMdctliZF25c2dvrcGUD1NFlQm1A==";
         };
+        _jcrBJCjQ = {
+            "id" = "jcrBJCjQ";
+            "file" = "enchanted_book_cloning_26.3.zip";
+            "hash" = "sha512-qiOzEEq6+RtOMtDAC4oOm0BKOf7hraNs+SuOns4rEX7wVIoSDDUpMn2COyAEE+ih0I25o+C5hrjrngk57oT6ZQ==";
+        };
+        _MuhNIvES = {
+            "id" = "MuhNIvES";
+            "file" = "enchanted-book-cloning-26.3.jar";
+            "hash" = "sha512-75KLcqBj1D1J/ycVjunwJDfcOZCPrWY7fao5eomGL41OywDi6d+kbFzh1mgXKPey+2hIqBNiji6scNj8wf2I8A==";
+        };
     in {
         "tdgTnpJ2" = _tdgTnpJ2;
         "9LWXALA2" = _9LWXALA2;
@@ -44,32 +54,39 @@ let
         "lyJL8IDN" = _lyJL8IDN;
         "ZTem2z3Y" = _ZTem2z3Y;
         "X53HK5R2" = _X53HK5R2;
+        "jcrBJCjQ" = _jcrBJCjQ;
+        "MuhNIvES" = _MuhNIvES;
         "datapack-26.1-snapshot-10" = _tdgTnpJ2;
         "datapack-1.21.11" = _9LWXALA2;
         "datapack-26.1" = _E2KOkjD7;
         "datapack-26.1.1" = _E2KOkjD7;
         "datapack-26.1.2" = _E2KOkjD7;
         "datapack-26.2" = _ZTem2z3Y;
+        "datapack-26.3" = _jcrBJCjQ;
         "fabric-1.21.11" = _Y4LJS29j;
         "fabric-26.1" = _lyJL8IDN;
         "fabric-26.1.1" = _lyJL8IDN;
         "fabric-26.1.2" = _lyJL8IDN;
         "fabric-26.2" = _X53HK5R2;
+        "fabric-26.3" = _MuhNIvES;
         "forge-1.21.11" = _Y4LJS29j;
         "forge-26.1" = _lyJL8IDN;
         "forge-26.1.1" = _lyJL8IDN;
         "forge-26.1.2" = _lyJL8IDN;
         "forge-26.2" = _X53HK5R2;
+        "forge-26.3" = _MuhNIvES;
         "neoforge-1.21.11" = _Y4LJS29j;
         "neoforge-26.1" = _lyJL8IDN;
         "neoforge-26.1.1" = _lyJL8IDN;
         "neoforge-26.1.2" = _lyJL8IDN;
         "neoforge-26.2" = _X53HK5R2;
+        "neoforge-26.3" = _MuhNIvES;
         "quilt-1.21.11" = _Y4LJS29j;
         "quilt-26.1" = _lyJL8IDN;
         "quilt-26.1.1" = _lyJL8IDN;
         "quilt-26.1.2" = _lyJL8IDN;
         "quilt-26.2" = _X53HK5R2;
+        "quilt-26.3" = _MuhNIvES;
         "pkg-snapshot-version1" = _tdgTnpJ2;
         "pkg-1.21.11" = _9LWXALA2;
         "pkg-1.21.11+mod" = _Y4LJS29j;
@@ -77,7 +94,9 @@ let
         "pkg-26.1+mod" = _lyJL8IDN;
         "pkg-26.2" = _ZTem2z3Y;
         "pkg-26.2+mod" = _X53HK5R2;
-        "default" = _X53HK5R2;
+        "pkg-26.3" = _jcrBJCjQ;
+        "pkg-26.3+mod" = _MuhNIvES;
+        "default" = _MuhNIvES;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchanted-book-cloning";

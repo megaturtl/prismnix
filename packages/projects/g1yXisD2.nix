@@ -421,6 +421,11 @@ let
             "file" = "guiclock-26.3.0-5.0.jar";
             "hash" = "sha512-Y2KjsOV9GDhJR2nf5/30kf6MDYGi+6Dq+MOjjPpfjYgTmbSZsUDVXOaJmDLiQybZny3dcCpkcgyfueorJ75xWg==";
         };
+        _sOB7LJFN = {
+            "id" = "sOB7LJFN";
+            "file" = "guiclock-26.1.2-5.0.jar";
+            "hash" = "sha512-K3tugG4vxXV+UCwNwoNRaitBhZ100JelHiwV3Pwges1fU1I43gQ2Mu8tMG2WPNya3jbUcbZQRI2p30FKfHkomg==";
+        };
     in {
         "U0muPKnp" = _U0muPKnp;
         "yRWViYUx" = _yRWViYUx;
@@ -506,6 +511,7 @@ let
         "MH3VTWGd" = _MH3VTWGd;
         "dHUzSTj1" = _dHUzSTj1;
         "tdF92Lhy" = _tdF92Lhy;
+        "sOB7LJFN" = _sOB7LJFN;
         "fabric-1.16.5" = _HFuz7Os6;
         "fabric-1.18.2" = _vLKkrzoW;
         "fabric-1.19.2" = _b9EEhQp1;
@@ -532,7 +538,7 @@ let
         "fabric-1.21.11" = _6D5LMCus;
         "fabric-26.1" = _wH82tmbp;
         "fabric-26.1.1" = _rWbaQk8U;
-        "fabric-26.1.2" = _dO5DGNJX;
+        "fabric-26.1.2" = _sOB7LJFN;
         "fabric-26.2" = _dHUzSTj1;
         "fabric-26.3" = _tdF92Lhy;
         "forge-1.16.5" = _Rk58cPdX;
@@ -559,7 +565,7 @@ let
         "forge-1.21.11" = _6D5LMCus;
         "forge-26.1" = _wH82tmbp;
         "forge-26.1.1" = _rWbaQk8U;
-        "forge-26.1.2" = _dO5DGNJX;
+        "forge-26.1.2" = _sOB7LJFN;
         "forge-26.2" = _dHUzSTj1;
         "forge-26.3" = _tdF92Lhy;
         "quilt-1.18.2" = _vLKkrzoW;
@@ -587,7 +593,7 @@ let
         "quilt-1.21.11" = _6D5LMCus;
         "quilt-26.1" = _wH82tmbp;
         "quilt-26.1.1" = _rWbaQk8U;
-        "quilt-26.1.2" = _dO5DGNJX;
+        "quilt-26.1.2" = _sOB7LJFN;
         "quilt-26.2" = _dHUzSTj1;
         "quilt-26.3" = _tdF92Lhy;
         "neoforge-1.20.2" = _rnqOndu8;
@@ -610,7 +616,7 @@ let
         "neoforge-1.21.11" = _6D5LMCus;
         "neoforge-26.1" = _wH82tmbp;
         "neoforge-26.1.1" = _rWbaQk8U;
-        "neoforge-26.1.2" = _dO5DGNJX;
+        "neoforge-26.1.2" = _sOB7LJFN;
         "neoforge-26.2" = _dHUzSTj1;
         "neoforge-26.3" = _tdF92Lhy;
         "pkg-1.16.5-3.4-fabric" = _U0muPKnp;
@@ -697,7 +703,8 @@ let
         "pkg-1.21.1-5.0-fabric+forge+neo" = _MH3VTWGd;
         "pkg-26.2.0-5.0-fabric+forge+neo" = _dHUzSTj1;
         "pkg-26.3.0-5.0-fabric+forge+neo" = _tdF92Lhy;
-        "default" = _tdF92Lhy;
+        "pkg-26.1.2-5.0-fabric+forge+neo" = _sOB7LJFN;
+        "default" = _sOB7LJFN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gui-clock";

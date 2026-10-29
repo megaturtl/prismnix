@@ -636,6 +636,11 @@ let
             "file" = "treeharvester-26.3.0-10.3.jar";
             "hash" = "sha512-xL+0Nl6MraKCazJOdhXrk0lRqYu3sfAVE8BuczlBY+wy5fYe7usYZHVALVTGyBft0GKmm29eZVCSeKq+8vLiIA==";
         };
+        _ophEQnhR = {
+            "id" = "ophEQnhR";
+            "file" = "treeharvester-26.1.2-10.3.jar";
+            "hash" = "sha512-JdwOepnzQnNbeC1ZmC0QghWsuRWXwc7LGP+XvDSPNllJKSDD9XxTAWKgIBC9yAMTm13DoDcn4g0TDsWntGJS2Q==";
+        };
     in {
         "vIwuLwEV" = _vIwuLwEV;
         "jUzin5zH" = _jUzin5zH;
@@ -764,6 +769,7 @@ let
         "ejhqrWH2" = _ejhqrWH2;
         "C1wpBNCm" = _C1wpBNCm;
         "Aem5iZWT" = _Aem5iZWT;
+        "ophEQnhR" = _ophEQnhR;
         "fabric-1.16.5" = _TRYojAfG;
         "fabric-1.18.2" = _d5yDhqXz;
         "fabric-1.19.2" = _4hvlRkFi;
@@ -790,7 +796,7 @@ let
         "fabric-1.21.11" = _8mfyGsIg;
         "fabric-26.1" = _MiUnJkVx;
         "fabric-26.1.1" = _P9sZwCYu;
-        "fabric-26.1.2" = _PIkMhpKe;
+        "fabric-26.1.2" = _ophEQnhR;
         "fabric-26.2" = _C1wpBNCm;
         "fabric-26.3" = _Aem5iZWT;
         "forge-1.16.5" = _cwRqubKX;
@@ -817,7 +823,7 @@ let
         "forge-1.21.11" = _8mfyGsIg;
         "forge-26.1" = _MiUnJkVx;
         "forge-26.1.1" = _P9sZwCYu;
-        "forge-26.1.2" = _PIkMhpKe;
+        "forge-26.1.2" = _ophEQnhR;
         "forge-26.2" = _C1wpBNCm;
         "forge-26.3" = _Aem5iZWT;
         "quilt-1.18.2" = _d5yDhqXz;
@@ -845,7 +851,7 @@ let
         "quilt-1.21.11" = _8mfyGsIg;
         "quilt-26.1" = _MiUnJkVx;
         "quilt-26.1.1" = _P9sZwCYu;
-        "quilt-26.1.2" = _PIkMhpKe;
+        "quilt-26.1.2" = _ophEQnhR;
         "quilt-26.2" = _C1wpBNCm;
         "quilt-26.3" = _Aem5iZWT;
         "neoforge-1.20.2" = _esFh0i83;
@@ -868,7 +874,7 @@ let
         "neoforge-1.21.11" = _8mfyGsIg;
         "neoforge-26.1" = _MiUnJkVx;
         "neoforge-26.1.1" = _P9sZwCYu;
-        "neoforge-26.1.2" = _PIkMhpKe;
+        "neoforge-26.1.2" = _ophEQnhR;
         "neoforge-26.2" = _C1wpBNCm;
         "neoforge-26.3" = _Aem5iZWT;
         "pkg-1.16.5-5.4-fabric" = _vIwuLwEV;
@@ -996,7 +1002,8 @@ let
         "pkg-1.21.1-10.3-fabric+forge+neo" = _ejhqrWH2;
         "pkg-26.2.0-10.3-fabric+forge+neo" = _C1wpBNCm;
         "pkg-26.3.0-10.3-fabric+forge+neo" = _Aem5iZWT;
-        "default" = _Aem5iZWT;
+        "pkg-26.1.2-10.3-fabric+forge+neo" = _ophEQnhR;
+        "default" = _ophEQnhR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tree-harvester";

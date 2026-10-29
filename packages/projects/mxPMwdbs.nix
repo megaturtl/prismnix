@@ -216,6 +216,26 @@ let
             "file" = "inworldrecipes-26.1.2-2.6.3.jar";
             "hash" = "sha512-i4qiNjQGCV3AFA4LkPHyc5AYJP/OGH0WO0JZKZDDcCuCJA3XeIMGO7V+YCgIw2dQO8xOuoZyo+PogVSUbTqtfw==";
         };
+        _D3ajFbqn = {
+            "id" = "D3ajFbqn";
+            "file" = "inworldrecipes-26.1.2-2.6.3.jar";
+            "hash" = "sha512-IZeAV1ybmTO7wbLmKiIAjQpsQD0oir5H/AlX4uY+6gxnl9wdnvmtH5W+6L2A3RQenpKVp6NP2R5WaDj/tRFKmA==";
+        };
+        _8H7EzJNJ = {
+            "id" = "8H7EzJNJ";
+            "file" = "inworldrecipes-26.1.2-2.6.4.jar";
+            "hash" = "sha512-G11Gk1AEA4+X1zAPNvr4xJUjgvtnLPlBbKPMxXmJerXMqf60gBAOg+o2thH2B773cT4cO3q5eksI+82LZHk9HA==";
+        };
+        _3dEWmLiL = {
+            "id" = "3dEWmLiL";
+            "file" = "inworldrecipes-1.21.1-1.8.3.jar";
+            "hash" = "sha512-bM1KOoI5wmKx373uENqRYg1iSpvWWf38xNfQZoUBa1HjU+rylajkdqUdtHPC8rifRbXrU5Josv2X3CY/IuUbTQ==";
+        };
+        _CGnMojbe = {
+            "id" = "CGnMojbe";
+            "file" = "inworldrecipes-1.21.1-1.8.4.jar";
+            "hash" = "sha512-1DyqtzQX13O57f8gXO/Vg4ANIwoFdxERvFeebzo3cnpTRH7i/6rvVtEAzkEDiC8ubAwRfO9MN55Xf7jmi9TjaQ==";
+        };
     in {
         "bcOqsMJI" = _bcOqsMJI;
         "j81GMSRZ" = _j81GMSRZ;
@@ -260,11 +280,15 @@ let
         "EnZ7J5TZ" = _EnZ7J5TZ;
         "l6EHZsbN" = _l6EHZsbN;
         "IJXK6cDn" = _IJXK6cDn;
+        "D3ajFbqn" = _D3ajFbqn;
+        "8H7EzJNJ" = _8H7EzJNJ;
+        "3dEWmLiL" = _3dEWmLiL;
+        "CGnMojbe" = _CGnMojbe;
         "neoforge-1.21" = _HM3pY941;
-        "neoforge-1.21.1" = _HM3pY941;
+        "neoforge-1.21.1" = _CGnMojbe;
         "neoforge-26.1" = _2d2NTvxR;
         "neoforge-26.1.1" = _2d2NTvxR;
-        "neoforge-26.1.2" = _IJXK6cDn;
+        "neoforge-26.1.2" = _8H7EzJNJ;
         "pkg-1.0.0" = _bcOqsMJI;
         "pkg-1.21-1.0.0" = _j81GMSRZ;
         "pkg-1.21-1.0.1" = _b2C1wPgt;
@@ -302,8 +326,11 @@ let
         "pkg-26.1.2-2.6.0" = _O6hznu2q;
         "pkg-26.1.2-2.6.1" = _EnZ7J5TZ;
         "pkg-26.1.2-2.6.2" = _l6EHZsbN;
-        "pkg-26.1.2-2.6.3" = _IJXK6cDn;
-        "default" = _IJXK6cDn;
+        "pkg-26.1.2-2.6.3" = _D3ajFbqn;
+        "pkg-26.1.2-2.6.4" = _8H7EzJNJ;
+        "pkg-1.8.3" = _3dEWmLiL;
+        "pkg-1.8.4" = _CGnMojbe;
+        "default" = _CGnMojbe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "in-world-recipes";

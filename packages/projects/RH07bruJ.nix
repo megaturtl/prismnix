@@ -306,6 +306,11 @@ let
             "file" = "alwaysawitherskull-26.3.0-3.7.jar";
             "hash" = "sha512-Q7NDz61w5N8ZJsA1hFfGwcx15VPK7KfYpc6zi9hJYwUk7abBgjS3CdI5OXPa8QiuTaE+9fl55b4+7+SwCbmruA==";
         };
+        _x3CNaVyf = {
+            "id" = "x3CNaVyf";
+            "file" = "alwaysawitherskull-26.1.2-3.7.jar";
+            "hash" = "sha512-hXLvWfHv9Cxt/+KvgLeNn/QxQvYbe4lfAA7wpwr6JA/yrzEyRdnzix22uwAuyhL/9M7ERxIVAeXzvb64Trt5HQ==";
+        };
     in {
         "Ih9djoRd" = _Ih9djoRd;
         "GRgtnAj0" = _GRgtnAj0;
@@ -368,6 +373,7 @@ let
         "xgkaKzDY" = _xgkaKzDY;
         "f5Z8dAkF" = _f5Z8dAkF;
         "evLeKptG" = _evLeKptG;
+        "x3CNaVyf" = _x3CNaVyf;
         "fabric-1.16.5" = _jh4qR3xt;
         "fabric-1.18.2" = _Hv2qOJHQ;
         "fabric-1.19.2" = _xTugRJ4q;
@@ -394,7 +400,7 @@ let
         "fabric-1.21.11" = _PGkylW3Z;
         "fabric-26.1" = _3Habvqlq;
         "fabric-26.1.1" = _gonL8jpp;
-        "fabric-26.1.2" = _6kPADnrD;
+        "fabric-26.1.2" = _x3CNaVyf;
         "fabric-26.2" = _f5Z8dAkF;
         "fabric-26.3" = _evLeKptG;
         "forge-1.16.5" = _aLa8UuEN;
@@ -421,7 +427,7 @@ let
         "forge-1.21.11" = _PGkylW3Z;
         "forge-26.1" = _3Habvqlq;
         "forge-26.1.1" = _gonL8jpp;
-        "forge-26.1.2" = _6kPADnrD;
+        "forge-26.1.2" = _x3CNaVyf;
         "forge-26.2" = _f5Z8dAkF;
         "forge-26.3" = _evLeKptG;
         "quilt-1.18.2" = _Hv2qOJHQ;
@@ -449,7 +455,7 @@ let
         "quilt-1.21.11" = _PGkylW3Z;
         "quilt-26.1" = _3Habvqlq;
         "quilt-26.1.1" = _gonL8jpp;
-        "quilt-26.1.2" = _6kPADnrD;
+        "quilt-26.1.2" = _x3CNaVyf;
         "quilt-26.2" = _f5Z8dAkF;
         "quilt-26.3" = _evLeKptG;
         "neoforge-1.20.2" = _ZVjpIAp0;
@@ -472,7 +478,7 @@ let
         "neoforge-1.21.11" = _PGkylW3Z;
         "neoforge-26.1" = _3Habvqlq;
         "neoforge-26.1.1" = _gonL8jpp;
-        "neoforge-26.1.2" = _6kPADnrD;
+        "neoforge-26.1.2" = _x3CNaVyf;
         "neoforge-26.2" = _f5Z8dAkF;
         "neoforge-26.3" = _evLeKptG;
         "pkg-1.16.5-1.8-fabric" = _Ih9djoRd;
@@ -536,7 +542,8 @@ let
         "pkg-1.21.1-3.7-fabric+forge+neo" = _xgkaKzDY;
         "pkg-26.2.0-3.7-fabric+forge+neo" = _f5Z8dAkF;
         "pkg-26.3.0-3.7-fabric+forge+neo" = _evLeKptG;
-        "default" = _evLeKptG;
+        "pkg-26.1.2-3.7-fabric+forge+neo" = _x3CNaVyf;
+        "default" = _x3CNaVyf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "always-a-wither-skull";

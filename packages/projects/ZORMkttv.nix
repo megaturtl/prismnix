@@ -426,6 +426,11 @@ let
             "file" = "guicompass-26.3.0-5.1.jar";
             "hash" = "sha512-wv+NDU/ihpJm75VBBerybdw/4FPzUZz5pmp8sz28uKILqBGSymv2gmB+pVKcjeWXk99KjfHi1MTD6y/Epbk8hA==";
         };
+        _j4GKUVGY = {
+            "id" = "j4GKUVGY";
+            "file" = "guicompass-26.1.2-5.1.jar";
+            "hash" = "sha512-b1gTjgENad159YfMgibkniEoDOgPnbdo1GXB6m4HxzuMptLxBqr0dYiSmGyYFLAJVFf8ZTumn06xzvC3QOzRHg==";
+        };
     in {
         "hkUj2ViG" = _hkUj2ViG;
         "YIfyoUkd" = _YIfyoUkd;
@@ -512,6 +517,7 @@ let
         "bTYnXhyz" = _bTYnXhyz;
         "wvWeUdw8" = _wvWeUdw8;
         "svDGbStH" = _svDGbStH;
+        "j4GKUVGY" = _j4GKUVGY;
         "fabric-1.16.5" = _f8myW7up;
         "fabric-1.18.2" = _hmdiIqRG;
         "fabric-1.19.2" = _Nxc497Z7;
@@ -538,7 +544,7 @@ let
         "fabric-1.21.11" = _927igUFh;
         "fabric-26.1" = _jWXT2wdF;
         "fabric-26.1.1" = _nVvCHlH0;
-        "fabric-26.1.2" = _fgRFIXg2;
+        "fabric-26.1.2" = _j4GKUVGY;
         "fabric-26.2" = _wvWeUdw8;
         "fabric-26.3" = _svDGbStH;
         "forge-1.16.5" = _qwF07yAK;
@@ -565,7 +571,7 @@ let
         "forge-1.21.11" = _927igUFh;
         "forge-26.1" = _jWXT2wdF;
         "forge-26.1.1" = _nVvCHlH0;
-        "forge-26.1.2" = _fgRFIXg2;
+        "forge-26.1.2" = _j4GKUVGY;
         "forge-26.2" = _wvWeUdw8;
         "forge-26.3" = _svDGbStH;
         "quilt-1.18.2" = _hmdiIqRG;
@@ -593,7 +599,7 @@ let
         "quilt-1.21.11" = _927igUFh;
         "quilt-26.1" = _jWXT2wdF;
         "quilt-26.1.1" = _nVvCHlH0;
-        "quilt-26.1.2" = _fgRFIXg2;
+        "quilt-26.1.2" = _j4GKUVGY;
         "quilt-26.2" = _wvWeUdw8;
         "quilt-26.3" = _svDGbStH;
         "neoforge-1.20.2" = _GQUPZ02J;
@@ -616,7 +622,7 @@ let
         "neoforge-1.21.11" = _927igUFh;
         "neoforge-26.1" = _jWXT2wdF;
         "neoforge-26.1.1" = _nVvCHlH0;
-        "neoforge-26.1.2" = _fgRFIXg2;
+        "neoforge-26.1.2" = _j4GKUVGY;
         "neoforge-26.2" = _wvWeUdw8;
         "neoforge-26.3" = _svDGbStH;
         "pkg-1.16.5-2.5-fabric" = _hkUj2ViG;
@@ -704,7 +710,8 @@ let
         "pkg-1.21.1-5.1-fabric+forge+neo" = _bTYnXhyz;
         "pkg-26.2.0-5.1-fabric+forge+neo" = _wvWeUdw8;
         "pkg-26.3.0-5.1-fabric+forge+neo" = _svDGbStH;
-        "default" = _svDGbStH;
+        "pkg-26.1.2-5.1-fabric+forge+neo" = _j4GKUVGY;
+        "default" = _j4GKUVGY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gui-compass";

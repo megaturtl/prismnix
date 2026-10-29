@@ -61,6 +61,11 @@ let
             "file" = "CreateBitsnBobs-2.3.5.1+fly-mc26.1.jar";
             "hash" = "sha512-TNMENUq9mRf4iq4OQR0L1E1CO4xWkJ2RNwBM1oqGkdJtFTqcNeyzIXC8KLaEw1nXd0rzZfGCBsIJ+V7db5eAzA==";
         };
+        _N7IPwJGd = {
+            "id" = "N7IPwJGd";
+            "file" = "CreateBitsnBobs-2.3.5.2+fly-mc26.2.jar";
+            "hash" = "sha512-Fn5oyIVVVlzPatt2wwgBMWL1zt3XnrVD0zhHoCfuAB910HWNGXi11XknR8IixV05jCNOgKLoZr/c/pI36oZmXA==";
+        };
     in {
         "k5f0j318" = _k5f0j318;
         "v54xLnUO" = _v54xLnUO;
@@ -74,7 +79,8 @@ let
         "VDiwPAXE" = _VDiwPAXE;
         "8sTSLASx" = _8sTSLASx;
         "4d25P5ZU" = _4d25P5ZU;
-        "fabric-26.2" = _8sTSLASx;
+        "N7IPwJGd" = _N7IPwJGd;
+        "fabric-26.2" = _N7IPwJGd;
         "fabric-26.1" = _4d25P5ZU;
         "fabric-26.1.1" = _4d25P5ZU;
         "fabric-26.1.2" = _4d25P5ZU;
@@ -90,7 +96,8 @@ let
         "pkg-2.3.5+fly-mc26.1" = _VDiwPAXE;
         "pkg-2.3.5.1+fly-mc26.2" = _8sTSLASx;
         "pkg-2.3.5.1+fly-mc26.1" = _4d25P5ZU;
-        "default" = _4d25P5ZU;
+        "pkg-2.3.5.2+fly-mc26.2" = _N7IPwJGd;
+        "default" = _N7IPwJGd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-fly-bits-n-bobs-unofficial-port";

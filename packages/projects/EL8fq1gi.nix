@@ -366,6 +366,11 @@ let
             "file" = "setworldspawnpoint-26.3.0-4.0.jar";
             "hash" = "sha512-tc2T8F86SMZ7r0K4LnkN+HZBBtS64VgLLFYJEx4EJRrW08jQKGRNEiffoB2u9jrFdJFgBpK45HKXYqXg+g1RwQ==";
         };
+        _z0Fni1Gf = {
+            "id" = "z0Fni1Gf";
+            "file" = "setworldspawnpoint-26.1.2-4.0.jar";
+            "hash" = "sha512-UBGCTiDCa2DxZbsxO75xWSUWfw1QIvgMlrY3Z0kHqgCMCUI31yj5kNCLGr5o7GeHwDebNjJ69LLBXRMXElfI7g==";
+        };
     in {
         "ETjGoZO5" = _ETjGoZO5;
         "Npee0yuJ" = _Npee0yuJ;
@@ -440,6 +445,7 @@ let
         "1vVdqzCW" = _1vVdqzCW;
         "zcg5r00F" = _zcg5r00F;
         "oXLWxDVX" = _oXLWxDVX;
+        "z0Fni1Gf" = _z0Fni1Gf;
         "fabric-1.16.5" = _TAI4bXED;
         "fabric-1.18.2" = _QSXrLGYT;
         "fabric-1.19.2" = _BC2UAtbN;
@@ -466,7 +472,7 @@ let
         "fabric-1.21.11" = _wQ11FK2R;
         "fabric-26.1" = _w5hhzftI;
         "fabric-26.1.1" = _dPBH6DNl;
-        "fabric-26.1.2" = _3aN0OEjC;
+        "fabric-26.1.2" = _z0Fni1Gf;
         "fabric-26.2" = _zcg5r00F;
         "fabric-26.3" = _oXLWxDVX;
         "forge-1.16.5" = _AsPdJDAB;
@@ -493,7 +499,7 @@ let
         "forge-1.21.11" = _wQ11FK2R;
         "forge-26.1" = _w5hhzftI;
         "forge-26.1.1" = _dPBH6DNl;
-        "forge-26.1.2" = _3aN0OEjC;
+        "forge-26.1.2" = _z0Fni1Gf;
         "forge-26.2" = _zcg5r00F;
         "forge-26.3" = _oXLWxDVX;
         "quilt-1.18.2" = _QSXrLGYT;
@@ -521,7 +527,7 @@ let
         "quilt-1.21.11" = _wQ11FK2R;
         "quilt-26.1" = _w5hhzftI;
         "quilt-26.1.1" = _dPBH6DNl;
-        "quilt-26.1.2" = _3aN0OEjC;
+        "quilt-26.1.2" = _z0Fni1Gf;
         "quilt-26.2" = _zcg5r00F;
         "quilt-26.3" = _oXLWxDVX;
         "neoforge-1.20.2" = _6JsPFnLa;
@@ -544,7 +550,7 @@ let
         "neoforge-1.21.11" = _wQ11FK2R;
         "neoforge-26.1" = _w5hhzftI;
         "neoforge-26.1.1" = _dPBH6DNl;
-        "neoforge-26.1.2" = _3aN0OEjC;
+        "neoforge-26.1.2" = _z0Fni1Gf;
         "neoforge-26.2" = _zcg5r00F;
         "neoforge-26.3" = _oXLWxDVX;
         "pkg-1.16.5-2.5-fabric" = _ETjGoZO5;
@@ -620,7 +626,8 @@ let
         "pkg-1.21.1-4.0-fabric+forge+neo" = _1vVdqzCW;
         "pkg-26.2.0-4.0-fabric+forge+neo" = _zcg5r00F;
         "pkg-26.3.0-4.0-fabric+forge+neo" = _oXLWxDVX;
-        "default" = _oXLWxDVX;
+        "pkg-26.1.2-4.0-fabric+forge+neo" = _z0Fni1Gf;
+        "default" = _z0Fni1Gf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "set-world-spawn-point";
