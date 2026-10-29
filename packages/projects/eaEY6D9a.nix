@@ -331,6 +331,11 @@ let
             "file" = "randommobeffects-26.3.0-3.6.jar";
             "hash" = "sha512-IcVnzXMTwDytYJxBrYrAs1EOokxDcbXveZwx/VwqFLpsGrl/KVqNfHJcxtXeLRcMIVamo7lGK0PZ74eIP+Xy8w==";
         };
+        _z8lXmRwD = {
+            "id" = "z8lXmRwD";
+            "file" = "randommobeffects-26.1.2-3.6.jar";
+            "hash" = "sha512-xVDK+1yBWkoSebOsZgxRXaY2v1pFECHhz/NblfR27BPGjbDmQtigw1v660zUbq/agy+4nT/aruvDRw1oGZllVg==";
+        };
     in {
         "N5xORiOh" = _N5xORiOh;
         "iskTA68k" = _iskTA68k;
@@ -398,6 +403,7 @@ let
         "R6a1WRYa" = _R6a1WRYa;
         "HiUmmMRp" = _HiUmmMRp;
         "2uZFYgIO" = _2uZFYgIO;
+        "z8lXmRwD" = _z8lXmRwD;
         "fabric-1.16.5" = _IiWjYLyf;
         "fabric-1.18.2" = _USxftcHz;
         "fabric-1.19.2" = _saQABLE3;
@@ -424,7 +430,7 @@ let
         "fabric-1.21.11" = _bU7gYb4k;
         "fabric-26.1" = _Fu8sZmT9;
         "fabric-26.1.1" = _b9R1s8cl;
-        "fabric-26.1.2" = _hBHJ5l2u;
+        "fabric-26.1.2" = _z8lXmRwD;
         "fabric-26.2" = _HiUmmMRp;
         "fabric-26.3" = _2uZFYgIO;
         "forge-1.16.5" = _TPuEH5bY;
@@ -451,7 +457,7 @@ let
         "forge-1.21.11" = _bU7gYb4k;
         "forge-26.1" = _Fu8sZmT9;
         "forge-26.1.1" = _b9R1s8cl;
-        "forge-26.1.2" = _hBHJ5l2u;
+        "forge-26.1.2" = _z8lXmRwD;
         "forge-26.2" = _HiUmmMRp;
         "forge-26.3" = _2uZFYgIO;
         "quilt-1.18.2" = _USxftcHz;
@@ -479,7 +485,7 @@ let
         "quilt-1.21.11" = _bU7gYb4k;
         "quilt-26.1" = _Fu8sZmT9;
         "quilt-26.1.1" = _b9R1s8cl;
-        "quilt-26.1.2" = _hBHJ5l2u;
+        "quilt-26.1.2" = _z8lXmRwD;
         "quilt-26.2" = _HiUmmMRp;
         "quilt-26.3" = _2uZFYgIO;
         "neoforge-1.20.2" = _jEbSWubn;
@@ -502,7 +508,7 @@ let
         "neoforge-1.21.11" = _bU7gYb4k;
         "neoforge-26.1" = _Fu8sZmT9;
         "neoforge-26.1.1" = _b9R1s8cl;
-        "neoforge-26.1.2" = _hBHJ5l2u;
+        "neoforge-26.1.2" = _z8lXmRwD;
         "neoforge-26.2" = _HiUmmMRp;
         "neoforge-26.3" = _2uZFYgIO;
         "pkg-1.16.5-2.0-fabric" = _N5xORiOh;
@@ -571,7 +577,8 @@ let
         "pkg-1.21.1-3.6-fabric+forge+neo" = _R6a1WRYa;
         "pkg-26.2.0-3.6-fabric+forge+neo" = _HiUmmMRp;
         "pkg-26.3.0-3.6-fabric+forge+neo" = _2uZFYgIO;
-        "default" = _2uZFYgIO;
+        "pkg-26.1.2-3.6-fabric+forge+neo" = _z8lXmRwD;
+        "default" = _z8lXmRwD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "random-mob-effects";

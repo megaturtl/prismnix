@@ -261,6 +261,16 @@ let
             "file" = "squidnoglitch-mc26.3-v26.3.0-neoforge.jar";
             "hash" = "sha512-lEFU0oaeDu2ed5TaV9uam7fMwJgPJjkeeO6pTWyLt9VfqTkunrzNGz3z6Eqs8O+f/SMdjt4MXQypt1Upfo++9A==";
         };
+        _TKny1zsH = {
+            "id" = "TKny1zsH";
+            "file" = "squidnoglitch-mc1.21.1-v21.1.0-fabric.jar";
+            "hash" = "sha512-jHmYDh9neVO0LeoLVKgqdWaYQs9JwWleIPxTp/iyr/TLkerQy1/pelDuztoj/28pss8jidBlHNyY/1Q7096UJQ==";
+        };
+        _aPJEuTZ3 = {
+            "id" = "aPJEuTZ3";
+            "file" = "squidnoglitch-mc1.21.1-v21.1.0-neoforge.jar";
+            "hash" = "sha512-wRv2kqTfnhGmjZnUanm06+n4ZjjYqVJDhopD6tjDYyxRZ90K5NztsRK0vjsmupryd9YBFKXBU3Dxf/RmVc+94w==";
+        };
     in {
         "GvdB5pup" = _GvdB5pup;
         "TGw6CFX8" = _TGw6CFX8;
@@ -314,6 +324,8 @@ let
         "gxELTd68" = _gxELTd68;
         "udWaT1ho" = _udWaT1ho;
         "jqCtI85X" = _jqCtI85X;
+        "TKny1zsH" = _TKny1zsH;
+        "aPJEuTZ3" = _aPJEuTZ3;
         "forge-1.18.2" = _E856hFEp;
         "forge-1.19.2" = _pnbHX6J0;
         "forge-1.19.4" = _BTmggx6T;
@@ -331,7 +343,7 @@ let
         "fabric-1.20.2" = _yx9nWyiA;
         "fabric-1.20.4" = _RzzcQyny;
         "fabric-1.20.6" = _zxPW0SWJ;
-        "fabric-1.21.1" = _aTDitfS8;
+        "fabric-1.21.1" = _TKny1zsH;
         "fabric-1.21.3" = _LdsO7IWx;
         "fabric-1.21.4" = _kRvwIKaE;
         "fabric-1.21.5" = _w1aOLn2R;
@@ -366,7 +378,7 @@ let
         "quilt-1.21.11" = _XSBIAxR1;
         "neoforge-1.20.4" = _spzbttWb;
         "neoforge-1.20.6" = _b507oxMC;
-        "neoforge-1.21.1" = _U1FAt45z;
+        "neoforge-1.21.1" = _aPJEuTZ3;
         "neoforge-1.21.3" = _Sep9HMls;
         "neoforge-1.21.4" = _bUuWxPjQ;
         "neoforge-1.21.5" = _e6HfQbtd;
@@ -400,7 +412,9 @@ let
         "pkg-26.2.0-neoforge" = _gxELTd68;
         "pkg-26.3.0-fabric" = _udWaT1ho;
         "pkg-26.3.0-neoforge" = _jqCtI85X;
-        "default" = _jqCtI85X;
+        "pkg-21.1.0-fabric" = _TKny1zsH;
+        "pkg-21.1.0-neoforge" = _aPJEuTZ3;
+        "default" = _aPJEuTZ3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "squid-no-glitch";

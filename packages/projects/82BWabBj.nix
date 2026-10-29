@@ -116,6 +116,11 @@ let
             "file" = "enchantmentlevelcapindicator-26.3.0-1.3.jar";
             "hash" = "sha512-Mnr2QEafJj6lM/mBFMnmaTlbwKgtnc0n75qa1CSICagHFrsLO238KyirWaX+eUQZwzEzEKMZrplpfAAnAmjlMA==";
         };
+        _BCapNfcb = {
+            "id" = "BCapNfcb";
+            "file" = "enchantmentlevelcapindicator-26.1.2-1.3.jar";
+            "hash" = "sha512-hmMqUq2A3RGauQpQ0EDVfGUV5wkU8AztwrvPp8B7sDNwsxStR5xlJ22BBG7tOdLqCBaEj2/jdWtUgwWu3G/Rwg==";
+        };
     in {
         "aHwra3e6" = _aHwra3e6;
         "TE2C00d3" = _TE2C00d3;
@@ -140,6 +145,7 @@ let
         "ElcDXN5d" = _ElcDXN5d;
         "8a0jJryO" = _8a0jJryO;
         "cCot9d8J" = _cCot9d8J;
+        "BCapNfcb" = _BCapNfcb;
         "fabric-1.20.1" = _YlLMmaZv;
         "fabric-1.21" = _ElcDXN5d;
         "fabric-1.21.1" = _ElcDXN5d;
@@ -153,7 +159,7 @@ let
         "fabric-1.21.11" = _foE8ZE8W;
         "fabric-26.1" = _pIzlPB4d;
         "fabric-26.1.1" = _mIO601WJ;
-        "fabric-26.1.2" = _PpI4XQF1;
+        "fabric-26.1.2" = _BCapNfcb;
         "fabric-26.2" = _8a0jJryO;
         "fabric-26.3" = _cCot9d8J;
         "forge-1.20.1" = _YlLMmaZv;
@@ -169,7 +175,7 @@ let
         "forge-1.21.11" = _foE8ZE8W;
         "forge-26.1" = _pIzlPB4d;
         "forge-26.1.1" = _mIO601WJ;
-        "forge-26.1.2" = _PpI4XQF1;
+        "forge-26.1.2" = _BCapNfcb;
         "forge-26.2" = _8a0jJryO;
         "forge-26.3" = _cCot9d8J;
         "neoforge-1.20.1" = _YlLMmaZv;
@@ -185,7 +191,7 @@ let
         "neoforge-1.21.11" = _foE8ZE8W;
         "neoforge-26.1" = _pIzlPB4d;
         "neoforge-26.1.1" = _mIO601WJ;
-        "neoforge-26.1.2" = _PpI4XQF1;
+        "neoforge-26.1.2" = _BCapNfcb;
         "neoforge-26.2" = _8a0jJryO;
         "neoforge-26.3" = _cCot9d8J;
         "quilt-1.20.1" = _YlLMmaZv;
@@ -201,7 +207,7 @@ let
         "quilt-1.21.11" = _foE8ZE8W;
         "quilt-26.1" = _pIzlPB4d;
         "quilt-26.1.1" = _mIO601WJ;
-        "quilt-26.1.2" = _PpI4XQF1;
+        "quilt-26.1.2" = _BCapNfcb;
         "quilt-26.2" = _8a0jJryO;
         "quilt-26.3" = _cCot9d8J;
         "pkg-1.20.1-1.0-fabric+forge+neo" = _aHwra3e6;
@@ -227,7 +233,8 @@ let
         "pkg-1.21.1-1.3-fabric+forge+neo" = _ElcDXN5d;
         "pkg-26.2.0-1.3-fabric+forge+neo" = _8a0jJryO;
         "pkg-26.3.0-1.3-fabric+forge+neo" = _cCot9d8J;
-        "default" = _cCot9d8J;
+        "pkg-26.1.2-1.3-fabric+forge+neo" = _BCapNfcb;
+        "default" = _BCapNfcb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchantment-level-cap-indicator";

@@ -306,6 +306,11 @@ let
             "file" = "petnames-26.3.0-3.6.jar";
             "hash" = "sha512-T4UsxlDUgqXDdgNkt7z7sIH7IDzpmS4qRpTOkIjO55goLi43cCO0JMS19cpFvHXm+lpz1PyXOPyQksRh/yAOdA==";
         };
+        _xb6jHpb4 = {
+            "id" = "xb6jHpb4";
+            "file" = "petnames-26.1.2-3.6.jar";
+            "hash" = "sha512-5xf3rqbRQVgT1dBbRtY/kKEwk/MqoARV35NT1wQuKdI9Dk2DrNqiKKfuGaewHTToGuMxHTzRMLAwTx4HhZg01A==";
+        };
     in {
         "lUIzV5Pn" = _lUIzV5Pn;
         "Q7X4VEjj" = _Q7X4VEjj;
@@ -368,6 +373,7 @@ let
         "uMn6dHPt" = _uMn6dHPt;
         "FFCTDebu" = _FFCTDebu;
         "wN0PCGmP" = _wN0PCGmP;
+        "xb6jHpb4" = _xb6jHpb4;
         "fabric-1.16.5" = _S5vuG9KN;
         "fabric-1.18.2" = _J2PXJt8y;
         "fabric-1.19.2" = _URJYJwAc;
@@ -394,7 +400,7 @@ let
         "fabric-1.21.11" = _tEnPNOUu;
         "fabric-26.1" = _9SfGWriU;
         "fabric-26.1.1" = _MCE01tY6;
-        "fabric-26.1.2" = _3eLTpPv1;
+        "fabric-26.1.2" = _xb6jHpb4;
         "fabric-26.2" = _FFCTDebu;
         "fabric-26.3" = _wN0PCGmP;
         "forge-1.16.5" = _FdLyUsCr;
@@ -421,7 +427,7 @@ let
         "forge-1.21.11" = _tEnPNOUu;
         "forge-26.1" = _9SfGWriU;
         "forge-26.1.1" = _MCE01tY6;
-        "forge-26.1.2" = _3eLTpPv1;
+        "forge-26.1.2" = _xb6jHpb4;
         "forge-26.2" = _FFCTDebu;
         "forge-26.3" = _wN0PCGmP;
         "quilt-1.18.2" = _J2PXJt8y;
@@ -449,7 +455,7 @@ let
         "quilt-1.21.11" = _tEnPNOUu;
         "quilt-26.1" = _9SfGWriU;
         "quilt-26.1.1" = _MCE01tY6;
-        "quilt-26.1.2" = _3eLTpPv1;
+        "quilt-26.1.2" = _xb6jHpb4;
         "quilt-26.2" = _FFCTDebu;
         "quilt-26.3" = _wN0PCGmP;
         "neoforge-1.20.2" = _zbWEDfjF;
@@ -472,7 +478,7 @@ let
         "neoforge-1.21.11" = _tEnPNOUu;
         "neoforge-26.1" = _9SfGWriU;
         "neoforge-26.1.1" = _MCE01tY6;
-        "neoforge-26.1.2" = _3eLTpPv1;
+        "neoforge-26.1.2" = _xb6jHpb4;
         "neoforge-26.2" = _FFCTDebu;
         "neoforge-26.3" = _wN0PCGmP;
         "pkg-1.16.5-2.0-fabric" = _lUIzV5Pn;
@@ -536,7 +542,8 @@ let
         "pkg-1.21.1-3.6-fabric+forge+neo" = _uMn6dHPt;
         "pkg-26.2.0-3.6-fabric+forge+neo" = _FFCTDebu;
         "pkg-26.3.0-3.6-fabric+forge+neo" = _wN0PCGmP;
-        "default" = _wN0PCGmP;
+        "pkg-26.1.2-3.6-fabric+forge+neo" = _xb6jHpb4;
+        "default" = _xb6jHpb4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pet-names";

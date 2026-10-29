@@ -311,6 +311,11 @@ let
             "file" = "surfacemushrooms-26.3.0-3.8.jar";
             "hash" = "sha512-ofXZKD8LkIRNVsh2l+oCgI/fpOmPoRKB6UxwRxSTCv67D2IKQ3PqbwcI/TQvMPdxmWNSXkwQ6+OW2cdruKyXag==";
         };
+        _eivWMLfH = {
+            "id" = "eivWMLfH";
+            "file" = "surfacemushrooms-26.1.2-3.8.jar";
+            "hash" = "sha512-EfuXShlA4ANblyAe2kPfyLsT0cXe0fm1KgX/enT9P9eaIlyzWyOYMGYz44sW6gt8gdxuVzAn8CifGqYbJMhbAQ==";
+        };
     in {
         "I8mpMZZ5" = _I8mpMZZ5;
         "3ZAvortp" = _3ZAvortp;
@@ -374,6 +379,7 @@ let
         "tkeqtCqK" = _tkeqtCqK;
         "5iN5NJea" = _5iN5NJea;
         "omw7ecIS" = _omw7ecIS;
+        "eivWMLfH" = _eivWMLfH;
         "fabric-1.16.5" = _jcWBOcRy;
         "fabric-1.18.2" = _naIWWATL;
         "fabric-1.19.2" = _xXoFyZ3c;
@@ -400,7 +406,7 @@ let
         "fabric-1.21.11" = _QLenhyYT;
         "fabric-26.1" = _uxCEZGga;
         "fabric-26.1.1" = _nIA8qHXZ;
-        "fabric-26.1.2" = _5Qzt2ZN1;
+        "fabric-26.1.2" = _eivWMLfH;
         "fabric-26.2" = _5iN5NJea;
         "fabric-26.3" = _omw7ecIS;
         "forge-1.16.5" = _8l6S3I3G;
@@ -427,7 +433,7 @@ let
         "forge-1.21.11" = _QLenhyYT;
         "forge-26.1" = _uxCEZGga;
         "forge-26.1.1" = _nIA8qHXZ;
-        "forge-26.1.2" = _5Qzt2ZN1;
+        "forge-26.1.2" = _eivWMLfH;
         "forge-26.2" = _5iN5NJea;
         "forge-26.3" = _omw7ecIS;
         "quilt-1.18.2" = _naIWWATL;
@@ -455,7 +461,7 @@ let
         "quilt-1.21.11" = _QLenhyYT;
         "quilt-26.1" = _uxCEZGga;
         "quilt-26.1.1" = _nIA8qHXZ;
-        "quilt-26.1.2" = _5Qzt2ZN1;
+        "quilt-26.1.2" = _eivWMLfH;
         "quilt-26.2" = _5iN5NJea;
         "quilt-26.3" = _omw7ecIS;
         "neoforge-1.20.2" = _Orz6gZ5j;
@@ -478,7 +484,7 @@ let
         "neoforge-1.21.11" = _QLenhyYT;
         "neoforge-26.1" = _uxCEZGga;
         "neoforge-26.1.1" = _nIA8qHXZ;
-        "neoforge-26.1.2" = _5Qzt2ZN1;
+        "neoforge-26.1.2" = _eivWMLfH;
         "neoforge-26.2" = _5iN5NJea;
         "neoforge-26.3" = _omw7ecIS;
         "pkg-1.16.5-1.7-fabric" = _I8mpMZZ5;
@@ -543,7 +549,8 @@ let
         "pkg-1.21.1-3.8-fabric+forge+neo" = _tkeqtCqK;
         "pkg-26.2.0-3.8-fabric+forge+neo" = _5iN5NJea;
         "pkg-26.3.0-3.8-fabric+forge+neo" = _omw7ecIS;
-        "default" = _omw7ecIS;
+        "pkg-26.1.2-3.8-fabric+forge+neo" = _eivWMLfH;
+        "default" = _eivWMLfH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "surface-mushrooms";

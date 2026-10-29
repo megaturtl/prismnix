@@ -96,6 +96,16 @@ let
             "file" = "ywzj_vehicle-1.21.1-0.6.1.jar";
             "hash" = "sha512-Al5X0ddxcbXdPEr7v5mokloisNm5vLwbRmyGLvfhSiA7Fi9ny+XlIiLQm+rXnq0Rn8CmkniiWxa2seDzKe5oFg==";
         };
+        _TAdiIxtC = {
+            "id" = "TAdiIxtC";
+            "file" = "ywzj_vehicle-1.20.1-0.6.2.jar";
+            "hash" = "sha512-SGLNKt68NjrR7aIMtuubBRYFwh24v8Ps55B4jJKf+CBi6u1t96Ax0OGNlRiMdr9SV6jeKRjPI3RlOI8CBuSsyw==";
+        };
+        _FveobEgN = {
+            "id" = "FveobEgN";
+            "file" = "ywzj_vehicle-1.21.1-0.6.2.jar";
+            "hash" = "sha512-eYqjJuVCWcQcoz8QHn/pF9LNP7kARcI8SNsRdRR1DOSyMMbRHZGF2+WfQsJOCG295QYq26V2xgFi1QtvrEdSAQ==";
+        };
     in {
         "UqkSQz4X" = _UqkSQz4X;
         "gxdSZcZF" = _gxdSZcZF;
@@ -116,8 +126,10 @@ let
         "5wthetE0" = _5wthetE0;
         "WBpmI6kL" = _WBpmI6kL;
         "uAyE57Lm" = _uAyE57Lm;
-        "forge-1.20.1" = _WBpmI6kL;
-        "neoforge-1.21.1" = _uAyE57Lm;
+        "TAdiIxtC" = _TAdiIxtC;
+        "FveobEgN" = _FveobEgN;
+        "forge-1.20.1" = _TAdiIxtC;
+        "neoforge-1.21.1" = _FveobEgN;
         "pkg-0.5.3" = _UqkSQz4X;
         "pkg-0.5.4" = _cPq0b2xJ;
         "pkg-0.5.4.2" = _DuuzXggw;
@@ -128,7 +140,8 @@ let
         "pkg-0.5.10" = _PESqiw2y;
         "pkg-0.6.0" = _5wthetE0;
         "pkg-0.6.1" = _uAyE57Lm;
-        "default" = _uAyE57Lm;
+        "pkg-0.6.2" = _FveobEgN;
+        "default" = _FveobEgN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "limitless-vehicle";

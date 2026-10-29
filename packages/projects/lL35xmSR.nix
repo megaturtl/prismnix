@@ -491,6 +491,11 @@ let
             "file" = "youritemsaresafe-26.3.0-5.1.jar";
             "hash" = "sha512-uAKzNu7U5LrDTwqE6w4vnrYtbvPDjeWid404Dy33efvF3rC/ZcFu1l3fhAzkCDtWwIeeip0YOnMnjG5BXLcBYw==";
         };
+        _jDuHNafQ = {
+            "id" = "jDuHNafQ";
+            "file" = "youritemsaresafe-26.1.2-5.1.jar";
+            "hash" = "sha512-WQcY6fnoV5kAsk6w3EGiAIswIu0ZsD3rVBs668aB+pE5ob4djrHZIUCRnRPSVqFcFn2eigP1ZmZ4iUeBtu2nZg==";
+        };
     in {
         "5RLxxIxB" = _5RLxxIxB;
         "uXcURWGu" = _uXcURWGu;
@@ -590,6 +595,7 @@ let
         "t9v6pw0s" = _t9v6pw0s;
         "xYC5zDnf" = _xYC5zDnf;
         "7zZaTRpy" = _7zZaTRpy;
+        "jDuHNafQ" = _jDuHNafQ;
         "fabric-1.16.5" = _FUyWoJDn;
         "fabric-1.18.2" = _ckddLRAK;
         "fabric-1.19.2" = _jJaKPOwR;
@@ -616,7 +622,7 @@ let
         "fabric-1.21.11" = _s4CLkBZn;
         "fabric-26.1" = _ApBnYSGF;
         "fabric-26.1.1" = _NXketgax;
-        "fabric-26.1.2" = _2yWMd33E;
+        "fabric-26.1.2" = _jDuHNafQ;
         "fabric-26.2" = _xYC5zDnf;
         "fabric-26.3" = _7zZaTRpy;
         "forge-1.16.5" = _UMpFVB6T;
@@ -643,7 +649,7 @@ let
         "forge-1.21.11" = _s4CLkBZn;
         "forge-26.1" = _ApBnYSGF;
         "forge-26.1.1" = _NXketgax;
-        "forge-26.1.2" = _2yWMd33E;
+        "forge-26.1.2" = _jDuHNafQ;
         "forge-26.2" = _xYC5zDnf;
         "forge-26.3" = _7zZaTRpy;
         "quilt-1.18.2" = _ckddLRAK;
@@ -671,7 +677,7 @@ let
         "quilt-1.21.11" = _s4CLkBZn;
         "quilt-26.1" = _ApBnYSGF;
         "quilt-26.1.1" = _NXketgax;
-        "quilt-26.1.2" = _2yWMd33E;
+        "quilt-26.1.2" = _jDuHNafQ;
         "quilt-26.2" = _xYC5zDnf;
         "quilt-26.3" = _7zZaTRpy;
         "neoforge-1.20.2" = _TYQmGJon;
@@ -694,7 +700,7 @@ let
         "neoforge-1.21.11" = _s4CLkBZn;
         "neoforge-26.1" = _ApBnYSGF;
         "neoforge-26.1.1" = _NXketgax;
-        "neoforge-26.1.2" = _2yWMd33E;
+        "neoforge-26.1.2" = _jDuHNafQ;
         "neoforge-26.2" = _xYC5zDnf;
         "neoforge-26.3" = _7zZaTRpy;
         "pkg-1.16.5-1.4-fabric" = _5RLxxIxB;
@@ -795,7 +801,8 @@ let
         "pkg-1.21.1-5.1-fabric+forge+neo" = _t9v6pw0s;
         "pkg-26.2.0-5.1-fabric+forge+neo" = _xYC5zDnf;
         "pkg-26.3.0-5.1-fabric+forge+neo" = _7zZaTRpy;
-        "default" = _7zZaTRpy;
+        "pkg-26.1.2-5.1-fabric+forge+neo" = _jDuHNafQ;
+        "default" = _jDuHNafQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "your-items-are-safe";

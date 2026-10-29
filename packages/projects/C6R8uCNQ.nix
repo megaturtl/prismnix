@@ -186,6 +186,16 @@ let
             "file" = "laboratoryblocks-0.8.4-fabric-mc1.18.2.jar";
             "hash" = "sha512-tQOmSHPyvMJrewZDmKfgT7iGMRD7e5IlagLlAD9Phuw2McUsg/pEEPxQ2ci0YoEHe87vBqI7iUFuTM6KMQo3kw==";
         };
+        _GKFJTbyH = {
+            "id" = "GKFJTbyH";
+            "file" = "laboratoryblocks-0.8.5-fabric-mc26.3.jar";
+            "hash" = "sha512-A6Am9mLqiuKyfKuRihba6jt0rWXN8yWRxczo9+GXOzIAwC35C8YZCU2odZPZWtsFPXTjJ5FAgGBJlHvu8S4vBw==";
+        };
+        _bZc4SLUC = {
+            "id" = "bZc4SLUC";
+            "file" = "laboratoryblocks-0.8.5-neoforge-mc26.3.jar";
+            "hash" = "sha512-40XkIhO0FmFcwD9bloYyzK64qxxUmWgmaG7I9+wG6vTnO2YtsOqDO/5ozz/zRISeSx9nQ9GMC5HXdDOQokouxQ==";
+        };
     in {
         "mk5YCqvm" = _mk5YCqvm;
         "sawKeFFN" = _sawKeFFN;
@@ -224,6 +234,8 @@ let
         "4qu9YXFu" = _4qu9YXFu;
         "a7WVRucj" = _a7WVRucj;
         "KUmAyHFt" = _KUmAyHFt;
+        "GKFJTbyH" = _GKFJTbyH;
+        "bZc4SLUC" = _bZc4SLUC;
         "forge-1.18.2" = _rnRIxdGF;
         "forge-1.19.2" = _IMh0azVz;
         "forge-1.20.1" = _CT1JXL53;
@@ -236,6 +248,7 @@ let
         "neoforge-26.2" = _GzGFw8SD;
         "neoforge-26.1" = _Ad6cCUYj;
         "neoforge-26.1.1" = _ZzM3kBSv;
+        "neoforge-26.3" = _bZc4SLUC;
         "fabric-1.21.1" = _59rRtl5b;
         "fabric-1.21.11" = _p4I1qyXE;
         "fabric-26.1" = _LMfE3FwE;
@@ -245,6 +258,7 @@ let
         "fabric-1.20.1" = _4qu9YXFu;
         "fabric-1.19.2" = _a7WVRucj;
         "fabric-1.18.2" = _KUmAyHFt;
+        "fabric-26.3" = _GKFJTbyH;
         "pkg-1.18.2-0.3.2r-ctm-required" = _mk5YCqvm;
         "pkg-1.19.2-0.3.2r-ctm-required" = _sawKeFFN;
         "pkg-1.20.1-0.3.2.2r-fusion" = _sOrAyeov;
@@ -282,7 +296,9 @@ let
         "pkg-0.8.4-fabric-mc1.20.1" = _4qu9YXFu;
         "pkg-0.8.4-fabric-mc1.19.2" = _a7WVRucj;
         "pkg-0.8.4-fabric-mc1.18.2" = _KUmAyHFt;
-        "default" = _KUmAyHFt;
+        "pkg-0.8.5-fabric-mc26.3" = _GKFJTbyH;
+        "pkg-0.8.5-neoforge-mc26.3" = _bZc4SLUC;
+        "default" = _bZc4SLUC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "artemis-laboratory-blocks";

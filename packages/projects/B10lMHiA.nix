@@ -311,6 +311,11 @@ let
             "file" = "mooshroomtweaks-26.3.0-3.7.jar";
             "hash" = "sha512-QZncHJGpW5oEgPq3QVC0VWN4m4NXYtNPGrqal7Ixum6F/yCkfBqpW+NaxPUY1kf98vLZzMppOwGP7amXxVz7Ag==";
         };
+        _19cygywl = {
+            "id" = "19cygywl";
+            "file" = "mooshroomtweaks-26.1.2-3.7.jar";
+            "hash" = "sha512-7o1RVD6QlfK0vTqVy24K4wAH4VqxQmdBR01VqlgywKK690N0iujsYiYA4tw7A7UkY1+UXcOcbbC0zrd5V5rNFg==";
+        };
     in {
         "SShz2eVo" = _SShz2eVo;
         "OdPIM8JJ" = _OdPIM8JJ;
@@ -374,6 +379,7 @@ let
         "bwD7gpA9" = _bwD7gpA9;
         "k6nUoG2N" = _k6nUoG2N;
         "jotH2thj" = _jotH2thj;
+        "19cygywl" = _19cygywl;
         "fabric-1.16.5" = _v6idF0rQ;
         "fabric-1.18.2" = _LbEMCG83;
         "fabric-1.19.2" = _k4pokyHv;
@@ -400,7 +406,7 @@ let
         "fabric-1.21.11" = _PpkN3ySA;
         "fabric-26.1" = _58UUNg4b;
         "fabric-26.1.1" = _JNLIPZL1;
-        "fabric-26.1.2" = _aWZhlIZF;
+        "fabric-26.1.2" = _19cygywl;
         "fabric-26.2" = _k6nUoG2N;
         "fabric-26.3" = _jotH2thj;
         "forge-1.16.5" = _U1LEaVig;
@@ -427,7 +433,7 @@ let
         "forge-1.21.11" = _PpkN3ySA;
         "forge-26.1" = _58UUNg4b;
         "forge-26.1.1" = _JNLIPZL1;
-        "forge-26.1.2" = _aWZhlIZF;
+        "forge-26.1.2" = _19cygywl;
         "forge-26.2" = _k6nUoG2N;
         "forge-26.3" = _jotH2thj;
         "quilt-1.18.2" = _LbEMCG83;
@@ -455,7 +461,7 @@ let
         "quilt-1.21.11" = _PpkN3ySA;
         "quilt-26.1" = _58UUNg4b;
         "quilt-26.1.1" = _JNLIPZL1;
-        "quilt-26.1.2" = _aWZhlIZF;
+        "quilt-26.1.2" = _19cygywl;
         "quilt-26.2" = _k6nUoG2N;
         "quilt-26.3" = _jotH2thj;
         "neoforge-1.20.2" = _BseMK7yZ;
@@ -478,7 +484,7 @@ let
         "neoforge-1.21.11" = _PpkN3ySA;
         "neoforge-26.1" = _58UUNg4b;
         "neoforge-26.1.1" = _JNLIPZL1;
-        "neoforge-26.1.2" = _aWZhlIZF;
+        "neoforge-26.1.2" = _19cygywl;
         "neoforge-26.2" = _k6nUoG2N;
         "neoforge-26.3" = _jotH2thj;
         "pkg-1.16.5-2.0-fabric" = _SShz2eVo;
@@ -543,7 +549,8 @@ let
         "pkg-1.21.1-3.7-fabric+forge+neo" = _bwD7gpA9;
         "pkg-26.2.0-3.7-fabric+forge+neo" = _k6nUoG2N;
         "pkg-26.3.0-3.7-fabric+forge+neo" = _jotH2thj;
-        "default" = _jotH2thj;
+        "pkg-26.1.2-3.7-fabric+forge+neo" = _19cygywl;
+        "default" = _19cygywl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mooshroom-tweaks";

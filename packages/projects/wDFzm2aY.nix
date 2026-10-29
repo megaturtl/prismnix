@@ -211,6 +211,16 @@ let
             "file" = "tiered_more-fabric-1.2.9.jar";
             "hash" = "sha512-y7E7cHvQHcyc+DbauLGLPWH+NYpBfKk6/JIZiCgcOB3u6PV2TYWEFy/7qXsVVFLOfPlLJEVZkP9l6taOppTloQ==";
         };
+        _PK2buV8p = {
+            "id" = "PK2buV8p";
+            "file" = "tiered_more-neoforge-1.2.10.jar";
+            "hash" = "sha512-T50jn9TRGkyCuVo4mf/ZJNchV6hZxaYJoHjdRQuh/cuYUzLubhfDEOUt22Rp81ES2i23mE/i4Ae55lAszT0REA==";
+        };
+        _FQnP4JQk = {
+            "id" = "FQnP4JQk";
+            "file" = "tiered_more-fabric-1.2.10.jar";
+            "hash" = "sha512-9a1OxYaDYSEsLnBgBL143mPffUA9NWEdj88AkbbTLIenCEY51kUCfcsjxCGMfiXd2zeY7BNnyhsQxnplhvU4OA==";
+        };
     in {
         "cqBVGuKD" = _cqBVGuKD;
         "TYWQkX27" = _TYWQkX27;
@@ -254,8 +264,10 @@ let
         "C1KgOy4Y" = _C1KgOy4Y;
         "2puOnOx4" = _2puOnOx4;
         "CoCz6afQ" = _CoCz6afQ;
-        "fabric-1.21.1" = _CoCz6afQ;
-        "neoforge-1.21.1" = _2puOnOx4;
+        "PK2buV8p" = _PK2buV8p;
+        "FQnP4JQk" = _FQnP4JQk;
+        "fabric-1.21.1" = _FQnP4JQk;
+        "neoforge-1.21.1" = _PK2buV8p;
         "pkg-1.0.0" = _cqBVGuKD;
         "pkg-1.0.1" = _TYWQkX27;
         "pkg-1.0.5" = _Hy8VPLpJ;
@@ -287,7 +299,8 @@ let
         "pkg-1.2.7" = _AaSfW4b4;
         "pkg-1.2.8" = _C1KgOy4Y;
         "pkg-1.2.9" = _CoCz6afQ;
-        "default" = _CoCz6afQ;
+        "pkg-1.2.10" = _FQnP4JQk;
+        "default" = _FQnP4JQk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tiered-more";

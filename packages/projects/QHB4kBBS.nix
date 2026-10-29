@@ -266,6 +266,11 @@ let
             "file" = "touhou_little_maid_spell-1.9.3.1-forge+mc1.20.1-all.jar";
             "hash" = "sha512-iM4GKPup5bOO/bf/11HpmdogPhfyTc5+dlTz8yFf7OpR1FXFv3e1oh0lahPBDwzlJqcdEroUqHkcJ+N0etxI5g==";
         };
+        _EgCZ9efj = {
+            "id" = "EgCZ9efj";
+            "file" = "touhou_little_maid_spell-1.9.3.2-forge+mc1.20.1-all.jar";
+            "hash" = "sha512-xHxLF/5YFTpdwV+2VKbl7QzrYi8gi1bzcZ7Sr0Y4Lc16a3JBqJgtE81rUNEspaMISseVlPTwfrdUVQOaFyr8PA==";
+        };
     in {
         "fp1YVVYp" = _fp1YVVYp;
         "sQgL8RlR" = _sQgL8RlR;
@@ -320,7 +325,8 @@ let
         "tYyJS9hO" = _tYyJS9hO;
         "6visWZ3V" = _6visWZ3V;
         "kHL8VvJf" = _kHL8VvJf;
-        "forge-1.20.1" = _kHL8VvJf;
+        "EgCZ9efj" = _EgCZ9efj;
+        "forge-1.20.1" = _EgCZ9efj;
         "neoforge-1.21.1" = _6visWZ3V;
         "pkg-1.1.2" = _fp1YVVYp;
         "pkg-1.2.6" = _sQgL8RlR;
@@ -375,7 +381,8 @@ let
         "pkg-1.9.3" = _tYyJS9hO;
         "pkg-1.9.1-neoforge" = _6visWZ3V;
         "pkg-1.9.3.1" = _kHL8VvJf;
-        "default" = _kHL8VvJf;
+        "pkg-1.9.3.2" = _EgCZ9efj;
+        "default" = _EgCZ9efj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "touhou-little-maid-spell";

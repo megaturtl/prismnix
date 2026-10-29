@@ -76,6 +76,26 @@ let
             "file" = "dreamshift-0.2.1-forge.jar";
             "hash" = "sha512-yuKTHVJLkbEODOuPOEW7N+ZmvYi1pXNDsP8h2CUvlm7ZecFcd7z98FC7NIGDPxZJMR2u27gZ2+7F7iG2cbSGCg==";
         };
+        _E4aUGCc6 = {
+            "id" = "E4aUGCc6";
+            "file" = "dreamshift-0.2.2-fabric.jar";
+            "hash" = "sha512-q5V/wZN/dXSDfZ39kkA/8VsKZ7THpj3iu5Pkg+PqA3TOWK1xYCjQNhKLDFVPzODAJFgBft01q82uKnq0RAt4sA==";
+        };
+        _ftrwAWDj = {
+            "id" = "ftrwAWDj";
+            "file" = "dreamshift-0.2.2-forge.jar";
+            "hash" = "sha512-1oeilSBZj5mrKnv6G1cueLy5y06OXNB692ASlW2ugwlziMg/9/cYkLBS0MjgoV9x2x758q9Sxn8gvekAN0qDXg==";
+        };
+        _DtmppqM7 = {
+            "id" = "DtmppqM7";
+            "file" = "dreamshift-0.2.2-hotfix-fabric.jar";
+            "hash" = "sha512-5JIhoGZ7/QjqCgF1yw2dQ2OJ300IaGP9KufusgyoSUZSCAoV9n3DZbSgnP6F1pAoFyLBLx4TPU9VawXJWAzHQw==";
+        };
+        _XAVP7ehR = {
+            "id" = "XAVP7ehR";
+            "file" = "dreamshift-0.2.2-hotfix-forge.jar";
+            "hash" = "sha512-hWcapfvjiRwhHkx6lIyhE3SpJu90UKp9mBAQ/8PfIIUbN1YGTYZNBt9wp2AcANJEsRL4KwE3sjR2wMAkoIy/Fw==";
+        };
     in {
         "nh9Q3RmQ" = _nh9Q3RmQ;
         "GbIQYpWh" = _GbIQYpWh;
@@ -92,8 +112,12 @@ let
         "CqcwRS7n" = _CqcwRS7n;
         "sKrHGST1" = _sKrHGST1;
         "tfr9qfGY" = _tfr9qfGY;
-        "fabric-1.20.1" = _sKrHGST1;
-        "forge-1.20.1" = _tfr9qfGY;
+        "E4aUGCc6" = _E4aUGCc6;
+        "ftrwAWDj" = _ftrwAWDj;
+        "DtmppqM7" = _DtmppqM7;
+        "XAVP7ehR" = _XAVP7ehR;
+        "fabric-1.20.1" = _DtmppqM7;
+        "forge-1.20.1" = _XAVP7ehR;
         "pkg-0.1.0-fabric" = _nh9Q3RmQ;
         "pkg-0.1.1" = _GbIQYpWh;
         "pkg-0.1.2" = _cgS3kgtH;
@@ -109,7 +133,11 @@ let
         "pkg-0.1.4.3.1-forge" = _CqcwRS7n;
         "pkg-0.2.1-fabric" = _sKrHGST1;
         "pkg-0.2.1-forge" = _tfr9qfGY;
-        "default" = _tfr9qfGY;
+        "pkg-0.2.2-fabric" = _E4aUGCc6;
+        "pkg-0.2.2-forge" = _ftrwAWDj;
+        "pkg-0.2.2-hotfix-fabric" = _DtmppqM7;
+        "pkg-0.2.2-hotfix-forge" = _XAVP7ehR;
+        "default" = _XAVP7ehR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dreamshift";

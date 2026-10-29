@@ -146,6 +146,11 @@ let
             "file" = "ars_unification-1.2.22.jar";
             "hash" = "sha512-ib0NkjwQpvSwOrOQrSCzRPzq7Y4iBM8qeahcBIkhaKngiGCYOa52bIfFMvv2Jtp5aEEAH9qQ2JhtJprJXJETLw==";
         };
+        _E5Vq5S86 = {
+            "id" = "E5Vq5S86";
+            "file" = "ars_unification-1.2.23.jar";
+            "hash" = "sha512-4doTGF0Dk2rcn8lhYjSAgce3iL33cXV1iya4BRmNEpq53nYTJLIa/WvfdvGvKtUblU3OoFOJwPqR6A2Mh6g0mA==";
+        };
     in {
         "HFyT3MNF" = _HFyT3MNF;
         "6Cpvjkdy" = _6Cpvjkdy;
@@ -176,8 +181,9 @@ let
         "9kxGLn7A" = _9kxGLn7A;
         "cRXH7NLO" = _cRXH7NLO;
         "TIJYMhUv" = _TIJYMhUv;
-        "neoforge-1.21" = _TIJYMhUv;
-        "neoforge-1.21.1" = _TIJYMhUv;
+        "E5Vq5S86" = _E5Vq5S86;
+        "neoforge-1.21" = _E5Vq5S86;
+        "neoforge-1.21.1" = _E5Vq5S86;
         "pkg-1.0.0" = _HFyT3MNF;
         "pkg-1.0.1" = _6Cpvjkdy;
         "pkg-1.0.2" = _h96IZdF7;
@@ -207,7 +213,8 @@ let
         "pkg-1.2.20" = _9kxGLn7A;
         "pkg-1.2.21" = _cRXH7NLO;
         "pkg-1.2.22" = _TIJYMhUv;
-        "default" = _TIJYMhUv;
+        "pkg-1.2.23" = _E5Vq5S86;
+        "default" = _E5Vq5S86;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ars-unification";

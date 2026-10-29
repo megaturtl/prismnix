@@ -336,6 +336,11 @@ let
             "file" = "villagerdeathmessages-26.3.0-4.0.jar";
             "hash" = "sha512-zdr9otm8N/i8ksNiq52XHU2J/lyy7b5rYp58DhuPYVqokBrwL822NbW5iz5jAw+XFzij242CqPKRkXsRKnvUiA==";
         };
+        _IeNavLSU = {
+            "id" = "IeNavLSU";
+            "file" = "villagerdeathmessages-26.1.2-4.0.jar";
+            "hash" = "sha512-8XkyHyNu2vxYv/CzFNtJukxaJOJ9bjIeVF8fmzqAeSWisbQIRGu0NH6LQerhy1dAh+T7RcxnT13UCj3CQygMrw==";
+        };
     in {
         "yCeF0qQf" = _yCeF0qQf;
         "zQJEBWjX" = _zQJEBWjX;
@@ -404,6 +409,7 @@ let
         "veU8W40Z" = _veU8W40Z;
         "3Z3WvXzz" = _3Z3WvXzz;
         "s3BoWmpB" = _s3BoWmpB;
+        "IeNavLSU" = _IeNavLSU;
         "fabric-1.16.5" = _QZsOxlvC;
         "fabric-1.18.2" = _8ujJ9374;
         "fabric-1.19.2" = _vEfN9gwI;
@@ -430,7 +436,7 @@ let
         "fabric-1.21.11" = _ui2PUTxg;
         "fabric-26.1" = _tOApEykK;
         "fabric-26.1.1" = _oQ8tPF36;
-        "fabric-26.1.2" = _4a2xI5i4;
+        "fabric-26.1.2" = _IeNavLSU;
         "fabric-26.2" = _3Z3WvXzz;
         "fabric-26.3" = _s3BoWmpB;
         "forge-1.16.5" = _tLHJNTuc;
@@ -457,7 +463,7 @@ let
         "forge-1.21.11" = _ui2PUTxg;
         "forge-26.1" = _tOApEykK;
         "forge-26.1.1" = _oQ8tPF36;
-        "forge-26.1.2" = _4a2xI5i4;
+        "forge-26.1.2" = _IeNavLSU;
         "forge-26.2" = _3Z3WvXzz;
         "forge-26.3" = _s3BoWmpB;
         "quilt-1.18.2" = _8ujJ9374;
@@ -485,7 +491,7 @@ let
         "quilt-1.21.11" = _ui2PUTxg;
         "quilt-26.1" = _tOApEykK;
         "quilt-26.1.1" = _oQ8tPF36;
-        "quilt-26.1.2" = _4a2xI5i4;
+        "quilt-26.1.2" = _IeNavLSU;
         "quilt-26.2" = _3Z3WvXzz;
         "quilt-26.3" = _s3BoWmpB;
         "neoforge-1.20.2" = _6cMc1o4u;
@@ -508,7 +514,7 @@ let
         "neoforge-1.21.11" = _ui2PUTxg;
         "neoforge-26.1" = _tOApEykK;
         "neoforge-26.1.1" = _oQ8tPF36;
-        "neoforge-26.1.2" = _4a2xI5i4;
+        "neoforge-26.1.2" = _IeNavLSU;
         "neoforge-26.2" = _3Z3WvXzz;
         "neoforge-26.3" = _s3BoWmpB;
         "pkg-1.16.5-2.5-fabric" = _yCeF0qQf;
@@ -578,7 +584,8 @@ let
         "pkg-1.21.1-4.0-fabric+forge+neo" = _veU8W40Z;
         "pkg-26.2.0-4.0-fabric+forge+neo" = _3Z3WvXzz;
         "pkg-26.3.0-4.0-fabric+forge+neo" = _s3BoWmpB;
-        "default" = _s3BoWmpB;
+        "pkg-26.1.2-4.0-fabric+forge+neo" = _IeNavLSU;
+        "default" = _IeNavLSU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "villager-death-messages";

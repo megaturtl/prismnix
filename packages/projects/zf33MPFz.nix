@@ -41,6 +41,11 @@ let
             "file" = "thinlogs-26.2-0.4r.jar";
             "hash" = "sha512-CZ+MZiznIn8K4yzj5pq7M6ezXBdDOHSwgLmo6cmvkiYLp1vDvuCuuixK1wsZAIuX7BTAXdzgY/573kbRxX0WJQ==";
         };
+        _eBgEDV78 = {
+            "id" = "eBgEDV78";
+            "file" = "thinlogs-0.4.1-neoforge-mc26.3.jar";
+            "hash" = "sha512-vj2FHTyawodtbDVzApqIJQu/1qes4hw31s9h+lE9PyuYFH0Btc2wRJcNJK9DZM2nUsomKjq0BwIwigncQZ+gKg==";
+        };
     in {
         "kekrYvcb" = _kekrYvcb;
         "U5IVEAp4" = _U5IVEAp4;
@@ -50,6 +55,7 @@ let
         "nHuNaeUJ" = _nHuNaeUJ;
         "ds6ykttI" = _ds6ykttI;
         "FYMllHL4" = _FYMllHL4;
+        "eBgEDV78" = _eBgEDV78;
         "forge-1.19.2" = _kekrYvcb;
         "forge-1.20.1" = _U5IVEAp4;
         "neoforge-1.21.1" = _JP2DifCM;
@@ -58,6 +64,7 @@ let
         "neoforge-26.1.1" = _nHuNaeUJ;
         "neoforge-26.1.2" = _ds6ykttI;
         "neoforge-26.2" = _FYMllHL4;
+        "neoforge-26.3" = _eBgEDV78;
         "pkg-1.19.2-0.1r" = _kekrYvcb;
         "pkg-1.20.1-0.2r" = _U5IVEAp4;
         "pkg-1.21.1-0.3r" = _JP2DifCM;
@@ -66,7 +73,8 @@ let
         "pkg-26.1.1-0.4r" = _nHuNaeUJ;
         "pkg-26.1.2-0.4r" = _ds6ykttI;
         "pkg-26.2-0.4r" = _FYMllHL4;
-        "default" = _FYMllHL4;
+        "pkg-0.4.1-neoforge-mc26.3" = _eBgEDV78;
+        "default" = _eBgEDV78;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "artemis-thin-logs";

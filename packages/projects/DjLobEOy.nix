@@ -231,6 +231,16 @@ let
             "file" = "t_and_t-fabric-neoforge-1.13.12.jar";
             "hash" = "sha512-Z3Q5G4c9AkFTi+Kc9/gpnr+vLZ8DKSsoED3/QfztID3GnmQDLKm5njtTZN4hafZUpmM6JVRlrcmU2xesCkwz2A==";
         };
+        _vHZIKy6e = {
+            "id" = "vHZIKy6e";
+            "file" = "t_and_t-fabric-neoforge-1.13.13.jar";
+            "hash" = "sha512-vQRp0jqA0bu7CjaWs8GmL5DMWtFuTMWP6eDgjnRTwwFf92GbHUKRBqA0J5tG/pCaCWK23J6XCSD3F/xRjZ4pLQ==";
+        };
+        _pQmAWlaS = {
+            "id" = "pQmAWlaS";
+            "file" = "t_and_t-datapack-26.3.zip";
+            "hash" = "sha512-SdUrPcEUOdh8awGwy67ZufFaJ8HbcJ1mlwiS7rVY+8ZLx/8WAZnjYak2pvFHnEOPr5RXbZcjwOLu01/KhdaJaw==";
+        };
     in {
         "HCI7zdCJ" = _HCI7zdCJ;
         "lHx8tNSw" = _lHx8tNSw;
@@ -278,6 +288,8 @@ let
         "7WrvuRMP" = _7WrvuRMP;
         "DZxwgj6V" = _DZxwgj6V;
         "yajFnGZS" = _yajFnGZS;
+        "vHZIKy6e" = _vHZIKy6e;
+        "pQmAWlaS" = _pQmAWlaS;
         "fabric-1.18.2" = _OW3d0dmB;
         "fabric-1.19" = _s7UXEluf;
         "fabric-1.19.1" = _s7UXEluf;
@@ -303,7 +315,7 @@ let
         "fabric-26.1.1" = _eN3WLQ3P;
         "fabric-26.1.2" = _eN3WLQ3P;
         "fabric-26.2" = _eN3WLQ3P;
-        "fabric-26.3" = _yajFnGZS;
+        "fabric-26.3" = _vHZIKy6e;
         "forge-1.18.2" = _HkbknuHF;
         "forge-1.19" = _vHB74V8C;
         "forge-1.19.1" = _vHB74V8C;
@@ -329,7 +341,7 @@ let
         "quilt-26.1.2" = _eN3WLQ3P;
         "quilt-26.2" = _eN3WLQ3P;
         "quilt-1.21.1" = _DZxwgj6V;
-        "quilt-26.3" = _yajFnGZS;
+        "quilt-26.3" = _vHZIKy6e;
         "neoforge-1.19.3" = _avrYXbs7;
         "neoforge-1.19.4" = _avrYXbs7;
         "neoforge-1.20" = _avrYXbs7;
@@ -351,13 +363,14 @@ let
         "neoforge-26.1.1" = _eN3WLQ3P;
         "neoforge-26.1.2" = _eN3WLQ3P;
         "neoforge-26.2" = _eN3WLQ3P;
-        "neoforge-26.3" = _yajFnGZS;
+        "neoforge-26.3" = _vHZIKy6e;
         "datapack-1.21.1" = _cyBYEaKz;
         "datapack-1.21.11" = _sCIX9pFY;
         "datapack-26.1" = _E39wx2BN;
         "datapack-26.1.1" = _E39wx2BN;
         "datapack-26.1.2" = _E39wx2BN;
         "datapack-26.2" = _E39wx2BN;
+        "datapack-26.3" = _pQmAWlaS;
         "pkg-1.6.0" = _HCI7zdCJ;
         "pkg-1.7.2" = _lHx8tNSw;
         "pkg-1.8.0" = _L7OsFjEl;
@@ -390,7 +403,9 @@ let
         "pkg-1.21.11-datapack" = _sCIX9pFY;
         "pkg-26.1-datapack" = _E39wx2BN;
         "pkg-1.13.12" = _yajFnGZS;
-        "default" = _yajFnGZS;
+        "pkg-1.13.13" = _vHZIKy6e;
+        "pkg-26.3-datapack" = _pQmAWlaS;
+        "default" = _pQmAWlaS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "towns-and-towers";

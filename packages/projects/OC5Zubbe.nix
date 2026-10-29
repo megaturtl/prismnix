@@ -336,6 +336,11 @@ let
             "file" = "keepmysoiltilled-26.3.0-2.7.jar";
             "hash" = "sha512-atceQwXpOvKuiiMRV25duliB0Jt4sBCNGToWOH9MTcg09RSvMT30PEQAWO9P5qG2lL33v8ObhwwwATPFzDrpzw==";
         };
+        _M7iiq8QJ = {
+            "id" = "M7iiq8QJ";
+            "file" = "keepmysoiltilled-26.1.2-2.7.jar";
+            "hash" = "sha512-bRxgL4d+d04H6mMxKLjW9fj+g/93Gu0dZZKFmpOQUA8ds6ThWzVfSl4AMdVqE+sMbnhmxsXgg8yZWgUcLrPcKw==";
+        };
     in {
         "WbHketBj" = _WbHketBj;
         "ZN5ze6zu" = _ZN5ze6zu;
@@ -404,6 +409,7 @@ let
         "q1Sz4SDE" = _q1Sz4SDE;
         "SyrXV3Ve" = _SyrXV3Ve;
         "PsZXPMw2" = _PsZXPMw2;
+        "M7iiq8QJ" = _M7iiq8QJ;
         "fabric-1.16.5" = _10UGQvXN;
         "fabric-1.18.2" = _xX3j5FMI;
         "fabric-1.19.2" = _CiuqKbEu;
@@ -430,7 +436,7 @@ let
         "fabric-1.21.11" = _AIaTuwNx;
         "fabric-26.1" = _GdeRal9d;
         "fabric-26.1.1" = _ifRFWNk3;
-        "fabric-26.1.2" = _IABkM4c7;
+        "fabric-26.1.2" = _M7iiq8QJ;
         "fabric-26.2" = _SyrXV3Ve;
         "fabric-26.3" = _PsZXPMw2;
         "forge-1.16.5" = _plukjRR1;
@@ -457,7 +463,7 @@ let
         "forge-1.21.11" = _AIaTuwNx;
         "forge-26.1" = _GdeRal9d;
         "forge-26.1.1" = _ifRFWNk3;
-        "forge-26.1.2" = _IABkM4c7;
+        "forge-26.1.2" = _M7iiq8QJ;
         "forge-26.2" = _SyrXV3Ve;
         "forge-26.3" = _PsZXPMw2;
         "quilt-1.18.2" = _xX3j5FMI;
@@ -485,7 +491,7 @@ let
         "quilt-1.21.11" = _AIaTuwNx;
         "quilt-26.1" = _GdeRal9d;
         "quilt-26.1.1" = _ifRFWNk3;
-        "quilt-26.1.2" = _IABkM4c7;
+        "quilt-26.1.2" = _M7iiq8QJ;
         "quilt-26.2" = _SyrXV3Ve;
         "quilt-26.3" = _PsZXPMw2;
         "neoforge-1.20.2" = _1zWjPg3f;
@@ -508,7 +514,7 @@ let
         "neoforge-1.21.11" = _AIaTuwNx;
         "neoforge-26.1" = _GdeRal9d;
         "neoforge-26.1.1" = _ifRFWNk3;
-        "neoforge-26.1.2" = _IABkM4c7;
+        "neoforge-26.1.2" = _M7iiq8QJ;
         "neoforge-26.2" = _SyrXV3Ve;
         "neoforge-26.3" = _PsZXPMw2;
         "pkg-1.16.5-1.4-fabric" = _WbHketBj;
@@ -578,7 +584,8 @@ let
         "pkg-1.21.1-2.7-fabric+forge+neo" = _q1Sz4SDE;
         "pkg-26.2.0-2.7-fabric+forge+neo" = _SyrXV3Ve;
         "pkg-26.3.0-2.7-fabric+forge+neo" = _PsZXPMw2;
-        "default" = _PsZXPMw2;
+        "pkg-26.1.2-2.7-fabric+forge+neo" = _M7iiq8QJ;
+        "default" = _M7iiq8QJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "keep-my-soil-tilled";

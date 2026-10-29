@@ -366,6 +366,11 @@ let
             "file" = "replantingcrops-26.3.0-5.7.jar";
             "hash" = "sha512-n8R/Is9aKB52iK7wVhgBToo9OJHS0uW0F559a50QG/7vrU6X4iztbMmuIv67PFzHXBlvyruM03WQwVHp80M1Tg==";
         };
+        _dP8UQjXi = {
+            "id" = "dP8UQjXi";
+            "file" = "replantingcrops-26.1.2-5.7.jar";
+            "hash" = "sha512-Za8k5HZHoWZHFaZFfkLeDFglKmJXyfa/+7NoDzdUt9N7Y/KkcdYWiVM0qPluIurlkecvP8X6k5PnOdGr5UdpJg==";
+        };
     in {
         "WBPZadAh" = _WBPZadAh;
         "cdwNV3QA" = _cdwNV3QA;
@@ -440,6 +445,7 @@ let
         "6fQWc8Vy" = _6fQWc8Vy;
         "ubfiNYOw" = _ubfiNYOw;
         "rTb70pLv" = _rTb70pLv;
+        "dP8UQjXi" = _dP8UQjXi;
         "fabric-1.16.5" = _U3vcTUbs;
         "fabric-1.18.2" = _kagOKGGw;
         "fabric-1.19.2" = _EYBDB7U3;
@@ -466,7 +472,7 @@ let
         "fabric-1.21.11" = _sxFyLqxa;
         "fabric-26.1" = _81CNtyzK;
         "fabric-26.1.1" = _x6vg2Ktx;
-        "fabric-26.1.2" = _4kKyV4kN;
+        "fabric-26.1.2" = _dP8UQjXi;
         "fabric-26.2" = _ubfiNYOw;
         "fabric-26.3" = _rTb70pLv;
         "forge-1.16.5" = _4MVXzLho;
@@ -493,7 +499,7 @@ let
         "forge-1.21.11" = _sxFyLqxa;
         "forge-26.1" = _81CNtyzK;
         "forge-26.1.1" = _x6vg2Ktx;
-        "forge-26.1.2" = _4kKyV4kN;
+        "forge-26.1.2" = _dP8UQjXi;
         "forge-26.2" = _ubfiNYOw;
         "forge-26.3" = _rTb70pLv;
         "quilt-1.18.2" = _kagOKGGw;
@@ -521,7 +527,7 @@ let
         "quilt-1.21.11" = _sxFyLqxa;
         "quilt-26.1" = _81CNtyzK;
         "quilt-26.1.1" = _x6vg2Ktx;
-        "quilt-26.1.2" = _4kKyV4kN;
+        "quilt-26.1.2" = _dP8UQjXi;
         "quilt-26.2" = _ubfiNYOw;
         "quilt-26.3" = _rTb70pLv;
         "neoforge-1.20.2" = _VCyff53J;
@@ -544,7 +550,7 @@ let
         "neoforge-1.21.11" = _sxFyLqxa;
         "neoforge-26.1" = _81CNtyzK;
         "neoforge-26.1.1" = _x6vg2Ktx;
-        "neoforge-26.1.2" = _4kKyV4kN;
+        "neoforge-26.1.2" = _dP8UQjXi;
         "neoforge-26.2" = _ubfiNYOw;
         "neoforge-26.3" = _rTb70pLv;
         "pkg-1.16.5-2.9-fabric" = _WBPZadAh;
@@ -620,7 +626,8 @@ let
         "pkg-1.21.1-5.7-fabric+forge+neo" = _6fQWc8Vy;
         "pkg-26.2.0-5.7-fabric+forge+neo" = _ubfiNYOw;
         "pkg-26.3.0-5.7-fabric+forge+neo" = _rTb70pLv;
-        "default" = _rTb70pLv;
+        "pkg-26.1.2-5.7-fabric+forge+neo" = _dP8UQjXi;
+        "default" = _dP8UQjXi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "replanting-crops";

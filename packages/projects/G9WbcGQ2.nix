@@ -166,6 +166,16 @@ let
             "file" = "sushigocrafting-1.21-0.6.6.jar";
             "hash" = "sha512-YJf1dFCs939xPSVZ9PX935TRr/QvqRTKvneM9NUdotsnDqiooXROrbCIKByOV0gjvAADvdHYppe3d/Hn2Bi6TA==";
         };
+        _XpWxBEJd = {
+            "id" = "XpWxBEJd";
+            "file" = "sushigocrafting-1.21-0.6.7.jar";
+            "hash" = "sha512-lvewXQGxjxY14997CI4D8IUAsmRYr1HZxhA+N65IVB/ssNxdNa+H4e9Lz3nSuCMW/X0h7x2kyuB+SRGK0olmIw==";
+        };
+        _m2FQngzk = {
+            "id" = "m2FQngzk";
+            "file" = "sushigocrafting-26.1.2-0.6.7.jar";
+            "hash" = "sha512-M8F/0TVR2QSx46nNBNYA+qyqJvCwT3rf5kXLFiGiVkzqCtZJCYml3NMOeA0pWb/nllLVO6rjcOzL0yOar/aHcQ==";
+        };
     in {
         "dTxszQDn" = _dTxszQDn;
         "l2dmHSs7" = _l2dmHSs7;
@@ -200,6 +210,8 @@ let
         "NdreRV66" = _NdreRV66;
         "Z7kito0S" = _Z7kito0S;
         "xEl3SWW6" = _xEl3SWW6;
+        "XpWxBEJd" = _XpWxBEJd;
+        "m2FQngzk" = _m2FQngzk;
         "forge-1.16.4" = _ey7rIwKd;
         "forge-1.16.5" = _TKkmhfcJ;
         "forge-1.16.3" = _WL1mjOTI;
@@ -210,7 +222,8 @@ let
         "forge-1.21" = _9M7Ntx7N;
         "forge-1.21.1" = _9M7Ntx7N;
         "neoforge-1.21" = _NdreRV66;
-        "neoforge-1.21.1" = _xEl3SWW6;
+        "neoforge-1.21.1" = _XpWxBEJd;
+        "neoforge-26.1.2" = _m2FQngzk;
         "pkg-0.1.0" = _dTxszQDn;
         "pkg-0.1.1" = _l2dmHSs7;
         "pkg-0.1.2" = _MhRw63xP;
@@ -244,7 +257,9 @@ let
         "pkg-1.21-0.6.5" = _NdreRV66;
         "pkg-1.21-0.6.6a" = _Z7kito0S;
         "pkg-26.1" = _xEl3SWW6;
-        "default" = _xEl3SWW6;
+        "pkg-1.21-0.6.7" = _XpWxBEJd;
+        "pkg-26.1-0.6.7" = _m2FQngzk;
+        "default" = _m2FQngzk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sushigocrafting";

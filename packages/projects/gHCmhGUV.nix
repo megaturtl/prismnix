@@ -376,6 +376,11 @@ let
             "file" = "respawningshulkers-26.3.0-4.3.jar";
             "hash" = "sha512-Dw5NNILhZ61SfD8Y92oIxvK92H1C8iCc0VkGnSp0wzQWUAz4xDfMnbohTPOUQDt8z+wFLJ5HqZM0c+RnGVgW6g==";
         };
+        _yPgGu4ak = {
+            "id" = "yPgGu4ak";
+            "file" = "respawningshulkers-26.1.2-4.3.jar";
+            "hash" = "sha512-CDgQQh7kIAIdErKsJnexJ3VRhKgnVcleL9dYZIFbIE833z0ABt29GJVgP3Va/nxi5LKIRdIu81YiyUexpW37IQ==";
+        };
     in {
         "OIU2E9ix" = _OIU2E9ix;
         "PRwEtZxX" = _PRwEtZxX;
@@ -452,6 +457,7 @@ let
         "60WQjjM6" = _60WQjjM6;
         "eeuwI2yx" = _eeuwI2yx;
         "uNJig7tO" = _uNJig7tO;
+        "yPgGu4ak" = _yPgGu4ak;
         "fabric-1.16.5" = _cM9Nt88U;
         "fabric-1.18.2" = _Dg1r8GwI;
         "fabric-1.19.2" = _D3LU9a1F;
@@ -478,7 +484,7 @@ let
         "fabric-1.21.11" = _UxqGoIcn;
         "fabric-26.1" = _eV7uo35h;
         "fabric-26.1.1" = _tMQa8c3r;
-        "fabric-26.1.2" = _9q3MuhjN;
+        "fabric-26.1.2" = _yPgGu4ak;
         "fabric-26.2" = _eeuwI2yx;
         "fabric-26.3" = _uNJig7tO;
         "forge-1.16.5" = _13x6626r;
@@ -505,7 +511,7 @@ let
         "forge-1.21.11" = _UxqGoIcn;
         "forge-26.1" = _eV7uo35h;
         "forge-26.1.1" = _tMQa8c3r;
-        "forge-26.1.2" = _9q3MuhjN;
+        "forge-26.1.2" = _yPgGu4ak;
         "forge-26.2" = _eeuwI2yx;
         "forge-26.3" = _uNJig7tO;
         "quilt-1.18.2" = _Dg1r8GwI;
@@ -533,7 +539,7 @@ let
         "quilt-1.21.11" = _UxqGoIcn;
         "quilt-26.1" = _eV7uo35h;
         "quilt-26.1.1" = _tMQa8c3r;
-        "quilt-26.1.2" = _9q3MuhjN;
+        "quilt-26.1.2" = _yPgGu4ak;
         "quilt-26.2" = _eeuwI2yx;
         "quilt-26.3" = _uNJig7tO;
         "neoforge-1.20.2" = _HrJruvL1;
@@ -556,7 +562,7 @@ let
         "neoforge-1.21.11" = _UxqGoIcn;
         "neoforge-26.1" = _eV7uo35h;
         "neoforge-26.1.1" = _tMQa8c3r;
-        "neoforge-26.1.2" = _9q3MuhjN;
+        "neoforge-26.1.2" = _yPgGu4ak;
         "neoforge-26.2" = _eeuwI2yx;
         "neoforge-26.3" = _uNJig7tO;
         "pkg-1.16.5-2.0-fabric" = _OIU2E9ix;
@@ -634,7 +640,8 @@ let
         "pkg-1.21.1-4.3-fabric+forge+neo" = _60WQjjM6;
         "pkg-26.2.0-4.3-fabric+forge+neo" = _eeuwI2yx;
         "pkg-26.3.0-4.3-fabric+forge+neo" = _uNJig7tO;
-        "default" = _uNJig7tO;
+        "pkg-26.1.2-4.3-fabric+forge+neo" = _yPgGu4ak;
+        "default" = _yPgGu4ak;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "respawning-shulkers";

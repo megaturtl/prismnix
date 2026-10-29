@@ -1196,6 +1196,36 @@ let
             "file" = "ResourcefulLib-6.0.1.jar";
             "hash" = "sha512-mFD5LVm+uJ6MPoylXlaqzdQlAMTm9WBgfilUnjmY9skS4IvG7FNQdkdRztap14IcTmxUX7YZTooNCsERwhjNhw==";
         };
+        _fYBEaLCC = {
+            "id" = "fYBEaLCC";
+            "file" = "ResourcefulLib-4.0.2.jar";
+            "hash" = "sha512-SXEUgw8oS3oN5GFX0TQuV7C9FbFzSDESBeARBoKYU5vBEtjNIECBV/YGqh19EBX5VhO06Xq97Aq7idwMaqBZAQ==";
+        };
+        _bfsJDHLO = {
+            "id" = "bfsJDHLO";
+            "file" = "ResourcefulLib-4.0.2.jar";
+            "hash" = "sha512-GodW3CC7MWGwCRn2epVSkgn3EY+1SYFb5amWQ9EcDk/SUlo8FRuDj2zhg5r/xVN0i2w/4RT52goMUdP+f8wuPw==";
+        };
+        _tWUxcHI7 = {
+            "id" = "tWUxcHI7";
+            "file" = "ResourcefulLib-4.0.2.jar";
+            "hash" = "sha512-SXEUgw8oS3oN5GFX0TQuV7C9FbFzSDESBeARBoKYU5vBEtjNIECBV/YGqh19EBX5VhO06Xq97Aq7idwMaqBZAQ==";
+        };
+        _EqQVvMss = {
+            "id" = "EqQVvMss";
+            "file" = "ResourcefulLib-4.0.2.jar";
+            "hash" = "sha512-YOdTKsg1GxMkfsvhdy1I0s6ijiZO/vjIJMIY5kYGYuZAy4fJD5spm4p7dTY11Zwd87l69jm2j7/1x4VOD3epHg==";
+        };
+        _2wWp7MFY = {
+            "id" = "2wWp7MFY";
+            "file" = "ResourcefulLib-neoforge-4.0.2.jar";
+            "hash" = "sha512-SXEUgw8oS3oN5GFX0TQuV7C9FbFzSDESBeARBoKYU5vBEtjNIECBV/YGqh19EBX5VhO06Xq97Aq7idwMaqBZAQ==";
+        };
+        _G0rgQsmz = {
+            "id" = "G0rgQsmz";
+            "file" = "ResourcefulLib-fabric-4.0.2.jar";
+            "hash" = "sha512-3g8jPk0NSKv2gsSR3+J/GFckE2lfAcomGO2sljuIMd8ucOPVjyOLXm87uxZT1dSkhDEPBPzbfypGjC7vSaRtUw==";
+        };
     in {
         "G3lV8OVP" = _G3lV8OVP;
         "jLKGuA57" = _jLKGuA57;
@@ -1436,6 +1466,12 @@ let
         "cNHatNw3" = _cNHatNw3;
         "g9rQSbAF" = _g9rQSbAF;
         "P6Jq77km" = _P6Jq77km;
+        "fYBEaLCC" = _fYBEaLCC;
+        "bfsJDHLO" = _bfsJDHLO;
+        "tWUxcHI7" = _tWUxcHI7;
+        "EqQVvMss" = _EqQVvMss;
+        "2wWp7MFY" = _2wWp7MFY;
+        "G0rgQsmz" = _G0rgQsmz;
         "fabric-1.19.2" = _mxiPijSw;
         "fabric-1.19.3" = _9bpCfetJ;
         "fabric-1.19.4" = _7wv4Al4f;
@@ -1457,7 +1493,7 @@ let
         "fabric-1.21.9" = _HHYCcvHX;
         "fabric-1.21.10" = _HHYCcvHX;
         "fabric-1.21.11" = _NzjejPQX;
-        "fabric-26.1" = _sOEhLVuw;
+        "fabric-26.1" = _G0rgQsmz;
         "fabric-26.1.1" = _sOEhLVuw;
         "fabric-26.1.2" = _sOEhLVuw;
         "fabric-26.2" = _4BbCbnE6;
@@ -1485,7 +1521,7 @@ let
         "neoforge-1.21.9" = _eCJ0Ktvq;
         "neoforge-1.21.10" = _eCJ0Ktvq;
         "neoforge-1.21.11" = _9cBmrQUc;
-        "neoforge-26.1" = _B94F6bCN;
+        "neoforge-26.1" = _2wWp7MFY;
         "neoforge-26.1.1" = _B94F6bCN;
         "neoforge-26.1.2" = _B94F6bCN;
         "neoforge-26.2" = _clkeiC1C;
@@ -1604,7 +1640,8 @@ let
         "pkg-5.0.4" = _4BbCbnE6;
         "pkg-6.0.0" = _cNHatNw3;
         "pkg-6.0.1" = _P6Jq77km;
-        "default" = _P6Jq77km;
+        "pkg-4.0.2" = _G0rgQsmz;
+        "default" = _G0rgQsmz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "resourceful-lib";

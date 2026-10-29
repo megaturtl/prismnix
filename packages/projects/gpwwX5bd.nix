@@ -86,6 +86,11 @@ let
             "file" = "AE2-TangibleBookmarks-1.21.1-19.1.4.jar";
             "hash" = "sha512-gg5/aIbQTA+PpenD8JXcYsVG2gb9nvQtDJqQldPfDOwXSRucBoQsI+dIEsW+cKeFjdYX6U3zFANJIye/eqH+ZQ==";
         };
+        _Ca47BJa9 = {
+            "id" = "Ca47BJa9";
+            "file" = "AE2-TangibleBookmarks-1.21.1-19.1.5.jar";
+            "hash" = "sha512-NmfcBWUSpQY6njU6vE4j0NAi3I7SwAILhJTeCNPScWQ2ULIVyuqAcPcYhhHRMC6aSlp0+Cq4VuR206/upAgjkg==";
+        };
     in {
         "MvqLEfsQ" = _MvqLEfsQ;
         "kKCB3AM7" = _kKCB3AM7;
@@ -104,7 +109,8 @@ let
         "4WrpySO0" = _4WrpySO0;
         "NcrkJ0O4" = _NcrkJ0O4;
         "DRrn7B3P" = _DRrn7B3P;
-        "neoforge-1.21.1" = _DRrn7B3P;
+        "Ca47BJa9" = _Ca47BJa9;
+        "neoforge-1.21.1" = _Ca47BJa9;
         "neoforge-26.1.2" = _NcrkJ0O4;
         "forge-1.20.1" = _4WrpySO0;
         "pkg-1.21.1-0.0.1" = _MvqLEfsQ;
@@ -124,7 +130,8 @@ let
         "pkg-1.20.1-15.1.0" = _4WrpySO0;
         "pkg-26.1.2-26.0.0" = _NcrkJ0O4;
         "pkg-1.21.1-19.1.4" = _DRrn7B3P;
-        "default" = _DRrn7B3P;
+        "pkg-1.21.1-19.1.5" = _Ca47BJa9;
+        "default" = _Ca47BJa9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ae2-tangible-bookmarks";

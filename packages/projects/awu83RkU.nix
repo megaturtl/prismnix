@@ -96,6 +96,11 @@ let
             "file" = "Water source Sight.zip";
             "hash" = "sha512-41MS1lo/aDxfn5Wwrr0lTxSn28b5IIzthh7Mjd4jm1l5yPC3lDa4XmbqCU+gKNgU1UhP+tnHPkNOS8RDzW4QyQ==";
         };
+        _VVWN6i1C = {
+            "id" = "VVWN6i1C";
+            "file" = "Water source Sight 26.3.zip";
+            "hash" = "sha512-Vre//cUW9hrIw+LrZ+/mR1faLUlpWZfmB7SfhXVllqbExVANSh+/tRhqXDrbi0if89xlecW9GkO+uMVIV05S6w==";
+        };
     in {
         "oHVsGypr" = _oHVsGypr;
         "6czRd5lx" = _6czRd5lx;
@@ -116,6 +121,7 @@ let
         "Q9wGsjNB" = _Q9wGsjNB;
         "3LxiUDyq" = _3LxiUDyq;
         "VLRXNnee" = _VLRXNnee;
+        "VVWN6i1C" = _VVWN6i1C;
         "minecraft-1.19" = _oHVsGypr;
         "minecraft-1.19.1" = _6czRd5lx;
         "minecraft-1.19.2" = _6czRd5lx;
@@ -144,6 +150,7 @@ let
         "minecraft-26.1.1" = _ju6Cw8xG;
         "minecraft-26.1.2" = _Q9wGsjNB;
         "minecraft-26.2" = _VLRXNnee;
+        "minecraft-26.3" = _VVWN6i1C;
         "pkg-1.19" = _oHVsGypr;
         "pkg-1.19.1-1.19.2" = _6czRd5lx;
         "pkg-1.19.3-1.19.4" = _CN3QewVK;
@@ -163,7 +170,8 @@ let
         "pkg-26.1.2" = _Q9wGsjNB;
         "pkg-1.21-1.21.11" = _3LxiUDyq;
         "pkg-26.2" = _VLRXNnee;
-        "default" = _VLRXNnee;
+        "pkg-26.3" = _VVWN6i1C;
+        "default" = _VVWN6i1C;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "water-source-sight";

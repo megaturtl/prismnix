@@ -136,6 +136,11 @@ let
             "file" = "breezespawn-26.3.0-1.4.jar";
             "hash" = "sha512-wPEL95d8/5DtdTZbRcii8QK14HVOOczrpGndaf4+ZpMq3ZxyFIOU03VXUQmnfOIITDYrr3Ef942sIwn3NHeFyA==";
         };
+        _DKyK6DS1 = {
+            "id" = "DKyK6DS1";
+            "file" = "breezespawn-26.1.2-1.4.jar";
+            "hash" = "sha512-g3MbptyFfoa7db3IoMc7etVfnKYm6WILEX1LIEoA7OPkiOHr+i/ASCEmTW9lbzCrjPjeLXQd4BjN9rplJKWkPg==";
+        };
     in {
         "ARsFfR9s" = _ARsFfR9s;
         "xMt9chnN" = _xMt9chnN;
@@ -164,6 +169,7 @@ let
         "LLVq8azJ" = _LLVq8azJ;
         "f4XPuea0" = _f4XPuea0;
         "TKVa1SIo" = _TKVa1SIo;
+        "DKyK6DS1" = _DKyK6DS1;
         "fabric-1.21" = _LLVq8azJ;
         "fabric-1.21.1" = _LLVq8azJ;
         "fabric-1.21.2" = _96rP05wU;
@@ -178,7 +184,7 @@ let
         "fabric-1.21.11" = _n4DLmGkI;
         "fabric-26.1" = _yfoP6bM0;
         "fabric-26.1.1" = _aneMKFHs;
-        "fabric-26.1.2" = _EuWFalcO;
+        "fabric-26.1.2" = _DKyK6DS1;
         "fabric-26.2" = _f4XPuea0;
         "fabric-26.3" = _TKVa1SIo;
         "forge-1.21" = _LLVq8azJ;
@@ -194,7 +200,7 @@ let
         "forge-1.21.11" = _n4DLmGkI;
         "forge-26.1" = _yfoP6bM0;
         "forge-26.1.1" = _aneMKFHs;
-        "forge-26.1.2" = _EuWFalcO;
+        "forge-26.1.2" = _DKyK6DS1;
         "forge-26.2" = _f4XPuea0;
         "forge-26.3" = _TKVa1SIo;
         "neoforge-1.21" = _LLVq8azJ;
@@ -211,7 +217,7 @@ let
         "neoforge-1.21.11" = _n4DLmGkI;
         "neoforge-26.1" = _yfoP6bM0;
         "neoforge-26.1.1" = _aneMKFHs;
-        "neoforge-26.1.2" = _EuWFalcO;
+        "neoforge-26.1.2" = _DKyK6DS1;
         "neoforge-26.2" = _f4XPuea0;
         "neoforge-26.3" = _TKVa1SIo;
         "quilt-1.21" = _LLVq8azJ;
@@ -228,7 +234,7 @@ let
         "quilt-1.21.11" = _n4DLmGkI;
         "quilt-26.1" = _yfoP6bM0;
         "quilt-26.1.1" = _aneMKFHs;
-        "quilt-26.1.2" = _EuWFalcO;
+        "quilt-26.1.2" = _DKyK6DS1;
         "quilt-26.2" = _f4XPuea0;
         "quilt-26.3" = _TKVa1SIo;
         "pkg-1.21.0-1.0-fabric+forge+neo" = _ARsFfR9s;
@@ -258,7 +264,8 @@ let
         "pkg-1.21.1-1.4-fabric+forge+neo" = _LLVq8azJ;
         "pkg-26.2.0-1.4-fabric+forge+neo" = _f4XPuea0;
         "pkg-26.3.0-1.4-fabric+forge+neo" = _TKVa1SIo;
-        "default" = _TKVa1SIo;
+        "pkg-26.1.2-1.4-fabric+forge+neo" = _DKyK6DS1;
+        "default" = _DKyK6DS1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "breeze-spawn";

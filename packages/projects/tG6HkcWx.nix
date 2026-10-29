@@ -371,6 +371,11 @@ let
             "file" = "realisticbees-26.3.0-4.4.jar";
             "hash" = "sha512-wIZh2BfaGwEdhy0GGCSDGZn/Fa4B/LYKNHQxAECr0W3NkaggwTvn/yM7BsmjyDrTwqgVsMziao1ZqmYTDsuuQQ==";
         };
+        _JM4VbcMJ = {
+            "id" = "JM4VbcMJ";
+            "file" = "realisticbees-26.1.2-4.4.jar";
+            "hash" = "sha512-RxU3BQY6pvLsroJoODdsWyDbgxD3qZL6lTUpxB8XowxFdfg5TLdUu6PgJfi9t7R8JwkxV09pkdVm9zW1pkBJgQ==";
+        };
     in {
         "UkIyDcLB" = _UkIyDcLB;
         "YtAYxhoP" = _YtAYxhoP;
@@ -446,6 +451,7 @@ let
         "TxW7dizi" = _TxW7dizi;
         "x7QmKlw2" = _x7QmKlw2;
         "N514bTMR" = _N514bTMR;
+        "JM4VbcMJ" = _JM4VbcMJ;
         "forge-1.16.5" = _oOGFxK3U;
         "forge-1.18.2" = _lgglmUUI;
         "forge-1.19.2" = _9IoOxyqe;
@@ -470,7 +476,7 @@ let
         "forge-1.21.11" = _Ymdscjj9;
         "forge-26.1" = _T1kNJTWl;
         "forge-26.1.1" = _xumEqcDd;
-        "forge-26.1.2" = _W9uvmLRp;
+        "forge-26.1.2" = _JM4VbcMJ;
         "forge-26.2" = _x7QmKlw2;
         "forge-26.3" = _N514bTMR;
         "fabric-1.18.2" = _lgglmUUI;
@@ -498,7 +504,7 @@ let
         "fabric-1.21.11" = _Ymdscjj9;
         "fabric-26.1" = _T1kNJTWl;
         "fabric-26.1.1" = _xumEqcDd;
-        "fabric-26.1.2" = _W9uvmLRp;
+        "fabric-26.1.2" = _JM4VbcMJ;
         "fabric-26.2" = _x7QmKlw2;
         "fabric-26.3" = _N514bTMR;
         "quilt-1.18.2" = _lgglmUUI;
@@ -526,7 +532,7 @@ let
         "quilt-1.21.11" = _Ymdscjj9;
         "quilt-26.1" = _T1kNJTWl;
         "quilt-26.1.1" = _xumEqcDd;
-        "quilt-26.1.2" = _W9uvmLRp;
+        "quilt-26.1.2" = _JM4VbcMJ;
         "quilt-26.2" = _x7QmKlw2;
         "quilt-26.3" = _N514bTMR;
         "neoforge-1.20.2" = _jwlt4J7k;
@@ -549,7 +555,7 @@ let
         "neoforge-1.21.11" = _Ymdscjj9;
         "neoforge-26.1" = _T1kNJTWl;
         "neoforge-26.1.1" = _xumEqcDd;
-        "neoforge-26.1.2" = _W9uvmLRp;
+        "neoforge-26.1.2" = _JM4VbcMJ;
         "neoforge-26.2" = _x7QmKlw2;
         "neoforge-26.3" = _N514bTMR;
         "pkg-1.16.5-2.7-forge" = _UkIyDcLB;
@@ -626,7 +632,8 @@ let
         "pkg-1.21.1-4.4-fabric+forge+neo" = _TxW7dizi;
         "pkg-26.2.0-4.4-fabric+forge+neo" = _x7QmKlw2;
         "pkg-26.3.0-4.4-fabric+forge+neo" = _N514bTMR;
-        "default" = _N514bTMR;
+        "pkg-26.1.2-4.4-fabric+forge+neo" = _JM4VbcMJ;
+        "default" = _JM4VbcMJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "realistic-bees";

@@ -486,6 +486,11 @@ let
             "file" = "masks-n-glory-v80-1.20.1.jar";
             "hash" = "sha512-9RFONFzMZa+PI9sZXvA4IlRalEoiFMtiKQGBhAR572yZy9ne82Izt0xOmPrZTBwccwG03bj/pH3WtVixqM1Glw==";
         };
+        _lKnfgY2A = {
+            "id" = "lKnfgY2A";
+            "file" = "masks-n-glory-v81-1.20.1.jar";
+            "hash" = "sha512-qC2lykFHp2zVkcXtRNIhocnT3234IBBfwwdfCGOt+B3+VNYbYbFpZrtgH3tP8JzuTt9Mam1xL7foQX1CkkzsQw==";
+        };
     in {
         "zdlsFjoJ" = _zdlsFjoJ;
         "l928lrOf" = _l928lrOf;
@@ -584,7 +589,8 @@ let
         "3CD2qV3q" = _3CD2qV3q;
         "Nv96mHX0" = _Nv96mHX0;
         "Tp3IGx67" = _Tp3IGx67;
-        "fabric-1.20.1" = _Tp3IGx67;
+        "lKnfgY2A" = _lKnfgY2A;
+        "fabric-1.20.1" = _lKnfgY2A;
         "pkg-0.1-1.20.1" = _zdlsFjoJ;
         "pkg-0.2-1.20.1" = _l928lrOf;
         "pkg-0.3-1.20.1" = _kIDxrXiB;
@@ -681,7 +687,8 @@ let
         "pkg-79" = _3CD2qV3q;
         "pkg-79fix" = _Nv96mHX0;
         "pkg-80" = _Tp3IGx67;
-        "default" = _Tp3IGx67;
+        "pkg-81" = _lKnfgY2A;
+        "default" = _lKnfgY2A;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "masks-n-glory";

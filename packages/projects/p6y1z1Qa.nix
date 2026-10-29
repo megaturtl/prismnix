@@ -381,6 +381,11 @@ let
             "file" = "grindstonesharpertools-26.3.0-4.3.jar";
             "hash" = "sha512-2TF7BXsO83gyuhs1WcLJHO3oovbHGPex5BghG9siAsdop7G7INRhvlwswoDrkmozbySFNGwRo/tCHMcQpBL0sA==";
         };
+        _qeirXPTj = {
+            "id" = "qeirXPTj";
+            "file" = "grindstonesharpertools-26.1.2-4.3.jar";
+            "hash" = "sha512-4p5ML9SU7TJXBE1lVRynW5DS8qdM4yCppgLtQ0Y2LqvyMik3MHhiaLn9xNPzO4OezqypkMbB0tdPNhTzlEBwTg==";
+        };
     in {
         "1VZ6df1N" = _1VZ6df1N;
         "evAzaJHw" = _evAzaJHw;
@@ -458,6 +463,7 @@ let
         "7nwbtrn0" = _7nwbtrn0;
         "GgxA3cae" = _GgxA3cae;
         "L4PcjMdo" = _L4PcjMdo;
+        "qeirXPTj" = _qeirXPTj;
         "fabric-1.16.5" = _rhlehYbS;
         "fabric-1.18.2" = _edOVXzaw;
         "fabric-1.19.2" = _z8KfF07r;
@@ -484,7 +490,7 @@ let
         "fabric-1.21.11" = _ZjxNT8ZU;
         "fabric-26.1" = _bs6FkqJT;
         "fabric-26.1.1" = _9PHCjx5F;
-        "fabric-26.1.2" = _96rZDCNu;
+        "fabric-26.1.2" = _qeirXPTj;
         "fabric-26.2" = _GgxA3cae;
         "fabric-26.3" = _L4PcjMdo;
         "forge-1.16.5" = _MZcVkDNo;
@@ -511,7 +517,7 @@ let
         "forge-1.21.11" = _ZjxNT8ZU;
         "forge-26.1" = _bs6FkqJT;
         "forge-26.1.1" = _9PHCjx5F;
-        "forge-26.1.2" = _96rZDCNu;
+        "forge-26.1.2" = _qeirXPTj;
         "forge-26.2" = _GgxA3cae;
         "forge-26.3" = _L4PcjMdo;
         "quilt-1.18.2" = _edOVXzaw;
@@ -539,7 +545,7 @@ let
         "quilt-1.21.11" = _ZjxNT8ZU;
         "quilt-26.1" = _bs6FkqJT;
         "quilt-26.1.1" = _9PHCjx5F;
-        "quilt-26.1.2" = _96rZDCNu;
+        "quilt-26.1.2" = _qeirXPTj;
         "quilt-26.2" = _GgxA3cae;
         "quilt-26.3" = _L4PcjMdo;
         "neoforge-1.20.2" = _ull6syu7;
@@ -562,7 +568,7 @@ let
         "neoforge-1.21.11" = _ZjxNT8ZU;
         "neoforge-26.1" = _bs6FkqJT;
         "neoforge-26.1.1" = _9PHCjx5F;
-        "neoforge-26.1.2" = _96rZDCNu;
+        "neoforge-26.1.2" = _qeirXPTj;
         "neoforge-26.2" = _GgxA3cae;
         "neoforge-26.3" = _L4PcjMdo;
         "pkg-1.16.5-2.2-fabric" = _1VZ6df1N;
@@ -641,7 +647,8 @@ let
         "pkg-1.21.1-4.3-fabric+forge+neo" = _7nwbtrn0;
         "pkg-26.2.0-4.3-fabric+forge+neo" = _GgxA3cae;
         "pkg-26.3.0-4.3-fabric+forge+neo" = _L4PcjMdo;
-        "default" = _L4PcjMdo;
+        "pkg-26.1.2-4.3-fabric+forge+neo" = _qeirXPTj;
+        "default" = _qeirXPTj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "grindstone-sharper-tools";

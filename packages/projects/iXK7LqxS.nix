@@ -116,6 +116,11 @@ let
             "file" = "chorusfruitdropsnearby-26.3.0-1.3.jar";
             "hash" = "sha512-Wpfd1+NiW0mbPx10FLrjM1+2yXkLDQp2onzwX+JznzHdN2I9T2LuoA4vFQ1239jata8rg5Ms+FZ1wTRYzFbsjw==";
         };
+        _LCIaHtff = {
+            "id" = "LCIaHtff";
+            "file" = "chorusfruitdropsnearby-26.1.2-1.3.jar";
+            "hash" = "sha512-Hd4m1SxPTFbZo7vn9/JMie+l7UVD+Hnz+fDXGirQTBt7Y/mK0i7AU222ZMO1suq3m4U+cPSSOSwOjwyGaLXfcQ==";
+        };
     in {
         "C4OoVpwO" = _C4OoVpwO;
         "7yPSY0nm" = _7yPSY0nm;
@@ -140,6 +145,7 @@ let
         "lQanTRnT" = _lQanTRnT;
         "gA0gO0xc" = _gA0gO0xc;
         "cztsvcvr" = _cztsvcvr;
+        "LCIaHtff" = _LCIaHtff;
         "fabric-1.20.1" = _K1t3nxe8;
         "fabric-1.21" = _lQanTRnT;
         "fabric-1.21.1" = _lQanTRnT;
@@ -153,7 +159,7 @@ let
         "fabric-1.21.11" = _TnSGSovc;
         "fabric-26.1" = _QhycgTN5;
         "fabric-26.1.1" = _259Jzg8f;
-        "fabric-26.1.2" = _ECW40ENS;
+        "fabric-26.1.2" = _LCIaHtff;
         "fabric-26.2" = _gA0gO0xc;
         "fabric-26.3" = _cztsvcvr;
         "forge-1.20.1" = _K1t3nxe8;
@@ -169,7 +175,7 @@ let
         "forge-1.21.11" = _TnSGSovc;
         "forge-26.1" = _QhycgTN5;
         "forge-26.1.1" = _259Jzg8f;
-        "forge-26.1.2" = _ECW40ENS;
+        "forge-26.1.2" = _LCIaHtff;
         "forge-26.2" = _gA0gO0xc;
         "forge-26.3" = _cztsvcvr;
         "neoforge-1.20.1" = _K1t3nxe8;
@@ -185,7 +191,7 @@ let
         "neoforge-1.21.11" = _TnSGSovc;
         "neoforge-26.1" = _QhycgTN5;
         "neoforge-26.1.1" = _259Jzg8f;
-        "neoforge-26.1.2" = _ECW40ENS;
+        "neoforge-26.1.2" = _LCIaHtff;
         "neoforge-26.2" = _gA0gO0xc;
         "neoforge-26.3" = _cztsvcvr;
         "quilt-1.20.1" = _K1t3nxe8;
@@ -201,7 +207,7 @@ let
         "quilt-1.21.11" = _TnSGSovc;
         "quilt-26.1" = _QhycgTN5;
         "quilt-26.1.1" = _259Jzg8f;
-        "quilt-26.1.2" = _ECW40ENS;
+        "quilt-26.1.2" = _LCIaHtff;
         "quilt-26.2" = _gA0gO0xc;
         "quilt-26.3" = _cztsvcvr;
         "pkg-1.20.1-1.0-fabric+forge+neo" = _C4OoVpwO;
@@ -227,7 +233,8 @@ let
         "pkg-1.21.1-1.3-fabric+forge+neo" = _lQanTRnT;
         "pkg-26.2.0-1.3-fabric+forge+neo" = _gA0gO0xc;
         "pkg-26.3.0-1.3-fabric+forge+neo" = _cztsvcvr;
-        "default" = _cztsvcvr;
+        "pkg-26.1.2-1.3-fabric+forge+neo" = _LCIaHtff;
+        "default" = _LCIaHtff;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chorus-fruit-drops-nearby";

@@ -371,6 +371,11 @@ let
             "file" = "wooltweaks-26.3.0-4.1.jar";
             "hash" = "sha512-mWOdGpjBuh497sccHnBAusrCeiQC4MMIUQtfNQeWB5bmn7cx86KneogUDVGKFLFcA2n0rP5WG/nnEhBtLgRhkw==";
         };
+        _Q1HmI6ye = {
+            "id" = "Q1HmI6ye";
+            "file" = "wooltweaks-26.1.2-4.1.jar";
+            "hash" = "sha512-gijkqiht6sUGIuEBTnuFNGlXVZQ6vyzESO90g334wNuPoMIvOqAasDrHYIhDInb456Ix0fkAS+yN6O7Pz0O4RA==";
+        };
     in {
         "XLhZcEP7" = _XLhZcEP7;
         "jT9UXwu8" = _jT9UXwu8;
@@ -446,6 +451,7 @@ let
         "vnt74jsV" = _vnt74jsV;
         "g3hpfwwl" = _g3hpfwwl;
         "IsPTj1vQ" = _IsPTj1vQ;
+        "Q1HmI6ye" = _Q1HmI6ye;
         "fabric-1.16.5" = _zvshY9U3;
         "fabric-1.18.2" = _1wR2pZIY;
         "fabric-1.19.2" = _k5NE7JsV;
@@ -472,7 +478,7 @@ let
         "fabric-1.21.11" = _54YN4yMF;
         "fabric-26.1" = _F38CJval;
         "fabric-26.1.1" = _bHDPhsLb;
-        "fabric-26.1.2" = _Nqjg5j71;
+        "fabric-26.1.2" = _Q1HmI6ye;
         "fabric-26.2" = _g3hpfwwl;
         "fabric-26.3" = _IsPTj1vQ;
         "forge-1.16.5" = _yrmKgf8s;
@@ -499,7 +505,7 @@ let
         "forge-1.21.11" = _54YN4yMF;
         "forge-26.1" = _F38CJval;
         "forge-26.1.1" = _bHDPhsLb;
-        "forge-26.1.2" = _Nqjg5j71;
+        "forge-26.1.2" = _Q1HmI6ye;
         "forge-26.2" = _g3hpfwwl;
         "forge-26.3" = _IsPTj1vQ;
         "quilt-1.18.2" = _1wR2pZIY;
@@ -527,7 +533,7 @@ let
         "quilt-1.21.11" = _54YN4yMF;
         "quilt-26.1" = _F38CJval;
         "quilt-26.1.1" = _bHDPhsLb;
-        "quilt-26.1.2" = _Nqjg5j71;
+        "quilt-26.1.2" = _Q1HmI6ye;
         "quilt-26.2" = _g3hpfwwl;
         "quilt-26.3" = _IsPTj1vQ;
         "neoforge-1.20.2" = _osgog7SY;
@@ -550,7 +556,7 @@ let
         "neoforge-1.21.11" = _54YN4yMF;
         "neoforge-26.1" = _F38CJval;
         "neoforge-26.1.1" = _bHDPhsLb;
-        "neoforge-26.1.2" = _Nqjg5j71;
+        "neoforge-26.1.2" = _Q1HmI6ye;
         "neoforge-26.2" = _g3hpfwwl;
         "neoforge-26.3" = _IsPTj1vQ;
         "pkg-1.16.5-1.9-fabric" = _XLhZcEP7;
@@ -627,7 +633,8 @@ let
         "pkg-1.21.1-4.1-fabric+forge+neo" = _vnt74jsV;
         "pkg-26.2.0-4.1-fabric+forge+neo" = _g3hpfwwl;
         "pkg-26.3.0-4.1-fabric+forge+neo" = _IsPTj1vQ;
-        "default" = _IsPTj1vQ;
+        "pkg-26.1.2-4.1-fabric+forge+neo" = _Q1HmI6ye;
+        "default" = _Q1HmI6ye;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wool-tweaks";

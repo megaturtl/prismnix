@@ -101,6 +101,21 @@ let
             "file" = "ImmersiveConvergence-1.21.1-2.0.0-b116-release.jar";
             "hash" = "sha512-bFAQCNRLcUg7LeBfoxRTi5zPvdkde7PJeW8/9gcs6GWHHELgL8itJtDQsrHDLFmUOd1e8jPnZdEaJlDZ751xNA==";
         };
+        _yB0lgRKE = {
+            "id" = "yB0lgRKE";
+            "file" = "ImmersiveConvergence-1.12.2-1.0.182-release.jar";
+            "hash" = "sha512-TsdfzzTzsXtBNpTE7Ygz3wEAefrrj8GOE8M89/w7pLOkaWniuDIKmbvwDpm/gVwDpTXJQRo2lGgiUEMgy5r2yg==";
+        };
+        _cYo2xHsc = {
+            "id" = "cYo2xHsc";
+            "file" = "ImmersiveConvergence-1.20.1-1.0.0-b96-release.jar";
+            "hash" = "sha512-cNSZYyBXPAM30QPt5ZqRf5aLMKxcOP5psHtCH0GBVXwA4OBWeOH00O6s3dNEhfIy8yah0nJ960AB2F2bHeynuQ==";
+        };
+        _SW5VkCMy = {
+            "id" = "SW5VkCMy";
+            "file" = "ImmersiveConvergence-1.21.1-2.0.0-b118-release.jar";
+            "hash" = "sha512-VREaJJv4ft2JhU5OXIdRgEQsnWVi2U7D0cKfbv7Puhr2orBuxpI58GRxlKRVvRhDk9uUorzVpxxsKWQ/2g03OQ==";
+        };
     in {
         "tB08ui56" = _tB08ui56;
         "GKcrOQRy" = _GKcrOQRy;
@@ -122,9 +137,12 @@ let
         "GCrPXb5Y" = _GCrPXb5Y;
         "2Nldr4Rg" = _2Nldr4Rg;
         "DeXQcZOi" = _DeXQcZOi;
-        "forge-1.20.1" = _2Nldr4Rg;
-        "forge-1.12.2" = _GCrPXb5Y;
-        "neoforge-1.21.1" = _DeXQcZOi;
+        "yB0lgRKE" = _yB0lgRKE;
+        "cYo2xHsc" = _cYo2xHsc;
+        "SW5VkCMy" = _SW5VkCMy;
+        "forge-1.20.1" = _cYo2xHsc;
+        "forge-1.12.2" = _yB0lgRKE;
+        "neoforge-1.21.1" = _SW5VkCMy;
         "pkg-1.0.0-b31-beta" = _tB08ui56;
         "pkg-2.0.0-b29-beta" = _GKcrOQRy;
         "pkg-1.0.104-release" = _7yW8wHQq;
@@ -145,7 +163,10 @@ let
         "pkg-1.0.181-release" = _GCrPXb5Y;
         "pkg-1.0.0-b95-release" = _2Nldr4Rg;
         "pkg-2.0.0-b116-release" = _DeXQcZOi;
-        "default" = _DeXQcZOi;
+        "pkg-1.0.182-release" = _yB0lgRKE;
+        "pkg-1.0.0-b96-release" = _cYo2xHsc;
+        "pkg-2.0.0-b118-release" = _SW5VkCMy;
+        "default" = _SW5VkCMy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immersive-convergence";

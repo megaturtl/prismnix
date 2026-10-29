@@ -51,6 +51,11 @@ let
             "file" = "Glowing 3D Armor.zip";
             "hash" = "sha512-pOgJqyjM6nff+EYJPKywi+XnSbdSp68prr24ky3LJnXvbYWqfT9dXSgjTPRvKiyteZ7xZqT8AcEf/mxDreJNNQ==";
         };
+        _IUWhhqas = {
+            "id" = "IUWhhqas";
+            "file" = "Glowing 3D Armor.zip";
+            "hash" = "sha512-KEbVLvLj2LMRul34CnfIJ1fOSQF2AK8PbhzuBPOCQznYkdZxZ0/GLkPv0T6D5Ao1vEw2tz3ujpW81LgRYnZ5qg==";
+        };
     in {
         "PHQqgnVb" = _PHQqgnVb;
         "3PV7zam3" = _3PV7zam3;
@@ -62,20 +67,21 @@ let
         "g9suat2M" = _g9suat2M;
         "W3enqKC9" = _W3enqKC9;
         "WbHrIUvT" = _WbHrIUvT;
+        "IUWhhqas" = _IUWhhqas;
         "minecraft-1.21.2" = _PHQqgnVb;
         "minecraft-1.21.4" = _PHQqgnVb;
         "minecraft-1.21.5" = _PHQqgnVb;
         "minecraft-1.21.6" = _PHQqgnVb;
         "minecraft-1.21.7" = _PHQqgnVb;
         "minecraft-1.21.8" = _PHQqgnVb;
-        "minecraft-1.21.9" = _WbHrIUvT;
-        "minecraft-1.21.10" = _WbHrIUvT;
-        "minecraft-1.21.11" = _WbHrIUvT;
-        "minecraft-26.1" = _WbHrIUvT;
-        "minecraft-26.1.1" = _WbHrIUvT;
-        "minecraft-26.1.2" = _WbHrIUvT;
-        "minecraft-26.2" = _WbHrIUvT;
-        "minecraft-26.3" = _WbHrIUvT;
+        "minecraft-1.21.9" = _IUWhhqas;
+        "minecraft-1.21.10" = _IUWhhqas;
+        "minecraft-1.21.11" = _IUWhhqas;
+        "minecraft-26.1" = _IUWhhqas;
+        "minecraft-26.1.1" = _IUWhhqas;
+        "minecraft-26.1.2" = _IUWhhqas;
+        "minecraft-26.2" = _IUWhhqas;
+        "minecraft-26.3" = _IUWhhqas;
         "pkg-1.0" = _PHQqgnVb;
         "pkg-1.1" = _L5SpuGqn;
         "pkg-1.1.1" = _fDrhZr5Q;
@@ -84,7 +90,8 @@ let
         "pkg-1.1.4" = _J7sRBNNK;
         "pkg-1.1.5" = _g9suat2M;
         "pkg-1.2" = _WbHrIUvT;
-        "default" = _WbHrIUvT;
+        "pkg-1.2.1" = _IUWhhqas;
+        "default" = _IUWhhqas;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "glowing-3d-armor";

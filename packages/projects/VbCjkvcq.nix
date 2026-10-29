@@ -351,6 +351,11 @@ let
             "file" = "endportalrecipe-26.3.0-5.9.jar";
             "hash" = "sha512-MGXwSfk/V1fQRFunYtLHMlDdSlPz/IJedpWiVSOAoRrOC2OMYKNAId1MXNWZHYfChmvJB+k7K5GN6mJsQTVqKw==";
         };
+        _mn24gfHz = {
+            "id" = "mn24gfHz";
+            "file" = "endportalrecipe-26.1.2-5.9.jar";
+            "hash" = "sha512-rZPk9wMpb/v8e4/KzEP0TXGByKp+5ph/EYv9h3v1B6HRhYmpcWvCnDULlLQCKBrhD+F2IDxqo20p0qNezxseVw==";
+        };
     in {
         "sILlgqgj" = _sILlgqgj;
         "jjYapRn0" = _jjYapRn0;
@@ -422,6 +427,7 @@ let
         "y1F1rUGH" = _y1F1rUGH;
         "J96c6WKU" = _J96c6WKU;
         "JS9yWiis" = _JS9yWiis;
+        "mn24gfHz" = _mn24gfHz;
         "fabric-1.16.5" = _VbnJkKdj;
         "fabric-1.18.2" = _C3MI3hXU;
         "fabric-1.19.2" = _IuU1ixfB;
@@ -448,7 +454,7 @@ let
         "fabric-1.21.11" = _yHqlJIHZ;
         "fabric-26.1" = _umboOJWi;
         "fabric-26.1.1" = _rjWaoPJC;
-        "fabric-26.1.2" = _mfZyuY8Y;
+        "fabric-26.1.2" = _mn24gfHz;
         "fabric-26.2" = _J96c6WKU;
         "fabric-26.3" = _JS9yWiis;
         "forge-1.16.5" = _wuepvQsj;
@@ -475,7 +481,7 @@ let
         "forge-1.21.11" = _yHqlJIHZ;
         "forge-26.1" = _umboOJWi;
         "forge-26.1.1" = _rjWaoPJC;
-        "forge-26.1.2" = _mfZyuY8Y;
+        "forge-26.1.2" = _mn24gfHz;
         "forge-26.2" = _J96c6WKU;
         "forge-26.3" = _JS9yWiis;
         "quilt-1.18.2" = _C3MI3hXU;
@@ -503,7 +509,7 @@ let
         "quilt-1.21.11" = _yHqlJIHZ;
         "quilt-26.1" = _umboOJWi;
         "quilt-26.1.1" = _rjWaoPJC;
-        "quilt-26.1.2" = _mfZyuY8Y;
+        "quilt-26.1.2" = _mn24gfHz;
         "quilt-26.2" = _J96c6WKU;
         "quilt-26.3" = _JS9yWiis;
         "neoforge-1.20.2" = _XoSy9oOO;
@@ -526,7 +532,7 @@ let
         "neoforge-1.21.11" = _yHqlJIHZ;
         "neoforge-26.1" = _umboOJWi;
         "neoforge-26.1.1" = _rjWaoPJC;
-        "neoforge-26.1.2" = _mfZyuY8Y;
+        "neoforge-26.1.2" = _mn24gfHz;
         "neoforge-26.2" = _J96c6WKU;
         "neoforge-26.3" = _JS9yWiis;
         "pkg-1.16.5-2.9-fabric" = _sILlgqgj;
@@ -599,7 +605,8 @@ let
         "pkg-1.21.1-5.9-fabric+forge+neo" = _y1F1rUGH;
         "pkg-26.2.0-5.9-fabric+forge+neo" = _J96c6WKU;
         "pkg-26.3.0-5.9-fabric+forge+neo" = _JS9yWiis;
-        "default" = _JS9yWiis;
+        "pkg-26.1.2-5.9-fabric+forge+neo" = _mn24gfHz;
+        "default" = _mn24gfHz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "end-portal-recipe";

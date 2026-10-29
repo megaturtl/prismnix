@@ -31,6 +31,16 @@ let
             "file" = "BlocksAndBogies-1.0.8+fly-mc26.1.jar";
             "hash" = "sha512-Yc/5aov+OULKL/gBZ1QL8yJlRs1jni/OFJ/BgxdUe56H0ahSiu9xsDgfSKGWz924xff1o43PVQf7Vl+Fqvhcgw==";
         };
+        _AiMGcsCS = {
+            "id" = "AiMGcsCS";
+            "file" = "BlocksAndBogies-1.0.8.1+fly-mc26.2.jar";
+            "hash" = "sha512-GkSpnXgFkxSG9ZJDqQfIP2I6uFwYT+nUvWQr2ZwVQhkcy6ZkCgavDs0Q4qC1lIDSCYbGRD5JKT7j0WbLCeEccg==";
+        };
+        _Auji4688 = {
+            "id" = "Auji4688";
+            "file" = "BlocksAndBogies-1.0.8.1+fly-mc26.1.jar";
+            "hash" = "sha512-JMsIZKs05RkpZaiaUqdUb2S4KkwAD1x+h6B3OmhKFTN1hJb3U7nSp92DfSdoA8u5V1UewPioOZcAmSHNJ39Mgg==";
+        };
     in {
         "K41zEU6d" = _K41zEU6d;
         "1hGUsgKu" = _1hGUsgKu;
@@ -38,17 +48,21 @@ let
         "vukVrYwV" = _vukVrYwV;
         "KhxuPbmp" = _KhxuPbmp;
         "r9zJ9fFm" = _r9zJ9fFm;
-        "fabric-26.2" = _KhxuPbmp;
-        "fabric-26.1.2" = _r9zJ9fFm;
-        "fabric-26.1" = _r9zJ9fFm;
-        "fabric-26.1.1" = _r9zJ9fFm;
+        "AiMGcsCS" = _AiMGcsCS;
+        "Auji4688" = _Auji4688;
+        "fabric-26.2" = _AiMGcsCS;
+        "fabric-26.1.2" = _Auji4688;
+        "fabric-26.1" = _Auji4688;
+        "fabric-26.1.1" = _Auji4688;
         "pkg-1.0.8-fly.26.2-beta.4" = _K41zEU6d;
         "pkg-1.0.8-fly.26.1.2-beta.1" = _1hGUsgKu;
         "pkg-1.0.8-fly.26.1.2-beta.2" = _bMQDKedq;
         "pkg-1.0.8-fly.26.2-beta.5" = _vukVrYwV;
         "pkg-1.0.8+fly-mc26.2" = _KhxuPbmp;
         "pkg-1.0.8+fly-mc26.1" = _r9zJ9fFm;
-        "default" = _r9zJ9fFm;
+        "pkg-1.0.8.1+fly-mc26.2" = _AiMGcsCS;
+        "pkg-1.0.8.1+fly-mc26.1" = _Auji4688;
+        "default" = _Auji4688;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-fly-blocks-bogies-unofficial-port";

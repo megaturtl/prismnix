@@ -131,6 +131,21 @@ let
             "file" = "rs_integration-1.5.2.jar";
             "hash" = "sha512-hqNajRANfv68rOWFVrjteycyAJ2M3dYQG67owkE8fLiFu0LWsAYw+e23ccitGdpRp753PGUBzcsufZwFUbgZaQ==";
         };
+        _nFxfe9pn = {
+            "id" = "nFxfe9pn";
+            "file" = "rs_integration-1.5.2.1.jar";
+            "hash" = "sha512-LfoBFQkkRVArXhudUJLp/J38McTkBTKMeQkAtD2os5PPfjIoCs1y89GGgJkTECCm81efv4A3X/IKat3FpOd+yQ==";
+        };
+        _vx3OZQGY = {
+            "id" = "vx3OZQGY";
+            "file" = "rs_integration-1.5.2.2.jar";
+            "hash" = "sha512-C/6QV9DCsaZ0deeJcdM/2W7rW1MThhOlYxO+J1sbYqHmS3e4tzFfiFdeuJpxKXq96NbF1CjSpoaa4zxaCo3IoA==";
+        };
+        _Q60xCA4l = {
+            "id" = "Q60xCA4l";
+            "file" = "rs_integration-1.5.2.3.jar";
+            "hash" = "sha512-dM7L+q+vlqI6lP9VCJLw84A9DzjoMfwZCRClvoHorafJizPWl0KGmUwpmhHrqAdHQjiZLf3koEGChbwvaLX1kw==";
+        };
     in {
         "U2SS31Yn" = _U2SS31Yn;
         "MHm8uj2Y" = _MHm8uj2Y;
@@ -158,7 +173,10 @@ let
         "4UOBCmF3" = _4UOBCmF3;
         "E4ejDjYy" = _E4ejDjYy;
         "4OVTE0nH" = _4OVTE0nH;
-        "forge-1.20.1" = _4OVTE0nH;
+        "nFxfe9pn" = _nFxfe9pn;
+        "vx3OZQGY" = _vx3OZQGY;
+        "Q60xCA4l" = _Q60xCA4l;
+        "forge-1.20.1" = _Q60xCA4l;
         "pkg-1.2.9" = _U2SS31Yn;
         "pkg-1.3.1-fix" = _MHm8uj2Y;
         "pkg-1.3.2" = _mQd0KwpF;
@@ -185,7 +203,10 @@ let
         "pkg-1.5.0.5" = _4UOBCmF3;
         "pkg-1.5.1" = _E4ejDjYy;
         "pkg-1.5.2" = _4OVTE0nH;
-        "default" = _4OVTE0nH;
+        "pkg-1.5.2.1" = _nFxfe9pn;
+        "pkg-1.5.2.2" = _vx3OZQGY;
+        "pkg-1.5.2.3" = _Q60xCA4l;
+        "default" = _Q60xCA4l;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rs-integration";

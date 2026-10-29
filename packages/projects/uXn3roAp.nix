@@ -21,17 +21,24 @@ let
             "file" = "litematica-inv-highlight-26.2-1.0.1.jar";
             "hash" = "sha512-VFBlMqAFOTFrrKKCPu8bQjGmMsXrnIFVq2RiatI2y7X+B72g8cQ8G25oGWvQrvb3mdWBthGjnQeVKD74CDfLPA==";
         };
+        _B5UrhVj4 = {
+            "id" = "B5UrhVj4";
+            "file" = "litematica-inv-highlight-26.3-1.0.1.jar";
+            "hash" = "sha512-38e/PuxXpXfpnwWgZbjnL4p9NIl+JCj0LQzppS3rKXPWD7pCqop4QSSpmVhGnGwJZj2d+wxtaIrq2TysqCvYrg==";
+        };
     in {
         "PPbkZLq6" = _PPbkZLq6;
         "6yyB73pa" = _6yyB73pa;
         "S2Fvrknw" = _S2Fvrknw;
         "y10Knozv" = _y10Knozv;
+        "B5UrhVj4" = _B5UrhVj4;
         "fabric-1.21.8" = _6yyB73pa;
         "fabric-1.21.11" = _S2Fvrknw;
         "fabric-26.2" = _y10Knozv;
+        "fabric-26.3" = _B5UrhVj4;
         "pkg-1.0.0" = _PPbkZLq6;
-        "pkg-1.0.1" = _y10Knozv;
-        "default" = _y10Knozv;
+        "pkg-1.0.1" = _B5UrhVj4;
+        "default" = _B5UrhVj4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "litematica-inventory-highlight";

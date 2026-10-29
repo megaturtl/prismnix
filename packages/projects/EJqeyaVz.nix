@@ -456,6 +456,11 @@ let
             "file" = "nohostilesaroundcampfire-26.3.0-8.0.jar";
             "hash" = "sha512-BYA/EM/7BCC4F41AJfup7QHT93Q1ife/H+OIH6fGCwxh+lAtS2jTMMWzDcq/rR3296I703DSlzQq2sp64QJ9Xg==";
         };
+        _4m2ucuIu = {
+            "id" = "4m2ucuIu";
+            "file" = "nohostilesaroundcampfire-26.1.2-8.0.jar";
+            "hash" = "sha512-jjhT8g8dGMYtM+xAENRjTpCHj3R+EtoiSmBIWafy3UebGsTNH53hpVpYt7LE2UB8xj8RR//E3qAwv/2vAWKdfg==";
+        };
     in {
         "gI84Mxw3" = _gI84Mxw3;
         "9HOxJxjU" = _9HOxJxjU;
@@ -548,6 +553,7 @@ let
         "6eaN5iGE" = _6eaN5iGE;
         "Euy9PqXs" = _Euy9PqXs;
         "x7sFWR6R" = _x7sFWR6R;
+        "4m2ucuIu" = _4m2ucuIu;
         "fabric-1.16.5" = _7rfkTzEK;
         "fabric-1.18.2" = _KkqD6jwY;
         "fabric-1.19.2" = _1Mzo1WWs;
@@ -574,7 +580,7 @@ let
         "fabric-1.21.11" = _9YDHYveh;
         "fabric-26.1" = _6QowBHzA;
         "fabric-26.1.1" = _d37mUYvT;
-        "fabric-26.1.2" = _MmGMBptk;
+        "fabric-26.1.2" = _4m2ucuIu;
         "fabric-26.2" = _Euy9PqXs;
         "fabric-26.3" = _x7sFWR6R;
         "forge-1.16.5" = _reNw3tsw;
@@ -601,7 +607,7 @@ let
         "forge-1.21.11" = _9YDHYveh;
         "forge-26.1" = _6QowBHzA;
         "forge-26.1.1" = _d37mUYvT;
-        "forge-26.1.2" = _MmGMBptk;
+        "forge-26.1.2" = _4m2ucuIu;
         "forge-26.2" = _Euy9PqXs;
         "forge-26.3" = _x7sFWR6R;
         "quilt-1.18.2" = _KkqD6jwY;
@@ -629,7 +635,7 @@ let
         "quilt-1.21.11" = _9YDHYveh;
         "quilt-26.1" = _6QowBHzA;
         "quilt-26.1.1" = _d37mUYvT;
-        "quilt-26.1.2" = _MmGMBptk;
+        "quilt-26.1.2" = _4m2ucuIu;
         "quilt-26.2" = _Euy9PqXs;
         "quilt-26.3" = _x7sFWR6R;
         "neoforge-1.20.2" = _Uzs5XrgI;
@@ -652,7 +658,7 @@ let
         "neoforge-1.21.11" = _9YDHYveh;
         "neoforge-26.1" = _6QowBHzA;
         "neoforge-26.1.1" = _d37mUYvT;
-        "neoforge-26.1.2" = _MmGMBptk;
+        "neoforge-26.1.2" = _4m2ucuIu;
         "neoforge-26.2" = _Euy9PqXs;
         "neoforge-26.3" = _x7sFWR6R;
         "pkg-1.16.5-4.5-fabric" = _gI84Mxw3;
@@ -746,7 +752,8 @@ let
         "pkg-1.21.1-8.0-fabric+forge+neo" = _6eaN5iGE;
         "pkg-26.2.0-8.0-fabric+forge+neo" = _Euy9PqXs;
         "pkg-26.3.0-8.0-fabric+forge+neo" = _x7sFWR6R;
-        "default" = _x7sFWR6R;
+        "pkg-26.1.2-8.0-fabric+forge+neo" = _4m2ucuIu;
+        "default" = _4m2ucuIu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "no-hostiles-around-campfire";

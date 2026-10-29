@@ -386,6 +386,11 @@ let
             "file" = "difficultylock-26.3.0-5.2.jar";
             "hash" = "sha512-VQJVSXQ48qK8FxOli6HeJzU15CLdEwLJleBGCSZnFxZvXgKqUU/NTM54aAn5OfkZXHkWiTl4GNexvDNC+rs/7g==";
         };
+        _BH7XOFeC = {
+            "id" = "BH7XOFeC";
+            "file" = "difficultylock-26.1.2-5.2.jar";
+            "hash" = "sha512-XdbZVsC6wXp3vC0DRHpnbFWp9CCL+vrruvk7krAAUWTHI/wcf60Gj58FZARmJB9qGnqGzsRtZMEXx+ycmUms2Q==";
+        };
     in {
         "SOiHrLDt" = _SOiHrLDt;
         "3JCKs5Su" = _3JCKs5Su;
@@ -464,6 +469,7 @@ let
         "iWlLh5KI" = _iWlLh5KI;
         "f0kTHpOR" = _f0kTHpOR;
         "jWOo2uoZ" = _jWOo2uoZ;
+        "BH7XOFeC" = _BH7XOFeC;
         "fabric-1.16.5" = _XscKjLut;
         "fabric-1.18.2" = _JFOOCFGZ;
         "fabric-1.19.2" = _3dEz2QBM;
@@ -490,7 +496,7 @@ let
         "fabric-1.21.11" = _zarP0zGg;
         "fabric-26.1" = _CuVGmUXt;
         "fabric-26.1.1" = _Y27eyxHB;
-        "fabric-26.1.2" = _20nhoVBa;
+        "fabric-26.1.2" = _BH7XOFeC;
         "fabric-26.2" = _f0kTHpOR;
         "fabric-26.3" = _jWOo2uoZ;
         "forge-1.16.5" = _KQtqhQmj;
@@ -517,7 +523,7 @@ let
         "forge-1.21.11" = _zarP0zGg;
         "forge-26.1" = _CuVGmUXt;
         "forge-26.1.1" = _Y27eyxHB;
-        "forge-26.1.2" = _20nhoVBa;
+        "forge-26.1.2" = _BH7XOFeC;
         "forge-26.2" = _f0kTHpOR;
         "forge-26.3" = _jWOo2uoZ;
         "quilt-1.18.2" = _JFOOCFGZ;
@@ -545,7 +551,7 @@ let
         "quilt-1.21.11" = _zarP0zGg;
         "quilt-26.1" = _CuVGmUXt;
         "quilt-26.1.1" = _Y27eyxHB;
-        "quilt-26.1.2" = _20nhoVBa;
+        "quilt-26.1.2" = _BH7XOFeC;
         "quilt-26.2" = _f0kTHpOR;
         "quilt-26.3" = _jWOo2uoZ;
         "neoforge-1.20.2" = _VaRn03Ef;
@@ -568,7 +574,7 @@ let
         "neoforge-1.21.11" = _zarP0zGg;
         "neoforge-26.1" = _CuVGmUXt;
         "neoforge-26.1.1" = _Y27eyxHB;
-        "neoforge-26.1.2" = _20nhoVBa;
+        "neoforge-26.1.2" = _BH7XOFeC;
         "neoforge-26.2" = _f0kTHpOR;
         "neoforge-26.3" = _jWOo2uoZ;
         "pkg-1.16.5-1.7-fabric" = _SOiHrLDt;
@@ -648,7 +654,8 @@ let
         "pkg-1.21.1-5.2-fabric+forge+neo" = _iWlLh5KI;
         "pkg-26.2.0-5.2-fabric+forge+neo" = _f0kTHpOR;
         "pkg-26.3.0-5.2-fabric+forge+neo" = _jWOo2uoZ;
-        "default" = _jWOo2uoZ;
+        "pkg-26.1.2-5.2-fabric+forge+neo" = _BH7XOFeC;
+        "default" = _BH7XOFeC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "difficulty-lock";

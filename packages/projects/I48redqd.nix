@@ -21,18 +21,25 @@ let
             "file" = "vulkanflow-0.1.12-alpha.jar";
             "hash" = "sha512-KZacyw2zujk9Q44onyNOpU0llAxaCeRsomi2PrD/Nrq3I4F0sz5P/SIbgydxoEgWR29XAyZHTzGLunZcmBJYzg==";
         };
+        _PEyxuF0c = {
+            "id" = "PEyxuF0c";
+            "file" = "vulkanflow-0.1.13-alpha.jar";
+            "hash" = "sha512-tOK+me/KBn2IVlEVqMWNgRS0PwF+jjC0n4vR11mFsFcryZpNFmhkjF2h2lSTj3uXZtiV1cEUXAFas6GmLZK1TQ==";
+        };
     in {
         "qyLiKlzg" = _qyLiKlzg;
         "aaqg4pDN" = _aaqg4pDN;
         "61rw3ElR" = _61rw3ElR;
         "sE4aocXx" = _sE4aocXx;
+        "PEyxuF0c" = _PEyxuF0c;
         "fabric-26.2" = _61rw3ElR;
-        "fabric-26.3" = _sE4aocXx;
+        "fabric-26.3" = _PEyxuF0c;
         "pkg-0.1.0-alpha" = _qyLiKlzg;
         "pkg-0.1.1-alpha" = _aaqg4pDN;
         "pkg-0.1.11-alpha" = _61rw3ElR;
         "pkg-0.1.12-alpha" = _sE4aocXx;
-        "default" = _sE4aocXx;
+        "pkg-0.1.13-alpha" = _PEyxuF0c;
+        "default" = _PEyxuF0c;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vulkanflow";

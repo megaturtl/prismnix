@@ -451,6 +451,11 @@ let
             "file" = "giantspawn-26.3.0-5.6.jar";
             "hash" = "sha512-SMpjQOCx9u50f6bWN4dsghVDvLbtK9G8VDDUXBjUqGf6qT+A3nqU3ZuqyzoWVpO7VFrnTu803FhJcPI9C4FRsA==";
         };
+        _h0zS7dQn = {
+            "id" = "h0zS7dQn";
+            "file" = "giantspawn-26.1.2-5.6.jar";
+            "hash" = "sha512-b/vKXTSAoYEn9pBWaWKj82o/GfTJ5FWHg4yPh7jBALKYOznpckbFTRvW9PYNKN65YRmrQfw9+OCh8iUcfosTgQ==";
+        };
     in {
         "fazFLUeU" = _fazFLUeU;
         "nep0eNW3" = _nep0eNW3;
@@ -542,6 +547,7 @@ let
         "gDbUx33U" = _gDbUx33U;
         "XPQwYWZO" = _XPQwYWZO;
         "BUT6Fcn2" = _BUT6Fcn2;
+        "h0zS7dQn" = _h0zS7dQn;
         "fabric-1.16.5" = _SO3GziaG;
         "fabric-1.18.2" = _HxpfOibn;
         "fabric-1.19.2" = _tNoZRemN;
@@ -568,7 +574,7 @@ let
         "fabric-1.21.11" = _ZXIaITrF;
         "fabric-26.1" = _VJRD9fXy;
         "fabric-26.1.1" = _7BB7s7G3;
-        "fabric-26.1.2" = _w3Ur42Uz;
+        "fabric-26.1.2" = _h0zS7dQn;
         "fabric-26.2" = _XPQwYWZO;
         "fabric-26.3" = _BUT6Fcn2;
         "forge-1.16.5" = _60ka3x61;
@@ -595,7 +601,7 @@ let
         "forge-1.21.11" = _ZXIaITrF;
         "forge-26.1" = _VJRD9fXy;
         "forge-26.1.1" = _7BB7s7G3;
-        "forge-26.1.2" = _w3Ur42Uz;
+        "forge-26.1.2" = _h0zS7dQn;
         "forge-26.2" = _XPQwYWZO;
         "forge-26.3" = _BUT6Fcn2;
         "quilt-1.18.2" = _HxpfOibn;
@@ -623,7 +629,7 @@ let
         "quilt-1.21.11" = _ZXIaITrF;
         "quilt-26.1" = _VJRD9fXy;
         "quilt-26.1.1" = _7BB7s7G3;
-        "quilt-26.1.2" = _w3Ur42Uz;
+        "quilt-26.1.2" = _h0zS7dQn;
         "quilt-26.2" = _XPQwYWZO;
         "quilt-26.3" = _BUT6Fcn2;
         "neoforge-1.20.2" = _ZOtbaw5e;
@@ -646,7 +652,7 @@ let
         "neoforge-1.21.11" = _ZXIaITrF;
         "neoforge-26.1" = _VJRD9fXy;
         "neoforge-26.1.1" = _7BB7s7G3;
-        "neoforge-26.1.2" = _w3Ur42Uz;
+        "neoforge-26.1.2" = _h0zS7dQn;
         "neoforge-26.2" = _XPQwYWZO;
         "neoforge-26.3" = _BUT6Fcn2;
         "pkg-1.16.5-3.1-fabric" = _fazFLUeU;
@@ -739,7 +745,8 @@ let
         "pkg-1.21.1-5.6-fabric+forge+neo" = _gDbUx33U;
         "pkg-26.2.0-5.6-fabric+forge+neo" = _XPQwYWZO;
         "pkg-26.3.0-5.6-fabric+forge+neo" = _BUT6Fcn2;
-        "default" = _BUT6Fcn2;
+        "pkg-26.1.2-5.6-fabric+forge+neo" = _h0zS7dQn;
+        "default" = _h0zS7dQn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "giant-spawn";

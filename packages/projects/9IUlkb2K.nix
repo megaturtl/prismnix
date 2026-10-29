@@ -211,6 +211,11 @@ let
             "file" = "cavespiderspawn-26.3.0-1.5.jar";
             "hash" = "sha512-QZ/wTyNzlHsZfdY/CqUkyIFQFuglIGi/hM0E9omCowB4dJY/nyzbnaxcWd+D0zdQNb0rpt+oC991c4iZTZYbrA==";
         };
+        _vjK50HLz = {
+            "id" = "vjK50HLz";
+            "file" = "cavespiderspawn-26.1.2-1.5.jar";
+            "hash" = "sha512-ME64ayXD9fwZ7jKv8ShPjGRhUQhXmtcBjbhGVsiWU/BhfFXzceitjiaF26nH7wGDOykej0irePV3kSYfpou8jg==";
+        };
     in {
         "URfp9q9d" = _URfp9q9d;
         "px7XoPaZ" = _px7XoPaZ;
@@ -254,6 +259,7 @@ let
         "dQgJfj6t" = _dQgJfj6t;
         "SK0tJ8VW" = _SK0tJ8VW;
         "pQaJLh9R" = _pQaJLh9R;
+        "vjK50HLz" = _vjK50HLz;
         "fabric-1.19.2" = _57Vpwkxg;
         "fabric-1.20.1" = _8CTfMVMT;
         "fabric-1.20.2" = _v7C8YCFL;
@@ -274,7 +280,7 @@ let
         "fabric-1.21.11" = _OvGmGDx9;
         "fabric-26.1" = _ua3yqxti;
         "fabric-26.1.1" = _PHFK0XVo;
-        "fabric-26.1.2" = _GTJAXZrV;
+        "fabric-26.1.2" = _vjK50HLz;
         "fabric-26.2" = _SK0tJ8VW;
         "fabric-26.3" = _pQaJLh9R;
         "forge-1.19.2" = _57Vpwkxg;
@@ -295,7 +301,7 @@ let
         "forge-1.21.11" = _OvGmGDx9;
         "forge-26.1" = _ua3yqxti;
         "forge-26.1.1" = _PHFK0XVo;
-        "forge-26.1.2" = _GTJAXZrV;
+        "forge-26.1.2" = _vjK50HLz;
         "forge-26.2" = _SK0tJ8VW;
         "forge-26.3" = _pQaJLh9R;
         "quilt-1.19.2" = _57Vpwkxg;
@@ -318,7 +324,7 @@ let
         "quilt-1.21.11" = _OvGmGDx9;
         "quilt-26.1" = _ua3yqxti;
         "quilt-26.1.1" = _PHFK0XVo;
-        "quilt-26.1.2" = _GTJAXZrV;
+        "quilt-26.1.2" = _vjK50HLz;
         "quilt-26.2" = _SK0tJ8VW;
         "quilt-26.3" = _pQaJLh9R;
         "neoforge-1.20.1" = _8CTfMVMT;
@@ -340,7 +346,7 @@ let
         "neoforge-1.21.11" = _OvGmGDx9;
         "neoforge-26.1" = _ua3yqxti;
         "neoforge-26.1.1" = _PHFK0XVo;
-        "neoforge-26.1.2" = _GTJAXZrV;
+        "neoforge-26.1.2" = _vjK50HLz;
         "neoforge-26.2" = _SK0tJ8VW;
         "neoforge-26.3" = _pQaJLh9R;
         "pkg-1.19.2-1.0-fabric+forge+neo" = _URfp9q9d;
@@ -385,7 +391,8 @@ let
         "pkg-1.21.1-1.5-fabric+forge+neo" = _dQgJfj6t;
         "pkg-26.2.0-1.5-fabric+forge+neo" = _SK0tJ8VW;
         "pkg-26.3.0-1.5-fabric+forge+neo" = _pQaJLh9R;
-        "default" = _pQaJLh9R;
+        "pkg-26.1.2-1.5-fabric+forge+neo" = _vjK50HLz;
+        "default" = _vjK50HLz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cave-spider-spawn";

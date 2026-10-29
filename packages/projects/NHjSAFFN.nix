@@ -386,6 +386,11 @@ let
             "file" = "sleepsooner-26.3.0-5.2.jar";
             "hash" = "sha512-aNX3KDACPapUvHVllwB9AzT05GMh3jTlkyKu9zxAAE+vmHYx2ovXiBqHHcorYgGu9CepN1/xr/sFpNtgqetfig==";
         };
+        _JP7jBdZD = {
+            "id" = "JP7jBdZD";
+            "file" = "sleepsooner-26.1.2-5.2.jar";
+            "hash" = "sha512-MWQxzKu8HKgKiyzidIDNR1aZyeSXRYf5m1ZuvUHd0i05i66iYR3xBWPuX8GhY5WLhk1kaMx7f/fL41Gg0A8r2Q==";
+        };
     in {
         "gZjFdnbo" = _gZjFdnbo;
         "ggFGehck" = _ggFGehck;
@@ -464,6 +469,7 @@ let
         "pZqJrvaG" = _pZqJrvaG;
         "JaizXVV1" = _JaizXVV1;
         "nbG9aUg6" = _nbG9aUg6;
+        "JP7jBdZD" = _JP7jBdZD;
         "fabric-1.16.5" = _u5ZdGSyD;
         "fabric-1.18.2" = _eaY2eAkM;
         "fabric-1.19.2" = _NwkSJv4i;
@@ -490,7 +496,7 @@ let
         "fabric-1.21.11" = _kzzCCyVf;
         "fabric-26.1" = _zmwsdtfu;
         "fabric-26.1.1" = _a8OFWLd1;
-        "fabric-26.1.2" = _onK6yWXY;
+        "fabric-26.1.2" = _JP7jBdZD;
         "fabric-26.2" = _JaizXVV1;
         "fabric-26.3" = _nbG9aUg6;
         "forge-1.16.5" = _IrDaHcCT;
@@ -517,7 +523,7 @@ let
         "forge-1.21.11" = _kzzCCyVf;
         "forge-26.1" = _zmwsdtfu;
         "forge-26.1.1" = _a8OFWLd1;
-        "forge-26.1.2" = _onK6yWXY;
+        "forge-26.1.2" = _JP7jBdZD;
         "forge-26.2" = _JaizXVV1;
         "forge-26.3" = _nbG9aUg6;
         "quilt-1.18.2" = _eaY2eAkM;
@@ -545,7 +551,7 @@ let
         "quilt-1.21.11" = _kzzCCyVf;
         "quilt-26.1" = _zmwsdtfu;
         "quilt-26.1.1" = _a8OFWLd1;
-        "quilt-26.1.2" = _onK6yWXY;
+        "quilt-26.1.2" = _JP7jBdZD;
         "quilt-26.2" = _JaizXVV1;
         "quilt-26.3" = _nbG9aUg6;
         "neoforge-1.20.2" = _Ux2xl85r;
@@ -568,7 +574,7 @@ let
         "neoforge-1.21.11" = _kzzCCyVf;
         "neoforge-26.1" = _zmwsdtfu;
         "neoforge-26.1.1" = _a8OFWLd1;
-        "neoforge-26.1.2" = _onK6yWXY;
+        "neoforge-26.1.2" = _JP7jBdZD;
         "neoforge-26.2" = _JaizXVV1;
         "neoforge-26.3" = _nbG9aUg6;
         "pkg-1.16.5-3.0-fabric" = _gZjFdnbo;
@@ -648,7 +654,8 @@ let
         "pkg-1.21.1-5.2-fabric+forge+neo" = _pZqJrvaG;
         "pkg-26.2.0-5.2-fabric+forge+neo" = _JaizXVV1;
         "pkg-26.3.0-5.2-fabric+forge+neo" = _nbG9aUg6;
-        "default" = _nbG9aUg6;
+        "pkg-26.1.2-5.2-fabric+forge+neo" = _JP7jBdZD;
+        "default" = _JP7jBdZD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sleep-sooner";

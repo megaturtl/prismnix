@@ -301,6 +301,11 @@ let
             "file" = "configurablefurnaceburntime-26.3.0-2.6.jar";
             "hash" = "sha512-afKE75noi2SGT0WvoqeQDlCrEwXKv50PnIRfbsxf2v1ywl5ScWQtsjm88CrfieEzJzaSJPGwrliGExETuCAWIA==";
         };
+        _p2vPvlG6 = {
+            "id" = "p2vPvlG6";
+            "file" = "configurablefurnaceburntime-26.1.2-2.6.jar";
+            "hash" = "sha512-0OSbRUL0HS66vWzNC/k9dU9NQekMS6B2EdH70/EytaebB1hs8JxsEZfOljzxPghhs/O7MYDuwxfTA+8QByAIJQ==";
+        };
     in {
         "UZjNa2XL" = _UZjNa2XL;
         "wCIwG192" = _wCIwG192;
@@ -362,6 +367,7 @@ let
         "idZkRjJG" = _idZkRjJG;
         "sALp6ZtF" = _sALp6ZtF;
         "HgLQvtrY" = _HgLQvtrY;
+        "p2vPvlG6" = _p2vPvlG6;
         "fabric-1.16.5" = _qcyuhs8T;
         "fabric-1.18.2" = _FpHkyjqc;
         "fabric-1.19.2" = _sYfoiCjI;
@@ -388,7 +394,7 @@ let
         "fabric-1.21.11" = _rOXXcpMw;
         "fabric-26.1" = _qfS7josE;
         "fabric-26.1.1" = _meilNEjZ;
-        "fabric-26.1.2" = _kQ7suYg4;
+        "fabric-26.1.2" = _p2vPvlG6;
         "fabric-26.2" = _sALp6ZtF;
         "fabric-26.3" = _HgLQvtrY;
         "forge-1.16.5" = _lXe4PfnN;
@@ -415,7 +421,7 @@ let
         "forge-1.21.11" = _rOXXcpMw;
         "forge-26.1" = _qfS7josE;
         "forge-26.1.1" = _meilNEjZ;
-        "forge-26.1.2" = _kQ7suYg4;
+        "forge-26.1.2" = _p2vPvlG6;
         "forge-26.2" = _sALp6ZtF;
         "forge-26.3" = _HgLQvtrY;
         "quilt-1.18.2" = _FpHkyjqc;
@@ -443,7 +449,7 @@ let
         "quilt-1.21.11" = _rOXXcpMw;
         "quilt-26.1" = _qfS7josE;
         "quilt-26.1.1" = _meilNEjZ;
-        "quilt-26.1.2" = _kQ7suYg4;
+        "quilt-26.1.2" = _p2vPvlG6;
         "quilt-26.2" = _sALp6ZtF;
         "quilt-26.3" = _HgLQvtrY;
         "neoforge-1.20.2" = _irNOlEuK;
@@ -466,7 +472,7 @@ let
         "neoforge-1.21.11" = _rOXXcpMw;
         "neoforge-26.1" = _qfS7josE;
         "neoforge-26.1.1" = _meilNEjZ;
-        "neoforge-26.1.2" = _kQ7suYg4;
+        "neoforge-26.1.2" = _p2vPvlG6;
         "neoforge-26.2" = _sALp6ZtF;
         "neoforge-26.3" = _HgLQvtrY;
         "pkg-1.16.5-1.4-fabric" = _UZjNa2XL;
@@ -529,7 +535,8 @@ let
         "pkg-1.21.1-2.6-fabric+forge+neo" = _idZkRjJG;
         "pkg-26.2.0-2.6-fabric+forge+neo" = _sALp6ZtF;
         "pkg-26.3.0-2.6-fabric+forge+neo" = _HgLQvtrY;
-        "default" = _HgLQvtrY;
+        "pkg-26.1.2-2.6-fabric+forge+neo" = _p2vPvlG6;
+        "default" = _p2vPvlG6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "configurable-furnace-burn-time";

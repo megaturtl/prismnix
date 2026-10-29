@@ -396,6 +396,11 @@ let
             "file" = "compacthelpcommand-26.3.0-3.1.jar";
             "hash" = "sha512-MP8gyZU4hXkAT0eEM+AElxmJlIqIQeDiINCMQPFSRlPYc574pQxopPjiyqYbfvhOi5aKbjsPFT/JUXVBJUT1Sg==";
         };
+        _JPawqbGB = {
+            "id" = "JPawqbGB";
+            "file" = "compacthelpcommand-26.1.2-3.1.jar";
+            "hash" = "sha512-Z7Vf4QMOvjwiGd7Aotf/SshmKP/AYVJiCcMGVpiVvst/4eLf28GOPb9ClN/ho9v9wtVwRd0AIXJsB8TDt+FAFA==";
+        };
     in {
         "kr2udK7q" = _kr2udK7q;
         "f6bYqipX" = _f6bYqipX;
@@ -476,6 +481,7 @@ let
         "O6L3UJw7" = _O6L3UJw7;
         "koURFtIQ" = _koURFtIQ;
         "rkifazvP" = _rkifazvP;
+        "JPawqbGB" = _JPawqbGB;
         "fabric-1.16.5" = _KmgAPtDV;
         "fabric-1.18.2" = _juFjGpQO;
         "fabric-1.19.2" = _F7aDqeyY;
@@ -502,7 +508,7 @@ let
         "fabric-1.21.11" = _Uo0h0wud;
         "fabric-26.1" = _iOP6fgvA;
         "fabric-26.1.1" = _6bMjBWJq;
-        "fabric-26.1.2" = _QI0rNSae;
+        "fabric-26.1.2" = _JPawqbGB;
         "fabric-26.2" = _koURFtIQ;
         "fabric-26.3" = _rkifazvP;
         "forge-1.16.5" = _j9mYzJMs;
@@ -529,7 +535,7 @@ let
         "forge-1.21.11" = _Uo0h0wud;
         "forge-26.1" = _iOP6fgvA;
         "forge-26.1.1" = _6bMjBWJq;
-        "forge-26.1.2" = _QI0rNSae;
+        "forge-26.1.2" = _JPawqbGB;
         "forge-26.2" = _koURFtIQ;
         "forge-26.3" = _rkifazvP;
         "quilt-1.18.2" = _juFjGpQO;
@@ -557,7 +563,7 @@ let
         "quilt-1.21.11" = _Uo0h0wud;
         "quilt-26.1" = _iOP6fgvA;
         "quilt-26.1.1" = _6bMjBWJq;
-        "quilt-26.1.2" = _QI0rNSae;
+        "quilt-26.1.2" = _JPawqbGB;
         "quilt-26.2" = _koURFtIQ;
         "quilt-26.3" = _rkifazvP;
         "neoforge-1.20.2" = _cR4yzk71;
@@ -580,7 +586,7 @@ let
         "neoforge-1.21.11" = _Uo0h0wud;
         "neoforge-26.1" = _iOP6fgvA;
         "neoforge-26.1.1" = _6bMjBWJq;
-        "neoforge-26.1.2" = _QI0rNSae;
+        "neoforge-26.1.2" = _JPawqbGB;
         "neoforge-26.2" = _koURFtIQ;
         "neoforge-26.3" = _rkifazvP;
         "pkg-1.16.5-1.5-fabric" = _kr2udK7q;
@@ -662,7 +668,8 @@ let
         "pkg-1.21.1-3.1-fabric+forge+neo" = _O6L3UJw7;
         "pkg-26.2.0-3.1-fabric+forge+neo" = _koURFtIQ;
         "pkg-26.3.0-3.1-fabric+forge+neo" = _rkifazvP;
-        "default" = _rkifazvP;
+        "pkg-26.1.2-3.1-fabric+forge+neo" = _JPawqbGB;
+        "default" = _JPawqbGB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "compact-help-command";

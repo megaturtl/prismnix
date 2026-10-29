@@ -11,14 +11,43 @@ let
             "file" = "mca-ev-compat-1.21.1-2.0.0.jar";
             "hash" = "sha512-GJ/cpXS6qZI5zqIIU0hhMQwSQHbxqYH/jwC3VyoqpYkN0SeewXQ3RZCzfV/LbT/5MJVvIxds1tTm8uvpQfwO2A==";
         };
+        _MqRtOqPK = {
+            "id" = "MqRtOqPK";
+            "file" = "mca-ev-compat-1.20.1-1.1.9.jar";
+            "hash" = "sha512-osAXe+jJpxkdgCiWBScG+l0b2hO9t11lH67pGq4kiBee9XTEko6VqWUYviGgGWGeXnYh+6i5bjOotXnmGl7qlg==";
+        };
+        _54Mt0AwS = {
+            "id" = "54Mt0AwS";
+            "file" = "mca-ev-compat-1.21.1-2.2.7.jar";
+            "hash" = "sha512-9Mz3sWhhResrn3evT2MSPAtwWj0KAS36Yl5P2bzclAgMIjyhDbS6GAMAxLBxjHWxkBfeM3n6lnr3DWGw+xCUCQ==";
+        };
+        _K9eR3nhL = {
+            "id" = "K9eR3nhL";
+            "file" = "mca-ev-compat-26.1.2-3.1.6.jar";
+            "hash" = "sha512-aNlX7MkRHZ1hfz9WHhfdXWyy+wZ09bOpvm5XP4n7t6mvY7FE8qPKFHvWKNCiAzRDJDbRIUydv2LtYW3v13mllg==";
+        };
+        _5oUkmGze = {
+            "id" = "5oUkmGze";
+            "file" = "mca-ev-compat-1.21.1-2.2.8.jar";
+            "hash" = "sha512-qMZa7iT8sRdQahc4guvUW7heSronzWMwn+dsqO1ZV+uXJ/dEKngW8KYBnXIBz4pzYPVDSBETf4nqSeaxENiVqQ==";
+        };
     in {
         "CHLYlFmg" = _CHLYlFmg;
         "zcUGc31f" = _zcUGc31f;
-        "forge-1.20.1" = _CHLYlFmg;
-        "neoforge-1.21.1" = _zcUGc31f;
+        "MqRtOqPK" = _MqRtOqPK;
+        "54Mt0AwS" = _54Mt0AwS;
+        "K9eR3nhL" = _K9eR3nhL;
+        "5oUkmGze" = _5oUkmGze;
+        "forge-1.20.1" = _MqRtOqPK;
+        "neoforge-1.21.1" = _5oUkmGze;
+        "neoforge-26.1.2" = _K9eR3nhL;
         "pkg-1.0.0" = _CHLYlFmg;
         "pkg-2.0.0" = _zcUGc31f;
-        "default" = _zcUGc31f;
+        "pkg-1.1.0" = _MqRtOqPK;
+        "pkg-2.1.0" = _54Mt0AwS;
+        "pkg-3.0.0" = _K9eR3nhL;
+        "pkg-2.2.0" = _5oUkmGze;
+        "default" = _5oUkmGze;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mca-reborn-x-easy-villagers-compat";

@@ -81,6 +81,16 @@ let
             "file" = "DimStorage-26.3-10.1.1.jar";
             "hash" = "sha512-z1HiHFMc0BnGMS2iH9h/iUeRNT5THOBggde25PxJhtqVfACBsLSqautq0XL+QczdFc3PZAWGJ8MWi/UKU0pc4w==";
         };
+        _h8jimV9Y = {
+            "id" = "h8jimV9Y";
+            "file" = "DimStorage-26.3-10.1.2.jar";
+            "hash" = "sha512-Xi95RTFfyFsFpKOhRFwwDCbDkbCrUqkOg4MUG4BM0ygsQGYTuT5TagIOEFyhoY5dog7Xf2iIcnwKS4+VdBoZNA==";
+        };
+        _tsOpH5Mt = {
+            "id" = "tsOpH5Mt";
+            "file" = "DimStorage-26.1.2-10.0.2.jar";
+            "hash" = "sha512-EEQEsrQYVL5ys8ajwdhPFK2VEcliLp8h6fF7rkC398qMX1Q6XlJdaxK727Dmv0FvOzCQQAaR7Q/OGWGsWkUZug==";
+        };
     in {
         "zTdvqYPN" = _zTdvqYPN;
         "icmIYPEA" = _icmIYPEA;
@@ -98,6 +108,8 @@ let
         "Zg0Pu57c" = _Zg0Pu57c;
         "M3k4m1z7" = _M3k4m1z7;
         "cOs6zvVn" = _cOs6zvVn;
+        "h8jimV9Y" = _h8jimV9Y;
+        "tsOpH5Mt" = _tsOpH5Mt;
         "forge-1.20.1" = _zTdvqYPN;
         "neoforge-1.20.1" = _zTdvqYPN;
         "neoforge-1.20.4" = _JLeSQt6T;
@@ -106,8 +118,8 @@ let
         "neoforge-1.21.8" = _7rBemBSh;
         "neoforge-1.21.10" = _JdVsAAl2;
         "neoforge-1.21.11" = _Tqn3qtJm;
-        "neoforge-26.1.2" = _Zg0Pu57c;
-        "neoforge-26.3" = _cOs6zvVn;
+        "neoforge-26.1.2" = _tsOpH5Mt;
+        "neoforge-26.3" = _h8jimV9Y;
         "pkg-8.0.1" = _zTdvqYPN;
         "pkg-8.1.0" = _icmIYPEA;
         "pkg-9.0.0" = _4VXOG4Nj;
@@ -124,7 +136,9 @@ let
         "pkg-10.0.1" = _Zg0Pu57c;
         "pkg-10.1.0" = _M3k4m1z7;
         "pkg-10.1.1" = _cOs6zvVn;
-        "default" = _cOs6zvVn;
+        "pkg-10.1.2" = _h8jimV9Y;
+        "pkg-10.0.2" = _tsOpH5Mt;
+        "default" = _tsOpH5Mt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dimstorage";

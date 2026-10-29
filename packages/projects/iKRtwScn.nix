@@ -301,6 +301,11 @@ let
             "file" = "despawningeggshatch-26.3.0-4.6.jar";
             "hash" = "sha512-tv6kxptSbkQqKfBMI78qxXEwnqGitqVG/PkWgajK7GqIZcRqgcWEmR8AYUxYdryFP6zRj4ppnFDgSFpb/CcYOg==";
         };
+        _XFYxSMaM = {
+            "id" = "XFYxSMaM";
+            "file" = "despawningeggshatch-26.1.2-4.6.jar";
+            "hash" = "sha512-9bQS3DjnTgDHyb2kFr79ky46cFZL0q4gEMObbUr/n5mt2SQuVTawUOUB/c32T8raYrSrMiG0aLVJb3IzpYYhug==";
+        };
     in {
         "3G1UKFNE" = _3G1UKFNE;
         "MgdksrZZ" = _MgdksrZZ;
@@ -362,6 +367,7 @@ let
         "rqP2mxqW" = _rqP2mxqW;
         "7QR7ko1N" = _7QR7ko1N;
         "Cuh9Rono" = _Cuh9Rono;
+        "XFYxSMaM" = _XFYxSMaM;
         "fabric-1.16.5" = _ZhH1M91c;
         "fabric-1.18.2" = _L7qKaSRo;
         "fabric-1.19.2" = _OxJ3LkHD;
@@ -388,7 +394,7 @@ let
         "fabric-1.21.11" = _YavMZApU;
         "fabric-26.1" = _aW4dckTh;
         "fabric-26.1.1" = _P83evwpP;
-        "fabric-26.1.2" = _Pi0oPVQv;
+        "fabric-26.1.2" = _XFYxSMaM;
         "fabric-26.2" = _7QR7ko1N;
         "fabric-26.3" = _Cuh9Rono;
         "forge-1.16.5" = _reovHRWf;
@@ -415,7 +421,7 @@ let
         "forge-1.21.11" = _YavMZApU;
         "forge-26.1" = _aW4dckTh;
         "forge-26.1.1" = _P83evwpP;
-        "forge-26.1.2" = _Pi0oPVQv;
+        "forge-26.1.2" = _XFYxSMaM;
         "forge-26.2" = _7QR7ko1N;
         "forge-26.3" = _Cuh9Rono;
         "quilt-1.18.2" = _L7qKaSRo;
@@ -443,7 +449,7 @@ let
         "quilt-1.21.11" = _YavMZApU;
         "quilt-26.1" = _aW4dckTh;
         "quilt-26.1.1" = _P83evwpP;
-        "quilt-26.1.2" = _Pi0oPVQv;
+        "quilt-26.1.2" = _XFYxSMaM;
         "quilt-26.2" = _7QR7ko1N;
         "quilt-26.3" = _Cuh9Rono;
         "neoforge-1.20.2" = _D911gG2P;
@@ -466,7 +472,7 @@ let
         "neoforge-1.21.11" = _YavMZApU;
         "neoforge-26.1" = _aW4dckTh;
         "neoforge-26.1.1" = _P83evwpP;
-        "neoforge-26.1.2" = _Pi0oPVQv;
+        "neoforge-26.1.2" = _XFYxSMaM;
         "neoforge-26.2" = _7QR7ko1N;
         "neoforge-26.3" = _Cuh9Rono;
         "pkg-1.16.5-2.7-fabric" = _3G1UKFNE;
@@ -529,7 +535,8 @@ let
         "pkg-1.21.1-4.6-fabric+forge+neo" = _rqP2mxqW;
         "pkg-26.2.0-4.6-fabric+forge+neo" = _7QR7ko1N;
         "pkg-26.3.0-4.6-fabric+forge+neo" = _Cuh9Rono;
-        "default" = _Cuh9Rono;
+        "pkg-26.1.2-4.6-fabric+forge+neo" = _XFYxSMaM;
+        "default" = _XFYxSMaM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "despawning-eggs-hatch";

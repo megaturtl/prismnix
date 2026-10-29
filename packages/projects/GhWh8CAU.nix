@@ -296,6 +296,11 @@ let
             "file" = "customcredits-26.3.0-2.0.jar";
             "hash" = "sha512-d+5efXhOWlaZkeHf0vX1CpVU30SUBqznMKjLYipDPdN9C8d3RxLhBUwETVqThTon/AMtnIHp5HnrMalHtV3ejw==";
         };
+        _GdwtOcwq = {
+            "id" = "GdwtOcwq";
+            "file" = "customcredits-26.1.2-2.0.jar";
+            "hash" = "sha512-0mfGeF6Y9sQJmAcdCSXQx69+UWIT6AKH4EByXEmGHQ5EVKoI68nszqYwyyxB/pT7MMWObfdAw6EeQFGtitGJgA==";
+        };
     in {
         "sjorSLN5" = _sjorSLN5;
         "6jeSHK0D" = _6jeSHK0D;
@@ -356,6 +361,7 @@ let
         "sWSXOnw9" = _sWSXOnw9;
         "ArrKQBvH" = _ArrKQBvH;
         "CyFtLc00" = _CyFtLc00;
+        "GdwtOcwq" = _GdwtOcwq;
         "fabric-1.18.2" = _aT8b3R1v;
         "fabric-1.19.2" = _FpRH4ocY;
         "fabric-1.19.4" = _K6Rp3JJc;
@@ -379,7 +385,7 @@ let
         "fabric-1.21.11" = _q8s5cGyW;
         "fabric-26.1" = _ScZKYfNT;
         "fabric-26.1.1" = _HPSmaVlz;
-        "fabric-26.1.2" = _xwetsg9H;
+        "fabric-26.1.2" = _GdwtOcwq;
         "fabric-26.2" = _ArrKQBvH;
         "fabric-26.3" = _CyFtLc00;
         "forge-1.18.2" = _aT8b3R1v;
@@ -403,7 +409,7 @@ let
         "forge-1.21.11" = _q8s5cGyW;
         "forge-26.1" = _ScZKYfNT;
         "forge-26.1.1" = _HPSmaVlz;
-        "forge-26.1.2" = _xwetsg9H;
+        "forge-26.1.2" = _GdwtOcwq;
         "forge-26.2" = _ArrKQBvH;
         "forge-26.3" = _CyFtLc00;
         "quilt-1.18.2" = _aT8b3R1v;
@@ -429,7 +435,7 @@ let
         "quilt-1.21.11" = _q8s5cGyW;
         "quilt-26.1" = _ScZKYfNT;
         "quilt-26.1.1" = _HPSmaVlz;
-        "quilt-26.1.2" = _xwetsg9H;
+        "quilt-26.1.2" = _GdwtOcwq;
         "quilt-26.2" = _ArrKQBvH;
         "quilt-26.3" = _CyFtLc00;
         "neoforge-1.20.2" = _hzT1Ccso;
@@ -452,7 +458,7 @@ let
         "neoforge-1.21.11" = _q8s5cGyW;
         "neoforge-26.1" = _ScZKYfNT;
         "neoforge-26.1.1" = _HPSmaVlz;
-        "neoforge-26.1.2" = _xwetsg9H;
+        "neoforge-26.1.2" = _GdwtOcwq;
         "neoforge-26.2" = _ArrKQBvH;
         "neoforge-26.3" = _CyFtLc00;
         "pkg-1.18.2-1.0-forge+fabric" = _sjorSLN5;
@@ -513,7 +519,8 @@ let
         "pkg-1.21.1-2.0-fabric+forge+neo" = _sWSXOnw9;
         "pkg-26.2.0-2.0-fabric+forge+neo" = _ArrKQBvH;
         "pkg-26.3.0-2.0-fabric+forge+neo" = _CyFtLc00;
-        "default" = _CyFtLc00;
+        "pkg-26.1.2-2.0-fabric+forge+neo" = _GdwtOcwq;
+        "default" = _GdwtOcwq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "custom-credits";

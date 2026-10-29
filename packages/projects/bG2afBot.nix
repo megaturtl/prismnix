@@ -301,6 +301,11 @@ let
             "file" = "bottleyourxp-26.3.0-3.6.jar";
             "hash" = "sha512-VDz9zCCAFmuAPJVhJjVQyHdN9m+d/VeO7AW7aSxFF/i57K6IGywF/emZqq6HhGCw3+tquHr+ocla/dZLhGhE1g==";
         };
+        _rzhBOzgc = {
+            "id" = "rzhBOzgc";
+            "file" = "bottleyourxp-26.1.2-3.6.jar";
+            "hash" = "sha512-kV+/OlofaGjaFPEhra7eDuX1V3/iKURnd0+UBF13KIGJn6tjYXOONOMtdxnDfCqwGT5KOk61q4HOC+t+0aZQeg==";
+        };
     in {
         "BaxJH9vM" = _BaxJH9vM;
         "JiD08fVz" = _JiD08fVz;
@@ -362,6 +367,7 @@ let
         "Px8ZLmqD" = _Px8ZLmqD;
         "Yzf78Ygg" = _Yzf78Ygg;
         "4XcpMWY3" = _4XcpMWY3;
+        "rzhBOzgc" = _rzhBOzgc;
         "fabric-1.16.5" = _xTb8rjDX;
         "fabric-1.18.2" = _nkUIm15c;
         "fabric-1.19.2" = _vWzC8pwH;
@@ -388,7 +394,7 @@ let
         "fabric-1.21.11" = _HgHYfYi4;
         "fabric-26.1" = _Oth91qD5;
         "fabric-26.1.1" = _XlFZWXTd;
-        "fabric-26.1.2" = _YsIN5piX;
+        "fabric-26.1.2" = _rzhBOzgc;
         "fabric-26.2" = _Yzf78Ygg;
         "fabric-26.3" = _4XcpMWY3;
         "forge-1.16.5" = _lClUFgCI;
@@ -415,7 +421,7 @@ let
         "forge-1.21.11" = _HgHYfYi4;
         "forge-26.1" = _Oth91qD5;
         "forge-26.1.1" = _XlFZWXTd;
-        "forge-26.1.2" = _YsIN5piX;
+        "forge-26.1.2" = _rzhBOzgc;
         "forge-26.2" = _Yzf78Ygg;
         "forge-26.3" = _4XcpMWY3;
         "quilt-1.18.2" = _nkUIm15c;
@@ -443,7 +449,7 @@ let
         "quilt-1.21.11" = _HgHYfYi4;
         "quilt-26.1" = _Oth91qD5;
         "quilt-26.1.1" = _XlFZWXTd;
-        "quilt-26.1.2" = _YsIN5piX;
+        "quilt-26.1.2" = _rzhBOzgc;
         "quilt-26.2" = _Yzf78Ygg;
         "quilt-26.3" = _4XcpMWY3;
         "neoforge-1.20.2" = _TfCHpLEP;
@@ -466,7 +472,7 @@ let
         "neoforge-1.21.11" = _HgHYfYi4;
         "neoforge-26.1" = _Oth91qD5;
         "neoforge-26.1.1" = _XlFZWXTd;
-        "neoforge-26.1.2" = _YsIN5piX;
+        "neoforge-26.1.2" = _rzhBOzgc;
         "neoforge-26.2" = _Yzf78Ygg;
         "neoforge-26.3" = _4XcpMWY3;
         "pkg-1.16.5-2.0-fabric" = _BaxJH9vM;
@@ -529,7 +535,8 @@ let
         "pkg-1.21.1-3.6-fabric+forge+neo" = _Px8ZLmqD;
         "pkg-26.2.0-3.6-fabric+forge+neo" = _Yzf78Ygg;
         "pkg-26.3.0-3.6-fabric+forge+neo" = _4XcpMWY3;
-        "default" = _4XcpMWY3;
+        "pkg-26.1.2-3.6-fabric+forge+neo" = _rzhBOzgc;
+        "default" = _rzhBOzgc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bottle-your-xp";

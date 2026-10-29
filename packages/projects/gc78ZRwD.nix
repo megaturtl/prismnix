@@ -251,6 +251,11 @@ let
             "file" = "barebackhorseriding-26.3.0-2.5.jar";
             "hash" = "sha512-/2QdZSHzoSa3mSaqamiH3pSRmQaJB11QtYweR8b/9iPuk3OpK/FYXQsTNNWeU1IWKZieR0wvzr47WhS2mtunqw==";
         };
+        _hxpNxs88 = {
+            "id" = "hxpNxs88";
+            "file" = "barebackhorseriding-26.1.2-2.5.jar";
+            "hash" = "sha512-9s6NJq+NIIP+IbNSd1iqXFDK8XXj0gS5aI0HwLRlj0J+xz4VJoA/iiAzyisisCY6ehduwHuMJEGB8E2iFmApAQ==";
+        };
     in {
         "XzQSdEBD" = _XzQSdEBD;
         "B6PebN7w" = _B6PebN7w;
@@ -302,6 +307,7 @@ let
         "STVf7XEB" = _STVf7XEB;
         "NVJcuTFx" = _NVJcuTFx;
         "V9IYirdo" = _V9IYirdo;
+        "hxpNxs88" = _hxpNxs88;
         "fabric-1.19.2" = _lMQ6F40T;
         "fabric-1.20.1" = _zZxa4Geu;
         "fabric-1.20.2" = _i3sPu2Cj;
@@ -322,7 +328,7 @@ let
         "fabric-1.21.11" = _ff4vUThz;
         "fabric-26.1" = _dDvUJIsM;
         "fabric-26.1.1" = _HwQkcs8o;
-        "fabric-26.1.2" = _9PELCwIa;
+        "fabric-26.1.2" = _hxpNxs88;
         "fabric-26.2" = _NVJcuTFx;
         "fabric-26.3" = _V9IYirdo;
         "forge-1.19.2" = _lMQ6F40T;
@@ -343,7 +349,7 @@ let
         "forge-1.21.11" = _ff4vUThz;
         "forge-26.1" = _dDvUJIsM;
         "forge-26.1.1" = _HwQkcs8o;
-        "forge-26.1.2" = _9PELCwIa;
+        "forge-26.1.2" = _hxpNxs88;
         "forge-26.2" = _NVJcuTFx;
         "forge-26.3" = _V9IYirdo;
         "quilt-1.19.2" = _lMQ6F40T;
@@ -366,7 +372,7 @@ let
         "quilt-1.21.11" = _ff4vUThz;
         "quilt-26.1" = _dDvUJIsM;
         "quilt-26.1.1" = _HwQkcs8o;
-        "quilt-26.1.2" = _9PELCwIa;
+        "quilt-26.1.2" = _hxpNxs88;
         "quilt-26.2" = _NVJcuTFx;
         "quilt-26.3" = _V9IYirdo;
         "neoforge-1.20.1" = _zZxa4Geu;
@@ -388,7 +394,7 @@ let
         "neoforge-1.21.11" = _ff4vUThz;
         "neoforge-26.1" = _dDvUJIsM;
         "neoforge-26.1.1" = _HwQkcs8o;
-        "neoforge-26.1.2" = _9PELCwIa;
+        "neoforge-26.1.2" = _hxpNxs88;
         "neoforge-26.2" = _NVJcuTFx;
         "neoforge-26.3" = _V9IYirdo;
         "pkg-1.19.2-1.0-fabric+forge+neo" = _XzQSdEBD;
@@ -441,7 +447,8 @@ let
         "pkg-1.21.1-2.5-fabric+forge+neo" = _STVf7XEB;
         "pkg-26.2.0-2.5-fabric+forge+neo" = _NVJcuTFx;
         "pkg-26.3.0-2.5-fabric+forge+neo" = _V9IYirdo;
-        "default" = _V9IYirdo;
+        "pkg-26.1.2-2.5-fabric+forge+neo" = _hxpNxs88;
+        "default" = _hxpNxs88;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bareback-horse-riding";

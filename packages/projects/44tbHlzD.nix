@@ -41,6 +41,11 @@ let
             "file" = "ce-forge-8.0.0.jar";
             "hash" = "sha512-0b8et/4YK/g2jhU2fOFzLQf4CLRPppSMNxHwx+X5BZpBB7bRC4egRgwdX6M8y7fZJSYvh2mbbhxjZoGRHWLSzg==";
         };
+        _FGvc7Tq4 = {
+            "id" = "FGvc7Tq4";
+            "file" = "CustomEntity-Free-2.2.100.jar";
+            "hash" = "sha512-mYcV3B3pWoqepTiZkin7zHNZ2aqS7EgCO1dCpS8iRPjYVvQQWGKTtQEwLg7ufJplSRlMJAF9Z/wEE49sqoSvxA==";
+        };
     in {
         "LSzEZe5L" = _LSzEZe5L;
         "pTIlqZKJ" = _pTIlqZKJ;
@@ -50,6 +55,7 @@ let
         "4IYLIGNh" = _4IYLIGNh;
         "wNy1KXJ6" = _wNy1KXJ6;
         "6n4a9d9f" = _6n4a9d9f;
+        "FGvc7Tq4" = _FGvc7Tq4;
         "paper-1.21" = _pTIlqZKJ;
         "paper-1.21.1" = _pTIlqZKJ;
         "paper-1.21.2" = _pTIlqZKJ;
@@ -62,10 +68,11 @@ let
         "paper-1.21.9" = _pTIlqZKJ;
         "paper-1.21.10" = _pTIlqZKJ;
         "paper-1.21.11" = _pTIlqZKJ;
-        "paper-26.1" = _pTIlqZKJ;
-        "paper-26.1.1" = _pTIlqZKJ;
-        "paper-26.1.2" = _pTIlqZKJ;
-        "paper-26.2" = _x1zaBkcx;
+        "paper-26.1" = _FGvc7Tq4;
+        "paper-26.1.1" = _FGvc7Tq4;
+        "paper-26.1.2" = _FGvc7Tq4;
+        "paper-26.2" = _FGvc7Tq4;
+        "paper-26.3" = _FGvc7Tq4;
         "fabric-26.2" = _4IYLIGNh;
         "fabric-26.3" = _wNy1KXJ6;
         "forge-26.3" = _6n4a9d9f;
@@ -77,7 +84,8 @@ let
         "pkg-3.0.1" = _4IYLIGNh;
         "pkg-3.0.2" = _wNy1KXJ6;
         "pkg-8.0.0" = _6n4a9d9f;
-        "default" = _6n4a9d9f;
+        "pkg-2.2.100" = _FGvc7Tq4;
+        "default" = _FGvc7Tq4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "custom-entity-the-stalker";

@@ -446,6 +446,11 @@ let
             "file" = "starterstructure-26.3.0-5.0.jar";
             "hash" = "sha512-h52seXpUyZYBtd+6cnuYRt7SqibpxQOTHeCOs9WgdxqLUGHZHFdmkiUmx1HiDJfLDZvErOMHerswx5MHZXNDkA==";
         };
+        _uRARg9Lu = {
+            "id" = "uRARg9Lu";
+            "file" = "starterstructure-26.1.2-5.0.jar";
+            "hash" = "sha512-jUto4HovY4WhMa5HdnfqqF8siWCpwDkOdHqI8VhZQ/ICMsCGNZbb/1rEACHjoLIzz2SOYaftqPoiUbcSFionOw==";
+        };
     in {
         "IozODCzt" = _IozODCzt;
         "AXAUqnow" = _AXAUqnow;
@@ -536,6 +541,7 @@ let
         "RgoPQNM1" = _RgoPQNM1;
         "5aQ2oxlo" = _5aQ2oxlo;
         "FQXTtqxZ" = _FQXTtqxZ;
+        "uRARg9Lu" = _uRARg9Lu;
         "forge-1.16.5" = _IozODCzt;
         "forge-1.18.2" = _SEnfH8iF;
         "forge-1.19.3" = _I0l4ZDfy;
@@ -560,7 +566,7 @@ let
         "forge-1.21.11" = _RHNbOLvz;
         "forge-26.1" = _4uDrq6BD;
         "forge-26.1.1" = _CSlp8Zmk;
-        "forge-26.1.2" = _39fNWiUC;
+        "forge-26.1.2" = _uRARg9Lu;
         "forge-26.2" = _5aQ2oxlo;
         "forge-26.3" = _FQXTtqxZ;
         "fabric-1.18.2" = _SEnfH8iF;
@@ -588,7 +594,7 @@ let
         "fabric-1.21.11" = _RHNbOLvz;
         "fabric-26.1" = _4uDrq6BD;
         "fabric-26.1.1" = _CSlp8Zmk;
-        "fabric-26.1.2" = _39fNWiUC;
+        "fabric-26.1.2" = _uRARg9Lu;
         "fabric-26.2" = _5aQ2oxlo;
         "fabric-26.3" = _FQXTtqxZ;
         "quilt-1.18.2" = _SEnfH8iF;
@@ -616,7 +622,7 @@ let
         "quilt-1.21.11" = _RHNbOLvz;
         "quilt-26.1" = _4uDrq6BD;
         "quilt-26.1.1" = _CSlp8Zmk;
-        "quilt-26.1.2" = _39fNWiUC;
+        "quilt-26.1.2" = _uRARg9Lu;
         "quilt-26.2" = _5aQ2oxlo;
         "quilt-26.3" = _FQXTtqxZ;
         "neoforge-1.20.2" = _STGcLEg4;
@@ -639,7 +645,7 @@ let
         "neoforge-1.21.11" = _RHNbOLvz;
         "neoforge-26.1" = _4uDrq6BD;
         "neoforge-26.1.1" = _CSlp8Zmk;
-        "neoforge-26.1.2" = _39fNWiUC;
+        "neoforge-26.1.2" = _uRARg9Lu;
         "neoforge-26.2" = _5aQ2oxlo;
         "neoforge-26.3" = _FQXTtqxZ;
         "pkg-1.16.5-1.2-forge" = _IozODCzt;
@@ -731,7 +737,8 @@ let
         "pkg-1.21.1-5.0-fabric+forge+neo" = _RgoPQNM1;
         "pkg-26.2.0-5.0-fabric+forge+neo" = _5aQ2oxlo;
         "pkg-26.3.0-5.0-fabric+forge+neo" = _FQXTtqxZ;
-        "default" = _FQXTtqxZ;
+        "pkg-26.1.2-5.0-fabric+forge+neo" = _uRARg9Lu;
+        "default" = _uRARg9Lu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "starter-structure";

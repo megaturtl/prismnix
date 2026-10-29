@@ -51,6 +51,16 @@ let
             "file" = "ImagineFun-Add-Ons-1.0.3.mrpack";
             "hash" = "sha512-sQG2aRNFxeL7W16YgXgJjBsDqvSnQJxUemb9g/LmA+ZeGaxNn2rGP2YQo/EsZeRjz3QAjbCqqF4u+VaVYgcOag==";
         };
+        _o7c4vycC = {
+            "id" = "o7c4vycC";
+            "file" = "ImagineFun-Add-Ons-1.0.4.mrpack";
+            "hash" = "sha512-IyORqyg1crQxKc7q7tD1HgYnWK4b97xxjjjZwzubscBv1vcE3juMIGinm6eLNQodH1TnJq6KXh6Mfgz+DKRsmg==";
+        };
+        _g3xlsRzR = {
+            "id" = "g3xlsRzR";
+            "file" = "ImagineFun-Add-Ons-1.0.5.mrpack";
+            "hash" = "sha512-hR+s8bQZjexvo/R7eM0LzvO0ddC90jUgxXT5afn+ra4OyWxB8CSYJd149THj6hILZnacz7jgKfuP3jq+sVydaw==";
+        };
     in {
         "k5aNoIj3" = _k5aNoIj3;
         "3wZjskW9" = _3wZjskW9;
@@ -62,8 +72,10 @@ let
         "Q9EjYbOI" = _Q9EjYbOI;
         "r0919htH" = _r0919htH;
         "EYdUFHMo" = _EYdUFHMo;
+        "o7c4vycC" = _o7c4vycC;
+        "g3xlsRzR" = _g3xlsRzR;
         "fabric-1.21.11" = _83MMKuAm;
-        "fabric-26.2" = _EYdUFHMo;
+        "fabric-26.2" = _g3xlsRzR;
         "pkg-0.0.2" = _k5aNoIj3;
         "pkg-0.0.3" = _3wZjskW9;
         "pkg-0.0.4" = _VUyvmO3l;
@@ -74,7 +86,9 @@ let
         "pkg-1.0.0" = _Q9EjYbOI;
         "pkg-1.0.1" = _r0919htH;
         "pkg-1.0.3" = _EYdUFHMo;
-        "default" = _EYdUFHMo;
+        "pkg-1.0.4" = _o7c4vycC;
+        "pkg-1.0.5" = _g3xlsRzR;
+        "default" = _g3xlsRzR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "imaginefun";

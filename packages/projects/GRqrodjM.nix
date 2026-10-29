@@ -126,6 +126,11 @@ let
             "file" = "cmpackagecouriers-neoforge-2.3.0.jar";
             "hash" = "sha512-talsvrj9bbcqPP4vYMaLE1A/IHqtCAqNkBE2QhKgUYAc+e0rJezM2EI7ZgoVaBUgOri81si2FSzMaZqh+R4S/w==";
         };
+        _aG9jHA8l = {
+            "id" = "aG9jHA8l";
+            "file" = "cmpackagecouriers-neoforge-2.3.1.jar";
+            "hash" = "sha512-GxGOxN1kqFSZ7e4TQuFIohebrAxjzazEqkUJqu1Oln4GQKRfRDw/byBzvwi0FPC0g7NiAHhyGYvJVnfTwqt5Dg==";
+        };
     in {
         "ooMLWNFS" = _ooMLWNFS;
         "PYaxcTpm" = _PYaxcTpm;
@@ -152,7 +157,8 @@ let
         "bnno535w" = _bnno535w;
         "9TvwOjDb" = _9TvwOjDb;
         "rv1JwLWn" = _rv1JwLWn;
-        "neoforge-1.21.1" = _rv1JwLWn;
+        "aG9jHA8l" = _aG9jHA8l;
+        "neoforge-1.21.1" = _aG9jHA8l;
         "forge-1.20.1" = _oMf9LqL7;
         "pkg-1.0.0" = _ooMLWNFS;
         "pkg-1.1.0" = _PYaxcTpm;
@@ -173,7 +179,8 @@ let
         "pkg-2.2.3" = _bnno535w;
         "pkg-2.2.4" = _9TvwOjDb;
         "pkg-2.3.0" = _rv1JwLWn;
-        "default" = _rv1JwLWn;
+        "pkg-2.3.1" = _aG9jHA8l;
+        "default" = _aG9jHA8l;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-more-package-couriers";

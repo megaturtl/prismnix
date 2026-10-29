@@ -26,19 +26,26 @@ let
             "file" = "kurolib-0.5-forge-1.20.1.jar";
             "hash" = "sha512-cxYHFOUVEev9O4ox2wn+CDBmyvVJOfqCowmie1mt022ienm+HMHMe19m1E3QECcSOv5ocoML6qpJ1o0x0vl10w==";
         };
+        _xVFTln5i = {
+            "id" = "xVFTln5i";
+            "file" = "kurolib-0.6-forge-1.20.1.jar";
+            "hash" = "sha512-an8Jdkh8CsA0MXsP98cgtWxCONq5PGkzzMeNcpM4g1gTWtVOa3LcB/U8MZK50Dg5Wj5pQPZ9FZ1H6PJf6+v74g==";
+        };
     in {
         "ZDM1eZma" = _ZDM1eZma;
         "Vdhf0J0Z" = _Vdhf0J0Z;
         "dQ9JuULl" = _dQ9JuULl;
         "Gr7q40F9" = _Gr7q40F9;
         "kYH3l4bS" = _kYH3l4bS;
-        "forge-1.20.1" = _kYH3l4bS;
+        "xVFTln5i" = _xVFTln5i;
+        "forge-1.20.1" = _xVFTln5i;
         "pkg-0.1" = _ZDM1eZma;
         "pkg-0.2" = _Vdhf0J0Z;
         "pkg-0.3" = _dQ9JuULl;
         "pkg-0.4" = _Gr7q40F9;
         "pkg-0.5" = _kYH3l4bS;
-        "default" = _kYH3l4bS;
+        "pkg-0.6" = _xVFTln5i;
+        "default" = _xVFTln5i;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kurolib";

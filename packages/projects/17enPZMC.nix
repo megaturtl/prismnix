@@ -431,6 +431,11 @@ let
             "file" = "randombonemealflowers-26.3.0-4.9.jar";
             "hash" = "sha512-X7NbssVGWCFwKX2Vbo00XcoZ9SJF6CYxG5Cj5RKHLkmleCFtX/vNu/6imJzAyNY2a5I8E+9spAhTa8kLYJ+l1g==";
         };
+        _k5kIy6zz = {
+            "id" = "k5kIy6zz";
+            "file" = "randombonemealflowers-26.1.2-4.9.jar";
+            "hash" = "sha512-+PusWwMLN74U7/1q148jMp6U+E/6UDXSX1cE2tr/mer0/DmUYm5Q3ZaERdixQXP+b7iWFyc0Im4rhcJI+IWDvA==";
+        };
     in {
         "5TkuKRc7" = _5TkuKRc7;
         "Lemq8ZHl" = _Lemq8ZHl;
@@ -518,6 +523,7 @@ let
         "evaMtIqU" = _evaMtIqU;
         "4NVspEIs" = _4NVspEIs;
         "aYogpKuL" = _aYogpKuL;
+        "k5kIy6zz" = _k5kIy6zz;
         "fabric-1.16.5" = _SyQ8H0Kd;
         "fabric-1.18.2" = _RjlbHmHt;
         "fabric-1.19.2" = _5Vr4aC6c;
@@ -544,7 +550,7 @@ let
         "fabric-1.21.11" = _xncSYvvy;
         "fabric-26.1" = _8UeYqUFi;
         "fabric-26.1.1" = _uXVuMQdK;
-        "fabric-26.1.2" = _GahMS1La;
+        "fabric-26.1.2" = _k5kIy6zz;
         "fabric-26.2" = _4NVspEIs;
         "fabric-26.3" = _aYogpKuL;
         "forge-1.16.5" = _mHa2AQ3i;
@@ -571,7 +577,7 @@ let
         "forge-1.21.11" = _xncSYvvy;
         "forge-26.1" = _8UeYqUFi;
         "forge-26.1.1" = _uXVuMQdK;
-        "forge-26.1.2" = _GahMS1La;
+        "forge-26.1.2" = _k5kIy6zz;
         "forge-26.2" = _4NVspEIs;
         "forge-26.3" = _aYogpKuL;
         "quilt-1.18.2" = _RjlbHmHt;
@@ -599,7 +605,7 @@ let
         "quilt-1.21.11" = _xncSYvvy;
         "quilt-26.1" = _8UeYqUFi;
         "quilt-26.1.1" = _uXVuMQdK;
-        "quilt-26.1.2" = _GahMS1La;
+        "quilt-26.1.2" = _k5kIy6zz;
         "quilt-26.2" = _4NVspEIs;
         "quilt-26.3" = _aYogpKuL;
         "neoforge-1.20.2" = _is4rc000;
@@ -622,7 +628,7 @@ let
         "neoforge-1.21.11" = _xncSYvvy;
         "neoforge-26.1" = _8UeYqUFi;
         "neoforge-26.1.1" = _uXVuMQdK;
-        "neoforge-26.1.2" = _GahMS1La;
+        "neoforge-26.1.2" = _k5kIy6zz;
         "neoforge-26.2" = _4NVspEIs;
         "neoforge-26.3" = _aYogpKuL;
         "pkg-1.16.5-2.0-fabric" = _5TkuKRc7;
@@ -711,7 +717,8 @@ let
         "pkg-1.21.1-4.9-fabric+forge+neo" = _evaMtIqU;
         "pkg-26.2.0-4.9-fabric+forge+neo" = _4NVspEIs;
         "pkg-26.3.0-4.9-fabric+forge+neo" = _aYogpKuL;
-        "default" = _aYogpKuL;
+        "pkg-26.1.2-4.9-fabric+forge+neo" = _k5kIy6zz;
+        "default" = _k5kIy6zz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "random-bone-meal-flowers";

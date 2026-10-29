@@ -741,6 +741,11 @@ let
             "file" = "starterkit-26.3.0-9.0.jar";
             "hash" = "sha512-mfwfK+aH4ZqDEAay24kAO60D0q93nmFJCiOZVG9REDl33Ea40/h+u26XZ7/DlrQnrj9sbbuyZmC8puxu/h41Ew==";
         };
+        _Ohk1qNLI = {
+            "id" = "Ohk1qNLI";
+            "file" = "starterkit-26.1.2-9.0.jar";
+            "hash" = "sha512-HAkbq8o8c8kKamwI6MYUjMkw2lLISwVne+lwNkPftm0r3nHejZWDBAuxZfe3NKRgUAhVjer7EJvAt2Uw8Oyc9g==";
+        };
     in {
         "UExnPFd0" = _UExnPFd0;
         "PyPD7H89" = _PyPD7H89;
@@ -890,6 +895,7 @@ let
         "BF9asPhO" = _BF9asPhO;
         "vIduJmaX" = _vIduJmaX;
         "MAMRzlEH" = _MAMRzlEH;
+        "Ohk1qNLI" = _Ohk1qNLI;
         "fabric-1.16.5" = _sj5Vzzub;
         "fabric-1.18.2" = _g2acc8mi;
         "fabric-1.19.2" = _nDDhwn2h;
@@ -916,7 +922,7 @@ let
         "fabric-1.21.11" = _4Ab9hFMK;
         "fabric-26.1" = _obvSxGcu;
         "fabric-26.1.1" = _bC8LqvEz;
-        "fabric-26.1.2" = _kMKNPXeX;
+        "fabric-26.1.2" = _Ohk1qNLI;
         "fabric-26.2" = _vIduJmaX;
         "fabric-26.3" = _MAMRzlEH;
         "forge-1.16.5" = _fuk9KbDs;
@@ -943,7 +949,7 @@ let
         "forge-1.21.11" = _4Ab9hFMK;
         "forge-26.1" = _obvSxGcu;
         "forge-26.1.1" = _bC8LqvEz;
-        "forge-26.1.2" = _kMKNPXeX;
+        "forge-26.1.2" = _Ohk1qNLI;
         "forge-26.2" = _vIduJmaX;
         "forge-26.3" = _MAMRzlEH;
         "quilt-1.18.2" = _g2acc8mi;
@@ -971,7 +977,7 @@ let
         "quilt-1.21.11" = _4Ab9hFMK;
         "quilt-26.1" = _obvSxGcu;
         "quilt-26.1.1" = _bC8LqvEz;
-        "quilt-26.1.2" = _kMKNPXeX;
+        "quilt-26.1.2" = _Ohk1qNLI;
         "quilt-26.2" = _vIduJmaX;
         "quilt-26.3" = _MAMRzlEH;
         "neoforge-1.20.2" = _PMkbV2dY;
@@ -994,7 +1000,7 @@ let
         "neoforge-1.21.11" = _4Ab9hFMK;
         "neoforge-26.1" = _obvSxGcu;
         "neoforge-26.1.1" = _bC8LqvEz;
-        "neoforge-26.1.2" = _kMKNPXeX;
+        "neoforge-26.1.2" = _Ohk1qNLI;
         "neoforge-26.2" = _vIduJmaX;
         "neoforge-26.3" = _MAMRzlEH;
         "pkg-1.16.5-3.5-fabric" = _UExnPFd0;
@@ -1145,7 +1151,8 @@ let
         "pkg-1.21.1-9.0-fabric+forge+neo" = _BF9asPhO;
         "pkg-26.2.0-9.0-fabric+forge+neo" = _vIduJmaX;
         "pkg-26.3.0-9.0-fabric+forge+neo" = _MAMRzlEH;
-        "default" = _MAMRzlEH;
+        "pkg-26.1.2-9.0-fabric+forge+neo" = _Ohk1qNLI;
+        "default" = _Ohk1qNLI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "starter-kit";

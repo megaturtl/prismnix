@@ -41,6 +41,11 @@ let
             "file" = "ncx_tacadd-1.3.4-neoforge-1.21.1.jar";
             "hash" = "sha512-WiqkPlhaZqbgIurX1gOqGS4fhF0VFBb82kCRTFRB/erCInSGJw2xmjFAEsQgFewtiYjKE1nNfL7Utp1/fHFR9Q==";
         };
+        _sejcFOAi = {
+            "id" = "sejcFOAi";
+            "file" = "ncx_tacadd-1.4.0-neoforge-1.21.1.jar";
+            "hash" = "sha512-CpQpOhYjunCwIyy+VL9xvV8duKV320gwpt8U7kuvJJGcKyi2WlrRehB9YIyxUMS0118nlFVm50cRZLoFZujJxA==";
+        };
     in {
         "pG7MZtWb" = _pG7MZtWb;
         "WDP0qtjR" = _WDP0qtjR;
@@ -50,7 +55,8 @@ let
         "D59idjx5" = _D59idjx5;
         "8cZgC7yY" = _8cZgC7yY;
         "VAbGlJ78" = _VAbGlJ78;
-        "neoforge-1.21.1" = _VAbGlJ78;
+        "sejcFOAi" = _sejcFOAi;
+        "neoforge-1.21.1" = _sejcFOAi;
         "neoforge-1.21.2" = _6Qn4kQhy;
         "neoforge-1.21.3" = _6Qn4kQhy;
         "neoforge-1.21.4" = _6Qn4kQhy;
@@ -71,7 +77,8 @@ let
         "pkg-1.3.2" = _D59idjx5;
         "pkg-1.3.3" = _8cZgC7yY;
         "pkg-1.3.4" = _VAbGlJ78;
-        "default" = _VAbGlJ78;
+        "pkg-1.4.0" = _sejcFOAi;
+        "default" = _sejcFOAi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ncx-tacadd";

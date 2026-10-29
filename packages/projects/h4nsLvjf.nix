@@ -41,6 +41,11 @@ let
             "file" = "create_avionics-neoforge-1.21.1-0.6.0.jar";
             "hash" = "sha512-2jocyTM9uVeB1GZyWTn9KaRnytIb6nbfN+AksrwM0aXDXF0H7eF/EBolcs+WuodVXlBqitZprYmHoedH/a16tg==";
         };
+        _5ONoEedX = {
+            "id" = "5ONoEedX";
+            "file" = "create_avionics-neoforge-1.21.1-0.7.0.jar";
+            "hash" = "sha512-ZHI/4Dzj4qrrYjv3l2xP8Ii0Ph7YcwpDlEidPHfpUlR7ZKkTkp2kiUVOPFu9SSXnaj5x7q909fuTPDuB3SLcBA==";
+        };
     in {
         "DGVIs6Q7" = _DGVIs6Q7;
         "T2x09uDi" = _T2x09uDi;
@@ -50,7 +55,8 @@ let
         "bsG4J9Dj" = _bsG4J9Dj;
         "sWhAueMC" = _sWhAueMC;
         "9siqVCcu" = _9siqVCcu;
-        "neoforge-1.21.1" = _9siqVCcu;
+        "5ONoEedX" = _5ONoEedX;
+        "neoforge-1.21.1" = _5ONoEedX;
         "pkg-0.2.0" = _DGVIs6Q7;
         "pkg-0.2.1" = _T2x09uDi;
         "pkg-0.3.0" = _N4AquPfg;
@@ -59,7 +65,8 @@ let
         "pkg-0.5.1" = _bsG4J9Dj;
         "pkg-0.5.2" = _sWhAueMC;
         "pkg-0.6.0" = _9siqVCcu;
-        "default" = _9siqVCcu;
+        "pkg-0.7.0" = _5ONoEedX;
+        "default" = _5ONoEedX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-avionics";

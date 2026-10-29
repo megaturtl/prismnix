@@ -121,6 +121,11 @@ let
             "file" = "shadowmounts-26.3.0-1.5.jar";
             "hash" = "sha512-WhHKm+1uaZhBZhFJRDJ18Jlm6Pv6yUDLrX2cGe1iF6fa+jlkhyj1qscXuPrF8rdRjHiOmEFvhHXiHFcyOqjhbQ==";
         };
+        _NYUAtDwZ = {
+            "id" = "NYUAtDwZ";
+            "file" = "shadowmounts-26.1.2-1.5.jar";
+            "hash" = "sha512-Z9tIfCIrmac6QPBs8PPIgIt/tqhdVNKx6+1lWd/JVnwRU2kchgu/kUrdA5qqfK5zxXwlhqkqgoNCfLQqnGHGRg==";
+        };
     in {
         "BR6KSNeQ" = _BR6KSNeQ;
         "b1iRg4HL" = _b1iRg4HL;
@@ -146,6 +151,7 @@ let
         "2yr4h79i" = _2yr4h79i;
         "NvrKOhlk" = _NvrKOhlk;
         "CdtlGIqp" = _CdtlGIqp;
+        "NYUAtDwZ" = _NYUAtDwZ;
         "fabric-1.21" = _2yr4h79i;
         "fabric-1.21.1" = _2yr4h79i;
         "fabric-1.20.1" = _2YQ0kNFS;
@@ -160,7 +166,7 @@ let
         "fabric-1.21.11" = _GHEtX94C;
         "fabric-26.1" = _ONroD2k1;
         "fabric-26.1.1" = _cShJ9kIa;
-        "fabric-26.1.2" = _DNof3fcc;
+        "fabric-26.1.2" = _NYUAtDwZ;
         "fabric-26.2" = _NvrKOhlk;
         "fabric-26.3" = _CdtlGIqp;
         "forge-1.21" = _2yr4h79i;
@@ -177,7 +183,7 @@ let
         "forge-1.21.11" = _GHEtX94C;
         "forge-26.1" = _ONroD2k1;
         "forge-26.1.1" = _cShJ9kIa;
-        "forge-26.1.2" = _DNof3fcc;
+        "forge-26.1.2" = _NYUAtDwZ;
         "forge-26.2" = _NvrKOhlk;
         "forge-26.3" = _CdtlGIqp;
         "neoforge-1.21" = _2yr4h79i;
@@ -194,7 +200,7 @@ let
         "neoforge-1.21.11" = _GHEtX94C;
         "neoforge-26.1" = _ONroD2k1;
         "neoforge-26.1.1" = _cShJ9kIa;
-        "neoforge-26.1.2" = _DNof3fcc;
+        "neoforge-26.1.2" = _NYUAtDwZ;
         "neoforge-26.2" = _NvrKOhlk;
         "neoforge-26.3" = _CdtlGIqp;
         "quilt-1.21" = _2yr4h79i;
@@ -211,7 +217,7 @@ let
         "quilt-1.21.11" = _GHEtX94C;
         "quilt-26.1" = _ONroD2k1;
         "quilt-26.1.1" = _cShJ9kIa;
-        "quilt-26.1.2" = _DNof3fcc;
+        "quilt-26.1.2" = _NYUAtDwZ;
         "quilt-26.2" = _NvrKOhlk;
         "quilt-26.3" = _CdtlGIqp;
         "pkg-1.21.1-1.0-fabric+forge+neo" = _BR6KSNeQ;
@@ -238,7 +244,8 @@ let
         "pkg-1.21.1-1.5-fabric+forge+neo" = _2yr4h79i;
         "pkg-26.2.0-1.5-fabric+forge+neo" = _NvrKOhlk;
         "pkg-26.3.0-1.5-fabric+forge+neo" = _CdtlGIqp;
-        "default" = _CdtlGIqp;
+        "pkg-26.1.2-1.5-fabric+forge+neo" = _NYUAtDwZ;
+        "default" = _NYUAtDwZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shadow-mounts";

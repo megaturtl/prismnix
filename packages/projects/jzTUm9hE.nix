@@ -626,6 +626,11 @@ let
             "file" = "justmobheads-26.3.0-9.6.jar";
             "hash" = "sha512-lmFODaM/WxxwDBvhGirkF2arbpiU4MD6McBF5x8xeyz5bthn4//Pig7L9k3sOnJOhBqlXXfAUQyY+lh6/aWSaA==";
         };
+        _JJj6i7cr = {
+            "id" = "JJj6i7cr";
+            "file" = "justmobheads-26.1.2-9.6.jar";
+            "hash" = "sha512-9s2j6LSSioX26HqUyVgR5AHE4x0UJBbUr0YcSwjPIWTKDUFqmReZVoskb30IxS+YuVU5IbF2IdRptYNocbAgxg==";
+        };
     in {
         "DzJtFutk" = _DzJtFutk;
         "eWQgyDXr" = _eWQgyDXr;
@@ -752,6 +757,7 @@ let
         "TO3Wrt9M" = _TO3Wrt9M;
         "ET6xd2Qy" = _ET6xd2Qy;
         "HfHd7Tg2" = _HfHd7Tg2;
+        "JJj6i7cr" = _JJj6i7cr;
         "fabric-1.16.5" = _L4mKsIWI;
         "fabric-1.18.2" = _eLj2gDSz;
         "fabric-1.19.2" = _uLYmLqGg;
@@ -778,7 +784,7 @@ let
         "fabric-1.21.11" = _EWYX8frh;
         "fabric-26.1" = _9ExbM8tm;
         "fabric-26.1.1" = _eJj4YVCj;
-        "fabric-26.1.2" = _UEW9QcfK;
+        "fabric-26.1.2" = _JJj6i7cr;
         "fabric-26.2" = _ET6xd2Qy;
         "fabric-26.3" = _HfHd7Tg2;
         "forge-1.16.5" = _GfB4aGcL;
@@ -805,7 +811,7 @@ let
         "forge-1.21.11" = _EWYX8frh;
         "forge-26.1" = _9ExbM8tm;
         "forge-26.1.1" = _eJj4YVCj;
-        "forge-26.1.2" = _UEW9QcfK;
+        "forge-26.1.2" = _JJj6i7cr;
         "forge-26.2" = _ET6xd2Qy;
         "forge-26.3" = _HfHd7Tg2;
         "quilt-1.18.2" = _eLj2gDSz;
@@ -833,7 +839,7 @@ let
         "quilt-1.21.11" = _EWYX8frh;
         "quilt-26.1" = _9ExbM8tm;
         "quilt-26.1.1" = _eJj4YVCj;
-        "quilt-26.1.2" = _UEW9QcfK;
+        "quilt-26.1.2" = _JJj6i7cr;
         "quilt-26.2" = _ET6xd2Qy;
         "quilt-26.3" = _HfHd7Tg2;
         "neoforge-1.20.2" = _irWUYls4;
@@ -856,7 +862,7 @@ let
         "neoforge-1.21.11" = _EWYX8frh;
         "neoforge-26.1" = _9ExbM8tm;
         "neoforge-26.1.1" = _eJj4YVCj;
-        "neoforge-26.1.2" = _UEW9QcfK;
+        "neoforge-26.1.2" = _JJj6i7cr;
         "neoforge-26.2" = _ET6xd2Qy;
         "neoforge-26.3" = _HfHd7Tg2;
         "pkg-1.16.5-5.9-fabric" = _DzJtFutk;
@@ -982,7 +988,8 @@ let
         "pkg-1.21.1-9.6-fabric+forge+neo" = _TO3Wrt9M;
         "pkg-26.2.0-9.6-fabric+forge+neo" = _ET6xd2Qy;
         "pkg-26.3.0-9.6-fabric+forge+neo" = _HfHd7Tg2;
-        "default" = _HfHd7Tg2;
+        "pkg-26.1.2-9.6-fabric+forge+neo" = _JJj6i7cr;
+        "default" = _JJj6i7cr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "just-mob-heads";

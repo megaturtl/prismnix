@@ -71,6 +71,11 @@ let
             "file" = "brandnewday-26.3.0-1.2.jar";
             "hash" = "sha512-MY458QBPgh/CqKKYGckJ8SpL7bEDe+oRuOt7+8L+MbHrjJU9mlCjKCSftAtjrTheHkmcv52idjIk6JJuZUdlzw==";
         };
+        _a7jL5TuW = {
+            "id" = "a7jL5TuW";
+            "file" = "brandnewday-26.1.2-1.2.jar";
+            "hash" = "sha512-mvhWxVSzE3CGG7KYasItGU6PyuSpHE7Hhow2SJxlfIqZwmkqJ2PfTGNK9XQvdhm5mtmyM31oVOcaS4e91s6zeA==";
+        };
     in {
         "r3jVVseC" = _r3jVVseC;
         "Eyu0yjNU" = _Eyu0yjNU;
@@ -86,32 +91,33 @@ let
         "3k2FjXTE" = _3k2FjXTE;
         "EUEUexH3" = _EUEUexH3;
         "qLyGTvLu" = _qLyGTvLu;
+        "a7jL5TuW" = _a7jL5TuW;
         "fabric-1.20.1" = _APM2T2YU;
         "fabric-1.21" = _3k2FjXTE;
         "fabric-1.21.1" = _3k2FjXTE;
         "fabric-1.21.11" = _5b1Voomb;
-        "fabric-26.1.2" = _3srULlI2;
+        "fabric-26.1.2" = _a7jL5TuW;
         "fabric-26.2" = _EUEUexH3;
         "fabric-26.3" = _qLyGTvLu;
         "forge-1.20.1" = _APM2T2YU;
         "forge-1.21" = _3k2FjXTE;
         "forge-1.21.1" = _3k2FjXTE;
         "forge-1.21.11" = _5b1Voomb;
-        "forge-26.1.2" = _3srULlI2;
+        "forge-26.1.2" = _a7jL5TuW;
         "forge-26.2" = _EUEUexH3;
         "forge-26.3" = _qLyGTvLu;
         "neoforge-1.20.1" = _APM2T2YU;
         "neoforge-1.21" = _3k2FjXTE;
         "neoforge-1.21.1" = _3k2FjXTE;
         "neoforge-1.21.11" = _5b1Voomb;
-        "neoforge-26.1.2" = _3srULlI2;
+        "neoforge-26.1.2" = _a7jL5TuW;
         "neoforge-26.2" = _EUEUexH3;
         "neoforge-26.3" = _qLyGTvLu;
         "quilt-1.20.1" = _APM2T2YU;
         "quilt-1.21" = _3k2FjXTE;
         "quilt-1.21.1" = _3k2FjXTE;
         "quilt-1.21.11" = _5b1Voomb;
-        "quilt-26.1.2" = _3srULlI2;
+        "quilt-26.1.2" = _a7jL5TuW;
         "quilt-26.2" = _EUEUexH3;
         "quilt-26.3" = _qLyGTvLu;
         "pkg-1.20.1-1.0-fabric+forge+neo" = _r3jVVseC;
@@ -128,7 +134,8 @@ let
         "pkg-1.21.1-1.2-fabric+forge+neo" = _3k2FjXTE;
         "pkg-26.2.0-1.2-fabric+forge+neo" = _EUEUexH3;
         "pkg-26.3.0-1.2-fabric+forge+neo" = _qLyGTvLu;
-        "default" = _qLyGTvLu;
+        "pkg-26.1.2-1.2-fabric+forge+neo" = _a7jL5TuW;
+        "default" = _a7jL5TuW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "brand-new-day";

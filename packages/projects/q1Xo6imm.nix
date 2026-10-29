@@ -16,15 +16,22 @@ let
             "file" = "questz-1.1.0.jar";
             "hash" = "sha512-tcsdAsynajAeOOvnDrK6wblRfhlH50VerHoJcVh1fvPSp3l3m1JADpt3elxqwnt033+DsIRMyolvbkjQK2lIcw==";
         };
+        _v0nd0uqn = {
+            "id" = "v0nd0uqn";
+            "file" = "questz-1.1.1.jar";
+            "hash" = "sha512-xXRoiQzJgRKxXnjK6xwXPu2frf2cfSjW+M1T1An/JkaRgay8gip+146Mk77/nfJeKdZriwJTglcCwbU7UUKIgw==";
+        };
     in {
         "Wi7qyOf0" = _Wi7qyOf0;
         "AcJzoBzu" = _AcJzoBzu;
         "MORhp5pA" = _MORhp5pA;
-        "fabric-1.21.1" = _MORhp5pA;
+        "v0nd0uqn" = _v0nd0uqn;
+        "fabric-1.21.1" = _v0nd0uqn;
         "pkg-1.0.0" = _Wi7qyOf0;
         "pkg-1.0.1+1.21.1" = _AcJzoBzu;
         "pkg-1.1.0+1.21.1" = _MORhp5pA;
-        "default" = _MORhp5pA;
+        "pkg-1.1.1+1.21.1" = _v0nd0uqn;
+        "default" = _v0nd0uqn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "questz";

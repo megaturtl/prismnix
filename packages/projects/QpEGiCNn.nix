@@ -31,6 +31,26 @@ let
             "file" = "Sapixcraft x AppleSkin r0.2.zip";
             "hash" = "sha512-hlPIADGgH1nEiNJUKJhhKBaVK9Sp4o1+f75q7Ep7BtXzMFfleWZ13fDt4fSm85HTJXXaNHD/yPTJyqchNB8yUw==";
         };
+        _kzZ1Rb0P = {
+            "id" = "kzZ1Rb0P";
+            "file" = "AppleSkin x Sapixcraft r0.3.zip";
+            "hash" = "sha512-0sILbLUg6ZSwpr0K38LgrTTw9w4t4Y/5OvB2mJ8FiYORM60lf9XJqG7Rlczk2K2w0qPIrw3HOO5swPwv1NylYw==";
+        };
+        _s3DspVOw = {
+            "id" = "s3DspVOw";
+            "file" = "AppleSkin x Sapixcraft r0.3.zip";
+            "hash" = "sha512-7FRlYHBELUpPFgY+ymsl6PyCi7viQT+CY4IKk59weMV53juyJIOgf+JqPxhSJV2ZOCR4tM7qk1ALYWcCc8DZoA==";
+        };
+        _adOGtuxN = {
+            "id" = "adOGtuxN";
+            "file" = "AppleSkin x Sapixcraft r0.3.zip";
+            "hash" = "sha512-TcLOWY53LpU0j95iYDoKoj3DzMj4D/q2fpOjSM0jIkP3n1AZSvmEbndj0qYcyuxN1TztmOQZYBTLnLol2/mkig==";
+        };
+        _ITbaIaEL = {
+            "id" = "ITbaIaEL";
+            "file" = "AppleSkin x Sapixcraft r0.3.zip";
+            "hash" = "sha512-WawIArAs9EiuxP5xVWUMJuuDyqWel+II5csWl21bAjV93DErQK+gzoJsgmw4VhLRJJD/8+qkXFRYgcRIroH+Xw==";
+        };
     in {
         "TVecksUh" = _TVecksUh;
         "sUxFvVjD" = _sUxFvVjD;
@@ -38,28 +58,35 @@ let
         "V91glV7Q" = _V91glV7Q;
         "EDjT8LQm" = _EDjT8LQm;
         "nLi3RFEL" = _nLi3RFEL;
-        "minecraft-1.21" = _rMZtpsdb;
-        "minecraft-1.21.1" = _rMZtpsdb;
-        "minecraft-1.21.2" = _rMZtpsdb;
-        "minecraft-1.21.3" = _rMZtpsdb;
-        "minecraft-1.21.4" = _rMZtpsdb;
-        "minecraft-1.21.5" = _rMZtpsdb;
-        "minecraft-1.21.6" = _rMZtpsdb;
-        "minecraft-1.21.7" = _rMZtpsdb;
-        "minecraft-1.21.8" = _rMZtpsdb;
-        "minecraft-1.21.9" = _rMZtpsdb;
-        "minecraft-1.21.10" = _rMZtpsdb;
-        "minecraft-1.21.11" = _rMZtpsdb;
-        "minecraft-26.1" = _nLi3RFEL;
-        "minecraft-26.1.1" = _nLi3RFEL;
-        "minecraft-26.1.2" = _nLi3RFEL;
+        "kzZ1Rb0P" = _kzZ1Rb0P;
+        "s3DspVOw" = _s3DspVOw;
+        "adOGtuxN" = _adOGtuxN;
+        "ITbaIaEL" = _ITbaIaEL;
+        "minecraft-1.21" = _ITbaIaEL;
+        "minecraft-1.21.1" = _ITbaIaEL;
+        "minecraft-1.21.2" = _ITbaIaEL;
+        "minecraft-1.21.3" = _ITbaIaEL;
+        "minecraft-1.21.4" = _ITbaIaEL;
+        "minecraft-1.21.5" = _ITbaIaEL;
+        "minecraft-1.21.6" = _ITbaIaEL;
+        "minecraft-1.21.7" = _ITbaIaEL;
+        "minecraft-1.21.8" = _ITbaIaEL;
+        "minecraft-1.21.9" = _ITbaIaEL;
+        "minecraft-1.21.10" = _ITbaIaEL;
+        "minecraft-1.21.11" = _ITbaIaEL;
+        "minecraft-26.1" = _adOGtuxN;
+        "minecraft-26.1.1" = _adOGtuxN;
+        "minecraft-26.1.2" = _adOGtuxN;
+        "minecraft-26.3" = _kzZ1Rb0P;
+        "minecraft-26.2" = _s3DspVOw;
         "pkg-r0.1" = _TVecksUh;
         "pkg-r0.1-Rainbow" = _sUxFvVjD;
         "pkg-r0.1-Orange" = _rMZtpsdb;
         "pkg-r0.2-Rainbow" = _V91glV7Q;
         "pkg-r0.2-Orange" = _EDjT8LQm;
         "pkg-r0.2" = _nLi3RFEL;
-        "default" = _nLi3RFEL;
+        "pkg-r0.3" = _ITbaIaEL;
+        "default" = _ITbaIaEL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spx-x-appleskin";

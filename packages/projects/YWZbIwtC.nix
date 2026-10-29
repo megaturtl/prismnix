@@ -326,6 +326,11 @@ let
             "file" = "currentgamemusictrack-26.3.0-2.7.jar";
             "hash" = "sha512-Ssp6VhDaUxl/KRPAGmL3pontBrpxS8LladiWsTp9Enpaht3x2u7kt2IZjQo8Y4+6WzdoXZtTpmjT3sbk3jkOiA==";
         };
+        _AXZHo0L4 = {
+            "id" = "AXZHo0L4";
+            "file" = "currentgamemusictrack-26.1.2-2.7.jar";
+            "hash" = "sha512-ahSk/wRXg5hUHPnEBKC0Jq5kHiDVqj7IG1tdf2lhLPLvYqHKrVUPdz9apcGwY+Ujbx7mKHP9jCZh9AupmCMjVw==";
+        };
     in {
         "jY9BWUBb" = _jY9BWUBb;
         "W2tna3Db" = _W2tna3Db;
@@ -392,6 +397,7 @@ let
         "aP7HzKIa" = _aP7HzKIa;
         "bQHnynor" = _bQHnynor;
         "JFSS1HV4" = _JFSS1HV4;
+        "AXZHo0L4" = _AXZHo0L4;
         "fabric-1.18.2" = _jB3AE3gK;
         "fabric-1.19.2" = _ahIi4B0h;
         "fabric-1.20.1" = _urCVMlhG;
@@ -414,7 +420,7 @@ let
         "fabric-1.21.11" = _szdEpCK7;
         "fabric-26.1" = _GtqtKHfl;
         "fabric-26.1.1" = _PMC9SuTh;
-        "fabric-26.1.2" = _f1ABSCDb;
+        "fabric-26.1.2" = _AXZHo0L4;
         "fabric-26.2" = _bQHnynor;
         "fabric-26.3" = _JFSS1HV4;
         "forge-1.18.2" = _jB3AE3gK;
@@ -437,7 +443,7 @@ let
         "forge-1.21.11" = _szdEpCK7;
         "forge-26.1" = _GtqtKHfl;
         "forge-26.1.1" = _PMC9SuTh;
-        "forge-26.1.2" = _f1ABSCDb;
+        "forge-26.1.2" = _AXZHo0L4;
         "forge-26.2" = _bQHnynor;
         "forge-26.3" = _JFSS1HV4;
         "quilt-1.18.2" = _jB3AE3gK;
@@ -462,7 +468,7 @@ let
         "quilt-1.21.11" = _szdEpCK7;
         "quilt-26.1" = _GtqtKHfl;
         "quilt-26.1.1" = _PMC9SuTh;
-        "quilt-26.1.2" = _f1ABSCDb;
+        "quilt-26.1.2" = _AXZHo0L4;
         "quilt-26.2" = _bQHnynor;
         "quilt-26.3" = _JFSS1HV4;
         "neoforge-1.20.1" = _urCVMlhG;
@@ -485,7 +491,7 @@ let
         "neoforge-1.21.11" = _szdEpCK7;
         "neoforge-26.1" = _GtqtKHfl;
         "neoforge-26.1.1" = _PMC9SuTh;
-        "neoforge-26.1.2" = _f1ABSCDb;
+        "neoforge-26.1.2" = _AXZHo0L4;
         "neoforge-26.2" = _bQHnynor;
         "neoforge-26.3" = _JFSS1HV4;
         "pkg-1.18.2-1.0-forge+fabric" = _jY9BWUBb;
@@ -553,7 +559,8 @@ let
         "pkg-1.21.1-2.7-fabric+forge+neo" = _aP7HzKIa;
         "pkg-26.2.0-2.7-fabric+forge+neo" = _bQHnynor;
         "pkg-26.3.0-2.7-fabric+forge+neo" = _JFSS1HV4;
-        "default" = _JFSS1HV4;
+        "pkg-26.1.2-2.7-fabric+forge+neo" = _AXZHo0L4;
+        "default" = _AXZHo0L4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "current-game-music-track";

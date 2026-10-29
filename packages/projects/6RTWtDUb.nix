@@ -26,26 +26,33 @@ let
             "file" = "CarpetSLSAddition-0.25.0.jar";
             "hash" = "sha512-1UlYBHwWklfcJyBXwqdPzRRo019BSBOGh+rABmZ/fbZlAxF4FMVqCED5gFXLicMAs4N1/zRIk7csOG4219zvAQ==";
         };
+        _s8LQEmbK = {
+            "id" = "s8LQEmbK";
+            "file" = "CarpetSLSAddition-0.25.1.jar";
+            "hash" = "sha512-5Cc2TI6DJtx0/z7bhK79ExvUGDuVg9sAhIr7DiUgBWaIYyZt/S1pmlDkDtk+r2o8PV/BXSG+5x7mpNan9gWeJA==";
+        };
     in {
         "gNcV2hsp" = _gNcV2hsp;
         "RaqlHBkz" = _RaqlHBkz;
         "lXZyifXy" = _lXZyifXy;
         "9DBG5xcj" = _9DBG5xcj;
         "1mcJxHVz" = _1mcJxHVz;
+        "s8LQEmbK" = _s8LQEmbK;
         "fabric-1.21" = _gNcV2hsp;
         "fabric-1.21.1" = _RaqlHBkz;
-        "fabric-26.1" = _1mcJxHVz;
-        "fabric-26.1.1" = _1mcJxHVz;
-        "fabric-26.1.2" = _1mcJxHVz;
-        "fabric-26.2" = _1mcJxHVz;
-        "fabric-26.3" = _1mcJxHVz;
+        "fabric-26.1" = _s8LQEmbK;
+        "fabric-26.1.1" = _s8LQEmbK;
+        "fabric-26.1.2" = _s8LQEmbK;
+        "fabric-26.2" = _s8LQEmbK;
+        "fabric-26.3" = _s8LQEmbK;
         "fabric-26.4-snapshot-4" = _9DBG5xcj;
         "pkg-0.21.1" = _gNcV2hsp;
         "pkg-0.23.0" = _RaqlHBkz;
         "pkg-0.24.0" = _lXZyifXy;
         "pkg-0.26.0-26.4-sanpshot-4" = _9DBG5xcj;
         "pkg-0.25.0" = _1mcJxHVz;
-        "default" = _1mcJxHVz;
+        "pkg-0.25.1" = _s8LQEmbK;
+        "default" = _s8LQEmbK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sls-addition";

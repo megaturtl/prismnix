@@ -341,6 +341,11 @@ let
             "file" = "alllootdrops-26.3.0-4.1.jar";
             "hash" = "sha512-Xiv15yPSawfkqhNHM/Dco6Gt2/HI6Kl+3deC1bj0zBofQiOG27bUPLYeaJ0lzbZnrCDzbAtZs7v0atuG4QhPqg==";
         };
+        _J5geM7M5 = {
+            "id" = "J5geM7M5";
+            "file" = "alllootdrops-26.1.2-4.1.jar";
+            "hash" = "sha512-SAKP+cnxXX0MIVDYEJTDkGEQEpClJ1+UeB3xxb418co0E/2fllcZMRJkBYeR6E2M55CyFovGVD4hUBT0jCmuew==";
+        };
     in {
         "SV5mYDee" = _SV5mYDee;
         "Wk6PdtEW" = _Wk6PdtEW;
@@ -410,6 +415,7 @@ let
         "EraU7vmZ" = _EraU7vmZ;
         "V0Ok5nqs" = _V0Ok5nqs;
         "5jgXtTl1" = _5jgXtTl1;
+        "J5geM7M5" = _J5geM7M5;
         "forge-1.16.5" = _QS8Ffjpt;
         "forge-1.18.2" = _Ug0OEL5J;
         "forge-1.19.2" = _p2h7VsyB;
@@ -434,7 +440,7 @@ let
         "forge-1.21.11" = _9NGr2Ci4;
         "forge-26.1" = _TOq5llE3;
         "forge-26.1.1" = _um523HBQ;
-        "forge-26.1.2" = _sPTGBuhw;
+        "forge-26.1.2" = _J5geM7M5;
         "forge-26.2" = _V0Ok5nqs;
         "forge-26.3" = _5jgXtTl1;
         "fabric-1.18.2" = _Ug0OEL5J;
@@ -462,7 +468,7 @@ let
         "fabric-1.21.11" = _9NGr2Ci4;
         "fabric-26.1" = _TOq5llE3;
         "fabric-26.1.1" = _um523HBQ;
-        "fabric-26.1.2" = _sPTGBuhw;
+        "fabric-26.1.2" = _J5geM7M5;
         "fabric-26.2" = _V0Ok5nqs;
         "fabric-26.3" = _5jgXtTl1;
         "quilt-1.18.2" = _Ug0OEL5J;
@@ -490,7 +496,7 @@ let
         "quilt-1.21.11" = _9NGr2Ci4;
         "quilt-26.1" = _TOq5llE3;
         "quilt-26.1.1" = _um523HBQ;
-        "quilt-26.1.2" = _sPTGBuhw;
+        "quilt-26.1.2" = _J5geM7M5;
         "quilt-26.2" = _V0Ok5nqs;
         "quilt-26.3" = _5jgXtTl1;
         "neoforge-1.20.1" = _bQ2d7UXq;
@@ -513,7 +519,7 @@ let
         "neoforge-1.21.11" = _9NGr2Ci4;
         "neoforge-26.1" = _TOq5llE3;
         "neoforge-26.1.1" = _um523HBQ;
-        "neoforge-26.1.2" = _sPTGBuhw;
+        "neoforge-26.1.2" = _J5geM7M5;
         "neoforge-26.2" = _V0Ok5nqs;
         "neoforge-26.3" = _5jgXtTl1;
         "pkg-1.16.5-2.2-forge" = _SV5mYDee;
@@ -584,7 +590,8 @@ let
         "pkg-1.21.1-4.1-fabric+forge+neo" = _EraU7vmZ;
         "pkg-26.2.0-4.1-fabric+forge+neo" = _V0Ok5nqs;
         "pkg-26.3.0-4.1-fabric+forge+neo" = _5jgXtTl1;
-        "default" = _5jgXtTl1;
+        "pkg-26.1.2-4.1-fabric+forge+neo" = _J5geM7M5;
+        "default" = _J5geM7M5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "all-loot-drops";

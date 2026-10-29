@@ -71,6 +71,11 @@ let
             "file" = "enhanced-mobs-1.0.1.jar";
             "hash" = "sha512-/SBzK1Kh1PWnbksxOMBCurRfu7gJPDchullvGGxJ4VWYNSGtOF4pOh/Sqm+aHlxYX6X5ZlLdXQb+PYjVCiPKqw==";
         };
+        _2byAZSfR = {
+            "id" = "2byAZSfR";
+            "file" = "Enhanced Mobs Datapack 1.0.1.zip";
+            "hash" = "sha512-zazoDqg+dytK8cBs3javceTDAedGUr43xD4N1X2+qg1aK+fgnhe9KUA2QXY8zCj5VKnQxn/fo0hVd+mWjzlp2A==";
+        };
     in {
         "2PUap21r" = _2PUap21r;
         "rvllvhGN" = _rvllvhGN;
@@ -86,6 +91,7 @@ let
         "RroDfRYB" = _RroDfRYB;
         "QPnyJsPg" = _QPnyJsPg;
         "8iACUjON" = _8iACUjON;
+        "2byAZSfR" = _2byAZSfR;
         "datapack-1.21.2" = _BuL2PiyY;
         "datapack-1.21.3" = _BuL2PiyY;
         "datapack-1.21.4" = _BuL2PiyY;
@@ -102,6 +108,7 @@ let
         "datapack-26.1.1" = _BuL2PiyY;
         "datapack-26.1.2" = _BuL2PiyY;
         "datapack-26.2" = _BuL2PiyY;
+        "datapack-26.3" = _2byAZSfR;
         "fabric-1.21.3" = _8iACUjON;
         "fabric-1.21.4" = _8iACUjON;
         "fabric-1.21.5" = _8iACUjON;
@@ -168,9 +175,9 @@ let
         "quilt-26.2" = _8iACUjON;
         "pkg-1.0" = _xcDE6Mor;
         "pkg-1.0+mod" = _LbB7Zc3x;
-        "pkg-1.0.1" = _BuL2PiyY;
+        "pkg-1.0.1" = _2byAZSfR;
         "pkg-1.0.1+mod" = _8iACUjON;
-        "default" = _8iACUjON;
+        "default" = _2byAZSfR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enhanced-mobs";

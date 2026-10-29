@@ -436,6 +436,11 @@ let
             "file" = "guifollowers-26.3.0-5.1.jar";
             "hash" = "sha512-ZsROFuYXDnWcj07RcvEU88eGINshFJVGlQ/wL8ZQ6UVk5hoAtGnY4NmQLbQYu16uhrT+qiAqi3M5WqZKeTaQMg==";
         };
+        _MLGhs4zW = {
+            "id" = "MLGhs4zW";
+            "file" = "guifollowers-26.1.2-5.1.jar";
+            "hash" = "sha512-4/efp3H5HwcA5CypAqWgkMjrbtoyTY/QdUBxgjlFYzMrVVvGfmEEioTal2ACjyvQaI5GlAEh15Qhq43CcwjDAQ==";
+        };
     in {
         "ZYjhnq07" = _ZYjhnq07;
         "Fa7enIZL" = _Fa7enIZL;
@@ -524,6 +529,7 @@ let
         "WiNVJqyv" = _WiNVJqyv;
         "rn9Me4t4" = _rn9Me4t4;
         "2JoouKAF" = _2JoouKAF;
+        "MLGhs4zW" = _MLGhs4zW;
         "fabric-1.16.5" = _SKeAZxLl;
         "fabric-1.18.2" = _RE27q4g9;
         "fabric-1.19.2" = _z25EtlhO;
@@ -550,7 +556,7 @@ let
         "fabric-1.21.11" = _vS9TonWw;
         "fabric-26.1" = _V51cUoC2;
         "fabric-26.1.1" = _kiBRFSDf;
-        "fabric-26.1.2" = _ckcBmfbr;
+        "fabric-26.1.2" = _MLGhs4zW;
         "fabric-26.2" = _rn9Me4t4;
         "fabric-26.3" = _2JoouKAF;
         "forge-1.16.5" = _mCCsj2oj;
@@ -577,7 +583,7 @@ let
         "forge-1.21.11" = _vS9TonWw;
         "forge-26.1" = _V51cUoC2;
         "forge-26.1.1" = _kiBRFSDf;
-        "forge-26.1.2" = _ckcBmfbr;
+        "forge-26.1.2" = _MLGhs4zW;
         "forge-26.2" = _rn9Me4t4;
         "forge-26.3" = _2JoouKAF;
         "quilt-1.18.2" = _RE27q4g9;
@@ -605,7 +611,7 @@ let
         "quilt-1.21.11" = _vS9TonWw;
         "quilt-26.1" = _V51cUoC2;
         "quilt-26.1.1" = _kiBRFSDf;
-        "quilt-26.1.2" = _ckcBmfbr;
+        "quilt-26.1.2" = _MLGhs4zW;
         "quilt-26.2" = _rn9Me4t4;
         "quilt-26.3" = _2JoouKAF;
         "neoforge-1.20.2" = _IfJ0uYk6;
@@ -628,7 +634,7 @@ let
         "neoforge-1.21.11" = _vS9TonWw;
         "neoforge-26.1" = _V51cUoC2;
         "neoforge-26.1.1" = _kiBRFSDf;
-        "neoforge-26.1.2" = _ckcBmfbr;
+        "neoforge-26.1.2" = _MLGhs4zW;
         "neoforge-26.2" = _rn9Me4t4;
         "neoforge-26.3" = _2JoouKAF;
         "pkg-1.16.5-2.2-fabric" = _ZYjhnq07;
@@ -718,7 +724,8 @@ let
         "pkg-1.21.1-5.1-fabric+forge+neo" = _WiNVJqyv;
         "pkg-26.2.0-5.1-fabric+forge+neo" = _rn9Me4t4;
         "pkg-26.3.0-5.1-fabric+forge+neo" = _2JoouKAF;
-        "default" = _2JoouKAF;
+        "pkg-26.1.2-5.1-fabric+forge+neo" = _MLGhs4zW;
+        "default" = _MLGhs4zW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gui-followers";

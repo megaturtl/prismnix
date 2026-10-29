@@ -51,6 +51,11 @@ let
             "file" = "AllTheFish V4 - 26.2 - resource pack.zip";
             "hash" = "sha512-AJOq8PEkM/CUOxWwH56656tnaMal8xYx77Ub2keQ/il2Rtd8x1Zh4Kvp/Ws4Se0wjd12Pgl0PfoPpvJWKKlbDQ==";
         };
+        _KMa6QK3t = {
+            "id" = "KMa6QK3t";
+            "file" = "AllTheFishV4.1 - Resource Pack.zip";
+            "hash" = "sha512-pnsOnZNjqj0RQUWSfSHHZxpJMCxzvtEA4slz/bTQ1k865vYUGPa6XZYX2/aDfzf7EVmV1QqzkGLKLI+vvDGCAQ==";
+        };
     in {
         "qcUSOyyy" = _qcUSOyyy;
         "BO5xUfzO" = _BO5xUfzO;
@@ -62,6 +67,7 @@ let
         "qn2s81se" = _qn2s81se;
         "yrxaViZs" = _yrxaViZs;
         "aPpTuVXI" = _aPpTuVXI;
+        "KMa6QK3t" = _KMa6QK3t;
         "minecraft-1.21.4" = _D1sTOsFw;
         "minecraft-1.21.5" = _rzWNYpyZ;
         "minecraft-1.21.6" = _TptpjMwh;
@@ -73,6 +79,7 @@ let
         "minecraft-26.1" = _yrxaViZs;
         "minecraft-26.1.1" = _yrxaViZs;
         "minecraft-26.2" = _aPpTuVXI;
+        "minecraft-26.3" = _KMa6QK3t;
         "pkg-1" = _qcUSOyyy;
         "pkg-1.2-1.3" = _BO5xUfzO;
         "pkg-1.4" = _D1sTOsFw;
@@ -83,7 +90,8 @@ let
         "pkg-3.0" = _qn2s81se;
         "pkg-3.0.1" = _yrxaViZs;
         "pkg-4" = _aPpTuVXI;
-        "default" = _aPpTuVXI;
+        "pkg-4.1" = _KMa6QK3t;
+        "default" = _KMa6QK3t;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "allthefish-resource-pack";

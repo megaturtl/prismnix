@@ -76,6 +76,11 @@ let
             "file" = "advancedcrosshair-1.3.1-mc26.2.jar";
             "hash" = "sha512-4/kl00CgKqmhFlO0H5Cljuf3wVMbpJlJIqr251v/n43k/BdkmXUUY2Pmm5KbbVLCu4NVpgx+KLsZJn3b4FrPcA==";
         };
+        _xpt5CNTY = {
+            "id" = "xpt5CNTY";
+            "file" = "advancedcrosshair-1.3.1-mc26.3.jar";
+            "hash" = "sha512-6mpg0aIdzR2eAYXuN76xugZHO/2W9/41n5Z0OItm5EUgSvO8vc0/eL5r7TKG0GOoQeNP9HQSJwsOt7sed+ABzg==";
+        };
     in {
         "vKgArNnk" = _vKgArNnk;
         "LHXM3oCM" = _LHXM3oCM;
@@ -92,6 +97,7 @@ let
         "yYPJ3sGf" = _yYPJ3sGf;
         "Cxdy0BXv" = _Cxdy0BXv;
         "BzJOyiE5" = _BzJOyiE5;
+        "xpt5CNTY" = _xpt5CNTY;
         "fabric-1.20.1" = _C8h4q13R;
         "fabric-1.20.4" = _4vW7KCAi;
         "fabric-1.21" = _8UVTHtAf;
@@ -108,6 +114,7 @@ let
         "fabric-26.1" = _Cxdy0BXv;
         "fabric-26.1.1" = _Cxdy0BXv;
         "fabric-26.1.2" = _Cxdy0BXv;
+        "fabric-26.3" = _xpt5CNTY;
         "pkg-1.0.0" = _vKgArNnk;
         "pkg-1.1.0" = _LHXM3oCM;
         "pkg-1.2.0" = _C8h4q13R;
@@ -116,8 +123,8 @@ let
         "pkg-1.2.3" = _SoKFGKBr;
         "pkg-1.2.4" = _Azl6fAa4;
         "pkg-1.2.5" = _TBG4vpG1;
-        "pkg-1.3.1" = _BzJOyiE5;
-        "default" = _BzJOyiE5;
+        "pkg-1.3.1" = _xpt5CNTY;
+        "default" = _xpt5CNTY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "adv-crosshair";

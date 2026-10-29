@@ -36,6 +36,16 @@ let
             "file" = "faster-ladders-1.0.jar";
             "hash" = "sha512-c2cGBjlT6bWPCxYPghOu0MEnaXBT4GArSDaUnChkWOxzOiAUI7w19U2L0lBVkJTdixXQzYfpav0hk20eGhQfVw==";
         };
+        _Xwor09CY = {
+            "id" = "Xwor09CY";
+            "file" = "Ladders Dont Suck 1.0.zip";
+            "hash" = "sha512-O4+gCjB6klcJFbVklsxrZhZgjckFXWQpGm90/P0TcKR2vwKAkks+YqIga4+/LoYg5I3yDGqYozgMAzyW9/bvxA==";
+        };
+        _WmfRo9E9 = {
+            "id" = "WmfRo9E9";
+            "file" = "faster-ladders-1.0.jar";
+            "hash" = "sha512-+YsMQWlzshHiJt/cpP3iX6WJznFQsy5Fti4M3vJk9b12o1HYRak1+etdUiISpfVdYFrYjgO9uPrXroZbYF5fvA==";
+        };
     in {
         "IJYeRp2g" = _IJYeRp2g;
         "vT9JFnEX" = _vT9JFnEX;
@@ -44,6 +54,8 @@ let
         "HbsQp5HX" = _HbsQp5HX;
         "cV6LR37m" = _cV6LR37m;
         "jmHNaPD4" = _jmHNaPD4;
+        "Xwor09CY" = _Xwor09CY;
+        "WmfRo9E9" = _WmfRo9E9;
         "datapack-1.21.3" = _XbI1x2Ck;
         "datapack-1.21.4" = _XbI1x2Ck;
         "datapack-1.21.5" = _XbI1x2Ck;
@@ -56,6 +68,7 @@ let
         "datapack-26.1" = _XbI1x2Ck;
         "datapack-26.1.1" = _XbI1x2Ck;
         "datapack-26.1.2" = _XbI1x2Ck;
+        "datapack-26.3" = _Xwor09CY;
         "fabric-1.21.3" = _jmHNaPD4;
         "fabric-1.21.4" = _jmHNaPD4;
         "fabric-1.21.5" = _jmHNaPD4;
@@ -68,6 +81,7 @@ let
         "fabric-26.1" = _jmHNaPD4;
         "fabric-26.1.1" = _jmHNaPD4;
         "fabric-26.1.2" = _jmHNaPD4;
+        "fabric-26.3" = _WmfRo9E9;
         "forge-1.21.3" = _jmHNaPD4;
         "forge-1.21.4" = _jmHNaPD4;
         "forge-1.21.5" = _jmHNaPD4;
@@ -80,6 +94,7 @@ let
         "forge-26.1" = _jmHNaPD4;
         "forge-26.1.1" = _jmHNaPD4;
         "forge-26.1.2" = _jmHNaPD4;
+        "forge-26.3" = _WmfRo9E9;
         "neoforge-1.21.3" = _jmHNaPD4;
         "neoforge-1.21.4" = _jmHNaPD4;
         "neoforge-1.21.5" = _jmHNaPD4;
@@ -92,6 +107,7 @@ let
         "neoforge-26.1" = _jmHNaPD4;
         "neoforge-26.1.1" = _jmHNaPD4;
         "neoforge-26.1.2" = _jmHNaPD4;
+        "neoforge-26.3" = _WmfRo9E9;
         "quilt-1.21.3" = _jmHNaPD4;
         "quilt-1.21.4" = _jmHNaPD4;
         "quilt-1.21.5" = _jmHNaPD4;
@@ -104,9 +120,10 @@ let
         "quilt-26.1" = _jmHNaPD4;
         "quilt-26.1.1" = _jmHNaPD4;
         "quilt-26.1.2" = _jmHNaPD4;
-        "pkg-1.0" = _XbI1x2Ck;
-        "pkg-1.0+mod" = _jmHNaPD4;
-        "default" = _jmHNaPD4;
+        "quilt-26.3" = _WmfRo9E9;
+        "pkg-1.0" = _Xwor09CY;
+        "pkg-1.0+mod" = _WmfRo9E9;
+        "default" = _WmfRo9E9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "faster-ladders";

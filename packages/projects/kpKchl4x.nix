@@ -336,6 +336,11 @@ let
             "file" = "conduitspreventdrowned-26.3.0-4.1.jar";
             "hash" = "sha512-jK5m4u0C+7EJ1yrhhW3JhuneCGN71x7+POtXQ3AhH9PkRhunIXLBl0ThrwTc4wt0n0e3zYbhGvEjO1HlvhaCRw==";
         };
+        _LKY6WHB5 = {
+            "id" = "LKY6WHB5";
+            "file" = "conduitspreventdrowned-26.1.2-4.1.jar";
+            "hash" = "sha512-BnxwAsJqPA5508DKIPkuDG8TSrXw+IQGRyAGxSbpjUmJhXUC2ibC/BZV7EwtyxHtVsW6ZZT0+/jbzBxe2RIyNg==";
+        };
     in {
         "ZJhMynQ6" = _ZJhMynQ6;
         "Xj05PGIS" = _Xj05PGIS;
@@ -404,6 +409,7 @@ let
         "W1AqKaSv" = _W1AqKaSv;
         "2q4u94cP" = _2q4u94cP;
         "4Xpyx9Vp" = _4Xpyx9Vp;
+        "LKY6WHB5" = _LKY6WHB5;
         "fabric-1.16.5" = _Zvy4Ztk5;
         "fabric-1.18.2" = _vDfk1jJq;
         "fabric-1.19.2" = _k0gcwQ1G;
@@ -430,7 +436,7 @@ let
         "fabric-1.21.11" = _svuaNO0X;
         "fabric-26.1" = _dgmPHsgJ;
         "fabric-26.1.1" = _LadobNM1;
-        "fabric-26.1.2" = _YPfD21mM;
+        "fabric-26.1.2" = _LKY6WHB5;
         "fabric-26.2" = _2q4u94cP;
         "fabric-26.3" = _4Xpyx9Vp;
         "forge-1.16.5" = _zs49r2BS;
@@ -457,7 +463,7 @@ let
         "forge-1.21.11" = _svuaNO0X;
         "forge-26.1" = _dgmPHsgJ;
         "forge-26.1.1" = _LadobNM1;
-        "forge-26.1.2" = _YPfD21mM;
+        "forge-26.1.2" = _LKY6WHB5;
         "forge-26.2" = _2q4u94cP;
         "forge-26.3" = _4Xpyx9Vp;
         "quilt-1.18.2" = _vDfk1jJq;
@@ -485,7 +491,7 @@ let
         "quilt-1.21.11" = _svuaNO0X;
         "quilt-26.1" = _dgmPHsgJ;
         "quilt-26.1.1" = _LadobNM1;
-        "quilt-26.1.2" = _YPfD21mM;
+        "quilt-26.1.2" = _LKY6WHB5;
         "quilt-26.2" = _2q4u94cP;
         "quilt-26.3" = _4Xpyx9Vp;
         "neoforge-1.20.2" = _J3deG1b6;
@@ -508,7 +514,7 @@ let
         "neoforge-1.21.11" = _svuaNO0X;
         "neoforge-26.1" = _dgmPHsgJ;
         "neoforge-26.1.1" = _LadobNM1;
-        "neoforge-26.1.2" = _YPfD21mM;
+        "neoforge-26.1.2" = _LKY6WHB5;
         "neoforge-26.2" = _2q4u94cP;
         "neoforge-26.3" = _4Xpyx9Vp;
         "pkg-1.16.5-1.8-fabric" = _ZJhMynQ6;
@@ -578,7 +584,8 @@ let
         "pkg-1.21.1-4.1-fabric+forge+neo" = _W1AqKaSv;
         "pkg-26.2.0-4.1-fabric+forge+neo" = _2q4u94cP;
         "pkg-26.3.0-4.1-fabric+forge+neo" = _4Xpyx9Vp;
-        "default" = _4Xpyx9Vp;
+        "pkg-26.1.2-4.1-fabric+forge+neo" = _LKY6WHB5;
+        "default" = _LKY6WHB5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "conduits-prevent-drowned";

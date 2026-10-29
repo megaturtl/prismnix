@@ -296,6 +296,26 @@ let
             "file" = "marvelores-1.0.2-26.3.jar";
             "hash" = "sha512-GJn8fddw8Cb0OQj34KcZAETrck90FgvCmWfTQSTrfDJZiG1dfozp9DaVef2mmeaOsJMTrAhoROsqW3mTByJIbg==";
         };
+        _SopSyPZk = {
+            "id" = "SopSyPZk";
+            "file" = "marvelores-1.0.4-1.21.11-dev.jar";
+            "hash" = "sha512-GkCdVW3No3eXgwAQjDLHgeK7s8GXedNMJ5zT857T46QNppi0cCg/idq57NxAKe6oKgJ16RRx5RrayJnnXaADBA==";
+        };
+        _NyRI0XbY = {
+            "id" = "NyRI0XbY";
+            "file" = "marvelores-1.0.7-26.1.jar";
+            "hash" = "sha512-VDuXlvmLOTOmBp2AEej025Nf6hr5UpXG9UB6WyHzk1d6Phr9tc9yKexMJAlYK9y7vj6knzIKsRzEeNoIKDmIfA==";
+        };
+        _vLCImZ8N = {
+            "id" = "vLCImZ8N";
+            "file" = "marvelores-1.0.6-26.2.jar";
+            "hash" = "sha512-YKN/8x2LDVHj+4S4NDTx0KxSs1Lhv/ZWff1MhJaY+AWVJhuI+JTTz+AmjghWO53wMfzNsW0BnpSfoo2Ed8dDew==";
+        };
+        _OPa9AzoZ = {
+            "id" = "OPa9AzoZ";
+            "file" = "marvelores-1.0.2-26.3.jar";
+            "hash" = "sha512-00svo6NB8UxWZAx+ybFlFxSAiIYNcddCvhi8xXfsimlMlnjldEhyemUjiol0a3uzvbI07RshUvJlC9FS29cBDg==";
+        };
     in {
         "6jqIWOqd" = _6jqIWOqd;
         "NW2EJrfq" = _NW2EJrfq;
@@ -356,6 +376,10 @@ let
         "tYhUy6yD" = _tYhUy6yD;
         "UIZSihZD" = _UIZSihZD;
         "lang4bJv" = _lang4bJv;
+        "SopSyPZk" = _SopSyPZk;
+        "NyRI0XbY" = _NyRI0XbY;
+        "vLCImZ8N" = _vLCImZ8N;
+        "OPa9AzoZ" = _OPa9AzoZ;
         "fabric-1.21" = _hatV3h7Y;
         "fabric-1.21.1" = _hatV3h7Y;
         "fabric-1.21.2" = _hatV3h7Y;
@@ -367,12 +391,12 @@ let
         "fabric-1.21.8" = _LXI3Lz5g;
         "fabric-1.21.9" = _3bxCYess;
         "fabric-1.21.10" = _3bxCYess;
-        "fabric-1.21.11" = _1H4e1Vdb;
-        "fabric-26.1" = _tYhUy6yD;
-        "fabric-26.1.1" = _tYhUy6yD;
-        "fabric-26.1.2" = _tYhUy6yD;
-        "fabric-26.2" = _UIZSihZD;
-        "fabric-26.3" = _lang4bJv;
+        "fabric-1.21.11" = _SopSyPZk;
+        "fabric-26.1" = _NyRI0XbY;
+        "fabric-26.1.1" = _NyRI0XbY;
+        "fabric-26.1.2" = _NyRI0XbY;
+        "fabric-26.2" = _vLCImZ8N;
+        "fabric-26.3" = _OPa9AzoZ;
         "quilt-1.21" = _hatV3h7Y;
         "quilt-1.21.1" = _hatV3h7Y;
         "quilt-1.21.2" = _hatV3h7Y;
@@ -384,12 +408,12 @@ let
         "quilt-1.21.8" = _LXI3Lz5g;
         "quilt-1.21.9" = _3bxCYess;
         "quilt-1.21.10" = _3bxCYess;
-        "quilt-1.21.11" = _1H4e1Vdb;
-        "quilt-26.1" = _tYhUy6yD;
-        "quilt-26.1.1" = _tYhUy6yD;
-        "quilt-26.1.2" = _tYhUy6yD;
-        "quilt-26.2" = _UIZSihZD;
-        "quilt-26.3" = _lang4bJv;
+        "quilt-1.21.11" = _SopSyPZk;
+        "quilt-26.1" = _NyRI0XbY;
+        "quilt-26.1.1" = _NyRI0XbY;
+        "quilt-26.1.2" = _NyRI0XbY;
+        "quilt-26.2" = _vLCImZ8N;
+        "quilt-26.3" = _OPa9AzoZ;
         "pkg-1.0.0-1.21" = _6jqIWOqd;
         "pkg-1.0.0-1.21.3" = _NW2EJrfq;
         "pkg-1.0.1-1.21" = _6VQjncv0;
@@ -432,10 +456,13 @@ let
         "pkg-1.0.1-26.3" = _54HgfoYt;
         "pkg-1.0.2-1.21.11" = _UdZqDVOk;
         "pkg-1.0.5-26.1" = _Uwkhdzq9;
-        "pkg-1.0.2-26.3" = _lang4bJv;
+        "pkg-1.0.2-26.3" = _OPa9AzoZ;
         "pkg-1.0.3-1.21.11" = _1H4e1Vdb;
         "pkg-1.0.6-26.1" = _UIZSihZD;
-        "default" = _lang4bJv;
+        "pkg-1.0.4-1.21.11" = _SopSyPZk;
+        "pkg-1.0.7-26.1" = _NyRI0XbY;
+        "pkg-1.0.6-26.2" = _vLCImZ8N;
+        "default" = _OPa9AzoZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "marvelores";

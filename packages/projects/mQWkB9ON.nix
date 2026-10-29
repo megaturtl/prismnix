@@ -526,6 +526,11 @@ let
             "file" = "stackrefill-26.3.0-6.2.jar";
             "hash" = "sha512-SllIThyeOW3eOtvC/TDBQgEpjiMx36xswS3Ok4OucjvmfGnPHtOABkgVxCwmsqL0B0gVSemG64UD6s6wyNWVfg==";
         };
+        _ILSMdZFa = {
+            "id" = "ILSMdZFa";
+            "file" = "stackrefill-26.1.2-6.2.jar";
+            "hash" = "sha512-XmFDYrSYmA9MGImlhoikjDwpKlwXyaqbNZ4WgWhUIlRSImnb0NNdUu7PhIlEfRpVuZMB49WCJZpo29bKbpPrfQ==";
+        };
     in {
         "j2ygmTZn" = _j2ygmTZn;
         "goiT00Ue" = _goiT00Ue;
@@ -632,6 +637,7 @@ let
         "x5Nx1d4e" = _x5Nx1d4e;
         "aQLdKfan" = _aQLdKfan;
         "2ApxamAM" = _2ApxamAM;
+        "ILSMdZFa" = _ILSMdZFa;
         "fabric-1.16.5" = _YVRFiuhz;
         "fabric-1.18.2" = _zMCHDEgL;
         "fabric-1.19.2" = _MDA9IAE3;
@@ -658,7 +664,7 @@ let
         "fabric-1.21.11" = _56HQnvhL;
         "fabric-26.1" = _6XLVmdak;
         "fabric-26.1.1" = _9ww92lQS;
-        "fabric-26.1.2" = _6q9Ge9SN;
+        "fabric-26.1.2" = _ILSMdZFa;
         "fabric-26.2" = _aQLdKfan;
         "fabric-26.3" = _2ApxamAM;
         "forge-1.16.5" = _dwjOn0So;
@@ -685,7 +691,7 @@ let
         "forge-1.21.11" = _56HQnvhL;
         "forge-26.1" = _6XLVmdak;
         "forge-26.1.1" = _9ww92lQS;
-        "forge-26.1.2" = _6q9Ge9SN;
+        "forge-26.1.2" = _ILSMdZFa;
         "forge-26.2" = _aQLdKfan;
         "forge-26.3" = _2ApxamAM;
         "quilt-1.18.2" = _zMCHDEgL;
@@ -713,7 +719,7 @@ let
         "quilt-1.21.11" = _56HQnvhL;
         "quilt-26.1" = _6XLVmdak;
         "quilt-26.1.1" = _9ww92lQS;
-        "quilt-26.1.2" = _6q9Ge9SN;
+        "quilt-26.1.2" = _ILSMdZFa;
         "quilt-26.2" = _aQLdKfan;
         "quilt-26.3" = _2ApxamAM;
         "neoforge-1.20.2" = _IHdwcPL2;
@@ -736,7 +742,7 @@ let
         "neoforge-1.21.11" = _56HQnvhL;
         "neoforge-26.1" = _6XLVmdak;
         "neoforge-26.1.1" = _9ww92lQS;
-        "neoforge-26.1.2" = _6q9Ge9SN;
+        "neoforge-26.1.2" = _ILSMdZFa;
         "neoforge-26.2" = _aQLdKfan;
         "neoforge-26.3" = _2ApxamAM;
         "pkg-1.16.5-2.4-fabric" = _j2ygmTZn;
@@ -844,7 +850,8 @@ let
         "pkg-1.21.1-6.2-fabric+forge+neo" = _x5Nx1d4e;
         "pkg-26.2.0-6.2-fabric+forge+neo" = _aQLdKfan;
         "pkg-26.3.0-6.2-fabric+forge+neo" = _2ApxamAM;
-        "default" = _2ApxamAM;
+        "pkg-26.1.2-6.2-fabric+forge+neo" = _ILSMdZFa;
+        "default" = _ILSMdZFa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stack-refill";

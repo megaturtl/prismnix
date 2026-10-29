@@ -701,6 +701,11 @@ let
             "file" = "SnowRealMagic-1.21.1-Fabric-12.2.4.jar";
             "hash" = "sha512-hASoJ/30ku/LWPJ+0XHzwxvyUDaA/V7wlH1pLmmKvSIjLuHSnURi1JQEkp2FSaZSnCedxKu19F4zXzwD41Jarw==";
         };
+        _fDz7EoDJ = {
+            "id" = "fDz7EoDJ";
+            "file" = "SnowRealMagic-1.21.1-NeoForge-12.2.4.jar";
+            "hash" = "sha512-SvHKSlo+NDPPUbDXVR8GwMHfONuT9e0EbvE/gtVVkCNq5yNClg5KwJr7R3LZkY7M4o+7c0tIHz0w5P50xJBjYg==";
+        };
     in {
         "KzkdNEMw" = _KzkdNEMw;
         "aJn7pG9w" = _aJn7pG9w;
@@ -842,6 +847,7 @@ let
         "XXjs6tNa" = _XXjs6tNa;
         "eBgTGHpc" = _eBgTGHpc;
         "2f1PTEnN" = _2f1PTEnN;
+        "fDz7EoDJ" = _fDz7EoDJ;
         "fabric-1.19.3" = _Dcj8Il7B;
         "fabric-1.19.2" = _Fo8Vytsg;
         "fabric-1.19.4" = _jIPF2Beb;
@@ -859,7 +865,7 @@ let
         "forge-1.20.1" = _aQw97T9l;
         "neoforge-1.20" = _aQw97T9l;
         "neoforge-1.20.1" = _aQw97T9l;
-        "neoforge-1.21.1" = _XXjs6tNa;
+        "neoforge-1.21.1" = _fDz7EoDJ;
         "neoforge-26.1" = _XIeL8UVd;
         "neoforge-26.1.1" = _XIeL8UVd;
         "neoforge-26.1.2" = _XIeL8UVd;
@@ -984,7 +990,8 @@ let
         "pkg-12.2.3+neoforge" = _XXjs6tNa;
         "pkg-12.2.3+fabric" = _eBgTGHpc;
         "pkg-12.2.4+fabric" = _2f1PTEnN;
-        "default" = _2f1PTEnN;
+        "pkg-12.2.4+neoforge" = _fDz7EoDJ;
+        "default" = _fDz7EoDJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "snow-real-magic";

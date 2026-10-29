@@ -356,6 +356,11 @@ let
             "file" = "smallernetherportals-26.3.0-4.1.jar";
             "hash" = "sha512-MBglGcE8NrXb9Saa7g3YjwecetQRRNNybCh4UDgtSVsZjiIF3g2rSSeM0ohWFIDHzdriN/zmvTzFWBVgCaVGmA==";
         };
+        _mSRwecgV = {
+            "id" = "mSRwecgV";
+            "file" = "smallernetherportals-26.1.2-4.1.jar";
+            "hash" = "sha512-8DaobCSURr9AyOuq6kEko7+SdHQCMDRR3WCAPPG9xBCLGu7nGsLIGmvRGCQSADF6FrXapnqpKowQmQwLBcKH5Q==";
+        };
     in {
         "vFqXFlDj" = _vFqXFlDj;
         "UmOZKuED" = _UmOZKuED;
@@ -428,6 +433,7 @@ let
         "RziYEute" = _RziYEute;
         "oAUXGGAc" = _oAUXGGAc;
         "93D8GdfA" = _93D8GdfA;
+        "mSRwecgV" = _mSRwecgV;
         "fabric-1.16.5" = _Ci3bAzRx;
         "fabric-1.18.2" = _gTtqbVDP;
         "fabric-1.19.2" = _rHtuDJM0;
@@ -454,7 +460,7 @@ let
         "fabric-1.21.11" = _GVNelKIl;
         "fabric-26.1" = _GlOQ041f;
         "fabric-26.1.1" = _zlUNDUC2;
-        "fabric-26.1.2" = _QxIi1cRa;
+        "fabric-26.1.2" = _mSRwecgV;
         "fabric-26.2" = _oAUXGGAc;
         "fabric-26.3" = _93D8GdfA;
         "forge-1.16.5" = _YoHT9l2S;
@@ -481,7 +487,7 @@ let
         "forge-1.21.11" = _GVNelKIl;
         "forge-26.1" = _GlOQ041f;
         "forge-26.1.1" = _zlUNDUC2;
-        "forge-26.1.2" = _QxIi1cRa;
+        "forge-26.1.2" = _mSRwecgV;
         "forge-26.2" = _oAUXGGAc;
         "forge-26.3" = _93D8GdfA;
         "quilt-1.18.2" = _gTtqbVDP;
@@ -509,7 +515,7 @@ let
         "quilt-1.21.11" = _GVNelKIl;
         "quilt-26.1" = _GlOQ041f;
         "quilt-26.1.1" = _zlUNDUC2;
-        "quilt-26.1.2" = _QxIi1cRa;
+        "quilt-26.1.2" = _mSRwecgV;
         "quilt-26.2" = _oAUXGGAc;
         "quilt-26.3" = _93D8GdfA;
         "neoforge-1.20.2" = _4jiZPpoY;
@@ -532,7 +538,7 @@ let
         "neoforge-1.21.11" = _GVNelKIl;
         "neoforge-26.1" = _GlOQ041f;
         "neoforge-26.1.1" = _zlUNDUC2;
-        "neoforge-26.1.2" = _QxIi1cRa;
+        "neoforge-26.1.2" = _mSRwecgV;
         "neoforge-26.2" = _oAUXGGAc;
         "neoforge-26.3" = _93D8GdfA;
         "pkg-1.16.5-2.2-fabric" = _vFqXFlDj;
@@ -606,7 +612,8 @@ let
         "pkg-1.21.1-4.1-fabric+forge+neo" = _RziYEute;
         "pkg-26.2.0-4.1-fabric+forge+neo" = _oAUXGGAc;
         "pkg-26.3.0-4.1-fabric+forge+neo" = _93D8GdfA;
-        "default" = _93D8GdfA;
+        "pkg-26.1.2-4.1-fabric+forge+neo" = _mSRwecgV;
+        "default" = _mSRwecgV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "smaller-nether-portals";

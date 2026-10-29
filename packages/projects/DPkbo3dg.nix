@@ -321,6 +321,11 @@ let
             "file" = "dragondropselytra-26.3.0-3.7.jar";
             "hash" = "sha512-68EEsS8XewLUDFMVEAjSA8JR5Mb1w1mS0YNjL0F4WRhc9ytyQxlr+W8YOc/sHRUOHGxiR3gXELuVLT7gaNoHWA==";
         };
+        _Oq82bGLP = {
+            "id" = "Oq82bGLP";
+            "file" = "dragondropselytra-26.1.2-3.7.jar";
+            "hash" = "sha512-fGx/fAIzIm9P7rscXXZa7/9qxzBps6lD1Xr295gpETvbboKMskp+HMfvveSzkWDahmJSJRPdHx/0P4ww3/WwWw==";
+        };
     in {
         "QAwErNSR" = _QAwErNSR;
         "a4rID9G0" = _a4rID9G0;
@@ -386,6 +391,7 @@ let
         "e6De1khG" = _e6De1khG;
         "27rLrwFe" = _27rLrwFe;
         "O4utKM2i" = _O4utKM2i;
+        "Oq82bGLP" = _Oq82bGLP;
         "fabric-1.16.5" = _Wp4Z1Yo7;
         "fabric-1.18.2" = _XSYau9jZ;
         "fabric-1.19.2" = _iqH582EL;
@@ -412,7 +418,7 @@ let
         "fabric-1.21.11" = _FD8gmqSm;
         "fabric-26.1" = _czjLUyfi;
         "fabric-26.1.1" = _obAGDGgE;
-        "fabric-26.1.2" = _QbLd0tvF;
+        "fabric-26.1.2" = _Oq82bGLP;
         "fabric-26.2" = _27rLrwFe;
         "fabric-26.3" = _O4utKM2i;
         "forge-1.16.5" = _2Em9SOE2;
@@ -439,7 +445,7 @@ let
         "forge-1.21.11" = _FD8gmqSm;
         "forge-26.1" = _czjLUyfi;
         "forge-26.1.1" = _obAGDGgE;
-        "forge-26.1.2" = _QbLd0tvF;
+        "forge-26.1.2" = _Oq82bGLP;
         "forge-26.2" = _27rLrwFe;
         "forge-26.3" = _O4utKM2i;
         "quilt-1.18.2" = _XSYau9jZ;
@@ -467,7 +473,7 @@ let
         "quilt-1.21.11" = _FD8gmqSm;
         "quilt-26.1" = _czjLUyfi;
         "quilt-26.1.1" = _obAGDGgE;
-        "quilt-26.1.2" = _QbLd0tvF;
+        "quilt-26.1.2" = _Oq82bGLP;
         "quilt-26.2" = _27rLrwFe;
         "quilt-26.3" = _O4utKM2i;
         "neoforge-1.20.2" = _RMit1Ay1;
@@ -490,7 +496,7 @@ let
         "neoforge-1.21.11" = _FD8gmqSm;
         "neoforge-26.1" = _czjLUyfi;
         "neoforge-26.1.1" = _obAGDGgE;
-        "neoforge-26.1.2" = _QbLd0tvF;
+        "neoforge-26.1.2" = _Oq82bGLP;
         "neoforge-26.2" = _27rLrwFe;
         "neoforge-26.3" = _O4utKM2i;
         "pkg-1.16.5-1.8-fabric" = _QAwErNSR;
@@ -557,7 +563,8 @@ let
         "pkg-1.21.1-3.7-fabric+forge+neo" = _e6De1khG;
         "pkg-26.2.0-3.7-fabric+forge+neo" = _27rLrwFe;
         "pkg-26.3.0-3.7-fabric+forge+neo" = _O4utKM2i;
-        "default" = _O4utKM2i;
+        "pkg-26.1.2-3.7-fabric+forge+neo" = _Oq82bGLP;
+        "default" = _Oq82bGLP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dragon-drops-elytra";

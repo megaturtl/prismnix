@@ -316,6 +316,26 @@ let
             "file" = "Waddles-fabric-26.1-0.13.0.jar";
             "hash" = "sha512-tdCzvE6+KDKRCNbpfvi5DQ+p/BUs1FpyMXmvFb8zE35zG5QjdU5UWjR1NyJjiJGVmB718hNcPsBLMkywEvHfgQ==";
         };
+        _K0U1qczN = {
+            "id" = "K0U1qczN";
+            "file" = "Waddles-fabric-26.2-0.14.0.jar";
+            "hash" = "sha512-vnoch08JCzYI4zoaAcmtwlfBEizSVQ9tOv91Ggr6W1TglNTKMy0caOrSGyCAj2j5VHuoGcKOty6x8FB7K+zFBQ==";
+        };
+        _n8Hz6Mcr = {
+            "id" = "n8Hz6Mcr";
+            "file" = "Waddles-neoforge-26.2-0.14.0.jar";
+            "hash" = "sha512-wZElq6wV6FEnkiZN3GshaG5buP5r51StOD8egk+rHBwd4S7+6EacKOiPFI3wUSaiax28cn9bFFK8QiIugOUHDw==";
+        };
+        _iItlbZrH = {
+            "id" = "iItlbZrH";
+            "file" = "Waddles-fabric-26.3-0.15.0.jar";
+            "hash" = "sha512-gv5R216lgUcVWt5ZrVDGJN8QJUtkeOpBl54tcUZe88GsZPMLkOIOygnmnArGcAgTUo0H1BI90IbC66Nb07sDUw==";
+        };
+        _6kKU2vVe = {
+            "id" = "6kKU2vVe";
+            "file" = "Waddles-neoforge-26.3-0.15.0.jar";
+            "hash" = "sha512-pugPj+ninT74K0OfI87TtxYm8920XQhzW74Dls/35JngMEY3jrbe1UspzMum2zUPu5Eqsu04+4WKRSkMrkRgWQ==";
+        };
     in {
         "aXaJYSVv" = _aXaJYSVv;
         "YW0xqJCl" = _YW0xqJCl;
@@ -380,6 +400,10 @@ let
         "Qv0kZpcF" = _Qv0kZpcF;
         "Pw2yoNjk" = _Pw2yoNjk;
         "m8pTenKU" = _m8pTenKU;
+        "K0U1qczN" = _K0U1qczN;
+        "n8Hz6Mcr" = _n8Hz6Mcr;
+        "iItlbZrH" = _iItlbZrH;
+        "6kKU2vVe" = _6kKU2vVe;
         "forge-1.10.2" = _qanSYmcK;
         "forge-1.11" = _YW0xqJCl;
         "forge-1.11.1" = _YW0xqJCl;
@@ -425,6 +449,8 @@ let
         "neoforge-26.1" = _Pw2yoNjk;
         "neoforge-26.1.1" = _Pw2yoNjk;
         "neoforge-26.1.2" = _Pw2yoNjk;
+        "neoforge-26.2" = _n8Hz6Mcr;
+        "neoforge-26.3" = _6kKU2vVe;
         "fabric-1.20.2" = _sVOFFD1m;
         "fabric-1.20.4" = _F3ArWJE2;
         "fabric-1.21" = _WWrTEjRu;
@@ -440,6 +466,8 @@ let
         "fabric-26.1" = _m8pTenKU;
         "fabric-26.1.1" = _m8pTenKU;
         "fabric-26.1.2" = _m8pTenKU;
+        "fabric-26.2" = _K0U1qczN;
+        "fabric-26.3" = _iItlbZrH;
         "pkg-0.5.0" = _aXaJYSVv;
         "pkg-0.5.1" = _YW0xqJCl;
         "pkg-0.5.2" = _QA7V6Y1t;
@@ -482,7 +510,9 @@ let
         "pkg-0.12.1" = _tEdVcAIQ;
         "pkg-0.12.2" = _Qv0kZpcF;
         "pkg-0.13.0" = _m8pTenKU;
-        "default" = _m8pTenKU;
+        "pkg-0.14.0" = _n8Hz6Mcr;
+        "pkg-0.15.0" = _6kKU2vVe;
+        "default" = _6kKU2vVe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "waddles";

@@ -136,6 +136,51 @@ let
             "file" = "modestflintoverhaul--mc26.2--nf--1.50.2.jar";
             "hash" = "sha512-9iFv4gNzoIAIKJZPl/GpbZVD5SNJkyTdzdZy/xMcUN3luK4kgHEpb4F2b5PGkXXeVkGVdBaD5M3AkL+iCwzd3g==";
         };
+        _Wwo7mOec = {
+            "id" = "Wwo7mOec";
+            "file" = "modestflintoverhaul--mc1.21.11--fab--1.50.3.jar";
+            "hash" = "sha512-vcf1ACyDczU0PnCJea8dOMczNGzviJwNB32BXyTw/NPWRVjZ4ojrzIzTDdsFpcCJ1y3qVMaDrRzL64Qxv3FOFw==";
+        };
+        _lmdTbJsw = {
+            "id" = "lmdTbJsw";
+            "file" = "modestflintoverhaul--mc26.1--fab--1.50.3.jar";
+            "hash" = "sha512-LKWNMTLjRKObih3+tGijBXo9OyPv2xm9DVx79epBNjcr+13RAy17g75ykA3Gng62HKccI6gW+92vCK39xJ/Uhw==";
+        };
+        _2QFLkPvj = {
+            "id" = "2QFLkPvj";
+            "file" = "modestflintoverhaul--mc26.2--fab--1.50.3.jar";
+            "hash" = "sha512-dGcymKlpGmKwr5E+hlSMyxK7uYhXl7PI4UQ1p/DtiIfG7qnSi1r1mXalk7dvQaZVS9tM2vwImbF1OvwnalScLg==";
+        };
+        _dT0NWlBT = {
+            "id" = "dT0NWlBT";
+            "file" = "modestflintoverhaul--mc26.3--nf--1.50.3.jar";
+            "hash" = "sha512-UeFEjb0uhGEqKVsd5ZXqCQSN0e8WrYF2/vh3uCrUMc0INe9LT8MUqfk21Hblqx+mrKYIl0sjGlnxGpaeA2bgDw==";
+        };
+        _a2k6NTNI = {
+            "id" = "a2k6NTNI";
+            "file" = "modestflintoverhaul--mc1.21.11--fab--1.50.4.jar";
+            "hash" = "sha512-+66J4rftRxHE5op//z30VL9VSC3+flhj6GKsV2331bA9G/FHC8d3+aUAnAoXCh9wVg9H49Qi1uvbD9deS99a2w==";
+        };
+        _ZkgDusoy = {
+            "id" = "ZkgDusoy";
+            "file" = "modestflintoverhaul--mc26.3--nf--1.50.4.jar";
+            "hash" = "sha512-57z4/4+V3d/nRg6fTiiPaRrCSrvKv8AuTF5On+TENuFj3j9lL3qRAsCFKS7v8c932/StlWzLv+TBXeRZz1FnvA==";
+        };
+        _6Kv8HTIY = {
+            "id" = "6Kv8HTIY";
+            "file" = "modestflintoverhaul--mc26.2--fab--1.50.4.jar";
+            "hash" = "sha512-YCYqWdz2es6yBGQXkWRYZD5L4aPeZmX3pYSGtfT5+shqUjs905oemaSS277oYW4oY3patOP5U1J8avfP9NfFlA==";
+        };
+        _7YeUWras = {
+            "id" = "7YeUWras";
+            "file" = "modestflintoverhaul--mc26.1--fab--1.50.4.jar";
+            "hash" = "sha512-ibGA0+fgi8AWF8NQgSikl6UHbG6zp02auIVByHP3co2H2Vd+nVqg5xs5Cwt7kmy6Jow391GSAafRIWkMr6tUTA==";
+        };
+        _41F3ZXWJ = {
+            "id" = "41F3ZXWJ";
+            "file" = "modestflintoverhaul--mc26.2--nf--1.50.4.jar";
+            "hash" = "sha512-70Hn8vFjQnJszXjqweReKpnOAfY2WBeHTLkL+DXBuvIRi0cpV7eRx2DT/90pVsTPNVVi/12E2C6wn3znNV5zzw==";
+        };
     in {
         "jjX4Lh7i" = _jjX4Lh7i;
         "MYcLtW7W" = _MYcLtW7W;
@@ -164,6 +209,15 @@ let
         "LmeQdYQB" = _LmeQdYQB;
         "MOKbuQDK" = _MOKbuQDK;
         "r4JbNV2r" = _r4JbNV2r;
+        "Wwo7mOec" = _Wwo7mOec;
+        "lmdTbJsw" = _lmdTbJsw;
+        "2QFLkPvj" = _2QFLkPvj;
+        "dT0NWlBT" = _dT0NWlBT;
+        "a2k6NTNI" = _a2k6NTNI;
+        "ZkgDusoy" = _ZkgDusoy;
+        "6Kv8HTIY" = _6Kv8HTIY;
+        "7YeUWras" = _7YeUWras;
+        "41F3ZXWJ" = _41F3ZXWJ;
         "forge-1.18.2" = _b0IiWYwr;
         "forge-1.19.3" = _MYcLtW7W;
         "forge-1.20.1" = _Qu6yaM9i;
@@ -175,17 +229,20 @@ let
         "neoforge-26.1" = _F0E1QcKg;
         "neoforge-26.1.1" = _F0E1QcKg;
         "neoforge-26.1.2" = _MOKbuQDK;
-        "neoforge-26.2" = _r4JbNV2r;
+        "neoforge-26.2" = _41F3ZXWJ;
+        "neoforge-26.3" = _ZkgDusoy;
         "fabric-26.1" = _EKuGlteY;
         "fabric-26.1.1" = _EKuGlteY;
-        "fabric-26.1.2" = _2zBU44zY;
-        "fabric-1.21.11" = _Sk9liFcG;
-        "fabric-26.2" = _1ZnL7pBG;
+        "fabric-26.1.2" = _7YeUWras;
+        "fabric-1.21.11" = _a2k6NTNI;
+        "fabric-26.2" = _6Kv8HTIY;
+        "fabric-26.3" = _6Kv8HTIY;
         "quilt-26.1" = _EKuGlteY;
         "quilt-26.1.1" = _EKuGlteY;
-        "quilt-26.1.2" = _2zBU44zY;
-        "quilt-26.2" = _1ZnL7pBG;
-        "quilt-1.21.11" = _Sk9liFcG;
+        "quilt-26.1.2" = _7YeUWras;
+        "quilt-26.2" = _6Kv8HTIY;
+        "quilt-1.21.11" = _a2k6NTNI;
+        "quilt-26.3" = _6Kv8HTIY;
         "pkg-1.18--1.00" = _jjX4Lh7i;
         "pkg-1.19--1.00" = _MYcLtW7W;
         "pkg-1.01" = _Gdsk0zSB;
@@ -197,7 +254,9 @@ let
         "pkg-1.50.1" = _JBjRnSGf;
         "pkg-1.50.2" = _r4JbNV2r;
         "pkg-1.12.6" = _LmeQdYQB;
-        "default" = _r4JbNV2r;
+        "pkg-1.50.3" = _dT0NWlBT;
+        "pkg-1.50.4" = _41F3ZXWJ;
+        "default" = _41F3ZXWJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modest-flint-overhaul";

@@ -231,6 +231,16 @@ let
             "file" = "twilightdelight-2.2.7.jar";
             "hash" = "sha512-mqNbqYIuzakygABL7AQ6OKkj8vy4b0/MCNgULOB2kR/dP/8De+mNXWcc9KO8RcJqdIZ6GsUVvgfWQ16NCmG9nA==";
         };
+        _YqN4ZHXo = {
+            "id" = "YqN4ZHXo";
+            "file" = "twilightdelight-2.2.8.jar";
+            "hash" = "sha512-SYZ5I6QnQRp0yvRRzgf8eHJjLLI02maGe8YnMPUcGp/+razZGmXxfmy9ELlyqtXvn+7Ld9sQ+IfZKEYD+JLP8A==";
+        };
+        _MFC7tDeW = {
+            "id" = "MFC7tDeW";
+            "file" = "twilightdelight-3.2.9.jar";
+            "hash" = "sha512-FCW0DlXm3w4m7XHjqWi9B/hABmVL4XSY54bniSLi8JeyBcTLFs0m2aQC2iN2tNOwA5DCdeSBvqdqBixaTWWmvQ==";
+        };
     in {
         "8teZegg3" = _8teZegg3;
         "PKxkO6HV" = _PKxkO6HV;
@@ -278,10 +288,12 @@ let
         "L6XoDjMt" = _L6XoDjMt;
         "KYnhPDyd" = _KYnhPDyd;
         "TC0KHPfL" = _TC0KHPfL;
+        "YqN4ZHXo" = _YqN4ZHXo;
+        "MFC7tDeW" = _MFC7tDeW;
         "forge-1.19.2" = _Iy0nnP4D;
-        "forge-1.20.1" = _TC0KHPfL;
-        "neoforge-1.20.1" = _TC0KHPfL;
-        "neoforge-1.21.1" = _KYnhPDyd;
+        "forge-1.20.1" = _YqN4ZHXo;
+        "neoforge-1.20.1" = _YqN4ZHXo;
+        "neoforge-1.21.1" = _MFC7tDeW;
         "pkg-1.2.3" = _8teZegg3;
         "pkg-1.2.4" = _PKxkO6HV;
         "pkg-1.2.5" = _FVpUOJCY;
@@ -328,7 +340,9 @@ let
         "pkg-3.2.7" = _L6XoDjMt;
         "pkg-3.2.8" = _KYnhPDyd;
         "pkg-2.2.7" = _TC0KHPfL;
-        "default" = _TC0KHPfL;
+        "pkg-2.2.8" = _YqN4ZHXo;
+        "pkg-3.2.9" = _MFC7tDeW;
+        "default" = _MFC7tDeW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "twilight-delight";

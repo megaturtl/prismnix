@@ -316,6 +316,11 @@ let
             "file" = "fastercrouching-26.3.0-2.8.jar";
             "hash" = "sha512-+ZTKyCp5Uc8G4pC0o6Eiri2IFJgh2JXCv0NnvN/hgI2QrOpH0TlBdWC4zkOmkQmIDln1Ua6m1MAJWsGp4Ipt+Q==";
         };
+        _Q3KcqcjW = {
+            "id" = "Q3KcqcjW";
+            "file" = "fastercrouching-26.1.2-2.8.jar";
+            "hash" = "sha512-qQbwSimGuojNZYDZe1xK5RAByll1G/8VfE0r+HfqpT39BKZb+BTocR40Ru2MizfK3RFr0Pu3aG307lK24eCIeA==";
+        };
     in {
         "I7zuHEER" = _I7zuHEER;
         "29PgR2rW" = _29PgR2rW;
@@ -380,6 +385,7 @@ let
         "SVt9wW6T" = _SVt9wW6T;
         "avV6dKmh" = _avV6dKmh;
         "c5HCUo8i" = _c5HCUo8i;
+        "Q3KcqcjW" = _Q3KcqcjW;
         "fabric-1.16.5" = _p3en8kuQ;
         "fabric-1.18.2" = _8w4juONg;
         "fabric-1.19.2" = _UhLT97u9;
@@ -406,7 +412,7 @@ let
         "fabric-1.21.11" = _vindyXkY;
         "fabric-26.1" = _UcHvQoD7;
         "fabric-26.1.1" = _MytQ6jbd;
-        "fabric-26.1.2" = _gkmjNfSq;
+        "fabric-26.1.2" = _Q3KcqcjW;
         "fabric-26.2" = _avV6dKmh;
         "fabric-26.3" = _c5HCUo8i;
         "forge-1.16.5" = _73aCbUrB;
@@ -433,7 +439,7 @@ let
         "forge-1.21.11" = _vindyXkY;
         "forge-26.1" = _UcHvQoD7;
         "forge-26.1.1" = _MytQ6jbd;
-        "forge-26.1.2" = _gkmjNfSq;
+        "forge-26.1.2" = _Q3KcqcjW;
         "forge-26.2" = _avV6dKmh;
         "forge-26.3" = _c5HCUo8i;
         "quilt-1.18.2" = _8w4juONg;
@@ -461,7 +467,7 @@ let
         "quilt-1.21.11" = _vindyXkY;
         "quilt-26.1" = _UcHvQoD7;
         "quilt-26.1.1" = _MytQ6jbd;
-        "quilt-26.1.2" = _gkmjNfSq;
+        "quilt-26.1.2" = _Q3KcqcjW;
         "quilt-26.2" = _avV6dKmh;
         "quilt-26.3" = _c5HCUo8i;
         "neoforge-1.20.2" = _tjiWZUJv;
@@ -484,7 +490,7 @@ let
         "neoforge-1.21.11" = _vindyXkY;
         "neoforge-26.1" = _UcHvQoD7;
         "neoforge-26.1.1" = _MytQ6jbd;
-        "neoforge-26.1.2" = _gkmjNfSq;
+        "neoforge-26.1.2" = _Q3KcqcjW;
         "neoforge-26.2" = _avV6dKmh;
         "neoforge-26.3" = _c5HCUo8i;
         "pkg-1.16.5-1.0-fabric" = _I7zuHEER;
@@ -550,7 +556,8 @@ let
         "pkg-1.21.1-2.8-fabric+forge+neo" = _SVt9wW6T;
         "pkg-26.2.0-2.8-fabric+forge+neo" = _avV6dKmh;
         "pkg-26.3.0-2.8-fabric+forge+neo" = _c5HCUo8i;
-        "default" = _c5HCUo8i;
+        "pkg-26.1.2-2.8-fabric+forge+neo" = _Q3KcqcjW;
+        "default" = _Q3KcqcjW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "faster-crouching";

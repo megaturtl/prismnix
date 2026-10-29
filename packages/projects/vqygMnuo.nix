@@ -51,6 +51,11 @@ let
             "file" = "tenaregen-fabric-1.3.1.jar";
             "hash" = "sha512-+xfC6JEUj8cl6BciqKbcOT/cDu/EsmjhliVTgbjx9oleGjRSAuc9CEU1gKCRwlPjp0VQ1U9G5WeW/hUuWus24Q==";
         };
+        _NhoQjoir = {
+            "id" = "NhoQjoir";
+            "file" = "tenaregen-1.4.0.jar";
+            "hash" = "sha512-voySrQN6BBdUr0mcG7x2hiuOBJGkFotp/TGUWNlc0RRUm5MwMq/to/J9LJHNfM2VKEfWbKHbSKHJTZvgRhaqvA==";
+        };
     in {
         "dSy80kjL" = _dSy80kjL;
         "d3JIsTqq" = _d3JIsTqq;
@@ -62,7 +67,8 @@ let
         "ili2fVQq" = _ili2fVQq;
         "UpaEJKOD" = _UpaEJKOD;
         "ZfmK99eo" = _ZfmK99eo;
-        "neoforge-1.21.1" = _UpaEJKOD;
+        "NhoQjoir" = _NhoQjoir;
+        "neoforge-1.21.1" = _NhoQjoir;
         "fabric-1.21.1" = _ZfmK99eo;
         "pkg-1.0.0" = _dSy80kjL;
         "pkg-1.1.0" = _d3JIsTqq;
@@ -71,7 +77,8 @@ let
         "pkg-1.2.3" = _QQqfzFvd;
         "pkg-1.2.4" = _ili2fVQq;
         "pkg-1.3.1" = _ZfmK99eo;
-        "default" = _ZfmK99eo;
+        "pkg-1.4.0" = _NhoQjoir;
+        "default" = _NhoQjoir;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tensura-ep-regen-scaling-reborn";

@@ -1,0 +1,261 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _YxBLrEng = {
+            "id" = "YxBLrEng";
+            "file" = "skywhywalker.zip";
+            "hash" = "sha512-JEOxHU4/g5NZsbyXDdlravoMgqGv2JiUrE2T1OonojgKmItRgWpJy8fwhe2fGBBnLNRWewWfLo7vt+cIY5F9ZQ==";
+        };
+        _O5w2DKAI = {
+            "id" = "O5w2DKAI";
+            "file" = "skywhywalker.zip";
+            "hash" = "sha512-Ytpwau5yNp3SQzyB+k7ow4USWLDyR1CaZ0i8nL/o/vxnuwamxhSX0i4bRSxxoGYvIb+Q0yM+SdK0dAcJPW831A==";
+        };
+        _gQIKN5aB = {
+            "id" = "gQIKN5aB";
+            "file" = "skywhywalker.zip";
+            "hash" = "sha512-Ytpwau5yNp3SQzyB+k7ow4USWLDyR1CaZ0i8nL/o/vxnuwamxhSX0i4bRSxxoGYvIb+Q0yM+SdK0dAcJPW831A==";
+        };
+        _hzk7x8sa = {
+            "id" = "hzk7x8sa";
+            "file" = "skywhywalker.zip";
+            "hash" = "sha512-Ytpwau5yNp3SQzyB+k7ow4USWLDyR1CaZ0i8nL/o/vxnuwamxhSX0i4bRSxxoGYvIb+Q0yM+SdK0dAcJPW831A==";
+        };
+        _VapVSbUM = {
+            "id" = "VapVSbUM";
+            "file" = "skywhywalker (8).zip";
+            "hash" = "sha512-Ytpwau5yNp3SQzyB+k7ow4USWLDyR1CaZ0i8nL/o/vxnuwamxhSX0i4bRSxxoGYvIb+Q0yM+SdK0dAcJPW831A==";
+        };
+        _bHRBbegt = {
+            "id" = "bHRBbegt";
+            "file" = "skywhywalker (8).zip";
+            "hash" = "sha512-Ytpwau5yNp3SQzyB+k7ow4USWLDyR1CaZ0i8nL/o/vxnuwamxhSX0i4bRSxxoGYvIb+Q0yM+SdK0dAcJPW831A==";
+        };
+        _vkwFhHha = {
+            "id" = "vkwFhHha";
+            "file" = "skywhywalker (8).zip";
+            "hash" = "sha512-Ytpwau5yNp3SQzyB+k7ow4USWLDyR1CaZ0i8nL/o/vxnuwamxhSX0i4bRSxxoGYvIb+Q0yM+SdK0dAcJPW831A==";
+        };
+        _1FZj7ufj = {
+            "id" = "1FZj7ufj";
+            "file" = "skywhywalker (8).zip";
+            "hash" = "sha512-Ytpwau5yNp3SQzyB+k7ow4USWLDyR1CaZ0i8nL/o/vxnuwamxhSX0i4bRSxxoGYvIb+Q0yM+SdK0dAcJPW831A==";
+        };
+        _8NB1Q8t5 = {
+            "id" = "8NB1Q8t5";
+            "file" = "skywhywalker (8).zip";
+            "hash" = "sha512-Ytpwau5yNp3SQzyB+k7ow4USWLDyR1CaZ0i8nL/o/vxnuwamxhSX0i4bRSxxoGYvIb+Q0yM+SdK0dAcJPW831A==";
+        };
+        _exHK4Jhv = {
+            "id" = "exHK4Jhv";
+            "file" = "skywhywalker (8).zip";
+            "hash" = "sha512-Ytpwau5yNp3SQzyB+k7ow4USWLDyR1CaZ0i8nL/o/vxnuwamxhSX0i4bRSxxoGYvIb+Q0yM+SdK0dAcJPW831A==";
+        };
+        _hGtPJDTv = {
+            "id" = "hGtPJDTv";
+            "file" = "skywhywalker (8).zip";
+            "hash" = "sha512-Ytpwau5yNp3SQzyB+k7ow4USWLDyR1CaZ0i8nL/o/vxnuwamxhSX0i4bRSxxoGYvIb+Q0yM+SdK0dAcJPW831A==";
+        };
+        _g3MXbJqx = {
+            "id" = "g3MXbJqx";
+            "file" = "skywhywalker (8).zip";
+            "hash" = "sha512-Ytpwau5yNp3SQzyB+k7ow4USWLDyR1CaZ0i8nL/o/vxnuwamxhSX0i4bRSxxoGYvIb+Q0yM+SdK0dAcJPW831A==";
+        };
+        _Rm2j7lQX = {
+            "id" = "Rm2j7lQX";
+            "file" = "skywhywalker.zip";
+            "hash" = "sha512-EI5ZD/1l/lnJmofxccumwlkAe483w4yOQHK0JDEja1/btULlBkf+d1A3WqIJ9rXDZusfFtO3IdTnQxSZ+FE1FA==";
+        };
+        _Bt0zGTTz = {
+            "id" = "Bt0zGTTz";
+            "file" = "skywhywalker.zip";
+            "hash" = "sha512-EI5ZD/1l/lnJmofxccumwlkAe483w4yOQHK0JDEja1/btULlBkf+d1A3WqIJ9rXDZusfFtO3IdTnQxSZ+FE1FA==";
+        };
+        _SkpeRQ57 = {
+            "id" = "SkpeRQ57";
+            "file" = "skywhywalker.zip";
+            "hash" = "sha512-EI5ZD/1l/lnJmofxccumwlkAe483w4yOQHK0JDEja1/btULlBkf+d1A3WqIJ9rXDZusfFtO3IdTnQxSZ+FE1FA==";
+        };
+        _94C71O2U = {
+            "id" = "94C71O2U";
+            "file" = "skywhywalker.zip";
+            "hash" = "sha512-EI5ZD/1l/lnJmofxccumwlkAe483w4yOQHK0JDEja1/btULlBkf+d1A3WqIJ9rXDZusfFtO3IdTnQxSZ+FE1FA==";
+        };
+        _KxOBNA7X = {
+            "id" = "KxOBNA7X";
+            "file" = "skywhywalker.zip";
+            "hash" = "sha512-EI5ZD/1l/lnJmofxccumwlkAe483w4yOQHK0JDEja1/btULlBkf+d1A3WqIJ9rXDZusfFtO3IdTnQxSZ+FE1FA==";
+        };
+    in {
+        "YxBLrEng" = _YxBLrEng;
+        "O5w2DKAI" = _O5w2DKAI;
+        "gQIKN5aB" = _gQIKN5aB;
+        "hzk7x8sa" = _hzk7x8sa;
+        "VapVSbUM" = _VapVSbUM;
+        "bHRBbegt" = _bHRBbegt;
+        "vkwFhHha" = _vkwFhHha;
+        "1FZj7ufj" = _1FZj7ufj;
+        "8NB1Q8t5" = _8NB1Q8t5;
+        "exHK4Jhv" = _exHK4Jhv;
+        "hGtPJDTv" = _hGtPJDTv;
+        "g3MXbJqx" = _g3MXbJqx;
+        "Rm2j7lQX" = _Rm2j7lQX;
+        "Bt0zGTTz" = _Bt0zGTTz;
+        "SkpeRQ57" = _SkpeRQ57;
+        "94C71O2U" = _94C71O2U;
+        "KxOBNA7X" = _KxOBNA7X;
+        "minecraft-1.21.11" = _Bt0zGTTz;
+        "minecraft-1.16.2" = _Bt0zGTTz;
+        "minecraft-1.16.3" = _Bt0zGTTz;
+        "minecraft-1.16.4" = _Bt0zGTTz;
+        "minecraft-1.16.5" = _Bt0zGTTz;
+        "minecraft-1.21" = _Bt0zGTTz;
+        "minecraft-1.21.1" = _Bt0zGTTz;
+        "minecraft-1.21.2" = _Bt0zGTTz;
+        "minecraft-1.21.3" = _Bt0zGTTz;
+        "minecraft-1.21.4" = _Bt0zGTTz;
+        "minecraft-1.21.5" = _Bt0zGTTz;
+        "minecraft-1.21.6" = _Bt0zGTTz;
+        "minecraft-1.21.7" = _Bt0zGTTz;
+        "minecraft-1.21.8" = _Bt0zGTTz;
+        "minecraft-1.21.9" = _Bt0zGTTz;
+        "minecraft-1.21.10" = _Bt0zGTTz;
+        "minecraft-1.16" = _Bt0zGTTz;
+        "minecraft-1.16.1" = _Bt0zGTTz;
+        "minecraft-1.17" = _Bt0zGTTz;
+        "minecraft-1.17.1" = _Bt0zGTTz;
+        "minecraft-1.18" = _Bt0zGTTz;
+        "minecraft-1.18.1" = _Bt0zGTTz;
+        "minecraft-1.18.2" = _Bt0zGTTz;
+        "minecraft-1.19" = _Bt0zGTTz;
+        "minecraft-1.19.1" = _Bt0zGTTz;
+        "minecraft-1.19.2" = _Bt0zGTTz;
+        "minecraft-1.19.3" = _Bt0zGTTz;
+        "minecraft-1.19.4" = _Bt0zGTTz;
+        "minecraft-1.20" = _Bt0zGTTz;
+        "minecraft-1.20.1" = _Bt0zGTTz;
+        "minecraft-1.20.2" = _Bt0zGTTz;
+        "minecraft-1.20.3" = _Bt0zGTTz;
+        "minecraft-1.20.4" = _Bt0zGTTz;
+        "minecraft-1.20.5" = _Bt0zGTTz;
+        "minecraft-1.20.6" = _Bt0zGTTz;
+        "minecraft-1.8" = _VapVSbUM;
+        "minecraft-1.8.1" = _VapVSbUM;
+        "minecraft-1.8.2" = _VapVSbUM;
+        "minecraft-1.8.3" = _VapVSbUM;
+        "minecraft-1.8.4" = _VapVSbUM;
+        "minecraft-1.8.5" = _VapVSbUM;
+        "minecraft-1.8.6" = _VapVSbUM;
+        "minecraft-1.8.7" = _VapVSbUM;
+        "minecraft-1.8.8" = _VapVSbUM;
+        "minecraft-1.8.9" = _VapVSbUM;
+        "minecraft-1.9" = _VapVSbUM;
+        "minecraft-1.9.1" = _VapVSbUM;
+        "minecraft-1.9.2" = _VapVSbUM;
+        "minecraft-1.9.3" = _VapVSbUM;
+        "minecraft-1.9.4" = _VapVSbUM;
+        "minecraft-1.10" = _VapVSbUM;
+        "minecraft-1.10.1" = _VapVSbUM;
+        "minecraft-1.10.2" = _VapVSbUM;
+        "minecraft-1.11" = _SkpeRQ57;
+        "minecraft-1.11.1" = _SkpeRQ57;
+        "minecraft-1.11.2" = _SkpeRQ57;
+        "minecraft-1.12" = _SkpeRQ57;
+        "minecraft-1.12.1" = _SkpeRQ57;
+        "minecraft-1.12.2" = _SkpeRQ57;
+        "minecraft-1.13" = _SkpeRQ57;
+        "minecraft-1.13.1" = _SkpeRQ57;
+        "minecraft-1.13.2" = _SkpeRQ57;
+        "minecraft-1.14" = _SkpeRQ57;
+        "minecraft-1.14.1" = _SkpeRQ57;
+        "minecraft-1.14.2" = _SkpeRQ57;
+        "minecraft-1.14.3" = _SkpeRQ57;
+        "minecraft-1.14.4" = _SkpeRQ57;
+        "minecraft-1.15" = _SkpeRQ57;
+        "minecraft-1.15.1" = _SkpeRQ57;
+        "minecraft-1.15.2" = _SkpeRQ57;
+        "minecraft-26.1-snapshot-1" = _Rm2j7lQX;
+        "minecraft-26.1-snapshot-2" = _Rm2j7lQX;
+        "minecraft-26.1-snapshot-3" = _Rm2j7lQX;
+        "minecraft-26.1-snapshot-4" = _Rm2j7lQX;
+        "minecraft-26.1-snapshot-5" = _Rm2j7lQX;
+        "minecraft-26.1-snapshot-6" = _Rm2j7lQX;
+        "minecraft-26.1-snapshot-7" = _Rm2j7lQX;
+        "minecraft-26.1-snapshot-8" = _Rm2j7lQX;
+        "minecraft-26.1-snapshot-9" = _Rm2j7lQX;
+        "minecraft-26.1-snapshot-10" = _Rm2j7lQX;
+        "minecraft-26.1-snapshot-11" = _Rm2j7lQX;
+        "minecraft-26.1-pre-1" = _Rm2j7lQX;
+        "minecraft-26.1-pre-2" = _Rm2j7lQX;
+        "minecraft-26.1-pre-3" = _94C71O2U;
+        "minecraft-26.1-rc-1" = _94C71O2U;
+        "minecraft-26.1" = _KxOBNA7X;
+        "minecraft-26.1.1-rc-1" = _KxOBNA7X;
+        "minecraft-26.1.1" = _KxOBNA7X;
+        "minecraft-26.2-snapshot-1" = _KxOBNA7X;
+        "minecraft-26.1.2-rc-1" = _KxOBNA7X;
+        "minecraft-26.1.2" = _KxOBNA7X;
+        "minecraft-26.2-snapshot-2" = _KxOBNA7X;
+        "minecraft-26.2-snapshot-3" = _KxOBNA7X;
+        "minecraft-26.2-snapshot-4" = _KxOBNA7X;
+        "minecraft-26.2-snapshot-5" = _KxOBNA7X;
+        "minecraft-26.2-snapshot-6" = _KxOBNA7X;
+        "minecraft-26.2-snapshot-7" = _KxOBNA7X;
+        "minecraft-26.2-snapshot-8" = _KxOBNA7X;
+        "minecraft-26.2-pre-1" = _KxOBNA7X;
+        "minecraft-26.2-pre-2" = _KxOBNA7X;
+        "minecraft-26.2-pre-3" = _KxOBNA7X;
+        "minecraft-26.2-pre-4" = _KxOBNA7X;
+        "minecraft-26.2-pre-5" = _KxOBNA7X;
+        "minecraft-26.2-pre-6" = _KxOBNA7X;
+        "minecraft-26.2-rc-1" = _KxOBNA7X;
+        "minecraft-26.2-rc-2" = _KxOBNA7X;
+        "minecraft-26.2" = _KxOBNA7X;
+        "minecraft-26.3-snapshot-1" = _KxOBNA7X;
+        "minecraft-26.3-snapshot-2" = _KxOBNA7X;
+        "minecraft-26.3-snapshot-3" = _KxOBNA7X;
+        "minecraft-26.3-snapshot-4" = _KxOBNA7X;
+        "minecraft-26.3-snapshot-5" = _KxOBNA7X;
+        "minecraft-26.3-snapshot-6" = _KxOBNA7X;
+        "minecraft-26.3-snapshot-7" = _KxOBNA7X;
+        "minecraft-26.3-snapshot-8" = _KxOBNA7X;
+        "minecraft-26.3-snapshot-9" = _KxOBNA7X;
+        "minecraft-26.3-snapshot-10" = _KxOBNA7X;
+        "minecraft-26.3-pre-1" = _KxOBNA7X;
+        "minecraft-26.3-pre-2" = _KxOBNA7X;
+        "minecraft-26.3-pre-3" = _KxOBNA7X;
+        "minecraft-26.3-rc-1" = _KxOBNA7X;
+        "minecraft-26.3-rc-2" = _KxOBNA7X;
+        "minecraft-26.3-rc-3" = _KxOBNA7X;
+        "minecraft-26.3" = _KxOBNA7X;
+        "minecraft-26.4-snapshot-1" = _KxOBNA7X;
+        "minecraft-26.4-snapshot-2" = _KxOBNA7X;
+        "minecraft-26.4-snapshot-3" = _KxOBNA7X;
+        "minecraft-26.4-snapshot-4" = _KxOBNA7X;
+        "pkg-1" = _KxOBNA7X;
+        "pkg-6778" = _bHRBbegt;
+        "pkg-5555" = _vkwFhHha;
+        "pkg-8" = _1FZj7ufj;
+        "pkg-10" = _8NB1Q8t5;
+        "pkg-123" = _hGtPJDTv;
+        "pkg-2" = _Bt0zGTTz;
+        "pkg-3" = _SkpeRQ57;
+        "default" = _KxOBNA7X;
+    });
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "skywhywalker-totem-of-undying";
+        id = "ikM1tp3O";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = null;
+            };
+        };
+    };
+in callPackage fn {}

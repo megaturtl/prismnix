@@ -256,6 +256,11 @@ let
             "file" = "grabbymobs-26.3.0-1.8.jar";
             "hash" = "sha512-yVTnYjazvkzTspjHXOdCmY+uVeGfCngBfkXPlu1S+RfexmrMWRxSC2+c/7Eo9MY6sK7srkvkvN2MJsWHSw4yGg==";
         };
+        _zsXUnWQI = {
+            "id" = "zsXUnWQI";
+            "file" = "grabbymobs-26.1.2-1.8.jar";
+            "hash" = "sha512-pbxvI1leN4m0MC9F5Yj1CaP3q94dY95VenGI8BO9bBq3VOOi5azKsGVyeswn/0DblUQuudEtNZB4WWFrjiKybw==";
+        };
     in {
         "9KZOsGqG" = _9KZOsGqG;
         "sFH1Kmp5" = _sFH1Kmp5;
@@ -308,6 +313,7 @@ let
         "YqCEZ0Kr" = _YqCEZ0Kr;
         "Qnxf8SIJ" = _Qnxf8SIJ;
         "hRj0HB4J" = _hRj0HB4J;
+        "zsXUnWQI" = _zsXUnWQI;
         "fabric-1.18.2" = _lw1XCltR;
         "fabric-1.19.2" = _je0ZXW6Z;
         "fabric-1.19.4" = _8Osi2zXN;
@@ -331,7 +337,7 @@ let
         "fabric-1.21.11" = _8JigPexx;
         "fabric-26.1" = _HMl0wl3W;
         "fabric-26.1.1" = _3Yl7aKak;
-        "fabric-26.1.2" = _TuyPKdkq;
+        "fabric-26.1.2" = _zsXUnWQI;
         "fabric-26.2" = _Qnxf8SIJ;
         "fabric-26.3" = _hRj0HB4J;
         "forge-1.18.2" = _lw1XCltR;
@@ -355,7 +361,7 @@ let
         "forge-1.21.11" = _8JigPexx;
         "forge-26.1" = _HMl0wl3W;
         "forge-26.1.1" = _3Yl7aKak;
-        "forge-26.1.2" = _TuyPKdkq;
+        "forge-26.1.2" = _zsXUnWQI;
         "forge-26.2" = _Qnxf8SIJ;
         "forge-26.3" = _hRj0HB4J;
         "quilt-1.18.2" = _lw1XCltR;
@@ -381,7 +387,7 @@ let
         "quilt-1.21.11" = _8JigPexx;
         "quilt-26.1" = _HMl0wl3W;
         "quilt-26.1.1" = _3Yl7aKak;
-        "quilt-26.1.2" = _TuyPKdkq;
+        "quilt-26.1.2" = _zsXUnWQI;
         "quilt-26.2" = _Qnxf8SIJ;
         "quilt-26.3" = _hRj0HB4J;
         "neoforge-1.20.2" = _IAgVSUlX;
@@ -404,7 +410,7 @@ let
         "neoforge-1.21.11" = _8JigPexx;
         "neoforge-26.1" = _HMl0wl3W;
         "neoforge-26.1.1" = _3Yl7aKak;
-        "neoforge-26.1.2" = _TuyPKdkq;
+        "neoforge-26.1.2" = _zsXUnWQI;
         "neoforge-26.2" = _Qnxf8SIJ;
         "neoforge-26.3" = _hRj0HB4J;
         "pkg-1.18.2-1.0-forge+fabric" = _9KZOsGqG;
@@ -458,7 +464,8 @@ let
         "pkg-1.21.1-1.8-fabric+forge+neo" = _YqCEZ0Kr;
         "pkg-26.2.0-1.8-fabric+forge+neo" = _Qnxf8SIJ;
         "pkg-26.3.0-1.8-fabric+forge+neo" = _hRj0HB4J;
-        "default" = _hRj0HB4J;
+        "pkg-26.1.2-1.8-fabric+forge+neo" = _zsXUnWQI;
+        "default" = _zsXUnWQI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "grabby-mobs";

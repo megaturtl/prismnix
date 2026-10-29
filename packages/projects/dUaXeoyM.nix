@@ -131,6 +131,11 @@ let
             "file" = "silkiertouch-26.3.0-1.4.jar";
             "hash" = "sha512-N/IHHnaEr2l0ZElFL3g0RwjS0EQhF1/E4IDTbNGNZE1xTuC8sX6+mlHrw66pPQAyYl+xdOekggDI4CQYk5kVVw==";
         };
+        _8n7V2fZZ = {
+            "id" = "8n7V2fZZ";
+            "file" = "silkiertouch-26.1.2-1.4.jar";
+            "hash" = "sha512-I7kgX5M9Ar2LehJPjR6A0i++uCmQnch0IEKf/1V045TbVNni0WB4d/ax57KA2wH9+2uXom29hXrBaSAsTOtvRw==";
+        };
     in {
         "QzG6pi6d" = _QzG6pi6d;
         "TngkMccX" = _TngkMccX;
@@ -158,6 +163,7 @@ let
         "Frqk2g6B" = _Frqk2g6B;
         "bsuLfYly" = _bsuLfYly;
         "PXWYKVsw" = _PXWYKVsw;
+        "8n7V2fZZ" = _8n7V2fZZ;
         "fabric-1.20.1" = _f2Jtji6H;
         "fabric-1.21" = _Frqk2g6B;
         "fabric-1.21.1" = _Frqk2g6B;
@@ -171,7 +177,7 @@ let
         "fabric-1.21.11" = _k2wCzaj3;
         "fabric-26.1" = _GKWDX7KQ;
         "fabric-26.1.1" = _PCurBrwO;
-        "fabric-26.1.2" = _sWSG8IY3;
+        "fabric-26.1.2" = _8n7V2fZZ;
         "fabric-26.2" = _bsuLfYly;
         "fabric-26.3" = _PXWYKVsw;
         "forge-1.20.1" = _f2Jtji6H;
@@ -187,7 +193,7 @@ let
         "forge-1.21.11" = _k2wCzaj3;
         "forge-26.1" = _GKWDX7KQ;
         "forge-26.1.1" = _PCurBrwO;
-        "forge-26.1.2" = _sWSG8IY3;
+        "forge-26.1.2" = _8n7V2fZZ;
         "forge-26.2" = _bsuLfYly;
         "forge-26.3" = _PXWYKVsw;
         "neoforge-1.20.1" = _f2Jtji6H;
@@ -203,7 +209,7 @@ let
         "neoforge-1.21.11" = _k2wCzaj3;
         "neoforge-26.1" = _GKWDX7KQ;
         "neoforge-26.1.1" = _PCurBrwO;
-        "neoforge-26.1.2" = _sWSG8IY3;
+        "neoforge-26.1.2" = _8n7V2fZZ;
         "neoforge-26.2" = _bsuLfYly;
         "neoforge-26.3" = _PXWYKVsw;
         "quilt-1.20.1" = _f2Jtji6H;
@@ -219,7 +225,7 @@ let
         "quilt-1.21.11" = _k2wCzaj3;
         "quilt-26.1" = _GKWDX7KQ;
         "quilt-26.1.1" = _PCurBrwO;
-        "quilt-26.1.2" = _sWSG8IY3;
+        "quilt-26.1.2" = _8n7V2fZZ;
         "quilt-26.2" = _bsuLfYly;
         "quilt-26.3" = _PXWYKVsw;
         "pkg-1.20.1-1.0-fabric+forge+neo" = _QzG6pi6d;
@@ -248,7 +254,8 @@ let
         "pkg-1.21.1-1.4-fabric+forge+neo" = _Frqk2g6B;
         "pkg-26.2.0-1.4-fabric+forge+neo" = _bsuLfYly;
         "pkg-26.3.0-1.4-fabric+forge+neo" = _PXWYKVsw;
-        "default" = _PXWYKVsw;
+        "pkg-26.1.2-1.4-fabric+forge+neo" = _8n7V2fZZ;
+        "default" = _8n7V2fZZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "silkier-touch";

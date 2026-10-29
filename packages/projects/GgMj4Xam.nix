@@ -31,6 +31,11 @@ let
             "file" = "theultimatecompatmod-1.5.0.jar";
             "hash" = "sha512-IwmqB3riEBPPtfasbatE6VITEw2uAOJN+HwTV0Nv4maHB+v64a6sZOYlu8PBdyMjRMOl7AVDGjcIeT0MHUpjZw==";
         };
+        _UQo47lgk = {
+            "id" = "UQo47lgk";
+            "file" = "theultimatecompatmod-1.6.0.jar";
+            "hash" = "sha512-uqubO9hjaWyL2ZBWgn1qwdHwmB2/NAtj0BgQi0H8jiWQgYCsAWyT9ZdDl4kZ7pQ35R1/S3QEORZvs/LECudKOg==";
+        };
     in {
         "M7MKuPRA" = _M7MKuPRA;
         "Dp0iaoVG" = _Dp0iaoVG;
@@ -38,14 +43,16 @@ let
         "ygvPdFy6" = _ygvPdFy6;
         "MgmKN5Fy" = _MgmKN5Fy;
         "PJZ6HvU9" = _PJZ6HvU9;
-        "fabric-1.20.1" = _PJZ6HvU9;
+        "UQo47lgk" = _UQo47lgk;
+        "fabric-1.20.1" = _UQo47lgk;
         "pkg-1.0.0" = _M7MKuPRA;
         "pkg-1.1.0" = _Dp0iaoVG;
         "pkg-1.2.0" = _r7I7aC2R;
         "pkg-1.3.0" = _ygvPdFy6;
         "pkg-1.4.0" = _MgmKN5Fy;
         "pkg-1.5.0" = _PJZ6HvU9;
-        "default" = _PJZ6HvU9;
+        "pkg-1.6.0" = _UQo47lgk;
+        "default" = _UQo47lgk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-ultimate-compat-mod";

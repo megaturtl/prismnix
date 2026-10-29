@@ -61,6 +61,11 @@ let
             "file" = "psithurism-1.2.3+26.2.jar";
             "hash" = "sha512-H8Fwr3mgEpU+q3+BQIXvKeQKH3MtwuNkk4VXilMXHcnkMYoGK1Czqylbl1BDJiecVC3lJtDH8pcUv7aAXyx7Sg==";
         };
+        _hdlpVYrL = {
+            "id" = "hdlpVYrL";
+            "file" = "psithurism-1.3.0+26.2.jar";
+            "hash" = "sha512-85WdUO0qWRjrX1rEFmGXAD+pT9VLimlryTK8d6vY6Aj3PiANWGuZSRSt7Oz9F5P+4XUBkCsCWH6EGsxHu40b2A==";
+        };
     in {
         "5UdtpjHq" = _5UdtpjHq;
         "Ru7AEWVB" = _Ru7AEWVB;
@@ -74,12 +79,13 @@ let
         "VS0F8KT5" = _VS0F8KT5;
         "LPtMiZCp" = _LPtMiZCp;
         "mVjzshSe" = _mVjzshSe;
+        "hdlpVYrL" = _hdlpVYrL;
         "fabric-26.1.1" = _luTQsDwY;
         "fabric-26.1.2" = _luTQsDwY;
-        "fabric-26.2" = _mVjzshSe;
+        "fabric-26.2" = _hdlpVYrL;
         "quilt-26.1.1" = _luTQsDwY;
         "quilt-26.1.2" = _luTQsDwY;
-        "quilt-26.2" = _mVjzshSe;
+        "quilt-26.2" = _hdlpVYrL;
         "pkg-1.0.0+26.1.1" = _5UdtpjHq;
         "pkg-1.0.1+26.1.1" = _Ru7AEWVB;
         "pkg-1.0.2+26.1.1" = _6HzBjCiU;
@@ -92,7 +98,8 @@ let
         "pkg-1.2.1+26.2" = _VS0F8KT5;
         "pkg-1.2.2+26.2" = _LPtMiZCp;
         "pkg-1.2.3+26.2" = _mVjzshSe;
-        "default" = _mVjzshSe;
+        "pkg-1.3.0+26.2" = _hdlpVYrL;
+        "default" = _hdlpVYrL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "psithurism";

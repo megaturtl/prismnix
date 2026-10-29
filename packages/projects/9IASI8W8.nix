@@ -91,6 +91,11 @@ let
             "file" = "nutritionz-1.1.3.jar";
             "hash" = "sha512-As12yCex28H2pLgXC0vviNkHKhSA/ytCrIWoKY3/xZWQ4HfsVpZaoJkK5QxDNmxphG+gcm5ppYmX+btCS8LcXQ==";
         };
+        _vmEOXUyJ = {
+            "id" = "vmEOXUyJ";
+            "file" = "nutritionz-1.1.4.jar";
+            "hash" = "sha512-b6AymoHen6QgIzL/TlwitdTikvRw01w35HieJLzMtHUxZYWEXzHnEWacMjDGzC0bvGBZnvR3GbCnUsjd0H9Jkg==";
+        };
     in {
         "85D9wNq4" = _85D9wNq4;
         "OUvz6ajV" = _OUvz6ajV;
@@ -110,8 +115,9 @@ let
         "RYIzZBmn" = _RYIzZBmn;
         "n4C4phWz" = _n4C4phWz;
         "mhpsD5p7" = _mhpsD5p7;
+        "vmEOXUyJ" = _vmEOXUyJ;
         "fabric-1.20.1" = _dCQC1z0w;
-        "fabric-1.21.1" = _mhpsD5p7;
+        "fabric-1.21.1" = _vmEOXUyJ;
         "pkg-1.0.0" = _85D9wNq4;
         "pkg-1.0.1+1.20.1" = _OUvz6ajV;
         "pkg-1.0.2+1.20.1" = _KRFjKiFH;
@@ -130,7 +136,8 @@ let
         "pkg-1.1.1+1.21.1" = _RYIzZBmn;
         "pkg-1.1.2+1.21.1" = _n4C4phWz;
         "pkg-1.1.3+1.21.1" = _mhpsD5p7;
-        "default" = _mhpsD5p7;
+        "pkg-1.1.4+1.21.1" = _vmEOXUyJ;
+        "default" = _vmEOXUyJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nutritionz";

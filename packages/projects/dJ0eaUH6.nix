@@ -96,6 +96,11 @@ let
             "file" = "Modded Swords x Punchy! 1.20.1 - 1.21.1 v1.5.1.zip";
             "hash" = "sha512-a1zdTsMSeJIZ+z9+a5YInvwfA1wIUGDudj44TPkZA9RicsNqJS13DCkEzU/i46azU3YQRxFfEYCZM0dadH80hg==";
         };
+        _uAIEPgpB = {
+            "id" = "uAIEPgpB";
+            "file" = "Modded Swords x Punchy! 1.20.1 - 1.21.1 v1.5.2.zip";
+            "hash" = "sha512-7OAfeSnb45fZ5+jU9JcE6458YgTedZZe7aQ22QfC6jTm8jFQiQ3Qg/OF2TSy4q9mgB0Mipt5D6EdFbssc5yg5w==";
+        };
     in {
         "lRcvFF6w" = _lRcvFF6w;
         "3kpout5p" = _3kpout5p;
@@ -116,8 +121,9 @@ let
         "TX7amOa7" = _TX7amOa7;
         "G1sl5eBK" = _G1sl5eBK;
         "178yd0qT" = _178yd0qT;
-        "minecraft-1.20.1" = _178yd0qT;
-        "minecraft-1.21.1" = _178yd0qT;
+        "uAIEPgpB" = _uAIEPgpB;
+        "minecraft-1.20.1" = _uAIEPgpB;
+        "minecraft-1.21.1" = _uAIEPgpB;
         "pkg-1.0.0" = _lRcvFF6w;
         "pkg-1.0.1" = _3kpout5p;
         "pkg-1.2" = _oAZ6t8mw;
@@ -133,7 +139,8 @@ let
         "pkg-1.3.2" = _TX7amOa7;
         "pkg-1.5" = _G1sl5eBK;
         "pkg-1.5.1" = _178yd0qT;
-        "default" = _178yd0qT;
+        "pkg-1.5.2" = _uAIEPgpB;
+        "default" = _uAIEPgpB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "punchy!-compatibility";

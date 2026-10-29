@@ -46,6 +46,11 @@ let
             "file" = "enhanced-overlay-3.2.1-fabric-26.2.jar";
             "hash" = "sha512-sWp+VFT2VAvvR/lMqHAa8AEatoFLX/U6CREWGmnH33xW7d0E0vIpVeMdkUIfLIFfiLwUfYryXpgdbcJn18by/A==";
         };
+        _dB4Sug5m = {
+            "id" = "dB4Sug5m";
+            "file" = "enhanced-overlay-3.2.1-fabric-26.3.jar";
+            "hash" = "sha512-x7hnrBveNwTBBxNhCcvJ252QHV30Hn41K+RtKNJo5BRx5e6weqSDxaSiDr2DU/2FFbyjtLwNNnPDLZUsXmbKqw==";
+        };
     in {
         "bnnlV2kB" = _bnnlV2kB;
         "Q6fEgkSd" = _Q6fEgkSd;
@@ -56,6 +61,7 @@ let
         "s7PRzMpD" = _s7PRzMpD;
         "MLjz6nhu" = _MLjz6nhu;
         "DEeVIrKN" = _DEeVIrKN;
+        "dB4Sug5m" = _dB4Sug5m;
         "fabric-1.21.4" = _gTYsWvG4;
         "fabric-1.21.5" = _Q6fEgkSd;
         "fabric-1.21.8" = _bpILIgOw;
@@ -64,6 +70,7 @@ let
         "fabric-26.1.1" = _s7PRzMpD;
         "fabric-26.1.2" = _s7PRzMpD;
         "fabric-26.2" = _DEeVIrKN;
+        "fabric-26.3" = _dB4Sug5m;
         "pkg-1.0.0" = _bnnlV2kB;
         "pkg-1.1.1" = _Q6fEgkSd;
         "pkg-2.0.0" = _gTYsWvG4;
@@ -73,7 +80,8 @@ let
         "pkg-3.1.0-fabric-26.1" = _s7PRzMpD;
         "pkg-3.2.0-fabric-26.2" = _MLjz6nhu;
         "pkg-3.2.1-fabric-26.2" = _DEeVIrKN;
-        "default" = _DEeVIrKN;
+        "pkg-3.2.1-fabric-26.3" = _dB4Sug5m;
+        "default" = _dB4Sug5m;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enhanced-overlay";

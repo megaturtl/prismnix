@@ -356,6 +356,11 @@ let
             "file" = "mineralchance-26.3.0-4.0.jar";
             "hash" = "sha512-Omte29ELv0U7G6uHnljBwPwwzD1YEPWDmFO2eRuV43unRbqNDC+Ki79aQlVQD1x85iQQsVs5/HqhyUAS7MXGLA==";
         };
+        _l9m6rwKy = {
+            "id" = "l9m6rwKy";
+            "file" = "mineralchance-26.1.2-4.0.jar";
+            "hash" = "sha512-r/PIkK8n5NnuggxMKCjyuLKMFgangqqUsGQy5lO2MYKQEwSzJ0f5le0a+5FcBrj8QqJnKTXmBv/AxJmxUPec7w==";
+        };
     in {
         "duTRNvgl" = _duTRNvgl;
         "OyFuF9w4" = _OyFuF9w4;
@@ -428,6 +433,7 @@ let
         "IUdlMSwn" = _IUdlMSwn;
         "1ilR7xLq" = _1ilR7xLq;
         "PdydKFZn" = _PdydKFZn;
+        "l9m6rwKy" = _l9m6rwKy;
         "fabric-1.16.5" = _CWQP5fB4;
         "fabric-1.18.2" = _CryUPMZp;
         "fabric-1.19.2" = _m4K6YcNy;
@@ -454,7 +460,7 @@ let
         "fabric-1.21.11" = _gjeCtUvg;
         "fabric-26.1" = _Y0B4TVxV;
         "fabric-26.1.1" = _k0duuQZL;
-        "fabric-26.1.2" = _ATT13cST;
+        "fabric-26.1.2" = _l9m6rwKy;
         "fabric-26.2" = _1ilR7xLq;
         "fabric-26.3" = _PdydKFZn;
         "forge-1.16.5" = _APiu8GI6;
@@ -481,7 +487,7 @@ let
         "forge-1.21.11" = _gjeCtUvg;
         "forge-26.1" = _Y0B4TVxV;
         "forge-26.1.1" = _k0duuQZL;
-        "forge-26.1.2" = _ATT13cST;
+        "forge-26.1.2" = _l9m6rwKy;
         "forge-26.2" = _1ilR7xLq;
         "forge-26.3" = _PdydKFZn;
         "quilt-1.18.2" = _CryUPMZp;
@@ -509,7 +515,7 @@ let
         "quilt-1.21.11" = _gjeCtUvg;
         "quilt-26.1" = _Y0B4TVxV;
         "quilt-26.1.1" = _k0duuQZL;
-        "quilt-26.1.2" = _ATT13cST;
+        "quilt-26.1.2" = _l9m6rwKy;
         "quilt-26.2" = _1ilR7xLq;
         "quilt-26.3" = _PdydKFZn;
         "neoforge-1.20.2" = _btVzZ00c;
@@ -532,7 +538,7 @@ let
         "neoforge-1.21.11" = _gjeCtUvg;
         "neoforge-26.1" = _Y0B4TVxV;
         "neoforge-26.1.1" = _k0duuQZL;
-        "neoforge-26.1.2" = _ATT13cST;
+        "neoforge-26.1.2" = _l9m6rwKy;
         "neoforge-26.2" = _1ilR7xLq;
         "neoforge-26.3" = _PdydKFZn;
         "pkg-1.16.5-2.0-fabric" = _duTRNvgl;
@@ -606,7 +612,8 @@ let
         "pkg-1.21.1-4.0-fabric+forge+neo" = _IUdlMSwn;
         "pkg-26.2.0-4.0-fabric+forge+neo" = _1ilR7xLq;
         "pkg-26.3.0-4.0-fabric+forge+neo" = _PdydKFZn;
-        "default" = _PdydKFZn;
+        "pkg-26.1.2-4.0-fabric+forge+neo" = _l9m6rwKy;
+        "default" = _l9m6rwKy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mineral-chance";

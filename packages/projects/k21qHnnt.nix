@@ -76,6 +76,16 @@ let
             "file" = "scguns_cnc-1.5.jar";
             "hash" = "sha512-SjjV/dTlgMYeL+KT8AmnGCv+6m4bf4M07X5vs2wR60HH7d5MiYSg56QzC6OTeby+/La5Ru6TdcSR1N8o23dfRA==";
         };
+        _fyBXXIqa = {
+            "id" = "fyBXXIqa";
+            "file" = "scguns_cnc-1.6.jar";
+            "hash" = "sha512-TDPyaL42BfQxAMlcchD6GrNm2s6fgFXu/+cMmplI5dDEEE+ium2TbT4kLF4NfTG3CC9w3kq4Iyjky8Kzz5sAFg==";
+        };
+        _ZnThHEga = {
+            "id" = "ZnThHEga";
+            "file" = "scguns_cnc-1.6a.jar";
+            "hash" = "sha512-YzR9DwJTDiCM2j0dOveyh9T1DAu1xBhDN1tgL0PLcyaUSewKo5BDfisnlvzQuRRBWlGvldTX09qUWB0pv9xXpg==";
+        };
     in {
         "weqDGWLl" = _weqDGWLl;
         "fy5NPQNS" = _fy5NPQNS;
@@ -92,7 +102,9 @@ let
         "qpJhX3jN" = _qpJhX3jN;
         "sXlSbYmS" = _sXlSbYmS;
         "2TOX1DHd" = _2TOX1DHd;
-        "forge-1.20.1" = _2TOX1DHd;
+        "fyBXXIqa" = _fyBXXIqa;
+        "ZnThHEga" = _ZnThHEga;
+        "forge-1.20.1" = _ZnThHEga;
         "pkg-1.0.0" = _weqDGWLl;
         "pkg-1.1.0" = _fy5NPQNS;
         "pkg-1.2.0" = _D68DxmFD;
@@ -108,7 +120,9 @@ let
         "pkg-1.4.3" = _qpJhX3jN;
         "pkg-1.5-a1" = _sXlSbYmS;
         "pkg-1.5" = _2TOX1DHd;
-        "default" = _2TOX1DHd;
+        "pkg-1.6" = _fyBXXIqa;
+        "pkg-1.6a" = _ZnThHEga;
+        "default" = _ZnThHEga;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "scorched-guns-caverns-chasms-compat";

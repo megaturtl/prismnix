@@ -336,6 +336,11 @@ let
             "file" = "betterbeaconplacement-26.3.0-3.7.jar";
             "hash" = "sha512-j7iaQOiPMtwRlgj7t46yzSyycASf9fpnwBGo5Q4NymXB6d+Z40OzMHTPdFfZtEuiXDxsCUuTgALcOTZhR2E5PA==";
         };
+        _KZzifbHU = {
+            "id" = "KZzifbHU";
+            "file" = "betterbeaconplacement-26.1.2-3.7.jar";
+            "hash" = "sha512-b2MLFULTCnk8xNv9UBg7qOVkylnFkXi4AeY5MACtQms5p2t9HyDjsbizRqbiL1Eiiu++odvksQ4V8ZvunfjKlw==";
+        };
     in {
         "WbNSzle5" = _WbNSzle5;
         "oHqwcDXE" = _oHqwcDXE;
@@ -404,6 +409,7 @@ let
         "pQ5F4IoK" = _pQ5F4IoK;
         "IXYzRdoo" = _IXYzRdoo;
         "efUfwDaO" = _efUfwDaO;
+        "KZzifbHU" = _KZzifbHU;
         "fabric-1.16.5" = _NblDMtHr;
         "fabric-1.18.2" = _6450CFu3;
         "fabric-1.19.2" = _QdA6xfhR;
@@ -430,7 +436,7 @@ let
         "fabric-1.21.11" = _i5hQFIYt;
         "fabric-26.1" = _8i16Btwg;
         "fabric-26.1.1" = _N0T7Kpvk;
-        "fabric-26.1.2" = _kowhYCRg;
+        "fabric-26.1.2" = _KZzifbHU;
         "fabric-26.2" = _IXYzRdoo;
         "fabric-26.3" = _efUfwDaO;
         "forge-1.16.5" = _oxFDjnaS;
@@ -457,7 +463,7 @@ let
         "forge-1.21.11" = _i5hQFIYt;
         "forge-26.1" = _8i16Btwg;
         "forge-26.1.1" = _N0T7Kpvk;
-        "forge-26.1.2" = _kowhYCRg;
+        "forge-26.1.2" = _KZzifbHU;
         "forge-26.2" = _IXYzRdoo;
         "forge-26.3" = _efUfwDaO;
         "quilt-1.18.2" = _6450CFu3;
@@ -485,7 +491,7 @@ let
         "quilt-1.21.11" = _i5hQFIYt;
         "quilt-26.1" = _8i16Btwg;
         "quilt-26.1.1" = _N0T7Kpvk;
-        "quilt-26.1.2" = _kowhYCRg;
+        "quilt-26.1.2" = _KZzifbHU;
         "quilt-26.2" = _IXYzRdoo;
         "quilt-26.3" = _efUfwDaO;
         "neoforge-1.20.2" = _XV6nDNyf;
@@ -508,7 +514,7 @@ let
         "neoforge-1.21.11" = _i5hQFIYt;
         "neoforge-26.1" = _8i16Btwg;
         "neoforge-26.1.1" = _N0T7Kpvk;
-        "neoforge-26.1.2" = _kowhYCRg;
+        "neoforge-26.1.2" = _KZzifbHU;
         "neoforge-26.2" = _IXYzRdoo;
         "neoforge-26.3" = _efUfwDaO;
         "pkg-1.16.5-1.8-fabric" = _WbNSzle5;
@@ -578,7 +584,8 @@ let
         "pkg-1.21.1-3.7-fabric+forge+neo" = _pQ5F4IoK;
         "pkg-26.2.0-3.7-fabric+forge+neo" = _IXYzRdoo;
         "pkg-26.3.0-3.7-fabric+forge+neo" = _efUfwDaO;
-        "default" = _efUfwDaO;
+        "pkg-26.1.2-3.7-fabric+forge+neo" = _KZzifbHU;
+        "default" = _KZzifbHU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-beacon-placement";

@@ -176,6 +176,11 @@ let
             "file" = "vanilla pvp 1.33.zip";
             "hash" = "sha512-OoCuM4xymGJKyEjtBhPEZYZHK/TEC6eNSMqekCU6W+/NbGHwA5t/yF+ttbIWBIhkeCi2fXhoX7myhmoiY5sQaA==";
         };
+        _qlPEdg0W = {
+            "id" = "qlPEdg0W";
+            "file" = "vanilla pvp 1.34.zip";
+            "hash" = "sha512-hwuc3fhU6ZX/PAmma/ixmjrtJt6iOA88jTHasMkgajAXt9/IEYAjy4nSp+3bRd2cQ6YjJzAtBWh2Hqjg/f8gkw==";
+        };
     in {
         "MHjNj8i5" = _MHjNj8i5;
         "nWcaISok" = _nWcaISok;
@@ -212,6 +217,7 @@ let
         "6B0x2MJP" = _6B0x2MJP;
         "upZ0hvwY" = _upZ0hvwY;
         "uN23R5E0" = _uN23R5E0;
+        "qlPEdg0W" = _qlPEdg0W;
         "minecraft-1.21" = _6aJpmDk7;
         "minecraft-1.21.1" = _6aJpmDk7;
         "minecraft-1.21.2" = _6aJpmDk7;
@@ -229,6 +235,7 @@ let
         "minecraft-26.1.1" = _uN23R5E0;
         "minecraft-26.1.2" = _uN23R5E0;
         "minecraft-26.2" = _uN23R5E0;
+        "minecraft-26.3" = _qlPEdg0W;
         "pkg-001" = _MHjNj8i5;
         "pkg-002" = _nWcaISok;
         "pkg-003" = _YEFSbg9j;
@@ -264,7 +271,8 @@ let
         "pkg-033" = _6B0x2MJP;
         "pkg-034" = _upZ0hvwY;
         "pkg-035" = _uN23R5E0;
-        "default" = _uN23R5E0;
+        "pkg-036" = _qlPEdg0W;
+        "default" = _qlPEdg0W;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanilla-pvp-textures";

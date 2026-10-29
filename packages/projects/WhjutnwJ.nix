@@ -56,6 +56,11 @@ let
             "file" = "polymer-patch-bundle-1.1.7+26.2.jar";
             "hash" = "sha512-bdNhEHwvnA3NpelgVGaf28Bqg/qY1DiqEPK+ufv5XzDwywIfb9kvNnnU5vYLz8E+gbPGKIJz5bZz6ggYFtJ7+g==";
         };
+        _25djH0Qq = {
+            "id" = "25djH0Qq";
+            "file" = "polymer-patch-bundle-1.1.7+26.3.jar";
+            "hash" = "sha512-lO63VltFYB2tz+1YWX6RY0bqwb8uoksQ7xtt85ri4nNLW9fX3LToGNTW3XlljYXuiOzXm4X1G52Roy2oebIvdA==";
+        };
     in {
         "s5qlPK5y" = _s5qlPK5y;
         "tUhgBdqD" = _tUhgBdqD;
@@ -68,14 +73,17 @@ let
         "5iJIVljD" = _5iJIVljD;
         "tYf1nWHL" = _tYf1nWHL;
         "EOohppLA" = _EOohppLA;
+        "25djH0Qq" = _25djH0Qq;
         "fabric-1.21.10" = _ggw7HaWo;
         "fabric-1.21.11" = _ZMIVTWJp;
         "fabric-26.1.2" = _X2HUos7I;
         "fabric-26.2" = _EOohppLA;
+        "fabric-26.3" = _25djH0Qq;
         "quilt-1.21.10" = _ggw7HaWo;
         "quilt-1.21.11" = _ZMIVTWJp;
         "quilt-26.1.2" = _X2HUos7I;
         "quilt-26.2" = _EOohppLA;
+        "quilt-26.3" = _25djH0Qq;
         "pkg-1.1.0+1.21.10" = _s5qlPK5y;
         "pkg-1.1.1+1.21.10" = _tUhgBdqD;
         "pkg-1.1.2+1.21.10" = _MTeOAZyw;
@@ -87,7 +95,8 @@ let
         "pkg-1.1.5+26.2" = _5iJIVljD;
         "pkg-1.1.6+26.2" = _tYf1nWHL;
         "pkg-1.1.7+26.2" = _EOohppLA;
-        "default" = _EOohppLA;
+        "pkg-1.1.7+26.3" = _25djH0Qq;
+        "default" = _25djH0Qq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "polymer-patch-bundle";

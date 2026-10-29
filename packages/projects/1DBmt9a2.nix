@@ -66,6 +66,11 @@ let
             "file" = "extractrooms-2.2.0.jar";
             "hash" = "sha512-Q+g4BrvhXv4vivn8HEaSDxVa/P9gtFMzibc0tQT/IuihPtw+wAuWeEmsfRzAOVHx/QO4aKrMKCqncrauM4Ls0Q==";
         };
+        _fbeblXQW = {
+            "id" = "fbeblXQW";
+            "file" = "extractrooms-2.3.0.jar";
+            "hash" = "sha512-31SSlMK6nLN94+Oatrjj9YqHoOYJWTqFx4xGGAf5gPFjbj4V86fw+oV37oAhqIDSF/rQpCbMEeBxENGGBTfVDw==";
+        };
     in {
         "iBntXwPR" = _iBntXwPR;
         "DhbfBqJB" = _DhbfBqJB;
@@ -80,7 +85,8 @@ let
         "9sTDiz1Z" = _9sTDiz1Z;
         "1yuoBVN4" = _1yuoBVN4;
         "HCnEV7bR" = _HCnEV7bR;
-        "neoforge-1.21.1" = _HCnEV7bR;
+        "fbeblXQW" = _fbeblXQW;
+        "neoforge-1.21.1" = _fbeblXQW;
         "pkg-0.1.0-alpha" = _iBntXwPR;
         "pkg-0.0.2-alpha" = _DhbfBqJB;
         "pkg-1.0.0" = _4NFXDEE7;
@@ -94,7 +100,8 @@ let
         "pkg-2.1.0" = _9sTDiz1Z;
         "pkg-2.1.1" = _1yuoBVN4;
         "pkg-2.2.0" = _HCnEV7bR;
-        "default" = _HCnEV7bR;
+        "pkg-2.3.0" = _fbeblXQW;
+        "default" = _fbeblXQW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "extractrooms";

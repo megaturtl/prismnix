@@ -146,6 +146,11 @@ let
             "file" = "infinity-7.3.jar";
             "hash" = "sha512-bjXRzn422QgOsz6kwRoq19bcwB5mKO0J0m7G/WU++0Q8vL/Y283hCKonxzYw8X6GD7kBoYuTSaS/eKo0deaiaA==";
         };
+        _rIdbxy8O = {
+            "id" = "rIdbxy8O";
+            "file" = "infinity-8.0.jar";
+            "hash" = "sha512-2JFfbQP4cZfrSLvRqT81epVMFH1joYrENgJCj4vn82JVI51zZwek4i6FsLM6vMM9PPJvy0P9CWNdN3EmR6Q8FA==";
+        };
     in {
         "JAieLTIo" = _JAieLTIo;
         "1mQyC1Ry" = _1mQyC1Ry;
@@ -176,7 +181,8 @@ let
         "bqYSeShm" = _bqYSeShm;
         "o4bYKBPp" = _o4bYKBPp;
         "nS8BCt5J" = _nS8BCt5J;
-        "forge-1.20.1" = _nS8BCt5J;
+        "rIdbxy8O" = _rIdbxy8O;
+        "forge-1.20.1" = _rIdbxy8O;
         "fabric-1.20.1" = _f8h8ZEhC;
         "pkg-0.1" = _JAieLTIo;
         "pkg-1.2" = _1mQyC1Ry;
@@ -207,7 +213,8 @@ let
         "pkg-7.1" = _bqYSeShm;
         "pkg-7.2" = _o4bYKBPp;
         "pkg-7.3" = _nS8BCt5J;
-        "default" = _nS8BCt5J;
+        "pkg-8.0" = _rIdbxy8O;
+        "default" = _rIdbxy8O;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pugmeowlas-infinity-stone-core";

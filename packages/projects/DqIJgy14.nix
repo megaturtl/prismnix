@@ -301,6 +301,11 @@ let
             "file" = "bouncierbeds-26.3.0-2.6.jar";
             "hash" = "sha512-vdHwdCnPpsYD2169LlFnmeSsD7DR6UQmqSZL8yGC3vfNvpz3DryXkevtV7Ez5X3UvQhGLSMcj5UU/s6ne4vIMw==";
         };
+        _6dfZ5BNH = {
+            "id" = "6dfZ5BNH";
+            "file" = "bouncierbeds-26.1.2-2.6.jar";
+            "hash" = "sha512-K4aVUhhMQeLyVRPun3B1+JgNc4EYXUhW8TNvkKhOWK2qn2t0mhaH4HWYb+9NuqE6iiiI+hPdjYnSw3rYq21W0w==";
+        };
     in {
         "fEEjXzvD" = _fEEjXzvD;
         "ORanJWGb" = _ORanJWGb;
@@ -362,6 +367,7 @@ let
         "JHoLcXS6" = _JHoLcXS6;
         "vqJUgIch" = _vqJUgIch;
         "SbFLlDE6" = _SbFLlDE6;
+        "6dfZ5BNH" = _6dfZ5BNH;
         "fabric-1.16.5" = _slyQnjvB;
         "fabric-1.18.2" = _wjOY3wFW;
         "fabric-1.19.2" = _agkRydNp;
@@ -388,7 +394,7 @@ let
         "fabric-1.21.11" = _DrRKPb6N;
         "fabric-26.1" = _31Hu5WHP;
         "fabric-26.1.1" = _LDzEbhy8;
-        "fabric-26.1.2" = _FQepxW7f;
+        "fabric-26.1.2" = _6dfZ5BNH;
         "fabric-26.2" = _vqJUgIch;
         "fabric-26.3" = _SbFLlDE6;
         "forge-1.16.5" = _FXCKSWY3;
@@ -415,7 +421,7 @@ let
         "forge-1.21.11" = _DrRKPb6N;
         "forge-26.1" = _31Hu5WHP;
         "forge-26.1.1" = _LDzEbhy8;
-        "forge-26.1.2" = _FQepxW7f;
+        "forge-26.1.2" = _6dfZ5BNH;
         "forge-26.2" = _vqJUgIch;
         "forge-26.3" = _SbFLlDE6;
         "quilt-1.18.2" = _wjOY3wFW;
@@ -443,7 +449,7 @@ let
         "quilt-1.21.11" = _DrRKPb6N;
         "quilt-26.1" = _31Hu5WHP;
         "quilt-26.1.1" = _LDzEbhy8;
-        "quilt-26.1.2" = _FQepxW7f;
+        "quilt-26.1.2" = _6dfZ5BNH;
         "quilt-26.2" = _vqJUgIch;
         "quilt-26.3" = _SbFLlDE6;
         "neoforge-1.20.2" = _L4cgSpqV;
@@ -466,7 +472,7 @@ let
         "neoforge-1.21.11" = _DrRKPb6N;
         "neoforge-26.1" = _31Hu5WHP;
         "neoforge-26.1.1" = _LDzEbhy8;
-        "neoforge-26.1.2" = _FQepxW7f;
+        "neoforge-26.1.2" = _6dfZ5BNH;
         "neoforge-26.2" = _vqJUgIch;
         "neoforge-26.3" = _SbFLlDE6;
         "pkg-1.16.5-1.4-fabric" = _fEEjXzvD;
@@ -529,7 +535,8 @@ let
         "pkg-1.21.1-2.6-fabric+forge+neo" = _JHoLcXS6;
         "pkg-26.2.0-2.6-fabric+forge+neo" = _vqJUgIch;
         "pkg-26.3.0-2.6-fabric+forge+neo" = _SbFLlDE6;
-        "default" = _SbFLlDE6;
+        "pkg-26.1.2-2.6-fabric+forge+neo" = _6dfZ5BNH;
+        "default" = _6dfZ5BNH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bouncier-beds";

@@ -311,6 +311,11 @@ let
             "file" = "spidersproducewebs-26.3.0-3.8.jar";
             "hash" = "sha512-yth3nxyx4Ft50mVPAvKpeVajWThv5Hc06AzoEMU4MfDeT1wl/101Mzh3JJnLGxyoqUxuqgnr4fFE8BsCLcyrxw==";
         };
+        _LOC5sfBb = {
+            "id" = "LOC5sfBb";
+            "file" = "spidersproducewebs-26.1.2-3.8.jar";
+            "hash" = "sha512-bu5KN2QzmQjzBMN0PCRIaWZ/rM4N/ybFkEPf6OdZR51IuDheFALdsUjP/reHalTsZC4ai+zvoFEl1p5K3cQaQQ==";
+        };
     in {
         "1cE9yM5g" = _1cE9yM5g;
         "850bg1Qz" = _850bg1Qz;
@@ -374,6 +379,7 @@ let
         "JrZF8Cp6" = _JrZF8Cp6;
         "3E7BHchX" = _3E7BHchX;
         "FbXhTa8J" = _FbXhTa8J;
+        "LOC5sfBb" = _LOC5sfBb;
         "fabric-1.16.5" = _L5YZkjqX;
         "fabric-1.18.2" = _z1pfAMSA;
         "fabric-1.19.2" = _zcu02qC3;
@@ -400,7 +406,7 @@ let
         "fabric-1.21.11" = _gL9dA49k;
         "fabric-26.1" = _SSIgcxQL;
         "fabric-26.1.1" = _jMr3eRl2;
-        "fabric-26.1.2" = _A9KVrOv3;
+        "fabric-26.1.2" = _LOC5sfBb;
         "fabric-26.2" = _3E7BHchX;
         "fabric-26.3" = _FbXhTa8J;
         "forge-1.16.5" = _7BhxZvKv;
@@ -427,7 +433,7 @@ let
         "forge-1.21.11" = _gL9dA49k;
         "forge-26.1" = _SSIgcxQL;
         "forge-26.1.1" = _jMr3eRl2;
-        "forge-26.1.2" = _A9KVrOv3;
+        "forge-26.1.2" = _LOC5sfBb;
         "forge-26.2" = _3E7BHchX;
         "forge-26.3" = _FbXhTa8J;
         "quilt-1.18.2" = _z1pfAMSA;
@@ -455,7 +461,7 @@ let
         "quilt-1.21.11" = _gL9dA49k;
         "quilt-26.1" = _SSIgcxQL;
         "quilt-26.1.1" = _jMr3eRl2;
-        "quilt-26.1.2" = _A9KVrOv3;
+        "quilt-26.1.2" = _LOC5sfBb;
         "quilt-26.2" = _3E7BHchX;
         "quilt-26.3" = _FbXhTa8J;
         "neoforge-1.20.2" = _rYtRiS0y;
@@ -478,7 +484,7 @@ let
         "neoforge-1.21.11" = _gL9dA49k;
         "neoforge-26.1" = _SSIgcxQL;
         "neoforge-26.1.1" = _jMr3eRl2;
-        "neoforge-26.1.2" = _A9KVrOv3;
+        "neoforge-26.1.2" = _LOC5sfBb;
         "neoforge-26.2" = _3E7BHchX;
         "neoforge-26.3" = _FbXhTa8J;
         "pkg-1.16.5-1.9-fabric" = _1cE9yM5g;
@@ -543,7 +549,8 @@ let
         "pkg-1.21.1-3.8-fabric+forge+neo" = _JrZF8Cp6;
         "pkg-26.2.0-3.8-fabric+forge+neo" = _3E7BHchX;
         "pkg-26.3.0-3.8-fabric+forge+neo" = _FbXhTa8J;
-        "default" = _FbXhTa8J;
+        "pkg-26.1.2-3.8-fabric+forge+neo" = _LOC5sfBb;
+        "default" = _LOC5sfBb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spiders-produce-webs";

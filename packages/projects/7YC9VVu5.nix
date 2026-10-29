@@ -31,6 +31,11 @@ let
             "file" = "ScriptedBots-3.0.0.jar";
             "hash" = "sha512-HjpyNgGlfqv5BXhR2pejEHm94dW8yyMJaWz5+kzMyGsODmlMrfRHd7BV7G1Nnpamc2OiO8sg3YIfrhRD1A96Ig==";
         };
+        _nYry4LE1 = {
+            "id" = "nYry4LE1";
+            "file" = "ScriptedBots-3.0.0.jar";
+            "hash" = "sha512-Br7570zZfBFWShJz9s9Eb8Tf6T4j0OYXTc30BuNq0SqSpDWJdr52vqEAGx2DUX5YExrzRBaF8c8UFfqKJx9Rwg==";
+        };
     in {
         "Flaq9v6u" = _Flaq9v6u;
         "40QMUz88" = _40QMUz88;
@@ -38,25 +43,27 @@ let
         "dG4OXeRE" = _dG4OXeRE;
         "MsmBq1LH" = _MsmBq1LH;
         "AXKQq4dI" = _AXKQq4dI;
-        "paper-1.21" = _AXKQq4dI;
-        "paper-1.21.1" = _AXKQq4dI;
-        "paper-1.21.2" = _AXKQq4dI;
-        "paper-1.21.3" = _AXKQq4dI;
-        "paper-1.21.4" = _AXKQq4dI;
-        "paper-1.21.5" = _AXKQq4dI;
-        "paper-1.21.6" = _AXKQq4dI;
-        "paper-1.21.7" = _AXKQq4dI;
-        "paper-1.21.8" = _AXKQq4dI;
-        "paper-1.21.9" = _AXKQq4dI;
-        "paper-1.21.10" = _AXKQq4dI;
-        "paper-1.21.11" = _AXKQq4dI;
+        "nYry4LE1" = _nYry4LE1;
+        "paper-1.21" = _nYry4LE1;
+        "paper-1.21.1" = _nYry4LE1;
+        "paper-1.21.2" = _nYry4LE1;
+        "paper-1.21.3" = _nYry4LE1;
+        "paper-1.21.4" = _nYry4LE1;
+        "paper-1.21.5" = _nYry4LE1;
+        "paper-1.21.6" = _nYry4LE1;
+        "paper-1.21.7" = _nYry4LE1;
+        "paper-1.21.8" = _nYry4LE1;
+        "paper-1.21.9" = _nYry4LE1;
+        "paper-1.21.10" = _nYry4LE1;
+        "paper-1.21.11" = _nYry4LE1;
         "pkg-1.0.0" = _Flaq9v6u;
         "pkg-1.0.1" = _40QMUz88;
         "pkg-1.1.0" = _XuBf3tSc;
         "pkg-2.0.0" = _dG4OXeRE;
         "pkg-2.0.1" = _MsmBq1LH;
         "pkg-3.0.0" = _AXKQq4dI;
-        "default" = _AXKQq4dI;
+        "pkg-3.0.1" = _nYry4LE1;
+        "default" = _nYry4LE1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pvping-bots";

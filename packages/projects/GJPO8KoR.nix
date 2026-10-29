@@ -76,6 +76,16 @@ let
             "file" = "classicfarlands-1.3.1+mc26.3.jar";
             "hash" = "sha512-MIgdgSYzMOGYyorCJfR2mr0WNevR4WI+B5eb3HKYnwE5DlhuTJei5scUGj0R0joCHRVesUe0+uAGpzp/7YH5Zg==";
         };
+        _7RUG5pMu = {
+            "id" = "7RUG5pMu";
+            "file" = "classicfarlands-1.2.4+mc26.1.jar";
+            "hash" = "sha512-zF1FMsTQ/JVDwA2yIRxaC2Dd19W5zTRWEkSDsUGo48qvhRQ7VOl73BCDg+rPAn7FqXTyAaXZk//FfnDNTquMbA==";
+        };
+        _cjXMAdUs = {
+            "id" = "cjXMAdUs";
+            "file" = "classicfarlands-1.3.2+mc26.3.jar";
+            "hash" = "sha512-RPziUo2IuocK/lzughOptO9sPvXZ5aaMeJ02tfbwxeNbzOEEgiAj01JeBvFNbvq4nxN1DERzA8Z/qRPgreu+9w==";
+        };
     in {
         "ghz4mj2S" = _ghz4mj2S;
         "RBo6CsRF" = _RBo6CsRF;
@@ -92,6 +102,8 @@ let
         "VYAGatlU" = _VYAGatlU;
         "eEnEwUr8" = _eEnEwUr8;
         "vmkq14ZB" = _vmkq14ZB;
+        "7RUG5pMu" = _7RUG5pMu;
+        "cjXMAdUs" = _cjXMAdUs;
         "fabric-1.21" = _Avq5WMgK;
         "fabric-1.21.1" = _Avq5WMgK;
         "fabric-1.21.2" = _Avq5WMgK;
@@ -104,13 +116,13 @@ let
         "fabric-1.21.9" = _77buAuMT;
         "fabric-1.21.10" = _77buAuMT;
         "fabric-1.21.11" = _77buAuMT;
-        "fabric-26.1" = _VYAGatlU;
-        "fabric-26.1.1" = _VYAGatlU;
-        "fabric-26.1.2" = _VYAGatlU;
-        "fabric-26.2" = _VYAGatlU;
+        "fabric-26.1" = _7RUG5pMu;
+        "fabric-26.1.1" = _7RUG5pMu;
+        "fabric-26.1.2" = _7RUG5pMu;
+        "fabric-26.2" = _7RUG5pMu;
         "fabric-26.3-rc-1" = _eEnEwUr8;
         "fabric-26.3-rc-2" = _eEnEwUr8;
-        "fabric-26.3" = _vmkq14ZB;
+        "fabric-26.3" = _cjXMAdUs;
         "pkg-1.0.0+mc1.21.1" = _ghz4mj2S;
         "pkg-1.0.0+mc1.21.10" = _RBo6CsRF;
         "pkg-1.1.0+mc1.21.1" = _pJBIHTXR;
@@ -126,7 +138,9 @@ let
         "pkg-1.2.3+mc26.1" = _VYAGatlU;
         "pkg-1.3.0+mc26.3" = _eEnEwUr8;
         "pkg-1.3.1+mc26.3" = _vmkq14ZB;
-        "default" = _vmkq14ZB;
+        "pkg-1.2.4+mc26.1" = _7RUG5pMu;
+        "pkg-1.3.2+mc26.3" = _cjXMAdUs;
+        "default" = _cjXMAdUs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "classic-farlands";

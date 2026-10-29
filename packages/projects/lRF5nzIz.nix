@@ -326,6 +326,11 @@ let
             "file" = "betterconduitplacement-26.3.0-3.6.jar";
             "hash" = "sha512-w4c+8E0fybqx0AW/t2W1OGLhQAvMM1uVoP0eAzZI0jMN8OdqZDJFmqSwpWmGb+dahpb6uA2u9YRl/k0E/U5/HQ==";
         };
+        _mIs6UBMV = {
+            "id" = "mIs6UBMV";
+            "file" = "betterconduitplacement-26.1.2-3.6.jar";
+            "hash" = "sha512-tpUqbdN3+BLA9+jju4W9aOBz0hOnmxXHpm7rm+FBIxzGOHVs1Ga+Uu07S4ggWHy4D2jCpaPMl0D+n9zrV/7q4Q==";
+        };
     in {
         "4Ubqpdlh" = _4Ubqpdlh;
         "Ryt97bUQ" = _Ryt97bUQ;
@@ -392,6 +397,7 @@ let
         "oZBuMsym" = _oZBuMsym;
         "sD1AyPUE" = _sD1AyPUE;
         "PXoSZ2LR" = _PXoSZ2LR;
+        "mIs6UBMV" = _mIs6UBMV;
         "fabric-1.16.5" = _BgT8Fl5f;
         "fabric-1.18.2" = _ffJLejsv;
         "fabric-1.19.2" = _MINTULDO;
@@ -418,7 +424,7 @@ let
         "fabric-1.21.11" = _Miulx2MV;
         "fabric-26.1" = _na8Q66YI;
         "fabric-26.1.1" = _MLx6hy0l;
-        "fabric-26.1.2" = _hALKMPSW;
+        "fabric-26.1.2" = _mIs6UBMV;
         "fabric-26.2" = _sD1AyPUE;
         "fabric-26.3" = _PXoSZ2LR;
         "forge-1.16.5" = _HJEY6Uw1;
@@ -445,7 +451,7 @@ let
         "forge-1.21.11" = _Miulx2MV;
         "forge-26.1" = _na8Q66YI;
         "forge-26.1.1" = _MLx6hy0l;
-        "forge-26.1.2" = _hALKMPSW;
+        "forge-26.1.2" = _mIs6UBMV;
         "forge-26.2" = _sD1AyPUE;
         "forge-26.3" = _PXoSZ2LR;
         "quilt-1.18.2" = _ffJLejsv;
@@ -473,7 +479,7 @@ let
         "quilt-1.21.11" = _Miulx2MV;
         "quilt-26.1" = _na8Q66YI;
         "quilt-26.1.1" = _MLx6hy0l;
-        "quilt-26.1.2" = _hALKMPSW;
+        "quilt-26.1.2" = _mIs6UBMV;
         "quilt-26.2" = _sD1AyPUE;
         "quilt-26.3" = _PXoSZ2LR;
         "neoforge-1.20.2" = _Zh3QGWHn;
@@ -496,7 +502,7 @@ let
         "neoforge-1.21.11" = _Miulx2MV;
         "neoforge-26.1" = _na8Q66YI;
         "neoforge-26.1.1" = _MLx6hy0l;
-        "neoforge-26.1.2" = _hALKMPSW;
+        "neoforge-26.1.2" = _mIs6UBMV;
         "neoforge-26.2" = _sD1AyPUE;
         "neoforge-26.3" = _PXoSZ2LR;
         "pkg-1.16.5-1.7-fabric" = _4Ubqpdlh;
@@ -563,7 +569,8 @@ let
         "pkg-1.21.1-3.6-fabric+forge+neo" = _oZBuMsym;
         "pkg-26.2.0-3.6-fabric+forge+neo" = _sD1AyPUE;
         "pkg-26.3.0-3.6-fabric+forge+neo" = _PXoSZ2LR;
-        "default" = _PXoSZ2LR;
+        "pkg-26.1.2-3.6-fabric+forge+neo" = _mIs6UBMV;
+        "default" = _mIs6UBMV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-conduit-placement";

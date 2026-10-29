@@ -131,6 +131,16 @@ let
             "file" = "changedextras-1.1.8b.jar";
             "hash" = "sha512-hfXYbCra36HujWEgbvkDabj3mZoaIUnOkN7B8cH/hNXP8AcJUcq6fgo6BFT44Ih6U5Lt0wWm3Cxm0m+l5NODmQ==";
         };
+        _XoJjFpof = {
+            "id" = "XoJjFpof";
+            "file" = "changedextras-1.1.9-beta3.jar";
+            "hash" = "sha512-5nsFYCwyhBHmvwukj4s3HQz/hoK4sbYAOPdF6gL9WY//Obqm8tN7cIYkFoGI0PCoYxQ0KIVRrKMRE5yYw5kKpA==";
+        };
+        _kijP2so8 = {
+            "id" = "kijP2so8";
+            "file" = "changedextras-1.1.9-beta3-hf1.jar";
+            "hash" = "sha512-rWsiIxq+Q8dJaj6MyQ0tjjhfzrezu7WK1uANcV1YFl8pjd4ZdiMoYv7cCoNlKccae7knBivuOmw4HrfNayEmuA==";
+        };
     in {
         "MJbjSshk" = _MJbjSshk;
         "WNCj33wK" = _WNCj33wK;
@@ -158,7 +168,9 @@ let
         "mGAuyahN" = _mGAuyahN;
         "E2QsQxQp" = _E2QsQxQp;
         "2X47TN72" = _2X47TN72;
-        "forge-1.20.1" = _2X47TN72;
+        "XoJjFpof" = _XoJjFpof;
+        "kijP2so8" = _kijP2so8;
+        "forge-1.20.1" = _kijP2so8;
         "pkg-1.0.3b" = _MJbjSshk;
         "pkg-1.0.5" = _WNCj33wK;
         "pkg-1.0.5_newicon" = _Ci2HvMgd;
@@ -185,7 +197,9 @@ let
         "pkg-1.1.7" = _mGAuyahN;
         "pkg-1.1.8" = _E2QsQxQp;
         "pkg-1.1.8b" = _2X47TN72;
-        "default" = _2X47TN72;
+        "pkg-1.1.9-beta" = _XoJjFpof;
+        "pkg-1.1.9-beta3-hf1" = _kijP2so8;
+        "default" = _kijP2so8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "changedextras";

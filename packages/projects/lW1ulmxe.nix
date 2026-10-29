@@ -721,6 +721,11 @@ let
             "file" = "Facet-NeoForge-1.6.5-26.3.jar";
             "hash" = "sha512-+u8P3xXlK/gR6WwT3Klh4oQMvvCbi2H5SO/0RHlk5HHx9sz29LBITNEPHwTgGItdMp/72jX3/aVr7k/x0Mam9A==";
         };
+        _pWW1CkdJ = {
+            "id" = "pWW1CkdJ";
+            "file" = "Facet-Fabric-1.6.6-26.4-snapshot-6.jar";
+            "hash" = "sha512-py7hNDHLAUivI3ZnzVFj3IIcKlSbpEWlv8rIs7qhGBIPfpGy0kJW7IjHm5Ogv3CNs2mpyI6f3rPCVb6emizc1A==";
+        };
     in {
         "YKv1MOpJ" = _YKv1MOpJ;
         "XrhNpoqJ" = _XrhNpoqJ;
@@ -866,6 +871,7 @@ let
         "R8BmY6Zk" = _R8BmY6Zk;
         "7x3v6FnH" = _7x3v6FnH;
         "npo1ywXc" = _npo1ywXc;
+        "pWW1CkdJ" = _pWW1CkdJ;
         "fabric-26.1" = _ILx37PAX;
         "fabric-26.1.1" = _ILx37PAX;
         "fabric-26.1.2" = _ILx37PAX;
@@ -886,6 +892,7 @@ let
         "fabric-26.4-snapshot-3" = _7xl548YX;
         "fabric-26.4-snapshot-4" = _ez4Vq2E6;
         "fabric-26.4-snapshot-5" = _pKJqA7jh;
+        "fabric-26.4-snapshot-6" = _pWW1CkdJ;
         "neoforge-26.1" = _eGONUbx1;
         "neoforge-26.2" = _7x3v6FnH;
         "neoforge-26.1.2" = _R8BmY6Zk;
@@ -924,7 +931,8 @@ let
         "pkg-1.6.4" = _VlhucByw;
         "pkg-1.6.5-s5-preview.1" = _pKJqA7jh;
         "pkg-1.6.5" = _npo1ywXc;
-        "default" = _npo1ywXc;
+        "pkg-1.6.6-s6-preview.1" = _pWW1CkdJ;
+        "default" = _pWW1CkdJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "facet-fabric";

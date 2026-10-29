@@ -96,6 +96,11 @@ let
             "file" = "admincommandtool-1.1.2-26.3.jar";
             "hash" = "sha512-7aymlgkmX9DGLoOqld5E4FE/pk0R1Pct4qEOyQwxSFAmvuof2+tCbmk7eYnl0s42I4AA5xma5OMvigilF/YlHg==";
         };
+        _YEDoPOyA = {
+            "id" = "YEDoPOyA";
+            "file" = "admincommandtool-1.1.3-26.3.jar";
+            "hash" = "sha512-KjPXBzdfchYdHw+Q9w7Yprhwd5pSQc3EgWjkLMrYw4bBM18v2PHgZOXD6VNPOpkcF9cH1hNqamE+iB9CH1ql5Q==";
+        };
     in {
         "klN4iwVb" = _klN4iwVb;
         "pab0p3lI" = _pab0p3lI;
@@ -116,12 +121,13 @@ let
         "EsdQ1DY9" = _EsdQ1DY9;
         "krEztT5d" = _krEztT5d;
         "vEoYyw1t" = _vEoYyw1t;
+        "YEDoPOyA" = _YEDoPOyA;
         "fabric-1.21.11" = _RINbK4EY;
         "fabric-26.1" = _AJgPpqRx;
         "fabric-26.1.1" = _AJgPpqRx;
         "fabric-26.1.2" = _AJgPpqRx;
         "fabric-26.2" = _EsdQ1DY9;
-        "fabric-26.3" = _vEoYyw1t;
+        "fabric-26.3" = _YEDoPOyA;
         "pkg-1.0.6" = _tMwbagUL;
         "pkg-1.0.7" = _Vrt7TXeN;
         "pkg-1.0.8" = _3BKeHjFt;
@@ -129,7 +135,8 @@ let
         "pkg-1.1" = _xubzeP8X;
         "pkg-1.1.1" = _krEztT5d;
         "pkg-1.1.2" = _vEoYyw1t;
-        "default" = _vEoYyw1t;
+        "pkg-1.1.3" = _YEDoPOyA;
+        "default" = _YEDoPOyA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "admin-command-tool";

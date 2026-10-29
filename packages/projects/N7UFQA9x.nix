@@ -336,6 +336,11 @@ let
             "file" = "passiveendermen-26.3.0-5.0.jar";
             "hash" = "sha512-chpGw1Zzvp+ANquvcBTLnJYsKcWyzGGvWKPLq9EA+wFllVhaOjAKlG26hOoYVRQqJAzHvDRMI6v44NMS29TnFg==";
         };
+        _Cm2Ipim4 = {
+            "id" = "Cm2Ipim4";
+            "file" = "passiveendermen-26.1.2-5.0.jar";
+            "hash" = "sha512-OM5KmvjmkFAq/S/J3bKtHw9Dq8Vdg7xRwud1Vsf7VBE/ABU+GGpGjuCs0OBme+OhdNjuuRe6mrFfpqzMI2GlKw==";
+        };
     in {
         "JnxwA0Jq" = _JnxwA0Jq;
         "sZLelu1S" = _sZLelu1S;
@@ -404,6 +409,7 @@ let
         "o3LvB7RZ" = _o3LvB7RZ;
         "rKTkT729" = _rKTkT729;
         "9uNGydui" = _9uNGydui;
+        "Cm2Ipim4" = _Cm2Ipim4;
         "fabric-1.16.5" = _CBbdGdmD;
         "fabric-1.18.2" = _Ha41vnMn;
         "fabric-1.19.2" = _KU4eJjJ3;
@@ -430,7 +436,7 @@ let
         "fabric-1.21.11" = _rCAxVuKe;
         "fabric-26.1" = _LyDKdVcV;
         "fabric-26.1.1" = _SGNuRjuS;
-        "fabric-26.1.2" = _HAVLbo0r;
+        "fabric-26.1.2" = _Cm2Ipim4;
         "fabric-26.2" = _rKTkT729;
         "fabric-26.3" = _9uNGydui;
         "forge-1.16.5" = _sKlCpDCJ;
@@ -457,7 +463,7 @@ let
         "forge-1.21.11" = _rCAxVuKe;
         "forge-26.1" = _LyDKdVcV;
         "forge-26.1.1" = _SGNuRjuS;
-        "forge-26.1.2" = _HAVLbo0r;
+        "forge-26.1.2" = _Cm2Ipim4;
         "forge-26.2" = _rKTkT729;
         "forge-26.3" = _9uNGydui;
         "quilt-1.18.2" = _Ha41vnMn;
@@ -485,7 +491,7 @@ let
         "quilt-1.21.11" = _rCAxVuKe;
         "quilt-26.1" = _LyDKdVcV;
         "quilt-26.1.1" = _SGNuRjuS;
-        "quilt-26.1.2" = _HAVLbo0r;
+        "quilt-26.1.2" = _Cm2Ipim4;
         "quilt-26.2" = _rKTkT729;
         "quilt-26.3" = _9uNGydui;
         "neoforge-1.20.2" = _QveVMXYx;
@@ -508,7 +514,7 @@ let
         "neoforge-1.21.11" = _rCAxVuKe;
         "neoforge-26.1" = _LyDKdVcV;
         "neoforge-26.1.1" = _SGNuRjuS;
-        "neoforge-26.1.2" = _HAVLbo0r;
+        "neoforge-26.1.2" = _Cm2Ipim4;
         "neoforge-26.2" = _rKTkT729;
         "neoforge-26.3" = _9uNGydui;
         "pkg-1.16.5-3.0-fabric" = _JnxwA0Jq;
@@ -578,7 +584,8 @@ let
         "pkg-1.21.1-5.0-fabric+forge+neo" = _o3LvB7RZ;
         "pkg-26.2.0-5.0-fabric+forge+neo" = _rKTkT729;
         "pkg-26.3.0-5.0-fabric+forge+neo" = _9uNGydui;
-        "default" = _9uNGydui;
+        "pkg-26.1.2-5.0-fabric+forge+neo" = _Cm2Ipim4;
+        "default" = _Cm2Ipim4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "passive-endermen";

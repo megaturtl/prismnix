@@ -266,6 +266,11 @@ let
             "file" = "moveboats-26.3.0-3.8.jar";
             "hash" = "sha512-w5PaM1BDvfGNV+D9EJ9hPm46CSx6V3ZddmHcdwTATX3Fxl2NY2IARIzzELT+eptITAMLFIO7rTL+80yFsEebkw==";
         };
+        _TPziow2W = {
+            "id" = "TPziow2W";
+            "file" = "moveboats-26.1.2-3.8.jar";
+            "hash" = "sha512-pzw0yaBMw7KDH/5ylGguAHKik2uyfjEbGB8qcgwNyW72gKITfGH1YKjC3LjRJJhS24e6+Gk5+kbojMcYWyFWuQ==";
+        };
     in {
         "t88wsdRT" = _t88wsdRT;
         "tZ9YQioh" = _tZ9YQioh;
@@ -320,6 +325,7 @@ let
         "KeOXgxPL" = _KeOXgxPL;
         "b7VpjVnJ" = _b7VpjVnJ;
         "wdXZzFgn" = _wdXZzFgn;
+        "TPziow2W" = _TPziow2W;
         "forge-1.16.5" = _t88wsdRT;
         "forge-1.18.2" = _SwvwgVUM;
         "forge-1.19.2" = _SLnGlTGF;
@@ -344,7 +350,7 @@ let
         "forge-1.21.11" = _Poz0mEPc;
         "forge-26.1" = _6cZw7ZON;
         "forge-26.1.1" = _igvkBMSB;
-        "forge-26.1.2" = _F4Bcydal;
+        "forge-26.1.2" = _TPziow2W;
         "forge-26.2" = _b7VpjVnJ;
         "forge-26.3" = _wdXZzFgn;
         "fabric-1.18.2" = _SwvwgVUM;
@@ -372,7 +378,7 @@ let
         "fabric-1.21.11" = _Poz0mEPc;
         "fabric-26.1" = _6cZw7ZON;
         "fabric-26.1.1" = _igvkBMSB;
-        "fabric-26.1.2" = _F4Bcydal;
+        "fabric-26.1.2" = _TPziow2W;
         "fabric-26.2" = _b7VpjVnJ;
         "fabric-26.3" = _wdXZzFgn;
         "quilt-1.18.2" = _SwvwgVUM;
@@ -400,7 +406,7 @@ let
         "quilt-1.21.11" = _Poz0mEPc;
         "quilt-26.1" = _6cZw7ZON;
         "quilt-26.1.1" = _igvkBMSB;
-        "quilt-26.1.2" = _F4Bcydal;
+        "quilt-26.1.2" = _TPziow2W;
         "quilt-26.2" = _b7VpjVnJ;
         "quilt-26.3" = _wdXZzFgn;
         "neoforge-1.20.2" = _dJjfjCyV;
@@ -423,7 +429,7 @@ let
         "neoforge-1.21.11" = _Poz0mEPc;
         "neoforge-26.1" = _6cZw7ZON;
         "neoforge-26.1.1" = _igvkBMSB;
-        "neoforge-26.1.2" = _F4Bcydal;
+        "neoforge-26.1.2" = _TPziow2W;
         "neoforge-26.2" = _b7VpjVnJ;
         "neoforge-26.3" = _wdXZzFgn;
         "pkg-1.16.5-1.8-forge" = _t88wsdRT;
@@ -479,7 +485,8 @@ let
         "pkg-1.21.1-3.8-fabric+forge+neo" = _KeOXgxPL;
         "pkg-26.2.0-3.8-fabric+forge+neo" = _b7VpjVnJ;
         "pkg-26.3.0-3.8-fabric+forge+neo" = _wdXZzFgn;
-        "default" = _wdXZzFgn;
+        "pkg-26.1.2-3.8-fabric+forge+neo" = _TPziow2W;
+        "default" = _TPziow2W;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "move-boats";

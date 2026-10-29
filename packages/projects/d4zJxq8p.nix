@@ -386,6 +386,11 @@ let
             "file" = "minimega-6.5.33.jar";
             "hash" = "sha512-dFfYtgEUZ0rq7kSuQEDJP/rQssStWsYFZY+B+5dZC+T6Y9Nr+ifn5ZQjtgLX9knrsSJPTRAcRin4M7I2rwIDCQ==";
         };
+        _iG674nYv = {
+            "id" = "iG674nYv";
+            "file" = "minimega-7.1.10.jar";
+            "hash" = "sha512-1dWu0aOuz9XxefnyMYEWewSH4NaqBfQmA1+37CDDRksvJ+QDEAgKBjtjxjTDdvqpEOUPx6QlCwAVNRhAjuuNkg==";
+        };
     in {
         "gUOaWLSF" = _gUOaWLSF;
         "iL79NOKd" = _iL79NOKd;
@@ -464,6 +469,7 @@ let
         "LWd5692Q" = _LWd5692Q;
         "YOx4iC3j" = _YOx4iC3j;
         "HjsmzYsx" = _HjsmzYsx;
+        "iG674nYv" = _iG674nYv;
         "fabric-1.21.4" = _YPw9MkqG;
         "fabric-1.21.5" = _rA3dgGLH;
         "fabric-1.21.8" = _zG3lWxdO;
@@ -480,7 +486,7 @@ let
         "fabric-26.2-pre-6" = _ijuQFxXN;
         "fabric-26.2-rc-1" = _ijuQFxXN;
         "fabric-26.2-rc-2" = _ijuQFxXN;
-        "fabric-26.2" = _huVgH4Cr;
+        "fabric-26.2" = _iG674nYv;
         "pkg-0.0.1-alpha.13.2" = _gUOaWLSF;
         "pkg-0.0.1-alpha.14" = _iL79NOKd;
         "pkg-0.0.1-alpha.15" = _yB3qvtxL;
@@ -558,7 +564,8 @@ let
         "pkg-6.5.31" = _LWd5692Q;
         "pkg-6.5.32" = _YOx4iC3j;
         "pkg-6.5.33" = _HjsmzYsx;
-        "default" = _HjsmzYsx;
+        "pkg-7.1.10" = _iG674nYv;
+        "default" = _iG674nYv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "minimega";

@@ -216,6 +216,11 @@ let
             "file" = "thornybushprotection-26.3.0-1.7.jar";
             "hash" = "sha512-fbUZeIZqDynZkmmEq36ZV3WWBnHKqgFEoNysIm7tBBzCzd34TQMukfVgf5BYn5M27sysu/6hCatbroyU7TDi+g==";
         };
+        _8Fg4HG75 = {
+            "id" = "8Fg4HG75";
+            "file" = "thornybushprotection-26.1.2-1.7.jar";
+            "hash" = "sha512-pvqR9o24dmmtBGjwiBOsJmbs5BtE899qtOhITVlAoA28OnKJXLpwgEf5VBolb4qwY0WBBwi5NJWoMo8k04CotQ==";
+        };
     in {
         "yXqVyf5w" = _yXqVyf5w;
         "iPS5XeM3" = _iPS5XeM3;
@@ -260,6 +265,7 @@ let
         "pbemIIQe" = _pbemIIQe;
         "eSZR9kSG" = _eSZR9kSG;
         "RhmGs2Mm" = _RhmGs2Mm;
+        "8Fg4HG75" = _8Fg4HG75;
         "fabric-1.19.2" = _85dqWjGV;
         "fabric-1.20.1" = _72vRclPW;
         "fabric-1.20.2" = _2uMBQzVu;
@@ -280,7 +286,7 @@ let
         "fabric-1.21.11" = _aaQeIjE6;
         "fabric-26.1" = _CqeREkbC;
         "fabric-26.1.1" = _czDgjWo0;
-        "fabric-26.1.2" = _5g1OAPb4;
+        "fabric-26.1.2" = _8Fg4HG75;
         "fabric-26.2" = _eSZR9kSG;
         "fabric-26.3" = _RhmGs2Mm;
         "forge-1.19.2" = _85dqWjGV;
@@ -301,7 +307,7 @@ let
         "forge-1.21.11" = _aaQeIjE6;
         "forge-26.1" = _CqeREkbC;
         "forge-26.1.1" = _czDgjWo0;
-        "forge-26.1.2" = _5g1OAPb4;
+        "forge-26.1.2" = _8Fg4HG75;
         "forge-26.2" = _eSZR9kSG;
         "forge-26.3" = _RhmGs2Mm;
         "quilt-1.19.2" = _85dqWjGV;
@@ -324,7 +330,7 @@ let
         "quilt-1.21.11" = _aaQeIjE6;
         "quilt-26.1" = _CqeREkbC;
         "quilt-26.1.1" = _czDgjWo0;
-        "quilt-26.1.2" = _5g1OAPb4;
+        "quilt-26.1.2" = _8Fg4HG75;
         "quilt-26.2" = _eSZR9kSG;
         "quilt-26.3" = _RhmGs2Mm;
         "neoforge-1.20.1" = _72vRclPW;
@@ -346,7 +352,7 @@ let
         "neoforge-1.21.11" = _aaQeIjE6;
         "neoforge-26.1" = _CqeREkbC;
         "neoforge-26.1.1" = _czDgjWo0;
-        "neoforge-26.1.2" = _5g1OAPb4;
+        "neoforge-26.1.2" = _8Fg4HG75;
         "neoforge-26.2" = _eSZR9kSG;
         "neoforge-26.3" = _RhmGs2Mm;
         "pkg-1.19.2-1.0-fabric+forge+neo" = _yXqVyf5w;
@@ -392,7 +398,8 @@ let
         "pkg-1.21.1-1.7-fabric+forge+neo" = _pbemIIQe;
         "pkg-26.2.0-1.7-fabric+forge+neo" = _eSZR9kSG;
         "pkg-26.3.0-1.7-fabric+forge+neo" = _RhmGs2Mm;
-        "default" = _RhmGs2Mm;
+        "pkg-26.1.2-1.7-fabric+forge+neo" = _8Fg4HG75;
+        "default" = _8Fg4HG75;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "thorny-bush-protection";

@@ -356,6 +356,11 @@ let
             "file" = "silencemobs-26.3.0-4.1.jar";
             "hash" = "sha512-ACk7m4xib2esi+bwxA1NdI+7V/dQhMvbTSH/LdaeGr3XtV2fZHc6cSFklmQpfiF0iX+I+sSmYEjUqGEvscLOZg==";
         };
+        _JrgeogwU = {
+            "id" = "JrgeogwU";
+            "file" = "silencemobs-26.1.2-4.1.jar";
+            "hash" = "sha512-IAJhk6nSwW6MsCrxHkqYEd0vfN9DYIIiqTuLmm2gLqHuIyLxolACmvRwZw6pCCIA9/rAaHA+sKgpTjQAsv0Z+w==";
+        };
     in {
         "sEb6mmcX" = _sEb6mmcX;
         "Ucvl6m6R" = _Ucvl6m6R;
@@ -428,6 +433,7 @@ let
         "e7IPl1cP" = _e7IPl1cP;
         "GGZ3e046" = _GGZ3e046;
         "6gpAnjUY" = _6gpAnjUY;
+        "JrgeogwU" = _JrgeogwU;
         "fabric-1.16.5" = _Nb0Ul3im;
         "fabric-1.18.2" = _7fJnGcKP;
         "fabric-1.19.2" = _hAPEBtXP;
@@ -454,7 +460,7 @@ let
         "fabric-1.21.11" = _ExgU5Xmf;
         "fabric-26.1" = _MWyoBEaF;
         "fabric-26.1.1" = _8rUXI8Ae;
-        "fabric-26.1.2" = _MrblgOT7;
+        "fabric-26.1.2" = _JrgeogwU;
         "fabric-26.2" = _GGZ3e046;
         "fabric-26.3" = _6gpAnjUY;
         "forge-1.16.5" = _1hPtrm7p;
@@ -481,7 +487,7 @@ let
         "forge-1.21.11" = _ExgU5Xmf;
         "forge-26.1" = _MWyoBEaF;
         "forge-26.1.1" = _8rUXI8Ae;
-        "forge-26.1.2" = _MrblgOT7;
+        "forge-26.1.2" = _JrgeogwU;
         "forge-26.2" = _GGZ3e046;
         "forge-26.3" = _6gpAnjUY;
         "quilt-1.18.2" = _7fJnGcKP;
@@ -509,7 +515,7 @@ let
         "quilt-1.21.11" = _ExgU5Xmf;
         "quilt-26.1" = _MWyoBEaF;
         "quilt-26.1.1" = _8rUXI8Ae;
-        "quilt-26.1.2" = _MrblgOT7;
+        "quilt-26.1.2" = _JrgeogwU;
         "quilt-26.2" = _GGZ3e046;
         "quilt-26.3" = _6gpAnjUY;
         "neoforge-1.20.2" = _XYHuI9mc;
@@ -532,7 +538,7 @@ let
         "neoforge-1.21.11" = _ExgU5Xmf;
         "neoforge-26.1" = _MWyoBEaF;
         "neoforge-26.1.1" = _8rUXI8Ae;
-        "neoforge-26.1.2" = _MrblgOT7;
+        "neoforge-26.1.2" = _JrgeogwU;
         "neoforge-26.2" = _GGZ3e046;
         "neoforge-26.3" = _6gpAnjUY;
         "pkg-1.16.5-2.4-fabric" = _sEb6mmcX;
@@ -606,7 +612,8 @@ let
         "pkg-1.21.1-4.1-fabric+forge+neo" = _e7IPl1cP;
         "pkg-26.2.0-4.1-fabric+forge+neo" = _GGZ3e046;
         "pkg-26.3.0-4.1-fabric+forge+neo" = _6gpAnjUY;
-        "default" = _6gpAnjUY;
+        "pkg-26.1.2-4.1-fabric+forge+neo" = _JrgeogwU;
+        "default" = _JrgeogwU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "silence-mobs";

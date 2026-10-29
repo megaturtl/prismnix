@@ -171,6 +171,21 @@ let
             "file" = "betterscreens-2.1.1-hotfix.1+1.8.9-fabric.jar";
             "hash" = "sha512-Ejio3OhHyCVj2QiB9OafkgpEh+zPh8KtJRNZ8UFrdBXPHUAacTgUGP24156NLehjvhHJikU+QDV5QJA1XelUdA==";
         };
+        _XML2ksVj = {
+            "id" = "XML2ksVj";
+            "file" = "betterscreens-2.1.1-hotfix.2+1.8.9-fabric.jar";
+            "hash" = "sha512-Ui2HX6qbfsG7MXpXuNAiyToCgEkZc/+aDkk6DKPqaUrSOQyFXyCUBXXEVwtKY8pAz+4b5xzgnH8P6/FSAj6ZwA==";
+        };
+        _4mH9mpre = {
+            "id" = "4mH9mpre";
+            "file" = "betterscreens-4.0.2+26.2-fabric.jar";
+            "hash" = "sha512-mAmaHh0Dxpvn9al+h8tWIBZn33hGFzbFZ6icyz+/JeGXlaUn3jF0Tun35igrHrGt8hqv2boLAFnZoU4ugqJ2Pg==";
+        };
+        _atwLoeR4 = {
+            "id" = "atwLoeR4";
+            "file" = "betterscreens-4.0.2+26.3-fabric.jar";
+            "hash" = "sha512-fJp5ONcV0uaXYrchs0kpdyaqGUoVYIUnqew7mXxxj5nOQD+O4zEL4jWACll2fZ5cu8yKrFPE4xQt0ZsuxGHH5g==";
+        };
     in {
         "f1s6jOAU" = _f1s6jOAU;
         "y6b3rm2N" = _y6b3rm2N;
@@ -206,15 +221,18 @@ let
         "pyolTqmv" = _pyolTqmv;
         "CT3IG6IC" = _CT3IG6IC;
         "N7nYoMDW" = _N7nYoMDW;
+        "XML2ksVj" = _XML2ksVj;
+        "4mH9mpre" = _4mH9mpre;
+        "atwLoeR4" = _atwLoeR4;
         "fabric-1.21.8" = _5kgvtbuE;
         "fabric-1.21.10" = _hjgJ1G8A;
         "fabric-1.21.11" = _w3MhEzEK;
         "fabric-26.1" = _IdEZWyAp;
         "fabric-26.1.1" = _IdEZWyAp;
         "fabric-26.1.2" = _IdEZWyAp;
-        "fabric-26.2" = _pyolTqmv;
-        "fabric-26.3" = _CT3IG6IC;
-        "ornithe-1.8.9" = _N7nYoMDW;
+        "fabric-26.2" = _4mH9mpre;
+        "fabric-26.3" = _atwLoeR4;
+        "ornithe-1.8.9" = _XML2ksVj;
         "pkg-1.0.1" = _f1s6jOAU;
         "pkg-2.0.0" = _y6b3rm2N;
         "pkg-2.0.1" = _7iYhvPUK;
@@ -241,7 +259,9 @@ let
         "pkg-4.0.0" = _E8vgd0AG;
         "pkg-4.0.1" = _CT3IG6IC;
         "pkg-2.1.1-hotfix.1" = _N7nYoMDW;
-        "default" = _N7nYoMDW;
+        "pkg-2.1.1-hotfix.2" = _XML2ksVj;
+        "pkg-4.0.2" = _atwLoeR4;
+        "default" = _atwLoeR4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-screens";

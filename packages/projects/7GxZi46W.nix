@@ -371,6 +371,11 @@ let
             "file" = "transcendingtrident-26.3.0-5.1.jar";
             "hash" = "sha512-QGg+ZREqETdNfKW/qhHCgmC7JRy0cuOLg8LGC/pCpB7qkJwUkNE/JP/p3SKaLek7F0FSBnYWTfFb9viZy9F5yA==";
         };
+        _CY4xDVew = {
+            "id" = "CY4xDVew";
+            "file" = "transcendingtrident-26.1.2-5.1.jar";
+            "hash" = "sha512-vQT+AvGwDgd41ulXq92bF8RdFClqxiY/H2Z6M8B9uItSgP0foFi9cENzVChHHE2swP088tCRA3bWSvb8OcIx9w==";
+        };
     in {
         "bpa58oNb" = _bpa58oNb;
         "3fQbwnjm" = _3fQbwnjm;
@@ -446,6 +451,7 @@ let
         "yT1joOj6" = _yT1joOj6;
         "MUZWf8Dn" = _MUZWf8Dn;
         "qTNqzGMb" = _qTNqzGMb;
+        "CY4xDVew" = _CY4xDVew;
         "fabric-1.16.5" = _QbuVMcmC;
         "fabric-1.18.2" = _V77WDvZK;
         "fabric-1.19.2" = _7NMtpx47;
@@ -472,7 +478,7 @@ let
         "fabric-1.21.11" = _dxirURcL;
         "fabric-26.1" = _MYLREh2w;
         "fabric-26.1.1" = _aJRCeO7s;
-        "fabric-26.1.2" = _eGx3Tcc6;
+        "fabric-26.1.2" = _CY4xDVew;
         "fabric-26.2" = _MUZWf8Dn;
         "fabric-26.3" = _qTNqzGMb;
         "forge-1.16.5" = _viPFz83g;
@@ -499,7 +505,7 @@ let
         "forge-1.21.11" = _dxirURcL;
         "forge-26.1" = _MYLREh2w;
         "forge-26.1.1" = _aJRCeO7s;
-        "forge-26.1.2" = _eGx3Tcc6;
+        "forge-26.1.2" = _CY4xDVew;
         "forge-26.2" = _MUZWf8Dn;
         "forge-26.3" = _qTNqzGMb;
         "quilt-1.18.2" = _V77WDvZK;
@@ -527,7 +533,7 @@ let
         "quilt-1.21.11" = _dxirURcL;
         "quilt-26.1" = _MYLREh2w;
         "quilt-26.1.1" = _aJRCeO7s;
-        "quilt-26.1.2" = _eGx3Tcc6;
+        "quilt-26.1.2" = _CY4xDVew;
         "quilt-26.2" = _MUZWf8Dn;
         "quilt-26.3" = _qTNqzGMb;
         "neoforge-1.20.2" = _493Br27c;
@@ -550,7 +556,7 @@ let
         "neoforge-1.21.11" = _dxirURcL;
         "neoforge-26.1" = _MYLREh2w;
         "neoforge-26.1.1" = _aJRCeO7s;
-        "neoforge-26.1.2" = _eGx3Tcc6;
+        "neoforge-26.1.2" = _CY4xDVew;
         "neoforge-26.2" = _MUZWf8Dn;
         "neoforge-26.3" = _qTNqzGMb;
         "pkg-1.16.5-2.5-fabric" = _bpa58oNb;
@@ -627,7 +633,8 @@ let
         "pkg-1.21.1-5.1-fabric+forge+neo" = _yT1joOj6;
         "pkg-26.2.0-5.1-fabric+forge+neo" = _MUZWf8Dn;
         "pkg-26.3.0-5.1-fabric+forge+neo" = _qTNqzGMb;
-        "default" = _qTNqzGMb;
+        "pkg-26.1.2-5.1-fabric+forge+neo" = _CY4xDVew;
+        "default" = _CY4xDVew;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "transcending-trident";

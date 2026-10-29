@@ -301,6 +301,11 @@ let
             "file" = "moveminecarts-26.3.0-4.0.jar";
             "hash" = "sha512-uCk4na2xg9xUUrPmYv+2tvZTWGXVdmw04mrxmI1zIKyZZeVX2Xpa5Q9IgCZFqRVKOWA7qg5QhOBg6TuNrOQrKA==";
         };
+        _3vV0UZuk = {
+            "id" = "3vV0UZuk";
+            "file" = "moveminecarts-26.1.2-4.0.jar";
+            "hash" = "sha512-5gHrh0B1h7oZP3wkU09t/N8h5praH1MP8sN488t2zSgIV32DP2CjT5N3EAtKJRyXTzjOkXsuf2vt7+87SU/K+Q==";
+        };
     in {
         "CUREhpme" = _CUREhpme;
         "HBIfuMW9" = _HBIfuMW9;
@@ -362,6 +367,7 @@ let
         "ehkCPhNW" = _ehkCPhNW;
         "opO4H9bH" = _opO4H9bH;
         "KOCu6uji" = _KOCu6uji;
+        "3vV0UZuk" = _3vV0UZuk;
         "forge-1.16.5" = _CUREhpme;
         "forge-1.18.2" = _pXxFOt7P;
         "forge-1.19.2" = _p2I9cmqL;
@@ -386,7 +392,7 @@ let
         "forge-1.21.11" = _Jmv30Vbf;
         "forge-26.1" = _391BxqnT;
         "forge-26.1.1" = _EMGTC5Q0;
-        "forge-26.1.2" = _WqUmT87s;
+        "forge-26.1.2" = _3vV0UZuk;
         "forge-26.2" = _opO4H9bH;
         "forge-26.3" = _KOCu6uji;
         "fabric-1.18.2" = _pXxFOt7P;
@@ -414,7 +420,7 @@ let
         "fabric-1.21.11" = _Jmv30Vbf;
         "fabric-26.1" = _391BxqnT;
         "fabric-26.1.1" = _EMGTC5Q0;
-        "fabric-26.1.2" = _WqUmT87s;
+        "fabric-26.1.2" = _3vV0UZuk;
         "fabric-26.2" = _opO4H9bH;
         "fabric-26.3" = _KOCu6uji;
         "quilt-1.18.2" = _pXxFOt7P;
@@ -442,7 +448,7 @@ let
         "quilt-1.21.11" = _Jmv30Vbf;
         "quilt-26.1" = _391BxqnT;
         "quilt-26.1.1" = _EMGTC5Q0;
-        "quilt-26.1.2" = _WqUmT87s;
+        "quilt-26.1.2" = _3vV0UZuk;
         "quilt-26.2" = _opO4H9bH;
         "quilt-26.3" = _KOCu6uji;
         "neoforge-1.20.2" = _5lSvMIcx;
@@ -465,7 +471,7 @@ let
         "neoforge-1.21.11" = _Jmv30Vbf;
         "neoforge-26.1" = _391BxqnT;
         "neoforge-26.1.1" = _EMGTC5Q0;
-        "neoforge-26.1.2" = _WqUmT87s;
+        "neoforge-26.1.2" = _3vV0UZuk;
         "neoforge-26.2" = _opO4H9bH;
         "neoforge-26.3" = _KOCu6uji;
         "pkg-1.16.5-1.7-forge" = _CUREhpme;
@@ -527,7 +533,8 @@ let
         "pkg-1.21.1-4.0-fabric+forge+neo" = _ehkCPhNW;
         "pkg-26.2.0-4.0-fabric+forge+neo" = _opO4H9bH;
         "pkg-26.3.0-4.0-fabric+forge+neo" = _KOCu6uji;
-        "default" = _KOCu6uji;
+        "pkg-26.1.2-4.0-fabric+forge+neo" = _3vV0UZuk;
+        "default" = _3vV0UZuk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "move-minecarts";

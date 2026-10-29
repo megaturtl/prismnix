@@ -301,6 +301,11 @@ let
             "file" = "trampleeverything-26.3.0-3.8.jar";
             "hash" = "sha512-f63a/eWSnS3Koe/ktEtqZGPfGCHd33lvB3bCJrPkrtvKLuBlWf7F9fSMUP029cydiJ44QEvIzK8DyJRUPQ8UOA==";
         };
+        _h4mvCDKQ = {
+            "id" = "h4mvCDKQ";
+            "file" = "trampleeverything-26.1.2-3.8.jar";
+            "hash" = "sha512-8CdWKHl0K4S+BHhChSRysrWNi98PnuXTZ5Rt0gNnvdF8Ob4nOODCew37r7RMtNMCc4wwr8dMBcAKPmzo9cFz0g==";
+        };
     in {
         "2O7bCswg" = _2O7bCswg;
         "OMESQWNm" = _OMESQWNm;
@@ -362,6 +367,7 @@ let
         "2khuDG6g" = _2khuDG6g;
         "VXdlTYK5" = _VXdlTYK5;
         "IApOvwyo" = _IApOvwyo;
+        "h4mvCDKQ" = _h4mvCDKQ;
         "fabric-1.16.5" = _SLnsPzV5;
         "fabric-1.18.2" = _33vOBG3s;
         "fabric-1.19.2" = _b7xA3gRi;
@@ -388,7 +394,7 @@ let
         "fabric-1.21.11" = _RKiGYqtM;
         "fabric-26.1" = _et4jI0N2;
         "fabric-26.1.1" = _K43S2wrU;
-        "fabric-26.1.2" = _o45mHjTG;
+        "fabric-26.1.2" = _h4mvCDKQ;
         "fabric-26.2" = _VXdlTYK5;
         "fabric-26.3" = _IApOvwyo;
         "forge-1.16.5" = _jWFB9pm7;
@@ -415,7 +421,7 @@ let
         "forge-1.21.11" = _RKiGYqtM;
         "forge-26.1" = _et4jI0N2;
         "forge-26.1.1" = _K43S2wrU;
-        "forge-26.1.2" = _o45mHjTG;
+        "forge-26.1.2" = _h4mvCDKQ;
         "forge-26.2" = _VXdlTYK5;
         "forge-26.3" = _IApOvwyo;
         "quilt-1.18.2" = _33vOBG3s;
@@ -443,7 +449,7 @@ let
         "quilt-1.21.11" = _RKiGYqtM;
         "quilt-26.1" = _et4jI0N2;
         "quilt-26.1.1" = _K43S2wrU;
-        "quilt-26.1.2" = _o45mHjTG;
+        "quilt-26.1.2" = _h4mvCDKQ;
         "quilt-26.2" = _VXdlTYK5;
         "quilt-26.3" = _IApOvwyo;
         "neoforge-1.20.2" = _44ZKVF7N;
@@ -466,7 +472,7 @@ let
         "neoforge-1.21.11" = _RKiGYqtM;
         "neoforge-26.1" = _et4jI0N2;
         "neoforge-26.1.1" = _K43S2wrU;
-        "neoforge-26.1.2" = _o45mHjTG;
+        "neoforge-26.1.2" = _h4mvCDKQ;
         "neoforge-26.2" = _VXdlTYK5;
         "neoforge-26.3" = _IApOvwyo;
         "pkg-1.16.5-1.7-fabric" = _2O7bCswg;
@@ -529,7 +535,8 @@ let
         "pkg-1.21.1-3.8-fabric+forge+neo" = _2khuDG6g;
         "pkg-26.2.0-3.8-fabric+forge+neo" = _VXdlTYK5;
         "pkg-26.3.0-3.8-fabric+forge+neo" = _IApOvwyo;
-        "default" = _IApOvwyo;
+        "pkg-26.1.2-3.8-fabric+forge+neo" = _h4mvCDKQ;
+        "default" = _h4mvCDKQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trample-everything";

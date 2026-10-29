@@ -301,6 +301,11 @@ let
             "file" = "edibles-26.3.0-4.6.jar";
             "hash" = "sha512-4HXHtgU59gTgSPzE/JifxRzMQbUUgf9GS/eOVPlemW9wbe56BfNd/1oMRWxClTPvEODxciEu9otsmZ5AIcJK+w==";
         };
+        _g5BYi0Y2 = {
+            "id" = "g5BYi0Y2";
+            "file" = "edibles-26.1.2-4.6.jar";
+            "hash" = "sha512-eJdjjNgK4u8YmsyyuGt3fPInGL4YUsiGpR4LV9c4gAqFDrKZiMXWDZwDeKbfSbD1ozQJGZW/bFGXJIyR5sWeIA==";
+        };
     in {
         "lutN4uP0" = _lutN4uP0;
         "70nyxlos" = _70nyxlos;
@@ -362,6 +367,7 @@ let
         "KmtNSebV" = _KmtNSebV;
         "RnbPTbsv" = _RnbPTbsv;
         "NfuBmsMf" = _NfuBmsMf;
+        "g5BYi0Y2" = _g5BYi0Y2;
         "fabric-1.16.5" = _UPkevIOJ;
         "fabric-1.18.2" = _6TObxulB;
         "fabric-1.19.2" = _r5XRUIKb;
@@ -388,7 +394,7 @@ let
         "fabric-1.21.11" = _gHE1HFGC;
         "fabric-26.1" = _RVgpGITt;
         "fabric-26.1.1" = _AA8NPjQf;
-        "fabric-26.1.2" = _5ayFqMx9;
+        "fabric-26.1.2" = _g5BYi0Y2;
         "fabric-26.2" = _RnbPTbsv;
         "fabric-26.3" = _NfuBmsMf;
         "forge-1.16.5" = _RtPvKtxU;
@@ -415,7 +421,7 @@ let
         "forge-1.21.11" = _gHE1HFGC;
         "forge-26.1" = _RVgpGITt;
         "forge-26.1.1" = _AA8NPjQf;
-        "forge-26.1.2" = _5ayFqMx9;
+        "forge-26.1.2" = _g5BYi0Y2;
         "forge-26.2" = _RnbPTbsv;
         "forge-26.3" = _NfuBmsMf;
         "quilt-1.18.2" = _6TObxulB;
@@ -443,7 +449,7 @@ let
         "quilt-1.21.11" = _gHE1HFGC;
         "quilt-26.1" = _RVgpGITt;
         "quilt-26.1.1" = _AA8NPjQf;
-        "quilt-26.1.2" = _5ayFqMx9;
+        "quilt-26.1.2" = _g5BYi0Y2;
         "quilt-26.2" = _RnbPTbsv;
         "quilt-26.3" = _NfuBmsMf;
         "neoforge-1.20.2" = _HkUdYb1N;
@@ -466,7 +472,7 @@ let
         "neoforge-1.21.11" = _gHE1HFGC;
         "neoforge-26.1" = _RVgpGITt;
         "neoforge-26.1.1" = _AA8NPjQf;
-        "neoforge-26.1.2" = _5ayFqMx9;
+        "neoforge-26.1.2" = _g5BYi0Y2;
         "neoforge-26.2" = _RnbPTbsv;
         "neoforge-26.3" = _NfuBmsMf;
         "pkg-1.16.5-2.8-fabric" = _lutN4uP0;
@@ -529,7 +535,8 @@ let
         "pkg-1.21.1-4.6-fabric+forge+neo" = _KmtNSebV;
         "pkg-26.2.0-4.6-fabric+forge+neo" = _RnbPTbsv;
         "pkg-26.3.0-4.6-fabric+forge+neo" = _NfuBmsMf;
-        "default" = _NfuBmsMf;
+        "pkg-26.1.2-4.6-fabric+forge+neo" = _g5BYi0Y2;
+        "default" = _g5BYi0Y2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "edibles";

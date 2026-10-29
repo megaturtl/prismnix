@@ -246,6 +246,11 @@ let
             "file" = "aprilfools-26.3.0-2.1.jar";
             "hash" = "sha512-X0KKSOOgUbu3Sgn6gYeAtLMld8McQ92NW4Kg4MnnrcBfe82x3tIOK5cT1QGstB6+GaJ129RUw5COHlU4qVX66g==";
         };
+        _LQFw0LTa = {
+            "id" = "LQFw0LTa";
+            "file" = "aprilfools-26.1.2-2.1.jar";
+            "hash" = "sha512-c2LYaptTmR3UafJpVuhGORkTCtaxyfcdKb+qtPzd6lW7Xx7jUyPnrX3SESbH2pPiRhiqjwgCGXNym2yqO7IkGQ==";
+        };
     in {
         "5Igi0JHm" = _5Igi0JHm;
         "D4kRrgTB" = _D4kRrgTB;
@@ -296,6 +301,7 @@ let
         "qxrJBboa" = _qxrJBboa;
         "xnm7XiD3" = _xnm7XiD3;
         "fvCm7hID" = _fvCm7hID;
+        "LQFw0LTa" = _LQFw0LTa;
         "fabric-1.19.2" = _BxvVS6Ts;
         "fabric-1.20.1" = _KT71kJzY;
         "fabric-1.20.4" = _ph9DW3fM;
@@ -315,7 +321,7 @@ let
         "fabric-1.21.11" = _gWoA56UP;
         "fabric-26.1" = _2Mzhf0Ew;
         "fabric-26.1.1" = _ClvbkJbg;
-        "fabric-26.1.2" = _y6CWVI2j;
+        "fabric-26.1.2" = _LQFw0LTa;
         "fabric-26.2" = _xnm7XiD3;
         "fabric-26.3" = _fvCm7hID;
         "forge-1.19.2" = _BxvVS6Ts;
@@ -335,7 +341,7 @@ let
         "forge-1.21.11" = _gWoA56UP;
         "forge-26.1" = _2Mzhf0Ew;
         "forge-26.1.1" = _ClvbkJbg;
-        "forge-26.1.2" = _y6CWVI2j;
+        "forge-26.1.2" = _LQFw0LTa;
         "forge-26.2" = _xnm7XiD3;
         "forge-26.3" = _fvCm7hID;
         "quilt-1.19.2" = _BxvVS6Ts;
@@ -357,7 +363,7 @@ let
         "quilt-1.21.11" = _gWoA56UP;
         "quilt-26.1" = _2Mzhf0Ew;
         "quilt-26.1.1" = _ClvbkJbg;
-        "quilt-26.1.2" = _y6CWVI2j;
+        "quilt-26.1.2" = _LQFw0LTa;
         "quilt-26.2" = _xnm7XiD3;
         "quilt-26.3" = _fvCm7hID;
         "neoforge-1.20.1" = _KT71kJzY;
@@ -378,7 +384,7 @@ let
         "neoforge-1.21.11" = _gWoA56UP;
         "neoforge-26.1" = _2Mzhf0Ew;
         "neoforge-26.1.1" = _ClvbkJbg;
-        "neoforge-26.1.2" = _y6CWVI2j;
+        "neoforge-26.1.2" = _LQFw0LTa;
         "neoforge-26.2" = _xnm7XiD3;
         "neoforge-26.3" = _fvCm7hID;
         "pkg-1.19.2-1.0-fabric+forge" = _5Igi0JHm;
@@ -430,7 +436,8 @@ let
         "pkg-1.21.1-2.1-fabric+forge+neo" = _qxrJBboa;
         "pkg-26.2.0-2.1-fabric+forge+neo" = _xnm7XiD3;
         "pkg-26.3.0-2.1-fabric+forge+neo" = _fvCm7hID;
-        "default" = _fvCm7hID;
+        "pkg-26.1.2-2.1-fabric+forge+neo" = _LQFw0LTa;
+        "default" = _LQFw0LTa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "april-fools";

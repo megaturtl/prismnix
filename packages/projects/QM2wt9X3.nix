@@ -286,6 +286,11 @@ let
             "file" = "paperbooks-26.3.0-3.7.jar";
             "hash" = "sha512-gbMDS8E9LA9oTG9DVWYSLsA2zedOJk7584UYZ+jVKEruWkWlVXpOALgHs1FJl9u8TDTEKReN3zPLEJaXDpGhhg==";
         };
+        _o49YudID = {
+            "id" = "o49YudID";
+            "file" = "paperbooks-26.1.2-3.7.jar";
+            "hash" = "sha512-fifLWegCT2EQvhh/yr8aSgiKNH9TNpzEf112TbFgLSTS1/V+E6TIz1+wu6EHNc+5DH5ZPyP3MgkK1e2LQOLROw==";
+        };
     in {
         "iFEKNBDD" = _iFEKNBDD;
         "8inJ89GU" = _8inJ89GU;
@@ -344,6 +349,7 @@ let
         "ZX6HBNZz" = _ZX6HBNZz;
         "uHzbBq7l" = _uHzbBq7l;
         "AlMIYUhG" = _AlMIYUhG;
+        "o49YudID" = _o49YudID;
         "fabric-1.16.5" = _BFlpLtKW;
         "fabric-1.18.2" = _A81HS4WH;
         "fabric-1.19.2" = _X9z8omoQ;
@@ -370,7 +376,7 @@ let
         "fabric-1.21.11" = _xjcNtDpz;
         "fabric-26.1" = _Bwbd7cbt;
         "fabric-26.1.1" = _opAVDRgv;
-        "fabric-26.1.2" = _d1pG5ro2;
+        "fabric-26.1.2" = _o49YudID;
         "fabric-26.2" = _uHzbBq7l;
         "fabric-26.3" = _AlMIYUhG;
         "forge-1.16.5" = _sxEcvoJc;
@@ -397,7 +403,7 @@ let
         "forge-1.21.11" = _xjcNtDpz;
         "forge-26.1" = _Bwbd7cbt;
         "forge-26.1.1" = _opAVDRgv;
-        "forge-26.1.2" = _d1pG5ro2;
+        "forge-26.1.2" = _o49YudID;
         "forge-26.2" = _uHzbBq7l;
         "forge-26.3" = _AlMIYUhG;
         "quilt-1.18.2" = _A81HS4WH;
@@ -425,7 +431,7 @@ let
         "quilt-1.21.11" = _xjcNtDpz;
         "quilt-26.1" = _Bwbd7cbt;
         "quilt-26.1.1" = _opAVDRgv;
-        "quilt-26.1.2" = _d1pG5ro2;
+        "quilt-26.1.2" = _o49YudID;
         "quilt-26.2" = _uHzbBq7l;
         "quilt-26.3" = _AlMIYUhG;
         "neoforge-1.20.2" = _BOHkt1Fp;
@@ -448,7 +454,7 @@ let
         "neoforge-1.21.11" = _xjcNtDpz;
         "neoforge-26.1" = _Bwbd7cbt;
         "neoforge-26.1.1" = _opAVDRgv;
-        "neoforge-26.1.2" = _d1pG5ro2;
+        "neoforge-26.1.2" = _o49YudID;
         "neoforge-26.2" = _uHzbBq7l;
         "neoforge-26.3" = _AlMIYUhG;
         "pkg-1.16.5-1.8-fabric" = _iFEKNBDD;
@@ -508,7 +514,8 @@ let
         "pkg-1.21.1-3.7-fabric+forge+neo" = _ZX6HBNZz;
         "pkg-26.2.0-3.7-fabric+forge+neo" = _uHzbBq7l;
         "pkg-26.3.0-3.7-fabric+forge+neo" = _AlMIYUhG;
-        "default" = _AlMIYUhG;
+        "pkg-26.1.2-3.7-fabric+forge+neo" = _o49YudID;
+        "default" = _o49YudID;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "paper-books";

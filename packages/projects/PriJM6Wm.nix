@@ -226,6 +226,61 @@ let
             "file" = "opacui-forge-1.21.11-1.0.0.jar";
             "hash" = "sha512-e/HBOPqZMna9dUeiGrgn8w3HALuiWnk4o2F19oAAuSlIa+d7UJ/lSgV+KBC+0NH0pMuu5zJh+j4bkciGoF5Jew==";
         };
+        _poho8CC7 = {
+            "id" = "poho8CC7";
+            "file" = "opacui-forge-1.20.1-1.0.5.jar";
+            "hash" = "sha512-9qrvdQA33leyVTVF/x8UmAdnyzoM3tgmRknABJvVWmrpk5fQbyhZYRFrDWP9XxmSlk5SGBD7DtIKs2BfbBCCGg==";
+        };
+        _1wXLct8r = {
+            "id" = "1wXLct8r";
+            "file" = "opacui-fabric-1.20.1-1.0.5.jar";
+            "hash" = "sha512-CBLpK3qpH81tkq9v/HS2+IvKOPf0cqhQfqkzUY4XDjwPZAIF6axLwuARlETndd6dT8pJqHmLm6Xr275leJczvQ==";
+        };
+        _I9KcJnoD = {
+            "id" = "I9KcJnoD";
+            "file" = "opacui-fabric-26.1.2-1.0.6.jar";
+            "hash" = "sha512-1v8DyVshc7gcQnTBIwhjSS9kMmDZFYoJ65LQsUlqJgGIOEOpwR6jubT0vOGeuDDK60H0jk+2AyYPq/IIv1ekWA==";
+        };
+        _IkbapzpZ = {
+            "id" = "IkbapzpZ";
+            "file" = "opacui-neoforge-26.1.2-1.0.6.jar";
+            "hash" = "sha512-bJddh15QuelQfBqw2r7OoZ//RW9+96BBBMg0kgrmqjzM+xJcWk0tse8/6Z8pU78i+sAH1OCky9Zzj1nfyJhP2w==";
+        };
+        _euca6Oxv = {
+            "id" = "euca6Oxv";
+            "file" = "opacui-forge-26.1.2-1.0.6.jar";
+            "hash" = "sha512-pGMuMpcGDVliT9DEIZy09ZOubDV5ovdZQSVof5k2M9jXbLI2xUZOIxPLhmztP+A5/+0YrlB3yfYOD9ld/6Fe0w==";
+        };
+        _OYYwzgbe = {
+            "id" = "OYYwzgbe";
+            "file" = "opacui-fabric-26.3-1.0.1.jar";
+            "hash" = "sha512-A1agwKUe4JJdappBXDHp5xf69ecTp34v3I+6/BMc+y+hw0wr+2slBICmpDOSxMz8OZpVCn+YtyZuIdLxg9IFZQ==";
+        };
+        _CXZwIBNG = {
+            "id" = "CXZwIBNG";
+            "file" = "opacui-forge-26.3-1.0.1.jar";
+            "hash" = "sha512-B7ylvQQS5jeOkx5hXILjm0kG5PyitSEMwWMUsk8OyvL3KTtyPI4TFFPfWmVAzRnFDcs7Zam/vMAMrjA8MKvEbA==";
+        };
+        _9RtxoTti = {
+            "id" = "9RtxoTti";
+            "file" = "opacui-neoforge-26.3-1.0.1.jar";
+            "hash" = "sha512-6rcg+jbpKCesISX8Y73ZhWydXRl8ey1DmvNXOcs1TFe+fdgGHHV+gFuXdni0chzc0hscIbNJcn/41YW+4SX1Lw==";
+        };
+        _IajRoLG9 = {
+            "id" = "IajRoLG9";
+            "file" = "opacui-fabric-26.2-1.0.2.jar";
+            "hash" = "sha512-ZpXS4JewuGY/PJ8g4F+SWAcK0ofyVKpjO0VACWNGkvHUr1LWgBeCZ/ivT6ZgP4go/pJC5fjIaTxvamM4r3RUxg==";
+        };
+        _p35gxwdN = {
+            "id" = "p35gxwdN";
+            "file" = "opacui-forge-26.2-1.0.2.jar";
+            "hash" = "sha512-kjxLXtxAqjlNxor4LQXAa/EwYrnk4qGh7bi7DxcfWZpfeU6BPNMRfJ26fVAEHvMGzYGGQPdMIrhT1OKE+12oxA==";
+        };
+        _kK8YTQqO = {
+            "id" = "kK8YTQqO";
+            "file" = "opacui-neoforge-26.2-1.0.2.jar";
+            "hash" = "sha512-snIymzI7LQmKDmun+8gY0jVoYh7h/T40U6pl0bp9XmOMk4KX7s6adabMhHaDtnCGSb2JpwsRugUxHmvrKr3Ehw==";
+        };
     in {
         "eE6xEKuO" = _eE6xEKuO;
         "XfKhUecy" = _XfKhUecy;
@@ -272,30 +327,42 @@ let
         "33akNN6Y" = _33akNN6Y;
         "xATkV35i" = _xATkV35i;
         "9MgPPdlc" = _9MgPPdlc;
-        "fabric-1.20.1" = _XVtbSumW;
+        "poho8CC7" = _poho8CC7;
+        "1wXLct8r" = _1wXLct8r;
+        "I9KcJnoD" = _I9KcJnoD;
+        "IkbapzpZ" = _IkbapzpZ;
+        "euca6Oxv" = _euca6Oxv;
+        "OYYwzgbe" = _OYYwzgbe;
+        "CXZwIBNG" = _CXZwIBNG;
+        "9RtxoTti" = _9RtxoTti;
+        "IajRoLG9" = _IajRoLG9;
+        "p35gxwdN" = _p35gxwdN;
+        "kK8YTQqO" = _kK8YTQqO;
+        "fabric-1.20.1" = _1wXLct8r;
         "fabric-1.21.1" = _8MNx547f;
-        "fabric-26.1.2" = _m4FZYdQc;
-        "fabric-26.2" = _uawCTvTp;
-        "fabric-26.3" = _OaIzdBea;
+        "fabric-26.1.2" = _I9KcJnoD;
+        "fabric-26.2" = _IajRoLG9;
+        "fabric-26.3" = _OYYwzgbe;
         "fabric-1.21.11" = _xATkV35i;
-        "forge-1.20.1" = _ER3NTHN6;
+        "forge-1.20.1" = _poho8CC7;
         "forge-1.21.1" = _GAm8RXvK;
-        "forge-26.1.2" = _h0FiAqdZ;
-        "forge-26.2" = _ZRHZ2QfQ;
-        "forge-26.3" = _ouKsjKbP;
+        "forge-26.1.2" = _euca6Oxv;
+        "forge-26.2" = _p35gxwdN;
+        "forge-26.3" = _CXZwIBNG;
         "forge-1.21.11" = _9MgPPdlc;
         "neoforge-1.21.1" = _BOktzPAX;
-        "neoforge-26.1.2" = _edoknTvK;
-        "neoforge-26.2" = _S4h1iuDi;
-        "neoforge-26.3" = _2XIVBuGY;
+        "neoforge-26.1.2" = _IkbapzpZ;
+        "neoforge-26.2" = _kK8YTQqO;
+        "neoforge-26.3" = _9RtxoTti;
         "neoforge-1.21.11" = _33akNN6Y;
         "pkg-1.0.0" = _9MgPPdlc;
-        "pkg-1.0.1" = _ZRHZ2QfQ;
-        "pkg-1.0.2" = _GLOnX53K;
+        "pkg-1.0.1" = _9RtxoTti;
+        "pkg-1.0.2" = _kK8YTQqO;
         "pkg-1.0.3" = _5dPS3JAU;
-        "pkg-1.0.5" = _edoknTvK;
+        "pkg-1.0.5" = _1wXLct8r;
         "pkg-1.0.4" = _BOktzPAX;
-        "default" = _9MgPPdlc;
+        "pkg-1.0.6" = _euca6Oxv;
+        "default" = _kK8YTQqO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "opac-ui";

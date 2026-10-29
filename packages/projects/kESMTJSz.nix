@@ -91,6 +91,11 @@ let
             "file" = "lycanitesmobs-0.1.0-alpha.jar";
             "hash" = "sha512-165WsAAj6hdSBmhCE/6olBNGXUJWVfcOpR8BZIyYnS+ezUxUqr+6j4/kbxVaSLdlDwqCdMJ0boQjOx9hkSEHfA==";
         };
+        _KBI6DZb1 = {
+            "id" = "KBI6DZb1";
+            "file" = "lycanitesmobs-0.1.1-alpha.jar";
+            "hash" = "sha512-Z78afi/1Ha/KHxxjrlRha/PNimI1xv/PSCCfMOOye+YcQ9erocrMhLzwsDqLH67KMkRJxxkQnnNIy4dc7DWsGQ==";
+        };
     in {
         "TMAdACKb" = _TMAdACKb;
         "5MTYgg24" = _5MTYgg24;
@@ -110,7 +115,8 @@ let
         "JpRwWNZ6" = _JpRwWNZ6;
         "oUWL7FX3" = _oUWL7FX3;
         "EQ28YAPK" = _EQ28YAPK;
-        "forge-1.20.1" = _EQ28YAPK;
+        "KBI6DZb1" = _KBI6DZb1;
+        "forge-1.20.1" = _KBI6DZb1;
         "forge-1.16.5" = _5MTYgg24;
         "forge-1.12.2" = _K4pmQow9;
         "forge-1.6.4" = _pj1zmJWQ;
@@ -126,7 +132,7 @@ let
         "forge-1.14.4" = _rYMa6m9C;
         "forge-1.15.1" = _Xrsa8zxn;
         "forge-1.15.2" = _JpRwWNZ6;
-        "neoforge-1.20.1" = _EQ28YAPK;
+        "neoforge-1.20.1" = _KBI6DZb1;
         "pkg-0.0.8-alpha" = _TMAdACKb;
         "pkg-2.3.3.8" = _5MTYgg24;
         "pkg-2.0.8.10" = _K4pmQow9;
@@ -143,7 +149,8 @@ let
         "pkg-2.2.3.2" = _JpRwWNZ6;
         "pkg-0.0.9-alpha" = _oUWL7FX3;
         "pkg-0.1.0-alpha" = _EQ28YAPK;
-        "default" = _EQ28YAPK;
+        "pkg-0.1.1-alpha" = _KBI6DZb1;
+        "default" = _KBI6DZb1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lycanites-mobs";

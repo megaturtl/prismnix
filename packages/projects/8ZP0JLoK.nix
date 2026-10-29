@@ -11,13 +11,26 @@ let
             "file" = "justenoughcobblemon-neoforge-1.1.0.jar";
             "hash" = "sha512-kqAbkddzhLsIYYUprQ8uPNFTKGiTOwyzQ0m3wj3WkJ+qYmveYsjiYPUbVcjTJjeWzbsKMtFAJMuNxrEk9xMHiA==";
         };
+        _cPImtePV = {
+            "id" = "cPImtePV";
+            "file" = "justenoughcobblemon-fabric-1.4.0.jar";
+            "hash" = "sha512-bLT8fDdAskcFPxHSro+zRZZmVFgHpabO11xSasdDwmsaj724z1+1S1HqAJM0pnSjdIOZCCdUh1qlgzVzYgbH6w==";
+        };
+        _fsNNghuB = {
+            "id" = "fsNNghuB";
+            "file" = "justenoughcobblemon-neoforge-1.4.0.jar";
+            "hash" = "sha512-GpnMDnHgk6eJWT8a9lsRVl4iZWciO0Kjro+6QmbNMKe+7mZZM9uxX0kXLzXNMEeIVl5FaD4C5WR6I+snkZnHGA==";
+        };
     in {
         "zQywOEBD" = _zQywOEBD;
         "RLKJNkpk" = _RLKJNkpk;
-        "fabric-1.21.1" = _zQywOEBD;
-        "neoforge-1.21.1" = _RLKJNkpk;
+        "cPImtePV" = _cPImtePV;
+        "fsNNghuB" = _fsNNghuB;
+        "fabric-1.21.1" = _cPImtePV;
+        "neoforge-1.21.1" = _fsNNghuB;
         "pkg-1.1.0" = _RLKJNkpk;
-        "default" = _RLKJNkpk;
+        "pkg-1.4.0" = _fsNNghuB;
+        "default" = _fsNNghuB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "just-enough-cobblemon";

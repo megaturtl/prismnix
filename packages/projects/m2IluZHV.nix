@@ -106,6 +106,11 @@ let
             "file" = "bettervanillaf3-2.0.3+26.1.2.jar";
             "hash" = "sha512-ZAycl68B+qvb8/FZgIIJS9LmUe5wzHx9mviL+N+qBaFaTKmUybRT6C2Uku5yuiYP1ClgK2GZ6KfcmCd3MYrvVw==";
         };
+        _hUGJc3hz = {
+            "id" = "hUGJc3hz";
+            "file" = "bettervanillaf3.jar";
+            "hash" = "sha512-Evbb6qACJ6Ep9JiWOV84/rJyWk1bc4WDj5HJknB5wCFF3urAnNYYIp8xNRSbbIQMxxesbawWmSdSwuFG6zoLQA==";
+        };
     in {
         "WIEymWC7" = _WIEymWC7;
         "A3rqj0w2" = _A3rqj0w2;
@@ -128,6 +133,7 @@ let
         "bGqVVgRR" = _bGqVVgRR;
         "USG6RJzw" = _USG6RJzw;
         "ngmXMaeG" = _ngmXMaeG;
+        "hUGJc3hz" = _hUGJc3hz;
         "fabric-1.21.11" = _USG6RJzw;
         "fabric-1.21.9" = _bGqVVgRR;
         "fabric-1.21.10" = _bGqVVgRR;
@@ -135,6 +141,7 @@ let
         "fabric-26.1.1" = _ngmXMaeG;
         "fabric-26.1.2" = _ngmXMaeG;
         "fabric-26.2" = _zW1fd6a5;
+        "fabric-26.3" = _hUGJc3hz;
         "pkg-1.0.0-mc1.21.11" = _WIEymWC7;
         "pkg-1.0.0-mc1.21.9" = _A3rqj0w2;
         "pkg-1.0.1-mc1.21.11" = _RPXo0uXb;
@@ -145,7 +152,8 @@ let
         "pkg-2.0.1" = _8G6LVptM;
         "pkg-2.0.2" = _zW1fd6a5;
         "pkg-2.0.3" = _ngmXMaeG;
-        "default" = _ngmXMaeG;
+        "pkg-2.0.4+26.3" = _hUGJc3hz;
+        "default" = _hUGJc3hz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bettervanillaf3";

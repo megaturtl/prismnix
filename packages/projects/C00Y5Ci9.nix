@@ -406,6 +406,11 @@ let
             "file" = "beautifiedchatserver-26.3.0-3.3.jar";
             "hash" = "sha512-MVBpLungpX5bGEQ0fUrqVxonWRZTINfUw5rexEMbAUh19kFtiWqlUf6v4LSzCuFzkxCGlCApmMERphR2aXdlsw==";
         };
+        _ezkm7OMQ = {
+            "id" = "ezkm7OMQ";
+            "file" = "beautifiedchatserver-26.1.2-3.3.jar";
+            "hash" = "sha512-02bGsXOxEoRhIbJHKlpxqYBijATn9wfdu2Q6GXphLrMfA1dsgdNshFjWUObXN0xPvoZ6TFOQMu9/3FvMsrCnWA==";
+        };
     in {
         "r3627QzD" = _r3627QzD;
         "6foJAL1A" = _6foJAL1A;
@@ -488,6 +493,7 @@ let
         "wpG84Va5" = _wpG84Va5;
         "il9tzjvP" = _il9tzjvP;
         "cOIwV5Gx" = _cOIwV5Gx;
+        "ezkm7OMQ" = _ezkm7OMQ;
         "fabric-1.16.5" = _SRbkjFBL;
         "fabric-1.18.2" = _RxLmAxhn;
         "fabric-1.19.2" = _DkiNatjd;
@@ -514,7 +520,7 @@ let
         "fabric-1.21.11" = _XwGqfjjM;
         "fabric-26.1" = _qar2ypSN;
         "fabric-26.1.1" = _UdaMK8GE;
-        "fabric-26.1.2" = _8sYMjy6Y;
+        "fabric-26.1.2" = _ezkm7OMQ;
         "fabric-26.2" = _il9tzjvP;
         "fabric-26.3" = _cOIwV5Gx;
         "forge-1.16.5" = _GWvYUbfj;
@@ -541,7 +547,7 @@ let
         "forge-1.21.11" = _XwGqfjjM;
         "forge-26.1" = _qar2ypSN;
         "forge-26.1.1" = _UdaMK8GE;
-        "forge-26.1.2" = _8sYMjy6Y;
+        "forge-26.1.2" = _ezkm7OMQ;
         "forge-26.2" = _il9tzjvP;
         "forge-26.3" = _cOIwV5Gx;
         "quilt-1.18.2" = _RxLmAxhn;
@@ -569,7 +575,7 @@ let
         "quilt-1.21.11" = _XwGqfjjM;
         "quilt-26.1" = _qar2ypSN;
         "quilt-26.1.1" = _UdaMK8GE;
-        "quilt-26.1.2" = _8sYMjy6Y;
+        "quilt-26.1.2" = _ezkm7OMQ;
         "quilt-26.2" = _il9tzjvP;
         "quilt-26.3" = _cOIwV5Gx;
         "neoforge-1.20.2" = _Er3S1lAY;
@@ -592,7 +598,7 @@ let
         "neoforge-1.21.11" = _XwGqfjjM;
         "neoforge-26.1" = _qar2ypSN;
         "neoforge-26.1.1" = _UdaMK8GE;
-        "neoforge-26.1.2" = _8sYMjy6Y;
+        "neoforge-26.1.2" = _ezkm7OMQ;
         "neoforge-26.2" = _il9tzjvP;
         "neoforge-26.3" = _cOIwV5Gx;
         "pkg-1.16.5-1.4-fabric" = _r3627QzD;
@@ -676,7 +682,8 @@ let
         "pkg-1.21.1-3.3-fabric+forge+neo" = _wpG84Va5;
         "pkg-26.2.0-3.3-fabric+forge+neo" = _il9tzjvP;
         "pkg-26.3.0-3.3-fabric+forge+neo" = _cOIwV5Gx;
-        "default" = _cOIwV5Gx;
+        "pkg-26.1.2-3.3-fabric+forge+neo" = _ezkm7OMQ;
+        "default" = _ezkm7OMQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "beautified-chat-server";

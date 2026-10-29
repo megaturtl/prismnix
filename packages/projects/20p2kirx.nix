@@ -131,6 +131,16 @@ let
             "file" = "cornexpansion-fabric-1.2.5.jar";
             "hash" = "sha512-QWLlCGZd7WwMbNamIWX3zSG6RsM4XDvamkAnuDMVsHLNq0X5EJxciYt6K9A2PyZcR3uvzMN/QMbG+UnN/QvpdQ==";
         };
+        _9ObSSBGu = {
+            "id" = "9ObSSBGu";
+            "file" = "cornexpansion-neoforge-1.3.0.jar";
+            "hash" = "sha512-IuZTiAjh9FuP1wvjkZpPotS5ntvAETclk570RnkqQQ8bbbSXyHig36mruE9bQFkPU49J2qf5WIvjwansCh+C5Q==";
+        };
+        _mUpRErhJ = {
+            "id" = "mUpRErhJ";
+            "file" = "cornexpansion-fabric-1.3.0.jar";
+            "hash" = "sha512-BWFqv1tmOImcvC0+juNXUB/aLc6R89eH+UH5BB96UA15CoFM+LD29p9EMic27HcdyVL2S8a8syUA4hT24fC/Ig==";
+        };
     in {
         "Bcs6Rw6A" = _Bcs6Rw6A;
         "lNKhgA7b" = _lNKhgA7b;
@@ -158,15 +168,17 @@ let
         "bjXfpSCg" = _bjXfpSCg;
         "yZuVsxNj" = _yZuVsxNj;
         "jgXsSDEG" = _jgXsSDEG;
+        "9ObSSBGu" = _9ObSSBGu;
+        "mUpRErhJ" = _mUpRErhJ;
         "forge-1.20.1" = _1YG0DxzU;
         "neoforge-1.20.1" = _1YG0DxzU;
-        "neoforge-1.21.1" = _yZuVsxNj;
+        "neoforge-1.21.1" = _9ObSSBGu;
         "fabric-1.20.1" = _DFsAhn6J;
         "fabric-1.21" = _4YFIf5BK;
-        "fabric-1.21.1" = _jgXsSDEG;
+        "fabric-1.21.1" = _mUpRErhJ;
         "quilt-1.20.1" = _DFsAhn6J;
         "quilt-1.21" = _4YFIf5BK;
-        "quilt-1.21.1" = _jgXsSDEG;
+        "quilt-1.21.1" = _mUpRErhJ;
         "pkg-1.0.0-forge" = _Bcs6Rw6A;
         "pkg-1.0.0-fabric" = _lNKhgA7b;
         "pkg-1.0.1-forge" = _aiLHEHR0;
@@ -193,7 +205,9 @@ let
         "pkg-1.2.4-fabric" = _bjXfpSCg;
         "pkg-1.2.5-neoforge" = _yZuVsxNj;
         "pkg-1.2.5-fabric" = _jgXsSDEG;
-        "default" = _jgXsSDEG;
+        "pkg-1.3.0-neoforge" = _9ObSSBGu;
+        "pkg-1.3.0-fabric" = _mUpRErhJ;
+        "default" = _mUpRErhJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lets-do-addon-corn-expansion";

@@ -441,6 +441,11 @@ let
             "file" = "Unbound Visual + PT v10.1.zip";
             "hash" = "sha512-WhhXJXQaNkiDlkFAb3GeV09AaaJbuxR+hQZVPAdz5GE+2HOXpo4ulH8nQY4GIEHaNoHfinTnYLIYydReO+0PGw==";
         };
+        _RrDoPMb6 = {
+            "id" = "RrDoPMb6";
+            "file" = "Unbound Visual + v10.2.zip";
+            "hash" = "sha512-HNpyhHFDQ0mTgDBByt+9ivYmKX1PB1lB/ELP5iRkmwHjOLRoY24IZ28/pqPqZ0nTLtD3/fHLjlHRlzgYxaiO+g==";
+        };
     in {
         "tDW59yVc" = _tDW59yVc;
         "TAyK1NwS" = _TAyK1NwS;
@@ -530,22 +535,24 @@ let
         "OBxmmtmA" = _OBxmmtmA;
         "kePv1hoY" = _kePv1hoY;
         "9we0R8Dq" = _9we0R8Dq;
+        "RrDoPMb6" = _RrDoPMb6;
         "iris-1.21" = _TwDbtWcI;
         "iris-1.21.1" = _rBTt9cfd;
         "iris-1.21.2" = _TwDbtWcI;
         "iris-1.21.3" = _OiQvOXmF;
         "iris-1.21.4" = _9we0R8Dq;
         "iris-1.21.5" = _9we0R8Dq;
-        "iris-1.21.6" = _9we0R8Dq;
-        "iris-1.21.7" = _9we0R8Dq;
-        "iris-1.21.8" = _9we0R8Dq;
-        "iris-1.21.9" = _9we0R8Dq;
-        "iris-1.21.10" = _9we0R8Dq;
-        "iris-1.21.11" = _9we0R8Dq;
-        "iris-26.1" = _9we0R8Dq;
-        "iris-26.1.1" = _9we0R8Dq;
-        "iris-26.1.2" = _9we0R8Dq;
-        "iris-26.2" = _9we0R8Dq;
+        "iris-1.21.6" = _RrDoPMb6;
+        "iris-1.21.7" = _RrDoPMb6;
+        "iris-1.21.8" = _RrDoPMb6;
+        "iris-1.21.9" = _RrDoPMb6;
+        "iris-1.21.10" = _RrDoPMb6;
+        "iris-1.21.11" = _RrDoPMb6;
+        "iris-26.1" = _RrDoPMb6;
+        "iris-26.1.1" = _RrDoPMb6;
+        "iris-26.1.2" = _RrDoPMb6;
+        "iris-26.2" = _RrDoPMb6;
+        "iris-26.3" = _RrDoPMb6;
         "pkg-Unbound-Visual-+" = _9SVzdgwh;
         "pkg-1.5" = _IqRrH1ly;
         "pkg-1.6" = _VjJH8HoR;
@@ -628,7 +635,8 @@ let
         "pkg-PT-v9.9" = _OBxmmtmA;
         "pkg-PT-v10.0" = _kePv1hoY;
         "pkg-PT-v10.1" = _9we0R8Dq;
-        "default" = _9we0R8Dq;
+        "pkg-unbound-visual+-v10.2" = _RrDoPMb6;
+        "default" = _RrDoPMb6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "unbound-visual-+";

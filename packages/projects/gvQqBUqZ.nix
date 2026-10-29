@@ -901,6 +901,16 @@ let
             "file" = "lithium-neoforge-0.26.2+mc26.3.jar";
             "hash" = "sha512-r1eTJ6+6A/rIVbClXBzSUjZIPS0qIvdobrewRqGoFFEcqhx2fcWWf2nOktzVmA6FNABHtbcyq3uhkPCTeIwg2w==";
         };
+        _fWv5bnZk = {
+            "id" = "fWv5bnZk";
+            "file" = "lithium-fabric-0.26.3+mc26.3.jar";
+            "hash" = "sha512-LKkvtTATXSut3wukzE+Tl2I0h2o4xKoCtIeyVSQA8AWvz77r9Tc/tDlv4gIFN6QtdZe42lpSuQQ1XvUdX+8HrQ==";
+        };
+        _2BP6jqRA = {
+            "id" = "2BP6jqRA";
+            "file" = "lithium-neoforge-0.26.3+mc26.3.jar";
+            "hash" = "sha512-DxhNdrVKPd6ruy1mSFkmD7Qs/bIF2prkJhYwzWsfB1HEET84Ujxv+bSWtbDXZqMcQcfjB86EExaWdS2ujbnpvQ==";
+        };
     in {
         "EhG1mQzx" = _EhG1mQzx;
         "5fmGl08Y" = _5fmGl08Y;
@@ -1082,6 +1092,8 @@ let
         "WXHRsMRl" = _WXHRsMRl;
         "xS0Q8LSi" = _xS0Q8LSi;
         "1rb9wI5K" = _1rb9wI5K;
+        "fWv5bnZk" = _fWv5bnZk;
+        "2BP6jqRA" = _2BP6jqRA;
         "fabric-1.16.4" = _rvsW1zhb;
         "fabric-1.16.2" = _rvsW1zhb;
         "fabric-1.16.3" = _rvsW1zhb;
@@ -1119,7 +1131,7 @@ let
         "fabric-26.1.1" = _Oqq8TOAV;
         "fabric-26.1.2" = _Oqq8TOAV;
         "fabric-26.2" = _f7vZ0VWU;
-        "fabric-26.3" = _xS0Q8LSi;
+        "fabric-26.3" = _fWv5bnZk;
         "quilt-1.20.2" = _qdzL5Hkg;
         "quilt-1.20.3" = _WzQmxYRa;
         "quilt-1.20.4" = _nMhjKWVE;
@@ -1142,7 +1154,7 @@ let
         "quilt-26.1.1" = _Oqq8TOAV;
         "quilt-26.1.2" = _Oqq8TOAV;
         "quilt-26.2" = _f7vZ0VWU;
-        "quilt-26.3" = _xS0Q8LSi;
+        "quilt-26.3" = _fWv5bnZk;
         "neoforge-1.21.1" = _DDUrRVCA;
         "neoforge-1.21.2" = _M43775k8;
         "neoforge-1.21.3" = _M43775k8;
@@ -1159,7 +1171,7 @@ let
         "neoforge-26.1.1" = _eZ0KJiEA;
         "neoforge-26.1.2" = _eZ0KJiEA;
         "neoforge-26.2" = _J9CowDXK;
-        "neoforge-26.3" = _1rb9wI5K;
+        "neoforge-26.3" = _2BP6jqRA;
         "pkg-mc1.16.4-0.6.0" = _EhG1mQzx;
         "pkg-mc1.16.5-0.6.1" = _5fmGl08Y;
         "pkg-mc1.16.5-0.6.3" = _ouTdXXWj;
@@ -1340,7 +1352,9 @@ let
         "pkg-mc26.3-0.26.1-fabric" = _WXHRsMRl;
         "pkg-mc26.3-0.26.2-fabric" = _xS0Q8LSi;
         "pkg-mc26.3-0.26.2-neoforge" = _1rb9wI5K;
-        "default" = _1rb9wI5K;
+        "pkg-mc26.3-0.26.3-fabric" = _fWv5bnZk;
+        "pkg-mc26.3-0.26.3-neoforge" = _2BP6jqRA;
+        "default" = _2BP6jqRA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lithium";

@@ -356,6 +356,11 @@ let
             "file" = "automaticdoors-26.3.0-5.1.jar";
             "hash" = "sha512-gGsB4qroyWU3JgFz7xTg9yejkO/qFDlRVIf7BsfusZlexRrMjffVkne9LKw8JKmjHa/LmT+quEEVA75/Fha7Cw==";
         };
+        _E3WVyB5R = {
+            "id" = "E3WVyB5R";
+            "file" = "automaticdoors-26.1.2-5.1.jar";
+            "hash" = "sha512-Q/qnaOXLFfqwAbd4gSFnhBni5qPiYYuOSJeXQhI9v1fu6bDcu8vQ0Uqm1jXnjdCJwBmJz9F7W2GhMvl5nnvPrg==";
+        };
     in {
         "b6b20uEe" = _b6b20uEe;
         "lQY3hbcc" = _lQY3hbcc;
@@ -428,6 +433,7 @@ let
         "NPgbhhuC" = _NPgbhhuC;
         "lINIfiJW" = _lINIfiJW;
         "oBjgVUrd" = _oBjgVUrd;
+        "E3WVyB5R" = _E3WVyB5R;
         "fabric-1.16.5" = _vKlyto2l;
         "fabric-1.18.2" = _YsmUruO6;
         "fabric-1.19.2" = _WSJAmfTG;
@@ -454,7 +460,7 @@ let
         "fabric-1.21.11" = _TTAqz5tF;
         "fabric-26.1" = _ld0bStrQ;
         "fabric-26.1.1" = _KiDsAYvG;
-        "fabric-26.1.2" = _Gx2Ozu0W;
+        "fabric-26.1.2" = _E3WVyB5R;
         "fabric-26.2" = _lINIfiJW;
         "fabric-26.3" = _oBjgVUrd;
         "forge-1.16.5" = _9D06KEyT;
@@ -481,7 +487,7 @@ let
         "forge-1.21.11" = _TTAqz5tF;
         "forge-26.1" = _ld0bStrQ;
         "forge-26.1.1" = _KiDsAYvG;
-        "forge-26.1.2" = _Gx2Ozu0W;
+        "forge-26.1.2" = _E3WVyB5R;
         "forge-26.2" = _lINIfiJW;
         "forge-26.3" = _oBjgVUrd;
         "quilt-1.18.2" = _YsmUruO6;
@@ -509,7 +515,7 @@ let
         "quilt-1.21.11" = _TTAqz5tF;
         "quilt-26.1" = _ld0bStrQ;
         "quilt-26.1.1" = _KiDsAYvG;
-        "quilt-26.1.2" = _Gx2Ozu0W;
+        "quilt-26.1.2" = _E3WVyB5R;
         "quilt-26.2" = _lINIfiJW;
         "quilt-26.3" = _oBjgVUrd;
         "neoforge-1.20.2" = _cc5WwowA;
@@ -532,7 +538,7 @@ let
         "neoforge-1.21.11" = _TTAqz5tF;
         "neoforge-26.1" = _ld0bStrQ;
         "neoforge-26.1.1" = _KiDsAYvG;
-        "neoforge-26.1.2" = _Gx2Ozu0W;
+        "neoforge-26.1.2" = _E3WVyB5R;
         "neoforge-26.2" = _lINIfiJW;
         "neoforge-26.3" = _oBjgVUrd;
         "pkg-1.16.5-2.7-fabric" = _b6b20uEe;
@@ -606,7 +612,8 @@ let
         "pkg-1.21.1-5.1-fabric+forge+neo" = _NPgbhhuC;
         "pkg-26.2.0-5.1-fabric+forge+neo" = _lINIfiJW;
         "pkg-26.3.0-5.1-fabric+forge+neo" = _oBjgVUrd;
-        "default" = _oBjgVUrd;
+        "pkg-26.1.2-5.1-fabric+forge+neo" = _E3WVyB5R;
+        "default" = _E3WVyB5R;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "automatic-doors";

@@ -91,6 +91,26 @@ let
             "file" = "doomsmarkers-forge-1.20.1-1.4.0.jar";
             "hash" = "sha512-gnvlbNj8NhcOTwMkNBp6mOPk4WQ3hsjLpavxEZttZw+xXH4OMiLoOCDVYZjHfbM/UJ+GsX8qfZxco1J0tD8hMg==";
         };
+        _4NWDQdBx = {
+            "id" = "4NWDQdBx";
+            "file" = "doomsmarkers-fabric-1.20.1-1.4.1.jar";
+            "hash" = "sha512-WlJxVuyfYYqnrFcikLAMZLsrbumulD74B/RoQ7fqp+uOHgpZMOOras3YRL8qvfYeUQhHMHgJmqh0dOzLMSxCTA==";
+        };
+        _NWJ56nJ7 = {
+            "id" = "NWJ56nJ7";
+            "file" = "doomsmarkers-forge-1.20.1-1.4.1.jar";
+            "hash" = "sha512-JfDaDRfIT12uQfvR6C2n3433v9saftCFqVUTBjHDaLsTHt3zoGoz6CNTN/znMPhklFzRdFCRemPIn76dGK+pkA==";
+        };
+        _tB3iCePn = {
+            "id" = "tB3iCePn";
+            "file" = "doomsmarkers-fabric-1.20.1-1.4.2.jar";
+            "hash" = "sha512-Zp822OEmKKfcfG4Sb+mL6WMcU02ZUUsCHyGF6zAC8d80hNN1thsBujSzH8wSAVW4P76DsqNOFUdEfexaKmxfaQ==";
+        };
+        _XNbaikJO = {
+            "id" = "XNbaikJO";
+            "file" = "doomsmarkers-forge-1.20.1-1.4.2.jar";
+            "hash" = "sha512-rqggT4g6ZBxM8SJSnfMbppu4mpRM3A7CsiEeV4NZaJs072rxmihg2V6TGwyyRJX7ncgc/Xzsj3Uf7c1JxmZmtg==";
+        };
     in {
         "iPGQZONN" = _iPGQZONN;
         "pV7vQP82" = _pV7vQP82;
@@ -110,8 +130,12 @@ let
         "i41tKF44" = _i41tKF44;
         "jPFqfEDS" = _jPFqfEDS;
         "fY1G0m2I" = _fY1G0m2I;
-        "fabric-1.20.1" = _jPFqfEDS;
-        "forge-1.20.1" = _fY1G0m2I;
+        "4NWDQdBx" = _4NWDQdBx;
+        "NWJ56nJ7" = _NWJ56nJ7;
+        "tB3iCePn" = _tB3iCePn;
+        "XNbaikJO" = _XNbaikJO;
+        "fabric-1.20.1" = _tB3iCePn;
+        "forge-1.20.1" = _XNbaikJO;
         "pkg-1.0.0" = _pV7vQP82;
         "pkg-1.0.1" = _PN6ljkcF;
         "pkg-1.0.2" = _NNGSqt8L;
@@ -121,7 +145,9 @@ let
         "pkg-1.3.1" = _Qg7zU17Y;
         "pkg-1.3.2" = _i41tKF44;
         "pkg-1.4.0" = _fY1G0m2I;
-        "default" = _fY1G0m2I;
+        "pkg-1.4.1" = _NWJ56nJ7;
+        "pkg-1.4.2" = _XNbaikJO;
+        "default" = _XNbaikJO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dooms-markers";

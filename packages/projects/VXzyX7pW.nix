@@ -131,6 +131,11 @@ let
             "file" = "no_attack_cooldown_damage_delay 26.3 V9.jar";
             "hash" = "sha512-0MroalgDyrjJOEGfQJjhHC9481F10wEhoE69FpzHK63eUeaYeG+MZJdie7EE63A2RKZ2ceY2k3qOgW3q+ji8yA==";
         };
+        _hO6cZwYx = {
+            "id" = "hO6cZwYx";
+            "file" = "no_attack_cooldown_damage_delay 26.3 V9.1.jar";
+            "hash" = "sha512-d6pHjhAZsVkfoyJ64qNkzw4YHG41Yicgi13N2cOCADzr2gOCtAcSm8wZWZhSA46/KfAARQ52+7279UbOvSACeQ==";
+        };
     in {
         "M0ZXB05k" = _M0ZXB05k;
         "CtUxDfjP" = _CtUxDfjP;
@@ -158,6 +163,7 @@ let
         "Q4ieQMQv" = _Q4ieQMQv;
         "7KrWZE0w" = _7KrWZE0w;
         "2HT8oeKC" = _2HT8oeKC;
+        "hO6cZwYx" = _hO6cZwYx;
         "neoforge-1.20.2" = _1BrMlPj5;
         "neoforge-1.20.3" = _1BrMlPj5;
         "neoforge-1.20.4" = _1BrMlPj5;
@@ -179,12 +185,13 @@ let
         "neoforge-26.1.1" = _Q4ieQMQv;
         "neoforge-26.1.2" = _Q4ieQMQv;
         "neoforge-26.2" = _7KrWZE0w;
-        "neoforge-26.3" = _2HT8oeKC;
+        "neoforge-26.3" = _hO6cZwYx;
         "pkg-6" = _QzT8PVn5;
         "pkg-7" = _nUw2AYJv;
         "pkg-8" = _qGg48jiV;
         "pkg-9" = _2HT8oeKC;
-        "default" = _2HT8oeKC;
+        "pkg-9.1" = _hO6cZwYx;
+        "default" = _hO6cZwYx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "no-attack-cooldown-damage-delay";

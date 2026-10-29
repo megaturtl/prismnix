@@ -386,6 +386,11 @@ let
             "file" = "hiddenrecipebook-26.3.0-5.3.jar";
             "hash" = "sha512-36S8o/3/58r/hDO5G9OUCfNqS2IvWPjWz7Y3gzq1kDVwVO1DGrDc90VxIt0tT1qj1NdOvEVEnO8Q+ixOV8dvrg==";
         };
+        _CIuskgFY = {
+            "id" = "CIuskgFY";
+            "file" = "hiddenrecipebook-26.1.2-5.3.jar";
+            "hash" = "sha512-m2iWooC6vy6JJYG89IpSWfhCBgZS4BzZRPk8E5gQVTx9wfe32NhnotCpoZgME3cs1l2EWztIdnWG9t8l4FRXAA==";
+        };
     in {
         "nuBDWkqI" = _nuBDWkqI;
         "yjUXlxI4" = _yjUXlxI4;
@@ -464,6 +469,7 @@ let
         "B9CJ4WlM" = _B9CJ4WlM;
         "Cx2lFOgU" = _Cx2lFOgU;
         "m5x2Sec5" = _m5x2Sec5;
+        "CIuskgFY" = _CIuskgFY;
         "forge-1.16.5" = _6R68p8WS;
         "forge-1.18.2" = _aWrkTeF2;
         "forge-1.19.2" = _xfW7M3DG;
@@ -488,7 +494,7 @@ let
         "forge-1.21.11" = _flt80Pfh;
         "forge-26.1" = _kSpnq3al;
         "forge-26.1.1" = _iFZ7FXm2;
-        "forge-26.1.2" = _gMyyNeJg;
+        "forge-26.1.2" = _CIuskgFY;
         "forge-26.2" = _Cx2lFOgU;
         "forge-26.3" = _m5x2Sec5;
         "fabric-1.18.2" = _aWrkTeF2;
@@ -516,7 +522,7 @@ let
         "fabric-1.21.11" = _flt80Pfh;
         "fabric-26.1" = _kSpnq3al;
         "fabric-26.1.1" = _iFZ7FXm2;
-        "fabric-26.1.2" = _gMyyNeJg;
+        "fabric-26.1.2" = _CIuskgFY;
         "fabric-26.2" = _Cx2lFOgU;
         "fabric-26.3" = _m5x2Sec5;
         "quilt-1.18.2" = _aWrkTeF2;
@@ -544,7 +550,7 @@ let
         "quilt-1.21.11" = _flt80Pfh;
         "quilt-26.1" = _kSpnq3al;
         "quilt-26.1.1" = _iFZ7FXm2;
-        "quilt-26.1.2" = _gMyyNeJg;
+        "quilt-26.1.2" = _CIuskgFY;
         "quilt-26.2" = _Cx2lFOgU;
         "quilt-26.3" = _m5x2Sec5;
         "neoforge-1.20.2" = _JiAAfug0;
@@ -567,7 +573,7 @@ let
         "neoforge-1.21.11" = _flt80Pfh;
         "neoforge-26.1" = _kSpnq3al;
         "neoforge-26.1.1" = _iFZ7FXm2;
-        "neoforge-26.1.2" = _gMyyNeJg;
+        "neoforge-26.1.2" = _CIuskgFY;
         "neoforge-26.2" = _Cx2lFOgU;
         "neoforge-26.3" = _m5x2Sec5;
         "pkg-1.16.5-2.3-forge" = _nuBDWkqI;
@@ -647,7 +653,8 @@ let
         "pkg-1.21.1-5.3-fabric+forge+neo" = _B9CJ4WlM;
         "pkg-26.2.0-5.3-fabric+forge+neo" = _Cx2lFOgU;
         "pkg-26.3.0-5.3-fabric+forge+neo" = _m5x2Sec5;
-        "default" = _m5x2Sec5;
+        "pkg-26.1.2-5.3-fabric+forge+neo" = _CIuskgFY;
+        "default" = _CIuskgFY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hidden-recipe-book";

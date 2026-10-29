@@ -31,6 +31,11 @@ let
             "file" = "NGFD-1.16.5-1.0.0.jar";
             "hash" = "sha512-U/SINDj82G3CqQRRhisLRIqcHViqEdtcf4SqQ0J2QxsCLk4sYBj/BPH1OWtsXC6CLaakN/tguTTlLR+2tFiRBw==";
         };
+        _I1nflUG6 = {
+            "id" = "I1nflUG6";
+            "file" = "NGFD-1.20.1-1.0.3.jar";
+            "hash" = "sha512-p7NKeot2ZVEcFlJ/nNbul49GJaXj0fPTX1A/jp0vsYd5t+i/E11+rKDyjITfg96ZtSpdYK9ZAUcu5p+KC/GUFA==";
+        };
     in {
         "AVkiSTzy" = _AVkiSTzy;
         "bvqZrO7m" = _bvqZrO7m;
@@ -38,7 +43,8 @@ let
         "EmbBFjLJ" = _EmbBFjLJ;
         "qZZFHJsb" = _qZZFHJsb;
         "Aw9FxAlj" = _Aw9FxAlj;
-        "forge-1.20.1" = _3y24LewM;
+        "I1nflUG6" = _I1nflUG6;
+        "forge-1.20.1" = _I1nflUG6;
         "forge-1.20.2" = _3y24LewM;
         "forge-1.20.3" = _3y24LewM;
         "forge-1.20.4" = _3y24LewM;
@@ -51,7 +57,8 @@ let
         "pkg-1.0.1" = _bvqZrO7m;
         "pkg-1.0.2" = _3y24LewM;
         "pkg-1.0" = _Aw9FxAlj;
-        "default" = _Aw9FxAlj;
+        "pkg-1.0.3" = _I1nflUG6;
+        "default" = _I1nflUG6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "no-gui-fd";

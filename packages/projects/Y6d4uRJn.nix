@@ -291,6 +291,11 @@ let
             "file" = "grassseeds-26.3.0-3.5.jar";
             "hash" = "sha512-8/c50oLmKKT0Va6bqlU1rNRT7IwuG19yIky3FmTL0HApat+gk5VrRDKlqvE1KR0/mOsj5r1ho6K5lqBkRlqwTw==";
         };
+        _gN18ZQC7 = {
+            "id" = "gN18ZQC7";
+            "file" = "grassseeds-26.1.2-3.5.jar";
+            "hash" = "sha512-hk4HLBdMHIfpPvbWw7nwHvv3tmqL3GZvtbS2aMeMYsmii9wuVGGwnPB5lcIDNnJEFladOjmiDZT5uzf3pDhuHA==";
+        };
     in {
         "yJeKxhkG" = _yJeKxhkG;
         "sS4zfzCW" = _sS4zfzCW;
@@ -350,6 +355,7 @@ let
         "GYiz9oHY" = _GYiz9oHY;
         "ZY76N7bu" = _ZY76N7bu;
         "Iyr2sbHo" = _Iyr2sbHo;
+        "gN18ZQC7" = _gN18ZQC7;
         "fabric-1.16.5" = _5ld8jmaM;
         "fabric-1.18.2" = _R54LrJnx;
         "fabric-1.19.2" = _dXF3Kd3W;
@@ -376,7 +382,7 @@ let
         "fabric-1.21.11" = _aJ6mECUH;
         "fabric-26.1" = _wuBy8NBn;
         "fabric-26.1.1" = _r39jHI2F;
-        "fabric-26.1.2" = _dPSJVYq2;
+        "fabric-26.1.2" = _gN18ZQC7;
         "fabric-26.2" = _ZY76N7bu;
         "fabric-26.3" = _Iyr2sbHo;
         "forge-1.16.5" = _1oF9FKA5;
@@ -403,7 +409,7 @@ let
         "forge-1.21.11" = _aJ6mECUH;
         "forge-26.1" = _wuBy8NBn;
         "forge-26.1.1" = _r39jHI2F;
-        "forge-26.1.2" = _dPSJVYq2;
+        "forge-26.1.2" = _gN18ZQC7;
         "forge-26.2" = _ZY76N7bu;
         "forge-26.3" = _Iyr2sbHo;
         "quilt-1.18.2" = _R54LrJnx;
@@ -431,7 +437,7 @@ let
         "quilt-1.21.11" = _aJ6mECUH;
         "quilt-26.1" = _wuBy8NBn;
         "quilt-26.1.1" = _r39jHI2F;
-        "quilt-26.1.2" = _dPSJVYq2;
+        "quilt-26.1.2" = _gN18ZQC7;
         "quilt-26.2" = _ZY76N7bu;
         "quilt-26.3" = _Iyr2sbHo;
         "neoforge-1.20.2" = _nxSTk0Ny;
@@ -454,7 +460,7 @@ let
         "neoforge-1.21.11" = _aJ6mECUH;
         "neoforge-26.1" = _wuBy8NBn;
         "neoforge-26.1.1" = _r39jHI2F;
-        "neoforge-26.1.2" = _dPSJVYq2;
+        "neoforge-26.1.2" = _gN18ZQC7;
         "neoforge-26.2" = _ZY76N7bu;
         "neoforge-26.3" = _Iyr2sbHo;
         "pkg-1.16.5-2.2-fabric" = _yJeKxhkG;
@@ -514,7 +520,8 @@ let
         "pkg-1.21.1-3.5-fabric+forge+neo" = _GYiz9oHY;
         "pkg-26.2.0-3.5-fabric+forge+neo" = _ZY76N7bu;
         "pkg-26.3.0-3.5-fabric+forge+neo" = _Iyr2sbHo;
-        "default" = _Iyr2sbHo;
+        "pkg-26.1.2-3.5-fabric+forge+neo" = _gN18ZQC7;
+        "default" = _gN18ZQC7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "grass-seeds";

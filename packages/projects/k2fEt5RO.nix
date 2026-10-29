@@ -426,6 +426,11 @@ let
             "file" = "halo-26.3-neoforge-2.5.1+adapter.1.jar";
             "hash" = "sha512-/KpPCVLi7qwm669LoabrhIPso50zDQBw7xENS3absdmCVhjM/TGdTwFlptxM4KayD1VAYUMs2rJqAsxr7doBww==";
         };
+        _ZAIzNsyS = {
+            "id" = "ZAIzNsyS";
+            "file" = "halo-1.21.1-fabric-2.6.0+adapter.1.jar";
+            "hash" = "sha512-qFAN8zr1e6r6ITMKQUFRaO/ncfg6lqT4mz7DmxneK2w3vBQlCjwFzKk+xfoCxg/6fpQCRbNPi1tDUDggg8uAvA==";
+        };
     in {
         "70Kxw2Ft" = _70Kxw2Ft;
         "iXy5lHua" = _iXy5lHua;
@@ -512,12 +517,13 @@ let
         "SK3mGNSf" = _SK3mGNSf;
         "yIcggxCU" = _yIcggxCU;
         "ZDhsimL9" = _ZDhsimL9;
+        "ZAIzNsyS" = _ZAIzNsyS;
         "fabric-1.20.1" = _8x9YEfHt;
         "fabric-1.20.2" = _WvhcVEhg;
         "fabric-1.20.3" = _WvhcVEhg;
         "fabric-1.20.4" = _WvhcVEhg;
         "fabric-1.20" = _WvhcVEhg;
-        "fabric-1.21.1" = _ZSqg4GYo;
+        "fabric-1.21.1" = _ZAIzNsyS;
         "fabric-26.1" = _BV6ezc65;
         "fabric-26.1.1" = _BV6ezc65;
         "fabric-26.1.2" = _BV6ezc65;
@@ -571,7 +577,8 @@ let
         "pkg-v2.5.1-neoforge-26.2-adapter.1" = _SK3mGNSf;
         "pkg-v2.5.1-fabric-26.3-adapter.1" = _yIcggxCU;
         "pkg-v2.5.1-neoforge-26.3-adapter.1" = _ZDhsimL9;
-        "default" = _ZDhsimL9;
+        "pkg-v2.6.0-fabric-1.21.1-adapter.1" = _ZAIzNsyS;
+        "default" = _ZAIzNsyS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "halo-azusake";

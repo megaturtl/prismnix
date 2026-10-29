@@ -51,6 +51,16 @@ let
             "file" = "create_connected-1.3.3+fly-mc26.1.jar";
             "hash" = "sha512-nQ0ha0LGjMpW0JONYfqSbYQkHfchCTRIzsioiGj2XNk+acXCiLWZGZ3L4jD6XDXuWe5kkwiO4flW596Upqf4Hw==";
         };
+        _NN2GYITi = {
+            "id" = "NN2GYITi";
+            "file" = "create_connected-1.3.3.2+fly-mc26.2.jar";
+            "hash" = "sha512-vvC/2LT9zfv1lLjEK7l66r4KDtQUepa/AvYmltiCq2FBvfvaTXPq0RN3mxeeMsvfqQsXsDemKZzk63+Wyd+gSw==";
+        };
+        _tZgWaMo5 = {
+            "id" = "tZgWaMo5";
+            "file" = "create_connected-1.3.3.1+fly-mc26.1.jar";
+            "hash" = "sha512-VbYLOTLtQelep0mgFmRjR3wY4G2PKxKwx2y1/Vky3Au+HhnFaT1h0iBOADfYVwoe1gpY2WJuaUZnHRvqK6pYGw==";
+        };
     in {
         "lSxBveV6" = _lSxBveV6;
         "b3K8ZmOo" = _b3K8ZmOo;
@@ -62,10 +72,12 @@ let
         "tnwzkIbk" = _tnwzkIbk;
         "TkfHWs1X" = _TkfHWs1X;
         "bLZi6Dci" = _bLZi6Dci;
-        "fabric-26.2" = _TkfHWs1X;
-        "fabric-26.1.2" = _bLZi6Dci;
-        "fabric-26.1" = _bLZi6Dci;
-        "fabric-26.1.1" = _bLZi6Dci;
+        "NN2GYITi" = _NN2GYITi;
+        "tZgWaMo5" = _tZgWaMo5;
+        "fabric-26.2" = _NN2GYITi;
+        "fabric-26.1.2" = _tZgWaMo5;
+        "fabric-26.1" = _tZgWaMo5;
+        "fabric-26.1.1" = _tZgWaMo5;
         "pkg-1.3.2-fly.26.2-beta.5" = _lSxBveV6;
         "pkg-1.3.2-fly.26.2-beta.6" = _b3K8ZmOo;
         "pkg-1.3.2-fly.26.2-beta.7" = _7HG5WrgB;
@@ -76,7 +88,9 @@ let
         "pkg-1.3.2-fly.26.2-beta.12" = _tnwzkIbk;
         "pkg-1.3.3+fly-mc26.2" = _TkfHWs1X;
         "pkg-1.3.3+fly-mc26.1" = _bLZi6Dci;
-        "default" = _bLZi6Dci;
+        "pkg-1.3.3.2+fly-mc26.2" = _NN2GYITi;
+        "pkg-1.3.3.1+fly-mc26.1" = _tZgWaMo5;
+        "default" = _tZgWaMo5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-fly-connected-unofficial-port";

@@ -36,6 +36,11 @@ let
             "file" = "infintrix-2.2.jar";
             "hash" = "sha512-my25Knuc8iqwMB0T3fH+n1k3a9wCr7390aXoYnFc/N68I0OfU+d+WNMVUoA5nBYTbG5PZEPP3okxYv06zRKfWA==";
         };
+        _3FN2Xdc9 = {
+            "id" = "3FN2Xdc9";
+            "file" = "infintrix-3.0.jar";
+            "hash" = "sha512-fLwpt6emBh0AGzjHcUQMpk6XXQh/G9hishOBPfYEQltxaaTA96ndxcoy4qCZVUXiNcFEwpOhHHcnp+ggZ4uxsQ==";
+        };
     in {
         "ReEoZXdd" = _ReEoZXdd;
         "nsprfZVy" = _nsprfZVy;
@@ -44,8 +49,9 @@ let
         "I5mRNMLo" = _I5mRNMLo;
         "tZJD0y6e" = _tZJD0y6e;
         "qU9gywJu" = _qU9gywJu;
+        "3FN2Xdc9" = _3FN2Xdc9;
         "fabric-1.20.1" = _PajdboHT;
-        "forge-1.20.1" = _qU9gywJu;
+        "forge-1.20.1" = _3FN2Xdc9;
         "pkg-0.1" = _ReEoZXdd;
         "pkg-0.2" = _nsprfZVy;
         "pkg-1.0" = _mGAF1BvP;
@@ -53,7 +59,8 @@ let
         "pkg-2.1" = _I5mRNMLo;
         "pkg-2.1.1" = _tZJD0y6e;
         "pkg-2.2" = _qU9gywJu;
-        "default" = _qU9gywJu;
+        "pkg-3.0" = _3FN2Xdc9;
+        "default" = _3FN2Xdc9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pugmeowlas-infintrix";

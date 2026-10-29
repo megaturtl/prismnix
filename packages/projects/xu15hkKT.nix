@@ -356,6 +356,11 @@ let
             "file" = "morezombievillagers-26.3.0-3.9.jar";
             "hash" = "sha512-c2PBU7GgJiFqzULJZ8YVrwPX9XHjKQ9KubcXgRLp/6YxrXuBf+IpsWYb7l6BADmsiCZNtMi6z1SuwBC7/fAWpw==";
         };
+        _Y6ACeIZD = {
+            "id" = "Y6ACeIZD";
+            "file" = "morezombievillagers-26.1.2-3.9.jar";
+            "hash" = "sha512-yKXP39OMmVuHM3b2Scs6brYfg8+3+zixpBlth+aDN3OapTR76sOqo/deM5vHNG5Gkonf42NTX4oRuwJWfKIRCA==";
+        };
     in {
         "alwXpg0j" = _alwXpg0j;
         "STfrDJJw" = _STfrDJJw;
@@ -428,6 +433,7 @@ let
         "rrXHSgV3" = _rrXHSgV3;
         "M9NXYU6W" = _M9NXYU6W;
         "uaTHMFfY" = _uaTHMFfY;
+        "Y6ACeIZD" = _Y6ACeIZD;
         "fabric-1.16.5" = _m8fayEBm;
         "fabric-1.18.2" = _sdZA5nyz;
         "fabric-1.19.2" = _oBLqjy7n;
@@ -454,7 +460,7 @@ let
         "fabric-1.21.11" = _tZYSSj38;
         "fabric-26.1" = _Pb0Jmo9p;
         "fabric-26.1.1" = _tTvPwHKm;
-        "fabric-26.1.2" = _TbjMqTvJ;
+        "fabric-26.1.2" = _Y6ACeIZD;
         "fabric-26.2" = _M9NXYU6W;
         "fabric-26.3" = _uaTHMFfY;
         "forge-1.16.5" = _YQsGv58r;
@@ -481,7 +487,7 @@ let
         "forge-1.21.11" = _tZYSSj38;
         "forge-26.1" = _Pb0Jmo9p;
         "forge-26.1.1" = _tTvPwHKm;
-        "forge-26.1.2" = _TbjMqTvJ;
+        "forge-26.1.2" = _Y6ACeIZD;
         "forge-26.2" = _M9NXYU6W;
         "forge-26.3" = _uaTHMFfY;
         "quilt-1.18.2" = _sdZA5nyz;
@@ -509,7 +515,7 @@ let
         "quilt-1.21.11" = _tZYSSj38;
         "quilt-26.1" = _Pb0Jmo9p;
         "quilt-26.1.1" = _tTvPwHKm;
-        "quilt-26.1.2" = _TbjMqTvJ;
+        "quilt-26.1.2" = _Y6ACeIZD;
         "quilt-26.2" = _M9NXYU6W;
         "quilt-26.3" = _uaTHMFfY;
         "neoforge-1.20.2" = _iyoXj2Pv;
@@ -532,7 +538,7 @@ let
         "neoforge-1.21.11" = _tZYSSj38;
         "neoforge-26.1" = _Pb0Jmo9p;
         "neoforge-26.1.1" = _tTvPwHKm;
-        "neoforge-26.1.2" = _TbjMqTvJ;
+        "neoforge-26.1.2" = _Y6ACeIZD;
         "neoforge-26.2" = _M9NXYU6W;
         "neoforge-26.3" = _uaTHMFfY;
         "pkg-1.16.5-1.9-fabric" = _alwXpg0j;
@@ -606,7 +612,8 @@ let
         "pkg-1.21.1-3.9-fabric+forge+neo" = _rrXHSgV3;
         "pkg-26.2.0-3.9-fabric+forge+neo" = _M9NXYU6W;
         "pkg-26.3.0-3.9-fabric+forge+neo" = _uaTHMFfY;
-        "default" = _uaTHMFfY;
+        "pkg-26.1.2-3.9-fabric+forge+neo" = _Y6ACeIZD;
+        "default" = _Y6ACeIZD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-zombie-villagers";

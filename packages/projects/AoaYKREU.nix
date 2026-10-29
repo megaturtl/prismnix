@@ -41,6 +41,11 @@ let
             "file" = "seaworthyboats-26.3.0-1.1.jar";
             "hash" = "sha512-Sj/bEygBkn4/v65XxWdQXq5ClHmnErGz0pWbr1hXOoaZqcW3Lunblaj90lRI3bry7DGU0tifYB/jLpS/L6xW1g==";
         };
+        _2bN619ul = {
+            "id" = "2bN619ul";
+            "file" = "seaworthyboats-26.1.2-1.1.jar";
+            "hash" = "sha512-fvIokgfNvWys3h1WJAW3SnMzv0p88ZKErGZjQu/YotET3v009SIHqDzQet7IQofdDfbe0CWyNWp1KLTqGG4Otg==";
+        };
     in {
         "FOQr380C" = _FOQr380C;
         "M6BYvAvV" = _M6BYvAvV;
@@ -50,26 +55,31 @@ let
         "2Gck3ywD" = _2Gck3ywD;
         "MJZFxVFP" = _MJZFxVFP;
         "AylArRBy" = _AylArRBy;
+        "2bN619ul" = _2bN619ul;
         "fabric-1.20.1" = _m7ij4kBr;
         "fabric-1.21" = _2Gck3ywD;
         "fabric-1.21.1" = _2Gck3ywD;
         "fabric-26.2" = _MJZFxVFP;
         "fabric-26.3" = _AylArRBy;
+        "fabric-26.1.2" = _2bN619ul;
         "forge-1.20.1" = _m7ij4kBr;
         "forge-1.21" = _2Gck3ywD;
         "forge-1.21.1" = _2Gck3ywD;
         "forge-26.2" = _MJZFxVFP;
         "forge-26.3" = _AylArRBy;
+        "forge-26.1.2" = _2bN619ul;
         "neoforge-1.20.1" = _m7ij4kBr;
         "neoforge-1.21" = _2Gck3ywD;
         "neoforge-1.21.1" = _2Gck3ywD;
         "neoforge-26.2" = _MJZFxVFP;
         "neoforge-26.3" = _AylArRBy;
+        "neoforge-26.1.2" = _2bN619ul;
         "quilt-1.20.1" = _m7ij4kBr;
         "quilt-1.21" = _2Gck3ywD;
         "quilt-1.21.1" = _2Gck3ywD;
         "quilt-26.2" = _MJZFxVFP;
         "quilt-26.3" = _AylArRBy;
+        "quilt-26.1.2" = _2bN619ul;
         "pkg-1.20.1-1.0-fabric+forge+neo" = _FOQr380C;
         "pkg-1.21.1-1.0-fabric+forge+neo" = _M6BYvAvV;
         "pkg-26.2.0-1.0-fabric+forge+neo" = _itVONbpc;
@@ -78,7 +88,8 @@ let
         "pkg-1.21.1-1.1-fabric+forge+neo" = _2Gck3ywD;
         "pkg-26.2.0-1.1-fabric+forge+neo" = _MJZFxVFP;
         "pkg-26.3.0-1.1-fabric+forge+neo" = _AylArRBy;
-        "default" = _AylArRBy;
+        "pkg-26.1.2-1.1-fabric+forge+neo" = _2bN619ul;
+        "default" = _2bN619ul;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "seaworthy-boats";

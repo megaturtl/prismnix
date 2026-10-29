@@ -66,6 +66,41 @@ let
             "file" = "animatica-0.7.0+beta.3+26.3-neoforge.jar";
             "hash" = "sha512-rpe5RiytYFOZxygzLioYM4O+oPAs1QD+6CYpnDIVMlKQJR4+tKoCAorMj6Y5bEdoWXLMbAag/sFtXNgA3xSuUg==";
         };
+        _SpPyOOmv = {
+            "id" = "SpPyOOmv";
+            "file" = "animatica-0.7.0+beta.4+26.1-fabric.jar";
+            "hash" = "sha512-s4UteoCCwudf4auNkVuLZif4yXe8zaz8TQ24jb5P3Nh7HVyOCnbULKIAgY5OGOwGXhRetAW2G65k1yEgRwWEwQ==";
+        };
+        _xHcnr3Dp = {
+            "id" = "xHcnr3Dp";
+            "file" = "animatica-0.7.0+beta.4+26.1-neoforge.jar";
+            "hash" = "sha512-q6jKtrh64V99L1EjzzM5U3QOCJqzgQShgWrL5DWazcZuYS1ybH6hnuO1kq84QvEMKqJNVG4vulK2DtyokFiAcA==";
+        };
+        _z1hPMQvl = {
+            "id" = "z1hPMQvl";
+            "file" = "animatica-0.7.0+beta.4+26.2-fabric.jar";
+            "hash" = "sha512-6pKi2pfgUS8iRdpnWc1bHi20zkvZ7HAa9sEDSWbgeCIDiGocAVEueVS+z1cdNtMZ3e4gwpc13ziNlZivZjF1cw==";
+        };
+        _uJBG8x8c = {
+            "id" = "uJBG8x8c";
+            "file" = "animatica-0.7.0+beta.4+26.2-neoforge.jar";
+            "hash" = "sha512-+2HKGpo77SrI+oelCrj0g1LudUhBD+oEI+4FpA6Z9svXPT2b2+YD/Djb06LJpVJV+XtRpEAOIKTcKi4cVMUuow==";
+        };
+        _pNFpFu4g = {
+            "id" = "pNFpFu4g";
+            "file" = "animatica-0.7.0+beta.4+26.3-fabric.jar";
+            "hash" = "sha512-07K4leDAOaGUgzisMwA2XoUKrFYXfyCMkTxe3/lS9rKxEewnjrnhTlHI6nri5otKQaZobpXgkw1n0aQgpL022A==";
+        };
+        _sdqQyzcc = {
+            "id" = "sdqQyzcc";
+            "file" = "animatica-0.7.0+beta.4+26.3-neoforge.jar";
+            "hash" = "sha512-NAi0KWZX2sa/y1QubcH5KGntUdyij81rCOmKrr9Im4QHNsM0x06LzmjsrUluYP0rc40jNIaOOd24Sua9t7KnYA==";
+        };
+        _XBI0dmkz = {
+            "id" = "XBI0dmkz";
+            "file" = "animatica-0.7.0+beta.4+26.4-fabric.jar";
+            "hash" = "sha512-yLlJA2IQene5r2Hq2RiNeV67HJXG3uefN/zZKs0WAHPrc3THQx2cVzK3fV5GBkWa3Bce3/sim4OCeydbUkd7Cw==";
+        };
     in {
         "JX3Uw3pT" = _JX3Uw3pT;
         "AcnOTlcL" = _AcnOTlcL;
@@ -80,9 +115,16 @@ let
         "kt5KoQuf" = _kt5KoQuf;
         "6kPLR90Q" = _6kPLR90Q;
         "tIJYrl8v" = _tIJYrl8v;
-        "fabric-26.1" = _fei2AQqc;
-        "fabric-26.1.1" = _fei2AQqc;
-        "fabric-26.1.2" = _fei2AQqc;
+        "SpPyOOmv" = _SpPyOOmv;
+        "xHcnr3Dp" = _xHcnr3Dp;
+        "z1hPMQvl" = _z1hPMQvl;
+        "uJBG8x8c" = _uJBG8x8c;
+        "pNFpFu4g" = _pNFpFu4g;
+        "sdqQyzcc" = _sdqQyzcc;
+        "XBI0dmkz" = _XBI0dmkz;
+        "fabric-26.1" = _SpPyOOmv;
+        "fabric-26.1.1" = _SpPyOOmv;
+        "fabric-26.1.2" = _SpPyOOmv;
         "fabric-1.21.8" = _AcnOTlcL;
         "fabric-1.21.9" = _AcnOTlcL;
         "fabric-1.21.10" = _AcnOTlcL;
@@ -95,10 +137,15 @@ let
         "fabric-26.2-pre-6" = _ucYrcZ8n;
         "fabric-26.2-rc-1" = _ucYrcZ8n;
         "fabric-26.2-rc-2" = _ucYrcZ8n;
-        "fabric-26.2" = _SjuTFuhz;
+        "fabric-26.2" = _z1hPMQvl;
         "fabric-26.3-snapshot-1" = _1Ss9B78j;
-        "fabric-26.3" = _6kPLR90Q;
-        "neoforge-26.3" = _tIJYrl8v;
+        "fabric-26.3" = _pNFpFu4g;
+        "fabric-26.4-snapshot-5" = _XBI0dmkz;
+        "neoforge-26.3" = _sdqQyzcc;
+        "neoforge-26.1" = _xHcnr3Dp;
+        "neoforge-26.1.1" = _xHcnr3Dp;
+        "neoforge-26.1.2" = _xHcnr3Dp;
+        "neoforge-26.2" = _uJBG8x8c;
         "pkg-0.6.1+26.1" = _JX3Uw3pT;
         "pkg-0.6.1+1.21.8" = _AcnOTlcL;
         "pkg-0.6.2+26.1" = _cGCn2LMg;
@@ -111,7 +158,14 @@ let
         "pkg-0.7.0+beta.2+26.3" = _kt5KoQuf;
         "pkg-0.7.0+beta.3+26.3-fabric" = _6kPLR90Q;
         "pkg-0.7.0+beta.3+26.3-neoforge" = _tIJYrl8v;
-        "default" = _tIJYrl8v;
+        "pkg-0.7.0+beta.4+26.1-fabric" = _SpPyOOmv;
+        "pkg-0.7.0+beta.4+26.1-neoforge" = _xHcnr3Dp;
+        "pkg-0.7.0+beta.4+26.2-fabric" = _z1hPMQvl;
+        "pkg-0.7.0+beta.4+26.2-neoforge" = _uJBG8x8c;
+        "pkg-0.7.0+beta.4+26.3-fabric" = _pNFpFu4g;
+        "pkg-0.7.0+beta.4+26.3-neoforge" = _sdqQyzcc;
+        "pkg-0.7.0+beta.4+26.4-snap-5-fabric" = _XBI0dmkz;
+        "default" = _XBI0dmkz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "animaticarefabricated";

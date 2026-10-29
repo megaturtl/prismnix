@@ -161,6 +161,11 @@ let
             "file" = "letsparkour-26.3.0-2.3.jar";
             "hash" = "sha512-PrzK71+or/wKZiLFPtbPtq4yCiV1Rn2Z19kMSUYi2PGzc0kDGl2eqDLta2gd0OUZaRIO8KJZvZeJbFk38W/rMg==";
         };
+        _VfXWwffD = {
+            "id" = "VfXWwffD";
+            "file" = "letsparkour-26.1.2-2.3.jar";
+            "hash" = "sha512-nXlPQN4/agqawWTvlhx8Yxg09SpK3K9fLVBTZjyHwAtWulL3hY9N7PzVvXpn54Fe9reow5VamzXbiTY0mbn2oA==";
+        };
     in {
         "kZkvR5Lr" = _kZkvR5Lr;
         "tZoEMYq0" = _tZoEMYq0;
@@ -194,6 +199,7 @@ let
         "1hlqR6Ru" = _1hlqR6Ru;
         "LQ5dR25J" = _LQ5dR25J;
         "wHaXj5jP" = _wHaXj5jP;
+        "VfXWwffD" = _VfXWwffD;
         "fabric-1.21" = _1hlqR6Ru;
         "fabric-1.21.1" = _1hlqR6Ru;
         "fabric-1.21.2" = _suaaz7aC;
@@ -208,7 +214,7 @@ let
         "fabric-1.21.11" = _FKpwdE5X;
         "fabric-26.1" = _sHFxySZ7;
         "fabric-26.1.1" = _lrzuebH1;
-        "fabric-26.1.2" = _otne7Clb;
+        "fabric-26.1.2" = _VfXWwffD;
         "fabric-26.2" = _LQ5dR25J;
         "fabric-26.3" = _wHaXj5jP;
         "forge-1.21" = _1hlqR6Ru;
@@ -224,7 +230,7 @@ let
         "forge-1.21.11" = _FKpwdE5X;
         "forge-26.1" = _sHFxySZ7;
         "forge-26.1.1" = _lrzuebH1;
-        "forge-26.1.2" = _otne7Clb;
+        "forge-26.1.2" = _VfXWwffD;
         "forge-26.2" = _LQ5dR25J;
         "forge-26.3" = _wHaXj5jP;
         "neoforge-1.21" = _1hlqR6Ru;
@@ -241,7 +247,7 @@ let
         "neoforge-1.21.11" = _FKpwdE5X;
         "neoforge-26.1" = _sHFxySZ7;
         "neoforge-26.1.1" = _lrzuebH1;
-        "neoforge-26.1.2" = _otne7Clb;
+        "neoforge-26.1.2" = _VfXWwffD;
         "neoforge-26.2" = _LQ5dR25J;
         "neoforge-26.3" = _wHaXj5jP;
         "quilt-1.21" = _1hlqR6Ru;
@@ -258,7 +264,7 @@ let
         "quilt-1.21.11" = _FKpwdE5X;
         "quilt-26.1" = _sHFxySZ7;
         "quilt-26.1.1" = _lrzuebH1;
-        "quilt-26.1.2" = _otne7Clb;
+        "quilt-26.1.2" = _VfXWwffD;
         "quilt-26.2" = _LQ5dR25J;
         "quilt-26.3" = _wHaXj5jP;
         "pkg-1.21.0-1.0-fabric+forge+neo" = _kZkvR5Lr;
@@ -293,7 +299,8 @@ let
         "pkg-1.21.1-2.3-fabric+forge+neo" = _1hlqR6Ru;
         "pkg-26.2.0-2.3-fabric+forge+neo" = _LQ5dR25J;
         "pkg-26.3.0-2.3-fabric+forge+neo" = _wHaXj5jP;
-        "default" = _wHaXj5jP;
+        "pkg-26.1.2-2.3-fabric+forge+neo" = _VfXWwffD;
+        "default" = _VfXWwffD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lets-parkour";

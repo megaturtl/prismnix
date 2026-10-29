@@ -341,6 +341,11 @@ let
             "file" = "erodingstoneentities-26.3.0-4.9.jar";
             "hash" = "sha512-+FWeuDB2vyBLr53ZMwoajITsxoeKdQ/VNi7UdO7SqKU1cv4dyM3ly7yEStoha9HcVp2+e0TfW1ndtHhbI/5vdg==";
         };
+        _5YDw5Gh1 = {
+            "id" = "5YDw5Gh1";
+            "file" = "erodingstoneentities-26.1.2-4.9.jar";
+            "hash" = "sha512-9bM06611HGVBvpCZtn6HszrHxEvUWyjrzbaDRFNFPWr+QK+XdKBRB4l1YKveyoF9lfZfLk/Ug1UHSAHZB2YuaQ==";
+        };
     in {
         "heuEASNL" = _heuEASNL;
         "5pVDZLRM" = _5pVDZLRM;
@@ -410,6 +415,7 @@ let
         "sQm7BaiL" = _sQm7BaiL;
         "wj2xovce" = _wj2xovce;
         "Z0LBGtai" = _Z0LBGtai;
+        "5YDw5Gh1" = _5YDw5Gh1;
         "fabric-1.16.5" = _eigu2VSd;
         "fabric-1.18.2" = _eQAxARcx;
         "fabric-1.19.2" = _GyNqcUXo;
@@ -436,7 +442,7 @@ let
         "fabric-1.21.11" = _lzHKJDfJ;
         "fabric-26.1" = _Aw75oqQE;
         "fabric-26.1.1" = _CtcTx8HZ;
-        "fabric-26.1.2" = _bpMFjziP;
+        "fabric-26.1.2" = _5YDw5Gh1;
         "fabric-26.2" = _wj2xovce;
         "fabric-26.3" = _Z0LBGtai;
         "forge-1.16.5" = _n6UqU9Ok;
@@ -463,7 +469,7 @@ let
         "forge-1.21.11" = _lzHKJDfJ;
         "forge-26.1" = _Aw75oqQE;
         "forge-26.1.1" = _CtcTx8HZ;
-        "forge-26.1.2" = _bpMFjziP;
+        "forge-26.1.2" = _5YDw5Gh1;
         "forge-26.2" = _wj2xovce;
         "forge-26.3" = _Z0LBGtai;
         "quilt-1.18.2" = _eQAxARcx;
@@ -491,7 +497,7 @@ let
         "quilt-1.21.11" = _lzHKJDfJ;
         "quilt-26.1" = _Aw75oqQE;
         "quilt-26.1.1" = _CtcTx8HZ;
-        "quilt-26.1.2" = _bpMFjziP;
+        "quilt-26.1.2" = _5YDw5Gh1;
         "quilt-26.2" = _wj2xovce;
         "quilt-26.3" = _Z0LBGtai;
         "neoforge-1.20.2" = _wfZXJLlB;
@@ -514,7 +520,7 @@ let
         "neoforge-1.21.11" = _lzHKJDfJ;
         "neoforge-26.1" = _Aw75oqQE;
         "neoforge-26.1.1" = _CtcTx8HZ;
-        "neoforge-26.1.2" = _bpMFjziP;
+        "neoforge-26.1.2" = _5YDw5Gh1;
         "neoforge-26.2" = _wj2xovce;
         "neoforge-26.3" = _Z0LBGtai;
         "pkg-1.16.5-2.8-fabric" = _heuEASNL;
@@ -585,7 +591,8 @@ let
         "pkg-1.21.1-4.9-fabric+forge+neo" = _sQm7BaiL;
         "pkg-26.2.0-4.9-fabric+forge+neo" = _wj2xovce;
         "pkg-26.3.0-4.9-fabric+forge+neo" = _Z0LBGtai;
-        "default" = _Z0LBGtai;
+        "pkg-26.1.2-4.9-fabric+forge+neo" = _5YDw5Gh1;
+        "default" = _5YDw5Gh1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "eroding-stone-entities";

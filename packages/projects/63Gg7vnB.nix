@@ -121,6 +121,16 @@ let
             "file" = "spawnchaining-neoforge-1.8.3-1.2.0.jar";
             "hash" = "sha512-e4UjtXVH1rvyFpGuhf7F01uhqouvkUVzIkUGT4oXIHd0nllMs6zedWdh+tW0oGUwZCBWybm3Ov3Za6hyaMG8xA==";
         };
+        _XiEz0Zud = {
+            "id" = "XiEz0Zud";
+            "file" = "spawnchaining-neoforge-1.8.4-1.2.0.jar";
+            "hash" = "sha512-XXSousP953cwCl166IBWic1NXHHpqaLilClHxaryLKKx9pVtY88wIhfRO/0iSN7k2YmjDluSxT7JKQUuANwNVw==";
+        };
+        _DzshZIWh = {
+            "id" = "DzshZIWh";
+            "file" = "spawnchaining-fabric-1.8.4-1.2.0.jar";
+            "hash" = "sha512-+nKMpmVWTRhnnpq++CP9ZSVP5nH7u27z9lwzvCfRC4I0Omm49MK/PGzvjdXwFWVJ3YyIPE+Bn/A1mZEMJrRN7g==";
+        };
     in {
         "s1abnZsc" = _s1abnZsc;
         "LGtmSVHn" = _LGtmSVHn;
@@ -146,8 +156,10 @@ let
         "sm0OrjEt" = _sm0OrjEt;
         "TVZUaYG6" = _TVZUaYG6;
         "69udEYDb" = _69udEYDb;
-        "fabric-1.21.1" = _TVZUaYG6;
-        "neoforge-1.21.1" = _69udEYDb;
+        "XiEz0Zud" = _XiEz0Zud;
+        "DzshZIWh" = _DzshZIWh;
+        "fabric-1.21.1" = _DzshZIWh;
+        "neoforge-1.21.1" = _XiEz0Zud;
         "pkg-1.6.1-fabric-1.0.0" = _s1abnZsc;
         "pkg-1.6.1-neoforge-1.0.0" = _LGtmSVHn;
         "pkg-1.6.1-fabric-1.0.1" = _naeDLL9q;
@@ -172,7 +184,9 @@ let
         "pkg-1.8.2-fabric-1.2.0" = _sm0OrjEt;
         "pkg-1.8.3-fabric-1.2.0" = _TVZUaYG6;
         "pkg-1.8.3-neoforge-1.2.0" = _69udEYDb;
-        "default" = _69udEYDb;
+        "pkg-1.8.4-neoforge-1.2.0" = _XiEz0Zud;
+        "pkg-1.8.4-fabric-1.2.0" = _DzshZIWh;
+        "default" = _DzshZIWh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-spawn-chaining";

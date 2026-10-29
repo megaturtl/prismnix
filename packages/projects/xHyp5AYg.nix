@@ -111,6 +111,11 @@ let
             "file" = "jmsharedmaps-1.8-26.2-neoforge.jar";
             "hash" = "sha512-WHrF9h4et7AOyHvNJt79FbKxuldSEazVne4RJjTax7GVOfkqJarSRYycrECpdpFF8G/H9mRVNanhsxTKa0YPEg==";
         };
+        _HJ2eFp6U = {
+            "id" = "HJ2eFp6U";
+            "file" = "jmsharedmaps-1.8.1-26.1.2-neoforge.jar";
+            "hash" = "sha512-W49AkIxNqlkJP7wH+MNmyWk5UKVPiF/rIH4YNRHFdee9xoKJZz00dZPX76MFtDr/0O8VDHbu8z4/qMldYaTlqQ==";
+        };
     in {
         "nZjfK9pb" = _nZjfK9pb;
         "7NIN9ac4" = _7NIN9ac4;
@@ -134,9 +139,10 @@ let
         "O117et6X" = _O117et6X;
         "oUOhRJjg" = _oUOhRJjg;
         "9MJtyIVp" = _9MJtyIVp;
+        "HJ2eFp6U" = _HJ2eFp6U;
         "neoforge-1.21.1" = _O117et6X;
         "neoforge-26.2" = _9MJtyIVp;
-        "neoforge-26.1.2" = _oUOhRJjg;
+        "neoforge-26.1.2" = _HJ2eFp6U;
         "forge-1.20.1" = _a9Rb6eif;
         "fabric-1.20.1" = _IUOVVlNO;
         "fabric-1.21.1" = _vHD3U5q9;
@@ -165,7 +171,8 @@ let
         "pkg-1.8-1.21.1-neoforge" = _O117et6X;
         "pkg-1.8-26.1.2-neoforge" = _oUOhRJjg;
         "pkg-1.8-26.2-neoforge" = _9MJtyIVp;
-        "default" = _9MJtyIVp;
+        "pkg-1.8.1-26.1.2-neoforge" = _HJ2eFp6U;
+        "default" = _HJ2eFp6U;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "journeymap-shared-maps";

@@ -391,6 +391,11 @@ let
             "file" = "followersteleporttoo-26.3.0-3.2.jar";
             "hash" = "sha512-7dHBBF4ifroMfuskneyCnJj0nGQzPMMgkyPOjcchrS7LwgJ10b6vP++HJ2RXlCBOfKtJsk8WKRLTWlITxbgCeA==";
         };
+        _iHEOErWH = {
+            "id" = "iHEOErWH";
+            "file" = "followersteleporttoo-26.1.2-3.2.jar";
+            "hash" = "sha512-jrpi6el9YKP41YC6gDZkIaPXSvOpzo55Wbc4RwqCKwPucRjhdLa8+SwBJpoeYP5SpdmwmCpiD8Z5VVCPUnVB1g==";
+        };
     in {
         "Gt89yv3M" = _Gt89yv3M;
         "177jUkPo" = _177jUkPo;
@@ -470,6 +475,7 @@ let
         "paVu3Lrc" = _paVu3Lrc;
         "Ej8UCP3O" = _Ej8UCP3O;
         "aEPnGv0z" = _aEPnGv0z;
+        "iHEOErWH" = _iHEOErWH;
         "fabric-1.16.5" = _msO5v19x;
         "fabric-1.18.2" = _B5VJgwIH;
         "fabric-1.19.2" = _G82Q4jHK;
@@ -496,7 +502,7 @@ let
         "fabric-1.21.11" = _BxoH6we9;
         "fabric-26.1" = _MVYIdLWN;
         "fabric-26.1.1" = _4swMstdI;
-        "fabric-26.1.2" = _GsVqyAo0;
+        "fabric-26.1.2" = _iHEOErWH;
         "fabric-26.2" = _Ej8UCP3O;
         "fabric-26.3" = _aEPnGv0z;
         "forge-1.16.5" = _kSXEhXi3;
@@ -523,7 +529,7 @@ let
         "forge-1.21.11" = _BxoH6we9;
         "forge-26.1" = _MVYIdLWN;
         "forge-26.1.1" = _4swMstdI;
-        "forge-26.1.2" = _GsVqyAo0;
+        "forge-26.1.2" = _iHEOErWH;
         "forge-26.2" = _Ej8UCP3O;
         "forge-26.3" = _aEPnGv0z;
         "quilt-1.18.2" = _B5VJgwIH;
@@ -551,7 +557,7 @@ let
         "quilt-1.21.11" = _BxoH6we9;
         "quilt-26.1" = _MVYIdLWN;
         "quilt-26.1.1" = _4swMstdI;
-        "quilt-26.1.2" = _GsVqyAo0;
+        "quilt-26.1.2" = _iHEOErWH;
         "quilt-26.2" = _Ej8UCP3O;
         "quilt-26.3" = _aEPnGv0z;
         "neoforge-1.20.2" = _eY4wHKnq;
@@ -574,7 +580,7 @@ let
         "neoforge-1.21.11" = _BxoH6we9;
         "neoforge-26.1" = _MVYIdLWN;
         "neoforge-26.1.1" = _4swMstdI;
-        "neoforge-26.1.2" = _GsVqyAo0;
+        "neoforge-26.1.2" = _iHEOErWH;
         "neoforge-26.2" = _Ej8UCP3O;
         "neoforge-26.3" = _aEPnGv0z;
         "pkg-1.16.5-1.0-fabric" = _Gt89yv3M;
@@ -655,7 +661,8 @@ let
         "pkg-1.21.1-3.2-fabric+forge+neo" = _paVu3Lrc;
         "pkg-26.2.0-3.2-fabric+forge+neo" = _Ej8UCP3O;
         "pkg-26.3.0-3.2-fabric+forge+neo" = _aEPnGv0z;
-        "default" = _aEPnGv0z;
+        "pkg-26.1.2-3.2-fabric+forge+neo" = _iHEOErWH;
+        "default" = _iHEOErWH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "followers-teleport-too";

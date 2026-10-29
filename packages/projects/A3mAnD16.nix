@@ -81,6 +81,11 @@ let
             "file" = "Shader Panorama of 1.20：Trails & Tales.zip";
             "hash" = "sha512-v0Lw1WUdpf8JBoTHzw45mvQt7LWZgsSeiT5RL3FrtCCzo/y6t2aGBZ7Lw9JYiCTdWN4t1wz8OTpE/TC23ik0/A==";
         };
+        _2P5zeXBD = {
+            "id" = "2P5zeXBD";
+            "file" = "Shader Panorama of 1.20：Trails & Tales 26.3.zip";
+            "hash" = "sha512-IwYjmO0eiIW9ZT7xN7oXibDArOsnKEKYY6JE/OGRD6QbZ0TNNVHZ5YiFOGTlWswSmfPET6EgPp2nSaUi5nQ4Sw==";
+        };
     in {
         "GHs8AGmW" = _GHs8AGmW;
         "DOkw0StB" = _DOkw0StB;
@@ -98,6 +103,7 @@ let
         "MEQWxqY0" = _MEQWxqY0;
         "7vg78lbL" = _7vg78lbL;
         "Zvx162AT" = _Zvx162AT;
+        "2P5zeXBD" = _2P5zeXBD;
         "minecraft-1.20" = _GHs8AGmW;
         "minecraft-1.20.1" = _GHs8AGmW;
         "minecraft-1.20.2" = _DOkw0StB;
@@ -121,6 +127,7 @@ let
         "minecraft-26.1.1" = _MEQWxqY0;
         "minecraft-26.1.2" = _7vg78lbL;
         "minecraft-26.2" = _Zvx162AT;
+        "minecraft-26.3" = _2P5zeXBD;
         "pkg-v1-1.20-1.20.1" = _GHs8AGmW;
         "pkg-v1-1.20.2" = _DOkw0StB;
         "pkg-v1-1.20.3-1.20.4" = _By282nNx;
@@ -137,7 +144,8 @@ let
         "pkg-26.1.1" = _MEQWxqY0;
         "pkg-26.1.2" = _7vg78lbL;
         "pkg-26.2" = _Zvx162AT;
-        "default" = _Zvx162AT;
+        "pkg-26.3" = _2P5zeXBD;
+        "default" = _2P5zeXBD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shader-panorama-of-1.20-trails-tales";

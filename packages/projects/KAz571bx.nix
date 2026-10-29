@@ -171,6 +171,11 @@ let
             "file" = "AraxersBestiary-26.1.2-neoforge-2.0.0.jar";
             "hash" = "sha512-mIH6Gl/Tq/knuK3TJCN2/synBhgsYusDE8UVjDhgMXLKFADVR4Vhx8Qd/ovEmKdvhwpp2pcu7lXoxwZFciPW8A==";
         };
+        _IcwNvhtr = {
+            "id" = "IcwNvhtr";
+            "file" = "AraxersBestiary-26.3-neoforge-2.0.0.jar";
+            "hash" = "sha512-obgc8VJgZicMicoRE49XX1KlCr6pee8OYi8mAQYUKDqMobCwtACHKrrnFKoJNYZUe8qKn4jim2VxpwJjnVBa+Q==";
+        };
     in {
         "WlK4GlzJ" = _WlK4GlzJ;
         "1IIkbtkB" = _1IIkbtkB;
@@ -206,11 +211,13 @@ let
         "mG1R1VSb" = _mG1R1VSb;
         "NwnGpUSy" = _NwnGpUSy;
         "X6NhHMvU" = _X6NhHMvU;
+        "IcwNvhtr" = _IcwNvhtr;
         "forge-1.20.1" = _9fUZnhD9;
         "forge-1.19.2" = _8kV2EGaZ;
         "forge-1.16.5" = _NwnGpUSy;
         "neoforge-1.21.1" = _CeuzWQsx;
         "neoforge-26.1.2" = _X6NhHMvU;
+        "neoforge-26.3" = _IcwNvhtr;
         "fabric-1.20.1" = _R6OspYNX;
         "fabric-1.21.1" = _mG1R1VSb;
         "pkg-1.3.1" = _WlK4GlzJ;
@@ -240,8 +247,8 @@ let
         "pkg-1.4.3" = _ZCjC84VO;
         "pkg-1.4.3.1" = _QWVZ5Oog;
         "pkg-1.5.0" = _Zlw9VZZB;
-        "pkg-2.0.0" = _X6NhHMvU;
-        "default" = _X6NhHMvU;
+        "pkg-2.0.0" = _IcwNvhtr;
+        "default" = _IcwNvhtr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "araxers-bestiary";

@@ -1,0 +1,612 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _KJpeJpcP = {
+            "id" = "KJpeJpcP";
+            "file" = "simple_waterloggable_redstone-1.0.0.jar";
+            "hash" = "sha512-ZxZhVUskwXpGj89kRzqujXObMBSufBA5WSVKU27rKifbJ+FapeLA9R8g7T+B19lzlEEWXY2G6P4aI72D9aLy9A==";
+        };
+        _Dppqnwtm = {
+            "id" = "Dppqnwtm";
+            "file" = "simple_waterloggable_redstone-1.0.0.jar";
+            "hash" = "sha512-oPWnFRu9iU2ELHk4uXdVfDYAAPnyBgi67wNyXFifHvccxFLEW+dz06/dpuG1Ad/DM1hdWlAmVNYTHJqtQhNQ2Q==";
+        };
+        _ARzFKZmW = {
+            "id" = "ARzFKZmW";
+            "file" = "simple_waterloggable_redstone-1.0.0.jar";
+            "hash" = "sha512-Gb/sWPX07sTbTUjzilDpwMh4WSXZyDsVt/2hhh8tjDsGQqgVTggH3quTDieOnT8UuwCcrr88GwU4HycG9JQC/g==";
+        };
+        _lPU1oFiK = {
+            "id" = "lPU1oFiK";
+            "file" = "simple_waterloggable_redstone-1.0.0.jar";
+            "hash" = "sha512-fJffYN6leypU9VoiefnfS1vjplMv18CBMD3/Rtd1I5aSz4EXd9TSXhHKXV/Ky2iJ8eLFuNS6o68YPKx0ir9NvQ==";
+        };
+        _xTZDd4Ts = {
+            "id" = "xTZDd4Ts";
+            "file" = "simple_waterloggable_redstone-1.0.0.jar";
+            "hash" = "sha512-M1jVW0Z9VigAYN39AGgIyLO2chwlEUHrGluUA2Som+lLRCGQGtwU7k+3GVhQLOqTFV4COBEXj25kkxQNAj8YCw==";
+        };
+        _TOLV3BAf = {
+            "id" = "TOLV3BAf";
+            "file" = "simple_waterloggable_redstone-1.0.0.jar";
+            "hash" = "sha512-6hNsYKT6tdRjGfjtcWUhD7mgCXoSYHgw8Swzo2aT4KFhnmtY0/SoLoLFCxEAPGgrskdx0udm1NXm+gBmggD+5A==";
+        };
+        _UTuAOZxs = {
+            "id" = "UTuAOZxs";
+            "file" = "simple_waterloggable_redstone-1.0.0.jar";
+            "hash" = "sha512-DEfDdbRaV1p4YyuL7+TW+5wXHqTjAsjq4n8CkceM4TqcKxIE16MvPDmQH4nVGc8hZSSHSyAiJ4R2zO55rhGI2Q==";
+        };
+        _7UHF8fAO = {
+            "id" = "7UHF8fAO";
+            "file" = "simple_waterloggable_redstone-1.0.0.jar";
+            "hash" = "sha512-JRMqhi/rLeSMiipndNraO40NO3aori9kO0mE5ZVI81QkZMzUGA/DDJX3xFGgZjnNVMJpjejvR5WeZGwR4Xu2cA==";
+        };
+        _gO0vOE87 = {
+            "id" = "gO0vOE87";
+            "file" = "simple_waterloggable_redstone-1.0.0.jar";
+            "hash" = "sha512-QCbJhQz9ODy0UzAqimgVyrwswllLXnwu4Ti31rMeuSqkFOXcuD7+F+sMq30EDJY4Iw61vXXJSGGye+0r8QKuXw==";
+        };
+        _T8asLt7P = {
+            "id" = "T8asLt7P";
+            "file" = "simple_waterloggable_redstone-1.0.0.jar";
+            "hash" = "sha512-FIAeJZttN/y07V1rLIIQSYwB+SfyIkVmqPsSdxSdmpumY6F6uMLTtxQ/nykh+OBTYBoarAFB1QRXM50N6XXpsg==";
+        };
+        _zg4J4fAj = {
+            "id" = "zg4J4fAj";
+            "file" = "simple_waterloggable_redstone-1.0.0.jar";
+            "hash" = "sha512-etkgFH7yLJ9A7Qj7XV3YtVNrRZIn6be/UIMvV/E2m4MGwcDogWMzKuaTpkTjh73tQz2+XA4yUFHNNTvPzLWhkw==";
+        };
+        _xWbNoUy2 = {
+            "id" = "xWbNoUy2";
+            "file" = "simple_waterloggable_redstone-1.0.0.jar";
+            "hash" = "sha512-fgSHWoAgyqYQxtH4z+ZU5xuzZ1WIaBYc1sV8ipl0JkhSRBbaeVp0iE7QFItFh19jrkbFqMH6heGQCcP7Gte7qA==";
+        };
+        _u5ZPsyLl = {
+            "id" = "u5ZPsyLl";
+            "file" = "simple_waterloggable_redstone-1.0.0.jar";
+            "hash" = "sha512-F+MI9Bsy2/Ys3n7tMHu76ztPB0650PxXWZ8csac8zT/rqMDr3Ks0Str6UxxbRf2tcCgt4jlFl1+f0uKlfuz/+w==";
+        };
+        _Vg7EzZuJ = {
+            "id" = "Vg7EzZuJ";
+            "file" = "simple_waterloggable_redstone-1.0.0.jar";
+            "hash" = "sha512-CvC6Whj1nHMF05JUhj2zP4hUlOKnN6ZCWD1f6+TK9ol6XMCxPdTm3DWrqX96ek9XtUFO86ojDqOAnYT4V+AlNQ==";
+        };
+        _IyfZfsWh = {
+            "id" = "IyfZfsWh";
+            "file" = "simple_waterloggable_redstone-1.0.0.jar";
+            "hash" = "sha512-nVJ1cg0KuhLdPCanzGiyytAAynEZAuoZMvH0ehjml4AjHVJwnogDM2jjnLZFJ8X0eRtHsasEWxb0bpeaZnzPTw==";
+        };
+        _tbLUWm4Q = {
+            "id" = "tbLUWm4Q";
+            "file" = "simple_waterloggable_redstone-1.0.0.jar";
+            "hash" = "sha512-hQOAxjrSb2pk9KfaXdBYiwB2AqkyFTHGLbBxqy6WiMOZGM4KZkBq82VRxztBEPmqAmh+FR3wD35AeUjhGZGGWw==";
+        };
+        _Cja6KkSP = {
+            "id" = "Cja6KkSP";
+            "file" = "simple_waterloggable_redstone-1.0.0.jar";
+            "hash" = "sha512-+SOaIDtjoyu1gcl3tI/FtzSGJmhQiPprP+Fz9cEOkRSggo1MC+T6CJl5mGgy9oS3EyAZ8dhA8YRrhPd+TMRJ0g==";
+        };
+        _sWMWoZvq = {
+            "id" = "sWMWoZvq";
+            "file" = "simple_waterloggable_redstone-1.0.0.jar";
+            "hash" = "sha512-bmzb8jCLG9s4KoEb9mkHHtTEtp4TRDLG8Tr+TGkL1LuVMqifzsWr6xZ3XpKBBRasSay9X5tOm0/EfHKP0btEOw==";
+        };
+        _SQ9mqneL = {
+            "id" = "SQ9mqneL";
+            "file" = "simple_waterloggable_redstone-1.0.0.jar";
+            "hash" = "sha512-s/x7fkg9oAOD/g9VLS+tl9GkaHl+0KKlmDhU+JF/75P212GGRPR/10w2lFs0Rd2eOPRpo/Z2QzLmexswue7Cug==";
+        };
+        _chPJJbpM = {
+            "id" = "chPJJbpM";
+            "file" = "simple_waterloggable_redstone-1.0.0.jar";
+            "hash" = "sha512-FYb5wpdH4DhEzM5/gBoGpXntMN3KvV+N97+sRsg818hQt+t1wk07CobU7n2mxiM9ijTgkMJkNx/onqk3Dw8UNQ==";
+        };
+        _88HN1Ab7 = {
+            "id" = "88HN1Ab7";
+            "file" = "simple_waterloggable_redstone-1.0.0.jar";
+            "hash" = "sha512-NZqubdZegu54jgEx8Uu5WRoUd4B5ccZxQ/gHRQ4QIb2/gSMgkywc/sQaoOSCZrB+Q5FdaQUnlvCtzG+hwP12rw==";
+        };
+        _g7JovuNQ = {
+            "id" = "g7JovuNQ";
+            "file" = "simple_waterloggable_redstone-1.0.0.jar";
+            "hash" = "sha512-2IBNdWHoUYIaMYElNoo//b/utpRw/ZUBvp4HmeQReIeSTeDuJ43djQymLBAdNEvQzyUU0dE2yUmKcODlZO0SEQ==";
+        };
+        _DqzjcE1U = {
+            "id" = "DqzjcE1U";
+            "file" = "simple_waterloggable_redstone-1.0.0.jar";
+            "hash" = "sha512-MbfOIiw7zWkQNfSa3qf7qsPfdCDN+I8CBliRI2KbFhXQB3pMb/DfADO3T7TNKanGakOe7IlQdXZnvBZ8eXfoxg==";
+        };
+        _o4LAZ5On = {
+            "id" = "o4LAZ5On";
+            "file" = "simple_waterloggable_redstone-1.0.0.jar";
+            "hash" = "sha512-tXOjAb4SC0pNAT+719ibtWCP6wUifCVEwv/VgvZXsNupDv72DXv7jb1whUBvMS5mXiddtiG2v0t2RrxWTHQdKQ==";
+        };
+        _BzktNMIi = {
+            "id" = "BzktNMIi";
+            "file" = "simple_waterloggable_redstone-1.0.0.jar";
+            "hash" = "sha512-ny4UTKU02wiTXiZYrE8Ue3/PehHZ6z4eyYs04hQndsJWaL/HTPMQGW9Y/STSSvaNkBe6aeKJi+avIhKHl0Al0w==";
+        };
+        _XfjMaFEB = {
+            "id" = "XfjMaFEB";
+            "file" = "simple_waterloggable_redstone-1.0.0.jar";
+            "hash" = "sha512-rS13HMg8WLRF9mVMmmNgclgYtggQC1qS7mUx1rRcfJqhuUwet1ljSf3Gz7rQK3FQMYkBtAQoRTFlI9u6Rbd5Sg==";
+        };
+        _31m5rIpa = {
+            "id" = "31m5rIpa";
+            "file" = "simple_waterloggable_redstone-1.0.0.jar";
+            "hash" = "sha512-+64DD4H6AVjDAghlEssShioe117vanyAuYwybx6Y/qwUtI+X9r0+TCmP3YUQuCuINoi9caQZAdpZW+elqseuxg==";
+        };
+        _gf3cy7Nu = {
+            "id" = "gf3cy7Nu";
+            "file" = "simple_waterloggable_redstone-1.0.0.jar";
+            "hash" = "sha512-xCS9QlgS3/qA04atWfL+Nxe2KQaoWsNp3wcSjDznzIhq09P2NydLpsQr4V4ChczqQweuD5895gn8wuR4uNLXjA==";
+        };
+        _kAVHhMmj = {
+            "id" = "kAVHhMmj";
+            "file" = "simple_waterloggable_redstone-1.0.0.jar";
+            "hash" = "sha512-R/vq6EurqwBJ6BCKPnaSiaH0xY3Die5tyeugYXWdelC7DIE8w4NdN2VhY3BD3s9hC6K9HYsw8usXQ39bbIVQPQ==";
+        };
+        _xjdUcgdH = {
+            "id" = "xjdUcgdH";
+            "file" = "simple_waterloggable_redstone-1.0.0.jar";
+            "hash" = "sha512-LlsENZ+50p536yXujGhGWHohF19s3F/y3VE7fdc3HfA1pJ3HMBiiygzoZTyDAC1hBLLL8ukTMbCq28UXbEhScQ==";
+        };
+        _ogIqTzmu = {
+            "id" = "ogIqTzmu";
+            "file" = "simple_waterloggable_redstone-1.0.0.jar";
+            "hash" = "sha512-f1qE2r3ilEwz2WRbxQsNC5NZQs1g9mNu2G0uQHpU1RULDlX4valQvP+odoJWFVZb8NqiQ0BN2Hds3BB2m+z0xA==";
+        };
+        _oLnwhnLS = {
+            "id" = "oLnwhnLS";
+            "file" = "simple_waterloggable_redstone-1.0.0.jar";
+            "hash" = "sha512-V0d7UF1bDMRXqqrQQR5LMjjXb2jSRozBG2tsFmnsem1eDQLVVA15qBwwwdiSOBmiPl0NOeNlB02gyO42QbQBag==";
+        };
+        _YJdSBQqh = {
+            "id" = "YJdSBQqh";
+            "file" = "simple_waterloggable_redstone-1.0.0.jar";
+            "hash" = "sha512-HR+ZNEu5KJjXJgAIcd/PO+LU1SkTO+A67quG80MC2z/Sj8dPSn6RefrATbL7IibnTmWFISKelRXC4vNH6IJ5mw==";
+        };
+        _UsZfEqyj = {
+            "id" = "UsZfEqyj";
+            "file" = "simple_waterloggable_redstone-1.0.0.jar";
+            "hash" = "sha512-aDTEgq/SuQPoyGqssP61Rco5cJfLf5ySrLalImWaEIzZIX9o34qbxPjEFQCuqy2NMWQ1WBZqlUm8YmKDvh19zg==";
+        };
+        _dP6fif7R = {
+            "id" = "dP6fif7R";
+            "file" = "simple_waterloggable_redstone-1.0.0.jar";
+            "hash" = "sha512-E94h8Is+8w+8hYgl8PE4aCG5te33ts4/9zxEd7lrcWT6K1Vq2yJKyn9jM7XjAngaX4cslupMCL4vCm5HdHnaMw==";
+        };
+        _fKO7IzXN = {
+            "id" = "fKO7IzXN";
+            "file" = "simple_waterloggable_redstone-1.0.0.jar";
+            "hash" = "sha512-1L3zydsydLeBvrCr4HKjhAWqRrCVfvuws7ZSAB4eM+jo37VeaVNoudNhTxtTyHtZ5qjWfw0DB9/l5UWZ4agU+w==";
+        };
+        _dptYGUTq = {
+            "id" = "dptYGUTq";
+            "file" = "simple_waterloggable_redstone-1.0.0.jar";
+            "hash" = "sha512-3ozfjt8r1s9b5sHCkciklfUk2ypIUwzqoMnYw9MWziBkggqyFP4R+vmYglOh+eNFiK3+zOaqoe/Km487kpSZUg==";
+        };
+        _rbgYLKEP = {
+            "id" = "rbgYLKEP";
+            "file" = "simple_waterloggable_redstone-1.0.0.jar";
+            "hash" = "sha512-3AT4pXNOLU/4IQN7KKVEq256Qj4yDgoosa80Rjy5aB/FXFLbZoRTkhmvxRCB8tvqP86F3fvDtn5/wTIC+Cw13w==";
+        };
+        _JIAJ4fHW = {
+            "id" = "JIAJ4fHW";
+            "file" = "simple_waterloggable_redstone-1.0.0.jar";
+            "hash" = "sha512-LYT3ko5QYuCSmj7lA37QvpixXd2sO0yh7nCKtupZbh06J1AILzwGiDRNUaZotBXxrMO3emHagiWnT0nuI3NJDQ==";
+        };
+        _jYZAK3Wo = {
+            "id" = "jYZAK3Wo";
+            "file" = "simple_waterloggable_redstone-1.0.0.jar";
+            "hash" = "sha512-5IX7/Ttc8GfSS3GT5Bv+6HAkcvN3G4vvizVbDeiWTUZpluZFQbFySfTKd+UpRbLiAI1P95BmY8qlMi2/xESflQ==";
+        };
+        _PujI3ewX = {
+            "id" = "PujI3ewX";
+            "file" = "simple_waterloggable_redstone-1.0.0.jar";
+            "hash" = "sha512-v4u8yaO9BncMu3w4wrvoyPf5GHk29u1zYHaYImy9mf5H0jFAiooD2BduJNPSaSkVB+Rtf5r6YE4BLuP2sRBhpg==";
+        };
+        _x1puienr = {
+            "id" = "x1puienr";
+            "file" = "simple_waterloggable_redstone-1.0.0.jar";
+            "hash" = "sha512-stvXtLyqjYPmHERdO/ocgX/sCWEX/TFqMqdUwEJVghTQGjCNkrDnsKUDFImmCBhKA8IT7n4Sdb8bQ0PFD9rVqg==";
+        };
+        _5FSJGDiB = {
+            "id" = "5FSJGDiB";
+            "file" = "simple_waterloggable_redstone-1.0.0.jar";
+            "hash" = "sha512-9HcyS6MiKt6Y827+p7tS/uPziusxhPtXp29l52GmYA2MM6pHgN5nN5h7MgTpYxALFIph+HBYXBr7T3TEwKbQ1g==";
+        };
+        _fliA4W60 = {
+            "id" = "fliA4W60";
+            "file" = "simple_waterloggable_redstone-fabric-26.1-1.0.2.jar";
+            "hash" = "sha512-X9SNGAgw50nW2MkQvdx+uHh7CAYRoKYhhzZP2Qv9An4hrnrGd8hQa5Swy/SzIwNJ4yY+jA+OYH5ZpKjjfOkCvQ==";
+        };
+        _65axwqI6 = {
+            "id" = "65axwqI6";
+            "file" = "simple_waterloggable_redstone-forge-26.1-1.0.2.jar";
+            "hash" = "sha512-iQsvPvkRy4JpGxya/QoHKwYG6noF/a/DnRLaivDndJss68xIJEUUfKuNd2Jzoda5cS4ox3hktJD8BBZkcVILvQ==";
+        };
+        _EUqini1L = {
+            "id" = "EUqini1L";
+            "file" = "simple_waterloggable_redstone-neoforge-26.1-1.0.2.jar";
+            "hash" = "sha512-nDnw3TF3Ct+DrSFkYoSPoUqoy5pyUitEvH/29ATaEX89sYNeZJuAbKw0p4MBI38kJPAS9R2GRuE7TpPK/WgNlw==";
+        };
+        _Q0QXZauc = {
+            "id" = "Q0QXZauc";
+            "file" = "Simple Waterloggable Redstone Plugin-1.0.0.jar";
+            "hash" = "sha512-o34HvG/E60RayEhRq4L1WYKmLNSspjnhWVDAIkNYUgAXqFd08ah76tuKYGSRpIZxbpRGptkgkbfEyAg6ImKyyQ==";
+        };
+        _259WQHFx = {
+            "id" = "259WQHFx";
+            "file" = "Simple Waterloggable Redstone Plugin-1.0.0.jar";
+            "hash" = "sha512-8pSgd2uC9UQNxZq1A2lQKlTMTdhuEAG4ZBD7zgWefYsWpBh9x6j29ap2Poat2Fxxg0JM/cJrkUYn9RjLYSDVUA==";
+        };
+        _HaARYPNd = {
+            "id" = "HaARYPNd";
+            "file" = "Simple Waterloggable Redstone Plugin-1.1.1.jar";
+            "hash" = "sha512-rOrUVJi8pR0s/o4ljPn0eBYxTfkwVxGMvegSkgIxQ+ZbzxMvECXnUS8SULQ9SJ1h4JZnliBnPcWwz322T/pLtg==";
+        };
+        _VoAAzNTQ = {
+            "id" = "VoAAzNTQ";
+            "file" = "Simple Waterloggable Redstone Plugin-1.1.2.jar";
+            "hash" = "sha512-yzwvzAj7il/9FKF4hEgj9HQukYtkQiKZPONjYiFGHvvGvwbVejy7et5QvNkPmOA4JzH83zm/1fxmtg83Yx8hNQ==";
+        };
+        _myzytMyq = {
+            "id" = "myzytMyq";
+            "file" = "simple_waterloggable_redstone-fabric-1.21.3-1.0.2.jar";
+            "hash" = "sha512-kHh0BdKlE8NNCnsg/vDptS1AcMJcHAmLtTn2IQFL3J7QberKiOiyy/sJxGYA4fBpY4+Rn+rDe2dZk4qqDfwDpQ==";
+        };
+        _101F2kLm = {
+            "id" = "101F2kLm";
+            "file" = "simple_waterloggable_redstone-neoforge-1.21.3-1.0.2.jar";
+            "hash" = "sha512-D06rFSWKvCPb8y0AdP4qPyg3q66J5VQSx2rji/FarQg0lUna4Ch4v+P7NvVWW0Y7vxdDjnCC2GhFGibiONWr/g==";
+        };
+        _8VUqKgbn = {
+            "id" = "8VUqKgbn";
+            "file" = "simple_waterloggable_redstone-forge-1.21.3-1.0.2.jar";
+            "hash" = "sha512-5wRWooU4f+udojKo7CSJDEa7T+g9K3JQwAAs6FEIsIRkV779uVIFyA5UE8atMBYJGrhT+fQ3ZkgpB46Z6dfrVg==";
+        };
+        _7uLJCVgA = {
+            "id" = "7uLJCVgA";
+            "file" = "simple_waterloggable_redstone-fabric-1.20.6-1.0.2.jar";
+            "hash" = "sha512-q1PtJBHJIWh9YRhNhyVBOWYcKnYy6F3rmdTSzpQBz0FN7j8X9bM1BgX/Ll9Ak2O8WefMxcWsQKiAZH/6p5GeIQ==";
+        };
+        _u03VurWe = {
+            "id" = "u03VurWe";
+            "file" = "simple_waterloggable_redstone-neoforge-1.20.6-1.0.2.jar";
+            "hash" = "sha512-D2dtcH+Lw6YVMEwRxzb0aueTQKEa/tibSfsddiC/MdfgIvQAXVIHWDdwGrEBuJ+XTUvVEMMfSSErERFu/8zAqg==";
+        };
+        _vrQyqICl = {
+            "id" = "vrQyqICl";
+            "file" = "simple_waterloggable_redstone-forge-1.20.6-1.0.2.jar";
+            "hash" = "sha512-RxVAHydqe8Ja6saJUmDsuCsYUtKq2XgbzVL4mxw1rk0ZP3WK6f0lmNTXRjLn7iEKeyl2pYkastbUfn74AdwXSQ==";
+        };
+        _WCm76WGz = {
+            "id" = "WCm76WGz";
+            "file" = "simple_waterloggable_redstone-fabric-1.20.3-1.0.2.jar";
+            "hash" = "sha512-wSz839/CGGIoH5UsEpeb/0ZVTMo1zCaIkOan3wpsJeTvezahu92g/NnYxKUTRvskXK+UxgMlRCZSh1fblZMq8A==";
+        };
+        _Jurt6kCv = {
+            "id" = "Jurt6kCv";
+            "file" = "simple_waterloggable_redstone-forge-1.20.3-1.0.2.jar";
+            "hash" = "sha512-ep+6WvPou1Ljsg8J8VnTTe+eCfIBGj5loOdJUWDpPDzAx0ZGwzxoG5GpEa8YuSLK0cU76gsWbxzO7vsXqwvJGg==";
+        };
+        _IWiEFV6S = {
+            "id" = "IWiEFV6S";
+            "file" = "simple_waterloggable_redstone-neoforge-1.20.3-1.0.2.jar";
+            "hash" = "sha512-xAWqfmByzPtYA/Qn5aikgK5m+m7e3rAxUWOIsPh6wsxNi1gRTtFBaHtjGN1dJikJHuyR5kIJwPpFYuHEcSCtUQ==";
+        };
+        _b4cmtBxM = {
+            "id" = "b4cmtBxM";
+            "file" = "simple_waterloggable_redstone-fabric-1.20.2-1.0.2.jar";
+            "hash" = "sha512-ZMChAYiG/IVsOXqGobhfFBmLAuCAbNoBtelNzOA70ZEJc0w0woF+TaSPdgflWKadtgwJtgGeVN15373Gf1oB4w==";
+        };
+        _v7f0SCMu = {
+            "id" = "v7f0SCMu";
+            "file" = "simple_waterloggable_redstone-forge-1.20.2-1.0.2.jar";
+            "hash" = "sha512-cJrBN5nu4/L/Zq3pAhylj5d+Wah/rKsSbdckcS5hHB/LZ8/5f8U+cA/yEkfOjJ8JcqQ8ggJiUp3y+YrEUwvdYQ==";
+        };
+        _kPHdcq8B = {
+            "id" = "kPHdcq8B";
+            "file" = "simple_waterloggable_redstone-neoforge-1.20.2-1.0.2.jar";
+            "hash" = "sha512-djgRsclUkztp8keFjTnghKlTIh2ENRuOQ+t1TndfawTCVa+rtENXG8orh9AtizoLB8wq7ZG7Wif7A51aNCLX8w==";
+        };
+        _I77wkRoQ = {
+            "id" = "I77wkRoQ";
+            "file" = "simple_waterloggable_redstone-fabric-1.19.4-1.0.2.jar";
+            "hash" = "sha512-C9h5dVFLqgVU400GvRKzvjJQ38IjxTYj0eIFoJIoZD92ciorfGBSeCCYlKt7icdf0KIYERMDDcR58+YrMI5Kew==";
+        };
+        _yfd3XLuV = {
+            "id" = "yfd3XLuV";
+            "file" = "simple_waterloggable_redstone-forge-1.19.4-1.0.2.jar";
+            "hash" = "sha512-RbpE1ccyNjs6kdgXdH6FN4EWRoTDQxh/cTyiVQBrzuUD5x7DJWuRbtpjczjLKFkLpvrVDqcWE0OxGA6cGyMdkA==";
+        };
+        _z1jFMimk = {
+            "id" = "z1jFMimk";
+            "file" = "simple_waterloggable_redstone-fabric-1.19.3-1.0.2.jar";
+            "hash" = "sha512-9kjl3FI4pbiRDNvhoik0vTcTzuOGlZ4sJ+3bQPx0othy34FxOP+FNmGlFtHbzX2DSgcTMh4Sxbwv8YIvFPt19A==";
+        };
+        _aXZeR88V = {
+            "id" = "aXZeR88V";
+            "file" = "simple_waterloggable_redstone-forge-1.19.3-1.0.2.jar";
+            "hash" = "sha512-L4f/E4xjmtHw4u0R6L+oEhjP6hYk690AFysRUOKR1EopGM7pufeLNRYhve7vzFROiReE00ZcQSeRBCqNmi/ONw==";
+        };
+        _QbI3VJ8e = {
+            "id" = "QbI3VJ8e";
+            "file" = "Simple Waterloggable Redstone-forge-1.18-1.0.2.jar";
+            "hash" = "sha512-/bMX2Mx/RlcVVFgO0/2S1CEzIQ3wWQM7W4Jr6gGV+TNoe1G/zBbN9p+vqyPRxRL+2EXhMBjz8NXU6hN8PFzyBw==";
+        };
+        _nQS68IBX = {
+            "id" = "nQS68IBX";
+            "file" = "Simple Waterloggable Redstone-forge-1.17.1-1.0.2.jar";
+            "hash" = "sha512-M8wxLeXnXL9mNqGjAqQBlbEOCO4/+de6N7XupT9JlLGsA9PgZgsNrQPj6hzViSQgHkmDjwU4rA/2kG5t8BtgIg==";
+        };
+        _4wQcLAtM = {
+            "id" = "4wQcLAtM";
+            "file" = "simple_waterloggable_redstone-fabric-26.2-1.0.2.jar";
+            "hash" = "sha512-yU6hR+Hf0FFjI6tRJUfh430whXZMT6EhUWw7N4d3UL1083Lp/Ob6FMHBcvb1XZz6KIx3Occvw9eaP+v68hKRKg==";
+        };
+        _7LjvVVox = {
+            "id" = "7LjvVVox";
+            "file" = "simple_waterloggable_redstone-neoforge-26.2-1.0.2.jar";
+            "hash" = "sha512-6ROEdgTVCQFJUEpcOx/qotAU917AnRtFNbXZ+cs1/UbvmWVMQM3J737JEyFoXKCyZLNNs9XVMh3iSK//A4SQDg==";
+        };
+        _gr87hWh1 = {
+            "id" = "gr87hWh1";
+            "file" = "simple_waterloggable_redstone-forge-26.2-1.0.2.jar";
+            "hash" = "sha512-UpxlgxHQcShQgap/J3Sh9RlTRDAiahuHNvOSq1dPxK7CGZvcufdlbVQ4ukuXSCafSdJOThFOKykjwWtLFBIEJQ==";
+        };
+    in {
+        "KJpeJpcP" = _KJpeJpcP;
+        "Dppqnwtm" = _Dppqnwtm;
+        "ARzFKZmW" = _ARzFKZmW;
+        "lPU1oFiK" = _lPU1oFiK;
+        "xTZDd4Ts" = _xTZDd4Ts;
+        "TOLV3BAf" = _TOLV3BAf;
+        "UTuAOZxs" = _UTuAOZxs;
+        "7UHF8fAO" = _7UHF8fAO;
+        "gO0vOE87" = _gO0vOE87;
+        "T8asLt7P" = _T8asLt7P;
+        "zg4J4fAj" = _zg4J4fAj;
+        "xWbNoUy2" = _xWbNoUy2;
+        "u5ZPsyLl" = _u5ZPsyLl;
+        "Vg7EzZuJ" = _Vg7EzZuJ;
+        "IyfZfsWh" = _IyfZfsWh;
+        "tbLUWm4Q" = _tbLUWm4Q;
+        "Cja6KkSP" = _Cja6KkSP;
+        "sWMWoZvq" = _sWMWoZvq;
+        "SQ9mqneL" = _SQ9mqneL;
+        "chPJJbpM" = _chPJJbpM;
+        "88HN1Ab7" = _88HN1Ab7;
+        "g7JovuNQ" = _g7JovuNQ;
+        "DqzjcE1U" = _DqzjcE1U;
+        "o4LAZ5On" = _o4LAZ5On;
+        "BzktNMIi" = _BzktNMIi;
+        "XfjMaFEB" = _XfjMaFEB;
+        "31m5rIpa" = _31m5rIpa;
+        "gf3cy7Nu" = _gf3cy7Nu;
+        "kAVHhMmj" = _kAVHhMmj;
+        "xjdUcgdH" = _xjdUcgdH;
+        "ogIqTzmu" = _ogIqTzmu;
+        "oLnwhnLS" = _oLnwhnLS;
+        "YJdSBQqh" = _YJdSBQqh;
+        "UsZfEqyj" = _UsZfEqyj;
+        "dP6fif7R" = _dP6fif7R;
+        "fKO7IzXN" = _fKO7IzXN;
+        "dptYGUTq" = _dptYGUTq;
+        "rbgYLKEP" = _rbgYLKEP;
+        "JIAJ4fHW" = _JIAJ4fHW;
+        "jYZAK3Wo" = _jYZAK3Wo;
+        "PujI3ewX" = _PujI3ewX;
+        "x1puienr" = _x1puienr;
+        "5FSJGDiB" = _5FSJGDiB;
+        "fliA4W60" = _fliA4W60;
+        "65axwqI6" = _65axwqI6;
+        "EUqini1L" = _EUqini1L;
+        "Q0QXZauc" = _Q0QXZauc;
+        "259WQHFx" = _259WQHFx;
+        "HaARYPNd" = _HaARYPNd;
+        "VoAAzNTQ" = _VoAAzNTQ;
+        "myzytMyq" = _myzytMyq;
+        "101F2kLm" = _101F2kLm;
+        "8VUqKgbn" = _8VUqKgbn;
+        "7uLJCVgA" = _7uLJCVgA;
+        "u03VurWe" = _u03VurWe;
+        "vrQyqICl" = _vrQyqICl;
+        "WCm76WGz" = _WCm76WGz;
+        "Jurt6kCv" = _Jurt6kCv;
+        "IWiEFV6S" = _IWiEFV6S;
+        "b4cmtBxM" = _b4cmtBxM;
+        "v7f0SCMu" = _v7f0SCMu;
+        "kPHdcq8B" = _kPHdcq8B;
+        "I77wkRoQ" = _I77wkRoQ;
+        "yfd3XLuV" = _yfd3XLuV;
+        "z1jFMimk" = _z1jFMimk;
+        "aXZeR88V" = _aXZeR88V;
+        "QbI3VJ8e" = _QbI3VJ8e;
+        "nQS68IBX" = _nQS68IBX;
+        "4wQcLAtM" = _4wQcLAtM;
+        "7LjvVVox" = _7LjvVVox;
+        "gr87hWh1" = _gr87hWh1;
+        "fabric-1.21.10" = _myzytMyq;
+        "fabric-1.21.11" = _myzytMyq;
+        "fabric-1.21.9" = _myzytMyq;
+        "fabric-1.21.8" = _myzytMyq;
+        "fabric-1.21.7" = _myzytMyq;
+        "fabric-1.21.6" = _myzytMyq;
+        "fabric-1.21.5" = _myzytMyq;
+        "fabric-1.21.4" = _myzytMyq;
+        "fabric-1.21.3" = _myzytMyq;
+        "fabric-1.21.2" = _myzytMyq;
+        "fabric-1.21.1" = _7uLJCVgA;
+        "fabric-1.21" = _7uLJCVgA;
+        "fabric-1.20.6" = _7uLJCVgA;
+        "fabric-1.20.5" = _7uLJCVgA;
+        "fabric-1.20.4" = _WCm76WGz;
+        "fabric-1.20.3" = _WCm76WGz;
+        "fabric-1.20.2" = _b4cmtBxM;
+        "fabric-1.20.1" = _I77wkRoQ;
+        "fabric-1.20" = _I77wkRoQ;
+        "fabric-1.19.4" = _I77wkRoQ;
+        "fabric-1.19.3" = _z1jFMimk;
+        "fabric-1.19.2" = _g7JovuNQ;
+        "fabric-1.19.1" = _DqzjcE1U;
+        "fabric-1.19" = _o4LAZ5On;
+        "fabric-1.18.2" = _BzktNMIi;
+        "fabric-1.18.1" = _XfjMaFEB;
+        "fabric-1.18" = _31m5rIpa;
+        "fabric-1.17.1" = _gf3cy7Nu;
+        "fabric-1.17" = _kAVHhMmj;
+        "fabric-1.16.5" = _xjdUcgdH;
+        "fabric-1.16.4" = _ogIqTzmu;
+        "fabric-1.16.3" = _oLnwhnLS;
+        "fabric-1.16.2" = _YJdSBQqh;
+        "fabric-1.16.1" = _UsZfEqyj;
+        "fabric-1.16" = _dP6fif7R;
+        "fabric-1.15.2" = _fKO7IzXN;
+        "fabric-1.15.1" = _dptYGUTq;
+        "fabric-1.15" = _rbgYLKEP;
+        "fabric-1.14.4" = _JIAJ4fHW;
+        "fabric-1.14.3" = _jYZAK3Wo;
+        "fabric-1.14.2" = _PujI3ewX;
+        "fabric-1.14.1" = _x1puienr;
+        "fabric-1.14" = _5FSJGDiB;
+        "fabric-26.1" = _fliA4W60;
+        "fabric-26.1.1" = _fliA4W60;
+        "fabric-26.1.2" = _fliA4W60;
+        "fabric-26.2" = _4wQcLAtM;
+        "quilt-26.1" = _fliA4W60;
+        "quilt-26.1.1" = _fliA4W60;
+        "quilt-26.1.2" = _fliA4W60;
+        "quilt-1.21.2" = _myzytMyq;
+        "quilt-1.21.3" = _myzytMyq;
+        "quilt-1.21.4" = _myzytMyq;
+        "quilt-1.21.5" = _myzytMyq;
+        "quilt-1.21.6" = _myzytMyq;
+        "quilt-1.21.7" = _myzytMyq;
+        "quilt-1.21.8" = _myzytMyq;
+        "quilt-1.21.9" = _myzytMyq;
+        "quilt-1.21.10" = _myzytMyq;
+        "quilt-1.21.11" = _myzytMyq;
+        "quilt-1.20.5" = _7uLJCVgA;
+        "quilt-1.20.6" = _7uLJCVgA;
+        "quilt-1.21" = _7uLJCVgA;
+        "quilt-1.21.1" = _7uLJCVgA;
+        "quilt-1.20.3" = _WCm76WGz;
+        "quilt-1.20.4" = _WCm76WGz;
+        "quilt-1.20.2" = _b4cmtBxM;
+        "quilt-1.19.4" = _I77wkRoQ;
+        "quilt-1.20" = _I77wkRoQ;
+        "quilt-1.20.1" = _I77wkRoQ;
+        "quilt-1.19.3" = _z1jFMimk;
+        "forge-26.1" = _65axwqI6;
+        "forge-26.1.1" = _65axwqI6;
+        "forge-26.1.2" = _65axwqI6;
+        "forge-1.21.3" = _8VUqKgbn;
+        "forge-1.21.4" = _8VUqKgbn;
+        "forge-1.21.5" = _8VUqKgbn;
+        "forge-1.21.6" = _8VUqKgbn;
+        "forge-1.21.7" = _8VUqKgbn;
+        "forge-1.21.8" = _8VUqKgbn;
+        "forge-1.21.9" = _8VUqKgbn;
+        "forge-1.21.10" = _8VUqKgbn;
+        "forge-1.21.11" = _8VUqKgbn;
+        "forge-1.20.6" = _vrQyqICl;
+        "forge-1.21" = _vrQyqICl;
+        "forge-1.21.1" = _vrQyqICl;
+        "forge-1.20.3" = _Jurt6kCv;
+        "forge-1.20.4" = _Jurt6kCv;
+        "forge-1.20.2" = _v7f0SCMu;
+        "forge-1.19.4" = _yfd3XLuV;
+        "forge-1.20" = _yfd3XLuV;
+        "forge-1.20.1" = _yfd3XLuV;
+        "forge-1.19.3" = _aXZeR88V;
+        "forge-1.18" = _QbI3VJ8e;
+        "forge-1.18.1" = _QbI3VJ8e;
+        "forge-1.18.2" = _QbI3VJ8e;
+        "forge-1.19" = _QbI3VJ8e;
+        "forge-1.19.1" = _QbI3VJ8e;
+        "forge-1.19.2" = _QbI3VJ8e;
+        "forge-1.17.1" = _nQS68IBX;
+        "forge-26.2" = _gr87hWh1;
+        "neoforge-26.1" = _EUqini1L;
+        "neoforge-26.1.1" = _EUqini1L;
+        "neoforge-26.1.2" = _EUqini1L;
+        "neoforge-1.21.2" = _101F2kLm;
+        "neoforge-1.21.3" = _101F2kLm;
+        "neoforge-1.21.4" = _101F2kLm;
+        "neoforge-1.21.5" = _101F2kLm;
+        "neoforge-1.21.6" = _101F2kLm;
+        "neoforge-1.21.7" = _101F2kLm;
+        "neoforge-1.21.8" = _101F2kLm;
+        "neoforge-1.21.9" = _101F2kLm;
+        "neoforge-1.21.10" = _101F2kLm;
+        "neoforge-1.21.11" = _101F2kLm;
+        "neoforge-1.20.5" = _u03VurWe;
+        "neoforge-1.20.6" = _u03VurWe;
+        "neoforge-1.21" = _u03VurWe;
+        "neoforge-1.21.1" = _u03VurWe;
+        "neoforge-1.20.3" = _IWiEFV6S;
+        "neoforge-1.20.4" = _IWiEFV6S;
+        "neoforge-1.20.2" = _kPHdcq8B;
+        "neoforge-26.2" = _7LjvVVox;
+        "bukkit-1.21.11" = _VoAAzNTQ;
+        "bukkit-1.21" = _VoAAzNTQ;
+        "bukkit-1.21.1" = _VoAAzNTQ;
+        "bukkit-1.21.2" = _VoAAzNTQ;
+        "bukkit-1.21.3" = _VoAAzNTQ;
+        "bukkit-1.21.4" = _VoAAzNTQ;
+        "bukkit-1.21.5" = _VoAAzNTQ;
+        "bukkit-1.21.6" = _VoAAzNTQ;
+        "bukkit-1.21.7" = _VoAAzNTQ;
+        "bukkit-1.21.8" = _VoAAzNTQ;
+        "bukkit-1.21.9" = _VoAAzNTQ;
+        "bukkit-1.21.10" = _VoAAzNTQ;
+        "paper-1.21.11" = _VoAAzNTQ;
+        "paper-1.21" = _VoAAzNTQ;
+        "paper-1.21.1" = _VoAAzNTQ;
+        "paper-1.21.2" = _VoAAzNTQ;
+        "paper-1.21.3" = _VoAAzNTQ;
+        "paper-1.21.4" = _VoAAzNTQ;
+        "paper-1.21.5" = _VoAAzNTQ;
+        "paper-1.21.6" = _VoAAzNTQ;
+        "paper-1.21.7" = _VoAAzNTQ;
+        "paper-1.21.8" = _VoAAzNTQ;
+        "paper-1.21.9" = _VoAAzNTQ;
+        "paper-1.21.10" = _VoAAzNTQ;
+        "spigot-1.21.11" = _VoAAzNTQ;
+        "spigot-1.21" = _VoAAzNTQ;
+        "spigot-1.21.1" = _VoAAzNTQ;
+        "spigot-1.21.2" = _VoAAzNTQ;
+        "spigot-1.21.3" = _VoAAzNTQ;
+        "spigot-1.21.4" = _VoAAzNTQ;
+        "spigot-1.21.5" = _VoAAzNTQ;
+        "spigot-1.21.6" = _VoAAzNTQ;
+        "spigot-1.21.7" = _VoAAzNTQ;
+        "spigot-1.21.8" = _VoAAzNTQ;
+        "spigot-1.21.9" = _VoAAzNTQ;
+        "spigot-1.21.10" = _VoAAzNTQ;
+        "pkg-1.0.0" = _Q0QXZauc;
+        "pkg-1.0.2" = _gr87hWh1;
+        "pkg-1.1.0" = _259WQHFx;
+        "pkg-1.1.1" = _HaARYPNd;
+        "pkg-1.1.2" = _VoAAzNTQ;
+        "default" = _gr87hWh1;
+    });
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "jrw";
+        id = "aznwOQTM";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-All-Rights-Reserved";
+                shortName = "LicenseRef-All-Rights-Reserved";
+                url = null;
+            };
+        };
+    };
+in callPackage fn {}

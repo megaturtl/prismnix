@@ -51,6 +51,16 @@ let
             "file" = "paladin_spells-1.20.1-1.1.1.jar";
             "hash" = "sha512-GEwLFHhzX81HbYyFzgYTAhQ2frmvhbwbQ2NBv0/NC0UpboRO9wzD1uHFWpORZnGhc78IxB05XtaZeIIx6Y9YzA==";
         };
+        _F3EOzJt5 = {
+            "id" = "F3EOzJt5";
+            "file" = "paladin_spells-1.20.1-1.1.2.jar";
+            "hash" = "sha512-6mo4SPEhOCqek4dhFO9ulOTvFF1bQYKVKSRQqzhOGBA92gQdzGUtRxsShPDYA2+TP6eCEnW+Qr9A5kdaTz7/8Q==";
+        };
+        _x1Inquh3 = {
+            "id" = "x1Inquh3";
+            "file" = "paladin_spells-1.21.1-1.1.2.jar";
+            "hash" = "sha512-wg/kGHWPzPpmN8yJ/FIXf395oX+lP6d6QepK4GsxJmaFFalp3Zd4buoJAydzLKgdCBPt5QrHolaPppSIdnw0HQ==";
+        };
     in {
         "SuQvfjoY" = _SuQvfjoY;
         "SNBIYEK7" = _SNBIYEK7;
@@ -62,14 +72,16 @@ let
         "5gvpiKFB" = _5gvpiKFB;
         "qV95qJ9L" = _qV95qJ9L;
         "ivCoB0PK" = _ivCoB0PK;
-        "forge-1.20" = _ivCoB0PK;
-        "forge-1.20.1" = _ivCoB0PK;
-        "forge-1.20.2" = _ivCoB0PK;
-        "forge-1.20.3" = _ivCoB0PK;
-        "forge-1.20.4" = _ivCoB0PK;
-        "forge-1.20.5" = _ivCoB0PK;
-        "forge-1.20.6" = _ivCoB0PK;
-        "neoforge-1.21.1" = _qV95qJ9L;
+        "F3EOzJt5" = _F3EOzJt5;
+        "x1Inquh3" = _x1Inquh3;
+        "forge-1.20" = _F3EOzJt5;
+        "forge-1.20.1" = _F3EOzJt5;
+        "forge-1.20.2" = _F3EOzJt5;
+        "forge-1.20.3" = _F3EOzJt5;
+        "forge-1.20.4" = _F3EOzJt5;
+        "forge-1.20.5" = _F3EOzJt5;
+        "forge-1.20.6" = _F3EOzJt5;
+        "neoforge-1.21.1" = _x1Inquh3;
         "pkg-1.20.1-0.34" = _SuQvfjoY;
         "pkg-1.20.1-0.342" = _SNBIYEK7;
         "pkg-1.20.1-0.4" = _2iBEhmzH;
@@ -80,7 +92,9 @@ let
         "pkg-1.20.1-1.1.0" = _5gvpiKFB;
         "pkg-1.21.1-1.1.1" = _qV95qJ9L;
         "pkg-1.20.1-1.1.1" = _ivCoB0PK;
-        "default" = _ivCoB0PK;
+        "pkg-1.20.1-1.1.2" = _F3EOzJt5;
+        "pkg-1.21.1-1.1.2" = _x1Inquh3;
+        "default" = _x1Inquh3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "paladin-spells-irons-spells-addon";

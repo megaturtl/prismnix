@@ -16,16 +16,23 @@ let
             "file" = "infinity_protocol-1.4.jar";
             "hash" = "sha512-lpcwn4hOLfWs6+X2UlDJoM4rWArVc8btX4sQ+ely+U3a9aogs4++MlOj6d1JYDfnIFdXP09LgX/GYSWCeI9oSw==";
         };
+        _2chUdSg7 = {
+            "id" = "2chUdSg7";
+            "file" = "infinity_protocol-2.0.jar";
+            "hash" = "sha512-XVEO6+eE0xmLmvQ1HFVmh1nD3UXAUv9VtI+9gZCw/xLw53tj5nAy7GbL8U/ecLU8Q+kDOqIn5GvY4ky8DrO2UQ==";
+        };
     in {
         "EAGwJTEu" = _EAGwJTEu;
         "Pjz9YbXq" = _Pjz9YbXq;
         "yyHVpyWY" = _yyHVpyWY;
+        "2chUdSg7" = _2chUdSg7;
         "fabric-1.20.1" = _Pjz9YbXq;
-        "forge-1.20.1" = _yyHVpyWY;
+        "forge-1.20.1" = _2chUdSg7;
         "pkg-0.3" = _EAGwJTEu;
         "pkg-1.1" = _Pjz9YbXq;
         "pkg-1.4" = _yyHVpyWY;
-        "default" = _yyHVpyWY;
+        "pkg-2.0" = _2chUdSg7;
+        "default" = _2chUdSg7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pugmeowlas-infinity-protocol";

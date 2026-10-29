@@ -276,6 +276,16 @@ let
             "file" = "1.21.4-macrokeybinds-neoforge-2.0.0.jar";
             "hash" = "sha512-IwWTlYpzEBqaooMwL4/qP47/J3i2b9yiB9UvEtGUoMdskYZ7Q1IWcmoy7UGNpVW93XHYpsY5OQWdJVItZYtNFg==";
         };
+        _Yn6cx4HX = {
+            "id" = "Yn6cx4HX";
+            "file" = "26.3-macrokeybinds-fabric-2.0.0.jar";
+            "hash" = "sha512-pMonF8IMzDD/sx1F6iSRIVc4p06h09WJnYSRKsyB+DtnqHiPIcdBR0E9Tsau2J/v7tMVCs7i5Tp5R96RqvP17A==";
+        };
+        _2K8SArG0 = {
+            "id" = "2K8SArG0";
+            "file" = "26.3-macrokeybinds-neoforge-2.0.0.jar";
+            "hash" = "sha512-TxHECfe1bp4exEtTB9NVwm13txqFsK/eFSQY0JNuZ6Q4NdIr1iXzJouIa/gEjtol0OuApziy3xsImrfXwsAI5Q==";
+        };
     in {
         "mbfVMig0" = _mbfVMig0;
         "pA4B7Elr" = _pA4B7Elr;
@@ -332,6 +342,8 @@ let
         "YkWGq35K" = _YkWGq35K;
         "Zwl8YSqR" = _Zwl8YSqR;
         "jxy79kLD" = _jxy79kLD;
+        "Yn6cx4HX" = _Yn6cx4HX;
+        "2K8SArG0" = _2K8SArG0;
         "forge-1.16.5" = _mbfVMig0;
         "forge-1.17.1" = _fadsBMY5;
         "forge-1.18" = _uMtUPowH;
@@ -368,6 +380,7 @@ let
         "fabric-1.21.11" = _w9uvQPmu;
         "fabric-26.1.2" = _VQhiJmqq;
         "fabric-26.2" = _nvTgImXz;
+        "fabric-26.3" = _Yn6cx4HX;
         "neoforge-1.20.2" = _nCNVcwNz;
         "neoforge-1.20.3" = _FxGN2GIW;
         "neoforge-1.20.4" = _FxGN2GIW;
@@ -378,10 +391,11 @@ let
         "neoforge-26.1.2" = _qJcHyGAq;
         "neoforge-26.2" = _YkWGq35K;
         "neoforge-1.21.4" = _jxy79kLD;
+        "neoforge-26.3" = _2K8SArG0;
         "pkg-1.3.0" = _1ADYzH47;
         "pkg-1.3.1" = _yMuYXrwV;
-        "pkg-2.0.0" = _jxy79kLD;
-        "default" = _jxy79kLD;
+        "pkg-2.0.0" = _2K8SArG0;
+        "default" = _2K8SArG0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "macrokeybinds";

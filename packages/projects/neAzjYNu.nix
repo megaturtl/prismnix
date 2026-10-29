@@ -161,6 +161,11 @@ let
             "file" = "CliffBranch-4.3_beta_3.zip";
             "hash" = "sha512-HaXfzsL3k/pFrtfM2Jeai0pKOx+xi4BdYcbcyKEFvPGYDA1jCFhuV7Ir5ncqlsXy7wtXZbgLPv8R6P7uPqsyFQ==";
         };
+        _s2D5kwva = {
+            "id" = "s2D5kwva";
+            "file" = "CliffBranch-4.3_beta_4.zip";
+            "hash" = "sha512-2+Q/25QOzrxxxQA+UTJHfupPewipIG4RhSN7aNJ7oEjq9G7AQi/YlKmfe3p2NfDqWv2xv+Dhy5OuEsBBGN3NqQ==";
+        };
     in {
         "avNAjBqx" = _avNAjBqx;
         "Sm5YWDIx" = _Sm5YWDIx;
@@ -194,6 +199,7 @@ let
         "MWPivp8F" = _MWPivp8F;
         "eFdbdeys" = _eFdbdeys;
         "PcuQFECk" = _PcuQFECk;
+        "s2D5kwva" = _s2D5kwva;
         "datapack-1.21.5" = _JtYl32Fu;
         "datapack-1.21.6" = _JtYl32Fu;
         "datapack-1.21.7" = _JtYl32Fu;
@@ -209,7 +215,8 @@ let
         "datapack-26.3" = _HbyJMo6s;
         "datapack-26.4-snapshot-3" = _MWPivp8F;
         "datapack-26.4-snapshot-4" = _eFdbdeys;
-        "datapack-26.4-snapshot-5" = _PcuQFECk;
+        "datapack-26.4-snapshot-5" = _s2D5kwva;
+        "datapack-26.4-snapshot-6" = _s2D5kwva;
         "fabric-1.21.5" = _EsXwC1fS;
         "fabric-1.21.6" = _EsXwC1fS;
         "fabric-1.21.7" = _EsXwC1fS;
@@ -286,7 +293,8 @@ let
         "pkg-4.3_beta_1" = _MWPivp8F;
         "pkg-4.3_beta_2" = _eFdbdeys;
         "pkg-4.3_beta_3" = _PcuQFECk;
-        "default" = _PcuQFECk;
+        "pkg-4.3_beta_4" = _s2D5kwva;
+        "default" = _s2D5kwva;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cliffbranch";

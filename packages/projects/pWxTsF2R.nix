@@ -51,6 +51,11 @@ let
             "file" = "ravenclawspingequalizer-1.5+26.2.jar";
             "hash" = "sha512-8wBTVNO6C5uqb75Ic0LGiq6eehRZWoV96uk+Ihts5IU0SAazhkNkCstUa3InfG1D5Ki0vyAR2BzQ1tOCtjwWTA==";
         };
+        _eG0khQll = {
+            "id" = "eG0khQll";
+            "file" = "ravenclawspingequalizer-1.5+26.3.jar";
+            "hash" = "sha512-7OVheuxsD1ZOYsFKBubp/YboAjzrCyEbRACQszbGfjADwho4AXxkV/TFLXnCxSqrSZb+wmYwy11BkhgifXSBrQ==";
+        };
     in {
         "2W81Elnz" = _2W81Elnz;
         "Y1OjRg31" = _Y1OjRg31;
@@ -62,6 +67,7 @@ let
         "mPv8JEd8" = _mPv8JEd8;
         "6kGLdnm2" = _6kGLdnm2;
         "9v2tALGV" = _9v2tALGV;
+        "eG0khQll" = _eG0khQll;
         "fabric-1.20" = _Y1OjRg31;
         "fabric-1.20.1" = _Y1OjRg31;
         "fabric-1.20.2" = _Y1OjRg31;
@@ -85,6 +91,7 @@ let
         "fabric-26.1.1" = _9v2tALGV;
         "fabric-26.1.2" = _9v2tALGV;
         "fabric-26.2" = _9v2tALGV;
+        "fabric-26.3" = _eG0khQll;
         "pkg-1.0" = _2W81Elnz;
         "pkg-1.1" = _Y1OjRg31;
         "pkg-1.2" = _5MQ93uce;
@@ -95,7 +102,8 @@ let
         "pkg-1.4.2" = _mPv8JEd8;
         "pkg-1.5+1.21.x" = _6kGLdnm2;
         "pkg-1.5+26.x" = _9v2tALGV;
-        "default" = _9v2tALGV;
+        "pkg-1.5+26.3" = _eG0khQll;
+        "default" = _eG0khQll;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ravenclaws-ping-equalizer";

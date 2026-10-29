@@ -346,6 +346,11 @@ let
             "file" = "hoetweaks-26.3.0-3.7.jar";
             "hash" = "sha512-K9WRyfTZKaKEmKpCZ2NUUTwlD4qaeK9rDgOeujSm+48frWCsJN2FiY1OWQA9c7bdpI6QU7s7Kpn3btNPt4510A==";
         };
+        _9ER2VYdr = {
+            "id" = "9ER2VYdr";
+            "file" = "hoetweaks-26.1.2-3.7.jar";
+            "hash" = "sha512-rriEo0sBvOY2CcjQRSuXbzqxabdI76tT/OSwSAZFoHn5FshFrG+M7/5+JgxQb3+lZ15jaKLkpYoaTDYAtlFn5g==";
+        };
     in {
         "clPSyZ6p" = _clPSyZ6p;
         "8mISjksv" = _8mISjksv;
@@ -416,6 +421,7 @@ let
         "5y2quRgg" = _5y2quRgg;
         "hzBwOfuS" = _hzBwOfuS;
         "k1cwOJnj" = _k1cwOJnj;
+        "9ER2VYdr" = _9ER2VYdr;
         "fabric-1.16.5" = _xlCOuEAi;
         "fabric-1.18.2" = _ySVqgtHw;
         "fabric-1.19.2" = _bAyDOvl9;
@@ -442,7 +448,7 @@ let
         "fabric-1.21.11" = _wGbI0Y8A;
         "fabric-26.1" = _N08Ltdke;
         "fabric-26.1.1" = _gxaIsMqg;
-        "fabric-26.1.2" = _w3Y3jb6w;
+        "fabric-26.1.2" = _9ER2VYdr;
         "fabric-26.2" = _hzBwOfuS;
         "fabric-26.3" = _k1cwOJnj;
         "forge-1.16.5" = _SBtxsHqk;
@@ -469,7 +475,7 @@ let
         "forge-1.21.11" = _wGbI0Y8A;
         "forge-26.1" = _N08Ltdke;
         "forge-26.1.1" = _gxaIsMqg;
-        "forge-26.1.2" = _w3Y3jb6w;
+        "forge-26.1.2" = _9ER2VYdr;
         "forge-26.2" = _hzBwOfuS;
         "forge-26.3" = _k1cwOJnj;
         "quilt-1.18.2" = _ySVqgtHw;
@@ -497,7 +503,7 @@ let
         "quilt-1.21.11" = _wGbI0Y8A;
         "quilt-26.1" = _N08Ltdke;
         "quilt-26.1.1" = _gxaIsMqg;
-        "quilt-26.1.2" = _w3Y3jb6w;
+        "quilt-26.1.2" = _9ER2VYdr;
         "quilt-26.2" = _hzBwOfuS;
         "quilt-26.3" = _k1cwOJnj;
         "neoforge-1.20.2" = _7cDzDUQl;
@@ -520,7 +526,7 @@ let
         "neoforge-1.21.11" = _wGbI0Y8A;
         "neoforge-26.1" = _N08Ltdke;
         "neoforge-26.1.1" = _gxaIsMqg;
-        "neoforge-26.1.2" = _w3Y3jb6w;
+        "neoforge-26.1.2" = _9ER2VYdr;
         "neoforge-26.2" = _hzBwOfuS;
         "neoforge-26.3" = _k1cwOJnj;
         "pkg-1.16.5-1.7-fabric" = _clPSyZ6p;
@@ -592,7 +598,8 @@ let
         "pkg-1.21.1-3.7-fabric+forge+neo" = _5y2quRgg;
         "pkg-26.2.0-3.7-fabric+forge+neo" = _hzBwOfuS;
         "pkg-26.3.0-3.7-fabric+forge+neo" = _k1cwOJnj;
-        "default" = _k1cwOJnj;
+        "pkg-26.1.2-3.7-fabric+forge+neo" = _9ER2VYdr;
+        "default" = _9ER2VYdr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hoe-tweaks";

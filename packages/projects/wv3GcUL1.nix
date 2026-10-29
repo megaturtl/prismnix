@@ -286,6 +286,11 @@ let
             "file" = "just_sink-fabric-1.2.0-26.2.jar";
             "hash" = "sha512-0lh/nzpjUg3yJYbwXsw4WTVWZpoLxakaYIXMfX/QUAd15+GBuMWJnrj32ozAjUnhadXqW8+slDy89V+FU2x/xg==";
         };
+        _eZHn7IgC = {
+            "id" = "eZHn7IgC";
+            "file" = "just_sink-neoforge-1.2.7-1.21.1.jar";
+            "hash" = "sha512-058D/Htmb/JkoerCvj9YGtmfXLEFC3DHA5BtrZ5WjwTLijB1LfFr1jlhjCn1Myac6ZS8QdPHb8f54ShPhK1h3A==";
+        };
     in {
         "VUrOhPSP" = _VUrOhPSP;
         "Pq0pVhlD" = _Pq0pVhlD;
@@ -344,7 +349,8 @@ let
         "suAi3SVI" = _suAi3SVI;
         "nBSy3kNZ" = _nBSy3kNZ;
         "pgegSKKu" = _pgegSKKu;
-        "neoforge-1.21.1" = _C57Kmdh5;
+        "eZHn7IgC" = _eZHn7IgC;
+        "neoforge-1.21.1" = _eZHn7IgC;
         "neoforge-1.21" = _rJIQZgZP;
         "neoforge-26.1" = _lcD2luXY;
         "neoforge-26.1.1" = _pXrDjmlS;
@@ -375,7 +381,8 @@ let
         "pkg-1.1.5" = _XfpS459Q;
         "pkg-1.1.5-fixed" = _ujcVOggu;
         "pkg-1.2.0" = _pgegSKKu;
-        "default" = _pgegSKKu;
+        "pkg-1.2.7" = _eZHn7IgC;
+        "default" = _eZHn7IgC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "justsink";

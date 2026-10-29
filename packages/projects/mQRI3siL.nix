@@ -81,6 +81,16 @@ let
             "file" = "mots-structures-1.8.jar";
             "hash" = "sha512-zP7ZfZmJe6RFjjfTmwZ+qu4jFFa/TEL1FHCS2Q4L1/tW9o9UXFgInEZ/U63UjDrfbggzrHppUfZ3dqOn9cpXvg==";
         };
+        _Qz50Xlgp = {
+            "id" = "Qz50Xlgp";
+            "file" = "Mot's Structures v1.9.zip";
+            "hash" = "sha512-sbjxmVeUnReYx87bv2DXR97LYYVxIh+vIfhYbtGbgqUDTb9Zgjb7Zb6I78XUIWt/49aoHVaHE3VpLRKhB3nm9w==";
+        };
+        _wRI03jFQ = {
+            "id" = "wRI03jFQ";
+            "file" = "mots-structures-1.9.jar";
+            "hash" = "sha512-qARJralVpPrJ3g8ISAS0zRIaB+DvHjvLnj0VHa9ZU2G8j5gY3DTFVyI/kfjwpkSR3FBZ1l2gVATnU3yJbWHGDw==";
+        };
     in {
         "Q6h09WJ4" = _Q6h09WJ4;
         "FURf3gu7" = _FURf3gu7;
@@ -98,6 +108,8 @@ let
         "CI0u5A1g" = _CI0u5A1g;
         "ifZ2XaGx" = _ifZ2XaGx;
         "sW4CH0m4" = _sW4CH0m4;
+        "Qz50Xlgp" = _Qz50Xlgp;
+        "wRI03jFQ" = _wRI03jFQ;
         "datapack-1.21.7" = _Mw5MayLv;
         "datapack-1.21.8" = _ifZ2XaGx;
         "datapack-1.21.9" = _ifZ2XaGx;
@@ -107,6 +119,7 @@ let
         "datapack-26.1.1" = _ifZ2XaGx;
         "datapack-26.1.2" = _ifZ2XaGx;
         "datapack-26.2" = _ifZ2XaGx;
+        "datapack-26.3" = _Qz50Xlgp;
         "fabric-1.21.7" = _I1OvKNkG;
         "fabric-1.21.8" = _sW4CH0m4;
         "fabric-1.21.9" = _sW4CH0m4;
@@ -116,6 +129,7 @@ let
         "fabric-26.1.1" = _sW4CH0m4;
         "fabric-26.1.2" = _sW4CH0m4;
         "fabric-26.2" = _sW4CH0m4;
+        "fabric-26.3" = _wRI03jFQ;
         "forge-1.21.7" = _I1OvKNkG;
         "forge-1.21.8" = _sW4CH0m4;
         "forge-1.21.9" = _sW4CH0m4;
@@ -125,6 +139,7 @@ let
         "forge-26.1.1" = _sW4CH0m4;
         "forge-26.1.2" = _sW4CH0m4;
         "forge-26.2" = _sW4CH0m4;
+        "forge-26.3" = _wRI03jFQ;
         "neoforge-1.21.7" = _I1OvKNkG;
         "neoforge-1.21.8" = _sW4CH0m4;
         "neoforge-1.21.9" = _sW4CH0m4;
@@ -134,6 +149,7 @@ let
         "neoforge-26.1.1" = _sW4CH0m4;
         "neoforge-26.1.2" = _sW4CH0m4;
         "neoforge-26.2" = _sW4CH0m4;
+        "neoforge-26.3" = _wRI03jFQ;
         "quilt-1.21.7" = _I1OvKNkG;
         "quilt-1.21.8" = _sW4CH0m4;
         "quilt-1.21.9" = _sW4CH0m4;
@@ -143,6 +159,7 @@ let
         "quilt-26.1.1" = _sW4CH0m4;
         "quilt-26.1.2" = _sW4CH0m4;
         "quilt-26.2" = _sW4CH0m4;
+        "quilt-26.3" = _wRI03jFQ;
         "pkg-1.0" = _Q6h09WJ4;
         "pkg-1.1" = _FURf3gu7;
         "pkg-1.2" = _YadNsnjt;
@@ -159,7 +176,9 @@ let
         "pkg-1.7+mod" = _CI0u5A1g;
         "pkg-1.8" = _ifZ2XaGx;
         "pkg-1.8+mod" = _sW4CH0m4;
-        "default" = _sW4CH0m4;
+        "pkg-1.9" = _Qz50Xlgp;
+        "pkg-1.9+mod" = _wRI03jFQ;
+        "default" = _wRI03jFQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mots-structures";

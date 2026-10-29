@@ -81,6 +81,31 @@ let
             "file" = "homegui-4.1.0-fabric-1.21.11.jar";
             "hash" = "sha512-n5AAk9COlXPW3WSSnkvuDvSWIiknYFYsHKSX/+N49HD5I5+2eZDnniNLT1vP4ddJLCTXtGQ68Yr0g6p1L7MEHw==";
         };
+        _S6XZlbSI = {
+            "id" = "S6XZlbSI";
+            "file" = "homegui-4.2.1-fabric-26.1.jar";
+            "hash" = "sha512-E+F/J5+6om42NqToD6EoGVDL/ao+gZDUko3/3+34XxMc4LGQwVkPLdWk/qlBDI/kvAwZxTtS10eMEenJH62kXw==";
+        };
+        _YSOSvhTK = {
+            "id" = "YSOSvhTK";
+            "file" = "homegui-4.2.1-fabric-26.1.1.jar";
+            "hash" = "sha512-9RrRhh+DrW/63Im992yPUybgHIC7LdkDcezQbZzlu1U9IfLQWEjoVvtYIFtVnQzAhAEHr5PujIxRdg0xVxxMYg==";
+        };
+        _sY2R9yL4 = {
+            "id" = "sY2R9yL4";
+            "file" = "homegui-4.2.1-fabric-26.1.2.jar";
+            "hash" = "sha512-M+5cqGDzYQB8scmocA66MNWhqsnm/RxV41tFN9iy8Mjb9nQSaZ+WThvNFFkVFVzDp6ivJHFn8mTyOiph6RyrZw==";
+        };
+        _Es0ueQe4 = {
+            "id" = "Es0ueQe4";
+            "file" = "homegui-4.2.0-fabric-26.2.jar";
+            "hash" = "sha512-NFuqmLfHKjQshLtP7RaDczawl/vP9uc6Rrjib6InSzkRrn68xNfR03okdVswyrE5ydIM2ryVvXpCu48kjbn5UQ==";
+        };
+        _vZouuAGx = {
+            "id" = "vZouuAGx";
+            "file" = "homegui-4.2.1-fabric-26.3.jar";
+            "hash" = "sha512-TB59tYwiZloNeCaVMXtcs1Tox9hnK1VigobTRnQNvMMcprAhL/mqfqSxVkJYkg79gsYGK8hTShNkcYukZHBBhg==";
+        };
     in {
         "BZz3QcLJ" = _BZz3QcLJ;
         "YeCtM7MR" = _YeCtM7MR;
@@ -98,6 +123,11 @@ let
         "N9sdKPgS" = _N9sdKPgS;
         "njk8TIS7" = _njk8TIS7;
         "8TRDZqil" = _8TRDZqil;
+        "S6XZlbSI" = _S6XZlbSI;
+        "YSOSvhTK" = _YSOSvhTK;
+        "sY2R9yL4" = _sY2R9yL4;
+        "Es0ueQe4" = _Es0ueQe4;
+        "vZouuAGx" = _vZouuAGx;
         "fabric-1.21" = _RmU1AwJj;
         "fabric-1.21.1" = _RmU1AwJj;
         "fabric-1.21.2" = _RmU1AwJj;
@@ -106,6 +136,11 @@ let
         "fabric-1.21.5" = _RmU1AwJj;
         "fabric-1.21.10" = _N9sdKPgS;
         "fabric-1.21.11" = _8TRDZqil;
+        "fabric-26.1" = _S6XZlbSI;
+        "fabric-26.1.1" = _YSOSvhTK;
+        "fabric-26.1.2" = _sY2R9yL4;
+        "fabric-26.2" = _Es0ueQe4;
+        "fabric-26.3" = _vZouuAGx;
         "pkg-1.0.0" = _BZz3QcLJ;
         "pkg-1.5.0" = _YeCtM7MR;
         "pkg-2.0.0" = _9eGSHXGw;
@@ -122,7 +157,9 @@ let
         "pkg-3.3.0-0.19.3" = _N9sdKPgS;
         "pkg-v3.5.0-0.19.3" = _njk8TIS7;
         "pkg-4.1.0-fabric-1.21.11" = _8TRDZqil;
-        "default" = _8TRDZqil;
+        "pkg-4.2.1" = _vZouuAGx;
+        "pkg-4.2.0" = _Es0ueQe4;
+        "default" = _vZouuAGx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "homegui";

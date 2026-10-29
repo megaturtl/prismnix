@@ -1656,6 +1656,11 @@ let
             "file" = "CarbonConfig-Neoforge-26.1-2.0.2.1.jar";
             "hash" = "sha512-F9Oa8NYqc1Qg8uKNf3LppFjKPvEqZzqosg5WhZLBGi8eCxImOYZIt1z46W893+/eH9tFFGAvrBcqKWzEbHs43A==";
         };
+        _qS2Zreum = {
+            "id" = "qS2Zreum";
+            "file" = "CarbonConfig-Neoforge-26.2-2.0.2.1.jar";
+            "hash" = "sha512-rDdZlFQzoPKbHwiK1EnMFQuKsO0SFUrrXrK2jORBLB3ILNMCR82bBvphCtJgLBnXE3uVXCti6L2eM5evGiqWxg==";
+        };
     in {
         "gKrMxqi0" = _gKrMxqi0;
         "YPYeenOE" = _YPYeenOE;
@@ -1988,6 +1993,7 @@ let
         "j6vx2zE2" = _j6vx2zE2;
         "WfL4zVO9" = _WfL4zVO9;
         "eMjx7LoL" = _eMjx7LoL;
+        "qS2Zreum" = _qS2Zreum;
         "forge-1.19.2" = _HMD2FUea;
         "forge-1.18.2" = _bvGfc51g;
         "forge-1.7.10" = _WfL4zVO9;
@@ -2026,6 +2032,7 @@ let
         "neoforge-1.21" = _mIrUmlpI;
         "neoforge-1.21.1" = _Mce3ulUV;
         "neoforge-26.1" = _eMjx7LoL;
+        "neoforge-26.2" = _qS2Zreum;
         "pkg-1.0.0" = _YPYeenOE;
         "pkg-1.19.2-1.1.0" = _mdJeJu9s;
         "pkg-1.1.0" = _oVIdes2V;
@@ -2060,8 +2067,8 @@ let
         "pkg-2.0.1" = _6rFUzbQy;
         "pkg-2.0.1.1" = _7P30dJn7;
         "pkg-2.0.2" = _QYnJmngw;
-        "pkg-2.0.2.1" = _eMjx7LoL;
-        "default" = _eMjx7LoL;
+        "pkg-2.0.2.1" = _qS2Zreum;
+        "default" = _qS2Zreum;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "carbon-config";

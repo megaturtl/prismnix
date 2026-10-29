@@ -206,6 +206,11 @@ let
             "file" = "whatdurability-26.3.0-2.1.jar";
             "hash" = "sha512-0X4fhjs4cDc6sMRb1ZM25w/e323k/UbhS19HTCYIFcAwdUY5cu3YWoxaNXa7Ep39o0iY1mPO+Z+4lq+HgJuJRg==";
         };
+        _5BEGSjLd = {
+            "id" = "5BEGSjLd";
+            "file" = "whatdurability-26.1.2-2.1.jar";
+            "hash" = "sha512-R46ZB9f6kuF+lECndfFRPLbXt8v8DvSRTvSP0Exyes0oFudHjcPLc839NZLOzO1CZCHIw7qOTkz7ZpGPPGf/wA==";
+        };
     in {
         "rPhIIWli" = _rPhIIWli;
         "OW3q40FT" = _OW3q40FT;
@@ -248,6 +253,7 @@ let
         "jlXritl6" = _jlXritl6;
         "gEiFmW0K" = _gEiFmW0K;
         "7vAlsC93" = _7vAlsC93;
+        "5BEGSjLd" = _5BEGSjLd;
         "fabric-1.19.2" = _rPhIIWli;
         "fabric-1.20.1" = _rlFrcVpn;
         "fabric-1.20.4" = _8ywyzztC;
@@ -267,7 +273,7 @@ let
         "fabric-1.21.11" = _Yhl4dq82;
         "fabric-26.1" = _VASByanW;
         "fabric-26.1.1" = _oPbtETbL;
-        "fabric-26.1.2" = _C2Oiw1DS;
+        "fabric-26.1.2" = _5BEGSjLd;
         "fabric-26.2" = _gEiFmW0K;
         "fabric-26.3" = _7vAlsC93;
         "forge-1.19.2" = _rPhIIWli;
@@ -287,7 +293,7 @@ let
         "forge-1.21.11" = _Yhl4dq82;
         "forge-26.1" = _VASByanW;
         "forge-26.1.1" = _oPbtETbL;
-        "forge-26.1.2" = _C2Oiw1DS;
+        "forge-26.1.2" = _5BEGSjLd;
         "forge-26.2" = _gEiFmW0K;
         "forge-26.3" = _7vAlsC93;
         "quilt-1.19.2" = _rPhIIWli;
@@ -309,7 +315,7 @@ let
         "quilt-1.21.11" = _Yhl4dq82;
         "quilt-26.1" = _VASByanW;
         "quilt-26.1.1" = _oPbtETbL;
-        "quilt-26.1.2" = _C2Oiw1DS;
+        "quilt-26.1.2" = _5BEGSjLd;
         "quilt-26.2" = _gEiFmW0K;
         "quilt-26.3" = _7vAlsC93;
         "neoforge-1.20.1" = _rlFrcVpn;
@@ -330,7 +336,7 @@ let
         "neoforge-1.21.11" = _Yhl4dq82;
         "neoforge-26.1" = _VASByanW;
         "neoforge-26.1.1" = _oPbtETbL;
-        "neoforge-26.1.2" = _C2Oiw1DS;
+        "neoforge-26.1.2" = _5BEGSjLd;
         "neoforge-26.2" = _gEiFmW0K;
         "neoforge-26.3" = _7vAlsC93;
         "pkg-1.19.2-1.0-fabric+forge" = _rPhIIWli;
@@ -374,7 +380,8 @@ let
         "pkg-1.21.1-2.1-fabric+forge+neo" = _jlXritl6;
         "pkg-26.2.0-2.1-fabric+forge+neo" = _gEiFmW0K;
         "pkg-26.3.0-2.1-fabric+forge+neo" = _7vAlsC93;
-        "default" = _7vAlsC93;
+        "pkg-26.1.2-2.1-fabric+forge+neo" = _5BEGSjLd;
+        "default" = _5BEGSjLd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "what-durability";

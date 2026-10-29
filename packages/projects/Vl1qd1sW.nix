@@ -401,6 +401,11 @@ let
             "file" = "manure-26.3.0-4.1.jar";
             "hash" = "sha512-bkItReRHolAQPTGofecJWuAHRIJzOHnnsTnFnhXj8XHtzCjTr15Nxg1w4Ty5GhEHsmH+7lMWhpxh9EbDD5hQVQ==";
         };
+        _jD5qk8ZZ = {
+            "id" = "jD5qk8ZZ";
+            "file" = "manure-26.1.2-4.1.jar";
+            "hash" = "sha512-9OA3PFOrPZ1qfMxL9unpjGGBmSOjrETlRQVwH6gYiAc0mGPDrds4gXYKhjr06BcfePve0S6AE3+D7bGT+xOLtA==";
+        };
     in {
         "4F64mQdj" = _4F64mQdj;
         "kUi9ZBeh" = _kUi9ZBeh;
@@ -482,6 +487,7 @@ let
         "9uUv7fzi" = _9uUv7fzi;
         "Zi1qE8xd" = _Zi1qE8xd;
         "ey0vOnjV" = _ey0vOnjV;
+        "jD5qk8ZZ" = _jD5qk8ZZ;
         "fabric-1.16.5" = _M4Ym9rQG;
         "fabric-1.18.2" = _bQg9Qoi1;
         "fabric-1.19.2" = _YxYT5w5G;
@@ -508,7 +514,7 @@ let
         "fabric-1.21.11" = _DF7cUqDT;
         "fabric-26.1" = _ymW8szxc;
         "fabric-26.1.1" = _sJ3XSUWS;
-        "fabric-26.1.2" = _raWWL4VL;
+        "fabric-26.1.2" = _jD5qk8ZZ;
         "fabric-26.2" = _Zi1qE8xd;
         "fabric-26.3" = _ey0vOnjV;
         "forge-1.16.5" = _DjhQgKWc;
@@ -535,7 +541,7 @@ let
         "forge-1.21.11" = _DF7cUqDT;
         "forge-26.1" = _ymW8szxc;
         "forge-26.1.1" = _sJ3XSUWS;
-        "forge-26.1.2" = _raWWL4VL;
+        "forge-26.1.2" = _jD5qk8ZZ;
         "forge-26.2" = _Zi1qE8xd;
         "forge-26.3" = _ey0vOnjV;
         "quilt-1.18.2" = _bQg9Qoi1;
@@ -563,7 +569,7 @@ let
         "quilt-1.21.11" = _DF7cUqDT;
         "quilt-26.1" = _ymW8szxc;
         "quilt-26.1.1" = _sJ3XSUWS;
-        "quilt-26.1.2" = _raWWL4VL;
+        "quilt-26.1.2" = _jD5qk8ZZ;
         "quilt-26.2" = _Zi1qE8xd;
         "quilt-26.3" = _ey0vOnjV;
         "neoforge-1.20.2" = _AJaVcexC;
@@ -586,7 +592,7 @@ let
         "neoforge-1.21.11" = _DF7cUqDT;
         "neoforge-26.1" = _ymW8szxc;
         "neoforge-26.1.1" = _sJ3XSUWS;
-        "neoforge-26.1.2" = _raWWL4VL;
+        "neoforge-26.1.2" = _jD5qk8ZZ;
         "neoforge-26.2" = _Zi1qE8xd;
         "neoforge-26.3" = _ey0vOnjV;
         "pkg-1.16.5-1.0-fabric" = _4F64mQdj;
@@ -669,7 +675,8 @@ let
         "pkg-1.21.1-4.1-fabric+forge+neo" = _9uUv7fzi;
         "pkg-26.2.0-4.1-fabric+forge+neo" = _Zi1qE8xd;
         "pkg-26.3.0-4.1-fabric+forge+neo" = _ey0vOnjV;
-        "default" = _ey0vOnjV;
+        "pkg-26.1.2-4.1-fabric+forge+neo" = _jD5qk8ZZ;
+        "default" = _jD5qk8ZZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "manure";

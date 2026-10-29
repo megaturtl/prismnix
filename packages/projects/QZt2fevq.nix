@@ -906,6 +906,11 @@ let
             "file" = "natural-temperature-1.1.11-FABRIC-MC-26.3.jar";
             "hash" = "sha512-B/ZOzjTDlQIAzVJ2x5rBYkaPu2ia/4vJuxf6Zn9WbeuA7ZxBqKQh4Anri8on0OFhggXUVaYDb4v7o7gCC9n+ng==";
         };
+        _yWNAsFX9 = {
+            "id" = "yWNAsFX9";
+            "file" = "natural-temperature-1.2-FABRIC-MC-1.21.6.jar";
+            "hash" = "sha512-lqLtPr+V89Upnw6UsEAm6/+8rkMvW47Kzw8ylh168pDi6P6+O4mllI98VWgt8WEyPVU1k8TiD5bnalVm7Luh8g==";
+        };
     in {
         "tydxrdhC" = _tydxrdhC;
         "NojYw1ze" = _NojYw1ze;
@@ -1088,15 +1093,16 @@ let
         "zX2j8apm" = _zX2j8apm;
         "zMyREpgW" = _zMyREpgW;
         "kQteHRBR" = _kQteHRBR;
+        "yWNAsFX9" = _yWNAsFX9;
         "fabric-1.21.4" = _FRFxovyZ;
         "fabric-1.21.5" = _FRFxovyZ;
         "fabric-1.20.1" = _GdrGPj9v;
         "fabric-1.21.1" = _FRFxovyZ;
-        "fabric-1.21.6" = _WhEkjhpt;
-        "fabric-1.21.7" = _WhEkjhpt;
-        "fabric-1.21.8" = _WhEkjhpt;
-        "fabric-1.21.9" = _WhEkjhpt;
-        "fabric-1.21.10" = _WhEkjhpt;
+        "fabric-1.21.6" = _yWNAsFX9;
+        "fabric-1.21.7" = _yWNAsFX9;
+        "fabric-1.21.8" = _yWNAsFX9;
+        "fabric-1.21.9" = _yWNAsFX9;
+        "fabric-1.21.10" = _yWNAsFX9;
         "fabric-1.21.2" = _FRFxovyZ;
         "fabric-1.21.3" = _FRFxovyZ;
         "fabric-1.20.2" = _ayOaAP61;
@@ -1104,7 +1110,7 @@ let
         "fabric-1.20.4" = _ayOaAP61;
         "fabric-1.20.5" = _ayOaAP61;
         "fabric-1.20.6" = _ayOaAP61;
-        "fabric-1.21.11" = _WhEkjhpt;
+        "fabric-1.21.11" = _yWNAsFX9;
         "fabric-26.1" = _PPlLp46X;
         "fabric-26.1.1" = _PPlLp46X;
         "fabric-26.1.2" = _PPlLp46X;
@@ -1162,7 +1168,8 @@ let
         "pkg-1.1.9" = _ivTtRcz7;
         "pkg-1.1.10" = _zMyREpgW;
         "pkg-1.1.11" = _kQteHRBR;
-        "default" = _kQteHRBR;
+        "pkg-1.2" = _yWNAsFX9;
+        "default" = _yWNAsFX9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "natural-temperature";
